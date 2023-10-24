@@ -99,6 +99,8 @@ The sample code in this walkthrough is for an application that does nothing. The
 
    ---
 
+After you update the code file, save your changes and build the solution.
+
 1. On the **File** menu, select **Save All**.
 
 1. On the **Build** menu, select **Rebuild Solution**.

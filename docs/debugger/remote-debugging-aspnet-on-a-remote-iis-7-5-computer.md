@@ -160,20 +160,21 @@ You can use this option to deploy your app if you want to copy the app to IIS us
 
 You can also publish and deploy the app using the file system or other tools.
 
-1. (ASP.NET 4.8) Make sure that the web.config file lists the correct version of .NET.  For example, if you're targeting ASP.NET 4.8, make sure this version is listed in web.config.
+For ASP.NET 4.8, make sure the web.config file lists the correct version of .NET.
 
-    ```xml
-    <system.web>
-      <compilation debug="true" targetFramework="4.8" />
-      <httpRuntime targetFramework="4.8" />
-      <httpModules>
-        <add name="ApplicationInsightsWebTracking" type="Microsoft.ApplicationInsights.Web.ApplicationInsightsHttpModule, Microsoft.AI.Web" />
-      </httpModules>
-    </system.web>
+- If you're targeting ASP.NET 4.8, make sure this version value is listed in the web.config file:
 
-    ```
+   ```xml
+      <system.web>
+        <compilation debug="true" targetFramework="4.8" />
+        <httpRuntime targetFramework="4.8" />
+        <httpModules>
+          <add name="ApplicationInsightsWebTracking" type="Microsoft.ApplicationInsights.Web.ApplicationInsightsHttpModule, Microsoft.AI.Web" />
+        </httpModules>
+      </system.web>
+      ```
 
-    For example, the version should be 4.0 if you install ASP.NET 4 instead of 4.8.
+- If you install ASP.NET 4 instead of 4.8, the version value should be specified as 4.0 in the web.config file.
 
 [!INCLUDE [remote-debugger-deploy-app-local](../debugger/includes/remote-debugger-deploy-app-local.md)]
 
@@ -256,22 +257,26 @@ In most setups, required ports are opened by the installation of ASP.NET and the
 
 Required ports:
 
-* 80 - Required for IIS
+* 80: Required for IIS.
+
 ::: moniker range=">=vs-2022"
-* 4026 - Required for remote debugging from Visual Studio 2022 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
+* 4026: Required for remote debugging from Visual Studio 2022 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
 ::: moniker-end
 
-* 4024 - Required for remote debugging from Visual Studio 2019 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
+* 4024: Required for remote debugging from Visual Studio 2019 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
 
-* UDP 3702 - (Optional) Discovery port enables you to the **Find** button when attaching to the remote debugger in Visual Studio.
+* UDP 3702: (Optional) Discovery port enables you to the **Find** button when attaching to the remote debugger in Visual Studio.
 
 In addition, these ports should already be opened by the ASP.NET installation:
-- 8172 - (Optional) Required for Web Deploy to deploy the app from Visual Studio
+
+* 8172: (Optional) Required for Web Deploy to deploy the app from Visual Studio.
+
+### Open a port
 
 1. To open a port on Windows Server, open the **Start** menu, search for **Windows Firewall with Advanced Security**.
 
-2. Then choose **Inbound Rules > New Rule > Port**. Choose **Next** and under **Specific local ports**, enter the port number, select **Next**, then **Allow the Connection**, select Next, and add the name (**IIS**, **Web Deploy**, or **msvsmon**) for the Inbound Rule.
+1. Then choose **Inbound Rules > New Rule > Port**. Choose **Next** and under **Specific local ports**, enter the port number, select **Next**, then **Allow the Connection**, select Next, and add the name (**IIS**, **Web Deploy**, or **msvsmon**) for the Inbound Rule.
 
-    If you want more details on configuring Windows Firewall, see [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md).
+   If you want more details on configuring Windows Firewall, see [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md).
 
-3. Create more rules for the other required ports.
+1. Create more rules for the other required ports.

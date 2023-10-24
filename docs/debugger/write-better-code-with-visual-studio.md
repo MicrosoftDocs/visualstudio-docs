@@ -32,17 +32,21 @@ To demonstrate these tasks, we show a few of the most common types of errors and
 
 The following code has some bugs that you can fix using the Visual Studio IDE. This application is a simple app that simulates getting JSON data from some operation, deserializing the data to an object, and updating a simple list with the new data.
 
-To create the app:
+To create the app, you must have Visual Studio installed and the **.NET desktop development** workload installed.
 
-1. You must have Visual Studio installed and the **.NET desktop development** workload installed.
+- If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
 
-    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+- If you need to install the workload but already have Visual Studio, select **Tools** > **Get Tools and Features**. The Visual Studio Installer launches. Choose the **.NET desktop development** workload, then choose **Modify**.
 
-    If you need to install the workload but already have Visual Studio, select **Tools** > **Get Tools and Features**. The Visual Studio Installer launches. Choose the **.NET desktop development** workload, then choose **Modify**.
+Follow these steps to create the application:
 
-1. Open Visual Studio.
+1. Open Visual Studio. On the start window, select **Create a new project**.
 
-    On the start window, choose **Create a new project**. Type **console** in the search box and then choose either **Console App** for .NET. Choose **Next**. Type a project name like **Console_Parse_JSON** and select **Next** or **Create**, whichever option is available.
+1. In the search box, enter **console** and then one of the **Console App** options for .NET.
+
+1. Select **Next**.
+
+1. Enter a project name like **Console_Parse_JSON**, and then select **Next** or **Create**, as applicable.
 
     Choose either the recommended target framework or .NET 8, and then choose **Create**.
 
@@ -50,7 +54,7 @@ To create the app:
 
     Visual Studio creates the console project, which appears in Solution Explorer in the right pane.
 
-1. Replace the default code in the project's *Program.cs* file with the following sample code.
+When the project is ready, replace the default code in the project's *Program.cs* file with the following sample code:
 
 ```csharp
 using System;

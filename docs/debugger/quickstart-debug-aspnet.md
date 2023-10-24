@@ -26,9 +26,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
     Visual Studio creates the project.
 
-<!-- The file Pages/About.cshtml doesn't exist in the ASP.NET Web project created by VS 2022. -->
-
-1. In Solution Explorer, open About.cshtml.cs (under Pages/About.cshtml) and replace the following code
+1. In Solution Explorer, open About.cshtml.cs (under Pages/About.cshtml) and replace the following code. <!-- The file Pages/About.cshtml doesn't exist in the ASP.NET Web project created by VS 2022. -->
 
     ```csharp
     public void OnGet()
