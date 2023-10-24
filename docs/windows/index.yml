@@ -48,11 +48,8 @@ conceptualContent:
         - text: Open code from a repo
           url: ../get-started/tutorial-open-project-from-repo.md
           itemType: tutorial
-        - text: Get started with AI-assisted development
+        - text: Get assistance from AI
           url: ../ide/ai-assisted-development-visual-studio.md
-          itemType: overview
-        - text: Configure Visual Studio caches on Dev Box
-          url: /azure/dev-box/how-to-generate-visual-studio-caches
           itemType: overview
     - title: Follow a tutorial
       links:
