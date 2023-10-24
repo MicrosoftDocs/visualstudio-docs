@@ -14,12 +14,12 @@ ms.technology: vs-ide-general
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-If you’re authenticated to GitHub or Azure DevOps and have [pushed changes to your remote repository](git-push-remote.md), you can create a pull request without leaving Visual Studio. Pull requests are an essential tool in GitHub and Azure DevOps for code review.  These reviews help catch issues in new features and allow teammates to share their experience with different regions of the codebase – improving the health of the codebase overall.  
+If you’re authenticated to GitHub or Azure DevOps and have pushed changes to your remote repository, you can create a pull request without leaving Visual Studio. Pull requests are an essential tool in GitHub and Azure DevOps for code review.  These reviews help catch issues in new features and allow teammates to share their experience with different regions of the codebase – improving the health of the codebase overall.  
 
 > [!NOTE]
 > To try out the feature, ensure it’s enabled in **Tools** > **Options** > **Preview Features** > **Pull Request**
 
-The basic flow follows these steps:
+To create a pull request, follow these steps:
 
 1. Before you can create a pull request, you need to [create a new branch](git-create-branch.md) for your changes. This branch keeps your modifications separate from the main branch until they’re ready to be merged.
 
@@ -29,7 +29,7 @@ The basic flow follows these steps:
 
    :::image type="content" source="media/vs-2022/git-create-pr-infobar.png" alt-text="The Git Changes window with the infobar 'Successfully pushed to origin/featurebranch5. Create a Pull Request' text highlighted in Visual Studio 2022.":::
    
-   Alternatively, you can create a pull request from a remote branch by navigating to the New Pull Request window via the top-level menu **Git** > **GitHub** or **Azure DevOps** > **New Pull Request**. Or right-click a branch in the Git Repository Window.
+   Alternatively, you can create a pull request from a remote branch by navigating to the **New Pull Request** window via the top-level menu **Git** > **GitHub** or **Azure DevOps** > **New Pull Request**. Or right-click a branch in the Git Repository Window.
    
    :::image type="content" source="media/vs-2022/git-create-pr-top-level-menu.png" alt-text="The Git top level menu with GitHub selected and 'New Pull Request' text highlighted in Visual Studio 2022."::: 
 
