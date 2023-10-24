@@ -47,6 +47,8 @@ This article includes steps on setting up a basic configuration of IIS on Window
 
     Choose either the recommended target framework or .NET 8, and then choose **Create**.
 
+<!-- Not able to locate the About.cshtml.cs file in the ASP.NET project created by VS 2022. -->
+
 2. Open the About.cshtml.cs file and set a breakpoint in the `OnGet` method (in older templates, open HomeController.cs instead and set the breakpoint in the `About()` method).
 
 ## <a name="bkmk_configureIIS"></a> Install and Configure IIS on Windows Server
