@@ -14,9 +14,6 @@ ms.technology: vs-ide-sdk
 
 VisualStudio.Extensibility is a new framework for developing Visual Studio extensions. The new framework focuses primarily on extensions that run out-of-process from the IDE for improved performance and reliability, and it features a modern, asynchronous API that has been streamlined and carefully engineered to maximize developer productivity. VisualStudio.Extensibility is in active development and is available as a preview.
 
- > [!div class="button"]
- > [Download VisualStudio.Extensibility preview](https://marketplace.visualstudio.com/items?itemName=vsext.gladstone)
-
 With the current preview, you can develop a wide range of extensions to Visual Studio, including creating commands, working with code or text in the editor, displaying prompts or dialogs to the user, creating debugger visualizers, and more!
 
 VisualStudio.Extensibility aims to address many of the problems developers experience when using and writing extensions in Visual Studio:
@@ -43,9 +40,7 @@ The latest information on VisualStudio.Extensibility may be found in the VSExten
 
 ## Install VisualStudio.Extensibility
 
-The current VisualStudio.Extensibility preview works with Visual Studio 2022 version 17.8 Preview 1 or higher with the `.Net desktop development` workload to be installed.
-
-Install the [VisualStudio.Extensibility Project System](https://marketplace.visualstudio.com/items?itemName=vsext.gladstone) extension. This extension contains project and item templates, and so you can debug extension projects using `F5`.
+The current VisualStudio.Extensibility preview works with Visual Studio 2022 version 17.9 Preview 1 or higher with the `Visual Studio extension development` workload to be installed.
 
 ## Get started
 

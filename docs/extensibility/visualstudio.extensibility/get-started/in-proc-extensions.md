@@ -28,10 +28,9 @@ This document is a quick walkthrough on different options to utilize VisualStudi
 
 While the VisualStudio.Extensibility model was created primarily to host extensions outside of the devenv.exe process, starting with Visual Studio 2022 17.4 Preview 1 it's possible to build a VisualStudio.Extensibility extension that's hosted within devenv.exe and can use traditional extensibility APIs provided by the [Microsoft.VisualStudio.Sdk](https://www.nuget.org/packages/Microsoft.VisualStudio.Sdk) packages.
 
-
 ## Prerequisites
 
-* Visual Studio 2022.9 Preview 1 or higher with the `Visual Studio extension development` workload. 
+* Visual Studio 2022.9 Preview 1 or higher with the `Visual Studio extension development` workload.
 * If you're updating from earlier builds, make sure to uninstall VisualStudio.Extensibility Project System to avoid potential conflicts.
 
 ## Create the extension project
@@ -44,7 +43,7 @@ While the VisualStudio.Extensibility model was created primarily to host extensi
 
 * Set the *Container* project as *Startup Project*, press `F5` to start debugging.
 
-* Presing `F5` builds your extension and deploys it to the experimental instance of Visual Studio version you're using. The debugger should attach once your extension is loaded.
+* Pressing `F5` builds your extension and deploys it to the experimental instance of Visual Studio version you're using. The debugger should attach once your extension is loaded.
 
 * You can find the command in `Extensions` menu as shown in the following image:
 
