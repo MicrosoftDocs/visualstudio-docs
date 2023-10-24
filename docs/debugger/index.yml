@@ -63,6 +63,8 @@ landingContent:
         links:
           - text: Debugger tips and tricks
             url: debugger-tips-and-tricks.md
+          - text: Debug with Copilot
+            url: debug-with-copilot.md
           - text: Write and debug running XAML code
             url: ../xaml-tools/xaml-hot-reload.md
           - text: Debug a live Azure app
@@ -90,6 +92,8 @@ landingContent:
             url: ../profiling/beginners-guide-to-performance-profiling.md
           - text: Get started measuring memory usage
             url: ../profiling/memory-usage.md
+          - text: AI-assisted CPU usage auto insights
+            url: debug-with-copilot.md#ai-assisted-auto-insights
       - linkListType: overview
         links:
           - text: First look at profiling tools
