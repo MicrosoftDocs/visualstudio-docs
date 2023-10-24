@@ -33,7 +33,7 @@ The project template or the sample you created in the [Create your first extensi
 ```csharp
 public override CommandConfiguration CommandConfiguration => new("%InsertGuidCommand.DisplayName%")
 {
-    Placements = new[] { CommandPlacement.KnownPlacements.ExtensionsMenu },
+    Placements = new[] { CommandPlacement.KnownPlacements.ExtensionsMenu() },
 };
 ```
 
@@ -54,7 +54,7 @@ The argument to the `CommandConfiguration` constructor is the command's display 
 ```csharp
 public override CommandConfiguration CommandConfiguration => new("%InsertGuidCommand.DisplayName%")
 {
-    Placements = new[] { CommandPlacement.KnownPlacements.ExtensionsMenu },
+    Placements = new[] { CommandPlacement.KnownPlacements.ExtensionsMenu() },
     Icon = new(ImageMoniker.KnownValues.OfficeWebExtension, IconSettings.IconAndText),
 };
 ```
@@ -66,7 +66,7 @@ You can specify a known built-in icon, in this case `OfficeWebExtension`, or upl
 ```csharp
 public override CommandConfiguration CommandConfiguration => new("%InsertGuidCommand.DisplayName%")
 {
-    Placements = new[] { CommandPlacement.KnownPlacements.ExtensionsMenu },
+    Placements = new[] { CommandPlacement.KnownPlacements.ExtensionsMenu() },
     Icon = new(ImageMoniker.KnownValues.OfficeWebExtension, IconSettings.IconAndText),
     VisibleWhen = ActivationConstraint.ClientContext(ClientContextKey.Shell.ActiveEditorContentType, ".+"),
 };
@@ -93,11 +93,10 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
             return;
         }
 
-        var document = await textView.GetTextDocumentAsync(cancellationToken);
         await this.Extensibility.Editor().EditAsync(
             batch =>
             {
-                document.AsEditable(batch).Replace(textView.Selection.Extent, newGuidString);
+                textView.Document.AsEditable(batch).Replace(textView.Selection.Extent, newGuidString);
             },
             cancellationToken);
     }
@@ -106,8 +105,6 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 The first line validates the arguments, then we create a new `Guid` to use later.
 
 Then, we create an `ITextViewSnapshot` (the `textView` object here) by calling the asynchronous method `GetActiveTextViewAsync`. A cancellation token is passed in to preserve the ability to cancel the asynchronous request, but this isn't demonstrated in this sample. If we don't get a text view successfully, we'll write to the log and terminate without doing anything else.
-
-Next, we request the document, an instance of `ITextDocumentSnapshot` (here `document`).
 
 Now we're ready to call the asynchronous method that submits an edit request to Visual Studio's editor. The method we want is `EditAsync`. That's a member of the `EditorExtensibility` class, which allows interaction with the running Visual Studio Editor in the IDE. The `Command` type, which your own `InsertGuidCommand` class inherits from, has a member `Extensibility` that provides access to the `EditorExtensibility` object, so we can get to the `EditorExtensibility` class with a call to `this.Extensibility.Editor()`.
 
@@ -119,7 +116,7 @@ The call to `EditAsync` uses a lambda expression. To break this down a little, y
 await this.Extensibility.Editor().EditAsync(
     batch =>
     {
-        var editor = document.AsEditable(batch);
+        var editor = textView.Document.AsEditable(batch);
         // specify the desired changes here:
         editor.Replace(textView.Selection.Extent, newGuidString);
     },
