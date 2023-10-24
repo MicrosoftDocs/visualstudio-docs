@@ -21,14 +21,16 @@ monikerRange: '>= vs-2022'
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-The private preview of GitHub Copilot chat for Visual Studio 2022 supports many interactive debugging scenarios, including AI-assisted chat for debugging questions related to your variables, the call stack, and other code elements, along with highly targeted help associated with an **Ask Copilot** link.
+[GitHub Copilot chat for Visual Studio 2022](../ide/visual-studio-github-copilot-chat.md) supports many interactive debugging scenarios, including AI-assisted chat for debugging questions related to your variables, the call stack, and other code elements, along with highly targeted help associated with an **Ask Copilot** link.
 
 For related videos, see the [blog post announcement](https://devblogs.microsoft.com/visualstudio/simplified-code-refinement-and-debugging-with-github-copilot-chat/
 ).
 
+Learn more about [AI-assisted development in Visual Studio](../ide/ai-assisted-development-visual-studio.md) and how to [use Copilot Chat in Visual Studio](../ide/visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio).
+
 ## Prerequisites
 
-To use the private preview of Copilot with the debugging features, you must have Visual Studio 2022 version 17.7.4 or later, a [GitHub Copilot subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot), and the Copilot extensions for Visual Studio installed:
+To use Copilot with the debugging features, you must have Visual Studio 2022 version 17.7.4 or later, a [GitHub Copilot subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot), and the Copilot extensions for Visual Studio installed:
 
 - [GitHub Copilot installation instructions](https://docs.github.com/en/copilot/getting-started-with-github-copilot?tool=visualstudio)
 - [GitHub Copilot Chat installation instructions](https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat?tool=visualstudio)

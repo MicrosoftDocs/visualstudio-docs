@@ -17,9 +17,17 @@ You can personalize Visual Studio in various ways to best support your own devel
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Customize the Visual Studio for Mac IDE](/visualstudio/mac/customizing-the-ide).
 
-## Default settings
+## Default environment settings for Visual Studio
 
-You can choose a default collection of settings that optimizes Visual Studio for your type of development. For more information, see [Environment settings](environment-settings.md).
+You can choose a default collection of settings that optimizes Visual Studio for your type of development. 
+
+In Visual Studio, you can optimize your development environment for the type of development work you do by selecting **Tools** > **Import and Export Settings Wizard**. From this wizard, you can choose a specific collection of settings that best matches your development environment. Each collection of settings optimizes elements such as keyboard shortcuts, window layouts, project and item templates, and command visibility.
+
+The following settings collections are available, `General`, `JavaScript`, `Visual Basic`, `Visual C#`,  `Visual C++`, `Web Development`, and `Web Development (Code Only)`.
+
+You can use the wizard to export your own environment settings or import specific categories of settings. These settings can include ones that you've previously saved or received from someone else.
+
+You can also use the wizard to reset the environment to one of the default collections of settings. 
 
 ## General environment options
 
