@@ -63,6 +63,20 @@ landingContent:
             url: ../ide/productivity-features.md
 
   # Card
+  - title: Use AI assistance tools in Visual Studio
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: AI-assisted development in Visual Studio
+            url: ../ide/ai-assisted-development-visual-studio.md
+          - text: Use GitHub Copilot
+            url: ../ide/visual-studio-github-copilot-extension.md
+          - text: Use GitHub Copilot Chat 
+            url: ../ide/visual-studio-github-copilot-chat.md
+          - text: Debug with Copilot
+            url: ../debugger/debug-with-copilot.md
+
+  # Card
   - title: Develop in your language
     linkLists:
       - linkListType: tutorial
