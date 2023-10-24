@@ -126,17 +126,15 @@ When you're ready, switch to a debug configuration.
 
 ::: moniker range=">=vs-2022"
 1. Select **More Options** > **Edit** to edit the profile, and then select **Settings**.
-   
 1. Select a **Debug** configuration, and then select **Remove additional files at destination** under the **File Publish** options.
+1. Select **Save** and then republish the app.
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 1. Select **Edit** to edit the profile, and then select **Settings**.
-   
 1. Select a **Debug** configuration, and then select **Remove additional files at destination** under the **File Publish** options.
-::: moniker-end
-
 1. Select **Save** and then republish the app.
+::: moniker-end
 
 ## (Optional) Deploy by publishing to a local folder
 
