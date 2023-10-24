@@ -77,13 +77,14 @@ When you download the software, you might get requests to grant permission to lo
 
 1. Install the .NET Core Hosting Bundle on the hosting system. The bundle installs the .NET Core Runtime, .NET Core Library, and the ASP.NET Core Module. For more in-depth instructions, see [Publishing to IIS](/aspnet/core/publishing/iis?tabs=aspnetcore2x#iis-configuration).
 
-    For the current .NET Core hosting bundle, install the [ASP.NET Core Hosting Bundle](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer).
-    For .NET Core 2, install the [.NET Core Windows Server Hosting](https://aka.ms/dotnetcore-2-windowshosting).
+   For the current .NET Core hosting bundle, install the [ASP.NET Core Hosting Bundle](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer).
 
-    > [!NOTE]
-    > If the system doesn't have an Internet connection, obtain and install the *[Microsoft Visual C++ 2015 Redistributable](https://www.microsoft.com/download/details.aspx?id=53840)* before installing the .NET Core Windows Server Hosting bundle.
+   For .NET Core 2, install the [.NET Core Windows Server Hosting](https://aka.ms/dotnetcore-2-windowshosting).
 
-2. Restart the system (or execute **net stop was /y** followed by **net start w3svc** from a command prompt to pick up a change to the system PATH).
+   > [!NOTE]
+   > If the system doesn't have an Internet connection, obtain and install the *[Microsoft Visual C++ 2015 Redistributable](https://www.microsoft.com/download/details.aspx?id=53840)* before installing the .NET Core Windows Server Hosting bundle.
+
+1. Restart the system (or execute **net stop was /y** followed by **net start w3svc** from a command prompt to pick up a change to the system PATH).
 
 ## Choose a deployment option
 
@@ -104,7 +105,7 @@ You can use this option create a publish settings file and import it into Visual
 
 1. In IIS Manager, in the left pane under **Connections**, select **Application Pools**. Open **DefaultAppPool** and set the **.NET CLR version** to **No Managed Code**. This is required for ASP.NET Core. The Default Web Site uses the DefaultAppPool.
 
-2. Stop and restart the DefaultAppPool.
+1. Stop and restart the DefaultAppPool.
 
 ### Install and configure Web Deploy on Windows Server
 
@@ -121,12 +122,27 @@ You can use this option create a publish settings file and import it into Visual
 > [!NOTE]
 > If you restart an Azure VM, the IP address might change.
 
-After the app deploys successfully, it should start automatically. If the app doesn't start from Visual Studio, start the app in IIS to verify that it runs correctly. For ASP.NET Core, you also need to make sure that the Application pool field for the **DefaultAppPool** is set to **No Managed Code**.
+After the app deploys successfully, it should start automatically.
 
-1. In the **Settings** dialog box, enable debugging by clicking **Next**, choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
+- If the app doesn't start from Visual Studio, start the app in IIS to verify that it runs correctly. 
+- For ASP.NET Core, make sure the Application pool field for the **DefaultAppPool** is set to **No Managed Code**.
 
-    > [!IMPORTANT]
-    > If you choose a Release configuration, you disable debugging in the *web.config* file when you publish.
+When you're ready, switch to a debug configuration.
+
+> [!IMPORTANT]
+> If you choose to debug a Release configuration, you disable debugging in the *web.config* file when you publish.
+
+::: moniker range=">=vs-2022"
+1. Select **More Options** > **Edit** to edit the profile, and then select **Settings**.
+   
+1. Select a **Debug** configuration, and then select **Remove additional files at destination** under the **File Publish** options.
+::: moniker-end
+
+::: moniker range="vs-2019"
+1. Select **Edit** to edit the profile, and then select **Settings**.
+   
+1. Select a **Debug** configuration, and then select **Remove additional files at destination** under the **File Publish** options.
+::: moniker-end
 
 1. Select **Save** and then republish the app.
 
@@ -140,13 +156,13 @@ If you're importing publish settings, you can skip this section.
 
 1. Open the **Internet Information Services (IIS) Manager** and go to **Sites**.
 
-2. Right-click the **Default Web Site** node and select **Add Application**.
+1. Right-click the **Default Web Site** node and select **Add Application**.
 
-3. Set the **Alias** field to **MyASPApp** and the Application pool field to **No Managed Code**. Set the **Physical path** to **C:\Publish** (where you later deploy the ASP.NET Core project).
+1. Set the **Alias** field to **MyASPApp** and the Application pool field to **No Managed Code**. Set the **Physical path** to **C:\Publish** (where you later deploy the ASP.NET Core project).
 
-4. With the site selected in the IIS Manager, choose **Edit Permissions**, and make sure that IUSR, IIS_IUSRS, or the user configured for the Application Pool is an authorized user with Read & Execute rights.
+1. With the site selected in the IIS Manager, choose **Edit Permissions**, and make sure that IUSR, IIS_IUSRS, or the user configured for the Application Pool is an authorized user with Read & Execute rights.
 
-    If you don't see one of these users with access, go through steps to add IUSR as a user with Read & Execute rights.
+   If you don't see one of these users with access, go through steps to add IUSR as a user with Read & Execute rights.
 
 ### (Optional) Publish and Deploy the app by publishing to a local folder from Visual Studio
 

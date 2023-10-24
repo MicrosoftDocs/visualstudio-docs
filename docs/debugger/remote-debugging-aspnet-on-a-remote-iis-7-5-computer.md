@@ -117,20 +117,24 @@ You can use this option to create a publish settings file and import it into Vis
 
 [!INCLUDE [install-web-deploy-with-hosting-server](../deployment/includes/import-publish-settings-vs.md)]
 
-After the app deploys successfully, it should start automatically. If the app doesn't start from Visual Studio, start the app in IIS.
+After the app deploys successfully, it should start automatically. If the app doesn't start from Visual Studio, start the app in IIS to verify that it runs correctly. 
 
-1. Switch to a debug configuration.
+When you're ready, switch to a debug configuration.
 
-   ::: moniker range=">=vs-2022"
-   Choose **More Options** > **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
-   ::: moniker-end
+> [!IMPORTANT]
+> If you choose to debug a Release configuration, you disable debugging in the *web.config* file when you publish.
 
-   ::: moniker range="vs-2019"
-   Choose **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
-   ::: moniker-end
+::: moniker range=">=vs-2022"
+1. Select **More Options** > **Edit** to edit the profile, and then select **Settings**.
+   
+1. Select a **Debug** configuration, and then select **Remove additional files at destination** under the **File Publish** options.
+::: moniker-end
 
-   > [!IMPORTANT]
-   > If you choose a Release configuration, you disable debugging in the *web.config* file when you publish.
+::: moniker range="vs-2019"
+1. Select **Edit** to edit the profile, and then select **Settings**.
+   
+1. Select a **Debug** configuration, and then select **Remove additional files at destination** under the **File Publish** options.
+::: moniker-end
 
 1. Select **Save** and then republish the app.
 
@@ -175,6 +179,8 @@ For ASP.NET 4.8, make sure the web.config file lists the correct version of .NET
       ```
 
 - If you install ASP.NET 4 instead of 4.8, the version value should be specified as 4.0 in the web.config file.
+
+Follow these steps to publish and deploy the app:
 
 [!INCLUDE [remote-debugger-deploy-app-local](../debugger/includes/remote-debugger-deploy-app-local.md)]
 

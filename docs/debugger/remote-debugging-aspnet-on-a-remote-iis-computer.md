@@ -111,20 +111,27 @@ You can use this option create a publish settings file and import it into Visual
 
 [!INCLUDE [install-web-deploy-with-hosting-server](../deployment/includes/import-publish-settings-vs.md)]
 
-After the app deploys successfully, it should start automatically. If the app doesn't start from Visual Studio, start the app in IIS to verify that it runs correctly. For ASP.NET Core, you also need to make sure that the Application pool field for the **DefaultAppPool** is set to **No Managed Code**.
+After the app deploys successfully, it should start automatically.
 
-1. Switch to a debug configuration.
+- If the app doesn't start from Visual Studio, start the app in IIS to verify that it runs correctly. 
+- For ASP.NET Core, make sure the Application pool field for the **DefaultAppPool** is set to **No Managed Code**.
 
-   ::: moniker range=">=vs-2022"
-   Choose **More Options** > **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
-   ::: moniker-end
+When you're ready, switch to a debug configuration.
 
-   ::: moniker range="vs-2019"
-   Choose **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
-   ::: moniker-end
+> [!IMPORTANT]
+> If you choose to debug a Release configuration, you disable debugging in the *web.config* file when you publish.
 
-   > [!IMPORTANT]
-   > If you choose a Release configuration, you disable debugging in the *web.config* file when you publish.
+::: moniker range=">=vs-2022"
+1. Select **More Options** > **Edit** to edit the profile, and then select **Settings**.
+   
+1. Select a **Debug** configuration, and then select **Remove additional files at destination** under the **File Publish** options.
+::: moniker-end
+
+::: moniker range="vs-2019"
+1. Select **Edit** to edit the profile, and then select **Settings**.
+   
+1. Select a **Debug** configuration, and then select **Remove additional files at destination** under the **File Publish** options.
+::: moniker-end
 
 1. Select **Save** and then republish the app.
 
