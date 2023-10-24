@@ -135,7 +135,7 @@ Learn more about [AI-assisted development](../ide/ai-assisted-development-visual
 ## Choose your Visual Studio edition
 
 There are three editions of Visual Studio: 
-- [Community](https://visualstudio.microsoft.com/vs/community/) - free, fully-featured IDE for students, open-source and individual developers 
+- [Community](https://visualstudio.microsoft.com/vs/community/) - free, fully featured IDE for students, open-source and individual developers 
 - [Professional](https://visualstudio.microsoft.com/vs/professional/) -  a subscription based option for individual developers or small teams.
 - [Enterprise](https://visualstudio.microsoft.com/vs/enterprise/) - a subscription based option for small to large business and enterprise organizations.
 
