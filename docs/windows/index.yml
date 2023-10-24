@@ -48,7 +48,7 @@ conceptualContent:
         - text: Open code from a repo
           url: ../get-started/tutorial-open-project-from-repo.md
           itemType: tutorial
-        - text: Get assistance from AI
+        - text: Get AI assistance for development tasks
           url: ../ide/ai-assisted-development-visual-studio.md
           itemType: overview
     - title: Follow a tutorial
