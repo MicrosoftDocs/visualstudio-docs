@@ -92,7 +92,7 @@ landingContent:
             url: ../profiling/beginners-guide-to-performance-profiling.md
           - text: Get started measuring memory usage
             url: ../profiling/memory-usage.md
-          - text: AI-assisted CPU usage auto insights
+          - text: AI-assisted CPU usage auto insights with Copilot Chat
             url: debug-with-copilot.md#ai-assisted-auto-insights
       - linkListType: overview
         links:

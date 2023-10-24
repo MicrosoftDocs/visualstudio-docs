@@ -56,7 +56,7 @@ landingContent:
     linkLists:
       - linkListType: overview
         links:
-          - text: AI-assisted development
+          - text: AI assistance tools
             url: ai-assisted-development-visual-studio.md
           - text: GitHub Copilot
             url: visual-studio-github-copilot-extension.md
