@@ -25,14 +25,14 @@ The Edit and Continue mechanism handles most types of code changes within method
 
 The following table shows the changes that might be made to C# and Visual Basic code during a debugging session without restarting the session.
 
-|Language element/feature|Supported edit operation|Limitations|
-|-|-|-|
-|Types|Add methods, fields, constructors, and more|[Yes](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md)|
-|Iterators|Add or modify|No|
-|async/await expressions|Add or modify|[Yes](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md)|
-|Dynamic objects|Add or modify|No|
-|lambda expressions|Add or modify|[Yes](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md)|
-|LINQ expressions|Add or modify|[Same as lambda expressions](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md)|
+| Language element or feature | Supported edit operation | Limitations 
+|---|---|---|
+| Types |Add methods, fields, constructors, and more |[Yes](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md) |
+| Iterators | Add or modify | No |
+| async/await expressions | Add or modify | [Yes](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md) |
+| Dynamic objects | Add or modify | No |
+| lambda expressions | Add or modify | [Yes](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md) |
+| LINQ expressions | Add or modify | [Same as lambda expressions](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md) |
 
 > [!NOTE]
 > Newer language features such as string interpolation and null-conditional operators are generally supported by Edit and Continue. For the most current information, see the [Enc Supported Edits](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md) page.
@@ -49,55 +49,70 @@ The .NET 6+ experience is powered by the [Edit and Continue](../debugger/edit-an
 
 ## Unsupported changes to code
 
- The following changes can't be applied to C# and Visual Basic code during a debugging session:
+The following changes can't be applied to C# and Visual Basic code during a debugging session.
 
 - Changes to the current statement or any other active statement.
 
-     Active statements include any statements in functions on the call stack that were called to get to the current statement.
+   An active statement is any statement in a function on the call stack that was called to get to the current statement.
 
-     The current statement is marked by a yellow background in the source window. Other active statements are marked by a shaded background and are read-only. These default colors can be changed in the **Options** dialog box.
+   The current statement appears on a yellow background in the source window. Other active statements appear on a shaded background and are read-only. These default colors can be changed in the **Options** dialog box.
 
-- The following table shows unsupported changes to code by language element.
+- Any unsupported changes to code by language element as outlined in the following table.
 
-|Language element or feature|Unsupported edit operation|
-|-|-|
-|All code elements|Renaming|
-|Namespaces|Add|
-|Namespaces, types, members|Delete|
-|Generics|Add or modify|
-|Interfaces|Modify|
-|Types|Add abstract or virtual member, add override (see [details](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md))|
-|Types|Add destructor|
-|Members|Modify a member referencing an embedded interop type|
-|Members|Modify a static member after it has already been accessed by executing code|
-|Members (Visual Basic)|Modify a member with On Error or Resume statement|
-|Members (Visual Basic)|Modify a member containing an Aggregate, Group By, Simple Join, or Group Join LINQ query clause|
-|Methods|Modify signatures|
-|Methods|Make an abstract method become non-abstract by adding a method body|
-|Methods|Delete method body|
-|Attributes|Add or modify|
-|Events or properties|Modify a type parameter, base type, delegate type, or return type |
-|Operators or indexers|Modify a type parameter, base type, delegate type, or return type |
-|catch blocks|Modify when it contains an active statement|
-|try-catch-finally blocks|Modify when it contains an active statement|
-|using statements|Add|
-|async methods/lambdas|Modify an async method/lambda in a project targeting .NET Framework 4 and lower (see [details](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md))|
-|Iterators|Modify an iterator in a project targeting .NET Framework 4 and earlier (see [details](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md))|
+   | Language element or feature | Unsupported edit operation |
+   |---|---|
+   | All code elements | Renaming |
+   | Namespaces | Add |
+   | Namespaces, types, members | Delete |
+   | Generics | Add or modify |
+   | Interfaces | Modify |
+   | Types | Add abstract or virtual member, add override (see [details](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md)) |
+   | Types | Add destructor |
+   | Members | - Modify a member referencing an embedded interop type <br> - Modify a static member after it has already been accessed by executing code |
+   | Members (Visual Basic) | - Modify a member with On Error or Resume statement <br> - Modify a member containing an Aggregate, Group By, Simple Join, or Group Join LINQ query clause |
+   | Methods | - Modify signatures <br> - Make an abstract method become nonabstract by adding a method body <br> - Delete method body |
+   | Attributes | Add or modify |
+   | Events or properties | Modify a type parameter, base type, delegate type, or return type |
+   | Operators or indexers | Modify a type parameter, base type, delegate type, or return type |
+   | catch blocks | Modify when it contains an active statement |
+   | try-catch-finally blocks | Modify when it contains an active statement |
+   | using statements | Add |
+   | async methods/lambdas | Modify an async method/lambda in a project targeting .NET Framework 4 and lower (see [details](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md)) |
+   | Iterators | Modify an iterator in a project targeting .NET Framework 4 and earlier (see [details](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md)) |
 
 ## Unsafe code
 
- Changes to unsafe code have the same limitations as changes to safe code, with one extra restriction: Edit and Continue doesn't support changes to unsafe code that exits within a method that contains the `stackalloc` operator.
+Changes to unsafe code have the same limitations as changes to safe code, with one extra restriction: Edit and Continue doesn't support changes to unsafe code that exits within a method that contains the `stackalloc` operator.
 
-## Unsupported app scenarios
+## Application support
 
-Unsupported apps and platforms include Silverlight 5 and Windows 8.1. Unsupported scenarios in ASP.NET and ASP.NET Core include editing *_.aspx_*, *_.ascx_*, *_.cshtml_*, and *_.razor_* files. Editing files of type *_.cshtml_* and *_.razor_* is supported in .NET 6 and later apps.
+Supported applications include:
 
-> [!NOTE]
-> Apps that are supported include UWP in Windows 10 or Windows 11, and x86 and x64 apps that target the .NET Framework 4.6 desktop or later versions (the .NET Framework is a desktop version only).
+- UWP apps in Windows 10 or Windows 11
+- x86 and x64 apps that target the .NET Framework 4.6 desktop or later versions (the .NET Framework is a desktop version only)
+
+For .NET 6 and later, editing is supported for the following file types:
+
+- .cshtml
+- .razor
+
+### Unsupported apps, platforms, and operations
+
+Unsupported applications or platforms include:
+
+- Silverlight 5
+- Windows 8.1
+
+For ASP.NET and ASP.NET Core, editing isn't supported for the following file types:
+
+- .aspx
+- .ascx
+- .cshtml
+- .razor
 
 ## Unsupported scenarios
 
- Edit and Continue isn't available in the following debugging scenarios:
+Edit and Continue isn't available in the following debugging scenarios:
 
 - Mixed-mode (native/managed) debugging.
 
