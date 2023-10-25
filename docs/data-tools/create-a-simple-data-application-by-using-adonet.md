@@ -1,7 +1,7 @@
 ---
 title: Create a simple .NET Framework data application by using ADO.NET
 description: Learn to create a simple forms-to-data application by using Windows Forms and ADO.NET in Visual Studio.
-ms.date: 10/07/2022
+ms.date: 10/25/2023
 ms.topic: conceptual
 dev_langs:
 - VB
@@ -63,7 +63,7 @@ Create the sample database by following these steps:
 
 ## Create the forms and add controls
 
-1. Create a project for a Windows Forms application, and then name it **SimpleDataApp**.
+1. Create a C# or Visual Basic project using the **Windows Forms App (.NET Framework)** template, and then name it **SimpleDataApp**.
 
     Visual Studio creates the project and several files, including an empty Windows form that's named **Form1**.
 
@@ -173,7 +173,7 @@ In the code page for the Navigation form, complete the method bodies for the thr
 ---
 
 > [!NOTE]
-> The code for this tutorial is available in C# and Visual Basic. To switch the code language on this page between C# and Visual Basic, use the code language switcher at the top of the page on the right side.
+> The code for this tutorial is available in C# and Visual Basic. To switch the code language on this page between C# and Visual Basic, use the code language switcher at the top of each code example.
 
 ### NewCustomer form
 
