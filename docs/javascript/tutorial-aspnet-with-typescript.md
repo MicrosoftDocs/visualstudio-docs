@@ -50,9 +50,7 @@ Visual Studio manages files for a single application in a *project*. The project
 
 In this tutorial, you begin with a simple project containing code for an ASP.NET Core MVC app.
 
-1. Open Visual Studio.
-
-   If the start window isn't open, choose **File** > **Start Window**.
+1. Open Visual Studio. If the start window isn't open, choose **File** > **Start Window**.
 
 2. On the start window, choose **Create a new project**.
 
