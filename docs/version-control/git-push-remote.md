@@ -36,7 +36,7 @@ Here's how to push to a remote in Visual Studio.
 
 ## Next steps
 
-To continue your journey, visit the [Fetch, pull, and sync in Visual Studio](git-fetch-pull-sync.md) page.
+To continue your journey, visit the [Create a pull request in Visual Studio](git-create-pull-request.md) or [Fetch, pull, and sync in Visual Studio](git-fetch-pull-sync.md) page.
 
 ## See also
 
