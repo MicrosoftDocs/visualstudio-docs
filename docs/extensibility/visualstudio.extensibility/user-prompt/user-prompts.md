@@ -12,7 +12,7 @@ ms.technology: vs-ide-sdk
 
 # Create Visual Studio user prompts
 
-User prompts are a simple UI mechanism for prompting the user make a selection. Prompting the user creates a dialog box with a message, one to three buttons for the choices, and a dismiss button.
+User prompts are a simple UI mechanism for prompting the user to make a selection. Prompting the user creates a dialog box with a message, one to three buttons for the choices, and a dismiss button.
 
 > [!NOTE]
 > The exact UI used to prompt users may change in future versions based on user feedback or other factors.
