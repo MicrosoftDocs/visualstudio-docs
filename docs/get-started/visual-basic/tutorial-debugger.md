@@ -52,55 +52,41 @@ If you need to install the workload but already have Visual Studio, go to **Tool
 
 First, you create a .NET Core console application project. The project type comes with all the template files you need, before you've even added anything!
 
+1. Open Visual Studio. If the start window isn't open, select **File** > **Start Window**.
+
+2. On the start window, select **Create a new project**.
+
 ::: moniker range="vs-2019"
+3. On the **Create a new project** window, enter *console* in the search box. Next, choose **Visual Basic** from the Language list, and then choose **Windows** from the Platform list. 
 
-1. Open Visual Studio.
-
-   If the start window isn't open, choose **File** > **Start Window**.
-
-1. On the start window, choose **Create a new project**.
-
-1. On the **Create a new project** window, enter, or type *console* in the search box. Next, choose **Visual Basic** from the Language list, and then choose **Windows** from the Platform list. 
-
-   After you apply the language and platform filters, choose the **Console App** template for .NET Core, and then choose **Next**.
+   After you apply the language and platform filters, choose the **Console App** template for .NET Core, and then select **Next**.
 
    ![Screenshot showing the Create a new project window with 'console' in the search box, and 'Visual Basic' and 'Windows' selected for the Language and Platform filters. The Console Application project template is selected.](../visual-basic/media/vs-2019/get-started-create-console-project.png)
 
    > [!NOTE]
    > If you do not see the **Console App** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **.NET Core cross-platform development** workload.
 
-1. In the **Configure your new project** window, type or enter *get-started-debugging* in the **Project name** box. Then, choose **Next**.
+4. In the **Configure your new project** window, enter *get-started-debugging* in the **Project name** box. Then, select **Next**.
 
-1. Choose either the recommended target framework (.NET 8.0 or Long-term support), and then choose **Create**.
-
-   Visual Studio opens your new project.
-   
+5. Select the recommended target framework (.NET 8.0 or Long-term support), and then select **Create**.
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
+3. On the **Create a new project** window, enter *console* in the search box. Next, choose **Visual Basic** from the Language list, and then choose **Windows** from the Platform list. 
 
-1. Open Visual Studio.
-
-   If the start window isn't open, choose **File** > **Start Window**.
-
-1. On the start window, choose **Create a new project**.
-
-1. On the **Create a new project** window, enter, or type *console* in the search box. Next, choose **Visual Basic** from the Language list, and then choose **Windows** from the Platform list. 
-
-   After you apply the language and platform filters, choose the **Console Application** template for .NET Core, and then choose **Next**.
+   After you apply the language and platform filters, choose the **Console App** template for .NET Core, and then select **Next**.
 
    :::image type="content" source="media/vs-2022/get-started-create-console-project.png" alt-text="Screenshot showing the Create a new project window with 'console' in the search box, and 'Visual Basic' and 'Windows' selected for the Language and Platform filters. The Console Application project template is selected.":::
 
    > [!NOTE]
-   > If you do not see the **Console Application** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **.NET desktop development** workload.
+   > If you don't see the **Console App** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **.NET desktop development** workload.
 
-1. In the **Configure your new project** window, type or enter *get-started-debugging* in the **Project name** box. Then, choose **Next**.
+4. In the **Configure your new project** window, enter *get-started-debugging* in the **Project name** box. Then, select **Next**.
 
-1. In the **Additional information** window, ensure that **.NET 8.0** is selected in the **Framework** dropdown menu, and then choose **Create**.
-
-   Visual Studio opens your new project.
-   
+5. In the **Additional information** window, ensure **.NET 8.0** is selected in the **Framework** dropdown menu, and then select **Create**.
 ::: moniker-end
+
+Visual Studio opens your new project.
 
 ## Create the application
 
@@ -443,11 +429,31 @@ Features that allow you to inspect variables are one of the most useful features
 
 ## Set a watch
 
-1. In the main code editor window, right-click the `name` variable and choose **Add Watch**.
+::: moniker range="<=vs-2019"
 
-   The **Watch** window opens at the bottom of the code editor. You can use a **Watch** window to specify a variable (or an expression) that you want to keep an eye on.
+In the main code editor window, right-click the `name` variable and choose **Add Watch**.
 
-   Now, you have a watch set on the `name` variable, and you can see its value change as you move through the debugger. Unlike the other variable windows, the **Watch** window always shows the variables that you're watching (they're grayed out when out of scope).
+The **Watch** window opens at the bottom of the code editor. You can use a **Watch** window to specify a variable (or an expression) that you want to keep an eye on.
+
+Now, you have a watch set on the `name` variable, and you can see its value change as you move through the debugger. Unlike the other variable windows, the **Watch** window always shows the variables that you're watching (they're grayed out when out of scope).
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+You can specify a variable, or an expression, that you want to keep an eye on as you step through code&mdash;by adding it to the **Watch** window.
+
+1. While the debugger is paused, right-click the `name` variable and choose **Add Watch**.
+
+   The **Watch** window opens by default at the bottom of the code editor.
+
+1. Now that you've set a watch on the `name` variable, step through your code to see the value of the `name` variable change with each `for` loop iteration. 
+
+   Unlike the other variable windows, the **Watch** window always shows the variables that you're watching. Variables that are out of scope are displayed as unavailable.
+
+For more information about the **Watch** window, see [Watch variables with Watch windows](/visualstudio/debugger/watch-and-quickwatch-windows?view=vs-2022&preserve-view=true).
+
+::: moniker-end
 
 ## Examine the call stack
 
