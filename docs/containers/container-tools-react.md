@@ -4,7 +4,7 @@ titleSuffix: ""
 author: ghogen
 description: Learn how to create a containerized React SPA app with Visual Studio Container Tools and Docker 
 ms.author: ghogen
-ms.date: 08/25/2022
+ms.date: 10/23/2023
 ms.technology: vs-container-tools
 ms.topic: quickstart
 ---
@@ -56,6 +56,26 @@ For Docker installation, first review the information at [Docker Desktop for Win
 1. Select the container type.
 ::: moniker-end
 ::: moniker range=">=vs-2022"
+
+The following steps require Visual Studio 2022 version 17.8 or later.
+
+1. Create a new project using the **React and ASP.NET Core** template.
+
+   ![Screenshot of creating a new React and ASP.NET Core project.](media/container-tools-react/vs-2022/react-and-asp-net-core.png)
+
+1. On the **Additional information** screen, you can't select **Enable Docker Support**, but don't worry, you can add that support later.
+
+   ![Screenshot of creating a React and ASP.NET Core project - Additional information screen.](media/container-tools-react/vs-2022/additional-information-net-8.png)
+
+   Visual Studio creates two projects - one for the React JavaScript client code, and another for the ASP.NET Core C# server code.
+
+1. Right-click on the server project node, and choose **Add** > **Docker Support** to add a Dockerfile to your project.
+
+   ![Screenshot of Add Docker support menu item.](media/container-tools-react/vs-2022/add-docker-support.png)
+
+1. Select the container type.
+
+Use the following steps for Visual Studio 2022 version 17.0 to 17.7:
 
 1. Create a new project using the **ASP.NET Core with React.js** template.
 
@@ -129,6 +149,48 @@ ENTRYPOINT ["dotnet", "ProjectSPA1.dll"]
 
 :::moniker-end
 :::moniker range=">=vs-2022"
+
+```dockerfile
+#See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
+
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+USER app
+WORKDIR /app
+EXPOSE 8080
+EXPOSE 8081
+RUN apt-get update
+RUN apt-get install -y curl
+RUN apt-get install -y libpng-dev libjpeg-dev curl libxi6 build-essential libgl1-mesa-glx
+RUN curl -sL https://deb.nodesource.com/setup_lts.x | bash -
+RUN apt-get install -y nodejs
+
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+RUN apt-get update
+RUN apt-get install -y curl
+RUN apt-get install -y libpng-dev libjpeg-dev curl libxi6 build-essential libgl1-mesa-glx
+RUN curl -sL https://deb.nodesource.com/setup_lts.x | bash -
+RUN apt-get install -y nodejs
+ARG BUILD_CONFIGURATION=Release
+WORKDIR /src
+COPY ["reactapp1.client/nuget.config", "reactapp1.client/"]
+COPY ["ReactApp1.Server/ReactApp1.Server.csproj", "ReactApp1.Server/"]
+COPY ["reactapp1.client/reactapp1.client.esproj", "reactapp1.client/"]
+RUN dotnet restore "./ReactApp1.Server/./ReactApp1.Server.csproj"
+COPY . .
+WORKDIR "/src/ReactApp1.Server"
+RUN dotnet build "./ReactApp1.Server.csproj" -c $BUILD_CONFIGURATION -o /app/build
+
+FROM build AS publish
+ARG BUILD_CONFIGURATION=Release
+RUN dotnet publish "./ReactApp1.Server.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "ReactApp1.Server.dll"]
+```
+
+In versions Visual Studio 17.0 to 17.7 it should resemble the following:
 
 ```Dockerfile
 #See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
