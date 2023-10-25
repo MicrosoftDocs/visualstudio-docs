@@ -7,7 +7,7 @@ metadata:
    titleSuffix: ""
    description: Learn how to use Visual Studio to develop applications, services, and tools in the language of your choice, for any platform or device.
    ms.topic: hub-page
-   ms.date: 04/13/2023
+   ms.date: 10/24/2023
    author: ghogen
    ms.author: ghogen
    manager: jmartens
@@ -48,6 +48,9 @@ conceptualContent:
         - text: Open code from a repo
           url: ../get-started/tutorial-open-project-from-repo.md
           itemType: tutorial
+        - text: Get AI assistance for development tasks
+          url: ../ide/ai-assisted-development-visual-studio.md
+          itemType: overview
     - title: Follow a tutorial
       links:
         - text: Simple C# console app
