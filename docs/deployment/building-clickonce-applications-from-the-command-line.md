@@ -71,7 +71,7 @@ The easiest way to create a publish profile is by using Visual Studio. A publish
 
 1. In the **Visual Studio Command Prompt**, make sure the current directory shows the location of the project you built previously.
 
-  If you're not working in the project directory, enter a command to change to the desired location, such as `chdir C:\Users\username\source\repos\CmdLineDemo`.
+   If you're not working in the project directory, enter a command to change to the desired location, such as `chdir C:\Users\username\source\repos\CmdLineDemo`.
 
 1. To remove the existing files produced in the [previous section](#create-and-publish-a-clickonce-project), enter `rmdir /s publish`.
 
