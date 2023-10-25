@@ -26,17 +26,17 @@ You can open the **Problem Details** window by interacting with entries in the [
 Such entries are produced in two scenarios:
 
 1. C++ compilations using [**MSBuild**](/cpp/build/creating-and-managing-visual-cpp-projects) and the MSVC compiler may emit structured diagnostics.
-2. Code analysis warnings which support [**Key Event**](https://devblogs.microsoft.com/cppblog/microsoft-cpp-code-analysis-warnings-with-key-events) data will emit structured diagnostics.
+2. Code analysis warnings that support [**Key Event**](https://devblogs.microsoft.com/cppblog/microsoft-cpp-code-analysis-warnings-with-key-events) data emit structured diagnostics.
 
 To open the **Problem Details** window for such an entry, you can either:
 
-- Double click on the entry or press **Enter** with the entry highlighted (this behaviour can be disabled with **Tools** > **Options** > **Text Editor** > **C/C++** > **Advanced** > **Show Problem Details on Double Click**).
+- Double click on the entry or press **Enter** with the entry highlighted (this behavior can be disabled with **Tools** > **Options** > **Text Editor** > **C/C++** > **Advanced** > **Show Problem Details on Double Click**).
 - Single click on the icon in the **Details** column.
 - Open the shortcut menu for the entry and click the **Open Problem Details** option.
 
-By default, the **Problem Details** window will open in the same location as the **Error List** window. If you move the **Problem Details** window and close it, then when it is reopened, it will open in the same location at which it was closed.
+By default, the **Problem Details** window opens in the same location as the **Error List** window. If you move the **Problem Details** window and close it, then when it is reopened, it will open in the same location at which it was closed.
 
-The **Problem Details** window displays structured information which may be nested. When the window opens, all entries which have nested children will begin collapsed.
+The **Problem Details** window displays structured information that may be nested. When the window opens, all entries that have nested children begin collapsed.
 
 ![The Problem Details window with all children collapsed](media/problem-details-collapsed.png)
 
