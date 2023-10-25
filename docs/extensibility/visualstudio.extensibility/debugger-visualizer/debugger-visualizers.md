@@ -61,7 +61,7 @@ The previous code defines a new debugger visualizer, which applies to objects of
 
 ## Targeting multiple types
 
-The configuration property allows the visualizer to target multiple types when convenient. A perfect example of this is the [DataSet Visualizer](./../../../debugger/view-data-in-tabular-visualizer#dataset-visualizer) which supports the visualization of `DataSet`, `DataTable`, `DataView`, and `DataViewManager` objects. This capability eases extension development since similar types can share the same UI, view models, and [visualizer object source](./debugger-visualizers#the-visualizer-object-source).
+The configuration property allows the visualizer to target multiple types when convenient. A perfect example of this is the [DataSet Visualizer](../../../debugger/view-data-in-tabular-visualizer#dataset-visualizer) which supports the visualization of `DataSet`, `DataTable`, `DataView`, and `DataViewManager` objects. This capability eases extension development since similar types can share the same UI, view models, and [visualizer object source](./debugger-visualizers#the-visualizer-object-source).
 
 ```csharp
     /// <inheritdoc/>
@@ -256,9 +256,6 @@ By default, all debugger visualizer extensions are opened as modal dialog window
 ```
 
 Whenever a visualizer opts to be opened as a `ToolWindow`, it will need to subscribe to the [StateChanged](/dotnet/api/microsoft.visualstudio.extensibility.debuggervisualizers.visualizertarget.statechanged) event of the `VisualizerTarget`. When a visualizer is opened as a tool window, it will not block the user from unpausing the debug session. So, the aforementioned event will be fired by the debugger whenever the state of the debug target changes. Visualizer extension authors should pay special attention to these notifications since the visualizer target is only available when the debug session is active and the debug target is paused. When the visualizer target is not available, calls to `ObjectSource` methods will fail with a `VisualizerTargetUnavailableException`.
-
-> [!IMPORTANT]
-> In tool window visualizers it is the responsibility of the `RemoteUserControl` to dispose the `VisualizerTarget` inside its `Dispose` method.
 
 ```csharp
 internal class MyVisualizerUserControl : RemoteUserControl
