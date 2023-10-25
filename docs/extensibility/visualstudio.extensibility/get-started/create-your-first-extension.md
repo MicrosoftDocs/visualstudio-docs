@@ -63,7 +63,7 @@ The command has a configuration property named `CommandConfiguration`, which def
         // Use this object initializer to set optional parameters for the command. The required parameter,
         // displayName, is set above. DisplayName is localized and references an entry in .vsextension\string-resources.json.
         Icon = new(ImageMoniker.KnownValues.Extension, IconSettings.IconAndText),
-        Placements = new[] { CommandPlacement.KnownPlacements.ExtensionsMenu() },
+        Placements = new[] { CommandPlacement.KnownPlacements.ExtensionsMenu },
     };
 ```
 

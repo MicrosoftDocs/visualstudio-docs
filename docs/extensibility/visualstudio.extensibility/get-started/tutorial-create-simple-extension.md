@@ -33,7 +33,7 @@ The project template or the sample you created in the [Create your first extensi
 ```csharp
 public override CommandConfiguration CommandConfiguration => new("%InsertGuidCommand.DisplayName%")
 {
-    Placements = new[] { CommandPlacement.KnownPlacements.ExtensionsMenu() },
+    Placements = new[] { CommandPlacement.KnownPlacements.ExtensionsMenu },
 };
 ```
 
@@ -54,7 +54,7 @@ The argument to the `CommandConfiguration` constructor is the command's display 
 ```csharp
 public override CommandConfiguration CommandConfiguration => new("%InsertGuidCommand.DisplayName%")
 {
-    Placements = new[] { CommandPlacement.KnownPlacements.ExtensionsMenu() },
+    Placements = new[] { CommandPlacement.KnownPlacements.ExtensionsMenu },
     Icon = new(ImageMoniker.KnownValues.OfficeWebExtension, IconSettings.IconAndText),
 };
 ```
@@ -66,7 +66,7 @@ You can specify a known built-in icon, in this case `OfficeWebExtension`, or upl
 ```csharp
 public override CommandConfiguration CommandConfiguration => new("%InsertGuidCommand.DisplayName%")
 {
-    Placements = new[] { CommandPlacement.KnownPlacements.ExtensionsMenu() },
+    Placements = new[] { CommandPlacement.KnownPlacements.ExtensionsMenu },
     Icon = new(ImageMoniker.KnownValues.OfficeWebExtension, IconSettings.IconAndText),
     VisibleWhen = ActivationConstraint.ClientContext(ClientContextKey.Shell.ActiveEditorContentType, ".+"),
 };
