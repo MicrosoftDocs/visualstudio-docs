@@ -13,7 +13,7 @@ metadata:
   author: ghogen
   ms.author: ghogen
   ms.manager: jmartens
-  ms.date: 06/03/2022
+  ms.date: 06/03/2023
   ms.custom: vs-acquisition
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
@@ -25,6 +25,10 @@ landingContent:
   # Card
   - title: Get started
     linkLists:
+      - linkListType: overview
+        links:
+          - text: What is Visual Studio?
+            url: ../get-started/visual-studio-ide.md
       - linkListType: download
         links:
           - text: Download Visual Studio
@@ -33,18 +37,18 @@ landingContent:
         links:
           - text: Install Visual Studio
             url: ../install/install-visual-studio.md
-      - linkListType: overview
-        links:
-          - text: Visual Studio
-            url: ../get-started/visual-studio-ide.md
 
   # Card
   - title: Use Visual Studio
     linkLists:
+      - linkListType: get-started
+        links:
+          - text: Start in the code editor
+            url: ../get-started/tutorial-editor.md
       - linkListType: how-to-guide
         links:
-          - text: Use the code editor
-            url: ../get-started/tutorial-editor.md
+          - text: Personalize the IDE
+            url: ../ide/quickstart-personalize-the-ide.md
           - text: Compile and build
             url: ../ide/compiling-and-building-in-visual-studio.md
           - text: Debug code
@@ -57,24 +61,8 @@ landingContent:
             url: ../deployment/quickstart-deploy-to-a-web-site.md
           - text: Access data
             url: ../data-tools/accessing-data-in-visual-studio.md
-          - text: Personalize the IDE
-            url: ../ide/quickstart-personalize-the-ide.md
           - text: Productivity features
             url: ../ide/productivity-features.md
-
-  # Card
-  - title: Use AI assistance tools in Visual Studio
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-          - text: AI-assisted development in Visual Studio
-            url: ../ide/ai-assisted-development-visual-studio.md
-          - text: Use GitHub Copilot
-            url: ../ide/visual-studio-github-copilot-extension.md
-          - text: Use GitHub Copilot Chat 
-            url: ../ide/visual-studio-github-copilot-chat.md
-          - text: Debug with Copilot
-            url: ../debugger/debug-with-copilot.md
 
   # Card
   - title: Develop in your language
@@ -93,6 +81,24 @@ landingContent:
             url: ../javascript/tutorial-nodejs.md
           - text: F#
             url: /dotnet/fsharp/get-started/get-started-visual-studio
+
+  # Card
+  - title: Use AI in Visual Studio
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: AI-assisted development in Visual Studio
+            url: ../ide/ai-assisted-development-visual-studio.md
+      - linkListType: how-to-guide
+        links:
+          - text: 
+            url: ../ide/ai-assisted-development-visual-studio.md
+          - text: Use GitHub Copilot
+            url: ../ide/visual-studio-github-copilot-extension.md
+          - text: Use GitHub Copilot Chat 
+            url: ../ide/visual-studio-github-copilot-chat.md
+          - text: Debug with Copilot
+            url: ../debugger/debug-with-copilot.md
 
   # Card
   - title: Discover what's new
