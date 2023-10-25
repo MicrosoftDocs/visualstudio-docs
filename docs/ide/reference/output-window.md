@@ -67,6 +67,10 @@ In C++, you can create custom build steps and build events whose warnings and er
 
 If you use autoscrolling in the **Output** window and then navigate by using the mouse or arrow keys, autoscrolling stops. To resume autoscrolling, press **Ctrl**+**End**.
 
+## Structured Diagnostics
+
+C++ MSBuild projects may emit structured diagnostics. The level of indentation of a diagnostic in the **Output** window represents the nested structure of the information. This indentation can be enabled or disabled with the **Project** > **Properties** > **Advanced** > **Enable MSVC Structured Output** option. You can affect several projects by creating a [Directory.Build.props](/visualstudio/msbuild/customize-by-directory) file with the **UseStructuredOutput** property defined to true or false.
+
 ## See also
 
 - [Diagnostic messages in the Output window](../../debugger/diagnostic-messages-in-the-output-window.md)

@@ -999,6 +999,8 @@
         href: ide/reference/xaml-designer.md
     - name: Output window
       href: ide/reference/output-window.md
+    - name: Problem Details window
+      href: ide/reference/problem-details-window.md
     - name: Project Designer & project properties
       items:
       - name: Project Designer reference
