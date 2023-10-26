@@ -18,8 +18,7 @@ monikerRange: vs-2022
 
 [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) in Visual Studio enables you to get coding information and support, such as syntax, programming concepts, context-specific code help, test cases, debugging, and more, without leaving the IDE. With tight integration in Visual Studio, Copilot Chat understands what you're working on by gathering useful context data from Visual Studio. 
 
-In this article, you'll learn about how to get better answers with improved context in Copilot Chat. You'll learn
-about [slash commands](#use-slash-commands) and the new context experience features in Copilot Chat, such as [solution context](#solution-context-for-deeper-answers) and [hash references](#control-context-with-hash-references), that enable you to form great questions by scoping the intent and context.
+In this article, you'll learn about how to get better answers with improved context in Copilot Chat. [Slash commands](#use-slash-commands) and the new context experience features in Copilot Chat, such as [solution context](#solution-context-for-deeper-answers) and [hash references](#control-context-with-hash-references) enable you to form great questions by scoping the intent and context.
 
 Learn more about [AI-assisted development in Visual Studio](../ide/ai-assisted-development-visual-studio.md) and how to [use Copilot Chat in Visual Studio](../ide/visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio).
 
@@ -51,7 +50,7 @@ You can use slash commands in a [chat window](visual-studio-github-copilot-chat.
 
 :::image type="content" source="media/vs-2022/copilot-chat-context-slash-commands.png" alt-text="Screenshot of slash commands in interactive code assistant and chat windows.":::
 
-## Enable context experience
+## Enable the context experience
 
 To enable the new context experience features for GitHub Copilot Chat, follow these steps:
 
@@ -81,9 +80,7 @@ You can ask your coding related questions in natural language and GitHub Copilot
 
 ## Related links
 
-To learn more, consider exploring the following resources:
-
-- [GitHub Copilot extension: Getting started](https://docs.github.com/copilot/getting-started-with-github-copilot?tool=visualstudio)
-- [GitHub Copilot Chat extension: Getting started](https://docs.github.com/copilot/getting-started-with-github-copilot?tool=visualstudio)
-- [GitHub Copilot: Your AI pair programmer](https://github.com/features/copilot)
+- [GitHub Copilot extension for Visual Studio](visual-studio-github-copilot-extension.md)
+- [GitHub Copilot Chat extension for Visual Studio](visual-studio-github-copilot-chat.md)
 - [GitHub Copilot Trust Center](https://resources.github.com/copilot-trust-center/)
+- [Send us suggestions, feedback, and issues](how-to-report-a-problem-with-visual-studio.md)
