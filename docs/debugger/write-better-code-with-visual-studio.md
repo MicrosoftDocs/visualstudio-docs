@@ -280,7 +280,7 @@ catch (SerializationException)
 }
 ```
 
-A `try/catch` block has some performance cost, so you should only use them when you really need them. In some cases, they might occur in the release version of the app. In other cases, the documentation might indicate that you should check for the exception. You can often handle an exception appropriately and keep it from affecting your users.
+A `try/catch` block has some performance cost, so you'll only want to use them when you really need them, that is, where (a) they might occur in the release version of the app, and where (b) the documentation for the method indicates that you should check for the exception (assuming the documentation is complete!). In many cases, you can handle an exception appropriately and the user will never need to know about it.
 
 Here are a couple of important tips for exception handling:
 

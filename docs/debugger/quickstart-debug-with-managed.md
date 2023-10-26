@@ -130,7 +130,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 A *breakpoint* is a marker that indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run. It's the most basic feature in debugging.
 
-1. To set the breakpoint, select in the gutter to the left of the `doWork` function call (or select the line of code and press **F9**).
+1. To set the breakpoint, click in the gutter to the left of the `doWork` function call (or select the line of code and press **F9**).
 
     ![Set a breakpoint](../debugger/media/dbg-qs-set-breakpoint-csharp.png "Set a breakpoint")
 
