@@ -12,7 +12,7 @@ ms.technology: vs-ide-sdk
 
 # About VisualStudio.Extensibility (Preview)
 
-VisualStudio.Extensibility is a new framework for developing Visual Studio extensions. The new framework focuses primarily on extensions that run out-of-process from the IDE for improved performance and reliability, and it features a modern, asynchronous API that has been streamlined and carefully engineered to maximize developer productivity. VisualStudio.Extensibility is in active development and is available as a preview.
+VisualStudio.Extensibility is a new framework for developing Visual Studio extensions that focuses primarily on extensions that run out-of-process from the IDE for improved performance and reliability. It features a modern, asynchronous API that has been streamlined and carefully engineered to maximize developer productivity. VisualStudio.Extensibility is in active development and is available as a preview.
 
 With the current preview, you can develop a wide range of extensions to Visual Studio, including creating commands, working with code or text in the editor, displaying prompts or dialogs to the user, creating debugger visualizers, and more!
 
@@ -70,7 +70,7 @@ Learn about the [Remote UI](./inside-the-sdk/remote-ui.md) model used in the Vis
 Read an overview of the areas of the SDK that you might need for your extension development projects.
 
 * Create commands and expose them to users in the IDE, see [Commands](./command/command.md).
-* Work with contents of files and documents, see [Editor extensions](./editor/editor.md).
+* Work with contents of files and documents, see [Editor](./editor/editor.md).
 * Work with the in-memory representation of those documents themselves, see [Documents](./document/documents.md)
 * Use the output window in an extension, see [Output window](./output-window/output-window.md).
 * Work with tool windows, dockable windows within the Visual Studio IDE, see [Tool windows](./tool-window/tool-window.md).
@@ -86,7 +86,7 @@ A Visual Studio solution containing all samples can be found at [Samples.sln](ht
 | Sample | Description|
 |-|-|
 | [Simple command handler](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/SimpleRemoteCommandSample) | Demonstrates the basics of working with commands. See also the [Create your first extension](./get-started/create-your-first-extension.md) tutorial.|
-| [Insert guid extension](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/InsertGuid) | Shows how to insert text or code in the code editor, how to configure a command with a specific activation condition, and how to use a resource file for localization. See also the [tutorial](./get-started/tutorial-create-simple-extension.md). |
+| [Insert guid](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/InsertGuid) | Shows how to insert text or code in the code editor, how to configure a command with a specific activation condition, and how to use a resource file for localization. See also the [tutorial](./get-started/tutorial-create-simple-extension.md). |
 | [Command parenting](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/CommandParentingSample) | Shows how to author a command that can be parented to different aspects of the IDE. |
 | [Document selector](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/DocumentSelectorSample) | Shows how to create an editor extension that is only applicable to files matching a file path pattern. |
 | [Output window](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample) | Shows the most basic use of the [Output Window API](./output-window/output-window.md)|
@@ -97,6 +97,8 @@ A Visual Studio solution containing all samples can be found at [Samples.sln](ht
 | [Markdown linter](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/MarkdownLinter) | A complete extension with many moving parts interacting to provide an enhanced experience in the editor for a certain file type. |
 | [Project Query](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/VSProjectQueryAPISample) | Shows several different kinds of project system queries you can make. |
 | [Comment remover](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/CommentRemover) | Shows how to consume [Visual Studio SDK](https://www.nuget.org/packages/Microsoft.VisualStudio.SDK) services through .NET dependency injection and use VisualStudio.Extensibility APIs for commands, prompts and progress report. |
+| [RegexMatchDebugVisualizer](https://github.com/microsoft/VSExtensibility/tree/dev/maprospe/vsix_creation/New_Extensibility_Model/Samples/RegexMatchDebugVisualizer) | Shows how to use [Remote UI](./inside-the-sdk/remote-ui.md) to create a [Debugger Visualizer](./debugger-visualizer/debugger-visualizers.md) to visualize regular expression matches that will launch in a modal dialog window. |
+| [MemoryStreamDebugVisualizer](https://github.com/microsoft/VSExtensibility/tree/dev/maprospe/vsix_creation/New_Extensibility_Model/Samples/MemoryStreamDebugVisualizer) | Shows how to create a [Debugger Visualizer](./debugger-visualizer/debugger-visualizers.md) to visualize MemoryStream objects that launches in a non-modal tool window. |
 
 ## Advanced topics
 
