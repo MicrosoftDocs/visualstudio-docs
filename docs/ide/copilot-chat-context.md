@@ -34,19 +34,19 @@ To get started, you need:
 
 Slash commands help set the intent for common development tasks without having to write out long questions to form better questions to get better answers. 
 
-You can use slash commands in a [chat window](#ask-questions-in-the-chat-window), or directly inline in the code that you're looking to modify, using [inline code assistance](#ask-questions-in-the-interactive-code-assistant). Commands that help modify or add to the code file you have open in the editor will work both in the inline code assistant and the chat windows whereas commands for more general coding questions work only in the chat pane.
+You can use slash commands in a [chat window](visual-studio-github-copilot-chat.md#ask-questions-in-the-chat-window), or directly inline in the code that you're looking to modify, using [inline code assistance](visual-studio-github-copilot-chat.md#ask-questions-in-the-interactive-code-assistant). Commands that help modify or add to the code file you have open in the editor will work both in the inline code assistant and the chat windows whereas commands for more general coding questions work only in the chat pane.
 
 | **Command** | **Usage** | **Chat window** | **Interactive code assistant** | **Example** |
 |---------------------------|:--------------------:|:-----------------:|
 | /askvs| Ask questions related to Visual Studio | Yes | No | /askvs How do I connect Visual Studio to a Git Repository?|
 | /clear| Clear the chat window | Yes | No | /clear |
 | /createtest| Create unit tests for the selected code| Yes | Yes | select desired code and type /createtest |
-| /doc| Add comments for specified or selected code | Yes | Yes | /doc DeleteBasketAsync method in BasketService.cs</br>select desired code and type /doc|
-| /explain | Explain the code | Yes | Yes | /explain the AddItemToBasket method in BasketService.cs</br>select desired code and type /explain|
-| /fix | Propose a fix for problems in the selected code | Yes | Yes | /fix the SetQuantities method in BasketService.cs</br>select desired code and type /fix|
+| /doc| Add comments for specified or selected code | Yes | Yes | - /doc DeleteBasketAsync method in BasketService.cs</br> - select desired code and type /doc|
+| /explain | Explain the code | Yes | Yes | - /explain the AddItemToBasket method in BasketService.cs</br> - select desired code and type /explain|
+| /fix | Propose a fix for problems in the selected code | Yes | Yes | - /fix the SetQuantities method in BasketService.cs</br> - select desired code and type /fix|
 | /generate | Generate code to answer specified question | Yes | Yes | /generate code to add two numbers in Calculator.cs |
 | /help | Get help on Copilot Chat | Yes | No | /help |
-| /optimize | Analyze and improve running time of the selected code | Yes | Yes | /optimize the AddItemToBasket method in BasketService.cs</br>select desired code and type /optimize|
+| /optimize | Analyze and improve running time of the selected code | Yes | Yes | - /optimize the AddItemToBasket method in BasketService.cs</br> - select desired code and type /optimize|
 
 ## Enable context experience
 
@@ -66,13 +66,15 @@ This is especially helpful when you're working on a large and complex codebase o
 
 You can ask your coding related questions in natural language and GitHub Copilot Chat will answer these in the context of the codebase open in Visual Studio. With hash references you can get more specific about the information you want Copilot to consider when answering your question. By selecting a specific context in your codebase, you're able to form better questions easily without having to write out or paste long pieces of information. Specifying the context also enables Copilot to provide you with more relevant answers.
 
+:::image type="content" source="media/vs-2022/copilot-chat-context-hash-reference.png" alt-text="Screenshot of hash references in Copilot Chat.":::
+
 **Examples**
 
-| **Example** | **Context used by Copilot** |
+| **Example** | **Context used by Copilot to form the question** |
 |---------------------------|:--------------------:|
-| What is the purpose of #MyFile.cs: 66-72?| Exact section of the file to form your question|
-| Where are the tests in #MySolution?| #MySolution|
-| /explain the AddItemToBasket method in #BasketService.cs| AddItemToBasket method in BasketService.cs|
+| What is the purpose of #MyFile.cs: 66-72?| Exact section of the file |
+| Where are the tests in #BasketService.cs?| BasketService.cs |
+| /explain the AddItemToBasket method in #BasketService.cs| AddItemToBasket method in BasketService.cs |
 
 ## Related links
 
