@@ -104,7 +104,7 @@ internal class MyToolWindowData
     }
 
     [DataMember]
-    public ObservableCollection<MyColor> Colors { get; } = new();
+    public ObservableList<MyColor> Colors { get; } = new();
 
     [DataMember]
     public AsyncCommand AddColorCommand { get; }
@@ -130,7 +130,7 @@ There are just a few noteworthy things in this code:
 
 1. `MyColor.Color` is a `string` but it's used as a `Brush` when data bound in XAML, this is a capability provided by WPF.
 1. The `AddColorCommand` async callback contains a 2-second delay to simulate a long-running operation.
-1. We use [ObservableCollection\<T\>](/dotnet/api/system.collections.objectmodel.observablecollection-1), which is supported by Remote UI, to dynamically update the list view.
+1. We use [ObservableList\<T\>](microsoft.visualstudio.extensibility.ui.observablelist-1), which is an extended [ObservableCollection\<T\>](/dotnet/api/system.collections.objectmodel.observablecollection-1) provided by Remote UI to also support range operations, allowing better performance.
 1. `MyToolWindowData` and `MyColor` don't implement [INotifyPropertyChanged](/dotnet/api/system.componentmodel.inotifypropertychanged) because, at the moment, all properties are readonly.
 
 ## Handle long-running async commands

@@ -44,8 +44,7 @@ The Command Parenting sample contributes another class, a `Command`, to Visual S
 [VisualStudioContribution]
 internal class SampleCommand : Command
 {
-    public SampleCommand(VisualStudioExtensibility extensibility)
-        : base(extensibility)
+    public SampleCommand()
     {
     }
     ...
@@ -67,19 +66,19 @@ Most Visual Studio contribution classes require or allow configuration. For exam
 [VisualStudioContribution]
 internal class SampleCommand : Command
 {
-    ...
-    public override CommandConfiguration CommandConfiguration => new("%SampleCommand.DisplayName%")
+    /// <inheritdoc />
+    public override CommandConfiguration CommandConfiguration => new("%CommandParentingSample.SampleCommand.DisplayName%")
     {
         Placements = new[]
         {
             // File in project context menu
-            CommandPlacement.FromVsctParent(new Guid("{d309f791-903f-11d0-9efc-00a0c911004f}"), 1072),
+            CommandPlacement.VsctParent(new Guid("{d309f791-903f-11d0-9efc-00a0c911004f}"), id: 1072, priority: 0),
 
             // Project context menu
-            CommandPlacement.FromVsctParent(new Guid("{d309f791-903f-11d0-9efc-00a0c911004f}"), 1026),
+            CommandPlacement.VsctParent(new Guid("{d309f791-903f-11d0-9efc-00a0c911004f}"), id:  1026, priority: 0),
 
             // Solution context menu
-            CommandPlacement.FromVsctParent(new Guid("{d309f791-903f-11d0-9efc-00a0c911004f}"), 1043),
+            CommandPlacement.VsctParent(new Guid("{d309f791-903f-11d0-9efc-00a0c911004f}"), id:  1043, priority: 0),
         },
     };
     ...
@@ -89,7 +88,7 @@ internal class SampleCommand : Command
 
 *Compile-time constants* are subject to additional limitations compared to normal properties, for example they must be readonly and their initialization code can't include references to non-static members or multi-statement imperative code blocks. These restrictions are enforced by the VisualStudio.Extensibility build tools and results in error messages like the following:
 
-> Property SampleCommand.CommandConfiguration is a compile-time constant. References to user-defined non-static members are not supported when evaluating compile-time constant values.
+> An issue was encountered when evaluating the compile-time constant SampleCommand.CommandConfiguration. References to user-defined non-static members are not supported when evaluating compile-time constant values.
 
 In general, the extension shouldn't reference *compile-time constant* configuration properties at run time.
 
@@ -108,9 +107,7 @@ public abstract class Command : ExecutableCommandHandler, IVisualStudioContribut
     ...
 ```
 
-On rare occasions, configuration properties are optional. For example, the `Extension` class has a virtual `ExtensionConfiguration` property which includes some less common configurations.
-
-In certain cases, you may need to implement multiple configuration properties on the same class. This is common when extending `ExtensionPart` and implementing multiple interfaces, each one requiring its own configuration property.
+On rare occasions, configuration properties may be optional. In certain cases, you may need to implement multiple configuration properties on the same class. This is common when extending `ExtensionPart` and implementing multiple interfaces, each one requiring its own configuration property.
 
 ## Standalone configuration properties
 
@@ -128,7 +125,7 @@ namespace CommandParentingSample;
 internal static class ExtensionCommandConfiguration
 {
     [VisualStudioContribution]
-    public static ToolbarConfiguration ToolBar => new("%ToolBar.DisplayName%")
+    public static ToolbarConfiguration ToolBar => new("%CommandParentingSample.ToolBar.DisplayName%")
     {
         Children = new[]
         {
@@ -140,28 +137,26 @@ internal static class ExtensionCommandConfiguration
 
 Visual Studio contribution properties are also *compile-time constants* and are subject to the same limitations discussed earlier.
 
-The [Markdown Linter](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/MarkdownLinter/TextViewEventListener.cs) project shows a sample of a Visual Studio contribution property being referenced by another configuration property:
+A of a Visual Studio contribution property can also reference another configuration property. For example:
 
 ```csharp
-internal static class MarkdownLinterExtensionContributions
+public static class MenuConfigurations
 {
     [VisualStudioContribution]
-    internal static DocumentTypeConfiguration MarkdownDocumentType => new("markdown")
+    public static CommandGroupConfiguration MyCommandGroup => new(GroupPlacement.KnownPlacements.ExtensionsMenu)
     {
-        FileExtensions = new[] { ".md", ".mdk", ".markdown" },
-        BaseDocumentType = DocumentType.KnownValues.Text,
-    };
-}
-
-[VisualStudioContribution]
-internal class TextViewEventListener : ExtensionPart, ITextViewOpenClosedListener, ITextViewChangedListener
-{
-    ...
-    public TextViewExtensionConfiguration TextViewExtensionConfiguration => new()
-    {
-        AppliesTo = new[]
+        Children = new GroupChild[]
         {
-            DocumentFilter.FromDocumentType(MarkdownLinterExtensionContributions.MarkdownDocumentType),
+            GroupChild.Menu(MyMenu),
+        },
+    };
+
+    [VisualStudioContribution]
+    public static MenuConfiguration MyMenu => new("%MyMenu.DisplayName%")
+    {
+        Children = new[]
+        {
+            MenuChild.Command<MyCommand>(),
         },
     };
     ...
