@@ -14,7 +14,7 @@ ms.technology: vs-ide-debug
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-The Visual Studio debugger provides many powerful features to help you debug your apps. This topic provides a quick way to learn some of the basic features.
+The Visual Studio debugger provides many powerful features to help you debug your apps. This article provides a quick way to learn some of the basic features.
 
 ## Create a new project
 
@@ -26,9 +26,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
     Visual Studio creates the project.
 
-<!-- The file Pages/About.cshtml doesn't exist in the ASP.NET Web project created by VS 2022. -->
-
-1. In Solution Explorer, open About.cshtml.cs (under Pages/About.cshtml) and replace the following code
+1. In Solution Explorer, open About.cshtml.cs (under Pages/About.cshtml) and replace the following code. <!-- The file Pages/About.cshtml doesn't exist in the ASP.NET Web project created by VS 2022. -->
 
     ```csharp
     public void OnGet()
@@ -62,7 +60,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 ## Set a breakpoint
 
-A *breakpoint* is a marker that indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run. It is the most basic feature in debugging.
+A *breakpoint* is a marker that indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run. It's the most basic feature in debugging.
 
 1. To set the breakpoint, click in the gutter to the left of the `doWork` function (or select the line of code and press **F9**).
 
@@ -72,9 +70,9 @@ A *breakpoint* is a marker that indicates where Visual Studio should suspend you
 
 1. Now press **F5** (or choose **Debug > Start Debugging**).
 
-1. When the web page loads, click the **About** link at the top of the web page.
+1. When the web page loads, select the **About** link at the top of the web page.
 
-    The debugger pauses where you set the breakpoint. The statement where the debugger and app execution is paused is indicated by the yellow arrow. The line with the opening brace (`{`) after the `doWork` function declaration has not yet executed.
+    The debugger pauses where you set the breakpoint. A yellow arrow identifies the statement where the debugger and app execution is paused. The line with the opening brace (`{`) after the `doWork` function declaration hasn't yet executed.
 
     ![Hit a breakpoint](../debugger/media/dbg-qs-hit-breakpoint-aspnet.png)
 
@@ -85,7 +83,7 @@ A *breakpoint* is a marker that indicates where Visual Studio should suspend you
 
 There are different commands to instruct the debugger to continue. We show a useful code navigation command that is available starting in Visual Studio 2017.
 
-While paused at the breakpoint, hover over the statement `return c2` until the green **Run to click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png) appears, and then press the **Run to click** button.
+While the code is paused at the breakpoint, hover over the statement `return c2` until the green **Run to click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png) appears, and then press the **Run to click** button.
 
 ![Run to click](../debugger/media/dbg-qs-run-to-click-aspnet.png)
 
@@ -103,13 +101,13 @@ Common keyboard commands used to step through code include **F10** and **F11**. 
 
 2. Expand the datatip to look at the current property values of the `c2` object.
 
-3. If you want to pin the datatip so that you can continue to see the value of `c2` while you execute code, click the small pin icon. (You can move the pinned datatip to a convenient location.)
+3. If you want to pin the datatip so that you can continue to see the value of `c2` while you execute code, select the small pin icon. (You can move the pinned datatip to a convenient location.)
 
 ## Edit code and continue debugging
 
 If you identify a change that you want to test in your code while in the middle of a debugging session, you can do that, too.
 
-1. In the `OnGet` method, click the second instance of `result.First.Value` and change `result.First.Value` to `result.Last.Value`.
+1. In the `OnGet` method, select the second instance of `result.First.Value` and change `result.First.Value` to `result.Last.Value`.
 
 1. Press **F10** (or **Debug > Step Over**) a few times to advance the debugger and execute the edited code.
 
@@ -121,7 +119,7 @@ For more information on using edit-and-continue and on feature limitations, see 
 
 ## Next steps
 
-In this tutorial, you've learned how to start the debugger, step through code, and inspect variables. You may want to get a high-level look at debugger features along with links to more information.
+In this tutorial, you've learned how to start the debugger, step through code, and inspect variables. You might want to get a high-level look at debugger features along with links to more information.
 
 > [!div class="nextstepaction"]
 > [First look at the debugger](../debugger/debugger-feature-tour.md)
