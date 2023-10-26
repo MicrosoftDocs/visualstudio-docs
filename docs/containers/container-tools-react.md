@@ -57,7 +57,7 @@ For Docker installation, first review the information at [Docker Desktop for Win
 ::: moniker-end
 ::: moniker range=">=vs-2022"
 
-The following steps require Visual Studio 2022 version 17.8 or later.
+Follow these steps if you are using Visual Studio 2022 version 17.8 or later:
 
 1. Create a new project using the **React and ASP.NET Core** template.
 
@@ -98,7 +98,19 @@ The next step is different depending on whether you're using Linux containers or
 
 A *Dockerfile*, the recipe for creating a final Docker image, is created in the project. Refer to [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) for an understanding of the commands within it.
 
-Open the *Dockerfile* in the project, and add the following lines to install curl, Node.js 14.x, and certain required Node libraries in the container. Be sure to add these lines both in the first section, to add the installation of the Node package manager *npm.exe* to the base image, as well as in the `build` section.
+The default Dockerfile uses a base image to run the container, but when you want to also be able to run a Node.js application on it, you need to install Node.js, which mean adding some installation commands in a couple of places in the Dockerfile. The installation commands require elevated permissions, since the changes affect the container's privileged system files and folders.
+
+When the new project dialog's **Configure for HTTPS** check box is checked, the *Dockerfile* exposes two ports. One port is used for HTTP traffic; the other port is used for HTTPS. If the check box isn't checked, a single port (80) is exposed for HTTP traffic.
+
+If you are targeting .NET 8 or later, the default Dockerfile that Visual Studio creates using the normal user account (look for the line `USER app`), but that account doesn't have the elevated permissions required to install Node.js. To account for this, do the following:
+
+1. In the Dockerfile, delete the line `USER app`
+1. Change the ports that are exposed in the first section of the Dockerfile to port 80 is for HTTP requests and (if you chose to support HTTPS when you created the project) 443 for HTTPS requests.
+1. Edit *launchSettings.json* to change the port references there to 80 and 443; replace 8080 with 80 for HTTP, and 8081 with 443 for HTTPS.
+
+For all .NET versions, use the following steps to update the Dockerfile to install Node.js:
+
+1. Add the following lines to install curl, Node.js 14.x, and certain required Node libraries in the container. Be sure to add these lines both in the first section, to add the installation of the Node package manager *npm.exe* to the base image, as well as in the `build` section.
 
 ```Dockerfile
 RUN apt-get update
@@ -231,9 +243,10 @@ ENTRYPOINT ["dotnet", "ProjectSPA1.dll"]
 
 The preceding *Dockerfile* is based on the [mcr.microsoft.com/dotnet/core/aspnet](https://hub.docker.com/_/microsoft-dotnet-core-aspnet/) image, and includes instructions for modifying the base image by building your project and adding it to the container.
 
-When the new project dialog's **Configure for HTTPS** check box is checked, the *Dockerfile* exposes two ports. One port is used for HTTP traffic; the other port is used for HTTPS. If the check box isn't checked, a single port (80) is exposed for HTTP traffic.
-
 ## Modify the Dockerfile (Windows containers)
+
+> [!NOTE]
+> This section is not applicable if you are targeting .NET 8, due to the lack of a suitable base image that supports both PowerShell and .NET 8. This section might be updated later if an appropriate base image becomes available.
 
 Open the project file by double-clicking on the project node, and update the project file (*.csproj) by adding the following property as a child of the `<PropertyGroup>` element:
 
@@ -344,6 +357,10 @@ Update the Dockerfile by adding the following lines. This will copy node and npm
 ## Debug
 
 :::moniker range=">=vs-2022"
+With .NET 8 and Visual Studio 2022, the projects are already configured to start both the client and server projects with debugging support.
+
+If you're using an earlier version of Visual Studio, continue reading to set up debugging with the SPA proxy server.
+
 The project uses the SPA Proxy during debugging. See [Improved single-page app (SPA) templates](https://devblogs.microsoft.com/dotnet/asp-net-core-updates-in-net-6-preview-4/#improved-single-page-app-spa-templates). When debugging, the JavaScript client runs on the host machine, but the ASP.NET Core server code runs in the container. When published, the proxy is not run, and the client code runs on the same server as the ASP.NET Core code.  You already have a Debug profile **Docker* that you can use to debug the server code. To debug the JavaScript client code, you can create an additional debug profile. You'll also need to start the proxy manually from a command prompt when debugging JavaScript. You can leave it running through multiple debug sessions.
 
 1. Build the project, if not already built.
