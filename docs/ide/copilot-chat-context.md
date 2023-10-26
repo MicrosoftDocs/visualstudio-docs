@@ -41,12 +41,14 @@ You can use slash commands in a [chat window](visual-studio-github-copilot-chat.
 | /askvs| Ask questions related to Visual Studio | Yes | No | /askvs How do I connect Visual Studio to a Git Repository?|
 | /clear| Clear the chat window | Yes | No | /clear |
 | /createtest| Create unit tests for the selected code| Yes | Yes | select desired code and type /createtest |
-| /doc| Add comments for specified or selected code | Yes | Yes | </br> - select desired code and type /doc|
+| /doc| Add comments for specified or selected code | Yes | Yes | - /doc DeleteBasketAsync method in BasketService.cs</br> - select desired code and type /doc|
 | /explain | Explain the code | Yes | Yes | - /explain the AddItemToBasket method in BasketService.cs</br> - select desired code and type /explain|
 | /fix | Propose a fix for problems in the selected code | Yes | Yes | - /fix the SetQuantities method in BasketService.cs</br> - select desired code and type /fix|
 | /generate | Generate code to answer specified question | Yes | Yes | /generate code to add two numbers in Calculator.cs |
 | /help | Get help on Copilot Chat | Yes | No | /help |
 | /optimize | Analyze and improve running time of the selected code | Yes | Yes | - /optimize the AddItemToBasket method in BasketService.cs</br> - select desired code and type /optimize|
+
+:::image type="content" source="media/vs-2022/copilot-chat-context-slash-commands.png" alt-text="Screenshot of slash commands in interactive code assistant and chat windows.":::
 
 ## Enable context experience
 
