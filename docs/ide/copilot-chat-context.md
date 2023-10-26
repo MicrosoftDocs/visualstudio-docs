@@ -18,7 +18,8 @@ monikerRange: vs-2022
 
 [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) in Visual Studio enables you to get coding information and support, such as syntax, programming concepts, context-specific code help, test cases, debugging, and more, without leaving the IDE. With tight integration in Visual Studio, Copilot Chat understands what you're working on by gathering useful context data from Visual Studio. 
 
-In this article, you'll learn about [slash commands](#use-slash-commands) and the new context experience features in Copilot Chat, such as [solution context](#solution-context-for-deeper-answers) and [hash references](#control-context-with-hash-references). These new features enable you to scope your questions with improved intent and context to get better answers.
+In this article, you'll learn about how you can get better answers with improved context in Copilot Chat. You'll learn
+about [slash commands](#use-slash-commands) and the new context experience features in Copilot Chat, such as [solution context](#solution-context-for-deeper-answers) and [hash references](#control-context-with-hash-references), that enable you to form great questions by scoping the intent and context.
 
 Learn more about [AI-assisted development in Visual Studio](../ide/ai-assisted-development-visual-studio.md) and how to [use Copilot Chat in Visual Studio](../ide/visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio).
 
