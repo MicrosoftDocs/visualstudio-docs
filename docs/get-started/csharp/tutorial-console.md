@@ -19,7 +19,7 @@ dev_langs:
 
 In this tutorial, you use Visual Studio to create and run a C# console app, and explore some features of the Visual Studio integrated development environment (IDE). This tutorial is part 1 of a two-part tutorial series.
 
-In this tutorial, you:
+In this tutorial, you complete the following tasks:
 
 > [!div class="checklist"]
 > * Create a Visual Studio project.
