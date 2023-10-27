@@ -166,10 +166,9 @@ ENTRYPOINT ["dotnet", "ProjectSPA1.dll"]
 #See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
-USER app
 WORKDIR /app
-EXPOSE 8080
-EXPOSE 8081
+EXPOSE 80
+EXPOSE 443
 RUN apt-get update
 RUN apt-get install -y curl
 RUN apt-get install -y libpng-dev libjpeg-dev curl libxi6 build-essential libgl1-mesa-glx
@@ -422,7 +421,7 @@ The project uses the SPA Proxy during debugging. See [Improved single-page app (
    const target =  'https://localhost:{container-port}';
    ```
 
-   If you're using HTTPS, be sure to choose the right port for HTTPS.
+   If you're using HTTPS, be sure to choose the right port for HTTPS, which is 443 in this tutorial.
 
 1. Launch the app with debugging (**F5**).
 
