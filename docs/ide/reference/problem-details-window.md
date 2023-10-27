@@ -6,7 +6,7 @@ ms.topic: reference
 helpviewer_keywords:
 - Problem Details window
 - build errors
-- Error List window
+- Error List window../
 author: tartanllama
 ms.author: sybrand
 manager: mluparu
@@ -19,7 +19,7 @@ ms.technology: vs-ide-general
 
 The **Problem Details** window enables you to view and navigate structured diagnostics issued by the MSVC compiler or [code analysis for C/C++](/cpp/code-quality/code-analysis-for-c-cpp-overview).
 
-You can open the **Problem Details** window by interacting with entries in the [**Error List**](../../ide/reference/error-list.md) which show an icon in their **Details** column to indicate that structured diagnostics are available for that entry. 
+You can open the **Problem Details** window by interacting with entries in the [**Error List**](error-list.md) which show an icon in their **Details** column to indicate that structured diagnostics are available for that entry. 
 
 [An Error List entry with an icon in its Details column.](media/error-list-details-column.png)
 
