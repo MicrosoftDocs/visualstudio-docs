@@ -12,7 +12,7 @@ ms.topic: quickstart
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-With Visual Studio, you can easily build, debug, and run containerized ASP.NET Core apps, including those with client-side JavaScript such as React.js single-page app, and publish them to Azure Container Registry, Docker Hub, Azure App Service, or your own container registry. In this article, we'll publish to Azure Container Registry.
+With Visual Studio, you can easily build, debug, and run containerized ASP.NET Core apps, including those with client-side JavaScript such as React.js single-page app, and publish them to Azure Container Registry, Docker Hub, Azure App Service, or your own container registry. In this article, we publish to Azure Container Registry.
 
 ## Prerequisites
 
@@ -57,7 +57,7 @@ For Docker installation, first review the information at [Docker Desktop for Win
 ::: moniker-end
 ::: moniker range=">=vs-2022"
 
-Follow these steps if you are using Visual Studio 2022 version 17.8 or later:
+Follow these steps if you're using Visual Studio 2022 version 17.8 or later:
 
 1. Create a new project using the **React and ASP.NET Core** template.
 
@@ -98,13 +98,13 @@ The next step is different depending on whether you're using Linux containers or
 
 A *Dockerfile*, the recipe for creating a final Docker image, is created in the project. Refer to [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) for an understanding of the commands within it.
 
-The default Dockerfile uses a base image to run the container, but when you want to also be able to run a Node.js application on it, you need to install Node.js, which mean adding some installation commands in a couple of places in the Dockerfile. The installation commands require elevated permissions, since the changes affect the container's privileged system files and folders.
+The default Dockerfile uses a base image to run the container, but when you want to also be able to run a Node.js application on it, you need to install Node.js, which means adding some installation commands in a couple of places in the Dockerfile. The installation commands require elevated permissions, since the changes affect the container's privileged system files and folders.
 
 When the new project dialog's **Configure for HTTPS** check box is checked, the *Dockerfile* exposes two ports. One port is used for HTTP traffic; the other port is used for HTTPS. If the check box isn't checked, a single port (80) is exposed for HTTP traffic.
 
-If you are targeting .NET 8 or later, the default Dockerfile that Visual Studio creates using the normal user account (look for the line `USER app`), but that account doesn't have the elevated permissions required to install Node.js. To account for this, do the following:
+If you're targeting .NET 8 or later, the default Dockerfile that Visual Studio creates using the normal user account (look for the line `USER app`), but that account doesn't have the elevated permissions required to install Node.js. To account for this situation, do the following:
 
-1. In the Dockerfile, delete the line `USER app`
+1. In the Dockerfile, delete the line `USER app`.
 1. Change the ports that are exposed in the first section of the Dockerfile to port 80 is for HTTP requests and (if you chose to support HTTPS when you created the project) 443 for HTTPS requests.
 1. Edit *launchSettings.json* to change the port references there to 80 and 443; replace 8080 with 80 for HTTP, and 8081 with 443 for HTTPS.
 
@@ -202,7 +202,7 @@ COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "ReactApp1.Server.dll"]
 ```
 
-In versions Visual Studio 17.0 to 17.7 it should resemble the following:
+In Visual Studio 2022 version 17.0 to 17.7, it should resemble the following:
 
 ```Dockerfile
 #See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
@@ -254,7 +254,7 @@ Open the project file by double-clicking on the project node, and update the pro
 > [!NOTE]
 > The change to **DockerfileFastModeStage** is required, because the Dockerfile here adds a stage to the beginning of the Dockerfile. In order to optimize performance, Visual Studio uses **Fast mode**, but it only works if the right stage is used. The default is the first stage in the Dockerfile, which in this example, is changed from `base` to something else in order to download Node.js. For more explanation of **Fast mode**, see [Customize Docker containers in Visual Studio](container-build.md#debugging).
 
-Update the Dockerfile by adding the following lines. This will copy node and npm to the container.
+Update the Dockerfile by adding the following lines. These lines will copy Node and `npm`` to the container.
 
    1. Add ``# escape=` `` to the first line of the Dockerfile
    1. Add the following lines before `FROM … base`
@@ -352,7 +352,7 @@ Update the Dockerfile by adding the following lines. This will copy node and npm
 
       ::: moniker-end
 
-   1. Update the .dockerignore file by removing the `**/bin`.
+   1. Update the `.dockerignore` file by removing the `**/bin`.
 
 ## Debug
 
@@ -361,7 +361,7 @@ With Visual Studio 2022 version 17.8 and later and the **React and ASP.NET Core*
 
 If you're using an earlier version of Visual Studio, continue reading to set up debugging with the SPA proxy server.
 
-The project uses the SPA Proxy during debugging. See [Improved single-page app (SPA) templates](https://devblogs.microsoft.com/dotnet/asp-net-core-updates-in-net-6-preview-4/#improved-single-page-app-spa-templates). When debugging, the JavaScript client runs on the host machine, but the ASP.NET Core server code runs in the container. When published, the proxy is not run, and the client code runs on the same server as the ASP.NET Core code.  You already have a Debug profile **Docker* that you can use to debug the server code. To debug the JavaScript client code, you can create an additional debug profile. You'll also need to start the proxy manually from a command prompt when debugging JavaScript. You can leave it running through multiple debug sessions.
+The project uses the SPA Proxy during debugging. See [Improved single-page app (SPA) templates](https://devblogs.microsoft.com/dotnet/asp-net-core-updates-in-net-6-preview-4/#improved-single-page-app-spa-templates). When debugging, the JavaScript client runs on the host machine, but the ASP.NET Core server code runs in the container. When published, the proxy isn't run, and the client code runs on the same server as the ASP.NET Core code.  You already have a Debug profile **Docker* that you can use to debug the server code. To debug the JavaScript client code, you can create an additional debug profile. You also need to start the proxy manually from a command prompt when debugging JavaScript. You can leave it running through multiple debug sessions.
 
 1. Build the project, if not already built.
 
@@ -375,13 +375,13 @@ The project uses the SPA Proxy during debugging. See [Improved single-page app (
      Local:            https://localhost:44407
      On Your Network:  https://192.168.1.5:44407
 
-   Note that the development build is not optimized.
+   Note that the development build isn't optimized.
    To create a production build, use npm run build.
    
    webpack compiled successfully
    ```
 
-   Note the local URL. You'll need to provide this in a debug launch profile, which is stored in your *launchSettings.json* file.
+   Note the local URL. You need to provide this in a debug launch profile, which is stored in your *launchSettings.json* file.
 
 1. Open the dropdown that contains debug profiles (next to the green triangle icon or **Start** button), and choose **{ProjectName} Debug Properties**, and choose the **Docker** profile.
 1. Check the **Environment variables** section and add the following environment variables if not already present:
@@ -414,7 +414,7 @@ The project uses the SPA Proxy during debugging. See [Improved single-page app (
    ```
 
    > [!IMPORTANT]
-   > Do not set the launch settings option `publishAllPorts` to `true` if you are using a proxy. That option publishes all exposed ports to a random port, which won't work when you set a specific port in the SPA proxy.
+   > Do not set the launch settings option `publishAllPorts` to `true` if you're using a proxy. That option publishes all exposed ports to a random port, which won't work when you set a specific port in the SPA proxy.
 
 1. Open the file *ClientApp/src/setupProxy.js* and change the line that sets the target to use the localhost address and port on the container. You can find the port on the **Ports** tab of the **Containers** window.
 
@@ -438,7 +438,7 @@ The project uses the SPA Proxy during debugging. See [Improved single-page app (
 
    ![Screenshot showing debugging server-side ASP.NET Core code.](./media/container-tools-react/vs-2022/debugging-aspnet-core.png)
 
-1. If the container port changes, which can happen if you make a significant change, such as updating *launchSettings.json* or updating the debug launch profile in the IDE, you'll need to update the port in *setupProxy.js* and also restart the proxy. Terminate the current proxy (**Ctrl**+**C** in the command window where it's running), and then restart it using the same command `npm run start`.
+1. If the container port changes, which can happen if you make a significant change, such as updating *launchSettings.json* or updating the debug launch profile in the IDE, you need to update the port in *setupProxy.js* and also restart the proxy. Terminate the current proxy (**Ctrl**+**C** in the command window where it's running), and then restart it using the same command `npm run start`.
 
 :::moniker-end
 
@@ -495,7 +495,7 @@ Once the develop and debug cycle of the app is completed, you can create a produ
     | **Subscription** | Choose your subscription | The Azure subscription to use. |
     | **[Resource Group](/azure/azure-resource-manager/resource-group-overview)** | myResourceGroup |  Name of the resource group in which to create your container registry. Choose **New** to create a new resource group.|
     | **[SKU](/azure/container-registry/container-registry-skus)** | Standard | Service tier of the container registry  |
-    | **Registry Location** | A location close to you | Choose a Location in a [region](https://azure.microsoft.com/regions/) near you or near other services that will use your container registry. |
+    | **Registry Location** | A location close to you | Choose a Location in a [region](https://azure.microsoft.com/regions/) near you or near other services that use your container registry. |
 
     ![Screenshot of Visual Studio's create Azure Container Registry dialog.](media/container-tools-react/vs-2019/azure-container-registry-details.png)
 
@@ -531,7 +531,7 @@ Once the develop and debug cycle of the app is completed, you can create a produ
     | **Subscription** | Choose your subscription | The Azure subscription to use. |
     | **[Resource Group](/azure/azure-resource-manager/resource-group-overview)** | myResourceGroup |  Name of the resource group in which to create your container registry. Choose **New** to create a new resource group.|
     | **[SKU](/azure/container-registry/container-registry-skus)** | Standard | Service tier of the container registry  |
-    | **Registry Location** | A location close to you | Choose a Location in a [region](https://azure.microsoft.com/regions/) near you or near other services that will use your container registry. |
+    | **Registry Location** | A location close to you | Choose a Location in a [region](https://azure.microsoft.com/regions/) near you or near other services that use your container registry. |
 
     ![Screenshot of Visual Studio's create Azure Container Registry dialog.](media/container-tools-react/vs-2022/azure-container-registry-details.png)
 
@@ -555,4 +555,3 @@ You can now pull the container from the registry to any host capable of running 
 * [Container development with Visual Studio](./index.yml)
 * [Troubleshoot Visual Studio development with Docker](troubleshooting-docker-errors.md)
 * [Visual Studio Container Tools GitHub repository](https://github.com/Microsoft/DockerTools)
-
