@@ -18,7 +18,7 @@ monikerRange: vs-2022
 
 [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) in Visual Studio enables you to get coding information and support, such as syntax, programming concepts, context-specific code help, test cases, debugging, and more, without leaving the IDE. With tight integration in Visual Studio, Copilot Chat understands what you're working on by gathering useful context data from Visual Studio. 
 
-In this article, you'll learn about how to get better answers with improved context in Copilot Chat. [Slash commands](#use-slash-commands) and the new context experience features in Copilot Chat, such as [solution context](#solution-context-for-deeper-answers) and [hash references](#control-context-with-hash-references) enable you to form great questions by scoping the intent and context.
+In this article, you'll learn about how to get better answers with improved context in Copilot Chat. [Slash commands](#use-slash-commands) and the new context experience features in Copilot Chat, such as [hash references](#control-context-with-hash-references) enable you to form great questions by scoping the intent and context.
 
 Learn more about [AI-assisted development in Visual Studio](../ide/ai-assisted-development-visual-studio.md) and how to [use Copilot Chat in Visual Studio](../ide/visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio).
 
@@ -57,12 +57,6 @@ To enable the new context experience features for GitHub Copilot Chat, follow th
 1. Open Visual Studio.
 1. On the menu bar, select **Tools** > **Options** > **GitHub** > **Copilot chat**. You can also search for "Copilot chat" in the search box.
 1. Select **Enable new context experience** > **OK**.
-
-### Solution context for deeper answers
-
-With solution context, GitHub Copilot Chat grounds itself in the solution open in your current instance of Visual Studio. This enables you to ask questions that are scoped to the project you're working on. For example, if you have an E-commerce app open in Visual Studio, you can ask questions such as “Where can I find the code that manages the shopping cart in this codebase?” or “How can I add a wish list to this shopping cart manager? " and Copilot Chat will provide you with answers in the context of your open project.
-
-This is especially helpful when you're working on a large and complex codebase or onboarding onto a new project. With solution context, you can ask questions using natural language in Copilot Chat to get in-depth analysis and explanations of how code works in your specific project.
 
 ### Control context with hash references
 
