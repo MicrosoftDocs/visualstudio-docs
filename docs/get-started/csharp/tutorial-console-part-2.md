@@ -2,7 +2,7 @@
 title: "Tutorial 2: Extend your C# console app"
 description: "Learn how to develop a C# console app in Visual Studio, step-by-step."
 ms.custom: vs-acquisition
-ms.date: 1/5/2023
+ms.date: 10/26/2023
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -16,11 +16,11 @@ dev_langs:
 ---
 # Tutorial: Extend C# console app and debug in Visual Studio (part 2 of 2)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In part 2 of this tutorial series, you dive a little deeper into the Visual Studio build and debug features you need for daily development. These features include managing multiple projects, debugging, and referencing third-party packages. You run the C# console app you created in [Part 1 of this tutorial](tutorial-console.md), and explore some features of the Visual Studio integrated development environment (IDE). This tutorial is part 2 of a two-part tutorial series.
 
-In this tutorial, you:
+In this tutorial, you complete the following tasks:
 
 > [!div class="checklist"]
 > * Add a second project.
@@ -148,7 +148,7 @@ In Visual Studio, you use the menu command **File** > **Add** > **New Project** 
 
 1. On the **Configure your new project** screen, type the project name *CalculatorLibrary*, and then select **Next**.
    
-1. On the **Additional information** screen, .NET 6.0 is selected. Select **Create**.
+1. On the **Additional information** screen, .NET 8.0 is selected. Select **Create**.
    
    Visual Studio creates the new project and adds it to the solution.
    

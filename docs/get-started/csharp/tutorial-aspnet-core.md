@@ -66,12 +66,14 @@ First, you create an ASP.NET Core project. The project type comes with all the t
    > 1. Select **Modify** in the Visual Studio Installer. You might be prompted to save your work.
    >
    > 1. Select **Continue** to install the workload.
+   >
+   > Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
 
 1. In the **Configure your new project** window, enter **MyCoreApp** in the **Project name** field. Then, select **Next**.
 
    :::image type="content" source="./media/vs-2019/csharp-name-your-aspnet-app.png" alt-text="Screenshot shows the Configure your new project window with MyCoreApp entered in the Project name field.":::
 
-1. In the **Additional information** window, verify that **.NET Core 3.1** appears in the **Target Framework** field. 
+1. In the **Additional information** window, verify that **.NET Core 3.1** appears in the **Target Framework** field.
 
    From this window, you can enable Docker support and add authentication support. The drop-down menu for **Authentication Type** has the following four options:
    
@@ -116,6 +118,8 @@ Visual Studio opens your new project.
    > 1. Select **Modify** in the Visual Studio Installer. You might be prompted to save your work.
    >
    > 1. Select **Continue** to install the workload.
+   > 
+   > Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
 
 1. In the **Configure your new project** window, enter **MyCoreApp** in the **Project name** field. Then, select **Next**.
 
