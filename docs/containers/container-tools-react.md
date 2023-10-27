@@ -251,6 +251,9 @@ Open the project file by double-clicking on the project node, and update the pro
     <DockerfileFastModeStage>base</DockerfileFastModeStage>
    ```
 
+> [!NOTE]
+> The change to **DockerfileFastModeStage** is required, because the Dockerfile here adds a stage to the beginning of the Dockerfile. In order to optimize performance, Visual Studio uses **Fast mode**, but it only works if the right stage is used. The default is the first stage in the Dockerfile, which in this example, is changed from `base` to something else in order to download Node.js. For more explanation of **Fast mode**, see [Customize Docker containers in Visual Studio](container-build.md#debugging).
+
 Update the Dockerfile by adding the following lines. This will copy node and npm to the container.
 
    1. Add ``# escape=` `` to the first line of the Dockerfile
@@ -290,10 +293,10 @@ Update the Dockerfile by adding the following lines. This will copy node and npm
       WORKDIR /app
       EXPOSE 80
       EXPOSE 443
-      COPY --from=downloadnodejs C:\nodejs\ C:\Windows\system32\
+      COPY --from=downloadnodejs C:\\nodejs C:\\Windows\\system32
 
       FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
-      COPY --from=downloadnodejs C:\nodejs\ C:\Windows\system32\
+      COPY --from=downloadnodejs C:\\nodejs C:\\Windows\\system32
       WORKDIR /src
       COPY ["ProjectSPA1/ProjectSPA1.csproj", "ProjectSPA1/"]
       RUN dotnet restore "ProjectSPA1/ProjectSPA1.csproj"
@@ -327,10 +330,10 @@ Update the Dockerfile by adding the following lines. This will copy node and npm
       WORKDIR /app
       EXPOSE 80
       EXPOSE 443
-      COPY --from=downloadnodejs C:\\nodejs\\ C:\\Windows\\system32\\
+      COPY --from=downloadnodejs C:\\nodejs C:\\Windows\\system32
 
       FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
-      COPY --from=downloadnodejs C:\\nodejs\\ C:\\Windows\\system32\\
+      COPY --from=downloadnodejs C:\\nodejs C:\\Windows\\system32
       WORKDIR /src
       COPY ["Project1-SPA-Windows/Project1-SPA-Windows.csproj", "Project1-SPA-Windows/"]
       RUN dotnet restore "Project1-SPA-Windows/Project1-SPA-Windows.csproj"
