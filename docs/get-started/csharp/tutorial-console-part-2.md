@@ -54,7 +54,7 @@ In Visual Studio, you use the menu command **File** > **Add** > **New Project** 
 
    ![Screenshot of Solution Explorer with the CalculatorLibrary class library project added.](media/vs-2019/calculator2-solution-explorer-with-class-library-dark2.png)
 
-1. Rename the *Class1.cs* file to *CalculatorLibrary.cs*. To rename the file, you can right-click the name in **Solution Explorer** and choose **Rename**, select the name and press **F2**, or select the name and click again to type.
+1. Rename the *Class1.cs* file to *CalculatorLibrary.cs*. To rename the file, you can right-click the name in **Solution Explorer** and choose **Rename**, select the name and press **F2**, or select the name and select again to type.
 
    A message might ask whether you want to rename references to `Class1` in the file. It doesn't matter how you answer, because you'll replace the code in a future step.
 
@@ -118,7 +118,7 @@ In Visual Studio, you use the menu command **File** > **Add** > **New Project** 
     }
    ```
 
-1. *Program.cs* also has a reference, but an error says that the `Calculator.DoOperation` call doesn't resolve. That's because `CalculatorLibrary` is in a different namespace. For a fully qualified reference, you could add the `CalculatorLibrary` namespace to the `Calculator.DoOperation` call:
+1. *Program.cs* also has a reference, but an error says the `Calculator.DoOperation` call doesn't resolve. The error is because `CalculatorLibrary` is in a different namespace. For a fully qualified reference, you could add the `CalculatorLibrary` namespace to the `Calculator.DoOperation` call:
 
    ```csharp
    result = CalculatorLibrary.Calculator.DoOperation(cleanNum1, cleanNum2, op);
@@ -154,7 +154,7 @@ In Visual Studio, you use the menu command **File** > **Add** > **New Project** 
    
    ![Screenshot of Solution Explorer with the CalculatorLibrary class library project added.](media/vs-2022/calculator-solution-explorer-with-class-library.png)
 
-1. Rename the *Class1.cs* file to *CalculatorLibrary.cs*. To rename the file, you can right-click the name in **Solution Explorer** and choose **Rename**, select the name and press **F2**, or select the name and click again to type.
+1. Rename the *Class1.cs* file to *CalculatorLibrary.cs*. To rename the file, you can right-click the name in **Solution Explorer** and choose **Rename**, select the name and press **F2**, or select the name and select again to type.
 
    A message might ask whether you want to rename all references to `Class1` in the file. It doesn't matter how you answer, because you'll replace the code in a future step.
 
@@ -216,7 +216,7 @@ In Visual Studio, you use the menu command **File** > **Add** > **New Project** 
     }
    ```
 
-1. *Program.cs* also has a reference, but an error says that the `Calculator.DoOperation` call doesn't resolve. That's because `CalculatorLibrary` is in a different namespace. For a fully qualified reference, you could add the `CalculatorLibrary` namespace to the `Calculator.DoOperation` call:
+1. *Program.cs* also has a reference, but an error says the `Calculator.DoOperation` call doesn't resolve. The error is because `CalculatorLibrary` is in a different namespace. For a fully qualified reference, you could add the `CalculatorLibrary` namespace to the `Calculator.DoOperation` call:
 
    ```csharp
    result = CalculatorLibrary.Calculator.DoOperation(cleanNum1, cleanNum2, op);
@@ -939,7 +939,7 @@ Next, execute code in the debugger one statement at a time, which is called *ste
    {
    ```
 
-   This code checks for a divide-by-zero case. If the app continues, it will throw a general exception (an error), but you might want to try something else, like viewing the actual returned value in the console. One option is to use a debugger feature called *edit-and-continue* to make changes to the code and then continue debugging. However, there's a different trick to temporarily modify the execution flow.
+   This code checks for a divide-by-zero case. If the app continues, it throws a general exception (an error), but you might want to try something else, like viewing the actual returned value in the console. One option is to use a debugger feature called *edit-and-continue* to make changes to the code and then continue debugging. However, there's a different trick to temporarily modify the execution flow.
 
 ## Debug: Test a temporary change
 
