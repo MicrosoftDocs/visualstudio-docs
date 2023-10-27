@@ -245,9 +245,6 @@ The preceding *Dockerfile* is based on the [mcr.microsoft.com/dotnet/core/aspnet
 
 ## Modify the Dockerfile (Windows containers)
 
-> [!NOTE]
-> This section is not applicable if you are targeting .NET 8, due to the lack of a suitable base image that supports both PowerShell and .NET 8. This section might be updated later if an appropriate base image becomes available.
-
 Open the project file by double-clicking on the project node, and update the project file (*.csproj) by adding the following property as a child of the `<PropertyGroup>` element:
 
    ```xml
@@ -357,7 +354,7 @@ Update the Dockerfile by adding the following lines. This will copy node and npm
 ## Debug
 
 :::moniker range=">=vs-2022"
-With .NET 8 and Visual Studio 2022, the projects are already configured to start both the client and server projects with debugging support.
+With Visual Studio 2022 version 17.8 and later and the **React and ASP.NET Core** template, the projects are already configured to start both the client and server projects with debugging support.
 
 If you're using an earlier version of Visual Studio, continue reading to set up debugging with the SPA proxy server.
 
