@@ -733,8 +733,8 @@
     href: ide/walkthrough-creating-a-multiple-computer-build-environment.md
 - name: Debug >>
   href: debugger/index.yml
-- name: Version control >>
-  displayName: git, github, source control, source, versioning, clone, integrate, release
+- name: Track changes with Git >>
+  displayName: git, github, azure dev ops, dev ops, version control, source control, source, versioning, clone, integrate, release
   href: version-control/index.yml
 - name: Test >>
   displayName: Unit testing
