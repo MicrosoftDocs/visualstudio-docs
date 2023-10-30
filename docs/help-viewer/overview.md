@@ -24,7 +24,7 @@ ms.technology: vs-help-viewer
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can use Microsoft Help Viewer to install, view, and manage local documentation installs for Microsoft products and technologies on local computers. These products include Visual Studio, .NET, language reference, SQL Server, and Windows Development. 
+You can use Microsoft Help Viewer to install, view, and manage local documentation installs for Microsoft products and technologies on local computers. These products include Visual Studio, .NET, language reference, SQL Server, and Windows development. 
 
 With Help Viewer, you, and any users you support, can:
 
