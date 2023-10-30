@@ -12,7 +12,9 @@ ms.technology: vs-help-viewer
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-The Help Viewer allows you to manage local Help installations for network environments with or without internet access. Local help content is configured on a per machine basis. By default, users must have administrator rights to update their local Help installation.
+You can use Microsoft Help Viewer to install, view, and manage local documentation installs for Microsoft products and technologies on local computers. These products include Visual Studio, .NET, language reference, SQL Server, and Windows Development. 
+
+In this article, you learn to use the Help Viewer to deploy and manage local Help installations for network environments with or without internet access. Local help content is configured on a per machine basis. By default, users must have administrator rights to update their local Help installation.
 
 If your network environment allows clients to access the internet, you can use the **Help Content Manager** executable to deploy local Help content from the internet. For more information about *HlpCtntMgr.exe* command line syntax, see [Command-line arguments for the Help Content Manager](../help-viewer/command-line-arguments.md).
 

@@ -127,3 +127,4 @@ c:\localVSlayout\vs_enterprise.exe --noWeb --add Microsoft.VisualStudio.Workload
 - [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 - [Visual Studio workload and component IDs](workload-and-component-ids.md)
 - [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
+- [Install Help View for offline documentation](../help-viewer/overview.md)

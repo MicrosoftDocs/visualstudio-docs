@@ -11,7 +11,7 @@ ms.author: jasonchlus
 manager: jmartens
 ms.technology: vs-help-viewer
 ---
-# Shortcut keys in Help Viewer
+# Shortcut keys in Microsoft Help Viewer
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
