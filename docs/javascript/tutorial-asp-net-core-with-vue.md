@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Vue"
 description: In this tutorial, you create an app using ASP.NET Core and Vue
-ms.date: 10/16/2023
+ms.date: 10/30/2023
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -26,13 +26,13 @@ You can use the method described in this article to create ASP.NET Core Single P
 - Create the client project based on the framework CLI installed on your computer
 
 > [!NOTE]
-> This article describes the project creation process using the template in Visual Studio 2022 version 17.7, which uses the Vite CLI.
+> This article describes the project creation process using the updated template in Visual Studio 2022 version 17.8 Preview 2, which uses the Vite CLI.
 
 ## Prerequisites
 
 Make sure to install the following:
 
-- Visual Studio 2022 version 17.7 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+- Visual Studio 2022 version 17.8 Preview 2 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
   If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 - npm ([https://www.npmjs.com/](https://www.npmjs.com/package/npm)), which is included with Node.js.
 
