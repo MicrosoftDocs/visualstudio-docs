@@ -13,7 +13,7 @@
       - name: Install content locally
         displayName: Offline books docs
         href: install-manage-local-content.md
-      - name: Deploy help content to others (network)
+      - name: Deploy help content to others on a network
         href: administrator-guide.md
       - name: Command-line arguments for the Help Content Manager
         href: command-line-arguments.md
