@@ -380,8 +380,8 @@ The project uses the SPA Proxy during debugging. See [Improved single-page app (
    webpack compiled successfully
    ```
 
-  > [!Note]
-  > Note the local URL. You need to provide this in a debug launch profile, which is stored in your *launchSettings.json* file.
+   > [!Note]
+   > Note the local URL. You need to provide this in a debug launch profile, which is stored in your *launchSettings.json* file.
 
 1. Open the dropdown that contains debug profiles (next to the green triangle icon or **Start** button), and choose **{ProjectName} Debug Properties**, and choose the **Docker** profile.
 1. Check the **Environment variables** section and add the following environment variables if not already present:
