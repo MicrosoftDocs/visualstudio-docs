@@ -21,7 +21,9 @@ The **Problem Details** window enables you to view and navigate structured diagn
 
 You can open the **Problem Details** window by interacting with entries in the [**Error List** window](error-list-window.md) which show an icon in their **Details** column to indicate that structured diagnostics are available for that entry. 
 
-[An Error List entry with an icon in its Details column.](media/error-list-details-column.png)
+:::image type="complex" source="media/error-list-details-column.png" alt-text="Screenshot of the Visual Studio Error List with one entry which has an icon in its details column.":::
+   Screenshot of the Visual Studio Error List. It shows a table with a single row. The row represents a compiler error and contains the error code C2665, the description "pet: no overloaded function could convert all the argument types", and an icon of a square with the corner magnified in the column named Details. This icon is highlighted.
+:::image-end:::
 
 Such entries are produced in two scenarios:
 
@@ -38,10 +40,14 @@ By default, the **Problem Details** window opens in the same location as the **E
 
 The **Problem Details** window displays structured information that may be nested. When the window opens, all entries that have nested children begin collapsed.
 
-![The Problem Details window with all children collapsed](media/problem-details-collapsed.png)
+:::image type="complex" source="media/problem-details-collapsed.png" alt-text="Screenshot of the Visual Studio Problem Details window with all children collapsed.":::
+   Screenshot of the Visual Studio Problem Details window. At the top is a header showing the same error code and description as the Error List entry from before. There is also a clickable link with the text cppcon-diag.cpp (Line 23). Below this header there are four lines of text. The first line says "Could be void pet(cat)". The second line says "or void pet(dog)". The third says "or void pet(_T0)". The last one says "while trying to match the argument list (lizard)". To the right of each line is grey text showing the file and line numbers for each entry. All of them belong to cppcon-diag.cpp and the line numbers are 7, 6, 18, and 23, respectively. To the left of the first three lines are small hollow arrows pointing right which signify that these entries can be expanded, but are currently not.
+:::image-end:::
 
-You can expand an entry to view its children by either clicking on the arrow at the left-hand side of an entry, or by pressing **Right** with the entry highlighted.
+Expand an entry to view its children by either clicking on the arrow at the left-hand side of an entry, or by pressing **Right** with the entry highlighted.
 
-![The Problem Details window with some children expanded](media/problem-details-expanded.png)
+:::image type="complex" source="media/problem-details-expanded.png" alt-text="Screenshot of the Visual Studio Problem Details window with some children expanded.":::
+Screenshot of the Visual Studio Problem Details window. The contents are mostly the same as the previous screenshot, however some of the entries have been expanded so their child entries are visible. The first entry has been expanded, so the arrow to the left is now filled in and is pointing down and right. There is a nested entry with the text "void pet(cat) cannot convert argument 1 from lizard to cat". This entry is indented and has its own hollow arrow at the left showing that it too can be expanded. The second line from before has been expanded, revealing an unexpanded entry reading "void pet(dog) cannot convert argument 1 from lizard to dog. The third entry has been exanded, revealing an entry reading "the associated constraints are not satisfied". This has an expanded child reading "the concept pettable lizard evaluated to false". This has two children: the first is unexpanded and reads "the concept has_member_pet lizard evaluated to false" and the second is expanded and reads "the concept has_default_pet lizard" evaluated to false. This second child has two children, neither of which is expandable. They read "is_pettable is not a member of lizard" and "see declaration of lizard".
+:::image-end:::
 
-Structured diagnostics can be enabled or disabled with the **Project** > **Properties** > **Advanced** > **Enable MSVC Structured Output** option. You can affect several projects by creating a [Directory.Build.props](/visualstudio/msbuild/customize-by-directory) file with the **UseStructuredOutput** property defined to true or false.
+Enable or disable structured diagnostics with the **Project** > **Properties** > **Advanced** > **Enable MSVC Structured Output** option. You can affect several projects by creating a [Directory.Build.props](/visualstudio/msbuild/customize-by-directory) file with the **UseStructuredOutput** property defined to true or false.
