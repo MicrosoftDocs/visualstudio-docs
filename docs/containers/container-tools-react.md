@@ -61,17 +61,17 @@ Follow these steps if you're using Visual Studio 2022 version 17.8 or later:
 
 1. Create a new project using the **React and ASP.NET Core** template.
 
-   ![Screenshot of creating a new React and ASP.NET Core project.](media/container-tools-react/vs-2022/react-and-asp-net-core.png)
+   [ ![Screenshot of creating a new React and ASP.NET Core project.](media/container-tools-react/vs-2022/react-and-asp-net-core.png) ](media/container-tools-react/vs-2022/react-and-asp-net-core.png#lightbox)
 
 1. On the **Additional information** screen, you can't select **Enable Docker Support**, but don't worry, you can add that support later.
 
-   ![Screenshot of creating a React and ASP.NET Core project - Additional information screen.](media/container-tools-react/vs-2022/additional-information-net-8.png)
+   [ ![Screenshot of creating a React and ASP.NET Core project - Additional information screen.](media/container-tools-react/vs-2022/additional-information-net-8.png) ](media/container-tools-react/vs-2022/additional-information-net-8.png#lightbox)
 
    Visual Studio creates two projects - one for the React JavaScript client code, and another for the ASP.NET Core C# server code.
 
 1. Right-click on the server project node, and choose **Add** > **Docker Support** to add a Dockerfile to your project.
 
-   ![Screenshot of Add Docker support menu item.](media/container-tools-react/vs-2022/add-docker-support.png)
+   [ ![Screenshot of Add Docker support menu item.](media/container-tools-react/vs-2022/add-docker-support.png) ](media/container-tools-react/vs-2022/add-docker-support.png#lightbox)
 
 1. Select the container type.
 
@@ -374,13 +374,15 @@ The project uses the SPA Proxy during debugging. See [Improved single-page app (
      Local:            https://localhost:44407
      On Your Network:  https://192.168.1.5:44407
 
-   Note that the development build isn't optimized.
-   To create a production build, use npm run build.
+   > ![Note]
+   > The development build isn't optimized.
+   > To create a production build, use npm run build.
    
    webpack compiled successfully
    ```
 
-   Note the local URL. You need to provide this in a debug launch profile, which is stored in your *launchSettings.json* file.
+   > ![Note]
+   > Note the local URL. You need to provide this in a debug launch profile, which is stored in your *launchSettings.json* file.
 
 1. Open the dropdown that contains debug profiles (next to the green triangle icon or **Start** button), and choose **{ProjectName} Debug Properties**, and choose the **Docker** profile.
 1. Check the **Environment variables** section and add the following environment variables if not already present:
