@@ -1,7 +1,7 @@
 ---
 title: Using stubs to isolate parts of your app for testing
 description: Learn about a stub, which is a small piece of code that takes the place of another component during testing. Using a stub returns consistent results.
-ms.date: 05/23/2023
+ms.date: 10/25/2023
 ms.topic: how-to
 ms.author: oscalles
 manager: aajohn
@@ -13,11 +13,11 @@ dev_langs:
 ---
 # Use stubs to isolate parts of your application from each other for unit testing
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-*Stub types* are an important technology provided by the Microsoft Fakes framework, enabling easy isolation of the component you are testing from other components it relies on. A stub acts as a small piece of code that replaces another component during testing. One of the key benefits of using stubs is their ability to consistently return results, which simplifies test writing. Even if the other components are not fully functional yet, you can still execute tests using stubs.
+*Stub types* are an important technology provided by the Microsoft Fakes framework, enabling easy isolation of the component you're testing from other components it relies on. A stub acts as a small piece of code that replaces another component during testing. A key benefit of using stubs is the ability to obtain consistent results to make test writing easier. Even if the other components aren't yet fully functional, you can still execute tests by using stubs.
 
-To leverage stubs effectively, it is recommended to design your component in a way that it primarily depends on interfaces rather than concrete classes from other parts of the application. This design approach promotes decoupling and reduces the likelihood of changes in one part requiring modifications in another. When it comes to testing, this design pattern enables substituting a stub implementation for a real component, facilitating effective isolation and accurate testing of the target component.
+To apply stubs effectively, it's recommended to design your component in a way that it primarily depends on interfaces rather than concrete classes from other parts of the application. This design approach promotes decoupling and reduces the likelihood of changes in one part requiring modifications in another. When it comes to testing, this design pattern enables substituting a stub implementation for a real component, facilitating effective isolation and accurate testing of the target component.
 
 For example, let's consider the diagram that illustrates the components involved:
 
@@ -25,16 +25,18 @@ For example, let's consider the diagram that illustrates the components involved
 
 In this diagram, the component under test is `StockAnalyzer`, which typically relies on another component called `RealStockFeed`. However, `RealStockFeed` poses a challenge for testing because it returns different results each time its methods are called. This variability makes it difficult to ensure consistent and reliable testing of `StockAnalyzer`.
 
-To overcome this obstacle during testing, we can adopt the practice of [dependency injection](https://en.wikipedia.org/wiki/Dependency_injection). This approach involves writing your code in such a way that it doesn't explicitly mention classes in another component of your application. Instead, you define an interface that can be implemented by the other component, as well as by a stub for test purposes.
+To overcome this obstacle during testing, we can adopt the practice of [dependency injection](https://en.wikipedia.org/wiki/Dependency_injection). This approach involves writing your code in such a way that it doesn't explicitly mention classes in another component of your application. Instead, you define an interface that the other component and a stub can implement for test purposes.
 
 Here's an example of how you can use dependency injection in your code:
 
 #### [C#](#tab/csharp)
+
 ```csharp
 public int GetContosoPrice(IStockFeed feed) => feed.GetSharePrice("COOO");
 ```
 
 #### [VB](#tab/vb)
+
 ```vb
 Public Function GetContosoPrice(feed As IStockFeed) As Integer
 Return feed.GetSharePrice("COOO")
@@ -44,190 +46,216 @@ End Function
 
 ## Stub limitations
 
+Review the following limitations for stubs.
+
 - Method signatures with pointers aren't supported.
 
-- Sealed classes or static methods cannot be stubbed using stub types because stub types rely on virtual method dispatch. For such cases, use shim types as described in [Use shims to isolate your application from other assemblies for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md)
+- Sealed classes or static methods can't be stubbed using stub types because stub types rely on virtual method dispatch. For such cases, use shim types as described in [Use shims to isolate your application from other assemblies for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md)
 
----
 ## Creating a Stub: A Step-by-Step Guide
-Let's start this with a motivating example: the one shown in the preceding diagram. 
+
+Let's start this exercise with a motivating example: the one shown in the preceding diagram. 
 
 ### Create a Class Library
-1. Open Visual Studio and create a `Class Library` project.
 
-![Screenshot of Class Library project in Visual Studio.](../test/media/microsoft-fakes-stubs-create-class-library-project.png)
+Follow these steps to create a class library.
 
-2. Set project name `StockAnalysis`
-3. Set solution name `StubsTutorial`.
-4. Set the project's target framework to *.NET 7.0. (Standard Term Support)*
-5. Delete the default file `Class1.cs`
-6. Add a new file `IStockFeed.cs` and add the following interface definition:
+1. Open Visual Studio and create a **Class Library** project.
 
-    #### [C#](#tab/csharp)
-    ```csharp
-    // IStockFeed.cs
-    public interface IStockFeed
-    {
-        int GetSharePrice(string company);
-    }
-    ```
+   ![Screenshot of Class Library project in Visual Studio.](../test/media/microsoft-fakes-stubs-create-class-library-project.png)
 
-    #### [VB](#tab/vb)
-    ```vb
-    ' IStockFeed.vb
-    Public Interface IStockFeed
-        Function GetSharePrice(company As String) As Integer
-    End Interface
-    ```
-7. Add another new file `StockAnalyzer.cs` and add the following class definition:
+1. Configure the project attributes:
 
-    #### [C#](#tab/csharp)
-    ```csharp
-    // StockAnalyzer.cs
-    public class StockAnalyzer
-    {
-        private IStockFeed stockFeed;
-        public StockAnalyzer(IStockFeed feed)
-        {
-            stockFeed = feed;
-        }
-        public int GetContosoPrice()
-        {
-            return stockFeed.GetSharePrice("COOO");
-        }
-    }
-    ```
+   - Set the **Project name** to *StockAnalysis*.
+   - Set the **Solution name** to *StubsTutorial*.
+   - Set the project **Target framework** to **.NET 8.0**.
 
-    #### [VB](#tab/vb)
-    ```vb
-    ' StockAnalyzer.vb
-    Public Class StockAnalyzer
-        Private stockFeed As IStockFeed
-        Public Sub New(feed As IStockFeed)
-            stockFeed = feed
-        End Sub
-        Public Function GetContosoPrice() As Integer
-            Return stockFeed.GetSharePrice("COOO")
-        End Function
-    End Class
-    ```
-    ---
+1. Delete the default file *Class1.cs*.
+
+1. Add a new file named *IStockFeed.cs* and copy in the following interface definition:
+
+   #### [C#](#tab/csharp)
+
+   ```csharp
+   // IStockFeed.cs
+   public interface IStockFeed
+   {
+       int GetSharePrice(string company);
+   }
+   ```
+
+   #### [VB](#tab/vb)
+
+   ```vb
+   ' IStockFeed.vb
+   Public Interface IStockFeed
+       Function GetSharePrice(company As String) As Integer
+   End Interface
+   ```
+   ---
+
+7. Add another new file named *StockAnalyzer.cs* and copy in the following class definition:
+
+   #### [C#](#tab/csharp)
+
+   ```csharp
+   // StockAnalyzer.cs
+   public class StockAnalyzer
+   {
+       private IStockFeed stockFeed;
+       public StockAnalyzer(IStockFeed feed)
+       {
+           stockFeed = feed;
+       }
+       public int GetContosoPrice()
+       {
+           return stockFeed.GetSharePrice("COOO");
+       }
+   }
+   ```
+
+   #### [VB](#tab/vb)
+
+   ```vb
+   ' StockAnalyzer.vb
+   Public Class StockAnalyzer
+       Private stockFeed As IStockFeed
+       Public Sub New(feed As IStockFeed)
+           stockFeed = feed
+       End Sub
+       Public Function GetContosoPrice() As Integer
+           Return stockFeed.GetSharePrice("COOO")
+       End Function
+   End Class
+   ```
+   ---
 
 ### Create a Test Project
 
-1. Right-click on the solution and add a new project `MSTest Test Project`.
-2. Set project name `TestProject`.
-3. Set the project's target framework to **.NET 7.0. (Standard Term Support)**.
+Create the test project for the exercise.
+
+1. Right-click on the solution and add a new project named *MSTest Test Project*.
+
+1. Set the project name to *TestProject*.
+
+1. Set the project's target framework to **.NET 8.0**.
 
    ![Screenshot of Test project in Visual Studio.](../test/media/microsoft-fakes-stubs-create-test-project.png)
 
-### Add Fakes Assembly
+### Add Fakes assembly
+
+Add the Fakes assembly for the project.
 
 1. Add a project reference to `StockAnalyzer`.
 
    ![Screenshot of the command Add Project Reference.](../test/media/microsoft-fakes-stubs-add-project-reference.png)
 
-2. Add Fakes Assembly
+1. Add the Fakes Assembly.
 
-   - In **Solution Explorer**, 
-       - For an older .NET Framework Project (non-SDK style), expand your unit test project's **References** node.
+   1. In **Solution Explorer**, locate the assembly reference:
 
-       - For an SDK-style project targeting .NET Framework, .NET Core, or .NET 5.0 or later, expand the **Dependencies** node to find the assembly you would like to fake under **Assemblies**, **Projects**, or **Packages**.
+      - For an older .NET Framework Project (non-SDK style), expand your unit test project's **References** node.
 
-       - If you're working in Visual Basic, select **Show All Files** in the **Solution Explorer** toolbar to see the **References** node.
+      - For an SDK-style project targeting .NET Framework, .NET Core, or .NET 5.0 or later, expand the **Dependencies** node to find the assembly you would like to fake under **Assemblies**, **Projects**, or **Packages**.
+
+      - If you're working in Visual Basic, select **Show All Files** in the **Solution Explorer** toolbar to see the **References** node.
        
-   - Select the assembly that contains the class definitions for which you want to create stubs.
+   1. Select the assembly that contains the class definitions for which you want to create stubs.
 
-   - On the shortcut menu, select **Add Fakes Assembly**.
+   1. On the shortcut menu, select **Add Fakes Assembly**.
 
-   ![Screenshot of the command Add Fakes Assembly.](../test/media/microsoft-fakes-stubs-add-fakes-assembly.png)
+      ![Screenshot of the command Add Fakes Assembly.](../test/media/microsoft-fakes-stubs-add-fakes-assembly.png)
 
 ### Create a unit test
 
-1. Modify the default file `UnitTest1.cs` to add the following `Test Method`.
+Now create the unit test.
 
-    #### [C#](#tab/csharp)
-    ```csharp
-    [TestClass]
-    class UnitTest1
-    {
-        [TestMethod]
-        public void TestContosoPrice()
-        {
-            // Arrange:
-            int priceToReturn = 345;
-            string companyCodeUsed = "";
-            var componentUnderTest = new StockAnalyzer(new StockAnalysis.Fakes.StubIStockFeed()
-            {
-                GetSharePriceString = (company) =>
-                {
-                    // Store the parameter value:
-                    companyCodeUsed = company;
-                    // Return the value prescribed by this test:
-                    return priceToReturn;
-                }
-            });
+1. Modify the default file *UnitTest1.cs* to add the following `Test Method` definition.
 
-            // Act:
-            int actualResult = componentUnderTest.GetContosoPrice();
+   #### [C#](#tab/csharp)
 
-            // Assert:
-            // Verify the correct result in the usual way:
-            Assert.AreEqual(priceToReturn, actualResult);
+   ```csharp
+   [TestClass]
+   class UnitTest1
+   {
+       [TestMethod]
+       public void TestContosoPrice()
+       {
+           // Arrange:
+           int priceToReturn = 345;
+           string companyCodeUsed = "";
+           var componentUnderTest = new StockAnalyzer(new StockAnalysis.Fakes.StubIStockFeed()
+           {
+               GetSharePriceString = (company) =>
+               {
+                   // Store the parameter value:
+                   companyCodeUsed = company;
+                   // Return the value prescribed by this test:
+                   return priceToReturn;
+               }
+           });
 
-            // Verify that the component made the correct call:
-            Assert.AreEqual("COOO", companyCodeUsed);
-        }
-    }
-    ```
+           // Act:
+           int actualResult = componentUnderTest.GetContosoPrice();
 
-    #### [VB](#tab/vb)
-    ```vb
-    <TestClass()> _
-    Class UnitTest1
-        <TestMethod()> _
-        Public Sub TestContosoPrice()
-            ' Arrange:
-            Dim priceToReturn As Integer = 345
-            Dim companyCodeUsed As String = ""
-            Dim componentUnderTest As New StockAnalyzer(New StockAnalysis.Fakes.StubIStockFeed() With {
-                .GetSharePriceString = Function(company)
-                                        ' Store the parameter value:
-                                        companyCodeUsed = company
-                                        ' Return the value prescribed by this test:
-                                        Return priceToReturn
+           // Assert:
+           // Verify the correct result in the usual way:
+           Assert.AreEqual(priceToReturn, actualResult);
+
+           // Verify that the component made the correct call:
+           Assert.AreEqual("COOO", companyCodeUsed);
+       }
+   }
+   ```
+
+   #### [VB](#tab/vb)
+
+   ```vb
+   <TestClass()> _
+   Class UnitTest1
+       <TestMethod()> _
+       Public Sub TestContosoPrice()
+           ' Arrange:
+           Dim priceToReturn As Integer = 345
+           Dim companyCodeUsed As String = ""
+           Dim componentUnderTest As New StockAnalyzer(New StockAnalysis.Fakes.StubIStockFeed() With {
+               .GetSharePriceString = Function(company)
+                                    ' Store the parameter value:
+                                    companyCodeUsed = company
+                                    ' Return the value prescribed by this test:
+                                    Return priceToReturn
                                     End Function
-            })
-            
-            ' Act:
-            Dim actualResult As Integer = componentUnderTest.GetContosoPrice()
+           })
+           
+           ' Act:
+           Dim actualResult As Integer = componentUnderTest.GetContosoPrice()
 
-            ' Assert:
-            ' Verify the correct result in the usual way:
-            Assert.AreEqual(priceToReturn, actualResult)
+           ' Assert:
+           ' Verify the correct result in the usual way:
+           Assert.AreEqual(priceToReturn, actualResult)
 
-            ' Verify that the component made the correct call:
-            Assert.AreEqual("COOO", companyCodeUsed)
-        End Sub
-    ...
-    End Class
-    ```
-    ---
-    
-    The special piece of magic here is the class `StubIStockFeed`. For every interface in the referenced assembly, the Microsoft Fakes mechanism generates a stub class. The name of the stub class is derived from the name of the interface, with "`Fakes.Stub`" as a prefix, and the parameter type names appended.
+           ' Verify that the component made the correct call:
+           Assert.AreEqual("COOO", companyCodeUsed)
+       End Sub
+   ...
+   End Class
+   ```
+   ---
 
-    Stubs are also generated for the getters and setters of properties, for events, and for generic methods. For more information, see [Use stubs to isolate parts of your application from each other for unit testing](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md).
+   The special piece of magic here's the `StubIStockFeed` class. For every interface in the referenced assembly, the Microsoft Fakes mechanism generates a stub class. The name of the stub class is derived from the name of the interface, with "`Fakes.Stub`" as a prefix, and the parameter type names appended.
 
+   Stubs are also generated for the getters and setters of properties, for events, and for generic methods. For more information, see [Use stubs to isolate parts of your application from each other for unit testing](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md).
 
    ![Screenshot of Solution Explorer showing all files.](../test/media/microsoft-fakes-stubs-all-files.png)
 
-2. Open Test Explorer and run the test.
+1. Open Test Explorer and run the test.
 
    ![Screenshot of Test Explorer.](../test/media/microsoft-fakes-stubs-test-explorer.png)
 
----
 
 ## Stubs for different kinds of type members
+
+There are stubs for different kinds of type members.
 
 ### Methods
 
@@ -257,7 +285,7 @@ var componentUnderTest = new StockAnalyzer(new StockAnalysis.Fakes.StubIStockFee
         });
 ```
 
-If you don't provide a stub for a method, Fakes generates a function that returns the `default value` of the return type. For numbers, the default value is 0, and for class types, it is `null` in C# or `Nothing` in Visual Basic.
+If you don't provide a stub for a method, Fakes generates a function that returns the `default value` of the return type. For numbers, the default value is 0. For class types, the default is `null` in C# or `Nothing` in Visual Basic.
 
 ### Properties
 
@@ -279,6 +307,7 @@ var stub = new StubIStockFeedWithProperty();
 stub.ValueGet = () => i;
 stub.ValueSet = (value) => i = value;
 ```
+
 If you don't provide stub methods for either the setter or the getter of a property, Fakes generates a stub that stores values, making the stub property behave like a simple variable.
 
 ### Events
@@ -292,7 +321,7 @@ interface IStockFeedWithEvents
 }
 ```
 
-To raise the `Changed` event, we simply invoke the backing delegate:
+To raise the `Changed` event, you invoke the backing delegate:
 
 ```csharp
 // unit test code
@@ -325,7 +354,8 @@ public void TestGetValue()
     Assert.AreEqual(5, target.GetValue<int>());
 }
 ```
-If the code calls `GetValue<T>` with any other instantiation, the stub will simply execute the behavior.
+
+If the code calls `GetValue<T>` with any other instantiation, the stub executes the behavior.
 
 ### Stubs of virtual classes
 
@@ -371,11 +401,9 @@ stub.CallBase = true;
 Assert.AreEqual(43,stub.DoVirtual(1));
 ```
 
----
-
 ## Change the default behavior of stubs
 
-Each generated stub type holds an instance of the `IStubBehavior` interface through the `IStub.InstanceBehavior` property. This behavior is called whenever a client calls a member with no attached custom delegate. If the behavior has not been set, it uses the instance returned by the `StubsBehaviors.Current` property. By default, this property returns a behavior that throws a `NotImplementedException` exception.
+Each generated stub type holds an instance of the `IStubBehavior` interface through the `IStub.InstanceBehavior` property. This behavior is called whenever a client calls a member with no attached custom delegate. If the behavior isn't set, it uses the instance returned by the `StubsBehaviors.Current` property. By default, this property returns a behavior that throws a `NotImplementedException` exception.
 
 You can change the behavior at any time by setting the `InstanceBehavior` property on any stub instance. For example, the following snippet changes the behavior so that the stub either does nothing or returns the default value of the return type `default(T)`:
 
@@ -385,7 +413,8 @@ var stub = new StockAnalysis.Fakes.StubIStockFeed();
 // return default(T) or do nothing
 stub.InstanceBehavior = StubsBehaviors.DefaultValue;
 ```
-The behavior can also be changed globally for all stub objects where the behavior has not been set by setting the `StubsBehaviors.Current` property:
+
+The behavior can also be changed globally for all stub objects where the behavior isn't set with the `StubsBehaviors.Current` property:
 
 ```csharp
 // Change default behavior for all stub instances where the behavior has not been set.
