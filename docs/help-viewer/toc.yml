@@ -1,6 +1,6 @@
   - name: Microsoft Help Viewer
     items:
-    - name: Help Viewer
+    - name: What is Help Viewer?
       href: overview.md
     - name: Install and customize Help Viewer 
       items:
