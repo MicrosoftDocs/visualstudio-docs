@@ -162,11 +162,13 @@ additionalContent:
               url: /cpp/windows/desktop-applications-visual-cpp
             - text: Mobile development with C++
               url: /visualstudio/cross-platform/
-        - title: Gaming
+        - title: Game development
           links:
-            - text: Game development with Unity
+            - text: Unity
               url: /visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity
-            - text: Game development with C++
+            - text: Unreal Engine
+              url: /visualstudio/gamedev/unreal/get-started/vs-tools-unreal-overview
+            - text: Universal Windows Platform (UWP)
               url: /windows/uwp/gaming/e2e
         - title: Other toolsets
           links:
