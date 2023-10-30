@@ -8,7 +8,7 @@
         href: installation.md
       - name: Customize the Help Viewer
         href: customize.md
-    - name: Install content using Help Viewer
+    - name: Use Help Viewer to install help content
       items:
       - name: Install content locally
         displayName: Offline books docs
