@@ -6,7 +6,7 @@ ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.topic: tutorial
-ms.date: 10/26/2023
+ms.date: 10/31/2023
 ms.prod: visual-studio-windows
 dev_langs:
   - CSharp
@@ -55,19 +55,17 @@ First, you create an ASP.NET Core project. The project type comes with all the t
    > [!NOTE]
    > If you don't see the **ASP.NET Core Web App** template, you can install it from the **Create a new project** window.
    > 
-   > 1. In the **Not finding what you're looking for?** message at the bottom of the list of templates, select the **Install more tools and features** link.
+   > In the **Not finding what you're looking for?** message at the bottom of the list of templates, select the **Install more tools and features** link.
    >
-   >    ![Screenshot shows the Install more tools and features link that is part of the Not finding what you're looking for message.](../../get-started/media/vs-2019/not-finding-what-looking-for.png)
+   > ![Screenshot shows the Install more tools and features link that is part of the Not finding what you're looking for message.](../../get-started/media/vs-2019/not-finding-what-looking-for.png)
    >
-   > 1. In the Visual Studio Installer, select **ASP.NET and web development**.
+   > In the Visual Studio Installer, select **ASP.NET and web development**.
    >
-   >    ![Screenshot shows the dot NET Core cross-platform development workload in the Visual Studio Installer.](../../get-started/media/aspnet-core-web-dev-workload.png)
+   > ![Screenshot shows the dot NET Core cross-platform development workload in the Visual Studio Installer.](../../get-started/media/aspnet-core-web-dev-workload.png)
    >
-   > 1. Select **Modify** in the Visual Studio Installer. You might be prompted to save your work.
+   > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Select **Continue** to install the workload.
    >
-   > 1. Select **Continue** to install the workload.
-   >
-   > Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
+   > Return to step 2 in this "[Create a project](#create-a-project)" procedure.
 
 1. In the **Configure your new project** window, enter **MyCoreApp** in the **Project name** field. Then, select **Next**.
 
@@ -107,19 +105,17 @@ Visual Studio opens your new project.
    > [!NOTE]
    > If you don't see the **ASP.NET Core Web App** template, you can install it from the **Create a new project** window.
    > 
-   > 1. In the **Not finding what you're looking for?** message at the bottom of the list of templates, select the **Install more tools and features** link.
+   > In the **Not finding what you're looking for?** message at the bottom of the list of templates, select the **Install more tools and features** link.
    >
-   >    :::image type="content" source="media/vs-2022/not-finding-what-looking-for.png" alt-text="Screenshot shows the Install more tools and features link that is part of the Not finding what you're looking for message.":::
+   > :::image type="content" source="media/vs-2022/not-finding-what-looking-for.png" alt-text="Screenshot shows the Install more tools and features link that is part of the Not finding what you're looking for message.":::
    >
-   > 1. In the Visual Studio Installer, select the **ASP.NET and web development** workload.
+   > In the Visual Studio Installer, select the **ASP.NET and web development** workload.
    >
-   >    :::image type="content" source="media/vs-2022/aspnet-core-web-dev-workload.png" alt-text="Screenshot shows the ASP.NET and web development workload in the Visual Studio Installer.":::
+   > :::image type="content" source="media/vs-2022/aspnet-core-web-dev-workload.png" alt-text="Screenshot shows the ASP.NET and web development workload in the Visual Studio Installer.":::
    >
-   > 1. Select **Modify** in the Visual Studio Installer. You might be prompted to save your work.
-   >
-   > 1. Select **Continue** to install the workload.
+   > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Select **Continue** to install the workload.
    > 
-   > Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
+   > Return to step 2 in this "[Create a project](#create-a-project)" procedure.
 
 1. In the **Configure your new project** window, enter **MyCoreApp** in the **Project name** field. Then, select **Next**.
 

@@ -2,7 +2,7 @@
 title: "Tutorial: Create a simple C# console app "
 description: "Learn how to create a C# console app in Visual Studio, step-by-step."
 ms.custom: vs-acquisition
-ms.date: 10/26/2023
+ms.date: 10/31/2023
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -51,21 +51,17 @@ To start, create a C# application project. The project type comes with all the t
    After you apply the language, platform, and project type filters, choose the **Console Application** template, and then select **Next**.
 
    > [!NOTE]
-   > If you don't see the **Console Application** template, follow these steps.
+   > If you don't see the **Console Application** template, select **Install more tools and features**.
    > 
-   > 1. Select **Install more tools and features**.
-   > 
-   >    ![Screenshot that shows the Install more tools and features link.](../../get-started/media/vs-2019/not-finding-what-looking-for.png)
+   > ![Screenshot that shows the Install more tools and features link.](../../get-started/media/vs-2019/not-finding-what-looking-for.png)
    >
-   > 1. In the Visual Studio Installer, select the **.NET Core cross-platform development** workload.
+   > In the Visual Studio Installer, select the **.NET Core cross-platform development** workload.
    >
-   >    ![Screenshot showing the .NET Core cross-platform development workload in the Visual Studio Installer.](./media/dot-net-core-xplat-dev-workload.png)
+   > ![Screenshot showing the .NET Core cross-platform development workload in the Visual Studio Installer.](./media/dot-net-core-xplat-dev-workload.png)
    >
-   > 1. Select **Modify** in the Visual Studio Installer. You might be prompted to save your work.
+   > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Select **Continue** to install the workload.
    >
-   > 1. Select **Continue** to install the workload.
-   >
-   > Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
+   > Return to step 2 in this "[Create a project](#create-a-project)" procedure.
 
 1. In the **Configure your new project** window, type or enter *Calculator* in the **Project name** box. Then, select **Next**.
 
@@ -91,21 +87,17 @@ The default "Hello World" code calls the <xref:System.Console.WriteLine%2A> meth
    After you apply the language, platform, and project type filters, choose the **Console App** template, and then select **Next**.
 
    > [!NOTE]
-   > If you don't see the **Console App** template, follow these steps.
+   > If you don't see the **Console App** template, select **Install more tools and features**.
    > 
-   > 1. Select **Install more tools and features**.
-   > 
-   >    [Screenshot that shows the Install more tools and features link.](media/vs-2022/not-finding-what-looking-for.png)
+   > ![Screenshot that shows the Install more tools and features link.](media/vs-2022/not-finding-what-looking-for.png)
    >
-   > 1. In the Visual Studio Installer, select the **.NET desktop development** workload.
+   > In the Visual Studio Installer, select the **.NET desktop development** workload.
    >
-   >    ![Screenshot showing the .NET desktop development workload in the Visual Studio Installer.](media/vs-2022/dot-net-development-workload.png)
+   > ![Screenshot showing the .NET desktop development workload in the Visual Studio Installer.](media/vs-2022/dot-net-development-workload.png)
    >
-   > 1. Select **Modify** in the Visual Studio Installer. You might be prompted to save your work.
+   > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Select **Continue** to install the workload.
    >
-   > 1. Select **Continue** to install the workload.
-   >
-   > Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
+   > Return to step 2 in this "[Create a project](#create-a-project)" procedure.
 
 1. In the **Configure your new project** window, type or enter *Calculator* in the **Project name** box, and then select **Next**.
 
