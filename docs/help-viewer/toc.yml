@@ -5,7 +5,7 @@
     - name: Install and customize Help Viewer 
       items:
       - name: Install Help Viewer during set up
-        href: help-viewer/installation.md
+        href: installation.md
       - name: Customize the Help Viewer
         href: customize.md
     - name: Install content using Help Viewer
@@ -14,11 +14,11 @@
         displayName: Offline books docs
         href: install-manage-local-content.md
       - name: Deploy help content to others (network)
-        href: help-viewer/administrator-guide.md
+        href: administrator-guide.md
       - name: Command-line arguments for the Help Content Manager
-        href: help-viewer/command-line-arguments.md
+        href: command-line-arguments.md
       - name: Help Content Manager overrides
-        href: help-viewer/behavior-overrides.md
+        href: behavior-overrides.md
     - name: Find content in Help Viewer
       items:
       - name: Use the index
