@@ -45,7 +45,7 @@ To install Help Viewer, see [Microsoft Help Viewer installation](../help-viewer/
 > Look for this link:
 > ![Download PDF for Visual Studio documentation](media/overview/download-pdf.png)
 
-## Tour Help Viewer window
+## Tour the Help Viewer window
 
 You can find information in installed content by using the navigation tabs, view installed content in the topic tab or tabs, and manage content by using the **Manage Content** tab. You can also perform additional tasks by using the buttons on the toolbar and find additional information in the lower-right corner of the window.
 
@@ -73,6 +73,10 @@ The content list shows which books you can install or have already installed, wh
 > [!NOTE]
 > The functionality of the **Manage Content** tab may differ if the Help Viewer administrator deactivates these features, or if no internet access is available.
 
+### Keyboard shortcuts
+
+Find the list of keyboard shortcuts in the article, "[Shortcut keys in Help Viewer](shortcut-keys.md)".
+
 ### Toolbar buttons
 
 The toolbar in the **Help Viewer** window contains the following buttons:
@@ -87,9 +91,6 @@ The toolbar in the **Help Viewer** window contains the following buttons:
 | **Manage Content**|Makes the **Manage Content** tab active.|
 | Small triangle on the right-hand side|Opens a list of tabs, including topic tabs and the **Manage Content** tab. You can choose a tab name to make it the active tab.|
 
-### Keyboard shortcuts
-
-Find the list of keyboard shortcuts in the article, "[Shortcut keys in Help Viewer](shortcut-keys.md)".
 
 ## Related content
 
