@@ -25,6 +25,9 @@ You can use the method described in this article to create ASP.NET Core Single P
 - Put the client app in a separate project, outside from the ASP.NET Core project
 - Create the client project based on the framework CLI installed on your computer
 
+> [!NOTE]
+> This article describes the project creation process using the updated template in Visual Studio 2022 version 17.8 Preview 2.
+
 ## Prerequisites
 
 Make sure to install the following:
