@@ -48,7 +48,7 @@ The versions of the .NET Framework differ from one another in the list of assemb
 The target framework is specified in the `TargetFrameworkVersion` property in the project file. You can change the target framework for a project by using the project property pages in the Visual Studio integrated development environment (IDE). For more information, see [How to: Target a version of the .NET Framework](../ide/visual-studio-multi-targeting-overview.md). The available values for `TargetFrameworkVersion` are `v2.0`, `v3.0`, `v3.5`, `v4.5.2`, `v4.6`, `v4.6.1`, `v4.6.2`, `v4.7`, `v4.7.1`, `v4.7.2`, and `v4.8`.
 
 ```xml
-<TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+<TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
 ```
 
  A *target profile* is a subset of a target framework. For example, the .NET Framework 4 Client profile does not include references to the MSBuild assemblies.
