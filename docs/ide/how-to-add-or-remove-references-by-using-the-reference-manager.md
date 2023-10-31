@@ -65,7 +65,7 @@ The Reference Manager dialog box shows different categories on the left side, de
 ## Assemblies tab (.NET Framework only)
 
 > [!NOTE]
-> The **Assemblies** tab is not available for projects that target .NET Core and .NET 5 and later, because assemblies for .NET Core projects are added either as NuGet packages, or are included by targeting a particular version of .NET. To see the referenced assemblies in a project, expand the **Dependencies** node in the project and look under **Frameworks**. From the **Dependencies** node, you can right-click to add or remove project references, or open the NuGet package browser to manage NuGet packages. See [Install and manage packages in Visual Studio using the NuGet Package Manager](/nuget/consume-packages/install-use-packages-visual-studio) in the NuGet documentation.
+> The **Assemblies** tab is not available for projects that target .NET Core, or .NET 5 and later, because assemblies for those projects are added either as NuGet packages, or are included by targeting a particular version of .NET. To see the referenced assemblies in a project, expand the **Dependencies** node in the project and look under **Frameworks**. From the **Dependencies** node, you can right-click to add or remove project references, or open the NuGet package browser to manage NuGet packages. See [Install and manage packages in Visual Studio using the NuGet Package Manager](/nuget/consume-packages/install-use-packages-visual-studio) in the NuGet documentation.
 
 For .NET Framework projects, the **Assemblies** tab lists all .NET assemblies that are available for referencing. The **Assemblies** tab doesn't list any assemblies from the global assembly cache (GAC) because assemblies in the GAC are part of the run-time environment. If you deploy or copy an application that contains a reference to an assembly that's registered in the GAC, the assembly isn't deployed or copied with the application, regardless of the **Copy Local** setting. For more information, see [Manage references in a project](../ide/managing-references-in-a-project.md).
 
@@ -148,7 +148,7 @@ You should avoid adding file references to outputs of another project in the sam
 
 The **Projects** tab lists all compatible projects within the current solution, in the **Solution** subtab.
 
-A project can reference another project that targets a different framework version. For example, you could create a project that targets the .NET Framework 4 but that references an assembly that's been built for the .NET Framework 2. However, the .NET Framework 2 project can't reference a .NET Framework 4 project. For more information, see [Framework targeting overview](visual-studio-multi-targeting-overview.md).
+A project can reference another project that targets a different framework version. For example, you could create a project that targets the .NET 8.0 but that references an assembly that's been built for the .NET 6.0. However, the .NET 6.0 project can't reference a .NET Framework 8.0 project. For more information, see [Framework targeting overview](visual-studio-multi-targeting-overview.md).
 
 ## Shared Projects tab
 
