@@ -32,7 +32,7 @@ You can use the Reference Manager dialog box to add and manage references to com
 
 The Reference Manager dialog box shows different categories on the left side, depending on the project type:
 
-- **[Assemblies](#assemblies-tab)**, with **Framework** and **Extensions** subgroups (.NET Framework only)
+- **[Assemblies](#assemblies-tab-net-framework-only)**, with **Framework** and **Extensions** subgroups (.NET Framework only)
 
 - **[COM](#com-tab)** lists all COM components that are available for referencing
 
