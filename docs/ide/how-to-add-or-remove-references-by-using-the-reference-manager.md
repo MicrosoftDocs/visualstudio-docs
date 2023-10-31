@@ -65,15 +65,13 @@ The Reference Manager dialog box shows different categories on the left side, de
 ## Assemblies tab (.NET Framework only)
 
 > [!NOTE]
-> The **Assemblies** tab is not available for .NET Core and .NET 5 and later, because assemblies for .NET Core projects are added either as NuGet packages, or are included by targeting a particular version of .NET. To see the referenced assemblies in a project, expand the **Dependencies** node in the project and look under **Frameworks**. From there, you can right-click to add or remove project references, or open the NuGet package browser to manage NuGet packages. See [Install and manage packages in Visual Studio using the NuGet Package Manager](/nuget/consume-packages/install-use-packages-visual-studio) in the NuGet documentation.
+> The **Assemblies** tab is not available for projects that target .NET Core and .NET 5 and later, because assemblies for .NET Core projects are added either as NuGet packages, or are included by targeting a particular version of .NET. To see the referenced assemblies in a project, expand the **Dependencies** node in the project and look under **Frameworks**. From there, you can right-click to add or remove project references, or open the NuGet package browser to manage NuGet packages. See [Install and manage packages in Visual Studio using the NuGet Package Manager](/nuget/consume-packages/install-use-packages-visual-studio) in the NuGet documentation.
 
 For .NET Framework projects, the **Assemblies** tab lists all .NET assemblies that are available for referencing. The **Assemblies** tab doesn't list any assemblies from the global assembly cache (GAC) because assemblies in the GAC are part of the run-time environment. If you deploy or copy an application that contains a reference to an assembly that's registered in the GAC, the assembly won't be deployed or copied with the application, regardless of the **Copy Local** setting. For more information, see [Manage references in a project](../ide/managing-references-in-a-project.md).
 
 When you manually add a reference to any of the EnvDTE namespaces (<xref:EnvDTE>, <xref:EnvDTE80>, <xref:EnvDTE90>, <xref:EnvDTE90a>, or <xref:EnvDTE100>), set the **Embed Interop Types** property of the reference to **False** in the **Properties** window. Setting this property to **True** can cause build issues because of certain EnvDTE properties that can't be embedded.
 
 All desktop projects contain an implicit reference to **mscorlib**. Visual Basic projects contain an implicit reference to <xref:Microsoft.VisualBasic>. All projects contain an implicit reference to **System.Core**, even if it's removed from the list of references.
-
-If a project type doesn't support assemblies, the tab won't appear in the Reference Manager dialog box.
 
 The **Assemblies** tab consists of two subtabs:
 
