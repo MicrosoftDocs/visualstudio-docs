@@ -1,6 +1,6 @@
 ---
 title: Improved context in GitHub Copilot Chat
-description: Use slash commands, solution context, and hash references to get better answers with scoped context in GitHub Copilot Chat.
+description: Use slash commands and '#references to form better questions and get better answers with scoped context in GitHub Copilot Chat.
 ms.date: 10/28/2023
 ms.topic: how-to 
 author: anandmeg
@@ -18,7 +18,7 @@ monikerRange: vs-2022
 
 [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) in Visual Studio enables you to get coding information and support, such as syntax, programming concepts, context-specific code help, test cases, debugging, and more, without leaving the IDE. With tight integration in Visual Studio, Copilot Chat understands what you're working on by gathering useful context data from Visual Studio. 
 
-In this article, you'll learn about how to get better answers with improved context in Copilot Chat. [Slash commands](#use-slash-commands) and the new context experience features in Copilot Chat, such as [hash references](#control-context-with-hash-references) enable you to form great questions by scoping the intent and context.
+In this article, you'll learn about how to get better answers with improved context in Copilot Chat. [Slash commands](#use-slash-commands) and the new context experience features in Copilot Chat, such as [#references](#control-context-with-references) enable you to form great questions by scoping the intent and context.
 
 Learn more about [AI-assisted development in Visual Studio](../ide/ai-assisted-development-visual-studio.md) and how to [use Copilot Chat in Visual Studio](../ide/visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio).
 
@@ -32,7 +32,7 @@ To get started, you need:
 
 ## Use slash commands
 
-Slash commands help set the intent for common development tasks without having to write out long questions to form better questions to get better answers. 
+Slash commands in Copilot Chat help you set the intent quickly for common development tasks. By using specific slash commands to form your question, you can get better answers without having to write out long questions. 
 
 You can use slash commands in a [chat window](visual-studio-github-copilot-chat.md#ask-questions-in-the-chat-window), or directly inline in the code that you're looking to modify, using [inline code assistance](visual-studio-github-copilot-chat.md#ask-questions-in-the-interactive-code-assistant). Commands that help modify or add to the code file you have open in the editor will work both in the inline code assistant and the chat windows whereas commands for more general coding questions work only in the chat pane.
 
@@ -50,7 +50,9 @@ You can use slash commands in a [chat window](visual-studio-github-copilot-chat.
 
 :::image type="content" source="media/vs-2022/copilot-chat-context-slash-commands.png" alt-text="Screenshot of slash commands in interactive code assistant and chat windows.":::
 
-## Enable the context experience
+## Context awareness and control
+
+### Enable the context experience
 
 To enable the new context experience features for GitHub Copilot Chat, follow these steps:
 
@@ -58,19 +60,27 @@ To enable the new context experience features for GitHub Copilot Chat, follow th
 1. On the menu bar, select **Tools** > **Options** > **GitHub** > **Copilot chat**. You can also search for "Copilot chat" in the search box.
 1. Select **Enable new context experience** > **OK**.
 
-### Control context with hash references
+### Control context with #references
 
-You can ask your coding related questions in natural language and GitHub Copilot Chat will answer these in the context of the codebase open in Visual Studio. With hash references you can get more specific about the information you want Copilot to consider when answering your question. By selecting a specific context in your codebase, you're able to form better questions easily without having to write out or paste long pieces of information. Specifying the context also enables Copilot to provide you with more relevant answers.
+You can ask your coding related questions in natural language and GitHub Copilot Chat will answer these in the context of the codebase open in Visual Studio. With #references you can get more specific about the information you want Copilot to consider when answering your question. By selecting a specific context in your codebase, you're able to form better questions easily without having to write out or paste long pieces of information. Specifying the context also enables Copilot to provide you with more relevant answers.
 
-:::image type="content" source="media/vs-2022/copilot-chat-context-hash-reference.png" alt-text="Screenshot of hash references in Copilot Chat.":::
+:::image type="content" source="media/vs-2022/copilot-chat-context-hash-reference.png" alt-text="Screenshot of #references in Copilot Chat.":::
 
-**Examples**
+Here are some examples of using #references for context control:
 
 | **Example** | **Context used by Copilot to form the question** |
 |---------------------------|:--------------------:|
 | What is the purpose of #MyFile.cs: 66-72?| Exact section of the file |
 | Where are the tests in #BasketService.cs?| BasketService.cs |
 | /explain the AddItemToBasket method in #BasketService.cs| AddItemToBasket method in BasketService.cs |
+
+### Know the context used by Copilot
+
+Copilot Chat will display the context it used after every result, so that you can tell what was taken into account when answering your question. When you ask a Copilot Chat a question and get a response in the chat window, an **Info used** dropdown appears below the response. The entries in the **Info used** dropdown list show you the context referenced by Copilot Chat to generate that response. This information can help you modify your question to get better and more relevant answers.
+
+### Organize your chat conversations with threads 
+
+If you’re using Copilot Chat extensively to ask questions as you code, you’ll find it helpful to organize your conversations in a way that keeps them on-topic. Copilot Chat for Visual Studio now provides an easy way to start new conversations to keep them focused on the task at hand, and keep the context clear so the answers are based on relevant historical context. 
 
 ## Related links
 
