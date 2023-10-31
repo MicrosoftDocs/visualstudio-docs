@@ -16,7 +16,7 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
 
  Starting in .NET Framework version 4, you can create tasks inline in the project file. You do not have to create a separate assembly to host the task. This makes it easier to keep track of source code and easier to deploy the task. The source code is integrated into the script.
 
- In MSBuild 15.8, the [RoslynCodeTaskFactory](../msbuild/msbuild-roslyncodetaskfactory.md) was added. For current development, be sure to use the RoslynCodeTaskFactory, not CodeTaskFactory.
+ In MSBuild 15.8, the [RoslynCodeTaskFactory](../msbuild/msbuild-roslyncodetaskfactory.md) was added. For current development, be sure to use the RoslynCodeTaskFactory, not CodeTaskFactory. CodeTaskFactory only supports C# versions up to 4.0.
  
 ## The structure of an inline task
 
