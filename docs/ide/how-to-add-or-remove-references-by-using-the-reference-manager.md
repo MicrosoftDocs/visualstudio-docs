@@ -1,7 +1,7 @@
 ---
 title: Add references in the Reference Manager
 description: Learn how to use the Reference Manager dialog box to add and manage references to developed components.
-ms.date: 09/30/2022
+ms.date: 10/31/2023
 ms.topic: how-to
 f1_keywords:
 - VS.ReferenceManager
@@ -26,13 +26,13 @@ ms.technology: vs-ide-general
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can use the Reference Manager dialog box to add and manage references to components that you, Microsoft, or another company developed. If you're developing a Universal Windows app, your project automatically references all of the correct Windows SDK DLLs. If you're developing a .NET application, your project automatically references *mscorlib.dll*. Some .NET APIs are exposed in components that you have to add manually. References to COM components or custom components have to be added manually.
+You can use the Reference Manager dialog box to add and manage references to components that you, Microsoft, or another company developed. If you're developing a Universal Windows app, your project automatically references all of the correct Windows SDK DLLs. When you create a .NET project, your project automatically references the components it needs, such as the .NET SDK, but you need to add references as you add functionality. Some .NET APIs are exposed in components that you have to add manually. References to COM components or custom components have to be added manually.
 
 ## Reference Manager dialog box
 
 The Reference Manager dialog box shows different categories on the left side, depending on the project type:
 
-- **[Assemblies](#assemblies-tab)**, with **Framework** and **Extensions** subgroups
+- **[Assemblies](#assemblies-tab)**, with **Framework** and **Extensions** subgroups (.NET Framework only)
 
 - **[COM](#com-tab)** lists all COM components that are available for referencing
 
@@ -62,9 +62,12 @@ The Reference Manager dialog box shows different categories on the left side, de
     > [!NOTE]
     > If you don't see the reference you're looking for, select **Browse** to locate the reference. (If you're developing C++ projects, you might not see a browse option.)
 
-## Assemblies tab
+## Assemblies tab (.NET Framework only)
 
-The **Assemblies** tab lists all .NET assemblies that are available for referencing. The **Assemblies** tab doesn't list any assemblies from the global assembly cache (GAC) because assemblies in the GAC are part of the run-time environment. If you deploy or copy an application that contains a reference to an assembly that's registered in the GAC, the assembly won't be deployed or copied with the application, regardless of the **Copy Local** setting. For more information, see [Manage references in a project](../ide/managing-references-in-a-project.md).
+> [!NOTE]
+> The **Assemblies** tab is not available for .NET Core and .NET 5 and later, because assemblies for .NET Core projects are added either as NuGet packages, or are included by targeting a particular version of .NET. To see the referenced assemblies in a project, expand the **Dependencies** node in the project and look under **Frameworks**. From there, you can right-click to add or remove project references, or open the NuGet package browser to manage NuGet packages. See [Install and manage packages in Visual Studio using the NuGet Package Manager](/nuget/consume-packages/install-use-packages-visual-studio) in the NuGet documentation.
+
+For .NET Framework projects, the **Assemblies** tab lists all .NET assemblies that are available for referencing. The **Assemblies** tab doesn't list any assemblies from the global assembly cache (GAC) because assemblies in the GAC are part of the run-time environment. If you deploy or copy an application that contains a reference to an assembly that's registered in the GAC, the assembly won't be deployed or copied with the application, regardless of the **Copy Local** setting. For more information, see [Manage references in a project](../ide/managing-references-in-a-project.md).
 
 When you manually add a reference to any of the EnvDTE namespaces (<xref:EnvDTE>, <xref:EnvDTE80>, <xref:EnvDTE90>, <xref:EnvDTE90a>, or <xref:EnvDTE100>), set the **Embed Interop Types** property of the reference to **False** in the **Properties** window. Setting this property to **True** can cause build issues because of certain EnvDTE properties that can't be embedded.
 
@@ -102,12 +105,14 @@ Some components in the list may not be shown, depending on the framework version
 
    For information about how to change the target framework version for a project, see [Framework targeting overview](visual-studio-multi-targeting-overview.md).
 
-- A component that uses .NET Framework 4 is incompatible with a project that targets the .NET Framework 4.5.
+- A component that uses an older version of the .NET Framework is incompatible with a project that targets a newer .NET Framework.
+
+For more about version compatibility between .NET Framework versions, see [Version compatibility](/dotnet/framework/migration-guide/version-compatibility).
 
 You should avoid adding file references to outputs of another project in the same solution, because doing so might cause compilation errors. Instead, use the **Projects** tab of the **Add Reference** dialog box to create project-to-project references. This makes team development easier by enabling better management of the class libraries you create in your projects. For more information, see [Troubleshoot broken references](../ide/troubleshooting-broken-references.md).
 
 > [!NOTE]
-> In Visual Studio 2015 or later, a file reference instead of a project reference is created if the target framework version of one project is .NET Framework 4.5 or later, and the target version of the other project is .NET Framework 2, 3, 3.5, or 4.0. For more information about .NET, .NET Framework, and .NET Core, see [What is .NET (and .NET Core)](/dotnet/core/introduction).
+> A file reference instead of a project reference is created if the target framework version of one project is .NET Framework 4.5 or later, and the target version of the other project is .NET Framework 2, 3, 3.5, or 4.0. For more information about .NET, .NET Framework, and .NET Core, see [What is .NET (and .NET Core)](/dotnet/core/introduction).
 
 ### To display an assembly in the Add Reference dialog box
 
@@ -147,9 +152,6 @@ The **Projects** tab lists all compatible projects within the current solution, 
 
 A project can reference another project that targets a different framework version. For example, you could create a project that targets the .NET Framework 4 but that references an assembly that's been built for the .NET Framework 2. However, the .NET Framework 2 project can't reference a .NET Framework 4 project. For more information, see [Framework targeting overview](visual-studio-multi-targeting-overview.md).
 
-> [!NOTE]
-> A project that targets the .NET Framework 4 is incompatible with a project that targets the .NET Framework 4 Client Profile.
-
 ## Shared Projects tab
 
 Add a reference to a shared project on the **Shared Projects** tab of the Reference Manager dialog box. [Shared Projects](/xamarin/cross-platform/app-fundamentals/shared-projects?tabs=windows) let you write common code that's referenced by many different application projects.
@@ -186,7 +188,7 @@ If a project type doesn't support COM, the tab doesn't appear in the Reference M
 
 You can use the **Browse** button to browse for a component in the file system.
 
-A project can reference a component that targets a different framework version. For example, you could create an application that targets .NET Framework 4.7 but references a component that targets .NET Framework 4. For more information, see [Framework targeting overview](../ide/visual-studio-multi-targeting-overview.md).
+A project can reference a component that targets a different framework version. For example, you could create an application that targets .NET Framework 4.7.2 but references a component that targets .NET Framework 4. For more information, see [Framework targeting overview](../ide/visual-studio-multi-targeting-overview.md).
 
 Avoid adding file references to outputs of another project in the same solution, because this tactic may cause compilation errors. Instead, use the **Solution** tab of the Reference Manager dialog box to create project-to-project references. This makes team development easier by enabling better management of the class libraries that you create in your projects. For more information, see [Troubleshoot broken references](../ide/troubleshooting-broken-references.md).
 
