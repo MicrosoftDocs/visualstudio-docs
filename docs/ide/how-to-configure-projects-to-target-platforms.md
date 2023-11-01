@@ -104,7 +104,7 @@ Performing this task varies based on the programming language you're using. See 
 
 ### Manually editing the project file
 
-Sometimes, you need to manually edit the project file for some custom configuration. An example is when you have conditions that can't be specified in the IDE, such as a reference that is different for two different platforms, or an assembly that must be registered for a particular platform in order to expose it to COM.
+Sometimes, you need to manually edit the project file for some custom configuration. An example is when you have conditions that can't be specified in the IDE, such as a reference that is different for two different platforms, or an assembly that must be registered for a particular platform in order to expose it to COM. The tool that processes the project file is [MSBuild](msbuild.md).
 
 > [!CAUTION]
 > Manually editing a C++ project file that you're using in Visual Studio isn't recommended.
