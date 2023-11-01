@@ -1,7 +1,7 @@
 ---
 title: What's New in MSBuild 17.0 
 description: Learn about the changed and updated features and properties for MSBuild 17.0, and link to release notes.
-ms.date: 11/11/2022
+ms.date: 11/01/2023
 ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
@@ -54,7 +54,7 @@ Binary logs are smaller and have more information.
 
 - `MSBuildCopyContentTransitively` is now on by default, ensuring consistency in output folders on incremental builds.
 
-For more changes in this version, see the detailed release notes.
+For more changes in this version, see the detailed release notes and for changes in MSBuild versions that you can opt out of, see [change waves](change-waves.md).
 
 ## See also
 
