@@ -13,7 +13,7 @@ manager: mluparu
 ms.technology: vs-ide-general
 ---
 
-# Problem Details Window
+# Problem Details window
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
