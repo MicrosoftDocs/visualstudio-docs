@@ -1,6 +1,6 @@
 ---
 title: Improved context in GitHub Copilot Chat
-description: Use slash commands and '#references to form better questions and get better answers with scoped context in GitHub Copilot Chat.
+description: Use slash commands and references to form better questions and get better answers with scoped context in GitHub Copilot Chat.
 ms.date: 10/28/2023
 ms.topic: how-to 
 author: anandmeg
@@ -52,21 +52,13 @@ You can use slash commands in a [chat window](visual-studio-github-copilot-chat.
 
 ## Context awareness and control
 
-### Enable the context experience
-
-To enable the new context experience features for GitHub Copilot Chat, follow these steps:
-
-1. Open Visual Studio.
-1. On the menu bar, select **Tools** > **Options** > **GitHub** > **Copilot chat**. You can also search for "Copilot chat" in the search box.
-1. Select **Enable new context experience** > **OK**.
-
-### Control context with #references
+### Control context with references
 
 You can ask your coding related questions in natural language and GitHub Copilot Chat will answer these in the context of the codebase open in Visual Studio. With #references you can get more specific about the information you want Copilot to consider when answering your question. By selecting a specific context in your codebase, you're able to form better questions easily without having to write out or paste long pieces of information. Specifying the context also enables Copilot to provide you with more relevant answers.
 
-:::image type="content" source="media/vs-2022/copilot-chat-context-hash-reference.png" alt-text="Screenshot of #references in Copilot Chat.":::
+:::image type="content" source="media/vs-2022/copilot-chat-context-hash-reference.png" alt-text="Screenshot of references in Copilot Chat.":::
 
-Here are some examples of using #references for context control:
+To easily reference a file, simply add a *#* symbol at the beginning of the file name. For example, if you have a file named *BasketService.cs*, refer to it in the chat as *#BasketService.cs*. Here are some examples of using references for context control:
 
 | **Example** | **Context used by Copilot to form the question** |
 |---------------------------|:--------------------:|
@@ -78,9 +70,19 @@ Here are some examples of using #references for context control:
 
 Copilot Chat will display the context it used after every result, so that you can tell what was taken into account when answering your question. When you ask a Copilot Chat a question and get a response in the chat window, an **Info used** dropdown appears below the response. The entries in the **Info used** dropdown list show you the context referenced by Copilot Chat to generate that response. This information can help you modify your question to get better and more relevant answers.
 
+:::image type="content" source="media/vs-2022/copilot-chat-info-used-dropdown.png" alt-text="Screenshot of Info used dropdown in Copilot Chat.":::
+
 ### Organize your chat conversations with threads 
 
 If you’re using Copilot Chat extensively to ask questions as you code, you’ll find it helpful to organize your conversations in a way that keeps them on-topic. Copilot Chat for Visual Studio now provides an easy way to start new conversations to keep them focused on the task at hand, and keep the context clear so the answers are based on relevant historical context. 
+
+You can start a new thread by selecting the **Create new thread** in the chat window.
+
+:::image type="content" source="media/vs-2022/copilot-chat-new-thread-conversation.png" alt-text="Screenshot of Create new thread icon in Copilot Chat.":::
+
+You can select between multiple ongoing threads to provide the right historical context for your question.
+
+:::image type="content" source="media/vs-2022/copilot-chat-switch-threads.png" alt-text="Screenshot of switching between ongoing threads in Copilot Chat.":::
 
 ## Related links
 
