@@ -104,7 +104,14 @@ Performing this task varies based on the programming language you're using. See 
 
 ## Manually editing the project file
 
-Sometimes, you need to manually edit the project file for some custom configuration. An example is when you have conditions that can't be specified in the IDE, such as a reference that is different for two different platforms, as in the following example. Manually editing a C++ project file that you're using in Visual Studio isn't recommended.
+Sometimes, you need to manually edit the project file for some custom configuration. An example is when you have conditions that can't be specified in the IDE, such as a reference that is different for two different platforms, or an assembly that must be registered for a particular platform in order to expose it to COM.
+
+> [!CAUTION]
+> Manually editing a C++ project file that you're using in Visual Studio isn't recommended.
+
+## COM registration
+
+In the case where you are building a .NET assembly and exposing it to COM, Visual Studio registers the assembly with a particular platform architecture, since there are different registry locations for each platform. If your assembly already targets a specific platform, then that is used, but if you're registering a .NET assembly that’s built for `Any CPU`, MSBuild defaults to registering it for MSBuild's current runtime. If you specify a different `PlatformTarget`, MSBuild will respect that when registering. There is a property you can set to override this behavior, `RegisterAssemblyMSBuildArchitecture`. You can set `RegisterAssemblyMSBuildArchitecture` to the desired platform architecture (such as `x86` or `x64`) by adding it to a top-level `PropertyGroup` element in the project file.
 
 ### Example: Referencing x86 and x64 assemblies and DLLs
 
