@@ -1,7 +1,7 @@
 ---
 title: "Write and debug code by using Hot Reload"
 description: "Hot Reload, similar to edit and continue, allows you to make changes to your code while running apps"
-ms.date: 06/20/2023
+ms.date: 11/01/2023
 ms.topic: conceptual
 helpviewer_keywords:
   - "Hot reload"
@@ -37,12 +37,12 @@ We accomplish this by making it possible for you to edit your application's code
 ## Supported .NET app frameworks and scenarios
 
 * **When using Visual Studio 2022 and starting your app with the debugger**, the basic Hot Reload experience works with most types of .NET apps and framework versions. This support includes .NET Framework, .NET Core and .NET 5+ (for both C# and Visual Basic as applicable). The type of apps that are supported include web (code-behind changes), desktop, mobile, cloud, and other project types. The expectation in this scenario is that if you’re using the debugger, assume Hot Reload is available to you and give it a try!
-* **When using Visual Studio 2022 but not using the debugger** (for example using CTRL-F5 to start the app), Hot Reload is available even when targeting most types of .NET 6 apps. This means that apps not targeting .NET 6 (.NET 5 or below) don't support the "no debugger" scenario and must use the debugger to get Hot Reload support.
-* **When using Visual Studio 2022 with a .NET 6 app, the most scenarios are supported.** This isn't limited to the new "no debugger" feature mentioned above. It also includes other new capabilities, such as support for hot reloading Blazor projects and, more generally, editing Razor files in any ASP.NET Core apps, and CSS Hot Reload. Using both Visual Studio 2022 and apps that target .NET 6 together will give you the most powerful Hot Reload experience.
+* **When using Visual Studio 2022 but not using the debugger** (for example using CTRL-F5 to start the app), Hot Reload is available even when targeting most types of .NET 6+ apps. This means that apps not targeting .NET 6+ (that is, .NET 5 or below) don't support the "no debugger" scenario and must use the debugger to get Hot Reload support.
+* **When using Visual Studio 2022 with a .NET 6+ app, the most scenarios are supported.** This isn't limited to the new "no debugger" feature mentioned above. It also includes other new capabilities, such as support for hot reloading Blazor projects and, more generally, editing Razor files in any ASP.NET Core apps, and CSS Hot Reload. Using both Visual Studio 2022 and apps that target .NET 6 together will give you the most powerful Hot Reload experience.
 
-The following table shows which application types support .NET Hot Reload with the debugger attached (F5) and without the debugger attached (Ctrl+F5), and whether .NET 6 is required for minimum support (that is, F5). .NET 6 is always required for Ctrl+F5 support. Also shown is the minimum version of Visual Studio that supports the feature.
+The following table shows which application types support .NET Hot Reload with the debugger attached (F5) and without the debugger attached (Ctrl+F5), and whether .NET 6+ is required for minimum support (that is, F5). .NET 6+ is always required for Ctrl+F5 support. Also shown is the minimum version of Visual Studio that supports the feature.
 
-|Application type|.NET 6 required|F5|Ctrl+F5|
+|Application type|.NET 6+ required|F5|Ctrl+F5|
 |-|-|-|-|
 |ASP.NET code-behind|No|16.11|17.0|
 |ASP.NET Razor (Blazor Server and ASP.NET Core)|Yes|17.0|17.0|
@@ -79,9 +79,9 @@ When using Visual Studio 2022 and starting the app with the debugger, Hot Reload
 
 ## Visual Studio 2022 with a .NET app, but not using the debugger
 
-Hot Reload is available without the debugger when targeting most types of .NET 6 apps, including project types such as Console, WPF, Windows Forms (WinForms), ASP.NET Core MVC, Web API, and Blazor.
+Hot Reload is available without the debugger when targeting most types of .NET 6+ apps, including project types such as Console, WPF, Windows Forms (WinForms), ASP.NET Core MVC, Web API, and Blazor.
 
-This feature is exclusive to .NET 6+. Those apps not targeting .NET 6 (.NET 5 or below) will not support the "no debugger" scenario and must use the debugger to get access to Hot Reload functionality.
+This feature is exclusive to .NET 6+. Those apps not targeting .NET 6+ (that is, .NET 5 or below) will not support the "no debugger" scenario and must use the debugger to get access to Hot Reload functionality.
 
 Also, be aware that not all project types currently support the "no debugger" scenario. Specifically:
 
@@ -89,9 +89,9 @@ Also, be aware that not all project types currently support the "no debugger" sc
 * Xamarin.Forms apps targeting iOS and Android don’t support .NET Hot Reload (regardless of whether you're starting your app with or without the debugger), but will continue to support XAML Hot Reload.
 * .NET MAUI apps are supported only with the debugger.
 
-## Visual Studio 2022 with a .NET 6 app
+## Visual Studio 2022 with a .NET 6+ app
 
-If you use both Visual Studio 2022 and work on apps that target .NET 6, you get the benefits of the most polished and capable Hot Reload experience.
+If you use both Visual Studio 2022 and work on apps that target .NET 6+, you get the benefits of the most polished and capable Hot Reload experience.
 
 Supported in this scenario:
 
@@ -100,7 +100,7 @@ Supported in this scenario:
 * CSS Hot Reload
 * Hot Reload support when running apps without the debugger (as described previously in more detail)
 
-If you target .NET 6, you continue to get improvements in upcoming Visual Studio 2022 updates and .NET feature band and major releases.
+If you target .NET 6+, you continue to get improvements in upcoming Visual Studio 2022 updates and .NET feature band and major releases.
 
 > [!NOTE]
 > In the first release of Visual Studio 2022 (version 17.0), Hot Reload support for Blazor WebAssembly when using the Visual Studio debugger isn’t currently enabled, but is available starting in 17.1. You can still get Hot Reload if you start your app through Visual Studio without the debugger or by updating to 17.1 release.
@@ -109,7 +109,7 @@ If you target .NET 6, you continue to get improvements in upcoming Visual Studio
 
 The basic Hot Reload experience is supported for many ASP.NET scenarios. The most widely available feature is the ability to change code-behind and other .NET class files for most types of web applications. This feature works while using the Visual Studio debugger and is present anywhere Edit and Continue was previously available. For more specific guidance, see [.NET Hot Reload support for ASP.NET Core](/aspnet/core/test/hot-reload).
 
-For ASP.NET Core developers who are targeting .NET 6, there are additional capabilities not available for lower versions of .NET. These capabilities include:
+For ASP.NET Core developers who are targeting .NET 6+, there are additional capabilities not available for lower versions of .NET. These capabilities include:
 
 * **CSHTML:** Editing a Razor CSHTML file supports many types of edits.
 * **Browser Refresh:** Editing a razor file automatically refreshes the changes in your web browser when debugging. This feature was previously only available when starting the app without the debugger.
@@ -128,7 +128,7 @@ Unsupported scenarios:
 * .NET MAUI apps aren't supported prior to Visual Studio 2022 version 17.1 Preview 1. Starting in 17.1 Preview 1, .NET MAUI is supported, but only with the debugger attached.
 * Apps built using F# or those targeting .NET Native don't support Hot Reload.
 
-If you’re using Visual Studio without the debugger. NET Hot Reload only works for apps targeting .NET 6.
+If you’re using Visual Studio without the debugger. NET Hot Reload only works for apps targeting .NET 6+.
 
 In addition, Hot Reload isn't available in some project configurations:
 
@@ -157,7 +157,7 @@ The settings for Hot Reload include:
 
 ![Screenshot of settings for .NET Hot Reload](../debugger/media/vs-2022/dotnet-hot-reload-settings.png)
 
-You also can control whether .NET Hot Reload is available at the project level by modifying your .NET 6 projects launchSetting.json and setting `hotReloadEnabled` to `false`.
+You also can control whether .NET Hot Reload is available at the project level by modifying your .NET 6+ project's *launchSetting.json* file and setting `hotReloadEnabled` to `false`.
 
 Example:
 
