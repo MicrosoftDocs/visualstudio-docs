@@ -1,7 +1,7 @@
 ---
 title: Overview for Visual Basic developers
 description: Learn about using Visual Studio to edit, debug, and build code, and then publish an app as a Visual Basic developer.
-ms.date: 01/31/2023
+ms.date: 10/31/2023
 ms.technology: vs-ide-general
 ms.custom: vs-acquisition
 ms.topic: conceptual
@@ -55,7 +55,7 @@ Some popular features in Visual Studio that improve your productivity when devel
 
 - Squiggles and [Quick Actions](../../ide/quick-actions.md)
 
-  Squiggles are wavy underlines that alert you to errors or potential problems in your code as you type. These visual clues help you fix problems immediately, without waiting to discover errors during build or runtime. If you hover over a squiggle, you see more information about the error. A lightbulb might also appear in the left margin showing *Quick Actions* you can take to fix the error.
+  Squiggles are wavy underlines that alert you to errors or potential problems in your code as you type. These visual clues help you fix problems immediately, without waiting to discover errors during build or runtime. If you hover over a squiggle, you see more information about the error. A light bulb might also appear in the left margin showing *Quick Actions* you can take to fix the error.
 
    ::: moniker range="vs-2019"
 
@@ -297,21 +297,21 @@ Dive in and create a simple program.
 
 1. To find the template we want, type or enter **.net core console** in the search box. The list of available templates is automatically filtered based on the keywords you entered. You can further filter the template results by choosing **Visual Basic** from the **All language** drop-down list, **Windows** from the **All platforms** list, and **Console** from the **All project types** list.
 
-   Select the **Console Application** template, and then click **Next**.
+   Select the **Console Application** template, and then select **Next**.
 
     :::image type="content" source="media/vs-2019/create-new-project.png" alt-text="Screenshot of the 'Create a new project' window in Visual Studio 2019, where you select the template that you want.":::
 
-1. In the **Configure your new project** window, enter **HelloWorld** in the **Project name** box, optionally change the directory location for your project files (the default locale is `C:\Users\<name>\source\repos`), and then click **Next**.
+1. In the **Configure your new project** window, enter **HelloWorld** in the **Project name** box, optionally change the directory location for your project files (the default locale is `C:\Users\<name>\source\repos`), and then select **Next**.
 
     :::image type="content" source="media/vs-2019/configure-new-project.png" alt-text="Screenshot of the 'Configure your new project' window in Visual Studio 2019, where you enter the name of the project.":::
 
-1. In the **Additional information** window, verify that **.NET Core 3.1** appears in the **Target Framework** drop-down menu, and then click **Create**.
+1. In the **Additional information** window, verify that **.NET Core 3.1** appears in the **Target Framework** drop-down menu, and then select **Create**.
 
     :::image type="content" source="media/vs-2019/create-project-additional-info.png" alt-text="Screenshot of the 'Additional information' window in Visual Studio 2019, where you select the version of the .NET Core Framework that you want.":::
 
    Visual Studio creates the project. It's a simple "Hello World" application that calls the <xref:System.Console.WriteLine?displayProperty=nameWithType> method to display the literal string "Hello World!" in the console (program output) window.
 
-   Shortly, you should see something like the following:
+   Shortly, you should see something like the following image:
 
    ![Screenshot that shows the Visual Studio IDE.](media/overview-ide-console-app.png)
 
@@ -321,7 +321,7 @@ Dive in and create a simple program.
 
    There are other menus and tool windows available, but let's move on for now.
 
-1. Now, start the app. You can do this by choosing **Start Without Debugging** from the **Debug** menu on the menu bar. You can also press **Ctrl**+**F5**.
+1. Now, start the app. You can initiate the process by choosing **Start Without Debugging** from the **Debug** menu on the menu bar. You can also press **Ctrl**+**F5**.
 
    ![Screenshot that shows Debug > Start without debugging.](media/vs-2019/start-without-debugging.png)
 
@@ -331,7 +331,7 @@ Dive in and create a simple program.
 
 1. To close the console window, press any key on your keyboard.
 
-1. Let's add some additional code to the app. Add the following Visual Basic code before the line that says `Console.WriteLine("Hello World!")`:
+1. Let's add some more code to the app. Add the following Visual Basic code before the line that says `Console.WriteLine("Hello World!")`:
 
    ```vb
    Console.WriteLine("What is your name?")
@@ -376,9 +376,9 @@ Dive in and create a simple program.
 
    :::image type="content" source="media/vs-2022/configure.png" alt-text="Screenshot of the Configure your new project window with the project name HelloWorld entered." border="false":::
 
-1. In the **Additional information** window, verify that **.NET 6.0** appears in the **Target Framework** drop-down menu, and then select **Create**.
+1. In the **Additional information** window, verify that **.NET 8.0** appears in the **Target Framework** drop-down menu, and then select **Create**.
 
-   :::image type="content" source="media/vs-2022/additional-information.png" alt-text="Screenshot of the Additional information window with dot NET 6.0 selected." border="false":::
+   :::image type="content" source="media/vs-2022/additional-information.png" alt-text="Screenshot of the Additional information window with dot NET 8.0 selected." border="false":::
 
    Visual Studio creates the project. The program is a simple "Hello World" application that calls the <xref:System.Console.WriteLine?displayProperty=nameWithType> method to display the string **Hello, World!** in a console window.
 
@@ -425,7 +425,7 @@ Dive in and create a simple program.
 
 1. Type your name in the console window and press **Enter**.
 
-   :::image type="content" source="../media/vs-2022/overview-console-input.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output Hello Georgette!." border="false":::
+   :::image type="content" source="../media/vs-2022/overview-console-input.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output Hello Georgette." border="false":::
 
 1. Press any key to close the console window and stop the running program.
 
@@ -441,7 +441,7 @@ First, rename the `name` variable:
 
    A box appears around the variable, and a light bulb appears in the margin.
 
-1. Select the lightbulb icon to show the available [Quick Actions](../../ide/quick-actions.md). Select **Rename 'name' to 'username'**.
+1. Select the light bulb icon to show the available [Quick Actions](../../ide/quick-actions.md). Select **Rename 'name' to 'username'**.
 
    ::: moniker range="<=vs-2019"
    ![Screenshot that shows the Rename action in Visual Studio.](media/rename-quick-action.png)
@@ -499,9 +499,9 @@ Next, use refactoring again to make the code a little more concise.
    ::: moniker-end
 
 ::: moniker range=">=vs-2022"
-1. Select the variable `now` in the line `Dim now = Date.Now`. A lightbulb icon appears in the margin on that line.
+1. Select the variable `now` in the line `Dim now = Date.Now`. A light bulb icon appears in the margin on that line.
 
-1. Select the lightbulb icon to see available suggestions from Visual Studio. This case shows the [Inline temporary variable](../../ide/reference/inline-temporary-variable.md) refactoring to remove a line of code without changing the overall code behavior.
+1. Select the light bulb icon to see available suggestions from Visual Studio. This case shows the [Inline temporary variable](../../ide/reference/inline-temporary-variable.md) refactoring to remove a line of code without changing the overall code behavior.
 
    :::image type="content" source="media/vs-2022/inline-temporary-variable.png" alt-text="Screenshot showing the Inline temporary variable suggestion in Visual Studio." border="false":::
 
@@ -533,7 +533,7 @@ Set a breakpoint to see the value of the `username` variable while the program i
 
 1. When the console window appears and asks for your name, enter your name.
 
-   The focus returns to the Visual Studio code editor, and the line of code with the breakpoint is highlighted in yellow. The yellow highlight means that this line of code will execute next. The breakpoint makes the app pause execution at this line.
+   The focus returns to the Visual Studio code editor, and the line of code with the breakpoint is highlighted in yellow. The yellow highlight means that this line of code executes next. The breakpoint makes the app pause execution at this line.
 
 1. Hover your mouse over the `username` variable to see its value. You can also right-click on `username` and select **Add Watch** to add the variable to the **Watch** window, where you can also see its value.
 
