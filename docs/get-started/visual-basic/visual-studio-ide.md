@@ -533,7 +533,7 @@ Set a breakpoint to see the value of the `username` variable while the program i
 
 1. When the console window appears and asks for your name, enter your name.
 
-   The focus returns to the Visual Studio Code editor, and the line of code with the breakpoint is highlighted in yellow. The yellow highlight means that this line of code executes next. The breakpoint makes the app pause execution at this line.
+   The focus returns to the Visual Studio code editor, and the line of code with the breakpoint is highlighted in yellow. The yellow highlight means that this line of code executes next. The breakpoint makes the app pause execution at this line.
 
 1. Hover your mouse over the `username` variable to see its value. You can also right-click on `username` and select **Add Watch** to add the variable to the **Watch** window, where you can also see its value.
 
