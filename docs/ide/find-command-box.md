@@ -36,8 +36,6 @@ To run a Visual Studio command, preface it with a greater than (**>**) sign.
 
 The **Go to Find Combo** box retains the last 20 items entered and displays them in a drop-down list. You can navigate through the list by choosing the **arrow keys**.
 
-![Find&#47;Command Box](../ide/media/findcommandbox.png)
-
 ## Searching for text
 
 By default, when you specify text in the **Go to Find Combo** box and then choose the **Enter** key, Visual Studio searches the current document or tool window using the options that are specified in the **Find in Files** dialog box. For more information, see [Finding and replacing text](../ide/finding-and-replacing-text.md).
