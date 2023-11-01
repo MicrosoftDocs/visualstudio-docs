@@ -107,7 +107,7 @@ Transactions use the <xref:System.Transactions> namespace. A project reference t
 
 1. On the **Project** menu, select **Add Reference**.
 
-2. Select **System.Transactions** (on the **.NET** tab), and then select **OK**.
+2. Select **System.Transactions** (on the *`.NET`* tab), and then select **OK**.
 
      A reference to **System.Transactions** is added to the project.
 

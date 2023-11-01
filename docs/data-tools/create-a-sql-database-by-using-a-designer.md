@@ -18,7 +18,7 @@ ms.technology: vs-data-tools
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
-You can use Visual Studio to create and update a local database file in SQL Server Express LocalDB. You can also create a database by executing Transact-SQL statements in the **SQL Server Object Explorer** tool window in Visual Studio. In this topic, you create an *.mdf* file and add tables and keys by using the Table Designer.
+You can use Visual Studio to create and update a local database file in SQL Server Express LocalDB. You can also create a database by executing Transact-SQL statements in the **SQL Server Object Explorer** tool window in Visual Studio. In this topic, you create an `.mdf` file and add tables and keys by using the Table Designer.
 
 ## Prerequisites
 

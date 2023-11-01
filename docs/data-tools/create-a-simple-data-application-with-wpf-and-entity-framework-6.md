@@ -89,7 +89,7 @@ This example uses SQL Server Express LocalDB and the Northwind sample database. 
 
     ![Screenshot of choosing database Objects for the model.](../data-tools/media/vs-2022/choose-entity-framework-objects.png)
 
-1. The wizard generates the C# classes that represent the Entity Framework model. The classes are plain old C# classes and they are what we databind to the WPF user interface. The *.edmx* file describes the relationships and other metadata that associates the classes with objects in the database. The *.tt* files are T4 templates that generate the code that operates on the model and saves changes to the database. You can see all these files in **Solution Explorer** under the Northwind_model node:
+1. The wizard generates the C# classes that represent the Entity Framework model. The classes are plain old C# classes and they are what we databind to the WPF user interface. The `.edmx` file describes the relationships and other metadata that associates the classes with objects in the database. The `.tt` files are T4 templates that generate the code that operates on the model and saves changes to the database. You can see all these files in **Solution Explorer** under the Northwind_model node:
 
       :::moniker range="<=vs-2019"
       ![Screenshot showing Solution Explorer Entity Framework model files.](../data-tools/media/solution-explorer-entity-framework-model-files.png)
@@ -98,9 +98,9 @@ This example uses SQL Server Express LocalDB and the Northwind sample database. 
       ![Screenshot showing Solution Explorer Entity Framework model files](media/vs-2022/solution-explorer-entity-framework-model-files.png)
       :::moniker-end
 
-    The designer surface for the *.edmx* file enables you to modify some properties and relationships in the model. We are not going to use the designer in this walkthrough.
+    The designer surface for the `.edmx` file enables you to modify some properties and relationships in the model. We are not going to use the designer in this walkthrough.
 
-1. The *.tt* files are general purpose and you need to tweak one of them to work with WPF databinding, which requires ObservableCollections. In **Solution Explorer**, expand the Northwind_model node until you find *Northwind_model.tt*. (Make sure you are not in the *.Context.tt* file, which is directly below the *.edmx* file.)
+1. The `.tt` files are general purpose and you need to tweak one of them to work with WPF databinding, which requires ObservableCollections. In **Solution Explorer**, expand the Northwind_model node until you find *Northwind_model.tt*. (Make sure you are not in the *.Context.tt* file, which is directly below the `.edmx` file.)
 
    - Replace the two occurrences of <xref:System.Collections.ICollection> with <xref:System.Collections.ObjectModel.ObservableCollection%601>.
 

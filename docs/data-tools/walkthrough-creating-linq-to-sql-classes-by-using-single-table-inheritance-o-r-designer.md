@@ -103,7 +103,7 @@ Now that you have created the table, create a new project to demonstrate configu
 
 2. Click the **LINQ to SQL Classes** template and then click **Add**.
 
-     The *.dbml* file is added to the project and the **O/R Designer** opens.
+     The `.dbml` file is added to the project and the **O/R Designer** opens.
 
 ## Create the inheritance by using the O/R Designer
 Configure the inheritance by dragging an **Inheritance** object from the **Toolbox** onto the design surface.

@@ -51,7 +51,7 @@ You can modify connection information that is saved in application settings by u
 You can modify connection information for each TableAdapter in a dataset.
 
 ### To edit a connection string for a TableAdapter in a dataset
-1. In **Solution Explorer**, double-click the dataset (**.xsd** file) that has the connection you want to edit.
+1. In **Solution Explorer**, double-click the dataset (*`.xsd`* file) that has the connection you want to edit.
 1. Select the **TableAdapter** or query that has the connection you want to edit.
 1. In the **Properties** window, expand the **Connection node**.
 1. To quickly modify the connection string, edit the **ConnectionString** property, or click the down arrow on the **Connection** property and choose **New Connection**.
