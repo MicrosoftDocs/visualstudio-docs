@@ -1,7 +1,7 @@
 ---
 title: Read XML data into a dataset in .NET Framework applications
 description: In .NET Framework application development with Visual Studio, read XML data into a ADO.NET dataset. In this walkthrough, you create a Windows application that loads XML data into a dataset.
-ms.date: 11/04/2016
+ms.date: 11/01/2023
 ms.topic: how-to
 dev_langs:
 - VB
