@@ -2,7 +2,7 @@
 title: "Tutorial: Create a simple Visual Basic (VB) console app"
 description: "In this tutorial, you learn how to create a Visual Basic console application in Visual Studio."
 ms.custom: vs-acquisition
-ms.date: 02/24/2023
+ms.date: 10/31/2023
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -18,7 +18,7 @@ dev_langs:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-This article shows how you'll use Visual Studio to create a simple Visual Basic application, a *console app*. In this app, you ask the user for their name, and then display it back with the current time. You'll also explore some features of the [Visual Studio integrated development environment (IDE)](visual-studio-ide.md), including [source control in Git](/visualstudio/version-control). Visual Basic is a type-safe programming language that's designed to be easy to learn. A console app takes input and displays output in a command-line window, also known as a console.
+This article shows how you use Visual Studio to create a simple Visual Basic application, a *console app*. In this app, you ask the user for their name, and then display it back with the current time. You also explore some features of the [Visual Studio integrated development environment (IDE)](visual-studio-ide.md), including [source control in Git](/visualstudio/version-control). Visual Basic is a type-safe programming language that's designed to be easy to learn. A console app takes input and displays output in a command-line window, also known as a console.
 
 In this tutorial, you learn how to:
 
@@ -36,7 +36,7 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ## Create a project
 
-First, you'll create a Visual Basic app project. The default project template includes all the files you'll need for a runnable app.  
+First, you create a Visual Basic app project. The default project template includes all the files you need for a runnable app.  
 
 ::: moniker range="<=vs-2019"
 
@@ -55,9 +55,9 @@ First, you'll create a Visual Basic app project. The default project template in
 
 1. In the **Create a new project** window, choose **Visual Basic** from the Language list. Next, choose **Windows** from the Platform list and **Console** from the project types list.
 
-   After you apply these language, platform, and project type filters, choose the **Console Application** template, and then choose **Next**.
+   After you apply the language, platform, and project type filters, choose the **Console Application** template, and then choose **Next**.
 
-   :::image type="content" source="media/vs-2019/vb-create-new-project-console-net-core.png" alt-text="Screenshot showing the 'Create a new project' window with 'Visual Basic', 'Windows', and 'Console' selected in the Language, Platform, and Project Type filters and the Console Application project template selected.":::
+   :::image type="content" source="media/vs-2019/vb-create-new-project-console-net-core.png" alt-text="Screenshot that shows how to choose the Visual Basic, Windows, and Console filter options and select the Console Application project template.":::
 
    > [!NOTE]
    > If you do not see the **Console Application** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
@@ -92,9 +92,9 @@ First, you'll create a Visual Basic app project. The default project template in
 
 1. In the **Create a new project** window, choose **Visual Basic** from the Language list. Next, choose **Windows** from the Platform list and **Console** from the Project types list.
 
-   After you apply these language, platform, and project type filters, choose the **Console App** template, and then choose **Next**.
+   After you apply the language, platform, and project type filters, choose the **Console App** template, and then choose **Next**.
 
-   :::image type="content" source="media/vs-2022/vb-create-new-project-console-net-core.png" alt-text="Screenshot showing the 'Create a new project' window with 'Visual Basic', 'Windows', and 'Console' selected in the Language, Platform, and Project Type filters and the Console App project template selected.":::
+   :::image type="content" source="media/vs-2022/vb-create-new-project-console-net-core.png" alt-text="Screenshot that shows how to choose the Visual Basic, Windows, and Console filter options and select the Console Application project template.":::
 
    > [!NOTE]
    > If you do not see the **Console App** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
@@ -111,9 +111,9 @@ First, you'll create a Visual Basic app project. The default project template in
 
    :::image type="content" source="media/vs-2022/vb-name-your-project-whatname.png" alt-text="Screenshot showing the 'Configure your new project' window with the Project name field set to'WhatIsYourName'.":::
 
-1. In the **Additional information** window, **.NET 6.0 (Long-term support)** should already be selected for your target framework. If not, select **.NET 6.0 (Long-term support)**. Then, choose **Create**.
+1. In the **Additional information** window, **.NET 8.0** should already be selected for your target framework. If not, select **.NET 8.0**. Then, choose **Create**.
 
-   :::image type="content" source="media/vs-2022/vb-target-framework.png" alt-text="Screenshot showing the 'Additional information' window with '.NET 6.0 (Long-term support)' selected in the Framework field.":::
+   :::image type="content" source="media/vs-2022/vb-target-framework.png" alt-text="Screenshot showing the 'Additional information' window with '.NET 8.0' selected in the Framework field.":::
 
    Visual Studio opens your new project.
 
@@ -177,7 +177,7 @@ To see the output outside of Visual Studio, in a system console window, build an
 
 1. In **Solution Explorer**, right-click on **WhatIsYourName** and choose **Open File in File Explorer**.
 
-1. In **File Explorer**, navigate to the **bin\Debug\net6.0** directory and run **WhatIsYourName.exe**.
+1. In **File Explorer**, navigate to the **bin\Debug\net8.0** directory and run **WhatIsYourName.exe**.
 
 1. The `Main` procedure terminates after its single statement executes and the console window closes immediately. To keep the console visible until the user presses a key, see the next section.
 
@@ -185,7 +185,7 @@ To see the output outside of Visual Studio, in a system console window, build an
 
 ## Add code to ask for user input
 
-Next, you'll add Visual Basic code that prompts you for your name and then displays it along with the current date and time. In addition, you'll add code that pauses the console window until the user presses a key.
+Next, you add Visual Basic code that prompts you for your name and then displays it along with the current date and time. In addition, you add code that pauses the console window until the user presses a key.
 
 ::: moniker range="vs-2019"
 
@@ -286,7 +286,7 @@ Module Program
 End Module
 ```
 
-And then run the updated app as described under "[Run the app](#run-the-app)".
+And then run the updated app as described in the earlier section, [Run the app](#run-the-app).
 
 [!INCLUDE[../includes/git-source-control.md](../includes/git-source-control.md)]
 
