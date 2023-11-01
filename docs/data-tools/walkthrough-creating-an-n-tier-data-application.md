@@ -47,6 +47,9 @@ During this walkthrough, you perform the following steps:
 - Write code to populate the data tables.
 
 ## Prerequisites
+
+To complete this tutorial, you need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify. See [Modify Visual Studio](../install/modify-visual-studio.md).
+
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
 1. If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-downloads), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **.NET desktop development** workload, or as an individual component.
@@ -95,7 +98,7 @@ The first step of this walkthrough is to create a solution and two class library
 
 ### To create the n-tier solution and DataEntityTier class library
 
-1. In Visual Studio, create a project using the Windows Forms (.NET Framework) project template for C# or Visual Basic. .NET Core, .NET 5 and later are not supported.
+1. In Visual Studio, create a project using the **Windows Forms App (.NET Framework)** project template for C# or Visual Basic. .NET Core, .NET 5 and later are not supported.
 
 4. Name the project **DataEntityTier**.
 

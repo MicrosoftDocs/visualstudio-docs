@@ -22,7 +22,7 @@ You can use Visual Studio to create and update a local database file in SQL Serv
 
 ## Prerequisites
 
-To complete this walkthrough, you need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify.
+To complete this walkthrough, you need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify. See [Modify Visual Studio](../install/modify-visual-studio.md).
 
 > [!NOTE]
 > The procedures in this article apply only to .NET Framework Windows Forms projects, not to .NET Core Windows Forms projects.

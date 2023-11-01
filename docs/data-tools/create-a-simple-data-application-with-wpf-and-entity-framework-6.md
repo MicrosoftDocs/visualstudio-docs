@@ -29,7 +29,7 @@ The final code for this tutorial may be found in GitHub at [VS Tutorial Samples 
 
 This example uses SQL Server Express LocalDB and the Northwind sample database. If the ADO.NET data provider for that product supports Entity Framework, it should work with other SQL database products just as well.
 
-1. If you don't have SQL Server Express LocalDB, install it through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **Data storage and Processing** workload, or as an individual component.
+1. If you don't have SQL Server Express LocalDB, install it through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **Data storage and processing** workload, or as an individual component.
 
 2. Install the Northwind sample database by following these steps:
 

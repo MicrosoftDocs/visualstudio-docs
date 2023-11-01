@@ -65,7 +65,7 @@ This brings up the **Add Connection** dialog box. Here, we have entered the name
 ![Screenshot of Add New Connection dialog box.](./media/vs-2022/add-new-connection.png)
 :::moniker-end
 
-If you don't have access to another database, and you don't see LocalDB installed, you can install LocalDB through the Visual Studio Installer, as part of the **Data Storage and Processing** workload, the **ASP.NET and web development** workload, or as an individual component. See [Modify Visual Studio](../install/modify-visual-studio.md).
+If you don't have access to another database, and you don't see LocalDB installed, you can install LocalDB through the Visual Studio Installer, as part of the **Data storage and processing** workload, the **ASP.NET and web development** workload, or as an individual component. See [Modify Visual Studio](../install/modify-visual-studio.md).
 
 ### MDF files
 
