@@ -1,7 +1,7 @@
 ---
 title: Devenv command line switches
 description: Learn about devenv command-line switches and how to use them to set IDE options, and also build, debug, and deploy projects, all from the command line.
-ms.date: 08/31/2022
+ms.date: 11/01/2023
 ms.topic: reference
 helpviewer_keywords:
 - switches, Devenv
@@ -22,7 +22,7 @@ Devenv lets you set various options for the IDE, build projects, debug projects,
 > [!NOTE]
 > For build-related tasks, it's recommended that you use MSBuild instead of devenv. For more information, see [MSBuild command-line reference](../../msbuild/msbuild-command-line-reference.md).
 
-For information about switches that are related to VSPackage development, also see [Devenv command-line switches for VSPackage development](../../extensibility/devenv-command-line-switches-for-vspackage-development.md).
+For information about switches that are primarily intended for Visual Studio extension development, also see [Devenv command-line switches for VSPackage development](../../extensibility/devenv-command-line-switches-for-vspackage-development.md).
 
 ## Devenv switch syntax
 
@@ -87,6 +87,7 @@ The following command-line switches don't display the IDE.
 |[/Project](project-devenv-exe.md)|The project to build, clean, or deploy. You can use this switch only if you've also supplied the `/Build`, `/Rebuild`, `/Clean`, or `/Deploy` switch.<br /><br /> `devenv mysln.sln /build Debug /project proj1`|
 |[/ProjectConfig](projectconfig-devenv-exe.md)|Specifies the project configuration to build or deploy. You can use this switch only if you've also supplied the `/Project` switch.<br /><br /> `devenv mysln.sln /build Release /project proj1 /projectconfig Release`|
 |[/Rebuild](rebuild-devenv-exe.md)|Cleans and then builds the specified solution or project according to the configuration of the specified solution.<br /><br /> `devenv mysln.sln /rebuild`|
+|[/Setup](../extensibility/devenv-command-line-switches-for-vspackage-development.md#guidelines-for-switches)|Forces Visual Studio to merge resource metadata that describes menus, toolbars, and command groups from all available VSPackages. You can only run this command as an administrator.|
 |[/Upgrade](upgrade-devenv-exe.md)|Upgrades the specified solution file and all its project files, or the specified project file, to the current Visual Studio formats for these files.<br /><br /> `devenv mysln.sln /upgrade`|
 
 ## See also
