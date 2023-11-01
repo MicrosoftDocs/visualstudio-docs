@@ -1,7 +1,7 @@
 ---
 title: MSBuild Conditions
 description: Learn how MSBuild supports a specific set of conditions that can be applied wherever a Condition attribute is allowed.
-ms.date: 11/10/2022
+ms.date: 11/01/2023
 ms.topic: reference
 dev_langs:
 - VB
@@ -19,7 +19,7 @@ ms.technology: msbuild
 ---
 # MSBuild conditions
 
-MSBuild supports a specific set of conditions that can be applied wherever a `Condition` attribute is allowed. The following table explains those conditions.
+MSBuild supports a specific set of conditions that can be applied wherever a `Condition` attribute is allowed; see [Supported elements](#supported-elements). The following table explains those conditions.
 
 |Condition|Description|
 |---------------|-----------------|
@@ -89,7 +89,24 @@ The reason is that MSBuild processes project files in several passes. The item e
 
 A condition that contains a metadata expression such as `%(ItemMetadata)` is expanded in the same contexts as item lists, that is, in item groups at the top level and in targets. However, expansion can have different behavior in an item group depending on whether the item group is outside of a target or inside of a target. Also, of the various forms of metadata expressions, `%(ItemName.MetadataName)`, `%(JustTheMetadataName)`, and `@(ItemName->'%(MetadataName)')`, only the item transform (the last one) is allowed outside of a target. The value of an %-expression in a target is evaluated at run-time and depends on any state changes during target execution. The execution of the target and the value of any %-expressions contained within it is also dependent on the batching of the target and can also trigger batching; see [MSBuild batching](msbuild-batching.md).
 
- 
+## Supported elements
+
+The following elements support the `Condition` attribute:
+
+- Import
+- ImportGroup
+- Item
+- ItemDefinitionGroup
+- ItemGroup
+- ItemMetadata
+- OnError
+- Output
+- Property
+- PropertyGroup
+- Target
+- Task
+- UsingTask
+- When
 
 ## See also
 
