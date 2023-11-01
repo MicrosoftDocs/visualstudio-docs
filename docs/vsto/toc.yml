@@ -32,8 +32,6 @@
         href: getting-started-programming-vsto-add-ins.md
       - name: VBA and Office Solutions in Visual Studio Compared
         href: vba-and-office-solutions-in-visual-studio-compared.md
-      - name: Visual Studio Tools for Office Runtime Lifecycle Policy
-        href: visual-studio-tools-for-office-runtime.md
     - name: Upgrading and Migrating Office Solutions
       items:
       - name: Migrating Office Solutions to the .NET Framework 4 or later
@@ -760,5 +758,9 @@
           href: getautoinsertextensions-method.md
         - name: SetWefProcessId Method
           href: setwefprocessid-method.md
+    - name: VSTO Runtime Lifecycle Policy
+      items:
+      - name: Visual Studio Tools for Office Runtime Lifecycle Policy
+        href: visual-studio-tools-for-office-runtime.md
   - name: Sharepoint Development in Visual Studio >>
     href: ../sharepoint/create-sharepoint-solutions.md
