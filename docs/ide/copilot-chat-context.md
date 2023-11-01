@@ -1,6 +1,6 @@
 ---
 title: Improved context in GitHub Copilot Chat
-description: Use slash commands and references to form better questions and get better answers with scoped context in GitHub Copilot Chat.
+description: Use slash commands, references, and threads to form better questions and get better answers with scoped context in GitHub Copilot Chat.
 ms.date: 10/28/2023
 ms.topic: how-to 
 author: anandmeg
