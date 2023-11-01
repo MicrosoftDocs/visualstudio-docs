@@ -148,7 +148,7 @@ In Visual Studio, you use the menu command **File** > **Add** > **New Project** 
 
 1. On the **Configure your new project** screen, type the project name *CalculatorLibrary*, and then select **Next**.
    
-1. On the **Additional information** screen, .NET 8.0 is selected. Select **Create**.
+1. On the **Additional information** screen, **.NET 8.0** is selected. Select **Create**.
    
    Visual Studio creates the new project and adds it to the solution.
    
