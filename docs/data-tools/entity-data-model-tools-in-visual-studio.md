@@ -1,7 +1,7 @@
 ---
 title: Entity Framework Tools
 description: Understand Entity Framework Tools in Visual Studio. Entity Framework Tools are designed to help you build Entity Framework (EF) applications.
-ms.date: 11/28/2022
+ms.date: 11/01/2023
 ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
