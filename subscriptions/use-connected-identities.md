@@ -6,7 +6,7 @@ manager: shve
 ms.date: 11/02/2023
 ms.topic: conceptual
 robots: "noindex, nofollow"
-description:  Learn how to work with connected Microsoft accounts and Azure Active Directory identities
+description:  Learn how to work with connected Microsoft accounts and Microsoft Entra ID identities
 ---
 
 # Use connected identities in Visual Studio subscriptions
