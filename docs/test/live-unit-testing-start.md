@@ -1,7 +1,7 @@
 ---
 title: Learn how to test your code with Live Unit Test
-description: Learn to use Live Unit Testing by creating a simple class library that targets .NET Standard and creating an MSTest project that targets .NET Core to test it.
-ms.date: 11/01/2023
+description: Learn to use Live Unit Testing by creating a simple class library that targets .NET and creating an MSTest project that also targets .NET to test it.
+ms.date: 11/02/2023
 ms.topic: how-to
 helpviewer_keywords: 
   - Live Unit Testing
