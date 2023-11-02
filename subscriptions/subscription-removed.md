@@ -66,7 +66,7 @@ If you're a subscriptions admin, you might occasionally see in your dashboard th
 
 ### What happens when the account is closed?
 
-If the subscription is removed, the subscriber loses access to the subscription.  If a subscriber is removed from an Azure AD group, their subscription information is permanently removed within 180 days.  If a subscriber closes their MSA, their information is removed immediately.  
+If the subscription is removed, the subscriber loses access to the subscription.  If a subscriber is removed from an Microsoft Entra group, their subscription information is permanently removed within 180 days.  If a subscriber closes their MSA, their information is removed immediately.  
 
 ### Anonymization of Visual Studio subscriber information
 
