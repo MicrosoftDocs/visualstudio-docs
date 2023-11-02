@@ -3,7 +3,7 @@ title: Signing in to Visual Studio Subscriptions May Fail When Using Aliases
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 07/07/2022
+ms.date: 11/02/2023
 ms.topic: conceptual
 description: Sign-in may fail if aliases or friendly names are used
 ---
@@ -14,7 +14,7 @@ Depending on the account type used to sign in, available subscriptions may not b
 
 ## What is aliasing?
 
-The term “aliasing” refers to users having different identities to sign in to Windows (or your Active Directory) and to access email.
+The term “aliasing” refers to users having different identities to sign in to Windows (or your Microsoft Entra ID) and to access email.
 
 Aliasing can be encountered when a company has a Microsoft Online Service for their directory sign-in, like `JohnD@contoso.com`, but users access their email accounts using aliases or friendly names, such as `John.Doe@contoso.com`. Make sure your users are using the “Sign-in Email Address” as listed in the admin portal at https://manage.visualstudio.com to access their subscriptions. 
 
@@ -24,7 +24,7 @@ Depending on the subscriber’s account type, they may encounter one of two issu
 
 ### Work or school account UPN mismatch issue
 
-A UPN mismatch can be encountered when a company has an Active Directory set up where the UserPrincipalName (UPN) is not same as the Primary SMTP Address. 
+A UPN mismatch can be encountered when a company has an Microsoft Entra ID set up where the UserPrincipalName (UPN) is not same as the Primary SMTP Address. 
 
 #### How to detect if your sign-in address is impacted by a UPN mismatch 
 
