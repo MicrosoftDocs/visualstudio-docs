@@ -129,7 +129,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 - [Create a pull request in Visual Studio](../version-control/git-create-pull-request.md)
 
-## Community contributors
+### Community contributors
 
 The following people contributed to Visual Studio content last month. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
 
