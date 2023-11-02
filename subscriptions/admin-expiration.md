@@ -57,4 +57,4 @@ If your company purchases a new agreement, you can [move subscribers to a new ag
 + Learn how [individual subscribers](subscription-expiration.md) are impacted by expired agreements.
 + Learn how to [export your subscriber list](exporting-subscriptions.md).
 + Learn how to [move subscriptions to a new agreement](migrate-subscriptions.md)
-+ Learn how to [add subscribers using Microsoft Entra group](assign-license-bulk.md#use-entra-id-groups-to-assign-subscriptions) groups.
++ Learn how to [add subscribers using Microsoft Entra groups](assign-license-bulk.md#use-entra-id-groups-to-assign-subscriptions).

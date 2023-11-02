@@ -12,7 +12,7 @@ description:  Learn how admins can assign multiple subscriptions at one time.
 
 The Subscriptions Administration Portal lets you add users one-at-a-time, or in large groups.  To add individual users, see [Add single users](assign-license.md).
 
-To add large groups of users, you can use the bulk add feature, or if your organization is using Microsoft Entra ID Groups **and your organization has a trusted agreement**, you can use Entra ID groups. This article explains the process for both options.  Watch this video or read on to learn more about the bulk add feature. 
+To add large groups of users, you can use the bulk add feature, or if your organization is using Microsoft Entra ID **and your organization has a trusted agreement**, you can use Entra ID groups. This article explains the process for both options.  Watch this video or read on to learn more about the bulk add feature. 
 
 ## Use Bulk add to assign subscriptions
 
@@ -73,7 +73,7 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 
 ## Use Entra ID groups to assign subscriptions 
 
-Using this feature makes it easy to stay on top of your subscription assignments. Add Entra ID Security Groups in the Subscriptions Administration Portal to ensure that everyone in the group is assigned a subscription. When members leave your organization and are removed from Entra ID, their access to subscriptions is also removed automatically for you. 
+Using this feature makes it easy to stay on top of your subscription assignments. Add Entra ID groups in the Subscriptions Administration Portal to ensure that everyone in the group is assigned a subscription. When members leave your organization and are removed from Entra ID, their access to subscriptions is also removed automatically for you. 
 
 
 > [!IMPORTANT]
@@ -138,7 +138,7 @@ A: No--Everyone in the group receives the same subscription level.
 
 ### Q: Can I edit subscriber details of individuals added in an Entra ID group?
 
-A: No--To modify information for an individual subscriber, remove them from the Entra ID security group and assign them a subscription individually.
+A: No--To modify information for an individual subscriber, remove them from the Entra ID group and assign them a subscription individually.
 
 ### Q: Can I add separate notification email addresses for members of an Entra ID group?
 
