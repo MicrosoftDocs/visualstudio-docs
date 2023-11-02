@@ -85,8 +85,8 @@ Events that make a subscription unusable to a subscriber triggers anonymization.
 | Visual Studio Dev Essentials | Subscriber opts out of the program or doesn't accept the terms of use | 30 days |
 | Visual Studio subscriptions purchased  through the Microsoft Store (retail) | Subscription expires or isn't activated  | 360 days |
 | Visual Studio subscriptions acquired through  Volume License, Visual Studio Marketplace  (cloud subscriptions), or programs such as MPN | Subscription expires or isn't assigned to a user | 180 days |
-| All subscriptions | An Azure Active Directory account or Microsoft  Account (MSA) used to sign into the subscription is closed | Immediately |
-| All subscriptions | A subscriber is removed from the tenant that is associated with the Azure Active Directory account | Immediately |
+| All subscriptions | A Microsoft Entra ID account or Microsoft  Account (MSA) used to sign into the subscription is closed | Immediately |
+| All subscriptions | A subscriber is removed from the tenant that is associated with the Microsoft Entra ID account | Immediately |
 
 ## Support resources
 
