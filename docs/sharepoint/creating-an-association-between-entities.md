@@ -1,5 +1,5 @@
 ---
-title: "Creating an Association Between Entities"
+title: "About Association Between Entities"
 description: Create an association between entities in your Business Data Connectivity (BDC) model. Learn about association methods and types of associations.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
