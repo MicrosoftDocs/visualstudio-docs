@@ -3,7 +3,7 @@ title: Assign Visual Studio subscriptions to multiple users
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 10/13/2023
+ms.date: 11/02/2023
 ms.topic: conceptual
 description:  Learn how admins can assign multiple subscriptions at one time.
 ---
@@ -80,7 +80,7 @@ Using this feature makes it easy to stay on top of your subscription assignments
 >
 > The following limitations apply to the use of Entra ID groups for adding subscribers:
 > + **Only TRUSTED agreements are can use Entra ID groups. (Only agreements who can 'overallocate' subscriptions are trusted.)**
-> + The admin must be a member of the Entra ID tenant when initially adding a group to the admin portal.  After the group has been added, changes to the membership of the groups does not require admin involvement. 
+> + The admin must be a member of the Microsoft Entra tenant when initially adding a group to the admin portal.  After the group has been added, changes to the membership of the groups does not require admin involvement. 
 > + Groups must contain at least one member.  Empty groups are not supported.
 > + All users must be in the top level of the group.  Nested groups are not supported.
 > + All members of the group must have an email address associated with their Entra ID account.
