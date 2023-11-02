@@ -1,7 +1,7 @@
 ---
 title: 'Configure projects to target platforms'
-description: Learn how Visual Studio enables you to set up your applications to target different platforms, including the Arm64 platform.
-ms.date: 10/18/2023
+description: Learn how Visual Studio enables you to set up your applications to target different platforms, including the ARM64 platform.
+ms.date: 11/01/2023
 ms.technology: vs-ide-compile
 ms.topic: how-to
 helpviewer_keywords:
@@ -104,7 +104,7 @@ Performing this task varies based on the programming language you're using. See 
 
 ### Manually editing the project file
 
-Sometimes, you need to manually edit the project file for some custom configuration. An example is when you have conditions that can't be specified in the IDE, such as a reference that is different for two different platforms, or an assembly that must be registered for a particular platform in order to expose it to COM. The tool that processes the project file is [MSBuild](msbuild.md).
+Sometimes, you need to manually edit the project file for some custom configuration. An example is when you have conditions that can't be specified in the IDE, such as a reference that is different for two different platforms, or an assembly that must be registered for a particular platform in order to expose it to COM. The tool that processes the project file is [MSBuild](../msbuild/msbuild.md).
 
 > [!CAUTION]
 > Manually editing a C++ project file that you're using in Visual Studio isn't recommended.
