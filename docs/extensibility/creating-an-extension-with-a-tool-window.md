@@ -14,10 +14,6 @@ ms.technology: vs-ide-sdk
 
 In this procedure, you learn how to use the VSIX project template and the **Custom Tool Window** item template to create an extension with a tool window.
 
-## Prerequisites
-
- Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
-
 ### Create a tool window
 
 1. Create a VSIX project named **FirstWindow**. You can find the VSIX project template in the **New Project** dialog by searching for "vsix".
