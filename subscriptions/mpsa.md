@@ -3,7 +3,7 @@ title: Visual Studio Subscriptions in MPSA
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 03/03/2023
+ms.date: 11/02/2023
 ms.topic: conceptual
 description:  Learn about managing Visual Studio subscriptions in a Microsoft Products and Services Agreement (MPSA)
 ---
@@ -12,7 +12,7 @@ description:  Learn about managing Visual Studio subscriptions in a Microsoft Pr
 
 If you've purchased Visual Studio Subscriptions through the MPSA program, there are a few things to be aware of before you can become a Visual Studio subscriptions admin and assign subscriptions to your users. If you've already been set up as an admin, you can go directly to the Visual Studio subscriptions [Administration Portal](https://manage.visualstudio.com/).
 
-MPSA customers manage assets purchased through MPSA in a portal called the [Business Center](https://businessaccount.microsoft.com/Customer) (Similar to how the Volume Licensing Service Center (VLSC) is used to manage volume licensing assets). In the Business Center, MPSA customers can view their License Summary, Orders, Downloads, Keys, Users, etc. However, there are some key differences between VLSC and MPSA subscriptions. The Business Center uses work accounts to sign in, instead of Microsoft Accounts (MSA). If you access services like Azure Active Directory or Office 365, your email is already a work account. You can register for access to Business Center with your business email and password combination, like other cloud services - If your organization isn't using cloud services and your email isn't a work account, you may use a different email to register for access to the Business Center and create a password at the time of registration.
+MPSA customers manage assets purchased through MPSA in a portal called the [Business Center](https://businessaccount.microsoft.com/Customer) (Similar to how the Volume Licensing Service Center (VLSC) is used to manage volume licensing assets). In the Business Center, MPSA customers can view their License Summary, Orders, Downloads, Keys, Users, etc. However, there are some key differences between VLSC and MPSA subscriptions. The Business Center uses work accounts to sign in, instead of Microsoft Accounts (MSA). If you access services like Microsoft Entra ID or Office 365, your email is already a work account. You can register for access to Business Center with your business email and password combination, like other cloud services - If your organization isn't using cloud services and your email isn't a work account, you may use a different email to register for access to the Business Center and create a password at the time of registration.
 
 The Visual Studio subscriptions [Administration Portal](https://manage.visualstudio.com/) is where you'll assign subscriptions after you become a Visual Studio subscriptions admin. Visual Studio subscriptions purchased through MPSA must be provisioned in the Visual Studio Subscriptions Administration Portal by an admin. To do that, your Purchasing Account must be associated with a tenant (example: `contoso.onmicrosoft.com`).
 
@@ -53,7 +53,7 @@ Similarly, having Administrator permissions on the Visual Studio Subscriptions A
 
 ## Unmanaged tenant
 
-If you registered to the Business Center with an email that wasn't a work account (not registered in the Azure Active Directory “Azure AD”), as explained previously, the tenant association will be slightly different. You'll need to perform what’s called a "domain take-over". During this process, you'll make yourself the Global Administrator (Company Administrator) which will change your tenant from "unmanaged" to "managed."
+If you registered to the Business Center with an email that wasn't a work account (not registered in the Microsoft Entra ID), as explained previously, the tenant association will be slightly different. You'll need to perform what’s called a "domain take-over". During this process, you'll make yourself the Global Administrator (Company Administrator) which will change your tenant from "unmanaged" to "managed."
 
 For a more detailed explanation for this process, you may use the Quick Start guides. Download the guide named "Setup and Use Your Online Services" that will guide you through a domain take-over (pg. 7-8).
 
