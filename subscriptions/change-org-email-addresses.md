@@ -36,7 +36,7 @@ Perform these steps **AFTER** the subscribers' email addresses have changed.
 1. Sign in to the admin portal.
 0. Select **Manage subscribers**.
 0. For subscriptions listed individually in the subscriber list, use the [bulk add](assign-license-bulk.md) feature to update all your subscribers easily.  
-0. For subscriptions assigned to members of a Microsoft Entra ID group, there are no actions to take in the admin portal.  When their email addresses are updated in the Entra ID group, their subscriptions are automatically updated in the admin portal. 
+0. For subscriptions assigned to members of a Microsoft Entra group, there are no actions to take in the admin portal.  When their email addresses are updated in the Microsoft Entra group, their subscriptions are automatically updated in the admin portal. 
 
 ## Resources
 
