@@ -3,18 +3,18 @@ title: Issues signing in to Visual Studio subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 05/22/2023
+ms.date: 11/02/2023
 ms.topic: conceptual
 description:  Learn about issues that may arise when signing in to Visual Studio subscriptions
 ---
 
 # Issues signing in to Visual Studio subscriptions
 
-To use your Visual Studio subscription, you must first sign in.  Depending on your subscription, you may have set it up with either a Microsoft account (MSA) or an Azure Active Directory (Azure AD) identity.  This article discusses some of the issues you may encounter while signing in to your subscription.
+To use your Visual Studio subscription, you must first sign in.  Depending on your subscription, you may have set it up with either a Microsoft account (MSA) or an Microsoft Entra ID  identity.  This article discusses some of the issues you may encounter while signing in to your subscription.
 
 ## Microsoft Accounts (MSA) can't be created using work/school email addresses
 
-Creating a new personal Microsoft Account (MSA) using a work/school email address is no longer allowed when the email domain is configured in Azure AD. What does this mean? If your organization uses Microsoft 365 or other business services from Microsoft that rely on Azure AD, and if you've added a domain name to your Azure AD tenant, users are no longer able to create a new personal Microsoft account using an email address in your domain.
+Creating a new personal Microsoft Account (MSA) using a work/school email address is no longer allowed when the email domain is configured in Microsoft Entra ID. What does this mean? If your organization uses Microsoft 365 or other business services from Microsoft that rely on Microsoft Entra ID, and if you've added a domain name to your Microsoft Entra tenant, users are no longer able to create a new personal Microsoft account using an email address in your domain.
 
 ### Why was this change made?
 
@@ -23,7 +23,7 @@ Having a personal Microsoft Account with a work address as a username is fraught
 + Users who leave an organization generally lose access to their work email address. When they do, they may not be able to get back into their personal Microsoft account if they forget their password. Conversely, their IT department could reset their password and get into the personal account of former employees.
 + IT departments have a false sense of account ownership and security. But users only need to roundtrip a code to their work email address once, and can rename their account at any time in the future.
 
-The situation is confusing for users who have two accounts with the same email address (one in Azure AD & one Microsoft account).
+The situation is confusing for users who have two accounts with the same email address (one in Microsoft Entra ID & one Microsoft account).
 
 ### What does the experience look like?
 
@@ -50,11 +50,11 @@ Visual Studio Subscriptions [subscriber portal](https://my.visualstudio.com?wt.m
 
 ## Deleting a sign-in address may prevent access to a subscription
 
-If you delete one or more identities (MSA or Azure AD) associated with your subscription, your subscriber information including your user name and sign-in ID may be rendered anonymous.  "Anonymization" results in the loss of access to your subscription.
+If you delete one or more identities (MSA or Microsoft Entra ID) associated with your subscription, your subscriber information including your user name and sign-in ID may be rendered anonymous.  "Anonymization" results in the loss of access to your subscription.
 
 To avoid impacts to your subscription access, use one of these techniques.
-+ Deploy a single identity management system--either MSA or Azure AD--but not both.
-+ Associate the Azure AD and MSA identities via the tenant.
++ Deploy a single identity management system--either MSA or Microsoft Entra ID --but not both.
++ Associate the Microsoft Entra ID and MSA identities via the tenant.
 
 ## Signing in may fail when using aliases
 
@@ -83,5 +83,4 @@ For assistance with sales, subscriptions, accounts and billing for Visual Studio
 
 ## Next steps
 
-+ Learn how to [link MSA and Azure AD accounts](/azure/active-directory/b2b/add-users-administrator) within Azure AD.
 + Learn more about [anonymization](anonymization.md).
