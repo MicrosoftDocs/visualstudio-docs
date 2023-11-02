@@ -3,7 +3,7 @@ title: Signing in to Visual Studio subscriptions with your GitHub account
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 07/12/2022
+ms.date: 11/02/2023
 ms.topic: conceptual
 description:  Learn how to sign in to your Visual Studio subscription(s) with your GitHub account. 
 ---
