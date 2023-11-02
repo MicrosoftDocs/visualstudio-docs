@@ -45,7 +45,7 @@ You can also see your currently selected subscription in the upper right corner,
 
 3. Select **Continue**.
 4. You're redirected to a decision page.
-    + Select **Work or school account** if the subscription is associated with a "Work or School" account associated with an Azure Active Directory tenant.
+    + Select **Work or school account** if the subscription is associated with a "Work or School" account associated with a Microsoft Entra tenant.
     + Select **Personal** if the subscription is associated with a "Corporate" email address, but has also been converted to a "Personal" Microsoft Account (MSA).
 
         > [!NOTE]
