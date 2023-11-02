@@ -1,7 +1,7 @@
 ---
 title: Learn how to test your code with Live Unit Test
 description: Learn to use Live Unit Testing by creating a simple class library that targets .NET Standard and creating an MSTest project that targets .NET Core to test it.
-ms.date: 12/13/2021
+ms.date: 11/01/2023
 ms.topic: how-to
 helpviewer_keywords: 
   - Live Unit Testing
@@ -16,13 +16,13 @@ ms.technology: vs-ide-test
 
 When you enable Live Unit Testing in a Visual Studio solution, it visually depicts your test coverage and the status of your tests. Live Unit Testing also dynamically executes tests whenever you modify your code and immediately notifies you when your changes cause tests to fail.
 
-Live Unit Testing can be used to test solutions that target either .NET Framework or .NET Core. In this tutorial, you'll learn to use Live Unit Testing by creating a simple class library that targets .NET Standard, and you'll create an MSTest project that targets .NET Core to test it.
+Live Unit Testing can be used to test solutions that target either .NET Framework, .NET Core, or .NET 5+. In this tutorial, you'll learn to use Live Unit Testing by creating a simple class library that targets .NET Standard, and you'll create an MSTest project that targets .NET Core to test it.
 
 The complete C# solution can be downloaded from the [MicrosoftDocs/visualstudio-docs](https://github.com/MicrosoftDocs/visualstudio-docs/tree/master/docs/test/samples/csharp/UtilityLibraries/) repo on GitHub.
 
 ## Prerequisites
 
-This tutorial requires that you've installed Visual Studio Enterprise edition with the **.NET Core cross-platform development** workload.
+This tutorial requires that you've installed Visual Studio Enterprise edition with the **.NET desktop development** workload.
 
 ## Create the solution and the class library project
 
@@ -40,7 +40,7 @@ Now that you've created the solution, you'll create a class library named String
 
 1. In **Solution Explorer**, right-click on the UtilityLibraries solution and select **Add** > **New Project**.
 
-2. Type **class library** into the template search box, and the select the **Class Library (.NET Standard)** template. Click **Next**.
+2. Type **class library** into the template search box, and the select the **Class Library** template that targets .NET or .NET Standard. Click **Next**.
 
    > [!NOTE]
    > Because our library targets .NET Standard rather than a particular .NET implementation, it can be called from any .NET implementation that supports that version of .NET Standard. For more information, see [.NET Standard](/dotnet/standard/net-standard).
@@ -103,19 +103,19 @@ The next step is to create the unit test project to test the StringLibrary libra
 
 1. In **Solution Explorer**, right-click on the UtilityLibraries solution and select **Add** > **New Project**.
 
-2. Type **unit test** into the template search box, select **C#** as the language, and then select the **Unit Test Project** for .NET Core template. Click **Next**.
+2. Type **unit test** into the template search box, select **C#** as the language, and then select the **MSTest Unit Test Project** for .NET template. Click **Next**.
 
    > [!NOTE]
-   > Starting in Visual Studio 2019 version 16.9, the MSTest project template name changed from **MSTest Unit Test Project (.NET Core)** to **Unit Test Project**.
+   > In Visual Studio 2019 version 16.9, the MSTest project template name is **Unit Test Project**.
 
 3. Name the project **StringLibraryTests** and click **Next**.
 
-4. Choose either the recommended target framework or .NET 6, and then choose **Create**.
+4. Choose either the recommended target framework or .NET 8, and then choose **Create**.
 
    > [!NOTE]
    > This getting started tutorial uses Live Unit Testing with the MSTest test framework. You can also use the xUnit and NUnit test frameworks.
 
-5. The unit test project can't automatically access the class library that it is testing. You give the test library access by adding a reference to the class library project. To do this, right-click on the `StringLibraryTests` project and select **Add** > **Reference**. In the **Reference Manager** dialog, make sure the **Solution** tab is selected, and select the StringLibrary project, as shown in the following illustration.
+5. The unit test project can't automatically access the class library that it is testing. You give the test library access by adding a reference to the class library project. To do this, right-click the `StringLibraryTests` project and select **Add** > **Project Reference**. In the **Reference Manager** dialog, make sure the **Solution** tab is selected, and select the StringLibrary project, as shown in the following illustration.
 
    ::: moniker range="<=vs-2019"
    ![The **Reference Manager** dialog](./media/lut-start/add-reference.png)
@@ -186,7 +186,12 @@ The next step is to create the unit test project to test the StringLibrary libra
 
 8. Choose the **Save with Other Encoding** button.
 
+   ::: moniker range=">=vs-2022"
+   ![Choose a file encoding](media/lut-start/vs-2022/ascii-encoding.png)
+   ::: moniker-end
+   ::: moniker range="vs-2019"
    ![Choose a file encoding](media/lut-start/ascii-encoding.png)
+   ::: moniker-end
 
 9. In the **Encoding** drop-down list of the **Advance Save Options** dialog, choose **Unicode (UTF-8 without signature) - Codepage 65001**, as the following illustration shows:
 
