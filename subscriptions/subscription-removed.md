@@ -3,7 +3,7 @@ title: What happens when your Visual Studio subscription is removed
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 07/26/2023
+ms.date: 11/02/2023
 ms.topic: troubleshooting
 description: Learn what happens when your admin removes your Visual Studio subscription. This information includes how your benefits change and support resources.
 ---
