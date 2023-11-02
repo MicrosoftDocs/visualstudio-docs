@@ -13,7 +13,7 @@ description:  Learn how admins can edit subscription assignments.
 As a subscription admin, you can make changes to the subscriptions assigned to members of your organization.  This article discusses the types of changes you can make and provides the necessary steps.
 
    > [!NOTE]
-   > If you need to change certain subscription details for a subscriber assigned through an Azure Active Directory Group, you will need to remove them from the group and add them into the Administration Portal individually.  Changes to their email address, spelling of their name, etc should be made in the Microsoft Entra group.  If you need to change subscription levels or download permissions, however, they will need to be removed from the group and added directly into the admin portal. 
+   > If you need to change certain subscription details for a subscriber assigned through an Microsoft Entra group, you will need to remove them from the group and add them into the Administration Portal individually.  Changes to their email address, spelling of their name, etc should be made in the Microsoft Entra group.  If you need to change subscription levels or download permissions, however, they will need to be removed from the group and added directly into the admin portal. 
 
 ## Change subscriber information
 
