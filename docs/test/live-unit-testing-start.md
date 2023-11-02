@@ -280,7 +280,7 @@ To extend code coverage to the `StartsWithLower` method, do the following:
    ![Code coverage for the StartsWithLower method](media/lut-start/lut-extended-cs.png)
    ::: moniker-end
 
-In some cases, successful tests in **Test Explorer** may be grayed-out. That indicates that a test is currently executing, or that the test has not run again because there have been no code changes that would impact the test since it was last executed.
+In some cases, successful tests in **Test Explorer** might be grayed-out. That indicates that a test is currently executing, or that the test has not run again because there have been no code changes that would impact the test since it was last executed.
 
 So far, all of our tests have succeeded. In the next section, we'll examine how you can handle test failure.
 
