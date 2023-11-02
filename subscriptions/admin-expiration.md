@@ -3,7 +3,7 @@ title: Admin portal changes for expired Visual Studio subscription agreements
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 03/23/2023
+ms.date: 11/02/2023
 ms.topic: conceptual
 description: Learn what happens for admins when an agreement expires
 ---
@@ -57,4 +57,4 @@ If your company purchases a new agreement, you can [move subscribers to a new ag
 + Learn how [individual subscribers](subscription-expiration.md) are impacted by expired agreements.
 + Learn how to [export your subscriber list](exporting-subscriptions.md).
 + Learn how to [move subscriptions to a new agreement](migrate-subscriptions.md)
-+ Learn how to [add subscribers using Microsoft Entra ID](assign-license-bulk.md#use-entra-id-groups-to-assign-subscriptions) groups.
++ Learn how to [add subscribers using Microsoft Entra group](assign-license-bulk.md#use-entra-id-groups-to-assign-subscriptions) groups.
