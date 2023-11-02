@@ -22,9 +22,6 @@ This walkthrough shows how to add a toolbar to a tool window.
 
  For more information about how to add a toolbar, see [Adding a toolbar](../extensibility/adding-a-toolbar.md).
 
-## Prerequisites
- Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
-
 ## Create a toolbar for a tool window
 
 1. Create a VSIX project named `TWToolbar` that has both a menu command named **TWTestCommand** and a tool window named **TestToolWindow**. For more information, see [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md) and [Create an extension with a tool window](../extensibility/creating-an-extension-with-a-tool-window.md). You need to add the command item template before adding the tool window template.

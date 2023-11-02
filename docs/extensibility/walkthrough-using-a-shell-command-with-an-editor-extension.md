@@ -17,9 +17,6 @@ From a VSPackage, you can add features such as menu commands to the editor. This
 
  This walkthrough demonstrates the use of a VSPackage together with a Managed Extensibility Framework (MEF) component part. You must use a VSPackage to register the menu command with the Visual Studio shell. And, you can use the command to access the MEF component part.
 
-## Prerequisites
- Starting in Visual Studio 2015, you don't install the Visual Studio SDK from the download center. It's included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
-
 ## Create an extension with a menu command
  Create a VSPackage that puts a menu command named **Add Adornment** on the **Tools** menu.
 

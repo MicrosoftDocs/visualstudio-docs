@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "accessibility features [Help Viewer]"
   - "Help Viewer, accessibility features"
-author: jasonchlus
-ms.author: jasonchlus
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-help-viewer
 ---
