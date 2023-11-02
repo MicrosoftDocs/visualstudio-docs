@@ -1,7 +1,7 @@
 ---
 title: 'Configure projects to target platforms'
-description: Learn how Visual Studio enables you to set up your applications to target different platforms, including the Arm64 platform.
-ms.date: 10/18/2023
+description: Learn how Visual Studio enables you to set up your applications to target different platforms, including the ARM64 platform.
+ms.date: 11/01/2023
 ms.technology: vs-ide-compile
 ms.topic: how-to
 helpviewer_keywords:
@@ -102,11 +102,18 @@ Performing this task varies based on the programming language you're using. See 
 
 - For C# projects, see [Build page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md).
 
-## Manually editing the project file
+### Manually editing the project file
 
-Sometimes, you need to manually edit the project file for some custom configuration. An example is when you have conditions that can't be specified in the IDE, such as a reference that is different for two different platforms, as in the following example. Manually editing a C++ project file that you're using in Visual Studio isn't recommended.
+Sometimes, you need to manually edit the project file for some custom configuration. An example is when you have conditions that can't be specified in the IDE, such as a reference that is different for two different platforms, or an assembly that must be registered for a particular platform in order to expose it to COM. The tool that processes the project file is [MSBuild](../msbuild/msbuild.md).
 
-### Example: Referencing x86 and x64 assemblies and DLLs
+> [!CAUTION]
+> Manually editing a C++ project file that you're using in Visual Studio isn't recommended.
+
+## COM registration
+
+If you're building a .NET assembly and exposing it to COM, Visual Studio registers the assembly with a particular platform architecture, since there are different registry locations for each platform architecture (for example, `x86` and `x64`). If your assembly already targets a specific platform, then that is used, but if you're registering a .NET assembly that’s built for `Any CPU`, MSBuild defaults to registering it for MSBuild's current runtime. If you're building in Visual Studio, that's `x64` in Visual Studio 2022 and later, and `x86` in Visual Studio 2019 and earlier. If you set the platform architecture using the methods described previously in this article, or specify a different `PlatformTarget` in the project file, MSBuild will respect that when registering. There is a property you can set to override this behavior, `RegisterAssemblyMSBuildArchitecture`. You can set `RegisterAssemblyMSBuildArchitecture` to the desired platform architecture (such as `x86` or `x64`) by adding it to a top-level `PropertyGroup` element in the project file.
+
+## Referencing x86 and x64 assemblies and DLLs
 
 You might have a .NET assembly or DLL that has both x86 and x64 versions. To set up your project to use these references, first add the reference, and then open the project file and edit it to add an `ItemGroup` with a condition that references both the configuration, and the target platform.  For example, suppose the binary you're referencing is ClassLibrary1 and there are different paths for Debug and Release configurations, as well as x86 and x64 versions.  Then, use four `ItemGroup` elements with all combinations of settings, as follows:
 

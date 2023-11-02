@@ -20,10 +20,6 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
 
  The MPF provides two classes to help you create Tools Options pages, the <xref:Microsoft.VisualStudio.Shell.Package> class and the <xref:Microsoft.VisualStudio.Shell.DialogPage> class. You create a VSPackage to provide a container for these pages by subclassing the `Package` class. You create each tools options page by deriving from the `DialogPage` class.
 
-## Prerequisites
-
- Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
-
 ## Create a Tools Options grid page
 
  In this section, you create a simple Tools Options property grid. You use this grid to display and change the value of a property.

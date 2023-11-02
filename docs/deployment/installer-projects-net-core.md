@@ -1,24 +1,25 @@
 ---
 description: "Packaging applications as an MSI is often accomplished using the Visual Studio Installer Projects Extension."
-title: "Visual Studio Installer Projects and .NET 6.0"
+title: "Visual Studio Installer Projects and .NET"
 titleSuffix: ""
-ms.date: "02/18/2022"
+ms.date: "11/01/2023"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "installer projects"
-  - "installer projects, .NETCore"
+  - "installer projects, .NET Core"
+  - "installer projects, .NET"
 author: MSLukeWest
 ms.author: lukewest
 manager: MSLukeWest
 monikerRange: '>= vs-2019'
 ---
-# Visual Studio Installer Projects Extension and .NET 6.0
+# Visual Studio Installer Projects Extension and .NET
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Packaging applications as an MSI is often accomplished using the Visual Studio Installer Projects Extension.
 
-This article applies to apps targeting .NET Core 3.1, .NET 5, .NET 6 and later.
+This article applies to apps targeting .NET Core 3.1, .NET 5, .NET 6, and later.
 
 You can download the extension here:
 
@@ -29,15 +30,15 @@ You can download the extension here:
 [Visual Studio Installer Projects](https://marketplace.visualstudio.com/items?itemName=VisualStudioClient.MicrosoftVisualStudio2017InstallerProjects)
 ::: moniker-end
 
-## Update for .NET Core
+## Update for .NET Core and .NET
 
-.NET Core has two different models for publishing.
+.NET Core and .NET 5+ have two different models for publishing.
 
 - Framework-dependent deployments
 
 - Self-contained applications include the runtime.
 
-To learn more about these deployment strategies, see [.NET Core application publishing overview](/dotnet/core/deploying/).
+To learn more about these deployment strategies, see [.NET application publishing overview](/dotnet/core/deploying/).
 
 ## Create a setup project
 
@@ -47,9 +48,9 @@ To learn more about these deployment strategies, see [.NET Core application publ
 
    For more information, see [Setup and Deployment projects](/previous-versions/visualstudio/visual-studio-2010/wx3b589t(v=vs.100)).
 
-### Workflow changes for .NET Core 3.1 and later versions
+### Workflow changes for .NET Core 3.1 and .NET 5 or later
 
-1. Select **Publish Items** instead of **Primary Output** to get the correct output for .NET Core 3.1, .NET 5.0, or .NET 6.0 projects.  To bring up this dialog, select **Add** > **Project Output...** from the project's context menu.
+1. Select **Publish Items** instead of **Primary Output** to get the correct output for .NET Core 3.1 and .NET 5.0 or later projects.  To bring up this dialog, select **Add** > **Project Output...** from the project's context menu.
 
     ![The Publish Items output group in the Add Project Output Group dialog](../deployment/media/installer-projects-net-core-publish-items-output.png "Pick Publish Items")
 
@@ -62,7 +63,7 @@ To learn more about these deployment strategies, see [.NET Core application publ
 
 ### Prerequisites
 
-If you would like your installer to be able to install the necessary runtime for a framework-dependent .NET Core 3.1, .NET 5.0, or .NET 6.0 app, you can do this using [prerequisites](../deployment/application-deployment-prerequisites.md).  From the properties dialog of your installer project, open the **Prerequisites...** dialog and you'll see the following entries:
+If you would like your installer to be able to install the necessary runtime for a framework-dependent .NET Core 3.1 or .NET 5.0+ app, you can do this using [prerequisites](../deployment/application-deployment-prerequisites.md).  From the properties dialog of your installer project, open the **Prerequisites...** dialog and you'll see the following entries:
 
 ![.NET Core items in the Prerequisites dialog](../deployment/media/installer-projects-net-core-prerequisites.png ".NET Core Prerequisites")
 

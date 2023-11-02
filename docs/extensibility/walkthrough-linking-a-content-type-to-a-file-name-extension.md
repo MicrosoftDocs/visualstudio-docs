@@ -15,9 +15,6 @@ ms.technology: vs-ide-sdk
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can define your own content type and link a file name extension to it by using the editor Managed Extensibility Framework (MEF) extensions. In some cases, the file name extension is already defined by a language service. But, to use it with MEF, you must still link it to a content type.
 
-## Prerequisites
- Starting in Visual Studio 2015, you don't install the Visual Studio SDK from the download center. It's included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
-
 ## Create a MEF project
 
 1. Create a C# VSIX project. (In the **New Project** dialog, select **Visual C# / Extensibility**, then **VSIX Project**.) Name the solution `ContentTypeTest`.

@@ -1,18 +1,20 @@
 ---
-title: Help Viewer administrator guide
+title: Deploy help locally with Help Viewer
 description: Read the Microsoft Help Viewer administrator guide. Deploy local Help content from the internet, or deploy pre-installed local Help content on client computers.
 ms.date: 11/01/2017
 ms.topic: conceptual
-author: jasonchlus
-ms.author: jasonchlus
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-help-viewer
 ---
-# Help Viewer administrator guide
+# Deploy and manage local Help installations for network environments 
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-The Help Viewer allows you to manage local Help installations for network environments with or without internet access. Local help content is configured on a per machine basis. By default, users must have administrator rights to update their local Help installation.
+You can use Microsoft Help Viewer to install, view, and manage local documentation installs for Microsoft products and technologies on local computers. These technologies include Visual Studio, .NET, language reference, SQL Server, and Windows development. 
+
+In this article, you learn to use the Help Viewer to deploy and manage local Help installations for network environments with or without internet access. Local help content is configured on a per machine basis. By default, users must have administrator rights to update their local Help installation.
 
 If your network environment allows clients to access the internet, you can use the **Help Content Manager** executable to deploy local Help content from the internet. For more information about *HlpCtntMgr.exe* command line syntax, see [Command-line arguments for the Help Content Manager](../help-viewer/command-line-arguments.md).
 
