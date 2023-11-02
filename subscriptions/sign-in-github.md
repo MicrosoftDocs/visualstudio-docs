@@ -20,7 +20,7 @@ GitHub identity support lets you use your existing GitHub account as a credentia
 
 When you sign in with GitHub, Microsoft checks whether any email addresses associated with your GitHub account match an existing personal or enterprise Microsoft account. If the address matches your enterprise account, you'll be prompted to sign in to that account instead. If the address matches a personal account, we’ll add your GitHub account as a sign-in method to that personal account.
 
-After you link your GitHub and Microsoft account credentials, you can use that single sign-in anywhere a personal Microsoft account can be used, like on Azure sites, Office apps, and Xbox. These accounts can also be used for Azure Active Directory guest sign-ins as a Microsoft account, assuming the email address matches the one on the invitation.
+After you link your GitHub and Microsoft account credentials, you can use that single sign-in anywhere a personal Microsoft account can be used, like on Azure sites, Office apps, and Xbox. These accounts can also be used for Microsoft Entra ID guest sign-ins as a Microsoft account, assuming the email address matches the one on the invitation.
 
 > [!NOTE]
 > Linking a GitHub identity to a Microsoft account doesn't give Microsoft any code access. When apps such as Azure DevOps and Visual Studio require access to your code repositories, you'll be prompted to grant specific consent for this access. 
@@ -67,7 +67,7 @@ A:  Go to the [Security tab](https://account.microsoft.com/security) of account.
 
 #### Q:  I try to use my GitHub account to sign in, but I'm prompted that I already have a Microsoft identity that I should use instead.  What's happening?
 
-A:  If you have an Azure Active Directory email address on your GitHub account, you already have a Microsoft identity that can access Azure and run CI pipelines using your GitHub code. Using that account ensures that your Azure resources and build pipelines remain within your organizational boundaries. However, if you’re doing personal work, we recommend putting a personal email address on your GitHub account so that you'll always have access to it. Once you do this, try signing in again and choose **Use a different email address** when you're prompted to sign in to your work or school account. This will let you create a new Microsoft account using that personal email address.
+A:  If you have an Microsoft Entra ID email address on your GitHub account, you already have a Microsoft identity that can access Azure and run CI pipelines using your GitHub code. Using that account ensures that your Azure resources and build pipelines remain within your organizational boundaries. However, if you’re doing personal work, we recommend putting a personal email address on your GitHub account so that you'll always have access to it. Once you do this, try signing in again and choose **Use a different email address** when you're prompted to sign in to your work or school account. This will let you create a new Microsoft account using that personal email address.
 
 ## Resources
 For assistance with sales, subscriptions, accounts, and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).
