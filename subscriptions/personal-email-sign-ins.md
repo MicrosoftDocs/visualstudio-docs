@@ -26,7 +26,7 @@ A Microsoft Account (MSA) was required to sign-in. If the subscriber didn’t at
 
 ## Solution
 
-To correct the problem, select the **Connect Emails** button and the system will attempt to match the accounts with MSAs to existing users in your organization’s Azure Active Directory (Azure AD) based on matching the first and last name. If there's an error, you can remove any match by selecting the **X** to the right of the match.  
+To correct the problem, select the **Connect Emails** button and the system will attempt to match the accounts with MSAs to existing users in your organization’s Microsoft Entra ID based on matching the first and last name. If there's an error, you can remove any match by selecting the **X** to the right of the match.  
 
 Watch this video or keep reading to learn how to fix this problem. 
 
@@ -40,7 +40,7 @@ You can also use the **Search Directory** to correct the errors or fill in missi
 > [!div class="mx-imgBorder"]
 > ![Connect Emails Fly-out](_img/connect-emails/connect-emails-flyout.png "Screenshot of the Move to work email addresses dialog.  The Current identity option is highlighted. Continue button is highlighted.")
 
-Next select on **Continue** which takes you to a list of the changes to take place. If you agree, select **Save** and the changes are made. Your subscriber will also get a message informing them of the change the next time they sign in to their subscription.  Notice that only the two subscribers that were matched in the Azure Active Directory appear in this list.  In our example, since Frederick didn't have a corresponding address in the Azure AD, the Microsoft account (MSA) wasn't matched to a work account. 
+Next select on **Continue** which takes you to a list of the changes to take place. If you agree, select **Save** and the changes are made. Your subscriber will also get a message informing them of the change the next time they sign in to their subscription.  Notice that only the two subscribers that were matched in the Microsoft Entra ID appear in this list.  In our example, since Frederick didn't have a corresponding address in the Azure AD, the Microsoft account (MSA) wasn't matched to a work account. 
 
 > [!NOTE]
 > When you edit the sign in email address this only updates the email used by the subscriber to sign in to their subscription on https://my.visualstudio.com. If the subscriber has already activated benefits such as Azure or Pluralsight using the other email address, they will need to continue to use those email addresses to access them. For any new benefits that they access, they should use the new email address. 
