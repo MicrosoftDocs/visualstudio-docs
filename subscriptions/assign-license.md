@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 4e529a43-7aed-4eee-895d-862a631952df
-ms.date: 10/13/2023
+ms.date: 11/02/2023
 ms.topic: conceptual
 description:  Learn how admins can assign licenses to subscribers
 ---
@@ -39,7 +39,7 @@ Watch the video or read on to learn how to assign a Visual Studio subscription t
       > ![Subscriber details](_img/assign-license-add/subscriber-details.png "Screenshot of the Add subsriber dialog showing fields for subscriber details.")
 
       > [!NOTE]
-      > In order for members of an Entra ID tenant to be visible when you enter a subscriber name, the admin must be a member of the tenant. 
+      > In order for members of an Microsoft Entra tenant to be visible when you enter a subscriber name, the admin must be a member of the tenant. 
    + Choose the subscription level you want to assign to this user.  (The list only contains the subscription levels that were purchased as part of your agreement.)  
    + If you want this subscriber to have access to software downloads when they sign into the [Visual Studio Subscriptions Portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs), make sure to leave the downloads toggle enabled in the **Download Settings** section. If you choose to disable downloads, the user doesn't have access to software downloads or product keys.  The subscriber still has access to all other benefits included in the subscription.
      > [!div class="mx-imgBorder"]
