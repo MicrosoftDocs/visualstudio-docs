@@ -16,7 +16,7 @@ ms.technology: vs-ide-test
 
 When you enable Live Unit Testing in a Visual Studio solution, it visually depicts your test coverage and the status of your tests. Live Unit Testing also dynamically executes tests whenever you modify your code and immediately notifies you when your changes cause tests to fail.
 
-Live Unit Testing can be used to test solutions that target either .NET Framework, .NET Core, or .NET 5+. In this tutorial, you'll learn to use Live Unit Testing by creating a simple class library that targets .NET Standard, and you'll create an MSTest project that targets .NET Core to test it.
+Live Unit Testing can be used to test solutions that target either .NET Framework, .NET Core, or .NET 5+. In this tutorial, you'll learn to use Live Unit Testing by creating a simple class library that targets .NET, and you'll create an MSTest project that targets .NET to test it.
 
 The complete C# solution can be downloaded from the [MicrosoftDocs/visualstudio-docs](https://github.com/MicrosoftDocs/visualstudio-docs/tree/master/docs/test/samples/csharp/UtilityLibraries/) repo on GitHub.
 
@@ -26,7 +26,7 @@ This tutorial requires that you've installed Visual Studio Enterprise edition wi
 
 ## Create the solution and the class library project
 
-Begin by creating a Visual Studio solution named UtilityLibraries that consists of a single .NET Standard class library project, StringLibrary.
+Begin by creating a Visual Studio solution named UtilityLibraries that consists of a single .NET class library project, StringLibrary.
 
 The solution is just a container for one or more projects. To create a blank solution, open Visual Studio and do the following:
 
@@ -41,9 +41,6 @@ Now that you've created the solution, you'll create a class library named String
 1. In **Solution Explorer**, right-click on the UtilityLibraries solution and select **Add** > **New Project**.
 
 2. Type **class library** into the template search box, and the select the **Class Library** template that targets .NET or .NET Standard. Click **Next**.
-
-   > [!NOTE]
-   > Because our library targets .NET Standard rather than a particular .NET implementation, it can be called from any .NET implementation that supports that version of .NET Standard. For more information, see [.NET Standard](/dotnet/standard/net-standard).
 
 3. Name the project **StringLibrary**.
 
