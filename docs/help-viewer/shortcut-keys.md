@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "shortcut keys [Help Viewer]"
   - "Help Viewer, shortcut keys"
-author: jasonchlus
-ms.author: jasonchlus
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-help-viewer
 ---
