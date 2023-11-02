@@ -1,7 +1,7 @@
 ---
 title: "Inspect XAML properties while debugging"
 description: Learn how to use the Live Visual Tree and Live Property Explorer tools while debugging to inspect XAML properties and get a tree view of UI elements.
-ms.date: 10/26/2021
+ms.date: 11/02/2023
 ms.topic: how-to
 author: maddymontaquila
 ms.author: maleger
@@ -27,7 +27,7 @@ Let's get started with a very simple WPF application that has a list view and a 
 
 ### Create the project
 
-1. Create a new C# WPF application (**File** > **New** > **Project**, type "C# WPF", choose the **WPF Application** project template, name the project **TestXAML**, and then verify that the correct .NET version appears in the **Target Framework** drop-down.
+1. Create a new C# WPF application (**File** > **New** > **Project**, type "C# WPF", choose the **WPF Application** project template, name the project **TestXAML**, and then verify that the correct .NET version appears in the **Target Framework** drop-down).
 
 
 2. Change MainWindow.xaml to the following:
@@ -109,13 +109,13 @@ Let's get started with a very simple WPF application that has a list view and a 
    The actual structure of the XAML has a lot of elements that you're probably not directly interested in, and if you don't know the code well you might have a hard time navigating the tree to find what you're looking for. So the **Live Visual Tree** has a couple of ways that let you use the application's UI to help you find the element you want to examine.
 
    ::: moniker range=">= vs-2019"
-   **Select element in the running application**. You can enable this mode when you select the leftmost button on the **Live Visual Tree** toolbar. With this mode on, you can select a UI element in the application, and the **Live Visual Tree** (and the **Live Property Viewer**) automatically updates to show the node in the tree corresponding to that element, and its properties. Starting in Visual Studio 2019 version 16.4, you can [configure the behavior of element selection](../debugger/general-debugging-options-dialog-box.md).
+   **Select Element in the Running Application**. You can enable this mode when you select this button on the **Live Visual Tree** toolbar. With this mode on, you can select a UI element in the application, and the **Live Visual Tree** (and the **Live Property Viewer**) automatically updates to show the node in the tree corresponding to that element, and its properties. Starting in Visual Studio 2019 version 16.4, you can [configure the behavior of element selection](../debugger/general-debugging-options-dialog-box.md).
 
-   **Display layout adorners in the running application**. You can enable this mode when you select the button that is immediately to the right of the Enable selection button. When **Display layout adorners** is on, it causes the application window to show horizontal and vertical lines along the bounds of the selected object so you can see what it aligns to, as well as rectangles showing the margins. For example, turn both **Select element** and **Display layout** on, and select the **Add Item** text block in the application. You should see the text block node in the **Live Visual Tree** and the text block properties in the **Live Property Viewer**, as well as the horizontal and vertical lines on the bounds of the text block.
+   **Display Layout Adorners in the Running Application**. You can enable this mode when you select the button that is immediately to the right of the **Select element...** button. When **Display layout adorners** is on, it causes the application window to show horizontal and vertical lines along the bounds of the selected object so you can see what it aligns to, as well as rectangles showing the margins. For example, turn both **Select element** and **Display layout** on, and select the **Add Item** text block in the application. You should see the text block node in the **Live Visual Tree** and the text block properties in the **Live Property Viewer**, as well as the horizontal and vertical lines on the bounds of the text block.
 
    ![LivePropertyViewer in DisplayLayout](../debugger/media/vs-2019/livevisualtreelivepropertyviewer-displaylayout.png "LiveVisualTreeLivePropertyViewer-DisplayLayout")
 
-   **Preview Selection**. You can enable this mode by selecting the third button from the left on the Live Visual Tree toolbar. This mode shows the XAML where the element was declared, if you have access to the source code of the application. Select **Select element** and **Preview selection**, and then you select the button in our test application. The MainWindow.xaml file opens in Visual Studio and the cursor is placed on the line where the button is defined.
+   **Track Focused Element**. You can enable this mode by selecting this button on the Live Visual Tree toolbar. This mode shows the XAML where the element was declared, if you have access to the source code of the application. Select **Select element** and **Track Focused Element**, and then you select the button in our test application. The MainWindow.xaml file opens in Visual Studio and the cursor is placed on the line where the button is defined.
    ::: moniker-end
 
 ## Use XAML tools with running applications
