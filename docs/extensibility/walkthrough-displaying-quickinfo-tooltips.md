@@ -32,9 +32,6 @@ QuickInfo is an IntelliSense feature that displays method signatures and descrip
 
   In this example, the QuickInfo source uses a hard-coded list of method names and descriptions, but in full implementations, the language service and the language documentation are responsible for providing that content.
 
-## Prerequisites
- Starting in Visual Studio 2015, you don't need to install the Visual Studio SDK from the download center. It's included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
-
 ## Create a MEF project
 
 ### To create a MEF project

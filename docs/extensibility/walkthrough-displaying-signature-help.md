@@ -19,9 +19,6 @@ Signature Help (also known as *Parameter Info*) displays the signature of a meth
 
  This walkthrough shows how to set up Signature Help for a hard-coded set of identifiers. In full implementations, the language is responsible for providing that content.
 
-## Prerequisites
- Starting in Visual Studio 2015, you don't install the Visual Studio SDK from the download center. It's included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
-
 ## Creating a MEF project
 
 #### To create a MEF project

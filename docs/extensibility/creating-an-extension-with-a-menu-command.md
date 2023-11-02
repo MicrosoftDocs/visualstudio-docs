@@ -19,10 +19,6 @@ ms.technology: vs-ide-sdk
 
 This walkthrough shows how to create an extension with a menu command that launches Notepad.
 
-## Prerequisites
-
-Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
-
 ## Create a menu command
 
 1. Create a VSIX project named **FirstMenuCommand**. You can find the VSIX project template in the **New Project** dialog by searching for "vsix".

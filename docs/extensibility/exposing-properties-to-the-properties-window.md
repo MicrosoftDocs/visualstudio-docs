@@ -18,10 +18,6 @@ ms.technology: vs-ide-sdk
 
 This walkthrough exposes the public properties of an object to the **Properties** window. The changes you make to these properties are reflected in the **Properties** window.
 
-## Prerequisites
-
-Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
-
 ## Expose properties to the Properties window
 
 In this section, you create a custom tool window and display the public properties of the associated window pane object in the **Properties** window.

@@ -24,9 +24,6 @@ This walkthrough shows how to create a shortcut menu as a Visual Studio menu, by
 
 Alternatively, if your shortcut menu will not access Visual Studio functionality, you can use the <xref:System.Windows.FrameworkElement.ContextMenu%2A> property of a XAML element in the user control. For more information, see [ContextMenu](/dotnet/framework/wpf/controls/contextmenu).
 
-## Prerequisites
-Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
-
 ## Create the tool window shortcut menu package
 
 1. Create a VSIX project named `TWShortcutMenu` and add a tool window template named **ShortcutMenu** to it. For more information about creating a tool window, see [Create an extension with a tool window](../extensibility/creating-an-extension-with-a-tool-window.md).

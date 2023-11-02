@@ -14,10 +14,6 @@ ms.technology: vs-ide-sdk
 
 Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8.1, allowing developers to use code and other assets on both platforms. The shared code and resources are kept in a shared project, while the platform-specific code and resources are kept in separate projects, one for Windows and the other for Windows Phone. For more information about universal Windows apps, see [Universal Windows apps](/windows/uwp/get-started/create-uwp-apps). Visual Studio extensions that manage projects should be aware that universal Windows app projects have a structure that differs from single-platform apps. This walkthrough shows you how to navigate the shared project and manage the shared items.
 
-## Prerequisites
-
-Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It's included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
-
 ### Navigate the shared project
 
 1. Create a C# VSIX project named **TestUniversalProject**. (**File** > **New** > **Project** and then **C#** > **Extensibility** > **Visual Studio Package**). Add a **Custom Command** project item template (on the **Solution Explorer**, right-click the project node and select **Add** > **New Item**, then go to **Extensibility**). Name the file **TestUniversalProject**.

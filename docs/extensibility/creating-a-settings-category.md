@@ -20,9 +20,6 @@ You create a settings category by deriving it from the <xref:Microsoft.VisualStu
 
 To start this walkthrough, you must first complete the first section of [Create an Options page](../extensibility/creating-an-options-page.md). The resulting Options property grid lets you examine and change the properties in the category. After you save the property category in a settings file, you examine the file to see how the property values are stored.
 
-## Prerequisites
- Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
-
 ## Create a settings category
  In this section, you use a custom settings point to save and restore the values of the settings category.
 

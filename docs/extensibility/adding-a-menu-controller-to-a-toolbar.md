@@ -21,9 +21,6 @@ A menu controller is a split control. The left side of the menu controller shows
 
 Menu controllers can appear on menus but they are most often used on toolbars.
 
-## Prerequisites
-Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
-
 ## Create a menu controller
 
 1. Follow the procedures described in [Add a toolbar to a tool window](../extensibility/adding-a-toolbar-to-a-tool-window.md) to create a tool window that has a toolbar.
