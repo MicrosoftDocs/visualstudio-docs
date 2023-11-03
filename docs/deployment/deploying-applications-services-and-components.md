@@ -1,7 +1,7 @@
 ---
 title: "First look at deployment"
 description: "Learn about your options for deploying apps from Visual Studio."
-ms.date: 03/23/2023
+ms.date: 11/02/2023
 ms.topic: conceptual
 dev_langs:
   - "FSharp"
@@ -33,7 +33,7 @@ See the quickstarts and tutorials for step-by-step deployment instructions. For 
 
 Deployment to a local folder is typically used for testing or to begin a staged deployment in which another tool is used for final deployment.
 
-- **ASP.NET**, **ASP.NET Core**, **Node.js**, **Python**, and .**NET Core**: Use the **Publish** tool to deploy to a local folder. The exact options available depend on your app type. In Solution Explorer, right-click your project and select **Publish**. (If you haven't previously configured any publishing profiles, you must then select **Create new profile**.) Next, select **Folder**. For more information, see [Publish an ASP.NET app](quickstart-deploy-aspnet-web-app.md?tabs=folder).
+- **ASP.NET**, **ASP.NET Core**, **Node.js**, **Python**, **.NET Core**, and **.NET 5 and later**: Use the **Publish** tool to deploy to a local folder. The exact options available depend on your app type. In Solution Explorer, right-click your project and select **Publish**. (If you haven't previously configured any publishing profiles, you must then select **Create new profile**.) Next, select **Folder**. For more information, see [Publish an ASP.NET app](quickstart-deploy-aspnet-web-app.md?tabs=folder).
 
     ![Screenshot that shows selecting Publish.](../deployment/media/quickstart-publish.png)
 

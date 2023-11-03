@@ -1,7 +1,7 @@
 ---
 title: Deploy an ASP.NET Core app and Database to Container Apps using GitHub Actions
 description: Learn how to use Visual Studio to publish a web app to Azure Container Apps using GitHub actions
-ms.date: 09/16/2022
+ms.date: 11/03/2023
 ms.topic: tutorial
 helpviewer_keywords:
   - "deployment, web app"
