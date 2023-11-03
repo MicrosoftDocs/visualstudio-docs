@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 4e529a43-7aed-4eee-895d-862a631952df
-ms.date: 10/13/2023
+ms.date: 11/02/2023
 ms.topic: conceptual
 description:  Learn how admins can assign licenses to subscribers
 ---
@@ -16,7 +16,7 @@ As a Visual Studio subscriptions admin, you can use the admin portal to assign s
 For groups of users, you have choices for how you assign subscriptions.  
 + You can assign subscriptions one at a time.
 + You can also quickly and easily upload lists of subscribers and their subscription information using the [Bulk add](assign-license-bulk.md) feature.
-+ If your organization uses Microsoft Microsoft Entra ID (Entra ID), you can [use Entra ID groups to assign subscriptions](./assign-license-bulk.md#use-entra-id-groups-to-assign-subscriptions) to groups of users.  
++ If your organization uses Microsoft Entra ID (Entra ID), you can [use Entra ID groups to assign subscriptions](./assign-license-bulk.md#use-entra-id-groups-to-assign-subscriptions) to groups of users.  
 
 
 ## Add a single subscriber
@@ -39,7 +39,7 @@ Watch the video or read on to learn how to assign a Visual Studio subscription t
       > ![Subscriber details](_img/assign-license-add/subscriber-details.png "Screenshot of the Add subsriber dialog showing fields for subscriber details.")
 
       > [!NOTE]
-      > In order for members of an Entra ID tenant to be visible when you enter a subscriber name, the admin must be a member of the tenant. 
+      > In order for members of a Microsoft Entra tenant to be visible when you enter a subscriber name, the admin must be a member of the tenant. 
    + Choose the subscription level you want to assign to this user.  (The list only contains the subscription levels that were purchased as part of your agreement.)  
    + If you want this subscriber to have access to software downloads when they sign into the [Visual Studio Subscriptions Portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs), make sure to leave the downloads toggle enabled in the **Download Settings** section. If you choose to disable downloads, the user doesn't have access to software downloads or product keys.  The subscriber still has access to all other benefits included in the subscription.
      > [!div class="mx-imgBorder"]
@@ -56,8 +56,8 @@ Watch the video or read on to learn how to assign a Visual Studio subscription t
 ## Why use a different notification email address?
 
 Some organizations set up their email services to block incoming emails from other domains.  Blocking incoming emails means that subscribers and admins miss important communications:
-  + Subscribers don't receive a notification that a subscription has been assigned to them.  They may also not be able to activate some of the included benefits.  
-  + Subscribers who have been assigned Visual Studio subscriptions with GitHub Enterprise don't receive the invitation to join your GitHub organization. They aren't able to access GitHub since they **must accept the emailed invitation** in order to gain access to your GitHub organization. 
+  + Subscribers don't receive a notification when a subscription is assigned to them.  They might also not be able to activate some of the included benefits.  
+  + Subscribers who assigned Visual Studio subscriptions with GitHub Enterprise don't receive the invitation to join your GitHub organization. They aren't able to access GitHub since they **must accept the emailed invitation** in order to gain access to your GitHub organization. 
   + Admins aren't notified when they're added to an agreement.  They don't receive monthly admin statements or notifications of feature changes that affect the way they manage subscriptions.
 
 Using a notification email address lets you allow your subscribers to receive important communications about their subscriptions without changing their sign-in email addresses.  
@@ -77,7 +77,7 @@ Need help?  Contact [Subscriptions Support](https://aka.ms/vsadminhelp).
 + [Azure DevOps Services documentation](/azure/devops/)
 + [Azure documentation](/azure/)
 + [Microsoft 365 documentation](/microsoft-365/)
-+ [Microsoft Entra documenation](https://learn.microsoft.com/entra/)
++ [Microsoft Entra documentation](https://learn.microsoft.com/entra/)
 
 ## Next steps
 

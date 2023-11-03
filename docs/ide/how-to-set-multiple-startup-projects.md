@@ -1,7 +1,7 @@
 ---
 title: 'Set multiple startup projects'
 description: Learn how Visual Studio allows you to specify how more than one project is run when you start the debugger.
-ms.date: 11/03/2022
+ms.date: 11/01/2023
 ms.topic: how-to
 helpviewer_keywords:
 - startup projects, setting multiple startup projects
@@ -15,6 +15,8 @@ manager: jmartens
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio allows you to specify how more than one project is run when you press **F5** (Start with Debugging), or **Ctrl**+**F5** (Start without debugging), or use the toolbar button to launch your application. In this way, you could start multiple sites, apps, or services that depend on each other to work correctly during a debug session or just running and testing locally.
+
+Some project templates include multiple projects that are already configured to all be started when launched; for example, the **React and ASP.NET Core** project type includes both a client-side JavaScript project and a server-side ASP.NET Core project that both start when launched.
 
 ## To set multiple startup projects
 

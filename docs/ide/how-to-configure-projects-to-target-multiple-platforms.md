@@ -1,7 +1,7 @@
 ---
 title: Configure projects to target multiple platforms
 description: Learn how Visual Studio provides a way for a solution to target several different CPU architectures, or platforms, at once.
-ms.date: 09/13/2021
+ms.date: 11/01/2023
 ms.technology: vs-ide-compile
 ms.topic: how-to
 helpviewer_keywords:
