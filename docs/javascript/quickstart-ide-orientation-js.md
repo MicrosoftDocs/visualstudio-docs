@@ -61,7 +61,6 @@ To continue exploring Visual Studio's features, let's create a new project.
    ::: moniker range=">=vs-2022"
    The project is created. In the right pane, select *app.js* to open the file in the **Editor** window. The **Editor** shows the contents of files, and is where you'll do most of your coding work in Visual Studio.
 
-   ::: moniker range=">=vs-2022"
    ![Editor in Visual Studio](media/vs-2022/editor.png)
    ::: moniker-end
    ::: moniker range="<=vs-2019"
@@ -85,7 +84,12 @@ To continue exploring Visual Studio's features, let's create a new project.
 
 The menu bar along the top of Visual Studio groups commands into categories. For example, the **Project** menu contains commands related to the project you're working in. On the **Tools** menu, you can customize how Visual Studio behaves by selecting **Options**, or add features to your installation by selecting **Get Tools and Features**.
 
+::: moniker range=">=vs-2022"
+![Menu bar in Visual Studio](media/vs-2022/quickstart-IDE-menu-bar.png)
+::: moniker-end
+::: moniker range="<=vs-2019"
 ![Menu bar in Visual Studio](media/quickstart-IDE-menu-bar.png)
+::: moniker-end
 
 Let's open the **Error List** window by choosing the **View** menu, and then **Error List**.
 
@@ -93,7 +97,12 @@ Let's open the **Error List** window by choosing the **View** menu, and then **E
 
 The **Error List** shows you errors, warning, and messages regarding the current state of your code. If there are any errors (such as a missing brace or semicolon) in your file, or anywhere in your project, they're listed here.
 
+::: moniker range=">=vs-2022"
+![Error List in Visual Studio](media/vs-2022/quickstart-IDE-error-list.png)
+::: moniker-end
+::: moniker range="<=vs-2019"
 ![Error List in Visual Studio](media/quickstart-IDE-error-list.png)
+::: moniker-end
 
 ## Output window
 
@@ -101,7 +110,12 @@ The **Output** window shows you output messages from building your project and f
 
 Let's build the project to see some build output. From the **Build** menu, choose **Build Solution**. The **Output** window automatically obtains focus and display a successful build message.
 
+::: moniker range=">=vs-2022"
+![Output window in Visual Studio](media/vs-2022/build-output-minimal.png)
+::: moniker-end
+::: moniker range="<=vs-2019"
 ![Output window in Visual Studio](media/build-output-minimal.png)
+::: moniker-end
 
 ## Search box
 
