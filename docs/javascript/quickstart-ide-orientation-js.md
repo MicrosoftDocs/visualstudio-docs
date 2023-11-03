@@ -121,25 +121,42 @@ Let's build the project to see some build output. From the **Build** menu, choos
 
 The search box is a quick and easy way to do pretty much anything in Visual Studio. You can enter some text related to what you want to do, and it'll show you a list of options that pertain to the text. For example, imagine you want to increase the build output's verbosity to display additional details about what exactly build is doing. Here's how you might do that:
 
-1. Type **verbosity** into the search box. From the displayed results, choose **Projects and Solutions --> Build and Run** under the **Options** category.
+1. If you don't see the search box, press **Ctrl + Q** to open it.
 
+1. Type **verbosity** into the search box. From the displayed results, choose **Projects and Solutions --> Build and Run**.
+
+   ::: moniker range=">=vs-2022"
+   ![Search box in Visual Studio](media/vs-2022/quickstart-IDE-quick-launch.png)
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
    ![Search box in Visual Studio](media/quickstart-IDE-quick-launch.png)
+   ::: moniker-end
 
    The **Options** dialog box opens to the **Build and Run** options page.
 
 1. Under **MSBuild project build output verbosity**, choose **Normal**, and then click **OK**.
 
-1. Build the project again by right-clicking on the **NodejsWebApp1** project in **Solution Explorer** and choosing **Rebuild** from the context menu.
+1. Build the project again by right-clicking the project in **Solution Explorer** and choosing **Rebuild** from the context menu.
 
-   This time the **Output** window shows more verbose logging from the build process, including which files were copied where.
+   This time the **Output** window shows more verbose logging from the build process.
 
+   ::: moniker range=">=vs-2022"
+   ![Verbose build output in Visual Studio](media/vs-2022/build-output-verbose.png)
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
    ![Verbose build output in Visual Studio](media/build-output-verbose.png)
+   ::: moniker-end
 
 ## Send Feedback menu
 
 Should you encounter any problems while you're using Visual Studio, or if you have suggestions for how to improve the product, you can use the **Send Feedback** menu at the top of the Visual Studio window.
 
+::: moniker range=">=vs-2022"
+![Send Feedback menu in Visual Studio](../ide/media/vs-2022/quickstart-ide-send-feedback.png)
+::: moniker-end
+::: moniker range="<=vs-2019"
 ![Send Feedback menu in Visual Studio](../ide/media/quickstart-ide-send-feedback.png)
+::: moniker-end
 
 ## Next steps
 
