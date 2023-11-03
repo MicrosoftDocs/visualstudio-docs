@@ -2,7 +2,7 @@
 title: First look at the Visual Studio IDE
 description: Learn about the Visual Studio integrated development environment (IDE), including the windows, menus, and other UI features most commonly used.
 titleSuffix: ""
-ms.date: 02/05/2019
+ms.date: 11/03/2023
 ms.topic: quickstart
 author: mikejo5000
 ms.author: mikejo
@@ -17,12 +17,16 @@ In this 5-10 minute introduction to the Visual Studio integrated development env
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
 
-
 ## Start window
 
 The first thing you'll see after you launch Visual Studio is the start window. The start window is designed to help you "get to code" faster. It has options to close or check out code, open an existing project or solution, create a new project, or simply open a folder that contains some code files.
 
-[![The start window in Visual Studio 2019](media/vs-2019/start-window.png)](media/vs-2019/start-window.png)
+::: moniker range=">=vs-2022"
+[The start window in Visual Studio 2022](media/vs-2022/start-window.png)
+::: moniker-end
+::: moniker range="<=vs-2019"
+[The start window in Visual Studio 2019](media/vs-2019/start-window.png)
+::: moniker-end
 
 If this is the first time you're using Visual Studio, your recent projects list will be empty.
 
@@ -30,31 +34,52 @@ If you work with non-MSBuild based codebases, you'll use the **Open a local fold
 
 The **Continue without code** option simply opens the Visual Studio development environment without any specific project or code loaded. You might choose this option to join a [Live Share](/visualstudio/liveshare/) session or attach to a process for debugging. You can also press **Esc** to close the start window and open the IDE.
 
-
 ## Create a project
 
 To continue exploring Visual Studio's features, let's create a new project.
 
-1. On the start window, select **Create a new project**, and then in the search box type in **javascript** to filter the list of project types to those that contain "javascript" in their name or language type.
+1. On the start window, select **Create a new project**, and then in the search box type in **javascript** or **typescript** to filter the list of project types to those that contain "javascript" or "typescript" in their name or language type.
 
-   Visual Studio provides various kinds of project templates that help you get started coding quickly. (Alternatively, if you're a TypeScript developer, feel free to create a project in that language. The UI we'll be looking at is similar for all programming languages.)
+   Visual Studio provides various kinds of project templates that help you get started coding quickly.
 
+   ::: moniker range=">=vs-2022"
+   ![Search project templates on Visual Studio start window](media/vs-2022/create-new-project-ide.png)
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
    ![Search project templates on Visual Studio start window](media/vs-2019/create-new-project.png)
+   ::: moniker-end
 
-1. Choose a **Blank Node.js Web Application** project template and click **Next**.
+::: moniker range=">=vs-2022"
+2. Choose a **JavaScript Express Application** project template and click **Next**.
+::: moniker-end
+::: moniker range="<=vs-2019"
+2. Choose a **Blank Node.js Web Application** project template and click **Next**.
+::: moniker-end
 
-1. In the **Configure your new project** dialog box that appears, accept the default project name and choose **Create**.
+3. In the **Configure your new project** dialog box that appears, accept the default project name and choose **Create**.
 
+   ::: moniker range=">=vs-2022"
+   The project is created. In the right pane, select *app.js* to open the file in the **Editor** window. The **Editor** shows the contents of files, and is where you'll do most of your coding work in Visual Studio.
 
+   ::: moniker range=">=vs-2022"
+   ![Editor in Visual Studio](media/vs-2022/editor.png)
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
    The project is created and a file named *server.js* opens in the **Editor** window. The **Editor** shows the contents of files, and is where you'll do most of your coding work in Visual Studio.
 
    ![Editor in Visual Studio](media/editor.png)
+   ::: moniker-end
 
 ## Solution Explorer
 
 **Solution Explorer**, which is typically on the right-hand side of Visual Studio, shows you a graphical representation of the hierarchy of files and folders in your project, solution, or code folder. You can browse the hierarchy and navigate to a file in **Solution Explorer**.
 
+::: moniker range=">=vs-2022"
+![Solution Explorer in Visual Studio](media/vs-2022/quickstart-IDE-solution-explorer.png)
+::: moniker-end
+::: moniker range="<=vs-2019"
 ![Solution Explorer in Visual Studio](media/quickstart-IDE-solution-explorer.png)
+::: moniker-end
 
 ## Menus
 
