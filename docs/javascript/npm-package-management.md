@@ -1,7 +1,7 @@
 ---
 title: "Manage npm packages"
 description: Visual Studio helps you to manage packages using the Node.js package manager (npm)
-ms.date: "06/05/2023"
+ms.date: "11/03/2023"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -20,7 +20,6 @@ npm allows you to install and manage packages for use in both Node.js and ASP.NE
 Visual Studio integration with npm is different depending on your project type.
 ::: moniker range=">=vs-2022"
 * [CLI-based projects (.esproj)](#cli-based-project-esproj)
-* [Node.js](#nodejs-projects)
 * [ASP.NET Core](#aspnet-core-projects)
 * [Open folder (Node.js)](../javascript/develop-javascript-code-without-solutions-projects.md)
 ::: moniker-end
@@ -31,7 +30,7 @@ Visual Studio integration with npm is different depending on your project type.
 * [Open folder (Node.js)](../javascript/develop-javascript-code-without-solutions-projects.md)
 ::: moniker-end
 
-> [!Important]
+> [!IMPORTANT]
 > npm expects the *node_modules* folder and *package.json* in the project root. If your app's folder structure is different, you should modify your folder structure if you want to manage npm packages using Visual Studio.
 
 ::: moniker range=">=vs-2022"
@@ -48,6 +47,7 @@ Next, you can search for npm packages, select one, and install by selecting **In
 :::image type="content" source="../javascript/media/vs-2022/npm-packages-install-esproj.png" alt-text="Install new npm package for esproj" border="true":::
 ::: moniker-end
 
+::: moniker range="<=vs-2019"
 ## Node.js projects
 
 For Node.js projects (.njsproj), you can perform the following tasks:
@@ -132,6 +132,7 @@ In the window, you can use commands such as the following to install a package:
  > [!Tip]
  > If your project doesn't contain a package.json file, use `.npm init -y` to create a new package.json file
  > with default entries.
+::: moniker-end
 
 ## ASP.NET Core projects
 
