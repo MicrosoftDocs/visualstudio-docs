@@ -62,11 +62,11 @@ If you're a subscriptions admin, you might occasionally see in your dashboard th
 ### Why an account may be removed  
 
 + Subscribers request closure of their Microsoft accounts. If a subscriber requests closure of a Microsoft account (MSA), subscriptions associated with that MSA are removed.  For more information including important things to consider before closing an account, see [How to close your Microsoft account](https://support.microsoft.com/account-billing/how-to-close-your-microsoft-account-c1b2d13f-4de6-6e1b-4a31-d9d668849979).
-+ Subscribers are removed from Microsoft Entra tenant.  Subscriptions can automatically assign subscriptions through an Microsoft Entra group.  When they're removed from the group, their subscriptions are removed.
++ Subscribers are removed from Microsoft Entra tenant.  Subscriptions can automatically assign subscriptions through a Microsoft Entra group.  When they're removed from the group, their subscriptions are removed.
 
 ### What happens when the account is closed?
 
-If the subscription is removed, the subscriber loses access to the subscription.  If a subscriber is removed from an Microsoft Entra group, their subscription information is permanently removed within 180 days.  If a subscriber closes their MSA, their information is removed immediately.  
+If the subscription is removed, the subscriber loses access to the subscription.  If a subscriber is removed from a Microsoft Entra group, their subscription information is permanently removed within 180 days.  If a subscriber closes their MSA, their information is removed immediately.  
 
 ### Anonymization of Visual Studio subscriber information
 

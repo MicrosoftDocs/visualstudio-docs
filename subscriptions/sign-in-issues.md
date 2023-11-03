@@ -10,7 +10,7 @@ description:  Learn about issues that may arise when signing in to Visual Studio
 
 # Issues signing in to Visual Studio subscriptions
 
-To use your Visual Studio subscription, you must first sign in.  Depending on your subscription, you may have set it up with either a Microsoft account (MSA) or an Microsoft Entra ID  identity.  This article discusses some of the issues you may encounter while signing in to your subscription.
+To use your Visual Studio subscription, you must first sign in.  Depending on your subscription, you may have set it up with either a Microsoft account (MSA) or a Microsoft Entra ID  identity.  This article discusses some of the issues you may encounter while signing in to your subscription.
 
 ## Microsoft Accounts (MSA) can't be created using work/school email addresses
 

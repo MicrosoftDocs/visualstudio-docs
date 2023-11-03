@@ -32,7 +32,7 @@ Visual Studio subscribers now have several ways to use Azure subscriptions to pa
 
 ## Requirements
 
-Windows Virtual Desktop requires an Microsoft Entra tenant to which VMs are joined.  Users must be members of this Microsoft Entra tenant.  There are two options to implement the Microsoft Entra tenant:
+Windows Virtual Desktop requires a Microsoft Entra tenant to which VMs are joined.  Users must be members of this Microsoft Entra tenant.  There are two options to implement the Microsoft Entra tenant:
 + Microsoft Entra ID Services.  For most users, this option is the easier to implement.
 + A virtual machine running a Domain Controller promo.  This option requires more work to set up but offers most users a lower operating cost.
 To see a full list of prerequisites for using Windows Virtual Desktop, visit the Windows Virtual Desktop [overview page](/azure/virtual-desktop/overview#requirements). 
