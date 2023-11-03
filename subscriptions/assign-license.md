@@ -16,7 +16,7 @@ As a Visual Studio subscriptions admin, you can use the admin portal to assign s
 For groups of users, you have choices for how you assign subscriptions.  
 + You can assign subscriptions one at a time.
 + You can also quickly and easily upload lists of subscribers and their subscription information using the [Bulk add](assign-license-bulk.md) feature.
-+ If your organization uses Microsoft Microsoft Entra ID (Entra ID), you can [use Entra ID groups to assign subscriptions](./assign-license-bulk.md#use-entra-id-groups-to-assign-subscriptions) to groups of users.  
++ If your organization uses Microsoft Entra ID (Entra ID), you can [use Entra ID groups to assign subscriptions](./assign-license-bulk.md#use-entra-id-groups-to-assign-subscriptions) to groups of users.  
 
 
 ## Add a single subscriber
@@ -56,8 +56,8 @@ Watch the video or read on to learn how to assign a Visual Studio subscription t
 ## Why use a different notification email address?
 
 Some organizations set up their email services to block incoming emails from other domains.  Blocking incoming emails means that subscribers and admins miss important communications:
-  + Subscribers don't receive a notification that a subscription has been assigned to them.  They may also not be able to activate some of the included benefits.  
-  + Subscribers who have been assigned Visual Studio subscriptions with GitHub Enterprise don't receive the invitation to join your GitHub organization. They aren't able to access GitHub since they **must accept the emailed invitation** in order to gain access to your GitHub organization. 
+  + Subscribers don't receive a notification when a subscription is assigned to them.  They might also not be able to activate some of the included benefits.  
+  + Subscribers who assigned Visual Studio subscriptions with GitHub Enterprise don't receive the invitation to join your GitHub organization. They aren't able to access GitHub since they **must accept the emailed invitation** in order to gain access to your GitHub organization. 
   + Admins aren't notified when they're added to an agreement.  They don't receive monthly admin statements or notifications of feature changes that affect the way they manage subscriptions.
 
 Using a notification email address lets you allow your subscribers to receive important communications about their subscriptions without changing their sign-in email addresses.  
@@ -77,7 +77,7 @@ Need help?  Contact [Subscriptions Support](https://aka.ms/vsadminhelp).
 + [Azure DevOps Services documentation](/azure/devops/)
 + [Azure documentation](/azure/)
 + [Microsoft 365 documentation](/microsoft-365/)
-+ [Microsoft Entra documenation](https://learn.microsoft.com/entra/)
++ [Microsoft Entra documentation](https://learn.microsoft.com/entra/)
 
 ## Next steps
 

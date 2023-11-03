@@ -10,10 +10,10 @@ description: Learn what happens when your admin removes your Visual Studio subsc
 
 # What happens when an admin removes my subscription?
 
-If your Visual Studio subscription was assigned to you by an admin in your work or school organization, they may remove it at some point.  Reasons may include changes to job roles or to your organization's purchase plans.  This article outlines what you can expect if an admin removes your subscription.  
+If your Visual Studio subscription was assigned to you by an admin in your work or school organization, they might remove it at some point.  Reasons can include changes to job roles or to your organization's purchase plans.  This article outlines what you can expect if an admin removes your subscription.  
 
 > [!TIP]
-> If your admin removes your subscription, they may be planning to issue you a different subscription.  If you receive a notification that your subscription has been removed, you may wish to reach out to your admin to see if another subscription is available. Visit the [subscriber portal](https://my.visualstudio.com) and select the **Contact my admin** button in the top right.
+> If your admin removes your subscription, they might be planning to issue you a different subscription.  If you receive a notification that your subscription has been removed, you might wish to reach out to your admin to see if another subscription is available. Visit the [subscriber portal](https://my.visualstudio.com) and select the **Contact my admin** button in the top right.
 
 ## How do my benefits change?
 
@@ -25,7 +25,7 @@ The license for the Visual Studio IDE is dependent on a subscription being assig
 
 ### Individual Azure credits
 
-When your subscription is removed, you no longer accrue individual Azure credits.  The credits you've already accrued remain available for 30 days.  After that time, your assets will no longer be available. 
+When your subscription is removed, you no longer accrue individual Azure credits.  The credits you accrue remain available for 30 days.  After that time, your assets are no longer be available. 
 
 To avoid losing your assets, make sure to take one of the following steps if your subscription is removed:
 
@@ -49,7 +49,7 @@ The effects of having a subscription removed vary.
 
 + Benefits with a fixed length
 
-  Many of the benefits provided by our partners are offers that have a fixed length.  If you've activated them prior to the removal of your subscription, many of them are unaffected and remain available to you until the end of their normal term.  If you've been accessing those benefits through the subscriber portal, you need to access them directly on the partner site.  For example, let's say you received a Pluralsight subscription as part of a Visual Studio subscription.  When your Visual Studio subscription is removed, you still have any remaining time on the training subscription, but you need to sign in to Pluralsight's website directly.
+  Many of the benefits provided by our partners are offers that have a fixed length.  If you activated them prior to the removal of your subscription, many of them are unaffected and remain available to you until the end of their normal term.  If you've been accessing those benefits through the subscriber portal, you need to access them directly on the partner site.  For example, let's say you received a Pluralsight subscription as part of a Visual Studio subscription.  When your Visual Studio subscription is removed, you still have any remaining time on the training subscription, but you need to sign in to Pluralsight's website directly.
 
 + Benefits that require sign-in for each use are no longer available.
 
@@ -57,9 +57,9 @@ The effects of having a subscription removed vary.
 
 ## Visual Studio subscription assignments deleted by Microsoft
 
-If you're a subscriptions admin, you might occasionally see in your dashboard that Microsoft has removed a subscription.  The reason says that the account is closed. 
+If you're a subscriptions admin, you might occasionally see in your dashboard that Microsoft removed a subscription.  The reason says that the account is closed. 
 
-### Why an account may be removed  
+### Why an account might be removed  
 
 + Subscribers request closure of their Microsoft accounts. If a subscriber requests closure of a Microsoft account (MSA), subscriptions associated with that MSA are removed.  For more information including important things to consider before closing an account, see [How to close your Microsoft account](https://support.microsoft.com/account-billing/how-to-close-your-microsoft-account-c1b2d13f-4de6-6e1b-4a31-d9d668849979).
 + Subscribers are removed from Microsoft Entra tenant.  Subscriptions can automatically assign subscriptions through a Microsoft Entra group.  When they're removed from the group, their subscriptions are removed.

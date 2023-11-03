@@ -29,7 +29,7 @@ To add large groups of users, you can use the bulk add feature, or if your organ
    > ![Download the Excel template to upload multiple subscribers](media/download-template-upload-subscribers.png "Screenshot of the Upload multiple subscribers dialog.  The link to download the template is highlighted.")
    >
    > [!NOTE]
-   > Always download the latest version of this template. If you use an older version, your bulk upload may fail.
+   > Always download the latest version of this template. If you use an older version, your bulk upload can fail.
 
 1. In the Excel spreadsheet, fill out the fields with the information for the individuals that you want to assign subscriptions to. (*Reference* is an optional field.) Save the file locally after you're done.
 
@@ -40,7 +40,7 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 
     + Ensure that none of the form fields contain commas.
     + Remove spaces before and after values in form fields.
-    + Make sure user's names don't contain extra spaces between two-part first or last names. For example, if a person has a two-part first name such as "Maggie May", it should be typed as "MaggieMay" because the system won't trim the extra space.
+    + Make sure user's names don't contain extra spaces between two-part first or last names. For example, if a person has a two-part first name such as "Maggie May," it should be typed as "MaggieMay" because the system doesn't trim the extra space.
     + Make sure all required fields are completed. 
     + Check the **Error message** column.  If any errors are listed, resolve them before attempting to upload the file. 
 
@@ -114,9 +114,9 @@ Using this feature makes it easy to stay on top of your subscription assignments
 8. Select **View subscribers** to display the members of the group. You can view details about the subscribers in the group.  However, you can't make any edits to the subscribers or the subscriptions assigned to them.    
 
 > [!NOTE]
-> If you've already assigned subscriptions individually to users who are subsequently added as part of an Entra ID group, they will be added as part of the group and will no longer be listed individually. However, if the individual subscription is for a different subscription level, they will have two subscriptions.  Example:  If a user has an individual Visual Studio Professional subscription, and they are a member of a group to which you assign Visual Studio Enterprise subscriptions, they will have both.  
+> If you've already assigned subscriptions individually to users who are subsequently added as part of an Entra ID group, they will be added as part of the group and will no longer be listed individually. If the individual subscription is for a different subscription level, however, they will have two subscriptions.  Example:  If a user has an individual Visual Studio Professional subscription, and they are a member of a group to which you assign Visual Studio Enterprise subscriptions, they will have both.  
 >
-> If you remove a subscriber from an Entra ID group that has had subscriptions assigned to it, it may take up to 24 hours for the update to be reflected in the admin portal. 
+> If you remove a subscriber from an Entra ID group that has had subscriptions assigned to it, it can take up to 24 hours for the update to be reflected in the admin portal. 
 
 
 ## Frequently asked questions
@@ -130,7 +130,7 @@ A: The feature is currently only available to organizations with trusted agreeme
 
 ### Q: I added users to my Entra ID group, but they don’t have subscriptions yet. Why? 
 
-A: If the changes were made directly in Entra ID the subscriptions should be assigned quickly.  If the changes were made in an on-premises Active Directory, it first needs to be synced to Entra ID. Depending how your on-premises Active Directory is configured, the changes could take up to 24 hours to be reflected. If it has been longer than 24 hours, our [support team can help troubleshoot any issues](https://aka.ms/vsadminhelp). 
+A: If the changes were made directly in Entra ID the subscriptions should be assigned quickly.  If the changes were made in an on-premises Active Directory, it first needs to be synced to Entra ID. Depending how your on-premises Active Directory is configured, the changes could take up to 24 hours to be reflected. If it takes  longer than 24 hours, our [support team can help troubleshoot any issues](https://aka.ms/vsadminhelp). 
 
 ### Q: Can I choose multiple subscription levels to be assigned within an Entra ID group?
 
