@@ -153,7 +153,7 @@ From there, you can browse the database, write and execute queries, edit data, s
 
 ## Next steps
 
-If you're using the .NET Framework (not .NET Core or .NET 5 or later), and Windows Forms or WPF, you can the **Data Sources** window, for example, to set up data binding for controls in Windows Forms and WPF Applications, see [Add new data sources](add-new-data-sources.md). These tools are designed to enable you to rapidly create Windows applications that need to allow users to enter, display, and manipulate data.
+If you're using the .NET Framework (not .NET Core or .NET 5 or later), and Windows Forms or WPF, you can use the **Data Sources** window, for example, to set up data binding for controls in Windows Forms and WPF Applications, see [Add new data sources](add-new-data-sources.md). These tools are designed to enable you to rapidly create Windows applications that need to allow users to enter, display, and manipulate data.
 
 If you're using .NET 5 or later, .NET Core or ASP.NET Core, you can connect your app to the database using [Connected Services](../azure/overview-connected-services.md). Using Connected Services, you can easily use a local development database, hosted by SQL LocalDB, SQL Server running in a container, or an on-premises instance of SQL Server, and then  transition to Azure SQL Database when you're ready to deploy to the cloud. For .NET 5 or later, .NET Core and ASP.NET Core, you should consider using [Entity Framework Core](/ef/core) as your database framework.
 

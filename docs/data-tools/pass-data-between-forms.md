@@ -199,7 +199,7 @@ Add a TableAdapter query to Form2 to load orders for the selected customer on Fo
 
 ## Next steps
 
-Depending on your application requirements, there are several steps you may want to perform after passing data between forms. Some enhancements you could make to this tutorial include:
+Depending on your application requirements, there are several steps you might want to perform after passing data between forms. Some enhancements you could make to this tutorial include:
 
 - Editing the dataset to add or remove database objects. For more information, see [Create and configure datasets](../data-tools/create-and-configure-datasets-in-visual-studio.md).
 

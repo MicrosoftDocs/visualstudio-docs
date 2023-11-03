@@ -27,7 +27,7 @@ To complete this tutorial, you need the **.NET desktop development** and **Data 
 
 ## Create a new Windows Forms application
 
-1. 1. In Visual Studio, create a new **Windows Forms App (.NET Framework)** project and name it **DataTableWalkthrough**.
+1. In Visual Studio, create a new **Windows Forms App (.NET Framework)** project and name it **DataTableWalkthrough**.
 
      The **DataTableWalkthrough** project is created and added to **Solution Explorer**.
 

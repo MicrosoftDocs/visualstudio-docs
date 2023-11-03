@@ -154,7 +154,7 @@ Press **F5** to run the application.
 
 ## Next steps
 
-Depending on your application requirements, there are several steps you may want to perform after creating a control that supports databinding. Some typical next steps include:
+Depending on your application requirements, there are several steps you might want to perform after creating a control that supports databinding. Some typical next steps include:
 
 - Placing your custom controls in a control library so you can reuse them in other applications.
 

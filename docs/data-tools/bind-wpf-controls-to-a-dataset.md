@@ -15,7 +15,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Bind WPF controls to an dataset in .NET Framework applications
+# Bind WPF controls to a dataset in .NET Framework applications
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
