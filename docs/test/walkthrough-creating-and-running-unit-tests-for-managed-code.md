@@ -1,7 +1,7 @@
 ---
 title: C# unit test tutorial
 description: Learn how to create, run, and customize a series of unit tests using the Microsoft unit test framework for managed code and Visual Studio Test Explorer.
-ms.date: 10/26/2022
+ms.date: 11/03/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - unit tests, walkthrough
@@ -26,10 +26,10 @@ This article steps you through creating, running, and customizing a series of un
 
 1. On the start window, choose **Create a new project**.
 
-1. Search for and select the C# **Console App** project template for .NET Core, and then click **Next**.
+1. Search for and select the C# **Console App** project template for .NET, and then click **Next**.
 
    > [!NOTE]
-   > If you do not see the **Console App** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **.NET Core cross-platform development** workload.
+   > If you do not see the **Console App** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **.NET desktop development** workload.
 
 1. Name the project **Bank**, and then click **Next**.
 
@@ -123,7 +123,7 @@ You now have a project with methods you can test. In this article, the tests foc
    > [!TIP]
    > You can also right-click on the solution in **Solution Explorer** and choose **Add** > **New Project**.
 
-1. Type **test** in the search box, select **C#** as the language, and then select the C# **MSTest Unit Test Project (.NET Core)** for .NET Core template, and then click **Next**.
+1. Type **test** in the search box, select **C#** as the language, and then select the C# **MSTest Unit Test Project** for .NET template, and then click **Next**.
 
    > [!NOTE]
    > In Visual Studio 2019 version 16.9, the MSTest project template is **Unit Test Project**.
@@ -154,10 +154,9 @@ Create a test class to verify the `BankAccount` class. You can use the *UnitTest
 
 The *BankAccountTests.cs* file now contains the following code:
 
-<!-- The supplied code doesn't come with the 'using' statement on line 160. -->
-
 ```csharp
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+// The 'using' statement for Test Tools is in GlobalUsings.cs
+// using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace BankTests
 {
@@ -244,17 +243,15 @@ A test method must meet the following requirements:
 
 1. On the **Build** menu, choose **Build Solution** (or press **Ctrl** + **SHIFT** + **B**).
 
-1. If **Test Explorer** is not open, open it by choosing **Test** > **Windows** > **Test Explorer** from the top menu bar (or press **Ctrl** + **E**, **T**).
+1. If **Test Explorer** is not open, open it by choosing **Test** > **Test Explorer** (or **Test** > **Windows** > **Test Explorer**) from the top menu bar (or press **Ctrl** + **E**, **T**).
 
 1. Choose **Run All** to run the test (or press **Ctrl** + **R**, **V**).
-
-   <!-- The Run options are grayed out on the Text Explorer menu bar. Run options are available on the right-click menu for BankTests. -->
 
    While the test is running, the status bar at the top of the **Test Explorer** window is animated. At the end of the test run, the bar turns green if all the test methods pass, or red if any of the tests fail.
 
    In this case, the test fails.
 
-4. Select the method in **Test Explorer** to view the details at the bottom of the window.
+1. Select the method in **Test Explorer** to view the details at the bottom of the window.
 
 ## Fix your code and rerun your tests
 
@@ -286,8 +283,6 @@ In **Test Explorer**, choose **Run All** to rerun the test (or press **Ctrl** + 
 ::: moniker range=">=vs-2022"
 ![Test Explorer in Visual Studio 2019 showing passed test](media/vs-2022/test-explorer-banktests-passed.png)
 ::: moniker-end
-
-<!-- The test still failed after changing the m_balance assignment to -=. -->
 
 ## Use unit tests to improve your code
 

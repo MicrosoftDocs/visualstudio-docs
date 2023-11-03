@@ -37,7 +37,7 @@ This walkthrough creates a lookup control that binds to data from two tables. Th
 
 During this walkthrough, you'll learn how to:
 
-- Create a new **Windows Forms Application**.
+- Create a new **Windows Forms App (.NET Framework)**.
 
 - Add a new **User Control** to your project.
 
@@ -52,6 +52,8 @@ During this walkthrough, you'll learn how to:
 - Create a form to display data in the new control.
 
 ## Prerequisites
+
+To complete this tutorial, you need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify. See [Modify Visual Studio](../install/modify-visual-studio.md).
 
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
@@ -71,7 +73,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ## Create a Windows Forms app project
 
-The first step is to create a **Windows Forms Application** project.
+The first step is to create a **Windows Forms App (.NET Framework)** project.
 
 1. In Visual Studio, on the **File** menu, select **New** > **Project**.
 

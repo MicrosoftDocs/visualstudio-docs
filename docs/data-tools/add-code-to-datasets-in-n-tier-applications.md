@@ -33,9 +33,9 @@ By default, after you separate the dataset and TableAdapter code, the result is 
 
 ## To add code to DataSets in n-tier applications
 
-1. Locate the project that contains the *.xsd* file.
+1. Locate the project that contains the `.xsd` file.
 
-2. Select the **.xsd** file to open the dataset.
+2. Select the *`.xsd`* file to open the dataset.
 
 3. Right-click the data table to which you want to add code (the table name in the title bar), and then select **View Code**.
 

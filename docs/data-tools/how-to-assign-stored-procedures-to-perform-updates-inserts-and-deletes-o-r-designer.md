@@ -28,7 +28,7 @@ By default, the logic to update a database (inserts, updates, and deletes) with 
 
 ### To assign stored procedures to override the default behavior of an entity class
 
-1. Open the **LINQ to SQL** file in the designer. (Double-click the **.dbml** file in **Solution Explorer**.)
+1. Open the **LINQ to SQL** file in the designer. (Double-click the *`.dbml`* file in **Solution Explorer**.)
 
 2. In **Server Explorer** or **Database Explorer**, expand **Stored Procedures** and locate the stored procedures that you want to use for the Insert, Update, and/or Delete commands of the entity class.
 

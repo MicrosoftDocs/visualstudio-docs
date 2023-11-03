@@ -51,6 +51,8 @@ During this walkthrough, you'll learn how to:
 
 ## Prerequisites
 
+To complete this tutorial, you need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify. See [Modify Visual Studio](../install/modify-visual-studio.md).
+
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
 1. If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **Data storage and processing** workload, or as an individual component.
@@ -152,7 +154,7 @@ Press **F5** to run the application.
 
 ## Next steps
 
-Depending on your application requirements, there are several steps you may want to perform after creating a control that supports databinding. Some typical next steps include:
+Depending on your application requirements, there are several steps you might want to perform after creating a control that supports databinding. Some typical next steps include:
 
 - Placing your custom controls in a control library so you can reuse them in other applications.
 

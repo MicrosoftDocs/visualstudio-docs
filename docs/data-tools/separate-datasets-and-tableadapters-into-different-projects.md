@@ -28,12 +28,12 @@ When you separate dataset code from TableAdapter code, the project that contains
 
 #### To separate the dataset into a different project
 
-1. Open a solution that contains a dataset (*.xsd* file).
+1. Open a solution that contains a dataset (`.xsd` file).
 
     > [!NOTE]
     > If the solution does not contain the project into which you want to separate your dataset code, create the project, or add an existing project to the solution.
 
-2. Double-click a typed dataset file (an *.xsd* file) in **Solution Explorer** to open the dataset in the **Dataset Designer**.
+2. Double-click a typed dataset file (an `.xsd` file) in **Solution Explorer** to open the dataset in the **Dataset Designer**.
 
 3. Select an empty area of the **Dataset Designer**.
 

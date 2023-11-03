@@ -1,7 +1,7 @@
 ---
 title: MSBuild Toolset (ToolsVersion)
-description: Learn how to use the ToolsVersion attribute in the MSBuild project file to specify a toolset of tasks, targets, and tools to build an application.
-ms.date: 11/07/2022
+description: Learn about the obsolete ToolsVersion attribute in the MSBuild project file, which was used to specify a toolset of tasks, targets, and tools to build an application.
+ms.date: 11/01/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, multitargeting
@@ -26,7 +26,6 @@ The MSBuild `ToolsVersion` attribute on the Project element in Visual Studio and
 ```xml
 <Project ToolsVersion="Current" ... </Project>
 ```
-
 
 > [!NOTE]
 > Some project types use the `sdk` attribute instead of `ToolsVersion`. For more information, see [Additions to the csproj format for .NET Core](/dotnet/core/tools/csproj).

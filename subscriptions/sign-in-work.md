@@ -10,7 +10,7 @@ description:  Learn how to sign in to your Visual Studio subscription(s) with yo
 
 # Signing in to Visual Studio subscription(s) with your work or school account 
 
-The steps to sign in to your Visual Studio subscription depend on the kind of account you're using.  For example, you may be using a Microsoft Account (MSA) or an email address supplied by your employer or school.  As of January 2019, you can now also use your GitHub account to sign in to some subscriptions. 
+The steps to sign in to your Visual Studio subscription depend on the kind of account you're using.  For example, you might be using a Microsoft Account (MSA) or an email address supplied by your employer or school.  As of January 2019, you can now also use your GitHub account to sign in to some subscriptions. 
 
 This article provides the steps for signing in with an email address provided by your work or school.
 
@@ -45,13 +45,13 @@ You can also see your currently selected subscription in the upper right corner,
 
 3. Select **Continue**.
 4. You're redirected to a decision page.
-    + Select **Work or school account** if the subscription is associated with a "Work or School" account associated with an Azure Active Directory tenant.
-    + Select **Personal** if the subscription is associated with a "Corporate" email address, but has also been converted to a "Personal" Microsoft Account (MSA).
+    + Select **Work or school account** if the subscription is associated with a "Work or School" account associated with a Microsoft Entra tenant.
+    + Select **Personal** if the subscription is associated with a "Corporate" email address, but was also converted to a "Personal" Microsoft Account (MSA).
 
         > [!NOTE]
         > This will be the case for many subscribers who have used Visual Studio subscriptions (formerly MSDN) in the past.
 
-    + If one pathway fails, try the other.  Subscription admins may have modified your subscription.
+    + If one pathway fails, try the other.  Subscription admins might modify your subscription.
 
 5. Enter your password.
 6. Select **Sign in**.
@@ -66,7 +66,7 @@ A:  The most common cause of sign-in problems is attempting to sign in with an a
 ### Q:  I can't see my subscription. Where is it?
 
 A:  Many users have more than one subscription.  If you're able to sign in to the subscriptions portal at https://my.visualstudio.com but can't see your subscription, there are two common causes:
-+ You're logged in with a different Microsoft Account.  It's possible that you have multiple subscriptions, such as a Professional or Enterprise subscription and a Visual Studio Dev Essentials membership, and they're associated with different email addresses. To see the other subscriptions, sign out and sign back in using the other MSA.
++ You're logged in with a different Microsoft Account.  It's possible that you have multiple subscriptions, such as a Professional or Enterprise subscription and a Visual Studio Dev Essentials membership that use different email addresses. To see the other subscriptions, sign out and sign back in using the other MSA.
 + You have multiple subscriptions associated with the same email address.  To see all of the subscriptions associated with your email address, visit https://my.visualstudio.com/subscriptions and choose the subscription you wish to use. 
 
 ## Resources 
@@ -82,4 +82,4 @@ For assistance with sales, subscriptions, accounts and billing for Visual Studio
 
 ## Next steps
 
-After you've successfully signed in to the subscriptions portal, we recommend visiting the Benefits page at https://my.visualstudio.com/benefits and exploring the great tools, services, and offers available to you.
+After you successfully sign in to the subscriptions portal, we recommend visiting the Benefits page at https://my.visualstudio.com/benefits and exploring the great tools, services, and offers available to you.

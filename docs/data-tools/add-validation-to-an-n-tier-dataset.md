@@ -51,7 +51,7 @@ End Sub
 
 #### To add validation during changes to individual column values
 
-1. Open the dataset by double-clicking the *.xsd* file in **Solution Explorer**. For more information, see [Walkthrough: Creating a dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).
+1. Open the dataset by double-clicking the `.xsd` file in **Solution Explorer**. For more information, see [Walkthrough: Creating a dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).
 
 2. Double-click the column you want to validate. This action creates the <xref:System.Data.DataTable.ColumnChanging> event handler.
 
@@ -111,7 +111,7 @@ Create an event handler for the <xref:System.Data.DataTable.RowChanging> event b
 
 #### To add validation during changes to whole rows
 
-1. Open the dataset by double-clicking the *.xsd* file in **Solution Explorer**. For more information, see [Walkthrough: Creating a dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).
+1. Open the dataset by double-clicking the `.xsd` file in **Solution Explorer**. For more information, see [Walkthrough: Creating a dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).
 
 2. Double-click the title bar of the data table on the designer.
 
