@@ -36,7 +36,7 @@ This walkthrough creates a simple control that displays data from a single colum
 
 During this walkthrough, you will learn how to:
 
-- Create a new **Windows Forms Application**.
+- Create a new **Windows Forms App (.NET Framework)**.
 
 - Add a new **User Control** to your project.
 
@@ -51,6 +51,8 @@ During this walkthrough, you will learn how to:
 - Create a form to display data in the new control.
 
 ## Prerequisites
+
+To complete this tutorial, you need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify. See [Modify Visual Studio](../install/modify-visual-studio.md).
 
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
@@ -70,7 +72,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ## Create a Windows Forms Application
 
-The first step is to create a **Windows Forms Application**:
+The first step is to create a **Windows Forms App (.NET Framework)**:
 
 1. In Visual Studio, on the **File** menu, select **New** > **Project**.
 
@@ -175,7 +177,7 @@ Press **F5** to run the application.
 
 ## Next steps
 
-Depending on your application requirements, there are several steps you may want to perform after creating a control that supports data binding. Some typical next steps include:
+Depending on your application requirements, there are several steps you might want to perform after creating a control that supports data binding. Some typical next steps include:
 
 - Placing your custom controls in a control library so you can reuse them in other applications.
 
