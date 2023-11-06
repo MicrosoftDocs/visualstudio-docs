@@ -2,53 +2,67 @@
   href: index.yml
 - name: .NET code analysis
   items:
-  - name: Source code analysis
+  - name: Overview
+    href: roslyn-analyzers-overview.md
+  - name: Installation
+    items:
+    - name: .NET analyzers
+      href: install-net-analyzers.md
+    - name: Third-party analyzers
+      href: install-roslyn-analyzers.md
+      expanded: true
+  - name: Configuration
     items:
     - name: Overview
-      href: roslyn-analyzers-overview.md
-    - name: Installation
+      href: use-roslyn-analyzers.md
+    - name: .NET analyzers
       items:
-      - name: .NET analyzers
-        href: install-net-analyzers.md
-      - name: Third-party analyzers
-        href: install-roslyn-analyzers.md
-      expanded: true
-    - name: Configuration
-      items:
-      - name: Overview
-        href: use-roslyn-analyzers.md
-      - name: .NET analyzers
+      - name: Code quality
         items:
-        - name: Code quality
-          items:
-          - name: Code quality options
-            href: /dotnet/fundamentals/code-analysis/code-quality-rule-options?toc=%2fvisualstudio%2fcode-quality%2ftoc.json
-          - name: Use EditorConfig files for code quality
-            href: /dotnet/fundamentals/code-analysis/configuration-files?toc=%2fvisualstudio%2fcode-quality%2ftoc.json
-        - name: Code style
-          items:
-          - name: Code style preferences
-            href: ../ide/code-styles-and-code-cleanup.md?toc=%252fvisualstudio%252fcode-quality%252ftoc.json
-          - name: Use EditorConfig files for code style
-            displayName: Configure code style analyzers
-            href: ../ide/create-portable-custom-editor-options.md?toc=%252fvisualstudio%252fcode-quality%252ftoc.json
-          - name: Rule options
-            href: /dotnet/fundamentals/code-analysis/code-style-rule-options?toc=%2fvisualstudio%2fcode-quality%2ftoc.json
-        expanded: true
-      - name: Configure live code analysis
-        href: configure-live-code-analysis-scope-managed-code.md
-      - name: Run code analysis manually
-        href: how-to-run-code-analysis-manually-for-managed-code.md
-      - name: Disable code analysis
-        href: disable-code-analysis.md
-      - name: Automatic feature suspension
-        href: automatic-feature-suspension.md
-      - name: Suppress code analysis violations
-        href: in-source-suppression-overview.md
-      expanded: true
-    - name: FAQ
-      href: analyzers-faq.yml
+        - name: Code quality options
+          href: /dotnet/fundamentals/code-analysis/code-quality-rule-options?toc=%2fvisualstudio%2fcode-quality%2ftoc.json
+        - name: Use EditorConfig files for code quality
+          href: /dotnet/fundamentals/code-analysis/configuration-files?toc=%2fvisualstudio%2fcode-quality%2ftoc.json
+      - name: Code style
+        items:
+        - name: Code style preferences
+          href: ../ide/code-styles-and-code-cleanup.md?toc=%252fvisualstudio%252fcode-quality%252ftoc.json
+        - name: Use EditorConfig files for code style
+          displayName: Configure code style analyzers
+          href: ../ide/create-portable-custom-editor-options.md?toc=%252fvisualstudio%252fcode-quality%252ftoc.json
+        - name: Rule options
+          href: /dotnet/fundamentals/code-analysis/code-style-rule-options?toc=%2fvisualstudio%2fcode-quality%2ftoc.json
     expanded: true
+    - name: Configure live code analysis
+      href: configure-live-code-analysis-scope-managed-code.md
+    - name: Run code analysis manually
+      href: how-to-run-code-analysis-manually-for-managed-code.md
+    - name: Disable code analysis
+      href: disable-code-analysis.md
+    - name: Automatic feature suspension
+      href: automatic-feature-suspension.md
+    - name: Suppress code analysis violations
+      href: in-source-suppression-overview.md
+    expanded: true
+  - name: FAQ
+    href: analyzers-faq.yml
+  - name: Code metrics
+    items:
+    - name: Overview
+      displayName: code metrics
+      href: code-metrics-values.md
+    - name: Generate code metrics data
+      href: how-to-generate-code-metrics-data.md
+    - name: Work with code metrics data
+      href: working-with-code-metrics-data.md
+    - name: Maintainability index range and meaning
+      href: code-metrics-maintainability-index-range-and-meaning.md
+    - name: Class coupling
+      href: code-metrics-class-coupling.md
+    - name: Cyclomatic complexity
+      href: code-metrics-cyclomatic-complexity.md
+    - name: Depth of inheritance
+      href: code-metrics-depth-of-inheritance.md    
   - name: Legacy analysis
     items:
     - name: Overview
@@ -441,26 +455,6 @@
           href: native-recommended-rules-rule-set.md
         - name: Security Rules
           href: security-rules-rule-set-for-managed-code.md
-  - name: Code metrics
-    items:
-    - name: Overview
-      displayName: code metrics
-      href: code-metrics-values.md
-    - name: Generate code metrics data
-      href: how-to-generate-code-metrics-data.md
-    - name: Work with code metrics data
-      href: working-with-code-metrics-data.md
-    - name: Resources
-      items:
-      - name: Maintainability index range and meaning
-        href: code-metrics-maintainability-index-range-and-meaning.md
-      - name: Class coupling
-        href: code-metrics-class-coupling.md
-      - name: Cyclomatic complexity
-        href: code-metrics-cyclomatic-complexity.md
-      - name: Depth of inheritance
-        href: code-metrics-depth-of-inheritance.md
-  expanded: true
 - name: C++ code analysis
   items:
   - name: Analyze C and C++ code
