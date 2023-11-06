@@ -2097,6 +2097,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/javascript/nodejs-interactive-repl.md",
+      "redirect_url": "/visualstudio/javascript/javascript-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/javascript/javascript-in-vs-2017.md",
       "redirect_url": "/visualstudio/javascript/javascript-in-visual-studio",
       "redirect_document_id": false
