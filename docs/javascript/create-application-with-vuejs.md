@@ -24,11 +24,6 @@ The following new features support Vue.js application development in Visual Stud
 * Recognition of the `lang` attribute on *.vue* files
 * Vue.js project and file templates
 
-::: moniker range=">=vs-2022"
-> [!IMPORTANT]
-> Starting in Visual Studio 2022, you can alternatively [create a Vue project](../javascript/tutorial-create-vue-app.md) using the new [CLI-based project type](https://devblogs.microsoft.com/visualstudio/the-new-javascript-typescript-experience-in-vs-2022-preview-3/). The information in this article applies only to the Node.js project type (.njsproj).
-::: moniker-end
-
 ## Prerequisites
 
 * You must have Visual Studio 2017 version 15.8 or a later version installed and the **Node.js development** workload.
