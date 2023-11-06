@@ -13,13 +13,13 @@ ms.technology: vs-javascript
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), we'll take a tour of some of the windows, menus, and other UI features.
+In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), we take a tour of some of the windows, menus, and other UI features.
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+If you haven't installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
 
 ## Start window
 
-The first thing you'll see after you launch Visual Studio is the start window. The start window is designed to help you "get to code" faster. It has options to close or check out code, open an existing project or solution, create a new project, or simply open a folder that contains some code files.
+The first thing you see after you launch Visual Studio is the start window. The start window is designed to help you "get to code" faster. It has options to close or check out code, open an existing project or solution, create a new project, or simply open a folder that contains some code files.
 
 ::: moniker range=">=vs-2022"
 [The start window in Visual Studio 2022](media/vs-2022/start-window.png)
@@ -30,7 +30,7 @@ The first thing you'll see after you launch Visual Studio is the start window. T
 
 If this is the first time you're using Visual Studio, your recent projects list will be empty.
 
-If you work with non-MSBuild based codebases, you'll use the **Open a local folder** option to open your code in Visual Studio. For more information, see [Develop code in Visual Studio without projects or solutions](develop-javascript-code-without-solutions-projects.md). Otherwise, you can create a new project or clone a project from a source provider such as GitHub or Azure DevOps.
+If you work with non-MSBuild based codebases, use the **Open a local folder** option to open your code in Visual Studio. For more information, see [Develop code in Visual Studio without projects or solutions](develop-javascript-code-without-solutions-projects.md). Otherwise, you can create a new project or clone a project from a source provider such as GitHub or Azure DevOps.
 
 The **Continue without code** option simply opens the Visual Studio development environment without any specific project or code loaded. You might choose this option to join a [Live Share](/visualstudio/liveshare/) session or attach to a process for debugging. You can also press **Esc** to close the start window and open the IDE.
 
@@ -59,12 +59,12 @@ To continue exploring Visual Studio's features, let's create a new project.
 3. In the **Configure your new project** dialog box that appears, accept the default project name and choose **Create**.
 
    ::: moniker range=">=vs-2022"
-   The project is created. In the right pane, select *app.js* to open the file in the **Editor** window. The **Editor** shows the contents of files, and is where you'll do most of your coding work in Visual Studio.
+   The project is created. In the right pane, select *app.js* to open the file in the **Editor** window. The **Editor** shows the contents of files, and is where you do most of your coding work in Visual Studio.
 
    ![Editor in Visual Studio](media/vs-2022/editor.png)
    ::: moniker-end
    ::: moniker range="<=vs-2019"
-   The project is created and a file named *server.js* opens in the **Editor** window. The **Editor** shows the contents of files, and is where you'll do most of your coding work in Visual Studio.
+   The project is created and a file named *server.js* opens in the **Editor** window. The **Editor** shows the contents of files, and is where you do most of your coding work in Visual Studio.
 
    ![Editor in Visual Studio](media/editor.png)
    ::: moniker-end
