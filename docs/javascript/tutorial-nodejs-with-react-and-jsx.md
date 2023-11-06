@@ -2,7 +2,7 @@
 title: "Create a Node.js and React app"
 description: Learn how to create a Node.js web application project from a Visual Studio template.
 ms.custom: vs-acquisition
-ms.date: 03/24/2023
+ms.date: 11/06/2023
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -28,7 +28,7 @@ In this tutorial, you learn how to:
 
 ::: moniker range=">=vs-2022"
 > [!IMPORTANT]
-> Starting in Visual Studio 2022, you can alternatively [create a React project](../javascript/tutorial-create-react-app.md) using the recommended [CLI-based project type](https://devblogs.microsoft.com/visualstudio/the-new-javascript-typescript-experience-in-vs-2022-preview-3/). Some of the information in this article applies only to the Node.js project type (.njsproj).
+> Starting in Visual Studio 2022, you can alternatively [create a React project](../javascript/tutorial-create-react-app.md) using the recommended [CLI-based project type](https://devblogs.microsoft.com/visualstudio/the-new-javascript-typescript-experience-in-vs-2022-preview-3/). Some of the information in this article applies only to the Node.js project type (.njsproj). The template used in this article is no longer available starting in Visual Studio 2022 version 17.8 Preview 2.
 ::: moniker-end
 
 Before you begin, here's a quick FAQ to introduce you to some key concepts:

@@ -1,7 +1,7 @@
 ---
 title: "Publish a Node.js app to Linux App Service"
 description: You can publish Node.js applications created in Visual Studio to Linux App Service on Azure
-ms.date: 11/22/2019
+ms.date: 11/06/2023
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -23,6 +23,11 @@ For this tutorial, you deploy the app to [Linux App Service](/azure/app-service/
 Linux App Service deploys a Linux Docker container to run the Node.js application (as opposed to the Windows App Service, which runs Node.js apps behind IIS on Windows).
 
 This tutorial shows how to create a Node.js application starting from a template installed with the Node.js Tools for Visual Studio, push the code to a repository on GitHub, and then provision an Azure App Service via the Azure web portal so that you can deploy from the GitHub repository. To use the command-line to provision the Azure App Service and push the code from a local Git repository, see [Create Node.js App](/azure/app-service/containers/quickstart-nodejs).
+
+::: moniker range=">=vs-2022"
+> [!IMPORTANT]
+> The information in this article applies only to the Node.js project type (.njsproj). The template used in this article is no longer available starting in Visual Studio 2022 version 17.8 Preview 2.
+::: moniker-end
 
 In this tutorial, you learn how to:
 > [!div class="checklist"]
