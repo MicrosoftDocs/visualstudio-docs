@@ -32,7 +32,6 @@
           href: ../ide/create-portable-custom-editor-options.md?toc=%252fvisualstudio%252fcode-quality%252ftoc.json
         - name: Rule options
           href: /dotnet/fundamentals/code-analysis/code-style-rule-options?toc=%2fvisualstudio%2fcode-quality%2ftoc.json
-    expanded: true
     - name: Configure live code analysis
       href: configure-live-code-analysis-scope-managed-code.md
     - name: Run code analysis manually
@@ -43,7 +42,6 @@
       href: automatic-feature-suspension.md
     - name: Suppress code analysis violations
       href: in-source-suppression-overview.md
-    expanded: true
   - name: FAQ
     href: analyzers-faq.yml
   - name: Code metrics
