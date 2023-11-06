@@ -170,7 +170,7 @@ Answer: Yes. To disable auto-commit, go to the **Settings** page in **Team Explo
 
 ## Step 1-3: Create the virtual environment and exclude it from source control
 
-Now that you've configured source control for your project, you can create the virtual environment the necessary Flask packages that the project requires. You can then use **Team Explorer** to exclude the environment's folder from source control.
+Now that you've configured source control for your project, you can create the virtual environment with the necessary Flask packages that the project requires. You can then use **Team Explorer** to exclude the environment's folder from source control.
 
 ::: moniker range="<=vs-2019"
 
