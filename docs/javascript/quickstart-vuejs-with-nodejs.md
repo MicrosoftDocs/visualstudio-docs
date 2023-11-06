@@ -18,11 +18,6 @@ monikerRange: '=vs-2019'
 
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create and run a simple Vue.js web application.
 
-::: moniker range=">=vs-2022"
-> [!IMPORTANT]
-> Starting in Visual Studio 2022, you can alternatively [create a Vue project](../javascript/tutorial-create-vue-app.md) using the recommended [CLI-based project type](https://devblogs.microsoft.com/visualstudio/the-new-javascript-typescript-experience-in-vs-2022-preview-3/). The information in this article applies only to the Node.js project type (.njsproj). The template used in this article is no longer available starting in Visual Studio 2022 version 17.8 Preview 2.
-::: moniker-end
-
 ## Prerequisites
 
 * You must have Visual Studio installed and the Node.js development workload.
