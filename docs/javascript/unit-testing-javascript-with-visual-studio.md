@@ -90,7 +90,7 @@ Mocha and Tape test libraries are also supported. To use one of these, simply ch
    ```
 
    >[!NOTE]
-   > In some scenarios, Solution Explorer may not show the npm node due to a known issue described [here](https://github.com/aspnet/Tooling/issues/479). If you need to see the npm node, you can unload the project (right-click the project and choose **Unload Project**) and then reload the project to make the npm node re-appear.
+   > In some scenarios, Solution Explorer might not show the npm node due to a known issue described [here](https://github.com/aspnet/Tooling/issues/479). If you need to see the npm node, you can unload the project (right-click the project and choose **Unload Project**) and then reload the project to make the npm node re-appear.
 
 1. Add code to test.
 
@@ -203,7 +203,7 @@ To enable this, right-click the project node in the Solution Explorer, choose **
 ```
 
 Next, add your tests to the test root folder you specified, and they will be available to run in the
-Test Explorer window. If they don't initially appear, you may need to rebuild the project.
+Test Explorer window. If they don't initially appear, you might need to rebuild the project.
 
 ## Unit test .NET Core and .NET Standard
 
@@ -215,7 +215,7 @@ In addition to the preceding properties described for .NET Framework, you also n
 </PropertyGroup>
 ```
 
-Some test frameworks may require additional npm packages for test detection. For example, jest requires the jest-editor-support npm package. If necessary, check the documentation for the specific framework.
+Some test frameworks might require additional npm packages for test detection. For example, jest requires the jest-editor-support npm package. If necessary, check the documentation for the specific framework.
 
 ::: moniker range="<=vs-2019"
 ## Write unit tests in a Node.js project (.njsproj)

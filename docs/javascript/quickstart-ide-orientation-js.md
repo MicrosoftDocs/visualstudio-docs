@@ -22,10 +22,10 @@ If you haven't installed Visual Studio, go to the [Visual Studio downloads](http
 The first thing you see after you launch Visual Studio is the start window. The start window is designed to help you "get to code" faster. It has options to close or check out code, open an existing project or solution, create a new project, or simply open a folder that contains some code files.
 
 ::: moniker range=">=vs-2022"
-[The start window in Visual Studio 2022](media/vs-2022/start-window.png)
+![Screenshot of the start window in Visual Studio 2022](media/vs-2022/start-window.png)
 ::: moniker-end
 ::: moniker range="<=vs-2019"
-[The start window in Visual Studio 2019](media/vs-2019/start-window.png)
+![Screenshot of the start window in Visual Studio 2019](media/vs-2019/start-window.png)
 ::: moniker-end
 
 If this is the first time you're using Visual Studio, your recent projects list will be empty.
@@ -43,10 +43,10 @@ To continue exploring Visual Studio's features, let's create a new project.
    Visual Studio provides various kinds of project templates that help you get started coding quickly.
 
    ::: moniker range=">=vs-2022"
-   ![Search project templates on Visual Studio start window](media/vs-2022/create-new-project-ide.png)
+   ![Screenshot of search for project templates on Visual Studio start window](media/vs-2022/create-new-project-ide.png)
    ::: moniker-end
    ::: moniker range="<=vs-2019"
-   ![Search project templates on Visual Studio start window](media/vs-2019/create-new-project.png)
+   ![Screenshot of search for project templates on Visual Studio start window](media/vs-2019/create-new-project.png)
    ::: moniker-end
 
 ::: moniker range=">=vs-2022"
@@ -61,12 +61,12 @@ To continue exploring Visual Studio's features, let's create a new project.
    ::: moniker range=">=vs-2022"
    The project is created. In the right pane, select *app.js* to open the file in the **Editor** window. The **Editor** shows the contents of files, and is where you do most of your coding work in Visual Studio.
 
-   ![Editor in Visual Studio](media/vs-2022/editor.png)
+   ![Screenshot of editor in Visual Studio](media/vs-2022/editor.png)
    ::: moniker-end
    ::: moniker range="<=vs-2019"
    The project is created and a file named *server.js* opens in the **Editor** window. The **Editor** shows the contents of files, and is where you do most of your coding work in Visual Studio.
 
-   ![Editor in Visual Studio](media/editor.png)
+   ![Screenshot of editor in Visual Studio](media/editor.png)
    ::: moniker-end
 
 ## Solution Explorer
@@ -74,10 +74,10 @@ To continue exploring Visual Studio's features, let's create a new project.
 **Solution Explorer**, which is typically on the right-hand side of Visual Studio, shows you a graphical representation of the hierarchy of files and folders in your project, solution, or code folder. You can browse the hierarchy and navigate to a file in **Solution Explorer**.
 
 ::: moniker range=">=vs-2022"
-![Solution Explorer in Visual Studio](media/vs-2022/quickstart-IDE-solution-explorer.png)
+![Screenshot of Solution Explorer in Visual Studio](media/vs-2022/quickstart-ide-solution-explorer.png)
 ::: moniker-end
 ::: moniker range="<=vs-2019"
-![Solution Explorer in Visual Studio](media/quickstart-IDE-solution-explorer.png)
+![Screenshot of Solution Explorer in Visual Studio](media/quickstart-IDE-solution-explorer.png)
 ::: moniker-end
 
 ## Menus
@@ -85,10 +85,10 @@ To continue exploring Visual Studio's features, let's create a new project.
 The menu bar along the top of Visual Studio groups commands into categories. For example, the **Project** menu contains commands related to the project you're working in. On the **Tools** menu, you can customize how Visual Studio behaves by selecting **Options**, or add features to your installation by selecting **Get Tools and Features**.
 
 ::: moniker range=">=vs-2022"
-![Menu bar in Visual Studio](media/vs-2022/quickstart-IDE-menu-bar.png)
+![Screenshot of menu bar in Visual Studio](media/vs-2022/quickstart-ide-menu-bar.png)
 ::: moniker-end
 ::: moniker range="<=vs-2019"
-![Menu bar in Visual Studio](media/quickstart-IDE-menu-bar.png)
+![Screenshot of menu bar in Visual Studio](media/quickstart-IDE-menu-bar.png)
 ::: moniker-end
 
 Let's open the **Error List** window by choosing the **View** menu, and then **Error List**.
@@ -98,10 +98,10 @@ Let's open the **Error List** window by choosing the **View** menu, and then **E
 The **Error List** shows you errors, warning, and messages regarding the current state of your code. If there are any errors (such as a missing brace or semicolon) in your file, or anywhere in your project, they're listed here.
 
 ::: moniker range=">=vs-2022"
-![Error List in Visual Studio](media/vs-2022/quickstart-IDE-error-list.png)
+![Screenshot of Error List in Visual Studio](media/vs-2022/quickstart-ide-error-list.png)
 ::: moniker-end
 ::: moniker range="<=vs-2019"
-![Error List in Visual Studio](media/quickstart-IDE-error-list.png)
+![Screenshot of Error List in Visual Studio](media/quickstart-IDE-error-list.png)
 ::: moniker-end
 
 ## Output window
@@ -111,10 +111,10 @@ The **Output** window shows you output messages from building your project and f
 Let's build the project to see some build output. From the **Build** menu, choose **Build Solution**. The **Output** window automatically obtains focus and display a successful build message.
 
 ::: moniker range=">=vs-2022"
-![Output window in Visual Studio](media/vs-2022/build-output-minimal.png)
+![Screenshot of Output window in Visual Studio](media/vs-2022/build-output-minimal.png)
 ::: moniker-end
 ::: moniker range="<=vs-2019"
-![Output window in Visual Studio](media/build-output-minimal.png)
+![Screenshot of Output window in Visual Studio](media/build-output-minimal.png)
 ::: moniker-end
 
 ## Search box
@@ -126,10 +126,10 @@ The search box is a quick and easy way to do pretty much anything in Visual Stud
 1. Type **verbosity** into the search box. From the displayed results, choose **Projects and Solutions --> Build and Run**.
 
    ::: moniker range=">=vs-2022"
-   ![Search box in Visual Studio](media/vs-2022/quickstart-IDE-quick-launch.png)
+   ![Screenshot of the Search box in Visual Studio](media/vs-2022/quickstart-ide-quick-launch.png)
    ::: moniker-end
    ::: moniker range="<=vs-2019"
-   ![Search box in Visual Studio](media/quickstart-IDE-quick-launch.png)
+   ![Screenshot of the Search box in Visual Studio](media/quickstart-IDE-quick-launch.png)
    ::: moniker-end
 
    The **Options** dialog box opens to the **Build and Run** options page.
@@ -141,10 +141,10 @@ The search box is a quick and easy way to do pretty much anything in Visual Stud
    This time the **Output** window shows more verbose logging from the build process.
 
    ::: moniker range=">=vs-2022"
-   ![Verbose build output in Visual Studio](media/vs-2022/build-output-verbose.png)
+   ![Screenshot of verbose build output in Visual Studio](media/vs-2022/build-output-verbose.png)
    ::: moniker-end
    ::: moniker range="<=vs-2019"
-   ![Verbose build output in Visual Studio](media/build-output-verbose.png)
+   ![Screenshot of verbose build output in Visual Studio](media/build-output-verbose.png)
    ::: moniker-end
 
 ## Send Feedback menu
@@ -152,10 +152,10 @@ The search box is a quick and easy way to do pretty much anything in Visual Stud
 Should you encounter any problems while you're using Visual Studio, or if you have suggestions for how to improve the product, you can use the **Send Feedback** menu at the top of the Visual Studio window.
 
 ::: moniker range=">=vs-2022"
-![Send Feedback menu in Visual Studio](../ide/media/vs-2022/quickstart-ide-send-feedback.png)
+![Screenshot of Send Feedback menu in Visual Studio](media/vs-2022/quickstart-ide-send-feedback.png)
 ::: moniker-end
 ::: moniker range="<=vs-2019"
-![Send Feedback menu in Visual Studio](../ide/media/quickstart-ide-send-feedback.png)
+![Screenshot of Send Feedback menu in Visual Studio](../ide/media/quickstart-ide-send-feedback.png)
 ::: moniker-end
 
 ## Next steps

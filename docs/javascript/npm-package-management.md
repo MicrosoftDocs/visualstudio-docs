@@ -80,7 +80,7 @@ In this window you can search for a package, specify options, and install.
 * **Selected version** - Select the version of the package you want to install.
 * **Other npm arguments** - Specify other standard npm arguments. For example, you can enter a version value such as `@~0.8` to install a specific version that is not available in the versions list.
 
-You can see the progress of the installation in the **npm** output in the **Output** window (to open the window, choose **View** > **Output** or press **Ctrl** + **Alt** + **O**). This may take some time.
+You can see the progress of the installation in the **npm** output in the **Output** window (to open the window, choose **View** > **Output** or press **Ctrl** + **Alt** + **O**). This might take some time.
 
 ![npm output](../javascript/media/npm-output.png)
 
@@ -166,7 +166,7 @@ If your project does not already include a *package.json* file, you can add one 
 When you save the file, Visual Studio adds the package under the **Dependencies / npm** node in Solution Explorer. If you don't see the node, right-click **package.json** and choose **Restore Packages**.
 
 >[!NOTE]
-> In some scenarios, Solution Explorer may not show the correct status for installed npm packages. For more information, see [Troubleshooting](#troubleshooting-npm-packages).
+> In some scenarios, Solution Explorer might not show the correct status for installed npm packages. For more information, see [Troubleshooting](#troubleshooting-npm-packages).
 
 ### <a name="npmInstallPackage"></a>Install packages using package.json (ASP.NET Core)
 
@@ -180,7 +180,7 @@ IntelliSense in *package.json* helps you select a particular version of an npm p
 
 When you save the file, Visual Studio adds the package under the **Dependencies / npm** node in Solution Explorer. If you don't see the node, right-click **package.json** and choose **Restore Packages**.
 
-It may take several minutes to install a package. Check progress on package installation by switching to **npm** output in the **Output** window.
+It might take several minutes to install a package. Check progress on package installation by switching to **npm** output in the **Output** window.
 
 ![npm output](../javascript/media/npm-output.png)
 
@@ -188,8 +188,8 @@ It may take several minutes to install a package. Check progress on package inst
 
 * For Node.js projects, you must have the **Node.js development** workload installed for npm support. npm requires Node.js. If you don't have Node.js installed, we recommend you install the LTS version from the [Node.js](https://nodejs.org/en/download/) website for best compatibility with outside frameworks and libraries.
 
-* In some scenarios, Solution Explorer may not show the correct status for installed npm packages due to a known issue described [here](https://github.com/aspnet/Tooling/issues/479). For example, the package may appear as not installed when it is installed. In most cases, you can update Solution Explorer by deleting *package.json*, restarting Visual Studio, and re-adding the *package.json* file as described earlier in this article. Or, when installing packages, you can use the npm Output window to verify installation status.
+* In some scenarios, Solution Explorer might not show the correct status for installed npm packages due to a known issue described [here](https://github.com/aspnet/Tooling/issues/479). For example, the package might appear as not installed when it is installed. In most cases, you can update Solution Explorer by deleting *package.json*, restarting Visual Studio, and re-adding the *package.json* file as described earlier in this article. Or, when installing packages, you can use the npm Output window to verify installation status.
 
-* In some ASP.NET Core scenarios, the npm node in Solution Explorer may not be visible after you build the project. To make the node visible again, right-click the project node and choose **Unload Project.** Then right-click the project node and choose **Reload Project**.
+* In some ASP.NET Core scenarios, the npm node in Solution Explorer might not be visible after you build the project. To make the node visible again, right-click the project node and choose **Unload Project.** Then right-click the project node and choose **Reload Project**.
 
-* If you see any errors when building your app or transpiling TypeScript code, check for npm package incompatibilities as a potential source of errors. To help identify errors, check the npm Output window when installing the packages, as described previously in this article. For example, if one or more npm package versions has been deprecated and results in an error, you may need to install a more recent version to fix errors. For information on using *package.json* to control npm package versions, see [package.json configuration](../javascript/configure-packages-with-package-json.md).
+* If you see any errors when building your app or transpiling TypeScript code, check for npm package incompatibilities as a potential source of errors. To help identify errors, check the npm Output window when installing the packages, as described previously in this article. For example, if one or more npm package versions has been deprecated and results in an error, you might need to install a more recent version to fix errors. For information on using *package.json* to control npm package versions, see [package.json configuration](../javascript/configure-packages-with-package-json.md).

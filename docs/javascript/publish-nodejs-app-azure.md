@@ -112,7 +112,7 @@ to the following illustration.
 
 5. Click **Create** to create the App Service.
 
-    It may take a few minutes to deploy.
+    It might take a few minutes to deploy.
 
 6. After it is deployed, go to the **Application settings** section, and add a setting with a name of `SCM_SCRIPT_GENERATOR_ARGS` and a value of `--node`.
 
@@ -172,14 +172,14 @@ how to start the Node.js process. Details of the implementation can be seen at
 the list of tools until reaching **SSH** under the **Development Tools** section.
 * To aid in troubleshooting, go to the **Diagnostics logs** settings for the App Service, and change the **Docker Container logging** setting
 from **Off** to **File System**. Logs are created in the container under */home/LogFiles/*_docker.log*, and can be accessed on the box using SSH or FTP(S).
-* A custom domain name may be assigned to the site, rather than the *.azurewebsites.net URL assigned by default. For more details, see the topic [Map Custom Domain](/azure/app-service/app-service-web-tutorial-custom-domain).
+* A custom domain name might be assigned to the site, rather than the *.azurewebsites.net URL assigned by default. For more details, see the topic [Map Custom Domain](/azure/app-service/app-service-web-tutorial-custom-domain).
 * Deploying to a staging site for further testing before moving into production is a best practice. For details on how to configure this, see the topic
 [Create staging environments](/azure/app-service/web-sites-staged-publishing).
 * See the [App Service on Linux FAQ](/azure/app-service/containers/app-service-linux-faq) for more commonly asked questions.
 
 ## Next steps
 
-In this tutorial, you learned how create a Linux App Service and deploy a Node.js application to the service. You may want to learn more about Linux App Service.
+In this tutorial, you learned how create a Linux App Service and deploy a Node.js application to the service. You might want to learn more about Linux App Service.
 
 > [!div class="nextstepaction"]
 > [Linux App Service](/azure/app-service/containers/app-service-linux-intro)
