@@ -50,7 +50,7 @@ The ShowDialogAsync method several overloads that you should become familiar wit
 | ---- | ---- | ----------- |
 | content | [Microsoft.VisualStudio.RpcContracts.RemoteUI.IRemoteUserControl](/dotnet/api/microsoft.visualstudio.rpccontracts.remoteui.iremoteusercontrol 'Microsoft.VisualStudio.RpcContracts.RemoteUI.IRemoteUserControl') | The content of the dialog. |
 | title | [System.String](/dotnet/api/System.String 'System.String') | The title of the dialog. |
-| options | [Microsoft.VisualStudio.RpcContracts.Notifications.DialogOption](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.md#T-Microsoft-VisualStudio-RpcContracts-Notifications-DialogOption 'Microsoft.VisualStudio.RpcContracts.Notifications.DialogOption') | The options for displaying the dialog. |
+| options | Microsoft.VisualStudio.RpcContracts.Notifications.DialogOption | The options for displaying the dialog. |
 | cancellationToken | [System.Threading.CancellationToken](/dotnet/api/System.Threading.CancellationToken 'System.Threading.CancellationToken') | A [CancellationToken](/dotnet/api/System.Threading.CancellationToken 'System.Threading.CancellationToken') to cancel the dialog. |
 
 ```csharp
