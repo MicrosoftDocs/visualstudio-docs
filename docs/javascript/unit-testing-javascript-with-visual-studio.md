@@ -1,7 +1,7 @@
 ---
 title: "Unit testing JavaScript and TypeScript"
 description: Visual Studio provides support unit testing JavaScript and TypeScript code using the Node.js Tools for Visual Studio
-ms.date: "06/05/2023"
+ms.date: "11/03/2023"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -90,7 +90,7 @@ Mocha and Tape test libraries are also supported. To use one of these, simply ch
    ```
 
    >[!NOTE]
-   > In some scenarios, Solution Explorer may not show the npm node due to a known issue described [here](https://github.com/aspnet/Tooling/issues/479). If you need to see the npm node, you can unload the project (right-click the project and choose **Unload Project**) and then reload the project to make the npm node re-appear.
+   > In some scenarios, Solution Explorer might not show the npm node due to a known issue described [here](https://github.com/aspnet/Tooling/issues/479). If you need to see the npm node, you can unload the project (right-click the project and choose **Unload Project**) and then reload the project to make the npm node re-appear.
 
 1. Add code to test.
 
@@ -203,7 +203,7 @@ To enable this, right-click the project node in the Solution Explorer, choose **
 ```
 
 Next, add your tests to the test root folder you specified, and they will be available to run in the
-Test Explorer window. If they don't initially appear, you may need to rebuild the project.
+Test Explorer window. If they don't initially appear, you might need to rebuild the project.
 
 ## Unit test .NET Core and .NET Standard
 
@@ -215,8 +215,9 @@ In addition to the preceding properties described for .NET Framework, you also n
 </PropertyGroup>
 ```
 
-Some test frameworks may require additional npm packages for test detection. For example, jest requires the jest-editor-support npm package. If necessary, check the documentation for the specific framework.
+Some test frameworks might require additional npm packages for test detection. For example, jest requires the jest-editor-support npm package. If necessary, check the documentation for the specific framework.
 
+::: moniker range="<=vs-2019"
 ## Write unit tests in a Node.js project (.njsproj)
 
 For Node.js projects, before adding unit tests to your project, make sure the framework you plan to use is installed locally in your project. This is easy to do using the [npm package installation window](npm-package-management.md#npmInstallWindow).
@@ -318,3 +319,4 @@ Test execution time: 1.5731 Seconds
 
 > [!NOTE]
 > If you get an error indicating that *vstest.console.exe* cannot be found, make sure you've opened the Developer Command Prompt and not a regular command prompt.
+::: moniker-end

@@ -1,7 +1,7 @@
 ---
 title: "Quickstart: Create your first Vue.js app"
 description: In this quickstart, you create a Vue.js app in Visual Studio using the Node.js Tools for Visual Studio
-ms.date: 03/24/2023
+ms.date: 11/06/2023
 ms.topic: quickstart
 ms.devlang: javascript
 author: "mikejo5000"
@@ -17,9 +17,6 @@ monikerRange: '=vs-2019'
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create and run a simple Vue.js web application.
-
-> [!IMPORTANT]
-> Starting in Visual Studio 2022, you can alternatively [create a Vue project](../javascript/tutorial-create-vue-app.md) using the recommended [CLI-based project type](https://devblogs.microsoft.com/visualstudio/the-new-javascript-typescript-experience-in-vs-2022-preview-3/). The information in this article applies only to the Node.js project type (.njsproj).
 
 ## Prerequisites
 
