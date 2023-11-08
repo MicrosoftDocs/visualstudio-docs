@@ -67,7 +67,7 @@ For Visual Studio 2017 and later, these copies of the PIAs are installed to foll
 
 ### Primary interop assemblies in the global assembly cache
 
-To perform certain development tasks, the PIAs must be installed and registered in the global assembly cache on the development computer. Typically, the PIAs are installed automatically when you install Office on the development computer. For more information, see [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md).
+To perform certain development tasks, the PIAs must be installed and registered in the global assembly cache on the development computer. Typically, the PIAs are installed automatically when you install Office on the development computer. For more information, see [Configure a computer to develop Office solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md).
 
 The Office PIAs aren't required on end-user computers to run Office solutions. For more information, see [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md).
 
