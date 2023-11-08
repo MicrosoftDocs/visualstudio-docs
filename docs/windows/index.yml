@@ -24,9 +24,9 @@ highlightedContent:
    - title: Visual Studio 2022
      itemType: whats-new
      url: ../ide/whats-new-visual-studio-2022.md
-   - title: Browse Visual Studio training
-     itemType: learn
-     url: /training/browse/?products=vs
+   - title: AI-assisted development
+     itemType: get-started
+     url: ../ide/ai-assisted-development-visual-studio.md
 
 conceptualContent:
   title: Get started
@@ -48,7 +48,7 @@ conceptualContent:
         - text: Open code from a repo
           url: ../get-started/tutorial-open-project-from-repo.md
           itemType: tutorial
-        - text: Get AI assistance for development tasks
+        - text: Use AI when developing
           url: ../ide/ai-assisted-development-visual-studio.md
           itemType: overview
     - title: Follow a tutorial
