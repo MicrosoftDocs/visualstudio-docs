@@ -1,6 +1,6 @@
 ---
 title: "First look at deployment"
-description: "Learn about your options for deploying apps from Visual Studio."
+description: Explore application deployment options in Visual Studio, including Azure, the web, network shares, devices, Microsoft Store, and Windows desktop installer packages.
 ms.date: 03/23/2023
 ms.topic: conceptual
 dev_langs:
