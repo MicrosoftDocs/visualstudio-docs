@@ -22,17 +22,10 @@ If you haven't installed Visual Studio, go to the [Visual Studio downloads](http
 The first thing you see after you launch Visual Studio is the start window. The start window is designed to help you "get to code" faster. It has options to close or check out code, open an existing project or solution, create a new project, or simply open a folder that contains some code files.
 
 ::: moniker range=">=vs-2022"
-<<<<<<< HEAD
-![Screenshot of the start window in Visual Studio 2022](media/vs-2022/start-window.png)
-::: moniker-end
-::: moniker range="<=vs-2019"
-![Screenshot of the start window in Visual Studio 2019](media/vs-2019/start-window.png)
-=======
 ![Screenshot of the start window in Visual Studio 2022.](media/vs-2022/start-window.png)
 ::: moniker-end
 ::: moniker range="<=vs-2019"
 ![Screenshot of the start window in Visual Studio 2019.](media/vs-2019/start-window.png)
->>>>>>> fc81993905fd06f1eda7fe0b9659e468ee56aa18
 ::: moniker-end
 
 If this is the first time you're using Visual Studio, your recent projects list will be empty.
