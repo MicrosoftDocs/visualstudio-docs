@@ -1876,6 +1876,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/vsto/configuring-a-computer-to-develop-office-solutions.md",
+      "redirect_url": "/visualstudio/vsto/how-to-configure-a-computer-to-develop-office-solutions",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/vsto/troubleshooting-office-solution-deployment.md",
       "redirect_url": "/troubleshoot/developer/visualstudio/tools-utilities/troubleshooting-office-solution-deployment",
       "redirect_document_id": false
