@@ -36,7 +36,7 @@ To roll back the transaction, throw an exception prior to calling the <xref:Syst
 
 1. On the **Project** menu, select **Add Reference**.
 
-2. On the **.NET** tab (**SQL Server** tab for SQL Server projects), select **System.Transactions**, and then select **OK**.
+2. On the *`.NET`* tab (**SQL Server** tab for SQL Server projects), select **System.Transactions**, and then select **OK**.
 
      A reference to *System.Transactions.dll* is added to the project.
 

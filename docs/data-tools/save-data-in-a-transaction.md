@@ -27,6 +27,8 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
 
 ## Prerequisites
 
+To complete this tutorial, you need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify. See [Modify Visual Studio](../install/modify-visual-studio.md).
+
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
 1. If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **.NET desktop development** workload, or as an individual component.
@@ -45,7 +47,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ## Create a Windows Forms application
 
-The first step is to create a **Windows Forms Application**.
+The first step is to create a **Windows Forms App (.NET Framework)**.
 
 1. In Visual Studio, on the **File** menu, select **New** > **Project**.
 
@@ -107,7 +109,7 @@ Transactions use the <xref:System.Transactions> namespace. A project reference t
 
 1. On the **Project** menu, select **Add Reference**.
 
-2. Select **System.Transactions** (on the **.NET** tab), and then select **OK**.
+2. Select **System.Transactions** (on the *`.NET`* tab), and then select **OK**.
 
      A reference to **System.Transactions** is added to the project.
 

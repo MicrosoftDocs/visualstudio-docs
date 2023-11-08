@@ -31,7 +31,7 @@ This article demonstrates a simple way to quickly get data out of a database. If
 
 To create the application, you need:
 
-- Visual Studio.
+- Visual Studio with the **.NET desktop development** and **Data storage and processing** workloads installed. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify.
 
 - SQL Server Express LocalDB. If you don't have SQL Server Express LocalDB, you can install it from the [SQL Server download page](https://www.microsoft.com/sql-server/sql-server-downloads).
 

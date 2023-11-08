@@ -24,7 +24,7 @@ The return type of a <xref:System.Data.Linq.DataContext> method (created based o
 
 2. Select **Return Type** in the **Properties** window and then select an available entity class in the **Return Type** list. If the desired entity class is not in the list, add it to or create it in the **O/R Designer** to add it to the list.
 
-3. Save the *.dbml* file.
+3. Save the `.dbml` file.
 
 ## To change the return type of a DataContext method from an entity class back to the auto-generated type
 
@@ -32,7 +32,7 @@ The return type of a <xref:System.Data.Linq.DataContext> method (created based o
 
 2. Drag the database object from **Server Explorer** or **Database Explorer** onto an empty area of the **O/R Designer**.
 
-3. Save the *.dbml* file.
+3. Save the `.dbml` file.
 
 ## See also
 

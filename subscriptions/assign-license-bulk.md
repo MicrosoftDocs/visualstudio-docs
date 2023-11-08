@@ -3,7 +3,7 @@ title: Assign Visual Studio subscriptions to multiple users
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 10/13/2023
+ms.date: 11/02/2023
 ms.topic: conceptual
 description:  Learn how admins can assign multiple subscriptions at one time.
 ---
@@ -12,7 +12,7 @@ description:  Learn how admins can assign multiple subscriptions at one time.
 
 The Subscriptions Administration Portal lets you add users one-at-a-time, or in large groups.  To add individual users, see [Add single users](assign-license.md).
 
-To add large groups of users, you can use the bulk add feature, or if your organization is using Microsoft Entra ID Groups **and your organization has a trusted agreement**, you can use Entra ID groups. This article explains the process for both options.  Watch this video or read on to learn more about the bulk add feature. 
+To add large groups of users, you can use the bulk add feature, or if your organization is using Microsoft Entra ID **and your organization has a trusted agreement**, you can use Entra ID groups. This article explains the process for both options.  Watch this video or read on to learn more about the bulk add feature. 
 
 ## Use Bulk add to assign subscriptions
 
@@ -29,7 +29,7 @@ To add large groups of users, you can use the bulk add feature, or if your organ
    > ![Download the Excel template to upload multiple subscribers](media/download-template-upload-subscribers.png "Screenshot of the Upload multiple subscribers dialog.  The link to download the template is highlighted.")
    >
    > [!NOTE]
-   > Always download the latest version of this template. If you use an older version, your bulk upload may fail.
+   > Always download the latest version of this template. If you use an older version, your bulk upload can fail.
 
 1. In the Excel spreadsheet, fill out the fields with the information for the individuals that you want to assign subscriptions to. (*Reference* is an optional field.) Save the file locally after you're done.
 
@@ -40,7 +40,7 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 
     + Ensure that none of the form fields contain commas.
     + Remove spaces before and after values in form fields.
-    + Make sure user's names don't contain extra spaces between two-part first or last names. For example, if a person has a two-part first name such as "Maggie May", it should be typed as "MaggieMay" because the system won't trim the extra space.
+    + Make sure user's names don't contain extra spaces between two-part first or last names. For example, if a person has a two-part first name such as "Maggie May," it should be typed as "MaggieMay" because the system doesn't trim the extra space.
     + Make sure all required fields are completed. 
     + Check the **Error message** column.  If any errors are listed, resolve them before attempting to upload the file. 
 
@@ -73,14 +73,14 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 
 ## Use Entra ID groups to assign subscriptions 
 
-Using this feature makes it easy to stay on top of your subscription assignments. Add Entra ID Security Groups in the Subscriptions Administration Portal to ensure that everyone in the group is assigned a subscription. When members leave your organization and are removed from Entra ID, their access to subscriptions is also removed automatically for you. 
+Using this feature makes it easy to stay on top of your subscription assignments. Add Entra ID groups in the Subscriptions Administration Portal to ensure that everyone in the group is assigned a subscription. When members leave your organization and are removed from Entra ID, their access to subscriptions is also removed automatically for you. 
 
 
 > [!IMPORTANT]
 >
 > The following limitations apply to the use of Entra ID groups for adding subscribers:
 > + **Only TRUSTED agreements are can use Entra ID groups. (Only agreements who can 'overallocate' subscriptions are trusted.)**
-> + The admin must be a member of the Entra ID tenant when initially adding a group to the admin portal.  After the group has been added, changes to the membership of the groups does not require admin involvement. 
+> + The admin must be a member of the Microsoft Entra tenant when initially adding a group to the admin portal.  After the group has been added, changes to the membership of the groups does not require admin involvement. 
 > + Groups must contain at least one member.  Empty groups are not supported.
 > + All users must be in the top level of the group.  Nested groups are not supported.
 > + All members of the group must have an email address associated with their Entra ID account.
@@ -114,9 +114,9 @@ Using this feature makes it easy to stay on top of your subscription assignments
 8. Select **View subscribers** to display the members of the group. You can view details about the subscribers in the group.  However, you can't make any edits to the subscribers or the subscriptions assigned to them.    
 
 > [!NOTE]
-> If you've already assigned subscriptions individually to users who are subsequently added as part of an Entra ID group, they will be added as part of the group and will no longer be listed individually. However, if the individual subscription is for a different subscription level, they will have two subscriptions.  Example:  If a user has an individual Visual Studio Professional subscription, and they are a member of a group to which you assign Visual Studio Enterprise subscriptions, they will have both.  
+> If you've already assigned subscriptions individually to users who are subsequently added as part of an Entra ID group, they will be added as part of the group and will no longer be listed individually. If the individual subscription is for a different subscription level, however, they will have two subscriptions.  Example:  If a user has an individual Visual Studio Professional subscription, and they are a member of a group to which you assign Visual Studio Enterprise subscriptions, they will have both.  
 >
-> If you remove a subscriber from an Entra ID group that has had subscriptions assigned to it, it may take up to 24 hours for the update to be reflected in the admin portal. 
+> If you remove a subscriber from an Entra ID group that has had subscriptions assigned to it, it can take up to 24 hours for the update to be reflected in the admin portal. 
 
 
 ## Frequently asked questions
@@ -130,7 +130,7 @@ A: The feature is currently only available to organizations with trusted agreeme
 
 ### Q: I added users to my Entra ID group, but they don’t have subscriptions yet. Why? 
 
-A: If the changes were made directly in Entra ID the subscriptions should be assigned quickly.  If the changes were made in an on-premises Active Directory, it first needs to be synced to Entra ID. Depending how your on-premises Active Directory is configured, the changes could take up to 24 hours to be reflected. If it has been longer than 24 hours, our [support team can help troubleshoot any issues](https://aka.ms/vsadminhelp). 
+A: If the changes were made directly in Entra ID the subscriptions should be assigned quickly.  If the changes were made in an on-premises Active Directory, it first needs to be synced to Entra ID. Depending how your on-premises Active Directory is configured, the changes could take up to 24 hours to be reflected. If it takes  longer than 24 hours, our [support team can help troubleshoot any issues](https://aka.ms/vsadminhelp). 
 
 ### Q: Can I choose multiple subscription levels to be assigned within an Entra ID group?
 
@@ -138,7 +138,7 @@ A: No--Everyone in the group receives the same subscription level.
 
 ### Q: Can I edit subscriber details of individuals added in an Entra ID group?
 
-A: No--To modify information for an individual subscriber, remove them from the Entra ID security group and assign them a subscription individually.
+A: No--To modify information for an individual subscriber, remove them from the Entra ID group and assign them a subscription individually.
 
 ### Q: Can I add separate notification email addresses for members of an Entra ID group?
 

@@ -28,7 +28,7 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException?displayProperty
 
 This walkthrough takes you through the following process:
 
-1. Create a new **Windows Forms Application** project.
+1. Create a new **Windows Forms App (.NET Framework)** project.
 
 2. Create a new dataset based on the Northwind Customers table.
 
