@@ -33,9 +33,16 @@ To decide which tools and results to use, consider the following options:
 
 ## <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Collect profiling data while debugging
 
+::: moniker range=">=vs-2022"
+When you start debugging in Visual Studio by selecting **Debug** > **Start Debugging**, or pressing **F5**, the **Diagnostic Tools** window appears by default. To open it manually, select **Debug** > **Windows** > **Show Diagnostic Tools**. The **Diagnostic Tools** window shows information about events, process memory, CPU usage, and .NET Counters.
+
+![Screenshot of the Diagnostic Tools window](../profiling/media/vs-2022/diagnostic-tools-window.png "Diagnostic Tools Window")
+::: moniker-end
+::: moniker range="<=vs-2019"
 When you start debugging in Visual Studio by selecting **Debug** > **Start Debugging**, or pressing **F5**, the **Diagnostic Tools** window appears by default. To open it manually, select **Debug** > **Windows** > **Show Diagnostic Tools**. The **Diagnostic Tools** window shows information about events, process memory, and CPU usage.
 
 ![Screenshot of the Diagnostic Tools window](../profiling/media/diagnostictoolswindow.png "Diagnostic Tools Window")
+::: moniker-end
 
 - Use the **Settings** icon in the toolbar to select whether to view **Memory Usage**, **UI Analysis**, and **CPU Usage**.
 

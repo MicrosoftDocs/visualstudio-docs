@@ -1,7 +1,7 @@
 ---
 title: "Instrumentation"
 description: Learn about the tools you can use to instrument your applications.
-ms.date: "03/31/2023"
+ms.date: "11/09/2023"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
