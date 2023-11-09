@@ -1,6 +1,6 @@
 ---
 title: Create a dataset for .NET Framework applications using the Dataset Designer
-description: In this walkthrough, create a ADO.NET dataset using the Dataset Designer in Visual Studio for .NET Framework applications. Understand the process of creating a new project and adding a new DataSet item to it.
+description: Create an ADO.NET dataset with the Dataset Designer in Visual Studio for .NET Framework applications and build a new project with a DataSet item.
 ms.date: 11/01/2023
 ms.topic: conceptual
 helpviewer_keywords:

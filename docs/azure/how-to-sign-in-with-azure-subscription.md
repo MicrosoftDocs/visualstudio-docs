@@ -1,6 +1,6 @@
 ---
 title: "Sign in with an Azure subscription"
-description: "Learn how to sign into Azure in Visual Studio."
+description: Sign into Visual Studio for Windows with an Azure subscription and access Azure resources across one or more Azure subscriptions.
 author: ghogen
 ms.technology: vs-azure
 ms.author: ghogen
