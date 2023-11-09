@@ -68,9 +68,9 @@ If you don't have access to another database, and you don't see LocalDB installe
 
 In Visual Studio 2022 version 17.8 and later, the dialog includes two new options (**Encrypt** and **Trust Server Certificate**) that go into the connection string and affect the security settings used for your connection. These options support the stricter security features of the Microsoft.Data.SqlClient 4.0 database driver. See [Changes in encryption and certificate validation behavior](/sql/connect/ado-net/encryption-and-certificate-validation?changes-in-encryption-and-certificate-validation-behavior).
 
-The main change for Microsoft.Data.SqlClient 4.0 is that **Encrypt** is set to true by default. For best security, you should use encryption and install a certificate on the server for it. See [Encryption and certificate validation](/sql/connect/ado-net/encryption-and-certificate-validation). To opt out of this enhanced security, set **Encrypt** to **Optional (False)**.
+For best security, you should use encryption and install a certificate on the server for it. See [Encryption and certificate validation](/sql/connect/ado-net/encryption-and-certificate-validation). To opt out of this enhanced security, set **Encrypt** to **Optional (False)**.
 
-If you don't set **Encrypt** to optional with version 4.0 of the Microsoft.Data.SqlClient, then encryption defaults to mandatory. This is a breaking change from the behavior in earlier versions. If you don't have a valid certificate or don't choose **Trust Server Certificate**, you get the following error message:
+If you don't set **Encrypt** to optional with Visual Studio 17.8 or later, which use version 4.0 of the Microsoft.Data.SqlClient, then encryption defaults to mandatory. This is a breaking change from the behavior in earlier versions. If you don't have a valid certificate or don't choose **Trust Server Certificate**, you get the following error message:
 
 > Encryption was enabled on this connection, review your SSL and certificate configuration for the target SQL Server, or enable 'Trust server certificate' in the connection dialog.
 >
