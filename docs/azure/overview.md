@@ -103,15 +103,15 @@ Learn more at [What is Azure Cache for Redis?](/azure/azure-cache-for-redis/cach
 
 ### Authenticating users
 
-Most web sites need some kind of user management and authentication mechanism, either site-specific or provided by an identity provider with which a user has an existing account. Built-in user authentication is supported in Azure App Service. Learn more at [Authentication and authorization in Azure App Service and Azure Functions](/azure/app-service/overview-authentication-authorization) and get started with [Add app authentication to your web app running on Azure App Service](/azure/app-service/scenario-secure-app-authentication-app-service). Microsoft Entra, previously known as Azure Active Directory (Azure AD), is a full-featured cloud-based identity management service. Learn more at [What is Microsoft Entra](/azure/active-directory/fundamentals/whatis).
+Most web sites need some kind of user management and authentication mechanism, either site-specific or provided by an identity provider with which a user has an existing account. Built-in user authentication is supported in Azure App Service. Learn more at [Authentication and authorization in Azure App Service and Azure Functions](/azure/app-service/overview-authentication-authorization) and get started with [Add app authentication to your web app running on Azure App Service](/azure/app-service/scenario-secure-app-authentication-app-service). Microsoft Entra ID(previously known as Azure Active Directory) is a full-featured cloud-based identity management service. Learn more at [What is Microsoft Entra](/azure/active-directory/fundamentals/whatis).
 
 Supported authentication providers include:
 
 - Social accounts: Facebook, Google, Microsoft account, and others
-- Azure AD accounts (from a single tenant)
-- Azure AD accounts (from multiple different tenants)
+- Microsoft Entra accounts (from a single tenant)
+- Microsoft Entra accounts (from multiple different tenants)
 
-Learn how to start using these services in your apps at [Connect to Azure Active Directory by using Connected Services in Visual Studio](vs-active-directory-add-connected-service.md).
+Learn how to start using these services in your apps at [Connect to Microsoft Entra ID by using Connected Services in Visual Studio](vs-active-directory-add-connected-service.md).
 
 ### App Configuration
 

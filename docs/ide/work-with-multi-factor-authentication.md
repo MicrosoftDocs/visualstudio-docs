@@ -122,7 +122,7 @@ If you're experiencing CA/MFA issues and/or are unable to log in even when using
 1. Sign in again.
 
 > [!NOTE]
-> After these steps you'll likely be able to log in, but your account will be put in a filtered state. While in a filtered state, only your account's default tenant and resources will be available. All other Azure Active Directory tenants and resources will become inaccessible, but you can [manually add them back](#how-to-opt-out-of-using-a-specific-azure-active-directory-tenant-in-visual-studio).
+> After these steps you'll likely be able to log in, but your account will be put in a filtered state. While in a filtered state, only your account's default tenant and resources will be available. All other Microsoft Entra tenants and resources will become inaccessible, but you can [manually add them back](#how-to-opt-out-of-using-a-specific-azure-active-directory-tenant-in-visual-studio).
 
 ### Pre-authorization issues
 
@@ -149,7 +149,9 @@ Starting with Visual Studio 2022 version 17.5, if you see the previous error dia
 1. After setting the user variable, open Visual Studio from the Developer Command Prompt: ```devenv```.
 1. Sign in again.
 
-## How to opt out of using a specific Azure Active Directory tenant in Visual Studio
+<a name='how-to-opt-out-of-using-a-specific-azure-active-directory-tenant-in-visual-studio'></a>
+
+## How to opt out of using a specific Microsoft Entra tenant in Visual Studio
 
 Visual Studio 2019 version 16.6 and above offers the flexibility to filter out tenants individually or globally, effectively hiding them from Visual Studio. Filtering eliminates the need to authenticate with that tenant, but it also means that you won't be able to access any associated resources.
 
