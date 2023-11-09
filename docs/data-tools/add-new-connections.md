@@ -64,7 +64,7 @@ If you don't have access to another database, and you don't see LocalDB installe
 :::moniker range=">=vs-2022"
 ![Screenshot of Add New Connection dialog box.](./media/vs-2022/add-new-connection-with-trust-selected.png)
 
-In Visual Studio 2022 version 17.8 and later, the dialog includes two new options (**Encrypt** and **Trust Server Certificate**) that go into the connection string and affect the security settings used for your connection. These options support the stricter security features of the Microsoft.Data.SqlClient 4.0 database driver. See [Changes in encryption and certificate validation behavior](/sql/connect/ado-net/encryption-and-certificate-validation?changes-in-encryption-and-certificate-validation-behavior).
+In Visual Studio 2022 version 17.8 and later, the dialog includes two new options (**Encrypt** and **Trust Server Certificate**) that go into the connection string and affect the security settings used for your connection. These options support the stricter security features of the Microsoft.Data.SqlClient 4.0 database driver. See [Changes in encryption and certificate validation behavior](/sql/connect/ado-net/encryption-and-certificate-validation#changes-in-encryption-and-certificate-validation-behavior).
 
 For best security, you should use encryption and install a certificate on the server for it. See [Encryption and certificate validation](/sql/connect/ado-net/encryption-and-certificate-validation). To opt out of this enhanced security, set **Encrypt** to **Optional (False)**.
 
@@ -83,25 +83,6 @@ If you don't set **Encrypt** to optional with Visual Studio 17.8 or later, which
 You can choose from a variety of authentication types that cover a wide range of scenarios. They are as follows:
 :::image type="content" source="./media/vs-2019/authentication-options.png" alt-text="A screenshot of the different Authentication types." border = "true":::
 
-- **Windows Authentication**: This authentication method uses Windows security to authenticate users to SQL Server.
-
-- **SQL Server Authentication**: This authentication method requires that a user has a SQL Server login and password.
-
-- **Active Directory Password Authentication**: This authentication method uses the user's Active Directory password to authenticate them to SQL Server. This is the simplest authentication method to configure, but it doesn't offer any additional security features.
-
-- **Active Directory Integrated Authentication**: This authentication method uses Kerberos to authenticate users to SQL Server. Kerberos is a more secure authentication protocol than Active Directory Password Authentication, but it requires that both the client and the server are joined to an Active Directory domain.
-
-- **Active Directory Interactive Authentication**: This authentication method allows users to authenticate to SQL Server by entering their Active Directory credentials in a dialog box. This is the most secure authentication method, but it can be inconvenient for users who must enter their credentials every time they connect to SQL Server.
-
-:::moniker range=">=vs-2022"
-
-In Visual Studio 17.8 and later, the authentication options for SQL connections reflect the branding change from Active Directory to Microsoft Entra. The options themselves have not changed, only the names.
-
-:::moniker-end
-
-
-### Summary
-
 | Authentication Method | Description |
 | --- | --- |
 | Windows Authentication | Uses the Windows security system to authenticate users. |
@@ -110,6 +91,15 @@ In Visual Studio 17.8 and later, the authentication options for SQL connections 
 | Active Directory Integrated Authentication | Uses Kerberos to authenticate users to SQL Server. |
 | Active Directory Interactive Authentication | Allow users to authenticate to SQL Server by entering their Active Directory credentials in a dialog box. |
 
+For more about connection types, see [Authentication types](/sql/ssdt/connect-to-an-existing-database-in-sql-server-data-tools#AuthTypes).
+
+:::moniker range=">=vs-2022"
+
+In Visual Studio 17.8 and later, the authentication options for SQL connections reflect the branding change from Active Directory to Microsoft Entra. The options themselves have not changed, only the names.
+
+![Screenshot showing authentication types for Visual Studio 17.8 and later.](./media/vs-2022/authentication-options-microsoft-entra.png)
+
+:::moniker-end
 
 ### MDF files
 
