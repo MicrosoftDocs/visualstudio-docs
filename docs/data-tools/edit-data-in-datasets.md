@@ -1,6 +1,6 @@
 ---
 title: Edit data in datasets using the .NET Framework
-description: Learn to edit data in datasets. Know how to edit dataset rows, insert new rows into a dataset, determine if there are changed rows, and locate rows with errors.
+description: Edit data in datasets with the .NET Framework and Visual Studio and insert new rows into a dataset, identify changed rows, and find rows with errors.
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:

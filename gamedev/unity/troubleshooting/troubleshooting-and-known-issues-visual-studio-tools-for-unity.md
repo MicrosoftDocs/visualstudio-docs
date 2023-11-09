@@ -1,6 +1,6 @@
 ---
 title: "Troubleshooting and known issues (VS Tools for Unity)"
-description: Read about troubleshooting in Visual Studio Tools for Unity. See descriptions of known issues, and learn about solutions to those issues.
+description: Troubleshoot Visual Studio Tools for Unity, review known issues and solutions for connections, program execution, project compatibility, debugging, and IntelliSense.
 ms.date: "04/04/2022"
 ms.technology: vs-unity-tools
 ms.prod: visual-studio
