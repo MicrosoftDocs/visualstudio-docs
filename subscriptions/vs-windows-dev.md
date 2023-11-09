@@ -16,7 +16,7 @@ Your Windows Developer Account, included with selected Visual Studio subscriptio
 To use your Windows Developer Account, you need to set up an account or sign in using an existing account.
 
 > [!IMPORTANT]
-> Creation of a Windows Developer account requires the use of a Microsoft Account (MSA).  Use of Microsoft Entra ID accounts is not supported.  
+> Creation of a Windows Developer account requires the use of a Microsoft Account (MSA).  Use of Microsoft Entra accounts is not supported.  
 
 We recommend that you create a "private" browser window for this process.  For example, in Google Chrome, create a new "incognito" window.  In Internet Explorer, create a new "InPrivate" window.
 
