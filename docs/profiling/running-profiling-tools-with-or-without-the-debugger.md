@@ -66,11 +66,23 @@ During a debugging session, the Events tab of the Diagnostic Tools window lists 
 
 Use the **Filter** drop-down list to filter events in and out of view, by selecting or clearing specific categories of events.
 
+::: moniker range=">=vs-2022"
+![Screenshot of Diagnostic Event filter](../profiling/media/vs-2022/diagnostic-event-filter.png "Diagnostic Event Filter")
+::: moniker-end
+::: moniker range="<=vs-2019"
 ![Screenshot of Diagnostic Event filter](../profiling/media/diagnosticeventfilter.png "Diagnostic Event Filter")
+::: moniker-end
 
+::: moniker range=">=vs-2022"
+Use the search box to find a specific string in the event list. Here are the results of a search for the file name *model* that matched three events:
+
+![Screenshot of Diagnostic Event search](../profiling/media/vs-2022/diagnostics-event-search.png "Diagnostic Event Search")
+::: moniker-end
+::: moniker range="<=vs-2019"
 Use the search box to find a specific string in the event list. Here are the results of a search for the string *name* that matched four events:
 
 ![Screenshot of Diagnostic Event search](../profiling/media/diagnosticseventsearch.png "Diagnostic Event Search")
+::: moniker-end
 
 For more information, see [Searching and filtering the Events tab of the Diagnostic Tools window](https://devblogs.microsoft.com/devops/searching-and-filtering-the-events-tab-of-the-diagnostic-tools-window/).
 
