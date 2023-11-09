@@ -1,6 +1,6 @@
 ---
 title: Creating Custom Project and Item Templates
-description: Learn how template creation templates in the Visual Studio SDK let you include templates in larger extensions.
+description: Use the creation templates in the Visual Studio SDK to build custom projects and custom items, and include templates in larger extensions.
 ms.date: 3/16/2019
 ms.topic: overview
 author: maiak
