@@ -1,7 +1,7 @@
 ---
 title: Connect to a database or open an MDF file in Visual Studio
 description: Connect to a database or data service with ADO.NET in Visual Studio, or connect to a database opened from an MDF file in Visual Studio.
-ms.date: 03/07/2023
+ms.date: 11/09/2023
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
@@ -11,8 +11,6 @@ ms.technology: vs-data-tools
 # Connect to a database in Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
-[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 The steps in this article show how to connect to a data source in the Visual Studio IDE. The data source can be a local database, online data service, or a database opened from an `.mdf` file. You can work directly with your data in Visual Studio. You can execute queries, edit data, create and edit tables and other schema properties, edit stored procedures and functions, triggers, and so on. These functions are independent of the programming language or .NET version you are using.
 
@@ -78,9 +76,40 @@ If you don't set **Encrypt** to optional with Visual Studio 17.8 or later, which
 >
 > A connection was successfully established with the server, but then an error occurred during the login process. (provider: SSL Provider, error: 0 - The certificate chain was issued by an authority that is not trusted.) (Microsoft SQL Server)
 
-Also, in Visual Studio 17.8 and later, the authentication options for SQL connections reflect the branding change from Active Directory to Microsoft Entra. The options themselves have not changed, only the names.
+:::moniker-end
+
+### Authentication types
+
+You can choose from a variety of authentication types that cover a wide range of scenarios. They are as follows:
+:::image type="content" source="./media/vs-2019/authentication-options.png" alt-text="A screenshot of the different Authentication types." border = "true":::
+
+- **Windows Authentication**: This authentication method uses Windows security to authenticate users to SQL Server.
+
+- **SQL Server Authentication**: This authentication method requires that a user has a SQL Server login and password.
+
+- **Active Directory Password Authentication**: This authentication method uses the user's Active Directory password to authenticate them to SQL Server. This is the simplest authentication method to configure, but it doesn't offer any additional security features.
+
+- **Active Directory Integrated Authentication**: This authentication method uses Kerberos to authenticate users to SQL Server. Kerberos is a more secure authentication protocol than Active Directory Password Authentication, but it requires that both the client and the server are joined to an Active Directory domain.
+
+- **Active Directory Interactive Authentication**: This authentication method allows users to authenticate to SQL Server by entering their Active Directory credentials in a dialog box. This is the most secure authentication method, but it can be inconvenient for users who must enter their credentials every time they connect to SQL Server.
+
+:::moniker range=">=vs-2022"
+
+In Visual Studio 17.8 and later, the authentication options for SQL connections reflect the branding change from Active Directory to Microsoft Entra. The options themselves have not changed, only the names.
 
 :::moniker-end
+
+
+### Summary
+
+| Authentication Method | Description |
+| --- | --- |
+| Windows Authentication | Uses the Windows security system to authenticate users. |
+| SQL Server Authentication | Allows users to create a separate SQL Server login and password. |
+| Active Directory Password Authentication | Uses the user's Active Directory password to authenticate them to SQL Server. |
+| Active Directory Integrated Authentication | Uses Kerberos to authenticate users to SQL Server. |
+| Active Directory Interactive Authentication | Allow users to authenticate to SQL Server by entering their Active Directory credentials in a dialog box. |
+
 
 ### MDF files
 
