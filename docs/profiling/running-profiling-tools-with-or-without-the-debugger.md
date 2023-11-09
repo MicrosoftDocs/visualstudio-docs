@@ -26,6 +26,7 @@ To decide which tools and results to use, consider the following options:
   - The debugger itself changes performance times, as it does necessary debugger operations like intercepting exception and module load events.
   - Release build performance numbers in the Performance Profiler are the most precise and accurate. Debugger-integrated tool results are most useful to compare with other debugging-related measurements, or to use debugger features.
   - Some tools, such as the .NET Object Allocation tool, are only available for non-debugger scenarios.
+
 - Debug vs. release build
   - For problems caused by CPU-intensive calls, there might be considerable performance differences between release and debug builds. Check to see whether the issue exists in release builds.
   - If the problem occurs only during debug builds, you probably don't need to run the non-debugger tools. For release build problems, decide whether features provided by the debugger-integrated tools will help to pinpoint the problem.
@@ -96,13 +97,23 @@ To collect performance data without debugging, you can run the Performance Profi
 
 1. On the diagnostic tools launch page, select one or more tools to run. Only the tools that are applicable to the project type, operating system, and programming language are shown. Select **Show all tools** to also see tools that are disabled for this diagnostic session.
 
+   ::: moniker range=">=vs-2022"
+   ![Screenshot of diagnostic tools](../profiling/media/vs-2022/perf-profiler-summary-page.png "DIAG_SelectTool")
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
    ![Screenshot of diagnostic tools](../profiling/media/diaghubsummarypage.png "DIAG_SelectTool")
+   ::: moniker-end
 
 1. To start the diagnostic session, select **Start**.
 
-   While the session is running, some tools show graphs of real-time data on the diagnostic tools page, and controls to pause and resume data collection.
+   While the session is running, some tools show graphs of real-time data on the diagnostic tools page, and might show options to pause and resume data collection.
 
-    ![Screenshot of data collection on the Performance Profiler](../profiling/media/diaghubcollectdata.png "Hub collect data")
+   ::: moniker range=">=vs-2022"
+   ![Screenshot of data collection on the Performance Profiler](../profiling/media/vs-2022/perf-profiler-collect-data.png "Diag collect data")
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
+   ![Screenshot of data collection on the Performance Profiler](../profiling/media/diaghubcollectdata.png "Hub collect data")
+   ::: moniker-end
 
 1. To end the diagnostic session, select **Stop Collection**.
 
@@ -110,7 +121,12 @@ To collect performance data without debugging, you can run the Performance Profi
 
 You can save the reports, and open them from the **Recently Opened Sessions** list on the Diagnostic Tools launch page.
 
+::: moniker range=">=vs-2022"
+![Screenshot of Diagnostic Tools Recently Opened Sessions list](../profiling/media/vs-2022/perf-profiler-open-existing-diag-session.png "PDHUB_OpenExistingDiagSession")
+::: moniker-end
+::: moniker range="<=vs-2019"
 ![Screenshot of Diagnostic Tools Recently Opened Sessions list](../profiling/media/diaghubopenexistingdiagsession.png "PDHUB_OpenExistingDiagSession")
+::: moniker-end
 
 For more information, see:
 
