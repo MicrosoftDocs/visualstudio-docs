@@ -57,9 +57,18 @@ While you are debugging, you can use the **Diagnostic Tools** window to analyze 
 The **Diagnostic Tools** window is a common way to profile apps, but for Release builds you can also do a post-mortem analysis of your app instead. For more information on different approaches, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). To see profiling tool support for different app types, see [Which tool should I use?](../profiling/choose-performance-tool.md).
 
 Tools available in the Diagnostic Tools window or during a debugging session include:
+::: moniker range=">=vs-2022"
+
+- [CPU usage](../profiling/beginners-guide-to-performance-profiling.md)
+- [Memory usage](../profiling/memory-usage.md)
+- [.NET Counters](../profiling/dotnet-counters-tool.md)
+- [PerfTips](../profiling/perftips.md)
+::: moniker-end
+::: moniker range="<=vs-2019"
 - [CPU usage](../profiling/beginners-guide-to-performance-profiling.md)
 - [Memory usage](../profiling/memory-usage.md)
 - [PerfTips](../profiling/perftips.md)
+::: moniker-end
 
 > [!TIP]
 > Use relaunch to skip the launch page and automatically run with your previous settings by pressing **Alt+F2** or by clicking **Debug > Performance Profiler**.
@@ -256,6 +265,7 @@ Starting in Visual Studio 2019 version 16.7, you can use the [.NET Counters tool
 The tool shows live values for each counter in a list view.
 
 :::image type="content" source="../profiling/media/dotnet-counters-tool-collecting.png" alt-text=".NET Counter tool collecting.":::
+
 ## Analyze resource consumption (XAML)
 
 In XAML apps, such as Windows desktop WPF apps and UWP apps, you can analyze resource consumption using the Application Timeline tool. For example, you can analyze the time spent by your application preparing UI frames (layout and render), servicing network and disk requests, and in scenarios like application startup, page load, and Window resize. To use the tool, choose **Application Timeline** in the Performance Profiler, and then choose **Start**. In your app, go through the scenario with a suspected resource consumption issue, and then choose **Stop collection** to generate the report.

@@ -1,7 +1,7 @@
 ---
 title: "Run profiling tools with or without the debugger"
 description: "Learn about differences between the different modes available for profiling tools"
-ms.date: "03/22/2023"
+ms.date: "11/09/2023"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
