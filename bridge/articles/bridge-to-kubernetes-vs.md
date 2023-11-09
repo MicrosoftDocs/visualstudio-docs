@@ -1,6 +1,6 @@
 ---
 title:  "Tutorial: Run and debug locally with Bridge to Kubernetes on Visual Studio"
-description: In this tutorial, learn to use Bridge to Kubernetes with Visual Studio to connect to a cluster and use local tunnel debugging to debug Kubernetes services.
+description: Use Bridge to Kubernetes with Visual Studio to connect to a cluster and use local tunnel debugging to debug Kubernetes services.
 keywords: "Bridge to Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, Kubernetes, Azure, containers"
 ms.author: ghogen
 author: ghogen

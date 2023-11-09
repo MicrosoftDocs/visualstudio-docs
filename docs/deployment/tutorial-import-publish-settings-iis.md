@@ -1,6 +1,6 @@
 ---
 title: "Publish to IIS by importing publish settings"
-description: "Create and import a publishing profile to deploy an application from Visual Studio to IIS"
+description: Create and import a publishing profile (.pubxml file) to deploy ASP.NET and ASP.NET Core web applications from Visual Studio to IIS.
 ms.date: 10/17/2023
 ms.topic: tutorial
 helpviewer_keywords:

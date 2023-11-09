@@ -1,6 +1,6 @@
 ---
 title: Create and configure datasets in .NET Framework applications
-description: Create and configure datasets in .NET Framework applications using ADO.NET in Visual Studio. A dataset is a set of objects that store data from a DB in memory and supports CRUD operations on that data.
+description: Create and configure datasets in .NET Framework applications with ADO.NET in Visual Studio and the Data Source Configuration Wizard.
 ms.date: 10/07/2022
 ms.topic: how-to
 helpviewer_keywords:
