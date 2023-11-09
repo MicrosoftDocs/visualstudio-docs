@@ -5,7 +5,7 @@ ms.author: ghogen
 author: ghogen
 manager: jmartens
 ms.topic: how-to
-ms.date: 10/17/2023
+ms.date: 11/08/2023
 ms.technology: vs-container-tools
 ---
 # Debug apps in a local Docker container
@@ -156,6 +156,30 @@ The following procedure demonstrates how to add orchestration support to a .NET 
    :::moniker range="<=vs-2019"
    ![Screenshot of the code window for Program.cs in Visual Studio with a breakpoint set to the left of a code line that is highlighted in yellow.](media/edit-and-refresh/breakpoint-console.png)
    ::: moniker-end
+
+:::moniker range=">=vs-2022"
+## Authenticating to Azure services using the token proxy
+
+When you're using Azure services from a container, you can use the token proxy to handle authentication to Azure services that you're consuming. The token proxy runs on the container and enables you to authenticate with Azure services with your Microsoft Entra account without any additional configuration in the container. To enable this, see [How to configure Visual Studio Container Tools](container-tools-configure.md). The token proxy is available in Visual Studio version 17.6 and later.
+
+The token proxy uses [Azure Identity](https://www.nuget.org/packages/Azure.Identity#readme-body-tab) to assist with authentication during development by using [VisualStudioCredential](/dotnet/api/azure.identity.visualstudiocredential). To use the token proxy for authentication, you need to set up Azure authentication in Visual Studio by following the instructions here: [Authenticate Visual Studio with Azure](/dotnet/azure/configure-visual-studio#authenticate-visual-studio-with-azure).
+
+### Azure Functions
+
+If you're debugging an integrated Azure Functions project and using the token proxy in the container to handle authentication to Azure services, you need to copy the .NET runtime onto the container for the token proxy to run. If you're debugging an isolated Azure Functions project, it already has the .NET runtime, so there's no need for this extra step.
+
+To ensure the .NET runtime is available to the token proxy, add or modify the `debug` layer in the Dockerfile that copies the .NET runtime into the container image. For Linux containers, you can add the following code to the Dockerfile:
+
+```dockerfile
+# This layer is to support debugging, VS's Token Proxy requires the runtime to be installed in the container
+FROM mcr.microsoft.com/dotnet/runtime:8.0 AS runtime
+FROM base as debug
+COPY --from=runtime /usr/share/dotnet /usr/share/dotnet
+RUN ln -s /usr/share/dotnet/dotnet /usr/bin/dotnet
+```
+
+For a complete example of authentication with Azure Functions, including both integrated and isolated scenarios, see [VisualStudioCredentialExample](https://github.com/NCarlsonMSFT/VisualStudioCredentialExample).
+:::moniker-end
 
 ## Container reuse
 
