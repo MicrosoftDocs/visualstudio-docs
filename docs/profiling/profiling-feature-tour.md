@@ -1,7 +1,7 @@
 ---
 title: "First look at profiling tools"
 description: "Take a brief look at the different diagnostic tools available in Visual Studio."
-ms.date: 04/24/2023
+ms.date: 11/09/2023
 ms.topic: conceptual
 f1_keywords:
   - vs.diagnosticshub.overview
@@ -38,12 +38,14 @@ The profiling tools that you can access during a debugging session are available
 
 ::: moniker range=">=vs-2022"
 ![Diagnostic Tools window](../profiling/media/vs-2022/prof-tour-diagnostic-tools.png "Diagnostic Tools")
+
+While you are debugging, you can use the **Diagnostic Tools** window to analyze CPU, memory usage, .NET counters, and you can view events that show performance-related information.
 ::: moniker-end
 ::: moniker range="<=vs-2019"
 ![Diagnostic Tools window](../profiling/media/prof-tour-diagnostic-tools.png "Diagnostic Tools")
-::: moniker-end
 
 While you are debugging, you can use the **Diagnostic Tools** window to analyze CPU and memory usage, and you can view events that show performance-related information.
+::: moniker-end
 
 ::: moniker range=">=vs-2022"
 ![Diagnostic Tools Summary view](../profiling/media/vs-2022/prof-tour-cpu-and-memory-graph.png "Diagnostic Tools Summary")
