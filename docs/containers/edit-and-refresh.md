@@ -160,7 +160,6 @@ The following procedure demonstrates how to add orchestration support to a .NET 
 :::moniker range=">=vs-2022"
 ## Authenticating to Azure services using the token proxy
 
-I'm worried that this is more information than is helpful. Consider:
 When you're using Azure services from a container, you can use [DefaultAzureCredential](/dotnet/api/azure.identity.defaultazurecredential) (with the [VisualStudioCredential](/dotnet/api/azure.identity.visualstudiocredential) enabled) to authenticate with Azure services with your Microsoft Entra account without any additional configuration in the container. To enable this, see [How to configure Visual Studio Container Tools](container-tools-configure.md). Also, you need to set up Azure authentication in Visual Studio by following the instructions at [Authenticate Visual Studio with Azure](/dotnet/azure/configure-visual-studio#authenticate-visual-studio-with-azure). The support for VisualStudioCredential in a container is available in Visual Studio version 17.6 and later.
 
 ### Azure Functions
