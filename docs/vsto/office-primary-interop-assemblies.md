@@ -88,7 +88,7 @@ If you've installed and registered the PIAs in the global assembly cache, these 
 
 ## Primary interop assemblies for Microsoft Office applications
 
-The following table lists the primary interop assemblies that are available for  Office 2016 ,  Office 2013  and Office 2010.
+The following table lists the primary interop assemblies that are available for  Office 2016, Office 2013, and Office 2010.
 
 <br/>
 
@@ -108,7 +108,7 @@ The following table lists the primary interop assemblies that are available for 
 |Microsoft Publisher 14.0 Object Library<br /><br /> Microsoft Publisher 15.0 Object Library|Microsoft.Office.Interop.Publisher.dll|
 |Microsoft SharePoint Designer 14.0 Web Object Reference Library|Microsoft.Office.Interop.SharePointDesigner.dll|
 |Microsoft SharePoint Designer 14.0 Page Object Reference Library|Microsoft.Office.Interop.SharePointDesignerPage.dll|
-|Microsoft Smart Tags 2.0 Type Library **Note:**  Smart tags are deprecated in  Excel 2010  and  Word 2010 .|Microsoft.Office.Interop.SmartTag.dll|
+|Microsoft Smart Tags 2.0 Type Library **Note:**  Smart tags are deprecated in  Excel 2010 and Word 2010.|Microsoft.Office.Interop.SmartTag.dll|
 |Microsoft Visio 14.0 Type Library<br /><br /> Microsoft Visio 15.0 Type Library|Microsoft.Office.Interop.Visio.dll|
 |Microsoft Visio 14.0 Save As Web Type Library<br /><br /> Microsoft Visio 15.0 Save As Web Type Library|Microsoft.Office.Interop.Visio.SaveAsWeb.dll|
 |Microsoft Visio 14.0 Drawing Control Type Library<br /><br /> Microsoft Visio 15.0 Drawing Control Type Library|Microsoft.Office.Interop.VisOcx.dll|
