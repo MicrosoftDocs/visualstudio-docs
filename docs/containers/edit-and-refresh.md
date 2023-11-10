@@ -160,9 +160,8 @@ The following procedure demonstrates how to add orchestration support to a .NET 
 :::moniker range=">=vs-2022"
 ## Authenticating to Azure services using the token proxy
 
-When you're using Azure services from a container, you can use the token proxy to handle authentication to Azure services that you're consuming. The token proxy runs on the container and enables you to authenticate with Azure services with your Microsoft Entra account without any additional configuration in the container. To enable this, see [How to configure Visual Studio Container Tools](container-tools-configure.md). Also, you need to set up Azure authentication in Visual Studio by following the instructions here: [Authenticate Visual Studio with Azure](/dotnet/azure/configure-visual-studio#authenticate-visual-studio-with-azure). The token proxy is available in Visual Studio version 17.6 and later.
-
-You don't access the token proxy directly; instead, use [VisualStudioCredential](/dotnet/api/azure.identity.visualstudiocredential) or [DefaultAzureCredential](/dotnet/api/azure.identity.defaultazurecredential) (with options to enable VisualStudioCredential) which then uses the token proxy. The token proxy makes [Azure Identity](https://www.nuget.org/packages/Azure.Identity#readme-body-tab) work in the container by creating a configuration file so that `VisualStudioCredential` calls into the token proxy to get tokens from Visual Studio running on the host.
+I'm worried that this is more information than is helpful. Consider:
+When you're using Azure services from a container, you can use [DefaultAzureCredential](/dotnet/api/azure.identity.defaultazurecredential) (with the [VisualStudioCredential](/dotnet/api/azure.identity.visualstudiocredential) enabled) to authenticate with Azure services with your Microsoft Entra account without any additional configuration in the container. To enable this, see [How to configure Visual Studio Container Tools](container-tools-configure.md). Also, you need to set up Azure authentication in Visual Studio by following the instructions at [Authenticate Visual Studio with Azure](/dotnet/azure/configure-visual-studio#authenticate-visual-studio-with-azure). The support for VisualStudioCredential in a container is available in Visual Studio version 17.6 and later.
 
 ### Azure Functions
 
@@ -193,11 +192,13 @@ For a code sample of authentication with Azure Functions, including both integra
 
 ## Container reuse
 
-When you use the Debug configuration, Visual Studio rebuilds only your container images and the container itself when you change the Dockerfile. If you don't change the Dockerfile, Visual Studio reuses the container from an earlier run.
+When you use [Fast Mode](container-build.md#debugging), which Visual Studio normally uses for the Debug configuration, Visual Studio rebuilds only your container images and the container itself when you change the Dockerfile. If you don't change the Dockerfile, Visual Studio reuses the container from an earlier run.
 
 If you manually modified your container and want to restart with a clean container image, use the **Build** > **Clean** command in Visual Studio, and then build as normal.
 
-When you're using the Release configuration, Visual Studio rebuilds the container each time the project is built.
+When you're not using Fast Mode, which is typical for the Release configuration, Visual Studio rebuilds the container each time the project is built.
+
+You can configure when Fast Mode is used; see [How to configure Visual Studio Container Tools](container-tools-configure.md).
 
 ## Troubleshoot
 
