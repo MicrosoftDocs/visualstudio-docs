@@ -98,7 +98,7 @@ To collect performance data without debugging, you can run the Performance Profi
 1. On the diagnostic tools launch page, select one or more tools to run. Only the tools that are applicable to the project type, operating system, and programming language are shown. Select **Show all tools** to also see tools that are disabled for this diagnostic session.
 
    ::: moniker range=">=vs-2022"
-   ![Screenshot of diagnostic tools](../profiling/media/vs-2022/perf-profiler-summary-page.png "DIAG_SelectTool")
+   ![Screenshot of diagnostic tools](../profiling/media/vs-2022/performance-profiler-summary-page.png "DIAG_SelectTool")
    ::: moniker-end
    ::: moniker range="<=vs-2019"
    ![Screenshot of diagnostic tools](../profiling/media/diaghubsummarypage.png "DIAG_SelectTool")
@@ -109,7 +109,7 @@ To collect performance data without debugging, you can run the Performance Profi
    While the session is running, some tools show graphs of real-time data on the diagnostic tools page, and might show options to pause and resume data collection.
 
    ::: moniker range=">=vs-2022"
-   ![Screenshot of data collection on the Performance Profiler](../profiling/media/vs-2022/perf-profiler-collect-data.png "Diag collect data")
+   ![Screenshot of data collection on the Performance Profiler](../profiling/media/vs-2022/performance-profiler-collect-data.png "Diag collect data")
    ::: moniker-end
    ::: moniker range="<=vs-2019"
    ![Screenshot of data collection on the Performance Profiler](../profiling/media/diaghubcollectdata.png "Hub collect data")
@@ -122,7 +122,7 @@ To collect performance data without debugging, you can run the Performance Profi
 You can save the reports, and open them from the **Recently Opened Sessions** list on the Diagnostic Tools launch page.
 
 ::: moniker range=">=vs-2022"
-![Screenshot of Diagnostic Tools Recently Opened Sessions list](../profiling/media/vs-2022/perf-profiler-open-existing-diag-session.png "PDHUB_OpenExistingDiagSession")
+![Screenshot of Diagnostic Tools Recently Opened Sessions list](../profiling/media/vs-2022/performance-profiler-open-existing-diagnostics-session.png "PDHUB_OpenExistingDiagSession")
 ::: moniker-end
 ::: moniker range="<=vs-2019"
 ![Screenshot of Diagnostic Tools Recently Opened Sessions list](../profiling/media/diaghubopenexistingdiagsession.png "PDHUB_OpenExistingDiagSession")
