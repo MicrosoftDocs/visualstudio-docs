@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: Persist data in a container app using volumes in VS Code"
-description: In this tutorial, learn how to persist data, use bind mounts, and layer (Yarn) your app with VS Code.
+description: Persist data in named volumes, use bind mounts to control the mountpoint on the host, and layer (Yarn) your Docker application with Visual Studio Code.
 author: ghogen
 ms.author: ghogen
 ms.prod: vs-code

@@ -1,6 +1,6 @@
 ---
 title: "Cross-Platform Mobile Development in Visual Studio"
-description: In this article, learn how you can build apps for Android, iOS, and Windows devices by using Visual Studio.
+description: Build cross-platform mobile applications for Android, iOS, and Windows devices by using Visual Studio and target devices from a single code base.
 titleSuffix: ""
 ms.date: 08/26/2022
 ms.technology: vs-ide-mobile
