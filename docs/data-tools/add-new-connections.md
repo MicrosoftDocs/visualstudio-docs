@@ -84,7 +84,7 @@ You can choose from a variety of authentication types that cover a wide range of
 
 :::moniker range=">=vs-2022"
 
-In Visual Studio 17.8 and later, the names of the authentication options for SQL connections have been updated to reflect the branding change from Active Directory to Microsoft Entra.
+In Visual Studio 17.8 and later, the names of the authentication options for SQL connections have been updated to reflect the name change from Active Directory to Microsoft Entra.
 
 ![Screenshot showing authentication types for Visual Studio 17.8 and later.](./media/vs-2022/authentication-options-microsoft-entra.png)
 
