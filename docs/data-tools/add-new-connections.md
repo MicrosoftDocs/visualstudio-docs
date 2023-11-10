@@ -80,22 +80,11 @@ If you don't set **Encrypt** to optional with Visual Studio 17.8 or later, which
 
 ### Authentication types
 
-You can choose from a variety of authentication types that cover a wide range of scenarios. They are as follows:
-:::image type="content" source="./media/vs-2019/authentication-options.png" alt-text="A screenshot of the different Authentication types." border = "true":::
-
-| Authentication Method | Description |
-| --- | --- |
-| Windows Authentication | Uses the Windows security system to authenticate users. |
-| SQL Server Authentication | Allows users to create a separate SQL Server login and password. |
-| Active Directory Password Authentication | Uses the user's Active Directory password to authenticate them to SQL Server. |
-| Active Directory Integrated Authentication | Uses Kerberos to authenticate users to SQL Server. |
-| Active Directory Interactive Authentication | Allow users to authenticate to SQL Server by entering their Active Directory credentials in a dialog box. |
-
-For more about connection types, see [Authentication types](/sql/ssdt/connect-to-an-existing-database-in-sql-server-data-tools#AuthTypes).
+You can choose from a variety of authentication types that cover a wide range of scenarios. For details, see [Authentication types](/sql/ssdt/connect-to-an-existing-database-in-sql-server-data-tools#AuthTypes).
 
 :::moniker range=">=vs-2022"
 
-In Visual Studio 17.8 and later, the authentication options for SQL connections reflect the branding change from Active Directory to Microsoft Entra. The options themselves have not changed, only the names.
+In Visual Studio 17.8 and later, the names of the authentication options for SQL connections have been updated to reflect the branding change from Active Directory to Microsoft Entra.
 
 ![Screenshot showing authentication types for Visual Studio 17.8 and later.](./media/vs-2022/authentication-options-microsoft-entra.png)
 
