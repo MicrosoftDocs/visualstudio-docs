@@ -160,9 +160,9 @@ The following procedure demonstrates how to add orchestration support to a .NET 
 :::moniker range=">=vs-2022"
 ## Authenticating to Azure services using the token proxy
 
-When you're using Azure services from a container, you can use the token proxy to handle authentication to Azure services that you're consuming. The token proxy runs on the container and enables you to authenticate with Azure services with your Microsoft Entra account without any additional configuration in the container. To enable this, see [How to configure Visual Studio Container Tools](container-tools-configure.md). The token proxy is available in Visual Studio version 17.6 and later.
+When you're using Azure services from a container, you can use the token proxy to handle authentication to Azure services that you're consuming. The token proxy runs on the container and enables you to authenticate with Azure services with your Microsoft Entra account without any additional configuration in the container. To enable this, see [How to configure Visual Studio Container Tools](container-tools-configure.md). Also, you need to set up Azure authentication in Visual Studio by following the instructions here: [Authenticate Visual Studio with Azure](/dotnet/azure/configure-visual-studio#authenticate-visual-studio-with-azure). The token proxy is available in Visual Studio version 17.6 and later.
 
-The token proxy uses [Azure Identity](https://www.nuget.org/packages/Azure.Identity#readme-body-tab) to assist with authentication during development by using [VisualStudioCredential](/dotnet/api/azure.identity.visualstudiocredential). To use the token proxy for authentication, you need to set up Azure authentication in Visual Studio by following the instructions here: [Authenticate Visual Studio with Azure](/dotnet/azure/configure-visual-studio#authenticate-visual-studio-with-azure).
+You don't access the token proxy directly; instead, use [VisualStudioCredential](/dotnet/api/azure.identity.visualstudiocredential) or [DefaultAzureCredential](/dotnet/api/azure.identity.defaultazurecredential?view=azure-dotnet) (with options to enable VisualStudioCredential) which then uses the token proxy. The token proxy makes [Azure Identity](https://www.nuget.org/packages/Azure.Identity#readme-body-tab) work in the container by creating a configuration file so that `VisualStudioCredential` calls into the token proxy to get tokens from Visual Studio running on the host.
 
 ### Azure Functions
 
@@ -178,14 +178,26 @@ COPY --from=runtime /usr/share/dotnet /usr/share/dotnet
 RUN ln -s /usr/share/dotnet/dotnet /usr/bin/dotnet
 ```
 
-For a complete example of authentication with Azure Functions, including both integrated and isolated scenarios, see [VisualStudioCredentialExample](https://github.com/NCarlsonMSFT/VisualStudioCredentialExample).
+Also, in the Visual Studio project, you need to make some changes to specify this as the layer to use when debugging in Fast Mode. For an explanation of Fast Mode, see [Customize Docker containers in Visual Studio](container-build.md#debugging). For single container scenarios (not Docker Compose), set the MSBuild property `DockerfileFastModeStage` to `debug` in order to use that layer for debugging. For Docker Compose, modify the `docker-compose.vs.debug.yml` as follows:
+
+```yml
+# Set the stage to debug to use an image with the .NET runtime in it
+services:
+  functionappintegrated:
+    build:
+      target: debug
+```
+
+For a code sample of authentication with Azure Functions, including both integrated and isolated scenarios, see [VisualStudioCredentialExample](https://github.com/NCarlsonMSFT/VisualStudioCredentialExample).
 :::moniker-end
 
 ## Container reuse
 
-During the development cycle, Visual Studio rebuilds only your container images and the container itself when you change the Dockerfile. If you don't change the Dockerfile, Visual Studio reuses the container from an earlier run.
+When you use the Debug configuration, Visual Studio rebuilds only your container images and the container itself when you change the Dockerfile. If you don't change the Dockerfile, Visual Studio reuses the container from an earlier run.
 
 If you manually modified your container and want to restart with a clean container image, use the **Build** > **Clean** command in Visual Studio, and then build as normal.
+
+When you're using the Release configuration, Visual Studio rebuilds the container each time the project is built.
 
 ## Troubleshoot
 
