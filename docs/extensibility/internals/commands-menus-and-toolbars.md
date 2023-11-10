@@ -1,6 +1,6 @@
 ---
 title: Commands, Menus, and Toolbars
-description: Learn about commands, menus, and toolbars in Visual Studio, including what they are and how they work in VSPackages. 
+description: Explore the specific commands, menus, and toolbars in Visual Studio, including the available options and how the features work in VSPackages. 
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

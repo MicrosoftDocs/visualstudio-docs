@@ -1,6 +1,6 @@
 ---
 title: The Experimental Instance
-description: Learn how the Visual Studio SDK provides an experimental space to run untested applications in debug mode.
+description: Explore how the Visual Studio SDK provides an experimental space to run untested applications in debug mode and safeguard your development environment.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

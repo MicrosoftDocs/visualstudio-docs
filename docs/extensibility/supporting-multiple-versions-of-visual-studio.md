@@ -1,6 +1,6 @@
 ---
 title: Supporting Multiple Versions of Visual Studio
-description: Learn how you can support several versions of Visual Studio, with your VSPackages able to load into different versions.
+description: Support multiple versions of Visual Studio simultaneously by using VSPackages, which can install and maintain several versions of a product on the same computer. 
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
