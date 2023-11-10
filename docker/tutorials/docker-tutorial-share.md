@@ -1,7 +1,7 @@
 ---
 title: "Tutorial: Share Docker apps in Visual Studio Code"
 titleSuffix: ""
-description: In this second tutorial, you'll learn how to update and share a Docker app in Visual Studio Code.
+description: 'Share Docker applications with the Docker Visual Studio Code Extension: create the container, build the container image, and start the container.'
 author: ghogen
 ms.author: ghogen
 ms.prod: vs-code

@@ -1,7 +1,7 @@
 ---
 title: Use Kubernetes service environment variables for service to service communication
 ms.date: 08/11/2022
-description: Learn how to use Kubernetes service environment variables with Bridge to Kubernetes to enable service-to-service communication as a non-elevated user in a Kubernetes cluster
+description: Use Kubernetes service environment variables with Bridge to Kubernetes to enable service-to-service communication as a nonelevated user in a Kubernetes cluster.
 ms.author: ghogen
 author: ghogen
 manager: jmartens
