@@ -1,6 +1,6 @@
 ---
 title: Using the Active Directory connected service (Visual Studio)
-description: Add a Microsoft Entra ID by using the Visual Studio Add Connected Services dialog box
+description: Connect Microsoft Entra ID (formerly Azure Active Directory) to your application by using Connected Services in Visual Studio on Windows.
 author: ghogen
 manager: jillfra
 ms.prod: visual-studio-windows

@@ -1,6 +1,6 @@
 ---
 title: Browse and manage storage resources
-description: Browsing and managing storage resources by using Server Explorer
+description: Browse and manage your Azure Storage resources, including blob, queue, and table data by using Visual Studio Server Explorer.
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure

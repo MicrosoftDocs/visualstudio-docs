@@ -55,8 +55,6 @@ landingContent:
             url: tutorial-asp-net-core-with-vue.md
           - text: Create a web app with Node.js and Express
             url: tutorial-nodejs.md
-          - text: Create a web app with Node.js and React
-            url: tutorial-nodejs-with-react-and-jsx.md
           - text: Create an ASP.NET Core app with TypeScript
             url: tutorial-aspnet-with-typescript.md
 
@@ -75,8 +73,6 @@ landingContent:
             url: compile-typescript-code-nuget.md
           - text: Manage npm packages
             url: npm-package-management.md
-          - text: Use the Node.js interactive REPL
-            url: nodejs-interactive-repl.md
           - text: Debug your code
             url: debug-nodejs.md
           - text: Develop code without projects or solutions

@@ -1,6 +1,6 @@
 ---
 title: Windows Forms Designer tutorial
-description: Learn how to build an app using the various tools provided by Windows Forms Designer. The app is a custom control that uses many available layout features.
+description: 'Use Windows Forms Designer to build applications and arrange controls, set margins and padding, adjust layout, size, and display, and set property values.'
 ms.date: 07/10/2023
 ms.topic: tutorial
 helpviewer_keywords:

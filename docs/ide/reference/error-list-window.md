@@ -13,7 +13,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ---
-# Error List Window
+# Error List window
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
@@ -69,26 +69,30 @@ You can copy the error list and save it to a file. Select the errors you want to
 
 ## UI Element List
 
-Severity
+**Severity**
 
 Displays the different types of **Error List** entry (**Error**, **Message**, **Warning**, **Warning (active)**, **Warning (inactive)**.
 
-Code
+**Code**
 
 Displays the error code.
 
-Description
+**Description**
 
 Displays the text of the entry.
 
-Project
+**Project**
 
 Displays the name of the current project.
 
-File
+**File**
 
 Displays the file name.
 
-Line
+**Line**
 
 Displays the line where the problem occurs.
+
+**Details**
+
+Displays a clickable icon to open the [Problem Details window](../../ide/reference/problem-details-window.md) if this entry has additional details.

@@ -1,6 +1,6 @@
 ---
 title: Constructing filter strings for the table designer
-description: Constructing filter strings for the table designer
+description: Construct filter strings for Azure tables displayed in the Visual Studio Table Designer, including setting properties and using operators.
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure

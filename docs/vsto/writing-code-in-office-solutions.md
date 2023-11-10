@@ -50,7 +50,7 @@ ms.technology: office-development
  Every Microsoft Office application has a PIA. When you create an Office project in Visual Studio, a reference to the appropriate PIA is automatically added to the project. To automate the features of other Office applications from the project, you must add a reference to the appropriate PIA manually. For more information, see [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md).
 
 ### Use primary interop assemblies at design time and runtime
- You must have the Office PIAs installed and registered in the global assembly cache on your development computer to perform most development tasks. For more information, see [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md).
+ You must have the Office PIAs installed and registered in the global assembly cache on your development computer to perform most development tasks. For more information, see [Configure a computer to develop Office solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md).
 
  The Office PIAs are not required on end-user computers to run Office solutions that target the .NET Framework 4 or later. For more information, see [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md).
 

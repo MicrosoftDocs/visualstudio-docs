@@ -1,6 +1,6 @@
 ---
 title: "Publish overview"
-description: "Learn about the Publish window in Visual Studio"
+description: Explore the Publish tool in Visual Studio and deploy ASP.NET, .NET Core, and Python applications with a publishing profile (.pubxml file).
 ms.date: 10/14/2021
 ms.topic: overview
 dev_langs:
