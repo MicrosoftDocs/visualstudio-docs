@@ -119,7 +119,7 @@ The following table lists the primary interop assemblies that are available for 
 
 When you install and register the Office PIAs in the global assembly cache (either with Office or by installing the redistributable package for the PIAs), the binding redirect assemblies are also installed only in the global assembly cache. These assemblies ensure that the correct version of the primary interop assemblies is loaded at run time.
 
-For example, when a solution that references a Office 2010 assembly runs on a computer that has the  Office 2013  version of the same primary interop assembly, the binding redirect assembly instructs the .NET Framework runtime to load the  Office 2013  version of the primary interop assembly.
+For example, when a solution that references an Office 2010 assembly runs on a computer that has the  Office 2013  version of the same primary interop assembly, the binding redirect assembly instructs the .NET Framework runtime to load the  Office 2013  version of the primary interop assembly.
 
 For more information, see [How to: Enable and disable automatic binding redirection](/dotnet/framework/configure-apps/how-to-enable-and-disable-automatic-binding-redirection).
 
