@@ -37,7 +37,7 @@ To decide which tools and results to use, consider the following options:
 ::: moniker range=">=vs-2022"
 When you start debugging in Visual Studio by selecting **Debug** > **Start Debugging**, or pressing **F5**, the **Diagnostic Tools** window appears by default. To open it manually, select **Debug** > **Windows** > **Show Diagnostic Tools**. The **Diagnostic Tools** window shows information about events, process memory, CPU usage, and .NET Counters.
 
-![Screenshot of the Diagnostic Tools window](../profiling/media/vs-2022/diagnostic-tools-window.png "Diagnostic Tools Window")
+![Screenshot of the Diagnostic Tools window.](../profiling/media/vs-2022/diagnostic-tools-window.png "Diagnostic Tools Window")
 ::: moniker-end
 ::: moniker range="<=vs-2019"
 When you start debugging in Visual Studio by selecting **Debug** > **Start Debugging**, or pressing **F5**, the **Diagnostic Tools** window appears by default. To open it manually, select **Debug** > **Windows** > **Show Diagnostic Tools**. The **Diagnostic Tools** window shows information about events, process memory, and CPU usage.
@@ -68,7 +68,7 @@ During a debugging session, the Events tab of the Diagnostic Tools window lists 
 Use the **Filter** drop-down list to filter events in and out of view, by selecting or clearing specific categories of events.
 
 ::: moniker range=">=vs-2022"
-![Screenshot of Diagnostic Event filter](../profiling/media/vs-2022/diagnostic-event-filter.png "Diagnostic Event Filter")
+![Screenshot of Diagnostic Event filter.](../profiling/media/vs-2022/diagnostic-event-filter.png "Diagnostic Event Filter")
 ::: moniker-end
 ::: moniker range="<=vs-2019"
 ![Screenshot of Diagnostic Event filter](../profiling/media/diagnosticeventfilter.png "Diagnostic Event Filter")
@@ -77,7 +77,7 @@ Use the **Filter** drop-down list to filter events in and out of view, by select
 ::: moniker range=">=vs-2022"
 Use the search box to find a specific string in the event list. Here are the results of a search for the file name *model* that matched three events:
 
-![Screenshot of Diagnostic Event search](../profiling/media/vs-2022/diagnostics-event-search.png "Diagnostic Event Search")
+![Screenshot of Diagnostic Event search.](../profiling/media/vs-2022/diagnostics-event-search.png "Diagnostic Event Search")
 ::: moniker-end
 ::: moniker range="<=vs-2019"
 Use the search box to find a specific string in the event list. Here are the results of a search for the string *name* that matched four events:
@@ -98,7 +98,7 @@ To collect performance data without debugging, you can run the Performance Profi
 1. On the diagnostic tools launch page, select one or more tools to run. Only the tools that are applicable to the project type, operating system, and programming language are shown. Select **Show all tools** to also see tools that are disabled for this diagnostic session.
 
    ::: moniker range=">=vs-2022"
-   ![Screenshot of diagnostic tools](../profiling/media/vs-2022/performance-profiler-summary-page.png "DIAG_SelectTool")
+   ![Screenshot of diagnostic tools.](../profiling/media/vs-2022/performance-profiler-summary-page.png "DIAG_SelectTool")
    ::: moniker-end
    ::: moniker range="<=vs-2019"
    ![Screenshot of diagnostic tools](../profiling/media/diaghubsummarypage.png "DIAG_SelectTool")
@@ -109,7 +109,7 @@ To collect performance data without debugging, you can run the Performance Profi
    While the session is running, some tools show graphs of real-time data on the diagnostic tools page, and might show options to pause and resume data collection.
 
    ::: moniker range=">=vs-2022"
-   ![Screenshot of data collection on the Performance Profiler](../profiling/media/vs-2022/performance-profiler-collect-data.png "Diag collect data")
+   ![Screenshot of data collection on the Performance Profiler.](../profiling/media/vs-2022/performance-profiler-collect-data.png "Diag collect data")
    ::: moniker-end
    ::: moniker range="<=vs-2019"
    ![Screenshot of data collection on the Performance Profiler](../profiling/media/diaghubcollectdata.png "Hub collect data")
@@ -122,7 +122,7 @@ To collect performance data without debugging, you can run the Performance Profi
 You can save the reports, and open them from the **Recently Opened Sessions** list on the Diagnostic Tools launch page.
 
 ::: moniker range=">=vs-2022"
-![Screenshot of Diagnostic Tools Recently Opened Sessions list](../profiling/media/vs-2022/performance-profiler-open-existing-diagnostics-session.png "PDHUB_OpenExistingDiagSession")
+![Screenshot of Diagnostic Tools Recently Opened Sessions list.](../profiling/media/vs-2022/performance-profiler-open-existing-diagnostics-session.png "PDHUB_OpenExistingDiagSession")
 ::: moniker-end
 ::: moniker range="<=vs-2019"
 ![Screenshot of Diagnostic Tools Recently Opened Sessions list](../profiling/media/diaghubopenexistingdiagsession.png "PDHUB_OpenExistingDiagSession")
