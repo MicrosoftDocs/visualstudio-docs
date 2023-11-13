@@ -1,6 +1,6 @@
 ---
 title: LINQ to SQL O/R Designer overview
-description: Get an overview of LINQ to SQL tools in Visual Studio. Learn about the Object Relational Designer (O/R Designer).
+description: Explore LINQ to SQL tools in Visual Studio for object-relational mapping, including the Object Relational Designer (O/R Designer).
 ms.date: 11/01/2023
 ms.topic: overview
 author: ghogen

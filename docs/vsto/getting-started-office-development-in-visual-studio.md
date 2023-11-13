@@ -34,7 +34,7 @@ ms.technology: office-development
 
  Describes which applications and projects are required to use Office development features such as Ribbon extensibility, custom task panes, actions panes, and form regions.
 
-- [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md)
+- [Configure a computer to develop Office solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md)
 
  Provides information and steps for installing the Office development tools, the runtime that enables Office solutions to run on end-user computers, and the Office primary interop assemblies.
 
