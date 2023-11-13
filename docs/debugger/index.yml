@@ -30,7 +30,7 @@ landingContent:
             url: getting-started-with-the-debugger-cpp.md
           - text: Learn to debug Visual Basic
             url: ../get-started/visual-basic/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
-          - text: AI-assisted debugging
+          - text: Try AI-assisted debugging
             url: debug-with-copilot.md  
           - text: Run Python code in the debugger >>
             url: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
