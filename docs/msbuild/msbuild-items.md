@@ -1,6 +1,6 @@
 ---
 title: MSBuild Items
-description: Learn how to use the MSBuild items, item types, and work with lists of items by using and modifying item metadata.
+description: Use the MSBuild items and item types, and work with lists of items by using and modifying item metadata in Visual Studio.
 ms.date: 06/01/2023
 ms.topic: conceptual
 helpviewer_keywords:

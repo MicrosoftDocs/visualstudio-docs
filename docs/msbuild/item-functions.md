@@ -1,6 +1,6 @@
 ---
 title: Item Functions
-description: Learn how MSBuild code in tasks and targets can call item functions to get information about the items in the project.
+description: Explore how MSBuild code in tasks and targets in Visual Studio can call item functions to get information about the items in the project.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

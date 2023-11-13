@@ -1,6 +1,6 @@
 ---
 title: MSBuild Task
-description: Learn how the MSBuild task uses the same MSBuild process to build child projects from another MSBuild project.
+description: Learn how the MSBuild task uses the same MSBuild process to build child projects from another MSBuild project in Visual Studio.
 ms.date: 07/30/2019
 ms.topic: reference
 f1_keywords:

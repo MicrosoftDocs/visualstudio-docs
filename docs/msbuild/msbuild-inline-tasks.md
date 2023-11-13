@@ -1,6 +1,6 @@
 ---
 title: MSBuild Inline Tasks
-description: Learn how to create MSBuild inline tasks by compiling a class that implements the Microsoft.Build.Framework.ITask interface.
+description: Create MSBuild inline tasks by compiling a class that implements the Microsoft.Build.Framework.ITask interface in Visual Studio.
 ms.date: 10/31/2023
 ms.topic: conceptual
 helpviewer_keywords:

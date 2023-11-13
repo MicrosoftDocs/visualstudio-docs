@@ -1,6 +1,6 @@
 ---
 title: MSBuild Multitargeting Overview
-description: Learn how to use MSBuild to compile an application to run on any one of several versions of the .NET Framework, and on any one of several system platforms.
+description: Use MSBuild to compile an application to run on any one of several versions of the .NET Framework, and on any one of several system platforms.
 ms.date: 11/04/2016
 ms.topic: conceptual
 author: ghogen

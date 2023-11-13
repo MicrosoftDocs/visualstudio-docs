@@ -1,6 +1,6 @@
 ---
 title: MSBuild
-description: Learn about how the Microsoft Build Engine (MSBuild) platform provides a project file with an XML schema to control builds.
+description: Explore how the Microsoft Build Engine (MSBuild) platform provides a project file with an XML schema to control builds in Visual Studio.
 ms.date: 3/15/2023
 ms.topic: conceptual
 helpviewer_keywords:

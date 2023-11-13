@@ -1,6 +1,6 @@
 ---
 title: MSBuild API
-description: Learn about the public API surface MSBuild provides so that your program can perform builds and inspect projects.
+description: Explore the public API surface MSBuild provides so your program can perform builds and inspect projects in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: conceptual
 author: ghogen

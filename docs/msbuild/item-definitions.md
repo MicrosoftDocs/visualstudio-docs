@@ -1,6 +1,6 @@
 ---
 title: Item Definitions
-description: Learn how MSBuild uses ItemGroup and ItemDefinitionGroup to declare metadata for items in project files.
+description: Explore how MSBuild uses the ItemGroup and ItemDefinitionGroup elements to declare metadata for items in project files in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
