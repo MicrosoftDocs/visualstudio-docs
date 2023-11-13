@@ -1,6 +1,6 @@
 ---
 title: Use MSBuild.exe to build specific targets in solutions
-description: Learn how to use MSBuild.exe command line to build specific targets of specific projects in solutions.
+description: Discover how to use the MSBuild.exe command line to build specific targets of specific projects in your solutions in Visual Studio.
 ms.date: 08/15/2023
 ms.topic: conceptual
 helpviewer_keywords:

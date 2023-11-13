@@ -1,6 +1,6 @@
 ---
 title: Exclude Files from the Build
-description: Learn how to explicitly exclude or conditionally include files from builds in MSBuild project files.
+description: Discover how to explicitly exclude or conditionally include files from builds for MSBuild project files in Visual Studio.
 ms.date: 05/10/2023
 ms.topic: conceptual
 helpviewer_keywords:

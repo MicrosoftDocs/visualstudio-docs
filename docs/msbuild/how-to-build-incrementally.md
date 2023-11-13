@@ -1,6 +1,6 @@
 ---
 title: 'Build Incrementally'
-description: Learn how to use MSBuild to build incrementally, so previously built components that are still up-to-date aren't rebuilt.
+description: Explore how to use MSBuild to build incrementally, so previously built components that are still up-to-date aren't rebuilt in Visual Studio.
 ms.date: 05/16/2022
 ms.topic: conceptual
 helpviewer_keywords:
