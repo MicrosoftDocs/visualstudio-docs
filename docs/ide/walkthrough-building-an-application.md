@@ -1,6 +1,6 @@
 ---
 title: 'Tutorial: Build an application'
-description: Become more familiar with several options that you can configure when you build applications with Visual Studio.
+description: Become more familiar with several options that you can configure when you build applications with Visual Studio, such as hiding complier warnings.
 ms.date: 08/15/2023
 ms.technology: vs-ide-compile
 ms.topic: tutorial

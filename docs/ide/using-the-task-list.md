@@ -1,6 +1,6 @@
 ---
 title: Use the Task List
-description: Learn how the Task List in Visual Studio can help you track and use code comments more efficiently.
+description: Explore the Task List in Visual Studio and discover how the tool can help you track and use code comments more efficiently.
 ms.date: 06/22/2023
 ms.topic: how-to
 f1_keywords:

@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio 2022"
 titleSuffix: ""
-description: "Learn about the new features in Visual Studio 2022."
+description: Discover new features in Visual Studio 2022, including answers to questions and AI consultations while you code with a subscription to GitHub Copilot.
 ms.date: 08/08/2023
 helpviewer_keywords:
   - "Visual Studio, what's new"
