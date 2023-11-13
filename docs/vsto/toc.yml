@@ -16,8 +16,6 @@
         href: features-available-by-office-application-and-project-type.md
       - name: Configuring a Computer to Develop Office Solutions
         items:
-        - name: Configuring a Computer to Develop Office Solutions
-          href: configuring-a-computer-to-develop-office-solutions.md
         - name: Configure a Computer to Develop Office Solutions
           href: how-to-configure-a-computer-to-develop-office-solutions.md
         - name: Install the Visual Studio Tools for Office Runtime Redistributable

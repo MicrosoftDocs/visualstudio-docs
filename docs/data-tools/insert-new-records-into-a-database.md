@@ -1,6 +1,6 @@
 ---
 title: Insert new records into a database in .NET Framework applications
-description: In .NET Framework application development with Visual Studio, insert new records into a database using the ADO.NET TableAdapter.Update method, one of the TableAdapter's DBDirect methods, or command objects.
+description: Insert new records into a database with .NET Framework application development in Visual Studio, including the ADO.NET TableAdapter.Update method.
 ms.date: 06/01/2023
 ms.topic: how-to
 dev_langs:

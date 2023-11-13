@@ -1,6 +1,6 @@
 ---
 title: Create a database and add tables in .NET Framework applications
-description: Tutorial that describes how to add tables and foreign keys to a database in a .NET Framework application using Table Designer in Visual Studio. It also shows how to add data through the graphical interface.
+description: Create a database with tables and foreign keys in a .NET Framework application by using Table Designer in Visual Studio.
 ms.date: 02/28/2023
 ms.topic: conceptual
 helpviewer_keywords:

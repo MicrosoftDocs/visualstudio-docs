@@ -1,6 +1,6 @@
 ---
 title: Connect to Azure services, gRPC, OpenAPI, and more
-description: Learn about how you can add connections to services in Visual Studio
+description: Connect your application to Azure services, OpenAPI and other endpoints, databases, and data providers with Connected Services in Visual Studio on Windows.
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure
