@@ -54,9 +54,7 @@ You can use slash commands in a [chat window](visual-studio-github-copilot-chat.
 
 :::image type="content" source="media/copilot-chat-context/copilot-chat-context-slash-commands.png" alt-text="Screenshot of slash commands in interactive code assistant and chat windows.":::
 
-## Context awareness and control
-
-### <a name="reference"></a>Reference: Scope Copilot results to a particular file
+## <a name="reference"></a>Reference: scope Copilot results to a particular file
 
 You can ask your coding related questions in natural language and GitHub Copilot Chat will answer these in the context of the codebase open in Visual Studio. With references you can get more specific about the information you want Copilot to consider when answering your question. By selecting a specific context in your codebase, you're able to form better questions easily without having to write out or paste long pieces of information. Specifying the context also enables Copilot to provide you with more relevant answers.
 
@@ -70,13 +68,13 @@ To easily reference a file, simply add a *#* symbol at the beginning of the file
 | Where are the tests in #BasketService.cs?| BasketService.cs |
 | /explain the AddItemToBasket method in #BasketService.cs| AddItemToBasket method in BasketService.cs |
 
-### <a name="find-context"></a>Review the context used by Copilot
+## <a name="find-context"></a>Review the context used by Copilot
 
 Copilot Chat will display the context it used after every result, so that you can tell what was taken into account when answering your question. When you ask a Copilot Chat a question and get a response in the chat window, an **Info used** dropdown appears below the response. The entries in the **Info used** dropdown list show you the context referenced by Copilot Chat to generate that response. This information can help you modify your question to get better and more relevant answers.
 
 :::image type="content" source="media/copilot-chat-context/copilot-chat-info-used-dropdown.png" alt-text="Screenshot of Info used dropdown in Copilot Chat.":::
 
-### <a name="threads"></a>Organize: Isolate chats with Copilot into threads  
+## <a name="threads"></a>Organize: Isolate chats with Copilot into threads  
 
 If you’re using Copilot Chat extensively to ask questions as you code, you can organize your conversations in a way that keeps them on-topic. Copilot Chat for Visual Studio now provides an easy way to start new conversations (threads) to keep them focused on the task at hand, and keep the context clear so the answers are based on relevant historical context. 
 
