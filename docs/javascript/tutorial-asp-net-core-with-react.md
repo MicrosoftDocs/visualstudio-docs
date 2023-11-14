@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with React"
 description: In this tutorial, you create an app using ASP.NET Core and React
-ms.date: 10/30/2023
+ms.date: 11/14/2023
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -26,11 +26,11 @@ You can use the method described in this article to create ASP.NET Core Single P
 - Create the client project based on the framework CLI installed on your computer
 
 > [!NOTE]
-> This article describes the project creation process using the updated template in Visual Studio 2022 version 17.8 Preview 2, which uses the Vite CLI.
+> This article describes the project creation process using the updated template in Visual Studio 2022 version 17.8, which uses the Vite CLI.
 
 ## Prerequisites
 
-- Visual Studio 2022 version 17.8 Preview 2 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+- Visual Studio 2022 version 17.8 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
   If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 - npm ([https://www.npmjs.com/](https://www.npmjs.com/package/npm)), which is included with Node.js
 - npx ([https://www.npmjs.com/package/npx](https://www.npmjs.com/package/npx))
@@ -93,7 +93,7 @@ The React app appears and is populated via the API. If you don't see the app, se
 
 1. In Solution Explorer, right-click the **ReactWithASP.Server** project and select **Add** > **Project Reference**.
 
-   The **reactwithasp.client*** project is selected.
+   Make sure the **reactwithasp.client** project is selected.
 
 1. Choose **OK**.
 
@@ -101,11 +101,9 @@ The React app appears and is populated via the API. If you don't see the app, se
 
    This opens the *.csproj* file for the project.
 
-   Notice the `<ReferenceOutputAssembly>` has the value set to `false`.
+1. In the *.csproj* file, make sure the project reference includes a `<ReferenceOutputAssembly>` element with the value set to `false`.
 
-1. In the *.csproj* file, update the project reference and add `<ReferenceOutputAssembly>` with the value set to `false`.
-
-   When you've updated the reference, it should look like the following.
+   This reference should look like the following.
 
    ```xml
     <ProjectReference Include="..\reactwithasp.client\reactwithasp.client.esproj">
