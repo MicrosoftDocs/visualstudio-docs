@@ -117,29 +117,27 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
     </ProjectReference>
    ```
 
-1. Right-click the ASP.NET Core project and choose **Reload Project**.
+1. Right-click the ASP.NET Core project and choose **Reload Project** if that option is available.
 
-1. In *Program.cs*, update the check for `Environment.IsDevelopment` so it looks like the following.
+1. In *Program.cs*, make sure the following code is present.
 
    ```csharp
+   app.UseDefaultFiles();
+   app.UseStaticFiles();
+
    // Configure the HTTP request pipeline.
    if (app.Environment.IsDevelopment())
    {
       app.UseSwagger();
       app.UseSwaggerUI();
    }
-   else
-   {
-      app.UseDefaultFiles();
-      app.UseStaticFiles();
-   }
    ```
 
 1. To publish, right click the ASP.NET Core project, choose **Publish**, and select options to match your desired publish scenario, such as Azure, publish to a folder, etc.
 
-   The publish process takes more time than it does for just an ASP.NET Core project, since the `npm run build` command gets invoked when publishing.
+   The publish process takes more time than it does for just an ASP.NET Core project, since the `npm start` command gets invoked when publishing.
 
-   You can modify the `npm run build` command using the **Production Build Command** in the Angular project properties. To modify it, right-click the Angular project in Solution Explorer and choose **Properties**.
+   You can modify the `npm start` command using the **Startup Command** in the Angular project properties. To modify it, right-click the Angular project in Solution Explorer and choose **Properties**.
 
 ## Troubleshooting
 
