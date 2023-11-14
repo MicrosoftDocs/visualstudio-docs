@@ -6,7 +6,7 @@ keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.date: 08/08/2023
+ms.date: 11/14/2023
 ms.custom: vs-acquisition
 ms.topic: reference
 helpviewer_keywords:
@@ -46,7 +46,7 @@ For more information about how to use these lists, see the [Use command-line par
 
 ::: moniker range=">=vs-2022"
 
-**Updated for the [17.7 release](/visualstudio/releases/2022/release-notes/)**
+**Updated for the [17.8 release](/visualstudio/releases/2022/release-notes/)**
 
 | **Edition** | **ID** | **Description** |
 | ----------- | ------ | --------------- |
