@@ -44,9 +44,8 @@ productDirectory:
       links:
         - url: /visualstudio/ide/ai-assisted-development-visual-studio&preserve-view=true
           text: Copilot in Visual Studio 2022
-        - url: /visualstudio/mac/?view=vsmac-2019&preserve-view=true
+        - url: https://code.visualstudio.com/docs/editor/github-copilot
           text: Copilot in Visual Studio Code
-        - url: https://code.visualstudio.com/docs/editor/github-copilot         
     - title: Visual Studio Subscriptions
       imageSrc: ./media/vs-subscription-temp.svg
       links:
