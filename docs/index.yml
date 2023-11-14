@@ -28,17 +28,15 @@ productDirectory:
           text: VS 2017 and previous versions
         - url: /visualstudio/releases/2022/release-notes
           text: Release notes
-        - url: https://visualstudio.microsoft.com/
-          text: Product page
     - title: Visual Studio Code
       imageSrc: ./media/vs-code-logo.svg
       links:
         - url: https://code.visualstudio.com/docs
           text: Visual Studio Code documentation
-        - url: https://code.visualstudio.com/updates
-          text: Release notes
         - url: https://code.visualstudio.com/docs/remote/codespaces/
           text: GitHub Codespaces with Visual Studio Code
+        - url: https://code.visualstudio.com/updates
+          text: Product release notes          
     - title: GitHub Copilot
       imageSrc: ./media/vs-mac-2022.svg
       links:
@@ -50,9 +48,7 @@ productDirectory:
       imageSrc: ./media/vs-subscription-temp.svg
       links:
         - url: /visualstudio/subscriptions
-          text: Documentation
-        - url: https://visualstudio.microsoft.com/subscriptions
-          text: Info on visualstudio.com
+          text: Subscriber documentation
         - url: https://my.visualstudio.com
           text: Subscriber portal
         - url: https://manage.visualstudio.com
@@ -68,8 +64,8 @@ productDirectory:
       imageSrc: ./media/vs-mobile-center.svg
       links:
         - url: /azure/deployment-environments/
-          text: Azure Deployment Environments
+          text: Azure Deployment Environments documentation
         - url: /azure/developer/dev-tunnels/
-          text: Azure Dev Tunnels
+          text: Azure Dev Tunnels documentation
         - url: /appcenter
           text: App Center documentation
