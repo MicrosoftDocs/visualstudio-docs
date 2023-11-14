@@ -131,7 +131,7 @@ The React app appears and is populated via the API. If you don't see the app, se
 
    The publish process takes more time than it does for just an ASP.NET Core project, since the `npm run dev` command gets invoked when publishing.
 
-   You can modify the `npm run dev` command using the **Startup Command** in the React project properties. To modify it, right-click the React project in Solution Explorer and choose **Properties**.
+   You can modify the `npm run dev` command using the **Startup Command** in the React project properties. To modify it, right-click the React project in Solution Explorer and choose **Properties**. For a production build, you might set this to `npm run build`.
 
 ## Troubleshooting
 

@@ -133,7 +133,7 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
 
    The publish process takes more time than it does for just an ASP.NET Core project, since the `npm run dev` command gets invoked when publishing.
 
-   You can modify the `npm run dev` command using the **Startup Command** in the Vue project properties. To modify it, right-click the Vue project in Solution Explorer and choose **Properties**.
+   You can modify the `npm run dev` command using the **Startup Command** in the Vue project properties. To modify it, right-click the Vue project in Solution Explorer and choose **Properties**. For a production build, you might set this to `npm run build`.
 
 ## Troubleshooting
 
