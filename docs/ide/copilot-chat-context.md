@@ -20,7 +20,7 @@ monikerRange: vs-2022
 
 In this article, you'll learn about how to get better answers with improved context in Copilot Chat by using:
 + [Slash commands](#slash-commands) to quickly specify common contexts like `/explain` to get code explanations
-+ Scope chat to specific files using [references](#references)
++ Scope chat to specific files using [references](#reference)
 + Review the [Info used](#find-context) by Copilot
 + Use different [threads](#threads) for your Copilot chats to keep the context for each
 
