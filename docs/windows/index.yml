@@ -18,13 +18,13 @@ highlightedContent:
    - title: Setup and installation
      itemType: download
      url: ../install/install-visual-studio.md
-   - title: About Visual Studio IDE
+   - title: What is Visual Studio
      itemType: overview
      url: ../get-started/visual-studio-ide.md
    - title: Visual Studio 2022
      itemType: whats-new
      url: ../ide/whats-new-visual-studio-2022.md
-   - title: AI-assisted development
+   - title: GitHub Copilot
      itemType: get-started
      url: ../ide/ai-assisted-development-visual-studio.md
 
@@ -48,8 +48,8 @@ conceptualContent:
         - text: Open code from a repo
           url: ../get-started/tutorial-open-project-from-repo.md
           itemType: tutorial
-        - text: Use AI when developing
-          url: ../ide/ai-assisted-development-visual-studio.md
+        - text: Get AI assistance with GitHub Copilot
+          url: ../ide/visual-studio-github-copilot-extension.md
           itemType: overview
     - title: Follow a tutorial
       links:
