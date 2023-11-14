@@ -37,8 +37,8 @@ productDirectory:
           text: Visual Studio Code documentation
         - url: https://code.visualstudio.com/updates
           text: Release notes
-         - url: https://code.visualstudio.com/docs/remote/codespaces/
-           text: GitHub Codespaces with Visual Studio Code
+        - url: https://code.visualstudio.com/docs/remote/codespaces/
+          text: GitHub Codespaces with Visual Studio Code
     - title: GitHub Copilot
       imageSrc: ./media/vs-mac-2022.svg
       links:
@@ -74,5 +74,3 @@ productDirectory:
           text: Azure Dev Tunnels
         - url: /appcenter
           text: App Center documentation
-
-
