@@ -16,13 +16,13 @@ monikerRange: vs-2022
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-[**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) in Visual Studio enables you to get coding information and support, such as syntax, programming concepts, context-specific code help, test cases, debugging, and more, without leaving the IDE. With tight integration in Visual Studio, Copilot Chat understands what you're working on by gathering useful context data from Visual Studio. 
+You can use [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) in Visual Studio to get coding information and support, such as syntax, programming concepts, context-specific code help, test cases, debugging, and more, without leaving the IDE. Copilot Chat is integrated into Visual Studio, which means it can understands what you're working on by gathering useful context from what you have in the IDE. 
 
-In this article, you'll learn about how to get better answers with improved context in Copilot Chat by using:
-+ [Slash commands](#slash-commands) to quickly specify common contexts like `/explain` to get code explanations
-+ Scope chat to specific files using [references](#reference)
-+ Review the [Info used](#find-context) by Copilot
-+ Use different [threads](#threads) for your Copilot chats to keep the context for each
+In this article, you'll learn how to get better answers by providing more information to Copilot Chat including:
++ Use [slash commands](#slash-commands) to quickly specify common contexts like `/explain` to get code explanations.
++ Scope the chat to specific files using [references](#reference).
++ Review the [Info used](#find-context) by Copilot to determine context.
++ Use different [threads](#threads) for each of your Copilot chats so you can maintain different contexts in each.
 
 Learn more about [AI-assisted development in Visual Studio](../ide/ai-assisted-development-visual-studio.md) and how to [use Copilot Chat in Visual Studio](../ide/visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio).
 
