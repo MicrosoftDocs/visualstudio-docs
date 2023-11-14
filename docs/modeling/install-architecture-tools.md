@@ -1,6 +1,6 @@
 ---
 title: Install architecture code tools
-description: Install Code Map and Live Dependency Validation.
+description: Install the Code Map and Live Dependency Validation components in Visual Studio to help debug your applications and manage your project code.
 ms.date: 05/16/2021
 ms.topic: how-to
 author: mgoertz-msft

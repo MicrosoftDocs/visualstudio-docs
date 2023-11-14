@@ -1,6 +1,6 @@
 ---
 title: 'Dependency Diagrams: Guidelines'
-description: Learn how to describe your app's architecture at a high level by creating dependency diagrams in Visual Studio.
+description: Describe your application architecture at a high level by creating dependency diagrams with layers to represent functional areas or components in Visual Studio.
 ms.date: 09/28/2018
 ms.topic: conceptual
 helpviewer_keywords:
