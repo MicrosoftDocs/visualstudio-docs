@@ -1,6 +1,6 @@
 ---
 title: Standard and Custom Toolset Configurations
-description: Learn about standard and custom MSBuild Toolsets, which contain references to tasks, targets, and tools you can use to build an application project.
+description: Explore the standard and custom MSBuild Toolsets, which contain references to tasks, targets, and tools you can use to build an application project.
 ms.date: 11/10/2022
 ms.topic: conceptual
 helpviewer_keywords:

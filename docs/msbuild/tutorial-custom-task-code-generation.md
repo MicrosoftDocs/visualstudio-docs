@@ -1,6 +1,6 @@
 ---
 title: Create a custom task
-description: Learn how to use MSBuild to create a custom task for code generation that properly handles incremental build and clean operations.
+description: Use MSBuild to create a custom task for code generation that properly handles incremental build and clean operations in Visual Studio.
 ms.date: 02/17/2022
 ms.topic: tutorial
 helpviewer_keywords:

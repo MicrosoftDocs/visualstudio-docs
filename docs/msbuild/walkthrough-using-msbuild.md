@@ -1,6 +1,6 @@
 ---
 title: Use MSBuild
-description: Learn the various parts of an MSBuild project file, including items, item metadata, properties, targets, and tasks.
+description: Explore the various parts of an MSBuild project file in Visual Studio, including items, item metadata, properties, targets, and tasks.
 ms.date: 10/17/2023
 ms.topic: conceptual
 helpviewer_keywords:

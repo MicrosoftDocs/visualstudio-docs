@@ -1,6 +1,6 @@
 ---
 title: Property Functions
-description: Learn how to use property functions, which are calls to .NET Framework methods that appear in MSBuild property definitions.
+description: Use property functions in Visual Studio, which are calls to .NET Framework methods that appear in MSBuild property definitions.
 ms.date: 05/10/2023
 ms.topic: conceptual
 helpviewer_keywords:

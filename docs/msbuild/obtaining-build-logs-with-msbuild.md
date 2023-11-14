@@ -1,6 +1,6 @@
 ---
 title: Obtaining Build Logs with MSBuild
-description: Learn to use switches with MSBuild to specify how much build data to review and whether to save build data to one or more files.
+description: Use switches with MSBuild to specify how much build data to review and whether to save build data to one or more files in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
