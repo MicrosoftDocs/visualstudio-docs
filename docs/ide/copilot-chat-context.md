@@ -28,11 +28,13 @@ Learn more about [AI-assisted development in Visual Studio](../ide/ai-assisted-d
 
 ## Prerequisites
 
-To get started, you need:
-+ Visual Studio 2022 [version 17.6](/visualstudio/releases/2022/release-history) or later
-+ Active [subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) to [GitHub Copilot for Individuals](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-individuals) or [GitHub Copilot for Business](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-business)
-+ [**GitHub Copilot** extension](visual-studio-github-copilot-extension.md#installation-instructions) in Visual Studio
-+ [**GitHub Copilot Chat** extension](visual-studio-github-copilot-chat.md#install-the-visual-studio-extension) in Visual Studio
+To get started using GitHub Copilot Chat in Visual Studio, you need:
++ Active [subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) to either:
+  + [GitHub Copilot for Individuals](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-individuals)
+  + [GitHub Copilot for Business](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-business)
++ Visual Studio 2022 [version 17.6](/visualstudio/releases/2022/release-history) or later installed
++ [GitHub Copilot extension installed](visual-studio-github-copilot-extension.md#installation-instructions) in Visual Studio
++ [GitHub Copilot Chat extension installed](visual-studio-github-copilot-chat.md#install-the-visual-studio-extension) in Visual Studio
 
 ## <a name="slash-commands"></a>Use slash commands for common contexts
 
