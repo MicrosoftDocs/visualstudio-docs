@@ -5,7 +5,7 @@ ms.author: amast
 manager: shve
 ms.date: 11/02/2023
 ms.topic: how-to
-description:  This article describes how admins can migrate assigned subscriptions from one agreement to another.
+description: Migrate assigned Visual Studio subscriptions from one agreement to another, and understand how the move affects subscription benefits and Azure credits.
 ---
 
 # Migrate subscriptions from one agreement to another
