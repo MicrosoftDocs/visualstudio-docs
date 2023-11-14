@@ -20,7 +20,9 @@ monikerRange: vs-2022
 
 In this article, you'll learn about how to get better answers with improved context in Copilot Chat by using:
 + [Slash commands](#use-slash-commands) to quickly specify common contexts like `/explain` to get code explanations
-+ [references](#control-context-with-references), [Info used](#find-context), and [threads](#organize-your-chat-conversations-with-threads) enable you to form great questions by scoping the intent and context.
++ Scope chat to specific files using [references](#control-context-with-references)
++ Review the [Info used](#find-context) by Copilot
++ Use different [threads](#organize-your-chat-conversations-with-threads) for your Copilot chats to keep the context for each
 
 Learn more about [AI-assisted development in Visual Studio](../ide/ai-assisted-development-visual-studio.md) and how to [use Copilot Chat in Visual Studio](../ide/visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio).
 
