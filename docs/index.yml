@@ -42,7 +42,7 @@ productDirectory:
     - title: GitHub Copilot
       imageSrc: ./media/vs-mac-2022.svg
       links:
-        - url: /visualstudio/ide/ai-assisted-development-visual-studio&preserve-view=true
+        - url: /visualstudio/ide/ai-assisted-development-visual-studio
           text: Copilot in Visual Studio 2022
         - url: https://code.visualstudio.com/docs/editor/github-copilot
           text: Copilot in Visual Studio Code
@@ -58,7 +58,7 @@ productDirectory:
         - url: https://manage.visualstudio.com
           text: Administrator portal          
     - title: Microsoft Dev Box
-      imageSrc: /media/product/azure/dev-box.svg
+      imageSrc: ./media/dev-box.svg
       links:
          - url: /azure/dev-box/
            text: Documentation
