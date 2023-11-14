@@ -1,5 +1,5 @@
 ---
-title: Improved context in GitHub Copilot Chat
+title: 'Tips & Tricks for GitHub Copilot Chat in Visual Studio'
 description: Use slash commands, references, and threads to form better questions and get better answers with scoped context in GitHub Copilot Chat.
 ms.date: 10/28/2023
 ms.topic: how-to 
@@ -12,7 +12,7 @@ helpviewer_keywords:
   - context, copilot chat
 monikerRange: vs-2022
 ---
-# Get better answers with improved context in GitHub Copilot Chat
+# Get better answers by setting the context for GitHub Copilot Chat in Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
@@ -66,7 +66,7 @@ To easily reference a file, simply add a *#* symbol at the beginning of the file
 | Where are the tests in #BasketService.cs?| BasketService.cs |
 | /explain the AddItemToBasket method in #BasketService.cs| AddItemToBasket method in BasketService.cs |
 
-### Know the context used by Copilot
+### Review the context used by Copilot
 
 Copilot Chat will display the context it used after every result, so that you can tell what was taken into account when answering your question. When you ask a Copilot Chat a question and get a response in the chat window, an **Info used** dropdown appears below the response. The entries in the **Info used** dropdown list show you the context referenced by Copilot Chat to generate that response. This information can help you modify your question to get better and more relevant answers.
 
@@ -74,7 +74,7 @@ Copilot Chat will display the context it used after every result, so that you ca
 
 ### Organize your chat conversations with threads 
 
-If you’re using Copilot Chat extensively to ask questions as you code, you’ll find it helpful to organize your conversations in a way that keeps them on-topic. Copilot Chat for Visual Studio now provides an easy way to start new conversations to keep them focused on the task at hand, and keep the context clear so the answers are based on relevant historical context. 
+If you’re using Copilot Chat extensively to ask questions as you code, you can organize your conversations in a way that keeps them on-topic. Copilot Chat for Visual Studio now provides an easy way to start new conversations (threads) to keep them focused on the task at hand, and keep the context clear so the answers are based on relevant historical context. 
 
 You can start a new thread by selecting the **Create new thread** in the chat window.
 
