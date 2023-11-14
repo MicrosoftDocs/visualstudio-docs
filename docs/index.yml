@@ -6,8 +6,7 @@ metadata:
   title: Visual Studio product family documentation
   description: Explore documentation for the Visual Studio family of products, including Visual Studio IDEs for Windows and Mac, Visual Studio Code, Visual Studio App Center, GitHub Codespaces, and Visual Studio Subscriptions.
   ms.topic: hub-page
-  ms.custom: "contperf-fy21q1, contperf-fy21q3"
-  ms.date: 06/13/2022
+  ms.date: 11/13/2023
   searchScope: []
   titleSuffix: ""
   ms.author: ghogen
@@ -26,49 +25,28 @@ productDirectory:
         - url: ./windows/index.yml?view=vs-2019&preserve-view=true
           text: Visual Studio 2019
         - url: /previous-versions/visualstudio/
-          text: Previous versions
+          text: VS 2017 and previous versions
         - url: /visualstudio/releases/2022/release-notes
           text: Release notes
         - url: https://visualstudio.microsoft.com/
-          text: Product page
-    - title: Visual Studio for Mac
-      imageSrc: ./media/vs-mac-2022.svg
-      links:
-        - url: /visualstudio/mac/?view=vsmac-2022&preserve-view=true
-          text: Visual Studio 2022 for Mac (current)
-        - url: /visualstudio/mac/?view=vsmac-2019&preserve-view=true
-          text: Visual Studio 2019 for Mac
-        - url: /previous-versions/visualstudio/mac/
-          text: Previous versions
-        - url: /visualstudio/releases/2022/mac-release-notes
-          text: Release notes
-        - url: https://visualstudio.microsoft.com/vs/mac/
           text: Product page
     - title: Visual Studio Code
       imageSrc: ./media/vs-code-logo.svg
       links:
         - url: https://code.visualstudio.com/docs
-          text: Documentation
+          text: Visual Studio Code documentation
         - url: https://code.visualstudio.com/updates
           text: Release notes
-        - url: https://code.visualstudio.com
-          text: Product page
-    - title: GitHub Codespaces
-      imageSrc: /media/logos/logo_octokitty.svg
-      links:
-         - url: https://docs.github.com/codespaces
-           text: Documentation
          - url: https://code.visualstudio.com/docs/remote/codespaces/
-           text: Use with Visual Studio Code
-         - url: https://github.com/features/codespaces/
-           text: Product page
-    - title: Visual Studio App Center
-      imageSrc: ./media/vs-mobile-center.svg
+           text: GitHub Codespaces with Visual Studio Code
+    - title: GitHub Copilot
+      imageSrc: ./media/vs-mac-2022.svg
       links:
-        - url: /appcenter
-          text: Documentation
-        - url: https://visualstudio.microsoft.com/app-center/
-          text: Portal
+        - url: /visualstudio/ide/ai-assisted-development-visual-studio&preserve-view=true
+          text: Copilot in Visual Studio 2022
+        - url: /visualstudio/mac/?view=vsmac-2019&preserve-view=true
+          text: Copilot in Visual Studio Code
+        - url: https://code.visualstudio.com/docs/editor/github-copilot         
     - title: Visual Studio Subscriptions
       imageSrc: ./media/vs-subscription-temp.svg
       links:
@@ -79,4 +57,22 @@ productDirectory:
         - url: https://my.visualstudio.com
           text: Subscriber portal
         - url: https://manage.visualstudio.com
-          text: Administrator portal
+          text: Administrator portal          
+    - title: Microsoft Dev Box
+      imageSrc: /media/product/azure/dev-box.svg
+      links:
+         - url: /azure/dev-box/
+           text: Documentation
+         - url: https://azure.microsoft.com/products/dev-box/
+           text: Product page
+    - title: Other developer services
+      imageSrc: ./media/vs-mobile-center.svg
+      links:
+        - url: /azure/deployment-environments/
+          text: Azure Deployment Environments
+        - url: /azure/developer/dev-tunnels/
+          text: Azure Dev Tunnels
+        - url: /appcenter
+          text: App Center documentation
+
+
