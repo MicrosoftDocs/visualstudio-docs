@@ -58,7 +58,7 @@ In [Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/visual-studi
 
 ### Git tooling is faster
 
-**New in [17.8](https://devblogs.microsoft.com/visualstudio/visual-studio-17-8-now-available/), you can [create a pull request from the Visual Studio IDE](../version-control/git-create-pull-request.md). Also, check out the new summary view for diffs, to make it easier to focus on what changed.
+**New in [17.8](https://devblogs.microsoft.com/visualstudio/visual-studio-17-8-now-available/)**, you can [create a pull request from the Visual Studio IDE](../version-control/git-create-pull-request.md). Also, check out the new summary view for diffs, to make it easier to focus on what changed.
 
 **New in [17.2](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-2-is-now-available/)**: We've integrated a relatively new Git feature called the [commit graph](https://devblogs.microsoft.com/devops/supercharging-the-git-commit-graph/), which helps to improve both the performance of your Git operations and the performance of Visual Studio itself. For the latest info, see the [Supercharge your Git experience in Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/supercharge-your-git-experience-in-vs/) blog post.
 
