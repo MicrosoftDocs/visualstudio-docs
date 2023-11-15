@@ -42,15 +42,15 @@ productDirectory:
     - title: Visual Studio Language Guidance
       imageSrc: ./media/vs-subscription-temp.svg
       links:
-        - url: /visualstudio/get-started/csharp/index.yml
+        - url: /visualstudio/get-started/csharp/
           text: C#          
         - url: /cpp/overview/visual-cpp-in-visual-studio
           text: C++
-        - url: /visualstudio/get-started/visual-basic/index.yml
+        - url: /visualstudio/get-started/visual-basic/
           text: Visual Basic
-        - url: /visualstudio/python/index.yml
+        - url: /visualstudio/python/
           text: Python
-        - url: /visualstudio/javascript/index.yml
+        - url: /visualstudio/javascript/
           text: JavaScript
         - url: /dotnet/fsharp/get-started/get-started-visual-studio
           text: F#
