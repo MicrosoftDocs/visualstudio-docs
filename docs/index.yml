@@ -21,22 +21,22 @@ productDirectory:
       imageSrc: ./media/vs-ide-2022.svg
       links:
         - url: ./windows/index.yml?view=vs-2022&preserve-view=true
-          text: Get Visual Studio 2022 (current) docs
+          text: Visual Studio 2022 (current) docs
         - url: ./windows/index.yml?view=vs-2019&preserve-view=true
-          text: Get Visual Studio 2019 docs
+          text: Visual Studio 2019 docs
         - url: /previous-versions/visualstudio/
-          text: Go to VS 2017 and previous versions
+          text: Earlier versions
         - url: /visualstudio/releases/2022/release-notes
-          text: Get release notes
+          text: Release notes
     - title: Visual Studio Code
       imageSrc: ./media/vs-code-logo.svg
       links:
         - url: https://code.visualstudio.com/docs
-          text: Go to Visual Studio Code docs
+          text: Visual Studio Code docs
         - url: https://code.visualstudio.com/docs/languages/csharp
           text: 'About C# Dev Kit'
         - url: https://code.visualstudio.com/updates
-          text: Go to release notes          
+          text: Release notes          
     - title: GitHub Copilot
       imageSrc: /media/logos/logo_octokitty.svg
       links:
@@ -59,7 +59,7 @@ productDirectory:
          - url: /azure/dev-box/
            text: About Microsoft Dev Box
          - url: /azure/dev-box/how-to-generate-visual-studio-caches?branch=main
-           text: Optimize Visual Studio on Microsoft Dev Box
+           text: Visual Studio on Microsoft Dev Box
     - title: Productivity services for developers
       imageSrc: ./media/Microsoft_logo.svg
       links:
