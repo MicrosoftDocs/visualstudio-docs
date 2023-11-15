@@ -39,13 +39,6 @@ productDirectory:
           text: 'About C# Dev Kit'
         - url: https://code.visualstudio.com/updates
           text: Release notes          
-    - title: GitHub Copilot
-      imageSrc: /media/logos/logo_octokitty.svg
-      links:
-        - url: /visualstudio/ide/ai-assisted-development-visual-studio
-          text: About Copilot in Visual Studio 2022
-        - url: https://code.visualstudio.com/docs/editor/github-copilot
-          text: About Copilot in Visual Studio Code
     - title: Visual Studio Language Guidance
       imageSrc: ./media/vs-subscription-temp.svg
       links:
@@ -61,6 +54,13 @@ productDirectory:
           text: JavaScript
         - url: /dotnet/fsharp/get-started/get-started-visual-studio
           text: F#
+    - title: GitHub Copilot
+      imageSrc: /media/logos/logo_octokitty.svg
+      links:
+        - url: /visualstudio/ide/ai-assisted-development-visual-studio
+          text: About Copilot in Visual Studio 2022
+        - url: https://code.visualstudio.com/docs/editor/github-copilot
+          text: About Copilot in Visual Studio Code
     - title: Microsoft Dev Box
       imageSrc: ./media/dev-box.svg
       links:
