@@ -27,6 +27,10 @@ highlightedContent:
    - title: AI-assisted development
      itemType: get-started
      url: ../ide/ai-assisted-development-visual-studio.md
+   - title: Previous versions
+     itemType: overview
+     url: /previous-versions/visualstudio/
+
 
 conceptualContent:
   title: Get started
