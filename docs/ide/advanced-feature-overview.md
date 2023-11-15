@@ -57,7 +57,7 @@ In Visual Studio, use [Cloud Explorer](/azure/vs-azure-tools-resources-managing-
 
 You can use Azure services for your apps by adding **Connected Services**, such as:
 
-- [Active Directory connected service](/azure/active-directory/develop/vs-active-directory-add-connected-service), to use [Azure Active Directory](/azure/active-directory/active-directory-whatis) (Azure AD) accounts to connect to web apps
+- [Active Directory connected service](/azure/active-directory/develop/vs-active-directory-add-connected-service), to use [Microsoft Entra ID](/azure/active-directory/active-directory-whatis) (Microsoft Entra ID) accounts to connect to web apps
 - [Azure Storage connected service](/azure/vs-azure-tools-connected-services-storage) for blob storage, queues, and tables
 - [Key Vault connected service](/azure/key-vault/vs-key-vault-add-connected-service) to manage secrets for web apps
 

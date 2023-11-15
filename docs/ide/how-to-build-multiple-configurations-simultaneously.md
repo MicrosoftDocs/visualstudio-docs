@@ -1,6 +1,6 @@
 ---
 title: "Build multiple configurations"
-description: Learn how you can build most types of projects with multiple, or even all, of their build configurations with one IDE action.
+description: Build most types of projects with multiple, or even all, of their build configurations with one IDE action in Visual Studio.
 ms.date: 05/13/2020
 ms.technology: vs-ide-compile
 ms.topic: how-to

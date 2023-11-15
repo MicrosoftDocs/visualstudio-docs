@@ -1,6 +1,6 @@
 ---
 title: Start developing Visual Studio extensions
-description: Get answers to some of the common questions that you may have the first time you start to write a Visual Studio extension.
+description: Get answers to common questions about writing Visual Studio extensions, including prerequisites, extending features, and project templates.
 ms.date: 08/26/2022
 ms.topic: conceptual
 helpviewer_keywords:

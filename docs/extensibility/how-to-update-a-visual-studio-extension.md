@@ -1,6 +1,6 @@
 ---
 title: 'Update a Visual Studio Extension'
-description: Learn how to update a Visual Studio extension on your system by using Extensions and Updates to install the updated version.
+description: Update a Visual Studio extension on your system by using the Extensions and Updates options to install the updated version.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

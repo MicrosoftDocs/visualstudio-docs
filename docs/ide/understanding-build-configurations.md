@@ -1,6 +1,6 @@
 ---
 title: Understand build configurations
-description: Learn how you need build configurations when you need to build your projects with different settings in Visual Studio.
+description: Discover how to work with build configurations when you need to build your projects with different settings in Visual Studio.
 ms.date: 11/01/2023
 ms.technology: vs-ide-compile
 ms.topic: conceptual

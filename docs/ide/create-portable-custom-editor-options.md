@@ -1,6 +1,6 @@
 ---
 title: EditorConfig settings
-description: Learn how to add an EditorConfig file to your project or codebase to enforce consistent coding styles for everyone that works in the codebase.
+description: Add an EditorConfig file to your project or codebase to enforce consistent coding styles for everyone that works in the codebase.
 ms.date: 08/26/2022
 ms.topic: how-to
 helpviewer_keywords:

@@ -1,6 +1,6 @@
 ---
 title: Getting Started with the VSIX Project Template
-description: Learn how to use the VSIX Project template to create an extension or to package an existing extension for deployment. 
+description: Get started with the VSIX Project template in Visual Studio and create an extension or package an existing extension for deployment. 
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:

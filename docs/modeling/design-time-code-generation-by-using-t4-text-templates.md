@@ -1,6 +1,6 @@
 ---
 title: Design-Time Code Generation by using T4 Text Templates
-description: Learn how design-time T4 text templates let you generate program code and other files in your Visual Studio project.
+description: Use design-time T4 text templates with models to generate program code and other files in your Visual Studio project for particular aspects of your application.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
