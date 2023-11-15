@@ -390,7 +390,7 @@ public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
 
 ### Retest, rewrite, and reanalyze
 
-Currently, the test method doesn't handle all the cases that it should. If the method under test, the `Debit` method, failed to throw an <xref:System.ArgumentOutOfRangeException> when the `debitAmount` was larger than the balance (or less than zero), the test method would pass. This scenario is't good because you want the test method to fail if no exception is thrown.
+Currently, the test method doesn't handle all the cases that it should. If the method under test, the `Debit` method, failed to throw an <xref:System.ArgumentOutOfRangeException> when the `debitAmount` was larger than the balance (or less than zero), the test method would pass. This scenario isn't good because you want the test method to fail if no exception is thrown.
 
 This outcome is a bug in the test method. To resolve the issue, add an <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail%2A?displayProperty=nameWithType> assert at the end of the test method to handle the case where no exception is thrown.
 
