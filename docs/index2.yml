@@ -26,6 +26,8 @@ productDirectory:
           text: Visual Studio 2019 docs
         - url: /previous-versions/visualstudio/
           text: Earlier versions
+        - url: /visualstudio/subscriptions
+          text: Visual Studio subscriber docs
         - url: /visualstudio/releases/2022/release-notes
           text: Release notes
     - title: Visual Studio Code
@@ -44,16 +46,22 @@ productDirectory:
           text: About Copilot in Visual Studio 2022
         - url: https://code.visualstudio.com/docs/editor/github-copilot
           text: About Copilot in Visual Studio Code
-    - title: Visual Studio Subscriptions
+    - title: Visual Studio Language Guidance
       imageSrc: ./media/vs-subscription-temp.svg
       links:
-        - url: /visualstudio/subscriptions
-          text: Get Subscriber docs
-        - url: https://my.visualstudio.com
-          text: Access the Subscriber portal
-        - url: https://manage.visualstudio.com
-          text: Access the Administrator portal          
-    - title: Microsoft Dev Box
+        - url: /visualstudio/get-started/csharp/index.yml
+          text: C#          
+        - url: /cpp/overview/visual-cpp-in-visual-studio
+          text: C++
+        - url: /visualstudio/get-started/visual-basic/index.yml
+          text: Visual Basic
+        - url: /visualstudio/python/index.yml
+          text: Python
+        - url: /visualstudio/javascript/index.yml
+          text: JavaScript
+        - url: /dotnet/fsharp/get-started/get-started-visual-studio
+          text: F#
+   - title: Microsoft Dev Box
       imageSrc: ./media/dev-box.svg
       links:
          - url: /azure/dev-box/
