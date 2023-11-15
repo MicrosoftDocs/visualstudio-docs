@@ -24,7 +24,7 @@ highlightedContent:
    - title: Visual Studio 2022
      itemType: whats-new
      url: ../ide/whats-new-visual-studio-2022.md
-   - title: AI-assisted development
+   - title: GitHub Copilot
      itemType: get-started
      url: ../ide/ai-assisted-development-visual-studio.md
    - title: Previous versions
