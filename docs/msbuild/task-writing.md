@@ -1,6 +1,6 @@
 ---
 title: Task Writing
-description: Explore how you can create your own tasks to provide the code that runs during the MSBuild build process for your projects in Visual Studio.
+description: Explore how you can create your own tasks to provide the code that runs during the MSBuild build process for your projects.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

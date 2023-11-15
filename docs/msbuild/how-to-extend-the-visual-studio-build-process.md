@@ -1,6 +1,6 @@
 ---
 title: Extend the build process
-description: Explore several ways you can modify the build process so you can control and customize how your projects build in Visual Studio.
+description: Explore several ways you can modify the build process so you can control and customize how your projects build.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,6 +1,6 @@
 ---
 title: MSBuild Properties
-description: Explore how to use MSBuild name-value property pairs to pass values to tasks, evaluate conditions, and store values in Visual Studio.
+description: Explore how to use MSBuild name-value property pairs to pass values to tasks, evaluate conditions, and store values.
 ms.date: 08/15/2023
 ms.topic: conceptual
 helpviewer_keywords:

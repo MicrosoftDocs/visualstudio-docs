@@ -1,6 +1,6 @@
 ---
 title: Build the same source files with different options
-description: Create different MSBuild build configurations so you can build the same source files with different options in Visual Studio.
+description: Create different MSBuild build configurations so you can build the same source files with different options.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

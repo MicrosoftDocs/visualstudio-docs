@@ -1,6 +1,6 @@
 ---
 title: MSBuild Target Framework and Target Platform
-description: Build an MSBuild project in Visual Studio to run on a target .NET Framework version, and a target platform or software architecture.
+description: Build an MSBuild project to run on a target .NET Framework version, and a target platform or software architecture.
 ms.date: 09/14/2023
 ms.topic: conceptual
 author: ghogen
