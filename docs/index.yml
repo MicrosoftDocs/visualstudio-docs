@@ -21,9 +21,9 @@ productDirectory:
       imageSrc: ./media/vs-ide-2022.svg
       links:
         - url: ./windows/index.yml?view=vs-2022&preserve-view=true
-          text: Visual Studio docs
+          text: Visual Studio IDE docs
         - url: /visualstudio/subscriptions
-          text: Visual Studio subscriber docs
+          text: Visual Studio subscription docs
         - url: /visualstudio/releases/2022/release-notes
           text: Release notes
     - title: Visual Studio Code
