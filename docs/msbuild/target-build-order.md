@@ -1,6 +1,6 @@
 ---
 title: Target Build Order
-description: Specify the order in which MSBuild targets are run, if the input to one target depends on the output of another target.
+description: Specify the order in which MSBuild targets run and whether the input to one target depends on the output of another target.
 ms.date: 10/17/2023
 ms.topic: conceptual
 helpviewer_keywords:

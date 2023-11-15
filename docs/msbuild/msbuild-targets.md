@@ -1,6 +1,6 @@
 ---
 title: MSBuild Targets
-description: Explore how MSBuild uses targets to group tasks together and allow the build process to be factored into smaller units.
+description: Explore how MSBuild uses targets to group several tasks together and allow the build process to be factored into smaller units.
 ms.date: 06/01/2023
 ms.topic: conceptual
 helpviewer_keywords:
