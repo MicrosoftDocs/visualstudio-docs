@@ -1,6 +1,6 @@
 ---
 title: "What's new in Visual Studio subscriptions"
-description: "Learn about the new and updated features that you can use to manage Visual Studio subscriptions."
+description: Explore the new and updated features that you can use to manage Visual Studio subscriptions, including Visual Studio 2022.
 ms.date: 03/28/2023
 ms.topic: conceptual
 author: evanwindom

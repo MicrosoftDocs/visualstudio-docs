@@ -5,7 +5,7 @@ ms.author: amast
 manager: shve
 ms.date: 04/24/2023
 ms.topic: how-to
-description: Learn how to contact your subscription admin for assistance with questions or issues. 
+description: Contact your Visual Studio subscription administrators in the Subscriber Portal for assistance with questions or issues. 
 ---
 
 # Get assistance from your subscriptions admin

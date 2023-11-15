@@ -5,7 +5,7 @@ ms.author: amast
 manager: shve
 ms.date: 05/23/2023
 ms.topic: how-to
-description:  Learn about what benefits are included in subscriptions, and how to activate them.
+description: Explore benefits included in Visual Studio subscriptions, including benefits provided by partners, and how to activate the benefits.
 ---
 
 # About your subscription benefits

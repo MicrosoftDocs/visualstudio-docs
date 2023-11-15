@@ -5,7 +5,7 @@ ms.author: amast
 manager: shve
 ms.date: 07/19/2023
 ms.topic: conceptual
-description:  Learn whether your Visual Studio subscription includes Azure Dev/Test credits
+description: Check if your Visual Studio subscription includes Azure Dev/Test credits so you can try various Azure services at no cost.
 ---
 # Azure Dev/Test credits for Visual Studio subscribers
 

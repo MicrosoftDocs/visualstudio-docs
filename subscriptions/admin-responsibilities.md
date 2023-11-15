@@ -5,7 +5,7 @@ ms.author: amast
 manager: shve
 ms.date: 11/02/2023
 ms.topic: conceptual
-description:  Learn about responsibilities of subscriptions admins.
+description: Review task responsibilities and roles for Visual Studio subscription administrators, such as ensuring subscriptions are managed in accordance with license terms.
 ---
 # Overview of admin responsibilities
 

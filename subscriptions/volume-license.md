@@ -5,7 +5,7 @@ ms.author: amast
 manager: shve
 ms.date: 03/17/2023
 ms.topic: conceptual
-description:  Learn how admins on Volume License agreements can access the Visual Studio subscriptions Admin Portal
+description: Access the Visual Studio subscriptions Admin Portal as an admin on a Volume License agreement and manage subscriptions and other admins as the super admin.
 ---
 
 # Accessing the Admin Portal as an admin on a Volume License agreement
