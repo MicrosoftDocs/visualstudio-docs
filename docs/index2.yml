@@ -61,7 +61,7 @@ productDirectory:
           text: JavaScript
         - url: /dotnet/fsharp/get-started/get-started-visual-studio
           text: F#
-   - title: Microsoft Dev Box
+    - title: Microsoft Dev Box
       imageSrc: ./media/dev-box.svg
       links:
          - url: /azure/dev-box/
