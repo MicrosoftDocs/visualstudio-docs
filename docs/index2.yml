@@ -1,0 +1,73 @@
+### YamlMime:Hub
+title: Visual Studio product family documentation
+summary: Explore documentation for the Visual Studio family of products.
+brand: visual-studio
+metadata:
+  title: Visual Studio product family documentation
+  description: Explore documentation for the Visual Studio family of products, including Visual Studio IDEs for Windows and Mac, Visual Studio Code, Visual Studio App Center, GitHub Codespaces, and Visual Studio Subscriptions.
+  ms.topic: hub-page
+  ms.date: 11/13/2023
+  searchScope: []
+  titleSuffix: ""
+  ms.author: ghogen
+  author: ghogen
+  ms.manager: jmartens
+  monikerRange: ">=vs-2019"
+  hide_bc: true
+
+productDirectory:
+    items:
+    - title: Visual Studio
+      imageSrc: ./media/vs-ide-2022.svg
+      links:
+        - url: ./windows/index.yml?view=vs-2022&preserve-view=true
+          text: Visual Studio 2022 (current) docs
+        - url: ./windows/index.yml?view=vs-2019&preserve-view=true
+          text: Visual Studio 2019 docs
+        - url: /previous-versions/visualstudio/
+          text: Earlier versions
+        - url: /visualstudio/releases/2022/release-notes
+          text: Release notes
+    - title: Visual Studio Code
+      imageSrc: ./media/vs-code-logo.svg
+      links:
+        - url: https://code.visualstudio.com/docs
+          text: Visual Studio Code docs
+        - url: https://code.visualstudio.com/docs/languages/csharp
+          text: 'About C# Dev Kit'
+        - url: https://code.visualstudio.com/updates
+          text: Release notes          
+    - title: GitHub Copilot
+      imageSrc: /media/logos/logo_octokitty.svg
+      links:
+        - url: /visualstudio/ide/ai-assisted-development-visual-studio
+          text: About Copilot in Visual Studio 2022
+        - url: https://code.visualstudio.com/docs/editor/github-copilot
+          text: About Copilot in Visual Studio Code
+    - title: Visual Studio Subscriptions
+      imageSrc: ./media/vs-subscription-temp.svg
+      links:
+        - url: /visualstudio/subscriptions
+          text: Get Subscriber docs
+        - url: https://my.visualstudio.com
+          text: Access the Subscriber portal
+        - url: https://manage.visualstudio.com
+          text: Access the Administrator portal          
+    - title: Microsoft Dev Box
+      imageSrc: ./media/dev-box.svg
+      links:
+         - url: /azure/dev-box/
+           text: About Microsoft Dev Box
+         - url: /azure/dev-box/how-to-generate-visual-studio-caches?branch=main
+           text: Visual Studio on Microsoft Dev Box
+    - title: Productivity services for developers
+      imageSrc: ./media/Microsoft_logo.svg
+      links:
+        - url: /azure/deployment-environments/
+          text: Azure Deployment Environments docs
+        - url: /azure/developer/dev-tunnels/
+          text: Azure Dev Tunnels docs
+        - url: https://code.visualstudio.com/docs/remote/codespaces/
+          text: GitHub Codespaces with Visual Studio Code          
+        - url: /appcenter
+          text: App Center docs
