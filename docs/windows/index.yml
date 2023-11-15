@@ -18,15 +18,19 @@ highlightedContent:
    - title: Setup and installation
      itemType: download
      url: ../install/install-visual-studio.md
-   - title: About Visual Studio IDE
+   - title: What is Visual Studio
      itemType: overview
      url: ../get-started/visual-studio-ide.md
    - title: Visual Studio 2022
      itemType: whats-new
      url: ../ide/whats-new-visual-studio-2022.md
-   - title: AI-assisted development
+   - title: GitHub Copilot
      itemType: get-started
      url: ../ide/ai-assisted-development-visual-studio.md
+   - title: Previous versions
+     itemType: overview
+     url: /previous-versions/visualstudio/
+
 
 conceptualContent:
   title: Get started
@@ -48,8 +52,8 @@ conceptualContent:
         - text: Open code from a repo
           url: ../get-started/tutorial-open-project-from-repo.md
           itemType: tutorial
-        - text: Use AI when developing
-          url: ../ide/ai-assisted-development-visual-studio.md
+        - text: Get AI assistance with GitHub Copilot
+          url: ../ide/visual-studio-github-copilot-extension.md
           itemType: overview
     - title: Follow a tutorial
       links:
@@ -114,16 +118,16 @@ additionalContent:
       - title: Deploy
         summary: Share your apps and code by using Web Deploy, InstallShield, NuGet, Continuous Integration, and more.
         url: ../deployment/index.yml
+      - title: AI-assisted development
+        summary: Get answers and suggestions from GitHub Copilot and code assistance with IntelliCode.
+        url: ../ide/ai-assisted-development-visual-studio.md
       - title: Track version changes
         summary: Share code using version control technologies such as Git and GitHub.
         url: ../version-control/index.yml
       - title: Extend Visual Studio
         summary: Add your own functionality to the Visual Studio IDE to improve your development experience.
         url: ../extensibility/index.yml
-      - title: AI-assisted development
-        summary: Get answers and suggestions from GitHub Copilot and code assistance with IntelliCode.
-        url: ../ide/ai-assisted-development-visual-studio.md
-
+      
    - title: Development with Visual Studio
      items:
         - title: Web and cloud
