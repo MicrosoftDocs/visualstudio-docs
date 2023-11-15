@@ -1,6 +1,6 @@
 ---
 title: C# IntelliSense
-description: Learn about some IntelliSense features that you can use while coding your C# project.
+description: Explore IntelliSense features that you can use while coding your C# project for quick access to variables, commands, functions, language keywords, and more.
 ms.date: 06/01/2021
 ms.topic: conceptual
 helpviewer_keywords:

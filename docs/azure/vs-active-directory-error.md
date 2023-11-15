@@ -1,5 +1,5 @@
 ---
-title: Diagnose errors with Azure AD connected service (Visual Studio)
+title: Diagnose errors with Microsoft Entra connected service (Visual Studio)
 description: The active directory connected service detected an incompatible authentication type
 author: ghogen
 manager: jmartens
@@ -10,11 +10,11 @@ ms.date: 12/14/2021
 ms.author: ghogen
 ms.custom: aaddev
 ---
-# Diagnose errors with the Azure Active Directory Connected Service
+# Diagnose errors with the Microsoft Entra Connected Service
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-If you encounter an error while detecting previous authentication code, the Azure Active Directory connected service detected an incompatible authentication type.
+If you encounter an error while detecting previous authentication code, the Microsoft Entra connected service detected an incompatible authentication type.
 
 To correctly detect previous authentication code in a project, the project must be rebuilt. If you see this error and you don't have a previous authentication code in your project, rebuild and try again.
 
@@ -91,4 +91,4 @@ To detect an old form of Organizational Account authentication, the connected se
 
 To change the authentication type, remove the incompatible authentication type and try adding the connected service again.
 
-For more information, see [Authentication Scenarios for Azure AD](/azure/active-directory/develop/authentication-vs-authorization).
+For more information, see [Authentication Scenarios for Microsoft Entra ID](/azure/active-directory/develop/authentication-vs-authorization).

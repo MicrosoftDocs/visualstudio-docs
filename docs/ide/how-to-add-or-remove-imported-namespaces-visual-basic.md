@@ -1,6 +1,6 @@
 ---
 title: Add or remove imported namespaces (Visual Basic)
-description: Learn how to add or remove imported namespaces and add or remove user imports.
+description: Add or remove imported Visual Basic namespaces and add, remove, or update user imports with the Project Designer in Visual Studio.
 ms.date: 06/21/2017
 ms.topic: how-to
 helpviewer_keywords:

@@ -1,6 +1,6 @@
 ---
 title: Add references in the Reference Manager
-description: Learn how to use the Reference Manager dialog box to add and manage references to developed components.
+description: Use the Reference Manager in Visual Studio to add and manage references to components that you, Microsoft, or another company developed.
 ms.date: 10/31/2023
 ms.topic: how-to
 f1_keywords:

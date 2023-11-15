@@ -1,6 +1,6 @@
 ---
 title: "Walkthrough: Creating a SharePoint Application Page"
-description: In this walkthrough, create an application page (a specialized form of an ASP.NET page) and then debug it by using a local SharePoint site.
+description: Create an application page, which is a specialized form of an ASP.NET page, and debug the page by using a local SharePoint site.
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

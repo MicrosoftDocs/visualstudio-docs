@@ -1,6 +1,6 @@
 ---
 title: "What's new in Visual Studio docs"
-description: "What's new in the Visual Studio docs"
+description: Discover recent changes in the Visual Studio documentation, including updated articles about getting started, the IDE, and deployment.
 ms.date: 11/02/2023
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"

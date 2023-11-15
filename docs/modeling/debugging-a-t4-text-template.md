@@ -1,6 +1,6 @@
 ---
 title: Debugging a T4 Text Template
-description: To debug a design-time text template, save the text template file, and then choose Debug T4 Template on the shortcut menu of the file in Solution Explorer.
+description: Debug a design-time text template and save the template file with the Debug T4 Template feature in Visual Studio Solution Explorer.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,6 +1,6 @@
 ---
 title: Adding Icons to Menu Commands
-description: Learn how to add icons to commands that can appear on both menus and toolbars in the Visual Studio integrated development environment (IDE).
+description: Add 16 by 16 icons with 8-bit or 32-bit color depth to menu and toolbar commands in the Visual Studio integrated development environment (IDE).
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

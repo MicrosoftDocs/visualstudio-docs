@@ -1,6 +1,6 @@
 ---
 title: Find and replace text, and multi-caret selection
-description: Learn about the Find and Replace feature and how to use it to find and replace instances of a pattern.
+description: Explore the Find and Replace feature in Visual Studio and discover how to use the feature to find and replace instances of a pattern.
 ms.date: 01/12/2023
 ms.topic: conceptual
 f1_keywords:

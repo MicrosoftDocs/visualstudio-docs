@@ -1,6 +1,6 @@
 ---
 title: Getting Started with Roslyn Analyzers
-description: Use these resources to get started with Roslyn analyzers in Visual Studio; includes a tutorial and several examples.
+description: Get started with Roslyn analyzers in Visual Studio with tutorials and examples about writing analyzers, adding code fixes, and developing real-world analyzers.
 ms.date: 04/02/2018
 ms.topic: conceptual
 author: maiak

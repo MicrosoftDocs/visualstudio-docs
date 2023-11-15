@@ -1,6 +1,6 @@
 ---
 title: "Create SharePoint Solutions"
-description: Create SharePoint applications in Visual Studio as an alternative to creating them in SharePoint Designer.
+description: Create SharePoint applications in Visual Studio and use advanced debugging tools, IntelliSense, statement completion, and project templates.
 ms.date: "02/02/2017"
 ms.topic: overview
 dev_langs:
