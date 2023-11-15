@@ -35,10 +35,12 @@ productDirectory:
           text: Visual Studio Code documentation
         - url: https://code.visualstudio.com/docs/remote/codespaces/
           text: GitHub Codespaces with Visual Studio Code
+        - url: https://code.visualstudio.com/docs/languages/csharp
+          text: 'C# Dev Kit'
         - url: https://code.visualstudio.com/updates
           text: Product release notes          
     - title: GitHub Copilot
-      imageSrc: ./media/vs-mac-2022.svg
+      imageSrc: /media/logos/logo_octokitty.svg
       links:
         - url: /visualstudio/ide/ai-assisted-development-visual-studio
           text: Copilot in Visual Studio 2022
@@ -61,7 +63,7 @@ productDirectory:
          - url: https://azure.microsoft.com/products/dev-box/
            text: Product page
     - title: Other developer services
-      imageSrc: ./media/vs-mobile-center.svg
+      imageSrc: ./media/Microsoft_logo.svg
       links:
         - url: /azure/deployment-environments/
           text: Azure Deployment Environments documentation
