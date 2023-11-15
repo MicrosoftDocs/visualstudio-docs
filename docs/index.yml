@@ -38,7 +38,7 @@ productDirectory:
         - url: https://code.visualstudio.com/updates
           text: Release notes          
     - title: GitHub Copilot
-      imageSrc: /media/logos/logo_octokitty.svg
+      imageSrc: ./media/copilot-icon.svg
       links:
         - url: /visualstudio/ide/ai-assisted-development-visual-studio
           text: About Copilot in Visual Studio 2022
