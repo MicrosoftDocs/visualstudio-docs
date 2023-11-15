@@ -1,6 +1,6 @@
 ---
 title: Visual Studio SDK
-description: The Visual Studio SDK helps you extend features or add new features to Visual Studio. Learn about some of the ways in which you can extend Visual Studio.
+description: Explore the Visual Studio SDK to add features and extend options in the Visual Studio IDE, including menus, commands, and IntelliSense.
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:

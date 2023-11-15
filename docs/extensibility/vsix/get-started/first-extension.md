@@ -1,6 +1,6 @@
 ---
 title: Your first extension
-description: Shows you the few simple steps to get your first Visual Studio extension up and running.
+description: Create a Visual Studio extension with the .NET Framework and C# and an existing project template file, such as Empty VSIX Project (Community).
 ms.date: 12/01/2021
 ms.topic: conceptual
 author: madskristensen

@@ -1,6 +1,6 @@
 ---
 title: 'Walkthrough: Outlining'
-description: Learn how to define and display outlining regions in the context of a language service or for your own file name extension and content type.
+description: Define and display outlining regions in the context of a language service or for your own file name extension and content type in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

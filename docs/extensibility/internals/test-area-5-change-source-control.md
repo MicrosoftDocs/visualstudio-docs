@@ -1,6 +1,6 @@
 ---
 title: 'Test Area 5: Change Source Control'
-description: This source-control plug-in test area covers changing the source control by using the Change Source Control command.
+description: Use this source-control plug-in test to change the source control by using the Change Source Control command in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

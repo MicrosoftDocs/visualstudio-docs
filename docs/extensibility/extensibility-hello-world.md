@@ -1,6 +1,6 @@
 ---
 title: Hello World extension tutorial
-description: Learn how to add a new command as an extension to Visual Studio, which involves creating a project, adding a command, and modifying the source code.
+description: Add a new command as an extension to Visual Studio, which involves creating a project, adding a command, and modifying the source code.
 ms.date: 03/14/2019
 ms.topic: tutorial
 author: maiak
