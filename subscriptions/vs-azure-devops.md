@@ -5,7 +5,7 @@ ms.author: amast
 manager: shve
 ms.date: 06/15/2023
 ms.topic: conceptual
-description:  Understand how you can use Azure DevOps as a Visual Studio subscriber.
+description: Check if your Visual Studio subscription level makes you eligible for Azure DevOps benefits in each organization in which you're a member.
 ---
 # Azure DevOps for Visual Studio subscribers
 
