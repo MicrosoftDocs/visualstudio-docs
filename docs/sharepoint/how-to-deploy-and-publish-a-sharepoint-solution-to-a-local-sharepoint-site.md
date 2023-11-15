@@ -1,7 +1,7 @@
 ---
 title: "Deploy & publish SharePoint solution to local SharePoint site"
 titleSuffix: ""
-description: Review how to deploy or publish SharePoint solutions to a local SharePoint server on your development computer.
+description: Deploy and publish SharePoint solutions to a local SharePoint server on your development computer with Visual Studio Solution Explorer.
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

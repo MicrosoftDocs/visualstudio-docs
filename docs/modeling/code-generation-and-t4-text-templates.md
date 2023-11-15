@@ -1,6 +1,6 @@
 ---
 title: Code Generation and T4 Text Templates
-description: Learn how a T4 text template is a mixture of text blocks and control logic that can generate a text file.
+description: Explore the T4 text template and discover how it uses a mixture of text blocks and control logic to generate a text file in Visual Studio.
 ms.date: 12/28/2021
 ms.topic: overview
 f1_keywords:

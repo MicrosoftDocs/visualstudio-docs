@@ -58,7 +58,7 @@ The next time you open **Server Explorer**, the resources for that subscription 
 
 ### Access Microsoft Entra ID in a Web project
 
-Microsoft Entra ID enables support for end-user single sign-in in ASP.NET MVC web apps or AD authentication in web API services. Domain authentication is different from individual user account authentication. Users that have access to your Active Directory domain can use their existing Microsoft Entra ID accounts to connect to your web applications. Microsoft 365 apps can also use domain authentication.
+Microsoft Entra ID enables support for end-user single sign-in in ASP.NET MVC web apps or AD authentication in web API services. Domain authentication is different from individual user account authentication. Users that have access to your Active Directory domain can use their existing Microsoft Entra accounts to connect to your web applications. Microsoft 365 apps can also use domain authentication.
 
 ::: moniker range="vs-2019"
 
@@ -70,7 +70,9 @@ To see this scenario in action, create a new **ASP.NET Core Web App** project. O
 
 To see this scenario in action, create a new **ASP.NET Core Web App** project. On the **Additional information** page, choose **.NET 8.0** from the **Target Framework** drop-down, and then choose an authentication type from the **Authentication Type** drop-down.
 
-### Identity: Proxy support for Microsoft Entra ID backed accounts
+<a name='identity-proxy-support-for-microsoft-entra-id-backed-accounts'></a>
+
+### Identity: Proxy support for Microsoft Entra backed accounts
 
 Visual Studio can now detect when users are behind a proxy and proactively prompt for proxy credentials when adding  Microsoft accounts (MSA) or work or school accounts (WSA) to Visual Studio. 
 

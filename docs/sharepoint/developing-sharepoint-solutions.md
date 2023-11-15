@@ -1,6 +1,6 @@
 ---
 title: "Developing SharePoint Solutions"
-description: Develop SharePoint solutions. Know the elements of a SharePoint project. Understand SharePoint project and project item properties.
+description: Develop SharePoint solutions, understand SharePoint project and project item properties, and work with the elements of a SharePoint project.
 ms.date: "02/02/2017"
 ms.topic: overview
 f1_keywords:

@@ -1,6 +1,6 @@
 ---
 title: "Add and Remove Mapped Folders"
-description: Add and remove mapped folders to a project in SharePoint.  Change the deployment location of a mapped folder. Rename or remove mapped folders.
+description: Add and remove mapped folders to a project in SharePoint, change the deployment location of a mapped folder, and rename or remove mapped folders.
 ms.date: "02/02/2017"
 ms.topic: how-to
 f1_keywords:

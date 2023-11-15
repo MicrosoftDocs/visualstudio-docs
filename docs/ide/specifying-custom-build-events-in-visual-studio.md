@@ -1,6 +1,6 @@
 ---
 title: Specify custom build events
-description: Learn how you can you can automatically run commands in Visual Studio before a build starts or after it finishes.
+description: Explore how you can you can automatically run commands in Visual Studio before you start a build of your project or solution or after a build completes.
 ms.date: 11/04/2016
 ms.technology: vs-ide-compile
 ms.topic: conceptual

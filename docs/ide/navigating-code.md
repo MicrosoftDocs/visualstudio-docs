@@ -1,6 +1,6 @@
 ---
 title: Code navigation commands
-description: Learn about the different options you have to navigate around in your code in the editor.
+description: Explore the different options in Visual Studio for browsing your code with the editor, including the Navigation bar, and Backward / Forward commands.
 ms.date: 11/21/2019
 ms.topic: conceptual
 helpviewer_keywords:

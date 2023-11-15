@@ -1,6 +1,6 @@
 ---
 title: Code Generation in a Build Process
-description: Learn how text transformation can be invoked as part of the build process of a Visual Studio solution.
+description: Invoke text transformation as part of the build process for a Visual Studio solution or project, configure when to run the task, and specify the files to transform.
 ms.date: 03/22/2018
 ms.topic: how-to
 helpviewer_keywords:

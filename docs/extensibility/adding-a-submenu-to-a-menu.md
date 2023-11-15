@@ -1,6 +1,6 @@
 ---
 title: Adding a Submenu to a Menu
-description: Learn how to create a submenu, add it to the Visual Studio menu bar, and add a new command to the submenu.
+description: Create a submenu, add it to the Visual Studio menu bar, and add commands to the submenu in the Visual Studio integrated development environment (IDE).
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

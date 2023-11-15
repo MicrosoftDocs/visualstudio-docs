@@ -1,6 +1,6 @@
 ---
 title: 'Use the Activity Log'
-description: VSPackages can write messages to the activity log. Learn how to use the activity log for debugging VSPackages in retail environments.
+description: Work with the activity log in Visual Studio to debug VSPackages messages in retail environments and write entries to the log.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

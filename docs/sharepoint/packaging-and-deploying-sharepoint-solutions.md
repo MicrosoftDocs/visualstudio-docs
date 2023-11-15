@@ -1,6 +1,6 @@
 ---
 title: "Packaging and Deploying SharePoint Solutions"
-description: Package and deploy SharePoint solutions, which are deployed to a SharePoint server by using a solution package (.wsp) file.
+description: Package and deploy SharePoint solutions in Visual Studio, which are deployed to a SharePoint server by using a solution package (.wsp) file.
 ms.date: "02/02/2017"
 ms.topic: overview
 dev_langs:
