@@ -55,7 +55,7 @@ productDirectory:
         - url: /dotnet/fsharp/get-started/get-started-visual-studio
           text: F#
     - title: GitHub Copilot
-      imageSrc: /media/logos/logo_octokitty.svg
+      imageSrc: ./media/GitHub_Copilot_logo.svg
       links:
         - url: /visualstudio/ide/ai-assisted-development-visual-studio
           text: About Copilot in Visual Studio 2022
