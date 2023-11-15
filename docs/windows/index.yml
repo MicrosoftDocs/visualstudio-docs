@@ -114,16 +114,16 @@ additionalContent:
       - title: Deploy
         summary: Share your apps and code by using Web Deploy, InstallShield, NuGet, Continuous Integration, and more.
         url: ../deployment/index.yml
+      - title: GitHub Copilot
+        summary: Get answers and suggestions from GitHub Copilot and code assistance with IntelliCode.
+        url: ../ide/ai-assisted-development-visual-studio.md
       - title: Track version changes
         summary: Share code using version control technologies such as Git and GitHub.
         url: ../version-control/index.yml
       - title: Extend Visual Studio
         summary: Add your own functionality to the Visual Studio IDE to improve your development experience.
         url: ../extensibility/index.yml
-      - title: AI-assisted development
-        summary: Get answers and suggestions from GitHub Copilot and code assistance with IntelliCode.
-        url: ../ide/ai-assisted-development-visual-studio.md
-
+      
    - title: Development with Visual Studio
      items:
         - title: Web and cloud
