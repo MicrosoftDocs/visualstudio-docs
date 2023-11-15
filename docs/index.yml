@@ -21,53 +21,53 @@ productDirectory:
       imageSrc: ./media/vs-ide-2022.svg
       links:
         - url: ./windows/index.yml?view=vs-2022&preserve-view=true
-          text: Visual Studio 2022 (current)
+          text: Get Visual Studio 2022 (current) docs
         - url: ./windows/index.yml?view=vs-2019&preserve-view=true
-          text: Visual Studio 2019
+          text: Get Visual Studio 2019 docs
         - url: /previous-versions/visualstudio/
-          text: VS 2017 and previous versions
+          text: Go to VS 2017 and previous versions
         - url: /visualstudio/releases/2022/release-notes
-          text: Release notes
+          text: Get release notes
     - title: Visual Studio Code
       imageSrc: ./media/vs-code-logo.svg
       links:
         - url: https://code.visualstudio.com/docs
-          text: Visual Studio Code documentation
-        - url: https://code.visualstudio.com/docs/remote/codespaces/
-          text: GitHub Codespaces with Visual Studio Code
+          text: Go to Visual Studio Code docs
         - url: https://code.visualstudio.com/docs/languages/csharp
-          text: 'C# Dev Kit'
+          text: 'About C# Dev Kit'
         - url: https://code.visualstudio.com/updates
-          text: Product release notes          
+          text: Go to release notes          
     - title: GitHub Copilot
       imageSrc: /media/logos/logo_octokitty.svg
       links:
         - url: /visualstudio/ide/ai-assisted-development-visual-studio
-          text: Copilot in Visual Studio 2022
+          text: About Copilot in Visual Studio 2022
         - url: https://code.visualstudio.com/docs/editor/github-copilot
-          text: Copilot in Visual Studio Code
+          text: About Copilot in Visual Studio Code
     - title: Visual Studio Subscriptions
       imageSrc: ./media/vs-subscription-temp.svg
       links:
         - url: /visualstudio/subscriptions
-          text: Subscriber documentation
+          text: Get Subscriber docs
         - url: https://my.visualstudio.com
-          text: Subscriber portal
+          text: Access the Subscriber portal
         - url: https://manage.visualstudio.com
-          text: Administrator portal          
+          text: Access the Administrator portal          
     - title: Microsoft Dev Box
       imageSrc: ./media/dev-box.svg
       links:
          - url: /azure/dev-box/
-           text: Documentation
-         - url: https://azure.microsoft.com/products/dev-box/
-           text: Product page
-    - title: Other developer services
+           text: About Microsoft Dev Box
+         - url: /azure/dev-box/how-to-generate-visual-studio-caches?branch=main
+           text: Optimize Visual Studio on Microsoft Dev Box
+    - title: Productivity services for developers
       imageSrc: ./media/Microsoft_logo.svg
       links:
         - url: /azure/deployment-environments/
-          text: Azure Deployment Environments documentation
+          text: Azure Deployment Environments docs
         - url: /azure/developer/dev-tunnels/
-          text: Azure Dev Tunnels documentation
+          text: Azure Dev Tunnels docs
+        - url: https://code.visualstudio.com/docs/remote/codespaces/
+          text: GitHub Codespaces with Visual Studio Code          
         - url: /appcenter
-          text: App Center documentation
+          text: App Center docs
