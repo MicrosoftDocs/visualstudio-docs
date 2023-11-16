@@ -1,7 +1,7 @@
 ---
 title: "Unit testing JavaScript and TypeScript"
 description: Visual Studio provides support unit testing JavaScript and TypeScript code using the Node.js Tools for Visual Studio
-ms.date: "11/03/2023"
+ms.date: "11/16/2023"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -23,7 +23,6 @@ The supported frameworks are:
 - Jasmine ([Jasmine.github.io](https://jasmine.github.io/))
 - Tape ([github.com/substack/tape](https://github.com/substack/tape))
 - Jest ([jestjs.io](https://jestjs.io/))
-- Export Runner (this framework is specific to Node.js Tools for Visual Studio)
 
 If your favorite framework is not supported, see [Add support for a unit test framework](#addingFramework) for information on adding support.
 
@@ -32,9 +31,76 @@ If your favorite framework is not supported, see [Add support for a unit test fr
 
 The [CLI-based projects](../javascript/javascript-in-vs-2022.md#project-templates) supported in Visual Studio 2022 work with Test Explorer. Jest is the built-in test framework for React and Vue projects, and Karma and Jasmine is used for Angular projects. By default, you will be able to run the default tests provided by each framework, as well as any additional tests you write.  Just hit the **Run** button in Test Explorer. If you don’t already have Test Explorer open, you can find it by selecting **Test** > **Test Explorer** in the menu bar.
 
-The Node.js development workload is required to support unit testing for CLI-based projects.
+Mocha and Tape test libraries are also supported. To use one of these, simply change the default test library in *package.json* to the appropriate test library’s package.
 
-Mocha and Tape test libraries are also supported. To use one of these, simply change the default test library in package.json to the appropriate test library’s package.
+The following example is based on a React project that uses the project template provided in Visual Studio 2022 version 17.8 or later. The template used is the Standalone TypeScript React Project and the Jest test framework is used.
+
+1. In Solution Explorer, right-click the React project and choose **Edit Project File**.
+
+1. Make sure that the following properties are present in the *.esproj* file with the values shown.
+
+   ```xml
+   <PropertyGroup>
+     <JavaScriptTestRoot>src\</JavaScriptTestRoot>
+     <JavaScriptTestFramework>Jest</JavaScriptTestFramework>
+   </PropertyGroup> 
+   ```
+
+   The `JavaScriptTestRoot` element specifies that your unit tests will be in the *src* folder of the project root.
+
+1. In Solution Explorer, right-click the npm node and choose **Install new npm packages**.
+
+   Use the npm package installation dialog to install the following npm packages:
+
+   - jest
+   - jest-editor-support
+
+   These packages are added to the *package.json* file under dependencies.
+
+1. In *package.json*, add the `test` section at the end of the `scripts` section:
+
+   ```json
+   "scripts": {
+      ...
+      "test": "jest"
+   },
+   ```
+
+1. In Solution Explorer, right-click the src folder and choose **Add** > **New Item**, and then add a new file named *App.test.tsx*.
+
+   This adds the new file under the src folder.
+
+1. Add the following code to *App.test.tsx*.
+
+   ```javascript
+   describe('testAsuite', () => {
+      it('testA1', async () => {
+         expect(2).toBe(2);
+      });
+   });
+   ```
+
+1. Open Test Explorer (choose **Test** > **Test Explorer**) and Visual Studio discovers and displays tests. If tests are not showing initially, then rebuild the project to refresh the list.
+
+   ![Test Explorer test discovery](../javascript/media/unit-tests-aspnet-core-discovery.png)
+
+   > [!NOTE]
+   > For TypeScript, do not use the `outfile` option in *tsconfig.json*, because Test Explorer won't be able to find your unit tests. You can use the `outdir` option, but make sure that configuration files such as `package.json` and `tsconfig.json` are in the project root.
+
+## Run tests (.esproj)
+
+You can run the tests by clicking the **Run All** link in Test Explorer. Or, you can run tests by selecting one or more tests or groups, right-clicking, and selecting **Run** from the shortcut menu. Tests run in the background, and Test Explorer automatically updates and shows the results. Furthermore, you can also debug selected tests by right-clicking and selecting **Debug**.
+
+For TypeScript, unit tests are run against the generated JavaScript code.
+
+![Test Explorer results](../javascript/media/vs-2022/unit-tests-esproj-run.png)
+
+> [!NOTE]
+> In most TypeScript scenarios, you can debug a unit test by setting a breakpoint in TypeScript code, right-clicking a test in Test Explorer, and choosing **Debug**. In more complex scenarios, such as some scenarios that use source maps, you may have difficulty hitting breakpoints in TypeScript code. As a workaround, try using the `debugger` keyword.
+
+> [!NOTE]
+> Profiling tests and code coverage are not currently supported.
+
 ::: moniker-end
 
 ## Write unit tests for ASP.NET Core
