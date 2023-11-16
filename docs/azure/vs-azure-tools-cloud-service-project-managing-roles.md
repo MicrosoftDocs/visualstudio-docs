@@ -66,5 +66,5 @@ For example, you might remove a web service role and later you decide to add thi
 </WebRole>
 ```
 
-## Next steps
+## Related content
 - [Configure the Roles for an Azure cloud service with Visual Studio](vs-azure-tools-configure-roles-for-cloud-service.md)

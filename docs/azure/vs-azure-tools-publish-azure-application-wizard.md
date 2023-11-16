@@ -101,7 +101,7 @@ Diagnostics enables you to troubleshoot an Azure cloud service (or Azure virtual
 
 Once you configure all the settings for your project's deployment, select **Publish** at the bottom of the dialog. You can monitor the process status in the **Output** window in Visual Studio.
 
-## Next steps
+## Related content
 
 - [Migrate and publish a Web Application to an Azure cloud service from Visual Studio](./vs-azure-tools-migrate-publish-web-app-to-cloud-service.md)
 

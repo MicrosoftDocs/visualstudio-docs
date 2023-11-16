@@ -369,7 +369,7 @@ Visual Studio ASP.NET projects offer an option to create a handy virtual machine
 
 :::moniker-end
 
-## Next steps
+## Related content
 
 * Use **IntelliTrace** to collect a log of calls and events from a release server. See [Debugging a Published Cloud Service with IntelliTrace and Visual Studio](vs-azure-tools-IntelliTrace-debug-published-cloud-services.md).
 

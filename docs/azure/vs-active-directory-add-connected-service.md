@@ -67,7 +67,7 @@ When you add the connected service the wizard, Visual Studio adds Microsoft Entr
 - [What happened to my .NET MVC project?](vs-active-directory-dotnet-what-happened.md)
 - [What happened to my Web API project?](vs-active-directory-webapi-what-happened.md)
 
-## Next steps
+## Related content
 
 - [Authentication scenarios for Microsoft Entra ID](/azure/active-directory/develop/authentication-vs-authorization)
 - [Add sign-in with Microsoft to an ASP.NET web app](/azure/active-directory/develop/quickstart-v2-aspnet-webapp)
