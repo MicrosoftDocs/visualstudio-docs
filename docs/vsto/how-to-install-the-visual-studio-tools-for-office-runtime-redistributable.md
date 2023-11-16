@@ -1,6 +1,6 @@
 ---
 title: "Install the Visual Studio Tools for Office Runtime Redistributable"
-description: Learn how you can install the Microsoft Visual Studio 2010 Tools for Office Runtime Redistributable.
+description: Install the Microsoft Visual Studio 2010 Tools for Office Runtime redistributable, and review installation requirements.
 titleSuffix: ""
 ms.date: "01/25/2022"
 ms.topic: "how-to"
@@ -51,8 +51,7 @@ ms.technology: office-development
 ## See also
 
 - [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)
-- [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md)
-- [How to: Configure a computer to develop Office solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md)
+- [Configure a computer to develop Office solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md)
 - [How to: Install Office primary interop assemblies](../vsto/how-to-install-office-primary-interop-assemblies.md)
 - [Manage documents on a server by using the ServerDocument class](../vsto/managing-documents-on-a-server-by-using-the-serverdocument-class.md)
 - [Deploy an Office solution](../vsto/deploying-an-office-solution.md)

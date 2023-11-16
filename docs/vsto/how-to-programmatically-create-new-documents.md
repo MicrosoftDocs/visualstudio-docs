@@ -1,6 +1,6 @@
 ---
 title: "Programmatically create new documents"
-description: Learn how you can programmatically create new documents in Microsoft Word by using Visual Studio.
+description: Create a new Microsoft Word document programmatically from Visual Basic or C# in Visual Studio by using the default template or with a custom template.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

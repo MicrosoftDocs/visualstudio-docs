@@ -1,6 +1,6 @@
 ---
 title: VSIX Community Toolkit
-description: Welcome to the Visual Studio Extensibility Community Toolkit
+description: Explore the Visual Studio Extensibility Community Toolkit, including getting started and a walkthrough of typical scenarios.
 ms.date: 12/01/2021
 ms.topic: overview
 author: madskristensen

@@ -1,6 +1,6 @@
 ---
 title: Overriding ToolsVersion Settings
-description: Learn several ways you can change or override the value of the MSBuild Toolset for projects and solutions.
+description: Explore ways to change or override the value of the MSBuild Toolset for projects and solutions, including the ToolsVersion parameter and precedence order.
 ms.date: 11/11/2022
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,6 +1,6 @@
 ---
 title: "Programmatically create Word tables"
-description: Learn how to use the Add method of the Tables collection to add a table at the specified range in a Microsoft Word document.
+description: Create a table in a Microsoft Word document and add it to a specified range in the document programmatically from Visual Basic or C# in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

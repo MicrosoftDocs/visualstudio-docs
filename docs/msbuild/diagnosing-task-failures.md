@@ -1,6 +1,6 @@
 ---
 title: Diagnosing task failures
-description: Learn how to diagnose MSBuild task failures by identifying the failing task, tool name, and other information.
+description: Diagnose MSBuild task failures by identifying the failing task, the tool name, and other information for troubleshooting.
 ms.date: 03/14/2023
 ms.topic: how-to
 f1_keywords:

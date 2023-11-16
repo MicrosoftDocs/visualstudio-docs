@@ -1,6 +1,6 @@
 ---
 title: See dependencies between C++ source and header files
-description: Provides information about code maps for C++ projects.
+description: Check dependencies between C++ source code and header files by using code maps for C++ projects, and troubleshoot issues in C and C++ code.
 ms.date: 05/16/2018
 ms.topic: conceptual
 author: mgoertz-msft

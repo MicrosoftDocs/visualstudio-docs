@@ -1,6 +1,6 @@
 ---
 title: Manage references in a project
-description: Learn how to manage references to external components and connected services in a project.
+description: Manage references to external components and connected services in your project so Visual Studio can locate the component or the service.
 ms.date: 08/31/2023
 ms.topic: conceptual
 f1_keywords:

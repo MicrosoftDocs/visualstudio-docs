@@ -1,6 +1,6 @@
 ---
 title: "Get a publish profile from Azure App Service"
-description: "A publish profile is a file that contains information and settings that Visual Studio uses to deploy applications and services to Azure."
+description: Get a publish profile file from Azure App Service with information and settings for Visual Studio to deploy applications and services to Azure.
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure

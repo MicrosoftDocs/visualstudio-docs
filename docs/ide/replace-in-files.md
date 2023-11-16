@@ -1,6 +1,6 @@
 ---
 title: Replace in files
-description: Learn how to use Replace in Files to search the code of a specified set of files for a string or expression and change some or all of the matches found.
+description: Explore the Replace in Files feature to search the code of a specified set of files for a string or expression and change some or all of the matches found.
 ms.date: 02/07/2023
 ms.topic: conceptual
 f1_keywords:

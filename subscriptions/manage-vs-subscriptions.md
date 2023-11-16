@@ -5,7 +5,7 @@ ms.author: amast
 manager: shve
 ms.date: 03/30/2023
 ms.topic: conceptual
-description: Learn how to get the most out of your Visual Studio subscriptions
+description: Explore management tasks for your Visual Studio subscriptions, including renewal, transfer, profile changes, and setting preferences.
 ---
 # Managing subscriptions
 

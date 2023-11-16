@@ -1,5 +1,5 @@
 ---
-title: Improved context in GitHub Copilot Chat
+title: 'Tips & Tricks for GitHub Copilot Chat in Visual Studio'
 description: Use slash commands, references, and threads to form better questions and get better answers with scoped context in GitHub Copilot Chat.
 ms.date: 10/28/2023
 ms.topic: how-to 
@@ -12,25 +12,29 @@ helpviewer_keywords:
   - context, copilot chat
 monikerRange: vs-2022
 ---
-# Get better answers with improved context in GitHub Copilot Chat
+# Get better answers by setting the context for GitHub Copilot Chat in Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-[**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) in Visual Studio enables you to get coding information and support, such as syntax, programming concepts, context-specific code help, test cases, debugging, and more, without leaving the IDE. With tight integration in Visual Studio, Copilot Chat understands what you're working on by gathering useful context data from Visual Studio. 
+You can use [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) in Visual Studio to get coding information and support, such as syntax, programming concepts, context-specific code help, test cases, debugging, and more, without leaving the IDE. Copilot Chat is integrated into Visual Studio, which means it can understand what you're working on by gathering useful clues from what you have in the IDE. 
 
-In this article, you'll learn about how to get better answers with improved context in Copilot Chat. [Slash commands](#use-slash-commands) and the new context experience features in Copilot Chat, such as [references](#control-context-with-references), [**Info used**](#know-the-context-used-by-copilot), and [threads](#organize-your-chat-conversations-with-threads) enable you to form great questions by scoping the intent and context.
+In this article, you'll learn how to get better answers by providing more information to Copilot Chat including:
++ Use [slash commands](#slash-commands) to quickly specify common tasks like `/explain` to get code explanations.
++ Scope the chat to specific files using [references](#reference).
++ Review the [source used](#find-context) by Copilot to generate the answer.
++ Use different [threads](#threads) for each of your Copilot chats so you can maintain different contexts in each.
 
 Learn more about [AI-assisted development in Visual Studio](../ide/ai-assisted-development-visual-studio.md) and how to [use Copilot Chat in Visual Studio](../ide/visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio).
 
 ## Prerequisites
 
-To get started, you need:
-+ Visual Studio 2022 [version 17.6](/visualstudio/releases/2022/release-history) or later
-+ Active [subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) to [GitHub Copilot for Individuals](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-individuals) or [GitHub Copilot for Business](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-business)
-+ [**GitHub Copilot** extension](visual-studio-github-copilot-extension.md#installation-instructions) in Visual Studio
-+ [**GitHub Copilot Chat** extension](visual-studio-github-copilot-chat.md#install-the-visual-studio-extension) in Visual Studio
+To get started using GitHub Copilot Chat in Visual Studio, you need:
++ An active [subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) to either [GitHub Copilot for Individuals](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-individuals) or [GitHub Copilot for Business](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-business)
++ Visual Studio 2022 [version 17.6](/visualstudio/releases/2022/release-history) or later installed
++ [GitHub Copilot extension installed](visual-studio-github-copilot-extension.md#installation-instructions) in Visual Studio
++ [GitHub Copilot Chat extension installed](visual-studio-github-copilot-chat.md#install-the-visual-studio-extension) in Visual Studio
 
-## Use slash commands
+## <a name="slash-commands"></a>Use slash commands for common tasks
 
 Slash commands in Copilot Chat help you set the intent quickly for common development tasks. By using specific slash commands to form your question, you can get better answers without having to write out long questions. 
 
@@ -50,9 +54,7 @@ You can use slash commands in a [chat window](visual-studio-github-copilot-chat.
 
 :::image type="content" source="media/copilot-chat-context/copilot-chat-context-slash-commands.png" alt-text="Screenshot of slash commands in interactive code assistant and chat windows.":::
 
-## Context awareness and control
-
-### Control context with references
+## <a name="reference"></a>Reference: scope Copilot results to a particular file
 
 You can ask your coding related questions in natural language and GitHub Copilot Chat will answer these in the context of the codebase open in Visual Studio. With references you can get more specific about the information you want Copilot to consider when answering your question. By selecting a specific context in your codebase, you're able to form better questions easily without having to write out or paste long pieces of information. Specifying the context also enables Copilot to provide you with more relevant answers.
 
@@ -66,15 +68,15 @@ To easily reference a file, simply add a *#* symbol at the beginning of the file
 | Where are the tests in #BasketService.cs?| BasketService.cs |
 | /explain the AddItemToBasket method in #BasketService.cs| AddItemToBasket method in BasketService.cs |
 
-### Know the context used by Copilot
+## <a name="find-context"></a>Review the sources used by Copilot
 
-Copilot Chat will display the context it used after every result, so that you can tell what was taken into account when answering your question. When you ask a Copilot Chat a question and get a response in the chat window, an **Info used** dropdown appears below the response. The entries in the **Info used** dropdown list show you the context referenced by Copilot Chat to generate that response. This information can help you modify your question to get better and more relevant answers.
+Copilot Chat displays the context it used after every result, so that you can tell what was taken into account when answering your question. When you ask a Copilot Chat a question and get a response in the chat window, an **Info used** dropdown appears below the response. The entries in the **Info used** dropdown list show you the context referenced by Copilot Chat to generate that response. This information can help you modify your question to get better and more relevant answers.
 
 :::image type="content" source="media/copilot-chat-context/copilot-chat-info-used-dropdown.png" alt-text="Screenshot of Info used dropdown in Copilot Chat.":::
 
-### Organize your chat conversations with threads 
+## <a name="threads"></a>Organize: isolate chats with Copilot into threads  
 
-If you’re using Copilot Chat extensively to ask questions as you code, you’ll find it helpful to organize your conversations in a way that keeps them on-topic. Copilot Chat for Visual Studio now provides an easy way to start new conversations to keep them focused on the task at hand, and keep the context clear so the answers are based on relevant historical context. 
+If you’re using Copilot Chat extensively to ask questions as you code, you can organize your conversations in a way that keeps them on-topic. Copilot Chat for Visual Studio now provides an easy way to start new conversations (threads) to keep them focused on the task at hand, and keep the context clear so the answers are based on relevant history. 
 
 You can start a new thread by selecting the **Create new thread** in the chat window.
 
@@ -84,7 +86,7 @@ You can select between multiple ongoing threads to provide the right historical 
 
 :::image type="content" source="media/copilot-chat-context/copilot-chat-switch-threads.png" alt-text="Screenshot of switching between ongoing threads in Copilot Chat.":::
 
-## Related links
+## Related content
 
 - [GitHub Copilot extension for Visual Studio](visual-studio-github-copilot-extension.md)
 - [GitHub Copilot Chat extension for Visual Studio](visual-studio-github-copilot-chat.md)

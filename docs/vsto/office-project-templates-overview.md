@@ -1,6 +1,6 @@
 ---
 title: "Office project templates overview"
-description: Learn how the Microsoft Office developer tools in Visual Studio include project templates for creating different types of Office solutions.
+description: Explore how the Microsoft Office developer tools in Visual Studio include project templates for creating different types of Office solutions.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -47,7 +47,7 @@ ms.technology: office-development
   Each project provides files and code to get you started on a specific kind of solution. The generated code for each project includes startup and shutdown event handlers. You can add code to these event handlers to initialize your solution when it is loaded and to clean up your solution when it is unloaded. For more information, see [Office projects in the Visual Studio environment](../vsto/office-projects-in-the-visual-studio-environment.md) and [Events in Office projects](../vsto/events-in-office-projects.md).
 
 > [!NOTE]
-> The Office development tools are included with certain editions of Visual Studio. For more information, see [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md).
+> The Office development tools are included with certain editions of Visual Studio. For more information, see [Configure a computer to develop Office solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md).
 
 ## <a name="DocLevel"></a> Document-level customizations
  The **Office** node in the **New Project** dialog box provides the following project templates to get you started creating document-level customizations for Word and Excel:

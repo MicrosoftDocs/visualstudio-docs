@@ -1,6 +1,6 @@
 ---
 title: 'Escape Special Characters in MSBuild'
-description: Learn how to escape special characters so you can use these characters as literals in MSBuild project files.
+description: Escape special characters like semicolons (;) and asterisks (*) so you can use these characters as literals in MSBuild project files.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

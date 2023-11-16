@@ -6,7 +6,7 @@ manager: shve
 ms.assetid: 4e529a43-7aed-4eee-895d-862a631952df
 ms.date: 11/02/2023
 ms.topic: conceptual
-description:  Learn how admins can assign licenses to subscribers
+description: Assign license subscriptions to users (subscribers) in the Subscriptions Administration Portal, set up email notifications, and send assignment messages.
 ---
 
 # Assign licenses in the Visual Studio Subscriptions Administration Portal

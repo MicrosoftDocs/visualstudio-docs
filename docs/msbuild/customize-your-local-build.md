@@ -1,6 +1,6 @@
 ---
 title: Customize your local build
-description: Learn about how you can modify the build process just for your own local build, without affecting files that you share with a source code repository.
+description: Customize the build process just for your own local build without affecting files that you share with a source code repository.
 ms.date: 02/28/2023
 ms.topic: how-to
 helpviewer_keywords:

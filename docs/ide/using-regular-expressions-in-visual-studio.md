@@ -1,6 +1,6 @@
 ---
 title: Use regular expressions
-description: Learn about some regular expression characters, operators, constructs, and pattern examples that you can use in Visual Studio.
+description: Explore some regular expression characters, operators, constructs, and pattern examples that you can use in Visual Studio.
 ms.date: 10/14/2022
 ms.topic: conceptual
 f1_keywords:

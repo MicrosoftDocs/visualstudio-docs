@@ -1,7 +1,7 @@
 ---
 title: "Creating Site Columns, Content Types, and Lists for SharePoint"
 titleSuffix: ""
-description: Create site columns, content types, and lists for SharePoint. Visual Studio provides project item templates for these types of SharePoint items.
+description: Create site columns (fields), content types, and lists for SharePoint with project item templates provided in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:

@@ -6,7 +6,7 @@ manager: shve
 ms.date: 11/02/2023
 ms.topic: conceptual
 robots: "noindex, nofollow"
-description:  Learn how to work with connected Microsoft accounts and Microsoft Entra identities
+description: Work with connected identities such as Microsoft accounts and Microsoft Entra ID identities in Visual Studio subscriptions.
 ---
 
 # Use connected identities in Visual Studio subscriptions

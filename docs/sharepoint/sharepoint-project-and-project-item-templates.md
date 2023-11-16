@@ -1,6 +1,6 @@
 ---
 title: "SharePoint Project and Project Item Templates"
-description: Review descriptions of the available SharePoint project and project item templates and how they are used.
+description: Explore SharePoint project templates and project item templates available in Visual and add items like event receivers, site columns, and lists.
 ms.date: "02/22/2017"
 ms.topic: "conceptual"
 f1_keywords:

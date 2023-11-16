@@ -5,7 +5,7 @@ ms.author: amast
 manager: shve
 ms.date: 11/02/2023
 ms.topic: conceptual
-description:  Learn how admins can assign multiple subscriptions at one time.
+description: Assign multiple subscriptions to one or more users at the same time with the bulk operation features in the Subscriptions Administration Portal.
 ---
 
 # Assign subscriptions to multiple users

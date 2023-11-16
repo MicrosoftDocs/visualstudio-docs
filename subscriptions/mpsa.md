@@ -5,7 +5,7 @@ ms.author: amast
 manager: shve
 ms.date: 11/02/2023
 ms.topic: conceptual
-description:  Learn about managing Visual Studio subscriptions in a Microsoft Products and Services Agreement (MPSA)
+description: Manage Visual Studio subscriptions in a Microsoft Products and Services Agreement (MPSA), and review configuration differences between managed and unmanaged tenants.
 ---
 
 # Visual Studio subscriptions in a Microsoft Products and Services Agreement (MPSA)

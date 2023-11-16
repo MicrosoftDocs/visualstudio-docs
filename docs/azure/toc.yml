@@ -12,7 +12,7 @@
     href: overview-connected-services.md
   - name: 'Find & provision Azure resources'
     href: overview-azure-integration.md
-  - name: Azure Active Directory (Azure AD)
+  - name: Microsoft Entra ID
     href: vs-active-directory-add-connected-service.md
   - name: App Insights
     href: azure-app-insights-add-connected-service.md

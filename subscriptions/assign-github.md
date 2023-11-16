@@ -5,7 +5,7 @@ ms.author: amast
 manager: shve
 ms.date: 11/02/2023
 ms.topic: conceptual
-description: Managing subscriptions in the Visual Studio subscriptions with GitHub Enterprise
+description: Manage Visual Studio subscriptions for an organization by using GitHub Enterprise, assign subscriptions to organization members, and move subscribers.
 ---
 
 # Set up GitHub Enterprise licenses with Visual Studio subscriptions

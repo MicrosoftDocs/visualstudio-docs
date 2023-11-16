@@ -1,6 +1,6 @@
 ---
 title: Validate code with dependency diagrams
-description: Learn that to make sure that code doesn't conflict with its design, you should validate your code with dependency diagrams in Visual Studio.
+description: Validate your code with dependency diagrams in Visual Studio to find conflicts in dependencies and refactor or migrate code to a different design as needed.
 ms.date: 09/28/2018
 ms.topic: conceptual
 helpviewer_keywords:

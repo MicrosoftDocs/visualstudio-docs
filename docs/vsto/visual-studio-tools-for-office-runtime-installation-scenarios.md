@@ -1,6 +1,6 @@
 ---
 title: "Visual Studio Tools for Office runtime installation scenarios"
-description: Learn how you can install the Visual Studio 2010 Tools for Office runtime. This article describes three installation scenarios.
+description: Install the Visual Studio 2010 Tools for Microsoft Office runtime during installation of Visual Studio, Microsoft Office, or the runtime redistributable.
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
