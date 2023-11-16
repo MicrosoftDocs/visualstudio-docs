@@ -1,6 +1,6 @@
 ---
 title: "Outlook solutions"
-description: Learn how you can use VSTO Add-ins to automate Outlook, extend Outlook features, or customize the Outlook user interface (UI).
+description: Use VSTO add-ins to automate Microsoft Outlook actions, extend Outlook features, or customize the Outlook user interface (UI).
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:

@@ -1,6 +1,6 @@
 ---
 title: "Programmatically create new Visio documents"
-description: Learn how you can programmatically create a new Microsoft Visio drawing document and add it to the Documents collection of open Visio documents.
+description: Create a Microsoft Visio drawing document and add it to the Documents collection of open Visio documents programmatically from Visual Basic or C# in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

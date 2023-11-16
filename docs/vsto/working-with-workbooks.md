@@ -1,6 +1,6 @@
 ---
 title: "Work with workbooks"
-description: Learn that the Workbook and Workbooks classes contain the methods and properties you use to perform tasks with workbooks.
+description: Explore the Workbook and Workbook classes that contain methods and properties you can use to perform tasks with Microsoft Office Excel workbooks.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

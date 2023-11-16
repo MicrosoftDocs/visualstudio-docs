@@ -1,6 +1,6 @@
 ---
 title: "Programmatically open workbooks"
-description: Learn how you can use Visual Studio to programmatically open a Microsoft Excel workbook or work with an existing workbook.
+description: Open or work with an existing Microsoft Office Excel workbook programmatically from Visual Basic or C# in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
