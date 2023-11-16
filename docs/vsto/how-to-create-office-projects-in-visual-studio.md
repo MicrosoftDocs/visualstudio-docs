@@ -1,6 +1,6 @@
 ---
 title: "Create Office projects in Visual Studio"
-description: Learn how you can use Visual Studio to create VSTO Add-in and document-level customizations for Microsoft Office applications.
+description: Create VSTO add-in and document-level customizations in Visual Studio for Microsoft Office applications, such as Word, Excel, Outlook, and PowerPoint.
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

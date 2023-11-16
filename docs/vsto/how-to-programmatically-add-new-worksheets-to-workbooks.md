@@ -1,6 +1,6 @@
 ---
 title: "Programmatically add new worksheets to workbooks"
-description:  Learn how you can programmatically create a worksheet and then add the worksheet to the collection of worksheets in the workbook.
+description: Create a Microsoft Office Excel worksheet and add the worksheet to the collection of worksheets in the workbook programmatically from Visual Basic or C#.
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
