@@ -80,7 +80,7 @@ Next time you want to publish using the same target and settings, you can use th
 
 To clean up resources, use the Azure portal or use the Azure CLI or Azure PowerShell to delete the resource group, if you created one, or delete the resources individually.
 
-## Next steps
+## Related content
 
 Learn more about:
 
