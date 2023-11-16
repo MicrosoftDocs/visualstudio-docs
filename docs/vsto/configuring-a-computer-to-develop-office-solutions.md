@@ -1,6 +1,6 @@
 ---
 title: "Configure a computer to develop Office solutions"
-description: Learn how you can install a supported version of Visual Studio, the .NET Framework, and Microsoft Office so you can create VSTO Add-ins and customizations for Microsoft Office.
+description: Install a supported version of Visual Studio, the .NET Framework, and Microsoft Office so you can create VSTO add-ins and customizations for Microsoft Office.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

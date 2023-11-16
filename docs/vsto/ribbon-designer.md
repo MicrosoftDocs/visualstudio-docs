@@ -1,6 +1,6 @@
 ---
 title: "Ribbon Designer"
-description: Learn how you can use the Ribbon Designer to add custom tabs, groups, and controls to the ribbon of a Microsoft Office application.
+description: Use the Ribbon Designer to add custom tabs, groups, and controls to the ribbon of a Microsoft Office application and configure how the controls react to events.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:

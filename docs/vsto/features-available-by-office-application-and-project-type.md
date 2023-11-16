@@ -1,6 +1,6 @@
 ---
 title: "Features available by Office application and project type"
-description: Learn how Visual Studio has several types of project templates that support different business scenarios for Microsoft Office applications.
+description: Explore the project templates and features available in Visual Studio that support different business scenarios for Microsoft Office applications.
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
