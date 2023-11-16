@@ -16,7 +16,7 @@ manager: AndSter
 The .NET Counters tool allows you to visualize [dotnet counters](/dotnet/core/diagnostics/dotnet-counters) over time right from within the Visual Studio profiler.
 
 > [!NOTE]
-> The .NET Counters tool requires Visual Studio 2019 version 16.7 or later and targets .NET Core 3.0+.
+> The .NET Counters tool requires Visual Studio 2019 version 16.7 or later and targets .NET Core 3.0+ and .NET 5+.
 
 ## Setup
 

@@ -5,7 +5,7 @@ ms.author: amast
 manager: shve
 ms.date: 05/22/2023
 ms.topic: how-to
-description:  Learn how to sign in to your Visual Studio subscription(s) with your work or school account. 
+description: Sign into your Visual Studio subscriptions with your work or school account or use your Microsoft Account (MSA), and get answers to frequently asked questions.
 ---
 
 # Signing in to Visual Studio subscription(s) with your work or school account 

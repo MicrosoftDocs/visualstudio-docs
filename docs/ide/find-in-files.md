@@ -1,6 +1,6 @@
 ---
 title: Find in Files
-description: Learn about the Find in Files feature and how to use it to search a specific set of files.
+description: Explore the Find in Files feature in Visual Studio and discover how to use the feature to search a specific set of files.
 ms.date: 11/29/2021
 ms.topic: conceptual
 f1_keywords:

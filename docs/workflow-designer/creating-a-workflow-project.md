@@ -1,6 +1,6 @@
 ---
 title: Create a Workflow Foundation project
-description: Learn how to create libraries and applications with the project templates available in Visual Studio.
+description: Create libraries and applications for a Workflow Foundation project with the project templates available in Visual Studio.
 ms.date: 06/25/2018
 ms.topic: conceptual
 helpviewer_keywords:

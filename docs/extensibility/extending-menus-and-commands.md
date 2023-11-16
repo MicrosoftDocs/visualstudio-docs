@@ -1,6 +1,6 @@
 ---
 title: Extending Menus and Commands
-description: Learn about commands, which add actions and processes to Visual Studio. The VSPackage project template shows how to implement a very basic command.
+description: Explore commands, which add actions and processes to Visual Studio, and use the VSPackage project template to implement a basic command.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

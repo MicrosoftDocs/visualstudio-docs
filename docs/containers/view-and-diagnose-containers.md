@@ -1,6 +1,6 @@
 ---
 title: Use the Containers window in Visual Studio
-description: Describes how to improve your ability to debug and diagnose your container-based apps in Visual Studio by using the Containers tool window to see environment variables, files, logs, ports, and more the containers that host your app, as well as the locally available Docker images.
+description: Use Visual Studio Container Tools to debug and diagnose your applications by setting environment variables, and managing files, logs, ports, and more.
 author: ghogen
 ms.author: ghogen
 ms.topic: how-to

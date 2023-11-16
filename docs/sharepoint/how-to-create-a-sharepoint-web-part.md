@@ -1,6 +1,6 @@
 ---
 title: "Create a SharePoint Web Part"
-description: Create and customize a web part by using a designer, or by adding a web part item to any SharePoint project and then editing the code file for the web part.
+description: Create and customize a web part by using a designer, or by adding a web part item to any SharePoint project and editing the code file for the web part.
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

@@ -1,7 +1,7 @@
 ---
 title: Deploy an ASP.NET Core app and Database to Container Apps using GitHub Actions
 description: Learn how to use Visual Studio to publish a web app to Azure Container Apps using GitHub actions
-ms.date: 09/16/2022
+ms.date: 11/03/2023
 ms.topic: tutorial
 helpviewer_keywords:
   - "deployment, web app"
@@ -224,7 +224,7 @@ The connection string is now stored securely in the GitHub repository secrets an
     git commit -m "Added GitHub Actions workflow"
     git push
     ```
-2. Navigate to the GitHub repository and select the **Actions** tab. A workflow run should have triggered automatically if the push was successful.
+1. Navigate to the GitHub repository and select the **Actions** tab. A workflow run should have triggered automatically if the push was successful.
 1. Select the active workflow to view the log details for each step as they complete. The migration runs last to update the database in Azure.
 
     :::image type="content" source="./media/end-to-end-deployment-entity-framework-core-github-actions/github-actions-workflow.png" lightbox="./media/end-to-end-deployment-entity-framework-core-github-actions/github-actions-workflow-large.png" alt-text="A screenshot showing the GitHub action workflow.":::

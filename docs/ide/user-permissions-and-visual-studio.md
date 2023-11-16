@@ -1,6 +1,6 @@
 ---
 title: Run as administrator
-description: Learn how to run Visual Studio as an administrator.
+description: Explore how to run Visual Studio as an administrator and the use cases for installation, debugging, profiling, and configuring specific settings.
 ms.date: 8/8/2023
 ms.topic: conceptual
 helpviewer_keywords:

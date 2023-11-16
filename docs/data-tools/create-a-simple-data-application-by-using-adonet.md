@@ -1,6 +1,6 @@
 ---
 title: Create a simple .NET Framework data application by using ADO.NET
-description: Learn to create a simple forms-to-data application by using Windows Forms and ADO.NET in Visual Studio.
+description: Create a forms-over-data .NET Framework application with Visual C# or Visual Basic by using Windows Forms and ADO.NET in Visual Studio.
 ms.date: 10/25/2023
 ms.topic: conceptual
 dev_langs:

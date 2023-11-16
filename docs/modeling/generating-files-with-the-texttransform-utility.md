@@ -1,6 +1,6 @@
 ---
 title: Generating Files with the TextTransform Utility
-description: Learn how the TextTransform utility is a command-line tool that you can use to transform a text template.
+description: Transform a text template with the TextTransform utility command-line tool, and use optional parameters to identify the assembly, directive processor, and namespace.
 ms.date: 07/26/2019
 ms.topic: conceptual
 helpviewer_keywords:

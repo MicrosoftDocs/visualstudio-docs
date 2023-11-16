@@ -6,7 +6,7 @@ manager: jmartens
 ms.technology: bridge
 title: Use Bridge to Kubernetes to run and debug locally with Kubernetes (VS Code)
 ms.date: 09/14/2023
-description: Learn how to use Bridge to Kubernetes to connect your development computer to a Kubernetes cluster and use local tunnel debugging to debug Kubernetes services on your local machine.
+description: Use Bridge to Kubernetes to redirect traffic between your Kubernetes cluster and code running on your development computer.
 ---
 
 # Use Bridge to Kubernetes (VS Code)
@@ -113,7 +113,7 @@ Select **Run** then **Stop Debugging** or press **Shift**+**F5** to stop the deb
 
 Bridge to Kubernetes can handle routing traffic and replicating environment variables without any additional configuration. If you need to download any files that are mounted to the container in your Kubernetes cluster, such as a ConfigMap file, you can create a `KubernetesLocalProcessConfig.yaml` to download those files to your development computer. For more information, see [Configure Bridge to Kubernetes][kubernetesLocalProcessConfig-yaml].
 
-If you're using an AKS cluster that uses managed identity, a security feature provided by Azure Active Directory, see [Use managed identity with Bridge to Kubernetes](managed-identity.md) for information about how to configure Bridge to Kubernetes for this scenario.
+If you're using an AKS cluster that uses managed identity, a security feature provided by Microsoft Entra ID, see [Use managed identity with Bridge to Kubernetes](managed-identity.md) for information about how to configure Bridge to Kubernetes for this scenario.
 
 ## Using logging and diagnostics
 

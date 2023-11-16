@@ -1,6 +1,6 @@
 ---
 title: "Accessibility tips and tricks for Visual Studio"
-description: "Learn more about tips and tricks that can help make the Visual Studio integrated development environment (IDE) more accessible for everyone to use, including people with disabilities."
+description: Discover tips and tricks that help make the Visual Studio integrated development environment (IDE) more accessible for everyone, including people with disabilities.
 ms.date: 12/06/2022
 ms.topic: conceptual
 helpviewer_keywords:
