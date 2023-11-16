@@ -5,7 +5,7 @@ ms.author: amast
 manager: shve
 ms.date: 10/24/2023
 ms.topic: conceptual
-description:  Learn how you can take advantage of Microsoft Dev Box via your Visual Studio subscription 
+description: Use Microsoft Dev Box with your Visual Studio subscription for self-service access to high-performance, preconfigured, ready-to-code cloud-based workstations.
 ---
 
 # Use Microsoft Dev Box with Visual Studio subscriptions
