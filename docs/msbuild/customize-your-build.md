@@ -1,6 +1,6 @@
 ---
 title: Customize your build
-description: Learn about several extensibility hooks you can use to customize MSBuild projects that use the standard build process. 
+description: Customize your build with several extensibility hooks that you can use to modify MSBuild projects that use the standard build process. 
 ms.date: 03/22/2023
 ms.topic: conceptual
 helpviewer_keywords:

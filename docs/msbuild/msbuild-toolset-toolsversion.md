@@ -1,6 +1,6 @@
 ---
 title: MSBuild Toolset (ToolsVersion)
-description: Learn about the obsolete ToolsVersion attribute in the MSBuild project file, which was used to specify a toolset of tasks, targets, and tools to build an application.
+description: Review the obsolete ToolsVersion attribute in the MSBuild project file that specifies a toolset of tasks, targets, and tools to build an application.
 ms.date: 11/01/2023
 ms.topic: conceptual
 helpviewer_keywords:

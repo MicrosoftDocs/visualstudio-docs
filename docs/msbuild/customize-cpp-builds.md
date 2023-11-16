@@ -1,6 +1,6 @@
 ---
 title: Customize C++ builds
-description: Learn about how you can customize C++ builds done with MSBuild, including how to customize all builds that will be done on a given system, such as a build server.
+description: Customize C++ builds done with MSBuild, including how to customize all builds created on a given system, such as a build server.
 ms.date: 02/28/2023
 ms.topic: how-to
 helpviewer_keywords:

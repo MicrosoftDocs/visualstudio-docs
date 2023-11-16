@@ -1,6 +1,6 @@
 ---
 title: Customize all .NET builds
-description: Learn how to customize all .NET builds on a system governed by an installation of MSBuild.
+description: Customize all .NET builds in Visual Studio on a system governed by an installation of MSBuild for a specific computer, virtual machine, or container.
 ms.date: 02/28/2023
 ms.topic: how-to
 helpviewer_keywords:
