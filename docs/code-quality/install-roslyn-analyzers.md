@@ -67,7 +67,7 @@ If you want to check whether the extension is installed, select **Extensions** >
 > [!div class="nextstepaction"]
 > [Use code analyzers in Visual Studio](../code-quality/use-roslyn-analyzers.md)
 
-## See also
+## Related content
 
 - [Overview of code analyzers in Visual Studio](../code-quality/roslyn-analyzers-overview.md)
 - [Install .NET analyzers](../code-quality/install-net-analyzers.md)
