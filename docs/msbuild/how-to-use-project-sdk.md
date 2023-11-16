@@ -1,6 +1,6 @@
 ---
 title: Reference an MSBuild Project SDK
-description: Learn how to use MSBuild project SDKs to simplify using software development kits that require properties and targets to be imported.
+description: Use the MSBuild project SDKs to simplify working with software development kits that require properties and targets to be imported.
 ms.date: 05/10/2023
 ms.topic: how-to
 helpviewer_keywords:

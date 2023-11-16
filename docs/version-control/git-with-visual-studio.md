@@ -1,7 +1,7 @@
 ---
 title: The Git experience in Visual Studio
 titleSuffix: ""
-description: Learn how Git makes source control in Visual Studio more productive.
+description: Explore Git options for source control in Visual Studio and track the code changes you make over time or revert to specific versions.
 ms.date: 05/17/2023
 ms.topic: overview
 author: ghogen
