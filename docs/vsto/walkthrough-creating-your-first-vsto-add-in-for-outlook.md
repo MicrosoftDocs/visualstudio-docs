@@ -1,6 +1,6 @@
 ---
 title: "Walkthrough: Create your first VSTO Add-in for Outlook"
-description: Create an application-level Add-in for Microsoft Outlook. This feature is available to the application itself, regardless of which Outlook item is open.
+description: Create a VSTO add-in for the Microsoft Office Outlook with features that are available to the application itself, regardless of which Outlook items are open.
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:

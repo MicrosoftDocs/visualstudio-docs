@@ -1,6 +1,6 @@
 ---
 title: "Ribbon XML"
-description: Learn how to use the Ribbon (XML) item if you want to customize the ribbon in a way that isn't supported by the Ribbon (Visual Designer) item.
+description: Use the Ribbon (XML) item to customize a project ribbon in a way that the Ribbon (Visual Designer) item doesn't support.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:

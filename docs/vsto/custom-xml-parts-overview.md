@@ -1,6 +1,6 @@
 ---
 title: "Custom XML parts overview"
-description: Learn how you can embed XML data in documents for some Microsoft Office applications. When you embed XML data in a document, the data is named a custom XML part.
+description: Embed XML data in documents for some Microsoft Office applications to support creating and modifying the data as custom XML parts.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

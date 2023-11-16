@@ -1,6 +1,6 @@
 ---
 title: "Actions pane overview"
-description: Learn how an actions pane is a customizable Document Actions task pane that is attached to a specific Microsoft Office Word document or Excel workbook.
+description: Attach an actions pane to specific Microsoft Office Word documents or Excel workbooks and access a customizable Document Actions task pane.
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
