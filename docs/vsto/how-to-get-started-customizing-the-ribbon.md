@@ -1,6 +1,6 @@
 ---
 title: "Get started customizing the ribbon"
-description: Learn that to customize the Ribbon of a Microsoft Office application, add a Ribbon (Visual Designer) or Ribbon (XML) item to an Office project.
+description: Customize the Ribbon of a Microsoft Office application by adding a Ribbon with the Visual Designer or a Ribbon XML item to an Office project.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
