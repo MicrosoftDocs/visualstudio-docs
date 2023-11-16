@@ -33,7 +33,17 @@ The [CLI-based projects](../javascript/javascript-in-vs-2022.md#project-template
 
 Mocha and Tape test libraries are also supported. To use one of these, simply change the default test library in *package.json* to the appropriate test library’s package.
 
-The following example is based on a React project that uses the project template provided in Visual Studio 2022 version 17.8 or later. The template used is the Standalone TypeScript React Project and the Jest test framework is used.
+To run unit tests from the command-line, right-click the project in Solution Explorer and choose **Open in Terminal**.
+
+For information on setting up unit tests, see the following:
+
+- [Testing React with Jest](https://jestjs.io/docs/tutorial-react)
+- [Angular testing](https://angular.io/guide/testing)
+- [Testing Vue.js](https://vuejs.org/guide/scaling-up/testing.html#unit-testing)
+
+## Example using Jest with React
+
+The following example is based on a React project that uses the project template provided in Visual Studio 2022 version 17.8 or later. The template required is the Standalone TypeScript React Project.
 
 1. In Solution Explorer, right-click the React project and choose **Edit Project File**.
 
@@ -82,7 +92,7 @@ The following example is based on a React project that uses the project template
 
 1. Open Test Explorer (choose **Test** > **Test Explorer**) and Visual Studio discovers and displays tests. If tests are not showing initially, then rebuild the project to refresh the list.
 
-   ![Test Explorer test discovery](../javascript/media/unit-tests-aspnet-core-discovery.png)
+   ![Test Explorer test discovery (.esproj)](../javascript/media/unit-tests-aspnet-core-discovery.png)
 
    > [!NOTE]
    > For TypeScript, do not use the `outfile` option in *tsconfig.json*, because Test Explorer won't be able to find your unit tests. You can use the `outdir` option, but make sure that configuration files such as `package.json` and `tsconfig.json` are in the project root.
@@ -93,7 +103,7 @@ You can run the tests by clicking the **Run All** link in Test Explorer. Or, you
 
 For TypeScript, unit tests are run against the generated JavaScript code.
 
-![Test Explorer results](../javascript/media/vs-2022/unit-tests-esproj-run.png)
+![Test Explorer results (.esproj)](../javascript/media/vs-2022/unit-tests-esproj-run.png)
 
 > [!NOTE]
 > In most TypeScript scenarios, you can debug a unit test by setting a breakpoint in TypeScript code, right-clicking a test in Test Explorer, and choosing **Debug**. In more complex scenarios, such as some scenarios that use source maps, you may have difficulty hitting breakpoints in TypeScript code. As a workaround, try using the `debugger` keyword.
