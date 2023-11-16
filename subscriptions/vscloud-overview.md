@@ -5,7 +5,7 @@ ms.author: amast
 manager: shve
 ms.date: 03/28/2023
 ms.topic: overview
-description:  Rent Visual Studio Professional or Visual Studio Enterprise on a month-to-month or annual basis, with no long-term contract.
+description: Purchase (rent) Visual Studio Professional or Visual Studio Enterprise on a month-to-month or annual basis, with no long-term contract.
 ---
 
 # Buy Visual Studio Professional and Visual Studio Enterprise cloud subscriptions

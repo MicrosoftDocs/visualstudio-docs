@@ -5,7 +5,7 @@ ms.author: amast
 manager: shve
 ms.date: 10/12/2023
 ms.topic: how-to
-description:  Learn about C# Dev Kit for Visual Studio Code
+description: Explore the C# Dev Kit for Visual Studio Code that provides a rich C# editing experience, AI-powered development, solution management, and integrated testing.
 ---
 
 # C# Dev Kit for Visual Studio Code

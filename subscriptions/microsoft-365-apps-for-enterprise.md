@@ -5,7 +5,7 @@ ms.author: amast
 manager: shve
 ms.date: 07/05/2023
 ms.topic: how-to
-description:  Learn about and install Microsoft 365 apps for enterprise
+description: Activate and access Microsoft 365 apps for enterprise in Visual Studio subscriptions, and find answers to frequently asked questions.
 ---
 
 # Microsoft 365 apps for enterprise in Visual Studio subscriptions
