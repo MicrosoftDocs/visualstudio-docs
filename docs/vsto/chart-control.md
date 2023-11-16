@@ -1,6 +1,6 @@
 ---
 title: "Chart control"
-description: Learn that when you add a chart to a worksheet, Visual Studio creates a chart object that you can program against directly.
+description: Add chart controls to your worksheet to use a chart object created by Visual Studio that you can program against directly.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:

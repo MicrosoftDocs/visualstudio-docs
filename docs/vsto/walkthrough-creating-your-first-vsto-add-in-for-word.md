@@ -1,6 +1,6 @@
 ---
 title: "Walkthrough: Create your first VSTO Add-in for Word"
-description: Create an application-level Add-in for Microsoft Word. This feature is available to the application itself, regardless of which documents are open.
+description: Create a VSTO add-in for Microsoft Office Word with features that are available to the application itself, regardless of which Word documents are open.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

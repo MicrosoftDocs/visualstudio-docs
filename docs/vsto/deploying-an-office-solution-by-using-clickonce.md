@@ -1,6 +1,6 @@
 ---
 title: "Deploy an Office solution by using ClickOnce"
-description: Learn how you can deploy your Office solution in fewer steps if you use ClickOnce. If you publish updates, your solution will automatically detect and install them. 
+description: Deploy your Office solution by using ClickOnce to complete the task in fewer steps, and have your publishing solution automatically detect and install updates. 
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

@@ -1,6 +1,6 @@
 ---
 title: "Programmatically save workbooks"
-description: Programmatically save Microsoft Excel workbooks without changing the path and save a copy of a workbook without modifying the open workbook in memory.
+description: Save Microsoft Excel workbooks without changing the path and save a copy without modifying the open workbook in memory programmatically in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

@@ -1,6 +1,6 @@
 ---
 title: "Excel solutions"
-description: Learn you can use project templates to automate Excel, extend Excel features, and customize the Excel user interface (UI)
+description: Use project templates to automate Microsoft Office Excel, extend Excel features, and customize the Excel user interface.
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:

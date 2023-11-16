@@ -1,6 +1,6 @@
 ---
 title: "Show the Developer tab on the ribbon"
-description: Learn how you can use Visual Studio to programmatically show the Developer tab on the ribbon in a Microsoft Word document.
+description: Explore how to configure Visual Studio to programmatically show the Developer tab on the ribbon in a Microsoft Word document.
 ms.date: "08/14/2019"
 ms.topic: "how-to"
 dev_langs:

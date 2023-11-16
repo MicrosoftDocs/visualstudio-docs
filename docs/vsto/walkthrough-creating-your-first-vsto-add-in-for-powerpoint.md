@@ -1,6 +1,6 @@
 ---
 title: "Walkthrough: Create your first VSTO Add-in for PowerPoint"
-description: Create an application-level Add-in for Microsoft PowerPoint. This feature is available to the application itself, regardless of which presentations are open.
+description: Create a VSTO add-in for the Microsoft Office PowerPoint with features that are available to the application itself, regardless of which presentations are open.
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

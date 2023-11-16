@@ -1,6 +1,6 @@
 ---
 title: "Programmatically define and select ranges in documents"
-description: Learn how you can programmatically define and select ranges in Microsoft Word documents by using the Range object.
+description: Define character ranges and select ranges in Microsoft Word documents programmatically from Visual Basic or C# in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
