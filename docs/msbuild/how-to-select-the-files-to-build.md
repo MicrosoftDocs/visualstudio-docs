@@ -1,6 +1,6 @@
 ---
 title: 'Select the Files to Build'
-description: Learn how to select the files to build in the MSBuild project file by listing each file separately or using wildcards.
+description: Select the files to build in the MSBuild project file by listing each file separately or by using wildcards with the asterisk (*) character.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
