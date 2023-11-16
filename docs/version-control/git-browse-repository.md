@@ -1,6 +1,6 @@
 ---
 title: "Browse repos, compare branches & commits"
-description: Browse any Git repository in Visual Studio by using the Git Repository window.
+description: Browse any Git repository in Visual Studio by using the Git Repository window to view local and remote branches and multiple branches at the same time.
 ms.date: 08/08/2023
 ms.topic: how-to
 author: ghogen

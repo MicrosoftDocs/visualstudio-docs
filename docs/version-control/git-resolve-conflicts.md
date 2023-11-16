@@ -1,7 +1,7 @@
 ---
 title: Resolve merge conflicts in Visual Studio
 titleSuffix: ""
-description: Understanding, preventing, and resolving merge conflicts in Visual Studio.
+description: Understand how Git works to resolve conflicting changes that cause merge conflicts in your code branches and project files in Visual Studio.
 ms.date: 12/15/2022
 ms.topic: how-to
 author: ghogen

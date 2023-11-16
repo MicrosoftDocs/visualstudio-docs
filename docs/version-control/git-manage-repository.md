@@ -1,7 +1,7 @@
 ---
 title: Manage Git repos in Visual Studio
 titleSuffix: ""
-description: Manage any Git repository in Visual Studio by using the Git Repository window.
+description: Manage any Git repository in Visual Studio by using the Git Repository window and change your last commit, merge commits (squash), cherry-pick commits, and more.
 ms.date: 11/18/2022
 ms.topic: how-to
 author: ghogen
