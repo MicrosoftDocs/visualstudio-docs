@@ -33,7 +33,7 @@ By default, when you drag database objects that have names ending in s or ies fr
 
 5. Set **Pluralization of names** to **Enabled** = **True** to apply pluralization rules to the class names of objects added to the **O/R Designer**.
 
-## See also
+## Related content
 
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
 - [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index)

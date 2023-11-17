@@ -101,6 +101,6 @@ Relationships between data tables appear as lines in the **Dataset Designer**, w
 
 2. From the **Data** menu, select the **Show Relation Labels** command to display the relation name. Clear that command to hide the relation name.
 
-## See also
+## Related content
 
 - [Create and configure datasets in Visual Studio](../data-tools/create-and-configure-datasets-in-visual-studio.md)
