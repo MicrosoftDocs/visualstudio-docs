@@ -2,7 +2,7 @@
 title: "Hello World app with WPF in C#"
 description: Create a simple Windows Desktop .NET app in C# with Visual Studio using the Windows Presentation Foundation (WPF) UI framework.
 ms.custom: vs-acquisition
-ms.date: 10/31/2023
+ms.date: 11/17/2023
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: tutorial
@@ -52,11 +52,11 @@ When you create an application in Visual Studio, you first create a project and 
 
 1. At the next screen, give the project a name, **HelloWPFApp**, and choose **Next**.
 
-   :::image type="content" source="./media/vs-2019/explore-ide-name-project.png" alt-text="Screenshot of the 'Configure your new project' dialog with 'HelloWPFApp' entered in the Project name field.":::
+   :::image type="content" source="./media/vs-2019/explore-ide-name-project.png" alt-text="Screenshot of the 'Configure your new project' dialog in Visual Studio with 'HelloWPFApp' entered in the Project name field." lightbox="./media/vs-2019/explore-ide-name-project.png":::
 
 1. In the **Additional information** window, **.NET Core 3.1** should already be selected for your target framework. If not, select **.NET Core 3.1**. Then, choose **Create**.
 
-   :::image type="content" source="./media/vs-2019/wpf-target-framework.png" alt-text="Screenshot that shows how to confirm .NET Core 3.1 is selected for the target framework.":::
+   :::image type="content" source="./media/vs-2019/wpf-target-framework.png" alt-text="Screenshot that shows the Additional information window in Visual Studio with .NET Core 3.1 selected as the target framework for the new project." lightbox="./media/vs-2019/wpf-target-framework.png":::
 
 Visual Studio creates the HelloWPFApp project and solution, and **Solution Explorer** shows the various files. The **WPF Designer** shows a design view and a XAML view of *MainWindow.xaml* in a split view. You can slide the splitter to show more or less of either view. You can choose to see only the visual view or only the XAML view.
 
@@ -85,15 +85,15 @@ After you create the project, you can customize it. To do so, choose **Propertie
 
 1. At the next screen, give the project a name, **HelloWPFApp**, and choose **Next**.
 
-   :::image type="content" source="media/vs-2022/explore-ide-name-project.png" alt-text="Screenshot of the 'Configure your new project' dialog with 'HelloWPFApp' entered in the Project name field.":::
+   :::image type="content" source="media/vs-2022/explore-ide-name-project.png" alt-text="Screenshot that shows the 'Configure your new project' dialog in Visual Studio with 'HelloWPFApp' entered in the Project name field." lightbox="media/vs-2022/explore-ide-name-project.png":::
 
 1. In the **Additional information** window, verify that **.NET 8.0** is selected for your target framework. Then, choose **Create**.
 
-   :::image type="content" source="media/vs-2022/wpf-target-framework.png" alt-text="In the 'Screenshot of the Additional information window with .NET 8.0 selected in the Framework field.":::
+   :::image type="content" source="media/vs-2022/wpf-target-framework.png" alt-text="Screenshot that shows the Additional information window in Visual Studio with .NET 8.0 selected as the target framework for the new project." lightbox="media/vs-2022/wpf-target-framework.png":::
 
 Visual Studio creates the HelloWPFApp project and solution, and **Solution Explorer** shows the various files. The **WPF Designer** shows a design view and a XAML view of *MainWindow.xaml* in a split view. You can slide the splitter to show more or less of either view. You can choose to see only the visual view or only the XAML view.
 
-:::image type="content" source="media/vs-2022/explore-ide-wpf-project-cs.png" alt-text="Screenshot of the HelloWPFApp project and solution in the Visual Studio IDE with the Solution Explorer open, and the XAML and designer views of 'MainWindow.xaml' open in the WPF Designer.":::
+:::image type="content" source="media/vs-2022/explore-ide-wpf-project-cs.png" alt-text="Screenshot of the HelloWPFApp project and solution in Solution Explorer, and the XAML and designer views of 'MainWindow.xaml' open in the WPF Designer.":::
 
 > [!NOTE]
 > For more information about XAML (eXtensible Application Markup Language), see the [XAML overview for WPF](/dotnet/framework/wpf/advanced/xaml-overview-wpf) page.
