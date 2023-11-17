@@ -45,7 +45,7 @@ You can create <xref:System.Data.Linq.DataContext> methods by dragging stored pr
 > [!NOTE]
 > For information about changing the return type of existing <xref:System.Data.Linq.DataContext> methods, see [How to: Change the return type of a DataContext method (O/R Designer)](../data-tools/how-to-change-the-return-type-of-a-datacontext-method-o-r-designer.md).
 
-## See also
+## Related content
 
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
 - [DataContext methods (O/R Designer)](../data-tools/datacontext-methods-o-r-designer.md)

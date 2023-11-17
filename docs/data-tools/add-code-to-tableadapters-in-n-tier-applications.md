@@ -66,7 +66,7 @@ By default, after you separate the dataset and TableAdapter code, the result is 
     ```
     ---
 
-## See also
+## Related content
 
 - [N-Tier data applications overview](../data-tools/n-tier-data-applications-overview.md)
 - [Add code to datasets in n-tier applications](../data-tools/add-code-to-datasets-in-n-tier-applications.md)

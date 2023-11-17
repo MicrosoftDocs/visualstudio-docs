@@ -50,6 +50,6 @@ The following example assumes a TableAdapter named `CustomersTableAdapter`is in 
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataTableAdapters/VB/CustomersTableAdapterExtended.vb" id="Snippet2":::
      ---
 
-## See also
+## Related content
 
 - [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md)

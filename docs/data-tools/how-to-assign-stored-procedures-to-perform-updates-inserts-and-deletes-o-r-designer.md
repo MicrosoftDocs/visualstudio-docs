@@ -58,7 +58,7 @@ By default, the logic to update a database (inserts, updates, and deletes) with 
 
 To revert to using the default runtime logic for updates, click the ellipsis next to the **Insert**, **Update**, or **Delete** command in the **Properties** window and then select **Use runtime** in the **Configure Behavior** dialog box.
 
-## See also
+## Related content
 
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
 - [DataContext methods](../data-tools/datacontext-methods-o-r-designer.md)

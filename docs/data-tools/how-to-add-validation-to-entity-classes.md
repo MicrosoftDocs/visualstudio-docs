@@ -117,7 +117,7 @@ In addition to checking values during changes, you can also validate data when a
     }
     ```
 
-## See also
+## Related content
 
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
 - [Validating data](../data-tools/validate-data-in-datasets.md)
