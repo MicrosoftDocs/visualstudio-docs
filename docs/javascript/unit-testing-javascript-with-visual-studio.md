@@ -41,7 +41,7 @@ For information on setting up unit tests, see the following:
 - [Angular testing](https://angular.io/guide/testing)
 - [Testing Vue.js](https://vuejs.org/guide/scaling-up/testing.html#unit-testing)
 
-## Example using Jest with React
+## Example using Jest with React (.esproj)
 
 The following example is based on a React project that uses the project template provided in Visual Studio 2022 version 17.8 or later. The template required is the Standalone TypeScript React Project.
 
@@ -55,6 +55,8 @@ The following example is based on a React project that uses the project template
      <JavaScriptTestFramework>Jest</JavaScriptTestFramework>
    </PropertyGroup> 
    ```
+
+   This example specifies Jest as the test framework. You could specify Mocha, Tape, or Jasmine instead.
 
    The `JavaScriptTestRoot` element specifies that your unit tests will be in the *src* folder of the project root.
 
