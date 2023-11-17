@@ -215,7 +215,7 @@ For TypeScript, unit tests are run against the generated JavaScript code.
 
 1. Open Test Explorer (choose **Test** > **Windows** > **Test Explorer**) and Visual Studio discovers and displays tests. If tests are not showing initially, then rebuild the project to refresh the list.
 
-   ![Test Explorer test discovery](../javascript/media/unit-tests-aspnet-core-discovery.png)
+   ![Test Explorer test discovery](../javascript/media/unit-tests-esproj-discovery.png)
 
    > [!NOTE]
    > For TypeScript, do not use the `outfile` option in *tsconfig.json*, because Test Explorer won't be able to find your unit tests. You can use the `outdir` option, but make sure that configuration files such as `package.json` and `tsconfig.json` are in the project root.
