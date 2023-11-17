@@ -125,7 +125,7 @@ For TypeScript, unit tests are run against the generated JavaScript code.
 
 1. Install the NuGet package [Microsoft.JavaScript.UnitTest](https://www.nuget.org/packages/Microsoft.JavaScript.UnitTest/)
 
-1. In Solution Explorer, right-click the project node and choose **Unload Project**.
+1. In Solution Explorer, right-click the project node and choose **Edit Project File**.
 
    The *.csproj* file should open in Visual Studio.
 
@@ -234,6 +234,7 @@ For TypeScript, unit tests are run against the generated JavaScript code.
 > [!NOTE]
 > We don't currently support profiling tests, or code coverage.
 
+::: moniker range="<=vs-2019"
 ## <a name="addingFramework"></a>Add support for a unit test framework
 
 You can add support for additional test frameworks by implementing the discovery and execution logic using JavaScript.
@@ -294,6 +295,7 @@ In addition to the preceding properties described for .NET Framework, you also n
 ```
 
 Some test frameworks might require additional npm packages for test detection. For example, jest requires the jest-editor-support npm package. If necessary, check the documentation for the specific framework.
+::: moniker-end
 
 ::: moniker range="<=vs-2019"
 ## Write unit tests in a Node.js project (.njsproj)
