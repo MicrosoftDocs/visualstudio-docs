@@ -1,7 +1,7 @@
 ---
 title: "Using the IntelliTrace stand-alone collector"
 description: Use the IntelliTrace stand-alone collector to collect data without installing Visual Studio and without changing the target system's environment.
-ms.date: "03/21/2023"
+ms.date: "10/14/2023"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.historicaldebug.collectdataoutsideVS"
@@ -70,29 +70,17 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
 1. On your app's server, create the collector directory, for example: **C:\IntelliTraceCollector**
 
-2. Get the collector from the [Microsoft Download Center](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta/#intellitrace-standalone-collector-for-visual-studio-2022), [my.visualstudio.com](https://my.visualstudio.com/Downloads?q=intellitrace%20standalone%20collector%20visual%20studio%202022), or from the Visual Studio installation folder.
+2. Get the collector from the Visual Studio installation folder.
 
-   - **Microsoft Download Center** or **my.visualstudio.com**:
+   1. Copy IntelliTraceCollection.cab from the folder where the collector is installed, for example:
 
-     1. Next to **IntelliTraceCollector.exe**, choose **Download**.
+        **..\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\IntelliTrace**
 
-     2. Save IntelliTraceCollector.exe to the collector directory, for example: **C:\IntelliTraceCollector**
+        or, for previous versions of Visual Studio:
 
-     3. Run IntelliTraceCollector.exe. This extracts the IntelliTraceCollection.cab file.
+        **..\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\IntelliTrace\12.0.0**
 
-        \- or -
-
-   - **Visual Studio installation folder**:
-
-     1. Copy IntelliTraceCollection.cab from the folder where the collector is installed, for example:
-
-          **..\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\IntelliTrace**
-
-          or, for previous versions of Visual Studio:
-
-          **..\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\IntelliTrace\12.0.0**
-
-     2. Put IntelliTraceCollection.cab in the collector directory, for example: **C:\IntelliTraceCollector**
+   2. Put IntelliTraceCollection.cab in the collector directory, for example: **C:\IntelliTraceCollector**
 
 3. Expand IntelliTraceCollection.cab:
 
