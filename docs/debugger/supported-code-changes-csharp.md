@@ -100,15 +100,16 @@ For .NET 6 and later, editing is supported for the following file types:
 
 Unsupported applications or platforms include:
 
+- F#
+- .NET Native
 - Silverlight 5
 - Windows 8.1
+- Xamarin.Forms (iOS and Android)
 
 For ASP.NET and ASP.NET Core, editing isn't supported for the following file types:
 
 - .aspx
 - .ascx
-- .cshtml
-- .razor
 
 ## Unsupported scenarios
 
