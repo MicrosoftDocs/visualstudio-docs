@@ -81,6 +81,6 @@ Using **Class Designer**, you can move a type member from one type to another ty
 
      The property is removed from the source type and appears in the destination type.
 
-## See also
+## Related content
 
 - [Design classes in Class Designer](designing-and-viewing-classes-and-types.md)

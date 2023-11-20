@@ -54,6 +54,6 @@ In C# or Visual Basic, the **Find References** window has a **Kind** column wher
 
 After you apply a filter or a filter set, you can easily remove it by using the **Clear All Filters** button.
 
-## See also
+## Related content
 
 - [Navigating code](../ide/navigating-code.md)

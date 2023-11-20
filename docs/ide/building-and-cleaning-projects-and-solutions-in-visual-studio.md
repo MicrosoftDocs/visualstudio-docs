@@ -103,7 +103,7 @@ Perform either of the following steps:
 
 - Press **Ctrl**+**Break**.
 
-## See also
+## Related content
 
 - [How to: View, save, and configure build log files](../ide/how-to-view-save-and-configure-build-log-files.md)
 - [Obtaining build logs](../msbuild/obtaining-build-logs-with-msbuild.md)

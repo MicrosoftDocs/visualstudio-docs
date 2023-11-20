@@ -520,10 +520,7 @@ To use the keyboard:
 
 ::: moniker-end
 
-## Next steps
+## Related content
 
-Learn more about how to use Git and Azure DevOps in the [Visual Studio version control docs](../version-control/index.yml).
-
-## See also
-
+- [Visual Studio version control docs](../version-control/index.yml).
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)

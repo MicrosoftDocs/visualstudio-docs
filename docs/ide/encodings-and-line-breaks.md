@@ -53,6 +53,6 @@ You can use the **File** > **Advanced Save Options** dialog box to determine the
 >
 > Alternatively, you can access the **Advanced Save Options** dialog box by choosing **File** > **Save \<file\> As**. In the **Save File As** dialog box, choose the drop-down triangle next to the **Save** button and then choose **Save with encoding**.
 
-## See also
+## Related content
 
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)

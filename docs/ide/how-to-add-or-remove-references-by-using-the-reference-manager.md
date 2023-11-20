@@ -223,7 +223,7 @@ You can remove unused references for [SDK style projects](/dotnet/core/project-s
 
 For more information, see [Remove unused references](reference/remove-unused-references.md).
 
-## See also
+## Related content
 
 - [Manage references in a project](managing-references-in-a-project.md)
 - [Troubleshoot broken references](troubleshooting-broken-references.md)

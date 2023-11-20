@@ -167,7 +167,7 @@ By default, Visual Studio builds each project in a solution in its own folder in
 
    See [Specify custom build events](specifying-custom-build-events-in-visual-studio.md).
 
-## See also
+## Related content
 
 - [Build page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md)
 - [General Property page (project)](/cpp/build/reference/general-property-page-project)

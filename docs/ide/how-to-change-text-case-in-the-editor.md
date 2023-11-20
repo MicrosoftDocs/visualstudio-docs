@@ -31,6 +31,6 @@ You can use menu commands or keyboard shortcuts to convert the case of selected 
 > [!TIP]
 > To revert to the previous case formatting before this change, select **Undo** from the **Edit** menu.
 
-## See also
+## Related content
 
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)

@@ -55,7 +55,7 @@ Because you can change the settings based on the combination of configuration an
 
    It is possible to have a solution-level platform set to, for example, x64, and have no projects within that solution targeting the same platform. It is also possible to have multiple projects in your solution, each targeting different platforms. It is recommended that if you have one of these situations, you create a new configuration with a descriptive name to avoid confusion.
 
-## See also
+## Related content
 
 - [How to: Create and edit configurations](../ide/how-to-create-and-edit-configurations.md)
 - [Understand build configurations](../ide/understanding-build-configurations.md)

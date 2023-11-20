@@ -43,7 +43,7 @@ For more information, see [Create inheritance between types](how-to-create-inher
 
      A lollipop appears attached to the class and a label with the interface name identifies the inheritance relationship. Visual Studio generates stubs for all interface members; at this point, the interface is implemented.
 
-## See also
+## Related content
 
 - [Create Types by using Class Designer](how-to-create-types.md)
 - [Refactoring Classes and Types](refactoring-classes-and-types.md)

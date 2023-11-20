@@ -60,7 +60,7 @@ A caret (**^**) character in a command means that the character immediately foll
 
 A caret functions the same whether it is inside or outside quotation marks. If a caret is the last character on the line, it is ignored.
 
-## See also
+## Related content
 
 - [Command window](../ide/reference/command-window.md)
 - [Finding and replacing text](../ide/finding-and-replacing-text.md)

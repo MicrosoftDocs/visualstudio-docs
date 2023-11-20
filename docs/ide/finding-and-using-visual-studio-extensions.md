@@ -146,11 +146,9 @@ You can use the **Extensions** > **Manage Extensions** dialog box to perform the
 
 - Update the master copy of an installed sample when there's an update notification.
 
-## Next steps
+## Related content
 
-To learn how to create and publish an extension by using the [Visual Studio SDK](../extensibility/visual-studio-sdk.md), see the [**Visual Studio Extensibility**](../extensibility/index.yml) page.
-
-## See also
-
+- [Visual Studio SDK](../extensibility/visual-studio-sdk.)
+- [Visual Studio Extensibility](../extensibility/index.yml) page.
 - [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs)
 - [Support for the Visual Studio SDK](../extensibility/support-for-the-visual-studio-sdk.md)

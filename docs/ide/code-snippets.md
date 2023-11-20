@@ -108,7 +108,7 @@ If you change `newPropertyValue` to `m_property`, then every instance of `newPro
 
 To learn how to create your own code snippets, see [Walkthrough: Create a code snippet](walkthrough-creating-a-code-snippet.md).
 
-## See also
+## Related content
 
 - [C# code snippets](visual-csharp-code-snippets.md)
 - [C++ code snippets](visual-cpp-code-snippets.md)

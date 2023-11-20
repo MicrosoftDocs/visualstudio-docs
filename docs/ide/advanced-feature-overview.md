@@ -174,7 +174,7 @@ You can also improve the Git performance on large repositories by [enabling Git 
 
 - To learn more about extending Visual Studio, see [Extend Visual Studio IDE](https://visualstudio.microsoft.com/vs/extend/).
 
-## See also
+## Related content
 
 - [Visual Studio IDE overview](../get-started/visual-studio-ide.md)
 - [What's new in Visual Studio 2017](../ide/whats-new-visual-studio-2017.md)
