@@ -118,14 +118,6 @@ For TypeScript, unit tests are run against the generated JavaScript code.
 ## Write unit tests for ASP.NET Core
 
 To add support for unit testing of JavaScript and TypeScript in an ASP.NET Core project, you need to add TypeScript, Npm, and unit testing support to the project by including required NuGet packages.
-<!---
-ASPNETCore_MVC_TS:
-3 NuGet packages, as noted for TS.MSBuild, npm, and JS unit Test
-Jest - mentioned in .csproj and scripts section in package.json
-Npm packages: jest, jest editor, @types/jest
-tsconfig is modified, as described, but update w/node modules exclusion
-Use same tests from the .esproj....curious this all works.
---->
 
 ### Add a unit test (ASP.NET Core)
 
@@ -176,20 +168,26 @@ The following example is based on the ASP.NET Core Model-View-Controller project
    {
      "compileOnSave": true,
      "compilerOptions": {
-       "noImplicitAny": false,
-       "noEmitOnError": true,
-       "removeComments": false,
-       "sourceMap": true,
-       "target": "es5",
-       "outDir": "wwwroot/js"
+        "noImplicitAny": false,
+        "noEmitOnError": true,
+        "removeComments": false,
+        "sourceMap": true,
+        "target": "es5",
+        "outDir": "wwwroot/js"
      },
      "include": [
        "scripts/**/*"
+     ],
+     "exclude": [
+      "node_modules",
+      "tests"
      ]
    }
    ```
 
    The *scripts* folder is where you can put the TypeScript code for you app. For an example project, see [Create an ASP.NET Core app with TypeScript](../javascript/tutorial-aspnet-with-typescript.md). But for this unit test example, we use a simple test that returns a pass result.
+
+   If you want to compile TypeScript tests to JavaScript, remove the *tests* folder from the *exclude* section.
 
 1. Right-click the project in Solution Explorer and choose **Add** > **New Item** (or press **Ctrl** + **SHIFT** + **A**). Use the search box to find the npm file, choose the **npm Configuration File**, use the default name, and click **Add**.
 
