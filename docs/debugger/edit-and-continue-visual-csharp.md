@@ -25,7 +25,7 @@ With Hot Reload, or Edit and Continue for C#, you can make changes to your code 
 
 The basic Hot Reload experience works with most types of .NET apps and framework versions. This includes .NET Framework, .NET Core and .NET 5+ (for both C# and Visual Basic as applicable). The expectation in this scenario is that if you’re using the debugger, assume Hot Reload is available to you and give it a try!
 
-Hot Reload supports most changes you might want to make during a debugging session, but there are some exceptions. For example, ot Reload is not supported for optimized code or with the managed and native debugger enabled. 
+Hot Reload supports most changes you might want to make during a debugging session, but there are some exceptions. For example, Hot Reload is not supported for optimized code or debugging sessions with the managed and native debugger enabled.
 
 For information on other unsupported scenarios, see [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md). If you try to apply code changes with one of these scenarios, a message box appears stating that Hot Reload is not supported.
 
