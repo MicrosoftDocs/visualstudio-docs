@@ -164,8 +164,6 @@ The following example is based on the ASP.NET Core Model-View-Controller project
 
    The `JavaScriptTestRoot` element specifies that your unit tests will be in the *tests* folder of the project root.
 
-1. In Solution Explorer, right-click the project node and choose **Reload Project**.
-
 1. In Solution Explorer, right-click the ASP.NET Core project node and select **Add > New Item**. Choose the **TypeScript JSON Configuration File**, and then select **Add**.
 
    If you don't see all the item templates, select **Show All Templates**, and then choose the item template.
@@ -191,7 +189,7 @@ The following example is based on the ASP.NET Core Model-View-Controller project
    }
    ```
 
-   The *scripts* folder is where you put the TypeScript code for you app. For an example project, see [Create an ASP.NET Core app with TypeScript](../javascript/tutorial-aspnet-with-typescript.md). But for this example, we use a simple test that returns a pass result.
+   The *scripts* folder is where you can put the TypeScript code for you app. For an example project, see [Create an ASP.NET Core app with TypeScript](../javascript/tutorial-aspnet-with-typescript.md). But for this unit test example, we use a simple test that returns a pass result.
 
 1. Right-click the project in Solution Explorer and choose **Add** > **New Item** (or press **Ctrl** + **SHIFT** + **A**). Use the search box to find the npm file, choose the **npm Configuration File**, use the default name, and click **Add**.
 
