@@ -1,6 +1,6 @@
 ---
 title: "Write and debug code by using Hot Reload"
-description: "Hot Reload, similar to edit and continue, allows you to make changes to your code while running apps"
+description: "Hot Reload, also known as Edit and Continue, allows you to make changes to your code while running apps"
 ms.date: 11/01/2023
 ms.topic: conceptual
 helpviewer_keywords:
@@ -45,7 +45,8 @@ The following table shows which projects support .NET Hot Reload with the debugg
 |Application type|F5|Ctrl+F5|`MetadataUpdateHandler` support|
 |-|-|-|-|
 |Console|✅|.NET 6|.NET 6|
-|Apps on Linux/macOS<br>(Docker and WSL)|.NET 8|.NET 6|.NET 8|
+|Running on Linux/macOS<br>(Docker and WSL)|.NET 8|.NET 6|.NET 8|
+|Running on Arm64|.NET 7|.NET 7|.NET 7|
 |WPF|✅|.NET 6|.NET 6|
 |WinForms|✅|.NET 6|.NET 6|
 |ASP.NET|✅|.NET 6|.NET 6|
@@ -101,7 +102,7 @@ If you target .NET 6+, you continue to get improvements in upcoming Visual Studi
 
 ## Supported ASP.NET Core Scenarios
 
-The basic Hot Reload experience is supported for many ASP.NET scenarios. The most widely available feature is the ability to change code-behind and other .NET class files for most types of web applications. This feature works while using the Visual Studio debugger and is present anywhere Edit and Continue was previously available. For more specific guidance, see [.NET Hot Reload support for ASP.NET Core](/aspnet/core/test/hot-reload).
+The basic Hot Reload experience is supported for many ASP.NET scenarios. The most widely available feature is the ability to change code-behind and other .NET class files for most types of web applications. This feature works while using the Visual Studio debugger and is present anywhere Hot Reload was previously available. For more specific guidance, see [.NET Hot Reload support for ASP.NET Core](/aspnet/core/test/hot-reload).
 
 For ASP.NET Core developers who are targeting .NET 6+, there are additional capabilities not available for lower versions of .NET. These capabilities include:
 
@@ -112,7 +113,7 @@ For ASP.NET Core developers who are targeting .NET 6+, there are additional capa
 
 ## Supported .NET changes
 
-The .NET Hot Reload experience is powered by the [Edit and Continue](../debugger/edit-and-continue-visual-csharp.md) mechanism and C# compiler (Roslyn). [Roslyn supported edits](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md) and [Supported code changes (C# and VB)](../debugger/supported-code-changes-csharp.md) lists the types of edits currently supported and potential future enhancements.
+The .NET Hot Reload experience is powered by the [debugger](../debugger/edit-and-continue-visual-csharp.md) and C# compiler ([Roslyn](https://github.com/dotnet/roslyn)). [Roslyn supported edits](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md) and [Supported code changes (C# and VB)](../debugger/supported-code-changes-csharp.md) lists the types of edits currently supported and potential future enhancements.
 
 ## Unsupported .NET projects
 
