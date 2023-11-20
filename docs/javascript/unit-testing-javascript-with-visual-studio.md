@@ -135,7 +135,7 @@ The following example is based on the ASP.NET Core Model-View-Controller project
 
    For an example project, see [Create an ASP.NET Core app with TypeScript](../javascript/tutorial-aspnet-with-typescript.md). For unit testing support, we recommend you start with a standard ASP.NET Core project template.
 
-In Solution Explorer (right pane), right-click the ASP.NET Core project node and select **Manage NuGet Packages for Solutions**.
+1. In Solution Explorer (right pane), right-click the ASP.NET Core project node and select **Manage NuGet Packages for Solutions**.
 
 1. In the **Browse** tab, search for the following packages and install each one:
 
@@ -166,47 +166,6 @@ In Solution Explorer (right pane), right-click the ASP.NET Core project node and
 
 1. In Solution Explorer, right-click the project node and choose **Reload Project**.
 
-1. Right-click the project in Solution Explorer and choose **Add** > **New Item** (or press **Ctrl** + **SHIFT** + **A**). Use the search box to find the npm file, choose the **npm Configuration File**, use the default name, and click **Add**.
-
-1. In *package.json*, add the npm packages you want under dependencies.
-
-   For example, for Jest, it needs to look similar to the following:
-
-   ```json
-   "dependencies": {
-    "@types/jest": "^29.5.8",
-    "jest": "^29.7.0",
-    "jest-editor-support": "^31.1.2"
-   ```
-
-   >[!NOTE]
-   > In some scenarios, Solution Explorer might not show the npm node due to a known issue described [here](https://github.com/aspnet/Tooling/issues/479). If you need to see the npm node, you can unload the project (right-click the project and choose **Unload Project**) and then reload the project to make the npm node re-appear.
-
-1. In Solution Explorer, right-click the npm node and choose **Install new npm packages**.
-
-   Use the npm package installation dialog to install the following npm packages:
-
-   - jest
-   - jest-editor-support
-   - @types/jest
-
-   These packages are added to the *package.json* file under dependencies.
-
-   ```typescript
-    "@types/jest": "^29.5.8",
-    "jest": "^29.7.0",
-    "jest-editor-support": "^31.1.2"
-   ```
-
-1. In *package.json*, add the `test` section at the end of the `scripts` section:
-
-   ```json
-   "scripts": {
-      ...
-      "test": "jest"
-   },
-   ```
-
 1. In Solution Explorer, right-click the ASP.NET Core project node and select **Add > New Item**. Choose the **TypeScript JSON Configuration File**, and then select **Add**.
 
    If you don't see all the item templates, select **Show All Templates**, and then choose the item template.
@@ -233,6 +192,49 @@ In Solution Explorer (right pane), right-click the ASP.NET Core project node and
    ```
 
    The *scripts* folder is where you put the TypeScript code for you app. For an example project, see [Create an ASP.NET Core app with TypeScript](../javascript/tutorial-aspnet-with-typescript.md). But for this example, we use a simple test that returns a pass result.
+
+1. Right-click the project in Solution Explorer and choose **Add** > **New Item** (or press **Ctrl** + **SHIFT** + **A**). Use the search box to find the npm file, choose the **npm Configuration File**, use the default name, and click **Add**.
+
+   A *package.json* file is added to the project root.
+
+1. In *package.json*, add the npm packages you want under dependencies.
+
+   For example, for Jest, it needs to look similar to the following:
+
+   ```json
+   "dependencies": {
+    "@types/jest": "^29.5.8",
+    "jest": "^29.7.0",
+    "jest-editor-support": "^31.1.2"
+   ```
+
+1. In Solution Explorer, right-click the npm node and choose **Install new npm packages**.
+
+   >[!NOTE]
+   > In some scenarios, Solution Explorer might not show the npm node due to a known issue described [here](https://github.com/aspnet/Tooling/issues/479). If you need to see the npm node, you can unload the project (right-click the project and choose **Unload Project**) and then reload the project to make the npm node re-appear. Alternatively, you can add the package entries to *package.json* and install by building the project.
+
+   Use the npm package installation dialog to install the following npm packages:
+
+   - jest
+   - jest-editor-support
+   - @types/jest
+
+   These packages are added to the *package.json* file under dependencies.
+
+   ```typescript
+    "@types/jest": "^29.5.8",
+    "jest": "^29.7.0",
+    "jest-editor-support": "^31.1.2"
+   ```
+
+1. In *package.json*, add the `test` section at the end of the `scripts` section:
+
+   ```json
+   "scripts": {
+      ...
+      "test": "jest"
+   },
+   ```
 
 1. In Solution Explorer, right-click the *test* folder and choose **Add** > **New Item**, and then add a new file named *App.test.tsx*.
 
