@@ -72,7 +72,7 @@ First, you create a Visual Basic app project. The default project template inclu
 
 1. In the **Configure your new project** window, enter *WhatIsYourName* in the **Project name** box. Then, choose **Next**.
 
-   :::image type="content" source="media/vs-2019/vb-name-your-project-whatname.png" alt-text="Screenshot showing the 'Configure your new project' window in Visual Studio with the Project name field set to'WhatIsYourName'." lightbox="media/vs-2019/vb-name-your-project-whatname.png":::
+   :::image type="content" source="media/vs-2019/vb-name-your-project-whatname.png" alt-text="Screenshot showing the 'Configure your new project' window in Visual Studio with the Project name field set to 'WhatIsYourName'." lightbox="media/vs-2019/vb-name-your-project-whatname.png":::
 
 1. In the **Additional information** window, **.NET 5.0 (Current)** should already be selected for your target framework. If not, select **.NET 5.0 (Current)**. Then, choose **Create**.
 
@@ -109,7 +109,7 @@ First, you create a Visual Basic app project. The default project template inclu
 
 1. In the **Configure your new project** window, enter *WhatIsYourName* in the **Project name** box. Then, choose **Next**.
 
-   :::image type="content" source="media/vs-2022/vb-name-your-project-whatname.png" alt-text="Screenshot showing the 'Configure your new project' window in Visual Studio with the Project name field set to'WhatIsYourName'." lightbox="media/vs-2022/vb-name-your-project-whatname.png":::
+   :::image type="content" source="media/vs-2022/vb-name-your-project-whatname.png" alt-text="Screenshot showing the 'Configure your new project' window in Visual Studio with the Project name field set to 'WhatIsYourName'." lightbox="media/vs-2022/vb-name-your-project-whatname.png":::
 
 1. In the **Additional information** window, **.NET 8.0** should already be selected for your target framework. If not, select **.NET 8.0**. Then, choose **Create**.
 
