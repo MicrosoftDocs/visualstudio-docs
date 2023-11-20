@@ -1,6 +1,6 @@
 ---
 title: XAML code editor
-description: Take a tour of the XAML code editor in Visual Studio
+description: Explore the XAML code editor in Visual Studio and discover tools to create Windows Presentation Foundation (WPF) or Universal Windows apps (UWP) and Xamarin forms.
 ms.date: 06/16/2020
 ms.topic: overview
 f1_keywords:

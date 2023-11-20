@@ -1,6 +1,6 @@
 ---
 title: "Inspect XAML properties while debugging"
-description: Learn how to use the Live Visual Tree and Live Property Explorer tools while debugging to inspect XAML properties and get a tree view of UI elements.
+description: Use the Live Visual Tree and Live Property Explorer tools while debugging to inspect XAML properties and get a tree view of UI elements.
 ms.date: 11/02/2023
 ms.topic: how-to
 author: maddymontaquila

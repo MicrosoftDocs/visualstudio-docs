@@ -1,6 +1,6 @@
 ---
 title: XAML overview
-description: Learn basic information about XAML and the XAML code editor and XAML Designer tools in Visual Studio.
+description: Get basic information about the Extensible Application Markup Language (XAML) and how to work with the XAML code editor and XAML Designer tools in Visual Studio.
 ms.date: 06/23/2020
 ms.topic: overview
 author: maddymontaquila

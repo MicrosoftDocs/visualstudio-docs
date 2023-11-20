@@ -1,6 +1,6 @@
 ---
 title: Working with elements in XAML Designer
-description: Learn how to work with elements in the XAML Designer in Visual Studio or Blend for Visual Studio.
+description: Work with elements in the XAML Designer in Visual Studio or Blend for Visual Studio and add elements—controls, layouts, and shapes—to your app in XAML.
 ms.date: 05/14/2018
 ms.topic: conceptual
 author: maddymontaquila

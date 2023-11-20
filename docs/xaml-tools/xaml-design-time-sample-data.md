@@ -1,6 +1,6 @@
 ---
 title: Use design-time sample data with the XAML Designer in Visual Studio
-description: Learn how to use design-time sample data in XAML.
+description: Develop Windows Presentation Foundation (WPF) .NET projects with the XAML Designer in Visual Studio to enable sample data in data-reliant controls.
 ms.date: 06/01/2021
 ms.topic: conceptual
 author: maddymontaquila
