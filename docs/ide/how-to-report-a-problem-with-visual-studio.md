@@ -1,6 +1,6 @@
 ---
 title: Report a problem with Visual Studio
-description: "Find out how to report a problem with Visual Studio"
+description: Report a problem in Visual Studio by using the product installer or the built-in Feedback Tool, which allows you to easily add diagnostic information.
 ms.date: 10/07/2021
 ms.topic: how-to
 author: madskristensen
