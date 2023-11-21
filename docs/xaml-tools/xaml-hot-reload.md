@@ -1,6 +1,6 @@
 ---
 title: "XAML Hot Reload for WPF and UWP apps"
-description: Modify the XAML code in running Windows Presentation Foundation (WPF) or Universal Windows apps (UWP) with the XAML edit and continue features in XAML Hot Reload.
+description: Modify XAML code in running Windows Presentation Foundation (WPF) or Universal Windows Platform (UWP) apps with edit and continue features in XAML Hot Reload.
 ms.date: 02/25/2022
 ms.topic: conceptual
 helpviewer_keywords:
