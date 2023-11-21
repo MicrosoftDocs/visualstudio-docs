@@ -49,7 +49,7 @@ You can also create multiple instances of an editor window. This feature allows 
 
    A new tabbed instance of the editor is added.
 
-## See also
+## Related content
 
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
 - [Customize window layouts](../ide/customizing-window-layouts-in-visual-studio.md)

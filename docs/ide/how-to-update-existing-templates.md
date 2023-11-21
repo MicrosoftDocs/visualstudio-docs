@@ -63,7 +63,7 @@ You can update an existing template without using the **Export Template Wizard**
 
 1. Delete the extracted template files and the old template *.zip* file.
 
-## See also
+## Related content
 
 - [Customize templates](../ide/customizing-project-and-item-templates.md)
 - [Create project and item templates](../ide/creating-project-and-item-templates.md)

@@ -142,7 +142,7 @@ If you don't want to or can't use Visual Studio to report a problem, there's a c
 
 If you don't have a problem to report but want to suggest a feature, there's a place for doing that too. For more information, see the [Suggest a feature](https://aka.ms/feedback/suggest?space=8) page.
 
-## See also
+## Related content
 
 * [Developer Community Guidelines](./developer-community-guidelines.md)
 * [Report a problem with Visual Studio for Mac](/visualstudio/mac/report-a-problem)

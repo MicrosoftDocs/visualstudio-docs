@@ -87,7 +87,7 @@ The **IDE Navigator** also lets you cycle through the tool windows you have open
     > [!TIP]
     > To reverse the order in which you go through the **Active Tool Windows** list, hold down the **Shift**+**Alt** keys and press **F7**.
 
-## See also
+## Related content
 
 - [Customize window layouts](../ide/customizing-window-layouts-in-visual-studio.md)
 - [Default keyboard shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md)

@@ -79,7 +79,7 @@ The following example shows a basic *vstemplate* file for a web project template
 </VSTemplate>
 ```
 
-## See also
+## Related content
 
 - [Create project and item templates](../ide/creating-project-and-item-templates.md)
 - [Visual Studio template schema reference (extensibility)](../extensibility/visual-studio-template-schema-reference.md)

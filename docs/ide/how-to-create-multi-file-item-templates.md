@@ -90,7 +90,7 @@ The following example shows a Windows Forms template. When an item is created ba
 </VSTemplate>
 ```
 
-## See also
+## Related content
 
 - [Create project and item templates](../ide/creating-project-and-item-templates.md)
 - [How to: Create item templates](../ide/how-to-create-item-templates.md)

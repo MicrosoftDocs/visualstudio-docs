@@ -72,7 +72,8 @@ Binary logs are an optional feature for .NET projects that lets you have a riche
 :::moniker range=">=vs-2022"
 Binary logs are an optional feature for .NET projects that lets you have a richer log browsing experience that might make it easier to find information in large logs. To use binary logs, install the [Project System Tools 2022](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProjectSystemTools2022). For more information, see [https://msbuildlog.com](https://msbuildlog.com) and [Binary Log](https://github.com/microsoft/msbuild/blob/master/documentation/wiki/Binary-Log.md).
 :::moniker-end
-## See also
+
+## Related content
 
 - [Build and clean projects and solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)
 - [Compile and build](../ide/compiling-and-building-in-visual-studio.md)
