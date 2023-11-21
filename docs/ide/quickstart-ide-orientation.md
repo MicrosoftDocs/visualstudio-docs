@@ -3,7 +3,7 @@ title: "Tour the Visual Studio IDE"
 description: Learn about some of the windows, menus, and other UI features of the Visual Studio integrated development environment (IDE).
 ms.custom: vs-acquisition
 titleSuffix: ''
-ms.date: 11/01/2023
+ms.date: 11/17/2023
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
@@ -142,11 +142,11 @@ To explore Visual Studio's features, let's create a new project.
 
 1. In the **Configure your new project** window, accept the default project name and location, and then select **Next**.
 
-    :::image type="content" source="media/vs-2022/quickstart-configure-new-project-console.png" alt-text="Screenshot of the 'Configure a new project' window in Visual Studio 2022, where you enter the name of the project.":::
+    :::image type="content" source="media/vs-2022/quickstart-configure-new-project-console.png" alt-text="Screenshot of the Configure a new project window in Visual Studio 2022, where you enter the name of the project and the project location." lightbox="media/vs-2022/quickstart-configure-new-project-console.png":::
 
 1. In the **Additional information** window, ensure that **.NET 8.0** appears in the **Framework** dropdown menu, and then select **Create**.
 
-    :::image type="content" source="media/vs-2022/create-project-additional-info.png" alt-text="Screenshot of the 'Additional information' window in Visual Studio 2022, where you select the version of the .NET that you want.":::
+    :::image type="content" source="media/vs-2022/create-project-additional-info.png" alt-text="Screenshot of the Additional information window in Visual Studio 2022, where you select the version of the .NET that you want." lightbox="media/vs-2022/create-project-additional-info.png":::
 
 1. The project is created and loaded in Visual Studio. 
 
@@ -193,7 +193,7 @@ The **Output** window automatically obtains focus and shows a successful build m
 
 ::: moniker range=">=vs-2022"
 
-:::image type="content" source="media/vs-2022/quickstart-build-output-minimal.png" alt-text="Screenshot of the Output window in Visual Studio 2022.":::
+:::image type="content" source="media/vs-2022/quickstart-build-output-minimal.png" alt-text="Screenshot of the Output window in Visual Studio 2022 showing output messages from building your project and from your source control provider." lightbox="media/vs-2022/quickstart-build-output-minimal.png":::
 
 ::: moniker-end
 

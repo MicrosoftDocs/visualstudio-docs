@@ -2,7 +2,7 @@
 title: "Tutorial: Create a simple C# console app "
 description: Create a C# console application in Visual Studio and explore some features of the Visual Studio integrated development environment (IDE).
 ms.custom: vs-acquisition
-ms.date: 10/31/2023
+ms.date: 11/17/2023
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -65,11 +65,11 @@ To start, create a C# application project. The project type comes with all the t
 
 1. In the **Configure your new project** window, type or enter *Calculator* in the **Project name** box. Then, select **Next**.
 
-   :::image type="content" source="./media/vs-2019/csharp-name-your-calculator-project.png" alt-text="Screenshot that shows naming your project 'Calculator' in the 'Configure your new project' window.":::
+   :::image type="content" source="./media/vs-2019/csharp-name-your-calculator-project.png" alt-text="Screenshot that shows how to name your project 'Calculator' in the 'Configure your new project' window in Visual Studio." lightbox="./media/vs-2019/csharp-name-your-calculator-project.png":::
 
 1. In the **Additional information** window, verify that **.NET Core 3.1** appears in the **Target Framework** field. Then, select **Create**.
 
-   :::image type="content" source="./media/vs-2019/csharp-target-framework.png" alt-text="Screenshot that shows making sure .NET Core 3.1 is selected in the 'In the 'Additional information' window.":::
+   :::image type="content" source="./media/vs-2019/csharp-target-framework.png" alt-text="Screenshot of the Additional information window in Visual Studio showing .NET Core 3.1 as the target framework for the new project." lightbox="./media/vs-2019/csharp-target-framework.png":::
 
 Visual Studio opens your new project, which includes default "Hello World" code. To view it in the editor, select the code file *Program.cs* in the Solution Explorer window, which is typically on the right-hand side of Visual Studio.
 
@@ -101,11 +101,11 @@ The default "Hello World" code calls the <xref:System.Console.WriteLine%2A> meth
 
 1. In the **Configure your new project** window, type or enter *Calculator* in the **Project name** box, and then select **Next**.
 
-   ![Screenshot that shows naming the project Calculator in the Configure your new project window.](media/vs-2022/csharp-name-your-calculator-project.png)
+   :::image type="content" source="./media/vs-2022/csharp-name-your-calculator-project.png" alt-text="Screenshot that shows how to name your project 'Calculator' in the 'Configure your new project' window in Visual Studio." lightbox="./media/vs-2022/csharp-name-your-calculator-project.png":::
 
 1. In the **Additional information** window, select **.NET 8.0** for the **Target Framework** field. Then, select **Create**.
 
-   ![Screenshot that shows .NET 8.0 selected in the Additional information window.](media/vs-2022/csharp-target-framework.png)
+   :::image type="content" source="./media/vs-2022/csharp-target-framework.png" alt-text="Screenshot of the Additional information window in Visual Studio showing .NET 8.0 selected as the target framework for the new project." lightbox="./media/vs-2022/csharp-target-framework.png":::
 
 Visual Studio opens your new project, which includes default "Hello World" code. To view it in the editor, select the code file *Program.cs* in the Solution Explorer window, which is typically on the right-hand side of Visual Studio.
 
