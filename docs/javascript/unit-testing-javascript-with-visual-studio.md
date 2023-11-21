@@ -24,7 +24,9 @@ The supported frameworks are:
 - Tape ([github.com/substack/tape](https://github.com/substack/tape))
 - Jest ([jestjs.io](https://jestjs.io/))
 
+::: moniker range="<=vs-2019"
 If your favorite framework is not supported, see [Add support for a unit test framework](#addingFramework) for information on adding support.
+::: moniker-end
 
 ::: moniker range=">=vs-2022"
 ## Write unit tests for a CLI-based project (.esproj)
@@ -366,7 +368,7 @@ done automatically by the unit test file templates.
 
 ![Screenshot of choosing Test Framework.](../javascript/media/UnitTestsFrameworkMocha.png)
 
-> [!Note]
+> [!NOTE]
 > The unit test options will take preference over the settings for individual files.
 
 After opening Test Explorer (choose **Test** > **Windows** > **Test Explorer**), Visual Studio discovers and displays tests. If tests are not showing initially, then rebuild the project to refresh the list.
