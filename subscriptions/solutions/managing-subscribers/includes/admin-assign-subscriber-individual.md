@@ -22,14 +22,14 @@ As a super admin or admin, you can assign an individual subscriber by following 
 
 ## Microsoft Entra ID 
 
-The admin must be a member of the Entra ID tenant to use this method.
+The admin must be a member of the Microsoft Entra tenant to use this method.
 
 1. Confirm you have the correct tenant selected in the upper-right corner.
 2. Make sure you’re looking at the correct agreement on the left above the subscriber grid.
 3. Select **Add**, and then select **Individual subscriber**.
-4. If your organization uses Entra ID, the **Name** field acts as a search function to find people in your current directory. You can select the correct user from the search results.
+4. If your organization uses Microsoft Entra ID, the **Name** field acts as a search function to find people in your current directory. You can select the correct user from the search results.
 5. After you select the user, the sign-in email and notification email are automatically populated. You can change the values, as needed.
 6. Enter all of the required information, and then select **Add**.
 
 Read documentation with screenshots and a video for more details on [how to add a single user](https://learn.microsoft.com/visualstudio/subscriptions/assign-license).
-If your organization can over assign subscriptions, learn more about [how to automate assignments by using Entra ID groups](https://learn.microsoft.com/visualstudio/subscriptions/assign-license-bulk).
+If your organization can over assign subscriptions, learn more about [how to automate assignments by using Microsoft Entra groups](https://learn.microsoft.com/visualstudio/subscriptions/assign-license-bulk).
