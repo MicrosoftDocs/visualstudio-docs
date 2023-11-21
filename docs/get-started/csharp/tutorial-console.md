@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: Create a simple C# console app "
-description: "Learn how to create a C# console app in Visual Studio, step-by-step."
+description: Create a C# console application in Visual Studio and explore some features of the Visual Studio integrated development environment (IDE).
 ms.custom: vs-acquisition
 ms.date: 10/31/2023
 ms.technology: vs-ide-general
