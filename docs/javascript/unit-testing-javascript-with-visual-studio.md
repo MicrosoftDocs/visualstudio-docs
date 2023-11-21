@@ -31,9 +31,7 @@ If your favorite framework is not supported, see [Add support for a unit test fr
 
 The [CLI-based projects](../javascript/javascript-in-vs-2022.md#project-templates) supported in Visual Studio 2022 work with Test Explorer. Jest is the built-in test framework for React and Vue projects, and Karma and Jasmine is used for Angular projects. By default, you will be able to run the default tests provided by each framework, as well as any additional tests you write.  Just hit the **Run** button in Test Explorer. If you don’t already have Test Explorer open, you can find it by selecting **Test** > **Test Explorer** in the menu bar.
 
-Mocha and Tape test libraries are also supported. To use one of these, simply change the default test library in *package.json* to the appropriate test library’s package.
-
-To run unit tests from the command-line, right-click the project in Solution Explorer and choose **Open in Terminal**.
+To run unit tests from the command-line, right-click the project in Solution Explorer, choose **Open in Terminal**, and run the command specific to the test type.
 
 For information on setting up unit tests, see the following:
 
