@@ -1,6 +1,6 @@
 ---
 title: "Capture and edit desktop app UI with XAML Live Preview"
-description: "Pair XAML Live Preview with XAML Hot Reload to capture desktop app UI, make iterative changes to it in Visual Studio, and then view those changes in real time."
+description: Pair XAML Live Preview with XAML Hot Reload to capture desktop app UI, make iterative changes in Visual Studio, and view your changes in real time.
 ms.date: 11/08/2021
 ms.topic: conceptual
 helpviewer_keywords:

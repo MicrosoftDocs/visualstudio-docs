@@ -1,7 +1,7 @@
 ---
 title: Blend for Visual Studio feature tour
 titleSuffix: ''
-description: Learn about the workspace UI and features of Blend for Visual Studio, a component for designing XAML-based Windows and Web applications.
+description: Explore the features and workspace UI in Blend for Visual Studio, a component for designing XAML-based Windows and Web applications.
 ms.date: 07/31/2019
 ms.topic: overview
 f1_keywords:
