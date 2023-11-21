@@ -157,7 +157,7 @@ Here are a few more support options:
 * Suggest a feature, track product issues, and find answers in the [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8).
 * Use your [GitHub](https://github.com/) account to talk to us and other Visual Studio developers in the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).
 
-## See also
+## Related content
 
 * [Connectivity requirements for Live Share](/visualstudio/liveshare/reference/connectivity/)
 * [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)

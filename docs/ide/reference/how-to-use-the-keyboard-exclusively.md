@@ -84,7 +84,7 @@ To move among the options in a dialog box and change option settings by using on
 
    The tool window snaps into place at the new docking location.
 
-## See also
+## Related content
 
 * [Identifying and customizing keyboard shortcuts](../../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)
 * [Accessibility tips and tricks](../../ide/reference/accessibility-tips-and-tricks.md)

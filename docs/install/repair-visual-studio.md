@@ -85,7 +85,7 @@ Use repair if you're having issues with:
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 
 * [Install Visual Studio](install-visual-studio.md)
 * [Update Visual Studio](update-visual-studio.md)

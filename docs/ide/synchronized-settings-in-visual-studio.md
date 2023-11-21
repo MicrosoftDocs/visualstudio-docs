@@ -88,7 +88,7 @@ Certain settings like tool window layout aren't shared between different side-by
 
 To reset all settings to their defaults, sign in to Visual Studio, and then select **Tools** > **Import and Export Settings** to open the **Import and Export Settings Wizard**. Select **Reset all settings** and then follow the remaining steps of the wizard.
 
-## See also
+## Related content
 
 - [Personalize the IDE](../ide/personalizing-the-visual-studio-ide.md)
 - [Environment settings](../ide/environment-settings.md)

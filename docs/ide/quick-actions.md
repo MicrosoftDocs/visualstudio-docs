@@ -58,7 +58,7 @@ To see potential fixes, select either the down arrow next to the light bulb or t
 > [!TIP]
 > To learn how to turn off some of the code fix Quick Actions, see [Disable source code analysis for .NET](../code-quality/disable-code-analysis.md).
 
-## See also
+## Related content
 
 - [Common Quick Actions](../ide/common-quick-actions.md)
 - [Code styles and Quick Actions](../ide/code-styles-and-code-cleanup.md)

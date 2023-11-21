@@ -97,7 +97,7 @@ Since different people have different ideas about what is convenient, virtually 
 
 ![Tool Options dialog box](../ide/media/sintellisensecpptoolsoptions.PNG)
 
-## See also
+## Related content
 
 - [Using IntelliSense](../ide/using-intellisense.md)
 - [Configure a C++ project for IntelliSense](visual-cpp-intellisense-configuration.md)

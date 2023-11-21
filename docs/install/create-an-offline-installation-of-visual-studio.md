@@ -120,7 +120,7 @@ c:\localVSlayout\vs_enterprise.exe --noWeb --add Microsoft.VisualStudio.Workload
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 
 - [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide)
 - [Install certificates required for Visual Studio offline installation](../install/install-certificates-for-visual-studio-offline.md)

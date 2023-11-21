@@ -102,7 +102,7 @@ When you build a solution using the **Build** > **Build Solution** command, Visu
 If you want to build multiple configurations and platforms in one action, you can use the **Build** > **Batch Build** option in Visual Studio. To access this feature, press **Ctrl**+**Q** to open the search box, and enter `Batch build`. Batch build is not available for all project types. See [How to: Build multiple configurations simultaneously](how-to-build-multiple-configurations-simultaneously.md).
 
 
-## See also
+## Related content
 
 - [Walkthrough: Build an application](../ide/walkthrough-building-an-application.md)
 - [Compile and build](../ide/compiling-and-building-in-visual-studio.md)

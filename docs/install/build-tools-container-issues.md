@@ -39,7 +39,7 @@ Pre-check verification failed with error(s) :  SizePreCheckEvaluator.
 ```
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 
 * [Install Build Tools into a Container](build-tools-container.md)
 * [Advanced Example for Containers](advanced-build-tools-container.md)

@@ -83,6 +83,6 @@ You will be prompted to provide a hive name, which becomes the name of your isol
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 
 * [Visual Studio administrator guide](../install/visual-studio-administrator-guide.md)

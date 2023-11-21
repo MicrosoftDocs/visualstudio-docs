@@ -312,7 +312,7 @@ Each operation generates several log files in the `%TEMP%` directory that indica
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 
 - [Command-line parameter examples for Visual Studio installation](command-line-parameter-examples.md)
 - [Create an offline installation of Visual Studio](create-an-offline-installation-of-visual-studio.md)
