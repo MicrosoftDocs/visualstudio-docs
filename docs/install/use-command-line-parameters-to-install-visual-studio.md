@@ -1,7 +1,7 @@
 ---
 title: Use command-line parameters to install Visual Studio
 titleSuffix: ''
-description: Learn how to use command-line parameters to control or customize your Visual Studio installation.
+description: Use command-line parameters with your Visual Studio installation and start the installation with preselected options or automate the installation and update process.
 ms.date: 8/8/2023
 ms.topic: conceptual
 f1_keywords:

@@ -1,7 +1,7 @@
 ---
 title: Visual Studio administrator guide
 titleSuffix: ''
-description: Learn more about how to deploy Visual Studio in an enterprise environment.
+description: Explore deployment scenarios for Visual Studio, including options for acquiring the software and methods for deploying and updating the installation.
 ms.date: 8/8/2023
 ms.topic: overview
 helpviewer_keywords:
