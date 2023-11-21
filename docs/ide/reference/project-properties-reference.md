@@ -1,7 +1,7 @@
 ---
 title: What is the .NET Project Designer?
 description: Learn how to configure and customize .NET project properties by using the Project Designer.
-ms.date: 10/18/2023
+ms.date: 11/16/2023
 ms.topic: reference
 helpviewer_keywords:
 - user interface [Visual Studio], projects
@@ -24,7 +24,7 @@ The Project Designer appears after you select a [project node](../use-solution-e
 
 ::: moniker range="vs-2022"
 
-The following screenshot shows an example of the .NET project properties for a C# console project in the Project Designer. Notice that .NET 8.0 appears as the target framework.
+The following screenshot shows an example of the .NET project properties for a C# console project in the Project Designer.
 
 :::image type="content" source="media/vs-2022/project-properties-designer-csharp-console.png" alt-text="Screenshot of the .NET Project Designer in Visual Studio 2022 with .NET 8.0 as the target framework.":::
 

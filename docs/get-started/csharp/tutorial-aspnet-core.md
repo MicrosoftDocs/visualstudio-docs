@@ -6,7 +6,7 @@ ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.topic: tutorial
-ms.date: 10/31/2023
+ms.date: 11/17/2023
 ms.prod: visual-studio-windows
 dev_langs:
   - CSharp
@@ -50,7 +50,7 @@ First, you create an ASP.NET Core project. The project type comes with all the t
 
    After you apply the language, platform, and project type filters, select the **ASP.NET Core Web App** template, and then select **Next**.
 
-   :::image type="content" source="./media/vs-2019/csharp-create-new-project-aspnet-core.png" alt-text="Screenshot shows the ASP.NET Core Web App project template highlighted in the New Project dialog box.":::
+   :::image type="content" source="./media/vs-2019/csharp-create-new-project-aspnet-core.png" alt-text="Screenshot that shows the ASP.NET Core Web App project template highlighted in the New Project dialog box in Visual Studio." lightbox="./media/vs-2019/csharp-create-new-project-aspnet-core.png":::
 
    > [!NOTE]
    > If you don't see the **ASP.NET Core Web App** template, you can install it from the **Create a new project** window.
@@ -69,7 +69,7 @@ First, you create an ASP.NET Core project. The project type comes with all the t
 
 1. In the **Configure your new project** window, enter **MyCoreApp** in the **Project name** field. Then, select **Next**.
 
-   :::image type="content" source="./media/vs-2019/csharp-name-your-aspnet-app.png" alt-text="Screenshot shows the Configure your new project window with MyCoreApp entered in the Project name field.":::
+   :::image type="content" source="./media/vs-2019/csharp-name-your-aspnet-app.png" alt-text="Screenshot that shows the Configure your new project window in Visual Studio with MyCoreApp entered in the Project name field." lightbox="./media/vs-2019/csharp-name-your-aspnet-app.png":::
 
 1. In the **Additional information** window, verify that **.NET Core 3.1** appears in the **Target Framework** field.
 
@@ -82,7 +82,7 @@ First, you create an ASP.NET Core project. The project type comes with all the t
 
    Leave the **Enable Docker** box unchecked, and select **None** for Authentication Type.
 
-   :::image type="content" source="./media/vs-2019/aspnet-core-additional-information.png" alt-text="Screenshot shows the default settings in the Additional information window. The Framework value is .NET Core 3.1.":::
+   :::image type="content" source="./media/vs-2019/aspnet-core-additional-information.png" alt-text="Screenshot that shows the default settings in the Additional information window where the target framework is set to .NET Core 3.1." lightbox="./media/vs-2019/aspnet-core-additional-information.png":::
 
 1. Select **Create**.
 
@@ -100,7 +100,7 @@ Visual Studio opens your new project.
 
    After you apply the language, platform, and project type filters, select the **ASP.NET Core Web App** template, and then select **Next**.
 
-   :::image type="content" source="media/vs-2022/csharp-create-new-project-aspnet-core.png" border="false" alt-text="Screenshot shows the ASP.NET Core Web App project template selected and highlighted on the Create a new project page.":::
+   :::image type="content" source="media/vs-2022/csharp-create-new-project-aspnet-core.png" border="false" alt-text="Screenshot that shows the ASP.NET Core Web App project template selected and highlighted on the Create a new project page." lightbox="media/vs-2022/csharp-create-new-project-aspnet-core.png":::
 
    > [!NOTE]
    > If you don't see the **ASP.NET Core Web App** template, you can install it from the **Create a new project** window.
@@ -119,7 +119,7 @@ Visual Studio opens your new project.
 
 1. In the **Configure your new project** window, enter **MyCoreApp** in the **Project name** field. Then, select **Next**.
 
-   :::image type="content" source="media/vs-2022/csharp-name-your-aspnet-app.png" border="false" alt-text="Screenshot shows the Configure your new project window with MyCoreApp entered in the Project name field.":::
+   :::image type="content" source="media/vs-2022/csharp-name-your-aspnet-app.png" border="false" alt-text="Screenshot that shows the Configure your new project window in Visual Studio with MyCoreApp entered in the Project name field." lightbox="media/vs-2022/csharp-name-your-aspnet-app.png":::
 
 1. In the **Additional information** window, verify that **.NET 8.0** appears in the **Target Framework** field.
 
@@ -132,7 +132,7 @@ Visual Studio opens your new project.
 
    Leave the **Enable Docker** box unchecked, and select **None** for Authentication Type.
 
-   :::image type="content" source="media/vs-2022/aspnet-core-additional-information.png" border="false" alt-text="Screenshot shows the default settings in the Additional information window. The Framework value is .NET 8.0.":::
+   :::image type="content" source="media/vs-2022/aspnet-core-additional-information.png" border="false" alt-text="Screenshot that shows the default settings in the Additional information window where the target framework is set to .NET 8.0." lightbox="media/vs-2022/aspnet-core-additional-information.png":::
 
 1. Select **Create**.
 
