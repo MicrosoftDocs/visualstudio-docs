@@ -121,9 +121,9 @@ To add support for unit testing of JavaScript and TypeScript in an ASP.NET Core 
 
 ### Add a unit test (ASP.NET Core)
 
-The following example is based on the ASP.NET Core Model-View-Controller project template, and includes adding a Jest unit test.
+The following example is based on the ASP.NET Core Model-View-Controller project template, and includes adding a Jest or Mocha unit test.
 
-1. Create an ASP.NET Core project and add TypeScript support.
+1. Create an ASP.NET Core Model-View-Controller project and add TypeScript support.
 
    For an example project, see [Create an ASP.NET Core app with TypeScript](../javascript/tutorial-aspnet-with-typescript.md). For unit testing support, we recommend you start with a standard ASP.NET Core project template.
 
@@ -143,7 +143,7 @@ The following example is based on the ASP.NET Core Model-View-Controller project
 
 1. Add the following elements to the *.csproj* file in the `PropertyGroup` element.
 
-   This example specifies Jest as the test framework. You could specify Mocha, Tape, or Jasmine instead.
+   This example specifies Jest or Mocha as the test framework. You could specify Tape or Jasmine instead.
 
    # [Jest](#tab/jest)
 
@@ -167,7 +167,9 @@ The following example is based on the ASP.NET Core Model-View-Controller project
    </PropertyGroup>
    ```
 
-   The `JavaScriptTestRoot` element specifies that your unit tests will be in the *tests* folder of the project root.
+   For Jest, the `JavaScriptTestRoot` element specifies that your unit tests will be in the *tests* folder of the project root.
+
+   To simplify the configuration for Mocha, for this example we point the test root to the output folder, *wwwroot\js\tests\*.
 
 1. In Solution Explorer, right-click the ASP.NET Core project node and select **Add > New Item**. Choose the **TypeScript JSON Configuration File**, and then select **Add**.
 
@@ -223,7 +225,7 @@ The following example is based on the ASP.NET Core Model-View-Controller project
    }
    ```
 
-   The *scripts* folder is where you can put the TypeScript code for you app. For an example project, see [Create an ASP.NET Core app with TypeScript](../javascript/tutorial-aspnet-with-typescript.md).
+   The *scripts* folder is where you can put the TypeScript code for you app. For an example project that adds code, see [Create an ASP.NET Core app with TypeScript](../javascript/tutorial-aspnet-with-typescript.md).
 
    For Jest, if you want to compile TypeScript tests to JavaScript, remove the *tests* folder from the *exclude* section.
 
@@ -288,7 +290,6 @@ The following example is based on the ASP.NET Core Model-View-Controller project
    },
    ```
 
-
 1. In Solution Explorer, right-click the *test* folder and choose **Add** > **New Item**, and then add a new file named *App.test.tsx*.
 
    This adds the new file under the *test* folder.
@@ -317,8 +318,7 @@ The following example is based on the ASP.NET Core Model-View-Controller project
    })
    ```
 
-
-1. Open Test Explorer (choose **Test** > **Windows** > **Test Explorer**) and Visual Studio discovers and displays tests. If tests are not showing initially, then rebuild the project to refresh the list.
+1. Open Test Explorer (choose **Test** > **Windows** > **Test Explorer**) and Visual Studio discovers and displays tests. If tests are not showing initially, then rebuild the project to refresh the list. The following illustration shows the Jest example, with two different unit test files.
 
    ![Test Explorer test discovery (ASP.NET Core)](../javascript/media/vs-2022/unit-tests-asp-dotnet-discovery.png)
 
@@ -329,7 +329,7 @@ The following example is based on the ASP.NET Core Model-View-Controller project
 
 You can run the tests by clicking the **Run All** link in Test Explorer. Or, you can run tests by selecting one or more tests or groups, right-clicking, and selecting **Run** from the shortcut menu. Tests run in the background, and Test Explorer automatically updates and shows the results. Furthermore, you can also debug selected tests by right-clicking and selecting **Debug**.
 
-For TypeScript, unit tests are run against the generated JavaScript code.
+For TypeScript, unit tests are typically run against the generated JavaScript code. The following illustration shows the Jest example, with two different unit test files.
 
 ![Test Explorer results (ASP.NET Core)](../javascript/media/vs-2022/unit-tests-asp-dotnet-run.png)
 
