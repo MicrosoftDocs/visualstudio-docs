@@ -33,6 +33,7 @@ The following table shows the changes that might be made to C# and Visual Basic 
 | Dynamic objects | Add or modify | No |
 | lambda expressions | Add or modify | [Yes](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md) |
 | LINQ expressions | Add or modify | [Same as lambda expressions](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md) |
+| Generics | Add or modify | [Yes](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md)
 
 > [!NOTE]
 > Newer language features such as string interpolation and null-conditional operators are generally supported by Edit and Continue. For the most current information, see the [Enc Supported Edits](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md) page.
@@ -64,7 +65,6 @@ The following changes can't be applied to C# and Visual Basic code during a debu
    | All code elements | Renaming |
    | Namespaces | Add |
    | Namespaces, types, members | Delete |
-   | Generics | Add or modify |
    | Interfaces | Modify |
    | Types | Add abstract or virtual member, add override (see [details](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md)) |
    | Types | Add destructor |
@@ -100,15 +100,16 @@ For .NET 6 and later, editing is supported for the following file types:
 
 Unsupported applications or platforms include:
 
+- F#
+- .NET Native
 - Silverlight 5
 - Windows 8.1
+- Xamarin.Forms (iOS and Android)
 
 For ASP.NET and ASP.NET Core, editing isn't supported for the following file types:
 
 - .aspx
 - .ascx
-- .cshtml
-- .razor
 
 ## Unsupported scenarios
 
@@ -116,7 +117,7 @@ Edit and Continue isn't available in the following debugging scenarios:
 
 - Mixed-mode (native/managed) debugging.
 
-- Debugging on ARM64 without targeting .NET 6 or later.
+- Debugging on Arm64 without targeting .NET 7 or later.
 
 - Debugging with the **COR_ENABLE_PROFILING** environment variable set.
 
