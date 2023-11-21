@@ -32,7 +32,7 @@ We accomplish this by making it possible for you to edit your application's code
 
    ![Screenshot of the Hot Reload button.](../debugger/media/vs-2022/dotnet-hot-reload.gif)
 
-To see the changes in the user interface, the code needs to be re-executed. For example, code-behind for a button must re-execute, or code that is being triggered at an interval through a timer. As another example, ASP.NET Core supports automatic browser refreshing due to the [MetadataUpdateHandler](hot-reload-metadataupdatehandler.md) funcionality.
+To see the changes in the user interface, the code needs to be re-executed. For example, code-behind for a button must re-execute, or code that is being triggered at an interval through a timer. As another example, ASP.NET Core supports automatic browser refreshing due to the [MetadataUpdateHandler](hot-reload-metadataupdatehandler.md) functionality.
 
 ## Support for .NET applications
 
@@ -122,7 +122,7 @@ Hot Reload isn't available in some project configurations:
 * If you’re using Visual Studio without the debugger, Hot Reload only works for .NET apps targeting .NET 6+.
 * If you’re using the Visual Studio debugger to run your app, but you’ve disabled `Enable Hot Reload and Edit and Continue when debugging` in settings, Hot Reload isn't supported.
 * Release or custom build configurations aren't supported. Your project must use the `Debug` build configuration.
-* If you're targeting a F# or .NET Native project.
+* If you're targeting an F# or .NET Native project.
 * Some startup or compile optimizations are not supported in .NET Hot Reload. For example, if your project's debug profile is configured in the following ways, .NET Hot Reload isn't supported:
   * [Trimming](/dotnet/core/deploying/trimming/trimming-options) is enabled for your project. For example, it's not supported if `PublishTrimmed` is set to True in your project file for the debug profile.
   * [ReadyToRun](/dotnet/core/deploying/ready-to-run) is enabled for your project. For example, it's not supported if `PublishReadyToRun` is set to True in your project file for the debug profile.
