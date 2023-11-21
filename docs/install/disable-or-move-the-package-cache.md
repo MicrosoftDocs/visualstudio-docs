@@ -1,6 +1,6 @@
 ---
 title: Disable or move the package cache
-description: Learn how to disable, enable, or move the package cache for Visual Studio deployments.
+description: Disable, enable, or move the package cache of installed packages for Visual Studio deployments to save or recover disk space.
 ms.date: 04/28/2022
 ms.topic: conceptual
 f1_keywords:
