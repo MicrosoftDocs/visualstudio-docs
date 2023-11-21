@@ -1,6 +1,6 @@
 ---
 title: Customer Experience Improvement Program
-description: "Find out how to manage privacy settings in Visual Studio, and learn about Visual Studio system-generated logs, the types of data that's collected, and how it's used to fix problems and improve product quality."
+description: Manage privacy settings in Visual Studio, and explore system-generated logs, types of collected data, and how to fix problems and improve product quality.
 ms.date: 10/28/2021
 ms.topic: conceptual
 author: anandmeg
