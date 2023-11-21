@@ -1,7 +1,7 @@
 ---
 title: Create a new project
 description: Create and configure a new project in Visual Studio by choosing a template type, the Framework version, an authentication type, and more.
-ms.date: 10/28/2022
+ms.date: 11/17/2023
 ms.topic: how-to
 f1_keywords:
 - vs.newproject
@@ -105,11 +105,11 @@ Select **Create** to create the new project.
 
 The **Configure your new project** dialog has options to name your project (and solution), select a disk location, and more.
 
-:::image type="content" source="media/vs-2022/configure-new-project.png" alt-text="Screenshot of the 'Configure your new project' dialog in Visual Studio 2022.":::
+:::image type="content" source="media/vs-2022/configure-new-project.png" alt-text="Screenshot showing the Configure your new project dialog in Visual Studio 2022 and the options to set, including the project name and project location." lightbox="media/vs-2022/configure-new-project.png":::
 
 The **Additional information** dialog includes options to select a Framework version, an authentication type, and more.
 
-:::image type="content" source="media/vs-2022/aspnet-core-additional-information-dialog.png" alt-text="Screenshot of the 'Additional Information dialog in Visual Studio 2022.":::
+:::image type="content" source="media/vs-2022/aspnet-core-additional-information-dialog.png" alt-text="Screenshot of the Additional Information dialog in Visual Studio 2022 showing the selected .NET Framework version for the new project." lightbox="media/vs-2022/aspnet-core-additional-information-dialog.png":::
 
 Select **Create** to create the new project.
 
