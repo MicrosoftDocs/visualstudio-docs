@@ -145,11 +145,24 @@ The following example is based on the ASP.NET Core Model-View-Controller project
 
    This example specifies Jest as the test framework. You could specify Mocha, Tape, or Jasmine instead.
 
+   # [Jest](#tab/jest)
+
    ```xml
    <PropertyGroup>
       ...
       <JavaScriptTestRoot>tests\</JavaScriptTestRoot>
       <JavaScriptTestFramework>Jest</JavaScriptTestFramework>
+      <GenerateProgramFile>false</GenerateProgramFile>
+   </PropertyGroup>
+   ```
+
+   # [Mocha](#tab/mocha)
+
+   ```xml
+   <PropertyGroup>
+      ...
+      <JavaScriptTestRoot>wwwroot\js\tests\</JavaScriptTestRoot>
+      <JavaScriptTestFramework>Mocha</JavaScriptTestFramework>
       <GenerateProgramFile>false</GenerateProgramFile>
    </PropertyGroup>
    ```
@@ -163,6 +176,8 @@ The following example is based on the ASP.NET Core Model-View-Controller project
    Visual Studio adds the *tsconfig.json* file to the project root. You can use this file to [configure options](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for the TypeScript compiler.
 
 1. Open *tsconfig.json* and replace the default code with the following code:
+
+   # [Jest](#tab/jest)
 
    ```json
    {
@@ -185,37 +200,51 @@ The following example is based on the ASP.NET Core Model-View-Controller project
    }
    ```
 
-   The *scripts* folder is where you can put the TypeScript code for you app. For an example project, see [Create an ASP.NET Core app with TypeScript](../javascript/tutorial-aspnet-with-typescript.md). But for this unit test example, we use a simple test that returns a pass result.
+   # [Mocha](#tab/mocha)
 
-   If you want to compile TypeScript tests to JavaScript, remove the *tests* folder from the *exclude* section.
+   ```json
+   {
+     "compileOnSave": true,
+     "compilerOptions": {
+        "noImplicitAny": false,
+        "noEmitOnError": true,
+        "removeComments": false,
+        "sourceMap": true,
+        "target": "es5",
+        "outDir": "wwwroot/js"
+     },
+     "include": [
+        "scripts/**/*",
+        "tests/**/*"
+     ],
+     "exclude": [
+        "node_modules"
+     ]
+   }
+   ```
+
+   The *scripts* folder is where you can put the TypeScript code for you app. For an example project, see [Create an ASP.NET Core app with TypeScript](../javascript/tutorial-aspnet-with-typescript.md).
+
+   For Jest, if you want to compile TypeScript tests to JavaScript, remove the *tests* folder from the *exclude* section.
 
 1. Right-click the project in Solution Explorer and choose **Add** > **New Item** (or press **Ctrl** + **SHIFT** + **A**). Use the search box to find the npm file, choose the **npm Configuration File**, use the default name, and click **Add**.
 
    A *package.json* file is added to the project root.
 
-1. In *package.json*, add the npm packages you want under dependencies.
-
-   For example, for Jest, it needs to look similar to the following:
-
-   ```json
-   "dependencies": {
-    "@types/jest": "^29.5.8",
-    "jest": "^29.7.0",
-    "jest-editor-support": "^31.1.2"
-   ```
-
-1. In Solution Explorer, right-click the npm node and choose **Install new npm packages**.
+1. In Solution Explorer, right-click the **npm** node under Dependencies and choose **Install new npm packages**.
 
    >[!NOTE]
    > In some scenarios, Solution Explorer might not show the npm node due to a known issue described [here](https://github.com/aspnet/Tooling/issues/479). If you need to see the npm node, you can unload the project (right-click the project and choose **Unload Project**) and then reload the project to make the npm node re-appear. Alternatively, you can add the package entries to *package.json* and install by building the project.
 
    Use the npm package installation dialog to install the following npm packages:
 
+   # [Jest](#tab/jest)
+
    - jest
    - jest-editor-support
    - @types/jest
 
-   These packages are added to the *package.json* file under dependencies.
+   These packages are added to the *package.json* file under devDependencies.
 
    ```typescript
     "@types/jest": "^29.5.8",
@@ -223,7 +252,25 @@ The following example is based on the ASP.NET Core Model-View-Controller project
     "jest-editor-support": "^31.1.2"
    ```
 
+   # [Mocha](#tab/mocha)
+
+   - mocha
+   - assert
+   - @types/mocha
+   - @types/node
+
+   These packages are added to the *package.json* file under devDependencies.
+
+   ```typescript
+    "@types/mocha": "^10.0.5",
+    "@types/node": "^20.9.2",
+    "assert": "^2.1.0",
+    "mocha": "^10.2.0"
+   ```
+
 1. In *package.json*, add the `test` section at the end of the `scripts` section:
+
+   # [Jest](#tab/jest)
 
    ```json
    "scripts": {
@@ -232,11 +279,23 @@ The following example is based on the ASP.NET Core Model-View-Controller project
    },
    ```
 
+   # [Mocha](#tab/mocha)
+
+   ```json
+   "scripts": {
+      ...
+      "test": "mocha"
+   },
+   ```
+
+
 1. In Solution Explorer, right-click the *test* folder and choose **Add** > **New Item**, and then add a new file named *App.test.tsx*.
 
    This adds the new file under the *test* folder.
 
 1. Add the following code to *App.test.tsx*.
+
+   # [Jest](#tab/jest)
 
    ```javascript
    describe('testAsuite', () => {
@@ -245,6 +304,19 @@ The following example is based on the ASP.NET Core Model-View-Controller project
       });
    });
    ```
+
+   # [Mocha](#tab/mocha)
+
+   ```javascript
+   var assert = require('assert');
+
+   describe('testAsuite', function () {
+      it('testA1', function () {
+         assert.equal(1, 1);
+      })
+   })
+   ```
+
 
 1. Open Test Explorer (choose **Test** > **Windows** > **Test Explorer**) and Visual Studio discovers and displays tests. If tests are not showing initially, then rebuild the project to refresh the list.
 
