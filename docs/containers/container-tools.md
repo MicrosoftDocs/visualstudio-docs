@@ -3,7 +3,7 @@ title: Visual Studio Container Tools with ASP.NET
 author: ghogen
 description: Use Visual Studio Container Tools and Docker for Windows to build and debug containerized apps and publish to a container registry, Docker Hub, or Azure App Service.
 ms.author: ghogen
-ms.date: 10/18/2023
+ms.date: 11/16/2023
 ms.technology: vs-container-tools
 ms.topic: quickstart
 ---
@@ -43,7 +43,7 @@ For Docker installation, first review the information at [Docker Desktop for Win
 
 1. On the **Create new web application** screen, make sure the **Enable Docker Support** checkbox is selected.
 
-   ![Screenshot of Enable Docker Support check box.](media/container-tools/vs-2022/web-app-additional-information-6-docker.png)
+   ![Screenshot of Enable Docker Support check box.](media/container-tools/vs-2022/web-app-additional-information-docker-linux.png)
 
    The screenshot shows the latest release with .NET 8.0. If you're using .NET Framework, the dialog looks a bit different.
 
