@@ -41,6 +41,8 @@ For information on setting up unit tests, see the following:
 - [Angular testing](https://angular.io/guide/testing)
 - [Testing Vue.js](https://vuejs.org/guide/scaling-up/testing.html#unit-testing)
 
+A simple example is also provided here. However, use the preceding links for complete information.
+
 ### Add a unit test (.esproj)
 
 The following example is based on the TypeScript React project template provided in Visual Studio 2022 version 17.8 or later, which is the **Standalone TypeScript React Project** template. For Vue and Angular, the steps are similar.
