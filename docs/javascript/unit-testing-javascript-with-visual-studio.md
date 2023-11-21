@@ -147,6 +147,8 @@ The following example is based on the ASP.NET Core Model-View-Controller project
 
    # [Jest](#tab/jest)
 
+   The `JavaScriptTestRoot` element specifies that your unit tests will be in the *tests* folder of the project root.
+
    ```xml
    <PropertyGroup>
       ...
@@ -158,6 +160,8 @@ The following example is based on the ASP.NET Core Model-View-Controller project
 
    # [Mocha](#tab/mocha)
 
+   The `JavaScriptTestRoot` element specifies the location for your unit tests. To simplify the configuration for Mocha, in this example we point the test root to the output folder, *wwwroot\js\tests\*.
+
    ```xml
    <PropertyGroup>
       ...
@@ -166,10 +170,6 @@ The following example is based on the ASP.NET Core Model-View-Controller project
       <GenerateProgramFile>false</GenerateProgramFile>
    </PropertyGroup>
    ```
-
-   For Jest, the `JavaScriptTestRoot` element specifies that your unit tests will be in the *tests* folder of the project root.
-
-   To simplify the configuration for Mocha, for this example we point the test root to the output folder, *wwwroot\js\tests\*.
 
 1. In Solution Explorer, right-click the ASP.NET Core project node and select **Add > New Item**. Choose the **TypeScript JSON Configuration File**, and then select **Add**.
 
@@ -202,6 +202,10 @@ The following example is based on the ASP.NET Core Model-View-Controller project
    }
    ```
 
+   For Jest, if you want to compile TypeScript tests to JavaScript, remove the *tests* folder from the *exclude* section.
+
+   The *scripts* folder is where you can put the TypeScript code for you app. For an example project that adds code, see [Create an ASP.NET Core app with TypeScript](../javascript/tutorial-aspnet-with-typescript.md).
+
    # [Mocha](#tab/mocha)
 
    ```json
@@ -226,8 +230,6 @@ The following example is based on the ASP.NET Core Model-View-Controller project
    ```
 
    The *scripts* folder is where you can put the TypeScript code for you app. For an example project that adds code, see [Create an ASP.NET Core app with TypeScript](../javascript/tutorial-aspnet-with-typescript.md).
-
-   For Jest, if you want to compile TypeScript tests to JavaScript, remove the *tests* folder from the *exclude* section.
 
 1. Right-click the project in Solution Explorer and choose **Add** > **New Item** (or press **Ctrl** + **SHIFT** + **A**). Use the search box to find the npm file, choose the **npm Configuration File**, use the default name, and click **Add**.
 
