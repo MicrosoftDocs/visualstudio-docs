@@ -1,7 +1,7 @@
 ---
 title: "Debug ASP.NET Core"
 description: "Debug ASP.NET Core using the Visual Studio debugger"
-ms.date: 08/06/2018
+ms.date: 11/22/2023
 ms.topic: quickstart
 helpviewer_keywords:
   - "debugger"
@@ -20,13 +20,34 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 1. Open Visual Studio.
 
-    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **asp.net**, choose **Templates**, then choose **Create new ASP.NET Core Web Application**. In the dialog box that appears, choose **Create**.
+   If the start window is not open, choose **File** > **Start Window**.
 
-    If you don't see the **ASP.NET Core Web Application** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
+1. On the start window, choose **Create a new project**.
+
+1. On the **Create a new project** window, enter or type *web app* in the search box. Next, choose **C#** from the Language list. Select the **ASP.NET Core Web App (Razor Pages)** template and follow steps to create the project.
+
+    If you don't see the **ASP.NET Core Web App (Razor Pages)** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 
     Visual Studio creates the project.
 
-1. In Solution Explorer, open About.cshtml.cs (under Pages/About.cshtml) and replace the following code. <!-- The file Pages/About.cshtml doesn't exist in the ASP.NET Web project created by VS 2022. -->
+1. In Solution Explorer, open *Privacy.cshtml* (under Pages) and replace the following code:
+
+   ```html
+   @{
+    ViewData["Title"] = "Privacy Policy";
+   }
+   ```
+
+   with this code:
+
+   ```html
+   @{
+    ViewData["Title"] = "Privacy Policy";
+    <label>@PrivacyModel.PrivacyMessage</label>
+   }
+   ```
+
+1. In Solution Explorer, open *Privacy.cshtml.cs* (under Pages/Privacy.cshtml) and replace the following code.
 
     ```csharp
     public void OnGet()
@@ -38,22 +59,25 @@ The Visual Studio debugger provides many powerful features to help you debug you
     with this code:
 
     ```csharp
+
+    public static string? PrivacyMessage { get; set; }
+
     public void OnGet()
     {
-        LinkedList<int> result = doWork();
-        Message = "Result of work: " + result.First.Value + ", " + result.First.Value;
+       LinkedList<int> result = DoWork();
+       PrivacyMessage = "Result of work: " + result.First.Value + ", " + result.First.Value;
     }
 
-    private static LinkedList<int> doWork()
+    private static LinkedList<int> DoWork()
     {
-        LinkedList<int> c1 = new LinkedList<int>();
+       LinkedList<int> c1 = new();
 
-        c1.AddLast(10);
-        c1.AddLast(20);
+       c1.AddLast(10);
+       c1.AddLast(20);
 
-        LinkedList<int> c2 = new LinkedList<int>(c1);
+       LinkedList<int> c2 = new(c1);
 
-        return c2;
+       return c2;
 
     }
     ```
@@ -62,7 +86,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 A *breakpoint* is a marker that indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run. It's the most basic feature in debugging.
 
-1. To set the breakpoint, click in the gutter to the left of the `doWork` function (or select the line of code and press **F9**).
+1. To set the breakpoint, click in the gutter to the left of the `DoWork` function (or select the line of code and press **F9**).
 
     ![Set a breakpoint](../debugger/media/dbg-qs-set-breakpoint-aspnet.png)
 
@@ -70,9 +94,9 @@ A *breakpoint* is a marker that indicates where Visual Studio should suspend you
 
 1. Now press **F5** (or choose **Debug > Start Debugging**).
 
-1. When the web page loads, select the **About** link at the top of the web page.
+1. When the web page loads, select the **Privacy** link at the top of the web page.
 
-    The debugger pauses where you set the breakpoint. A yellow arrow identifies the statement where the debugger and app execution is paused. The line with the opening brace (`{`) after the `doWork` function declaration hasn't yet executed.
+    The debugger pauses where you set the breakpoint. A yellow arrow identifies the statement where the debugger and app execution is paused. The line with the opening brace (`{`) after the `DoWork` function declaration hasn't yet executed.
 
     ![Hit a breakpoint](../debugger/media/dbg-qs-hit-breakpoint-aspnet.png)
 
