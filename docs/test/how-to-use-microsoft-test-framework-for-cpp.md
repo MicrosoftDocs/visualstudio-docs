@@ -1,6 +1,6 @@
 ---
 title: Use the Microsoft Unit Testing Framework for C++
-description: Use the Microsoft Unit Testing Framework for C++ to create unit tests for your C++ code.
+description: Explore the Microsoft Unit Testing Framework for C++ to write and run unit tests for your C++ code and define traits to enable grouping.
 ms.date: 02/16/2021
 ms.topic: how-to
 ms.author: twhitney
