@@ -1,6 +1,6 @@
 ---
 title: Symbols for mixed-mode Python/C++ debugging
-description: How Visual Studio provides the ability to load symbols for complete mixed-mode C++ and Python debugging.
+description: Explore how Visual Studio provides the ability to load symbols to support complete mixed-mode debugging for C++ and Python.
 ms.date: 08/18/2023
 ms.topic: how-to
 author: cwebster-99

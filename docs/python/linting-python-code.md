@@ -1,6 +1,6 @@
 ---
 title: Lint Python Code
-description: Run a linter in Visual Studio to check issues in Python code, including command-line options to customize linting.
+description: Run a linter in Visual Studio to check issues in Python code, and explore command-line options to customize the linting process.
 ms.date: 08/11/2023
 ms.topic: how-to
 author: cwebster-99
