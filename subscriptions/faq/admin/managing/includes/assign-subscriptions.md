@@ -18,7 +18,7 @@ To assign subscriptions individually:
 
 1. Select the [Manage Subscribers tab](https://manage.visualstudio.com/subscribers) at the top of the page on [manage.visualstudio.com](https://manage.visualstudio.com)
 2. Select Add and type the name and email address of the user you'd like to assign a subscription to.
-    1. If your organization is using Entra ID, the name field searches to find people in your current directory. You can select from the search results, or add someone manually.
+    1. If your organization is using Microsoft Entra ID, the name field searches to find people in your current directory. You can select from the search results, or add someone manually.
 3. If you want the subscriber to have access to software downloads when they sign into the [Visual Studio Subscriptions Portal](https://my.visualstudio.com/), make sure to leave the downloads toggle enabled in the Download settings section.
 4. Complete the Communication Preferences section so that we know what language to send your subscribers assignment email in.
 5. If you'd like to add any notes associated with the assignment, use the Reference selection.

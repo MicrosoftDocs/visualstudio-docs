@@ -1,6 +1,6 @@
 ---
 title: 'Sample XSD File: Simple Schema'
-description: View the sample XSD file for a simple purchase order schema that is used in various examples in the XSD Schema Designer documentation.
+description: Review the sample XSD file for a simple purchase order schema used in several examples in the XSD Schema Designer documentation.
 ms.date: 11/04/2016
 ms.topic: sample
 author: dzsquared

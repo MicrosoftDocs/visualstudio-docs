@@ -29,7 +29,7 @@ Watch this video or read on to learn how to delete assignments.
    > ![Delete subscribers](_img/delete-license/delete-subscribers.png "Screenshot of manage subscribers page in the admin portal.  The Delete menu option is highlighted.")
 
    > [!NOTE]
-   > If you added subscription assignments through Microsoft Entra ID groups, it may take up to 24 hours for the deletion to be updated in the admin portal. For more information about using Entra ID groups to manage subscriptions, see [this topic](assign-license-bulk.md#use-entra-id-groups-to-assign-subscriptions) in the **Add multiple users** article. 
+   > If you added subscription assignments through Microsoft Entra groups, it may take up to 24 hours for the deletion to be updated in the admin portal. For more information about using Microsoft Entra groups to manage subscriptions, see [this topic](assign-license-bulk.md#use-entra-id-groups-to-assign-subscriptions) in the **Add multiple users** article. 
 
 ## Delete larger numbers of subscriptions
 
