@@ -41,7 +41,7 @@ You can open code into Visual Studio in the following ways:
 - Open code from a cloned GitHub repo.
 
 ### To open multiple folders
-Opening multiple folders is especially useful in code repos with lots of unrelated code, and a developer only needs a subset to do some work.
+Starting in Visual Studio 2022 version 17.9 Preview 1, you can specify multiple folders to open in Visual Studio. Opening multiple folders is especially useful in code repos with lots of unrelated code, and a developer only needs a subset to do some work.
 - On the Visual Studio menu bar, choose **File** > **Open** > **Workspace**, and then browse to the `.code-workspace` file location.
 - The `.code-workspace` file itself is expected to be a .JSON schema, which looks like the following:
 
