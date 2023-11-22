@@ -29,4 +29,3 @@ To learn more about the FIPS 140-2 approved mode of operation for Visual Studio 
 - [Visual Studio: Set up FIPS-compliant secure remote Linux development with C++](/cpp/linux/set-up-fips-compliant-secure-remote-linux-development/)
 - [Windows: System cryptography and using FIPS-compliant algorithms for encryption, hashing, and signing](/windows/security/threat-protection/security-policy-settings/system-cryptography-use-fips-compliant-algorithms-for-encryption-hashing-and-signing)
 - [.NET Core: FIPS compliance](/dotnet/standard/security/fips-compliance/)
-- [Secure applications](securing-applications.md)
