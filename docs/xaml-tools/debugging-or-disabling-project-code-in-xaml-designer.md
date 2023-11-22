@@ -1,6 +1,6 @@
 ---
 title: Debug or disable project code in XAML Designer
-description: Learn how to debug or disable project code in the XAML Designer, including how to debug running project code in another instance of Visual Studio.
+description: Debug or disable project code in the XAML Designer, including how to debug running project code in another instance of Visual Studio.
 ms.date: 12/17/2021
 ms.topic: how-to
 author: maddymontaquila

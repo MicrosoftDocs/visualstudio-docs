@@ -1,6 +1,6 @@
 ---
 title: XML editor
-description: Learn about the XML editor in Visual Studio that is based on the text editor and includes additional support for the XML languages.
+description: Use the XML editor in Visual Studio, which is based on the text editor and supports syntax checking, schema validation, and other features for XML languages. 
 ms.date: 11/04/2016
 ms.topic: overview
 author: dzsquared

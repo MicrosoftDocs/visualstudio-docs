@@ -25,9 +25,11 @@ First, be sure to upload the subscribers to the correct agreement, and then dele
 2. After you find the subscribers to remove, select the check box beside the users. There's no limit to the number of users you can select at a time. You can also select the first user in a list that you want to remove, then select Shift, and then select the last user in the list. These steps select all the users in the list. You can also select the check icon at the top of the list to select all users. 
 3. Select **Delete** at the top of the grid, and then confirm deletion.
 
-## Microsoft Entra ID group
+<a name='microsoft-entra-id-group'></a>
 
-If the users were added through an Entra ID group, you need to remove the users from the Entra ID group directly. After the users are removed from the group, it can take up to 24 hours for the deletion to be visible in the admin portal. 
+## Microsoft Entra group
+
+If the users were added through a Microsoft Entra group, you need to remove the users from the Microsoft Entra group directly. After the users are removed from the group, it can take up to 24 hours for the deletion to be visible in the admin portal. 
 
 ## Effects of moving subscriptions
 
