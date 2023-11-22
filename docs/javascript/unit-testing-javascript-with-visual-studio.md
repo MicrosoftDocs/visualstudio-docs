@@ -127,7 +127,7 @@ To add support for unit testing of JavaScript and TypeScript in an ASP.NET Core 
 
 The following example is based on the ASP.NET Core Model-View-Controller project template, and includes adding a Jest or Mocha unit test.
 
-1. Create an ASP.NET Core Model-View-Controller project and add TypeScript support.
+1. Create an ASP.NET Core Model-View-Controller project.
 
    For an example project, see [Create an ASP.NET Core app with TypeScript](../javascript/tutorial-aspnet-with-typescript.md). For unit testing support, we recommend you start with a standard ASP.NET Core project template.
 
