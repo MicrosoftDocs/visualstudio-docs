@@ -96,7 +96,7 @@ The following example is based on the TypeScript React project template provided
 
 1. Open Test Explorer (choose **Test** > **Test Explorer**) and Visual Studio discovers and displays tests. If tests are not showing initially, then rebuild the project to refresh the list.
 
-   ![Screenshot of Test Explorer test discovery (.esproj)](../javascript/media/vs-2022/unit-tests-esproj-discovery.png)
+   ![Screenshot of Test Explorer test discovery (.esproj).](../javascript/media/vs-2022/unit-tests-esproj-discovery.png)
 
    > [!NOTE]
    > For TypeScript, do not use the `outfile` option in *tsconfig.json*, because Test Explorer won't be able to find your unit tests. You can use the `outdir` option, but make sure that configuration files such as `package.json` and `tsconfig.json` are in the project root.
@@ -107,7 +107,7 @@ You can run the tests by clicking the **Run All** link in Test Explorer. Or, you
 
 The following illustration shows the example with a second unit test added.
 
-![Screenshot of Test Explorer results (.esproj)](../javascript/media/vs-2022/unit-tests-esproj-run.png)
+![Screenshot of Test Explorer results (.esproj).](../javascript/media/vs-2022/unit-tests-esproj-run.png)
 
 For some unit test frameworks, unit tests are typically run against the generated JavaScript code.
 
@@ -326,7 +326,7 @@ The following example is based on the ASP.NET Core Model-View-Controller project
 
 1. Open Test Explorer (choose **Test** > **Windows** > **Test Explorer**) and Visual Studio discovers and displays tests. If tests are not showing initially, then rebuild the project to refresh the list. The following illustration shows the Jest example, with two different unit test files.
 
-   ![Screenshot of Test Explorer test discovery (ASP.NET Core)](../javascript/media/vs-2022/unit-tests-asp-dotnet-discovery.png)
+   ![Screenshot of Test Explorer test discovery (ASP.NET Core).](../javascript/media/vs-2022/unit-tests-asp-dotnet-discovery.png)
 
    > [!NOTE]
    > For TypeScript, do not use the `outfile` option in *tsconfig.json*, because Test Explorer won't be able to find your unit tests. You can use the `outdir` option, but make sure that configuration files such as `package.json` and `tsconfig.json` are in the project root.
@@ -337,7 +337,7 @@ You can run the tests by clicking the **Run All** link in Test Explorer. Or, you
 
 The following illustration shows the Jest example, with a second unit test added.
 
-![Screenshot of Test Explorer results (ASP.NET Core)](../javascript/media/vs-2022/unit-tests-asp-dotnet-run.png)
+![Screenshot of Test Explorer results (ASP.NET Core).](../javascript/media/vs-2022/unit-tests-asp-dotnet-run.png)
 
 For some unit test frameworks, unit tests are typically run against the generated JavaScript code.
 
