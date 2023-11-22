@@ -52,7 +52,6 @@ The Visual Studio debugger provides many powerful features to help you debug you
     ```csharp
     public void OnGet()
     {
-        Message = "Your application description page.";
     }
     ```
 
