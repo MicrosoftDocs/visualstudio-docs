@@ -6,7 +6,7 @@ summary: An integrated development environment (IDE) is a feature-rich applicati
 metadata:
   title: Visual Studio IDE documentation
   titleSuffix: ""
-  description: Navigate to different pages that help you learn how to use the Visual Studio interactive development environment.
+  description: Explore documentation about the features of the Visual Studio integrated development environment (IDE) that make it easy to edit, debug, build, and publish your app.
   ms.prod: visual-studio-windows
   ms.technology: vs-ide-general
   ms.topic: landing-page
