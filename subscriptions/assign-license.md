@@ -16,7 +16,7 @@ As a Visual Studio subscriptions admin, you can use the admin portal to assign s
 For groups of users, you have choices for how you assign subscriptions.  
 + You can assign subscriptions one at a time.
 + You can also quickly and easily upload lists of subscribers and their subscription information using the [Bulk add](assign-license-bulk.md) feature.
-+ If your organization uses Microsoft Entra ID (Entra ID), you can [use Entra ID groups to assign subscriptions](./assign-license-bulk.md#use-entra-id-groups-to-assign-subscriptions) to groups of users.  
++ If your organization uses Microsoft Entra ID, you can [use Microsoft Entra groups to assign subscriptions](./assign-license-bulk.md#use-entra-id-groups-to-assign-subscriptions) to groups of users.  
 
 
 ## Add a single subscriber
@@ -32,7 +32,7 @@ Watch the video or read on to learn how to assign a Visual Studio subscription t
    > [!div class="mx-imgBorder"]
    > ![Add a single subscriber](_img/assign-license-add/add-subscriber-individual.png "Screenshot of the subscriber list in the manage portal. Individual subscriber in the add menu is highlighted.")
 3. A fly-out panel appears.  Enter the information into the form fields for the new subscriber. 
-   + If your organization is using Entra ID, typing the name of the subscriber in the **Search Entra ID** box returns the names of any Entra ID group members matching your criteria.  After you select that person, sign-in email and notification email will automatically populate.  
+   + If your organization is using Microsoft Entra ID, typing the name of the subscriber in the **Search Microsoft Entra ID** box returns the names of any Microsoft Entra group members matching your criteria.  After you select that person, sign-in email and notification email will automatically populate.  
    + If the subscriber wasn't found in your organization, you can enter the subscriber's name in the **Name** field.  
    + Enter the email address you want your subscriber to use to sign in.  You can also select the **Add a different notification email for receiving communication** link and specify a different notification email address so subscribers and admins receive important subscription-related emails from Microsoft.
       > [!div class="mx-imgBorder"]

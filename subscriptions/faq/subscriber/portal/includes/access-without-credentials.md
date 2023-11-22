@@ -12,4 +12,4 @@ ms.faqid: q1_2
 
 ## How do I access the My Visual Studio Subscribers Portal without knowing my sign-in credentials associated with my work email?
 
-If you're not sure what your work email or Entra ID credentials are, you should reach out to your network administrator. For privacy reasons, Microsoft is unable to provide information about credentials.  
+If you're not sure what your work email or Microsoft Entra credentials are, you should reach out to your network administrator. For privacy reasons, Microsoft is unable to provide information about credentials.  
