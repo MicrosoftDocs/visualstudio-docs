@@ -88,7 +88,7 @@ A *breakpoint* is a marker that indicates where Visual Studio should suspend you
 
 1. To set the breakpoint, click in the gutter to the left of the `DoWork` function (or select the line of code and press **F9**).
 
-    ![Set a breakpoint](../debugger/media/dbg-qs-set-breakpoint-aspnet.png)
+    ![Set a breakpoint](../debugger/media/debug-quickstart-set-breakpoint-aspnet.png)
 
     The breakpoint is set to the left of the opening brace (`{`).
 
@@ -98,7 +98,7 @@ A *breakpoint* is a marker that indicates where Visual Studio should suspend you
 
     The debugger pauses where you set the breakpoint. A yellow arrow identifies the statement where the debugger and app execution is paused. The line with the opening brace (`{`) after the `DoWork` function declaration hasn't yet executed.
 
-    ![Hit a breakpoint](../debugger/media/dbg-qs-hit-breakpoint-aspnet.png)
+    ![Hit a breakpoint](../debugger/media/debug-quickstart-hit-breakpoint-aspnet.png)
 
     > [!TIP]
     > If you have a breakpoint in a loop or recursion, or if you have many breakpoints that you frequently step through, use a [conditional breakpoint](../debugger/using-breakpoints.md#BKMK_Specify_a_breakpoint_condition_using_a_code_expression) to make sure that your code is suspended ONLY when specific conditions are met. This saves time and can also make it easier to debug issues that are hard to reproduce.
@@ -109,7 +109,7 @@ There are different commands to instruct the debugger to continue. We show a use
 
 While the code is paused at the breakpoint, hover over the statement `return c2` until the green **Run to click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png) appears, and then press the **Run to click** button.
 
-![Run to click](../debugger/media/dbg-qs-run-to-click-aspnet.png)
+![Run to click](../debugger/media/debug-quickstart-run-to-click-aspnet.png)
 
 The app continues execution, and pauses on the line of code where you clicked the button.
 
@@ -119,27 +119,13 @@ Common keyboard commands used to step through code include **F10** and **F11**. 
 
 1. In the current line of code (marked by the yellow execution pointer), hover over the `c2` object with your mouse to show a datatip.
 
-    ![View a datatip](../debugger/media/dbg-qs-data-tip-aspnet.png)
+    ![View a datatip](../debugger/media/debug-quickstart-data-tip-aspnet.png)
 
     The datatip shows you the current value of the `c2` variable and allows you to inspect its properties. When debugging, if you see a value you don't expect, you probably have a bug in the preceding or calling lines of code.
 
 2. Expand the datatip to look at the current property values of the `c2` object.
 
 3. If you want to pin the datatip so that you can continue to see the value of `c2` while you execute code, select the small pin icon. (You can move the pinned datatip to a convenient location.)
-
-## Edit code and continue debugging
-
-If you identify a change that you want to test in your code while in the middle of a debugging session, you can do that, too.
-
-1. In the `OnGet` method, select the second instance of `result.First.Value` and change `result.First.Value` to `result.Last.Value`.
-
-1. Press **F10** (or **Debug > Step Over**) a few times to advance the debugger and execute the edited code.
-
-    ![Edit and continue](../debugger/media/dbg-qs-edit-and-continue-aspnet.png "Edit and continue")
-
-    **F10** advances the debugger one statement at a time, but steps over functions instead of stepping into them (the code that you skip still executes).
-
-For more information on using edit-and-continue and on feature limitations, see [Edit and Continue](../debugger/edit-and-continue.md).
 
 ## Next steps
 
