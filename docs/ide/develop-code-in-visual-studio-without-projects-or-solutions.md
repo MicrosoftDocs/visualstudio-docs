@@ -1,7 +1,7 @@
 ---
 title: Develop code without projects or solutions
 description: Learn how to develop code directly in Visual Studio without a need for projects or solutions.
-ms.date: 04/29/2022
+ms.date: 11/7/2023
 ms.topic: how-to
 helpviewer_keywords:
 - open folder [Visual Studio]
@@ -39,6 +39,33 @@ You can open code into Visual Studio in the following ways:
 - If you are a keyboard user, press **Ctrl**+**Shift**+**Alt**+**O** in Visual Studio.
 
 - Open code from a cloned GitHub repo.
+
+### To open multiple folders
+Starting in Visual Studio 2022 version 17.9 Preview 1, you can specify multiple folders to open in Visual Studio. Opening multiple folders is especially useful in code repos with lots of unrelated code, and a developer only needs a subset to do some work.
+- On the Visual Studio menu bar, choose **File** > **Open** > **Workspace**, and then browse to the `.code-workspace` file location.
+- The `.code-workspace` file itself is expected to be a .JSON schema, which looks like the following:
+
+```json
+{
+    "folders" : [
+        {
+            "path" : "some\\child\\foo",
+            "name" : "The Foo"
+        },
+        {
+            "path" : "..\\..\\some\\unrelated\\bar"
+        },
+        {
+            "path" : "C:\\a\\full\\path\\baz"
+        },
+        {
+            "path" : "${env.ANY_ENV_VARIABLE}\\foobar"
+        }
+    ]
+}
+```
+
+Each `"path"` value can be any relative path or rooted path. Rooted paths must be on the same drive letter. Environment variables can be used with the syntax `${env.ANY_ENV_VARIABLE}`. The `"name"` property can be used to create a visual alias for the folder in the Solution Explorer.
 
 ### To open code from a cloned GitHub repo
 
