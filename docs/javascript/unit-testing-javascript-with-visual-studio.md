@@ -96,7 +96,7 @@ The following example is based on the TypeScript React project template provided
 
 1. Open Test Explorer (choose **Test** > **Test Explorer**) and Visual Studio discovers and displays tests. If tests are not showing initially, then rebuild the project to refresh the list.
 
-   ![Test Explorer test discovery (.esproj)](../javascript/media/vs-2022/unit-tests-esproj-discovery.png)
+   ![Screenshot of Test Explorer test discovery (.esproj)](../javascript/media/vs-2022/unit-tests-esproj-discovery.png)
 
    > [!NOTE]
    > For TypeScript, do not use the `outfile` option in *tsconfig.json*, because Test Explorer won't be able to find your unit tests. You can use the `outdir` option, but make sure that configuration files such as `package.json` and `tsconfig.json` are in the project root.
@@ -105,9 +105,11 @@ The following example is based on the TypeScript React project template provided
 
 You can run the tests by clicking the **Run All** link in Test Explorer. Or, you can run tests by selecting one or more tests or groups, right-clicking, and selecting **Run** from the shortcut menu. Tests run in the background, and Test Explorer automatically updates and shows the results. Furthermore, you can also debug selected tests by right-clicking and selecting **Debug**.
 
-For TypeScript, unit tests are run against the generated JavaScript code.
+The following illustration shows the example with a second unit test added.
 
-![Test Explorer results (.esproj)](../javascript/media/vs-2022/unit-tests-esproj-run.png)
+![Screenshot of Test Explorer results (.esproj)](../javascript/media/vs-2022/unit-tests-esproj-run.png)
+
+For some unit test frameworks, unit tests are typically run against the generated JavaScript code.
 
 > [!NOTE]
 > In most TypeScript scenarios, you can debug a unit test by setting a breakpoint in TypeScript code, right-clicking a test in Test Explorer, and choosing **Debug**. In more complex scenarios, such as some scenarios that use source maps, you may have difficulty hitting breakpoints in TypeScript code. As a workaround, try using the `debugger` keyword.
@@ -206,7 +208,7 @@ The following example is based on the ASP.NET Core Model-View-Controller project
 
    For Jest, if you want to compile TypeScript tests to JavaScript, remove the *tests* folder from the *exclude* section.
 
-   The *scripts* folder is where you can put the TypeScript code for you app. For an example project that adds code, see [Create an ASP.NET Core app with TypeScript](../javascript/tutorial-aspnet-with-typescript.md).
+   The *scripts* folder is where you can put the TypeScript code for your app. For an example project that adds code, see [Create an ASP.NET Core app with TypeScript](../javascript/tutorial-aspnet-with-typescript.md).
 
    # [Mocha](#tab/mocha)
 
@@ -231,7 +233,7 @@ The following example is based on the ASP.NET Core Model-View-Controller project
    }
    ```
 
-   The *scripts* folder is where you can put the TypeScript code for you app. For an example project that adds code, see [Create an ASP.NET Core app with TypeScript](../javascript/tutorial-aspnet-with-typescript.md).
+   The *scripts* folder is where you can put the TypeScript code for your app. For an example project that adds code, see [Create an ASP.NET Core app with TypeScript](../javascript/tutorial-aspnet-with-typescript.md).
 
 1. Right-click the project in Solution Explorer and choose **Add** > **New Item** (or press **Ctrl** + **SHIFT** + **A**). Use the search box to find the npm file, choose the **npm Configuration File**, use the default name, and click **Add**.
 
@@ -324,7 +326,7 @@ The following example is based on the ASP.NET Core Model-View-Controller project
 
 1. Open Test Explorer (choose **Test** > **Windows** > **Test Explorer**) and Visual Studio discovers and displays tests. If tests are not showing initially, then rebuild the project to refresh the list. The following illustration shows the Jest example, with two different unit test files.
 
-   ![Test Explorer test discovery (ASP.NET Core)](../javascript/media/vs-2022/unit-tests-asp-dotnet-discovery.png)
+   ![Screenshot of Test Explorer test discovery (ASP.NET Core)](../javascript/media/vs-2022/unit-tests-asp-dotnet-discovery.png)
 
    > [!NOTE]
    > For TypeScript, do not use the `outfile` option in *tsconfig.json*, because Test Explorer won't be able to find your unit tests. You can use the `outdir` option, but make sure that configuration files such as `package.json` and `tsconfig.json` are in the project root.
@@ -333,9 +335,11 @@ The following example is based on the ASP.NET Core Model-View-Controller project
 
 You can run the tests by clicking the **Run All** link in Test Explorer. Or, you can run tests by selecting one or more tests or groups, right-clicking, and selecting **Run** from the shortcut menu. Tests run in the background, and Test Explorer automatically updates and shows the results. Furthermore, you can also debug selected tests by right-clicking and selecting **Debug**.
 
-For TypeScript, unit tests are typically run against the generated JavaScript code. The following illustration shows the Jest example, with two different unit test files.
+The following illustration shows the Jest example, with a second unit test added.
 
-![Test Explorer results (ASP.NET Core)](../javascript/media/vs-2022/unit-tests-asp-dotnet-run.png)
+![Screenshot of Test Explorer results (ASP.NET Core)](../javascript/media/vs-2022/unit-tests-asp-dotnet-run.png)
+
+For some unit test frameworks, unit tests are typically run against the generated JavaScript code.
 
 > [!NOTE]
 > In most TypeScript scenarios, you can debug a unit test by setting a breakpoint in TypeScript code, right-clicking a test in Test Explorer, and choosing **Debug**. In more complex scenarios, such as some scenarios that use source maps, you may have difficulty hitting breakpoints in TypeScript code. As a workaround, try using the `debugger` keyword.
