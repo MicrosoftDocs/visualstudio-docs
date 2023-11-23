@@ -1,7 +1,7 @@
 ---
 title: "Remote Debug ASP.NET Core on a Remote IIS Computer"
 description: Debug an ASP.NET Core application that has been deployed to a remote Internet Information Services (IIS) computer using the Visual Studio remote debugger.
-ms.date: 10/23/2023
+ms.date: 11/21/2023
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -23,6 +23,7 @@ This guide explains how to set up and configure a Visual Studio ASP.NET Core, de
 Visual Studio 2019 or a later version is required to follow the steps shown in this article.
 
 These procedures have been tested on these server configurations:
+
 * Windows Server 2022 and IIS 10
 * Windows Server 2019 and IIS 10
 * Windows Server 2016 and IIS 10
@@ -47,8 +48,9 @@ This article includes steps on setting up a basic configuration of IIS on Window
 
    Choose either the recommended target framework or .NET 8, and then choose **Create**.
 
-1. Open the About.cshtml.cs file and set a breakpoint in the `OnGet` method (in older templates, open HomeController.cs instead and set the breakpoint in the `About()` method).
-<!-- Not able to locate the About.cshtml.cs file in the ASP.NET project created by VS 2022. -->
+1. Open the *HomeController.cs* file in the Controllers folder and set a breakpoint in the `return View;` statement in the `Privacy` method.
+
+   In older templates, open the *Privacy.cshtml.cs* file and set a breakpoint in the `OnGet` method.
 
 ## <a name="bkmk_configureIIS"></a> Install and Configure IIS on Windows Server
 
@@ -227,7 +229,7 @@ For information on running the remote debugger as a service, see [Run the remote
 
    You should see the ASP.NET web page.
 
-1. In the running ASP.NET application, select the link to the **About** page.
+1. In the running ASP.NET application, select the link to the **Privacy** page.
 
    The breakpoint should be hit in Visual Studio.
 
