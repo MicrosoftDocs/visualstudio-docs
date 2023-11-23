@@ -1,7 +1,7 @@
 ---
 title: "Remote Debug ASP.NET Core on IIS and an Azure VM"
 description: Learn how to set up and configure a Visual Studio ASP.NET Core app, deploy it to IIS using an Azure VM, and attach the remote debugger from Visual Studio. 
-ms.date: 10/24/2023
+ms.date: 11/21/2023
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -59,8 +59,9 @@ This article includes steps on setting up a basic configuration of IIS on Window
 
    Choose either the recommended target framework or .NET 8, and then choose **Create**.
 
-1. Open the About.cshtml.cs file and set a breakpoint in the `OnGet` method (in older templates, open HomeController.cs instead and set the breakpoint in the `About()` method).
-<!-- Not able to locate the About.cshtml.cs file in the ASP.NET project created by VS 2022. -->
+1. Open the *HomeController.cs* file in the Controllers folder and set a breakpoint in the `return View;` statement in the `Privacy` method.
+
+   In older templates, open the *Privacy.cshtml.cs* file and set a breakpoint in the `OnGet` method.
 
 ## Update browser security settings on Windows Server
 
@@ -226,7 +227,7 @@ Download the version of the remote tools that matches your version of Visual Stu
 8. Open the remote computer's website. In a browser, go to **http://\<remote computer name>**.
 
     You should see the ASP.NET web page.
-9. In the running ASP.NET application, select the link to the **About** page.
+9. In the running ASP.NET application, select the link to the **Privacy** page.
 
     The breakpoint should be hit in Visual Studio.
 
