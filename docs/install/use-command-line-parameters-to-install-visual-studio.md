@@ -2,7 +2,7 @@
 title: Use command-line parameters to install Visual Studio
 titleSuffix: ''
 description: Learn how to use command-line parameters to control or customize your Visual Studio installation.
-ms.date: 8/8/2023
+ms.date: 10/27/2023
 ms.topic: conceptual
 f1_keywords:
 - command-line parameters
@@ -116,6 +116,7 @@ Syntax example: `vs_enterprise.exe [command] <optional parameters>...`
 | `--productKey`                                     | **Optional**: During an install command, this parameter defines the product key to use for an installed product. It's composed of 25 alphanumeric characters in the format `xxxxxxxxxxxxxxxxxxxxxxxxx`.  |
 | `--removeOos true`                                 | **Optional**: During an install, update, or modify command, this parameter (which must have the word true or false immediately after it) tells the Visual Studio installer to remove (or don't remove) all installed components that have transitioned to an out-of-support state. This behavior is applicable for a single event. If you want to make this behavior persistent, apply this parameter to the modifySettings command which is described below, or [configure the removeOOS global policy](configure-policies-for-enterprise-deployments.md). Useful for helping to keep the machine secure.  |
 | `--config <path>`                                  | **Optional**: During an install or modify operation, this determines the workloads and components to add based on a previously saved installation configuration file. This operation is additive and it won't remove any workload or component if they aren't present in the file. Also, items that don't apply to the product won't be added. During an export operation, this determines the location to save the installation configuration file.  |
+| `--installerOnly`                                 | **Optional**: During an install or update operation, this parameter tells the Visual Studio installer to install just itself (the installer). It's functionality equivalent to the --update paramter, but more intuitive. Meant to be used when prepping and pre-configuring client machines  |
 | `--help, --?, -h, -?`                              | Displays an offline version of this page.     |
 
 ## Layout command and command-line parameters
