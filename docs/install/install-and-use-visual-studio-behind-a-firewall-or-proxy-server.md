@@ -1,7 +1,7 @@
 ---
 title: Install and use behind a firewall or proxy server
 description: Review the domain URLs, ports, and protocols that you might want to add to an allowlist or open if your organization uses a firewall or a proxy server
-ms.date: 10/10/2023
+ms.date: 11/27/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - network installation, Visual Studio
@@ -64,6 +64,7 @@ Because the Visual Studio Installer downloads files from various domains and the
 | archive.apache.org                | Mobile development with JavaScript (Cordova)                                                                                                |
 | cocos2d-x.org                     | Game development with C++ (Cocos)                                                                                                           |
 | download.epicgames.com            | Game development with C++ (Unreal Engine)                                                                                                   |
+| launcher-public-service-prod06.ol.epicgames.com | Game development with C++ (Unreal Engine)                                                                                     |
 | download.oracle.com               | Mobile development with JavaScript (Java SDK) <br /><br />Mobile Development with .NET (Java SDK)                                           |
 | public-cdn.cloud.unity3d.com      | Game development with Unity (Unity)                                                                                                         |
 | download.unity3d.com              | Game development with Unity (Unity)                                                                                                         |
@@ -79,6 +80,9 @@ Because the Visual Studio Installer downloads files from various domains and the
 | idmsa.apple.com                   | Xamarin.iOS provisioning                                                                                                                    |
 | akamaized.net                     | Content Delivery Network (Akamai Technologies)                                                                                              |
 | developer.arm.com                 | ARM Development                                                                                                                             |
+| objects.githubusercontent.com     | Windows build tools                                                                                                                         |
+| github.com                        | Windows build tools                                                                                                                         |
+
 
 ## Use Visual Studio and Azure Services
 
