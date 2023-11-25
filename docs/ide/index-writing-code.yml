@@ -22,7 +22,7 @@ landingContent:
   # Card
   - title: Open or create a project
     linkLists:
-      - linkListType: tutorial
+      - linkListType: tutorial.
         links:
           - text: Create a new project
             url: create-new-project.md
