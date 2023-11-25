@@ -1,5 +1,5 @@
 ---
-ms.date: 01/31/2023
+ms.date: 11/17/2023
 ms.technology: vs-ide-general
 ms.custom: vs-get-started
 author: anandmeg
@@ -265,7 +265,7 @@ Dive in and create a simple program.
 
 1. Enter your name in the console window and press **Enter**.
 
-   ![Screenshot of the Microsoft Visual Studio Debug Console window showing the prompt for a name, the input, and the output 'Hello Georgette!'.](../media/vs-2019/overview-console-input.png)
+   :::image type="content" source="../media/vs-2019/overview-console-input.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output Hello Georgette!." lightbox="../media/vs-2019/overview-console-input.png" border="false":::
 
 1. Press any key to close the console window and stop the running program.
 
@@ -290,9 +290,9 @@ Dive in and create a simple program.
 
    ![Screenshot of the Configure your new project window with the project name HelloWorld entered.](../media/vs-2022/configure-new-project.png)
 
-1. In the **Additional information** window, verify that **.NET 6.0** appears in the **Target Framework** drop-down menu, and then select **Create**.
+1. In the **Additional information** window, verify that **.NET 8.0** appears in the **Target Framework** drop-down menu, and then select **Create**.
 
-   ![Screenshot of the Additional information window with .NET 6.0 selected.](../media/vs-2022/create-project-additional-info.png)
+   :::image type="content" source="../media/vs-2022/create-project-additional-info.png" alt-text="Screenshot of the Additional information dialog showing .NET 8.0 selected as the target framework for the new project in Visual Studio." lightbox="../media/vs-2022/create-project-additional-info.png" border="false":::
 
    Visual Studio creates the project. The program is a simple "Hello World" application that calls the <xref:System.Console.WriteLine?displayProperty=nameWithType> method to display the string **Hello, World!** in a console window.
 
@@ -339,7 +339,7 @@ Dive in and create a simple program.
 
 1. Type your name in the console window and press **Enter**.
 
-   ![Screenshot of the Debug Console window showing the prompt for a name, the input, and the output Hello Georgette!.](../media/vs-2022/overview-console-input.png)
+   :::image type="content" source="../media/vs-2022/overview-console-input.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output Hello Georgette!." lightbox="../media/vs-2022/overview-console-input.png" border="false":::
 
 1. Press any key to close the console window and stop the running program.
 
@@ -408,10 +408,10 @@ First, rename the `name` variable:
 1. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
 
    ::: moniker range="<=vs-2019"
-   ![Screenshot of the Debug Console window showing the prompt for a name, the input, and the output 'Hello Georgette! Day of year: 43'.](../media/vs-2019/overview-console-final.png)
+   :::image type="content" source="../media/vs-2019/overview-console-final.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output 'Hello Georgette! Day of year: 43'." lightbox="../media/vs-2019/overview-console-final.png" border="false":::
    ::: moniker-end
    ::: moniker range=">=vs-2022"
-   ![Screenshot of the Debug Console window showing the prompt for a name, the input, and the output 'Hello Georgette! Day of year: 244'.](../media/vs-2022/overview-console-final.png)
+   :::image type="content" source="../media/vs-2022/overview-console-final.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output 'Hello Georgette! Day of year: 244'." lightbox="../media/vs-2022/overview-console-final.png" border="false":::
    ::: moniker-end
 
 ## Debug code

@@ -1,13 +1,13 @@
 ---
-title: How to customize Docker containers in Visual Studio
+title: Customize Docker containers in Visual Studio
 author: ghogen
-description: Information about the Visual Studio build process for containers, called fast mode, which is necessary to understand how to modify the Dockerfile to customize your container images for both debug and production builds.
+description: Explore Visual Studio fast mode, and modify the Dockerfile to customize your container images for both debug and production builds.
 ms.author: ghogen
 ms.date: 09/8/2023
 ms.technology: vs-container-tools
 ms.topic: how-to
 ---
-# How to customize Docker containers in Visual Studio
+# Customize Docker containers in Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
@@ -74,17 +74,17 @@ docker build -f Dockerfile ..
 
 ### MSBuild
 
-Dockerfiles created by Visual Studio for .NET Framework projects (and for .NET Core projects created with versions of Visual Studio prior to Visual Studio 2017 Update 4) are not multistage Dockerfiles.  The steps in these Dockerfiles do not compile your code.  Instead, when Visual Studio builds a .NET Framework Dockerfile, it first compiles your project using MSBuild.  When that succeeds, Visual Studio then builds the Dockerfile, which simply copies the build output from MSBuild into the resulting Docker image.  Because the steps to compile your code aren't included in the Dockerfile, you can't build .NET Framework Dockerfiles using `docker build` from the command line. You should use MSBuild to build these projects.
+Dockerfiles created by Visual Studio for .NET Framework projects (and for .NET Core projects created with versions of Visual Studio prior to Visual Studio 2017 Update 4) aren't multistage Dockerfiles.  The steps in these Dockerfiles don't compile your code.  Instead, when Visual Studio builds a .NET Framework Dockerfile, it first compiles your project using MSBuild.  When that succeeds, Visual Studio then builds the Dockerfile, which simply copies the build output from MSBuild into the resulting Docker image.  Because the steps to compile your code aren't included in the Dockerfile, you can't build .NET Framework Dockerfiles using `docker build` from the command line. You should use MSBuild to build these projects.
 
-To build an image for single docker container project you can use MSBuild with the `/t:ContainerBuild` command option. This tells MSBuild to build the target `ContainerBuild` rather than the default target `Build`. For example:
+To build an image for single docker container project, you can use MSBuild with the `/t:ContainerBuild` command option. This command tells MSBuild to build the target `ContainerBuild` rather than the default target `Build`. For example:
 
 ```cmd
 MSBuild MyProject.csproj /t:ContainerBuild /p:Configuration=Release
 ```
 
-You'll see output similar to what you see in the **Output** window when you build your solution from the Visual Studio IDE. Always use `/p:Configuration=Release`, since in cases where Visual Studio uses the multistage build optimization, results when building the **Debug** configuration might not be as expected. See [Debugging](#debugging).
+You see output similar to what you see in the **Output** window when you build your solution from the Visual Studio IDE. Always use `/p:Configuration=Release`, since in cases where Visual Studio uses the multistage build optimization, results when building the **Debug** configuration might not be as expected. See [Debugging](#debugging).
 
-If you are using a Docker Compose project, use this command to build images:
+If you're using a Docker Compose project, use this command to build images:
 
 ```cmd
 msbuild /p:SolutionPath=<solution-name>.sln /p:Configuration=Release docker-compose.dcproj
@@ -92,14 +92,14 @@ msbuild /p:SolutionPath=<solution-name>.sln /p:Configuration=Release docker-comp
 
 ## Project warmup
 
-*Project warmup* refers to a series of steps that happen when the Docker profile is selected for a project (that is, when a project is loaded or Docker support is added) in order to improve the performance of subsequent runs (**F5** or **Ctrl**+**F5**). This is configurable under **Tools** > **Options** > **Container Tools**. Here are the tasks that run in the background:
+*Project warmup* refers to a series of steps that happen when the Docker profile is selected for a project (that is, when a project is loaded or Docker support is added) in order to improve the performance of subsequent runs (**F5** or **Ctrl**+**F5**). This behavior is configurable under **Tools** > **Options** > **Container Tools**. Here are the tasks that run in the background:
 
 - Check that Docker Desktop is installed and running.
 - Ensure that Docker Desktop is set to the same operating system as the project.
 - Pull the images in the first stage of the Dockerfile (the `base` stage in most Dockerfiles).  
 - Build the Dockerfile and start the container.
 
-Warmup will only happen in **Fast** mode, so the running container will have the app folder volume-mounted. That means that any changes to the app won't invalidate the container. This therefore improves the debugging performance significantly and decreases the wait time for long running tasks such as pulling large images.
+Warmup only happens in **Fast** mode, so the running container has the *app* folder volume-mounted. That means that any changes to the app don't invalidate the container. This behavior improves the debugging performance significantly and decreases the wait time for long running tasks such as pulling large images.
 
 ## Volume mapping
 
@@ -112,7 +112,7 @@ Here are the volumes that are mounted in your container:
 |-|-|
 | **App folder** | Contains the project folder where the Dockerfile is located.|
 | **NuGet packages folders** | Contains the NuGet packages and fallback folders that are read from the *obj\{project}.csproj.nuget.g.props* file in the project. |
-| **Remote debugger** | Contains the bits required to run the debugger in the container depending on the project type. This is explained in more detail in the [Debugging](#debugging) section.|
+| **Remote debugger** | Contains the bits required to run the debugger in the container depending on the project type. See the [Debugging](#debugging) section.|
 | **Source folder** | Contains the build context that is passed to Docker commands.|
 
 :::moniker-end
@@ -135,7 +135,7 @@ For ASP.NET core web apps, there might be two additional folders for the SSL cer
 
 ## Enable detailed container tools logs
 
-For diagnostic purposes, you can enable certain Container Tools logs. These logs are enabled by certain environment variables. For single container projects, the environment variable is `MS_VS_CONTAINERS_TOOLS_LOGGING_ENABLED`, which then logs in `%tmp%\Microsoft.VisualStudio.Containers.Tools`. For Docker Compose projects, it is `MS_VS_DOCKER_TOOLS_LOGGING_ENABLED`, which then logs in `%tmp%\Microsoft.VisualStudio.DockerCompose.Tools`.
+For diagnostic purposes, you can enable certain Container Tools logs. You can enable these logs by setting certain environment variables. For single container projects, the environment variable is `MS_VS_CONTAINERS_TOOLS_LOGGING_ENABLED`, which then logs in `%tmp%\Microsoft.VisualStudio.Containers.Tools`. For Docker Compose projects, it's `MS_VS_DOCKER_TOOLS_LOGGING_ENABLED`, which then logs in `%tmp%\Microsoft.VisualStudio.DockerCompose.Tools`.
 
 :::moniker range=">=vs-2022"
 > [!CAUTION]
@@ -144,9 +144,9 @@ For diagnostic purposes, you can enable certain Container Tools logs. These logs
 
 ## Debugging
 
-When building in **Debug** configuration, there are several optimizations that Visual Studio does that help with the performance of the build process for containerized projects. The build process for containerized apps is not as straightforward as simply following the steps outlined in the Dockerfile. Building in a container is much slower than building on the local machine.  So, when you build in the **Debug** configuration, Visual Studio actually builds your projects on the local machine, and then shares the output folder to the container using volume mounting. A build with this optimization enabled is called a *Fast* mode build.
+When you build in the **Debug** configuration, there are several optimizations that Visual Studio does that help with the performance of the build process for containerized projects. The build process for containerized apps isn't as straightforward as simply following the steps outlined in the Dockerfile. Building in a container is slower than building on the local machine.  So, when you build in the **Debug** configuration, Visual Studio actually builds your projects on the local machine, and then shares the output folder to the container using volume mounting. A build with this optimization enabled is called a *Fast* mode build.
 
-In **Fast** mode, Visual Studio calls `docker build` with an argument that tells Docker to build only the `base` stage (you can change that by setting the MSBuild property, `DockerfileFastModeStage`, described later).   Visual Studio handles the rest of the process without regard to the contents of the Dockerfile. So, when you modify your Dockerfile, such as to customize the container environment or install additional dependencies, you should put your modifications in the first stage.  Any custom steps placed in the Dockerfile's `build`, `publish`, or `final` stages will not be executed.
+In **Fast** mode, Visual Studio calls `docker build` with an argument that tells Docker to build only the first stage in the Dockerfile (normally the `base` stage). You can change that by setting the MSBuild property, `DockerfileFastModeStage`, described at [Container Tools MSBuild properties](container-msbuild-properties.md).   Visual Studio handles the rest of the process without regard to the contents of the Dockerfile. So, when you modify your Dockerfile, such as to customize the container environment or install additional dependencies, you should put your modifications in the first stage.  Any custom steps placed in the Dockerfile's `build`, `publish`, or `final` stages aren't executed.
 
 This performance optimization only occurs when you build in the **Debug** configuration. In the **Release** configuration, the build occurs in the container as specified in the Dockerfile.
 
@@ -206,7 +206,7 @@ This scenario applies when you want to do something with your containers to help
 
 To modify the container only for debugging, create a stage and then use the MSBuild property `DockerfileFastModeStage` to tell Visual Studio to use your customized stage when debugging. Refer to the [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) in the Docker documentation for information about Dockerfile commands.
 
-In the following example, we install the package `procps-ng`, but only in debug mode. This supplies the command `pidof`, which Visual Studio requires but isn't in the Mariner image used here. The stage we use for fast mode debugging is `debug`, a custom stage defined here. The fast mode stage does not need to inherit from the `build` or `publish` stage, it can inherit directly from the `base` stage, because Visual Studio will mount a volume that contains everything needed to run the app, as described earlier in this article.
+In the following example, we install the package `procps-ng`, but only in debug mode. This package supplies the command `pidof`, which Visual Studio requires but isn't in the Mariner image used here. The stage we use for fast mode debugging is `debug`, a custom stage defined here. The fast mode stage doesn't need to inherit from the `build` or `publish` stage, it can inherit directly from the `base` stage, because Visual Studio mounts a volume that contains everything needed to run the app, as described earlier in this article.
 
 ```dockerfile
 #See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
@@ -245,7 +245,7 @@ In the project file, add this setting to tell Visual Studio to use your custom s
   </PropertyGroup>
 ```
 
-The next sections contain information that may be useful in certain cases, such as when you want to specify a different entry point, or if your app is SSL-enabled and you're changing something that might affect how the SSL certificates are handled.
+The next sections contain information that might be useful in certain cases, such as when you want to specify a different entry point, or if your app is SSL-enabled and you're changing something that might affect how the SSL certificates are handled.
 
 ## Container entry point
 
@@ -253,8 +253,8 @@ Visual Studio uses a custom container entry point depending on the project type 
 
 |Container type|Entry point|
 |-|-|
-| **Linux containers** | The entry point is `tail -f /dev/null`, which is an infinite wait to keep the container running. When the app is launched through the debugger, it is the debugger that is responsible to run the app (that is, `dotnet webapp.dll`). If launched without debugging, the tooling runs a `docker exec -i {containerId} dotnet webapp.dll` to run the app.|
-| **Windows containers**| The entry point is something like `C:\remote_debugger\x64\msvsmon.exe /noauth /anyuser /silent /nostatus` which runs the debugger, so it is listening for connections. This method applies when the debugger runs the app. When launched without debugging, a `docker exec` command is used. For .NET Framework web apps, the entry point is slightly different where `ServiceMonitor` is added to the command.|
+| **Linux containers** | The entry point is `tail -f /dev/null`, which is an infinite wait to keep the container running. When the app is launched through the debugger, it's the debugger that is responsible to run the app (that is, `dotnet webapp.dll`). If launched without debugging, the tooling runs a `docker exec -i {containerId} dotnet webapp.dll` to run the app.|
+| **Windows containers**| The entry point is something like `C:\remote_debugger\x64\msvsmon.exe /noauth /anyuser /silent /nostatus` which runs the debugger, so it's listening for connections. This method applies when the debugger runs the app. When launched without debugging, a `docker exec` command is used. For .NET Framework web apps, the entry point is slightly different where `ServiceMonitor` is added to the command.|
 
 The container entry point can only be modified in docker-compose projects, not in single-container projects.
 
@@ -269,7 +269,7 @@ Container tools in Visual Studio support debugging an SSL-enabled ASP.NET core a
    - *%APPDATA%\Microsoft\UserSecrets*
    - *%APPDATA%\ASP.NET\Https*
 
-ASP.NET Core looks for a certificate that matches the assembly name under the *Https* folder, which is why it is mapped to the container in that path. The certificate path and password can alternatively be defined using environment variables (that is, `ASPNETCORE_Kestrel__Certificates__Default__Path` and `ASPNETCORE_Kestrel__Certificates__Default__Password`) or in the user secrets json file, for example:
+ASP.NET Core looks for a certificate that matches the assembly name under the *Https* folder, which is why it's mapped to the container in that path. The certificate path and password can alternatively be defined using environment variables (that is, `ASPNETCORE_Kestrel__Certificates__Default__Path` and `ASPNETCORE_Kestrel__Certificates__Default__Password`) or in the user secrets json file, for example:
 
 ```json
 {
@@ -284,7 +284,7 @@ ASP.NET Core looks for a certificate that matches the assembly name under the *H
 }
 ```
 
-If your configuration supports both containerized and non-containerized builds, you should use the environment variables, because the paths are specific to the container environment.
+If your configuration supports both containerized and noncontainerized builds, you should use the environment variables, because the paths are specific to the container environment.
 
 For more information about using SSL with ASP.NET Core apps in containers, see [Hosting ASP.NET Core images with Docker over HTTPS](/aspnet/core/security/docker-https).
 

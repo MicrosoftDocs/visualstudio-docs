@@ -1,7 +1,7 @@
 ---
 title: Create a dataset for .NET Framework applications using the Dataset Designer
-description: In this walkthrough, create a ADO.NET dataset using the Dataset Designer in Visual Studio for .NET Framework applications. Understand the process of creating a new project and adding a new DataSet item to it.
-ms.date: 09/11/2017
+description: Create an ADO.NET dataset with the Dataset Designer in Visual Studio for .NET Framework applications and build a new project with a DataSet item.
+ms.date: 11/01/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - datasets [Visual Basic], walkthroughs
@@ -24,6 +24,8 @@ In this walkthrough you create a dataset using the **Dataset Designer**. The art
 
 ## Prerequisites
 
+To complete this tutorial, you need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify. See [Modify Visual Studio](../install/modify-visual-studio.md).
+
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
 1. If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.
@@ -42,13 +44,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ## Create a New Windows Forms Application Project
 
-1. In Visual Studio, on the **File** menu, select **New** > **Project**.
-
-2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Desktop**.
-
-3. In the middle pane, select the **Windows Forms App** project type.
-
-4. Name the project **DatasetDesignerWalkthrough**, and then choose **OK**.
+1. In Visual Studio, create a new **Windows Forms App (.NET Framework)** project and name it **DatasetDesignerWalkthrough**.
 
      Visual Studio adds the project to **Solution Explorer** and display a new form in the designer.
 

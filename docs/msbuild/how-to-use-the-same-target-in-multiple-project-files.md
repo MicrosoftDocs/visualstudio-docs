@@ -1,6 +1,6 @@
 ---
 title: 'Use the Same Target in Multiple Project Files'
-description: Learn how to save a target in an MSBuild project file and import it into any other project that needs to use the target.
+description: Save a target in an MSBuild project file and use the Import element to allow the target to be used in any other project that needs it.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,7 +11,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
 ---
-# How to: Use the same target in multiple project files
+# Use the same target in multiple project files
 
 If you have authored several MSBuild project files, you might have discovered that you need to use the same tasks and targets in different project files. Instead of including the complete description of those tasks or targets in every project file, you can save a target in a separate project file and then import that project into any other project that needs to use the target.
 

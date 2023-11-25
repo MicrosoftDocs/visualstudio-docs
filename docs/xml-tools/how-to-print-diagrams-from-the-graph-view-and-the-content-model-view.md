@@ -8,7 +8,7 @@ ms.author: drskwier
 manager: jmartens
 ms.technology: vs-xml-tools
 ---
-# How to: Print diagrams from the Graph View and the Content Model View
+# Print diagrams from the Graph View and the Content Model View
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

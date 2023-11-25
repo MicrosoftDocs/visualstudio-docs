@@ -1,6 +1,6 @@
 ---
 title: "PowerPoint solutions"
-description: Learn that Visual Studio provides project templates you can use to create VSTO Add-ins for Microsoft PowerPoint.
+description: Explore Visual Studio project templates to create VSTO add-ins for Microsoft PowerPoint, such as creating and formatting presentations and adding or removing slides.
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:

@@ -3,7 +3,8 @@ title:  Delete Visual Studio subscription assignments in the Subscriptions 
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 03/20/2023
+ms.assetid: e49242bc-e9f2-49e8-8caa-f574d508aba6
+ms.date: 10/13/2023
 ms.topic: how-to
 description:  Learn how admins can delete subscription assignments in the Visual Studio Subscriptions Administration Portal
 ---
@@ -28,7 +29,7 @@ Watch this video or read on to learn how to delete assignments.
    > ![Delete subscribers](_img/delete-license/delete-subscribers.png "Screenshot of manage subscribers page in the admin portal.  The Delete menu option is highlighted.")
 
    > [!NOTE]
-   > If you added subscription assignments through Azure Active Directory Security Groups, it may take up to 24 hours for the deletion to be updated in the admin portal. For more information about using Azure Active Directory groups to manage subscriptions, see [this topic](assign-license-bulk.md#use-azure-active-directory-groups-to-assign-subscriptions) in the **Add multiple users** article. 
+   > If you added subscription assignments through Microsoft Entra groups, it may take up to 24 hours for the deletion to be updated in the admin portal. For more information about using Microsoft Entra groups to manage subscriptions, see [this topic](assign-license-bulk.md#use-entra-id-groups-to-assign-subscriptions) in the **Add multiple users** article. 
 
 ## Delete larger numbers of subscriptions
 
@@ -53,11 +54,11 @@ admin on the agreement through which the subscriptions were purchased.
    
 0. Your subscriber list downloads as an Excel file.  Locate the file in your downloads folder, and open it.  The file name contains the name of your agreement and the current date.
 0. In a column to the right of the template, paste the email addresses of the subscribers you want to remove.  (In the current template, column "V" is the first one available.  Don't unhide any hidden columns and use them.)  For this example, we are removing these users:
-    + aa-user1@contoso.com
-    + a-user3@contoso.com
-    + a-user5@contoso.com
-    + b-user2@contoso.com
-    + b-user4@contoso.com
+    + `aa-user1@contoso.com`
+    + `a-user3@contoso.com`
+    + `a-user5@contoso.com`
+    + `b-user2@contoso.com`
+    + `b-user4@contoso.com`
 
    > [!div class="mx-imgBorder"]
    > ![Add users to be deleted](_img/delete-license/user-list-added.png "Screenshot of bulk edit template showing the users to be deleted listed in the right-most column. The list of users is highlighted.")

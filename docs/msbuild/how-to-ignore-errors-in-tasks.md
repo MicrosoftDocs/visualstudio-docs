@@ -1,6 +1,6 @@
 ---
 title: 'Ignore Errors in Tasks'
-description: Learn how to ignore errors in MSBuild tasks, and control whether a build stops or continues when a task failure occurs.
+description: Ignore errors from MSBuild tasks and control whether a build stops or continues when a task failure occurs with the ContinueOnError attribute.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,7 +11,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
 ---
-# How to: Ignore errors in tasks
+# Ignore errors in tasks
 
 Sometimes you want a build to be tolerant of faults in certain tasks. If those non-critical tasks fail, you want the build to continue because it can still produce the required output. For example, if a project uses a `SendMail` task to send an e-mail message after each component is built, you might consider it acceptable for the build to proceed to completion even when the mail servers are unavailable and the status messages cannot be sent. Or, for example, if intermediate files are usually deleted during the build, you might consider it acceptable for the build to proceed to completion even when those files cannot be deleted.
 

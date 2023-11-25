@@ -15,7 +15,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Programmatically display documents in Print Preview
+# Programmatically display documents in Print Preview
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   If your solution generates a report, you might want to display the report to the user in Print Preview mode.

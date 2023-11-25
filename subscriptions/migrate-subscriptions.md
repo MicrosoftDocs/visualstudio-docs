@@ -3,9 +3,9 @@ title: Migrate Visual Studio subscriptions to a new agreement
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 03/24/2023
+ms.date: 11/02/2023
 ms.topic: how-to
-description:  This article describes how admins can migrate assigned subscriptions from one agreement to another.
+description: Migrate assigned Visual Studio subscriptions from one agreement to another, and understand how the move affects subscription benefits and Azure credits.
 ---
 
 # Migrate subscriptions from one agreement to another
@@ -25,7 +25,7 @@ The process for moving subscribers to the new agreement consists of three steps:
 > [!IMPORTANT]
 > Note the following considerations before you start this process:
 > + If your reseller selected the option to automatically transfer the subscribers to the new agreement when it was purchased, you might not see the changes until 48-72 hours after the agreement was submitted. Before you proceed with the process to manually move your subscribers, check with your reseller.  
-> + You can use Azure Active Directory (Azure AD) groups to simplify the process of moving subscribers to the new agreement. For more information, see [Assigning subscriptions by using Azure AD groups](assign-azure-ad.md).
+> + You can use Microsoft Entra groups to simplify the process of moving subscribers to the new agreement. 
 
 ## Export your current subscription assignments
 
@@ -62,7 +62,7 @@ Take these steps to open your exported subscriptions list and move the relevant 
    + **Subscriber Name**
    + **Email**
    + **Notification Email Address**
-   + AAD Group 
+   + Microsoft Entra group
    + **Subscription Level**
    + Assigned
    + Activated 
@@ -141,5 +141,4 @@ For help with managing Visual Studio subscriptions, see [Visual Studio Subscript
 
 ## Next steps
 
-+ [Use Azure Active Directory groups to assign more subscriptions](assign-azure-ad.md)
 + [Edit existing subscriptions](edit-license.md)

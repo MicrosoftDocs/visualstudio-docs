@@ -1,6 +1,6 @@
 ---
 title: 'Exclude projects from a build'
-description: Learn how you can use Visual Studio to build a solution without building all projects that it contains.
+description: Exclude projects from a build in Visual Studio by building the solution without building all projects contained in the solution.
 ms.date: 05/10/2023
 ms.technology: vs-ide-compile
 ms.topic: how-to
@@ -8,7 +8,7 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ---
-# How to: Exclude projects from a build
+# Exclude projects from a build
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

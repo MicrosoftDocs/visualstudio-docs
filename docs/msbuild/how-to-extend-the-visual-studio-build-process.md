@@ -1,6 +1,6 @@
 ---
 title: Extend the build process
-description: Learn various ways to modify the build process so that you can control and customize how your projects build.
+description: Explore several ways you can modify the build process so you can control and customize how your projects build, including overriding properties.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -13,7 +13,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
 ---
-# How to: Extend the Visual Studio build process
+# Extend the Visual Studio build process
 
 The Visual Studio build process is defined by a series of MSBuild *.targets* files that are imported into your project file. One of these imported files, *Microsoft.Common.targets*, can be extended to allow you to run custom tasks at several points in the build process. This article explains two methods you can use to extend the Visual Studio build process:
 

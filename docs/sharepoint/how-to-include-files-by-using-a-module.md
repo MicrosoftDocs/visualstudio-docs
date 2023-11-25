@@ -1,6 +1,6 @@
 ---
 title: "Include Files by Using a Module"
-description: Know how to include files by using a module, which is a container that lets you deploy files such as ASPX master pages, text files, or images to SharePoint.
+description: Include files by using a module container that lets you deploy files such as ASPX .master pages, text files, or images to SharePoint.
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -14,7 +14,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
 ---
-# How to: Include files by using a module
+# Include files by using a module
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   *Modules* (not to be confused with Visual Basic modules) are containers that enable you to deploy files such as ASPX master pages, text files, or images to SharePoint.

@@ -17,7 +17,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Programmatically refer to worksheet ranges in code
+# Programmatically refer to worksheet ranges in code
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You use a similar process to refer to the contents of a <xref:Microsoft.Office.Tools.Excel.NamedRange> control or a native Excel range object.

@@ -14,7 +14,7 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ---
-# How to: Manage build configurations with Visual Basic developer settings applied
+# Manage build configurations with Visual Basic developer settings applied
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

@@ -1,6 +1,6 @@
 ---
 title: Compiling building
-description: Learn how you use the Visual Studio IDE build method, the MSBuild command-line tools build method, or Azure Pipelines build method to build an application.
+description: Use the Visual Studio IDE build method, the MSBuild command-line tools build method, or Azure Pipelines build method to build an application.
 ms.date: 10/07/2022
 ms.technology: vs-ide-compile
 ms.topic: conceptual

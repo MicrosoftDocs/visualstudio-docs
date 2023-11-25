@@ -1,6 +1,6 @@
 ---
 title: "Programmatically insert text into Word documents"
-description: Learn how you can programmatically insert text into a Microsoft Word document by using Visual Studio.
+description: Insert text into a Microsoft Word document at a specific location or by replacing specific text  programmatically by using Visual Basic or C# in Visual Studio.
 titleSuffix: ""
 ms.date: "08/14/2019"
 ms.topic: "how-to"
@@ -18,7 +18,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Programmatically insert text into Word documents
+# Programmatically insert text into Word documents
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   There are three primary ways to insert text into Microsoft Office Word documents:

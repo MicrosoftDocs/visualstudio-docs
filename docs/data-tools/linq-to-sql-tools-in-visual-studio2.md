@@ -1,7 +1,7 @@
 ---
 title: LINQ to SQL O/R Designer overview
-description: Get an overview of LINQ to SQL tools in Visual Studio. Learn about the Object Relational Designer (O/R Designer).
-ms.date: 11/04/2016
+description: Explore LINQ to SQL tools in Visual Studio for object-relational mapping, including the Object Relational Designer (O/R Designer).
+ms.date: 11/01/2023
 ms.topic: overview
 author: ghogen
 ms.author: ghogen
@@ -32,11 +32,11 @@ To add a LINQ to SQL entity model to your project, choose **Project** > **Add Ne
 
 ![LINQ to SQL classes](../data-tools/media/raddata-linq-to-sql-classes.png)
 
-Visual Studio creates a *.dbml* file and adds it to your solution. This is the XML mapping file and its related code files.
+Visual Studio creates a `.dbml` file and adds it to your solution. This is the XML mapping file and its related code files.
 
 ![LINQ to SQL classes in Solution Explorer](../data-tools/media/raddata-linq-to-sql-classes-in-solution-explorer.png)
 
-When you select the *.dbml* file, Visual Studio shows the **O/R Designer** surface that enables you to visually create the model. The following illustration shows the designer after the Northwind `Customers` and `Orders` tables have been dragged from **Server Explorer**. Note the relationship between the tables.
+When you select the `.dbml` file, Visual Studio shows the **O/R Designer** surface that enables you to visually create the model. The following illustration shows the designer after the Northwind `Customers` and `Orders` tables have been dragged from **Server Explorer**. Note the relationship between the tables.
 
 ![LINQ to SQL Designer](../data-tools/media/raddata-linq-to-sql-designer.png)
 

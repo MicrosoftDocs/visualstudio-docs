@@ -8,7 +8,7 @@ ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ---
-# How to: Debug XAML with the Workflow Designer
+# Debug XAML with the Workflow Designer
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

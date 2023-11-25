@@ -1,6 +1,6 @@
 ---
 title: "Populate documents with data from a database"
-description: Learn how you can use the data from a database in your solution, and how you can use Windows Forms controls to display the data in a document.
+description: Populate Microsoft Office Word documents with data from a database in your solution, and use Windows Forms controls to display the data in a document.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -14,7 +14,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Populate documents with data from a database
+# Populate documents with data from a database
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

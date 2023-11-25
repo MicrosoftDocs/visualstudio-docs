@@ -1,6 +1,6 @@
 ---
 title: "Office solutions development overview (VSTO)"
-description: Learn how to develop customizations for the familiar Microsoft Office user interfaces and tools such as the word processing features in Word and the data analysis features of Excel.
+description: Customize familiar Microsoft Office user interface items and tools, such as the word processing features in Word and the data analysis features of Excel.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -61,7 +61,7 @@ ms.technology: office-development
 
  To use the object model of an Office application from a solution created by using the Office development tools in Visual Studio, you must use the primary interop assembly (PIA) for the application. The PIA enables the managed code in your solution to interact with the Office application's COM-based object model.
 
- You must have the Office PIAs installed and registered in the global assembly cache on your development computer to perform most development tasks. For more information, see [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md). The Office PIAs are not required on end-user computers to run VSTO Office solutions. For more information, see [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md).
+ You must have the Office PIAs installed and registered in the global assembly cache on your development computer to perform most development tasks. For more information, see [Configure a computer to develop Office solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md). The Office PIAs are not required on end-user computers to run VSTO Office solutions. For more information, see [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md).
 
  For more information about using the PIAs in VSTO Office solutions, see the following topics:
 

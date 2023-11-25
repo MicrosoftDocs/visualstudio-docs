@@ -1,6 +1,6 @@
 ---
 title: MSBuild Properties
-description: Learn how MSBuild name-value property pairs can pass values to tasks, evaluate conditions, and store values.
+description: Explore MSBuild name-value properties for the registry, environment, internal settings, and more, and pass values to tasks, evaluate conditions, and store values.
 ms.date: 08/15/2023
 ms.topic: conceptual
 helpviewer_keywords:

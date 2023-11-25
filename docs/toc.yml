@@ -119,16 +119,6 @@
       href: install/advanced-build-tools-container.md
     - name: Known Issues for Containers
       href: install/build-tools-container-issues.md
-  - name: Deploy Help Viewer
-    items:
-    - name: Install Help Viewer
-      href: help-viewer/installation.md
-    - name: Help Viewer Administrator guide
-      href: help-viewer/administrator-guide.md
-    - name: Command-line Arguments for the Help Content Manager
-      href: help-viewer/command-line-arguments.md
-    - name: Help Content Manager overrides
-      href: help-viewer/behavior-overrides.md
 - name: Tutorials
   items:
   - name: C++ >>
@@ -155,6 +145,8 @@
       href: ide/visual-studio-github-copilot-extension.md
     - name: Use GitHub Copilot Chat 
       href: ide/visual-studio-github-copilot-chat.md
+    - name: Tips to improve Copilot Chat results 
+      href: ide/copilot-chat-context.md
     - name: Debug with Copilot
       href: debugger/debug-with-copilot.md
   - name: IntelliCode
@@ -743,8 +735,8 @@
     href: ide/walkthrough-creating-a-multiple-computer-build-environment.md
 - name: Debug >>
   href: debugger/index.yml
-- name: Version control >>
-  displayName: git, github, source control, source, versioning, clone, integrate, release
+- name: Track changes with Git >>
+  displayName: git, github, azure dev ops, dev ops, version control, source control, source, versioning, clone, integrate, release
   href: version-control/index.yml
 - name: Test >>
   displayName: Unit testing
@@ -794,7 +786,7 @@
     href: ide/managing-external-tools.md
   - name: Managing accounts
     items:
-    - name: Sign in to Visual Studio
+    - name: Sign in or switch accounts
       displayName: personalization accounts
       href: ide/signing-in-to-visual-studio.md
     - name: Access multiple user accounts
@@ -815,24 +807,6 @@
       href: ide/filtered-solutions.md
     - name: Tips and tricks
       href: ide/visual-studio-performance-tips-and-tricks.md
-- name: Accessibility
-  items:
-  - name: Accessibility tips and tricks
-    href: ide/reference/accessibility-tips-and-tricks.md
-  - name: Accessibility products and services from Microsoft
-    href: ide/reference/accessibility-products-and-services-from-microsoft.md
-- name: Security
-  items:
-  - name: Develop secure applications
-    href: ide/securing-applications.md
-  - name: Run Visual Studio as an administrator
-    href: ide/user-permissions-and-visual-studio.md
-  - name: Windows Information Protection (WIP)
-    href: ide/exempt-visual-studio-from-wip.md
-  - name: Federal Information Processing Standard (FIPS)
-    href: ide/fips-support-visual-studio.md
-  - name: Dotfuscator Community
-    href: ide/dotfuscator/index.md
 - name: Reference
   items:
   - name: Keyboard shortcuts & commands
@@ -1017,6 +991,8 @@
         href: ide/reference/xaml-designer.md
     - name: Output window
       href: ide/reference/output-window.md
+    - name: Problem Details window
+      href: ide/reference/problem-details-window.md
     - name: Project Designer & project properties
       items:
       - name: Project Designer reference
@@ -1224,22 +1200,36 @@
       href: ide/reference/watch-command.md
   - name: The Visual Studio image library
     href: designers/the-visual-studio-image-library.md
+  - name: Security
+    items:
+    - name: Develop secure applications
+      href: ide/securing-applications.md
+    - name: Run Visual Studio as an administrator
+      href: ide/user-permissions-and-visual-studio.md
+    - name: Windows Information Protection (WIP)
+      href: ide/exempt-visual-studio-from-wip.md
+    - name: Federal Information Processing Standard (FIPS)
+      href: ide/fips-support-visual-studio.md
+    - name: Dotfuscator Community
+      href: ide/dotfuscator/index.md
 - name: Resources
   items:
   - name: "What's new in Docs"
     href: ide/whats-new-visual-studio-docs.md
-  - name: Release notes
+  - name: Release notes >>
     href: /visualstudio/releases/
-  - name: Release rhythm
+  - name: Release rhythm >>
     href: /visualstudio/productinfo/release-rhythm/
   - name: "Visual Studio 2022: What's new"
     href: ide/whats-new-visual-studio-2022.md
   - name: "Visual Studio 2019: What's new"
     href: ide/whats-new-visual-studio-2019.md
-  - name: License terms
+  - name: License terms >>
     href: https://visualstudio.microsoft.com/license-terms/
-  - name: Support lifecycle and servicing
+  - name: Support lifecycle and servicing >>
     href: /visualstudio/productinfo/vs-servicing-vs/
+  - name: Accessibility tips and tricks
+    href: ide/reference/accessibility-tips-and-tricks.md
   - name: Offline help >>
     href: help-viewer/overview.md
 - name: Send feedback

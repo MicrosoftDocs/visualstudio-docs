@@ -1,5 +1,5 @@
 ---
-title: How to Define a Domain-Specific Language
+title: Define a Domain-Specific Language
 description: Learn how you create a Visual Studio solution from a template to define a domain-specific language (DSL).
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -17,7 +17,7 @@ ms.author: mgoertz
 manager: jmartens
 ms.technology: vs-ide-modeling
 ---
-# How to Define a Domain-Specific Language
+# Define a Domain-Specific Language
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To define a domain-specific language (DSL), you create a Visual Studio solution from a template. The key part of the solution is the DSL Definition diagram, which is stored in DslDefinition.dsl. The DSL Definition defines the classes and shapes of the DSL. After you modify and adding to these elements, you can add program code to customize the DSL in more detail.

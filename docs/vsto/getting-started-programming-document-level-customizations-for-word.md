@@ -1,6 +1,6 @@
 ---
 title: "Get started programming document-level customizations for Word"
-description: Learn what you need to know to get started creating document-level customizations for Microsoft Office Word by using Visual Studio.
+description: Get started creating customizations for Microsoft Office Word with features to specific documents by using Visual Studio.
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

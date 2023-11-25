@@ -14,7 +14,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Programmatically hide text in documents
+# Programmatically hide text in documents
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can hide text in a document by setting the <xref:Microsoft.Office.Interop.Word._Font.Hidden%2A> property of the <xref:Microsoft.Office.Interop.Word.Range.Font%2A> for a particular range of text.

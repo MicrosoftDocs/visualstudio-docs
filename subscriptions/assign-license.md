@@ -3,9 +3,10 @@ title: Assign Visual Studio subscriptions to users
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 03/23/2023
+ms.assetid: 4e529a43-7aed-4eee-895d-862a631952df
+ms.date: 11/02/2023
 ms.topic: conceptual
-description:  Learn how admins can assign licenses to subscribers
+description: Assign license subscriptions to users (subscribers) in the Subscriptions Administration Portal, set up email notifications, and send assignment messages.
 ---
 
 # Assign licenses in the Visual Studio Subscriptions Administration Portal
@@ -15,13 +16,12 @@ As a Visual Studio subscriptions admin, you can use the admin portal to assign s
 For groups of users, you have choices for how you assign subscriptions.  
 + You can assign subscriptions one at a time.
 + You can also quickly and easily upload lists of subscribers and their subscription information using the [Bulk add](assign-license-bulk.md) feature.
-+ If your organization uses Microsoft Azure Active Directory (Azure AD), you can [use Azure AD groups to assign subscriptions](./assign-license-bulk.md#use-azure-active-directory-groups-to-assign-subscriptions) to groups of users.  
++ If your organization uses Microsoft Entra ID, you can [use Microsoft Entra groups to assign subscriptions](./assign-license-bulk.md#use-entra-id-groups-to-assign-subscriptions) to groups of users.  
 
 
 ## Add a single subscriber
 
 Watch the video or read on to learn how to assign a Visual Studio subscription to a new user so that they can access the subscription benefits.
-
  
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vpPh]
@@ -32,14 +32,14 @@ Watch the video or read on to learn how to assign a Visual Studio subscription t
    > [!div class="mx-imgBorder"]
    > ![Add a single subscriber](_img/assign-license-add/add-subscriber-individual.png "Screenshot of the subscriber list in the manage portal. Individual subscriber in the add menu is highlighted.")
 3. A fly-out panel appears.  Enter the information into the form fields for the new subscriber. 
-   + If your organization is using Azure Active Directory, typing the name of the subscriber in the **Search Azure Active Directory** box returns the names of any Azure AD group members matching your criteria.  After you select that person, sign-in email and notification email will automatically populate.  
+   + If your organization is using Microsoft Entra ID, typing the name of the subscriber in the **Search Microsoft Entra ID** box returns the names of any Microsoft Entra group members matching your criteria.  After you select that person, sign-in email and notification email will automatically populate.  
    + If the subscriber wasn't found in your organization, you can enter the subscriber's name in the **Name** field.  
    + Enter the email address you want your subscriber to use to sign in.  You can also select the **Add a different notification email for receiving communication** link and specify a different notification email address so subscribers and admins receive important subscription-related emails from Microsoft.
       > [!div class="mx-imgBorder"]
       > ![Subscriber details](_img/assign-license-add/subscriber-details.png "Screenshot of the Add subsriber dialog showing fields for subscriber details.")
 
       > [!NOTE]
-      > In order for members of an Azure Active Directory tenant to be visible when you enter a subscriber name, the admin must be a member of the tenant. 
+      > In order for members of a Microsoft Entra tenant to be visible when you enter a subscriber name, the admin must be a member of the tenant. 
    + Choose the subscription level you want to assign to this user.  (The list only contains the subscription levels that were purchased as part of your agreement.)  
    + If you want this subscriber to have access to software downloads when they sign into the [Visual Studio Subscriptions Portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs), make sure to leave the downloads toggle enabled in the **Download Settings** section. If you choose to disable downloads, the user doesn't have access to software downloads or product keys.  The subscriber still has access to all other benefits included in the subscription.
      > [!div class="mx-imgBorder"]
@@ -56,8 +56,8 @@ Watch the video or read on to learn how to assign a Visual Studio subscription t
 ## Why use a different notification email address?
 
 Some organizations set up their email services to block incoming emails from other domains.  Blocking incoming emails means that subscribers and admins miss important communications:
-  + Subscribers don't receive a notification that a subscription has been assigned to them.  They may also not be able to activate some of the included benefits.  
-  + Subscribers who have been assigned Visual Studio subscriptions with GitHub Enterprise don't receive the invitation to join your GitHub organization. They aren't able to access GitHub since they **must accept the emailed invitation** in order to gain access to your GitHub organization. 
+  + Subscribers don't receive a notification when a subscription is assigned to them.  They might also not be able to activate some of the included benefits.  
+  + Subscribers who assigned Visual Studio subscriptions with GitHub Enterprise don't receive the invitation to join your GitHub organization. They aren't able to access GitHub since they **must accept the emailed invitation** in order to gain access to your GitHub organization. 
   + Admins aren't notified when they're added to an agreement.  They don't receive monthly admin statements or notifications of feature changes that affect the way they manage subscriptions.
 
 Using a notification email address lets you allow your subscribers to receive important communications about their subscriptions without changing their sign-in email addresses.  
@@ -77,6 +77,7 @@ Need help?  Contact [Subscriptions Support](https://aka.ms/vsadminhelp).
 + [Azure DevOps Services documentation](/azure/devops/)
 + [Azure documentation](/azure/)
 + [Microsoft 365 documentation](/microsoft-365/)
++ [Microsoft Entra documentation](https://learn.microsoft.com/entra/)
 
 ## Next steps
 

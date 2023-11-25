@@ -1,7 +1,7 @@
 ---
 title: Connect to an Access database in .NET Framework applications
-description: Understand how to connect to data in an Access database (either an .mdb file or an .accdb.file) in .NET Framework applications using ADO.NET in Visual Studio.
-ms.date: 10/07/2022
+description: Connect to data stored in an Access database (.mdb file or .accdb file) from .NET Framework applications with ADO.NET in Visual Studio.
+ms.date: 10/17/2023
 ms.topic: how-to
 helpviewer_keywords:
 - data [Visual Studio], connecting
@@ -18,7 +18,7 @@ ms.technology: vs-data-tools
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
-You can connect to an Access database (either an *.mdb* file or an *.accdb* file) by using Visual Studio. After you define the connection, the data appears in the **Data Sources** window. From there, you can drag tables or views onto your design surface.
+You can connect to an Access database (either an `.mdb` file or an `.accdb` file) by using Visual Studio. After you define the connection, the data appears in the **Data Sources** window. From there, you can drag tables or views onto your design surface.
 
 > [!NOTE]
 >If you're using Visual Studio to connect to Access databases, you will need to be aware that versions of Visual Studio prior to Visual Studio 2022 are all 32-bit processes. This means some of the data tools in Visual Studio 2019 and earlier will only be able to connect to Access databases using 32-bit data providers.
@@ -31,7 +31,7 @@ You can connect to an Access database (either an *.mdb* file or an *.accdb* file
 
 ## Prerequisites
 
-To use these procedures, you need a Windows Forms or WPF project and either an Access database (*.accdb* file) or an Access 2000-2003 database (*.mdb* file). Follow the procedure that corresponds to your file type.
+To use these procedures, you need a Windows Forms or WPF project and either an Access database (`.accdb` file) or an Access 2000-2003 database (`.mdb` file). Follow the procedure that corresponds to your file type.
 
 :::moniker range=">=vs-2022"
 ## Create a dataset for an .accdb file
@@ -70,7 +70,7 @@ Connect to databases created with Microsoft 365, Access 2016, Access 2013, Acces
 
    ![Screenshot of Choose Data Source dialog box](media/vs-2022/change-data-source.png)
 
-8. Choose **Browse** next to **Database file name**, and then navigate to your *.accdb* file and choose **Open**.
+8. Choose **Browse** next to **Database file name**, and then navigate to your `.accdb` file and choose **Open**.
 
    >[!NOTE]
    > If the bitness (32-bit or 64-bit) of Microsoft Office and Visual Studio do not match, you will see an error while connecting to an Access database. In Visual Studio 2019, you will get an error that the database provider is not registered. In Visual Studio 2022, you will see an error that you can't connect to a 32-bit data provider. To resolve this error, make sure that if you are using a 32-bit version of Office, you are using Visual Studio 2019 or earlier; for a 64-bit version of Office, you need Visual Studio 2022 or later.
@@ -132,7 +132,7 @@ Connect to databases created with Microsoft 365, Access 2016, Access 2013, Acces
 
    ![Screenshot of Choose Data Source dialog box](media/vs-2022/choose-data-source.png)
 
-8. Choose **Browse** next to **Database file name**, and then navigate to your *.accdb* file and choose **Open**.
+8. Choose **Browse** next to **Database file name**, and then navigate to your `.accdb` file and choose **Open**.
 
    >[!NOTE]
    > If the bitness (32-bit or 64-bit) of Microsoft Office and Visual Studio do not match, you will see an error while connecting to an Access database. In Visual Studio 2019, you will get an error that the database provider is not registered. In Visual Studio 2022, you will see an error that you can't connect to a 32-bit data provider. To resolve this error, make sure that if you are using a 32-bit version of Office, you are using Visual Studio 2019 or earlier; for a 64-bit version of Office, you need Visual Studio 2022 or later.
@@ -175,7 +175,7 @@ Connect to databases created with Access 2000-2003 by using the following proced
 
 7. If the data source is not **Microsoft Access Database File (OLE DB)**, select **Change** to open the **Change Data Source** dialog box and select **Microsoft Access Database File**, and then select **OK**.
 
-8. In the **Database file name**, specify the path and name of the *.mdb* file you want to connect to, and then select **OK**.
+8. In the **Database file name**, specify the path and name of the `.mdb` file you want to connect to, and then select **OK**.
 
    ![Add Connection Access Database File](../data-tools/media/add-connection-access-db.png)
 

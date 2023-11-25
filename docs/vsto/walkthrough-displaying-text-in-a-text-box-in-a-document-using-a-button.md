@@ -1,6 +1,6 @@
 ---
 title: "Display text in text box in document using button"
-description: Learn how you can use buttons and text boxes in a document-level customization for Microsoft Word.
+description: Use buttons and text boxes to customize Microsoft Word at the document level, including adding text to the text box when the button is clicked.
 ms.date: "01/31/2022"
 ms.topic: "conceptual"
 dev_langs:

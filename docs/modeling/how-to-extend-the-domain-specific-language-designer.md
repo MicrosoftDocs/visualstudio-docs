@@ -8,7 +8,7 @@ ms.author: mgoertz
 manager: jmartens
 ms.technology: vs-ide-modeling
 ---
-# How to: Extend the Domain-Specific Language Designer
+# Extend the Domain-Specific Language Designer
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

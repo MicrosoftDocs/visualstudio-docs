@@ -1,6 +1,6 @@
 ---
 title: "Find and replace text in documents programmatically"
-description: Learn how you can use Visual Studio to programmatically search for and replace text in a Microsoft Word document.
+description: Search for and replace text in a Microsoft Office Word document programmatically from Visual Basic or C# in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -17,7 +17,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Programmatically search for and replace text in documents
+# Programmatically search for and replace text in documents
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The <xref:Microsoft.Office.Interop.Word.Find> object is a member of both the <xref:Microsoft.Office.Interop.Word.Selection> and the <xref:Microsoft.Office.Interop.Word.Range> objects, and you can use either one to search for text in Microsoft Office Word documents. The replace command is an extension of the find command.

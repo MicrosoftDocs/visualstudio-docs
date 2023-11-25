@@ -56,7 +56,7 @@ This tutorial uses SQL Server Express LocalDB and the Northwind sample database.
 
 ## Create a Windows Forms application
 
-The first step is to create a **Windows Forms Application**. Create a project using the **Windows Forms App** project type, using C# or Visual Basic.
+The first step is to create a **Windows Forms App (.NET Framework)**. Create a project using the **Windows Forms App** project type, using C# or Visual Basic.
 
 > [!NOTE]
 > The code for this tutorial is available in C# and Visual Basic. To switch the code language on this page between C# and Visual Basic, use the code language switcher at the top of the page on the right side.

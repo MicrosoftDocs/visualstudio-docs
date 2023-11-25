@@ -10,7 +10,7 @@ ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ---
-# How to: Create a .vsct file
+# Create a .vsct file
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
@@ -48,7 +48,7 @@ There are several ways to create an XML-based Visual Studio command table config
 
 <a name="how-to-create-a-dot-vsct-file-from-an-existing-dot-ctc-file"></a>
 
-## How to: Create a .vsct File from an existing .ctc file
+## Create a .vsct File from an existing .ctc file
 
 You can create an XML-based *.vsct* file from an existing command table *.ctc* source file. By doing this, you can take advantage of the new XML-based Visual Studio command table (VSCT) compiler format.
 
@@ -79,7 +79,7 @@ You can create an XML-based *.vsct* file from an existing command table *.ctc* s
 
 <a name="how-to-create-a-dot-vsct-file-from-an-existing-dot-cto-file"></a>
 
-## How to: Create a .vsct file from an existing .cto file
+## Create a .vsct file from an existing .cto file
 
 You can create an XML-based *.vsct* file from an existing binary *.cto* file. Doing this allows you to take advantage of the new command table compiler format. This process works even if the *.cto* file was compiled from a *.ctc* file. You can edit and compile the *.vsct* file into another .cto file.
 

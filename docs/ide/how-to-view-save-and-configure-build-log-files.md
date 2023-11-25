@@ -1,6 +1,6 @@
 ---
 title: 'View, save, and configure build log files'
-description: Learn how you can view, save, and configure build log files. These files provide information such as the command lines used for the compiler and other tools, which can help you troubleshoot build failures.
+description: View, save, and configure build log files that contain information such as the command lines used for the compiler and other tools, and troubleshoot build failures.
 ms.date: 11/11/2022
 ms.technology: vs-ide-compile
 ms.topic: how-to
@@ -8,7 +8,7 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ---
-# How to: View, save, and configure build log files
+# View, save, and configure build log files
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

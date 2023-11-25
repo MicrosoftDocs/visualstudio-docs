@@ -8,7 +8,7 @@ ms.author: drskwier
 manager: jmartens
 ms.technology: vs-xml-tools
 ---
-# How to: Select the XML schemas to use
+# Select the XML schemas to use
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

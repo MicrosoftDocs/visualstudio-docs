@@ -1,6 +1,6 @@
 ---
 title: 'Specify Which Target to Build First'
-description: Learn about how to specify initial targets or default targets to build first in MSBuild project files.
+description: Specify the initial targets (InitialTargets) or the default targets (DefaultTargets) to build first in MSBuild project files.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -12,7 +12,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
 ---
-# How to: Specify which target to build first
+# Specify which target to build first
 
 A project file can contain one or more `Target` elements that define how the project is built. The Microsoft Build Engine (MSBuild) engine builds the first target it finds, and any dependencies, unless the project file contains a `DefaultTargets` attribute, an `InitialTargets` attribute, or a target is specified at the command line using the **-target** switch.
 ## Use the InitialTargets attribute

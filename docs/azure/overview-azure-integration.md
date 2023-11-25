@@ -1,15 +1,15 @@
 ---
-title: Work with Azure with Visual Studio
+title: Find & provision Azure resources
 description: Learn about how you can provision Azure resources, browse existing Azure resources, and deploy applications to Azure services with Visual Studio.
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure
-ms.topic: overview
-ms.date: 10/19/2021
+ms.topic: how-to
+ms.date: 10/19/2023
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
-# Work with Azure in Visual Studio
+# Find and provision Azure resources in Visual Studio 
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

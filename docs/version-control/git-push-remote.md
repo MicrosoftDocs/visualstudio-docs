@@ -1,7 +1,7 @@
 ---
 title: Push to a remote branch in Visual Studio
 titleSuffix: ""
-description: Push to a remote in Visual Studio by using GitHub or Azure DevOps.
+description: Push your local project directory to a remote in Visual Studio by using GitHub or Azure DevOps for a safe place to store your code in the cloud.
 ms.date: 12/01/2022
 ms.topic: how-to
 author: ghogen
@@ -36,7 +36,7 @@ Here's how to push to a remote in Visual Studio.
 
 ## Next steps
 
-To continue your journey, visit the [Fetch, pull, and sync in Visual Studio](git-fetch-pull-sync.md) page.
+To continue your journey, visit the [Create a pull request in Visual Studio](git-create-pull-request.md) or [Fetch, pull, and sync in Visual Studio](git-fetch-pull-sync.md) page.
 
 ## See also
 

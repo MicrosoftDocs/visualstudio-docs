@@ -1,6 +1,6 @@
 ---
 title: Report a problem with Visual Studio
-description: "Find out how to report a problem with Visual Studio"
+description: Report a problem in Visual Studio by using the product installer or the built-in Feedback Tool, which allows you to easily add diagnostic information.
 ms.date: 10/07/2021
 ms.topic: how-to
 author: madskristensen
@@ -47,9 +47,9 @@ Alternatively, report a problem in **Visual Studio Installer** if you can't inst
     ![Take a screenshot](../ide/media/feedback-screenshot.png)
     *Only Microsoft engineers can see the screenshot*
 
-1. <a name="trace"/>Video record the problem to provide a trace. 
+1. <a name="trace"/>Record your actions to reproduce the issue.
 
-   One of the best ways to help the Visual Studio engineering team solve the problem is to provide a trace and heap dump files for them to look through. You can do that by recording the steps that resulted in the bug.
+   One of the best ways to help the Visual Studio engineering team solve the problem is to provide a trace and heap dump files for them to look through. You can do that by recording the steps that resulted in the bug. A screenshot will be captured every time the mouse is clicked, but keyboard entry will not record screenshots.
    1. Click **Start recording**. Wait a moment for the permissions prompt.
    2. Go through your steps to record the issue. 
    3. When finished, find the small pop-up window and click **Stop recording**. 

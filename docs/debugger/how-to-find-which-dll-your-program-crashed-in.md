@@ -22,7 +22,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
 ---
-# How to: Find Which DLL Your Program Crashed In (C#, C++, Visual Basic, F#)
+# Find Which DLL Your Program Crashed In (C#, C++, Visual Basic, F#)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

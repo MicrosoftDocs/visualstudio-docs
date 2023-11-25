@@ -11,7 +11,7 @@ ms.author: mgoertz
 manager: jmartens
 ms.technology: vs-ide-modeling
 ---
-# How to: Change the namespace of a domain-specific language
+# Change the namespace of a domain-specific language
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

@@ -1,7 +1,7 @@
 ---
 title: "Create a SharePoint Web Part by Using a Designer"
 titleSuffix: ""
-description: Create a web part by adding a visual web part item to a SharePoint project, which opens the Visual Web Developer designer in Visual Studio.
+description: Create a web part by adding a visual web part item to a SharePoint project, which opens the Visual Web Developer designer.
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -16,7 +16,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
 ---
-# How to: Create a SharePoint Web Part by using a designer
+# Create a SharePoint Web Part by using a designer
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

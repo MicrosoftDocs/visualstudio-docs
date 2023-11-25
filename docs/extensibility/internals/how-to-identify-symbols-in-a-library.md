@@ -11,7 +11,7 @@ ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ---
-# How to: Identify symbols in a library
+# Identify symbols in a library
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Symbol-browsing tools display hierarchical views of symbols. The symbols represent namespaces, objects, classes, class members, and other language elements.

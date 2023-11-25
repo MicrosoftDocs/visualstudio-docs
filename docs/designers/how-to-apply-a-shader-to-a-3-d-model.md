@@ -8,7 +8,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-designers
 ---
-# How to: Apply a shader to a 3D model
+# Apply a shader to a 3D model
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

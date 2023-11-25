@@ -1,6 +1,26 @@
 {
   "redirections": [
     {
+      "source_path": "docs/azure/vs-active-directory-dotnet-getting-started.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-active-directory-dotnet-getting-started?view=vs-2017",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/azure/vs-active-directory-dotnet-what-happened.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-active-directory-dotnet-what-happened?view=vs-2017",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/azure/vs-active-directory-webapi-getting-started.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-active-directory-webapi-getting-started?view=vs-2017",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/azure/vs-active-directory-webapi-what-happened.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-active-directory-webapi-what-happened?view=vs-2017",
+      "redirect_document_id": "false"
+    }, 
+    {
       "source_path": "docs/extensibility/what-s-new-in-the-visual-studio-2017-sdk.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/what-s-new-in-the-visual-studio-2017-sdk",
       "redirect_document_id": "false"
@@ -991,6 +1011,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/error-mixed-mode-debugging-for-ia64-processes-is-unsupported.md",
+      "redirect_url": "/visualstudio/debugger/mixed-mode-debugging-for-ia64-processes-is-unsupported",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/how-to-use-edit-and-continue-csharp.md",
       "redirect_url": "/visualstudio/debugger/edit-and-continue-visual-csharp",
       "redirect_document_id": false
@@ -1851,6 +1876,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/vsto/configuring-a-computer-to-develop-office-solutions.md",
+      "redirect_url": "/visualstudio/vsto/how-to-configure-a-computer-to-develop-office-solutions",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/vsto/troubleshooting-office-solution-deployment.md",
       "redirect_url": "/troubleshoot/developer/visualstudio/tools-utilities/troubleshooting-office-solution-deployment",
       "redirect_document_id": false
@@ -2069,6 +2099,11 @@
     {
       "source_path": "docs/data-tools/additional-resources-for-troubleshooting-data-access-errors.md",
       "redirect_url": "/answers/products/?WT.mc_id=msdnredirect-web-msdn",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/javascript/nodejs-interactive-repl.md",
+      "redirect_url": "/visualstudio/javascript/javascript-in-visual-studio",
       "redirect_document_id": false
     },
     {

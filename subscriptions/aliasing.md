@@ -1,36 +1,36 @@
 ---
-title: Signing in to Visual Studio Subscriptions May Fail When Using Aliases
+title: Signing in to Visual Studio Subscriptions Might Fail When Using Aliases
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 07/07/2022
+ms.date: 11/02/2023
 ms.topic: conceptual
-description: Sign-in may fail if aliases or friendly names are used
+description: Sign-in might fail if aliases or friendly names are used
 ---
 
-# Signing into Visual Studio subscriptions may fail when using aliases
+# Signing into Visual Studio subscriptions might fail when using aliases
 
-Depending on the account type used to sign in, available subscriptions may not be correctly displayed when signing in to [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs). One potential cause is the use of "aliases" or "friendly names" in place of the sign-in identity to which the subscription is assigned. This is called "aliasing".
+Depending on the account type used to sign in, available subscriptions might not be correctly displayed when signing in to [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs). One potential cause is the use of "aliases" or "friendly names" in place of the sign-in identity to which the subscription is assigned.  This technique is called "aliasing."
 
 ## What is aliasing?
 
-The term “aliasing” refers to users having different identities to sign in to Windows (or your Active Directory) and to access email.
+The term “aliasing” refers to users having different identities to sign in to Windows (or your Microsoft Entra ID) and to access email.
 
-Aliasing can be encountered when a company has a Microsoft Online Service for their directory sign-in, like 'JohnD@contoso.com', but users access their email accounts using aliases or friendly names, such as 'John.Doe@contoso.com'. Make sure your users are using the “Sign-in Email Address” as listed in the admin portal at https://manage.visualstudio.com to access their subscriptions. 
+Aliasing can be encountered when a company has a Microsoft Online Service for their directory sign-in, like `JohnD@contoso.com`, but users access their email accounts using aliases or friendly names, such as `John.Doe@contoso.com`. Make sure your users are using the “Sign-in Email Address” as listed in the admin portal at https://manage.visualstudio.com to access their subscriptions. 
 
 ## What are the potential issues?
 
-Depending on the subscriber’s account type, they may encounter one of two issues. 
+Depending on the subscriber’s account type, they might encounter one of two issues. 
 
 ### Work or school account UPN mismatch issue
 
-A UPN mismatch can be encountered when a company has an Active Directory set up where the UserPrincipalName (UPN) is not same as the Primary SMTP Address. 
+A UPN mismatch can be encountered when a company has a Microsoft Entra ID set up where the UserPrincipalName (UPN) isn't the same as the Primary SMTP Address. 
 
-#### How to detect if your sign-in address is impacted by a UPN mismatch 
+#### How to detect if your sign-in address is affected by a UPN mismatch 
 
 1. Sign into https://my.visualstudio.com/subscriptions using the sign-in address mentioned in your subscription assignment email.
 
-2. Select your name in the upper right corner of the page.  This will open your profile.  Verify that the sign-in email address listed in your profile matches the address you used to sign in.  If it does not, your UPN is mismatched and you won't be able to view your subscription. 
+2. Select your name in the upper right corner of the page.  Your profile opens.  Verify that the sign-in email address listed in your profile matches the address you used to sign in.  If it doesn't, your UPN is mismatched and you aren't able to view your subscription. 
 
 > [!div class="mx-imgBorder"]
 > ![Sign in email address](_img//aliasing/sign-in-email.png "Screenshot of the subscriber portal header. The username currently signed in is highlighted.")
@@ -49,13 +49,13 @@ A UPN mismatch can be encountered when a company has an Active Directory set up 
 
 ### Personal account aliasing issue
 
-Personal subscription accounts can also experience issues if the email address used to sign in to the Visual Studio Subscriptions portal does not match the email address associated with the subscription. 
+Personal subscription accounts can also experience issues if the email address used to sign in to the Visual Studio Subscriptions portal doesn't match the email address associated with the subscription. 
 
-#### How to detect if your personal subscription account is impacted by an aliasing issue
+#### How to detect if your personal subscription account is affected by an aliasing issue
 
 1. Sign in to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions)
 
-0. Verify that the sign-in email address listed at the top right of the page matches the address you used to sign in.  If the signed-in email address is not the same as the email address used to access the website there is a conflict between your account and the alias.
+0. Verify that the sign-in email address listed at the top right of the page matches the address you used to sign in.  If the signed-in email address isn't the same as the email address used to access the website there's a conflict between your account and the alias.
 
 #### How to fix an alias issue
 
@@ -70,18 +70,18 @@ The Visual Studio platform prioritizes the primary alias to show subscription de
 
 3. Sign out of the Visual Studio Subscriptions portal (https://my.visualstudio.com) 
 
-4. Sign back in using the account used to assign the subscription which should now be configured as primary alias. 
+4. Sign back in using the account used to assign the subscription, which should now be configured as primary alias. 
 
 ## Preventing aliasing issues
 
 As an admin, there are two options to ensure your subscribers have a successful sign-in experience on [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs).
-+ The first option (recommended), is to leverage the directory account as the sign-in for the Visual Studio Subscriptions portal at https://my.visualstudio.com.  
++ The first option (recommended), is to use the directory account as the sign-in for the Visual Studio Subscriptions portal at https://my.visualstudio.com.  
 + The second option (less secure), is to allow your subscribers to sign in using a different email address than their directory email address.
 
 Both of these options are configured in the admin portal by completing the following steps:  
 1. Sign into [https://manage.visualstudio.com](https://manage.visualstudio.com) 
 
-0. If you're altering a single user, select that user in the table and right-select to edit. This will open a panel where you can modify the sign-in email address. Make the necessary updates in the sign-in email address field. Select save and the changes will take effect.  
+0. If you're altering a single user, select that user in the table and right-select to edit. A panel opens to allow you to modify the sign-in email address. Make the necessary updates in the sign-in email address field. Select save and the changes take effect.  
 
 0. If you need to make these changes to a large quantity of users, you can utilize the bulk edit feature. Read the [Edit multiple subscribers using bulk edit](./edit-license.md#edit-multiple-subscribers-using-bulk-edit) article for more information.
 

@@ -1,6 +1,6 @@
 ---
 title: "Programmatically create an email item"
-description: Learn how you can programmatically create an email message in Microsoft Outlook by using Visual Studio.
+description: Create a new email message item in Microsoft Office Outlook programmatically by using Visual Basic or C# in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -15,7 +15,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Programmatically create an email item
+# Programmatically create an email item
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example creates an email message in Microsoft Office Outlook.

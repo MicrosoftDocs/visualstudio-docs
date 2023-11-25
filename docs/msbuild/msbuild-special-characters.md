@@ -1,6 +1,6 @@
 ---
 title: MSBuild Special Characters
-description: Learn about the MSBuild reserved characters for special use in specific contexts, and when and how to escape these characters.
+description: Review the MSBuild characters that are reserved for special use in specific contexts, and when and how to escape these characters.
 ms.date: 06/12/2019
 ms.topic: conceptual
 helpviewer_keywords:

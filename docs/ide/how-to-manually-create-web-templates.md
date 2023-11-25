@@ -1,6 +1,6 @@
 ---
 title: Create web templates
-description: Learn how to manually create a web template and identify the programing language that the template uses.
+description: Manually create a web template (as defined in the vstemplate file) and identify the programming language that the template uses in Visual Studio.
 ms.date: 01/02/2018
 ms.topic: how-to
 helpviewer_keywords:
@@ -13,7 +13,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ---
-# How to: Manually create web templates
+# Manually create web templates
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

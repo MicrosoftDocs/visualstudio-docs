@@ -1,8 +1,8 @@
 ---
 title: "What's new in Visual Studio 2022"
 titleSuffix: ""
-description: "Learn about the new features in Visual Studio 2022."
-ms.date: 08/08/2023
+description: Discover new features in Visual Studio 2022, including answers to questions and AI consultations while you code with a subscription to GitHub Copilot.
+ms.date: 11/14/2023
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -17,7 +17,7 @@ ms.topic: whats-new
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-**Updated for the 17.7 release.** See [full release notes](/visualstudio/releases/2022/release-notes) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
+**Updated for the 17.8 release.** See [full release notes](/visualstudio/releases/2022/release-notes) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
 
 >[!div class="button"]
 >[Download Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)
@@ -30,6 +30,10 @@ Want to see what's new in each updated release from within Visual Studio itself?
 
 > [!TIP]
 > For more news + how-to's, check out our Visual Studio social media channels on [LinkedIn](https://www.linkedin.com/showcase/microsoft-visual-studio), [YouTube](https://www.youtube.com/visualstudio), [Facebook](https://www.facebook.com/visualstudio), [Twitch](https://www.twitch.tv/visualstudio), [Twitter](https://twitter.com/VisualStudio), & [TikTok](https://www.tiktok.com/@visualstudio). And for the latest info on recent releases, current experiments, and what's in Preview, be sure to visit the Visual Studio [Blog](https://devblogs.microsoft.com/visualstudio/).
+
+## AI-assisted development
+
+With a subscription to GitHub Copilot, you can get answers to questions and consult with an AI while you code. Visual Studio 2022 version 17.4 and later include integration with [GitHub Copilot](../ide/visual-studio-github-copilot-extension.md), and version 17.6 and later also support GitHub Copilot Chat. See [AI-assisted development](../ide/ai-assisted-development-visual-studio.md).
 
 ## Performance improvements
 
@@ -47,10 +51,14 @@ In [Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/visual-studi
 
 **New in [17.1](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-1-is-now-available/)**: With new indexed searching, Find in Files is even faster! For more information, see the [**Code search in Visual Studio 2022 is about to get much faster**](https://devblogs.microsoft.com/visualstudio/code-search-in-visual-studio-is-about-to-get-much-faster/) blog post.
 
+**New in [17.8](https://devblogs.microsoft.com/visualstudio/visual-studio-17-8-now-available/)**: Save time with case-preserving search and replace. See [Replace in files - Preserve case](replace-in-files.md#preserve-case).
+
 > [!TIP]
 > To learn more about current and upcoming changes to the search experience in Visual Studio 2022, see the [Sneak Peek and Edit Your Code While You Search](https://devblogs.microsoft.com/visualstudio/sneak-peek-and-edit-your-code-while-you-search/) blog post.
 
 ### Git tooling is faster
+
+**New in [17.8](https://devblogs.microsoft.com/visualstudio/visual-studio-17-8-now-available/)**, you can [create a pull request from the Visual Studio IDE](../version-control/git-create-pull-request.md). Also, try the new summary view for diffs, to make it easier to focus on what changed.
 
 **New in [17.2](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-2-is-now-available/)**: We've integrated a relatively new Git feature called the [commit graph](https://devblogs.microsoft.com/devops/supercharging-the-git-commit-graph/), which helps to improve both the performance of your Git operations and the performance of Visual Studio itself. For the latest info, see the [Supercharge your Git experience in Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/supercharge-your-git-experience-in-vs/) blog post.
 

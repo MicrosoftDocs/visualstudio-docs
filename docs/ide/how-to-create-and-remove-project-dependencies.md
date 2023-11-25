@@ -1,6 +1,6 @@
 ---
 title: 'Create and remove project dependencies'
-description: Learn how you can use Visual Studio to create and remove your project's dependency on code from other projects.
+description: Create and remove your project's dependency on code from other projects in Visual Studio, and view the build order for the solution.
 ms.date: 08/15/2023
 ms.topic: how-to
 f1_keywords:
@@ -17,7 +17,7 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ---
-# How to: Create and remove project dependencies
+# Create and remove project dependencies
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

@@ -1,6 +1,6 @@
 ---
 title: Use Design Time Data with the XAML Designer in Visual Studio
-description: Learn how to use design-time data in XAML.
+description: Mock data in the XAML Designer in Visual Studio and quickly add design-time data to your pages or controls without the need to create a full mock ViewModel.
 ms.date: 09/30/2021
 ms.topic: overview
 author: maddymontaquila

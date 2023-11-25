@@ -1,6 +1,6 @@
 ---
 title: "Work with worksheets"
-description: Learn that the Worksheet and Worksheet classes contain the methods and properties you use to perform tasks with worksheets.
+description: Explore the Worksheet and Worksheet classes that contain methods and properties you can use to perform tasks with Microsoft Office Excel worksheets.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

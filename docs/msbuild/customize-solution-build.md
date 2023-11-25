@@ -1,6 +1,6 @@
 ---
 title: Customize the solution build
-description: Learn how to customize the solution build done by MSBuild, for command-line builds of solutions.
+description: Customize the solution build prepared by MSBuild for command-line builds of solutions with settings that don't affect project builds.
 ms.date: 02/28/2023
 ms.topic: how-to
 helpviewer_keywords:

@@ -1,6 +1,6 @@
 ---
 title: Exposing Properties to the Properties Window
-description: Learn about the public properties of an object. The changes you make to these properties are reflected in the Properties window.
+description: Explore the public properties of an object and how changes you make to these properties are reflected in the Properties window.
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:
@@ -17,10 +17,6 @@ ms.technology: vs-ide-sdk
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This walkthrough exposes the public properties of an object to the **Properties** window. The changes you make to these properties are reflected in the **Properties** window.
-
-## Prerequisites
-
-Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ## Expose properties to the Properties window
 

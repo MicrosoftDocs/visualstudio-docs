@@ -1,6 +1,6 @@
 ---
 title: "Ribbon overview"
-description: Learn how the ribbon is a way to organize related commands so that they are easier to find and how commands appear as controls on the ribbon. 
+description: Explore how to work with the ribbon, organize related commands to make them easier to find, and configure how commands appear as controls on the ribbon. 
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

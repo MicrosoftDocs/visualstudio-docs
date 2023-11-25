@@ -1,6 +1,6 @@
 ---
 title: "Assemblies in the Visual Studio Tools for Office runtime"
-description: Learn that Visual Studio automatically adds references to the Visual Studio Tools for Office runtime assemblies.
+description: Explore assemblies in the Visual Studio Tools for Office runtime and how Visual Studio automatically adds references the assemblies.
 titleSuffix: ""
 ms.date: 02/02/2017
 ms.topic: conceptual

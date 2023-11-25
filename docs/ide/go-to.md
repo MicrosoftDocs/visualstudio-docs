@@ -1,7 +1,7 @@
 ---
 title: Go to file, go to symbol, go to line
-description: Learn about Go To commands in Visual Studio and how you can use them to to perform focused searches of your code.
-ms.date: 08/14/2018
+description: Explore Go To commands in Visual Studio and discover how you can use them to to perform focused and filtered searches of your code.
+ms.date: 10/31/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - code editor, go to
@@ -18,6 +18,10 @@ ms.technology: vs-ide-general
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio's **Go To** commands perform a focused search of your code to help you quickly find specified items. You can go to a specific line, type, symbol, file, and member from a simple, unified interface.
+
+In Visual Studio 2022, a new search experience replaces much of the functionality described here. For example, **Go to type** or **Ctrl**+**T** goes (by default) to the new search experience in Visual Studio 2022, rather than opening the **Go to type** window. The new search experience is documented at [Visual Studio search](visual-studio-search.md).
+
+Visual Studio can be configured to use the previous functionality as described in this article. To set this option, you can go to **Tools** > **Options** > **Environment** > **Preview Features** > **New Visual Studio Search experience**.
 
 ## How to use it
 

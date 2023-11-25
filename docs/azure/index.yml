@@ -1,6 +1,6 @@
 ## YamlMime:Landing
 title: Develop applications for Azure with Visual Studio
-summary: Learn how to connect your apps to Azure services, deploy your apps and services to Azure, and develop Azure cloud services.
+summary: Learn to connect apps to Azure services and deploy them to Azure.
 metadata:
   title: Azure development with Visual Studio
   description: Tutorials and conceptual articles about using Visual Studio to connect apps and services to Azure and develop services that run in the Azure cloud.
@@ -9,7 +9,7 @@ metadata:
   ms.prod: visual-studio-windows
   ms.technology: vs-azure
   ms.topic: landing-page
-  ms.date: 08/17/2023
+  ms.date: 10/21/2023
   ms.author: ghogen
 
 landingContent:
@@ -17,18 +17,18 @@ landingContent:
     linkLists:
       - linkListType: overview
         links:
-          - text: Develop Azure applications
+          - text: Azure development in Visual Studio
             url: overview.md
-          - text: Work with Azure
+      - linkListType: how-to-guide
+        links:
+          - text: Find & provision Azure resources
             url: overview-azure-integration.md
-          - text: Azure SDK for .NET
-            url: /dotnet/azure
-            
+
   - title: Connect to Azure services
     linkLists:
       - linkListType: overview
         links:
-          - text: Connected Services
+          - text: What are Connected Services?
             url: overview-connected-services.md
       - linkListType: tutorial
         links:
@@ -39,13 +39,17 @@ landingContent:
           - text: Cosmos DB
             url: azure-cosmosdb-add-connected-service.md
           - text: Key Vault
-            url: /azure/key-vault/vs-key-vault-add-connected-service
+            url: vs-key-vault-add-connected-service.md
           - text: SignalR
             url: azure-signalr-add-connected-service.md
           - text: SQL Database
             url: azure-sql-database-add-connected-service.md
           - text: Storage
             url: vs-azure-tools-connected-services-storage.md
+      - linkListType: reference
+        links:
+          - text: Azure SDK for .NET
+            url: /dotnet/azure  
 
   - title: Deploy to Azure
     linkLists:
@@ -64,7 +68,7 @@ landingContent:
           - text: Azure Functions
             url: /azure/azure-functions/functions-create-your-first-function-visual-studio
   
-  - title: CI/CD - Continuous integration/delivery
+  - title: 'Continuous integration/delivery (CI/CD)'
     linkLists:
       - linkListType: how-to-guide
         links:
@@ -72,10 +76,3 @@ landingContent:
             url: azure-deployment-using-github-actions.md
           - text: With Azure Pipelines
             url: /azure/devops/pipelines/get-started-yaml
-
-  - title: Azure Cloud Services
-    linkLists:
-    - linkListType: how-to-guide
-      links:
-        - text: Create and deploy to Cloud Services (extended support)
-          url: cloud-services-extended-support.md

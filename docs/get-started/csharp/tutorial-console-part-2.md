@@ -2,7 +2,7 @@
 title: "Tutorial 2: Extend your C# console app"
 description: "Learn how to develop a C# console app in Visual Studio, step-by-step."
 ms.custom: vs-acquisition
-ms.date: 1/5/2023
+ms.date: 10/31/2023
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -16,11 +16,11 @@ dev_langs:
 ---
 # Tutorial: Extend C# console app and debug in Visual Studio (part 2 of 2)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In part 2 of this tutorial series, you dive a little deeper into the Visual Studio build and debug features you need for daily development. These features include managing multiple projects, debugging, and referencing third-party packages. You run the C# console app you created in [Part 1 of this tutorial](tutorial-console.md), and explore some features of the Visual Studio integrated development environment (IDE). This tutorial is part 2 of a two-part tutorial series.
 
-In this tutorial, you:
+In this tutorial, you complete the following tasks:
 
 > [!div class="checklist"]
 > * Add a second project.
@@ -54,7 +54,7 @@ In Visual Studio, you use the menu command **File** > **Add** > **New Project** 
 
    ![Screenshot of Solution Explorer with the CalculatorLibrary class library project added.](media/vs-2019/calculator2-solution-explorer-with-class-library-dark2.png)
 
-1. Rename the *Class1.cs* file to *CalculatorLibrary.cs*. To rename the file, you can right-click the name in **Solution Explorer** and choose **Rename**, select the name and press **F2**, or select the name and click again to type.
+1. Rename the *Class1.cs* file to *CalculatorLibrary.cs*. To rename the file, you can right-click the name in **Solution Explorer** and choose **Rename**, select the name and press **F2**, or select the name and select again to type.
 
    A message might ask whether you want to rename references to `Class1` in the file. It doesn't matter how you answer, because you'll replace the code in a future step.
 
@@ -118,7 +118,7 @@ In Visual Studio, you use the menu command **File** > **Add** > **New Project** 
     }
    ```
 
-1. *Program.cs* also has a reference, but an error says that the `Calculator.DoOperation` call doesn't resolve. That's because `CalculatorLibrary` is in a different namespace. For a fully qualified reference, you could add the `CalculatorLibrary` namespace to the `Calculator.DoOperation` call:
+1. *Program.cs* also has a reference, but an error says the `Calculator.DoOperation` call doesn't resolve. The error is because `CalculatorLibrary` is in a different namespace. For a fully qualified reference, you could add the `CalculatorLibrary` namespace to the `Calculator.DoOperation` call:
 
    ```csharp
    result = CalculatorLibrary.Calculator.DoOperation(cleanNum1, cleanNum2, op);
@@ -148,13 +148,13 @@ In Visual Studio, you use the menu command **File** > **Add** > **New Project** 
 
 1. On the **Configure your new project** screen, type the project name *CalculatorLibrary*, and then select **Next**.
    
-1. On the **Additional information** screen, .NET 6.0 is selected. Select **Create**.
+1. On the **Additional information** screen, **.NET 8.0** is selected. Select **Create**.
    
    Visual Studio creates the new project and adds it to the solution.
    
    ![Screenshot of Solution Explorer with the CalculatorLibrary class library project added.](media/vs-2022/calculator-solution-explorer-with-class-library.png)
 
-1. Rename the *Class1.cs* file to *CalculatorLibrary.cs*. To rename the file, you can right-click the name in **Solution Explorer** and choose **Rename**, select the name and press **F2**, or select the name and click again to type.
+1. Rename the *Class1.cs* file to *CalculatorLibrary.cs*. To rename the file, you can right-click the name in **Solution Explorer** and choose **Rename**, select the name and press **F2**, or select the name and select again to type.
 
    A message might ask whether you want to rename all references to `Class1` in the file. It doesn't matter how you answer, because you'll replace the code in a future step.
 
@@ -216,7 +216,7 @@ In Visual Studio, you use the menu command **File** > **Add** > **New Project** 
     }
    ```
 
-1. *Program.cs* also has a reference, but an error says that the `Calculator.DoOperation` call doesn't resolve. That's because `CalculatorLibrary` is in a different namespace. For a fully qualified reference, you could add the `CalculatorLibrary` namespace to the `Calculator.DoOperation` call:
+1. *Program.cs* also has a reference, but an error says the `Calculator.DoOperation` call doesn't resolve. The error is because `CalculatorLibrary` is in a different namespace. For a fully qualified reference, you could add the `CalculatorLibrary` namespace to the `Calculator.DoOperation` call:
 
    ```csharp
    result = CalculatorLibrary.Calculator.DoOperation(cleanNum1, cleanNum2, op);
@@ -939,7 +939,7 @@ Next, execute code in the debugger one statement at a time, which is called *ste
    {
    ```
 
-   This code checks for a divide-by-zero case. If the app continues, it will throw a general exception (an error), but you might want to try something else, like viewing the actual returned value in the console. One option is to use a debugger feature called *edit-and-continue* to make changes to the code and then continue debugging. However, there's a different trick to temporarily modify the execution flow.
+   This code checks for a divide-by-zero case. If the app continues, it throws a general exception (an error), but you might want to try something else, like viewing the actual returned value in the console. One option is to use a debugger feature called *edit-and-continue* to make changes to the code and then continue debugging. However, there's a different trick to temporarily modify the execution flow.
 
 ## Debug: Test a temporary change
 

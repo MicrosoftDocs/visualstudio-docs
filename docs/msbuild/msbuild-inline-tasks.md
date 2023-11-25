@@ -1,7 +1,7 @@
 ---
 title: MSBuild Inline Tasks
-description: Learn how to create MSBuild inline tasks by compiling a class that implements the Microsoft.Build.Framework.ITask interface.
-ms.date: 09/21/2017
+description: Create MSBuild inline tasks by compiling a class that implements the Microsoft.Build.Framework.ITask interface in Visual Studio.
+ms.date: 10/31/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, tasks
@@ -16,7 +16,8 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
 
  Starting in .NET Framework version 4, you can create tasks inline in the project file. You do not have to create a separate assembly to host the task. This makes it easier to keep track of source code and easier to deploy the task. The source code is integrated into the script.
 
- In MSBuild 15.8, the [RoslynCodeTaskFactory](../msbuild/msbuild-roslyncodetaskfactory.md) was added which can create .NET Standard cross-platform inline tasks.  If you need to use inline tasks on .NET Core, you must use the RoslynCodeTaskFactory.
+ In MSBuild 15.8, the [RoslynCodeTaskFactory](../msbuild/msbuild-roslyncodetaskfactory.md) was added. For current development, be sure to use the RoslynCodeTaskFactory, not CodeTaskFactory. CodeTaskFactory only supports C# versions up to 4.0.
+ 
 ## The structure of an inline task
 
  An inline task is contained by a [UsingTask](../msbuild/usingtask-element-msbuild.md) element. The inline task and the `UsingTask` element that contains it are typically included in a *.targets* file and imported into other project files as required. Here is a basic inline task. Notice that it does nothing.

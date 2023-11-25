@@ -5,7 +5,7 @@ ms.author: amast
 manager: shve
 ms.date: 06/14/2023
 ms.topic: how-to
-description: How Microsoft Cloud Partner Program partners assign Visual Studio subscriptions to end users.
+description: Discover how Microsoft Cloud Partner Program partners assign Visual Studio subscriptions to their end users (subscribers).
 ---
 
 # Manage Visual Studio subscriptions offered through the Microsoft Cloud Partner Program 

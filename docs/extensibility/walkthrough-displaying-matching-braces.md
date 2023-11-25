@@ -15,9 +15,6 @@ ms.technology: vs-ide-sdk
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Implement language-based features, such as, brace matching by defining the braces you want to match, and adding a text marker tag to the matching braces when the caret is on one of the braces. You can define braces in the context of a language, define your own file name extension and content type, and apply the tags to just that type or apply the tags to an existing content type (such as "text"). The following walkthrough shows how to apply brace matching tags to the "text" content type.
 
-## Prerequisites
- Starting in Visual Studio 2015, you don't install the Visual Studio SDK from the download center. It's included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
-
 ## Create a Managed Extensibility Framework (MEF) project
 
 #### To create a MEF project

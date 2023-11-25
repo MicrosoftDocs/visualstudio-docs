@@ -1,6 +1,6 @@
 ---
 title: Suppress warnings for projects and NuGet packages
-description: Learn how you can use Visual Studio to declutter a build log by filtering out one or more kinds of compiler warnings.
+description: Use Visual Studio to declutter a build log by filtering out one or more kinds of compiler warnings for C#, F#, C++, or Visual Basic code.
 ms.date: 06/10/2022
 ms.technology: vs-ide-compile
 ms.topic: how-to
@@ -8,7 +8,7 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ---
-# How to: Suppress compiler warnings
+# Suppress compiler warnings
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

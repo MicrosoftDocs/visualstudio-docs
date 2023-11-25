@@ -1,6 +1,6 @@
 ---
 title: "Programmatically create new workbooks"
-description: Learn how you can programmatically create a new Microsoft Excel workbook by using Visual Studio.
+description: Create a new Microsoft Excel workbook programmatically from Visual Basic or C# in Visual Studio by using the default template or with a custom template.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -14,7 +14,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Programmatically create new workbooks
+# Programmatically create new workbooks
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When you create a workbook programmatically, it is a native <xref:Microsoft.Office.Interop.Excel.Workbook> object, not a <xref:Microsoft.Office.Tools.Excel.Workbook> host item.

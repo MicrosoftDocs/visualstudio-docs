@@ -16,7 +16,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
 ---
-# How to: Debug On a High-Performance Cluster (C#, Visual Basic, C++)
+# Debug On a High-Performance Cluster (C#, Visual Basic, C++)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

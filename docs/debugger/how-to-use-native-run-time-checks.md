@@ -1,7 +1,7 @@
 ---
 title: Use Native Run-Time Checks
 description: Use native run-time checks in Visual Studio to catch common run-time errors, such as stack pointer corruption, overruns of local arrays, and stack corruption.
-ms.date: 11/04/2016
+ms.date: 10/24/2023
 ms.topic: how-to
 f1_keywords: 
   - c.runtime.errorchecks
@@ -37,7 +37,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
 ---
-# How to: Use Native Run-Time Checks
+# Use Native Run-Time Checks
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In a Visual Studio C++ project, you can use native [runtime_checks](/cpp/preprocessor/runtime-checks) to catch common run-time errors such as:
@@ -65,6 +65,8 @@ In a Visual Studio C++ project, you can use native [runtime_checks](/cpp/preproc
 ### To enable native run-time checks in a debug build
 
 - Use the **/RTC** option and link with the debug version of a C run-time library (/MDd, for example).
+
+  To set the option in Visual Studio, see the [Remarks](/cpp/build/reference/rtc-run-time-error-checks#remarks) section of the /RTC (Run-time error checks) reference article. Set the value in the **Basic Runtime Checks** property and not the **Smaller Type Check** property. The **Smaller Type Check** property is not recommended.
 
 ### To modify native run-time check behavior
 

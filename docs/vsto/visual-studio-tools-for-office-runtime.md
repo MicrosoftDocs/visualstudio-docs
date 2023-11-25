@@ -1,6 +1,6 @@
 ---
 title: "Visual Studio Tools for Office Runtime Lifecycle Policy"
-description: Learn about the support lifecycle policy for the Visual Studio Tools for Office Runtime.
+description: Explore the support lifecycle policy for the Visual Studio Tools for Office Runtime, including available versions and release dates.
 titleSuffix: ""
 ms.date: "10/4/2021"
 ms.topic: "conceptual"
@@ -42,5 +42,6 @@ The following is a list of the VSTO Runtime releases and the corresponding versi
 | 10.0.60825 | 11/19/2016 | Microsoft Office 2016 |
 | 10.0.60828 | 01/12/2018 | Microsoft Office 2019 / <br>Microsoft Office 2021 / <br>Office 365 |
 | 10.0.60910 | 08/08/2023 | Microsoft Office 2013 / <br>Microsoft Office 2016 / <br>Microsoft Office 2019 / <br>Microsoft Office 2021 / <br>Office 365 |
+| 10.0.60912 | 11/01/2023 | Microsoft Office 2019 / <br>Microsoft Office 2021 / <br>Office 365 |
 
 For more information on the Office Support Lifecycle, see [Lifecycle FAQ - Office, Office 365, and Microsoft 365](/lifecycle/faq/office).

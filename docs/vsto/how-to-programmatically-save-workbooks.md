@@ -1,6 +1,6 @@
 ---
 title: "Programmatically save workbooks"
-description: Programmatically save Microsoft Excel workbooks without changing the path and save a copy of a workbook without modifying the open workbook in memory.
+description: Save Microsoft Excel workbooks without changing the path and save a copy without modifying the open workbook in memory programmatically in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -15,7 +15,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Programmatically save workbooks
+# Programmatically save workbooks
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   There are several ways to save a workbook. You can save a workbook without changing the path. If the workbook has not been saved before, you should save the workbook by specifying a path. Without an explicit path, Microsoft Office Excel saves the file in the current folder with the name it was given when it was created. You can also save a copy of the workbook without modifying the open workbook in memory.

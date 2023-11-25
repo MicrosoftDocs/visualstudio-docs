@@ -1,6 +1,6 @@
 ---
 title: 'Clean a Build'
-description: Learn how to use MSBuild to clean a build, deleting all intermediate and output files and leaving only the project and component files.
+description: Use MSBuild to clean a build, delete all of the intermediate and output files, and leave only the project and component files.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -13,7 +13,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
 ---
-# How to: Clean a build
+# Clean a build
 
 When you clean a build, all intermediate and output files are deleted, leaving only the project and component files. From the project and component files, new instances of the intermediate and output files can then be built. 
 

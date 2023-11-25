@@ -1,6 +1,6 @@
 ---
 title: 'Create and edit configurations'
-description: Learn how you can use Visual Studio to create and edit several build configurations for your solution.
+description: Create and edit several build configurations for your solution in Visual Studio with the Configuration Manager, including Release, Debug, and Test.
 ms.date: 08/15/2023
 ms.technology: vs-ide-compile
 ms.topic: how-to
@@ -18,7 +18,7 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ---
-# How to: Create and edit configurations
+# Create and edit configurations
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

@@ -1,6 +1,6 @@
 ---
 title: "Programmatically copy worksheets"
-description: Learn how you can create a copy of a worksheet, and insert that worksheet before or after an existing worksheet in the workbook.
+description: Copy a Microsoft Office Excel worksheet and insert the worksheet copy before or after an existing worksheet in the workbook programmatically from Visual Basic or C#.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -14,7 +14,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Programmatically copy worksheets
+# Programmatically copy worksheets
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can create a copy of a worksheet, and insert that worksheet before or after an existing worksheet in the workbook. If you do not specify where to insert the worksheet, Excel creates a new workbook to contain the new worksheet.

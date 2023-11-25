@@ -3,9 +3,9 @@ title: Admin responsibilities in Visual Studio subscriptions | Visual Studio Mar
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 07/26/2023
+ms.date: 11/02/2023
 ms.topic: conceptual
-description:  Learn about responsibilities of subscriptions admins.
+description: Review task responsibilities and roles for Visual Studio subscription administrators, such as ensuring subscriptions are managed in accordance with license terms.
 ---
 # Overview of admin responsibilities
 
@@ -31,8 +31,8 @@ Visual Studio admins must assign Visual Studio Subscriptions to **specific, name
 
 Here are some ways to simplify taking inventory of your preproduction environment:
 + Review your user assignments. Microsoft provides a website called the [Visual Studio Administration Portal](https://manage.visualstudio.com/) to help you manage and track Visual Studio subscription assignments.
-+ Use your on-premises or cloud-based Active Directory to list users. If you use Active Directory to manage user access, you may be able to identify development and test users by their directory membership.
-+ Use automated tools to inventory systems. You may also need to use a software inventory tool to help manage your software assets and distinguish preproduction environments from production ones. Many customers with Microsoft System Center create naming conventions to help automate this part of the inventory process.
++ Use your on-premises or cloud-based Microsoft Entra ID to list users. If you use Microsoft Entra ID to manage user access, you might be able to identify development and test users by their directory membership.
++ Use automated tools to inventory systems. You might also need to use a software inventory tool to help manage your software assets and distinguish preproduction environments from production ones. Many customers with Microsoft System Center create naming conventions to help automate this part of the inventory process.
 + Get help with manual reconciliation. Enlist your staff to help reconcile your dev/test users with your development and test environment.
 
 > [!NOTE]
@@ -45,10 +45,10 @@ Visual Studio subscriptions allow developers to install and use software to desi
 | Category  | Benefit or limitation |
 |-----------|---------------------  |
 | User-based licensing  | MSDN Platforms and all levels of Visual Studio subscriptions are licensed on a per-user basis. Each development team member that interacts (install, configure, or access) with the software included with these products and services requires their own Visual Studio subscription.  |
-| Unlimited installations  | Each licensed user may install and use the software on any number of devices to design, develop, test, evaluate, and demonstrate software. The exception is Microsoft Office, which is licensed for one desktop. Visual Studio-licensed software can be used at work, home, school, and on devices at a customer’s office or on dedicated hardware hosted by a third party.  |
+| Unlimited installations  | Each licensed user can install and use the software on any number of devices to design, develop, test, evaluate, and demonstrate software. The exception is Microsoft Office, which is licensed for one desktop. Visual Studio-licensed software can be used at work, home, school, and on devices at a customer’s office or on dedicated hardware hosted by a third party.  |
 | Not intended for production environments | Visual Studio subscriptions software isn't licensed for production environments.  This limitation includes:  Any environment accessed by end users for more than acceptance testing or feedback, any environment connecting to a production database, supporting disaster recovery or production backup, use for production during peak periods of activity. Exceptions to this include specific benefits for certain subscription levels, outlined in the [Visual Studio Licensing White Paper](https://aka.ms/vslicensing).  |
-| License reassignment  | When a user no longer requires a license, you may reassign the license to another user if at least 90 days have passed since it was assigned to the previous user. When you reassign a license, any product keys that were already used are available but won't be replaced. For organizations that have Enterprise Agreements (EA), any benefits that were used by the original user, such as Pluralsight training, are reset.   |
-| Exception for end users | At the end of a software development project, end users typically review an application and determine whether it meets the necessary criteria for release. This process is called user acceptance testing (UAT). Team members such as a business sponsor or a product manager can act as proxies for end users. End users who don't have a Visual Studio subscription may access the software for UAT if use of the software otherwise complies with all Visual Studio licensing terms. It's rare that someone whose primary role is designing, developing, or testing the software would also qualify as an “end user”. |
+| License reassignment  | When a user no longer requires a license, you can reassign the license to another user 90 days since it was assigned to the previous user. When you reassign a license, any product keys that were already used are available but aren't replaced. For organizations that have Enterprise Agreements (EA), any benefits that were used by the original user, such as Pluralsight training, are reset.   |
+| Exception for end users | At the end of a software development project, end users typically review an application and determine whether it meets the necessary criteria for release. This process is called user acceptance testing (UAT). Team members such as a business sponsor or a product manager can act as proxies for end users. End users who don't have a Visual Studio subscription can access the software for UAT if use of the software otherwise complies with all Visual Studio licensing terms. It's rare that someone whose primary role is designing, developing, or testing the software would also qualify as an “end user." |
 
 ## Resources
 

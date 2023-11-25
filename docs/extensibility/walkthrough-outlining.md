@@ -1,6 +1,6 @@
 ---
 title: 'Walkthrough: Outlining'
-description: Learn how to define and display outlining regions in the context of a language service or for your own file name extension and content type.
+description: Define and display outlining regions in the context of a language service or for your own file name extension and content type in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -17,9 +17,6 @@ dev_langs:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Set up language-based features such as outlining by defining the kinds of text regions you want to expand or collapse. You can define regions in the context of a language service, or define your own file name extension and content type and apply the region definition to only that type, or apply the region definitions to an existing content type (such as "text"). This walkthrough shows how to define and display outlining regions.
-
-## Prerequisites
- Starting in Visual Studio 2015, you don't install the Visual Studio SDK from the download center. It's included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ## Create a Managed Extensibility Framework (MEF) project
 

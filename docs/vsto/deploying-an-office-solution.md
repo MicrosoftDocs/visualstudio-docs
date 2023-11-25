@@ -1,6 +1,6 @@
 ---
 title: "Deploy an Office solution"
-description: You can deploy Office solutions by using ClickOnce or Windows Installer. By using ClickOnce, you reduce the number of steps that deploying your solution requires.
+description: Deploy Office solutions with Windows Installer or by using with ClickOnce to reduce the number of required deployment steps for your solution.
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:

@@ -1,6 +1,6 @@
 ---
 title: Creating multi-file item templates
-description: Learn how to create an item template in Visual Studio that is made up of multiple files.
+description: Create item templates in Visual Studio that are made up of multiple files, and use the Export Template Wizard to automatically generate the necessary parameters.
 ms.date: 01/02/2018
 ms.topic: how-to
 helpviewer_keywords:
@@ -12,7 +12,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ---
-# How to: Create multi-file item templates
+# Create multi-file item templates
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

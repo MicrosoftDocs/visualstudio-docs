@@ -1,6 +1,6 @@
 ---
 title: 'Install a Source Control Plug-in'
-description: Learn how to install a source control plug-in in Visual Studio by integrating it with the Visual Studio Source Control Plug-in API, and registering its DLL.
+description: Install a source control plug-in in Visual Studio by integrating it with the Visual Studio Source Control Plug-in API and registering the DLL.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -11,7 +11,7 @@ ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ---
-# How to: Install a source control plug-in
+# Install a source control plug-in
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creating a source-control plug-in involves three steps:

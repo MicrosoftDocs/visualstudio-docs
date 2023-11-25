@@ -1,6 +1,6 @@
 ---
 title: File nesting rules for Solution Explorer
-description: Learn about Solution Explorer file nesting rules, presets, and customization.
+description: Discover Solution Explorer in Visual Studio and review how to work with file nesting rules, presets, and customization for project-specific settings.
 ms.date: 05/25/2018
 ms.topic: conceptual
 helpviewer_keywords:

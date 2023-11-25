@@ -1,6 +1,6 @@
 ---
 title: Using Peek Definition
-description: Learn how to use the Peek Definition command to view and edit your code without having to switch context from the code you're currently writing.
+description: Use the Peek Definition command to view and edit your code without having to switch context from the code you're currently writing.
 ms.date: 01/10/2018
 ms.topic: how-to
 author: ghogen
@@ -8,7 +8,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ---
-# How to: View and edit code by using Peek Definition (Alt+F12)
+# View and edit code by using Peek Definition (Alt+F12)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

@@ -1,6 +1,6 @@
 ---
 title: "Programmatically select worksheets"
-description: Use Visual Studio to programmatically select Microsoft Excel worksheets with the worksheet host item or the sheets collection of the Excel workbook.
+description: Select Microsoft Excel worksheets with the worksheet host item or sheets collection of the Excel workbook programmatically from Visual Basic or C# in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -14,7 +14,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Programmatically select worksheets
+# Programmatically select worksheets
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The <xref:Microsoft.Office.Tools.Excel.Worksheet.Select%2A> method selects the specified object, which moves the user's selection to the new object. Use the <xref:Microsoft.Office.Tools.Excel.Worksheet.Activate%2A> method if you want to bring focus to the object without changing the user's selection.

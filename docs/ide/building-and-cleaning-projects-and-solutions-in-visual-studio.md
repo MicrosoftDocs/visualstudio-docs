@@ -1,7 +1,7 @@
 ---
-title: Building and Cleaning Projects and Solutions
-description: Learn how you can build, rebuild, or clean all or some of the projects or project items in a solution.
-ms.date: 10/07/2022
+title: Build and clean projects and solutions
+description: Build, rebuild, or clean some of your projects or project items, or all of your projects, in your Visual Studio project solution.
+ms.date: 10/17/2023
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 f1_keywords:

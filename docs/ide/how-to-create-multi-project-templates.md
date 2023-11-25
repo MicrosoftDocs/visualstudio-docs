@@ -1,6 +1,6 @@
 ---
 title: Create multi-project templates
-description: Learn how to create multi-project templates in Visual Studio that can act as containers for many projects at the same time.
+description: Create multi-project templates in Visual Studio that can act as containers for many projects at the same time and containers for projects of different languages.
 ms.date: 04/17/2019
 ms.topic: how-to
 helpviewer_keywords:
@@ -12,11 +12,14 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ---
-# How to: Create multi-project templates
+# Create multi-project templates
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Multi-project templates act as containers for two or more projects. When you create a project that's based on a multi-project template, every project in the template is added to the solution.
+Multi-project templates act as containers for two or more Visual Studio projects. When you create a project that's based on a multi-project template, every project in the template is added to the solution.
+
+> [!NOTE]
+> The templates discussed in this article are the ones used when you create projects in Visual Studio, not the ones that `dotnet new` creates.
 
 A multi-project template has two or more project templates and a root template of type **ProjectGroup**.
 

@@ -1,6 +1,6 @@
 ---
 title: "Excel Object model overview"
-description: Learn that you can interact with the objects provided by the Excel object model to develop solutions that use Microsoft Office Excel.
+description: Interact with the objects provided by the Excel object model and develop projects and solutions that use Microsoft Office Excel.
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:

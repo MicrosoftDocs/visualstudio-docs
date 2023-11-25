@@ -1,6 +1,6 @@
 ---
 title: "Programmatically create new documents"
-description: Learn how you can programmatically create new documents in Microsoft Word by using Visual Studio.
+description: Create a new Microsoft Word document programmatically from Visual Basic or C# in Visual Studio by using the default template or with a custom template.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -15,7 +15,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Programmatically create new documents
+# Programmatically create new documents
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When you create a document programmatically, the new document is a native <xref:Microsoft.Office.Interop.Word.Document> object. This object does not have the additional events and data binding capabilities of a <xref:Microsoft.Office.Tools.Word.Document> host item. For more information, see [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md).

@@ -8,7 +8,7 @@ ms.author: jasonchlus
 manager: jmartens
 ms.technology: vs-help-viewer
 ---
-# How to: Search for topics in Help Viewer
+# Search for topics in Help Viewer
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

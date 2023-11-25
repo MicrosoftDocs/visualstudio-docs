@@ -1,8 +1,8 @@
-- name: Visual Studio version control docs
+- name: Track changes with Git
   href: index.yml
 - name: Overview
   items:
-  - name: Git experience in Visual Studio
+  - name: Git in Visual Studio
     href: git-with-visual-studio.md
   expanded: true
 - name: Get started
@@ -25,6 +25,8 @@
     href: git-line-staging.md
   - name: Push to remote
     href: git-push-remote.md
+  - name: Create a pull request
+    href: git-create-pull-request.md
   - name: Fetch, pull, and sync
     href: git-fetch-pull-sync.md
 - name: Repo management

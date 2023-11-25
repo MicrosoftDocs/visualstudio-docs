@@ -1,7 +1,7 @@
 ---
 title: Add, update, or remove a WCF data service reference
-description: Review how to add, update, or remove a Windows Communication Foundation (WCF) data service reference.
-ms.date: 10/07/2022
+description: Explore how to add, update, or remove a Windows Communication Foundation (WCF) data service reference for .NET Framework applications in Visual Studio.
+ms.date: 10/17/2023
 ms.topic: how-to
 helpviewer_keywords:
 - service references [Visual Studio]
@@ -14,7 +14,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# How to: Add, update, or remove a WCF data service reference
+# Add, update, or remove a WCF data service reference
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

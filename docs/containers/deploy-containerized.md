@@ -1,20 +1,20 @@
 ---
-title: How to deploy an app into a container in the cloud with Visual Studio
+title: Deploy an app into a container in the cloud with Visual Studio
 author: ghogen
-description: Learn how to deploy an app into a container in Azure or Docker Hub without Docker Desktop or a Dockerfile.
+description: Deploy an application into a container in Azure or Docker Hub in Visual Studio rather than using Docker Desktop or a Dockerfile.
 ms.author: ghogen
-ms.date: 11/30/2022
+ms.date: 10/23/2023
 ms.technology: vs-container-tools
 ms.topic: how-to
 ---
 # Deploy an app into a container in Azure or Docker Hub
 
-You can deploy a .NET 7 app without Docker Desktop or a Dockerfile. Visual Studio provides a deployment option that handles this conveniently for you.
+You can deploy a .NET 7 or later app without Docker Desktop or a Dockerfile. Visual Studio provides a deployment option that handles this conveniently for you.
 
 ## Prerequisites
 
 - Install [Visual Studio 2022 version 17.5](https://visualstudio.microsoft.com/vs/) or later.
-- A .NET 7 project
+- A .NET 7 or later project
 - For Azure targets, an Azure subscription. Sign up for a [free trial](https://azure.microsoft.com/free/search).
 - For Docker Hub, a Docker account. If you don't have one, you can [sign up](https://hub.docker.com/signup/).
 
@@ -48,7 +48,7 @@ The app is deployed to ACR, and Visual Studio creates a publish profile for the 
 
 ## Deploy to Azure Container Apps
 
-If you have an ASP.NET Core 7 project, you can deploy it to Azure Container Apps.
+If you have an ASP.NET Core 7 or later project, you can deploy it to Azure Container Apps.
 
 1. Right-click on the project node and choose **Publish**, then **Azure**.
 

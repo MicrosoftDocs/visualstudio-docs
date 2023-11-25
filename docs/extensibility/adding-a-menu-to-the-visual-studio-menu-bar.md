@@ -1,6 +1,6 @@
 ---
 title: Adding a Menu to the Visual Studio Menu Bar
-description: Learn how to add a menu to the menu bar of the Visual Studio integrated development environment (IDE).
+description: Create a Visual Studio extension to add a menu to the menu bar to the Visual Studio integrated development environment (IDE).
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:
@@ -25,10 +25,6 @@ By completing this walkthrough, you can create a menu named **Test Menu** that c
 
 > [!NOTE]
 > Starting in Visual Studio 2019, top level menus contributed by extensions are placed under the **Extensions** menu.
-
-## Prerequisites
-
-Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ## Create a VSIX project that has a custom command item template
 

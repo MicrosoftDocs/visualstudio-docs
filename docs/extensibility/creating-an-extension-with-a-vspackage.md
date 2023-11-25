@@ -14,10 +14,6 @@ ms.technology: vs-ide-sdk
 
 This walkthrough shows you how to create a VSIX project and add a VSPackage project item. We will use the VSPackage to get the UI Shell service in order to show a message box.
 
-## Prerequisites
-
-Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
-
 ## Create a VSPackage
 
 1. Create a VSIX project named **FirstPackage**. You can find the VSIX project template in the **New Project** dialog by searching for "vsix".

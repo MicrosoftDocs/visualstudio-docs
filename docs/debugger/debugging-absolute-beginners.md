@@ -1,7 +1,7 @@
 ---
 title: "Debugging code for absolute beginners"
 description: "If you're debugging for the first time, learn a few principles to help you run your app in debugging mode with Visual Studio."
-ms.date: 06/26/2023
+ms.date: 10/19/2023
 ms.topic: tutorial
 helpviewer_keywords:
   - "debugger"
@@ -10,11 +10,11 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
 ---
-# How to debug for absolute beginners
+# Debug for absolute beginners
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Without fail, the code we write as software developers doesn’t always do what we expected it to do. Sometimes it does something completely different! When this happens, the next task is to figure out why, and although we might be tempted to just keep staring at our code for hours, it’s much easier and more efficient to use a debugging tool or debugger.
+Without fail, the code we write as software developers doesn’t always do what we expected it to do. Sometimes it does something completely different! When the unexpected happens, the next task is to figure out why, and although we might be tempted to just keep staring at our code for hours, it's easier and more efficient to use a debugging tool or debugger.
 
 A debugger, unfortunately, isn’t something that can magically reveal all the problems or “bugs” in our code. *Debugging* means to run your code step by step in a debugging tool like Visual Studio, to find the exact point where you made a programming mistake. You then understand what corrections you need to make in your code and debugging tools often allow you to make temporary changes so you can continue running the program.
 
@@ -28,15 +28,15 @@ It helps to clarify the problem that you ran into before you try to fix it. We e
 
 * What happened instead?
 
-    If you run into an error (exception) while running your app, that can be a good thing! An exception is an unexpected event encountered when running code, typically an error of some kind. A debugging tool can take you to the exact place in your code where the exception occurred and can help you investigate possible fixes.
+    If you run into an error (exception) while running your app, it can be a good thing! An exception is an unexpected event encountered when running code, typically an error of some kind. A debugging tool can take you to the exact place in your code where the exception occurred and can help you investigate possible fixes.
 
     If something else happened, what is the symptom of the problem? Do you already suspect where this problem occurred in your code? For example, if your code displays some text, but the text is incorrect, you know that either your data is bad or the code that set the display text has some kind of bug. By stepping through the code in a debugger, you can examine each and every change to your variables to discover exactly when and how incorrect values are assigned.
 
 ## Examine your assumptions
 
-Before you investigate a bug or an error, think of the assumptions that made you expect a certain result. Hidden or unknown assumptions can get in the way of identifying a problem even when you're looking right at the cause of the problem in a debugger. You may have a long list of possible assumptions! Here are a few questions to ask yourself to challenge your assumptions.
+Before you investigate a bug or an error, think of the assumptions that made you expect a certain result. Hidden or unknown assumptions can get in the way of identifying a problem even when you're looking right at the cause of the problem in a debugger. You might have a long list of possible assumptions! Here are a few questions to ask yourself to challenge your assumptions.
 
-* Are you using the right API (that is, the right object, function, method, or property)? An API that you're using might not do what you think it does. (After you examine the API call in the debugger, fixing it may require a trip to the documentation to help identify the correct API.)
+* Are you using the right API (that is, the right object, function, method, or property)? An API that you're using might not do what you think it does. (After you examine the API call in the debugger, fixing it can require a trip to the documentation to help identify the correct API.)
 
 * Are you using an API correctly? Maybe you used the right API but didn't use it in the right way.
 
@@ -51,17 +51,17 @@ Before you investigate a bug or an error, think of the assumptions that made you
     > [!TIP]
     > When writing code, start small and start with code that works! (Good sample code is helpful here.) Sometimes, it is easier to fix a large or complicated set of code by starting with a small piece of code that demonstrates the core task you are trying to achieve. Then, you can modify or add code incrementally, testing at each point for errors.
 
-By questioning your assumptions, you may reduce the time it takes to find a problem in your code. You may also reduce the time it takes to fix a problem.
+By questioning your assumptions, you can reduce the time it takes to find a problem in your code. You might also reduce the time it takes to fix a problem.
 
 ## Step through your code in debugging mode to find where the problem occurred
 
 When you normally run an app, you see errors and incorrect results only after the code has run. A program might also terminate unexpectedly without telling you why.
 
-Running an app within a debugger, also called *debugging mode*, means that the debugger actively monitors everything that’s happening as the program runs. It also allows you to pause the app at any point to examine its state and then step through your code line by line to watch every detail as it happens.
+When you run an app within a debugger, also called *debugging mode*, the debugger actively monitors everything that's happening as the program runs. It also allows you to pause the app at any point to examine its state and then step through your code line by line to watch every detail as it happens.
 
 In Visual Studio, you enter debugging mode by using **F5** (or the **Debug** > **Start Debugging** menu command or the **Start Debugging** button :::image type="content" source="../debugger/media/dbg-tour-start-debugging.png" alt-text="Icon showing Start Debugging button."::: in the Debug Toolbar). If any exceptions occur, Visual Studio’s Exception Helper takes you to the exact point where the exception occurred and provides other helpful information. For more information on how to handle exceptions in your code, see [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md#fix-an-exception).
 
-If you didn't get an exception, you probably have a good idea of where to look for the problem in your code. This is where you use *breakpoints* with the debugger to give yourself a chance to examine your code more carefully. Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should pause your running code so you can take a look at the values of variables, or the behavior of memory, the sequence in which code runs.
+If you didn't get an exception, you probably have a good idea of where to look for the problem in your code. This step is where you use *breakpoints* with the debugger to give yourself a chance to examine your code more carefully. Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should pause your running code so you can take a look at the values of variables, or the behavior of memory, the sequence in which code runs.
 
 In Visual Studio, you can quickly set a breakpoint by clicking in the left margin next to a line of code. Or place the cursor on a line and press **F9**.
 
@@ -69,19 +69,19 @@ To help illustrate these concepts, we take you through some example code that al
 
 ### Create a sample app (with some bugs)
 
-Next, we'll create an application that has a few bugs.
+Next, you create an application that has a few bugs.
 
 1. You must have Visual Studio installed, and the **.NET desktop development** workload installed.
 
     If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
 
-    If you need to install the workload but already have Visual Studio, click **Tools** > **Get Tools and Features**. The Visual Studio Installer launches. Choose the **.NET desktop development** workload, then choose **Modify**.
+    If you need to install the workload but already have Visual Studio, select **Tools** > **Get Tools and Features**. The Visual Studio Installer launches. Choose the **.NET desktop development** workload, then choose **Modify**.
 
 1. Open Visual Studio.
 
-    On the start window, choose **Create a new project**. Type **console** in the search box, select either **C#** or **Visual Basic** as the language, and then choose **Console App** for .NET. Choose **Next**. Type a project name like **ConsoleApp_FirstApp** and click **Next**.
+    On the start window, choose **Create a new project**. Type **console** in the search box, select either **C#** or **Visual Basic** as the language, and then choose **Console App** for .NET. Choose **Next**. Type a project name like **ConsoleApp_FirstApp** and select **Next**.
 
-    Choose either the recommended target framework or .NET 6, and then choose **Create**.
+    Choose either the recommended target framework or .NET 8, and then choose **Create**.
 
     If you don't see the **Console App** project template for .NET, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose the **.NET desktop development** workload, then choose **Modify**.
 
@@ -292,7 +292,7 @@ Andromeda  3,  Spiral
 Maffei 1,  Elliptical
  ```
 
-But, we see this instead:
+But, you see this output instead:
 
 ```
 Tadpole  400,  ConsoleApp_FirstApp.GType
@@ -331,32 +331,32 @@ Maffei 1, 11,  ConsoleApp_FirstApp.GType
     ---
     When you set the breakpoint, a red dot appears in the left margin.
 
-    As we see a problem in the output, we'll start debugging by looking at the preceding code that sets the output in the debugger.
+    As you see a problem in the output, you start debugging by looking at the preceding code that sets the output in the debugger.
 
-1. Click the **Restart** :::image type="content" source="../debugger/media/dbg-tour-restart.png" alt-text="Icon showing RestartApp button in Debug toolbar."::: button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**).
+1. Select the **Restart** :::image type="content" source="../debugger/media/dbg-tour-restart.png" alt-text="Icon showing RestartApp button in Debug toolbar."::: button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**).
 
     The app pauses at the breakpoint that you set. The yellow highlighting indicates where the debugger is paused (the yellow line of code hasn't yet been executed).
 
 1. Hover over the `GalaxyType` variable on the right, and then, to the left of the wrench icon, expand `theGalaxy.GalaxyType`. You see that `GalaxyType` contains a property `MyGType`, and the property value is set to `Spiral`.
 
-    :::image type="content" source="../debugger/media/beginners-inspect-variable.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code in yellow and a menu expanded below the theGalaxy.GalaxyType property at the end of the line.":::
+    :::image type="content" source="../debugger/media/beginners-inspect-variable.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code in yellow and a menu open below the Galaxy GalaxyType property.":::
 
-    "Spiral" is actually the correct value you were expecting to print to the console! So it is a good start that you can access this value in this code while running the app. In this scenario, we're using the incorrect API. We'll see if we can fix this while running code in the debugger.
+    "Spiral" is actually the correct value you were expecting to print to the console! So it's a good start that you can access the value in this code while running the app. In this scenario, we're using the incorrect API. Let's see if you can fix this while running code in the debugger.
 
-1. In the same code, while still debugging, put your cursor at the end of `theGalaxy.GalaxyType` and change it to `theGalaxy.GalaxyType.MyGType`. Although you can make this change, the code editor shows you an error indicating it can't compile this code. (In Visual Basic, you won't see the error, and this section of code works)
+1. In the same code, while still debugging, put your cursor at the end of `theGalaxy.GalaxyType` and change it to `theGalaxy.GalaxyType.MyGType`. Although you can make the change, the code editor shows you an error indicating it can't compile this code. (In Visual Basic, the error isn't shown and this section of code works.)
 
 1. Press **F11** (**Debug** > **Step Into** or the **Step Into** button in the Debug Toolbar) to execute the current line of code.
 
-    **F11** advances the debugger (and executes code) one statement at a time. **F10** (**Step Over**) is a similar command, and both are extremely useful when learning how to use the debugger.
+    **F11** advances the debugger (and executes code) one statement at a time. **F10** (**Step Over**) is a similar command, and both are useful when learning how to use the debugger.
 
    The Edit and Continue dialog box appears, indicating that edits can't be compiled.
 
-    :::image type="content" source="../debugger/media/beginners-edit.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code highlighted in red and an Edit and Continue message box with the Edit button selected.":::
+    :::image type="content" source="../debugger/media/beginners-edit.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code highlighted in red and a message box with the Edit option selected.":::
 
    > [!NOTE]
    > For debugging the Visual Basic example code, skip the next few steps until you're instructed to click the **Restart** :::image type="content" source="../debugger/media/dbg-tour-restart.png" alt-text="Icon showing Restart app button in Debug toolbar."::: button.
 
-1. Click **Edit** in the **Edit and Continue** message box. You see an error message now in the **Error List** window. The error indicates that the `'object'` doesn't contain a definition for `MyGType`.
+1. Select **Edit** in the **Edit and Continue** message box. You see an error message now in the **Error List** window. The error indicates that the `'object'` doesn't contain a definition for `MyGType`.
 
     :::image type="content" source="../debugger/media/beginners-no-definition.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code highlighted in red and an Error List window with two errors listed.":::
 
@@ -368,19 +368,19 @@ Maffei 1, 11,  ConsoleApp_FirstApp.GType
     public object GalaxyType { get; set; }
     ```
 
-1. Change the preceding code to this:
+1. Change the preceding code as follows:
 
     ```csharp
     public GType GalaxyType { get; set; }
     ```
 
-1. Click the **Restart** :::image type="content" source="../debugger/media/dbg-tour-restart.png" alt-text="Icon showing Restart app button in Debug toolbar."::: button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**) to recompile code and restart.
+1. Select the **Restart** :::image type="content" source="../debugger/media/dbg-tour-restart.png" alt-text="Icon showing Restart app button in Debug toolbar."::: button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**) to recompile code and restart.
 
     Now, when the debugger pauses on `Console.WriteLine`, you can hover over `theGalaxy.GalaxyType.MyGType`, and see that the value is properly set.
 
 1. Remove the breakpoint by clicking on the breakpoint circle in the left margin (or right-click and choose **Breakpoint** > **Delete Breakpoint**), and then press **F5** to continue.
 
-    The app runs and displays output. It looks pretty good now, but you do notice one thing; you expected the Small Magellanic Cloud galaxy to show up as an Irregular galaxy in the console output, but it shows no galaxy type at all.
+    The app runs and displays output. It's looking good, but you notice one thing. You expected the Small Magellanic Cloud galaxy to show up as an Irregular galaxy in the console output, but it shows no galaxy type at all.
 
     ```
     Tadpole  400,  Spiral
@@ -409,7 +409,7 @@ Maffei 1, 11,  ConsoleApp_FirstApp.GType
 
     This code is where the galaxy type is set, so we want to take a closer look at it.
 
-1. Click the **Restart** :::image type="content" source="../debugger/media/dbg-tour-restart.png" alt-text="Icon showing Restart app button in Debug toolbar."::: button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**) to restart.
+1. Select the **Restart** :::image type="content" source="../debugger/media/dbg-tour-restart.png" alt-text="Icon showing Restart app button in Debug toolbar."::: button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**) to restart.
 
     The debugger pauses on the line of code where you set the breakpoint.
 
@@ -417,7 +417,7 @@ Maffei 1, 11,  ConsoleApp_FirstApp.GType
 
 1. Press **F5** and hover over the `type` variable again. Repeat this step until you see a value of `I` in the `type` variable.
 
-    :::image type="content" source="../debugger/media/beginners-inspecting-data.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code in yellow and a small window showing the value of the type variable as 73 'I'.":::
+    :::image type="content" source="../debugger/media/beginners-inspecting-data.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code in yellow and a window with the type variable value of 73 I.":::
 
 1. Now, press **F11** (**Debug** > **Step Into**).
 
@@ -427,9 +427,9 @@ Maffei 1, 11,  ConsoleApp_FirstApp.GType
 
     Looking at the code, you see a typo in the `case 'l'` statement. It should be `case 'I'`.
 
-1. Click in the code for `case 'l'` and replace it with `case 'I'`.
+1. Select in the code for `case 'l'` and replace it with `case 'I'`.
 
-1. Remove your breakpoint, and then click the **Restart** button to restart the app.
+1. Remove your breakpoint, and then select the **Restart** button to restart the app.
 
     The bugs are fixed now and you see the Output you expect!
 

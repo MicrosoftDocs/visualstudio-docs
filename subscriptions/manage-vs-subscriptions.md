@@ -5,7 +5,7 @@ ms.author: amast
 manager: shve
 ms.date: 03/30/2023
 ms.topic: conceptual
-description: Learn how to get the most out of your Visual Studio subscriptions
+description: Explore management tasks for your Visual Studio subscriptions, including renewal, transfer, profile changes, and setting preferences.
 ---
 # Managing subscriptions
 
@@ -109,7 +109,7 @@ A: Depending on the purchasing channel, Microsoft maintains customer data for di
 | DevEssentials | 30 |
 
 > [!NOTE]
-> + If you choose to close your Microsoft Account or Azure AD, your personal data will be anonymized immediately.
+> + If you choose to close your Microsoft Account or Microsoft Entra ID, your personal data will be anonymized immediately.
 > + We will not fully remove all your personal data if you have active subscriptions.
 
 ## Support resources

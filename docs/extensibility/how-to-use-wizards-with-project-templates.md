@@ -1,6 +1,6 @@
 ---
 title: 'Use Wizards with Project Templates'
-description: Learn how to use the IWizard interface in the Visual Studio SDK, which enables you to run custom code when a user creates a project from a template.
+description: Use the IWizard interface in the Visual Studio SDK, which enables you to run custom code when a user creates a project from a template.
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:
@@ -14,7 +14,7 @@ ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ---
-# How to: Use wizards with project templates
+# Use wizards with project templates
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

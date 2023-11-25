@@ -2,7 +2,7 @@
 title: "Hello World app with WPF in C#"
 description: Create a simple Windows Desktop .NET app in C# with Visual Studio using the Windows Presentation Foundation (WPF) UI framework.
 ms.custom: vs-acquisition
-ms.date: 9/18/2023
+ms.date: 11/17/2023
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: tutorial
@@ -14,14 +14,14 @@ manager: jmartens
 ---
 # Tutorial: Create a simple WPF application with C\#
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-By completing this tutorial, you'll become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You'll create a "Hello, World" application, design the UI, add code, and debug errors, while you learn about working in the integrated development environment ([IDE](visual-studio-ide.md)).
+By completing this tutorial, you become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You create a "Hello, World" application, design the UI, add code, and debug errors, while you learn about working in the integrated development environment ([IDE](visual-studio-ide.md)).
 
 ## Prerequisites
 
 - If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
-- Make sure the **.NET desktop development** workload is installed. You can verify this in the Visual Studio Installer.
+- Make sure the **.NET desktop development** workload is installed. You can verify this configuration in the Visual Studio Installer.
 - You can use either .NET Framework or .NET Core for this tutorial. .NET Core is the newer, more modern framework. .NET Core requires Visual Studio 2019 version 16.3 or later.
 
 ## What is WPF?
@@ -32,11 +32,11 @@ WPF is part of .NET, so if you have previously built applications with .NET usin
 
 ## Configure the IDE
 
-When you launch Visual Studio, the start window opens first. Select **Continue without code** to open the development environment. You'll see tool windows, the menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the application window. The search box, menu bar, and the standard toolbar are located at the top. When you load a solution or project, editors and designers appear in the central space of the application window. When you develop an application, you'll spend most of your time in this central area.
+When you launch Visual Studio, the start window opens first. Select **Continue without code** to open the development environment. You see tool windows, the menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the application window. The search box, menu bar, and the standard toolbar are located at the top. When you load a solution or project, editors and designers appear in the central space of the application window. When you develop an application, you spend most of your time in this central area.
 
 ## Create the project
 
-When you create an application in Visual Studio, you first create a project and a solution. For this example, you'll create a Windows Presentation Foundation (WPF) project.
+When you create an application in Visual Studio, you first create a project and a solution. For this example, you create a Windows Presentation Foundation (WPF) project.
 
 ::: moniker range="vs-2019"
 
@@ -52,11 +52,11 @@ When you create an application in Visual Studio, you first create a project and 
 
 1. At the next screen, give the project a name, **HelloWPFApp**, and choose **Next**.
 
-   :::image type="content" source="./media/vs-2019/explore-ide-name-project.png" alt-text="Screenshot of the 'Configure your new project' dialog with 'HelloWPFApp' entered in the Project name field.":::
+   :::image type="content" source="./media/vs-2019/explore-ide-name-project.png" alt-text="Screenshot of the 'Configure your new project' dialog in Visual Studio with 'HelloWPFApp' entered in the Project name field." lightbox="./media/vs-2019/explore-ide-name-project.png":::
 
 1. In the **Additional information** window, **.NET Core 3.1** should already be selected for your target framework. If not, select **.NET Core 3.1**. Then, choose **Create**.
 
-   :::image type="content" source="./media/vs-2019/wpf-target-framework.png" alt-text="In the 'Additional information' window, make sure .NET Core 3.1 is selected":::
+   :::image type="content" source="./media/vs-2019/wpf-target-framework.png" alt-text="Screenshot that shows the Additional information window in Visual Studio with .NET Core 3.1 selected as the target framework for the new project." lightbox="./media/vs-2019/wpf-target-framework.png":::
 
 Visual Studio creates the HelloWPFApp project and solution, and **Solution Explorer** shows the various files. The **WPF Designer** shows a design view and a XAML view of *MainWindow.xaml* in a split view. You can slide the splitter to show more or less of either view. You can choose to see only the visual view or only the XAML view.
 
@@ -85,15 +85,15 @@ After you create the project, you can customize it. To do so, choose **Propertie
 
 1. At the next screen, give the project a name, **HelloWPFApp**, and choose **Next**.
 
-   :::image type="content" source="media/vs-2022/explore-ide-name-project.png" alt-text="Screenshot of the 'Configure your new project' dialog with 'HelloWPFApp' entered in the Project name field.":::
+   :::image type="content" source="media/vs-2022/explore-ide-name-project.png" alt-text="Screenshot that shows the 'Configure your new project' dialog in Visual Studio with 'HelloWPFApp' entered in the Project name field." lightbox="media/vs-2022/explore-ide-name-project.png":::
 
-1. In the **Additional information** window, **.NET 7.0 (Standard Term Support)** should already be selected for your target framework. If not, select **.NET 7.0 (Standard Term Support)**. Then, choose **Create**.
+1. In the **Additional information** window, verify that **.NET 8.0** is selected for your target framework. Then, choose **Create**.
 
-   :::image type="content" source="media/vs-2022/wpf-target-framework.png" alt-text="In the 'Screenshot of the Additional information window with '.NET 7.0 (Standard Term Support)' selected in the Framework field.":::
+   :::image type="content" source="media/vs-2022/wpf-target-framework.png" alt-text="Screenshot that shows the Additional information window in Visual Studio with .NET 8.0 selected as the target framework for the new project." lightbox="media/vs-2022/wpf-target-framework.png":::
 
 Visual Studio creates the HelloWPFApp project and solution, and **Solution Explorer** shows the various files. The **WPF Designer** shows a design view and a XAML view of *MainWindow.xaml* in a split view. You can slide the splitter to show more or less of either view. You can choose to see only the visual view or only the XAML view.
 
-:::image type="content" source="media/vs-2022/explore-ide-wpf-project-cs.png" alt-text="Screenshot of the HelloWPFApp project and solution in the Visual Studio IDE with the Solution Explorer open, and the XAML and designer views of 'MainWindow.xaml' open in the WPF Designer.":::
+:::image type="content" source="media/vs-2022/explore-ide-wpf-project-cs.png" alt-text="Screenshot of the HelloWPFApp project and solution in Solution Explorer, and the XAML and designer views of 'MainWindow.xaml' open in the WPF Designer.":::
 
 > [!NOTE]
 > For more information about XAML (eXtensible Application Markup Language), see the [XAML overview for WPF](/dotnet/framework/wpf/advanced/xaml-overview-wpf) page.
@@ -108,7 +108,7 @@ After you create the project, you can customize it. To do so, choose **Propertie
 
 If the designer isn't open, select *MainWindow.xaml* and press **Shift**+**F7** to open the designer.
 
-We'll add three types of controls to this application: a <xref:System.Windows.Controls.TextBlock> control, two <xref:System.Windows.Controls.RadioButton> controls, and a <xref:System.Windows.Controls.Button> control.
+We add three types of controls to this application: a <xref:System.Windows.Controls.TextBlock> control, two <xref:System.Windows.Controls.RadioButton> controls, and a <xref:System.Windows.Controls.Button> control.
 
 ### Add a TextBlock control
 
@@ -174,7 +174,7 @@ We'll add three types of controls to this application: a <xref:System.Windows.Co
 
 1. Center the TextBlock again if you like, and then save your changes by pressing **Ctrl+S** or using the **File** menu item.
 
-Next, you'll add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) controls to the form.
+Next, you add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) controls to the form.
 
 ### Add radio buttons
 
@@ -196,7 +196,7 @@ Next, you'll add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) c
 
 1. In the **Properties** window for the right RadioButton control, change the **Name** property to `GoodbyeButton`, and then save your changes.
 
-Next, you'll add display text for each RadioButton control. The following procedure updates the **Content** property for a RadioButton control.
+Next, you add display text for each RadioButton control. The following procedure updates the **Content** property for a RadioButton control.
 
 ::: moniker-end
 
@@ -214,11 +214,11 @@ Next, you'll add display text for each RadioButton control. The following proced
 
 1. In the **Properties** window for the left RadioButton control, change the **Name** property (the property at the top of the **Properties** window) to `HelloButton`.
 
-   :::image type="content" source="media/vs-2022/explore-ide-button-properties.png" alt-text="Screenshot of the Properties window for a RadioButton control. The value of the Name property has been changed to 'HelloButton'.":::
+   :::image type="content" source="media/vs-2022/explore-ide-button-properties.png" alt-text="Screenshot of the Properties window for a RadioButton control. The value of the Name property has been changed to HelloButton.":::
 
 1. In the **Properties** window for the right RadioButton control, change the **Name** property to `GoodbyeButton`, and then save your changes.
 
-Next, you'll add display text for each RadioButton control. The following procedure updates the **Content** property for a RadioButton control.
+Next, you add display text for each RadioButton control. The following procedure updates the **Content** property for a RadioButton control.
 
 ::: moniker-end
 
@@ -236,7 +236,7 @@ Next, you'll add display text for each RadioButton control. The following proced
 
 ### Set a radio button to be checked by default
 
-In this step, we'll set HelloButton to be checked by default so that one of the two radio buttons is always selected.
+In this step, we set HelloButton to be checked by default so that one of the two radio buttons is always selected.
 
 1. In the XAML view, locate the markup for HelloButton.
 
@@ -252,7 +252,7 @@ In this step, we'll set HelloButton to be checked by default so that one of the 
    </Grid>
    ```
 
-The final UI element that you'll add is a [Button](/dotnet/framework/wpf/controls/button) control.
+The final UI element that you add is a [Button](/dotnet/framework/wpf/controls/button) control.
 
 ### Add the button control
 
@@ -306,7 +306,7 @@ The final UI element that you'll add is a [Button](/dotnet/framework/wpf/control
 
 ::: moniker range="<=vs-2019"
 
-When this application runs, a message box appears after a user chooses a radio button and then chooses the **Display** button. One message box will appear for Hello, and another will appear for Goodbye. To create this behavior, you'll add code to the `Button_Click` event in *MainWindow.xaml.cs*.
+When this application runs, a message box appears after a user chooses a radio button and then chooses the **Display** button. One message box appears for Hello, and another appears for Goodbye. To create this behavior, you add code to the `Button_Click` event in *MainWindow.xaml.cs*.
 
 1. On the design surface, double-click the **Display** button.
 
@@ -338,7 +338,7 @@ When this application runs, a message box appears after a user chooses a radio b
 
 ::: moniker range=">=vs-2022"
 
-When this application runs, a message box appears after a user chooses a radio button and then chooses the **Display** button. One message box will appear for Hello, and another will appear for Goodbye. To create this behavior, you'll add code to the `Button_Click` event in *MainWindow.xaml.cs*.
+When this application runs, a message box appears after a user chooses a radio button and then chooses the **Display** button. One message box appears for Hello, and another appears for Goodbye. To create this behavior, you add code to the `Button_Click` event in *MainWindow.xaml.cs*.
 
 1. On the design surface, double-click the **Display** button.
 
@@ -351,7 +351,7 @@ When this application runs, a message box appears after a user chooses a radio b
     }
     ```
 
-   When you double-click the **Display** button, `Click="Button_Click"` will be added to the XAML.
+   When you double-click the **Display** button, `Click="Button_Click"` is added to the XAML.
    
    The XAML markup should now look similar to the following example:
 
@@ -383,14 +383,14 @@ When this application runs, a message box appears after a user chooses a radio b
 
 ## Debug and test the application
 
-Next, you'll debug the application to look for errors and test that both message boxes appear correctly. The following instructions tell you how to build and launch the debugger, but later you might read [Build a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf) and [Debug WPF](../../debugger/debugging-wpf.md) for more information.
+Next, you debug the application to look for errors and test that both message boxes appear correctly. The following instructions tell you how to build and launch the debugger, but later you might read [Build a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf) and [Debug WPF](../../debugger/debugging-wpf.md) for more information.
 
 ### Change the name of MainWindow.xaml
 Let's give MainWindow a more specific name. In **Solution Explorer**, right-click on *MainWindow.xaml* and choose **Rename**. Rename the file to *Greetings.xaml*.
 
 ### Find and fix errors
 
-In this step, you'll find the error that we caused earlier by changing the name of the *MainWindow.xaml* file.
+In this step, you find the error that we caused earlier by changing the name of the *MainWindow.xaml* file.
 
 #### Start debugging and find the error
 
@@ -398,9 +398,9 @@ In this step, you'll find the error that we caused earlier by changing the name 
 
 1. Start the debugger by pressing **F5** or selecting **Debug**, then **Start Debugging**.
 
-   A **Break Mode** window appears, and the **Output** window indicates that an IOException has occurred: Cannot locate resource 'mainwindow.xaml'.
+   A **Break Mode** window appears, and the **Output** window indicates that an IOException has occurred: _Cannot locate resource mainwindow.xaml_.
 
-   ![IOException message](../media/exploreide-ioexception.png "Screenshot of the Output window showing a System.IO.IOException with the message 'Cannot locate resource mainwindow.xaml'.")
+   ![IOException message](../media/exploreide-ioexception.png "Screenshot of the Output window showing a System.IO.IOException with the message, Cannot locate resource mainwindow.xaml.")
 
 1. Stop the debugger by choosing **Debug** > **Stop Debugging**.
 
@@ -412,9 +412,9 @@ We renamed *MainWindow.xaml* to *Greetings.xaml*, but the code still refers to *
 
 1. Start the debugger by pressing **F5** or selecting **Debug**, then **Start Debugging**.
 
-   A **Break Mode** window appears, and the **Output** window indicates that an IOException has occurred: Cannot locate resource 'mainwindow.xaml'.
+   A **Break Mode** window appears, and the **Output** window indicates that an IOException has occurred: _Cannot locate resource mainwindow.xaml_.
 
-   :::image type="content" source="media/vs-2022/explore-ide-ioexception.png" alt-text="Screenshot of the Output window showing a System.IO.IOException with the message 'Cannot locate resource mainwindow.xaml'.":::
+   :::image type="content" source="media/vs-2022/explore-ide-ioexception.png" alt-text="Screenshot of the Output window showing a System.IO.IOException with the message, Cannot locate resource mainwindow.xaml.":::
 
 1. Stop the debugger by choosing **Debug** > **Stop Debugging**.
 
@@ -428,7 +428,7 @@ We renamed *MainWindow.xaml* to *Greetings.xaml* at the start of this tutorial, 
 
 1. Change `StartupUri="MainWindow.xaml"` to `StartupUri="Greetings.xaml"`, and save the changes.
 
-As an optional step, it will avoid confusion to change the title of your application window to match this new name.
+As an optional step, it avoids confusion to change the title of your application window to match this new name.
 
 1. In **Solution Explorer**, open the *Greetings.xaml* file that you just renamed.
 

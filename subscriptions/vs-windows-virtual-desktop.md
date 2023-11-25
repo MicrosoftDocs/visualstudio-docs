@@ -3,7 +3,7 @@ title: Microsoft Windows Virtual Desktop in Visual Studio subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 06/15/2023
+ms.date: 11/02/2023
 ms.topic: conceptual
 description:  Learn how you can take advantage of Microsoft Windows Virtual Desktop via your Visual Studio subscription 
 ---
@@ -32,8 +32,8 @@ Visual Studio subscribers now have several ways to use Azure subscriptions to pa
 
 ## Requirements
 
-Windows Virtual Desktop requires an Azure Active Directory (Azure AD) to which VMs are joined.  Users must be members of this Azure AD.  There are two options to implement the Azure AD:
-+ Azure AD Directory Services.  For most users, this option is the easier to implement.
+Windows Virtual Desktop requires a Microsoft Entra tenant to which VMs are joined.  Users must be members of this Microsoft Entra tenant.  There are two options to implement the Microsoft Entra tenant:
++ Microsoft Entra services.  For most users, this option is the easier to implement.
 + A virtual machine running a Domain Controller promo.  This option requires more work to set up but offers most users a lower operating cost.
 To see a full list of prerequisites for using Windows Virtual Desktop, visit the Windows Virtual Desktop [overview page](/azure/virtual-desktop/overview#requirements). 
 
@@ -62,7 +62,7 @@ When all your prerequisites are in place, you should complete several actions to
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
-Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You need to sign in with that email address to see those subscriptions.
+Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you might have one or more assigned to a different email address.  You need to sign in with that email address to see those subscriptions.
 
 ## See also
 

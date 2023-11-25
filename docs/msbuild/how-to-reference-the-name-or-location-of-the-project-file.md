@@ -1,6 +1,6 @@
 ---
 title: Reference the name or location of the project file
-description: Learn how to use MSBuild reserved properties to reference project file name or location without having to create your own properties.
+description: Use MSBuild reserved properties to reference project file name or location without having to create your own properties.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -16,7 +16,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
 ---
-# How to: Reference the name or location of the project file
+# Reference the name or location of the project file
 
 You can use the name or location of the project in the project file itself without having to create your own property. MSBuild provides reserved properties that reference the project file name and other properties related to the project. For more information on reserved properties, see [MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md).
 

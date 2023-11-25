@@ -1,6 +1,6 @@
 ---
 title: 'Walkthrough: Using XML editor Features'
-description: Learn how to create a new XML document by following the steps in this walkthrough that demonstrates features of the XML editor.
+description: Create a new XML document and associate the file with an XML schema by working with features of the XML editor in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: how-to
 author: dzsquared

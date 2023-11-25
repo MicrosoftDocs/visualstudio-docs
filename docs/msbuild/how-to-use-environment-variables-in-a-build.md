@@ -1,6 +1,6 @@
 ---
 title: 'Use Environment Variables in a Build'
-description: Learn how to access environment variables in MSBuild project files, and use environment variables to set build options without modifying the project file.
+description: Work with environment variables in MSBuild project files, and use environment variables to set build options without modifying the project file.
 ms.date: 08/15/2023
 ms.topic: conceptual
 helpviewer_keywords:
@@ -12,7 +12,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
 ---
-# How to: Use environment variables in a build
+# Use environment variables in a build
 
 When you build projects, it is often necessary to set build options using information that is not in the project file or the files that comprise your project. This information is typically stored in environment variables.
 

@@ -1,6 +1,6 @@
 ---
 title: "Programmatically close workbooks"
-description:  Learn how you can close the active workbook or you can specify a workbook to close programmatically.
+description: Close the active Microsoft Office Excel workbook or specify a workbook to close programmatically from Visual Basic or C#.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -14,7 +14,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Programmatically close workbooks
+# Programmatically close workbooks
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can close the active workbook or you can specify a workbook to close.

@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with React"
 description: In this tutorial, you create an app using ASP.NET Core and React
-ms.date: 08/24/2023
+ms.date: 11/14/2023
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -25,9 +25,12 @@ You can use the method described in this article to create ASP.NET Core Single P
 - Put the client app in a separate project, outside from the ASP.NET Core project
 - Create the client project based on the framework CLI installed on your computer
 
+> [!NOTE]
+> This article describes the project creation process using the updated template in Visual Studio 2022 version 17.8, which uses the Vite CLI.
+
 ## Prerequisites
 
-- Visual Studio 2022 version 17.7 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+- Visual Studio 2022 version 17.8 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
   If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 - npm ([https://www.npmjs.com/](https://www.npmjs.com/package/npm)), which is included with Node.js
 - npx ([https://www.npmjs.com/package/npx](https://www.npmjs.com/package/npx))
@@ -36,17 +39,17 @@ You can use the method described in this article to create ASP.NET Core Single P
 
 1. In the Start window, select **Create a new project**. <!-- Avoid parenthetical clauses. https://review.learn.microsoft.com/en-us/help/contribute/localization-mt-guidance?branch=main-->
 
-   :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot showing Create a new project":::
+   :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot showing Create a new project.":::
 
-1. Search for React in the search bar at the top and then select **React and ASP.NET Core (Preview)**. This is a JavaScript template.
+1. Search for React in the search bar at the top and then select **React and ASP.NET Core (Preview)**. This template is a JavaScript template.
 
-   :::image type="content" source="media/vs-2022/react-choose-template.png" alt-text="Screenshot showing choosing a template":::
+   :::image type="content" source="media/vs-2022/react-choose-template.png" alt-text="Screenshot showing choosing a template.":::
 
-1. Give your project and solution a name, and then choose **Create** to create the solution.
+1. Name the project **ReactWithASP** and then choose **Create**.
 
-   Once the project is created, Solution Explorer should look like this:
+   Solution Explorer shows the following project information:
 
-   :::image type="content" source="media/vs-2022/asp-net-core-with-react-solution-explorer.png" alt-text="Screenshot showing Solution Explorer":::
+   :::image type="content" source="media/vs-2022/asp-net-core-with-react-solution-explorer.png" alt-text="Screenshot showing Solution Explorer.":::
 
    Compared to the [standalone React template](../javascript/tutorial-create-react-app.md), you see some new and modified files for integration with ASP.NET Core:
 
@@ -61,76 +64,74 @@ You can use the method described in this article to create ASP.NET Core Single P
 
 ## Set the project properties
 
-1. In Solution Explorer, right-click the ASP.NET Core project and choose **Properties**.
+1. In Solution Explorer, right-click the **ReactWithASP.Server** project and choose **Properties**.
 
-   :::image type="content" source="media/vs-2022/asp-net-core-project-properties.png" alt-text="Screenshot showing Open project properties"::: 
+   :::image type="content" source="media/vs-2022/asp-net-core-project-properties-react.png" alt-text="Screenshot showing Open project properties."::: 
 
-1. In the Properties page, open the **Debug** tab and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option for https.
+1. In the Properties page, open the **Debug** tab and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option for the profile named after the ASP.NET Core project (or https, if present).
 
-   :::image type="content" source="media/vs-2022/asp-net-core-deselect-launch-browser.png" alt-text="Screenshot showing Debug launch profiles UI"::: 
+   :::image type="content" source="media/vs-2022/asp-net-core-deselect-launch-browser-react.png" alt-text="Screenshot showing Debug launch profiles UI."::: 
 
-   This prevents opening the web page with the source weather data.
+   This value prevents opening the web page with the source weather data.
 
    >[!NOTE]
    > In Visual Studio, *launch.json* stores the startup settings associated with the **Start** button in the Debug toolbar. Currently, *launch.json* must be located under the *.vscode* folder.
 
 ## Start the project
 
-To start the project, press **F5** or select the **Start** button at the top of the window. You see two command prompts appear:
+Press **F5** or select the **Start** button at the top of the window to start the app. Two command prompts appear:
 
 - The ASP.NET Core API project running
 - The Vite CLI showing a message such as `VITE v4.4.9 ready in 780 ms`
 
    >[!NOTE]
-   > Check console output for messages, such as a message instructing you to update your version of Node.js.
+   > Check console output for messages. For example there might be a message to update Node.js.
 
-You should see a React app appear, that is populated via the API. If you don't see the app, see [Troubleshooting](#troubleshooting).
+The React app appears and is populated via the API. If you don't see the app, see [Troubleshooting](#troubleshooting).
 
 ## Publish the project
 
-1. In Solution Explorer, right-click the ASP.NET Core project and select **Add** > **Project Reference**.
+1. In Solution Explorer, right-click the **ReactWithASP.Server** project and select **Add** > **Project Reference**.
 
-1. Select the React project and choose **OK**.
+   Make sure the **reactwithasp.client** project is selected.
 
-1. Right-click the ASP.NET Core project in Solution Explorer and select **Unload project**.
+1. Choose **OK**.
 
 1. Right-click the ASP.NET Core project again and select **Edit Project File**.
 
    This opens the *.csproj* file for the project.
 
-1. In the *.csproj* file, update the project reference and add `<ReferenceOutputAssembly>` with the value set to `false`.
+1. In the *.csproj* file, make sure the project reference includes a `<ReferenceOutputAssembly>` element with the value set to `false`.
 
-   When you've updated the reference, it should look like the following. <!-- You can avoid this headache and simplify the instructions by just telling them what to name it -->  The project folder and project name differ.
+   This reference should look like the following.
 
    ```xml
-   <ProjectReference Include="..\reactprojectfolder\reactprojectname.esproj">
-       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-   </ProjectReference>
+    <ProjectReference Include="..\reactwithasp.client\reactwithasp.client.esproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
    ```
 
-1. Right.click the ASP.NET Core project and choose **Reload Project**.
+1. Right-click the ASP.NET Core project and choose **Reload Project** if that option is available.
 
-1. In *Program.cs*, update the check for `Environment.IsDevelopment` so it looks like the following.
+1. In *Program.cs*, make sure the following code is present.
 
    ```csharp
+   app.UseDefaultFiles();
+   app.UseStaticFiles();
+
    // Configure the HTTP request pipeline.
    if (app.Environment.IsDevelopment())
    {
       app.UseSwagger();
       app.UseSwaggerUI();
    }
-   else
-   {
-      app.UseDefaultFiles();
-      app.UseStaticFiles();
-   }
    ```
 
-1. To publish, right click the ASP.NET Core project, choose **Publish**, and select options to match your desired publish scenario, such as Azure, publish to a folder, et al.
+1. To publish, right click the ASP.NET Core project, choose **Publish**, and select options to match your desired publish scenario, such as Azure, publish to a folder, etc.
 
-   The publish process takes more time than it does for just an ASP.NET Core project, since the `npm run build` command gets invoked when publishing.
+   The publish process takes more time than it does for just an ASP.NET Core project, since the `npm run dev` command gets invoked when publishing.
 
-   You can modify the `npm run build` command using the **Production Build Command** in the React project properties. To modify it, right-click the React project in Solution Explorer and choose **Properties**.
+   You can modify the `npm run dev` command using the **Startup Command** in the React project properties. To modify it, right-click the React project in Solution Explorer and choose **Properties**. For a production build, you might set this to `npm run build`.
 
 ## Troubleshooting
 
@@ -146,9 +147,9 @@ If you see this issue, most likely the frontend started before the backend. Once
 
 ### Verify ports
 
-If the weather data does not load correctly, you may also need to verify that your ports are correct.
+If the weather data doesn't load correctly, you may also need to verify that your ports are correct.
 
-1. Make sure that the port numbers match. Go to the *launchSettings.json* file in your ASP.NET Core **webapi** project (in the *Properties* folder). Get the port number from the `applicationUrl` property.
+1. Make sure that the port numbers match. Go to the *launchSettings.json* file in the ASP.NET Core **ReactWithASP.Server** project (in the *Properties* folder). Get the port number from the `applicationUrl` property.
 
    If there are multiple `applicationUrl` properties, look for one using an `https` endpoint. It looks similar to `https://localhost:7183`.
 
@@ -171,3 +172,5 @@ Try deleting the React certificates from *%appdata%\local\asp.net\https* or *%ap
 ## Next steps
 
 For more information about SPA applications in ASP.NET Core, see the React section under [Developing Single Page Apps](/aspnet/core/client-side/spa/intro#developing-single-page-apps). The linked article provides additional context for project files such as *aspnetcore-https.js*, although details of the implementation are different based on the template differences. For example, instead of a ClientApp folder, the React files are contained in a separate project.
+
+For MSBuild information specific to the client project, see [MSBuild properties for JSPS](../javascript/javascript-project-system-msbuild-reference.md).
