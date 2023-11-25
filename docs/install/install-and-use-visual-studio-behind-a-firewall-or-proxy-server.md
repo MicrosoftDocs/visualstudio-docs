@@ -54,8 +54,10 @@ Because the Visual Studio Installer downloads files from various domains and the
 | \*.microsoftonline.com                | Sign-in location                            |
 | \*.live.com                           | Sign-in location                            |
 | github-releases.githubusercontent.com | Linux Development                           |
+| objects.githubusercontent.com         | Windows build tools                         |
+| github.com                            | Git for Windows  & Windows Build Tools      |
 | az837173.vo.msecnd.net                | Development with Azure Storage              |
-| github.com/git-for-windows            | Git for Windows                             |
+
 
 #### Non-Microsoft domains
 
@@ -80,8 +82,6 @@ Because the Visual Studio Installer downloads files from various domains and the
 | idmsa.apple.com                   | Xamarin.iOS provisioning                                                                                                                    |
 | akamaized.net                     | Content Delivery Network (Akamai Technologies)                                                                                              |
 | developer.arm.com                 | ARM Development                                                                                                                             |
-| objects.githubusercontent.com     | Windows build tools                                                                                                                         |
-| github.com                        | Windows build tools                                                                                                                         |
 
 
 ## Use Visual Studio and Azure Services
