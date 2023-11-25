@@ -2,7 +2,7 @@
 title: Import or export installation configurations
 titleSuffix: ''
 description: Learn how to export your installation configuration to a .vsconfig file to share with others, and how to import it to clone.
-ms.date: 10/13/2023
+ms.date: 11/27/2023
 ms.topic: how-to
 helpviewer_keywords:
 - import installation configuration
