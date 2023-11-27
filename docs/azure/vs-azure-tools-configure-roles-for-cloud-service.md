@@ -265,5 +265,5 @@ To view the file created by the code in the previous section, follow these steps
 
 1. When the Windows Explorer window opens, enter `MyLocalStorageTest.txt`` into the **Search** text box, and select **Enter** to start the search.
 
-## Next steps
+## Related content
 Learn more about Azure projects in Visual Studio by reading [Configuring an Azure Project](vs-azure-tools-configuring-an-azure-project.md). Learn more about the cloud service schema by reading [Schema Reference](/previous-versions/azure/dd179398(v=azure.100)).

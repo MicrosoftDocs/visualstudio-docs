@@ -48,5 +48,5 @@ You can specify deployment settings in the **Publish Wizard**, which supports se
 
     ![Publish Azure Application Summary page](./media/vs-azure-tools-cloud-service-retain-a-constant-virtual-ip-address/azure-publish-summary.png)
 
-## Next steps
+## Related content
 - [Using the Visual Studio Publish Azure Application Wizard](vs-azure-tools-publish-azure-application-wizard.md)

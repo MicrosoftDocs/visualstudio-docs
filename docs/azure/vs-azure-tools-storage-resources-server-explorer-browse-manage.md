@@ -301,6 +301,6 @@ If you delete a storage account, any saved key information for that account is a
 
 If you delete a storage account from Server Explorer, it doesn’t affect your storage account or any data that it contains. It simply removes the reference from Server Explorer. To permanently delete a storage account, use the [Azure portal](https://portal.azure.com/).
 
-## Next steps
+## Related content
 
 To learn more about how to use Azure storage services, see [Accessing the Azure Storage Services](/azure/storage/common/storage-introduction).

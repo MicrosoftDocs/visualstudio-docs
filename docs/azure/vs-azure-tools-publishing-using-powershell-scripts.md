@@ -339,5 +339,5 @@ To get help for functions you can use at the Windows PowerShell command prompt, 
 | Publish-WebApplication |Creates and deploys Web Apps, virtual machines, SQL databases, and storage accounts for a Visual Studio web project. |
 | Test-WebApplication |This function isn't implemented. You can add commands in this function to test your application. |
 
-## Next steps
+## Related content
 Learn more about PowerShell scripting by reading [Scripting with Windows PowerShell](/powershell/scripting/overview) and see other Azure PowerShell scripts at the [Script Center](https://azure.microsoft.com/documentation/scripts/).
