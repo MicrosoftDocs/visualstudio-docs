@@ -1,6 +1,6 @@
 ---
 title: Manage application settings (.NET)
-description: Learn how to manage application settings that aren't included in the application code but are needed at runtime.
+description: Manage application settings that aren't included in the application code but are needed at runtime with the Visual Studio integrated development environment (IDE).
 ms.date: 03/16/2023
 ms.topic: conceptual
 f1_keywords:

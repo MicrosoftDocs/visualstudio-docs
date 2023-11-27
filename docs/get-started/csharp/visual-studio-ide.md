@@ -1,6 +1,6 @@
 ---
 title: Overview for C# developers
-description: Learn about the Visual Studio integrated development environment and how it can be tailored to C# developers.
+description: Explore how to work with the Visual Studio integrated development environment (IDE) to edit, debug, and build code, and then publish an app as a C# developer.
 ms.date: 01/31/2023
 ms.technology: vs-ide-general
 ms.custom: vs-acquisition

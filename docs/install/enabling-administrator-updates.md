@@ -1,7 +1,7 @@
 ---
 title: Enabling administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager
 titleSuffix: ''
-description: Learn more about how to deploy administrator updates to Visual Studio.
+description: Explore how to enable distribution of administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager.
 ms.date: 9/27/2023
 ms.topic: overview
 author: anandmeg

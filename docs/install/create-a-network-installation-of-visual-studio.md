@@ -1,6 +1,6 @@
 ---
 title: Create a network-based installation
-description: Learn how to create a network install point for deploying Visual Studio within an enterprise.
+description: Create a private network install point to deploy Visual Studio to support enterprise users with limited permissions or client machines with limited internet access.
 ms.date: 11/27/2023
 ms.topic: conceptual
 helpviewer_keywords:
