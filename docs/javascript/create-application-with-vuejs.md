@@ -179,7 +179,7 @@ cd ../
 
 * Running the command `npm run build` as a pre-build event on the project properties doesn't work when using vue-cli 3.0.
 
-## See also
+## Related content
 
 - [Vue get started guide](https://vuejs.org/v2/guide).
 - [Vue CLI project](https://github.com/vuejs/vue-cli).

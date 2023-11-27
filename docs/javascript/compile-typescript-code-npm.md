@@ -124,6 +124,6 @@ You can use Task Runner Explorer in Visual Studio to help automate tasks for thi
 - [NPM Task Runner](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.NPMTaskRunner) - Adds support for npm scripts defined in *package.json*. Supports yarn.
 - [Webpack Task Runner](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebPackTaskRunner) - Adds support for webpack.
 
-## See also
+## Related content
 
 [Properties, React, Angular, Vue](../ide/reference/property-pages-javascript-esproj.md)
