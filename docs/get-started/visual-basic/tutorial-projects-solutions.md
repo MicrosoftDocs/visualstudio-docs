@@ -1,6 +1,6 @@
 ---
 title: Tutorial projects and solutions Visual Basic
-description: Create a new project and a solution container to organize your code projects in Visual Studio as a Visual Basic developer.
+description: Create a new project and a solution to organize and contain your code projects in Visual Studio as a Visual Basic developer.
 ms.date: 09/14/2021
 ms.technology: vs-ide-general
 ms.custom: vs-acquisition
