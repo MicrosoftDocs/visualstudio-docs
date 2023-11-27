@@ -1,7 +1,7 @@
 ---
 title: Create a custom code analysis rule set
 ms.date: 11/02/2018
-description: Learn how to customize code analysis rule sets in Visual Studio. See how to create new sets from scratch or from existing sets. Understand rule precedence.
+description: Customize code analysis rule sets in Visual Studio, create new sets from scratch or from existing sets, and understand rule precedence.
 ms.topic: how-to
 f1_keywords:
   - vs.codeanalysis.addremoverulesets

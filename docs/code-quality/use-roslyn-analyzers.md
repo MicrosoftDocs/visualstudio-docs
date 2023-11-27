@@ -1,7 +1,7 @@
 ---
 title: Analyzer configuration
 ms.date: 07/27/2022
-description: Learn how to customize Roslyn analyzer rules. See how to adjust analyzer severities, suppress violations, and designate files as generated code.
+description: Customize Roslyn analyzer rules in Visual Studio, adjust analyzer severities, suppress violations, and designate files as generated code.
 ms.topic: conceptual
 helpviewer_keywords:
 - code analysis, managed code

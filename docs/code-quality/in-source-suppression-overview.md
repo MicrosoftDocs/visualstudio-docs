@@ -1,7 +1,7 @@
 ---
 title: Suppress code analysis violations
 ms.date: 01/18/2022
-description: Learn how to suppress code analysis violations in Visual Studio. Understand how to use the SuppressMessageAttribute attribute for in-source suppression.
+description: Suppress code analysis violations in Visual Studio and understand how to use the SuppressMessageAttribute attribute for in-source suppression.
 ms.topic: conceptual
 helpviewer_keywords:
 - source suppression, code analysis

@@ -1,7 +1,7 @@
 ---
 title: Use the Code Analysis Rule Set Editor
 ms.date: 04/04/2018
-description: Learn how to edit and view rule sets in Visual Studio. See how to set rule severity, specify rules in a custom set, and adjust the data in the rule set grid.
+description: Edit and view rule sets in Visual Studio, set rule severity, specify rules in a custom set, and adjust the data in the rule set grid.
 ms.topic: conceptual
 f1_keywords:
 - vs.codeanalysis.ruleseteditor
