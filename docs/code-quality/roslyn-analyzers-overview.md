@@ -1,7 +1,7 @@
 ---
 title: Code analysis using Roslyn analyzers 
 ms.date: 01/15/2022
-description: Explore source code analysis with Roslyn analyzers in Visual Studio, including code fixes and the different types of analyzers and severity levels.
+description: Become familiar with source code analysis in Visual Studio. Learn about code fixes and the different types of analyzers and severity levels.
 ms.topic: conceptual
 helpviewer_keywords:
 - code analysis, managed code

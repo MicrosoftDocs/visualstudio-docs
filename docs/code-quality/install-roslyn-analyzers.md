@@ -1,7 +1,7 @@
 ---
 title: Install third party analyzers
 ms.date: 08/27/2020
-description: Install third-party .NET analyzers in Visual Studio as Visual Studio extensions in VSIX files or as NuGet analyzer packages.
+description: Learn how to install third-party analyzers in Visual Studio. See how to install analyzers in .vsix files and NuGet analyzer packages.
 ms.topic: conceptual
 helpviewer_keywords:
 - code analysis, managed code

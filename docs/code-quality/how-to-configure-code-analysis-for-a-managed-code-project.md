@@ -1,7 +1,7 @@
 ---
 title: Configure Code Analysis
 ms.date: 04/04/2018
-description: Configure the rule set that Visual Studio legacy code analysis uses and apply a rule set to one or multiple projects in a solution.
+description: Learn how to configure the rule set that Visual Studio legacy code analysis uses. See how to apply a rule set to one or multiple projects in a solution.
 ms.topic: how-to
 f1_keywords:
   - vs.codeanalysis.propertypages.csvb
