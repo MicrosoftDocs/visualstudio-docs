@@ -124,14 +124,14 @@ The .vsconfig file is a json file format that contains a components section that
 ```
 
 ### Extensions
-Starting in [Fall 2023 with the previews, Visual Studio 2022 version 17.9](https://devblogs.microsoft.com/visualstudio/introducing-visual-studio-17-9-preview-1-is-here/#extensibility) now allows you to specify public marketplace or local private extensions in the *.vsconfig file and use the Visual Studio installer to load them machine wide, meaning that they are available for all users. Because these extension are installed machine wide, whoever installs them must have admin privileges directly, or they must have been granted control via the [AllowStandardUserControl](https://aka.ms/vs/admin/policies) policy. Note that legacy extensions installed by the Visual Studio Extension Manager had the capability of being and were typically installed per user, not machine wide, and the user didn't need to have admin perms. 
+Starting in [Fall 2023 with the previews, Visual Studio 2022 version 17.9](https://devblogs.microsoft.com/visualstudio/introducing-visual-studio-17-9-preview-1-is-here/#extensibility) now allows you to specify public marketplace or local private extensions in the *.vsconfig file and use the Visual Studio Installer to load them machine wide, meaning that they are available for all users. Because these extensions are installed machine wide, whoever installs them must have admin privileges directly, or they must have been granted control via the [AllowStandardUserControl](https://aka.ms/vs/admin/policies) policy. Note that legacy extensions installed by the Visual Studio Extension Manager had the capability of being (and were typically) installed per user, not machine wide, and the user didn't need to have admin perms. 
 
-For now, the Visual Studio installer only supports importing extensions. As such, the following behaviors are not currently supported and are on our backlog product roadmap; your [feedback](https://developercommunity.visualstudio.com) will help us prioritize properly.  
+For now, the Visual Studio Installer only supports importing extensions. As such, the following behaviors are not currently supported and are on our backlog product roadmap; your [feedback](https://developercommunity.visualstudio.com) will help us prioritize properly.  
  * Exporting extensions, either from the installer's Export function or from the Solution Explorer, is not currently available.
- * Updating extensions will continue to be handled via the [legacy method](/visualstudio/ide/finding-and-using-visual-studio-extensions#automatic-extension-updates), not the Visual Studio installer.
+ * Updating extensions will continue to be handled via the [legacy method](/visualstudio/ide/finding-and-using-visual-studio-extensions#automatic-extension-updates), not the Visual Studio Installer.
  * The ability to load extensions via the *.vsconfig file currently only applies to Visual Studio 2022.
  * You can only load public marketplace extensions, not local private extensions, via automatic detection and parsing of the *.vsconfig file in the solution directory.
- * You can use the new --allowUnsignedExtensions parameter to programmatically allow unsigned extensions to be loaded. This can also be included in the response.json if installing from a layout.
+ * You can use the new `--allowUnsignedExtensions` parameter to programmatically allow unsigned extensions to be loaded. This can also be included in the *response.json* if installing from a layout.
 
 The .vsconfig file format that includes extensions should look like this.
 

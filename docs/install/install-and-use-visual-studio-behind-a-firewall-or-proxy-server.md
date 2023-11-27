@@ -55,7 +55,7 @@ Because the Visual Studio Installer downloads files from various domains and the
 | \*.live.com                           | Sign-in location                            |
 | github-releases.githubusercontent.com | Linux Development                           |
 | objects.githubusercontent.com         | Windows build tools                         |
-| github.com                            | Git for Windows  & Windows Build Tools      |
+| github.com                            | Git for Windows & Windows Build Tools      |
 | az837173.vo.msecnd.net                | Development with Azure Storage              |
 
 
