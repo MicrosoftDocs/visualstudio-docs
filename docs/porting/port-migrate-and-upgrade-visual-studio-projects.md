@@ -1,6 +1,6 @@
 ---
 title: Port, migrate, and upgrade projects
-description: A reference for the support of projects created in current and earlier versions of Visual Studio.
+description: Explore a reference about projects created in current and earlier versions of Visual Studio and find information about porting, migrating, and upgrading projects.
 ms.date: 10/24/2022
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
