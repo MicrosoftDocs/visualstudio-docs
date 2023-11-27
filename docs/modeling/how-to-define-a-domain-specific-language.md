@@ -594,7 +594,7 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 
  You should therefore be aware that when you change some relationships in your DSL Definition, it is not unusual for errors to be reported either when you save the definition, or when you Transform All Templates. Most of these errors are easy to fix. Double-click the error report to see the location of the error.
 
- See also [How to: Change the Namespace of a Domain-Specific Language](../modeling/how-to-change-the-namespace-of-a-domain-specific-language.md).
+ Related content [How to: Change the Namespace of a Domain-Specific Language](../modeling/how-to-change-the-namespace-of-a-domain-specific-language.md).
 
 ## <a name="trouble"></a> Troubleshooting
  The following table lists some of the most common problems that are encountered when you design a DSL, together with suggestions for their solution. More advice is available on the [Visualization Tools Extensibility Forum](https://social.msdn.microsoft.com/Forums/vstudio/en-US/home?forum=dslvsarchx).
@@ -610,7 +610,7 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 | The toolbox of my DSL does not appear after I changed the assembly names. | Inspect and update **DslPackage\GeneratedCode\Package.tt** For more information, see [How to: Change the Namespace of a Domain-Specific Language](../modeling/how-to-change-the-namespace-of-a-domain-specific-language.md). |
 | The toolbox of my DSL does not appear, but I have not changed the assembly name.<br /><br /> Or, a message box appears reporting the failure to load an extension. | Reset the experimental instance, and rebuild your solution.<br /><br /> 1.  At the Windows Start menu, under **All Programs**, expand  Visual Studio SDK , then **Tools**, and then click **Reset the Microsoft Visual Studio Experimental Instance**.<br />2.  On the **Build** menu, click **Rebuild Solution**. |
 
-## See also
+## Related content
 
 - [Getting Started with Domain-Specific Languages](../modeling/getting-started-with-domain-specific-languages.md)
 - [Creating a Windows Forms-Based Domain-Specific Language](../modeling/creating-a-windows-forms-based-domain-specific-language.md)

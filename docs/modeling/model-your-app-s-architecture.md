@@ -98,7 +98,7 @@ To help ensure that your software system or application meets your users' needs,
 
 - Description of variations that developers might be able to adopt.
 
-## See also
+## Related content
 
 - [Visualize code](../modeling/visualize-code.md)
 - [Model user requirements](../modeling/model-user-requirements.md)

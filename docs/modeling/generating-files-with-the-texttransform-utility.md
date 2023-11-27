@@ -69,10 +69,8 @@ TextTransform [<options>] <templateName>
 |**-a** [processorName]![directiveName]!\<parameterName>!\<parameterValue>|Specify a parameter value for a directive processor. If you specify just the parameter name and value, the parameter will be available to all directive processors. If you specify a directive processor, the parameter is available only to the specified processor. If you specify a directive name, the parameter is available only when the specified directive is being processed.<br /><br /> To access the parameter values from a directive processor or text template, use [ITextTemplatingEngineHost.ResolveParameterValue](/previous-versions/visualstudio/visual-studio-2012/bb126369\(v\=vs.110\)). In a text template, include `hostspecific` in the template directive and invoke the message on `this.Host`. For example:<br /><br /> `<#@template language="c#" hostspecific="true"#> [<#= this.Host.ResolveParameterValue("", "", "parameterName") #>]`.<br /><br /> Always type the '!' marks, even if you omit the optional processor and directive names. For example:<br /><br /> `-a !!param!value`|
 |**-h**|Provides help.|
 
-## Related topics
+## Related content
 
-|Task|Topic|
-|-|-|
-|Generate files in a Visual Studio solution.|[Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)|
-|Write directive processors to transform your own data sources.|[Customizing T4 Text Transformation](../modeling/customizing-t4-text-transformation.md)|
-|Write a text templating host that allows you to invoke text templates from your own application.|[Processing Text Templates by using a Custom Host](../modeling/processing-text-templates-by-using-a-custom-host.md)|
+- [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)|
+- [Customizing T4 Text Transformation](../modeling/customizing-t4-text-transformation.md)|
+- [Processing Text Templates by using a Custom Host](../modeling/processing-text-templates-by-using-a-custom-host.md)|

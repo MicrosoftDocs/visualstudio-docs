@@ -36,7 +36,7 @@ To see which editions of Visual Studio support this feature, see [Edition suppor
 
 3. In the **Save the file as** dialog box, save the file as an **XPS Document (\*.xps)** file.
 
-## See also
+## Related content
 
 - [Create models for your app](../modeling/create-models-for-your-app.md)
 - [Share models and exporting diagrams](../modeling/share-models-and-exporting-diagrams.md)

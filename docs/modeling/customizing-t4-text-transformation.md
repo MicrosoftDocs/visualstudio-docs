@@ -33,6 +33,6 @@ Text templates are a feature of Visual Studio that allow you to generate program
 
  If you are writing a Visual Studio extension, consider using the existing text transformation service instead of writing your own host. For more information, see [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md).
 
-## Reference
+## Related content
 
 - [Write a T4 text template](../modeling/writing-a-t4-text-template.md) provides the syntax of text template directives and control blocks.

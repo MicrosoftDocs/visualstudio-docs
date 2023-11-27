@@ -353,7 +353,7 @@ protected override IList<MenuCommand> GetMenuCommands()
 
 - Make sure that you have uninstalled earlier versions of the package.
 
-## See also
+## Related content
 
 - [Writing code to customize a domain-specific language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
 - [How to: Modify a standard menu command](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md)

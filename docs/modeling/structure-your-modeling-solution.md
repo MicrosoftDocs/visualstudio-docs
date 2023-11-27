@@ -98,6 +98,6 @@ For example, if you frequently use solutions that have Presentation, Business, a
 
 4. Following the instructions in the wizard, select the projects that you want to include in the template, provide a name and description for the template, and specify an output location.
 
-## See also
+## Related content
 
 - [Use models in your development process](../modeling/use-models-in-your-development-process.md)

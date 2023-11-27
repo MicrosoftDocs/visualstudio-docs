@@ -180,7 +180,7 @@ Each event type corresponds to a collection in Store.EventManagerDirectory. You 
 |TransactionCommitted||
 |TransactionRolledBack||
 
-## See also
+## Related content
 
 - [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md)
 - [Sample code: Circuit Diagrams](https://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)

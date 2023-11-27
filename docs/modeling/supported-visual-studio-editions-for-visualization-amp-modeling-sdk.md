@@ -44,6 +44,6 @@ Domain-Specific Language Tools supports the following configurations for deployi
 > [!NOTE]
 > To make a DSL able to run on a Shell product, you must set the **Supported VS Edition** field in the Extension Manifest. For more information, see [Deploying Domain-Specific Language Solutions](msi-and-vsix-deployment-of-a-dsl.md).
 
-## See also
+## Related content
 
 - [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))
