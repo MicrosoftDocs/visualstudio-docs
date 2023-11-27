@@ -1,6 +1,6 @@
 ---
 title: Administrative Templates (ADMX)
-description: Use Visual Studio Administrative Templates to manage group policy.
+description: Configure and deploy group policy settings to the client machines in the Visual Studio ADMX Template and control Visual Studio behavior.
 ms.date: 8/8/2023
 ms.topic: conceptual
 ms.custom: vs-acquisition

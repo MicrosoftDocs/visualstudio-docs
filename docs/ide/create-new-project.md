@@ -1,6 +1,6 @@
 ---
 title: Create a new project
-description: Learn how to create a new project in Visual Studio.
+description: Create and configure a new project in Visual Studio by choosing a template type, the Framework version, an authentication type, and more.
 ms.date: 11/17/2023
 ms.topic: how-to
 f1_keywords:

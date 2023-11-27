@@ -1,6 +1,6 @@
 ---
 title: Known issues for containers
-description: Learn more about the known issues that might occur when you install Visual Studio Build Tools into a Windows container.
+description: Review known issues that might occur when you install Visual Studio Build Tools into a Windows container and find possible solutions.
 ms.date: 02/18/2020
 ms.topic: conceptual
 author: anandmeg

@@ -2,7 +2,7 @@
 title: Add GitHub accounts to your keychain
 ms.date: 05/16/2023
 ms.topic: how-to
-description: "Learn how to use Visual Studio with GitHub accounts."
+description: Add your public GitHub or GitHub Enterprise account to your Visual Studio keychain so you can track code changes in GitHub repositories from Visual Studio.
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
