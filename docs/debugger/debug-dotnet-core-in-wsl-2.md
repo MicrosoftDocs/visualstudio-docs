@@ -1,6 +1,6 @@
 ---
 title: "Debug .NET apps in Linux using WSL"
-description: Learn to run and debug your .NET apps in WSL without leaving Visual Studio.
+description: Discover how to run and debug your .NET applications in WSL without leaving the Visual Studio integrated development environment (IDE).
 ms.date: "06/06/2023"
 ms.topic: "conceptual"
 helpviewer_keywords:

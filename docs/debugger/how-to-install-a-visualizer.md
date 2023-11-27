@@ -1,6 +1,6 @@
 ---
 title: Install a Visualizer
-description: Understand how to install a visualizer so that it will be available for debugging use in Visual Studio.
+description: Install a newly created visualizer to make it available to use for debugging your projects and solution in Visual Studio.
 ms.date: 07/02/2021
 ms.topic: how-to
 dev_langs:
