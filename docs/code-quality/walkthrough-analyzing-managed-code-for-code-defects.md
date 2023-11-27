@@ -154,6 +154,6 @@ This article steps you through the process of using legacy analysis to analyze y
 
      The project builds without any warnings or errors.
 
-## See also
+## Related content
 
 [Code analysis for managed code](../code-quality/code-analysis-for-managed-code-overview.md)

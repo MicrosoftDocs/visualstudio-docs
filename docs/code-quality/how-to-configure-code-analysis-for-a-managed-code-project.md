@@ -73,6 +73,6 @@ By default, all the managed projects of a solution are assigned the *Microsoft M
 
 5. Select the **Rule Set** field of a project, and then select the name of the rule set that you want to apply.
 
-## See also
+## Related content
 
 - [Code analysis rule set reference](../code-quality/rule-set-reference.md)
