@@ -4,7 +4,7 @@ summary: Explore documentation for the Visual Studio family of products.
 brand: visual-studio
 metadata:
   title: Visual Studio product family documentation
-  description: Explore documentation for the Visual Studio family of products, including Visual Studio IDEs for Windows and Mac, Visual Studio Code, Visual Studio App Center, GitHub Codespaces, and Visual Studio Subscriptions.
+  description: Explore Visual Studio product documentation for the Visual Studio IDE for Windows and Mac, Visual Studio Code and App Center, GitHub Codespaces, and subscriptions.
   ms.topic: hub-page
   ms.date: 11/13/2023
   searchScope: []

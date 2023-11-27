@@ -1,6 +1,6 @@
 ---
 title: Configure policies for enterprise deployments
-description: Learn about domain policies and other configuration operations for enterprise deployments of Visual Studio.
+description: Configure domain policies, related registry keys, and other configuration operations for enterprise deployments of Visual Studio.
 ms.date: 8/8/2023
 ms.topic: conceptual
 f1_keywords:

@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: Display a message when a player wins"
-description: In this tutorial, you'll finish the Matching Game by adding code to keep matched pairs visible and display a message when a player wins.
+description: Complete code development on a matching game by adding code to keep matched pairs visible and display a message when a player wins.
 dev_langs:
   - "CSharp"
   - "VB"

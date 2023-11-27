@@ -1,6 +1,6 @@
 ---
 title: "Tutorial 2: Extend your C# console app"
-description: "Learn how to develop a C# console app in Visual Studio, step-by-step."
+description: Extend a C# console application in Visual Studio, including debugging features, managing multiple projects, and referencing third-party packages.
 ms.custom: vs-acquisition
 ms.date: 10/31/2023
 ms.technology: vs-ide-general

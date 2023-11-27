@@ -1,6 +1,6 @@
 ---
 title: "Create projects & solutions"
-description: Learn how to create and use Visual Studio solutions and projects to store artifacts.
+description: Create and use Visual Studio solutions and projects to store artifacts, including source code files, bitmaps, icons, and component and service references.
 ms.date: 08/08/2023
 ms.topic: how-to
 f1_keywords:

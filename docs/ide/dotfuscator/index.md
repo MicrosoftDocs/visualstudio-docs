@@ -19,7 +19,7 @@ helpviewer_keywords:
 - registering Dotfuscator
 - Dotfuscator command line
 - Dotfuscator Professional
-description: Learn how you can protect your .NET applications with the free copy of Dotfuscator Community included in Visual Studio.
+description: Protect your .NET applications with the free copy of Dotfuscator Community in Visual Studio, find your installed version or upgrade, and update related references.
 author: ghogen
 ms.author: ghogen
 manager: jmartens

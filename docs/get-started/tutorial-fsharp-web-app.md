@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: Create an ASP.NET Core web service in F#"
-description: "In this tutorial, learn how to create an ASP.NET Core web service in Visual Studio with F#."
+description: Create and configure an ASP.NET Core web service in the Visual Studio integrated development environment (IDE) by using F#.
 author: anandmeg
 ms.author: meghaanand
 ms.topic: tutorial
