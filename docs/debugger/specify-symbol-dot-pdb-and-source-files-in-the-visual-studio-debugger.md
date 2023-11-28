@@ -1,7 +1,7 @@
 ---
 title: "Symbol / PDB files in the Visual Studio debugger"
 titleSuffix: ""
-description: "Learn how to configure symbol & source files and how to configure them in the Visual Studio debugger."
+description: Configure symbol files (PDB) and source files in the Visual Studio debugger for C#, C++, Visual Basic, and F# applications.
 ms.date: "05/26/2023"
 ms.topic: "how-to"
 f1_keywords:
