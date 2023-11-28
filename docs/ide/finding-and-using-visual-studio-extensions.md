@@ -1,7 +1,7 @@
 ---
 title: Find and install extensions
 description: Learn about extensions in Visual Studio and how to manage them so you have the controls, samples, templates, tools, and other components you need.
-ms.date: 06/19/2023
+ms.date: 11/28/2023
 ms.topic: conceptual
 f1_keywords:
 - vs.ExtensionManager
@@ -55,7 +55,9 @@ To install extensions from within Visual Studio:
 
 1. Select **Download**.
 
-   The extension is scheduled for install. Your extension will be installed after all instances of Visual Studio have been closed.
+  After download completes, you'll see a notification at the bottom of the **Manage Extensions** dialog box : "The extension is scheduled for install. Your extension will be installed after all instances of Visual Studio have been closed."
+
+  :::image type="content" source="media/finding-and-using-visual-studio-extensions/manage-extensions-install-notification.png" alt-text="Screenshot of notification on Manage Extensions dialog box.":::
 
 If you try to install an extension that has dependencies, the installer verifies whether they're already installed. If they aren't installed, the **Manage Extensions** dialog box lists the dependencies that must be installed before you can install the extension.
 
