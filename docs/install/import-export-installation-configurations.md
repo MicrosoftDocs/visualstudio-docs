@@ -23,7 +23,7 @@ You can use installation configuration files to configure Visual Studio. To do s
 
 
 [!INCLUDE [Preview](~/includes/preview.md)]
-> Starting with Visual Studio 2022 version 17.9 Preview 1, you can now include some extensions in a *.vsconfig file, and then use the Visual Studio Installer to import them into Visual Studio. Further details about this functionality is described in the [Extensions Preview](#extensions) section below.
+> Starting with Visual Studio 2022 version 17.9 Preview 1, you can now include some extensions in a *.vsconfig file, and then use the Visual Studio Installer to import them into Visual Studio. Further details about this functionality are described in the [Extensions Preview](#extensions) section below.
 
 ## Export a configuration
 
