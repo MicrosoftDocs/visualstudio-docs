@@ -26,14 +26,12 @@ landingContent:
         links:
           - text: Get started with your subscription
             url: ~/new-subscriber.md
+          - text: "Compare options & pricing"
+            url: https://visualstudio.microsoft.com/vs/pricing
       - linkListType: whats-new
         links:          
           - text: "What's new in subscriptions"
-            url: ~/whats-new-in-subscriptions.md
-      - linkListType: concept
-        links:          
-          - text: "Compare options & pricing"
-            url: https://visualstudio.microsoft.com/vs/pricing
+            url: ~/whats-new-in-subscriptions.md      
 
 
   # Card
@@ -43,12 +41,10 @@ landingContent:
         links:
           - text: Tour the subscriber portal
             url: ~/using-the-subscriber-portal.md
-      - linkListType: overview
-        links:
-          - text: Go to the Subscriber portal
-            url: https://my.visualstudio.com/
       - linkListType: reference
         links:
+          - text: Visit Subscriber portal
+            url: https://my.visualstudio.com/
           - text: Contact your subscription admin 
             url:  ~/contact-my-admin.md
 
@@ -59,12 +55,10 @@ landingContent:
         links:
           - text: Tour the administrator portal
             url: ~/using-admin-portal.md
-      - linkListType: overview
-        links:
-          - text: Go to the Administrator portal
-            url: https://manage.visualstudio.com/            
       - linkListType: reference
         links:
+          - text: Visit Administrator portal
+            url: https://manage.visualstudio.com/            
           - text: Support for subscribers
             url:  https://visualstudio.microsoft.com/support/support-overview-vs
 
