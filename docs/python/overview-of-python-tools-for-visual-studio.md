@@ -1,7 +1,7 @@
 ---
 title: Python support in Visual Studio on Windows
 titleSuffix: ""
-description: Summary of Python features in Visual Studio, making it the best Python IDE on Windows (also known as Python Tools for Visual Studio, PTVS) that you can use to edit, debug, and test code, and then publish an app.
+description: Explore Python Tools for Visual Studio (PTVS) and other Python features in Visual Studio to edit, debug, and test code, and publish applications.
 ms.date: 8/23/2023
 ms.topic: overview
 author: cwebster-99

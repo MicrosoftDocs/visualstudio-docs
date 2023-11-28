@@ -1,7 +1,7 @@
 ---
 title: Update Visual Studio
 titleSuffix: ''
-description: Learn how to update Visual Studio to the most recent release, step by step.
+description: Update your Visual Studio installation to the most recent release to access the latest feature changes and fixes for known issues. 
 ms.date: 8/29/2023
 ms.custom: vs-acquisition
 ms.topic: how-to
