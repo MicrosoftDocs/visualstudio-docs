@@ -3,7 +3,7 @@ title: Using product keys in Visual Studio subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 05/24/2023
+ms.date: 11/28/2023
 ms.topic: conceptual
 description: Obtain and manage your product keys in Visual Studio subscriptions for products that require keys for installation or activation.
 ---
@@ -36,7 +36,7 @@ Volume Licensing customers can also download software from the Volume Licensing 
 
 Microsoft is committed to protecting the value of the software and benefits that the program’s legitimate subscribers receive for their investment. Microsoft has implemented daily key claim limits for Visual Studio subscriptions. Daily key claim limits restrict the number of keys that can be claimed per day per subscription.
 
-The daily key claim limit is 10 keys for all Visual Studio subscriptions, including keys offered through MPN, BizSpark, MCT Software & Services, and MCT. Visual Studio Professional (MPN) has a daily key claim limit of seven keys.
+The daily key claim limit is 10 keys for most Visual Studio subscriptions, including keys offered through Microsoft Cloud Partner Network, BizSpark, MCT Software & Services, and MCT. Some other subscriptions have a daily key claim limit of seven keys.
 
 > [!NOTE]
 > Key claim limits are subject to change. We'll update this article to reflect any changes in limits.
