@@ -2,7 +2,7 @@
 title: Project query conceptual overview
 description: Learn how to use the project query API to get and change properties and contents of Visual Studio projects.
 author: Jxwoon
-ms.author: Jxwoon
+ms.author: jasminewoon
 monikerRange: ">=vs-2022"
 ms.technology: vs-ide-sdk
 ms.topic: conceptual
