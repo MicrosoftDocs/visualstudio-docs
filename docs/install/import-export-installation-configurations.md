@@ -21,8 +21,9 @@ ms.technology: vs-installation
 
 You can use installation configuration files to configure Visual Studio. To do so, export the workloads and components information to a [.vsconfig file](#vsconfig-file-format) by using the Visual Studio Installer. You can then import the configuration into new or existing installations, use them to create or modify a layout or an offline installation, and share them with others.
 
-> [!NOTE]
-> Starting with Visual Studio 2022 version 17.9 Preview 1, you can now include some extensions in a *.vsconfig file, and then use the Visual Studio Installer to import them into Visual Studio. Further details about this functionality is described in the [Extensions](#extensions) section below.
+
+[!INCLUDE [Preview](~/includes/preview.md)]
+> Starting with Visual Studio 2022 version 17.9 Preview 1, you can now include some extensions in a *.vsconfig file, and then use the Visual Studio Installer to import them into Visual Studio. Further details about this functionality is described in the [Extensions Preview](#extensions) section below.
 
 ## Export a configuration
 
@@ -124,6 +125,8 @@ The .vsconfig file is a json file format that contains a components section that
 ```
 
 ### Extensions
+[!INCLUDE [Preview](~/includes/preview.md)]
+
 Starting in [Fall 2023 with the previews, Visual Studio 2022 version 17.9](https://devblogs.microsoft.com/visualstudio/introducing-visual-studio-17-9-preview-1-is-here/#extensibility) now allows you to specify public marketplace or local private extensions in the *.vsconfig file and use the Visual Studio Installer to load them machine wide, meaning that they are available for all users. Because these extensions are installed machine wide, whoever installs them must have admin privileges directly, or they must have been granted control via the [AllowStandardUserControl](https://aka.ms/vs/admin/policies) policy. Note that legacy extensions installed by the Visual Studio Extension Manager had the capability of being (and were typically) installed per user, not machine wide, and the user didn't need to have admin perms. 
 
 For now, the Visual Studio Installer only supports importing extensions. As such, the following behaviors are not currently supported and are on our backlog product roadmap; your [feedback](https://developercommunity.visualstudio.com) will help us prioritize properly.  
