@@ -1,6 +1,6 @@
 ---
 title: "Move the execution pointer in the debugger"
-description: Move the execution pointer in the debugger to change the execution flow of your code, and skip code that has a known issue.
+description: Move the execution pointer in the debugger to change the execution flow of your code, which lets you skip over sections of code while debugging.
 ms.date: 05/25/2023
 ms.topic: how-to
 helpviewer_keywords: 
