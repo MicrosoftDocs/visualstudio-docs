@@ -44,7 +44,7 @@ landingContent:
             url: https://manage.visualstudio.com/            
           - text: Use the administrator portal
             url: ~/using-admin-portal.md
-      - linkListType: Support
+      - linkListType: Reference
         links:
           - text: Support for subscribers
             url:  https://visualstudio.microsoft.com/support/support-overview-vs
@@ -52,30 +52,24 @@ landingContent:
   # Card
   - title: Benefits for subscribers
     linkLists:            
-      - linkListType: how-to-guide
+      - linkListType: get-started
         links:
           - text: Use your Azure credits
             url: /azure/devtest/offer/quickstart-individual-credit
           - text: Get included software downloads
             url: ~/software-download-list.md
           - text: Find more benefits
-            url: ~/about-benefits.md
-      - title: Developer tools
+            url: ~/about-benefits.md        
+      - linkListType: overview
         links:
-          - text: Visual Studio
+          - text: Visual Studio benefits
             url: ~/vs-ide-benefit.md
-      - title: Cloud services
-        links:
-          - text: Azure Dev/Test
-            url: /azure/devtest/offer/
           - text: Azure DevOps Server and CAL
             url: ~/vs-vsts.md
           - text: Microsoft 365 Developer Subscription
             url: ~/vs-office-dev.md
           - text: Windows Developer Account
             url: ~/vs-windows-dev.md
-      - title: Included Training and Support
-        links:
           - text: LinkedIn Premium
             url: ~/vs-linkedin-learning.md
           - text: Pluralsight
