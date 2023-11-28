@@ -1,6 +1,6 @@
 ---
 title: "First look at the debugger"
-description: "Get started debugging applications using the Visual Studio debugger"
+description: Get started debugging your applications by using the Visual Studio debugger and see what your code is doing while it runs.
 ms.topic: conceptual
 ms.date: 09/14/2023
 helpviewer_keywords:

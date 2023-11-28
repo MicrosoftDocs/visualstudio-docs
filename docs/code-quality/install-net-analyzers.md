@@ -1,7 +1,7 @@
 ---
 title: Enable or install first-party .NET analyzers
 ms.date: 09/14/2023
-description: Learn how to enable first-party .NET analyzers from the .NET SDK or install these analyzers as a NuGet package.
+description: Enable first-party .NET analyzers by using the .NET SDK in Visual Studio or install a first-party analyzer as a NuGet package.
 ms.topic: how-to
 helpviewer_keywords:
   - .NET analyzers
