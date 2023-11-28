@@ -50,7 +50,7 @@ landingContent:
             url:  https://visualstudio.microsoft.com/support/support-overview-vs
 
   # Card
- - title: Benefits for subscribers
+  - title: Benefits for subscribers
     linkLists:            
       - linkListType: how-to-guide
         links:
