@@ -20,7 +20,7 @@ Extensions must have a class that derives from [`Extension`](/dotnet/api/microso
 
 An instance of the `Extension` class is the starting point for the extension's execution. This instance contains the necessary methods for Visual Studio to query services provided by the extension. It also provides virtual methods for the extension to provide localized resources and extension-owned local services to be shared between the components of the extension.
 
-The configuration for the `Extension` class also contains the [metadata](/dotnet/api/microsoft.visualstudio.extensibility.extensionconfiguration.metadata) for the extension which is shown in the Visual Studio [Manage Extensions window](/visualstudio/ide/finding-and-using-visual-studio-extensions?view=vs-2022#use-the-manage-extensions-dialog-box) and, for published extensions, on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/).
+The configuration for the `Extension` class also contains the [metadata](/dotnet/api/microsoft.visualstudio.extensibility.extensionconfiguration.metadata) for the extension which is shown in the Visual Studio [Manage Extensions window](/visualstudio/ide/finding-and-using-visual-studio-extensions.md#use-the-manage-extensions-dialog-box) and, for published extensions, on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/).
 
 ```csharp
 [VisualStudioContribution]
