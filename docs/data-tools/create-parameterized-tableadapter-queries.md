@@ -99,6 +99,6 @@ To enable a query to accept null values:
 
 3. Select the parameter that allows null values and set the **AllowDbNull** property to `true`.
 
-## See also
+## Related content
 
 - [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md)

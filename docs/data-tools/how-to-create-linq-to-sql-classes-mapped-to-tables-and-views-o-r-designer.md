@@ -56,7 +56,7 @@ After you create entity classes by using the **O/R Designer**, you can create an
 
 7. Drag items from the **Data Sources** window onto a form.
 
-## See also
+## Related content
 
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
 - [Walkthrough: Creating LINQ to SQL classes (O-R Designer)](how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-o-r-designer.md)

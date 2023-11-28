@@ -60,6 +60,6 @@ You can modify connection information for each TableAdapter in a dataset.
 Storing sensitive information (such as a password) within the connection string can affect the security of your application. Using Windows integrated security is a more secure way to control access to a database.
 For more information, see [Protecting connection information](/dotnet/framework/data/adonet/protecting-connection-information).
 
-## See also
+## Related content
 
 - [Adding connections](../data-tools/add-new-connections.md)

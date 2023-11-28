@@ -54,6 +54,6 @@ You sort data by setting the <xref:System.Windows.Forms.BindingSource.Sort%2A> p
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDisplaying/VB/Form1.vb" id="Snippet7":::
      ---
 
-## See also
+## Related content
 
 - [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)
