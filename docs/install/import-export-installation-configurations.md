@@ -2,7 +2,7 @@
 title: Import or export installation configurations
 titleSuffix: ''
 description: Learn how to export your installation configuration to a .vsconfig file to share with others, and how to import it to clone.
-ms.date: 10/13/2023
+ms.date: 11/28/2023
 ms.topic: how-to
 helpviewer_keywords:
 - import installation configuration
@@ -23,7 +23,7 @@ You can use installation configuration files to configure Visual Studio. To do s
 
 ## Export a configuration
 
-You can export an installation configuration file from either a previously installed instance of Visual Studio. 
+You can export an installation configuration file from a previously installed instance of Visual Studio. 
 
 ### Use the Visual Studio Installer UI
 
