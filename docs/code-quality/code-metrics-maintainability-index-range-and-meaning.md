@@ -1,7 +1,7 @@
 ---
 title: Code metrics - Maintainability index range and meaning
 ms.date: 1/8/2021
-description: Learn about the maintainability index range metric for code metrics in Visual Studio.
+description: Explore the maintainability index range metric for code metrics in Visual Studio and how the reset values are established.
 ms.topic: conceptual
 author: mikejo5000
 ms.author: mikejo

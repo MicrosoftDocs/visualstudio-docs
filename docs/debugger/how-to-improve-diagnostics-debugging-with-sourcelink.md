@@ -1,6 +1,6 @@
 ---
 title: Enable debugging and diagnostics with Source Link
-description: Learn how to enable Source Link in your .NET project to improve debugging and diagnostics.
+description: Enable Source Link in your .NET project to improve debugging and diagnostics, where the debugger downloads underlying source files as you step into sections of code.
 ms.date: 08/09/2022
 ms.topic: how-to
 dev_langs: 

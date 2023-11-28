@@ -1,6 +1,6 @@
 ---
 title: Emulator Express to run/debug Azure cloud service locally
-description: Using Emulator Express to run and debug a cloud service on a local machine
+description: Use Emulator Express to run and debug an Azure cloud service on a local machine without running Visual Studio as an administrator.
 author: mikejo5000
 manager: jmartens
 ms.technology: vs-azure
