@@ -25,17 +25,17 @@ When you install Visual Studio programmatically or from a command prompt, you ca
 - Create or maintain a network layout of the product files for installing or updating client machines.
 
 
-The command-line verbs and parameters described below are designed to be used with the following executables or programs:
-  - The setup bootstrapper, which is the small (~1 MB) file (for example, vs_enterprise.exe) that initiates the download process.
-  - The Visual Studio installer that may already be installed on the machine and is located in the folder `C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe`. Note that you can't initiate the installer programmatically from the same directory that the installer resides in.  
+The command-line verbs and parameters described below can be used with the following executables or programs:
+  - The setup bootstrapper, which is the small (~1 MB) file (for example, vs_enterprise.exe) that initiates the download process and the initial installation.
+  - The Visual Studio installer that may already be installed on the machine and is located in the folder `C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe`. You must initiate the installer programmatically from a _different_ directory that the installer resides in. The installer is typically used for update or modify commands. 
   - With a [winget command using winget's --override switch](#use-winget-to-install-or-modify-visual-studio). 
-  - With an Administrator Update package, which is available to download from the [Microsoft Update Catalog](https://catalog.update.microsoft.com), to programatically update your network layout. More information describing how to do this can be found in the [Update or modify your layout](create-a-network-installation-of-visual-studio.md#update-the-layout-to-a-specific-version-of-the-product) article. 
+  - With an Administrator Update package, which is available to download from the [Microsoft Update Catalog](https://catalog.update.microsoft.com), to programatically update your network layout. More information can be found in the [Update or modify your layout](create-a-network-installation-of-visual-studio.md#update-the-layout-to-a-specific-version-of-the-product) article. 
 
-Not all commands or parameters work in each of these situations, and we've tried to document the exceptions below. Furthermore, in some scenarios you may not have access to all of these executables. For example, client machines may only have the installer available for programmatic execution if Visual Studio was installed via a layout.  
+Not all commands or parameters work in each of these situations, and any special caveats or exceptions are documented. Furthermore, in some scenarios you may not have access to all of these executables described above. For example, client machines may only have the installer available for programmatic execution if Visual Studio was installed via a layout.  
 
 ::: moniker range="vs-2019"
 
-You can get the Visual Studio 2019 bootstrappers from the table below. Alternatively, if you want a specific version of Visual Studio 2019, you can go to the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history#installing-an-earlier-release) page, which has links to the fixed version bootstrappers for your chosen version and edition of Visual Studio.
+You can get the Visual Studio 2019 bootstrappers from the following table. Alternatively, if you want a specific version of Visual Studio 2019, you can go to the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history#installing-an-earlier-release) page, which has links to the fixed version bootstrappers for your chosen version and edition of Visual Studio.
 
 | **Edition**                     | **Bootstrapper**                                                             |
 |---------------------------------|------------------------------------------------------------------------------|
@@ -47,7 +47,7 @@ You can get the Visual Studio 2019 bootstrappers from the table below. Alternati
 
 ::: moniker range=">=vs-2022"
 
-To get the latest bootstrappers for Visual Studio 2022 that will always install the latest version of the Current channel, download one of the files below. Alternatively, if you want to install a specific version or a specific channel of Visual Studio 2022, go to the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page, which has links to the fixed version bootstrappers for each servicing release. 
+To get the latest bootstrappers for Visual Studio 2022 that will always install the latest version of the Current channel, download one of the files in the following table. Alternatively, if you want to install a specific version or a specific channel of Visual Studio 2022, go to the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page, which has links to the fixed version bootstrappers for each servicing release. 
 
 | **Edition**                      | **Bootstrapper**                                                                                   |
 |----------------------------|-------------------------------------------------------------------------------------------|
@@ -116,7 +116,7 @@ Syntax example: `vs_enterprise.exe [command] <optional parameters>...`
 | `--productKey`                                     | **Optional**: During an install command, this parameter defines the product key to use for an installed product. It's composed of 25 alphanumeric characters in the format `xxxxxxxxxxxxxxxxxxxxxxxxx`.  |
 | `--removeOos true`                                 | **Optional**: During an install, update, or modify command, this parameter (which must have the word true or false immediately after it) tells the Visual Studio installer to remove (or don't remove) all installed components that have transitioned to an out-of-support state. This behavior is applicable for a single event. If you want to make this behavior persistent, apply this parameter to the modifySettings command which is described below, or [configure the removeOOS global policy](configure-policies-for-enterprise-deployments.md). Useful for helping to keep the machine secure.  |
 | `--config <path to *.vsconfig file>`               | **Optional**: During an install or modify operation, this determines the workloads and components to add based on a previously saved installation configuration file. This operation is additive and it won't remove any workload or component if they aren't present in the file. Also, items that don't apply to the product won't be added. Make sure you specify the fully qualified path to the config file. During an export operation, this determines the location to save the installation configuration file.  |
-| `--installerOnly`                                  | **Optional**: During an install or update operation, this parameter tells the Visual Studio Installer to install just itself (the installer). It's functionality is equivalent to the `--update` parameter, but more intuitive. Meant to be used when prepping and pre-configuring client machines.  |
+| `--installerOnly`                                  | **Optional**: During an install or update operation, this parameter tells the Visual Studio Installer to install just itself (the installer). Its functionality is equivalent to the `--update` parameter, but more intuitive. Meant to be used when prepping and pre-configuring client machines.  |
 | `--help, --?, -h, -?`                              | Displays an offline version of this page.     |
 
 ## Layout command and command-line parameters
