@@ -22,32 +22,52 @@ landingContent:
   # Card
   - title: Get Started with Subscriptions
     linkLists:
-      - linkListType: whats-new
+      - linkListType: get-started
         links:
-          - text: "What's new in Visual Studio Subscriptions"
+          - text: Get started with your subscription
+            url: ~/new-subscriber.md
+      - linkListType: whats-new
+        links:          
+          - text: "What's new in subscriptions"
             url: ~/whats-new-in-subscriptions.md
-          - text: Compare options and pricing
+      - linkListType: concept
+        links:          
+          - text: "Compare options & pricing"
             url: https://visualstudio.microsoft.com/vs/pricing
 
+
   # Card
-  - title: Access subscription portals
+  - title: Use the Subscriber portal
     linkLists:            
-      - linkListType: overview
+      - linkListType: get-started
         links:
-          - text: Access Subscriber portal
-            url: https://my.visualstudio.com/
-          - text: How to use the subscriber portal
+          - text: Tour the subscriber portal
             url: ~/using-the-subscriber-portal.md
       - linkListType: overview
         links:
-          - text: Access Administrator portal
-            url: https://manage.visualstudio.com/            
-          - text: Use the administrator portal
+          - text: Go to the Subscriber portal
+            url: https://my.visualstudio.com/
+      - linkListType: reference
+        links:
+          - text: Contact your subscription admin 
+            url:  ~/contact-my-admin.md
+
+  # Card
+  - title: Use the Administrator portal
+    linkLists:            
+      - linkListType: get-started
+        links:
+          - text: Tour the administrator portal
             url: ~/using-admin-portal.md
+      - linkListType: overview
+        links:
+          - text: Go to the Administrator portal
+            url: https://manage.visualstudio.com/            
       - linkListType: reference
         links:
           - text: Support for subscribers
             url:  https://visualstudio.microsoft.com/support/support-overview-vs
+
 
   # Card
   - title: Benefits for subscribers
