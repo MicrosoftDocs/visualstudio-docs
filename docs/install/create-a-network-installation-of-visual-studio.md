@@ -196,7 +196,7 @@ vs_enterprise.exe --layout C:\VSLayout --useLatestInstaller
 
 ## Maintaining your layout
 
-It is a best practice to periodically update your Visual Studio layout to the latest secure version of the product. This will ensure that the layout can be used both as an installation point as well as an update source for client installations. The section below describes the most common or useful layout maintenance operations.
+It is a best practice to periodically update your Visual Studio layout to the latest secure version of the product. This will ensure that the layout can be used both as an installation point as well as an update source for client installations. The following section describes the most common or useful layout maintenance operations.
 
 If you host a layout on a network file share, you may want to download an updated layout to a private local share (for example, c:\VSLayoutUpdate) and then, after all of the updated content is downloaded, copy it to your layout network file share (for example, \\server\products\VS). If you don't do this, there is a possibility that any users who happen to run setup while you are updating the layout might get a mismatch of content from the layout because it was not yet completely updated.
 
@@ -237,7 +237,7 @@ You can use an **[administrator update](applying-administrator-updates.md)** to 
 ```shell
 visualstudioupdate-16.0.0to16.11.23.exe layout --layoutPath c:\VSLayout
 ```
-Note that an administrator update will not initiate the creation of a new layout; it will only update an existing layout. 
+Note that an administrator update will not initiate the creation of a new layout; it will only update an existing layout. You will need to use a bootstrapper to create the initial layout.
 
 ::: moniker-end
 
@@ -250,7 +250,7 @@ You can use an **[administrator update](applying-administrator-updates.md)** to 
 ```shell
 visualstudioupdate-17.0.0to17.4.4.exe layout --layoutPath c:\VSLayout
 ```
-Note that an administrator update will not initiate the creation of a new layout; it will only update an existing layout. 
+Note that an administrator update will not initiate the creation of a new layout; it will only update an existing layout. You will need to use a bootstrapper to create the initial layout.
 
 ::: moniker-end
 
