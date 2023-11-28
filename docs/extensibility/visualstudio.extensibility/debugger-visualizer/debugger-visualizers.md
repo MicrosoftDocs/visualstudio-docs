@@ -61,7 +61,7 @@ The previous code defines a new debugger visualizer, which applies to objects of
 
 ## Targeting multiple types
 
-The configuration property allows the visualizer to target multiple types when convenient. A perfect example of this is the [DataSet Visualizer](/debugger/view-data-in-tabular-visualizer.md#dataset-visualizer) which supports the visualization of `DataSet`, `DataTable`, `DataView`, and `DataViewManager` objects. This capability eases extension development since similar types can share the same UI, view models, and [visualizer object source](./debugger-visualizers.md#the-visualizer-object-source).
+The configuration property allows the visualizer to target multiple types when convenient. A perfect example of this is the [DataSet Visualizer](/debugger/view-data-in-tabular-visualizer#dataset-visualizer) which supports the visualization of `DataSet`, `DataTable`, `DataView`, and `DataViewManager` objects. This capability eases extension development since similar types can share the same UI, view models, and [visualizer object source](#the-visualizer-object-source).
 
 ```csharp
     /// <inheritdoc/>
