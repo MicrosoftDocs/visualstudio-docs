@@ -3,7 +3,7 @@ title: Microsoft 365 apps for enterprise in Visual Studio subscriptions�
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 07/05/2023
+ms.date: 11/28/2023
 ms.topic: how-to
 description: Activate and access Microsoft 365 apps for enterprise in Visual Studio subscriptions, and find answers to frequently asked questions.
 ---
@@ -62,7 +62,7 @@ The process for activating your Microsoft 365 apps for enterprise subscription i
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
 |  |
 
-\* Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services, Imagine, Microsoft Partner Network.*
+\* Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Cloud Partner Network (formerly MPN), FTE, MCT Software & Services Developer, BizSpark, Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services, Imagine, Microsoft Partner Network.*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
