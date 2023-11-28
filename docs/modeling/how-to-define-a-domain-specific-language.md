@@ -594,7 +594,7 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 
  You should therefore be aware that when you change some relationships in your DSL Definition, it is not unusual for errors to be reported either when you save the definition, or when you Transform All Templates. Most of these errors are easy to fix. Double-click the error report to see the location of the error.
 
- Related content [How to: Change the Namespace of a Domain-Specific Language](../modeling/how-to-change-the-namespace-of-a-domain-specific-language.md).
+ See also [How to: Change the Namespace of a Domain-Specific Language](../modeling/how-to-change-the-namespace-of-a-domain-specific-language.md).
 
 ## <a name="trouble"></a> Troubleshooting
  The following table lists some of the most common problems that are encountered when you design a DSL, together with suggestions for their solution. More advice is available on the [Visualization Tools Extensibility Forum](https://social.msdn.microsoft.com/Forums/vstudio/en-US/home?forum=dslvsarchx).
