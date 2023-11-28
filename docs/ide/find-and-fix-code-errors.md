@@ -1,6 +1,6 @@
 ---
 title: Fix program errors and improve code
-description: This article describes some basic ways Visual Studio can help you find and fix problems in your code, including build errors, code analysis, debugging tools, and unit tests.
+description: Explore how Visual Studio can help you find and fix problems in your code, including build errors, code analysis, debugging tools, and unit tests.
 ms.date: 04/25/2023
 ms.topic: conceptual
 author: Mikejo5000

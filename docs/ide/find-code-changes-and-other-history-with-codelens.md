@@ -1,6 +1,6 @@
 ---
 title: Find code changes and other history with CodeLens
-description: Learn about CodeLens and how to use it explore the history of your code without having to leave the editor.
+description: Explore CodeLens in Visual Studio and how to use the tool to explore the history of your code without having to leave the editor.
 ms.date: 06/30/2023
 ms.topic: conceptual
 f1_keywords:
