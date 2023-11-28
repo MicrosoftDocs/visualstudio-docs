@@ -36,7 +36,7 @@ internal class StringDebuggerVisualizerProvider : DebuggerVisualizerProvider
     /// </summary>
     /// <param name="extension">Extension instance.</param>
     /// <param name="extensibility">Extensibility object.</param>
-    public RegexMatchDebuggerVisualizerProvider(RegexMatchVisualizerExtension extension, VisualStudioExtensibility extensibility)
+    public StringDebuggerVisualizerProvider(StringDebuggerVisualizerExtension extension, VisualStudioExtensibility extensibility)
         : base(extension, extensibility)
     {
     }
