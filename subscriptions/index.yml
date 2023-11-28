@@ -44,7 +44,7 @@ landingContent:
             url: https://manage.visualstudio.com/            
           - text: Use the administrator portal
             url: ~/using-admin-portal.md
-      - linkListType: Reference
+      - linkListType: reference
         links:
           - text: Support for subscribers
             url:  https://visualstudio.microsoft.com/support/support-overview-vs
