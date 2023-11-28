@@ -1,6 +1,6 @@
 ---
 title: "Debug C++"
-description: "Debug native code using the Visual Studio debugger"
+description: Debug native C++ code by using the Visual Studio debugger, create a project, set breakpoints, inspect variables, and edit code while debugging.
 ms.date: 08/06/2018
 ms.topic: quickstart
 helpviewer_keywords:

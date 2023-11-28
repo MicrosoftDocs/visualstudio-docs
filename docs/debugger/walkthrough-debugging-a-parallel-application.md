@@ -1,6 +1,6 @@
 ---
 title: "Debug a parallel application"
-description: Debug using the Parallel Tasks and Parallel Stacks windows in Visual Studio
+description: Debug a parallel application by using the Parallel Tasks and Parallel Stacks windows in the Visual Studio integrated development environment (IDE).
 ms.date: "10/24/2023"
 ms.topic: "conceptual"
 dev_langs:

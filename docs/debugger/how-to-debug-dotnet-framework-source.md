@@ -1,6 +1,6 @@
 ---
 title: Debug .NET Framework source
-description: Learn how to debug .NET Framework source. You must configure for it and download debugging symbols.
+description: Debug .NET Framework source by enabling stepping into .NET Framework source code and allowing access to debugging symbols for the code.
 ms.date: 07/20/2023
 ms.topic: how-to
 helpviewer_keywords: 

@@ -1,6 +1,6 @@
 ---
 title: "Expressions in the debugger"
-description: Learn which language expressions are not supported by the expression evaluators in the Visual Studio debugger.
+description: Explore language expressions supported by the expression evaluators in the Visual Studio debugger, and review limitations of expression evaluation.
 ms.date: "08/24/2021"
 ms.topic: "conceptual"
 f1_keywords:
