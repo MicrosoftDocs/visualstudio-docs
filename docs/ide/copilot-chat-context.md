@@ -40,17 +40,17 @@ Slash commands in Copilot Chat help you set the intent quickly for common develo
 
 You can use slash commands in a [chat window](visual-studio-github-copilot-chat.md#ask-questions-in-the-chat-window), or directly inline in the code that you're looking to modify, using [inline code assistance](visual-studio-github-copilot-chat.md#ask-questions-in-the-interactive-code-assistant). Commands that help modify or add to the code file you have open in the editor will work both in the inline code assistant and the chat windows whereas commands for more general coding questions work only in the chat pane.
 
-| **Command** | **Usage** | **Chat window** | **Interactive code assistant** | **Example** |
-|---------------------------|:--------------------:|:-----------------:|
-| /askvs| Ask questions related to Visual Studio | Yes | No | /askvs How do I connect Visual Studio to a Git Repository?|
-| /clear| Clear the chat window | Yes | No | /clear |
-| /createtest| Create unit tests for the selected code| Yes | Yes | select desired code and enter /createtest |
-| /doc| Add comments for specified or selected code | Yes | Yes | - /doc DeleteBasketAsync method in BasketService.cs</br> - select desired code and enter /doc|
-| /explain | Explain the code | Yes | Yes | - /explain the AddItemToBasket method in BasketService.cs</br> - select desired code and enter /explain|
-| /fix | Propose a fix for problems in the selected code | Yes | Yes | - /fix the SetQuantities method in BasketService.cs</br> - select desired code and enter /fix|
-| /generate | Generate code to answer specified question | Yes | Yes | /generate code to add two numbers in Calculator.cs |
-| /help | Get help on Copilot Chat | Yes | No | /help |
-| /optimize | Analyze and improve running time of the selected code | Yes | Yes | - /optimize the AddItemToBasket method in BasketService.cs</br> - select desired code and enter /optimize|
+| **Command** | **Usage** | **Chat window** | **Interactive code assistant** |
+|---------------------------|--------------------|:----------:|:----------:|
+| /askvs| Ask questions related to Visual Studio. <br>  Example:  `/askvs How do I connect Visual Studio to a Git Repository?`| Yes | No |
+| /clear| Clear the chat window. <br>  Example: `/clear`| Yes | No | 
+| /createtest| Create unit tests for the selected code.<br>  Example: select desired code and enter `/createtest`| Yes | Yes | 
+| /doc| Add comments for specified or selected code. <br>  Examples: <br>- `/doc DeleteBasketAsync method in BasketService.cs`</br>- select desired code and enter `/doc`| Yes | Yes |
+| /explain | Get code explanations. <br><br>  Examples: <br> - `/explain the AddItemToBasket method in BasketService.cs`</br>- select desired code and enter `/explain`| Yes | Yes |
+| /fix | Propose a fix for problems in the selected code. <br>  Examples: <br> - `/fix the SetQuantities method in BasketService.cs`</br>- select desired code and enter `/fix`| Yes | Yes |
+| /generate | Generate code to answer specified question. <br> Example: `/generate code to add two numbers in Calculator.cs`| Yes | Yes | 
+| /help | Get help on using Copilot Chat. <br> Example: `/help`| Yes | No | 
+| /optimize | Analyze and improve running time of the selected code. <br> Examples:<br> - `/optimize the AddItemToBasket method in BasketService.cs`</br>- select desired code and enter `/optimize`| Yes | Yes | 
 
 :::image type="content" source="media/copilot-chat-context/copilot-chat-context-slash-commands.png" alt-text="Screenshot of slash commands in interactive code assistant and chat windows.":::
 
