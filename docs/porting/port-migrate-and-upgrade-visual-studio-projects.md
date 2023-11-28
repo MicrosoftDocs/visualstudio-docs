@@ -202,15 +202,10 @@ To maintain compatibility with projects that you created in previous versions, V
 
 You might be tempted to manually update or migrate a project to a newer `ToolsVersion` value. It's unnecessary to make such a change, and would likely generate many errors and warnings that you must fix to get the project to build again. Also, if Visual Studio doesn't support a specific `ToolsVersion` in the future, then the project triggers the project migration process when you open it because its `ToolsVersion` value must be changed.
 
-## Next steps
-
-Refer to the following articles for further discussion:
+## Related content
 
 - [ToolsVersion guidance](../msbuild/msbuild-toolset-toolsversion.md)
 - [Framework targeting guidance](../ide/visual-studio-multi-targeting-overview.md)
-
-## See also
-
 - [Project migration and upgrade reference for Visual Studio 2019](?view=vs-2019&preserve-view=true)
 - [Support for older versions of Visual Studio](https://devblogs.microsoft.com/visualstudio/support-reminder-for-older-versions-of-visual-studio/)
 

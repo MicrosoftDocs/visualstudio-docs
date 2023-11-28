@@ -62,7 +62,7 @@ For this example, the equivalent command-line command is:
 </Project>
 ```
 
-## See also
+## Related content
 
 - [MSBuild reference](../msbuild/msbuild-reference.md)
 - [Items](../msbuild/msbuild-items.md)

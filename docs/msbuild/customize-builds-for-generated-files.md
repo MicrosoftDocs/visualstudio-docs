@@ -38,6 +38,6 @@ Files generated during execution don't exist during the evaluation phase, theref
 
 Adding your generated file to `None` or `Content` is sufficient for the build process to see it. You also want to ensure it gets added at the right time. Ideally, your target runs before `BeforeBuild`. `AssignTargetPaths` is another possible target, as it is the final opportunity to modify `None` and `Content` items (among others) before they are transformed into new items. See [Common Item Types](common-msbuild-project-items.md).
 
-## Next steps
+## Related content
 
-Explore other possible customization scenarios at [Customize your build](customize-your-build.md).
+- [Customize your build](customize-your-build.md).

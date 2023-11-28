@@ -62,7 +62,7 @@ A build platform needs the ability to execute any number of actions during the b
 
  MSBuild looks for tasks in several locations. The first location is in files with the extension `.OverrideTasks` stored in the MSBuild directory. Tasks in these files override any other tasks with the same names, including tasks in the project file. The second location is in the project file and its imports. If the task is not defined in the project, it will be searched for in MSBuild's default tasks which are defined in a `.tasks` file in the MSBuild directory.
 
-## See also
+## Related content
 
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)
 - [MSBuild](../msbuild/msbuild.md)

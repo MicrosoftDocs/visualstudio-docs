@@ -451,7 +451,7 @@ The following example shows a project file that compiles a Visual Basic applicat
 
  Visual Studio can automatically do much of the work that is shown in this walkthrough. To learn how to use Visual Studio to create, edit, build, and test MSBuild project files, see [Walkthrough: Use MSBuild](../msbuild/walkthrough-using-msbuild.md).
 
-## See also
+## Related content
 
 - [MSBuild overview](../msbuild/msbuild.md)
 - [MSBuild reference](../msbuild/msbuild-reference.md)

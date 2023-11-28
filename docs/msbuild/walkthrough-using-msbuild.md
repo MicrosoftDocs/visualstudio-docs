@@ -616,13 +616,13 @@ For example, an item list of source files can be transformed into a collection o
 
 Notice that metadata expressed in this syntax doesn't cause batching.
 
-## Next steps
+## Related content
 
  To learn how to create a simple project file one step at a time, on Windows, try out [Create an MSBuild project file from scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md).
 
 If you're primarily using the .NET SDK, continue reading at [MSBuild Reference for .NET SDK Projects](/dotnet/core/project-sdk/msbuild-props).
 
-## See also
+## Related content
 
 - [MSBuild overview](../msbuild/msbuild.md)
 - [MSBuild reference](../msbuild/msbuild-reference.md)

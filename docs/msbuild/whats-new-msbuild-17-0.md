@@ -56,6 +56,6 @@ Binary logs are smaller and have more information.
 
 For more changes in this version, see the detailed release notes and for changes in MSBuild versions that you can opt out of, see [change waves](change-waves.md).
 
-## See also
+## Related content
 
 - [MSBuild](../msbuild/msbuild.md)
