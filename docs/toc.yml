@@ -772,6 +772,8 @@
     href: ide/how-to-customize-menus-and-toolbars-in-visual-studio.md
   - name: Window layouts & tabs
     href: ide/customizing-window-layouts-in-visual-studio.md
+  - name: Accessibility tips & tricks
+    href: ide/reference/accessibility-tips-and-tricks.md  
   - name: File nesting in Solution Explorer
     href: ide/file-nesting-solution-explorer.md
   - name: Startup behavior
@@ -1228,8 +1230,6 @@
     href: https://visualstudio.microsoft.com/license-terms/
   - name: Support lifecycle and servicing >>
     href: /visualstudio/productinfo/vs-servicing-vs/
-  - name: Accessibility tips and tricks
-    href: ide/reference/accessibility-tips-and-tricks.md
   - name: Offline help >>
     href: help-viewer/overview.md
 - name: Send feedback
