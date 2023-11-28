@@ -1,7 +1,7 @@
 ---
 title: Sign in or switch Visual Studio accounts 
 titleSuffix: ""
-description: Learn why to sign in to Visual Studio, how to sign in, and how to add and switch user accounts.
+description: Explore sign in concepts for working with Visual Studio, and find out how to sign in and how to add and switch user accounts.
 ms.date: 05/23/2023
 ms.topic: how-to
 author: anandmeg

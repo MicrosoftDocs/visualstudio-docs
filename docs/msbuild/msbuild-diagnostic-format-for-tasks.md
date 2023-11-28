@@ -59,7 +59,7 @@ Each of the components of this format are described as follows:
 
 - **Category (Required)** Category must be either “error” or “warning”. Case does not matter. As with origin, category must not be localized.
 
-- **Code (Required)** Code identifies an application-specific error code/warning code. Code must not be localized and it must not contain spaces.
+- **Code (Optional)** Code identifies an application-specific error code/warning code. Code must not be localized and it must not contain spaces.
 
 - **Text** User-friendly text that explains the error, and it must be localized if you cater to multiple locales.
 

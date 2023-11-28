@@ -27,7 +27,7 @@ namespace CS
             //</Snippet18>
 
             customersRow.CompanyName = "Updated Company Name";
-            customersRow.City = "Seattle";;
+            customersRow.City = "Seattle";
             //</Snippet3>
 
 

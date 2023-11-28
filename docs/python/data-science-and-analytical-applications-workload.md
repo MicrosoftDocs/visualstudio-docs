@@ -1,6 +1,6 @@
 ---
 title: Data Science and Analytical Applications workload
-description: This Visual Studio workload brings together Python, F#, and their respective runtime distributions including Anaconda. (R is also included in Visual Studio 2017 only.)
+description: Review a Visual Studio workload that combines Python, F#, and their respective runtime distributions, including Anaconda, and also R for Visual Studio 2017.
 ms.date: 1/5/2023
 ms.topic: overview
 author: cwebster-99

@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: Add icons to the matching game"
-description: In this tutorial, you'll assign a random icon to each label on your Matching Game Windows Form and implement an event handler to display the icons using C# or VB in Visual Studio.
+description: Assign a random icon to each label in a matching game Windows Form and add an event handler to display the icons with C# or VB in Visual Studio.
 dev_langs:
   - "CSharp"
   - "VB"

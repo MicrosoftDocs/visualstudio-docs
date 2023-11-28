@@ -1,6 +1,6 @@
 ---
 title: Manage application resources (.NET)
-description: Learn how to manage application resources files that are not part of the compilation process.
+description: Manage application resources files that aren't part of the compilation process in Visual Studio, such as icon files or audio files.
 ms.custom: engagement-fy23
 ms.date: 01/31/2023
 ms.topic: conceptual
