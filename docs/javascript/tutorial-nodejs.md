@@ -1,6 +1,6 @@
 ---
 title: "Create a Node.js and Express app"
-description: In this tutorial, learn how to create a basic Node.js application by using the Express web application framework in Visual Studio.
+description: Create and debug a basic Node.js application that uses the Express web application framework in Visual Studio, and explore the launch.json file.
 ms.date: 01/18/2023
 ms.custom: vs-acquisition
 ms.topic: tutorial
