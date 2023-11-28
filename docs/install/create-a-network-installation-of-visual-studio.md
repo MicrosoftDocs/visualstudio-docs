@@ -136,7 +136,7 @@ Here are a few examples of how to create a custom network layout.
     vs_enterprise.exe --layout C:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Component.Git --lang en-US de-DE ja-JP
     ```
     
-* You can also use a [vsconfig file](import-export-installation-configurations.md) to customize and limit the contents of a network layout. Make sure you specify the **full path** of the config file. If there are any [extensions in the vsconfig file](import-export-installation-configurations#extensions), the extensions files won't be copied into the layout, but the response.json file will contain a reference to the extension, and the client will try to install it when installing from the layout.
+* You can also use a [vsconfig file](import-export-installation-configurations.md) to customize and limit the contents of a network layout. Make sure you specify the **full path** of the config file. If there are any [extensions in the vsconfig file](import-export-installation-configurations.md#extensions), the extensions files won't be copied into the layout, but the response.json file will contain a reference to the extension, and the client will try to install it when installing from the layout.
 
     ```shell
     vs_enterprise.exe --layout C:\VSLayout --config "C:\myconfig.vsconfig" 
