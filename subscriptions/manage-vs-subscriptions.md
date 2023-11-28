@@ -3,7 +3,7 @@ title:  Manage Visual Studio Subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 03/30/2023
+ms.date: 11/28/2023
 ms.topic: conceptual
 description: Explore management tasks for your Visual Studio subscriptions, including renewal, transfer, profile changes, and setting preferences.
 ---
@@ -104,7 +104,7 @@ A: Depending on the purchasing channel, Microsoft maintains customer data for di
 | Volume Licensing Service Center (VLSC) | 180 |
 | Microsoft Products and Services Agreement (MPSA) | 180 |
 | Visual Studio Cloud Subscriptions | 180 |
-| Program (for example, MCT, MPN, Imagine) | 180 |
+| Program (for example, Microsoft Certified Trainer, Microsoft Cloud Partner Program, Imagine) | 180 |
 | Not For Resale (for example, MVP, MSP) | 180 |
 | DevEssentials | 30 |
 

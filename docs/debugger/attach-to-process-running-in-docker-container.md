@@ -1,6 +1,6 @@
 ---
 title: "Attach to a process running on a Docker container"
-description: Learn how to debug an app running a Docker container using Visual Studio
+description: Explore how to debug an application running a Windows Docker container or a Linux .NET Core Docker container by using Visual Studio.
 ms.date: "03/20/2023"
 ms.topic: "conceptual"
 helpviewer_keywords:

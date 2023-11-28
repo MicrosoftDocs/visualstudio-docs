@@ -13,6 +13,7 @@ ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: whats-new
 ms.custom: vs-acquisition
+monikerRange: vs-2019
 ---
 # What's new in Visual Studio 2019
 
