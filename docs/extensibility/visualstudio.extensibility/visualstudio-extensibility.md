@@ -86,6 +86,7 @@ A Visual Studio solution containing all samples can be found at [Samples.sln](ht
 | [Comment remover](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/CommentRemover) | Shows how to consume [Visual Studio SDK](https://www.nuget.org/packages/Microsoft.VisualStudio.SDK) services through .NET dependency injection and use VisualStudio.Extensibility APIs for commands, prompts and progress report. |
 | [RegexMatchDebugVisualizer](https://github.com/microsoft/VSExtensibility/tree/dev/maprospe/vsix_creation/New_Extensibility_Model/Samples/RegexMatchDebugVisualizer) | Shows how to use [Remote UI](./inside-the-sdk/remote-ui.md) to create a [Debugger Visualizer](./debugger-visualizer/debugger-visualizers.md) to visualize regular expression matches that will launch in a modal dialog window. |
 | [MemoryStreamDebugVisualizer](https://github.com/microsoft/VSExtensibility/tree/dev/maprospe/vsix_creation/New_Extensibility_Model/Samples/MemoryStreamDebugVisualizer) | Shows how to create a [Debugger Visualizer](./debugger-visualizer/debugger-visualizers.md) to visualize MemoryStream objects that launches in a non-modal tool window. |
+| [RustLanguageServiceProvider](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/RustLanguageServerProvider) | Shows how to create a Rust language server provider extension that adds Intellisense and tooltips when a rust file is opened. |
 
 ## Advanced topics
 
