@@ -1,6 +1,6 @@
 ---
 title: Update a network-based installation
-description: Learn how to update a Visual Studio client that was installed from a network layout
+description: Update a Visual Studio client installed from a network layout and make sure the client is receiving the latest security and functionality fixes. 
 ms.date: 6/6/2023
 ms.topic: conceptual
 helpviewer_keywords:

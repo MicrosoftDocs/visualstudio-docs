@@ -96,7 +96,7 @@ The command line `dotnet build --help` lists the command-line options specific t
  You can define a property conditionally by placing a `Condition` attribute in the element. The contents of conditional elements are ignored unless the condition evaluates to `true`. In the following example, the `Configuration` property is defined if it hasn't yet been defined.
 
 ```xml
-<Configuration  Condition=" '$(Configuration)' == '' ">DefaultValue</SomeProperty>
+<Configuration  Condition=" '$(Configuration)' == '' ">DefaultValue</Configuration>
 ```
 
  Properties can be referenced throughout the project file by using the syntax $(\<PropertyName>). For example, you can reference the properties in the previous examples by using `$(BuildDir)` and `$(Configuration)`.

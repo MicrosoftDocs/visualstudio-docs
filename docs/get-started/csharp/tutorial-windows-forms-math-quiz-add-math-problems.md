@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: Add math problems to a Windows Forms app"
-description: Learn how to use the Visual Studio IDE to add an event handler and random math problems to the math quiz Windows Forms app.
+description: Add an event handler and random math problems to a math quiz Windows Forms application in the Visual Studio integrated development environment (IDE).
 ms.custom: vs-acquisition
 dev_langs:
   - "CSharp"
