@@ -55,6 +55,10 @@ To install extensions from within Visual Studio:
 
 1. Select **Download**.
 
+  After download completes, you'll see a notification at the bottom of the **Manage Extensions** dialog box : "The extension is scheduled for install. Your extension will be installed after all instances of Visual Studio have been closed."
+
+  :::image type="content" source="media/finding-and-using-visual-studio-extensions/manage-extensions-install-notification.png" alt-text="Screenshot of notification on Manage Extensions dialog box." lightbox="media/finding-and-using-visual-studio-extensions/manage-extensions-install-notification.png":::
+
 If you try to install an extension that has dependencies, the installer verifies whether they're already installed. If they aren't installed, the **Manage Extensions** dialog box lists the dependencies that must be installed before you can install the extension.
 
 ### Install without using the Manage Extensions dialog box
