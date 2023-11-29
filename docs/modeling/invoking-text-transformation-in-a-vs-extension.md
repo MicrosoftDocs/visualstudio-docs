@@ -132,7 +132,7 @@ The compiler warning will appear in the Visual Studio error window, and it will 
 
 You can pass values out of a text template by using a parameter class that is derived from <xref:System.MarshalByRefObject>.
 
-## Related content
+## Related articles
 
 To generate text from a preprocessed text template: Call the `TransformText()` method of the generated class. For more information, see [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md).
 
