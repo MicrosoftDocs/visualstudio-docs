@@ -156,7 +156,7 @@ Here's how to add audio cues to program events by using either Windows 11 or Win
 
 1. Click **OK**.
 
-## See also
+## Related content
 
 * [Set accessibility options](../how-to-change-fonts-and-colors-in-visual-studio.md#set-accessibility-options)
 * [Customize menus and toolbars in Visual Studio](../../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)
