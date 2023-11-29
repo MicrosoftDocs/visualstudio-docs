@@ -137,7 +137,7 @@ internal static class ExtensionCommandConfiguration
 
 Visual Studio contribution properties are also *compile-time constants* and are subject to the same limitations discussed earlier.
 
-A of a Visual Studio contribution property can also reference another configuration property. For example:
+A Visual Studio contribution property can also reference another configuration property. For example:
 
 ```csharp
 public static class MenuConfigurations

@@ -74,7 +74,7 @@ Clauses in your project query determine what kind of items should be returned in
 
 ## Project Query Action Types
 
-Actions in your project query determine what modifcations are made to the project system. Note each query item types has their own actions available to them. Below is a simple list of action queries.
+Actions in your project query determine what modifications are made to the project system. Note each query item types has their own actions available to them. Below is a simple list of action queries.
 
 |Term|Description
 |---|---|
