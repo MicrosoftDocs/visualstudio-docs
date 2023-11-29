@@ -2,7 +2,7 @@
 title: Sign in or switch Visual Studio accounts 
 titleSuffix: ""
 description: Explore sign in concepts for working with Visual Studio, and find out how to sign in and how to add and switch user accounts.
-ms.date: 05/23/2023
+ms.date: 11/23/2023
 ms.topic: how-to
 author: anandmeg
 ms.author: meghaanand
@@ -19,7 +19,9 @@ You can get subscription support and search the frequently asked questions about
 
 <a name="sign-in"></a>
 
-## Sign in with a Microsoft or organizational account
+## Sign in to your account
+
+You can sign in to your Microsoft or organizational account.  To add another account, see [Add and switch user accounts](#add-and-switch).
 
 ::: moniker range="<=vs-2019"
 
@@ -49,18 +51,6 @@ You can get subscription support and search the frequently asked questions about
 
 You can see that you're successfully signed in the upper-right corner of the Visual Studio environment. Unless you sign out, you're automatically signed in to Visual Studio whenever you start it, and any changes to synchronized settings are automatically applied.
 
-::: moniker range="<=vs-2019"
-
-   ![Currently logged in user in VS2019](../ide/media/vs2019_username.png)
-
-::: moniker-end
-
-::: moniker range="vs-2022"
-
-   ![Currently logged in user in VS2022](../ide/media/vs-2022/visual-studio-sign-in.png)
-
-::: moniker-end
-
 <a name="benefits"></a>
 ## Benefits: why sign in? 
 
@@ -75,13 +65,6 @@ While you don't have to sign in, there are many advantages to doing so.
 |Use Community edition without interruptions|While it's not required to sign in, you might periodically get prompts to sign-in if you haven't done so. Please sign in to the IDE to continue using Visual Studio Community without interruptions.|
 |[Get 'Visual Studio Dev Essentials'](https://visualstudio.microsoft.com/dev-essentials/)|This program includes free software, training, support, and more.|
 
-<a name="profile"></a>
-
-## Update your account profile
-
-1. Go to **File > Account Settings...** and select the **Manage Visual Studio profile** link.
-1. In the browser window, select **Edit profile** and change the settings that you want.
-1. When you're done, select **Save changes**.
 
 <a name="add-and-switch"></a>
 
@@ -93,7 +76,7 @@ After you add multiple accounts on one machine, that group of accounts roams wit
 
 There are several types of accounts you can add: 
 
-- Typical accounts can be added by:
+- Add a standard Visual Studio accounts:
   
   ::: moniker range="vs-2019"
   
@@ -113,5 +96,14 @@ There are several types of accounts you can add:
 
   ::: moniker-end
 
-- GitHub accounts: Follow the instructions in the article, [Work with GitHub accounts](work-with-github-accounts.md).
-- Multifactor authentication (MFA) account: Follow the instructions in the article, [Work with accounts that require MFA)](work-with-multi-factor-authentication.md).
+- [Add a GitHub account](work-with-github-accounts.md)
+- [Add a Multifactor authentication (MFA) account](work-with-multi-factor-authentication.md)
+
+
+<a name="profile"></a>
+
+## Update your account profile
+
+1. Go to **File > Account Settings...** and select the **Manage Visual Studio profile** link.
+1. In the browser window, select **Edit profile** and change the settings that you want.
+1. When you're done, select **Save changes**.
