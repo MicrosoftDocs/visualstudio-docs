@@ -230,8 +230,6 @@ Many build behaviors can be configured by setting MSBuild properties, either in 
 
 ## Related content
 
-The MSBuild process has several other extension points other than the ones described here. See [Customize your build](customize-your-build.md). and [How to extend the Visual Studio build process](how-to-extend-the-visual-studio-build-process.md).
-
-## Related content
-
+- [Customize your build](customize-your-build.md)
+- [How to extend the Visual Studio build process](how-to-extend-the-visual-studio-build-process.md).
 - [MSBuild](msbuild.md)
