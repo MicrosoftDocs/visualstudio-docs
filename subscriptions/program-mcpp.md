@@ -3,7 +3,7 @@ title: Visual Studio subscriptions offered in the Microsoft Cloud Partner
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 06/14/2023
+ms.date: 11/28/2023
 ms.topic: conceptual
 description: Explore available subscriptions, what rules apply, and how many subscriptions are offered in the Microsoft Cloud Partner Program.
 ---
@@ -13,7 +13,7 @@ Partners who earn a competency or who purchase the Action Pack in the Microsoft 
 
 ## Solutions partners and partners with legacy competency offers
 
-When a partner earns a competency--either at the silver or gold level--they earn a core number of Visual Studio Enterprise subscriptions. This core benefit changes if the partner earns at least one gold competency. The Visual Studio Enterprise subscription is a custom offering that is roughly equivalent to the [Visual Studio Enterprise Standard subscription](https://visualstudio.microsoft.com/vs/pricing/), but with certain benefits removed.  Many of these benefits are available separately to partners as general MPN benefits rather than as part of the Visual Studio Enterprise subscriptions.
+When a partner earns a competency--either at the silver or gold level--they earn a core number of Visual Studio Enterprise subscriptions. This core benefit changes if the partner earns at least one gold competency. The Visual Studio Enterprise subscription is a custom offering that is roughly equivalent to the [Visual Studio Enterprise Standard subscription](https://visualstudio.microsoft.com/vs/pricing/), but with certain benefits removed.  Many of these benefits are available separately to partners as general Microsoft Cloud Partner benefits rather than as part of the Visual Studio Enterprise subscriptions.
 
 ### Core Visual Studio benefit for earning at least one competency of any kind
 
