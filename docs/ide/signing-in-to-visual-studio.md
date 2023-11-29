@@ -93,8 +93,6 @@ After you add multiple accounts on one machine, that group of accounts roams wit
 
 There are several types of accounts you can add: 
 
-::: moniker range="<=vs-2019"
-
 - Typical accounts can be added by:
   
   ::: moniker range="vs-2019"
