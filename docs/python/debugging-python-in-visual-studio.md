@@ -256,6 +256,6 @@ The following steps enable debugging in the current Visual Studio session:
 
 1. Start debugging and reproduce your issue again. The debugger logs can then be found in `%temp%\DebugAdapterHostLog.txt`.
 
-## See also
+## Related content
 
 For complete details on the Visual Studio debugger, see [Debugging in Visual Studio](../debugger/debugger-feature-tour.md).

@@ -42,7 +42,7 @@ ms.technology: sharepoint-development
 |Task|-   The form is referenced in the *Elements.xml* file of the workflow.<br />-   The *Elements.xml* file of the workflow is not refactored.|-   The form is imported, but not referenced in the *Elements.xml* of the workflow.<br />-   The *Elements.xml* file of the workflow is not refactored. **Note:**  Rules and properties must be added and changed for this scenario to work.|
 |Modification|Not applicable. ASPX modification forms cannot be created in SharePoint Designer.|Not applicable. InfoPath modification forms cannot be created in SharePoint Designer, except for the built-in SharePoint Server workflow, which is not included in the .wsp file when the workflow is exported.|
 
-## See also
+## Related content
 - [Walkthrough: Create a workflow with association and initiation forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md)
 - [Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md)
 - [Import items from an existing SharePoint site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)

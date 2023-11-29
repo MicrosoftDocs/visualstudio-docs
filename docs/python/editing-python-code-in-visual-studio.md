@@ -215,7 +215,7 @@ Double-clicking any name, or selecting with arrow keys and **Enter**, navigates 
 
 ![Find All References results](media/code-editing-find-all-references.png)
 
-## See also
+## Related content
 
 - [Formatting](formatting-python-code.md)
 - [Refactoring](refactoring-python-code.md)

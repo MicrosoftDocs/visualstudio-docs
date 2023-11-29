@@ -53,7 +53,7 @@ ms.technology: sharepoint-development
 
      The SharePoint Items appear in the **Items in the Solution** list.
 
-## See also
+## Related content
 - [Create SharePoint solution packages](../sharepoint/creating-sharepoint-solution-packages.md)
 - [How to: Customize a SharePoint solution package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md)
 - [How to: Create a Package](/previous-versions/ee231585(v=vs.110))

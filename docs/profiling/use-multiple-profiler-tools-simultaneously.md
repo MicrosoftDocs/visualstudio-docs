@@ -26,7 +26,7 @@ During analysis, time filtering operations are applied across tools, so you can 
 
 ![Diag Hub Time Filtering](../profiling/media/diaghubtimefiltering.png "Diag Hub Time Filtering")
 
-## See also
+## Related content
 
 - [Optimizing profiler settings](../profiling/optimize-profiler-settings.md)
 - [Running profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)

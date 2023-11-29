@@ -155,7 +155,7 @@ int main()
 
 ::: moniker-end
 
-## See also
+## Related content
 
 - [Identify hot paths with Flame Graph](../profiling/flame-graph.md)
 - [Diagnose high latency with CPU Insights](../profiling/cpu-insights.md)

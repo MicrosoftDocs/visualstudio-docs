@@ -150,6 +150,6 @@ As with the standard Windows heap, you can also use this tool to compare snapsho
 > [!TIP]
 > Visual Studio also contains a **Memory Usage** tool in the **Performance Profiling** toolset, which is enabled from the **Debug** > **Performance Profiler** menu option, or the **Alt**+**F2** keyboard combination.  This feature does not include heap tracking and will not display your custom heap as described here.  Only the **Diagnostic Tools** window, which can be enabled with the **Debug** > **Windows** > **Show Diagnostic Tools** menu, or the **Ctrl**+**Alt**+**F2** keyboard combination, contains this functionality.
 
-## See also
+## Related content
 [First look at profiling tools](../profiling/profiling-feature-tour.md)
 [Memory Usage](../profiling/memory-usage.md)

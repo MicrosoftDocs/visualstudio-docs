@@ -77,7 +77,7 @@ To end a profiling session:
 
      **VSPerfCmd /shutdown**
 
-## Reference
+## Related content
 
 - [VSInstr](../profiling/vsinstr.md)
 - [VSPerfCmd](../profiling/vsperfcmd.md)
