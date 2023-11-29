@@ -1,7 +1,7 @@
 ---
 title: AI-assisted development in Visual Studio
 description: Learn about the AI-assisted development tools in Visual Studio, such as GitHub Copilot, Github Copilot Chat, and IntelliCode, and how they can help you write code more efficiently.
-ms.date: 09/25/2023
+ms.date: 11/29/2023
 ms.topic: overview 
 author: anandmeg
 ms.author: meghaanand
@@ -101,13 +101,11 @@ The following table compares the capabilities of GitHub Copilot (and GitHub Copi
 | Context-aware AI-assisted [IntelliSense](using-intellisense.md) | **Yes** | **Yes** |
 | Whole-line completions in gray text | **Yes** | **Yes** |
 | Whole function & multi-line completions in gray text | **Yes** | No |
-| Whole-line completions in gray text | **Yes** | **Yes** |
 | Repeated edits detection | No | **Yes** |
 | Convert Natural language comments to code| **Yes** | No |
 | Solve code problems with Natural language driven dev assistance | **Yes**, with Chat extension enabled. | No |
 | Code debugging | **Yes**, with Chat extension enabled. <br/>[Learn more](../debugger/debug-with-copilot.md)| No |
 | Measure app performance through profiling | **Yes**, with Chat extension enabled. <br/>[Learn more](https://devblogs.microsoft.com/visualstudio/simplified-code-refinement-and-debugging-with-github-copilot-chat/#cpu-usage-auto-insights-in-the-profiler) | No |
-| Measure app performance through profiling | **Yes** <br/>[Learn more](https://devblogs.microsoft.com/visualstudio/simplified-code-refinement-and-debugging-with-github-copilot-chat/#cpu-usage-auto-insights-in-the-profiler) | **Yes** |
 | API usage examples | No | **Yes** |
 | Languages supported | Supports several programming languages and frameworks, including but not limited to: C#, C++, Python, JavaScript, and TypeScript| C#, XAML, C++, JavaScript, TypeScript, Visual Basic |
 
