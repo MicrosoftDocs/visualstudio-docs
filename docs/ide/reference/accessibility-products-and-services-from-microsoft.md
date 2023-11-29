@@ -68,7 +68,7 @@ Microsoft Support Services are subject to the prices, terms, and conditions in p
 
 For more information about how accessible technology for computers helps to improve the lives of people with disabilities, see the [Microsoft Accessibility](https://www.microsoft.com/accessibility/) website.
 
-## Related content
+## See also
 
 * [Resources for designing accessible applications](../../ide/reference/resources-for-designing-accessible-applications.md)
 * [Accessibility features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)

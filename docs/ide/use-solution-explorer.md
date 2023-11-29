@@ -151,7 +151,7 @@ You can find the **Collapse All Descendants** command on the right-click context
 
 ::: moniker-end
 
-## Related content
+## See also
 
 - [What are solutions and projects in Visual Studio?](solutions-and-projects-in-visual-studio.md)
 - [What is the .NET Project Designer?](reference/project-properties-reference.md)
