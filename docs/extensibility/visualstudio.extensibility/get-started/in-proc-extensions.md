@@ -12,13 +12,13 @@ ms.technology: vs-ide-sdk
 
 # Using VisualStudio.Extensibility SDK and VSSDK together
 
-While the VisualStudio.Extensibility model was created primarily to host extensions outside of the devenv.exe process, it is possible to use VisualStudio.Extensibility SDK APIs in an extension running in the Visual Studio process and utilizing traditional extensibility APIs provided by the [Microsoft.VisualStudio.Sdk](https://www.nuget.org/packages/Microsoft.VisualStudio.Sdk) packages.
+While the VisualStudio.Extensibility model was created primarily to host extensions outside of the devenv.exe process, it's possible to use VisualStudio.Extensibility SDK APIs in an extension running in the Visual Studio process and utilizing traditional extensibility APIs provided by the [Microsoft.VisualStudio.Sdk](https://www.nuget.org/packages/Microsoft.VisualStudio.Sdk) packages.
 
 The support of *in-proc* usage is meant to allow early adopters to the new VisualStudio.Extensibility APIs while relying on [Microsoft.VisualStudio.Sdk](https://www.nuget.org/packages/Microsoft.VisualStudio.Sdk) to cover any feature gap.
 
 This document is a quick walkthrough on different options to utilize VisualStudio.Extensibility SDK in-proc.
 
-* If you are developing a new extension, our recommended method is to create a VisualStudio.Extension that is hosted in-process following [this tutorial](#create-your-first-vssdk-compatible-visualstudioextensibility-extension). This will allow you to use full capabilities of VisualStudio.Extensibility SDK in addition to being able to inject VSSDK and MEF services.
+* If you're developing a new extension, our recommended method is to create a VisualStudio.Extension that is hosted in-process following [this tutorial](#create-your-first-vssdk-compatible-visualstudioextensibility-extension). This method allows you to use full capabilities of VisualStudio.Extensibility SDK in addition to being able to inject VSSDK and MEF services.
 
 * If you have an existing VSSDK extension, you can follow [these tips](#use-visualstudioextensibility-from-existing-vssdk-extensions) to use the new [VisualStudioExtensibility](/dotnet/api/microsoft.visualstudio.extensibility.visualstudioextensibility) instance in your extension.
 
@@ -51,11 +51,11 @@ While the VisualStudio.Extensibility model was created primarily to host extensi
 
 ## Consuming Visual Studio SDK services from a VisualStudio.Extensibility extension
 
-A VS-SDK-compatible extension project references the [Microsoft.VisualStudio.Sdk](https://www.nuget.org/packages/Microsoft.VisualStudio.Sdk) package which allows access to all Visual Studio SDK's services.
+A VS-SDK-compatible extension project references the [Microsoft.VisualStudio.Sdk](https://www.nuget.org/packages/Microsoft.VisualStudio.Sdk) package, which allows access to all Visual Studio SDK's services.
 
 Traditionally, such services are consumed through either [MEF](/visualstudio/extensibility/managed-extensibility-framework-in-the-editor) or the [AsyncServiceProvider](/dotnet/api/microsoft.visualstudio.shell.asyncserviceprovider). A VisualStudio.Extensibility extender is instead encouraged to  [.NET dependency injection](/dotnet/core/extensions/dependency-injection).
 
-The `MefInjection<TService>` and `AsyncServiceProviderInjection<TService, TInterface>` classes (both from the `Microsoft.VisualStudio.Extensibility.VSSdkCompatibility` namespace) allow you to consume the Visual Studio SDK's services by simply adding them to the constructor of a class that is instantiated through dependency injection (like a command, tool window or extension part).
+The `MefInjection<TService>` and `AsyncServiceProviderInjection<TService, TInterface>` classes (both from the `Microsoft.VisualStudio.Extensibility.VSSdkCompatibility` namespace) allow you to consume the Visual Studio SDK's services by adding them to the constructor of a class that is instantiated through dependency injection (like a command, tool window or extension part).
 
 The following example shows how the `DTE2` and `IBufferTagAggregatorFactoryService` services can be added to a command.
 
@@ -122,11 +122,11 @@ internal class MyExtension : Extension
 
 ## Use VisualStudio.Extensibility from existing VSSDK extensions
 
-For existing VSSDK extensions, another option is to query for the [VisualStudioExtensibility](/dotnet/api/microsoft.visualstudio.extensibility.visualstudioextensibility) instance via service provider and utilize its methods. This method will allow you to use new the API surface area of VisualStudio.Extensibility SDK in your existing components. This can be useful in situations where you like to use the new API to query project information, document management without creating a new VisualStudio.Extensibility based extension. 
+For existing VSSDK extensions, another option is to query for the [VisualStudioExtensibility](/dotnet/api/microsoft.visualstudio.extensibility.visualstudioextensibility) instance via service provider and utilize its methods. This method allows you to use new the API surface area of VisualStudio.Extensibility SDK in your existing components. This option can be useful in situations where you like to use the new API to query project information, document management without creating a new VisualStudio.Extensibility-based extension. 
 
-Here is an example code snippet that shows how one can utilize `VisualStudioExtensibility` within a VSSDK package:
+Here's an example code snippet that shows how one can utilize `VisualStudioExtensibility` within a VSSDK package:
 
-* In your `.csproj` include a package reference to VisualStudio.Extensibility APIs:
+* In your `.csproj` file, include a package reference to VisualStudio.Extensibility APIs:
 
 ```XML
   <ItemGroup>
@@ -156,7 +156,7 @@ public class VSSDKPackage : AsyncPackage
 
 If you also want to contribute components like tool windows, editor listeners using the VisualStudio.Extensibility SDK within your existing VSSDK extension, you will have to follow additional steps to create a VisualStudio.Extensibility [Extension](/dotnet/api/microsoft.visualstudio.extensibility.extension) instance in your project.
 
-* You will need an SDK style `.csproj` in order to utilize VisualStudio.Extensibility SDK packages. For existing projects, you may need to update your `.csproj` to an SDK style one.
+* You need an SDK style `.csproj` in order to utilize VisualStudio.Extensibility SDK packages. For existing projects, you might need to update your `.csproj` to an SDK style one.
 
 * Remove package reference for `Microsoft.VSSDK.BuildTools` and instead add package references for VisualStudio.Extensibility.
 
@@ -173,6 +173,6 @@ If you also want to contribute components like tool windows, editor listeners us
 </PropertyGroup>    
 ```
 
-* Create a new extension class inheriting from `Extension` base class and set [RequiresInProcessHosting](#requiresinprocesshosting-property) property as shown above.
+* Create a new extension class inheriting from `Extension` base class and set [RequiresInProcessHosting](#requiresinprocesshosting-property) property as shown previously.
 
 You can now use all capabilities of VisualStudio.Extensibility together with your existing VSSDK extension.
