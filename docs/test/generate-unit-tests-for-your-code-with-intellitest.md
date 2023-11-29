@@ -1,6 +1,6 @@
 ---
 title: Generate unit tests for your code with IntelliTest
-description: IntelliTest explores your .NET code to generate test data and a suite of unit tests. Learn how to run IntelliTest to generate smart fuzz tests that cover all your logic branches, see which tests are failing, and fix them. 
+description: Review how IntelliTest explores your .NET code to generate smart fuzz tests for all logic branches and use the tool to identify and fix failing tests.
 ms.date: 04/21/2023
 ms.topic: conceptual
 f1_keywords:

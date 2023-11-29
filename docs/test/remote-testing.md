@@ -1,6 +1,6 @@
 ---
 title: Remote Testing in Visual Studio
-description: Learn how to use remote testing in Visual Studio Test Explorer to run tests from remote environments including containers, WSL2, or over SSH connections. This article covers how to configure remote testing with a testenvironments.json for either local containers, WSL2, or SSH connections.
+description: Run remote tests in Visual Studio Test Explorer from remote containers, WSL2, or over SSH connections, and configure remote tests with a testenvironments.json file.
 ms.date: 10/25/2023
 ms.topic: how-to
 author: mikejo5000
