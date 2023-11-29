@@ -61,7 +61,7 @@ GitHub Copilot is an AI pair programmer available as two extensions in the Visua
 
 - **[GitHub Copilot extension in Visual Studio](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs)**, adds enhanced AI-assistance to the development process by generating whole lines or blocks of code based on the context provided by the developer. It leverages AI models trained on billions of lines of open-source code to provide autocomplete-style code suggestions as you code, in real-time, right in the editor. You can get suggestions from GitHub Copilot in the IDE either by starting to write the code you want to use, or by writing a function signature or a natural language comment in your code file describing what you want the code to do. It helps you write code faster and with less work. 
 
-  The following image shows the code completion capabilities of GitHub Copilot in Visual Studio:
+  The following image shows the code generation capabilities of GitHub Copilot in Visual Studio. You add a natural language comment in the code file, and GitHub Copilot generates the code for you in gray text. If you choose to use the code, you can select **Tab** to insert it into your code file:
 
   :::image type="content" source="media/vs-2022/github-copilot-completions-visual-studio.gif" alt-text="Animated screenshot that shows the code completion capabilities of the GitHub Copilot extension." lightbox="media/vs-2022/github-copilot-completions-visual-studio.gif":::
 
@@ -113,7 +113,7 @@ The following table compares the capabilities of GitHub Copilot (and GitHub Copi
 
 To learn more, consider exploring the following resources:
 
-- [GitHub Copilot extension: Getting started](https://docs.github.com/copilot/getting-started-with-github-copilot?tool=visualstudio)
-- [GitHub Copilot Chat extension: Getting started](https://docs.github.com/copilot/getting-started-with-github-copilot?tool=visualstudio)
+- [GitHub Copilot extension: Getting started](visual-studio-github-copilot-extension.md)
+- [GitHub Copilot Chat extension: Getting started](visual-studio-github-copilot-chat.md)
 - [GitHub Copilot: Your AI pair programmer](https://github.com/features/copilot)
 - [GitHub Copilot Trust Center](https://resources.github.com/copilot-trust-center/)
