@@ -154,7 +154,7 @@ The .vsconfig file format that includes extensions should look like this.
     // example syntax:
     "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ImageOptimizer",
     "c:\\mylocaldrive\\someextension.vsix",
-    "\\\\server\share\\myextension.vsix",
+    "\\\\server\\share\\myextension.vsix",
     "https://myweb/anotherextension.vsix"
   ]
 }
