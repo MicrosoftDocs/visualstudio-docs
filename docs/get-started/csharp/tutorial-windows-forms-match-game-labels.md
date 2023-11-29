@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: Add a timer to your matching game"
-description: In this tutorial, you use reference variables to control labels in Visual Studio using C# or VB Windows Forms. You add a timer to run your Matching Game.
+description: Use reference variables to control labels in Visual Studio by using C# or VB Windows Forms and add a timer to run a matching game.
 dev_langs:
   - "CSharp"
   - "VB"

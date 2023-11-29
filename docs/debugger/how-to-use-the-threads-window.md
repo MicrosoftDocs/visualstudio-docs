@@ -1,6 +1,6 @@
 ---
 title: Debug a multithreaded app
-description: Debug using the Threads window and the Debug Location toolbar in Visual Studio
+description: Debug a multithreaded application by using the Threads window and the Debug Location toolbar in the Visual Studio integrated development environment (IDE).
 ms.date: 10/19/2023
 ms.topic: how-to
 dev_langs: 

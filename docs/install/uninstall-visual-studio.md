@@ -1,7 +1,7 @@
 ---
 title: Uninstall or remove Visual Studio
 titleSuffix: ''
-description: Learn how to uninstall or remove Visual Studio, step-by-step.
+description: Uninstall or remove your installation of Visual Studio along with its integrated suite of productivity tools for developers.
 ms.date: 5/16/2023
 ms.custom: vs-acquisition
 ms.topic: how-to

@@ -1,6 +1,6 @@
 ---
 title: Install certificates for an offline installation
-description: Learn how to install certificates for a Visual Studio offline installation.
+description: Install certificates for a Visual Studio offline installation where a working internet connection might not be available.
 ms.date: 6/6/2023
 ms.topic: how-to
 helpviewer_keywords:

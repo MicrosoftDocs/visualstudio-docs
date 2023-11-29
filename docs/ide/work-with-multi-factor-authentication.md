@@ -3,7 +3,7 @@ title: Multi-factor authentication with Visual Studio sign-ins
 titleSuffix: "" 
 ms.date: 08/24/2023
 ms.topic: how-to
-description: "Learn how to use Visual Studio with accounts that require multi-factor authentication (MFA)."
+description: Use Visual Studio with accounts that require multifactor authentication (MFA) to protect your apps and data with conditional access policies.
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens

@@ -1,6 +1,6 @@
 ---
 title: Command-line parameter examples for installation
-description: Customize these examples to create your own command-line installation of Visual Studio.
+description: Customize command-line parameter examples to create your own installation of Visual Studio by setting parameters, such as installPath, wait, all, remove, and more.
 ms.date: 8/8/2023
 ms.topic: conceptual
 author: anandmeg

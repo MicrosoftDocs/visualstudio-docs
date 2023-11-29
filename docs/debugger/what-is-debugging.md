@@ -1,6 +1,6 @@
 ---
 title: "What is debugging?"
-description: "Understand what it means to debug an app"
+description: Explore the process of debugging an application, what is a debugger, and the differences between debugging and running your app.
 ms.date: "10/17/2018"
 ms.topic: "conceptual"
 helpviewer_keywords:

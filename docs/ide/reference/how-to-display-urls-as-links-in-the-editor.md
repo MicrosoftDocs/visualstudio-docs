@@ -1,6 +1,6 @@
 ---
 title: 'Display URLs as Links in the Editor'
-description: Learn how to display URLs as links in the code editor.
+description: Display URLs in your code as active links in the Visual Studio Code Editor and enable link underlining, tooltips, and keyboard quick access functions.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

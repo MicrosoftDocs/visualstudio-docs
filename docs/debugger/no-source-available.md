@@ -1,6 +1,6 @@
 ---
 title: "No Source Available"
-description: Learn what you can do when your project does not have source code for the code that you want to view.
+description: Handle scenarios where your project doesn't have source code for the code you want to view, including browsing to find source code and viewing the disassembly.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

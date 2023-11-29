@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
-description: "Learn about the new features in Visual Studio 2019."
+description: Explore new features in Visual Studio 2019, including instant code cleanup, collaboration through a Git-first workflow, and automatic snapshots of app execution.
 ms.date: 08/04/2023
 helpviewer_keywords:
   - "Visual Studio, what's new"
@@ -13,6 +13,7 @@ ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: whats-new
 ms.custom: vs-acquisition
+monikerRange: vs-2019
 ---
 # What's new in Visual Studio 2019
 

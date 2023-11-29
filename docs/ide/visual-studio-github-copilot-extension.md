@@ -1,6 +1,6 @@
 ---
 title: About the GitHub Copilot extension for Visual Studio
-description: Use Visual Studio and the GitHub Copilot extension together to take advantage of AI and generate detailed info about your code, along with suggested edits, and even new code snippets, too. 
+description: Use Visual Studio with the GitHub Copilot extension to access AI features and generate information about your code, including suggested edits and new code snippets.
 ms.date: 09/28/2023
 ms.topic: overview 
 author: anandmeg
