@@ -97,11 +97,12 @@ There are several types of accounts you can add:
 
 - Typical accounts can be added by:
   
-  ::: moniker range="vs-2022"  
+  ::: moniker range="vs-2019"  
   1. Choose **File** > **Account Settings**.
   1. From **All Accounts**, choose an account by using the **+** or the **Add** dropdown. 
   1. On the **Sign in to your account** page, select the account or choose **Use another account**.
   1. Follow the prompts to enter the new account credentials.
+
   ::: moniker-end
 
   ::: moniker range="vs-2022"
@@ -109,6 +110,7 @@ There are several types of accounts you can add:
   1. Select **Add another account** and then choose an account to sign into.
   1. On the **Sign in to your account** page, select the account or choose **Use another account**. 
   1. Follow the prompts to enter the new account credentials.
+
   ::: moniker-end
 
 - GitHub accounts: Follow the instructions in the article, [Work with GitHub accounts](work-with-github-accounts.md).
