@@ -1,6 +1,6 @@
 ---
 title: "Server/client configuration issues (ClickOnce)"
-description: Learn about server and client configuration issues that can affect the deployment of your ClickOnce application.
+description: Review possible issues with the server and client configuration that can affect the deployment of your ClickOnce application.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

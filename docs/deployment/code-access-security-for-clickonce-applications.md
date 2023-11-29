@@ -1,6 +1,6 @@
 ---
 title: "Code Access Security for ClickOnce Applications"
-description: Learn about code access security for ClickOnce applications and how to configure the code access security permissions.
+description: Explore code access security for ClickOnce applications and how to configure the code access security permissions in Visual Studio.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

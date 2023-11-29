@@ -1,6 +1,6 @@
 ---
 title: Access ClickOnce deployment properties for .NET
-description: "Learn how to access ClickOnce deployment properties for .NET Core 3.1, .NET 5 and later."
+description: Access ClickOnce deployment properties for .NET Core 3.1 on Windows or .NET 5 and later versions on Windows, including ActivationUri and URL parameters.
 ms.date: 10/25/2023
 ms.topic: how-to
 helpviewer_keywords:

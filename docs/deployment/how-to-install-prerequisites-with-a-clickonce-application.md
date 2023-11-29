@@ -1,6 +1,6 @@
 ---
 title: Install prerequisites with a ClickOnce app
-description: Learn how to select prerequisite components to be packaged along with your ClickOnce application when it is installed.
+description: Select the appropriate prerequisite components for your configuration to package along with your ClickOnce application during installation.
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

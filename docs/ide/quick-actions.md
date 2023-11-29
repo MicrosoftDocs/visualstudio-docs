@@ -1,6 +1,6 @@
 ---
 title: Quick Actions, light bulbs, and screwdrivers
-description: Learn how to use a single Quick Action to refactor, generate, or otherwise modify your code.
+description: Use a single Quick Action in Visual Studio to refactor, generate, or modify your C#, C++, or Visual Basic code files to apply updates and fixes or generate code.
 ms.date: 08/29/2022
 ms.topic: conceptual
 author: Mikejo5000

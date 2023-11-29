@@ -1,6 +1,6 @@
 ---
 title: "Create a Vue.js app using Node.js"
-description: You can create Node.js applications in Visual Studio using the Vue.js framework
+description: Create Node.js applications in Visual Studio by using the Vue.js framework along with JavaScript or the TypeScript programming language.
 ms.date: "11/06/2023"
 ms.topic: "how-to"
 ms.devlang: javascript
