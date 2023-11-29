@@ -1,6 +1,6 @@
 ---
 title: C++ IntelliSense
-description: Explore IntelliSense features and how to enable options from the UI to make developing your C++ project more convenient.
+description: Explore some IntelliSense features that you can use while coding your C++ project, such as statement completion, help with parameters, and error indicators.
 ms.date: 10/08/2018
 ms.topic: conceptual
 author: tylermsft

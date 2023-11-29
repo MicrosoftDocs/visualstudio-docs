@@ -1,6 +1,6 @@
 ---
 title: "Write unit tests for C++ DLLs"
-description: Develop a native C++ DLL by using test-first methodology, create test and DLL projects, debug tests, refactor, isolate units from external resources, and more.
+description: Develop a native C++ DLL by using test-first methodology, create test and DLL projects, debug tests, refactor, reduce dependencies to improve unit testing, and more.
 ms.date: 06/13/2019
 ms.topic: how-to
 ms.author: twhitney

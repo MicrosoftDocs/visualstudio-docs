@@ -1,6 +1,6 @@
 ---
 title: Use Google Test for C++
-description: Create and run unit tests with Google Test for C++, which is integrated into Visual Studio by default as a component of the Desktop Development with C++ workload.
+description: Create and run unit tests with Google Test for C++, add and configure the test project, set additional options, and add include directives.
 ms.date: 01/19/2022
 ms-custom: devdivchpfy22
 ms.topic: how-to
