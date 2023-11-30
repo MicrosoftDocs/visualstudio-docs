@@ -147,8 +147,9 @@ The .vsconfig file format that includes extensions should look like this.
     // This array should not be null! If you don't want to install any component, just leave the array empty.
   ],
   "extensions": [
-    // The extensions you want to install are specified in this section, in quotes, separated by commas
+    // The extensions you want to install are specified in this section, in quotes, separated by commas.
     // Extensions are optional in .vsconfig, so if you don't want any, you can delete the entire extensions section.
+    // The extensions must be in a *.vsix package
     // Make sure that the extensions you specify are designed to work with that version of Visual Studio.
     // example syntax:
     "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ImageOptimizer",
