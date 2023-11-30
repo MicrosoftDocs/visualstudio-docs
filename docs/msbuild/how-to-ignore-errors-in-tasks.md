@@ -1,5 +1,5 @@
 ---
-title: 'Ignore Errors in Tasks'
+title: Ignore errors in MSBuild tasks
 description: Ignore errors from MSBuild tasks and control whether a build stops or continues when a task failure occurs with the ContinueOnError attribute.
 ms.date: 11/04/2016
 ms.topic: conceptual

@@ -1,5 +1,5 @@
 ---
-title: 'Clean a Build'
+title: Clean a build with MSBuild
 description: Use MSBuild to clean a build, delete all of the intermediate and output files, and leave only the project and component files.
 ms.date: 11/04/2016
 ms.topic: conceptual
