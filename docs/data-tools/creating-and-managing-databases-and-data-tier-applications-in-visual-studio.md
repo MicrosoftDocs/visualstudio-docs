@@ -1,5 +1,5 @@
 ---
-title: Database projects and DAC projects (.NET Framework)
+title: Database projects & DAC projects (.NET Framework)
 description: Explore database projects and data-tier applications (DACs) to create new databases and new DACs, and update existing databases and DACs.
 ms.date: 11/01/2023
 ms.topic: conceptual
