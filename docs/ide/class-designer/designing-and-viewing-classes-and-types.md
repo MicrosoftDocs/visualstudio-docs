@@ -1,5 +1,5 @@
 ---
-title: Use Class Designer
+title: Design, visualize, & refactor with Class Designer
 description: Design, visualize, and refactor classes, other types, and their relationships in your code with Class Designer in Visual Studio.
 ms.date: 05/08/2018
 ms.topic: conceptual
