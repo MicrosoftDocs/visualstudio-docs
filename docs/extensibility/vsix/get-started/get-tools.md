@@ -1,5 +1,5 @@
 ---
-title: Get the tools
+title: Get tools for VS extensions and install workload
 description: Explore the tools you need to write Visual Studio extensions and the process to install the corresponding extensibility workload.
 ms.date: 12/01/2021
 ms.topic: conceptual

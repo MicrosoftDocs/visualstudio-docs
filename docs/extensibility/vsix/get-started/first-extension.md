@@ -1,5 +1,5 @@
 ---
-title: Your first extension
+title: Create VS extension with C# and .NET Framework
 description: Create a Visual Studio extension with the .NET Framework and C# and an existing project template file, such as Empty VSIX Project (Community).
 ms.date: 12/01/2021
 ms.topic: conceptual
