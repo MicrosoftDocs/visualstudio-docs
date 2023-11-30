@@ -389,6 +389,26 @@ Output:
 -->
 ```
 
+## MSBuild StableStringHash
+
+The MSBuild `StableStringHash` property function accepts a string argument, and returns a hash code that is guaranteed to be stable, meaning that the same code is always returned for the same string input. The returned hash is the same regardless of whether MSBuild or `dotnet build` is used, and is stable across platform architecture, unlike the .NET method `GetHashCode`. It is not guaranteed to be stable across different MSBuild versions.
+
+This function is available in MSBuild 16.9.0 or later.
+
+The following example shows how this function is used.
+
+```xml
+<Project>
+   <PropertyGroup>
+      <MyHash>$([MSBuild]::StableStringHash("test1"))</MyHash>
+   </PropertyGroup>
+
+   <Target Name="WriteHash" AfterTargets="Build">
+      <Message Text="Hash: $(MyHash)"/>
+   </Target>
+</Project>
+```
+
 ## MSBuild ValueOrDefault
 
 The MSBuild `ValueOrDefault` property function returns the first argument, unless it's null or empty. If the first argument is null or empty, the function returns the second argument.
