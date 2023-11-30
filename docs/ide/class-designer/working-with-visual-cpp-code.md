@@ -344,6 +344,6 @@ The error you are most likely to see for a type resolution issue is **Code could
 > [!TIP]
 > For additional troubleshooting information, see [Class Designer errors](/troubleshoot/developer/visualstudio/ide/troubleshoot-class-designer-errors).
 
-## See also
+## Related content
 
 - [What is Class Designer?](designing-and-viewing-classes-and-types.md)

@@ -110,7 +110,7 @@ In Windows, *%userprofile%* resolves to the path: *c:\Users\\\<user name>*. If t
 
 For details about how to create TextMate Grammars, see [TextMate - Introduction to Language Grammars](https://developmentality.wordpress.com/2011/02/08/textmate-introduction-to-language-grammars/) and [Notes on how to create a Language Grammar and Custom Theme for a Textmate Bundle](https://benparizek.com/notebook/notes-on-how-to-create-a-language-grammar-and-custom-theme-for-a-textmate-bundle).
 
-## See also
+## Related content
 
 - [Add a Language Server Protocol extension](../extensibility/adding-an-lsp-extension.md)
 - [Walkthrough: Create a code snippet](../ide/walkthrough-creating-a-code-snippet.md)

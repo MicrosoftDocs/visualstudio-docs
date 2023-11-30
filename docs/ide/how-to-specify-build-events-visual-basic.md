@@ -157,7 +157,7 @@ The following procedure shows how to set the minimum operating system version in
     <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
     ```
 
-## See also
+## Related content
 
 - [Compile page, Project Designer (Visual Basic)](../ide/reference/compile-page-project-designer-visual-basic.md)
 - [Publish page, Project Designer](../ide/reference/publish-page-project-designer.md)

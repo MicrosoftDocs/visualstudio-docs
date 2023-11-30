@@ -104,12 +104,9 @@ End Property
 
 If you change `newPropertyValue` to `m_property`, then every instance of `newPropertyValue` is changed. If you change `String` to `Int` in the property declaration, then the value in the set method is also changed to `Int`.
 
-## Next steps
+## Related content
 
-To learn how to create your own code snippets, see [Walkthrough: Create a code snippet](walkthrough-creating-a-code-snippet.md).
-
-## See also
-
+- -[Walkthrough: Create a code snippet](walkthrough-creating-a-code-snippet.md).
 - [C# code snippets](visual-csharp-code-snippets.md)
 - [C++ code snippets](visual-cpp-code-snippets.md)
 - [Best practices for using code snippets](best-practices-for-using-code-snippets.md)

@@ -59,7 +59,7 @@ You can access the `Icon` property from the **Application** section of the **Pro
 
 ::: moniker-end
 
-## See also
+## Related content
 
 - [Application page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)
 - [Application page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md)

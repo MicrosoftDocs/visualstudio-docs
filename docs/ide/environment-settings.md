@@ -46,7 +46,7 @@ You can also use the wizard to reset the environment to one of the default colle
 
 1. On the **Reset Complete** page, select **Close**.
 
-## See also
+## Related content
 
 - [Synchronize settings across multiple computers](synchronized-settings-in-visual-studio.md)
 - [Personalize the Visual Studio IDE](personalizing-the-visual-studio-ide.md)

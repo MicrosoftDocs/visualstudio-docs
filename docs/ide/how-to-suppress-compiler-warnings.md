@@ -230,7 +230,7 @@ In some cases, you might want to suppress NuGet compiler warnings for a single N
     </PackageReference>
    ```
 
-## See also
+## Related content
 
 - [Walkthrough: Build an application](../ide/walkthrough-building-an-application.md)
 - [How to: View, save, and configure build log files](../ide/how-to-view-save-and-configure-build-log-files.md)

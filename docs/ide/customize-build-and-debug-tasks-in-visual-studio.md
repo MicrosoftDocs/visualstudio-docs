@@ -305,7 +305,7 @@ You can have any number of *.vscode\settings.json* files in your codebase. Setti
 
 Settings read from the *.gitignore* file are applied to its parent directory and all subdirectories.
 
-## See also
+## Related content
 
 - [Develop code without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md)
 - [Open Folder projects for C++](/cpp/build/open-folder-projects-cpp)
