@@ -1,5 +1,5 @@
 ---
-title: Use the Find in Files feature
+title: Use Find in Files feature to search for files
 description: Explore the Find in Files feature in Visual Studio and discover how to use the feature to search a specific set of files.
 ms.date: 11/29/2021
 ms.topic: conceptual
