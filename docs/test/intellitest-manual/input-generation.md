@@ -212,6 +212,6 @@ The [PexChoose](static-helper-classes.md#pexchoose) static class can be used to 
 
 Post your ideas and feature requests on [Developer Community](https://aka.ms/feedback/suggest?space=8).
 
-## Further reading
+## Related content
 
 * [How does it work?](https://devblogs.microsoft.com/devops/smart-unit-tests-a-mental-model/)

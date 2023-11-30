@@ -161,6 +161,6 @@ Choose the icon for more information, or to run or debug the unit test:
 
 ![C++ CodeLens Run and Debug](media/vs-2022/cpp-test-codelens-run-debug-2022.png)
 
-## See also
+## Related content
 
 - [Unit test your code](unit-test-your-code.md)

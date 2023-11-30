@@ -59,6 +59,6 @@ ms.technology: sharepoint-development
 
      The files copy to the specified locations in SharePoint.
 
-## See also
+## Related content
 - [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)
 - [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)

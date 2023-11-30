@@ -58,7 +58,7 @@ Use this feature whenever you need to create unit tests, but specifically when y
 
 However, this feature is equally applicable when a developer starts by writing some code and then uses that to bootstrap unit tests. Within the flow of coding, the developer might want to quickly create a unit test method stub (with a suitable test class and a suitable test project) for a particular piece of code.
 
-## See also
+## Related content
 
 - [Get started with IntelliTest](generate-unit-tests-for-your-code-with-intellitest.md)
 - [Unit testing blog posts](https://devblogs.microsoft.com/search?query=unit+testing)

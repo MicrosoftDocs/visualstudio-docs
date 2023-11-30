@@ -101,7 +101,7 @@ ms.technology: sharepoint-development
 </Assemblies>
 ```
 
-## See also
+## Related content
 - [Package and deploying SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)
 - [Use modules to include files in the solution](../sharepoint/using-modules-to-include-files-in-the-solution.md)
 - [Extend SharePoint packaging and deployment](../sharepoint/extending-sharepoint-packaging-and-deployment.md)

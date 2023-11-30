@@ -44,6 +44,6 @@ Update to the latest stable test adapter to experience better test discovery and
 
    ![Upgrade Test Adapter](media/install-adapter-upgrade.png)
 
-## See also
+## Related content
 
 - [Unit test your code](../test/unit-test-your-code.md)

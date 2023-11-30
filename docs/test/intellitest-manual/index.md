@@ -260,7 +260,7 @@ IntelliTest uses an automatic [constraint solver](input-generation.md#constraint
 
 Because IntelliTest catches and "rethrows" exceptions in each instrumented method, the line numbers in stack traces will not be correct. This is a limitation by design of the "rethrow" instruction.
 
-## Further reading
+## Related content
 
 * [Introductory blog post](https://devblogs.microsoft.com/devops/introducing-smart-unit-tests/).
 * [Generate unit tests for your code with IntelliTest](../../test/generate-unit-tests-for-your-code-with-intellitest.md)

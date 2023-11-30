@@ -295,7 +295,7 @@ ms.technology: sharepoint-development
 
 - To learn more about Windows Workflow Foundation activities, see [System.Workflow.Activities Namespace](/dotnet/api/system.windows.media.color).
 
-## See also
+## Related content
 - [Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md)
 - [SharePoint project and project item templates](../sharepoint/sharepoint-project-and-project-item-templates.md)
 - [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)

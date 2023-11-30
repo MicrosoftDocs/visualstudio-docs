@@ -136,6 +136,6 @@ ms.technology: sharepoint-development
 ### Web part
  A *web part* is a server-side control that runs inside a special type of page called a Web Part Page. They are the building blocks of pages that appear on a SharePoint site. The web part item provides files that enable you to design a web part for a SharePoint site. For more information, see [How to: Create a SharePoint web part](../sharepoint/how-to-create-a-sharepoint-web-part.md) and [Building Block: Web Parts](/previous-versions/office/developer/sharepoint-2010/ee535520(v=office.14)).
 
-## See also
+## Related content
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
 - [SharePoint Products and Technologies](/previous-versions/office/developer/sharepoint-2010/dd776256(v=office.12))

@@ -235,7 +235,7 @@ If you ran any of the `AddIntegers_FromDataRowTest`, `AddIntegers_FromDynamicDat
 
 When the method under test is corrected and the test rerun, the results bar turns green and the test method is moved to the **Passed Test** group.
 
-## See also
+## Related content
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute?displayProperty=fullName>
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext?displayProperty=fullName>

@@ -163,7 +163,7 @@ You can learn more about how to design SharePoint page content by using the Visu
 
 - [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md).
 
-## See also
+## Related content
 
 [How to: Create an application page](../sharepoint/how-to-create-an-application-page.md)
 [Application _layouts Page Type](/previous-versions/office/aa979604(v=office.14))

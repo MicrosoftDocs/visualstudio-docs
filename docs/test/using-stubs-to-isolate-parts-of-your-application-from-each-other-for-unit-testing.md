@@ -421,6 +421,6 @@ The behavior can also be changed globally for all stub objects where the behavio
 StubBehaviors.Current = BehavedBehaviors.DefaultValue;
 ```
 
-## See also
+## Related content
 
 - [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)

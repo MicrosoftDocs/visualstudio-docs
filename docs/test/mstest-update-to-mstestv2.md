@@ -104,7 +104,7 @@ In 2016, we released the next step in evolving the MSTest framework with MSTestV
 *	The "Coded UI Test Project" and the "Web Performance and Load Test Project" types are not supported. Read more on [Coded UI Test deprecation](https://devblogs.microsoft.com/devops/changes-to-coded-ui-test-in-visual-studio-2019/) and [Web Load Test deprecation](https://devblogs.microsoft.com/devops/cloud-based-load-testing-service-eol/).
 * Association with a testcase item in TFS is not supported.
 
-## See also
+## Related content
 
 - [Configure test runs with `.runsettings`](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md)
 - [Unit test your code](../test/unit-test-your-code.md)

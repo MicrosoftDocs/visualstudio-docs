@@ -37,7 +37,7 @@ To diagnose why a test method is taking too much time, select the method in Test
 > [!NOTE]
 > This feature is not currently supported for .NET Core.
 
-## See also
+## Related content
 
 - [Unit test your code](../test/unit-test-your-code.md)
 - [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)
