@@ -114,7 +114,7 @@ To generate unsigned manifests that include all files in the hash, you must firs
 
 1. Publish the application.
 
-## See also
+## Related content
 
 - [Strong-named assemblies](/dotnet/framework/app-domains/strong-named-assemblies)
 - [How to: Create a public-private key pair](/dotnet/framework/app-domains/how-to-create-a-public-private-key-pair)

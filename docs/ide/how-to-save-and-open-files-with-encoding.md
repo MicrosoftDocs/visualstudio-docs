@@ -54,7 +54,7 @@ You can save files with specific character encoding to support bidirectional lan
 
 3. Follow Steps 2 and 3 from the preceding procedure.
 
-## See also
+## Related content
 
 - [Encoding and line breaks](encodings-and-line-breaks.md)
 - [Encoding and Windows Forms globalization](/dotnet/framework/winforms/advanced/encoding-and-windows-forms-globalization)

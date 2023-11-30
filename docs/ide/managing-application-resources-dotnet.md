@@ -49,7 +49,7 @@ Resources are managed differently in .NET projects than in other project types. 
 
 If you run into a problem with managing application resources, see [Troubleshoot errors in the Resource Editor](troubleshoot-resource-editor-errors.md).
 
-## See also
+## Related content
 
 - [Resources in .NET apps (.NET Framework)](/dotnet/framework/resources/index)
 - [Managing app resources (Visual Studio for Mac)](/visualstudio/mac/managing-app-resources)

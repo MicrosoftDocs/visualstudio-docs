@@ -47,7 +47,7 @@ From there, you can explore a variety of other tasks:
 - [Set build options](reference/options-dialog-box-projects-and-solutions-build-and-run.md)
 - [Build multiple projects in parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md).
 
-## See also
+## Related content
 
 - [Building (compiling) website projects](/previous-versions/hwxa5aha(v=vs.140))
 - [Compile and build (Visual Studio for Mac)](/visualstudio/mac/compiling-and-building)

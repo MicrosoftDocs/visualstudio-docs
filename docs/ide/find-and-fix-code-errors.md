@@ -156,7 +156,7 @@ To get started, read [Generate unit tests for fuzz testing by using IntelliTest]
 
 To learn more about unit tests in Visual Studio and how they can help you create better quality code, read [Unit test basics](../test/unit-test-basics.md).
 
-## See also
+## Related content
 
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Generate, fix, and refactor code](../ide/code-generation-in-visual-studio.md)

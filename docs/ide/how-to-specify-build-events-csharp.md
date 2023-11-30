@@ -182,7 +182,7 @@ Build started...
    ========== Build started at 12:00 PM and took 00.723 seconds ==========
    ```
 
-## See also
+## Related content
 
 - [Build Events page, Project Designer (C#)](../ide/reference/build-events-page-project-designer-csharp.md)
 - [Pre-build event/Post-build event command line dialog box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md)

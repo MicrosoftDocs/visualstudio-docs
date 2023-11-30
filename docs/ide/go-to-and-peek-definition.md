@@ -72,7 +72,7 @@ You can set an option to see decompiled source code when you view the definition
 > [!NOTE]
 > Visual Studio reconstructs method bodies using ILSpy decompilation. The first time you access this feature, you must agree to a legal disclaimer regarding software licensing and copyright and trademark laws.
 
-## See also
+## Related content
 
 - [Navigate code](../ide/navigating-code.md)
 - [How to: View and edit code by using Peek Definition (Alt+F12)](how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)

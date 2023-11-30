@@ -45,6 +45,6 @@ You can create project templates manually by gathering the files that constitute
 
 If you have the Visual Studio SDK installed, you can wrap the finished template in a VSIX file for deployment by using the **VSIX Project** template. For more information, see [Get started with the VSIX project template](../extensibility/getting-started-with-the-vsix-project-template.md).
 
-## See also
+## Related content
 
 - [About project and item templates](creating-project-and-item-templates.md)

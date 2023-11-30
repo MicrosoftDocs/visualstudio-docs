@@ -146,7 +146,7 @@ The **Start** button's text changes to reflect that the project is the startup i
 
 ![Project on Start button](media/customize-start-button-project.png)
 
-## See also
+## Related content
 
 - [Customize build and debug tasks](../ide/customize-build-and-debug-tasks-in-visual-studio.md)
 - [Open Folder projects for C++](/cpp/build/open-folder-projects-cpp)

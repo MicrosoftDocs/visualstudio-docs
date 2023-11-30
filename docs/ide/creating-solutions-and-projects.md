@@ -121,7 +121,7 @@ You can access File Explorer in Windows by using Solution Explorer in Visual Stu
 
 1. Select the folder that contains the solution, and then press the **Delete** key.
 
-## See also
+## Related content
 
 - [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md)
 - [Manage project and solution properties](managing-project-and-solution-properties.md)

@@ -66,6 +66,6 @@ The following is a full list of arguments that can be used when defining an exte
 > [!NOTE]
 > The IDE status bar displays the **Current Line** and **Current Column** variables to indicate where the insertion point is located in the active **Code Editor**. The **Current Text** variable returns the text or code selected at that location.
 
-## See also
+## Related content
 
 - [C/C++ build tools](/cpp/build/reference/c-cpp-build-tools)

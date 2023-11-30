@@ -258,7 +258,7 @@ What makes these types of issues most actionable is to provide additional logs t
 2. Download the Microsoft Visual Studio and .NET Framework Log Collection Tool [here](https://www.microsoft.com/download/details.aspx?id=12493).
 3. Run the tool. This outputs a zip file to **%temp%/vslogs.zip**. Please attach that file to your feedback.
 
-## See also
+## Related content
 
 * [Report a problem with Visual Studio for Mac](/visualstudio/mac/report-a-problem)
 * [Report a problem with C++](/cpp/how-to-report-a-problem-with-the-visual-cpp-toolset)

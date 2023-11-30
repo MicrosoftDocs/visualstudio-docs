@@ -102,7 +102,7 @@ After you create a solution filter file, it's added to your **Recent Projects an
 
 ![Open recent in Visual Studio](media/filtered-solutions/open-recent.png)
 
-## See also
+## Related content
 
 - [Customize file nesting in Solution Explorer](file-nesting-solution-explorer.md)
 - [Optimize Visual Studio performance](optimize-visual-studio-performance.md)

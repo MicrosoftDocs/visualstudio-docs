@@ -61,7 +61,7 @@ In the **Build** pane of the **Output** window, Visual Studio reports the number
 
 To find out why a project was skipped, note the active configuration (`Debug x86` in the previous example), and choose **Build** > **Configuration Manager**. You can view or change which projects are skipped for each configuration, as discussed in this article.
 
-## See also
+## Related content
 
 - [Understand build configurations](../ide/understanding-build-configurations.md)
 - [How to: Create and edit configurations](../ide/how-to-create-and-edit-configurations.md)

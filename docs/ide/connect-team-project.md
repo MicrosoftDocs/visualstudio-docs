@@ -89,7 +89,7 @@ How you use Team Explorer to connect to a project depends on the version of Visu
 
 ::: moniker-end
 
-## Next steps
+## Related content
 
 Explore the following resources to continue your learning:
 

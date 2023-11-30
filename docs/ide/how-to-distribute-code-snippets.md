@@ -114,6 +114,6 @@ In this procedure, you'll use the same Hello World code snippet that's created i
     Console.WriteLine("Hello, World!")
     ```
 
-## See also
+## Related content
 
 - [Code snippets](../ide/code-snippets.md)

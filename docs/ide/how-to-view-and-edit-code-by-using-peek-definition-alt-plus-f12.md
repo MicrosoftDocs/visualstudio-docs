@@ -78,7 +78,7 @@ You can use these keyboard shortcuts with the **Peek Definition** window:
 > [!NOTE]
 > You can also use the same keyboard shortcuts to edit code in a **Peek Definition** window as you use elsewhere in Visual Studio.
 
-## See also
+## Related content
 
 - [Navigate code](../ide/navigating-code.md)
 - [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md)

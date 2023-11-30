@@ -121,7 +121,7 @@ In some cases you may want to create an item template manually, from scratch.
 
 8. Copy the *.zip* file and paste it in the user item template location. The default directory is *%USERPROFILE%\Documents\Visual Studio 2022\Templates\ItemTemplates*. For more information, see [How to: Locate and organize project and item templates](../ide/how-to-locate-and-organize-project-and-item-templates.md).
 
-## See also
+## Related content
 
 - [Create project and item templates](../ide/creating-project-and-item-templates.md)
 - [How to: Create multi-file item templates](../ide/how-to-create-multi-file-item-templates.md)
