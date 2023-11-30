@@ -4,7 +4,7 @@ ms.author: ghogen
 author: ghogen
 manager: jmartens
 ms.technology: bridge
-title: Use Bridge to Kubernetes to run and debug locally with Kubernetes (VS Code)
+title: Use Bridge to Kubernetes to run and debug locally
 ms.date: 09/14/2023
 description: Use Bridge to Kubernetes to redirect traffic between your Kubernetes cluster and code running on your development computer.
 ---
