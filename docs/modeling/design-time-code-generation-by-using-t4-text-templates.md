@@ -373,9 +373,9 @@ Please see [Guidelines for Writing T4 Text Templates](../modeling/guidelines-for
 
 ## Related content
 
-- [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md)|
-- [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md)|
-- [Generating Files with the TextTransform Utility](../modeling/generating-files-with-the-texttransform-utility.md)|
-- [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)|
-- [Customizing T4 Text Transformation](../modeling/customizing-t4-text-transformation.md)|
+- [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md)
+- [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md)
+- [Generating Files with the TextTransform Utility](../modeling/generating-files-with-the-texttransform-utility.md)
+- [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)
+- [Customizing T4 Text Transformation](../modeling/customizing-t4-text-transformation.md)
 - [Guidelines for Writing T4 Text Templates](../modeling/guidelines-for-writing-t4-text-templates.md)

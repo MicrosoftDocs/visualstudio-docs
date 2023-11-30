@@ -71,6 +71,6 @@ TextTransform [<options>] <templateName>
 
 ## Related content
 
-- [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)|
-- [Customizing T4 Text Transformation](../modeling/customizing-t4-text-transformation.md)|
-- [Processing Text Templates by using a Custom Host](../modeling/processing-text-templates-by-using-a-custom-host.md)|
+- [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)
+- [Customizing T4 Text Transformation](../modeling/customizing-t4-text-transformation.md)
+- [Processing Text Templates by using a Custom Host](../modeling/processing-text-templates-by-using-a-custom-host.md)
