@@ -16,6 +16,9 @@ Selected Visual Studio subscriptions include a subscription to LinkedIn Premium,
 
 You need to have a LinkedIn account to take advantage of your LinkedIn Learning benefit.  If you don't have one already, you have a chance to create one before you activate your Premium subscription.
 
+> [!IMPORTANT]
+> These offer can't be combined with other LinkedIn Learning offers.  No more than two of these offers may be claimed in a single calendar year, regardless of source.
+
 ## Activation steps
 
 To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
