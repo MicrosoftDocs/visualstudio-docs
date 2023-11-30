@@ -31,7 +31,7 @@ Use the following tasks to validate your software:
 
 **Forums** - [Visual Studio Visualization & Modeling Tools](https://social.msdn.microsoft.com/Forums/en-US/home?forum=vsarch)<br />- [Visual Studio extensibility](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=vsx)
 
-## See also
+## Related content
 
 - [Model user requirements](../modeling/model-user-requirements.md)
 - [Analyze and model architecture](../modeling/analyze-and-model-your-architecture.md)

@@ -362,6 +362,6 @@ To test the custom text template host, first you must write a text template that
     Linked from: ExampleElement1
     ```
 
-## See also
+## Related content
 
 - [Walkthrough: Creating a Custom Text Template Host](../modeling/walkthrough-creating-a-custom-text-template-host.md)

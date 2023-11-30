@@ -53,7 +53,7 @@ string output = engine.ProcessTemplate(templateString, host);
 ## Reference
  [ITextTemplatingEngineHost](/previous-versions/visualstudio/visual-studio-2012/bb126505(v=vs.110))
 
-## Related Sections
+## Related content
 
 - [The Text Template Transformation Process](../modeling/the-text-template-transformation-process.md) describes how text transformation works, and which parts you can customize.
 - [Creating Custom T4 Text Template Directive Processors](../modeling/creating-custom-t4-text-template-directive-processors.md) provides an overview of text template directive processors.

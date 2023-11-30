@@ -168,7 +168,7 @@ During the development process, you might want to suppress some of the reported 
 
 To ensure that future changes in the code conform to the dependency diagrams, include layer validation to your solution's standard build process. Whenever other team members build the solution, any differences between the dependencies in the code and the dependency diagram will be reported as build errors. For more information about including layer validation in the build process, see [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md).
 
-## See also
+## Related content
 
 - [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)
 - [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)
