@@ -112,6 +112,6 @@ Additionally, both tables need to be filled with data for any records to be retu
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDatasets/VB/Form1.vb" id="Snippet7":::
      ---
 
-## See also
+## Related content
 
 - [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)

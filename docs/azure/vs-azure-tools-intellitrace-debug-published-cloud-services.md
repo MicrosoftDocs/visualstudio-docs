@@ -71,6 +71,6 @@ You can continue to work in Visual Studio while the IntelliTrace logs are downlo
 >
 >
 
-## Next steps
+## Related content
 - [Options for debugging Azure cloud services](vs-azure-tools-debugging-cloud-services-overview.md)
 - [Publishing an Azure cloud service using Visual Studio](vs-azure-tools-publishing-a-cloud-service.md)

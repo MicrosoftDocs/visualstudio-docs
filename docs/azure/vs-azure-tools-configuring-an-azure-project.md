@@ -41,5 +41,5 @@ You can configure an Azure cloud service project, depending on your requirements
 
 1. From the Visual Studio toolbar, select **Save**.
 
-## Next steps
+## Related content
 - [Configure an Azure project using multiple service configurations](vs-azure-tools-multiple-services-project-configurations.md)

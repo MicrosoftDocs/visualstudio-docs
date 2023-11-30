@@ -51,6 +51,6 @@ To learn more about how to configure the .NET analyzers:
 
 - To find out about configuring analyzers using predefined rules with EditorConfig or a rule set file, see [Enable a category of rules](/dotnet/fundamentals/code-analysis/code-quality-rule-options).
 
-## See also
+## Related content
 
 - [Migrate from FxCop analyzers to .NET analyzers](migrate-from-fxcop-analyzers-to-net-analyzers.md)

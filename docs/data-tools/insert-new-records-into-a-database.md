@@ -96,6 +96,6 @@ The following example demonstrates inserting records into a database using comma
 
 You must have access to the database you're trying to connect to, and permission to perform inserts into the desired table.
 
-## See also
+## Related content
 
 - [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

@@ -31,7 +31,7 @@ In Server Explorer, right-click the **Azure** node and select **Manage and Filte
 
 If you want to create a certificate yourself, you can refer to the instructions in [Create and upload a management certificate for Azure](/azure/cloud-services/cloud-services-certs-create) and then manually upload the certificate to the [Azure portal](https://portal.azure.com/).
 
-## Next steps
+## Related content
 
 - [General overview of Web Apps](/azure/app-service/)
 - [Deploy your app to Azure App Service](/azure/app-service/app-service-deploy-local-git)

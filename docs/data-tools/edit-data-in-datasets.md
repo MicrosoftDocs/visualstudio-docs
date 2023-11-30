@@ -133,6 +133,6 @@ When working with individual columns and rows of data, you might encounter error
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb" id="Snippet23":::
 ---
 
-## See also
+## Related content
 
 - [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)

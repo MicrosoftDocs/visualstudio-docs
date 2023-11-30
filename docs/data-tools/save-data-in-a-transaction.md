@@ -188,7 +188,7 @@ The order for reconciling changes to related data is as follows:
 
 Press **F5** to run the application.
 
-## See also
+## Related content
 
 - [How to: save data by using a transaction](../data-tools/save-data-by-using-a-transaction.md)
 - [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

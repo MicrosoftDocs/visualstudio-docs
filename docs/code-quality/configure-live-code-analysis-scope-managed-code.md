@@ -95,7 +95,7 @@ If Visual Studio detects that 200 MB or less of system memory is available to it
 
 ![Alert text minimizing analysis scope](./media/fsa_alert.png)
 
-## See also
+## Related content
 
 - [Automatic feature suspension](./automatic-feature-suspension.md)
 - [Power save mode feature request](https://github.com/dotnet/roslyn/issues/38429)

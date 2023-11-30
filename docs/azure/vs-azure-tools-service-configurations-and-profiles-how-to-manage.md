@@ -92,5 +92,5 @@ When you run the wizard for the first time, a default profile is created. Visual
 4. After you finish changing the settings, select **Next** to go back to the **Settings** page.
 5. (Optional) select **Publish** to publish the cloud service using the new settings. If you don’t want to publish your cloud service at this time, and you close the Publish Wizard, Visual Studio asks you if you want to save the changes to the profile.
 
-## Next steps
+## Related content
 To learn about configuring other parts of your Azure project from Visual Studio, see [Configuring an Azure Project](vs-azure-tools-cloud-service-retain-a-constant-virtual-ip-address.md).

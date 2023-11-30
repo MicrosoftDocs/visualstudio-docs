@@ -43,7 +43,7 @@ Starting with version `3.3.2`, `Microsoft.CodeAnalysis.FxCopAnalyzers` NuGet pac
    </PropertyGroup>
    ```
 
-## See also
+## Related content
 
 - [Source code analysis versus legacy analysis](net-analyzers-faq.yml#what-s-the-difference-between-legacy-fxcop-and--net-analyzers-)
 - [Migrate from legacy analysis to .NET analyzers](migrate-from-legacy-analysis-to-net-analyzers.md)

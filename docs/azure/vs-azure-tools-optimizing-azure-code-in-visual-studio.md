@@ -457,5 +457,5 @@ public class BlogsController : Controller
     }
 ```
 
-## Next steps
+## Related content
 To learn more about optimizing and troubleshooting Azure apps, see [Troubleshoot a web app in Azure App Service using Visual Studio](/azure/app-service/web-sites-dotnet-troubleshoot-visual-studio).

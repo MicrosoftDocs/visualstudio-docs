@@ -269,7 +269,7 @@ In an UPDATE statement, you need to specify both the new values (those that will
 > [!NOTE]
 > You can also set values in the `Parameters` collection yourself in code, which you would typically do in an event handler for the data adapter's <xref:System.Data.DataTable.RowChanging> event.
 
-## See also
+## Related content
 
 - [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)
 - [Create and configure TableAdapters](create-and-configure-tableadapters.md)

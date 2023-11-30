@@ -66,6 +66,6 @@ The rule set for a project is specified by the **CodeAnalysisRuleSet** property 
 </PropertyGroup>
 ```
 
-## See also
+## Related content
 
 - [Code analysis rule set reference](../code-quality/rule-set-reference.md)

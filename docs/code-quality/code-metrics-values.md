@@ -52,7 +52,7 @@ Some software tools and compilers generate code that is added to a project and t
 
 Code generated for Windows Forms is not ignored, because it is code that the developer can see and change.
 
-## Next steps
+## Related content
 
 - [How to: Generate code metrics data](../code-quality/how-to-generate-code-metrics-data.md)
 - [Use the Code Metrics Results window](../code-quality/working-with-code-metrics-data.md)
