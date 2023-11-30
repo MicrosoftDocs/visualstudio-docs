@@ -183,7 +183,7 @@ In Visual Studio 2022 and later, you can set Visual Studio to always keep result
 
 :::moniker-end
 
-## See also
+## Related content
 
 - [Replace in files](../ide/replace-in-files.md)
 - [Find and replace text](../ide/finding-and-replacing-text.md)

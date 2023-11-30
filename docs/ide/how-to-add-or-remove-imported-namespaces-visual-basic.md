@@ -71,6 +71,6 @@ If you later change you mind and decide that was really the `EventLog` class tha
 
 5. Click the **Update user import** button to update the namespace in the **Imported Namespaces** list.
 
-## See also
+## Related content
 
 - [Manage references in a project](../ide/managing-references-in-a-project.md)

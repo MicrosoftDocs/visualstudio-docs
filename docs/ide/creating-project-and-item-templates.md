@@ -45,7 +45,7 @@ When these files are compressed into a *.zip* file and put in the correct folder
 
 For more information about template folders, see [How to: Locate and organize project and item templates](how-to-locate-and-organize-project-and-item-templates.md).
 
-## See also
+## Related content
 
 - [Customize templates](../ide/customizing-project-and-item-templates.md)
 - [NuGet packages in Visual Studio templates](/nuget/visual-studio-extensibility/visual-studio-templates)

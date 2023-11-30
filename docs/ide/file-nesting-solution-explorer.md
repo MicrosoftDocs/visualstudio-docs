@@ -177,7 +177,7 @@ You can disable existing global file nesting rules for specific solutions or pro
 }
 ```
 
-## See also
+## Related content
 
 - [Personalize the IDE](../ide/personalizing-the-visual-studio-ide.md)
 - [Solutions and projects in Visual Studio](solutions-and-projects-in-visual-studio.md)

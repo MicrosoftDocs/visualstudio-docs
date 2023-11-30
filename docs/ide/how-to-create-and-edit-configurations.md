@@ -134,7 +134,7 @@ You create a new project configuration when you want to add a new type of build.
 
 3. In the **Project contexts** pane, for every project, select the **Configuration** and **Platform** you want, and select whether to **Build** it and whether to **Deploy** it.
 
-## See also
+## Related content
 
 - [Understand build configurations](../ide/understanding-build-configurations.md)
 - [Configure projects to target platforms](how-to-configure-projects-to-target-platforms.md)

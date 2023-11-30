@@ -33,7 +33,7 @@ For example, you can perform the following tasks:
 
    For more information, see [How to: Use wizards with project templates (extensibility)](../extensibility/how-to-use-wizards-with-project-templates.md).
 
-## See also
+## Related content
 
 - [Creating project and item templates](../ide/creating-project-and-item-templates.md)
 - [How to: Troubleshoot templates](../ide/how-to-troubleshoot-templates.md)
