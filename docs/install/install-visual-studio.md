@@ -314,7 +314,7 @@ You can reduce the installation footprint of Visual Studio on your system drive.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 
 * [Update Visual Studio](update-visual-studio.md)
 * [Modify Visual Studio](modify-visual-studio.md)

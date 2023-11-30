@@ -61,7 +61,7 @@ You can always re-enable the extension for future sessions by using the **Extens
 > [!NOTE]
 > Some earlier versions of Visual Studio had a feature named **lightweight solution load**. In current versions, large solutions that contain managed code load much faster than previously, even without lightweight solution load.
 
-## See also
+## Related content
 
 - [Optimize Visual Studio performance](../ide/optimize-visual-studio-performance.md)
 - [Visual Studio performance tips and tricks](../ide/visual-studio-performance-tips-and-tricks.md)

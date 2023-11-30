@@ -392,7 +392,7 @@ We also offer an [**installation chat**](https://visualstudio.microsoft.com/vs/s
 
 We have other support options available, too. See our [Visual Studio Developer Community](https://developercommunity.visualstudio.com/home).
 
-## See also
+## Related content
 
 - [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 - [Deploy Visual Studio from a layout onto a client machine](deploy-a-layout-onto-a-client-machine.md)

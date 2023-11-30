@@ -48,7 +48,7 @@ Learn more about technologies that support accessible design. We've also include
 
 - **Web Accessibility Initiative of the World Wide Web Consortium (W3C)** This website provides guidelines and techniques for accessible website development. For more information, see [https://www.w3.org/WAI/GL/](https://www.w3.org/WAI/GL/).
 
-## See also
+## Related content
 
 * [Accessibility features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)
 * [Accessibility for Visual Studio for Mac](/visualstudio/mac/accessibility/)

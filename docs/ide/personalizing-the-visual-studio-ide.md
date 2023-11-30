@@ -62,7 +62,7 @@ You can define and save multiple window layouts and switch between them. For exa
 
 You can customize the **Tools** menu to launch external tools. For more information, see [Manage external tools](../ide/managing-external-tools.md).
 
-## See also
+## Related content
 
 - [Environment settings](environment-settings.md)
 - [Visual Studio IDE overview](../get-started/visual-studio-ide.md)

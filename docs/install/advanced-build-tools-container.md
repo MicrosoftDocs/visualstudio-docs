@@ -208,7 +208,7 @@ After the last line finishes executing, open "%TEMP%\vslogs.zip" on your machine
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 
 * [Install Build Tools into a Container](build-tools-container.md)
 * [Known Issues for Containers](build-tools-container-issues.md)

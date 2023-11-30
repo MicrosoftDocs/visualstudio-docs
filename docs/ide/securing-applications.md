@@ -33,7 +33,7 @@ Security is also an important consideration in the build process. A few addition
 - [Dotfuscator](dotfuscator/index.md) is free and helps to protect .NET assemblies from reverse-engineering and unauthorized use such as unauthorized debugging.
 - [Strong-name signing](managing-assembly-and-manifest-signing.md) can be used to uniquely identify software components and prevent name spoofing.
 
-## See also
+## Related content
 
 - [Security in .NET](/dotnet/standard/security/index)
 - [Azure security](/azure/security/)

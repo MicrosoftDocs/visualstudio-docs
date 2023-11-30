@@ -86,7 +86,7 @@ You can also modify the application shortcut to always run with administrative p
 
 1. Select **OK** two times to close the dialog.
 
-## See also
+## Related content
 
 - [Install Visual Studio](../install/install-visual-studio.md)
 - [Port, migrate, and upgrade Visual Studio projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md)

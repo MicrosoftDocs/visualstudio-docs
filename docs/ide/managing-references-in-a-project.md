@@ -143,7 +143,7 @@ Unlike most other project types, a *shared project* doesn't have any binary outp
 
 File references are direct references to assemblies outside the context of a Visual Studio project. You create them by using the **Browse** tab of the Reference Manager dialog box. Use a file reference when you just have an assembly or component, and not the project that creates it as output.
 
-## See also
+## Related content
 
 - [Troubleshoot broken references](../ide/troubleshooting-broken-references.md)
 - [How to: Add or remove references](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md)

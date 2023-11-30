@@ -31,6 +31,6 @@ You can show or hide line numbers in your code. Here's how.
 > [!NOTE]
 > Line numbers aren't added to your code; they're just for reference.
 
-## See also
+## Related content
 
 - [Features of the code editor](../../ide/writing-code-in-the-code-and-text-editor.md)

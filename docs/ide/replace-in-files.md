@@ -93,7 +93,7 @@ When selected, this option leaves open all files in which replacements have been
 
 ::: moniker-end
 
-## See also
+## Related content
 
 - [Find and replace text](../ide/finding-and-replacing-text.md)
 - [Find in files](../ide/find-in-files.md)

@@ -149,7 +149,7 @@ To do so:
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 
 * [List of Visual Studio workload & component IDs](workload-and-component-ids.md)
 * [Update Visual Studio](update-visual-studio.md)

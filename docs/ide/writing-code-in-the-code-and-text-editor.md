@@ -108,7 +108,7 @@ To define new hotkeys or redefine existing hotkeys, go to **Tools** > **Options*
 
 For JavaScript-specific editor options, see [JavaScript editor options](../ide/reference/options-text-editor-javascript-formatting.md).
 
-## See also
+## Related content
 
 - [Source editor (Visual Studio for Mac)](/visualstudio/mac/source-editor)
 - [Visual Studio IDE](../get-started/visual-studio-ide.md)

@@ -162,7 +162,7 @@ The .vsconfig file format that includes extensions should look like this.
 
 
 
-## See also
+## Related content
 
 * [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
 * [Update a networked-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
