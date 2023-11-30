@@ -80,7 +80,7 @@ Use `--config` to either initialize or modify an existing installation to add or
 
 ## Use a configuration file to initialize the contents of a layout
 
-Using the correct bootstrapper that corresponds to the version and edition of Visual Studio that you want, open an administrator command prompt and run the following command to use `-config` to configure the contents of a layout:
+Using the correct bootstrapper that corresponds to the version and edition of Visual Studio that you want, open an administrator command prompt and run the following command to use `--config` to configure the contents of a layout:
 
 ```shell
 vs_enterprise.exe --layout c:\localVSlayout --config c:\myconfig.vsconfig --lang en-US 
