@@ -120,7 +120,7 @@ You can instrument your source code by using the Concurrency Visualizer SDK to d
     CvWriteFlag(series, _T("Writing a flag"));
     ```
 
-## Related content
+## See also
 
 |Title|Description|
 |-----------|-----------------|
