@@ -1,5 +1,5 @@
 ---
-title: Save data back to the database in .NET Framework applications
+title: Save data back to database in .NET Framework apps
 description: Save data back to a database with ADO.NET DataSet tools in Visual Studio and get changed records, transmit updates, or commit changes.
 ms.date: 11/01/2023
 ms.topic: how-to

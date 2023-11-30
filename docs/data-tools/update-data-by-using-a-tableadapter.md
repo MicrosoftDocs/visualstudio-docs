@@ -1,5 +1,5 @@
 ---
-title: Update data by using an ADO.NET TableAdapter (.NET Framework)
+title: Update data with TableAdapter (.NET Framework)
 description: Update data in a dataset with .NET Framework application development in Visual Studio and return data to the database with the ADO.NET TableAdapter.Update method.
 ms.date: 11/04/2016
 ms.topic: how-to
