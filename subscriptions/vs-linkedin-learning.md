@@ -3,7 +3,7 @@ title: LinkedIn Learning benefit in Visual Studio subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 06/15/2023
+ms.date: 11/30/2023
 ms.topic: how-to
 description: Activate and explore the LinkedIn Learning benefit available in eligible Visual Studio subscriptions, and find answers to frequently asked questions.
 ---
