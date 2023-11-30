@@ -76,7 +76,7 @@ After you add multiple accounts on one machine, that group of accounts roams wit
 
 There are several types of accounts you can add: 
 
-- Add a standard Visual Studio accounts:
+- Add a standard Visual Studio account:
   
   ::: moniker range="vs-2019"
   
