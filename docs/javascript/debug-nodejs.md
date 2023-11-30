@@ -1,6 +1,6 @@
 ---
 title: "Debug a JavaScript or TypeScript app"
-description: Visual Studio provides support for debugging JavaScript and TypeScript apps in Visual Studio.
+description: Debug JavaScript and TypeScript applications in Visual Studio, reach breakpoints in your code, attach the debugger, inspect variables, view the call stack, and more.
 ms.date: "06/05/2023"
 ms.topic: "how-to"
 ms.devlang: javascript

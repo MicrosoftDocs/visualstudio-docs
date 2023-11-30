@@ -1,6 +1,6 @@
 ---
 title: Develop code without projects or solutions
-description: Learn how to develop code directly in Visual Studio without a need for projects or solutions.
+description: Develop code directly in Visual Studio without placing the code in a solution or project, and start working quickly with IntelliSense, search, debugging, and more. 
 ms.date: 11/7/2023
 ms.topic: how-to
 helpviewer_keywords:

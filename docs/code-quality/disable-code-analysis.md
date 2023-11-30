@@ -107,7 +107,7 @@ Examples:
 
 ::: moniker-end
 
-## See also
+## Related content
 
 - [Suppress violations](use-roslyn-analyzers.md#suppress-violations)
 - [How to: Enable and disable legacy code analysis](how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md)

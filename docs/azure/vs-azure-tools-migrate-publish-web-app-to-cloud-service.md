@@ -117,7 +117,7 @@ Applications that can be migrated and published to cloud services must use one o
 | WCF | WCF Workflow Service Application |
 | Workflow | WCF Workflow Service Application |
 
-## Next steps
+## Related content
 
 - [Prepare to Publish or Deploy an Azure Application from Visual Studio](vs-azure-tools-cloud-service-publish-set-up-required-services-in-visual-studio.md)
 - [Setting Up Named Authentication Credentials](vs-azure-tools-setting-up-named-authentication-credentials.md).

@@ -85,6 +85,6 @@ By default, `DBDirect` methods are created on a TableAdapter that can be run dir
 
 You must have permission to perform the selected `INSERT`, `UPDATE`, or `DELETE` on the table in the database.
 
-## See also
+## Related content
 
 - [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

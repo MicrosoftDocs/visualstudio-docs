@@ -44,7 +44,7 @@ When you drag stored procedures and functions from **Server Explorer** or **Data
 
 Objects you drag from the database onto the O/R Designer surface are named automatically, based on the name of the objects in the database. If you drag the same object more than once, a number is added to the end of the new name that differentiates the names. When database object names contain spaces, or characters not-supported in Visual Basic or C#, the space or invalid character is replaced with an underscore.
 
-## See also
+## Related content
 
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
 - [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index)

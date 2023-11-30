@@ -52,7 +52,7 @@ Administrators of version control for Team Foundation can add the Code Analysis 
 
 3. Click **OK**. The new check-in policy now applies to future check-ins.
 
-## See also
+## Related content
 
 - [Code metrics values](../code-quality/code-metrics-values.md)
 - [Creating and using code analysis check-in policies](../code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies.md)

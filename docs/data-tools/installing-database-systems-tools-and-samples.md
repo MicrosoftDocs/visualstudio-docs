@@ -48,7 +48,7 @@ SQLite is an embedded SQL database engine that runs in the application's own pro
 
 Firebird is an open-source SQL database system. You can download it from the [Firebird download page](http://firebirdsql.org/en/downloads/). An ADO.NET data provider is available through the NuGet Package Manager.
 
-## See also
+## Related content
 
 - [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)
 - [How to determine the version and edition of SQL Server and its components](https://support.microsoft.com/help/321185/how-to-determine-the-version-edition-and-update-level-of-sql-server-an)

@@ -1,6 +1,6 @@
 ---
 title: Code snippets
-description: Learn about code snippets, which are small blocks of reusable code that you can insert into a code file.
+description: Explore code snippets, which are small blocks of reusable code that you can insert into a code file, such as `try-finally` or `if-else` blocks, classes, or methods.
 ms.date: 12/14/2022
 ms.topic: conceptual
 f1_keywords:

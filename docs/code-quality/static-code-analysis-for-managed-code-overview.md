@@ -69,7 +69,7 @@ You can accomplish this by specifying check-in policies. For more information, s
 
 You can use the integrated features of the build system to run the analysis tool as part of the build process. For more information, see [Azure Pipelines](/azure/devops/pipelines/index?view=vsts&preserve-view=true).
 
-## See also
+## Related content
 
 - [Overview of .NET Compiler Platform-based analyzers](../code-quality/roslyn-analyzers-overview.md)
 - [Using Rule Sets to Group Code Analysis Rules](../code-quality/using-rule-sets-to-group-code-analysis-rules.md)

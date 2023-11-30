@@ -235,7 +235,7 @@ For legacy code analysis, you can choose whether to suppress code analysis warni
 > [!NOTE]
 > Code analysis ignores `GeneratedCodeAttribute` when it is applied to either an entire assembly or a single parameter.
 
-## See also
+## Related content
 
 - <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Scope>
 - <xref:System.Diagnostics.CodeAnalysis>
