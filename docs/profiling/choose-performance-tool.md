@@ -1,6 +1,6 @@
 ---
 title: "Which performance tool should I use?"
-description: "Learn how to choose a performance tool in Visual Studio."
+description: Explore profiling tools in Visual Studio that can help you diagnose different kinds of application performance issues and find the right tool for your scenario.
 ms.date: 04/24/2023
 ms.topic: conceptual
 dev_langs:

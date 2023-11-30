@@ -1,6 +1,6 @@
 ---
 title: "First look at profiling tools"
-description: "Take a brief look at the different diagnostic tools available in Visual Studio."
+description: Review the different diagnostic tools available in Visual Studio for profiling your C#, Visual Basic, C++, and F# applications.
 ms.date: 11/09/2023
 ms.topic: conceptual
 f1_keywords:

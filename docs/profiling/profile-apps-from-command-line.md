@@ -1,6 +1,6 @@
 ---
 title: "Measure performance from the command line"
-description: "Measure CPU performance and managed memory usage in your application from the command line."
+description: Measure your application performance from the command line, and gather performance data for CPU usage, .NET memory allocation, instrumentation, and database queries.
 ms.date: 09/06/2023
 ms.topic: conceptual
 helpviewer_keywords: 
