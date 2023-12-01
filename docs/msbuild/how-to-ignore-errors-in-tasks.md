@@ -59,7 +59,7 @@ The following code example illustrates that the `Build` target still runs and th
 </Project>
 ```
 
-## See also
+## Related content
 
 - [MSBuild](../msbuild/msbuild.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

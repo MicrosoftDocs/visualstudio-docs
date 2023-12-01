@@ -54,6 +54,6 @@ If you need different behaviors depending on the .NET language (C#, Visual Basic
 </PropertyGroup>
 ```
 
-## Next steps
+## Related content
 
-Explore other possible customization scenarios at [Customize your build](customize-your-build.md).
+- [Customize your build](customize-your-build.md).

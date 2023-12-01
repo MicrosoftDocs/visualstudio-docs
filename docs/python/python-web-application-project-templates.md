@@ -116,6 +116,6 @@ Pyramid apps are currently best created using the `pcreate` command-line tool. O
 
 If you have settings for another framework that you would like to share, or if you'd like to request settings for another framework, open an [issue on GitHub](https://github.com/Microsoft/PTVS/issues).
 
-## See also
+## Related content
 
 - [Python item templates reference](python-item-templates.md)

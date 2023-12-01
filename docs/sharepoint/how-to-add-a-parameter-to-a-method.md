@@ -49,7 +49,7 @@ ms.technology: sharepoint-development
 
 8. Modify the type descriptor of the parameter. For more information, see [How to: Define the type descriptor of a parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md).
 
-## See also
+## Related content
 - [BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md)
 - [How to: Add an entity to a model](../sharepoint/how-to-add-an-entity-to-a-model.md)
 - [How to: Define the type descriptor of a parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md)

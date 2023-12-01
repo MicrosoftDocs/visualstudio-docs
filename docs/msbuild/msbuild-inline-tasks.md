@@ -189,7 +189,7 @@ File.WriteAllText(Path, content);
 </Project>
 ```
 
-## See also
+## Related content
 
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Walkthrough: Create an inline task](../msbuild/walkthrough-creating-an-inline-task.md)

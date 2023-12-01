@@ -144,5 +144,5 @@ ms.technology: sharepoint-development
 
  For more information about other SharePoint registry keys, see [Debug extensions for the SharePoint tools in Visual Studio](../sharepoint/debugging-extensions-for-the-sharepoint-tools-in-visual-studio.md).
 
-## See also
+## Related content
 - [Troubleshoot SharePoint solutions](../sharepoint/troubleshooting-sharepoint-solutions.md)

@@ -34,6 +34,6 @@ MSBuild reserves some characters for special use in specific contexts. You only 
 |?|%3F|Wildcard character for file names in `Include` and `Exclude` attributes|
 |*|%2A|Wildcard character for use in file names in `Include` and `Exclude` attributes|
 
-## See also
+## Related content
 
 - [Items](../msbuild/msbuild-items.md)

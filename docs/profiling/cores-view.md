@@ -60,7 +60,7 @@ The Zoom control is a slider that lets you zoom in and out on the timeline so th
 
 - Zooming in and out: Hover over the timeline and then press **Ctrl** while you move the mouse wheel.
 
-## See also
+## Related content
 - [Concurrency Visualizer](../profiling/concurrency-visualizer.md)
 - [Utilization View](../profiling/utilization-view.md)
 - [Threads View](../profiling/threads-view-parallel-performance.md)

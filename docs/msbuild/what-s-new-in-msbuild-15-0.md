@@ -45,6 +45,6 @@ MSBuild is now available as part of the [.NET Core SDK](https://dotnet.microsoft
 - `GetPathOfFileAbove` returns the path of the file immediately preceding this one. It is functionally equivalent to calling
   `<Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), dir.props))\dir.props" />`
 
-## See also
+## Related content
 
 - [MSBuild](../msbuild/msbuild.md)

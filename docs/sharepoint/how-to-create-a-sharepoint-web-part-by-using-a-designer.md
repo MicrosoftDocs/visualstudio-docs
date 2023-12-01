@@ -45,7 +45,7 @@ ms.technology: sharepoint-development
 
      In **Solution Explorer**, your web part appears. After designing the web part in the Visual Web Developer designer, you'll test it on the site that you specify.
 
-## See also
+## Related content
 
 - [Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)
 - [How to: Create a SharePoint web part](../sharepoint/how-to-create-a-sharepoint-web-part.md)

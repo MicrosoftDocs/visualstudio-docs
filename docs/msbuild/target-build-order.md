@@ -133,6 +133,6 @@ MSBuild determines the target build order as follows:
 
 7. After the target is executed or skipped, any other target that lists it in an `AfterTargets` attribute is run.
 
-## See also
+## Related content
 
 - [Targets](../msbuild/msbuild-targets.md)

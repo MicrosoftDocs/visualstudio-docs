@@ -117,7 +117,7 @@ Use the **Timeline details** toolbar to sort, filter, and specify the annotation
 |![Filter timeline details list](../profiling/media/timeline_filter.png "TIMELINE_Filter")|Filters the list by selected categories and the length of events.|
 |![Customize timeline details information](../profiling/media/timeline_viewsettings.png "TIMELINE_ViewSettings")|Lets you specify the annotations to events.|
 
-## See also
+## Related content
 
 - [WPF team blog: New UI performance analysis tool for WPF applications](/archive/blogs/wpf/new-ui-performance-analysis-tool-for-wpf-applications)
 - [Performance best practices for UWP apps using C++, C#, and Visual Basic](/previous-versions/windows/apps/hh750313\(v\=win.10\))

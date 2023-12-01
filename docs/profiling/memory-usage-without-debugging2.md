@@ -297,7 +297,7 @@ A **Referenced Types** tree in a snapshot diff report has the following columns.
 |**Inclusive Size Diff (Bytes)**|For a type, the difference in the size of all instances of the type between the primary snapshot and the previous snapshot, including the size of objects in the objects.|
 |**Module**|The module that contains the object.|
 
-## See also
+## Related content
 
 - [Profiling in Visual Studio](../profiling/index.yml)
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)

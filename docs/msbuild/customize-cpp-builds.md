@@ -71,6 +71,6 @@ msbuild /p:ForceImportBeforeCppTargets="C:\build\config\Custom.Before.Microsoft.
 
 For a global setting (to affect, say, all C++ builds for a platform on a build server), there are two methods. First, you can set these properties using a system environment variable that is always set. This technique works because MSBuild always reads the environment and creates (or overrides) properties for all the environment variables.
 
-## Next steps
+## Related content
 
-Explore other possible customization scenarios at [Customize your build](customize-your-build.md).
+- [Customize your build](customize-your-build.md).

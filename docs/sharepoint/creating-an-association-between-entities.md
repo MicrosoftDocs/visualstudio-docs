@@ -88,6 +88,6 @@ ms.technology: sharepoint-development
  :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/salesorderdetailservice.vb" id="Snippet10":::                                                                            
  ---
 
-## See also
+## Related content
 - [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)
 - [How to: Create an association between entities](../sharepoint/how-to-create-an-association-between-entities.md)

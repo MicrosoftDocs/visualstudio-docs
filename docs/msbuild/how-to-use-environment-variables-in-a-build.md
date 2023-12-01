@@ -58,7 +58,7 @@ When you build projects, it is often necessary to set build options using inform
 </Project>
 ```
 
-## See also
+## Related content
 
 - [MSBuild](../msbuild/msbuild.md)
 - [MSBuild properties](../msbuild/msbuild-properties.md)

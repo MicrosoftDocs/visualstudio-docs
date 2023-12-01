@@ -120,7 +120,7 @@ The `MSBuildRuntime` and `MSBuildArchitecture` parameters provide the most flexi
 > [!NOTE]
 > Task parameters are evaluated in the context of the parent node, not in the context of the task host. Environment variables that are runtime- or architecture- dependent (such as the *Program Files* location) will evaluate to the value that matches the parent node. However, if the same environment variable is read directly by the task, it will correctly be evaluated in the context of the task host.
 
-## See also
+## Related content
 
 - [Configure targets and tasks](../msbuild/configure-tasks.md)
 - [UsingTask element](../msbuild/usingtask-element-msbuild.md)

@@ -228,10 +228,8 @@ Visual Studio updates your project files as you make changes in **Solution Explo
 
 Many build behaviors can be configured by setting MSBuild properties, either in the project file for settings local to a project, or as mentioned in the previous section, by creating a *Directory.Build.props* file to set properties globally for entire folders of projects and solutions. For ad hoc builds on the command line, or scripts, you can also use the `/p` option on the command line to set properties for a particular invocation of MSBuild. See [Common MSBuild project properties](common-msbuild-project-properties.md) for information about properties you can set.
 
-## Next steps
+## Related content
 
-The MSBuild process has several other extension points other than the ones described here. See [Customize your build](customize-your-build.md). and [How to extend the Visual Studio build process](how-to-extend-the-visual-studio-build-process.md).
-
-## See also
-
-[MSBuild](msbuild.md)
+- [Customize your build](customize-your-build.md)
+- [How to extend the Visual Studio build process](how-to-extend-the-visual-studio-build-process.md).
+- [MSBuild](msbuild.md)

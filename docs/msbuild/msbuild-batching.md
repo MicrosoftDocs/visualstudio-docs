@@ -311,7 +311,7 @@ If you want to prevent the batching behavior induced by the metadata reference, 
 </Project>
 ```
 
-## See also
+## Related content
 
 - [ItemMetadata element (MSBuild)](../msbuild/itemmetadata-element-msbuild.md)
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)

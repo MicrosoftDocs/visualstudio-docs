@@ -506,7 +506,7 @@ In these methods, versions are parsed like <xref:System.Version?displayProperty=
 
 The functions `Exists` and `HasTrailingSlash` are not property functions. They are available for use with the `Condition` attribute. See [MSBuild conditions](msbuild-conditions.md).
 
-## See also
+## Related content
 
 - [MSBuild properties](../msbuild/msbuild-properties.md)
 

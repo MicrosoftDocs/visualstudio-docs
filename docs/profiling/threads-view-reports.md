@@ -138,6 +138,6 @@ The Markers Report lists the markers in the displayed time frame.  Panning or zo
 
 This bar graph shows the proportion of time each unhidden thread spends in each activity category during the currently visible time range. "Execution" means that the thread is executing; all other categories mean that the thread is waiting for something.
 
-## See also
+## Related content
 
 - [Concurrency Visualizer](../profiling/concurrency-visualizer.md)
