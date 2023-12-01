@@ -8,6 +8,7 @@ helpviewer_keywords:
 author: MikeJo5000
 ms.author: mikejo
 manager: AndSter
+ms.technology: vs-ide-debug
 ---
 # Log info to the Output window using tracepoints in Visual Studio
 
