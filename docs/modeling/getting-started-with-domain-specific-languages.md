@@ -403,7 +403,7 @@ Rename the existing domain classes and relationships. For example, starting from
 
 2. Rebuild any experimental DSLs or other experimental Visual Studio extensions that you still want to use.
 
-## See also
+## Related content
 
 - [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md)
 - [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)

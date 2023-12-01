@@ -53,7 +53,7 @@ install, modify, or repair Visual Studio.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 
 * [Install Visual Studio](install-visual-studio.md)
 * [Configure policies for enterprise deployments](configure-policies-for-enterprise-deployments.md)

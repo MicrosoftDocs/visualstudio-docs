@@ -223,7 +223,7 @@ The following XML shows a code snippet that uses the method `File.Exists` in the
 </CodeSnippets>
 ```
 
-## See also
+## Related content
 
 - Visual Studio: [Code snippets schema reference](../ide/code-snippets-schema-reference.md)
 - VS Code: [Create a snippet](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_create-your-own-snippets)

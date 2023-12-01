@@ -49,7 +49,7 @@ For best results, follow these formatting tips:
   > [!NOTE]
   > `%I` in the code above should be `%%I` in batch scripts.
 
-## See also
+## Related content
 
 - [Compile and build](../ide/compiling-and-building-in-visual-studio.md)
 - [Pre-build Event/Post-build Event command line dialog box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md)

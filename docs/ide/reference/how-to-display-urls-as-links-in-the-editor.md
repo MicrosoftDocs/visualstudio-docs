@@ -38,6 +38,6 @@ You can choose to have the Code Editor treat Uniform Resource Locators (URLs) in
 
 4. Under **Display**, select **Enable single-click URL navigation**.
 
-## See also
+## Related content
 
 - [Features of the code editor](../../ide/writing-code-in-the-code-and-text-editor.md)

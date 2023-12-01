@@ -126,7 +126,7 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 * If you experience an issue where Visual Studio stops responding, crashes, or other performance issues, you can easily share repro steps and supporting files with us by using the [Report a Problem](how-to-report-a-problem-with-visual-studio.md) tool.
 
-## Next steps
+## Related content
 
 Review the following blog posts to learn more about the improvements we've made to Visual Studio 2022, to date:
 

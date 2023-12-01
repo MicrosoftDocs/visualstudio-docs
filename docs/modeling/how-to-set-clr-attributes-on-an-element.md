@@ -38,6 +38,6 @@ Custom attributes are special attributes that can be added to domain elements, s
 
    `[` *AttributeName* `(` *ParameterName* `=` *Type* `)]`
 
-## See also
+## Related content
 
 - [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

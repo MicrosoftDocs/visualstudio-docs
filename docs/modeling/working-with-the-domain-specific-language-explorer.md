@@ -37,6 +37,6 @@ The **DSL Explorer** displays several kinds of information in a tree view. For m
 
 - **Xml Serialization Behavior**. Serialization settings for the model. For more information about serialization, see [Customizing File Storage and XML Serialization](../modeling/customizing-file-storage-and-xml-serialization.md).
 
-## See also
+## Related content
 
 - [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

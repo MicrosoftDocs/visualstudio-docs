@@ -107,6 +107,6 @@ You can change the appearance and behavior of the explorer for your domain-speci
 
      The explorer should show only an **Actors** node, and should not show the **Comments** node.
 
-## See also
+## Related content
 
 - [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

@@ -53,6 +53,6 @@ When you export a code map as an XPS file, you can see it in XML or XAML viewers
 
 3. Name the code map. Make sure that the **Save as type** box is set to **XPS files (\*.xps)**. Choose **Save**.
 
-## See also
+## Related content
 
 - [Map dependencies with code maps](../modeling/map-dependencies-across-your-solutions.md)

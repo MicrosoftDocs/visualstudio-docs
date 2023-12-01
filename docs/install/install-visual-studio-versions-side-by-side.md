@@ -121,7 +121,7 @@ For language-specific information, see the appropriate topic in the following ta
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 
 * [Install Visual Studio](install-visual-studio.md)
 * [Port, migrate, and upgrade Visual Studio projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md)

@@ -74,7 +74,7 @@ You can navigate between bookmarks by using the **Next bookmark** and **Previous
 
 You can organize bookmarks into virtual folders by selecting **New Folder** in the bookmark window and then dragging selected bookmarks into the new folder. And, you can rename the folders by using the right-click context menu, too.
 
-## See also
+## Related content
 
 - Explore more [features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md).
 - Learn about other productivity features in the [Productivity guide for Visual Studio](productivity-features.md).

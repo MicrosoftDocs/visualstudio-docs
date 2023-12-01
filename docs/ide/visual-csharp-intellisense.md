@@ -160,7 +160,7 @@ If you press **Tab**, IntelliSense stubs out a method with the correct signature
 > [!NOTE]
 > Use the **Navigate Backward** command on the **View** menu (**Ctrl**+**-**) to go back to the event hookup statement.
 
-## See also
+## Related content
 
 - [Use IntelliSense](../ide/using-intellisense.md)
 - [Visual Studio IDE](../get-started/visual-studio-ide.md)
