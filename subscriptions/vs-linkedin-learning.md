@@ -1,5 +1,5 @@
 ---
-title: LinkedIn Learning benefit in Visual Studio subscriptions
+title: Activate LinkedIn Learning benefit in subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve

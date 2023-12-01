@@ -1,5 +1,5 @@
 ---
-title: Use connected identities in Visual Studio subscriptions 
+title: Use connected identities in subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve

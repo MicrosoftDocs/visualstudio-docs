@@ -1,5 +1,5 @@
 ---
-title: Technical Support benefit in Visual Studio subscriptions
+title: Activate Technical Support for subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve

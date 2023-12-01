@@ -1,5 +1,5 @@
 ---
-title: What happens when your Visual Studio subscription is removed
+title: What happens when your subscription is removed?
 author: evanwindom
 ms.author: amast
 manager: shve
