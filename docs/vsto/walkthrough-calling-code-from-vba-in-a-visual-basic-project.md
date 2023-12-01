@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Call code from VBA in VB project (Visual Studio)"
+title: Call code from VBA in a Visual Basic project in Visual Studio
 description: Call a method in a document-level customization for Microsoft Office Excel from Visual Basic for Applications (VBA) code in the Excel workbook.
 titleSuffix: ""
 ms.date: "02/02/2017"
