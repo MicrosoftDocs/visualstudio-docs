@@ -115,7 +115,7 @@ In native code apps, you can use register names as live expressions. For example
 
 If you want to view contents of a .NET object based on a memory pointer, such as an address obtained from a [heap snapshot](../debugger/using-dump-files.md), you can do that using `{CLR}@Address` notation. The address must be a pointer to memory, such as 0x1D102A581B0. Enter the memory pointer in the Memory window **Address** field.
 
-To get the memory pointer address from a heap snapshot, open the heap dump, choose **Debug Managed Memory**, right-click and object you're interested in, and choose **View instances**.
+To get the memory pointer address from a heap snapshot, open the heap dump, choose **Debug Managed Memory**, which opens the [Memory Usage](../profiling/memory-usage.md) tool. Right-click the object you're interested in, and choose **View instances**.
 
 ## See also
 
