@@ -30,7 +30,7 @@ When your agreement reaches its expiration date, admins and subscribers still ha
 During this phase, both admins and subscribers continue to have access to their respective portals.  Admins are able to carry out the full range of subscription management tasks.  Subscribers continue to have unrestricted access to their subscription benefits.  
 
 > [!IMPORTANT]
-> While admins and subscribers will continue to have access to their respective resources, it's important that action be taken quickly so that important data is preseved before this period expires and access to the information is lost.
+> While admins and subscribers will continue to have access to their respective resources, it's important that action be taken quickly so that important data is preserved before this period expires and access to the information is lost.
 
 ### Disabled
 

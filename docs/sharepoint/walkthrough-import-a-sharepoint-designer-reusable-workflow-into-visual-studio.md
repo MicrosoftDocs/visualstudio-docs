@@ -116,7 +116,7 @@ ms.technology: sharepoint-development
 
 15. Choose the **Add** button, and then choose the **OK** button.
 
-     The action statement now reads **Set Assigned To to Current Item:CreatedBy**.
+     The action statement now reads **Set Assigned To Current Item:CreatedBy**.
 
 ## Save and deploy the reusable workflow
  Because Visual Studio can import only *.wsp* files, you must save the reusable workflow as a *.wsp* file and deploy it to SharePoint before importing it into Visual Studio.
