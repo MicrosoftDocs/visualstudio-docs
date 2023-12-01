@@ -12803,7 +12803,7 @@
     },
     {
       "source_path": "subscriptions/access-admin-portal.md",
-      "redirect_url": "/visualstudio/subscriptions/subscription-management-info",
+      "redirect_url": "/visualstudio/subscriptions/admin-roles",
       "redirect_document_id": false
     },
     {
@@ -12818,17 +12818,17 @@
     },
     {
       "source_path": "subscriptions/find-subscription-id.md",
-      "redirect_url": "/visualstudio/subscriptions/find-pcn",
+      "redirect_url": "/visualstudio/subscriptions",
       "redirect_document_id": false
     },
     {
       "source_path": "subscriptions/managing-admins.md",
-      "redirect_url": "/visualstudio/subscriptions/subscription-management-info",
+      "redirect_url": "/visualstudio/subscriptions/admin-roles",
       "redirect_document_id": false
     },
     {
       "source_path": "subscriptions/multiple-pcns.md",
-      "redirect_url": "/visualstudio/subscriptions/find-pcn",
+      "redirect_url": "/visualstudio/subscriptions",
       "redirect_document_id": false
     },
     {
@@ -12918,7 +12918,7 @@
     },
     {
       "source_path": "subscriptions/leave-vsde.md",
-      "redirect_url": "/visualstudio/subscriptions/join-dev-essentials",
+      "redirect_url": "/visualstudio/subscriptions/manage-vs-subscriptions",
       "redirect_document_id": false
     },
     {
