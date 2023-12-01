@@ -116,7 +116,7 @@ For more information, see [Create a managed image of a generalized VM in Azure](
 
 Additionally, your development tasks or technologies might need more scale, like varieties of development configurations and multiple machine configurations. You can use Azure DevTest Labs to create _recipes_ that automate construction of your "golden image." You can also use DevTest Labs to manage policies for your team’s running VMs. [Using Azure DevTest Labs for developers](/azure/devtest-labs/devtest-lab-developer-lab) is the best source for more information on DevTest Labs.
 
-## Next steps
+## Related content
 
 Now that you know about the preconfigured Visual Studio images, the next step is to create a new VM:
 

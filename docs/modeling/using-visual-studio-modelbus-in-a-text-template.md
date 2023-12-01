@@ -392,7 +392,7 @@ You now have a DSL that can be accessed by text templates through ModelBus. Refe
 
     If you have set the MBR on that element, the referenced model opens and the referenced element is selected.
 
-## See also
+## Related content
 
 - [Integrating Models by using Visual Studio Modelbus](../modeling/integrating-models-by-using-visual-studio-modelbus.md)
 - [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md)

@@ -165,7 +165,7 @@ However, for some kinds of business requirements, it is important to clarify com
 
 You can also design your own type of diagram as a domain-specific language (DSL). Code can be generated from both UML and DSLs. For more information, see [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md).
 
-## See also
+## Related content
 
 - [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)
 - [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md)

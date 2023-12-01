@@ -42,6 +42,6 @@ After you submit a feature suggestion, states indicate where your feature submis
 
 - - -
 
-## See also
+## Related content
 
 - [Introducing 'Suggest a Feature' in Developer Community (Visual Studio blog)](https://devblogs.microsoft.com/visualstudio/introducing-suggest-a-feature-in-developer-community/?utm_source=vs_developer_news&utm_medium=referral)

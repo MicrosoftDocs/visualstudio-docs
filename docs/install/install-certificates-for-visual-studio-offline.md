@@ -104,7 +104,7 @@ After you install the certificates on the client machine, then you are ready to 
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 
 * [Create a network installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md)
 * [Create an offline installation of Visual Studio](../install/create-an-offline-installation-of-visual-studio.md)

@@ -113,7 +113,7 @@ However, the `set` method might also be called if the user invokes **Undo** or *
 
 For more information about transactions, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).
 
-## Next steps
+## Related content
 
 - [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)
 - [Properties of Domain Properties](../modeling/properties-of-domain-properties.md)

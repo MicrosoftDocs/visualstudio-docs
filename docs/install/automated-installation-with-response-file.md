@@ -184,7 +184,7 @@ If you run into a problem with the Visual Studio bootstrapper throwing an error 
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 * [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide)
 * [Create and maintain a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
 * [Deploy Visual Studio from a layout onto a client machine](deploy-a-layout-onto-a-client-machine.md)

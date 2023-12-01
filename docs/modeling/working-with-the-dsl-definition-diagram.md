@@ -66,6 +66,6 @@ The diagram of a Domain-Specific Language Tools definition is an important tool 
 ### Show As Class
  If a domain relationship has derived relationships, or if it has embedding or reference relationships with other domain relationships, you can display the relationship as a class by right-clicking the relationship and then clicking **Show As Class**. The relationship will be displayed with a **Domain Properties** compartment and will show the inheritance and relationships trees.
 
-## See also
+## Related content
 
 - [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

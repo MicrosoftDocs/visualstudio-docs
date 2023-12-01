@@ -385,7 +385,7 @@ You can create a build environment that can be deployed to various computers and
 
        For native 64-bit building, point to the 64-bit version of MSBuild.
 
-## See also
+## Related content
 
 - [Prepare a test machine to run a debug executable](/cpp/windows/preparing-a-test-machine-to-run-a-debug-executable)
 - [Command-line reference](../msbuild/msbuild-command-line-reference.md)

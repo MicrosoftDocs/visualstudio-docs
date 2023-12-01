@@ -52,7 +52,7 @@ For machines within a corporate network, you can use the [Group Policy editor](/
 
 [!INCLUDE [install_get_support_md](includes/install_get_support_md.md)]
 
- ## See also
+ ## Related content
 
 * [Visual Studio Administrators Guide](visual-studio-administrator-guide.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)

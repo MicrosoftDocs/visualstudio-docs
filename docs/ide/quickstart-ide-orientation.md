@@ -267,18 +267,12 @@ Visual Studio has many built-in debugging capabilities. Set a break point at any
 
 ::: moniker-end
 
-## Next steps
+## Related content
 
 You looked at just a few of the features of Visual Studio to get acquainted with the user interface. To explore further:
 
-> [!div class="nextstepaction"]
-> [Learn about the code editor](../get-started/tutorial-editor.md)
-
-> [!div class="nextstepaction"]
-> [Learn about projects and solutions](../get-started/tutorial-projects-solutions.md)
-
-## See also
-
+- [Learn about the code editor](../get-started/tutorial-editor.md)
+- [Learn about projects and solutions](../get-started/tutorial-projects-solutions.md)
 - [Overview of the Visual Studio IDE](../get-started/visual-studio-ide.md)
 - [More features of Visual Studio](../ide/advanced-feature-overview.md)
 - [Change theme and font colors](../ide/quickstart-personalize-the-ide.md)

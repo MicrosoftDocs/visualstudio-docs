@@ -49,7 +49,7 @@ To visualize the architecture of a system or existing code, create the following
 |[Use models in your development process](../modeling/use-models-in-your-development-process.md)<br /><br /> [Use models in Agile development](/previous-versions/ff398061(v=vs.140))|Use models to help you understand and change your system during its development.|
 |[Structure your modeling solution](../modeling/structure-your-modeling-solution.md)|Organize models in a large or medium project.|
 
-## Resources
+## Related content
 
 - [Visual Studio Visualization & Modeling Tools Forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=vsarch)
 - [Visual Studio Extensibility Forum](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=vsx)

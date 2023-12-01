@@ -144,6 +144,6 @@ A domain-specific language (DSL) is defined by its DSL Definition file, together
 
  A derived relationship specializes its base relationship. The domain classes that it links should be derived from or the same as the classes linked by the base relationship. When a link of the derived relationship is created in a model, it is an instance of both the derived and the base relationships. In program code, you can navigate to the opposite end of the link using the properties generated either by the base or by the derived class.
 
-## See also
+## Related content
 
 - [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

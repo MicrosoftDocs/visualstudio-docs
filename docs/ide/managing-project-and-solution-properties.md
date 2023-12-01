@@ -78,7 +78,7 @@ To access properties on the solution, right-click the [solution node](use-soluti
 
 Solution properties are stored in a Solution User Options (.suo) file. For more information about this file type, see the "[**Solution file**](solutions-and-projects-in-visual-studio.md#solution-file)" section of the [Solutions and projects in Visual Studio](solutions-and-projects-in-visual-studio.md) page.
 
-## See also
+## Related content
 
 - [What are solutions and projects in Visual Studio?](../ide/solutions-and-projects-in-visual-studio.md)
 - [Managing solution and project properties (Visual Studio for Mac)](/visualstudio/mac/managing-solutions-and-project-properties)

@@ -108,7 +108,7 @@ Before you can start this procedure, install these components:
 
  For more information about strong naming, see [Creating and Using Strong-Named Assemblies](/dotnet/standard/assembly/create-use-strong-named).
 
-## See also
+## Related content
 
 - [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
 - [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

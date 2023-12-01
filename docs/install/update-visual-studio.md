@@ -276,7 +276,7 @@ You can download an Administrator Update from the [Microsoft Update Catalog](htt
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 
 * [Install Visual Studio versions side-by-side](install-visual-studio-versions-side-by-side.md)
 * [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)

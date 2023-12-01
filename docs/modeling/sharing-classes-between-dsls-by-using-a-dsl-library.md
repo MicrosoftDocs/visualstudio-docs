@@ -52,6 +52,6 @@ In the Visual Studio Visualization and Modeling SDK, you can create an incomplet
 
 6. Build the solution.
 
-## See also
+## Related content
 
 - [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)

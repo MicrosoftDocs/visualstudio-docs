@@ -153,7 +153,7 @@ At any one time, you may be working in multiple code files and moving among seve
 
 - **Customize the fonts that appear in Visual Studio**. You can change the font face, size, and color that's used for text in the IDE. For example, you can customize the color of specific code elements in the editor and the font face in tool windows or throughout the IDE. For more information, see [How to: Change fonts and colors](../ide/how-to-change-fonts-and-colors-in-visual-studio.md) and [How to: Change fonts and colors in the editor](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md).
 
-## See also
+## Related content
 
 - [Visual Studio tips and tricks blog post](https://devblogs.microsoft.com/visualstudio/visual-studio-tips-and-tricks/)
 - [Default keyboard shortcuts for frequently used commands](default-keyboard-shortcuts-in-visual-studio.md)

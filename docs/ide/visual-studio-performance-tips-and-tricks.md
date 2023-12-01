@@ -141,6 +141,6 @@ If forcing garbage collection reliably makes your scenario work, file a report t
 
 For a detailed description of the CLR garbage collector, see [Fundamentals of garbage collection](/dotnet/standard/garbage-collection/fundamentals).
 
-## See also
+## Related content
 
 - [Optimize Visual Studio performance](../ide/optimize-visual-studio-performance.md)
