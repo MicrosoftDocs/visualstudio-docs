@@ -514,7 +514,7 @@ When you right-click the **DSL Definition Diagram**, select **Enable ModelBus**,
 
 - In *DslPackage\source.extention.tt*, `|ModelBusAdapter|` is added as a MEF Component.
 
-## Next steps
+## Related content
 
 - [How to: Open a Model from File in Program Code](../modeling/how-to-open-a-model-from-file-in-program-code.md)
 - [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)

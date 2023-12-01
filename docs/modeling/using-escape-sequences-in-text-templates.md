@@ -32,6 +32,6 @@ If a text block includes strings used to escape text template tags, then you may
 
 - If an escape (\\) character appears anywhere else in any sequence other than where it escapes a control character or a quote (in C# only), the character will be output directly.
 
-## See also
+## Related content
 
 - [How to: Generate Templates from Templates By Using Escape Sequences](../modeling/how-to-generate-templates-from-templates-by-using-escape-sequences.md)

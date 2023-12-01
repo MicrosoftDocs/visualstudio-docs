@@ -135,7 +135,7 @@ Explore the other customization options in the [**Fonts and Colors** > **Options
 
 ::: moniker-end
 
-## See also
+## Related content
 
 - [Change fonts, colors, and themes in Visual Studio](../ide/how-to-change-fonts-and-colors-in-visual-studio.md)
 - [Change text case in the editor](../ide/how-to-change-text-case-in-the-editor.md)

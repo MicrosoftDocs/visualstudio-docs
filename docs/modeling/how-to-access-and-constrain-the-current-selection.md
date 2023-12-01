@@ -205,7 +205,7 @@ namespace CompanyName.ProductName.GroupingDsl
 }
 ```
 
-## See also
+## Related content
 
 - <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSet>
 - <xref:Microsoft.VisualStudio.Modeling.Shell.ModelingPackage>

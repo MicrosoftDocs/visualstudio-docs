@@ -49,6 +49,6 @@ You can change the namespace of a domain-specific language. Make the change in t
 
 11. On the **Build** menu, choose **Rebuild Solution**.
 
-## See also
+## Related content
 
-[Domain-specific language tools glossary](/previous-versions/bb126564(v=vs.100))
+- [Domain-specific language tools glossary](/previous-versions/bb126564(v=vs.100))

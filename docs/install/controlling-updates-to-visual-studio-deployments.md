@@ -80,7 +80,7 @@ In some cases, the client machine may have already installed Visual Studio from 
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 * [Enabling administrator updates](enabling-administrator-updates.md)

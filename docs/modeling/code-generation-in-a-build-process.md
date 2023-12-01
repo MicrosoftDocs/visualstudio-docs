@@ -293,7 +293,7 @@ If you update an included file or another file read by the template, Visual Stud
 
 - [Run-time text templates](../modeling/run-time-text-generation-with-t4-text-templates.md) are transformed at run time in your application.
 
-## See also
+## Related content
 
 ::: moniker range=">=vs-2022"
 

@@ -177,7 +177,7 @@ After you deselect the tenant to filter, the **Account Settings** and the **Filt
 
 :::image type="content" source="media/vs-2022/account-settings-filter-account-dialogs-tenants-filtered-out-state.png" alt-text="Screenshot showing the filtered tenant state on the Account Settings and the Filter Account dialogs":::
 
-## See also
+## Related content
 
 - [Sign in to Visual Studio](signing-in-to-visual-studio.md)
 - [Sign in to Visual Studio for Mac](/visualstudio/mac/signing-in)

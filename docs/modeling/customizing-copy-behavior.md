@@ -548,7 +548,7 @@ namespace Company.MyDsl
 }
 ```
 
-## See also
+## Related content
 
 - [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md)
 - [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)

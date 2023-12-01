@@ -107,7 +107,7 @@ There are several options you can use to customize the contents of your network 
 * `--add` to specify [workload or component IDs](workload-and-component-ids.md). <br>If `--add` is used, only those workloads and components specified with `--add` are downloaded.  If `--add` isn't used, all workload and components are downloaded.
 * `--includeRecommended` to include all the recommended components for the specified workload IDs.
 * `--includeOptional` to include all the optional components for the specified workload IDs.
-* `--vsconfig` to use a vsconfig file to specify the components that should be included in the layout. Make sure you specify the **full path** of the config file.  
+* `--config` to use a vsconfig file to specify the components that should be included in the layout. Make sure you specify the **full path** of the config file.  
 * `--lang` to specify [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales).
 
 Here are a few examples of how to create a custom network layout.
@@ -392,7 +392,7 @@ We also offer an [**installation chat**](https://visualstudio.microsoft.com/vs/s
 
 We have other support options available, too. See our [Visual Studio Developer Community](https://developercommunity.visualstudio.com/home).
 
-## See also
+## Related content
 
 - [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 - [Deploy Visual Studio from a layout onto a client machine](deploy-a-layout-onto-a-client-machine.md)
