@@ -12,7 +12,7 @@ manager: MarkL
 
 # Quickstart: Visual Studio Tools for Unreal Engine
 
-In this article, download a Unreal Engine (UE) game sample and use Visual Studio Tools for Unreal Engine to:
+In this article, download an Unreal Engine (UE) game sample and use Visual Studio Tools for Unreal Engine to:
 - [View UE Blueprints in Visual Studio](#view-ue-blueprints-in-visual-studio)
 - [View UE logging in Visual Studio](#view-ue-logging-within-visual-studio)
 - [View UE macros in Visual Studio](#view-ue-macros-in-visual-studio)

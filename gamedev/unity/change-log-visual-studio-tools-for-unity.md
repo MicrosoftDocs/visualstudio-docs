@@ -571,7 +571,7 @@ Released June 23, 2020
   
   - Fixed [`USP0004`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0004.md), [`USP0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0006.md) and [`USP0007`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0007.md) suppressors with the following rules: suppress `IDE0044` (readonly), `IDE0051` (unused), `CS0649` (never assigned) for all fields decorated with SerializeField attribute. Suppress `CS0649` (never assigned) for public fields of all types extending `Unity.Object`.
 
-  - Fixed generic type parameter checking for [`UNT0014`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0014.md) diagostic.
+  - Fixed generic type parameter checking for [`UNT0014`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0014.md) diagnostic.
 
 - **Evaluation:**
 
@@ -746,7 +746,7 @@ Released September 16, 2019
 - **Integration:**
 
   - We've deepened the understanding that Visual Studio has for Unity projects by adding new diagnostics specific to Unity. We've also made the IDE smarter by suppressing general C# diagnostics that don't apply to Unity projects. For example, the IDE won't show a quick-fix to change an inspector variable to `readonly` which would prevent you from modifying the variable in the Unity Editor.
-    - [`UNT0001`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0001.md): Unity messages are called by the runtime even if they are empty, do not declare them to avoid uncesseray processing by the Unity runtime.
+    - [`UNT0001`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0001.md): Unity messages are called by the runtime even if they are empty, do not declare them to avoid unnecessary processing by the Unity runtime.
     - [`UNT0002`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0002.md): Tag comparison using string equality is slower than the built-in CompareTag method.
     - [`UNT0003`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0003.md): Usage of the generic form of GetComponent is preferred for type safety.
     - [`UNT0004`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0004.md): Update message is frame-rate dependent, and should use Time.deltaTime instead of Time.fixedDeltaTime.
@@ -1440,7 +1440,7 @@ Released August 14, 2017
 
   - Fixed field evaluation with types marked with BeforeFieldInit.
 
-  - Fixed non supported calls with binary operators (substract).
+  - Fixed non supported calls with binary operators (subtract).
 
   - Fixed issues when adding items to the Visual Studio Watch.
 
@@ -2044,7 +2044,7 @@ Released November 21, 2013
 
 - Fixed a white pixel appearing in VS, for real this time.
 
-- Fixed deletion of the UnityVS.VersionSpecific assembly if it's marked as readonly by a SCM.
+- Fixed deletion of the UnityVS.VersionSpecific assembly if it's marked as readonly by an SCM.
 
 - Fixed exceptions when creating sockets in the UnityVS package.
 
@@ -2291,7 +2291,7 @@ Released October 9, 2012
 
 - Fixed a Visual Studio freeze that could happen if UnityVS tried to attach the debugger to a Unity whose debugger interface previously crashed.
 
-- Fixed a Visual Studio freeze that could happen when a breakpoint was set and a AppDomain reload would occur.
+- Fixed a Visual Studio freeze that could happen when a breakpoint was set and an AppDomain reload would occur.
 
 - Fixed how assemblies are retrieved from Unity to avoid locking files and confuse the Unity build process.
 
