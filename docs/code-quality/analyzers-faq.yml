@@ -11,6 +11,7 @@ metadata:
   manager: jmartens
   ms.workload:
   - multiple
+  ms.technology: vs-ide-code-analysis
 title: FAQ for code analysis in Visual Studio
 summary: This page contains answers to some frequently asked questions about .NET Compiler Platform-based code analysis in Visual Studio.
 

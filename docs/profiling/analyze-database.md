@@ -8,6 +8,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-debug
 ---
 # Analyze database performance using the Database tool
 

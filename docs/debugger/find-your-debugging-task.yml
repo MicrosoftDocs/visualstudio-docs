@@ -11,6 +11,7 @@ metadata:
   manager: jmartens
   ms.workload:
     - "multiple"
+  ms.technology: vs-ide-debug
 title: FAQ - Debugger feature finder
 summary: |
    This documentation addresses frequent questions about debugging features in Visual Studio. It also maps debugging tasks or issues to the relevant feature in the Visual Studio debugger. These links cover tasks or issues such as debugging multi-threaded application, code navigation, memory leak, inspecting variables, using breakpoints, external code debugging and many more. If you need an overview of debugger features, see [First look at the debugger](debugger-feature-tour.md) instead.
