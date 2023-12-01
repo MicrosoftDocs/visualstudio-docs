@@ -1,5 +1,5 @@
 ---
-title: 'Change your design using visualization and modeling'
+title: Change your design with visualization and modeling
 description: Use the visualization and modeling tools in Visual Studio to clarify design requirements, explore existing code, and keep code consistent with your design.
 ms.date: 11/04/2016
 ms.topic: overview

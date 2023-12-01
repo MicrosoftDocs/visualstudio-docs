@@ -1,5 +1,5 @@
 ---
-title: Property Functions
+title: Use property functions to call .NET Framework
 description: Use property functions to call .NET Framework methods that appear in MSBuild property definitions, and see examples for working with the properties and methods.
 ms.date: 05/10/2023
 ms.topic: conceptual

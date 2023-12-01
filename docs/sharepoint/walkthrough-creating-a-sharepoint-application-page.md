@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a SharePoint Application Page"
+title: Create SharePoint application page in Visual Studio
 description: Create an application page, which is a specialized form of an ASP.NET page, and debug the page by using a local SharePoint site.
 ms.date: "02/02/2017"
 ms.topic: how-to

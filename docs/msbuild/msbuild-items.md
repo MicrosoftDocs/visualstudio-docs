@@ -1,5 +1,5 @@
 ---
-title: MSBuild Items
+title: Use MSBuild items and item types
 description: Use the MSBuild items and item types, work with lists of items by using and modifying item metadata and review the Exclude attribute.
 ms.date: 06/01/2023
 ms.topic: conceptual

@@ -1,5 +1,5 @@
 ---
-title: Assign Visual Studio subscriptions to multiple users
+title: Assign subscriptions to multiple users
 author: evanwindom
 ms.author: amast
 manager: shve

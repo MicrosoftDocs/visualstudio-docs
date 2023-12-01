@@ -1,5 +1,5 @@
 ---
-title: Target Build Order
+title: Set the run order for MSBuild targets
 description: Specify the order in which MSBuild targets run and whether the input to one target depends on the output of another target.
 ms.date: 10/17/2023
 ms.topic: conceptual

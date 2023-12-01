@@ -1,5 +1,5 @@
 ---
-title: 'Walkthrough: Generating Code by using Text Templates'
+title: Generate code with text templates
 description: Explore code generation with text templates and produce strongly typed program code that can also be easily changed when the source model changes.
 ms.date: 11/04/2016
 ms.topic: how-to

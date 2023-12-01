@@ -1,5 +1,5 @@
 ---
-title: Visualize code
+title: Use visualization and modeling to check your code
 description: Use visualization and modeling tools in Visual Studio to understand relationships and dependencies in your code and ensure consistency with the architecture design.
 ms.date: 11/04/2016
 ms.topic: conceptual

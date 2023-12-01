@@ -1,5 +1,5 @@
 ---
-title: What software downloads are available in Visual Studio subscriptions?
+title: Available software downloads
 author: evanwindom
 ms.author: amast
 manager: shve

@@ -1,5 +1,5 @@
 ---
-title: Item Functions
+title: Call item functions from MSBuild code
 description: Explore how MSBuild code in tasks and targets can call item functions to get information about the items in the project.
 ms.date: 11/04/2016
 ms.topic: conceptual
