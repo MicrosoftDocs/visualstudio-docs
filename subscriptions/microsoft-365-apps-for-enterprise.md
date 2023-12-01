@@ -71,7 +71,7 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 ## Frequently asked questions
 
-### Q: I have a three year Visual Studio subcription.  Is the Microsoft 365 apps for Enterprise benefit available for the full length of that subscription?
+### Q: I have a three year Visual Studio subscription.  Is the Microsoft 365 apps for Enterprise benefit available for the full length of that subscription?
 A:  No.  The Microsoft 365 offer is a 12-month trial.  You can activate it at any time within the term of your Visual Studio subscription. 
 
 ## Support resources
