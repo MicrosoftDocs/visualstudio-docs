@@ -1,5 +1,5 @@
 ---
-title: "Find and replace text in documents programmatically"
+title: Find & replace text in documents programmatically
 description: Search for and replace text in a Microsoft Office Word document programmatically from Visual Basic or C# in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: "how-to"

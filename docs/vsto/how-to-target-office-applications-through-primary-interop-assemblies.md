@@ -1,5 +1,5 @@
 ---
-title: "Target Office apps through primary interop assemblies"
+title: Target Office apps with primary interop assemblies
 description: Explore how you can use Visual Studio to programmatically target Microsoft Office applications through primary interop assemblies.
 ms.date: "02/02/2017"
 ms.topic: "how-to"

@@ -1,5 +1,5 @@
 ---
-title: "Save attachments from Outlook email items programmatically"
+title: Programmatically save attachments from Outlook email (Visual Studio)
 description: Save attachments from Microsoft Office Outlook email messages to a specified folder programmatically with C# in Visual Studio.
 titleSuffix: ""
 ms.date: "02/02/2017"
