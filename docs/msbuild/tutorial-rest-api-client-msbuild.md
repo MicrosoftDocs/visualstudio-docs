@@ -1,6 +1,6 @@
 ---
 title: Handle code generation in a build
-description: Learn how to edit an MSBuild project file to handle code generation such as REST API client generation, either by using the Exec task to run a tool, or by creating a custom task.
+description: Edit an MSBuild project file to handle code generation such as REST API client generation, either by using the Exec task to run a tool, or by creating a custom task.
 ms.date: 03/07/2022
 ms.topic: tutorial
 helpviewer_keywords:

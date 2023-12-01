@@ -1,6 +1,6 @@
 ---
 title: "Visio object model overview"
-description: Learn how you can interact with the Visio object model to develop Office solutions for Microsoft Visio.
+description: Explore the Visio object model and review the different types of objects you can use to develop Office solutions for Microsoft Visio.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

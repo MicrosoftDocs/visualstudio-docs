@@ -1,6 +1,6 @@
 ---
 title: What's New in MSBuild 16.0 
-description: Learn about the changed and updated features and properties for MSBuild 16.0, and link to release notes.
+description: Review the changed, updated, and new features and properties for MSBuild 16.0, including support for .NET Framework 4.7.2, and access links to release notes.
 ms.date: 03/11/2019
 ms.topic: conceptual
 author: ghogen

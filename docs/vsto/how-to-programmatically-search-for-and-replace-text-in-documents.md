@@ -1,6 +1,6 @@
 ---
 title: "Find and replace text in documents programmatically"
-description: Learn how you can use Visual Studio to programmatically search for and replace text in a Microsoft Word document.
+description: Search for and replace text in a Microsoft Office Word document programmatically from Visual Basic or C# in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

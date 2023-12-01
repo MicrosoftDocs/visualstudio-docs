@@ -1,6 +1,6 @@
 ---
 title: "Programmatically create appointments"
-description: Learn how you can programmatically create appointments and then add recipients to the appointment meeting request in Microsoft Outlook.
+description: Create new Microsoft Outlook appointments and add meeting request recipients programmatically from Visual Basic or C# in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

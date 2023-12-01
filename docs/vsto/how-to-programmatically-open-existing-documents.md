@@ -1,6 +1,6 @@
 ---
 title: "Programmatically open existing documents"
-description: Learn how to use the Open method to open an existing Microsoft Word document specified by a fully-qualified path and file name.
+description: Open an existing Microsoft Word document by using a fully qualified path and file name programmatically from Visual Basic or C# in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

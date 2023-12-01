@@ -59,6 +59,25 @@ The previous code defines a new debugger visualizer, which applies to objects of
 - The `DebuggerVisualizerProviderConfiguration` property defines the visualizer display name and the supported .NET type.
 - The `CreateVisualizerAsync` method is invoked by Visual Studio when the user requests the display of the debugger visualizer for a certain value. `CreateVisualizerAsync` uses the `VisualizerTarget` object to retrieve the value to be visualized and passes it to a custom remote user control (reference the [Remote UI](./../inside-the-sdk/remote-ui.md) documentation). The remote user control is then returned and will be shown in a popup window in Visual Studio.
 
+## Targeting multiple types
+
+The configuration property allows the visualizer to target multiple types when convenient. A perfect example of this is the [DataSet Visualizer](/visualstudio/debugger/view-data-in-tabular-visualizer#dataset-visualizer) which supports the visualization of `DataSet`, `DataTable`, `DataView`, and `DataViewManager` objects. This capability eases extension development since similar types can share the same UI, view models, and [visualizer object source](#the-visualizer-object-source).
+
+```csharp
+    /// <inheritdoc/>
+    public override DebuggerVisualizerProviderConfiguration DebuggerVisualizerProviderConfiguration => new DebuggerVisualizerProviderConfiguration(
+        new VisualizerTargetType("DataSet Visualizer", typeof(System.Data.DataSet)),
+        new VisualizerTargetType("DataTable Visualizer", typeof(System.Data.DataTable)),
+        new VisualizerTargetType("DataView Visualizer", typeof(System.Data.DataView)),
+        new VisualizerTargetType("DataViewManager Visualizer", typeof(System.Data.DataViewManager)));
+
+    /// <inheritdoc/>
+    public override async Task<IRemoteUserControl> CreateVisualizerAsync(VisualizerTarget visualizerTarget, CancellationToken cancellationToken)
+    {
+        ...
+    }
+```
+
 ## The visualizer object source
 
 The *visualizer object source* is a .NET class that is loaded by the debugger in the process being debugged. The debugger visualizer can retrieve data from the visualizer object source using methods exposed by `VisualizerTarget.ObjectSource`.
@@ -218,6 +237,91 @@ internal class MyVisualizerUserControl : RemoteUserControl
     }
     ...
 ```
+
+## Opening visualizers as Tool Windows
+
+By default, all debugger visualizer extensions are opened as modal dialog windows on the foreground of Visual Studio. Hence, if the user wants to continue to interact with the IDE, the visualizer will need to be closed. However, if the `Style` property is set to `ToolWindow` in the `DebuggerVisualizerProviderConfiguration` property, then the visualizer will be opened as a non-modal tool window that can remain open during the rest of the debug session. If no style is declared, the default value `ModalDialog` will be used.
+
+```csharp
+    public override DebuggerVisualizerProviderConfiguration DebuggerVisualizerProviderConfiguration => new("My visualizer", typeof(TypeToVisualize))
+    {
+        Style = VisualizerStyle.ToolWindow
+    };
+
+    public override async Task<IRemoteUserControl> CreateVisualizerAsync(VisualizerTarget visualizerTarget, CancellationToken cancellationToken)
+    {
+        // The control will be in charge of calling the RequestDataAsync method from the visualizer object source and disposing of the visualizer target.
+        return new MyVisualizerUserControl(visualizerTarget);
+    }
+```
+
+Whenever a visualizer opts to be opened as a `ToolWindow`, it will need to subscribe to the [StateChanged](/dotnet/api/microsoft.visualstudio.extensibility.debuggervisualizers.visualizertarget.statechanged) event of the `VisualizerTarget`. When a visualizer is opened as a tool window, it will not block the user from unpausing the debug session. So, the aforementioned event will be fired by the debugger whenever the state of the debug target changes. Visualizer extension authors should pay special attention to these notifications since the visualizer target is only available when the debug session is active and the debug target is paused. When the visualizer target is not available, calls to `ObjectSource` methods will fail with a `VisualizerTargetUnavailableException`.
+
+```csharp
+internal class MyVisualizerUserControl : RemoteUserControl
+{
+    private readonly VisualizerDataContext dataContext;
+
+#pragma warning disable CA2000 // Dispose objects before losing scope
+    public MyVisualizerUserControl(VisualizerTarget visualizerTarget)
+        : base(dataContext: new VisualizerDataContext(visualizerTarget))
+#pragma warning restore CA2000 // Dispose objects before losing scope
+    {
+        this.dataContext = (VisualizerDataContext)this.DataContext!;
+    }
+
+    protected override void Dispose(bool disposing)
+    {
+        if (disposing)
+        {
+            this.dataContext.Dispose();
+        }
+    }
+
+    [DataContract]
+    private class VisualizerDataContext : NotifyPropertyChangedObject, IDisposable
+    {
+        private readonly VisualizerTarget visualizerTarget;
+        private MySerializableType? _value;
+        
+        public VisualizerDataContext(VisualizerTarget visualizerTarget)
+        {
+            this.visualizerTarget = visualizerTarget;
+            visualizerTarget.StateChanged += this.OnStateChangedAsync;
+        }
+
+        [DataMember]
+        public MySerializableType? Value
+        {
+            get => this._value;
+            set => this.SetProperty(ref this._value, value);
+        }
+
+        public void Dispose()
+        {
+            this.visualizerTarget.Dispose();
+        }
+
+        private async Task OnStateChangedAsync(object? sender, VisualizerTargetStateNotification args)
+        {
+            switch (args)
+            {
+                case VisualizerTargetStateNotification.Available:
+                case VisualizerTargetStateNotification.ValueUpdated:
+                    Value = await visualizerTarget.ObjectSource.RequestDataAsync<MySerializableType>(jsonSerializer: null, CancellationToken.None);
+                    break;
+                case VisualizerTargetStateNotification.Unavailable:
+                    Value = null;
+                    break;
+                default:
+                    throw new NotSupportedException("Unexpected visualizer target state notification");
+            }
+        }
+    }
+}
+```
+
+The `Available` notification will be received after the `RemoteUserControl` has been created and just before it is made visible in the newly created visualizer tool window. For as long as the visualizer remains open, the other `VisualizerTargetStateNotification` values can be received every time the debug target changes its state. The `ValueUpdated` notification is used to indicate that the last expression opened by the visualizer was successfully re-evaluated where the debugger stopped and should be refreshed by the UI. On the other hand, whenever the debug target is resumed or the expression cannot be re-evaluated after stopping, the `Unavailable` notification will be received.
 
 ## Update the visualized object value
 

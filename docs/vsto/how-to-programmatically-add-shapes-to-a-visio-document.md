@@ -1,6 +1,6 @@
 ---
 title: "Programmatically add shapes to a Visio document"
-description:  Learn how you can add shapes to a Microsoft Office Visio document by retrieving the masters from a stencil and dropping the shapes on the active page.
+description: Add shapes to a Microsoft Office Visio document by retrieving the original pattern from a stencil and dropping the shapes on the active page.
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

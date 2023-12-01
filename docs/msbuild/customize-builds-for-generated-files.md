@@ -1,6 +1,6 @@
 ---
 title: Handle generated files in a build
-description: Learn how to modify MSBuild project files so that files that are generated during the build proceed are included in build output.
+description: Customize MSBuild project files in Visual Studio so that files generated during the build process are included in build output.
 ms.date: 02/28/2023
 ms.topic: how-to
 helpviewer_keywords:
