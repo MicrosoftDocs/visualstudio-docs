@@ -170,5 +170,5 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
 
      ![Screenshot of the Threads view in the Concurrency Visualizer, showing a marker, flag, and message series, with a message, alert, and flag span.](../profiling/media/cvmarkerseriesmanaged.png "CvMarkerSeriesManaged")
 
-## See also
+## Related content
 - [Concurrency Visualizer SDK](../profiling/concurrency-visualizer-sdk.md)

@@ -57,7 +57,7 @@ ms.technology: sharepoint-development
 
      For examples of Association Navigator methods, see [Create an association between entities](../sharepoint/creating-an-association-between-entities.md).
 
-## See also
+## Related content
 - [Create an association between entities](../sharepoint/creating-an-association-between-entities.md)
 - [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)
 - [How to: Add a Finder method](../sharepoint/how-to-add-a-finder-method.md)

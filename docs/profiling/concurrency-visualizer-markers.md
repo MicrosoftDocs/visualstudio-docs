@@ -107,7 +107,7 @@ A span marker represents a meaningful phase of an application. For example, you 
 
  ![Illustration of an aggregate span marker in Concurrency Visualizer.](../profiling/media/cvmarkerspanaggregate.png "CVMarkerSpanAggregate")
 
-## See also
+## Related content
 - [Flag markers](../profiling/concurrency-visualizer-markers.md#flag-markers)
 - [Message markers](../profiling/concurrency-visualizer-markers.md#message-markers)
 - [Span markers](../profiling/concurrency-visualizer-markers.md#span-markers)

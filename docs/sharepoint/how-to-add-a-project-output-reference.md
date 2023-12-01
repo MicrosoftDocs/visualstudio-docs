@@ -36,7 +36,7 @@ ms.technology: sharepoint-development
 
 6. Choose the arrow next to **Project Name**, choose the name of the non-SharePoint project item, and then choose the **OK** button.
 
-## See also
+## Related content
 - [Provide packaging and deployment information in project items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)
 - [How to: Mark controls as safe controls](../sharepoint/how-to-mark-controls-as-safe-controls.md)
 - [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

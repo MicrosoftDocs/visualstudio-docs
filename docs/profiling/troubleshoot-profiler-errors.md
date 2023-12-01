@@ -106,7 +106,7 @@ The Visual Studio profiler uses Event Tracing for Windows (ETW) to collect its p
 
 The Visual Studio profiler uses Event Tracing for Windows (ETW) to collect its performance information. Currently, collecting profile samples using ETW is unsupported on Windows for ARM64 when running in a Virtual Machine (VM). To work around this limitation, you can either use the CPU Usage tool on an actual ARM64 device or use the Instrumentation tool to capture timing information.
 
-## See also
+## Related content
 
 - [Analyze CPU usage](../profiling/cpu-usage.md)
 - [Identify hot paths with Flame Graph](../profiling/flame-graph.md)

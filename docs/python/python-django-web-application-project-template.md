@@ -56,6 +56,6 @@ The Django management console is accessed through various commands on the **Proj
 
     ![Result of the Validate command](media/template-django-console-validate.png)
 
-## See also
+## Related content
 
 - [Learn Django tutorial](learn-django-in-visual-studio-step-01-project-and-solution.md)

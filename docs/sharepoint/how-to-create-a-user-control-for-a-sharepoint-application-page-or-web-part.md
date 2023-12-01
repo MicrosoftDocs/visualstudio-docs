@@ -49,7 +49,7 @@ ms.technology: sharepoint-development
 
      This file appears in **Solution Explorer** under the user control file and has a *.cs* or *.vb* extension, depending on the language of the project.
 
-## See also
+## Related content
 - [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)
 - [Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)
 - [Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)

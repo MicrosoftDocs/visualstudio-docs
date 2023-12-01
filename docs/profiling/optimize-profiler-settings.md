@@ -46,7 +46,7 @@ Certain tools, such as the [CPU Usage](../profiling/cpu-usage.md) tool and [NET 
 ![Diag Hub Properties Page](../profiling/media/diaghubpropertiespage.png "Diag Hub Properties Page")
 ::: moniker-end
 
-## See also
+## Related content
 
 - [Running profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)
 - [Using multiple profiler tools simultaneously](../profiling/use-multiple-profiler-tools-simultaneously.md)
