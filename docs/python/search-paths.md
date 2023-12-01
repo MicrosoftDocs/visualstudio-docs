@@ -35,7 +35,7 @@ Once folders are added to the search paths, Visual Studio uses those paths for a
 
 Files with a _.zip_ or _.egg_ extension can also be added as search paths by selecting **Add Zip Archive to Search Path** command. As with folders, the contents of these files are scanned and made available to IntelliSense.
 
-## See also
+## Related content
 
 - [Manage Python environments in Visual Studio](managing-python-environments-in-visual-studio.md)
 - [Select an interpreter for a project](selecting-a-python-environment-for-a-project.md)

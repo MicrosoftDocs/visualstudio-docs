@@ -39,7 +39,7 @@ ms.technology: sharepoint-development
 
 6. For the **Value** field of the custom property, specify a value, and then choose the **OK** button.
 
-## See also
+## Related content
 - [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)
 - [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)
 - [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md)

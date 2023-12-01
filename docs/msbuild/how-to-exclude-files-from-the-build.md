@@ -119,7 +119,7 @@ In a project file you can use wildcards to include all the files in one director
 </Project>
 ```
 
-## See also
+## Related content
 
 - [Items](../msbuild/msbuild-items.md)
 - [MSBuild](../msbuild/msbuild.md)

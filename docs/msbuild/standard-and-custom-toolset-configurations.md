@@ -61,6 +61,6 @@ MSBuild contains the standard toolset `Current` that references the current vers
 
   You can also add custom, ToolsVersion-specific properties to the configuration file by using the same syntax that you use to add the MSBuildToolsPath property. To make these custom properties available to the project file, use the same name as the name of the value that is specified in the configuration file. You may define Toolsets but not sub-toolsets in the configuration file.
 
-## See also
+## Related content
 
 - [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md)

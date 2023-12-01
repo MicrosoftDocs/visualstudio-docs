@@ -314,7 +314,7 @@ In Visual Studio 2019,  the legacy Performance Explorer and related profiling to
 
 ![Performance Explorer tool](../profiling/media/prof-tour-performance-explorer.png "Performance Explorer")
 
-## See also
+## Related content
 
 - [Which tool should I use?](../profiling/choose-performance-tool.md)
 - [Reduce compute costs by using profiling tools](../profiling/optimize-code-using-profiling-tools.md)

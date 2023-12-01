@@ -90,7 +90,7 @@ To end a profiling session:
 
      **VSPerfClrEnv /off**
 
-## Reference
+## Related content
 
 - [VSIntr](../profiling/vsinstr.md)
 - [VSPerfCmd](../profiling/vsperfcmd.md)

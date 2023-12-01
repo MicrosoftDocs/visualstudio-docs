@@ -267,7 +267,7 @@ For more information, see [Project element (MSBuild)](../msbuild/project-element
 </PropertyGroup>
 ```
 
-## See also
+## Related content
 
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)
 - [MSBuild](../msbuild/msbuild.md)

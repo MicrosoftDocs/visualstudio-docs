@@ -97,7 +97,7 @@ This project file contains both the `Convert` and `Build` targets. The `Generate
 </Project>
 ```
 
-## See also
+## Related content
 
 - [Targets](../msbuild/msbuild-targets.md)
 - [Target element (MSBuild)](../msbuild/target-element-msbuild.md)

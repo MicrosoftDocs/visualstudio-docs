@@ -257,7 +257,7 @@ To create and run the tasks, use Visual Studio and the **Visual Studio Command P
 </Code>
 ```
 
-## See also
+## Related content
 
 - [Inline tasks](../msbuild/msbuild-inline-tasks.md)
 - [Tasks](../msbuild/msbuild-tasks.md)

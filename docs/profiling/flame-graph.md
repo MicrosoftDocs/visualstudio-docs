@@ -43,7 +43,7 @@ In the Flame Graph view, you can navigate by clicking on a node with a mouse or 
 |Enter|Zoom in|
 |Escape|Zoom out|
 
-## See also
+## Related content
 
 - [Diagnose high latency with CPU Insights](../profiling/cpu-insights.md)
 - [Analyze CPU usage without debugging](../profiling/cpu-usage.md)

@@ -101,7 +101,7 @@ Also note that Visual Studio doesn't presently support using `conda` to install 
 > [!Tip]
 > A common situation where pip fails to install a package is when the package includes source code for native components in _\*.pyd_ files. Without the required version of Visual Studio installed, pip cannot compile these components. The error message displayed in this situation is **error: Unable to find vcvarsall.bat**. `easy_install` is often able to download pre-compiled binaries, and you can download a suitable compiler for older versions of Python from [https://python.en.uptodown.com/windows/versions](https://python.en.uptodown.com/windows/versions). For more details, see [How to deal with the pain of "unable to find vcvarsallbat"](https://devblogs.microsoft.com/python/unable-to-find-vcvarsall-bat/) on the Python tools team blog.
 
-## See also
+## Related content
 
 - [Manage Python environments in Visual Studio](managing-python-environments-in-visual-studio.md)
 - [Use requirements.txt for dependencies](managing-required-packages-with-requirements-txt.md)
