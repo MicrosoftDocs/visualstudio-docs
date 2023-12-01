@@ -1,7 +1,7 @@
 ---
 title: View memory for variables in the debugger
 description: Learn how to use Memory windows as you debug, to see the memory space your app is using. Other windows show variables and where they reside in memory.
-ms.date: 3/24/2023
+ms.date: 11/30/2023
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.memory
@@ -99,7 +99,7 @@ You can hide or display the toolbar at the top of the **Memory** window. You wil
 
 - Right-click in the **Memory** window, and select **Show Toolbar** in the context menu. The toolbar appears or disappears, depending on its previous state.
 
-## Follow a pointer through memory
+## Follow a pointer through memory (C/C++)
 
 In native code apps, you can use register names as live expressions. For example, you can use the stack pointer to follow the stack.
 
@@ -111,5 +111,12 @@ In native code apps, you can use register names as live expressions. For example
 
    When you use a debug command such as **Step**, the memory address displayed in the **Address** field and at the top of the **Memory** window automatically changes as the pointer changes.
 
+## View memory pointers (.NET)
+
+If you want to view contents of a .NET object based on a memory pointer, such as an address obtained from a [heap snapshot](../debugger/using-dump-files.md), you can do that using `{CLR}@Address` notation. The address must be a pointer to memory, such as 0x1D102A581B0. Enter the memory pointer in the Memory window **Address** field.
+
+To get the memory pointer address from a heap snapshot, open the heap dump, choose **Debug Managed Memory**, right-click and object you're interested in, and choose **View instances**.
+
 ## See also
+
 - [View data in the debugger](../debugger/viewing-data-in-the-debugger.md)
