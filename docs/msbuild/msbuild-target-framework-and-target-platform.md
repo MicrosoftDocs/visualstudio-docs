@@ -98,6 +98,6 @@ A *target configuration* is a subset of a target platform. For example, the `x86
 
 ```
 
-## See also
+## Related content
 
 - [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)

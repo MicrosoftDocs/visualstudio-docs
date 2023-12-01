@@ -642,7 +642,7 @@ Item1: notebook
 -->
 ```
 
-## See also
+## Related content
 
 - [Item element (MSBuild)](../msbuild/item-element-msbuild.md)
 - [Common MSBuild project items](../msbuild/common-msbuild-project-items.md)

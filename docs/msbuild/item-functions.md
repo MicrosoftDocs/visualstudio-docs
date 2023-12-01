@@ -138,6 +138,6 @@ The following change to the code results in the duplicate item value being succe
 
 The function `HasTrailingSlash` is not an item function. It is available for use with the `Condition` attribute. See [MSBuild conditions](msbuild-conditions.md).
 
-## See also
+## Related content
 
-You can also use attributes to perform operations on item lists, such as filtering on item metadata; see [Items](../msbuild/msbuild-items.md).
+You can also use attributes to perform operations on item lists, such as filtering on item metadata. For more information, see [Items](../msbuild/msbuild-items.md).

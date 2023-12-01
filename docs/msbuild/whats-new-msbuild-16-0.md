@@ -34,6 +34,6 @@ Starting with MSBuild 16.8, you can selectively choose whether to opt out of cer
 
 MSBuild (and Visual Studio) now targets .NET Framework 4.7.2. If you wish to use new MSBuild API features, your assembly must also upgrade, but existing code will continue to work.
 
-## See also
+## Related content
 
 - [MSBuild](../msbuild/msbuild.md)

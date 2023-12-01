@@ -255,7 +255,7 @@ The following example shows a project file invoking the previous example task, S
 </Project>
 ```
 
-## See also
+## Related content
 
 - [Create a custom task](tutorial-custom-task-code-generation.md)
 - [Create a REST API client with MSBuild](tutorial-rest-api-client-msbuild.md)

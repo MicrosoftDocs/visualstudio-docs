@@ -47,6 +47,6 @@ The best approach depends on your scenario. Using Visual Studio Extensibility, y
 
 If you have a dedicated build server and want to ensure that certain targets always execute on all builds of the appropriate project type that execute on that server, then using a global custom `.targets` or `.props` file makes sense.  If you want the custom targets to only execute when certain conditions apply, then use another file location and set the path to that file by setting the appropriate MSBuild property in the MSBuild command line only when needed.
 
-## Next steps
+## Related content
 
-Explore other possible customization scenarios at [Customize your build](customize-your-build.md).
+- [Customize your build](customize-your-build.md).

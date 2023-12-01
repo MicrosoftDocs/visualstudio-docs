@@ -73,7 +73,7 @@ The following example project contains two tasks: the `GenerateResource` task to
 </Project>
 ```
 
-## See also
+## Related content
 
 - [MSBuild](../msbuild/msbuild.md)
 - [GenerateResource task](../msbuild/generateresource-task.md)

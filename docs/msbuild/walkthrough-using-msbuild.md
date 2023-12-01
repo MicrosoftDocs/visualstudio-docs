@@ -621,7 +621,7 @@ Notice that metadata expressed in this syntax doesn't cause batching.
 
 If you're primarily using the .NET SDK, continue reading at [MSBuild Reference for .NET SDK Projects](/dotnet/core/project-sdk/msbuild-props).
 
-## See also
+## Related content
 
 - [MSBuild overview](../msbuild/msbuild.md)
 - [MSBuild reference](../msbuild/msbuild-reference.md)

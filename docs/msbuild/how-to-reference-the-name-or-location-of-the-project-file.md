@@ -86,7 +86,7 @@ You can use the name or location of the project in the project file itself witho
 
 The example uses the [Property function](property-functions.md) syntax to call the static .NET Framework method <xref:System.IO.Path.Combine*?displayProperty=fullName>.
 
-## See also
+## Related content
 
 - [MSBuild](../msbuild/msbuild.md)
 - [MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md)
