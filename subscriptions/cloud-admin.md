@@ -1,5 +1,5 @@
 ---
-title: Setting up admins for monthly Visual Studio subscriptions
+title: Set up admins for monthly subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve

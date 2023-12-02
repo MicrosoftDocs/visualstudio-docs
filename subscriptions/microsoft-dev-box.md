@@ -1,5 +1,5 @@
 ---
-title: Use Microsoft Dev Box with Visual Studio subscriptions
+title: Use Microsoft Dev Box with subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve

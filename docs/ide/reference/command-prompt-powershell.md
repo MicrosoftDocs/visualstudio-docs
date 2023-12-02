@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Visual Studio terminal"
 no-loc: cmdlet
 monikerRange: ">=vs-2019"
+ms.technology: vs-ide-general
 ---
 # Visual Studio Developer Command Prompt and Developer PowerShell
 

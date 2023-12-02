@@ -40,6 +40,10 @@ The first table in this article describes the metadata assigned to every item up
 |%(ModifiedTime)|Contains the timestamp from the last time the item was modified. For example:<br /><br /> `2004-07-01 00:21:31.5073316`|
 |%(CreatedTime)|Contains the timestamp from when the item was created. For example:<br /><br /> `2004-06-25 09:26:45.8237425`|
 |%(AccessedTime)|Contains the timestamp from the last time the item was accessed.<br /><br /> `2004-08-14 16:52:36.3168743`|
+|%(DefiningProjectFullPath)|Contains the full path of the project file (or imported file) that defines this item.|
+|%(DefiningProjectDirectory)|Contains the project directory of the project file (or imported file) that defines this item.|
+|%(DefiningProjectName)|Contains the name of the project file (or imported file) that defines this item (without the extension).|
+|%(DefiningProjectExtension)|Contains the extension of the project file (or imported file) that defines this item. |
 
 ## See also
 
