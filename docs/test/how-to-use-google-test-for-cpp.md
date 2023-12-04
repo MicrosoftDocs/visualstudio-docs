@@ -64,4 +64,4 @@ You're now ready to write and run Google Tests. For information about the test m
 
 ## Related content
 
-[Write unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
+- [Write unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
