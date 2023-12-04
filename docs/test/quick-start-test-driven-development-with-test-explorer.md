@@ -250,4 +250,9 @@ Refactor the code, but do not change the tests.
 
 2. Choose **Run All**, and verify that all the tests still pass.
 
+   ::: moniker range=">=vs-2022"
+   ![Test Explorer showing 3 passed tests](../test/media/vs-2022/test-driven-development-three-passed-tests.png)
+   ::: moniker-end
+   ::: moniker range="vs-2019"
    ![Test Explorer showing 3 passed tests](../test/media/test-driven-development-three-passed-tests.png)
+   ::: moniker-end
