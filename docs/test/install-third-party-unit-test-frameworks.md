@@ -1,7 +1,7 @@
 ---
 title: Install third-party unit test frameworks
 description: Visual Studio Test Explorer can run tests from any unit test framework that has developed an adapter interface for it.
-ms.date: 07/09/2020
+ms.date: 12/04/2023
 ms.topic: how-to
 ms.author: mikejo
 manager: jmartens
@@ -26,7 +26,12 @@ Install third-party unit test frameworks by using **NuGet Package Manager**.
 
 2. In **NuGet Package Manager**, search for the test framework you want to install, and then click **Install**.
 
+   ::: moniker range=">=vs-2022"
+   ![NuGet Package Manager in Visual Studio](media/vs-2022/nuget-package-manager.png)
+   ::: moniker-end
+   ::: moniker range="vs-2019"
    ![NuGet Package Manager in Visual Studio](media/vs-2019/nuget-package-manager.png)
+   ::: moniker-end
 
 ## Update to the latest test adapters
 
@@ -38,11 +43,16 @@ Update to the latest stable test adapter to experience better test discovery and
 
 2. Click on the **Updates** tab and search for MSTest, NUnit, or xUnit test adapters that are installed.
 
-3. Select each test adapter, and then select the latest stable version in the drop-down menu.
+3. Select each test adapter, and then select the latest stable version to update.
 
-4. Choose the **Install** button.
-
+   ::: moniker range=">=vs-2022"
+   ![Upgrade Test Adapter](media/vs-2022/install-adapter-upgrade.png)
+   ::: moniker-end
+   ::: moniker range="vs-2019"
    ![Upgrade Test Adapter](media/install-adapter-upgrade.png)
+
+   Choose the **Install** button.
+   ::: moniker-end
 
 ## See also
 
