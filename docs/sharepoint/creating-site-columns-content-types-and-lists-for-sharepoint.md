@@ -1,5 +1,5 @@
 ---
-title: "Creating Site Columns, Content Types, and Lists for SharePoint"
+title: "Create site columns, content types, and lists for SharePoint"
 titleSuffix: ""
 description: Create site columns (fields), content types, and lists for SharePoint with project item templates provided in Visual Studio.
 ms.date: "02/02/2017"

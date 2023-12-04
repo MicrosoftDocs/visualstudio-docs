@@ -77,7 +77,7 @@ The following example shows how to implement a logger that writes the log to a f
 
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_Misc/msbuild_BasicLogger/CS/msbuild_BasicLogger.cs" id="Snippet1":::
 
-## See also
+## Related content
 
 - [Obtain build logs](../msbuild/obtaining-build-logs-with-msbuild.md)
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)

@@ -1,5 +1,5 @@
 ---
-title: Manage Visual Studio subscriptions from Microsoft Cloud Partner Program
+title: Manage subscriptions from Cloud Partner Program
 author: evanwindom
 ms.author: amast
 manager: shve

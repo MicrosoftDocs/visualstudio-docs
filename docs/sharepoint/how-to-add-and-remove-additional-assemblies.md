@@ -104,7 +104,7 @@ ms.technology: sharepoint-development
 
 3. Choose the Delete key.
 
-## See also
+## Related content
 - [Create SharePoint features](../sharepoint/creating-sharepoint-features.md)
 - [How to: Customize a SharePoint Feature](../sharepoint/how-to-customize-a-sharepoint-feature.md)
 - [How to: Add and remove items to SharePoint features](../sharepoint/how-to-add-and-remove-items-to-sharepoint-features.md)

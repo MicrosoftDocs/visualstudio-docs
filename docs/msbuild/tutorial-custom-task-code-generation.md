@@ -1,5 +1,5 @@
 ---
-title: Create a custom task
+title: Create a custom task with MSBuild
 description: Use MSBuild to create a custom task for code generation that properly handles incremental build and clean operations and supports multitargeting.
 ms.date: 02/17/2022
 ms.topic: tutorial

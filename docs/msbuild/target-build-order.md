@@ -1,5 +1,5 @@
 ---
-title: Target Build Order
+title: Set the run order for MSBuild targets
 description: Specify the order in which MSBuild targets run and whether the input to one target depends on the output of another target.
 ms.date: 10/17/2023
 ms.topic: conceptual
@@ -133,6 +133,6 @@ MSBuild determines the target build order as follows:
 
 7. After the target is executed or skipped, any other target that lists it in an `AfterTargets` attribute is run.
 
-## See also
+## Related content
 
 - [Targets](../msbuild/msbuild-targets.md)

@@ -35,5 +35,5 @@ namespace Concurrency;
 ## Requirements
  **Header:** cvmarkersobj.h
 
-## See also
+## Related content
 - [C library reference](../profiling/c-library-reference.md)

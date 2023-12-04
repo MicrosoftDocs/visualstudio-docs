@@ -51,6 +51,6 @@ To use this tool from the command-line, see [Profiling apps from the command-lin
 
 **VSInstr** - Starting in Visual Studio 2022 version 17.6 Preview 2, the [Instrumentation tool](../profiling/instrumentation.md) uses VSInstr for C/C++ support. VSInstr is also used for command-line scenarios and works for .NET Framework and C/C++ apps. For more information, see [Collect detailed timing data for a stand-alone application by using the profiler command line](../profiling/collecting-detailed-timing-data-for-a-stand-alone-application.md).
 
-## See Also
+## Related content
 
-[First look at profiling tools](../profiling/profiling-feature-tour.md)
+- [First look at profiling tools](../profiling/profiling-feature-tour.md)

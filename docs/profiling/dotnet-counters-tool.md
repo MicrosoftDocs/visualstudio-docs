@@ -61,7 +61,7 @@ You can also view graphs in the detailed report by selecting the checkboxes next
 
 The table updates to relevant values for the time selected in the graphs. Use the **Clear Selection** button to reset the selected time range to the entire trace.
 
-## See also
+## Related content
 
 - [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md)
 - [dotnet counters](/dotnet/core/diagnostics/dotnet-counters)

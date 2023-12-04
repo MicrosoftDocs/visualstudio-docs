@@ -69,7 +69,7 @@ Released October 11, 2022
 
   - Fixed case where async communication completed synchronously.
 
-  - Fixed running the fast build on the the Threadpool. 
+  - Fixed running the fast build on the Threadpool. 
 
 ## 17.4.1.0
 Released September 14, 2022

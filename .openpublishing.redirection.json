@@ -12818,7 +12818,7 @@
     },
     {
       "source_path": "subscriptions/find-subscription-id.md",
-      "redirect_url": "/visualstudio/subscriptions/find-pcn",
+      "redirect_url": "/visualstudio/subscriptions",
       "redirect_document_id": false
     },
     {
@@ -12828,7 +12828,7 @@
     },
     {
       "source_path": "subscriptions/multiple-pcns.md",
-      "redirect_url": "/visualstudio/subscriptions/find-pcn",
+      "redirect_url": "/visualstudio/subscriptions",
       "redirect_document_id": false
     },
     {

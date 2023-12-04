@@ -302,6 +302,6 @@ The zoom control is a slider that helps you to zoom in and out on the timeline s
 ### Zoom in and out by using the mouse wheel
  Click on any point on the timeline (to ensure it has mouse focus), and then press **Ctrl** and move the mouse wheel (forward zooms in; backward zooms out).
 
-## See also
+## Related content
 
 - [Concurrency Visualizer](../profiling/concurrency-visualizer.md)

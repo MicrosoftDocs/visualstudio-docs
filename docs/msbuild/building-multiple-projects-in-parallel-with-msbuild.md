@@ -71,7 +71,7 @@ The following project builds a specified target `DoIt` in `do_it.proj` in parall
 </Project>
 ```
 
-## See also
+## Related content
 
 - [Use multiple processors to build projects](../msbuild/using-multiple-processors-to-build-projects.md)
 - [Write multi-processor-aware loggers](../msbuild/writing-multi-processor-aware-loggers.md)

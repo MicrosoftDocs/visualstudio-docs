@@ -25,6 +25,6 @@ We recommend the following best practices for writing MSBuild scripts:
 
 - In general, avoid the use of wildcards when you select items. Instead, specify files explicitly. This is because in most project types, MSBuild expands wildcards at various times, such as when adding or removing items, which can lead to unexpected behavior. An exception to this is in .NET Core SDK-style projects, which do process wildcards correctly.
 
-## See also
+## Related content
 
 - [How MSBuild builds projects](./build-process-overview.md)

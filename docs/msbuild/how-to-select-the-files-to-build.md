@@ -168,7 +168,7 @@ The following code example uses a wildcard to include all the *.cs* files.
 </Project>
 ```
 
-## See also
+## Related content
 
 - [How to: Exclude files from the build](../msbuild/how-to-exclude-files-from-the-build.md)
 - [Items](../msbuild/msbuild-items.md)

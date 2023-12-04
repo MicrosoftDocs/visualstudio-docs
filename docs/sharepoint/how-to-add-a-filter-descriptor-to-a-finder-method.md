@@ -67,7 +67,7 @@ ms.technology: sharepoint-development
      :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/salesorderservice.vb" id="Snippet11":::
      ---
 
-## See also
+## Related content
 - [How to: Add a Finder method](../sharepoint/how-to-add-a-finder-method.md)
 - [How to: Add a specific Finder method](../sharepoint/how-to-add-a-specific-finder-method.md)
 - [How to: Add a parameter to a method](../sharepoint/how-to-add-a-parameter-to-a-method.md)

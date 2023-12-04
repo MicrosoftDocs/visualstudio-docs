@@ -72,7 +72,7 @@ The following tools are supported with Linux as the target platform as well as W
 - Events Viewer
 - Database
 
-## See also
+## Related content
 
 - [Profiling feature tour](../profiling/choose-performance-tool.md)
 - [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)

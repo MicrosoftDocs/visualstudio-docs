@@ -72,7 +72,7 @@ To quickly test Python support:
     ![Screenshot of testing Python through the Visual Studio 2022 interactive window.](media/vs-2022/python-interactive.png)
     ::: moniker-end
 
-## Next steps
+## Related content
 
 - [Tutorial step 1: Create a Python project](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)
 - [Manually identify an existing Python interpreter](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment)

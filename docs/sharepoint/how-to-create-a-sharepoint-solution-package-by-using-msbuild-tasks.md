@@ -101,7 +101,7 @@ ms.technology: sharepoint-development
     msbuild /property:WarningLevel = 2
     ```
 
-## See also
+## Related content
 - [Create SharePoint features](../sharepoint/creating-sharepoint-features.md)
 - [How to: Customize a SharePoint feature](../sharepoint/how-to-customize-a-sharepoint-feature.md)
 - [How to: Add and remove items to SharePoint features](../sharepoint/how-to-add-and-remove-items-to-sharepoint-features.md)

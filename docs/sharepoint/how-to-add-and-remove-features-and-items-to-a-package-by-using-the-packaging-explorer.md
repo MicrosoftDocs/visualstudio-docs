@@ -59,5 +59,5 @@ ms.technology: sharepoint-development
 
 2. Open a shortcut menu for a Feature or package, and then choose **Validate**.
 
-## See also
+## Related content
 - [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

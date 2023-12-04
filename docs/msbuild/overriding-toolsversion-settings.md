@@ -122,7 +122,7 @@ msbuild.exe someproj.proj -tv:12.0 -p:Configuration=Debug
 
     4. Otherwise, use the current `ToolsVersion`.
 
-## See also
+## Related content
 
 - [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)

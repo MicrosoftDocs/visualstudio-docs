@@ -29,7 +29,7 @@ Using [VSInstr](../profiling/vsinstr.md), you can instrument DLLs for which you 
 |**Profile a .NET Framework application by using instrumentation**|-   [Instrument a .NET component and collect detailed timing data](../profiling/instrument-dotnet-framework-component-and-collect-timing-data.md)|
 |**Profile a C/C++ application by using instrumentation**|-   [Instrument a native component and collect detailed timing data](../profiling/instrument-native-component-and-collect-timing-data.md)|
 
-## Reference
+## Related content
 
 - [VSIntr](../profiling/vsinstr.md)
 - [VSPerfCmd](../profiling/vsperfcmd.md)

@@ -1,5 +1,5 @@
 ---
-title: "Deploy & publish SharePoint solution to local SharePoint site"
+title: Deploy & publish SharePoint solution to a local SharePoint server
 titleSuffix: ""
 description: Deploy and publish SharePoint solutions to a local SharePoint server on your development computer with Visual Studio Solution Explorer.
 ms.date: "02/02/2017"
