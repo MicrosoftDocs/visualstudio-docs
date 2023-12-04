@@ -102,10 +102,7 @@ You can also generate a .vsconfig file right from Solution Explorer.
 
 1. Make sure you've got the workloads and components that you want, and then choose **Export**.
 
-> [!NOTE]
-> For more information, see the [Configure Visual Studio across your organization with .vsconfig](https://devblogs.microsoft.com/setup/configure-visual-studio-across-your-organization-with-vsconfig/) blog post.
-
-[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
+We also created an open source utility that locates Visual Studio installation *.vsconfig files downstream recursively and merges them all together. You can find [more information about the VSConfigFinder tool here](https://github.com/microsoft/VSConfigFinder).
 
 ## vsconfig file format
 
@@ -160,10 +157,11 @@ The .vsconfig file format that includes extensions should look like this.
 }
 ```
 
-
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## Related content
 
+* [Configure Visual Studio across your organization with .vsconfig April 2019 blog post](https://devblogs.microsoft.com/setup/configure-visual-studio-across-your-organization-with-vsconfig/)
 * [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
 * [Update a networked-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
 * [Control updates to Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
