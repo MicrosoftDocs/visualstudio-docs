@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Create a custom tab by using Ribbon XML"
+title: Create custom tab with Ribbon XML to automate Word
 description: Create a custom tab to the Add-Ins tab and automate Microsoft Office Word by using Ribbon (XML) rather than the Ribbon Designer.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

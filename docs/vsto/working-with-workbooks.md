@@ -1,5 +1,5 @@
 ---
-title: "Work with workbooks"
+title: Explore the Workbook & Workbook classes for Excel
 description: Explore the Workbook and Workbook classes that contain methods and properties you can use to perform tasks with Microsoft Office Excel workbooks.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

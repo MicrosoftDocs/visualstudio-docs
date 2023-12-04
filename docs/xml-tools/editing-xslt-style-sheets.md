@@ -1,5 +1,5 @@
 ---
-title: Editing XSLT Style Sheets
+title: Edit XSLT Style Sheets with the XML editor
 description: Explore features in the XML editor for editing XSLT style sheets, including syntax coloring, underlines, and launching the XSLT debugger from the editor.
 ms.date: 11/04/2016
 ms.topic: conceptual

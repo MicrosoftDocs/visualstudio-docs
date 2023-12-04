@@ -1,5 +1,5 @@
 ---
-title: "Work with worksheets"
+title: Explore Worksheet & Worksheet classes for Excel
 description: Explore the Worksheet and Worksheet classes that contain methods and properties you can use to perform tasks with Microsoft Office Excel worksheets.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
