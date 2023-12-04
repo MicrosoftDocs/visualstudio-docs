@@ -102,7 +102,7 @@ You can also generate a .vsconfig file right from Solution Explorer.
 
 1. Make sure you've got the workloads and components that you want, and then choose **Export**.
 
-We also created an open source utility that located Visual Studio installation vsconfig files downstream recursively and merges them all together.  You can find [more information about the VSConfigFinder tool here](https://github.com/microsoft/VSConfigFinder).
+We also created an open source utility that locates Visual Studio installation *.vsconfig files downstream recursively and merges them all together. You can find [more information about the VSConfigFinder tool here](https://github.com/microsoft/VSConfigFinder).
 
 ## vsconfig file format
 
