@@ -95,7 +95,7 @@ ms.technology: office-development
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb" id="Snippet66":::
      ---
 
-## See also
+## Related content
 - [How to: Programmatically insert text into Word documents](../vsto/how-to-programmatically-insert-text-into-word-documents.md)
 - [Word object model overview](../vsto/word-object-model-overview.md)
 - [Bookmark control](../vsto/bookmark-control.md)

@@ -25,7 +25,7 @@ ms.technology: office-development
 ## Example
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_OL_CustomCalendar/thisaddin.cs" id="Snippet1":::
 
-## See also
+## Related content
 - [Work with calendar items](../vsto/working-with-calendar-items.md)
 - [How to: Programmatically create appointments](../vsto/how-to-programmatically-create-appointments.md)
 - [How to: Programmatically create a meeting request](../vsto/how-to-programmatically-create-a-meeting-request.md)

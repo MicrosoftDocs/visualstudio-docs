@@ -33,7 +33,7 @@ ms.technology: office-development
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Outlook_RL_PerformActions/thisaddin.vb" id="Snippet1":::
  ---
 
-## See also
+## Related content
 - [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md)
 - [Work with mail items](../vsto/working-with-mail-items.md)
 - [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)

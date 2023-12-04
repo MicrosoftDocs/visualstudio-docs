@@ -30,7 +30,7 @@ ms.technology: office-development
 
 - An email message that arrives with the word **Test** in the `Subject` field.
 
-## See also
+## Related content
 - [Work with folders](../vsto/working-with-folders.md)
 - [How to: Programmatically retrieve a folder by name](../vsto/how-to-programmatically-retrieve-a-folder-by-name.md)
 - [How to: Programmatically search within a specific folder](../vsto/how-to-programmatically-search-within-a-specific-folder.md)

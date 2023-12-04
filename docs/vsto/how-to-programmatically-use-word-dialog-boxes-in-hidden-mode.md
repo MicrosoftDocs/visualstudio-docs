@@ -39,7 +39,7 @@ ms.technology: office-development
 
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet104":::
 
-## See also
+## Related content
 - [How to: Programmatically use built-in dialog boxes in Word](../vsto/how-to-programmatically-use-built-in-dialog-boxes-in-word.md)
 - [Word object model overview](../vsto/word-object-model-overview.md)
 - [Late binding in Office solutions](../vsto/late-binding-in-office-solutions.md)

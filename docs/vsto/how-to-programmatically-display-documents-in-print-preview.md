@@ -70,7 +70,7 @@ ms.technology: office-development
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet14":::
      ---
 
-## See also
+## Related content
 - [How to: Programmatically print documents](../vsto/how-to-programmatically-print-documents.md)
 - [How to: Programmatically open existing documents](../vsto/how-to-programmatically-open-existing-documents.md)
 - [How to: Programmatically create new documents](../vsto/how-to-programmatically-create-new-documents.md)

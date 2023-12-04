@@ -62,7 +62,7 @@ To connect the data object to the BindingSource:
 
 4. Add the data source as a databinding to the control.
 
-## See also
+## Related content
 
 - [Add new data sources](../data-tools/add-new-data-sources.md)
 - [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)

@@ -36,7 +36,7 @@ ms.technology: office-development
 
  To fix the problem, someone with Full Control access to the document or workbook must change the default permission settings to allow programmatic access to the object model. For more information, see [How to: Permit code to run behind documents with restricted permissions](../vsto/how-to-permit-code-to-run-behind-documents-with-restricted-permissions.md).
 
-## See also
+## Related content
 - [Document protection in document-level solutions](/previous-versions/visualstudio/visual-studio-2017/vsto/document-protection-in-document-level-solutions)
 - [Password protection on Office documents](../vsto/password-protection-on-office-documents.md)
 - [Secure Office solutions](../vsto/securing-office-solutions.md)

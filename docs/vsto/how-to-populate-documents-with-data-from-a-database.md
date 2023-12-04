@@ -62,7 +62,7 @@ When you run the project, the control displays the first record in the data sour
 
 For information about how to send updates to the typed dataset and the database, see [How to: Update a data source with data from a host control](../vsto/how-to-update-a-data-source-with-data-from-a-host-control.md).
 
-## See also
+## Related content
 
 - [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)
 - [Add new data sources](../data-tools/add-new-data-sources.md)

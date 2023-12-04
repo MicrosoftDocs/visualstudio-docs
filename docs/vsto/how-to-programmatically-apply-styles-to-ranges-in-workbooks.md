@@ -87,7 +87,7 @@ ms.technology: office-development
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet56":::
      ---
 
-## See also
+## Related content
 - [Work with ranges](../vsto/working-with-ranges.md)
 - [NamedRange control](../vsto/namedrange-control.md)
 - [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md)
