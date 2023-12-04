@@ -1,6 +1,6 @@
 ---
 title: "Instrumentation"
-description: Learn about the tools you can use to instrument your applications.
+description: Explore the tools you can use to instrument your applications in Visual Studio, including dynamic and static instrumentation.
 ms.date: "11/09/2023"
 ms.topic: "conceptual"
 author: "mikejo5000"

@@ -1,6 +1,6 @@
 ---
 title: Troubleshoot profiling errors
-description: Learn how to resolve possible profiling errors with error message guidance
+description: Troubleshoot profiling errors, including no data in filters, slow results, and source information unavailable, and follow error message guidance to fix issues.
 ms.date: 06/28/2023
 ms.topic: how-to
 author: mikejo5000
