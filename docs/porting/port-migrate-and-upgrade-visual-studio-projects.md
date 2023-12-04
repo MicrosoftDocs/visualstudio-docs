@@ -1,7 +1,7 @@
 ---
 title: Port, migrate, and upgrade projects
 description: Explore a reference about projects created in current and earlier versions of Visual Studio and find information about porting, migrating, and upgrading projects.
-ms.date: 10/24/2022
+ms.date: 12/04/2023
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -43,7 +43,7 @@ We try to preserve backwards compatibility with previous versions, such as Visua
 
 The following list describes support in Visual Studio 2019 for projects that were created in earlier versions.
 
-If you don't see a project or file type listed here that should be, consult the [Visual Studio 2017 version of this article](/previous-versions/visualstudio/visual-studio-2017/porting/port-migrate-and-upgrade-visual-studio-projects?view=vs-2017&preserve-view=true). You can also use the **Send feedback about** > **This page** button at the bottom of this page to provide details of your project. (If you use the anonymous "Is this page helpful?" control, we aren't able to respond to your feedback.)
+If you don't see a project or file type listed here that should be, consult the [Visual Studio 2017 version of this article](/previous-versions/visualstudio/visual-studio-2017/porting/port-migrate-and-upgrade-visual-studio-projects?view=vs-2017&preserve-view=true). You can also use the **Submit and view feedback for** > **This page** button at the bottom of this page to provide details of your project. (If you use the anonymous "Was this page helpful?" control, we aren't able to respond to your feedback.)
 
 | Type of Project | Support |
 | --- | --- |
