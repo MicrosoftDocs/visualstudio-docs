@@ -1,7 +1,7 @@
 ---
 title: Update to MSTestV2
 description: Learn how to update from MSTestV1 to MSTestV2 
-ms.date: 02/26/2021
+ms.date: 12/04/2023
 ms.topic: conceptual
 f1_keywords:
 - vs.UnitTest.Migrate
@@ -20,8 +20,8 @@ You can upgrade your test project by retargeting the MSTest version referenced i
 2. Add NuGet package references to MSTestV2 including the [MSTest.TestFramework](https://www.nuget.org/packages/MSTest.TestFramework) and the [MSTest.TestAdapter](https://www.nuget.org/packages/MSTest.TestAdapter/) packages on nuget.org. You can install packages in the NuGet Package Manager Console with the following commands:
 
     ```console
-    PM> Install-Package MSTest.TestAdapter -Version 2.1.2
-    PM> Install-Package MSTest.TestFramework -Version 2.1.2
+    PM> Install-Package MSTest.TestAdapter -Version 3.1.1
+    PM> Install-Package MSTest.TestFramework -Version 3.1.1
     ```
 
 ### Old style csproj example
@@ -54,8 +54,8 @@ Example:
 ```xml
 <ItemGroup>
   <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.1" />
-  <PackageReference Include="MSTest.TestAdapter" Version="2.1.1" />
-  <PackageReference Include="MSTest.TestFramework" Version="2.1.1" />
+  <PackageReference Include="MSTest.TestAdapter" Version="3.1.1" />
+  <PackageReference Include="MSTest.TestFramework" Version="3.1.1" />
 </ItemGroup>
 ```
 
