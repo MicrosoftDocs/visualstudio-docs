@@ -42,7 +42,7 @@ user intervention. For complex object types, it
 automatically generates factories. You can guide test
 input generation by extending and configuring the
 factories to suit your requirements. Correctness
-properties specified as assertions in code will also be
+properties specified as assertions in code are
 used automatically to further guide test input
 generation.
 
@@ -56,7 +56,7 @@ appears within the Visual Studio IDE. You can easily
 iterate between fixing your code and rerunning
 IntelliTest, without leaving the Visual Studio IDE.
 The tests can be saved into the solution as a Unit
-Test Project, and will be automatically detected
+Test Project, and are automatically detected
 afterwards by Visual Studio Test Explorer.
 
 **Complement existing testing practices**
@@ -78,9 +78,9 @@ If you want to test:
 
 ## The Hello World of IntelliTest
 
-IntelliTest finds inputs relevant to the tested program, which means you can use it to generate the famous **Hello World!** string. This assumes that you have created a C# MSTest-based test project and added a reference to **Microsoft.Pex.Framework**. If you are using a different test framework, create a C# class library and refer to the test framework documentation on how to set up the project.
+IntelliTest finds inputs relevant to the tested program, which means you can use it to generate the famous **Hello World!** string. This assumes that you have created a C# MSTest-based test project and added a reference to **Microsoft.Pex.Framework**. If you're using a different test framework, create a C# class library and refer to the test framework documentation on how to set up the project.
 
-The following example creates two constraints on the parameter named **value** so that IntelliTest will generate the required string:
+The following example creates two constraints on the parameter named **value** so that IntelliTest generates the required string:
 
 ```csharp
 using System;
@@ -190,9 +190,9 @@ This section describes the limitations of IntelliTest:
 
 ### Nondeterminism
 
-IntelliTest assumes that the analyzed program is deterministic. If it is not, IntelliTest will cycle until it reaches an exploration bound.
+IntelliTest assumes that the analyzed program is deterministic. If it isn't, IntelliTest cycles until it reaches an exploration bound.
 
-IntelliTest considers a program to be non-determistic if it relies on inputs that IntelliTest cannot control.
+IntelliTest considers a program to be non-determistic if it relies on inputs that IntelliTest can't control.
 
 IntelliTest controls inputs provided to
 [parameterized unit tests](test-generation.md#parameterized-unit-testing)
@@ -200,10 +200,10 @@ and obtained from the
 [PexChoose](static-helper-classes.md#pexchoose).
 In that sense, results of calls to unmanaged or
 uninstrumented code are also considered as "inputs"
-to the instrumented program, but IntelliTest cannot
+to the instrumented program, but IntelliTest can't
 control them. If the control flow of the program
 depends on specific values coming from these external
-sources, IntelliTest cannot "steer" the program
+sources, IntelliTest can't "steer" the program
 towards previously uncovered areas.
 
 In addition, the
@@ -213,36 +213,36 @@ the program. In such cases IntelliTest loses control
 over the execution of the program and its search
 becomes inefficient.
 
-Sometimes it is not obvious when this happens. Consider the following examples:
+Sometimes it isn't obvious when this happens. Consider the following examples:
 
 * The result of the **GetHashCode()** method is
-  provided by unmanaged code, and is not predictable.
+  provided by unmanaged code, and isn't predictable.
 * The **System.Random** class uses the current system
   time to deliver truly random values.
 * The **System.DateTime** class provides the current
-  time, which is not under the control of
+  time, which isn't under the control of
   IntelliTest.
 
 ### Concurrency
 
-IntelliTest does not handle multithreaded programs.
+IntelliTest doesn't handle multithreaded programs.
 
 ### Native code
 
-IntelliTest does not understand native code, such as
+IntelliTest doesn't understand native code, such as
 x86 instructions called through **P/Invoke**. It does
 not know how to translate such calls into constraints
 that can be passed to the
 [constraint solver](input-generation.md#constraint-solver).
 Even for .NET code, it can only analyze code it
-instruments. IntelliTest cannot instrument certain
+instruments. IntelliTest can't instrument certain
 parts of **mscorlib**, including the reflection
-library. **DynamicMethod** cannot be instrumented.
+library. **DynamicMethod** can't be instrumented.
 
 The suggested workaround is to have a test mode
 where such methods are located in types in a dynamic
 assembly. However, even if some methods are uninstrumented,
-IntelliTest will try to cover as much of the
+IntelliTest tries to cover as much of the
 instrumented code as possible.
 
 ### Platform
@@ -259,7 +259,7 @@ IntelliTest uses an automatic [constraint solver](input-generation.md#constraint
 
 ### Incorrect stack traces
 
-Because IntelliTest catches and "rethrows" exceptions in each instrumented method, the line numbers in stack traces will not be correct. This is a limitation by design of the "rethrow" instruction.
+Because IntelliTest catches and "rethrows" exceptions in each instrumented method, the line numbers in stack traces won't be correct. This is a limitation by design of the "rethrow" instruction.
 
 ## Further reading
 
