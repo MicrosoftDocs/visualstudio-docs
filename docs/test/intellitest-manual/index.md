@@ -1,7 +1,7 @@
 ---
 title: Overview | Microsoft IntelliTest Developer Test Tool
 description: Learn how IntelliTest uses an automated and transparent testing approach, IntelliTest can generate a candidate suite of tests for your .NET code.
-ms.date: 05/02/2017
+ms.date: 12/04/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - IntelliTest, Visual Studio IntelliTest developer testing tool
@@ -24,7 +24,8 @@ will even evolve the test suite automatically as the
 code under test evolves.
 
 > [!NOTE]
-> IntelliTest is available in Enterprise edition only. It is supported for C# code that targets the .NET Framework. .NET Core and .NET Standard are not currently supported.
+> IntelliTest is available in Enterprise edition only. It is supported for C# code that targets the .NET Framework. For .NET 6 support with IntelliTest, install the Preview version of Visual Studio Enterprise and see the [announcement
+](https://devblogs.microsoft.com/visualstudio/intellitest-simplifies-writing-and-maintaining-unit-tests/).
 
 **Characterization tests**
 IntelliTest enables you to determine the behavior of
