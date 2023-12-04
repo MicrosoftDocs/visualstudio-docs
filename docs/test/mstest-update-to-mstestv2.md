@@ -14,7 +14,7 @@ ms.technology: vs-ide-test
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can upgrade your test project by retargeting the MSTest version referenced in your *.csproj* from the MSTestV1 to MSTestV2. Not all features in MSTestV1 were brought forward into MSTestV2, so some changes may be required to resolve errors. See [MSTestV1 features that aren't supported in MSTestV2](#mstestv1-features-that-aren't-supported-in-mstestv2) to understand what features no longer function. Some of these features might need to be removed from your tests.
+You can upgrade your test project by retargeting the MSTest version referenced in your *.csproj* from the MSTestV1 to MSTestV2. Not all features in MSTestV1 were brought forward into MSTestV2, so some changes may be required to resolve errors. See [MSTestV1 features that aren't supported in MSTestV2](#mstestv1-features-that-arent-supported-in-mstestv2) to understand what features no longer function. Some of these features might need to be removed from your tests.
 
 1. Remove the assembly reference to Microsoft.VisualStudio.QualityTools.UnitTestFramework from your unit test project.
 2. Add NuGet package references to MSTestV2 including the [MSTest.TestFramework](https://www.nuget.org/packages/MSTest.TestFramework) and the [MSTest.TestAdapter](https://www.nuget.org/packages/MSTest.TestAdapter/) packages on nuget.org. You can install packages in the NuGet Package Manager Console with the following commands:
