@@ -9,7 +9,7 @@ ms.date: 08/01/2022
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
-# Connect to Azure services, gPRC, OpenAPI, and more
+# Connect to Azure services, gRPC, OpenAPI, and more
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
