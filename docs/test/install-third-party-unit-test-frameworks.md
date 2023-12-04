@@ -1,6 +1,6 @@
 ---
 title: Install third-party unit test frameworks
-description: Visual Studio Test Explorer can run tests from any unit test framework that has developed an adapter interface for it.
+description: Discover Visual Studio Test Explorer, which you can use to run tests from any unit test framework that has developed an adapter interface for it.
 ms.date: 07/09/2020
 ms.topic: how-to
 ms.author: mikejo

@@ -1,6 +1,6 @@
 ---
 title: Identify hot paths with the Flame Graph
-description: Find hot paths in your code with a visualized overview
+description: Find hot paths in your code by using a Flame Graph for a visual overview of where time is spent in an application and view deeper data for specific nodes.
 ms.date: 09/30/2022
 ms.topic: how-to
 author: MikeJo5000

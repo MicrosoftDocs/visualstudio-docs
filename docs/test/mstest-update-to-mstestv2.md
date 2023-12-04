@@ -1,6 +1,6 @@
 ---
 title: Update to MSTestV2
-description: Learn how to update from MSTestV1 to MSTestV2 
+description: Upgrade an MSTestV1 test project to target MSTestV2 in the .csproj file, and review the MSTestV1 features that aren't available in MSTestV2.
 ms.date: 02/26/2021
 ms.topic: conceptual
 f1_keywords:
