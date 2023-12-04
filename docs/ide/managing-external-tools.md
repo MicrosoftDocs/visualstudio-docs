@@ -1,5 +1,5 @@
 ---
-title: Manage external tools
+title: Add and manage external tools on the Tools menu
 description: Add and manage new external tools that you can access through the Tools menu in the Visual Studio integrated development environment (IDE).
 ms.date: 11/20/2017
 ms.topic: conceptual
