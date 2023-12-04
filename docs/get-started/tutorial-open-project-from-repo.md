@@ -55,7 +55,7 @@ Here's how.
 
     Or, you can select the **Switch Views** button, and then select **Program.cs** to view a solution's code.
 
-    :::image type="content" source="/media/vs-2022/tutorial-open-project-from-repo/git-solution-explorer-switch-views.png" alt-text="Screenshot of a project in Git that's open in Solution Explorer, with the Switch Views button highlighted.":::
+    :::image type="content" source="./media/vs-2022/tutorial-open-project-from-repo/git-solution-explorer-switch-views.png" alt-text="Screenshot of a project in Git that's open in Solution Explorer, with the Switch Views button highlighted.":::
 
 > [!TIP]
 > You can change from the default Folder View to Solution View from the **Git** menu. Select **Settings** > **Source Control** > **Git Global Settings** > **Automatically load the solution when opening a Git repository** to do so.
