@@ -1,5 +1,5 @@
 ---
-title: Change themes, fonts, text, and contrast for accessibility
+title: Change themes, fonts, text, & accessibility options in Visual Studio
 description: Learn how to change Visual Studio color themes, font colors, text sizes, extra-contrast colors, and more for ease of use and accessibility concerns.
 titleSuffix: ''
 ms.date: 04/21/2023

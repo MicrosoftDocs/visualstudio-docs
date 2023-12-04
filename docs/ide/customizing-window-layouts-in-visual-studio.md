@@ -1,5 +1,5 @@
 ---
-title: Customize window layouts and personalize document tabs
+title: Customize preferred window layouts & document tabs
 description: Learn how to customize tabs and windows in Visual Studio to create layouts that work best for your development workflows.
 ms.date: 08/30/2023
 ms.topic: conceptual

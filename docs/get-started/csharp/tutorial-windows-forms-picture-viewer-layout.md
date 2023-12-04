@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Create a 'picture viewer' Windows Forms app"
+title: "Tutorial: Create picture viewer Windows Forms app"
 description: Create a C# or VB WinForms project for a picture viewer application in the Visual Studio integrated development environment (IDE).
 author: anandmeg
 ms.author: meghaanand

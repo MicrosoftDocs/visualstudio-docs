@@ -1,5 +1,5 @@
 ---
-title: Find and install extensions
+title: Find and install preferred extensions
 description: Learn about extensions in Visual Studio and how to manage them so you have the controls, samples, templates, tools, and other components you need.
 ms.date: 06/19/2023
 ms.topic: conceptual
