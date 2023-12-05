@@ -43,7 +43,7 @@ Update to the latest stable test adapter to experience better test discovery and
 
 2. Click on the **Updates** tab and search for MSTest, NUnit, or xUnit test adapters that are installed.
 
-3. Select each test adapter, and then select the latest stable version to update.
+3. Select each test adapter, and then select the button to update to a new version.
 
    ::: moniker range=">=vs-2022"
    ![Upgrade Test Adapter](media/vs-2022/install-adapter-upgrade.png)
