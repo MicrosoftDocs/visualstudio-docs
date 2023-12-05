@@ -1,5 +1,5 @@
 ---
-title: Repair Visual Studio
+title: Repair or update your installation of Visual Studio
 titleSuffix: ''
 description: Repair or update your Visual Studio installation with the Visual Studio Installer, resolve issues with available fixes, and reacquire necessary files.
 ms.date: 5/16/2023

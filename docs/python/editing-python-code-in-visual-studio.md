@@ -1,5 +1,5 @@
 ---
-title: Edit Python code
+title: Edit Python code and use Intellisense
 description: For Python, Visual Studio provides rich IntelliSense, code snippets, and navigation features, alongside formatting, linting, and refactoring.
 ms.date: 09/01/2023
 ms.topic: conceptual

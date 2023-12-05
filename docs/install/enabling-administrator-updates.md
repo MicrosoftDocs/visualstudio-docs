@@ -1,5 +1,5 @@
 ---
-title: Enabling administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager
+title: Enable admin updates to Visual Studio with Endpoint Configuration
 titleSuffix: ''
 description: Explore how to enable distribution of administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager.
 ms.date: 9/27/2023

@@ -1,5 +1,5 @@
 ---
-title: 64-bit support
+title: Set up apps to target 64-bit support
 description: Set up your applications in the Visual Studio integrated development environment (IDE) to target different platforms, including 64-bit platforms.
 ms.date: 07/19/2021
 ms.topic: conceptual

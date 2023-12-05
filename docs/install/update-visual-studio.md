@@ -1,5 +1,5 @@
 ---
-title: Update Visual Studio
+title: Update Visual Studio installation to recent release
 titleSuffix: ''
 description: Update your Visual Studio installation to the most recent release to access the latest feature changes and fixes for known issues. 
 ms.date: 8/29/2023
