@@ -109,11 +109,11 @@
           href: install/workload-component-id-vs-test-controller.md        
   - name: Devices, VMs, and Containers
     items:
-    - name: Use on an Azure virtual machine
+    - name: Use on Azure virtual machines
       href: install/using-visual-studio-vm.md
-    - name: Use Arm64 Visual Studio
+    - name: Use on Arm-powered devices
       href: install/visual-studio-on-arm-devices.md
-    - name: Visual Studio Build Tools in Windows containers
+    - name: Install build tools into containers
       items:  
       - name: Install Build Tools into a container
         href: install/build-tools-container.md
