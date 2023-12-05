@@ -18,7 +18,7 @@ You can install Visual Studio Build Tools into a Windows container to support co
 
 [Containers](https://www.docker.com/what-container) are a great way to package a consistent build system you can use not only in a CI/CD server environment but for development environments as well. For example, you can mount your source code into a container to be built by a customized environment while you continue to use Visual Studio or other tools to write your code. If your CI/CD workflow uses the same container image, you can rest assured that your code builds consistently. You can use containers for runtime consistency as well, which is common for micro-services using multiple containers with an orchestration system; however, is beyond the scope of this article.
 
-If Visual Studio Build Tools does not have what you require to build your source code, these same steps can be used for other Visual Studio products. Do note, however, that Windows containers do not support an interactive user interface so all commands must be automated.
+If Visual Studio Build Tools does not have what you require to build your source code, these same steps can be used for other Visual Studio products. Do note, however, that Windows containers don't support an interactive user interface so all commands must be automated.
 
 ## Before you begin
 
@@ -89,7 +89,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    >
 
    > [!WARNING]
-   > If you base your image directly on microsoft/windowsservercore, the .NET Framework might not install properly and no install error is indicated. Managed code might not run after the install is complete. Instead, base your image on [microsoft/dotnet-framework:4.8](https://hub.docker.com/r/microsoft/dotnet-framework) or later. Also note that images that are tagged version 4.8 or later might use PowerShell as the default `SHELL`, which will cause the `RUN` and `ENTRYPOINT` instructions to fail.
+   > If you base your image directly on microsoft/windowsservercore, the .NET Framework might not install properly and no install error is indicated. Managed code might not run after the install is complete. Instead, base your image on microsoft/dotnet-framework:4.8] or later. Also note that images that are tagged version 4.8 or later might use PowerShell as the default `SHELL`, which will cause the `RUN` and `ENTRYPOINT` instructions to fail.
    >
    > See [Windows container version compatibility](/virtualization/windowscontainers/deploy-containers/version-compatibility) to see which container OS versions are supported on which host OS versions, and [Known issues for containers](build-tools-container-issues.md) for known issues.
 
@@ -133,7 +133,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    >
 
    > [!WARNING]
-   > If you base your image directly on microsoft/windowsservercore, the .NET Framework might not install properly and no install error is indicated. Managed code might not run after the install is complete. Instead, base your image on [microsoft/dotnet-framework:4.8](https://hub.docker.com/r/microsoft/dotnet-framework) or later. Also note that images that are tagged version 4.8 or later might use PowerShell as the default `SHELL`, which will cause the `RUN` and `ENTRYPOINT` instructions to fail.
+   > If you base your image directly on microsoft/windowsservercore, the .NET Framework might not install properly and no install error is indicated. Managed code might not run after the install is complete. Instead, base your image on microsoft/dotnet-framework:4.8 or later. Also note that images that are tagged version 4.8 or later might use PowerShell as the default `SHELL`, which will cause the `RUN` and `ENTRYPOINT` instructions to fail.
    >
    > See [Windows container version compatibility](/virtualization/windowscontainers/deploy-containers/version-compatibility) to see which container OS versions are supported on which host OS versions, and [Known issues for containers](build-tools-container-issues.md) for known issues.
 
@@ -149,9 +149,9 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    docker build -t buildtools2019:latest -m 2GB .
    ```
 
-   This command builds the Dockerfile in the current directory using 2 GB of memory. The default 1 GB is not sufficient when some workloads are installed; however, you might be able to build with only 1 GB of memory depending on your build requirements.
+   This command builds the Dockerfile in the current directory using 2 GB of memory. The default 1 GB isn't sufficient when some workloads are installed; however, you might be able to build with only 1 GB of memory depending on your build requirements.
 
-   The final image is tagged "buildtools2019:latest" so you can easily run it in a container as "buildtools2019" since the "latest" tag is the default if no tag is specified. If you want to use a specific version of Visual Studio Build Tools 2019 in a more [advanced scenario](advanced-build-tools-container.md), you might instead tag the container with a specific Visual Studio build number as well as "latest" so containers can use a specific version consistently.
+   The final image is tagged `buildtools2019:latest` so you can easily run it in a container as `buildtools2019` since the "latest" tag is the default if no tag is specified. If you want to use a specific version of Visual Studio Build Tools 2019 in a more [advanced scenario](advanced-build-tools-container.md), you might instead tag the container with a specific Visual Studio build number as well as "latest" so containers can use a specific version consistently.
 
    ::: moniker-end
 
@@ -213,7 +213,7 @@ The following known issues occur when you install Visual Studio Build Tools into
 * Pass `-m 2GB` (or more) when building the image. Some workloads require more memory than the default 1 GB when installed.
 * Configure Docker to use disks larger than the default 20 GB.
 * Pass `--norestart` on the command line. As of this writing, attempting to restart a Windows container from within the container returns `ERROR_TOO_MANY_OPEN_FILES` to the host.
-* If you base your image directly on mcr.microsoft.com/windows/servercore, the .NET Framework might not install properly and no install error is indicated. Managed code might not run after the install is complete. Instead, base your image on [microsoft/dotnet-framework:4.7.1](https://hub.docker.com/r/microsoft/dotnet-framework) or later. As an example, you might see an error when building with MSBuild that's similar to the following:
+* If you base your image directly on mcr.microsoft.com/windows/servercore, the .NET Framework might not install properly and no install error is indicated. Managed code might not run after the install is complete. Instead, base your image on microsoft/dotnet-framework:4.7.1 or later. As an example, you might see an error when building with MSBuild that's similar to the following:
 
   > C:\BuildTools\MSBuild\15.0\bin\Roslyn\Microsoft.CSharp.Core.targets(84,5): error MSB6003: The specified task executable "csc.exe" could not be run. Could not load file or assembly 'System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The system cannot find the file specified.
 
