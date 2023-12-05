@@ -5,7 +5,7 @@ summary: Profiling and diagnostics tools help you diagnose memory and CPU usage 
 
 metadata:
   title: Measure performance in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: Learn how to use Visual Studio to measure performance using profiling tools.
+  description: Explore documentation to help you use profiling tools in Visual Studio to measure performance, including overviews, getting started tutorials, and how-to guides.
   ms.topic: landing-page
   ms.technology: vs-ide-debug
   author: mikejo5000
