@@ -351,7 +351,7 @@ The following people contributed to Visual Studio content last month. Thank you!
 
 ### Community contributors
 
-The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
+The following people contributed to Visual Studio content last month. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
 
 - [BBreiden](https://github.com/BBreiden) -  ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 - [chausner](https://github.com/chausner) -  ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
