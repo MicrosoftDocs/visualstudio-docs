@@ -1,5 +1,5 @@
 ---
-title: Refactor Python code
+title: Explore ways to refactor Python code
 description: Visual Studio makes it easy to refactor Python code by renaming identifiers, extracting methods, adding imports, and removing unused imports.
 ms.date: 08/26/2022
 ms.topic: how-to
