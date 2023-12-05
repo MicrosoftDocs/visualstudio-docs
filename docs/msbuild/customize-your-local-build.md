@@ -20,7 +20,7 @@ When you work in a team that used a code repository like GitHub, source control,
 
 Using `$(MSBuildProjectFullPath).user`, also referred as `.user` file in this context, is also an option. This file is intended to keep extensions, options, or variables that are specific to your local machine. It is not intended to be uploaded to source control, and it is automatically checked on `.gitignore`. For more extensive changes prefer changing the project itself, so that future maintainers do not have to know about this extension mechanism.
 
-The `.user` file is automatically imported on SDK type builds, but if you have another type of project you can also manually import it with
+On supported multitargeted projects the `.user` file is automatically imported in inner builds and outer builds, you can just create the file within the solution and it will import it. If you are not working on another type of build, you can still use the `.user` file, you just have to import it within you project.
 ```xml
 <Import Project="$(MSBuildProjectFullPath).user" Condition="Exists('$(MSBuildProjectFullPath).user')"/>
 ```
