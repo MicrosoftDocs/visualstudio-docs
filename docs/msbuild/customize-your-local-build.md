@@ -18,7 +18,12 @@ When you work in a team that used a code repository like GitHub, source control,
 
 ## .user file
 
-*Microsoft.Common.CurrentVersion.targets* imports `$(MSBuildProjectFullPath).user` if it exists, so you can create a file next to your project with that additional extension. For long-term changes you plan to check into source control, prefer changing the project itself, so that future maintainers do not have to know about this extension mechanism.
+Using `$(MSBuildProjectFullPath).user`, also referred as `.user` file in this context, is also an option. This file is intended to keep extensions, options, or variables that are specific to your local machine. It is not intended to be uploaded to source control, and it is automatically checked on `.gitignore`. For more extensive changes prefer changing the project itself, so that future maintainers do not have to know about this extension mechanism.
+
+The `.user` file is automatically imported on SDK type builds, but if you have another type of project you can also manually import it with
+```xml
+<Import Project="$(MSBuildProjectFullPath).user" Condition="Exists('$(MSBuildProjectFullPath).user')"/>
+```
 
 ## MSBuildExtensionsPath and MSBuildUserExtensionsPath
 
