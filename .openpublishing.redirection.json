@@ -616,11 +616,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/install/build-tools-container-issues.md",
-      "redirect_url": "/visualstudio/install/build-tools-container",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "docs/sharepoint/sharepoint-development-samples-and-walkthroughs.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/sharepoint-development-samples-and-walkthroughs",
       "redirect_document_id": false
@@ -1859,6 +1854,11 @@
       "monikers": [
         "vs-2019"
     ]
+    },
+    {
+      "source_path": "docs/install/build-tools-container-issues.md",
+      "redirect_url": "/visualstudio/install/build-tools-container",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/msbuild/troubleshooting-dotnet-framework-targeting-errors.md",
