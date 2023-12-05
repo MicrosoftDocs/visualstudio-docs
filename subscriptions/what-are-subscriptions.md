@@ -23,7 +23,7 @@ In addition to the Visual Studio IDE, subscriptions can include benefits in thes
 > [!IMPORTANT]
 > Benefits included in any subscription depend on the type of subscription.  **Not all benefits are included in all subscriptions.**  Be sure to visit the [Buy Visual Studio page](https://visualstudio.microsoft.com/vs/pricing/?tab=individual) and choose the tab that best describes your situation (individual, business, or enterprise) to explore available subscription options.  
 
-### Tools & Services
+### Tools & services
 The tools and services that might be included in a subscription include:
 + Azure credits.  Up to $150 in Azure credits per month are included, depending on the subscription
 + Azure DevOps.  Receive either the basic plan, or basic + test plans.  
@@ -31,7 +31,7 @@ The tools and services that might be included in a subscription include:
 + Microsoft 365 Developer Account
 + Microsoft 365 apps for enterprise
 
-### Professional Development 
+### Professional development 
 Build your development skill set with training and content from providers like:
 + LinkedIn Learning
 + Pluralsight
