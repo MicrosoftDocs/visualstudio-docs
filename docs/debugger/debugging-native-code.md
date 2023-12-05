@@ -1,5 +1,5 @@
 ---
-title: "Debugging Native Code"
+title: Debug native code and check for optimizations
 description: Explore common debugging problems and high-level techniques for native applications in Visual Studio, including optimizations, assertions, and assembly code.
 ms.date: "02/07/2023"
 ms.topic: "conceptual"

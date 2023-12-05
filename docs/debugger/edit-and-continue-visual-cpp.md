@@ -1,5 +1,5 @@
 ---
-title: "Edit and Continue (C++)"
+title: Edit and Continue in your C++ projects
 description: Edit and Continue is available for C++ projects. Learn what edits are supported, and how to can control whether, and when, your edits are applied.
 ms.date: "05/31/2018"
 ms.topic: "conceptual"

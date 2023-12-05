@@ -1,5 +1,5 @@
 ---
-title: Inspect an exception
+title: Inspect an exception in Visual Studio
 titleSuffix: ""
 description: Learn about the information that Visual Studio provides to help you debug exceptions, and how to selectively disable breaking on exceptions.
 ms.date: 2/2/2023
