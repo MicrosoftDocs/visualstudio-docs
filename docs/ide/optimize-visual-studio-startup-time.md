@@ -1,5 +1,5 @@
 ---
-title: Improve start up time
+title: Improve start up time, control extension settings
 description: Learn how to control the settings of extensions and tool windows in the Performance Manager dialog box to improve Visual Studio start-up time.
 ms.date: 04/24/2023
 ms.topic: how-to

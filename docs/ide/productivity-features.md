@@ -1,5 +1,5 @@
 ---
-title: Productivity guide
+title: Explore keyboard shortcuts and productivity features
 description: Learn about the keyboard shortcuts and productivity features in Visual Studio that can help you efficiently write code, debug code, and handle errors.
 ms.date: 08/08/2023
 ms.topic: conceptual

@@ -1,5 +1,5 @@
 ---
-title: Refactoring
+title: Refactoring for different programming languages
 description: Review popular refactoring scenarios in Visual Studio, including operations available for different programming languages with examples.
 ms.date: 01/10/2018
 ms.topic: conceptual

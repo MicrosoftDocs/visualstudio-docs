@@ -1,5 +1,5 @@
 ---
-title: JavaScript IntelliSense
+title: Explore JavaScript IntelliSense
 description: Learn how Visual Studio delivers richer IntelliSense, support for modern JavaScript features, and improved productivity features.
 ms.date: 02/21/2023
 ms.topic: conceptual
