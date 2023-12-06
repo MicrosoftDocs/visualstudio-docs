@@ -1,5 +1,5 @@
 ---
-title: Troubleshoot rendering with Graphics Diagnostics
+title: Explore Graphics Diagnostics tools for rendering issues
 description: Visual Studio Graphics Diagnostics is a set of tools for logging and analyzing Direct3D activity. Use them to troubleshoot rendering and performance problems.
 ms.date: "04/19/2023"
 ms.topic: "conceptual"

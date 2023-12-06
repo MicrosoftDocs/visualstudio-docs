@@ -1,5 +1,5 @@
 ---
-title: Manage Node.js and ASP.NET Core packages with npm
+title: Manage npm packages for Node.js and ASP.NET Core projects
 description: Manage packages in Visual Studio by using the Node.js package manager (npm) for both Node.js and ASP.NET Core applications.
 ms.date: "11/03/2023"
 ms.topic: "how-to"

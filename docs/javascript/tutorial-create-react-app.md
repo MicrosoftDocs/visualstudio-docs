@@ -1,5 +1,5 @@
 ---
-title: Create a React app from a Visual Studio template
+title: Create a React app in Visual Studio
 description: Create, build, and run a simple React front-end web application project from a Visual Studio template, and set basic properties for the project.
 ms.date: 08/24/2023
 ms.custom: vs-acquisition
