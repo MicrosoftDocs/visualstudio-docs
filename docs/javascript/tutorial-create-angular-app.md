@@ -1,5 +1,5 @@
 ---
-title: "Create an Angular app"
+title: Create an Angular app from a Visual Studio template
 description: Create, build, and run a simple Angular front-end web application project from a Visual Studio template, and set basic properties for the project.
 ms.date: 05/26/2023
 ms.custom: vs-acquisition
