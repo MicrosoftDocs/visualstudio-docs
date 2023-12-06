@@ -11,7 +11,7 @@ metadata:
   author: mikejo5000
   ms.author: mikejo
   manager: jmartens
-  ms.date: 08/19/2021
+  ms.date: 12/05/2023
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -82,14 +82,4 @@ landingContent:
             url: /azure/load-testing/
           - text: Continuous testing (Azure Pipelines)
             url: /azure/devops/pipelines/?view=azure-devops&preserve-view=true
-
-  # Card (optional)
-  - title: More testing tools
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-          - text: Coded UI (deprecated)
-            url: use-ui-automation-to-test-your-code.md
-          - text: Load testing (deprecated)
-            url: quickstart-create-a-load-test-project.md
 
