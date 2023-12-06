@@ -1,5 +1,5 @@
 ---
-title: Debug multiple processes, step through, and break
+title: Debug multi-process applications
 description: Debug multiple processes in Visual Studio. Start and switch between processes, break, continue, step through source, and end or detach from individual processes.
 ms.date: 11/20/2018
 ms.topic: how-to
