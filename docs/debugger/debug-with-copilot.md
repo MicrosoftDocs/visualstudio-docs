@@ -43,7 +43,7 @@ Copilot provides detailed information in the CPU Usage auto insights. It provide
 
 When the CPU Usage tool provides auto insights in the Top Insights section, select **Ask Copilot** to learn from Copilot and start asking questions.
 
-![Animation of using Copilot with CPU Usage.](../debugger/media/vs-2022/debug-with-copilot-top-insights.gif "Using Copilot with CPU Usage.")
+[ ![Animation of using Copilot with CPU Usage.](../debugger/media/vs-2022/debug-with-copilot-top-insights.gif)) ](../debugger/media/vs-2022/debug-with-copilot-top-insights.gif#lightbox)
 
 ## AI-assisted exceptions
 
