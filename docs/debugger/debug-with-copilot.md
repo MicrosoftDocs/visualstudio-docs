@@ -1,7 +1,7 @@
 ---
 title: Debug with GitHub Copilot
 description: Use Copilot to help debug your apps and provide performance insights.
-ms.date: 09/14/2023
+ms.date: 12/06/2023
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -53,7 +53,7 @@ When you see an exception, select the **Ask Copilot** link to get AI-generated a
 
 [![Screenshot of Ask Copilot option in Exception Helper.](../debugger/media/vs-2022/debug-with-copilot-exception-helper.png "Ask Copilot option in Exception Helper.")](../debugger/media/vs-2022/debug-with-copilot-exception-helper.png#lightbox)
 
-If you have more questions, just ask Copilot!
+When you select **Ask Copilot**, the Copilot Chat window opens in the right pane. If you have more questions, just ask Copilot!
 
 [![Screenshot of Chat window after choosing Ask Copilot.](../debugger/media/vs-2022/debug-with-copilot-exception-chat.png "Ask Copilot option in Exception Helper.")](../debugger/media/vs-2022/debug-with-copilot-exception-helper.png#lightbox)
 
