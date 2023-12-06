@@ -38,6 +38,6 @@ To use Workflow project templates in Visual Studio, first install the **Windows 
 
    Visual Studio installs the **Windows Workflow Foundation** component.
 
-## See also
+## Related content
 
 - [Windows Workflow Foundation (.NET Framework)](/dotnet/framework/windows-workflow-foundation/index)

@@ -68,6 +68,6 @@ Whenever you create a new resource from an existing property, [Style](xref:Windo
 
 3. Modify options for the resource.
 
-## See also
+## Related content
 
 - [Creating a UI by using XAML Designer](../xaml-tools/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)

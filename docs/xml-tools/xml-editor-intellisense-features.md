@@ -120,7 +120,7 @@ The **Auto Insert** section of the **Miscellaneous** page controls the following
 
 3. Make any changes to the **Auto insert** section and click **OK**.
 
-## See also
+## Related content
 
 - [XML editor](../xml-tools/xml-editor.md)
 - [Using IntelliSense](../ide/using-intellisense.md)

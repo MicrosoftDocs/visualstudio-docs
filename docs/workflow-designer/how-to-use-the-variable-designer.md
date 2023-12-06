@@ -31,7 +31,7 @@ The variable designer is used to create variables for use in data-binding scenar
     > [!NOTE]
     > To delete a variable, select the variable by clicking it and then press the **Delete** key.
 
-## See also
+## Related content
 
 - [Using the Workflow Designer](developing-applications-with-the-workflow-designer.md)
 - [Variables and Arguments](/dotnet/framework/windows-workflow-foundation/variables-and-arguments)

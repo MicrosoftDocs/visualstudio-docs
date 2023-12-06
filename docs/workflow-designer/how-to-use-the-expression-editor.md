@@ -48,6 +48,6 @@ The **Expression Editor** behaves as follows:
 
      An alternative way to enter or edit an expression is to click the ellipsis next to the property name in the property grid. Selecting the ellipsis opens the **Expression Editor** as a dialog box.
 
-## See also
+## Related content
 
 - <xref:System.Activities.Presentation.View.ExpressionTextBox>

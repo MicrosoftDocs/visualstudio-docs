@@ -98,7 +98,7 @@ Scale objects much like you would with a zoom control. You can add only one obje
 
 ![ViewBox layout control](../designers/media/f5b13c66-d918-4141-8a16-bd8f8628687a.png)
 
-## See also
+## Related content
 
 - [Work with elements in XAML Designer](../xaml-tools/working-with-elements-in-xaml-designer.md)
 - [Create a UI by using XAML Designer](../xaml-tools/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)
