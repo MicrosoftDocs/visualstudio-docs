@@ -44,7 +44,7 @@
     href: install/uninstall-visual-studio.md
   - name: Release dates & build numbers
     href: /visualstudio/releases/2022/release-history?toc=%2Fvisualstudio%2Ftoc.json#release-dates-and-build-numbers
-  - name: Visual Studio administrator guide
+  - name: Administrator guide
     items:
     - name: Overview
       href: install/visual-studio-administrator-guide.md
@@ -107,18 +107,18 @@
           href: install/workload-component-id-vs-test-agent.md
         - name: Visual Studio Test Controller
           href: install/workload-component-id-vs-test-controller.md        
-  - name: Devices, VMs, and Containers
+  - name: Use on Devices, VMs, and Containers
     items:
-    - name: Use Visual Studio from an Azure virtual machine
+    - name: Use on Azure virtual machines
       href: install/using-visual-studio-vm.md
-    - name: Use Visual Studio on an ARM device
+    - name: Use on Arm-powered devices
       href: install/visual-studio-on-arm-devices.md
-    - name: Install Build Tools into a Container
-      href: install/build-tools-container.md
-    - name: Advanced Example for Containers
-      href: install/advanced-build-tools-container.md
-    - name: Known Issues for Containers
-      href: install/build-tools-container-issues.md
+    - name: Install Build Tools into containers
+      items:  
+      - name: Install into Docker containers
+        href: install/build-tools-container.md
+      - name: Advanced container example
+        href: install/advanced-build-tools-container.md
 - name: Tutorials
   items:
   - name: C++ >>

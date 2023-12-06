@@ -1,6 +1,6 @@
 ---
 title: "Run profiling tools with or without the debugger"
-description: "Learn about differences between the different modes available for profiling tools"
+description: Explore the differences between running profiling tools for your applications in Visual Studio with or without the debugger.
 ms.date: "11/09/2023"
 ms.topic: "conceptual"
 author: "mikejo5000"

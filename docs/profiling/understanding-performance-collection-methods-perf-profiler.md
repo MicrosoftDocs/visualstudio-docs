@@ -1,6 +1,6 @@
 ---
 title: Understand profiler performance collection methods
-description: Learn about the data collection methods that tools within the Visual Studio Performance Profiler utilize.
+description: Explore data collection methods that tools within the Visual Studio Performance Profiler utilize, including sampling, tracing, and instrumentation.
 ms.date: "4/30/2020"
 ms.topic: "conceptual"
 f1_keywords:
