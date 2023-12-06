@@ -1856,6 +1856,11 @@
     ]
     },
     {
+      "source_path": "docs/install/build-tools-container-issues.md",
+      "redirect_url": "/visualstudio/install/build-tools-container#troubleshooting-windows-and-build-tools-containers",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/msbuild/troubleshooting-dotnet-framework-targeting-errors.md",
       "redirect_url": "/troubleshoot/developer/visualstudio/project-build/troubleshooting-dotnet-framework-targeting-errors",
       "redirect_document_id": false
