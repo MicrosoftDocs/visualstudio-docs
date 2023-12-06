@@ -2,7 +2,7 @@
 title: Install Visual Studio Build Tools into a container
 titleSuffix: ''
 description: Learn how to install Visual Studio Build Tools into a Windows container to support continuous integration and continuous delivery (CI/CD) workflows.
-ms.date: 11/30/2023
+ms.date: 12/05/2023
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
@@ -91,7 +91,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    > [!WARNING]
    > If you base your image directly on microsoft/windowsservercore, the .NET Framework might not install properly and no install error is indicated. Managed code might not run after the install is complete. Instead, base your image on microsoft/dotnet-framework:4.8] or later. Also note that images that are tagged version 4.8 or later might use PowerShell as the default `SHELL`, which will cause the `RUN` and `ENTRYPOINT` instructions to fail.
    >
-   > See [Windows container version compatibility](/virtualization/windowscontainers/deploy-containers/version-compatibility) to see which container OS versions are supported on which host OS versions, and [Known issues for containers](build-tools-container-issues.md) for known issues.
+   > See [Windows container version compatibility](/virtualization/windowscontainers/deploy-containers/version-compatibility) to see which container OS versions are supported on which host OS versions, and [Troubleshooting Windows and Build Tools containers](#troubleshooting-windows-and-build-tools-containers) for known issues.
 
    ::: moniker-end
    
@@ -135,7 +135,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    > [!WARNING]
    > If you base your image directly on microsoft/windowsservercore, the .NET Framework might not install properly and no install error is indicated. Managed code might not run after the install is complete. Instead, base your image on microsoft/dotnet-framework:4.8 or later. Also note that images that are tagged version 4.8 or later might use PowerShell as the default `SHELL`, which will cause the `RUN` and `ENTRYPOINT` instructions to fail.
    >
-   > See [Windows container version compatibility](/virtualization/windowscontainers/deploy-containers/version-compatibility) to see which container OS versions are supported on which host OS versions, and [Known issues for containers](build-tools-container-issues.md) for known issues.
+   > See [Windows container version compatibility](/virtualization/windowscontainers/deploy-containers/version-compatibility) to see which container OS versions are supported on which host OS versions, and [Troubleshooting Windows and Build Tools containers](#troubleshooting-windows-and-build-tools-containers) for known issues.
 
    ::: moniker-end
    > [!NOTE]
@@ -200,7 +200,7 @@ To use this image for your CI/CD workflow, you can publish it to your own [Azure
    >
    > After you identify and fix the installation issue, you can add the `C:\\BuildTools\\Common7\\Tools\\VsDevCmd.bat` and `&&` parameters back to the `ENTRYPOINT` command and rebuild your Dockerfile.
    >
-   > For more information, see [Known issues for containers](build-tools-container-issues.md).
+   > For more information, see [Troubleshooting Windows and Build Tools containers](#troubleshooting-windows-and-build-tools-containers).
 
 ## Troubleshooting Windows and Build Tools containers
 
