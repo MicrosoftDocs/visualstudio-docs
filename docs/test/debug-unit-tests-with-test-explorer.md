@@ -1,6 +1,6 @@
 ---
 title: Debug unit tests with Test Explorer
-description: Learn how to debug unit tests with Test Explorer in Visual Studio.
+description: Debug and analyze unit tests with Test Explorer in Visual Studio by setting breakpoints to diagnose test method performance issues.
 ms.date: 03/24/2023
 ms.topic: how-to
 author: mikejo5000

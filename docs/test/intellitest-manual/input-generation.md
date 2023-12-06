@@ -94,7 +94,7 @@ determine new test inputs, including objects and
 their field values, such that the test and the
 program under test will behave in other interesting ways.
 
-This means that IntelliTest must to create objects of
+This means that IntelliTest must create objects of
 certain types and set their field values. If the
 class is [visible](#visibility) and has a
 [visible](#visibility) default constructor,

@@ -320,7 +320,7 @@ However, this code does not set a default name for the new item. It does not run
 
 Therefore we recommend that you use <xref:Microsoft.VisualStudio.Modeling.ElementOperations> to create new elements. For more information, see [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md).
 
-## See also
+## Related content
 
 - [How to define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
 - [Write code to customize a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)

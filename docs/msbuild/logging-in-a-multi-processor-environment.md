@@ -68,7 +68,7 @@ Culture=neutral
 
 An asterisk (*) separates the two logger names in the `-dl` switch.
 
-## See also
+## Related content
 
 - [Build loggers](../msbuild/build-loggers.md)
 - [Create forwarding loggers](../msbuild/creating-forwarding-loggers.md)

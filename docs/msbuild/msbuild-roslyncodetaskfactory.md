@@ -303,7 +303,7 @@ These inline tasks can combine paths and get the file name.
 </Project>
 ```
 
-## See also
+## Related content
 
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Walkthrough: Create an inline task](../msbuild/walkthrough-creating-an-inline-task.md)

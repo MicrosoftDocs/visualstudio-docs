@@ -62,7 +62,7 @@ ms.technology: sharepoint-development
     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb" id="Snippet2":::
     ---
 
-## See also
+## Related content
 - [BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md)
 - [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)
 - [How to: Add a specific Finder method](../sharepoint/how-to-add-a-specific-finder-method.md)

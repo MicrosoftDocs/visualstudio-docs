@@ -138,7 +138,7 @@ Learn more about [debugging in Visual Studio with the Debugger tool](../debugger
 
  Now you're done with your investigation. You successfully found and fixed the problem by mapping the code. You also have a map that helps you navigate around the code, remember what you learned, and shows the steps you took to fix the problem.
 
-## See also
+## Related content
 
 - [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md)
 - [Visualize code](../modeling/visualize-code.md)

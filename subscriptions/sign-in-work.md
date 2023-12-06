@@ -1,5 +1,5 @@
 ---
-title: Sign in to Visual Studio Subscriptions with work or school accounts
+title: Sign in with work or school account
 author: evanwindom
 ms.author: amast
 manager: shve

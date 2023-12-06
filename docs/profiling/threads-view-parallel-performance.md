@@ -1,6 +1,6 @@
 ---
 title: "Threads view in the Concurrency Visualizer"
-description: "Learn that in the Threads view, you can identify which threads are executing code during an execution segment."
+description: Explore the Threads view in the Concurrency Visualizer, where you can identify which threads are executing code during an execution segment.
 ms.date: "05/06/2022"
 ms.topic: "conceptual"
 f1_keywords:
@@ -302,6 +302,6 @@ The zoom control is a slider that helps you to zoom in and out on the timeline s
 ### Zoom in and out by using the mouse wheel
  Click on any point on the timeline (to ensure it has mouse focus), and then press **Ctrl** and move the mouse wheel (forward zooms in; backward zooms out).
 
-## See also
+## Related content
 
 - [Concurrency Visualizer](../profiling/concurrency-visualizer.md)

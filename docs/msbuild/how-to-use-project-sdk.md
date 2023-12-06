@@ -120,7 +120,7 @@ The NuGet-based SDK resolver supports specifying a version in the [global.json](
 
 Only one version of each project SDK can be used during a build. If you reference two different versions of the same project SDK, MSBuild emits a warning. It is recommended to **not** specify a version in your projects if a version is specified in the *global.json* file.
 
-## See also
+## Related content
 
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)
 - [Customize your build](../msbuild/customize-your-build.md)

@@ -1,7 +1,7 @@
 ---
 title: About the GitHub Copilot Chat extension for Visual Studio
 description: Learn about the fully integrated AI-powered GitHub Copilot Chat extension in Visual Studio, and how you can use the chat interface to ask and receive answers to coding-related questions from right within the IDE.
-ms.date: 09/28/2023
+ms.date: 12/05/2023
 ms.topic: overview 
 author: anandmeg
 ms.author: meghaanand
@@ -89,6 +89,8 @@ The interactive code assistant view of Copilot Chat in Visual Studio enables you
 1. You'll see code suggestions from Copilot Chat in Visual Studio diff view. You can review and refine what is being proposed and apply to your code by selecting **Accept** or discard by selecting **Cancel**.
     
     :::image type="content" source="media/vs-2022/copilot-chat-inline-diff-view.png" alt-text="Screenshot of code suggestions in Visual Studio diff view.":::
+
+1. You can close the interactive code assistant view by pressing **Esc**.
 
 ## Next steps
 

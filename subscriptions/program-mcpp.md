@@ -1,5 +1,5 @@
 ---
-title: Visual Studio subscriptions offered in the Microsoft Cloud Partner Program
+title: Subscriptions offered in Cloud Partner Program
 author: evanwindom
 ms.author: amast
 manager: shve

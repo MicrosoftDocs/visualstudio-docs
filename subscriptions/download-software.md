@@ -1,5 +1,5 @@
 ---
-title: Downloading software titles in Visual Studio subscriptions
+title: Download software titles in subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve

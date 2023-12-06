@@ -67,7 +67,7 @@ ms.technology: sharepoint-development
 
  You can explicitly change which master page is used by the application page by setting the `MasterPageFile` attribute of the application `Page` element. (For example: `MasterPageFile="~/_layouts/applicationv4.master"`). In fact, you must set this attribute if dynamic master pages are not enabled on the SharePoint server. For more information about master pages in SharePoint, see [Master Pages](/previous-versions/office/developer/sharepoint-2010/ms443795(v=office.14)).
 
-## See also
+## Related content
 - [SharePoint Foundation Development in Depth](/previous-versions/office/developer/sharepoint-2010/ee539092(v=office.14))
 - [ASP.NET overview](/aspnet/overview)
 - [ASP.NET Web Pages](/aspnet/web-pages/index)

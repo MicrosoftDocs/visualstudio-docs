@@ -213,7 +213,7 @@ In this example, this is an SDK-style project. As mentioned in the note about SD
 
 The order of elements is important. The `BuildDependsOn` and `CleanDependsOn` elements must appear after importing the standard SDK targets file.
 
-## See also
+## Related content
 
 - [Visual Studio integration](../msbuild/visual-studio-integration-msbuild.md)
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)

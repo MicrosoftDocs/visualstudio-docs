@@ -41,7 +41,7 @@ Code map analyzers will continue to run after you apply them. If you change the 
 > [!TIP]
 > If you have a very large map, running an analyzer might cause an out of memory exception. If this occurs, edit the map to reduce its scope or generate a smaller one, and then run the analyzer.
 
-## See also
+## Related content
 
 - [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
 - [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)

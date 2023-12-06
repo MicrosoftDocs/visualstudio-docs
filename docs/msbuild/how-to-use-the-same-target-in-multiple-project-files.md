@@ -109,7 +109,7 @@ The `Import` element is used to insert one project file into another project fil
 </Project>
 ```
 
-## See also
+## Related content
 
 - [Import element (MSBuild)](../msbuild/import-element-msbuild.md)
 - [Targets](../msbuild/msbuild-targets.md)

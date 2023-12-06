@@ -1,7 +1,7 @@
 ---
 title: Introduction to projects and solutions
 description: Explore the difference between projects and solutions that contain and organize projects, and how to work with these items in Visual Studio.
-ms.date: 11/22/2022
+ms.date: 12/05/2023
 ms.technology: vs-ide-general
 ms.custom: vs-acquisition
 ms.topic: tutorial
@@ -122,7 +122,7 @@ Now add your first project to the solution. Start with an empty project, and add
 
 1. On the **Configure your new project** page, name the project **QuickDate**, and then select **Create**.
 
-   The **QuickDate** project appears under the solution in **Solution Explorer**. The project contains a References node and a single file named **App.config**.
+   The **QuickDate** project appears under the solution in **Solution Explorer**. The project contains a **References** node and a single file named **App.config**.
 
 ::: moniker-end
 
@@ -132,7 +132,7 @@ Add a code file to your empty project.
 
 1. From the right-click or context menu of the **QuickDate** project in **Solution Explorer**, select **Add** > **New Item**.
 
-   The **Add New Item** dialog box opens.
+   The **Add New Item** dialog box opens. Select **Show All Templates** if dialog opens in compact view.
 
 1. Expand **Visual C# Items**, and then select **Code**. In the middle pane, select the **Class** item template. Under **Name**, type *Calendar*, and then select **Add**.
 
@@ -203,7 +203,7 @@ To add a unit test project to your solution, start from a project template so yo
 
    Visual Studio adds the **QuickTest** project to **Solution Explorer**, and the **UnitTest1.cs** file opens in the editor.
 
-   :::image type="content" source="media/vs-2022/tutorial-projects-solution-explorer.png" alt-text="Screenshot that shows Solution Explorer with two projects." border="false":::
+   :::image type="content" source="media/vs-2022/tutorial-projects-solutions/tutorial-projects-solution-explorer.png" alt-text="Screenshot that shows Solution Explorer with two projects." border="false":::
 
 ::: moniker-end
 
@@ -233,7 +233,7 @@ You'll use the new unit test project to test your method in the **QuickDate** pr
 
    A reference to the **QuickDate** project appears under the **QuickTest** project in **Solution Explorer**.
 
-   :::image type="content" source="media/vs-2022/tutorial-projects-solution-explorer-reference.png" alt-text="A screenshot of Solution Explorer showing a project reference." border="false":::
+   :::image type="content" source="media/vs-2022/tutorial-projects-solutions/tutorial-projects-solution-explorer-reference.png" alt-text="A screenshot of Solution Explorer showing a project reference." border="false":::
 
 ::: moniker-end
 

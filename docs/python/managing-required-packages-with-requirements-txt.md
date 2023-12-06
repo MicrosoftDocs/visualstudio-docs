@@ -67,7 +67,7 @@ Cleaning up...
     Removing temporary dir C:\Project\env\build...
 ```
 
-## See also
+## Related content
 
 - [Manage Python environments in Visual Studio](managing-python-environments-in-visual-studio.md)
 - [Select an interpreter for a project](selecting-a-python-environment-for-a-project.md)

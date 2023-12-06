@@ -49,10 +49,9 @@ Describes the command file that executes the TextTransform executable on the com
 [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md)\
 Provides the syntax of text template directives and control blocks.
 
-## Related Sections
+## Related content
 
-[Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)\
+- [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)\
 Explains the text template transformation process.
-
-[Code Generation in a Build Process](../modeling/code-generation-in-a-build-process.md)\
+- [Code Generation in a Build Process](../modeling/code-generation-in-a-build-process.md)\
 Read this topic if you are generating files from a DSL on a build server.

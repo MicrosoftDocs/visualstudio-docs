@@ -318,7 +318,7 @@ If you would like to keep the Python environment but remove it from your project
 
 ![Screenshot of delete or remove Python environment pop-up.](media/delete-or-remove-environment.png)
 
-## See also
+## Related content
 
 - [Install Python interpreters](installing-python-interpreters.md)
 - [Select an interpreter for a project](selecting-a-python-environment-for-a-project.md)

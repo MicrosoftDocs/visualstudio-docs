@@ -1,5 +1,5 @@
 ---
-title: "Getting Started (SharePoint Development in Visual Studio)"
+title: Get started with SharePoint Development in Visual Studio
 titleSuffix: ""
 description: Get started with SharePoint development in Visual Studio and take advantage of a web-based collaboration platform for your projects and solutions.
 ms.date: "02/02/2017"

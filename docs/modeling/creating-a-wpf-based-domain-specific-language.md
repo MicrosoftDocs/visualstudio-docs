@@ -17,6 +17,6 @@ You can create a domain-specific language (DSL) that has a WPF designer instead 
 
 Information and samples about this feature can be found on the [Visual Studio Visualization and Modeling Tools website](https://code.msdn.microsoft.com/Visualization-and-Modeling-313535db).
 
-Consider the following resource:
+## Related content
 
 - [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)

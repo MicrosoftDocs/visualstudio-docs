@@ -565,7 +565,7 @@ namespace Company.CompartmentDrag  // EDIT.
 }
 ```
 
-## See also
+## Related content
 
 - [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md)
 - [Deploying Domain-Specific Language Solutions](msi-and-vsix-deployment-of-a-dsl.md)

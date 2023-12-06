@@ -1,5 +1,5 @@
 ---
-title:  Super admin and admin roles for Visual Studio subscriptions
+title: Use super admin and admin roles for subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve

@@ -368,7 +368,7 @@ namespace MefExtension
 } } } }
 ```
 
-## See also
+## Related content
 
 - [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md)
 - [Managed Extensibility Framework (MEF)](/dotnet/framework/mef/index)

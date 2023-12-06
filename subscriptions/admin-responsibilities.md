@@ -1,5 +1,5 @@
 ---
-title: Admin responsibilities in Visual Studio subscriptions | Visual Studio Marketplace
+title: Admin responsibilities and roles in subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve

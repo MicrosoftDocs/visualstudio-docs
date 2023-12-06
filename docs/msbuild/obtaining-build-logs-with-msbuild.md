@@ -95,7 +95,7 @@ For more information, see [Command-line reference](../msbuild/msbuild-command-li
 
  In the MSBuild command line, you specify the custom logger by using the **-logger** switch. You can also use the **-noconsolelogger** switch to disable the default console logger.
 
-## See also
+## Related content
 
 - <xref:Microsoft.Build.Framework.LoggerVerbosity>
 - [Build loggers](../msbuild/build-loggers.md)

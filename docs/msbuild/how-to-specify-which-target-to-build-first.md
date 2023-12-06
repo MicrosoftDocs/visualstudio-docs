@@ -67,7 +67,7 @@ The `InitialTargets` attribute of the `Project` element specifies a target that 
 
      `msbuild <file name>.proj -t:Clean;Compile`
 
-## See also
+## Related content
 
 - [MSBuild](../msbuild/msbuild.md)
 - [Targets](../msbuild/msbuild-targets.md)

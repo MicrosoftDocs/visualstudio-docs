@@ -435,7 +435,7 @@ Design-time templates: If you want to use a template to generate code that becom
 
 Run-time templates can be used in any application where the templates and their content are determined at compile time. But if you want to write a Visual Studio extension that generates text from templates that change at run time, see [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md).
 
-## See also
+## Related content
 
 - [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md)
 - [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md)

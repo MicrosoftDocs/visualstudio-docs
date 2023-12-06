@@ -169,7 +169,7 @@ If the desired behavior is to use `SpecialMode`, then the appropriate fix is to 
 
 The build issue could be fixed also by removing the AdditionalProperties metadata from *Middle1.csproj*, if that fits the intention.
 
-## Next steps
+## Related content
 
 - [Build multiple projects in parallel with MSBuild](building-multiple-projects-in-parallel-with-msbuild.md)
 

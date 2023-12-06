@@ -1,5 +1,7 @@
 - name: Visual Studio subscriptions
   href: index.yml
+- name: What are Visual Studio subscriptions?
+  href: what-are-subscriptions.md
 - name: What's New
   href: whats-new-in-subscriptions.md
 - name: Subscriptions

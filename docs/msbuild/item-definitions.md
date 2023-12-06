@@ -251,6 +251,6 @@ Beginning in MSBuild 3.5, ItemGroups can also be self-referential. For example:
 </ItemGroup>
 ```
 
-## See also
+## Related content
 
 - [Batching](../msbuild/msbuild-batching.md)

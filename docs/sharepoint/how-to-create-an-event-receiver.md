@@ -69,6 +69,6 @@ ms.technology: sharepoint-development
 
      After you choose the **Save** button, the **Patient Name** column automatically updates to the name Scott Brown.
 
-## See also
+## Related content
 
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)

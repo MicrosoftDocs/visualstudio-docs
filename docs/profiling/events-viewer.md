@@ -8,6 +8,7 @@ helpviewer_keywords:
 author: MikeJo5000
 ms.author: mikejo 
 manager: AndSter
+ms.technology: vs-ide-debug
 ---
 # Events viewer
 
@@ -155,7 +156,7 @@ int main()
 
 ::: moniker-end
 
-## See also
+## Related content
 
 - [Identify hot paths with Flame Graph](../profiling/flame-graph.md)
 - [Diagnose high latency with CPU Insights](../profiling/cpu-insights.md)

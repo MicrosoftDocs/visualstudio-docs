@@ -50,7 +50,7 @@ You can use several techniques to integrate multiple DSLs. For more information,
 
    The resulting VSIX will install both DSLs. You can test them by using F5, or deploy _YourVsixProject_**\bin\Debug\\\*.vsix**.
 
-## See also
+## Related content
 
 - [Integrating Models by using Visual Studio Modelbus](../modeling/integrating-models-by-using-visual-studio-modelbus.md)
 - [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)

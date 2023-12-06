@@ -1,5 +1,5 @@
 ---
-title: Modeling SDK for Visual Studio - Domain-Specific Languages
+title: Use the Modeling SDK for Visual Studio
 description: Use the Modeling SDK for Visual Studio to create powerful model-based development tools that integrate into Visual Studio.
 titleSuffix: ''
 ms.date: 11/04/2016

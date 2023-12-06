@@ -229,7 +229,7 @@ Suppose you have a code review to perform in some files with pending changes. To
 
    ![Use the Filter pane to simplify the display](../modeling/media/almcodemapfilterpane.png)
 
-## See also
+## Related content
 
 - [Share code maps](share-code-maps.md)
 - [Create code maps for C++](code-maps-for-cpp.md)
