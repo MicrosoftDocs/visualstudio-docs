@@ -1,5 +1,5 @@
 ---
-title: Debug Optimized Code
+title: Debug optimized code after compilation
 description: If possible, don't build a Win32 Release target until your program is debugged, because optimization can complicate debugging. See the details in this article.
 ms.date: 11/04/2016
 ms.topic: how-to
