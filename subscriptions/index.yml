@@ -24,6 +24,8 @@ landingContent:
     linkLists:
       - linkListType: get-started
         links:
+          - text: "What's a subscription?"
+            url: what-are-subscriptions.md
           - text: Get started with your subscription
             url: ~/new-subscriber.md
           - text: "Compare options & pricing"
