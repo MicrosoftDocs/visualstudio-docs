@@ -1,7 +1,7 @@
 ---
 title: Code coverage testing
 description: Learn how to use the code coverage feature of Visual Studio to determine what proportion of your project code is being tested by coded tests.
-ms.date: 06/19/2023
+ms.date: 12/05/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - code coverage
@@ -30,21 +30,36 @@ The code coverage feature is available only in Visual Studio Enterprise edition.
 
 1. On the **Test** menu, select **Analyze Code Coverage for All Tests**.
 
+    ::: moniker range=">=vs-2022"
+    :::image type="content" source="media/vs-2022/analyze-code-coverage.png" alt-text="Screenshot of Test menu with Analyze code coverage highlighted.":::
+    ::: moniker-end
+    ::: moniker range="vs-2019"
     :::image type="content" source="media/vs-2019/analyze-code-coverage.png" alt-text="Screenshot of Test menu with Analyze code coverage highlighted.":::
+    ::: moniker-end
+
     > [!TIP]
     > You can also run code coverage from the **Test Explorer** tool window.
 
 1. After the tests have run, to see which lines have been run, choose ![Screenshot of Analyze code coverage menu in Visual Studio](../test/media/codecoverage-showcoloringicon.png) **Show Code Coverage Coloring** in the **Code Coverage Results** window. By default, code that is covered by tests is highlighted in light blue.
+
+    ::: moniker range=">=vs-2022"
     :::image type="content" source="media/vs-2022/code-coverage-highlight.png" alt-text="Screenshot showing code coverage highlighted.":::
+    ::: moniker-end
+    ::: moniker range="vs-2019"
+    :::image type="content" source="media/vs-2019/code-coverage-highlight.png" alt-text="Screenshot showing code coverage highlighted.":::
+    ::: moniker-end
+
+   In the drop-down list for the **Show Code Coverage Coloring** option, you can select whether the coloring applies to lines of code, glyphs in the left margin, or both.
 
 1. To change the colors or to use bold face, choose **Tools** > **Options** > **Environment** > **Fonts and Colors** > **Show settings for: Text Editor**. Under **Display items**, adjust settings for the "Coverage" items, for example, **Coverage Not Touched Area**.
-    :::moniker range="=vs-2019"
-    :::image type="content" source="media/vs-2019/coverage-fonts-and-colors.png" alt-text="Screenshot showing code coverage fonts and colors.":::
-    :::moniker-end
 
-    :::moniker range="=vs-2022"
+    ::: moniker range=">=vs-2022"
     :::image type="content" source="media/vs-2022/coverage-fonts-and-colors.png" alt-text="Screenshot showing code coverage fonts and colors":::
-    :::moniker-end
+    ::: moniker-end
+    ::: moniker range="vs-2019"
+    :::image type="content" source="media/vs-2019/coverage-fonts-and-colors.png" alt-text="Screenshot showing code coverage fonts and colors.":::
+    ::: moniker-end
+
 1. If the results show low coverage, investigate which parts of the code aren't being exercised, and write more tests to cover them. Development teams typically aim for about 80% code coverage. In some situations, lower coverage is acceptable. For example, lower coverage is acceptable where some code is generated from a standard template.
 
   > [!TIP]
