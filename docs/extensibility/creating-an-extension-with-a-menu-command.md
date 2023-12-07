@@ -102,7 +102,7 @@ To install the extension, your friend needs to close all open instances of Visua
 
 When your friend brings up Visual Studio again, they'll find the FirstMenuCommand extension in **Tools** > **Extensions and Updates**. They can go to **Extensions and Updates** to uninstall or disable the extension, too.
 
-## Next steps
+## Related content
 
 This walkthrough has shown you only a small part of what you can do with a Visual Studio extension. Here's a short list of other (reasonably easy) things you can do with Visual Studio extensions:
 

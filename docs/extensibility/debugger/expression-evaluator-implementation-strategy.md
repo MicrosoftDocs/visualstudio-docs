@@ -24,6 +24,6 @@ ms.technology: vs-ide-debug
 
  The [EnumChildren](../../extensibility/debugger/reference/idebugproperty2-enumchildren.md) method should be implemented next. The debug engine (DE) calls this method to get a list of local variables and arguments by passing `IDebugProperty2::EnumChildren` a `guidFilter` argument of `guidFilterLocalsPlusArgs`. `IDebugProperty2::EnumChildren` calls [EnumArguments](../../extensibility/debugger/reference/idebugmethodfield-enumarguments.md) and [EnumLocals](../../extensibility/debugger/reference/idebugmethodfield-enumlocals.md), combining the results in a single enumeration. See [Display locals](../../extensibility/debugger/displaying-locals.md) for more details.
 
-## See also
+## Related content
 - [Implement an expression evaluator](../../extensibility/debugger/implementing-an-expression-evaluator.md)
 - [Display locals](../../extensibility/debugger/displaying-locals.md)

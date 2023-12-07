@@ -38,7 +38,7 @@ After a program launches, the debug session is ready to attach the debug engine 
 
  The DE is now attached to the program and ready to send any startup events.
 
-## See also
+## Related content
 - [Attaching directly to a program](../../extensibility/debugger/attaching-directly-to-a-program.md)
 - [Notifying the port](../../extensibility/debugger/notifying-the-port.md)
 - [Debugging tasks](../../extensibility/debugger/debugging-tasks.md)

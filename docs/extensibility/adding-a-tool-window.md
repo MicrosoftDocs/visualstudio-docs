@@ -275,5 +275,5 @@ Next, specify a default location in the IDE for the tool window. Configuration i
 
     You should hear the chime sound.
 
-## See also
+## Related content
 - [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md)

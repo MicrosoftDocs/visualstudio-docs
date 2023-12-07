@@ -22,5 +22,5 @@ The following describes the process when deleting a pending breakpoint:
 > [!NOTE]
 > A single bound breakpoint can also be deleted by a call to [IDebugBoundBreakpoint2::Delete](../../extensibility/debugger/reference/idebugboundbreakpoint2-delete.md).
 
-## See also
+## Related content
 - [Call debugger events](../../extensibility/debugger/calling-debugger-events.md)
