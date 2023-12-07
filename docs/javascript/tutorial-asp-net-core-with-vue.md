@@ -131,9 +131,7 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
 
 1. To publish, right click the ASP.NET Core project, choose **Publish**, and select options to match your desired publish scenario, such as Azure, publish to a folder, etc.
 
-   The publish process takes more time than it does for just an ASP.NET Core project, since the `npm run dev` command gets invoked when publishing.
-
-   You can modify the `npm run dev` command using the **Startup Command** in the Vue project properties. To modify it, right-click the Vue project in Solution Explorer and choose **Properties**. For a production build, you might set this to `npm run build`.
+   The publish process takes more time than it does for just an ASP.NET Core project, since the `npm run build` command gets invoked when publishing. The [BuildCommand](../javascript/javascript-project-system-msbuild-reference.md#buildcommand) runs `npm run build` by default.
 
 ## Troubleshooting
 
