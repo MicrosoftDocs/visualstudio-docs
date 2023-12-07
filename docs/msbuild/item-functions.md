@@ -2,7 +2,7 @@
 title: Call item functions from MSBuild code
 description: Explore how MSBuild code in tasks and targets can call item functions to get information about the items in the project.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - msbuild, Item functions
 author: ghogen
@@ -10,7 +10,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
 ---
-# Item functions
+# Work with item functions
 
 Code in tasks and targets can call item functions to get information about the items in the project (in MSBuild 4.0 and later). These functions simplify getting distinct items and are faster than looping through the items.
 

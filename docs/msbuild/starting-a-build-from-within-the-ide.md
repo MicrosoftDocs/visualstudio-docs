@@ -2,7 +2,7 @@
 title: Starting a Build from within the IDE
 description: Learn how to use the Microsoft.VisualStudio.Shell.Interop.IVsBuildManagerAccessor to start builds for custom project systems.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - build
 author: ghogen

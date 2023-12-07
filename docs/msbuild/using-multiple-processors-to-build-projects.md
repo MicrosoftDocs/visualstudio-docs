@@ -2,7 +2,7 @@
 title: Using Multiple Processors to Build Projects
 description: Explore how MSBuild takes advantage of systems that have multiple processors or cores by creating a separate build process for each available processor.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - multiple processors
 - MSBuild, multiple processor systems

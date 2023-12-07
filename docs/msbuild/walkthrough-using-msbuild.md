@@ -2,7 +2,7 @@
 title: "MSBuild Tutorial: Install and create a project"
 description: Explore the various parts of an MSBuild project file, including items, item metadata, properties, targets, and build tasks.
 ms.date: 10/17/2023
-ms.topic: conceptual
+ms.topic: tutorial
 helpviewer_keywords:
 - MSBuild, tutorial
 author: ghogen

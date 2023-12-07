@@ -2,7 +2,7 @@
 title: Target and Task Batch using metadata with MSBuild
 description: Explore how MSBuild divides item lists into different categories, or batches, based on item metadata, and runs a target or task one time with each batch.
 ms.date: 06/09/2020
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - batching [MSBuild]
 - MSBuild, batching
@@ -11,7 +11,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
 ---
-# MSBuild batching
+# Run tasks or targets in batches based on item metadata
 
 MSBuild divides item lists into different categories, or batches, based on item metadata, and runs a target or task one time with each batch.
 

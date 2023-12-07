@@ -2,7 +2,7 @@
 title: 'Display an Item List Separated with Commas'
 description: Learn how to use MSBuild to display an item list separated with commas, or specify other separator strings for an item list.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, separating items with semicolons
 - MSBuild, formatting item collections
