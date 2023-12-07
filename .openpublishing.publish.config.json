@@ -171,6 +171,7 @@
     ".openpublishing.redirection.subscriptions.json",
     ".openpublishing.redirection.vs2017.json",
     ".openpublishing.redirection.vs2015.json",
+    ".openpublishing.redirections.intellicode.json",
     "docs/containers/.openpublishing.redirection.containers.json"
   ]
 }
