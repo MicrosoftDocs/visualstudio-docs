@@ -1887,6 +1887,14 @@
     ]
     },
     {
+      "source_path": "docs/ide/reference/accessibility-products-and-services-from-microsoft.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/accessibility-products-and-services-from-microsoft",
+      "redirect_document_id": false,
+      "monikers": [
+          "vs-2017"
+      ]
+    },
+    {
       "source_path": "docs/ide/how-to-troubleshoot-templates.md",
       "redirect_url": "/troubleshoot/developer/visualstudio/project-build/how-to-troubleshoot-templates",
       "redirect_document_id": false

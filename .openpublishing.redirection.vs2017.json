@@ -27310,14 +27310,6 @@
             ]
         },
         {
-            "source_path": "docs/ide/reference/accessibility-products-and-services-from-microsoft.md",
-            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/accessibility-products-and-services-from-microsoft",
-            "redirect_document_id": false,
-            "monikers": [
-                "vs-2017"
-            ]
-        },
-        {
             "source_path": "docs/ide/reference/accessibility-tips-and-tricks.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/accessibility-tips-and-tricks",
             "redirect_document_id": false,
