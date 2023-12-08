@@ -30,47 +30,47 @@ The project template or the sample you created in the [Create your first extensi
 
 1. Rename the `Command1.cs` file to `InsertGuidCommand.cs`, rename the class `InsertGuidCommand`, update the `CommandConfiguration` property.
 
-```csharp
-public override CommandConfiguration CommandConfiguration => new("%InsertGuidCommand.DisplayName%")
-{
-    Placements = new[] { CommandPlacement.KnownPlacements.ExtensionsMenu },
-};
-```
+   ```csharp
+   public override CommandConfiguration CommandConfiguration => new("%InsertGuidCommand.DisplayName%")
+   {
+       Placements = new[] { CommandPlacement.KnownPlacements.ExtensionsMenu },
+   };
+   ```
 
-`Placements` specifies where the command should appear in the IDE. In this case, the command is placed in the Extensions menu, one of the top-level menus in Visual Studio.
+   `Placements` specifies where the command should appear in the IDE. In this case, the command is placed in the Extensions menu, one of the top-level menus in Visual Studio.
 
-The argument to the `CommandConfiguration` constructor is the command's display name, which is the menu text. The display name is enclosed by `%` characters because it references a string resource from `.vsextension/string-resources.json` to support localization.
+   The argument to the `CommandConfiguration` constructor is the command's display name, which is the menu text. The display name is enclosed by `%` characters because it references a string resource from `.vsextension/string-resources.json` to support localization.
 
 1. Update `.vsextension/string-resources.json` with the display name of `InsertGuidCommand`.
 
-```json
-{
-  "InsertGuidCommand.DisplayName": "Insert new guid"
-}
-```
+   ```json
+   {
+     "InsertGuidCommand.DisplayName": "Insert new guid"
+   }
+   ```
 
 1. Add the `Icon` property.
 
-```csharp
-public override CommandConfiguration CommandConfiguration => new("%InsertGuidCommand.DisplayName%")
-{
-    Placements = new[] { CommandPlacement.KnownPlacements.ExtensionsMenu },
-    Icon = new(ImageMoniker.KnownValues.OfficeWebExtension, IconSettings.IconAndText),
-};
-```
+   ```csharp
+   public override CommandConfiguration CommandConfiguration => new("%InsertGuidCommand.DisplayName%")
+   {
+       Placements = new[] { CommandPlacement.KnownPlacements.ExtensionsMenu },
+       Icon = new(ImageMoniker.KnownValues.OfficeWebExtension, IconSettings.IconAndText),
+   };
+   ```
 
 You can specify a known built-in icon, in this case `OfficeWebExtension`, or upload images for the icon as described in [Add Visual Studio commands](../command/command.md). The second argument is an enumeration that determines how the command should appear in toolbars (in addition to its place in a menu). The option `IconSettings.IconAndText` means show the icon and the display name next to each other.
 
 1. Add the `VisibleWhen` property, which specifies the conditions that must apply for the item to appear to the user.
 
-```csharp
-public override CommandConfiguration CommandConfiguration => new("%InsertGuidCommand.DisplayName%")
-{
-    Placements = new[] { CommandPlacement.KnownPlacements.ExtensionsMenu },
-    Icon = new(ImageMoniker.KnownValues.OfficeWebExtension, IconSettings.IconAndText),
-    VisibleWhen = ActivationConstraint.ClientContext(ClientContextKey.Shell.ActiveEditorContentType, ".+"),
-};
-```
+   ```csharp
+   public override CommandConfiguration CommandConfiguration => new("%InsertGuidCommand.DisplayName%")
+   {
+       Placements = new[] { CommandPlacement.KnownPlacements.ExtensionsMenu },
+       Icon = new(ImageMoniker.KnownValues.OfficeWebExtension, IconSettings.IconAndText),
+       VisibleWhen = ActivationConstraint.ClientContext(ClientContextKey.Shell.ActiveEditorContentType, ".+"),
+   };
+   ```
 
 See [using rule based activation constraints](./../inside-the-sdk/activation-constraints.md#rule-based-activation-constraints) for more information.
 

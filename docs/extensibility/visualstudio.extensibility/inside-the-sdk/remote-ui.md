@@ -292,8 +292,8 @@ We also need to add a command to the data context. In Remote UI, commands implem
 
 `IAsyncCommand` differs from [`ICommand`](/dotnet/api/system.windows.input.icommand) in two ways:
 
-1. The `Execute` method is replaced with `ExecuteAsync` because everything in Remote UI is async!
-2. The `CanExecute(object)` method is replaced by a `CanExecute` property. The `AsyncCommand` class takes care of making `CanExecute` observable.
+- The `Execute` method is replaced with `ExecuteAsync` because everything in Remote UI is async!
+- The `CanExecute(object)` method is replaced by a `CanExecute` property. The `AsyncCommand` class takes care of making `CanExecute` observable.
 
 It's important to note that Remote UI doesn't support event handlers, so all notifications from the UI to the extension must be implemented through databinding and commands.
 
