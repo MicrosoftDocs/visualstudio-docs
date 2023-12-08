@@ -86,6 +86,6 @@ It is a common convention for projects to expose a custom, project-specific proj
 
      The custom `Projects` collection object is a convenience entry point for the remaining part of your project automation model. Your project object is also accessible from the <xref:EnvDTE.Solution> project collection. After you have created the appropriate code and registry entries that provide consumers with `Projects` collection objects, your implementation must provide remaining standard objects for the project model. For more information, see [Project modeling](../../extensibility/internals/project-modeling.md).
 
-## See also
+## Related content
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject%2A>

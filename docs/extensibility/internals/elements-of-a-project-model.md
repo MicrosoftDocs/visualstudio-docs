@@ -36,7 +36,7 @@ The interfaces and implementations of all projects in Visual Studio share a basi
 
   Projects can support commands and therefore must implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface to participate in command routing through the command context GUIDs.
 
-## See also
+## Related content
 - [Checklist: Create new project types](../../extensibility/internals/checklist-creating-new-project-types.md)
 - [Use HierUtil7 project classes to implement a project type (C++)](/previous-versions/bb166212(v=vs.100))
 - [Project model core components](../../extensibility/internals/project-model-core-components.md)

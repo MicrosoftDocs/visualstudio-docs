@@ -263,6 +263,6 @@ In this walkthrough, <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContai
 
 Visual Studio tool windows persist between Visual Studio sessions. For more information on persisting the tool window state, see <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute>.
 
-## See also
+## Related content
 
 - [Extend properties and the Property window](../extensibility/extending-properties-and-the-property-window.md)

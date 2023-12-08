@@ -35,6 +35,6 @@ For product uniformity and stability, the UI displays certain command groups by 
 
  Editor toolbars should be placed below IDE and product toolbars.
 
-## See also
+## Related content
 - [IDE-defined commands, menus, and groups](../../extensibility/internals/ide-defined-commands-menus-and-groups.md)
 - [How VSPackages add user interface elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)

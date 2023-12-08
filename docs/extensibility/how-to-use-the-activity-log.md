@@ -59,7 +59,7 @@ Because the activity log is a service, the activity log is unavailable in the VS
 
 You should obtain the activity log just before writing to it. Do not cache or save the activity log for future use.
 
-## See also
+## Related content
 
 - [/Log (devenv.exe)](../ide/reference/log-devenv-exe.md)
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog>
