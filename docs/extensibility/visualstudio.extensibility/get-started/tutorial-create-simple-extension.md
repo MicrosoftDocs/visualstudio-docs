@@ -59,7 +59,7 @@ The project template or the sample you created in the [Create your first extensi
    };
    ```
 
-You can specify a known built-in icon, in this case `OfficeWebExtension`, or upload images for the icon as described in [Add Visual Studio commands](../command/command.md). The second argument is an enumeration that determines how the command should appear in toolbars (in addition to its place in a menu). The option `IconSettings.IconAndText` means show the icon and the display name next to each other.
+   You can specify a known built-in icon, in this case `OfficeWebExtension`, or upload images for the icon as described in [Add Visual Studio commands](../command/command.md). The second argument is an enumeration that determines how the command should appear in toolbars (in addition to its place in a menu). The option `IconSettings.IconAndText` means show the icon and the display name next to each other.
 
 1. Add the `VisibleWhen` property, which specifies the conditions that must apply for the item to appear to the user.
 
