@@ -139,7 +139,7 @@ The following fragments are frequently useful within these methods:
 
 For more information about how to navigate from element to element and about how to create objects and links, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).
 
-## See also
+## Related content
 
 - <xref:System.ComponentModel.Design.MenuCommand>
 - [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)

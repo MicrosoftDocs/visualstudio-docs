@@ -92,7 +92,7 @@ For ASP.NET Core projects, you can customize how files are nested in **Solution 
 > [!NOTE]
 > To view the application images and icons that appear in Visual Studio, download the [**Visual Studio Image Library**](https://www.microsoft.com/download/details.aspx?id=35825).
 
-## See also
+## Related content
 
 - [Manage project and solution properties](managing-project-and-solution-properties.md)
 - [Filtered solutions in Visual Studio](filtered-solutions.md)

@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Visual Studio terminal"
 no-loc: cmdlet
 monikerRange: ">=vs-2019"
+ms.technology: vs-ide-general
 ---
 # Visual Studio Developer Command Prompt and Developer PowerShell
 
@@ -244,7 +245,7 @@ The Project Location can be adjusted in **Tools** > **Options** > **Projects &am
 > [!TIP]
 > The command-line arguments `-Arch`, `-HostArch`, and `-SkipAutomaticLocation` are supported by both the `Launch-VsDevShell.ps1` script and the `Enter-VsDevShell` cmdlet.
 
-## See also
+## Related content
 
 - [Windows Terminal](/windows/terminal/)
 - [.NET Framework Tools](/dotnet/framework/tools/index)

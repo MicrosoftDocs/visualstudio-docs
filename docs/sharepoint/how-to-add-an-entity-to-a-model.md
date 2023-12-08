@@ -47,7 +47,7 @@ ms.technology: sharepoint-development
     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc_entity_data_class/bdcmodel1/contact.vb" id="Snippet1":::
     ---
 
-## See also
+## Related content
 - [How to: Add a Creator method](../sharepoint/how-to-add-a-creator-method.md)
 - [How to: Add a Deleter method](../sharepoint/how-to-add-a-deleter-method.md)
 - [How to: Add an Updater method](../sharepoint/how-to-add-an-updater-method.md)

@@ -83,7 +83,7 @@ For more information about nullable types in C#, see [Nullable Types](/dotnet/cs
 
 1. Right-click the class shape and click **Class Details**. You can view or modify the new type's properties in the **Class Details** window.
 
-## See also
+## Related content
 
 - <xref:System.Nullable%601>
 - [Nullable Types](/dotnet/csharp/programming-guide/nullable-types/index)

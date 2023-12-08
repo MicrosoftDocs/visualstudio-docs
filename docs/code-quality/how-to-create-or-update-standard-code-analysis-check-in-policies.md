@@ -63,6 +63,6 @@ From the **Run this rule set** list, use one of the following methods:
 
 For more information about how to create and implement a custom check-in policy rule set, see [Implement Custom Check-in Policies for Managed Code](../code-quality/implementing-custom-code-analysis-check-in-policies-for-managed-code.md).
 
-## See also
+## Related content
 
 - [Implement Custom Code Analysis Check-in Policies for Managed Code](../code-quality/implementing-custom-code-analysis-check-in-policies-for-managed-code.md)

@@ -1,6 +1,6 @@
 ---
 title: Refactoring
-description: Most popular refactorings in Visual Studio with descriptions and examples.
+description: Review popular refactoring scenarios in Visual Studio, including operations available for different programming languages with examples.
 ms.date: 01/10/2018
 ms.topic: conceptual
 helpviewer_keywords:
@@ -30,7 +30,7 @@ Different refactoring operations are available for different programming languag
 - For information about refactoring C++ code, see [Write and refactor code (C++)](/cpp/ide/writing-and-refactoring-code-cpp).
 - Refactoring support for F# is provided by the [Visual F# Power Tools](https://marketplace.visualstudio.com/items?itemName=FSharpSoftwareFoundation.VisualFPowerTools), a third-party Visual Studio extension.
 
-## See also
+## Related content
 
 - [Quick Actions](../ide/quick-actions.md)
 - [Visual Studio IDE overview](../get-started/visual-studio-ide.md)

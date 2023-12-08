@@ -189,7 +189,7 @@ Some of the commands are also available on the **Edit** menu, under **Multiple C
 
 ::: moniker-end
 
-## See also
+## Related content
 
 - [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md)
 - [Refactor code in Visual Studio](../ide/refactoring-in-visual-studio.md)

@@ -98,11 +98,13 @@ The following XML is the basic snippet template. We'll walk you through [creatin
 
 1. The snippet is copied to one of the following locations, depending on the code language and the version of Visual Studio that you're using:
 
-   *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets*
-   *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual Basic\My Code Snippets*
-
+   ::: moniker range=">= vs-2022"
    *%USERPROFILE%\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets*
    *%USERPROFILE%\Documents\Visual Studio 2022\Code Snippets\Visual Basic\My Code Snippets*
+   ::: moniker-end
+
+   *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets*
+   *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual Basic\My Code Snippets*
 
 1. Test your snippet by opening a C# or Visual Basic project. With a code file open in the editor, choose **Snippets** > **Insert Snippet** from the right-click menu, then **My Code Snippets**. You should see a snippet named **Square Root**. Double-click it.
 
@@ -110,7 +112,12 @@ The following XML is the basic snippet template. We'll walk you through [creatin
 
 ## Description and shortcut fields
 
-1. Description fields provide more information about your code snippet when viewed in the Code Snippets Manager. The shortcut is a tag that users can type in order to insert your snippet. Edit the snippet you've added by opening the file *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\\[Visual C# or Visual Basic]\My Code Snippet\SquareRoot.snippet* or *%USERPROFILE%\Documents\Visual Studio 2022\Code Snippets\\[Visual C# or Visual Basic]\My Code Snippet\SquareRoot.snippet*.
+1. Description fields provide more information about your code snippet when viewed in the Code Snippets Manager. The shortcut is a tag that users can type in order to insert your snippet. Edit the snippet you've added by opening the following file:
+
+   ::: moniker range=">= vs-2022"
+   *%USERPROFILE%\Documents\Visual Studio 2022\Code Snippets\\[Visual C# or Visual Basic]\My Code Snippet\SquareRoot.snippet*, or
+   ::: moniker-end
+   *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\\[Visual C# or Visual Basic]\My Code Snippet\SquareRoot.snippet*
 
    > [!TIP]
    > Because you're editing the file in the directory where Visual Studio placed it, you don't need to reimport it to Visual Studio.
@@ -216,7 +223,7 @@ The following XML shows a code snippet that uses the method `File.Exists` in the
 </CodeSnippets>
 ```
 
-## See also
+## Related content
 
 - Visual Studio: [Code snippets schema reference](../ide/code-snippets-schema-reference.md)
 - VS Code: [Create a snippet](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_create-your-own-snippets)

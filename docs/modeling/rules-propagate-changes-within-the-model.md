@@ -203,6 +203,6 @@ namespace Company.TaskRuleExample
 }
 ```
 
-## See also
+## Related content
 
 - [Event Handlers Propagate Changes Outside the Model](../modeling/event-handlers-propagate-changes-outside-the-model.md)

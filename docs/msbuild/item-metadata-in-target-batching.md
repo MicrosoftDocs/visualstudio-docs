@@ -61,7 +61,7 @@ The following example contains an item list named `Res` that is divided into two
 </Project>
 ```
 
-## See also
+## Related content
 
 - [How to: Build incrementally](../msbuild/how-to-build-incrementally.md)
 - [Batching](../msbuild/msbuild-batching.md)

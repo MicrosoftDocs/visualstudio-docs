@@ -47,6 +47,6 @@ If you're familiar with word wrap in Notepad++, Sublime Text, or Visual Studio C
 * [Triple click doesn't select whole line](https://developercommunity.visualstudio.com/t/fix-known-issues-in-word-wrap/351760)
 * [Pressing End key twice doesn't move cursor to end of line](https://developercommunity.visualstudio.com/t/fix-known-issues-in-word-wrap/351760)
 
-## See also
+## Related content
 
 [Features of the code editor](../writing-code-in-the-code-and-text-editor.md)

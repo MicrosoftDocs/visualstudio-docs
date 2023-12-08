@@ -30,6 +30,6 @@ Because Visual Studio includes multiple binaries, [create an WIP-exempt AppLocke
 
 To specify where Visual Studio can access enterprise data on your network, follow these [steps to define where your protected apps can find and send enterprise data](/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure#choose-where-apps-can-access-enterprise-data). To stop Windows from blocking connections to cloud resources through an IP address, make sure to add the /\*AppCompat\*/ string to the setting.
 
-## See also
+## Related content
 
 - [App behavior with WIP](/windows/security/information-protection/windows-information-protection/app-behavior-with-wip)

@@ -107,7 +107,7 @@ The **GPU Activity (Other Processes)** segments in the Threads view  of the Conc
 
  When you select this kind of segment, the report on the **Current** tab displays information about the packet that was processed.  The information includes the amount of time that the packet waited in the hardware queue that's associated with the DirectX engine, the process that submitted the packet, and the time that was required to process the packet.
 
-## See also
+## Related content
 
 - [Concurrency Visualizer](../profiling/concurrency-visualizer.md)
 - [Cores view](../profiling/cores-view.md)

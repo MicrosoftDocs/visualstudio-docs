@@ -64,6 +64,6 @@ Overuse or misuse of I/O is a common cause of inefficiencies in applications. Co
 
 Lock convoys occur when the application acquires locks in a first-come, first-served order, and when the arrival rate at the lock is higher than the acquisition rate. The combination of these two conditions causes requests for the lock to start backing up. One way to combat this problem is to use "unfair" locks, or locks that give access to the first thread to find them in unlocked states. The previous illustration shows this convoy behavior. To solve the problem, try reducing contention for the synchronization objects and try using unfair locks.
 
-## See also
+## Related content
 
 [Threads View](../profiling/threads-view-parallel-performance.md)

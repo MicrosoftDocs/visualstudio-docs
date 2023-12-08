@@ -21,6 +21,8 @@ ms.technology: vs-installation
 
 You can use installation configuration files to configure Visual Studio. To do so, export the workloads and components information to a [.vsconfig file](#vsconfig-file-format) by using the Visual Studio Installer. You can then import the configuration into new or existing installations, use them to create or modify a layout or an offline installation, and share them with others.
 
+> Starting with Visual Studio 2022 version 17.9 Preview 1, you can now include some extensions in a *.vsconfig file, and then use the Visual Studio Installer to import them into Visual Studio. Further details about this functionality are described in the [Extensions Preview](#extensions) section below.
+
 ## Export a configuration
 
 You can export an installation configuration file from a previously installed instance of Visual Studio. 
@@ -78,7 +80,7 @@ Use `--config` to either initialize or modify an existing installation to add or
 
 ## Use a configuration file to initialize the contents of a layout
 
-Using the correct bootstrapper that corresponds to the version and edition of Visual Studio that you want, open an administrator command prompt and run the following command to use `-config` to configure the contents of a layout:
+Using the correct bootstrapper that corresponds to the version and edition of Visual Studio that you want, open an administrator command prompt and run the following command to use `--config` to configure the contents of a layout:
 
 ```shell
 vs_enterprise.exe --layout c:\localVSlayout --config c:\myconfig.vsconfig --lang en-US 
@@ -100,10 +102,7 @@ You can also generate a .vsconfig file right from Solution Explorer.
 
 1. Make sure you've got the workloads and components that you want, and then choose **Export**.
 
-> [!NOTE]
-> For more information, see the [Configure Visual Studio across your organization with .vsconfig](https://devblogs.microsoft.com/setup/configure-visual-studio-across-your-organization-with-vsconfig/) blog post.
-
-[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
+We also created an open source utility that locates Visual Studio installation *.vsconfig files downstream recursively and merges them all together. You can find [more information about the VSConfigFinder tool here](https://github.com/microsoft/VSConfigFinder).
 
 ## vsconfig file format
 
@@ -120,8 +119,49 @@ The .vsconfig file is a json file format that contains a components section that
 }
 ```
 
-## See also
+### Extensions
+[!INCLUDE [Preview](~/includes/preview.md)]
 
+Starting in [Fall 2023 with the previews, Visual Studio 2022 version 17.9](https://devblogs.microsoft.com/visualstudio/introducing-visual-studio-17-9-preview-1-is-here/#extensibility) now allows you to specify public marketplace or local private extensions in the *.vsconfig file and use the Visual Studio Installer to load them machine wide, meaning that they are available for all users. Because these extensions are installed machine wide, whoever installs them must have admin privileges directly, or they must have been granted control via the [AllowStandardUserControl](https://aka.ms/vs/setup/policies) policy. Note that any extensions previously installed by the Visual Studio Extension Manager had the capability of being (and were typically) installed per user, not machine wide, and the user didn't need to have admin perms. 
+
+_**For now**_, the Visual Studio Installer only supports importing certain types of extensions. As such, the following behaviors are not currently supported and are on our backlog product roadmap; your [feedback](https://developercommunity.visualstudio.com) will help us prioritize properly.  
+ * The ability to use the Visual Studio Installer to export extensions is not currently available.    
+ * Updating extensions will, for the time being, continue to be handled via the [legacy method](/visualstudio/ide/finding-and-using-visual-studio-extensions#automatic-extension-updates), not via the Visual Studio Installer.
+ * The ability to load extensions via the *.vsconfig file currently only applies to Visual Studio 2022.
+ * Only extensions contained in a *.vsix package and that don't contain any embedded extensions or other complicating factors can be installed via the *.vsconfig file.
+ * You can only load public marketplace extensions, not local private extensions, via automatic detection and parsing of the *.vsconfig file in the solution directory.
+ * You can use the new `--allowUnsignedExtensions` parameter to programmatically allow unsigned extensions to be loaded. This can also be included in the *response.json* if installing from a layout. Use the "allowUnsignedExtensions" : true syntax as described in the [Example customized layout response file content](/visualstudio/install/automated-installation-with-response-file#example-customized-layout-response-file-content) documentation
+
+The .vsconfig file format that includes extensions should look like this.
+
+```shell
+{
+  "version": "1.0", 
+  "components": [ 
+    // Whatever components you want to install come here, in quotes, separated by commas.
+    // You can use the installer to select the components you want to install and then export them,
+    // Or you can specify the ones you want according to the [component-id's](https://learn.microsoft.com/en-us/visualstudio/install/workload-and-component-ids).
+    // This array should not be null! If you don't want to install any component, just leave the array empty.
+  ],
+  "extensions": [
+    // The extensions you want to install are specified in this section, in quotes, separated by commas.
+    // Extensions are optional in .vsconfig, so if you don't want any, you can delete the entire extensions section.
+    // The extensions must be in a *.vsix package
+    // Make sure that the extensions you specify are designed to work with that version of Visual Studio.
+    // example syntax:
+    "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ImageOptimizer64bit",
+    "c:\\mylocaldrive\\someextension.vsix",
+    "\\\\server\\share\\myextension.vsix",
+    "https://myweb/anotherextension.vsix"
+  ]
+}
+```
+
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
+
+## Related content
+
+* [Configure Visual Studio across your organization with .vsconfig April 2019 blog post](https://devblogs.microsoft.com/setup/configure-visual-studio-across-your-organization-with-vsconfig/)
 * [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
 * [Update a networked-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
 * [Control updates to Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)

@@ -187,7 +187,7 @@ This example uses the **SolutionFolder** element to divide the projects into two
 </VSTemplate>
 ```
 
-## See also
+## Related content
 
 - [Creating project and item templates](../ide/creating-project-and-item-templates.md)
 - [How to: Create project templates](../ide/how-to-create-project-templates.md)

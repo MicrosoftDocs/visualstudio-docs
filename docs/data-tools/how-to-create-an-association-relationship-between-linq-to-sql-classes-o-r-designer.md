@@ -41,7 +41,7 @@ After you create an association, when you select the association in the **O/R De
 
 5. Click **OK** to create the association.
 
-## See also
+## Related content
 
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
 - [Walkthrough: Creating LINQ to SQL classes](how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-o-r-designer.md)

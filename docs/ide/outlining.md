@@ -56,7 +56,7 @@ The following commands can be found on the **Edit** > **Outlining** submenu.
 
 You can also use the Visual Studio SDK to define the text regions you want to expand or collapse. See [Walkthrough: Outlining](../extensibility/walkthrough-outlining.md).
 
-## See also
+## Related content
 
 - [Features of the code editor](writing-code-in-the-code-and-text-editor.md)
 - [Source editor (Visual Studio for Mac)](/visualstudio/mac/source-editor)

@@ -105,6 +105,6 @@ The following table lists the internal default settings for these registry value
 
     The next time you drag items from the **Data Sources** window, the caption labels are created with unmodified captions.
 
-## See also
+## Related content
 
 - [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)

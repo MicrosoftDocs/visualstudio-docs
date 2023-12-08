@@ -132,7 +132,7 @@ Different kinds of diagram are useful for describing the design at different lev
 |**Blogs**|[Microsoft DevOps](https://devblogs.microsoft.com/devops/)|
 |**Technical Articles and Journals**|[MSDN Architecture Center](/previous-versions/dn630665(v=msdn.10))|
 
-## See also
+## Related content
 
 - [Use models in Agile development](/previous-versions/ff398061(v=vs.140))
 - [Create models for your app](../modeling/create-models-for-your-app.md)

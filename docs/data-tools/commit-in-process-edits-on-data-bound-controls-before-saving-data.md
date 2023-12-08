@@ -55,7 +55,7 @@ The following code uses a [LINQ (Language-Integrated Query)](/dotnet/csharp/linq
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VSProDataOrcasEndEditOnAll/VB/Form1.vb" id="Snippet2":::
      ---
 
-## See also
+## Related content
 
 - [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)
 - [Hierarchical update](../data-tools/hierarchical-update.md)

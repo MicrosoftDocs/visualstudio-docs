@@ -1,5 +1,5 @@
 ---
-title: Set up Visual Studio subscriptions with GitHub Enterprise
+title: Set up subscriptions with GitHub Enterprise
 author: evanwindom
 ms.author: amast
 manager: shve

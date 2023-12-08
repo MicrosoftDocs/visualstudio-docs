@@ -98,6 +98,8 @@ items:
         href: msbuild-roslyncodetaskfactory.md
     - name: Comparing properties and items
       href: comparing-properties-and-items.md
+    - name: Evaluate items and properties
+      href: evaluate-items-and-properties.md
     - name: Special characters
       items:
       - name: MSBuild special characters

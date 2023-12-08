@@ -57,7 +57,7 @@ If you move an existing interpreter to a new location using the file system, Vis
 
 Following this process ensures that the registry entries that identify the interpreter's location, which Visual Studio uses, are properly updated. Using an installer also handles any other side effects that may exist.
 
-## See also
+## Related content
 
 - [Manage Python environments](managing-python-environments-in-visual-studio.md)
 - [Select an interpreter for a project](selecting-a-python-environment-for-a-project.md)

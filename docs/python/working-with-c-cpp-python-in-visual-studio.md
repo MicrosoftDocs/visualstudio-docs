@@ -479,6 +479,6 @@ You can create Python extensions in various ways, as described in the following 
 | [Boost.Python](https://www.boost.org/doc/libs/1_66_0/libs/python/doc/html/index.html) | 2002    |                                                                     |
 | [cppyy](https://cppyy.readthedocs.io/)                                                | 2017    |                                                                     |
 
-## See also
+## Related content
 
 You'll find the completed sample from this walkthrough on GitHub at [python-samples-vs-cpp-extension](https://github.com/Microsoft/python-sample-vs-cpp-extension).

@@ -65,7 +65,7 @@ If you only have access to a public key, you can use delay-signing to defer assi
 
 For information about signing manifests, see [How to: Sign application and deployment manifests](../ide/how-to-sign-application-and-deployment-manifests.md).
 
-## See also
+## Related content
 
 - [Strong-named assemblies](/dotnet/framework/app-domains/strong-named-assemblies)
 - [Strong-named assemblies (C++/CLI)](/cpp/dotnet/strong-name-assemblies-assembly-signing-cpp-cli)

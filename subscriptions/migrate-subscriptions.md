@@ -1,5 +1,5 @@
 ---
-title: Migrate Visual Studio subscriptions to a new agreement
+title: Migrate subscriptions to a new agreement
 author: evanwindom
 ms.author: amast
 manager: shve

@@ -38,7 +38,7 @@ The following section shows you how to modify a template to replace the name of 
     <ProjectItem ReplaceParameters="true">Class1.cs</ProjectItem>
     ```
 
-## See also
+## Related content
 
 - [Create project and item templates](../ide/creating-project-and-item-templates.md)
 - [Template parameters](../ide/template-parameters.md)

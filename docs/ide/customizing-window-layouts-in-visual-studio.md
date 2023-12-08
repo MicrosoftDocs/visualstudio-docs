@@ -282,6 +282,6 @@ We’ve made it easier to restore documents that you’ve last opened, similar t
 
 ::: moniker-end
 
-## See also
+## Related content
 
 - [How to: Move around in the IDE](../ide/how-to-move-around-in-the-visual-studio-ide.md)

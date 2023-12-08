@@ -92,7 +92,7 @@ If a Restaurant deletes a Menu Item while a Customer is Ordering a Meal, any Ord
 
 See [Model your app's architecture](../modeling/model-your-app-s-architecture.md) to learn how to develop code that adheres to quality of service requirements.
 
-## See also
+## Related content
 
 - [Use models in your development process](../modeling/use-models-in-your-development-process.md)
 - [Model your app's architecture](../modeling/model-your-app-s-architecture.md)

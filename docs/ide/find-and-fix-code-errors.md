@@ -1,6 +1,6 @@
 ---
 title: Fix program errors and improve code
-description: This article describes some basic ways Visual Studio can help you find and fix problems in your code, including build errors, code analysis, debugging tools, and unit tests.
+description: Explore how Visual Studio can help you find and fix problems in your code, including build errors, code analysis, debugging tools, and unit tests.
 ms.date: 04/25/2023
 ms.topic: conceptual
 author: Mikejo5000
@@ -156,7 +156,7 @@ To get started, read [Generate unit tests for fuzz testing by using IntelliTest]
 
 To learn more about unit tests in Visual Studio and how they can help you create better quality code, read [Unit test basics](../test/unit-test-basics.md).
 
-## See also
+## Related content
 
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Generate, fix, and refactor code](../ide/code-generation-in-visual-studio.md)

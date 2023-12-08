@@ -1,6 +1,6 @@
 ---
 title: Manage Updates for a ClickOnce Application
-description: Learn about options to check for updates automatically or programmatically for your ClickOnce applications.
+description: Explore management options to check for recent updates automatically or programmatically for your ClickOnce applications.
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 

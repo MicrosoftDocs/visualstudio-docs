@@ -92,7 +92,7 @@ Alternately, you can determine the Toolset programmatically by calling the metho
 
 - [GetPathToBuildTools](/previous-versions/visualstudio/visual-studio-2013/dn251121(v=vs.121)) returns the path of the build tools.
 
-## See also
+## Related content
 
 - [Standard and custom Toolset configurations](../msbuild/standard-and-custom-toolset-configurations.md)
 - [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)

@@ -1,7 +1,7 @@
 ---
 title: Configure policies for enterprise deployments
 description: Configure domain policies, related registry keys, and other configuration operations for enterprise deployments of Visual Studio.
-ms.date: 8/8/2023
+ms.date: 11/27/2023
 ms.topic: conceptual
 f1_keywords:
 - gpo
@@ -29,7 +29,7 @@ You can configure certain aspects of Visual Studio's deployment and update behav
 - Which update channels are available and how they're presented to the client
 - How notifications appear or don't appear
 
-You can use the [Visual Studio Administrative Templates ADMX](administrative-templates.md) to configure and deploy these policies across the organization by using [Microsoft Intune](/mem/intune/fundamentals/whats-new#visual-studio-admx-settings-are-in-the-settings-catalog-and-administrative-templates-) or by setting registry values directly on the client machine. You can configure per instance behaviors by using [command-line options](use-command-line-parameters-to-install-visual-studio.md) on the client machine.
+You can use the [Microsoft Intune settings catalog](/mem/intune/configuration/settings-catalog) or import our [Visual Studio Administrative Templates ADMX](administrative-templates.md) into legacy tools like Group Policy editor to configure and deploy the global machine wide policies across your organization. You can also set registry values directly on the client machine. Per instance behaviors are typically controlled by using [command-line options](use-command-line-parameters-to-install-visual-studio.md) on the client machine.
 
 ## Registry keys
 
@@ -69,11 +69,12 @@ The registry settings in this section control if and how administrator updates a
 | **Name**                         | **Type**                    | **Default**                                         | **Description**           |
 |----------------------------------|-----------------------------|-----------------------------------------------------|---------------------------|
 | `AdministratorUpdatesEnabled`| `REG_DWORD`                 | 0                                                   | **Enable administrator updates**: allows administrator updates to be applied to the client computer. If this value is missing or is set to 0, administrator updates will be blocked. A value of 1 makes the client machine available for updates deployed through the WSUS/SCCM channel. The recommended value of **2** makes the client machine available to receive updates deployed through either the WSUS/SCCM channel or the Windows Update for Business/Intune/Microsoft Endpoint manager channel. This registry key is for the administrator user. For more information, see [Enabling Administrator Updates](enabling-administrator-updates.md). |
+| `AdministratorUpdatesNotifications`| `REG_DWORD`           | 0                                                   | **Enables admins to notify users to close Visual Studio to unblock the administrator update**: If Visual Studio is open or in use, then the administrator update will fail to apply. By setting this registry key, the administrator can cause a Windows toast notification prompt that prompts the user to close Visual Studio and save their work so that the pending update can apply. This registry key is for the administrator user. For more information, refer to the [blog post announcement](https://devblogs.microsoft.com/visualstudio/visual-studio-17-8-now-available/#administrators-can-prompt-users-to-close-to-unblock-updates). |
 | `AdministratorUpdatesOptOut` | `REG_DWORD`                 | 0                                                   | **Opt out of administrator updates**: indicates that the user does not want to receive administrator updates to Visual Studio. The absence of the registry value, or a set value of 0, means that the Visual Studio user wants to receive administrator updates to Visual Studio. This policy is for the developer user to configure if they have admin permissions on the client machine. <br> <br> Note that the AdministratorUpdatesOptOut key for encoding user preference is prioritized over the AdministratorUpdatesEnabled key, which encodes the IT admin intent. If AdministratorUpdatesOptOut is set to 1, the update will be blocked on the client, even if the AdministratorUpdatesEnabled key is also set to 1. This action assumes that IT admins can access and monitor which developers chose to opt out, and that the two parties can then discuss whose needs are more important. IT admins can always change either key whenever they want.|
 | `UpdateConfigurationFile`    | `REG_SZ` or `REG_EXPAND_SZ`  | %ProgramData%<br>\Microsoft<br>\VisualStudio<br>\updates.config | **Custom path to the update configuration file**: the path to the file on the client that can be used to configure Administrative Updates. By default, this file doesn't exist and the policy isn't set. If you choose to add this policy to the client machine and define a custom configuration file location, then the Administrator update will look for this file; if the file doesn’t exist, then an exception will be thrown and the update will fail. For more information, see [Methods for configuring an administrator update](../install/applying-administrator-updates.md#methods-for-configuring-an-administrator-update).   |    
 
 > [!IMPORTANT]
-> Cloud connected client machines that are managed by Intune must be configured for [Windows Update for Business](/windows/deployment/update/waas-manage-updates-wufb) and opted into the [AllowMUUpdateServicePolicy](/windows/client-management/mdm/policy-csp-update#update-allowmuupdateservice) in order to receive Visual Studio  administrator updates through the Windows Update for Business Microsoft Update channel.
+> Cloud connected client machines that are managed by Intune must be configured for [Windows Update for Business](/windows/deployment/update/waas-manage-updates-wufb) and opted into the ["Enable Updates for other Microsoft Products"](/windows/client-management/mdm/policy-csp-update#update-allowmuupdateservice) in order to receive Visual Studio administrator updates through the Windows Update for Business Microsoft Update channel.
 
 ## Configuring source location for updates 
 
@@ -201,7 +202,7 @@ If the value doesn’t exist (this is the condition by default), the previous co
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 
 - [Install Visual Studio](install-visual-studio.md)
 - [Visual Studio administrator guide](visual-studio-administrator-guide.md)

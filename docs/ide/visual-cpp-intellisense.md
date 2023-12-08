@@ -1,6 +1,6 @@
 ---
 title: C++ IntelliSense
-description: Learn about some IntelliSense features that you can use while coding your C++ project.
+description: Explore some IntelliSense features that you can use while coding your C++ project, such as statement completion, help with parameters, and error indicators.
 ms.date: 10/08/2018
 ms.topic: conceptual
 author: tylermsft
@@ -97,7 +97,7 @@ Since different people have different ideas about what is convenient, virtually 
 
 ![Tool Options dialog box](../ide/media/sintellisensecpptoolsoptions.PNG)
 
-## See also
+## Related content
 
 - [Using IntelliSense](../ide/using-intellisense.md)
 - [Configure a C++ project for IntelliSense](visual-cpp-intellisense-configuration.md)

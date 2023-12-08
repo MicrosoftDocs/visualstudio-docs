@@ -1,6 +1,6 @@
 ---
 title: "Create a Vue.js app using Node.js"
-description: You can create Node.js applications in Visual Studio using the Vue.js framework
+description: Create Node.js applications in Visual Studio by using the Vue.js framework along with JavaScript or the TypeScript programming language.
 ms.date: "11/06/2023"
 ms.topic: "how-to"
 ms.devlang: javascript
@@ -179,7 +179,7 @@ cd ../
 
 * Running the command `npm run build` as a pre-build event on the project properties doesn't work when using vue-cli 3.0.
 
-## See also
+## Related content
 
 - [Vue get started guide](https://vuejs.org/v2/guide).
 - [Vue CLI project](https://github.com/vuejs/vue-cli).

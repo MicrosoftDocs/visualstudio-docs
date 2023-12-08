@@ -42,7 +42,7 @@ ms.technology: sharepoint-development
 
      The **Business Data Connectivity Model** item is added to the project.
 
-## See also
+## Related content
 - [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md)
 - [How to: Create a BDC model](../sharepoint/how-to-create-a-bdc-model.md)
 - [How to: Use a resource file to specify localized names, properties, and permissions](../sharepoint/how-to-use-a-resource-file-to-specify-localized-names-properties-and-permissions.md)

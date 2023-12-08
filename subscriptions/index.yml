@@ -1,118 +1,97 @@
-### YamlMime:Hub
+### YamlMime:Landing
+
 title: Visual Studio Subscriptions documentation
 summary: "Visual Studio subscriptions benefits include access to developer tools, cloud services and software, training, and support for your development and testing needs."
-brand: visual-studio
 metadata:
-  title: Visual Studio Subscriptions
+  title: Visual Studio Subscriptions documentation
   description: Explore documentation about Visual Studio subscriptions to create applications on Windows, iOS, Android, and Linux with developer tools, cloud services, and more.
-  ms.topic: hub-page
+  ms.topic: landing-page
+  ms.prod: visual-studio-windows
+  ms.technology: vs-ide-general  
   author: evanwindom
   ms.author: amast
   manager: shve
   ms.date: 05/02/2022
 
-highlightedContent:
-  items:
-  - title: What's new in Visual Studio Subscriptions
-    itemType: whats-new
-    url: ~/whats-new-in-subscriptions.md
-  - title: How to use the subscriber portal
-    itemType: how-to-guide
-    url: ~/using-the-subscriber-portal.md
-  - title: How to use the administrator portal
-    itemType: how-to-guide
-    url: ~/using-admin-portal.md
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
 
 
-conceptualContent:
-  title: Get started 
-  items:
-    - title: Using benefits
-      links:
-        - text: Azure credit
-          url: /azure/devtest/offer/quickstart-individual-credit
-          itemType: get-started
-        - text: Software downloads
-          url: ~/software-download-list.md
-          itemType: get-started
-      footerLink:
-        url: ~/about-benefits.md
-        text: See more
-    - title: Popular resources
-      links:
-        - text: Compare options and pricing
-          url: https://visualstudio.microsoft.com/vs/pricing
-          itemType: overview
-        - text: Visual Studio Administration & Subscriptions support
-          url: https://visualstudio.microsoft.com/support/support-overview-vs
-          itemType: overview
-    - title: Subscriptions portal access
-      links:
-        - text: Subscribers
-          url: https://my.visualstudio.com/
-          itemType: get-started
-        - text: Administrators
-          url: https://manage.visualstudio.com/
-          itemType: get-started
+landingContent: 
 
-tools: 
-  title: Products available
-  summary: "Products & services available via Visual Studio Subscriptions"
-  items: 
-    - title: Azure
-      imageSrc: https://learn.microsoft.com/media/logos/logo_azure.svg
-      url: /azure/
-    - title: Visual Studio IDE 
-      imageSrc: https://learn.microsoft.com/media/logos/logo_vs-ide.svg 
-      url: /visualstudio/windows/ 
-    - title: Azure DevOps Services 
-      imageSrc: https://learn.microsoft.com/media/logos/logo_vs-team-services.svg
-      url: /azure/devops/
-    - title: GitHub Enterprise
-      imageSrc: ../subscriptions/_img/index-page/GitHub-Mark.svg
-      url: ~/access-github.md
-    - title: Visual Studio for Mac 
-      imageSrc: https://learn.microsoft.com/media/logos/logo_vs-mac.svg
-      url: /visualstudio/mac/ 
-    - title: Visual Studio App Center
-      imageSrc: https://learn.microsoft.com/media/logos/logo_vs-mobile-center.svg
-      url: /appcenter/ 
-
-
-
-additionalContent:
-  sections:
-  - title: Benefit details
-    summary: "Your subscription may include these benefits"
-    items:
-      - title: Developer tools
+  
+  # Card
+  - title: Get Started with Subscriptions
+    linkLists:
+      - linkListType: get-started
         links:
-          - text: Visual Studio
+          - text: "What's a subscription?"
+            url: what-are-subscriptions.md
+          - text: Get started with your subscription
+            url: ~/new-subscriber.md
+          - text: "Compare options & pricing"
+            url: https://visualstudio.microsoft.com/vs/pricing
+      - linkListType: whats-new
+        links:          
+          - text: "What's new in subscriptions"
+            url: ~/whats-new-in-subscriptions.md      
+
+
+  # Card
+  - title: Use the Subscriber portal
+    linkLists:            
+      - linkListType: get-started
+        links:
+          - text: Tour the subscriber portal
+            url: ~/using-the-subscriber-portal.md
+      - linkListType: reference
+        links:
+          - text: Visit Subscriber portal
+            url: https://my.visualstudio.com/
+          - text: Contact your subscription admin 
+            url:  ~/contact-my-admin.md
+
+  # Card
+  - title: Use the Administrator portal
+    linkLists:            
+      - linkListType: get-started
+        links:
+          - text: Tour the administrator portal
+            url: ~/using-admin-portal.md
+      - linkListType: reference
+        links:
+          - text: Visit Administrator portal
+            url: https://manage.visualstudio.com/            
+          - text: Support for subscribers
+            url:  https://visualstudio.microsoft.com/support/support-overview-vs
+
+
+  # Card
+  - title: Benefits for subscribers
+    linkLists:            
+      - linkListType: get-started
+        links:
+          - text: Use your Azure credits
+            url: /azure/devtest/offer/quickstart-individual-credit
+          - text: Get included software downloads
+            url: ~/software-download-list.md
+          - text: Find more benefits
+            url: ~/about-benefits.md        
+      - linkListType: overview
+        links:
+          - text: Visual Studio benefits
             url: ~/vs-ide-benefit.md
-            note: (including Visual Studio for Mac)
-      - title: Cloud services
-        links:
-          - text: Azure Dev/Test
-            url: /azure/devtest/offer/
-          - text: Visual Studio App Center
-            url: ~/vs-visual-studio-app-center.md
           - text: Azure DevOps Server and CAL
             url: ~/vs-vsts.md
           - text: Microsoft 365 Developer Subscription
             url: ~/vs-office-dev.md
           - text: Windows Developer Account
             url: ~/vs-windows-dev.md
-      - title: Training and Support
-        links:
           - text: LinkedIn Premium
             url: ~/vs-linkedin-learning.md
-            note: (business, tech, and creative)
           - text: Pluralsight
             url: ~/vs-pluralsight.md
-            note: (cloud, design, mobile and data)
           - text: Data Camp
             url: ~/vs-datacamp.md
-            note: (data science and AI)
           - text: Microsoft Professional Technical Support incidents
             url: ~/vs-tech-support.md
           - text: Azure Community

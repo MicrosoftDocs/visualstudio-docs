@@ -267,6 +267,6 @@ To complete the FillOrCancel form logic, follow these steps.
 
 Run the application and try creating a few customers and orders to verify that everything is working as expected. To verify that the database is updated with your changes, open the **Tables** node in **Server Explorer**, right-click on the **Customers** and **Orders** nodes, and choose **Show Table Data**.
 
-## See also
+## Related content
 
 - [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)

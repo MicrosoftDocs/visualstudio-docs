@@ -54,7 +54,7 @@ To enable or disable the Diagnostic Tools window:
 
 2. Check or clear **Enable Diagnostics Tools while debugging**.
 
-## See also
+## Related content
 
 - [Profiling in Visual Studio](../profiling/index.yml)
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)

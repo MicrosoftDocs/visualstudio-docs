@@ -1,5 +1,5 @@
 ---
-title:  Contact your subscription admin in the Subscriber Portal
+title: Contact a subscription admin in Subscriber Portal
 author: evanwindom
 ms.author: amast
 manager: shve

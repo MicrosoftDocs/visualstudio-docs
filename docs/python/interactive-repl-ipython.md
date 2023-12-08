@@ -73,6 +73,6 @@ For this walkthrough, you will need to have installed IPython, numpy and matplot
 
 IPython has many other useful features such as escaping to the system shell, variable substitution, capturing output, etc. Refer to the [IPython documentation](https://ipython.org/documentation.html) for more.
 
-## See also
+## Related content
 
 - The [Azure Data Science Virtual Machine](/azure/machine-learning/data-science-virtual-machine/overview) is pre-configured to run Jupyter notebooks along with a wide range of other data science tools.

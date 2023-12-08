@@ -478,7 +478,7 @@ partial class MyDiagram
 ## Store Partitions
  When a model is loaded, the accompanying diagram is loaded at the same time. Typically, the model is loaded into Store.DefaultPartition, and the diagram content is loaded into another Partition. Usually, the content of each partition is loaded and saved to a separate file.
 
-## See also
+## Related content
 
 - <xref:Microsoft.VisualStudio.Modeling.ModelElement>
 - [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md)

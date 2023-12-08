@@ -1,6 +1,6 @@
 ---
-title: "Visual Studio Tools for Unreal Engine"
-description: "Learn about Visual Studio Tools for Unreal Engine."
+title: Visual Studio Tools for Unreal Engine
+description: Explore the Visual Studio Tools for Unreal Engine, which makes it easier to write and debug C++ code for Unreal Engine from within Visual Studio.
 ms.date: 08/01/2023
 ms.prod: visual-studio
 ms.technology: vs-unreal-engine-tools

@@ -123,7 +123,7 @@ The following image shows the **Show Preview Tooltip** option:
 > [!TIP]
 > To change the colors that you see in map mode, choose **Tools** > **Options** > **Environment** > **Fonts and Colors**. Next, in **Display items**, choose any of the items that are preceded with "Overview", make the color changes you want, and then choose **OK**.
 
-## See also
+## Related content
 
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
 - [Learn about the Editor Sticky Scroll feature](editor-sticky-scroll.md)

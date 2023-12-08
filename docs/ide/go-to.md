@@ -86,7 +86,7 @@ Use preview tab | Display the selected item immediately in the IDE's preview tab
 Show details | Display project, file, line, and summary information from documentation comments in the window
 Center window | Move this window to the top-center of the code editor, instead of the top-right
 
-## See also
+## Related content
 
 - [Navigate code](../ide/navigating-code.md)
 - [Go To Line dialog box](../ide/reference/go-to-line.md)

@@ -37,7 +37,7 @@ When you build your project, the development environment automatically copies yo
 
      A file named *App.config* is added to your project.
 
-## See also
+## Related content
 
 - [Manage application settings (.NET)](../ide/managing-application-settings-dotnet.md)
 - [Configuration file schema (.NET Framework)](/dotnet/framework/configure-apps/file-schema/index)

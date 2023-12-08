@@ -128,7 +128,7 @@ Quickly search Unity documentation by highlighting a class or method name, then 
 Syntax highlighting and auto-complete for shader files. 
 
 ### Support for assembly definition files
-Edit Unity Assembley Definition (.asmdef) files directly in Visual Studio with keyword coloring and completions.
+Edit Unity Assembly Definition (.asmdef) files directly in Visual Studio with keyword coloring and completions.
 
 :::zone pivot="macos"
 ### Run and debug unit tests

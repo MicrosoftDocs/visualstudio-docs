@@ -1,5 +1,5 @@
 ---
-title: MSBuild Inline Tasks
+title: Create MSBuild inline tasks 
 description: Create MSBuild inline tasks by compiling a class that implements the Microsoft.Build.Framework.ITask interface in Visual Studio.
 ms.date: 10/31/2023
 ms.topic: conceptual
@@ -189,7 +189,7 @@ File.WriteAllText(Path, content);
 </Project>
 ```
 
-## See also
+## Related content
 
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Walkthrough: Create an inline task](../msbuild/walkthrough-creating-an-inline-task.md)

@@ -112,7 +112,7 @@ Generated when a `Catch` block is never reached due to its relation to other `Ca
 
 ID: 42029, 42031
 
-## See also
+## Related content
 
 - [Error types](/dotnet/visual-basic/programming-guide/language-features/error-types)
 - [Try...Catch...Finally statement](/dotnet/visual-basic/language-reference/statements/try-catch-finally-statement)

@@ -54,7 +54,7 @@ Several Unity plugins like Parse, FMOD, UMP (Universal Media Player), ZFBrowser,
 
 For FMOD, there is a workaround, you can pass `FMOD_STUDIO_INIT_SYNCHRONOUS_UPDATE` initialization [flag](https://www.fmod.com/resources/documentation-studio?version=2.0&page=https://fmod.com/resources/documentation-api?version=2.0&page=studio-api-system.html#fmod_studio_initflags) to disable asynchronous processing and perform all processing on the main thread.
 
-If you are developping your own native plugin, We recommend using *asynchronous procedure calls* ([APC](/windows/win32/sync/asynchronous-procedure-calls)) and especially `SleepEx`, `SignalObjectAndWait`, `MsgWaitForMultipleObjectsEx`, `WaitForMultipleObjectsEx`, or `WaitForSingleObjectEx` functions to properly cooperate with Unity and Mono when the debugger needs to suspend threads.
+If you are developing your own native plugin, We recommend using *asynchronous procedure calls* ([APC](/windows/win32/sync/asynchronous-procedure-calls)) and especially `SleepEx`, `SignalObjectAndWait`, `MsgWaitForMultipleObjectsEx`, `WaitForMultipleObjectsEx`, or `WaitForSingleObjectEx` functions to properly cooperate with Unity and Mono when the debugger needs to suspend threads.
 
 ## Incompatible project in Visual Studio
 
@@ -115,7 +115,7 @@ USB is super-fast for debugging, and Visual Studio Tools for Unity is now able t
 
 ## Issues with IntelliSense or code coloration
 
-Try upgrading your Visual Studio to the latest version. Try the same same troubleshooting steps as for [Incompatible projects](#incompatible-project-in-visual-studio).
+Try upgrading your Visual Studio to the latest version. Try the same troubleshooting steps as for [Incompatible projects](#incompatible-project-in-visual-studio).
 
 ## Known issues
 

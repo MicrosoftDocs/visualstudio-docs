@@ -34,7 +34,7 @@ If you are using legacy FxCop analyzers or FxCop analyzers and want to use the .
 - [Migrate from legacy analysis to .NET analyzers](migrate-from-legacy-analysis-to-net-analyzers.md)
 - [Migrate from FxCop analyzers to .NET analyzers](migrate-from-fxcop-analyzers-to-net-analyzers.md)
 
-## See also
+## Related content
 
 - [Overview of code analyzers in Visual Studio](roslyn-analyzers-overview.md)
 - [Use code analyzers in Visual Studio](use-roslyn-analyzers.md)

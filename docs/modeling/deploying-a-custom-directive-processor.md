@@ -192,6 +192,6 @@ There are several ways of creating a .vsix file. The following procedure describ
 |Class|REG_SZ|\<**Your Fully Qualified Class Name**>|
 |Assembly|REG_SZ|\<**Your Assembly Name in the GAC**>|
 
-## See also
+## Related content
 
 - [Creating Custom T4 Text Template Directive Processors](../modeling/creating-custom-t4-text-template-directive-processors.md)

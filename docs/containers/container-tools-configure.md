@@ -92,6 +92,6 @@ To disable this feature, set the **Tools** > **Options** setting **Run a service
 
 :::moniker-end
 
-## Next steps
+## Related content
 
 Read more about working with containers in Visual Studio in this [overview](overview.md).

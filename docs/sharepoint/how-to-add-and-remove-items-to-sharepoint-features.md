@@ -48,6 +48,6 @@ ms.technology: sharepoint-development
 
      The SharePoint Project Items appear in the **Items in the Solution** list.
 
-## See also
+## Related content
 - [Create SharePoint features](../sharepoint/creating-sharepoint-features.md)
 - [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

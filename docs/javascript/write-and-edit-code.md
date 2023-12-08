@@ -115,7 +115,7 @@ for (var i = 0; i < length; i++) {
 
 You can look at the available code snippets for your language by choosing **Edit** > **IntelliSense** > **Insert Snippet**, and then choosing your language's folder.
 
-## See also
+## Related content
 
 - [Code snippets](../ide/code-snippets.md)
 - [Navigate code](../ide/navigating-code.md)

@@ -116,7 +116,7 @@ You cannot reference any MSBuild types (from the `Microsoft.Build` namespace) in
 
 To specify an MSBuild instance, you can select a result of `MSBuildLocator.QueryVisualStudioInstances` to pass to `MSBuildLocator.RegisterInstance` using the custom logic you need.
 
-## Next steps
+## Related content
 
 Learn about MSBuild APIs by consulting the MSBuild API Reference:
 

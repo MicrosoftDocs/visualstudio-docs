@@ -1,5 +1,5 @@
 ---
-title: Signing in to Visual Studio subscriptions with your GitHub account
+title: Sign into subscription with your GitHub account
 author: evanwindom
 ms.author: amast
 manager: shve

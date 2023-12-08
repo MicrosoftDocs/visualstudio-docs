@@ -69,7 +69,7 @@ ms.technology: sharepoint-development
 
  For more information, see [How to: Define the type descriptor of a parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md).
 
-## See also
+## Related content
 - [How to: Create a BDC model](../sharepoint/how-to-create-a-bdc-model.md)
 - [How to: Add an entity to a model](../sharepoint/how-to-add-an-entity-to-a-model.md)
 - [How to: Add a Finder method](../sharepoint/how-to-add-a-finder-method.md)

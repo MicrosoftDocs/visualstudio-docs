@@ -69,7 +69,7 @@ When deciding where to put the properties, use the following general guidelines:
 
 - If possible, prefer customizing properties at evaluation time over changing properties inside a target. This guideline makes it easier to load a project and understand what it's doing.
 
-## See also
+## Related content
 
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)
 

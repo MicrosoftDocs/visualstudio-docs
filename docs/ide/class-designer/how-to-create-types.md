@@ -157,7 +157,7 @@ Properties and fields that are collections of other types can be displayed on th
 
 The property or field is shown as an association line linking to the collected type.
 
-## See also
+## Related content
 
 - [Create and configure type members in Class Designer](creating-and-configuring-type-members.md)
 - [What is Class Designer?](designing-and-viewing-classes-and-types.md)

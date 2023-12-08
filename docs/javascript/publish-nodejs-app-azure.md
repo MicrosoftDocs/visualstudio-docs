@@ -1,6 +1,6 @@
 ---
 title: "Publish a Node.js app to Linux App Service"
-description: You can publish Node.js applications created in Visual Studio to Linux App Service on Azure
+description: Publish Node.js applications created in Visual Studio to Linux App Service on Azure, which deploys a Linux Docker container to run the Node.js application.
 ms.date: 11/06/2023
 ms.topic: tutorial
 ms.devlang: javascript

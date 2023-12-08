@@ -178,6 +178,6 @@ See [this guide](https://github.com/dotnet/project-system-tools) in the Project 
 
 You can view and search your *.binlog* files by using the [MSBuild Structured Log Viewer](http://www.msbuildlog.com/).
 
-## See also
+## Related content
 
 - [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

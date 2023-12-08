@@ -1,6 +1,6 @@
 ---
 title: "Create an Angular app"
-description: In this tutorial, learn how to create a simple Angular application in Visual Studio.
+description: Create, build, and run a simple Angular front-end web application project from a Visual Studio template, and set basic properties for the project.
 ms.date: 05/26/2023
 ms.custom: vs-acquisition
 ms.topic: tutorial

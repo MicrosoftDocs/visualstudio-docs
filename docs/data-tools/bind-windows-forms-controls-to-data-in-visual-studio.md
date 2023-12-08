@@ -77,7 +77,7 @@ The following illustration shows the default data-bound controls that are added 
 
 Note also that each control has a smart tag. This tag enables customizations that apply to that control only.
 
-## See also
+## Related content
 
 - [Binding controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)
 - [Data binding in Windows Forms (.NET Framework)](/dotnet/framework/winforms/windows-forms-data-binding)

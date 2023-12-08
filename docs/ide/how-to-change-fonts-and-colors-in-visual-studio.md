@@ -333,7 +333,7 @@ For more information about features, products, and services that make Windows mo
 
 The accessibility information included on this page might apply only to users who license Microsoft products in the United States. If you obtained this product outside of the United States, visit the [Microsoft Accessibility](https://www.microsoft.com/accessibility/) website for a list of Microsoft support services telephone numbers and addresses. You can contact your subsidiary to find out whether the type of products and services described on this page are available in your area. Information about accessibility is also available in other languages.
 
-## See also
+## Related content
 
 - [Features of the code editor in Visual Studio](../ide/writing-code-in-the-code-and-text-editor.md)
 - [Personalize the Visual Studio IDE and the editor](../ide/quickstart-personalize-the-ide.md)

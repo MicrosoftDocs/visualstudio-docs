@@ -66,7 +66,7 @@ The order you see listed is the desired logical build order, but in practice, Vi
 
 ![Screenshot of the Build order tab.](media/vs-2022/project-build-order.png)
 
-## See also
+## Related content
 
 - [Build and clean projects and solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)
 - [Compile and build](../ide/compiling-and-building-in-visual-studio.md)

@@ -134,7 +134,7 @@ If `StorePID.exe` successfully applies the product key, it returns an `%ERRORLEV
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 
 * [Install Visual Studio](../install/install-visual-studio.md)
 * [Create an offline installation of Visual Studio](../install/create-an-offline-installation-of-visual-studio.md)

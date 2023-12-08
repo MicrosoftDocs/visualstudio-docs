@@ -8,6 +8,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-debug
 ---
 # Analyze performance of .NET asynchronous code
 
@@ -42,7 +43,7 @@ To further investigate a specific task or activity, right-click the row. Then se
 
 ![.NET Async tool with Go To Source File selected](../profiling/media/async-tool-gotosource.png ".NET Async tool with Go To Source File selected")
 
-## See also
+## Related content
 
 - [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md)
 - [Identify hot paths with Flame Graph](../profiling/flame-graph.md)

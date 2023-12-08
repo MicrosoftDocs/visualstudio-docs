@@ -1,6 +1,6 @@
 ---
 title: "Migrate Node.js projects"
-description: Learn how to migrate a Node.js project to the JavaScript project system (.esproj)
+description: Migrate Node.js projects to the JavaScript project system (.esproj) and access updates including npm dependency management, unit testing, and launch settings.
 ms.date: "07/10/2023"
 ms.topic: "how-to"
 ms.devlang: javascript

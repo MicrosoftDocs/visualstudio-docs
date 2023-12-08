@@ -40,7 +40,7 @@ If you would like to examine the solution project, you can use a debugging optio
 
 Do not build with this environment variable set unless you need this internal view. This setting can cause problems building projects in your solution. Look in the [binary log](obtaining-build-logs-with-msbuild.md#save-a-binary-log) instead.
 
-## See also
+## Related content
 
 - [Command-line reference](../msbuild/msbuild-command-line-reference.md)
 - [MSBuild reference](../msbuild/msbuild-reference.md)
