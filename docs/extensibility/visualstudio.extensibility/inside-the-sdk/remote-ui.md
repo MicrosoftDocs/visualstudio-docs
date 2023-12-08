@@ -27,7 +27,7 @@ The main differences between Remote UI and normal WPF development are:
 - Remote UI doesn't allow referencing your own custom controls.
 - A *Remote user control* is fully defined in a single XAML file that references a single (but potentially complex and nested) data context object.
 - Remote UI doesn't support code behind or event handlers (workarounds are described in the [advanced Remote UI concepts](advanced-remote-ui.md) document).
-- A *Remote user control* is instantiated in the Visual Studio process, not the process hosting the extension: the XAML can't reference types and assemblies from the extension but can reference types and assemblies from the Visual Studio process. 
+- A *Remote user control* is instantiated in the Visual Studio process, not the process hosting the extension: the XAML can't reference types and assemblies from the extension but can reference types and assemblies from the Visual Studio process.
 
 ## Create a Remote UI Hello World extension
 
@@ -286,13 +286,14 @@ Next, let's make the data context observable and add a button to the toolbox.
 
 The data context can be made observable by implementing [INotifyPropertyChanged](/dotnet/api/system.componentmodel.inotifypropertychanged). Alternatively, Remote UI provides a convenient abstract class, `NotifyPropertyChangedObject`, that we can extend to reduce boilerplate code.
 
-A data context usually has a mix of readonly properties and observable properties. The data context can be a complex graph of objects as long as they're marked with the `DataContract` and `DataMember` attributes and implement `INotifyPropertyChanged` as necessary. it's also possible to have [observable collections](/dotnet/api/system.collections.objectmodel.observablecollection-1).
+A data context usually has a mix of readonly properties and observable properties. The data context can be a complex graph of objects as long as they're marked with the `DataContract` and `DataMember` attributes and implement `INotifyPropertyChanged` as necessary. It's also possible to have observable collections, or an [ObservableList\<T\>](/dotnet/api/microsoft.visualstudio.extensibility.ui.observablelist-1), which is an extended [ObservableCollection\<T\>](/dotnet/api/system.collections.objectmodel.observablecollection-1) provided by Remote UI to also support range operations, allowing better performance.
 
 We also need to add a command to the data context. In Remote UI, commands implement `IAsyncCommand` but it's often easier to create an instance of the `AsyncCommand` class.
 
 `IAsyncCommand` differs from [`ICommand`](/dotnet/api/system.windows.input.icommand) in two ways:
-1. The `Execute` method is replaced with `ExecuteAsync` because everything in Remote UI is async!
-1. The `CanExecute(object)` method is replaced by a `CanExecute` property. The `AsyncCommand` class takes care of making `CanExecute` observable.
+
+- The `Execute` method is replaced with `ExecuteAsync` because everything in Remote UI is async!
+- The `CanExecute(object)` method is replaced by a `CanExecute` property. The `AsyncCommand` class takes care of making `CanExecute` observable.
 
 It's important to note that Remote UI doesn't support event handlers, so all notifications from the UI to the extension must be implemented through databinding and commands.
 

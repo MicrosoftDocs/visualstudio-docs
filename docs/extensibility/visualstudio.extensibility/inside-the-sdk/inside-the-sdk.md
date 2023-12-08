@@ -36,7 +36,7 @@ This is the primary package that contains dependencies to all prerequisite packa
 
 Link: [Microsoft.VisualStudio.Extensibility.Build 17.xxxxx](https://www.nuget.org/packages/Microsoft.VisualStudio.Extensibility.Build/17.6.28-preview-1)
 
-This package contains the build tooling, project capabilities code generators that are necessary for extension to work with F5 debugging in Visual Studio IDE.
+This package contains the build tooling, project capabilities code generators that are necessary for building the extension and for it to work with F5 debugging in the Visual Studio IDE.
 
 ### Dependencies
 
@@ -47,10 +47,6 @@ This package contains the SDK APIs and utility libraries to help develop extensi
 #### Microsoft.VisualStudio.Extensibility.JsonGenerators.Sdk
 
 This package contains the code generators that are necessary for extension metadata to be generated during build. Without this package, a compiled extension may not work correctly as it will not contain the necessary metadata files.
-
-#### Microsoft.VisualStudio.Extensibility.Editor
-
-This package contains the editor related SDK APIs and utilities and is included as a dependency from `Microsoft.VisualStudio.Extensibility`.
 
 ### Optional packages
 
