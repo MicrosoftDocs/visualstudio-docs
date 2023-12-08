@@ -18,10 +18,10 @@ In the Memory Usage tool reference graph, that path to root is the "hot path to 
 ## Example
 In this example, there's a WPF control (`AttachToProcess.Dialog`) being leaked through a binding that is ultimately rooted by an `AutomationPeer`. In the filtered view, this retention path is obvious; only the direct path to the root is visible.
 
-![Screenshot of the Paths to Root reference graph. Show hot paths only is checked, highlighting a linear chain of references.](../profiling/media/hot-path-to-root-example-1.png)
+[ ![Screenshot of the Paths to Root reference graph. Show hot paths only is checked, highlighting a linear chain of references.](../profiling/media/hot-path-to-root-example-1.png) ](../profiling/media/hot-path-to-root-example-1.png#lightbox)
 
 With the option disabled, it becomes clear that there are hundreds of bindings, and most expansion paths lead to dead ends that cycle. Without the visual indicator, it's tedious to sort through thousands of potential retention paths to find a candidate reason for the leak.
-![Screenshot of the same Paths to Root reference graph, but Show hot paths only is unchecked with many possible dead ends visible.](../profiling/media/hot-path-to-root-example-2.png)
+[ ![Screenshot of the same Paths to Root reference graph, but Show hot paths only is unchecked with many possible dead ends visible.](../profiling/media/hot-path-to-root-example-2.png) ](../profiling/media/hot-path-to-root-example-2.png#lightbox)
 
 ## See also
 
