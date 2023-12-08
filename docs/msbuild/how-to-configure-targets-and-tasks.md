@@ -2,7 +2,7 @@
 title: 'Configure Targets and Tasks'
 description: Learn how to set selected MSBuild tasks to run in the environment they target, regardless of the environment of the development computer.
 ms.date: 01/11/2022
-ms.topic: conceptual
+ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 manager: jmartens

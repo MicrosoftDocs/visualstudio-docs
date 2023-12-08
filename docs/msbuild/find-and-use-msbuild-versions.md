@@ -2,7 +2,7 @@
 title: Find MSBuild and use its API
 description: Create a programmatic build app on different machines with the same MSBuild version, and ensure builds from your app match builds in Visual Studio or MSBuild.exe. 
 ms.date: 2/28/2023
-ms.topic: conceptual
+ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 manager: jmartens

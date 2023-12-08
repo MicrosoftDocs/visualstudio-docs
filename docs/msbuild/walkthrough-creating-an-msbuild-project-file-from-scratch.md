@@ -2,7 +2,7 @@
 title: Create an MSBuild project file from scratch
 description: Create an MSBuild project file from scratch to understand how the XML is organized and how you can change it to control a build.
 ms.date: 09/12/2022
-ms.topic: conceptual
+ms.topic: tutorial
 helpviewer_keywords:
 - MSBuild, tutorial
 author: ghogen
