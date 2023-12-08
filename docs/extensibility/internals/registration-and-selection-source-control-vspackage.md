@@ -74,7 +74,7 @@ A source control VSPackage must be registered to expose it to the Visual Studio.
 
   Unlike previous versions of Visual Studio, an IDE restart is no longer the only way to switch source control VSPackages. VSPackage selection is automatic. Switching packages requires Windows User privileges (not Administrator or Power User).
 
-## See also
+## Related content
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionPersistence>
 - [Features](../../extensibility/internals/source-control-vspackage-features.md)
 - [Creating a Source Control Plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md)
