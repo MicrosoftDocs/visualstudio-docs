@@ -20,6 +20,7 @@ You can use these tools in the following configurations:
 |-----------------|--------------------------------|
 |Windows Presentation Foundation (4.0 and later) applications|Windows 7 and later|
 |Universal Windows apps|Windows 10 and later, with the [Windows 10 SDK](https://dev.windows.com/downloads/windows-10-sdk) and later|
+|.NET Multi-platform App UI apps|Windows 10 and later, .NET 8 and later, Visual Studio 2022 17.9 and later|
 
 ## Look at Elements in the Live Visual Tree
 
