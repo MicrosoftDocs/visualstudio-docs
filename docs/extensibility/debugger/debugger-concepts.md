@@ -49,7 +49,7 @@ To build on the Visual Studio debug package, you need to be familiar with the ar
  [Breakpoints](../../extensibility/debugger/breakpoints-visual-studio-sdk.md)
  Defines the three types of breakpoints—pending, bound, and error—in terms of debugging architecture.
 
-## Related content
+## Related sections
  [Debugger contexts](../../extensibility/debugger/debugger-contexts.md)
  Explains how the debug engine (DE) operates simultaneously within code, documentation, and expression evaluation contexts. Describes, for each of the three contexts, the location, position, or evaluation relevant to it.
 

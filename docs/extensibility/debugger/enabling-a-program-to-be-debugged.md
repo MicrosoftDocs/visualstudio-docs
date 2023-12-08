@@ -33,5 +33,4 @@ Before your debug engine (DE) can debug a program, you must first launch the DE 
 
 ## Related content
 
-- [Creating a custom debug engine](../../extensibility/debugger/creating-a-custom-debug-engine.md)
- Defines a debug engine (DE), and describes services implemented through the DE interfaces and how they can cause the debugger to transition between different operational modes.
+- [Creating a custom debug engine](../../extensibility/debugger/creating-a-custom-debug-engine.md) defines a debug engine (DE), and describes services implemented through the DE interfaces and how they can cause the debugger to transition between different operational modes.
