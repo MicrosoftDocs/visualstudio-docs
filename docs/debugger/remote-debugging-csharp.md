@@ -139,7 +139,7 @@ Use one of the following methods to remote debug:
   }
   ```
 
-  When you start debugging, this method deploys an unpackaged version of the app and starts it.
+  When you start debugging, this method first deploys an unpackaged version of the app and starts it.
 
   > [!NOTE]
   > You can't edit *launchSettings.json* in the Debug Launch profile dialog box once you change the value to `MsixPackage`.
