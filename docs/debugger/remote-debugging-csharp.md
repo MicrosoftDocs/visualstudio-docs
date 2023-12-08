@@ -52,7 +52,7 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
 
 1. Create a WPF project named **MyWpf**.
 
-   If you are trying to remote debug a MAUI app instead of WPF, see [Remote debug a .NET MAUI app on Windows](#remote-debug-a-.dot-maui-app-on-windows).
+   If you are trying to remote debug a MAUI app instead of WPF, see [Remote debug a .NET MAUI app on Windows](#remote-debug-a-net-maui-app-on-windows).
 
 2. Set a breakpoint somewhere in the code that is easily reached.
 
