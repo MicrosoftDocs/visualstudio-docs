@@ -71,8 +71,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Walkthrough: Create a code snippet in Visual Studio](../ide/walkthrough-creating-a-code-snippet.md) - fixes [9788](https://github.com/MicrosoftDocs/visualstudio-docs#9788)
 - [Sign in or switch Visual Studio user accounts](../ide/signing-in-to-visual-studio.md) - Update signing-in-to-visual-studio.md
 - [Get better answers by setting the context for GitHub Copilot Chat in Visual Studio](../ide/copilot-chat-context.md)
-  - [Internal] Simplify table for readability
-  - [Internal] AI article title tweaking
   - New doc on improved context in copilot chat
 - [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) - Updated documentation for multiple folder support.
 - [Understand build configurations](../ide/understanding-build-configurations.md) - Review and update
@@ -96,9 +94,9 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 **Updated articles**
 
 - [Unit testing JavaScript and TypeScript in Visual Studio](../javascript/unit-testing-javascript-with-visual-studio.md) - Add example for setting up React unit tests for esproj
-- [Tutorial: Create an ASP.NET Core app with Angular in Visual Studio](../javascript/tutorial-asp-net-core-with-angular.md) - Update React, Vue, Angular tutorials for 17.8 GA
-- [Tutorial: Create an ASP.NET Core app with React in Visual Studio](../javascript/tutorial-asp-net-core-with-react.md) - Update React, Vue, Angular tutorials for 17.8 GA
-- [Tutorial: Create an ASP.NET Core app with Vue in Visual Studio](../javascript/tutorial-asp-net-core-with-vue.md) - Update React, Vue, Angular tutorials for 17.8 GA
+- [Tutorial: Create an ASP.NET Core app with Angular in Visual Studio](../javascript/tutorial-asp-net-core-with-angular.md) - Update React, Vue, Angular tutorials for Visual Studio 17.8 GA
+- [Tutorial: Create an ASP.NET Core app with React in Visual Studio](../javascript/tutorial-asp-net-core-with-react.md) - Update React, Vue, Angular tutorials for Visual Studio 17.8 GA
+- [Tutorial: Create an ASP.NET Core app with Vue in Visual Studio](../javascript/tutorial-asp-net-core-with-vue.md) - Update React, Vue, Angular tutorials for Visual Studio 17.8 GA
 - [Manage npm packages in Visual Studio](../javascript/npm-package-management.md) - Refactor Node.js content in JSTS and update First look at the IDE for JSTS
 - [First look at the Visual Studio IDE](../javascript/quickstart-ide-orientation-js.md) - Refactor Node.js content in JSTS and update First look at the IDE for JSTS
 - [Tutorial: Create a Node.js and React app in Visual Studio](../javascript/tutorial-nodejs-with-react-and-jsx.md) - Refactor Node.js content in JSTS and update First look at the IDE for JSTS
@@ -133,7 +131,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
 
-- [evanwindom](https://github.com/evanwindom) -  ![3 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-3-green)
 - [cw-sexton](https://github.com/cw-sexton) - CW ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 - [Giorgi](https://github.com/Giorgi) - Giorgi Dalakishvili ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 
