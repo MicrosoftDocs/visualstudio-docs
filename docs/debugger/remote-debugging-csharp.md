@@ -126,7 +126,7 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
 
 Use one of the following methods to remote debug:
 
-- Publish the app to the remote device as an unpackaged app using the steps described in [Use the CLI to publish unpackaged .NET MAUI apps for Windows](/dotnet/maui/windows/deployment/publish-unpackaged-cli), and then follow the steps in this article to remote debug. (Skip the steps to copy the app).
+- Publish the app to the remote device as an unpackaged app using the steps described in [Use the CLI to publish unpackaged .NET MAUI apps for Windows](/dotnet/maui/windows/deployment/publish-unpackaged-cli), and then follow the steps in this article to remote debug. (Skip the steps to copy the app.)
 
 - Follow the steps in this article, including steps to create a Debug Launch profile for the project. Before you start debugging, manually edit the *launchSettings.json* file, replacing the **commandName** `Project` value with `MsixPackage`, as shown here.
 
