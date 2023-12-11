@@ -72,7 +72,7 @@ That's all there is to it. Your dialog window is now themed using Visual Studio 
 ## Get the source code
 You can find the source code for this extension in the [Community Toolkit test project](https://github.com/VsixCommunity/Community.VisualStudio.Toolkit/tree/master/demo/VSSDK.TestExtension).
 
-## Additional resources
+## Related content
 Learn more about Visual Studio colors from these resources.
 
 * [Colors and styling for Visual Studio](../../ux-guidelines/colors-and-styling-for-visual-studio.md)

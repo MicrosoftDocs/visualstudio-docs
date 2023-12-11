@@ -122,7 +122,7 @@ Actions in your project query determine what modifications are made to the proje
 |UnloadProject| Represents the operation to unload a project.
 |WaitIntellisenseReady| Represents the operation to wait project or solution intellisense operation progress to be ready.
 
-## Next steps
+## See also
 
 To see some examples of project queries for common tasks, see the [Project Query Overview](./project.md)
 

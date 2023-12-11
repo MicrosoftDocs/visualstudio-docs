@@ -61,7 +61,7 @@ A VSPackage that depends on a custom project subtype should include logic to loo
     }
     ```
 
-## See also
+## Related content
 - [Project subtypes](../extensibility/internals/project-subtypes.md)
 - [Project subtypes design](../extensibility/internals/project-subtypes-design.md)
 - [Properties and methods extended by project subtypes](../extensibility/internals/properties-and-methods-extended-by-project-subtypes.md)

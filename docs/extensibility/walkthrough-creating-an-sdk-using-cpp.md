@@ -179,8 +179,6 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
 
     This walkthrough showed how to create and use an Extension SDK to call into a Windows Runtime library and a non-Windows Runtime library.
 
-## Next steps
-
-## See also
+## Related content
 - [Walkthrough: Create an SDK using C# or Visual Basic](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md)
 - [Create a software development kit](../extensibility/creating-a-software-development-kit.md)

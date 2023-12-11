@@ -147,6 +147,6 @@ After you create a custom editor, you can add more features to it.
 
   - `Window.Object`
 
-## See also
+## Related content
 
 - [Automation model overview](../extensibility/internals/automation-model-overview.md)

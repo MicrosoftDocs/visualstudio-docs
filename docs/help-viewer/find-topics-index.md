@@ -72,7 +72,7 @@ If you do not find an entry for the word or phrase you entered, try the followin
 
     For example, if you entered the term "building", try "creating" instead.
 
-## See also
+## Related content
 
 - [How to: Find topics in the TOC](../help-viewer/find-topics-toc.md)
 - [How to: Search for topics](../help-viewer/find-topics.md)

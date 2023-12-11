@@ -39,7 +39,7 @@ Language-specific options | Contextual options
 -------|--------
 Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.uTabSize<br/>Microsoft.VisualStudio.Package.LanguagePreferences.InsertTabs.TabSize|textBufferOptions.GetOptionValue(DefaultOptions.TabSizeOptionId)<br/>textView.Options.GetOptionValue(DefaultOptions.TabSizeOptionId)
 
-## See also
+## Related content
 
 - [Create portable editor settings using EditorConfig](../ide/create-portable-custom-editor-options.md)
 - [Extending the editor and language services](../extensibility/extending-the-editor-and-language-services.md)
