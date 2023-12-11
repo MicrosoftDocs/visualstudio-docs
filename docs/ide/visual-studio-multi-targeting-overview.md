@@ -97,7 +97,7 @@ In an existing Visual Basic, C#, or F# project, you change the target .NET versi
 
    For a **.NET project**, the dialog might look similar to the following screenshot:
 
-   :::image type="content" source="media/vs-2022/project-properties-target-framework.png" alt-text="Screenshot of the General tab in the Project Properties dialog box, with the 'Target framework' selections showing.":::
+   :::image type="content" source="media/vs-2022/visual-studio-multi-targeting-overview/project-properties-target-framework.png" alt-text="Screenshot of the General tab in the Project Properties dialog box, with the 'Target framework' selections showing.":::
 
 1. If a verification dialog box appears, choose the **Yes** button.
 
@@ -139,7 +139,7 @@ The first screen you'll see is the **Configure your new project** dialog.
 
 The second screen you'll see is the **Additional options** dialog.
 
-:::image type="content" source="media/vs-2022/configure-new-project-additional-info.png" alt-text="Screenshot of the 'Additional options' dialog box in Visual Studio 2022.":::
+:::image type="content" source="media/vs-2022/visual-studio-multi-targeting-overview/configure-new-project-additional-info.png" alt-text="Screenshot of the 'Additional options' dialog box in Visual Studio 2022.":::
 
 ::: moniker-end
 
