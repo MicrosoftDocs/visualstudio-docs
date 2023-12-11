@@ -32,7 +32,7 @@ ms.technology: office-development
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Outlook_RL_UnreadItems/thisaddin.vb" id="Snippet1":::
  ---
 
-## See also
+## Related content
 - [Work with mail items](../vsto/working-with-mail-items.md)
 - [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)
 - [How to: Programmatically create an email item](../vsto/how-to-programmatically-create-an-e-mail-item.md)

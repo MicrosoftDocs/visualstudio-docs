@@ -55,6 +55,6 @@ ms.technology: office-development
 
 4. Build the project and run the application on the computer where you want to remove the customization. The computer must have the Visual Studio 2010 Tools for Office runtime installed.
 
-## See also
+## Related content
 - [Manage documents on a server by using the ServerDocument class](../vsto/managing-documents-on-a-server-by-using-the-serverdocument-class.md)
 - [How to: Attach Managed code extensions to documents](../vsto/how-to-attach-managed-code-extensions-to-documents.md)

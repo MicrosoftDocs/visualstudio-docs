@@ -50,7 +50,7 @@ ms.technology: office-development
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet69":::
      ---
 
-## See also
+## Related content
 - [Walkthrough: Collect data using a Windows form](../vsto/walkthrough-collecting-data-using-a-windows-form.md)
 - [Troubleshoot Office solutions](../vsto/troubleshooting-office-solutions.md)
 - [NamedRange control](../vsto/namedrange-control.md)

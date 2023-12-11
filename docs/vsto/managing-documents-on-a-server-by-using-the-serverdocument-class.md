@@ -59,7 +59,7 @@ ms.technology: office-development
 |To programmatically remove a customization from a document at run time.<br /><br /> For more information, see [How to: Remove managed code Extensions from documents](../vsto/how-to-remove-managed-code-extensions-from-documents.md).|The <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument.RemoveCustomization%2A> method.|
 |To get the URL of the deployment manifest that is associated with the document.|The <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument.DeploymentManifestUrl%2A> property.|
 
-## See also
+## Related content
 - [How to: Attach managed code extensions to documents](../vsto/how-to-attach-managed-code-extensions-to-documents.md)
 - [How to: Remove managed code extensions from documents](../vsto/how-to-remove-managed-code-extensions-from-documents.md)
 - [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)

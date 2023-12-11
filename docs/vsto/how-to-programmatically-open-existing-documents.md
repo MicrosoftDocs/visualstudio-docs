@@ -48,7 +48,7 @@ ms.technology: office-development
 
 - A document named *NewDocument.doc* must exist in a directory named *Test* on drive C.
 
-## See also
+## Related content
 - [How to: Programmatically create new documents](../vsto/how-to-programmatically-create-new-documents.md)
 - [How to: Programmatically close documents](../vsto/how-to-programmatically-close-documents.md)
 - [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)

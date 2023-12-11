@@ -156,7 +156,7 @@ ms.technology: office-development
 
     - <xref:Microsoft.Office.Interop.Word.WdReplace.wdReplaceOne> replaces the first found item.
 
-## See also
+## Related content
 - [How to: Programmatically set search options in Word](../vsto/how-to-programmatically-set-search-options-in-word.md)
 - [How to: Programmatically loop through found items in documents](../vsto/how-to-programmatically-loop-through-found-items-in-documents.md)
 - [How to: Programmatically define and select ranges in documents](../vsto/how-to-programmatically-define-and-select-ranges-in-documents.md)

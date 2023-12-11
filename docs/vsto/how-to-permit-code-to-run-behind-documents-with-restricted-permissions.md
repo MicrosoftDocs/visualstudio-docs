@@ -43,7 +43,7 @@ ms.technology: office-development
 
    Word or Excel will permit programmatic access to the object model.
 
-## See also
+## Related content
 - [Information rights management and managed code extensions overview](../vsto/information-rights-management-and-managed-code-extensions-overview.md)
 - [Document protection in document-level solutions](/previous-versions/visualstudio/visual-studio-2017/vsto/document-protection-in-document-level-solutions)
 - [Password protection on Office documents](../vsto/password-protection-on-office-documents.md)

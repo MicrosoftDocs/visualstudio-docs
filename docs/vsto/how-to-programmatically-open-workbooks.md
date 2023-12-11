@@ -37,7 +37,7 @@ ms.technology: office-development
 
 - A workbook named `YourWorkbook.xls` must exist in a directory named `Test` on drive C.
 
-## See also
+## Related content
 - [Work with workbooks](../vsto/working-with-workbooks.md)
 - [How to: Programmatically open text files as workbooks](../vsto/how-to-programmatically-open-text-files-as-workbooks.md)
 - [How to: Programmatically create new workbooks](../vsto/how-to-programmatically-create-new-workbooks.md)
