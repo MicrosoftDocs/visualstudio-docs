@@ -52,7 +52,7 @@ ms.technology: office-development
 
 - A Visio document named `myDrawing.vsd` must be located in a directory named `Test` in the *My Documents* folder (for Windows XP and earlier) or the *Documents* folder (for Windows Vista).
 
-## See also
+## Related content
 - [Visio solutions](../vsto/visio-solutions.md)
 - [Visio object model overview](../vsto/visio-object-model-overview.md)
 - [How to: Programmatically create new Visio documents](../vsto/how-to-programmatically-create-new-visio-documents.md)

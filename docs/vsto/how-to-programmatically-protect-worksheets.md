@@ -69,7 +69,7 @@ ms.technology: office-development
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb" id="Snippet17":::
      ---
 
-## See also
+## Related content
 - [Work with worksheets](../vsto/working-with-worksheets.md)
 - [How to: Programmatically remove protection from worksheets](../vsto/how-to-programmatically-remove-protection-from-worksheets.md)
 - [How to: Programmatically protect workbooks](../vsto/how-to-programmatically-protect-workbooks.md)

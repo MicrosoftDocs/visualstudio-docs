@@ -101,7 +101,7 @@ ms.technology: office-development
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb" id="Snippet27":::
      ---
 
-## See also
+## Related content
 - [Work with ranges](../vsto/working-with-ranges.md)
 - [Excel object model overview](../vsto/excel-object-model-overview.md)
 - [NamedRange control](../vsto/namedrange-control.md)

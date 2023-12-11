@@ -50,7 +50,7 @@ ms.technology: office-development
 
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet102":::
 
-## See also
+## Related content
 - [How to: Programmatically use Word dialog boxes in hidden mode](../vsto/how-to-programmatically-use-word-dialog-boxes-in-hidden-mode.md)
 - [Word object model overview](../vsto/word-object-model-overview.md)
 - [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)

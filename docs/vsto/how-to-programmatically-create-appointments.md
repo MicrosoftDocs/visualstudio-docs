@@ -24,7 +24,7 @@ ms.technology: office-development
 ## Example
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_OL_CreateAppts/thisaddin.cs" id="Snippet1":::
 
-## See also
+## Related content
 - [Work with calendar items](../vsto/working-with-calendar-items.md)
 - [How to: Programmatically create a custom calendar](../vsto/how-to-programmatically-create-a-custom-calendar.md)
 - [How to: Programmatically add an entry to Outlook contacts](../vsto/how-to-programmatically-add-an-entry-to-outlook-contacts.md)

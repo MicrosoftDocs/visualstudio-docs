@@ -69,7 +69,7 @@ ms.technology: office-development
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet4":::
      ---
 
-## See also
+## Related content
 - [How to: Programmatically open existing documents](../vsto/how-to-programmatically-open-existing-documents.md)
 - [How to: Programmatically save documents](../vsto/how-to-programmatically-save-documents.md)
 - [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
