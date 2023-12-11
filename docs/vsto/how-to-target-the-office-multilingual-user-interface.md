@@ -38,6 +38,6 @@ ms.technology: office-development
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreCreatingExcelVB/Sheet1.vb" id="Snippet10":::
      ---
 
-## See also
+## Related content
 - [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md)
 - [Late binding in Office solutions](../vsto/late-binding-in-office-solutions.md)

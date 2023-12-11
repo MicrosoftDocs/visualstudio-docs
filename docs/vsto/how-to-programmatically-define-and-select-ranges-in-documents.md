@@ -169,7 +169,7 @@ ms.technology: office-development
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb" id="Snippet24":::
      ---
 
-## See also
+## Related content
 - [Word object model overview](../vsto/word-object-model-overview.md)
 - [How to: Programmatically extend ranges in documents](../vsto/how-to-programmatically-extend-ranges-in-documents.md)
 - [How to: Programmatically retrieve start and end characters in ranges](/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-retrieve-start-and-end-characters-in-ranges)

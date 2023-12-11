@@ -32,7 +32,7 @@ This example saves e-mail attachments to a specified folder when the mail is rec
 
 :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_OL_SaveAttachments/thisaddin.cs" id="Snippet1":::
 
-## See also
+## Related content
 
 - [Work with mail items](../vsto/working-with-mail-items.md)
 - [How to: Programmatically retrieve a folder by name](../vsto/how-to-programmatically-retrieve-a-folder-by-name.md)

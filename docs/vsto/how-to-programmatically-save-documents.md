@@ -104,7 +104,7 @@ This code example requires the following:
 
 - To save a document with a new name, a directory named *Test* must exist on drive C.
 
-## See also
+## Related content
 
 - [How to: Programmatically close documents](../vsto/how-to-programmatically-close-documents.md)
 - [How to: Programmatically open existing documents](../vsto/how-to-programmatically-open-existing-documents.md)

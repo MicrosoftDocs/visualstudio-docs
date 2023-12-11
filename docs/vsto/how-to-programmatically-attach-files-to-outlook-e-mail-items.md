@@ -33,7 +33,7 @@ ms.technology: office-development
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Outlook_RL_AttachFiles/thisaddin.vb" id="Snippet1":::
  ---
 
-## See also
+## Related content
 - [Work with mail items](../vsto/working-with-mail-items.md)
 - [How to: Programmatically send email](../vsto/how-to-programmatically-send-e-mail-programmatically.md)
 - [How to: Programmatically save attachments from Outlook email items](../vsto/how-to-programmatically-save-attachments-from-outlook-e-mail-items.md)

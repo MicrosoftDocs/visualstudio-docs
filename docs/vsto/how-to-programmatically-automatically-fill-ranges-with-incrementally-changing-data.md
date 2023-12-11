@@ -52,7 +52,7 @@ ms.technology: office-development
 
 - Column D is to include a series of numbers, incrementing by two for each row. For the initial values, type **4** in cell D1 and **6** in cell D2.
 
-## See also
+## Related content
 - [Work with ranges](../vsto/working-with-ranges.md)
 - [How to: Programmatically refer to worksheet ranges in code](../vsto/how-to-programmatically-refer-to-worksheet-ranges-in-code.md)
 - [How to: Programmatically apply styles to ranges in workbooks](../vsto/how-to-programmatically-apply-styles-to-ranges-in-workbooks.md)

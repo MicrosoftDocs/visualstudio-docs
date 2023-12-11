@@ -138,7 +138,7 @@ ms.technology: office-development
    :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb" id="Snippet89":::
    ---
 
-## See also
+## Related content
 - [How to: Programmatically create Word tables](../vsto/how-to-programmatically-create-word-tables.md)
 - [How to: Programmatically add text and formatting to cells in Word tables](../vsto/how-to-programmatically-add-text-and-formatting-to-cells-in-word-tables.md)
 - [How to: Programmatically add rows and columns to Word tables](../vsto/how-to-programmatically-add-rows-and-columns-to-word-tables.md)
