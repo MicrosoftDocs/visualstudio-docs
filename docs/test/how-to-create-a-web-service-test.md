@@ -1,5 +1,5 @@
 ---
-title: Create a Web Service Test
+title: Create web service test to locate web service pages
 description: Learn how to use a performance test for web services and customize requests in the Web Performance Test Editor to locate web service pages.
 ms.date: 08/03/2023
 ms.topic: how-to
