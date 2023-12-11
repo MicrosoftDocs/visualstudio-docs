@@ -2,7 +2,7 @@
 title: Build and inspect projects with the MSBuild API
 description: Explore the public API surface provided in MSBuild that you can use to enable your program to perform builds and inspect projects.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: overview
 author: ghogen
 ms.author: ghogen
 manager: jmartens

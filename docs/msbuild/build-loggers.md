@@ -1,8 +1,8 @@
 ---
-title: Build Loggers
+title: Create a build logger
 description: Use MSBuild loggers to manage and customize the output of your build and display messages, errors, or warnings in response to specific build events.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, writing loggers
 - MSBuild, logging
@@ -12,7 +12,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
 ---
-# Build loggers
+# Create a build logger
 
 Loggers provide a way for you to customize the output of your build and display messages, errors, or warnings in response to specific build events. Each logger is implemented as a .NET class that implements the <xref:Microsoft.Build.Framework.ILogger> interface, which is defined in the *Microsoft.Build.Framework.dll* assembly.
 

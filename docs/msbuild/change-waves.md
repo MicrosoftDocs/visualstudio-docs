@@ -2,7 +2,7 @@
 title: Change waves
 description: Learn how to enable or disable features in MSBuild that are potentially disruptive.
 ms.date: 11/01/2023
-ms.topic: conceptual
+ms.topic: whats-new
 helpviewer_keywords:
 - Change waves [MSBuild]
 - MSBuildDisableFeaturesFromVersion environment variable

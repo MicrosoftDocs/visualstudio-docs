@@ -2,7 +2,7 @@
 title: Using Memory Efficiently When You Build Large Projects
 description: Learn how MSBuild manages memory automatically, such as unloading older versions and retrieving caches, when building large projects.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - memory use (MSBuild)
 - msbuild, efficient memory use building large trees

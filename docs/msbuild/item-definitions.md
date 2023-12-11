@@ -2,7 +2,7 @@
 title: Item Definitions
 description: Explore how MSBuild uses the ItemGroup and ItemDefinitionGroup elements to declare metadata settings for items in project files.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: language-reference
 helpviewer_keywords:
 - msbuild, item definitions
 author: ghogen
