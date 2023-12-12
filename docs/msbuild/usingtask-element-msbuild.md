@@ -79,7 +79,18 @@ The assembly containing the custom task is loaded when the `Task` is first used.
 
 ## Example 1
 
- The following example shows how to use the `UsingTask` element with an `AssemblyName` attribute.
+ The following example shows how to use the `UsingTask` element with an `AssemblyFile` attribute.
+
+```xml
+<UsingTask TaskName="Email"
+           AssemblyFile="c:\myTasks\myTask.dll" />
+```
+
+Because there is no `Runtime` or `TaskHost` specified, the task will be executed the MSBuild process, in the runtime and architecture that happen to be running for a given build.
+
+## Example 2
+
+ The following example shows how to use the `UsingTask` element with an `AssemblyName` attribute and a custom `TaskFactory` defined in that assembly.
 
 ```xml
 <UsingTask TaskName="MyTask" AssemblyName="My.Assembly" TaskFactory="MyTaskFactory">
@@ -92,15 +103,6 @@ The assembly containing the custom task is loaded when the `Task` is first used.
       ... Task factory-specific data ...
        </Task>
 </UsingTask>
-```
-
-## Example 2
-
- The following example shows how to use the `UsingTask` element with an `AssemblyFile` attribute.
-
-```xml
-<UsingTask TaskName="Email"
-              AssemblyFile="c:\myTasks\myTask.dll" />
 ```
 
 ## See also
