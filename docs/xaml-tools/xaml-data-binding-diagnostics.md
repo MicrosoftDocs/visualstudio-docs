@@ -120,6 +120,6 @@ For WPF in .NET Framework, data binding failures must be shown in the debug outp
 
 :::image type="content" source="media/xaml-binding-failures-wpf-output-options.png" alt-text="Screenshot of WPF output options.":::
 
-## See also
+## Related content
 
 * [XAML Hot Reload](xaml-hot-reload.md)

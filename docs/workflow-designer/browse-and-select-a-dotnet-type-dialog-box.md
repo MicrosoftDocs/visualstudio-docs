@@ -68,6 +68,6 @@ For example:
 
 When selecting a service contract type, the type browser only shows types that have the <xref:System.ServiceModel.ServiceContractAttribute> attribute.
 
-## See also
+## Related content
 
 - [Using the Activity Designers](control-flow-activity-designers.md)

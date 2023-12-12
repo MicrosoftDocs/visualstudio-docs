@@ -1,5 +1,5 @@
 ---
-title: "Cross-Platform Mobile Development in Visual Studio"
+title: Build cross-platform mobile apps in Visual Studio
 description: Build cross-platform mobile applications for Android, iOS, and Windows devices by using Visual Studio and target devices from a single code base.
 titleSuffix: ""
 ms.date: 08/26/2022

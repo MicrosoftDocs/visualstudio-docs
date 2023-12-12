@@ -1,5 +1,5 @@
 ---
-title: Using Peek Definition
+title: Use Peek Definition to view and edit code
 description: Use the Peek Definition command to view and edit your code without having to switch context from the code you're currently writing.
 ms.date: 01/10/2018
 ms.topic: how-to

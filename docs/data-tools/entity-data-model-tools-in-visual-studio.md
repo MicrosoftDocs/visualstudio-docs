@@ -1,5 +1,5 @@
 ---
-title: Entity Framework Tools
+title: Overview of Entity Framework Tools
 description: Explore Entity Framework tools in Visual Studio, including the Entity Data Model Designer, Create Database Wizard, and Update Model Wizard.
 ms.date: 11/01/2023
 ms.topic: conceptual

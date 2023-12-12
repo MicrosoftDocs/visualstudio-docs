@@ -99,7 +99,7 @@ In XAML Designer, you can set data binding properties by using the artboard and 
 > [!TIP]
 > For more information about data binding, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md).
 
-## See also
+## Related content
 
 - [Create a UI by using XAML Designer](../xaml-tools/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)
 - [Add Value Converter dialog box](/previous-versions/hh965588(v=vs.140))

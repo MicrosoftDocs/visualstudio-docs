@@ -110,7 +110,7 @@ Literals can also refer to functions. The XML editor includes a function named *
 
 The $prefix$ variable can then be used elsewhere in your XML snippet.
 
-## See also
+## Related content
 
 - [XML snippets](../xml-tools/xml-snippets.md)
 - [How to: Use XML snippets](../xml-tools/how-to-use-xml-snippets.md)

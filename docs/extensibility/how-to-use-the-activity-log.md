@@ -1,5 +1,5 @@
 ---
-title: 'Use the Activity Log'
+title: Use the Activity Log to debug and add entries
 description: Work with the activity log in Visual Studio to debug VSPackages messages in retail environments and write entries to the log.
 ms.date: 11/04/2016
 ms.topic: how-to

@@ -1,5 +1,5 @@
 ---
-title: Design Windows Forms apps
+title: Design Windows Forms applications
 description: 'Explore Windows Forms Designer in Visual Studio for rapid application development: arrange controls, set margins and padding, adjust layout, size, and display.'
 ms.date: 08/09/2019
 ms.topic: overview
