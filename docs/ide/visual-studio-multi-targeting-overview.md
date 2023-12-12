@@ -121,7 +121,7 @@ When you create a .NET Framework project, you can select the target .NET Framewo
 
 ::: moniker range="vs-2019"
 
-![Framework dropdown in Visual Studio 2019](media/vs-2019/configure-new-project-framework.png)
+![Screenshot of Framework dropdown in Visual Studio 2019](media/vs-2019/configure-new-project-framework.png)
 
 ::: moniker-end
 
