@@ -131,38 +131,7 @@ See [Unsupported scenarios](../debugger/supported-code-changes-csharp.md#unsuppo
 
 ## Configure Hot Reload
 
-You can configure Hot Reload by selecting **Settings** from the **Hot Reload** drop-down button.
-
-![Screenshot of configuring Hot Reload](../debugger/media/vs-2022/dotnet-hot-reload-configure.png)
-
-Or, open **Tools** > **Options** > **Debugging** > **.NET/C++ Hot Reload**.
-
-The settings for Hot Reload include:
-
-* **Enable Hot Reload and Edit and Continue when debugging**. Enables Hot Reload when starting with the debugger attached (F5).
-
-* **Enable Hot Reload when starting without debugging**. Enables Hot Reload when starting without the debugger attached (Ctrl+F5).
-
-* **Apply Hot Reload on File Save**. Applies code changes when you save the file.
-
-* **Logging Verbosity**. Filters amount of information displayed in the Hot Reload Output window.
-
-![Screenshot of settings for .NET Hot Reload](../debugger/media/vs-2022/dotnet-hot-reload-settings.png)
-
-You also can control whether .NET Hot Reload is available at the project level by modifying your .NET 6+ project's *launchSetting.json* file and setting `hotReloadEnabled` to `false`.
-
-Example:
-
-```xaml
-{
-  "profiles": {
-    "Console": {
-      "commandName": "Project",
-      "hotReloadEnabled": false
-    }
-  }
-}
-```
+To enable, disable, or configure Hot Reload, see []().
 
 ## Warning message
 
