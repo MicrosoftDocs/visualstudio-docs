@@ -1,5 +1,5 @@
 ---
-title: "Office UI customization"
+title: Customize the UI for Office applications
 description: Customize the user interface (UI) of Microsoft Office applications by using the Office developer tools in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

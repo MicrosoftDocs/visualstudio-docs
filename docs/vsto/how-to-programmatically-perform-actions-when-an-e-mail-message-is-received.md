@@ -1,5 +1,5 @@
 ---
-title: "Programmatically perform actions if email message is received"
+title: Programmatically do actions when email received (Visual Studio)
 description: Perform custom actions for received Microsoft Outlook email messages programmatically from Visual Basic or C# in Visual Studio.
 titleSuffix: ""
 ms.date: "02/02/2017"

@@ -1,5 +1,5 @@
 ---
-title: "Custom task panes"
+title: Create your own custom task pane
 description: Explore custom task panes and create your own task pane and provide users with a familiar interface to access your solution's features.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

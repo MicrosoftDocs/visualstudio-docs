@@ -1,5 +1,5 @@
 ---
-title: Azure Dev/Test credits eligibility in Visual Studio subscriptions
+title: Azure Dev/Test eligible credits in subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve

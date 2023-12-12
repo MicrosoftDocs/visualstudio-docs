@@ -1,5 +1,5 @@
 ---
-title: Using the Subscriber Portal in Visual Studio subscriptions| Microsoft Docs
+title: Get started in the Subscriber Portal
 author: evanwindom
 ms.author: amast
 manager: shve
