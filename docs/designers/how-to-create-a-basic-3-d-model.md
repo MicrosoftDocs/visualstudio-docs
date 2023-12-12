@@ -1,5 +1,5 @@
 ---
-title: 'Create a Basic 3D Model'
+title: Use the Model Editor to create a basic 3D model
 description: Learn how to use the Model Editor to create a basic 3D model, including adding objects to a scene, translating selections, and other activities.
 ms.date: 11/04/2016
 ms.topic: how-to

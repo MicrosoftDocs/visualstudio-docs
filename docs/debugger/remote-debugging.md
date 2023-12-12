@@ -1,5 +1,5 @@
 ---
-title: "Remote debugging"
+title: Remote debugging
 description: Debug a Visual Studio application that has been deployed on a different computer by using the Visual Studio remote debugger.
 ms.date: 12/20/2022
 ms.topic: conceptual

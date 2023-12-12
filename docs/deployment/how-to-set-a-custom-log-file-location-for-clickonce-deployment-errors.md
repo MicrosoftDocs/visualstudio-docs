@@ -1,5 +1,5 @@
 ---
-title: Set custom log file location (ClickOnce deploy errors)
+title: Set log file location (ClickOnce deploy errors)
 description: Learn about the activation log files that ClickOnce maintains for all deployments, which document errors for installing and initializing a ClickOnce deployment.
 ms.date: 11/04/2016
 ms.topic: how-to

@@ -1,5 +1,5 @@
 ---
-title: "Instrumentation"
+title: Explore instrumentation tools for your apps
 description: Explore the tools you can use to instrument your applications in Visual Studio, including dynamic and static instrumentation.
 ms.date: "11/09/2023"
 ms.topic: "conceptual"

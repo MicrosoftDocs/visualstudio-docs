@@ -1,5 +1,5 @@
 ---
-title: "Debug C++"
+title: Debug C++ code, set breakpoints, inspect variables
 description: Debug native C++ code by using the Visual Studio debugger, create a project, set breakpoints, inspect variables, and edit code while debugging.
 ms.date: 08/06/2018
 ms.topic: quickstart

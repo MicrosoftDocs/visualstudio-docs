@@ -1,5 +1,5 @@
 ---
-title: Install a Visualizer
+title: Install a Visualizer for use in debugging
 description: Install a newly created visualizer to make it available to use for debugging your projects and solution in Visual Studio.
 ms.date: 07/02/2021
 ms.topic: how-to
