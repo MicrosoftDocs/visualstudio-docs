@@ -1,5 +1,5 @@
 ---
-title: Customize C++ builds
+title: Customize C++ builds for MSBuild
 description: Customize C++ builds done with MSBuild, including how to customize all builds created on a given system, such as a build server.
 ms.date: 02/28/2023
 ms.topic: how-to

@@ -26,6 +26,6 @@ Sometimes it is helpful to see the code in the XML editor and the graphical desi
 
 ![Screenshot of a Visual Studio project showing the View Designer pane, the XML Editor pane, and the XML Schema Explorer pane.](../xml-tools/media/xsddesignerwithxmleditorandcmv.gif)
 
-## See also
+## Related content
 
 - [XML Schema Explorer](../xml-tools/xml-schema-explorer.md)

@@ -1,5 +1,5 @@
 ---
-title: Extend the build process
+title: Extend and customize the build process
 description: Explore several ways you can modify the build process so you can control and customize how your projects build, including overriding properties.
 ms.date: 11/04/2016
 ms.topic: how-to

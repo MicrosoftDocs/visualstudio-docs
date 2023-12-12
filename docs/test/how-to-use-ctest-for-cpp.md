@@ -1,5 +1,5 @@
 ---
-title: Use CTest for C++
+title: Create and run tests with CTest for C++
 description: Create and run tests with CTest for C++, which is integrated into Visual Studio by default, and use familiar CMake commands like enable_testing and add_test.
 ms.date: 01/23/2020
 ms.topic: how-to

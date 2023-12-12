@@ -123,6 +123,6 @@ You can customize the location for the schema cache using the **Miscellaneous** 
 
    The catalog is automatically reloaded.
 
-## See also
+## Related content
 
 - [XML editor](../xml-tools/xml-editor.md)

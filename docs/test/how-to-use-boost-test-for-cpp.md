@@ -1,5 +1,5 @@
 ---
-title: Use Boost.Test for C++
+title: Use Boost.Test adapter for unit tests in C++
 description: Install and use the Boost.Test adapter to develop unit tests for C++ in Visual Studio, create and update build configurations, and add include directives.
 ms.date: 01/29/2020
 ms.topic: how-to

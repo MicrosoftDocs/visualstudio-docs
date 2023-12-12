@@ -161,7 +161,7 @@ To the right of each property value is a *property marker* that appears as a box
 
 For more information about using properties and handling events, see [Intro to controls and patterns](/windows/uwp/design/controls-and-patterns/controls-and-events-intro).
 
-## See also
+## Related content
 
 - [Work with elements in XAML Designer](../xaml-tools/working-with-elements-in-xaml-designer.md)
 - [How to create and apply a resource](../xaml-tools/how-to-create-and-apply-a-resource.md)

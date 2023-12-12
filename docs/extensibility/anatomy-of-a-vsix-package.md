@@ -1,5 +1,5 @@
 ---
-title: Anatomy of a VSIX Package
+title: What is a Visual Studio VSIX package file?
 description: Explore the contents of a VSIX package file in Visual Studio, which contains one or more Visual Studio extensions and a metadata manifest file. 
 ms.date: 11/04/2016
 ms.topic: conceptual

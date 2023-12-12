@@ -40,6 +40,6 @@ To generate sample data from a class, open a XAML document, and then in the **Da
 
 **Watch a short video:** ![Play icon](../designers/media/bldadminconsoleinitialconfigicon.PNG) [Mix up some data binding with Blend](https://www.youtube.com/watch?v=LSwPB6CAvjg).
 
-## See also
+## Related content
 
 - [Create a UI by using Blend for Visual Studio](../xaml-tools/creating-a-ui-by-using-blend-for-visual-studio.md)

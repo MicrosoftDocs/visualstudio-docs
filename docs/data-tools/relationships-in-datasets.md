@@ -1,5 +1,5 @@
 ---
-title: Create relationships between datasets in .NET Framework applications
+title: Create relationships in datasets (.NET Framework)
 description: Create relationships between ADO.NET datasets with .NET Framework application development in Visual Studio and work with DataRelation objects and Dataset Manager.
 ms.date: 11/04/2016
 ms.topic: how-to

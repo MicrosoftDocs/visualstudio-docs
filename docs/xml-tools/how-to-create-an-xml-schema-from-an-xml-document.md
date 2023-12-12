@@ -32,6 +32,6 @@ For more information about the schema inference engine, see [Infer an XML schema
 
    An XML Schema document is created and opened for each namespace found in the XML file. Each schema is opened as a temporary miscellaneous file. The schemas can be saved to disk, added to your project, or discarded.
 
-## See also
+## Related content
 
 - [XML editor](../xml-tools/xml-editor.md)

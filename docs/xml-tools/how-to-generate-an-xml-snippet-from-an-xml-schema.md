@@ -149,7 +149,7 @@ Following is the XML data that is generated based on the schema information asso
 </Contact>
 ```
 
-## See also
+## Related content
 
 - [XML snippets](../xml-tools/xml-snippets.md)
 - [How to: Use XML snippets](../xml-tools/how-to-use-xml-snippets.md)
