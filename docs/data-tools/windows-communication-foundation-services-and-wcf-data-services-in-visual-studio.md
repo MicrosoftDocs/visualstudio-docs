@@ -1,5 +1,5 @@
 ---
-title: Windows Communication Foundation and WCF Data Services
+title: Windows Communication Foundation and Data Services
 description: Explore Windows Communication Foundation (WCF) Services and WCF Data Services in Visual Studio, and create distributed applications.
 ms.date: 11/01/2023
 ms.topic: overview

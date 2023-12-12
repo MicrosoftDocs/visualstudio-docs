@@ -1,5 +1,5 @@
 ---
-title: Create a .NET Framework Windows Form to search data with ADO.NET
+title: Create .NET Framework Windows Form to search data
 description: Create a .NET Framework Windows Form to search data with ADO.NET in Visual Studio by configuring the data source, controls, and search query function.
 ms.date: 06/07/2021
 ms.topic: conceptual
