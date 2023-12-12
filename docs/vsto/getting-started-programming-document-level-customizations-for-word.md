@@ -1,5 +1,5 @@
 ---
-title: "Get started programming document-level customizations for Word"
+title: Start programming Word doc-level customizations (Visual Studio)
 description: Get started creating customizations for Microsoft Office Word with features to specific documents by using Visual Studio.
 titleSuffix: ""
 ms.date: "02/02/2017"

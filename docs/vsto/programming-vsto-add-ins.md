@@ -1,5 +1,5 @@
 ---
-title: "Program VSTO Add-ins"
+title: Program VSTO add-ins with the ThisAddIn class
 description: Program VSTO add-ins with the ThisAddIn class to perform tasks such as accessing the object model of the Microsoft Office host application.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

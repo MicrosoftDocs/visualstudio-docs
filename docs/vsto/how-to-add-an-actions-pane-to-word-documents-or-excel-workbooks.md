@@ -1,5 +1,5 @@
 ---
-title: "Add Actions pane to Word documents or Excel workbooks"
+title: Add Actions pane to Word docs or Excel workbooks
 description: Add an actions pane to a Microsoft Office Word document or a Microsoft Excel workbook, by first creating a Windows Forms user control.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
