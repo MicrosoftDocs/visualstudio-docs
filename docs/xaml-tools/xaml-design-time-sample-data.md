@@ -95,7 +95,7 @@ If your sample data is not showing anything or fails to show the correct type, y
 
 If you experience a problem that isn't listed in this section or that can't be fixed by refreshing the page, please let us know by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool.
 
-## See also
+## Related content
 
 - [XAML design-time properties](../xaml-tools/xaml-designtime-data.md)
 - [XAML in WPF apps](/dotnet/framework/wpf/advanced/xaml-in-wpf)

@@ -125,6 +125,6 @@ The following schema file is used in this walkthrough:
 </xs:schema>
 ```
 
-## See also
+## Related content
 
 - [XML editor](../xml-tools/xml-editor.md)

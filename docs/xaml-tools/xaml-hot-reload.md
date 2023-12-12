@@ -52,7 +52,7 @@ The following animation shows an instance of using Live Visual Tree to open some
 
 :::image type="content" source="media/vs-2022/xaml-hot-reload-live-visual-tree.gif" alt-text="An animation of the Live Visual Tree opening source code and using XAML Hot Reload to change UI elements.":::
 
-## See also
+## Related content
 
 * [Troubleshooting XAML Hot Reload](xaml-hot-reload-troubleshooting.md)
 * [XAML Hot Reload for Xamarin.Forms](/xamarin/xamarin-forms/xaml/hot-reload)

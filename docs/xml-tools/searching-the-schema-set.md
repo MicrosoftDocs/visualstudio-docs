@@ -48,6 +48,6 @@ You can add the search results to the workspace by clicking the **Add highlighte
 
 To clear the search results, click the **x** button on the summary results pane of the **XML Schema Explorer** Search toolbar.
 
-## See also
+## Related content
 
 - [XML Schema Explorer](../xml-tools/xml-schema-explorer.md)
