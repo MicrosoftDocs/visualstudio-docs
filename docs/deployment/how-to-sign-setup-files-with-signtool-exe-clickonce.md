@@ -71,5 +71,5 @@ You can use *SignTool.exe* to sign a Setup program (*setup.exe*). This process h
     signtool sign /f CertFileName Setup.exe
     ```
 
-## See also
+## Related content
 - [How to: Re-sign application and deployment manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md)

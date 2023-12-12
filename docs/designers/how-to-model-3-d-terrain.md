@@ -50,6 +50,6 @@ The terrain model is complete. Here's the final model again, with Phong shading 
 
 You can use this terrain model to demonstrate the effect of the gradient shader that's described in [How to: Create a geometry-based gradient shader](../designers/how-to-create-a-geometry-based-gradient-shader.md).
 
-## See also
+## Related content
 
 - [Model editor](../designers/model-editor.md)

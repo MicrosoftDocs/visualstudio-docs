@@ -170,7 +170,7 @@ Visual styles enable the appearance of common controls to change based on the th
 
    After you have performed these steps, you can move the published files to the location from which you want end users to install the application. If you intend to update the solution often, you can move these commands into a script and run the script each time that you publish a new version.
 
-## See also
+## Related content
 
 - [Troubleshooting Specific Errors in ClickOnce Deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md)
 - [Visual Styles Overview](/windows/desktop/Controls/visual-styles-overview)

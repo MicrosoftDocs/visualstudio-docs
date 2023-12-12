@@ -61,7 +61,7 @@ ClickOnce provides two ways to update an application once it is deployed. In the
 ## .NET Framework Security
  Your application must have full-trust permissions to use programmatic updating.
 
-## See also
+## Related content
 - [How to: Specify an alternate location for deployment updates](../deployment/how-to-specify-an-alternate-location-for-deployment-updates.md)
 - [Choose a ClickOnce update strategy](../deployment/choosing-a-clickonce-update-strategy.md)
 - [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
