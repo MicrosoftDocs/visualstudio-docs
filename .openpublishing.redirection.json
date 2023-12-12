@@ -1011,6 +1011,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/edit-and-continue.md",
+      "redirect_url": "/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/stop-code-changes.md",
+      "redirect_url": "/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/error-mixed-mode-debugging-for-ia64-processes-is-unsupported.md",
       "redirect_url": "/visualstudio/debugger/mixed-mode-debugging-for-ia64-processes-is-unsupported",
       "redirect_document_id": false

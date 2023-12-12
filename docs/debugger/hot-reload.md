@@ -131,7 +131,7 @@ See [Unsupported scenarios](../debugger/supported-code-changes-csharp.md#unsuppo
 
 ## Configure Hot Reload
 
-To enable, disable, or configure Hot Reload, see []().
+To enable, disable, or configure Hot Reload, see [Configure Edit and Continue](../debugger/how-to-enable-and-disable-edit-and-continue.md).
 
 ## Warning message
 
@@ -140,7 +140,6 @@ If you see the following dialog box, Hot Reload is unable to apply the current e
 ![Screenshot of the apply changes dialog box](../debugger/media/vs-2022/dotnet-hot-reload-apply-changes.png)
 
 If you select the **Always rebuild when changes can't be applied** option in the dialog box, you won't see the dialog box again in the current Visual Studio session, and Visual Studio will automatically rebuild and reload instead of showing the dialog box.
-
 
 ## Troubleshooting
 
