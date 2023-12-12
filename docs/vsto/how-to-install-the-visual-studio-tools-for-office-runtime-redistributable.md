@@ -1,5 +1,5 @@
 ---
-title: "Install the Visual Studio Tools for Office Runtime Redistributable"
+title: Install the Visual Studio Tools for Office Runtime Redistributable
 description: Install the Microsoft Visual Studio 2010 Tools for Office Runtime redistributable, and review installation requirements.
 titleSuffix: ""
 ms.date: "01/25/2022"

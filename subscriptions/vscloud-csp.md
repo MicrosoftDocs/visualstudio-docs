@@ -1,5 +1,5 @@
 ---
-title: Visual Studio cloud subscription purchasing for CSPs
+title: Buy and manage cloud subscriptions for CSPs
 author: evanwindom
 ms.author: amast
 manager: shve

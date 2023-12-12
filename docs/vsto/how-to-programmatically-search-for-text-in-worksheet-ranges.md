@@ -1,5 +1,5 @@
 ---
-title: "Programmatically search for text in worksheet ranges"
+title: Programmatically search for text in worksheet ranges (Visual Studio)
 description: Search for text within a specific Microsoft Office Excel worksheet range programmatically from Visual Basic or C# in Visual Studio.
 titleSuffix: ""
 ms.date: "02/02/2017"

@@ -1,5 +1,5 @@
 ---
-title: "Programmatically attach files to Outlook email items"
+title: Programmatically attach files to Outlook emails in Visual Studio
 description: Explore how to attach files to Microsoft Office Outlook items by attaching a file to a new mail item and sending it to a specified user.
 titleSuffix: ""
 ms.date: "02/02/2017"
