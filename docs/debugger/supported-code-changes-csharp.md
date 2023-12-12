@@ -19,7 +19,13 @@ ms.technology: vs-ide-debug
 
 [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
+::: moniker range=">=vs-2022"
+The Hot Reload mechanism, previously called Edit and Continue, handles most types of code changes within method bodies. Most changes outside method bodies, and a few changes within method bodies, can't be applied during debugging, however. To apply those unsupported changes, you must stop debugging and restart with a fresh version of the code.
+::: moniker-end
+
+::: moniker range="vs-2019"
 The Edit and Continue mechanism handles most types of code changes within method bodies. Most changes outside method bodies, and a few changes within method bodies, can't be applied during debugging, however. To apply those unsupported changes, you must stop debugging and restart with a fresh version of the code.
+::: moniker-end
 
 ## Supported changes to code
 
@@ -57,7 +63,7 @@ The following table shows the changes that might be made to C# and Visual Basic 
 
 Improvements in .NET 6+ and Visual Studio 2022 and later versions include support for more types of edits that go beyond what was originally possible in older versions of Visual Studio. These improvements are available to both Hot Reload and the Edit and Continue experiences.
 
-The .NET 6+ experience is powered by the [Edit and Continue](../debugger/edit-and-continue-visual-csharp.md) mechanism and Roslyn. [Supported Edits](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md) lists the types of edits currently supported by Roslyn and potential future enhancements.
+The .NET 6+ Hot Reload experience is powered by the [Edit and Continue](../debugger/edit-and-continue-visual-csharp.md) mechanism and Roslyn. [Supported Edits](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md) lists the types of edits currently supported by Roslyn and potential future enhancements.
 
 ::: moniker-end
 

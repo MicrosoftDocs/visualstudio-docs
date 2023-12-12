@@ -32,7 +32,7 @@ ms.technology: vs-ide-debug
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ::: moniker range=">=vs-2022"
-You can disable or enable Hot Reload, or Edit and Continue, in the Visual Studio **Options** dialog box at design time. **Hot Reload** works only in debug builds. For more information, see [Hot Reload](../debugger/hot-reload.md).
+You can disable or enable Hot Reload, previously called Edit and Continue, in the Visual Studio **Options** dialog box at design time. **Hot Reload** works only in debug builds. For more information, see [Hot Reload](../debugger/hot-reload.md).
 ::: moniker-end
 
 ::: moniker range="vs-2019"
@@ -68,7 +68,7 @@ The settings for Hot Reload include:
 
 ![Screenshot of settings for .NET Hot Reload](../debugger/media/vs-2022/dotnet-hot-reload-settings.png)
 
-You also can control whether .NET Hot Reload is available at the project level by modifying your .NET 6+ project's *launchSetting.json* file and setting `hotReloadEnabled` to `false`.
+For .NET Hot Reload, you also can control whether Hot Reload is available at the project level by modifying your .NET 6+ project's *launchSetting.json* file and setting `hotReloadEnabled` to `false`.
 
 Example:
 
@@ -83,15 +83,15 @@ Example:
 }
 ```
 
-You can set options specific to C++ by opening **Tools** > **Options** > **Debugging** > **General**. Make sure **Enable Hot Reload** is selected, and set the other options:
+For C++, you can set additional options by opening **Tools** > **Options** > **Debugging** > **General**. Make sure **Enable Hot Reload** is selected, and set the other options:
 
-   - **Apply changes on continue (Native only)**
+- **Apply changes on continue (Native only)**
 
-     If selected, Visual Studio automatically compiles and applies code changes when you continue debugging from a break state. Otherwise, you can choose to apply changes using **Debug** > **Apply Code Changes**.
+  If selected, Visual Studio automatically compiles and applies code changes when you continue debugging from a break state. Otherwise, you can choose to apply changes using **Debug** > **Apply Code Changes**.
 
-   - **Warn about stale code (Native only)**
+- **Warn about stale code (Native only)**
 
-     If selected, gives warnings about stale code.
+  If selected, gives warnings about stale code.
 
 ::: moniker-end
 
