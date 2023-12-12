@@ -1,5 +1,5 @@
 ---
-title: "Create multi-container apps with MySQL & Docker Compose"
+title: Build multi-container apps (MySQL, Docker Compose)
 description: Create multi-container applications with MySQL and Docker Compose and use the containers to scale your project in Visual Studio.
 author: ghogen
 ms.author: ghogen

@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting and known issues (VS Tools for Unity)"
+title: Troubleshoot Visual Studio Tools for Unity
 description: Troubleshoot Visual Studio Tools for Unity, review known issues and solutions for connections, program execution, project compatibility, debugging, and IntelliSense.
 ms.date: "04/04/2022"
 ms.technology: vs-unity-tools

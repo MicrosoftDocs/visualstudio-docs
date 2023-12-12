@@ -1,5 +1,5 @@
 ---
-title: Find in Files
+title: "Search within Specific Files with 'Find in Files'"
 description: Explore the Find in Files feature in Visual Studio and discover how to use the feature to search a specific set of files.
 ms.date: 11/29/2021
 ms.topic: conceptual
