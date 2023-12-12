@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Tools for Office Runtime Lifecycle Policy"
+title: Visual Studio Tools for Office Runtime Lifecycle Policy
 description: Explore the support lifecycle policy for the Visual Studio Tools for Office Runtime, including available versions and release dates.
 titleSuffix: ""
 ms.date: "10/4/2021"

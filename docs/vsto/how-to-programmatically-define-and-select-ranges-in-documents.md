@@ -1,5 +1,5 @@
 ---
-title: "Programmatically define and select ranges in documents"
+title: Programmatically define & select ranges in documents
 description: Define character ranges and select ranges in Microsoft Word documents programmatically from Visual Basic or C# in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: "how-to"

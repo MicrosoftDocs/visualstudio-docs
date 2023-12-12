@@ -1,5 +1,5 @@
 ---
-title: "Visio solutions"
+title: Automate Microsoft Visio actions & extend features
 description: Use VSTO add-ins to automate Microsoft Visio actions, extend Visio features, or customize the Visio user interface (UI).
 ms.date: "08/14/2019"
 ms.topic: "conceptual"

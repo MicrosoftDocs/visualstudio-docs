@@ -1,5 +1,5 @@
 ---
-title: "Ribbon XML"
+title: Customize a project ribbon with Ribbon (XML) item
 description: Use the Ribbon (XML) item to customize a project ribbon in a way that the Ribbon (Visual Designer) item doesn't support.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

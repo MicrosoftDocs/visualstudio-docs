@@ -1,5 +1,5 @@
 ---
-title: Power BI Pro Benefit in Visual Studio subscriptions
+title: Activate Power BI Pro benefit in subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
