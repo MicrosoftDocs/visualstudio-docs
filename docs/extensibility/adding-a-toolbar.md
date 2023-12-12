@@ -1,5 +1,5 @@
 ---
-title: Adding a Toolbar
+title: Add toolbar and buttons (Visual Studio extension)
 description: Create a Visual Studio extension to add a toolbar with buttons that are bound to commands to the Visual Studio integrated development environment (IDE).
 ms.date: 11/04/2016
 ms.topic: how-to

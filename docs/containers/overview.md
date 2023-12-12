@@ -1,5 +1,5 @@
 ---
-title: Visual Studio Container Tools for Docker on Windows
+title: Visual Studio Container Tools & Docker on Windows
 description: Explore tools available for working with Docker containers in Visual Studio for Windows, including continuous delivery and continuous integration (CI/CD).
 author: ghogen
 ms.author: ghogen

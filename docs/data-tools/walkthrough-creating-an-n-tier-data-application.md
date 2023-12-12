@@ -1,5 +1,5 @@
 ---
-title: 'Walkthrough: Creating an N-tier Data Application with ADO.NET and the .NET Framework'
+title: Create N-tier data app in ADO.NET (.NET Framework)
 description: Create an N-tier data application with ADO.NET and the .NET Framework in Visual Studio and access data separated into multiple logical layers or tiers.
 ms.date: 11/01/2023
 ms.topic: conceptual

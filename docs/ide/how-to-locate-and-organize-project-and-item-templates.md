@@ -1,5 +1,5 @@
 ---
-title: Locate templates
+title: Locate and organize project templates
 description: Locate and organize project templates, including installed templates and user templates (.vstemplate files), in Visual Studio.
 ms.date: 11/15/2022
 ms.topic: how-to

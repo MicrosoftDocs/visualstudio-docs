@@ -1,5 +1,5 @@
 ---
-title: "Publish overview"
+title: Publish tool for ASP.NET, .NET Core, & Python apps
 description: Explore the Publish tool in Visual Studio and deploy ASP.NET, .NET Core, and Python applications with a publishing profile (.pubxml file).
 ms.date: 10/14/2021
 ms.topic: overview
