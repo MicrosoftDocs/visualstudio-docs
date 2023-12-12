@@ -35,10 +35,10 @@
   items:
   - name: ASP.NET web app
     items:
+    - name: Azure App Service
+      href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs?toc=/visualstudio/azure/toc.json&bc=/visualstudio/_breadcrumb/toc.json
     - name: Azure Container Apps >>
       href: /azure/container-apps/deploy-visual-studio
-    - name: Azure App Service >>
-      href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs
     - name: Azure Container Registry
       href: ../containers/hosting-web-apps-in-docker.md
   - name: Azure Function app
