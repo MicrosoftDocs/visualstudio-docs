@@ -148,7 +148,7 @@ To share or save the map, use **Share** in the code map toolbar.
 
 ![Share call stack code map with others](../debugger/media/debuggermap_sharewithothers.png "Share call stack code map with others")
 
-## See also
+## Related content
 [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
 
 [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)

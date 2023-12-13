@@ -65,7 +65,7 @@ Debug.Fail("a clever output string goes here")
 ```
 ---
 
-## See also
+## Related content
 
 - [Debugger Security](debugger-security.md)
 - [Managed debugging: Recommended project settings](managed-debugging-recommended-property-settings.md)

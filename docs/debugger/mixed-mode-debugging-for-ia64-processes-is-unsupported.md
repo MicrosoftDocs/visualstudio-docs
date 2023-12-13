@@ -44,5 +44,5 @@ Visual Studio does not support mixed-mode debugging of managed and native code i
 
 2. In the Property Pages, click **Platform** and select Win32 from the list of platforms,
 
-## See also
+## Related content
 - [Debug 64-Bit Applications](../debugger/debug-64-bit-applications.md)

@@ -47,7 +47,7 @@ Because Spy++ runs independently, after you start it you can close Visual Studio
 
 For more information on the 32-bit and 64-bit version of Spy++, see [64-bit operating systems](../debugger/introducing-spy-increment.md#64-bit-operating-systems).
 
-## See also
+## Related content
 
 - [Using Spy++](../debugger/using-spy-increment.md)
 - [Spy++ Views](../debugger/spy-increment-views.md)

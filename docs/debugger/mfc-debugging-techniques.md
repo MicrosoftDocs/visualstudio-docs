@@ -475,5 +475,5 @@ Building selected modules with the MFC debug libraries enables you to use steppi
 
    [In this topic](#BKMK_In_this_topic)
 
-## See also
+## Related content
 [Debugging Native Code](../debugger/debugging-native-code.md)

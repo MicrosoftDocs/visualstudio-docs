@@ -81,7 +81,7 @@ When you view memory contents in a **Memory** window or the **Disassembly** wind
 
 - Click the arrow at the top or bottom of the vertical scrollbar.
 
-## See also
+## Related content
 
 * [Viewing data in the debugger](../debugger/viewing-data-in-the-debugger.md)
 * [How to: Use the Registers window](../debugger/how-to-use-the-registers-window.md)

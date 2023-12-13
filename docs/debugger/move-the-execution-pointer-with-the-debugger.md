@@ -47,7 +47,7 @@ The program counter jumps directly to the new location. Instructions between the
 >   - A call stack unwind is in progress.
 >   - A System.StackOverflowException or System.Threading.ThreadAbortException exception has been thrown.
 
-## See also
+## Related content
 - [What is debugging?](../debugger/what-is-debugging.md)
 - [Navigate code in the debugger](../debugger/navigating-through-code-with-the-debugger.md)
 - [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md)

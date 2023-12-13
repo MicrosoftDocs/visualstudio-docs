@@ -162,7 +162,7 @@ See [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-
 
 1. Select **OK** to close the **Options** dialog box.
 
-## See also
+## Related content
 
 - [Mixed code and missing information in the Call Stack window](../debugger/mixed-code-and-missing-information-in-the-call-stack-window.md)
 - [Viewing data in the debugger](../debugger/viewing-data-in-the-debugger.md)

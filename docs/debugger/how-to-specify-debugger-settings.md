@@ -36,7 +36,7 @@ In Visual Studio, you can specify various settings for debugger behavior, includ
 
 4. Select or clear the desired option or options. Press F1 to get Help about the options.
 
-## See also
+## Related content
 - [General, Debugging, Options Dialog Box](../debugger/general-debugging-options-dialog-box.md)
 - [Edit and Continue, Debugging, Options Dialog Box](./edit-and-continue.md)
 - [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
