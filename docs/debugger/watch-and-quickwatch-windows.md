@@ -1,5 +1,5 @@
 ---
-title: Set a watch on variables
+title: Set a watch on variables and expressions
 description: While you debug, see variables and expressions in Watch and QuickWatch. Watch can display several variables, QuickWatch only one, and only while in break.
 ms.date: 04/21/2023
 ms.topic: how-to

@@ -1,5 +1,5 @@
 ---
-title: Refresh the View
+title: Refresh the View in the Spy++ tool when debugging
 description: Refresh a view in the Spy++ tool when debugging in Visual Studio by taking a snapshot of the system tables and updating your view based on the snapshot.
 ms.date: 11/04/2016
 ms.topic: how-to

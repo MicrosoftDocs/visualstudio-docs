@@ -1,5 +1,5 @@
 ---
-title: "Build .NET ClickOnce Applications from the Command Line"
+title: Build .NET ClickOnce apps from command line
 description: Learn how to build .NET Visual Studio projects from the command line, which allows you to reproduce a build using an automated process.
 ms.date: "10/25/2023"
 ms.topic: "conceptual"
