@@ -4,7 +4,7 @@ title: XAML tools documentation
 summary: Visual Studio provides multiple tools to help you create XAML-based apps. These include the XAML editor and designer as well as debugging features.
 
 metadata:
-  title: XAML tools for applications documentation
+  title: Visual Studio XAML tools documentation
   description: Explore documentation about creating XAML-based applications in Visual Studio by using the XAML editor, the XAML designer, Blend integration, and debugging features.
   ms.prod: visual-studio-windows
   ms.technology: vs-xaml-tools

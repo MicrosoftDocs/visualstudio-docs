@@ -1,7 +1,6 @@
 ---
-title: Create a custom tab by using the Ribbon Designer in Visual Studio
+title: Create a custom tab by using the Ribbon Designer
 description: Create an actions pane with a custom tab by using the Ribbon Designer, add and position controls, and configure button actions to hide and display the pane.
-titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
