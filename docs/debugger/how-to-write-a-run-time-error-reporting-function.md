@@ -117,4 +117,4 @@ int main()
 ```
 
 ## Related content
-[Native Run-Time Checks Customization](../debugger/native-run-time-checks-customization.md)
+- [Native Run-Time Checks Customization](../debugger/native-run-time-checks-customization.md)
