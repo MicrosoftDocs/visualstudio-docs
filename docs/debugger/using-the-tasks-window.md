@@ -1,5 +1,5 @@
 ---
-title: "Using the Tasks Window"
+title: Use the Tasks Window to view concurrent operations
 description: Tasks are asynchronous operations that can run concurrently. Multiple tasks can run on the same thread. Use Tasks to view task and WinJS.Promise object information.
 ms.date: "05/30/2023"
 ms.topic: "conceptual"

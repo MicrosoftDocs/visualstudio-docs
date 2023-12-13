@@ -1,5 +1,5 @@
 ---
-title: Events Viewer
+title: Use the generic Events Viewer to diagnose your app
 description: Learn about the generic events viewer, which helps you better diagnose how your app is doing within the Visual Studio profiler.
 ms.date: 09/15/2023
 ms.topic: how-to

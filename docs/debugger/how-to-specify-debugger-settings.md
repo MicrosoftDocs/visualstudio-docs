@@ -1,5 +1,5 @@
 ---
-title: Specify Debugger Settings
+title: Use Debugger Settings for variables and warnings
 description: Specify various settings for debugger behavior in Visual Studio, such as how to display variables, what warnings are presented, and how to set breakpoints.
 ms.date: 11/04/2016
 ms.topic: how-to

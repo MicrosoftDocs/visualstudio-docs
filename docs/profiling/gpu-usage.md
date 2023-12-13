@@ -1,5 +1,5 @@
 ---
-title: "GPU usage"
+title: Use the GPU Usage tool in the Performance Profiler 
 description: Learn how to use the GPU Usage tool in the Performance Profiler to better understand the high-level hardware usage of your Direct3D app.
 ms.date: "11/01/2018"
 ms.topic: "conceptual"

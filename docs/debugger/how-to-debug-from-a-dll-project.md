@@ -1,5 +1,5 @@
 ---
-title: Debug from a DLL Project
+title: Debug a DLL Project from the project itself
 description: You can start the debugging of a DLL project from the project itself, by specifying the calling app in the project properties. See this article for details.
 ms.date: 4/21/2023
 ms.topic: how-to

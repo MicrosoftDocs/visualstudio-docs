@@ -1,5 +1,5 @@
 ---
-title: 'Walkthrough: Create a code snippet in Visual Studio'
+title: Create a code snippet in Visual Studio
 description: "Learn how to create a code snippet in three steps: create an XML file, fill in the appropriate elements, and add your code to it."
 ms.date: 04/11/2023
 ms.topic: how-to
