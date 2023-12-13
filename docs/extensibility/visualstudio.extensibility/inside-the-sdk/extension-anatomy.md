@@ -16,13 +16,30 @@ An extension utilizing VisualStudio.Extensibility typically has several componen
 
 ## Extension instance
 
-The starting point for each extension is an instance of `Microsoft.VisualStudio.Extensibility.Extension`. This instance contains the necessary methods for Visual Studio to query services provided by the extension. It also provides virtual methods for the extension to provide localized resources and extension-owned local services to be shared between the components of the extension.
+Extensions must have a class that derives from [`Extension`](/dotnet/api/microsoft.visualstudio.extensibility.extension). For an example implementation, see [MarkdownLinter](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/MarkdownLinter).
 
-Extension projects have their own class that derives from `Microsoft.VisualStudio.Extensibility.Extension` to customize certain aspects of the extension.
+An instance of the `Extension` class is the starting point for the extension's execution. This instance contains the necessary methods for Visual Studio to query services provided by the extension. It also provides virtual methods for the extension to provide localized resources and extension-owned local services to be shared between the components of the extension.
 
-Extensions must have a class that derives from `Microsoft.VisualStudio.Extensibility.Extension`. For an example implementation, see [MarkdownLinter](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/MarkdownLinter).
+The configuration for the `Extension` class also contains the [metadata](/dotnet/api/microsoft.visualstudio.extensibility.extensionconfiguration.metadata) for the extension which is shown in the Visual Studio [Manage Extensions window](/visualstudio/ide/finding-and-using-visual-studio-extensions#use-the-manage-extensions-dialog-box) and, for published extensions, on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/).
 
-For extension developers that are familiar with the existing VS SDK APIs, this class is similar to `AsyncPackage` class that is used in the VS SDK extensibility model.
+```csharp
+[VisualStudioContribution]
+public class MarkdownLinterExtension : Extension
+{
+    /// <inheritdoc/>
+    public override ExtensionConfiguration ExtensionConfiguration => new()
+    {
+        Metadata = new(
+                id: "MarkdownLinter.0cf26ba2-edd5-4419-8646-a55d0a83f7d8",
+                version: this.ExtensionAssemblyVersion,
+                publisherName: "Microsoft",
+                displayName: "Markdown Linter Sample Extension",
+                description: "Sample markdown linter extension"),
+    };
+    ...
+```
+
+For extension developers who are familiar with the existing VS SDK APIs, the `Metadata` contained in `ExtensionConfiguration` is used to generate the [`.vsixmanifest`](/visualstudio/extensibility/anatomy-of-a-vsix-package#the-vsix-manifest) file. Also, the `Extension` class is similar to the [`AsyncPackage`](/dotnet/api/microsoft.visualstudio.shell.asyncpackage) class that is used in the VS SDK extensibility model.
 
 ## VisualStudioExtensibility object
 

@@ -73,6 +73,6 @@ Dropping files on the view will add all the global nodes in the file to the [XSD
 
  You cannot drag and drop local nodes or imports.
 
-## See also
+## Related content
 
 - [How to: Add nodes to the workspace from the XML Schema Explorer](../xml-tools/how-to-add-nodes-to-the-workspace-from-the-xml-schema-explorer.md)

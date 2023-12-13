@@ -43,6 +43,6 @@ The following images shows a storyboard named **Storyboard1**. The timeline cont
 
 Play around with other changes to the rectangle at different points in time. For example, you can change the fill color or flip the orientation in the Properties window.
 
-## See also
+## Related content
 
 - [Create a UI by using Blend for Visual Studio](../xaml-tools/creating-a-ui-by-using-blend-for-visual-studio.md)

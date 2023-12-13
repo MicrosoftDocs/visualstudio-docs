@@ -1,6 +1,6 @@
 ---
-title: "Test Explorer FAQ"
-description: Refer to these frequently asked questions about Visual Studio Test Explorer, which include some common troubleshooting.
+title: Review Test Explorer FAQ issues and answers
+description: Review frequently asked questions (FAQs) about Visual Studio Test Explorer, which include some common troubleshooting scenarios.
 ms.date: 06/25/2020
 ms.topic: conceptual
 helpviewer_keywords:

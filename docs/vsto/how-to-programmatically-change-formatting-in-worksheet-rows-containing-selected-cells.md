@@ -98,7 +98,7 @@ ms.technology: office-development
  ### [VB](#tab/vb)
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet36"::: ---
 
-## See also
+## Related content
 - [Work with worksheets](../vsto/working-with-worksheets.md)
 - [How to: Programmatically apply styles to ranges in workbooks](../vsto/how-to-programmatically-apply-styles-to-ranges-in-workbooks.md)
 - [How to: Programmatically copy data and formatting across worksheets](../vsto/how-to-programmatically-copy-data-and-formatting-across-worksheets.md)

@@ -1,5 +1,5 @@
 ---
-title: Azure DevOps benefits for Visual Studio subscribers
+title: Azure DevOps benefits eligibility for subscribers
 author: evanwindom
 ms.author: amast
 manager: shve

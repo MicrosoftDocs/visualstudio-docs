@@ -54,6 +54,6 @@ If the **Output** property specifies a filename with an .*htm* or .*html* extens
 
 You can specify an output file name for both XML and XSL files. Open the **Properties** window and specify a file name in the **Output** field.
 
-## See also
+## Related content
 
 - [XML editor](../xml-tools/xml-editor.md)

@@ -125,7 +125,7 @@ ms.technology: office-development
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb" id="Snippet21":::
      ---
 
-## See also
+## Related content
 - [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)
 - [Save data back to the database](../data-tools/save-data-back-to-the-database.md)
 - [Update data by using a TableAdapter](../data-tools/update-data-by-using-a-tableadapter.md)

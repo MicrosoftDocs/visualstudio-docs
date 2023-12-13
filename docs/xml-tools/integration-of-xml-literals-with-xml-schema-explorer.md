@@ -24,6 +24,6 @@ This opens the **XML Schema Explorer** side by side with your Visual Basic file.
 
 ![Screenshot of a Visual Basic project window showing that the XML Schema Explorer and Solution Explorer have been opened in the right pane.](../xml-tools/media/vbxmlliteralswithxmlschemaexplorer2.gif)
 
-## See also
+## Related content
 
 - [How to: Use the XML schema designer with XML literals](../xml-tools/how-to-use-the-xml-schema-designer-with-xml-literals.md)

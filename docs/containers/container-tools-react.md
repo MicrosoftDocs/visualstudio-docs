@@ -1,5 +1,5 @@
 ---
-title: Visual Studio Container Tools with ASP.NET Core and React.js
+title: Build React app with Visual Studio Container Tools
 titleSuffix: ""
 author: ghogen
 description: Learn how to create a containerized React SPA app with Visual Studio Container Tools and Docker 

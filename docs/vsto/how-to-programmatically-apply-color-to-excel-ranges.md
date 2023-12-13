@@ -58,7 +58,7 @@ ms.technology: office-development
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet67":::
      ---
 
-## See also
+## Related content
 - [Work with ranges](../vsto/working-with-ranges.md)
 - [NamedRange control](../vsto/namedrange-control.md)
 - [How to: Programmatically apply styles to ranges in workbooks](../vsto/how-to-programmatically-apply-styles-to-ranges-in-workbooks.md)

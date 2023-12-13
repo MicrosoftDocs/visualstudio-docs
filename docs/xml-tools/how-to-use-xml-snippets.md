@@ -105,7 +105,7 @@ Pressing **Enter** or **Esc** cancels field editing and returns the editor to no
 
 The default colors for editable code snippet fields can be changed by modifying the **Code Snippet Field** setting in the **Fonts and Colors** pane of the **Options** dialog box. For more information, see [How to: Change fonts and colors in the editor](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md).
 
-## See also
+## Related content
 
 - [XML snippets](../xml-tools/xml-snippets.md)
 - [How to: Generate an XML snippet from an XML schema](../xml-tools/how-to-generate-an-xml-snippet-from-an-xml-schema.md)

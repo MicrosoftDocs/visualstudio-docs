@@ -2,7 +2,7 @@
 title: Exclude Files from the Build
 description: Discover how to explicitly exclude or conditionally include files from builds for MSBuild project files with attributes and wildcards.
 ms.date: 05/10/2023
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, wildcards
 - MSBuild, excluding files

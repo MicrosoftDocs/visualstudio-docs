@@ -36,7 +36,7 @@ ms.technology: office-development
 ## Robust programming
  Do not remove the filter code that searches for the domain name **example.com**. Your solution will send email messages to all of your contacts if you remove the filter.
 
-## See also
+## Related content
 - [Work with mail items](../vsto/working-with-mail-items.md)
 - [How to: Programmatically create an email item](../vsto/how-to-programmatically-create-an-e-mail-item.md)
 - [How to: Programmatically access Outlook contacts](../vsto/how-to-programmatically-access-outlook-contacts.md)

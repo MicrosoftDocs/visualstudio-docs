@@ -28,7 +28,7 @@ The argument designer makes it easy to allow data to flow into and out of an act
     > [!NOTE]
     > To delete an argument, select the argument by clicking it and then press the **Delete** key.
 
-## See also
+## Related content
 
 - [Using the Workflow Designer](developing-applications-with-the-workflow-designer.md)
 - [Variables and Arguments](/dotnet/framework/windows-workflow-foundation/variables-and-arguments)

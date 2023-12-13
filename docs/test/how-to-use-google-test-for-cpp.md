@@ -1,5 +1,5 @@
 ---
-title: Use Google Test for C++
+title: Create and run unit tests with Google Test for C++
 description: Create and run unit tests with Google Test for C++, add and configure the test project, set additional options, and add include directives.
 ms.date: 01/19/2022
 ms-custom: devdivchpfy22

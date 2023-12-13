@@ -1,5 +1,5 @@
 ---
-title: "Write JavaScript code in Visual Studio without a solution or project"
+title: Write JavaScript code in Visual Studio without solution or project
 titleSuffix: ""
 description: Write JavaScript code in Visual Studio without placing the code in a solution or project, and start working quickly with IntelliSense, search, debugging, and more. 
 ms.date: "01/23/2023"

@@ -38,7 +38,7 @@ ms.technology: office-development
 
 - Appointment, contact, and e-mail items in Microsoft Office Outlook.
 
-## See also
+## Related content
 - [Outlook object model overview](../vsto/outlook-object-model-overview.md)
 - [How to: Programmatically retrieve a folder by name](../vsto/how-to-programmatically-retrieve-a-folder-by-name.md)
 - [How to: Programmatically search for a specific contact](/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-search-for-a-specific-contact)

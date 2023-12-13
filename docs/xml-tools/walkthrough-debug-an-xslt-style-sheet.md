@@ -150,6 +150,6 @@ The following two files are used by the walkthrough.
 </bookstore>
 ```
 
-## See also
+## Related content
 
 - [Debugging XSLT](../xml-tools/debugging-xslt.md)

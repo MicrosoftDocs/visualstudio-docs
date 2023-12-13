@@ -117,6 +117,6 @@ XAML Live Preview works by capturing an application screenshot several times a s
 
 Learn more about [XAML Hot Reload](xaml-hot-reload.md), which pairs closely with XAML Live Preview.
 
-## See also
+## Related content
 
 [Visual Studio 2022 release notes](/visualstudio/releases/2022/release-notes)

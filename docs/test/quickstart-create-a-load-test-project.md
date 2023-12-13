@@ -1,6 +1,6 @@
 ---
 title: Create a web performance and load test project
-description: Learn how to create and run a web performance and load test project in Visual Studio with this quickstart.
+description: Learn how to create and run a web performance and load test project in Visual Studio with guided steps in a quickstart article.
 ms.date: 08/03/2023
 ms.topic: quickstart
 helpviewer_keywords:

@@ -105,7 +105,7 @@ ms.technology: office-development
 ## Robust programming
  Interactively canceling any of the methods that save or copy the workbook raises a run-time error in your code. For example, if your procedure calls the <xref:Microsoft.Office.Tools.Excel.Workbook.SaveAs%2A> method but does not disable prompts from Excel, and your user clicks **Cancel** when prompted, Excel raises a run-time error.
 
-## See also
+## Related content
 - [Work with workbooks](../vsto/working-with-workbooks.md)
 - [Workbook host item](../vsto/workbook-host-item.md)
 - [How to: Programmatically close workbooks](../vsto/how-to-programmatically-close-workbooks.md)

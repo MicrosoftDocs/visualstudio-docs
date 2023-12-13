@@ -1,5 +1,5 @@
 ---
-title: "Programmatically delete worksheets from workbooks"
+title: Programmatically delete worksheets in workbooks in Visual Studio
 description: Delete any worksheet in a Microsoft Excel workbook, such as by using the worksheet host item, programmatically from Visual Basic or C# in Visual Studio.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -69,7 +69,7 @@ ms.technology: office-development
      :::code language="vb" source="codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet18":::
      ---
 
-## See also
+## Related content
 - [Work with worksheets](working-with-worksheets.md)
 - [How to: Programmatically hide worksheets](how-to-programmatically-hide-worksheets.md)
 - [How to: Programmatically move worksheets within workbooks](how-to-programmatically-move-worksheets-within-workbooks.md)

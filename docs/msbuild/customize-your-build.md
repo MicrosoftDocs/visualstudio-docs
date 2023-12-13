@@ -1,8 +1,8 @@
 ---
-title: Customize your build
+title: Customize your build with extensibility hooks
 description: Customize your build with several extensibility hooks that you can use to modify MSBuild projects that use the standard build process. 
 ms.date: 03/22/2023
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, transforms
 - transforms [MSBuild]

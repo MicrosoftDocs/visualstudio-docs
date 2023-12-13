@@ -1,6 +1,6 @@
 ---
 title: Introduction Live Unit Testing
-description: Learn about the advantages of Live Unit Testing and how to use it when unit testing your projects.
+description: Explore the advantages of Live Unit Testing, which executes unit tests automatically and in real time as you make code changes.
 ms.date: 09/11/2017
 ms.topic: conceptual
 helpviewer_keywords:

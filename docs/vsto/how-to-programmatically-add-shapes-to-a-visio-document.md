@@ -37,7 +37,7 @@ ms.technology: office-development
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb" id="Snippet13":::
      ---
 
-## See also
+## Related content
 - [Visio solutions](../vsto/visio-solutions.md)
 - [Visio object model overview](../vsto/visio-object-model-overview.md)
 - [Work with Visio shapes](../vsto/working-with-visio-shapes.md)

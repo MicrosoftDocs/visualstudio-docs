@@ -1,5 +1,5 @@
 ---
-title: "Add custom XML parts to document-level customizations"
+title: Add custom XML parts to doc-level customizations (Visual Studio)
 description: Store XML data in a Microsoft Office Excel workbook or Microsoft Office Word document by creating a custom XML part in a document-level customization.
 titleSuffix: ""
 ms.date: "02/02/2017"

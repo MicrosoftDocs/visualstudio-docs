@@ -2,7 +2,7 @@
 title: MSBuild Best Practices
 description: Learn about best practices for writing MSBuild scripts, such as using Condition attributes and not using wildcards.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - best practices, MSBuild
 - MSBuild, best practices

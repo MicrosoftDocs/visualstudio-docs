@@ -2,7 +2,7 @@
 title: "Tutorial: Open project from repo in Visual Studio"
 description: Learn how to open a cloned project in a Git or Azure DevOps repository by using Visual Studio and view files in Solution Explorer.
 ms.custom: vs-acquisition
-ms.date: 11/29/2022
+ms.date: 12/04/2023
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -40,11 +40,7 @@ Here's how.
 
     :::image type="content" source="../ide/media/vs-2022/clone-repository-enter-location.png" alt-text="Screenshot of the Clone a Repository dialog in Visual Studio where you enter a Git repo URL.":::
 
-1. You might be asked for your user sign-in information in the **Git User Information** dialog box. You can either add your information or edit the default information it provides.
-
-    :::image type="content" source="../ide/media/vs-2022/git-user-information-dialog.png" alt-text="Screenshot of the Git User Information dialog where you enter or edit your account info in Visual Studio 2022.":::
-
-    Select **Save** to add the info to your global .gitconfig file. (Or, you can select **Cancel** if you'd like to add the info later.)
+1. If you're not already signed in, you might be prompted to sign into Visual Studio or your GitHub account.
 
     > [!TIP]
     > For more information about signing in to Visual Studio, see the [**Sign in to Visual Studio**](../ide/signing-in-to-visual-studio.md?view=vs-2022&preserve-view=true) page. For specific information about how to use your GitHub account to sign in, see the [**Work with GitHub accounts in Visual Studio**](../ide/work-with-github-accounts.md?view=vs-2022&preserve-view=true) page. And if you receive a trust notification and want to know more about it, see the [Configure trust settings for files and folders](../ide/reference/trust-settings.md?view=vs-2022&preserve-view=true) page.
@@ -59,10 +55,10 @@ Here's how.
 
     Or, you can select the **Switch Views** button, and then select **Program.cs** to view a solution's code.
 
-    :::image type="content" source="../ide/media/vs-2022/git-solution-explorer-switch-views.png" alt-text="Screenshot of a project in Git that's open in Solution Explorer, with the Switch Views button highlighted in Visual Studio 2022.":::
+    :::image type="content" source="./media/vs-2022/tutorial-open-project-from-repo/git-solution-explorer-switch-views.png" alt-text="Screenshot of a project in Git that's open in Solution Explorer, with the Switch Views button highlighted.":::
 
 > [!TIP]
-> The default view is set to Folder View. You can change it to Solution View from the **Git** menu. Select **Settings** > **Source Control** > **Git Global Settings** > **Automatically load the solution when opening a Git repository** to do so.
+> You can change from the default Folder View to Solution View from the **Git** menu. Select **Settings** > **Source Control** > **Git Global Settings** > **Automatically load the solution when opening a Git repository** to do so.
 
 #### Open a project locally from a previously cloned GitHub repo
 
@@ -98,10 +94,6 @@ Here's how.
 1. In the Visual Studio IDE, select the **Git** menu, select **Local Repositories**, and then select **Open Local Repository**.
 
     :::image type="content" source="../ide/media/vs-2022/git-menu-local-repositories.png" alt-text="Screenshot of the Git menu in Visual Studio 2022 with the Local Repository and Open Local Repository showing.":::
-
-    Alternatively, you can perform the same task from **Solution Explorer**. To do so, choose the **Select Repository** control, select the **ellipsis** icon that's next to the **Filter repositories** box, and then select **Open Local Repository**.
-
-    :::image type="content" source="../ide/media/vs-2022/select-repository-filter-ellipsis.png" alt-text="Screenshot of the Select Repository control with the ellipsis icon selected and the Open Local Repository option showing.":::
 
 1. Follow the prompts to connect to the Git repository that has the files you're looking for.
 
