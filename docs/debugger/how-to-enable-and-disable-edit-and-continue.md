@@ -49,7 +49,7 @@ For native C++, **Edit and Continue** requires using the `/INCREMENTAL` option. 
 
 You can configure Hot Reload by selecting **Settings** from the **Hot Reload** drop-down button.
 
-![Screenshot of configuring Hot Reload](../debugger/media/vs-2022/dotnet-hot-reload-configure.png)
+![Screenshot of configuring Hot Reload.](../debugger/media/vs-2022/dotnet-hot-reload-configure.png)
 
 Or, open **Tools** > **Options** > **Debugging** > **.NET/C++ Hot Reload**.
 
@@ -66,7 +66,7 @@ The settings for Hot Reload include:
 
 * **Logging Verbosity**. Filters amount of information displayed in the Hot Reload Output window.
 
-![Screenshot of settings for .NET Hot Reload](../debugger/media/vs-2022/dotnet-hot-reload-settings.png)
+![Screenshot of settings for .NET Hot Reload.](../debugger/media/vs-2022/dotnet-hot-reload-settings.png)
 
 For .NET Hot Reload, you also can control whether Hot Reload is available at the project level by modifying your .NET 6+ project's *launchSetting.json* file and setting `hotReloadEnabled` to `false`.
 
@@ -119,7 +119,7 @@ For C++, you can set additional options by opening **Tools** > **Options** > **D
 1. Select **OK**.
 ::: moniker-end
 
-## Stop Code Changes
+## Stop code changes
 
 ::: moniker range=">=vs-2022"
 While Hot Reload is in the process of applying code changes, you can stop the operation.
