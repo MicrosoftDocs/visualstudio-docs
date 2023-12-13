@@ -1,5 +1,5 @@
 ---
-title: View DLLs and executables
+title: View DLLs and executables in Visual Studio
 description: View DLLs and executables (.exe files) that your app uses in the Modules window during a debugging session in Visual Studio.
 titleSuffix: Visual Studio Modules window
 ms.date: 11/04/2018

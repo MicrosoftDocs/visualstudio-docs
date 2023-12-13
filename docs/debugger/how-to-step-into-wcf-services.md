@@ -1,5 +1,5 @@
 ---
-title: Step into WCF Services
+title: Step into WCF services in a Visual Studio solution
 description: Step into a Windows Communication Foundation (WCF) service. If it's in the same Visual Studio solution as the client, hit breakpoints inside the WCF service.
 ms.date: 11/04/2016
 ms.topic: how-to
