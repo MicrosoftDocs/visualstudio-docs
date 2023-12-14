@@ -2,16 +2,13 @@
   href: index.yml
 - name: .NET code analysis
   items:
-  - name: Overview
+  - name: What is .NET code analysis?
     href: roslyn-analyzers-overview.md
-  - name: Installation
-    items:
-    - name: .NET analyzers
-      href: install-net-analyzers.md
-    - name: Third-party analyzers
-      href: install-roslyn-analyzers.md
-      expanded: true
-  - name: Configuration
+  - name: Install .NET analyzers
+    href: install-net-analyzers.m
+  - name: Install third-party analyzers
+    href: install-roslyn-analyzers.md
+  - name: Configure Roslyn analyzers
     items:
     - name: Overview
       href: use-roslyn-analyzers.md
