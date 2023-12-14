@@ -212,34 +212,32 @@
         href: hot-reload.md
       - name: Extend Hot Reload (.NET)
         href: hot-reload-metadataupdatehandler.md
+    - name: Edit and Continue
+      items:
+      - name: Configure Edit and Continue
+        href: how-to-enable-and-disable-edit-and-continue.md
+      - name: Edit and Continue (C++)
+        items:
+        - name: Edit and Continue for C++
+          href: edit-and-continue-visual-cpp.md
+        - name: Supported Code Changes (C++)
+          href: supported-code-changes-cpp.md
+      - name: Edit and Continue (Visual C#)
+        items:
+        - name: Edit and Continue for C#
+          href: edit-and-continue-visual-csharp.md
+        - name: Supported Code Changes
+          href: supported-code-changes-csharp.md
+      - name: Edit and Continue (Visual Basic)
+        href: edit-and-continue-visual-basic.md
+      - name: Edit and Continue not supported for F#
+        href: edit-and-continue-not-supported-for-f-hash.md
     - name: XAML Hot Reload
       items:
       - name: Write and debug running XAML code
         href: ../xaml-tools/xaml-hot-reload.md?toc=/visualstudio/debugger/toc.json
       - name: Troubleshooting XAML Hot Reload
         href: /troubleshoot/developer/visualstudio/tools-utilities/xaml-hot-reload-troubleshooting?toc=/visualstudio/debugger/toc.json
-    - name: Edit code and continue debugging
-      href: edit-and-continue.md
-    - name: Enable and disable Edit and Continue
-      href: how-to-enable-and-disable-edit-and-continue.md
-    - name: Stop code changes
-      href: how-to-stop-code-changes.md
-    - name: Edit and Continue (C++)
-      items:
-      - name: Edit and Continue for C++
-        href: edit-and-continue-visual-cpp.md
-      - name: Supported Code Changes (C++)
-        href: supported-code-changes-cpp.md
-    - name: Edit and Continue (Visual C#)
-      items:
-      - name: Edit and Continue for C#
-        href: edit-and-continue-visual-csharp.md
-      - name: Supported Code Changes
-        href: supported-code-changes-csharp.md
-    - name: Edit and Continue (Visual Basic)
-      href: edit-and-continue-visual-basic.md
-    - name: Edit and Continue not supported for F#
-      href: edit-and-continue-not-supported-for-f-hash.md
   - name: Source code
     items:
     - name: Decompile .NET assemblies

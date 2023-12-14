@@ -1,5 +1,5 @@
 ---
-title: Introduction to editing for Visual Basic developers
+title: Get started coding with Visual Basic (VB)
 description: Explore the code editor in Visual Studio and learn some ways that Visual Studio makes writing, navigating, and understanding Visual Basic code easier.
 ms.custom: vs-acquisition
 ms.date: 09/14/2021

@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Add math problems to a Windows Forms app"
+title: "Tutorial: Add math problems to Windows Forms app"
 description: Add an event handler and random math problems to a math quiz Windows Forms application in the Visual Studio integrated development environment (IDE).
 ms.custom: vs-acquisition
 dev_langs:
