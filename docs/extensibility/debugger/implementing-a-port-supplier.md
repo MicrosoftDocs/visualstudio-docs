@@ -25,7 +25,7 @@ A port supplier supplies ports on request to the session debug manager (SDM). A 
  [Required port supplier interfaces](../../extensibility/debugger/required-port-supplier-interfaces.md)
  Documents the interfaces you must implement to get a port supplier.
 
-## Related sections
+## Related content
 - [Debugger concepts](../../extensibility/debugger/debugger-concepts.md) describes the main debugging architectural concepts.
 
 - [Visual Studio debugger extensibility](../../extensibility/debugger/visual-studio-debugger-extensibility.md)

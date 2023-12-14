@@ -86,7 +86,7 @@ Explains the difference between syntax coloring in the core editor and in custom
 [Document data and document view in custom editors](../extensibility/document-data-and-document-view-in-custom-editors.md)\
 Explains how to implement document data and document views in custom editors.
 
-## Related sections
+## Related content
 
 - [Legacy interfaces in the editor](/previous-versions/visualstudio/visual-studio-2015/extensibility/legacy-interfaces-in-the-editor?preserve-view=true&view=vs-2015)\
 Explains how to access the core editor by means of the legacy API.
