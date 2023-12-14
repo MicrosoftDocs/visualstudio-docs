@@ -350,5 +350,4 @@ ms.technology: sharepoint-development
 - [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md).
 - [Walkthrough: Create a workflow with association and initiation forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md)
 - [How to: Create an application page](../sharepoint/how-to-create-an-application-page.md)
-- [Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)

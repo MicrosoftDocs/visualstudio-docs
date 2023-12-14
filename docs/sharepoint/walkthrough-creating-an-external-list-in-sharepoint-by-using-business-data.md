@@ -275,7 +275,5 @@ When you run the project, the SharePoint site opens and Visual Studio adds your 
 - [How to: Add a Creator method](../sharepoint/how-to-add-a-creator-method.md).
 - [How to: Add an Updater method](../sharepoint/how-to-add-an-updater-method.md).
 - [How to: Add a Deleter method](../sharepoint/how-to-add-a-deleter-method.md).
-- [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)
-- [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md)
 - [BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md)
 - [Integrate business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)
