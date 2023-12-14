@@ -36,7 +36,7 @@
   - name: ASP.NET web app
     items:
     - name: Azure App Service
-      href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs?toc=/visualstudio/azure/toc.json&bc=/visualstudio/_breadcrumb/toc.json
+      href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs?toc=%2Fvisualstudio%2Fazure%2Ftoc.json&bc=/visualstudio/_breadcrumb/toc.json
     - name: Azure Container Apps >>
       href: /azure/container-apps/deploy-visual-studio
     - name: Azure Container Registry
