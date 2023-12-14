@@ -371,7 +371,7 @@ Test Explorer can play a sound when a test run completes. There are two sounds: 
 3. Find the **Microsoft Visual Studio** category. Choose the **Test Run Succeeded** or **Test Run Failed** sounds to select the preset sounds or browse to your own audio file.  
 ![Windows 11 sound dialog](../test/media/default-windows-11-sound-dialog.png)
 
-## See also
+## Related content
 
 - [Unit test your code](../test/unit-test-your-code.md)
 - [Debug unit tests with Test Explorer](../test/debug-unit-tests-with-test-explorer.md)

@@ -54,6 +54,6 @@ Update to the latest stable test adapter to experience better test discovery and
    Choose the **Install** button.
    ::: moniker-end
 
-## See also
+## Related content
 
 - [Unit test your code](../test/unit-test-your-code.md)

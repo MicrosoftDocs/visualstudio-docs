@@ -152,7 +152,7 @@ Go to the procedure [To add unit tests in the same project](#sameProject).
 
 1. In **Test Explorer**, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, for example, to run it in debug mode with breakpoints enabled.
 
-## See also
+## Related content
 
 - [Write unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
 - [Microsoft.VisualStudio.TestTools.CppUnitTestFramework API Reference](../test/microsoft-visualstudio-testtools-cppunittestframework-api-reference.md)

@@ -102,5 +102,5 @@ ms.technology: sharepoint-development
 
  You can add the extension directly to the targets (*.targets*) file. However, adding the extension alters the extensions list for all SharePoint projects packaged on the local system, not just your own. This extension may be convenient when you are the sole developer on the system or if most of your projects require it. However, because it is system-specific, this approach is not portable, and therefore, it is recommended that you add any extensions to the project file instead.
 
-## See also
+## Related content
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)

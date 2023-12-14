@@ -485,7 +485,7 @@ The **RunConfiguration** node should contain an **EnvironmentVariables** node. A
 > [!NOTE]
 > Because these environment variables should always be set when the test host is started, the tests should always run in a separate process. For this, the */InIsolation* flag will be set when there are environment variables so that the test host is always invoked.
 
-## See also
+## Related content
 
 - [Configure a test run](https://github.com/microsoft/vstest-docs/blob/master/docs/configure.md)
 - [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md)

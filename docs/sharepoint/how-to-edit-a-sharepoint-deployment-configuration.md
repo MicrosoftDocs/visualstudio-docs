@@ -47,5 +47,5 @@ ms.technology: sharepoint-development
 
 3. In the **Active Deployment Configuration** list box, choose the name of the deployment configuration that you want to use.
 
-## See also
+## Related content
 - [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

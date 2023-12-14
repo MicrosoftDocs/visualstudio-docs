@@ -108,6 +108,6 @@ ms.technology: sharepoint-development
 
 16. Choose the **Tab** key, and then choose the **OK** button to close the dialog box.
 
-## See also
+## Related content
 - [Provide packaging and deployment information in project items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)
 - [Package and deploying SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)
