@@ -97,6 +97,4 @@ Explains how to implement a language service.
 - [Extend other parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)\
 Explains how to create UI elements that match the rest of Visual Studio.
 
-## Related content
-
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory>
