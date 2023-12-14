@@ -280,6 +280,6 @@ In this section, you'll add a Command and an event for the button to open the op
 
 - [Opening an Options Page](/previous-versions/cc826083(v=vs.140))
 
-## See also
+## Related content
 
 - [Options and options pages](../extensibility/internals/options-and-options-pages.md)

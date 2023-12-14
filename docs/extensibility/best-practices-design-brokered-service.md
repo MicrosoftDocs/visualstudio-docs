@@ -165,5 +165,5 @@ Best practices for adding members to existing services include:
 - Update your service to register and proffer the new version _in addition to_ the old version.
 - If you have a client of your brokered service, update your client to request the newer version, and fallback to requesting the older version if the newer one comes back as null.
 
-## See also
+## Related content
 - [How to provide a brokered service](how-to-provide-brokered-service.md)

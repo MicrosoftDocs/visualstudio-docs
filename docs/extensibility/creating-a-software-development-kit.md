@@ -279,7 +279,7 @@ Note that in Visual Studio 2019 and earlier, rather than listing toolbox control
     </File>
     ```
 
-## See also
+## Related content
 
 - [Walkthrough: Create an SDK using C++](../extensibility/walkthrough-creating-an-sdk-using-cpp.md)
 - [Walkthrough: Create an SDK using C# or Visual Basic](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md)
