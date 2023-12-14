@@ -1,5 +1,5 @@
 ---
-title: Customize the IDE
+title: Customize & save your personal Visual Studio IDE settings
 description: Personalize  the Visual Studio integrated development environment (IDE) in ways that best support your own development style and requirements.
 ms.date: 08/24/2022
 ms.topic: conceptual

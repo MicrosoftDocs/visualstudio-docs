@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Add controls to a picture viewer application."
+title: "Tutorial: Add controls to a picture viewer app"
 description: Add a picture box, a checkbox, and buttons to a picture viewer application in the Visual Studio integrated development environment (IDE).
 author: anandmeg
 ms.author: meghaanand

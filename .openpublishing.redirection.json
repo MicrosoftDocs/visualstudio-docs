@@ -19169,6 +19169,16 @@
       "source_path": "subscriptions/anonymization.md",
       "redirect_url": "/visualstudio/subscriptions/subscription-removed",
       "redirect_document_id": false
-    }           
+    },
+    {
+      "source_path": "docs/vsto/working-with-workbooks.md",
+      "redirect_url": "/visualstudio/vsto/how-to-programmatically-create-new-workbooks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/vsto/working-with-worksheets.md",
+      "redirect_url": "/visualstudio/vsto/how-to-programmatically-add-new-worksheets-to-workbooks",
+      "redirect_document_id": false
+    }   
   ]
 }
