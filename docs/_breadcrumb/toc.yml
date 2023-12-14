@@ -46,7 +46,7 @@
     tocHref: /visualstudio/containers/
     topicHref: /visualstudio/containers/index
   - name: Azure Development
-    tocHref: /visualstudio/azure
+    tocHref: /visualstudio/azure/
     topicHref: /visualstudio/azure/index
   - name: SharePoint
     tocHref: /visualstudio/sharepoint/
