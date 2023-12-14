@@ -5,7 +5,7 @@
   - name: What is .NET code analysis?
     href: roslyn-analyzers-overview.md
   - name: Install .NET analyzers
-    href: install-net-analyzers.m
+    href: install-net-analyzers.md
   - name: Install third-party analyzers
     href: install-roslyn-analyzers.md
   - name: Configure Roslyn analyzers
