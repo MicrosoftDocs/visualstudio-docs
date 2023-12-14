@@ -477,7 +477,7 @@ The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** 
     ```
     ---
 
-## See also
+## Related content
 - [Support symbol-browsing tools](../../extensibility/internals/supporting-symbol-browsing-tools.md)
 - [How to: Register a library with the object manager](../../extensibility/internals/how-to-register-a-library-with-the-object-manager.md)
 - [How to: Identify symbols in a library](../../extensibility/internals/how-to-identify-symbols-in-a-library.md)

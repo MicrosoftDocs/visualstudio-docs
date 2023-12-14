@@ -48,7 +48,7 @@ If an appropriate command context GUID is not already defined, you can define on
 > [!CAUTION]
 > Make sure that your VSPackage does not affect any existing context GUIDs because other VSPackages may depend on them.
 
-## See also
+## Related content
 
 - [Selection context objects](../../extensibility/internals/selection-context-objects.md)
 - [How VSPackages add user interface elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)

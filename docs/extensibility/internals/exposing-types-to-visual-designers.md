@@ -38,7 +38,7 @@ Visual Studio must have access to class and type definitions at design time in o
 
      When a temporary PE is compiled, the only source file provided to the compiler is the custom tool output. Therefore, a custom tool that uses a temporary PE must generate output files that can be compiled independently of other files in the project.
 
-## See also
+## Related content
 - [Introduction to the BuildManager object](/previous-versions/8f9kffa8(v=vs.140))
 - [Implement single-file generators](../../extensibility/internals/implementing-single-file-generators.md)
 - [Register single-file generators](../../extensibility/internals/registering-single-file-generators.md)

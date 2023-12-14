@@ -31,5 +31,5 @@ VSPackages can provide custom **Options** dialog boxes to the **Tools** menu (**
 
    For a sample implementing a custom **Tools Options** page, see [VSSDK Samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples).
 
-## See also
+## Related content
 - [Expose project objects](../../extensibility/internals/exposing-project-objects.md)

@@ -62,5 +62,5 @@ DisplayNamePackageGuid={GUID} (REG_SZ)
 
 ```
 
-## See also
+## Related content
 - [Private galleries](../extensibility/private-galleries.md)

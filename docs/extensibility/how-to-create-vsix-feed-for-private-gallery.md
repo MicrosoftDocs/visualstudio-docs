@@ -110,5 +110,5 @@ The install location for the VsixUtil tool is *{VS Install Path}\VSSDK\VisualStu
 </Vsix> 
 ```
 
-## See also
+## Related content
 - [Private galleries](../extensibility/private-galleries.md)

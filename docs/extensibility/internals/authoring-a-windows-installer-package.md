@@ -44,5 +44,5 @@ A variety of third-party setup tools provide a development environment for Windo
 
    For commercial products that integrate into Visual Studio by using the Visual Studio SDK, see [Visual Studio Marketplace](https://marketplace.visualstudio.com/).
 
-## See also
+## Related content
 - [Install VSPackages With Windows Installer](../../extensibility/internals/installing-vspackages-with-windows-installer.md)

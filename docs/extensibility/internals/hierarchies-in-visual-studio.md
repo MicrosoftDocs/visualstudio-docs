@@ -27,7 +27,7 @@ The Visual Studio integrated development environment (IDE) displays a project as
 
  When a user opens an item in an editor, the hierarchy that controls that item is selected and becomes the active hierarchy. The selected hierarchy determines the set of commands available to act on the item. Tracking user focus in this manner enables the hierarchy to reflect the user's current context.
 
-## See also
+## Related content
 - [Project types](../../extensibility/internals/project-types.md)
 - [Selection and currency in the IDE](../../extensibility/internals/selection-and-currency-in-the-ide.md)
 - [VSSDK samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples)

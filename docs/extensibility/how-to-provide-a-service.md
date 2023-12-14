@@ -133,7 +133,7 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
 
      The value of `helloString` should be "Hello".
 
-## See also
+## Related content
 - [How to: Get a service](../extensibility/how-to-get-a-service.md)
 - [Use and provide services](../extensibility/using-and-providing-services.md)
 - [Service essentials](../extensibility/internals/service-essentials.md)
