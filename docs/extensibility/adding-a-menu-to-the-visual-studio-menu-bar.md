@@ -88,6 +88,6 @@ By completing this walkthrough, you can create a menu named **Test Menu** that c
 
     A message box should appear and display the message "TestCommand Inside TopLevelMenu.TestCommand.MenuItemCallback()".
 
-## See also
+## Related content
 
 - [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md)

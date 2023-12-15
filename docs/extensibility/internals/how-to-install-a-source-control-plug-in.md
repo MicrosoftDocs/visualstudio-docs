@@ -111,5 +111,5 @@ Creating a source-control plug-in involves three steps:
 
  If both of these conditions are met, the new functions supported in versions 1.2 and 1.3 can be called.
 
-## See also
+## Related content
 - [Get started with source control plug-ins](../../extensibility/internals/getting-started-with-source-control-plug-ins.md)

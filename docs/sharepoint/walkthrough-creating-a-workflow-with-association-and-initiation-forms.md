@@ -454,11 +454,8 @@ ms.technology: sharepoint-development
 
      When this occurs, an entry in the history list is created instead of a task. The entry displays in the **Workflow History** section of the workflow status page. Note the message in the **Outcome** column of the history event. It contains the text entered in the `logToHistoryListActivity1.MethodInvoking` event that includes the amount which was auto-approved.
 
-## Next steps
- You can learn more about how to create workflow templates from these topics:
+## Related content
 
-- To learn more about SharePoint workflows, see [Workflows in Windows SharePoint Services](/previous-versions/office/developer/sharepoint-2010/ms416312(v=office.14)).
-
-## See also
+- [Workflows in Windows SharePoint Services](/previous-versions/office/developer/sharepoint-2010/ms416312(v=office.14))
 - [Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md)
 - [Walkthrough: Add an application page to a workflow](../sharepoint/walkthrough-add-an-application-page-to-a-workflow.md)

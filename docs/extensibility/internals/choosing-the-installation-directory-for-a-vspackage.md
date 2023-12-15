@@ -54,7 +54,7 @@ A VSPackage and its supporting files must be on a user's file system. The locati
 
 If your VSPackage DLL includes resources and the **SatelliteDll\DllName** registry entry points to it, Visual Studio attempts to load them in the above order.
 
-## See also
+## Related content
 - [Choose between shared and versioned VSPackages](../../extensibility/choosing-between-shared-and-versioned-vspackages.md)
 - [Manage VSPackages](../../extensibility/managing-vspackages.md)
 - [Manage package registration](/previous-versions/bb166783(v=vs.100))

@@ -334,7 +334,7 @@ Now you can view the IntelliTrace log file in Visual Studio to find and fix the 
 
      The code now runs properly.
 
-## See also
+## Related content
 
 - [Verify and debug SharePoint code](../sharepoint/verifying-and-debugging-sharepoint-code.md)
 - [IntelliTrace](../debugger/intellitrace.md)

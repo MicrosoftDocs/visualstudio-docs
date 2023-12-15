@@ -507,6 +507,6 @@ Yes, but not all features will work properly. The ultimate goal for LSP language
 
 See the Marketplace instructions [here](walkthrough-publishing-a-visual-studio-extension.md).
 
-## See also
+## Related content
 
 - [Add Visual Studio editor support for other languages](../ide/adding-visual-studio-editor-support-for-other-languages.md)

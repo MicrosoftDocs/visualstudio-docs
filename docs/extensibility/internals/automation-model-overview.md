@@ -88,5 +88,5 @@ Visual Studio provides a set of automation interfaces for customizing the enviro
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject%2A>
  Provides a code sample that shows how a VSPackage participates in the DTE automation object model. Lists parameters, return values, and selected remarks.
 
-## See also
+## Related content
 - [How to: Create an add-in](/previous-versions/80493a3w(v=vs.140))

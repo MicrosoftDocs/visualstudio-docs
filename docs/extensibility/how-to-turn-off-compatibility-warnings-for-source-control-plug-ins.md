@@ -37,6 +37,6 @@ A user may see several compatibility warnings when employing source control in V
 
      It is best to support reentrancy (`SCC_CAP_REENTRANT` capability); doing so will remove this warning. However, if this support is not possible, these registry entries can be set.
 
-## See also
+## Related content
 
 - [Capability flags](../extensibility/capability-flags.md)

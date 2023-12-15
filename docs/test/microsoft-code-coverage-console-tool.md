@@ -170,7 +170,7 @@ D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console shutdown 73c34ce5
 
 ::: moniker-end
 
-## See also
+## Related content
 
 - [dotnet-coverage code coverage utility](/dotnet/core/additional-tools/dotnet-coverage)
 - [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md)

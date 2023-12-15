@@ -42,18 +42,9 @@ Unit tests often mirror the structure of the code under test. For example, a uni
 
    If the code that you want to test is in another location, see [Managing references in a project](../ide/managing-references-in-a-project.md) for information about adding a reference.
 
-## Next steps
-
-See one of the following sections:
-
-**Writing unit tests**
+## Related content
 
 - [Unit test your code](../test/unit-test-your-code.md)
-
 - [Writing unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
-
 - [Use the MSTest framework in unit tests](using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md)
-
-**Running unit tests**
-
 - [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)
