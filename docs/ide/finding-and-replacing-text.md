@@ -35,10 +35,10 @@ ms.technology: vs-ide-general
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-In this article, you learn how to find and replace text in the Visual Studio editor by using [the single file find-and-replace](#find-and-replace-control) (**Ctrl**+**F** or **Ctrl**+**H**) or [multi-file find-and-replace](#find-in-files-and-replace-in-files) (**Ctrl**+**Shift**+**F** or **Ctrl**+**Shift**+**H**). You can also find and replace *some* instances of a pattern by using *[multi-caret selection](#multi-caret-selection)*.  In addition to the editor, you can also find and replace text in certain other text-based windows such as the **Find Results** windows, in designer windows such as the XAML designer and Windows Forms designer, and in tool windows.
+In this article, you learn how to find and replace text in the Visual Studio editor by using [the single file find-and-replace](#control) (**Ctrl**+**F** or **Ctrl**+**H**) or [multi-file find-and-replace](#find-in-files-and-replace-in-files) (**Ctrl**+**Shift**+**F** or **Ctrl**+**Shift**+**H**). You can also find and replace *some* instances of a pattern by using *[multi-caret selection](#multi-caret-selection)*.  In addition to the editor, you can also find and replace text in certain other text-based windows such as the **Find Results** windows, in designer windows such as the XAML designer and Windows Forms designer, and in tool windows.
 
 > [!NOTE]
-> If you're looking for information on Visual Studio Code&mdash;also known as **VS Code**&mdash;see the [**VS Code find and replace docs**](https://code.visualstudio.com/docs/editor/codebasics#_find-and-replace).
+> If you're looking for information on Visual Studio Code, visit the [**VS Code find and replace docs**](https://code.visualstudio.com/docs/editor/codebasics#_find-and-replace).
 
 > [!TIP]
 > If you want to rename code symbols such as variables and methods, it's better to *[refactor](../ide/reference/rename.md)* them than to use find-and-replace. Refactoring is intelligent and understands scope, whereas find-and-replace blindly replaces all instances.
@@ -48,7 +48,8 @@ You can scope searches to the current document, the current solution, or a custo
 > [!TIP]
 > The [Find/Command](../ide/find-command-box.md) box is available as a toolbar control, but isn't visible by default. To display the **Find/Command** box, select **Add or Remove Buttons** on the **Standard** toolbar, and then select **Find**.
 
-## Find and Replace within a single file
+
+## <a name="control"></a> Find and Replace within a single file
 
 - Press **Ctrl**+**F** as a shortcut to *find* a string in the current file.
 - Press **Ctrl**+**H** as a shortcut to *find and replace* a string in the current file.
