@@ -29,7 +29,7 @@ Part of the deep integration available to source control VSPackages is the abili
 
  The <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccGlyphs.GetCustomGlyphList%2A> method is used by Visual Studio to obtain a list of images showing various source control states. The source control VSPackage returns to the IDE a handle to the image list for its custom glyphs. The IDE makes a copy of the image list at this point and uses it later to choose the glyphs to display. If the new interface is not supported or the `IVsSccGlyphs::GetCustomGlyphList` method returns `E_NOTIMPL`, then the IDE gets its glyphs from the default list of glyphs supplied by Visual Studio.
 
-## See also
+## Related content
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccGlyphs>
 - <xref:Microsoft.VisualStudio.Shell.Interop.VsStateIcon>
 - <xref:Microsoft.VisualStudio.Shell.Interop.SVsSccManager>

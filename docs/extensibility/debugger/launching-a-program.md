@@ -51,6 +51,5 @@ Users who want to debug a program can press **F5** to run the debugger from the 
  [Attaching after a launch](../../extensibility/debugger/attaching-after-a-launch.md)
  Documents when the debug session is ready to attach the DE to the program.
 
-## Related sections
- [Debugging tasks](../../extensibility/debugger/debugging-tasks.md)
- Contains links to various debugging tasks, such as launching a program and evaluating expressions.
+## Related content
+- [Debugging tasks](../../extensibility/debugger/debugging-tasks.md) contains links to various debugging tasks, such as launching a program and evaluating expressions.

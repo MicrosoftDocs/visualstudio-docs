@@ -100,7 +100,7 @@ The following limitations apply when you re-target your test projects to use ear
 
 6. In **Solution Explorer**, choose select **Reload Project** from the right-click menu of your new C++ test project.
 
-## See also
+## Related content
 
 - [Create SharePoint solutions](../sharepoint/create-sharepoint-solutions.md)
 - [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)

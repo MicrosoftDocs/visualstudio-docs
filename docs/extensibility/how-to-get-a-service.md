@@ -80,7 +80,7 @@ if (sp != null)
 }
 ```
 
-## See also
+## Related content
 
 - [How to: Provide a service](../extensibility/how-to-provide-a-service.md)
 - [Use and provide services](../extensibility/using-and-providing-services.md)

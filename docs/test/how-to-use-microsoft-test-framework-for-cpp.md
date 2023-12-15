@@ -112,6 +112,6 @@ The following pre-defined traits are found in *`CppUnitTest.h`*. For more inform
 |`TEST_OWNER(ownerAlias)`|Use the predefined Owner trait to specify an owner of the test method.|
 |`TEST_PRIORITY(priority)`|Use the predefined Priority trait to assign relative priorities to your test methods.|
 
-## See also
+## Related content
 
 - [Quickstart: Test driven development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)

@@ -214,6 +214,6 @@ Menu controllers can appear on menus but they are most often used on toolbars.
 
     A dialog box appears with the message **You selected Menu controller Item 3**. Notice that the message corresponds to the text on the menu controller button. The menu controller button now displays **MC Item 3**.
 
-## See also
+## Related content
 - [Adding a toolbar to a tool window](../extensibility/adding-a-toolbar-to-a-tool-window.md)
 - [Adding a toolbar](../extensibility/adding-a-toolbar.md)

@@ -216,6 +216,6 @@ A project subtype frequently needs to display additional property pages in the P
     ```
     ---
 
-## See also
+## Related content
 
 - [Project subtypes](../extensibility/internals/project-subtypes.md)

@@ -121,7 +121,7 @@ To fix this error:
 
 In Visual Studio 2019, you can opt into preview features in **Tools > Options > Environment > Preview Features**.
 
-## See also
+## Related content
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting?displayProperty=fullName>
 - [Create and run unit tests for existing code](/previous-versions/dd293546(v=vs.110))

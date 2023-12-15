@@ -116,5 +116,5 @@ You can use the *vsct.exe* compiler to convert an existing *.cto* file into a *.
 
  Run the tool by using the command **CreateExpInstance /Reset**. Remember that this tool removes from the experimental hive all the registered VSPackages not normally installed with Visual Studio.
 
-## See also
+## Related content
 - [Extend menus and commands](../../extensibility/extending-menus-and-commands.md)

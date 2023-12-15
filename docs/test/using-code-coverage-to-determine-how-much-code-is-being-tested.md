@@ -324,7 +324,7 @@ To run tests from the command line, use *vstest.console.exe* utility. Code cover
 
 If you don't see code coverage results, the [Troubleshoot code coverage](../test/troubleshooting-code-coverage.md) article might help you.
 
-## See also
+## Related content
 
 - [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md)
 - [Troubleshoot code coverage](../test/troubleshooting-code-coverage.md)

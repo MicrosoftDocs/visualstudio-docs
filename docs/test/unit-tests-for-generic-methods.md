@@ -190,6 +190,6 @@ namespace TestProject1
 }
 ```
 
-## See also
+## Related content
 
 - [Unit test your code](../test/unit-test-your-code.md)

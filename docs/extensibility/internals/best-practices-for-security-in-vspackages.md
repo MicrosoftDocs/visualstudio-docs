@@ -25,6 +25,6 @@ To install the Visual Studio SDK on your computer, you must be running in a cont
 
  For more information, see [Secure coding guidelines for the .NET Framework](/previous-versions/visualstudio/visual-studio-2008/d55zzx87(v=vs.90)).
 
-## See also
+## Related content
 - [Add-in security](/previous-versions/1326zbk3(v=vs.140))
 - [DDEX security](/previous-versions/bb163703(v=vs.140))

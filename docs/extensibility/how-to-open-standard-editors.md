@@ -44,7 +44,7 @@ When you open a standard editor, you let the IDE determine a standard editor for
 
      If the document view or document view object was successfully sited in a window frame, the object is initialized with its data by calling <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2.LoadDocData%2A>.
 
-## See also
+## Related content
 - <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider>
 - [Open and save project items](../extensibility/internals/opening-and-saving-project-items.md)
 - [How to: Open project-specific editors](../extensibility/how-to-open-project-specific-editors.md)

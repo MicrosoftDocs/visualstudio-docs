@@ -565,6 +565,6 @@ System.Fakes.ShimEnvironment.GetCommandLineArgsGet = ...
 
 By making these modifications, you've opened up the possibility to control and test how your code interacts with system environment variables, an essential tool for comprehensive unit testing.
 
-## See also
+## Related content
 
 - [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)

@@ -30,9 +30,7 @@ ms.technology: vs-ide-debug
  [Sample implementation of locals](../../extensibility/debugger/sample-implementation-of-locals.md)
  Uses examples to step through the process of implementing locals.
 
-## Related sections
- [Evaluation context](../../extensibility/debugger/evaluation-context.md)
- Explains that when the debug engine (DE) calls the expression evaluator (EE), it passes three arguments.
+## Related content
+- [Evaluation context](../../extensibility/debugger/evaluation-context.md) explains that when the debug engine (DE) calls the expression evaluator (EE), it passes three arguments.
 
-## See also
- [Write a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
+- [Write a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)

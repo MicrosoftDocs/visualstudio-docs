@@ -650,7 +650,7 @@ internal class MefBrokeredService : IExportedBrokeredService, ICalculator
 }
 ```
 
-## See also
+## Related content
 - [Best Practices for Designing a Brokered Service](best-practices-design-brokered-service.md)
 - [How to Secure a Brokered Service](how-to-secure-brokered-service.md)
 - [Brokered Service Essentials](internals/brokered-service-essentials.md)

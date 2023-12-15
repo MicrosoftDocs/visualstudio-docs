@@ -41,6 +41,6 @@ ms.technology: vs-ide-debug
  [Sample implementation of changing values](../../extensibility/debugger/sample-implementation-of-changing-values.md)
  Uses the MyCEE sample to step through the process of changing values.
 
-## See also
+## Related content
 - [Writing a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
 - [Displaying locals](../../extensibility/debugger/displaying-locals.md)

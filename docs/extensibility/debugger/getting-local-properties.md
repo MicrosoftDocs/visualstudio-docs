@@ -151,6 +151,6 @@ STDMETHODIMP CEnumPropertyInfo::Next(
 }
 ```
 
-## See also
+## Related content
 - [Sample implementation of locals](../../extensibility/debugger/sample-implementation-of-locals.md)
 - [Enumerating locals](../../extensibility/debugger/enumerating-locals.md)

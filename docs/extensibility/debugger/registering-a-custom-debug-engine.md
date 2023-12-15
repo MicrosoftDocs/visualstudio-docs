@@ -43,7 +43,7 @@ HRESULT CTextInterpreterModule::RegisterServer(BOOL bRegTypeLib, const CLSID * p
 }
 ```
 
-## See also
+## Related content
 - [Creating a custom debug engine](../../extensibility/debugger/creating-a-custom-debug-engine.md)
 - [SDK helpers for debugging](../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)
 - [Tutorial: Building a debug engine using ATL COM](/previous-versions/bb147024(v=vs.90))

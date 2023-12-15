@@ -100,5 +100,5 @@ To bind a keyboard shortcut to a custom menu command, just add an entry to the *
 <KeyBinding guid="guidVSStd97" id="cmdidBold" editor="guidTestEditorEditorFactory" key1="B" mod1="Control" />
 ```
 
-## See also
+## Related content
 - [Extending menus and commands](../extensibility/extending-menus-and-commands.md)

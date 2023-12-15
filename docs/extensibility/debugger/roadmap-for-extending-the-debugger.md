@@ -44,5 +44,5 @@ This documentation provides guide and reference information for extending the Vi
 
    [Samples](../../extensibility/debugger/visual-studio-debugging-samples.md)
 
-## See also
+## Related content
 - [Get started](../../extensibility/debugger/getting-started-with-debugger-extensibility.md)

@@ -150,6 +150,6 @@ BOOST_AUTO_TEST_CASE(my_boost_test)
 
 You're now ready to write and run Boost tests. See the [Boost test library documentation](https://www.boost.org/doc/libs/1_71_0/libs/test/doc/html/index.html) for information about the test macros. See [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md) for information about discovering, running, and grouping your tests by using **Test Explorer**.
 
-## See also
+## Related content
 
 - [Write unit tests for C/C++](writing-unit-tests-for-c-cpp.md)

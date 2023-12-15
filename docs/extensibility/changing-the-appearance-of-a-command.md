@@ -79,7 +79,7 @@ To change the appearance of a command, perform one of these actions:
 
 8. On the **Tools** menu you should now see **New Text**. Click **New Text**. The command should now be grayed out.
 
-## See also
+## Related content
 - [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md)
 - [How VSPackages add user interface elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)
 - [Extending menus and commands](../extensibility/extending-menus-and-commands.md)

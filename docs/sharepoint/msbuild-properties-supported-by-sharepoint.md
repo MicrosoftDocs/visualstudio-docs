@@ -47,6 +47,6 @@ ms.technology: sharepoint-development
 > [!NOTE]
 > You can use either the MSBuild variable syntax `$(`*propertyName*`)` or the environment variable syntax `%`*propertyName*`%` to specify a property.
 
-## See also
+## Related content
 
 - [MSBuild Reference](../msbuild/msbuild-reference.md)

@@ -302,18 +302,16 @@
           href: ide/how-to-use-surround-with-code-snippets.md
         - name: Best practices
           href: ide/best-practices-for-using-code-snippets.md
-        - name: Create code snippets
-          items:
-          - name: 'Walkthrough: Create a code snippet'
-            href: ide/walkthrough-creating-a-code-snippet.md
-          - name: Distribute code snippets
-            href: ide/how-to-distribute-code-snippets.md
-          - name: Code snippet functions
-            href: ide/code-snippet-functions.md
-          - name: Code snippets schema reference
-            href: ide/code-snippets-schema-reference.md
-          - name: Troubleshoot snippets
-            href: /troubleshoot/developer/visualstudio/ide/troubleshooting-snippets?toc=%2Fvisualstudio%2Ftoc.json
+        - name: 'Walkthrough: Create a code snippet'
+          href: ide/walkthrough-creating-a-code-snippet.md
+        - name: Distribute code snippets
+          href: ide/how-to-distribute-code-snippets.md
+        - name: Code snippet functions
+          href: ide/code-snippet-functions.md
+        - name: Code snippets schema reference
+          href: ide/code-snippets-schema-reference.md
+        - name: Troubleshoot snippets
+          href: /troubleshoot/developer/visualstudio/ide/troubleshooting-snippets?toc=%2Fvisualstudio%2Ftoc.json
       - name: Quick Actions
         displayName: light bulb screwdriver suggestions
         href: ide/quick-actions.md

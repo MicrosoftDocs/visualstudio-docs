@@ -126,5 +126,5 @@ At this point, you have a Visual Studio 2022-targeted extension VSIX. You should
       
       ![Screenshot that shows adding arm64 lib path](samples/add-arm64-library.png)   
 
-## See also
+## Related content
 - [Update a Visual Studio extension for Visual Studio 2022](../../extensibility/migration/update-visual-studio-extension.md)
