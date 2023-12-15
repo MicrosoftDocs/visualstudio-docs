@@ -38,7 +38,6 @@ The following table describes key ways in which an AI assistant can help you dev
        Ask the AI assistant for:
         + Explanations of code sections (for example, when you're trying to understand someone else's code)
         + Answers to your programming questions
-        + Code snippets 
     :::column-end::: 
 :::row-end:::
 :::row::: 
