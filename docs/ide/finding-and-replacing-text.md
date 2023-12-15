@@ -35,7 +35,7 @@ ms.technology: vs-ide-general
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-In this article, you learn how to find and replace text in the Visual Studio editor by using [the single file find-and-replace](#control) (**Ctrl**+**F** or **Ctrl**+**H**) or [multi-file find-and-replace](#find-in-files-and-replace-in-files) (**Ctrl**+**Shift**+**F** or **Ctrl**+**Shift**+**H**). You can also find and replace *some* instances of a pattern by using *[multi-caret selection](#multi-caret-selection)*.  In addition to the editor, you can also find and replace text in certain other text-based windows such as the **Find Results** windows, in designer windows such as the XAML designer and Windows Forms designer, and in tool windows.
+In this article, you learn how to find and replace text in the Visual Studio editor by using [the single file find-and-replace](#control) (**Ctrl**+**F** or **Ctrl**+**H**) or [multi-file find-and-replace](#multifile) (**Ctrl**+**Shift**+**F** or **Ctrl**+**Shift**+**H**). You can also find and replace *some* instances of a pattern by using *[multi-caret selection](#multi-caret-selection)*.  In addition to the editor, you can also find and replace text in certain other text-based windows such as the **Find Results** windows, in designer windows such as the XAML designer and Windows Forms designer, and in tool windows.
 
 > [!NOTE]
 > If you're looking for information on Visual Studio Code, visit the [**VS Code find and replace docs**](https://code.visualstudio.com/docs/editor/codebasics#_find-and-replace).
@@ -49,7 +49,7 @@ You can scope searches to the current document, the current solution, or a custo
 > The [Find/Command](../ide/find-command-box.md) box is available as a toolbar control, but isn't visible by default. To display the **Find/Command** box, select **Add or Remove Buttons** on the **Standard** toolbar, and then select **Find**.
 
 
-## <a name="control"></a> Find and Replace within a single file
+## <a name="control"></a>Find and Replace within a single file
 
 - Press **Ctrl**+**F** as a shortcut to *find* a string in the current file.
 - Press **Ctrl**+**H** as a shortcut to *find and replace* a string in the current file.
@@ -78,7 +78,7 @@ You can use the **Find** control in code or text windows, such as **Output** win
 
 A version of the **Find** control is also available in some tool windows. For example, you can filter the list of controls in the **Toolbox** window by entering text in the search box. Other tool windows that allow you to search their contents include **Solution Explorer**, the **Properties** window, and **Team Explorer**.
 
-## Find-and-Replace in multiple files
+## <a name="multifile"></a>Find-and-Replace in multiple files
 
 
 **Find in Files** allows you to search a specified set of files. The matches Visual Studio finds are listed in the **Find Results** window in the IDE. How the results appear depends on the options you choose in the **Find and Replace** dialog box.
