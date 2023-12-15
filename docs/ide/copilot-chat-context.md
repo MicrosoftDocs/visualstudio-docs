@@ -44,7 +44,7 @@ You can use slash commands in a [chat window](visual-studio-github-copilot-chat.
 |---------------------------|--------------------|:----------:|:----------:|
 | /askvs| Ask questions related to Visual Studio. <br>  Example:  `/askvs How do I connect Visual Studio to a Git Repository?`| Yes | No |
 | /clear| Clear the chat window. <br>  Example: `/clear`| Yes | No | 
-| /createtest| Create unit tests for the selected code.<br>  Example: select desired code and enter `/createtest`| Yes | Yes | 
+| /test| Create unit tests for the selected code.<br>  Example: select desired code and enter `/test`| Yes | Yes | 
 | /doc| Add comments for specified or selected code. <br>  Examples: <br>- `/doc DeleteBasketAsync method in BasketService.cs`</br>- select desired code and enter `/doc`| Yes | Yes |
 | /explain | Get code explanations. <br><br>  Examples: <br> - `/explain the AddItemToBasket method in BasketService.cs`</br>- select desired code and enter `/explain`| Yes | Yes |
 | /fix | Propose a fix for problems in the selected code. <br>  Examples: <br> - `/fix the SetQuantities method in BasketService.cs`</br>- select desired code and enter `/fix`| Yes | Yes |
