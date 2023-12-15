@@ -80,25 +80,32 @@ A version of the **Find** control is also available in some tool windows. For ex
 
 ## <a name="multifile"></a>Find-and-Replace in multiple files
 
-
 **Find in Files** allows you to search a specified set of files. The matches Visual Studio finds are listed in the **Find Results** window in the IDE. How the results appear depends on the options you choose in the **Find and Replace** dialog box.
 
-::: moniker range=">=vs-2022"
+Open the **Find and Replace** dialog box by pressing **Ctrl**+**Shift**+**F**, or:
 
-:::image type="content" source="media/vs-2022/find-files.png" alt-text="Screenshot of the Find and Replace dialog box in Visual Studio 2022, with the Find in Files tab open.":::
+:::moniker range="<=vs-2019"
 
-::: moniker-end
-
-::: moniker range="vs-2019"
+1. Press **Ctrl**+**Q** and enter "find" in the search box at the top of the screen.
+1. Choose **Find in files** from the list of results.
 
 :::image type="content" source="media/find-files-vs2019.png" alt-text="Screenshot of the Find and Replace dialog box in Visual Studio 2019, with the Find in Files tab open.":::
 
 > [!IMPORTANT]
 > If you are using **Visual Studio 2019** [**version 16.6**](/visualstudio/releases/2019/release-notes-v16.6/) or earlier, the **Find and Replace** dialog box might not look like it appears here. Switch to the [Visual Studio 2017](find-in-files.md?view=vs-2017&preserve-view=true) version of this page for descriptions that'll match what you see on your screen.
 
-::: moniker-end
+:::moniker-end
 
-You can limit the scope of your search to:
+::: moniker range=">=vs-2022"
+
+1. On the menu bar, select **Edit** > **Find and Replace**.
+1. Choose **Find in Files** from the fly-out menu.
+
+:::image type="content" source="media/vs-2022/find-files.png" alt-text="Screenshot of the Find and Replace dialog box in Visual Studio 2022, with the Find in Files tab open.":::
+
+:::moniker-end
+
+Limit the scope of your search to:
 - The currently open file
 - All open documents
 - The entire solution
@@ -106,24 +113,9 @@ You can limit the scope of your search to:
 - Specified folder sets
 - Specified file extensions
   
-### How to display Find in Files
+The **Find and Replace** tool does not search directories with the `Hidden` or `System` attribute.
 
-Use the following steps to open the **Find and Replace** dialog box, or press **Ctrl**+**Shift**+**F**.
-
-:::moniker range="<=vs-2019"
-
-1. Press **Ctrl**+**Q** and enter "find" in the search box at the top of the screen.
-1. Choose **Find in files** from the list of results.
-
-or
-:::moniker-end
-
-1. On the menu bar, select **Edit** > **Find and Replace**.
-1. Choose **Find in Files** from the fly-out menu.
 To cancel a Find operation, press **Ctrl**+**Break**.
-
-> [!NOTE]
-> The **Find and Replace** tool does not search directories with the `Hidden` or `System` attribute.
 
 ### Find Results
 
