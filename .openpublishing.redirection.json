@@ -1,5 +1,30 @@
 {
   "redirections": [
+    
+    {
+      "source_path": "docs/data-tools/add-validation-to-an-n-tier-dataset.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/data-tools/add-validation-to-an-n-tier-dataset?view=vs-2017",
+      "redirect_document_id": "false"
+    },
+    
+    {
+      "source_path": "docs/data-tools/add-code-to-tableadapters-in-n-tier-applications.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/data-tools/add-code-to-tableadapters-in-n-tier-applications?view=vs-2017",
+      "redirect_document_id": "false"
+    },
+    
+    {
+      "source_path": "docs/data-tools/separate-datasets-and-tableadapters-into-different-projects.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/data-tools/separate-datasets-and-tableadapters-into-different-projects?view=vs-2017",
+      "redirect_document_id": "false"
+    },
+    
+    {
+      "source_path": "docs/data-tools/add-code-to-datasets-in-n-tier-applications.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/data-tools/add-code-to-datasets-in-n-tier-applications?view=vs-2017",
+      "redirect_document_id": "false"
+    },
+    
     {
       "source_path": "docs/azure/vs-active-directory-dotnet-getting-started.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-active-directory-dotnet-getting-started?view=vs-2017",
