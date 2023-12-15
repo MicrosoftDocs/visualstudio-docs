@@ -1,5 +1,5 @@
 ---
-title: Targeted .NET Frameworks
+title: Specify the targeted .NET Frameworks
 description: Specify the .NET Framework version that you want your project to target so the application can only use functionality that's available in the specified version.
 ms.date: 12/12/2023
 ms.topic: overview

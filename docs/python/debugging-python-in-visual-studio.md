@@ -1,5 +1,5 @@
 ---
-title: Debug Python code
+title: Debug Python code, set breakpoints, inspect code
 description: Use rich interactive debugging for Python code in Visual Studio, including setting breakpoints, stepping, inspecting values, looking at exceptions, and more.
 ms.date: 07/28/2023
 ms.topic: how-to

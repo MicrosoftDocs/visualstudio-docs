@@ -1,5 +1,5 @@
 ---
-title: Configure Code Analysis
+title: Configure rule set for legacy code analysis
 ms.date: 04/04/2018
 description: Learn how to configure the rule set that Visual Studio legacy code analysis uses. See how to apply a rule set to one or multiple projects in a solution.
 ms.topic: how-to

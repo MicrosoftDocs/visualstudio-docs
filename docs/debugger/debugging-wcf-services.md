@@ -1,5 +1,5 @@
 ---
-title: "Debugging WCF Services"
+title: Debug Windows Communication Foundation (WCF) services
 description: Explore links to articles about debugging Windows Communication Foundation (WCF) services in Visual Studio, including limitations.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"

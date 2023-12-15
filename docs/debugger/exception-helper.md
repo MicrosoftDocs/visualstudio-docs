@@ -1,6 +1,5 @@
 ---
-title: Inspect an exception
-titleSuffix: ""
+title: Inspect and break exceptions when debugging
 description: Learn about the information that Visual Studio provides to help you debug exceptions, and how to selectively disable breaking on exceptions.
 ms.date: 2/2/2023
 ms.topic: how-to

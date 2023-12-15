@@ -1,5 +1,5 @@
 ---
-title: Analyzer configuration
+title: Customize Roslyn analyzer rules
 ms.date: 07/27/2022
 description: Learn how to customize Roslyn analyzer rules. See how to adjust analyzer severities, suppress violations, and designate files as generated code.
 ms.topic: conceptual
