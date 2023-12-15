@@ -70,7 +70,7 @@ GitHub Copilot is an AI pair programmer available as two extensions in the Visua
 
 - **[GitHub Copilot Chat extension in Visual Studio]()** is a fully integrated AI-powered chat experience from GitHub Copilot right within the Visual Studio IDE. It enables you to interact with GitHub Copilot using a chat interface within the IDE. By asking coding-related questions in natural language, you can receive context-specific code suggestions, get an in-depth analysis and explanation of how a code block works, generate unit tests, find issues and get proposed fixes. It enables you to get coding information and support without leaving the IDE, helping you make informed decisions and write better code.  
   
-  The following image shows the chat window and the inline (Interactive Code Assistant **Ask Copilot**) view of GitHub Copilot Chat in Visual Studio. In this example, you ask **Ask Copilot** to generate a unit test for a function using the Chat window or the Interactive Code Assistant. If you choose to use the code, you can select **Tab** to insert it into your code file:
+  The following image shows the chat window and the inline (Interactive Code Assistant **Ask Copilot**) view of GitHub Copilot Chat in Visual Studio. In this example, you ask **Ask Copilot** to generate a test function using the Chat window or the Interactive Code Assistant. If Copilot Chat offers a code suggestion that you want to use, you can accept to insert the code into your code file:
 
   :::image type="content" source="media/vs-2022/copilot-chat-visual-studio.gif" alt-text="Animated screenshot that shows the capabilities of the GitHub Copilot Chat extension." lightbox="media/vs-2022/copilot-chat-visual-studio.gif":::
 
