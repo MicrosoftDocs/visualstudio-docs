@@ -1,6 +1,6 @@
 ---
 title: Manage Python package dependencies
-description: Use pip freeze > requirements.txt and manage python package dependencies in Visual Studio. 
+description: Use the pip freeze > requirements.txt command and manage your Python package dependencies for application development in Visual Studio.
 ms.date: 1/5/2023
 ms.topic: how-to
 author: cwebster-99
@@ -67,7 +67,7 @@ Cleaning up...
     Removing temporary dir C:\Project\env\build...
 ```
 
-## See also
+## Related content
 
 - [Manage Python environments in Visual Studio](managing-python-environments-in-visual-studio.md)
 - [Select an interpreter for a project](selecting-a-python-environment-for-a-project.md)

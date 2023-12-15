@@ -107,6 +107,6 @@ The example in this topic demonstrates debugging in a referenced style sheet.
 
 6. When the debugger stops at the instruction `<xsl:include href="xslincludefile.xsl" />`, press the **Step Into** button. The debugging can be continued in the referenced style sheet. The hierarchy is visible and the designer displays the right path.
 
-## See also
+## Related content
 
 - [XSLT profiler](../xml-tools/xslt-profiler.md)

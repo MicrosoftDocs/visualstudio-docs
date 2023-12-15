@@ -1,6 +1,6 @@
 ---
 title: Remote Testing in Visual Studio
-description: Learn how to use remote testing in Visual Studio Test Explorer to run tests from remote environments including containers, WSL2, or over SSH connections. This article covers how to configure remote testing with a testenvironments.json for either local containers, WSL2, or SSH connections.
+description: Run remote tests in Visual Studio Test Explorer from remote containers, WSL2, or over SSH connections, and configure remote tests with a testenvironments.json file.
 ms.date: 10/25/2023
 ms.topic: how-to
 author: mikejo5000
@@ -213,7 +213,7 @@ Here's how you can use the Test Explorer to run and debug your remote environmen
 
 * Test Explorer can prompt you to install some missing environment prerequisites and attempt to install missing dependencies. However, the bulk of the provisioning of the remote environment is up to the user's specification.
 
-## See also
+## Related content
 
 - [Debug unit tests with Test Explorer](../test/debug-unit-tests-with-test-explorer.md)
 - [Run a unit test as a 64-bit process](../test/run-a-unit-test-as-a-64-bit-process.md)

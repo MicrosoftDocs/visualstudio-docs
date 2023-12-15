@@ -229,7 +229,7 @@ If you want to view call counts in the Functions view, you can enable the settin
 
 ::: moniker-end
 
-## See also
+## Related content
 
 - [Troubleshoot Profiler errors](../profiling/troubleshoot-profiler-errors.md)
 - [Identify hot paths with Flame Graph](../profiling/flame-graph.md)

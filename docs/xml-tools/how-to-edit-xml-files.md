@@ -1,5 +1,5 @@
 ---
-title: 'Edit XML Files'
+title: Edit XML Files with the XML editor
 ms.date: 11/04/2016
 description: Explore how to use the XML editor in Visual Studio to edit many different file types, including files that contain XML or DTD content.
 ms.topic: how-to
@@ -59,7 +59,7 @@ To edit an XML file, open the file you want to edit.
 
    The XML editor finds the schemas you add to this project and uses them for validation and IntelliSense in any XML, schema, or XSLT files that you edit while this project is open.
 
-## See also
+## Related content
 
 - [XML editor](../xml-tools/xml-editor.md)
 - [XML document properties, properties window](../xml-tools/xml-document-properties-properties-window.md)

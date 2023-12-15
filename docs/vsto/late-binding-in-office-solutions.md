@@ -65,7 +65,7 @@ ms.technology: office-development
 
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet102":::
 
-## See also
+## Related content
 - [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)
 - [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
 - [Use Type dynamic &#40;C&#35; programming guide&#41;](/dotnet/csharp/programming-guide/types/using-type-dynamic)

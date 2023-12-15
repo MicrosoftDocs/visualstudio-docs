@@ -62,5 +62,5 @@ ms.technology: office-development
 
 5. Choose the **OK** button to close the **Options** dialog box.
 
-## See also
+## Related content
 - [Office UI customization](../vsto/office-ui-customization.md)

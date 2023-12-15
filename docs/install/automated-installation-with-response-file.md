@@ -1,6 +1,6 @@
 ---
 title: Configure installation default settings with a response file
-description: Learn how to create a response JSON file that helps you automate your Visual Studio installation
+description: Create a response JSON file to help automate your Visual Studio installation with default settings for workloads, components, and other installation options.
 ms.date: 9/28/2023
 ms.topic: conceptual
 helpviewer_keywords:
@@ -184,7 +184,7 @@ If you run into a problem with the Visual Studio bootstrapper throwing an error 
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 * [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide)
 * [Create and maintain a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
 * [Deploy Visual Studio from a layout onto a client machine](deploy-a-layout-onto-a-client-machine.md)

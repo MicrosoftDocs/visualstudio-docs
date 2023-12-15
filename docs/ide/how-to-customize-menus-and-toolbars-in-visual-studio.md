@@ -107,7 +107,7 @@ You can customize Visual Studio not only by adding and removing toolbars and men
 
     You can also reset all menus and toolbars by choosing the **Reset All** button.
 
-## See also
+## Related content
 
 - [Personalize the IDE](../ide/personalizing-the-visual-studio-ide.md)
 - [Customize the editor](../ide/how-to-change-text-case-in-the-editor.md)

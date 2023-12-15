@@ -1,7 +1,6 @@
 ---
-title: "Create your first document-level customization for Excel"
+title: Create a document-level customization for Excel
 description: Create a document-level customization for Microsoft Office Excel with features that are available only when a specific Excel workbook is open.
-titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

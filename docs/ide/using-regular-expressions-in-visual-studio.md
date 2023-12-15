@@ -1,5 +1,5 @@
 ---
-title: Use regular expressions
+title: Use regular expressions and review examples
 description: Explore some regular expression characters, operators, constructs, and pattern examples that you can use in Visual Studio.
 ms.date: 10/14/2022
 ms.topic: conceptual
@@ -95,7 +95,7 @@ The following image shows a regular expression `(?<repeated>\w+)\s\k<repeated>` 
 
 For more information about named capture groups, see [Named matched subexpressions](/dotnet/standard/base-types/grouping-constructs-in-regular-expressions#named-matched-subexpressions). For more information about regular expressions that are used in replacement patterns, see [Substitutions in regular expressions](/dotnet/standard/base-types/substitutions-in-regular-expressions).
 
-## See also
+## Related content
 
 - [Quick reference: Regular expression language](/dotnet/standard/base-types/regular-expression-language-quick-reference)
 - [Find and replace text](../ide/finding-and-replacing-text.md)

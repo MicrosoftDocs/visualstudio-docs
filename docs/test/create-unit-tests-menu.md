@@ -1,7 +1,7 @@
 ---
 title: Create unit test method stubs
 description: Learn how to use the Create Unit Tests command, which allows easy configuration of a test project, the test class, and the test method stub within it.
-ms.date: 12/01/2021
+ms.date: 12/04/2023
 ms.topic: how-to
 helpviewer_keywords: 
   - unit testing, create unit tests
@@ -17,7 +17,7 @@ ms.technology: vs-ide-test
 The **Create Unit Tests** command creates unit test method stubs. This feature allows easy configuration of a test project, the test class, and the test method stub within it.
 
 > [!NOTE]
-> The **Create Unit Tests** menu command is only available for C# code. To use this method with .NET Core or .NET Standard, Visual Studio 2019 or later is required.
+> The **Create Unit Tests** menu command is only available for C# code. To use this method with .NET Core or .NET 5+, Visual Studio 2019 or later is required.
 
 The **Create Unit Tests** menu command is extensible and can be used to generate tests for MSTest, MSTest V2, NUnit, and xUnit.
 
@@ -58,7 +58,7 @@ Use this feature whenever you need to create unit tests, but specifically when y
 
 However, this feature is equally applicable when a developer starts by writing some code and then uses that to bootstrap unit tests. Within the flow of coding, the developer might want to quickly create a unit test method stub (with a suitable test class and a suitable test project) for a particular piece of code.
 
-## See also
+## Related content
 
 - [Get started with IntelliTest](generate-unit-tests-for-your-code-with-intellitest.md)
 - [Unit testing blog posts](https://devblogs.microsoft.com/search?query=unit+testing)

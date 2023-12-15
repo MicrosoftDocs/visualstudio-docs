@@ -5,7 +5,7 @@ summary: Create JavaScript and TypeScript apps with Visual Studio # < 160 chars
 
 metadata:
   title: JavaScript and TypeScript in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: Learn how to use Visual Studio to create JavaScript and TypeScript apps.
+  description: Explore documentation to help you use Visual Studio to create JavaScript and TypeScript applications, including overviews, tutorials, and quickstarts.
   ms.topic: landing-page
   ms.technology: vs-javascript
   author: mikejo5000

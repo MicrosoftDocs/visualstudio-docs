@@ -12,7 +12,7 @@ ms.technology: vs-ide-general
 dev_langs:
 - VB
 ---
-# Distribute code snippets
+# Distribute code snippets as an Visual Studio extension
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
@@ -24,13 +24,15 @@ Install the **Visual Studio extension development** workload to get access to th
 
 ![Visual Studio extension development workload](media/vs-2019/extension-development-workload.png)
 
-## Set up the extension
+
+
+## Set up the extension directory structure
 
 In this procedure, you'll use the same Hello World code snippet that's created in [Walkthrough: Create a code snippet](../ide/walkthrough-creating-a-code-snippet.md). This article provides the snippet XML, so you don't have to go back and create a snippet.
 
-1. Create a new project from the **Empty VSIX Project** template and name the project **TestSnippet**.
+1. Create a new project from the **Empty VSIX Project** template and name the project `TestSnippet`.
 
-2. In the **TestSnippet** project, add a new XML file and call it *VBCodeSnippet.snippet*. Replace the content with the following XML:
+2. In the **TestSnippet** project, add a new XML file and call it `VBCodeSnippet.snippet`. Replace the content with the following XML:
 
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
@@ -56,15 +58,13 @@ In this procedure, you'll use the same Hello World code snippet that's created i
     </CodeSnippets>
     ```
 
-### Set up the directory structure
-
 1. In **Solution Explorer**, select the project node and add a folder that has the name you want the snippet to have in **Code Snippets Manager**. In this case, it should be **HelloWorldVB**.
 
 2. Move the *.snippet* file to the *HelloWorldVB* folder.
 
 3. Select the *.snippet* file in **Solution Explorer**, and in the **Properties** window make sure **Build Action** is set to **Content**, **Copy to Output Directory** is set to **Copy always**, and **Include in VSIX** is set to **true**.
 
-### Add the .pkgdef file
+## Add the .pkgdef file
 
 1. Add a text file to the *HelloWorldVB* folder and name it *HelloWorldVB.pkgdef*. This file is used to add certain keys to the registry. In this case, it adds a new subkey to the **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\16.0\Languages\CodeExpansions\Basic** key.
 
@@ -88,7 +88,7 @@ In this procedure, you'll use the same Hello World code snippet that's created i
 
 5. In the **Add New Asset** dialog, set the **Type** to **Microsoft.VisualStudio.VsPackage**, the **Source** to **File on filesystem**, and the **Path** to **HelloWorldVB.pkgdef** (which should appear in the dropdown). Select **OK** to save this new asset.
 
-### Register the snippet
+## Register the snippet
 
 1. Go to **Tools** > **Code Snippets Manager** and set the **Language** to **Basic**.
 
@@ -96,7 +96,7 @@ In this procedure, you'll use the same Hello World code snippet that's created i
 
 3. *HelloWorldVB* is now one of the code snippet folders. Expand the folder to see the *HelloWorldVB* snippet. Select **OK** to save this newly added folder.
 
-### Test the snippet
+## Test the snippet
 
 1. Now you can make sure that the code snippet works in the experimental instance of Visual Studio. The experimental instance is a second copy of Visual Studio that is separate from the one you use to write code. It allows you to work on an extension without affecting your development environment.
 
@@ -114,6 +114,6 @@ In this procedure, you'll use the same Hello World code snippet that's created i
     Console.WriteLine("Hello, World!")
     ```
 
-## See also
+## Related content
 
-- [Code snippets](../ide/code-snippets.md)
+- [What are Code snippets?](../ide/code-snippets.md)

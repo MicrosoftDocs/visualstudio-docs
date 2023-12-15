@@ -119,5 +119,5 @@ STDMETHODIMP CExpressionEvaluator::GetMethodProperty(
 }
 ```
 
-## See also
+## Related content
 - [Sample implementation of locals](../../extensibility/debugger/sample-implementation-of-locals.md)

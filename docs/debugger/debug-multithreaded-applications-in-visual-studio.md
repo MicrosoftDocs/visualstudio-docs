@@ -1,6 +1,6 @@
 ---
 title: "Debug multithreaded applications"
-description: Debug multithreaded applications in Visual Studio. Review tools and other articles about debugging multithreaded apps.
+description: Debug multithreaded applications in Visual Studio and review tools and other articles about debugging multithreaded apps.
 ms.date: "07/13/2023"
 ms.topic: "conceptual"
 f1_keywords:

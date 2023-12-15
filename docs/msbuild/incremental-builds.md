@@ -1,8 +1,8 @@
 ---
-title: Incremental Builds
+title: Explore incremental builds in MSBuild
 description: Explore the incremental build feature in MSBuild, which produces builds that are optimized so up-to-date output files aren't executed.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - msbuild, incremental builds
 author: ghogen
@@ -71,7 +71,7 @@ Because of output inference, you have to add a `CreateProperty` task to a target
 
 This code creates the property CompileRan and gives it the value `true`, but only if the target is executed. If the target is skipped, CompileRan is not created.
 
-## See also
+## Related content
 
 - [Targets](../msbuild/msbuild-targets.md)
 - [How to: Build Incrementally](../msbuild/how-to-build-incrementally.md)

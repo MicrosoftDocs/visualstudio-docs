@@ -1,7 +1,7 @@
 ---
 title: Repair Visual Studio
 titleSuffix: ''
-description: Learn how to repair an installation of Visual Studio.
+description: Repair or update your Visual Studio installation with the Visual Studio Installer, resolve issues with available fixes, and reacquire necessary files.
 ms.date: 5/16/2023
 ms.custom: vs-acquisition
 ms.topic: how-to
@@ -85,7 +85,7 @@ Use repair if you're having issues with:
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 
 * [Install Visual Studio](install-visual-studio.md)
 * [Update Visual Studio](update-visual-studio.md)

@@ -35,7 +35,7 @@ If a solution contains any project of those two project types, then **Batch Buil
 
 3. Choose the **Build** or **Rebuild** buttons to build the project with the configurations that you specified.
 
-## See also
+## Related content
 
 - [How to: Create and edit configurations](../ide/how-to-create-and-edit-configurations.md)
 - [Understand build configurations](../ide/understanding-build-configurations.md)

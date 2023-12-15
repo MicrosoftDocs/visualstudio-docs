@@ -1,6 +1,6 @@
 ---
 title: Manage Python environments and interpreters
-description: Use the Python Environments window to manage global, virtual, and conda environments. Install Python interpreters and packages and assign environments to Visual Studio projects.
+description: Use the Python Environments window to manage global, virtual, and conda environments, install Python interpreters and packages, and assign environments to projects.
 ms.date: 06/22/2023
 ms.customL: devdivchpfy22
 ms.topic: how-to
@@ -318,7 +318,7 @@ If you would like to keep the Python environment but remove it from your project
 
 ![Screenshot of delete or remove Python environment pop-up.](media/delete-or-remove-environment.png)
 
-## See also
+## Related content
 
 - [Install Python interpreters](installing-python-interpreters.md)
 - [Select an interpreter for a project](selecting-a-python-environment-for-a-project.md)

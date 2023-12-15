@@ -80,6 +80,6 @@ From the column headers of the rule set grid, you can sort and filter the rules 
 
 - To filter the rule sets by the value of a field, select the filter button on the column header of the field by which you want to filter. Select the check boxes of the values that you want to show, and clear the check boxes of the values that you want to hide.
 
-## See also
+## Related content
 
 - [Create a custom rule set](../code-quality/how-to-create-a-custom-rule-set.md)

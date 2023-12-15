@@ -35,7 +35,7 @@ ms.technology: sharepoint-development
 
 4. In the **Properties** window, set the properties of the method instance. For more information about each property, see [MethodInstance](/previous-versions/office/developer/sharepoint-2010/ee556838(v=office.14)).
 
-## See also
+## Related content
 - [BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md)
 - [How to: Add an entity to a model](../sharepoint/how-to-add-an-entity-to-a-model.md)
 - [How to: Add a parameter to a method](../sharepoint/how-to-add-a-parameter-to-a-method.md)

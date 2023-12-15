@@ -3,7 +3,7 @@ title: Multi-factor authentication with Visual Studio sign-ins
 titleSuffix: "" 
 ms.date: 08/24/2023
 ms.topic: how-to
-description: "Learn how to use Visual Studio with accounts that require multi-factor authentication (MFA)."
+description: Use Visual Studio with accounts that require multifactor authentication (MFA) to protect your apps and data with conditional access policies.
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
@@ -177,7 +177,7 @@ After you deselect the tenant to filter, the **Account Settings** and the **Filt
 
 :::image type="content" source="media/vs-2022/account-settings-filter-account-dialogs-tenants-filtered-out-state.png" alt-text="Screenshot showing the filtered tenant state on the Account Settings and the Filter Account dialogs":::
 
-## See also
+## Related content
 
 - [Sign in to Visual Studio](signing-in-to-visual-studio.md)
 - [Sign in to Visual Studio for Mac](/visualstudio/mac/signing-in)

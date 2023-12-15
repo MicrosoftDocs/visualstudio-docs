@@ -1,6 +1,6 @@
 ---
 title: Parameter info, list members, and quick info in IntelliSense
-description: "Learn how to use these IntelliSense features:  List Members, Parameter Info, Quick Info, and Complete Word."
+description: Explore how to work with IntelliSense features in Visual Studio, including List Members, Parameter Info, Quick Info, and Complete Word.
 ms.date: 12/02/2022
 ms.topic: conceptual
 helpviewer_keywords:
@@ -20,7 +20,7 @@ ms.technology: vs-ide-general
 
 IntelliSense is a code-completion aid that includes a number of features: List Members, Parameter Info, Quick Info, and Complete Word. These features help you to learn more about the code you're using, keep track of the parameters you're typing, and add calls to properties and methods with only a few keystrokes.
 
-Many aspects of IntelliSense are language-specific. For more information about IntelliSense for different languages, see the topics listed in the [See also](#see-also) section.
+Many aspects of IntelliSense are language-specific. For more information about IntelliSense for different languages, see the topics listed in the [Related content](#related-content) section.
 
 ## List Members
 
@@ -104,7 +104,7 @@ MessageBox( hWnd, "String literal|")
 
 **The automatic options are turned off.** By default, IntelliSense works automatically, but you can disable it. Even if automatic statement completion is disabled, you can invoke an IntelliSense feature.
 
-## See also
+## Related content
 
 - [C# IntelliSense](../ide/visual-csharp-intellisense.md)
 - [Visual Basic IntelliSense](../ide/visual-basic-specific-intellisense.md)

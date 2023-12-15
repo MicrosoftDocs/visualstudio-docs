@@ -2,7 +2,7 @@
 title: Configure tasks
 description: Configure MSBuild tasks to run out-of-process with MSBuild so that you can target contexts that differ from the one you are running on.
 ms.date: 10/19/2021
-ms.topic: conceptual
+ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 manager: jmartens
@@ -24,6 +24,6 @@ For example, you can target a 32-bit .NET Framework 2.0 application while the de
 
 Errors in configuration can result in tasks failing with [MSB4018](../msbuild/errors/msb4018.md) or [MSB4062](../msbuild/errors/msb4062.md) errors.
 
-## See also
+## Related content
 
 - [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)

@@ -86,17 +86,15 @@ Explains the difference between syntax coloring in the core editor and in custom
 [Document data and document view in custom editors](../extensibility/document-data-and-document-view-in-custom-editors.md)\
 Explains how to implement document data and document views in custom editors.
 
-## Related sections
+## Related content
 
-[Legacy interfaces in the editor](/previous-versions/visualstudio/visual-studio-2015/extensibility/legacy-interfaces-in-the-editor?preserve-view=true&view=vs-2015)\
+- [Legacy interfaces in the editor](/previous-versions/visualstudio/visual-studio-2015/extensibility/legacy-interfaces-in-the-editor?preserve-view=true&view=vs-2015)\
 Explains how to access the core editor by means of the legacy API.
 
-[Develop a legacy language service](../extensibility/internals/developing-a-legacy-language-service.md)\
+- [Develop a legacy language service](../extensibility/internals/developing-a-legacy-language-service.md)\
 Explains how to implement a language service.
 
-[Extend other parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)\
+- [Extend other parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)\
 Explains how to create UI elements that match the rest of Visual Studio.
-
-## See also
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory>

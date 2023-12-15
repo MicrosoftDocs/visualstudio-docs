@@ -1,6 +1,6 @@
 ---
 title: Productivity tips for .NET developers
-description: An overview of navigation, code analysis, unit testing, and other features to help you write better .NET code faster.
+description: Review productivity tips about navigation, code analysis, unit testing, and other features to help you write better C# code for .NET faster.
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
@@ -327,7 +327,7 @@ Here's a list of editor and productivity features to make writing code more effi
 | [Paste JSON or XML as classes](reference/paste-json-xml.md) | Copy any JSON or XML text fragment to the clipboard and paste it as strongly typed .NET classes into any C# code file. | **Edit** > **Paste Special** > **Paste JSON As Classes** (or **Paste XML As Classes**) |
 | [Copy and trim indentation](writing-code-in-the-code-and-text-editor.md#copy-and-paste-code) | Copy code from Visual Studio to another program (Outlook, Teams, etc.), without having to manually fix indentation after you paste your code. Available in Visual Studio 2022 [version 17.7](/visualstudio/releases/2022/release-notes) and later. |
 
-## See also
+## Related content
 
 - [.NET C# documentation](/dotnet/csharp/)
 - [Working with C# in VS Code](https://code.visualstudio.com/docs/languages/csharp)

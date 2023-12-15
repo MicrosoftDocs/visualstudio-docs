@@ -117,7 +117,7 @@ This walkthrough demonstrates how to add an event receiver to a feature in a Sha
 
      Notice that an announcement appears in the **Announcements** list after the feature is deactivated.
 
-## See also
+## Related content
 
 - [How to: Create an event receiver](../sharepoint/how-to-create-an-event-receiver.md)
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)

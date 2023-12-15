@@ -170,7 +170,7 @@ Create an event handler for the <xref:System.Data.DataTable.RowChanging> event b
     ```
     ---
 
-## See also
+## Related content
 
 - [N-Tier data applications overview](../data-tools/n-tier-data-applications-overview.md)
 - [Walkthrough: Creating an N-Tier data application](../data-tools/walkthrough-creating-an-n-tier-data-application.md)

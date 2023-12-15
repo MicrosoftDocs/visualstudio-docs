@@ -1,5 +1,5 @@
 ---
-title: Visual Studio subscriptions available in the Microsoft Store
+title: Subscriptions available in the Microsoft Store
 author: evanwindom
 ms.author: amast
 manager: shve

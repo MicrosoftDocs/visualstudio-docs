@@ -35,6 +35,6 @@ A standard <xref:EnvDTE.Document> object is also available from the environment,
 
 In addition, an editor can provide a VSPackage-specific automation object, retrieved through the <xref:EnvDTE.Document.Object%2A> method, by implementing the `IVsExtensibleObject` or `IExtensibleObject` interfaces. The [VSSDK samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples) contributes an RTF document-specific automation object.
 
-## See also
+## Related content
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsExtensibleObject>

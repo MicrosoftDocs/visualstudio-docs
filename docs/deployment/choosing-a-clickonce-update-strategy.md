@@ -1,6 +1,6 @@
 ---
 title: "Choosing a ClickOnce Update Strategy"
-description: Learn how a ClickOnce application supports automatic updates and which update strategies you can use.
+description: Discover how a ClickOnce application supports automatic updates and review update strategy options, including checking on startup or through a user interface.
 ms.date: "01/27/2023"
 ms.topic: "conceptual"
 dev_langs:

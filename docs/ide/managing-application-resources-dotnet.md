@@ -1,6 +1,6 @@
 ---
 title: Manage application resources (.NET)
-description: Learn how to manage application resources files that are not part of the compilation process.
+description: Manage application resources files that aren't part of the compilation process in Visual Studio, such as icon files or audio files.
 ms.custom: engagement-fy23
 ms.date: 01/31/2023
 ms.topic: conceptual
@@ -49,7 +49,7 @@ Resources are managed differently in .NET projects than in other project types. 
 
 If you run into a problem with managing application resources, see [Troubleshoot errors in the Resource Editor](troubleshoot-resource-editor-errors.md).
 
-## See also
+## Related content
 
 - [Resources in .NET apps (.NET Framework)](/dotnet/framework/resources/index)
 - [Managing app resources (Visual Studio for Mac)](/visualstudio/mac/managing-app-resources)

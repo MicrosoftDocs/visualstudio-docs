@@ -1,5 +1,5 @@
 ---
-title: Test generation | Microsoft IntelliTest Developer Test Tool
+title: Generate tests with IntelliTest Test Tool
 description: Learn how IntelliTest generates test cases from methods of your implementation, then generates inputs for the methods and check assertions over the data.
 ms.date: 05/02/2017
 ms.topic: conceptual

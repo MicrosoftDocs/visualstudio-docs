@@ -1,6 +1,6 @@
 ---
-title: Manage external tools
-description: Learn how to add and manage new external tools that you can access through the Tools menu. 
+title: Add and manage external tools on the Tools menu
+description: Add and manage new external tools that you can access through the Tools menu in the Visual Studio integrated development environment (IDE).
 ms.date: 11/20/2017
 ms.topic: conceptual
 f1_keywords:
@@ -66,6 +66,6 @@ The following is a full list of arguments that can be used when defining an exte
 > [!NOTE]
 > The IDE status bar displays the **Current Line** and **Current Column** variables to indicate where the insertion point is located in the active **Code Editor**. The **Current Text** variable returns the text or code selected at that location.
 
-## See also
+## Related content
 
 - [C/C++ build tools](/cpp/build/reference/c-cpp-build-tools)

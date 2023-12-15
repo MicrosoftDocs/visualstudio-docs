@@ -105,5 +105,5 @@ This walkthrough shows how to add a toolbar to a tool window.
 
 3. On the toolbar, click the icon to display the message **TWTestCommandPackage Inside TWToolbar.TWTestCommand.MenuItemCallback()**.
 
-## See also
+## Related content
 - [Add a toolbar](../extensibility/adding-a-toolbar.md)

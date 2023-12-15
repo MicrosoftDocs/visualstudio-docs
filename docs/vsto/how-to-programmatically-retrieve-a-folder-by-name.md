@@ -28,7 +28,7 @@ ms.technology: office-development
 
 - A folder named TestFolder.
 
-## See also
+## Related content
 - [Work with folders](../vsto/working-with-folders.md)
 - [How to: Programmatically search within a specific folder](../vsto/how-to-programmatically-search-within-a-specific-folder.md)
 - [How to: Programmatically search for a specific contact](/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-search-for-a-specific-contact)

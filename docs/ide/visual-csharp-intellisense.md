@@ -1,5 +1,5 @@
 ---
-title: C# IntelliSense
+title: Use C# IntelliSense for quick access while coding
 description: Explore IntelliSense features that you can use while coding your C# project for quick access to variables, commands, functions, language keywords, and more.
 ms.date: 06/01/2021
 ms.topic: conceptual
@@ -160,7 +160,7 @@ If you press **Tab**, IntelliSense stubs out a method with the correct signature
 > [!NOTE]
 > Use the **Navigate Backward** command on the **View** menu (**Ctrl**+**-**) to go back to the event hookup statement.
 
-## See also
+## Related content
 
 - [Use IntelliSense](../ide/using-intellisense.md)
 - [Visual Studio IDE](../get-started/visual-studio-ide.md)

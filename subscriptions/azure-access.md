@@ -1,5 +1,5 @@
 ---
-title: Maintain a Visual Studio subscription for Azure access
+title: Maintain a subscription for Azure access
 author: evanwindom
 ms.author: amast
 manager: shve

@@ -16,6 +16,9 @@ The Output window in the Visual Studio IDE is a [Tool Window](./../tool-window/t
 
 ## Get started
 
+> [!IMPORTANT]
+> The VisualStudio.Extensibility Output window APIs are currently in preview and are subject to change. Any extension that leverages these APIs may fail to work in future versions of Visual Studio and will need to be updated when a newer version of the APIs is released.
+
 To get started, follow the [create the project](./../get-started/create-your-first-extension.md) section in Getting Started section.
 
 ## Work with the Output window

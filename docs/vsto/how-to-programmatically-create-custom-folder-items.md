@@ -23,7 +23,7 @@ ms.technology: office-development
 ## Example
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_OL_CustFolderItem/thisaddin.cs" id="Snippet1":::
 
-## See also
+## Related content
 - [Work with folders](../vsto/working-with-folders.md)
 - [How to: Programmatically add an entry to Outlook contacts](../vsto/how-to-programmatically-add-an-entry-to-outlook-contacts.md)
 - [How to: Programmatically create appointments](../vsto/how-to-programmatically-create-appointments.md)

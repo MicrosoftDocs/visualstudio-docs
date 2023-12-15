@@ -1,6 +1,6 @@
 ---
-title: Use CTest for C++
-description: Learn how to create and run tests with CTest, which is integrated into the Visual Studio IDE by default. 
+title: Create and run tests with CTest for C++
+description: Create and run tests with CTest for C++, which is integrated into Visual Studio by default, and use familiar CMake commands like enable_testing and add_test.
 ms.date: 01/23/2020
 ms.topic: how-to
 ms.author: twhitney
@@ -30,6 +30,6 @@ The following illustration shows results of a CTest run using Google Test framew
 
 If you are using CTest but not the Google or Boost adapters, you see results at the CTest level instead of the individual test method level. You can debug and step-through CTest-only executables, but stack traces on individual tests aren't supported.
 
-## See also
+## Related content
 
 - [Write unit tests for C/C++](writing-unit-tests-for-c-cpp.md)

@@ -1,6 +1,6 @@
 ---
 title: Customer Experience Improvement Program
-description: "Find out how to manage privacy settings in Visual Studio, and learn about Visual Studio system-generated logs, the types of data that's collected, and how it's used to fix problems and improve product quality."
+description: Manage privacy settings in Visual Studio, and explore system-generated logs, types of collected data, and how to fix problems and improve product quality.
 ms.date: 10/28/2021
 ms.topic: conceptual
 author: anandmeg
@@ -119,7 +119,7 @@ Engineers use the information available in a work item to determine the root cau
 
 Extension authors should limit exposure of personal information by not using personal or other sensitive information in the names of their modules, types, and methods. If a crash or similar error condition occurs with that code on the stack, that information gets collected as part of the system-generated logs.
 
-## See also
+## Related content
 
 * [How to report a problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio.md)
 * [Visual Studio Developer Community](https://developercommunity.visualstudio.com/home)

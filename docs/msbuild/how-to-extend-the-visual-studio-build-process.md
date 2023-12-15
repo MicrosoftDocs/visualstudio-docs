@@ -1,8 +1,8 @@
 ---
-title: Extend the build process
+title: Extend and customize the build process
 description: Explore several ways you can modify the build process so you can control and customize how your projects build, including overriding properties.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, overriding predefined targets
 - MSBuild, overriding DependsOn properties
@@ -213,7 +213,7 @@ In this example, this is an SDK-style project. As mentioned in the note about SD
 
 The order of elements is important. The `BuildDependsOn` and `CleanDependsOn` elements must appear after importing the standard SDK targets file.
 
-## See also
+## Related content
 
 - [Visual Studio integration](../msbuild/visual-studio-integration-msbuild.md)
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)

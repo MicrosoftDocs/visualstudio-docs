@@ -2,7 +2,7 @@
 title: Comparing Properties and Items
 description: Learn how MSBuild properties and items pass information to tasks, evaluate conditions, and store values that the project file can reference.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: language-reference
 helpviewer_keywords:
 - msbuild, msbuild properties
 author: ghogen
@@ -178,7 +178,7 @@ The value of `KeyFileVersion` is set to "1.0.0.3" and not to "\@(KeyFile->'%(Ver
 KeyFileVersion: 1.0.0.3
 ```
 
-## See also
+## Related content
 
 - [MSBuild properties](msbuild-properties.md)
 - [MSBuild items](msbuild-items.md)

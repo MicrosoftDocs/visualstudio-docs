@@ -1,7 +1,7 @@
 ---
 title: Turn off code analysis
 ms.date: 01/20/2022
-description: Learn how to turn off Visual Studio source code analysis in .NET Core, .NET Standard, and .NET Framework projects.
+description: Explore how to disable the Visual Studio source code analysis feature in .NET Core, .NET Standard, and .NET Framework projects.
 ms.topic: how-to
 helpviewer_keywords:
   - code analysis, disable
@@ -107,7 +107,7 @@ Examples:
 
 ::: moniker-end
 
-## See also
+## Related content
 
 - [Suppress violations](use-roslyn-analyzers.md#suppress-violations)
 - [How to: Enable and disable legacy code analysis](how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md)

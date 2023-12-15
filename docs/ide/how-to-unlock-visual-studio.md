@@ -69,7 +69,7 @@ Sometimes, things go wrong. If you experience a problem, here are some support o
 * Report product issues by using the [Report a Problem](how-to-report-a-problem-with-visual-studio.md) tool.
 * Find answers to questions about subscriptions, accounts, and billing in the [Subscriptions Support FAQ](https://visualstudio.microsoft.com/subscriptions/support/).
 
-## See also
+## Related content
 
 * [Sign in to Visual Studio](../ide/signing-in-to-visual-studio.md)
 * [Compare Visual Studio editions](https://visualstudio.microsoft.com/vs/compare/)

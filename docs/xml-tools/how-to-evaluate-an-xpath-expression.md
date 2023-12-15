@@ -47,6 +47,6 @@ The following procedure uses the *below-average.xsl* and *books.xml* files from 
 
    The **Value** box shows that the XPath expression evaluates to `true`.
 
-## See also
+## Related content
 
 - [Debugging XSLT](../xml-tools/debugging-xslt.md)

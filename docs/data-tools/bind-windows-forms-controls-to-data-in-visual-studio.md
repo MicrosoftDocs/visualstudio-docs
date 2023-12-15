@@ -1,5 +1,5 @@
 ---
-title: Bind Windows Forms controls to data in .NET Framework applications
+title: Bind Windows Forms controls to .NET Framework apps
 description: Bind Windows Forms controls to data with ADO.NET in Visual Studio to display data to users of .NET Framework applications.
 ms.date: 11/03/2017
 ms.topic: how-to
@@ -77,7 +77,7 @@ The following illustration shows the default data-bound controls that are added 
 
 Note also that each control has a smart tag. This tag enables customizations that apply to that control only.
 
-## See also
+## Related content
 
 - [Binding controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)
 - [Data binding in Windows Forms (.NET Framework)](/dotnet/framework/winforms/windows-forms-data-binding)

@@ -60,7 +60,7 @@ ms.technology: office-development
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb" id="Snippet2":::
      ---
 
-## See also
+## Related content
 - [Work with workbooks](../vsto/working-with-workbooks.md)
 - [How to: Programmatically save workbooks](../vsto/how-to-programmatically-save-workbooks.md)
 - [How to: Programmatically open workbooks](../vsto/how-to-programmatically-open-workbooks.md)

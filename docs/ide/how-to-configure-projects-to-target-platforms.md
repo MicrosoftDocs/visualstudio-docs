@@ -154,7 +154,7 @@ You might have a .NET assembly or DLL that has both x86 and x64 versions. To set
 
 For more information about the project file, see [MSBuild project file schema reference](../msbuild/msbuild-project-file-schema-reference.md).
 
-## See also
+## Related content
 
 - [/platform (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/platform-compiler-option)
 - [64-bit applications](/dotnet/framework/64-bit-apps)

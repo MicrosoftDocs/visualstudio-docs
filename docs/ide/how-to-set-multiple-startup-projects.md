@@ -40,7 +40,7 @@ The following example shows a solution `WebFrontEndA` with three projects, a fro
 
 In this example and any other Docker Compose scenario, you choose `docker-compose` as the single startup project, but then you'll use a different way of specifying which projects or services to start. You'll use a Docker Compose launch profile to determine what services to start, and whether or not to attach the debugger, and there's a different dialog in Visual Studio for configuring it. See [Start a subset of services](../containers/launch-profiles.md). The **Solution Property Pages** dialog is only used for non-containerized solutions, or when you are *not* using Docker Compose to manage startup.
 
-## See also
+## Related content
 
 - [Compile and build](../ide/compiling-and-building-in-visual-studio.md)
 - [Work with solutions and projects](../ide/creating-solutions-and-projects.md)

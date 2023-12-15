@@ -1,8 +1,8 @@
 ---
-title: MSBuild Properties
+title: Explore MSBuild name-value properties
 description: Explore MSBuild name-value properties for the registry, environment, internal settings, and more, and pass values to tasks, evaluate conditions, and store values.
 ms.date: 08/15/2023
-ms.topic: conceptual
+ms.topic: language-reference
 helpviewer_keywords:
 - MSBuild, properties
 author: ghogen
@@ -267,7 +267,7 @@ For more information, see [Project element (MSBuild)](../msbuild/project-element
 </PropertyGroup>
 ```
 
-## See also
+## Related content
 
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)
 - [MSBuild](../msbuild/msbuild.md)

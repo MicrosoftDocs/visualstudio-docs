@@ -1,5 +1,5 @@
 ---
-title: Create web templates
+title: Create web templates and set programming language
 description: Manually create a web template (as defined in the vstemplate file) and identify the programming language that the template uses in Visual Studio.
 ms.date: 01/02/2018
 ms.topic: how-to
@@ -79,7 +79,7 @@ The following example shows a basic *vstemplate* file for a web project template
 </VSTemplate>
 ```
 
-## See also
+## Related content
 
 - [Create project and item templates](../ide/creating-project-and-item-templates.md)
 - [Visual Studio template schema reference (extensibility)](../extensibility/visual-studio-template-schema-reference.md)

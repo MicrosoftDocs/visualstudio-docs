@@ -1,5 +1,5 @@
 ---
-title: JavaScript IntelliSense
+title: Display JavaScript parameters & member lists with IntelliSense
 description: Learn how Visual Studio delivers richer IntelliSense, support for modern JavaScript features, and improved productivity features.
 ms.date: 02/21/2023
 ms.topic: conceptual
@@ -123,7 +123,7 @@ By default, the language service tries to detect which JavaScript libraries are 
 
 Currently, auto-detection works for dependencies downloaded from npm (by reading the *package.json* file), Bower (by reading the *bower.json* file), and for loose files in your project that match a list of roughly the top 400 most popular JavaScript libraries. For example, if you have *jquery-1.10.min.js* in your project, the file *jquery.d.ts* will be fetched and loaded in order to provide a better editing experience. This *.d.ts* file will have no impact on your project.
 
-## See also
+## Related content
 
 - [Using IntelliSense](../ide/using-intellisense.md)
 - [JavaScript support (Visual Studio for Mac)](/visualstudio/mac/javascript)

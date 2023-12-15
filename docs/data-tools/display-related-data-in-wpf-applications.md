@@ -52,7 +52,7 @@ You can create data-bound controls that display related data by dragging items f
 
      ![Data Sources Window showing relation](../data-tools/media/datasources2.gif)
 
-## See also
+## Related content
 
 - [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md)
 - [Create lookup tables in WPF applications](../data-tools/create-lookup-tables-in-wpf-applications.md)

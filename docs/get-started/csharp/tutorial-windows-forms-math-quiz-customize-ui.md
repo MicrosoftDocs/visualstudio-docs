@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: Customize a Windows Forms app"
-description: "Learn how to customize the math quiz Windows Forms app. You'll also use the Visual Studio IDE to add event handlers to clear answer values."
+description: Customize a math quiz Windows Forms application and add event handlers to clear answer values in the Visual Studio integrated development environment (IDE).
 ms.custom: vs-acquisition
 dev_langs:
   - "CSharp"

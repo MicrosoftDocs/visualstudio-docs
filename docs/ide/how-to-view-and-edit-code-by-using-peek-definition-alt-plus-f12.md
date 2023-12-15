@@ -1,5 +1,5 @@
 ---
-title: Using Peek Definition
+title: Use Peek Definition to view and edit code
 description: Use the Peek Definition command to view and edit your code without having to switch context from the code you're currently writing.
 ms.date: 01/10/2018
 ms.topic: how-to
@@ -78,7 +78,7 @@ You can use these keyboard shortcuts with the **Peek Definition** window:
 > [!NOTE]
 > You can also use the same keyboard shortcuts to edit code in a **Peek Definition** window as you use elsewhere in Visual Studio.
 
-## See also
+## Related content
 
 - [Navigate code](../ide/navigating-code.md)
 - [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md)

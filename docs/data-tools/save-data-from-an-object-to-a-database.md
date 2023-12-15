@@ -1,5 +1,5 @@
 ---
-title: Save data from an object to a database in .NET Framework applications
+title: Save object data to a database (.NET Framework)
 description: Save data from an object to a database with ADO.NET DataSet tools in Visual Studio and save new records, update existing records, or delete existing records.
 ms.date: 11/01/2023
 ms.topic: how-to
@@ -85,6 +85,6 @@ By default, `DBDirect` methods are created on a TableAdapter that can be run dir
 
 You must have permission to perform the selected `INSERT`, `UPDATE`, or `DELETE` on the table in the database.
 
-## See also
+## Related content
 
 - [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

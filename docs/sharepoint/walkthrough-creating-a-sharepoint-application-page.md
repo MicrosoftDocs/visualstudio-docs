@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a SharePoint Application Page"
+title: Create SharePoint application page in Visual Studio
 description: Create an application page, which is a specialized form of an ASP.NET page, and debug the page by using a local SharePoint site.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -163,7 +163,7 @@ You can learn more about how to design SharePoint page content by using the Visu
 
 - [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md).
 
-## See also
+## Related content
 
-[How to: Create an application page](../sharepoint/how-to-create-an-application-page.md)
-[Application _layouts Page Type](/previous-versions/office/aa979604(v=office.14))
+- [How to: Create an application page](../sharepoint/how-to-create-an-application-page.md)
+- [Application _layouts Page Type](/previous-versions/office/aa979604(v=office.14))

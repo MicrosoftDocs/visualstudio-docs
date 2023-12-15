@@ -174,7 +174,7 @@ If you want your code style settings to be applied every time you save a file, g
 If you want your code style settings to be applied every time you save a file, you may like the [Code Cleanup on Save](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CodeCleanupOnSave) extension.
 ::: moniker-end
 
-## See also
+## Related content
 
 - [Quick Actions](../ide/quick-actions.md)
 - [.NET coding convention settings for EditorConfig](/dotnet/fundamentals/code-analysis/code-style-rule-options)

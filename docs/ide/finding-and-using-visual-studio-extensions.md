@@ -1,5 +1,5 @@
 ---
-title: Find and install extensions
+title: Find, install, & manage extension packages
 description: Learn about extensions in Visual Studio and how to manage them so you have the controls, samples, templates, tools, and other components you need.
 ms.date: 06/19/2023
 ms.topic: conceptual
@@ -55,7 +55,9 @@ To install extensions from within Visual Studio:
 
 1. Select **Download**.
 
-   The extension is scheduled for install. Your extension will be installed after all instances of Visual Studio have been closed.
+  After download completes, you'll see a notification at the bottom of the **Manage Extensions** dialog box : "The extension is scheduled for install. Your extension will be installed after all instances of Visual Studio have been closed."
+
+  :::image type="content" source="media/finding-and-using-visual-studio-extensions/manage-extensions-install-notification.png" alt-text="Screenshot of notification on Manage Extensions dialog box." lightbox="media/finding-and-using-visual-studio-extensions/manage-extensions-install-notification.png":::
 
 If you try to install an extension that has dependencies, the installer verifies whether they're already installed. If they aren't installed, the **Manage Extensions** dialog box lists the dependencies that must be installed before you can install the extension.
 
@@ -146,11 +148,9 @@ You can use the **Extensions** > **Manage Extensions** dialog box to perform the
 
 - Update the master copy of an installed sample when there's an update notification.
 
-## Next steps
+## Related content
 
-To learn how to create and publish an extension by using the [Visual Studio SDK](../extensibility/visual-studio-sdk.md), see the [**Visual Studio Extensibility**](../extensibility/index.yml) page.
-
-## See also
-
+- [Visual Studio SDK](/visualstudio/extensibility/visual-studio-sdk)
+- [Visual Studio Extensibility](../extensibility/index.yml) page.
 - [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs)
 - [Support for the Visual Studio SDK](../extensibility/support-for-the-visual-studio-sdk.md)

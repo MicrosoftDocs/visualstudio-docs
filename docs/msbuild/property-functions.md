@@ -1,8 +1,8 @@
 ---
-title: Property Functions
+title: Use property functions to call .NET Framework methods
 description: Use property functions to call .NET Framework methods that appear in MSBuild property definitions, and see examples for working with the properties and methods.
 ms.date: 05/10/2023
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, property functions
 author: ghogen
@@ -389,6 +389,26 @@ Output:
 -->
 ```
 
+## MSBuild StableStringHash
+
+The MSBuild `StableStringHash` property function accepts a string argument, and returns a hash code that is guaranteed to be stable, meaning that the same code is always returned for the same string input. The returned hash is the same regardless of whether MSBuild or `dotnet build` is used, and is stable across platform architecture, unlike the .NET method `GetHashCode`. It is not guaranteed to be stable across different MSBuild versions.
+
+This function is available in MSBuild 16.9.0 or later.
+
+The following example shows how this function is used.
+
+```xml
+<Project>
+   <PropertyGroup>
+      <MyHash>$([MSBuild]::StableStringHash("test1"))</MyHash>
+   </PropertyGroup>
+
+   <Target Name="WriteHash" AfterTargets="Build">
+      <Message Text="Hash: $(MyHash)"/>
+   </Target>
+</Project>
+```
+
 ## MSBuild ValueOrDefault
 
 The MSBuild `ValueOrDefault` property function returns the first argument, unless it's null or empty. If the first argument is null or empty, the function returns the second argument.
@@ -506,7 +526,7 @@ In these methods, versions are parsed like <xref:System.Version?displayProperty=
 
 The functions `Exists` and `HasTrailingSlash` are not property functions. They are available for use with the `Condition` attribute. See [MSBuild conditions](msbuild-conditions.md).
 
-## See also
+## Related content
 
 - [MSBuild properties](../msbuild/msbuild-properties.md)
 

@@ -1,5 +1,5 @@
 ---
-title: See dependencies between C++ source and header files
+title: Map dependencies between C++ source & header files
 description: Check dependencies between C++ source code and header files by using code maps for C++ projects, and troubleshoot issues in C and C++ code.
 ms.date: 05/16/2018
 ms.topic: conceptual
@@ -45,6 +45,6 @@ These issues might occur when you create code maps for C and C++ code:
 ||Debug information has been stripped from the .pdb file.|If the **/PDBSTRIPPED** option was used in the linker, include the complete .pdb file instead.|
 ||The caller is not a function and is either a thunk in the binary file or a pointer in the data section.|When the caller is a thunk, try using `_declspec(dllimport)` to avoid the thunk.|
 
-## See also
+## Related content
 
 - [Map dependencies with code maps](../modeling/map-dependencies-across-your-solutions.md)

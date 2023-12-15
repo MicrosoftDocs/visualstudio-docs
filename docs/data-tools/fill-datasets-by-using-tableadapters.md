@@ -1,5 +1,5 @@
 ---
-title: Fill datasets by using ADO.NET TableAdapters (.NET Framework)
+title: Fill datasets with TableAdapters (.NET Framework)
 description: Fill datasets in .NET Framework applications with TableAdapters and data from queries or stored procedures by using ADO.NET in Visual Studio.
 ms.date: 11/01/2023
 ms.topic: how-to
@@ -138,6 +138,6 @@ The following are the frequently used methods and properties of the `TableAdapte
 
 When you use data commands with a CommandType property set to <xref:System.Data.CommandType.Text>, carefully check information that is sent from a client before passing it to your database. Malicious users might try to send (inject) modified or additional SQL statements in an effort to gain unauthorized access or damage the database. Before you transfer user input to a database, always verify that the information is valid. A best practice is to always use parameterized queries or stored procedures when possible.
 
-## See also
+## Related content
 
 - [Dataset tools](../data-tools/dataset-tools-in-visual-studio.md)

@@ -114,7 +114,7 @@ When a client requests a brokered service, it either gets `null` back when the s
 A proxy is used whether the brokered service is activated in the same process as the client or a different one.
 This proxy helps to harmonize usage patterns across the local and remote service cases so that the client need not be aware of where the service is located.
 
-## See also
+## Related content
 
 - [Discovering Available Brokered Services](discover-available-brokered-services.md)
 - [Using and Providing Brokered Services](../use-and-provide-brokered-services.md)

@@ -1,5 +1,5 @@
 ---
-title: Replace in files
+title: Use Replace in Files to search code & make changes
 description: Explore the Replace in Files feature to search the code of a specified set of files for a string or expression and change some or all of the matches found.
 ms.date: 02/07/2023
 ms.topic: conceptual
@@ -93,7 +93,7 @@ When selected, this option leaves open all files in which replacements have been
 
 ::: moniker-end
 
-## See also
+## Related content
 
 - [Find and replace text](../ide/finding-and-replacing-text.md)
 - [Find in files](../ide/find-in-files.md)

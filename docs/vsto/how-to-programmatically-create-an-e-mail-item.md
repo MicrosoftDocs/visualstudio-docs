@@ -25,6 +25,6 @@ ms.technology: office-development
 ## Example
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_OL_CreateMailItem/thisaddin.cs" id="Snippet1":::
 
-## See also
+## Related content
 - [Work with mail items](../vsto/working-with-mail-items.md)
 - [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)

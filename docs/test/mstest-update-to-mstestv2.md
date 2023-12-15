@@ -1,7 +1,7 @@
 ---
-title: Update to MSTestV2
-description: Learn how to update from MSTestV1 to MSTestV2 
-ms.date: 02/26/2021
+title: Update from MSTestV1 to MSTestV2 
+ms.date: 12/04/2023
+description: Upgrade an MSTestV1 test project to target MSTestV2 in the .csproj file, and review the MSTestV1 features that aren't available in MSTestV2.
 ms.topic: conceptual
 f1_keywords:
 - vs.UnitTest.Migrate
@@ -14,14 +14,14 @@ ms.technology: vs-ide-test
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can upgrade your test project by retargeting the MSTest version referenced in your *.csproj* from the MSTestV1 to MSTestV2. Not all features in MSTestV1 were brought forward into MSTestV2, so some changes may be required to resolve errors. See [MSTestV1 features that are not supported in MSTestV2](#mstestv1-features-that-are-not-supported-in-mstestv2) to understand what features will no longer function. Some of these may need to be removed from your tests.
+You can upgrade your test project by retargeting the MSTest version referenced in your *.csproj* from the MSTestV1 to MSTestV2. Not all features in MSTestV1 were brought forward into MSTestV2, so some changes may be required to resolve errors. See [MSTestV1 features that aren't supported in MSTestV2](#mstestv1-features-that-arent-supported-in-mstestv2) to understand what features no longer function. Some of these features might need to be removed from your tests.
 
 1. Remove the assembly reference to Microsoft.VisualStudio.QualityTools.UnitTestFramework from your unit test project.
 2. Add NuGet package references to MSTestV2 including the [MSTest.TestFramework](https://www.nuget.org/packages/MSTest.TestFramework) and the [MSTest.TestAdapter](https://www.nuget.org/packages/MSTest.TestAdapter/) packages on nuget.org. You can install packages in the NuGet Package Manager Console with the following commands:
 
     ```console
-    PM> Install-Package MSTest.TestAdapter -Version 2.1.2
-    PM> Install-Package MSTest.TestFramework -Version 2.1.2
+    PM> Install-Package MSTest.TestAdapter -Version 3.1.1
+    PM> Install-Package MSTest.TestFramework -Version 3.1.1
     ```
 
 ### Old style csproj example
@@ -43,7 +43,7 @@ Sample *.csproj* now targeting MSTestV2:
 ```
 
 > [!NOTE]
-> Test projects that are Coded UI tests or Web Load Tests are not compatible with MSTestV2. These project types have been deprecated. Read more on [Coded UI Test deprecation](https://devblogs.microsoft.com/devops/changes-to-coded-ui-test-in-visual-studio-2019/) and [Web Load Test deprecation](https://devblogs.microsoft.com/devops/cloud-based-load-testing-service-eol/).
+> Test projects that are Coded UI tests or Web Load Tests aren't compatible with MSTestV2. These project types have been deprecated. Read more on [Coded UI Test deprecation](https://devblogs.microsoft.com/devops/changes-to-coded-ui-test-in-visual-studio-2019/) and [Web Load Test deprecation](https://devblogs.microsoft.com/devops/cloud-based-load-testing-service-eol/).
 
 ### SDK-style csproj (.NET Core and .NET 5 or later)
 
@@ -54,8 +54,8 @@ Example:
 ```xml
 <ItemGroup>
   <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.1" />
-  <PackageReference Include="MSTest.TestAdapter" Version="2.1.1" />
-  <PackageReference Include="MSTest.TestFramework" Version="2.1.1" />
+  <PackageReference Include="MSTest.TestAdapter" Version="3.1.1" />
+  <PackageReference Include="MSTest.TestFramework" Version="3.1.1" />
 </ItemGroup>
 ```
 
@@ -81,7 +81,7 @@ In 2016, we released the next step in evolving the MSTest framework with MSTestV
     </RunSettings>
     ```
 
-* Provides finer-grained control over parallel execution via [in-assembly parallel execution](https://github.com/Microsoft/testfx-docs/blob/master/RFCs/004-In-Assembly-Parallel-Execution.md) of tests. This enables running tests within an assembly in parallel.
+* Provides finer-grained control over parallel execution via [in-assembly parallel execution](https://github.com/Microsoft/testfx-docs/blob/master/RFCs/004-In-Assembly-Parallel-Execution.md) of tests. This feature enables running tests within an assembly in parallel.
 * The `TestCleanup` method on a `TestClass` is invoked even if its corresponding `TestInitialize` method fails. [Issue details](https://github.com/Microsoft/testfx/issues/250).
 * The time taken by `AssemblyInitialize` and `ClassInitialize` isn't counted towards the test duration. This change limits their impact on a test timing out.
 * Tests that aren't runnable can be configured to be marked as failed via the `MapNotRunnableToFailed` tag, which is part of the adapter node in the `.runsettings` file.
@@ -94,17 +94,17 @@ In 2016, we released the next step in evolving the MSTest framework with MSTestV
     </RunSettings>
     ```
 
-## MSTestV1 features that are not supported in MSTestV2
+## MSTestV1 features that aren't supported in MSTestV2
 
-*	Tests cannot be included into an "Ordered Test".
+* Tests can't be included into an "Ordered Test".
 * Changes to the `.testsettings` file:
-   * Can no longer be used to configure the adapter.
-   * No longer support the `<LegacySettings>` section, meaning you can't use it to set attributes. For example, `DeploymentItem`. Use the new [*.runsettings* file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md) for test run configuration.
-*	The adapter doesn't support test lists specified as a *.vsmdi* file.
-*	The "Coded UI Test Project" and the "Web Performance and Load Test Project" types are not supported. Read more on [Coded UI Test deprecation](https://devblogs.microsoft.com/devops/changes-to-coded-ui-test-in-visual-studio-2019/) and [Web Load Test deprecation](https://devblogs.microsoft.com/devops/cloud-based-load-testing-service-eol/).
-* Association with a testcase item in TFS is not supported.
+  * Can no longer be used to configure the adapter.
+  * No longer support the `<LegacySettings>` section, meaning you can't use it to set attributes. For example, `DeploymentItem`. Use the new [*.runsettings* file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md) for test run configuration.
+* The adapter doesn't support test lists specified as a *.vsmdi* file.
+* The "Coded UI Test Project" and the "Web Performance and Load Test Project" types aren't supported. Read more on [Coded UI Test deprecation](https://devblogs.microsoft.com/devops/changes-to-coded-ui-test-in-visual-studio-2019/) and [Web Load Test deprecation](https://devblogs.microsoft.com/devops/cloud-based-load-testing-service-eol/).
+* Association with a testcase item in TFS isn't supported.
 
-## See also
+## Related content
 
 - [Configure test runs with `.runsettings`](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md)
 - [Unit test your code](../test/unit-test-your-code.md)

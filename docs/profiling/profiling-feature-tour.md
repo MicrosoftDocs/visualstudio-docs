@@ -1,6 +1,6 @@
 ---
 title: "First look at profiling tools"
-description: "Take a brief look at the different diagnostic tools available in Visual Studio."
+description: Review the different diagnostic tools available in Visual Studio for profiling your C#, Visual Basic, C++, and F# applications.
 ms.date: 11/09/2023
 ms.topic: conceptual
 f1_keywords:
@@ -314,7 +314,7 @@ In Visual Studio 2019,  the legacy Performance Explorer and related profiling to
 
 ![Performance Explorer tool](../profiling/media/prof-tour-performance-explorer.png "Performance Explorer")
 
-## See also
+## Related content
 
 - [Which tool should I use?](../profiling/choose-performance-tool.md)
 - [Reduce compute costs by using profiling tools](../profiling/optimize-code-using-profiling-tools.md)

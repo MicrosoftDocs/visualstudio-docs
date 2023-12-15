@@ -1,8 +1,8 @@
 ---
-title: MSBuild Concepts
+title: Specify build components & processes with MSBuild
 description: Explore how to specify build components and processes by using MSBuild properties, items, tasks, and targets in Visual Studio.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: overview
 helpviewer_keywords:
 - MSBuild, concepts
 author: ghogen

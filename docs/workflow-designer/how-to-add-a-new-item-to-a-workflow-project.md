@@ -38,6 +38,6 @@ The following table lists the Windows Workflow Foundation (WF) items that you ca
 
 1. Select **Add** to add the item to the project.
 
-## See also
+## Related content
 
 - [Create a workflow project](../workflow-designer/creating-a-workflow-project.md)

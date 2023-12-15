@@ -36,6 +36,6 @@ The XSLT debugger utilizes the Visual Studio managed debug engine and classes fr
 
 - The XSLT expression evaluator is loaded by the managed debug engine. The managed debug engine assumes that all code is run from the user's local computer. Accordingly, the <xref:System.Xml.Xsl.XslCompiledTransform> class downloads the XSLT file to the user's local computer. The possibility that an elevation in execution privilege could occur is mitigated by executing all XSLT transformations in a new application domain with restricted permissions
 
-## See also
+## Related content
 
 - [Application domains](/dotnet/framework/app-domains/application-domains)

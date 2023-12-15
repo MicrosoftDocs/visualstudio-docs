@@ -40,7 +40,7 @@ Optional. Specifies a website to which users go to install the application. This
 
 Determines whether the application is run directly from the **Publishing Location** (when **The application is available online only** is selected) or is installed and added to the **Start** menu and the **Add or Remove Programs** item in **Control Panel** (when **The application is available offline as well** is selected).
 
-For WPF web browser apps, the **The application is available offline as well** option is disabled, because such applications are available only online.
+For WPF web browser apps, the **application is available offline as well** option is disabled, because such applications are available only online.
 
  **Application Files**
 

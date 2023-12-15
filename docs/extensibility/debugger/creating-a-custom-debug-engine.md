@@ -56,5 +56,5 @@ A debug engine (DE) is a component that allows debugging of particular run-time 
  [How To: Debug a custom debug engine](../../extensibility/debugger/how-to-debug-a-custom-debug-engine.md)
  Explains how to debug a custom DE.
 
-## See also
+## Related content
 - [Visual Studio debugger extensibility](../../extensibility/debugger/visual-studio-debugger-extensibility.md)

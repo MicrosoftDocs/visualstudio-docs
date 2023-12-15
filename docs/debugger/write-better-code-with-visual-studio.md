@@ -1,6 +1,6 @@
 ---
 title: Debugging techniques and tools
-description: "Write better code with fewer bugs by using Visual Studio to fix exceptions, fix errors, and improve your code"
+description: Write better code with fewer bugs by using Visual Studio to fix exceptions and resolve errors, and make improvements to your code.
 ms.date: "10/24/2023"
 ms.topic: "conceptual"
 helpviewer_keywords:

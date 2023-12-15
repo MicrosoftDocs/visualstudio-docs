@@ -1,6 +1,6 @@
 ---
 title: "Create projects & solutions"
-description: Learn how to create and use Visual Studio solutions and projects to store artifacts.
+description: Create and use Visual Studio solutions and projects to store artifacts, including source code files, bitmaps, icons, and component and service references.
 ms.date: 08/08/2023
 ms.topic: how-to
 f1_keywords:
@@ -121,7 +121,7 @@ You can access File Explorer in Windows by using Solution Explorer in Visual Stu
 
 1. Select the folder that contains the solution, and then press the **Delete** key.
 
-## See also
+## Related content
 
 - [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md)
 - [Manage project and solution properties](managing-project-and-solution-properties.md)

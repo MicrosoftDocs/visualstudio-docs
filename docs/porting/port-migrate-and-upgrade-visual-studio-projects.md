@@ -1,7 +1,7 @@
 ---
 title: Port, migrate, and upgrade projects
-description: A reference for the support of projects created in current and earlier versions of Visual Studio.
-ms.date: 10/24/2022
+description: Explore a reference about projects created in current and earlier versions of Visual Studio and find information about porting, migrating, and upgrading projects.
+ms.date: 12/04/2023
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -43,7 +43,7 @@ We try to preserve backwards compatibility with previous versions, such as Visua
 
 The following list describes support in Visual Studio 2019 for projects that were created in earlier versions.
 
-If you don't see a project or file type listed here that should be, consult the [Visual Studio 2017 version of this article](/previous-versions/visualstudio/visual-studio-2017/porting/port-migrate-and-upgrade-visual-studio-projects?view=vs-2017&preserve-view=true). You can also use the **Send feedback about** > **This page** button at the bottom of this page to provide details of your project. (If you use the anonymous "Is this page helpful?" control, we aren't able to respond to your feedback.)
+If you don't see a project or file type listed here that should be, consult the [Visual Studio 2017 version of this article](/previous-versions/visualstudio/visual-studio-2017/porting/port-migrate-and-upgrade-visual-studio-projects?view=vs-2017&preserve-view=true). You can also use the **Submit and view feedback for** > **This page** button at the bottom of this page to provide details of your project. (If you use the anonymous "Was this page helpful?" control, we aren't able to respond to your feedback.)
 
 | Type of Project | Support |
 | --- | --- |
@@ -137,7 +137,7 @@ We try to preserve backwards compatibility with previous versions, such as Visua
 
 The following list describes support in Visual Studio 2022 for projects that were created in earlier versions.
 
-If you don't see a project or file type listed here that should be, consult the [Visual Studio 2019 version of this article](?view=vs-2019&preserve-view=true). You can also use the **Send feedback about** > **This page** button at the bottom of this page to provide details of your project. (If you use the anonymous "Is this page helpful?" control, we aren't able to respond to your feedback.)
+If you don't see a project or file type listed here that should be, consult the [Visual Studio 2019 version of this article](?view=vs-2019&preserve-view=true). You can also use the ****Submit and view feedback for**** > **This page** button at the bottom of this page to provide details of your project. (If you use the anonymous "Was this page helpful?" control, we aren't able to respond to your feedback.)
 
 | Type of Project | Support |
 | --- | --- |
@@ -202,15 +202,10 @@ To maintain compatibility with projects that you created in previous versions, V
 
 You might be tempted to manually update or migrate a project to a newer `ToolsVersion` value. It's unnecessary to make such a change, and would likely generate many errors and warnings that you must fix to get the project to build again. Also, if Visual Studio doesn't support a specific `ToolsVersion` in the future, then the project triggers the project migration process when you open it because its `ToolsVersion` value must be changed.
 
-## Next steps
-
-Refer to the following articles for further discussion:
+## Related content
 
 - [ToolsVersion guidance](../msbuild/msbuild-toolset-toolsversion.md)
 - [Framework targeting guidance](../ide/visual-studio-multi-targeting-overview.md)
-
-## See also
-
 - [Project migration and upgrade reference for Visual Studio 2019](?view=vs-2019&preserve-view=true)
 - [Support for older versions of Visual Studio](https://devblogs.microsoft.com/visualstudio/support-reminder-for-older-versions-of-visual-studio/)
 

@@ -2,7 +2,7 @@
 title: What's New in MSBuild 17.0 
 description: Review the changed, updated, and new features of MSBuild 17, including support for .NET Framework 4.7.2 and .NET 6.0, and access links to release notes.
 ms.date: 11/01/2023
-ms.topic: conceptual
+ms.topic: whats-new
 author: ghogen
 ms.author: ghogen
 manager: jmartens
@@ -56,6 +56,6 @@ Binary logs are smaller and have more information.
 
 For more changes in this version, see the detailed release notes and for changes in MSBuild versions that you can opt out of, see [change waves](change-waves.md).
 
-## See also
+## Related content
 
 - [MSBuild](../msbuild/msbuild.md)

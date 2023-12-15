@@ -266,7 +266,7 @@ Now that an *app.config* file has been defined, you will create a unit test that
 > [!IMPORTANT]
 > Deploy items like data sources so that they are accessible to the test in the deployment directory.
 
-## See also
+## Related content
 
 - [Unit test your code](../test/unit-test-your-code.md)
 - [How To: Create a data-driven unit test](../test/how-to-create-a-data-driven-unit-test.md)

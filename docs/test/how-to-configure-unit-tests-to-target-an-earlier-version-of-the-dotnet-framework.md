@@ -1,5 +1,5 @@
 ---
-title: Unit Tests Target Earlier Version of .NET Framework
+title: Unit tests target earlier .NET Framework version
 description: Learn to create unit test projects to target specific versions of the .NET Framework. The targeted version must be 3.5 or later, and cannot be a client version.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -100,7 +100,7 @@ The following limitations apply when you re-target your test projects to use ear
 
 6. In **Solution Explorer**, choose select **Reload Project** from the right-click menu of your new C++ test project.
 
-## See also
+## Related content
 
 - [Create SharePoint solutions](../sharepoint/create-sharepoint-solutions.md)
 - [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)

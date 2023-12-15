@@ -354,6 +354,6 @@ public sealed class DynamicMenuItemsPackage : Package
 
 4. When you close the solution, or open a solution that has only one project, the toolbar icon should disappear.
 
-## See also
+## Related content
 - [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md)
 - [How VSPackages add user interface elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)

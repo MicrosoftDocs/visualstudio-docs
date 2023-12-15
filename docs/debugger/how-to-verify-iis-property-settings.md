@@ -1,6 +1,6 @@
 ---
 title: Verify IIS Property Settings
-description: Learn how to verify IIS property settings that you set for a web application using the IIS administration tool.
+description: Configure and verify IIS property settings for a web application by using the IIS administration tool to ensure your application runs as expected.
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

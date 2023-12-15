@@ -1,6 +1,6 @@
 ---
 title: Automatically apply product keys
-description: Learn how to apply product keys programmatically when you deploy Visual Studio.
+description: Apply your product key programmatically during or after installation as part of a script to automate deployment of Visual Studio.
 ms.date: 7/7/2023
 ms.topic: conceptual
 author: anandmeg
@@ -134,7 +134,7 @@ If `StorePID.exe` successfully applies the product key, it returns an `%ERRORLEV
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 
 * [Install Visual Studio](../install/install-visual-studio.md)
 * [Create an offline installation of Visual Studio](../install/create-an-offline-installation-of-visual-studio.md)

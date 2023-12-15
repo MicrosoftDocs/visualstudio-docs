@@ -1,5 +1,5 @@
 ---
-title: Pass data between forms
+title: Pass data between forms controls (.NET Framework)
 description: Pass data between Windows Forms controls in .NET Framework application development with Visual Studio and create a TableAdapter query to fetch customer orders.
 ms.date: 11/04/2016
 ms.topic: how-to

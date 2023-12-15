@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Create your first VSTO Add-in for Outlook"
+title: "Create Visual Studio Tools for Office Add-ins: Outlook mail"
 description: Create a VSTO add-in for the Microsoft Office Outlook with features that are available to the application itself, regardless of which Outlook items are open.
 ms.date: "08/14/2019"
 ms.topic: "conceptual"

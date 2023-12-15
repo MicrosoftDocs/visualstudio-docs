@@ -131,7 +131,7 @@ Use *multi-caret selection* to make the same edit in two or more places at the s
 
 In Visual Studio 2022, we improved the multi-caret copy and paste experience. Previously, pasting multiple lines into multiple carets resulted in the entire clipboard being duplicated at each caret. Now, pasting multiple lines into the same number of carets will insert each line to a respective caret.
 
-To use multi-caret, press **Alt**+**Shift**+**mouse click** or **Alt**+**Shift**+**.** and then use **Ctrl**+**Shift**+**arrow key** to expand selections. Next, press **Ctrl**+**C** to copy the text in multiple selections. Use **Alt**+**Shift**+**mouse click** to create multiple carets for each line to paste in where you want them. Finally, press **Ctrl**+**V** to paste each line at its own caret.
+To use multi-caret, press **Ctrl**+**Alt**+**mouse click** or **Alt**+**Shift**+**.** and then use **Ctrl**+**Shift**+**arrow key** to expand selections. Next, press **Ctrl**+**C** to copy the text in multiple selections. Use **Alt**+**Shift**+**mouse click** to create multiple carets for each line to paste in where you want them. Finally, press **Ctrl**+**V** to paste each line at its own caret.
 
 :::image type="content" source="media/vs-2022/multi-caret-copy-paste.gif" alt-text="An animation of the multi-caret selection action in Visual Studio.":::
 
@@ -189,7 +189,7 @@ Some of the commands are also available on the **Edit** menu, under **Multiple C
 
 ::: moniker-end
 
-## See also
+## Related content
 
 - [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md)
 - [Refactor code in Visual Studio](../ide/refactoring-in-visual-studio.md)

@@ -1,5 +1,5 @@
 ---
-title: "Outlook solutions"
+title: Automate Outlook actions with VSTO add-ins
 description: Use VSTO add-ins to automate Microsoft Outlook actions, extend Outlook features, or customize the Outlook user interface (UI).
 ms.date: "08/14/2019"
 ms.topic: "conceptual"

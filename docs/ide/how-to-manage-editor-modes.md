@@ -62,7 +62,7 @@ In **Virtual Space** mode, spaces are inserted at the end of each line of code. 
     > [!NOTE]
     > **Virtual Space** is enabled in **Column Selection** mode. When **Virtual Space** mode is not enabled, the insertion point moves from the end of one line directly to the first character of the next.
 
-## See also
+## Related content
 
 - [Customize window layouts and personalize tabs](../ide/customizing-window-layouts-in-visual-studio.md)
 - [Fonts and Colors, Environment, Options dialog box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md)

@@ -1,6 +1,6 @@
 ---
-title: "Test Explorer FAQ"
-description: Refer to these frequently asked questions about Visual Studio Test Explorer, which include some common troubleshooting.
+title: Review Test Explorer FAQ issues and answers
+description: Review frequently asked questions (FAQs) about Visual Studio Test Explorer, which include some common troubleshooting scenarios.
 ms.date: 06/25/2020
 ms.topic: conceptual
 helpviewer_keywords:
@@ -121,7 +121,7 @@ To fix this error:
 
 In Visual Studio 2019, you can opt into preview features in **Tools > Options > Environment > Preview Features**.
 
-## See also
+## Related content
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting?displayProperty=fullName>
 - [Create and run unit tests for existing code](/previous-versions/dd293546(v=vs.110))

@@ -151,7 +151,7 @@ Once you click **Delete my account**:
 - If you report a new problem or log into Developer Community, you will be identified as a new user.
 - If you delete your account from Developer Community, we will not delete it from other Microsoft services.
 
-## See also
+## Related content
 
 - [How to report a problem with Visual Studio](how-to-report-a-problem-with-visual-studio.md)
 - [C++ problem report data privacy](/cpp/how-to-report-a-problem-with-the-visual-cpp-toolset#reports-and-privacy)

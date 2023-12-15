@@ -1,5 +1,5 @@
 ---
-title: EditorConfig settings
+title: Define coding styles with EditorConfig
 description: Add an EditorConfig file to your project or codebase to enforce consistent coding styles for everyone that works in the codebase.
 ms.date: 08/26/2022
 ms.topic: how-to
@@ -164,7 +164,7 @@ dir .editorconfig /s
 
 You can control the scope of your EditorConfig conventions by setting the ```root=true``` property in the *.editorconfig* file at the root of your repo or in the directory that your project resides. Visual Studio looks for a file named *.editorconfig* in the directory of the opened file and in every parent directory. The search ends when it reaches the root filepath, or if an *.editorconfig* file with ```root=true``` is found.
 
-## See also
+## Related content
 
 - [.NET code style conventions](/dotnet/fundamentals/code-analysis/code-style-rule-options)
 - [Supporting EditorConfig for a language service](../extensibility/supporting-editorconfig.md)

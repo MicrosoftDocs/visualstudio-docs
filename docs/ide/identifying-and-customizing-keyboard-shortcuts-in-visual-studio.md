@@ -140,6 +140,6 @@ You can share your custom keyboard shortcuts by exporting them to a file and the
 
    ![Screenshot that shows an example of how to import only customized keyboard shortcuts.](../ide/media/import-shortcuts.png)
 
-## See also
+## Related content
 
 - [Accessibility features of Visual Studio](../ide/reference/accessibility-features-of-visual-studio.md)

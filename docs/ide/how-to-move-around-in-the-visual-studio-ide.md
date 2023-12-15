@@ -1,6 +1,6 @@
 ---
-title: Move around in the IDE
-description: Learn how to move around in the Visual Studio IDE from window to window and file to file in several different ways.
+title: Move around in the IDE across windows and files
+description: Explore how to move around in the Visual Studio integrated development environment (IDE) from window to window and file to file in several different ways.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -87,7 +87,7 @@ The **IDE Navigator** also lets you cycle through the tool windows you have open
     > [!TIP]
     > To reverse the order in which you go through the **Active Tool Windows** list, hold down the **Shift**+**Alt** keys and press **F7**.
 
-## See also
+## Related content
 
 - [Customize window layouts](../ide/customizing-window-layouts-in-visual-studio.md)
 - [Default keyboard shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md)

@@ -176,7 +176,7 @@ ms.technology: office-development
    :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet56":::
    ---
 
-## See also
+## Related content
 - [How to: Programmatically format text in documents](../vsto/how-to-programmatically-format-text-in-documents.md)
 - [How to: Programmatically define and select ranges in documents](../vsto/how-to-programmatically-define-and-select-ranges-in-documents.md)
 - [How to: Programmatically extend ranges in documents](../vsto/how-to-programmatically-extend-ranges-in-documents.md)

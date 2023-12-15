@@ -1,5 +1,5 @@
 ---
-title: Database compatibility
+title: Explore compatible database systems
 description: Explore compatible database systems for Visual Studio, including Microsoft SQL Server, Oracle, MySQL, PostgreSQL, SQLite, and Firebird.
 ms.date: 11/01/2023
 ms.topic: conceptual
@@ -48,7 +48,7 @@ SQLite is an embedded SQL database engine that runs in the application's own pro
 
 Firebird is an open-source SQL database system. You can download it from the [Firebird download page](http://firebirdsql.org/en/downloads/). An ADO.NET data provider is available through the NuGet Package Manager.
 
-## See also
+## Related content
 
 - [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)
 - [How to determine the version and edition of SQL Server and its components](https://support.microsoft.com/help/321185/how-to-determine-the-version-edition-and-update-level-of-sql-server-an)

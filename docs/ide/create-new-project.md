@@ -1,6 +1,6 @@
 ---
-title: Create a new project
-description: Learn how to create a new project in Visual Studio.
+title: Create and configure a new project
+description: Create and configure a new project in Visual Studio by choosing a template type, the Framework version, an authentication type, and more.
 ms.date: 11/17/2023
 ms.topic: how-to
 f1_keywords:
@@ -122,6 +122,6 @@ If you want to add another project to a solution, right-click the solution node 
 > [!TIP]
 > For an example of a project and solution created from scratch, complete with step-by-step instructions and sample code, see [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md).
 
-## See also
+## Related content
 
 - [Visual Studio for Mac: Create a new project](/visualstudio/mac/create-new-projects)

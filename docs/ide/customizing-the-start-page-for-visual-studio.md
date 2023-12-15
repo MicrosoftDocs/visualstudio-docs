@@ -1,6 +1,6 @@
 ---
 title: Change the startup experience
-description: Learn how to customize your startup experience so Visual Studio opens with the tools that are most useful to you.
+description: Customize your startup experience so Visual Studio opens with the tools that are most useful to you, such as opening the most recently opened solution. 
 ms.date: 06/05/2023
 ms.topic: conceptual
 f1_keywords:

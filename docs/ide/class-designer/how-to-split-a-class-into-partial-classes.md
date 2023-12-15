@@ -74,7 +74,7 @@ End Class
 ```
 ---
 
-## See also
+## Related content
 
 - [Partial classes and methods](/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods)
 - [partial (Type) (C# Reference)](/dotnet/csharp/language-reference/keywords/partial-type)

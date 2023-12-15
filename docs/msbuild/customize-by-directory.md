@@ -271,6 +271,6 @@ C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Current\Microsoft.
   ...
 ```
 
-## Next steps
+## Related content
 
-Explore other possible customization scenarios at [Customize your build](customize-your-build.md).
+- [Customize your build](customize-your-build.md).

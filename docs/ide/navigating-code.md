@@ -1,5 +1,5 @@
 ---
-title: Code navigation commands
+title: Review options for browsing code in the editor
 description: Explore the different options in Visual Studio for browsing your code with the editor, including the Navigation bar, and Backward / Forward commands.
 ms.date: 11/21/2019
 ms.topic: conceptual
@@ -158,7 +158,7 @@ You can use the enhanced scroll bar in a code window to get a bird's-eye view of
 
 You can find info about specific code, like changes and who made those changes, references, bugs, work items, code reviews, and unit test status when you use CodeLens in the code editor. CodeLens works like a heads-up display when you use Visual Studio Enterprise with Team Foundation Server. See [Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md).
 
-## See also
+## Related content
 
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
 - [View call hierarchy](../ide/reference/call-hierarchy.md)

@@ -91,7 +91,7 @@ ms.technology: office-development
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb" id="Snippet78":::
      ---
 
-## See also
+## Related content
 - [How to: Programmatically search for and replace rext in documents](../vsto/how-to-programmatically-search-for-and-replace-text-in-documents.md)
 - [How to: Programmatically set search options in Word](../vsto/how-to-programmatically-set-search-options-in-word.md)
 - [How to: Programmatically define and select ranges in documents](../vsto/how-to-programmatically-define-and-select-ranges-in-documents.md)

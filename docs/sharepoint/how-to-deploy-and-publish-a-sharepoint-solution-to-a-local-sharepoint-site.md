@@ -1,5 +1,5 @@
 ---
-title: "Deploy & publish SharePoint solution to local SharePoint site"
+title: Deploy & publish SharePoint solution to a local SharePoint server
 titleSuffix: ""
 description: Deploy and publish SharePoint solutions to a local SharePoint server on your development computer with Visual Studio Solution Explorer.
 ms.date: "02/02/2017"
@@ -38,7 +38,7 @@ ms.technology: sharepoint-development
 
      The publishing progress appears in the Visual Studio **Output** window. When the process is finished, the solution (*.wsp*) file is installed on the local SharePoint server. However, it must still be activated to be used in SharePoint. If the solution file already exists, an error occurs and asks whether you want to overwrite the existing file. For information on upgrading the package, see the section on upgrading remote packages in [How to: Deploy, publish, and upgrade SharePoint solutions on a remote server](../sharepoint/how-to-deploy-publish-and-upgrade-sharepoint-solutions-on-a-remote-server.md).
 
-## See also
+## Related content
 - [How to: Deploy, publish, and upgrade SharePoint solutions on a remote server](../sharepoint/how-to-deploy-publish-and-upgrade-sharepoint-solutions-on-a-remote-server.md)
 - [Create SharePoint solution packages](../sharepoint/creating-sharepoint-solution-packages.md)
 - [How to: Customize a SharePoint solution package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md)

@@ -85,5 +85,5 @@ ms.technology: sharepoint-development
 
 2. The template is refreshed with the original text, and any changes to the XML are lost.
 
-## See also
+## Related content
 - [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

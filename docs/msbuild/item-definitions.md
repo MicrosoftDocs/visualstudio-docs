@@ -1,8 +1,8 @@
 ---
-title: Item Definitions
+title: Set metadata with ItemGroup & ItemDefinitionGroup
 description: Explore how MSBuild uses the ItemGroup and ItemDefinitionGroup elements to declare metadata settings for items in project files.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: language-reference
 helpviewer_keywords:
 - msbuild, item definitions
 author: ghogen
@@ -251,6 +251,6 @@ Beginning in MSBuild 3.5, ItemGroups can also be self-referential. For example:
 </ItemGroup>
 ```
 
-## See also
+## Related content
 
 - [Batching](../msbuild/msbuild-batching.md)

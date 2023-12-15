@@ -1,5 +1,5 @@
 ---
-title: Environment settings
+title: Adjust your development environment settings
 description: Learn about Visual Studio environment settings and how to adjust them to be optimal for the type of development that you do.
 ms.date: 12/14/2022
 ms.topic: conceptual
@@ -46,7 +46,7 @@ You can also use the wizard to reset the environment to one of the default colle
 
 1. On the **Reset Complete** page, select **Close**.
 
-## See also
+## Related content
 
 - [Synchronize settings across multiple computers](synchronized-settings-in-visual-studio.md)
 - [Personalize the Visual Studio IDE](personalizing-the-visual-studio-ide.md)

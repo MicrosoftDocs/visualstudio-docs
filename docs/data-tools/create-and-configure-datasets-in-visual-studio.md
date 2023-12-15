@@ -1,5 +1,5 @@
 ---
-title: Create and configure datasets in .NET Framework applications
+title: Create & configure datasets in .NET Framework apps
 description: Create and configure datasets in .NET Framework applications with ADO.NET in Visual Studio and the Data Source Configuration Wizard.
 ms.date: 10/07/2022
 ms.topic: how-to
@@ -94,7 +94,7 @@ This procedure shows how to add a table from the same database that you used to 
 
 Stand-alone tables need to implement `Fill` logic so that you can fill them with data. For information on filling data tables, see [Populating a DataSet from a DataAdapter](/dotnet/framework/data/adonet/populating-a-dataset-from-a-dataadapter).
 
-## See also
+## Related content
 
 - [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)
 - [Relationships in datasets](../data-tools/relationships-in-datasets.md)

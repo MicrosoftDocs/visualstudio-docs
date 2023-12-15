@@ -2,7 +2,7 @@
 title: 'Configure Targets and Tasks'
 description: Learn how to set selected MSBuild tasks to run in the environment they target, regardless of the environment of the development computer.
 ms.date: 01/11/2022
-ms.topic: conceptual
+ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 manager: jmartens
@@ -84,7 +84,7 @@ By default, MSBuild handles UsingTask's as "first one wins." Starting in 17.2, M
 
 ## Task factories
 
-Before it runs a task, MSBuild checks to see whether it is designated to run in the current software context. If the task is so designated, MSBuild passes it to the AssemblyTaskFactory, which runs it in the current process; otherwise, MSBuild passes the task to the TaskHostFactory, which runs the task in a process that matches the target context. Even if the current context and the target context match, you can force a task to run out-of-process (for isolation, security, or other reasons) by setting `TaskFactory` to `TaskHostFactory`.
+Before it runs a task, MSBuild checks to see whether it is designated to run in the current software context. If the task is so designated, MSBuild passes it to the `AssemblyTaskFactory`, which runs it in the current process; otherwise, MSBuild passes the task to the `TaskHostFactory`, which runs the task in a process that matches the target context. Even if the current context and the target context match, you can force a task to run out-of-process (for isolation, security, or other reasons) by setting `TaskFactory` to `TaskHostFactory`.
 
 ```xml
 <UsingTask TaskName="MisbehavingTask"
@@ -120,7 +120,7 @@ The `MSBuildRuntime` and `MSBuildArchitecture` parameters provide the most flexi
 > [!NOTE]
 > Task parameters are evaluated in the context of the parent node, not in the context of the task host. Environment variables that are runtime- or architecture- dependent (such as the *Program Files* location) will evaluate to the value that matches the parent node. However, if the same environment variable is read directly by the task, it will correctly be evaluated in the context of the task host.
 
-## See also
+## Related content
 
 - [Configure targets and tasks](../msbuild/configure-tasks.md)
 - [UsingTask element](../msbuild/usingtask-element-msbuild.md)

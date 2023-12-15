@@ -1,7 +1,7 @@
 ---
-title: What is Visual Studio?
+title: What is the Visual Studio IDE?
 titleSuffix: ''
-description: Learn how Visual Studio is a powerful integrated development environment that empowers you to develop, edit, debug, version control, and deploy your app.
+description: Explore the Visual Studio integrated development environment (IDE) that empowers you to develop, edit, debug, version control, and deploy your app.
 ms.date: 05/05/2023
 ms.technology: vs-ide-general
 ms.topic: overview

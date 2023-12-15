@@ -1,6 +1,6 @@
 ---
 title: Learn about Solution Explorer
-description: Learn how you can use Solution Explorer and its context menu to manage the projects and files in a solution.
+description: Use Solution Explorer in Visual Studio and review the context menu options to manage the projects and files in a solution.
 ms.date: 08/08/2023
 ms.topic: conceptual
 helpviewer_keywords:
@@ -151,7 +151,7 @@ You can find the **Collapse All Descendants** command on the right-click context
 
 ::: moniker-end
 
-## See also
+## Related content
 
 - [What are solutions and projects in Visual Studio?](solutions-and-projects-in-visual-studio.md)
 - [What is the .NET Project Designer?](reference/project-properties-reference.md)

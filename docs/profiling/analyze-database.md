@@ -1,6 +1,6 @@
 ---
 title: "Analyze database usage for .NET Core projects"
-description: Use the Database tool to record your app's database queries, then analyze them to find ways to improve performance.
+description: Use the Database tool to record your application's database queries and analyze the queries to find ways to improve application performance.
 ms.date: "5/5/2020"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -8,6 +8,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-debug
 ---
 # Analyze database performance using the Database tool
 
@@ -47,7 +48,7 @@ After you find a query you want to investigate, right-click the query. Then sele
 
 If you select a time range on a graph, the query table shows only queries that occurred during that time range. This behavior is especially useful when you also run the [CPU Usage tool](./cpu-usage.md?view=vs-2019&preserve-view=true).
 
-## See also
+## Related content
 
 - [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md)
 - [Identify hot paths with Flame Graph](../profiling/flame-graph.md)

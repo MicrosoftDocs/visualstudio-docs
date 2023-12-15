@@ -49,9 +49,7 @@ ms.technology: vs-ide-debug
  [Evaluating a watch expression](../../extensibility/debugger/evaluating-a-watch-expression.md)
  Explains what happens after a successful expression parse.
 
-## Related sections
- [Evaluation context](../../extensibility/debugger/evaluation-context.md)
- Provides the arguments that are passed when the debug engine (DE) calls the expression evaluator (EE).
+## Related content
+- [Evaluation context](../../extensibility/debugger/evaluation-context.md) provides the arguments that are passed when the debug engine (DE) calls the expression evaluator (EE).
 
-## See also
- [Writing a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
+- [Writing a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)

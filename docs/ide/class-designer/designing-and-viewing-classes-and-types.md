@@ -1,5 +1,5 @@
 ---
-title: Use Class Designer
+title: Design, visualize, & refactor with Class Designer
 description: Design, visualize, and refactor classes, other types, and their relationships in your code with Class Designer in Visual Studio.
 ms.date: 05/08/2018
 ms.topic: conceptual
@@ -378,7 +378,7 @@ Use the following keys to navigate the **Class Details** window:
 > [!TIP]
 > For a comprehensive list of keyboard shortcuts, see [Keyboard shortcuts in Visual Studio](../default-keyboard-shortcuts-in-visual-studio.md).
 
-## See also
+## Related content
 
 - [Create types by using Class Designer](how-to-create-types.md)
 - [Work with C++ code in Class Designer](working-with-visual-cpp-code.md)

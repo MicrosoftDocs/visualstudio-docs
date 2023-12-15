@@ -1,7 +1,7 @@
 ---
 title: Install Visual Studio
 titleSuffix: ''
-description: Learn how to install Visual Studio, step-by-step.
+description: Install Visual Studio quickly and with less system impact by choosing your preferred features to reduce the installation footprint.
 ms.date: 05/16/2023
 ms.custom: vs-acquisition
 ms.topic: conceptual
@@ -314,7 +314,7 @@ You can reduce the installation footprint of Visual Studio on your system drive.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 
 * [Update Visual Studio](update-visual-studio.md)
 * [Modify Visual Studio](modify-visual-studio.md)

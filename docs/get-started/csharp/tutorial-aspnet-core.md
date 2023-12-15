@@ -1,6 +1,6 @@
 ---
-title: "Tutorial: Create a C# ASP.NET Core web app in Visual Studio"
-description: Learn how to create a web app in Visual Studio with C# and ASP.NET Core in this tutorial.
+title: "Tutorial: Create C# ASP.NET Core web application"
+description: Create a web application in the Visual Studio integrated development environment (IDE) by using C# and ASP.NET Core, make changes to the app, and run the app.
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens

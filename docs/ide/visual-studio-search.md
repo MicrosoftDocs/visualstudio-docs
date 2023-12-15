@@ -1,5 +1,5 @@
 ---
-title: Use Visual Studio search
+title: Use Visual Studio search to find code & do queries
 description: Explore the Visual Studio search feature and discover how to find settings, menus, code, and work with filters, queries, and more.
 ms.date: 08/08/2023
 ms.topic: how-to
@@ -109,7 +109,7 @@ The search results include tabs for **All**, **Code**, **Visual Studio**. You ca
 - **Ctrl**+**Q**, **Ctrl**+**M** for Visual Studio menus, options, components, and templates
 - **Ctrl**+**Q**, **Ctrl**+**E** to go to the **All** tab, for both
 
-## See also
+## Related content
 
 - [Visual Studio commands](reference/visual-studio-commands.md)
 - [Keyboard shortcuts in Visual Studio](default-keyboard-shortcuts-in-visual-studio.md)

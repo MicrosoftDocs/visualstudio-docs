@@ -179,7 +179,7 @@ The following controls and components are not available in the **Toolbox**:
 
 If you create a document-level Office project that uses an existing Word document or Excel workbook that contains ActiveX controls, the functionality of the ActiveX controls is not lost; however, there is no support for adding new ActiveX controls to your documents from within Visual Studio. For example, if your Word document has a button from the **Control** toolbox that runs a Visual Basic for Applications (VBA) macro, it will continue to run the macro after the document has been used in an Office project. However, it is recommended that you remove ActiveX controls and VBA macros and replace them with Windows Forms controls and managed code.
 
-## See also
+## Related content
 
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)
 - [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md)

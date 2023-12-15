@@ -1,5 +1,5 @@
 ---
-title: Load a subset of projects
+title: Get faster load & run times with solution filters
 description: Explore the solution filtering feature in Visual Studio and discover how it allows you to quickly load a subset of projects in a solution.
 ms.date: 04/22/2019
 ms.topic: conceptual
@@ -102,7 +102,7 @@ After you create a solution filter file, it's added to your **Recent Projects an
 
 ![Open recent in Visual Studio](media/filtered-solutions/open-recent.png)
 
-## See also
+## Related content
 
 - [Customize file nesting in Solution Explorer](file-nesting-solution-explorer.md)
 - [Optimize Visual Studio performance](optimize-visual-studio-performance.md)

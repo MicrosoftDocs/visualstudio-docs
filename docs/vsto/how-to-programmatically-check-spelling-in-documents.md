@@ -32,6 +32,6 @@ ms.technology: office-development
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet113":::
      ---
 
-## See also
+## Related content
 - [How to: Programmatically define and select ranges in documents](../vsto/how-to-programmatically-define-and-select-ranges-in-documents.md)
 - [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)

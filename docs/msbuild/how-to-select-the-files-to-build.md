@@ -2,7 +2,7 @@
 title: 'Select the Files to Build'
 description: Select the files to build in the MSBuild project file by listing each file separately or by using wildcards with the asterisk (*) character.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, wildcards
 - MSBuild, including files
@@ -168,7 +168,7 @@ The following code example uses a wildcard to include all the *.cs* files.
 </Project>
 ```
 
-## See also
+## Related content
 
 - [How to: Exclude files from the build](../msbuild/how-to-exclude-files-from-the-build.md)
 - [Items](../msbuild/msbuild-items.md)

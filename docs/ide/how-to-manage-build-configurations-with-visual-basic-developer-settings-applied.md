@@ -34,7 +34,7 @@ By default, the Visual Basic developer settings hide the option to open the **Co
 
      **Configuration Manager** is now available on the **Build** menu, and the **Configuration** and **Platform** lists are visible in the **Project Designer**.
 
-## See also
+## Related content
 
 - [Understand build configurations](../ide/understanding-build-configurations.md)
 - [Compile and build](../ide/compiling-and-building-in-visual-studio.md)

@@ -2,7 +2,7 @@
 title: Build the same source files with different options
 description: Create different MSBuild build configurations so you can build the same source files with different options and see examples.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - source files, building with different options
 - MSBuild, properties
@@ -180,7 +180,7 @@ ToolsVersion="4.0" TreatAsLocalProperty="Color">
 -->
 ```
 
-## See also
+## Related content
 
 - [MSBuild](../msbuild/msbuild.md)
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)

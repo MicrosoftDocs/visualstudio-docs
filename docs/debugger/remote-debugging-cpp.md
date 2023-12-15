@@ -1,6 +1,6 @@
 ---
 title: "Remote Debug a C++ Project"
-description: Learn how to debug a Visual Studio C++ application from a remote computer by following these step-by-step instructions.
+description: Debug a Visual Studio C++ application from a remote computer, install and run remote tools, configure your project to connect, and deploy and run your app.
 ms.date: "03/20/2023"
 ms.topic: "conceptual"
 dev_langs:

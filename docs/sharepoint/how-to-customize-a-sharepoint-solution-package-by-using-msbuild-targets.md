@@ -76,5 +76,5 @@ ms.technology: sharepoint-development
 
    When you publish the project, the BeforeLayout message appears before packaging starts, and the AfterLayout message appears after packaging finishes.
 
-## See also
+## Related content
 - [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

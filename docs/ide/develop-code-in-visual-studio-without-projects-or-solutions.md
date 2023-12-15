@@ -1,6 +1,6 @@
 ---
 title: Develop code without projects or solutions
-description: Learn how to develop code directly in Visual Studio without a need for projects or solutions.
+description: Develop code directly in Visual Studio without placing the code in a solution or project, and start working quickly with IntelliSense, search, debugging, and more. 
 ms.date: 11/7/2023
 ms.topic: how-to
 helpviewer_keywords:
@@ -146,7 +146,7 @@ The **Start** button's text changes to reflect that the project is the startup i
 
 ![Project on Start button](media/customize-start-button-project.png)
 
-## See also
+## Related content
 
 - [Customize build and debug tasks](../ide/customize-build-and-debug-tasks-in-visual-studio.md)
 - [Open Folder projects for C++](/cpp/build/open-folder-projects-cpp)

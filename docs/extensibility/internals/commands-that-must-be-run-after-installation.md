@@ -76,5 +76,5 @@ If you deploy your extension through a *.msi* file, you must run **devenv /setup
 |CA_RunDevenv2005|DEVENV_EXE_2005|6605|
 |CA_RunDevenv2008|DEVENV_EXE_2008|6608|
 
-## See also
+## Related content
 - [Install VSPackages with Windows Installer](../../extensibility/internals/installing-vspackages-with-windows-installer.md)

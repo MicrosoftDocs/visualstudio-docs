@@ -5,7 +5,7 @@ summary: Create C# apps with Visual Studio.
 
 metadata:
   title: C# development with Visual Studio
-  description: Create C# apps by using Visual Studio.
+  description: Explore how to create different C# applications by using Visual Studio, including console, web, Windows Forms, and Windows Desktop apps, and find coding resources.
   ms.custom: vs-acquisition
   ms.topic: landing-page
   ms.date: 3/15/2023
@@ -25,7 +25,7 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Install Visual Studio
+          - text: Download and install Visual Studio
             url: ../../install/install-visual-studio.md
       - linkListType: get-started
         links:

@@ -1,7 +1,7 @@
 ---
 title: Use breakpoints in the debugger
 description: Learn about breakpoints, one of the most important debugging techniques. The article covers breakpoint actions, tracepoints, conditions, and much more.
-ms.date: 12/13/2022
+ms.date: 12/06/2023
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.breakpointswin
@@ -251,20 +251,22 @@ You can break execution when a function is called. This is useful, for example, 
 
 Data breakpoints break execution when a specific object's property changes.
 
-**To set a data breakpoint**
+To set a data breakpoint:
 
-1. In a .NET Core project, start debugging, and wait until a breakpoint is reached.
+1. In a .NET Core or .NET 5+ project, start debugging, and wait until a breakpoint is reached.
 
 2. In the **Autos**, **Watch**, or **Locals** window, right-click a property and select **Break when value changes** in the context menu.
 
     ![Managed Data Breakpoint](../debugger/media/managed-data-breakpoint.png "Managed Data Breakpoint")
 
-Data breakpoints in .NET Core won't work for:
+Data breakpoints for .NET Core and .NET 5+ won't work for:
 
 - Properties that are not expandable in the tooltip, Locals, Autos, or Watch window
 - Static variables
 - Classes with the DebuggerTypeProxy Attribute
 - Fields inside of structs
+
+For the maximum number that you can set, see [Data breakpoint hardware limits](#data-breakpoint-hardware-limits).
 
 ::: moniker-end
 
@@ -272,7 +274,7 @@ Data breakpoints in .NET Core won't work for:
 
  Data breakpoints break execution when a value stored at a specified memory address changes. If the value is read but not changed, execution doesn't break.
 
-**To set a data breakpoint:**
+To set a data breakpoint:
 
 1. In a C++ project, start debugging, and wait until a breakpoint is reached. On the **Debug** menu, choose **New Breakpoint** > **Data Breakpoint**.
 
@@ -292,6 +294,16 @@ Data breakpoints don't work under the following conditions:
 > - Data breakpoints depend on specific memory addresses. The address of a variable changes from one debugging session to the next, so data breakpoints are automatically disabled at the end of each debugging session.
 >
 > - If you set a data breakpoint on a local variable, the breakpoint remains enabled when the function ends, but the memory address is no longer applicable, so the behavior of the breakpoint is unpredictable. If you set a data breakpoint on a local variable, you should delete or disable the breakpoint before the function ends.
+
+## Data breakpoint hardware limits
+
+The Windows kernel and the underlying hardware have the following limits when setting data breakpoints. The limit refers to the maximum number of data breakpoints that you can set.
+
+|Processor architecture|Data breakpoint limit|
+|-|-|
+|x64 and x86|4|
+|ARM64|2|
+|ARM|1|
 
 ::: moniker range=">= vs-2022"
 ## <a name="BKMK_set_a_dependent_breakpoint"></a>Set a dependent breakpoint

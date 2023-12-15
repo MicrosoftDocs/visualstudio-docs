@@ -122,6 +122,10 @@ From Visual Studio, you can create app packages for deployment to Microsoft Stor
 
     ![Screenshot that shows selecting Windows Application Packaging Project.](../deployment/media/feature-tour-desktop-bridge.png)
 
+## Deploy as a Windows app 
+
+To package a project as a Windows app that can receive servicing updates, you can create an app installer. See [Create an App Installer file with Visual Studio](/windows/msix/app-installer/create-appinstallerfile-vs).
+
 ## Deploy to a device (UWP)
 
 If you're deploying a UWP app for testing on a device, see [Run UWP apps on a remote machine in Visual Studio](../debugger/run-windows-store-apps-on-a-remote-machine.md).

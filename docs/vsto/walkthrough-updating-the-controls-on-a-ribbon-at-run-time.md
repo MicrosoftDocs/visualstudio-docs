@@ -1,7 +1,6 @@
 ---
-title: "Walkthrough: Update the controls on a ribbon at run time"
+title: Update the controls on a ribbon at run time
 description: Use the Ribbon object model to update the controls on a ribbon after the ribbon is loaded into the Microsoft Office application.
-titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

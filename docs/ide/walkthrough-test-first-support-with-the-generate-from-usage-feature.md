@@ -167,7 +167,7 @@ Assume that the specification states that a new `Automobile` can be put into a `
 
      ![Test results that passed](../ide/media/testspassed.png)
 
-## See also
+## Related content
 
 - [Generate from usage](../ide/visual-csharp-intellisense.md#generate-from-usage)
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)

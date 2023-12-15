@@ -358,7 +358,7 @@ This provides enough information for a preliminary investigation of the bug. Eit
 
    Live Unit Testing shows the updated results appear, which also appear in the code editor window.
 
-## See also
+## Related content
 
 - [Live Unit Testing in Visual Studio](live-unit-testing.md)
 - [Live Unit Testing Frequently Asked Questions](live-unit-testing-faq.yml)

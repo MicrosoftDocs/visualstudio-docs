@@ -1,5 +1,5 @@
 ---
-title: Compiling building
+title: Use different build methods to build apps
 description: Use the Visual Studio IDE build method, the MSBuild command-line tools build method, or Azure Pipelines build method to build an application.
 ms.date: 10/07/2022
 ms.technology: vs-ide-compile
@@ -47,7 +47,7 @@ From there, you can explore a variety of other tasks:
 - [Set build options](reference/options-dialog-box-projects-and-solutions-build-and-run.md)
 - [Build multiple projects in parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md).
 
-## See also
+## Related content
 
 - [Building (compiling) website projects](/previous-versions/hwxa5aha(v=vs.140))
 - [Compile and build (Visual Studio for Mac)](/visualstudio/mac/compiling-and-building)

@@ -82,6 +82,6 @@ ms.technology: sharepoint-development
 
      Notice that the event receiver does not trigger on the new announcement because the receiver is configured to respond only to events in the custom announcement list instance, **TestAnnouncements**.
 
-## See also
+## Related content
 - [How to: Create an event receiver](../sharepoint/how-to-create-an-event-receiver.md)
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)

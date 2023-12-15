@@ -1,5 +1,5 @@
 ---
-title: XML Schema Explorer
+title: Work with the XML Schema Explorer
 description: Explore features of the XML Schema Explorer integrated with Visual Studio and the XML editor and browse schemas, do searches, sort items, and jump to code locations.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -73,6 +73,6 @@ Dropping files on the view will add all the global nodes in the file to the [XSD
 
  You cannot drag and drop local nodes or imports.
 
-## See also
+## Related content
 
 - [How to: Add nodes to the workspace from the XML Schema Explorer](../xml-tools/how-to-add-nodes-to-the-workspace-from-the-xml-schema-explorer.md)
