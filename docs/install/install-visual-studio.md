@@ -1,5 +1,5 @@
 ---
-title: Install Visual Studio
+title: Install Visual Studio and choose your preferred features
 titleSuffix: ''
 description: Install Visual Studio quickly and with less system impact by choosing your preferred features to reduce the installation footprint.
 ms.date: 05/16/2023

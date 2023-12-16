@@ -1,5 +1,5 @@
 ---
-title: Learn Django tutorial in Visual Studio step 2, views and page template
+title: Learn Django tutorial in Visual Studio step 2, view & page template
 titleSuffix: ""
 description: A walkthrough of Django basics in the context of Visual Studio projects, specifically steps of creating an app and using views and templates.
 ms.date: 09/08/2023

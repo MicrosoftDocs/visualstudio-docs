@@ -1,5 +1,5 @@
 ---
-title: Code editor features
+title: Explore Code editor features
 description: Learn about the features that the code editor in Visual Studio provides to make it easier for you to write and manage your code and text.
 ms.date: 08/08/2023
 ms.topic: conceptual
