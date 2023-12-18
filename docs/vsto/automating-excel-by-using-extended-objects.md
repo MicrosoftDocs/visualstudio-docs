@@ -56,7 +56,7 @@ ms.technology: office-development
 
 - [XmlMappedRange control](../vsto/xmlmappedrange-control.md)
 
-## See also
+## Related content
 - [How to: Fill ListObject controls with data](../vsto/how-to-fill-listobject-controls-with-data.md)
 - [How to: Add Chart controls to worksheets](../vsto/how-to-add-chart-controls-to-worksheets.md)
 - [How to: Add ListObject controls to worksheets](../vsto/how-to-add-listobject-controls-to-worksheets.md)

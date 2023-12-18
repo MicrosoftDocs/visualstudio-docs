@@ -107,7 +107,7 @@ ms.technology: office-development
 
  Contains links to information about COM interfaces that you can use to perform actions such as load and unload managed VSTO Add-ins in Office applications.
 
-## Related sections
+## Related content
 - [Office development with Visual Studio developer portal](https://developer.microsoft.com/office/docs)
  Provides additional resources such as technical articles, videos, and blogs.
 

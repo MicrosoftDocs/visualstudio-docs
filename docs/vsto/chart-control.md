@@ -68,7 +68,7 @@ ms.technology: office-development
 
 - <xref:Microsoft.Office.Tools.Excel.Chart.SeriesChange>
 
-## See also
+## Related content
 - [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)
 - [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)

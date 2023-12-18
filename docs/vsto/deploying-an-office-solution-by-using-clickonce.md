@@ -456,7 +456,7 @@ ms.technology: office-development
 > [!NOTE]
 > Local data is saved for only one previous version of a solution. If you roll back two versions, local data isn't retained. For more information about local data, see [Access local and remote data in ClickOnce applications](../deployment/accessing-local-and-remote-data-in-clickonce-applications.md).
 
-## See also
+## Related content
 
 - [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
 - [Publish Office solutions](../vsto/deploying-an-office-solution-by-using-clickonce.md)

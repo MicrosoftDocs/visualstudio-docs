@@ -83,7 +83,7 @@ ms.technology: office-development
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddin_menus.vb/ribbon1.vb" id="Snippet2":::
      ---
 
-## See also
+## Related content
 - [Office UI customization](../vsto/office-ui-customization.md)
 - [Walkthrough: Create Shortcut menus for bookmarks](/previous-versions/visualstudio/visual-studio-2017/vsto/walkthrough-creating-shortcut-menus-for-bookmarks)
 - [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)

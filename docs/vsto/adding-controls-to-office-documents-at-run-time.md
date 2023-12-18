@@ -148,7 +148,7 @@ When a document is saved and then closed, all dynamically created host controls 
   :::code language="vb" source="../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb" id="Snippet3":::
   ---
 
-## See also
+## Related content
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)
 - [Persist dynamic controls in Office documents](../vsto/persisting-dynamic-controls-in-office-documents.md)
 - [How to: Add ListObject controls to worksheets](../vsto/how-to-add-listobject-controls-to-worksheets.md)

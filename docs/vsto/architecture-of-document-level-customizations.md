@@ -137,7 +137,7 @@ ms.technology: office-development
 
 9. The  Visual Studio Tools for Office runtime  calls the **Startup** event handler in your customization assembly. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md).
 
-## See also
+## Related content
 - [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)
 - [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)
 - [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)

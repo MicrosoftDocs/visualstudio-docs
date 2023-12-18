@@ -96,7 +96,7 @@ ms.technology: office-development
 
 12. Build the project.
 
-## See also
+## Related content
 - [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
 - [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
 - [Combine VBA and document-level customizations](../vsto/combining-vba-and-document-level-customizations.md)

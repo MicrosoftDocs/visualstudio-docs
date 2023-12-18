@@ -86,11 +86,7 @@ Git is good at automatically merging file changes in most circumstances, as long
 > [!TIP]
 > To learn more about the accessibility options available to you, see the [Git keyboard shortcuts](../ide/reference/accessibility-tips-and-tricks.md#git-keyboard-shortcuts) section of the [Accessibility tips and tricks for Visual Studio](../ide/reference/accessibility-tips-and-tricks.md) page.
 
-## Next steps
+## Related content
 
-To continue your journey and learn more about resolving conflicts, see the [Git webpage for the merge command](https://git-scm.com/docs/git-merge).
-
-## See also
-
+- [Git webpage for the merge command](https://git-scm.com/docs/git-merge)
 - [The Git experience in Visual Studio](git-with-visual-studio.md)
-- [Visual Studio and GitHub: Better together](https://visualstudio.microsoft.com/vs/github/)

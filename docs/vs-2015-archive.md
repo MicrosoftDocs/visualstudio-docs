@@ -25,7 +25,7 @@ In the Visual Studio 2015 IDE, F1 Help functionality should continue to work. If
 
 If you are using Visual Studio 2015 docs frequently, you might want to explore the option of using the Help viewer and downloading the offline Help books for that version. See [Microsoft Help viewer](./help-viewer/overview.md).
 
-## See also
+## Related content
 
 - [Documentation for older versions for Visual Studio](/previous-versions/visualstudio/)
 - [Visual Studio 2015 Releases](/visualstudio/releasenotes/vs2015-version-history)

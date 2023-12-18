@@ -48,7 +48,7 @@ ms.technology: office-development
   solutionId="73e" />
 ```
 
-## See also
+## Related content
 
 - [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md)
 - [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md)

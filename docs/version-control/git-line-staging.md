@@ -77,11 +77,7 @@ After you've prepared your commit by reviewing and staging the changes you want 
 
 :::image type="content" source="media/vs-2022/git-commit-staged-changes-inline.png" alt-text="Screenshot of the Git Changes dialog in Visual Studio 2022." lightbox="media/vs-2022/git-commit-staged-changes-expanded.png":::
 
-## Next steps
+## Related content
 
-To continue your journey, visit the [Push to remote](git-push-remote.md) page.
-
-## See also
-
+- [Push to remote](git-push-remote.md)
 - [Git experience in Visual Studio](git-with-visual-studio.md)
-- [Visual Studio & GitHub: Better together](https://visualstudio.microsoft.com/vs/github/)

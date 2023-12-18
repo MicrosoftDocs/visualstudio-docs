@@ -149,7 +149,7 @@ utilities.ImportData()
 
  In this example, if you try to cast the value of the COMAddIn.Object property to the `AddInUtilities` class rather than the `IAddInUtilities` interface, the code will throw an <xref:System.InvalidCastException>.
 
-## See also
+## Related content
 - [Program VSTO Add-Ins](../vsto/programming-vsto-add-ins.md)
 - [Walkthrough: Call code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md)
 - [Develop Office solutions](../vsto/developing-office-solutions.md)

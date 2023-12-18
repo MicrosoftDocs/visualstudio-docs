@@ -65,7 +65,7 @@ ms.technology: office-development
 
    The Ribbon item appears in **Solution Explorer**. For information about the next steps, see [Ribbon overview](../vsto/ribbon-overview.md).
 
-## See also
+## Related content
 - [Access the Ribbon at run time](../vsto/accessing-the-ribbon-at-run-time.md)
 - [Ribbon Designer](../vsto/ribbon-designer.md)
 - [Ribbon XML](../vsto/ribbon-xml.md)

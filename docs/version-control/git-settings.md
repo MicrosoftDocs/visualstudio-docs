@@ -234,7 +234,7 @@ The Git Repository window has a list of branches displayed in a tree structure. 
 
 :::image type="content" source="media/checkout-branch-setting.png" alt-text="Screenshot showing the checkbox to check out branches with double-click or Enter key in the Options dialog box.":::
 
-## See also
+## Related content
 
 > [!IMPORTANT]
 > If you have a suggestion for us, please let us know! We appreciate the opportunity to engage with you on design decisions via the [**Developer Community**](https://aka.ms/vsgitsuggestions) portal.
