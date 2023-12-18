@@ -164,7 +164,7 @@ ms.technology: office-development
 
 - Using radio buttons to select chart styles. 
 
-## See also
+## Related content
 - [Walkthroughs using Word](../vsto/walkthroughs-using-word.md)
 - [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)
 - [NamedRange control](../vsto/namedrange-control.md)

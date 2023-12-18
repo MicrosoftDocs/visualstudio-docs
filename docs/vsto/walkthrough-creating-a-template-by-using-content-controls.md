@@ -255,7 +255,7 @@ ms.technology: office-development
 
 - Bind content controls to pieces of XML, also named custom XML parts, that are embedded in a document. For more information, see [Walkthrough: Bind content controls to custom XML parts](../vsto/walkthrough-binding-content-controls-to-custom-xml-parts.md).
 
-## See also
+## Related content
 - [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
 - [Content controls](../vsto/content-controls.md)
 - [How to: Add content controls to Word documents](../vsto/how-to-add-content-controls-to-word-documents.md)

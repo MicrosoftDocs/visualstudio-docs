@@ -119,5 +119,5 @@ ms.technology: office-development
 
 6. In the details pane, select **Require Application Add-ins to be Signed by Trusted Publisher** or **Disable all Application Add-ins**.
 
-## See also
+## Related content
 - [Secure Office solutions](../vsto/securing-office-solutions.md)

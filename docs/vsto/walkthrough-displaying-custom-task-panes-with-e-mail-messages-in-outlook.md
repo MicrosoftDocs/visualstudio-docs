@@ -315,7 +315,7 @@ ms.technology: office-development
 
 - Create a Ribbon button in Excel that can be used to hide or display a custom task pane. For more information, see [Walkthrough: Synchronize a custom task pane with a Ribbon button](../vsto/walkthrough-synchronizing-a-custom-task-pane-with-a-ribbon-button.md).
 
-## See also
+## Related content
 - [Custom task panes](../vsto/custom-task-panes.md)
 - [How to: Add a custom task pane to an application](../vsto/how-to-add-a-custom-task-pane-to-an-application.md)
 - [Walkthrough: Automate an application from a custom task pane](../vsto/walkthrough-automating-an-application-from-a-custom-task-pane.md)

@@ -96,7 +96,7 @@ ms.technology: office-development
 
  ![VSTO security - using the Setup program to install](../vsto/media/setup-vstoinstaller.png "VSTO security - using the Setup program to install")
 
-## See also
+## Related content
 
 - [Grant trust to Office solutions](../vsto/granting-trust-to-office-solutions.md)
 - [Grant trust to documents](../vsto/granting-trust-to-documents.md)

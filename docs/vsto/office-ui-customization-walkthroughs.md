@@ -71,7 +71,7 @@ ms.technology: office-development
 - [Walkthrough: Update a chart in a worksheet using radio buttons](../vsto/walkthrough-updating-a-chart-in-a-worksheet-using-radio-buttons.md)
  Shows the basics of changing chart styles using option buttons on an Excel worksheet.
 
-## See also
+## Related content
 - [Walkthroughs using Word](../vsto/walkthroughs-using-word.md)
 - [Walkthroughs using Excel](../vsto/walkthroughs-using-excel.md)
 - [Data in Office solutions walkthroughs](../vsto/data-in-office-solutions-walkthroughs.md)

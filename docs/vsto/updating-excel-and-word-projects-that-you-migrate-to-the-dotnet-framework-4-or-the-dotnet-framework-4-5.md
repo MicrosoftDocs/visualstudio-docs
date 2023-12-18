@@ -250,7 +250,7 @@ End Sub
 
  In projects that target the .NET Framework 4 or later, these collection types are now interfaces that do not derive from <xref:System.Collections.CollectionBase>. Some members are no longer available on these collection types, such as <xref:System.Collections.CollectionBase.Capacity%2A>, <xref:System.Collections.CollectionBase.List%2A>, and <xref:System.Collections.CollectionBase.InnerList%2A>.
 
-## See also
+## Related content
 - [Migrate Office solutions to the .NET Framework 4 or later](../vsto/migrating-office-solutions-to-the-dotnet-framework-4-or-later.md)
 - [Content controls](../vsto/content-controls.md)
 - [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)

@@ -144,7 +144,7 @@ ms.technology: office-development
 
 - Modify the user interface of a Microsoft Office application from a document-level customization or a VSTO Add-in. For more information, see [Office UI customization](../vsto/office-ui-customization.md).
 
-## See also
+## Related content
 - [Develop Office solutions](../vsto/developing-office-solutions.md)
 - [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)
 - [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)

@@ -34,7 +34,7 @@ ms.technology: office-development
 ### Formula for embedding controls
  When you select a control in Excel, you will see **=EMBED("WinForms.Control.Host","")** in the **Formula Bar**. This text is necessary and should not be deleted.
 
-## See also
+## Related content
 - [How to: Resize controls within worksheet cells](../vsto/how-to-resize-controls-within-worksheet-cells.md)
 - [How to: Hide controls on worksheets when printing](../vsto/how-to-hide-controls-on-worksheets-when-printing.md)
 - [Walkthrough: Display text in a text box in a worksheet using a button](../vsto/walkthrough-displaying-text-in-a-text-box-in-a-worksheet-using-a-button.md)
