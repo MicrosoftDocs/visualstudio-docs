@@ -3,7 +3,7 @@ title: "Tour the Visual Studio IDE"
 description: Learn about some of the windows, menus, and other UI features of the Visual Studio integrated development environment (IDE).
 ms.custom: vs-acquisition
 titleSuffix: ''
-ms.date: 11/17/2023
+ms.date: 12/18/2023
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
@@ -153,6 +153,7 @@ To explore Visual Studio's features, let's create a new project.
 ### Basic layout
 
 * Take a look at the contents of your project using **Solution Explorer**, which shows you a graphical representation of the hierarchy of files and folders in your project, solution, or code folder. 
+
 * You can browse the hierarchy and select a file to open it in the **Editor**.
   The file *Program.cs* opens in the **Editor** window. The **Editor** shows the contents of files and is where you do most of your coding work in Visual Studio.
     
@@ -162,8 +163,17 @@ To explore Visual Studio's features, let's create a new project.
     
     :::image type="content" source="media/vs-2022/menu-bar.png" alt-text="Screenshot of the Menu bar in Visual Studio 2022.":::
 
+* Get AI assistance with [GitHub Copilot](/visualstudio/ide/quickstart-ide-github-copilot.md) directly in the editor with context-aware code completions, suggestions, code explanations, and more. Learn more about [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md). 
+
+    :::image type="content" source="media/vs-2022/quickstart-ide-orientation/github-copilot-extension-example.gif" alt-text="Screenshot of the GitHub Copilot extension in Visual Studio 2022.":::
+
+    > [!div class="button"]
+    > [Get GitHub Copilot](visual-studio-github-copilot-extension.md#prerequisites--supported-programming-languages)
+
 * Get contextual help by pressing F1 while the mouse cursor is on a keyword or after selecting a keyword. For example, select *console* and press F1 to jump to documentation on the *Console Class*. 
+
 * Visual Studio has excellent keyboard accessibility. It supports an array of built-in keyboard shortcuts to perform actions quickly. Use **Help > Keyboard Shortcut reference** to see the list of keyboard shortcuts.
+
 * The **Error List** shows errors, warnings, and messages about the current state of your code. If there are errors (like a missing brace or semicolon) in your file or anywhere in your project, they're listed here. To open the **Error List** window, choose the **View** menu, and then select **Error List**.
     
     :::image type="content" source="media/vs-2022/quickstart-ide-error-list.png" alt-text="Screenshot of the Error List in Visual Studio 2022.":::
