@@ -1,6 +1,6 @@
 ---
 title: Deploy a layout onto a client machine
-description: Deploy a network layout of Visual Studio onto a client machine within an enterprise programatically as part of an installation script.
+description: Deploy a network layout of Visual Studio onto a client machine within an enterprise programmatically as part of an installation script.
 ms.date: 6/6/2023
 ms.topic: conceptual
 helpviewer_keywords:
@@ -16,7 +16,6 @@ ms.technology: vs-installation
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
  
-
 In order to deploy a layout to a client machine, you'll need to consider the following topics first:
 
 - [**Prepare the layout**](create-a-network-installation-of-visual-studio.md): Make sure that your layout is ready to install onto the client.
@@ -27,7 +26,7 @@ In order to deploy a layout to a client machine, you'll need to consider the fol
 
 ## Install Visual Studio onto a client machine from a layout
 
-Administrators can deploy a Visual Studio layout onto client workstations programatically as part of an installation script.  
+Administrators can deploy a Visual Studio layout onto client workstations programmatically as part of an installation script.  
 
 ### Install from a network layout
 
