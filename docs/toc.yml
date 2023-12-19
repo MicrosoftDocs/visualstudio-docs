@@ -877,6 +877,8 @@
           href: ide/reference/trust-settings.md
         - name: Web Browser
           href: ide/reference/web-browser-environment-options-dialog-box.md
+        - name: Notifications window
+          href: ide/reference/user-notifications-window.md
       - name: Projects and Solutions
         items:
         - name: General
