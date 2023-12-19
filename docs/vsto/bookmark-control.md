@@ -105,7 +105,7 @@ The following events are available for the <xref:Microsoft.Office.Tools.Word.Boo
 
 - <xref:Microsoft.Office.Tools.Word.Bookmark.SelectionChange>
 
-## See also
+## Related content
 
 - [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
 - [How to: Add Bookmark controls to Word documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md)

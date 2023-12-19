@@ -128,7 +128,7 @@ ms.technology: office-development
 
  All of the objects and members in the VBA object model reference correspond to types and members in the Word PIA. For example, the Document object in the VBA object model reference corresponds to the <xref:Microsoft.Office.Interop.Word.Document> object in the Word PIA. Although the VBA object model reference provides code examples for most properties, methods, and events, you must translate the VBA code in this reference to Visual Basic or Visual C# if you want to use them in a Word project that you create by using Visual Studio.
 
-## See also
+## Related content
 - [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md)
 - [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
 - [Work with documents](../vsto/working-with-documents.md)

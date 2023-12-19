@@ -34,11 +34,8 @@ Here's how to push to a remote in Visual Studio.
 
 1. To push to your remote, select **Push** button, or select **Push** from the **Git** menu.
 
-## Next steps
+## Related content
 
-To continue your journey, visit the [Create a pull request in Visual Studio](git-create-pull-request.md) or [Fetch, pull, and sync in Visual Studio](git-fetch-pull-sync.md) page.
-
-## See also
-
+- [Create a pull request in Visual Studio](git-create-pull-request.md) or
+- [Fetch, pull, and sync in Visual Studio](git-fetch-pull-sync.md)
 - [Git experience in Visual Studio](git-with-visual-studio.md)
-- [Visual Studio & GitHub: Better together](https://visualstudio.microsoft.com/vs/github/)

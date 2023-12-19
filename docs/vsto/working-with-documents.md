@@ -38,6 +38,6 @@ ms.technology: office-development
 |Add a header or footer to a document.|[How to: Programmatically add headers and footers to documents](../vsto/how-to-programmatically-add-headers-and-footers-to-documents.md)|
 |Remove all comments from a document.|[How to: Programmatically remove all comments from documents](../vsto/how-to-programmatically-remove-all-comments-from-documents.md)|
 
-## See also
+## Related content
 - [Word object model overview](../vsto/word-object-model-overview.md)
 - [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)

@@ -141,7 +141,7 @@ ms.technology: office-development
 
  The `HasVstoObject` method is useful when you want to run code only when a specified Office object has an extended object. For example, if you have a Word VSTO Add-in that handles the <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentBeforeSave> event to remove managed controls from a document before it's saved, use the `HasVstoObject` method to determine whether the document has been extended. If the document has not been extended, it cannot have managed controls, and the event handler can return without trying to clean up controls on the document.
 
-## See also
+## Related content
 - [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
 - [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md)
 - [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)

@@ -269,5 +269,5 @@ ms.technology: office-development
 
 - Change formatting on a worksheet by using check boxes. 
 
-## See also
+## Related content
 - [Walkthroughs using Excel](../vsto/walkthroughs-using-excel.md)

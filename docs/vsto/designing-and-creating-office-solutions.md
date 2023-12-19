@@ -87,7 +87,7 @@ Visual Studio provides project templates that you can use to create several diff
 ## Referenced assemblies
  The assembly can reference other assemblies, which are listed in the project's references. However, one document-level project assembly cannot reference another document-level project assembly.
 
-## See also
+## Related content
 - [Office project templates overview](../vsto/office-project-templates-overview.md)
 - [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
 - [Office projects in the Visual Studio environment](../vsto/office-projects-in-the-visual-studio-environment.md)

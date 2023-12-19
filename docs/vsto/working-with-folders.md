@@ -32,7 +32,7 @@ ms.technology: office-development
 
  For more information about Outlook tasks and the Outlook object model, see [Outlook object model overview](../vsto/outlook-object-model-overview.md).
 
-## See also
+## Related content
 - [Work with contact items](/previous-versions/visualstudio/visual-studio-2017/vsto/working-with-contact-items)
 - [Work with mail items](../vsto/working-with-mail-items.md)
 - [Work with calendar items](../vsto/working-with-calendar-items.md)

@@ -115,7 +115,7 @@ The following table shows key differences between Visual Basic and Visual C# in 
 |-------------|-----------------|-----------------------------------------|
 |Array indexes|The lower array bound of collections in Microsoft Office applications begins with 1. Visual Basic and Visual C# use 0-based arrays. For more information, see [Arrays &#40;C&#35; programming guide&#41;](/dotnet/csharp/programming-guide/arrays/index) and [Arrays in Visual Basic](/dotnet/visual-basic/programming-guide/language-features/arrays/index).|To access the first item of a collection in the object model of a Microsoft Office application, use the index 1 instead of 0.|
 
-## See also
+## Related content
 
 - [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
 - [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md)

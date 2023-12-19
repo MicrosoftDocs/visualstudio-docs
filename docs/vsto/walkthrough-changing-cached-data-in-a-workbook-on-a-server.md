@@ -323,6 +323,6 @@ ms.technology: office-development
 
 4. Close the workbook.
 
-## See also
+## Related content
 
 - [Walkthrough: Insert data into a workbook on a server](../vsto/walkthrough-inserting-data-into-a-workbook-on-a-server.md)

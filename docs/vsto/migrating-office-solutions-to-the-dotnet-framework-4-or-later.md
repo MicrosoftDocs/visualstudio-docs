@@ -33,7 +33,7 @@ ms.technology: office-development
 
   For more information about why some features in Office projects have a different programming model when you target the .NET Framework 4 or later, see [Changes to the design of Office projects that target the .NET Framework 4 or the .NET Framework 4.5](../vsto/changes-to-the-design-of-office-projects-that-target-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md) and [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).
 
-## See also
+## Related content
 - [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
 - [How to: Target a version of the .NET Framework](../ide/visual-studio-multi-targeting-overview.md)
 - [Troubleshoot errors in Office solutions](../vsto/troubleshooting-errors-in-office-solutions.md)

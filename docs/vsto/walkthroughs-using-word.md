@@ -57,7 +57,7 @@ ms.technology: office-development
 - [Walkthrough: Create a custom tab by using Ribbon XML](../vsto/walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md)
  Demonstrates how to create a custom ribbon tab by using an XML descriptor file in a VSTO Add-in.
 
-## See also
+## Related content
 - [Walkthroughs using Excel](../vsto/walkthroughs-using-excel.md)
 - [Data in Office solutions walkthroughs](../vsto/data-in-office-solutions-walkthroughs.md)
 - [Office UI customization walkthroughs](../vsto/office-ui-customization-walkthroughs.md)

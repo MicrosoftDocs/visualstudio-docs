@@ -39,7 +39,7 @@ ms.technology: office-development
 
 - You can store the document or workbook of a document-level solution in the same directory as the assembly, or in a different directory. For example, the document could be located on a SharePoint server and the assembly could be located on a network file share. For more information, see [How to: Publish a document-level Office solution to a SharePoint server by using ClickOnce](/previous-versions/bb608595(v=vs.110)).
 
-## See also
+## Related content
 - [Grant trust to Office solutions](../vsto/granting-trust-to-office-solutions.md)
 - [Troubleshoot Office solution security](../vsto/troubleshooting-office-solution-security.md)
 - [Secure Office solutions](../vsto/securing-office-solutions.md)

@@ -323,7 +323,7 @@ You can learn more about how to customize the Office UI from these topics:
 
 - Add a custom task pane to Outlook. For more information, see [Custom task panes](../vsto/custom-task-panes.md).
 
-## See also
+## Related content
 
 - [Access the ribbon at run time](../vsto/accessing-the-ribbon-at-run-time.md)
 - [Ribbon overview](../vsto/ribbon-overview.md)

@@ -142,7 +142,7 @@ On a Windows Form.
 ### Add components at design time
  Certain controls or components are not visible on the document and are instead displayed in a component tray. Visual Studio provides a component tray for each document window. The component tray appears on the screen only if components exist on the document.
 
-## See also
+## Related content
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)
 - [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md)
 - [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)

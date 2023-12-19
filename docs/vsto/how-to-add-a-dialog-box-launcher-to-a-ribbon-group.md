@@ -31,7 +31,7 @@ ms.technology: office-development
 
      Add code to the <xref:Microsoft.Office.Tools.Ribbon.RibbonGroup.DialogLauncherClick> event of the group to open a custom or built-in dialog box.
 
-## See also
+## Related content
 - [Ribbon overview](../vsto/ribbon-overview.md)
 - [Access the Ribbon at run time](../vsto/accessing-the-ribbon-at-run-time.md)
 - [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)

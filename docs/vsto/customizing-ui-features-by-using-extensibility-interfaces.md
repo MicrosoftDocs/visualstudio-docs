@@ -80,7 +80,7 @@ ms.technology: office-development
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_SimpleExtensibilityInterface/ThisAddIn.vb" id="Snippet2":::
  ---
 
-## See also
+## Related content
 - [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)
 - [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
 - [Develop Office solutions](../vsto/developing-office-solutions.md)

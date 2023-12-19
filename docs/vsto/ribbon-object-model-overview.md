@@ -188,7 +188,7 @@ ms.technology: office-development
 |*sender*|An <xref:System.Object> that represents the control that raised the event.|
 |*e*|A <xref:Microsoft.Office.Tools.Ribbon.RibbonControlEventArgs> that contains a <xref:Microsoft.Office.Core.IRibbonControl>. Use this control to access any property that is not available in the Ribbon object model provided by the  Visual Studio Tools for Office runtime .|
 
-## See also
+## Related content
 - [Access the ribbon at run time](../vsto/accessing-the-ribbon-at-run-time.md)
 - [Ribbon overview](../vsto/ribbon-overview.md)
 - [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md)

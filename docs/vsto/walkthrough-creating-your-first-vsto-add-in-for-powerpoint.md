@@ -129,7 +129,7 @@ ms.technology: office-development
 
 - Deploying VSTO Add-ins for PowerPoint. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
-## See also
+## Related content
 - [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
 - [PowerPoint solutions](../vsto/powerpoint-solutions.md)
 - [Office UI customization](../vsto/office-ui-customization.md)

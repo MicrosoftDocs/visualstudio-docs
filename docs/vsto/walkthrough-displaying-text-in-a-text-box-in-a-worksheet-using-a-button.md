@@ -110,7 +110,7 @@ ms.technology: office-development
 
 - Using check boxes to change formatting. 
 
-## See also
+## Related content
 - [How to: Add Windows Forms controls to Office documents](../vsto/how-to-add-windows-forms-controls-to-office-documents.md)
 - [Walkthroughs using Excel](../vsto/walkthroughs-using-excel.md)
 - [Limitations of Windows Forms controls on Office documents](../vsto/limitations-of-windows-forms-controls-on-office-documents.md)

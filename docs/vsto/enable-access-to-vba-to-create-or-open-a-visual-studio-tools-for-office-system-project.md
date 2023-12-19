@@ -119,5 +119,5 @@ You must explicitly enable access to the Visual Basic for Applications (VBA) pro
 
 5. Select **Detect and Repair errors in my Office installation**, and then click **Install**.
 
-## See also
+## Related content
 - [Secure Office solutions](../vsto/securing-office-solutions.md)
