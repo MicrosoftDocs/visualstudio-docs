@@ -90,7 +90,7 @@ In Visual Studio 17.8 and later, the names of the authentication options for SQL
 
 :::moniker-end
 
-## MDF files
+## Open MDF database file
 
 The `.mdf` file stands for Master Database File and is a SQL database packaged into a file. These files have an associated `.ldf` (Log Database File) that contains the logs for that database. You can create new databases that are stored in `.mdf` files by adding a **Service-based Database** item to your project. See [Create a database and add tables](create-a-sql-database-by-using-a-designer.md).
 
