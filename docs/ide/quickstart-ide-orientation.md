@@ -163,12 +163,14 @@ To explore Visual Studio's features, let's create a new project.
     
     :::image type="content" source="media/vs-2022/menu-bar.png" alt-text="Screenshot of the Menu bar in Visual Studio 2022.":::
 
-* Get AI assistance with [GitHub Copilot](/visualstudio/ide/quickstart-ide-github-copilot.md) directly in the editor with context-aware code completions, suggestions, code explanations, and more. Learn more about [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md). 
+* Get AI assistance with [GitHub Copilot](/visualstudio/ide/quickstart-ide-github-copilot.md) directly in the editor with context-aware code completions, suggestions, code explanations, and more. For example, you can receive code suggestions by writing a natural language comment describing what you want the code to do.
 
     :::image type="content" source="media/vs-2022/quickstart-ide-orientation/github-copilot-extension-example.gif" alt-text="Screenshot of the GitHub Copilot extension in Visual Studio 2022.":::
 
     > [!div class="button"]
-    > [Get GitHub Copilot](visual-studio-github-copilot-extension.md#prerequisites--supported-programming-languages)
+    > [Get GitHub Copilot](visual-studio-github-copilot-extension.md#prerequisites)
+
+    Learn more about [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md). 
 
 * Get contextual help by pressing F1 while the mouse cursor is on a keyword or after selecting a keyword. For example, select *console* and press F1 to jump to documentation on the *Console Class*. 
 

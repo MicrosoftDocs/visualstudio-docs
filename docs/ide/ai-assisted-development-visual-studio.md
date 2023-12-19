@@ -59,7 +59,9 @@ GitHub Copilot and IntelliCode assist you in writing code faster and with greate
 
 GitHub Copilot is an AI pair programmer available as two extensions in the Visual Studio Marketplace.
 
-- **[GitHub Copilot extension in Visual Studio](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs)**, adds enhanced AI-assistance to the development process by generating whole lines or blocks of code based on the context provided by you. It leverages AI models trained on billions of lines of open-source code to provide autocomplete-style code suggestions as you code, in real-time, right in the editor. You can get suggestions from GitHub Copilot in the IDE either by starting to write the code you want to use, or by writing a function signature or a natural language comment in your code file describing what you want the code to do. You can choose to use the suggested code by accepting it or It helps you write code faster and with less work. 
+- **[GitHub Copilot extension in Visual Studio](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs)**, adds enhanced AI-assistance to the development process by generating whole lines or blocks of code based on the context provided by you. It leverages AI models trained on billions of lines of open-source code to provide autocomplete-style code suggestions as you code, in real-time, right in the editor. It helps you write code faster and with less work. 
+
+You can get suggestions from GitHub Copilot in the IDE either by starting to write the code you want to use, or by writing a function signature or a natural language comment in your code file describing what you want the code to do. You can choose to use the suggested code by accepting it.
 
   The following image shows the code generation capabilities of GitHub Copilot in Visual Studio. In this example, you add a natural language comment in the code file, and GitHub Copilot generates the code suggestion for you in gray text. If you choose to use the code, you can select **Tab** to insert it into your code file:
 
