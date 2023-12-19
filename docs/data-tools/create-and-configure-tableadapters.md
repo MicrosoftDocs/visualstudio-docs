@@ -1,7 +1,7 @@
 ---
 title: Configure new TableAdapters in .NET Framework apps
 description: Create and configure a ADO.NET TableAdapter in .NET Framework applications with Visual Studio and enable communication between your app and a database.
-ms.date: 09/01/2017
+ms.date: 12/15/2023
 ms.topic: how-to
 helpviewer_keywords:
 - table adapters, creating
@@ -40,7 +40,7 @@ For an introduction to TableAdapters, see [Fill datasets by using TableAdapters]
 
 Run the **TableAdapter Configuration Wizard** to create or edit TableAdapters and their associated DataTables. You can configure an existing TableAdapter by right-clicking on it in the **Dataset Designer**.
 
-![raddata Table Adapter Configuration Wizard](../data-tools/media/raddata-table-adapter-configuration-wizard.png)
+![Screenshot showing the Table Adapter Configuration Wizard.](../data-tools/media/table-adapter-configuration-wizard.png)
 
 If you drag a new TableAdapter from the Toolbox when the **Dataset Designer** is in focus, the wizard starts and prompts you to specify which data source the TableAdapter should connect to. On the next page, the wizard asks what kind of commands it should use to communicate with the database, either SQL statements or stored procedures. (You won't see this if you are configuring a TableAdapter that is already associated with a data source.)
 
