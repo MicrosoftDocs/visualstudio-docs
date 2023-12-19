@@ -202,6 +202,6 @@ Me.tab1.Position = Me.Factory.RibbonPosition.AfterOfficeId("TabHome")
 ```
 ---
 
-## See also
+## Related content
 - [Migrate Office solutions to the .NET Framework 4 or later](../vsto/migrating-office-solutions-to-the-dotnet-framework-4-or-later.md)
 - [Ribbon Designer](../vsto/ribbon-designer.md)

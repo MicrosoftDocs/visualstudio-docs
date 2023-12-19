@@ -89,6 +89,6 @@ ms.technology: office-development
 ## Robust programming
  For simplicity, this example uses an XML string that is defined as a local variable in the method. Typically, you should obtain the XML from an external source, such as a file or a database.
 
-## See also
+## Related content
 - [Custom XML parts overview](../vsto/custom-xml-parts-overview.md)
 - [How to: Add custom XML parts to document-level customizations](../vsto/how-to-add-custom-xml-parts-to-document-level-customizations.md)

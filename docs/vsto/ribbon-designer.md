@@ -195,7 +195,7 @@ ms.technology: office-development
 |Select the first control on the drop-down panel if the drop-down panel is open.|**Right**|
 |Close a drop-down panel.|**Esc**|
 
-## See also
+## Related content
 
 - [Ribbon overview](../vsto/ribbon-overview.md)
 - [Ribbon XML](../vsto/ribbon-xml.md)

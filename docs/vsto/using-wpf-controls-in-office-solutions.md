@@ -112,7 +112,7 @@ For more information about adding WPF controls to Windows Forms controls and for
 
 - [Walkthrough: Style WPF content](/dotnet/framework/winforms/advanced/walkthrough-styling-wpf-content)
 
-## See also
+## Related content
 
 - [Office UI customization](../vsto/office-ui-customization.md)
 - [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md)

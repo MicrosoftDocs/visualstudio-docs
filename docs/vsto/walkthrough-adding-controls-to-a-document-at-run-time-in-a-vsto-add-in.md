@@ -198,7 +198,7 @@ ms.technology: office-development
 
 - For a walkthrough that demonstrates how to add controls to a worksheet by using a VSTO Add-in for Excel, see [Walkthrough: Add controls to a worksheet at run time in VSTO add-in project](../vsto/walkthrough-adding-controls-to-a-worksheet-at-run-time-in-vsto-add-in-project.md).
 
-## See also
+## Related content
 - [Word solutions](../vsto/word-solutions.md)
 - [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md)
 - [Persist dynamic controls in Office documents](../vsto/persisting-dynamic-controls-in-office-documents.md)

@@ -86,7 +86,7 @@ ms.technology: office-development
 
 - Data to be charted, stored in the range from A5 to D8 in the worksheet.
 
-## See also
+## Related content
 - [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)
 - [Chart control](../vsto/chart-control.md)

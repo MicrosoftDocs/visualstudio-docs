@@ -155,11 +155,7 @@ The `--hard` part of the command tells Git to reset the files to the state of th
 
 To learn more about resetting branches, see the [Git webpage for the reset command](https://git-scm.com/docs/git-reset).
 
-## Next steps
+## Related content
 
-To continue your journey, see [Work with multiple repos](git-multi-repository-support.md).
-
-## See also
-
+- [Work with multiple repos](git-multi-repository-support.md)
 - [The Git experience in Visual Studio](git-with-visual-studio.md)
-- [Visual Studio and GitHub: Better together](https://visualstudio.microsoft.com/vs/github/)

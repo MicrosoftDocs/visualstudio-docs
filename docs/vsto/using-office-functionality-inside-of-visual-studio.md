@@ -31,7 +31,7 @@ ms.technology: office-development
 ## Password protection
  Microsoft Office Word documents and Microsoft Office Excel workbooks can be set so that they cannot be opened by someone who does not know the password. Password protection is handled differently in Word and Excel, and can affect your development process. For more information, see [Password protection on Office documents](../vsto/password-protection-on-office-documents.md).
 
-## See also
+## Related content
 - [Document protection in document-level solutions](/previous-versions/visualstudio/visual-studio-2017/vsto/document-protection-in-document-level-solutions)
 - [Information rights management and managed code extensions overview](../vsto/information-rights-management-and-managed-code-extensions-overview.md)
 - [Password protection on Office documents](../vsto/password-protection-on-office-documents.md)

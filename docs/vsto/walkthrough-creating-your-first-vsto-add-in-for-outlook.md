@@ -145,7 +145,7 @@ ms.technology: office-development
 
 - Deploying VSTO Add-ins for Outlook. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
-## See also
+## Related content
 - [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
 - [Outlook solutions](../vsto/outlook-solutions.md)
 - [Office UI customization](../vsto/office-ui-customization.md)

@@ -242,7 +242,7 @@ ms.technology: office-development
 
 - Call code in a VSTO Add-in from VBA. For more information, see [Walkthrough: Call code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).
 
-## See also
+## Related content
 - [Combine VBA and document-level customizations](../vsto/combining-vba-and-document-level-customizations.md)
 - [Program document-level customizations](../vsto/programming-document-level-customizations.md)
 - [How to: Expose Code to VBA in a Visual Basic project](../vsto/how-to-expose-code-to-vba-in-a-visual-basic-project.md)

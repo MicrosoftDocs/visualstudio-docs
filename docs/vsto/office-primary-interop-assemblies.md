@@ -123,7 +123,7 @@ For example, when a solution that references an Office 2010 assembly runs on a c
 
 For more information, see [How to: Enable and disable automatic binding redirection](/dotnet/framework/configure-apps/how-to-enable-and-disable-automatic-binding-redirection).
 
-## See also
+## Related content
 
 - [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md)
 - [Excel object model overview](../vsto/excel-object-model-overview.md)

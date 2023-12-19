@@ -58,7 +58,7 @@ ms.technology: office-development
 
  For more information about customizing the UI of Project and other Microsoft Office applications, see [Office UI customization](../vsto/office-ui-customization.md).
 
-## See also
+## Related content
 - [Walkthrough: Create your first VSTO Add-in for project](../vsto/walkthrough-creating-your-first-vsto-add-in-for-project.md)
 - [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)
 - [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)

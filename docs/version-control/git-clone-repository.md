@@ -90,6 +90,6 @@ After you’ve cloned a repo or [created one](git-create-repository.md), Visual 
 
 1. A **Connect to a Project** dialog box appears. Follow the prompts to sign in to your Azure account, and then browse to Azure DevOps Server that hosts the files you're looking for.
 
-## Next steps
+## Related content
 
-To continue your journey, visit the [Create a repo](git-create-repository.md) page.
+- [Create a repo](git-create-repository.md)

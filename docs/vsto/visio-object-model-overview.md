@@ -72,7 +72,7 @@ ms.technology: office-development
 
  For more information, see [Overview of classes and interfaces in the Office primary interop assemblies](/previous-versions/office/office-12/ms247299(v=office.12)) and [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md).
 
-## See also
+## Related content
 - [Visio solutions](../vsto/visio-solutions.md)
 - [Work with Visio documents](../vsto/working-with-visio-documents.md)
 - [Work with Visio shapes](../vsto/working-with-visio-shapes.md)

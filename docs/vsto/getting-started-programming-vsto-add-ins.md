@@ -68,24 +68,14 @@ ms.technology: office-development
 
   For more information about how to customize the UI of Microsoft Office applications, see [Office UI customization](../vsto/office-ui-customization.md).
 
-## Next steps
- To learn how to create VSTO Add-ins, see the following walkthroughs:
+## Related content
 
 - [Walkthrough: Create your first VSTO Add-in for Excel](../vsto/walkthrough-creating-your-first-vsto-add-in-for-excel.md)
-
 - [Walkthrough: Create your first VSTO Add-In for Outlook](../vsto/walkthrough-creating-your-first-vsto-add-in-for-outlook.md)
-
 - [Walkthrough: Create your first VSTO Add-in for PowerPoint](../vsto/walkthrough-creating-your-first-vsto-add-in-for-powerpoint.md)
-
 - [Walkthrough: Create your first VSTO Add-in for Project](../vsto/walkthrough-creating-your-first-vsto-add-in-for-project.md)
-
 - [Walkthrough: Create your first VSTO Add-in for Word](../vsto/walkthrough-creating-your-first-vsto-add-in-for-word.md)
-
-  These walkthroughs introduce you to the Office development tools in Visual Studio and the programming model for VSTO Add-ins.
-
-  For a list of topics that walk you through some of the common tasks in Office projects, see [Common tasks in Office programming](../vsto/common-tasks-in-office-programming.md).
-
-## See also
+- [Common tasks in Office programming](../vsto/common-tasks-in-office-programming.md)
 - [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
 - [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)
 - [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)

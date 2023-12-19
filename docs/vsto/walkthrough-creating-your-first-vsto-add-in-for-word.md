@@ -133,7 +133,7 @@ ms.technology: office-development
 
 - Deploying VSTO Add-ins for Word: [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
-## See also
+## Related content
 - [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
 - [Word solutions](../vsto/word-solutions.md)
 - [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)

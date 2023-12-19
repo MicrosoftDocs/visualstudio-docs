@@ -60,7 +60,7 @@ ms.technology: office-development
 
  For information about customizing the UI of Visio, see the VBA reference documentation for the [Visio.UIObject](/office/vba/api/Visio.UIObject) class.
 
-## See also
+## Related content
 - [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)
 - [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
 - [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)

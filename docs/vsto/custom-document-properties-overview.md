@@ -46,7 +46,7 @@ This property contains a string that provides details about the deployment manif
 
   The *SolutionID* is a GUID that the  Visual Studio Tools for Office runtime  uses to identify the solution. The *SolutionID* is automatically generated when you build the project. The **vstolocal** term indicates to the  Visual Studio Tools for Office runtime  that the assembly should be loaded from the same folder as the document.
 
-## See also
+## Related content
 
 - [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)
 - [Architecture of document-level customizations](../vsto/architecture-of-document-level-customizations.md)

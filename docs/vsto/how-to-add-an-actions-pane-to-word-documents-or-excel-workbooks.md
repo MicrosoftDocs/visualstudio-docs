@@ -83,7 +83,7 @@ ms.technology: office-development
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb" id="Snippet15":::
      ---
 
-## See also
+## Related content
 - [Actions pane overview](../vsto/actions-pane-overview.md)
 - [Walkthrough: Insert text into a document from an actions pane](../vsto/walkthrough-inserting-text-into-a-document-from-an-actions-pane.md)
 - [How to: Manage control layout on actions panes](../vsto/how-to-manage-control-layout-on-actions-panes.md)

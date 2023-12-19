@@ -97,7 +97,7 @@ For more information about how to deploy a VSTO Solution Using Windows Installer
 |9|Loaded|Load on demand|The VSTO Add-in will be loaded only when the application requires it. Such as when a user selects a UI element that uses functionality in the VSTO Add-in (for example, a custom button in the Ribbon).<br /><br /> If the application successfully loads the VSTO Add-in, the **LoadBehavior** value remains 9, but the status of the VSTO Add-in in the **COM Add-ins** dialog box is updated to indicate that the VSTO Add-in is currently loaded. If an error occurs when loading the VSTO Add-in, the **LoadBehavior** value changes to 8.|
 |16|Loaded|Load first time, then load on demand|Set this value if you want your VSTO Add-in to be loaded on demand. The application loads the VSTO Add-in when the user runs the application for the first time. The next time the user runs the application, the application loads any UI elements that are defined by the VSTO Add-in. However, the VSTO Add-in isn't loaded until the user selects a UI element that is associated with the VSTO Add-in.<br /><br /> When the application successfully loads the VSTO Add-in for the first time, the **LoadBehavior** value remains 16 while the VSTO Add-in is loaded. After the application closes, the **LoadBehavior** value changes to 9.|
 
-## See also
+## Related content
 - [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)
 - [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)
 - [Build Office solutions](../vsto/building-office-solutions.md)

@@ -75,7 +75,7 @@ ms.technology: office-development
 > [!NOTE]
 > The `Globals` class is never initialized at design time, but control instances are created by the designer. This means that if you create a user control that uses a property of the `Globals` class from inside a user control class, you must check whether the property returns **null** before you try to use the returned object.
 
-## See also
+## Related content
 - [Access the Ribbon at run time](../vsto/accessing-the-ribbon-at-run-time.md)
 - [Access a form region at run time](../vsto/accessing-a-form-region-at-run-time.md)
 - [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)

@@ -117,11 +117,7 @@ Checking out the tip of a remote branch can be helpful if you would like to quic
 
 :::image type="content" source="media/vs-2022/git-checkout-tip-commit.png" alt-text="Screenshot that shows the Checkout Tip Commit option." lightbox="media/vs-2022/git-checkout-tip-commit.png":::
 
-## Next steps
+## Related content
 
-To continue your journey, see [Manage Git repositories in Visual Studio](git-manage-repository.md).
-
-## See also
-
+- [Manage Git repositories in Visual Studio](git-manage-repository.md)
 - [The Git experience in Visual Studio](git-with-visual-studio.md)
-- [Visual Studio and GitHub: Better together](https://visualstudio.microsoft.com/vs/github/)

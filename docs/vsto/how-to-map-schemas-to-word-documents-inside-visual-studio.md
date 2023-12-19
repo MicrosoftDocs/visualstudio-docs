@@ -58,6 +58,6 @@ ms.technology: office-development
 
 10. Drag elements from the **XML Structure** window to the places in your document where you want the corresponding controls to be created.
 
-## See also
+## Related content
 - [How to: Map schemas to worksheets inside Visual Studio](../vsto/how-to-map-schemas-to-worksheets-inside-visual-studio.md)
 - [XML schemas and data in document-level customizations](../vsto/xml-schemas-and-data-in-document-level-customizations.md)

@@ -50,7 +50,7 @@ ms.technology: office-development
 
 - [XMLNodes control](../vsto/xmlnodes-control.md)
 
-## See also
+## Related content
 - [How to: Add content controls to Word documents](../vsto/how-to-add-content-controls-to-word-documents.md)
 - [How to: Add Bookmark controls to Word documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md)
 - [How to: Add XMLNode controls to Word documents](../vsto/how-to-add-xmlnode-controls-to-word-documents.md)
