@@ -42,18 +42,18 @@ Run the **TableAdapter Configuration Wizard** to create or edit TableAdapters an
 
 ![Screenshot showing the Table Adapter Configuration Wizard.](../data-tools/media/table-adapter-configuration-wizard.png)
 
-If you drag a new TableAdapter from the Toolbox when the **Dataset Designer** is in focus, the wizard starts and prompts you to specify which data source the TableAdapter should connect to. On the next page, the wizard asks what kind of commands it should use to communicate with the database, either SQL statements or stored procedures. (You won't see this if you are configuring a TableAdapter that is already associated with a data source.)
+If you drag a new TableAdapter from the Toolbox when the **Dataset Designer** is in focus, the wizard starts and prompts you to specify which data source the TableAdapter should connect to. On the next page, the wizard asks what kind of commands it should use to communicate with the database, either SQL statements or stored procedures. (You don't see this screen if you're configuring a TableAdapter that is already associated with a data source.)
 
-- You have the option to create a new stored procedure in the underlying database if you have the correct permissions for the database. If you don't have these permissions, this won't be an option.
+- You have the option to create a new stored procedure in the underlying database if you have the correct permissions for the database. If you don't have these permissions, this option isn't available.
 
-- You can also  choose to run existing stored procedures for the **SELECT**, **INSERT**, **UPDATE**, and **DELETE** commands of the TableAdapter. The stored procedure that's assigned to the **Update** command, for example, is run when the `TableAdapter.Update()` method is called.
+- You can also choose to run existing stored procedures for the **SELECT**, **INSERT**, **UPDATE**, and **DELETE** commands of the TableAdapter. The stored procedure that's assigned to the **Update** command, for example, is run when the `TableAdapter.Update()` method is called.
 
 Map parameters from the selected stored procedure to the corresponding columns in the data table. For example, if your stored procedure accepts a parameter named `@CompanyName` that it passes to the `CompanyName` column in the table, set the **Source Column** of the `@CompanyName` parameter to `CompanyName`.
 
 > [!NOTE]
 > The stored procedure that's assigned to the SELECT command is run by calling the method of the TableAdapter that you name in the next step of the wizard. The default method is `Fill`, so the code that's typically used to run the SELECT procedure is `TableAdapter.Fill(tableName)`. If you change the default name from `Fill`, substitute `Fill` with the name you assign, and replace "TableAdapter" with the actual name of the TableAdapter (for example, `CustomersTableAdapter`).
 
-- Selecting the **Create methods to send updates directly to the database** option is equivalent to setting the `GenerateDBDirectMethods` property to true. The option is unavailable when the original SQL statement does not provide enough information or the query is not an updateable query. This situation can occur, for example, in **JOIN** queries and queries that return a single (scalar) value.
+- Selecting the **Create methods to send updates directly to the database** option is equivalent to setting the `GenerateDBDirectMethods` property to true. The option is unavailable when the original SQL statement doesn't provide enough information or the query isn't an updatable query. This situation can occur, for example, in **JOIN** queries and queries that return a single (scalar) value.
 
 The **Advanced Options** in the wizard enable you to:
 
@@ -79,7 +79,7 @@ The following example shows you how to call an additional query named `FillByCit
 
 1. Open your dataset in the **Dataset Designer**.
 
-2. If you are creating a new query, drag a **Query** object from the **DataSet** tab of the **Toolbox** onto a <xref:System.Data.DataTable>, or select **Add Query** from the TableAdapter's shortcut menu. You can also drag a **Query** object onto an empty area of the **Dataset Designer**, which creates a TableAdapter without an associated <xref:System.Data.DataTable>. These queries can only return single (scalar) values, or run UPDATE, INSERT, or DELETE commands against the database.
+2. If you're creating a new query, drag a **Query** object from the **DataSet** tab of the **Toolbox** onto a <xref:System.Data.DataTable>, or select **Add Query** from the TableAdapter's shortcut menu. You can also drag a **Query** object onto an empty area of the **Dataset Designer**, which creates a TableAdapter without an associated <xref:System.Data.DataTable>. These queries can only return single (scalar) values, or run UPDATE, INSERT, or DELETE commands against the database.
 
 3. On the **Choose Your Data Connection** screen, select or create the connection that the query will use.
 
@@ -96,7 +96,7 @@ The following example shows you how to call an additional query named `FillByCit
 
 ### To start the TableAdapter Query Configuration wizard on an existing query
 
-- If you are editing an existing TableAdapter query, right-click the query, and then choose **Configure** from the shortcut menu.
+- If you're editing an existing TableAdapter query, right-click the query, and then choose **Configure** from the shortcut menu.
 
     > [!NOTE]
     > Right-clicking the main query of a TableAdapter reconfigures the TableAdapter and <xref:System.Data.DataTable> schema. Right-clicking an additional query on a TableAdapter, however,  configures the selected query only. The **TableAdapter Configuration Wizard** reconfigures the TableAdapter definition, while the **TableAdapter Query Configuration Wizard** reconfigures the selected query only.
