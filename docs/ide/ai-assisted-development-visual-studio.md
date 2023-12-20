@@ -61,13 +61,13 @@ GitHub Copilot is an AI pair programmer available as two extensions in the Visua
 
 - **[GitHub Copilot extension in Visual Studio](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs)**, adds enhanced AI-assistance to the development process by generating whole lines or blocks of code based on the context provided by you. It leverages AI models trained on billions of lines of open-source code to provide autocomplete-style code suggestions as you code, in real-time, right in the editor. It helps you write code faster and with less work. 
 
-You can get suggestions from GitHub Copilot in the IDE either by starting to write the code you want to use, or by writing a function signature or a natural language comment in your code file describing what you want the code to do. You can choose to use the suggested code by accepting it.
+    You can get suggestions from GitHub Copilot in the IDE either by starting to write the code you want to use, or by writing a function signature or a natural language comment in your code file describing what you want the code to do. You can choose to use the suggested code by accepting it.
 
-  The following image shows the code generation capabilities of GitHub Copilot in Visual Studio. In this example, you add a natural language comment in the code file, and GitHub Copilot generates the code suggestion for you in gray text. If you choose to use the code, you can select **Tab** to insert it into your code file:
+    The following image shows the code generation capabilities of GitHub Copilot in Visual Studio. In this example, you add a natural language comment in the code file, and GitHub Copilot generates the code suggestion for you in gray text. If you choose to use the code, you can select **Tab** to insert it into your code file:
 
-  :::image type="content" source="media/vs-2022/github-copilot-completions-visual-studio.gif" alt-text="Animated screenshot that shows the code completion capabilities of the GitHub Copilot extension." lightbox="media/vs-2022/github-copilot-completions-visual-studio.gif":::
+    :::image type="content" source="media/vs-2022/github-copilot-completions-visual-studio.gif" alt-text="Animated screenshot that shows the code completion capabilities of the GitHub Copilot extension." lightbox="media/vs-2022/github-copilot-completions-visual-studio.gif":::
 
-  Get started with the [GitHub Copilot in Visual Studio](visual-studio-github-copilot-extension.md). Note that it requires Visual Studio 2022 17.5.5 or later. 
+    Get started with the [GitHub Copilot in Visual Studio](visual-studio-github-copilot-extension.md). Note that it requires Visual Studio 2022 17.5.5 or later. 
 
 - **[GitHub Copilot Chat extension in Visual Studio]()** is a fully integrated AI-powered chat experience from GitHub Copilot right within the Visual Studio IDE. It enables you to interact with GitHub Copilot using a chat interface within the IDE. By asking coding-related questions in natural language, you can receive context-specific code suggestions, get an in-depth analysis and explanation of how a code block works, generate unit tests, find issues and get proposed fixes. It enables you to get coding information and support without leaving the IDE, helping you make informed decisions and write better code.  
   
