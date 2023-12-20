@@ -16,6 +16,10 @@ ms.author: ghogen
 
 After you develop a web application in Visual Studio, you can publish that application to an Azure cloud service by using the **Publish Azure Application** wizard.
 
+## Prerequisites
+
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
+
 ## Accessing the Publish Azure Application wizard
 
 You can access the Publish Azure Application wizard in two ways depending on the type of Visual Studio project you have.

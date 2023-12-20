@@ -16,6 +16,10 @@ ms.author: ghogen
 
 Visual Studio provides a project template that lets you create an [Azure cloud service](/azure/cloud-services/cloud-services-choose-me), which is a simple general-purpose Azure service. Once the project has been created, Visual Studio enables you to configure, debug, and deploy the cloud service to Azure.
 
+## Prerequisites
+
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
+
 ## Steps to create an Azure cloud service project in Visual Studio
 This section walks you through creating an Azure cloud service project in Visual Studio with one or more web roles.
 
