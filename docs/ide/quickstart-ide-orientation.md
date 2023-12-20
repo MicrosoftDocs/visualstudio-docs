@@ -163,7 +163,7 @@ To explore Visual Studio's features, let's create a new project.
     
     :::image type="content" source="media/vs-2022/menu-bar.png" alt-text="Screenshot of the Menu bar in Visual Studio 2022.":::
 
-* Get AI assistance with [GitHub Copilot](quickstart-ide-github-copilot.md) directly in the editor with context-aware code completions, suggestions, code explanations, and more. For example, you can receive code suggestions by writing a natural language comment describing what you want the code to do.
+* Get AI assistance with [GitHub Copilot](visual-studio-github-copilot-extension) directly in the editor with context-aware code completions, suggestions, code explanations, and more. For example, you can receive code suggestions by writing a natural language comment describing what you want the code to do.
 
     :::image type="content" source="media/vs-2022/quickstart-ide-orientation/github-copilot-extension-example.gif" alt-text="Screenshot of the GitHub Copilot extension in Visual Studio 2022.":::
 
