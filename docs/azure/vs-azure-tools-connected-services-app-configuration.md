@@ -27,6 +27,7 @@ You can use the App Configuration Connected Services feature in the following pr
 
 - Visual Studio with the Azure workload installed.
 - A project of one of the supported types
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## Connect to Azure App Configuration using Connected Services
 

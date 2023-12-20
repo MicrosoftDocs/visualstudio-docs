@@ -19,6 +19,10 @@ To take advantage of the hosting services and scaling ability of Azure, you migh
 > [!Important]
 > This migration is supported only for the specific ASP.NET, WCF, and WCF Workflow projects. It is not supported for ASP.NET Core projects. See [Supported Project Templates](#supported-project-templates).
 
+## Prerequisites
+
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
+
 ## Migrate a project to cloud services
 
 1. Right-click the solution node and select **Add > New Project...** and add a new **Azure Cloud Service (classic)** project to the existing solution.

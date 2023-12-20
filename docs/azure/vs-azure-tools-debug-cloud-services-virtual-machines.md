@@ -14,6 +14,10 @@ ms.technology: vs-ide-debug
 
 Visual Studio gives you different options for debugging Azure cloud services and virtual machines.
 
+## Prerequisites
+
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
+
 ## Debug your cloud service on your local computer
 
 You can save time and money by using the Azure Compute Emulator to debug your cloud service on a local machine. By debugging a service locally before you deploy it, you can improve reliability and performance without paying for compute time. However, some errors might occur only when you run a cloud service in Azure itself. You can debug these errors if you enable remote debugging when you publish your service and then attach the debugger to a role instance.

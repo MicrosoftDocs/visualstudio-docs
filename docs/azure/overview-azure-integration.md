@@ -15,6 +15,10 @@ monikerRange: ">=vs-2019"
 
 You can work with Azure in Visual Studio using many capabilities designed to make development and deployment to Azure easier.
 
+## Prerequisites
+
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
+
 ## Provision Azure resources
 
 This is a typical Visual Studio dialog where you can browse and search existing Azure resources. Above the list of existing resources, there is a button that lets you provision new ones:

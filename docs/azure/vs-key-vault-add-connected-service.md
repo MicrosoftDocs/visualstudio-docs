@@ -17,7 +17,7 @@ For details on the changes that Connected Services makes in your project to enab
 
 ## Prerequisites
 
-- **An Azure subscription**. If you don't have a subscription, sign up for a [free account](https://azure.microsoft.com/pricing/free-trial/).
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 - **Visual Studio 2019 version 16.3** or later [Download it now](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs).
 
 ## Add Key Vault support to your project

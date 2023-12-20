@@ -16,6 +16,10 @@ ms.author: ghogen
 
 After you have created your Azure cloud service, you can add new roles to it or remove existing roles from it. You can also import an existing project and convert it to a role. For example, you can import an ASP.NET web application and designate it as a web role.
 
+## Prerequisites
+
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
+
 ## Adding a role to an Azure cloud service
 The following steps guide you through adding a web or worker role to an Azure cloud service project in Visual Studio.
 

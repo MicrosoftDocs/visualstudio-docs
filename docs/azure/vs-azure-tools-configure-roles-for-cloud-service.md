@@ -28,6 +28,10 @@ When you create an Azure cloud service in Visual Studio, two service configurati
 - `ServiceConfiguration.Cloud.cscfg`
 - `ServiceConfiguration.Local.cscfg`
 
+## Prerequisites
+
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
+
 ## Configure an Azure cloud service
 You can configure an Azure cloud service from Solution Explorer in Visual Studio, as shown in the following steps:
 
