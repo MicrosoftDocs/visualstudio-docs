@@ -7,8 +7,6 @@ author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-f1_keywords:
- - vs.UserNotificationsToolWindowPane
 ---
 # Notifications and Progress for Visual Studio
 
