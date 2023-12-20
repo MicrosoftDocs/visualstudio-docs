@@ -39,11 +39,7 @@ This article and its companion articles provide details of using the Visual Stud
 
    ![Screenshot of required components window.](./media/vs-azure-active-directory/required-components.png)
 
-1. The **Configure Microsoft identity platform** screen appears. If you haven't signed in to Azure, you're asked to sign in.
-
-   ![Screenshot of Microsoft Identity platform Azure sign-in screen.](./media/vs-azure-active-directory/azure-subscription.png)
-
-   If your sign-in is successful, you see a list of your applications.
+1. The **Configure Microsoft identity platform** screen appears. If you haven't signed in to Azure, you're asked to sign in. Once you're signed in, you see a list of your applications.
 
    ![Screenshot showing list of owned applications.](./media/vs-azure-active-directory/owned-applications.png)
 
@@ -87,11 +83,7 @@ You can also see the Active Directory domain on the [Azure portal](https://go.mi
 
    If you had to install the tool, you might need to restart the process again from step 1.
 
-1. The **Configure Microsoft identity platform** screen appears. If you haven't signed in to Azure, you're asked to sign in.
-
-   ![Screenshot of Microsoft Identity platform Azure sign-in screen.](./media/vs-azure-active-directory/azure-subscription.png)
-
-   If your sign-in is successful, you see a list of your applications.
+1. The **Configure Microsoft identity platform** screen appears. If you haven't signed in to Azure, you're asked to sign in. Once you're signed in, you see a list of your applications.
 
    ![Screenshot showing list of owned applications.](./media/vs-azure-active-directory/owned-applications.png)
 
