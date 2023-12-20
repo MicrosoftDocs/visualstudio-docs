@@ -4,9 +4,9 @@ description: Learn how to use the Notifications tool window in Visual Studio.
 ms.date: 12/19/2023
 ms.topic: ui-reference
 f1_keywords:
-- vs.UserNotificationsToolWindowPane
+  - "vs.UserNotificationsToolWindowPane"
 helpviewer_keywords:
-- User Notifications tool window
+  - "User Notifications tool window"
 author: ghogen
 ms.author: ghogen
 manager: jmartens
