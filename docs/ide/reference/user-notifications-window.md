@@ -31,4 +31,4 @@ The following image shows a typical user notification, showing that a new previe
 
 If you click on the **View details** link, the Visual Studio installer opens. Close any other instance of the installer before clicking the link. To install later, you can choose the **Update on close** link. Visual Studio will start the update the next time you close the IDE.
 
-Dismiss notifications by pressing the X, or click on **Dismiss All** to dismiss all notifications.
+Dismiss notifications by pressing the `X` next to the notification, or click on **Dismiss All** to dismiss all notifications.
