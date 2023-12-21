@@ -19,6 +19,10 @@ To publish a cloud service project, you must set up the following services as de
 * A **cloud service** to run your roles in the Azure environment, and
 * A **storage account** that provides access to the Blob, Queue, and Table services.
 
+## Prerequisites
+
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
+
 ## Create a cloud service
 
 A cloud service runs your roles in the Azure environment. You can create a cloud service either in Visual Studio or through the [Azure portal](https://portal.azure.com/) as described in the sections that follow.
