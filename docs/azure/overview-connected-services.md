@@ -34,6 +34,8 @@ Get started by right-clicking on the project node, and choosing **Add > Connecte
 
 Supported project types vary by the type of service. You'll see the options that apply to your project type in the listed selections.
 
+[!INCLUDE [subscription-azure-benefits](includes/subscription-azure-benefits.md)]
+
 <a name="azure"/>
 
 ## Connect your app to Azure services

@@ -23,6 +23,10 @@ Use the following procedures to publish your Azure application and to update a w
 - Publish or Package an Azure application from Visual Studio
 - Update a web role as part of the development and testing cycle
 
+## Prerequisites
+
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
+
 ## Publish or package an Azure application from Visual Studio
 
 When you publish your Azure application, you can do one of the following tasks:

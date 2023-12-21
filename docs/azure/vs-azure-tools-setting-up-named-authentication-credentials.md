@@ -21,6 +21,10 @@ To publish an application to Azure or to monitor an existing cloud service, Visu
 
 Note: these credentials are different from credentials used to authenticate requests to Azure storage services.
 
+## Prerequisites
+
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
+
 ## Create a subscription file
 
 In Server Explorer, right-click the **Azure** node and select **Manage and Filter Subscriptions**. Then select the **Certificates** tab, and then do one of the following actions:

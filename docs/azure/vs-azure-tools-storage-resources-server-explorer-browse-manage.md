@@ -38,6 +38,10 @@ Starting in Azure SDK 2.7, you can also use Cloud Explorer to view and manage yo
 >
 > For more information about Visual Studio 2022, see our [release notes](/visualstudio/releases/2022/release-notes/).
 
+## Prerequisites
+
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
+
 ## View and manage storage resources in Visual Studio
 
 Server Explorer automatically shows a list of blobs, queues, and tables in your storage emulator account. The storage emulator account is listed in Server Explorer under the **Storage** node as the **Development** node.
