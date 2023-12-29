@@ -174,7 +174,7 @@ Workspace extensibility is heavily MEF-based, and composition errors will cause 
 
 Error details can be found in _%LOCALAPPDATA%\Microsoft\VisualStudio\16.0_id\ComponentModelCache\Microsoft.VisualStudio.Default.err_. Resolve any errors for types implemented by your extension.
 
-## Next steps
+## Related content
 
 * [File contexts](workspace-file-contexts.md) - File context providers bring code intelligence for Open Folder workspaces.
 * [Indexing](workspace-indexing.md) - Workspace indexing collects and persists information about the workspace.

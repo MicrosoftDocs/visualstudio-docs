@@ -439,6 +439,6 @@ HelloCommand = new(async (parameter, cancellationToken) =>
 
 It's also important to avoid the extension asynchronously updating the value of properties that can also be updated by the user. In other words, avoid [TwoWay](/dotnet/api/system.windows.data.bindingmode) data binding.
 
-## See also
+## Related content
 
 The information here should be enough to build simple Remote UI components. For more advanced scenarios, see [Advanced Remote UI concepts](advanced-remote-ui.md).

@@ -339,6 +339,6 @@ public override object CreateReplacementObject(object target, Stream incomingDat
 }
 ```
 
-## See also
+## Related content
 
 Try out the [`RegexMatchDebugVisualizer`](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/RegexMatchDebugVisualizer/README.md) sample to see these techniques in action.
