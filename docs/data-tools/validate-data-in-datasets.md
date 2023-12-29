@@ -245,7 +245,7 @@ Passing the <xref:System.Data.DataRowVersion> value along with the column index 
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb" id="Snippet22":::
      ---
 
-## See also
+## Related content
 
 - [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)
 - [How to: Validate data in the Windows Forms DataGridView control](/dotnet/framework/winforms/controls/how-to-validate-data-in-the-windows-forms-datagridview-control)

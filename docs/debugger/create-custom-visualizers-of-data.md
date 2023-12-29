@@ -134,7 +134,7 @@ it returns helps to determine the object's serialization format (binary or JSON)
 - If the *debuggee-side* returns data to the *debugger-side* as part of the `TransferData` call, serialize the response to the
 *debugger-side's* stream via the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.Serialize%2A> method.
 
-## See also
+## Related content
 
 - [Walkthrough: Write a visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md)
 - [Walkthrough: Write a visualizer in Visual Basic](../debugger/walkthrough-writing-a-visualizer-in-visual-basic.md)

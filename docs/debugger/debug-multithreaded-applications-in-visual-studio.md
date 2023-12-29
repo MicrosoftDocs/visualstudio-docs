@@ -96,7 +96,7 @@ Debugging a multithreaded application that has a user interface can be especiall
 
   Give your thread a name that you view in the **Threads** window.
 
-## See also
+## Related content
 
 - [Use breakpoints](../debugger/using-breakpoints.md)
 - [Threading](/dotnet/standard/threading/index)

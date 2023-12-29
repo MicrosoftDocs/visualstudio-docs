@@ -46,6 +46,6 @@ Even though typed datasets have many advantages, an untyped dataset is useful in
 
 More generally, there are many times when you might create a dataset dynamically without having a schema available. In that case, the dataset is simply a convenient structure in which you can keep information, as long as the data can be represented in a relational way. At the same time, you can take advantage of the dataset's capabilities, such as the ability to serialize the information to pass to another process, or to write out an XML file.
 
-## See also
+## Related content
 
 - [Dataset tools](../data-tools/dataset-tools-in-visual-studio.md)

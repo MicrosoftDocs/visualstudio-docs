@@ -36,6 +36,6 @@ To remote debug:
 
 - ASP.NET on Azure Service Fabric, see [Debug a remote Service Fabric application](/azure/service-fabric/service-fabric-debugging-your-application#debug-a-remote-service-fabric-application)
 
-## See also
+## Related content
 
 - [Debugging in Visual Studio](../debugger/index.yml)

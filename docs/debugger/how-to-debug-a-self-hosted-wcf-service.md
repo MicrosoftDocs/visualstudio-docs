@@ -48,7 +48,7 @@ A *self-hosted service* is a WCF service that does not run inside IIS, the WCF S
 
    6. Click **OK**.
 
-## See also
+## Related content
 - [Debugging WCF Services](../debugger/debugging-wcf-services.md)
 - [Limitations on WCF Debugging](../debugger/limitations-on-wcf-debugging.md)
 - [How to: Step into WCF Services](../debugger/how-to-step-into-wcf-services.md)

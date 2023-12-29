@@ -200,7 +200,7 @@ To see the return values of the `sumVars()` and `subtractVars()` method calls in
    ![Screenshot of Autos return value C#.](../debugger/media/autosreturnvaluecsharp2.png "Autos return value C#")
    ::: moniker-end
 
-## See also
+## Related content
 
 - [What is debugging?](../debugger/what-is-debugging.md)
 - [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md)

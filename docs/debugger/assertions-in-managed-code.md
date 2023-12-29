@@ -233,7 +233,7 @@ Trace.Assert(stacksize > 0, "Out of stack space. Bytes left:", "inctemp failed o
 ## <a name="BKMK_Setting_assertions_in_configuration_files"></a> Setting assertions in configuration files
  You can set assertions in your program configuration file as well as in your code. For more information, see <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName> or <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName>.
 
-## See also
+## Related content
 
 - <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName>
 - <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName>

@@ -78,7 +78,7 @@ To do so, you can place the local repo directories in the same parent folder and
 
 :::image type="content" source="media/vs-2022/multi-repo-open-folder-solution.png" alt-text="Screenshot showing how you can activate multiple repositories from a folder in Visual Studio.":::
 
-## Next steps
+## Related content
 
 Want to know more about how we'll develop further Git functionality within Visual Studio 2022, or to share your feedback with us on the multi-repo feature? See the "Building with your feedback", "What's next", and "Let us know what you think" sections of the [Multi-repository support released](https://devblogs.microsoft.com/visualstudio/multi-repository-support-released/) blog post.
 

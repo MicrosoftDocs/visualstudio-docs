@@ -151,6 +151,6 @@ The WCF tools are not installed with the .NET workload; use the Visual Studio In
 
      ![Screenshot of the running form showing the result.](../data-tools/media/vs-2022/windows-forms-app.png)
 
-## See also
+## Related content
 
 - [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)

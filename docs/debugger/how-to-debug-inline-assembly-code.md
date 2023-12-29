@@ -34,7 +34,7 @@ The debugger provides two windows for debugging inline assembly code, the **Disa
 
 2. Use the **Registers** window to view register contents.
 
-## See also
+## Related content
 
 - [Debugger Security](../debugger/debugger-security.md)
 - [Debugging Native Code](../debugger/debugging-native-code.md)

@@ -284,7 +284,7 @@ For more information, see the [Inspect previous app states using IntelliTrace](.
 
 If your app runs too slowly or uses too much memory, you may need to test your app with the profiling tools early on. For more information about profiling tools such as the CPU Usage tool and the Memory Analyzer, see [First look at the profiling tools](../profiling/profiling-feature-tour.md).
 
-## Next steps
+## Related content
 
 In this tutorial, you've had a quick look at many debugger features. You may want a more in-depth look at one of these features, such as breakpoints.
 

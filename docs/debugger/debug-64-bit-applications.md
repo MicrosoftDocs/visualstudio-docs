@@ -48,7 +48,7 @@ You can debug a 64-bit application that is running on the local computer or on a
 
 - You are running into an issue where Visual Studio becomes unresponsive, or other performance problem. If the problem happens regularly, you can collect dumps of Visual Studio (devenv.exe) and the worker process (msvsmon.exe) and send them to Microsoft. For information about reporting a problem, see [How to Report a Problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio.md).
 
-## See also
+## Related content
 
 - [64-bit Applications](/dotnet/framework/64-bit-apps)
 - [Configuring Programs for 64-Bit](/cpp/build/configuring-programs-for-64-bit-visual-cpp)

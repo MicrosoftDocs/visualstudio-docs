@@ -50,7 +50,7 @@ If there were no mechanism to allow temporary constraint suspension, an error wo
 
 2. In the **Properties** window, set the <xref:System.Data.DataSet.EnforceConstraints%2A> property to `false`.
 
-## See also
+## Related content
 
 - [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md)
 - [Relationships in datasets](../data-tools/relationships-in-datasets.md)

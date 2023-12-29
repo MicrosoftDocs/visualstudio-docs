@@ -41,7 +41,7 @@ You can write a visualizer to display any .NET data type. For more information, 
 > [!NOTE]
 > To create a visualizer for C/C++ objects, see [UIVisualizer element](../debugger/create-custom-views-of-native-objects.md#BKMK_UIVisualizer) within the [Natvis](../debugger/create-custom-views-of-native-objects.md) documentation. Also, see the [C/C++ custom visualizer sample](https://github.com/Microsoft/ConcordExtensibilitySamples/tree/master/CppCustomVisualizer) or the [SQLite native Debugger Visualizer](https://github.com/Microsoft/VSSDK-Extensibility-Samples/tree/master/SqliteVisualizer) sample.
 
-## See also
+## Related content
 
 - [Tell the debugger what to show using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md)
 - [Tell the debugger what type to show using DebuggerTypeProxy Attribute](../debugger/using-debuggertypeproxy-attribute.md)

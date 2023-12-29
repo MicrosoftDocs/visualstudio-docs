@@ -71,6 +71,6 @@ If you don't have access to a calling app's project, you can debug the DLL from 
     > For a .NET Core app in Visual Studio 2017 and Visual Studio 2019, you must use the *launchSettings.json* file instead of the project properties to enable mixed-mode debugging.
     ::: moniker-end
 
-## See also
+## Related content
 
 - [How to: Debug from a DLL project](../debugger/how-to-debug-from-a-dll-project.md)

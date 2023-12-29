@@ -180,6 +180,6 @@ For additional tips and tricks and more detailed information, see these blog pos
 - [7 lesser known hacks for debugging in Visual Studio](https://devblogs.microsoft.com/visualstudio/7-lesser-known-hacks-for-debugging-in-visual-studio/)
 - [7 hidden gems in Visual Studio](https://devblogs.microsoft.com/visualstudio/7-hidden-gems-in-visual-studio-2017/)
 
-## See also
+## Related content
 
 [Keyboard Shortcuts](../ide/productivity-shortcuts.md)

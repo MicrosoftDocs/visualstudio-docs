@@ -60,7 +60,7 @@ ms.technology: office-development
 
  For a list of topics that walk you through some of the common tasks in Excel projects, see [Common tasks in Office programming](../vsto/common-tasks-in-office-programming.md).
 
-## See also
+## Related content
 - [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
 - [Program document-level customizations](../vsto/programming-document-level-customizations.md)
 - [Excel solutions](../vsto/excel-solutions.md)

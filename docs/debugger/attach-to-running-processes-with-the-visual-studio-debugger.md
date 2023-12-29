@@ -271,7 +271,7 @@ If you want more specific information about why the debugger failed to attach to
 
     This time, the attach will fail completely, and you will get a specific error message.
 
-## See also
+## Related content
 
 - [Debug multiple processes](../debugger/debug-multiple-processes.md)
 - [Just-In-Time debugging](../debugger/just-in-time-debugging-in-visual-studio.md)

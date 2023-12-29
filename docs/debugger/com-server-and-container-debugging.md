@@ -47,6 +47,6 @@ COM applications perform a number of tasks outside of the programmer's direct co
 
  To access the *Project* Property Pages dialog box, right-click your project in Solution Explorer, and then choose Properties from the shortcut menu. To find the Command line arguments property, expand the Configuration Properties category and click the Debugging page.
 
-## See also
+## Related content
 
 - [COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md)

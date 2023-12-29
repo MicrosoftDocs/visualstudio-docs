@@ -348,7 +348,7 @@ This code relies on the assertion statement to handle the error condition. As a 
 
 [In this topic](#BKMK_In_this_topic)
 
-## See also
+## Related content
 
 - [Debugger Security](../debugger/debugger-security.md)
 - [Debugging Native Code](../debugger/debugging-native-code.md)

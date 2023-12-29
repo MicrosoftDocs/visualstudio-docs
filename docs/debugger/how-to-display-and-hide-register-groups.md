@@ -38,6 +38,6 @@ To reduce clutter, the **Registers** window organizes registers into groups. If 
 
      Register groups that are not supported by the hardware you are debugging on are disabled on the shortcut menu, so they cannot be selected.
 
-## See also
+## Related content
 
 - [How to: Use the Registers Window](../debugger/how-to-use-the-registers-window.md)

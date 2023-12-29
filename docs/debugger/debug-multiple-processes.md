@@ -167,7 +167,7 @@ The following table describes the behaviors of the debugger stop, terminate, and
 |**Processes** window > **Terminate Process**|The selected process is ended.<br />Other processes maintain their existing state (suspended or running).|
 |**Processes** window > **Detach when debugging stops**|If selected, **Debug** > **Stop Debugging** detaches from the selected process. <br />If not selected, **Debug** > **Stop Debugging** ends the selected process. |
 
-## See also
+## Related content
 
 - [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
 - [Attach to running processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)

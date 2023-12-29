@@ -33,7 +33,7 @@ The process for attaching to the ASP.NET worker process is the same as attaching
 > [!NOTE]
 > Many ASP.NET Web applications reference DLLs that contain business logic or other useful code. Such a reference copies the DLL from your local computer to the \bin folder of the Web application's virtual directory when you deploy your app. When you are debugging, remember that your Web application is referencing that copy of the DLL and not the copy on your local computer.
 
-## See also
+## Related content
 - [Debug ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)
 - [How to: Enable Debugging for ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)
 - [How to: Find the Name of the ASP.NET Process](../debugger/how-to-find-the-name-of-the-aspnet-process.md)

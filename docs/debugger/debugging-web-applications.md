@@ -39,7 +39,7 @@ This article provides links to help you debug different types of web application
 
   AJAX-enabled Web applications make heavy use of script code and pose special debugging challenges. For information about AJAX debugging techniques, see [Debugging and Tracing Ajax Applications Overview](/previous-versions/bb398817(v=vs.140)).
 
-## See also
+## Related content
 
 - [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)

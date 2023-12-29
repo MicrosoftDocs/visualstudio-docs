@@ -21,7 +21,7 @@ ms.technology: vs-ide-debug
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A Windows service is a program that runs in the background under Microsoft Windows. Examples include the Telnet service and the Windows time service, which updates your computer's visible clock. A Windows service cannot be run from within Visual Studio; it must run within the context of the Services Control Manager. For more information, see [Creating Windows Services](/dotnet/framework/windows-services/how-to-create-windows-services), [Debugging Windows Service Applications](/dotnet/framework/windows-services/how-to-debug-windows-service-applications), and [Windows Service Applications](/dotnet/framework/windows-services/index).
 
-## See also
+## Related content
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)
 - [Managed debugging: Recommended project settings](../debugger/managed-debugging-recommended-property-settings.md)
 - [Project Settings for  C# Debug Configurations](../debugger/project-settings-for-csharp-debug-configurations.md)

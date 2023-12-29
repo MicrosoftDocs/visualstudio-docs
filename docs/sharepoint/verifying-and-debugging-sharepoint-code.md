@@ -42,6 +42,6 @@ SharePoint projects support Microsoft Fakes, which is an isolation framework in 
 |[Walkthrough: Debug a SharePoint application by using IntelliTrace](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md)|Demonstrates how to find coding errors in a SharePoint project by using IntelliTrace.|
 |[Unit Test Your Code](../test/unit-test-your-code.md)|Describes how to find logic errors in your code by using unit tests.|
 
-## See also
+## Related content
 
 - [Improve Code Quality](../test/improve-code-quality.md)

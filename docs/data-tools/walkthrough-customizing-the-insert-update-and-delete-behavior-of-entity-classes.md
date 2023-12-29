@@ -275,7 +275,7 @@ Depending on your application requirements, there are several steps that you may
 
 - Add LINQ queries to filter data. For information, see [Introduction to LINQ queries (C#)](/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries).
 
-## See also
+## Related content
 
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
 - [DataContext methods](../data-tools/datacontext-methods-o-r-designer.md)

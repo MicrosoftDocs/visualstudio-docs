@@ -88,7 +88,7 @@ When you start debugging an installed app package on a connected Xbox, HoloLens,
 
 For more information on remote deployment of UWP apps, see [Deploy and debug UWP apps](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps#advanced-remote-deployment-options) and [Debug UWP apps on remote machines](run-windows-store-apps-on-a-remote-machine.md).
 
-## See also
+## Related content
 
 - [Debugging in Visual Studio](../debugger/index.yml)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)

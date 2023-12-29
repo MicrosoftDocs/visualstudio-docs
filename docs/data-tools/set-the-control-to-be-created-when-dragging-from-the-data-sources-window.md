@@ -66,6 +66,6 @@ Before you drag an item that represents a column or a property of an object from
 
      If you don't want to create a control for the column or property, select **None** in the drop-down menu. This is useful if you want to drag the parent table or object to the designer, but you do not want to include the specific column or property.
 
-## See also
+## Related content
 
 - [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)

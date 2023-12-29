@@ -108,7 +108,7 @@ For more information and help, see [Troubleshooting and known issues for snapsho
 
 If it's difficult to recreate a particular state in your app, consider using a conditional snappoint. Conditional snappoints help you avoid collecting a recording until the app enters a desired state, such as when a variable has a particular value. For more information about setting conditions based on expressions, filters, or hit counts, see [Breakpoint conditions](using-breakpoints.md#breakpoint-conditions).
 
-## Next steps
+## Related content
 
 In this tutorial, you learned how to use the Snapshot Debugger to collect a time travel recording for Azure VMs. Learn more about snapshot debugging:
 

@@ -39,6 +39,6 @@ You can open most debugger windows while you're debugging your program. To see a
 |Disassembly|CTRL+ALT+D|[How to: Use the Disassembly Window](../debugger/how-to-use-the-disassembly-window.md)|
 |Registers|CTRL+ALT+G|[How to: Use the Registers Window](../debugger/how-to-use-the-registers-window.md)|
 
-## See also
+## Related content
 
 [First look at the debugger](../debugger/debugger-feature-tour.md)

@@ -38,6 +38,6 @@ When the debugger breaks execution because of an exception, you will see the **E
 ## Mixed Code
  If you hit an unhandled exception while debugging a mixed native and managed code, operating system constraints prevent unwinding the call stack. If you try rewinding the call stack using the shortcut menu, an error message explains that the debugger cannot unwind from an unhandled except during mixed-code debugging.
 
-## See also
+## Related content
 
 - [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)

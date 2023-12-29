@@ -23,5 +23,5 @@ Using the extensibility APIs in this section, you can extend the .Exe Project Sy
 
  <xref:Microsoft.VisualStudio.Debugger.VsDebugPresentationExtension>
 
-## See also
+## Related content
 - [Using Dump Files](../debugger/using-dump-files.md)

@@ -135,7 +135,7 @@ In addition to taking a snapshot when a snappoint is hit, you can also configure
 
    If you choose **Send to application log**, when the logpoint is hit, the message appears anywhere that you can see messages from `System.Diagnostics.Trace` (or `ILogger` in .NET Core), such as [App Insights](/azure/application-insights/app-insights-asp-net-trace-logs).
 
-## Next steps
+## Related content
 
 In this tutorial, you've learned how to use the Snapshot Debugger for App Services. You may want to read more details about this feature.
 

@@ -77,7 +77,7 @@ To set the primary key, right-click the **SongID** column, and then click **Set 
 
 To save the **DataTableWalkthrough** project, on the **File** menu, select **Save All**.
 
-## See also
+## Related content
 
 - [Create and configure datasets in Visual Studio](../data-tools/create-and-configure-datasets-in-visual-studio.md)
 - [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)

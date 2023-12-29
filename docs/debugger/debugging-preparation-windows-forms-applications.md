@@ -59,7 +59,7 @@ The Windows Forms App project template creates a Windows Forms application. Debu
 
 4. Debug using the techniques discussed in [First look at the debugger](../debugger/debugger-feature-tour.md).
 
-## See also
+## Related content
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)
 - [Managed debugging: Recommended project settings](../debugger/managed-debugging-recommended-property-settings.md)
 - [How to: Set Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md)

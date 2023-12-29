@@ -87,7 +87,7 @@ My next job is to find that problematic code.
 
    ![Analyze decompiled code](../debugger/media/diagnostic-analyzer-decompiled-code.png)
 
-## See also
+## Related content
 
 * [Use dump files in the debugger](../debugger/using-dump-files.md)
 * [Generate source code from .NET assemblies while debugging](../debugger/decompilation.md)

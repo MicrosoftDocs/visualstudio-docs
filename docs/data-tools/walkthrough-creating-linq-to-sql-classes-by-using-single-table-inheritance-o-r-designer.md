@@ -182,7 +182,7 @@ Run the application and verify that the records displayed in the list box are al
 
 3. Close the form. (On the **Debug** menu, click **Stop Debugging**.)
 
-## See also
+## Related content
 
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
 - [Walkthrough: Creating LINQ to SQL classes (O-R Designer)](how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-o-r-designer.md)

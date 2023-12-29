@@ -147,7 +147,7 @@ Now, start the app. When you make a change to the label text in your C# code and
 
 ![Screenshot of Hot Reload working.](../debugger/media/vs-2022/hot-reload-metadataupdatehandler-example-works.png)
 
-## Additional resources
+## Related content
 
 - [C# UI and .NET Hot Reload](https://dev.to/davidortinau/c-ui-and-net-hot-reload-a-match-made-in-net-maui-243f)
 - [Supporting Hot Reload in your .NET application](https://www.meziantou.net/supporting-hot-reload-in-your-dotnet-application.htm)

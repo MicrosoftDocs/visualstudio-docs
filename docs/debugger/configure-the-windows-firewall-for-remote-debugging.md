@@ -135,7 +135,7 @@ If you can't attach to your app with the remote debugger, make sure the remote d
   - To view or change the rule settings, right-click the **Remote Debugger** app in the list and select **Properties**. Use the **Properties** tabs to enable or disable the rule, or change port numbers, protocols, or network types.
   - If the remote debugger app doesn't appear in the rules list, [add and configure the correct ports](#configure-ports-for-remote-debugging).
 
-## See also
+## Related content
 
 - [Remote debugging](../debugger/remote-debugging.md)
 - [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md)

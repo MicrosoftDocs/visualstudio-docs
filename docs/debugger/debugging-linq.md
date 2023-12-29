@@ -102,7 +102,7 @@ End Function
 ## <a name="BKMK_EditandContinueNotSupportedforLINQ"></a> Edit and Continue Not Supported for LINQ
  Edit and Continue supports changes to LINQ queries with limitations. For details, see [EnC Supported Changes](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md)
 
-## See also
+## Related content
 
 - [Debugging SQL](/previous-versions/visualstudio/visual-studio-2010/zefbf0t6\(v\=vs.100\))
 - [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)

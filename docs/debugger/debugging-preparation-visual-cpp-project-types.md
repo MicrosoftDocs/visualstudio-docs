@@ -85,7 +85,7 @@ This section describes how to debug the basic project types created by the Visua
 
    [In this topic](../debugger/debugging-preparation-visual-cpp-project-types.md#BKMK_In_this_topic)
 
-## See also
+## Related content
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
 - [Attaching to a Running Program or Multiple Programs](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)

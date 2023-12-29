@@ -79,5 +79,5 @@ Visual Studio can receive debug trace information from WPF applications and disp
 
 8. Click **OK**.
 
-## See also
+## Related content
 - [Debugging WPF](../debugger/debugging-wpf.md)

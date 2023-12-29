@@ -74,7 +74,7 @@ You can debug C++ code that is running on the graphics processing unit (GPU). GP
 ### Error: Timeout Detection and Recovery (TDR) must be disabled at the remote site.
  It is possible for C++ AMP computations to exceed the default time interval that's set by the Windows timeout detection and recovery process (TDR). When that happens, the computation is canceled and the data is lost. For more information, see [Handling TDRs in C++ AMP](/archive/blogs/nativeconcurrency/handling-tdrs-in-c-amp).
 
-## See also
+## Related content
 - [Walkthrough: Debugging a C++ AMP Application](/cpp/parallel/amp/walkthrough-debugging-a-cpp-amp-application)
 - [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
 - [Start GPU Debugging in Visual Studio](/archive/blogs/nativeconcurrency/start-gpu-debugging-in-visual-studio-2012)

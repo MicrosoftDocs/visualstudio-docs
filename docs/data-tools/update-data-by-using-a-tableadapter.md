@@ -52,6 +52,6 @@ Call the `Update` method of a TableAdapter. Pass the name of the data table that
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form3.vb" id="Snippet9":::
      ---
 
-## See also
+## Related content
 
 - [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

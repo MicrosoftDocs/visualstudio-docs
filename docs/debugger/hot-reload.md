@@ -147,7 +147,7 @@ It is highly recommended to check for the **Hot Reload Output** window for detai
 
 If you're using response compression on .NET Core, see the information on [response compression](/dotnet/core/tools/dotnet-watch#response-compression).
 
-## See also
+## Related content
 
 * [Edit and Continue (C#)](../debugger/edit-and-continue-visual-csharp.md)
 * [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md)

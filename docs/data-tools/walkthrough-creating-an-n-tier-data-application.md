@@ -422,7 +422,7 @@ Depending on your application requirements, there are several steps that you may
 
 - Add additional methods to the service for updating data back to the database.
 
-## See also
+## Related content
 
 - [Work with datasets in n-tier applications](../data-tools/work-with-datasets-in-n-tier-applications.md)
 - [Hierarchical update](../data-tools/hierarchical-update.md)
