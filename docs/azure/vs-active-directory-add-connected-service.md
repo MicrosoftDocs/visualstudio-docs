@@ -59,8 +59,6 @@ This article and its companion articles provide details of using the Visual Stud
 
 1. The **Dependency configuration process** screen shows the specific changes that are being made to your project.
 
-   ![Screenshot showing the Dependency configuration process screen](./media/vs-azure-active-directory/dependency-configuration-process.png)
-
 Now the new service dependency shows on the Connected Services screen.
 
 ![Screenshot showing the Microsoft Identity platform service dependency has been created.](./media/vs-azure-active-directory/identity-platform-service-dependency.png)
