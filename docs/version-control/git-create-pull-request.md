@@ -27,7 +27,7 @@ To create a pull request, follow these steps:
 
 1. Select the link in the notification banner to **Create in Visual Studio** or **Create in Browser**.
 
-   :::image type="content" source="media/vs-2022/git-create-pr-infobar-two-links.png" alt-text="Screenshot of the Git Changes window with the infobar 'Successfully pushed QP to origin. Pull request: Create in Visual Studio or create in browser.' in Visual Studio 2022.":::
+   :::image type="content" source="media/vs-2022/git-create-pull-request-infobar-two-links.png" alt-text="Screenshot of the Git Changes window with the infobar 'Successfully pushed QP to origin. Pull request: Create in Visual Studio or create in browser.' in Visual Studio 2022.":::
    
    Alternatively, you can create a pull request from a remote branch by navigating to the **New Pull Request** window via the top-level menu **Git** > **GitHub** or **Azure DevOps** > **New Pull Request**. Or right-click a branch in the Git Repository Window.
    
