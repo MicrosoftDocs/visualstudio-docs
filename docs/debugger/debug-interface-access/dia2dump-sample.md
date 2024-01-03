@@ -71,4 +71,4 @@ Dia2Dump.exe relies on the msdia*version*.dll COM server to provide its services
 
 ## See also
 
-- [Port, Migrate, and Upgrade Visual Studio Projects](../../porting/port-migrate-and-upgrade-visual-studio-projects.md)
+- [Port, Migrate, and Upgrade Visual Studio Projects](/visualstudio/releases/2019/port-migrate-and-upgrade-visual-studio-projects)
