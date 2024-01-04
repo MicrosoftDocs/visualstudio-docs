@@ -247,7 +247,7 @@ some F# code
 
 <h4 class="subHeading">Example of code specific text</h4>Language = <LanguageSpecificText devLangcs="CS" devLangvb="VB" devLangcpp="C++" devLangnu="F#" />
 
-<a name="relatedcontent"></a>
+<a name="related-content"></a>
 <h1 class="heading">Related content</h1>
 
     <div id="relatedcontentSection" class="section">
