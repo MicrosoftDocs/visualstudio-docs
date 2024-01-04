@@ -35,6 +35,13 @@ When you customize a window layout, the Visual Studio [integrated development en
 
 You can also name and save a custom layout and then switch between layouts with a single command. For example, you could create a layout for editing and a layout for debugging, and switch between them by using the **Window** > **Apply Window Layout** menu command.
 
+::: moniker range="vs-2022"
+
+> [!TIP]
+> Starting with Visual Studio 17.9, the list of open documents was moved from a binary format in the .suo file to a plain text format in a JSON file. The JSON file is saved in the hidden .vs folder in the same location of the .suo file (solutionFolder.vs\SolutionName\v17). This JSON file contains the list of open documents and their properties, the layout of document groups and containers, and vertical tab column width. Storing in plain text as JSON allows for easier back up as well as the ability to check in different sets of open documents that can be restored as needed.
+
+::: moniker-end
+
 ### Tool and document windows
 
 The IDE has two basic window types, *tool windows* and *document windows*. Tool windows include **Solution Explorer**, **Server Explorer**, **Output Window**, **Error List**, the designers, the debugger windows, and so on. Document windows contain source code files, arbitrary text files, config files, and so on. You can resize or drag tool windows by their title bar. You can drag document windows by their tab. Right-click on the tab or title bar to set other options on the window.
