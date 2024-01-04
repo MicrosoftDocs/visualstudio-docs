@@ -300,7 +300,7 @@ You can now press **F5** to execute your analyzer in a second instance of Visual
 
 You can see all the finished code [here](https://github.com/DustinCampbell/CoreFxAnalyzers/tree/master/Source/CoreFxAnalyzers). The sub folders *DoNotUseImmutableArrayCollectionInitializer* and *DoNotUseImmutableArrayCtor* each have a C# file for finding issues and a C# file that implements the code fixes that show up in the Visual Studio light bulb UI. Note, the finished code has a little more abstraction to avoid fetching the ImmutableArray\<T> type object over and over. It uses nested registered actions to save the type object in a context that is available whenever the sub actions (analyze object creation and analyze collection initializations) execute.
 
-## See also
+## Related content
 
 * \\\Build 2015 talk
 * [Completed code on GitHub](https://github.com/DustinCampbell/CoreFxAnalyzers/tree/master/Source/CoreFxAnalyzers)

@@ -124,7 +124,7 @@ You can save disk space by moving installed content from your local computer to 
 
 3. Choose the **Close** button when the content has been moved.
 
-## See also
+## Related content
 
 - [Microsoft Help Viewer](../help-viewer/overview.md)
 - [Override Help Viewer defaults](../help-viewer/behavior-overrides.md)

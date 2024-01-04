@@ -43,7 +43,7 @@ There is some internal code in the ServiceHub host process that handles the RPC 
 > [!TIP]
 > It can be convenient to have multiple monitors, so you can see both the debugger and the experimental instance at the same time on two different monitors. You might want to change the theme in the Experimental Instance to make it more obvious which IDE you're working with at any given time. See [How to personalize the IDE](/visualstudio/ide/quickstart-personalize-the-ide).
 
-## Next steps
+## Related content
 
 - [Learn more about debugging](/visualstudio/debugger/)
 
