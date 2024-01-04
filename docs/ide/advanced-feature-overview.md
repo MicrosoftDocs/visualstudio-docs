@@ -164,7 +164,7 @@ You can also improve the Git performance on large repositories by [enabling Git 
 
 ::: moniker-end
 
-## Next steps
+## Related content
 
 - [Visual Studio SDK](../extensibility/visual-studio-sdk.md)
 - [Roslyn](https://github.com/dotnet/Roslyn)
