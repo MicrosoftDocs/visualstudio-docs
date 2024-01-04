@@ -203,7 +203,7 @@ You can configure when Fast Mode is used; see [How to configure Visual Studio Co
 
 Learn how to [troubleshoot Visual Studio Docker development](troubleshooting-docker-errors.md).
 
-## Next steps
+## Related content
 
 Get more details by reading [How Visual Studio builds containerized apps](container-build.md).
 

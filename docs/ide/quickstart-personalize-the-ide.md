@@ -124,10 +124,6 @@ Next, change the text color for these items:
 
    ![Screenshot of an XML file with new font colors.](media/quickstart-personalize-xml-file-new-colors.png)
 
-## Next steps
-
-Explore the other customization options in the [**Fonts and Colors** > **Options**](../ide/reference/fonts-and-colors-environment-options-dialog-box.md) dialog box to truly make Visual Studio your own.
-
 ::: moniker range="vs-2022"
 
 > [!TIP]
@@ -137,6 +133,7 @@ Explore the other customization options in the [**Fonts and Colors** > **Options
 
 ## Related content
 
+- [Fonts and Colors, Environment, Options dialog box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md)
 - [Change fonts, colors, and themes in Visual Studio](../ide/how-to-change-fonts-and-colors-in-visual-studio.md)
 - [Change text case in the editor](../ide/how-to-change-text-case-in-the-editor.md)
 - [Customize window layouts and personalize tabs](customizing-window-layouts-in-visual-studio.md)
