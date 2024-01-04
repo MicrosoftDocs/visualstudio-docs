@@ -52,6 +52,6 @@ This package contains the code generators that are necessary for extension metad
 
 In future previews, we may have NuGet packages that are not included as a required dependency from `Microsoft.VisualStudio.Extensibility.Sdk` package but can be added as needed to provide APIs for certain feature areas such as debugger, source control.
 
-## Next steps
+## Related content
 
-Learn more about VisualStudio.Extensibility by reading [Components of a VisualStudio.Extensibility extension](./extension-anatomy.md).
+- [Components of a VisualStudio.Extensibility extension](./extension-anatomy.md).

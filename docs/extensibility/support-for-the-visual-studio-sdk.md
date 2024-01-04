@@ -57,6 +57,6 @@ Questions about Premier Support offerings in conjunction with the VSIP program c
 
 Information about individual support requests can be found at [Individual Support Requests](https://support.microsoft.com/supportforbusiness/productselection).
 
-## See also
+## Related content
 
 - [Visual Studio Developer Community](https://developercommunity.visualstudio.com/home)

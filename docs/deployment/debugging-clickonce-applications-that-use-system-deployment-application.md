@@ -73,5 +73,5 @@ In Visual Studio, ClickOnce deployment allows you to configure how an applicatio
 
    Use the <xref:System.Deployment.Application.ApplicationDeployment.IsNetworkDeployed%2A> property to invoke the <xref:System.Deployment.Application> APIs only when the application is deployed; the APIs shouldn't be invoked during debugging in Visual Studio.
 
-## See also
+## Related content
 - <xref:System.Deployment.Application>

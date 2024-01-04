@@ -39,7 +39,7 @@ Another way to easily install Microsoft Help Viewer is through the search box:
 
    ![Install button](media/installation/install.png)
 
-## See also
+## Related content
 
 - [Microsoft Help Viewer](../help-viewer/overview.md)
 - [Help viewer and offline content for SQL Server](/sql/sql-server/sql-server-help-installation)

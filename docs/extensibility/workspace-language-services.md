@@ -53,6 +53,6 @@ The `Microsoft.VisualStudio.Workspace.*` APIs aren't the only way to enable your
 
 - <xref:Microsoft.VisualStudio.Workspace.Intellisense.ILanguageServiceProvider> is invoked when a file of matching file types is opened or closed for editing.
 
-## Next steps
+## Related content
 
 * [Workspace build](workspace-build.md) - Open Folder supports build systems such as MSBuild and makefiles.

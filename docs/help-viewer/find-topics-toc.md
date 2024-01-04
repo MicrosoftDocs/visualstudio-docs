@@ -45,7 +45,7 @@ If you have opened a topic using the index or full-text search features, you can
 
      The **Contents** tab opens and displays the topic's location in the TOC.
 
-## See also
+## Related content
 
 - [How to: Find topics in the index](../help-viewer/find-topics-index.md)
 - [How to: Search for topics](../help-viewer/find-topics.md)

@@ -422,7 +422,7 @@ End Class
 
     You have successfully created and used an Extension SDK.
 
-## See also
+## Related content
 - [Walkthrough: Create an SDK using C++](../extensibility/walkthrough-creating-an-sdk-using-cpp.md)
 - [Walkthrough: Create an SDK using JavaScript](../extensibility/walkthrough-creating-an-sdk-using-javascript.md)
 - [Create a Software Development Kit](../extensibility/creating-a-software-development-kit.md)

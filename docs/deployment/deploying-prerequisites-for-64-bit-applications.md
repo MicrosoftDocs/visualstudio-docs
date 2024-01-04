@@ -36,7 +36,7 @@ ClickOnce deployment supports the installation of applications on 64-bit platfor
 | Microsoft .NET Framework 4 (x86 and x64) | Yes | |
 | Microsoft .NET Framework 4 Client Profile (x86 and x64) | Yes | |
 
-## See also
+## Related content
 - [Deploy applications, services, and components](../deployment/deploying-applications-services-and-components.md)
 - [How to: Install prerequisites with a ClickOnce application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)
 - [64-bit applications](/dotnet/framework/64-bit-apps)
