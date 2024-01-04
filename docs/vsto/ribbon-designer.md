@@ -1,5 +1,5 @@
 ---
-title: "Ribbon Designer"
+title: Use the Ribbon Designer to add & configure controls
 description: Use the Ribbon Designer to add custom tabs, groups, and controls to the ribbon of a Microsoft Office application and configure how the controls react to events.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -195,7 +195,7 @@ ms.technology: office-development
 |Select the first control on the drop-down panel if the drop-down panel is open.|**Right**|
 |Close a drop-down panel.|**Esc**|
 
-## See also
+## Related content
 
 - [Ribbon overview](../vsto/ribbon-overview.md)
 - [Ribbon XML](../vsto/ribbon-xml.md)

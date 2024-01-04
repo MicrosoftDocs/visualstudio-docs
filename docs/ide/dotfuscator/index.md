@@ -1,5 +1,5 @@
 ---
-title: Dotfuscator Community
+title: Use Dotfuscator Community to protect .NET apps
 ms.date: 03/28/2019
 ms.devlang: dotnet
 ms.topic: overview

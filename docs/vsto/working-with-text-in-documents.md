@@ -41,6 +41,6 @@ ms.technology: office-development
 |Hide the text in a bookmark before printing a document.|[How to: Programmatically hide text in documents](../vsto/how-to-programmatically-hide-text-in-documents.md)|
 |Add a comment to text.|[How to: Programmatically add comments to text in documents](../vsto/how-to-programmatically-add-comments-to-text-in-documents.md)|
 
-## See also
+## Related content
 - [Word object model overview](../vsto/word-object-model-overview.md)
 - [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)

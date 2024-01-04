@@ -34,5 +34,5 @@ ms.technology: office-development
  **Dynamic keyboard scheme**
  Visual Studio receives shortcut key commands only when it has focus. When Excel has focus, Excel receives all shortcut key commands. For example, if you press the function key **F5** while Excel has focus, Excel opens the **Go To** dialog box. If you press **F5** while Visual Studio has focus, Visual Studio starts debugging your solution.
 
-## See also
+## Related content
 - [Microsoft Office Word Keyboard, Microsoft Office Keyboard Settings, Options dialog box](../vsto/microsoft-office-word-keyboard-microsoft-office-keyboard-settings-options-dialog-box.md)

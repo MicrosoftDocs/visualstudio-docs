@@ -390,7 +390,7 @@ using (proxy as IDisposable)
 }
 ```
 
-## See also
+## Related content
 
 - [Discovering Available Brokered Services](internals/discover-available-brokered-services.md)
 - [Brokered Service Essentials](internals/brokered-service-essentials.md)

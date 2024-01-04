@@ -64,7 +64,7 @@ For an example of how to implement a custom activity designer, see [How to: Crea
 > [!NOTE]
 > Custom activity designers can be used for custom activities and for default .NET activities.
 
-## See also
+## Related content
 
 - [Use the Workflow Designer](developing-applications-with-the-workflow-designer.md)
 - [Design workflows (.NET Framework)](/dotnet/framework/windows-workflow-foundation/designing-workflows)

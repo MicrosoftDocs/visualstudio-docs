@@ -1,5 +1,5 @@
 ---
-title: Code snippets
+title: Create and reuse code block snippets
 description: Explore code snippets, which are small blocks of reusable code that you can insert into a code file, such as `try-finally` or `if-else` blocks, classes, or methods.
 ms.date: 12/14/2022
 ms.topic: conceptual
@@ -18,20 +18,19 @@ dev_langs:
 - VB
 - CPP
 ---
-# Code snippets
+# Code snippets: what they are and how to add one
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Code snippets are small blocks of reusable code that you can add to a code file by using the right-click context menu command or a combination of hotkeys. Code snippets typically contain often-used code blocks such as `try-finally` or `if-else` blocks, but you can also use them to add entire classes or methods.
+Code snippets are small blocks of reusable code that you can add to a code file. Snippets most commonly contain often-used code blocks such as `try-finally` or `if-else` blocks. However, you can also use them to add entire classes or methods. Your snippets can even contain replacement parameters, which act as placeholders. Snippets are available for many languages, including C#, C++, and Visual Basic, to name a few.
 
-> [!NOTE]
-> This article applies to Visual Studio on Windows. For Visual Studio for Mac, see [Code snippets (Visual Studio for Mac)](/visualstudio/mac/snippets).
+## Find available snippets
 
-Code snippets are available for many languages, including C#, C++, and Visual Basic, to name a few.
-
-To view all the available snippets for a language, select **Tools** > **Code Snippets Manager** from the menu bar (or, press **Ctrl**+**K**, **Ctrl**+**B**) and then select the language you want from the drop-down menu at the top of the dialog box.
+Before you (create a snippet of your own)[walkthrough-creating-a-code-snippet.md], you can check the available snippets for a language, select **Tools** > **Code Snippets Manager** from the menu bar (or, press **Ctrl**+**K**, **Ctrl**+**B**) and then select the language you want from the drop-down menu at the top of the dialog box.
 
 ![Screenshot of the Code Snippets Manager dialog box.](media/code-snippets-manager.png)
+
+## Add a snippet to your code file
 
 In Visual Studio, there are several different ways you can add a code snippet to a code file:
 
@@ -84,7 +83,11 @@ if (true)
 
 Snippets can contain replacement parameters, which are placeholders that you must replace to fit the code you're writing. In the previous example, `true` is a replacement parameter, which you'd replace with the appropriate condition. The replacement you make is repeated for every instance of the same replacement parameter in the snippet.
 
-For example, in Visual Basic there's a code snippet that inserts a property. To insert the snippet, select **Snippet** > **Insert Snippet** from the right-click context menu in a Visual Basic code file. Then, select **Code Patterns** > **Properties, Procedures, Events** > **Define a Property**.
+For example, in Visual Basic there's a code snippet that inserts a property. 
+
+To insert the snippet:
+1. In the right-click context menu in a Visual Basic code file, select **Snippet** > **Insert Snippet**.
+2. Select **Code Patterns** > **Properties, Procedures, Events** > **Define a Property**.
 
 ![Screenshot of the code snippet menu for Define a Property.](media/code-snippets-vb-property.png)
 
@@ -106,9 +109,9 @@ If you change `newPropertyValue` to `m_property`, then every instance of `newPro
 
 ## Related content
 
-- -[Walkthrough: Create a code snippet](walkthrough-creating-a-code-snippet.md).
+- [Create a code snippet](walkthrough-creating-a-code-snippet.md).
+- [Distribute code snippets](how-to-distribute-code-snippets.md)
 - [C# code snippets](visual-csharp-code-snippets.md)
 - [C++ code snippets](visual-cpp-code-snippets.md)
-- [Best practices for using code snippets](best-practices-for-using-code-snippets.md)
 - [Code snippets schema reference](code-snippets-schema-reference.md)
-- [How to: Distribute code snippets](how-to-distribute-code-snippets.md)
+

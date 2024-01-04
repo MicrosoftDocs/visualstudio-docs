@@ -1,5 +1,5 @@
 ---
-title: "Program VSTO Add-ins"
+title: Program VSTO add-ins with the ThisAddIn class
 description: Program VSTO add-ins with the ThisAddIn class to perform tasks such as accessing the object model of the Microsoft Office host application.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -149,7 +149,7 @@ Dim newWorkbook As Excel.Workbook = Globals.ThisAddIn.Application.Workbooks.Add(
 
  For more information, see [Call code in VSTO Add-ins from other Office solutions](../vsto/calling-code-in-vsto-add-ins-from-other-office-solutions.md).
 
-## See also
+## Related content
 - [Develop Office solutions](../vsto/developing-office-solutions.md)
 - [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
 - [Call code in VSTO Add-ins from other Office solutions](../vsto/calling-code-in-vsto-add-ins-from-other-office-solutions.md)

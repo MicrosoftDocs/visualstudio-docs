@@ -1,5 +1,5 @@
 ---
-title: "Actions pane overview"
+title: Attach an actions pane to documents or workbooks
 description: Attach an actions pane to specific Microsoft Office Word documents or Excel workbooks and access a customizable Document Actions task pane.
 ms.date: 02/02/2017
 ms.topic: conceptual
@@ -176,7 +176,7 @@ ms.technology: office-development
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb" id="Snippet101":::
  ---
 
-## See also
+## Related content
 - [Use WPF controls in Office solutions](../vsto/using-wpf-controls-in-office-solutions.md)
 - [Office UI customization](../vsto/office-ui-customization.md)
 - [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md)

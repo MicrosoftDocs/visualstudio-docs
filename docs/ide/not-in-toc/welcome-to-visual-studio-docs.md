@@ -10,6 +10,7 @@ manager: jmartens
 f1_keywords:
  - vs.ViewHelp
  - MSDNSTART
+ - vs.Default.Query
 ms.date: 02/28/2023
 ROBOTS: NOINDEX,NOFOLLOW
 ---

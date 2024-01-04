@@ -1,5 +1,5 @@
 ---
-title: Unit test tools
+title: Unit test tools to improve code
 description: Explore the features of Visual Studio testing tools that can help you and your team develop and sustain high standards of code excellence.
 ms.date: 03/18/2022
 ms.topic: conceptual
@@ -102,8 +102,8 @@ Whether you choose best-of-breed Coded UI Tests or generic browser-based UI test
 * [Introduction to coded UI tests with Visual Studio Enterprise (Lab)](https://azuredevopslabs.com/labs/tfs/codedui)
 ::: moniker-end
 
-## Related scenarios
+## Related content
 
-* [Exploratory & manual testing (Azure Test Plans)](/azure/devops/test/index?view=vsts&preserve-view=true)
-* [Load testing (Azure Load Testing)](/azure/load-testing/)
-* [Code analysis tools](../code-quality/code-analysis-for-managed-code-overview.md)
+- [Exploratory & manual testing (Azure Test Plans)](/azure/devops/test/index?view=vsts&preserve-view=true)
+- [Load testing (Azure Load Testing)](/azure/load-testing/)
+- [Code analysis tools](../code-quality/code-analysis-for-managed-code-overview.md)

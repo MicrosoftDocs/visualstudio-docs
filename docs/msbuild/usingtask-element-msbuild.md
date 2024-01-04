@@ -34,7 +34,7 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
 ```
 
 > [!NOTE]
-> Unlike properties and items, the *first* `UsingTask` element that applies to a `TaskName` will be used; to override tasks you must define a new `UsingTask` *before* the existing one.
+> Unlike properties and items, the *first* `UsingTask` element that applies to a `TaskName` will be used; to override tasks you must define a new `UsingTask` *before* the existing one, or specify `Override="true"` in the new `UsingTask`.
 
 ## Attributes and elements
 
@@ -47,8 +47,9 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
 |`Architecture`|Optional attribute.<br /><br /> Specifies that the task must run in a process of the specified bitness. If the current process does not satisfy the requirement, the task will be run in a task host process that does.<br /><br /> Supported values are `x86` (32-bit), `x64` (64-bit), `CurrentArchitecture`, and `*` (any architecture).|  
 |`AssemblyName`|Either the `AssemblyName` attribute or the `AssemblyFile` attribute is required.<br /><br /> The name of the assembly to load. The `AssemblyName` attribute accepts strong-named assemblies, although strong-naming is not required. Using this attribute is equivalent to loading an assembly by using the <xref:System.Reflection.Assembly.Load%2A> method in .NET.<br /><br /> You cannot use this attribute if the `AssemblyFile` attribute is used.|
 |`AssemblyFile`|Either the `AssemblyName` or the `AssemblyFile` attribute is required.<br /><br /> The file path of the assembly. This attribute accepts full paths or relative paths. Relative paths are relative to the directory of the project file or targets file where the `UsingTask` element is declared. Using this attribute is equivalent to loading an assembly by using the <xref:System.Reflection.Assembly.LoadFrom%2A> method in .NET.<br /><br /> You cannot use this attribute if the `AssemblyName` attribute is used.|
+|`Override`|Optional attribute.<br /><br /> Specifies that this `UsingTask` element should be higher priority than other elements defining the same task name. Only one override is permitted per task name. Added in MSBuild 17.2.|  
 |`Runtime`|Optional attribute.<br /><br /> Specifies that the task must run in a .NET Framework runtime of the specified version. If the current process does not satisfy the requirement, the task will be run in a task host process that does.<br /><br /> Supported values are 'NET' (.NET Core and .NET 5 or higher), `CLR2` (.NET Framework 3.5), `CLR4` (.NET Framework 4.7.2 or higher), `CurrentRuntime`, and `*` (any runtime). Note that you can't call NET tasks when you're running the .NET Framework (CLR4) MSBuild, and you can't call CLR2/CLR4 tasks from the .NET MSBuild (when running `dotnet build`).|  
-|`TaskFactory`|Optional attribute.<br /><br /> Specifies the class in the assembly that is responsible for generating instances of the specified `Task` name.  The user may also specify a `Task` as a child element that the task factory receives and uses to generate the task. The contents of the `Task` are specific to the task factory.|
+|`TaskFactory`|Optional attribute.<br /><br /> Specifies the class in the assembly that is responsible for generating instances of the specified `Task` name.  The user may also specify a `Task` as a child element that the task factory receives and uses to generate the task. The contents of the `Task` are specific to the task factory. The default `TaskFactory` is `AssemblyTaskFactory`, which loads the task into the running process.|
 |`TaskName`|Required attribute.<br /><br /> The name of the task to reference from an assembly. If ambiguities are possible, this attribute should always specify full namespaces. If there are ambiguities, MSBuild chooses an arbitrary match, which could produce unexpected results.|
 |`Condition`|Optional attribute.<br /><br /> The condition to evaluate. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|
 
@@ -78,7 +79,18 @@ The assembly containing the custom task is loaded when the `Task` is first used.
 
 ## Example 1
 
- The following example shows how to use the `UsingTask` element with an `AssemblyName` attribute.
+ The following example shows how to use the `UsingTask` element with an `AssemblyFile` attribute.
+
+```xml
+<UsingTask TaskName="Email"
+           AssemblyFile="c:\myTasks\myTask.dll" />
+```
+
+Because there is no `Runtime` or `TaskHost` specified, the task will be executed the MSBuild process, in the runtime and architecture that happen to be running for a given build.
+
+## Example 2
+
+ The following example shows how to use the `UsingTask` element with an `AssemblyName` attribute and a custom `TaskFactory` defined in that assembly.
 
 ```xml
 <UsingTask TaskName="MyTask" AssemblyName="My.Assembly" TaskFactory="MyTaskFactory">
@@ -91,15 +103,6 @@ The assembly containing the custom task is loaded when the `Task` is first used.
       ... Task factory-specific data ...
        </Task>
 </UsingTask>
-```
-
-## Example 2
-
- The following example shows how to use the `UsingTask` element with an `AssemblyFile` attribute.
-
-```xml
-<UsingTask TaskName="Email"
-              AssemblyFile="c:\myTasks\myTask.dll" />
 ```
 
 ## See also

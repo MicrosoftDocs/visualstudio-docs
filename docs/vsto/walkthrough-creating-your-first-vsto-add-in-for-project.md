@@ -127,7 +127,7 @@ ms.technology: office-development
 
 - Deploying VSTO Add-ins for Project: [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
-## See also
+## Related content
 - [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
 - [Project solutions](../vsto/project-solutions.md)
 - [Build Office solutions](../vsto/building-office-solutions.md)

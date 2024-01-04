@@ -1331,7 +1331,7 @@ There will soon be a GitHub project of Visual Studio Extensibility samples, and 
 
 You can try out a version of the column guides feature with this Visual Studio Gallery[extension](https://marketplace.visualstudio.com/items?itemName=PaulHarrington.EditorGuidelines).
 
-## See also
+## Related content
 - [Inside the editor](../extensibility/inside-the-editor.md)
 - [Extend the editor and language services](../extensibility/extending-the-editor-and-language-services.md)
 - [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)

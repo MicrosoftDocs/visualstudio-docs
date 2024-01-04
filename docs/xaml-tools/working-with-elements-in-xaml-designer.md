@@ -106,6 +106,6 @@ You can restore default values for specific layout properties of an element by u
 
 To reset the element layout, right-click the element in the Document Outline window or the artboard, and then choose **Layout** > **Reset** *PropertyName*, where *PropertyName* is the property that you want to reset (or choose **Layout** > **Reset All** to reset all the layout properties for the element).
 
-## See also
+## Related content
 
 - [Create a UI by using XAML Designer](../xaml-tools/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)

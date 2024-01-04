@@ -99,6 +99,6 @@ To change control display options, click the icon in the bottom left of the desi
 
 When you select **Only Display Platform Controls**, all custom controls coming from SDKs, customer user controls, and more, will not render completely. Instead, they are replaced by fallback controls to demonstrate the size and position of the control.
 
-## See also
+## Related content
 
 - [Design XAML in Visual Studio and Blend for Visual Studio](designing-xaml-in-visual-studio.md)

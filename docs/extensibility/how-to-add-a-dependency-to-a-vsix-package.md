@@ -41,7 +41,7 @@ If your extension requires 15.3 or higher, you would declare the **InstallationT
 
 The VSIXInstaller will detect earlier versions of Visual Studio and inform the user that a later update is required.
 
-## See also
+## Related content
 
 - [VSIX extension schema 1.0 reference](/previous-versions/dd393700(v=vs.110))
 - [Anatomy of a VSIX package](../extensibility/anatomy-of-a-vsix-package.md)

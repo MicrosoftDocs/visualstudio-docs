@@ -1,7 +1,6 @@
 ---
-title: "Walkthrough: Create a custom tab by using the Ribbon Designer"
+title: Create a custom tab by using the Ribbon Designer
 description: Create an actions pane with a custom tab by using the Ribbon Designer, add and position controls, and configure button actions to hide and display the pane.
-titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -167,7 +166,7 @@ ms.technology: office-development
 
 - Extend a standard or custom Microsoft Office Outlook form. For more information, see [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md).
 
-## See also
+## Related content
 - [Access the ribbon at run time](../vsto/accessing-the-ribbon-at-run-time.md)
 - [Ribbon overview](../vsto/ribbon-overview.md)
 - [Ribbon Designer](../vsto/ribbon-designer.md)

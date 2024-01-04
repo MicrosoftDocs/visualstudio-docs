@@ -1,5 +1,5 @@
 ---
-title: Word wrap
+title: Toggle word wrap to see long code or line numbers
 description: Enable word wrapping in Visual Studio so long lines of code display on multiple lines in the Code Editor, or turn the feature off to see line numbers.
 ms.date: 04/06/2023
 ms.topic: how-to

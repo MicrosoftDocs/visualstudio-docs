@@ -152,6 +152,6 @@ A *product file* is an XML manifest that describes all of the external dependenc
 </Product>
 ```
 
-## See also
+## Related content
 - [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)
 - [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)

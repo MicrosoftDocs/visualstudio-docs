@@ -85,7 +85,7 @@ ms.technology: sharepoint-development
 
      The list of either master pages or themes appears and contains either the master page or the theme that you imported.
 
-## See also
+## Related content
 - [Master Pages](/previous-versions/office/developer/sharepoint-2010/ms443795(v=office.14))
 - [Importing items from an existing SharePoint site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)
 - [Create pages for SharePoint](../sharepoint/creating-pages-for-sharepoint.md)

@@ -1,5 +1,5 @@
 ---
-title: "Display text in text box in document using button"
+title: Display text in a box in a document with a button
 description: Use buttons and text boxes to customize Microsoft Word at the document level, including adding text to the text box when the button is clicked.
 ms.date: "01/31/2022"
 ms.topic: "conceptual"
@@ -109,7 +109,7 @@ ms.technology: office-development
 
 - Using radio buttons to select chart styles. 
 
-## See also
+## Related content
 - [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md)
 - [Walkthroughs using Word](../vsto/walkthroughs-using-word.md)
 - [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)

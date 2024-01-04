@@ -21,5 +21,5 @@ The following section describes normal termination.
 
  You must send an [IDebugProgramDestroyEvent2](../../extensibility/debugger/reference/idebugprogramdestroyevent2.md) to implement normal termination. Normal termination requires running the [IDebugProgramDestroyEvent2::GetExitCode](../../extensibility/debugger/reference/idebugprogramdestroyevent2-getexitcode.md) method.
 
-## See also
+## Related content
 - [Creating a custom debug engine](../../extensibility/debugger/creating-a-custom-debug-engine.md)

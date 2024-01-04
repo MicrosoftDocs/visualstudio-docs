@@ -219,7 +219,7 @@ ms.technology: sharepoint-development
 
      The new record appears in the list.
 
-## See also
+## Related content
 - [Create site columns, content types, and lists for SharePoint](../sharepoint/creating-site-columns-content-types-and-lists-for-sharepoint.md)
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
 - [How to: Create a Custom Field Type](/previous-versions/office/developer/sharepoint-2010/bb862248(v=office.14))

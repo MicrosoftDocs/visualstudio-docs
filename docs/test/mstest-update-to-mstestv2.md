@@ -1,5 +1,5 @@
 ---
-title: Update to MSTestV2
+title: Update from MSTestV1 to MSTestV2 
 ms.date: 12/04/2023
 description: Upgrade an MSTestV1 test project to target MSTestV2 in the .csproj file, and review the MSTestV1 features that aren't available in MSTestV2.
 ms.topic: conceptual
@@ -104,7 +104,7 @@ In 2016, we released the next step in evolving the MSTest framework with MSTestV
 * The "Coded UI Test Project" and the "Web Performance and Load Test Project" types aren't supported. Read more on [Coded UI Test deprecation](https://devblogs.microsoft.com/devops/changes-to-coded-ui-test-in-visual-studio-2019/) and [Web Load Test deprecation](https://devblogs.microsoft.com/devops/cloud-based-load-testing-service-eol/).
 * Association with a testcase item in TFS isn't supported.
 
-## See also
+## Related content
 
 - [Configure test runs with `.runsettings`](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md)
 - [Unit test your code](../test/unit-test-your-code.md)

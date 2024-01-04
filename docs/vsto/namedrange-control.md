@@ -67,7 +67,7 @@ ms.technology: office-development
 
 - <xref:Microsoft.Office.Tools.Excel.NamedRange.SelectionChange>
 
-## See also
+## Related content
 - [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)
 - [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)
 - [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)

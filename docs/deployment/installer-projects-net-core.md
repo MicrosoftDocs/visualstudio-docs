@@ -72,7 +72,7 @@ The **.NET Core Runtime...** option should be selected for console applications,
 >[!NOTE]
 >These items are present starting with the Visual Studio 2019 Update 7 release.
 
-## See also
+## Related content
 
 - [Prerequisites Dialog Box](../ide/reference/prerequisites-dialog-box.md)
 - [Application Deployment Prerequisites](../deployment/application-deployment-prerequisites.md)

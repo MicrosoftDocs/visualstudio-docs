@@ -1,5 +1,5 @@
 ---
-title: Install Visual Studio Build Tools into a container
+title: Install Visual Studio Build Tools into a container to support a consistent build system
 titleSuffix: ''
 description: Learn how to install Visual Studio Build Tools into a Windows container to support continuous integration and continuous delivery (CI/CD) workflows.
 ms.date: 12/05/2023

@@ -46,11 +46,7 @@ When you double-click a **Commit**, Visual Studio opens its details in a separat
 
 :::image type="content" source="media/vs-2022/git-branch-commit-details.png" alt-text="The Commit Details dialog in Visual Studio 2022.":::
 
-## Next steps
+## Related content
 
-To continue your journey, visit the [Stage lines of code](git-line-staging.md) page.
-
-## See also
-
+- [Stage lines of code](git-line-staging.md)
 - [Git experience in Visual Studio](git-with-visual-studio.md)
-- [Visual Studio & GitHub: Better together](https://visualstudio.microsoft.com/vs/github/)

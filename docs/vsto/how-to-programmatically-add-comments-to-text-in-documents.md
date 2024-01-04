@@ -51,6 +51,6 @@ ms.technology: office-development
 ## Robust programming
  To change the user initials that Word adds to comments, use the <xref:Microsoft.Office.Interop.Word._Application.UserInitials%2A> property.
 
-## See also
+## Related content
 - [How to: Programmatically remove all comments from documents](../vsto/how-to-programmatically-remove-all-comments-from-documents.md)
 - [Document host item](../vsto/document-host-item.md)

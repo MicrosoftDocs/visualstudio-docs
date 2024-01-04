@@ -42,6 +42,7 @@ There you have it; you've created a new branch.
 > [!NOTE]
 > For more information about the latest updates that improve branch switching, see the [Visual Studio 2022 Performance Enhancements: Git Branch Switching](https://devblogs.microsoft.com/visualstudio/vs2022-performance-enhancements-git-branch-switching/) blog post.
 
-## Next steps
+## Related content
 
-To continue your journey, visit the [Make a commit](git-make-commit.md) page. And to learn more about how to manage branches in Visual Studio, see [Merge and rebase branches](git-manage-repository.md#merge-and-rebase-branches).
+- [Make a commit](git-make-commit.md) 
+- [Merge and rebase branches](git-manage-repository.md#merge-and-rebase-branches).

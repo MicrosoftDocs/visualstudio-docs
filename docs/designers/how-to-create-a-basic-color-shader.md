@@ -225,7 +225,7 @@ For more information about how to apply a shader to a 3D model, see [How to: App
 
 
 
-## Next steps
+## Related content
 - [How to: Apply a shader to a 3D model](../designers/how-to-apply-a-shader-to-a-3-d-model.md)
 - [How to: Export a shader](../designers/how-to-export-a-shader.md)
 - [Shader Designer nodes](../designers/shader-designer-nodes.md)

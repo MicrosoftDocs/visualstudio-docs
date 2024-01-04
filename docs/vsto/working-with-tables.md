@@ -28,6 +28,6 @@ ms.technology: office-development
 |Add a row or column to a table.|[How to: Programmatically add rows and columns to Word tables](../vsto/how-to-programmatically-add-rows-and-columns-to-word-tables.md)|
 |Add text to a cell and format it.|[How to: Programmatically add text and formatting to cells in Word tables](../vsto/how-to-programmatically-add-text-and-formatting-to-cells-in-word-tables.md)|
 
-## See also
+## Related content
 - [Word object model overview](../vsto/word-object-model-overview.md)
 - [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)

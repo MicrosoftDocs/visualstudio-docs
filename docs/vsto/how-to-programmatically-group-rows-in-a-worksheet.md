@@ -54,7 +54,7 @@ ms.technology: office-development
     > [!NOTE]
     > To ungroup rows, call the <xref:Microsoft.Office.Interop.Excel.Range.Ungroup%2A> method.
 
-## See also
+## Related content
 - [Work with worksheets](../vsto/working-with-worksheets.md)
 - [NamedRange control](../vsto/namedrange-control.md)
 - [How to: Add NamedRange controls to worksheets](../vsto/how-to-add-namedrange-controls-to-worksheets.md)

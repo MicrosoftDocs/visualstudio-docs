@@ -81,7 +81,7 @@ ms.technology: office-development
 ### Security
  Security for VSTO Office solutions is enforced by a series of checks that the  Visual Studio Tools for Office runtime  makes when it installs and loads the solution. These checks include verifying whether the location of the deployment manifest is trusted or whether the certificate used to sign the deployment manifest is trusted. For more information, see [Secure Office solutions](../vsto/securing-office-solutions.md).
 
-## See also
+## Related content
 - [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)
 - [Architecture of document-level customizations](../vsto/architecture-of-document-level-customizations.md)
 - [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)

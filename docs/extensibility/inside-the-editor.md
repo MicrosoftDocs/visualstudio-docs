@@ -316,7 +316,7 @@ Statement completion provides pop-up lists of potential completions for method n
 ## Troubleshooting Import/Export Issues: Access the MEF Composition Error Log 
 You may experience issues if you try to import something that doesn't exist in the current VS install, or if you incorrectly author your import or export.  The primary way to find and address these issues is to reference the **Managed Extensibility Framework (MEF) Composition Error Log**, stored at *%localappdata%\Microsoft\VisualStudio[yourVSVersion]\ComponentModelCache\Microsoft.VisualStudio.Default.err*.
 
-## See also
+## Related content
 
 - [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)
 - [Editor imports](../extensibility/editor-imports.md)

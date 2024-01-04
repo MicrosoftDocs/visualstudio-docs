@@ -1,5 +1,5 @@
 ---
-title: Set a watch on variables
+title: Set a watch on variables and expressions
 description: While you debug, see variables and expressions in Watch and QuickWatch. Watch can display several variables, QuickWatch only one, and only while in break.
 ms.date: 04/21/2023
 ms.topic: how-to
@@ -359,7 +359,7 @@ To observe the `a` variable,
 
 1. Continue debugging. You can observe the variable in the **Watch** window.
 
-## See also
+## Related content
 - [What is debugging?](../debugger/what-is-debugging.md)
 - [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md)
 - [First look at debugging](../debugger/debugger-feature-tour.md)

@@ -55,7 +55,7 @@ Represents a contiguous substring of characters within an `ITextDocumentSnapshot
 If you're familiar with legacy Visual Studio extensions, `Position` is almost the same as
 [SnapshotSpan](/dotnet/api/microsoft.visualstudio.text.snapshotSpan) and supports most of the same methods.
 
-## Next steps
+## Related content
 
 Review sample code for a simple editor-based extension:
 

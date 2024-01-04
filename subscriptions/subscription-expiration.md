@@ -1,5 +1,5 @@
 ---
-title: What happens when a Visual Studio subscription expires
+title: What happens when a subscription expires?
 author: evanwindom
 ms.author: amast
 manager: shve

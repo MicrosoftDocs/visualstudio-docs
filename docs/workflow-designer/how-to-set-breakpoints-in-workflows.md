@@ -33,7 +33,7 @@ A breakpoint has three states: *Pending*, *Bound*, and *Error*. When you set a b
 
    Alternatively, you can press **F9** after selecting the activity, or you can right-click the activity and select **Breakpoint** > **Insert Breakpoint** from the right-click menu.
 
-## See also
+## Related content
 
 - [Debugging Workflows with the Workflow Designer](../workflow-designer/debugging-workflows-with-the-workflow-designer.md)
 - [How to: Debug XAML with the Workflow Designer](../workflow-designer/how-to-debug-xaml-with-the-workflow-designer.md)

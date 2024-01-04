@@ -1,5 +1,5 @@
 ---
-title: Showing progress
+title: Explore types of progress bars
 description: Explore the different types of progress bars for backgrounds tasks in Visual Studio extensions and understand when to use each of them.
 ms.date: 12/01/2021
 ms.topic: conceptual
@@ -104,6 +104,6 @@ private async Task LongRunningTaskAsync(TaskProgressData data, ITaskHandler hand
 }
 ```
 
-## Other resources
+## Related content
 
 * [Task Status Center API reference](/dotnet/api/microsoft.visualstudio.taskstatuscenter)

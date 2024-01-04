@@ -133,6 +133,6 @@ ms.technology: sharepoint-development
 
 - Workflows with code
 
-## See also
+## Related content
 - [Differences between sandboxed and farm solutions](../sharepoint/differences-between-sandboxed-and-farm-solutions.md)
 - [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)

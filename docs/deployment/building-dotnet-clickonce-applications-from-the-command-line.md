@@ -1,5 +1,5 @@
 ---
-title: "Build .NET ClickOnce Applications from the Command Line"
+title: Build .NET ClickOnce apps from command line
 description: Learn how to build .NET Visual Studio projects from the command line, which allows you to reproduce a build using an automated process.
 ms.date: "10/25/2023"
 ms.topic: "conceptual"
@@ -189,7 +189,7 @@ The following table shows the four URL options for ClickOnce deployment.
 | `SupportURL` | Optional. Set this URL option if the support site is different than the `PublishURL`. For example, you could set the `SupportURL` to your company's customer support web site. |
 | `UpdateURL` | Optional. Set this URL option if the update location is different than the `InstallURL`. For example, you could set the `PublishURL` to an FTP path and set the `UpdateURL` to a web URL. |
 
-## See also
+## Related content
 
 - <xref:Microsoft.Build.Tasks.GenerateBootstrapper>
 - <xref:Microsoft.Build.Tasks.GenerateApplicationManifest>

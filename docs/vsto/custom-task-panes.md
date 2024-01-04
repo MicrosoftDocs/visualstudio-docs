@@ -1,5 +1,5 @@
 ---
-title: "Custom task panes"
+title: Create your own custom task pane
 description: Explore custom task panes and create your own task pane and provide users with a familiar interface to access your solution's features.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -215,7 +215,7 @@ ms.technology: office-development
 
 - [Microsoft.Office.Interop.PowerPoint.EApplication_Event.WindowDeactivate](/previous-versions/office/developer/office-2010/ff763093(v=office.14))
 
-## See also
+## Related content
 - [How to: Add a custom task pane to an application](../vsto/how-to-add-a-custom-task-pane-to-an-application.md)
 - [Walkthrough: Automate an application from a custom task pane](../vsto/walkthrough-automating-an-application-from-a-custom-task-pane.md)
 - [Walkthrough: Synchronize a custom task pane with a Ribbon button](../vsto/walkthrough-synchronizing-a-custom-task-pane-with-a-ribbon-button.md)

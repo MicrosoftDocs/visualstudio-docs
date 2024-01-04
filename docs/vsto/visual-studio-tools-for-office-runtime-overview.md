@@ -111,7 +111,7 @@ ms.technology: office-development
 ## Repair the Visual Studio 2010 Tools for Office runtime
  If you need to repair the runtime, open **Programs and Features** or **Add or Remove Programs** in the Control Panel, select **Microsoft Visual Studio 2010 Tools for Office Runtime** in the list of programs, and then click **Uninstall**. The setup program that runs enables you to repair the runtime. If you click **Change**, you are not given an option for repairing the runtime.
 
-## See also
+## Related content
 - [Visual Studio Tools for Office runtime installation scenarios](../vsto/visual-studio-tools-for-office-runtime-installation-scenarios.md)
 - [Assemblies in the Visual Studio Tools for Office runtime](../vsto/assemblies-in-the-visual-studio-tools-for-office-runtime.md)
 - [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)

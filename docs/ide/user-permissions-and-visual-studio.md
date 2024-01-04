@@ -1,5 +1,5 @@
 ---
-title: Run as administrator
+title: Run as administrator to install, debug, and more
 description: Explore how to run Visual Studio as an administrator and the use cases for installation, debugging, profiling, and configuring specific settings.
 ms.date: 8/8/2023
 ms.topic: conceptual
@@ -89,4 +89,4 @@ You can also modify the application shortcut to always run with administrative p
 ## Related content
 
 - [Install Visual Studio](../install/install-visual-studio.md)
-- [Port, migrate, and upgrade Visual Studio projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md)
+- [Port, migrate, and upgrade Visual Studio projects](/visualstudio/releases/2022/port-migrate-and-upgrade-visual-studio-projects)

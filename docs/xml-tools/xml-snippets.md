@@ -44,7 +44,7 @@ The XML editor also has the ability to generate an XML snippet from an XML schem
 
 In addition to the snippets that are included with Visual Studio by default, you can also create and use your own XML snippets. For more information, see [How to: Create XML snippets](../xml-tools/how-to-create-xml-snippets.md).
 
-## See also
+## Related content
 
 - [Code snippets in Visual Studio](../ide/code-snippets.md)
 - [XML editor](../xml-tools/xml-editor.md)

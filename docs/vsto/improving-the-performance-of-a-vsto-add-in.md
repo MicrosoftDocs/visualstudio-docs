@@ -113,7 +113,7 @@ ms.technology: office-development
 > [!NOTE]
 > All code that calls into the Office object model must execute in the main thread.
 
-## See also
+## Related content
 
 - [Demand-loading VSTO Add-ins](/archive/blogs/andreww/demand-loading-vsto-add-ins)
 - [Delay-loading the CLR in Office Add-ins](/archive/blogs/andreww/delay-loading-the-clr-in-office-add-ins)

@@ -1,5 +1,5 @@
 ---
-title: Debug in Mixed Mode
+title: Debug in Mixed Mode (managed and native code)
 description: See how to enable mixed-mode debugging (managed and native code together) in the property pages of the calling app's project.
 ms.date: 04/15/2022
 ms.topic: how-to

@@ -1,5 +1,5 @@
 ---
-title: Overview | Microsoft IntelliTest Developer Test Tool
+title: Microsoft IntelliTest Developer Test Tool
 description: Learn how IntelliTest uses an automated and transparent testing approach, IntelliTest can generate a candidate suite of tests for your .NET code.
 ms.date: 12/04/2023
 ms.topic: conceptual
@@ -261,7 +261,7 @@ IntelliTest uses an automatic [constraint solver](input-generation.md#constraint
 
 Because IntelliTest catches and "rethrows" exceptions in each instrumented method, the line numbers in stack traces won't be correct. This is a limitation by design of the "rethrow" instruction.
 
-## Further reading
+## Related content
 
 * [Introductory blog post](https://devblogs.microsoft.com/devops/introducing-smart-unit-tests/).
 * [Generate unit tests for your code with IntelliTest](../../test/generate-unit-tests-for-your-code-with-intellitest.md)

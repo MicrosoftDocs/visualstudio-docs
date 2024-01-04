@@ -176,7 +176,7 @@ ms.technology: office-development
 
 - To learn about how to customize the ribbon of an Outlook item, see [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md).
 
-## See also
+## Related content
 - [Access a form region at run time](../vsto/accessing-a-form-region-at-run-time.md)
 - [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)
 - [Guidelines to create Outlook form regions](/previous-versions/visualstudio/visual-studio-2017/vsto/guidelines-for-creating-outlook-form-regions)

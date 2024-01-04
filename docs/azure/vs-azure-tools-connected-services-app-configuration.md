@@ -1,5 +1,5 @@
 ---
-title: Add Azure App Configuration by using Connected Services
+title: Add Azure App Configuration with Connected Services
 description: Connect an Azure Configuration service dependency to your application by using Connected Services in Visual Studio on Windows.
 author: ghogen
 manager: 
@@ -27,6 +27,7 @@ You can use the App Configuration Connected Services feature in the following pr
 
 - Visual Studio with the Azure workload installed.
 - A project of one of the supported types
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## Connect to Azure App Configuration using Connected Services
 

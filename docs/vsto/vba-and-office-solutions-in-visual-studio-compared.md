@@ -1,5 +1,5 @@
 ---
-title: "VBA and Office solutions in Visual Studio compared"
+title: VBA and Office solutions in Visual Studio compared
 description: Explore the differences between Microsoft Visual Basic for Applications (VBA) and Microsoft Office solutions in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -41,7 +41,7 @@ ms.technology: office-development
 ## Combine VBA solutions and Office solutions created by using Visual Studio
  You can call VBA code from Office solutions created by using Visual Studio, and you can also call code in Office solutions created by using Visual Studio from VBA. The specific technique differs depending on whether your Office solution is a VSTO Add-in or a document-level customization. For more information, see [Call code in VSTO Add-ins from other Office solutions](../vsto/calling-code-in-vsto-add-ins-from-other-office-solutions.md) and [Combine VBA and document-level customizations](../vsto/combining-vba-and-document-level-customizations.md).
 
-## See also
+## Related content
 - [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
 - [Call code in VSTO Add-ins from other Office solutions](../vsto/calling-code-in-vsto-add-ins-from-other-office-solutions.md)
 - [Combine VBA and document-level customizations](../vsto/combining-vba-and-document-level-customizations.md)

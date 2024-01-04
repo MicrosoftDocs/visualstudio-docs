@@ -100,7 +100,7 @@ ms.technology: office-development
 
 11. The  Visual Studio Tools for Office runtime  calls the `ThisAddIn_Startup` method in your VSTO Add-in. This method is the default event handler for the <xref:Microsoft.Office.Tools.AddInBase.Startup> event. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md).
 
-## See also
+## Related content
 - [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)
 - [Architecture of document-level customizations](../vsto/architecture-of-document-level-customizations.md)
 - [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)

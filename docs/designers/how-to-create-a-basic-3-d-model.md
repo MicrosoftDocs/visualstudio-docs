@@ -1,5 +1,5 @@
 ---
-title: 'Create a Basic 3D Model'
+title: Use the Model Editor to create a basic 3D model
 description: Learn how to use the Model Editor to create a basic 3D model, including adding objects to a scene, translating selections, and other activities.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -67,7 +67,7 @@ Before you begin, make sure that the **Properties** window and **Toolbox** are d
 
    As a next step, you can apply a shader to this 3D model. For information, see [How to: Apply a shader to a 3D model](../designers/how-to-apply-a-shader-to-a-3-d-model.md).
 
-## See also
+## Related content
 
 - [How to: Model 3D terrain](../designers/how-to-model-3-d-terrain.md)
 - [Model editor](../designers/model-editor.md)

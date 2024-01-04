@@ -47,5 +47,5 @@ ms.technology: vs-ide-debug
  [Implement type visualizers and custom viewers](../../extensibility/debugger/implementing-type-visualizers-and-custom-viewers.md)
  Explains which interface needs to be implemented by which component to support type visualizers and custom viewers.
 
-## See also
+## Related content
  [Visual Studio debugger extensibility](../../extensibility/debugger/visual-studio-debugger-extensibility.md)

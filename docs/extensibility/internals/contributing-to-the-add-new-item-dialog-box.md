@@ -36,6 +36,6 @@ A project subtype can provide a complete new directory of items for the **Add Ne
 
  You can filter items in the **Add New Item** dialog box by implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg> interface on the project subtype aggregator object. For example, a project subtype that implements a database project by aggregating a Visual Studio project, can filter the Visual Studio specific items from the **Add New Item** dialog box by implementing filtering, and in turn, can add database project-specific items by supporting `VSHPROPID_ AddItemTemplatesGuid` in <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetProperty%2A>. For more information on filtering and adding items to the **Add New Item** dialog box, see [Add items to the Add New Item dialog box](../../extensibility/internals/adding-items-to-the-add-new-item-dialog-boxes.md).
 
-## See also
+## Related content
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg2>
 - [CATIDs for objects that are typically used to extend projects](../../extensibility/internals/catids-for-objects-that-are-typically-used-to-extend-projects.md)

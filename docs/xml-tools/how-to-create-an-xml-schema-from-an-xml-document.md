@@ -1,5 +1,5 @@
 ---
-title: Create an XML Schema
+title: Create an XML Schema with the XML editor
 description: Explore how to use the XML editor in Visual Studio to create an XML Schema definition language (XSD) schema from an XML document.
 ms.date: 03/05/2019
 ms.topic: how-to
@@ -32,6 +32,6 @@ For more information about the schema inference engine, see [Infer an XML schema
 
    An XML Schema document is created and opened for each namespace found in the XML file. Each schema is opened as a temporary miscellaneous file. The schemas can be saved to disk, added to your project, or discarded.
 
-## See also
+## Related content
 
 - [XML editor](../xml-tools/xml-editor.md)

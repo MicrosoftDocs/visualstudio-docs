@@ -1,5 +1,5 @@
 ---
-title: Code coverage testing
+title: Determine code testing coverage
 description: Learn how to use the code coverage feature of Visual Studio to determine what proportion of your project code is being tested by coded tests.
 ms.date: 12/05/2023
 ms.topic: conceptual
@@ -324,7 +324,7 @@ To run tests from the command line, use *vstest.console.exe* utility. Code cover
 
 If you don't see code coverage results, the [Troubleshoot code coverage](../test/troubleshooting-code-coverage.md) article might help you.
 
-## See also
+## Related content
 
 - [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md)
 - [Troubleshoot code coverage](../test/troubleshooting-code-coverage.md)

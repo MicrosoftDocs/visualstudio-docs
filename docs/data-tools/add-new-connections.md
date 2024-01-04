@@ -1,5 +1,5 @@
 ---
-title: Connect to a database or open an MDF file in Visual Studio
+title: Connect to database or open MDF file (ADO.NET)
 ms.date: 11/09/2023
 description: Connect to a database or data service with ADO.NET in Visual Studio, or connect to a database opened from a median disk file (.mdf).
 ms.topic: how-to
@@ -12,7 +12,7 @@ ms.technology: vs-data-tools
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-The steps in this article show how to connect to a data source in the Visual Studio IDE. The data source can be a local database, online data service, or a database opened from an `.mdf` file. You can work directly with your data in Visual Studio. You can execute queries, edit data, create and edit tables and other schema properties, edit stored procedures and functions, triggers, and so on. These functions are independent of the programming language or .NET version you are using.
+The steps in this article show how to connect to a data source in the Visual Studio IDE. The data source can be a local database, online data service, or a database opened from an [`.mdf` file](#open-an-mdf-database-file). You can work directly with your data in Visual Studio. You can execute queries, edit data, create and edit tables and other schema properties, edit stored procedures and functions, triggers, and so on. These functions are independent of the programming language or .NET version you are using.
 
 ## Server Explorer and SQL Server Object Explorer
 
@@ -90,7 +90,7 @@ In Visual Studio 17.8 and later, the names of the authentication options for SQL
 
 :::moniker-end
 
-### MDF files
+## Open an MDF database file
 
 The `.mdf` file stands for Master Database File and is a SQL database packaged into a file. These files have an associated `.ldf` (Log Database File) that contains the logs for that database. You can create new databases that are stored in `.mdf` files by adding a **Service-based Database** item to your project. See [Create a database and add tables](create-a-sql-database-by-using-a-designer.md).
 

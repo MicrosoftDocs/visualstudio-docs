@@ -1,5 +1,5 @@
 ---
-title: Use Google Test for C++
+title: Create and run unit tests with Google Test for C++
 description: Create and run unit tests with Google Test for C++, add and configure the test project, set additional options, and add include directives.
 ms.date: 01/19/2022
 ms-custom: devdivchpfy22
@@ -62,6 +62,6 @@ In your test *.cpp* file, add any needed `#include` directives to make your prog
 
 You're now ready to write and run Google Tests. For information about the test macros, see the [Google Test primer](https://github.com/google/googletest/blob/master/docs/primer.md). For information about discovering, running, and grouping your tests by using **Test Explorer**, see [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md).
 
-## See also
+## Related content
 
-[Write unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
+- [Write unit tests for C/C++](writing-unit-tests-for-c-cpp.md)

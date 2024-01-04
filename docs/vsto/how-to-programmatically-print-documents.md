@@ -69,5 +69,5 @@ ms.technology: office-development
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb" id="Snippet12":::
      ---
 
-## See also
+## Related content
 - [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)

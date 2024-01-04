@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Create your first VSTO Add-in for Excel"
+title: "Create Visual Studio Tools for Office Add-ins: Microsoft Excel"
 description: Create a VSTO add-in for the Microsoft Office Excel with features that are available to the application itself, regardless of which Excel workbooks are open.
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
@@ -132,7 +132,7 @@ ms.technology: office-development
 
 - Deploying VSTO Add-ins for Excel: [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
-## See also
+## Related content
 - [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
 - [Excel solutions](../vsto/excel-solutions.md)
 - [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)

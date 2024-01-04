@@ -193,7 +193,7 @@ Use the following attributes to exclude an entire assembly of tests from Live Un
 - **NUnit:** `[assembly: Category("SkipWhenLiveUnitTesting")]`
 - **MSTest:** `[assembly: TestCategory("SkipWhenLiveUnitTesting")]`
 
-## See also
+## Related content
 
 - [Code testing tools](https://visualstudio.microsoft.com/vs/testing-tools/)
 - [Live Unit Testing blog](https://devblogs.microsoft.com/visualstudio/live-unit-testing-in-visual-studio-2017-enterprise/)

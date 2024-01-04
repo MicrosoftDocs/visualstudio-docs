@@ -24,7 +24,7 @@ ms.technology: office-development
 ## Example
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_OL_SearchFolder/thisaddin.cs" id="Snippet1":::
 
-## See also
+## Related content
 - [Work with folders](../vsto/working-with-folders.md)
 - [Outlook object model overview](../vsto/outlook-object-model-overview.md)
 - [How to: Programmatically retrieve a folder by name](../vsto/how-to-programmatically-retrieve-a-folder-by-name.md)

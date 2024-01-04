@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Create your first VSTO Add-in for Word"
+title: "Create Visual Studio Tools for Office Add-ins: Microsoft Word"
 description: Create a VSTO add-in for Microsoft Office Word with features that are available to the application itself, regardless of which Word documents are open.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -133,7 +133,7 @@ ms.technology: office-development
 
 - Deploying VSTO Add-ins for Word: [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
-## See also
+## Related content
 - [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
 - [Word solutions](../vsto/word-solutions.md)
 - [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)

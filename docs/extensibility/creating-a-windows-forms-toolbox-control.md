@@ -206,7 +206,7 @@ The `Counter` control will expose a method to increment the counter, an event to
 
 When you build a **Toolbox** control, Visual Studio creates a file named *ProjectName.vsix* in the \bin\debug\ folder of your project. You can deploy the control by uploading the *.vsix* file to a network or to a Web site. When a user opens the *.vsix* file, the control is installed and added to the Visual Studio **Toolbox** on the user's computer. Alternatively, you can upload the *.vsix* file to [Visual Studio Marketplace](https://marketplace.visualstudio.com/) so that users can find it by browsing in the **Tools** > **Extensions and Updates** dialog.
 
-## See also
+## Related content
 
 - [Extend other parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)
 - [Create a WPF Toolbox Control](../extensibility/creating-a-wpf-toolbox-control.md)

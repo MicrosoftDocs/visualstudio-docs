@@ -92,6 +92,6 @@ ms.technology: office-development
 
 6. Click **OK**.
 
-## See also
+## Related content
 - [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
 - [Troubleshoot Office solution deployment](../vsto/troubleshooting-office-solution-deployment.md)

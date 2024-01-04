@@ -68,7 +68,7 @@ ms.technology: office-development
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb" id="Snippet31":::
      ---
 
-## See also
+## Related content
 - [Work with ranges](../vsto/working-with-ranges.md)
 - [NamedRange control](../vsto/namedrange-control.md)
 - [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)

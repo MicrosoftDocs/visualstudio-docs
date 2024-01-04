@@ -308,7 +308,7 @@ Now you can create a project from your template and use the custom wizard.
 
      Notice that `$custommessage$` has been replaced with the text entered in the wizard user input form.
 
-## See also
+## Related content
 
 - <xref:Microsoft.VisualStudio.TemplateWizard.IWizard>
 - [Customize templates](../ide/customizing-project-and-item-templates.md)

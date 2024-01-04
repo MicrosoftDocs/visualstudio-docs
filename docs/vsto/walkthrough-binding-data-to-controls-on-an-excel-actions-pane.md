@@ -185,14 +185,14 @@ ms.technology: office-development
 
 4. Select various companies to verify the company name and product details change as appropriate.
 
-## Next Steps
+## Next steps
  Here are some tasks that might come next:
 
 - Binding data to controls in Word. For more information, see [Walkthrough: Bind data to controls on a Word actions pane](../vsto/walkthrough-binding-data-to-controls-on-a-word-actions-pane.md).
 
 - Deploying the project. For more information, see [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md).
 
-## See also
+## Related content
 - [Actions pane overview](../vsto/actions-pane-overview.md)
 - [How to: Manage control layout on actions panes](../vsto/how-to-manage-control-layout-on-actions-panes.md)
 - [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)

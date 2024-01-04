@@ -1,5 +1,5 @@
 ---
-title: 'Walkthrough: Outlining'
+title: Define and display outlining regions
 description: Define and display outlining regions in the context of a language service or for your own file name extension and content type in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -178,5 +178,5 @@ Set up language-based features such as outlining by defining the kinds of text r
 
 4. There should be an outlining region that includes both brackets. You should be able to click the Minus Sign to the left of the open bracket to collapse the outlining region. When the region is collapsed, the ellipsis symbol (*...*) should appear to the left of the collapsed region, and a popup containing the text **hover text** should appear when you move the pointer over the ellipsis.
 
-## See also
+## Related content
 - [Walkthrough: Link a content type to a file name extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

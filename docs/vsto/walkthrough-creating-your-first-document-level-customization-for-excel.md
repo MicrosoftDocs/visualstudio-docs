@@ -1,7 +1,6 @@
 ---
-title: "Create your first document-level customization for Excel"
+title: Create a document-level customization for Excel
 description: Create a document-level customization for Microsoft Office Excel with features that are available only when a specific Excel workbook is open.
-titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -170,7 +169,7 @@ ms.technology: office-development
 
 - Deploying document-level customizations for Excel: [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
-## See also
+## Related content
 
 - [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
 - [Excel solutions](../vsto/excel-solutions.md)

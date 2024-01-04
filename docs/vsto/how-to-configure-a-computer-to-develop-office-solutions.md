@@ -57,7 +57,7 @@ If you install a supported version of Visual Studio, the .NET Framework, and Mic
 
 If you continue to experience problems, see [Additional support for errors in Office solutions](../vsto/additional-support-for-errors-in-office-solutions.md).
 
-## See also
+## Related content
 
 - [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)
 - [How to: Install the Visual Studio Tools for Office runtime redistributable](../vsto/how-to-install-the-visual-studio-tools-for-office-runtime-redistributable.md)

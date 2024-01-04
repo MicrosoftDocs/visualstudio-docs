@@ -53,7 +53,7 @@ ms.technology: office-development
 |[Threading support in Office](../vsto/threading-support-in-office.md)|Provides an overview of working with multiple threads in Office solutions.|
 |[Accessibility in Office projects](../vsto/accessibility-in-office-projects.md)|Describes the accessibility features that are available in Office solutions.|
 
-## See also
+## Related content
 - [How to: Create and modify custom document properties](../vsto/how-to-create-and-modify-custom-document-properties.md)
 - [How to: Read from and write to document properties](../vsto/how-to-read-from-and-write-to-document-properties.md)
 - [How to: Target the Office multilingual user interface](../vsto/how-to-target-the-office-multilingual-user-interface.md)

@@ -213,7 +213,7 @@ Here's how you can use the Test Explorer to run and debug your remote environmen
 
 * Test Explorer can prompt you to install some missing environment prerequisites and attempt to install missing dependencies. However, the bulk of the provisioning of the remote environment is up to the user's specification.
 
-## See also
+## Related content
 
 - [Debug unit tests with Test Explorer](../test/debug-unit-tests-with-test-explorer.md)
 - [Run a unit test as a 64-bit process](../test/run-a-unit-test-as-a-64-bit-process.md)

@@ -1,7 +1,6 @@
 ---
-title: "Walkthrough: Create your first VSTO Add-in for PowerPoint"
+title: Create your first VSTO Add-in for PowerPoint
 description: Create a VSTO add-in for the Microsoft Office PowerPoint with features that are available to the application itself, regardless of which presentations are open.
-titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -130,7 +129,7 @@ ms.technology: office-development
 
 - Deploying VSTO Add-ins for PowerPoint. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
-## See also
+## Related content
 - [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
 - [PowerPoint solutions](../vsto/powerpoint-solutions.md)
 - [Office UI customization](../vsto/office-ui-customization.md)

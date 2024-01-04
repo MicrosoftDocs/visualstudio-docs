@@ -1,5 +1,5 @@
 ---
-title: "Target Office apps through primary interop assemblies"
+title: Target Office apps with primary interop assemblies
 description: Explore how you can use Visual Studio to programmatically target Microsoft Office applications through primary interop assemblies.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -47,7 +47,7 @@ ms.technology: office-development
 
      The assembly name appears in the **References** folder of **Solution Explorer**.
 
-## See also
+## Related content
 - [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md)
 - [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)
 - [Develop Office solutions](../vsto/developing-office-solutions.md)

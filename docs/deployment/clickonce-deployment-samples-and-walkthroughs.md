@@ -34,6 +34,6 @@ This section contains sample applications, example code, and step-by-step walkth
 
  [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]
 
-## See also
+## Related content
 
 - [Visual Studio walkthroughs](/previous-versions/szatc41e(v=vs.110))

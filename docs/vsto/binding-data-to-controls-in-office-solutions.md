@@ -100,7 +100,7 @@ ms.technology: office-development
 
  For more information, see [How to: Update a data source with data from a host control](../vsto/how-to-update-a-data-source-with-data-from-a-host-control.md).
 
-## See also
+## Related content
 - [Data binding and Windows Forms](/dotnet/framework/winforms/data-binding-and-windows-forms)
 - [How to: Create a simple-bound control on a Windows Form](/dotnet/framework/winforms/how-to-create-a-simple-bound-control-on-a-windows-form)
 - [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)

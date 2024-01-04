@@ -1,5 +1,5 @@
 ---
-title: Create a Package Manifest
+title: Create a bootstrapper package manifest
 description: Learn about using a bootstrapper package to deploy prerequisites for your ClickOnce application, which contains a package manifest for each locale.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -93,5 +93,5 @@ installing this package.</String>
 </Package>
 ```
 
-## See also
+## Related content
 - [Product and package schema reference](../deployment/product-and-package-schema-reference.md)

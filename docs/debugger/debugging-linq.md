@@ -1,5 +1,5 @@
 ---
-title: "Debugging LINQ"
+title: Debug language integrated query (LINQ)
 description: Debug language integrated query (LINQ) in Visual Studio. View LINQ results. Understand behavioral differences when stepping into LINQ code.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"

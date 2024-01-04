@@ -1,6 +1,6 @@
 ### YamlMime:FAQ
 metadata:
-  title: FxCop code analysis (binary analysis) and .NET analyzers (source analysis)
+  title: FAQ for FxCop code analysis and .NET analyzers
   ms.date: 09/06/2018
   description: Review frequently asked questions (FAQs) about FxCop code analysis (binary analysis) and .NET analyzers (source analysis) in Visual Studio and their differences.
   ms.topic: faq

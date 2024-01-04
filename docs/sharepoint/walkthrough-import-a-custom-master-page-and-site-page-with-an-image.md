@@ -172,7 +172,7 @@ ms.technology: sharepoint-development
 
    An alternative way to import files into Visual Studio and deploy them to SharePoint is to add the files into modules in Visual Studio. For more information, see [How to: Import a master page or theme](../sharepoint/how-to-import-a-master-page-or-theme.md) and [Use modules to include files in the Solution](../sharepoint/using-modules-to-include-files-in-the-solution.md).
 
-## See also
+## Related content
 - [Importing items from an existing SharePoint site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
 - [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)

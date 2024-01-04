@@ -1,5 +1,5 @@
 ---
-title: "Save attachments from Outlook email items programmatically"
+title: Programmatically save attachments from Outlook email (Visual Studio)
 description: Save attachments from Microsoft Office Outlook email messages to a specified folder programmatically with C# in Visual Studio.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -32,7 +32,7 @@ This example saves e-mail attachments to a specified folder when the mail is rec
 
 :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_OL_SaveAttachments/thisaddin.cs" id="Snippet1":::
 
-## See also
+## Related content
 
 - [Work with mail items](../vsto/working-with-mail-items.md)
 - [How to: Programmatically retrieve a folder by name](../vsto/how-to-programmatically-retrieve-a-folder-by-name.md)

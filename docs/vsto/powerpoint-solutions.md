@@ -1,5 +1,5 @@
 ---
-title: "PowerPoint solutions"
+title: Create VSTO add-ins from templates for PowerPoint
 description: Explore Visual Studio project templates to create VSTO add-ins for Microsoft PowerPoint, such as creating and formatting presentations and adding or removing slides.
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
@@ -66,7 +66,7 @@ ms.technology: office-development
 
  For more information about customizing the UI of PowerPoint and other Microsoft Office applications, see [Office UI customization](office-ui-customization.md).
 
-## See also
+## Related content
 - [Walkthrough: Create your first VSTO Add-in for PowerPoint](walkthrough-creating-your-first-vsto-add-in-for-powerpoint.md)
 - [Get started programming VSTO Add-ins](getting-started-programming-vsto-add-ins.md)
 - [Office solutions development overview &#40;VSTO&#41;](office-solutions-development-overview-vsto.md)

@@ -1,5 +1,5 @@
 ---
-title: 'Microsoft Fakes: Generate & compile code; naming conventions'
+title: Configure Microsoft Fakes code generation
 description: Learn about options and issues in Fakes code generation and compilation, including the naming conventions for Fakes-generated types, members, and parameters.
 ms.date: 05/23/2023
 ms.topic: conceptual
@@ -289,6 +289,6 @@ Microsoft Fakes is a feature available exclusively in Visual Studio Enterprise. 
 
 This reference must be added manually, specifically for SDK-style projects (that is, .NET Core, .NET 5+, and .NET Framework), because these projects now implicitly add assembly references. If you decide to use this method, make sure to update the Fakes assembly whenever the parent assembly undergoes changes.
 
-## See also
+## Related content
 
 - [Isolating code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)

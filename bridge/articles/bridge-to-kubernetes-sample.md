@@ -4,7 +4,7 @@ ms.author: ghogen
 author: ghogen
 manager: jmartens
 ms.technology: bridge
-title: Learn how to use Bridge to Kubernetes to run and debug locally with Kubernetes, using a TODO sample app.
+title: Sample app for Bridge to Kubernetes to run locally
 ms.date: 08/11/2022
 description: Try a sample application that uses Bridge to Kubernetes to develop, debug, and test a Kubernetes application locally in Visual Studio Code.
 ---

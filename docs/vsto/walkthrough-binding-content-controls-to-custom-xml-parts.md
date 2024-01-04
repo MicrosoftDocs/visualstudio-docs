@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Bind content controls to custom XML parts"
+title: Bind content controls to custom XML parts in Visual Studio
 description: Bind content controls in a document-level customization for Microsoft Office Word to XML data that is stored in the document.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -332,7 +332,7 @@ ms.technology: office-development
 
 - Use content controls to protect parts of a document. For more information, see [How to: Protect parts of documents by using content controls](../vsto/how-to-protect-parts-of-documents-by-using-content-controls.md).
 
-## See also
+## Related content
 - [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
 - [Content controls](../vsto/content-controls.md)
 - [How to: Add content controls to Word documents](../vsto/how-to-add-content-controls-to-word-documents.md)

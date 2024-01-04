@@ -240,7 +240,7 @@ STDMETHODIMP CFieldProperty::EnumChildren(
 }
 ```
 
-## See also
+## Related content
 - [Sample implementation of locals](../../extensibility/debugger/sample-implementation-of-locals.md)
 - [Implement GetMethodProperty](../../extensibility/debugger/implementing-getmethodproperty.md)
 - [Evaluation context](../../extensibility/debugger/evaluation-context.md)

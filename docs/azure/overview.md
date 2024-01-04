@@ -14,7 +14,9 @@ monikerRange: ">=vs-2019"
 
 Application development can be easier if you use cloud services to handle many issues that you would otherwise have to implement. When you use cloud services hosted in the Azure cloud, you use a reliable and highly available cloud environment that is managed by Microsoft to handle much of the infrastructure that many apps and services need, so that you can focus development efforts on what is unique to your application.
 
-In this article, you learn about how Visual Studio can help with Azure development, whether you're getting a web site up and running, connecting to services like storage, databases, secrets management, or using services that add value like caching. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
+In this article, you learn about how Visual Studio can help with Azure development, whether you're getting a web site up and running, connecting to services like storage, databases, secrets management, or using services that add value like caching. 
+
+[!INCLUDE [subscription-azure-benefits](includes/subscription-azure-benefits.md)]
 
 ## Supported technologies and languages
 

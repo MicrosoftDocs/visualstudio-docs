@@ -33,7 +33,7 @@ ms.technology: office-development
 ## Local database files and caching the dataset
  In document-level solutions for Microsoft Office Excel and Microsoft Office Word, you can cache datasets in the document by marking the dataset instance with the attribute <xref:Microsoft.VisualStudio.Tools.Applications.Runtime.CachedAttribute>. When you add the database file to your project by using the **Data Source Configuration Wizard**, a typed dataset is added to your project automatically. It is rarely necessary to apply <xref:Microsoft.VisualStudio.Tools.Applications.Runtime.CachedAttribute> to this dataset, because the data is already local on the user's computer. For more information, see [Cache data](../vsto/caching-data.md).
 
-## See also
+## Related content
 - [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)
 - [How to: Populate documents with data from a database](../vsto/how-to-populate-documents-with-data-from-a-database.md)
 - [How to: Update a data source with data from a host control](../vsto/how-to-update-a-data-source-with-data-from-a-host-control.md)

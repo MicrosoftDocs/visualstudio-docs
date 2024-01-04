@@ -1,7 +1,7 @@
 ---
-title: Targeted .NET Frameworks
+title: Specify the targeted .NET Frameworks
 description: Specify the .NET Framework version that you want your project to target so the application can only use functionality that's available in the specified version.
-ms.date: 10/19/2022
+ms.date: 12/12/2023
 ms.topic: overview
 helpviewer_keywords:
 - targeting .NET Framework [Visual Studio]
@@ -57,34 +57,6 @@ When you work on a project that targets an earlier framework version, Visual Stu
 > - Framework targeting does not guarantee that your application will run correctly. You must test your application to make sure it runs against the targeted version.
 > - You cannot target framework versions below .NET Framework 2.0.
 
-## Select a target framework version
-
-When you create a .NET Framework project, you can select the target .NET Framework version after you select a project template. The list of available frameworks includes the installed framework versions that are applicable to the selected template type. For non-.NET Framework project templates, for example .NET Core templates, the **Framework** drop-down list doesn't appear.
-
-::: moniker range="vs-2019"
-
-![Framework dropdown in Visual Studio 2019](media/vs-2019/configure-new-project-framework.png)
-
-::: moniker-end
-
-::: moniker range="vs-2022"
-
-If you choose to create a .NET Framework project, you'll see an interface that's similar to the following screenshot:
-
-:::image type="content" source="media/vs-2022/configure-new-project-framework.png" alt-text="Screenshot of the Framework drop-down list in Visual Studio 2022.":::
-
-If you choose to create a .NET project, you'll see user interface (UI) that's similar to the following two screenshots.
-
-The first screen you'll see is the **Configure your new project** dialog.
-
-:::image type="content" source="media/vs-2022/configure-your-new-project.png" alt-text="Screenshot of the 'Configure your new project' dialog box in Visual Studio 2022.":::
-
-The second screen you'll see is the **Additional options** dialog.
-
-:::image type="content" source="media/vs-2022/configure-new-project-additional-info.png" alt-text="Screenshot of the 'Additional options' dialog box in Visual Studio 2022.":::
-
-::: moniker-end
-
 ## Change the target framework
 
 In an existing Visual Basic, C#, or F# project, you change the target .NET version in the project properties dialog box. For information about how to change the target version for C++ projects, see [How to modify the target framework and platform toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset) instead.
@@ -119,13 +91,13 @@ In an existing Visual Basic, C#, or F# project, you change the target .NET versi
 
 1. In the **Target Framework** list, choose the version that you want.
 
-    For a .NET Framework project, the dialog you see might look similar to the following screenshot:
+    For a **.NET Framework project**, the dialog you see might look similar to the following screenshot:
 
    :::image type="content" source="media/vs-2022/project-properties-application-tab-framework.png" alt-text="Screenshot of the Project Properties dialog with .NET Framework options highlighted.":::
 
-   For a .NET project, the dialog might look similar to the following screenshot:
+   For a **.NET project**, the dialog might look similar to the following screenshot:
 
-   :::image type="content" source="media/vs-2022/project-properties-target-framework.png" alt-text="Screenshot of the General tab in the Project Properties dialog box, with the 'Target framework' selections showing.":::
+   :::image type="content" source="media/vs-2022/visual-studio-multi-targeting-overview/project-properties-target-framework.png" alt-text="Screenshot of the General tab in the Project Properties dialog box, with the 'Target framework' selections showing.":::
 
 1. If a verification dialog box appears, choose the **Yes** button.
 
@@ -142,6 +114,34 @@ In an existing Visual Basic, C#, or F# project, you change the target .NET versi
 > - For a .NET Core app: `<TargetFramework>netcoreapp2.1</TargetFramework>`
 > - For a .NET Standard app: `<TargetFramework>netstandard2.0</TargetFramework>`
 > - For a .NET Framework app: `<TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>`
+
+## Select a target framework version
+
+When you create a .NET Framework project, you can select the target .NET Framework version after you select a project template. The list of available frameworks includes the installed framework versions that are applicable to the selected template type. For non-.NET Framework project templates, for example .NET Core templates, the **Framework** drop-down list doesn't appear.
+
+::: moniker range="vs-2019"
+
+![Screenshot of Framework dropdown in Visual Studio 2019.](media/vs-2019/configure-new-project-framework.png)
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+If you choose to **create a .NET Framework project**, you'll see an interface that's similar to the following screenshot:
+
+:::image type="content" source="media/vs-2022/configure-new-project-framework.png" alt-text="Screenshot of the Framework drop-down list in Visual Studio 2022.":::
+
+If you choose to **create a .NET project**, you'll see user interface (UI) that's similar to the following two screenshots.
+
+The first screen you'll see is the **Configure your new project** dialog.
+
+:::image type="content" source="media/vs-2022/configure-your-new-project.png" alt-text="Screenshot of the 'Configure your new project' dialog box in Visual Studio 2022.":::
+
+The second screen you'll see is the **Additional options** dialog.
+
+:::image type="content" source="media/vs-2022/visual-studio-multi-targeting-overview/configure-new-project-additional-info.png" alt-text="Screenshot of the 'Additional options' dialog box in Visual Studio 2022.":::
+
+::: moniker-end
 
 ## Resolve system and user assembly references
 

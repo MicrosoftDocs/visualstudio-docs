@@ -1,5 +1,30 @@
 {
   "redirections": [
+    
+    {
+      "source_path": "docs/data-tools/add-validation-to-an-n-tier-dataset.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/data-tools/add-validation-to-an-n-tier-dataset?view=vs-2017",
+      "redirect_document_id": "false"
+    },
+    
+    {
+      "source_path": "docs/data-tools/add-code-to-tableadapters-in-n-tier-applications.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/data-tools/add-code-to-tableadapters-in-n-tier-applications?view=vs-2017",
+      "redirect_document_id": "false"
+    },
+    
+    {
+      "source_path": "docs/data-tools/separate-datasets-and-tableadapters-into-different-projects.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/data-tools/separate-datasets-and-tableadapters-into-different-projects?view=vs-2017",
+      "redirect_document_id": "false"
+    },
+    
+    {
+      "source_path": "docs/data-tools/add-code-to-datasets-in-n-tier-applications.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/data-tools/add-code-to-datasets-in-n-tier-applications?view=vs-2017",
+      "redirect_document_id": "false"
+    },
+    
     {
       "source_path": "docs/azure/vs-active-directory-dotnet-getting-started.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-active-directory-dotnet-getting-started?view=vs-2017",
@@ -1011,6 +1036,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/edit-and-continue.md",
+      "redirect_url": "/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/stop-code-changes.md",
+      "redirect_url": "/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/error-mixed-mode-debugging-for-ia64-processes-is-unsupported.md",
       "redirect_url": "/visualstudio/debugger/mixed-mode-debugging-for-ia64-processes-is-unsupported",
       "redirect_document_id": false
@@ -1850,6 +1885,22 @@
     {
       "source_path": "docs/install/visual-studio-build-numbers-and-release-dates.md",
       "redirect_url": "/visualstudio/releases/2019/history#release-dates-and-build-numbers",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2019"
+    ]
+    },
+    {
+      "source_path": "docs/porting/port-migrate-and-upgrade-visual-studio-projects.md",
+      "redirect_url": "/visualstudio/releases/2022/port-migrate-and-upgrade-visual-studio-projects",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2022"
+    ]
+    },
+    {
+      "source_path": "docs/porting/port-migrate-and-upgrade-visual-studio-projects.md",
+      "redirect_url": "/visualstudio/releases/2019/port-migrate-and-upgrade-visual-studio-projects",
       "redirect_document_id": false,
       "monikers": [
         "vs-2019"
@@ -19159,6 +19210,16 @@
       "source_path": "subscriptions/anonymization.md",
       "redirect_url": "/visualstudio/subscriptions/subscription-removed",
       "redirect_document_id": false
-    }           
+    },
+    {
+      "source_path": "docs/vsto/working-with-workbooks.md",
+      "redirect_url": "/visualstudio/vsto/how-to-programmatically-create-new-workbooks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/vsto/working-with-worksheets.md",
+      "redirect_url": "/visualstudio/vsto/how-to-programmatically-add-new-worksheets-to-workbooks",
+      "redirect_document_id": false
+    }   
   ]
 }

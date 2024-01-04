@@ -175,7 +175,7 @@ When you open Word, the content control displays data from the `AdventureWorksLT
 
 2. Click the **Next** and **Previous** buttons to scroll through the database records.
 
-## See also
+## Related content
 
 - [Data in Office solutions](../vsto/data-in-office-solutions.md)
 - [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)

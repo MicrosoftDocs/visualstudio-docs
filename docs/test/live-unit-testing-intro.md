@@ -31,7 +31,7 @@ To learn more about Live Unit Testing:
 
 - Read the [Live Unit Testing FAQ](live-unit-testing-faq.yml) to learn what's new in Live Unit Testing as well as tips and techniques.
 
-## Related resources
+## Related content
 
 - [Code testing tools](https://visualstudio.microsoft.com/vs/testing-tools/)
 - [Unit test your code](unit-test-your-code.md)

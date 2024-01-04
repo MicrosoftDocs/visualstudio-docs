@@ -203,7 +203,7 @@ ms.technology: office-development
 
 - To learn about how to save controls to a worksheet, see the Excel VSTO Add-in Dynamic Controls Sample at [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).
 
-## See also
+## Related content
 - [Excel solutions](../vsto/excel-solutions.md)
 - [Windows forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md)
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)

@@ -1,5 +1,5 @@
 ---
-title: "Deploying a VSTO Solution Using Windows Installer"
+title: Deploy a VSTO Solution with Windows Installer (Visual Studio)
 description: Deploy a Microsoft Visual Studio Tools for Office (VSTO) add-in or document-level solution by using a Visual Studio Installer project.
 titleSuffix: ""
 ms.date: "08/18/2010"

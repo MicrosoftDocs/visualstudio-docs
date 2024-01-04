@@ -52,7 +52,7 @@ In the Visual Studio integrated development environment (IDE), visual feedback r
 
 - The active hierarchy window, which is typically **Solution Explorer**, and its title bar update to reflect the current context and the context-sensitive **Project** menu commands now apply to the active Web Application project.
 
-## See also
+## Related content
 - [Selection and currency in the IDE](../../extensibility/internals/selection-and-currency-in-the-ide.md)
 - [Selection context objects](../../extensibility/internals/selection-context-objects.md)
 - [Hierarchies in Visual Studio](../../extensibility/internals/hierarchies-in-visual-studio.md)

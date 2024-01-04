@@ -9,7 +9,7 @@ ms.date: 08/01/2022
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
-# Connect to Azure services, gPRC, OpenAPI, and more
+# Connect to Azure services, gRPC, OpenAPI, and more
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
@@ -33,6 +33,8 @@ Get started by right-clicking on the project node, and choosing **Add > Connecte
 :::moniker-end
 
 Supported project types vary by the type of service. You'll see the options that apply to your project type in the listed selections.
+
+[!INCLUDE [subscription-azure-benefits](includes/subscription-azure-benefits.md)]
 
 <a name="azure"/>
 

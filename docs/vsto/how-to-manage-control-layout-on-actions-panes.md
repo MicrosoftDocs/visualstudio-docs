@@ -74,7 +74,7 @@ ms.technology: office-development
 
 - A Word document-level project with an actions pane that contains multiple user controls or nested actions pane controls.
 
-## See also
+## Related content
 - [Actions pane overview](../vsto/actions-pane-overview.md)
 - [How to: Add an actions pane to Word documents or Excel workbooks](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md)
 - [How to: Add an actions Pane to Word Documents or Excel workbooks](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md)

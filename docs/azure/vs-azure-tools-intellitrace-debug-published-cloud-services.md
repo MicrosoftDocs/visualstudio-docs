@@ -24,6 +24,10 @@ As an alternative, you can use [remote debugging](vs-azure-tools-debugging-cloud
 > IntelliTrace is intended for debug scenarios only, and should not be used for a production deployment.
 >
 
+## Prerequisites
+
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
+
 ## Configure an Azure application for IntelliTrace
 To enable IntelliTrace for an Azure application, you must create and publish the application from a Visual Studio Azure project. You must configure IntelliTrace for your Azure application before you publish it to Azure. If you publish your application without configuring IntelliTrace, you need to republish the project. For more information, see [Publishing an Azure cloud services projects using Visual Studio](vs-azure-tools-publishing-a-cloud-service.md).
 

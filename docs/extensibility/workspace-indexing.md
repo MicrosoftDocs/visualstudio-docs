@@ -61,7 +61,7 @@ Extensions can export a scanner by implementing `IWorkspaceProviderFactory<IFile
 
 In advanced situations, an extension might dynamically support an arbitrary set of file types. Rather than MEF exporting `IWorkspaceProviderFactory<IFileScanner>`, an extension can export `IWorkspaceProviderFactory<IFileScannerProvider>`. When indexing begins, this factory type will be imported, instantiated, and have its <xref:Microsoft.VisualStudio.Workspace.Indexing.IFileScannerProvider.GetSymbolScannersAsync%2A> method invoked. `IFileScanner` instances supporting any value from `FileScannerTpeConstants` will be honored, not just symbols.
 
-## Next steps
+## Related content
 
 * [Workspaces and language services](workspace-language-services.md) - Learn how to integrate language services into an Open Folder workspace.
 * [Workspace build](workspace-build.md) - Open Folder supports build systems such as MSBuild and makefiles.

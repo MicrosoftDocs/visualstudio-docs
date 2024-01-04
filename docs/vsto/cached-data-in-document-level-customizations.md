@@ -56,6 +56,6 @@ ms.technology: office-development
 |What types of data can you store?|Any public object in your customization assembly that meets certain requirements. For more information, see [Cache data](../vsto/caching-data.md).|Any XML data.|
 |Can you access the data without starting Microsoft Office applications?|Yes, by using the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> class provided by the  Visual Studio Tools for Office runtime .|Yes, by using classes in the <xref:System.IO.Packaging> namespace, or by using the Open XML Format SDK.|
 
-## See also
+## Related content
 - [Data in Office solutions](../vsto/data-in-office-solutions.md)
 - [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)
