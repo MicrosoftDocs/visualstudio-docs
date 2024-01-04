@@ -43,5 +43,5 @@ Typically, a ClickOnce application will start automatically immediately after it
 
 6. Deploy your application.
 
-## See also
+## Related content
 - [Publishing ClickOnce applications](../deployment/publishing-clickonce-applications.md)

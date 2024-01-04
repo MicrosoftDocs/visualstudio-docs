@@ -55,7 +55,7 @@ You can install your ClickOnce application initially from a CD or a file share, 
 
  All ClickOnce applications that use `<deploymentProvider>` should explicitly declare the permissions they need in their application manifest, so that the application does not receive different levels of trust on different computers.
 
-## See also
+## Related content
 - [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)
 - [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)
 - [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)

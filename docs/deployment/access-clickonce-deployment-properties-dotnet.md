@@ -80,6 +80,6 @@ Starting in .NET 7, **dotnet-mage** supports a new switch, `-TrustURLParameters`
 
 You need to set `trustURLParameters` to true to allow the application to access the `ActivationUri` and URL parameters.
 
-## See also
+## Related content
 
 [ClickOnce for .NET on Windows](../deployment/clickonce-deployment-dotnet.md)

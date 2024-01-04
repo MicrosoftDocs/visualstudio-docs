@@ -81,5 +81,5 @@ The *query string* is the portion of a URL beginning with a question mark (?) th
 ## .NET Framework security
  Allow passing URL parameters to your ClickOnce application only if you plan to cleanse the input of any malicious characters before using it. A string embedded with quotes, slashes, or semicolons, for example, might perform arbitrary data operations if used unfiltered in a SQL query against a database. For more information on query string security, see [Script exploits overview](/previous-versions/w1sw53ds(v=vs.140)).
 
-## See also
+## Related content
 - [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)

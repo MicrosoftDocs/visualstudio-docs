@@ -165,6 +165,6 @@ The dialog boxes and menu commands you see might differ from those described in 
 
 6. When you are finished debugging, on the **Debug** menu, click **Stop Debugging**.
 
-## See also
+## Related content
 
 - [Debug ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)

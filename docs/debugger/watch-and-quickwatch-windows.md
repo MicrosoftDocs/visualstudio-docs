@@ -359,7 +359,7 @@ To observe the `a` variable,
 
 1. Continue debugging. You can observe the variable in the **Watch** window.
 
-## See also
+## Related content
 - [What is debugging?](../debugger/what-is-debugging.md)
 - [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md)
 - [First look at debugging](../debugger/debugger-feature-tour.md)
