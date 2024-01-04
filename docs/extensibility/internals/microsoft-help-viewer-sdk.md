@@ -178,7 +178,7 @@ The body (not including the header and footer) of the topic will contain page li
 
 <ul class="toc">
 <li class="tocline1"><a href="#introduction" target="_self">1.0 Introduction</a></li>
-<li class="tocline1"><a href="#relatedcontent" target="_self">Related content</a></li>
+<li class="tocline1"><a href="#related-content" target="_self">Related content</a></li>
 </ul>
 
 <div class="topic">
