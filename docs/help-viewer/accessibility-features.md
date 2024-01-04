@@ -102,7 +102,7 @@ You can reposition the Help Viewer window.
 
   :::image type="content" source="./media/accessibility-features/move-help-viewer.png" alt-text="Screenshot of Help Viewer and an on-screen keyboard. The Alt and M keys and the Spacebar are called out.":::
 
-## See also
+## Related content
 
 - [Microsoft Help Viewer](../help-viewer/overview.md)
 - [Shortcut Keys (Help Viewer)](../help-viewer/shortcut-keys.md)

@@ -64,6 +64,6 @@ All ClickOnce applications require that the correct version of the .NET Framewor
     > [!NOTE]
     > You must make sure that installers for the specified components exist at the specified location.
 
-## See also
+## Related content
 - [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
 - [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)

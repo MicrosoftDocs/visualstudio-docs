@@ -39,7 +39,7 @@ After you create a shader by using the Shader Designer and before you can use it
 
 4. In the **File name** combo box, specify a name for the exported shader, and then choose the **Save** button.
 
-## See also
+## Related content
 
 - [How to: Create a basic color shader](../designers/how-to-create-a-basic-color-shader.md)
 - [Shader Designer](../designers/shader-designer.md)

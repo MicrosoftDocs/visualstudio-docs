@@ -41,6 +41,6 @@ When publishing a ClickOnce application, the **Support URL** property identifies
 
 5. In the **Support URL** field, enter a fully qualified path to a Web site, Web page, or UNC share.
 
-## See also
+## Related content
 - [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
 - [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)

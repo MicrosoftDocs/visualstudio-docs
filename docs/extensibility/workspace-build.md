@@ -99,6 +99,6 @@ Alternatively, extensions can directly interact with the **Error List** or **Bui
 
 For information on authoring a tasks.vs.json or launch.vs.json file, see [Customize build and debug tasks](../ide/customize-build-and-debug-tasks-in-visual-studio.md).
 
-## Next steps
+## Related content
 
 * [Language Server Protocol](language-server-protocol.md) - Learn how to integrate language servers into Visual Studio.

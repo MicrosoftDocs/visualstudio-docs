@@ -54,6 +54,6 @@ Previously, for .NET Framework apps, you would read this data using the followin
 string value = AppDomain.CurrentDomain?.SetupInformation?.ActivationArguments?.ActivationData?[0];
 ```
 
-## See also
+## Related content
 
 [ClickOnce for .NET on Windows](../deployment/clickonce-deployment-dotnet.md)

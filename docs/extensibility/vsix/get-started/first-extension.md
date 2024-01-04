@@ -144,7 +144,7 @@ Congratulations!!
 
 You can find the code for this extension in the [samples repository](https://github.com/VsixCommunity/Samples).
 
-## Additional resources
+## Related content
 
 * [Anatomy of extensions](extension-anatomy.md)
 * [Menus & Commands](../recipes/menus-buttons-commands.md)
