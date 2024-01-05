@@ -101,7 +101,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Upgrade from MSTestV1 to MSTestV2](../test/mstest-update-to-mstestv2.md) - Update unit testing articles
 - [Walkthrough: Test-driven development using Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md) - Update unit testing articles
 
-## Community contributors
+### Community contributors
 
 The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
 
@@ -220,7 +220,7 @@ The following people contributed to the Visual Studio docs during this period. T
 
 - [Configure a computer to develop Office solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md) - Consolidate two articles on configuring VSTO
 
-## Community contributors
+### Community contributors
 
 The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
 
