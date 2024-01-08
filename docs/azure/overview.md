@@ -18,6 +18,12 @@ In this article, you learn about how Visual Studio can help with Azure developme
 
 [!INCLUDE [subscription-azure-benefits](includes/subscription-azure-benefits.md)]
 
+You can host your web apps in Azure and dynamically scale out to serve larger numbers of concurrent users, instead of overloading a limited infrastructure. Hosting in Azure makes it possible to make use of the rich ecosystem of services that the Azure platform provides. Your apps can be more easily managed using rich services such App Service, or for containerized apps, Azure Container Apps.
+
+For on-premises apps, you can attach to Azure to get the benefits of some specific Azure services, such as storage of blobs, databases hosted in Azure, monitoring via App Insights, identity management, and much more.
+
+Visual Studio has many capabilities that can make it much easier to develop applications that connect to Azure services, or that are themselves deployed to Azure and hosted in the Azure cloud. Visual Studio provides mechanisms to make it easier to connect to services during the initial development phase, as well as making it easy to publish or deploy an application to Azure, and also, you can connect to your Azure application with the Visual Studio debugger on your local machine, making your debugging experience for cloud applications as easy as local debugging.
+
 ## Supported technologies and languages
 
 With Visual Studio, you can both develop apps that run in the Azure cloud, and connect to Azure services from your on-premises, desktop, and mobile apps. Visual Studio is the most full-featured and complete environment for Windows developers to connect .NET and ASP.NET applications to Azure services. Visual Studio also supports development in other technology stacks, such as Node.js and Python, which you can use to create web sites and web applications that you can deploy to Azure using the Azure command-line interface (CLI).
@@ -50,11 +56,15 @@ What are you deploying?
 
 If you need help configuring CI/CD for a GitHub repo for the first time, Visual Studio can help you get started with GitHub Action starter workflows. Learn more at [Deploy your application to Azure using GitHub Actions workflows created by Visual Studio](azure-deployment-using-github-actions.md). Read more about setting up CI/CD for deployment to Azure at [Continuous deployment to Azure App Service](/azure/app-service/deploy-continuous-deployment?tabs=github).
 
+## Debug in Azure using Visual Studio
+
+You can use Visual Studio debug your application while it's running in Azure, so that you can identify and reproduce problems in an environment that is as close as possible to a production environment.
+
 ## Leverage integrated Azure features
 
 When running in the Azure cloud, apps can benefit from Azure's high availability standards, [scaling up](/azure/app-service/manage-scale-up) and [scaling out](/azure/app-service/manage-automatic-scaling?tabs=azure-portal) capabilities, [monitoring](/azure/azure-monitor/app/asp-net), [load testing](/azure/load-testing/overview-what-is-azure-load-testing), and other benefits. Visual Studio comes integrated with Azure functionality like [remote debugging](../debugger/remote-debugging.md), viewing logs, and more.
 
-## Local emulation support
+## Save money with local emulation support
 
 During the development phase, you can experiment and develop with local emulators of Azure services for convenience and cost-savings, and later deploy to Azure. Learn more at [Local and connected configurations](overview-connected-services.md#local-and-connected-configurations).
 
@@ -147,7 +157,7 @@ This section can help you learn what Azure services might be useful. Start by go
 
 If you are unsure of what Azure service might best fit your needs, try [Azure App Service](/azure/app-service/quickstart-dotnetcore?tabs=net70&pivots=development-environment-vs#publish-your-web-app).
 
-If you need triggers, try [Azure Functions](/azure/azure-functions/functions-create-your-first-function-visual-studio).
+[Triggers](/azure/azure-functions/functions-triggers-bindings?tabs=isolated-process%2Cpython-v2&pivots=programming-language-csharp) are events that you set up to run code when certain conditions occur. They can be scheduled according to a timer, or they can be set up to respond to messages in a queue, events within other Azure services, or web hooks. If you need triggers, try [Azure Functions](/azure/azure-functions/functions-create-your-first-function-visual-studio).
 
 If you need easy containers, try [Azure Container Apps](/azure/container-apps/deploy-visual-studio).
 
