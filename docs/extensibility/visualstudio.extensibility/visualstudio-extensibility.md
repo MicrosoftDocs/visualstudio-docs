@@ -19,11 +19,11 @@ VisualStudio.Extensibility is a new framework for developing Visual Studio exten
 
 With the current preview, you can develop a wide range of extensions to Visual Studio, including creating commands, working with code or text in the editor, displaying prompts or dialogs to the user, creating debugger visualizers, and more!
 
-VisualStudio.Extensibility aims to address many of the problems developers experience when using and writing extensions in Visual Studio:
+VisualStudio.Extensibility aims to address many of the problems developers experience when using and writing extensions in Visual Studio. Writing extensions using VisualStudio.Extensibility provides the following benefits:
 
-* Visual Studio remains responsive and won't crash if an extension crashes or hangs
-* Simplified architecture, consistent APIs, and clear documentation
-* Extensions can be installed without restarting Visual Studio
+* **Increased reliability**: Visual Studio remains responsive and won't crash if an extension crashes or hangs.
+* **Reduced API complexity**: VisualStudio.Extensibility has simplified architecture, consistent APIs, and clear documentation.
+* **Hot-loading functionality**: Visual Studio doesn't need to be restarted when installing extensions.
 
 Eventually, you will be able to use the VisualStudio.Extensibility SDK to write any extension you could write using the VS SDK. However, until that time, you might encounter situations where the functionality you need in your extension isn't yet available in VisualStudio.Extensibility. In that case, you can develop an in-process extension by leveraging the new VisualStudio.Extensibility APIs while relying on VS SDK to cover any feature gap. To learn more, see [In-proc extensions](./get-started/in-proc-extensions.md).
 
@@ -34,7 +34,7 @@ The latest information on VisualStudio.Extensibility may be found in the VSExten
 | Article | Description|
 |-|-|
 | [Install VisualStudio.Extensibility](#install-visualstudioextensibility) | Download and install the latest preview of VisualStudio.Extensibility. |
-| [Get started](#get-started) | Never developed an extension before? Start with beginner quickstarts and introductory tutorials. |
+| [Get started](#get-started) | Start with beginner quickstarts and introductory tutorials if you've never developed an extension before. |
 | [Concepts](#concepts) | Build your mental model of how the SDK and extensions work. |
 | [Overviews](#overviews) | Learn more by reading overviews of each major area of functionality. |
 | [Samples](#samples-and-tutorials) | Explore sample code demonstrating major features. |
@@ -49,24 +49,24 @@ Install the [VisualStudio.Extensibility Project System](https://marketplace.visu
 
 ## Get started
 
-The following articles help you get oriented and started.
+The following articles help you get oriented and started"
 
-* [Create your first extension](./get-started/create-your-first-extension.md) shows how to create the equivalent of "Hello, world" as an extension.
-* Next, follow a tutorial and create a more interesting extension that adds a GUID to the editor window. See [Create a simple extension](./get-started/tutorial-create-simple-extension.md).
+* [Create your first Visual Studio extension](./get-started/create-your-first-extension.md) shows how to create the equivalent of "Hello, world" as an extension.
+*  [Create a simple extension](./get-started/tutorial-create-simple-extension.md) shows you how to create a more interesting extension that adds a GUID to the editor window.
 
 To understand how to work with VisualStudio.Extensibility, we recommend a thorough understanding of [asynchronous programming with async and await](/dotnet/csharp/programming-guide/concepts/async/) and [dependency injection](/dotnet/core/extensions/dependency-injection). In addition, UI in VisualStudio.Extensibility is based on Windows Presentation Foundation (WPF), so you might want to review the [WPF documentation](/dotnet/desktop/wpf/).
 
 ## Concepts
 
-If you're familiar with the Visual Studio SDK, see [Introduction to VisualStudio.Extensibility for VSSDK users](./get-started/oop-extensibility-model-overview.md).
+If you're familiar with the Visual Studio SDK, refer to [Introduction to VisualStudio.Extensibility for VSSDK users](./get-started/oop-extensibility-model-overview.md).
 
-Build your mental model of how Visual Studio extensions work. See [Parts of a new Visual Studio extension](./inside-the-sdk/extension-anatomy.md).
+To build your mental model of how Visual Studio extensions work, see [Parts of a new Visual Studio extension](./inside-the-sdk/extension-anatomy.md).
 
-Learn what's in the SDK at [Functional areas of the SDK](./inside-the-sdk/inside-the-sdk.md).
+To find out what is included in the SDK, see [Functional areas of the SDK](./inside-the-sdk/inside-the-sdk.md).
 
-When and where should your extension appear in the IDE? Visual Studio extensions surface in the IDE when certain conditions are met. To control how and when your extension appears in the IDE, see [Rule-based activation constraints](./inside-the-sdk/activation-constraints.md).
+When and where should your extension appear in the IDE? Visual Studio extensions appear in the IDE when certain conditions are met. To have control over how and when your extension appears in the IDE, see [Rule-based activation constraints](./inside-the-sdk/activation-constraints.md).
 
-Visual Studio extensions make their features available to Visual Studio through [Contributions](./inside-the-sdk/contributions-and-configurations.md)
+Visual Studio extensions make their features available to Visual Studio through contributions. For more information, see [Contributions](./inside-the-sdk/contributions-and-configurations.md)
 
 Learn about the [Remote UI](./inside-the-sdk/remote-ui.md) model used in the VisualStudio.Extensibility.
 
@@ -75,8 +75,8 @@ Learn about the [Remote UI](./inside-the-sdk/remote-ui.md) model used in the Vis
 Read an overview of the areas of the SDK that you might need for your extension development projects.
 
 * Create commands and expose them to users in the IDE, see [Commands](./command/command.md).
-* Work with contents of files and documents, see [Editor extensions](./editor/editor.md).
-* Work with the in-memory representation of those documents themselves, see [Documents](./document/documents.md)
+* Work with the contents of files and documents, see [Editor extensions](./editor/editor.md).
+* Work with the in-memory representation of those documents themselves, see [Documents](./document/documents.md).
 * Use the output window in an extension, see [Output window](./output-window/output-window.md).
 * Work with tool windows, dockable windows within the Visual Studio IDE, see [Tool windows](./tool-window/tool-window.md).
 * Use prompts with customizable buttons to interact with the user, see [User prompts](./user-prompt/user-prompts.md).
@@ -86,12 +86,12 @@ Read an overview of the areas of the SDK that you might need for your extension 
 
 ## Samples and tutorials
 
-A Visual Studio solution containing all samples can be found at [Samples.sln](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/Samples.sln).
+You can find a Visual Studio solution that contains all samples at [Samples.sln](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/Samples.sln).
 
 | Sample | Description|
 |-|-|
-| [Simple command handler](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/SimpleRemoteCommandSample) | Demonstrates the basics of working with commands. See also the [Create your first extension](./get-started/create-your-first-extension.md) tutorial.|
-| [Insert guid extension](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/InsertGuid) | Shows how to insert text or code in the code editor, how to configure a command with a specific activation condition, and how to use a resource file for localization. See also the [tutorial](./get-started/tutorial-create-simple-extension.md). |
+| [Simple command handler](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/SimpleRemoteCommandSample) | Demonstrates the basics of working with commands. See also the [Create your first Visual Studio extension](./get-started/create-your-first-extension.md) tutorial. |
+| [Insert guid extension](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/InsertGuid) | Shows how to insert text or code in the code editor, how to configure a command with a specific activation condition, and how to use a resource file for localization. See also the [Create your simple extension](./get-started/tutorial-create-simple-extension.md) tutorial. |
 | [Command parenting](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/CommandParentingSample) | Shows how to author a command that can be parented to different aspects of the IDE. |
 | [Document selector](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/DocumentSelectorSample) | Shows how to create an editor extension that is only applicable to files matching a file path pattern. |
 | [Output window](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample) | Shows the most basic use of the [Output Window API](./output-window/output-window.md)|
@@ -99,7 +99,7 @@ A Visual Studio solution containing all samples can be found at [Samples.sln](ht
 | [User prompt](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/UserPromptSample) | Shows how to display a prompt to the user. |
 | [Dialog](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/DialogSample) | Shows how to display a dialog with custom UI to the user. |
 | [Word count margin](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/WordCountMargin) | Shows how to create an editor margin extension that displays the word count in a document. |
-| [Markdown linter](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/MarkdownLinter) | A complete extension with many moving parts interacting to provide an enhanced experience in the editor for a certain file type. |
+| [Markdown linter](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/MarkdownLinter) | Shows how multiple components can interact together inside an extension and how different areas of Visual Studio can be extended. |
 | [Project Query](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/VSProjectQueryAPISample) | Shows several different kinds of project system queries you can make. |
 | [Comment remover](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/CommentRemover) | Shows how to consume [Visual Studio SDK](https://www.nuget.org/packages/Microsoft.VisualStudio.SDK) services through .NET dependency injection and use VisualStudio.Extensibility APIs for commands, prompts and progress report. |
 
@@ -107,8 +107,8 @@ A Visual Studio solution containing all samples can be found at [Samples.sln](ht
 
 | Article | Description|
 |-|-|
-| [Advanced Remote UI](./inside-the-sdk/advanced-remote-ui.md) | In-depth information on the remote UI model. |
-| [In-proc extensions](./get-started/in-proc-extensions.md) | Learn how to make extension that run in-process. |
+| [Advanced Remote UI](./inside-the-sdk/advanced-remote-ui.md) | In-depth information on the remote UI model |
+| [In-proc extensions](./get-started/in-proc-extensions.md) | A quick walkthrough on different options to use VisualStudio.Extensibility SDK in-proc |
 
 ## API Docs
 
