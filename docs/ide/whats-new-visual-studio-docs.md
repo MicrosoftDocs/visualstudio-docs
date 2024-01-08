@@ -24,10 +24,10 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md) - Update Hot Reload vs. Edit and Continue terminology for VS 2022
-- [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md) - Update Hot Reload vs. Edit and Continue terminology for VS 2022
-- [Configure Edit and Continue (C#, VB, C++)](../debugger/how-to-enable-and-disable-edit-and-continue.md) - Update Hot Reload vs. Edit and Continue terminology for VS 2022
-- [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md) - Update Hot Reload vs. Edit and Continue terminology for VS 2022
+- [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md) - Update Hot Reload vs. Edit and Continue terminology for Visual Studio 2022
+- [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md) - Update Hot Reload vs. Edit and Continue terminology for Visual Studio 2022
+- [Configure Edit and Continue (C#, VB, C++)](../debugger/how-to-enable-and-disable-edit-and-continue.md) - Update Hot Reload vs. Edit and Continue terminology for Visual Studio 2022
+- [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md) - Update Hot Reload vs. Edit and Continue terminology for Visual Studio 2022
 - [Remote Debugging a C# or Visual Basic project in Visual Studio](../debugger/remote-debugging-csharp.md) - Add steps to remote debug MAUI apps
 - [Use breakpoints in the Visual Studio debugger](../debugger/using-breakpoints.md) - Add hardware limits for data breakpoints
 
@@ -35,15 +35,15 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Menus and Toolbars overview](../extensibility/visualstudio.extensibility/command/menus-and-toolbars.md) - VisualStudio.Extensibility Phase 4
-- [Create Visual Studio debugger visualizers](../extensibility/visualstudio.extensibility/debugger-visualizer/debugger-visualizers.md) - VisualStudio.Extensibility Phase 4
-- [Using VisualStudio.Extensibility SDK and VSSDK together](../extensibility/visualstudio.extensibility/get-started/in-proc-extensions.md) - VisualStudio.Extensibility Phase 4
-- [Introduction to VisualStudio.Extensibility for VSSDK users](../extensibility/visualstudio.extensibility/get-started/oop-extensibility-model-overview.md) - VisualStudio.Extensibility Phase 4
-- [Create a simple extension](../extensibility/visualstudio.extensibility/get-started/tutorial-create-simple-extension.md) - VisualStudio.Extensibility Phase 4
-- [Rule-based activation constraints](../extensibility/visualstudio.extensibility/inside-the-sdk/activation-constraints.md) - VisualStudio.Extensibility Phase 4
-- [Contributions and Configurations](../extensibility/visualstudio.extensibility/inside-the-sdk/contributions-and-configurations.md) - VisualStudio.Extensibility Phase 4
-- [Components of a VisualStudio.Extensibility extension](../extensibility/visualstudio.extensibility/inside-the-sdk/extension-anatomy.md) - VisualStudio.Extensibility Phase 4
-- [Project query API concepts](../extensibility/visualstudio.extensibility/project/project-concepts.md) - VisualStudio.Extensibility Phase 4
+- [Menus and Toolbars overview](../extensibility/visualstudio.extensibility/command/menus-and-toolbars.md) - VisualStudio.Extensibility preview updates
+- [Create Visual Studio debugger visualizers](../extensibility/visualstudio.extensibility/debugger-visualizer/debugger-visualizers.md) - VisualStudio.Extensibility preview updates
+- [Using VisualStudio.Extensibility SDK and VSSDK together](../extensibility/visualstudio.extensibility/get-started/in-proc-extensions.md) - VisualStudio.Extensibility preview updates
+- [Introduction to VisualStudio.Extensibility for VSSDK users](../extensibility/visualstudio.extensibility/get-started/oop-extensibility-model-overview.md) - VisualStudio.Extensibility preview
+- [Create a simple extension](../extensibility/visualstudio.extensibility/get-started/tutorial-create-simple-extension.md) - VisualStudio.Extensibility preview updates
+- [Rule-based activation constraints](../extensibility/visualstudio.extensibility/inside-the-sdk/activation-constraints.md) - VisualStudio.Extensibility preview updates
+- [Contributions and Configurations](../extensibility/visualstudio.extensibility/inside-the-sdk/contributions-and-configurations.md) - VisualStudio.Extensibility preview updates
+- [Components of a VisualStudio.Extensibility extension](../extensibility/visualstudio.extensibility/inside-the-sdk/extension-anatomy.md) - VisualStudio.Extensibility preview updates
+- [Project query API concepts](../extensibility/visualstudio.extensibility/project/project-concepts.md) - VisualStudio.Extensibility preview updates
 
 ### Get started
 
@@ -71,7 +71,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 **Updated articles**
 
 - [Visual Studio on Arm-powered devices](../install/visual-studio-on-arm-devices.md) - Review and update
-- [Install Build Tools into a container](../install/build-tools-container.md) - [Internal] Adding troubleshooting info into the article.
 
 ### MSBuild
 
@@ -123,7 +122,7 @@ The following people contributed to the Visual Studio docs during this period. T
 
 **Updated articles**
 
-- [Connect to a database in Visual Studio](../data-tools/add-new-connections.md) - Add info for Encrypt and Trust Server Certificate options for MDS 4.0 and VS 17.8
+- [Connect to a database in Visual Studio](../data-tools/add-new-connections.md) - Add info for Encrypt and Trust Server Certificate options for MDS 4.0 and Visual Studio 17.8
 
 ### Debugger
 
