@@ -32,7 +32,7 @@ Options for deploying GitHub Copilot onto client machines depend on how Visual S
 
 ### Using the Visual Studio Installer
 
-- For most organizations, users will either install Visual Studio on their own by download the installer, or through an administrator command that runs the installer.
+- For most organizations, users will either acquire Visual Studio by downloading and running the installer on their own, or as a part of an environment setup that runs the installer programmatically.
 - For these customers, you can run a command from the Powershell Admin Window, example for Visual Studio 2022 version 17.8 below:
 
 Be in the c:\Program Files (x86)\Microsoft Visual Studio\Installer> directory:
