@@ -1,7 +1,7 @@
 ---
 title: Deploying GitHub Copilot to Visual Studio 2022 instances
 description: Configure and deploy GitHub Copilot to a client machine within an enterprise programmatically with an installation script.
-ms.date: 12/20/2023
+ms.date: 1/10/2024
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
