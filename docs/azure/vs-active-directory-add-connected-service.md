@@ -51,11 +51,11 @@ This article and its companion articles provide details of using the Visual Stud
 
 1. On the next screen, you can choose to enable Microsoft.Graph or allow another API project to have access. You can configure this later if you don't have the information yet.
 
-   ![Screenshot of additional options for adding APIs](./media/vs-azure-active-directory/additional-settings.png)
+   ![Screenshot of additional options for adding APIs.](./media/vs-azure-active-directory/additional-settings.png)
 
 1. Choose **Next**. The **Summary of changes** screen appears showing what is being changed in the project.
 
-   ![Screenshot showing Summary of changes screen](./media/vs-azure-active-directory/summary-of-changes.png)
+   ![Screenshot showing Summary of changes screen.](./media/vs-azure-active-directory/summary-of-changes.png)
 
 1. The **Dependency configuration process** screen shows the specific changes that are being made to your project.
 
@@ -93,11 +93,11 @@ You can also see the Active Directory domain on the [Azure portal](https://go.mi
 
 1. On the next screen, you can choose to enable Microsoft.Graph or allow another API project to have access. You can configure this later if you don't have the information yet.
 
-   ![Screenshot of additional options for adding APIs](./media/vs-azure-active-directory/additional-settings.png)
+   ![Screenshot of additional options for adding APIs.](./media/vs-azure-active-directory/additional-settings.png)
 
 1. Choose **Next**. The **Summary of changes** screen appears showing what is being changed in the project.
 
-   ![Screenshot showing Summary of changes screen](./media/vs-azure-active-directory/summary-of-changes.png)
+   ![Screenshot showing Summary of changes screen.](./media/vs-azure-active-directory/summary-of-changes.png)
 
 1. The **Dependency configuration process** screen shows the specific changes that are being made to your project.
 
