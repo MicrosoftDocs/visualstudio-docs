@@ -31,7 +31,7 @@ To learn more, consider exploring the following resources:
 [See: Managing access for GitHub Copilot for Business in your organization.](https://docs.github.com/en/copilot/managing-copilot-business/managing-access-for-copilot-business-in-your-organization)
 - The Visual Studio 2022 instance must be version 17.8 or above.
 
-## Installing GitHub Copilot to Visual Studio Instances
+## Installing GitHub Copilot to Visual Studio instances
 
 Options available for deploying GitHub Copilot onto your users’ machines depends on how Visual Studio is currently installed on your users’ machines, options are elaborated on below.
 
