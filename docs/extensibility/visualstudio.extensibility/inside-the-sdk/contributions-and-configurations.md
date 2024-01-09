@@ -173,6 +173,6 @@ The guidance about not referencing *compile-time constant* configuration propert
 
 In case a unique identifier is required for a Visual Studio contribution property, its full name (containing type full name and property name) is used by the VisualStudio.Extensibility infrastructure as an identifier. For example, the unique identifier of the toolbar configuration discussed here would be `CommandParentingSample.ExtensionCommandConfiguration.ToolbarConfiguration`.
 
-## Next steps
+## Related content
 
-Learn more about VisualStudio.Extensibility by reading [Components of a VisualStudio.Extensibility extension](./extension-anatomy.md).
+- [Components of a VisualStudio.Extensibility extension](./extension-anatomy.md).

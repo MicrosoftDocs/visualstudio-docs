@@ -20,6 +20,10 @@ You can configure an Azure cloud service project, depending on your requirements
 - **Run or debug a cloud service on the local computer** - You can select a service configuration to use and indicate whether you want to start the Azure Storage Emulator.
 - **Validate a cloud service package when it is created** - You can decide to treat any warnings as errors so that you can ensure that the cloud service package deploys without any issues.
 
+## Prerequisites
+
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
+
 ## Steps to configure an Azure cloud service project
 1. Open or create a cloud service project in Visual Studio
 

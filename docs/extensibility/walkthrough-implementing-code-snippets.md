@@ -300,5 +300,3 @@ You can create code snippets and include them in an editor extension so that use
 6. Accept the insertion by pressing either **Enter** or **Esc**.
 
 7. In a different part of the text, type "test" and then press **Tab**. Because "test" is the code-snippet shortcut, the snippet should be inserted again.
-
-## Next steps

@@ -104,6 +104,6 @@ private async Task LongRunningTaskAsync(TaskProgressData data, ITaskHandler hand
 }
 ```
 
-## Other resources
+## Related content
 
 * [Task Status Center API reference](/dotnet/api/microsoft.visualstudio.taskstatuscenter)

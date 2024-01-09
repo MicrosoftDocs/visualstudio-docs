@@ -18,7 +18,7 @@ Azure, Application Insights, Azure DevOps, and Microsoft 365 services all suppor
 
 ::: moniker range="<=vs-2019"
 
-### Access your Azure account in Server Explorer
+## Access your Azure account in Server Explorer
 
 Access your Azure account as follows:
 
@@ -41,14 +41,7 @@ The next time you open **Server Explorer**, the resources for that subscription 
 
 ::: moniker-end
 
-::: moniker range="=vs-2022"
-
-> [!NOTE]
-> The Azure node of Server Explorer has been retired in Visual Studio 2022. You can use the Azure Portal or continue to use the Azure node of Server Explorer in previous versions of Visual Studio.
-
-::: moniker-end
-
-### Access your Azure account via Add Connected Service dialog
+## Access your Azure account via Add Connected Service dialog
 
 1. Open an existing project, or create a new project.
 
@@ -56,7 +49,7 @@ The next time you open **Server Explorer**, the resources for that subscription 
 
    The **Connected Services** window appears and shows you the list of services in the Azure account associated with your Visual Studio personalization account. You don't have to sign in separately to Azure. However, you do need to sign in to the other accounts the first time you attempt to access their resources from a different machine.
 
-### Access Microsoft Entra ID in a Web project
+## Access Microsoft Entra ID in a Web project
 
 Microsoft Entra ID enables support for end-user single sign-in in ASP.NET MVC web apps or AD authentication in web API services. Domain authentication is different from individual user account authentication. Users that have access to your Active Directory domain can use their existing Microsoft Entra accounts to connect to your web applications. Microsoft 365 apps can also use domain authentication.
 
@@ -68,11 +61,14 @@ To see this scenario in action, create a new **ASP.NET Core Web App** project. O
 
 ::: moniker range=">=vs-2022"
 
-To see this scenario in action, create a new **ASP.NET Core Web App** project. On the **Additional information** page, choose **.NET 8.0** from the **Target Framework** drop-down, and then choose an authentication type from the **Authentication Type** drop-down.
+To see this scenario in action:
+1. Create a new **ASP.NET Core Web App** project.
+2. On the **Additional information** page, choose **.NET 8.0** from the **Target Framework** drop-down.
+3. Choose an authentication type from the **Authentication Type** drop-down.
 
 <a name='identity-proxy-support-for-microsoft-entra-id-backed-accounts'></a>
 
-### Identity: Proxy support for Microsoft Entra backed accounts
+## Identity: Proxy support for Microsoft Entra backed accounts
 
 Visual Studio can now detect when users are behind a proxy and proactively prompt for proxy credentials when adding  Microsoft accounts (MSA) or work or school accounts (WSA) to Visual Studio. 
 

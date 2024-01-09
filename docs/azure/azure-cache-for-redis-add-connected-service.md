@@ -33,6 +33,7 @@ The connected service functionality adds all the needed references and connectio
 
 - Visual Studio with the Azure workload installed.
 - A project of one of the supported types
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## Connect to Azure Cache for Redis using Connected Services
 

@@ -127,6 +127,6 @@ You may want to persist a property you add to a project item, such as the author
    </Compile>
    ```
 
-## See also
+## Related content
 
 - [Custom tools](../extensibility/internals/custom-tools.md)

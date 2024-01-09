@@ -26,7 +26,7 @@ Before you install versions side-by-side, review the following conditions:
 
 * If you use Visual Studio 2019 to open a solution that was created in Visual Studio 2017, you can later open and modify the solution again in the earlier version as long as you haven't implemented any features that are specific to Visual Studio 2019.
 
-* If you try to use Visual Studio 2019 to open a solution that was created in Visual Studio 2017 or an earlier version, you might need to modify your projects and files to be compatible with Visual Studio 2019. For more information, see the [Port, migrate, and upgrade Visual Studio Projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md) page.
+* If you try to use Visual Studio 2019 to open a solution that was created in Visual Studio 2017 or an earlier version, you might need to modify your projects and files to be compatible with Visual Studio 2019. For more information, see the [Port, migrate, and upgrade Visual Studio Projects](/visualstudio/releases/2019/port-migrate-and-upgrade-visual-studio-projects) page.
 
 ::: moniker-end
 
@@ -36,7 +36,7 @@ Before you install versions side-by-side, review the following conditions:
 
 * If you use Visual Studio 2022 to open a solution that was created in Visual Studio 2017 or Visual Studio 2019, you can later open and modify the solution again in the earlier version as long as you haven't implemented any features that are specific to Visual Studio 2022.
 
-* If you try to use Visual Studio 2022 to open a solution that was created in Visual Studio 2019 or an earlier version, you might need to modify your projects and files to be compatible with Visual Studio 2022. For more information, see the [Port, migrate, and upgrade Visual Studio Projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md) page.
+* If you try to use Visual Studio 2022 to open a solution that was created in Visual Studio 2019 or an earlier version, you might need to modify your projects and files to be compatible with Visual Studio 2022. For more information, see the [Port, migrate, and upgrade Visual Studio Projects](/visualstudio/releases/2022/port-migrate-and-upgrade-visual-studio-projects) page.
 
 ::: moniker-end
 
@@ -124,7 +124,7 @@ For language-specific information, see the appropriate topic in the following ta
 ## Related content
 
 * [Install Visual Studio](install-visual-studio.md)
-* [Port, migrate, and upgrade Visual Studio projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md)
+* [Port, migrate, and upgrade Visual Studio projects](/visualstudio/releases/2022/port-migrate-and-upgrade-visual-studio-projects)
 * [Building C/C++ isolated applications and side-by-side assemblies](/cpp/build/building-c-cpp-isolated-applications-and-side-by-side-assemblies/)
 
 ::: moniker-end

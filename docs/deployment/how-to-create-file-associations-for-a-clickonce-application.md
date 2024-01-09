@@ -53,7 +53,7 @@ ClickOnce applications can be associated with one or more file name extensions, 
 
     [!INCLUDE[ndptecclick](../deployment/includes/dotnet-dotnetmage-exe.md)]
 
-## See also
+## Related content
 - [\<fileAssociation> element](../deployment/fileassociation-element-clickonce-application.md)
 - [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)
 - [Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)

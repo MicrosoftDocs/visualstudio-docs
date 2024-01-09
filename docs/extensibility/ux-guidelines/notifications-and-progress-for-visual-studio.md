@@ -7,8 +7,6 @@ author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-f1_keywords:
- - vs.UserNotificationsToolWindowPane
 ---
 # Notifications and Progress for Visual Studio
 
@@ -99,7 +97,7 @@ f1_keywords:
  **Visual Studio Notifications tool window**
 
 #### <a name="BKMK_ErrorList"></a> Error list
- A notification within the error list indicate errors and warnings that occurred during compilation and or build process, and allows the user to navigate in code to that specific code error.
+ A notification within the error list indicates errors and warnings that occurred during compilation and or build process, and allows the user to navigate in code to that specific code error.
 
  ![Error list](../../extensibility/ux-guidelines/media/0901-08_errorlist.png "0901-08_ErrorList")
 

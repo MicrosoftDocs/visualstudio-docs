@@ -37,7 +37,7 @@ Here's a model that has a modified pivot point:
 
 ![A model of a house that has a modified pivot point](../designers/media/digit-modified-model.png)
 
-## See also
+## Related content
 
 - [How to: Create a basic 3D model](../designers/how-to-create-a-basic-3-d-model.md)
 - [Model editor](../designers/model-editor.md)

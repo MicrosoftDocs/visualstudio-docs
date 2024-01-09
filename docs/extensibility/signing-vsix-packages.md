@@ -41,5 +41,5 @@ Extension assemblies do not need to be signed before they can run in Visual Stud
 
    VSIXSignTool.exe sign /f \<certfile> /p \<password> \<VSIXfile>
 
-## See also
+## Related content
 - [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md)

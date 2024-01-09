@@ -92,7 +92,7 @@ In practice, we have found that the features most people want to extend are comm
 
  You can also publish your extension on the Visual Studio Marketplace, which makes it visible to a large number of Visual Studio customers. For an example of packaging an extension to the Marketplace, see [Walkthrough: Publishing a Visual Studio Extension](../extensibility/walkthrough-publishing-a-visual-studio-extension.md). For more information about what you need to do to publish on the Marketplace, see [Products and Extensions for Visual Studio](/azure/devops/extend/overview?view=vsts&preserve-view=true).
 
-## See also
+## Related content
 
 - [Extending Visual Studio for Mac](/previous-versions/visualstudio/mac/extending-visual-studio-mac-walkthrough)
 - [Extending Visual Studio Code](https://code.visualstudio.com/api)

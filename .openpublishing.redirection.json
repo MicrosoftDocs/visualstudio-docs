@@ -1891,6 +1891,22 @@
     ]
     },
     {
+      "source_path": "docs/porting/port-migrate-and-upgrade-visual-studio-projects.md",
+      "redirect_url": "/visualstudio/releases/2022/port-migrate-and-upgrade-visual-studio-projects",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2022"
+    ]
+    },
+    {
+      "source_path": "docs/porting/port-migrate-and-upgrade-visual-studio-projects.md",
+      "redirect_url": "/visualstudio/releases/2019/port-migrate-and-upgrade-visual-studio-projects",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2019"
+    ]
+    },
+    {
       "source_path": "docs/install/build-tools-container-issues.md",
       "redirect_url": "/visualstudio/install/build-tools-container#troubleshooting-windows-and-build-tools-containers",
       "redirect_document_id": false

@@ -124,7 +124,7 @@ ClickOnce can provide automatic application updates. A ClickOnce application per
 
  No prompting for trust levels will occur if you use Trusted Application Deployment. For more information, see [Trusted application deployment overview](../deployment/trusted-application-deployment-overview.md).
 
-## See also
+## Related content
 
 - <xref:System.Deployment.Application>
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
