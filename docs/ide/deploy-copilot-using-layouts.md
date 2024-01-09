@@ -33,7 +33,7 @@ To learn more, consider exploring the following resources:
 
 ## Installing GitHub Copilot to Visual Studio instances
 
-Options available for deploying GitHub Copilot onto your users’ machines depends on how Visual Studio is currently installed on your users’ machines, options are elaborated on below.
+Options for deploying GitHub Copilot onto client machines depend on how Visual Studio is currently installed on these machines.
 
 ### Using the Visual Studio Installer
 
