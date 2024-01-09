@@ -60,4 +60,4 @@ Refer to the [layout documentation](https://learn.microsoft.com/en-us/visualstud
 Note that even after installing the GitHub Copilot component to your end users' machines, the end user will need to take two steps:
 
 1) Make sure they are logged into the [GitHub web interface](https://github.com/settings/copilot) with the GitHub account associated with their Copilot subscription
-2) Launch Visual Studio 2022 and add their GitHub account to their Visual Studio keychain to activate access. Instructions here: [Add your GitHub accounts to your Visual Studio keychain](https://learn.microsoft.com/en-us/visualstudio/ide/work-with-github-accounts?view=vs-2022)
+2) Launch Visual Studio 2022 and [add their GitHub account to their Visual Studio keychain to activate access](https://learn.microsoft.com/en-us/visualstudio/ide/work-with-github-accounts?view=vs-2022).
