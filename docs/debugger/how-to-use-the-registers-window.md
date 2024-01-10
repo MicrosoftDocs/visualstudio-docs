@@ -49,7 +49,7 @@ You can edit register values. For more information, see [How to: Edit a register
 >[!NOTE]
 >Dialog boxes and menu commands might differ depending on your Visual Studio edition or settings. To change your settings, select **Import and Export Settings** on the Visual Studio **Tools** menu. For more information, see [Reset settings](../ide/environment-settings.md#reset-settings).
 
-### Related content
+## Related content
 
 - [Debugging basics: Registers window](../debugger/debugging-basics-registers-window.md)
 - [Viewing data in the debugger](../debugger/viewing-data-in-the-debugger.md)
