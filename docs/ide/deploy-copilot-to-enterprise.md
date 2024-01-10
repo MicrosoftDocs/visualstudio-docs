@@ -1,5 +1,5 @@
 ---
-title: Deploying GitHub Copilot to Visual Studio 2022 instances
+title: Deploying GitHub Copilot within your enterprise
 description: Configure and deploy GitHub Copilot to a client machine within an enterprise programmatically with an installation script.
 ms.date: 1/10/2024
 ms.topic: conceptual
@@ -22,7 +22,7 @@ Note that this method does NOT install the GitHub Copilot chat extension.
 
 To get started, you need:
 
-- Visual Studio 2022 [version 17.8 or later](/visualstudio/releases/2022/release-history)
+- This section assumes that Visual Studio 2022 [version 17.8 or later](/visualstudio/releases/2022/release-history) is already installed on the client machines.  If it's not, refer to the guidance in the [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide) for how to deploy Visual Studio throughout your organization.
 - A valid and active GitHub Copilot for Business subscription for the end user whose instance of Visual Studio 2022 you are trying to install the Github Copilot component for. 
 [See: Managing access for GitHub Copilot for Business in your organization.](https://docs.github.com/en/copilot/managing-copilot-business/managing-access-for-copilot-business-in-your-organization)
 
@@ -32,9 +32,8 @@ Options for deploying GitHub Copilot onto client machines depend on how Visual S
 
 ### Modify an existing installation and add the GitHub Copilot component
 
-- For most organizations, users will either acquire Visual Studio by downloading and running the installer on their own, or as a part of an environment setup that runs the installer programmatically.
-To modify an existing installation and add the GitHub Copilot component, you can run the installer's **modify** command from either a command line or PowerShell window.
-- For more information about how to programmatically control the installer, refer to the [Use command-line parameters to install, update, and manage Visual Studio](use-command-line-parameters-to-install-visual-studio.md) documentation.
+-   Most of the time, users will have either acquired Visual Studio themselves, or a development environment setup script would have been run on their machine.
+- To add the GitHub Copilot component to an existing installation of Visual Studio, will use the installer's **modify** command from either a command line or PowerShell window.
 
 #### Sample Install Instructions
 
@@ -69,3 +68,4 @@ To learn more, consider exploring the following resources:
 - [GitHub Copilot Chat extension: Getting started](visual-studio-github-copilot-chat.md)
 - [GitHub Copilot: Compare plans](https://github.com/features/copilot)
 - [GitHub Copilot Trust Center](https://resources.github.com/copilot-trust-center/)
+- [Use command-line parameters to install, update, and manage Visual Studio](https://learn.microsoft.com/en-us/visualstudio/install/use-command-line-parameters-to-install-visual-studio?view=vs-2022)
