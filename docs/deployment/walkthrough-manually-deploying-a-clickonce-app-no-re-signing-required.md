@@ -20,7 +20,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.subservice: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Walkthrough: Manually deploy a ClickOnce application that does not require re-signing and that preserves branding information
 

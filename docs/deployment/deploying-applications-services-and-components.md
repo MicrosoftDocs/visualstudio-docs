@@ -19,7 +19,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.subservice: vs-ide-deployment
+ms.subservice: deployment
 ---
 # First look at deployment in Visual Studio
 

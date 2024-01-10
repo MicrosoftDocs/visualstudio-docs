@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: john-hart
 ms.author: JohnHart
 manager: jmartens
-ms.subservice: vs-ide-deployment
+ms.subservice: deployment
 monikerRange: '>= vs-2019'
 ---
 # Deploy a .NET Windows desktop application using ClickOnce

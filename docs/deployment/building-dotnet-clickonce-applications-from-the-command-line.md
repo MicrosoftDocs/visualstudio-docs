@@ -14,7 +14,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.subservice: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Build .NET ClickOnce applications from the command line
 

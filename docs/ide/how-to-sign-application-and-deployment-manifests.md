@@ -2,7 +2,7 @@
 title: 'Sign application and deployment manifests'
 description: Explore the signing requirements to publish ClickOnce application and deployment manifests, and optional signing for .exe-based applications.
 ms.date: 09/14/2023
-ms.subservice: vs-ide-deployment
+ms.subservice: deployment
 ms.topic: conceptual
 helpviewer_keywords:
 - manifests [Visual Studio]

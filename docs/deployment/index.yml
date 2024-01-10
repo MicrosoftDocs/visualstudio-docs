@@ -7,7 +7,7 @@ metadata:
   title: Deployment documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Explore Visual Studio tools and features to deploy applications, services, and components, including ASP.NET, C++, .NET Framework and .NET Core, Docker, and Azure.
   ms.topic: landing-page
-  ms.subservice: vs-ide-deployment
+  ms.subservice: deployment
   author: ghogen
   ms.author: ghogen
   manager: jmartens

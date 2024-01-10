@@ -4,7 +4,7 @@ author: mikejo5000
 description: Learn about .NET ClickOnce API support in ClickOnce
 ms.author: mikejo
 ms.date: 11/22/2022
-ms.subservice: vs-ide-deployment
+ms.subservice: deployment
 ms.topic: include
 ---
 

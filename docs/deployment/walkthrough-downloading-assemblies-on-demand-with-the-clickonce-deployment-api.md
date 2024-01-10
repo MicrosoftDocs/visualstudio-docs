@@ -14,7 +14,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.subservice: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Walkthrough: Download assemblies on demand with the ClickOnce deployment API
 

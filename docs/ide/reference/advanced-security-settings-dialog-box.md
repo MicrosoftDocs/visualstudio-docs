@@ -2,7 +2,7 @@
 title: Advanced Security Settings Dialog Box
 description: Advanced Security Settings dialog box allows you to specify security settings related to debugging in zone.
 ms.date: 06/27/2018
-ms.subservice: vs-ide-deployment
+ms.subservice: deployment
 ms.topic: reference
 f1_keywords:
 - vs.err.debug_in_zone_no_hostproc

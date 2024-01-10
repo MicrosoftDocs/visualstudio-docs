@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.subservice: vs-ide-deployment
+ms.subservice: deployment
 monikerRange: '>= vs-2019'
 ---
 # Quickstart: Publish an ASP.NET web app

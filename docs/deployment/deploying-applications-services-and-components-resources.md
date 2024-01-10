@@ -14,7 +14,7 @@ dev_langs:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.subservice: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Deploy your app to a folder, IIS, Azure, or another destination
 
