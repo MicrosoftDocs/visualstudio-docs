@@ -13,7 +13,7 @@ monikerRange: vs-2022
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-For administrators of Visual Studio 2022 version 17.8 or above, there is now a method available to deploy GitHub Copilot onto client workstations programmatically with an installation script.
+For administrators of Visual Studio 2022 version 17.8 or above, you can deploy GitHub Copilot onto client workstations programmatically with an installation script, just like you deploy other [Visual Studio components](workload-and-component-ids.md). 
 
 Note that this method does NOT install the GitHub Copilot chat extension.
 
