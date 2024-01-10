@@ -180,7 +180,7 @@ For information about visually tracing the call stack, see [Map methods on the c
 
 ### Run to a cursor location
 
-To run to the cursor location, in source code or the **Call Stack** window, select the line you want to break at, and then right-click and select **Run To Cursor**, or select **Ctrl**+**F10**. Selecting **Run To Cursor** is similar to setting a [temporary breakpoint](../debugger/using-breakpoints.md#set-a-temporary-breakpoint).
+To run to the cursor location, in source code or the **Call Stack** window, select the line you want to break at, and then right-click and select **Run To Cursor**, or select **Ctrl**+**F10**. Selecting **Run To Cursor** is similar to setting a [temporary breakpoint](../debugger/using-breakpoints.md#BKMK_set_a_temporary_breakpoint).
 
 ::: moniker range=">= vs-2022"
 ### Force run to a cursor location
@@ -190,7 +190,7 @@ To run to the cursor location, in source code or the **Call Stack** window, sele
 ::: moniker-end
 ### Run to click
 
-While the debugger is paused, you can hover over a statement in source code or the **Disassembly** window and select the **Run execution to here** green arrow. Using **Run to Click** is similar to setting a [temporary breakpoint](../debugger/using-breakpoints.md#set-a-temporary-breakpoint).
+While the debugger is paused, you can hover over a statement in source code or the **Disassembly** window and select the **Run execution to here** green arrow. Using **Run to Click** is similar to setting a [temporary breakpoint](../debugger/using-breakpoints.md#BKMK_set_a_temporary_breakpoint).
 
 ![Screenshot that shows Run to Click and the green arrow.](../debugger/media/dbg-run-to-click.png)
 

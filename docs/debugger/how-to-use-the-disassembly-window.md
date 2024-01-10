@@ -57,7 +57,7 @@ To enable the **Disassembly** window, under **Tools** > **Options** > **Debuggin
 To open the **Disassembly** window during debugging, select **Windows** > **Disassembly** or press **Alt**+**8**.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../ide/environment-settings.md#reset-settings).
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset all settings](../ide/environment-settings.md#reset-all-settings).
 
 To turn optional information on or off, right-click in the **Disassembly** window, and set or clear the desired options in the shortcut menu.
 

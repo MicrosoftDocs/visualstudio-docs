@@ -47,7 +47,7 @@ You can edit register values. For more information, see [How to: Edit a register
 1. While debugging is running or at a breakpoint, select **Debug** > **Windows** > **Registers**, or press **Alt**+**5**.
 
 >[!NOTE]
->Dialog boxes and menu commands might differ depending on your Visual Studio edition or settings. To change your settings, select **Import and Export Settings** on the Visual Studio **Tools** menu. For more information, see [Reset settings](../ide/environment-settings.md#reset-settings).
+>Dialog boxes and menu commands might differ depending on your Visual Studio edition or settings. To change your settings, select **Import and Export Settings** on the Visual Studio **Tools** menu. For more information, see [Reset all settings](../ide/environment-settings.md#reset-all-settings).
 
 ## Related content
 
