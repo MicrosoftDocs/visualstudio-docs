@@ -149,7 +149,7 @@
       href: ide/copilot-chat-context.md
     - name: Debug with Copilot
       href: debugger/debug-with-copilot.md
-    - name: Install GitHub Copilot from a layout
+    - name: Install GitHub Copilot into your Enterprise
       href: ide/deploy-copilot-using-layouts.md
   - name: IntelliCode
     items:
