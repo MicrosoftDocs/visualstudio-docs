@@ -45,7 +45,6 @@ foreach ($i in $installDir) {
 
 ### Using a layout
 
-If you are not already using a layout-based install to deploy Visual Studio 2022, we don't recommend it. This is typically for air-gapped installs or environments where every developer must be on the exact same version of Visual Studio.
 
 To deploy the GitHub Copilot component to a layout based installation, make sure to add the `Component.GitHub.Copilot` component to the layout, and then run a modify command as in the previous example to add it to the client.
 
