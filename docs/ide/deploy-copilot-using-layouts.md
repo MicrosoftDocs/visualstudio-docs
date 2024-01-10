@@ -22,7 +22,7 @@ Note that this method does NOT install the GitHub Copilot chat extension.
 
 To get started, you need:
 
-- Visual Studio 2022 [version 17.8 or later](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-history)
+- Visual Studio 2022 [version 17.8 or later](/visualstudio/releases/2022/release-history)
 - A valid and active GitHub Copilot for Business subscription for the end user whose instance of Visual Studio 2022 you are trying to install the Github Copilot component for. 
 [See: Managing access for GitHub Copilot for Business in your organization.](https://docs.github.com/en/copilot/managing-copilot-business/managing-access-for-copilot-business-in-your-organization)
 
