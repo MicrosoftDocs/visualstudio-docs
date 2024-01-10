@@ -1,7 +1,7 @@
 ---
 title: Identify and customize keyboard shortcuts
 description: Learn how to identify keyboard shortcuts for Visual Studio commands, customize those shortcuts, and export them for others to use.
-ms.date: 12/14/2022
+ms.date: 1/8/2024
 ms.topic: how-to
 f1_keywords:
 - VS.ToolsOptionsPages.Environment.Keyboard
@@ -143,3 +143,4 @@ You can share your custom keyboard shortcuts by exporting them to a file and the
 ## Related content
 
 - [Accessibility features of Visual Studio](../ide/reference/accessibility-features-of-visual-studio.md)
+- [Extended function key support limitation](https://developercommunity.visualstudio.com/t/Allow-the-F17-F24-keys-to-be-used-for-ke/10482857?q=fn+keys+f16-f19)
