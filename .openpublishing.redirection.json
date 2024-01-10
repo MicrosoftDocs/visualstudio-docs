@@ -1,6 +1,11 @@
 {
   "redirections": [
-    
+    {
+
+      "source_path": "docs/azure/vs-active-directory-error.md",
+      "redirect_url": "/visualstudio/azure/vs-active-directory-add-connected-service",
+      "redirect_document_id": "false"
+    },
     {
       "source_path": "docs/data-tools/add-validation-to-an-n-tier-dataset.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/data-tools/add-validation-to-an-n-tier-dataset?view=vs-2017",
