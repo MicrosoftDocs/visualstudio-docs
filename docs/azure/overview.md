@@ -42,7 +42,7 @@ You can perform all the required Azure operations right from the Visual Studio I
 
 ## Deploy your applications to the Azure cloud
 
-With Visual Studio you can deploy your application to Azure, on demand, with the click of a button. This convenience is great during development and testing, where CI/CD might not be already configured.
+With Visual Studio you can deploy your application to Azure, on demand, with the click of a button. This convenience is great during development and testing, where CI/CD might not be already configured. CI/CD (continuous integration / continuous delivery) is a system whereby local changes made to application code by development teams are automatically integrated into the deployed application running in Azure, without interrupting the deployed service. You can use [Azure DevOps Pipelines](/azure/devops/pipelines) or [GitHub Actions](../azure/azure-deployment-using-github-actions.md) to set this up.
 
 What are you deploying?
 
