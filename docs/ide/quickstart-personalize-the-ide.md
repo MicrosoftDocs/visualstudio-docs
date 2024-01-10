@@ -6,7 +6,7 @@ ms.topic: how-to
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ---
 # Personalize the Visual Studio IDE and the editor
 

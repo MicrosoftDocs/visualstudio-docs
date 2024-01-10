@@ -9,7 +9,7 @@ helpviewer_keywords:
 - unit tests, Assert classes
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: vs-ide-test
 author: mikejo5000
 ---
 # Use Assert classes for unit testing

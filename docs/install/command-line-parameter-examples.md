@@ -7,7 +7,7 @@ author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.prod: visual-studio-windows
-ms.technology: vs-installation
+ms.subservice: vs-installation
 ---
 # Command-line parameter examples for Visual Studio installation
 

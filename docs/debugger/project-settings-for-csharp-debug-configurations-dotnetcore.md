@@ -18,7 +18,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: vs-ide-debug
 monikerRange: '>= vs-2022'
 ---
 # Project settings for C# debug configurations (.NET Core, .NET 5+, and ASP.NET Core)

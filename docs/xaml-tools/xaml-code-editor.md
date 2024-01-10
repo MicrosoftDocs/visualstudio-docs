@@ -9,7 +9,7 @@ monikerRange: ">=vs-2019"
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.technology: vs-xaml-tools
+ms.subservice: vs-xaml-tools
 ---
 # XAML code editor
 

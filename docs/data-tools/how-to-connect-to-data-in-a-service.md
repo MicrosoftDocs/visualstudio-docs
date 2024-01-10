@@ -14,7 +14,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: vs-data-tools
 ---
 # Connect to data in a WCF service
 

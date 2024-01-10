@@ -12,7 +12,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: vs-data-tools
 ---
 # Create a .NET Framework Windows Form to search data with ADO.NET
 

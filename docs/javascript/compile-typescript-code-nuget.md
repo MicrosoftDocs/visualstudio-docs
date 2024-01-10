@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-javascript
+ms.subservice: vs-javascript
 dev_langs:
   - JavaScript
 ---

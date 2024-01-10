@@ -3,7 +3,7 @@ title: Command-line build for Azure
 description: Command-line build for Azure
 author: ghogen
 manager: jmartens
-ms.technology: vs-azure
+ms.subservice: vs-azure
 ms.topic: how-to
 ms.date: 03/05/2017
 ms.author: ghogen

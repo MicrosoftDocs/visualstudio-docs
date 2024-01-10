@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: evgenyt
 ms.author: maleger
 manager: jmartens
-ms.technology: vs-xaml-tools
+ms.subservice: vs-xaml-tools
 monikerRange: ">=vs-2022"
 ---
 # XAML Hot Reload and its impact on performance diagnostic in Visual Studio

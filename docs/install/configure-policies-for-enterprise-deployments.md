@@ -13,7 +13,7 @@ author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.prod: visual-studio-windows
-ms.technology: vs-installation
+ms.subservice: vs-installation
 ---
 # Configure policies for enterprise deployments of Visual Studio
 

@@ -6,7 +6,7 @@ ms.topic: overview
 author: anandmeg
 ms.author: meghaanand
 ms.manager: jmartens
-ms.technology: vs-ai-tools
+ms.subservice: vs-ai-tools
 monikerRange: vs-2022
 ---
 # What is the GitHub Copilot Chat extension for Visual Studio?

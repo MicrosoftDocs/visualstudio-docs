@@ -6,7 +6,7 @@ ms.topic: how-to
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.technology: vs-xml-tools
+ms.subservice: vs-xml-tools
 ---
 # Create an XML document based on an XSD schema
 

@@ -7,7 +7,7 @@ ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
+ms.subservice: vs-python
 ---
 
 # Create and manage Python environments in Visual Studio

@@ -8,7 +8,7 @@ helpviewer_keywords:
   - unit tests, running
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: vs-ide-test
 author: mikejo5000
 ---
 # Run a unit test as a 64-bit process

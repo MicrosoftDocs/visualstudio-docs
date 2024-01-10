@@ -6,7 +6,7 @@ ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: vs-ide-debug
 ---
 # Inspect your app with IntelliTrace historical debugging in Visual Studio (C#, Visual Basic, C++)
 

@@ -12,7 +12,7 @@ dev_langs:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # Diagnose MSBuild task failures
 

@@ -9,7 +9,7 @@ dev_langs:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: vs-data-tools
 ---
 # Typed vs. untyped datasets in the .NET Framework
 

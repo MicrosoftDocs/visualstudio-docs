@@ -10,7 +10,7 @@ helpviewer_keywords:
 author: mikadumont
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-code-analysis
+ms.subservice: vs-ide-code-analysis
 ---
 # Overview
 

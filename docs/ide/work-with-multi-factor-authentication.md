@@ -7,7 +7,7 @@ description: Use Visual Studio with accounts that require multifactor authentica
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ---
 
 # Sign in to Visual Studio with accounts that require multi-factor authentication (MFA)

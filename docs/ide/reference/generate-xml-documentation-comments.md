@@ -6,7 +6,7 @@ ms.topic: reference
 author: mikadumont
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ---
 # Insert XML comments for documentation generation
 

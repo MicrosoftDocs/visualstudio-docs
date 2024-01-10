@@ -14,7 +14,7 @@ f1_keywords:
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
+ms.subservice: vs-python
 ---
 # Options for Python in Visual Studio
 

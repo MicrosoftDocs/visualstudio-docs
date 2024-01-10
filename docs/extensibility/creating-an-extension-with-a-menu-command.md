@@ -11,7 +11,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: vs-ide-sdk
 ---
 # Create an extension with a menu command
 

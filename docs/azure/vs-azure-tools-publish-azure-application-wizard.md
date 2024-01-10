@@ -3,7 +3,7 @@ title: Publish an Azure cloud service
 description: Publish an Azure cloud service by using the Visual Studio Publish Azure Application Wizard to configure common, diagnostic, and advanced settings.
 author: ghogen
 manager: jmartens
-ms.technology: vs-azure
+ms.subservice: vs-azure
 ms.topic: how-to
 ms.date: 03/21/2017
 ms.author: ghogen

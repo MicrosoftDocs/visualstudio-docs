@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: vs-ide-deployment
 monikerRange: '>= vs-2019'
 ---
 # Deploy your application to Azure using GitHub Actions workflows created by Visual Studio

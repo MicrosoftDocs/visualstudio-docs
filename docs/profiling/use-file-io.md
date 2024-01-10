@@ -6,7 +6,7 @@ ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: vs-ide-debug
 monikerRange: '>= vs-2022'
 ---
 # View file read and write information to help improve performance

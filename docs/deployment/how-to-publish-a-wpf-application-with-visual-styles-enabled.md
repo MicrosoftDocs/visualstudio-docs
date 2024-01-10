@@ -6,7 +6,7 @@ ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: vs-ide-deployment
 ---
 # Publish a WPF application with visual styles enabled
 

@@ -6,7 +6,7 @@ ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: vs-ide-debug
 ---
 # Instrument a stand-alone .NET Framework component and collect timing data with the profiler from the command line
 

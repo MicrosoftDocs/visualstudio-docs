@@ -4,7 +4,7 @@ description: Create a Windows App SDK application in Visual Studio by using the 
 titleSuffix: ""
 ms.custom: vs-acquisition
 ms.date: "04/27/2023"
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ms.topic: tutorial
 ms.devlang: CSharp
 author: anandmeg

@@ -6,7 +6,7 @@ ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: vs-data-tools
 ---
 # Create LINQ to SQL classes mapped to tables and views (O/R Designer)
 

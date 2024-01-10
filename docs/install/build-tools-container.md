@@ -8,7 +8,7 @@ author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.prod: visual-studio-windows
-ms.technology: vs-installation
+ms.subservice: vs-installation
 ---
 # Install Build Tools into a container
 

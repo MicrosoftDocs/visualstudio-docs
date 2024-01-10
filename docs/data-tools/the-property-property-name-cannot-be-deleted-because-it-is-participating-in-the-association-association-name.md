@@ -6,7 +6,7 @@ ms.topic: error-reference
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: vs-data-tools
 ---
 # The property &lt;property name&gt; cannot be deleted because it is participating in the association &lt;association name&gt;
 

@@ -10,7 +10,7 @@ helpviewer_keywords:
   - source link, debugging, diagnostics
 author: poppastring
 ms.author: madownie
-ms.technology: vs-ide-debug
+ms.subservice: vs-ide-debug
 ---
 
 # Enable debugging and diagnostics with Source Link

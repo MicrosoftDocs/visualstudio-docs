@@ -30,7 +30,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: vs-ide-debug
 ---
 # Manage exceptions with the debugger in Visual Studio
 

@@ -8,7 +8,7 @@ author: ghogen
 ms.author: ghogen
 ms.manager: jmartens
 ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 monikerRange: vs-2022
 ---
 # Work with multiple repos

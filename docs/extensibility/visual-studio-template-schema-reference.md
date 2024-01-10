@@ -2,7 +2,7 @@
 title: Visual Studio Template Schema Reference
 description: Learn about the Visual Studio template schema by exploring the XML elements in .vstemplate files.
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
 - VSTEMPLATE files

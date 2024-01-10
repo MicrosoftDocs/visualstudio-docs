@@ -6,7 +6,7 @@ ms.topic: sample
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: vs-ide-sdk
 monikerRange: "vs-2022"
 feedback_system: GitHub
 ---

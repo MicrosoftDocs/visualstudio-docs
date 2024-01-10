@@ -8,7 +8,7 @@ dev_langs:
 author: "tylermsft"
 ms.author: "twhitney"
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: vs-ide-sdk
 ---
 # Visual Studio C++ Project system extensibility and toolset integration
 

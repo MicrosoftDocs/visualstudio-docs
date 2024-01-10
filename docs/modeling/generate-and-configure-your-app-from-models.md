@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: vs-ide-modeling
 ---
 # Generate and configure your app from models
 

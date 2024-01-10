@@ -12,7 +12,7 @@ helpviewer_keywords:
 - project build configurations, dependencies
 - dependencies, project
 - projects [Visual Studio], dependencies
-ms.technology: vs-ide-compile
+ms.subservice: vs-ide-compile
 author: ghogen
 ms.author: ghogen
 manager: jmartens

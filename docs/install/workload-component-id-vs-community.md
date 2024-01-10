@@ -13,7 +13,7 @@ helpviewer_keywords:
 - component ID, Visual Studio
 - install Visual Studio, administrator guide
 ms.prod: visual-studio-windows
-ms.technology: vs-installation
+ms.subservice: vs-installation
 open_to_public_contributors: false
 ---
 # Visual Studio Community component directory

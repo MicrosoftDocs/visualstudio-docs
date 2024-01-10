@@ -11,7 +11,7 @@ helpviewer_keywords:
 author: jasonchlus
 ms.author: jasonchlus
 manager: jmartens
-ms.technology: vs-help-viewer
+ms.subservice: vs-help-viewer
 ---
 # Customize the help viewer
 

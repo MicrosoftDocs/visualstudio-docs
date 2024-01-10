@@ -4,7 +4,7 @@ description: Find and learn about the resources available in the docs for the Vi
 ms.topic: ui-reference
 ms.author: ghogen
 ms.prod: visual-studio
-ms.technology: 
+ms.subservice: 
 author: ghogen
 manager: jmartens
 f1_keywords:

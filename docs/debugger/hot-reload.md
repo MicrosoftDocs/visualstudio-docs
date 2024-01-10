@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: vs-ide-debug
 monikerRange: '>= vs-2022'
 ---
 # Write and debug running code with Hot Reload in Visual Studio (C#, Visual Basic, C++)

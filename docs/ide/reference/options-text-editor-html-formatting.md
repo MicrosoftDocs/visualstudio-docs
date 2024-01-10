@@ -2,7 +2,7 @@
 title: Options, Text Editor, HTML (Web Forms), Formatting
 description: Learn how to use the Formatting page in the HTML section to set HTML project options for formatting code in the Code Editor.
 ms.date: 1/15/2019
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.HTML.Format

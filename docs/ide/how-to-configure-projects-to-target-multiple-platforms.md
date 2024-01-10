@@ -2,7 +2,7 @@
 title: Configure projects to target multiple platforms
 description: Configure project solutions in Visual Studio to simultaneously target multiple platforms, including platforms with different CPU architectures.
 ms.date: 11/01/2023
-ms.technology: vs-ide-compile
+ms.subservice: vs-ide-compile
 ms.topic: how-to
 helpviewer_keywords:
 - projects [Visual Studio], targeting platforms

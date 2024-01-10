@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: vs-ide-sdk
 ---
 # Test Area 1: Add To/Open From Source Control
 

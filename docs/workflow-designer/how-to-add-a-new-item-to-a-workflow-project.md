@@ -6,7 +6,7 @@ ms.topic: how-to
 author: jodavis
 ms.author: jodavis
 manager: jmartens
-ms.technology: vs-workflow-designer
+ms.subservice: vs-workflow-designer
 ---
 # Add a new item to a workflow project
 

@@ -6,7 +6,7 @@ ms.topic: how-to
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-designers
+ms.subservice: vs-ide-designers
 ---
 # Export rich texture formats by using the Image Content Pipeline in Visual Studio 
 

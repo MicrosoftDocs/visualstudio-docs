@@ -33,7 +33,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: vs-data-tools
 ---
 # Windows Communication Foundation Services and WCF Data Services in Visual Studio
 

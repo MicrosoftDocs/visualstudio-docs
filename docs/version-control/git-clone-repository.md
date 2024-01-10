@@ -8,7 +8,7 @@ author: ghogen
 ms.author: ghogen
 ms.manager: jmartens
 ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ---
 # Clone a Git repository in Visual Studio
 

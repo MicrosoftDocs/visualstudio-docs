@@ -6,7 +6,7 @@ ms.topic: reference
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: vs-ide-sdk
 ---
 # Visual Studio template manifest schema reference
 

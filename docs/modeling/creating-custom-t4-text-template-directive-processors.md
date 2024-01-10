@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: vs-ide-modeling
 ---
 # Create Custom T4 Text Template Directive Processors
 

@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-designers
+ms.subservice: vs-ide-designers
 ---
 # Windows Forms Designer overview
 

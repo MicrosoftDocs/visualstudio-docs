@@ -2,7 +2,7 @@
 title: Reference Element (Visual Studio Templates)
 description: Learn about the Reference element and how it specifies the assembly reference to add when the item is added to a project.
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#Reference

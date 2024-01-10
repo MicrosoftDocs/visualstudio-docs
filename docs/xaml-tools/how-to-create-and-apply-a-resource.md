@@ -9,7 +9,7 @@ f1_keywords:
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.technology: vs-xaml-tools
+ms.subservice: vs-xaml-tools
 ---
 # Create and apply a resource
 

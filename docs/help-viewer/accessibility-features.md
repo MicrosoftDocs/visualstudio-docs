@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-help-viewer
+ms.subservice: vs-help-viewer
 ---
 # Accessibility features of the Help Viewer
 

@@ -6,7 +6,7 @@ ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-code-analysis
+ms.subservice: vs-ide-code-analysis
 ---
 # Enable and disable binary code analysis for managed code
 

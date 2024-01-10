@@ -1,6 +1,6 @@
 ---
 ms.date: 11/17/2023
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ms.custom: vs-get-started
 author: anandmeg
 ms.author: meghaanand

@@ -8,7 +8,7 @@ f1_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-code-analysis
+ms.subservice: vs-ide-code-analysis
 ---
 # Synchronize Code Project Rule Sets with an Azure DevOps Project Check-in Policy
 

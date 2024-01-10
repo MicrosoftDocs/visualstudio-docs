@@ -5,7 +5,7 @@ ms.date: 11/01/2023
 ms.topic: how-to
 helpviewer_keywords:
 - startup projects, setting multiple startup projects
-ms.technology: vs-ide-compile
+ms.subservice: vs-ide-compile
 author: ghogen
 ms.author: ghogen
 manager: jmartens

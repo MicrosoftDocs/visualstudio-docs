@@ -6,7 +6,7 @@ ms.topic: reference
 author: mikadumont 
 ms.author: midumont 
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 dev_langs:
   - CSharp
 ---

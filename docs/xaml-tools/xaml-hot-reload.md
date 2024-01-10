@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.technology: vs-xaml-tools
+ms.subservice: vs-xaml-tools
 monikerRange: ">=vs-2019"
 ---
 # What is XAML Hot Reload for WPF and UWP apps? (Visual Studio)

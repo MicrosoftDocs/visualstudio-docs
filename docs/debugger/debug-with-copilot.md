@@ -14,7 +14,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ai-tools
+ms.subservice: vs-ai-tools
 monikerRange: '>= vs-2022'
 ---
 # Debug your app with GitHub Copilot in Visual Studio

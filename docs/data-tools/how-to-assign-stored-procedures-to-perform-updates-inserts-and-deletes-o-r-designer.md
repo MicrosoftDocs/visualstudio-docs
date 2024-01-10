@@ -6,7 +6,7 @@ ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: vs-data-tools
 ---
 # Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)
 

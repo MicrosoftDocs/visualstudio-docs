@@ -11,7 +11,7 @@ dev_langs:
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.technology: vs-xaml-tools
+ms.subservice: vs-xaml-tools
 ---
 # Walkthrough: Bind to data in XAML Designer
 

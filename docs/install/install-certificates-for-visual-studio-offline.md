@@ -10,7 +10,7 @@ author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.prod: visual-studio-windows
-ms.technology: vs-installation
+ms.subservice: vs-installation
 ---
 # Install certificates required for Visual Studio offline installation
 

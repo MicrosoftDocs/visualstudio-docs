@@ -7,7 +7,7 @@ ms.author: ghogen
 monikerRange: ">=vs-2022"
 author: ghogen
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: vs-ide-sdk
 ---
 
 # Debug a Visual Studio extension

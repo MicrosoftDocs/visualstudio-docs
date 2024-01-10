@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: j-martens
 ms.author: jmartens
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ---
 # Accessibility tips and tricks for Visual Studio
 

@@ -7,7 +7,7 @@ dev_langs:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ms.topic: tutorial
 ms.date: 03/15/2023
 ms.custom: vs-acquisition

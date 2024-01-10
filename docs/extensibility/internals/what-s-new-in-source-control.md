@@ -10,7 +10,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: vs-ide-sdk
 ---
 # What's New in Source Control for the Visual Studio 2015 SDK
 

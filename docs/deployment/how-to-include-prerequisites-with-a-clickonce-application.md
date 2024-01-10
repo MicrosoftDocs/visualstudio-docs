@@ -6,7 +6,7 @@ ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: vs-ide-deployment
 ---
 # Include prerequisites with a ClickOnce application
 

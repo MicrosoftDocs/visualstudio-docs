@@ -10,7 +10,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 dev_langs:
  - CSharp
  - VB

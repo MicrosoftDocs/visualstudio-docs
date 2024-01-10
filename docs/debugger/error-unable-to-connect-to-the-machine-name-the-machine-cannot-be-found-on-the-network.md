@@ -15,7 +15,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: vs-ide-debug
 ---
 # Error: Unable to connect to the machine &lt;name&gt;. The machine cannot be found on the network.
 

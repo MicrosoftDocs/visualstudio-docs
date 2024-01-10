@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: angelosp
 ms.author: angelpe
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ---
 # File nesting in Solution Explorer
 

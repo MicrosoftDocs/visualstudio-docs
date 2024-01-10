@@ -13,7 +13,7 @@ helpviewer_keywords:
 author: jasonchlus
 ms.author: jasonchlus
 manager: jmartens
-ms.technology: vs-help-viewer
+ms.subservice: vs-help-viewer
 ---
 # Find topics in the table of contents
 

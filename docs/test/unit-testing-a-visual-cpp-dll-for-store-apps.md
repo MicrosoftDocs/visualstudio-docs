@@ -5,7 +5,7 @@ ms.date: 05/01/2019
 ms.topic: how-to
 ms.author: twhitney
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: vs-ide-test
 author: tylermsft
 ---
 # Test a C++ DLL

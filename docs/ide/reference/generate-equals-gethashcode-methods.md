@@ -6,7 +6,7 @@ ms.topic: reference
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ---
 # Generate Equals and GetHashCode method overrides in Visual Studio
 

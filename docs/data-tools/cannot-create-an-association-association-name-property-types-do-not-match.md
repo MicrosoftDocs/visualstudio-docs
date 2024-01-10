@@ -6,7 +6,7 @@ ms.topic: error-reference
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: vs-data-tools
 ---
 # Cannot create an association &lt;association name&gt; - property types do not match
 

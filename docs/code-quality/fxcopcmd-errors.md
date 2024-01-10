@@ -8,7 +8,7 @@ helpviewer_keywords:
 ms.author: mikejo
 author: mikejo5000
 manager: jmartens
-ms.technology: vs-ide-code-analysis
+ms.subservice: vs-ide-code-analysis
 ---
 # FxCopCmd tool errors
 

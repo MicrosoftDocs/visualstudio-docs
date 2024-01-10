@@ -6,7 +6,7 @@ ms.topic: quickstart
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
+ms.subservice: vs-python
 ---
 
 # Quickstart: Create a Python project from a template in Visual Studio

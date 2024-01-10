@@ -11,7 +11,7 @@ helpviewer_keywords:
 author: j-martens
 ms.author: jmartens
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ---
 # Resources for designing accessible applications
 

@@ -6,7 +6,7 @@ ms.topic: how-to
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.technology: vs-xaml-tools
+ms.subservice: vs-xaml-tools
 ---
 # Inspect XAML properties while debugging
 

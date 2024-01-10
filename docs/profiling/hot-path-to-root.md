@@ -5,7 +5,7 @@ ms.date: "12/07/2023"
 ms.topic: "conceptual"
 author: "asundheim"
 ms.author: "asundheim"
-ms.technology: vs-ide-debug
+ms.subservice: vs-ide-debug
 ---
 # Hot paths to root in the Memory Usage tool
 

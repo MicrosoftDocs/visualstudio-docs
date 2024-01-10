@@ -4,7 +4,7 @@ description: Create a web application in the Visual Studio integrated developmen
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ms.topic: tutorial
 ms.date: 11/17/2023
 ms.prod: visual-studio-windows

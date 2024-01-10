@@ -7,7 +7,7 @@ author: madskristensen
 ms.author: madsk
 manager: pchapman
 ms.prod: visual-studio-windows
-ms.technology: vs-ide-sdk
+ms.subservice: vs-ide-sdk
 ---
 # Custom settings and options in Visual Studio extensions
 

@@ -5,7 +5,7 @@ author: ghogen
 ms.author: ghogen
 ms.topic: overview
 ms.date: 3/8/2023
-ms.technology: vs-container-tools
+ms.subservice: vs-container-tools
 ---
 # Visual Studio Container Tools for Docker
 

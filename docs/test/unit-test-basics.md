@@ -8,7 +8,7 @@ f1_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: vs-ide-test
 ---
 # Unit test basics
 

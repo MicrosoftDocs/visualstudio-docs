@@ -10,7 +10,7 @@ dev_langs:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 
 # MSBuild and Visual Studio format for diagnostic messages

@@ -7,7 +7,7 @@ ms.topic: conceptual
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.technology: vs-xaml-tools
+ms.subservice: vs-xaml-tools
 ---
 # Draw shapes and paths
 

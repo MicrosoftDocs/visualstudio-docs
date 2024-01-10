@@ -4,7 +4,7 @@ description: Review productivity tips about navigation, code analysis, unit test
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ms.date: 08/08/2023
 ms.topic: conceptual
 helpviewer_keywords:

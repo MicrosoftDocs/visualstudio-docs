@@ -15,7 +15,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: vs-data-tools
 ---
 # Add custom controls to the Data Sources window for .NET Framework applications
 

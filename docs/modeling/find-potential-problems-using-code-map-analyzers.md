@@ -12,7 +12,7 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: vs-ide-modeling
 ---
 # Find potential problems using code map analyzers
 

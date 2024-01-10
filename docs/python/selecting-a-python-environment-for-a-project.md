@@ -6,7 +6,7 @@ ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
+ms.subservice: vs-python
 ---
 
 # Select a Python environment for a project in Visual Studio

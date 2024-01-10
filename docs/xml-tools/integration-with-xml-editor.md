@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.technology: vs-xml-tools
+ms.subservice: vs-xml-tools
 ---
 # Integration with XML editor
 

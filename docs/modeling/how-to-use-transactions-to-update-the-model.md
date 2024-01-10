@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: vs-ide-modeling
 ---
 # Use Transactions to Update the Model
 

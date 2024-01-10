@@ -16,7 +16,7 @@ helpviewer_keywords:
 author: akhera99
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ---
 # Options, Text Editor, Basic (Visual Basic), Advanced
 

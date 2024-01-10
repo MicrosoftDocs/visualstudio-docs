@@ -6,7 +6,7 @@ ms.topic: how-to
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: vs-ide-sdk
 ---
 # Walkthrough: Create an SDK using C++
 

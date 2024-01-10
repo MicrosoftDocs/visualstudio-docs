@@ -8,7 +8,7 @@ ms.devlang: CSharp
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 dev_langs:
   - CSharp
 ---

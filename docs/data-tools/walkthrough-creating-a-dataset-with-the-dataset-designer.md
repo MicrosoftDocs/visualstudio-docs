@@ -12,7 +12,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: vs-data-tools
 ---
 # Walkthrough: Create a dataset for .NET Framework applications using the Dataset Designer
 

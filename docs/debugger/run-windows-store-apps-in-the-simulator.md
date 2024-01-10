@@ -11,7 +11,7 @@ dev_langs:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: vs-ide-debug
 monikerRange: '<= vs-2019'
 ---
 # Run UWP apps in the simulator

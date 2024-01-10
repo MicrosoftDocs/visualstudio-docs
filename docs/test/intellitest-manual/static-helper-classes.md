@@ -7,7 +7,7 @@ helpviewer_keywords:
 - IntelliTest, Static helper classes
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: vs-ide-test
 author: mikejo5000
 ---
 # Static helper classes

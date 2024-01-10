@@ -13,7 +13,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: vs-data-tools
 ---
 # Extend the functionality of a TableAdapter in .NET Framework applications
 

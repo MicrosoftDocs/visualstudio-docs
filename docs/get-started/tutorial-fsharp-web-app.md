@@ -6,7 +6,7 @@ ms.author: meghaanand
 ms.topic: tutorial
 ms.date: 01/28/2022
 ms.custom: vs-acquisition
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 dev_langs:
   - FSharp
 ---

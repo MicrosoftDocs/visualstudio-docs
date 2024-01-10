@@ -2,7 +2,7 @@
 title: Advanced Build Settings Dialog Box (C#)
 description: Learn how you can use Visual Studio to specify the project's advanced build configuration properties.
 ms.date: 08/05/2019
-ms.technology: vs-ide-compile
+ms.subservice: vs-ide-compile
 ms.topic: reference
 f1_keywords:
 - cs.AdvancedBuildSettings

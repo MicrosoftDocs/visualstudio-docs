@@ -9,7 +9,7 @@ f1_keywords:
 author: mikadumont
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ---
 # Options, Text Editor, C#, Advanced
 

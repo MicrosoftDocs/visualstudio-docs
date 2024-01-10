@@ -7,7 +7,7 @@ ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ---
 # Tutorial: Create a math quiz WinForms app
 

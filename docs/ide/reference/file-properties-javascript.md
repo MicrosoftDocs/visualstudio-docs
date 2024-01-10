@@ -2,7 +2,7 @@
 title: File Properties, JavaScript
 description: Learn how you can use file properties to indicate what actions the project system should perform on the files. 
 ms.date: 06/21/2017
-ms.technology: vs-javascript
+ms.subservice: vs-javascript
 ms.topic: reference
 f1_keywords:
   - "javascript.project.property.expandedsdknode.fileversion"

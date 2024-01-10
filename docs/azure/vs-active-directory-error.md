@@ -4,7 +4,7 @@ description: The active directory connected service detected an incompatible aut
 author: ghogen
 manager: jmartens
 ms.prod: visual-studio-windows
-ms.technology: vs-azure
+ms.subservice: vs-azure
 ms.topic: how-to
 ms.date: 12/14/2021
 ms.author: ghogen

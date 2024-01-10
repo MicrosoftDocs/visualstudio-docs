@@ -8,7 +8,7 @@ author: ghogen
 ms.author: ghogen
 ms.manager: jmartens
 ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ---
 # Push from Visual Studio to a remote branch
 

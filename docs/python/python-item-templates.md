@@ -6,7 +6,7 @@ ms.topic: reference
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
+ms.subservice: vs-python
 ---
 # Python item templates
 

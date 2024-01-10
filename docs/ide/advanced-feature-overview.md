@@ -7,7 +7,7 @@ ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ---
 # Features of Visual Studio
 

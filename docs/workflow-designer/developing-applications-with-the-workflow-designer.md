@@ -14,7 +14,7 @@ helpviewer_keywords:
 author: jodavis
 ms.author: jodavis
 manager: jmartens
-ms.technology: vs-workflow-designer
+ms.subservice: vs-workflow-designer
 ---
 # Develop apps with the Workflow Designer
 

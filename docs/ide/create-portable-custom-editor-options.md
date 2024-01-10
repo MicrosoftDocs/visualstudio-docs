@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: mikadumont
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ---
 # Create portable, custom editor settings with EditorConfig
 

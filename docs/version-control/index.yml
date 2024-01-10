@@ -12,7 +12,7 @@ metadata:
   ms.author: ghogen
   manager: jmartens
   ms.prod: visual-studio-windows
-  ms.technology: vs-ide-general
+  ms.subservice: vs-ide-general
   ms.custom: version-control
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new

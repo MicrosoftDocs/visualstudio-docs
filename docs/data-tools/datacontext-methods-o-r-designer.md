@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: vs-data-tools
 ---
 # DataContext Methods (O/R Designer)
 

@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: aarnott
 ms.author: andarno
 manager: ansonh
-ms.technology: vs-ide-sdk
+ms.subservice: vs-ide-sdk
 ---
 # Best practices for designing a brokered service
 

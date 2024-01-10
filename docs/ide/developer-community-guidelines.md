@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: madskristensen
 ms.author: madsk
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ---
 # Developer Community guidelines
 

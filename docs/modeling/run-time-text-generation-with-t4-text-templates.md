@@ -14,7 +14,7 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: vs-ide-modeling
 ---
 # Run-Time Text Generation with T4 Text Templates
 

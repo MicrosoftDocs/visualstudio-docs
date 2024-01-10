@@ -8,7 +8,7 @@ f1_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: vs-ide-test
 ---
 # Upgrade from MSTestV1 to MSTestV2
 

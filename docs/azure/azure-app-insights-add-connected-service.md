@@ -3,7 +3,7 @@ title: Add Application Insights with Connected Services
 description: Connect Azure Application Insights to your application by using Connected Services in Visual Studio on Windows and add a connected service.
 author: AngelosP
 manager: jmartens
-ms.technology: vs-azure
+ms.subservice: vs-azure
 ms.topic: conceptual
 ms.date: 05/03/2023
 ms.author: angelpe

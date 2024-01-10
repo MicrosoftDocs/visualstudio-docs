@@ -9,7 +9,7 @@ f1_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ms.custom: engagement-fy23
 ---
 # Bookmark code in Visual Studio

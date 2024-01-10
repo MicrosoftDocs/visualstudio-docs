@@ -15,7 +15,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: vs-ide-debug
 ---
 # Debugging Preparation: Console Projects (C#, C++, Visual Basic, F#)
 

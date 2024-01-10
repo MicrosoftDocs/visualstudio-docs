@@ -13,7 +13,7 @@ helpviewer_keywords:
 author: j-martens
 ms.author: jmartens
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ---
 # Develop globalized and localized apps
 

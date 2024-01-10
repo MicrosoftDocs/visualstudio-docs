@@ -6,7 +6,7 @@ ms.topic: "conceptual"
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: vs-ide-sdk
 ---
 # Diagnose UI delays caused by extensions
 

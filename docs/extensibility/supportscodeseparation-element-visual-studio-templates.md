@@ -3,7 +3,7 @@ title: SupportsCodeSeparation Element (Visual Studio Templates)
 titleSuffix: ""
 description: Learn about the SupportsCodeSeparation element and how it specifies if the Place code in separate file check box is enabled in the Add New Item dialog box.
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#SupportsCodeSeparation

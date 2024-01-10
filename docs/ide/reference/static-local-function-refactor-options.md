@@ -6,7 +6,7 @@ ms.topic: reference
 author: governesss
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 f1_keywords:
   - "vs.csharp.refactoring.make.local.function.static"
 dev_langs:

@@ -3,7 +3,7 @@ title: "Get a publish profile from Azure App Service"
 description: Get a publish profile file from Azure App Service with information and settings for Visual Studio to deploy applications and services to Azure.
 author: ghogen
 manager: jmartens
-ms.technology: vs-azure
+ms.subservice: vs-azure
 ms.topic: how-to
 ms.date: 10/19/2021
 ms.author: ghogen

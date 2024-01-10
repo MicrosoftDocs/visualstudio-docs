@@ -9,7 +9,7 @@ helpviewer_keywords:
 - testing code, automated tests
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: vs-ide-test
 author: mikejo5000
 ---
 # Unit test tools and tasks

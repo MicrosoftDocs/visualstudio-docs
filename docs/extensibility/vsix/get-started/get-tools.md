@@ -7,7 +7,7 @@ author: madskristensen
 ms.author: madsk
 manager: pchapman
 ms.prod: visual-studio-windows
-ms.technology: vs-ide-sdk
+ms.subservice: vs-ide-sdk
 ---
 # Get the tools needed to write Visual Studio extensions
 

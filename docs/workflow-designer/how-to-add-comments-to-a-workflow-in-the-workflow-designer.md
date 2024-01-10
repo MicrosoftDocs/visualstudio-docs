@@ -9,7 +9,7 @@ f1_keywords:
 author: jodavis
 ms.author: jodavis
 manager: jmartens
-ms.technology: vs-workflow-designer
+ms.subservice: vs-workflow-designer
 ---
 # Add comments to a workflow in the Workflow Designer
 

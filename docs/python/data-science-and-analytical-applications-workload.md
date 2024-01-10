@@ -6,7 +6,7 @@ ms.topic: overview
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
+ms.subservice: vs-python
 ---
 # Install data science support in Visual Studio
 

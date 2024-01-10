@@ -2,7 +2,7 @@
 title: Prerequisites Dialog Box
 description: The Prerequisites dialog box specifies which prerequisite components are installed, how they are installed, and which order the packages are installed.
 ms.date: 06/29/2018
-ms.technology: vs-ide-deployment
+ms.subservice: vs-ide-deployment
 ms.topic: reference
 f1_keywords:
 - Microsoft.VisualStudio.Publish.BaseProvider.Dialog.Bootstrapper

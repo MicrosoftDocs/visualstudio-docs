@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: vs-ide-debug
 ---
 # Debug live ASP.NET Azure apps using the Snapshot Debugger
 

@@ -7,7 +7,7 @@ author: madskristensen
 ms.author: madsk
 manager: pchapman
 ms.prod: visual-studio-windows
-ms.technology: vs-ide-sdk
+ms.subservice: vs-ide-sdk
 ---
 # Progress bars for backgrounds tasks in Visual Studio extensions
 

@@ -2,7 +2,7 @@
 title: TemplateGroupID Element (Visual Studio Templates)
 description: Learn about the TemplateGroupID element and how it specifies what kind of project an item templates will show up in.
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#TemplateGroupID

@@ -7,7 +7,7 @@ ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ---
 # Visual Studio support for the FIPS 140-2 approved mode of operation
 

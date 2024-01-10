@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ---
 # Visual Studio Customer Experience Improvement Program
 

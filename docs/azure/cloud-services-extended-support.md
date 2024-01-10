@@ -5,7 +5,7 @@ author: ghogen
 manager: jmartens
 f1_keywords:
  - AzureTools.Publish.UI
-ms.technology: vs-azure
+ms.subservice: vs-azure
 ms.topic: how-to
 ms.date: 01/25/2021
 ms.author: ghogen

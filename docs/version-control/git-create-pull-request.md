@@ -8,7 +8,7 @@ author: houghj16
 ms.author: jehoughton
 ms.manager: jmartens
 ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ---
 # Create a pull request in Visual Studio 
 

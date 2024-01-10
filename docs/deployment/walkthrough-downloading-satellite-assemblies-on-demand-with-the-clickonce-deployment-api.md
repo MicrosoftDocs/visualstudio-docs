@@ -19,7 +19,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: vs-ide-deployment
 ---
 # Walkthrough: Download satellite assemblies on demand with the ClickOnce deployment API
 

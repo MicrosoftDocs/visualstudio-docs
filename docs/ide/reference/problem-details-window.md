@@ -10,7 +10,7 @@ helpviewer_keywords:
 author: tartanllama
 ms.author: sybrand
 manager: mluparu
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ---
 
 # Problem Details window

@@ -4,7 +4,7 @@ description: An overview of extensibility documents
 author: maiak
 ms.author: maiak
 monikerRange: ">=vs-2022"
-ms.technology: vs-ide-sdk
+ms.subservice: vs-ide-sdk
 ms.topic: overview
 ms.date: 02/10/2023
 ---

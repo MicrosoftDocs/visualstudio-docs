@@ -6,7 +6,7 @@ ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: vs-ide-debug
 ---
 # Remote Debug ASP.NET Core on IIS using an Azure VM from Visual Studio
 

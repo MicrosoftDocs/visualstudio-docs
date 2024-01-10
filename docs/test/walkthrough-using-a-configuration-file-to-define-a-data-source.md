@@ -10,7 +10,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: vs-ide-test
 ---
 # Walkthrough: Using a configuration file to define a data source
 

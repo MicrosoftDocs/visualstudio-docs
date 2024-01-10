@@ -5,7 +5,7 @@ author: ghogen
 description: Learn how to create a containerized React SPA app with Visual Studio Container Tools and Docker 
 ms.author: ghogen
 ms.date: 10/23/2023
-ms.technology: vs-container-tools
+ms.subservice: vs-container-tools
 ms.topic: quickstart
 ---
 # Quickstart: Use Docker with a React Single-page App in Visual Studio

@@ -13,7 +13,7 @@ dev_langs:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: vs-ide-debug
 ---
 # Trigger suspend, resume, and background events while debugging UWP apps in Visual Studio
 

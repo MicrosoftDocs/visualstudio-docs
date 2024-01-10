@@ -15,7 +15,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: vs-ide-debug
 ---
 # View threads and tasks in the Parallel Stacks window (C#, Visual Basic, C++)
 

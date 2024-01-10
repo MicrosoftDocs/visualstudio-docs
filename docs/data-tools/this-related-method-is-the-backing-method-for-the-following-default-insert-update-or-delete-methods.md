@@ -6,7 +6,7 @@ ms.topic: error-reference
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: vs-data-tools
 ---
 # This related method is the backing method for the following default insert, update, or delete methods
 

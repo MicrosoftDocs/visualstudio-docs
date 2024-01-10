@@ -6,7 +6,7 @@ ms.topic: quickstart
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
+ms.subservice: vs-python
 ---
 # Quickstart: Clone a repository of Python code in Visual Studio
 

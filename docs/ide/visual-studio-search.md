@@ -16,7 +16,7 @@ monikerRange: ">=vs-2019"
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ---
 # Use Visual Studio search
 

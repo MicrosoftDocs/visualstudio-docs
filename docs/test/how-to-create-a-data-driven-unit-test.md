@@ -12,7 +12,7 @@ helpviewer_keywords:
   - data-driven unit tests
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: vs-ide-test
 author: mikejo5000
 ---
 # Create a data-driven unit test

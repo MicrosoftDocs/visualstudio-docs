@@ -14,7 +14,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: vs-data-tools
 ---
 # Save data with the TableAdapter DBDirect methods in .NET Framework applications
 

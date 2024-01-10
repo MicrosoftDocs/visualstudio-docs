@@ -6,7 +6,7 @@ ms.topic: whats-new
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 monikerRange: '>=vs-2019'
 ---
 # What's new in MSBuild 17.0

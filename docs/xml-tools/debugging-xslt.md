@@ -6,7 +6,7 @@ ms.topic: overview
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.technology: vs-xml-tools
+ms.subservice: vs-xml-tools
 dev_langs:
 - CSharp
 ---

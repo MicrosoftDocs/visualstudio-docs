@@ -4,7 +4,7 @@ description: Additional information and best practices for submitting performanc
 author: madskristensen
 ms.author: madsk
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ms.date: 11/19/2019
 ms.topic: conceptual
 ---

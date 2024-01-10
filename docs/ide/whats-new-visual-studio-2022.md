@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology:
+ms.subservice:
 ms.prod: visual-studio-windows
 ms.topic: whats-new
 ---
