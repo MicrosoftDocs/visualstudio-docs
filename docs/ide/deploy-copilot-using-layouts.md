@@ -46,7 +46,7 @@ foreach ($i in $installDir) {
 ### Using a layout
 
 
-To deploy the GitHub Copilot component to a layout based installation, make sure to add the `Component.GitHub.Copilot` component to the layout, and then run a modify command as in the previous example to add it to the client.
+If you are using a layout to deploy Visual Studio across your organization, you first need to add the `Component.GitHub.Copilot` component to the layout.  Then, assuming the client is configured to [receive updates from the layout](update-visual-studio.md#configure-source-location-of-updates-1), you can run a modify command as in the previous example to add it to the client.
 
 Refer to the [layout documentation](create-a-network-installation-of-visual-studio.md?view=vs-2022#modify-the-contents-of-a-layout) for further information. 
 
