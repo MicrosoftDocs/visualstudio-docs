@@ -52,7 +52,7 @@ Creating a new project type provides a basis for customizing Visual Studio for y
 ## Create a Project Subtype
  You can use project subtypes to extend a managed project type without having to create a new project type. Project subtypes use COM aggregation to extend managed projects written in Microsoft Visual Basic or Visual C#. With COM aggregation, you can reuse much of the managed project system implementation and  still customize for a particular scenario through aggregation and the use of supporting interfaces. For more information about project subtypes, see [Project Subtypes](../../extensibility/internals/project-subtypes.md).
 
-## See also
+## Related content
 - [Document Windows and Editors](/previous-versions/bb165691(v=vs.100))
 - [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)
 - [Hierarchies in Visual Studio](../../extensibility/internals/hierarchies-in-visual-studio.md)

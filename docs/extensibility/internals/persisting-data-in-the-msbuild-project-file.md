@@ -71,5 +71,5 @@ A project subtype may need to persist subtype-specific data into the project fil
       </ProjectExtensions>
     ```
 
-## See also
+## Related content
 - [Project Subtypes](../../extensibility/internals/project-subtypes.md)

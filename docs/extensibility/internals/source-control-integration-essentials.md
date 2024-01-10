@@ -45,7 +45,7 @@ Visual Studio supports two types of source control integration: a source control
 
    For more information, see [Creating a Source Control VSPackage](../../extensibility/internals/creating-a-source-control-vspackage.md).
 
-## See also
+## Related content
 - [Overview](../../extensibility/internals/source-control-integration-overview.md)
 - [Creating a Source Control Plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md)
 - [Creating a Source Control VSPackage](../../extensibility/internals/creating-a-source-control-vspackage.md)

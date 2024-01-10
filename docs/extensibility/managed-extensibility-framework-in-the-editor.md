@@ -98,5 +98,5 @@ You may experience issues if you try to import something that doesn't exist in t
 
 5. When you have compiled your assembly, put it in the *..\Common7\IDE\Components\* folder of your Visual Studio installation.
 
-## See also
+## Related content
 - [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)
