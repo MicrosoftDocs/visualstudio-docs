@@ -62,7 +62,7 @@ Modifies its parent element.
 |TextMenuCtrlUseMenu|Use the `MenuText` field on menu controllers. The default field is `ButtonText`.<br /><br /> Valid for: `Button`|
 |TextMenuUseButton|Use the `ButtonText` field for menus. The default field is `MenuText` if it is specified.<br /><br /> Valid for: `Button`|
 |TextOnly|Show only text on a toolbar or a menu but no icon even if the icon is specified.<br /><br /> Valid for: `Button`|
-|TogglePatternAvailable|Indicates your button supports being checked/latched (i.e. may return OLEMCDF_LATCHED or set the Checked property on OleMenuCommand). This allows the automation layer to expose the toggle pattern so screen readers will read the checked/unchecked state along with your button text.<br /><br /> Valid for: `Button`|
+|TogglePatternAvailable|Indicates your button supports being checked/latched (that is, may return OLEMCDF_LATCHED or set the Checked property on OleMenuCommand). This allows the automation layer to expose the toggle pattern so screen readers will read the checked/unchecked state along with your button text.<br /><br /> Valid for: `Button`|
 
 ### Parent Elements
 
