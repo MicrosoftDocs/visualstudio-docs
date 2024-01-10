@@ -3,7 +3,7 @@ title: "Tutorial: Persist data in named volumes (VS Code)"
 description: Persist data in named volumes, use bind mounts to control the mountpoint on the host, and layer (Yarn) your Docker application with Visual Studio Code.
 author: ghogen
 ms.author: ghogen
-ms.prod: vs-code
+ms.service: vs-code
 ms.topic: tutorial
 ms.date: 03/04/2022
 # Under contractual obligation with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 

@@ -111,8 +111,8 @@
       "titleSuffix": "Visual Studio for Mac",
       "ms.topic": "conceptual",
       "audience": "developer",
-      "ms.prod": "visual-studio-mac",
-      "ms.technology": "vs-ide-general",
+      "ms.service": "visual-studio-mac",
+      "ms.subservice": "ide",
       "searchScope": [
         "Mac"
       ],

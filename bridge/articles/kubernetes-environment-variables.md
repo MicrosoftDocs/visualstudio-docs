@@ -6,7 +6,7 @@ ms.author: ghogen
 author: ghogen
 manager: jmartens
 ms.topic: conceptual
-ms.technology: bridge
+ms.subservice: bridge
 ---
 # Kubernetes service environment variables
 

@@ -7,7 +7,7 @@ keywords: "Bridge to Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, Kubernete
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: bridge
+ms.subservice: bridge
 ---
 
 # Configure Bridge to Kubernetes
