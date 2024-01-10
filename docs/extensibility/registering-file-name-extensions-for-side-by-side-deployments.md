@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.subservice: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Register file name extensions for side-by-side deployments
 

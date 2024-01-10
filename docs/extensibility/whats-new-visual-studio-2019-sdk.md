@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.subservice: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # What's New in the Visual Studio 2019 SDK
 

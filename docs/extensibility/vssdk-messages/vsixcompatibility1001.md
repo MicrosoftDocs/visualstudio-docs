@@ -11,7 +11,7 @@ helpviewer_keywords:
 author: ankitvarmait
 ms.author: anva
 manager: tinali
-ms.subservice: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 
 # Visual Studio SDK analyzer error VsixCompatibility1001

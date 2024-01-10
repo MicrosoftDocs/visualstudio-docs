@@ -6,7 +6,7 @@ ms.topic: how-to
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.subservice: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Create an extension with a VSPackage
 

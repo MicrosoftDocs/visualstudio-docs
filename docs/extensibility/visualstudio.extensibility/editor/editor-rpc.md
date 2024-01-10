@@ -7,7 +7,7 @@ ms.author: maiak
 monikerRange: ">=vs-2022"
 author: maiak
 manager: jmartens
-ms.subservice: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 
 # Editor RPC support

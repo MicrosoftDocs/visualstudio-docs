@@ -4,7 +4,7 @@ description: An overview of the project query API
 author: hgwelliver
 ms.author: hwelliver
 monikerRange: ">=vs-2022"
-ms.subservice: vs-ide-sdk
+ms.subservice: extensibility-integration
 ms.topic: overview
 ms.date: 02/13/2023
 ---

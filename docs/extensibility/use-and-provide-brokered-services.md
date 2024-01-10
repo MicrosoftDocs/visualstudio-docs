@@ -11,7 +11,7 @@ helpviewer_keywords:
 author: aarnott
 ms.author: andarno
 manager: ansonh
-ms.subservice: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Using and providing brokered services
 

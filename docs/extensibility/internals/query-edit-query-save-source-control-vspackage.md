@@ -10,7 +10,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.subservice: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Query Edit Query Save (Source Control VSPackage)
 

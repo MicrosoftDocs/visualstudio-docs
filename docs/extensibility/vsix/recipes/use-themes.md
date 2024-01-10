@@ -7,7 +7,7 @@ author: madskristensen
 ms.author: madsk
 manager: pchapman
 ms.prod: visual-studio-windows
-ms.subservice: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Matching Visual Studio themes in Visual Studio extensions
 
