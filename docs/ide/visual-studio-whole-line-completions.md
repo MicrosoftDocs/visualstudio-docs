@@ -2,7 +2,7 @@
 title: IntelliCode Whole-line autocompletions 
 ms.date: 9/26/2023
 ms.prod: visual-studio-family
-ms.technology: intellicode
+ms.subservice: intellicode
 ms.topic: conceptual
 description: IntelliCode Visual Studio Code Completions
 author: ghogen

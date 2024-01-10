@@ -5,7 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 04/24/2022
-ms.technology: vs-ide-install
+ms.subservice: vs-ide-install
 ms.topic: how-to
 ---
 # Update Visual Studio for Mac

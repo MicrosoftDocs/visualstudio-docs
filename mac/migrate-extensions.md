@@ -5,7 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 12/14/2020
-ms.technology: vs-ide-general
+ms.subservice: vs-ide-general
 ms.topic: how-to
 ---
 # Troubleshooting: How do I release a new version of my existing extension in Visual Studio for Mac?

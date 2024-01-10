@@ -4,7 +4,7 @@ titleSuffix: ""
 description: Read an overview of IntelliCode for Visual Studio. Understand preview features, supported languages, prerequisites, troubleshooting issues, and telemetry.
 ms.date: 10/04/2023
 ms.prod: visual-studio-family
-ms.technology: intellicode
+ms.subservice: intellicode
 ms.topic: conceptual
 author: ghogen
 ms.author: ghogen

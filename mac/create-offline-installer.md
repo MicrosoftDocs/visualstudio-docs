@@ -5,7 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 11/06/2018
-ms.technology: vs-ide-install
+ms.subservice: vs-ide-install
 ms.topic: how-to
 ---
 # Create an Offline Installer for Visual Studio for Mac

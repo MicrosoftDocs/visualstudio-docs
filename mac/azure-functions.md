@@ -5,7 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 04/02/2021
-ms.technology: vs-ide-install
+ms.subservice: vs-ide-install
 ms.topic: how-to
 ---
 # Introduction to Azure Functions in Visual Studio for Mac
