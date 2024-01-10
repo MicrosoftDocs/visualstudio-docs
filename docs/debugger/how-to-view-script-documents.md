@@ -42,5 +42,5 @@ For some application types that dynamically generate pages, it is easier to ente
 
      The client-side script file opens in a source window.
 
-## See also
+## Related content
 - [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)
