@@ -172,3 +172,9 @@ If you want to support multiple long client connections, try [Azure SignalR Serv
 ## Next steps
 
 Learn more about Azure services that you might be interested in at [Azure services](https://azure.microsoft.com/products/).
+
+## Related content
+
+Get architectural advice for Azure development at [Azure Architecture Center](/azure/architecture/).
+
+For work on legacy Azure Cloud Services, see [Azure Cloud Services - Extended Support](./cloud-services-extended-support.md).
