@@ -92,7 +92,9 @@ This section explains how to add tables to the dataset.
 
      An **Order Details** data table, **OrderDetailsTableAdapter**, and a data relation between the **Orders** and **OrderDetails** tables are added to the dataset.
 
-## Next steps
+## Save the dataset
+
+The dataset that you just created is available in the **Data Sources** window. You can now perform any of the following tasks:
 
 - Save the dataset.
 
