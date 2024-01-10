@@ -33,15 +33,20 @@ Options for deploying GitHub Copilot onto client machines depend on how Visual S
 ### Modify an existing installation and add the GitHub Copilot component
 
 - For most organizations, users will either acquire Visual Studio by downloading and running the installer on their own, or as a part of an environment setup that runs the installer programmatically.
-To modify an existing installation and add the GitHub Copilot component, you can run the installer's **modify** command from either a command line or powershell window.  For more information about how to programmatically control the installer, refer to the [Use command-line parameters to install, update, and manage Visual Studio](use-command-line-parameters-to-install-visual-studio.md) documentation.
+To modify an existing installation and add the GitHub Copilot component, you can run the installer's **modify** command from either a command line or PowerShell window.
+- For more information about how to programmatically control the installer, refer to the [Use command-line parameters to install, update, and manage Visual Studio](use-command-line-parameters-to-install-visual-studio.md) documentation.
 
-Be in the c:\Program Files (x86)\Microsoft Visual Studio\Installer> directory:
+#### Sample Install Instructions
 
-`$installDir = .\vswhere.exe -products * -version 17.8 -requires Microsoft.VisualStudio.Component.CoreEditor -property installationPath
+Be in the Visual Studio installer directory: ```C:\Program Files (x86)\Microsoft Visual Studio\Installer```
+
+```
+$installDir = .\vswhere.exe -products * -version 17.8 -requires Microsoft.VisualStudio.Component.CoreEditor -property installationPath
 foreach ($i in $installDir) {
     Write-Host "Adding Copilot to this installed instance" $i
     Start-Process -FilePath .\setup.exe -ArgumentList "modify --installPath ""$i"" --add Component.GitHub.Copilot --passive" -Wait
-}`
+}
+``````
 
 ### Using a layout
 
