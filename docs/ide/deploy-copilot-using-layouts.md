@@ -48,7 +48,7 @@ foreach ($i in $installDir) {
 
 To deploy the GitHub Copilot component to a layout based installation, make sure to add the `Component.GitHub.Copilot` component to the layout, and then run a modify command as in the previous example to add it to the client.
 
-Refer to the [layout documentation](https://learn.microsoft.com/en-us/visualstudio/install/create-a-network-installation-of-visual-studio?view=vs-2022#modify-the-contents-of-a-layout) for further information. 
+Refer to the [layout documentation](create-a-network-installation-of-visual-studio.md?view=vs-2022#modify-the-contents-of-a-layout) for further information. 
 
 ## End user action required
 Note that even after installing the GitHub Copilot component to the client machines, the end user will need to take two steps:
