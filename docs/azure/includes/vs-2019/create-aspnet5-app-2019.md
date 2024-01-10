@@ -2,7 +2,7 @@
 title: "include"
 description: "include"
 author: ghogen
-ms.subservice: vs-azure
+ms.subservice: azure-development
 ms.author: ghogen
 ms.topic: "include"
 ms.date: 03/08/2021

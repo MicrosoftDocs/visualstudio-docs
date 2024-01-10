@@ -3,7 +3,7 @@ title: Find & provision Azure resources
 description: Learn about how you can provision Azure resources, browse existing Azure resources, and deploy applications to Azure services with Visual Studio.
 author: ghogen
 manager: jmartens
-ms.subservice: vs-azure
+ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 10/19/2023
 ms.author: ghogen

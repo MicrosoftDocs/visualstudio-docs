@@ -3,7 +3,7 @@ title: Add Azure Storage by using Connected Services
 description: Connect an Azure Storage service dependency to your application by using Connected Services in Visual Studio on Windows and add a connected service.
 author: ghogen
 manager: jmartens
-ms.subservice: vs-azure
+ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 05/15/2023
 ms.author: ghogen

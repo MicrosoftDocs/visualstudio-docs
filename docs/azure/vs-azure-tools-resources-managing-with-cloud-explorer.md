@@ -3,7 +3,7 @@ title: Managing Azure resources with Cloud Explorer
 description: Find and manage resources and resource groups associated with your Azure accounts by using Visual Studio Cloud Explorer.
 author: ghogen
 manager: jmartens
-ms.subservice: vs-azure
+ms.subservice: azure-development
 ms.topic: conceptual
 ms.date: 01/22/2022
 ms.author: ghogen

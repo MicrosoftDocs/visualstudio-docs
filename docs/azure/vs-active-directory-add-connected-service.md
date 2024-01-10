@@ -4,7 +4,7 @@ description: Connect Microsoft Entra ID (formerly Azure Active Directory) to you
 author: ghogen
 manager: jmartens
 ms.prod: visual-studio-windows
-ms.subservice: vs-azure
+ms.subservice: azure-development
 ms.custom: devx-track-csharp
 ms.topic: how-to
 ms.date: 12/19/2023
