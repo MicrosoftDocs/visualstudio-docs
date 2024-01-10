@@ -60,7 +60,7 @@ If you need help configuring CI/CD for a GitHub repo for the first time, Visual 
 
 You can use Visual Studio debug your application while it's running in Azure, so that you can identify and reproduce problems in an environment that is as close as possible to a production environment. For web apps hosted in Azure App Service, see [Remote debug ASP.NET Core on Azure App Service](../debugger/remote-debugging-azure-app-service.md). For Azure Functions, see [Develop Azure Functions with Visual Studio - Remote debugging](/azure/azure-functions/functions-develop-vs#remote-debugging?tabs=isolated-process).
 
-If you're using a virtual machine (VM) to host an ASP.NET Core web app, see [Remote debug ASP.NET Core on IIS using an Azure VM from Visual Studio](../debugger/remote-debugging-azure?view=vs-2022).
+If you're using a virtual machine (VM) to host an ASP.NET Core web app, see [Remote debug ASP.NET Core on IIS using an Azure VM from Visual Studio](../debugger/remote-debugging-azure.md).
 
 ## Leverage integrated Azure features
 
