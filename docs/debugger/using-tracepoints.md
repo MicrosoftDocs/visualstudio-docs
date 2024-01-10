@@ -302,7 +302,7 @@ The way that expressions are evaluated in the **Action** message box may be diff
 
 If you're trying to debug a live application, and looking for a similar feature, check out our log point feature in the Snapshot Debugger. The snapshot debugger is a tool used to investigate issues in production applications. Logpoints also allow you to send messages to the Output Window without having to modify source code and don't affect your running application. For more information, see [Debug live Azure application](../debugger/debug-live-azure-applications.md).
 
-## See also
+## Related content
 
 - [What is debugging?](../debugger/what-is-debugging.md)
 - [Write better C# code using Visual Studio](../debugger/write-better-code-with-visual-studio.md)

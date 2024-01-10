@@ -282,7 +282,7 @@ You can specify the locations the debugger searches for source files, and exclud
 
 1. Select **OK** or **Apply**.
 
-## See also
+## Related content
 - [Understand symbol files and Visual Studio symbol settings](https://devblogs.microsoft.com/devops/understanding-symbol-files-and-visual-studios-symbol-settings/)
 
 - [.NET remote symbol loading changes in Visual Studio 2012 and 2013](https://devblogs.microsoft.com/devops/net-remote-symbol-loading-changes-in-visual-studio-2012-and-2013/)

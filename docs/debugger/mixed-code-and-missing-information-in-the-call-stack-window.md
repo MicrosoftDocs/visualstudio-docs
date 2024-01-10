@@ -34,5 +34,5 @@ Because of differences between call stacks for managed and native code, the debu
 
   Both cases are fairly rare. In most native calls to managed code, call stacks appear correctly.
 
-## See also
+## Related content
 - [How to: Use the Call Stack Window](../debugger/how-to-use-the-call-stack-window.md)

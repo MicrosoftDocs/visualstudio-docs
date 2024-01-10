@@ -62,6 +62,6 @@ You can use the right-click context menu to customize the view:
 
 :::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-visualizer-filtering.gif" alt-text="Diagram of View the visualizer data filter.":::
 
-## See also
+## Related content
 - [View strings in a string visualizer](../debugger/view-strings-visualizer.md)
 - [Create custom visualizers (C#, Visual Basic)](../debugger/create-custom-visualizers-of-data.md)

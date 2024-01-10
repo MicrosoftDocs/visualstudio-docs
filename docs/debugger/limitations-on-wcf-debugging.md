@@ -73,6 +73,6 @@ This topic describes limitations on these scenarios.
 
  To enable debugging of ASP.NET 3.0 or 3.5 applications, ASP.NET 3.0 or 3.5 must be installed before Visual Studio 2010 is installed. If Visual Studio 2010 is installed before ASP.NET 3.0 or 3.5, an error occurs when you try to debug a ASP.NET 3.0 or 3.5 application. The error message is, "Unable to Automatically Step Into the Server." To fix this problem, use the Windows **Control Panel** > **Programs and Features** to repair your Visual Studio 2010 installation.
 
-## See also
+## Related content
 - [Debugging WCF Services](../debugger/debugging-wcf-services.md)
 - [How to: Debug a Self-Hosted WCF Service](../debugger/how-to-debug-a-self-hosted-wcf-service.md)
