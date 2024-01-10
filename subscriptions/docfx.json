@@ -43,7 +43,7 @@
       "manager": "shve",
       "titleSuffix": "Visual Studio Subscription",
       "ms.service": "visual-studio-family",
-      "ms.technology": "vs-subscriptions",
+      "ms.subservice": "subscriptions",
       "searchScope": ["VS Subscriptions"],
       "recommendations": true
     },

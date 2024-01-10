@@ -1,6 +1,7 @@
 ---
 title: IntelliCode privacy
 ms.date: 09/26/2023
+ms.prod:
 ms.service: visual-studio-family
 ms.subservice: intellicode
 ms.topic: conceptual

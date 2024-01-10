@@ -7,7 +7,6 @@ helpviewer_keywords:
 author: heiligerdankgesang 
 ms.author: dominicn
 manager: dominicn
-ms.prod: visual-studio-mac
 ms.topic: how-to
 ---
 # Publish to a folder using Visual Studio for Mac
