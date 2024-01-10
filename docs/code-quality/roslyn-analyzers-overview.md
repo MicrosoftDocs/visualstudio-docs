@@ -96,7 +96,7 @@ You can't configure the severity of rules from analyzers that were installed as 
 > [!div class="nextstepaction"]
 > [Use code analyzers in Visual Studio](../code-quality/use-roslyn-analyzers.md)
 
-## See also
+## Related content
 
 - [Analyzers FAQ](analyzers-faq.yml)
 - [Write your own code analyzer](../extensibility/getting-started-with-roslyn-analyzers.md)

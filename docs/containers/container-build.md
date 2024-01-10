@@ -290,12 +290,9 @@ For more information about using SSL with ASP.NET Core apps in containers, see [
 
 For a code sample that demonstrates creating custom certificates for a multi-service app that are trusted on the host and in the containers for HTTPS service-to-service communication, see [CertExample](https://github.com/NCarlsonMSFT/CertExample).
 
-## Next steps
+## Related content
 
-Learn how to further customize your builds by setting additional MSBuild properties in your project files. See [MSBuild properties for container projects](container-msbuild-properties.md).
-
-## See also
-
-[MSBuild](../msbuild/msbuild.md)
-[Dockerfile on Windows](/virtualization/windowscontainers/manage-docker/manage-windows-dockerfile)
-[Linux containers on Windows](/virtualization/windowscontainers/deploy-containers/linux-containers)
+- [MSBuild properties for container projects](container-msbuild-properties.md).
+- [MSBuild](../msbuild/msbuild.md)
+- [Dockerfile on Windows](/virtualization/windowscontainers/manage-docker/manage-windows-dockerfile)
+- [Linux containers on Windows](/virtualization/windowscontainers/deploy-containers/linux-containers)

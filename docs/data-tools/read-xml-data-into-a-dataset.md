@@ -223,7 +223,7 @@ This walkthrough teaches you the basics of reading an XML file into a dataset, a
 
 - Edit the data in the dataset and write it out to a database.
 
-## See also
+## Related content
 
 - [Access data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)
 - [XML tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)
