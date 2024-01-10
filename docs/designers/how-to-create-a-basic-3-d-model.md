@@ -6,7 +6,7 @@ ms.topic: how-to
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.subservice: vs-ide-designers
+ms.subservice: ui-designers
 ---
 # Create a basic 3D model
 

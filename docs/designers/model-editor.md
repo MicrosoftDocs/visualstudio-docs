@@ -9,7 +9,7 @@ f1_keywords:
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.subservice: vs-ide-designers
+ms.subservice: ui-designers
 ---
 # Model editor
 
