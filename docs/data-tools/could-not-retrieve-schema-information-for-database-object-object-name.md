@@ -6,7 +6,7 @@ ms.topic: error-reference
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.subservice: vs-data-tools
+ms.subservice: data-tools
 ---
 # Could not retrieve schema information for database object \<object name>
 

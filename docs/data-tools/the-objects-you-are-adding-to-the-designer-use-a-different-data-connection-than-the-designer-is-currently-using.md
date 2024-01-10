@@ -6,7 +6,7 @@ ms.topic: error-reference
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.subservice: vs-data-tools
+ms.subservice: data-tools
 ---
 # The objects you are adding to the designer use a different data connection than the designer
 

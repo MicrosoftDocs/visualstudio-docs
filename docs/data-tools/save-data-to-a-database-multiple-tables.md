@@ -14,7 +14,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.subservice: vs-data-tools
+ms.subservice: data-tools
 ---
 # Save data to a database (multiple tables) in .NET Framework applications
 

@@ -9,7 +9,7 @@ dev_langs:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.subservice: vs-data-tools
+ms.subservice: data-tools
 ---
 # Walkthrough: Customize the insert, update, and delete behavior of entity classes
 

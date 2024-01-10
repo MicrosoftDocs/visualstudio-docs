@@ -8,7 +8,7 @@ dev_langs:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.subservice: vs-data-tools
+ms.subservice: data-tools
 ---
 # Create a simple data application with WPF and Entity Framework 6
 

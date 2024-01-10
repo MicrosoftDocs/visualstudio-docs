@@ -21,7 +21,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.subservice: vs-data-tools
+ms.subservice: data-tools
 ---
 # Directly access the database with a TableAdapter in .NET Framework applications
 

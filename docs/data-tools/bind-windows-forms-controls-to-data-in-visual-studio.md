@@ -15,7 +15,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.subservice: vs-data-tools
+ms.subservice: data-tools
 ---
 # Bind Windows Forms controls to data in .NET Framework applications
 

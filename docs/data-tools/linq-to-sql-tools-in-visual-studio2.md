@@ -6,7 +6,7 @@ ms.topic: overview
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.subservice: vs-data-tools
+ms.subservice: data-tools
 ---
 # LINQ to SQL tools in Visual Studio
 

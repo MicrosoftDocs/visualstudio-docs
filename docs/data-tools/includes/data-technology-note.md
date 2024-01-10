@@ -4,7 +4,7 @@ author: ghogen
 description: Note saying that ADO data technologies are not recommended for new development.
 ms.author: ghogen
 ms.date: 04/26/2023
-ms.subservice: vs-data-tools
+ms.subservice: data-tools
 ms.topic: include
 ---
 > [!NOTE]
