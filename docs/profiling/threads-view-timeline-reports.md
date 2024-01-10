@@ -16,7 +16,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.subservice: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Threads view timeline reports in the Concurrency Visualizer
 

@@ -24,7 +24,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.subservice: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 
 # Configure Edit and Continue (C#, VB, C++)

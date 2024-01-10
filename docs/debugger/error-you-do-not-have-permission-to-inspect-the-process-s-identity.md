@@ -11,7 +11,7 @@ dev_langs:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.subservice: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Error: You do not have permission to inspect the process&#39;s identity
 

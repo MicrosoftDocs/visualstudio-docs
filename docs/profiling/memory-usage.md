@@ -6,7 +6,7 @@ ms.topic: tutorial
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.subservice: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Measure memory usage in Visual Studio (C#, Visual Basic, C++, F#)
 

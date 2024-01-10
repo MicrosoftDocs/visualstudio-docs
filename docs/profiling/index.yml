@@ -7,7 +7,7 @@ metadata:
   title: Measure performance in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Explore documentation to help you use profiling tools in Visual Studio to measure performance, including overviews, getting started tutorials, and how-to guides.
   ms.topic: landing-page
-  ms.subservice: vs-ide-debug
+  ms.subservice: debug-diagnostics
   author: mikejo5000
   ms.author: mikejo
   manager: jmartens

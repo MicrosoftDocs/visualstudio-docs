@@ -6,7 +6,7 @@ ms.topic: how-to
 author: MikeJo5000
 ms.author: mikejo
 manager: jmartens
-ms.subservice: vs-ide-debug
+ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'
 ---
 # Identify hot paths with a visualized call tree

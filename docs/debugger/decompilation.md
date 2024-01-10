@@ -11,7 +11,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.subservice: vs-ide-debug
+ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2019'
 ---
 # Generate source code from .NET assemblies while debugging

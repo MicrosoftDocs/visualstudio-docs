@@ -16,7 +16,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.subservice: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Debug DLLs in Visual Studio (C#, C++, Visual Basic, F#)
 

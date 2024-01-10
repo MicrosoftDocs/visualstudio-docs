@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: MikeJo5000
 ms.author: mikejo 
 manager: AndSter
-ms.subservice: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Using multiple profiler tools simultaneously
 

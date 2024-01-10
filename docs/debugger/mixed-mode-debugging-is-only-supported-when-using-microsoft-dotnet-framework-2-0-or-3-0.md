@@ -13,7 +13,7 @@ dev_langs:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.subservice: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Mixed Mode Debugging Is Only Supported when Using Microsoft .NET Framework 2.0 or 3.0
 

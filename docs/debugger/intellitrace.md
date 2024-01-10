@@ -17,7 +17,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.subservice: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # IntelliTrace for Visual Studio Enterprise (C#, Visual Basic, C++)
 

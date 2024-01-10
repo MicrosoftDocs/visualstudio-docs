@@ -17,7 +17,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.subservice: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Display and Hide Register Groups (C#, C++, Visual Basic, F#)
 
