@@ -5,7 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 03/02/2022
-ms.subservice: vs-ide-install
+ms.subservice: install
 ms.custom: video
 ms.topic: how-to
 ---

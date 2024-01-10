@@ -5,7 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 05/03/2018
-ms.subservice: vs-ide-general
+ms.subservice: ide
 ms.topic: how-to
 ---
 # Create Razor web apps in Visual Studio for Mac

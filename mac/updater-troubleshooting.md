@@ -6,7 +6,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 04/13/2019
-ms.subservice: vs-ide-install
+ms.subservice: install
 ---
 # Troubleshooting: Updater has errors retrieving information in Visual Studio for Mac
 

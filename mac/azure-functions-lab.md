@@ -5,7 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 11/06/2020
-ms.subservice: vs-ide-install
+ms.subservice: install
 ms.topic: how-to
 ---
 # Tutorial: Getting started with Azure Functions & Visual Studio for Mac

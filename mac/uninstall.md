@@ -5,7 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 04/27/2022
-ms.subservice: vs-ide-install
+ms.subservice: install
 ms.topic: how-to
 ---
 # Uninstall Visual Studio for Mac 
