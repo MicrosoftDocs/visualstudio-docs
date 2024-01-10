@@ -616,6 +616,21 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/code-snippet-functions.md",
+      "redirect_url": "/visualstudio/ide/visual-csharp-code-snippets#code-snippet-functions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/how-to-use-surround-with-code-snippets.md",
+      "redirect_url": "/visualstudio/ide/code-snippets#expansion-snippets-and-surround-with-snippets",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/best-practices-for-using-code-snippets.md",
+      "redirect_url": "/visualstudio/ide/code-snippets#best-practices-for-using-code-snippets",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/dotfuscator/capabilities.md",
       "redirect_url": "/visualstudio/ide/dotfuscator/index",
       "redirect_document_id": false
