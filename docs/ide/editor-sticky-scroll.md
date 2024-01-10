@@ -6,7 +6,7 @@ ms.topic: overview
 author: anandmeg
 ms.author: meghaanand
 ms.manager: jmartens
-ms.subservice: vs-ide-general
+ms.subservice: general-ide
 monikerRange: vs-2022
 ---
 # What is Sticky Scroll for Visual Studio?

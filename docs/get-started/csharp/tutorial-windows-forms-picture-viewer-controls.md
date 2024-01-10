@@ -4,7 +4,7 @@ description: Add a picture box, a checkbox, and buttons to a picture viewer appl
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.subservice: vs-ide-general
+ms.subservice: general-ide
 ms.topic: tutorial
 ms.date: 02/28/2023
 ---

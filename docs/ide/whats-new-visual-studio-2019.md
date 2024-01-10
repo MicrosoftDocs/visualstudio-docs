@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.subservice: vs-ide-general
+ms.subservice: general-ide
 ms.prod: visual-studio-windows
 ms.topic: whats-new
 ms.custom: vs-acquisition

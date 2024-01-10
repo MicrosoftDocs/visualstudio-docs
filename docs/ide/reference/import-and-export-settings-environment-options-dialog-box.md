@@ -8,7 +8,7 @@ f1_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.subservice: vs-ide-general
+ms.subservice: general-ide
 ---
 # Options dialog box: Environment \> Import and Export Settings
 

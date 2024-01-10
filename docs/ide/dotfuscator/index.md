@@ -23,7 +23,7 @@ description: Protect your .NET applications with the free copy of Dotfuscator Co
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.subservice: vs-ide-general
+ms.subservice: general-ide
 ---
 
 # About Dotfuscator Community & Visual Studio

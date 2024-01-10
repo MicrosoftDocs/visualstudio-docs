@@ -6,7 +6,7 @@ ms.topic: reference
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.subservice: vs-ide-general
+ms.subservice: general-ide
 ---
 # Paste JSON or XML as classes
 

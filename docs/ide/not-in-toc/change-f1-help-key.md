@@ -5,7 +5,7 @@ ms.date: 08/20/2020
 ms.topic: how-to
 robots: noindex,nofollow
 manager: jmartens
-ms.subservice: vs-ide-general
+ms.subservice: general-ide
 author: mikejo5000
 ms.author: mikejo
 ---

@@ -8,7 +8,7 @@ f1_keywords:
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.subservice: vs-ide-general
+ms.subservice: general-ide
 ---
 # Find code changes and other history with CodeLens
 

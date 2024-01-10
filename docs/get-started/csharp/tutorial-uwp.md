@@ -4,7 +4,7 @@ description: Create a Universal Windows Platform (UWP) app in Visual Studio by u
 titleSuffix: ""
 ms.custom: vs-acquisition
 ms.date: "05/31/2023"
-ms.subservice: vs-ide-general
+ms.subservice: general-ide
 ms.topic: tutorial
 ms.devlang: CSharp
 author: anandmeg

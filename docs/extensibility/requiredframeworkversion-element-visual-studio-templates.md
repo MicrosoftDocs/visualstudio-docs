@@ -3,7 +3,7 @@ description: "Specifies the minimum version of the .NET Framework that is requir
 title: RequiredFrameworkVersion Element (Visual Studio Templates)
 titleSuffix: ""
 ms.date: 11/04/2016
-ms.subservice: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 helpviewer_keywords:
 - <RequiredFrameworkVersion> (Visual Studio Templates)

@@ -8,7 +8,7 @@ author: ghogen
 ms.author: ghogen
 ms.manager: jmartens
 ms.prod: visual-studio-windows
-ms.subservice: vs-ide-general
+ms.subservice: general-ide
 ---
 # Manage Git repositories in Visual Studio
 

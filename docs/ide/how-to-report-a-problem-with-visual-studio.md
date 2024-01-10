@@ -6,7 +6,7 @@ ms.topic: how-to
 author: madskristensen
 ms.author: madsk
 manager: jmartens
-ms.subservice: vs-ide-general
+ms.subservice: general-ide
 ---
 # Report a problem with the Visual Studio product or installer
 

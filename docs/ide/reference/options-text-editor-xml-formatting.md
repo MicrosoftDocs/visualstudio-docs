@@ -8,7 +8,7 @@ f1_keywords:
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.subservice: vs-ide-general
+ms.subservice: general-ide
 ---
 # Options, Text Editor, XML, Formatting
 

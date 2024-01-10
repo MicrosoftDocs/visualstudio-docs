@@ -3,7 +3,7 @@ title: "Tutorial: Editing for C# developers"
 description: Explore the code editor in Visual Studio and learn some of the ways that Visual Studio makes writing, navigating, and understanding C# code easier.
 ms.custom: vs-acquisition
 ms.date: 09/14/2021
-ms.subservice: vs-ide-general
+ms.subservice: general-ide
 ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand

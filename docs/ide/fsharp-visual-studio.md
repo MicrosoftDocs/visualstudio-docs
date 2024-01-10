@@ -10,7 +10,7 @@ f1_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.subservice: vs-ide-general
+ms.subservice: general-ide
 ---
 # Develop with Visual F# in Visual Studio
 

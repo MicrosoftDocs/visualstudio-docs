@@ -4,7 +4,7 @@ description: Create a simple Windows Desktop .NET application in C# with Visual 
 ms.custom: vs-acquisition
 ms.date: 11/17/2023
 ms.prod: visual-studio-windows
-ms.subservice: vs-ide-general
+ms.subservice: general-ide
 ms.topic: tutorial
 dev_langs:
   - "CSharp"

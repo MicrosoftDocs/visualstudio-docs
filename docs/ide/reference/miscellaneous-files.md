@@ -16,7 +16,7 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.subservice: vs-ide-general
+ms.subservice: general-ide
 ---
 # Miscellaneous files
 

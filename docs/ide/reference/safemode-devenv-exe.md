@@ -10,7 +10,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.subservice: vs-ide-general
+ms.subservice: general-ide
 ---
 # /SafeMode (devenv.exe)
 

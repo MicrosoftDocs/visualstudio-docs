@@ -8,7 +8,7 @@ metadata:
   titleSuffix: ""
   description: Explore documentation about the features of the Visual Studio integrated development environment (IDE) that make it easy to edit, debug, build, and publish your app.
   ms.prod: visual-studio-windows
-  ms.subservice: vs-ide-general
+  ms.subservice: general-ide
   ms.topic: landing-page
   author: ghogen
   ms.author: ghogen

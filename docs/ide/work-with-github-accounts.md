@@ -6,7 +6,7 @@ description: Add your public GitHub or GitHub Enterprise account to your Visual 
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.subservice: vs-ide-general
+ms.subservice: general-ide
 monikerRange: ">=vs-2019"
 ---
 # Add your GitHub accounts to your Visual Studio keychain

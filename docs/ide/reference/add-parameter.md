@@ -6,7 +6,7 @@ ms.topic: reference
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.subservice: vs-ide-general
+ms.subservice: general-ide
 ---
 # Add a parameter to a method using a Quick Action
 

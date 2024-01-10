@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: mikadumont
 ms.author: midumont
 manager: jmartens
-ms.subservice: vs-ide-general
+ms.subservice: general-ide
 ---
 # C# IntelliSense
 

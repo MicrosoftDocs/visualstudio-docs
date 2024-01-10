@@ -17,7 +17,7 @@ helpviewer_keywords:
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.subservice: vs-ide-general
+ms.subservice: general-ide
 ---
 # Options dialog box: Text Editor \> C# \> Code Style \> Formatting
 

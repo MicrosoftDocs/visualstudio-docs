@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.subservice: vs-ide-general
+ms.subservice: general-ide
 ---
 # Best practices for using code snippets
 

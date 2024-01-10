@@ -2,7 +2,7 @@
 title: Options, Text Editor, HTML (Web Forms), Miscellaneous
 description: Learn how to use the Miscellaneous page in the HTML section to set preferences for how the HTML editor handles elements pasted into the page.
 ms.date: 1/15/2019
-ms.subservice: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.HTML.Miscellaneous"

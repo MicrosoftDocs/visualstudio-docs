@@ -10,7 +10,7 @@ ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.subservice: vs-ide-general
+ms.subservice: general-ide
 ---
 # Tutorial: Customize a math quiz WinForms app
 
