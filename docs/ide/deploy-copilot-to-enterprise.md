@@ -37,7 +37,7 @@ Options for deploying GitHub Copilot onto client machines depend on how Visual S
 
 #### Sample Install Instructions
 
-Be in the Visual Studio installer directory: ```C:\Program Files (x86)\Microsoft Visual Studio\Installer```
+Make sure the command line or PowerShell window is in the Visual Studio installer directory: ```C:\Program Files (x86)\Microsoft Visual Studio\Installer```
 
 ```
 $installDir = .\vswhere.exe -products * -version 17.8 -requires Microsoft.VisualStudio.Component.CoreEditor -property installationPath
