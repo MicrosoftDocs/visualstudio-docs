@@ -6,7 +6,7 @@ ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.subservice: vs-ide-code-analysis
+ms.subservice: code-analysis
 ---
 # Suppress code analysis warnings for generated code
 

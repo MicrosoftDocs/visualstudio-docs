@@ -3,7 +3,7 @@ title: JavaScript and TypeScript in Visual Studio
 description: Learn how Visual Studio provides rich support for JavaScript development, both using JavaScript directly, and also using the TypeScript programming language.
 titleSuffix: ""
 ms.date: "06/05/2023"
-ms.subservice: vs-javascript
+ms.subservice: javascript-typescript
 ms.topic: conceptual
 dev_langs:
   - "JavaScript"

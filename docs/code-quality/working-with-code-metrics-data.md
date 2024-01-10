@@ -12,7 +12,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.subservice: vs-ide-code-analysis
+ms.subservice: code-analysis
 ---
 # Use the Code Metrics Results window
 

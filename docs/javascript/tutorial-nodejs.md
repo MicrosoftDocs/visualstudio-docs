@@ -8,7 +8,7 @@ ms.devlang: javascript
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.subservice: vs-javascript
+ms.subservice: javascript-typescript
 monikerRange: '>= vs-2022'
 dev_langs:
   - JavaScript

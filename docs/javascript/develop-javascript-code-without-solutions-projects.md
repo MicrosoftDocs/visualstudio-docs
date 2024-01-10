@@ -8,7 +8,7 @@ ms.devlang: javascript
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.subservice: vs-javascript
+ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
 ---

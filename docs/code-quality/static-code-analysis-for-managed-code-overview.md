@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: mikadumont
 ms.author: midumont
 manager: jmartens
-ms.subservice: vs-ide-code-analysis
+ms.subservice: code-analysis
 ---
 # Overview of legacy analysis for managed code in Visual Studio
 

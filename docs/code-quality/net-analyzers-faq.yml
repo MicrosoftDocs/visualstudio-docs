@@ -11,7 +11,7 @@ metadata:
   manager: jmartens
   ms.workload:
   - dotnet
-  ms.subservice: vs-ide-code-analysis
+  ms.subservice: code-analysis
 title: Frequently asked questions about legacy FxCop and .NET analyzers
 summary: It can be a little confusing to understand the differences between legacy FxCop (binary analysis) and .NET analyzers (source analysis). This article aims to address some of questions you might have.
 

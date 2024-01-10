@@ -6,7 +6,7 @@ ms.topic: reference
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.subservice: vs-ide-code-analysis
+ms.subservice: code-analysis
 ---
 # Managed Recommended Rules rule set for managed code
 

@@ -11,7 +11,7 @@ helpviewer_keywords:
 author: mikadumont
 ms.author: midumont
 manager: jmartens
-ms.subservice: vs-ide-code-analysis
+ms.subservice: code-analysis
 ---
 # About .NET source code analysis in Visual Studio with Roslyn analyzers
 

@@ -2,7 +2,7 @@
 title: Options, Text Editor, JavaScript, Formatting
 description: Learn how to use the Formatting page of the Options dialog box to set options for formatting code in the Code Editor. 
 ms.date: 10/29/2018
-ms.subservice: vs-javascript
+ms.subservice: javascript-typescript
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Formatting.Spacing"
