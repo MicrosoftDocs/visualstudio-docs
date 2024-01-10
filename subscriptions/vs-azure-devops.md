@@ -50,6 +50,13 @@ If you don't see all your subscriptions, you may have one or more assigned to a 
 
 A:  Yes. Visual Studio Enterprise subscribers get one parallel job in Team Foundation Server 2017 or later and one self-hosted parallel job in each Azure DevOps Services organization where they're a member.
 
+### Q: Can I also use Azure DevOps Server with my subscription?  
+
+A: Yes.  Page 24 of the Licensing Whitepaper for the [Microsoft Visual Studio Product Family and Visual Studio Subscriptions](https://visualstudio.microsoft.com/wp-content/uploads/2023/07/Visual-Studio-Licensing-Whitepaper-July2023.pdf) provides guidance on the use of Azure DevOps Server in subscriptions:
+
+"Visual Studio Enterprise Subscription, Visual Studio Professional Subscription, Visual Studio Test Professional Subscription, MSDN Platforms, and all Visual Studio 
+cloud subscribers can download and deploy one instance of Azure DevOps Server. These same Visual Studio subscribers are granted an Azure DevOps Server User CAL to be used within their organization (it is not valid for use of Azure DevOps Server acquired by a different organization)."
+
 ## Support resources
 
 + For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).
