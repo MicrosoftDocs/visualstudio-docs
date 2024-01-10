@@ -132,7 +132,7 @@ To learn about working with blobs, you can continue with the quickstart for blob
 
 To learn about working with queues, start at [Azure queues quickstart (.NET) - Code examples](/azure/storage/queues/storage-quickstart-queues-dotnet?tabs=passwordless%2Croles-azure-portal%2Cenvironment-variable-windows%2Csign-in-azure-cli#code-examples).
 
-## See also
+## Related content
 
 - [Azure Storage forum](https://social.msdn.microsoft.com/forums/azure/home?forum=windowsazuredata)
 - [Azure Storage documentation](/azure/storage/)

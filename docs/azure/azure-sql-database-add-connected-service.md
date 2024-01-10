@@ -150,7 +150,7 @@ Your code won't exactly match what is used in the quickstarts, which use a diffe
 var connection = builder.Configuration["ConnectionStrings:ConnectionString1"];
 ```
 
-## See also
+## Related content
 
 - [Azure SQL Database product page](https://azure.microsoft.com/services/sql-database/)
 - [Azure SQL Database documentation](/azure/azure-sql/database/)

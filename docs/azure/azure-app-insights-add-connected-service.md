@@ -149,7 +149,7 @@ For ASP.NET projects, see [Configure Application Insights for your ASP.NET websi
 
 The links take you to the section of the articles after the initial setup steps, which you've already done.
 
-## See also
+## Related content
 
 - [Azure Monitor product page](https://azure.microsoft.com/services/monitor/)
 - [Azure App Insights documentation](/azure/azure-monitor/app/app-insights-overview/)

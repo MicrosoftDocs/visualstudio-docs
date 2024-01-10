@@ -127,11 +127,8 @@ You can use the App Configuration Connected Services feature in the following pr
 
 ::: moniker-end
 
-## Next steps
+## Related content
 
-Learn about Azure App Configuration at [Azure App Configuration documentation](/azure/azure-app-configuration/overview).
-
-## See also
-
+- [Azure App Configuration documentation](/azure/azure-app-configuration/overview)
 - [Tutorial for using dynamic configuration in an App Configuration connected ASP.NET Core app](/azure/azure-app-configuration/enable-dynamic-configuration-aspnet-core)
 - [Connected services (Visual Studio for Mac)](/visualstudio/mac/connected-services)
