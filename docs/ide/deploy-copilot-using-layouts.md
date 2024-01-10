@@ -26,7 +26,7 @@ To get started, you need:
 - A valid and active GitHub Copilot for Business subscription for the end user whose instance of Visual Studio 2022 you are trying to install the Github Copilot component for. 
 [See: Managing access for GitHub Copilot for Business in your organization.](https://docs.github.com/en/copilot/managing-copilot-business/managing-access-for-copilot-business-in-your-organization)
 
-## Installing GitHub Copilot to Visual Studio instances
+## Installing GitHub Copilot to existing Visual Studio instances
 
 Options for deploying GitHub Copilot onto client machines depend on how Visual Studio is currently installed on these machines.
 
