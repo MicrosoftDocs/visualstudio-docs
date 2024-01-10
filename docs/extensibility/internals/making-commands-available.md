@@ -142,7 +142,7 @@ Also notice that every UI context must be given in a separate `VisibilityItem` e
 </VisibilityConstraints>
 ```
 
-## See also
+## Related content
 
 - [Add a command to the Solution Explorer toolbar](../../extensibility/adding-a-command-to-the-solution-explorer-toolbar.md)
 - [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)

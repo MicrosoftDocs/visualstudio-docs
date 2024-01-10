@@ -126,7 +126,7 @@ HRESULT HrCreateInnerProj
 }
 ```
 
-## See also
+## Related content
 
 - <xref:Microsoft.VisualStudio.Shell.Flavor>
 - [Project Subtypes](../../extensibility/internals/project-subtypes.md)

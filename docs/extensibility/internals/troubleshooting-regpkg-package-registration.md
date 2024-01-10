@@ -31,6 +31,6 @@ ms.technology: vs-ide-sdk
 
    The earlier version of RegPkg can register packages that have been built by using the Microsoft.VisualStudio.Shell.dll assembly. However, it cannot register packages built by using later versions of that assembly.
 
-## See also
+## Related content
 - [VSPackages](../../extensibility/internals/vspackages.md)
 - [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

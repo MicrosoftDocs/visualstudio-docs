@@ -175,7 +175,7 @@ namespace ConsoleLauncherApp
 }
 ```
 
-## See also
+## Related content
 
 - [Locate Visual Studio](locating-visual-studio.md)
 - [Walkthrough: Access the DTE object from an editor extension](walkthrough-accessing-the-dte-object-from-an-editor-extension.md)
