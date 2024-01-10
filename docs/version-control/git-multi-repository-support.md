@@ -64,7 +64,7 @@ Here's how to create a solution with multiple repositories:
 
 1. Open one of your existing solutions that already has a repository initialized.
 
-1. Right-click the solution in **Solution Explorer**, and then select **Add** > **[Existing Project](../ide/use-solution-explorer.md#the-add-context-menu-fly-out)**.
+1. Right-click the solution in **Solution Explorer**, and then select **Add** > **[Existing Project](../ide/use-solution-explorer.md#the-add-menu)**.
 
 1. Select the .csproj file for another project that has a repository initialized.
 

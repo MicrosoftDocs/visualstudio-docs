@@ -26,7 +26,7 @@ ms.technology: vs-ide-debug
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Reset settings](../ide/environment-settings.md#reset-settings).
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Reset all settings](../ide/environment-settings.md#reset-all-settings).
 
 > [!NOTE]
 > The [/Zo (Enhance Optimized Debugging)](/cpp/build/reference/zo-enhance-optimized-debugging) compiler option (introduced in Visual Studio Update 3) generates richer debugging information for optimized code (projects that are not built with the **/Od** compiler option. See [/O Options (Optimize Code)](/cpp/build/reference/o-options-optimize-code)). This includes improved support for debugging local variables and inlined functions.

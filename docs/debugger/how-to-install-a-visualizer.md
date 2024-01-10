@@ -34,13 +34,13 @@ After you have created a visualizer, you must install the visualizer so that it 
    >[!NOTE]
    > The debugger-side visualizer is loaded in the Visual Studio process, so it must be a .NET Framework DLL. The debuggee-side can be either .NET Framework or .NET Standard depending on what process is getting debugged in Visual Studio.
 
-2. Copy the [debugger side](create-custom-visualizers-of-data.md#to-create-the-debugger-side) DLL (and any DLLs it depends on) to either of the following locations:
+2. Copy the [debugger side](create-custom-visualizers-of-data.md#create-the-debugger-side-user-interface) DLL (and any DLLs it depends on) to either of the following locations:
 
     - *VisualStudioInstallPath* `\Common7\Packages\Debugger\Visualizers`
 
     - `My Documents\` *VisualStudioVersion* `\Visualizers`
 
-3. Copy the [debuggee side](create-custom-visualizers-of-data.md#to-create-the-visualizer-object-source-for-the-debuggee-side) DLL to either of the following locations:
+3. Copy the [debuggee side](create-custom-visualizers-of-data.md#create-the-visualizer-object-source-for-the-debuggee-side) DLL to either of the following locations:
 
     - *VisualStudioInstallPath* `\Common7\Packages\Debugger\Visualizers\` *Framework*
 
