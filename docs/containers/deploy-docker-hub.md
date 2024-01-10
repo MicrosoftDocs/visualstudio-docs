@@ -70,7 +70,7 @@ Publish to [Azure Container Registry](/azure/container-registry/) by following t
 
 Set up continuous integration and delivery (CI/CD) with [Azure Pipelines](/azure/devops/pipelines/?view=azure-devops&preserve-view=true).
 
-## See also
+## Related content
 
-[Deploy to Azure App Service](deploy-app-service.md)
-[Visual Studio Container Tools](./index.yml).
+- [Deploy to Azure App Service](deploy-app-service.md)
+- [Visual Studio Container Tools](./index.yml).

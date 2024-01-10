@@ -187,12 +187,8 @@ Here is a description of each property in the *launchSettings.json*:
 |composeLaunchUrl| The URL to use when launching the browser. Valid replacement tokens are "{ServiceIPAddress}", "{ServicePort}", and "{Scheme}". For example: {Scheme}://{ServiceIPAddress}:{ServicePort}|
 |composeLaunchServiceName| Specifies the service used for replacing the tokens in composeLaunchUrl.|
 
-## Next steps
+## Related content
 
-Learn more about how Container Tools works by reading [Visual Studio Container Tools build and debug overview](container-build.md).
-
-## See also
-
+- [Visual Studio Container Tools build and debug overview](container-build.md)
 - [Visual Studio Container Tools launch settings](container-launch-settings.md)
-
 - [Docker Compose build settings](docker-compose-properties.md)

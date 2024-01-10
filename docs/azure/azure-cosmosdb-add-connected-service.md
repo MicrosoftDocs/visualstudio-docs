@@ -145,7 +145,7 @@ using CosmosClient client = new(
 
 The `CosmosClient` provides access to Cosmos DB functionality through its various methods. Once you have an instance of `CosmosClient`, you can create a NoSQL database by following this guide: [Create a database in Azure Cosmos DB for NoSQL using .NET](/azure/cosmos-db/nosql/how-to-dotnet-create-database).
 
-## See also
+## Related content
 
 - [Azure Cosmos DB product page](https://azure.microsoft.com/services/cosmos-db/)
 - [Azure Cosmos DB documentation](/azure/cosmos-db/)

@@ -150,7 +150,7 @@ To cache session state in an ASP.NET app, see [ASP.NET Session State Provider](/
 
 To cache page output in an ASP.NET app, see [ASP.NET Output Cache Provider](/azure/azure-cache-for-redis/cache-aspnet-output-cache-provider).
 
-## See also
+## Related content
 
 - [Azure Cache for Redis product page](https://azure.microsoft.com/services/cache)
 - [Azure Cache for Redis documentation](/azure/azure-cache-for-redis/)

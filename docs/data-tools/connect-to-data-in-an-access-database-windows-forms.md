@@ -199,7 +199,7 @@ The dataset that you just created is available in the **Data Sources** window. Y
 
 - Add validation logic to the <xref:System.Data.DataTable.ColumnChanging> or <xref:System.Data.DataTable.RowChanging> event of the data tables in the dataset (see [Validate data in datasets](../data-tools/validate-data-in-datasets.md)).
 
-## See also
+## Related content
 
 - [Add connections](../data-tools/add-new-connections.md)
 - [WPF data binding overview](/dotnet/framework/wpf/data/data-binding-overview)
