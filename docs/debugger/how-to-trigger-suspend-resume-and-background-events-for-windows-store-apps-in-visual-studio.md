@@ -104,7 +104,7 @@ For more information about Process Lifetime Management and background tasks, see
 
 4. Choose the **Diagnostic** log.
 
-## See also
+## Related content
 - [Testing UWP apps with Visual Studio](../test/unit-test-your-code.md)
 - [Debug apps in Visual Studio](debugging-windows-store-and-windows-universal-apps.md)
 - [Application lifecycle](/windows/uwp/launch-resume/app-lifecycle)

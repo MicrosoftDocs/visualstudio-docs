@@ -188,7 +188,7 @@ Edit and Continue isn't available in the following debugging scenarios:
 
 - Debugging an old version of your code after a new version failed to build because of build errors.
 
-## See also
+## Related content
 
 - [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)
 - [How to: Use Edit and Continue (C#)](../debugger/how-to-use-edit-and-continue-csharp.md)

@@ -138,7 +138,7 @@ You can export data tips to an XML file, which you can share or edit using a tex
 
 1. In the **Import data tips** dialog box, select the data tips XML file you want to open, and then select **Open**.
 
-## See also
+## Related content
 - [What is debugging?](../debugger/what-is-debugging.md)
 - [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md)
 - [First look at debugging](../debugger/debugger-feature-tour.md)

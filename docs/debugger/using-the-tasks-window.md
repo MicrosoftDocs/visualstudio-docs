@@ -110,7 +110,7 @@ The columns in the **Tasks** window show the following information.
 
 The **Switch to Task** command makes the current task the active task. The **Switch to Frame** command makes the selected stack frame the active stack frame. The debugger context switches to the current task or the selected stack frame.
 
-## See also
+## Related content
 
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)

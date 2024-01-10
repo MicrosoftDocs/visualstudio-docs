@@ -126,7 +126,7 @@ For debugging in ASP.NET and other server environments, you must either run the 
 
 [!INCLUDE [remote-debugger-symbols](../debugger/includes/remote-debugger-symbols.md)]
 
-## See also
+## Related content
 
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)

@@ -53,6 +53,6 @@ To suppress this warning when debugging a legitimate scenario:
  Don't Attach
  Do not attach to the process
 
-## See also
+## Related content
 - [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)
 - [Debugger Security](../debugger/debugger-security.md)
