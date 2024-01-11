@@ -4,7 +4,7 @@ author: ghogen
 description: Deploy an application into a container in Azure or Docker Hub in Visual Studio rather than using Docker Desktop or a Dockerfile.
 ms.author: ghogen
 ms.date: 10/23/2023
-ms.subservice: vs-container-tools
+ms.subservice: container-tools
 ms.topic: how-to
 ---
 # Deploy an app into a container in Azure or Docker Hub

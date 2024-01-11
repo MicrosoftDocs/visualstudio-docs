@@ -5,7 +5,7 @@ author: ghogen
 manager: jmartens
 ms.devlang: dotnet
 ms.topic: how-to
-ms.subservice: vs-container-tools
+ms.subservice: container-tools
 ms.date: 10/27/2021
 ms.author: ghogen
 ---

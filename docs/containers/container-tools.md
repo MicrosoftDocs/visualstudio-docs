@@ -4,7 +4,7 @@ author: ghogen
 description: Use Visual Studio Container Tools and Docker for Windows to build and debug containerized apps and publish to a container registry, Docker Hub, or Azure App Service.
 ms.author: ghogen
 ms.date: 11/16/2023
-ms.subservice: vs-container-tools
+ms.subservice: container-tools
 ms.topic: quickstart
 ---
 # Quickstart: Docker in Visual Studio
