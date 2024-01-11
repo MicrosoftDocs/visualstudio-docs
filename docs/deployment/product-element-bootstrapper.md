@@ -17,7 +17,6 @@ ms.technology: vs-ide-deployment
 ---
 # &lt;Product&gt; element (bootstrapper)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The `Product` element is the top-level XML element inside of a product file.
 
 ## Syntax

@@ -19,7 +19,6 @@ ms.technology: vs-ide-modeling
 ---
 # Working with the DSL Definition Diagram
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The diagram of a Domain-Specific Language Tools definition is an important tool for defining the domain-specific language. You can add elements to your domain model and define relationships on the diagram, and you can modify the layout of the diagram to make it more readable.
 
 ## The Layout of the Diagram

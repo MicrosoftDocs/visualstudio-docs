@@ -12,7 +12,6 @@ ms.technology: vs-ide-modeling
 ---
 # Respond to and propagate changes
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When an element is created, deleted or updated, you can write code that propagates the change to other parts of the model, or to external resources such as files, databases, or other components.
 

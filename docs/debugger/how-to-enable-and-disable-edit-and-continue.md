@@ -29,7 +29,6 @@ ms.technology: vs-ide-debug
 
 # Configure Edit and Continue (C#, VB, C++)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ::: moniker range=">=vs-2022"
 You can disable or enable Hot Reload, previously called Edit and Continue, in the Visual Studio **Options** dialog box at design time. **Hot Reload** works only in debug builds. For more information, see [Hot Reload](../debugger/hot-reload.md).

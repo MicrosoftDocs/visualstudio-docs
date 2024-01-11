@@ -15,7 +15,6 @@ ms.technology: vs-ide-general
 ---
 # /Clean (devenv.exe)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Cleans all intermediary files and output directories.
 

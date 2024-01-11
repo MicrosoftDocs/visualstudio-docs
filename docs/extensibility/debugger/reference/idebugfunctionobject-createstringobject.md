@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugFunctionObject::CreateStringObject
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates a string object.
 
 ## Syntax

@@ -10,7 +10,6 @@ ms.technology: vs-ide-general
 ---
 # Paste JSON or XML as classes
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In Visual Studio, you can copy text from JSON or XML files and then paste the text as classes in your [C#](/dotnet/csharp/) or [Visual Basic](/dotnet/visual-basic/) code. To do so, select **Edit** > **Paste Special** and choose either **Paste JSON As Classes** or **Paste XML As Classes**.
 

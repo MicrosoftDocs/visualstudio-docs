@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDebugBreakpointUnboundEvent2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface tells the session debug manager (SDM) that a bound breakpoint has been unbound from a loaded program.
 
 ## Syntax

@@ -18,7 +18,6 @@ ms.technology: vs-data-tools
 ---
 # Connect to data in a WCF service
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You connect your .NET Framework application to the data returned from a Windows Communication Foundation (WCF) service by running the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png) and selecting **Service** on the **Choose a Data Source Type** page.
 

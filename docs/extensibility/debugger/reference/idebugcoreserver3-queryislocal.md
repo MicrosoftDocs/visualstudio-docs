@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugCoreServer3::QueryIsLocal
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if the server is local to the caller.
 
 ## Syntax

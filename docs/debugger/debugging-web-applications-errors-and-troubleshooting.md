@@ -28,7 +28,6 @@ ms.technology: vs-ide-debug
 ---
 # Debugging Web Applications: Errors and Troubleshooting
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 For help to set properties for a web application using the IIS administration tool, see [Verify IIS property settings](../debugger/how-to-verify-iis-property-settings.md).
 

@@ -12,7 +12,6 @@ ms.custom: vs-acquisition
 ---
 # Tutorial: Work with Python in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Python is a popular programming language that is reliable, flexible, easy to learn, and free to use on all operating systems. Python is supported by both a strong developer community and many, free libraries. The language supports all kinds of development, including web applications, web services, desktop apps, scripting, and scientific computing. Many universities, scientists, casual developers, and professional developers use Python.
 

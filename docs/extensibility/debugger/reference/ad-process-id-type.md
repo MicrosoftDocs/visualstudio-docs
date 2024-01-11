@@ -17,7 +17,6 @@ dev_langs:
 ---
 # AD_PROCESS_ID_TYPE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies how to interpret a process ID in the [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md) structure.
 
 ## Syntax

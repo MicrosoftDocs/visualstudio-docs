@@ -15,7 +15,6 @@ manager: jmartens
 ---
 # Options, Text Editor, JavaScript, Project
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Project** page of the **Options** dialog box to specify JavaScript and TypeScript project options in the Code Editor. To access this page, on the menu bar, choose **Tools** > **Options**, and then expand **Text Editor** > **JavaScript/TypeScript** > **Project**.
 

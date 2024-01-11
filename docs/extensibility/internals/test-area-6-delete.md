@@ -13,7 +13,6 @@ ms.technology: vs-ide-sdk
 ---
 # Test Area 6: Delete
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This source-control plug-in test area covers delete actions.
 
  Source control responds to delete actions in **Solution Explorer**.

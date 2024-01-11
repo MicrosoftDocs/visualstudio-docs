@@ -17,7 +17,6 @@ dev_langs:
 ---
 # ADDRESS_KIND
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the kinds of addresses.
 
 ## Syntax

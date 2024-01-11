@@ -10,7 +10,6 @@ ms.author: mikejo
 ---
 # Set up diagnostics for Azure Cloud Services and virtual machines
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 

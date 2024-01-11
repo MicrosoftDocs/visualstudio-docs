@@ -15,7 +15,6 @@ ms.technology: vs-data-tools
 ---
 # N-tier .NET Framework data applications overview
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 

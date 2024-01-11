@@ -15,7 +15,6 @@ manager: jmartens
 ---
 # EnableLocationBrowseButton element (Visual Studio templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies whether the **Browse** button is available in the **New Project** dialog box, so that users can easily modify the default directory where a new project is saved.
 
  \<VSTemplate>

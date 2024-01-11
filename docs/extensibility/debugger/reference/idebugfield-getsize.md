@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugField::GetSize
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the size of a field, in bytes.
 
 ## Syntax

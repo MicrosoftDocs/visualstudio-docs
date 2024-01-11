@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaEnumDebugStreamData
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Provides access to the records in a debug data stream.
 
 ## Syntax

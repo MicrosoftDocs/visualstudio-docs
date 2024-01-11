@@ -10,7 +10,6 @@ ms.technology: vs-data-tools
 ---
 # Cannot create an association &lt;association name&gt; - property types do not match
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Cannot create an association \<association name> - property types do not match. Properties do not have matching types: \<property names>.
 

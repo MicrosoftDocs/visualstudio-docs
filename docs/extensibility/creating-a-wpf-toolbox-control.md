@@ -14,7 +14,6 @@ ms.technology: vs-ide-sdk
 ---
 # Create a WPF Toolbox Control
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The WPF (Windows Presentation Framework) Toolbox Control template lets you create WPF controls that are automatically added to the **Toolbox** when the extension is installed. This walkthrough shows how to use the template to create a **Toolbox** control that you can distribute to other users.
 

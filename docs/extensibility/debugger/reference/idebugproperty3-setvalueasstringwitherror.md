@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProperty3::SetValueAsStringWithError
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the value of this property and returns an error message, if necessary.
 
 ## Syntax

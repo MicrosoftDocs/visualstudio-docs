@@ -20,7 +20,6 @@ ms.technology: vs-ide-test
 ---
 # Use Coded UI tests to test your code
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Coded UI tests (CUITs) drive your application through its user interface (UI). These tests include functional testing of the UI controls. They let you verify that the whole application, including its user interface, is functioning correctly. Coded UI tests are useful where there is validation or other logic in the user interface, for example in a web page. They are also frequently used to automate an existing manual test.
 

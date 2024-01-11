@@ -10,7 +10,6 @@ ms.technology: vs-workflow-designer
 ---
 # Define and consume activity delegates in the Workflow Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 .NET Framework 4.5 includes an out-of-box designer for the <xref:System.Activities.Statements.InvokeDelegate> activity. This designer can be used to assign delegates to the activity that derive from <xref:System.Activities.ActivityDelegate>, such as <xref:System.Activities.ActivityAction> or <xref:System.Activities.ActivityFunc%601>.
 

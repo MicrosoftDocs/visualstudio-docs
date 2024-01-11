@@ -11,7 +11,6 @@ ms.custom: contperf-fy23q2,  engagement-fy23
 ---
 # Fix HDPI/scaling issues with Windows Forms Designer in Visual Studio 
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this article, you learn how to address rendering issues due to scaling limitations of the Windows Forms Designer on HDPI monitors by [running Visual Studio as a DPI-unaware process](#restart-visual-studio-as-a-dpi-unaware-process). HDPI stands for high dots per inch, with each dot representing a physical device pixel.
 

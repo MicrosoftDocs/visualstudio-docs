@@ -17,7 +17,6 @@ ms.technology: vs-ide-general
 ---
 # Develop globalized and localized apps
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio makes developing for an international audience easy by taking advantage of services built into [.NET](/dotnet/standard/globalization-localization/).
 

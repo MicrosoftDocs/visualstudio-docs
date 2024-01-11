@@ -13,7 +13,6 @@ ms.technology: vs-ide-sdk
 ---
 # Menu element
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Defines one menu item. These are the six kinds of menus: Context, Menu, MenuController, MenuControllerLatched, Toolbar, and ToolWindowToolbar.
 
 ## Syntax

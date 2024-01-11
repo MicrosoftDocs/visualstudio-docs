@@ -16,7 +16,6 @@ ms.technology: vs-ide-general
 ---
 # Application Page, Project Designer (C#)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Application** page of the **Project Designer** to specify the project's application settings and properties.
 

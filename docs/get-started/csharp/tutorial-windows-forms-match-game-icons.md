@@ -14,7 +14,6 @@ ms.custom: vs-acquisition
 ---
 # Tutorial: Add icons to your matching game WinForms app
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this series of four tutorials, you build a matching game, where the player matches pairs of hidden icons.
 

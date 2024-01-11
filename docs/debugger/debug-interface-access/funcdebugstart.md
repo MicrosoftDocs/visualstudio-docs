@@ -15,7 +15,6 @@ ms.technology: vs-ide-debug
 ---
 # FuncDebugStart
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 If a function has a defined point at which debugging is to begin, that point is identified by a symbol with a `SymTagFuncDebugStart` tag.
 
 ## Properties

@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # IDebugExtendedField
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Extends the types of fields that are available to support managed code generics.
 
 ## Syntax

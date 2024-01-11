@@ -10,7 +10,6 @@ manager: jmartens
 ---
 # Develop apps for the Universal Windows Platform (UWP)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 With the Universal Windows Platform and our one Windows core, you can run the same app on any Windows 10 device, from phones to desktops. Create these Universal Windows apps with Visual Studio and the Universal Windows App development tools.
 

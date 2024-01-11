@@ -18,7 +18,6 @@ ms.technology: office-development
 ---
 # Resize controls within worksheet cells
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When you resize columns or rows on a worksheet, any host controls within the cells automatically resize to the height or width of the cell that was resized. Windows Forms controls do not resize automatically by default.
 
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]

@@ -12,7 +12,6 @@ ms.technology: vs-ide-modeling
 ---
 # The DslDefinition.dsl File
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This topic describes the structure of the DslDefinition.dsl file in the Dsl project of a Domain-Specific Language Tools solution, which defines a *domain-specific language*. The DslDefinition.dsl file describes the classes and relationships of a domain-specific language, together with the diagram, shapes, connectors, serialization format, and **Toolbox** of the domain-specific language and its editing tools. In a domain-specific language solution, the code that defines those tools is generated according to the information in the DslDefinition.dsl file.
 

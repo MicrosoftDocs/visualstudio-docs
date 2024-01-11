@@ -15,7 +15,6 @@ ms.technology: vs-ide-general
 ---
 # Find Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Searches files using a subset of the options available on the **Find in Files** tab of the **Find and Replace** window.
 
 ## Syntax

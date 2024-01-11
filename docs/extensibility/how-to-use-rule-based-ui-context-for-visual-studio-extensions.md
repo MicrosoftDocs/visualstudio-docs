@@ -9,7 +9,6 @@ ms.author: maiak
 ---
 # Use rule-based UI Context for Visual Studio extensions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio allows loading of VSPackages when certain well-known <xref:Microsoft.VisualStudio.Shell.UIContext>s are activated. However, these UI Contexts aren't fine grained, which leaves extension authors no choice but to pick an available UI Context that activates before the point they really wanted the VSPackage to load. For a list of well-known UI contexts, see <xref:Microsoft.VisualStudio.Shell.KnownUIContexts>.
 

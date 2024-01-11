@@ -10,7 +10,6 @@ ms.technology: vs-ide-general
 ---
 # Generate a constructor in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This code generation applies to:
 

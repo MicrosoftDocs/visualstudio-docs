@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDebugPortRequest2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface describes a port. This description is used to add the port to a port supplier.
 
 ## Syntax

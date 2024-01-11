@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # Attach after a launch
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 After a program launches, the debug session is ready to attach the debug engine (DE) to said program.
 
 ## Design decisions

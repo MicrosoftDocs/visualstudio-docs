@@ -13,7 +13,6 @@ ms.technology: vs-ide-general
 ---
 # Use surround-with code snippets
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ::: moniker range="vs-2022"
 

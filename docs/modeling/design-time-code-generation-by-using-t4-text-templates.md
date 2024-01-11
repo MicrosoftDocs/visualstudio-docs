@@ -18,7 +18,6 @@ ms.technology: vs-ide-modeling
 ---
 # Design-Time Code Generation by using T4 Text Templates
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Design-time T4 text templates let you generate program code and other files in your Visual Studio project. Typically, you write the templates so that they vary the code that they generate according to data from a *model*. A model is a file or database that contains key information about your application's requirements.
 

@@ -10,7 +10,6 @@ author: mikejo5000
 ---
 # Configure unit tests by using a *.runsettings* file
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A *.runsettings* file can be used to configure how unit tests are being run. For example, it can be used to change the .NET version on which the tests are run, the directory for the test results, or the data that's collected during a test run. A common use of a *.runsettings* file is to customize [code coverage analysis](../test/customizing-code-coverage-analysis.md).
 

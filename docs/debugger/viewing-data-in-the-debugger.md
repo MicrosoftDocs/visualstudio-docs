@@ -19,7 +19,6 @@ ms.technology: vs-ide-debug
 ---
 # Create custom views of data in the Visual Studio debugger (C#, Visual Basic, C++)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio debugger provides many tools for inspecting and modifying the state of your program. Most of these tools function only in break mode.
 

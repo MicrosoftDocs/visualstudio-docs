@@ -15,7 +15,6 @@ manager: jmartens
 ---
 # ShowByDefault element (Visual Studio Templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 If `false`, specifies that the template will only be displayed under the specified [TemplateGroupID](../extensibility/templategroupid-element-visual-studio-templates.md).
 
  \<VSTemplate>

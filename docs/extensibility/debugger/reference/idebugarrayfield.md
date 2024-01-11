@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDebugArrayField
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface describes an array symbol or type.
 
 ## Syntax

@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugCanStopEvent2::GetDocumentContext
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the document context that describes the location of this event.
 
 ## Syntax

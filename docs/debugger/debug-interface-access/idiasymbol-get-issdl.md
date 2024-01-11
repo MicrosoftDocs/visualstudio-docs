@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaSymbol::get_isSdl
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies whether the module is compiled with the /SDL option.
 
 ## Syntax

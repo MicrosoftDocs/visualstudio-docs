@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugExceptionEvent2::CanPassToDebuggee
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines whether or not the debug engine (DE) supports the option of passing this exception to the program being debugged when execution resumes.
 
 ## Syntax

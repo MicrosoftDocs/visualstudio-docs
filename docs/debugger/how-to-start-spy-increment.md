@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # Start Spy++
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can start Spy++ either from Visual Studio or at a command prompt.
 

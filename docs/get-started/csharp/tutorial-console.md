@@ -15,7 +15,6 @@ dev_langs:
 ---
 # Tutorial: Create a simple C# console app in Visual Studio (part 1 of 2)
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this tutorial, you use Visual Studio to create and run a C# console app, and explore some features of the Visual Studio integrated development environment (IDE). This tutorial is part 1 of a two-part tutorial series.
 

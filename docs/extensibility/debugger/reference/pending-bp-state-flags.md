@@ -17,7 +17,6 @@ dev_langs:
 ---
 # PENDING_BP_STATE_FLAGS
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the pending breakpoint state flags.
 
 ## Syntax

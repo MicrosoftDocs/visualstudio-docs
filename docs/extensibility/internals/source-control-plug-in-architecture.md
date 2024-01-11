@@ -12,7 +12,6 @@ ms.technology: vs-ide-sdk
 ---
 # Source Control Plug-in Architecture
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can add source control support to the Visual Studio integrated development environment (IDE) by implementing and attaching a source control plug-in. The IDE connects to the source control plug-in via the well-defined Source Control Plug-In API. The IDE exposes the version control features of the source control system by providing a user interface (UI) that consists of toolbars and menu commands. The source control plug-in implements the source control functionality.
 
 ## Source Control Plug-in Resources

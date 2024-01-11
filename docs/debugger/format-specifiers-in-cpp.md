@@ -24,7 +24,6 @@ ms.technology: vs-ide-debug
 ---
 # Format specifiers for C++ in the Visual Studio debugger
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can change the format in which a value is displayed in the **Watch**, **Autos**, and **Locals** windows by using format specifiers.
 

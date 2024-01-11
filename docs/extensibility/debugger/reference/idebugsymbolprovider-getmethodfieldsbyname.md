@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugSymbolProvider::GetMethodFieldsByName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the field representing a fully qualified method name.
 
 ## Syntax

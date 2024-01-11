@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaSymbol::get_noStackOrdering
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function retrieves a flag that indicates whether no stack ordering could be done as part of stack buffer checking ([/GS (Buffer Security Check)](/cpp/build/reference/gs-buffer-security-check) compiler option).
 
 ## Syntax

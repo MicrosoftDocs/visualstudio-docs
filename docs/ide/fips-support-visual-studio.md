@@ -11,7 +11,6 @@ ms.technology: vs-ide-general
 ---
 # Visual Studio support for the FIPS 140-2 approved mode of operation
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Starting with [version 16.4](/visualstudio/releases/2019/release-notes-v16.4/), Visual Studio 2019 supports the Federal Information Processing Standard (FIPS) Publication 140-2 approved mode of operation for Windows, Azure, and .NET. And, with [version 16.5](/visualstudio/releases/2019/release-notes-v16.5), Visual Studio now supports the FIPS 140-2 approved mode of operation when you develop [C++ applications that target a remote Linux system](/cpp/linux/set-up-fips-compliant-secure-remote-linux-development/).
 

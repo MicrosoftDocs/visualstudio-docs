@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # Function (Debug Interface Access SDK)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Each function is identified by a `SymTagFunction` symbol.
 
 ## Properties

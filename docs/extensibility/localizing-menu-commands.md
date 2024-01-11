@@ -17,7 +17,6 @@ ms.technology: vs-ide-sdk
 ---
 # Localize menu commands
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can provide localized text for menu and toolbar commands by creating localized *.vsct* files and localized *.resx* files for your VSPackage, and then updating the project files to incorporate the changes.
 

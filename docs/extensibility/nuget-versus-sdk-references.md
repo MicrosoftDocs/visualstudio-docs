@@ -10,7 +10,6 @@ ms.technology: vs-ide-sdk
 ---
 # NuGet versus SDK as a project reference
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article is designed to help developers choose whether to package their software as a NuGet package or as a software development kit (SDK). Specifically, it discusses differences between the two when they're referenced in a Visual Studio project.
 

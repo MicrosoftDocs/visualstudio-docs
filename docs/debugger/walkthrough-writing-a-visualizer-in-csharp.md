@@ -15,7 +15,6 @@ ms.technology: vs-ide-debug
 ---
 # Walkthrough: Writing a Visualizer in C\#
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This walkthrough shows how to write a simple visualizer by using C#. The visualizer you create in this walkthrough displays the contents of a string using a Windows Form. This simple string visualizer isn't especially useful in itself, but it shows the basic steps that you must follow to create more useful visualizers for other data types.
 

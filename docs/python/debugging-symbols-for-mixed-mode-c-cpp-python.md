@@ -11,7 +11,6 @@ ms.technology: vs-python
 
 # Install debugging symbols for Python interpreters
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To provide a full debugging experience, the [mixed-mode Python debugger](debugging-mixed-mode-c-cpp-python-in-visual-studio.md) in Visual Studio needs debug symbols for the Python interpreter being used to parse numerous internal data structures. For _python27.dll_, for example, the corresponding symbol file is _python27.pdb_; for _python36.dll_, the symbol file is _python36.pdb_. Each version of the interpreter also supplies symbol files for a variety of modules.
 

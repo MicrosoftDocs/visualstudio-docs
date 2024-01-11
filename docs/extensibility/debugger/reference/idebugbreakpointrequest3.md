@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDebugBreakpointRequest3
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents the information necessary to create and bind any type of breakpoint. It is an extension of [IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md).
 
 ## Syntax

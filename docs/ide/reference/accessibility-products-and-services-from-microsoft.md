@@ -20,7 +20,6 @@ ms.technology: vs-ide-general
 ---
 # Accessibility products and services from Microsoft
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Microsoft is committed to making its products and services easier for everyone to use. This page provides information about the features, products, and services that make Microsoft Windows more accessible for people with disabilities.
 

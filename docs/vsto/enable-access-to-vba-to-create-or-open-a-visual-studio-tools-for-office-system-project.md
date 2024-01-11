@@ -20,7 +20,6 @@ ms.technology: office-development
 ---
 # Enable access to VBA to create or open a Visual Studio Tools for the Microsoft Office system project
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You must explicitly enable access to the Visual Basic for Applications (VBA) project system in Microsoft Office before you can create or open a Visual Studio Tools for the Microsoft Office system project.
 

@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # C++ library reference
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This section contains reference information for the Concurrency Visualizer SDK.
 

@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProcess2::Attach
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Attaches the session debug manager (SDM) to the process.
 
 ## Syntax

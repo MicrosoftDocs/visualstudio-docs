@@ -10,7 +10,6 @@ ms.technology: vs-ide-debug
 ---
 # Remote Debug ASP.NET Core on IIS using an Azure VM from Visual Studio
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This guide explains how to set up and configure a Visual Studio ASP.NET Core app, deploy it to IIS using an Azure VM, and attach the remote debugger from Visual Studio.
 

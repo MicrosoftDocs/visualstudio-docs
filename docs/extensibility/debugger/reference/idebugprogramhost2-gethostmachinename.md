@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProgramHost2::GetHostMachineName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the name of the machine that the process hosting this program is running on.
 
 ## Syntax

@@ -10,7 +10,6 @@ ms.technology: vs-ide-sdk
 ---
 # Get service information from the settings store
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can use the settings store to find all available services or to determine whether a particular service is installed. You must know the type of the service class.
 
 ## To list the available services

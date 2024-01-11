@@ -14,7 +14,6 @@ ms.technology: vs-ide-sdk
 ---
 # Related Services and Interfaces (Source Control VSPackage)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This section lists all the source control VSPackage-related interfaces in the Visual Studio SDK. The source control VSPackage implements some of these interfaces and uses others to accomplish source control tasks.
 

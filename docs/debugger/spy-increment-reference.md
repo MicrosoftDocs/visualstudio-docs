@@ -13,7 +13,6 @@ ms.technology: vs-ide-debug
 ---
 # Spy++ reference overview
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 See the sections listed below for descriptions of each Spy++ menu and dialog box:
 
 ## In this section

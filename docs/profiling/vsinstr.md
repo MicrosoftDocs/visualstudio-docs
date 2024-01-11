@@ -19,7 +19,6 @@ ms.technology: vs-ide-debug
 ---
 # VSInstr
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The VSInstr tool is used to instrument binaries. It is invoked by using the following syntax:
 

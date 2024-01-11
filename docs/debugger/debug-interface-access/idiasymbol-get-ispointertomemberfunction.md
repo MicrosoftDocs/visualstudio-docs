@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaSymbol::get_isPointerToMemberFunction
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies whether this symbol is a pointer to a member function.
 
 ## Syntax

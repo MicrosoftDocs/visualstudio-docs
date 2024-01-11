@@ -10,7 +10,6 @@ ms.technology: vs-xml-tools
 ---
 # Get an overview of a schema set by using the Graph View
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This topic describes how to use the [Graph View](../xml-tools/graph-view.md) to see a high-level view of the nodes in a schema set and the relationships between the nodes.
 

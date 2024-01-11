@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugBinder3::GetTypeArgumentCount
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method returns the number of argument types associated with this object.
 
 ## Syntax

@@ -17,7 +17,6 @@ ms.technology: vs-ide-designers
 ---
 # Use 3D assets in your game or app
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article describes how you can use Visual Studio to process 3D assets and include them in your builds.
 

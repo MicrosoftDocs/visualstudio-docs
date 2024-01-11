@@ -12,7 +12,6 @@ ms.technology: vs-workflow-designer
 ---
 # Send Activity Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Send** activity designer is used to create and configure a <xref:System.ServiceModel.Activities.Send> activity.
 

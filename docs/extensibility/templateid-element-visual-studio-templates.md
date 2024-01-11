@@ -15,7 +15,6 @@ manager: jmartens
 ---
 # TemplateID Element (Visual Studio Templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies an identifier for an item template that is categorized into a group of item templates by the [TemplateGroupID](../extensibility/templategroupid-element-visual-studio-templates.md) element.
 
  \<VSTemplate>

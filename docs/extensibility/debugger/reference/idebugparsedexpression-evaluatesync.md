@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugParsedExpression::EvaluateSync
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method evaluates the parsed expression and optionally casts the result to another data type.
 
 ## Syntax

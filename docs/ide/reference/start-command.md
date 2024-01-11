@@ -15,7 +15,6 @@ ms.technology: vs-ide-general
 ---
 # Start Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Begins debugging the startup project.
 
 ## Syntax

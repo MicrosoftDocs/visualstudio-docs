@@ -13,7 +13,6 @@ ms.technology: vs-ide-sdk
 ---
 # Test Area 8: Plug-in Switching
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Visual Studio integrated development environment (IDE) has the user interface (UI) to change the current source control plug-in. This test area provides test cases for the process of picking which plug-in to use for solution source control.
 
 ## Command Menu Access

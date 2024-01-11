@@ -14,7 +14,6 @@ ms.technology: vs-ide-code-analysis
 ---
 # Implement Custom Code Analysis Check-in Policies for Managed Code
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A code analysis check-in policy specifies a set of rules that members of an Azure DevOps project must run on source code before it is checked in to version control. Microsoft provides a set of standard *rule sets* that group code analysis rules into functional areas. *Custom check-in policy rule sets* specify a set of code analysis rules that are specific to a project. A rule set is stored in a .ruleset file.
 

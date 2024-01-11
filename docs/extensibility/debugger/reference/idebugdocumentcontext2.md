@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDebugDocumentContext2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a position in a source file document.
 
 ## Syntax

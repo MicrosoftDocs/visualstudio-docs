@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProcess3::SetHostingProcessLanguage
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method sets the language that the process will be hosted under. This language can then be used by the debug engine (DE) to load the appropriate expression evaluator.
 
 ## Syntax

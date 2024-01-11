@@ -12,7 +12,6 @@ ms.technology: vs-ide-code-analysis
 ---
 # Enable or install first-party .NET analyzers
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 
 

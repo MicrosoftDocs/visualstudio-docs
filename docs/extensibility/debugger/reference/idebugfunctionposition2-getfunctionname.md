@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugFunctionPosition2::GetFunctionName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the name of the function to which this position points.
 
 ## Syntax

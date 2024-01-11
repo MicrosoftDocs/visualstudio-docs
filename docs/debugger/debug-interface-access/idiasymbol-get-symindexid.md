@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaSymbol::get_symIndexId
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the unique symbol identifier.
 
 ## Syntax

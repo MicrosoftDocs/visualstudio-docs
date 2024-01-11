@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # diagnostic namespace
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The `diagnostics` namespace provides functionality for emitting Concurrency Visualizer markers.
 
 ## Syntax

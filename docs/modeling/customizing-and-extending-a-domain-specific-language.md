@@ -12,7 +12,6 @@ ms.technology: vs-ide-modeling
 ---
 # Customize and extend a domain-specific language
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio Modeling and Visualization SDK (VMSDK) provides several levels at which you can define modeling tools:
 

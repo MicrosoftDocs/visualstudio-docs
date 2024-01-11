@@ -17,7 +17,6 @@ dev_langs:
 ---
 # PDB_TYPE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This structure specifies information about a field type taken from a PDB symbol.
 

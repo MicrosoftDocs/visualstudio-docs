@@ -20,7 +20,6 @@ ms.technology: vs-ide-general
 ---
 # Shell Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Launches executable programs from within Visual Studio.
 
 ## Syntax

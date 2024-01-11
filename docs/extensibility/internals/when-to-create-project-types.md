@@ -12,7 +12,6 @@ ms.technology: vs-ide-sdk
 ---
 # When to Create Project Types
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creating a new project type provides a basis for customizing Visual Studio for your users. However, creating a new project type is not required for all Visual Studio customizations. The following guidelines should help you determine whether a new project type is required for your scenario.
 
 ## Create a New Project Type

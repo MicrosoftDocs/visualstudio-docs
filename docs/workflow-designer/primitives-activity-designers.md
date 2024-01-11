@@ -10,7 +10,6 @@ ms.technology: vs-workflow-designer
 ---
 # Primitives Activity Designers
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Primitives activity designers are used to create and configure various activities in the <xref:System.Activities.Statements> namespace such as Assign and Delay. The topics contained in this section provide guidance on how to use the Workflow Designer activity and template designers.
 

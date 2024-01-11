@@ -20,7 +20,6 @@ ms.technology: sharepoint-development
 ---
 # Include a custom assembly in a BDC feature
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Your project can reference assemblies from other projects in the same solution. However, you must add these assemblies to the feature file of the project by using the **Assign referenced assemblies to LobSystems** dialog box.
 
 ### To include a custom assembly in a business data connectivity (BDC) feature

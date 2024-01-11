@@ -13,7 +13,6 @@ ms.technology: vs-ide-sdk
 ---
 # Group element
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Defines a VSPackage command group.
 
 ## Syntax

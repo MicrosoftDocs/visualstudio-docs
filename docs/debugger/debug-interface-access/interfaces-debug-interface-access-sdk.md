@@ -15,7 +15,6 @@ ms.technology: vs-ide-debug
 ---
 # Interfaces (Debug Interface Access SDK)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Methods are listed alphabetically under each interface in the table of contents and on the interface page in Vtable order.
 
 ## In This Section

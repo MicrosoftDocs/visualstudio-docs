@@ -25,7 +25,6 @@ ms.technology: vs-ide-deployment
 ---
 # Security, versioning, and manifest issues in ClickOnce deployments
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 There are a variety of issues with ClickOnce security, application versioning, and manifest syntax and semantics that can cause a ClickOnce deployment not to succeed.
 

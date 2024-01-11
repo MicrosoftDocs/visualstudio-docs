@@ -11,7 +11,6 @@ ms.technology: vs-ide-general
 ---
 # Sign in or switch Visual Studio user accounts 
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this article, you'll learn how to sign in to Visual Studio, add and switch user accounts, update your profile, sign out of your account, and the benefits to signing in.  If you are looking to learn how to use multiple accounts for sign-ins, check out our article, [Access multiple accounts associated with the Visual Studio sign-in account](sign-in-access-multiple-accounts.md).
 

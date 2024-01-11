@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IEEVisualizerService::GetCustomViewerList
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method returns a list of type visualizers that this service knows about.
 
 ## Syntax

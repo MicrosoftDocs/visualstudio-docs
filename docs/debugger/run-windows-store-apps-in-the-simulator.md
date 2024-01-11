@@ -16,7 +16,6 @@ monikerRange: '<= vs-2019'
 ---
 # Run UWP apps in the simulator
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio simulator for UWP apps is a desktop application that simulates a UWP app. Typically, you will want to debug on the local machine, a connected device, or a remote machine. However, in some scenarios, you may want to use the Visual Studio simulator to emulate a different physical screen size and resolution. You can also simulate common touch and rotation events and simulate network connection properties.
 

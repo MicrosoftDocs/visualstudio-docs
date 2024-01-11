@@ -10,7 +10,6 @@ ms.technology: vs-xml-tools
 ---
 # Debugger user interface (XSLT)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article describes the debugger windows and dialog boxes. It only discusses user interface pieces that have XSLT-specific debugging behavior.
 

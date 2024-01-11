@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaSymbol::get_typeIds
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves an array of compiler-specific type identifier values for this symbol.
 
 ## Syntax

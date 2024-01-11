@@ -14,7 +14,6 @@ ms.technology: vs-ide-general
 ---
 # Locate and organize project and item templates
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Template files must be placed in a known location in order for them to be shown in the new project and new item dialog boxes..
 

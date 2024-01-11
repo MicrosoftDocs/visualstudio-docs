@@ -10,7 +10,6 @@ ms.technology: vs-ide-sdk
 ---
 # Common Control Patterns for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## <a name="BKMK_CommonControls"></a> Common controls
 
 

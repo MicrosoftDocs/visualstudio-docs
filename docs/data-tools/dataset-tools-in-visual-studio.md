@@ -49,7 +49,6 @@ ms.technology: vs-data-tools
 ---
 # Visual Studio dataset tools for developing .NET Framework applications
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 

@@ -17,7 +17,6 @@ ms.technology: vs-ide-general
 ---
 # Visual Studio Developer Command Prompt and Developer PowerShell
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio includes two command-line shells for developers, a command prompt and an instance of PowerShell, as follows:
 

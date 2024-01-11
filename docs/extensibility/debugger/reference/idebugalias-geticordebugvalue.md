@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugAlias::GetICorDebugValue
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a managed code interface that represents the value associated with this alias.
 
 ## Syntax

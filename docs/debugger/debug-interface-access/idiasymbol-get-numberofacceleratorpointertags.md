@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaSymbol::get_numberOfAcceleratorPointerTags
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the number of accelerator pointer tags in a C++ AMP stub function.
 
 ## Syntax

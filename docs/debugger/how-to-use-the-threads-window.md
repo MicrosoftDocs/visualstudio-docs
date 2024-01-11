@@ -18,7 +18,6 @@ ms.technology: vs-ide-debug
 ---
 # Walkthrough: Debug a multithreaded app using the Threads window (C#, Visual Basic, C++)
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Several Visual Studio user interface elements help you debug multithreaded apps. This article introduces multithreaded debugging features in the code editor window, **Debug Location** toolbar, and **Threads** window. For information about other tools for debugging multithreaded apps, see [Get started debugging multithreaded apps](../debugger/get-started-debugging-multithreaded-apps.md).
 

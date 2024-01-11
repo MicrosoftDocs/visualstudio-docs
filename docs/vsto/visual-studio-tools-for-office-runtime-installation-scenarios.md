@@ -16,7 +16,6 @@ ms.technology: office-development
 ---
 # Visual Studio Tools for Office runtime installation scenarios
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
   You can install the Visual Studio 2010 Tools for Office runtime in three ways:
 

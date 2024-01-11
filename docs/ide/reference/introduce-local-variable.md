@@ -10,7 +10,6 @@ ms.technology: vs-ide-general
 ---
 # Introduce a local variable in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This code generation applies to:
 

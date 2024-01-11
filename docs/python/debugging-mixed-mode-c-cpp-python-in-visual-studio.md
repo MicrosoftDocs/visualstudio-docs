@@ -10,7 +10,6 @@ ms.technology: vs-python
 ---
 # Debug Python and C++ together
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Most regular Python debuggers support debugging of only Python code. In practice, however, Python is used in conjunction with C or C++ in scenarios requiring high performance or the ability to directly invoke platform APIs. (See [Create a C++ extension for Python](working-with-c-cpp-python-in-visual-studio.md) for a walkthrough.)
 

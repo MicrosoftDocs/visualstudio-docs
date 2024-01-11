@@ -19,7 +19,6 @@ ms.technology: vs-ide-debug
 ---
 # About the Registers Window in Visual Studio (C#, C++, Visual Basic, F#)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Registers** window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node.
 

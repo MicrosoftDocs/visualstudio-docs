@@ -9,7 +9,6 @@ manager: "viveis"
 ---
 # Workspace file contexts
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 All insights into [Open Folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) workspaces are produced by "file context providers" that implement the <xref:Microsoft.VisualStudio.Workspace.IFileContextProvider> interface. These extensions might look for patterns in folders or files, read MSBuild files and makefiles, detect package dependencies, etc. in order to accumulate the insights they need to define a file context. A file context by itself does not perform any action, but rather provides data that another extension can then act on.
 

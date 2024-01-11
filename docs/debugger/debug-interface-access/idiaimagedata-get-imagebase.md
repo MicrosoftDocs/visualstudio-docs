@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaImageData::get_imageBase
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the memory location where the image should be based.
 
 ## Syntax

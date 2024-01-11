@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDebugExceptionEvent2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The debug engine (DE) sends this interface to the session debug manager (SDM) when an exception is thrown in the program currently being executed.
 
 ## Syntax

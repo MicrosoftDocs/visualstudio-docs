@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDebugProgramEx2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface lets the session debug manager (SDM) attach to a program and get the program node associated with a program.
 
 ## Syntax

@@ -10,7 +10,6 @@ author: tylermsft
 ---
 # Microsoft.VisualStudio.TestTools.CppUnitTestFramework API reference
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This topic lists the public members of the `Microsoft::VisualStudio::CppUnitTestFramework` namespace. Use these APIs to write C++ unit tests based on the Microsoft Native Unit Test Framework. There is a [Usage Example](#example) at the end of the topic.
 

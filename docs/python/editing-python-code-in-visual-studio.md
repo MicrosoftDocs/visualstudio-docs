@@ -11,7 +11,6 @@ ms.technology: vs-python
 
 # Edit Python code
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Because you spend much of your development time in the code editor, [Python support in Visual Studio](installing-python-support-in-visual-studio.md) provides functionality to help you be more productive. Features include IntelliSense syntax highlighting, autocompletion, signature help, method overrides, search, and navigation.
 

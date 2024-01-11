@@ -16,7 +16,6 @@ dev_langs:
 ---
 # IDebugGenericFieldInstance::GetTypeArguments
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the type parameter arguments for this instance.
 
 ## Syntax

@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaSymbol::get_symTag
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the symbol type classifier.
 
 ## Syntax

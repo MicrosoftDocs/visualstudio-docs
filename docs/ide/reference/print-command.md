@@ -16,7 +16,6 @@ ms.technology: vs-ide-general
 ---
 # Print command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Evaluates an expression or displays specified text.
 

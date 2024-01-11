@@ -13,7 +13,6 @@ ms.technology: vs-ide-sdk
 ---
 # Create options pages
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In the Visual Studio managed package framework, classes derived from <xref:Microsoft.VisualStudio.Shell.DialogPage> extend the Visual Studio IDE by adding **Options** pages under the **Tools** menu.
 
  An object implementing a given **Tools Option** page is associated with specific VSPackages by the <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> object.

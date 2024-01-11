@@ -13,7 +13,6 @@ ms.technology: vs-ide-sdk
 ---
 # Register and unregister VSPackages
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You use attributes to register a VSPackage, but
 
 ## Register a VSPackage

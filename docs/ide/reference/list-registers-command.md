@@ -16,7 +16,6 @@ ms.technology: vs-ide-general
 ---
 # List Registers Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Displays the value of the selected registers and lets you modify the list of registers to show.
 
 ## Syntax

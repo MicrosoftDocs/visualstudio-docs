@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugExpressionContext2::GetName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the name of the evaluation context.
 
 ## Syntax

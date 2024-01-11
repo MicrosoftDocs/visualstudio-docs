@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # API reference for IntelliTrace extensibility
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 By using the information in this section, you can use IntelliTrace extensibility APIs to read and decode .itrace files in your application.
 

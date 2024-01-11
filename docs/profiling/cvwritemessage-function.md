@@ -28,7 +28,6 @@ ms.technology: vs-ide-debug
 ---
 # CvWriteMessage function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Writes a message to the Concurrency Visualizer trace file.
 
 ## Syntax

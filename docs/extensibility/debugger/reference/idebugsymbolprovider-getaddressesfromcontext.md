@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugSymbolProvider::GetAddressesFromContext
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method maps a document context into an array of debug addresses.
 
 ## Syntax

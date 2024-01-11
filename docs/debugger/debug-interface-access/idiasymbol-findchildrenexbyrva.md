@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaSymbol::findChildrenExByRVA
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the children of the symbol that are valid at a specified relative virtual address (RVA).
 
 ## Syntax

@@ -17,7 +17,6 @@ dev_langs:
 ---
 # EXCEPTION_STATE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the exception state.
 
 ## Syntax

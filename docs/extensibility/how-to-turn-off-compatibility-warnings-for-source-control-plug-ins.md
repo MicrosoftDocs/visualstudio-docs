@@ -13,7 +13,6 @@ ms.technology: vs-ide-sdk
 ---
 # Turn off compatibility warnings for source control plug-ins
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A user may see several compatibility warnings when employing source control in Visual Studio. The warnings presented depend on the capabilities of the source control plug-in and can be disabled as detailed here.
 

@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugThread2::Resume
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Resumes execution of a thread.
 
 ## Syntax

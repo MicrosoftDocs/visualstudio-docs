@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaFrameData::get_lengthSavedRegisters
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the number of bytes of saved registers pushed on the stack.
 
 ## Syntax

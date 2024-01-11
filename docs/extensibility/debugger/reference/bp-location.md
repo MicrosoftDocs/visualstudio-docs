@@ -17,7 +17,6 @@ dev_langs:
 ---
 # BP_LOCATION
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the type of structure used to describe the location of the breakpoint.
 
 ## Syntax

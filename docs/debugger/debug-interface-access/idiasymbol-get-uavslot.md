@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaSymbol::get_uavSlot
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the uav slot.
 
 ## Syntax

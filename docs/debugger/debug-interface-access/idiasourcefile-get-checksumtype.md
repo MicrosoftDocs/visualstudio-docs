@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaSourceFile::get_checksumType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the checksum type.
 
 ## Syntax

@@ -11,7 +11,6 @@ ms.technology: vs-ide-sdk
 ---
 # Progress bars for backgrounds tasks in Visual Studio extensions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 There are several ways to show progress of a running background task in Visual Studio. Here's how to use progress bars from your own extensions.
 

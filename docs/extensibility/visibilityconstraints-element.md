@@ -15,7 +15,6 @@ ms.technology: vs-ide-sdk
 ---
 # VisibilityConstraints element
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The VisibilityConstraints element determines the static visibility of groups of commands and toolbars. The visibility is first controlled by the Visual Studio integrated development environment (IDE) without loading the VSPackage.
 
 ## Syntax

@@ -10,7 +10,6 @@ ms.author: ghogen
 ---
 # Optimizing Your Azure Code
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 

@@ -10,7 +10,6 @@ ms.technology: vs-ide-debug
 ---
 # Analyze CPU usage without debugging in the Performance Profiler (C#, Visual Basic, C++, F#)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A good way to start investigating performance issues in your app is to understand its CPU usage. The **CPU Usage** performance tool shows the CPU time and percentage spent executing code in C++, C#/Visual Basic.
 

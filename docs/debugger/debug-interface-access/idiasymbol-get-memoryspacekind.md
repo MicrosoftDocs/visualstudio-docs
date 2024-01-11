@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaSymbol::get_memorySpaceKind
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the memory space kind.
 
 ## Syntax

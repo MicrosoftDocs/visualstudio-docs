@@ -20,7 +20,6 @@ ms.technology: vs-ide-general
 ---
 # /LCID (devenv.exe)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Sets the default language used for text, currency, and other values within the IDE.
 

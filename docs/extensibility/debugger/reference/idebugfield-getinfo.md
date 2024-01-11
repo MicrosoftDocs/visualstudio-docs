@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugField::GetInfo
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets displayable information about the field.
 
 ## Syntax

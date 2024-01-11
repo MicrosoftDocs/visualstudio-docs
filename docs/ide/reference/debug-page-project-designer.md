@@ -15,7 +15,6 @@ manager: jmartens
 ---
 # Debug Page, Project Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Debug** page of the **Project Designer** to set properties for debugging behavior in a Visual Basic or C# project.
 

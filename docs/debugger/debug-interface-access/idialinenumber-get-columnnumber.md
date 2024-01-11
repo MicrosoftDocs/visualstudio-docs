@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaLineNumber::get_columnNumber
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the column number where the expression or statement begins.
 
 ## Syntax

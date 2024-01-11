@@ -15,7 +15,6 @@ ms.technology: vs-ide-general
 ---
 # Evaluate Statement command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Evaluates and displays the given statement.
 

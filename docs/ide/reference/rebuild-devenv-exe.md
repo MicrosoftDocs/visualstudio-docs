@@ -16,7 +16,6 @@ ms.technology: vs-ide-general
 ---
 # /Rebuild (devenv.exe)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Cleans and then builds the specified solution configuration.
 

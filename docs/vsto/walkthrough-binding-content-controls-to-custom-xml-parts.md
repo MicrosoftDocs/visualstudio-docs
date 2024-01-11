@@ -20,7 +20,6 @@ ms.technology: office-development
 ---
 # Walkthrough: Bind content controls to custom XML parts
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This walkthrough demonstrates how to bind content controls in a document-level customization for Word to XML data that is stored in the document.
 
  [!INCLUDE[appliesto_wdalldoc](../vsto/includes/appliesto-wdalldoc-md.md)]

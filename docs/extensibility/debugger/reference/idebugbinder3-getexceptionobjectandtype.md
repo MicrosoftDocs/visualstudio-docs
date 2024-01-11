@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugBinder3::GetExceptionObjectAndType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method retrieves the exception associated with an object, if any.
 
 ## Syntax

@@ -21,7 +21,6 @@ ms.technology: vs-ide-debug
 ---
 # Run the Worker Process Under a User Account
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To set up your computer so that you can run the ASP.NET worker process (aspnet_wp.exe or w3wp.exe) under a user account, follow these steps.
 
  > [!IMPORTANT]

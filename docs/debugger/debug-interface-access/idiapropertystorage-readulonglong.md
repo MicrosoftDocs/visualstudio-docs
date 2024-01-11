@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaPropertyStorage::ReadULONGLONG
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Reads `ULONGLONG` values in a property set.
 
 ## Syntax

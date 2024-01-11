@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugComPlusSymbolProvider::GetAddressesInModuleFromPosition
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Maps a document position in the specified module to an array of debug addresses.
 
 ## Syntax

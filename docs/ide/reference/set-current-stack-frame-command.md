@@ -15,7 +15,6 @@ ms.technology: vs-ide-general
 ---
 # Set Current Stack Frame Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Allows you to set a particular stack frame.
 
 ## Syntax

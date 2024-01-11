@@ -21,7 +21,6 @@ ms.technology: vs-ide-debug
 ---
 # Error: Workgroup Remote Logon Failure
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This error reads:
 
  Logon failure: unknown user name or bad password

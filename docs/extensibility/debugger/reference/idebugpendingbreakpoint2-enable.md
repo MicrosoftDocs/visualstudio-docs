@@ -18,7 +18,6 @@ dev_langs:
 ---
 # IDebugPendingBreakpoint2::Enable
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Toggles the enabled state of the pending breakpoint.
 
 ## Syntax

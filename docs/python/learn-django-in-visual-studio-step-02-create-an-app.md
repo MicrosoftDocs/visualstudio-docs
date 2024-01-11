@@ -12,7 +12,6 @@ ms.technology: vs-python
 
 # Step 2: Create a Django app with views and page templates
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Previous step: [Create a Visual Studio project and solution](learn-django-in-visual-studio-step-01-project-and-solution.md)**
 

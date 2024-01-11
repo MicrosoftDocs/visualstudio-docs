@@ -10,7 +10,6 @@ manager: jmartens
 ---
 # Build multiple configurations in a single build request
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can build most types of projects with multiple, or even all, of their build configurations with one IDE action by using the **Batch Build** dialog box. However, you can't build the following types of projects in multiple build configurations at the same time:
 

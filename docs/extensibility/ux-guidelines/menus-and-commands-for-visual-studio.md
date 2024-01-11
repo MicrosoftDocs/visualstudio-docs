@@ -10,7 +10,6 @@ ms.technology: vs-ide-sdk
 ---
 # Menus and Commands for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## Command usage
 
 

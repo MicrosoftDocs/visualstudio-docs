@@ -17,7 +17,6 @@ dev_langs:
 ---
 # Suppress code analysis violations
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 It is often useful to indicate that a warning is not applicable. Suppressing code analysis violations indicates team members the code was reviewed, and the warning can be suppressed. The following sections describe the different ways to suppress code analysis violations using the Visual Studio IDE.
 

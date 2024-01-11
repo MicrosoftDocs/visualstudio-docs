@@ -10,7 +10,6 @@ ms.author: ghogen
 ---
 # Using the Visual Studio Publish Azure Application Wizard
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 

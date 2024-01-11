@@ -10,7 +10,6 @@ ms.technology: vs-ide-sdk
 ---
 # Notifications and Progress for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## <a name="BKMK_NotificationSystems"></a> Notification systems
 
 

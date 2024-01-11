@@ -15,7 +15,6 @@ ms.technology: vs-ide-general
 ---
 # Services Page, Project Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Client application services provide simplified access to Microsoft Ajax login, roles, and profile services from Windows Forms and Windows Presentation Foundation (WPF) applications. You can use the **Services** page of the **Project Designer** to enable and configure client application services for your project.
 

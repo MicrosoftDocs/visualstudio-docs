@@ -11,7 +11,6 @@ ms.technology: vs-xaml-tools
 ---
 # Keyboard shortcuts in Blend for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ## Project shortcuts
 

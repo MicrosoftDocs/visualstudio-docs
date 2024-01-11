@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProgramProvider2::SetLocale
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Establishes a locale to be used for any locale-specific resources.
 
 ## Syntax

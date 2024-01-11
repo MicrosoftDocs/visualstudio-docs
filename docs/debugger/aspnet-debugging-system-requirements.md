@@ -18,7 +18,6 @@ ms.technology: vs-ide-debug
 ---
 # ASP.NET Debugging: System Requirements
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This topic describes the software and security requirements for ASP.NET debugging scenarios:
 
 - Local debugging, in which Visual Studio and the Web application run on the same computer. There are two versions of this scenario:

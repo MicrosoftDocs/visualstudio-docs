@@ -10,7 +10,6 @@ ms.technology: vs-data-tools
 ---
 # The objects you are adding to the designer use a different data connection than the designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The objects you are adding to the designer use a different data connection than the designer is currently using. Do you want to replace the connection used by the designer?
 

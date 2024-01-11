@@ -15,7 +15,6 @@ ms.technology: vs-ide-debug
 ---
 # Tutorial: Debug C# and C++ in the same debugging session
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio lets you enable more than one debugger type in a debugging session, which is called mixed-mode debugging. In this tutorial, you learn to debug both managed and native code in a single debugging session.
 

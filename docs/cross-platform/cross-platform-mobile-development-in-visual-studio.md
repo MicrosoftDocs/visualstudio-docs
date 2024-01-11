@@ -11,7 +11,6 @@ ms.author: johmil
 
 # Cross-platform mobile development in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can build apps for Android, iOS, and Windows devices by using Visual Studio.  As you design your app, use tools in Visual Studio to easily add connected services such as Microsoft 365, Azure App Service, and Application Insights.
 

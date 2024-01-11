@@ -13,7 +13,6 @@ ms.technology: vs-ide-sdk
 ---
 # Menus element
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Defines all the menus and toolbars that a VSPackage implements.
 
 ## Syntax

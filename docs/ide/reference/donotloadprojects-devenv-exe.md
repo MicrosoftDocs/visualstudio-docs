@@ -14,7 +14,6 @@ ms.technology: vs-ide-general
 ---
 # /DoNotLoadProjects (devenv.exe)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **New for Visual Studio 2019 version 16.1**
 

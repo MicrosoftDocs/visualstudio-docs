@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProgram2::WriteDump
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Writes a dump to a file.
 
 ## Syntax

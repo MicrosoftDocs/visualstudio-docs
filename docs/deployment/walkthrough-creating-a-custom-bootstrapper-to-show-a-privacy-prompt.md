@@ -21,7 +21,6 @@ ms.technology: vs-ide-deployment
 ---
 # Walkthrough: Create a custom bootstrapper with a privacy prompt
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can configure ClickOnce applications to automatically update when assemblies with newer file versions and assembly versions become available. To make sure that your customers consent to this behavior, you can display a privacy prompt to them. Then, they can choose whether to grant permission to the application to update automatically. If the application is not allowed to update automatically, it does not install.
 
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]

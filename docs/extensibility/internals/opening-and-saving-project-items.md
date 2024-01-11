@@ -14,7 +14,6 @@ ms.technology: vs-ide-sdk
 ---
 # Opening and Saving Project Items
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When you add a new project type, you must manage the opening and saving of your projects files in the Visual Studio integrated development environment (IDE). The following topics discuss the different approaches to opening and saving files.
 
 ## In This Section

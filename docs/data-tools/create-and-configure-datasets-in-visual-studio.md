@@ -14,7 +14,6 @@ ms.technology: vs-data-tools
 ---
 # Create and configure  datasets in the .NET Framework using Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 

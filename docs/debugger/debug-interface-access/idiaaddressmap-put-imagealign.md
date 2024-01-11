@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaAddressMap::put_imageAlign
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the image alignment.
 
 ## Syntax

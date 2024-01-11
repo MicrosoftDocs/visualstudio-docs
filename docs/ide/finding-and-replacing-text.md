@@ -33,7 +33,6 @@ ms.technology: vs-ide-general
 ---
 # Find and replace text in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this article, you learn how to find and replace text in the Visual Studio editor by using [the single file find-and-replace](#control) (**Ctrl**+**F** or **Ctrl**+**H**) or [multi-file find-and-replace](#multifile) (**Ctrl**+**Shift**+**F** or **Ctrl**+**Shift**+**H**). You can also find and replace *some* instances of a pattern by using *[multi-caret selection](#multi-caret-selection)*.  In addition to the editor, you can also find and replace text in certain other text-based windows such as the **Find Results** windows, in designer windows such as the XAML designer and Windows Forms designer, and in tool windows.
 

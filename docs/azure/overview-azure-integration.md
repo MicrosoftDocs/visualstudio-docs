@@ -11,7 +11,6 @@ monikerRange: ">=vs-2019"
 ---
 # Find and provision Azure resources in Visual Studio 
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can work with Azure in Visual Studio using many capabilities designed to make development and deployment to Azure easier.
 

@@ -14,7 +14,6 @@ ms.technology: vs-ide-sdk
 ---
 # SccGetVersion Function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function gets the version number of the Source Control Plug-in API supported by the source control plug-in.
 
 ## Syntax

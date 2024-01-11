@@ -10,7 +10,6 @@ ms.technology: vs-ide-modeling
 ---
 # API Reference for T4 Text Templates
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Text Templating API lets you invoke and customize the transformation of [text templates](../modeling/code-generation-and-t4-text-templates.md).
 

@@ -15,7 +15,6 @@ ms.technology: vs-ide-general
 ---
 # Options dialog box: Projects and Solutions \> General
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use this page to define Visual Studio's behavior related to projects and solutions. To access these options, select **Tools** > **Options**, expand **Projects and Solutions**, and then select **General**.
 

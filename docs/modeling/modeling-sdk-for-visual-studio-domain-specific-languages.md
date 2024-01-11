@@ -14,7 +14,6 @@ ms.technology: vs-ide-modeling
 ---
 # Modeling SDK for Visual Studio - Domain-Specific Languages
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 By using the Modeling SDK for Visual Studio, you can create powerful model-based development tools that you can integrate into Visual Studio. In the same manner, you can create one or more model definitions and integrate them into a set of tools.
 

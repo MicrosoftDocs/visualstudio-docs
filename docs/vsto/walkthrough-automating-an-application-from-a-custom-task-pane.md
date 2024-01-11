@@ -21,7 +21,6 @@ ms.technology: office-development
 ---
 # Walkthrough: Automate an application from a custom task pane
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This walkthrough demonstrates how to create a custom task pane that automates PowerPoint. The custom task pane inserts dates into a slide when the user clicks a <xref:System.Windows.Forms.MonthCalendar> control that is on the custom task pane.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]

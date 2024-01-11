@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugObject2::IsUserData
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines whether the object represents user data.
 
 ## Syntax

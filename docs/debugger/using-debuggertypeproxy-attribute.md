@@ -19,7 +19,6 @@ ms.technology: vs-ide-debug
 ---
 # Tell the debugger what type to show using DebuggerTypeProxy Attribute (C#, Visual Basic, C++/CLI)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 <xref:System.Diagnostics.DebuggerTypeProxyAttribute> specifies a proxy, or stand-in, for a type and changes the way the type is displayed in debugger windows. When you view a variable that has a proxy, the proxy stands in for the original type in the **display**. The debugger variable window displays only the public members of the proxy type. Private members are not displayed.
 

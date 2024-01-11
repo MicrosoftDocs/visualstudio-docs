@@ -14,7 +14,6 @@ monikerRange: '>= vs-2022'
 ---
 # Tutorial: Create an ASP.NET Core app with Angular in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this article, you learn how to build an ASP.NET Core project to act as an API backend and an Angular project to act as the UI.
 

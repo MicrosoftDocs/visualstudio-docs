@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugFunctionObject::CreateObjectNoConstructor
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an object with no constructor.
 
 ## Syntax

@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaStackFrame
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Exposes the properties of a stack frame.
 
 ## Syntax

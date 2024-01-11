@@ -10,7 +10,6 @@ ms.technology: vs-ide-modeling
 ---
 # Open a Model from File in Program Code
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can open DSL models in any application.
 

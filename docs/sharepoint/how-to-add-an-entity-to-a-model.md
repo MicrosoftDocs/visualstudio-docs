@@ -20,7 +20,6 @@ ms.technology: sharepoint-development
 ---
 # Add an entity to a model
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   To create an entity, add an entity control from the Visual Studio **Toolbox** onto the Business Data Connectivity (BDC) designer.
 
 ### To add an entity to the model

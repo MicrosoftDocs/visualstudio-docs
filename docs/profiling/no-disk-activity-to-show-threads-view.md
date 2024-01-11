@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # No disk activity to show (Threads View)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Disk activity for the current time range in the Disk I/O channels cannot be displayed. Disk activity may be displayed if you zoom out or scroll. Also, make sure that no disk channels are hidden.
 
 ## See also

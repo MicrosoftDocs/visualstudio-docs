@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # IDebugTypeFieldBuilder
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Represents the ability to create a field that represents a type.
 
 ## Syntax

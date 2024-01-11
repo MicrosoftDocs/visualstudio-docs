@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProperty3::GetStringChars
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the string associated with this property and stores it in a user-supplied buffer.
 
 ## Syntax

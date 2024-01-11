@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugField::Equal
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method compares this field with the specified field for equality.
 
 ## Syntax

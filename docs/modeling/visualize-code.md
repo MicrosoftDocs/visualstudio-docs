@@ -14,7 +14,6 @@ ms.technology: vs-ide-modeling
 ---
 # Visualize code
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use the visualization and modeling tools in Visual Studio to help you understand existing code and describe your application. This lets you visually learn how your changes might affect the code and help you assess the work and risks that result from those changes. For example:
 

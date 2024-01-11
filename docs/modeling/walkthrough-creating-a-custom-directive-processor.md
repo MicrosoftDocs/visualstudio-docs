@@ -16,7 +16,6 @@ dev_langs:
 ---
 # Walkthrough: Create a Custom Directive Processor
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 *Directive processors* work by adding code to the *generated transformation class*. If you call a *directive* from a *text template*, the rest of the code that you write in your text template can rely on the functionality that the directive provides.
 

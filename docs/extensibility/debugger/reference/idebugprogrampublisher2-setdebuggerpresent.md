@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProgramPublisher2::SetDebuggerPresent
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Tells the program publisher that a debugger is present and running.
 
 ## Syntax

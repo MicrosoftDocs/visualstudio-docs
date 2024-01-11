@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaEnumSectionContribs::Item
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves section contributions by means of an index.
 
 ## Syntax

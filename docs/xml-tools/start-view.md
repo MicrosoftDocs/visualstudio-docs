@@ -10,7 +10,6 @@ ms.technology: vs-xml-tools
 ---
 # Start View
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Start View is the launching point for the XML Schema (XSD) Designer. When you create a new XSD file, you will initially see the Start View.
 

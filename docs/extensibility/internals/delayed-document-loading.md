@@ -10,7 +10,6 @@ ms.technology: vs-ide-sdk
 ---
 # Delayed document loading
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When a user reopens a Visual Studio solution, most of the associated documents are not loaded immediately. The document window frame is created in a pending-initialization state, and a placeholder document (called a stub frame) is placed in the Running Document table (RDT).
 

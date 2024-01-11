@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # IDebugPortSupplierEx2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Provides support for a port supplier to select and interact with a core server.
 
 ## Syntax

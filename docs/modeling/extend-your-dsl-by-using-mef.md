@@ -10,7 +10,6 @@ ms.technology: vs-ide-modeling
 ---
 # Extend your DSL by using MEF
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can extend your domain-specific language (DSL) by using Managed Extensibility Framework (MEF). You or other developers will be able to write extensions for the DSL without changing the DSL definition and program code. Such extensions include menu commands, drag-and-drop handlers, and validation. Users will be able to install your DSL, and then optionally install extensions for it.
 

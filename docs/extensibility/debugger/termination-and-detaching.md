@@ -13,7 +13,6 @@ ms.technology: vs-ide-debug
 ---
 # Termination and detaching
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following section describes normal termination.
 
 ## Discussion

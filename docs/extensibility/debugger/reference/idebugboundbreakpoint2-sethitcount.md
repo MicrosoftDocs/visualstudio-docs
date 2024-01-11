@@ -18,7 +18,6 @@ dev_langs:
 ---
 # IDebugBoundBreakpoint2::SetHitCount
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the hit count for the bound breakpoint.
 
 ## Syntax

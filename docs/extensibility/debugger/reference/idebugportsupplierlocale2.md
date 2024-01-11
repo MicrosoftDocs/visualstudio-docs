@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # IDebugPortSupplierLocale2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Provides locale support for a port supplier.
 
 ## Syntax

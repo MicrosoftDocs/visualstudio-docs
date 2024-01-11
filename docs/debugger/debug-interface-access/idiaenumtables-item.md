@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaEnumTables::Item
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a table by means of an index or name.
 
 ## Syntax

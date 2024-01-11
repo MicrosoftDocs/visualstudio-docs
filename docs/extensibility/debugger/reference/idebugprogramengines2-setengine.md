@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProgramEngines2::SetEngine
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Tells the program or program node which debug engine (DE) to use to debug this program.
 
 ## Syntax

@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugReference2::GetSize
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the size, in bytes, of the value of the reference. Reserved for future use.
 
 ## Syntax

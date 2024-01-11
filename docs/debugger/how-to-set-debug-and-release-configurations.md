@@ -33,7 +33,6 @@ ms.technology: vs-ide-debug
 ---
 # Set debug and release configurations in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio projects have separate release and debug configurations for your program. You build the debug version for debugging and the release version for the final release distribution.
 

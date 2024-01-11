@@ -10,7 +10,6 @@ ms.technology: vs-ide-sdk
 ---
 # Application Patterns for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## <a name="BKMK_WindowInteractions"></a> Window interactions
 
 

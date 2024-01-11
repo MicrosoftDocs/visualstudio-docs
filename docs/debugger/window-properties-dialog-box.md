@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # Window Properties dialog box
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use this dialog box to find out more about a specific window. To display this dialog box, move the focus to the [Windows View](windows-view.md) window. Select any window node in the tree, then choose **Properties** from the **View** menu.
 

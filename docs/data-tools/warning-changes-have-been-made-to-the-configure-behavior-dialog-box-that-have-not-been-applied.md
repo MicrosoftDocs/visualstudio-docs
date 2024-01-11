@@ -10,7 +10,6 @@ ms.technology: vs-data-tools
 ---
 # Warning: Changes have been made to the Configure Behavior dialog box that have not been applied
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Warning. Changes have been made to the Configure Behavior dialog box that have not been applied. Do you want to apply your changes?
 

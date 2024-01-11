@@ -10,7 +10,6 @@ ms.technology: vs-xaml-tools
 ---
 # Inspect XAML properties while debugging
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can get a real-time view of your running XAML code with the **Live Visual Tree** and the **Live Property Explorer**. These tools give you a tree view of the UI elements of your running XAML application, and show you the runtime properties of any UI element you select.
 

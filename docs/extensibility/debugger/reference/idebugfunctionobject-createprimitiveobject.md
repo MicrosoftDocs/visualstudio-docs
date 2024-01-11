@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugFunctionObject::CreatePrimitiveObject
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates a primitive data object, such as a simple integer.
 
 ## Syntax

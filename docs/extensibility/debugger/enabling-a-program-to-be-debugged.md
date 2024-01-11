@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # Enable a program to be debugged
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Before your debug engine (DE) can debug a program, you must first launch the DE or attach it to an existing program.
 
 ## In this section

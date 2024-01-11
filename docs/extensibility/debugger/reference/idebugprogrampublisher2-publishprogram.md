@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProgramPublisher2::PublishProgram
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method makes a program available for debug engines (DEs) and the session debug manager.
 
 ## Syntax

@@ -12,7 +12,6 @@ helpviewer_keywords:
 ---
 # Visual Studio productivity guide for C# developers
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Learn how Visual Studio makes [.NET](/dotnet/fundamentals/) developers who use [C#](/dotnet/csharp/) more productive than ever. Take advantage of our performance and productivity improvements like navigation to decompiled assemblies, variable name suggestions as you type, a hierarchy-view in **Test Explorer**, Go To All (**Ctrl**+**T**) to navigate to file/type/member/symbol declarations, an intelligent **Exception Helper**, code style configuration and enforcement, and many refactorings and code fixes.
 

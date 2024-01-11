@@ -14,7 +14,6 @@ ms.technology: vs-ide-sdk
 ---
 # SccGetCommandOptions function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function prompts the user for advanced options for a given command.
 
 ## Syntax

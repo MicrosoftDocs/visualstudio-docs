@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDebugPointerField
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a pointer type.
 
 ## Syntax

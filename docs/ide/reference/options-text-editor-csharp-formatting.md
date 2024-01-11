@@ -21,7 +21,6 @@ ms.technology: vs-ide-general
 ---
 # Options dialog box: Text Editor \> C# \> Code Style \> Formatting
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Formatting** options page and its subpages ([**Indentation**](#indentation-page), **New Lines**, **Spacing**, and **Wrapping**) to set options for formatting code in the code editor.
 

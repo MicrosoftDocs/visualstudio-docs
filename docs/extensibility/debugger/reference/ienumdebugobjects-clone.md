@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IEnumDebugObjects::Clone
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method returns a copy of the current enumeration as a separate object.
 
 ## Syntax

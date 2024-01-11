@@ -15,7 +15,6 @@ ms.technology: sharepoint-development
 ---
 # MsBuild properties supported by SharePoint
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Any MSBuild property defined in the Microsoft.VisualStudio.SharePoint.targets file, project file, or project user file can be used in Visual Studio SharePoint projects. In addition to the common MSBuild properties supplied by the project, SharePoint defines additional properties that are specific to SharePoint projects.
 
  For a list of common MSBuild properties, see [Common MSBuild Project Properties](/previous-versions/dotnet/netframework-4.0/bb629394(v=vs.100)). For a full list of the properties supported by your programming language, look in the *.targets* file, the project file (*.csproj* or *.vbproj*), or the project user file (*csproj.user* or *.vbproj.user*).

@@ -20,7 +20,6 @@ ms.technology: office-development
 ---
 # Cache data for use offline or on a server
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can mark a data item to be cached in the document, so that it is available offline. This also makes it possible for the data in the document to be manipulated by other code when the document is stored on a server.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]

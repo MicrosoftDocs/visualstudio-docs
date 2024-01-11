@@ -15,7 +15,6 @@ ms.technology: vs-ide-general
 ---
 # List Call Stack Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Displays the current call stack.
 
 ## Syntax

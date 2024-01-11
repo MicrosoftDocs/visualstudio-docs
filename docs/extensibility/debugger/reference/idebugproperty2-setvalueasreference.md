@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProperty2::SetValueAsReference
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the value of this property to the value of the given reference.
 
 ## Syntax

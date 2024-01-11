@@ -13,7 +13,6 @@ ms.technology: vs-ide-sdk
 ---
 # Providing Automation for VSPackages
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 There are two main ways to provide automation for your VSPackages: by implementing VSPackage-specific objects and by implementing standard automation objects. Generally, these are used together to extend the automation model of the environment.
 
 ## VSPackage-Specific Objects

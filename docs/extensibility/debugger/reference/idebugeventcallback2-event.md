@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugEventCallback2::Event
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sends notification of debug events.
 
 ## Syntax

@@ -13,7 +13,6 @@ ms.technology: vs-ide-sdk
 ---
 # Start developing extensions in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If you've never written a Visual Studio extension before, you probably have some questions. We've listed some of the most common ones here. If you don't see the information you're looking for, use the feedback buttons (**Is this page helpful?** in the upper right of the screen) to ask for what you want.
 

@@ -13,7 +13,6 @@ ms.technology: vs-ide-sdk
 ---
 # Command design
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When you add a command to a VSPackage, you must specify where it is to appear, when it is available, and how it is to be handled.
 
 ## Define commands

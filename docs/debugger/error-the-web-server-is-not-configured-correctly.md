@@ -19,7 +19,6 @@ ms.technology: vs-ide-debug
 ---
 # Error: The web server is not configured correctly
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 After taking steps detailed here to resolve the issue, and before trying again to debug, you may also need to reset IIS. You can do that by opening an Administrator command prompt and typing `iisreset`.
 

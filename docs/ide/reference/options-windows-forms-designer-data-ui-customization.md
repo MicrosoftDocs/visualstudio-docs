@@ -15,7 +15,6 @@ ms.technology: vs-ide-general
 ---
 # Options dialog box: Windows Forms Designer > Data UI Customization
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This dialog box defines which controls appear in the list of available controls for items in the Data Sources window. To open it, select **Tools** > **Options**, and then select **Windows Forms Designer** > **Data UI Customization**.
 

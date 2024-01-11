@@ -21,7 +21,6 @@ ms.technology: vs-ide-debug
 ---
 # Debugging Preparation: Windows Forms Applications
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Windows Forms App project template creates a Windows Forms application. Debugging this type of application in Visual Studio is straightforward. For information on creating a project of this type, see [Create a Windows Form App](../ide/create-csharp-winform-visual-studio.md).
 

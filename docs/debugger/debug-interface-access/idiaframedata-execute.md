@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaFrameData::execute
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Performs stack unwinding and returns results in a stack walk frame interface.
 
 ## Syntax

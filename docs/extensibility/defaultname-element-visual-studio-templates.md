@@ -14,7 +14,6 @@ manager: jmartens
 ---
 # DefaultName element (Visual Studio templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the name that the Visual Studio project system will generate for the project or item when it is created.
 
  \<VSTemplate>

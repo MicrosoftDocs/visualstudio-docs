@@ -16,7 +16,6 @@ ms.technology: vs-ide-general
 ---
 # Toolbox, HTML tab
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **HTML** tab of the Toolbox provides components that are useful on web pages and web forms. To view this tab, first open a document for editing in the HTML designer. On the **View** menu, click **Toolbox**, and then click the **HTML** tab of the Toolbox.
 

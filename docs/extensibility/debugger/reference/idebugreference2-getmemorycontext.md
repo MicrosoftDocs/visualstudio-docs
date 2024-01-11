@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugReference2::GetMemoryContext
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets a memory context of a reference. Reserved for future use.
 
 ## Syntax

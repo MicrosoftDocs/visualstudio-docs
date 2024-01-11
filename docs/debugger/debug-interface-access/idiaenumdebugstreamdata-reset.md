@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaEnumDebugStreamData::Reset
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Resets to the beginning of an enumerated sequence.
 
 ## Syntax

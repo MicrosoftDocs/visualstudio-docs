@@ -14,7 +14,6 @@ ms.technology: vs-ide-sdk
 ---
 # Extend the object model of the base project
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A project subtype may extend the automation object model of the base project in the following places:
 

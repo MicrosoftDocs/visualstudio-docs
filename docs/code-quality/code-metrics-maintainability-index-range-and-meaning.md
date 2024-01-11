@@ -10,7 +10,6 @@ ms.technology: vs-ide-code-analysis
 ---
 # Code metrics - Maintainability index range and meaning
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Question: The maintainability index has been reset to lie between 0 and 100. How and why was this done?
 

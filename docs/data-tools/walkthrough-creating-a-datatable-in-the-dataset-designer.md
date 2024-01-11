@@ -15,7 +15,6 @@ ms.technology: vs-data-tools
 ---
 # Walkthrough: Create a DataTable for .NET Framework applications using the Dataset Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 

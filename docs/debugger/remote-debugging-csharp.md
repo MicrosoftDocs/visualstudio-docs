@@ -18,7 +18,6 @@ ms.technology: vs-ide-debug
 ---
 # Remote Debugging a C# or Visual Basic project in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To debug a Visual Studio application that has been deployed on a different computer, install and run the remote tools on the computer where you deployed your app, configure your project to connect to the remote computer from Visual Studio, and then run your app.
 
 ![Screenshot of remote debugger components.](../debugger/media/remote-debugger-client-apps.png "Remote_debugger_components")

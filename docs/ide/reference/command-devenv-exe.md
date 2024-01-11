@@ -14,7 +14,6 @@ ms.technology: vs-ide-general
 ---
 # /Command (devenv.exe)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Executes the specified command after launching the Visual Studio IDE.
 

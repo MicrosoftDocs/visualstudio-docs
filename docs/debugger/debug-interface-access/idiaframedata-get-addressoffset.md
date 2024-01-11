@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaFrameData::get_addressOffset
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the offset part of the code address for the frame.
 
 ## Syntax

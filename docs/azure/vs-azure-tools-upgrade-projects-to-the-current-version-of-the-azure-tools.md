@@ -10,7 +10,6 @@ ms.author: ghogen
 ---
 # How to upgrade projects to the current version of the Azure Tools for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 

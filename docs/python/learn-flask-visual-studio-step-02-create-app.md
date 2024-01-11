@@ -12,7 +12,6 @@ ms.technology: vs-python
 
 # Step 2: Create a Flask app with views and page templates
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Previous step: [Create a Visual Studio project and solution](learn-flask-visual-studio-step-01-project-solution.md)**
 

@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugFunctionObject::CreateObject
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an object using a constructor.
 
 ## Syntax

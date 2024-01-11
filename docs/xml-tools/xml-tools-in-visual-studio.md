@@ -34,7 +34,6 @@ ms.technology: vs-xml-tools
 ---
 # Overview of XML tools in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 *Extensible Markup Language (XML)* is a markup language that provides a format for describing data. XML separates the data and its presentation by using associated style sheets such as Extensible Stylesheet Language (XSL) and cascading style sheets (CSS). Visual Studio includes tools and features that make it easier to work with XML, XSLT, and XML schemas.
 

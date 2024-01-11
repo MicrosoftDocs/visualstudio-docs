@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugThread2::SetNextStatement
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the current instruction pointer to the given code context.
 
 ## Syntax

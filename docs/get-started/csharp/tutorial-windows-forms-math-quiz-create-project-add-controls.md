@@ -11,7 +11,6 @@ ms.technology: vs-ide-general
 ---
 # Tutorial: Create a math quiz WinForms app
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this series of four tutorials, you'll build a math quiz. The quiz contains four random math problems that a quiz taker tries to answer within a specified time.
 

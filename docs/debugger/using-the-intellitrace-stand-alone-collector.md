@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # Using the IntelliTrace stand-alone collector (C#, Visual Basic)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnostic data for your apps on production servers or other environments without installing Visual Studio on the target machine and without changing the target system's environment. The IntelliTrace stand-alone collector works on web, SharePoint, WPF and Windows Forms apps. When you're done collecting data, just delete the collector to uninstall it.
 

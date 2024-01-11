@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # PointerType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Each pointer is identified by a `SymTagPointerType` symbol.
 
 ## Properties

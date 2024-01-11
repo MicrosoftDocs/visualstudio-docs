@@ -20,7 +20,6 @@ ms.technology: sharepoint-development
 ---
 # Add a Creator method
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   A Creator method adds new data to the data source of an entity. The Business Data Connectivity (BDC) service calls this method when users choose the **New Item** button on the **Ribbon** of a list that is based on the model. For more information, see [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md).
 
 ### To add a Creator method

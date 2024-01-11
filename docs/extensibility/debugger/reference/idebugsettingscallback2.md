@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # IDebugSettingsCallback2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enables debug engines to read metric settings remotely.
 
 ## Syntax

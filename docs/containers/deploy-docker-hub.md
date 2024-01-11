@@ -12,7 +12,6 @@ monikerRange: ">=vs-2019"
 ---
 # Deploy to Docker Hub
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Docker Hub provides a convenient hosting service for your image repositories. You can easily deploy to Docker Hub manually from Visual Studio.
 

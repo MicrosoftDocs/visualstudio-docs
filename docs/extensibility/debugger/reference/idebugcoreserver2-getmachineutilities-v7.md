@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugCoreServer2::GetMachineUtilities_V7
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the machine utilities for a server.
 
 > [!NOTE]

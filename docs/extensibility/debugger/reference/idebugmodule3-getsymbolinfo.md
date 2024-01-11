@@ -18,7 +18,6 @@ dev_langs:
 ---
 # IDebugModule3::GetSymbolInfo
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a list of paths that are searched for symbols as well as the results of searching each path.
 
 ## Syntax

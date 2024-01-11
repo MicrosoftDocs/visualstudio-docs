@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # Breakpoints (Visual Studio SDK)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 There are three types of breakpoints: pending, bound, and error.
 
  **A pending breakpoint:**

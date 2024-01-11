@@ -17,7 +17,6 @@ dev_langs:
 ---
 # BP_TYPE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies whether the breakpoint is at a code location, is a data location, or is another type of breakpoint.
 
 ## Syntax

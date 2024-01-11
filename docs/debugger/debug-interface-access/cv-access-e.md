@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # CV_access_e
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the scope of visibility (access level) of member functions and variables.
 
 ## Syntax

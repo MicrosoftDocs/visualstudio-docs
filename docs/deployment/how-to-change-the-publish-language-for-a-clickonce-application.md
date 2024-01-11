@@ -18,7 +18,6 @@ ms.technology: vs-ide-deployment
 ---
 # Change the publish language for a ClickOnce application
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When publishing a ClickOnce application, the user interface displayed during installation defaults to the language and culture of your development computer. If you are publishing a localized application, you will need to specify a language and culture to match the localized version. This is determined by the `Publish language` property for your project.
 

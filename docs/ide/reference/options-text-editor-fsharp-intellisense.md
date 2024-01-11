@@ -12,7 +12,6 @@ ms.technology: vs-ide-general
 ---
 # Options, Text Editor, F#, IntelliSense
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **IntelliSense** options page to modify some text editor settings for F#. To access this options page, choose **Tools** > **Options**, and then choose **Text Editor** > **F#** > **IntelliSense**.
 

@@ -14,7 +14,6 @@ ms.technology: vs-ide-sdk
 ---
 # SccEnumChangedFiles function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Given a list of local files, this function determines which files are different from the corresponding versions in the source code control database.
 
 ## Syntax

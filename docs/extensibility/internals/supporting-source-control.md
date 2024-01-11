@@ -12,7 +12,6 @@ ms.technology: vs-ide-sdk
 ---
 # Supporting Source Control
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Visual Studio supports file checkouts, check-ins, and other source control operations for your project or editor. As a source control client, Visual Studio is designed to interact with a source control package, such as Visual SourceSafe, which provides archiving, versioning, and control facilities for a dynamically defined set of files.
 
 ## In This Section

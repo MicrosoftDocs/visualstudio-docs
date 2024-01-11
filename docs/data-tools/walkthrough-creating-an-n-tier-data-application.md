@@ -16,7 +16,6 @@ ms.technology: vs-data-tools
 ---
 # Walkthrough: Create an n-tier data application with ADO.NET and the .NET Framework
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 

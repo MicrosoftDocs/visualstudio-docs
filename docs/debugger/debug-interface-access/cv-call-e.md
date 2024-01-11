@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # CV_call_e
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the calling convention for a function.
 
 > [!NOTE]

@@ -15,7 +15,6 @@ ms.technology: sharepoint-development
 ---
 # Walkthrough: Deploy a project task list definition
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This walkthrough shows you how to use Visual Studio 2012 to create, customize, debug, and deploy a SharePoint list to track project tasks.
 

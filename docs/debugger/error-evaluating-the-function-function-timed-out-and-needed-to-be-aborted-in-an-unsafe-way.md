@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # Error: Evaluating the function &#39;function&#39; timed out and needed to be aborted in an unsafe way
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Full message text: Evaluating the function 'function' timed out and needed to be aborted in an unsafe way. This may have corrupted the target process.
 

@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # ArrayType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 An array is identified by a `SymTagArray` symbol.
 
 ## Properties

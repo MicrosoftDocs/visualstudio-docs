@@ -18,7 +18,6 @@ ms.technology: office-development
 ---
 # &lt;postActions&gt; element (Office development)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The `postActions` element of the `vstav3` namespace contains all the `postAction` elements that describe post-deployment actions, which run after Office solutions are installed.
 
 ## Syntax

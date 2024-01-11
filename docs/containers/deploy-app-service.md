@@ -11,7 +11,6 @@ ms.author: ghogen
 ---
 # Deploy an ASP.NET Core container to Azure App Service using Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This tutorial walks you through using Visual Studio to publish your containerized ASP.NET Core web application to an [Azure App Service](/azure/app-service). Azure App Service is an appropriate service for a single-container web app hosted in Azure.
 

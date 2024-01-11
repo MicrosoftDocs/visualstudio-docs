@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugEnumField::GetValueFromString
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method returns the value associated with the name of an enumeration constant.
 
 ## Syntax

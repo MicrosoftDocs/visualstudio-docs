@@ -10,7 +10,6 @@ ms.technology: vs-workflow-designer
 ---
 # Set breakpoints in workflows
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you use Workflow Designer, you can set breakpoints on your graphical workflows as you would do in Visual Basic or C# code. As expected, workflow execution stops at each breakpoint that you set.
 

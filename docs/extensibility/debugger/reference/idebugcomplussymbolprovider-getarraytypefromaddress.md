@@ -16,7 +16,6 @@ dev_langs:
 ---
 # IDebugComPlusSymbolProvider::GetArrayTypeFromAddress
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves type information about the specified array given its debug address.
 
 ## Syntax

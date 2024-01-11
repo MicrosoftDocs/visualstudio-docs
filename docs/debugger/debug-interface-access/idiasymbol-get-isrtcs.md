@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaSymbol::get_isRTCs
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Returns a value that tells whether the function was compiled with stack frame run-time error checking. This is the /RTCs flag.
 

@@ -14,7 +14,6 @@ ms.technology: vs-ide-general
 ---
 # /SafeMode (devenv.exe)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Starts Visual Studio in safe mode, loading only the default environment and services.
 

@@ -16,7 +16,6 @@ ms.technology: vs-data-tools
 ---
 # Add, update, or remove a WCF data service reference
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 For .NET Framework projects, *service reference* enables a project to access one or more WCF Data Services. Use the **Add Service Reference** dialog box to search for WCF Data Services in the current solution, locally, on a local area network, or on the Internet.
 

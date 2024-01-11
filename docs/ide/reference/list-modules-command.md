@@ -16,7 +16,6 @@ ms.technology: vs-ide-general
 ---
 # List Modules Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Lists the modules for the current process.
 
 ## Syntax

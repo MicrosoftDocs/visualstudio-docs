@@ -13,7 +13,6 @@ ms.technology: vs-ide-sdk
 ---
 # Provide a brokered service
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A brokered service consists of the following elements:
 

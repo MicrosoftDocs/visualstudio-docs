@@ -27,7 +27,6 @@ manager: jmartens
 ---
 # File Properties, JavaScript
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use file properties to indicate what actions the project system should perform on the files. For example, you can set file properties to indicate whether a file should be added to the package as a resource file.
 

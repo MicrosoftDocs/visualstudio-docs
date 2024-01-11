@@ -10,7 +10,6 @@ ms.technology: vs-ide-sdk
 ---
 # Language Server Protocol
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ## What is the Language Server Protocol?
 

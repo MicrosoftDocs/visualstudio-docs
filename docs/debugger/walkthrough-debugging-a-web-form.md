@@ -24,7 +24,6 @@ ms.technology: vs-ide-debug
 ---
 # Walkthrough: Debugging a Web Form
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The steps in this walkthrough show you how to debug an ASP.NET Web application, also known as a Web Form. It shows you how to start and stop execution, set breakpoints, and examine variables in the **Watch** window.
 
 > [!NOTE]

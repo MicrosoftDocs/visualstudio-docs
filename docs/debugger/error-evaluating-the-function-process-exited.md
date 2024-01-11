@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # Error: The target process exited with code &#39;code&#39; while evaluating the function &#39;function&#39;
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Full message text: The target process exited with code 'code' while evaluating the function 'function'.
 

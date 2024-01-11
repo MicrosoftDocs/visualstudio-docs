@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugField::GetTypeInfo
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets type-independent information about the symbol or type.
 
 ## Syntax

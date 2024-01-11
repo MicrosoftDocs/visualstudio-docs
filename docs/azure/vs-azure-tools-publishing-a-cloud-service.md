@@ -10,7 +10,6 @@ ms.author: ghogen
 ---
 # Publishing a cloud service using Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 

@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # Call debugger events
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Events in debugging sessions occur in a specific order.
 
 ## Discussion

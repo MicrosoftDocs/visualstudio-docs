@@ -10,7 +10,6 @@ ms.technology: vs-workflow-designer
 ---
 # Messaging activity designers
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Messaging activity designers are used to create and configure messaging activities that send and receive Windows Communication Foundation (WCF) messages from within a Windows Workflow Foundation (WF) application. Five messaging activities were introduced in .NET Framework 4. The Workflow Designer provides two template designers that enable you to manage messaging within a workflow.
 

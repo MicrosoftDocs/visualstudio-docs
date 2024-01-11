@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaSegment::get_virtualAddress
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the virtual address (VA) of the beginning of the section.
 
 ## Syntax

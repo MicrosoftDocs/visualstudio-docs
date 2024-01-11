@@ -15,7 +15,6 @@ manager: jmartens
 ---
 # LocationField element (Visual Studio project templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies whether or not the **Location** text box in the **New Project** dialog box is enabled, disabled, or hidden for the project template.
 
  \<VSTemplate>

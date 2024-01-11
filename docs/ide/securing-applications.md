@@ -13,7 +13,6 @@ ms.technology: vs-ide-general
 ---
 # Secure applications
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You should consider security in all aspects of your application development, from design to deployment. Start by running Visual Studio as securely as possible. See [User permissions](../ide/user-permissions-and-visual-studio.md).
 

@@ -13,7 +13,6 @@ ms.technology: vs-ide-sdk
 ---
 # Specifying VSPackage File Location to the VS Shell
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Visual Studio must be able to locate the assembly DLL to load the VSPackage. You can locate it in various ways, as described in the following table.
 
 | Method | Description |

@@ -10,7 +10,6 @@ ms.author: ghogen
 ---
 # Building Azure projects from the command line
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 

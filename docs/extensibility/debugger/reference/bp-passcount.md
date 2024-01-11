@@ -17,7 +17,6 @@ dev_langs:
 ---
 # BP_PASSCOUNT
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the count and conditions upon which a conditional breakpoint is fired.
 
 ## Syntax

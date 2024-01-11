@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaStackWalkHelper::pdataForVA
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the PDATA data block associated with the virtual address.
 
 ## Syntax

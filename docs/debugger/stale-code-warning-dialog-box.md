@@ -22,7 +22,6 @@ ms.technology: vs-ide-debug
 ---
 # Stale Code Warning Dialog Box
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This dialog box appears when you have made changes to native code that **Edit and Continue** could not immediately apply. As a result, some native code in the current stack frame is now out of date, that is, stale. For more information, see [Edit and continue (C++)](edit-and-continue-visual-cpp.md).
 

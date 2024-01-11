@@ -10,7 +10,6 @@ ms.technology: vs-ide-sdk
 ---
 # UX Essentials for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ## Best practices
 

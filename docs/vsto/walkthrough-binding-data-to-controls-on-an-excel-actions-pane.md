@@ -21,7 +21,6 @@ ms.technology: office-development
 ---
 # Walkthrough: Bind data to controls on an Excel actions pane
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This walkthrough demonstrates data binding to controls on an actions pane in Microsoft Office Excel. The controls demonstrate a master/detail relation between tables in a SQL Server database.
 
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]

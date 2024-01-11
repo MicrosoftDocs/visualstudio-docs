@@ -18,7 +18,6 @@ dev_langs:
 ---
 # IDebugMessageEvent2::SetResponse
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the response, if any, from the message box.
 
 ## Syntax

@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # FunctionArgType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Each parameter of a function is identified by a `SymTagFunctionArgType` symbol.
 
 ## Properties

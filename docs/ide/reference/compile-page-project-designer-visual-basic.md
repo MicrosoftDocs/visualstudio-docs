@@ -20,7 +20,6 @@ manager: jmartens
 ---
 # Compile Page, Project Designer (Visual Basic)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Compile** page of the Project Designer to specify compilation instructions. You can also specify advanced compiler options and pre-build or post-build events on this page.
 

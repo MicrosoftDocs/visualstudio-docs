@@ -17,7 +17,6 @@ ms.technology: sharepoint-development
 ---
 # Walkthrough: Create a web part for SharePoint
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Web Parts enable users to directly modify the content, appearance, and behavior of SharePoint site pages by using a browser. This walkthrough shows you how to create a Web Part by using the **Web Part** item template in Visual Studio 2010.
 

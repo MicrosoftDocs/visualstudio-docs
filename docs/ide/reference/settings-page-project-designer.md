@@ -15,7 +15,6 @@ ms.technology: vs-ide-general
 ---
 # Settings page, Project Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Settings** page of the [Project Designer](project-properties-reference.md) to specify a project's application settings. Application settings enable you to store and retrieve property settings and other information for your application dynamically. They also enable you to maintain custom application and user preferences on a client computer. For more information, see [Manage application settings](../managing-application-settings-dotnet.md).
 

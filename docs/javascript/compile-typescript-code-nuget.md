@@ -12,7 +12,6 @@ dev_langs:
 ---
 # Compile TypeScript code (ASP.NET Core)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the TypeScript NuGet package to add TypeScript support to your ASP.NET Core projects. Starting in Visual Studio 2019, it is recommended that you use the NuGet package instead of the TypeScript SDK. The TypeScript NuGet package provides greater portability across different platforms and environments.
 

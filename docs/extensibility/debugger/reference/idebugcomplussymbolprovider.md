@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # IDebugComPlusSymbolProvider
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Represents a COM+ symbol provider with methods that are specific to managed code.
 
 ## Syntax

@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IEnumDebugPropertyInfo2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface enumerates [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) structures.
 
 ## Syntax

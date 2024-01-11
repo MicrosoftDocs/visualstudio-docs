@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # LocationType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Indicates the kind of location information contained in a symbol.
 
 ## Syntax

@@ -12,7 +12,6 @@ ms.technology: vs-ide-sdk
 ---
 # Manage side-by-side file associations
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If your VSPackage provides file associations, you must decide how to handle side-by-side installations in which a particular version of Visual Studio should be invoked to open a file. Incompatible file formats compound the issue.
 

@@ -14,7 +14,6 @@ ms.technology: vs-ide-sdk
 ---
 # SccAdd function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function adds new files to the source control system.
 
 ## Syntax

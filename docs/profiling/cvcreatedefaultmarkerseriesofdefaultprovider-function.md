@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # CvCreateDefaultMarkerSeriesOfDefaultProvider function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates default marker series of a default provider.
 
 ## Syntax

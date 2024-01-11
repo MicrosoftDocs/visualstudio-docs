@@ -16,7 +16,6 @@ ms.technology: vs-installation
 ---
 # Tools for detecting and managing Visual Studio instances
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 There are several tools that you can use to detect and manage Visual Studio installations on client machines.
 

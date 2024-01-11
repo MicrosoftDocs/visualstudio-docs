@@ -17,7 +17,6 @@ ms.technology: vs-ide-modeling
 ---
 # T4 Text Template Directives
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Directives provide instructions to the text template transformation engine.
 

@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaSymbol::get_hasDebugInfo
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that specifies if the [Compiland](../../debugger/debug-interface-access/compiland.md) contains debugging information.
 
 ## Syntax

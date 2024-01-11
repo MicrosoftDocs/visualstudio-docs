@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProgram2::GetProgramId
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets a GUID for this program.
 
 ## Syntax

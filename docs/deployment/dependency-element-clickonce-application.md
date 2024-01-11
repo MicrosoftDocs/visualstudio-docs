@@ -28,7 +28,6 @@ ms.technology: vs-ide-deployment
 ---
 # &lt;dependency&gt; element (ClickOnce application)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Identifies a platform or assembly dependency that is required for the application.
 
 ## Syntax

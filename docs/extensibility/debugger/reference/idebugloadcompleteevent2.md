@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDebugLoadCompleteEvent2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) when a program is loaded, but before any code is executed.
 
 ## Syntax

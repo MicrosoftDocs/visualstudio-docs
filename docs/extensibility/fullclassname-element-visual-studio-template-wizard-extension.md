@@ -14,7 +14,6 @@ manager: jmartens
 ---
 # FullClassName element (Visual Studio template wizard extension)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The fully qualified name of the class that implements the `IWizard` interface.
 
  \<VSTemplate>

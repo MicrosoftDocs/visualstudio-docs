@@ -21,7 +21,6 @@ manager: jmartens
 ---
 # Configure projects to target platforms
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 :::moniker range=">=vs-2022"
 Visual Studio enables you to set up your application builds to target different platforms (processor architectures), including Arm64 and other platforms. You don't need to be running Visual Studio on a platform in order to build for that target platform. For more information about Arm64 support in Visual Studio, see [Visual Studio on ARM-powered devices](../install/visual-studio-on-arm-devices.md). For 64-bit platform support for .NET development, see [64-bit applications](/dotnet/framework/64-bit-apps).

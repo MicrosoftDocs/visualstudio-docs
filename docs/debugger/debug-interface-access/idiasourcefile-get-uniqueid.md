@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaSourceFile::get_uniqueId
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a simple integer key value that is unique for this image.
 
 ## Syntax

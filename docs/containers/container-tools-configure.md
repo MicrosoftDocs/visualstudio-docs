@@ -9,7 +9,6 @@ ms.technology: vs-container-tools
 ---
 # Configure Visual Studio Container Tools
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Using Visual Studio settings, you can control some aspects of how Visual Studio works with Docker containers, including settings that affect performance and resource usage when working with Docker containers.
 

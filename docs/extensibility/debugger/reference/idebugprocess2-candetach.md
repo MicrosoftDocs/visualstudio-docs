@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProcess2::CanDetach
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if the session debug manager (SDM) can detach the process.
 
 ## Syntax

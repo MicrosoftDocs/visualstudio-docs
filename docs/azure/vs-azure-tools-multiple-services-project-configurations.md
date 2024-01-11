@@ -10,7 +10,6 @@ ms.author: ghogen
 ---
 # Configuring your Azure project in Visual Studio to use multiple service configurations
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 

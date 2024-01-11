@@ -13,7 +13,6 @@ manager: jmartens
 ---
 # Introduction to projects and solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This introductory article explores what it means to create a *solution* and a *project* in Visual Studio. A solution is a container to organize one or more related code projects, like a class library project and a corresponding test project.
 

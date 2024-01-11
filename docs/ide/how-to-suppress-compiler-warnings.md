@@ -10,7 +10,6 @@ manager: jmartens
 ---
 # Suppress compiler warnings
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 With Visual Studio, you can specify which warnings you want to suppress by specifying the warning codes in the Project Designer (project property pages). You can also suppress warnings by setting certain properties directly in the project file, via the command line, or in code when you want to suppress a warning in one location only.
 

@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # IDebugWindowsComputerPort2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Allows querying for information about the target computer.
 
 ## Syntax

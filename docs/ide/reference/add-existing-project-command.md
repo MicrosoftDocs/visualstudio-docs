@@ -15,7 +15,6 @@ ms.technology: vs-ide-general
 ---
 # Add Existing Project Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Adds an existing project to the current solution.
 
 ## Syntax

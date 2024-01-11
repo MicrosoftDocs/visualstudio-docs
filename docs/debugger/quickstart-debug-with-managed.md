@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # Quickstart: Debug with C# or Visual Basic using the Visual Studio debugger
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio debugger provides many powerful features to help you debug your apps. This article provides a quick way to learn some of the basic features.
 

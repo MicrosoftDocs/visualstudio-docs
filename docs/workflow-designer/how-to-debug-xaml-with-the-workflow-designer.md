@@ -10,7 +10,6 @@ ms.technology: vs-workflow-designer
 ---
 # Debug XAML with the Workflow Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Workflows are defined in terms of XAML. The UI representation of workflow is built on top of the XAML tree defining the workflow. The debugging experience is similar to debugging workflows in the Workflow Designer. For instance, while debugging XAML, the locals, watch, and threads windows work the same way as they do in Workflow Designer debugging. In addition, the call stack view during the XAML debugging is a line-based hierarchical view of the execution flow for the workflow.
 

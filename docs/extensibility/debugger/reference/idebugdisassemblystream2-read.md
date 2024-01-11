@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugDisassemblyStream2::Read
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Reads instructions starting from the current position in the disassembly stream.
 
 ## Syntax

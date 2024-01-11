@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDebugProperty3
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface provides support for:
 
 - Retrieving an arbitrarily long string associated with the property.

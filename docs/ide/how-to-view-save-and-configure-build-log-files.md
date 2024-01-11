@@ -10,7 +10,6 @@ manager: jmartens
 ---
 # View, save, and configure build log files
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 After you build a project in the Visual Studio IDE, you can view information about that build in the **Output** window. By using this information, you can troubleshoot a build failure, view the exact command lines used for all the build tools, or get full diagnostic information about the entire build process.
 

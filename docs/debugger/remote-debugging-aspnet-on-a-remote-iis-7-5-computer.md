@@ -10,7 +10,6 @@ ms.technology: vs-ide-debug
 ---
 # Remote Debug ASP.NET on a Remote IIS Computer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To debug an ASP.NET application that has been deployed to IIS, install and run the remote tools on the computer where you deployed your app, and then attach to your running app from Visual Studio.
 

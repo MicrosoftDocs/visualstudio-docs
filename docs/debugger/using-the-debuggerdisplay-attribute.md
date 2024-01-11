@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # Tell the debugger what to show using the DebuggerDisplay Attribute (C#, Visual Basic, F#, C++/CLI)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The <xref:System.Diagnostics.DebuggerDisplayAttribute> controls how an object, property, or field is displayed in the debugger variable windows. This attribute can be applied to types (classes, structs, enums, delegates). If applied to a base type, the attribute also applies to a subclass.
 

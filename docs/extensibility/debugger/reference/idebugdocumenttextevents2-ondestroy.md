@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugDocumentTextEvents2::onDestroy
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Indicates that the entire document has been destroyed.
 
 ## Syntax

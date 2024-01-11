@@ -10,7 +10,6 @@ ms.technology: vs-xml-tools
 ---
 # XML document properties, Properties window
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Properties** window provides basic information about the document that is active in the XML editor. The properties that are available vary depending on the type of XML document that is currently active.
 

@@ -12,7 +12,6 @@ ms.technology: vs-ide-sdk
 ---
 # Using the Settings Store
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 There are two kinds of settings stores:
 
 - Configuration settings, which are read-only Visual Studio and VSPackage settings. Visual Studio merges settings from all known .pkgdef files into this store.

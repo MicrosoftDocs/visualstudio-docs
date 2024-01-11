@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugOutputStringEvent2::GetString
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the displayable message.
 
 ## Syntax

@@ -19,7 +19,6 @@ ms.technology: vs-ide-debug
 ---
 # Edit and Continue (Visual C#)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ::: moniker range=">=vs-2022"
 With Hot Reload, or Edit and Continue for C#, you can make changes to your code in break or run mode while debugging. The changes can be applied without having to stop and restart the debugging session.

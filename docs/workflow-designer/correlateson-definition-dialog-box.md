@@ -12,7 +12,6 @@ ms.technology: vs-workflow-designer
 ---
 # CorrelatesOn Definition Dialog Box
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **CorrelatesOn** dialog box is used in Workflow Designer to edit the <xref:System.ServiceModel.Activities.Receive.CorrelatesOn%2A> property of a <xref:System.ServiceModel.Activities.Receive> activity. For more information, see [Receive Activity Designer](../workflow-designer/receive-activity-designer.md).
 

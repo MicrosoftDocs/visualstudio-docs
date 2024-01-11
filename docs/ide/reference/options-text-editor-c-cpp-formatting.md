@@ -17,7 +17,6 @@ manager: markl
 ---
 # Options, Text Editor, C/C++, Formatting
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use these property pages to change the default behavior of the code editor when you are programming in C or C++.
 

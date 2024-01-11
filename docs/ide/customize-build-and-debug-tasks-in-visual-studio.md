@@ -16,7 +16,6 @@ ms.technology: vs-ide-general
 ---
 # Customize build and debug tasks for "Open Folder" development
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio knows how to run many different languages and codebases, but it doesn't know how to run everything. If you [opened a code folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) in Visual Studio, and Visual Studio knows how to run your code, you can run it right away without any additional configuration.
 

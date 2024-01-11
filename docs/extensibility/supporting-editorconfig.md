@@ -13,7 +13,6 @@ ms.technology: vs-ide-sdk
 ---
 # Supporting EditorConfig for your language service
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [EditorConfig](https://editorconfig.org/) files enable you to describe common text editor options, such as indent size, on a per-project basis. To learn more about Visual Studio's support for EditorConfig files, see [Create portable editor settings using EditorConfig](../ide/create-portable-custom-editor-options.md).
 

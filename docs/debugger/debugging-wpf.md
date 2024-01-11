@@ -18,7 +18,6 @@ ms.technology: vs-ide-debug
 ---
 # Debugging WPF
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio provides additional features to make debugging WPF applications easier.
 

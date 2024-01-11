@@ -23,7 +23,6 @@ ms.technology: office-development
 ---
 # Programmatically store and retrieve date values in Excel ranges
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can store and retrieve values in a <xref:Microsoft.Office.Tools.Excel.NamedRange> control or a native Excel range object.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]

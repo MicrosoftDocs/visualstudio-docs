@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaSegment::get_addressSection
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the section number that maps to this segment.
 
 ## Syntax

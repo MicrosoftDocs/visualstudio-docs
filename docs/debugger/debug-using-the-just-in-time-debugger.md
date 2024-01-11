@@ -13,7 +13,6 @@ ms.technology: vs-ide-debug
 ---
 # Debug using the Just-In-Time Debugger in Visual Studio
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Just-In-Time debugging can launch Visual Studio automatically when an app running outside Visual Studio errors or crashes. With Just-In-Time debugging, you can test apps outside of Visual Studio, and open Visual Studio to begin debugging when a problem occurs.
 

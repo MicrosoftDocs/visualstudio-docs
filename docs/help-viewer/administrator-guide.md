@@ -10,7 +10,6 @@ ms.technology: vs-help-viewer
 ---
 # Deploy and manage local Help installations for network environments 
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use Microsoft Help Viewer to install, view, and manage local documentation installs for Microsoft products and technologies on local computers. These technologies include Visual Studio, .NET, language reference, SQL Server, and Windows development. 
 

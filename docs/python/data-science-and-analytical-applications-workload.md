@@ -10,7 +10,6 @@ ms.technology: vs-python
 ---
 # Install data science support in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Data Science and Analytical Applications workload, which you select and install through the Visual Studio installer, brings together several languages and their respective runtime distributions:
 

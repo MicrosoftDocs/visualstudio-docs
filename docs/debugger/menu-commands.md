@@ -13,7 +13,6 @@ ms.technology: vs-ide-debug
 ---
 # Spy++ menu commands
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Help topics on this page list the commands available from the Spy++ menus.
 

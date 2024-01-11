@@ -10,7 +10,6 @@ ms.author: mikejo
 ---
 # Debugging a published Azure cloud service with Visual Studio and IntelliTrace
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 

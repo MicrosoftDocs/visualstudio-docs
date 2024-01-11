@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDebugAddress2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface provides access to the ID of the process that owns the object whose address is represented by this interface.
 
 ## Syntax

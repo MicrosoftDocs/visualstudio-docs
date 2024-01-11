@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaSession::getEnumTables
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves an enumerator for all tables contained in the symbol store.
 
 ## Syntax

@@ -12,7 +12,6 @@ ms.technology: vs-ide-sdk
 ---
 # .NET compiler platform package version reference
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The following table shows which [.NET compiler platform (Roslyn) package](https://www.nuget.org/packages/Microsoft.Net.Compilers/) versions are supported for different versions of Visual Studio.
 

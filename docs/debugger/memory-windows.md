@@ -25,7 +25,6 @@ ms.technology: vs-ide-debug
 ---
 # Use the Memory windows in the Visual Studio debugger (C#, C++, Visual Basic, F#)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 During debugging, the **Memory** window shows the memory space your app is using.
 

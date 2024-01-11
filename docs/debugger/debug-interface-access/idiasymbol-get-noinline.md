@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaSymbol::get_noInline
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that specifies whether the function has been marked as being not inline (using the [noinline](/cpp/cpp/noinline) attribute).
 
 ## Syntax

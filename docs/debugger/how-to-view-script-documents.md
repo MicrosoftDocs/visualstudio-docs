@@ -17,7 +17,6 @@ ms.technology: vs-ide-debug
 ---
 # View Script Documents (JavaScript)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Server-side script files are visible in Solution Explorer. Client-side script files are visible only when you are in debug mode or break mode. Client-side script files appear in the **Script Documents** node.
 

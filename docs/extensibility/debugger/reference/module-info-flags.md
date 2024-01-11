@@ -17,7 +17,6 @@ dev_langs:
 ---
 # MODULE_INFO_FLAGS
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the state of symbols for a module.
 
 ## Syntax

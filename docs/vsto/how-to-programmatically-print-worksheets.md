@@ -17,7 +17,6 @@ ms.technology: office-development
 ---
 # Programmatically print worksheets
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can print any worksheet in a workbook.
 

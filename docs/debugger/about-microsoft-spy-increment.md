@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # About Microsoft Spy++
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use this dialog box to view copyright, version, ownership, and other information about Spy++.
 

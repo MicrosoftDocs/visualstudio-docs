@@ -16,7 +16,6 @@ ms.technology: office-development
 ---
 # Programmatically print documents
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can print an entire Microsoft Office Word document, or part of a document, to your default printer.
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]

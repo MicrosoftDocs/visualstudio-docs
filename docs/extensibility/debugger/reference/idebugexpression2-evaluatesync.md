@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugExpression2::EvaluateSync
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method evaluates the expression synchronously.
 
 ## Syntax

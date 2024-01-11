@@ -10,7 +10,6 @@ ms.technology: vs-python
 ---
 # Manage required Python packages with requirements.txt
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If you share a project with others, use a build system, or plan to copy the project to any other location where you need to restore an environment, you need to specify the external packages that the project requires. The recommended approach is to use a [requirements.txt file](https://pip.readthedocs.org/en/latest/user_guide.html#requirements-files) (readthedocs.org) that contains a list of commands for pip that installs the required versions of dependent packages. The most common command is `pip freeze > requirements.txt`, which records an environment's current package list into *requirements.txt*.
 

@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugCanStopEvent2::CanStop
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Notifies the debug engine (DE) whether or not to stop at the current code location or just continue execution.
 
 ## Syntax

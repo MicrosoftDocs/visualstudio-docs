@@ -21,7 +21,6 @@ ms.technology: vs-ide-debug
 ---
 # IntelliTrace for Visual Studio Enterprise (C#, Visual Basic, C++)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can spend less time debugging your application when you use IntelliTrace to record and trace your code's execution history. You can find bugs easily because IntelliTrace lets you:
 

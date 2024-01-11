@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugPortEx2::GetPortProcessId
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the process ID of the port itself.
 
 ## Syntax

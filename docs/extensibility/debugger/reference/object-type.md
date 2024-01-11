@@ -17,7 +17,6 @@ dev_langs:
 ---
 # OBJECT_TYPE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the type of an object from the expression evaluator.
 
 ## Syntax

@@ -17,7 +17,6 @@ dev_langs:
 ---
 # PARSEFLAGS
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies how to parse an expression.
 
 ## Syntax

@@ -12,7 +12,6 @@ ms.technology: vs-ide-deployment
 ---
 # Get publish settings from IIS and import into Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use the **Publish** tool to import publish settings and then deploy your app. In this article, we use publish settings for IIS.
 

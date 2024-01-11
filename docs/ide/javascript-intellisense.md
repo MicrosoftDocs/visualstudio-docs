@@ -27,7 +27,6 @@ manager: jmartens
 ---
 # JavaScript IntelliSense
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio provides a powerful JavaScript editing experience right out of the box. Powered by a TypeScript-based language service, Visual Studio delivers rich IntelliSense, support for modern JavaScript features, and productivity features such as Go to Definition, refactoring, and more.
 

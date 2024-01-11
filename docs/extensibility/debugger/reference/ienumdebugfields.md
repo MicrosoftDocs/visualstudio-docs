@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IEnumDebugFields
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a collection of objects implementing the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface.
 
 ## Syntax

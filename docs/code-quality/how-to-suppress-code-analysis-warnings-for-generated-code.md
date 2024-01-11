@@ -10,7 +10,6 @@ ms.technology: vs-ide-code-analysis
 ---
 # Suppress code analysis warnings for generated code
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Generated code includes code that's added to your project by managed code compilers or third-party tools. You might want to see the rule violations that code analysis discovers in generated code. However, since you can't view and maintain the code that contains the violations, you might not want to see them.
 

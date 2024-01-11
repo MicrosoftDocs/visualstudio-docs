@@ -12,7 +12,6 @@ ms.technology: vs-python
 
 # Step 3: Use the Interactive REPL window
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Previous step: [Write and run code](tutorial-working-with-python-in-visual-studio-step-02-writing-code.md)**
 

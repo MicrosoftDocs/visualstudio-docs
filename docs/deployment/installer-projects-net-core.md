@@ -15,7 +15,6 @@ monikerRange: '>= vs-2019'
 ---
 # Visual Studio Installer Projects Extension and .NET
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Packaging applications as an MSI is often accomplished using the Visual Studio Installer Projects Extension.
 

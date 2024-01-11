@@ -13,7 +13,6 @@ ms.technology: vs-ide-debug
 ---
 # Disable the Just-In-Time Debugger
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Just-In-Time Debugger dialog box may open when an error occurs in a running app, and prevent the app from continuing.
 

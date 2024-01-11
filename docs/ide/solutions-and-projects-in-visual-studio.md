@@ -20,7 +20,6 @@ ms.technology: vs-ide-general
 ---
 # What are solutions and projects in Visual Studio?
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article describes the difference between a *project* and a *solution* in Visual Studio. It also briefly covers how to create a new project and how to use the [Solution Explorer](use-solution-explorer.md) tool window to interact with your projects and solutions.
 

@@ -20,7 +20,6 @@ ms.technology: vs-data-tools
 ---
 # Commit in-process edits on data-bound controls before saving data
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 

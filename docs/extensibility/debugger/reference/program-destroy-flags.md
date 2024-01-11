@@ -15,7 +15,6 @@ dev_langs:
 ---
 # PROGRAM_DESTROY_FLAGS
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enumerates the valid values of the program destroy flags.
 
 ## Syntax

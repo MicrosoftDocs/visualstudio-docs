@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProperty2::GetDerivedMostProperty
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the derived-most property of a property.
 
 ## Syntax

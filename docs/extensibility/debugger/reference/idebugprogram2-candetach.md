@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProgram2::CanDetach
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if a debug engine (DE) can detach from the program.
 
 ## Syntax

@@ -16,7 +16,6 @@ dev_langs:
 ---
 # Change a method signature refactoring
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This refactoring applies to:
 

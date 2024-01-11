@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugEngine3::SetEngineGuid
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method sets the debug engine's (DE) `GUID`.
 
 ## Syntax

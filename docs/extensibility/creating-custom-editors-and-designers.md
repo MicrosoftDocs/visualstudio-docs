@@ -13,7 +13,6 @@ ms.technology: vs-ide-sdk
 ---
 # Create custom editors and designers
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio integrated development environment (IDE) can host different types of editor:
 

@@ -24,7 +24,6 @@ ms.technology: office-development
 ---
 # Customize UI features by using extensibility interfaces
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The Office development tools in Visual Studio provide classes and designers that handle many implementation details when you use them to create custom task panes, ribbon customizations, and Outlook form regions in a VSTO Add-in. However, you can also implement the *extensibility interface* for each feature yourself if you have special requirements.
 
  [!INCLUDE[appliesto_allapp](../vsto/includes/appliesto-allapp-md.md)]

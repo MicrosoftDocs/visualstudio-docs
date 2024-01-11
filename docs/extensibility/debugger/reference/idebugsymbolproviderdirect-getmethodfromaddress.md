@@ -16,7 +16,6 @@ dev_langs:
 ---
 # IDebugSymbolProviderDirect::GetMethodFromAddress
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves information about the method at the specified debug address.
 
 ## Syntax

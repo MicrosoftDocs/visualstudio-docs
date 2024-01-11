@@ -24,7 +24,6 @@ ms.technology: vs-ide-debug
 ---
 # Enabling Debug Features in C++ projects (/D_DEBUG)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In Visual C++, debugging features such as assertions are enabled when you compile your program with the symbol **_DEBUG** defined. You can define **_DEBUG** in one of two ways:
 
 - Specify **#define _DEBUG** in your source code, or

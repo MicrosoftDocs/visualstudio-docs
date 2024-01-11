@@ -18,7 +18,6 @@ dev_langs:
 ---
 # IDebugMemoryContext2::Add
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Adds the specified value to the current context and returns a new context.
 
 ## Syntax

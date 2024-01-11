@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDebugDynamicField
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a type of a variable.
 
 ## Syntax

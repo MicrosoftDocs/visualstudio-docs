@@ -16,7 +16,6 @@ ms.technology: office-development
 ---
 # Programmatically save documents
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 There are several ways to save Microsoft Office Word documents. You can save a document without changing the name of the document, or you can save a document with a new name.
 

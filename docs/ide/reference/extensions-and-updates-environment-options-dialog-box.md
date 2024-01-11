@@ -12,7 +12,6 @@ ms.technology: vs-ide-general
 ---
 # Options dialog box: Environment \> Extensions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use this page to set options for how Visual Studio performs updates and how extensions are updated and discovered.
 

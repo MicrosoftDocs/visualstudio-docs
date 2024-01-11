@@ -16,7 +16,6 @@ ms.technology: office-development
 ---
 # Update Excel and Word projects that You migrate to the .NET Framework 4.5
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   If you have an Excel or Word project that uses any of the following features, you must modify your code if the target framework is changed to the .NET Framework 4 or later:
 
 - [GetVstoObject and HasVstoObject methods](#GetVstoObject)

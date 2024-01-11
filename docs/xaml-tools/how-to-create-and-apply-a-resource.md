@@ -13,7 +13,6 @@ ms.technology: vs-xaml-tools
 ---
 # Create and apply a resource
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Styles and templates for elements in the XAML Designer are stored in reusable entities called resources. Styles enable you to set element properties and reuse those settings for a consistent appearance across multiple elements. A [ControlTemplate](xref:Windows.UI.Xaml.Controls.ControlTemplate) defines the appearance of a control and can also be applied as a resource. For more information, see [XAML styles](/windows/uwp/design/controls-and-patterns/xaml-styles) and [Control templates](/windows/uwp/design/controls-and-patterns/control-templates).
 

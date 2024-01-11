@@ -11,7 +11,6 @@ ms.technology: vs-installation
 ---
 # Command-line parameter examples for Visual Studio installation
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To illustrate how to [use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md), here are several examples that you can customize to match your needs.
 

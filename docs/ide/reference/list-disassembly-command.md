@@ -15,7 +15,6 @@ ms.technology: vs-ide-general
 ---
 # List Disassembly Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Begins the debug process and allows you to specify how errors are handled.
 
 ## Syntax

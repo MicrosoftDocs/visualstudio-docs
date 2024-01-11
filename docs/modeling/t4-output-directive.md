@@ -10,7 +10,6 @@ ms.technology: vs-ide-modeling
 ---
 # T4 Output Directive
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In Visual Studio text templates, the `output` directive is used to define the file name extension and encoding of the transformed file.
 

@@ -12,7 +12,6 @@ ms.technology: vs-ide-modeling
 ---
 # Use models in your development process
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In Visual Studio, you can use a model to help you understand and change a system, application, or component. A model can help you visualize the world in which your system works, clarify users' needs, define the architecture of your system, analyze the code, and ensure that your code meets the requirements.
 

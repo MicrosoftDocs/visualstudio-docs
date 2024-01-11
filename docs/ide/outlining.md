@@ -18,7 +18,6 @@ ms.technology: vs-ide-general
 ---
 # Outlining
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To hide a region of code from view, you can collapse it so that it appears under a plus sign (**+**) in the text editor. Then, to expand a collapsed region, select the plus sign.
 

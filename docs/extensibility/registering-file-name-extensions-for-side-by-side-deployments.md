@@ -12,7 +12,6 @@ ms.technology: vs-ide-sdk
 ---
 # Register file name extensions for side-by-side deployments
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 For VSPackages deployed in a side-by-side environment, you must register file name extensions to associate the files with the correct version of Visual Studio. Unless you use a version-specific file name extension, registration enables users to open your project and project item files in the appropriate version of Visual Studio.
 
 ## In this section

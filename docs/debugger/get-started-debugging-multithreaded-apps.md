@@ -18,7 +18,6 @@ ms.technology: vs-ide-debug
 ---
 # Get started debugging multithreaded applications (C#, Visual Basic, C++)
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio provides several tools and user interface elements to help you debug multithreaded applications. This tutorial shows how to use thread markers, the **Parallel Stacks** window, the **Parallel Watch** window, conditional breakpoints, and filter breakpoints. Completing this tutorial familiarizes you with Visual Studio features for debugging multithreaded applications.
 

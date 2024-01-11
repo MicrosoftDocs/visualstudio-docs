@@ -12,7 +12,6 @@ dev_langs:
 ---
 # Convert switch statement to switch expression
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This refactoring applies to:
 

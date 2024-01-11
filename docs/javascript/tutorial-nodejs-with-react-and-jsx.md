@@ -14,7 +14,6 @@ dev_langs:
 ---
 # Tutorial: Create a Node.js and React app in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 With Visual Studio, you can easily create a Node.js project and use IntelliSense and other built-in features that support Node.js. In this tutorial, you create a Node.js web app project from a Visual Studio template. Then, you create a simple app using React.
 

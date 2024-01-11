@@ -16,7 +16,6 @@ dev_langs:
 ---
 # IDebugExpressionEvaluator2::SetCorPath
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the path to the common language runtime (CLR) loaded in the debugger.
 
 ## Syntax

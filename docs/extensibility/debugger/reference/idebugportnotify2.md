@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDebugPortNotify2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface registers or unregisters a program that can be debugged with the port it is running on.
 
 ## Syntax

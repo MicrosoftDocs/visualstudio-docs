@@ -14,7 +14,6 @@ ms.technology: vs-data-tools
 ---
 # Work with a Conceptual Model (WCF Data Services)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you use a conceptual model to describe the data in a database, you can query data through your objects instead of having to translate back and forth between a database schema and an object model.
 

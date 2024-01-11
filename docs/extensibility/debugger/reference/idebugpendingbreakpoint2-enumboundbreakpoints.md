@@ -18,7 +18,6 @@ dev_langs:
 ---
 # IDebugPendingBreakpoint2::EnumBoundBreakpoints
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enumerates all breakpoints bound from this pending breakpoint.
 
 ## Syntax

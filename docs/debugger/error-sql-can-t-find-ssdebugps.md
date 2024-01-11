@@ -18,7 +18,6 @@ ms.technology: vs-ide-debug
 ---
 # Error: SQL Can&#39;t Find SSDEBUGPS
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 SSDEBUGPS.dll is the SQL Server Debugging Host component.
 

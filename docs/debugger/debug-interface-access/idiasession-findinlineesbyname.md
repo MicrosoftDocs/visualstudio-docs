@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaSession::findInlineesByName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves an enumeration that allows a client to iterate through the line number information of all inlined functions that match a specified name.
 
 ## Syntax

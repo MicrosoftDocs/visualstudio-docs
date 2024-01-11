@@ -14,7 +14,6 @@ monikerRange: vs-2022
 ---
 # Get better answers by setting the context for GitHub Copilot Chat in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) in Visual Studio to get coding information and support, such as syntax, programming concepts, context-specific code help, test cases, debugging, and more, without leaving the IDE. Copilot Chat is integrated into Visual Studio, which means it can understand what you're working on by gathering useful clues from what you have in the IDE. 
 

@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugClassField::EnumInterfacesImplemented
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an enumerator for the interfaces implemented by this class.
 
 ## Syntax

@@ -11,7 +11,6 @@ manager: jmartens
 ---
 # RequiredPlatformVersion element (Visual Studio templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Specifies the minimum version of the operating system that the project template requires to work correctly. This element is used to for project templates that create Windows 8.x Store apps.
 

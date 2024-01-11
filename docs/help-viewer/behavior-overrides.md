@@ -10,7 +10,6 @@ ms.technology: vs-help-viewer
 ---
 # Override Help Viewer defaults
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can change the default behavior of Microsoft Help Viewer and help-related features in the Visual Studio IDE.
 

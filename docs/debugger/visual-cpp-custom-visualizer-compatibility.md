@@ -19,7 +19,6 @@ monikerRange: ">= vs-2019"
 ---
 # Visual C/C++ Custom Visualizer Compatibility
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Starting in Visual Studio 2019, C++ includes an improved debugger that uses an external 64-bit process for hosting its memory-intensive components. As part of this update, certain extensions to the C/C++ expression evaluator must be updated to make them compatible with the new debugger.
 

@@ -16,7 +16,6 @@ ms.technology: office-development
 ---
 # Deploy an Office solution by using ClickOnce
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can deploy your Office solution in fewer steps if you use ClickOnce. If you publish updates, your solution will automatically detect and install them. However, ClickOnce requires that you install your solution separately for each user of a computer. Therefore, you should consider using Windows Installer (*.msi*) if more than one user will run your solution on the same computer.
 
 ## In this topic

@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugPort2::GetPortRequest
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the description of a port that was previously used to create the port (if available).
 
 ## Syntax

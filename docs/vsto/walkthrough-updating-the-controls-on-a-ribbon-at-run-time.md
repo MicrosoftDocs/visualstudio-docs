@@ -20,7 +20,6 @@ ms.technology: office-development
 ---
 # Walkthrough: Update the controls on a ribbon at run time
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This walkthrough demonstrates how to use the Ribbon object model to update the controls on a ribbon after the ribbon is loaded into the Office application.
 

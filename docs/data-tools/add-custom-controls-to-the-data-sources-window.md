@@ -19,7 +19,6 @@ ms.technology: vs-data-tools
 ---
 # Add custom controls to the Data Sources window for .NET Framework applications
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 

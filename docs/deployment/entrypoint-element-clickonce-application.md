@@ -20,7 +20,6 @@ ms.technology: vs-ide-deployment
 ---
 # &lt;entryPoint&gt; element (ClickOnce application)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Identifies the assembly that should be executed when this ClickOnce application is run on a client computer.
 
 ## Syntax

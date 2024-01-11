@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugClassField::EnumConstructors
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an enumerator for the constructors for this class.
 
 ## Syntax

@@ -10,7 +10,6 @@ ms.technology: vs-help-viewer
 ---
 # Search for topics in Help Viewer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use the full-text search feature of Microsoft Help Viewer to locate all topics that contain a particular word. You can also refine and customize your search by using wildcard expressions, logical operators, and advanced search operators.
 

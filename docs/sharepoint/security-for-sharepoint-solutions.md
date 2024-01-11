@@ -18,7 +18,6 @@ ms.technology: sharepoint-development
 ---
 # Security for SharePoint solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Visual Studio incorporates the following features to help enhance the security of SharePoint applications.
 
 ## Safe control entries

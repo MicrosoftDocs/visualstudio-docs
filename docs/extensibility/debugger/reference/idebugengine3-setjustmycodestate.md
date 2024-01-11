@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugEngine3::SetJustMyCodeState
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method tells the debug engine about the JustMyCode state information.
 
 ## Syntax

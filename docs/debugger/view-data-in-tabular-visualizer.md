@@ -19,7 +19,6 @@ monikerRange: '>= vs-2022'
 
 # Tabular visualizers in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 While you are debugging in Visual Studio, you can view large collection objects with the built-in tabular visualizers. The visualizer shows data in a tabular view with one row per object and sortable columns for each field and property. 
 

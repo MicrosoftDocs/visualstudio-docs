@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugObject::IsEqual
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Compares an object with this object.
 
 ## Syntax

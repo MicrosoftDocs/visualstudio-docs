@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugArrayField::GetElementType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the type of element in the array.
 
 ## Syntax

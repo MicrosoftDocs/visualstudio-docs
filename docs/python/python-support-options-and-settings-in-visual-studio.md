@@ -18,7 +18,6 @@ ms.technology: vs-python
 ---
 # Options for Python in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To view Python options, use the **Tools** > **Options** menu command, make sure **Show all settings** is selected, and then navigate to **Python**:
 

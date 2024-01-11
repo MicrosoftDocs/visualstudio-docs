@@ -16,7 +16,6 @@ ms.technology: vs-data-tools
 ---
 # Create a .NET Framework Windows Form to search data with ADO.NET
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 

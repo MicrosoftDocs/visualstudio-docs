@@ -10,7 +10,6 @@ ms.author: ghogen
 ---
 # Managing roles in Azure cloud services with Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 

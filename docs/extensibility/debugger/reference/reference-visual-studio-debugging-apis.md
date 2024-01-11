@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # Reference (Visual Studio Debugging APIs)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio Debugging SDK references outline the basic model for the run-time architecture and functionality of the debugger and its components. The documentation makes as few assumptions as possible about the components and interfaces it describes, apart from the behavior it defines through the interfaces.
 

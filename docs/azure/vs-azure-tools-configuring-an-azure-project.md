@@ -10,7 +10,6 @@ ms.author: ghogen
 ---
 # Configure an Azure cloud service project with Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 

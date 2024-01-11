@@ -10,7 +10,6 @@ ms.author: ghogen
 ---
 # Retain a constant virtual IP address for an Azure cloud service
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 

@@ -13,7 +13,6 @@ monikerRange: '>= vs-2022'
 
 # Tutorial: Deploy an ASP.NET Core app and Database to Azure Container Apps using GitHub Actions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this tutorial, you'll learn how to deploy an ASP.NET Core app and SQL Database to Azure Container Apps using Visual Studio and GitHub Actions. You'll also learn how to manage Entity Framework migrations and database updates in GitHub Actions, though the concepts can also be applied to other CI/CD tools and environments.
 

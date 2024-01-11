@@ -13,7 +13,6 @@ ms.technology: vs-ide-sdk
 ---
 # Automation for Configuration and SelectedItem objects
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can automate the build and selected item processes in Visual Studio.
 

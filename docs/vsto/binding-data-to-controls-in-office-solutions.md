@@ -21,7 +21,6 @@ ms.technology: office-development
 ---
 # Bind data to controls in Office solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can bind Windows Forms controls and *host controls* on a Microsoft Office Word document or Microsoft Office Excel worksheet to a data source so the controls automatically display the data. You can bind data to controls in both application-level and document-level projects.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]

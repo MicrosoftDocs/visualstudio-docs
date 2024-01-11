@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IEnumDebugModules2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface enumerates a list of modules.
 
 ## Syntax

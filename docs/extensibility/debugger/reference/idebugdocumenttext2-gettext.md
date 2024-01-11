@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugDocumentText2::GetText
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the text from the specified position in the document.
 
 ## Syntax

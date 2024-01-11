@@ -18,7 +18,6 @@ ms.technology: office-development
 ---
 # Design and create Office solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio provides project templates that you can use to create several different types of Office solutions. This section of the documentation describes the project templates and provides guidance about creating Office projects. For information about how to implement code and user interface customizations after you have created your project, see [Develop Office solutions](../vsto/developing-office-solutions.md).
 

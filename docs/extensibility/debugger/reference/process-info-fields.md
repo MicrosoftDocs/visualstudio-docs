@@ -17,7 +17,6 @@ dev_langs:
 ---
 # PROCESS_INFO_FIELDS
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specified what kind of information to retrieve for a process.
 
 ## Syntax

@@ -15,7 +15,6 @@ manager: jmartens
 ---
 # CreateInPlace element (Visual Studio templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies whether to create the project and perform parameter replacement in the specified location, or perform parameter replacement in a temporary location and then save the project to the specified location.
 
  \<VSTemplate>

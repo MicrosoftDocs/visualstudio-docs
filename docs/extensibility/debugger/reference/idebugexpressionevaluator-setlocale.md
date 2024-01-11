@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugExpressionEvaluator::SetLocale
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method sets the language to use to create printable results.
 
 ## Syntax

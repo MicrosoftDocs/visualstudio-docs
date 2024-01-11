@@ -19,7 +19,6 @@ ms.technology: vs-ide-general
 ---
 # Encodings and line endings
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The following characters are interpreted as line breaks in Visual Studio:
 

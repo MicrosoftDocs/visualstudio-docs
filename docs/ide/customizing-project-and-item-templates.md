@@ -13,7 +13,6 @@ ms.technology: vs-ide-general
 ---
 # Customize project and item templates
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Even after project and item templates have been created, you can further customize them to meet your needs.
 

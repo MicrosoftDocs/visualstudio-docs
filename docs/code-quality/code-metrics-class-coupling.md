@@ -10,7 +10,6 @@ ms.technology: vs-ide-code-analysis
 ---
 # Code metrics - Class coupling
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Class coupling also goes by the name Coupling Between Objects (CBO) as originally defined by [CK94](#ck94). Basically, class coupling is a measure of how many classes a single class uses. A high number is bad and a low number is usually good with this metric. Class coupling has been shown to be an accurate predictor of software failure and recent studies have shown that an upper-limit value of 9 is the most efficient [S2010](#s2010).
 

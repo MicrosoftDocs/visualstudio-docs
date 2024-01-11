@@ -15,7 +15,6 @@ ms.technology: vs-data-tools
 ---
 # Set the control to be created when dragging from the Data Sources window
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 

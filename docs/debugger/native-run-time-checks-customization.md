@@ -24,7 +24,6 @@ ms.technology: vs-ide-debug
 ---
 # Native Run-Time Checks Customization
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When you compile with **/RTC** (run-time checks) or use the `runtime_checks` pragma, the C run-time library provides native run-time checks. In some cases, you might want to customize run-time checking:
 
 - To route run-time check messages to a file or destination other than the default.

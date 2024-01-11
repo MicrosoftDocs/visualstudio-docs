@@ -19,7 +19,6 @@ ms.technology: sharepoint-development
 ---
 # Walkthrough: Debug a SharePoint application by using IntelliTrace
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 By using IntelliTrace, you can more easily debug SharePoint solutions. Traditional debuggers give you only a snapshot of a solution at the current moment. However, you can use IntelliTrace to review past events that occurred in your solution and the context in which they occurred and navigate to the code.
 

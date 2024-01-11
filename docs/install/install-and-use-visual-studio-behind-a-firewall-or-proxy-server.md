@@ -16,7 +16,6 @@ ms.technology: vs-installation
 ---
 # Install and use Visual Studio and Azure Services behind a firewall or proxy server
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If you or your organization uses security measures such as a firewall or a proxy server, then there are domain URLs that you might want to add to an "allowlist" and ports and protocols that you might want to open so that you have the best experience when you install and use Visual Studio and Azure Services.
 

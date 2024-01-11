@@ -12,7 +12,6 @@ ms.technology: vs-ide-sdk
 ---
 # Solutions overview
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A solution is a grouping of one or more projects that work together to create an application. The project and status information pertaining to the solution are stored in two different solution files. The [solution (.sln) file](solution-dot-sln-file.md) is text-based and can be placed under source code control and shared between users. The [solution user option (.suo) file](solution-user-options-dot-suo-file.md) is binary. As a result, the .suo file cannot be placed under source code control and contains user-specific information.
 

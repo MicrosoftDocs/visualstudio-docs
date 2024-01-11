@@ -11,7 +11,6 @@ ms.technology: vs-javascript
 ---
 # First look at the Visual Studio IDE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), we take a tour of some of the windows, menus, and other UI features.
 

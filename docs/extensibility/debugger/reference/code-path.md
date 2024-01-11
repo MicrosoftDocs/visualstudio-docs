@@ -17,7 +17,6 @@ dev_langs:
 ---
 # CODE_PATH
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes a method or function call.
 
 ## Syntax

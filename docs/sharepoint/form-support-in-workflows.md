@@ -16,7 +16,6 @@ ms.technology: sharepoint-development
 ---
 # Form support in workflows
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Four types of forms can be used in a workflow: association, initiation, task, and modification. These form types can be based on either an ASPX form or an InfoPath form. The level of support that Visual Studio provides for a particular form depends on several factors, which are described in the following tables. For more information about workflow form types, see [Workflow Forms Overview](/previous-versions/office/developer/sharepoint-2010/ms457061(v=office.14)).
 
 ## XML refactoring

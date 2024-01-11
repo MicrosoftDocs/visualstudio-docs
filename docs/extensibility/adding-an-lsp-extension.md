@@ -10,7 +10,6 @@ ms.technology: vs-ide-sdk
 ---
 # Add a Language Server Protocol extension
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Language Server Protocol (LSP) is a common protocol, in the form of JSON RPC v2.0, used to provide language service features to various code editors. Using the protocol, developers can write a single language server to provide language service features like IntelliSense, error diagnostics, find all references, and so on, to various code editors that support the LSP. Traditionally, language services in Visual Studio can be added by using TextMate grammar files to provide basic functionalities such as syntax highlighting or by writing custom language services that use the full set of Visual Studio extensibility APIs to provide richer data. With Visual Studio support for LSP, there's a third option.
 

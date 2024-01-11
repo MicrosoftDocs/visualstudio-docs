@@ -14,7 +14,6 @@ ms.technology: vs-data-tools
 ---
 # Create a database and add tables in .NET Framework applications using Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 

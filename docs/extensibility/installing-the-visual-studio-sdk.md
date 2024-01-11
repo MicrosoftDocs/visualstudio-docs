@@ -10,7 +10,6 @@ ms.technology: vs-ide-sdk
 ---
 # Install the Visual Studio SDK
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio SDK (Software Development Kit) is an optional feature in Visual Studio setup. You can also install the VS SDK later on.
 

@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # Analyze memory usage by using the .NET Object Allocation tool
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can see how much memory your app uses and what code paths allocate the most memory by using the .NET Object Allocation tool.
 

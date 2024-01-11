@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IEnumDebugCustomAttributes
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enumerates custom attributes.
 
 ## Syntax

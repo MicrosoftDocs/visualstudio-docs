@@ -22,7 +22,6 @@ ms.technology: vs-ide-general
 ---
 # What is Class Designer?
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 With the **Class Designer** tool in Visual Studio, you can design, visualize, and refactor class diagrams in C#, Visual Basic, or C++ projects. Class diagrams show the code elements and their relationships in a visual design surface, which can help you better understand your project structure and reorganize your code.
 

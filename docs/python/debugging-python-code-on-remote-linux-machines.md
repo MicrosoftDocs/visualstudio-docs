@@ -10,7 +10,6 @@ ms.technology: vs-python
 ---
 # Remotely debug Python code on Linux
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ::: moniker range=">= vs-2019"
 

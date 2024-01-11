@@ -10,7 +10,6 @@ ms.technology: vs-ide-debug
 ---
 # Inspect your app with IntelliTrace historical debugging in Visual Studio (C#, Visual Basic, C++)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use [historical debugging](../debugger/historical-debugging.md) to move backward and forward through the execution of your application and inspect its state.
 

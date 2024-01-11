@@ -10,7 +10,6 @@ ms.technology: vs-workflow-designer
 ---
 # FinalState Activity Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The <xref:System.Activities.Core.Presentation.FinalState> designer is used to create a <xref:System.Activities.Statements.State> that terminates a state machine instance.
 

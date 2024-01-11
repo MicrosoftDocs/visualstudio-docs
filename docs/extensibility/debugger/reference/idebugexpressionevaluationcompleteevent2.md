@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDebugExpressionEvaluationCompleteEvent2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) when asynchronous expression evaluation is complete.
 
 ## Syntax

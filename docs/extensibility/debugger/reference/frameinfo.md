@@ -17,7 +17,6 @@ dev_langs:
 ---
 # FRAMEINFO
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes a stack frame.
 
 ## Syntax

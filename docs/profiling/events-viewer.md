@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # Events viewer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In the Performance Profiler, you can collect diagnostic info while your app is running, and then examine the collected information after the app stops like a post-mortem analysis.
 

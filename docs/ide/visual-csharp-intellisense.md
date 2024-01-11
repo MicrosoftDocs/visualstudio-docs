@@ -13,7 +13,6 @@ ms.technology: vs-ide-general
 ---
 # C# IntelliSense
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 C# IntelliSense is available when coding in the editor, and while debugging in the [Immediate mode](../ide/reference/immediate-window.md) command window.
 

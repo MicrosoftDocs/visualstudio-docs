@@ -12,7 +12,6 @@ ms.technology: vs-ide-sdk
 ---
 # VSPackage Setup Scenarios
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 It is important to design your VSPackage installer for flexibility. For example, you might need to release a security patch in the future, or you might change a business strategy that requires thorough side-by-side versioning support.
 

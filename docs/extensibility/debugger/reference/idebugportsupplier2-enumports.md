@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugPortSupplier2::EnumPorts
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a list of all the ports supplied by a port supplier.
 
 ## Syntax

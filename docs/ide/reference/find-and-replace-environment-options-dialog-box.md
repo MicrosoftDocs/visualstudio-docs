@@ -16,7 +16,6 @@ ms.technology: vs-ide-general
 ---
 # Find and Replace, Environment, Options Dialog Box
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use this page of the **Options** dialog box to control message boxes and other aspects of a find and replace operation. You can access this dialog box from the **Tools** menu by selecting **Options**, expanding **Environment**, and then selecting **Find and Replace**.
 

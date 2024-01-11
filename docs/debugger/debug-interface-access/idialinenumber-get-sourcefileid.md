@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaLineNumber::get_sourceFileId
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a unique source file identifier for the source file that contributed this line.
 
 ## Syntax

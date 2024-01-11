@@ -13,7 +13,6 @@ ms.technology: vs-help-viewer
 ---
 # Logical and advanced operators in search expressions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use logical operators and advanced search operators to refine your search of the Help content in **Help Viewer**.
 

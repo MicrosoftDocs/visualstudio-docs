@@ -12,7 +12,6 @@ ms.technology: vs-ide-general
 ---
 # Tour the Visual Studio IDE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this introduction to the Visual Studio integrated development environment (IDE), you take a tour of some of the windows, menus, and other UI features.
 

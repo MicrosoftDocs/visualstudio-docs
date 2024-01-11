@@ -11,7 +11,6 @@ ms.technology: vs-xaml-tools
 ---
 # Modify the style of objects in Blend for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The easiest way to customize an object is to set properties in the **Properties** pane.
 

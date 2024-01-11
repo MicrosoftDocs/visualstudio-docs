@@ -14,7 +14,6 @@ manager: jmartens
 ---
 # TemplateContent Element (Visual Studio Templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Specifies the contents of the template.
 

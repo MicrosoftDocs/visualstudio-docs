@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IEEVisualizerDataProvider::CanSetObjectForVisualizer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method determines whether the visualizer can have the data object it represents updated.
 
 ## Syntax

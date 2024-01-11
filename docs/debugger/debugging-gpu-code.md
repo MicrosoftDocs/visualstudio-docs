@@ -15,7 +15,6 @@ ms.technology: vs-ide-debug
 ---
 # Debugging GPU Code
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can debug C++ code that is running on the graphics processing unit (GPU). GPU debugging support in Visual Studio includes race detection, launching processes and attaching to them, and integration into the debugging windows.
 
 ## Supported Platforms

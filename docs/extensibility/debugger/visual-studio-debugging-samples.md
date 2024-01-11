@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # Visual Studio debugging samples
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Two samples show how to extend the Visual Studio debugger using Visual Studio SDK.
 
 - The Debugger Expression Evaluator Sample, for managed languages, is included in the Visual Studio SDK. In the Visual Studio SDK window, click the **Samples** tab, click **All** or **C#** in the list of languages, and then click **Debugger**.

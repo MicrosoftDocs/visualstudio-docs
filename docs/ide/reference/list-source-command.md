@@ -16,7 +16,6 @@ ms.technology: vs-ide-general
 ---
 # List Source Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Displays the specified lines of source code.
 
 ## Syntax

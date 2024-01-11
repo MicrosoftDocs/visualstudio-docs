@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaSession::get_loadAddress
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the load address for the executable file that corresponds to the symbols in this symbol store.
 
 ## Syntax

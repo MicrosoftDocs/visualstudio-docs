@@ -15,7 +15,6 @@ ms.technology: vs-ide-sdk
 ---
 # VSCodeWindowManager object
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The language service implements the code window manager and is responsible for managing adornments (for example, the drop-down bar). For more information, see [Customizing Code Windows by Using the Legacy API](/previous-versions/visualstudio/visual-studio-2015/extensibility/customizing-code-windows-by-using-the-legacy-api?preserve-view=true&view=vs-2015).
 

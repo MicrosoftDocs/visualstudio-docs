@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProcess3::DisableENC
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method explicitly disables Edit and Continue on this process (and all programs it contains). A custom port supplier should always return `E_NOTIMPL`.
 
 ## Syntax

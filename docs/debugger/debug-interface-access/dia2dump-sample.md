@@ -15,7 +15,6 @@ ms.technology: vs-ide-debug
 ---
 # Dia2dump Sample
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Dia2dump sample shows how to use the Microsoft Debug Interface Access Software Development Kit (DIA SDK) to query a PDB file for information.
 

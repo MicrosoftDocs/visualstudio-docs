@@ -12,7 +12,6 @@ feedback_system: GitHub
 ---
 # Breaking API changes in Visual Studio 2022
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If you're migrating an extension to Visual Studio 2022, the breaking changes listed here might affect you.
 

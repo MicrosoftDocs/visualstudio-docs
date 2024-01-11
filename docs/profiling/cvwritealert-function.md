@@ -20,7 +20,6 @@ ms.technology: vs-ide-debug
 ---
 # CvWriteAlert function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Writes an alert to the Concurrency Visualizer trace file.
 
 ## Syntax

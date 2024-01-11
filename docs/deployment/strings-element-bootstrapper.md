@@ -20,7 +20,6 @@ ms.technology: vs-ide-deployment
 ---
 # &lt;Strings&gt; element (bootstrapper)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Defines localized strings for product names, package names, and installation error messages.
 
 ## Syntax

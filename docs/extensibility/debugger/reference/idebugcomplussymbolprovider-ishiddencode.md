@@ -15,7 +15,6 @@ dev_langs:
 ---
 # IDebugComPlusSymbolProvider::IsHiddenCode
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if the code at the specified debugger address is hidden.
 
 ## Syntax

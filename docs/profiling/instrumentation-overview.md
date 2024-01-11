@@ -11,7 +11,6 @@ ms.technology: vs-ide-debug
 
 # Instrumentation in Visual Studio (C#, Visual Basic, C++, F#)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article describes the instrumentation tools in Visual Studio, which are used for collecting exact call counts and call times.
 

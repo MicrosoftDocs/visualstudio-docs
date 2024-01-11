@@ -22,7 +22,6 @@ ms.technology: sharepoint-development
 ---
 # Add a Deleter method
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can enable an end user to delete a data record from an external list on a SharePoint site by adding a Deleter method to the model. For more information, see [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md).
 
 ### To create a Deleter method

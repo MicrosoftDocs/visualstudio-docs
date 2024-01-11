@@ -10,7 +10,6 @@ ms.technology: vs-ide-code-analysis
 ---
 # Basic Correctness Rules rule set for managed code
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Basic Correctness Rules rule set focuses on logic errors and common mistakes in the usage of framework APIs. The Basic Correctness Rules include the rules in the [Managed Recommended Rules](managed-recommended-rules-rule-set-for-managed-code.md) rule set.
 

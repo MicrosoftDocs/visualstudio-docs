@@ -27,7 +27,6 @@ ms.technology: sharepoint-development
 ---
 # Provide packaging and deployment information in project items
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   All SharePoint project items in Visual Studio have properties that you can use to provide additional data when the project is deployed to SharePoint. These properties are as follows:
 
 - Feature Properties

@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDebugSymbolProvider
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a symbol provider that provides symbols and types, returning them as fields.
 
 ## Syntax

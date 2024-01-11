@@ -15,7 +15,6 @@ ms.technology: office-development
 ---
 # Microsoft Office is not installed on the computer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Visual Studio can't find the Microsoft Office application that corresponds to the project type. If you're developing a VSTO Add-in project, it means that you can't debug or run the project. If you're trying to create a document-level project, this message means that you can't create the project.
 
 ## To correct the error

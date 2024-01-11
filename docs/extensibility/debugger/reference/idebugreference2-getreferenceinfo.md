@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugReference2::GetReferenceInfo
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) structure that describes a reference. Reserved for future use.
 
 ## Syntax

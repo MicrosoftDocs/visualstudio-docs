@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # Core Interfaces
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following interfaces are the core interfaces for extending debugger by using the Visual Studio SDK.
 
 ## Discussion

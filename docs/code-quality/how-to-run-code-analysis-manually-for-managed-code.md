@@ -13,7 +13,6 @@ ms.technology: vs-ide-code-analysis
 ---
 # Run code analysis manually for .NET
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 By default, .NET Compiler Platform ("Roslyn") analyzers analyze your C# or Visual Basic code as you type by doing live analysis, as well as during build. Hence, you won't normally need to trigger code analysis manually. However, there are some scenarios where you may want to manually trigger code analysis:
 

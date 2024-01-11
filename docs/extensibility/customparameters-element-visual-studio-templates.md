@@ -14,7 +14,6 @@ manager: jmartens
 ---
 # CustomParameters element (Visual Studio templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Groups the custom parameters that are to be passed to the template wizard when the wizard makes parameter replacements.
 
 ## Syntax

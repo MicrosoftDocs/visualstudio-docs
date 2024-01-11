@@ -8,7 +8,6 @@ ms.author: maiak
 ---
 # Use AsyncPackage to load VSPackages in the background
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Loading and initializing a VS package can result in disk I/O. If such I/O happens on the UI thread, it can lead to responsiveness issues. To address this, Visual Studio 2015 introduced the  <xref:Microsoft.VisualStudio.Shell.AsyncPackage> class that enables package loading on a background thread.
 
 ## Create an AsyncPackage

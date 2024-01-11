@@ -13,7 +13,6 @@ ms.technology: vs-ide-code-analysis
 ---
 # Walkthrough: Use static code analysis to find code defects
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this walkthrough, you'll analyze a managed project for code defects by using legacy code analysis.
 

@@ -13,7 +13,6 @@ ms.technology: vs-workflow-designer
 ---
 # Add comments to a workflow in the Workflow Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To facilitate creating larger, more complicated workflows, .NET Framework 4.5 allows the developer to add annotations to the following types of item in the designer:
 

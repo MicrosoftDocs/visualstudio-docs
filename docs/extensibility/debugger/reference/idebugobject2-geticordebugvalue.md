@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugObject2::GetICorDebugValue
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets a managed code object representing the value associated with this object.
 
 ## Syntax

@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugPort2::GetPortId
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the port identifier.
 
 ## Syntax

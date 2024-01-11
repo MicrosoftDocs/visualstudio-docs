@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaSession::findLinesByLinenum
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines the line numbers of the compiland that the specified line number in a source file lies within or near.
 
 ## Syntax

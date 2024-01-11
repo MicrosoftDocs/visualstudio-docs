@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugClassField::EnumNestedEnums
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an enumerator for the nested enumerators of this class.
 
 ## Syntax

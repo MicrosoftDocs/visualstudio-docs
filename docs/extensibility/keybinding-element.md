@@ -13,7 +13,6 @@ ms.technology: vs-ide-sdk
 ---
 # KeyBinding element
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The KeyBinding element specifies keyboard shortcuts for the commands.
 
  Commands can have both single and dual key bindings associated with them. An example of a single key binding is **Ctrl**+**S** for the **Save** command. Dual key bindings require two successive key combinations to trigger a command. An example of a dual key binding is **Ctrl+K**,**Ctrl+K** to set a bookmark.

@@ -18,7 +18,6 @@ ms.technology: vs-ide-deployment
 ---
 # &lt;assemblyIdentity&gt; element (ClickOnce application)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Identifies the application deployed in a ClickOnce deployment.
 
 ## Syntax

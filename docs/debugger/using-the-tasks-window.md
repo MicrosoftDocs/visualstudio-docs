@@ -19,7 +19,6 @@ ms.technology: vs-ide-debug
 ---
 # Using the Tasks Window (C#, Visual Basic, C++)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Tasks** window resembles the **Threads** window, except that it shows information about <xref:System.Threading.Tasks.Task?displayProperty=fullName> or [task_handle](/cpp/parallel/concrt/reference/task-group-class) objects instead of each thread. Like threads, tasks represent asynchronous operations that can run concurrently; however, multiple tasks may run on the same thread.
 

@@ -14,7 +14,6 @@ manager: jmartens
 ---
 # /NoSplash (devenv.exe)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Prevents the splash screen from being shown.
 

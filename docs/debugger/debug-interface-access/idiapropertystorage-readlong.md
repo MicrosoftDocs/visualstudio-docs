@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaPropertyStorage::ReadLONG
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Reads `LONG` values in a property set.
 
 ## Syntax

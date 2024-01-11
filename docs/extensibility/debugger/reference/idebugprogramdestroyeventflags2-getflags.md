@@ -16,7 +16,6 @@ dev_langs:
 ---
 # IDebugProgramDestroyEventFlags2::GetFlags
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the program destroy flags.
 
 ## Syntax

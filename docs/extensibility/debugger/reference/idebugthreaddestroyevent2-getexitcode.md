@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugThreadDestroyEvent2::GetExitCode
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the exit code for a thread.
 
 ## Syntax

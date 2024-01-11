@@ -12,7 +12,6 @@ dev_langs:
 ---
 # Convert between auto property and full property
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This refactoring applies to:
 

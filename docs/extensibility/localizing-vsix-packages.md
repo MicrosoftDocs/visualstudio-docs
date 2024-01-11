@@ -14,7 +14,6 @@ ms.technology: vs-ide-sdk
 ---
 # Localizing VSIX Packages
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can localize a VSIX package by creating an *Extension.vsixlangpack* file for each target language and then putting them in the correct folder. When a localized package is installed, the localized name of the extension is displayed together with a localized description. If you supply a localized license file, or a URL that points to localized information, they are also displayed.
 

@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaAddressMap::get_relativeVirtualAddressEnabled
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Indicates whether the calculation and use of relative virtual addresses (RVA) is enabled.
 
 ## Syntax

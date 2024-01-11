@@ -13,7 +13,6 @@ monikerRange: '>= vs-2022'
 ---
 # Access ClickOnce deployment properties for .NET on Windows
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Starting in .NET 7 and Visual Studio 2022 version 17.4, you can access ClickOnce deployment properties by using an environment variable.
 

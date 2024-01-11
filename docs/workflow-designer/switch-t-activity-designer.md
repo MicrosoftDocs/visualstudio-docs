@@ -13,7 +13,6 @@ ms.technology: vs-workflow-designer
 ---
 # Switch\<T> Activity Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The <xref:System.Activities.Statements.Switch%601> activity evaluates a specified expression and executes the activity from a collection of activities whose associated key matches the value obtained from the evaluation.
 

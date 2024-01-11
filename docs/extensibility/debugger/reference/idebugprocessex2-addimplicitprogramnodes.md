@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProcessEx2::AddImplicitProgramNodes
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method adds a program node for each debug engine (DE) specified.
 
 ## Syntax

@@ -10,7 +10,6 @@ ms.technology: vs-ide-general
 ---
 # Report a problem with the Visual Studio product or installer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 > [!NOTE]
 > For Visual Studio for Mac, see [How to report a problem in Visual Studio for Mac](/visualstudio/mac/report-a-problem).

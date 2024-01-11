@@ -15,7 +15,6 @@ dev_langs:
 ---
 # IDebugPortSupplierLocale2::SetLocale
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the locale for the port supplier.
 
 ## Syntax

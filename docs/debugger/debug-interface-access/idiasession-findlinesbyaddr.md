@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaSession::findLinesByAddr
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the lines in a specified compiland that contain a specified address.
 
 ## Syntax

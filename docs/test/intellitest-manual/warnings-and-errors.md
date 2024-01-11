@@ -12,7 +12,6 @@ author: mikejo5000
 ---
 # Warnings and errors
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ## Warnings and errors by category
 

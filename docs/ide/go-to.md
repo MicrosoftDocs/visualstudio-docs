@@ -15,7 +15,6 @@ ms.technology: vs-ide-general
 ---
 # Find code using Go To commands
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio's **Go To** commands perform a focused search of your code to help you quickly find specified items. You can go to a specific line, type, symbol, file, and member from a simple, unified interface.
 

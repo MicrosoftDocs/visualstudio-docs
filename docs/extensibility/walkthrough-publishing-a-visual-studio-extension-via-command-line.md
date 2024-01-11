@@ -13,7 +13,6 @@ ms.technology: vs-ide-sdk
 ---
 # Walkthrough: Publishing a Visual Studio extension via command line
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This walkthrough shows you how to publish a Visual Studio extension to the Visual Studio Marketplace using the command line. When you add your extension to the Marketplace, developers can use the [**Extensions and Updates**](../ide/finding-and-using-visual-studio-extensions.md) dialog to browse there for new and updated extensions.
 

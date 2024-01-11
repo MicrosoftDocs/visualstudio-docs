@@ -17,7 +17,6 @@ dev_langs:
 ---
 # STEPUNIT
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the step unit for stepping.
 
 ## Syntax

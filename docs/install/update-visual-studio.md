@@ -18,7 +18,6 @@ manager: jmartens
 ---
 # Update Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This topic discusses how to update a client installation of Visual Studio on Windows. For Visual Studio for Mac, see [Update Visual Studio for Mac](/visualstudio/mac/update).
 

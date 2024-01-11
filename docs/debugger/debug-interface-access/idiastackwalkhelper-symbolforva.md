@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaStackWalkHelper::symbolForVA
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the symbol that contains the specified virtual address.
 
 ## Syntax

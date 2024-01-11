@@ -22,7 +22,6 @@ ms.technology: vs-ide-deployment
 ---
 # Walkthrough: Manually deploy a ClickOnce application
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 If you cannot use Visual Studio to deploy your ClickOnce application, or you need to use advanced deployment features, such as Trusted Application Deployment, you should use the *Mage.exe* command-line tool to create your ClickOnce manifests. This walkthrough describes how to create a ClickOnce deployment by using either the command-line version (*Mage.exe*) or the graphical version (*MageUI.exe*) of the Manifest Generation and Editing Tool.
 
  [!INCLUDE[ndptecclick](../deployment/includes/dotnet-dotnetmage-exe.md)]

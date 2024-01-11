@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProcess3::Step
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Causes the process to step one instruction or statement.
 
 > [!NOTE]

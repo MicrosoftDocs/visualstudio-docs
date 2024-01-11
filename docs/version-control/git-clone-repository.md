@@ -12,7 +12,6 @@ ms.technology: vs-ide-general
 ---
 # Clone a Git repository in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio makes it easy to clone a repository right from the IDE. You can work remotely with the Git provider of your choice, such as GitHub or Azure DevOps. If you need to create a new repository instead of cloning an existing one, see [Create a repository from Visual Studio](git-create-repository.md).
 

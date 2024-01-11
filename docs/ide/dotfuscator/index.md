@@ -28,7 +28,6 @@ ms.technology: vs-ide-general
 
 # About Dotfuscator Community & Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ***PreEmptive Protection - Dotfuscator*** provides comprehensive .NET application protection that easily fits into your secure software development lifecycle.
 Use it to harden, protect, and prune desktop, mobile, server, and embedded applications to help secure trade secrets and other intellectual property (IP), reduce piracy and counterfeiting, and protect against tampering and unauthorized debugging.

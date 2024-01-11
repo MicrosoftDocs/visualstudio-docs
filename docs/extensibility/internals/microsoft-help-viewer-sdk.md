@@ -10,7 +10,6 @@ ms.technology: vs-ide-sdk
 ---
 # Microsoft Help Viewer SDK
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article contains the following tasks for Visual Studio Help Viewer integrators:
 

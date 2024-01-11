@@ -12,7 +12,6 @@ ms.technology: vs-ide-sdk
 ---
 # Supply undo support to designers
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Designers, like editors, typically need to support undo operations so that users can reverse their recent changes when modifying a code element.
 

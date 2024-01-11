@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugCanStopEvent2::GetReason
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the reason why the debug engine (DE) wants to stop.
 
 ## Syntax

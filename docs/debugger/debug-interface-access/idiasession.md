@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaSession
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Provides a query context for debug symbols.
 
 ## Syntax

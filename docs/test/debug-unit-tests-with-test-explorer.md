@@ -10,7 +10,6 @@ ms.technology: vs-ide-test
 ---
 # Debug and analyze unit tests with Test Explorer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use Test Explorer to start a debugging session for your tests. Stepping through your code with the Visual Studio debugger seamlessly takes you back and forth between the unit tests and the project under test. To start debugging:
 

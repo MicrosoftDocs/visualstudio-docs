@@ -16,7 +16,6 @@ dev_langs:
 ---
 # IDebugComPlusSymbolProvider::UnloadSymbols
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Unloads the debug symbols for the specified module from memory.
 
 ## Syntax

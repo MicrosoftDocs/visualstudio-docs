@@ -27,7 +27,6 @@ ms.technology: vs-ide-general
 ---
 # Fonts and Colors, Environment, Options dialog box
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Fonts and Colors** page of the **Options** dialog box lets you establish a custom font and color scheme for various user interface elements in the integrated development environment (IDE). You can access this dialog box by clicking **Tools** > **Options**, and then selecting **Environment** > **Fonts and Colors**.
 

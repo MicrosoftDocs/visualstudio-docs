@@ -14,7 +14,6 @@ ms.technology: vs-ide-sdk
 ---
 # SccCloseProject function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function closes a project, marking the end of a particular session.
 
 ## Syntax

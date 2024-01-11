@@ -12,7 +12,6 @@ ms.technology: vs-workflow-designer
 ---
 # Compensate Activity Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Compensate** activity designer is used to create and configure a <xref:System.Activities.Statements.Compensate> activity.
 

@@ -17,7 +17,6 @@ ms.technology: vs-ide-debug
 ---
 # Debugging Preparation: C++ Project Types
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This section describes how to debug the basic project types created by the Visual C++ project templates.
 
  Note that those project types that create DLLs as their output have been grouped into [Debugging DLL Projects](../debugger/debugging-dll-projects.md) because of the common features they share.

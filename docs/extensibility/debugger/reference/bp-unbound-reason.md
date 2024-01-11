@@ -17,7 +17,6 @@ dev_langs:
 ---
 # BP_UNBOUND_REASON
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gives the reason a breakpoint was unbound.
 
 ## Syntax

@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaDataSource::openSession
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Opens a session for querying symbols.
 
 ## Syntax

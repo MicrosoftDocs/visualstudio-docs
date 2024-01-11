@@ -14,7 +14,6 @@ ms.technology: vs-installation
 ---
 # Update a Visual Studio client that was installed from a layout
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can and should periodically update all Visual Studio installations so that they receive the latest security and functionality fixes. 
 

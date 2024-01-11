@@ -19,7 +19,6 @@ ms.technology: office-development
 ---
 # Office UI customization
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can customize the user interface (UI) of Microsoft Office applications by using the Office developer tools in Visual Studio. This topic describes the UI features that you can customize in the following sections:
 
 - [Comparison of UI features](#Comparison)

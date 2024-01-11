@@ -17,7 +17,6 @@ dev_langs:
 ---
 # METADATA_ADDRESS_FIELD
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This structure represents the address of a field of a class or structure.
 

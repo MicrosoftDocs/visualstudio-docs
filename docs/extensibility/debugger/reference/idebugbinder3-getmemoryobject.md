@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugBinder3::GetMemoryObject
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method retrieves a memory object that represents the memory that this object is bound to.
 
 ## Syntax

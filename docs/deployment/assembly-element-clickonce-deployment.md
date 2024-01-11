@@ -18,7 +18,6 @@ ms.technology: vs-ide-deployment
 ---
 # &lt;assembly&gt; element (ClickOnce deployment)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The top-level element for the deployment manifest.
 
 ## Syntax

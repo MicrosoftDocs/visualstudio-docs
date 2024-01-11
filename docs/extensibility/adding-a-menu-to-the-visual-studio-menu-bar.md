@@ -13,7 +13,6 @@ ms.technology: vs-ide-sdk
 ---
 # Add a menu to the Visual Studio menu bar
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This walkthrough shows how to add a menu to the menu bar of the Visual Studio integrated development environment (IDE). The IDE menu bar contains menu categories such as **File**, **Edit**, **View**, **Window**, and **Help**.
 

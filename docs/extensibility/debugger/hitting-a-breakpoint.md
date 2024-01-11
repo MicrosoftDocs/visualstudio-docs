@@ -13,7 +13,6 @@ ms.technology: vs-ide-debug
 ---
 # Hit a breakpoint
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following section describes the process when the debug engine (DE) hits a breakpoint while running or stepping:
 
 ## Troubleshoot a hit breakpoint

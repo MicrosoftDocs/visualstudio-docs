@@ -17,7 +17,6 @@ ms.technology: vs-ide-test
 ---
 # Visual Studio Test Explorer FAQ
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ## Dynamic test discovery
 

@@ -16,7 +16,6 @@ ms.technology: office-development
 ---
 # Assemblies in the Visual Studio Tools for Office runtime
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When you create an Office project, Visual Studio automatically adds references to the  Visual Studio Tools for Office runtime  assemblies that are used for the project type and the target .NET Framework of the project. There are different assemblies in the Office extensions for the .NET Framework 3.5, .NET Framework 4, and .NET Framework 4.5. For more information about the Office extensions, see [Visual Studio Tools for Office runtime overview](visual-studio-tools-for-office-runtime-overview.md).
 
 ## Assemblies in the Office extensions for the .NET Framework 4 and the .NET Framework 4.5

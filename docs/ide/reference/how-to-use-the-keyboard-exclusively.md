@@ -17,7 +17,6 @@ ms.technology: vs-ide-general
 ---
 # Use the keyboard exclusively
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Keyboard shortcuts can make it easier to navigate the Visual Studio IDE and to write code. This article explores a few ways you can use keyboard shortcuts more effectively.
 

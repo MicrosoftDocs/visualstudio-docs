@@ -17,7 +17,6 @@ dev_langs:
 ---
 # FIELD_INFO
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This structure describes a local variable, parameter, or other field.
 
 ## Syntax

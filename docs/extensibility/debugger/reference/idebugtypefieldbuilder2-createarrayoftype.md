@@ -16,7 +16,6 @@ dev_langs:
 ---
 # IDebugTypeFieldBuilder2::CreateArrayOfType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an array of the specified type and size.
 
 ## Syntax

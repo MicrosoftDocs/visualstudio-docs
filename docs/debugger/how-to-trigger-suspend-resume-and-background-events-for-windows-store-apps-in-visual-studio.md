@@ -17,7 +17,6 @@ ms.technology: vs-ide-debug
 ---
 # Trigger suspend, resume, and background events while debugging UWP apps in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you are not debugging, Windows **Process Lifetime Management** (PLM) controls the execution state of your app—starting, suspending, resuming, and terminating the app in response to user actions and the state of the device. When you are debugging, Windows disables these activation events. This topic describes how to fire these events in the debugger.
 

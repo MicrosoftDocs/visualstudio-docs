@@ -11,7 +11,6 @@ monikerRange: ">=vs-2019"
 ---
 # Connect to Azure services, gRPC, OpenAPI, and more
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Developers are building apps with an increasing number of services, yet the service technologies are evolving just as fast.  
 

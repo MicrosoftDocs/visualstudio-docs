@@ -17,7 +17,6 @@ dev_langs:
 ---
 # DEBUG_ADDRESS
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This structure represents an address.
 
 ## Syntax

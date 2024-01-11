@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaSegment
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Maps data from the section number to segments of address space.
 
 ## Syntax

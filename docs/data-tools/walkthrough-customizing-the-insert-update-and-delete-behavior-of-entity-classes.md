@@ -13,7 +13,6 @@ ms.technology: vs-data-tools
 ---
 # Walkthrough: Customize the insert, update, and delete behavior of entity classes
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 

@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # IDebugModOpt
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Represents a debug optional modifier.
 
 ## Syntax

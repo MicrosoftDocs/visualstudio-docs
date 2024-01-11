@@ -10,7 +10,6 @@ ms.technology: vs-ide-sdk
 ---
 # Fonts and Formatting for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## <a name="BKMK_TheEnvironmentFont"></a> The environment font
  All fonts within Visual Studio must be exposed to the user for customization. This is primarily done through the **Fonts and Colors** page in the **Tools > Options** dialog. The three main categories of font settings are:
 

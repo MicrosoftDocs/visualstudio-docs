@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDebugStackFrame3
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface extends [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md) to handle intercepted exceptions.
 
 ## Syntax

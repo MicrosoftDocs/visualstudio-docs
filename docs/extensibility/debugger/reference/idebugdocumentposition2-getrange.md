@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugDocumentPosition2::GetRange
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the range for this document position.
 
 ## Syntax

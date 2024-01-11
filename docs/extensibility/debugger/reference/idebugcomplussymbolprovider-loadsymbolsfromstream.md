@@ -16,7 +16,6 @@ dev_langs:
 ---
 # IDebugComPlusSymbolProvider::LoadSymbolsFromStream
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Loads debug symbols given the data stream.
 
 ## Syntax

@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProperty3::GetCustomViewerList
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets a list of custom viewers associated with this property.
 
 ## Syntax

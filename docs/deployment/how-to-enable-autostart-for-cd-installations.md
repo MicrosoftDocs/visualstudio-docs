@@ -18,7 +18,6 @@ ms.technology: vs-ide-deployment
 ---
 # Enable AutoStart for CD installations
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When deploying a ClickOnce application by means of removable media such as CD-ROM or DVD-ROM, you can enable `AutoStart` so that the ClickOnce application is automatically launched when the media is inserted.
 
  `AutoStart` can be enabled on the **Publish** page of the **Project Designer**.

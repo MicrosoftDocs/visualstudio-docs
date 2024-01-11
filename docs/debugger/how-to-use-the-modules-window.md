@@ -26,7 +26,6 @@ ms.technology: vs-ide-debug
 ---
 # View DLLs and executables in the Modules window (C#, C++, Visual Basic, F#)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 During Visual Studio debugging, the **Modules** window lists and shows information about the DLLs and executables (*.exe* files) your app uses.
 

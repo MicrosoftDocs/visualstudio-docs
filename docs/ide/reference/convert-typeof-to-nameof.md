@@ -13,7 +13,6 @@ dev_langs:
 ---
 # Convert `typeof` to `nameof`
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This refactoring applies to:
 

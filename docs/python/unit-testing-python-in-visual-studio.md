@@ -11,7 +11,6 @@ ms.technology: vs-python
 
 # Set up unit testing for Python code
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Unit tests are pieces of code that test other code units in an application, typically isolated functions, classes, and so on. When an application passes all its unit tests, you can at least trust that its low-level functionality is correct.
 

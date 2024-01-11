@@ -13,7 +13,6 @@ ms.technology: vs-ide-general
 ---
 # Set Current Process
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the specified process as the active process in the debugger.
 
 ## Syntax

@@ -14,7 +14,6 @@ ms.technology: vs-ide-general
 ---
 # Add an application configuration file to a C# project
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 By adding an application configuration file (*app.config* file) to a C# project, you can customize how the common language runtime locates and loads assembly files. For more information about application configuration files or about assemblies in .NET, see [How the runtime locates assemblies (.NET Framework)](/dotnet/framework/deployment/how-the-runtime-locates-assemblies) and [Assemblies in .NET](/dotnet/standard/assembly/).
 

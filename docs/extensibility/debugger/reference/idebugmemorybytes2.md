@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDebugMemoryBytes2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents bytes of memory.
 
 ## Syntax

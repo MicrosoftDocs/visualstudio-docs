@@ -30,7 +30,6 @@ ms.technology: vs-ide-deployment
 ---
 # ClickOnce unmanaged API reference
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ClickOnce unmanaged public APIs from dfshim.dll.
 
 ## CleanOnlineAppCache

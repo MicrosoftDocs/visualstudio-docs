@@ -17,7 +17,6 @@ ms.technology: vs-installation
 ---
 # Disable or move the package cache
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The package cache provides a source of installed packages. You need these packages to repair Visual Studio or other related products when there's no internet connection. With some drives or system set ups, however, you might not want to keep all those packages around.
 The installer will download them when needed. If you want to save or recover disk space, you can disable or move the package cache.

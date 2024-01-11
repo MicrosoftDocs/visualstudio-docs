@@ -11,7 +11,6 @@ ms.author: ghogen
 ---
 # Deploy an ASP.NET container to a container registry using Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 
 

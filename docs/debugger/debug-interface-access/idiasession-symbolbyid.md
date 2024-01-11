@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaSession::symbolById
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a symbol by its unique identifier.
 
 ## Syntax

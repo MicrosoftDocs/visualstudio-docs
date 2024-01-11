@@ -12,7 +12,6 @@ ms.technology: vs-ide-sdk
 ---
 # Visual Studio SDK glossary
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This glossary provides definitions for terms that are used in the Visual Studio SDK documentation.
 
 ## Terms

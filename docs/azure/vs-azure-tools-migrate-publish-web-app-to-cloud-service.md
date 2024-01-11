@@ -10,7 +10,6 @@ ms.author: ghogen
 ---
 # Migrate and publish a web application to an Azure Cloud Service from Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 

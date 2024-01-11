@@ -13,7 +13,6 @@ ms.technology: vs-ide-code-analysis
 ---
 # Unported rules
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 
 

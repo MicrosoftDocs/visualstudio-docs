@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # BaseType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Base types are identified by `SymTagBaseType` symbols.
 
 ## Properties

@@ -14,7 +14,6 @@ ms.technology: vs-ide-sdk
 ---
 # SccPopulateList Function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function updates a list of files for a particular source control command and supplies source control status on all given files.
 
 ## Syntax

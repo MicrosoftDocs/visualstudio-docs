@@ -12,7 +12,6 @@ ms.technology: vs-ide-modeling
 ---
 # About Domain-Specific Languages
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Unlike a general-purpose language such as C# or UML, a domain-specific language (DSL) is designed to express statements in a particular problem space, or domain.
 

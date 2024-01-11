@@ -17,7 +17,6 @@ ms.technology: vs-ide-debug
 ---
 # Edit a Register Value (C++)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Registers window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node.
 

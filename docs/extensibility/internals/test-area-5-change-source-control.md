@@ -13,7 +13,6 @@ ms.technology: vs-ide-sdk
 ---
 # Test Area 5: Change Source Control
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This source-control plug-in test area covers changing the source control via the **Change Source Control** command.
 
  **Change Source Control** command provides four basic functions for the user:

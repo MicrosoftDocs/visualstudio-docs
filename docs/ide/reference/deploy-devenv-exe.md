@@ -15,7 +15,6 @@ ms.technology: vs-ide-general
 ---
 # /Deploy (devenv.exe)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Deploys a solution after a build or rebuild. Applies to managed code projects only.
 

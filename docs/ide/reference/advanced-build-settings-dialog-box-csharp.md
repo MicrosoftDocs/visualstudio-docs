@@ -14,7 +14,6 @@ manager: jmartens
 ---
 # Advanced Build Settings dialog box (C#)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Advanced Build Settings** dialog box of the **Project Designer** to specify the project's advanced build configuration properties. This dialog box applies to C# projects only.
 

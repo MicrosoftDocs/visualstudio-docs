@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IEnumDebugPortSuppliers2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface enumerates port suppliers.
 
 ## Syntax

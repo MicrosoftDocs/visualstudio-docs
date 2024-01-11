@@ -17,7 +17,6 @@ dev_langs:
 ---
 # FIELD_MODIFIERS
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies modifiers for a field type.
 
 ## Syntax

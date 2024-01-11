@@ -11,7 +11,6 @@ ms.technology: vs-installation
 ---
 # Update Visual Studio using a minimal offline layout
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 For computers that are not connected to the internet, creating a minimal layout is the easiest and fastest way to update your offline Visual Studio instances.
 

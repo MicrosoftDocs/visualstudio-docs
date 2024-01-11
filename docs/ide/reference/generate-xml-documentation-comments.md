@@ -10,7 +10,6 @@ ms.technology: vs-ide-general
 ---
 # Insert XML comments for documentation generation
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio can help you document code elements such as classes and methods, by automatically generating the standard XML documentation comment structure. At compile time, you can generate an XML file that contains the documentation comments. To enable that option, select **Generate a file containing API documentation** on the **Build** > **Output** tab of your project's properties.
 

@@ -13,7 +13,6 @@ ms.technology: vs-help-viewer
 ---
 # Accessibility features of the Help Viewer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Microsoft is committed to making its products and services easy for everyone to use. Several features help make Microsoft Help Viewer accessible for people with a wide range of abilities.
 

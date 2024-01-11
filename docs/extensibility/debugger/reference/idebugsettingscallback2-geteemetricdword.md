@@ -15,7 +15,6 @@ dev_langs:
 ---
 # IDebugSettingsCallback2::GetEEMetricDword
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a value that corresponds to the specified metric of the expression evaluator.
 
 ## Syntax

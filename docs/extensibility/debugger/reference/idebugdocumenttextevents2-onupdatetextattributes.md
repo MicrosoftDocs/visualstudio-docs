@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugDocumentTextEvents2::onUpdateTextAttributes
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Notifies the debug package that text attributes have been updated in the document.
 
 ## Syntax

@@ -18,7 +18,6 @@ dev_langs:
 ---
 # IDebugModule2::GetInfo
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets information about this module.
 
 ## Syntax

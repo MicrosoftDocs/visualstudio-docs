@@ -18,7 +18,6 @@ ms.technology: vs-ide-debug
 ---
 # Debugging F\#
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Debugging F# is similar to debugging any managed language, with a few exceptions:
 
 - The **Autos** window does not display F# variables.

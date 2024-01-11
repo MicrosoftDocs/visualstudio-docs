@@ -10,7 +10,6 @@ ms.technology: vs-ide-designers
 ---
 # Create Shaders with Shader Designer in Visual Studio
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this article, you learn how to use the [Shader Designer](../designers/shader-designer.md) to create different kinds of shaders.
 

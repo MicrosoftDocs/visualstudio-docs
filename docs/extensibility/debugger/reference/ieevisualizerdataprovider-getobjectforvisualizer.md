@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IEEVisualizerDataProvider::GetObjectForVisualizer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the object that this visualizer represents.
 
 ## Syntax

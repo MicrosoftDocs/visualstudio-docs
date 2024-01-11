@@ -13,7 +13,6 @@ manager: jmartens
 ---
 # PreviewImage element (Visual Studio templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the preview image, as a file name, for the preview image that will appear in either the **New Project** or **Add New Item** dialog box.
 
  \<VSTemplate>

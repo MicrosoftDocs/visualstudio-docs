@@ -13,7 +13,6 @@ ms.technology: vs-ide-modeling
 ---
 # Change the namespace of a domain-specific language
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can change the namespace of a domain-specific language. Make the change in the **DSL Explorer**, in the properties of the Dsl Package project, and in the assembly information.
 

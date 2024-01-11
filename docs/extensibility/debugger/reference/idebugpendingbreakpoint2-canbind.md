@@ -18,7 +18,6 @@ dev_langs:
 ---
 # IDebugPendingBreakpoint2::CanBind
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines whether this pending breakpoint can bind to a code location.
 
 ## Syntax

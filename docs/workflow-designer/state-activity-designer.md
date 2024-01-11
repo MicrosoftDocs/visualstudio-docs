@@ -12,7 +12,6 @@ ms.technology: vs-workflow-designer
 ---
 # State Activity Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A <xref:System.Activities.Statements.State> represents a state in which a state machine can be in.
 

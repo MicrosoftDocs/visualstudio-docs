@@ -16,7 +16,6 @@ dev_langs:
 ---
 # IDebugBeforeSymbolSearchEvent2::GetModuleName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the name of the module currently being debugged.
 
 ## Syntax

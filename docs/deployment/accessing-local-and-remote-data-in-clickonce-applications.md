@@ -17,7 +17,6 @@ ms.technology: vs-ide-deployment
 ---
 # Access local and remote data in ClickOnce applications
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Most applications consume or produce data. ClickOnce gives you a variety of options for reading and writing data, both locally and remotely.
 
 ## Local Data

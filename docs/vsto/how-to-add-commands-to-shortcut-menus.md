@@ -16,7 +16,6 @@ ms.technology: office-development
 ---
 # Add commands to shortcut menus
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This topic demonstrates how to add commands to a shortcut menu in an Office application by using a VSTO Add-in.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]

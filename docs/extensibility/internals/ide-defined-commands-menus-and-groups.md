@@ -14,7 +14,6 @@ ms.technology: vs-ide-sdk
 ---
 # IDE-Defined Commands, Menus, and Groups
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Many menus, commands and command groups are already defined for use by the Visual Studio IDE. These commands are also available for your use when you extend Visual Studio.
 
 ## Finding Environment-Defined Commands

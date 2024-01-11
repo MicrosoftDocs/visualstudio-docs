@@ -12,7 +12,6 @@ ms.technology: vs-ide-sdk
 ---
 # Additional source control guidelines for projects and editors
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 There are a number of guidelines that projects and editors should adhere to in order to support source control.
 
 ## Guidelines

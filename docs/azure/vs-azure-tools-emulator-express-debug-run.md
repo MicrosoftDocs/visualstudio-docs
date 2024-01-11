@@ -10,7 +10,6 @@ ms.author: mikejo
 ---
 # Using Emulator Express to run and debug an Azure cloud service on a local machine
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 

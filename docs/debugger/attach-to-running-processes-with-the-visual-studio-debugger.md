@@ -28,7 +28,6 @@ ms.technology: vs-ide-debug
 ---
 # Attach to running processes with the Visual Studio debugger
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can attach the Visual Studio debugger to a running process on a local or remote computer. After the process is running, select **Debug** > **Attach to Process** or press **Ctrl**+**Alt**+**p** in Visual Studio, and use the **Attach to Process** dialog to attach the debugger to the process.
 

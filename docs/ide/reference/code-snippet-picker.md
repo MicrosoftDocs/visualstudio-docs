@@ -16,7 +16,6 @@ ms.technology: vs-ide-general
 ---
 # Code Snippet Picker
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio Code Editor provides a **Code Snippet Picker** that allows you, in a few mouse clicks, to insert ready-made blocks of code into the active document.
 

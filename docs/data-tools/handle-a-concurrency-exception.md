@@ -20,7 +20,6 @@ ms.technology: vs-data-tools
 ---
 # Handle a concurrency exception in .NET Framework database applications
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 

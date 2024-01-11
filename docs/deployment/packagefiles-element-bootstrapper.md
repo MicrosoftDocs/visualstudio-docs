@@ -17,7 +17,6 @@ ms.technology: vs-ide-deployment
 ---
 # &lt;PackageFiles&gt; element (bootstrapper)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The `PackageFiles` element contains `PackageFile` elements, which define the installation packages executed as a result of the `Command` element.
 
 ## Syntax

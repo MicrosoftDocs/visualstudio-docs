@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # CvReleaseProvider function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Releases marker provider. Releasing the marker provider will not affect previously created marker series of this provider. Marker series have to be release separately by CvReleaseMarkerSeries call. Failure to release provider causes a memory leak.
 
 ## Syntax

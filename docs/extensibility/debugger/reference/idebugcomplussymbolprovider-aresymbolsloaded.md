@@ -16,7 +16,6 @@ dev_langs:
 ---
 # IDebugComPlusSymbolProvider::AreSymbolsLoaded
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if the debug symbols are loaded for the specified module given the application domain identifier.
 
 ## Syntax

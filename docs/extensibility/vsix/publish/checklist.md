@@ -11,7 +11,6 @@ ms.technology: vs-ide-sdk
 ---
 # Best practices checklist to publish a Visual Studio extension
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Here's a list of things to make sure to remember before publishing your Visual Studio extension.
 

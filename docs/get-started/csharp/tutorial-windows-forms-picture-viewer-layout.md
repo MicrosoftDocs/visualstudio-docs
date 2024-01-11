@@ -10,7 +10,6 @@ ms.date: 02/24/2023
 ---
 # Tutorial: Create a picture viewer Windows Forms app in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this series of three tutorials, you'll create a Windows Forms application that loads a picture and displays it.
 The Visual Studio Integrated Design Environment (IDE) provides the tools you need to create the app.

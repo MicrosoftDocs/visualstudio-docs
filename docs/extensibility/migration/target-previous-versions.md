@@ -12,7 +12,6 @@ feedback_system: GitHub
 ---
 # Target a previous version when creating an extension in Visual Studio 2022
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you create a new VSIX project using Visual Studio 2022, the project is created from a template that targets Visual Studio 2022. If you want to target Visual Studio 2019 or an earlier version, you must modify the created project.
 

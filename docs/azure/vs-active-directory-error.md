@@ -12,7 +12,6 @@ ms.custom: aaddev
 ---
 # Diagnose errors with the Microsoft Entra Connected Service
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If you encounter an error while detecting previous authentication code, the Microsoft Entra connected service detected an incompatible authentication type.
 

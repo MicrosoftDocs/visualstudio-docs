@@ -16,7 +16,6 @@ ms.technology: vs-ide-general
 ---
 # Walkthrough: Test-first development with the Generate From Usage feature
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This topic demonstrates how to use the [Generate From Usage](../ide/visual-csharp-intellisense.md#generate-from-usage) feature, which supports test-first development.
 

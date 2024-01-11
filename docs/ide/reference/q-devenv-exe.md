@@ -14,7 +14,6 @@ ms.technology: vs-ide-general
 ---
 # /? (devenv.exe)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Displays a message box listing all `devenv` switches, with a brief description of each switch.
 

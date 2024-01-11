@@ -16,7 +16,6 @@ ms.technology: vs-installation
 ---
 # Use command-line parameters to install, update, and manage Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you install Visual Studio programmatically or from a command prompt, you can use various command-line parameters to control or customize the installation to perform the following actions:
 

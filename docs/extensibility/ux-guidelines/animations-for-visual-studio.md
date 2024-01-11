@@ -10,7 +10,6 @@ ms.technology: vs-ide-sdk
 ---
 # Animations for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## Animation fundamentals
 
 ### Animation best practices in Visual Studio

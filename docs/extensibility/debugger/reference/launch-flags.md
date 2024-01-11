@@ -17,7 +17,6 @@ dev_langs:
 ---
 # LAUNCH_FLAGS
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the debug launch flags.
 
 ## Syntax

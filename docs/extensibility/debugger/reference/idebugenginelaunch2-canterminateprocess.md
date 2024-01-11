@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugEngineLaunch2::CanTerminateProcess
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if a process can be terminated.
 
 ## Syntax

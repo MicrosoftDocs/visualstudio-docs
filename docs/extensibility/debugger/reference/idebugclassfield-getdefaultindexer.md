@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugClassField::GetDefaultIndexer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the name of the default indexer.
 
 ## Syntax

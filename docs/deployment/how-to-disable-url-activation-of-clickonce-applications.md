@@ -18,7 +18,6 @@ ms.technology: vs-ide-deployment
 ---
 # Disable URL activation of ClickOnce applications
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Typically, a ClickOnce application will launch automatically immediately after it is installed from a Web server. For security reasons, you may decide to disable this behavior, and tell users to launch the application from the **Start** menu instead. The following procedure describes how to disable URL activation.
 

@@ -15,7 +15,6 @@ ms.technology: vs-installation
 ---
 # Create an offline installation package of Visual Studio for local installation
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 We designed Visual Studio to work well in various computer configurations. The information on this page discusses how to create an offline installation package of files for installation on the **local machine**.
 

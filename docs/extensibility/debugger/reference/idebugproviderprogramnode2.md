@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDebugProviderProgramNode2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface marshals program-related interfaces across process boundaries.
 
 ## Syntax

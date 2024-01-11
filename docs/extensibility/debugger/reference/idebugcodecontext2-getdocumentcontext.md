@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugCodeContext2::GetDocumentContext
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the document context that corresponds to this code context. The document context represents a position in the source file that corresponds to the source code that generated this instruction.
 
 ## Syntax

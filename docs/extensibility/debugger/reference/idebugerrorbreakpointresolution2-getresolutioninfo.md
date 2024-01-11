@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugErrorBreakpointResolution2::GetResolutionInfo
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the breakpoint error resolution information.
 
 ## Syntax

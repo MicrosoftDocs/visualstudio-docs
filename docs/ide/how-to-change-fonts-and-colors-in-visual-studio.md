@@ -14,7 +14,6 @@ ms.technology: vs-ide-general
 ---
 # Change fonts, colors, and themes in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ::: moniker range=">=vs-2022"
 

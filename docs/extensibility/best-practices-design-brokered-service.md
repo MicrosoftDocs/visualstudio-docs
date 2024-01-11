@@ -13,7 +13,6 @@ ms.technology: vs-ide-sdk
 ---
 # Best practices for designing a brokered service
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Follow the general [guidance and restrictions documented for RPC interfaces](https://github.com/microsoft/vs-streamjsonrpc/blob/master/doc/dynamicproxy.md) for StreamJsonRpc.
 

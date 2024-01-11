@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDebugEnumField
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents an enumeration type.
 
 ## Syntax

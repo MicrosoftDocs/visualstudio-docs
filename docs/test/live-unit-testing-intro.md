@@ -12,7 +12,6 @@ ms.technology: vs-ide-test
 ---
 # Live Unit Testing overview
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Live Unit Testing executes your unit tests automatically and in real time as you make code changes. This lets you refactor and change code with greater confidence. Live Unit Testing automatically executes all impacted tests as you edit your code to ensure that your changes do not introduce regressions.
 

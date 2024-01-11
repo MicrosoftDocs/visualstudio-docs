@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugStackFrame2::GetCodeContext
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the code context for this stack frame.
 
 ## Syntax

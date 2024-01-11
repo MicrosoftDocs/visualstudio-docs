@@ -12,7 +12,6 @@ ms.technology: vs-workflow-designer
 ---
 # Sequence Activity Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The <xref:System.Activities.Statements.Sequence> activity contains an ordered collection of child activities that it executes in order.
 

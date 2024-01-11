@@ -12,7 +12,6 @@ ms.author: ghogen
 ---
 # Add Microsoft Entra ID authentication by using Connected Services in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can add support for Microsoft Entra ID to an ASP.NET web app by using the Microsoft Identity platform connected service.
 

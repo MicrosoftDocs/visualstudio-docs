@@ -10,7 +10,6 @@ ms.technology: vs-xml-tools
 ---
 # Security considerations when working with XML data
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This topic discusses security issues that you need to know about when working with the XML editor or the XSLT debugger.
 

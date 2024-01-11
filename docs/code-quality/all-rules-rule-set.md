@@ -10,7 +10,6 @@ ms.technology: vs-ide-code-analysis
 ---
 # All Rules rule set
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The All Rules rule set contains all of the rules for both native and managed code. The rule set includes all the rules that are described in the following topics:
 

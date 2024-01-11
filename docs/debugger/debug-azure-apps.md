@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # Debug Azure services in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use Visual Studio to debug Azure services in different scenarios:
 

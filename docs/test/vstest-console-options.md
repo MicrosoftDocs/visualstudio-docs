@@ -13,7 +13,6 @@ ms.technology: vs-ide-test
 ---
 # VSTest.Console.exe command-line options
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 *VSTest.Console.exe* is the command-line tool to run tests. You can specify several options in any order on the command line. These options are listed in [General command-line options](#general-command-line-options).
 

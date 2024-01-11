@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaPropertyStorage::ReadBOOL
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Reads `BOOL` values in a property set.
 
 ## Syntax

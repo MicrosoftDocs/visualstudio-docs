@@ -18,7 +18,6 @@ ms.technology: office-development
 ---
 # Programmatically loop through found items in documents
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The <xref:Microsoft.Office.Interop.Word.Find> class has a <xref:Microsoft.Office.Interop.Word.Find.Found%2A> property, which returns **true** whenever a searched-for item is found. You can loop through all instances found in a <xref:Microsoft.Office.Interop.Word.Range> using the <xref:Microsoft.Office.Interop.Word.Find.Execute%2A> method.
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]

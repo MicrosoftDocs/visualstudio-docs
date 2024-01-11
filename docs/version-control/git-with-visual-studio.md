@@ -12,7 +12,6 @@ ms.technology: vs-ide-general
 ---
 # How Visual Studio makes version control easy with Git
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Have you ever wished you could go back to a previously working version of your code? Do you find yourself manually storing copies of your code in different locations as a backup? Well, version control is the answer.
 

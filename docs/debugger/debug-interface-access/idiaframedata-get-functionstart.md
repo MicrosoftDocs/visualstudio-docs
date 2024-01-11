@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaFrameData::get_functionStart
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that indicates whether the block contains the entry point of a function.
 
 ## Syntax

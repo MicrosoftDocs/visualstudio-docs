@@ -16,7 +16,6 @@ ms.technology: vs-ide-modeling
 ---
 # Create a Domain-Specific Language Solution
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A domain-specific language (DSL) is created by using a specialized Visual Studio solution.
 
 ## Prerequisites

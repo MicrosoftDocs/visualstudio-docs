@@ -17,7 +17,6 @@ ms.technology: vs-ide-deployment
 ---
 # ClickOnce application manifest
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A ClickOnce application manifest is an XML file that describes an application that is deployed using ClickOnce.
 
 ClickOnce application manifests have the following elements and attributes.

@@ -11,7 +11,6 @@ ms.technology: vs-ide-sdk
 ---
 # Anatomy of a Visual Studio extension
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A VSIX package is a .vsix file that contains one or more Visual Studio extensions and the metadata that Visual Studio uses to classify and install the extensions. The VSIX package format follows the Open Packaging Conventions (OPC) standard that means it can be opened by any tool that can open ZIP files.
 

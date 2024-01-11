@@ -14,7 +14,6 @@ ms.technology: vs-data-tools
 ---
 # Compatible database systems for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To develop a data-connected application in Visual Studio, you typically install the database system on your local development machine, and then deploy the application and database to a production environment when they are ready. Visual Studio installs SQL Server Express LocalDB on your machine as part of the **Data storage and processing** workload. This LocalDB instance is useful for developing data-connected applications quickly and easily.
 

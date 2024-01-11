@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugArrayObject::GetCount
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the count of elements in the array.
 
 ## Syntax

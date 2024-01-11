@@ -17,7 +17,6 @@ dev_langs:
 ---
 # DEBUG_REFERENCE_INFO
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes a reference.
 
 ## Syntax

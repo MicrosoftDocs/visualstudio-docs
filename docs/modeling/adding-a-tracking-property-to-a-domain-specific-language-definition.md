@@ -14,7 +14,6 @@ ms.technology: vs-ide-modeling
 ---
 # Add a Tracking Property to a Domain-Specific Language Definition
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This walkthrough shows how to add a tracking property to a domain model.
 

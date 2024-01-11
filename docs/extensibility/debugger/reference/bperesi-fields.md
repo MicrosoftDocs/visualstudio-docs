@@ -17,7 +17,6 @@ dev_langs:
 ---
 # BPERESI_FIELDS
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the information to be retrieved about a failed resolution of a breakpoint.
 
 ## Syntax

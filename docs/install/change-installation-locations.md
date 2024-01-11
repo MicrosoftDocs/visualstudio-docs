@@ -17,7 +17,6 @@ ms.technology: vs-installation
 ---
 # Select the installation locations in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ::: moniker range=">=vs-2022"
 

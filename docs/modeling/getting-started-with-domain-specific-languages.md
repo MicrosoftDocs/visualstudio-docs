@@ -10,7 +10,6 @@ ms.technology: vs-ide-modeling
 ---
 # Get Started with Domain-Specific Languages
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This topic explains the basic concepts in defining and using a domain-specific language (DSL) created with the Modeling SDK for Visual Studio.
 

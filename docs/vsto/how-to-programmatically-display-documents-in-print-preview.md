@@ -17,7 +17,6 @@ ms.technology: office-development
 ---
 # Programmatically display documents in Print Preview
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   If your solution generates a report, you might want to display the report to the user in Print Preview mode.
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]

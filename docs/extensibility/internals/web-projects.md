@@ -12,7 +12,6 @@ ms.technology: vs-ide-sdk
 ---
 # Web Projects
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A Web project system is a project system that creates Web projects. Web projects in turn create Web applications. You can program a Web page using traditional programming languages, such as Visual Basic or Visual C#, to collect and process information from a user, store it in a database, and so on. Web pages with associated code are called smart Web pages.
 
 ## In This Section

@@ -17,7 +17,6 @@ ms.technology: vs-ide-deployment
 ---
 # Retrieve query string information in an online ClickOnce application
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The *query string* is the portion of a URL beginning with a question mark (?) that contains arbitrary information in the form *name=value*. Suppose you have a ClickOnce application named `WindowsApp1` that you host on `servername`, and you want to pass in a value for the variable `username` when the application launches. Your URL might look like the following:
 
  `http://servername/WindowsApp1.application?username=joeuser`

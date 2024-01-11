@@ -12,7 +12,6 @@ ms.technology: vs-ide-debug
 ---
 # Debug .NET Framework source
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To debug .NET Framework source, you must:
 

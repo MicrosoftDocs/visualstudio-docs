@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugManagedObject::SetFromManagedObject
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the value of the instance of the value class object from the instance of the value class provided as a parameter.
 
 ## Syntax

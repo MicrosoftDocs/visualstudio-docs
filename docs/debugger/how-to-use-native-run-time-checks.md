@@ -39,7 +39,6 @@ ms.technology: vs-ide-debug
 ---
 # Use Native Run-Time Checks
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In a Visual Studio C++ project, you can use native [runtime_checks](/cpp/preprocessor/runtime-checks) to catch common run-time errors such as:
 
 - Stack pointer corruption.

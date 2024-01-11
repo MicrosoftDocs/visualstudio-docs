@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugPortSupplier2::CanAddPort
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Verifies that a port supplier can add new ports.
 
 ## Syntax

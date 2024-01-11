@@ -10,7 +10,6 @@ ms.technology: vs-ide-general
 ---
 # Convert a local function to a method
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This refactoring applies to:
 

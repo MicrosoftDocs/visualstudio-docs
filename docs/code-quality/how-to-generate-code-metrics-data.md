@@ -14,7 +14,6 @@ ms.technology: vs-ide-code-analysis
 ---
 # Generate code metrics data
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can generate code metrics data in three ways:
 

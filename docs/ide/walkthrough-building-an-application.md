@@ -10,7 +10,6 @@ manager: jmartens
 ---
 # Tutorial: Build an application
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In this article, you'll become more familiar with several options that you can configure when you build applications with Visual Studio. You'll create a custom build configuration, hide certain warning messages, and increase build output information for a sample application.
 
 ## Install the sample application

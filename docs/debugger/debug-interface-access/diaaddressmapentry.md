@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # DiaAddressMapEntry
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes an entry in an address map.
 
 ## Syntax

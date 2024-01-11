@@ -18,7 +18,6 @@ ms.technology: office-development
 ---
 # Walkthrough: Create your first VSTO Add-in for Excel
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This introductory walkthrough shows you how to create an application-level Add-in for Microsoft Office Excel. The features that you create in this kind of solution are available to the application itself, regardless of which workbooks are open.
 
  [!INCLUDE[appliesto_xlallapp](../vsto/includes/appliesto-xlallapp-md.md)]

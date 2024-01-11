@@ -12,7 +12,6 @@ ms.technology: vs-ide-sdk
 ---
 # Restrictions on string lengths
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Source Control Plug-in API limits the lengths of strings used in various functions.
 
 ## String length values

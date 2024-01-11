@@ -17,7 +17,6 @@ dev_langs:
 ---
 # CONSTRUCTOR_ENUM
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Selects different types of constructors.
 
 ## Syntax

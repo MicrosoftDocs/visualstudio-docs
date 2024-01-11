@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProperty2::GetParent
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the parent property of a property.
 
 ## Syntax

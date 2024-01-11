@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaDataSource::loadDataFromIStream
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Prepares the debug data stored in a program database (.pdb) file accessed through an in-memory data stream.
 
 ## Syntax

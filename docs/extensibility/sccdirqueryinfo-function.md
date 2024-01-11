@@ -14,7 +14,6 @@ ms.technology: vs-ide-sdk
 ---
 # SccDirQueryInfo function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function examines a list of fully qualified directories for their current status.
 
 ## Syntax

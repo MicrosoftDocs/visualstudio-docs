@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugStackFrame2::GetDebugProperty
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets a description of the properties of a stack frame.
 
 ## Syntax

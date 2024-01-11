@@ -13,7 +13,6 @@ ms.technology: vs-ide-sdk
 ---
 # Automation support for Options pages
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 VSPackages can provide custom **Options** dialog boxes to the **Tools** menu (**Tools Options** pages) in Visual Studio and can make them available to the automation model.
 
 ## Tools Options pages

@@ -13,7 +13,6 @@ ms.technology: vs-ide-sdk
 ---
 # Add a Toolbar
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This walkthrough shows how to add a toolbar to the Visual Studio IDE.
 
  A toolbar is a horizontal or vertical strip that contains buttons that are bound to commands. Depending on its implementation, a toolbar in the IDE can be repositioned, docked on any side of the main IDE window, or made to stay in front of other windows.

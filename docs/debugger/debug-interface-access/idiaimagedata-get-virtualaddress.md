@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # IDiaImageData::get_virtualAddress
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the location in virtual memory of the image.
 
 ## Syntax

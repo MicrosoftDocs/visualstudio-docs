@@ -16,7 +16,6 @@ ms.technology: vs-ide-general
 ---
 # View type and member definitions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Developers often need to view the source code definitions for types or class members they use in their code. In Visual Studio, the **Go To Definition** and **Peek Definition** features enable you to easily view the definition of a type or member. If the source code is not available, metadata is displayed instead.
 

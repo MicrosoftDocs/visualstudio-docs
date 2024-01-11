@@ -11,7 +11,6 @@ monikerRange: "<=vs-2019"
 ---
 # Manage the resources associated with your Azure accounts in Visual Studio Cloud Explorer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 

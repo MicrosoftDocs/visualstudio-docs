@@ -10,7 +10,6 @@ ms.technology: vs-xml-tools
 ---
 # Create an XML schema from an XML document
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The XML editor lets you create an XML Schema definition language (XSD) schema from an XML document. The XML file determines how the schema is generated in the following manner:
 

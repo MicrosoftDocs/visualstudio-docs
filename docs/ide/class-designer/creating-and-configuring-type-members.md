@@ -31,7 +31,6 @@ ms.technology: vs-ide-general
 ---
 # Create and configure type members in Class Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can add these members to types on a class diagram and configure those members in the **Class Details** window:
 

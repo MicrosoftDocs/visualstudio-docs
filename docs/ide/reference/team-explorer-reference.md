@@ -10,7 +10,6 @@ monikerRange: "<=vs-2019"
 ---
 # Team Explorer reference
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article provides links to Azure DevOps articles about the various functions in **Team Explorer**.
 

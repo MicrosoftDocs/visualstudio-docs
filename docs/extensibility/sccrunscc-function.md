@@ -14,7 +14,6 @@ ms.technology: vs-ide-sdk
 ---
 # SccRunScc Function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function invokes the source control administration tool.
 
 ## Syntax

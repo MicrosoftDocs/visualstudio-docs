@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProgramNodeAttach2::OnAttach
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Attaches to the associated program or defers the attach process to the [Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md) method.
 
 ## Syntax

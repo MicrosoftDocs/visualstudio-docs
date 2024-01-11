@@ -18,7 +18,6 @@ ms.technology: vs-ide-debug
 ---
 # Remote Debugging a C++ Project in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To debug a Visual Studio application on a different computer, install and run the remote tools on the computer where you will deploy your app, configure your project to connect to the remote computer from Visual Studio, and then deploy and run your app.
 

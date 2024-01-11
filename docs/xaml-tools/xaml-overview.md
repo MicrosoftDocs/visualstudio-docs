@@ -10,7 +10,6 @@ ms.technology: vs-xaml-tools
 ---
 # Overview of XAML
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Extensible Application Markup Language (XAML) is a declarative language that's based on XML. XAML is used extensively in the following types of applications to build user interfaces:
 

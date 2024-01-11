@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProgramEx2::GetProgramNode
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the program node associated with a program.
 
 ## Syntax

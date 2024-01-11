@@ -14,7 +14,6 @@ ms.technology: vs-ide-debug
 ---
 # SymTagEnum
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the type of symbol.
 
 ## Syntax
