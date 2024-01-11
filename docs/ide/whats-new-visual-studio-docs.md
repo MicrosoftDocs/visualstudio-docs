@@ -61,7 +61,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 **Updated articles**
 
 - [Tour the Visual Studio IDE](../ide/quickstart-ide-orientation.md) - Incorporate Copilot in Editor docs
-- [What is the GitHub Copilot extension for Visual Studio?](../ide/visual-studio-github-copilot-extension.md) - Add steps on using the Installer to install copilot
+- [What is the GitHub Copilot extension for Visual Studio?](../ide/visual-studio-github-copilot-extension.md) - Add steps on using the installer to install Copilot
 - [AI-assisted development in Visual Studio](../ide/ai-assisted-development-visual-studio.md) - Updates
 - [Framework targeting overview](../ide/visual-studio-multi-targeting-overview.md) - Add screenshots and fix order
 - [What's New in Visual Studio](../ide/whats-new-visual-studio-docs.md) - Update with November changes
