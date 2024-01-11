@@ -7,7 +7,7 @@ author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.prod: visual-studio-windows
-ms.subservice: vs-installation
+ms.subservice: installation
 ---
 # Advanced example for containers
 

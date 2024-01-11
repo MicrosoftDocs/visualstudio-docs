@@ -10,7 +10,7 @@ author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.prod: visual-studio-windows
-ms.subservice: vs-installation
+ms.subservice: installation
 ---
 # Control updates to network-based Visual Studio deployments
 

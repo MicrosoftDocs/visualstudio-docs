@@ -4,7 +4,7 @@ ms.author: meghaanand
 manager: jmartens
 ms.date: 03/16/2020
 ms.prod: visual-studio-windows
-ms.subservice: vs-installation
+ms.subservice: installation
 ms.topic: include
 ---
 The tables on this page list the IDs that you can use to install Visual Studio from the command line, or that you can specify as a dependency in a VSIX manifest. We'll add additional components when we release updates to Visual Studio.

@@ -4,7 +4,7 @@ description: Learn how to install Visual Studio on a computer that has an earlie
 ms.custom: vs-acquisition
 ms.date: 6/6/2023
 ms.prod: visual-studio-windows
-ms.subservice: vs-installation
+ms.subservice: installation
 ms.topic: conceptual
 helpviewer_keywords:
 - side-by-side installations [Visual Studio]

@@ -8,7 +8,7 @@ ms.author: meghaanand
 manager: jmartens
 ms.date: 08/10/2021
 ms.prod: visual-studio-windows
-ms.subservice: vs-installation
+ms.subservice: installation
 ms.topic: include
 ---
 

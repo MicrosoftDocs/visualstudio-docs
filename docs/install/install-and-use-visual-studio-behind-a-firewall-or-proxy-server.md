@@ -12,7 +12,7 @@ author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.prod: visual-studio-windows
-ms.subservice: vs-installation
+ms.subservice: installation
 ---
 # Install and use Visual Studio and Azure Services behind a firewall or proxy server
 

@@ -7,7 +7,7 @@ author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.prod: visual-studio-windows
-ms.subservice: vs-installation
+ms.subservice: installation
 ---
 # Automatically apply product keys when deploying Visual Studio
 

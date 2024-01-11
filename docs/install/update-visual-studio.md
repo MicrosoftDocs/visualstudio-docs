@@ -6,7 +6,7 @@ ms.date: 8/29/2023
 ms.custom: vs-acquisition
 ms.topic: how-to
 ms.prod: visual-studio-windows
-ms.subservice: vs-installation
+ms.subservice: installation
 helpviewer_keywords:
 - update [Visual Studio]
 - change [Visual Studio]
