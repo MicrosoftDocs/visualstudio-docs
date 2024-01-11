@@ -6,7 +6,7 @@ ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.subservice: vs-python
+ms.subservice: python
 ---
 # Manage required Python packages with requirements.txt
 

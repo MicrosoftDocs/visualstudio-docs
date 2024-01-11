@@ -7,7 +7,7 @@ ms.topic: ui-reference
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.subservice: vs-python
+ms.subservice: python
 ---
 # Python Environments window tabs reference in Python Tools for Visual Studio
 

@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.subservice: vs-python
+ms.subservice: python
 ---
 # Django web project template
 

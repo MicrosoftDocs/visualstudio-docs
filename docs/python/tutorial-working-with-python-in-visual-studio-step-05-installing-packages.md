@@ -7,7 +7,7 @@ ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.subservice: vs-python
+ms.subservice: python
 ---
 # Step 5: Install packages in your Python environment
 

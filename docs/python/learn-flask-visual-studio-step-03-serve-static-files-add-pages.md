@@ -7,7 +7,7 @@ ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.subservice: vs-python
+ms.subservice: python
 ---
 # Step 3: Serve static files, add pages, and use template inheritance with Flask app
 
