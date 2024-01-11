@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.author: mikejo
 author: mikejo5000
 manager: jmartens
-ms.subservice: vs-ide-test
+ms.subservice: test-tools
 ---
 # VSTest.Console.exe command-line options
 

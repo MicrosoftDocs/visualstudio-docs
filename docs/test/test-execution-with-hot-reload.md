@@ -6,7 +6,7 @@ ms.topic: how-to
 author: vritant24
 ms.author: vrbhardw
 manager: manishj
-ms.subservice: vs-ide-test
+ms.subservice: test-tools
 ---
 # Test Execution with Hot Reload
 

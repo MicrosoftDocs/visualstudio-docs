@@ -7,7 +7,7 @@ f1_keywords:
 - vs.UnitTest.CreateIntelliTest
 ms.author: mikejo
 manager: jmartens
-ms.subservice: vs-ide-test
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Generate unit tests for fuzz testing by using IntelliTest

@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Live Unit Testing
 author: mikejo5000
 ms.author: mikejo
-ms.subservice: vs-ide-test
+ms.subservice: test-tools
 monikerRange: 'vs-2019'
 ---
 # Configure and use Live Unit Testing

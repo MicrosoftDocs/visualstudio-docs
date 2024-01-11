@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.author: mikejo
 author: MikeJo5000
 manager: jmartens
-ms.subservice: vs-ide-test
+ms.subservice: test-tools
 ---
 # Visual Studio Test Explorer FAQ
 

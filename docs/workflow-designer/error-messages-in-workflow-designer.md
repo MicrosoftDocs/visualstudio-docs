@@ -10,7 +10,7 @@ f1_keywords:
 author: jodavis
 ms.author: jodavis
 manager: jmartens
-ms.subservice: vs-workflow-designer
+ms.subservice: workflow-designer
 ---
 # Error Messages in Workflow Designer
 

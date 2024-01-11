@@ -7,7 +7,7 @@ helpviewer_keywords:
 - IntelliTest, Dynamic symbolic execution
 ms.author: mikejo
 manager: jmartens
-ms.subservice: vs-ide-test
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Input generation using dynamic symbolic execution

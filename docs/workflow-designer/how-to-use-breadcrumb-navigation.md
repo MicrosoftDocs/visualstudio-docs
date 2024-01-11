@@ -6,7 +6,7 @@ ms.topic: how-to
 author: jodavis
 ms.author: jodavis
 manager: jmartens
-ms.subservice: vs-workflow-designer
+ms.subservice: workflow-designer
 ---
 # Use Breadcrumb Navigation
 

@@ -5,7 +5,7 @@ ms.date: 12/04/2023
 ms.topic: conceptual
 ms.author: mikejo
 manager: jmartens
-ms.subservice: vs-ide-test
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Walkthrough: Test-driven development using Test Explorer

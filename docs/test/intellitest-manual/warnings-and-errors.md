@@ -7,7 +7,7 @@ helpviewer_keywords:
 - IntelliTest, Warnings and errors
 ms.author: mikejo
 manager: jmartens
-ms.subservice: vs-ide-test
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Warnings and errors

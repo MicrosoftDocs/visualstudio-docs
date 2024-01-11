@@ -5,7 +5,7 @@ ms.date: 05/23/2023
 ms.topic: how-to
 ms.author: oscalles
 manager: aajohn
-ms.subservice: vs-ide-test
+ms.subservice: test-tools
 author: ocallesp
 dev_langs: 
   - VB

@@ -5,7 +5,7 @@ ms.date: 12/13/2022
 ms.topic: conceptual
 ms.author: mikejo
 manager: jmartens
-ms.subservice: vs-ide-test
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Configure unit tests by using a *.runsettings* file

@@ -5,7 +5,7 @@ ms.date: 05/23/2023
 ms.topic: conceptual
 ms.author: oscalles
 manager: aajohn
-ms.subservice: vs-ide-test
+ms.subservice: test-tools
 author: ocallesp
 ---
 # Code generation, compilation, and naming conventions in Microsoft Fakes

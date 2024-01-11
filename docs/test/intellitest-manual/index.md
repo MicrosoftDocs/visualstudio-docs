@@ -7,7 +7,7 @@ helpviewer_keywords:
 - IntelliTest, Visual Studio IntelliTest developer testing tool
 ms.author: mikejo
 manager: jmartens
-ms.subservice: vs-ide-test
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Overview of Microsoft IntelliTest

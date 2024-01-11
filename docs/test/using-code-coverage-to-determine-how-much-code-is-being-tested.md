@@ -12,7 +12,7 @@ dev_langs:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.subservice: vs-ide-test
+ms.subservice: test-tools
 ---
 # Use code coverage to determine how much code is being tested
 

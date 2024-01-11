@@ -5,7 +5,7 @@ ms.date: 09/27/2019
 ms.topic: reference
 ms.author: twhitney
 manager: jmartens
-ms.subservice: vs-ide-test
+ms.subservice: test-tools
 author: tylermsft
 ---
 # Microsoft.VisualStudio.TestTools.CppUnitTestFramework API reference

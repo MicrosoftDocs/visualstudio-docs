@@ -5,7 +5,7 @@ ms.date: 05/22/2023
 ms.topic: conceptual
 ms.author: mikejo
 manager: jmartens
-ms.subservice: vs-ide-test
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Customize code coverage analysis

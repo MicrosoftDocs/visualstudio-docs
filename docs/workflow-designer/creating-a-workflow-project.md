@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: jodavis
 ms.author: jodavis
 manager: jmartens
-ms.subservice: vs-workflow-designer
+ms.subservice: workflow-designer
 ---
 # Workflow project templates
 
