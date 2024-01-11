@@ -1,7 +1,7 @@
 ---
 title: Design, visualize, & refactor with Class Designer
 description: Design, visualize, and refactor classes, other types, and their relationships in your code with Class Designer in Visual Studio.
-ms.date: 05/08/2018
+ms.date: 01/11/2024
 ms.topic: conceptual
 f1_keywords:
 - vs.classdesigner.diagram
@@ -92,7 +92,7 @@ If you haven't installed the **Class Designer** component, follow these steps to
 
 ## Add a blank class diagram to a project
 
-1. In **Solution Explorer**, right-click the project node and then choose **Add** > **New Item**. Or, press **Ctrl**+**Shift**+**A**.
+1. In **Solution Explorer**, right-click the project node and then choose **Add** > **New Item**. Or, press **Ctrl**+**Shift**+**A**. If a small window appears with just the option to add a code file, choose the **Show All Templates** button.
 
    The **Add New Item** dialog opens.
 
@@ -107,7 +107,7 @@ To add multiple class diagrams, repeat the steps in this procedure.
 
 ## Add a class diagram based on existing types
 
-In **Solution Explorer**, open a class file's context menu (right-click) and then choose **View Class Diagram**.
+In **Solution Explorer**, open a file's context menu (right-click) and then choose **View Class Diagram**.
 
 -or-
 
