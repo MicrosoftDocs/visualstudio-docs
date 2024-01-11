@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
+ms.subservice: python
 ---
 
 # Automatically reformat Python code in Visual Studio

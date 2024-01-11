@@ -11,7 +11,7 @@ helpviewer_keywords:
 - unit tests, authoring
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Walkthrough: Create and run unit tests for managed code
