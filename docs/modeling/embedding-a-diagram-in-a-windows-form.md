@@ -6,7 +6,7 @@ ms.topic: how-to
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.subservice: vs-ide-modeling
+ms.subservice: modeling
 ---
 # Embed a Diagram in a Windows Form
 

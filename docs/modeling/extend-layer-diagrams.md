@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.subservice: vs-ide-modeling
+ms.subservice: modeling
 ---
 # Extend dependency diagrams
 

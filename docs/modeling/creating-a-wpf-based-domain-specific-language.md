@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.subservice: vs-ide-modeling
+ms.subservice: modeling
 ---
 
 # Create a WPF-Based domain-specific language

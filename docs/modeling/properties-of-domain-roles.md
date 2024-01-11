@@ -6,7 +6,7 @@ ms.topic: reference
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.subservice: vs-ide-modeling
+ms.subservice: modeling
 ---
 # Properties of Domain Roles
 
