@@ -2,7 +2,7 @@
 title: "Tutorial: Debug Visual Basic code"
 description: Learn features of the Visual Studio debugger and how to start the debugger, step through code, and inspect data in a Visual Basic application.
 ms.date: 10/25/2023
-ms.subservice: "vs-ide-debug"
+ms.subservice: debug-diagnostics
 ms.topic: tutorial
 dev_langs:
   - "VB"
