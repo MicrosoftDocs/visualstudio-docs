@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProcess2::GetPhysicalProcessId
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the system process identifier.
 
 ## Syntax

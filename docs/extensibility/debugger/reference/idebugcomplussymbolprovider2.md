@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDebugComPlusSymbolProvider2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Represents a COM+ symbol provider with methods that are specific to managed code and extends the **IDebugComPlusSymbolProvider**[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md).
 
 ## Syntax

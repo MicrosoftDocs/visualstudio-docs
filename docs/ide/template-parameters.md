@@ -15,8 +15,6 @@ ms.subservice: general-ide
 ---
 # Template parameters
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 You can replace values in your template when the template is instantiated. To set up this functionality, use *template parameters*. Template parameters can be used to replace values such as class names and namespaces in the template. The template wizard that runs in the background when a user adds a new item or project replaces these parameters.
 
 ## Declare and enable template parameters

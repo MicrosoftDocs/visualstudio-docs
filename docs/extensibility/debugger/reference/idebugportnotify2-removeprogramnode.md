@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugPortNotify2::RemoveProgramNode
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Unregisters a program that can be debugged from the port it is running on.
 
 ## Syntax

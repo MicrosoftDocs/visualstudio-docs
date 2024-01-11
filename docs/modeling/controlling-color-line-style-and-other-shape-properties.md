@@ -10,8 +10,6 @@ ms.subservice: modeling
 ---
 # Controlling Color, Line Style, and other Shape Properties
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Some shape properties such as color can be 'exposed'. That is, the properties can be linked to a domain property of the shape. Others have to be controlled directly.
 
 ## Exposing a property

@@ -18,8 +18,6 @@ open_to_public_contributors: false
 ---
 # Visual Studio Team Explorer component directory
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 [!INCLUDE[workloads-components-universal-header_md](includes/workloads-components-universal-header_md.md)]
 
 ::: moniker range="vs-2019"

@@ -12,7 +12,6 @@ ms.subservice: extensibility-integration
 ---
 # Walkthrough: Add features to a custom editor
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 After you create a custom editor, you can add more features to it.
 
 ## To create an editor for a VSPackage

@@ -12,8 +12,6 @@ ms.subservice: workflow-designer
 ---
 # RemoveFromCollection\<T> Activity Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 The **RemoveFromCollection\<T>** activity designer is used to create and configure a <xref:System.Activities.Statements.RemoveFromCollection%601> activity.
 
 ## The RemoveFromCollection\<T>Activity

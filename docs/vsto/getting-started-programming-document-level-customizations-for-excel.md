@@ -17,7 +17,6 @@ ms.subservice: office-development
 ---
 # Get started programming document-level customizations for Excel
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   If you are just getting started creating document-level customizations for Microsoft Office Excel by using Visual Studio, here is what you need to know.
 
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]

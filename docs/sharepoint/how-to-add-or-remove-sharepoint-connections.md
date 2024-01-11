@@ -17,7 +17,6 @@ ms.subservice: sharepoint-development
 ---
 # Add or remove SharePoint connections
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Server Explorer lets you browse SharePoint sites as well as data connections. However, before you can browse the contents of a SharePoint site you must add it to the **SharePoint Connections** node.
 
 ### To add a SharePoint site to the SharePoint connections node

@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaSession::findSymbolByToken
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the symbol that contains a specified metadata token.
 
 ## Syntax

@@ -12,7 +12,6 @@ ms.subservice: extensibility-integration
 ---
 # Document data and document view in custom editors
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A custom editor consists of two parts: a document data object and a document view object. As the names suggest, the document data object represents the text data to be displayed. Similarly, the document view object (or "view") represents one or more windows in which to display the document data object.
 
 ## Document data object

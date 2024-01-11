@@ -25,8 +25,6 @@ ms.subservice: general-ide
 ---
 # Customize window layouts and personalize tabs
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 In Visual Studio, you can customize the position, size, and behavior of windows to create window layouts that work best for various development workflows. You can also personalize how you use [tabs](#personalize-tabs) to interact with your code.
 
 ## Customize window layouts

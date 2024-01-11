@@ -11,8 +11,6 @@ ms.subservice: extensibility-integration
 ---
 # Custom settings and options in Visual Studio extensions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Storing and retrieving settings is a must-have for many extensions. Let's explore how to work with settings with these goals in mind:
 
 * A simple way to provide custom options.

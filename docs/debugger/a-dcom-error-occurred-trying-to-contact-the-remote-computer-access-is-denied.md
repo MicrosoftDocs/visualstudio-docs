@@ -23,7 +23,6 @@ ms.subservice: debug-diagnostics
 ---
 # A DCOM error occurred trying to contact the remote computer. Access is denied.
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Remote debugging uses DCOM to communicate between the local and remote computers in the following situations:
 
 - The debugger is set to **Native Compatibility Mode** or **Managed Compatibility Mode** is checked in the **Tools > Options > Debugging** page

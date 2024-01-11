@@ -14,8 +14,6 @@ ms.subservice: general-ide
 ---
 # Develop with Visual F# in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This article includes information about Visual Studio features for F# development.
 
 ## Install F# support

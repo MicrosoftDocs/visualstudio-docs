@@ -13,7 +13,6 @@ ms.subservice: extensibility-integration
 ---
 # Visual Studio Shell
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Visual Studio shell is the primary agent of integration in Visual Studio. The shell provides necessary functionality to enable VSPackages to share common services. Because the architectural goal of Visual Studio is to vest primary functionality in the VSPackages, the shell is a framework to provide basic functionality and support cross-communication among its component VSPackages.
 
 ## Shell Responsibilities

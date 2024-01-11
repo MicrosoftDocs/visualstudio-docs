@@ -12,8 +12,6 @@ ms.subservice: workflow-designer
 ---
 # Rethrow Activity Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 The **Rethrow** activity designer is used to create and configure a <xref:System.Activities.Statements.Rethrow> activity.
 
 ## The Rethrow activity

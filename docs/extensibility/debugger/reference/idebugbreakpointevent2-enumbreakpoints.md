@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugBreakpointEvent2::EnumBreakpoints
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an enumerator for all the breakpoints that fired at the current code location.
 
 ## Syntax

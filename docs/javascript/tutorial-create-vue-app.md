@@ -15,8 +15,6 @@ monikerRange: '>= vs-2022'
 ---
 # Create a Vue.js app
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you create and run a simple Vue.js frontend web application.
 
 ## Prerequisites

@@ -16,7 +16,6 @@ dev_langs:
 ---
 # IDebugGenericFieldInstance::TypeArgumentCount
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the number of type parameter arguments for this instance.
 
 ## Syntax

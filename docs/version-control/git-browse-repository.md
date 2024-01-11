@@ -11,8 +11,6 @@ ms.subservice: general-ide
 ---
 # Browse Git repositories and compare branches in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 The **Git Changes** window provides a seamless way to interact with Git while coding without having to switch away from your code. But there are times when it makes more sense to focus on your Git repository. For example, you might need to get a good picture of what your team has been working on or maybe [compare two commits](#compare-commits) to investigate a bug.
 
 You can work remotely with the Git provider of your choice, such as GitHub or Azure DevOps.

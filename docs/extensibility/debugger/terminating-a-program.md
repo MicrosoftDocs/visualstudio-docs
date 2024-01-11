@@ -13,7 +13,6 @@ ms.subservice: debug-diagnostics
 ---
 # Terminating a program
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following section describes the termination of a single program with one thread.
 
 ## Termination process

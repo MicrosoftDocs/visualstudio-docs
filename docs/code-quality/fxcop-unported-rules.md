@@ -13,8 +13,6 @@ ms.subservice: code-analysis
 ---
 # Unported rules
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 
 
 The set of FxCop legacy analysis rules that haven't been implemented as Roslyn analyzers consists of the following two buckets:

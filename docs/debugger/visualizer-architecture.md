@@ -15,7 +15,6 @@ ms.subservice: debug-diagnostics
 ---
 # Visualizer Architecture
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The architecture of a debugger visualizer has two parts:
 
 - The *debugger side* runs within the Visual Studio debugger. The debugger-side code creates and displays the user interface for your visualizer.

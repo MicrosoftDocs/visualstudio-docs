@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_isHLSLData
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies whether this symbol represents High Level Shader Language (HLSL) data.
 
 ## Syntax

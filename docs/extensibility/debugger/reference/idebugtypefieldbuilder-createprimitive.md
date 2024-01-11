@@ -16,7 +16,6 @@ dev_langs:
 ---
 # IDebugTypeFieldBuilder::CreatePrimitive
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an object that represents a primitive type.
 
 ## Syntax

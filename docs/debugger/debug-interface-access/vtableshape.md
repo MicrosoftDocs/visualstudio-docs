@@ -15,7 +15,6 @@ ms.subservice: debug-diagnostics
 ---
 # VTableShape
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The [VTable](../../debugger/debug-interface-access/vtable.md) symbol has a class child symbol identified by the `SymTagVTableShape` tag.
 
 ## Properties

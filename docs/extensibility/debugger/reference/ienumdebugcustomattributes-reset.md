@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IEnumDebugCustomAttributes::Reset
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Resets the enumeration sequence to the beginning.
 
 ## Syntax

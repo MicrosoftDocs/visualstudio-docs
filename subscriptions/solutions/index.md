@@ -39,7 +39,6 @@ ms.date: 02/14/2023
 ### Downloads and activations
 [!INCLUDE [No access to downloads error](downloading-activating-or-using-software/downloading-activating-or-using-software/includes/no-access-to-downloads-error.md)]
 
-
 [!INCLUDE [Unable to download non-Visual Studio software](downloading-activating-or-using-software/downloading-activating-or-using-software/includes/unable-to-download-software-non-visualstudio.md)]
 
 [!INCLUDE [Unable to download Visual Studio Community](downloading-activating-or-using-software/downloading-activating-or-using-software/includes/unable-to-download-visual-studio-community.md)]

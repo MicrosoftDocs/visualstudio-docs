@@ -13,7 +13,6 @@ ms.topic: include
 ---
 
 
-
 ## Azure development build tools
 
 **ID:** Microsoft.VisualStudio.Workload.AzureBuildTools

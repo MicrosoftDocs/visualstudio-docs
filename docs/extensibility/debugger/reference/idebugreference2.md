@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDebugReference2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a reference to a stack frame property or some other property.
 
 > [!NOTE]

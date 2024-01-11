@@ -17,7 +17,6 @@ dev_langs:
 ---
 # BP_ERROR_TYPE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the error type of a breakpoint.
 
 ## Syntax

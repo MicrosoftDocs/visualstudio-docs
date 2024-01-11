@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugObject2::CreateAlias
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates a unique ID or alias for this object or returns an existing alias.
 
 ## Syntax

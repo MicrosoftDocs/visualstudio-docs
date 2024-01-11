@@ -15,8 +15,6 @@ ms.subservice: extensibility-integration
 ---
 # Create an extension with a menu command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This walkthrough shows how to create an extension with a menu command that launches Notepad.
 
 ## Create a menu command

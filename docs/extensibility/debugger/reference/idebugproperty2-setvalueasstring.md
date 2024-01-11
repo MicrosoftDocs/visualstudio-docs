@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProperty2::SetValueAsString
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the value of a property from a given string.
 
 ## Syntax

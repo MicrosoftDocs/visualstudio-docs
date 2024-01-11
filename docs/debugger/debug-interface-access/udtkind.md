@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # UdtKind
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the variety of user-defined type (UDT).
 
 ## Syntax

@@ -10,8 +10,6 @@ ms.subservice: extensibility-integration
 ---
 # What's New in the Visual Studio 2019 SDK
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 The Visual Studio SDK has the following new and updated features for Visual Studio 2019.
 
 ## Synchronously autoloaded extensions warning

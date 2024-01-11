@@ -20,7 +20,6 @@ ms.subservice: office-development
 ---
 # Project solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Visual Studio 2013 provides project templates you can use to create VSTO Add-ins for Microsoft Office Project. You can use VSTO Add-ins to automate Project, extend Project features, or customize the Project user interface (UI).
 
  For more information about VSTO Add-ins, see [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md) and [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md). If you are new to programming with Microsoft Office, see [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md).

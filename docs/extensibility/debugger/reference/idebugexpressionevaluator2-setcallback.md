@@ -16,7 +16,6 @@ dev_langs:
 ---
 # IDebugExpressionEvaluator2::SetCallback
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enables the expression evaluator (EE) to specify the callback interface that the debugger engine (DE) will use to read metric settings.
 
 ## Syntax

@@ -17,7 +17,6 @@ dev_langs:
 ---
 # DEBUG_ADDRESS_UNION
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes different kinds of addresses.
 
 ## Syntax

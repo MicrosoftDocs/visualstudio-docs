@@ -16,8 +16,6 @@ dev_langs:
 ---
 # Invoke text transformation in the build process
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 [Text transformation](../modeling/code-generation-and-t4-text-templates.md) can be invoked as part of the [build process](/azure/devops/pipelines/index) of a Visual Studio solution. There are build tasks that are specialized for text transformation. The T4 build tasks run design-time text templates, and they also compile run-time (preprocessed) text templates.
 
 There are some differences in what the build tasks can do, depending on which build engine you use. When you build the solution in Visual Studio, a text template can access the Visual Studio API (EnvDTE) if the [hostspecific="true"](../modeling/t4-template-directive.md) attribute is set. But that isn't true when you build the solution from the command line or when you initiate a server build through Visual Studio. In those cases, the build is performed by MSBuild and a different T4 host is used. This means that you can't access things like project file names in the same way when you build a text template using MSBuild. However, you can [pass environment information into text templates and directive processors by using build parameters](#parameters).
@@ -60,7 +58,6 @@ In **Solution Explorer**, choose **Unload** from the right-click menu of your pr
 In the .vbproj or .csproj file, find the last `Import Project` line.
 
 After that line, if it exists, insert the Text Templating import:
-
 
 ::: moniker range=">=vs-2022"
 

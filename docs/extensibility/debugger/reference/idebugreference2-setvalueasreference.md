@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugReference2::SetValueAsReference
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the value of a reference from another reference. Reserved for future use.
 
 ## Syntax

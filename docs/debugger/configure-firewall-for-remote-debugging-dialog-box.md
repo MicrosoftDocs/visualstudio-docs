@@ -22,7 +22,6 @@ ms.subservice: debug-diagnostics
 ---
 # Configure Firewall for Remote Debugging Dialog Box
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This dialog box appears when the Windows Firewall blocks the debugger from receiving information over the network. To continue remote debugging, you must open a port in the firewall so the debugger can receive information.
 
 > [!CAUTION]

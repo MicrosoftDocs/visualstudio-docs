@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IPropertyProxyEESide::InitSourceDataProvider
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Initializes the source data for this object and returns an object containing the initial data.
 
 ## Syntax

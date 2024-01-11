@@ -19,7 +19,6 @@ ms.subservice: deployment
 ---
 # Server and client configuration issues in ClickOnce deployments
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 If you use Internet Information Services (IIS) on Windows Server, and your deployment contains a file type that Windows does not recognize, such as a Microsoft Word file, IIS will refuse to transmit that file, and your deployment will not succeed.
 
  Additionally, some Web servers and Web application software, such as ASP.NET, contain a list of files and file types that you cannot download. For example, ASP.NET prevents the download of all *Web.config* files. These files may contain sensitive information such as user names and passwords.

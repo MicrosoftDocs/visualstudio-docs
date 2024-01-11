@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugStackFrame2::GetThread
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the thread associated with a stack frame.
 
 ## Syntax

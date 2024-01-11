@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaLineNumber::get_lineNumber
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the line number in the source file.
 
 ## Syntax

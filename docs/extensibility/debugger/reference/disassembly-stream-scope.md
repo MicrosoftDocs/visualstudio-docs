@@ -17,7 +17,6 @@ dev_langs:
 ---
 # DISASSEMBLY_STREAM_SCOPE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the scope of the disassembly stream.
 
 ## Syntax

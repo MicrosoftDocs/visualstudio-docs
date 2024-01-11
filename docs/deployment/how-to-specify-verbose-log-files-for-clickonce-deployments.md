@@ -17,7 +17,6 @@ ms.subservice: deployment
 ---
 # Specify verbose log files for ClickOnce deployments
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ClickOnce maintains activity log files for all deployments. These logs document details pertaining to installing, initializing, updating, and uninstalling a ClickOnce deployment. To increase the detail that ClickOnce writes to these log files, use Registry Editor (*regedit.exe*) to specify the verbosity level.
 
 > [!CAUTION]

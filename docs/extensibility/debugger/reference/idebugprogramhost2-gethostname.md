@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProgramHost2::GetHostName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the title, friendly name, or file name of the hosting process of this program.
 
 ## Syntax

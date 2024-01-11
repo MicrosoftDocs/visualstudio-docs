@@ -17,7 +17,6 @@ dev_langs:
 ---
 # ATTACH_REASON
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the reason for the debug engine (DE) to attach to a program node.
 
 ## Syntax

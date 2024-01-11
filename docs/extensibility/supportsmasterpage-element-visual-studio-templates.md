@@ -15,7 +15,6 @@ manager: jmartens
 ---
 # SupportsMasterPage Element (Visual Studio Templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies whether the or not the **Select Master Page** checkbox is enabled on the **Add New Item** dialog box.
 
  \<VSTemplate>

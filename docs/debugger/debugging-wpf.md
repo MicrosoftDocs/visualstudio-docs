@@ -18,8 +18,6 @@ ms.subservice: debug-diagnostics
 ---
 # Debugging WPF
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Visual Studio provides additional features to make debugging WPF applications easier.
 
 ## Related Topics

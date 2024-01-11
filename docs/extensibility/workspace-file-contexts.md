@@ -9,8 +9,6 @@ manager: "viveis"
 ---
 # Workspace file contexts
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 All insights into [Open Folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) workspaces are produced by "file context providers" that implement the <xref:Microsoft.VisualStudio.Workspace.IFileContextProvider> interface. These extensions might look for patterns in folders or files, read MSBuild files and makefiles, detect package dependencies, etc. in order to accumulate the insights they need to define a file context. A file context by itself does not perform any action, but rather provides data that another extension can then act on.
 
 Each <xref:Microsoft.VisualStudio.Workspace.FileContext> has a `Guid` associated with it that identifies the type of data it carries. A workspace uses this `Guid` later to match it up with extensions that consume the data through the <xref:Microsoft.VisualStudio.Workspace.FileContext.Context> property. A file context provider is exported with metadata that identifies which file context `Guid`s it may produce data for.

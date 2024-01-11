@@ -11,8 +11,6 @@ ms.subservice: general-ide
 ---
 # Sign in or switch Visual Studio user accounts 
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 In this article, you'll learn how to sign in to Visual Studio, add and switch user accounts, update your profile, sign out of your account, and the benefits to signing in.  If you are looking to learn how to use multiple accounts for sign-ins, check out our article, [Access multiple accounts associated with the Visual Studio sign-in account](sign-in-access-multiple-accounts.md).
 
 You can get subscription support and search the frequently asked questions about subscriptions, accounts, and billing [on our Subscription support page](https://visualstudio.microsoft.com/subscriptions/support/).
@@ -65,7 +63,6 @@ While you don't have to sign in, there are many advantages to doing so.
 |Use Community edition without interruptions|While it's not required to sign in, you might periodically get prompts to sign-in if you haven't done so. Please sign in to the IDE to continue using Visual Studio Community without interruptions.|
 |[Get 'Visual Studio Dev Essentials'](https://visualstudio.microsoft.com/dev-essentials/)|This program includes free software, training, support, and more.|
 
-
 <a name="add-and-switch"></a>
 
 ## Add and switch user accounts to Visual Studio
@@ -98,7 +95,6 @@ There are several types of accounts you can add:
 
 - [Add a GitHub account](work-with-github-accounts.md)
 - [Add a Multifactor authentication (MFA) account](work-with-multi-factor-authentication.md)
-
 
 <a name="profile"></a>
 

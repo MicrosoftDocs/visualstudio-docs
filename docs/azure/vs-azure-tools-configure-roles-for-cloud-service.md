@@ -10,8 +10,6 @@ ms.author: ghogen
 ---
 # Configure Azure cloud service roles with Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
 An Azure cloud service can have one or more worker or web roles. For each role, you need to define how that role is set up and also configure how that role runs.

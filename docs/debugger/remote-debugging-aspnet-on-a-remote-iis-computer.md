@@ -10,8 +10,6 @@ ms.subservice: debug-diagnostics
 ---
 # Remote Debug ASP.NET Core on a Remote IIS Computer in Visual Studio
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 To debug an ASP.NET Core application that has been deployed to IIS, install and run the remote tools on the computer where you deployed your app, and then attach to your running app from Visual Studio.
 
 ![Remote debugger components](../debugger/media/remote-debugger-aspnet.png "Remote_debugger_components")

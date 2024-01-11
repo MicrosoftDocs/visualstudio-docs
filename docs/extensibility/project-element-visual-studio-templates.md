@@ -15,7 +15,6 @@ manager: jmartens
 ---
 # Project element (Visual Studio templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the files or directories to add to the project.
 
  \<VSTemplate>

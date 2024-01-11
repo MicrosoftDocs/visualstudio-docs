@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugEngine2::CauseBreak
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Requests that all programs being debugged by this debug engine (DE) to stop execution the next time one of their threads attempts to run.
 
 ## Syntax

@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IEnumDebugErrorBreakpoints2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface enumerates the error breakpoints associated with a pending breakpoint.
 
 ## Syntax

@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaSession::findSymbolByAddr
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a specified symbol type that contains, or is closest to, a specified address.
 
 ## Syntax

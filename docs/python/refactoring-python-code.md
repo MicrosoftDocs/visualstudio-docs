@@ -10,8 +10,6 @@ ms.subservice: python
 ---
 # Refactor Python code
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Visual Studio provides several commands for automatically transforming and cleaning up your Python source code:
 
 - [Rename](#rename) renames a selected class, method, or variable name.

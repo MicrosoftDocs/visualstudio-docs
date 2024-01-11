@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDebugMessageEvent2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface is used by the debug engine (DE) to send a message to Visual Studio that requires a response from the user.
 
 ## Syntax

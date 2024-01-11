@@ -17,7 +17,6 @@ ms.subservice: debug-diagnostics
 ---
 # Symbol Load Information Dialog Box
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **Symbol Load Information** dialog box opens when you right-click on the **Modules** window and choose **Symbol Load Information**.
 
 ## UIElement List

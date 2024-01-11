@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugContainerField::EnumFields
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an enumerator for the fields of the container.
 
 ## Syntax

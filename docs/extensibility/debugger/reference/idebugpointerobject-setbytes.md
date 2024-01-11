@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugPointerObject::SetBytes
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the value pointed to from a series of consecutive bytes.
 
 ## Syntax

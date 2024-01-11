@@ -10,7 +10,6 @@ ms.subservice: modeling
 ---
 # Walkthrough: Debugging a Text Template that Accesses a Model
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When you modify or add text templates in a domain-specific language solution, you may get errors when the engine transforms the template to source code or when it compiles the generated code. The following walkthrough demonstrates some of the things you can do to debug a text template.
 
 > [!NOTE]

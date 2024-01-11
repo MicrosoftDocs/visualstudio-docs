@@ -37,7 +37,6 @@ There are several ways to resolve over-allocations:
 
 If your organization has an Enterprise Agreement (EA), admins are able to assign subscriptions without purchasing them, and pay for them later through a reconciliation process known as a "true-up".  When you over-allocate, your organization is billed for the maximum number of subscriptions assigned to users during the "true-up".  The billing takes place even if you no longer have the maximum number of subscriptions assigned at the time the true-up takes place.  To learn more about monitoring your maximum usage, visit the [Maximum Usage](maximum-usage.md) article.
 
-
 ## See also
 
 + [Visual Studio documentation](/visualstudio/)

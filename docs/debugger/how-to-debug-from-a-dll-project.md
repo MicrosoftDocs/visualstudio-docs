@@ -20,8 +20,6 @@ ms.subservice: debug-diagnostics
 ---
 # Debug from a DLL project in Visual Studio (C#, C++, Visual Basic, F#)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 One way to debug a DLL project is to specify the calling app in the DLL project properties. Then you can start debugging from the DLL project itself. For this method to work, the app must call the same DLL in the same location as the one you configure. If the app finds and loads a different version of the DLL, that version won't contain your breakpoints. For other methods of debugging DLLs, see [Debugging DLL projects](../debugger/debugging-dll-projects.md).
 
 If your managed app calls a native DLL, or your native app calls a managed DLL, you can debug both the DLL and the calling app. For more information, see [How to: Debug in mixed mode](../debugger/how-to-debug-in-mixed-mode.md).

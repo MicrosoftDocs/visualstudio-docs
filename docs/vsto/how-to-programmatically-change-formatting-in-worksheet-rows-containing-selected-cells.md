@@ -18,7 +18,6 @@ ms.subservice: office-development
 ---
 # Programmatically change formatting in worksheet rows containing selected cells
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can change the font of an entire row that contains a selected cell so that the text is bold.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]

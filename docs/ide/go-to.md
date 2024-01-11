@@ -15,8 +15,6 @@ ms.subservice: general-ide
 ---
 # Find code using Go To commands
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Visual Studio's **Go To** commands perform a focused search of your code to help you quickly find specified items. You can go to a specific line, type, symbol, file, and member from a simple, unified interface.
 
 In Visual Studio 2022, a new search experience replaces much of the functionality described here. For example, **Go to type** or **Ctrl**+**T** goes (by default) to the new search experience in Visual Studio 2022, rather than opening the **Go to type** window. The new search experience is documented at [Visual Studio search](visual-studio-search.md).

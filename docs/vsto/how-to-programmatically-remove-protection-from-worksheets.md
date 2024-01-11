@@ -19,7 +19,6 @@ ms.subservice: office-development
 ---
 # Programmatically remove protection from worksheets
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can programmatically remove protection from a Microsoft Office Excel worksheet.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]

@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # Lexical Hierarchy of Symbol Types
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following table shows the symbol types in the lexical hierarchy.
 
 ## Symbol Types

@@ -19,7 +19,6 @@ ms.subservice: sharepoint-development
 ---
 # Walkthrough: Create and debug a SharePoint workflow solution
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This walkthrough demonstrates how to create a basic sequential workflow template. The workflow checks a property of a shared document library to determine whether a document has been reviewed. If the document has been reviewed, the workflow finishes.
 
  This walkthrough illustrates the following tasks:

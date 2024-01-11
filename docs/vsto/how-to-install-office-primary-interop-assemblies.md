@@ -16,7 +16,6 @@ ms.subservice: office-development
 ---
 # Install Office primary interop assemblies
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Install the Microsoft Office primary interop assemblies (PIAs) when you install Office.
 
 [!include[Add-ins note](includes/addinsnote.md)]

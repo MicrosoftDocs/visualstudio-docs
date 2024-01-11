@@ -18,7 +18,6 @@ dev_langs:
 ---
 # IDebugMemoryBytes2::ReadAt
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Reads a sequence of bytes, starting at a given location.
 
 ## Syntax

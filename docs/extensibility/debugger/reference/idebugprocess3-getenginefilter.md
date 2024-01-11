@@ -16,7 +16,6 @@ dev_langs:
 ---
 # IDebugProcess3::GetEngineFilter
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves an array of unique identifiers for available debug engines.
 
 ## Syntax

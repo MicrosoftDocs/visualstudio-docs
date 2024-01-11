@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDebugModOpt
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Represents a debug optional modifier.
 
 ## Syntax

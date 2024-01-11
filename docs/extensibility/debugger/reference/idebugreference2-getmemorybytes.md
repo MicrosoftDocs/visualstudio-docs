@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugReference2::GetMemoryBytes
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the memory bytes that physically contain the value of a reference. Reserved for future use.
 
 ## Syntax

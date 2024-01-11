@@ -11,8 +11,6 @@ ms.custom: contperf-fy23q2,  engagement-fy23
 ---
 # Fix HDPI/scaling issues with Windows Forms Designer in Visual Studio 
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 In this article, you learn how to address rendering issues due to scaling limitations of the Windows Forms Designer on HDPI monitors by [running Visual Studio as a DPI-unaware process](#restart-visual-studio-as-a-dpi-unaware-process). HDPI stands for high dots per inch, with each dot representing a physical device pixel.
 
 Higher pixel density creates sharper images, and display scaling sizes elements properly. Without proper scaling, user interface (UI) elements and text are too tiny to use effectively and can overlap. To help remedy this issue, Windows automatically scales the UI percentile to match the DPI setting. For example, a DPI setting of 100% represents 96 DPI and 125% is 120 DPI. Monitors used to ship with 96 pixels per inch, which Windows used as the baseline for 100% bitmap drawing. However, as display technology advanced, monitors now ship with panels of 300 DPI or higher.
@@ -45,7 +43,6 @@ It's important to restart Visual Studio to return it to its default as a DPI-awa
 **To return to DPI-aware:**
 - Close and reopen Visual Studio to return to DPI-aware again. Alternatively, select the **Restart Visual Studio as a DPI-aware process** option in the information bar.
 
-
 When Visual Studio runs as DPI-unaware, the designer layout issues are resolved, however fonts might appear blurry and issues can appear in other designers such as the XAML Designer. Visual Studio displays a different informational message when DPI-unaware that says "Visual Studio is running as a DPI-unaware process. WPF and XAML designers might not display correctly." 
 
 ::: moniker range="<=vs-2019"
@@ -63,7 +60,6 @@ When Visual Studio runs as DPI-unaware, the designer layout issues are resolved,
 > - The default Visual Basic profile won't reopen projects when Visual Studio restarts as a DPI-unaware process. Instead, access your project through **File** > **Recent Projects and Solutions**.
 
 ::: moniker-end
-
 
 ## Use Windows to set your display scaling to 100%
 

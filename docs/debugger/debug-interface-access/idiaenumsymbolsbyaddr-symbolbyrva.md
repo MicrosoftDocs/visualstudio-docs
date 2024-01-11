@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaEnumSymbolsByAddr::symbolByRVA
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Positions the enumerator by performing a lookup by relative virtual address (RVA).
 
 ## Syntax

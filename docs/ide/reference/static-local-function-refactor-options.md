@@ -14,8 +14,6 @@ dev_langs:
 ---
 # Static local function refactorings and Quick Actions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This article outlines two productivity features related  to static local functions. One is a refactoring that makes a local function static, and the other is a Quick Action that generates code to pass variables into a static local function.
 
 ## Make local function static

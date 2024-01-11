@@ -17,7 +17,6 @@ ms.subservice: debug-diagnostics
 ---
 # Error: RPC Requires Authentication
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Visual Studio debugger cannot connect to the remote computer. An RPC policy is enabled on the local computer which prevents remote debugging.
 
 ### To correct this error

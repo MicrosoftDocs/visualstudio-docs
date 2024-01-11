@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDebugMemoryContext2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a position in the address space of the machine running the program being debugged.
 
 ## Syntax

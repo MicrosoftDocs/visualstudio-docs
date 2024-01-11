@@ -17,7 +17,6 @@ dev_langs:
 ---
 # BP_RESOLUTION_DATA
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the result of binding a data breakpoint.
 
 ## Syntax

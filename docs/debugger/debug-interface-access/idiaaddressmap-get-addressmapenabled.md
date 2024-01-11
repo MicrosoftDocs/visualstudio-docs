@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaAddressMap::get_addressMapEnabled
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Indicates whether an address map has been established for a particular session.
 
 ## Syntax

@@ -13,8 +13,6 @@ dev_langs:
 ---
 # Publish a Node.js application to Azure (Linux App Service)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This tutorial walks you through the task of creating a simple Node.js application and publishing it to Azure.
 
 When publishing a Node.js application to Azure, there are several options. These include Azure App Service, a VM running an OS of your choosing, Azure Container Service (AKS) for management with Kubernetes, a Container Instance using Docker, and more. For more details on each of these options, see [Compute](https://azure.microsoft.com/product-categories/compute/).

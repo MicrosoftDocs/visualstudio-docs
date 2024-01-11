@@ -15,8 +15,6 @@ manager: jmartens
 ---
 # What is Visual Studio?
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Visual Studio is a powerful developer tool that you can use to complete the entire development cycle in one place. It is a comprehensive integrated development environment (IDE) that you can use to write, edit, debug, and build code, and then deploy your app. Beyond code editing and debugging, Visual Studio includes compilers, code completion tools, source control, extensions, and many more features to enhance every stage of the software development process.
 
 :::image type="content" source="media/visual-studio-overview.png" alt-text="Diagram showing Visual Studio overview.":::

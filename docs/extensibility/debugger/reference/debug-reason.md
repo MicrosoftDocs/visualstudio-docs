@@ -17,7 +17,6 @@ dev_langs:
 ---
 # DEBUG_REASON
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies why the process was launched for debugging.
 
 ## Syntax

@@ -18,8 +18,6 @@ dev_langs:
 ---
 # IDebugProgramNode2::Attach_V7
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 > [!Note]
 > DEPRECATED. DO NOT USE.
 

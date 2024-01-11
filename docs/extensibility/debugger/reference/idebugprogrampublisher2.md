@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDebugProgramPublisher2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface allows a debug engine (DE) or custom port suppliers to register programs for debugging.
 
 ## Syntax

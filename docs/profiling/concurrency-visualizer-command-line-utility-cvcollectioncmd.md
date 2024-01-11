@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # Concurrency Visualizer command-line utility (CVCollectionCmd)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can use the Concurrency Visualizer command-line utility (*CVCollectionCmd.exe*) to collect traces from the command line so that you can view them in the Concurrency Visualizer for Visual Studio. The tools can be used on computers that do not have Visual Studio installed.
 
 > [!NOTE]

@@ -16,7 +16,6 @@ ms.subservice: extensibility-integration
 ---
 # Optimizing Menu and Toolbar Commands
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The addition of VSPackages and their corresponding commands to Visual Studio may cause a crowded UI. Visual Studio provides ways to help minimize UI command confusion.
 
 ## In This Section

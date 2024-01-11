@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugSymbolProvider::GetContainerField
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the field that contains the debug address.
 
 ## Syntax

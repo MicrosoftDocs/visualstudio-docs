@@ -14,7 +14,6 @@ ms.subservice: extensibility-integration
 ---
 # Display files by using the Open File command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following steps describe how the IDE handles the **Open File** command, which is available on the **File** menu in Visual Studio. The steps also describe how projects should respond to calls that originate from this command.
 
  When a user clicks the **Open File** command on the **File** menu, and selects a file from the **Open File** dialog box, the following process occurs:

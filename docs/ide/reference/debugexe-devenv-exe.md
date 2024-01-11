@@ -15,8 +15,6 @@ ms.subservice: general-ide
 ---
 # /DebugExe (devenv.exe)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Opens the specified executable file to be debugged.
 
 ## Syntax

@@ -13,8 +13,6 @@ dev_langs:
 ---
 # Quick Actions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Quick Actions let you easily refactor, generate, or otherwise modify code with a single action. Quick Actions are available for C#, [C++](/cpp/ide/writing-and-refactoring-code-cpp), and Visual Basic code files. Some actions are specific to a language, and others apply to all languages.
 
 Quick Actions can be used to:
@@ -22,7 +20,6 @@ Quick Actions can be used to:
 - Apply a code fix for a [code analyzer](../code-quality/roslyn-analyzers-overview.md) rule violation
 
 - [Suppress](../code-quality/use-roslyn-analyzers.md#suppress-violations) a code analyzer rule violation or [configure](../code-quality/use-roslyn-analyzers.md#set-rule-severity-from-the-light-bulb-menu) its severity
-
 
 - Apply a refactoring (for example, [inline a temporary variable](../ide/reference/inline-temporary-variable.md))
 

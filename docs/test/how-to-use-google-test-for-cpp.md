@@ -10,8 +10,6 @@ author: tylermsft
 ---
 # Use Google Test for C++ in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 In Visual Studio 2017 and later, Google Test is integrated into the Visual Studio IDE as a default component of the **Desktop Development with C++** workload. To verify that it's installed on your machine, open the Visual Studio Installer. Find Google Test under the list of workload components:
 
 ![Install Google Test](media/vs-2022/cpp-google-component.png)

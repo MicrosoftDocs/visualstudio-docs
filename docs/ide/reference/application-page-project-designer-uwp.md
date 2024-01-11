@@ -14,8 +14,6 @@ ms.subservice: general-ide
 ---
 # Application property page (UWP projects)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Use the **Application** property page to specify the Universal Windows Platform (UWP) project's assembly and package information, and to target Windows 10 and later.
 
 ![Application property page](media/application-page-uwp.png)

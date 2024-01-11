@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaStackWalker
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Provides methods to do a stack walk using information in the .pdb file.
 
 ## Syntax

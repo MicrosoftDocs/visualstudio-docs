@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugField::GetAddress
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the debug address of a field.
 
 ## Syntax

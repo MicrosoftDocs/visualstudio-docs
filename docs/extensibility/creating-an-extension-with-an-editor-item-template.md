@@ -12,7 +12,6 @@ ms.subservice: extensibility-integration
 ---
 # Create an extension with an editor item template
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can use item templates that are included in the Visual Studio SDK to create basic editor extensions that add classifiers, adornments, and margins to the editor. The editor item templates are available for Visual C# or Visual Basic VSIX projects.
 
 ## Create a classifier extension

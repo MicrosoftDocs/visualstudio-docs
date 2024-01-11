@@ -10,8 +10,6 @@ ms.subservice: extensibility-integration
 ---
 # Interaction Patterns for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
  A design pattern, in general, is the core of a design that can be applied in specific situations to solve problems with similar sets of constraints. Feature and system designers use these design patterns as starting points, which can then be adapted to their specific situation.
 
  Visual Studio has a library of common interaction patterns that should be considered when building new features. There are two core contexts for our design patterns: Visual Studio Client (devenv) and GitHub Codespaces (formerly Visual Studio Online). For some design problems, there is a ubiquitous pattern that works well in all situations. In many cases, however, the solution might be different for UI that is being presented within a browser and that which is hosted on a client application.

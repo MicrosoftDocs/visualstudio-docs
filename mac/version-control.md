@@ -28,7 +28,6 @@ To learn more about the Git tooling in Visual Studio for Mac, the following arti
 * [Working with Git](working-with-git.md)
 ::: moniker-end
 
-
 ## See also
 
 * [Version control in Visual Studio (on Windows)](/visualstudio/version-control/)

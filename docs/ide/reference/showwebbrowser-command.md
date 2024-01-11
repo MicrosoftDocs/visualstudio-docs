@@ -15,8 +15,6 @@ ms.subservice: general-ide
 ---
 # ShowWebBrowser Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Displays the URL you specify in a web browser window either within the integrated development environment (IDE) or external to the IDE.
 
 ## Syntax

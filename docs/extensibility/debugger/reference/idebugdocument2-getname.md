@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugDocument2::GetName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the name of the document in one of several forms.
 
 ## Syntax

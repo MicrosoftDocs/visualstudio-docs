@@ -10,8 +10,6 @@ ms.subservice: xml-tools
 ---
 # Edit XSLT Style Sheets
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 The XML editor can also be used to edit XSLT style sheets. You can take advantage of the default Editor features such as IntelliSense, outlining, XML snippets, and so on. In addition, there are also new features that make it easier to develop in XSLT.
 
 ## XSLT Features

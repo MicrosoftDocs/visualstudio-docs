@@ -14,7 +14,6 @@ ms.subservice: extensibility-integration
 ---
 # SccQueryChanges Function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function enumerates a given list of files, providing information about name changes for each file via a callback function.
 
 ## Syntax

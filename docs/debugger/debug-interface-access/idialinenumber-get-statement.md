@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaLineNumber::get_statement
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag indicating that this line information describes the beginning of a statement, rather than an expression, in the program source.
 
 ## Syntax

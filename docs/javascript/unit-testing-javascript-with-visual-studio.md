@@ -13,8 +13,6 @@ dev_langs:
 ---
 # Unit testing JavaScript and TypeScript in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 You can write and run unit tests in Visual Studio using some of the more popular
 JavaScript frameworks without the need to switch to a command prompt. Both Node.js and ASP.NET Core projects are supported.
 

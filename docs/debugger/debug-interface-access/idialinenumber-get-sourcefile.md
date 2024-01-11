@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaLineNumber::get_sourceFile
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a reference to the source file.
 
 ## Syntax

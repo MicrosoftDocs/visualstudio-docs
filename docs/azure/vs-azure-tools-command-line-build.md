@@ -10,8 +10,6 @@ ms.author: ghogen
 ---
 # Building Azure projects from the command line
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
 Using the Microsoft Build Engine (MSBuild), you can build products in build-lab environments where Visual Studio is not installed. MSBuild uses an XML format for project files that's extensible and fully supported by Microsoft. Using the MSBuild file format, you can describe what items must be built for one or more platforms and configurations.

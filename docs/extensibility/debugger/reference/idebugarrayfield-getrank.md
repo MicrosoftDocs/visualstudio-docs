@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugArrayField::GetRank
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the rank or number of dimensions of the array.
 
 ## Syntax

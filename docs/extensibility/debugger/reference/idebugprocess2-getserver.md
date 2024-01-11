@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProcess2::GetServer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the server that this process is running on.
 
 ## Syntax

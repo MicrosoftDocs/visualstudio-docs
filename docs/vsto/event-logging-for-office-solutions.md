@@ -18,7 +18,6 @@ ms.subservice: office-development
 ---
 # Event logging for Office solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can use the event viewer in Windows to see exception messages that are captured by the  Visual Studio Tools for Office runtime  when you install or uninstall Office solutions. You can use these messages from the event logger to resolve installation and deployment problems.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]

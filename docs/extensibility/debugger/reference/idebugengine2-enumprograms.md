@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugEngine2::EnumPrograms
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a list of all programs being debugged by a debug engine (DE).
 
 ## Syntax

@@ -25,7 +25,6 @@ ms.subservice: office-development
 ---
 # Create Office projects in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can use Visual Studio to create VSTO Add-in and document-level customizations for Microsoft Office applications. For more information about these types of projects, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]

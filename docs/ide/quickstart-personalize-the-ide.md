@@ -10,8 +10,6 @@ ms.subservice: general-ide
 ---
 # Personalize the Visual Studio IDE and the editor
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 ::: moniker range="vs-2022"
 
 This article shows you how to change the [color theme](#set-the-color-theme-for-the-ide) in the Visual Studio IDE, and how to change the [font colors](#change-text-colors-in-the-editor) in the editor.

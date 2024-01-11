@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # CustomType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Vendor-defined types (compiler-specific types) are identified by a `SymTagCustomType` symbol.
 
 ## Properties

@@ -10,8 +10,6 @@ ms.subservice: data-tools
 ---
 # Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Stored procedures can be added to the **O/R Designer** and executed as typical <xref:System.Data.Linq.DataContext> methods. They can also be used to override the default LINQ to SQL run-time behavior that performs Inserts, Updates, and Deletes when changes are saved from entity classes to a database (for example, when calling the <xref:System.Data.Linq.DataContext.SubmitChanges%2A> method).
 
 > [!NOTE]

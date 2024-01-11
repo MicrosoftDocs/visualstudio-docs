@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IEnumCodePaths2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a list of code paths.
 
 ## Syntax

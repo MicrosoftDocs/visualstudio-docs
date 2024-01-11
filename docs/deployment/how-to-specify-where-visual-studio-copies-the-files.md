@@ -17,8 +17,6 @@ ms.subservice: deployment
 ---
 # Specify ClickOnce Publish properties
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 You can configure ClickOnce Publish properties on the **Publish** page of the **Project Designer**, or by using the Publish Wizard. In this article, you learn how to specify basic properties such as the publishing location, the installation URL, online or offline install mode, and the publish version.
 
 ## Specify a publishing location

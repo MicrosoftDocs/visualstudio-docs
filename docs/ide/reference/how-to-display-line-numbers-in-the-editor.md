@@ -15,8 +15,6 @@ ms.subservice: general-ide
 ---
 # Display line numbers in the editor
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 You can show or hide line numbers in your code. Here's how.
 
 1. On the menu bar, select **Tools** > **Options** > **Text Editor**, and then select either the language you're using or **All Languages** to turn on line numbers in all supported programming languages.

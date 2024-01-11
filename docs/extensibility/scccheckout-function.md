@@ -14,7 +14,6 @@ ms.subservice: extensibility-integration
 ---
 # SccCheckout function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Given a list of fully qualified file names, this function checks them out to the local drive. The comment applies to all files being checked out. The comment argument can be a `null` string.
 
 ## Syntax

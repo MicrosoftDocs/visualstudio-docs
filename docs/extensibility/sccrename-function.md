@@ -14,7 +14,6 @@ ms.subservice: extensibility-integration
 ---
 # SccRename Function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function renames a file in the source control system.
 
 ## Syntax

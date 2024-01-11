@@ -18,8 +18,6 @@ manager: jmartens
 ---
 # Update Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This topic discusses how to update a client installation of Visual Studio on Windows. For Visual Studio for Mac, see [Update Visual Studio for Mac](/visualstudio/mac/update).
 
 Visual Studio must first be [installed on the machine](../install/install-visual-studio.md) before you can update it. 
@@ -227,7 +225,6 @@ By choosing the correct value in the **Update channel** dropdown, you can contro
  * Each instance of Visual Studio has the ability to independently configure its source for updates. So, if you have two instances of Visual Studio 2022 installed, each can update from a different channel. 
  * IT Administrators can control the text in the **Update channel** dropdown. For example, they can add network layout locations as update sources. They can also suppress Microsoft hosted locations from being available as update source options. This functionality works for Visual Studio 2019 installs too. For information on how to configure these update locations, refer to the [Set defaults for enterprise deployments](/visualstudio/install/set-defaults-for-enterprise-deployments?#configuring-source-location-for-updates) page.
 
-
 ::: moniker-end
 
 ## Programmatically update Visual Studio
@@ -272,7 +269,6 @@ The most current release of the installer in the latest version of Visual Studio
 ## Update from the Microsoft Catalog
 
 You can download an Administrator Update from the [Microsoft Update Catalog](https://catalog.update.microsoft.com) into the installation directory on your machine, and use it to update your installation by just double-clicking on it to apply the update. 
-
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

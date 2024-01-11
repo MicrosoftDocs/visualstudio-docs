@@ -17,7 +17,6 @@ dev_langs:
 ---
 # EXCEPTION_INFO
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes an exception or run-time error thrown by the program being debugged.
 
 ## Syntax

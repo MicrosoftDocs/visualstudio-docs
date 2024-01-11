@@ -22,7 +22,6 @@ Test earlier and more often.  Simulate and test the behavior of unavailable evol
 
 3. You're redirected to the Parasoft website, where you create an account.  Just provide your contact information and select **Submit**.
 
-
 4. Once you’ve created your account, you see a notification that you've been sent an email with download instructions.  (Remember to check your spam or junk mail folders if you don’t see the email in your inbox.)
 
 5. Open the email and copy the **Activation Code** to your clipboard.

@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # CvCreateDefaultMarkerSeriesOfDefaultProvider function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates default marker series of a default provider.
 
 ## Syntax
