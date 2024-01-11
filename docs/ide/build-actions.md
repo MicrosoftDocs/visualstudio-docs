@@ -2,7 +2,7 @@
 title: Build actions for files
 description: Learn how all files in a Visual Studio project have a build action and the build action controls what happens to the file when the project is compiled.
 ms.date: 11/19/2018
-ms.subservice: vs-ide-compile
+ms.subservice: compile-build
 ms.topic: reference
 author: ghogen
 ms.author: ghogen 

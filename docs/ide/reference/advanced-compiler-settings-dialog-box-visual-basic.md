@@ -2,7 +2,7 @@
 title: Advanced Compiler Settings Dialog Box (Visual Basic)
 description: Learn how you can use the Advanced Compiler Settings dialog box to specify the project's advanced build-configuration properties.
 ms.date: 11/04/2016
-ms.subservice: vs-ide-compile
+ms.subservice: compile-build
 ms.topic: reference
 f1_keywords:
 - vb.ProjectPropertiesAdvancedCompile

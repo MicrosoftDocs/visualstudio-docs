@@ -2,7 +2,7 @@
 title: Pre-build event-Post-build event command line dialog
 description: Learn how you can pre- or post-build events directly in the edit box, or how you can select pre- and post-build macros from a list of available macros.
 ms.date: 11/04/2016
-ms.subservice: vs-ide-compile
+ms.subservice: compile-build
 ms.topic: reference
 f1_keywords:
 - cs.ProjectPropertiesBuildEventsBuilder
