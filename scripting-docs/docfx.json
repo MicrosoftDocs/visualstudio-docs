@@ -43,7 +43,7 @@
       "ms.date": "3/7/2017",
       "ms.topic": "reference",
       "ms.service": "visual-studio-windows",
-      "ms.technology": "vs-javascript",
+      "ms.subservice": "javascript-typescript",
       "audience": "developer",
       "searchScope": [
         "Scripting"
