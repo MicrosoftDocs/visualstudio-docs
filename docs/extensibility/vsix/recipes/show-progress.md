@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: madskristensen
 ms.author: madsk
 manager: pchapman
-ms.prod: visual-studio-windows
+
 ms.subservice: extensibility-integration
 ---
 # Progress bars for backgrounds tasks in Visual Studio extensions

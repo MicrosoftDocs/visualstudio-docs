@@ -6,7 +6,7 @@ ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 ms.manager: jmartens
-ms.prod: visual-studio-windows
+
 ms.subservice: general-ide
 ---
 # Create a Git branch in Visual Studio

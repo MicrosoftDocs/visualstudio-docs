@@ -10,7 +10,7 @@ author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.subservice: general-ide
-ms.prod: visual-studio-windows
+
 ms.topic: whats-new
 ms.custom: vs-acquisition
 monikerRange: vs-2019

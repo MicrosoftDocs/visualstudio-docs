@@ -7,7 +7,7 @@ ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
 ms.manager: jmartens
-ms.prod: visual-studio-windows
+
 ms.subservice: general-ide
 monikerRange: ">=vs-2019"
 ---

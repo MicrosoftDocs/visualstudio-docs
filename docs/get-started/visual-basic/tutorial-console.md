@@ -4,7 +4,7 @@ description: Create a Visual Basic console application in Visual Studio that ask
 ms.custom: vs-acquisition
 ms.date: 11/17/2023
 ms.subservice: general-ide
-ms.prod: visual-studio-windows
+
 ms.topic: tutorial
 ms.devlang: vb
 author: anandmeg

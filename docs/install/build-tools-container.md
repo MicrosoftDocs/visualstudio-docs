@@ -7,7 +7,7 @@ ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.prod: visual-studio-windows
+
 ms.subservice: installation
 ---
 # Install Build Tools into a container

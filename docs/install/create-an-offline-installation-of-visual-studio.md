@@ -10,7 +10,7 @@ f1_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.prod: visual-studio-windows
+
 ms.subservice: installation
 ---
 # Create an offline installation package of Visual Studio for local installation

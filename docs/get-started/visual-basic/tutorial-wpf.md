@@ -6,7 +6,7 @@ ms.author: meghaanand
 manager: jmartens
 ms.subservice: general-ide
 ms.topic: tutorial
-ms.prod: visual-studio-windows
+
 dev_langs:
   - "VB"
 ms.date: 12/07/2023

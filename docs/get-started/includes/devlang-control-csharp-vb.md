@@ -1,6 +1,6 @@
 ---
 author: ghogen
-ms.prod: visual-studio-windows  
+  
 ms.topic: include
 ms.date: 10/11/2019
 ms.author: ghogen

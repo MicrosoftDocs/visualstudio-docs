@@ -13,7 +13,7 @@ helpviewer_keywords:
 - workload ID, Visual Studio
 - component ID, Visual Studio
 - install Visual Studio, administrator guide
-ms.prod: visual-studio-windows
+
 ms.subservice: installation
 open_to_public_contributors: false
 ---

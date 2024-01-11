@@ -12,7 +12,7 @@ metadata:
   author: ghogen
   ms.author: ghogen  
   manager: jmartens
-  ms.prod: visual-studio-windows
+  
   ms.subservice: vs-acquisition  
   dev_langs:
     - CSharp

@@ -4,7 +4,7 @@ description: Start programming with C# in Visual Studio and run programs from a 
 ms.custom: vs-acquisition
 ms.date: 3/8/2023
 ms.subservice: general-ide
-ms.prod: visual-studio-windows
+
 ms.topic: tutorial
 ms.devlang: CSharp
 author: ghogen

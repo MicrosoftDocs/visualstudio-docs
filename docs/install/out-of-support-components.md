@@ -12,7 +12,7 @@ helpviewer_keywords:
 - out of support
 - out-of-support components
 - Visual Studio
-ms.prod: visual-studio-windows
+
 ms.subservice: installation
 open_to_public_contributors: false
 ---

@@ -12,7 +12,7 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.prod: visual-studio-windows
+
 ms.subservice: installation
 ---
 # Configure policies for enterprise deployments of Visual Studio

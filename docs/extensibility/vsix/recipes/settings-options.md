@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: madskristensen
 ms.author: madsk
 manager: pchapman
-ms.prod: visual-studio-windows
+
 ms.subservice: extensibility-integration
 ---
 # Custom settings and options in Visual Studio extensions

@@ -7,7 +7,7 @@ manager: jmartens
 ms.subservice: general-ide
 ms.topic: tutorial
 ms.date: 11/17/2023
-ms.prod: visual-studio-windows
+
 dev_langs:
   - CSharp
 ms.devlang: CSharp

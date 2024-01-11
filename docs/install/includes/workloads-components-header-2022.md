@@ -3,7 +3,7 @@ author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.date: 12/1/2022
-ms.prod: visual-studio-windows
+
 ms.subservice: installation
 ms.topic: include
 ---

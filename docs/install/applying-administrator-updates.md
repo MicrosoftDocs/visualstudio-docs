@@ -7,7 +7,7 @@ ms.topic: overview
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.prod: visual-studio-windows
+
 ms.subservice: installation
 ---
 # Applying administrator updates that use Microsoft Endpoint Manager (SCCM or Intune)

@@ -4,7 +4,7 @@ description: Learn how to open a cloned project in a Git or Azure DevOps reposit
 ms.custom: vs-acquisition
 ms.date: 12/04/2023
 ms.subservice: general-ide
-ms.prod: visual-studio-windows
+
 ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand

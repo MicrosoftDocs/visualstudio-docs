@@ -7,7 +7,7 @@ ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 ms.manager: jmartens
-ms.prod: visual-studio-windows
+
 ms.subservice: general-ide
 ---
 # Resolve merge conflicts in Visual Studio

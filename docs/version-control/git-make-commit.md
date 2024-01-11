@@ -7,7 +7,7 @@ ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 ms.manager: jmartens
-ms.prod: visual-studio-windows
+
 ms.subservice: general-ide
 ---
 # Make a Git commit in Visual Studio

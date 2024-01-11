@@ -4,7 +4,7 @@ description: Create a C# console application in Visual Studio and explore some f
 ms.custom: vs-acquisition
 ms.date: 11/17/2023
 ms.subservice: general-ide
-ms.prod: visual-studio-windows
+
 ms.topic: tutorial
 ms.devlang: CSharp
 author: anandmeg

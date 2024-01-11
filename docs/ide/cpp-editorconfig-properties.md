@@ -9,7 +9,7 @@ manager: jmartens
 ms.subservice: general-ide
 dev_langs:
  - CPP
-ms.prod: visual-studio-windows
+
 ms.topic: reference
 monikerRange: vs-2019
 ---
