@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.subservice: vs-xml-tools
+ms.subservice: xml-tools
 ---
 # Sorting, filtering, and grouping (XML Schema Explorer)
 

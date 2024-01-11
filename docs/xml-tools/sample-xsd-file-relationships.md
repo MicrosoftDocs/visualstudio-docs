@@ -6,7 +6,7 @@ ms.topic: sample
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.subservice: vs-xml-tools
+ms.subservice: xml-tools
 ---
 # Sample XSD file: Relationships
 

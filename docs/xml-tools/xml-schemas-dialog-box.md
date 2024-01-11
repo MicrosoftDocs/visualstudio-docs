@@ -8,7 +8,7 @@ f1_keywords:
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.subservice: vs-xml-tools
+ms.subservice: xml-tools
 ---
 # XML Schemas dialog box
 

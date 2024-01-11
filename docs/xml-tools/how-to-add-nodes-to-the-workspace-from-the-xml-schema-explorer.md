@@ -6,7 +6,7 @@ ms.topic: how-to
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.subservice: vs-xml-tools
+ms.subservice: xml-tools
 ---
 # Add nodes to the workspace from the XML Schema Explorer
 
