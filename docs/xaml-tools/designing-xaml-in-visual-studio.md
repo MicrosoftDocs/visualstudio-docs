@@ -7,7 +7,7 @@ ms.topic: conceptual
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.subservice: vs-xaml-tools
+ms.subservice: xaml-tools
 ---
 # Design XAML in Visual Studio and Blend for Visual Studio
 

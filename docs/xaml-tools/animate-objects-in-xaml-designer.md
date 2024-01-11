@@ -7,7 +7,7 @@ ms.topic: how-to
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.subservice: vs-xaml-tools
+ms.subservice: xaml-tools
 ---
 # Animate objects in XAML Designer
 

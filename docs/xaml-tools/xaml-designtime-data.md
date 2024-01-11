@@ -6,7 +6,7 @@ ms.topic: overview
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.subservice: vs-xaml-tools
+ms.subservice: xaml-tools
 monikerRange: ">=vs-2019"
 ---
 # Use Design Time Data with the XAML Designer in Visual Studio

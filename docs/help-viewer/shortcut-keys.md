@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.subservice: vs-help-viewer
+ms.subservice: help-viewer
 ---
 # Shortcut keys in Microsoft Help Viewer
 

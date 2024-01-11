@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: jasonchlus
 ms.author: jasonchlus
 manager: jmartens
-ms.subservice: vs-help-viewer
+ms.subservice: help-viewer
 ---
 # Logical and advanced operators in search expressions
 

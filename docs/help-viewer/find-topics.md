@@ -6,7 +6,7 @@ ms.topic: how-to
 author: jasonchlus
 ms.author: jasonchlus
 manager: jmartens
-ms.subservice: vs-help-viewer
+ms.subservice: help-viewer
 ---
 # Search for topics in Help Viewer
 

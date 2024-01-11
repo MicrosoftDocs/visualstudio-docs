@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.subservice: vs-xaml-tools
+ms.subservice: xaml-tools
 ---
 # Work with elements in XAML Designer
 

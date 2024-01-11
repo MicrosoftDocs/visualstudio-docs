@@ -6,7 +6,7 @@ ms.topic: reference
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.subservice: vs-xaml-tools
+ms.subservice: xaml-tools
 ---
 # Keyboard shortcuts for XAML Designer
 

@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.subservice: vs-help-viewer
+ms.subservice: help-viewer
 ---
 # Override Help Viewer defaults
 
