@@ -11,7 +11,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Selection and Currency in the IDE
 
@@ -56,6 +56,6 @@ The Visual Studio integrated development environment (IDE) maintains information
 
 - Events that change the elements traced within the window frame selection context. Examples include changing selection within a DocObject or changing selection in a project-type window.
 
-## See also
+## Related content
 - [Selection Context Objects](../../extensibility/internals/selection-context-objects.md)
 - [Feedback to the User](../../extensibility/internals/feedback-to-the-user.md)

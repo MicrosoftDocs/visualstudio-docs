@@ -11,7 +11,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Add new data sources in ADO.NET applications (.NET Framework)
 

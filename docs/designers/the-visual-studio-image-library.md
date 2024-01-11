@@ -14,7 +14,7 @@ helpviewer_keywords:
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-designers
+ms.subservice: ui-designers
 ---
 # The Visual Studio image library
 

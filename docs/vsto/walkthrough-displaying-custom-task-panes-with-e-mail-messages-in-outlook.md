@@ -16,7 +16,7 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Walkthrough: Display custom task panes with email messages in Outlook
 

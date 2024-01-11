@@ -10,7 +10,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Upgrading Projects
 
@@ -173,6 +173,6 @@ Typically, project item implementers want to leverage an already fully instantia
 
 2. At the time your project item gets a notification of the project upgrade, the **Visual Studio Conversion Wizard** is still displayed. Therefore, you should use the methods of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUpgradeLogger> interface to provide upgrade messages to the wizard UI.
 
-## See also
+## Related content
 
 - [Projects](../../extensibility/internals/projects.md)

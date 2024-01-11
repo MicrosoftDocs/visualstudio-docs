@@ -6,8 +6,8 @@ ms.topic: conceptual
 author: madskristensen
 ms.author: madsk
 manager: pchapman
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-sdk
+
+ms.subservice: extensibility-integration
 ---
 # Error handling in Visual Studio extensions
 

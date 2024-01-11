@@ -5,7 +5,7 @@ ms.date: 06/29/2023
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-designers
+ms.subservice: ui-designers
 ms.topic: how-to
 ms.custom: contperf-fy23q2,  engagement-fy23
 ---

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - unit tests, and generics
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Unit tests for generic methods

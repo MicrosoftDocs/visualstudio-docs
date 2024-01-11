@@ -10,7 +10,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # How VSPackages add user interface elements
 
@@ -288,5 +288,5 @@ Considerations for selecting and positioning command elements are as follows:
 
 - To cause certain UI elements to be displayed in the IDE, you must implement one or more interfaces or write some code.
 
-## See also
+## Related content
 - [Extend menus and commands](../../extensibility/extending-menus-and-commands.md)

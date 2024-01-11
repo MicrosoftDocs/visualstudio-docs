@@ -7,8 +7,8 @@ ms.topic: overview
 author: ghogen
 ms.author: ghogen
 ms.manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
+
+ms.subservice: general-ide
 ---
 # How Visual Studio makes version control easy with Git
 

@@ -6,7 +6,7 @@ ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # View and edit code by using Peek Definition (Alt+F12)
 

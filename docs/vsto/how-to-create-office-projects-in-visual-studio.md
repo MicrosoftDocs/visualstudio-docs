@@ -21,7 +21,7 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Create Office projects in Visual Studio
 

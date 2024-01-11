@@ -10,7 +10,7 @@ dev_langs:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Create custom views of C++ objects in the debugger using the Natvis framework
 

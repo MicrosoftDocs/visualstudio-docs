@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: ankitvarmait
 ms.author: anva
 manager: tinali
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 
 # Visual Studio SDK error messages

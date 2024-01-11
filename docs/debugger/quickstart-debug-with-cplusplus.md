@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Quickstart: Debug with C++ using the Visual Studio debugger
 

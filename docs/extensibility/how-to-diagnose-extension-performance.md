@@ -6,7 +6,7 @@ ms.topic: how-to
 author: "BertanAygun"
 ms.author: "bertaygu"
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Measuring extension impact in startup
 

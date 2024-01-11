@@ -6,7 +6,7 @@ ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Create DataContext methods mapped to stored procedures and functions (O/R Designer)
 

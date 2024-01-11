@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # New Project Generation: Under the Hood, Part One
 
@@ -206,5 +206,5 @@ devenv /installvstemplates
 
     **MyProjectNode** appears as a child node of Visual C# just under the Windows node.
 
-## See also
+## Related content
 - [New Project Generation: Under the Hood, Part Two](../../extensibility/internals/new-project-generation-under-the-hood-part-two.md)

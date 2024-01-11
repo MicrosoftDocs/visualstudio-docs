@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Get publish settings from Azure and import into Visual Studio
 

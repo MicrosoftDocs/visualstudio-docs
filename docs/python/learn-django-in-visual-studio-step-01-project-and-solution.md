@@ -7,7 +7,7 @@ ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
+ms.subservice: python
 ---
 
 # Tutorial: Get started with the Django web framework in Visual Studio

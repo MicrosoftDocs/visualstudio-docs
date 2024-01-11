@@ -11,7 +11,7 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Development best practices for COM, VSTO, and VBA add-ins in Office
 

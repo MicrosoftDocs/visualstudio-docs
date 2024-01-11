@@ -10,7 +10,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # What's New in Source Control for the Visual Studio 2015 SDK
 
@@ -39,7 +39,7 @@ The following steps give a general overview of what is needed to implement a sou
 
 6. Your source control VSPackage must listen to events such as those implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3> interface as well as Track Project Document (TPD) events (as implemented by the <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2> interface) and take necessary action.
 
-## See also
+## Related content
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProvider>

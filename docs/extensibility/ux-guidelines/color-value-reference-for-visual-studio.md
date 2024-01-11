@@ -8,7 +8,7 @@ ms.date: 08/04/2017
 ms.topic: reference
 ms.reviewer: "Jamie.Young"
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Color value reference for Visual Studio
 

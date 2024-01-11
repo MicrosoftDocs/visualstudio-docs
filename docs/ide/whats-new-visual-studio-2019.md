@@ -9,8 +9,8 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.prod: visual-studio-windows
+ms.subservice: general-ide
+
 ms.topic: whats-new
 ms.custom: vs-acquisition
 monikerRange: vs-2019

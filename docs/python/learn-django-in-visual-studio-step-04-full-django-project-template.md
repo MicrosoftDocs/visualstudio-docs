@@ -7,7 +7,7 @@ ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
+ms.subservice: python
 ---
 # Step 4: Use the full Django Web Project template
 

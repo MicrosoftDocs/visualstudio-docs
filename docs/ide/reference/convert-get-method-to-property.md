@@ -7,7 +7,7 @@ ms.devlang: csharp
 author: mikadumont
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 f1_keywords:
 - vs.csharp.refactoring.convertmethodtoproperty
 dev_langs:

@@ -19,7 +19,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # A DCOM error occurred trying to contact the remote computer. Access is denied.
 

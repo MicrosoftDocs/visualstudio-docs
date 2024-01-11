@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-help-viewer
+ms.subservice: help-viewer
 ---
 # Deploy and manage local Help installations for network environments 
 

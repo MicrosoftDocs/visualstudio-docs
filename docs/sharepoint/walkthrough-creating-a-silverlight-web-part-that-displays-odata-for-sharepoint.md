@@ -12,7 +12,7 @@ dev_langs:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
+ms.subservice: sharepoint-development
 ---
 # Walkthrough: Create a Silverlight web part that displays OData for SharePoint
 

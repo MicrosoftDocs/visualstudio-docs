@@ -12,7 +12,7 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # IntelliSense in Visual Studio
 

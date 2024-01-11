@@ -15,7 +15,7 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
+ms.subservice: sharepoint-development
 ---
 # Browse SharePoint connections by using Server Explorer
 

@@ -14,7 +14,7 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
+ms.subservice: sharepoint-development
 ---
 # Add a filter descriptor to a Finder method
 

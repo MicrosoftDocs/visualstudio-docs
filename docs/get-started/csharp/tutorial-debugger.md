@@ -2,7 +2,7 @@
 title: "Tutorial: Debug C# code and inspect data"
 description: Learn features of the Visual Studio debugger and how to start the debugger, step through code, and inspect data in a C# application.
 ms.date: 10/25/2023
-ms.technology: "vs-ide-debug"
+ms.subservice: debug-diagnostics
 ms.topic: tutorial
 dev_langs:
   - "CSharp"

@@ -2,7 +2,7 @@
 title: Options, Text Editor, JavaScript, IntelliSense
 description: Learn how to use the IntelliSense page of the Options dialog box to modify settings that affect the behavior of IntelliSense for JavaScript.
 ms.date: 01/16/2023
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Intellisense.References"

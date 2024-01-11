@@ -11,7 +11,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Manage VSPackages
 
@@ -38,5 +38,5 @@ Extensions can impact startup and solution load performance. Learn how Visual St
 ## Troubleshoot VSPackages
  Find out the techniques for troubleshooting VSPackages that don't load or are experiencing errors: [Troubleshoot VSPackages](../extensibility/troubleshooting-vspackages.md)
 
-## See also
+## Related content
 - [VSPackages](../extensibility/internals/vspackages.md)

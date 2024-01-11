@@ -18,7 +18,7 @@ dev_langs:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
+ms.subservice: sharepoint-development
 ---
 # Create site columns, content types, and lists for SharePoint
 

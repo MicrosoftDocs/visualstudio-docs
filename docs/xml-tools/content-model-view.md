@@ -6,7 +6,7 @@ ms.topic: reference
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.technology: vs-xml-tools
+ms.subservice: xml-tools
 ---
 # Content Model View
 

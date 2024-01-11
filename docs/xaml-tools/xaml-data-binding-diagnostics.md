@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.technology: vs-xaml-tools
+ms.subservice: xaml-tools
 monikerRange: ">=vs-2019"
 ---
 # XAML data binding diagnostics

@@ -13,7 +13,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Localize menu commands
 
@@ -159,7 +159,7 @@ You must modify the *assemblyinfo.cs* file and the project file to incorporate t
 
      This creates a main assembly, and resource assemblies for each language. For information on localizing the deployment process, see [Localize VSIX packages](../extensibility/localizing-vsix-packages.md)
 
-## See also
+## Related content
 
 - [Extend menus and commands](../extensibility/extending-menus-and-commands.md)
 - [Globalize and Localize applications](../ide/globalizing-and-localizing-applications.md)

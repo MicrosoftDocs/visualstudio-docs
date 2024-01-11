@@ -21,7 +21,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # View register values in the Registers window (C#, C++, Visual Basic, F#)
 

@@ -5,7 +5,7 @@ ms.date: 02/22/2023
 ms.topic: how-to
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Create a unit test project

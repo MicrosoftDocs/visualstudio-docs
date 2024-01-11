@@ -10,7 +10,7 @@ ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Tutorial: Add math problems to a math quiz WinForms app
 

@@ -14,7 +14,7 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Walkthrough: Simple data binding in VSTO Add-in Project
 

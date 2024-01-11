@@ -15,7 +15,7 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 monikerRange: '>= vs-2019'
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Overview of Publish
 

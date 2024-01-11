@@ -6,7 +6,7 @@ ms.topic: how-to
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-designers
+ms.subservice: ui-designers
 ---
 # Apply a shader to a 3D model
 

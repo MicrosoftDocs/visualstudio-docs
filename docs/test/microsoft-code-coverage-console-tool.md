@@ -5,7 +5,7 @@ ms.date: 12/05/2023
 ms.topic: conceptual
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Microsoft.CodeCoverage.Console tool

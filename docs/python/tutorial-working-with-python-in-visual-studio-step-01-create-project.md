@@ -7,7 +7,7 @@ ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
+ms.subservice: python
 ms.custom: vs-acquisition
 ---
 # Tutorial: Work with Python in Visual Studio

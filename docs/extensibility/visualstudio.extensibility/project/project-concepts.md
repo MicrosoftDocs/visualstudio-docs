@@ -4,7 +4,7 @@ description: Learn how to use the project query API to get and change properties
 author: Jxwoon
 ms.author: jasminewoon
 monikerRange: ">=vs-2022"
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ms.topic: conceptual
 ms.date: 02/13/2023
 ---

@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Service Essentials
 
@@ -92,7 +92,7 @@ Fortunately, <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> wor
 
     This code obtains an SVsActivityLog service and casts it to an IVsActivityLog interface, which can be used to write to the activity log. For an example, see [How to: Use the Activity Log](../../extensibility/how-to-use-the-activity-log.md).
 
-## See also
+## Related content
 
 - [List of Available Services](../../extensibility/internals/list-of-available-services.md)
 - [Using and Providing Services](../../extensibility/using-and-providing-services.md)

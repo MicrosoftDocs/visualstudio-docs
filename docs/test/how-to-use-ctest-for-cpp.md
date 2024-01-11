@@ -5,7 +5,7 @@ ms.date: 01/23/2020
 ms.topic: how-to
 ms.author: twhitney
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 author: tylermsft
 ---
 # Use CTest for C++ in Visual Studio 2017 and later

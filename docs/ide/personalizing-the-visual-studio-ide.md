@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Personalize the Visual Studio IDE
 

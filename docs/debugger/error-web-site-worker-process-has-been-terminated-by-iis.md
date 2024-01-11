@@ -13,7 +13,7 @@ dev_langs:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Error: Web site worker process has been terminated by IIS
 

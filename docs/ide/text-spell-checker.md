@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 monikerRange: vs-2022
 ---
 # Learn about the Spell Checker

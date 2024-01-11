@@ -6,7 +6,7 @@ ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Instrument a native stand-alone component and collect timing data with the profiler from the command line
 

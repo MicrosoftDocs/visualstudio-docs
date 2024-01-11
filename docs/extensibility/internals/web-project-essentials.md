@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Web Project Essentials
 
@@ -51,5 +51,5 @@ Web projects create Web applications. You can use a Web project to create a Web 
 
   - Error markers (red squigglies) should always be created in the code editor's primary buffer.
 
-## See also
+## Related content
 - [Web Projects](../../extensibility/internals/web-projects.md)

@@ -22,7 +22,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Create ClickOnce applications for others to deploy
 

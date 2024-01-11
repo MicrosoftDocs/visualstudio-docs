@@ -7,8 +7,8 @@ ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 ms.manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
+
+ms.subservice: general-ide
 monikerRange: vs-2022
 ---
 # Stage lines of code in Visual Studio

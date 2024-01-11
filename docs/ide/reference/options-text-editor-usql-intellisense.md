@@ -9,7 +9,7 @@ f1_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Options, Text Editor, U-SQL, IntelliSense
 

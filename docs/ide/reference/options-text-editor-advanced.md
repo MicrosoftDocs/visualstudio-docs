@@ -13,7 +13,7 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 monikerRange: ">=vs-2019"
 ---
 # Options dialog box: Text Editor \> Advanced

@@ -18,7 +18,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Specify a link for Technical Support
 

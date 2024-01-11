@@ -6,7 +6,7 @@ ms.topic: how-to
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Access multiple accounts associated with the Visual Studio sign-in account
 

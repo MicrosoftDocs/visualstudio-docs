@@ -5,8 +5,8 @@ description: Update your Visual Studio installation to the most recent release t
 ms.date: 8/29/2023
 ms.custom: vs-acquisition
 ms.topic: how-to
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 helpviewer_keywords:
 - update [Visual Studio]
 - change [Visual Studio]

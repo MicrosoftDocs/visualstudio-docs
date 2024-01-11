@@ -100,7 +100,7 @@
       "manager": "jmartens",
       "audience": "developer",
       "defaultDevLang": "csharp",
-      "ms.prod": "visual-studio-windows",
+      "ms.service": "visual-studio-windows",
       "uhfHeaderId": "MSDocsHeader-VisualStudio",
       "titleSuffix": "Visual Studio (Windows)",
       "toc_preview": true,

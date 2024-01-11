@@ -31,7 +31,7 @@ helpviewer_keywords:
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # View the structure of code by using different tool windows
 

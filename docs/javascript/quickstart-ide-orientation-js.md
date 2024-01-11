@@ -7,7 +7,7 @@ ms.topic: quickstart
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 ---
 # First look at the Visual Studio IDE
 

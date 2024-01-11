@@ -17,7 +17,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Fill datasets by using TableAdapters in .NET Framework applications
 

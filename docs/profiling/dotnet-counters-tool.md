@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: MikeJo5000
 ms.author: mikejo
 manager: AndSter
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Visualize dotnet counters from the Visual Studio profiler
 

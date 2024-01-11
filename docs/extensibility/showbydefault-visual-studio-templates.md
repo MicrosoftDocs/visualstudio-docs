@@ -2,7 +2,7 @@
 title: ShowByDefault element (Visual Studio Templates)
 description: Learn about the ShowByDefault element and how, when set to false, it specifies that the template will only be displayed under the specified TemplateGroupID.
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#ShowByDefault

@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Initialization Sequence of Project Subtypes
 
@@ -125,7 +125,7 @@ HRESULT HrCreateInnerProj
 }
 ```
 
-## See also
+## Related content
 
 - <xref:Microsoft.VisualStudio.Shell.Flavor>
 - [Project Subtypes](../../extensibility/internals/project-subtypes.md)

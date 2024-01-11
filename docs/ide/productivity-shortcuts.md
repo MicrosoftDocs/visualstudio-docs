@@ -6,7 +6,7 @@ ms.topic: reference
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Shortcut tips for Visual Studio
 

@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # New Project Generation: Under the Hood, Part Two
 
@@ -148,7 +148,7 @@ namespace Simple
 </ItemGroup>
 ```
 
-## See also
+## Related content
 
 - [New Project Generation: Under the Hood, Part One](../../extensibility/internals/new-project-generation-under-the-hood-part-one.md)
 - [MSBuild](../../msbuild/msbuild.md)

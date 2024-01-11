@@ -14,7 +14,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Enable and configure ClickOnce security settings in Visual Studio
 

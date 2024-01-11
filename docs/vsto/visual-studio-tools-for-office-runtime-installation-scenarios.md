@@ -12,7 +12,7 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Visual Studio Tools for Office runtime installation scenarios
 

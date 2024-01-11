@@ -7,7 +7,7 @@ ms.topic: overview
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
+ms.subservice: python
 dev_langs:
  - Python
 ---

@@ -14,7 +14,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # Reference the name or location of the project file
 

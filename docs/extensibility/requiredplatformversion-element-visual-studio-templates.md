@@ -3,7 +3,7 @@ description: "Specifies the minimum version of the operating system that the pro
 title: RequiredPlatformVersion Element (Visual Studio Templates)
 titleSuffix: ""
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 author: maiak
 ms.author: maiak

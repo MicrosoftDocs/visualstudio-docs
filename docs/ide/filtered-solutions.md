@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: TerryGLee
 ms.author: stsu
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 monikerRange: ">= vs-2019"
 ---
 # Filtered solutions in Visual Studio

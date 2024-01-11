@@ -15,7 +15,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Insert new records into a database in .NET Framework applications
 

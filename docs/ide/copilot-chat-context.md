@@ -6,7 +6,7 @@ ms.topic: how-to
 author: anandmeg
 ms.author: meghaanand
 ms.manager: jmartens
-ms.technology: vs-ai-tools
+ms.subservice: ai-tools
 helpviewer_keywords: 
   - copilot chat context
   - context, copilot chat

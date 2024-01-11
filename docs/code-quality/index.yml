@@ -6,8 +6,7 @@ summary: Visual Studio provides several different tools to analyze and improve c
 metadata:
   title: Visual Studio code analysis documentation (Windows)
   description: Explore analysis options in Visual Studio to assess code quality, including options for .NET and C++, quality and style rules, and handling warnings. 
-  ms.prod: visual-studio-windows
-  ms.technology: vs-ide-code-analysis
+  ms.subservice: code-analysis
   ms.topic: landing-page
   author: Mikejo5000
   ms.author: mikejo

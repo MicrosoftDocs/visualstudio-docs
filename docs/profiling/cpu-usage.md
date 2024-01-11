@@ -6,7 +6,7 @@ ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Analyze CPU usage without debugging in the Performance Profiler (C#, Visual Basic, C++, F#)
 

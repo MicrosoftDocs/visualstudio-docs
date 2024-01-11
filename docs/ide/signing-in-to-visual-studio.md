@@ -7,7 +7,7 @@ ms.topic: how-to
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Sign in or switch Visual Studio user accounts 
 

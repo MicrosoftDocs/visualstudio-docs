@@ -26,7 +26,7 @@ helpviewer_keywords:
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Options, Text Editor, XAML, Miscellaneous
 

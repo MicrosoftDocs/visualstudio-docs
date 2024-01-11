@@ -6,7 +6,7 @@ ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Change the return type of a DataContext method (O/R Designer)
 

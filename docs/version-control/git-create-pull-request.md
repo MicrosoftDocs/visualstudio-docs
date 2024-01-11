@@ -7,8 +7,8 @@ ms.topic: how-to
 author: houghj16
 ms.author: jehoughton
 ms.manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
+
+ms.subservice: general-ide
 ---
 # Create a pull request in Visual Studio 
 

@@ -10,7 +10,7 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 ---
 # Overview of the Domain-Specific Language Tools User Interface
 

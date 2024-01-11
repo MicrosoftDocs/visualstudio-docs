@@ -6,7 +6,7 @@ ms.topic: how-to
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Walkthrough: Create an SDK using JavaScript
 

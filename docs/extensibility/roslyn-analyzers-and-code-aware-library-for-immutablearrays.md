@@ -7,7 +7,7 @@ ms.topic: conceptual
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Roslyn analyzers and code-aware library for ImmutableArrays
 

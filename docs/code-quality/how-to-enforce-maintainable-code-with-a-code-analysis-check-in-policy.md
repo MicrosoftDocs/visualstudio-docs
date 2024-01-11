@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-code-analysis
+ms.subservice: code-analysis
 ---
 # Enforce maintainable code with a code analysis check-in policy
 

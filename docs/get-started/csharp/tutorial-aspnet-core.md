@@ -4,10 +4,10 @@ description: Create a web application in the Visual Studio integrated developmen
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: tutorial
 ms.date: 11/17/2023
-ms.prod: visual-studio-windows
+
 dev_langs:
   - CSharp
 ms.devlang: CSharp

@@ -2,7 +2,7 @@
 title: TargetPlatformName Element (Visual Studio Templates)
 description: Learn about the TargetPlatformName element and how it specifies the platform that the project template targets.
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 author: maiak
 ms.author: maiak

@@ -15,7 +15,7 @@ dev_langs:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor
 

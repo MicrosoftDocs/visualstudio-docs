@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: madskristensen
 ms.author: madsk
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Suggest a feature for Visual Studio
 
