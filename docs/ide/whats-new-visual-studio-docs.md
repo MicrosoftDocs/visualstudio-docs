@@ -35,15 +35,15 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Menus and Toolbars overview](../extensibility/visualstudio.extensibility/command/menus-and-toolbars.md) - VisualStudio.Extensibility preview updates
-- [Create Visual Studio debugger visualizers](../extensibility/visualstudio.extensibility/debugger-visualizer/debugger-visualizers.md) - VisualStudio.Extensibility preview updates
-- [Using VisualStudio.Extensibility SDK and VSSDK together](../extensibility/visualstudio.extensibility/get-started/in-proc-extensions.md) - VisualStudio.Extensibility preview updates
-- [Introduction to VisualStudio.Extensibility for VSSDK users](../extensibility/visualstudio.extensibility/get-started/oop-extensibility-model-overview.md) - VisualStudio.Extensibility preview
-- [Create a simple extension](../extensibility/visualstudio.extensibility/get-started/tutorial-create-simple-extension.md) - VisualStudio.Extensibility preview updates
-- [Rule-based activation constraints](../extensibility/visualstudio.extensibility/inside-the-sdk/activation-constraints.md) - VisualStudio.Extensibility preview updates
-- [Contributions and Configurations](../extensibility/visualstudio.extensibility/inside-the-sdk/contributions-and-configurations.md) - VisualStudio.Extensibility preview updates
-- [Components of a VisualStudio.Extensibility extension](../extensibility/visualstudio.extensibility/inside-the-sdk/extension-anatomy.md) - VisualStudio.Extensibility preview updates
-- [Project query API concepts](../extensibility/visualstudio.extensibility/project/project-concepts.md) - VisualStudio.Extensibility preview updates
+- [Menus and Toolbars overview](../extensibility/visualstudio.extensibility/command/menus-and-toolbars.md) - VisualStudio.Extensibility Preview updates
+- [Create Visual Studio debugger visualizers](../extensibility/visualstudio.extensibility/debugger-visualizer/debugger-visualizers.md) - VisualStudio.Extensibility Preview updates
+- [Using VisualStudio.Extensibility SDK and VSSDK together](../extensibility/visualstudio.extensibility/get-started/in-proc-extensions.md) - VisualStudio.Extensibility Preview updates
+- [Introduction to VisualStudio.Extensibility for VSSDK users](../extensibility/visualstudio.extensibility/get-started/oop-extensibility-model-overview.md) - VisualStudio.Extensibility Preview
+- [Create a simple extension](../extensibility/visualstudio.extensibility/get-started/tutorial-create-simple-extension.md) - VisualStudio.Extensibility Preview updates
+- [Rule-based activation constraints](../extensibility/visualstudio.extensibility/inside-the-sdk/activation-constraints.md) - VisualStudio.Extensibility Preview updates
+- [Contributions and Configurations](../extensibility/visualstudio.extensibility/inside-the-sdk/contributions-and-configurations.md) - VisualStudio.Extensibility Preview updates
+- [Components of a VisualStudio.Extensibility extension](../extensibility/visualstudio.extensibility/inside-the-sdk/extension-anatomy.md) - VisualStudio.Extensibility Preview updates
+- [Project query API concepts](../extensibility/visualstudio.extensibility/project/project-concepts.md) - VisualStudio.Extensibility Preview updates
 
 ### Get started
 
