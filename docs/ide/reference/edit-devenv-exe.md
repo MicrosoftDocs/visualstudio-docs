@@ -14,7 +14,6 @@ ms.subservice: general-ide
 ---
 # /Edit (devenv.exe)
 
-
 Opens the specified file in an existing instance of Visual Studio.
 
 ## Syntax

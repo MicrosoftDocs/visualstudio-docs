@@ -12,7 +12,6 @@ dev_langs:
 ---
 # Use pattern matching
 
-
 This refactoring applies to:
 
 - C#

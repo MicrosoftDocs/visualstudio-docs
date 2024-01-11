@@ -17,7 +17,6 @@ dev_langs:
 ---
 # PDB_TYPE
 
-
 This structure specifies information about a field type taken from a PDB symbol.
 
 ## Syntax

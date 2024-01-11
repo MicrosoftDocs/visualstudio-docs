@@ -12,7 +12,6 @@ ms.subservice: ui-designers
 ---
 # Tutorial: Get started with Windows Forms Designer
 
-
 The Windows Forms Designer provides many tools for building Windows Forms applications. This article illustrates how to build an app by using the various tools provided by the designer, including the following tasks:
 
 - Arrange controls by using snaplines.

@@ -15,7 +15,6 @@ ms.subservice: extensibility-integration
 ---
 # RDT_ReadLock Usage
 
-
 [_VSRDTFLAGS.RDT_ReadLock](<xref:Microsoft.VisualStudio.Shell.Interop._VSRDTFLAGS.RDT_ReadLock>) is a flag that provides logic for locking a document in the Running Document Table (RDT), which is the list of all the documents that are currently open in the Visual Studio IDE. This flag determines when documents are opened, and whether a document is visible in the user interface or held invisibly in memory.
 
 Generally, you use [_VSRDTFLAGS.RDT_ReadLock](<xref:Microsoft.VisualStudio.Shell.Interop._VSRDTFLAGS.RDT_ReadLock>) when one of the following is true:

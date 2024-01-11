@@ -10,7 +10,6 @@ ms.subservice: extensibility-integration
 ---
 # Microsoft Help Viewer SDK
 
-
 This article contains the following tasks for Visual Studio Help Viewer integrators:
 
 - Creating a topic (F1 support)

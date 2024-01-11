@@ -13,7 +13,6 @@ manager: jmartens
 ---
 # Introduction to projects and solutions
 
-
 This introductory article explores what it means to create a *solution* and a *project* in Visual Studio. A solution is a container to organize one or more related code projects, like a class library project and a corresponding test project.
 
 As an educational exercise to understand the concept of a project, you'll construct a solution and project from scratch. Ordinarily, you'd use Visual Studio project *templates* to create new projects. You'll also look at the properties of a project and some of the files it can contain, and create a reference from one project to another.

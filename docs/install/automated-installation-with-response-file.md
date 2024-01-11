@@ -16,7 +16,6 @@ ms.subservice: installation
 ---
 # Configure installation default settings using a response file
 
-
 In this article, you'll learn how to create a response file that helps you automate your Visual Studio installation. You can use this file to specify workloads, components, and other installation options to use when you install Visual Studio from a [layout](create-a-network-installation-of-visual-studio.md). You can also use this file to specify where the client should look for updates.
 
 The Visual Studio response file is a [JSON](http://json-schema.org/) file whose contents contain customizations used during the initial installation of Visual Studio onto the client. Its contents mirror the [command line arguments and parameters](use-command-line-parameters-to-install-visual-studio.md). Common configuration options include:

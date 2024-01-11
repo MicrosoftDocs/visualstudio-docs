@@ -12,7 +12,6 @@ ms.subservice: general-ide
 
 # Git Changes window with no active repo set
 
-
 If you issue a Git instruction in Visual Studio, such as trying to commit a change when there's no active repo set, you see the Git Changes window. From this window, you may choose to:
 
 - [Create Git repository](git-create-repository.md), if you don't have an existing Git repo.

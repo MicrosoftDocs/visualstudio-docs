@@ -13,7 +13,6 @@ dev_langs:
 ---
 # Sort usings
 
-
 This refactoring applies to:
 
 - C#

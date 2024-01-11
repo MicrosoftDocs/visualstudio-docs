@@ -12,7 +12,6 @@ ms.subservice: extensibility-integration
 ---
 # Document lock holder management
 
-
 The running document table (RDT) maintains a count of open documents and any edit locks they have. You can place an edit lock on a document in the RDT when it is programmatically edited in the background without the user seeing an open document in a document window. This functionality is often used by designers that modify multiple files through a graphical user interface.
 
 ## Document lock holder scenarios

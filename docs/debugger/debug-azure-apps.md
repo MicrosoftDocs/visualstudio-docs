@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # Debug Azure services in Visual Studio
 
-
 You can use Visual Studio to debug Azure services in different scenarios:
 
 To debug a production app hosted in:

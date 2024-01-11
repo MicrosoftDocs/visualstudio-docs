@@ -13,7 +13,6 @@ ms.subservice: ui-designers
 ---
 # What is the Image Editor in Visual Studio?
 
-
 The **Image Editor** in Visual Studio is a tool that you can use to view and modify texture and image resources. Specifically, you can use the **Image Editor** to work with the kinds of rich texture and image formats that are used in DirectX app development. **Image Editor** includes support for popular image file formats and color encodings, features such as alpha-channels and MIP-mapping, and many of the highly compressed, hardware-accelerated texture formats that DirectX supports.
 
 ## Supported formats

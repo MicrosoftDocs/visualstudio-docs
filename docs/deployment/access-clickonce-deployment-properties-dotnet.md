@@ -13,7 +13,6 @@ monikerRange: '>= vs-2022'
 ---
 # Access ClickOnce deployment properties for .NET on Windows
 
-
 Starting in .NET 7 and Visual Studio 2022 version 17.4, you can access ClickOnce deployment properties by using an environment variable.
 
 The application launcher shares ClickOnce application deployment properties with the application being launched (.NET only). Properties are shared with the application by using environment variables.

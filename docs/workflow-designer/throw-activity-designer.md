@@ -12,7 +12,6 @@ ms.subservice: workflow-designer
 ---
 # Throw Activity Designer
 
-
 The **Throw** activity designer is used to create and configure a <xref:System.Activities.Statements.Throw> activity.
 
 ## The Throw Activity

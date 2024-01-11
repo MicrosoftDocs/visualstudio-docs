@@ -16,7 +16,6 @@ ms.subservice: general-ide
 ---
 # Print command
 
-
 Evaluates an expression or displays specified text.
 
 ## Syntax

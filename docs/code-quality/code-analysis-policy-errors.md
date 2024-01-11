@@ -14,7 +14,6 @@ ms.subservice: code-analysis
 ---
 # Code Analysis Policy Errors
 
-
 The following errors occur if the code analysis policy is not satisfied at check-in:
 
 **The Code Analysis settings for one or more projects are not compatible with Code Analysis policy.**

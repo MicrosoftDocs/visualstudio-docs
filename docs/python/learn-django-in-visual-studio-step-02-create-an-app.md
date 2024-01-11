@@ -12,7 +12,6 @@ ms.subservice: python
 
 # Step 2: Create a Django app with views and page templates
 
-
 **Previous step: [Create a Visual Studio project and solution](learn-django-in-visual-studio-step-01-project-and-solution.md)**
 
 In the Visual Studio project, you only have the site-level components of a Django _project_ now, which can run one or more Django _apps_. The next step is to create your first app with a single page.

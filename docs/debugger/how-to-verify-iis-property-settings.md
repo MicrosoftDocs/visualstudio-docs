@@ -21,7 +21,6 @@ ms.subservice: debug-diagnostics
 ---
 # Verify IIS Property Settings
 
-
 You can set the properties for a Web application using the IIS administration tool. These properties must be set correctly for the application to run, so verifying these settings is often a necessary step in troubleshooting.
 
 > [!NOTE]

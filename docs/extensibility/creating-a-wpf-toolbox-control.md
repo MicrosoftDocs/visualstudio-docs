@@ -14,7 +14,6 @@ ms.subservice: extensibility-integration
 ---
 # Create a WPF Toolbox Control
 
-
 The WPF (Windows Presentation Framework) Toolbox Control template lets you create WPF controls that are automatically added to the **Toolbox** when the extension is installed. This walkthrough shows how to use the template to create a **Toolbox** control that you can distribute to other users.
 
 ## Create the Toolbox Control

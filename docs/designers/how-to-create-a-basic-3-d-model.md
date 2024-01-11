@@ -10,7 +10,6 @@ ms.subservice: ui-designers
 ---
 # Create a basic 3D model
 
-
 This article demonstrates how to use the Model Editor to create a basic 3D model. The following activities are covered:
 
 - Adding objects to a scene

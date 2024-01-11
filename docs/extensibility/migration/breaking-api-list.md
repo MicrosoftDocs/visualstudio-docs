@@ -12,7 +12,6 @@ feedback_system: GitHub
 ---
 # Breaking API changes in Visual Studio 2022
 
-
 If you're migrating an extension to Visual Studio 2022, the breaking changes listed here might affect you.
 
 ## Reference assemblies no longer installed

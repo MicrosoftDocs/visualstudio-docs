@@ -12,7 +12,6 @@ dev_langs:
 ---
 # Sync namespace and folder name
 
-
 This refactoring applies to:
 
 - C#

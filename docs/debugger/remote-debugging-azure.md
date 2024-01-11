@@ -10,7 +10,6 @@ ms.subservice: debug-diagnostics
 ---
 # Remote Debug ASP.NET Core on IIS using an Azure VM from Visual Studio
 
-
 This guide explains how to set up and configure a Visual Studio ASP.NET Core app, deploy it to IIS using an Azure VM, and attach the remote debugger from Visual Studio.
 
 For IIS scenarios, Linux isn't supported.

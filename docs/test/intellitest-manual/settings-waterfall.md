@@ -12,7 +12,6 @@ author: mikejo5000
 ---
 # Settings waterfall
 
-
 The concept of the settings waterfall means that the user can specify settings at the **Assembly**, **Fixture**, and **Exploration** level:
 
 * Assembly - [PexAssemblySettings](attribute-glossary.md#pexassemblysettings)

@@ -10,7 +10,6 @@ ms.subservice: workflow-designer
 ---
 # Add Activities to the Toolbox
 
-
 Activities can be added to the **Toolbox** in your solution in several different ways. You can add them from within your current project, reference them from a different project, or reference them from a different assembly.
 
 ## To add an activity from within your current project

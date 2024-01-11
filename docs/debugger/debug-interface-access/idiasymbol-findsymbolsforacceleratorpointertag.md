@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::findSymbolsForAcceleratorPointerTag
 
-
 Given a corresponding tag value, this method returns an enumeration of symbols that are contained in this stub function.
 
 ## Syntax

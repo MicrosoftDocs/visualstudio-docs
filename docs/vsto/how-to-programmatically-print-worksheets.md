@@ -17,7 +17,6 @@ ms.subservice: office-development
 ---
 # Programmatically print worksheets
 
-
 You can print any worksheet in a workbook.
 
 [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]

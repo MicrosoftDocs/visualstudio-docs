@@ -13,7 +13,6 @@ dev_langs:
 ---
 # Inline a temporary variable refactoring
 
-
 This refactoring applies to:
 
 - C#

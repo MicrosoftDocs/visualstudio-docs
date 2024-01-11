@@ -12,7 +12,6 @@ dev_langs:
 ---
 # Convert a foreach loop to LINQ
 
-
 This refactoring applies to:
 
 - C#

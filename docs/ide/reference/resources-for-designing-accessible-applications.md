@@ -15,7 +15,6 @@ ms.subservice: general-ide
 ---
 # Resources for designing accessible applications
 
-
 Learn more about technologies that support accessible design. We've also included tips and links to tutorials that can help you develop accessible Windows apps and websites.
 
 >[!NOTE]

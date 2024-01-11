@@ -10,7 +10,6 @@ ms.subservice: modeling
 ---
 # Embed a Diagram in a Windows Form
 
-
 You can embed a DSL diagram in a Windows control, which appears in the Visual Studio window.
 
 ## Embed a DSL diagram in a Windows control

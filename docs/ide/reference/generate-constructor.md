@@ -10,7 +10,6 @@ ms.subservice: general-ide
 ---
 # Generate a constructor in Visual Studio
 
-
 This code generation applies to:
 
 - C#

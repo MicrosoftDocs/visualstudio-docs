@@ -19,7 +19,6 @@ ms.subservice: debug-diagnostics
 ---
 # VSInstr
 
-
 The VSInstr tool is used to instrument binaries. It is invoked by using the following syntax:
 
 ```cmd

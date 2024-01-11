@@ -13,7 +13,6 @@ ms.subservice: general-ide
 ---
 # Find references in your code
 
-
 You can use the **Find All References** command to find where particular code elements are referenced throughout your codebase. The **Find All References** command is available on the context (right-click) menu of the element you want to find references to. Or, if you're a keyboard user, press **Shift + F12**.
 
 The results appear in a tool window named **\<element> references**, where *element* is the name of the item you're searching for. A toolbar in the **references** window enables you to do the following:

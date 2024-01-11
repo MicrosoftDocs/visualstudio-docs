@@ -12,7 +12,6 @@ ms.subservice: modeling
 ---
 # Customize and extend a domain-specific language
 
-
 Visual Studio Modeling and Visualization SDK (VMSDK) provides several levels at which you can define modeling tools:
 
 1. Define a domain-specific language (DSL) using the DSL Definition diagram. You can quickly create a DSL with a diagrammatic notation, a readable XML form, and the basic tools that are required to generate code and other artifacts. For more information, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md).

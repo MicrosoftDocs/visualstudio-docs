@@ -20,7 +20,6 @@ ms.subservice: debug-diagnostics
 ---
 # Threads view timeline reports in the Concurrency Visualizer
 
-
  This article provides information about the timeline reports in the Threads view of the Concurrency Visualizer.
 
 ## Execution time (Threads View)

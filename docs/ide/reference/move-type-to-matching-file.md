@@ -13,7 +13,6 @@ dev_langs:
 ---
 # Move a type to a matching file refactoring
 
-
 This refactoring applies to:
 
 - C#

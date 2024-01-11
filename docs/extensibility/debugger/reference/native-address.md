@@ -17,7 +17,6 @@ dev_langs:
 ---
 # NATIVE_ADDRESS
 
-
 This structure represents a native address.
 
 ## Syntax

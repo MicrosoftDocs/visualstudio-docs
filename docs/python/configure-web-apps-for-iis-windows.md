@@ -10,7 +10,6 @@ ms.subservice: python
 ---
 # Configure Python web apps for IIS
 
-
 When using Internet Information Services (IIS) as a web server on a Windows computer (including [Windows virtual machines on Azure](/azure/architecture/reference-architectures/n-tier/windows-vm)), Python apps must include specific settings in their *web.config* files so that IIS can properly process Python code. The computer itself must also have Python installed along with any packages the web app requires.
 
 ## Install Python on Windows

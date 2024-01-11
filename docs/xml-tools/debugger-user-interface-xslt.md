@@ -10,7 +10,6 @@ ms.subservice: xml-tools
 ---
 # Debugger user interface (XSLT)
 
-
 This article describes the debugger windows and dialog boxes. It only discusses user interface pieces that have XSLT-specific debugging behavior.
 
 For more information, see the [Debugging user interface reference](../debugger/debugging-user-interface-reference.md).

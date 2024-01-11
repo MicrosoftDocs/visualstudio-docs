@@ -18,7 +18,6 @@ ms.subservice: modeling
 ---
 # Run-Time Text Generation with T4 Text Templates
 
-
 You can generate text strings in your application at run time by using Visual Studio runtime text templates. The computer where the application executes does not have to have Visual Studio. Runtime templates are sometimes called "preprocessed text templates" because at compile time, the template generates code that is executed at run time.
 
 Each template is a mixture of the text as it will appear in the generated string, and fragments of program code. The program fragments supply values for the variable parts of the string, and also control conditional and repeated parts.

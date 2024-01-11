@@ -17,7 +17,6 @@ dev_langs:
 ---
 # PROCESS_INFO_FLAGS
 
-
 Describes or specifies properties of a process.
 
 ## Syntax

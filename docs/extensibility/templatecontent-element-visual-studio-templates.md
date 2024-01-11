@@ -14,7 +14,6 @@ manager: jmartens
 ---
 # TemplateContent Element (Visual Studio Templates)
 
-
 Specifies the contents of the template.
 
 Element hierarchy:

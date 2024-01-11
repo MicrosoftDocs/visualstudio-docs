@@ -16,7 +16,6 @@ monikerRange: '>= vs-2022'
 
 # Create an Angular app
 
-
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you create and run a simple Angular frontend web application.
 
 ## Prerequisites

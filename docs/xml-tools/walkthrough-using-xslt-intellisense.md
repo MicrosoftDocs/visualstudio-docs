@@ -10,7 +10,6 @@ ms.subservice: xml-tools
 ---
 # Walkthrough: Using XSLT IntelliSense
 
-
 This walkthrough demonstrates how to use XSLT IntelliSense to auto-complete value of some attributes.
 
 ## To use IntelliSense in the name attribute of xsl:with-param and xsl:call-template elements

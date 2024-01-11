@@ -10,7 +10,6 @@ ms.subservice: extensibility-integration
 ---
 # Troubleshooting template installation
 
-
 If you run into problems deploying your project or item templates, you can enable diagnostic logging.
 
 1. Create a pkgdef file in the *Common7\IDE\CommonExtensions* folder for your installation. For example, *C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\EnablePkgDefLogging.pkgdef*.

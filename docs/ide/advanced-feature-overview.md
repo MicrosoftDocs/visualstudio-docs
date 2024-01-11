@@ -11,7 +11,6 @@ ms.subservice: general-ide
 ---
 # Features of Visual Studio
 
-
 This article describes features for experienced developers, or developers who are already familiar with Visual Studio. For a basic introduction to Visual Studio, see the [Visual Studio IDE overview](../get-started/visual-studio-ide.md).
 
 ## Modular installation

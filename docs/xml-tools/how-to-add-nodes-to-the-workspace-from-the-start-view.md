@@ -10,7 +10,6 @@ ms.subservice: xml-tools
 ---
 # Add nodes to the workspace from the Start View
 
-
 This topic describes how to add global nodes to the [XML Schema Designer workspace](../xml-tools/xml-schema-designer-workspace.md) from the [Start View](../xml-tools/start-view.md).
 
 ## To add nodes to the workspace from the Start View

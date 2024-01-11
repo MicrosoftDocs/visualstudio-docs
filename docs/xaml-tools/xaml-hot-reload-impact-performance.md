@@ -14,11 +14,9 @@ monikerRange: ">=vs-2022"
 ---
 # XAML Hot Reload and its impact on performance diagnostic in Visual Studio
 
-
 When you're investigating an application's performance, in other words, its CPU usage and memory consumption,
 we recommend that you disable [XAML Hot Reload](xaml-hot-reload.md). Go to **Tools** > **Options** > **Debugging** > **XAML Hot Reload**
 and uncheck **Enable XAML Hot Reload**.
-
 
 XAML Hot Reload requires executing special code in a running application to collect more data. It's likely
 to execute user code and platform code that wouldn't have been executed otherwise. For example, WPF Hot Reload

@@ -17,7 +17,6 @@ dev_langs:
 ---
 # METADATA_ADDRESS_ARRAYELEM
 
-
 This structure represents an array element within an array.
 
 ## Syntax

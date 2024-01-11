@@ -17,7 +17,6 @@ ms.subservice: office-development
 ---
 # Office primary interop assemblies
 
-
 To use the features of a Microsoft Office application from an Office project, you must use the primary interop assembly (PIA) for the application. The PIA enables managed code to interact with a Microsoft Office application's COM-based object model.
 
 [!include[Add-ins note](includes/addinsnote.md)]

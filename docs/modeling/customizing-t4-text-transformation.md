@@ -13,7 +13,6 @@ ms.subservice: modeling
 ---
 # Customize T4 Text Transformation
 
-
 Text templates are a feature of Visual Studio that allow you to generate program code or other text files through a transformation process. Using Visual Studio SDK, you can extend the default template transformation process by customizing the text template directive processor or the text template host.
 
 ## In This Section

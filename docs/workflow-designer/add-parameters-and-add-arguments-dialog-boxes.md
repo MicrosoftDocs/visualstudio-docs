@@ -12,7 +12,6 @@ ms.subservice: workflow-designer
 ---
 # Add Parameters and Add Arguments Dialog Boxes
 
-
 The following table describes the user interface (UI) elements of the **Add Parameters** dialog box used by the <xref:System.Activities.Statements.InvokeMethod> designer:
 
 |Name|Value|

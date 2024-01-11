@@ -10,7 +10,6 @@ ms.subservice: xml-tools
 ---
 # Select the XML schemas to use
 
-
 The XML editor provides a schema cache located in the *%VSInstallDir%\xml\Schemas* directory. The schema cache includes well-known XML schemas that are used for IntelliSense and XML document validation.
 
 Use the **Schemas** document property to select one or more XML schema definition language (XSD) schemas. You can select schemas from the schema cache or elsewhere.

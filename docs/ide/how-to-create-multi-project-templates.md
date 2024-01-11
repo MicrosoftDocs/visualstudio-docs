@@ -14,7 +14,6 @@ ms.subservice: general-ide
 ---
 # Create multi-project templates
 
-
 Multi-project templates act as containers for two or more Visual Studio projects. When you create a project that's based on a multi-project template, every project in the template is added to the solution.
 
 > [!NOTE]

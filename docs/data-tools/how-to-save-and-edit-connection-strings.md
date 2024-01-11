@@ -10,7 +10,6 @@ ms.subservice: data-tools
 ---
 # Save and edit database connection strings for .NET Framework applications
 
-
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 > [!NOTE]

@@ -19,7 +19,6 @@ ms.subservice: debug-diagnostics
 ---
 # Create custom views of data in the Visual Studio debugger (C#, Visual Basic, C++)
 
-
 The Visual Studio debugger provides many tools for inspecting and modifying the state of your program. Most of these tools function only in break mode.
 
 ## Create custom views of data in variable windows and DataTips

@@ -12,7 +12,6 @@ ms.subservice: workflow-designer
 ---
 # Confirm Activity Designer
 
-
 The **Confirm** activity designer is used to create and configure a <xref:System.Activities.Statements.Confirm> activity.
 
 ## The Confirm Activity

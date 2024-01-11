@@ -12,7 +12,6 @@ ms.subservice: extensibility-integration
 ---
 # Get started with the VSIX Project template
 
-
 You can use the VSIX Project template to create an extension or to package an existing extension for deployment. The VSIX Project template has both Visual Basic and Visual C# versions, and is installed as part of the Visual Studio SDK.
 
  The VSIX Project template just consists of a *source.extension.vsixmanifest* file, which contains information about the extension and the assets it ships.

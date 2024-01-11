@@ -28,7 +28,6 @@ ms.subservice: general-ide
 
 # About Dotfuscator Community & Visual Studio
 
-
 ***PreEmptive Protection - Dotfuscator*** provides comprehensive .NET application protection that easily fits into your secure software development lifecycle.
 Use it to harden, protect, and prune desktop, mobile, server, and embedded applications to help secure trade secrets and other intellectual property (IP), reduce piracy and counterfeiting, and protect against tampering and unauthorized debugging.
 Dotfuscator works on compiled assemblies without the need for more programming or even access to source code.
@@ -77,7 +76,6 @@ To begin using Dotfuscator Community from Visual Studio, type `dotfuscator` into
 
 * If Dotfuscator Community is already installed, **Search Box** shows the option to start Dotfuscator Community under the *Menus* heading. For details, see [the Getting Started page of the full Dotfuscator Community User Guide][get-started].
 * If Dotfuscator Community is not yet installed, **Search Box** instead shows **Install PreEmptive Protection - Dotfuscator** under the *Individual Components* heading. See the [Installation page][install] for details.
-
 
 You can also get the **latest version** of Dotfuscator Community from [the Dotfuscator Downloads page on preemptive.com][download].
 
@@ -353,7 +351,6 @@ Additionally, `.xap` packages can no longer be used as inputs because Silverligh
 #### Introduce explicit method overrides
 
 The Renaming option to introduce explicit method overrides has been removed from Dotfuscator. To use Dotfuscator 6, [upgrade your configuration file](#steps-config-files) to remove this setting.
-
 
 ## Full documentation
 

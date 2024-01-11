@@ -19,7 +19,6 @@ monikerRange: '>= vs-2019'
 # Debug a managed memory dump with .NET Diagnostic Analyzers
 
 
-
 In this tutorial, you will:
 
 > [!div class="checklist"]

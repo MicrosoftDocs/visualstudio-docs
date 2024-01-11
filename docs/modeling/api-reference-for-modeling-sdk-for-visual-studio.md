@@ -10,7 +10,6 @@ ms.subservice: modeling
 ---
 # API Reference for Modeling SDK for Visual Studio
 
-
 The Visual Studio Visualization and Modeling SDK provides the platform on which your domain-specific languages (DSL) tools are built.
 
 This section contains reference material for namespaces that have names that begin with "Microsoft.VisualStudio.Modeling".

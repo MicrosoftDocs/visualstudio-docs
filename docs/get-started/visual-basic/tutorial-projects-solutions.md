@@ -13,7 +13,6 @@ dev_langs:
 ---
 # Learn about projects and solutions using Visual Basic
 
-
 In this introductory article, we'll explore what it means to create a *solution* and a *project* in Visual Studio. A solution is a container that's used to organize one or more related code projects, for example a class library project and a corresponding test project. We'll look at the properties of a project and some of the files it can contain. We'll also create a reference from one project to another.
 
 > [!TIP]

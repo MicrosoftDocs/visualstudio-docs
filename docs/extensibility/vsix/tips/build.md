@@ -11,7 +11,6 @@ ms.subservice: extensibility-integration
 ---
 # Working with builds in Visual Studio extensions 
 
-
 Here's a collection of small code samples on different ways to work with builds.
 
 ## Build solution

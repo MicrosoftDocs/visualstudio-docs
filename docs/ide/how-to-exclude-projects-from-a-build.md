@@ -10,7 +10,6 @@ manager: jmartens
 ---
 # Exclude projects from a build
 
-
 You can build a solution without building all projects that it contains. For example, you might exclude a project that breaks the build. You could then build the project after you investigate and address the issues.
 
 You can exclude a project by taking the following approaches:

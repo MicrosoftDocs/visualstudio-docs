@@ -21,7 +21,6 @@ ms.subservice: general-ide
 ---
 # /UseEnv (devenv.exe)
 
-
 Starts Visual Studio and loads certain environment variables for compilation.
 
 > [!NOTE]

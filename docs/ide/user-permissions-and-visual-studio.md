@@ -15,7 +15,6 @@ ms.subservice: general-ide
 ---
 # User permissions and Visual Studio
 
-
 For reasons of security, you should run Visual Studio as a typical user whenever possible.
 
 > [!WARNING]

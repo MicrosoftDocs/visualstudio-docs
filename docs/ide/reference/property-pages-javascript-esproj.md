@@ -17,7 +17,6 @@ monikerRange: '>= vs-2022'
 
 # Property pages for React, Angular, and Vue projects in Visual Studio
 
-
 This article applies to React, Angular, and Vue projects created in Visual Studio that use the JavaScript Project System (JSPS), which is the *.esproj* project format. This format is supported starting in Visual Studio 2022.
 
 The **Property Pages** provides access to project settings. To open the property pages, select the project in **Solution Explorer** and then select the **Properties** icon, or right-click the project and select **Properties**.

@@ -15,7 +15,6 @@ ms.subservice: debug-diagnostics
 ---
 # Debugging Web Applications
 
-
 This article provides links to help you debug different types of web applications.
 
 - Debug ASP.NET applications

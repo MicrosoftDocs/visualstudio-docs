@@ -12,7 +12,6 @@ ms.subservice: workflow-designer
 ---
 # RemoveFromCollection\<T> Activity Designer
 
-
 The **RemoveFromCollection\<T>** activity designer is used to create and configure a <xref:System.Activities.Statements.RemoveFromCollection%601> activity.
 
 ## The RemoveFromCollection\<T>Activity

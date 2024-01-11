@@ -10,9 +10,7 @@ ms.author: mikejo
 ---
 # Testing the performance of a cloud service
 
-
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
-
 
 You can test the performance of a cloud service in the following ways:
 

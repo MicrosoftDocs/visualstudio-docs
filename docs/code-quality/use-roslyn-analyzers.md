@@ -14,7 +14,6 @@ ms.subservice: code-analysis
 ---
 # Overview
 
-
 Each Roslyn analyzer *diagnostic* or rule has a default severity and suppression state that can be overwritten and customized for your project. This article covers setting analyzer severities and suppressing analyzer violations.
 
 ## Configure severity levels

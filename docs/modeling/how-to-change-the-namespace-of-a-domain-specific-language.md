@@ -13,7 +13,6 @@ ms.subservice: modeling
 ---
 # Change the namespace of a domain-specific language
 
-
 You can change the namespace of a domain-specific language. Make the change in the **DSL Explorer**, in the properties of the Dsl Package project, and in the assembly information.
 
 ## To change the namespace of a domain-specific language

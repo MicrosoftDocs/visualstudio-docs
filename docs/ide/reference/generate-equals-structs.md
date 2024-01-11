@@ -10,7 +10,6 @@ ms.subservice: general-ide
 ---
 # Generate IEquatable operators when generating Equals for structs
 
-
 This code generation applies to:
 
 - C#

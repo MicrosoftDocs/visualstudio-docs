@@ -12,7 +12,6 @@ ms.subservice: workflow-designer
 ---
 # Transition Activity Designer
 
-
 A <xref:System.Activities.Statements.Transition> represents the transition between two states.
 
 ## Using the Transition Activity Designer

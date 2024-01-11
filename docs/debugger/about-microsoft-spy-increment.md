@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # About Microsoft Spy++
 
-
 Use this dialog box to view copyright, version, ownership, and other information about Spy++.
 
 ## Related sections

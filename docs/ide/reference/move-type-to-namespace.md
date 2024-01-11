@@ -13,7 +13,6 @@ monikerRange: vs-2019
 ---
 # Move type to namespace
 
-
 This refactoring applies to:
 
 - C#

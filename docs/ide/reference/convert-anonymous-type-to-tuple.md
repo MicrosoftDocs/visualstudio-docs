@@ -13,7 +13,6 @@ dev_langs:
 ---
 # Convert anonymous type to tuple
 
-
 This refactoring applies to:
 
 - C#

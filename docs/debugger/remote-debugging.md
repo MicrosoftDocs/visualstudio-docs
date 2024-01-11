@@ -20,7 +20,6 @@ ms.subservice: debug-diagnostics
 ---
 # Remote Debugging
 
-
 You can debug a Visual Studio application that has been deployed on a different computer. To do so, you use the Visual Studio remote debugger.
 
 For in-depth instructions on remote debugging, see these topics.

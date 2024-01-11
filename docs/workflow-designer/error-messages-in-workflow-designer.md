@@ -14,7 +14,6 @@ ms.subservice: workflow-designer
 ---
 # Error Messages in Workflow Designer
 
-
 This topic describes the types of error messages that can be encountered when working with Workflow Designer.
 
 ## Situations in which Errors in the Workflow Designer Occur

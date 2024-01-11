@@ -26,7 +26,6 @@ ms.subservice: general-ide
 ---
 # Manage editor modes
 
-
 With Visual Studio, you can view the code editor in various display modes.
 
 > [!NOTE]

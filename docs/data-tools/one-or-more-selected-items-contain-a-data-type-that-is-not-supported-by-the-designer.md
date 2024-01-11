@@ -10,7 +10,6 @@ ms.subservice: data-tools
 ---
 # One or more selected items contain a data type that is not supported by the designer
 
-
 One or more of the items dragged from **Server Explorer** or **Database Explorer** onto the **O/R Designer** contains a data type that is not supported by the **O/R Designer**, for example, [CLR user-defined types](/dotnet/framework/data/adonet/sql/clr-user-defined-types).
 
 ## To correct this error

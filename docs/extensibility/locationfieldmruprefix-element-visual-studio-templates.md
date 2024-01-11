@@ -16,7 +16,6 @@ manager: jmartens
 ---
 # LocationFieldMRUPrefix element (Visual Studio Templates)
 
-
 Specifies the most recently used (MRU) paths in the **New Project** and **Add New Item** dialog box.
 
 ## Syntax

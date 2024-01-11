@@ -13,7 +13,6 @@ ms.subservice: extensibility-integration
 ---
 # IDE GUIDs
 
-
 The <xref:Microsoft.VisualStudio.VSConstants> class publishes GUIDs of some parts of the integrated development environment (IDE) as listed in the table below.
 
 ## Core systems

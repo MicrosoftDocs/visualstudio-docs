@@ -13,7 +13,6 @@ ms.subservice: installation
 ---
 # Repair Visual Studio
 
-
 Sometimes your Visual Studio installation becomes damaged or corrupted. A repair is useful for fixing a wide variety of install-time issues, including update issues.
 
 ## When to use repair

@@ -19,7 +19,6 @@ monikerRange: ">= vs-2019"
 ---
 # Visual C/C++ Custom Visualizer Compatibility
 
-
 Starting in Visual Studio 2019, C++ includes an improved debugger that uses an external 64-bit process for hosting its memory-intensive components. As part of this update, certain extensions to the C/C++ expression evaluator must be updated to make them compatible with the new debugger.
 
 If you're currently consuming a legacy C/C++ EE add-in or C/C++ custom visualizer, you can turn off usage of this external process by going to **Tools** > **Options** > **Debugging**, and then deselecting **Load debug symbols in external process (native only)**. If you deselect this option, a significant increase in memory usage within the IDE (devenv.exe) process occurs. So, if you expect to debug large projects, we recommend that you work with the owner of the extension to make it compatible with this debugging option.

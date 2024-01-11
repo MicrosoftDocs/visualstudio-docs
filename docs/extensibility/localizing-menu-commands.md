@@ -17,7 +17,6 @@ ms.subservice: extensibility-integration
 ---
 # Localize menu commands
 
-
 You can provide localized text for menu and toolbar commands by creating localized *.vsct* files and localized *.resx* files for your VSPackage, and then updating the project files to incorporate the changes.
 
 For information about how to localize the installation experience, see [Localize VSIX packages](../extensibility/localizing-vsix-packages.md).

@@ -13,7 +13,6 @@ ms.subservice: help-viewer
 ---
 # Logical and advanced operators in search expressions
 
-
 You can use logical operators and advanced search operators to refine your search of the Help content in **Help Viewer**.
 
 ## Logical operators

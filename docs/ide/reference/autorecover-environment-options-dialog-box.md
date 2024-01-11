@@ -19,7 +19,6 @@ ms.subservice: general-ide
 ---
 # AutoRecover, Environment, Options dialog box
 
-
 Use this page in the **Options** dialog box to specify whether to automatically back up files or not. You can also specify if you want to restore modified files if Visual Studio shuts down unexpectedly.
 
 To access this dialog box, go to **Tools** > **Options** > **Environment** > **AutoRecover**.

@@ -15,7 +15,6 @@ ms.subservice: general-ide
 ---
 # Refactor code
 
-
 Refactoring is the process of modifying code in order to make it easier to maintain, understand, and extend, but without changing its behavior.
 
 ## Programming languages

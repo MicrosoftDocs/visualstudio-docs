@@ -15,7 +15,6 @@ dev_langs:
 ---
 # Extract an interface refactoring
 
-
 This refactoring applies to:
 
 - C#

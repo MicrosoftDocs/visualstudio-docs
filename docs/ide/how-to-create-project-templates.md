@@ -14,7 +14,6 @@ ms.subservice: general-ide
 ---
 # Create project templates
 
-
 This article shows you how to create a template by using the **Export Template Wizard**, which packages your template in a *.zip* file.
 
 ## Use the Export Template Wizard

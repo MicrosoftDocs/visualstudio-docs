@@ -16,7 +16,6 @@ ms.subservice: office-development
 ---
 # Visual Studio Tools for Office runtime installation scenarios
 
-
   You can install the Visual Studio 2010 Tools for Office runtime in three ways:
 
 - When you install Visual Studio.

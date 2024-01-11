@@ -12,7 +12,6 @@ dev_langs:
 ---
 # Use expression body or block body for lambda expressions
 
-
 This refactoring applies to:
 
 - C#

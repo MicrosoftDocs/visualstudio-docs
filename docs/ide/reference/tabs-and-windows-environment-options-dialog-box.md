@@ -12,7 +12,6 @@ ms.subservice: general-ide
 ---
 # Options dialog box: Environment \> Tabs and Windows
 
-
 Use this dialog to set options for [tabs](../customizing-window-layouts-in-visual-studio.md#personalize-tabs) and [windows](../customizing-window-layouts-in-visual-studio.md#arrange-and-dock-windows) in the [code editor](../../get-started/tutorial-editor.md). For more information, see [Customize window layouts and personalize tabs in Visual Studio](../customizing-window-layouts-in-visual-studio.md).
 
 ::: moniker range="vs-2022"

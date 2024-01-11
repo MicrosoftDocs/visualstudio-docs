@@ -11,7 +11,6 @@ ms.subservice: general-ide
 ---
 # Create a Git branch in Visual Studio
 
-
 It's easy to create a new branch in Visual Studio; all you have to do is base it off an existing branch.
 
 Here's how.

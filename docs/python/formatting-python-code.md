@@ -11,7 +11,6 @@ ms.subservice: python
 
 # Automatically reformat Python code in Visual Studio
 
-
 Visual Studio lets you quickly reformat code to match specific formatter standards.
 
 ## Choose a formatter

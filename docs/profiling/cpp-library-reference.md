@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # C++ library reference
 
-
 This section contains reference information for the Concurrency Visualizer SDK.
 
 > [!NOTE]

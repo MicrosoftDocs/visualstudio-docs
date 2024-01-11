@@ -13,7 +13,6 @@ ms.subservice: help-viewer
 ---
 # Microsoft Help Viewer installation
 
-
 Several products can display Help content in Microsoft Help Viewer, including Visual Studio and SQL Server.
 
 Help Viewer is an optional installation component of Visual Studio. To install it through Visual Studio Installer, follow these steps:

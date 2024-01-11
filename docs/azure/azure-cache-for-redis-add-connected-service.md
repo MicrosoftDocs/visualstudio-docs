@@ -11,7 +11,6 @@ monikerRange: ">= vs-2019"
 ---
 # Add Azure Cache for Redis by using Visual Studio Connected Services
 
-
 With Visual Studio, you can connect any of the following to Azure Cache for Redis by using the **Connected Services** feature:
 
 - .NET Framework console app

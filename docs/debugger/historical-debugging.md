@@ -10,7 +10,6 @@ ms.subservice: debug-diagnostics
 ---
 # Historical debugging (C#, Visual Basic, C++)
 
-
 Historical debugging is a mode of debugging that depends on the information collected by IntelliTrace. It allows you to move backward and forward through the execution of your application and inspect its state.
 
  You can use IntelliTrace in Visual Studio Enterprise edition (but not the Professional or Community editions).

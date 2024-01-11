@@ -16,7 +16,6 @@ ms.subservice: data-tools
 ---
 # Configure Service Reference dialog box
 
-
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 The **Configure Service Reference** dialog box enables you to configure the behavior of Windows Communication Foundation (WCF) services.

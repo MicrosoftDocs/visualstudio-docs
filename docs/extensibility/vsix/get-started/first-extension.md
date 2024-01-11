@@ -11,7 +11,6 @@ ms.subservice: extensibility-integration
 ---
 # Your first Visual Studio extension
 
-
 This article walks you through some simple steps to get your first Visual Studio extension up and running. A Visual Studio extension is written using the .NET Framework and C#. If you're already a .NET developer, you will find that writing extensions is similar to writing most other .NET programs and libraries.
 
 The extension you'll be writing today adds a command that inserts a new guid into the text editor when executed. It's simple, useful, and provides a good introduction to the various aspects of extension development.

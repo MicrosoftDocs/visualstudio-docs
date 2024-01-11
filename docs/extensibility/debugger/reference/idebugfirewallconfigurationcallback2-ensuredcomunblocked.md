@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugFirewallConfigurationCallback2::EnsureDCOMUnblocked
 
-
 Requests that the firewall not block remote debugging.
 
 ## Syntax

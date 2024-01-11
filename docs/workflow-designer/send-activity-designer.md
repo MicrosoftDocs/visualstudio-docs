@@ -12,7 +12,6 @@ ms.subservice: workflow-designer
 ---
 # Send Activity Designer
 
-
 The **Send** activity designer is used to create and configure a <xref:System.ServiceModel.Activities.Send> activity.
 
 ## The Send Activity

@@ -12,7 +12,6 @@ ms.subservice: modeling
 ---
 # Deploying a Custom Directive Processor
 
-
 To use a custom directive processor in Visual Studio on any computer, you must register it by one of the methods described in this topic.
 
 The alternative methods are:

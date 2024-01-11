@@ -19,7 +19,6 @@ ms.subservice: modeling
 ---
 # Map dependencies with code maps
 
-
 In this article, you'll learn how to visualize dependencies across your code with code maps.
 
 ## What are code maps?

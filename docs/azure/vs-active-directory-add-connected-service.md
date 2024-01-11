@@ -11,7 +11,6 @@ ms.author: ghogen
 ---
 # Add Microsoft Entra ID authentication by using Connected Services in Visual Studio
 
-
 You can add support for Microsoft Entra ID to an ASP.NET web app by using the Microsoft Identity platform connected service.
 
 By using Microsoft Entra ID, you can support user authentication for ASP.NET MVC web applications, or Active Directory Authentication in web API services. With Microsoft Entra authentication, your users can use their accounts from Microsoft Entra ID to connect to your web applications. The advantages of Microsoft Entra authentication with web API include enhanced data security when exposing an API from a web application. With Microsoft Entra ID, you do not have to manage a separate authentication system with its own account and user management.

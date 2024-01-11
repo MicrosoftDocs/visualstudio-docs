@@ -17,7 +17,6 @@ dev_langs:
 ---
 # METADATA_ADDRESS_LOCAL
 
-
 This structure represents the address of a local variable within a scope (usually a function or method).
 
 ## Syntax

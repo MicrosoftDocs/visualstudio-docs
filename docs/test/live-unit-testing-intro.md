@@ -12,7 +12,6 @@ ms.subservice: test-tools
 ---
 # Live Unit Testing overview
 
-
 Live Unit Testing executes your unit tests automatically and in real time as you make code changes. This lets you refactor and change code with greater confidence. Live Unit Testing automatically executes all impacted tests as you edit your code to ensure that your changes do not introduce regressions.
 
 Live Unit Testing indicates whether your unit tests adequately cover your code. It graphically depicts code coverage in real time. You can see at a glance how many tests cover each line of code and which lines are not covered by any unit tests.

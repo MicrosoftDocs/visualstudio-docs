@@ -10,7 +10,6 @@ ms.subservice: general-ide
 ---
 # Generate Equals and GetHashCode method overrides in Visual Studio
 
-
 This code generation applies to:
 
 - C#

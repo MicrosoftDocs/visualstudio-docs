@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # Move the execution pointer to change the execution flow in the debugger
 
-
 While debugging, you can manually move the execution pointer to change the next statement that will run next. Moving the pointer is useful for situations like skipping code that contains a known bug, and is a more advanced feature of the debugger.
 
 ## Change the execution flow

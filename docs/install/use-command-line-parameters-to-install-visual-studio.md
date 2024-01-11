@@ -16,13 +16,11 @@ ms.subservice: installation
 ---
 # Use command-line parameters to install, update, and manage Visual Studio
 
-
 When you install Visual Studio programmatically or from a command prompt, you can use various command-line parameters to control or customize the installation to perform the following actions:
 
 - Start the installation on the client with certain options and behaviors preselected.
 - Automate the installation or update process.
 - Create or maintain a network layout of the product files for installing or updating client machines.
-
 
 The command-line verbs and parameters described below can be used with the following executables or programs:
   - The setup bootstrapper, which is the small (~1 MB) file (for example, vs_enterprise.exe) that initiates the download process and the initial installation.
@@ -233,7 +231,6 @@ visualstudioupdate-16.9.0to16.9.4.exe --installerUpdateArgs=--force,--noWeb,--ke
 
 ## Remove channel command and command-line parameters
 Channels that are available to update from, are cached on the client, and over time they can clutter things up. You can manually remove [update channels](update-visual-studio.md#configure-source-location-of-updates-1) by bringing up the Visual Studio Installer, switching to the **Available** tab, and clicking on the **X** in the top right corner of the product card. You can programmatically remove channels (for example, older layout locations) using the `removeChannel` command. You can run [vswhere](tools-for-managing-visual-studio-instances.md#using-vswhereexe) programmatically on the client machine to determine which channels are cached on the client machine. 
-
 
 | **Command** | **Description**                                                                                                         |
 |-------------|-------------------------------------------------------------------------------------------------------------------------|

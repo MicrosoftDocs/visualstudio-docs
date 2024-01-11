@@ -15,7 +15,6 @@ manager: jmartens
 ---
 # WizardData Element (Visual Studio Templates)
 
-
 Specifies custom XML
 
 ```xml

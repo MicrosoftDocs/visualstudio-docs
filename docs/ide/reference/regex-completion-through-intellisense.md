@@ -13,7 +13,6 @@ dev_langs:
 ---
 # Regex completion through IntelliSense menu
 
-
 This refactoring applies to:
 
 - C#

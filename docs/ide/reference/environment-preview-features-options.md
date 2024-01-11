@@ -14,7 +14,6 @@ ms.subservice: general-ide
 ---
 # Options dialog box: Environment \> Preview Features
 
-
 Use this page of the **Options** dialog box to enable or disable preview features in Visual Studio. The **Preview Features** options page changes frequently as different preview features are made available in Visual Studio.
 
 ![Preview Features options page in Visual Studio 2019](media/environment-preview-features-page.png)

@@ -24,7 +24,6 @@ Composite patterns combine interaction and design elements in distinct configura
 
 ## <a name="BKMK_DataVisualization"></a> Data visualization
 
-
  Charts are a visual way to aggregate and visualize data in order to enhance decision-making. They can help users faced with a lot of data but little meaning see what deserves attention and what might need an action.
 
  The user will benefit from a chart if any of the following conditions are true:
@@ -77,7 +76,6 @@ Composite patterns combine interaction and design elements in distinct configura
 
 ## <a name="BKMK_OnObjectUI"></a> On-object UI and peeking
  This section gives context to peeking, also known as code peek view, a type of on-object UI unique to Visual Studio.
-
 
 
 - On-object UI should give the user more information or interactivity without detracting from their main task.
@@ -242,7 +240,6 @@ Composite patterns combine interaction and design elements in distinct configura
 - **Never** display content on hover that appears to be editable or invites user interaction. This behavior can frustrate users if they try to move the cursor over the detail content, as the standard behavior for a tooltip is to immediately dismiss when the cursor is no longer over the master content that produced it.
 
 ## <a name="BKMK_SelectionModels"></a> Selection models
-
 
  A selection model is the mechanism used to indicate and confirm operations on one or more objects of interest within the user interface. This topic discusses selection interaction patterns within Visual Studio document editors: text editors, design surfaces, and modeling surfaces.
 
@@ -466,7 +463,6 @@ Composite patterns combine interaction and design elements in distinct configura
 - The F2 key activates in-place editing for the currently selected cell.
 
 ## <a name="BKMK_PersistenceAndSavingSettings"></a> Persistence and saving settings
-
 
  Although each software component in Visual Studio is usually responsible for its own state and persistence, Visual Studio automatically saves settings in some cases, such as with window sizes and positions. The table below is a combination of settings saved automatically and settings that require an explicit user or programmed action to be taken.
 

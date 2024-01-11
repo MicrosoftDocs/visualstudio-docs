@@ -13,7 +13,6 @@ dev_langs:
 ---
 # Sync a type to a filename, or a filename to a type refactoring
 
-
 This refactoring applies to:
 
 - C#

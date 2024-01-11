@@ -31,7 +31,6 @@ ms.subservice: general-ide
 ---
 # Create and configure type members in Class Designer
 
-
 You can add these members to types on a class diagram and configure those members in the **Class Details** window:
 
 |**Type**|**Members it can contain**|

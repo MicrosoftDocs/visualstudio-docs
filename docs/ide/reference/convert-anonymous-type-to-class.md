@@ -14,7 +14,6 @@ monikerRange: '>= vs-2019'
 ---
 # Convert anonymous type to class
 
-
 This refactoring applies to:
 
 - C#

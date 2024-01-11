@@ -10,7 +10,6 @@ ms.subservice: extensibility-integration
 ---
 # Create an extension with a tool window
 
-
 In this procedure, you learn how to use the VSIX project template and the **Custom Tool Window** item template to create an extension with a tool window.
 
 ### Create a tool window

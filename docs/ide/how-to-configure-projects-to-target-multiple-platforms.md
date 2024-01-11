@@ -13,7 +13,6 @@ manager: jmartens
 ---
 # Configure projects to target multiple platforms
 
-
 Visual Studio provides a way for a solution to target several different CPU architectures, or platforms, at once. The properties to set these are accessed through the **Configuration Manager** dialog box.
 
 ## Target a platform

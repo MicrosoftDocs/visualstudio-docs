@@ -12,7 +12,6 @@ ms.subservice: workflow-designer
 ---
 # Interop Activity Designer
 
-
 The **Interop** activity designer is used to create and configure an <xref:System.Activities.Statements.Interop> activity.
 
 ## The Interop Activity

@@ -17,7 +17,6 @@ ms.subservice: office-development
 ---
 # Unmanaged API reference (Office development in Visual Studio)
 
-
 Starting with the 2007 Microsoft Office system, Office applications use the [IManagedAddin interface](../vsto/imanagedaddin-interface.md) interface to call into a VSTO Add-in loader component that is included with the  Visual Studio Tools for Office runtime . This component is used to help load-managed VSTO Add-ins. You can create your own VSTO Add-in loader component by implementing this interface.
 
 [!include[Add-ins note](includes/addinsnote.md)]

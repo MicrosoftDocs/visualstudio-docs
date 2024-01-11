@@ -23,7 +23,6 @@ ms.subservice: general-ide
 ---
 # Options dialog box: Environment \> Web Browser
 
-
 Sets options for both the internal Web browser and Internet Explorer. To access this dialog box, click **Options** on the **Tools** menu, expand the **Environment** folder, and select **Web Browser**.
 
 > [!Important]

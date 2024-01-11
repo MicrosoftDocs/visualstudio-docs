@@ -15,7 +15,6 @@ monikerRange: '>= vs-2022'
 ---
 # Extend .NET Hot Reload using MetadataUpdateHandler (C#, Visual Basic)
 
-
 You can programmatically extend .NET Hot Reload support for additional scenarios that aren't typically supported, such as code changes that require clearing a cache or refreshing the UI. For example, to support hot reload with a JSON serializer, you need to clear its cache when a type is modified. For .NET MAUI developers, you may need to extend hot reload for edits/updates that don't trigger hot reload under normal conditions, such as editing a constructor, or an event handler for a UI element. You can use the <xref:System.Reflection.Metadata.MetadataUpdateHandlerAttribute> to refresh the application state, trigger a UI re-render, or perform similar actions.
 
 The type specified by this attribute should implement static methods matching the signature of one or more of the following:

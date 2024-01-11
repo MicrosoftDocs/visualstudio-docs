@@ -14,7 +14,6 @@ ms.custom: vs-acquisition
 ---
 # Tutorial: Add icons to your matching game WinForms app
 
-
 In this series of four tutorials, you build a matching game, where the player matches pairs of hidden icons.
 
 In the matching game, a player selects a square to see an icon, then chooses another square.

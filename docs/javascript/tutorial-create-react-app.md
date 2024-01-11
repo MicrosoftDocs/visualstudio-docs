@@ -15,7 +15,6 @@ monikerRange: '>= vs-2022'
 ---
 # Create a React app
 
-
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you create and run a simple React frontend web application.
 
 ## Prerequisites

@@ -19,7 +19,6 @@ ms.subservice: data-tools
 ---
 # Bind Windows Forms controls to data in .NET Framework applications
 
-
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 You can display data to users of your application by binding data to Windows Forms. To create these data-bound controls, drag items from the **Data Sources** window onto the Windows Forms Designer in Visual Studio.

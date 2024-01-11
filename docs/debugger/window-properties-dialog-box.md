@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # Window Properties dialog box
 
-
 Use this dialog box to find out more about a specific window. To display this dialog box, move the focus to the [Windows View](windows-view.md) window. Select any window node in the tree, then choose **Properties** from the **View** menu.
 
 ## General tab, Window Properties

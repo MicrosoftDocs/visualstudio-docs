@@ -12,7 +12,6 @@ dev_langs:
 ---
 # Convert between regular string and verbatim string literals refactoring
 
-
 This refactoring applies to:
 
 - C#

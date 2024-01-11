@@ -22,7 +22,6 @@ ms.subservice: general-ide
 ---
 # /ProjectConfig (devenv.exe)
 
-
 Specifies a project build configuration to be applied when you build, clean, rebuild, or deploy the project named in the `/Project` argument.
 
 ## Syntax

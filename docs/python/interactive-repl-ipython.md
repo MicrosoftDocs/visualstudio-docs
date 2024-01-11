@@ -10,7 +10,6 @@ ms.subservice: python
 ---
 # Use IPython in the Interactive window
 
-
 The Visual Studio **Interactive** window in IPython mode is an advanced yet user-friendly interactive development environment that has Interactive Parallel Computing features. This article walks through using IPython in the Visual Studio **Interactive** window, in which all of the regular [Interactive window](python-interactive-repl-in-visual-studio.md) features are also available.
 
 For this walkthrough, you will need to have installed IPython, numpy and matplotlib. If you are using Anaconda, these libraries are already installed. The rest of the walkthrough assumes you are using Anaconda.

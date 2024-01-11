@@ -14,7 +14,6 @@ ms.subservice: extensibility-integration
 ---
 # Discovering available brokered services
 
-
 Brokered services can be exposed by Visual Studio or its extensions.
 This document describes how to discover brokered services exposed by Visual Studio.
 

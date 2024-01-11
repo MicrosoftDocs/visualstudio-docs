@@ -20,7 +20,6 @@ ms.subservice: general-ide
 ---
 # /LCID (devenv.exe)
 
-
 Sets the default language used for text, currency, and other values within the IDE.
 
 ## Syntax

@@ -23,7 +23,6 @@ ms.subservice: debug-diagnostics
 ---
 # General debugging options
 
-
 To set Visual Studio debugger options, select **Tools** > **Options**, and under **Debugging** select or deselect the boxes next to the **General** options. You can restore all default settings with **Tools** > **Import and Export Settings** > **Reset all settings**. To reset a subset of settings, save your settings with the **Import and Export Settings Wizard** before making the changes that you want to test, then import your saved settings afterward.
 
 You can set the following **General** options:

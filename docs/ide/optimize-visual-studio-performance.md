@@ -15,7 +15,6 @@ f1_keywords:
 ---
 # Optimize Visual Studio performance
 
-
 This article provides some suggestions to try if you find that Visual Studio is running slowly. You can also take a look at [Visual Studio performance tips and tricks](../ide/visual-studio-performance-tips-and-tricks.md) for more suggestions on how to improve performance.
 
 ## Upgrade Visual Studio

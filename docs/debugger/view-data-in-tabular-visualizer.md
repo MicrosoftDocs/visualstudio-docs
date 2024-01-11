@@ -19,7 +19,6 @@ monikerRange: '>= vs-2022'
 
 # Tabular visualizers in Visual Studio
 
-
 While you are debugging in Visual Studio, you can view large collection objects with the built-in tabular visualizers. The visualizer shows data in a tabular view with one row per object and sortable columns for each field and property. 
 
 There are two types of tabular visualizers. The DataSet visualizer allows you to view the contents of a DataSet, DataTable, DataView, or DataViewManager. The IEnumerable visualizer allows you to view objects such as Arrays, List, etc.

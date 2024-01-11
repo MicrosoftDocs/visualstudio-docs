@@ -12,7 +12,6 @@ ms.subservice: workflow-designer
 ---
 # Parallel Activity Designer
 
-
 The <xref:System.Activities.Statements.Parallel> activity executes a collection of child activities concurrently.
 
 ## The Parallel Activity

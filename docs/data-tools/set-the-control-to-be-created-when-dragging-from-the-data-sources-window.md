@@ -15,7 +15,6 @@ ms.subservice: data-tools
 ---
 # Set the control to be created when dragging from the Data Sources window
 
-
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 You can create data-bound controls by dragging items from the **Data Sources** window onto the WPF designer or Windows Forms designer. Each item in the **Data Sources** window has a default control that is created when you drag it to the designer. However, you can choose to create a different control.

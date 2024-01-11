@@ -12,7 +12,6 @@ author: mikejo5000
 ---
 # Overview of Microsoft IntelliTest
 
-
 IntelliTest enables you to find bugs early, and
 reduces test maintenance costs. Using an automated
 and transparent testing approach, IntelliTest can

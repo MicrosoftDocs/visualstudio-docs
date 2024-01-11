@@ -9,7 +9,6 @@ manager: mluparu
 ---
 # DirectX 12 Support in Visual Studio
 
-
 ## DirectX 12 Support
 
 Visual Studio Graphics Diagnostics doesn't support DirectX 12 games. For graphical debugging with full DirectX 12 support, Visual Studio recommends *PIX on Windows*. 

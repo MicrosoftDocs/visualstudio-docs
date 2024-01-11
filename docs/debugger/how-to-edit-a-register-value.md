@@ -17,7 +17,6 @@ ms.subservice: debug-diagnostics
 ---
 # Edit a Register Value (C++)
 
-
 The Registers window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node.
 
 ### To change the value of a register

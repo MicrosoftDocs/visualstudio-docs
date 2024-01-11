@@ -20,7 +20,6 @@ manager: jmartens
 ---
 # Compile Page, Project Designer (Visual Basic)
 
-
 Use the **Compile** page of the Project Designer to specify compilation instructions. You can also specify advanced compiler options and pre-build or post-build events on this page.
 
 To access the **Compile** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project**, **Properties** on the menu bar. When the Project Designer appears, click the **Compile** tab.

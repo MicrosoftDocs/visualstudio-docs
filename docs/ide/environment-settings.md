@@ -10,7 +10,6 @@ ms.subservice: general-ide
 ---
 # Environment settings for Visual Studio
 
-
 In Visual Studio, you can optimize your development environment for the type of development work you do by selecting **Tools** > **Import and Export Settings Wizard**. From this wizard, you can choose a specific collection of settings that best matches your development environment. Each collection of settings optimizes elements such as keyboard shortcuts, window layouts, project and item templates, and command visibility.
 
 The following settings collections are available:

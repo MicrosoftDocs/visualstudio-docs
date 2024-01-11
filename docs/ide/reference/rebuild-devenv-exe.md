@@ -16,7 +16,6 @@ ms.subservice: general-ide
 ---
 # /Rebuild (devenv.exe)
 
-
 Cleans and then builds the specified solution configuration.
 
 ## Syntax

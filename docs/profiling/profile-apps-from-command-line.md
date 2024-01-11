@@ -15,7 +15,6 @@ monikerRange: '>= vs-2019'
 ---
 # Measure application performance from the command line
 
-
 You can collect performance information about an application by using command-line tools. You can collect performance data for CPU Usage, .NET memory allocation, instrumentation, and database queries.
 
 In the example described in this article, you collect performance information for Microsoft Notepad, but the same method can be used to profile any process.

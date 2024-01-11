@@ -14,7 +14,6 @@ ms.subservice: extensibility-integration
 ---
 # Generate registry information for an installer
 
-
 The *RegPkg.exe* utility can be used to generate a registration manifest for a managed VSPackage. The manifest can be incorporated into a Windows Installer setup package. RegPkg also can generate a file that can be included in a setup source file based on the [Windows Installer XML toolset](https://wixtoolset.org/).
 
 > [!IMPORTANT]

@@ -10,7 +10,6 @@ author: mikejo5000
 ---
 # Use the MSTest framework in unit tests
 
-
 The [MSTest](https://github.com/microsoft/testfx) framework supports unit testing in Visual Studio. Use the classes and members in the <xref:Microsoft.VisualStudio.TestTools.UnitTesting> namespace when you're coding unit tests. You can also use them when you're refining a unit test that was generated from code.
 
 ## Framework members

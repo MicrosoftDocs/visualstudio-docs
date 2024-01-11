@@ -112,7 +112,6 @@ ms.subservice: debug-diagnostics
 ---
 # Project settings for a C++ debug configuration
 
-
 You can change the project settings for a C or C++ debug configuration in the **Property Pages** dialog box, as discussed in [How to: Set debug and release configurations](../debugger/how-to-set-debug-and-release-configurations.md). The following tables show where to find debugger-related settings in the **Property Pages** dialog box.
 
 > [!NOTE]

@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDebugStopCompleteEvent2
 
-
 The debug engine (DE) can send this optional event to the session debug manager (SDM) when a program has stopped.
 
 ## Syntax

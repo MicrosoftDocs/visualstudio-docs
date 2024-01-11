@@ -9,7 +9,6 @@ ms.date: 10/19/2021
 ---
 # Sign in with an Azure subscription
 
-
 If you are not already signed in with an Azure subscription, you may encounter a dialog like the ones below.
 
 ![Screenshot showing sign-in for Connected Services.](./media/sign-in-required-connected-services.png)

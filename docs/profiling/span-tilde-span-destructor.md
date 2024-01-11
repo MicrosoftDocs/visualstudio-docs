@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # span::~span destructor
 
-
 Destroys the `span` object and releases its resources.
 
 ## Syntax

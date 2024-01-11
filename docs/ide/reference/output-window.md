@@ -17,7 +17,6 @@ ms.subservice: general-ide
 ---
 # Output window
 
-
 The **Output** window displays status messages for various features in the integrated development environment (IDE). To open the **Output** window, on the menu bar, choose **View** > **Output**, or press **Ctrl**+**Alt**+**O**.
 
 ## Toolbar

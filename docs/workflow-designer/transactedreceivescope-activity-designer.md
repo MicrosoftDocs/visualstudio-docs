@@ -12,7 +12,6 @@ ms.subservice: workflow-designer
 ---
 # TransactedReceiveScope Activity Designer
 
-
 The **TransactedReceiveScope** designer is used to create and configure a <xref:System.ServiceModel.Activities.TransactedReceiveScope> activity.
 
 ## The TransactedReceiveScope Activity

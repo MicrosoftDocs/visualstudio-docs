@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_framePadSize
 
-
 Retrieves the extra pad size added to each function.
 
 ## Syntax

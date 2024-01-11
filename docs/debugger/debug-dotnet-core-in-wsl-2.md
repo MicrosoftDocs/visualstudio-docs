@@ -14,7 +14,6 @@ monikerRange: '>= vs-2019'
 ---
 # Debug .NET Apps in WSL with Visual Studio
 
-
 You can easily run and debug your .NET Core and .NET 5+ apps in Linux without leaving Visual Studio using WSL. If you are a cross-platform developer, you can use this method as a simple way to test more of your target environments.
 
 For a Windows .NET user targeting Linux, WSL lives in a sweet spot between production realism and productivity. In Visual Studio, you can already debug in a remote Linux environment using the [remote debugger](../debugger/remote-debugging-dotnet-core-linux-with-ssh.md), or with containers using the [Container Tools](../containers/overview.md). When production realism is your main concern, you should use one of those options. When an easy and fast inner-loop is more important, WSL is a great option.

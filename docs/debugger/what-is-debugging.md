@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # What is debugging?
 
-
 The Visual Studio debugger is a powerful tool. Before we show how to use it, we want to talk about some terms such as *debugger*, *debugging*, and *debug mode*. This way, when we talk later about finding and fixing bugs, we'll be talking about the same thing.
 
 ## Debugger vs. debugging

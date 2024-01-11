@@ -20,7 +20,6 @@ ms.subservice: general-ide
 ---
 # Identify and customize keyboard shortcuts in Visual Studio
 
-
 You can identify keyboard shortcuts for Visual Studio commands, customize those shortcuts, and export them for others to use. Many shortcuts always invoke the same commands, but the behavior of a shortcut might vary based on the following conditions:
 
 - Which default environment settings you choose the first time that you open Visual Studio&mdash;for example, General development or Visual C#. (For more information about changing or resetting your settings, see [Environment settings](environment-settings.md).)

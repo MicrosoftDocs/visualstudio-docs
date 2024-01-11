@@ -14,7 +14,6 @@ ms.subservice: extensibility-integration
 ---
 # Related Services and Interfaces (Source Control VSPackage)
 
-
 This section lists all the source control VSPackage-related interfaces in the Visual Studio SDK. The source control VSPackage implements some of these interfaces and uses others to accomplish source control tasks.
 
 ## Interfaces Implemented by and for Source Control VSPackages

@@ -18,7 +18,6 @@ ms.subservice: python
 ---
 # Options for Python in Visual Studio
 
-
 To view Python options, use the **Tools** > **Options** menu command, make sure **Show all settings** is selected, and then navigate to **Python**:
 
 ![Python options dialog, General tab](media/options-general-2019.png)

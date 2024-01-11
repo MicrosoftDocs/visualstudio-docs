@@ -18,7 +18,6 @@ ms.subservice: debug-diagnostics
 ---
 # Find the name of the ASP.NET process
 
-
 To debug a running ASP.NET app, the Visual Studio debugger must attach to the ASP.NET process by name.
 
 **To find out which process is running an ASP.NET app:**

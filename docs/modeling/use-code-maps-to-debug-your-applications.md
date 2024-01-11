@@ -19,7 +19,6 @@ ms.subservice: modeling
 ---
 # Use code maps to debug your applications
 
-
 [Code maps in Visual Studio](../modeling/map-dependencies-across-your-solutions.md) can help you avoid getting lost in large code bases, unfamiliar code, or legacy code. For example, when you're debugging, you might have to look at code across many files and projects. Use code maps to navigate around pieces of code and understand the relationships between them. That way, you don't have to keep track of this code in your head, or draw a separate diagram. So, when your work is interrupted, code maps help refresh your memory about the code you're working on.
 
 ![Code map &#45; Map relationships in code](../modeling/media/codemapstoryboardpaint.png)

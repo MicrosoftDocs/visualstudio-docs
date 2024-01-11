@@ -12,7 +12,6 @@ ms.subservice: workflow-designer
 ---
 # Compensate Activity Designer
 
-
 The **Compensate** activity designer is used to create and configure a <xref:System.Activities.Statements.Compensate> activity.
 
 ## The Compensate Activity

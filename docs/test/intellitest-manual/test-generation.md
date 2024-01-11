@@ -12,7 +12,6 @@ author: mikejo5000
 ---
 # Test generation
 
-
 In traditional unit testing, a test consists of several things:
 
 * A [sequence of method calls](test-generation.md#test-generators)

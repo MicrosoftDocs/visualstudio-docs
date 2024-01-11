@@ -14,7 +14,6 @@ ms.subservice: general-ide
 ---
 # Tutorial: Add math problems to a math quiz WinForms app
 
-
 In this series of four tutorials, you'll build a math quiz. The quiz contains four random math problems that a quiz taker tries to answer within a specified time.
 
 Controls use C# or Visual Basic code. In this second tutorial, you make the quiz challenging by adding code for math problems that are based on random numbers. You also create a method that's named `StartTheQuiz()` to fill in the problems.

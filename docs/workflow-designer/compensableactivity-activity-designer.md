@@ -12,7 +12,6 @@ ms.subservice: workflow-designer
 ---
 # CompensableActivity Activity Designer
 
-
 The **CompensableActivity** activity designer is used to create and configure a <xref:System.Activities.Statements.CompensableActivity> activity.
 
 ## The CompensableActivity Activity

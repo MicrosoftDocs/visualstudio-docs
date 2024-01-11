@@ -10,7 +10,6 @@ ms.subservice: xaml-tools
 ---
 # Overview of XAML
 
-
 Extensible Application Markup Language (XAML) is a declarative language that's based on XML. XAML is used extensively in the following types of applications to build user interfaces:
 
 - [Windows Presentation Foundation (WPF) apps](/dotnet/framework/wpf/advanced/xaml-in-wpf)

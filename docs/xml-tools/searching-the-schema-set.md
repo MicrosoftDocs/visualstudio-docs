@@ -10,7 +10,6 @@ ms.subservice: xml-tools
 ---
 # Search the schema set
 
-
 The **XML Schema Explorer** enables you to search the schema set in the following ways:
 
 - Keyword search.

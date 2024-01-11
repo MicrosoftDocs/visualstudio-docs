@@ -14,7 +14,6 @@ manager: jmartens
 ---
 # Prerequisites dialog box
 
-
 The **Prerequisites** dialog box specifies which prerequisite components are installed, how they are installed, and which order the packages are installed.
 
 ![Prerequisites dialog box in Visual Studio](media/prerequisites-dialog-box.png)

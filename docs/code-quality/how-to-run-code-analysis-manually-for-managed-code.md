@@ -13,7 +13,6 @@ ms.subservice: code-analysis
 ---
 # Run code analysis manually for .NET
 
-
 By default, .NET Compiler Platform ("Roslyn") analyzers analyze your C# or Visual Basic code as you type by doing live analysis, as well as during build. Hence, you won't normally need to trigger code analysis manually. However, there are some scenarios where you may want to manually trigger code analysis:
 
 - By default, live code analysis executes analyzers only for the active document in Visual Studio 2022 and later versions. However, you may be interested in viewing code analysis warnings for all files in a specific project or solution. If so, you would want to trigger code analysis once on a project or a solution. Alternatively, you can enable continuous live code analysis to execute on the entire solution. For more information, see [How to: Configure live code analysis scope for managed code](./configure-live-code-analysis-scope-managed-code.md).

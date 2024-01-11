@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # span::span Constructor
 
-
 Initializes a new instance of the `span` class.
 
 ## Syntax

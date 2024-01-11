@@ -17,7 +17,6 @@ ms.subservice: debug-diagnostics
 ---
 # Enumerations and Structures
 
-
 These are the enumerations and structures used by the DIA SDK.
 
 ## In This Section

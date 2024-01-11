@@ -17,7 +17,6 @@ ms.subservice: office-development
 ---
 # Configure a computer to develop Office solutions
 
-
 To configure a development computer so that you can use the Microsoft Office developer tools in Visual Studio, follow the instructions in this topic. You must have administrative privileges on the development computer to perform these steps.
 
 ## Requirements

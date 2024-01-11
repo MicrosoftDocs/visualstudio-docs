@@ -18,7 +18,6 @@ ms.subservice: deployment
 ---
 # Build .NET ClickOnce applications from the command line
 
-
 In Visual Studio, you can build projects from the command line, even if they're created in the integrated development environment (IDE). In fact, you can rebuild a project created with Visual Studio on another computer that has only .NET 5 or later installed. This capability allows you to reproduce a build by using an automated process, for example, in a central build lab or with advanced scripting techniques beyond the scope of building the project itself.
 
 > [!NOTE]
@@ -65,7 +64,6 @@ The easiest way to create a publish profile is by using Visual Studio. A publish
 1. Save your project, and make note of the folder location in which it's stored.
 
    The preceding steps create a ClickOnce project that's been published for the first time. Now you can reproduce the build outside of the IDE.
-
 
 #### Reproduce the build from the command line
 

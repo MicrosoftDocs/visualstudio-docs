@@ -10,7 +10,6 @@ ms.subservice: help-viewer
 ---
 # Search for topics in Help Viewer
 
-
 You can use the full-text search feature of Microsoft Help Viewer to locate all topics that contain a particular word. You can also refine and customize your search by using wildcard expressions, logical operators, and advanced search operators.
 
 ## To perform a full-text search

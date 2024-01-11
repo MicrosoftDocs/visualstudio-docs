@@ -10,7 +10,6 @@ ms.subservice: extensibility-integration
 ---
 # UX Essentials for Visual Studio
 
-
 ## Best practices
 
 ### 1. Be consistent within the Visual Studio environment.

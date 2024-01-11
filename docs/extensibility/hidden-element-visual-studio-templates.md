@@ -14,7 +14,6 @@ manager: jmartens
 ---
 # Hidden element (Visual Studio templates)
 
-
 Specifies whether the template appears in either the new project or **Add New Item** dialog boxes.
 
 ```xml

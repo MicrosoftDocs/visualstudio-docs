@@ -10,7 +10,6 @@ ms.subservice: extensibility-integration
 ---
 # Best practices checklist to publish a Visual Studio extension
 
-
 Here's a list of things to make sure to remember before publishing your Visual Studio extension.
 
 The following video introduces best practices to ensure your extension is the best it can be.

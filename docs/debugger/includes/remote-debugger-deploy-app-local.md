@@ -30,7 +30,6 @@
    Click **Finish** to save the publish profile.
    ::: moniker-end
 
-
 1. Switch to a debug configuration.
 
    Choose **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.

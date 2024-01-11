@@ -13,7 +13,6 @@ dev_langs:
 ---
 # Learn to use the code editor with Visual Basic
 
-
 In this 10-minute introduction to the code editor in Visual Studio, we'll add code to a file to look at some of the ways that Visual Studio makes writing, navigating, and understanding Visual Basic code easier.
 
 > [!TIP]

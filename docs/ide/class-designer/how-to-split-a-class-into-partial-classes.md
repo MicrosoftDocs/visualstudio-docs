@@ -16,7 +16,6 @@ dev_langs:
 ---
 # Split a class into partial classes in Class Designer
 
-
 You can use the `partial` keyword (`Partial` in Visual Basic) to divide the declaration of a class or structure among several declarations. You can use as many partial declarations as you want.
 
 The declarations can be in one or in multiple source files. All the declarations must be in the same assembly and the same namespace.

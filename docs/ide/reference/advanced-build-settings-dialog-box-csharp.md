@@ -14,7 +14,6 @@ manager: jmartens
 ---
 # Advanced Build Settings dialog box (C#)
 
-
 Use the **Advanced Build Settings** dialog box of the **Project Designer** to specify the project's advanced build configuration properties. This dialog box applies to C# projects only.
 
 ## General
@@ -24,7 +23,6 @@ The following options enable you to set general advanced settings.
 **Language Version**
 
 Links to [/langversion (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/langversion-compiler-option), which provides information about how a default language version is chosen based on a project's target framework.
-
 
 **Internal Compiler Error Reporting**
 

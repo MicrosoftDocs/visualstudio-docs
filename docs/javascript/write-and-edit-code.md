@@ -12,7 +12,6 @@ dev_langs:
 ---
 # Learn to use the code editor for JavaScript
 
-
 In this short introduction to the code editor in Visual Studio, we'll look at some of the ways that Visual Studio makes writing, navigating, and understanding code easier.
 
 > [!TIP]

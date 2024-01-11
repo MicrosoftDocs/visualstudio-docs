@@ -11,7 +11,6 @@ ms.subservice: extensibility-integration
 ---
 # Matching Visual Studio themes in Visual Studio extensions
 
-
 Whenever you are building any custom UI using WPF, you need to make sure it matches the theming of Visual Studio. That way your UI will look native and feel more like a natural part of Visual Studio. If not, your tool windows and dialogs might end up looking like this in the Light theme:
 
 :::image type="content" source="../media/theming-light-none.png" alt-text="Screenshot showing a window that uses the Light theme without W P F controls.":::

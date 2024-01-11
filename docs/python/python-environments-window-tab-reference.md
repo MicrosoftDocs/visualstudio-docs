@@ -11,7 +11,6 @@ ms.subservice: python
 ---
 # Python Environments window tabs reference in Python Tools for Visual Studio
 
-
 To open the **Python Environments** window:
 
 - Select the **View** > **Other Windows** > **Python Environments** menu command.

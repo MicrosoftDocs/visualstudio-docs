@@ -10,7 +10,6 @@ ms.subservice: general-ide
 ---
 # Personalize the Visual Studio IDE
 
-
 You can personalize Visual Studio in various ways to best support your own development style and requirements. Many of your settings roam with you across Visual Studio instances&mdash;see [Synchronized settings](../ide/synchronized-settings-in-visual-studio.md). This article briefly describes different personalizations and where you can find more information.
 
 > [!NOTE]

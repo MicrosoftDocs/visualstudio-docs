@@ -11,7 +11,6 @@ monikerRange: ">=vs-2019"
 ---
 # Connect to Azure services, gRPC, OpenAPI, and more
 
-
 Developers are building apps with an increasing number of services, yet the service technologies are evolving just as fast.  
 
 With Visual Studio's **Connected Services**, you get a modern service consumption experience that enables each service the ability to tailor their consumption experience, prompting you for the relevant questions you need to get started quickly.  

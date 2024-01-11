@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # Analyze memory usage by using the .NET Object Allocation tool
 
-
 You can see how much memory your app uses and what code paths allocate the most memory by using the .NET Object Allocation tool.
 
 After running the tool, you can see the function execution paths where objects are being allocated. You can then trace back to the root of the call tree that is taking up the most memory.

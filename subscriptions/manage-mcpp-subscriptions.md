@@ -53,7 +53,6 @@ Microsoft Action Pack subscriber and Visual Studio subscriptions
 
 + Download the [Terms of participation in the Microsoft Cloud Partner Program](https://aka.ms/partner-benefits-use-guide)
 
-
 ## See also
 
 + [Visual Studio documentation](/visualstudio/)

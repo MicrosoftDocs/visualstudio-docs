@@ -16,7 +16,6 @@ monikerRange: '>= vs-2019'
 ---
 # Generate source code from .NET assemblies while debugging
 
-
 When you debug a .NET application, you might find that you want to view source code that you don't have. For example, breaking on an exception or using the call stack to navigate to a source location.
 
 > [!NOTE]

@@ -10,7 +10,6 @@ ms.author: ghogen
 ---
 # Publish-WebApplicationWebSite (Windows PowerShell script)
 
-
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
 ## Syntax

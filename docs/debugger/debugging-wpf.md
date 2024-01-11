@@ -18,7 +18,6 @@ ms.subservice: debug-diagnostics
 ---
 # Debugging WPF
 
-
 Visual Studio provides additional features to make debugging WPF applications easier.
 
 ## Related Topics

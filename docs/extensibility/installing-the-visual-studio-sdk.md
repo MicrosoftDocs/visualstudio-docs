@@ -10,7 +10,6 @@ ms.subservice: extensibility-integration
 ---
 # Install the Visual Studio SDK
 
-
 The Visual Studio SDK (Software Development Kit) is an optional feature in Visual Studio setup. You can also install the VS SDK later on.
 
 ## Install the Visual Studio SDK as part of a Visual Studio installation

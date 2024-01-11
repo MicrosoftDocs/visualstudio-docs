@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugStackFrame2::GetLanguageInfo
 
-
 Gets the language associated with this stack frame.
 
 ## Syntax

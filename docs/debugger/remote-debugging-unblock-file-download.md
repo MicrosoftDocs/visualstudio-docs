@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # Unblock the download of the remote tools on Windows Server
 
-
 For older versions of Windows Server that include Internet Explorer, the default security settings in Internet Explorer on Windows Server can make it time-consuming to download components such as the remote tools.
 
 * Enhanced Security Configuration is enabled on Internet Explorer, which prevents you from opening websites and accessing web resources unless the domain containing the resource is explicitly allowed (that is, trusted). Although you can disable this setting, we don't recommend it because it can present a security risk.

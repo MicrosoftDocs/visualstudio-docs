@@ -53,7 +53,6 @@ Visual Studio extensions make their features available to Visual Studio through 
 
 Learn about the [Remote UI](./inside-the-sdk/remote-ui.md) model used in the VisualStudio.Extensibility.
 
-
 Read an overview of the areas of the SDK that you might need for your extension development projects.
 
 * Create commands and expose them to users in the IDE, see [Commands](./command/command.md).

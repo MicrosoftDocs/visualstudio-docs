@@ -15,7 +15,6 @@ dev_langs:
 ---
 # PORT_SUPPLIER_DESCRIPTION_FLAGS
 
-
 Defines the metadata that can be retrieved about a port supplier.
 
 ## Syntax

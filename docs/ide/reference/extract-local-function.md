@@ -12,7 +12,6 @@ dev_langs:
 ---
 # Extract local function refactoring
 
-
 This refactoring applies to:
 
 - C#

@@ -10,7 +10,6 @@ ms.subservice: general-ide
 ---
 # Access multiple accounts associated with the Visual Studio sign-in account
 
-
 In this article, you learn how to access multiple user accounts in Visual Studio.  After you sign in to Visual Studio with a Microsoft or an organizational account, you can see the resources accessible from your accounts in places such as the **Add Connected Service** dialog, **Server Explorer**, and **Team Explorer**.
 
 Azure, Application Insights, Azure DevOps, and Microsoft 365 services all support the streamlined sign-in experience.

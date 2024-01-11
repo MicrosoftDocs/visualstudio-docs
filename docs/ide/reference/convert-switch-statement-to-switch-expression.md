@@ -12,7 +12,6 @@ dev_langs:
 ---
 # Convert switch statement to switch expression
 
-
 This refactoring applies to:
 
 - C#

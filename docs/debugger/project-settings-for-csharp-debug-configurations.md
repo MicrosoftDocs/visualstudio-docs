@@ -22,7 +22,6 @@ ms.subservice: debug-diagnostics
 ---
 # Project settings for C# debug configurations
 
-
 You can change C# project debug settings in the [Debug tab](#debug-tab) and [Build tab](#build-tab) of the project property pages.
 
 To open the property pages, select the project in **Solution Explorer** and then select the **Properties** icon, or right-click the project and select **Properties**.

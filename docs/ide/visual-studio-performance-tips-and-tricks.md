@@ -10,7 +10,6 @@ ms.subservice: general-ide
 ---
 # Visual Studio performance tips and tricks
 
-
 Visual Studio performance recommendations are intended for low memory situations, which may occur in rare cases. In these situations, you can optimize certain Visual Studio features that you may not be using. The following tips aren't intended as general recommendations.
 
 > [!NOTE]

@@ -12,7 +12,6 @@ ms.subservice: modeling
 ---
 # Validate your system during development
 
-
 Visual Studio can help keep your software consistent with user requirements and with the architecture of your system.
 
 To see which versions of Visual Studio support each of these features, see [Version support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).

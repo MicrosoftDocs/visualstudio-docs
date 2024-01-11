@@ -11,7 +11,6 @@ ms.subservice: extensibility-integration
 ---
 # Get the tools needed to write Visual Studio extensions
 
-
 To write extensions you have to install the extensibility workload. That's technically all you need, but this set of documentation makes use of the community driven extension called *Extensibility Essentials*. Each version of Visual Studio has its own version: [Extensibility Essentials 2019](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ExtensibilityEssentials2019) or [Extensibility Essentials 2022](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ExtensibilityEssentials2022).
 
 The following video introduces the tools you'll need.

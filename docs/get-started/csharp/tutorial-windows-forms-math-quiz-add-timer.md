@@ -14,7 +14,6 @@ ms.subservice: general-ide
 ---
 # Tutorial: Add a timer to a math quiz WinForms app
 
-
 In this series of four tutorials, you'll build a math quiz. The quiz contains four random math problems that a quiz taker tries to answer within a specified time.
 
 The quiz uses a Timer control. The code behind this control tracks the elapsed time and checks the quiz taker's answers.

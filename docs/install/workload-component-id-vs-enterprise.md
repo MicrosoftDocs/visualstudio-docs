@@ -18,7 +18,6 @@ open_to_public_contributors: false
 ---
 # Visual Studio Enterprise component directory
 
-
 [!INCLUDE[workloads-components-universal-header_md](includes/workloads-components-universal-header_md.md)]
 
 ::: moniker range="vs-2019"

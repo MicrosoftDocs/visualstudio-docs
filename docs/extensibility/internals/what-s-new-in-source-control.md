@@ -14,7 +14,6 @@ ms.subservice: extensibility-integration
 ---
 # What's New in Source Control for the Visual Studio 2015 SDK
 
-
 In the Visual Studio SDK, you can provide a deeply integrated source control solution by implementing a source control VSPackage. This section describes the features of source control VSPackages and provides an overview of the implementation steps.
 
 ## The Source Control VSPackage

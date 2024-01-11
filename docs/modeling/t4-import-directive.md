@@ -10,7 +10,6 @@ ms.subservice: modeling
 ---
 # T4 Import Directive
 
-
 In the code blocks of a Visual Studio T4 text template, the `import` directive allows you to refer to elements in another namespace without providing a fully qualified name. It is the equivalent of `using` in C# or `imports` in Visual Basic.
 
 For a general overview of writing T4 text templates, see [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md).

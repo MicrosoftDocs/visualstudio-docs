@@ -12,7 +12,6 @@ feedback_system: GitHub
 ---
 # Target a previous version when creating an extension in Visual Studio 2022
 
-
 When you create a new VSIX project using Visual Studio 2022, the project is created from a template that targets Visual Studio 2022. If you want to target Visual Studio 2019 or an earlier version, you must modify the created project.
 
 Consider using [shared projects](update-visual-studio-extension.md#use-shared-projects-for-multi-targeting) to target Visual Studio 2019 and Visual Studio 2022 while sharing most or all the code in your extension.

@@ -17,7 +17,6 @@ dev_langs:
 ---
 # MODULE_SYMBOL_SEARCH_INFO
 
-
 Contains status information about symbol search paths that have been searched.
 
 ## Syntax

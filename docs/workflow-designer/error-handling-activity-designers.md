@@ -10,5 +10,4 @@ ms.subservice: workflow-designer
 ---
 # Error Handling Activity Designers
 
-
 The Error Handling activity designers are used to manage error handling in Workflow Designer. The topics contained in this section provide guidance on how to use the Workflow Designer activity and template designers.

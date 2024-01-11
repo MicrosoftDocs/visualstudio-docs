@@ -11,7 +11,6 @@ ms.subservice: debug-diagnostics
 
 # Instrumentation in Visual Studio (C#, Visual Basic, C++, F#)
 
-
 This article describes the instrumentation tools in Visual Studio, which are used for collecting exact call counts and call times.
 
 There are two types of instrumentation:

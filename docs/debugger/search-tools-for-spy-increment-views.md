@@ -13,7 +13,6 @@ ms.subservice: debug-diagnostics
 ---
 # Search tools for Spy++ views
 
-
 Use these dialog boxes to specify what data a Spy++ Views window will display.
 
 ## Find Window

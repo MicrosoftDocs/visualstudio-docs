@@ -12,7 +12,6 @@ ms.subservice: extensibility-integration
 ---
 # Supply undo support to designers
 
-
 Designers, like editors, typically need to support undo operations so that users can reverse their recent changes when modifying a code element.
 
 Most designers implemented in Visual Studio have "undo" support automatically provided by the environment.

@@ -21,7 +21,6 @@ ms.subservice: data-tools
 ---
 # Work with datasets in n-tier applications
 
-
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 *N-tier data applications* are data-centric applications that are separated into multiple logical layers (or *tiers*). In other words, an n-tier data application is an application that is separated into multiple projects, with the data access tier, the business logic tier, and the presentation tier each in its own project. For more information, see [N-Tier data applications overview](../data-tools/n-tier-data-applications-overview.md).

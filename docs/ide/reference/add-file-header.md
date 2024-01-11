@@ -10,7 +10,6 @@ ms.subservice: general-ide
 ---
 # Add file header
 
-
 This code generation applies to:
 
 - C#

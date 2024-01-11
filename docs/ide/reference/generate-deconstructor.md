@@ -12,7 +12,6 @@ dev_langs:
 ---
 # Generate a deconstructor in Visual Studio
 
-
 This code generation applies to:
 
 - C#

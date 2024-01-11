@@ -12,7 +12,6 @@ ms.subservice: installation
 ---
 # Enabling administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager
 
-
 Every time a new Visual Studio update is released, Microsoft will publish a Visual Studio administrator update package to the Microsoft Update servers. An administrator can then distribute this Visual Studio administrator update package via [Windows Server Update Services (WSUS)](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus) by using the [Configuration Manager (SCCM)](/configmgr/core/understand/introduction), or via [Windows Update for Business (WUfB)](/windows/deployment/update/waas-manage-updates-wufb) by using the [Microsoft Endpoint Manager (Intune)](https://endpoint.microsoft.com). The Windows Update agent on the client computers will recognize that the update is available and will initiate the update.
 
 ## Use Microsoft Endpoint Manager (Intune) to update to cloud connected devices using Visual Studio administrator updates

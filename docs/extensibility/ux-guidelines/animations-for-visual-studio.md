@@ -189,7 +189,6 @@ Progress indicators have a couple of notable advantages:
 
 ## <a name="BKMK_AnimationPatterns"></a> Animation patterns
 
-
 Animations in Visual Studio are meant to serve a specific function without hindering user productivity. Generally, animations in Visual Studio should be:
 
 - Small and unobtrusive

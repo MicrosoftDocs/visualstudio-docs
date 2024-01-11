@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # Learn productivity tips and tricks for the debugger in Visual Studio
 
-
 Read this topic to learn a few productivity tips and tricks for the Visual Studio debugger. For a look at the basic features of the debugger, see [First look at the debugger](../debugger/debugger-feature-tour.md). In this topic, we cover some areas that are not included in the feature tour.
 
 ## Keyboard shortcuts

@@ -17,7 +17,6 @@ ms.subservice: installation
 ---
 # Configure policies for enterprise deployments of Visual Studio
 
-
 You can configure certain aspects of Visual Studio's deployment and update behavior via policies. Some of these configurations are particular to an installed instance of Visual Studio, and some of the configurations can be global and apply to all instances of Visual Studio on the client machine. The configurable behaviors include:
 
 - If users without administrator permissions should be allowed to update or modify Visual Studio

@@ -13,7 +13,6 @@ dev_langs:
 ---
 # Remove Unused References
 
-
 This refactoring applies to:
 
 - C#

@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # Quickstart: Debug with C++ using the Visual Studio debugger
 
-
 The Visual Studio debugger provides many powerful features to help you debug your apps. This topic provides a quick way to learn some of the basic features.
 
 ## Create a new project

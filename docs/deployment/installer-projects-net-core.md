@@ -15,7 +15,6 @@ monikerRange: '>= vs-2019'
 ---
 # Visual Studio Installer Projects Extension and .NET
 
-
 Packaging applications as an MSI is often accomplished using the Visual Studio Installer Projects Extension.
 
 This article applies to apps targeting .NET Core 3.1, .NET 5, .NET 6, and later.

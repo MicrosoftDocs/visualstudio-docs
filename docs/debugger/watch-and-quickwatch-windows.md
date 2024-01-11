@@ -19,7 +19,6 @@ ms.subservice: debug-diagnostics
 ---
 # Watch variables with Watch windows and QuickWatch
 
-
 While you're debugging, you can use **Watch** windows and **QuickWatch** to watch variables and expressions. The windows are only available during a debugging session.
 
 **Watch** windows can display several variables at a time while debugging. The **QuickWatch** dialog displays a single variable at a time, and must be closed before debugging can continue. For more information on using QuickWatch, see [Observe a single variable or expression with QuickWatch](#observe-a-single-variable-or-expression-with-quickwatch).

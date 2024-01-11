@@ -23,7 +23,6 @@ ms.subservice: general-ide
 ---
 # Options dialog box: Environment \> General
 
-
 Use this page to change color themes, status bar settings, and file extension associations, among other options, for the integrated development environment (IDE). You can access the **Options** dialog box by opening the **Tools** menu, choosing **Options**, opening the **Environment** folder and then choosing the **General** page.
 
 ## Visual Experience

@@ -16,7 +16,6 @@ ms.subservice: code-analysis
 ---
 # Automatic feature suspension
 
-
 If your available system memory falls to 200 MB or less, Visual Studio displays the following message in the code editor:
 
 ![Alert text suspending full solution analysis](../code-quality/media/fsa_alert.png)

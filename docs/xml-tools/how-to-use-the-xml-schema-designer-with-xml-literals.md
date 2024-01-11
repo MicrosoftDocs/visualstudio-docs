@@ -12,7 +12,6 @@ dev_langs:
 ---
 # Use the XML Schema Designer with XML literals
 
-
 This topic describes how to view a schema associated with an XML literal in a Visual Basic project.
 
 ## Create a new Visual Basic project

@@ -10,7 +10,6 @@ ms.subservice: workflow-designer
 ---
 # Migration activity designers
 
-
 The Migration activity designers are used to call workflow 3.0/3.5 activities from a workflow that targets .NET Framework 4 or later.
 
 The topics contained in this section provide guidance on how to use the Workflow Designer activity designers.

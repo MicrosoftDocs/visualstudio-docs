@@ -15,7 +15,6 @@ dev_langs:
 ---
 # Extract a method refactoring
 
-
 This refactoring applies to:
 
 - C#

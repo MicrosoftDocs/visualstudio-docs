@@ -17,7 +17,6 @@ ms.subservice: general-ide
 ---
 # Open project command
 
-
 Opens an existing project or solution.
 
 ## Syntax

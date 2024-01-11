@@ -12,7 +12,6 @@ ms.subservice: workflow-designer
 ---
 # WriteLine Activity Designer
 
-
 The **WriteLine** activity designer is used to create and configure a <xref:System.Activities.Statements.WriteLine> activity.
 
 ## The WriteLine Activity

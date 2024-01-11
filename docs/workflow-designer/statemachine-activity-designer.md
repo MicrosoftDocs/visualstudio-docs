@@ -13,7 +13,6 @@ ms.subservice: workflow-designer
 ---
 # StateMachine Activity Designer
 
-
 The <xref:System.Activities.Statements.StateMachine> activity contains a collection of states and models workflows using the familiar state machine paradigm.
 
 ## Using the StateMachine Activity Designer

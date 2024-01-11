@@ -14,7 +14,6 @@ ms.subservice: general-ide
 ---
 # /RunExit (devenv.exe)
 
-
 Compiles and runs the specified project or solution, and then closes the integrated development environment (IDE).
 
 ## Syntax

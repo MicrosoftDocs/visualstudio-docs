@@ -35,7 +35,6 @@ ms.subservice: general-ide
 ---
 # Options dialog box: Text Editor \> General
 
-
 This dialog box lets you change global settings for the Visual Studio code and text editor. To display this dialog box, select **Options** on the **Tools** menu, expand the **Text Editor** folder, and then select **General**.
 
 ::: moniker range="vs-2022"

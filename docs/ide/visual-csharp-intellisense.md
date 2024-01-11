@@ -13,7 +13,6 @@ ms.subservice: general-ide
 ---
 # C# IntelliSense
 
-
 C# IntelliSense is available when coding in the editor, and while debugging in the [Immediate mode](../ide/reference/immediate-window.md) command window.
 
 ## Completion lists

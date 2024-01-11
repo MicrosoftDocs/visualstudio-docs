@@ -10,7 +10,6 @@ ms.author: angelpe
 ---
 # Add Azure Application Insights by using Visual Studio Connected Services
 
-
 With Visual Studio, you can connect any of the following to Azure Application Insights by using the **Connected Services** feature:
 
 - .NET Framework console app

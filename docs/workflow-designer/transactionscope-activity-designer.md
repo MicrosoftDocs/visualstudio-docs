@@ -12,7 +12,6 @@ ms.subservice: workflow-designer
 ---
 # TransactionScope Activity Designer
 
-
 The **TransactionScope** activity designer is used to create and configure a <xref:System.Activities.Statements.TransactionScope> activity.
 
 ## The TransactionScope Activity

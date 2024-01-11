@@ -30,7 +30,6 @@ ms.subservice: extensibility-integration
 
 ## <a name="BKMK_IconDesign"></a> Icon design
 
-
  Visual Studio uses modern-style icons, which have clean geometry and a 50/50 balance of positive/negative (light/dark), and use direct, understandable metaphors. Crucial icon design points center around clarity, simplification, and context.
 
 - **Clarity:** focus on the core metaphor that gives an icon its meaning and individuality.
@@ -229,7 +228,6 @@ ms.subservice: extensibility-integration
  For more information on using color in Visual Studio icons, see [Using color in images](../../extensibility/ux-guidelines/images-and-icons-for-visual-studio.md#BKMK_UsingColorInImages).
 
 ## <a name="BKMK_UsingColorInImages"></a> Using color in images
-
 
  Icons in Visual Studio are primarily monochromatic. Color is reserved to convey specific information and never for decoration. Color is used:
 

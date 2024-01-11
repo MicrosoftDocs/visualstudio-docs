@@ -16,7 +16,6 @@ ms.subservice: installation
 ---
 # Tools for detecting and managing Visual Studio instances
 
-
 There are several tools that you can use to detect and manage Visual Studio installations on client machines.
 
 ## Detecting existing Visual Studio instances

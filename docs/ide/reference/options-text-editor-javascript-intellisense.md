@@ -14,7 +14,6 @@ manager: jmartens
 ---
 # Options dialog box: Text Editor \> JavaScript \> IntelliSense
 
-
 Use the **IntelliSense** page of the **Options** dialog box to modify settings that affect the behavior of IntelliSense for JavaScript. You can access the **IntelliSense** page by choosing **Tools** > **Options** on the  menu bar, and then expanding **Text Editor** > **JavaScript/TypeScript** > **IntelliSense** > **General**.
 
 [!INCLUDE[note_settings_general](../../data-tools/includes/note_settings_general_md.md)]

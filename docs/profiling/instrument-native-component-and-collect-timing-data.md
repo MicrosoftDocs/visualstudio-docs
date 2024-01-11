@@ -10,7 +10,6 @@ ms.subservice: debug-diagnostics
 ---
 # Instrument a native stand-alone component and collect timing data with the profiler from the command line
 
-
 This topic describes how to use Visual Studio command-line profiling tools to instrument a native component such as a C++ .*exe* or .*dll* file, and to collect detailed timing data.
 
 > [!NOTE]

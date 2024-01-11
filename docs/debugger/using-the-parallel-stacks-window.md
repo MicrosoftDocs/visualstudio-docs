@@ -19,7 +19,6 @@ ms.subservice: debug-diagnostics
 ---
 # View threads and tasks in the Parallel Stacks window (C#, Visual Basic, C++)
 
-
 The **Parallel Stacks** window is useful for debugging multithreaded applications. It has several views:
 
 - [Threads view](#threads-view) shows call stack information for all threads in the app. You can navigate between threads and stack frames on those threads.
@@ -51,7 +50,6 @@ The **Parallel Stacks** window has the following toolbar controls:
 ::: moniker-end
 ::: moniker range=">=vs-2022"
 ![Screenshot of Toolbar in Parallel Stacks window 2022.](../debugger/media/vs-2022/parallel-stacks-toolbar.png "Parallel Stacks toolbar.")
-
 
 |Icon|Control|Description|
 |-|-|-|
@@ -90,7 +88,6 @@ Icon|Description|
 |![Status Running](media/vs-2022/icon-status-running.png)|Indicates that the currently running task.|
 
 ::: moniker-end
-
 
 ### Context menu items
 The following shortcut menu items are available when you right-click a method in **Threads** view or **Tasks** view. The last six items are the same as in the [Call Stack window](how-to-use-the-call-stack-window.md).
@@ -202,7 +199,6 @@ The following illustration shows the **Threads** view at the top and the corresp
 
 ::: moniker-end
 
-
 ::: moniker range=">=vs-2022"
 [![Screenshot of Tasks view in Parallel Stacks window.](../debugger/media/vs-2022/parallel-stacks-toolbar-threads-tasks-view.png "Tasks view in Parallel Stacks window.")](../debugger/media/vs-2022/parallel-stacks-toolbar-threads-tasks-view.png#lightbox)
 ::: moniker-end
@@ -240,7 +236,6 @@ These video tutorials demonstrate how you can use the Threads and Tasks views of
 
 - [Debugging tasks with the Parallel Stacks window](/shows/visual-studio-toolbox/debugging-tasks-with-the-parallel-stacks-window)
 - [Debugging threads with the Parallel Stacks window](/shows/visual-studio-toolbox/debugging-threads-with-the-parallel-stacks-window)
-
 
 
 ## Related content

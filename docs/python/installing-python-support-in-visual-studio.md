@@ -10,7 +10,6 @@ ms.subservice: python
 ---
 # Install Python support in Visual Studio
 
-
 Python support is available only on Visual Studio for Windows. On Mac and Linux, Python support is available through [Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial).
 
 ## Download & install the Python workload

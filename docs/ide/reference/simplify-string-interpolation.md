@@ -13,7 +13,6 @@ dev_langs:
 ---
 # Simplify string interpolation refactoring
 
-
 This refactoring applies to:
 
 - C#

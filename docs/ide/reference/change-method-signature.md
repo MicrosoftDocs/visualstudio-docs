@@ -16,7 +16,6 @@ dev_langs:
 ---
 # Change a method signature refactoring
 
-
 This refactoring applies to:
 
 - C#

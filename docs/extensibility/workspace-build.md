@@ -9,7 +9,6 @@ manager: "viveis"
 ---
 # Workspace build
 
-
 Build support in [Open Folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) scenarios requires an extender to supply [indexed](workspace-indexing.md) and [file context](workspace-file-contexts.md) data for the [workspace](workspaces.md), as well as the build action to run.
 
 Below is an outline of what your extension will need.

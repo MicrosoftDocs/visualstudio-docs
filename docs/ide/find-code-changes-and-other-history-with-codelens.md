@@ -12,7 +12,6 @@ ms.subservice: general-ide
 ---
 # Find code changes and other history with CodeLens
 
-
 ::: moniker range="vs-2022"
 
 With CodeLens, you can stay focused on your work while you find out what happened to your code&ndash;all without leaving the editor. You can find references to a piece of code, changes to your code, linked bugs, Azure DevOps work items, code reviews, and unit tests.

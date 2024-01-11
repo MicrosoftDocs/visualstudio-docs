@@ -20,7 +20,6 @@ ms.subservice: data-tools
 ---
 # Create parameterized TableAdapter queries in .NET Framework applications
 
-
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 A parameterized query returns data that meets the conditions of a WHERE clause within the query. For example, you can parameterize a customer list to display only customers in a certain city by adding `WHERE City = @City` to the end of the SQL statement that returns a list of customers.

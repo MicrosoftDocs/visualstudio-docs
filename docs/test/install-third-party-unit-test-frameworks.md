@@ -10,7 +10,6 @@ author: mikejo5000
 ---
 # Install unit test frameworks
 
-
 Visual Studio Test Explorer can run tests from any unit test framework that has developed an adapter interface for it. Installing the framework copies the binaries and adds Visual Studio project templates for the languages it supports. When you create a project with the template, the framework is registered with Test Explorer.
 
 A Visual Studio solution can contain unit test projects that use different frameworks and that are targeted at different languages.

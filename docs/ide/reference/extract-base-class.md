@@ -13,7 +13,6 @@ dev_langs:
 ---
 # Extract base class
 
-
 This refactoring applies to:
 
 - C#

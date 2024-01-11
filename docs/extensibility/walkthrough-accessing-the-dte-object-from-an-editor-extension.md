@@ -12,7 +12,6 @@ ms.subservice: extensibility-integration
 ---
 # Walkthrough: Access the DTE object from an editor extension
 
-
 In VSPackages, you can get the DTE object by calling the <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> method with the type of the DTE object. In Managed Extensibility Framework (MEF) extensions, you can import <xref:Microsoft.VisualStudio.Shell.SVsServiceProvider> and then call the <xref:Microsoft.VisualStudio.Shell.ServiceProvider.GetService%2A> method with a type of <xref:EnvDTE.DTE>.
 
 ## Prerequisites
@@ -50,7 +49,6 @@ To follow this walkthrough, you must install the Visual Studio SDK. For more inf
    ThreadHelper.ThrowIfNotOnUIThread();
    DTE dte = (DTE)ServiceProvider.GetService(typeof(DTE));
    ```
-
 
 ## See also
 

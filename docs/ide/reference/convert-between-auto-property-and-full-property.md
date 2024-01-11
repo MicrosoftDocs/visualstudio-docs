@@ -12,7 +12,6 @@ dev_langs:
 ---
 # Convert between auto property and full property
 
-
 This refactoring applies to:
 
 - C#

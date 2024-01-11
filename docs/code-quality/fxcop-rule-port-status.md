@@ -13,7 +13,6 @@ ms.subservice: code-analysis
 ---
 # Fxcop rule port status
 
-
 If you previously used static code analysis in Visual Studio, you may be wondering which of those rules are available in the current implementation as [.NET analyzers](install-net-analyzers.md). This page lists the rules that have been ported. See [Unported rules](fxcop-unported-rules.md) for those that haven't been ported and whether there are plans to port them.
 
 ## Ported rules

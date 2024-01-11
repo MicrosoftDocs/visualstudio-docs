@@ -15,7 +15,6 @@ dev_langs:
 ---
 # Generate a class or type in Visual Studio
 
-
 This code generation applies to:
 
 - C#

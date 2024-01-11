@@ -13,7 +13,6 @@ dev_langs:
 ---
 # Unused value assignments, variables, and parameters
 
-
 This refactoring applies to:
 
 - C#

@@ -16,7 +16,6 @@ dev_langs:
 ---
 # Convert Get method to property / Convert property to Get method refactorings
 
-
 These refactorings apply to:
 
 - C#

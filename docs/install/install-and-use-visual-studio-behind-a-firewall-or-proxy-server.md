@@ -16,7 +16,6 @@ ms.subservice: installation
 ---
 # Install and use Visual Studio and Azure Services behind a firewall or proxy server
 
-
 If you or your organization uses security measures such as a firewall or a proxy server, then there are domain URLs that you might want to add to an "allowlist" and ports and protocols that you might want to open so that you have the best experience when you install and use Visual Studio and Azure Services.
 
 * **[Install Visual Studio](#install-visual-studio)**: These tables include the domain URLs to add to an allowlist so that you have access to all the components and workloads that you want.
@@ -57,7 +56,6 @@ Because the Visual Studio Installer downloads files from various domains and the
 | github.com                            | Git for Windows & Windows Build Tools      |
 | az837173.vo.msecnd.net                | Development with Azure Storage              |
 
-
 #### Non-Microsoft domains
 
 | Domain                            | Installs these workloads                                                                                                                    |
@@ -81,7 +79,6 @@ Because the Visual Studio Installer downloads files from various domains and the
 | idmsa.apple.com                   | Xamarin.iOS provisioning                                                                                                                    |
 | akamaized.net                     | Content Delivery Network (Akamai Technologies)                                                                                              |
 | developer.arm.com                 | ARM Development                                                                                                                             |
-
 
 ## Use Visual Studio and Azure Services
 

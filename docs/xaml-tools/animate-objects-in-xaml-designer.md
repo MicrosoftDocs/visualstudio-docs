@@ -11,7 +11,6 @@ ms.subservice: xaml-tools
 ---
 # Animate objects in XAML Designer
 
-
 Blend for Visual Studio lets you easily create short animations that move objects or fade them in and out, for example.
 
 To create an animation, you need a *storyboard*. A storyboard contains one or more *timelines*. Set *keyframes* on a timeline to mark property changes. Then, when you run the animation, Blend for Visual Studio interpolates the property changes over the designated period of time. The result is a smooth transition. You can animate any property that belongs to an object, even nonvisual properties.

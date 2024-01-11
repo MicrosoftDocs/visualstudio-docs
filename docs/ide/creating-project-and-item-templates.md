@@ -15,7 +15,6 @@ ms.subservice: general-ide
 ---
 # What are project and item templates?
 
-
 Project and item templates are reusable stubs that give you some basic code and structure to customize for your own purposes. Typically, you start with a project template and then you add an item template.
 
 ## Visual Studio templates

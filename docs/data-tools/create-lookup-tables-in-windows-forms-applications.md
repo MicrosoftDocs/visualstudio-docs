@@ -13,7 +13,6 @@ ms.subservice: data-tools
 ---
 # Create lookup tables in .NET Framework Windows Forms applications
 
-
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 The term *lookup table* describes controls that are bound to two related data tables. These lookup controls display data from the first table based on a value selected in the second table.

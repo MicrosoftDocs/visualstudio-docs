@@ -10,7 +10,6 @@ ms.subservice: data-tools
 ---
 # The connection property in the Application Settings file is missing or incorrect
 
-
 The connection property in the Application Settings file is missing or incorrect. The connection string from the `.dbml` file has been used in its place.
 
 The `.dbml` file contains a reference to a connection string in the application settings file that cannot be found. This message is informational; the connection string setting will be created when **OK** is clicked.

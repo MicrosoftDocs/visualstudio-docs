@@ -18,7 +18,6 @@ ms.subservice: general-ide
 ---
 # /Project (devenv.exe)
 
-
 Identifies a single project within the specified solution configuration to build, clean, rebuild, or deploy.
 
 ## Syntax

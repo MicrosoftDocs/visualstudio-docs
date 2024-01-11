@@ -10,7 +10,6 @@ ms.subservice: general-ide
 ---
 # Implement an interface in Visual Studio
 
-
 This code generation applies to:
 
 - C#

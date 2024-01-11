@@ -10,7 +10,6 @@ ms.subservice: general-ide
 ---
 # Add a parameter to a method using a Quick Action
 
-
 This code generation applies to:
 
 - C#

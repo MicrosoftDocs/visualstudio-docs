@@ -15,7 +15,6 @@ ms.subservice: general-ide
 ---
 # ShowWebBrowser Command
 
-
 Displays the URL you specify in a web browser window either within the integrated development environment (IDE) or external to the IDE.
 
 ## Syntax

@@ -14,7 +14,6 @@ ms.subservice: general-ide
 ---
 # /Diff (devenv.exe)
 
-
 Compares two files. The differences are displayed in a special Visual Studio window.
 
 ## Syntax

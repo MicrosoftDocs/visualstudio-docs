@@ -10,7 +10,6 @@ ms.subservice: xml-tools
 ---
 # Add schema set search result nodes to the workspace
 
-
 This topic explains how to add nodes that are highlighted in the **XML Schema Explorer** as the result of a keyword search in the workspace.
 
 > [!NOTE]

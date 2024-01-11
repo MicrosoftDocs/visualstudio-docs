@@ -16,7 +16,6 @@ ms.subservice: sharepoint-development
 ---
 # Walkthrough: Create a SharePoint application page
 
-
 An application page is a specialized form of an ASP.NET page. Application pages contain content that's merged with a SharePoint master page. For more information, see [Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md).
 
 This walkthrough shows you how to create an application page and then debug it by using a local SharePoint site. This page shows all items that each user has created or modified in all sites on the server farm.

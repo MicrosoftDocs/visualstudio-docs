@@ -11,7 +11,6 @@ ms.subservice: python
 
 # Python projects in Visual Studio
 
-
 Python applications are typically defined using only folders and files, but this structure can become complex as applications become larger and perhaps involve auto-generated files, JavaScript for web applications, and so on. A Visual Studio project helps manage this complexity. The project (a _.pyproj_ file) identifies all the source and content files associated with your project, contains build information for each file, maintains the information to integrate with source-control systems, and helps you organize your application into logical components.
 
 ![Python project in Solution Explorer](media/projects-solution-explorer.png)

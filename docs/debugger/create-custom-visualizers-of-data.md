@@ -21,7 +21,6 @@ ms.subservice: debug-diagnostics
 ---
 # Custom data visualizers for the Visual Studio debugger (.NET)
 
-
 A *visualizer* is part of the Visual Studio debugger user interface that displays a variable or object in a manner appropriate to its data type. For example, a [bitmap visualizer](/previous-versions/visualstudio/visual-studio-2015/debugger/image-watch/image-watch) interprets a bitmap structure and displays the graphic it represents. Some visualizers let you modify as well as view the data. In the debugger, a visualizer is represented by a magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon"). You can select the icon in a **DataTip**, debugger **Watch** window, or **QuickWatch** dialog box, and then select the appropriate visualizer for the corresponding object.
 
 In addition to the [standard built-in visualizers](../debugger/view-strings-visualizer.md), more visualizers may be available for download from Microsoft, third parties, and the community. You can also write your own visualizers and install them in the Visual Studio debugger.

@@ -10,7 +10,6 @@ ms.subservice: xml-tools
 ---
 # Create an XML document based on an XSD schema
 
-
 The **Generate Sample XML** feature generates a sample XML file based on your XML Schema (XSD) file.
 
 You can use this option for the following scenarios:

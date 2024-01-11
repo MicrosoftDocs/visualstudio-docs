@@ -23,7 +23,6 @@ ms.subservice: debug-diagnostics
 ---
 # Dump files in the Visual Studio debugger
 
-
 <a name="BKMK_What_is_a_dump_file_"></a>
 A *dump file* is a snapshot that shows the process that was executing and modules that were loaded for an app at a point in time. A dump with heap information also includes a snapshot of the app's memory at that point.
 

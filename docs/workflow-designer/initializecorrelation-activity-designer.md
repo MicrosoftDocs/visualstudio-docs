@@ -12,7 +12,6 @@ ms.subservice: workflow-designer
 ---
 # InitializeCorrelation Activity Designer
 
-
 The **InitializeCorrelation** activity designer is used to create and configure an <xref:System.ServiceModel.Activities.InitializeCorrelation> activity. The <xref:System.ServiceModel.Activities.InitializeCorrelation> activity establishes a correlation between messages before sending or receiving them.
 
 ## The InitializeCorrelation Activity

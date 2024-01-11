@@ -12,7 +12,6 @@ dev_langs:
 ---
 # DateTime and TimeSpan completion by using the IntelliSense menu
 
-
 This refactoring applies to:
 
 - C#

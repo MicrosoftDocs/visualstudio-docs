@@ -15,7 +15,6 @@ ms.subservice: sharepoint-development
 ---
 # Walkthrough: Deploy a project task list definition
 
-
 This walkthrough shows you how to use Visual Studio 2012 to create, customize, debug, and deploy a SharePoint list to track project tasks.
 
 [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]

@@ -13,7 +13,6 @@ ms.subservice: debug-diagnostics
 ---
 # Understand profiler performance collection methods
 
-
 This document outlines the data collection methods that tools within the Visual Studio Performance Profiler utilize. 
 
 ## Sampling

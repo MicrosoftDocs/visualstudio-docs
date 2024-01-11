@@ -14,7 +14,6 @@ ms.custom: vs-acquisition
 ---
 # Tutorial: Add reference variables and a timer control to your matching game WinForms app
 
-
 In this series of four tutorials, you build a matching game, where the player matches pairs of hidden icons.
 
 Your Matching Game program needs to track which Label controls the player chooses.

@@ -11,7 +11,6 @@ ms.subservice: xaml-tools
 ---
 # Direct Selection tool modifier keys in Blend for Visual Studio
 
-
 The following table lists shortcuts that you can use to modify the shape of an existing path with the **Direct Selection** tool ![Direct selection tool](../designers/media/6dd6571f-c116-451d-8dd2-1f88b8406362.png). To add or remove points on an existing path, or to join two existing paths, use the **Pen** tool.
 
 |To do this action|Do this|Pointer|

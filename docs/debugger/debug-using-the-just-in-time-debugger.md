@@ -13,7 +13,6 @@ ms.subservice: debug-diagnostics
 ---
 # Debug using the Just-In-Time Debugger in Visual Studio
 
-
 Just-In-Time debugging can launch Visual Studio automatically when an app running outside Visual Studio errors or crashes. With Just-In-Time debugging, you can test apps outside of Visual Studio, and open Visual Studio to begin debugging when a problem occurs.
 
 Just-In-Time debugging works for Windows desktop apps. It doesn't work for Universal Windows Apps, or for managed code that is hosted in a native application, such as Visualizers.

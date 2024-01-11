@@ -13,7 +13,6 @@ ms.subservice: extensibility-integration
 ---
 # Create custom editors and designers
 
-
 The Visual Studio integrated development environment (IDE) can host different types of editor:
 
 - The Visual Studio core editor

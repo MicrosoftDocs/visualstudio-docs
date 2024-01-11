@@ -23,7 +23,6 @@ ms.subservice: sharepoint-development
 ---
 # Create SharePoint workflow solutions
 
-
 Visual Studio provides tools to help you create custom workflows that manage the life cycle of documents and list items in a SharePoint Web site. Items provided include a designer, a set of activity controls, and the necessary assembly references. Visual Studio also includes the **SharePoint Customization Wizard**, to help create and configure the workflows.
 
 For more information about SharePoint, see [Microsoft SharePoint Products and Technologies](/sharepoint/dev/).

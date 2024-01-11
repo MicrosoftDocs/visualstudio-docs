@@ -12,7 +12,6 @@ ms.subservice: test-tools
 ---
 # Create a load test project
 
-
 Load tests execute web performance or unit tests to simulate many users accessing a server at the same time. For the most current documentation, see [Quickstart: Create a load test project](/previous-versions/visualstudio/visual-studio-2017/test/quickstart-create-a-load-test-project).
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]

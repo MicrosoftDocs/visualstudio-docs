@@ -10,7 +10,6 @@ ms.subservice: code-analysis
 ---
 # Native Minimum Rules rule set
 
-
 The Microsoft Native Minimum Rules focus on the most critical problems in native code, including potential security holes and application crashes.
 
 Include this rule set in any custom rule set you create for native projects.

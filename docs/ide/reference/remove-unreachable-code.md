@@ -13,7 +13,6 @@ dev_langs:
 ---
 # Remove unreachable code refactoring
 
-
 This refactoring applies to:
 
 - C#

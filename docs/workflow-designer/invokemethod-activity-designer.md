@@ -12,7 +12,6 @@ ms.subservice: workflow-designer
 ---
 # InvokeMethod Activity Designer
 
-
 **InvokeMethod** designer is used to create and configure an <xref:System.Activities.Statements.InvokeMethod> activity.
 
 ## The InvokeMethod activity

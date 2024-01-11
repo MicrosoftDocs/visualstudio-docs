@@ -12,7 +12,6 @@ ms.subservice: workflow-designer
 ---
 # Delay Activity Designer
 
-
 The **Delay** activity designer is used to create and configure a <xref:System.Activities.Statements.Delay> activity.
 
 ## The Delay activity

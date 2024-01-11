@@ -12,7 +12,6 @@ ms.subservice: ui-designers
 ---
 # Windows Forms Designer overview
 
-
 Windows Forms Designer in Visual Studio provides a rapid development solution for creating Windows Forms-based applications. Windows Forms Designer lets you easily add controls to a form, arrange them, and write code for their events. For more information about Windows Forms, see [Windows Forms overview](/dotnet/framework/winforms/windows-forms-overview).
 
 ## Functionality

@@ -12,7 +12,6 @@ ms.subservice: general-ide
 ---
 # Options, Text Editor, XML, Formatting
 
-
 Use the **Formatting** options page to specify how elements and attributes are formatted in your XML documents. To access XML formatting options, choose **Tools** > **Options** > **Text Editor** > **XML**, and then choose **Formatting**.
 
 ## Attributes

@@ -20,7 +20,6 @@ ms.subservice: general-ide
 ---
 # /Out (devenv.exe)
 
-
 Specifies a file to store and display errors when you [run](run-devenv-exe.md), [run and exit](runexit-devenv-exe.md), [upgrade](upgrade-devenv-exe.md), [build](build-devenv-exe.md), [rebuild](rebuild-devenv-exe.md), [clean](clean-devenv-exe.md), or [deploy](deploy-devenv-exe.md) a solution.
 
 ## Syntax

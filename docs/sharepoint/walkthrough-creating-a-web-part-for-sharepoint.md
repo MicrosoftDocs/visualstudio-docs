@@ -17,7 +17,6 @@ ms.subservice: sharepoint-development
 ---
 # Walkthrough: Create a web part for SharePoint
 
-
 Web Parts enable users to directly modify the content, appearance, and behavior of SharePoint site pages by using a browser. This walkthrough shows you how to create a Web Part by using the **Web Part** item template in Visual Studio 2010.
 
 The Web Part displays employees in a data grid. The user specifies the location of the file that contains the employee data. The user can also filter the data grid so that employees who are managers appear in the list only.

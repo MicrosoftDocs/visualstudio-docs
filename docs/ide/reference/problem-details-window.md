@@ -15,7 +15,6 @@ ms.subservice: general-ide
 
 # Problem Details window
 
-
 The **Problem Details** window shows structured diagnostics issued by the MSVC compiler or [code analysis for C/C++](/cpp/code-quality/code-analysis-for-c-cpp-overview).
 
 Select entries in the [**Error List** window](error-list-window.md) that show an icon in the **Details** column to open the **Problem Details** window. The **Problem Details** window shows the structured diagnostics for the selected entry.

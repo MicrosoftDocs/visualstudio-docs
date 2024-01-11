@@ -13,7 +13,6 @@ ms.subservice: code-analysis
 ---
 # Walkthrough: Use static code analysis to find code defects
 
-
 In this walkthrough, you'll analyze a managed project for code defects by using legacy code analysis.
 
 This article steps you through the process of using legacy analysis to analyze your .NET managed code assemblies for conformance with the .NET design guidelines.

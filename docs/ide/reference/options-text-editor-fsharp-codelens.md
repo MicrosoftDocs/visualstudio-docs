@@ -12,7 +12,6 @@ ms.subservice: general-ide
 ---
 # Options, Text Editor, F#, CodeLens
 
-
 Use the **CodeLens** options page to modify the text editor CodeLens settings for F#. To access this options page, choose **Tools** > **Options**, and then choose **Text Editor** > **F#** > **CodeLens**.
 
 ## CodeLens

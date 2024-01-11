@@ -15,7 +15,6 @@ ms.subservice: general-ide
 ---
 # /Deploy (devenv.exe)
 
-
 Deploys a solution after a build or rebuild. Applies to managed code projects only.
 
 ## Syntax

@@ -15,7 +15,6 @@ ms.subservice: data-tools
 ---
 # N-tier .NET Framework data applications overview
 
-
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 *N-tier* data applications are data applications that are separated into multiple *tiers*. Also called "distributed applications" and "multitier applications", n-tier applications separate processing into discrete tiers that are distributed between the client and the server. When you develop applications that access data, you should have a clear separation between the various tiers that make up the application.

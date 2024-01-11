@@ -10,7 +10,6 @@ ms.subservice: modeling
 ---
 # Share code maps
 
-
 You can save code maps as part of a Visual Studio project, as an image, or as an XPS file.
 
 ## Share a code map with other Visual Studio users

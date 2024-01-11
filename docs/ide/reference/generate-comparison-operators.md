@@ -10,7 +10,6 @@ ms.subservice: general-ide
 ---
 # Generate Comparison Operators for types that implement IComparable
 
-
 This code generation applies to:
 
 - C#

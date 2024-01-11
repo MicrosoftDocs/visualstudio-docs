@@ -16,7 +16,6 @@ ROBOTS: NOINDEX,NOFOLLOW
 ---
 # Welcome to the Visual Studio docs
 
-
 You likely arrived here by clicking **View Help** in the Visual Studio IDE. Let's get you where you need to go.
 
 Documentation for Visual Studio covers the functionality of the IDE. 

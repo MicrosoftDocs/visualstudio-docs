@@ -12,7 +12,6 @@ ms.subservice: workflow-designer
 ---
 # ExistsInCollection\<T> Activity Designer
 
-
 The **ExistsInCollection\<T>** activity designer is used to create and configure an <xref:System.Activities.Statements.ExistsInCollection%601> activity.
 
 ## The ExistsInCollection\<T> Activity

@@ -19,7 +19,6 @@ ms.subservice: deployment
 ---
 # Error: The application which this project type is based on was not found (Windows Installer or ClickOnce)
 
-
 When you try to load a ClickOnce or Windows Installer project, you may get this error: ```<path to project file>: The application which this project type is based on was not found. Please try this link for further information: <link>```.
 
 This message indicates that the project requires components that are not installed for your version of Visual Studio.

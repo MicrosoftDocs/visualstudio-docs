@@ -13,7 +13,6 @@ ms.subservice: debug-diagnostics
 ---
 # Process Properties dialog box
 
-
 Use this dialog box to find out more about a specific process. To display this dialog box, move the focus to a [Processes View](processes-view.md) window. Select any process node in the tree, then choose **Properties** from the **View** menu.
 
 ## General tab, Process Properties

@@ -13,7 +13,6 @@ ms.subservice: modeling
 ---
 # Add custom architecture validation to dependency diagrams
 
-
 In Visual Studio, users can validate the source code in a project against a layer model so that they can verify that the source code conforms to the dependencies on a dependency diagram. There is a standard validation algorithm, but you can define your own validation extensions.
 
 When the user selects the **Validate Architecture** command on a dependency diagram, the standard validation method is invoked, followed by any validation extensions that have been installed.

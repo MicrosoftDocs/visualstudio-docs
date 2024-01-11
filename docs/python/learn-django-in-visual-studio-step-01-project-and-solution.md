@@ -12,7 +12,6 @@ ms.subservice: python
 
 # Tutorial: Get started with the Django web framework in Visual Studio
 
-
 [Django](https://www.djangoproject.com/) is a high-level Python framework designed for rapid, secure, and scalable web development. This tutorial explores the Django framework in the context of the project templates. Visual Studio provides the project templates to streamline the creation of Django-based web apps.
 
 In this tutorial, you learn how to:

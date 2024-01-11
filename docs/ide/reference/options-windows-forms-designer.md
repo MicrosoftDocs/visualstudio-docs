@@ -15,7 +15,6 @@ ms.subservice: general-ide
 ---
 # Options dialog box: Windows Forms Designer
 
-
 The Windows Forms Designer options page lets you set preferences for the grids and other features of the Windows Forms Designer in Visual Studio. Open the **Options** dialog box from the **Tools** menu.
 
 ## .NET Core

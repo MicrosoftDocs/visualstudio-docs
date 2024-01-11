@@ -19,7 +19,6 @@ ms.subservice: debug-diagnostics
 ---
 # View strings in a string visualizer in Visual Studio
 
-
 While you are debugging in Visual Studio, you can view strings with the built-in string visualizer. The string visualizer shows strings that are too long for a data tip or debugger window. It can also help you identify malformed strings.
 
 The built-in string visualizers include plain text, XML, HTML, and JSON options. You can also open built-in tabular visualizers for a several .NET types, such as [DataSet and IEnumerable](../debugger/view-data-in-tabular-visualizer.md)) objects, from the **Autos** or other debugger windows.

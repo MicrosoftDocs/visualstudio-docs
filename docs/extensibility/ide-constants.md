@@ -18,7 +18,6 @@ ms.subservice: extensibility-integration
 ---
 # IDE constants
 
-
 The <xref:Microsoft.VisualStudio.VSConstants> class provides constants that are specific to the integrated development environment (IDE) and that were previously defined only in header files.
 
 ## Logical and physical views

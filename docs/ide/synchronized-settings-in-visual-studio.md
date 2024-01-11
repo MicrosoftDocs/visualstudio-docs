@@ -10,7 +10,6 @@ ms.subservice: general-ide
 ---
 # Synchronize Visual Studio settings across multiple computers
 
-
 When you sign in to Visual Studio on multiple computers using the same personalization account, your settings can be synchronized across the computers.
 
 ## Synchronized settings

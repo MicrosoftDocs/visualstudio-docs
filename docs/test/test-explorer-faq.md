@@ -17,7 +17,6 @@ ms.subservice: test-tools
 ---
 # Visual Studio Test Explorer FAQ
 
-
 ## Dynamic test discovery
 
 **Test Explorer is not discovering my tests that are dynamically defined. (For example, theories, custom adapters, custom traits, #ifdefs, etc.) How can I discover these tests?**

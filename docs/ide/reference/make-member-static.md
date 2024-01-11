@@ -12,7 +12,6 @@ dev_langs:
 ---
 # Make member static
 
-
 This refactoring applies to:
 
 - C#

@@ -13,7 +13,6 @@ dev_langs:
 ---
 # Inline method
 
-
 This refactoring applies to:
 
 - C#

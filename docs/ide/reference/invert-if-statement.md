@@ -13,7 +13,6 @@ dev_langs:
 ---
 # Invert if statement
 
-
 This refactoring applies to:
 
 - C#

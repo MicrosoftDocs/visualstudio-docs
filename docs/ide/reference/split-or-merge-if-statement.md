@@ -13,7 +13,6 @@ dev_langs:
 ---
 # Split or merge if statements
 
-
 This refactoring applies to:
 
 - C#

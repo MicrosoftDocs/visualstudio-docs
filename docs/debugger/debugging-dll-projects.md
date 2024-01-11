@@ -20,7 +20,6 @@ ms.subservice: debug-diagnostics
 ---
 # Debug DLLs in Visual Studio (C#, C++, Visual Basic, F#)
 
-
 A DLL (dynamic-link library) is a library that contains code and data that can be used by more than one app. You can use Visual Studio to create, build, configure, and debug DLLs.
 
 ## Create a DLL

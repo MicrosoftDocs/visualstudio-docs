@@ -16,7 +16,6 @@ ms.subservice: general-ide
 ---
 # /Build (devenv.exe)
 
-
 Builds a solution or project using a specified solution configuration file.
 
 ## Syntax

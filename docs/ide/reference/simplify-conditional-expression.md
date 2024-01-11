@@ -12,7 +12,6 @@ dev_langs:
 ---
 # Simplify conditional expression refactoring
 
-
 This refactoring applies to:
 
 - C#

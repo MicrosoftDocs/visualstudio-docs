@@ -13,7 +13,6 @@ ms.subservice: general-ide
 ---
 # Change text case in the editor
 
-
 You can use menu commands or keyboard shortcuts to convert the case of selected text to all upper case or to all lower case.
 
 > [!NOTE]

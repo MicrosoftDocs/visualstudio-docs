@@ -14,7 +14,6 @@ ms.subservice: general-ide
 ---
 # Visual Studio IDE 64-Bit support
 
-
 Visual Studio enables you to set up your applications to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in Visual Studio, see [64-bit applications](/dotnet/framework/64-bit-apps).
 
 > [!NOTE]

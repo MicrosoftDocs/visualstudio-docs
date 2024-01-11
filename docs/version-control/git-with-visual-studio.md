@@ -12,7 +12,6 @@ ms.subservice: general-ide
 ---
 # How Visual Studio makes version control easy with Git
 
-
 Have you ever wished you could go back to a previously working version of your code? Do you find yourself manually storing copies of your code in different locations as a backup? Well, version control is the answer.
 
 Git is the most widely used modern version control system. With Git, you can track the code changes you make over time and you can revert to specific versions.  So whether you're a professional developer or if you’re learning how to code, Visual Studio's Git experience can be very useful to you.

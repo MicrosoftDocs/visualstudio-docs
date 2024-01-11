@@ -12,7 +12,6 @@ monikerRange: ">=vs-2019"
 ---
 # Deploy to Docker Hub
 
-
 Docker Hub provides a convenient hosting service for your image repositories. You can easily deploy to Docker Hub manually from Visual Studio.
 
 ## Create a Docker account and Docker Hub repository

@@ -17,7 +17,6 @@ ms.subservice: general-ide
 ---
 # Use the keyboard exclusively
 
-
 Keyboard shortcuts can make it easier to navigate the Visual Studio IDE and to write code. This article explores a few ways you can use keyboard shortcuts more effectively.
 
 For a full listing of command shortcut keys in Visual Studio, see [Default keyboard shortcuts](../../ide/default-keyboard-shortcuts-in-visual-studio.md).

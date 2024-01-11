@@ -14,7 +14,6 @@ manager: jmartens
 ---
 # Advanced Security Settings dialog box
 
-
 This dialog box allows you to specify security settings related to debugging in zone.
 
 ![Advanced Security Settings dialog box in Visual Studio](../media/advanced-security-settings.png)

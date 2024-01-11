@@ -12,7 +12,6 @@ ms.subservice: workflow-designer
 ---
 # PickBranch Activity Designer
 
-
 The <xref:System.Activities.Statements.PickBranch> provides an event-based path of execution within a <xref:System.Activities.Statements.Pick> activity that can be triggered by an incoming event.
 
 ## PickBranch

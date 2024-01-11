@@ -12,7 +12,6 @@ ms.subservice: extensibility-integration
 ---
 # Inside the editor
 
-
 The editor is composed of several different subsystems, which are designed to keep the editor text model separate from the text view and the user interface.
 
 These sections describe different aspects of the editor:

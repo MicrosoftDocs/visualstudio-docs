@@ -17,7 +17,6 @@ monikerRange: vs-2019
 ---
 # What's new in Visual Studio 2019
 
-
 **Updated for the 16.11 release.** See [full release notes](/visualstudio/releases/2019/release-notes/) | View [product roadmap](/visualstudio/productinfo/vs2019-roadmap)
 
 >[!div class="button"]

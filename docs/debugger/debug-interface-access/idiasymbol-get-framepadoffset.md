@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_framePadOffset
 
-
 Retrieves the offset of the stack pad from the frame pointer register.
 
 ## Syntax

@@ -12,7 +12,6 @@ ms.subservice: workflow-designer
 ---
 # ClearCollection\<T> Activity Designer
 
-
 The **ClearCollection\<T>** activity designer is used to create and configure a <xref:System.Activities.Statements.ClearCollection%601> activity.
 
 ## The ClearCollection\<T> Activity

@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # API reference for IntelliTrace extensibility
 
-
 By using the information in this section, you can use IntelliTrace extensibility APIs to read and decode .itrace files in your application.
 
 ## In this section

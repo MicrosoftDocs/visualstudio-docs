@@ -11,7 +11,6 @@ ms.subservice: xaml-tools
 ---
 # Keyboard shortcuts in Blend for Visual Studio
 
-
 ## Project shortcuts
 
 |To do this|Do this|

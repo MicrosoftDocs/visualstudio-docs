@@ -29,7 +29,6 @@ ms.subservice: debug-diagnostics
 ---
 # Error: Unable to Start Debugging on the Web Server
 
-
 When you try to debug an ASP.NET application running on a Web server, you may get this error message: `Unable to start debugging on the Web server`.
 
 Often, this error occurs because an error or configuration change has occurred that requires an update to your Application Pools, an IIS reset, or both. You can reset IIS by opening an elevated command prompt and typing `iisreset`.

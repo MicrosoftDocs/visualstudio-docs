@@ -12,7 +12,6 @@ ms.subservice: workflow-designer
 ---
 # Persist Activity Designer
 
-
 The **Persist** activity designer is used to create and configure a <xref:System.Activities.Statements.Persist> activity.
 
 ## The Persist Activity

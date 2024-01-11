@@ -11,7 +11,6 @@ ms.subservice: general-ide
 ---
 # Tutorial: Create a math quiz WinForms app
 
-
 In this series of four tutorials, you'll build a math quiz. The quiz contains four random math problems that a quiz taker tries to answer within a specified time.
 
 The Visual Studio integrated development environment (IDE) provides the tools that you need to create the app. To learn more about this IDE, see [Welcome to the Visual Studio IDE](../visual-studio-ide.md).

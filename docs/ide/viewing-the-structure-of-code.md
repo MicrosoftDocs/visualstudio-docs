@@ -35,7 +35,6 @@ ms.subservice: general-ide
 ---
 # View the structure of code by using different tool windows
 
-
 ::: moniker range="<=vs-2019"
 
 You can examine classes and their members in Visual Studio using various tool windows, including **Class View**, **Call Hierarchy**, **Object Browser**, and **Code Definition** (C++ only). These tool windows can examine code in Visual Studio projects, .NET components, COM components, dynamic-link libraries (DLL), and type libraries (TLB).

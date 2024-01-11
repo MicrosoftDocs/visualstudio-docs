@@ -12,7 +12,6 @@ dev_langs:
 ---
 # Use `new()`
 
-
 This applies to:
 
 - C#

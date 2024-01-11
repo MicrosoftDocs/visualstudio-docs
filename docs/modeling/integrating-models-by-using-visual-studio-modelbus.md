@@ -11,7 +11,6 @@ ms.subservice: modeling
 
 # Integrate models by using Visual Studio ModelBus
 
-
 Visual Studio ModelBus provides a method for creating links between models and from other tools into models. For example, you could link domain-specific language (DSL) models and UML models. You can create an integrated set of DSLs.
 
 > [!WARNING]

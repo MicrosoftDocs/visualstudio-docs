@@ -21,7 +21,6 @@ dev_langs:
 
 # Code snippets: what they are and how to add one
 
-
 Code snippets are small blocks of reusable code that you can add to a code file. Snippets most commonly contain often-used code blocks such as `try-finally` or `if-else` blocks. However, you can also use them to add entire classes or methods. Your snippets can even contain replacement parameters, which act as placeholders. Snippets are available for many languages, including C#, C++, and Visual Basic, to name a few.
 
 ## Find available snippets

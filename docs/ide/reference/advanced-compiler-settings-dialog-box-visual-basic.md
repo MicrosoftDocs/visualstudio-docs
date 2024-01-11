@@ -14,7 +14,6 @@ manager: ghogen
 ---
 # Advanced Compiler Settings Dialog Box (Visual Basic)
 
-
 Use the **AdvancedCompiler Settings** dialog box of the **Project Designer** to specify the project's advanced build-configuration properties. This dialog box applies to Visual Basic projects only.
 
 ## To access this dialog box

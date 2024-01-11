@@ -18,7 +18,6 @@ ms.subservice: debug-diagnostics
 ---
 # Threads view reports in the Concurrency Visualizer
 
-
  This article provides information about the reports in the Threads view of the Concurrency Visualizer.
 
 ## Blocking time profile report

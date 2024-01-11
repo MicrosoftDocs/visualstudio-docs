@@ -14,7 +14,6 @@ ms.subservice: general-ide
 ---
 # Change fonts, colors, and themes in Visual Studio
 
-
 ::: moniker range=">=vs-2022"
 
 You can change the fonts and the colors in Visual Studio in several ways. For example, you can change the default dark theme (also referred to as "dark mode") to a light theme, a blue theme, an extra-contrast theme, or a theme that matches your system settings. You can also change the default font and text size in both the IDE and the code editor.

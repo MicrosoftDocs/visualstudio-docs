@@ -14,7 +14,6 @@ manager: jmartens
 ---
 # Tutorial: Create a simple WPF application with C\#
 
-
 By completing this tutorial, you become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You create a "Hello, World" application, design the UI, add code, and debug errors, while you learn about working in the integrated development environment ([IDE](visual-studio-ide.md)).
 
 ## Prerequisites

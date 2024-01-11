@@ -10,7 +10,6 @@ ms.author: mikejo
 ---
 # Using Emulator Express to run and debug an Azure cloud service on a local machine
 
-
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
 By using Emulator Express, you can test and debug a cloud service without running Visual Studio as an administrator. You can set your project settings to use either Emulator Express or the full emulator, depending on the requirements of your cloud service. For more information about the full emulator, see [Run an Azure Application in the Compute Emulator](/azure/storage/common/storage-use-emulator).

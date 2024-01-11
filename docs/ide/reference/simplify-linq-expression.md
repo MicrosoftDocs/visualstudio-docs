@@ -12,7 +12,6 @@ dev_langs:
 ---
 # Simplify LINQ expression
 
-
 This refactoring applies to:
 
 - C#

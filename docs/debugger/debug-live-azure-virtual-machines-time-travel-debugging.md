@@ -12,7 +12,6 @@ monikerRange: '>= vs-2019'
 ---
 # Use time travel debugging to record and replay ASP.NET apps on Azure VMs
 
-
 Time travel debugging in Visual Studio Enterprise can record a web app running on an Azure virtual machine (VM), and then accurately reconstruct and replay the execution path. Time Travel Debugging (TTD) was added to Visual Studio 2019 Enterprise as a preview feature, and is now integrated into the Visual Studio Snapshot Debugger.
 
 Time travel debugging lets you rewind and replay each line of code as many times as you want. This procedure can help you isolate and identify problems that might occur only in production environments.

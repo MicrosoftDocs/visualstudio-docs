@@ -16,7 +16,6 @@ ms.subservice: general-ide
 ---
 # Find, install, and manage extensions for Visual Studio
 
-
 ::: moniker range="vs-2022"
 
 [Extensions](../extensibility/index.yml) are code packages that run inside Visual Studio and provide new or improved features. Extensions can be controls, samples, templates, tools, or other components that add functionality to Visual Studio, for example, [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsls-vs-2022) or [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs).

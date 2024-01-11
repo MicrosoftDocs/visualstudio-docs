@@ -15,7 +15,6 @@ manager: jmartens
 ---
 # Options, Text Editor, JavaScript, Project
 
-
 Use the **Project** page of the **Options** dialog box to specify JavaScript and TypeScript project options in the Code Editor. To access this page, on the menu bar, choose **Tools** > **Options**, and then expand **Text Editor** > **JavaScript/TypeScript** > **Project**.
 
 ## Project Analysis Options

@@ -11,7 +11,6 @@ ms.subservice: extensibility-integration
 ---
 # Progress bars for backgrounds tasks in Visual Studio extensions
 
-
 There are several ways to show progress of a running background task in Visual Studio. Here's how to use progress bars from your own extensions.
 
 ## Status bar

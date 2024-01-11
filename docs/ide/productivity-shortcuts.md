@@ -10,7 +10,6 @@ ms.subservice: general-ide
 ---
 # Shortcut tips for Visual Studio
 
-
 You can navigate in Visual Studio more easily by using the shortcuts in this article. These shortcuts include keyboard and mouse shortcuts as well as text you can enter to help accomplish a task more easily.
 
 For a comprehensive list of command shortcuts and a printable keyboard shortcut cheat sheet, see [Keyboard shortcuts in Visual Studio](default-keyboard-shortcuts-in-visual-studio.md).

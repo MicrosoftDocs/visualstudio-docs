@@ -15,7 +15,6 @@ ms.subservice: general-ide
 ---
 # /Clean (devenv.exe)
 
-
 Cleans all intermediary files and output directories.
 
 ## Syntax

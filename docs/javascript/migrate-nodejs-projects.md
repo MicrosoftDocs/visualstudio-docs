@@ -14,7 +14,6 @@ monikerRange: '>= vs-2022'
 ---
 # Migrate Node.js projects in Visual Studio
 
-
 Starting in Visual Studio 2022 version 17.7 Preview 1, you can convert existing projects based on the older Node.js project system (*.njsproj*) to the new JavaScript project system (*.esproj*). By migrating the project, you can benefit from project system updates such as npm dependency management, unit testing support, and launch config settings.
 
 To migrate from a Node.js project to a JavaScript project:

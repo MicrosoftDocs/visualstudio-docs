@@ -12,7 +12,6 @@ ms.subservice: workflow-designer
 ---
 # CancellationScope Activity Designer
 
-
 The **CancellationScope** activity designer is used to create and configure a <xref:System.Activities.Statements.CancellationScope> activity.
 
 ## The CancellationScope Activity

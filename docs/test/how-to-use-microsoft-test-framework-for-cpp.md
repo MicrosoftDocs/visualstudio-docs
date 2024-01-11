@@ -9,7 +9,6 @@ author: tylermsft
 ---
 # Use the Microsoft Unit Testing Framework for C++ in Visual Studio
 
-
 The Microsoft Unit Testing Framework for C++ is included by default in the **Desktop Development with C++** workload.
 
 ## <a name="separate_project"></a> To write unit tests in a separate project

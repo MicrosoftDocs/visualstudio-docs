@@ -18,7 +18,6 @@ ms.subservice: sharepoint-development
 ---
 # Get started (SharePoint development in Visual Studio)
 
-
   This section helps you start working with Visual Studio to develop SharePoint solutions that take advantage of  SharePoint Foundation and  Microsoft SharePoint Server.
 
  For information about SharePoint add-ins, see [Build SharePoint add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins).

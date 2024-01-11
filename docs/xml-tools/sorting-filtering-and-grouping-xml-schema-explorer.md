@@ -10,7 +10,6 @@ ms.subservice: xml-tools
 ---
 # Sorting, filtering, and grouping (XML Schema Explorer)
 
-
 This topic describes the options that are available through the **Sorting, Filtering, and Grouping Options** menu on the **XML Schema Explorer** toolbar.
 
 ## Filter options

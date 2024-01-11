@@ -14,7 +14,6 @@ ms.subservice: general-ide
 ---
 # /Log (devenv.exe)
 
-
 Logs all activity to the log file for troubleshooting. This file appears after you've called `devenv /log` at least once. By default, the log file is located here:
 
 **%APPDATA%\\Microsoft\\VisualStudio\\**\<Version\>**\\ActivityLog.xml**

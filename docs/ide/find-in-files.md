@@ -22,7 +22,6 @@ ms.subservice: general-ide
 ---
 # Find in Files
 
-
 **Find in Files** allows you to search a specified set of files. The matches Visual Studio finds are listed in the **Find Results** window in the IDE. How the results appear depends on the options you choose on the **Find in Files** tab of the **Find and Replace** dialog box.
 
 ::: moniker range=">=vs-2022"
@@ -145,7 +144,6 @@ You can search for multiple file types by separating them with a semicolon (`;`)
 Use this option to append the results from the current search to previous search results.
 
 ::: moniker-end
-
 
 ## Search results
 

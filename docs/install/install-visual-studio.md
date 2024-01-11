@@ -21,7 +21,6 @@ ms.subservice: installation
 ---
 # Install Visual Studio
 
-
 ::: moniker range="vs-2019"
 
 Welcome to Visual Studio 2019! In this version, it's easy to choose and install just the features you need. And because of its reduced minimum footprint, it installs quickly and with less system impact.

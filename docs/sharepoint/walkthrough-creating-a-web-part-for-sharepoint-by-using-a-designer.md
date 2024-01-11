@@ -17,7 +17,6 @@ ms.subservice: sharepoint-development
 ---
 # Walkthrough: Create a web part for SharePoint by using a designer
 
-
 If you create web parts for a SharePoint site, your users can directly modify the content, appearance, and behavior of pages in that site by using a browser. This walkthrough shows you how to create a web part visually by using the SharePoint **Visual Web Part** project template in Visual Studio.
 
 The web part that you'll create displays a monthly calendar view and a check box for each calendar list on the site. Users can specify which calendar lists to include in the monthly calendar view by selecting the check boxes.

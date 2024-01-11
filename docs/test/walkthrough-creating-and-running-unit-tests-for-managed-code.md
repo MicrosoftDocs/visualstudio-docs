@@ -16,7 +16,6 @@ author: mikejo5000
 ---
 # Walkthrough: Create and run unit tests for managed code
 
-
 This article steps you through creating, running, and customizing a series of unit tests using the Microsoft unit test framework for managed code and Visual Studio **Test Explorer**. You start with a C# project that is under development, create tests that exercise its code, run the tests, and examine the results. Then you change the project code and rerun the tests. If you would like a conceptual overview of these tasks before going through these steps, see [Unit test basics](../test/unit-test-basics.md).
 
 ## Create a project to test

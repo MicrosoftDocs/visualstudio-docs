@@ -16,7 +16,6 @@ ms.subservice: code-analysis
 ---
 # Migrate from legacy analysis (FxCop) to source analysis (.NET analyzers)
 
-
 Source analysis by .NET Compiler Platform ("Roslyn") analyzers replaces [legacy analysis](../code-quality/code-analysis-for-managed-code-overview.md) for managed code. For newer project templates such as .NET Core and .NET Standard projects, legacy analysis is not available.
 
 Many of the legacy analysis (FxCop) rules have already been rewritten for .NET analyzers, a set of Roslyn code analyzers. Roslyn analyzers run source-code based analysis during compiler execution. Analyzer results are reported along with compiler results.

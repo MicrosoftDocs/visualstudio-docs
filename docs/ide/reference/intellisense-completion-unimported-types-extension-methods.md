@@ -13,7 +13,6 @@ dev_langs:
 ---
 # IntelliSense completion for unimported types and extension methods
 
-
 This refactoring applies to:
 
 - C#

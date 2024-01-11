@@ -12,7 +12,6 @@ ms.subservice: test-tools
 ---
 # Get started with Live Unit Testing
 
-
 When you enable Live Unit Testing in a Visual Studio solution, it visually depicts your test coverage and the status of your tests. Live Unit Testing also dynamically executes tests whenever you modify your code and immediately notifies you when your changes cause tests to fail.
 
 Live Unit Testing can be used to test solutions that target either .NET Framework, .NET Core, or .NET 5+. In this tutorial, you'll learn to use Live Unit Testing by creating a simple class library that targets .NET, and you'll create an MSTest project that targets .NET to test it.

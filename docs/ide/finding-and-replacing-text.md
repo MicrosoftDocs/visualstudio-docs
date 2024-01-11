@@ -33,7 +33,6 @@ ms.subservice: general-ide
 ---
 # Find and replace text in Visual Studio
 
-
 In this article, you learn how to find and replace text in the Visual Studio editor by using [the single file find-and-replace](#control) (**Ctrl**+**F** or **Ctrl**+**H**) or [multi-file find-and-replace](#multifile) (**Ctrl**+**Shift**+**F** or **Ctrl**+**Shift**+**H**). You can also find and replace *some* instances of a pattern by using *[multi-caret selection](#multi-caret-selection)*.  In addition to the editor, you can also find and replace text in certain other text-based windows such as the **Find Results** windows, in designer windows such as the XAML designer and Windows Forms designer, and in tool windows.
 
 > [!NOTE]
@@ -46,7 +45,6 @@ You can scope searches to the current document, the current solution, or a custo
 
 > [!TIP]
 > The [Find/Command](../ide/find-command-box.md) box is available as a toolbar control, but isn't visible by default. To display the **Find/Command** box, select **Add or Remove Buttons** on the **Standard** toolbar, and then select **Find**.
-
 
 ## <a name="control"></a>Find and Replace within a single file
 

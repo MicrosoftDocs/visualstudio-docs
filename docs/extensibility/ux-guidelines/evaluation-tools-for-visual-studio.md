@@ -14,7 +14,6 @@ ms.subservice: extensibility-integration
  Use this checklist to evaluate user experience quality for visual and interaction details.
 
 
-
 - Verify that all commands result in feedback that tells users that their commands have been carried out.
 
 - Verify that all UI elements and controls are visible in all themes and in High Contrast mode.

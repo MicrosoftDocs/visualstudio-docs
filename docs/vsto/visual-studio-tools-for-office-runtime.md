@@ -16,7 +16,6 @@ ms.subservice: office-development
 ---
 # Visual Studio Tools for Office Runtime
 
-
 The Visual Studio 2010 Tools for Office Runtime (VSTO Runtime) ships with various versions of Visual Studio and Microsoft Office and follows the support lifecycle of the parent product.
 
 It's also [available to download](https://aka.ms/VSTORuntimeDownload) and install independently. The versions of VSTO Runtime that are available on the download center follow the support lifecycle of the latest version of Microsoft Office that was available at the time of its release.

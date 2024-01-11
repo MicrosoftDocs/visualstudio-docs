@@ -25,7 +25,6 @@ ms.subservice: debug-diagnostics
 ---
 # Use the Memory windows in the Visual Studio debugger (C#, C++, Visual Basic, F#)
 
-
 During debugging, the **Memory** window shows the memory space your app is using.
 
 Debugger windows like **Watch**, **Autos**, **Locals**, and the **QuickWatch** dialog show you variables, which are stored at specific locations in memory. The **Memory** window shows you the overall picture. The memory view is convenient for examining large pieces of data (buffers or large strings, for example) that don't display well in the other windows.

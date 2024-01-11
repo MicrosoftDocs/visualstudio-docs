@@ -19,7 +19,6 @@ ms.subservice: deployment
 ---
 # Overview of Publish
 
-
 For ASP.NET, .NET Core, and Python apps, you can use the Publish tool to deploy your applications.
 
 ## What is Publish?

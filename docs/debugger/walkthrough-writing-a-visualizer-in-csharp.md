@@ -15,7 +15,6 @@ ms.subservice: debug-diagnostics
 ---
 # Walkthrough: Writing a Visualizer in C\#
 
-
 This walkthrough shows how to write a simple visualizer by using C#. The visualizer you create in this walkthrough displays the contents of a string using a Windows Form. This simple string visualizer isn't especially useful in itself, but it shows the basic steps that you must follow to create more useful visualizers for other data types.
 
 > [!NOTE]
@@ -320,7 +319,6 @@ In this section, you switch from the `System.String` data object to a custom dat
    When you choose **MyFirstVisualizer** from the magnifying glass, you see the Form with the data object text in the title.
 
    ![Visualizer showing a Windows Form](../debugger/media/vs-2019/visualizer-csharp-windows-form.png)
-
 
 ## Related content
 

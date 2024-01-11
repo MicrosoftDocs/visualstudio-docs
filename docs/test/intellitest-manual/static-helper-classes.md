@@ -12,7 +12,6 @@ author: mikejo5000
 ---
 # Static helper classes
 
-
 IntelliTest provides a set of static helper class that can be used when authoring [parameterized unit tests](test-generation.md#parameterized-unit-testing):
 
 * [PexAssume](#pexassume): used to define assumptions on inputs, and is useful for filtering undesirable inputs

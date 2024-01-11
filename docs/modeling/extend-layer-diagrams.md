@@ -13,7 +13,6 @@ ms.subservice: modeling
 ---
 # Extend dependency diagrams
 
-
 You can write code to create and update dependency diagrams and to validate the structure of your program code against dependency diagrams in Visual Studio. You can add commands that appear in the shortcut (context) menu of the diagrams, customize drag-and-drop gestures, and access the layer model from text templates. You can package these extensions into a Visual Studio Integration Extension (VSIX) and distribute them to other Visual Studio users.
 
 ## Requirements

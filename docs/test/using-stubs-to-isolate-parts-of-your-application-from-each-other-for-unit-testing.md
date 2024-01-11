@@ -13,7 +13,6 @@ dev_langs:
 ---
 # Use stubs to isolate parts of your application from each other for unit testing
 
-
 *Stub types* are an important technology provided by the Microsoft Fakes framework, enabling easy isolation of the component you're testing from other components it relies on. A stub acts as a small piece of code that replaces another component during testing. A key benefit of using stubs is the ability to obtain consistent results to make test writing easier. Even if the other components aren't yet fully functional, you can still execute tests by using stubs.
 
 To apply stubs effectively, it's recommended to design your component in a way that it primarily depends on interfaces rather than concrete classes from other parts of the application. This design approach promotes decoupling and reduces the likelihood of changes in one part requiring modifications in another. When it comes to testing, this design pattern enables substituting a stub implementation for a real component, facilitating effective isolation and accurate testing of the target component.
@@ -250,7 +249,6 @@ Now create the unit test.
 1. Open Test Explorer and run the test.
 
    ![Screenshot of Test Explorer.](../test/media/microsoft-fakes-stubs-test-explorer.png)
-
 
 ## Stubs for different kinds of type members
 

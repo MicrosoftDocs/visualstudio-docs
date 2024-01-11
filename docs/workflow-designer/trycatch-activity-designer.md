@@ -13,7 +13,6 @@ ms.subservice: workflow-designer
 ---
 # TryCatch Activity Designer
 
-
 The **TryCatch** activity designer is used to create and configure a <xref:System.Activities.Statements.TryCatch> activity.
 
 ## The TryCatch Activity

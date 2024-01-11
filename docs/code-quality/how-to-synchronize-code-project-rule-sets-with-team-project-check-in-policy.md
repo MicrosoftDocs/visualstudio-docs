@@ -12,7 +12,6 @@ ms.subservice: code-analysis
 ---
 # Synchronize Code Project Rule Sets with an Azure DevOps Project Check-in Policy
 
-
 You synchronize the code analysis settings for code projects to the check-in policy for the Azure DevOps project by specifying a rule set that contains at least the rules that are specified in the rule set for the check-in policy. Your developer lead can inform you of the name and location of the rule set for the check-in policy. You can use one of the following options to ensure that code analysis for the project uses the correct set of rules:
 
 - If the check-in policy uses one of the Microsoft built-in rule sets, open the properties dialog box for the code project, display the Code Analysis page, and select the rule set. The Microsoft standard rule sets are automatically installed with Visual Studio are set to read-only and should not be edited. If the rule sets are not edited, the rules in the policy and local rule sets are guaranteed to match.

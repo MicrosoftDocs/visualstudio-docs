@@ -10,7 +10,6 @@ ms.subservice: general-ide
 ---
 # Add DebuggerDisplay Attribute
 
-
 This code generation applies to:
 
 - C#

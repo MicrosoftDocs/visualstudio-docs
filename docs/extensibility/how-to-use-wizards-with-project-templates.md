@@ -16,7 +16,6 @@ ms.subservice: extensibility-integration
 ---
 # Use wizards with project templates
 
-
 Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface that, when implemented, enables you to run custom code when a user creates a project from a template.
 
 Project template customization can be used to display custom UI that collects user input to customize the template, add additional files to the template, or any other action allowed on a project.

@@ -13,7 +13,6 @@ dev_langs:
 ---
 # Generate parameter
 
-
 This refactoring applies to:
 
 - C#

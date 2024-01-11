@@ -10,7 +10,6 @@ ms.subservice: ui-designers
 ---
 # What are Shader Designer nodes?
 
-
 The Shader Designer in Visual Studio represents visual effects as a graph. These graphs are built from nodes that are chosen and connected in precise ways to achieve the intended effect. Each node represents either a piece of information or a mathematical function, and the connections between them represent how the information flows through the graph to produce the result. Node types include [filters](#filter-nodes), [textures](#texture-nodes), [parameters](#parameter-nodes), [constants](#constant-nodes), [utility](#utility-nodes) nodes, and [math](#math-nodes) nodes.
 
 ## Node structure

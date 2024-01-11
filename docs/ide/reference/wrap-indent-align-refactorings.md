@@ -13,7 +13,6 @@ dev_langs:
 ---
 # Wrap, indent, and align refactorings
 
-
 ## Wrap and align call chains
 
 This refactoring applies to:

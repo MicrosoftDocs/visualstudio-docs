@@ -13,7 +13,6 @@ ms.subservice: debug-diagnostics
 ---
 # Spy++ menu commands
 
-
 The Help topics on this page list the commands available from the Spy++ menus.
 
 ## Spy menu commands

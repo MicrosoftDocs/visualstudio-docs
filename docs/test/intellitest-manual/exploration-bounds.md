@@ -12,7 +12,6 @@ author: mikejo5000
 ---
 # Exploration bounds
 
-
 **PexSettingsAttributeBase** is the abstract base class for settings bounds as attributes. See [Settings Waterfall](settings-waterfall.md) for an overview of settings in IntelliTest.
 
 You can modify the settings by using named properties of this and its derived attributes:

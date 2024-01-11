@@ -13,7 +13,6 @@ monikerRange: vs-2022
 ---
 # Stage lines of code in Visual Studio
 
-
 Line-staging support, also known as [interactive staging](https://git-scm.com/book/en/v2/Git-Tools-Interactive-Staging), is available in Visual Studio 2022 [version 17.3](/visualstudio/releases/2022/release-notes-v17.3) and later. Line-staging lets you stage chunks of changes in your files right from the code editor. Line staging can also be helpful when you want to split changes across different commits.
 
 :::image type="content" source="media/vs-2022/git-line-staging.png" alt-text="Screenshot of an example of line-staging support in Visual Studio 2022." lightbox="media/vs-2022/git-line-staging.png":::

@@ -16,7 +16,6 @@ ms.subservice: debug-diagnostics
 ---
 # VSPerfCmd
 
-
 The *VSPerfCmd.exe* tool is used to start and stop performance data collection. It uses the following syntax:
 
 ```cmd

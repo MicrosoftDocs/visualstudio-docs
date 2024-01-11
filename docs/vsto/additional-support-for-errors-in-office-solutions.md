@@ -59,7 +59,6 @@ ms.subservice: office-development
 ---
 # Additional support for errors in Office solutions
 
-
 You can use the following resources to help you find answers to problems you encounter as you create Office solutions in Visual Studio.
 
 ## Troubleshoot specific errors

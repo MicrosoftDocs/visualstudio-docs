@@ -10,7 +10,6 @@ ms.subservice: general-ide
 ---
 # Generate a field, property, or local variable in Visual Studio
 
-
 This code generation applies to:
 
 - C#

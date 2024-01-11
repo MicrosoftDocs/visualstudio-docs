@@ -16,7 +16,6 @@ manager: jmartens
 ---
 # BuildOnLoad attribute and element
 
-
 Specifies whether to build the project immediately after it's created. **BuildOnLoad** is both an attribute and an element.
 
 Element hierarchy:

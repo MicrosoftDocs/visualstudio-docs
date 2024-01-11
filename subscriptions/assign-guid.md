@@ -14,9 +14,7 @@ Admins can now use the Visual Studio Subscriptions Administration Portal to assi
 
 Watch the video or read on to learn how to assign specific subscriptions GUIDs to users. 
 
-
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4t4cl]
-
 
 ## Assign specific subscription GUIDs to users
 

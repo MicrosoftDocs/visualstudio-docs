@@ -10,7 +10,6 @@ ms.subservice: ui-designers
 ---
 # Export rich texture formats by using the Image Content Pipeline in Visual Studio 
 
-
 This article describes how to use the Image Content Pipeline to export textures, such as those that contain [mipmaps](#export-mipmaps), or [premultiplied alpha](#export-a-texture-that-has-premultiplied-alpha), or even those that can be used with [Direct2D or JavaScript apps](#export-a-texture-for-use-with-direct2d-or-javascript-apps).
 
 ## Export a texture that contains mipmaps

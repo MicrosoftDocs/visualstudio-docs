@@ -11,7 +11,6 @@ manager: jmartens
 ---
 # RequiredPlatformVersion element (Visual Studio templates)
 
-
 Specifies the minimum version of the operating system that the project template requires to work correctly. This element is used to for project templates that create Windows 8.x Store apps.
 
  The `RequiredPlatformVersion` value is compared directly with the version of the operating system. If the `RequiredPlatformVersion` is higher than the operating system version, the template does not appear in the **New Project** dialog box. To specify a template for Windows 8 or higher, set `RequiredPlatformVersion` to 6.2.0. To specify a template for Windows 8.1 or higher, set `RequiredPlatformVersion` to 6.3.0.

@@ -21,7 +21,6 @@ ms.subservice: debug-diagnostics
 ---
 # Edit and Continue (Visual Basic)
 
-
 ::: moniker range=">=vs-2022"
 Hot Reload, previously called Edit and Continue, is a feature for Visual Basic debugging that enables you to change your code while it is executing in Break mode. After code edits have been applied, you can resume code execution with the new edits in place and see the effect.
 ::: moniker-end

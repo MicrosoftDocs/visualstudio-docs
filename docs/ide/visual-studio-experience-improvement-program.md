@@ -10,7 +10,6 @@ ms.subservice: general-ide
 ---
 # Visual Studio Customer Experience Improvement Program
 
-
 The Visual Studio Customer Experience Improvement Program (VSCEIP) is designed to help Microsoft improve Visual Studio over time. This program [collects information about errors](../ide/visual-studio-experience-improvement-program.md#types-of-collected-data), computer hardware, and how people use Visual Studio, without interrupting users in their tasks at the computer. The information that's collected helps Microsoft identify which features to improve. This document covers how to [opt in or out](../ide/visual-studio-experience-improvement-program.md#opt-in-or-out) of the VSCEIP, and provides some information about the types of data we collect and how we use it. It also provides tips on how extension authors can avoid inadvertent disclosure of personal or sensitive information.
 
 ## Opt out of diagnostic data collection

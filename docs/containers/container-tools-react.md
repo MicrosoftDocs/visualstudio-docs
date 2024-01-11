@@ -10,7 +10,6 @@ ms.topic: quickstart
 ---
 # Quickstart: Use Docker with a React Single-page App in Visual Studio
 
-
 With Visual Studio, you can easily build, debug, and run containerized ASP.NET Core apps, including those with client-side JavaScript such as React.js single-page app, and publish them to Azure Container Registry, Docker Hub, Azure App Service, or your own container registry. In this article, we publish to Azure Container Registry.
 
 ## Prerequisites

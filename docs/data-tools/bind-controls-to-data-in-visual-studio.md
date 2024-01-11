@@ -15,7 +15,6 @@ ms.subservice: data-tools
 ---
 # Bind controls to data in .NET Framework applications using Visual Studio
 
-
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 You can display data to users of your application by binding data to controls. You can create these data-bound controls by dragging items from the **Data Sources** window onto a design surface or controls on a surface in Visual Studio.

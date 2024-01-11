@@ -13,7 +13,6 @@ ms.subservice: workflow-designer
 ---
 # Workflow project templates
 
-
 You can create Workflows, Windows Communication Foundation (WCF) workflow services, custom activities, and custom activity designers by using Visual Studio project templates. This article describes how to create libraries and applications with the project templates available in Visual Studio.
 
 ## Create a Workflow project

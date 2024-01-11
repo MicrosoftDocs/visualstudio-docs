@@ -14,7 +14,6 @@ monikerRange: '>= vs-2019'
 ---
 # Attach to a process running on a Docker container 
 
-
 You can debug apps running in either a Windows Docker Container or a Linux .NET Core Docker container using Visual Studio.
 
 ## Prerequisites

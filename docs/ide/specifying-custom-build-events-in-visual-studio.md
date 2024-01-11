@@ -12,7 +12,6 @@ manager: jmartens
 ---
 # Specify custom build events in Visual Studio
 
-
 By specifying a custom build event, you can automatically run commands before a build starts or after it finishes. For example, you can run a *.bat* file before a build starts or copy new files to a folder after the build is complete. Build events run only if the build successfully reaches those points in the build process.
 
 For specific information about the programming language that you're using, see the following topics:

@@ -10,7 +10,6 @@ ms.subservice: data-tools
 ---
 # Visual Studio data tools for .NET Framework development
 
-
 Visual Studio and .NET together provide extensive API and tooling support for connecting to databases, modeling data in memory, and displaying the data in the user interface. The .NET classes that provide data-access functionality are known as [ADO.NET](/dotnet/framework/data/adonet/index). ADO.NET, along with the data tooling in Visual Studio, was designed primarily to support relational databases and XML. These days, many NoSQL database vendors, or third parties, offer ADO.NET providers.
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]

@@ -10,7 +10,6 @@ author: ocallesp
 ---
 # Code generation, compilation, and naming conventions in Microsoft Fakes
 
-
 This article discusses options and issues in Fakes code generation and compilation, and describes the naming conventions for Fakes-generated types, members, and parameters.
 
 **Requirements**
@@ -267,7 +266,6 @@ The following rules are applied recursively:
 - Because Fakes uses C# to generate the Fakes assemblies, any character that would produce an invalid C# token is escaped to "_" (underscore).
 
 - If a resulting name clashes with any member of the declaring type, a numbering scheme is used by appending a two-digit counter, starting at 01.
-
 
 ## Utilizing Microsoft Fakes in Continuous Integration
 

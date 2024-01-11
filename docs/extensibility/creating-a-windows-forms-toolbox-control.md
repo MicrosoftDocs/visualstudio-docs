@@ -14,7 +14,6 @@ ms.subservice: extensibility-integration
 ---
 # Create a Windows Forms Toolbox Control
 
-
 The Windows Forms Toolbox Control item template that is included in the Visual Studio Extensibility Tools (VS SDK), lets you create a **Toolbox** control that is automatically added when the extension is installed. This walkthrough shows how to use the template to create a simple counter control that you can distribute to other users.
 
 ## Create the Toolbox Control

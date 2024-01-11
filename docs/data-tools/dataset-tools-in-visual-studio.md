@@ -49,7 +49,6 @@ ms.subservice: data-tools
 ---
 # Visual Studio dataset tools for developing .NET Framework applications
 
-
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 A `DataSet` object is an in-memory object that is essentially a mini-database. It contains `DataTable`, `DataColumn`, and `DataRow` objects in which you can store and modify data from one or more databases without having to maintain an open connection. The dataset maintains information about changes to its data, so updates can be tracked and sent back to the database when your application becomes reconnected.

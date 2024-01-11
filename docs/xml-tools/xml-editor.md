@@ -10,7 +10,6 @@ ms.subservice: xml-tools
 ---
 # XML editor
 
-
 The XML editor in Visual Studio is based on the text editor and includes additional support for the XML languages. When you open an XML file in Visual Studio, it opens in the XML editor.
 
 The XML editor includes the following features:

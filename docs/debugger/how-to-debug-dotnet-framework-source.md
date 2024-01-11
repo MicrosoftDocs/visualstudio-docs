@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # Debug .NET Framework source
 
-
 To debug .NET Framework source, you must:
 
 - Enable stepping into .NET Framework source.

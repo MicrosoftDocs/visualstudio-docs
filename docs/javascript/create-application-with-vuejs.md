@@ -14,7 +14,6 @@ monikerRange: '=vs-2019'
 ---
 # Create a Vue.js application using Node.js Tools for Visual Studio
 
-
 Visual Studio supports app development with the [Vue.js](https://vuejs.org/) framework in either JavaScript or TypeScript.
 
 The following new features support Vue.js application development in Visual Studio:

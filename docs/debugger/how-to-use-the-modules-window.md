@@ -26,7 +26,6 @@ ms.subservice: debug-diagnostics
 ---
 # View DLLs and executables in the Modules window (C#, C++, Visual Basic, F#)
 
-
 During Visual Studio debugging, the **Modules** window lists and shows information about the DLLs and executables (*.exe* files) your app uses.
 
 > [!NOTE]

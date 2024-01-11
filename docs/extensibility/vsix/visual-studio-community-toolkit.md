@@ -11,7 +11,6 @@ ms.subservice: extensibility-integration
 ---
 # Visual Studio Community Toolkit
 
-
 This toolkit will help you write successful Visual Studio extensions and there's something for absolute beginners to experts alike.
 
 The following video introduces you to the Visual Studio extensibility model.

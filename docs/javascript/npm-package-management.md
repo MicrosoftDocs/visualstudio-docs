@@ -13,7 +13,6 @@ dev_langs:
 ---
 # Manage npm packages in Visual Studio
 
-
 npm allows you to install and manage packages for use in both Node.js and ASP.NET Core applications. Visual Studio makes it easy to interact with npm and issue npm commands through the UI or directly. If you're unfamiliar with npm and want to learn more, go to the [npm documentation](https://docs.npmjs.com/).
 
 Visual Studio integration with npm is different depending on your project type.

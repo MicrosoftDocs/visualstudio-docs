@@ -16,7 +16,6 @@ ms.subservice: general-ide
 ---
 # Application Page, Project Designer (C#)
 
-
 Use the **Application** page of the **Project Designer** to specify the project's application settings and properties.
 
 To access the **Application** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project** > **Properties** on the menu bar. When the **Project Designer** appears, click the **Application** tab.

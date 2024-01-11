@@ -18,7 +18,6 @@ ms.subservice: data-tools
 ---
 # Bind WPF controls to data in .NET Framework applications
 
-
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 You can display data to users of your application by binding data to WPF controls. To create these data-bound controls, you can drag items from the **Data Sources** window onto the WPF Designer in Visual Studio. This topic describes some of the most common tasks, tools, and classes that you can use to create data-bound WPF applications.

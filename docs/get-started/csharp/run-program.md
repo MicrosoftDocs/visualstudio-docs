@@ -15,7 +15,6 @@ dev_langs:
 ---
 # Run a C# program in Visual Studio
 
-
 How to run a program depends on what you start from, the type of program, and whether you want to run under the debugger. In the simplest case, to build and run an open project in Visual Studio:
 
 - Press **F5**, choose **Debug** > **Start with debugging** from the Visual Studio menu, or select the green **Start** arrow and project name on the Visual Studio toolbar.

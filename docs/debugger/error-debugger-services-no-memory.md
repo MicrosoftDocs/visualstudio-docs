@@ -18,7 +18,6 @@ manager: caslan
 ---
 # Debugger Services Running Out of Memory
 
-
 The Debugging Services ran out of memory and caused the termination of the debugging session.
 
 ## To investigate this error on Windows

@@ -10,7 +10,6 @@ ms.subservice: general-ide
 ---
 # Convert a local function to a method
 
-
 This refactoring applies to:
 
 - C#

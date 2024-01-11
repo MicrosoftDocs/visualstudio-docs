@@ -15,7 +15,6 @@ ms.subservice: extensibility-integration
 ---
 # Create an extension with a menu command
 
-
 This walkthrough shows how to create an extension with a menu command that launches Notepad.
 
 ## Create a menu command

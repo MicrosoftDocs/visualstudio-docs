@@ -18,7 +18,6 @@ dev_langs:
 ---
 # IDebugProgramNode2::Attach_V7
 
-
 > [!Note]
 > DEPRECATED. DO NOT USE.
 

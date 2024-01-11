@@ -14,7 +14,6 @@ ms.custom: engagement-fy23
 ---
 # Bookmark code in Visual Studio
 
-
 You can use bookmarks to mark lines in your code so that you can quickly return to a specific location, or jump back and forth between locations. Bookmarks can help you keep track of important parts of your code and remind you of what you might want to work on next, which can improve your productivity.
 
 Bookmark commands and icons are available in two places: 

@@ -16,7 +16,6 @@ ms.subservice: general-ide
 ---
 # Customize startup
 
-
 You can customize the startup experience for Visual Studio in several different ways, such as opening your most recent solution or just an empty development environment.
 
 ## To change the startup item

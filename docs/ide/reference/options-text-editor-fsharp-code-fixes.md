@@ -12,7 +12,6 @@ ms.subservice: general-ide
 ---
 # Options: Text Editor > F# > Code Fixes
 
-
 Use the Code Fixes options page to specify the settings that can help identify code errors and offer solutions. To access this options page, choose **Tools** > **Options**, and then choose **Text Editor** > **F#** > **Code Fixes**.
 
 ## Code Fixes

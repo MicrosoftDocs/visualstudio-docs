@@ -16,7 +16,6 @@ manager: jmartens
 ---
 # Specify build events (C#)
 
-
 Use build events to specify commands that run before the build starts or after the build finishes.
 
 ## Specify a build event

@@ -15,7 +15,6 @@ ms.subservice: general-ide
 ---
 # Evaluate Statement command
 
-
 Evaluates and displays the given statement.
 
 ## Syntax

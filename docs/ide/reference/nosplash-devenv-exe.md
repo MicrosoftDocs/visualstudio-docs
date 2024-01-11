@@ -14,7 +14,6 @@ manager: jmartens
 ---
 # /NoSplash (devenv.exe)
 
-
 Prevents the splash screen from being shown.
 
 ## Syntax

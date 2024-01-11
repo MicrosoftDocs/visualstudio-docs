@@ -13,7 +13,6 @@ dev_langs:
 ---
 # Welcome to the Visual Studio IDE | C\#
 
-
 [!INCLUDE [overview-part-1](../includes/ide-overview.md)]
 
 ## Select environment settings

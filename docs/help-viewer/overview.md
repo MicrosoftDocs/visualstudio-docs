@@ -22,7 +22,6 @@ ms.subservice: help-viewer
 ---
 # What is the Microsoft Help Viewer? 
 
-
 You can use Microsoft Help Viewer to install, view, and manage local documentation installs for Microsoft products and technologies on local computers. These products include Visual Studio, .NET, language reference, SQL Server, and Windows development. 
 
 With Help Viewer, you, and any users you support, can:
@@ -32,7 +31,6 @@ With Help Viewer, you, and any users you support, can:
 - Search and find topics through the table of contents, book index, or even full-text search. 
 
 - View, bookmark, and print content.
-
 
 ## Get started 
 
@@ -91,7 +89,6 @@ The toolbar in the **Help Viewer** window contains the following buttons:
 | **Viewer Options**|Displays settings such as how large the text appears, how many search results to return, how many topics to show in history, and whether to check for updates online.|
 | **Manage Content**|Makes the **Manage Content** tab active.|
 | Small triangle on the right-hand side|Opens a list of tabs, including topic tabs and the **Manage Content** tab. You can choose a tab name to make it the active tab.|
-
 
 ## Related content
 

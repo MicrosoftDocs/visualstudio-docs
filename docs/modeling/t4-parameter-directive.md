@@ -10,7 +10,6 @@ ms.subservice: modeling
 ---
 # T4 Parameter Directive
 
-
 In a Visual Studio text template, the `parameter` directive declares properties in your template code that are initialized from values passed in from the external context. You can set these values if you write code that invokes text transformation.
 
 ## Using the Parameter Directive

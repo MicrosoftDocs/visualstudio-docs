@@ -11,7 +11,6 @@ monikerRange: "<=vs-2019"
 ---
 # Manage the resources associated with your Azure accounts in Visual Studio Cloud Explorer
 
-
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
 > [!Important]
@@ -34,7 +33,6 @@ Like the [Azure portal](https://portal.azure.com), Cloud Explorer is built on th
 
 * Visual Studio 2017 or later (see [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)) with the **Azure workload** selected. You can also use an earlier version of Visual Studio with the Microsoft Azure SDK for .NET 2.9.
 * [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
-
 
 > [!NOTE]
 > To view Cloud Explorer, press **Ctrl**+**Q** to activate the search box, and then enter **Cloud Explorer**.

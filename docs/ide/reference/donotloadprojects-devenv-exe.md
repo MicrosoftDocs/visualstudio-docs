@@ -14,7 +14,6 @@ ms.subservice: general-ide
 ---
 # /DoNotLoadProjects (devenv.exe)
 
-
 **New for Visual Studio 2019 version 16.1**
 
 Opens the specified solution without loading any projects. For more information, see [Filtered solutions in Visual Studio](../filtered-solutions.md).

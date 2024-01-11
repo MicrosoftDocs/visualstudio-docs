@@ -13,7 +13,6 @@ monikerRange: '>= vs-2019'
 ---
 # Quickstart: Publish an ASP.NET web app
 
-
 In this article, you'll learn how to publish your first ASP.NET web app to various locations including a local web server such as IIS and a remote cloud environment such as Azure App Service.
 
 This article supports ASP.NET and ASP.NET Core.

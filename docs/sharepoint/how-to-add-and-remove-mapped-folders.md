@@ -18,7 +18,6 @@ ms.subservice: sharepoint-development
 ---
 # add and remove mapped folders
 
-
   Some commonly used folders in SharePoint, such as Images and Layouts, are deeply embedded in the file hierarchy. You can map these folders into a SharePoint project to access them more easily. Mapped folders are folders in the SharePoint project that correspond to the physical location of the files in the installation of SharePoint Server.
 
  When you deploy a SharePoint application, the contents of the mapped folder and all its subfolders are copied by the solution package (.wsp) onto the server that's running SharePoint at the specified location in the SharePoint folder tree. This location is determined by the **Deployment Location** property that's set for the mapped folder. Any subfolders in the mapped folder are relative to **Deployment Location** of the mapped folder. Note that the **Deployment Location** property, not the name of the mapped folder, determines where items are deployed.

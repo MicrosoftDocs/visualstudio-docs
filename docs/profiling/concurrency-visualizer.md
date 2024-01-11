@@ -17,7 +17,6 @@ ms.subservice: debug-diagnostics
 ---
 # Concurrency Visualizer
 
-
 > [!NOTE]
 > The Concurrency Visualizer is an optional extension to Visual Studio. Download the Concurrency Visualizer and the Concurrency Visualizer Collection Tools from the following links:
 >

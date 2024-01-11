@@ -15,7 +15,6 @@ ms.subservice: general-ide
 ---
 # Options dialog box: Windows Forms Designer > Data UI Customization
 
-
 This dialog box defines which controls appear in the list of available controls for items in the Data Sources window. To open it, select **Tools** > **Options**, and then select **Windows Forms Designer** > **Data UI Customization**.
 
 You can select a control from an item in the Data Sources window prior to dragging it onto the form in a Windows Forms app. Available controls are determined by the data type of the item. Each data type has a list of valid associated controls as defined in this dialog box, including a default control. When you drag an item from the Data Sources window onto a form without selecting a control, the default control for the data type of the selected item is added to the form.

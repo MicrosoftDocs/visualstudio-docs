@@ -19,7 +19,6 @@ ms.subservice: debug-diagnostics
 ---
 # Error: The web server is not configured correctly
 
-
 After taking steps detailed here to resolve the issue, and before trying again to debug, you may also need to reset IIS. You can do that by opening an Administrator command prompt and typing `iisreset`.
 
 Take these steps to resolve this issue:

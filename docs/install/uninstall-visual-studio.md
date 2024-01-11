@@ -16,7 +16,6 @@ ms.subservice: installation
 ---
 # Uninstall or remove Visual Studio 
 
-
 This page walks you through uninstalling Visual Studio, our integrated suite of productivity tools for developers.
 
 > [!TIP]

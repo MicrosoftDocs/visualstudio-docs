@@ -19,7 +19,6 @@ ms.subservice: debug-diagnostics
 ---
 # Edit and Continue (C++)
 
-
 ::: moniker range=">=vs-2022"
 You can use Hot Reload, previously called Edit and Continue, in C++ projects. See [Supported Code Changes (C++)](../debugger/supported-code-changes-cpp.md) for information about the limitations of Edit and Continue.
 ::: moniker-end

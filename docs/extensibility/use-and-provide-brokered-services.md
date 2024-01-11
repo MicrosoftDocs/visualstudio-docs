@@ -15,7 +15,6 @@ ms.subservice: extensibility-integration
 ---
 # Using and providing brokered services
 
-
 A brokered service is a service acquired via an <xref:Microsoft.ServiceHub.Framework.IServiceBroker>,
 and is exposed as an RPC-compatible interface to enable the service and its client to exist in distinct AppDomains, processes or even across machines (in the case of Live Share).
 

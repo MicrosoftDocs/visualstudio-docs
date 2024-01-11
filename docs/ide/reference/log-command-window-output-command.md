@@ -15,7 +15,6 @@ ms.subservice: general-ide
 ---
 # Log Command window output command
 
-
 Copies all input and output from the **Command** window into a file.
 
 ## Syntax

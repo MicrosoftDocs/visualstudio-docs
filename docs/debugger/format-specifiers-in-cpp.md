@@ -24,7 +24,6 @@ ms.subservice: debug-diagnostics
 ---
 # Format specifiers for C++ in the Visual Studio debugger
 
-
 You can change the format in which a value is displayed in the **Watch**, **Autos**, and **Locals** windows by using format specifiers.
 
 You can also use format specifiers in the **Immediate** window, the **Command** window, in [tracepoints](../debugger/using-breakpoints.md#BKMK_Print_to_the_Output_window_with_tracepoints), and even in source windows. If you pause on an expression in those windows, the result appears in a [DataTip](../debugger/view-data-values-in-data-tips-in-the-code-editor.md). The DataTip display reflects the format specifier.

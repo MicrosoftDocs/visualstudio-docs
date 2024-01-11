@@ -13,7 +13,6 @@ dev_langs:
 ---
 # Use shims to isolate your app for unit testing
 
-
 **Shim types**, one of the two key technologies utilized by the Microsoft Fakes Framework, are instrumental in isolating the components of your app during testing. They work by intercepting and diverting calls to specific methods, which you can then direct to custom code within your test. This feature enables you to manage the outcome of these methods, ensuring the results are consistent and predictable during each call, regardless of external conditions. This level of control streamlines the testing process and aids in achieving more reliable and accurate results.
 
 Employ **shims** when you need to create a boundary between your code and assemblies that do not form part of your solution. When the aim is to isolate components of your solution from each other, the use of **stubs** is recommended.
@@ -194,7 +193,6 @@ Shims operate by introducing *detours* into the codebase of the application bein
 It's important to note that these detours are created and removed dynamically at runtime. Detours should always be created within the lifespan of a `ShimsContext`. When the ShimsContext is disposed, any active shims that were created within it are also removed. To manage this efficiently, it's recommended to encapsulate the creation of detours within a `using` statement.
 
 ---
-
 
 ## Shims for different kinds of methods
 
@@ -408,7 +406,6 @@ public class ShimMyBase : ShimBase<MyBase> {
     { set { ... } }
 }
 ```
-
 
 ### Static constructors
 

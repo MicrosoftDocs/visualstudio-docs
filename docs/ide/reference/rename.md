@@ -15,7 +15,6 @@ dev_langs:
 ---
 # Rename a code symbol refactoring
 
-
 This refactoring applies to:
 
 - C#

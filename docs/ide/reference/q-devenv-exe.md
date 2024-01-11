@@ -14,7 +14,6 @@ ms.subservice: general-ide
 ---
 # /? (devenv.exe)
 
-
 Displays a message box listing all `devenv` switches, with a brief description of each switch.
 
 ## Syntax

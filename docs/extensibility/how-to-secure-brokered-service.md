@@ -13,7 +13,6 @@ ms.subservice: extensibility-integration
 ---
 # Secure a brokered service
 
-
 Brokered services default to only being available to the local user and to the processes involved in the Visual Studio session that activated it.
 Under these defaults, security considerations for brokered services are no different than other code running in these processes, which include:
 

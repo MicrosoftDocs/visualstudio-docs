@@ -13,7 +13,6 @@ dev_langs:
 ---
 # Pull members up
 
-
 This refactoring applies to:
 
 - C#

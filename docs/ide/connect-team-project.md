@@ -10,7 +10,6 @@ monikerRange: "<=vs-2019"
 ---
 # Connect to projects in Team Explorer
 
-
 ::: moniker range="vs-2019"
 
 Team Explorer connects Visual Studio 2019 and earlier to Team Foundation version control (TFVC) repositories, and to projects hosted on [Azure DevOps Services](/azure/devops/user-guide/what-is-azure-devops) or an on-premises [Azure DevOps Server](/azure/devops/user-guide/about-azure-devops-services-tfs?view=azure-devops&preserve-view=true) (formerly known as Team Foundation Server, or TFS). You can manage source code, work items, and builds.

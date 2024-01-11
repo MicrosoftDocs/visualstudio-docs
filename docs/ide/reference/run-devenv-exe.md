@@ -17,7 +17,6 @@ ms.subservice: general-ide
 ---
 # /Run (devenv.exe)
 
-
 Compiles and runs the specified project or solution.
 
 ## Syntax

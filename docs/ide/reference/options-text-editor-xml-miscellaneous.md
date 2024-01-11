@@ -12,7 +12,6 @@ ms.subservice: general-ide
 ---
 # Options, Text Editor, XML, Miscellaneous
 
-
 Use the **Miscellaneous** options page to change the autocompletion and schema settings for the XML Editor. To access miscellaneous XML options, choose **Tools** > **Options** > **Text Editor** > **XML**, and then choose **Miscellaneous**.
 
 ## Auto Insert

@@ -19,7 +19,6 @@ ms.subservice: data-tools
 ---
 # Pass data between forms
 
-
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 This tutorial provides step-by-step instructions for passing data from one form to another. Using the customers and orders tables from Northwind, one form allows users to select a customer, and a second form displays the selected customer's orders. This tutorial shows how to create a method on the second form that receives data from the first form.

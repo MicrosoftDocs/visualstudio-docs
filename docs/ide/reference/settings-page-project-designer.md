@@ -15,7 +15,6 @@ ms.subservice: general-ide
 ---
 # Settings page, Project Designer
 
-
 Use the **Settings** page of the [Project Designer](project-properties-reference.md) to specify a project's application settings. Application settings enable you to store and retrieve property settings and other information for your application dynamically. They also enable you to maintain custom application and user preferences on a client computer. For more information, see [Manage application settings](../managing-application-settings-dotnet.md).
 
 To access the **Settings** page, select a [project node](../use-solution-explorer.md#tool-window) in **Solution Explorer**, and then use the right-click context menu to select **Properties**. When the Project Designer appears, select the **Settings** tab.

@@ -14,7 +14,6 @@ dev_langs:
 ---
 # Create a Windows Forms app in Visual Studio with C\#
 
-
 In this tutorial, you'll create a simple C# application that has a Windows-based user interface (UI).
 
 ::: moniker range="vs-2019"

@@ -13,7 +13,6 @@ dev_langs:
 ---
 # Move declaration near reference refactoring
 
-
 This refactoring applies to:
 
 - C#

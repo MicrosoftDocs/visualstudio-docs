@@ -14,7 +14,6 @@ ms.subservice: general-ide
 ---
 # /Command (devenv.exe)
 
-
 Executes the specified command after launching the Visual Studio IDE.
 
 ## Syntax

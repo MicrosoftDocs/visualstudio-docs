@@ -12,7 +12,6 @@ ms.subservice: extensibility-integration
 
 ## <a name="BKMK_WindowInteractions"></a> Window interactions
 
-
 The two main window types used in Visual Studio are document editors and tool windows. Rare, but possible, are large modeless dialogs. Although these are all modeless in the shell, their patterns are fundamentally different. This section covers the difference between document windows, tool windows, and modeless dialogs. Modal dialog patterns are covered in [Dialogs](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_Dialogs).
 
 ### Comparing window usage patterns
@@ -33,7 +32,6 @@ Think carefully about which container type you need. Common usage pattern consid
 | **Examples** | **Text editors**, like the code editor<br /><br /> **Design surfaces**, like a form designer or a modeling surface<br /><br /> **Control layouts similar to dialogs**, like the Manifest Designer | The **Solution Explorer** provides a solution and projects contained within the solution<br /><br /> The **Server Explorer** provides a hierarchical view of servers and data connections that the user chooses to open in the window. Opening an object from the database hierarchy, like a query, opens a document window and allows the user to edit the query.<br /><br /> The **Property Browser** displays properties for the object selected either in a document window or another tool window. The properties are presented either in a hierarchical grid view or in complex dialog-like controls and allow the user to set the values for those properties. | |
 
 ## <a name="BKMK_ToolWindows"></a> Tool windows
-
 
 Tool windows support the user's work that happens in document windows. They can be used to display a hierarchy that represents a fundamental root object that Visual Studio provides and can manipulate.
 

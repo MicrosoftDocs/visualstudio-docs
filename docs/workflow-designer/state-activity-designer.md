@@ -12,7 +12,6 @@ ms.subservice: workflow-designer
 ---
 # State Activity Designer
 
-
 A <xref:System.Activities.Statements.State> represents a state in which a state machine can be in.
 
 ## Using the State Activity Designer

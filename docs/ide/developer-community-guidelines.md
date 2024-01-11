@@ -10,7 +10,6 @@ ms.subservice: general-ide
 ---
 # Developer Community guidelines
 
-
 The Developer Community tracks issues and feature suggestions for Visual Studio.
 
 ## Submitting problems and suggestions

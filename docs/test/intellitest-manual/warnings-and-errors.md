@@ -12,7 +12,6 @@ author: mikejo5000
 ---
 # Warnings and errors
 
-
 ## Warnings and errors by category
 
 * **Boundaries**

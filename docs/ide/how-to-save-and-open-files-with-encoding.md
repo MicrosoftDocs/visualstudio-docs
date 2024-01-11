@@ -15,7 +15,6 @@ ms.subservice: general-ide
 ---
 # Save and open files with encoding
 
-
 You can save files with specific character encoding to support bidirectional languages. You can also specify an encoding when opening a file, so that Visual Studio displays the file correctly.
 
 ## To save a file with encoding

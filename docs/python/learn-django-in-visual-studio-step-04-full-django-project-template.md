@@ -11,7 +11,6 @@ ms.subservice: python
 ---
 # Step 4: Use the full Django Web Project template
 
-
 **Previous step: [Serve static files, add pages, and use template inheritance](learn-django-in-visual-studio-step-03-serve-static-files-and-add-pages.md)**
 
 Now that you've explored the basics of Django in Visual Studio, you can easily understand the fuller app that's introduced by the "Django Web Project" template.
@@ -169,7 +168,6 @@ from django.urls import path
 from django.contrib import admin
 from django.contrib.auth.views import LoginView, LogoutView
 from app import forms, views
-
 
 urlpatterns = [
     path('', views.home, name='home'),

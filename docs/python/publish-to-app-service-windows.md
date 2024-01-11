@@ -11,7 +11,6 @@ ms.subservice: python
 
 # Publishing to Azure App Service on Linux
 
-
 > [!NOTE]
 > Linux is the only operating system option for running Python apps in App Service. Python on Windows is no longer supported, see [App Service Linux Docs - Python Support](https://github.com/Azure/app-service-linux-docs/blob/master/Runtime_Support/python_support.md). You can, however, build your own custom Windows container image and run that in App Service. For more information, see [use a custom Docker image](/azure/app-service/tutorial-custom-container).
 

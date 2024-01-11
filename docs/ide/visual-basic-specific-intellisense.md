@@ -15,7 +15,6 @@ ms.subservice: general-ide
 ---
 # IntelliSense for Visual Basic code files
 
-
 The Visual Basic source code editor offers the following IntelliSense features:
 
 ## Syntax tips

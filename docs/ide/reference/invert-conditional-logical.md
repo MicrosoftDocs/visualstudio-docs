@@ -13,7 +13,6 @@ dev_langs:
 ---
 # Invert conditional expressions and conditional AND/OR operators
 
-
 This refactoring applies to:
 
 - C#

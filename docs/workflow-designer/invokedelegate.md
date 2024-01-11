@@ -11,7 +11,6 @@ ms.author: jodavis
 ---
 # InvokeDelegate
 
-
 The **InvokeDelegate** designer is used to create and configure an <xref:System.Activities.Statements.InvokeDelegate> activity.
 
 ## The InvokeDelegate activity

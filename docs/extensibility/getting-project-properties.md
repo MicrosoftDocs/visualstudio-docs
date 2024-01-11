@@ -13,7 +13,6 @@ ms.subservice: extensibility-integration
 ---
 # Get project properties
 
-
 This walkthrough shows how to displays project properties in a tool window.
 
 ### To create a VSIX Project and add a tool window

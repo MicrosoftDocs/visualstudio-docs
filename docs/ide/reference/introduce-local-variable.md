@@ -10,7 +10,6 @@ ms.subservice: general-ide
 ---
 # Introduce a local variable in Visual Studio
 
-
 This code generation applies to:
 
 - C#

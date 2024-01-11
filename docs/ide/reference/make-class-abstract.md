@@ -13,7 +13,6 @@ dev_langs:
 ---
 # Make class abstract
 
-
 This refactoring applies to:
 
 - C#

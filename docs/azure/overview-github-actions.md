@@ -11,7 +11,6 @@ monikerRange: ">=vs-2019"
 ---
 # GitHub Actions deployment to Azure in Visual Studio
 
-
 [GitHub Actions](https://github.com/features/actions) is the Continuous Integration / Continuous Delivery (CI/CD) solution offered by GitHub. You can host your code for free on GitHub.com and you can use GitHub Actions to automatically build, test and deploy your application when code changes are made.
 
 :::moniker range=">=vs-2022"

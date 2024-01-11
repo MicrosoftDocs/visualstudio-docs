@@ -55,6 +55,5 @@ If the installation folder is *%vsinstalldir%\Common7\IDE\Extensions\\*, the ext
 > [!NOTE]
 > The **Manage Extensions** tool cannot be used to access an extension unless it is installed as part of a VSIX package.
 
-
 ## See also
 - [CreateExpInstance utility](../../extensibility/internals/createexpinstance-utility.md)

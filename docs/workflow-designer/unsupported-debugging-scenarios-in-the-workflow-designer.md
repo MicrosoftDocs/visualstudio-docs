@@ -10,7 +10,6 @@ ms.subservice: workflow-designer
 ---
 # Unsupported debugging scenarios in the Workflow Designer
 
-
 The Workflow Designer does not support the following debugging scenarios:
 
 - Execution cannot be continued after code has been edited.

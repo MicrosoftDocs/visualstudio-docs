@@ -15,7 +15,6 @@ dev_langs:
 ---
 # Encapsulate a field refactoring
 
-
 This refactoring applies to:
 
 - C#

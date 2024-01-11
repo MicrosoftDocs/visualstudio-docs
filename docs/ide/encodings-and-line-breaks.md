@@ -19,7 +19,6 @@ ms.subservice: general-ide
 ---
 # Encodings and line endings
 
-
 The following characters are interpreted as line breaks in Visual Studio:
 
 - CR LF: Carriage return + line feed, Unicode characters 000D + 000A

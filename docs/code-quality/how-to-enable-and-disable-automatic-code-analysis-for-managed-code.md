@@ -10,7 +10,6 @@ ms.subservice: code-analysis
 ---
 # Enable and disable binary code analysis for managed code
 
-
 You can configure legacy code analysis (binary analysis) to run after each build of a managed code project. You can also have different settings for each build configuration, for example, debug and release.
 
 > [!NOTE]

@@ -17,7 +17,6 @@ ms.subservice: help-viewer
 ---
 # Find topics in the table of contents
 
-
 In the **Contents** tab, you can use the table of contents (TOC) to find information. The table of contents is an expandable list that contains all of the topics in the installed books. For accessibility information about how to navigate through the TOC, see [Shortcut keys (Help Viewer)](../help-viewer/shortcut-keys.md).
 
 > [!IMPORTANT]

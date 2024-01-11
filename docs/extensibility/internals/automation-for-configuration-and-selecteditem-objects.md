@@ -13,7 +13,6 @@ ms.subservice: extensibility-integration
 ---
 # Automation for Configuration and SelectedItem objects
 
-
 You can automate the build and selected item processes in Visual Studio.
 
 ## Automation for builds

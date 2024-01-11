@@ -12,7 +12,6 @@ ms.subservice: workflow-designer
 ---
 # Rethrow Activity Designer
 
-
 The **Rethrow** activity designer is used to create and configure a <xref:System.Activities.Statements.Rethrow> activity.
 
 ## The Rethrow activity

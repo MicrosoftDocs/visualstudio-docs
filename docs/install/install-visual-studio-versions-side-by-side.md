@@ -16,7 +16,6 @@ manager: jmartens
 ---
 # Install Visual Studio versions side-by-side
 
-
 You can install Visual Studio on a computer that has an earlier or later [major version](/visualstudio/productinfo/release-rhythm#determining-your-product-edition-version-and-channel) of Visual Studio already installed.
 
 ::: moniker range="vs-2019"
@@ -76,7 +75,6 @@ You can manually use another bootstrapper to install a new instance of Visual St
 2. Using the installer's **Available** tab presumes, of course, that you already have some other version of Visual Studio installed. First find the **Visual Studio Installer** on your computer and launch it. After it updates itself, click on the **Available** tab and install one of the offered products. 
 
     :::image type="content" source="media/available-tab.png" alt-text="Screenshot showing the Visual Studio Installer's Available tab.":::
-
 
 Then follow the steps to select the components you need for your installation. For more information, see [Install Visual Studio](install-visual-studio.md#step-4---choose-workloads).
 

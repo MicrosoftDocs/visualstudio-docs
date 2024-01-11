@@ -20,7 +20,6 @@ ms.subservice: office-development
 ---
 # Walkthrough: Update the controls on a ribbon at run time
 
-
 This walkthrough demonstrates how to use the Ribbon object model to update the controls on a ribbon after the ribbon is loaded into the Office application.
 
 [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]

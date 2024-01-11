@@ -12,7 +12,6 @@ ms.subservice: python
 
 # Step 2: Write and run code
 
-
 **Previous step: [Create a new Python project](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)**
 
 Although **Solution Explorer** is where you manage project files, the _editor_ window is typically where you work with the _contents_ of files, like source code. The editor is contextually aware of the type of file you're editing. The editor also recognizes the programming language (based on the file extension), and offers features appropriate to that language such as syntax coloring and auto-completion using IntelliSense.

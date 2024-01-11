@@ -16,7 +16,6 @@ ms.subservice: general-ide
 ---
 # Open file command
 
-
 Opens an existing file and allows you to specify an editor.
 
 ## Syntax

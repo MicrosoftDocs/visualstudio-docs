@@ -10,7 +10,6 @@ ms.subservice: general-ide
 ---
 # Customize the scroll bar
 
-
 When you're working with long code files, it can be hard to keep track of where everything is in the file. You can customize the scroll bar of the code editor to give you an overall picture of what's happening in your code.
 
 ## Annotations

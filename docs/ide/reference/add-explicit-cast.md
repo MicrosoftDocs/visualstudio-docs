@@ -10,7 +10,6 @@ ms.subservice: general-ide
 ---
 # Add explicit cast
 
-
 This code generation applies to:
 
 - C#

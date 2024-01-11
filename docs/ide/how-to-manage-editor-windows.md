@@ -15,7 +15,6 @@ ms.subservice: general-ide
 ---
 # Manage editor windows
 
-
 You can work on code in several locations at once. Do this by splitting an editor window, or by opening several instances of editor windows.
 
 > [!NOTE]

@@ -13,7 +13,6 @@ ms.author: ghogen
 
 
 
-
 Docker is a lightweight container engine, similar in some ways to a virtual machine, which you can use to host applications and services.
 This tutorial walks you through using Visual Studio to publish your containerized application to an [Azure Container Registry](https://azure.microsoft.com/services/container-registry).
 

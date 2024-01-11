@@ -14,7 +14,6 @@ ms.custom: vs-acquisition
 ---
 # Tutorial: Create a WPF application with Visual Basic
 
-
 In this tutorial, you'll create an application using Visual Basic in the Visual Studio integrated development environment (IDE).
 Your program will use the Windows Presentation Foundation (WPF) UI framework.
 Use this tutorial to become familiar with many of the tools, dialog boxes, and designers that you can use in Visual Studio.

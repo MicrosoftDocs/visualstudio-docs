@@ -10,7 +10,6 @@ ms.subservice: ui-designers
 ---
 # Work with shaders
 
-
 You can use the graph-based Shader Designer in Visual Studio to design custom shader effects. You can use these shaders in your DirectX-based game or app.
 
 ## Shaders

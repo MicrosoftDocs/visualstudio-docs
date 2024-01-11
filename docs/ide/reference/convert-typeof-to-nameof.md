@@ -13,7 +13,6 @@ dev_langs:
 ---
 # Convert `typeof` to `nameof`
 
-
 This refactoring applies to:
 
 - C#

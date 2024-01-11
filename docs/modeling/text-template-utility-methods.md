@@ -12,7 +12,6 @@ ms.subservice: modeling
 ---
 # Text Template Utility Methods
 
-
 There are several methods that are always available to you when you write code in a Visual Studio text template. These methods are defined in <xref:Microsoft.VisualStudio.TextTemplating.TextTransformation>.
 
 > [!TIP]

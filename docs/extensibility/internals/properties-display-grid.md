@@ -12,7 +12,6 @@ ms.subservice: extensibility-integration
 ---
 # Properties display grid
 
-
 The **Properties** window displays fields within a grid. The left column contains the property names; the right column contains the property values.
 
 ## Work with the grid

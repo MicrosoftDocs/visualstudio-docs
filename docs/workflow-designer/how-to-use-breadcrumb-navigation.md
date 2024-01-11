@@ -10,7 +10,6 @@ ms.subservice: workflow-designer
 ---
 # Use Breadcrumb Navigation
 
-
 There are three main ways to change the set of activities that are displayed in Workflow Designer:
 
 1. Double-click to drill in to a child activity.

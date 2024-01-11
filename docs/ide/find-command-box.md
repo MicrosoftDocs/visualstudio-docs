@@ -14,7 +14,6 @@ ms.subservice: general-ide
 ---
 # Go to Find Combo box
 
-
 You can search for text and run Visual Studio commands from the **Go to Find Combo** box, previously known as the **Find/Command** box. The equivalent of the **Find/Command** box is still available as a toolbar control, but it is named **Go to Find Combo** and is no longer visible by default. To display the **Go to Find Combo** box, follow these steps:
 
 1. Choose **Add or Remove Buttons** on the **Standard** toolbar (the small arrow-like control at the right end of the toolbar).

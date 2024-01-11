@@ -14,7 +14,6 @@ ms.subservice: general-ide
 ---
 # /SafeMode (devenv.exe)
 
-
 Starts Visual Studio in safe mode, loading only the default environment and services.
 
 ## Syntax

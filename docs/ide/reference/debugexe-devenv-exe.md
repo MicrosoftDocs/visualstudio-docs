@@ -15,7 +15,6 @@ ms.subservice: general-ide
 ---
 # /DebugExe (devenv.exe)
 
-
 Opens the specified executable file to be debugged.
 
 ## Syntax

@@ -18,14 +18,12 @@ For groups of users, you have choices for how you assign subscriptions.
 + You can also quickly and easily upload lists of subscribers and their subscription information using the [Bulk add](assign-license-bulk.md) feature.
 + If your organization uses Microsoft Entra ID, you can [use Microsoft Entra groups to assign subscriptions](./assign-license-bulk.md#use-entra-id-groups-to-assign-subscriptions) to groups of users.  
 
-
 ## Add a single subscriber
 
 Watch the video or read on to learn how to assign a Visual Studio subscription to a new user so that they can access the subscription benefits.
  
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vpPh]
-
 
 1. Sign in to the [admin portal](https://manage.visualstudio.com).
 2. To assign a license to a single Visual Studio subscriber, at the top of the table, select **Add**, then choose **Individual subscriber**.
@@ -65,7 +63,6 @@ Using a notification email address lets you allow your subscribers to receive im
 ## Resend assignment emails
 
 After you add a subscriber, an assignment email will be automatically sent to the new subscriber with further instructions. You can send the assignment email again at any time by selecting the subscriber and then selecting the **Resend** button in the top menu.  To resend emails to multiple users, hold down the **Ctrl** key while selecting the subscribers.  When you select the **Resend** button, you see a dialog asking you to confirm you want to resend to those subscribers.  
-
 
 ## Resources
 
