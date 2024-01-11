@@ -4,9 +4,9 @@ description: Create a Windows Desktop .NET app in Visual Basic with Visual Studi
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: tutorial
-ms.prod: visual-studio-windows
+
 dev_langs:
   - "VB"
 ms.date: 12/07/2023

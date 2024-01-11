@@ -8,7 +8,7 @@ helpviewer_keywords:
 - unit tests [Visual Studio]
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # First look at testing tools in Visual Studio

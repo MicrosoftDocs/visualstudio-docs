@@ -4,7 +4,7 @@ description: Create a Windows Forms app in Visual Studio with Visual Basic, add 
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: tutorial
 dev_langs:
   - VB

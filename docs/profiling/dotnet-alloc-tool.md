@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: Mikejo5000
 ms.author: mikejo
 manager: AndSter
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Analyze memory usage by using the .NET Object Allocation tool
 

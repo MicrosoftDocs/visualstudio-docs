@@ -5,8 +5,8 @@ author: therealjohn
 ms.author: johmil
 ms.date: 08/26/2022
 ms.topic: how-to
-ms.technology: vs-unity-tools
-ms.prod: visual-studio
+ms.subservice: unity-tools
+ms.service: visual-studio
 ---
 # Using .NET 4.x in Unity
 

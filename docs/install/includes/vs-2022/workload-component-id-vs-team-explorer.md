@@ -7,8 +7,8 @@ author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.date: 11/14/2023
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ms.topic: include
 ---
 ## Visual Studio core editor (included with Visual Studio Team Explorer 2022)

@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: ankitvarmait
 ms.author: anva
 manager: tinali
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 monikerRange: ">=vs-2022"
 feedback_system: GitHub
 ---

@@ -4,7 +4,7 @@ description: Create a C# or VB WinForms project for a picture viewer application
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: tutorial
 ms.date: 02/24/2023
 ---

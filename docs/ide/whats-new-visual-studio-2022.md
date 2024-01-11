@@ -9,8 +9,8 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology:
-ms.prod: visual-studio-windows
+ms.subservice:
+
 ms.topic: whats-new
 ---
 # What's new in Visual Studio 2022

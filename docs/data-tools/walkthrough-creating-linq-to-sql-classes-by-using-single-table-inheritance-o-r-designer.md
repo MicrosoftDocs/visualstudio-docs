@@ -9,7 +9,7 @@ dev_langs:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Walkthrough: Create LINQ to SQL classes by using single-table inheritance (O/R Designer)
 

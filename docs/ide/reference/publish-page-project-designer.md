@@ -2,7 +2,7 @@
 title: Publish Page, Project Designer
 description: The Publish page of the Project Designer is used to configure properties for your ClickOnce deployment.
 ms.date: 11/04/2016
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ms.topic: reference
 f1_keywords:
   - "Microsoft.VisualStudio.Publish.ClickOnceProvider.Dialog.PropertyPage"

@@ -10,7 +10,7 @@ f1_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-code-analysis
+ms.subservice: code-analysis
 ---
 # Implement Custom Code Analysis Check-in Policies for Managed Code
 

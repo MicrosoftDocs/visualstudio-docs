@@ -6,7 +6,7 @@ ms.topic: how-to
 author: jodavis
 ms.author: jodavis
 manager: jmartens
-ms.technology: vs-workflow-designer
+ms.subservice: workflow-designer
 ---
 # Define and consume activity delegates in the Workflow Designer
 

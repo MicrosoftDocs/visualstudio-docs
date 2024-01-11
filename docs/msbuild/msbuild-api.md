@@ -6,7 +6,7 @@ ms.topic: overview
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # Use the MSBuild API
 
