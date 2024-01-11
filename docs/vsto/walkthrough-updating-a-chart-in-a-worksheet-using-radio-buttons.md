@@ -13,7 +13,7 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Walkthrough: Updating a Chart in a Worksheet Using Radio Buttons
 

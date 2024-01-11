@@ -4,7 +4,7 @@ description: Learn how to change trust settings for files and folders to keep Vi
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.date: 10/27/2021
 ms.topic: reference
 f1_keywords:

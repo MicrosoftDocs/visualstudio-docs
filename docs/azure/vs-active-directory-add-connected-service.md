@@ -3,8 +3,7 @@ title: Use the Microsoft Identity platform connected service to use Microsoft En
 description: Connect Microsoft Entra ID (formerly Azure Active Directory) to your application by using Connected Services in Visual Studio on Windows.
 author: ghogen
 manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-azure
+ms.subservice: azure-development
 ms.custom: devx-track-csharp
 ms.topic: how-to
 ms.date: 12/19/2023

@@ -12,7 +12,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Walkthrough: Create an n-tier data application with ADO.NET and the .NET Framework
 

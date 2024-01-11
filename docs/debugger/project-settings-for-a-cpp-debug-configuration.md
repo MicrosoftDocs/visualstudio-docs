@@ -108,7 +108,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Project settings for a C++ debug configuration
 

@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.technology: vs-xml-tools
+ms.subservice: xml-tools
 ---
 # Edit XSLT Style Sheets
 

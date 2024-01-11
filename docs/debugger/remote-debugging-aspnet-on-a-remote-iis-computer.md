@@ -6,7 +6,7 @@ ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Remote Debug ASP.NET Core on a Remote IIS Computer in Visual Studio
 

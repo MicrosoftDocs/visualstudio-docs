@@ -30,7 +30,7 @@ helpviewer_keywords:
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.technology: vs-xml-tools
+ms.subservice: xml-tools
 ---
 # Overview of XML tools in Visual Studio
 

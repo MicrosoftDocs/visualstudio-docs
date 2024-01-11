@@ -19,7 +19,7 @@ caps.latest.revision: 16
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # ZipDirectory task
 

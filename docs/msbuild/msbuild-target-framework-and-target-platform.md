@@ -6,7 +6,7 @@ ms.topic: language-reference
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # MSBuild target framework and target platform
 

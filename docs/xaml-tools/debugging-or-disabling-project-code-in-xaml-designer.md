@@ -6,7 +6,7 @@ ms.topic: how-to
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.technology: vs-xaml-tools
+ms.subservice: xaml-tools
 ---
 # Debug or disable project code in XAML Designer
 
