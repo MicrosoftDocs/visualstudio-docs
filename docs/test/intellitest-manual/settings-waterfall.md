@@ -7,7 +7,7 @@ helpviewer_keywords:
 - IntelliTest, Settings waterfall
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Settings waterfall

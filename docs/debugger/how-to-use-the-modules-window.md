@@ -22,7 +22,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # View DLLs and executables in the Modules window (C#, C++, Visual Basic, F#)
 
@@ -71,7 +71,7 @@ The **Symbol Status** column in the **Modules** window shows which modules have 
 
 1. In the right-click menu, select or deselect **Always Load Automatically**. Changes take effect in the next debugging session.
 
-## See also
+## Related content
 - [Breaking execution](/previous-versions/visualstudio/visual-studio-2010/7z9se2d8(v=vs.100))
 - [Viewing data in the debugger](../debugger/viewing-data-in-the-debugger.md)
 - [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)

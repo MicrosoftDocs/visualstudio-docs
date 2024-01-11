@@ -18,7 +18,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Turn off constraints while filling a dataset in .NET Framework applications
 

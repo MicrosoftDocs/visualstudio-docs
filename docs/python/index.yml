@@ -6,8 +6,8 @@ summary: Tutorials and conceptual articles about developing Python apps with Vis
 metadata:
   title: Python Development with Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Tutorials and conceptual articles about developing Python apps with Visual Studio. # Required; article description that is displayed in search results. < 160 chars.
-  ms.prod: visual-studio-windows
-  ms.technology: vs-python
+  
+  ms.subservice: python
   ms.topic: landing-page # Required
   ms.collection: collection
   author: cwebster-99 #Required; your GitHub user alias, with correct capitalization.

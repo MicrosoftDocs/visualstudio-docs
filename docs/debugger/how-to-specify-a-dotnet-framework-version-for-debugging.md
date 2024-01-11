@@ -14,7 +14,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Specify an older .NET Framework version for debugging (C#, Visual Basic, F#)
 
@@ -58,5 +58,5 @@ In the rare cases where this error appears, you can set a registry key to indica
 
      If you still get an error message when you start to debug, verify that you have entered the version number correctly in the registry. Also verify that you are using a version of the .NET Framework supported by Visual Studio. The debugger is compatible with the current .NET Framework version and previous versions, but may not be forward compatible with future versions.
 
-## See also
+## Related content
 - [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)

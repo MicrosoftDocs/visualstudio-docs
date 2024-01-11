@@ -1,6 +1,11 @@
 {
   "redirections": [
-    
+    {
+
+      "source_path": "docs/azure/vs-active-directory-error.md",
+      "redirect_url": "/visualstudio/azure/vs-active-directory-add-connected-service",
+      "redirect_document_id": "false"
+    },
     {
       "source_path": "docs/data-tools/add-validation-to-an-n-tier-dataset.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/data-tools/add-validation-to-an-n-tier-dataset?view=vs-2017",
@@ -613,6 +618,21 @@
     {
       "source_path": "docker/tutorials/tutorial-deploy-docker-app-azure.md",
       "redirect_url": "/visualstudio/docker/tutorials/docker-tutorial",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/code-snippet-functions.md",
+      "redirect_url": "/visualstudio/ide/visual-csharp-code-snippets#code-snippet-functions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/how-to-use-surround-with-code-snippets.md",
+      "redirect_url": "/visualstudio/ide/code-snippets#expansion-snippets-and-surround-with-snippets",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/best-practices-for-using-code-snippets.md",
+      "redirect_url": "/visualstudio/ide/code-snippets#best-practices-for-using-code-snippets",
       "redirect_document_id": false
     },
     {

@@ -13,7 +13,7 @@ dev_langs:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Trigger suspend, resume, and background events while debugging UWP apps in Visual Studio
 
@@ -104,7 +104,7 @@ For more information about Process Lifetime Management and background tasks, see
 
 4. Choose the **Diagnostic** log.
 
-## See also
+## Related content
 - [Testing UWP apps with Visual Studio](../test/unit-test-your-code.md)
 - [Debug apps in Visual Studio](debugging-windows-store-and-windows-universal-apps.md)
 - [Application lifecycle](/windows/uwp/launch-resume/app-lifecycle)

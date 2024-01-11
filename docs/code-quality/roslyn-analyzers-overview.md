@@ -11,7 +11,7 @@ helpviewer_keywords:
 author: mikadumont
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-code-analysis
+ms.subservice: code-analysis
 ---
 # About .NET source code analysis in Visual Studio with Roslyn analyzers
 
@@ -96,7 +96,7 @@ You can't configure the severity of rules from analyzers that were installed as 
 > [!div class="nextstepaction"]
 > [Use code analyzers in Visual Studio](../code-quality/use-roslyn-analyzers.md)
 
-## See also
+## Related content
 
 - [Analyzers FAQ](analyzers-faq.yml)
 - [Write your own code analyzer](../extensibility/getting-started-with-roslyn-analyzers.md)

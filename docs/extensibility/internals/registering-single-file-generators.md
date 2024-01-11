@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Registering Single File Generators
 
@@ -62,7 +62,7 @@ To make a custom tool available in Visual Studio, you must register it so Visual
    "GeneratesDesignTimeSource"=dword:00000001
    ```
 
-## See also
+## Related content
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator>
 - [Implementing Single-File Generators](../../extensibility/internals/implementing-single-file-generators.md)
 - [Exposing Types to Visual Designers](../../extensibility/internals/exposing-types-to-visual-designers.md)

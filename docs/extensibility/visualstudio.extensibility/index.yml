@@ -12,8 +12,8 @@ metadata:
   ms.author: maiak
   monikerRange: ">=vs-2022"
   manager: jmartens
-  ms.prod: visual-studio-windows
-  ms.technology: vs-extensibility  
+  
+  ms.subservice: extensibility-integration  
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
 

@@ -5,7 +5,7 @@ keywords: "Bridge to Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, Kubernete
 ms.author: ghogen
 author: ghogen
 manager: jmartens
-ms.technology: bridge
+ms.subservice: bridge
 ms.topic: tutorial 
 ms.date: 08/11/2022
 ---

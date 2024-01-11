@@ -6,7 +6,7 @@ manager: jmartens
 ms.topic: how-to
 ms.date: 2/28/2023
 ms.author: mikejo
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Debug an Azure cloud service in Visual Studio
 

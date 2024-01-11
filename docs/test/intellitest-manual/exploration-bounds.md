@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "IntelliTest, Exploration bounds"
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Exploration bounds

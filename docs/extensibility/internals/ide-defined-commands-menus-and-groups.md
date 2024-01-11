@@ -10,7 +10,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # IDE-Defined Commands, Menus, and Groups
 
@@ -43,7 +43,7 @@ Many menus, commands and command groups are already defined for use by the Visua
 
  Gives the GUID and ID values of commands defined by the Visual Studio IDE.
 
-## See also
+## Related content
 - [Visual Studio Command Table (.Vsct) Files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
 - [IDE-Defined Commands for Extending Project Systems](../../extensibility/internals/ide-defined-commands-for-extending-project-systems.md)
 - [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)

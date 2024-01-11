@@ -12,8 +12,8 @@ metadata:
   ms.author: ghogen
   author: ghogen
   manager: jmartens
-  ms.prod: visual-studio-windows
-  ms.technology: vs-acquisition
+  
+  ms.subservice: vs-acquisition
   dev_langs:
     - VB
 

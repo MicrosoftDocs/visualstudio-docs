@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Source Control Integration Overview
 
@@ -68,7 +68,7 @@ This section compares the two ways to integrate into Visual Studio source contro
 
 - The VSPackage is not confined to a particular source control model.
 
-## See also
+## Related content
 - [Source Control](../../extensibility/internals/source-control.md)
 - [Creating a Source Control Plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md)
 - [Creating a Source Control VSPackage](../../extensibility/internals/creating-a-source-control-vspackage.md)

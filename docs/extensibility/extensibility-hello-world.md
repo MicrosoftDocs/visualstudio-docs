@@ -6,7 +6,7 @@ ms.topic: tutorial
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Tutorial - Create your first extension: Hello World
 

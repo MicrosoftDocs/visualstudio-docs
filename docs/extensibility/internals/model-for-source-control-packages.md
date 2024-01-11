@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Model for Source Control Packages
 
@@ -29,7 +29,7 @@ Example Source Control Project
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsSccManager2>|Called by projects to register with the source control package and to obtain information on source control status. This interface is accessed using the <xref:Microsoft.VisualStudio.Shell.Interop.SVsSccManager> service.|
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProject2>|Implemented by the project to respond to source control requests for information about files and to obtain the source control settings required for the project file.|
 
-## See also
+## Related content
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccManager2>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProject2>

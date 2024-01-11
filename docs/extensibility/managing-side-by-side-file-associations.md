@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Manage side-by-side file associations
 
@@ -80,7 +80,7 @@ Uninstalling a VSPackage that writes registry entries for file associations remo
 
 - Provide a configuration options page or dialog box that lets users choose file associations and reclaim lost associations. Instruct users to run it after uninstallation.
 
-## See also
+## Related content
 
 - [Register file name extensions for side-by-side deployments](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md)
 - [Register verbs for file name extensions](../extensibility/registering-verbs-for-file-name-extensions.md)

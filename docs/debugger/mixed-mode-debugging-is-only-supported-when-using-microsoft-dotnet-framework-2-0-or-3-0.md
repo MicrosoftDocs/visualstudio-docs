@@ -13,7 +13,7 @@ dev_langs:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Mixed Mode Debugging Is Only Supported when Using Microsoft .NET Framework 2.0 or 3.0
 
@@ -48,5 +48,5 @@ Versions of the Microsoft .NET Framework earlier than 2.0 do not provide support
 
 - See [Setting Up SQL Debugging](/previous-versions/visualstudio/visual-studio-2010/s4sszxst(v=vs.100)).
 
-## See also
+## Related content
 - [Debug 64-Bit Applications](../debugger/debug-64-bit-applications.md)

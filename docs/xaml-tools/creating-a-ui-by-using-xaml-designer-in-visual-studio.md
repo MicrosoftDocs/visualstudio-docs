@@ -12,7 +12,7 @@ ms.devlang: CSharp
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.technology: vs-xaml-tools
+ms.subservice: xaml-tools
 ---
 # Create a UI by using XAML Designer
 

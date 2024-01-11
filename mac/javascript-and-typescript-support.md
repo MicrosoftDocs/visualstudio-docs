@@ -5,7 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 05/03/2018
-ms.technology: vs-ide-general
+ms.subservice: ide
 ms.topic: how-to
 ---
 # JavaScript and TypeScript support in Visual Studio for Mac

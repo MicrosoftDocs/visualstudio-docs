@@ -18,7 +18,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # What is Class Designer?
 
@@ -76,6 +76,8 @@ If you haven't installed the **Class Designer** component, follow these steps to
 1. Open **Visual Studio Installer** from the Windows Start menu, or by selecting **Tools** > **Get Tools and Features** from the menu bar in Visual Studio.
 
    **Visual Studio Installer** opens.
+   
+1. If you already have Visual Studio installed, click the **Modify** button from the options.
 
 1. Select the **Individual components** tab, and then scroll down to the **Code tools** category.
 

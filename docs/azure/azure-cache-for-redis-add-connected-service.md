@@ -3,7 +3,7 @@ title: Add Azure Cache for Redis by using Connected Services
 description: Learn how to add Azure cache for Redis support to your app with the Visual Studio process for adding a connected service.
 author: AngelosP
 manager: jmartens
-ms.technology: vs-azure
+ms.subservice: azure-development
 ms.topic: conceptual
 ms.date: 05/15/2023
 ms.author: angelpe
@@ -150,7 +150,7 @@ To cache session state in an ASP.NET app, see [ASP.NET Session State Provider](/
 
 To cache page output in an ASP.NET app, see [ASP.NET Output Cache Provider](/azure/azure-cache-for-redis/cache-aspnet-output-cache-provider).
 
-## See also
+## Related content
 
 - [Azure Cache for Redis product page](https://azure.microsoft.com/services/cache)
 - [Azure Cache for Redis documentation](/azure/azure-cache-for-redis/)

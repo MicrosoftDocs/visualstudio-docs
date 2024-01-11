@@ -2,7 +2,7 @@
 title: CustomParameters Element (Visual Studio Templates)
 description: Learn about the CustomParameters element and how it groups the custom parameters that are to be passed to the template wizard when the wizard makes parameter replacements.
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#CustomParameters

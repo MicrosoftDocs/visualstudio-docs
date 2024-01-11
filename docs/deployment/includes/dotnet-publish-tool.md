@@ -4,7 +4,7 @@ author: mikejo5000
 description: Learn about using the Publish tool for .NET Core 3.1, .NET 5 and later ClickOnce applications
 ms.author: mikejo
 ms.date: 09/14/2022
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ms.topic: include
 ---
 

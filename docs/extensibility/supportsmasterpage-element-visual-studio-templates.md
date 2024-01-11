@@ -2,7 +2,7 @@
 title: SupportsMasterPage Element (Visual Studio Templates)
 description: Learn about the SupportsMasterPage element and how it specifies whether the or not the Select Master Page checkbox is enabled on the Add New Item dialog box.
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#SupportsMasterPage

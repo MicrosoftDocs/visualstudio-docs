@@ -5,7 +5,7 @@ author: ghogen
 ms.author: ghogen
 ms.topic: how-to
 ms.date: 07/13/2023
-ms.technology: vs-container-tools
+ms.subservice: container-tools
 ---
 # Configure Visual Studio Container Tools
 

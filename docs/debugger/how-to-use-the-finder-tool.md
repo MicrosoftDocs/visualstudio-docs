@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Use the Finder Tool
 
@@ -45,7 +45,7 @@ Finder Tool in the Find Window dialog box
 
     If you selected **Properties**, the [Window Properties Dialog Box](../debugger/window-properties-dialog-box.md) opens. If you selected **Messages**, a [Messages View](../debugger/messages-view.md) window opens.
 
-## See also
+## Related content
 - [Spy++ Views](../debugger/spy-increment-views.md)
 - [Using Spy++](../debugger/using-spy-increment.md)
 - [Spy++ Reference](../debugger/spy-increment-reference.md)

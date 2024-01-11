@@ -11,7 +11,7 @@ dev_langs:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Debug UWP apps on remote machines from Visual Studio
 
@@ -102,7 +102,7 @@ Remote debugging works the same as local debugging.
 
 1. If necessary, select **Debug** > **Stop Debugging** or press **Shift**+**F5** to stop debugging and close the remote app.
 
-## See also
+## Related content
 - [Advanced remote deployment options](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps#advanced-remote-deployment-options)
 - [Testing UWP apps with Visual Studio](../test/unit-test-your-code.md)
 - [Debug UWP apps in Visual Studio](debugging-windows-store-and-windows-universal-apps.md)

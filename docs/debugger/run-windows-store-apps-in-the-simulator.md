@@ -11,7 +11,7 @@ dev_langs:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 monikerRange: '<= vs-2019'
 ---
 # Run UWP apps in the simulator
@@ -151,6 +151,6 @@ You can navigate the simulator toolbar by pressing **CTRL + ALT + Up Arrow** to 
 
 You can shut down the simulator by pressing **CTRL + ALT + F4**.
 
-## See also
+## Related content
 
 - [Run apps from Visual Studio](debugging-windows-store-and-windows-universal-apps.md)

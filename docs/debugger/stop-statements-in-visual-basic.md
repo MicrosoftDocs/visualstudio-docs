@@ -15,7 +15,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Stop statements in Visual Basic
 
@@ -65,7 +65,7 @@ Debug.Fail("a clever output string goes here")
 ```
 ---
 
-## See also
+## Related content
 
 - [Debugger Security](debugger-security.md)
 - [Managed debugging: Recommended project settings](managed-debugging-recommended-property-settings.md)

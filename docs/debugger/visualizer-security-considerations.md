@@ -14,7 +14,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Visualizer Security Considerations
 
@@ -36,7 +36,7 @@ Debugger visualizers require greater privileges than are allowed by a partial tr
 
  To mitigate this vulnerability, be mindful of the interfaces exposed by your visualizer.
 
-## See also
+## Related content
 
 - [Visualizer Architecture](../debugger/visualizer-architecture.md)
 - [Create custom visualizers for .NET objects](../debugger/create-custom-visualizers-of-data.md)

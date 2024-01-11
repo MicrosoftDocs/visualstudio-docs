@@ -3,8 +3,8 @@ author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.date: 9/28/2023
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ms.topic: include
 ---
 ## Support or troubleshooting

@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Entity Framework Tools in Visual Studio
 
@@ -48,6 +48,6 @@ The tools generate or modify an `.edmx` file. This `.edmx` file contains informa
 | [Entity Data Model](/dotnet/framework/data/adonet/entity-data-model) | Provides links and information for working with data that is used by applications built on Entity Framework. |
 | [Entity Framework (EF) Documentation)](/ef/ef6/get-started) | Provides an index of videos, tutorials, and advanced documentation to help you make the most of Entity Framework. |
 
-## See also
+## Related content
 
 - [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)

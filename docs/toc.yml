@@ -296,16 +296,10 @@
           href: ide/visual-cpp-code-snippets.md
         - name: Insert XML comments
           href: ide/reference/generate-xml-documentation-comments.md
-        - name: Use surround-with code snippets
-          href: ide/how-to-use-surround-with-code-snippets.md
-        - name: Best practices
-          href: ide/best-practices-for-using-code-snippets.md
         - name: 'Walkthrough: Create a code snippet'
           href: ide/walkthrough-creating-a-code-snippet.md
         - name: Distribute code snippets
           href: ide/how-to-distribute-code-snippets.md
-        - name: Code snippet functions
-          href: ide/code-snippet-functions.md
         - name: Code snippets schema reference
           href: ide/code-snippets-schema-reference.md
         - name: Troubleshoot snippets
