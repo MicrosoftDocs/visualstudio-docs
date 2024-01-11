@@ -8,7 +8,7 @@ metadata:
   titleSuffix: ""
   description: Explore documentation to help you use Visual Studio to debug applications and code, observe application run-time behavior, and find and fix problems in the code.
   ms.topic: landing-page
-  ms.technology: vs-ide-debug
+  ms.subservice: debug-diagnostics
   author: mikejo5000
   ms.author: mikejo
   manager: jmartens

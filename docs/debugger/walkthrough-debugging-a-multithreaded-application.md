@@ -21,7 +21,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # View threads in the Visual Studio debugger by using the Threads window (C#, Visual Basic, C++)
 
@@ -173,7 +173,7 @@ In a multithreaded program, each thread has its own call stack. The **Threads** 
 
 - In the toolbar at the top of the **Threads** window, select **Expand Call Stacks** or **Collapse Call Stacks**.
 
-## See also
+## Related content
 
 - [Debug multithreaded applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)
 - [Get started debugging multithreaded applications](../debugger/get-started-debugging-multithreaded-apps.md)

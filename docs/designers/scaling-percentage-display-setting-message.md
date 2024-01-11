@@ -6,7 +6,7 @@ ms.topic: ui-reference
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-designers
+ms.subservice: ui-designers
 ms.custom: engagement-fy23
 ---
 # Scaling on your main display is set to X%

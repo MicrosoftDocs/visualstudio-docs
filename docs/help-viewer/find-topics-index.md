@@ -13,7 +13,7 @@ helpviewer_keywords:
 author: jasonchlus
 ms.author: jasonchlus
 manager: jmartens
-ms.technology: vs-help-viewer
+ms.subservice: help-viewer
 ---
 # Find topics by using the Help Viewer index
 
@@ -72,7 +72,7 @@ If you do not find an entry for the word or phrase you entered, try the followin
 
     For example, if you entered the term "building", try "creating" instead.
 
-## See also
+## Related content
 
 - [How to: Find topics in the TOC](../help-viewer/find-topics-toc.md)
 - [How to: Search for topics](../help-viewer/find-topics.md)

@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Persist the property of a project item
 
@@ -127,6 +127,6 @@ You may want to persist a property you add to a project item, such as the author
    </Compile>
    ```
 
-## See also
+## Related content
 
 - [Custom tools](../extensibility/internals/custom-tools.md)

@@ -15,7 +15,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # View threads and tasks in the Parallel Stacks window (C#, Visual Basic, C++)
 
@@ -244,7 +244,7 @@ These video tutorials demonstrate how you can use the Threads and Tasks views of
 
 
 
-## See also
+## Related content
 - [Get started debugging a multithreaded application](../debugger/get-started-debugging-multithreaded-apps.md)
 - [Walkthrough: Debug a parallel application](../debugger/walkthrough-debugging-a-parallel-application.md)
 - [Switch to Another Thread While Debugging in Visual Studio](../debugger/how-to-switch-to-another-thread-while-debugging.md)

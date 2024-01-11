@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # What is debugging?
 
@@ -40,7 +40,7 @@ When you switch this setting, you change your project from a debug configuration
 
 The debugger is an essential tool to find and fix bugs in your apps. However, context is king, and it is important to leverage all the tools at your disposable to help you quickly eliminate bugs or errors. Sometimes, the right "tool" might be a better coding practice. By learning when to use the debugger vs. some other tool, you will also learn how to use the debugger more effectively.
 
-## Next steps
+## Related content
 
 In this article, you've learned a few general debugging concepts. Next, you can start learning how to debug with Visual Studio and how to write code with less bugs. The following articles show C# code examples, but the concepts apply to all languages supported by Visual Studio.
 

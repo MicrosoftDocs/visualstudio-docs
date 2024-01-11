@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Specifying File Handlers for File Name Extensions
 
@@ -72,6 +72,6 @@ HKEY_CLASSES_ROOT\
 
  If the old ProgID has verbs associated with it, then these verbs will also appear under **Open With** *Product Name* in the shortcut menu.
 
-## See also
+## Related content
 - [About File Name Extensions](../extensibility/about-file-name-extensions.md)
 - [Registering Verbs for File Name Extensions](../extensibility/registering-verbs-for-file-name-extensions.md)

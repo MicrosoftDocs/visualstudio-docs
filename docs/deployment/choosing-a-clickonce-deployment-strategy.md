@@ -13,7 +13,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Choose a ClickOnce deployment strategy
 
@@ -72,7 +72,7 @@ There are three different strategies for deploying a ClickOnce application; the 
 
  Applications that target .NET Framework 2.0 require Internet Explorer.
 
-## See also
+## Related content
 
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
 - [Choose a ClickOnce update strategy](../deployment/choosing-a-clickonce-update-strategy.md)

@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Single and Multi-tab Views
 
@@ -107,7 +107,7 @@ Error:
 }
 ```
 
-## See also
+## Related content
 - [Supporting Multiple Document Views](../extensibility/supporting-multiple-document-views.md)
 - [How to: Attach Views to Document Data](../extensibility/how-to-attach-views-to-document-data.md)
 - [Creating Custom Editors and Designers](../extensibility/creating-custom-editors-and-designers.md)

@@ -7,7 +7,7 @@ ms.author: maiak
 monikerRange: ">=vs-2022"
 author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 
 # Use Visual Studio editor extensibility
@@ -286,7 +286,7 @@ For more information, see [Word Count Margin Sample](https://github.com/Microsof
 
 Vertical text view margins whose content needs to be aligned with text view lines are not yet supported.
 
-## Next steps
+## Related content
 
 Learn about the editor interfaces and types at [Editor concepts](editor-concepts.md).
 

@@ -21,7 +21,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Security, versioning, and manifest issues in ClickOnce deployments
 
@@ -90,7 +90,7 @@ If you want to move or copy an application, you must also update the `deployment
 > [!NOTE]
 > Every time that you update the manifest you must also sign it again.
 
-## See also
+## Related content
 
 [Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)
 [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)

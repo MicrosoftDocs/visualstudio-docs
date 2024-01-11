@@ -17,7 +17,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Application deployment prerequisites (Windows desktop)
 
@@ -77,6 +77,6 @@ By default, bootstrapping is enabled for both Windows Installer deployment (by u
 ## Operating system support
  The Visual Studio bootstrapper is not supported on Windows Server 2008 Server Core or Windows Server 2008 R2 Server Core, as they provide a low-maintenance server environment with limited functionality. For example, the Server Core installation option only supports the .NET Framework 3.5 Server Core profile, which cannot run the Visual Studio features that depend on the full .NET Framework.
 
-## See also
+## Related content
 - [Choose a ClickOnce deployment strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)

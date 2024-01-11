@@ -42,8 +42,8 @@
       "extendBreadcrumb": true,
       "manager": "shve",
       "titleSuffix": "Visual Studio Subscription",
-      "ms.prod": "visual-studio-family",
-      "ms.technology": "vs-subscriptions",
+      "ms.service": "visual-studio-family",
+      "ms.subservice": "subscriptions",
       "searchScope": ["VS Subscriptions"],
       "recommendations": true
     },

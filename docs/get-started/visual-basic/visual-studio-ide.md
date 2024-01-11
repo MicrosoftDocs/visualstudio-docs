@@ -2,7 +2,7 @@
 title: Overview for Visual Basic developers
 description: Explore how to work with Visual Studio to edit, debug, and build code, and then publish an app as a Visual Basic developer.
 ms.date: 11/17/2023
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.custom: vs-acquisition
 ms.topic: conceptual
 author: anandmeg
@@ -557,18 +557,10 @@ Once the app is running, you can apply code changes to the running app by clicki
 
 For more information about debugging in Visual Studio, see the [Debugger feature tour](../../debugger/debugger-feature-tour.md).
 
-## Next steps
+## Related content
 
-Explore Visual Studio further by following along with one of these introductory articles:
-
-> [!div class="nextstepaction"]
-> [Learn to use the code editor](tutorial-editor.md)
-
-> [!div class="nextstepaction"]
-> [Learn about projects and solutions](tutorial-projects-solutions.md)
-
-## See also
-
+- [Learn to use the code editor](tutorial-editor.md)
+- [Learn about projects and solutions](tutorial-projects-solutions.md)
 - Discover [more Visual Studio features](../../ide/advanced-feature-overview.md).
 - Visit [visualstudio.microsoft.com](https://visualstudio.microsoft.com/vs/).
 - Read the [Visual Studio blog](https://devblogs.microsoft.com/visualstudio/).

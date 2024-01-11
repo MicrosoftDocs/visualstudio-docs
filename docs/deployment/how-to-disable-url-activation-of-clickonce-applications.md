@@ -14,7 +14,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Disable URL activation of ClickOnce applications
 
@@ -38,6 +38,6 @@ This procedure uses the Windows Software Development Kit (SDK) tool MageUI.exe. 
 
 4. Save and sign the manifest.
 
-## See also
+## Related content
 
 - [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)

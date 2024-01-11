@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 dev_langs:
 - csharp
 - vb
@@ -241,5 +241,5 @@ QuickInfo is an IntelliSense feature that displays method signatures and descrip
 
 4. Move the pointer over one of the occurrences of "add". The signature and the description of the `add` method should be displayed.
 
-## See also
+## Related content
 - [Walkthrough: Link a content type to a file name extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

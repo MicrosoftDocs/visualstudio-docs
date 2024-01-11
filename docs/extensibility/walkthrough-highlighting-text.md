@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Walkthrough: Highlight text
 
@@ -401,5 +401,5 @@ You can add different visual effects to the editor by creating Managed Extensibi
 
 4. Position the cursor in one of the occurrences of "hello". Every occurrence should be highlighted in blue.
 
-## See also
+## Related content
 - [Walkthrough: Link a content type to a file name extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

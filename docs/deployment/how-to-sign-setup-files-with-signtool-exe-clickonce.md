@@ -16,7 +16,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Sign setup files with SignTool.exe (ClickOnce)
 
@@ -71,5 +71,5 @@ You can use *SignTool.exe* to sign a Setup program (*setup.exe*). This process h
     signtool sign /f CertFileName Setup.exe
     ```
 
-## See also
+## Related content
 - [How to: Re-sign application and deployment manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md)

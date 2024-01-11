@@ -14,7 +14,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Connect to data in a WCF service
 
@@ -52,11 +52,8 @@ The WCF tools are not installed with the .NET workload; use the Visual Studio In
 
      The data source is added to the **Data Sources** window.
 
-## Next steps
+## Related content
 
-To add functionality to your application, select an item in the **Data Sources** window and drag it onto a form to create bound controls. For more information, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md).
-
-## See also
-
+- [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)
 - [Bind WPF controls to a WCF data service](../data-tools/bind-wpf-controls-to-a-wcf-data-service.md)
 - [Windows Communication Foundation Services and WCF data services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)

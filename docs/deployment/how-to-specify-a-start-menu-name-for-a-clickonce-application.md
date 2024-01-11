@@ -14,7 +14,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Specify a Start menu name for a ClickOnce application
 
@@ -45,6 +45,6 @@ When a ClickOnce application is installed for both online and offline use, an en
 
 6. Optionally, you can enter a publisher name in **Publisher name**.
 
-## See also
+## Related content
 - [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
 - [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)

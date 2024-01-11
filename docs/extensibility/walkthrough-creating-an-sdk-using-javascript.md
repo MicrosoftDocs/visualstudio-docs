@@ -6,7 +6,7 @@ ms.topic: how-to
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Walkthrough: Create an SDK using JavaScript
 
@@ -308,5 +308,5 @@ This walkthrough teaches how to use JavaScript to create a simple math SDK as a 
 
 12. In the app UI, enter any two numbers, select an operation, and then choose the **=** button. The correct result appears.
 
-## See also
+## Related content
 - [Create a Software Development Kit](../extensibility/creating-a-software-development-kit.md)

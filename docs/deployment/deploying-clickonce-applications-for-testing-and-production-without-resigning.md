@@ -17,7 +17,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Deploy ClickOnce applications for testing and production servers without resigning
 
@@ -58,6 +58,6 @@ This article describes a feature of ClickOnce introduced in the .NET Framework v
 ## Create a deployment
  For step by step guidance on creating deployments that can be deployed from different network locations, see [Walkthrough: Manually deploy a ClickOnce application that does not require re-signing and that preserves branding information](../deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required.md).
 
-## See also
+## Related content
 - [*Mage.exe* (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)
 - [*MageUI.exe* (Manifest Generation and Editing Tool, Graphical Client)](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client)

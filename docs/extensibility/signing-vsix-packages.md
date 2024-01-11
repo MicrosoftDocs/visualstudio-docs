@@ -12,7 +12,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Signing VSIX Packages
 
@@ -41,5 +41,5 @@ Extension assemblies do not need to be signed before they can run in Visual Stud
 
    VSIXSignTool.exe sign /f \<certfile> /p \<password> \<VSIXfile>
 
-## See also
+## Related content
 - [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md)

@@ -19,7 +19,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Walkthrough: Debugging a Parallel Application in Visual Studio (C#, Visual Basic, C++)
 
@@ -448,7 +448,7 @@ You can freeze the underlying thread of a task, or tasks, or you can freeze all 
 
 This walkthrough demonstrated the **Parallel Tasks** and **Parallel Stacks** debugger windows. Use these windows on real projects that use multithreaded code. You can examine parallel code written in C++, C#, or Visual Basic.
 
-## See also
+## Related content
 
 - [Debugging Multithreaded Applications](../debugger/walkthrough-debugging-a-parallel-application.md)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)

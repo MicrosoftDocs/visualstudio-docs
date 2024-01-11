@@ -14,7 +14,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Walkthrough: Writing a Visualizer in Visual Basic
 
@@ -220,7 +220,7 @@ In the debugger-side code, you specify the type to visualize (the object source)
 
    If you want to use your visualizer in Visual Studio rather than just calling it from the test harness, you have to install it. For more information, see [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md).
 
-## See also
+## Related content
 
 - [Visualizer Architecture](../debugger/visualizer-architecture.md)
 - [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md)

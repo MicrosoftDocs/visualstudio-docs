@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Synchronously autoloaded extensions
 
@@ -48,5 +48,5 @@ Value = (DWORD)
 ## Extension authors
 Extension authors can find instructions for migrating packages to asynchronous autoload at [Migrate to AsyncPackage](https://github.com/Microsoft/VSSDK-Extensibility-Samples/tree/master/AsyncPackageMigration).
 
-## See also
+## Related content
 For more information about synchronous autoload settings in Visual Studio 2019, see the [Synchronous Autoload Behavior](https://devblogs.microsoft.com/visualstudio/updates-to-synchronous-autoload-of-extensions-in-visual-studio-2019/) page.

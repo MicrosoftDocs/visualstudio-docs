@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: mikadumont
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-code-analysis
+ms.subservice: code-analysis
 ---
 # Walkthrough: Use static code analysis to find code defects
 

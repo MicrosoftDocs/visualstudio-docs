@@ -15,7 +15,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # ClickOnce deployment on Windows Vista
 
@@ -45,7 +45,7 @@ Visual Studio provides the following options for manifest generation:
 
   * For information about configuring Visual Basic projects for manifest generation, see [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md).
 
-## See also
+## Related content
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
 - [User permissions and Visual Studio](/previous-versions/ms165100(v=vs.100))
 - [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md)

@@ -10,7 +10,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Create a localized bootstrapper package
 
@@ -88,7 +88,7 @@ After you create a bootstrapper package, you can create localized versions of th
 >[!NOTE]
 > Starting with the Visual Studio 2019 Update 7 release bootstrapper packages will also be discovered under the path *{VS Install Path}\MSBuild\Microsoft\VisualStudio\BootstrapperPackages*.
 
-## See also
+## Related content
 - [Create bootstrapper packages](../deployment/creating-bootstrapper-packages.md)
 - [Application deployment prerequisites](../deployment/application-deployment-prerequisites.md)
 - [How to: Create a package manifest](../deployment/how-to-create-a-package-manifest.md)

@@ -11,8 +11,8 @@ f1_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ---
 # Uninstall or remove Visual Studio 
 

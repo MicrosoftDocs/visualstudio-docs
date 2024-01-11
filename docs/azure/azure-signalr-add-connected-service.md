@@ -3,7 +3,7 @@ title: Add Azure SignalR by using Connected Services
 description: Add Azure SignalR to your app by using the Visual Studio to add a connected service
 author: AngelosP
 manager: jmartens
-ms.technology: vs-azure
+ms.subservice: azure-development
 ms.topic: conceptual
 ms.date: 05/15/2023
 ms.author: angelpe
@@ -136,7 +136,7 @@ The connected service functionality adds all the needed references and connectio
 
 Continue by following the Azure SignalR quickstart. You can skip the initial setup, since you've already done that, and continue with the section [Add Azure SignalR to the web app](/azure/azure-signalr/signalr-quickstart-dotnet-core#add-azure-signalr-to-the-web-app). The code you use varies depending on your version of ASP.NET Core, so you might have to modify the code in the tutorial to suit your project template if your ASP.NET Core version doesn't match the version used in the quickstart.
 
-## See also
+## Related content
 
 - [Azure SignalR product page](https://azure.microsoft.com/services/signalr-service/)
 - [Azure SignalR Service documentation](/azure/azure-signalr)

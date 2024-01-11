@@ -4,7 +4,7 @@ author: ghogen
 description: Learn how to use Visual Studio 2019 tooling and Docker for Windows
 ms.author: ghogen
 ms.date: 03/08/2021
-ms.technology: vs-container-tools
+ms.subservice: container-tools
 ms.topic: include
 ---
 

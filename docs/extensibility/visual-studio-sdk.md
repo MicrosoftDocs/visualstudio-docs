@@ -12,7 +12,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Visual Studio SDK
 
@@ -68,7 +68,7 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
 
 - [Extending Visual Studio](https://blog.slaks.net/2013-10-18/extending-visual-studio-part-1-getting-started/)
 
-## See also
+## Related content
 
 - [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md)
 - [FAQ: Converting add-ins to VSPackage extensions](/previous-versions/visualstudio/visual-studio-2015/extensibility/faq-converting-add-ins-to-vspackage-extensions?preserve-view=true&view=vs-2015)

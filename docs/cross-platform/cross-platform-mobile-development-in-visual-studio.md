@@ -3,7 +3,7 @@ title: Build cross-platform mobile apps in Visual Studio
 description: Build cross-platform mobile applications for Android, iOS, and Windows devices by using Visual Studio and target devices from a single code base.
 titleSuffix: ""
 ms.date: 08/26/2022
-ms.technology: vs-ide-mobile
+ms.subservice: mobile-development
 ms.topic: "conceptual"
 author: therealjohn
 ms.author: johmil
@@ -129,7 +129,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 |[Watch a video introduction to the Visual Studio Tools for Unity 2.0 Preview](https://www.bing.com/videos/search?q=visual+studio+tools+for+unity&qs=n&form=QBVLPG&pq=visual+studio+tools+for+unity&sc=6-29&sp=-1&sk=#view=detail&mid=0A13177F0BC7463A24080A13177F0BC7463A2408&preserve-view=true) (Video)|
 |[Learn about Unity](https://unity.com/) (Unity website)|
 
-## See also
+## Related content
 
 - [Add Microsoft 365 APIs to a Visual Studio project](/office/developer-program/office-365-developer-program)
 - [Azure App Services - Mobile Apps](https://azure.microsoft.com/services/app-service/mobile/)

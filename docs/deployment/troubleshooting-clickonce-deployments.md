@@ -16,7 +16,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Troubleshoot ClickOnce deployments
 
@@ -51,7 +51,7 @@ This topic helps you diagnose and resolve the most common issues with ClickOnce 
 
  Describes a technique for debugging ClickOnce applications that use System.Deployment.Application.
 
-## See also
+## Related content
 
 - [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)
 - [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)

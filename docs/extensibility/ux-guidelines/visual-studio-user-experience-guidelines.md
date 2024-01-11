@@ -6,7 +6,7 @@ ms.topic: overview
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Visual Studio User Experience Guidelines
 

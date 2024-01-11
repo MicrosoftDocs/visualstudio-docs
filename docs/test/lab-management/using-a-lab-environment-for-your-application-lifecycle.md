@@ -7,7 +7,7 @@ helpviewer_keywords:
   - lab environment, test lab
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Use a lab environment for your devops

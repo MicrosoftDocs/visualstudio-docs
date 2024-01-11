@@ -20,7 +20,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Walkthrough: Debugging a Web Form
 
@@ -165,6 +165,6 @@ The dialog boxes and menu commands you see might differ from those described in 
 
 6. When you are finished debugging, on the **Debug** menu, click **Stop Debugging**.
 
-## See also
+## Related content
 
 - [Debug ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)

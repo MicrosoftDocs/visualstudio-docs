@@ -6,7 +6,6 @@ ms.author: dominicn
 manager: dominicn
 ms.date: 11/09/2020
 ms.topic: how-to
-ms.prod: visual-studio-mac
 ---
 # Set multiple startup projects in Visual Studio for Mac
 

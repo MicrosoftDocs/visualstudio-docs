@@ -14,7 +14,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Disable URL activation of ClickOnce applications by using the Designer
 
@@ -43,5 +43,5 @@ Typically, a ClickOnce application will start automatically immediately after it
 
 6. Deploy your application.
 
-## See also
+## Related content
 - [Publishing ClickOnce applications](../deployment/publishing-clickonce-applications.md)

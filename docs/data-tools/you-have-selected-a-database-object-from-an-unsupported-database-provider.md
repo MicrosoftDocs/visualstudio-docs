@@ -6,7 +6,7 @@ ms.topic: error-reference
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # You have selected a database object from an unsupported database provider
 

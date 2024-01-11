@@ -15,7 +15,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Deploy a .NET Framework desktop application using the ClickOnce Publish wizard
 
@@ -94,7 +94,7 @@ Before you run the Publish Wizard, you should set the publishing properties appr
    > [!NOTE]
    > After publishing is complete, you will have to use a CD-Rewriter or DVD-Rewriter to copy the files from the location specified in step 3 to the CD-ROM or DVD-ROM media.
 
-## See also
+## Related content
 
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
 - [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)

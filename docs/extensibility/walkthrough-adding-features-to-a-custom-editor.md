@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Walkthrough: Add features to a custom editor
 
@@ -147,6 +147,6 @@ After you create a custom editor, you can add more features to it.
 
   - `Window.Object`
 
-## See also
+## Related content
 
 - [Automation model overview](../extensibility/internals/automation-model-overview.md)

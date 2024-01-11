@@ -3,7 +3,7 @@ ms.topic: quickstart
 ms.author: ghogen
 author: ghogen
 manager: jmartens
-ms.technology: bridge
+ms.subservice: bridge
 title: Redirect traffic between Kubernetes cluster & local code (VS Code)
 ms.date: 09/14/2023
 description: Use Bridge to Kubernetes to redirect traffic between your Kubernetes cluster and code running on your development computer.

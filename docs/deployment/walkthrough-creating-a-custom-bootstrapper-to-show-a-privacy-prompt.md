@@ -17,7 +17,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Walkthrough: Create a custom bootstrapper with a privacy prompt
 
@@ -313,7 +313,7 @@ You can configure ClickOnce applications to automatically update when assemblies
 
 8. If the Application Install dialog box appears, click **Install**.
 
-## See also
+## Related content
 - [Application deployment prerequisites](../deployment/application-deployment-prerequisites.md)
 - [Create bootstrapper packages](../deployment/creating-bootstrapper-packages.md)
 - [How to: Create a product manifest](../deployment/how-to-create-a-product-manifest.md)

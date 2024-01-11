@@ -6,10 +6,10 @@ ms.date: 9/14/2020
 author: jureid
 ms.author: ghogen 
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 dev_langs:
  - CPP
-ms.prod: visual-studio-windows
+
 ms.topic: reference
 monikerRange: vs-2019
 ---

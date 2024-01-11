@@ -6,7 +6,7 @@ ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Debug only user code with Just My Code
 
@@ -242,7 +242,7 @@ A *.natstepfilter* file is an XML file with this syntax:
 
 - Unlike *.natvis* files, *.natstepfilter* and *.natjmc* files are not hot-reloaded. Instead, these files are reloaded near the beginning of the debug session.
 
-- For template functions, the use of `&lt;*&;gt` or `&lt.*` in the name may be helpful.
+- For template functions, the use of `&lt;.*&gt;` or `&lt;.*` in the name may be helpful.
 
 ## <a name="BKMK_JavaScript_Just_My_Code"></a> JavaScript Just My Code
 

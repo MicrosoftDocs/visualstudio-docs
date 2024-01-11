@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Register and unregister VSPackages
 
@@ -116,5 +116,5 @@ public override void Unregister(RegistrationContext context)
 }
 ```
 
-## See also
+## Related content
 - [VSPackages](../extensibility/internals/vspackages.md)

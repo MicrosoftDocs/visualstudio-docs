@@ -16,7 +16,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Re-sign application and deployment manifests
 
@@ -109,7 +109,7 @@ After you make changes to deployment properties in the application manifest for 
 
 7. Optionally, copy the master deployment manifest (*publish\\\<appname>.application*) to your version deployment directory (*publish\Application Files\\\<appname>_\<version>*).
 
-## See also
+## Related content
 - [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)
 - [Code access security for ClickOnce applications](../deployment/code-access-security-for-clickonce-applications.md)
 - [ClickOnce and Authenticode](../deployment/clickonce-and-authenticode.md)

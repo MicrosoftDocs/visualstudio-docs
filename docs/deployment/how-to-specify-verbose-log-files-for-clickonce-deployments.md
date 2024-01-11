@@ -13,7 +13,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Specify verbose log files for ClickOnce deployments
 
@@ -35,5 +35,5 @@ ClickOnce maintains activity log files for all deployments. These logs document 
 
 4. Set the `LogVerbosityLevel` value to `1`.
 
-## See also
+## Related content
 - [Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)

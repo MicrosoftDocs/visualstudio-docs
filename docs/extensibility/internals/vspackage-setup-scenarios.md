@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # VSPackage Setup Scenarios
 
@@ -72,7 +72,7 @@ In this case, the VSPackage is a managed VSPackage installed in the global assem
 
 For more information on deployment of side-by-side assemblies, see [Simplifying Deployment and Solving DLL Hell with the .NET Framework](/previous-versions/dotnet/articles/ms973843(v=msdn.10)).
 
-## See also
+## Related content
 
 - [Windows Installer](/windows/desktop/Msi/windows-installer-portal)
 - [Supporting Multiple Versions of Visual Studio](../../extensibility/supporting-multiple-versions-of-visual-studio.md)

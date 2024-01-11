@@ -7,7 +7,7 @@ ms.author: ghogen
 monikerRange: ">=vs-2022"
 author: ghogen
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 
 # Create Visual Studio debugger visualizers
@@ -339,6 +339,6 @@ public override object CreateReplacementObject(object target, Stream incomingDat
 }
 ```
 
-## Next steps
+## Related content
 
 Try out the [`RegexMatchDebugVisualizer`](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/RegexMatchDebugVisualizer/README.md) sample to see these techniques in action.

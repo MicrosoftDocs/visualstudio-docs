@@ -6,7 +6,7 @@ ms.topic: reference
 author: jodavis
 ms.author: jodavis
 manager: jmartens
-ms.technology: vs-workflow-designer
+ms.subservice: workflow-designer
 ---
 # Flowchart Activity Designers
 

@@ -15,7 +15,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Specify which files are published by ClickOnce
 
@@ -110,6 +110,6 @@ When publishing a ClickOnce application, all non-code files in the project are d
     > [!NOTE]
     > You cannot change the **Download Group** for files that are required for the application to run.
 
-## See also
+## Related content
 - [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
 - [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)

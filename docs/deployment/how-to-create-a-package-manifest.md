@@ -16,7 +16,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Create a package manifest
 
@@ -93,5 +93,5 @@ installing this package.</String>
 </Package>
 ```
 
-## See also
+## Related content
 - [Product and package schema reference](../deployment/product-and-package-schema-reference.md)

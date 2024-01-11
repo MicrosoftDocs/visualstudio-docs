@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Support for Project and Configuration Properties
 
@@ -93,7 +93,7 @@ The **Properties** window in the Visual Studio integrated development environmen
 
  The `MyConfigProp` configuration property appears on the configuration property page as **My Config Property** in the category, **My Category**. If the option is selected, the description, **My Description**, appears in the description panel.
 
-## See also
+## Related content
 - [Adding and Removing Property Pages](../../extensibility/adding-and-removing-property-pages.md)
 - [Projects](../../extensibility/internals/projects.md)
 - [Template Directory Description (.Vsdir) Files](../../extensibility/internals/template-directory-description-dot-vsdir-files.md)

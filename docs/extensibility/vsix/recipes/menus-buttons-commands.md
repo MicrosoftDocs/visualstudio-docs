@@ -6,8 +6,8 @@ ms.topic: conceptual
 author: madskristensen
 ms.author: madsk
 manager: pchapman
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-sdk
+
+ms.subservice: extensibility-integration
 ---
 # Adding menus & commands to Visual Studio extensions
 
@@ -63,6 +63,6 @@ protected override async Task InitializeAsync(CancellationToken cancellationToke
 
 The command Guid and ID must match the guid/id pair from `Button` element in the .vsct file
 
-## Additional resources
+## Related content
 
 * [Visual Studio Command Table (.Vsct) Files](../../internals/visual-studio-command-table-dot-vsct-files.md)

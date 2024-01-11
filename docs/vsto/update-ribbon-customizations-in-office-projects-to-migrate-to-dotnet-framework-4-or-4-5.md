@@ -12,7 +12,7 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Update Ribbon customizations migrated to .NET Framework 4.5
 

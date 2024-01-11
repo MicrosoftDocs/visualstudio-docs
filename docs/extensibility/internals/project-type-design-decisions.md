@@ -11,7 +11,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Project Type Design Decisions
 
@@ -51,7 +51,7 @@ Before you create a new project type, you must make several design decisions reg
 
  When data objects are opened by using transacted mode, changes are saved to a temporary location in memory and are not committed until the user manually chooses to save the file. At that time, all changes must occur together or no changes will be made.
 
-## See also
+## Related content
 - [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)
 - [Opening and Saving Project Items](../../extensibility/internals/opening-and-saving-project-items.md)
 - [Project Persistence](../../extensibility/internals/project-persistence.md)

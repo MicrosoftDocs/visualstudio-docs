@@ -10,7 +10,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-code-analysis
+ms.subservice: code-analysis
 ---
 # Customize a rule set
 
@@ -121,7 +121,7 @@ Now that you have a rule set, the next step is to customize the rules by adding 
 > [!div class="nextstepaction"]
 > [Modify rules in the rule set editor](../code-quality/working-in-the-code-analysis-rule-set-editor.md)
 
-## See also
+## Related content
 
 - [How to: Configure Code Analysis for a Managed Code Project](../code-quality/how-to-configure-code-analysis-for-a-managed-code-project.md)
 - [Code analysis rule set reference](../code-quality/rule-set-reference.md)

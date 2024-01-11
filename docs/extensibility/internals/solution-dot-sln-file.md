@@ -10,7 +10,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Solution (.sln) file
 
@@ -161,7 +161,7 @@ Every loaded VSPackage is enumerated to see if it has anything to save to .sln f
 
 Only the .sln file contains entries in the `preSolution` and `postSolution` sections. There are no similar sections in the .suo file since the solution needs this information to load properly. The .suo file contains user-specific options such as private notes that aren't intended to be shared or placed under source code control.
 
-## See also
+## Related content
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps>
 - [Solution User Options (.suo) File](../../extensibility/internals/solution-user-options-dot-suo-file.md)

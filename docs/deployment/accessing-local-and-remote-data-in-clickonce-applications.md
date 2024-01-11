@@ -13,7 +13,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Access local and remote data in ClickOnce applications
 
@@ -108,6 +108,6 @@ Most applications consume or produce data. ClickOnce gives you a variety of opti
 
  Most of the time, you will not have to access the database directly, but will access it instead through a Web server application written in ASP.NET or an XML Web service. Accessing the database in this manner is frequently the best method if your ClickOnce application is deployed from a Web server. You can access the server in partial trust without elevating your application's permissions.
 
-## See also
+## Related content
 
 - [How to: Include a data file in a ClickOnce application](../deployment/how-to-include-a-data-file-in-a-clickonce-application.md)

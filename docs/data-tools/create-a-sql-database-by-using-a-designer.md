@@ -10,7 +10,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Create a database and add tables in .NET Framework applications using Visual Studio
 

@@ -20,7 +20,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Walkthrough: Manually deploy a ClickOnce application that does not require re-signing and that preserves branding information
 
@@ -151,7 +151,7 @@ When you create a ClickOnce application and then give it to a customer to publis
 
 22. The customer deploys the application to their users.
 
-## See also
+## Related content
 - [Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)
 - [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client)
 - [MakeCert](/windows/desktop/SecCrypto/makecert)

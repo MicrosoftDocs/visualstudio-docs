@@ -27,7 +27,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Create a visual map of the call stack while debugging (C#, Visual Basic, C++, JavaScript)
 
@@ -148,11 +148,8 @@ To share or save the map, use **Share** in the code map toolbar.
 
 ![Share call stack code map with others](../debugger/media/debuggermap_sharewithothers.png "Share call stack code map with others")
 
-## See also
-[Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
-
-[Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)
-
-[Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)
-
-[Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md)
+## Related content
+- [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
+- [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)
+- [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)
+- [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md)

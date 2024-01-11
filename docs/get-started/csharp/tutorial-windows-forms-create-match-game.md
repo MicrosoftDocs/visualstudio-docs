@@ -4,7 +4,7 @@ description: Create a game where a player matches icons, and start by creating a
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: tutorial
 ms.date: 02/28/2023
 ---

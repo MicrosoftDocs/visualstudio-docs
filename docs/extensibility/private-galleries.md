@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Private galleries
 
@@ -84,6 +84,6 @@ DisplayNamePackageGuid={GUID} (REG_SZ)
 
 3. In the right pane, select an extension, and then choose the **Update** button.
 
-## See also
+## Related content
 - [Find and use Visual Studio extensions](../ide/finding-and-using-visual-studio-extensions.md)
 - [Ship Visual Studio extensions](../extensibility/shipping-visual-studio-extensions.md)

@@ -15,7 +15,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Set a Watch on Variables in Parallel Threads in Visual Studio (C#, Visual Basic, C++)
 
@@ -79,7 +79,7 @@ In the Parallel Watch window, you can simultaneously display the values that one
 
 - Enter a Boolean expression in the **Filter by Boolean Expression** box. The debugger evaluates the expression for each thread context. Only rows where the value is `true` are displayed.
 
-## See also
+## Related content
 - [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)
 - [How to: Use the GPU Threads Window](../debugger/how-to-use-the-gpu-threads-window.md)
 - [Walkthrough: Debugging a C++ AMP Application](/cpp/parallel/amp/walkthrough-debugging-a-cpp-amp-application)

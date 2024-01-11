@@ -35,7 +35,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Use Native Run-Time Checks
 
@@ -72,7 +72,7 @@ In a Visual Studio C++ project, you can use native [runtime_checks](/cpp/preproc
 
 - Use the `runtime_checks` pragma.
 
-## See also
+## Related content
 - [Debugging in Visual Studio](../debugger/index.yml)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [runtime_checks](/cpp/preprocessor/runtime-checks)

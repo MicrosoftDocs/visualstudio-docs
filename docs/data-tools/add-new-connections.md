@@ -6,7 +6,7 @@ ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Connect to a database in Visual Studio
 
@@ -180,6 +180,6 @@ If you're using the .NET Framework (not .NET Core or .NET 5 or later), and Windo
 
 If you're using .NET 5 or later, .NET Core or ASP.NET Core, you can connect your app to the database using [Connected Services](../azure/overview-connected-services.md). Using Connected Services, you can easily use a local development database, hosted by SQL LocalDB, SQL Server running in a container, or an on-premises instance of SQL Server, and then  transition to Azure SQL Database when you're ready to deploy to the cloud. For .NET 5 or later, .NET Core and ASP.NET Core, you should consider using [Entity Framework Core](/ef/core) as your database framework.
 
-## See also
+## Related content
 
 - [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)

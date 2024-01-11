@@ -11,7 +11,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Dia2dump Sample
 
@@ -71,4 +71,4 @@ Dia2Dump.exe relies on the msdia*version*.dll COM server to provide its services
 
 ## See also
 
-- [Port, Migrate, and Upgrade Visual Studio Projects](../../porting/port-migrate-and-upgrade-visual-studio-projects.md)
+- [Port, Migrate, and Upgrade Visual Studio Projects](/visualstudio/releases/2019/port-migrate-and-upgrade-visual-studio-projects)

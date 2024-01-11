@@ -26,7 +26,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # View the call stack and use the Call Stack window in the debugger
 
@@ -39,7 +39,7 @@ When [debugging symbols](#bkmk_symbols) are not available for part of a call sta
 ```[Frames below may be incorrect and/or missing, no symbols loaded for name.dll]```
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described here, depending on your active settings or edition. To change your settings, select **Import and Export Settings** on the **Tools** menu.  See [Reset settings](../ide/environment-settings.md#reset-settings). The **Call Stack** window is similar to the Debug perspective in some IDEs like Eclipse.
+> The dialog boxes and menu commands you see might differ from those described here, depending on your active settings or edition. To change your settings, select **Import and Export Settings** on the **Tools** menu.  See [Reset all settings](../ide/environment-settings.md#reset-all-settings). The **Call Stack** window is similar to the Debug perspective in some IDEs like Eclipse.
 
 ## View the call stack while in the debugger
 
@@ -162,7 +162,7 @@ See [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-
 
 1. Select **OK** to close the **Options** dialog box.
 
-## See also
+## Related content
 
 - [Mixed code and missing information in the Call Stack window](../debugger/mixed-code-and-missing-information-in-the-call-stack-window.md)
 - [Viewing data in the debugger](../debugger/viewing-data-in-the-debugger.md)

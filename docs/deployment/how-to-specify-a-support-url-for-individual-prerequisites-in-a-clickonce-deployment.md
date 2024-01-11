@@ -13,7 +13,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Specify a support URL for individual prerequisites in a ClickOnce deployment
 
@@ -76,7 +76,7 @@ A ClickOnce deployment can test for a number of prerequisites that must be avail
 ## .NET Framework security
  The support URL is not displayed on the dialog box if the application is marked to run in partial trust.
 
-## See also
+## Related content
 - [Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)
 - [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)
 - [\<compatibleFrameworks> element](../deployment/compatibleframeworks-element-clickonce-deployment.md)

@@ -21,7 +21,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Code access security for ClickOnce applications
 
@@ -87,7 +87,7 @@ ClickOnce applications are based on the .NET Framework and are subject to code a
 
   In the **Advanced Security Settings** dialog box, the **Debug this application with the selected permission set** check box is selected and disabled. This is because Debug In Zone cannot be turned off for browser-hosted applications.
 
-## See also
+## Related content
 - [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)
 - [Enable and configure ClickOnce security settings](../deployment/how-to-enable-clickonce-security-settings.md)
 - [Set a security zone for a ClickOnce application](../deployment/how-to-enable-clickonce-security-settings.md#set-a-security-zone-for-a-clickonce-application)

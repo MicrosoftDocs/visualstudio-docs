@@ -15,7 +15,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Write a Run-Time Error Reporting Function (C++)
 
@@ -116,5 +116,5 @@ int main()
 }
 ```
 
-## See also
-[Native Run-Time Checks Customization](../debugger/native-run-time-checks-customization.md)
+## Related content
+- [Native Run-Time Checks Customization](../debugger/native-run-time-checks-customization.md)

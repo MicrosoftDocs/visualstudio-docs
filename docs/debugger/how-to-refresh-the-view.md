@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Refresh the View
 
@@ -19,7 +19,7 @@ Spy++ takes a "snapshot" of the system tables and refreshes a view based on this
 
 - Choose **Refresh** from the **Window** menu, or click the **Refresh** button in the toolbar.
 
-## See also
+## Related content
 - [Using Spy++](../debugger/using-spy-increment.md)
 - [SSpy++ Views](../debugger/spy-increment-views.md)
 - [Spy++ Reference](../debugger/spy-increment-reference.md)

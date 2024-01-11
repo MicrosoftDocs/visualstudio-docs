@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Register verbs for file name extensions
 
@@ -106,5 +106,5 @@ The association of a file name extension with an application generally has a pre
 > [!NOTE]
 > If you plan to change the default verb for an extension in a side-by-side deployment, consider the impact on installation and removal. During installation the original default value is overwritten.
 
-## See also
+## Related content
 - [Manage side-by-side file associations](../extensibility/managing-side-by-side-file-associations.md)

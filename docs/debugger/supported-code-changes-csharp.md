@@ -13,7 +13,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Supported code changes (C# and Visual Basic)
 
@@ -188,7 +188,7 @@ Edit and Continue isn't available in the following debugging scenarios:
 
 - Debugging an old version of your code after a new version failed to build because of build errors.
 
-## See also
+## Related content
 
 - [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)
 - [How to: Use Edit and Continue (C#)](../debugger/how-to-use-edit-and-continue-csharp.md)

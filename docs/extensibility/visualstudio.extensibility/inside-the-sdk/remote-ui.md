@@ -7,7 +7,7 @@ ms.author: maiak
 monikerRange: ">=vs-2022"
 author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 
 # Why Remote UI
@@ -439,6 +439,6 @@ HelloCommand = new(async (parameter, cancellationToken) =>
 
 It's also important to avoid the extension asynchronously updating the value of properties that can also be updated by the user. In other words, avoid [TwoWay](/dotnet/api/system.windows.data.bindingmode) data binding.
 
-## Next steps
+## Related content
 
 The information here should be enough to build simple Remote UI components. For more advanced scenarios, see [Advanced Remote UI concepts](advanced-remote-ui.md).

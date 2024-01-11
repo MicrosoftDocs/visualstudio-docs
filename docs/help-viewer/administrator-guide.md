@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-help-viewer
+ms.subservice: help-viewer
 ---
 # Deploy and manage local Help installations for network environments 
 
@@ -139,7 +139,7 @@ Next, you need to package the content so it can be deployed to client computers.
 
 3. Run the *.bat* file on the local machines that you want to install the Help content on.
 
-## See also
+## Related content
 
 - [Command-line arguments for the Help Content Manager](../help-viewer/command-line-arguments.md)
 - [Override Help Viewer defaults](../help-viewer/behavior-overrides.md)

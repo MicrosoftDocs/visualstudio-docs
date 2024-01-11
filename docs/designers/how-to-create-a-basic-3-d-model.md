@@ -6,7 +6,7 @@ ms.topic: how-to
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-designers
+ms.subservice: ui-designers
 ---
 # Create a basic 3D model
 
@@ -67,7 +67,7 @@ Before you begin, make sure that the **Properties** window and **Toolbox** are d
 
    As a next step, you can apply a shader to this 3D model. For information, see [How to: Apply a shader to a 3D model](../designers/how-to-apply-a-shader-to-a-3-d-model.md).
 
-## See also
+## Related content
 
 - [How to: Model 3D terrain](../designers/how-to-model-3-d-terrain.md)
 - [Model editor](../designers/model-editor.md)

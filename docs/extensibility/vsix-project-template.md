@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # VSIX project template
 
@@ -77,7 +77,7 @@ You can package an existing extension, or an extension that does not already hav
 
     Visual Studio builds a *.vsix* file that contains a VSIX manifest file, a [Content_Types]*.xml* file, and all of the extension assets that you added to the project.
 
-## See also
+## Related content
 
 - [VSIX extension schema 2.0 reference](../extensibility/vsix-extension-schema-2-0-reference.md)
 - [Find and use Visual Studio extensions](../ide/finding-and-using-visual-studio-extensions.md)

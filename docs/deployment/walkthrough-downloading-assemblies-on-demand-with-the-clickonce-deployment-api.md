@@ -14,7 +14,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Walkthrough: Download assemblies on demand with the ClickOnce deployment API
 
@@ -137,5 +137,5 @@ By default, all of the assemblies included in a ClickOnce application are downlo
 
 3. When your main form appears, press the <xref:System.Windows.Forms.Button>. You should see a string in a message box window that reads "Hello, World!".
 
-## See also
+## Related content
 - <xref:System.Deployment.Application.ApplicationDeployment>

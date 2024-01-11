@@ -5,7 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 06/24/2022
-ms.technology: vs-ide-install
+ms.subservice: install
 ms.topic: how-to
 ---
 # Install a preview version of Visual Studio for Mac

@@ -14,7 +14,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Include a data file in a ClickOnce application
 
@@ -79,5 +79,5 @@ Each ClickOnce application you install is assigned a data directory on the desti
 
      You must re-sign your deployment manifest because its hash of the application manifest has changed.
 
-## See also
+## Related content
 - [Access local and remote data in ClickOnce applications](../deployment/accessing-local-and-remote-data-in-clickonce-applications.md)

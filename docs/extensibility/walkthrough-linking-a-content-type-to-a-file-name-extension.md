@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Walkthrough: Link a content type to a file name extension
 
@@ -93,5 +93,5 @@ You can define your own content type and link a file name extension to it by usi
     [ContentType("hid")]
     ```
 
-## See also
+## Related content
 - [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)

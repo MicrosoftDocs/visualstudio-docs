@@ -14,7 +14,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Set a custom log file location for ClickOnce deployment errors
 
@@ -41,5 +41,5 @@ ClickOnce maintains activation log files for all deployments. These logs documen
 
      This location must be in a directory to which the user has write access. For example, on Windows Vista, create the following folder structure and set `LogFilePath` to *C:\Users\\\<username>\Documents\Logs\ClickOnce\installation.log*.
 
-## See also
+## Related content
 - [Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)

@@ -14,7 +14,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Change the publish language for a ClickOnce application
 
@@ -41,7 +41,7 @@ The `Publish language` property can be set in the **Publish Options** dialog box
 
 5. In the **Publish Options** dialog box, select a language and culture from the **Publish language** drop-down list, and then click **OK**.
 
-## See also
+## Related content
 
 - [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
 - [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)

@@ -11,7 +11,7 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Walkthrough: Display text in a text box in a document using a button
 

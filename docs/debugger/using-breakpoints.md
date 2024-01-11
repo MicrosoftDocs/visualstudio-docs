@@ -30,7 +30,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Use breakpoints in the Visual Studio debugger
 
@@ -411,7 +411,7 @@ To visually trace breakpoints during code execution, see [Map methods on the cal
 
 2. In the **Disassembly** window, click in the left margin of the instruction you want to break at. You can also select it and press **F9**, or right-click and select **Breakpoint** > **Insert Breakpoint**.
 
-## See also
+## Related content
 
 - [What is debugging?](../debugger/what-is-debugging.md)
 - [Write better C# code using Visual Studio](../debugger/write-better-code-with-visual-studio.md)

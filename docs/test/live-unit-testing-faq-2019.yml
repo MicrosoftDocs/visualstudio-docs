@@ -10,7 +10,7 @@ metadata:
   ms.author: mikejo
   ms.workload:
   - dotnet
-  ms.technology: vs-ide-test
+  ms.subservice: test-tools
   monikerRange: 'vs-2019'
 title: Live Unit Testing frequently asked questions
 summary: |

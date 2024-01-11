@@ -11,7 +11,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # User permissions and Visual Studio
 
@@ -89,4 +89,4 @@ You can also modify the application shortcut to always run with administrative p
 ## Related content
 
 - [Install Visual Studio](../install/install-visual-studio.md)
-- [Port, migrate, and upgrade Visual Studio projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md)
+- [Port, migrate, and upgrade Visual Studio projects](/visualstudio/releases/2022/port-migrate-and-upgrade-visual-studio-projects)

@@ -6,7 +6,7 @@ ms.topic: how-to
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Troubleshooting template installation
 
@@ -44,7 +44,7 @@ The log file contains the following columns:
 > [!NOTE]
 > To disable logging, either remove the pkgdef file, or change the value of `EnableTemplateDiscoveryLog` to `dword:00000000`, and then run `devenv /updateConfiguration` again.
 
-## See also
+## Related content
 
 - [Creating custom project and item templates](creating-custom-project-and-item-templates.md)
 - [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

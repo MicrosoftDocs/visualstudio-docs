@@ -6,7 +6,7 @@ ms.topic: how-to
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-designers
+ms.subservice: ui-designers
 ---
 # Export rich texture formats by using the Image Content Pipeline in Visual Studio 
 
@@ -127,6 +127,6 @@ Textures that are used in the context of Direct2D must conform to these Direct2D
 
    When you build the project, the Image Content Pipeline converts the source image from the working format to the output format that you specified—conversion includes generation of premultiplied alpha—and the result is copied to the project's output directory.
 
-## Next steps
+## Related content
 
 Visit the [Work with textures and images](working-with-textures-and-images.md) to learn more about how to use the Image Editor in Visual Studio to create or modify textures and images that are used in DirectX app development.

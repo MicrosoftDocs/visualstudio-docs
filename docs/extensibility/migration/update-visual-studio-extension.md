@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 monikerRange: "vs-2022"
 feedback_system: GitHub
 ---
@@ -339,6 +339,6 @@ This code will prevent package references from importing the old version of the 
 
 **A**: [Step 2.4](samples.md#step-2---refactor-source-code-into-a-shared-project) of the Image Optimizer sample shows how to add VSCT files as linked items so that they're compiled into your VSCT file.
 
-## Next steps
+## Related content
 
 Follow a step-by-step example, [ImageOptimizer](samples.md), with links to the project and code changes for each step.

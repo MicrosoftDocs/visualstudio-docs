@@ -6,7 +6,7 @@ ms.topic: how-to
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-designers
+ms.subservice: ui-designers
 ---
 # Create Shaders with Shader Designer in Visual Studio
 
@@ -225,7 +225,7 @@ For more information about how to apply a shader to a 3D model, see [How to: App
 
 
 
-## Next steps
+## Related content
 - [How to: Apply a shader to a 3D model](../designers/how-to-apply-a-shader-to-a-3-d-model.md)
 - [How to: Export a shader](../designers/how-to-export-a-shader.md)
 - [Shader Designer nodes](../designers/shader-designer-nodes.md)

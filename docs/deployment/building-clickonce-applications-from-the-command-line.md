@@ -14,7 +14,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Build ClickOnce applications from the command line
 
@@ -192,7 +192,7 @@ The following table shows the four URL options for ClickOnce deployment.
 | `SupportURL` | Optional. Set this URL option if the support site is different than the `PublishURL`. For example, you could set the `SupportURL` to your company's customer support web site. |
 | `UpdateURL` | Optional. Set this URL option if the update location is different than the `InstallURL`. For example, you could set the `PublishURL` to an FTP path and set the `UpdateURL` to a web URL. |
 
-## See also
+## Related content
 
 - <xref:Microsoft.Build.Tasks.GenerateBootstrapper>
 - <xref:Microsoft.Build.Tasks.GenerateApplicationManifest>

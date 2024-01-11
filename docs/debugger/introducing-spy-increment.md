@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Introducing Spy++
 
@@ -47,7 +47,7 @@ Spy++ lets you perform the following tasks:
 > [!NOTE]
 > Although the Spy++ (64-bit) file name contains "amd", it runs on any x64 Windows operating system.
 
-## See also
+## Related content
 
 - [How to: Start Spy++](../debugger/how-to-start-spy-increment.md)
 - [Using Spy++](../debugger/using-spy-increment.md)

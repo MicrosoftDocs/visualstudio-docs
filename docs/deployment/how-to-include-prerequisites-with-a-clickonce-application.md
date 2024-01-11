@@ -6,7 +6,7 @@ ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Include prerequisites with a ClickOnce application
 
@@ -47,5 +47,5 @@ Before you can distribute prerequisite software with a ClickOnce application, yo
 
     You can now distribute the installer package with your application.
 
-## See also
+## Related content
 - [How to: Install prerequisites with a ClickOnce application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)

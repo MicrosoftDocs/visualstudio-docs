@@ -21,7 +21,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Use the Memory windows in the Visual Studio debugger (C#, C++, Visual Basic, F#)
 
@@ -117,6 +117,6 @@ If you want to view contents of a .NET object based on a memory pointer, such as
 
 To get the memory pointer address from a heap snapshot, open the heap dump, choose **Debug Managed Memory**, which opens the [Memory Usage](../profiling/memory-usage.md) tool. Right-click the object you're interested in, and choose **View instances**.
 
-## See also
+## Related content
 
 - [View data in the debugger](../debugger/viewing-data-in-the-debugger.md)

@@ -16,7 +16,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 ---
 # Use Coded UI tests to test your code
 

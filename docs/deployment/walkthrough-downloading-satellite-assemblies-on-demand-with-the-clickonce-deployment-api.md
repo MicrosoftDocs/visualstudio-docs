@@ -19,7 +19,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Walkthrough: Download satellite assemblies on demand with the ClickOnce deployment API
 
@@ -66,5 +66,5 @@ Windows Forms applications can be configured for multiple cultures through the u
 ## Next steps
  In a production environment, you will likely need to remove the line in the code example that sets <xref:System.Threading.Thread.CurrentUICulture%2A> to a specific value, because client machines will have the correct value set by default. When your application runs on a Japanese client machine, for example, <xref:System.Threading.Thread.CurrentUICulture%2A> will be `ja-JP` by default. Setting this value programmatically is a good way to test your satellite assemblies before you deploy your application.
 
-## See also
+## Related content
 - [Localize ClickOnce applications](../deployment/localizing-clickonce-applications.md)

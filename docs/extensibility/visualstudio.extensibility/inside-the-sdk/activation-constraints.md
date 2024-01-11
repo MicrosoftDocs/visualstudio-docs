@@ -7,7 +7,7 @@ ms.author: maiak
 monikerRange: ">=vs-2022"
 author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 
 # Rule-based activation constraints
@@ -92,6 +92,6 @@ Activation rules can also utilize the [client context](extension-anatomy.md#clie
 
 Currently, the client context is limited to a [small set of values](/dotnet/api/microsoft.visualstudio.extensibility.clientcontextkey.shell#properties) in IDE state.
 
-## Next steps
+## Related content
 
-Learn more about VisualStudio.Extensibility by reading [Components of a VisualStudio.Extensibility extension](./extension-anatomy.md).
+- [Components of a VisualStudio.Extensibility extension](./extension-anatomy.md).

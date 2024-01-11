@@ -5,7 +5,7 @@ ms.date: 10/17/2022
 ms.topic: reference
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Use the MSTest framework in unit tests

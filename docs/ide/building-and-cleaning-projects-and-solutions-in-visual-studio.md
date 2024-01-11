@@ -2,7 +2,7 @@
 title: Build and clean projects and solutions
 description: Build, rebuild, or clean some of your projects or project items, or all of your projects, in your Visual Studio project solution.
 ms.date: 10/17/2023
-ms.technology: vs-ide-compile
+ms.subservice: compile-build
 ms.topic: conceptual
 f1_keywords:
 - VS.BuildProjectPicker

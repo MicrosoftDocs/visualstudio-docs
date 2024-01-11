@@ -7,7 +7,7 @@ ms.author: maiak
 monikerRange: ">=vs-2022"
 author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 
 # Introduction to VisualStudio.Extensibility for VSSDK users
@@ -43,7 +43,7 @@ The VisualStudio.Extensibility model is primarily built on top of RPC contracts 
 
 Extensibility packages that are provided as part of the SDK consist of base classes, utility methods, and wrapper objects around these RPC contracts, with the goal of making the extensibility surface area easier to use and  discover. Our goal is to make it easier for extension authors to quickly contribute to the Visual Studio ecosystem.
 
-## Next steps
+## Related content
 
 To learn more, please check out these docs and walkthroughs to get you started:
 

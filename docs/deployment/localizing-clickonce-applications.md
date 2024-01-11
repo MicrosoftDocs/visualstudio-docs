@@ -19,7 +19,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Localize ClickOnce applications
 
@@ -77,7 +77,7 @@ Localization is the process of making your application appropriate for a specifi
 
 - You can set the <xref:System.Threading.Thread.CurrentUICulture%2A> property programmatically in your application. (This property must be set before you call the <xref:System.Windows.Forms.Application.Run%2A> method.)
 
-## See also
+## Related content
 - [\<assemblyIdentity> element](../deployment/assemblyidentity-element-clickonce-deployment.md)
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
 - [Globalize Windows forms](/dotnet/framework/winforms/advanced/globalizing-windows-forms)

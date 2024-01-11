@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 monikerRange: '>= vs-2022'
 ---
 # Access ClickOnce activation data for .NET on Windows
@@ -54,6 +54,6 @@ Previously, for .NET Framework apps, you would read this data using the followin
 string value = AppDomain.CurrentDomain?.SetupInformation?.ActivationArguments?.ActivationData?[0];
 ```
 
-## See also
+## Related content
 
 [ClickOnce for .NET on Windows](../deployment/clickonce-deployment-dotnet.md)

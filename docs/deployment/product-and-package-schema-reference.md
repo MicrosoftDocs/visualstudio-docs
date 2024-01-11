@@ -23,7 +23,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Product and package schema reference
 
@@ -152,6 +152,6 @@ A *product file* is an XML manifest that describes all of the external dependenc
 </Product>
 ```
 
-## See also
+## Related content
 - [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)
 - [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)

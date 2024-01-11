@@ -6,7 +6,7 @@ ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # View events with IntelliTrace in Visual Studio Enterprise (C#, Visual Basic)
 
@@ -77,7 +77,7 @@ You can try debugging with just IntelliTrace events. IntelliTrace events are deb
 
 4. If you didn't find the bug, try examining other events leading up to the bug. You can also have IntelliTrace record call information so you can step through function calls.
 
-## Next Steps
+## Related content
 
 You can use some of the advanced features of IntelliTrace with historical debugging:
 

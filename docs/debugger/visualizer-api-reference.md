@@ -15,7 +15,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Visualizer API Reference
 
@@ -43,7 +43,7 @@ The Visualizer APIs are provided for users who want to write a visualizer for th
 
 - <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSourceException?displayProperty=fullName>
 
-## See also
+## Related content
 
 - [Walkthrough: Writing a Visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md)
 - [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)

@@ -6,8 +6,8 @@ ms.topic: ui-reference
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
+
+ms.subservice: general-ide
 ---
 
 # Git Changes window with no active repo set

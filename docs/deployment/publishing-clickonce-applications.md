@@ -18,7 +18,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Publish ClickOnce applications
 
@@ -97,6 +97,6 @@ When publishing a ClickOnce application for the first time, publish properties c
 |[Walkthrough: Create a custom installer for a ClickOnce application](../deployment/walkthrough-creating-a-custom-installer-for-a-clickonce-application.md)|Explains how to create a custom installer to install a ClickOnce application.|
 |[How to: Publish a WPF application with visual styles enabled](../deployment/how-to-publish-a-wpf-application-with-visual-styles-enabled.md)|Provides step-by-step instructions to resolve an error that appears when you attempt to publish a WPF application that has visual styles enabled.|
 
-## See also
+## Related content
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
 - [ClickOnce reference](../deployment/clickonce-reference.md)

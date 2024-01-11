@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Supply undo support to designers
 
@@ -94,7 +94,7 @@ Designers implementing a <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine
 
 - The designer chooses to explicitly create undo units using either the standard undo unit provided by an implementation of <xref:System.ComponentModel.Design.UndoEngine.UndoUnit> or the Visual Studio-specific implementation <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine.UndoUnit>, which derives from <xref:System.ComponentModel.Design.UndoEngine.UndoUnit> and also provides an implementation of both <xref:Microsoft.VisualStudio.OLE.Interop.IOleUndoUnit> and <xref:Microsoft.VisualStudio.OLE.Interop.IOleParentUndoUnit>.
 
-## See also
+## Related content
 
 - <xref:System.ComponentModel.Design.UndoEngine>
 - <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine>

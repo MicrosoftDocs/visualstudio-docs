@@ -17,7 +17,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Manage updates for a ClickOnce application
 
@@ -106,7 +106,7 @@ ClickOnce applications can check for updates automatically or programmatically. 
 
 7. Build your application.
 
-## See also
+## Related content
 - <xref:System.Deployment.Application.ApplicationDeployment>
 - [Application updates dialog box](/previous-versions/visualstudio/visual-studio-2010/axw1fa38(v=vs.100))
 - [Choose a ClickOnce update strategy](../deployment/choosing-a-clickonce-update-strategy.md)

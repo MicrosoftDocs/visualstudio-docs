@@ -6,7 +6,7 @@ ms.topic: how-to
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-designers
+ms.subservice: ui-designers
 ---
 # Apply a shader to a 3D model
 
@@ -30,7 +30,7 @@ Here's a model that has the basic color effect applied to it:
 
 After you apply a shader to a model, you can open it in the Shader Designer by selecting the model, and then in the **Properties** window, in the **(Advanced)** property of the **Effect** property group, choosing the ellipsis (**...**) button.
 
-## See also
+## Related content
 
 - [How to: Create a basic 3D model](../designers/how-to-create-a-basic-3-d-model.md)
 - [How to: Create a basic color shader](../designers/how-to-create-a-basic-color-shader.md)

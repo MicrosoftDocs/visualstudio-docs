@@ -5,7 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 03/01/2022
-ms.technology: vs-ide-general
+ms.subservice: ide
 ms.topic: how-to
 ---
 # Getting started building games with Unity in Visual Studio for Mac

@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Prepare extensions for Windows Installer deployment
 
@@ -49,6 +49,6 @@ You cannot use a Windows Installer package (MSI) to deploy a VSIX package. Howev
 
 5. Add the remaining files to your Setup project.
 
-## See also
+## Related content
 - [Visual Studio installer deployment](/previous-versions/2kt85ked(v=vs.120))
 - [Walkthrough: Create a custom action](/previous-versions/visualstudio/visual-studio-2010/d9k65z2d(v=vs.100))

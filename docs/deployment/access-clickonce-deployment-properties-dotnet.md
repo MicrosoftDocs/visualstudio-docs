@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 monikerRange: '>= vs-2022'
 ---
 # Access ClickOnce deployment properties for .NET on Windows
@@ -80,6 +80,6 @@ Starting in .NET 7, **dotnet-mage** supports a new switch, `-TrustURLParameters`
 
 You need to set `trustURLParameters` to true to allow the application to access the `ActivationUri` and URL parameters.
 
-## See also
+## Related content
 
 [ClickOnce for .NET on Windows](../deployment/clickonce-deployment-dotnet.md)

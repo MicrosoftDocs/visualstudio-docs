@@ -1,6 +1,11 @@
 {
   "redirections": [
-    
+    {
+
+      "source_path": "docs/azure/vs-active-directory-error.md",
+      "redirect_url": "/visualstudio/azure/vs-active-directory-add-connected-service",
+      "redirect_document_id": "false"
+    },
     {
       "source_path": "docs/data-tools/add-validation-to-an-n-tier-dataset.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/data-tools/add-validation-to-an-n-tier-dataset?view=vs-2017",
@@ -1900,6 +1905,22 @@
     {
       "source_path": "docs/install/visual-studio-build-numbers-and-release-dates.md",
       "redirect_url": "/visualstudio/releases/2019/history#release-dates-and-build-numbers",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2019"
+    ]
+    },
+    {
+      "source_path": "docs/porting/port-migrate-and-upgrade-visual-studio-projects.md",
+      "redirect_url": "/visualstudio/releases/2022/port-migrate-and-upgrade-visual-studio-projects",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2022"
+    ]
+    },
+    {
+      "source_path": "docs/porting/port-migrate-and-upgrade-visual-studio-projects.md",
+      "redirect_url": "/visualstudio/releases/2019/port-migrate-and-upgrade-visual-studio-projects",
       "redirect_document_id": false,
       "monikers": [
         "vs-2019"

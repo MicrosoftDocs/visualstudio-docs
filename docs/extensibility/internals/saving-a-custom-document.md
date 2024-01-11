@@ -10,7 +10,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Saving a Custom Document
 
@@ -37,6 +37,6 @@ Save, Save As, and Save All command handling for a custom editor
     > [!NOTE]
     > If you implement your own persistence, be sure to call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QuerySaveFiles%2A> method to save time. This method checks to make sure that it is safe to save the file (for example, the file is not read-only).
 
-## See also
+## Related content
 - <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>
 - [Opening and Saving Project Items](../../extensibility/internals/opening-and-saving-project-items.md)

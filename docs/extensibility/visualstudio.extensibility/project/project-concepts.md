@@ -4,7 +4,7 @@ description: Learn how to use the project query API to get and change properties
 author: Jxwoon
 ms.author: jasminewoon
 monikerRange: ">=vs-2022"
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ms.topic: conceptual
 ms.date: 02/13/2023
 ---
@@ -122,7 +122,7 @@ Actions in your project query determine what modifications are made to the proje
 |UnloadProject| Represents the operation to unload a project.
 |WaitIntellisenseReady| Represents the operation to wait project or solution intellisense operation progress to be ready.
 
-## Next steps
+## Related content
 
 To see some examples of project queries for common tasks, see the [Project Query Overview](./project.md)
 

@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Walkthrough: Use a shell command with an editor extension
 
@@ -695,5 +695,5 @@ From a VSPackage, you can add features such as menu commands to the editor. This
 
      Fourscore...
 
-## See also
+## Related content
 - [Walkthrough: Link a content type to a file name extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)
