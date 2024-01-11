@@ -12,6 +12,7 @@ ms.author: mikejo
 manager: jmartens
 ms.subservice: general-ide
 ---
+
 # Code snippet functions
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]

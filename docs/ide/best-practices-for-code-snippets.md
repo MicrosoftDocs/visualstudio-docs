@@ -1,4 +1,3 @@
-
 ---
 title: Best Practices for Using Code Snippets
 description: Learn about code snippets, what the intent of a code snippet is, and how best to use them to suit your application. 
@@ -12,6 +11,7 @@ ms.author: mikejo
 manager: jmartens
 ms.subservice: general-ide
 ---
+
 # Best practices for using code snippets
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
