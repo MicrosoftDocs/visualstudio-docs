@@ -3,7 +3,7 @@ title: "Customize Project Files Created by VSTU"
 description: Learn to customize project files created by Visual Studio Tools for Unity (VSTU). Review a C# code example.
 ms.date: "04/19/2021"
 ms.subservice: unity-tools
-ms.prod: visual-studio
+ms.service: visual-studio
 ms.topic: "conceptual"
 author: "conceptdev"
 ms.author: "crdun"

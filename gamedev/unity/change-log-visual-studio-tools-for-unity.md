@@ -3,7 +3,7 @@ title: "Change Log (Visual Studio Tools for Unity, Windows)"
 description: View the change log for Visual Studio Tools for Unity, Windows. See changes from version 1.0.0.0 through 4.7.0.0 and beyond.
 ms.date: "6/14/2023"
 ms.subservice: unity-tools
-ms.prod: visual-studio
+ms.service: visual-studio
 ms.topic: "conceptual"
 author: therealjohn
 ms.author: johmil

@@ -11,7 +11,7 @@ metadata:
   ms.date: 08/05/2020
   ms.topic: hub-page
   ms.subservice: unity-tools
-  ms.prod: visual-studio
+  ms.service: visual-studio
 highlightedContent:
   items:
     - title: Game development with Visual Studio
