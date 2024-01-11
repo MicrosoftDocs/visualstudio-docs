@@ -1,6 +1,6 @@
 ---
 title: What is Bridge to Kubernetes?
-ms.technology: bridge
+ms.subservice: bridge
 ms.date: 10/17/2023
 ms.topic: overview
 description: Explore the processes for using Bridge to Kubernetes to connect your development computer to your Kubernetes cluster, including diagnostics and logging.

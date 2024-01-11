@@ -3,7 +3,7 @@ ms.topic: quickstart
 ms.author: ghogen
 author: ghogen
 manager: jmartens
-ms.technology: bridge
+ms.subservice: bridge
 title: Sample app for Bridge to Kubernetes to run locally
 ms.date: 08/11/2022
 description: Try a sample application that uses Bridge to Kubernetes to develop, debug, and test a Kubernetes application locally in Visual Studio Code.

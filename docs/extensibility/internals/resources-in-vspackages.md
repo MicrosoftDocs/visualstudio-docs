@@ -84,6 +84,6 @@ Visual Studio delays loading of VSPackages whenever possible. A consequence of e
 
 When Visual Studio requests a resource from a VSPackage after Setup, that package is likely to be already loaded and initialized, so the performance loss is minimal.
 
-## See also
+## Related content
 - [Managing VSPackages](../../extensibility/managing-vspackages.md)
 - [Localized Resources in MFC Applications: Satellite DLLs](/cpp/build/localized-resources-in-mfc-applications-satellite-dlls)
