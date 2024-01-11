@@ -206,4 +206,4 @@ This example shows how to use the `SimpleTypeName` function. When this snippet i
 
 - [Code snippets](../ide/code-snippets.md)
 - [Template parameters](../ide/template-parameters.md)
-- [How to: Use surround-with code snippets](../ide/how-to-use-surround-with-code-snippets.md)
+- [Expansion snippets and surround-with snippets](../ide/code-snippets.md#expansion-snippets-and-surround-with-snippets)
