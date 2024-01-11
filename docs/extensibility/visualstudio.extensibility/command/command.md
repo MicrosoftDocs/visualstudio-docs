@@ -45,8 +45,8 @@ The [`CommandConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.co
 
 | Parameter | Type | Required | Description |
 | --------- |----- | -------- | ----------- |
-| [`DisplayName`](/dotnet/api/microsoft.visualstudio.extensibility.commands.icommand.displayname) | String | Yes | The default display name of your command. Surround this string with the '%' character to enable localizing this string. See at [Localize metadata](localize-metadata.md). |
-| [`ToolTipText`](/dotnet/api/microsoft.visualstudio.extensibility.commands.icommand.tooltiptext) | String | No | The text to display as the tooltip when the command is hovered or focused. Surround this string with the '%' character to enable localizing this string. See at [Localize metadata](localize-metadata.md) |
+| [`DisplayName`](/dotnet/api/microsoft.visualstudio.extensibility.commands.placeholdercommand.displayname) | String | Yes | The default display name of your command. Surround this string with the '%' character to enable localizing this string. See at [Localize metadata](localize-metadata.md). |
+| [`ToolTipText`](/dotnet/api/microsoft.visualstudio.extensibility.commands.placeholdercommand.tooltiptext) | String | No | The text to display as the tooltip when the command is hovered or focused. Surround this string with the '%' character to enable localizing this string. See at [Localize metadata](localize-metadata.md) |
 | Flags | CommandFlags | No | Flags to set additional properties on the command. Some options include CanToggle and CanSelect. See at [Command Flags](#command-flags). |
 | Placements | CommandPlacement[] | No | Specifies the existing groups within Visual Studio that the Command will be parented to. See at [Place a command in the IDE](#place-a-command-in-the-ide). Even without a placement, your command will still be available via the Visual Studio Search feature. Commands can also be placed onto [Menus, Toolbars, and Groups](menus-and-toolbars.md) defined in your extension. |
 | Icon | CommandIconConfiguration | No | Commands can be displayed in the UI as either just an Icon, an Icon with text, or just text. This property configures what that icon should be, if any, and how it should be displayed. |
@@ -78,11 +78,11 @@ public class MyCommand : Command
 
 ## Place a command in the IDE
 
-There's a set of well-defined places in Visual Studio where commands can be placed. These placements are defined by the property [`KnownPlacements`](/dotnet/api/microsoft.visualstudio.extensibility.commands.groupplacement.knownplacements) on the class [`CommandPlacement`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandplacement). The current set of `KnownPlacements` is:
+There's a set of well-defined places in Visual Studio where commands can be placed. These placements are defined by the property [`KnownPlacements`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandplacement.knownplacements) on the class [`CommandPlacement`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandplacement). The current set of `KnownPlacements` is:
 
-- [`ToolsMenu`](/dotnet/api/microsoft.visualstudio.extensibility.commands.groupplacement.knownplacements.toolsmenu) - The command will be placed in a group under the top-level "Tools" menu in Visual Studio.
-- [`ViewOtherWindowsMenu`](/dotnet/api/microsoft.visualstudio.extensibility.commands.groupplacement.knownplacements.viewotherwindowsmenu) - The command will be placed in a group under the top-level "View" -> "Other Windows" menu in Visual Studio.
-- [`ExtensionsMenu`](/dotnet/api/microsoft.visualstudio.extensibility.commands.groupplacement.knownplacements.extensionsmenu) - The command will be placed in a group under the top-level "Extensions" menu in Visual Studio.
+- [`ToolsMenu`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandplacement.knownplacements.toolsmenu) - The command will be placed in a group under the top-level "Tools" menu in Visual Studio.
+- [`ViewOtherWindowsMenu`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandplacement.knownplacements.viewotherwindowsmenu) - The command will be placed in a group under the top-level "View" -> "Other Windows" menu in Visual Studio.
+- [`ExtensionsMenu`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandplacement.knownplacements.extensionsmenu) - The command will be placed in a group under the top-level "Extensions" menu in Visual Studio.
 
 Commands can also be placed using the [`CommandPlacement.VsctParent`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandplacement.vsctparent) method by the specifying the [`Guid`](/dotnet/api/microsoft.visualstudio.extensibility.commands.vsctid.guid) and [`Id`](/dotnet/api/microsoft.visualstudio.extensibility.commands.vsctid.id) of group defined via VSCT.
 
