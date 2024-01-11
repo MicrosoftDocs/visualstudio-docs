@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugField::GetContainer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the container of a field.
 
 ## Syntax

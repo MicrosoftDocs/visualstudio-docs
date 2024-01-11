@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # StackFrameTypeEnum
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the stack frame type.
 
 ## Syntax

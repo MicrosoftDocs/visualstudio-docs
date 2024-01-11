@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugEngine2::SetMetric
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method sets a registry value known as a metric.
 
 ## Syntax

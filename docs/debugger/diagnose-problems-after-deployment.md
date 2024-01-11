@@ -10,8 +10,6 @@ ms.subservice: debug-diagnostics
 ---
 # Diagnose problems after deployment using IntelliTrace (C#, Visual Basic)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This article provides recommendations for diagnosing problems after deployment.
 
 ## <a name="TFS2017"></a> Azure DevOps, Visual Studio, and Team Foundation Server 2017

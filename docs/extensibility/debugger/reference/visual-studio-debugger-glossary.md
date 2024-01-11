@@ -13,7 +13,6 @@ ms.subservice: debug-diagnostics
 ---
 # Visual Studio Debugger Glossary
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following are terms used in the Visual Studio Debugging SDK.
 
 ## Terms

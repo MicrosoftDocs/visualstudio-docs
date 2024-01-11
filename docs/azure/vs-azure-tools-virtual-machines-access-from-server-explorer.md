@@ -11,8 +11,6 @@ monikerRange: "<=vs-2019"
 ---
 # Accessing Azure Virtual Machines from Server Explorer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 > [!Important]
 > The Azure node of Server Explorer has been retired in Visual Studio 2022. You can use the Azure Portal or continue to use the Azure node of Server Explorer in previous versions of Visual Studio.
 >

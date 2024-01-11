@@ -14,7 +14,6 @@ ms.subservice: extensibility-integration
 ---
 # SccSetOption Function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function sets options that control the behavior of the source control plug-in.
 
 ## Syntax

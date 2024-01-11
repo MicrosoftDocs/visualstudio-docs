@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaEnumTables::get_Count
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the number of tables.
 
 ## Syntax

@@ -13,7 +13,6 @@ ms.topic: include
 ---
 
 
-
 ## Visual Studio core editor (included with Visual Studio Community 2019)
 
 **ID:** Microsoft.VisualStudio.Workload.CoreEditor

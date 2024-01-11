@@ -16,7 +16,6 @@ ms.subservice: debug-diagnostics
 ---
 # CvCreateMarkerSeries function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates marker series for a given provider.
 
 ## Syntax

@@ -14,8 +14,6 @@ ms.custom: vs-acquisition
 ---
 # Tutorial: Display a message in your matching game WinForms app
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 In this series of four tutorials, you build a matching game, where the player matches pairs of hidden icons.
 
 In this tutorial, you revise your Matching Game to keep matched pairs visible and to display a congratulations message when a player wins.

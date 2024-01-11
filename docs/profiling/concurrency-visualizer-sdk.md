@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # Concurrency Visualizer SDK
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can instrument your source code by using the Concurrency Visualizer SDK to display additional information in the Concurrency Visualizer. You can associate the additional data with phases and events in your code. These additional visualizations are known as *markers*.  For an introductory walkthrough, see [Introducing the Concurrency Visualizer SDK](/archive/blogs/visualizeparallel/introducing-the-concurrency-visualizer-sdk).
 
 ## Properties

@@ -18,7 +18,6 @@ dev_langs:
 ---
 # IDebugBoundBreakpoint2::SetCondition
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets or changes the condition associated with this bound breakpoint.
 
 ## Syntax

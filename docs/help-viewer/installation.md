@@ -13,8 +13,6 @@ ms.subservice: help-viewer
 ---
 # Microsoft Help Viewer installation
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Several products can display Help content in Microsoft Help Viewer, including Visual Studio and SQL Server.
 
 Help Viewer is an optional installation component of Visual Studio. To install it through Visual Studio Installer, follow these steps:

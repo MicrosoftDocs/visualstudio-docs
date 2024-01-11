@@ -15,8 +15,6 @@ ms.subservice: data-tools
 ---
 # Customize how Visual Studio creates captions for data-bound controls in .NET Framework applications
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 When you drag items from the [Data Sources window](add-new-data-sources.md#data-sources-window) onto a designer, a special consideration comes into play: the column names in the caption labels are reformatted into a more readable string when two or more words are found to be concatenated together.

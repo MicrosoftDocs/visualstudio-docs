@@ -21,8 +21,6 @@ ms.subservice: code-analysis
 ---
 # Configure legacy analysis for managed code
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 In Visual Studio, you can choose from a list of code analysis [rule sets](../code-quality/rule-set-reference.md) to apply to a managed code project. By default, the **Microsoft Minimum Recommended Rules** rule set is selected, but you can apply a different rule set if desired. Rule sets can be applied to one or multiple projects in a solution.
 
 > [!NOTE]

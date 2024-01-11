@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugCustomAttributeQuery2::EnumCustomAttributes
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets an enumerator for all custom attributes attached to this field.
 
 ## Syntax

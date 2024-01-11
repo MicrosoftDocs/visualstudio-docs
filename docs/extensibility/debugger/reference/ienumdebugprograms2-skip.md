@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IEnumDebugPrograms2::Skip
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Skips over the specified number of elements.
 
 ## Syntax

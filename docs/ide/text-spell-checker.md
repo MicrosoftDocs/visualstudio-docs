@@ -11,8 +11,6 @@ monikerRange: vs-2022
 ---
 # Learn about the Spell Checker
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Many of the features in Visual Studio are designed to help you write the code you want, from making sure that your code compiles to helping you with code styling. Now, with the **Spell Checker** feature&mdash;introduced in [version 17.5](/visualstudio/releases/2022/release-notes-v17.5)&mdash;Visual Studio can even make sure your spelling is accurate.
 
 :::image type="content" source="media/vs-2022/text-spell-checker.png" alt-text="Screenshot of an example of the Spell Checker in action.":::

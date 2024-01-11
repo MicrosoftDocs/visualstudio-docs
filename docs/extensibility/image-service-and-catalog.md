@@ -10,7 +10,6 @@ ms.subservice: extensibility-integration
 ---
 # Image service and catalog
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This cookbook contains guidance and best practices for adopting the Visual Studio Image Service and Image Catalog introduced in Visual Studio 2015.
 
  The image service introduced in Visual Studio 2015 lets developers get the best images for the device and the user's chosen theme to display the image, including correct theming for the context in which they are displayed. Adopting the image service will help eliminate major pain points related to asset maintenance, HDPI scaling, and theming.

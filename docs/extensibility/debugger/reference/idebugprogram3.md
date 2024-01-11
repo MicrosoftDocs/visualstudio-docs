@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDebugProgram3
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a program that is running in a process and extends [Execute](../../../extensibility/debugger/reference/idebugprogram2-execute.md) by providing thread information.
 
 ## Syntax

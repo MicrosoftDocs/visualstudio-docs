@@ -20,7 +20,6 @@ ms.subservice: debug-diagnostics
 ---
 # CvWriteAlert function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Writes an alert to the Concurrency Visualizer trace file.
 
 ## Syntax

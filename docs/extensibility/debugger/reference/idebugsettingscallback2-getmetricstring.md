@@ -16,7 +16,6 @@ dev_langs:
 ---
 # IDebugSettingsCallback2::GetMetricString
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the value string of the metric given its name.
 
 ## Syntax

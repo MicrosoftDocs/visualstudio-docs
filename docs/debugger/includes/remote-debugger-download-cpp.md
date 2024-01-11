@@ -40,7 +40,6 @@ On the remote device or server that you want to debug on, rather than the Visual
 
 ::: moniker-end
 
-
 You can run the remote debugger by copying *msvsmon.exe* to the remote computer, rather than installing the remote tools. However, the Remote Debugger Configuration Wizard (*rdbgwiz.exe*) is available only when you install the remote tools. You may need to use the wizard for configuration if you want to run the remote debugger as a service. For more information, see [(Optional) Configure the remote debugger as a service](../../debugger/remote-debugging.md#bkmk_configureService).
 
 >[!NOTE]

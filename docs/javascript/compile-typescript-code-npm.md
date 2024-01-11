@@ -12,8 +12,6 @@ dev_langs:
 ---
 # Compile TypeScript code (Node.js)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Use the TypeScript npm package to add TypeScript support to projects based on the JavaScript Project System (JSPS), or *.esproj*. Starting in Visual Studio 2019, it is recommended that you use the npm package instead of the TypeScript SDK. The TypeScript npm package provides greater portability across different platforms and environments.
 
 > [!IMPORTANT]

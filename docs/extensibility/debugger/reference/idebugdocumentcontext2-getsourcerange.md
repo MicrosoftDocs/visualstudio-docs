@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugDocumentContext2::GetSourceRange
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the source code range of this document context.
 
 ## Syntax

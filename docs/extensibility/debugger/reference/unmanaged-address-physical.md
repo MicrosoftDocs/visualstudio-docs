@@ -17,7 +17,6 @@ dev_langs:
 ---
 # UNMANAGED_ADDRESS_PHYSICAL
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This structure represents a physical address.
 
 ## Syntax

@@ -17,7 +17,6 @@ dev_langs:
 ---
 # BP_RES_DATA_FLAGS
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies whether the data breakpoint is being emulated or implemented in hardware.
 
 ## Syntax

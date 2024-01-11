@@ -16,8 +16,6 @@ ms.subservice: installation
 ---
 # Uninstall or remove Visual Studio 
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This page walks you through uninstalling Visual Studio, our integrated suite of productivity tools for developers.
 
 > [!TIP]

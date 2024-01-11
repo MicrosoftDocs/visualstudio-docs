@@ -16,8 +16,6 @@ ms.subservice: general-ide
 ---
 # Walkthrough: Test-first development with the Generate From Usage feature
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This topic demonstrates how to use the [Generate From Usage](../ide/visual-csharp-intellisense.md#generate-from-usage) feature, which supports test-first development.
 
  *Test-first development* is an approach to software design in which you first write unit tests based on product specifications, and then write the source code that is required to make the tests succeed. Visual Studio supports test-first development by generating new types and members in the source code when you first reference them in your test cases, before they are defined.

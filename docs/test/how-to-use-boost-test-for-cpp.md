@@ -9,8 +9,6 @@ manager: markl
 ---
 # Use Boost.Test for C++ in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 In Visual Studio 2017 and later, the Boost.Test test adapter is integrated into the Visual Studio IDE. It's a component of the **Desktop development with C++** workload.
 
 ![Test Adapter for Boost.Test](media/cpp-boost-component.png)

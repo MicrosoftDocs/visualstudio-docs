@@ -12,8 +12,6 @@ ms.subservice: general-ide
 ---
 # Learn about Solution Explorer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 You can use Solution Explorer to manage the projects and files within a solution. This article describes the Solution Explorer user interface (UI) in detail, and how to open Solution Explorer if you inadvertently close it. The article also describes how you can use right-click context menu in Solution Explorer to quickly add new files, folders, and code elements to a project.
 
 ## Open Solution Explorer

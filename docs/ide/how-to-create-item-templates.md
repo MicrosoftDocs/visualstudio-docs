@@ -12,8 +12,6 @@ ms.subservice: general-ide
 ---
 # Create item templates
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This article shows you how to create an item template by using the **Export Template Wizard**. If your template will consist of multiple files, see [How to: Create multi-file item templates](../ide/how-to-create-multi-file-item-templates.md).
 
 ## Add an item template to the Add New Item dialog box

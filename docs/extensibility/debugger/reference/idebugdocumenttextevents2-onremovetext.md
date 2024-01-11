@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugDocumentTextEvents2::onRemoveText
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Notifies the debug package that text has been removed from the document.
 
 ## Syntax

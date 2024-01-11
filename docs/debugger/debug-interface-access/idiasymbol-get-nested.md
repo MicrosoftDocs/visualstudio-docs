@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_nested
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that specifies whether the user-defined data type is nested.
 
 ## Syntax

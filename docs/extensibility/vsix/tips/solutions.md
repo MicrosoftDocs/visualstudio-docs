@@ -11,8 +11,6 @@ ms.subservice: extensibility-integration
 ---
 # Working with solutions in Visual Studio extensions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Here's a collection of small code samples on different ways to work with solutions.
 
 ## Solution events

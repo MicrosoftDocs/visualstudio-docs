@@ -12,8 +12,6 @@ ms.subservice: python
 
 # Step 2: Create a Flask app with views and page templates
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 **Previous step: [Create a Visual Studio project and solution](learn-flask-visual-studio-step-01-project-solution.md)**
 
 In step 1 of this tutorial, you created a Flask app with one page and all the code in a single file. To allow future development, it's best to refactor the code and create a structure for page templates. In particular, you want to separate code for the app's views from other aspects like startup code.

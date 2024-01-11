@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaSectionContrib::get_dataCrc
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the cyclic redundancy check (CRC) of the data in the section.
 
 ## Syntax

@@ -14,7 +14,6 @@ ms.subservice: extensibility-integration
 ---
 # Using Visual Studio Interop Assemblies
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Visual Studio interop assemblies allow managed applications to access the COM interfaces that provide Visual Studio extensibility. There are some differences between straight COM interfaces and their interop versions. For example, HRESULTs are generally represented as int values and need to be handled in the same way as exceptions, and parameters (especially out parameters) are treated differently.
 
 ## Handling HRESULTs Returned to Managed Code from COM

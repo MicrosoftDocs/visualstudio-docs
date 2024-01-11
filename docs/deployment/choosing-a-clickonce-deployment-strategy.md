@@ -17,7 +17,6 @@ ms.subservice: deployment
 ---
 # Choose a ClickOnce deployment strategy
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 There are three different strategies for deploying a ClickOnce application; the strategy that you choose depends primarily on the type of application that you are deploying. The three deployment strategies are as follows:
 
 - Install from the Web or a Network Share

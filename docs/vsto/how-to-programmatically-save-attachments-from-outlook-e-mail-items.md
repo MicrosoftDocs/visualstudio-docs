@@ -19,8 +19,6 @@ ms.subservice: office-development
 ---
 # Programmatically save attachments from Outlook email items
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This example saves e-mail attachments to a specified folder when the mail is received in the inbox.
 
 > [!IMPORTANT]

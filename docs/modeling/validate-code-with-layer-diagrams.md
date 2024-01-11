@@ -22,8 +22,6 @@ ms.subservice: modeling
 ---
 # Validate code with dependency diagrams
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 ## Why use dependency diagrams?
 
 To make sure that code doesn't conflict with its design, validate your code with dependency diagrams in Visual Studio. This can help you:

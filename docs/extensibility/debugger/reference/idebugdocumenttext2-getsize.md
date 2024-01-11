@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugDocumentText2::GetSize
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the size of the text at this position in the document.
 
 ## Syntax

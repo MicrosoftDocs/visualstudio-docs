@@ -12,8 +12,6 @@ ms.subservice: extensibility-integration
 ---
 # Solutions overview
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 A solution is a grouping of one or more projects that work together to create an application. The project and status information pertaining to the solution are stored in two different solution files. The [solution (.sln) file](solution-dot-sln-file.md) is text-based and can be placed under source code control and shared between users. The [solution user option (.suo) file](solution-user-options-dot-suo-file.md) is binary. As a result, the .suo file cannot be placed under source code control and contains user-specific information.
 
 Any VSPackage can write to either type of solution file. Because of the nature of the files, there are two different interfaces implemented to write to them. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps> interface writes text information to the .sln file and the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionOpts> interface writes binary streams to the .suo file.

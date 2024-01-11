@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IEnumDebugThreads2::Next
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the next set of elements from the enumeration.
 
 ## Syntax

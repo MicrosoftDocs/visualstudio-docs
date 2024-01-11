@@ -13,8 +13,6 @@ ms.subservice: workflow-designer
 ---
 # StateMachine Activity Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 The <xref:System.Activities.Statements.StateMachine> activity contains a collection of states and models workflows using the familiar state machine paradigm.
 
 ## Using the StateMachine Activity Designer

@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaStackFrame::get_localsBase
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the base address of the local variables for the frame.
 
 ## Syntax

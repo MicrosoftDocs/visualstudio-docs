@@ -16,7 +16,6 @@ dev_langs:
 ---
 # IDebugGenericParamField::ConstraintCount
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the number of constraints that are associated with this generic parameter.
 
 ## Syntax

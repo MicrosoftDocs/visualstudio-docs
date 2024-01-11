@@ -14,8 +14,6 @@ ms.subservice: general-ide
 ---
 # Create multi-file item templates
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Item templates may only specify one item, but sometimes the item is made up of multiple files. For example, a Windows Forms item template requires the following three files:
 
 - A file that contains the code for the form

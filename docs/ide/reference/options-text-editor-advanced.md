@@ -18,8 +18,6 @@ monikerRange: ">=vs-2019"
 ---
 # Options dialog box: Text Editor \> Advanced
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 You can use the Advanced dialog box to change global settings for the Visual Studio code and text editor. To display the dialog box, select **Tools** from the menu bar, and then select **Options** > **Text Editor** > **Advanced**.
 
 ::: moniker range="vs-2022"

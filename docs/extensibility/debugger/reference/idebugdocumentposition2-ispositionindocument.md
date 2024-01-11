@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugDocumentPosition2::IsPositionInDocument
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if the document position is contained in the given document.
 
 ## Syntax

@@ -15,8 +15,6 @@ manager: jmartens
 ---
 # Options dialog box: Text Editor \> JavaScript/TypeScript \> Linting
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Use the **Linting** page of the **Options** dialog box to set options for analyzing code in the Code Editor (note that you can override these options in some project types, like the [standalone React project templates](../../javascript/tutorial-create-react-app.md)). To access this page, on the menu bar, choose **Tools** > **Options**, and then expand **Text Editor** > **JavaScript/TypeScript** > **Linting**.
 
 ## ESLint Settings

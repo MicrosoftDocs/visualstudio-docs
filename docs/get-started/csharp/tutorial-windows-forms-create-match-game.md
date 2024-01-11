@@ -10,8 +10,6 @@ ms.date: 02/28/2023
 ---
 # Tutorial: Create a matching game WinForms app
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 In this series of four tutorials, you build a matching game, where the player matches pairs of hidden icons.
 
 Use these tutorials to learn about the following tasks in the Visual Studio Integrated Design Environment (IDE).

@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaLineNumber::get_lineNumberEnd
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the one-based source line number where the statement or expression ends.
 
 ## Syntax

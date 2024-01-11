@@ -20,7 +20,6 @@ ms.subservice: sharepoint-development
 ---
 # Deploy, publish, and upgrade SharePoint solution packages
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   After you develop a SharePoint solution in Visual Studio, you can either deploy its package (.wsp) file to a local SharePoint server or publish it to a remote or local SharePoint server. If you deploy the files, you can customize how the package files (.wsp) are deployed.
 
 > [!NOTE]

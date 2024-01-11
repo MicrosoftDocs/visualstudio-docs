@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDebugArrayObject::GetDimensions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the dimensions of the array.
 
 ## Syntax

@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaSourceFile
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Represents a source file.
 
 ## Syntax

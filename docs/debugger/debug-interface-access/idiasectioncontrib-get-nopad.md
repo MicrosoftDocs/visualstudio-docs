@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaSectionContrib::get_nopad
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag indicating whether the section should not be padded to the next memory boundary.
 
 ## Syntax

@@ -56,7 +56,6 @@ What does DevOps mean for teams? DevOps enables formerly siloed roles—developm
 
 As an active Visual Studio subscriber, you can use a range of features in Azure DevOps that are included with your subscription. You can use these same features in each Azure DevOps organization in which you're a member, whether you created the organization or were added by someone else.  [Get started using Azure DevOps](vs-azure-devops.md).
 
-
 ## Resources
 
 [Visual Studio subscriptions support](https://aka.ms/vssubscriberhelp)

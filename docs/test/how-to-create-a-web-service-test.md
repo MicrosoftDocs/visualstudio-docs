@@ -14,8 +14,6 @@ ms.subservice: test-tools
 ---
 # Create a web service test
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 You can use a web performance test to test web services. For the most current documentation, see [How to create a web service test](/previous-versions/visualstudio/visual-studio-2017/test/how-to-create-a-web-service-test).
 
 >[!NOTE]

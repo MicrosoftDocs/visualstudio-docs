@@ -13,7 +13,6 @@ ms.topic: include
 ---
 
 
-
 ## Visual Studio core editor (included with Visual Studio Team Explorer 2019)
 
 **ID:** Microsoft.VisualStudio.Workload.CoreEditor

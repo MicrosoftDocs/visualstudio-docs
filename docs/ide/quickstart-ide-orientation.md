@@ -12,8 +12,6 @@ ms.subservice: general-ide
 ---
 # Tour the Visual Studio IDE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 In this introduction to the Visual Studio integrated development environment (IDE), you take a tour of some of the windows, menus, and other UI features.
 
 To develop any type of app or learn a language, you work in the Visual Studio Integrated Development Environment (IDE). Beyond code editing, Visual Studio IDE brings together graphical designers, compilers, code completion tools, source control, extensions and many more features in one place. 

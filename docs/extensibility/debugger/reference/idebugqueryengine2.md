@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDebugQueryEngine2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface lets the session debug manager (SDM) retrieve an interface that represents the debug engine (DE).
 
 ## Syntax

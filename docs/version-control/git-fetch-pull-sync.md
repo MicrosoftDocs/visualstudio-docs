@@ -11,8 +11,6 @@ ms.subservice: general-ide
 ---
 # Use git fetch, pull, push and sync for version control in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Visual Studio helps you keep your local branch synchronized with your remote branch through download (fetch and pull) and upload (push) operations.
 
 You can fetch, pull, and sync in Visual Studio 2022 by using the **Git** menu.

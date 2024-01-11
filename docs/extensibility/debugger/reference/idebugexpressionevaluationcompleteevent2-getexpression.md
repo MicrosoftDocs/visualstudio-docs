@@ -18,7 +18,6 @@ dev_langs:
 ---
 # IDebugExpressionEvaluationCompleteEvent2::GetExpression
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the original expression.
 
 ## Syntax

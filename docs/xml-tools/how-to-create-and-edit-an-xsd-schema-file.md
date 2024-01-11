@@ -10,8 +10,6 @@ ms.subservice: xml-tools
 ---
 # Create and edit an XSD schema file
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This topic describes how to create a new XML Schema (XSD) file and then add content to the XSD file.
 
 ## To create a new XML Schema file

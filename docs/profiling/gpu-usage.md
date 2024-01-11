@@ -10,7 +10,6 @@ ms.subservice: debug-diagnostics
 ---
 # GPU usage
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 >[!NOTE]
 > Visual Studio Graphics Diagnostics is not supported on ARM64 Visual Studio.
 

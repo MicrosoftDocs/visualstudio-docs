@@ -23,8 +23,6 @@ ms.subservice: general-ide
 ---
 # Create types by using Class Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 To design new types for C# and Visual Basic projects, create them on a class diagram. To see existing types, see [View Existing Types](how-to-view-existing-types.md).
 
 ## <a name="CreateType"></a> Create a new type

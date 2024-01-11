@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugPort2::EnumProcesses
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns a list of all the processes running on a port.
 
 ## Syntax

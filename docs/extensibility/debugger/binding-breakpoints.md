@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # Bind breakpoints
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 If the user sets a breakpoint, perhaps by pressing **F9**, the IDE formulates the request and prompts the debug session to create the breakpoint.
 
 ## Set a breakpoint

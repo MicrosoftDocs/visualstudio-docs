@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_baseDataSlot
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the base data slot.
 
 ## Syntax

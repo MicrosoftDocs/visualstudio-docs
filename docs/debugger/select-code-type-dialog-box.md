@@ -24,8 +24,6 @@ ms.subservice: debug-diagnostics
 ---
 # Select Code Type Dialog Box
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 To open this dialog box, open the **Attach to Process** dialog box, and then click the **Select** button.
 
 **Automatically determine the type of code to debug**

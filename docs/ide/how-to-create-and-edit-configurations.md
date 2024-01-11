@@ -20,8 +20,6 @@ manager: jmartens
 ---
 # Create and edit configurations
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 You can create several build configurations for a solution, in addition to the built-in configurations **Debug** and **Release**. For example, you can create a **Test** configuration for internal testing builds, and you can configure different kinds of builds that you can distribute to different customers.
 
 ## Create build configurations

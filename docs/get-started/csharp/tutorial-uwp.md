@@ -15,8 +15,6 @@ dev_langs:
 ---
 # Tutorial: Create your first Universal Windows Platform application in Visual Studio with XAML and C&#35;
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 > [!NOTE]
 > If you're happy with your current functionality in the Universal Windows Platform (UWP), then there's no need to migrate your project type to Windows App SDK. WinUI 2.x, and the Windows SDK, support UWP project types. If you would like to get started with WinUI 3 and Windows App SDK, then you can follow the steps in the [Windows App SDK tutorial](tutorial-wasdk.md).
 

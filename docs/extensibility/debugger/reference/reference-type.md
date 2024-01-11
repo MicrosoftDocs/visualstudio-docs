@@ -17,7 +17,6 @@ dev_langs:
 ---
 # REFERENCE_TYPE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the reference type.
 
 ## Syntax

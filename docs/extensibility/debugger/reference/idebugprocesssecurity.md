@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDebugProcessSecurity
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 `IDebugProcessSecurity` is implemented by a port supplier to warn the user that attaching to the process is unsafe.
 
 ## Syntax

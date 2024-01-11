@@ -16,8 +16,6 @@ manager: jmartens
 ---
 # Specify build events (C#)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Use build events to specify commands that run before the build starts or after the build finishes.
 
 ## Specify a build event

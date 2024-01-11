@@ -20,7 +20,6 @@ ms.subservice: deployment
 ---
 # Create a package manifest
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To deploy prerequisites for your application, you can use a bootstrapper package. A bootstrapper package contains a single product manifest file but a package manifest for each locale. Shared functionality across different localized versions should go into the product manifest.
 
  For more information about product manifests, see [How to: Create a product manifest](../deployment/how-to-create-a-product-manifest.md).

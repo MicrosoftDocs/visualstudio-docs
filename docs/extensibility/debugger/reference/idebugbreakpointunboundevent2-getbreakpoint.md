@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugBreakpointUnboundEvent2::GetBreakpoint
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the breakpoint that became unbound.
 
 ## Syntax

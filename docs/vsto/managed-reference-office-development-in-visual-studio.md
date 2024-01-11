@@ -17,7 +17,6 @@ ms.subservice: office-development
 ---
 # Managed reference (Office development in Visual Studio)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This section contains API reference documentation for namespaces and types that are used in Office projects that target the .NET Framework 4 or the .NET Framework 4.5. For API reference documentation about the namespaces and types that are used in Office projects that target the .NET Framework 3.5, see the following reference section in the Visual Studio documentation: [Managed reference (Office development in Visual Studio)](managed-reference-office-development-in-visual-studio.md).
 
 [!include[Add-ins note](includes/addinsnote.md)]

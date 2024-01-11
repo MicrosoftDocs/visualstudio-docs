@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaSourceFile::get_checksum
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the checksum bytes.
 
 ## Syntax

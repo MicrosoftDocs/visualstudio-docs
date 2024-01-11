@@ -18,7 +18,6 @@ ms.subservice: general-ide
 ---
 # Command Window
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **Command** window is used to execute commands or aliases directly in the Visual Studio integrated development environment (IDE). You can execute both menu commands and commands that do not appear on any menu. To display the **Command** window, choose **Other Windows** from the **View** menu, and select **Command Window**.
 
 ## Displaying the Values of Variables

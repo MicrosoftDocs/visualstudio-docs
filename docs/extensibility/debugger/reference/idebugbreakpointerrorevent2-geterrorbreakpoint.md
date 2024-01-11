@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugBreakpointErrorEvent2::GetErrorBreakpoint
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets an [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) object that describes the reason why a breakpoint was not bound.
 
 ## Syntax

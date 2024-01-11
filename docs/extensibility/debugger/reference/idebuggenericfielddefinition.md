@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDebugGenericFieldDefinition
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Represents the definition of a field for a managed code generic type.
 
 ## Syntax

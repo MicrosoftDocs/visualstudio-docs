@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaLoadCallback::NotifyOpenPDB
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Called when a candidate .pdb file is opened.
 
 ## Syntax

@@ -15,7 +15,6 @@ ms.subservice: office-development
 ---
 # Walkthrough: Display text in a text box in a document using a button
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This walkthrough demonstrates how to use buttons and text boxes in a document-level customization for Microsoft Office Word.
 
  [!INCLUDE[appliesto_wdalldoc](../vsto/includes/appliesto-wdalldoc-md.md)]

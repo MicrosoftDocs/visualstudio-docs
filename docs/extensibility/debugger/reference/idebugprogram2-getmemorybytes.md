@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProgram2::GetMemoryBytes
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the memory bytes occupied by the program.
 
 ## Syntax

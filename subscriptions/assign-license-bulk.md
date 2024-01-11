@@ -66,7 +66,6 @@ To add large groups of users, you can use the bulk add feature, or if your organ
    0. Since you already have the Excel file saved, you don't need to download the template.  Select **Browse**, locate the file you saved, and select **Open**.
    0. Select **OK**.
 
-
     When the upload is successful, you see the list of subscribers and a confirmation message.
    > [!div class="mx-imgBorder"]
    > ![Confirmation message if the upload of multiple subscribers succeeds](_img/assign-license-bulk/bulk-add-upload-success.png "Screenshot of the Manage subscribers page showing a message confirming the upload was successful.")
@@ -90,7 +89,6 @@ Using this feature makes it easy to stay on top of your subscription assignments
 <a name='watch-this-video-or-read-on-to-learn-more-about-adding-subscribers-using-the-entra-id-group-feature'></a>
 
 ## Watch this video or read on to learn more about adding subscribers using the Microsoft Entra group feature. 
-
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4rvvW]
 
@@ -120,7 +118,6 @@ Using this feature makes it easy to stay on top of your subscription assignments
 > If you've already assigned subscriptions individually to users who are subsequently added as part of a Microsoft Entra group, they will be added as part of the group and will no longer be listed individually. If the individual subscription is for a different subscription level, however, they will have two subscriptions.  Example:  If a user has an individual Visual Studio Professional subscription, and they are a member of a group to which you assign Visual Studio Enterprise subscriptions, they will have both.  
 >
 > If you remove a subscriber from a Microsoft Entra group that has had subscriptions assigned to it, it can take up to 24 hours for the update to be reflected in the admin portal. 
-
 
 ## Frequently asked questions
 

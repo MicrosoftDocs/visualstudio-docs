@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # Control of execution
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The debug engine (DE) typically sends one of the following events as the last startup event:
 
 - The entry point event, if attaching to a newly launched program

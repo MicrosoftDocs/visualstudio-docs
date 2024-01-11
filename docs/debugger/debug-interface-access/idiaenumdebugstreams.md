@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaEnumDebugStreams
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enumerates the various debug streams contained in the data source.
 
 ## Syntax

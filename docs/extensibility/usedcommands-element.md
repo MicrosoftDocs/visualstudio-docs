@@ -15,7 +15,6 @@ ms.subservice: extensibility-integration
 ---
 # UsedCommands Element
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The UsedCommands element groups UsedCommand elements and other UsedCommands groupings.
 
  The UsedCommands element is optional. If you do not call commands defined outside your package, you do not have to include this section in your .vsct file.

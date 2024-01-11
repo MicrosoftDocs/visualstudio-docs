@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProperty2::GetReference
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns a reference to the property's value.
 
 ## Syntax

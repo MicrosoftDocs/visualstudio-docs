@@ -17,8 +17,6 @@ ms.subservice: debug-diagnostics
 ---
 # Using saved IntelliTrace data (C#, Visual Basic, C++)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Go to specific points in your application's execution when you start debugging from an IntelliTrace log (.iTrace) file. This file can contain performance events, exceptions, threads, test steps, modules, and other system info that IntelliTrace records while your app runs.
 
  Make sure that you have:

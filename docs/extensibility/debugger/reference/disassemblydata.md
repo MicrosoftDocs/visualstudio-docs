@@ -17,7 +17,6 @@ dev_langs:
 ---
 # DisassemblyData
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes one disassembly instruction for the integrated development environment (IDE) to display.
 
 ## Syntax

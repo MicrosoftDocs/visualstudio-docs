@@ -10,8 +10,6 @@ ms.subservice: workflow-designer
 ---
 # Add a new item to a workflow project
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 After you've created a workflow project, you can add workflow activities, designers, and other familiar Visual Studio items to your project.
 
 The following table lists the Windows Workflow Foundation (WF) items that you can add to a workflow project:

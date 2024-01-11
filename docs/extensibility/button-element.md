@@ -13,7 +13,6 @@ ms.subservice: extensibility-integration
 ---
 # Button element
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Defines an element that the user can interact with. Buttons can be of different kinds: Button, MenuButton, and SplitDropDown.
 
 ## Syntax

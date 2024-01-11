@@ -13,8 +13,6 @@ dev_langs:
 ---
 # Work with Python in Visual Studio on Windows
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Python is a popular programming language that is reliable, flexible, easy to learn, free to use on all operating systems, and supported by both a strong developer community and many free libraries. Python supports all manners of development, including web applications, web services, desktop apps, scripting, and scientific computing. Scientists, casual developers, professional developers, and many universities alike use Python for programming. You can learn more about the language on [python.org](https://www.python.org) and [Python for Beginners](https://www.python.org/about/gettingstarted/).
 
 Visual Studio is a powerful Python IDE on Windows. Visual Studio provides [open-source](https://github.com/Microsoft/ptvs) support for the Python language through the **Python Development** and **Data Science** workloads (Visual Studio 2017 and later) and the free Python Tools for Visual Studio extension (Visual Studio 2015 and earlier). [Tour the Visual Studio IDE](../ide/quickstart-ide-orientation.md) to familiarize yourself with the IDE features that you'll use to write and edit Python code.

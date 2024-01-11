@@ -19,7 +19,6 @@ ms.subservice: office-development
 ---
 # Programmatically determine the current Outlook item
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example uses the `Explorer.SelectionChange` event to display the name of the current folder and some information about the selected item. The code then displays the selected item.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]

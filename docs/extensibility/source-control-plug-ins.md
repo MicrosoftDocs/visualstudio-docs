@@ -12,7 +12,6 @@ ms.subservice: extensibility-integration
 ---
 # Source Control Plug-ins
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Source Control Plug-in SDK reference section contains the complete interface specification that enables source control systems to be integrated with Visual Studio. It specifies the syntax and semantics of the various functions and data types that the source control plug-in must implement to interface with the Visual Studio integrated development environment (IDE).
 
 ## In This Section

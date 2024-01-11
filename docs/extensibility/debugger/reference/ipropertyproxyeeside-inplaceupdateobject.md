@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IPropertyProxyEESide::InPlaceUpdateObject
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Updates the object's data with the given data object and returns a new data object representing the object's new data.
 
 ## Syntax

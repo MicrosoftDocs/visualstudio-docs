@@ -10,8 +10,6 @@ ms.subservice: xml-tools
 ---
 # Switch between views and the XML editor
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This topic shows how to switch between the XML Schema Designer (XSD Designer) views and the XML editor. This example uses the [Purchase order schema](../xml-tools/sample-xsd-file-simple-schema.md).
 
 ## To switch between the views and the XML editor

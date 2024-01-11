@@ -17,7 +17,6 @@ ms.subservice: deployment
 ---
 # &lt;Package&gt; element (bootstrapper)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The `Package` element is the top-level XML element inside of a package file.
 
 ## Syntax

@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_signature
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the symbol's signature value.
 
 ## Syntax

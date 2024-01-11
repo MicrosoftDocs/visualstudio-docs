@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaEnumSymbols
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enumerates the various symbols contained in the data source.
 
 ## Syntax

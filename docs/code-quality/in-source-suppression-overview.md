@@ -17,8 +17,6 @@ dev_langs:
 ---
 # Suppress code analysis violations
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 It is often useful to indicate that a warning is not applicable. Suppressing code analysis violations indicates team members the code was reviewed, and the warning can be suppressed. The following sections describe the different ways to suppress code analysis violations using the Visual Studio IDE.
 
 ## Suppress violations using the EditorConfig file
@@ -67,7 +65,6 @@ The [global suppression file](#global-level-suppressions) uses the [SuppressMess
 - From the **code editor**, place the cursor in the line of code with the violation and press **Quick actions and refactorings** (or press **Ctrl**+**Period (.)**) to open the **Quick Actions** menu. Select **Suppress CAXXXX**, and then choose **in Suppression File**. You see a preview of the [global suppression file](#global-level-suppressions) that will be created or modified.
 
 - From the **Analyze** menu, select **Analyze** > **Build and Suppress Active Issues** on the menu bar to suppress all current violations. Suppressing all current violations is sometimes referred to as "baselining".
-
 
 ## Suppress violations using project settings
 

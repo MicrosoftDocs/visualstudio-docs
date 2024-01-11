@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_language
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the language of the source.
 
 ## Syntax

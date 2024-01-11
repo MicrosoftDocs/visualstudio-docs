@@ -14,7 +14,6 @@ ms.subservice: installation
 ---
 # Deploy Visual Studio from a layout onto a client machine
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
  
 
 In order to deploy a layout to a client machine, you'll need to consider the following topics first:

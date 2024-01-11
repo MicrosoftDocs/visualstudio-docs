@@ -12,8 +12,6 @@ ms.subservice: workflow-designer
 ---
 # Initialize Correlation Dialog Box
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 The **Initialize Correlation** dialog box is used in Workflow Designer to edit the <xref:System.ServiceModel.Activities.InitializeCorrelation.CorrelationData%2A> property of an <xref:System.ServiceModel.Activities.InitializeCorrelation> activity. For more information, see [InitializeCorrelation](../workflow-designer/initializecorrelation-activity-designer.md).
 
 The following table describes the user interface (UI) elements of the **Initialize Correlation** dialog box:

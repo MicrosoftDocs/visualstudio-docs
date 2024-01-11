@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_count
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the number of items in a list or array.
 
 ## Syntax

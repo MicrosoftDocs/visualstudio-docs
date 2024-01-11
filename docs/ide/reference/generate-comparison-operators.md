@@ -10,8 +10,6 @@ ms.subservice: general-ide
 ---
 # Generate Comparison Operators for types that implement IComparable
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This code generation applies to:
 
 - C#

@@ -13,7 +13,6 @@ ms.subservice: extensibility-integration
 ---
 # Add project and project item templates
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When you create your own project types, you must provide support for adding new projects and project items by using the standard Visual Studio integrated development environment (IDE) dialog boxes. The following topics discuss different techniques for adding projects and project items.
 
 ## In this section

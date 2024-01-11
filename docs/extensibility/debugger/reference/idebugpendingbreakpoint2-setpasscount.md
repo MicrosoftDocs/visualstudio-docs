@@ -18,7 +18,6 @@ dev_langs:
 ---
 # IDebugPendingBreakpoint2::SetPassCount
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets or changes the pass count associated with the pending breakpoint.
 
 ## Syntax

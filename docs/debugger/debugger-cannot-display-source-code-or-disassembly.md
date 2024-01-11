@@ -17,7 +17,6 @@ ms.subservice: debug-diagnostics
 ---
 # Debugger Cannot Display Source Code or Disassembly
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This error reads:
 
  The debugger cannot display source code or disassembly for the current location where execution has stopped.

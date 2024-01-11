@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # Event descriptions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Each type of event has a specific purpose.
 
 ## Events and the reasons for their use

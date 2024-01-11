@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaDataSource
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Initiates access to a source of debugging symbols.
 
 ## Syntax

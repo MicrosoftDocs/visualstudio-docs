@@ -13,8 +13,6 @@ ms.subservice: extensibility-integration
 ---
 # Brokered service essentials
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 A brokered service is a service acquired via an <xref:Microsoft.ServiceHub.Framework.IServiceBroker>,
 and is exposed as an RPC-compatible interface to enable the service and its client to exist in distinct AppDomains, processes or even across machines (in the case of Live Share).
 The brokered service may be proffered from the main Visual Studio process or some of its auxiliary processes, and may be consumed by any of these processes by a Visual Studio extension.

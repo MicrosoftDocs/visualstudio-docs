@@ -30,7 +30,6 @@ If you do decide not to log in straight away, you'll be able to use an evaluatio
 
 To sign in to Visual Studio for Mac on first launch, follow these steps:
 
-
 ::: moniker range="vsmac-2022"
 
 1. Select the **Sign in with Microsoft** button on the sign-in dialog:
@@ -62,7 +61,6 @@ To sign in to Visual Studio for Mac on first launch, follow these steps:
 Visual Studio for Mac supports adding multiple accounts to your personalization account. These accounts will allow you to access resources, such as Azure, from any added account.
 
 To add additional user accounts, choose the **Visual Studio > Account...** menu from Visual Studio for Mac. Select the **Add...** button to enter additional account credentials.
-
 
 ::: moniker range="vsmac-2022"
 

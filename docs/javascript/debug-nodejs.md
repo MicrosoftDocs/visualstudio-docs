@@ -13,8 +13,6 @@ dev_langs:
 ---
 # Debug a JavaScript or TypeScript app in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 You can debug JavaScript and TypeScript code using Visual Studio. You can hit breakpoints, attach the debugger, inspect variables, view the call stack, and use other debugging features.
 
 > [!TIP]

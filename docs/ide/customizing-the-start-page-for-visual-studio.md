@@ -16,8 +16,6 @@ ms.subservice: general-ide
 ---
 # Customize startup
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 You can customize the startup experience for Visual Studio in several different ways, such as opening your most recent solution or just an empty development environment.
 
 ## To change the startup item

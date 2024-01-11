@@ -31,8 +31,6 @@ ms.subservice: debug-diagnostics
 ---
 # Create a visual map of the call stack while debugging (C#, Visual Basic, C++, JavaScript)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Create a code map to visually trace the call stack while you're debugging. You can make notes on the map to track what the code is doing, so you can focus on finding bugs.
 
 For details of commands and actions you can use with code maps, see [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md).

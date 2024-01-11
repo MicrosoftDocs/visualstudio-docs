@@ -17,7 +17,6 @@ dev_langs:
 ---
 # EVALFLAGS
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies flags that control expression evaluation.
 
 ## Syntax

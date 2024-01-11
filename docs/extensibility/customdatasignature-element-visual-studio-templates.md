@@ -13,7 +13,6 @@ manager: jmartens
 ---
 # CustomDataSignature element (Visual Studio templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the text signature to locate the custom data.
 
  \<VSTemplate>

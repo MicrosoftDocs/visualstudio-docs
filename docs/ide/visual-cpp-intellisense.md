@@ -9,8 +9,6 @@ manager: markl
 ---
 # Visual C++ IntelliSense features
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 IntelliSense is a name given to a set of features that make coding more convenient. IntelliSense for C++ is available for stand-alone files as well as for files that are part of a C++ project. In cross-platform projects, some IntelliSense features are available in *.cpp* and *.c* files in the shared code project, even when you are in an Android or iOS context.
 
 This article provides an overview of C++ IntelliSense features. For information on how to configure your project for IntelliSense and how to troubleshoot problems, see [Configure a C++ project for IntelliSense](visual-cpp-intellisense-configuration.md).

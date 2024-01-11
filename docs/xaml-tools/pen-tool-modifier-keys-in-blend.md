@@ -11,8 +11,6 @@ ms.subservice: xaml-tools
 ---
 # Pen tool modifier keys in Blend for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 The following table lists shortcuts that you can use to modify a path while you are creating it with the **Pen** tool ![Pen tool](../designers/media/d514358f-185a-412f-a55d-36633b25dc8a.png). You can also use the **Pen** tool to add or remove points on an existing path, or to join two existing paths.
 
 |To do this action|Do this|Pointer|

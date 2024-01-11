@@ -12,8 +12,6 @@ ms.subservice: xml-tools
 ---
 # XML Schemas dialog box
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 The **XML Schemas** dialog box is used to select which XML schema definition language (XSD) schema(s) to associate with an XML document. You can select a schema from the schema cache, or specify a schema that is not located in the cache. Selected schema(s) are considered part of a schema set. The schema set is used for IntelliSense and also XML document validation.
 
 You can access the **XML Schemas** dialog box by either clicking the **Schemas** button on the document properties window, or by selecting **Schemas** from the **XML** menu.

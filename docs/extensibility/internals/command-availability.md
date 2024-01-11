@@ -13,8 +13,6 @@ ms.subservice: extensibility-integration
 ---
 # Command availability
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 The Visual Studio context determines which commands are available. The context can change depending on the current project, the current editor, the VSPackages that are loaded, and other aspects of the integrated development environment (IDE).
 
 ## Command contexts

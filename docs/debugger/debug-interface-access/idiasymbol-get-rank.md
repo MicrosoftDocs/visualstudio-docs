@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_rank
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the rank (number of dimensions) of a FORTRAN multi-dimensional array.
 
 ## Syntax

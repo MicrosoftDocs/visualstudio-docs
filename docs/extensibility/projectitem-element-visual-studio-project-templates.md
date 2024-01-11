@@ -15,7 +15,6 @@ manager: jmartens
 ---
 # ProjectItem element (Visual Studio project templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies a file that is included in the project template.
 
 > [!NOTE]

@@ -19,7 +19,6 @@ ms.subservice: office-development
 ---
 # Controls on Office documents
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can use the Office development tools in Visual Studio to add Windows Forms controls and *host controls* to Word documents and Excel worksheets. Host controls are objects that extend various user interface (UI) objects in the Word and Excel object models.
 
  [!INCLUDE[appliesto_controls](../vsto/includes/appliesto-controls-md.md)]

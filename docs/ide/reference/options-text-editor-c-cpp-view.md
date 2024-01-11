@@ -13,8 +13,6 @@ manager: markl
 ---
 # Options, Text Editor, C/C++, View
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Use these property pages to change the default behavior of the code editor when you are programming in C or C++.
 
 To access this property page, choose **Tools** > **Options** and expand **Text Editor**, then **C/C++**, and then choose **View**.

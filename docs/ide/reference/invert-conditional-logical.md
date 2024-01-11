@@ -13,8 +13,6 @@ dev_langs:
 ---
 # Invert conditional expressions and conditional AND/OR operators
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This refactoring applies to:
 
 - C#

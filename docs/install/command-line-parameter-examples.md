@@ -11,8 +11,6 @@ ms.subservice: installation
 ---
 # Command-line parameter examples for Visual Studio installation
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 To illustrate how to [use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md), here are several examples that you can customize to match your needs.
 
 In each example, `vs_enterprise.exe`, `vs_professional.exe` and `vs_community.exe` represent the respective edition of the Visual Studio bootstrapper, which is the small (~1MB) file that initiates the download process. If you're using a different edition, substitute the appropriate bootstrapper name.
@@ -56,7 +54,6 @@ Alternatively, you can also update your Visual Studio instance in one step by us
    ```shell
    "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" update --passive --norestart --installPath "C:\installPathVS"
    ```
-
 
 ## Using --wait
 

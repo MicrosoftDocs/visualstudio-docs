@@ -17,7 +17,6 @@ ms.subservice: office-development
 ---
 # Secure Office solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The security model for Office solutions involves several technologies: the  Visual Studio Tools for Office runtime , ClickOnce, the Trust Center in Microsoft Office, and the Internet Explorer restricted sites zone. The following sections describe how the different security features work:
 
 - [Grant trust to Office solutions](#GrantingTrustToSolutions)

@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IEnumDebugPortSuppliers2::Clone
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns a copy of the current enumeration as a separate object.
 
 ## Syntax

@@ -13,7 +13,6 @@ ms.subservice: extensibility-integration
 ---
 # IDE-Defined Commands for Extending Project Systems
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When you want to extend project systems, you can use commands and command groups provided by the Visual Studio IDE.
 
  The following sections list command items that are especially useful for extending project systems.

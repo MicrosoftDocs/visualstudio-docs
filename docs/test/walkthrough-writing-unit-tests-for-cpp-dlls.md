@@ -9,8 +9,6 @@ author: tylermsft
 ---
 # Write unit tests for C++ DLLs
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This walkthrough describes how to develop a native C++ DLL using test-first methodology. The basic steps are as follows:
 
 1. [Create a native test project](#create_test_project). The test project is located in the same solution as the DLL project.
@@ -106,7 +104,6 @@ The following steps show how to create a DLL project in Visual Studio 2019.
             return 0.0;
         }
     ```
-
 
 ## <a name="make_functions_visible"></a> Couple the test project to the DLL project
 

@@ -16,7 +16,6 @@ dev_langs:
 ---
 # IDebugComPlusSymbolProvider::GetNameFromToken
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the name associated with the specified token given its metadata object.
 
 ## Syntax

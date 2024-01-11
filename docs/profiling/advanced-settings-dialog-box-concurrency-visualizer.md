@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # Advanced Settings dialog box (Concurrency Visualizer)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 By using the **Advanced Settings** dialog box in the Concurrency Visualizer, you can control how traces are collected.  The dialog box has tabs for symbols, Just My Code, buffering, filtering, CLR events, markers, providers, and files.
 
 ## Symbols

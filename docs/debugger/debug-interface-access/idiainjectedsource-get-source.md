@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaInjectedSource::get_source
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the source code bytes.
 
 ## Syntax

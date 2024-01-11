@@ -10,9 +10,7 @@ ms.subservice: extensibility-integration
 ---
 # Common Control Patterns for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## <a name="BKMK_CommonControls"></a> Common controls
-
 
 Common controls make up the majority of the user interface in Visual Studio. Most common controls used in the Visual Studio interface should follow the [Windows Desktop interaction guidelines](/windows/desktop/uxguide/controls). This topic is specific to Visual Studio and covers special situations or details that augment those Windows guidelines.
 
@@ -209,7 +207,6 @@ Dynamic text can be used one of two ways in a dialog or modeless UI: either as a
 If you want users to have the ability to copy the info, dynamic text should be in a read-only text field.
 
 ## <a name="BKMK_ButtonsAndHyperlinks"></a> Buttons and hyperlinks
-
 
 Buttons and link controls (hyperlinks) should follow [basic Windows Desktop guidance on hyperlinks](/windows/desktop/uxguide/ctrl-links) for usage, wording, sizing, and spacing.
 

@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaEnumLineNumbers::Item
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a line number by means of an index.
 
 ## Syntax

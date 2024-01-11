@@ -14,7 +14,6 @@ manager: jmartens
 ---
 # VSTemplate element (Visual Studio Templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Contains all the metadata about the project template, item template, or starter kit.
 
 ## Syntax

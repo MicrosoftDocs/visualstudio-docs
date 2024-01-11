@@ -10,8 +10,6 @@ ms.subservice: xml-tools
 ---
 # Examine the content model of nodes by using the Content Model View
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This topic describes how to explore your nodes by using the [Content Model View](../xml-tools/content-model-view.md).
 
 ## To create a new XSD file and display the root element in the Content Model View

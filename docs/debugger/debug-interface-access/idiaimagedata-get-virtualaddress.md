@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaImageData::get_virtualAddress
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the location in virtual memory of the image.
 
 ## Syntax

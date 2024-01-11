@@ -12,8 +12,6 @@ feedback_system: GitHub
 ---
 # SDK reference packages
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 The easiest way to author Visual Studio extensions is with a reference to the
 [`Microsoft.VisualStudio.Sdk` NuGet package](https://www.nuget.org/packages/microsoft.visualstudio.sdk).
 This package is available for targeting Visual Studio 2017 (15.0), Visual Studio 2019 (16.0, 16.9), and now Visual Studio 2022.

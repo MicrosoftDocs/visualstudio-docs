@@ -10,7 +10,6 @@ ms.subservice: modeling
 ---
 # Migrate a Domain-Specific Language to a New Version
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can migrate projects that define and use domain-specific language to Visual Studio 2010 from the version of Domain-Specific Language Tools that was distributed with Visual Studio 2008.
 
  A migration tool is provided as part of  Visual Studio SDK . The tool converts Visual Studio projects and solutions that use or define DSL Tools.

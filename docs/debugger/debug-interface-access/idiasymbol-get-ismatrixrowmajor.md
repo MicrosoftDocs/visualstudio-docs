@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_isMatrixRowMajor
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies whether the matrix is row major.
 
 ## Syntax

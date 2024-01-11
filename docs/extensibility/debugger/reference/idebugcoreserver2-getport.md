@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugCoreServer2::GetPort
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a specific port.
 
 ## Syntax

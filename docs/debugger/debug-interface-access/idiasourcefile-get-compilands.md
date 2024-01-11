@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaSourceFile::get_compilands
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves an enumerator of compilands that have line numbers referencing this file.
 
 ## Syntax

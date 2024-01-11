@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDebugCustomViewer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface enables an expression evaluator (EE) to display a property's value in whatever format is necessary.
 
 ## Syntax

@@ -14,8 +14,6 @@ ms.topic: conceptual
 ---
 # What's new in Visual Studio docs
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Welcome to what's new in Visual Studio docs. The following sections provide details on the previous three months of new and updated content.
 
 ## November 2023
@@ -251,7 +249,6 @@ The following people contributed to Visual Studio content last month. Thank you!
 
 - [bayates](https://github.com/bayates) - Addison Yates ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 - [GeeVont3](https://github.com/GeeVont3) - Sinoxolo Jeremiah ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-
 
 ## September 2023
 
