@@ -60,7 +60,7 @@ Coded UI tests automatically drive your SharePoint application through its user 
 |[Unit Test Your Code](../test/unit-test-your-code.md)|Describes how to find logic errors in your code by using unit tests.|
 |[Testing SharePoint 2010 Applications with Coded UI Tests](/previous-versions/visualstudio/visual-studio-2015/test/testing-sharepoint-2010-applications-with-coded-ui-tests?preserve-view=true&view=vs-2015)|Describes how to test the user interface of your SharePoint applications.|
 
-## See also
+## Related content
 
 - [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)
 - [Improve Code Quality](../test/improve-code-quality.md)

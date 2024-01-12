@@ -187,7 +187,7 @@ You might see the following error messages during Just-In-Time debugging:
 
     To fix this problem, use the Visual Studio Installer to reinstall or repair your Visual Studio installation.
 
-## See also
+## Related content
 
 - [Debugger security](../debugger/debugger-security.md)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)

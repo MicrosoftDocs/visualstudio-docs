@@ -367,7 +367,7 @@ You can set breakpoints on different conditions, such as the thread name or the 
     > [!NOTE]
     > When you advance the debugger, all threads will run. However, the debugger won't break into code on other threads unless one of the other threads hits a breakpoint.
 
-## See also
+## Related content
 
 - [Debug multithreaded applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)
 - [How to: Switch to another thread while debugging](../debugger/how-to-switch-to-another-thread-while-debugging.md)

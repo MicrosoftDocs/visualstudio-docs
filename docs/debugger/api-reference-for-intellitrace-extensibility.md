@@ -20,10 +20,8 @@ This namespace contains the IntelliTrace extensibility APIs:
 
 - <xref:Microsoft.VisualStudio.IntelliTrace>
 
-## Related sections
+## Related content
 
-[IntelliTrace](../debugger/intellitrace.md)
-Provides information about how to debug with IntelliTrace.
+- [IntelliTrace](../debugger/intellitrace.md) provides information about how to debug with IntelliTrace.
 
-[Developer code samples](https://code.msdn.microsoft.com/)
-Hosts a sample application showing how to use IntelliTrace extensibility.
+- [Developer code samples](https://code.msdn.microsoft.com/) hosts a sample application showing how to use IntelliTrace extensibility.
