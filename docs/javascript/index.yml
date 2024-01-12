@@ -55,7 +55,7 @@ landingContent:
             url: tutorial-asp-net-core-with-vue.md
           - text: Create a web app with Node.js and Express
             url: tutorial-nodejs.md
-          - text: Create an ASP.NET Core app with TypeScript
+          - text: Add TypeScript to an ASP.NET Core app
             url: tutorial-aspnet-with-typescript.md
 
   # Card
