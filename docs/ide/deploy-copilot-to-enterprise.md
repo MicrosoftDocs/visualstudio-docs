@@ -6,12 +6,10 @@ ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
 ms.manager: jmartens
-ms.technology: vs-ai-tools
+ms.subservice: ai-tools
 monikerRange: vs-2022
 ---
 # Deploy GitHub Copilot to existing Visual Studio instances
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 For administrators of Visual Studio 2022 version 17.8 or above, you can deploy GitHub Copilot onto client workstations programmatically with an installation script, just like you deploy other [Visual Studio components](../install/workload-and-component-ids.md). 
 
