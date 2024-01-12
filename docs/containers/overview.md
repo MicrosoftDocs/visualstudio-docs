@@ -185,7 +185,7 @@ The .NET SDK container build entry in *launchSettings.json* looks like the follo
 }
 ```
 
-The .NET SDK manages some of the choices that would have been encoded in a Dockerfile, such as the container base image that is automatically chosen to match the targeted version of .NET. Some of the settings here, such as the ports to be used, can be modified for your scenario.
+The .NET SDK manages some of the choices that would have been encoded in a Dockerfile, such as the container base image that is automatically chosen to match the targeted version of .NET, and the environment variables to set. Some of the settings here, such as the ports to be used, can be modified for your scenario.
 
 :::moniker-end
 
