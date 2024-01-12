@@ -147,8 +147,10 @@
       href: ide/visual-studio-github-copilot-chat.md
     - name: Tips to improve Copilot Chat results 
       href: ide/copilot-chat-context.md
-    - name: Debug with Copilot
+    - name: Debug with GitHub Copilot
       href: debugger/debug-with-copilot.md
+    - name: Deploy GitHub Copilot to your enterprise
+      href: ide/deploy-copilot-to-enterprise.md
   - name: IntelliCode
     items:
     - name: 'What is IntelliCode?'
