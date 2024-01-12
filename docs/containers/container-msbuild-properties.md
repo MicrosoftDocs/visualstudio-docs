@@ -9,6 +9,11 @@ ms.topic: reference
 ---
 # Container Tools build properties
 
+::: moniker range=">=vs-2022"
+> [!NOTE]
+>This article describes the MSBuild properties that apply when you choose the Dockerfile container build type. If you are using the .NET SDK build type, the customization options are different, and the information in this article is not applicable.
+::: moniker-end
+
 You can customize how Visual Studio builds your container projects by setting the properties that MSBuild uses to build your project. For example, you can change the name of the Dockerfile, specify tags and labels for your images, provide additional arguments passed to Docker commands, and control whether Visual Studio does certain performance optimizations such as building outside of the container environment. You can also set debugging properties such as the name of the executable to launch, and the command line arguments to provide.
 
 To set the value of a property, edit the project file. For example, suppose your Dockerfile is named *MyDockerfile*. You can set the `DockerfileFile` property in the project file as follows.

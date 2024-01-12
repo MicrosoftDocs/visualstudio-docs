@@ -49,7 +49,7 @@ Docker support is available for ASP.NET projects, ASP.NET Core projects, and .NE
 
 The support for Docker in Visual Studio has changed over a number of releases in response to customer needs. There are several options to add Docker support to a project, and the supported options vary by the type of project and the version of Visual Studio. With some supported project types, if you just want a container for a single project, without using orchestration, you can do that by adding Docker support. The next level is container orchestration support, which adds appropriate support files for the particular orchestrator you choose.
 
-With Visual Studio 2022 version 17.9 and later, when you add Docker support to a .NET 8 or later project, you have the option of using a Dockerfile to specify how to build the container images, or you can choose to use the built-in container support provides by the .NET SDK.
+With Visual Studio 2022 version 17.9 and later, when you add Docker support to a .NET 7 or later project, you have two container build types to choose from for adding Docker support. You can choose to add a Dockerfile to specify how to build the container images, or you can choose to use the built-in container support provided by the .NET SDK.
 
 Also, with Visual Studio 2022 and later, when you choose container orchestration, you can use Docker Compose or Service Fabric as container orchestration services.
 
@@ -165,7 +165,7 @@ ENTRYPOINT ["dotnet", "WebApplication-Docker.dll"]
 
 ## Add Docker support using the .NET SDK option
 
-With Visual Studio 2022 17.9 and later, and in projects that target .NET 8 or later, you have the option of using .NET SDK's built-in support for container builds, which means you don't need a Dockerfile. Instead, settings are encoded in a `.json` configuration file, *launchSettings.json*.
+With Visual Studio 2022 17.9 and later, and in projects that target .NET 7 or later, you have the option of using .NET SDK's built-in support for container builds, which means you don't need a Dockerfile. Instead, settings are encoded in a `.json` configuration file, *launchSettings.json*.
 
 ![Screenshot showing the Container Scaffolding Options dialog for adding Docker support.](./media/overview/vs-2022/container-scaffolding-options.png)
 

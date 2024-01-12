@@ -9,7 +9,7 @@ ms.topic: reference
 ---
 # Container Tools launch settings
 
-In the *Properties* folder in an ASP.NET Core project, you can find the launchSettings.json file, which contains settings that control how your web app is started on your development machine. For detailed information on how this file is used in ASP.NET development, see [Use multiple environments in ASP.NET Core](/aspnet/core/fundamentals/environments?view=aspnetcore-2.2&preserve-view=true). In *launchSettings.json*, the settings in the **Docker** section are related to how Visual Studio handles containerized apps.
+In the *Properties* folder in an ASP.NET Core project, you can find the *launchSettings.json* file, which contains settings that control how your web app is started on your development machine. For detailed information on how this file is used in ASP.NET development, see [Use multiple environments in ASP.NET Core](/aspnet/core/fundamentals/environments?view=aspnetcore-2.2&preserve-view=true). In *launchSettings.json*, the settings in the **Docker** section are related to how Visual Studio handles containerized apps.
 
 ```json
     "Docker": {
@@ -27,7 +27,13 @@ In the *Properties* folder in an ASP.NET Core project, you can find the launchSe
     }
 ```
 
-The commandName setting identifies that this section applies to Container Tools. The following table shows the properties that can be set in this section:
+The commandName setting identifies that this section applies to Container Tools.
+
+:::moniker range=">=vs-2022"
+Most of the settings in *launchSettings.json* are available and applicable whether you're using a Dockerfile, or using the .NET SDK's built-in container build support (available for .NET 7 and later).
+:::moniker-end
+
+The following table shows the properties that can be set in this section:
 
 ::: moniker range="vs-2019"
 
@@ -53,7 +59,7 @@ The commandName setting identifies that this section applies to Container Tools.
 | Setting name         | Example                                               | Description                                                                                                             |
 | -------------------- | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | commandLineArgs      | "commandLineArgs": "--mysetting myvalue"              | These command-line arguments for starting your app are used when launching your project in the container.                                     |
-|DockerfileRunArguments|"dockerfileRunArguments": "-l mylabel=value"|Additional arguments to pass to the [docker run](https://docs.docker.com/engine/reference/commandline/run/) command. In Visual Studio 17.3 Preview 2 and later, support for replacement tokens has been added:<br/><br/> - {ProjectDir} - Full path to the project directory. <br/><br/> - {OutDir} - The value of the MSBuild property OutDir.|
+|DockerfileRunArguments|"dockerfileRunArguments": "-l mylabel=value"|Additional arguments to pass to the [docker run](https://docs.docker.com/engine/reference/commandline/run/) command. <br>/<br/> This setting only applies to projects that use the Dockerfile container build type. <br/><br/> In Visual Studio 17.3 and later, support for replacement tokens has been added:<br/><br/> - {ProjectDir} - Full path to the project directory. <br/><br/> - {OutDir} - The value of the MSBuild property OutDir.|
 | environmentVariables | "environmentVariables": {<br/>   "ASPNETCORE_URLS": "https://+:443;http://+:80", <br/>   "ASPNETCORE_HTTPS_PORT": "44381" <br/> }                    | These environment variable values are passed to the process when it is launched in the container.                       |
 | httpPort             | "httpPort": 24051                                     | This port on the host is mapped to the container's port 80 when launching the container. |
 | launchBrowser        | "launchBrowser": true                                 | Indicates whether to launch the browser after successfully launching the project.                                       |
