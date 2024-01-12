@@ -16,7 +16,6 @@ dev_langs:
 ---
 # BP_LOCATION_CODE_ADDRESS
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the location of a breakpoint at an address in code.
 
 ## Syntax

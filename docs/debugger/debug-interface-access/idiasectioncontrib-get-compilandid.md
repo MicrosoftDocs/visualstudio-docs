@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaSectionContrib::get_compilandId
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the compiland identifier for the section.
 
 ## Syntax

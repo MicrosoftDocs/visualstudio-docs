@@ -13,7 +13,6 @@ ms.subservice: extensibility-integration
 ---
 # Group element
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Defines a VSPackage command group.
 
 ## Syntax

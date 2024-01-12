@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugEngineLaunch2::LaunchSuspended
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method launches a process by means of the debug engine (DE).
 
 ## Syntax

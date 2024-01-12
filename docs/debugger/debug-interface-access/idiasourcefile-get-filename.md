@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaSourceFile::get_fileName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the source file name.
 
 ## Syntax

@@ -10,8 +10,6 @@ ms.subservice: general-ide
 ---
 # Generate IEquatable operators when generating Equals for structs
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This code generation applies to:
 
 - C#

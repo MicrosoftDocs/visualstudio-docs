@@ -3,7 +3,7 @@ title: Visual Studio Tools for Unreal Engine
 description: Explore the Visual Studio Tools for Unreal Engine, which makes it easier to write and debug C++ code for Unreal Engine from within Visual Studio.
 ms.date: 08/01/2023
 ms.service: visual-studio
-ms.technology: vs-unreal-engine-tools
+ms.subservice: unreal-engine-tools
 ms.topic: overview
 author: "TylerMSFT"
 ms.author: "twhitney"
@@ -13,7 +13,6 @@ manager: Markl
 # Visual Studio Tools for Unreal Engine
 
 ![Screenshot of a computer, game controller, and icons for game play.](../../unity/media/hero.png)
-
 
 
 Visual Studio Tools for Unreal Engine makes it easier to write and debug C++ code for Unreal Engine from within Visual Studio, with features such as:

@@ -10,8 +10,6 @@ ms.subservice: xml-tools
 ---
 # Add nodes to the workspace from the XML Schema Explorer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This topic explains how to add nodes to the [XML Schema Designer workspace](../xml-tools/xml-schema-designer-workspace.md) from the **XML Schema Explorer**. This can be achieved by dragging and dropping nodes from the **XML Schema Explorer** onto an XSD Designer view, or by using the **XML Schema Explorer's** context menu. You can also add nodes that are highlighted as a result of a search performed by the **XML Schema Explorer**. For more information, see [How to: Add schema set search result nodes to the workspace](../xml-tools/how-to-add-schema-set-search-result-nodes-to-the-workspace.md).
 
 > [!NOTE]

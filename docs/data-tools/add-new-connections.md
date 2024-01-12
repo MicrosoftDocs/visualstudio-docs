@@ -10,8 +10,6 @@ ms.subservice: data-tools
 ---
 # Connect to a database in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 The steps in this article show how to connect to a data source in the Visual Studio IDE. The data source can be a local database, online data service, or a database opened from an [`.mdf` file](#open-an-mdf-database-file). You can work directly with your data in Visual Studio. You can execute queries, edit data, create and edit tables and other schema properties, edit stored procedures and functions, triggers, and so on. These functions are independent of the programming language or .NET version you are using.
 
 ## Server Explorer and SQL Server Object Explorer

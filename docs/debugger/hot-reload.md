@@ -14,8 +14,6 @@ monikerRange: '>= vs-2022'
 ---
 # Write and debug running code with Hot Reload in Visual Studio (C#, Visual Basic, C++)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Starting in Visual Studio 2022, the Hot Reload experience in Visual Studio works for both managed .NET and native C++ apps. Regardless of the type of app you’re working on, the intention of Hot Reload is to save you as many app restarts between edits as possible, making you more productive by reducing the time you spend waiting for apps to rebuild, restart, re-navigate to the previous location where you were in the app itself, et al.
 
 We accomplish this by making it possible for you to edit your application's code files and apply the code changes immediately to the running application, also known as *Hot Reload*. Once your changes are applied, re-execute your code again by taking an action in the app itself (or through some sort of timer, etc.) and see the changes immediately; no pausing of the app through breakpoints is required!

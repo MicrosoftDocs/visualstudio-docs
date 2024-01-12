@@ -18,7 +18,6 @@ ms.subservice: debug-diagnostics
 ---
 # Error: Unable to access the SQL Server debugging interface
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This message occurs when you attempt SQL debugging on a machine where SQL debugging is not enabled.
 
 ### To correct this error

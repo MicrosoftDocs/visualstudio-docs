@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # Multiple categories are present
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A section that contains more than one kind of activity for a given time range is selected. Notice that two colors are displayed, one vertically stacked on the other. These colors represent just the top two most frequent activities in the given time range. The frequencies of these two activities are shown relative to one another as thirds or halves of the vertical bar. To see more detail, try zooming in on this section of the thread view.
 
 ## See also

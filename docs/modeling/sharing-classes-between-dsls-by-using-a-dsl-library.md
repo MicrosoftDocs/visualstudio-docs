@@ -11,7 +11,6 @@ ms.subservice: modeling
 
 # Share classes between DSLs
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In the Visual Studio Visualization and Modeling SDK, you can create an incomplete DSL Definition that you can import into another DSL. This approach lets you factor common parts of similar models.
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]

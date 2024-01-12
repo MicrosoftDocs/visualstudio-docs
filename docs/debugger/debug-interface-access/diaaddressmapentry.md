@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # DiaAddressMapEntry
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes an entry in an address map.
 
 ## Syntax

@@ -19,7 +19,6 @@ ms.subservice: office-development
 ---
 # Work with folders
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The <xref:Microsoft.Office.Interop.Outlook.MAPIFolder> class contains the methods and properties you use to access, create, and customize folders.
 
 |Task|Procedure|

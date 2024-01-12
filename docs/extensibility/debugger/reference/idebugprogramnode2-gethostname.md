@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProgramNode2::GetHostName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the name of the process hosting the program.
 
 ## Syntax

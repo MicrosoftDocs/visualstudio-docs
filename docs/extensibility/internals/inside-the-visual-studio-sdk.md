@@ -14,8 +14,6 @@ ms.subservice: extensibility-integration
 ---
 # Inside the Visual Studio SDK
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This section provides in-depth information about Visual Studio extensions, including Visual Studio architecture, components, services, schemas, utilities, and the like.
 
 ## Extensibility Architecture

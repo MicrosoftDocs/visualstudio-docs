@@ -13,8 +13,6 @@ ms.subservice: general-ide
 ---
 # What is the .NET Project Designer?
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 The Project Designer in Visual Studio is a dialog box that you can use to specify applications settings and properties for a .NET project. The Project Designer includes several different project properties pages to interact with. What you see depends on your .NET project type, platform, and programming language.
 
 The Project Designer appears after you select a [project node](../use-solution-explorer.md#tool-window) in **Solution Explorer** and then use the right-click context menu to select **Properties**.

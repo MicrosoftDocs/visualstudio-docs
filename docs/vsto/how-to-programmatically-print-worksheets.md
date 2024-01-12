@@ -17,8 +17,6 @@ ms.subservice: office-development
 ---
 # Programmatically print worksheets
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 You can print any worksheet in a workbook.
 
 [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]

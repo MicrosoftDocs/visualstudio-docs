@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugBinder::GetMemoryContext
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method converts either an object location or a memory address to a memory context.
 
 ## Syntax

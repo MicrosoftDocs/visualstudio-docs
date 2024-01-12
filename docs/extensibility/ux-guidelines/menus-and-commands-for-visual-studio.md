@@ -10,9 +10,7 @@ ms.subservice: extensibility-integration
 ---
 # Menus and Commands for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## Command usage
-
 
  Unlike Microsoft Office, which is a suite that comprises many separate products, Visual Studio contains many products that each contribute their command sets to the global Visual Studio IDE. The IDE manages the complexity of thousands of commands by filtering the functionality available to the user based on context.
 
@@ -246,7 +244,6 @@ ms.subservice: extensibility-integration
 - The command is a specialty command that users are likely to add to a toolbar using the **"Customize..."** dialog.
 
 ## Access and shortcut keys
-
 
  There are two kinds of keyboard key assignments:
 

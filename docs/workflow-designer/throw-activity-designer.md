@@ -12,8 +12,6 @@ ms.subservice: workflow-designer
 ---
 # Throw Activity Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 The **Throw** activity designer is used to create and configure a <xref:System.Activities.Statements.Throw> activity.
 
 ## The Throw Activity

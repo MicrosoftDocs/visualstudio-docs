@@ -19,7 +19,6 @@ ms.subservice: debug-diagnostics
 ---
 # When Breakpoint Is Hit Dialog Box
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 With this dialog box, you can customize the action that occurs when a breakpoint is hit.
 
 ## UIElement List

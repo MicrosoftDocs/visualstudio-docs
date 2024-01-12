@@ -18,7 +18,6 @@ ms.subservice: debug-diagnostics
 ---
 # Tips for Debugging Threads in Native Code
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Here are some tips you can use when debugging threads in native code:
 
 - You can view the contents of the Thread Information Block by typing `@TIB` in the **Watch** window or **QuickWatch** dialog box.

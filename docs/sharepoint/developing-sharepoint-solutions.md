@@ -18,8 +18,6 @@ ms.subservice: sharepoint-development
 ---
 # Develop SharePoint solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
   Several SharePoint project type templates are available in Visual Studio for creating SharePoint sites and site elements. For a list of the available project types, see [SharePoint project and project item templates](../sharepoint/sharepoint-project-and-project-item-templates.md). Following is a description of the elements and properties of a SharePoint project.
 
  For information about SharePoint add-ins, see [Build SharePoint add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins).

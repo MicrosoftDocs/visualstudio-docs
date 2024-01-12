@@ -29,7 +29,6 @@ After Visual Studio is installed, you'll need to launch it to sign in.
 
 That's all there is to it.  As long as you're signed in your computer, Visual Studio will recognize you automatically.  If you restart your computer, you'll be prompted to sign in again.  
 
-
 ## Support resources
 
 + For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).
@@ -38,7 +37,6 @@ That's all there is to it.  As long as you're signed in your computer, Visual St
 ## See also
 
 + [Visual Studio documentation](/visualstudio/)
-
 
 ## Next steps
 

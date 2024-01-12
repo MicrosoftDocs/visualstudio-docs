@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaPropertyStorage::ReadDWORD
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Reads `DWORD` values in a property set.
 
 ## Syntax

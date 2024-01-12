@@ -18,8 +18,6 @@ ms.subservice: data-tools
 ---
 # Save data by using a transaction in .NET Framework applications
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 You save data in a transaction by using the <xref:System.Transactions> namespace. Use the <xref:System.Transactions.TransactionScope> object to participate in a transaction that is automatically managed for you.

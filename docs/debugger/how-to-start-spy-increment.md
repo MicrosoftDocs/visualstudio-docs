@@ -12,8 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # Start Spy++
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 You can start Spy++ either from Visual Studio or at a command prompt.
 
  When you start Spy++, if a message is displayed to ask permission to make changes to the computer, select **Yes**.

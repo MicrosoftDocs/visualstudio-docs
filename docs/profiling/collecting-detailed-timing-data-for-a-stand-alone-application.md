@@ -13,8 +13,6 @@ ms.subservice: debug-diagnostics
 ---
 # Collect detailed timing data for a stand-alone application by using the profiler command line
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This article describes the procedures and options for collecting detailed performance data for a client (stand-alone) component such as a DLL by using the instrumentation method from the command line. Use the instrumentation method to collect detailed timing information. Instrumentation data is useful for analyzing I/O issues and for fine-grained analysis of application scenarios.
 
 > [!NOTE]

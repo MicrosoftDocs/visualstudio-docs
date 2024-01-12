@@ -15,7 +15,6 @@ dev_langs:
 ---
 # IDebugProcessQueryProperties::QueryProperty
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method queries for a specified property value of the debugging process.
 
 ## Syntax

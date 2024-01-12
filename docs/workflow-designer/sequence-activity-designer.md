@@ -12,8 +12,6 @@ ms.subservice: workflow-designer
 ---
 # Sequence Activity Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 The <xref:System.Activities.Statements.Sequence> activity contains an ordered collection of child activities that it executes in order.
 
 Another way to execute a set of activities in order is to use a <xref:System.Activities.Statements.Flowchart> activity. Consider using the [Flowchart](../workflow-designer/flowchart-activity-designer.md) when you have a simple branching or looping program flow that you want to model diagrammatically.

@@ -18,8 +18,6 @@ ms.subservice: data-tools
 ---
 # Walkthrough: Create a simple WCF service in .NET Framework Windows Forms
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This walkthrough demonstrates how to create a simple Windows Communication Foundation (WCF) service, test it, and then access it from a .NET Framework Windows Forms application.
 
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]

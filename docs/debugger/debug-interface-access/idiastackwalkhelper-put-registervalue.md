@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaStackWalkHelper::put_registerValue
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the value of a register.
 
 ## Syntax

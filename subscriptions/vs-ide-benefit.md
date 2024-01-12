@@ -58,7 +58,6 @@ Here's how to download and install the IDE for your version of Visual Studio. We
 
    ![Screenshot of the options for getting started with using the newly installed Visual Studio.](_img/vs-ide-experience/vs-ide-start-cropped.png "Screenshot of the options for getting started with using the newly installed Visual Studio.")
 
-
 ## Eligibility
 
 | Subscription level | Channels | Benefit | Renewable? |

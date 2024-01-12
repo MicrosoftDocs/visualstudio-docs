@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDebugThread2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a thread running in a program.
 
 ## Syntax

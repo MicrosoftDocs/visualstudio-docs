@@ -18,8 +18,6 @@ ms.subservice: office-development
 ---
 # Walkthrough: Simple data binding in VSTO Add-in Project
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 You can bind data to host controls and Windows Forms controls in VSTO Add-in projects. This walkthrough demonstrates how to add controls to a Microsoft Office Word document and bind the controls to data at run time.
 
 [!INCLUDE[appliesto_wdallapp](../vsto/includes/appliesto-wdallapp-md.md)]

@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # CvInitProvider function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Initializes marker provider. Must be called before any other Concurrency Visualizer SDK functions.
 
 ## Syntax

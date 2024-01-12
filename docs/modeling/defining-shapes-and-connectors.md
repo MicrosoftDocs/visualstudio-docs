@@ -10,8 +10,6 @@ ms.subservice: modeling
 ---
 # Define shapes and connectors
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 There are several basic types of shapes that you can used to display information on a diagram in a domain-specific language (DSL).
 
 ## <a name="shapeTypes"></a> Basic Types of Shapes and Connectors

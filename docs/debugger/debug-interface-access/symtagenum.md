@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # SymTagEnum
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the type of symbol.
 
 ## Syntax

@@ -18,8 +18,6 @@ monikerRange: '>= vs-2019'
 ---
 # Debug a managed memory dump with .NET Diagnostic Analyzers
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 
 In this tutorial, you will:
 

@@ -10,8 +10,6 @@ ms.subservice: xaml-tools
 ---
 # Debug or disable project code in XAML Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 In many cases, unhandled exceptions in the XAML Designer can be caused by project code attempting to access properties or methods that return different values or work in a different way when your application runs in the designer. You can resolve these exceptions by debugging the project code in another instance of Visual Studio, or temporarily prevent exceptions by disabling project code in the designer.
 
 Project code includes:

@@ -16,8 +16,6 @@ ms.subservice: general-ide
 ---
 # /Build (devenv.exe)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Builds a solution or project using a specified solution configuration file.
 
 ## Syntax

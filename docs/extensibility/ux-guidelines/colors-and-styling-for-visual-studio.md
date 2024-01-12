@@ -10,8 +10,6 @@ ms.subservice: extensibility-integration
 ---
 # Colors and Styling for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 ## Use color in Visual Studio
 
 In Visual Studio, color is used primarily as a communication tool, not just as decoration. Use color minimally and reserve it for situations where you want to:
@@ -265,7 +263,6 @@ protected override void Dispose(bool disposing)
 ## <a name="BKMK_ChoosingHighContrastColors"></a> Choosing High Contrast colors
 
 
-
 Windows uses several high-contrast system-level themes that increase the color contrast of text, backgrounds, and images, making elements appear more distinct on the screen. For accessibility reasons, it is important that Visual Studio interface elements respond correctly when users switch to a High Contrast theme.
 
 Only a handful of system colors can be used for High Contrast themes. When choosing your system color names, remember the following tips:
@@ -326,7 +323,6 @@ Many common UI elements already have High Contrast colors defined. You can refer
 | WindowText | - Auto-hide tab foreground<br />- Selected tool window tab foreground<br />- Unfocused document window tab and unfocused or unselected provisional tab foreground<br />- Tree view default foreground and hover over unselected glyph<br />- Tool window selected tab border<br />- Scroll bar thumb background, border, and glyph |
 
 ## <a name="BKMK_ExposingColorsForEndUsers"></a> Exposing colors for end users
-
 
 
 Sometimes you'll want to allow the end user to customize your UI, like when you're creating a code editor or design surface. The most common way to do this is by using the **Tools &gt; Options** dialog. Unless you have highly specialized UI that requires special controls, the easiest way to present the customization is through the **Fonts and Colors** page within the **Environment** section of the dialog. For each element that you expose for customization, the user can choose to change the foreground color, background color, or both.

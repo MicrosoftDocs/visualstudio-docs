@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProgramProvider2::GetProviderProcessData
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a list of running programs from a specified process.
 
 ## Syntax

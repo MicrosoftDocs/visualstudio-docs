@@ -17,8 +17,6 @@ ms.subservice: debug-diagnostics
 ---
 # Enumerations and Structures
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 These are the enumerations and structures used by the DIA SDK.
 
 ## In This Section

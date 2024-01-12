@@ -14,7 +14,6 @@ ms.subservice: extensibility-integration
 ---
 # SccGetUserOption Function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function retrieves a variety of user-specific options.
 
 ## Syntax

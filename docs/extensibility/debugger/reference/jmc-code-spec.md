@@ -17,7 +17,6 @@ dev_langs:
 ---
 # JMC_CODE_SPEC
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This structure is used to set the JustMyCode information for a module.
 
 ## Syntax

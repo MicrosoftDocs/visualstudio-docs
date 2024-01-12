@@ -15,7 +15,6 @@ ms.subservice: office-development
 ---
 # Programmatically retrieve a folder by name
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example gets a reference to a named custom folder and then displays the contents of the folder.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]

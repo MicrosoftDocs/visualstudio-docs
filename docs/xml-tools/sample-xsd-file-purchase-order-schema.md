@@ -10,8 +10,6 @@ ms.subservice: xml-tools
 ---
 # Sample XSD file: Purchase order schema
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 The following XSD file is used in various examples in the XSD Schema Designer documentation. This file is a purchase order schema.
 
 ```xml

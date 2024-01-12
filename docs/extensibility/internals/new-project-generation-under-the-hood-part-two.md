@@ -13,8 +13,6 @@ ms.subservice: extensibility-integration
 ---
 # New Project Generation: Under the Hood, Part Two
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 In [New Project Generation: Under the Hood, Part One](../../extensibility/internals/new-project-generation-under-the-hood-part-one.md) we saw how the **New Project** dialog Box is populated. Let's assume you've selected a **Visual C# Windows Application**, filled out the **Name** and **Location** text boxes, and clicked OK.
 
 ## Generating the Solution Files

@@ -15,7 +15,6 @@ ms.subservice: office-development
 ---
 # Globalization and localization of Excel solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This section contains information about special considerations for Microsoft Office Excel solutions that will be run on computers that have non-English settings for Windows. Most aspects of globalizing and localizing Microsoft Office solutions are the same as you encounter when you create other kinds of solutions using Visual Studio. For general information, see [Globalize and localizing applications](../ide/globalizing-and-localizing-applications.md).
 
  By default, host controls in Microsoft Office Excel work correctly in any Windows regional setting, as long as all data that is passed or manipulated using managed code is formatted using English (United States) formatting. In projects that target the .NET Framework 4 or the .NET Framework 4.5, this behavior is controlled by the common language runtime (CLR).

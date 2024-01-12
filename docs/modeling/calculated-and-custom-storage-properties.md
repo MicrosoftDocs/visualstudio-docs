@@ -13,8 +13,6 @@ ms.subservice: modeling
 
 # Calculated and custom storage properties
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 All domain properties in a domain-specific language (DSL) can be displayed to the user on the diagram and in your language explorer, and can be accessed by program code. However, properties differ in the way that their values are stored.
 
 ## Kinds of domain properties

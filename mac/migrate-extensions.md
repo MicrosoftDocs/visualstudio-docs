@@ -22,7 +22,6 @@ As an author of an existing extension, you'll need to follow a different workflo
 - Sharing the repository URL to the Visual Studio for Mac team via the [extension publishing mailing list](mailto:vsmextpub@microsoft.com)
 - Updating your extension by using the releases feature in GitHub
 
-
 ## Initial setup 
 
 In order to continue publishing updates to your extensions, you'll need to create a public GitHub repository. If you publish multiple extensions, you'll need to have a separate repository for each one unless you always version and publish them together, in which case you can use a single repository.
@@ -30,11 +29,9 @@ In order to continue publishing updates to your extensions, you'll need to creat
 > [!NOTE]
 > While the GitHub repository for your extension needs to be public, you don't need to host any of your code there. Following this process does not require you to have any of your code in GitHub.
 
-
 ## Share the location of your repository
 
 Once you've set up the repository, send an email to the [extension publishing mailing list](mailto:vsmextpub@microsoft.com) with the URL.
-
 
 ## Release a new version
 

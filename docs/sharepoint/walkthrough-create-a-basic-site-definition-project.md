@@ -16,7 +16,6 @@ ms.subservice: sharepoint-development
 ---
 # Walkthrough: Create a basic site definition project
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This walkthrough shows you how to create a basic site definition that contains a visual Web part with some controls on it. For the sake of clarity, the visual Web part that you create has only a few controls. However, you can create more sophisticated SharePoint site definitions that include more functionality.
 
  This walkthrough demonstrates the following tasks:

@@ -14,8 +14,6 @@ ms.subservice: extensibility-integration
 ---
 # Solution (.sln) file
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 A solution is a structure for organizing projects in Visual Studio. The solution maintains the state information for projects in two files:
 
 - .sln file (text-based, shared)

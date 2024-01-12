@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IEEVisualizerService::GetCustomViewerCount
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the number of type visualizers available from this service.
 
 ## Syntax

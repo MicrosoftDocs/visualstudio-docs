@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IEnumDebugFields::Reset
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method resets the enumeration to the first element.
 
 ## Syntax

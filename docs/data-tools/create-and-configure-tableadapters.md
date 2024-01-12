@@ -16,8 +16,6 @@ ms.subservice: data-tools
 ---
 # Create and configure TableAdapters in .NET Framework applications
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 TableAdapters provide communication between your application and a database. They connect to the database, run queries or stored procedures, and either return a new data table or fill an existing <xref:System.Data.DataTable> with the returned data. TableAdapters can also send updated data from your application back to the database.

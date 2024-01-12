@@ -12,8 +12,6 @@ ms.subservice: installation
 ---
 # Applying administrator updates that use Microsoft Endpoint Manager (SCCM or Intune)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This document describes different types and characteristics of Visual Studio administrator updates. In this article, you'll find information on how and when they should be distributed throughout your organization, what configuration options are available, and how to view reports and troubleshoot. 
 
 ## Prerequisites

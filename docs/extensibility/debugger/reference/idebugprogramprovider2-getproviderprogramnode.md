@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProgramProvider2::GetProviderProgramNode
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the program node for a specific program.
 
 ## Syntax

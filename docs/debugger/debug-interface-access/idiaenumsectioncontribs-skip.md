@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaEnumSectionContribs::Skip
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Skips a specified number of section contributions in an enumeration sequence.
 
 ## Syntax

@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugDocumentContext2::Seek
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Moves the document context by a given number of statements or lines.
 
 ## Syntax

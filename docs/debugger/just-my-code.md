@@ -10,8 +10,6 @@ ms.subservice: debug-diagnostics
 ---
 # Debug only user code with Just My Code
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 *Just My Code* is a Visual Studio debugging feature that automatically steps over calls to system, framework, and other non-user code. In the **Call Stack** window, Just My Code collapses these calls into **[External Code]** frames.
 
 Just My Code works differently in .NET and C++ projects.

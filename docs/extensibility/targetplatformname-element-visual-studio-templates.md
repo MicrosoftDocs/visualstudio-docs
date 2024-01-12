@@ -10,7 +10,6 @@ manager: jmartens
 ---
 # TargetPlatformName Element (Visual Studio Templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the platform that the project template targets. This element is used to specify that a project template is used to create Windows 8.x Store apps.
 
 ## Syntax

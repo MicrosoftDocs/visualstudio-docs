@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaInjectedSource
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Accesses injected source code stored in the DIA data source.
 
 ## Syntax

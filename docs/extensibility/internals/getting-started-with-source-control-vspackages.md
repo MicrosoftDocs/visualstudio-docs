@@ -13,8 +13,6 @@ ms.subservice: extensibility-integration
 ---
 # Get started with source control VSPackages
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 A source-control VSPackage is a more advanced alternative to the source control plug-in. For more information about source control plug-ins, see [Create a source control plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md). A source-control VSPackage enables complete control over the source control model, features, and user interface (UI), and it integrates into the Visual Studio environment as a VSPackage.
 
 ## In this section

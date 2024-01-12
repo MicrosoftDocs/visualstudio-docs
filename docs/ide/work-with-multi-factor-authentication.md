@@ -12,8 +12,6 @@ ms.subservice: general-ide
 
 # Sign in to Visual Studio with accounts that require multi-factor authentication (MFA)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 In this article, you'll learn how to use Visual Studio with accounts that require multi-factor authentication (MFA).
 
 ## Why enable MFA policies?

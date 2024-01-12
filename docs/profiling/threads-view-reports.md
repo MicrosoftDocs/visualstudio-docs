@@ -18,8 +18,6 @@ ms.subservice: debug-diagnostics
 ---
 # Threads view reports in the Concurrency Visualizer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
  This article provides information about the reports in the Threads view of the Concurrency Visualizer.
 
 ## Blocking time profile report

@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaFrameData::get_lengthBlock
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the length, in bytes, of the block of code described by the frame.
 
 ## Syntax

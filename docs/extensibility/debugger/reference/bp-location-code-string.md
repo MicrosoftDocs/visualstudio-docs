@@ -16,7 +16,6 @@ dev_langs:
 ---
 # BP_LOCATION_CODE_STRING
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Used for setting code breakpoints based on a string that the user can enter from the integrated development environment (IDE).
 
 ## Syntax

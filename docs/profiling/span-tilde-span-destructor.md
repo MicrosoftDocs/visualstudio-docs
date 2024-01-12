@@ -14,8 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # span::~span destructor
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Destroys the `span` object and releases its resources.
 
 ## Syntax

@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # Start and Stop the Message Log Display
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When a [Messages View](../debugger/messages-view.md) window is active, a **Start Logging** or **Stop Logging** choice appears on the Spy++ **Messages** menu, and the corresponding **Start Logging** or **Stop Logging** toolbar button becomes active.
 
 ### To start the message log display

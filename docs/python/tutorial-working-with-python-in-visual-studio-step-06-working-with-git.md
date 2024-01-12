@@ -12,8 +12,6 @@ ms.subservice: python
 
 # Step 6: Work with Git
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 **Previous step: [Install packages and manage your Python environment](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md)**
 
 [!INCLUDE[..get-started/includes/git-source-control.md](../get-started/includes/git-source-control.md)]

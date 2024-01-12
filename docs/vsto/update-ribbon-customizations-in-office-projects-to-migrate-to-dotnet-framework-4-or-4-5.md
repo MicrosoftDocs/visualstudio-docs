@@ -16,8 +16,6 @@ ms.subservice: office-development
 ---
 # Update Ribbon customizations migrated to .NET Framework 4.5
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
   If your project contains a Ribbon customization that was created by using the **Ribbon (Visual Designer)** project item, you must make the following changes to your project code if the target framework is changed to the .NET Framework 4 or later.
 
 - Modify the generated Ribbon code.

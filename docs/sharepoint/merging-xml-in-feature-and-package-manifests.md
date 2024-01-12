@@ -15,7 +15,6 @@ ms.subservice: sharepoint-development
 ---
 # Merge XML in feature and package manifests
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Features and packages are defined by XML manifest files. These packaged manifests are a combination of data generated from designers and custom XML entered in the manifest template by users. At packaging time, Visual Studio merges the custom XML statements with the designer-provided XML to form the packaged XML manifest file. Similar elements, with the exceptions noted later in Merge Exceptions, are merged to avoid XML validation errors after you deploy the files to SharePoint, and to make the manifest files smaller and more efficient.
 
 ## Modify the manifests

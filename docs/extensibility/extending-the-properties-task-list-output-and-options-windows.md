@@ -17,7 +17,6 @@ ms.subservice: extensibility-integration
 ---
 # Extend the Properties, Task List, Output, and Options windows
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can access any tool window in Visual Studio. This walkthrough shows how to integrate information about your tool window into a new **Options** page and a new setting on the **Properties** page, and also how to write to the **Task List** and **Output** windows.
 
 ## Create an extension with a tool window

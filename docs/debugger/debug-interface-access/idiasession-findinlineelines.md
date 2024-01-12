@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaSession::findInlineeLines
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves an enumeration that allows a client to iterate through the line number information of all functions that are inlined, directly or indirectly, by the specified parent symbol.
 
 ## Syntax

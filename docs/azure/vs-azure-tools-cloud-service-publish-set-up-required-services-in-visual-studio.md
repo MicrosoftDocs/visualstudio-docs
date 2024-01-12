@@ -10,8 +10,6 @@ ms.author: ghogen
 ---
 # Prepare to publish or deploy a cloud service from Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
 To publish a cloud service project, you must set up the following services as described in this article:

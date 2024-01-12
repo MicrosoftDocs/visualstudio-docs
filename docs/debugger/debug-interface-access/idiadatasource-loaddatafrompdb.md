@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaDataSource::loadDataFromPdb
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Opens and prepares a program database (.pdb) file as a debug data source.
 
 ## Syntax

@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugPortEvents2::Event
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method sends events that signify the creation and destruction of processes and programs on a port.
 
 ## Syntax

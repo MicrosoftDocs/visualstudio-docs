@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # Debugger contexts
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In Visual Studio debugging, the debug engine (DE) operates simultaneously within several distinct contexts, as follows:
 
 - The code context, which describes the current location in a program's execution stream.

@@ -13,7 +13,6 @@ ms.subservice: office-development
 ---
 # Improve the performance of a VSTO add-in
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can give your users a better experience by optimizing VSTO Add-ins that you create for Office applications so that they quickly start up, shut down, open items, and perform other tasks. If your VSTO Add-in is for Outlook, you can also reduce the chance that your VSTO Add-in will be disabled because of poor performance. You can increase the performance of your VSTO Add-in by implementing the following strategies:
 
 - [Load VSTO Add-ins on demand](#Load).

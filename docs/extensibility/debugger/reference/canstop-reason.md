@@ -17,7 +17,6 @@ dev_langs:
 ---
 # CANSTOP_REASON
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Used to determine if a program can stop execution after reaching a particular point in the execution.
 
 ## Syntax

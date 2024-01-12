@@ -15,7 +15,6 @@ ms.subservice: extensibility-integration
 ---
 # File status code enumerator
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The `SccStatus` enumerator contains named constant values that specify the state of a file in the source control system. This enumeration is used by the [SccQueryInfo](../extensibility/sccqueryinfo-function.md) and the `POPLISTFUNC` callback function (see [POPLISTFUNC](../extensibility/poplistfunc.md) for details).
 
 ## Syntax

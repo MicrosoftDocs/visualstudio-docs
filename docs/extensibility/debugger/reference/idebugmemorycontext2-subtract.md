@@ -18,7 +18,6 @@ dev_langs:
 ---
 # IDebugMemoryContext2::Subtract
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Subtracts the specified value from the current context and returns a new context.
 
 ## Syntax

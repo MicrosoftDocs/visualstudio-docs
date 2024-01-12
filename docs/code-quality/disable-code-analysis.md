@@ -13,8 +13,6 @@ ms.subservice: code-analysis
 ---
 # Disable source code analysis for .NET
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 ::: moniker range=">=vs-2022"
 
 This page helps you disable code analysis in Visual Studio. There are limitations to what you can disable, and the procedure for turning off code analysis differs depending on a few factors:

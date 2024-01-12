@@ -10,8 +10,6 @@ ms.subservice: xaml-tools
 ---
 # XAML errors and warnings
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 When authoring XAML, Visual Studio analyzes the code as you type. A squiggle appears on a line of code when an error is detected. Hovering over the squiggle gives you more information about the error or warning. For some errors and warnings, a Quick Action lightbulb is displayed, and using the **Ctrl**+**.** keyboard shortcut displays the options to fix the issue.
 
 ## Error types

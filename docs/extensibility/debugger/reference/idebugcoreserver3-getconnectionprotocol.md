@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugCoreServer3::GetConnectionProtocol
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns a value indicating the protocol that is being used to communicate between the server and the debug package.
 
 ## Syntax

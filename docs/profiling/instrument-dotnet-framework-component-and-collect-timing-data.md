@@ -10,8 +10,6 @@ ms.subservice: debug-diagnostics
 ---
 # Instrument a stand-alone .NET Framework component and collect timing data with the profiler from the command line
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This topic describes how to use Visual Studio command-line profiling tools to instrument a .NET Framework component such as an .*exe* or .*dll* file, and to collect detailed timing data.
 
 > [!NOTE]

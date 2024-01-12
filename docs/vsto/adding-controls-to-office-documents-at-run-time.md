@@ -25,7 +25,6 @@ ms.subservice: office-development
 ---
 # Add controls to Office documents at run time
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can add controls to a Microsoft Office Word document and Microsoft Office Excel workbook at run time. You can also remove them at run time. Controls that you add or remove at run time are called *dynamic controls*.
 
  [!INCLUDE[appliesto_controls](../vsto/includes/appliesto-controls-md.md)]

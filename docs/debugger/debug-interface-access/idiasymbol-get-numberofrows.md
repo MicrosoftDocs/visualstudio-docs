@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_numberOfRows
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the number of rows in the matrix.
 
 ## Syntax

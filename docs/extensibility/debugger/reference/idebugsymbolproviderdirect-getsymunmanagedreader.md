@@ -16,7 +16,6 @@ dev_langs:
 ---
 # IDebugSymbolProviderDirect::GetSymUnmanagedReader
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a symbol reader for unmanaged code.
 
 ## Syntax

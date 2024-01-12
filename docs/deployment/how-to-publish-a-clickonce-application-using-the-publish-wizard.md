@@ -19,7 +19,6 @@ ms.subservice: deployment
 ---
 # Deploy a .NET Framework desktop application using the ClickOnce Publish wizard
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To make a ClickOnce application available to users, you must publish it to a file share or path, FTP server, or removable media. You can publish the application by using the Publish Wizard; additional properties related to publishing are available on the **Publish** page of the **Project Designer**. For more information, see [Publishing ClickOnce applications](../deployment/publishing-clickonce-applications.md).
 
 Before you run the Publish Wizard, you should set the publishing properties appropriately. For example, if you want to designate a key to sign your ClickOnce application, you can do so on the **Signing** page of the **Project Designer**. For more information, see [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md).

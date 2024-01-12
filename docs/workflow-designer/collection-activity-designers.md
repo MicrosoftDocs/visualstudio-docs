@@ -10,6 +10,4 @@ ms.subservice: workflow-designer
 ---
 # Collection Activity Designers
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 The Collection activity designers are used to create and configure activities used to manage collections The topics contained in this section and listed in the following table provide guidance on how to use the Workflow Designeractivity and template designers.

@@ -10,8 +10,6 @@ ms.subservice: workflow-designer
 ---
 # Use Search in the Workflow Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 To facilitate creating larger, more complex workflows, you can search within the Workflow Designer to find items by keyword. Note that the designer does not support Replace.
 
 ## Quick Find

@@ -11,8 +11,6 @@ ms.subservice: xaml-tools
 ---
 # Draw shapes and paths
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 In XAML Designer, a *shape* is exactly what you'd expect. For example: a rectangle, circle, or ellipse. A *path* is a more flexible version of a shape. You can do things like reshape them or combine them together to form new shapes.
 
 Shapes and paths use vector graphics, so they scale well to high resolution displays.

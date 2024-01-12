@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaSession::symsAreEquiv
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Checks to see if two symbols are equivalent.
 
 ## Syntax

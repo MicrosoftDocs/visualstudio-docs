@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugBreakpointBoundEvent2::GetPendingBreakpoint
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the pending breakpoint that is being bound.
 
 ## Syntax

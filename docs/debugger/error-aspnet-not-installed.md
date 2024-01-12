@@ -22,7 +22,6 @@ ms.subservice: debug-diagnostics
 ---
 # Error: ASP.NET Not Installed
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This error occurs when ASP.NET is not installed correctly on the computer that you are trying to debug. This might mean that ASP.NET was never installed or that ASP.NET was installed first and IIS was installed later.
 
 ### To reinstall ASP.NET

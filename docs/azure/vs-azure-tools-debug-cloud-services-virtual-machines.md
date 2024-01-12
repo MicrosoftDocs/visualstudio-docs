@@ -10,8 +10,6 @@ ms.subservice: debug-diagnostics
 ---
 # Debug an Azure cloud service in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Visual Studio gives you different options for debugging Azure cloud services and virtual machines.
 
 ## Prerequisites

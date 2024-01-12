@@ -14,8 +14,6 @@ ms.subservice: general-ide
 ---
 # View types and relationships in Class Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 With Class Designer, you can manage class diagrams by performing the following actions:
 
 - View [existing types](#view-types-and-relationships-in-class-designer) and its members

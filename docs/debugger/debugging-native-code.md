@@ -20,7 +20,6 @@ ms.subservice: debug-diagnostics
 ---
 # Debugging Native Code
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The section covers some common debugging problems and techniques for native applications. The techniques covered in this section are high-level techniques. For the mechanics of using the Visual Studio debugger, see [First look at the debugger](../debugger/debugger-feature-tour.md).
 
 ## In This Section

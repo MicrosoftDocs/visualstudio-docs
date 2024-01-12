@@ -13,8 +13,6 @@ ms.subservice: debug-diagnostics
 ---
 # Message Options dialog box
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Use this dialog box to select which messages are listed in [Messages View](messages-view.md). To display this dialog box, choose **Log Messages** from the **Spy** menu.
 
 ## Windows tab, Message Options

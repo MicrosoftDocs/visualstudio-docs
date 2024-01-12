@@ -17,8 +17,6 @@ ms.subservice: help-viewer
 ---
 # Find topics by using the Help Viewer index
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 The index contains a list of keywords that are associated with topics in the installed content. Each topic might have more than one keyword associated with it, and each keyword might be associated with more than one topic. Use this index in the same way as you would use an index in a book.
 
 ## To find a topic by using the index

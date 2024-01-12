@@ -11,8 +11,6 @@ ms.subservice: python
 ---
 # Step 3: Serve static files, add pages, and use template inheritance with Flask app
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 **Previous step: [Create a Flask app with views and page templates](learn-flask-visual-studio-step-02-create-app.md)**
 
 In the previous steps of this tutorial, you've learned how to create a minimal Flask app with a single page of self-contained HTML. Modern web apps are typically composed of many pages, and use shared resources like CSS and JavaScript files to provide consistent styling and behavior.

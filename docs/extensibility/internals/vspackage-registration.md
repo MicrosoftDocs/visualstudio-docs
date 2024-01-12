@@ -13,7 +13,6 @@ ms.subservice: extensibility-integration
 ---
 # VSPackage Registration
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 VSPackages must advise Visual Studio that they are installed and should be loaded. This process is accomplished by writing information in the registry. That is a typical job of an installer.
 
 > [!NOTE]

@@ -10,8 +10,6 @@ ms.subservice: data-tools
 ---
 # Entity Framework Tools in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Entity Framework is an object-relational mapping technology that enables .NET developers to work with relational data by using domain-specific objects. It eliminates the need for most of the data-access code that developers usually need to write. Entity Framework is the recommended object-relational mapping (ORM) modeling technology for new .NET applications.
 
 Entity Framework Tools are designed to help you build Entity Framework (EF) applications. The complete documentation for Entity Framework is here: [Overview - EF 6](/ef/ef6/).

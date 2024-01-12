@@ -20,7 +20,6 @@ ms.subservice: sharepoint-development
 ---
 # Create an event receiver
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   By creating *event receivers*, you can respond when a user interacts with SharePoint items such as lists or list items. For example, the code in an event receiver can be triggered when a user changes the calendar or deletes a name from a contacts list. By following this topic, you can learn how to add an event receiver to a list instance.
 
  To complete these steps, you must have installed Visual Studio and supported editions of Windows and SharePoint. Because this example requires a SharePoint project, you also must have completed the procedure in the topic [Walkthrough: Create a site column, content type, and list for SharePoint](../sharepoint/walkthrough-create-a-site-column-content-type-and-list-for-sharepoint.md).

@@ -14,8 +14,6 @@ ms.subservice: general-ide
 ---
 # /Edit (devenv.exe)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Opens the specified file in an existing instance of Visual Studio.
 
 ## Syntax

@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaSession::findSymbolsForAcceleratorPointerTag
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns an enumeration of symbols for the variable that the specified tag value corresponds to in the parent Accelerator stub function.
 
 ## Syntax

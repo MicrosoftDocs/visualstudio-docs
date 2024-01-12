@@ -17,7 +17,6 @@ dev_langs:
 ---
 # PROVIDER_FLAGS
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies desired properties to be obtained from a program provider.
 
 ## Syntax

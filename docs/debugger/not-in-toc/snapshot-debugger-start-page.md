@@ -11,8 +11,6 @@ ms.subservice: debug-diagnostics
 ---
 # Getting Started With The Snapshot Debugger
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 The Visual Studio Snapshot Debugger is now connected to your service and you can start collecting snapshots to help with debugging.
 
 To use the Snapshot Debugger, set some snappoints in your code, click the button to begin collecting snapshots, and then run your scenario. When code runs in which you've set a snappoint, a snapshot of your application is taken. Then open the snapshot by clicking on it in Visual Studio in the Diagnostic Tools window. You can now debug the snapshot from your service just like it was local. For detailed instructions, keep reading.

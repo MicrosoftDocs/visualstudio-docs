@@ -15,8 +15,6 @@ dev_langs:
 ---
 # Tutorial: Create a Node.js and Express app in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 In this article, you will learn how to use Visual Studio to build a simple Node.js web app that uses the Express framework.
 
 Before you begin, here's a quick FAQ to introduce you to some key concepts:

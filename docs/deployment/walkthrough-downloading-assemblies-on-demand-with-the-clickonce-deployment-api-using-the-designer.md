@@ -19,7 +19,6 @@ ms.subservice: deployment
 ---
 # Walkthrough: Download assemblies on demand with the ClickOnce deployment API using the Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 By default, all the assemblies included in a ClickOnce application are downloaded when the application is first run. However, there might be parts of your application that are used by a small set of the users. In this case, you want to download an assembly only when you create one of its types. The following walkthrough demonstrates how to mark certain assemblies in your application as "optional", and how to download them by using classes in the <xref:System.Deployment.Application> namespace when the common language runtime demands them.
 
  [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]

@@ -16,7 +16,6 @@ dev_langs:
 ---
 # IDebugPortPicker::DisplayPortPicker
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Displays the specified dialog box that allows the user to select a port.
 
 ## Syntax

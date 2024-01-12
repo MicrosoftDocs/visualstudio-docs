@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IPropertyProxyEESide::GetManagedViewerCreationData
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves information about the viewer for this property type in order to instantiate that viewer.
 
 ## Syntax

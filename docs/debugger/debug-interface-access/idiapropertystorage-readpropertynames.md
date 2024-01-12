@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaPropertyStorage::ReadPropertyNames
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves corresponding string names for given property identifiers.
 
 ## Syntax

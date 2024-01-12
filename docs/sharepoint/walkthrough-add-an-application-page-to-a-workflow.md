@@ -18,7 +18,6 @@ ms.subservice: sharepoint-development
 ---
 # Walkthrough: Add an application page to a workflow
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This walkthrough demonstrates how to add an application page that displays data derived from a workflow to a workflow project. It builds on the project described in the topic [Walkthrough: Create a workflow with association and initiation forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md).
 
  This walkthrough demonstrates the following tasks:

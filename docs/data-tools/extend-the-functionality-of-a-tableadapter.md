@@ -17,8 +17,6 @@ ms.subservice: data-tools
 ---
 # Extend the functionality of a TableAdapter in .NET Framework applications
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 You can extend the functionality of a TableAdapter by adding code to the TableAdapter's partial class file.

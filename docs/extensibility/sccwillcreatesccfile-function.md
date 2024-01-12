@@ -14,7 +14,6 @@ ms.subservice: extensibility-integration
 ---
 # SccWillCreateSccFile Function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function determines whether the source control plug-in supports the creation of the MSSCCPRJ.SCC file for each of the given files.
 
 ## Syntax

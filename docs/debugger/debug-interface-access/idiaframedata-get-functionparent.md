@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaFrameData::get_functionParent
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a frame data interface for the enclosing function.
 
 ## Syntax

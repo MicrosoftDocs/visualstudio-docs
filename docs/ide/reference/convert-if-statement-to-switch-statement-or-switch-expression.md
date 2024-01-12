@@ -12,8 +12,6 @@ dev_langs:
 ---
 # Convert if statement to switch statement or switch expression
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This refactoring applies to:
 
 - C#

@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaStackFrame::get_rawLVarInstanceValue
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method retrieves the value of the specified local variable as raw bytes.
 
 ## Syntax

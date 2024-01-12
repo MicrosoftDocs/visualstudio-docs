@@ -10,8 +10,6 @@ ms.subservice: xaml-tools
 ---
 # Organize objects into layout containers in XAML Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This article describes layout panels and controls for XAML Designer.
 
 Imagine where you'd like objects to appear on a page&mdash;objects such as images, buttons, and videos. Maybe you want them to appear in rows and columns, in a single line vertically or horizontally, or in fixed positions.

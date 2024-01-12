@@ -10,8 +10,6 @@ ms.subservice: data-tools
 ---
 # Create LINQ to SQL classes mapped to tables and views (O/R Designer)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 LINQ to SQL classes that are mapped to database tables and views are called *entity classes*. The entity class maps to a record, whereas the individual properties of an entity class map to the individual columns that make up a record. Create entity classes that are based on database tables or views by dragging tables or views from **Server Explorer** or **Database Explorer** onto the [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md). The **O/R Designer** generates the classes and applies the specific LINQ to SQL attributes to enable LINQ to SQL functionality (the data communication and editing capabilities of the <xref:System.Data.Linq.DataContext>). For detailed information about LINQ to SQL classes, see [The LINQ to SQL object model](/dotnet/framework/data/adonet/sql/linq/the-linq-to-sql-object-model).
 
 > [!NOTE]

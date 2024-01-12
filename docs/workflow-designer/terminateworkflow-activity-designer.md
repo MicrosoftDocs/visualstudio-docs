@@ -12,8 +12,6 @@ ms.subservice: workflow-designer
 ---
 # TerminateWorkflow Activity Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 The **TerminateWorkflow** activity designer is used to create and configure a <xref:System.Activities.Statements.TerminateWorkflow> activity.
 
 ## The TerminateWorkflow Activity

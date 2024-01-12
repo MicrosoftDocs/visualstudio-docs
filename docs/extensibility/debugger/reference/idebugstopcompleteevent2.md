@@ -12,8 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDebugStopCompleteEvent2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 The debug engine (DE) can send this optional event to the session debug manager (SDM) when a program has stopped.
 
 ## Syntax

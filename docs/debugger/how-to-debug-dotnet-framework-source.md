@@ -12,8 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # Debug .NET Framework source
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 To debug .NET Framework source, you must:
 
 - Enable stepping into .NET Framework source.

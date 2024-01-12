@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IEnumDebugPrograms2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface enumerates the programs running in the current debug session.
 
 ## Syntax

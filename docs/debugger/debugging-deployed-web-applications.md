@@ -22,7 +22,6 @@ ms.subservice: debug-diagnostics
 ---
 # Debugging Deployed ASP.NET Applications
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To use Visual Studio to debug a deployed application, you must attach to the ASP.NET worker process and make sure that the debugger has access to symbols for the application. You must also locate and open the source files for the application. For more information, see [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md), [How to: Find the Name of the ASP.NET Process](../debugger/how-to-find-the-name-of-the-aspnet-process.md), and [System Requirements](../debugger/aspnet-debugging-system-requirements.md).
 
 > [!WARNING]

@@ -33,8 +33,6 @@ ms.subservice: debug-diagnostics
 ---
 # Set debug and release configurations in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Visual Studio projects have separate release and debug configurations for your program. You build the debug version for debugging and the release version for the final release distribution.
 
 In debug configuration, your program compiles with full symbolic debug information and no optimization. Optimization complicates debugging, because the relationship between source code and generated instructions is more complex.

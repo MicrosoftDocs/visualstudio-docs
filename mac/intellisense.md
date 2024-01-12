@@ -49,7 +49,6 @@ Another feature of IntelliSense is the ability to provide a parameter list where
 
 As you fill in the parameters, the parameter that you are currently editing will be bolded, while the inactive parameters will have the standard weight. 
 
-
 ## Triggering Completion Window and Parameter Window
 
 The completion window will be triggered automatically as you type within your source file. However, you can also trigger the completion window by using the shortcut `control-space`. This key combination will cause the completion list to appear at the current position of your caret. 

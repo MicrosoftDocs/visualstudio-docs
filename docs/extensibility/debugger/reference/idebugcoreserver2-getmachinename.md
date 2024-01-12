@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugCoreServer2::GetMachineName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the name of the machine the core server is running on.
 
 ## Syntax

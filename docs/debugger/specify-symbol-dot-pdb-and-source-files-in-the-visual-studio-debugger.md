@@ -30,8 +30,6 @@ ms.subservice: debug-diagnostics
 ---
 # Specify symbol (.pdb) and source files in the Visual Studio debugger (C#, C++, Visual Basic, F#)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Program database (*.pdb*) files, also called symbol files, map identifiers and statements in your project's source code to corresponding identifiers and instructions in compiled apps. These mapping files link the debugger to your source code, which enables debugging.
 
 When you build a project from the Visual Studio IDE with the standard Debug build configuration, the compiler creates the appropriate symbol files. This article describes how to manage symbol files in the IDE, for example:

@@ -10,8 +10,6 @@ ms.subservice: modeling
 ---
 # T4 CleanUpBehavior directive
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 To delete the appDomain after processing a text template, include the following line:
 
 ```
