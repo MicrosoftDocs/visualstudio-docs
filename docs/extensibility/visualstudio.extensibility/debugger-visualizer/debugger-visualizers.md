@@ -22,7 +22,7 @@ Debugger visualizers are accessible from the *DataTip* that appears when hoverin
 
 Follow the [Create the extension project](./../get-started/create-your-first-extension.md) section in the Getting Started section.
 
-Then, add a class extending `DebuggerVisualizerProvider` and apply the `VisualStudioContribution` attribute to it:
+Then, add a class extending [`DebuggerVisualizerProvider`](/dotnet/api/microsoft.visualstudio.extensibility.debuggervisualizers.debuggervisualizerprovider) and apply the [`VisualStudioContribution`](/dotnet/api/microsoft.visualstudio.extensibility.visualstudiocontributionattribute) attribute to it:
 
 ```csharp
 /// <summary>
@@ -56,8 +56,8 @@ internal class StringDebuggerVisualizerProvider : DebuggerVisualizerProvider
 
 The previous code defines a new debugger visualizer, which applies to objects of type `string`:
 
-- The `DebuggerVisualizerProviderConfiguration` property defines the visualizer display name and the supported .NET type.
-- The `CreateVisualizerAsync` method is invoked by Visual Studio when the user requests the display of the debugger visualizer for a certain value. `CreateVisualizerAsync` uses the `VisualizerTarget` object to retrieve the value to be visualized and passes it to a custom remote user control (reference the [Remote UI](./../inside-the-sdk/remote-ui.md) documentation). The remote user control is then returned and will be shown in a popup window in Visual Studio.
+- The [`DebuggerVisualizerProviderConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.debuggervisualizers.debuggervisualizerproviderconfiguration) property defines the visualizer display name and the supported .NET type.
+- The [`CreateVisualizerAsync`](/dotnet/api/microsoft.visualstudio.extensibility.debuggervisualizers.debuggervisualizerprovider.createvisualizerasync) method is invoked by Visual Studio when the user requests the display of the debugger visualizer for a certain value. `CreateVisualizerAsync` uses the [`VisualizerTarget`](VisualizerTarget) object to retrieve the value to be visualized and passes it to a custom remote user control (reference the [Remote UI](./../inside-the-sdk/remote-ui.md) documentation). The remote user control is then returned and will be shown in a popup window in Visual Studio.
 
 ## Targeting multiple types
 
@@ -80,7 +80,7 @@ The configuration property allows the visualizer to target multiple types when c
 
 ## The visualizer object source
 
-The *visualizer object source* is a .NET class that is loaded by the debugger in the process being debugged. The debugger visualizer can retrieve data from the visualizer object source using methods exposed by `VisualizerTarget.ObjectSource`.
+The *visualizer object source* is a .NET class that is loaded by the debugger in the process being debugged. The debugger visualizer can retrieve data from the visualizer object source using methods exposed by [`VisualizerTarget.ObjectSource`](/dotnet/api/microsoft.visualstudio.extensibility.debuggervisualizers.visualizertarget.objectsource).
 
 The default visualizer object source allows debugger visualizers to retrieve the value of the object to be visualized by calling the [`RequestDataAsync<T>(JsonSerializer?, CancellationToken)`](/dotnet/api/microsoft.visualstudio.extensibility.debuggervisualizers.visualizerobjectsourceclient.requestdataasync#microsoft-visualstudio-extensibility-debuggervisualizers-visualizerobjectsourceclient-requestdataasync-1(newtonsoft-json-jsonserializer-system-threading-cancellationtoken)) method. The default visualizer object source uses [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json) to serialize the value, and the VisualStudio.Extensibility libraries also use Newtonsoft.Json for the deserialization. Alternatively you can use [`RequestDataAsync(CancellationToken)`](/dotnet/api/microsoft.visualstudio.extensibility.debuggervisualizers.visualizerobjectsourceclient.requestdataasync#microsoft-visualstudio-extensibility-debuggervisualizers-visualizerobjectsourceclient-requestdataasync(system-threading-cancellationtoken)) to retrieve the serialized value as a `JToken`.
 
@@ -144,7 +144,7 @@ You should try to minimize the number of dependencies of the visualizer object s
 
 ### Update the debugger visualizer provider to use the custom visualizer object source
 
-You can then update your `DebuggerVisualizerProviderConfiguration` configuration to reference your custom visualizer object source:
+You can then update your [`DebuggerVisualizerProviderConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.debuggervisualizers.debuggervisualizerproviderconfiguration) configuration to reference your custom visualizer object source:
 
 ```csharp
     public override DebuggerVisualizerProviderConfiguration DebuggerVisualizerProviderConfiguration => new("My visualizer", typeof(TypeToVisualize))
@@ -325,7 +325,7 @@ The `Available` notification will be received after the `RemoteUserControl` has 
 
 ## Update the visualized object value
 
-If `VisualizerTarget.IsTargetReplaceable` is true, the debugger visualizer can use the [`ReplaceTargetObjectAsync`](/dotnet/api/microsoft.visualstudio.extensibility.debuggervisualizers.visualizerobjectsourceclient.replacetargetobjectasync#microsoft-visualstudio-extensibility-debuggervisualizers-visualizerobjectsourceclient-replacetargetobjectasync-1(-0-newtonsoft-json-jsonserializer-system-threading-cancellationtoken)) method to update the value of the visualized object in the process being debugged.
+If [`VisualizerTarget.IsTargetReplaceable`](/dotnet/api/microsoft.visualstudio.extensibility.debuggervisualizers.visualizertarget.istargetreplaceable) is true, the debugger visualizer can use the [`ReplaceTargetObjectAsync`](/dotnet/api/microsoft.visualstudio.extensibility.debuggervisualizers.visualizerobjectsourceclient.replacetargetobjectasync#microsoft-visualstudio-extensibility-debuggervisualizers-visualizerobjectsourceclient-replacetargetobjectasync-1(-0-newtonsoft-json-jsonserializer-system-threading-cancellationtoken)) method to update the value of the visualized object in the process being debugged.
 
 The visualizer object source must override the `CreateReplacementObject` method:
 
