@@ -33,19 +33,19 @@ Your extension code can be configured to run in response to various entry points
 
 Event listeners get triggered when certain actions occur in an editor window, represented in code by a `TextView`. For example, when a user types something into the editor, a `TextViewChanged` event occurs. When an editor window is opened or closed, `TextViewOpened` and `TextViewClosed` events occur.
 
-The editor service object is an instance of the `EditorExtensibility` class, which exposes real-time editor functionality, such as performing text edits.
+The editor service object is an instance of the [`EditorExtensibility`](/dotnet/api/microsoft.visualstudio.extensibility.editor.editorextensibility) class, which exposes real-time editor functionality, such as performing text edits.
 
 [Commands](../command/command.md) are initiated by the user by clicking on an item, which you can place on a menu, context menu, or toolbar.
 
 ### Add a text view listener
 
-There are two types of listeners, [ITextViewChangedListener](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewchangedlistener), and [ITextViewOpenClosedListener](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewopenclosedlistener).
+There are two types of listeners, [ITextViewChangedListener](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewchangedlistener) and [ITextViewOpenClosedListener](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewopenclosedlistener).
 Together, these listeners can be used to observe the open, close, and modification of text editors.
 
 Then, create a new class, implementing the [ExtensionPart](/dotnet/api/microsoft.visualstudio.extensibility.extensionpart) base class and `ITextViewChangedListener`,
-`ITextViewOpenClosedListener`, or both, and add a `[VisualStudioContribution]` attribute.
+`ITextViewOpenClosedListener`, or both, and add a [VisualStudioContribution](/dotnet/api/microsoft.visualstudio.extensibility.visualstudiocontributionattribute) attribute.
 
-Then, implement the `TextViewExtensionConfiguration` property, as required by `ITextViewChangedListener` and `ITextViewOpenClosedListener`, making the listener apply when editing C# files:
+Then, implement the [TextViewExtensionConfiguration](/dotnet/api/microsoft.visualstudio.extensibility.editor.textviewextensionconfiguration) property, as required by `ITextViewChangedListener` and `ITextViewOpenClosedListener`, making the listener apply when editing C# files:
 ```csharp
 public TextViewExtensionConfiguration TextViewExtensionConfiguration => new()
 {
@@ -106,7 +106,7 @@ DocumentTypes are hierarchical. That is, C# and C++ both descend from "code", so
 
 ### Define a new document type
 
-You can define a new document type, for example to support a custom code language, by adding a static [`DocumentTypeConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.editor.documenttypeconfiguration) property to any class in the extension project, and marking the property with the `VisualStudioContribution` attribute.
+You can define a new document type, for example to support a custom code language, by adding a static [DocumentTypeConfiguration](/dotnet/api/microsoft.visualstudio.extensibility.editor.documenttypeconfiguration) property to any class in the extension project, and marking the property with the `VisualStudioContribution` attribute.
 
 `DocumentTypeConfiguration` allows you to define a new document type, specify that it inherits one or more other document types, and specify one or more file extensions that are used to identify the file type:
 
@@ -175,7 +175,7 @@ A backslash (`\`) isn't valid within a glob pattern. Make sure to convert any ba
 
 ## Access editor functionality
 
-Your editor extension classes inherit from `ExtensionPart`. The `ExtensionPart` class exposes the [Extensibility](/dotnet/api/microsoft.visualstudio.extensibility.extensionpart.extensibility) property. Using this property, you can request an instance of the `EditorExtensibility` object. You can use this object to access real-time editor functionality, such as performing edits.
+Your editor extension classes inherit from [ExtensionPart](/dotnet/api/microsoft.visualstudio.extensibility.extensionpart). The `ExtensionPart` class exposes the [Extensibility](/dotnet/api/microsoft.visualstudio.extensibility.extensionpart.extensibility) property. Using this property, you can request an instance of the [EditorExtensibility](/dotnet/api/microsoft.visualstudio.extensibility.editor.editorextensibility) object. You can use this object to access real-time editor functionality, such as performing edits.
 
 ```csharp
 EditorExtensibility editorService = this.Extensibility.Editor();
@@ -248,9 +248,9 @@ For more information, see [StreamJsonRpc Default Ordering and Concurrency](https
 
 Extensions can contribute new text view margins to the Visual Studio editor. A text view margin is a rectangular UI control attached to a text view on one of its four sides. 
 
-Text view margins are placed into a margin container (see [ContainerMarginPlacement.KnownValues](/dotnet/api/microsoft.visualstudio.extensibility.editor.containermarginplacement.knownvalues) and ordered before or after relatively to other margins (see [MarginPlacement.KnownValues](/dotnet/api/microsoft.visualstudio.extensibility.editor.marginplacement.knownvalues).
+Text view margins are placed into a margin container (see [ContainerMarginPlacement.KnownValues](/dotnet/api/microsoft.visualstudio.extensibility.editor.containermarginplacement.knownvalues)) and ordered before or after relatively to other margins (see [MarginPlacement.KnownValues](/dotnet/api/microsoft.visualstudio.extensibility.editor.marginplacement.knownvalues)).
 
-Text view margin providers implement [ITextViewMarginProvider](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewmarginprovider) interface, configure the margin they provide by implementing [TextViewMarginProviderConfiguration](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewmarginprovider.textviewmarginproviderconfiguration#microsoft-visualstudio-extensibility-editor-itextviewmarginprovider-textviewmarginproviderconfiguration) and when activated, provide UI control to be hosted in the margin via [CreateVisualElementAsync](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewmarginprovider.createvisualelementasync#microsoft-visualstudio-extensibility-editor-itextviewmarginprovider-createvisualelementasync(microsoft-visualstudio-extensibility-editor-itextviewsnapshot-system-threading-cancellationtoken)).
+Text view margin providers implement [ITextViewMarginProvider](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewmarginprovider) interface, configure the margin they provide by implementing [TextViewMarginProviderConfiguration](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewmarginprovider.textviewmarginproviderconfiguration) and when activated, provide UI control to be hosted in the margin via [CreateVisualElementAsync](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewmarginprovider.createvisualelementasync).
 
 Because extensions in VisualStudio.Extensibility might be out-of-process from the Visual Studio, we can't directly use WPF as a presentation layer for content of text view margins. Instead, providing a content to a text view margin requires creating a [RemoteUserControl](./../inside-the-sdk/remote-ui.md) and the corresponding data template for that control. While there are some simple examples below, we recommend reading the [Remote UI documentation](./../inside-the-sdk/remote-ui.md) when creating text view margin UI content.
 
@@ -276,7 +276,7 @@ public async Task<IRemoteUserControl> CreateVisualElementAsync(ITextViewSnapshot
 }
 ```
 
-In addition to configuring margin placement, text view margin providers can also configure the size of the grid cell in which the margin should be placed using [GridCellLength](/dotnet/api/microsoft.visualstudio.extensibility.editor.textviewmarginproviderconfiguration.gridcelllength#microsoft-visualstudio-extensibility-editor-textviewmarginproviderconfiguration-gridcelllength) and [GridUnitType](/dotnet/api/microsoft.visualstudio.extensibility.editor.textviewmarginproviderconfiguration.gridunittype) properties.
+In addition to configuring margin placement, text view margin providers can also configure the size of the grid cell in which the margin should be placed using [GridCellLength](/dotnet/api/microsoft.visualstudio.extensibility.editor.textviewmarginproviderconfiguration.gridcelllength) and [GridUnitType](/dotnet/api/microsoft.visualstudio.extensibility.editor.textviewmarginproviderconfiguration.gridunittype) properties.
 
 Text view margins typically visualize some data related to the text view (for example, current line number or the count of errors) so most text view margin providers would also want to [listen to text view events](#add-a-text-view-listener) to react to opening, closing of text views and user typing.
 

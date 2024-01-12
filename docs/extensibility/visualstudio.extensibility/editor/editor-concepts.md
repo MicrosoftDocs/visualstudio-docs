@@ -14,11 +14,11 @@ ms.subservice: extensibility-integration
 
 This article describes the extensibility object model that represents the Visual Studio editor and the text document that is opened for editing. For an introduction to working with the editor extension functionality, see [Use Visual Studio editor extensibility](editor.md).
 
-The Visual Studio Editor extensibility object model is composed of a few integral parts. This article covers `ITextViewSnapshot`, `ITextDocumentSnapshot`, and other abstract representations of the whole document, as well as `Position` and `Span`, which represent location and spans of text, respectively.
+The Visual Studio Editor extensibility object model is composed of a few integral parts. This article covers [ITextViewSnapshot](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewsnapshot), [ITextDocumentSnapshot](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextdocumentsnapshot), and other abstract representations of the whole document, as well as `Position` and `Span`, which represent location and spans of text, respectively.
 
 ## ITextViewSnapshot
 
-[ITextViewSnapshot](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewsnapshot) contains the URI and version information necessary to acquire an [ITextDocumentSnapshot](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextdocumentsnapshot) as well as some properties of the text view, such as selections.
+[ITextViewSnapshot](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewsnapshot) contains the URI and version information necessary to acquire an `ITextDocumentSnapshot` as well as some properties of the text view, such as selections.
 
 - This object is immutable and will never change after it is created.
 - You can use `ITextViewSnapshot.GetTextDocumentAsync()` to get the content from the document. Calling this method is expensive and only should be done if you need the document content.
