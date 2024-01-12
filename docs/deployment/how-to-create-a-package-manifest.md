@@ -65,7 +65,7 @@ To deploy prerequisites for your application, you can use a bootstrapper package
     </Strings>
     ```
 
-7. Copy the *C:\package* folder to the Visual Studio bootstrapper directory. For Visual Studio 2010, this is the *\Program Files\Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages* directory.
+7. Copy the *C:\package* folder to the Visual Studio bootstrapper directory. For older versions of Visual Studio, this is the *\Program Files\Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages* directory.
 
 ## Example
  The package manifest contains locale-specific information, such as error messages, software license terms, and language packs.

@@ -106,7 +106,7 @@ To deploy prerequisites for your application, you can create a bootstrapper pack
     </Commands>
     ```
 
-12. Move the *C:\package* folder to the Visual Studio bootstrapper directory. For Visual Studio 2010, this is the *\Program Files\Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages* directory.
+12. Move the *C:\package* folder to the Visual Studio bootstrapper directory. For older versions of Visual Studio, this is the *\Program Files\Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages* directory.
 
 ## Example
  The product manifest contains installation instructions for custom prerequisites.
