@@ -262,8 +262,6 @@
       href: how-to-extend-the-domain-specific-language-designer.md
   - name: Supported Visual Studio Editions for Visualization & Modeling SDK
     href: supported-visual-studio-editions-for-visualization-amp-modeling-sdk.md
-  - name: Migrate a Domain-Specific Language to a New Version
-    href: how-to-migrate-a-domain-specific-language-to-a-new-version.md
   - name: API Reference for Modeling SDK for Visual Studio
     href: api-reference-for-modeling-sdk-for-visual-studio.md
 - name: Code Generation and T4 Text Templates
