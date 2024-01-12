@@ -51,8 +51,6 @@ The support for Docker in Visual Studio has changed over a number of releases in
 
 With Visual Studio 2022 version 17.9 and later, when you add Docker support to a .NET 8 or later project, you have the option of using a Dockerfile to specify how to build the container images, or you can choose to use the built-in container support provides by the .NET SDK.
 
-![Screenshot showing the Container Scaffolding Options dialog for adding Docker support.](./media/overview/vs-2022/container-scaffolding-options.png)
-
 Also, with Visual Studio 2022 and later, when you choose container orchestration, you can use Docker Compose or Service Fabric as container orchestration services.
 
 > [!NOTE]
@@ -168,6 +166,8 @@ ENTRYPOINT ["dotnet", "WebApplication-Docker.dll"]
 ## Add Docker support using the .NET SDK option
 
 With Visual Studio 2022 17.9 and later, and in projects that target .NET 8 or later, you have the option of using .NET SDK's built-in support for container builds, which means you don't need a Dockerfile. Instead, settings are encoded in a `.json` configuration file, *launchSettings.json*.
+
+![Screenshot showing the Container Scaffolding Options dialog for adding Docker support.](./media/overview/vs-2022/container-scaffolding-options.png)
 
 The .NET SDK container build entry in *launchSettings.json* looks like the following code:
 
