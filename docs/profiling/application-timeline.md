@@ -14,7 +14,7 @@ Use the **Application Timeline** profiler to find and fix application-interactio
 
 **Application Timeline** is one of the tools you can start with the **Debug** > **Performance Profiler** command.
 
-This tool replaces the **XAML UI Responsiveness** tool that was part of the diagnostic toolset for Visual Studio 2013.
+This tool replaces the **XAML UI Responsiveness** tool that was part of the diagnostic toolset in older versions of Visual Studio.
 
 You can use this tool on the following platforms:
 

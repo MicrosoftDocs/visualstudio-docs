@@ -29,7 +29,7 @@ Remote debugging uses DCOM to communicate between the local and remote computers
 
 - You are debugging managed C++ (C++/CLI) code.
 
-- In Visual Studio 2013, when **Enable native Edit and Continue** is checked in the **Tools > Options > Debugging** page
+- In older versions of Visual Studio, when **Enable native Edit and Continue** is checked in the **Tools > Options > Debugging** page
 
 - Some third party debugging scenarios
 
@@ -37,7 +37,7 @@ Remote debugging uses DCOM to communicate between the local and remote computers
 
 - Turn off  **Native Compatibility Mode** and **Managed Compatibility Mode**.
 
-- In Visual Studio 2013, turn off **Enable native Edit and Continue**.
+- In older versions of Visual Studio, turn off **Enable native Edit and Continue**.
 
 - Reboot both computers.
 
