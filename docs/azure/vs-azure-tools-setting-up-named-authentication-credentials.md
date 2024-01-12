@@ -10,8 +10,6 @@ ms.author: ghogen
 ---
 # Set up named authentication credentials
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
 To publish an application to Azure or to monitor an existing cloud service, Visual Studio requires credentials to authenticate requests to Azure, namely your Azure subscription ID and a valid X.509 v3 certificate with a key of at least 2048 bits. You provide these credentials through either of the following methods:

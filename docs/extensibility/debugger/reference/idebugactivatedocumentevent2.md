@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDebugActivateDocumentEvent2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The debug engine (DE) uses this interface to request a document to be loaded.
 
 ## Syntax

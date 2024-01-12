@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaSegment::get_write
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that indicates whether the segment can be modified.
 
 ## Syntax

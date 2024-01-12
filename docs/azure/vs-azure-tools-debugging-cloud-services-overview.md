@@ -10,8 +10,6 @@ ms.subservice: debug-diagnostics
 ---
 # Learn the various ways to debug an Azure cloud service
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
 This article provides links to the various ways to debug an Azure cloud service.

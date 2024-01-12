@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaSession::getSymbolsByAddr
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves an enumerator that finds symbols in the order of their addresses.
 
 ## Syntax

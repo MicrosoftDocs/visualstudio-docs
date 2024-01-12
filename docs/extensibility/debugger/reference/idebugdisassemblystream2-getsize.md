@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugDisassemblyStream2::GetSize
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the size in instructions of this disassembly stream.
 
 ## Syntax

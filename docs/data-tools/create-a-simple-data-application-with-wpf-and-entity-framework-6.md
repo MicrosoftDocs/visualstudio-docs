@@ -12,8 +12,6 @@ ms.subservice: data-tools
 ---
 # Create a simple data application with WPF and Entity Framework 6
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 ::: moniker range="vs-2022"
 > [!WARNING]
 > If you're using Visual Studio 2022, you should use Visual Studio 2022 version 17.3 Preview 3 or later for this tutorial.

@@ -12,8 +12,6 @@ feedback_system: GitHub
 ---
 # Update a Visual Studio extension for Visual Studio 2022
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 > [!IMPORTANT]
 > The advice in this article can guide developers in migrating extensions that require major changes to work in both Visual Studio 2019 and Visual Studio 2022. In those cases, we recommend that you have two VSIX projects and conditional compilation.
 >

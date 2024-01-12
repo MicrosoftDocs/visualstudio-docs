@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaFrameData::get_maxStack
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the maximum number of bytes pushed on the stack in the frame.
 
 ## Syntax

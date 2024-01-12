@@ -13,7 +13,6 @@ ms.subservice: extensibility-integration
 ---
 # VSCT Compiler Command-Line Flags
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Visual Studio Command Table (VSCT) compiler provides command-line switches to ensure successful compilation of .vsct files.
 
 ## Command Line Parameters

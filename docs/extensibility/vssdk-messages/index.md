@@ -13,8 +13,6 @@ ms.subservice: extensibility-integration
 
 # Visual Studio SDK error messages
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Some VS SDK analyzer errors have corresponding articles that explain why the error is generated, and, in some cases, how to fix the error. Use one of the following steps to see whether help is available for a particular error message.
 
 - If you're using Visual Studio, choose the error number, for example, VSIXCompatibility1001, in the [Output Window](/visualstudio/ide/reference/output-window). Select the **F1** key.

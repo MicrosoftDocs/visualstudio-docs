@@ -25,8 +25,6 @@ ms.subservice: debug-diagnostics
 ---
 # View register values in the Registers window (C#, C++, Visual Basic, F#)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 The **Registers** window displays register contents during Visual Studio debugging. For a high-level introduction to concepts behind registers and the **Registers** window, see [Debugging basics: Registers window](../debugger/debugging-basics-registers-window.md).
 
 > [!NOTE]

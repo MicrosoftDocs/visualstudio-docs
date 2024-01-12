@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # Attach to the program
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 After you have registered your programs with the appropriate port, you must attach the debugger to the program you want to debug.
 
 ## Choose how to attach

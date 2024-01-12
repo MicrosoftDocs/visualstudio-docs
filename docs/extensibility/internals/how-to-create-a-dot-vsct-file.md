@@ -12,8 +12,6 @@ ms.subservice: extensibility-integration
 ---
 # Create a .vsct file
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 There are several ways to create an XML-based Visual Studio command table configuration (*.vsct*) file.
 
 - You can create a new VSPackage in the Visual Studio package template.

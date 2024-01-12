@@ -11,8 +11,6 @@ monikerRange: ">=vs-2019"
 ---
 # Use Design Time Data with the XAML Designer in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Some layouts are hard to visualize without data. In this document, we'll be reviewing one of the approaches developers working on desktop projects can use to mock data in the XAML designer. This approach is done using the existing Ignorable “d:” namespace. With this approach you can quickly add design-time data to your pages or controls without the need to create a full mock ViewModel, or just test how a property change might affect your application without worrying that these changes will impact your release builds. All d: data is used only by the XAML Designer and no ignorable namespace values are compiled into the application.
 
 > [!NOTE]

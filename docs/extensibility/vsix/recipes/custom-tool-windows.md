@@ -11,8 +11,6 @@ ms.subservice: extensibility-integration
 ---
 # Build custom tool windows
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Custom tool windows are great options for adding complex UI to Visual Studio.
 
 A tool window is a core UI concept in Visual Studio, and the following video will show you how to add a custom window.

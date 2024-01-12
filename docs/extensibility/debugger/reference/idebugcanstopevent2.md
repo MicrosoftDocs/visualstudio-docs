@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDebugCanStopEvent2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface is used to ask the session debug manager (SDM) whether to stop at the current code location.
 
 ## Syntax

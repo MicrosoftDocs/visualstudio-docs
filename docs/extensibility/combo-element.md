@@ -13,7 +13,6 @@ ms.subservice: extensibility-integration
 ---
 # Combo element
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Defines commands that appear in a combo box. There are four kinds of combo boxes, as follows: DropDownCombo, DynamicCombo, IndexCombo, and MRUCombo.
 
 ## Syntax

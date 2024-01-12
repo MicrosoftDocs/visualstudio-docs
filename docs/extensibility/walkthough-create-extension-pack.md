@@ -11,8 +11,6 @@ manager: Meng
 ---
 # Walkthrough: Create an Extension Pack
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 An Extension Pack is a set of extensions that can be installed together. Extension Packs enable you to easily share your favorite extensions with other users or bundle a set of extensions together for a particular scenario.
 
 ## Create an extension with an Extension Pack item template

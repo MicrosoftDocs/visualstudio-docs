@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugBreakpointRequest3::GetRequestInfo2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the breakpoint request information that describes this breakpoint request.
 
 ## Syntax

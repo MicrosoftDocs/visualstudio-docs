@@ -31,7 +31,6 @@ By default, **Ask** is selected. You'll receive the following prompt when extern
 
 ![Screenshot of prompt that appears when external code is found for a NuGet package](media/source-link2.png)
 
-
 ## See also
 
 - The [Source Link GitHub repository](https://github.com/dotnet/sourcelink/blob/master/README.md)

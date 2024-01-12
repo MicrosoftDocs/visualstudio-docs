@@ -15,8 +15,6 @@ manager: jmartens
 ---
 # Build Page, Project Designer (C#)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Use the **Build** page of the **Project Designer** to specify the project's build configuration properties. This page applies to Visual C# projects only.
 
 To access the **Build** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **View**, **Property Pages** on the menu. When the Project Designer appears, choose the **Build** tab.

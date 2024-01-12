@@ -13,7 +13,6 @@ ms.subservice: extensibility-integration
 ---
 # Bitmaps element
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Groups [Bitmap element](../extensibility/bitmap-element.md) elements.
 
 ## Syntax

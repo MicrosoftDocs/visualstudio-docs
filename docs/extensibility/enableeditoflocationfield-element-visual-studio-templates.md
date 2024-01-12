@@ -13,7 +13,6 @@ manager: jmartens
 ---
 # EnableEditOfLocationField element (Visual Studio templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies if the user can edit the location field.
 
  \<VSTemplate>

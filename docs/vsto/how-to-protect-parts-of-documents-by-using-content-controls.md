@@ -22,7 +22,6 @@ ms.subservice: office-development
 ---
 # Protect parts of documents by using content controls
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When you protect part of a document, you prevent users from changing or deleting the content in that part of the document. There are several ways you can protect parts of a Microsoft Office Word document by using content controls:
 
 - You can protect a content control.

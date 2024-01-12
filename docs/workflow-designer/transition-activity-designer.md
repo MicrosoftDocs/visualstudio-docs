@@ -12,8 +12,6 @@ ms.subservice: workflow-designer
 ---
 # Transition Activity Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 A <xref:System.Activities.Statements.Transition> represents the transition between two states.
 
 ## Using the Transition Activity Designer

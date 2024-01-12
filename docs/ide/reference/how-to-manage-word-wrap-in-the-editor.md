@@ -14,8 +14,6 @@ ms.subservice: general-ide
 ---
 # Manage word wrap in the editor
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 You can set and clear the **Word wrap** option. When this option is set, the portion of a long line that extends beyond the current width of the Code Editor window is displayed on the next line. When this option is cleared&mdash;for example, to facilitate the use of line numbering&mdash;you can scroll to the right to see the ends of long lines.
 
 > [!NOTE]

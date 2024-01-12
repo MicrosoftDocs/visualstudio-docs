@@ -366,7 +366,6 @@ First, rename the `name` variable:
 
    The variable is renamed across the project, which in our case is only two places.
 
-
 1. Now take a look at IntelliSense. Below the line that says `Console.WriteLine($"\nHello {username}!");`, type `DateTime now = DateTime.`.
 
    A box displays the members of the <xref:System.DateTime> class. The description of the currently selected member also displays in a separate box.

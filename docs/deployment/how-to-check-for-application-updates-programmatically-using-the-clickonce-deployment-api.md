@@ -17,7 +17,6 @@ ms.subservice: deployment
 ---
 # Check for application updates programmatically using the ClickOnce deployment API
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ClickOnce provides two ways to update an application once it is deployed. In the first method, you can configure the ClickOnce deployment to check automatically for updates at certain intervals. In the second method, you can write code that uses the <xref:System.Deployment.Application.ApplicationDeployment> class to check for updates based on an event, such as a user request.
 
   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]

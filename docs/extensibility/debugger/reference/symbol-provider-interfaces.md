@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # Symbol Provider Interfaces
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following are the Symbol Handling Interfaces for the Visual Studio SDK.
 
 ## Discussion

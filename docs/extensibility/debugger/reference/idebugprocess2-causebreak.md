@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProcess2::CauseBreak
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Requests that the next program that is running code in this process halt and send an [IDebugBreakEvent2](../../../extensibility/debugger/reference/idebugbreakevent2.md) event object.
 
 ## Syntax

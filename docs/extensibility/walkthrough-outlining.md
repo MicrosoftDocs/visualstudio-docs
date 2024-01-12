@@ -15,7 +15,6 @@ dev_langs:
 ---
 # Walkthrough: Outlining
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Set up language-based features such as outlining by defining the kinds of text regions you want to expand or collapse. You can define regions in the context of a language service, or define your own file name extension and content type and apply the region definition to only that type, or apply the region definitions to an existing content type (such as "text"). This walkthrough shows how to define and display outlining regions.
 
 ## Create a Managed Extensibility Framework (MEF) project

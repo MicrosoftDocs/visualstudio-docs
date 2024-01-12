@@ -20,7 +20,6 @@ ms.subservice: office-development
 ---
 # Programmatically insert text into Word documents
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   There are three primary ways to insert text into Microsoft Office Word documents:
 
 - Insert text in a range.

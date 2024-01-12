@@ -15,8 +15,6 @@ ms.subservice: installation
 ---
 # Create an offline installation package of Visual Studio for local installation
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 We designed Visual Studio to work well in various computer configurations. The information on this page discusses how to create an offline installation package of files for installation on the **local machine**.
 
 > [!IMPORTANT]
@@ -77,7 +75,6 @@ Open a command prompt with administrator privileges, navigate to the directory w
     
 - You can also [use an exported vsconfig file](create-a-network-installation-of-visual-studio.md#use-a-vsconfig-file-to-customize-the-contents-of-your-layout) to customize the layout content, [verify](create-a-network-installation-of-visual-studio.md?#verify-a-layout) a layout or [fix](create-a-network-installation-of-visual-studio.md?#fix-a-layout) a layout.
 
-
 ### Step 3 - Install Visual Studio from the local layout
 When you install Visual Studio from a local layout, the Visual Studio installer uses the local versions of the files. But, if you select components during installation that aren't in the layout, then the Visual Studio installer will attempt to download them from the internet. To make sure that you install only the files that you've previously downloaded, use the same [command-line options](use-command-line-parameters-to-install-visual-studio.md) that you used to create the local layout. To make sure your installer doesn't try to access the internet when it's installing the product, use the `--noweb` switch.
 
@@ -116,7 +113,6 @@ c:\localVSlayout\vs_enterprise.exe --noWeb --add Microsoft.VisualStudio.Workload
 
 > [!NOTE]
 > If you get an error that a signature is invalid, you must [install updated certificates](install-certificates-for-visual-studio-offline.md). Open the Certificates folder in your local layout. Double-click each of the certificate files, and then click through the Certificate Manager wizard. If you're asked for a password, leave it blank.
-
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

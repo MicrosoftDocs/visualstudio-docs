@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDebugProgram2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a program that is running in a process.
 
 ## Syntax

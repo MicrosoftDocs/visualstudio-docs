@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugComPlusSymbolProvider::GetAttributedClassesForLanguage
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the classes with the specified attribute that are implemented in the specified programming language.
 
 ## Syntax

@@ -33,7 +33,6 @@ ms.subservice: office-development
 ---
 # Office project templates overview
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The Microsoft Office developer tools in Visual Studio include project templates for creating the following types of Office solutions:
 
 - [Document-level customizations](#DocLevel)

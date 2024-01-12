@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugEngine2::ContinueFromSynchronousEvent
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Called by the session debug manager (SDM) to indicate that a synchronous debug event, previously sent by the debug engine (DE) to the SDM, was received and processed.
 
 ## Syntax

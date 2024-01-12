@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugBinder3::GetAllAliases
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method retrieves a list of aliases from the program.
 
 ## Syntax

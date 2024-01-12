@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugCoreServer2::GetMachineInfo
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a description of the machine the core server is running on.
 
 ## Syntax

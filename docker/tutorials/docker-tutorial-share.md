@@ -25,7 +25,6 @@ In this tutorial, you learn how to:
 
 This tutorial continues the previous tutorial, [Create a Docker app with Visual Studio Code](docker-tutorial.md). To continue here, you'll need the running todo list manager from part 1.
 
-
 ## Update the code and replace the container
 
 Let's make a few changes and learn about managing your containers.
@@ -77,7 +76,6 @@ Let's make a few changes and learn about managing your containers.
 1. Refresh your browser on `http://localhost:3000` to see your updated help text.
 
    ![Screenshot shows the sample application with the modified text, described above.](media/todo-list-updated-empty-text.png)
-
 
 ## Share your image
 

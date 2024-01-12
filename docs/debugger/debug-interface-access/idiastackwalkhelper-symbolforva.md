@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaStackWalkHelper::symbolForVA
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the symbol that contains the specified virtual address.
 
 ## Syntax

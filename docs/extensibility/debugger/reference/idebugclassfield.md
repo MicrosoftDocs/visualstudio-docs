@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDebugClassField
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a class as a type.
 
 ## Syntax

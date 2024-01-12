@@ -11,8 +11,6 @@ ms.subservice: extensibility-integration
 ---
 # Getting started guide on Visual Studio extensions toolkit
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 The goal of the getting started guide is to give you a basic understanding of Visual Studio extensions and get you on the right path to write successful extensions.
 
 :::image type="content" source="../media/toolkit-intellisense.gif" alt-text="IntelliSense for the extensibility API.":::

@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugCodeContext2::GetLanguageInfo
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the language information for this code context.
 
 ## Syntax

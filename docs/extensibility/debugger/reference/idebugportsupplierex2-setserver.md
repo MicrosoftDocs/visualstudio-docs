@@ -15,7 +15,6 @@ dev_langs:
 ---
 # IDebugPortSupplierEx2::SetServer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the core server for the port supplier.
 
 ## Syntax

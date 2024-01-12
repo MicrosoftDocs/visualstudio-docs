@@ -30,8 +30,6 @@ ms.subservice: debug-diagnostics
 ---
 # View the call stack and use the Call Stack window in the debugger
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 By using the **Call Stack** window, you can view the function or procedure calls that are currently on the stack. The **Call Stack** window shows the order in which methods and functions are getting called. The call stack is a good way to examine and understand the execution flow of an app.
 
 When [debugging symbols](#bkmk_symbols) are not available for part of a call stack, the **Call Stack** window might not be able to display correct information for that part of the call stack, displaying instead:
@@ -78,7 +76,6 @@ To display external or non-user code, toggle the **Show External Code** button f
 Non-user code is any code that is not shown when [Just My Code](../debugger/just-my-code.md) is enabled. In managed code, non-user code frames are hidden by default. The following notation appears in place of the non-user code frames:
 
 `[<External Code>]`
-
 
 ## <a name="bkmk_switch"></a> Switch to another stack frame (change the debugger context)
 

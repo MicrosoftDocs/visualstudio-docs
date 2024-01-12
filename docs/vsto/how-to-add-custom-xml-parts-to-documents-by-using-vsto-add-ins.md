@@ -22,7 +22,6 @@ ms.subservice: office-development
 ---
 # Add custom XML parts to documents by using VSTO Add-ins
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can store XML data in the following types of documents by creating a custom XML part in a VSTO Add-in:
 
 - A Microsoft Office Excel workbook.

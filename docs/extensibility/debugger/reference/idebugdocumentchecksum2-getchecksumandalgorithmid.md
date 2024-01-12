@@ -16,7 +16,6 @@ dev_langs:
 ---
 # IDebugDocumentChecksum2::GetChecksumAndAlgorithmId
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the document checksum and algorithm identifier given the maximum number of bytes to use.
 
 ## Syntax

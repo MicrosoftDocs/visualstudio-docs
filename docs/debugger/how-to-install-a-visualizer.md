@@ -19,7 +19,6 @@ ms.subservice: debug-diagnostics
 ---
 # Install a Visualizer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 After you have created a visualizer, you must install the visualizer so that it will be available in Visual Studio. Installing a visualizer is a simple process.
 
 > [!NOTE]

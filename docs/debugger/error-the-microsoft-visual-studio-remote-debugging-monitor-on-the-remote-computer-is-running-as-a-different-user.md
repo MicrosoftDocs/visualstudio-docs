@@ -23,7 +23,6 @@ ms.subservice: debug-diagnostics
 ---
 # Error: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer is running as a different user
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When trying to do remote debugging, you may get the following error message:
 
  The Microsoft Visual Studio Remote Debugging Monitor on the remote computer is running as a different user.

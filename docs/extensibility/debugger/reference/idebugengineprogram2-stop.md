@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugEngineProgram2::Stop
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Stops all threads running in this program.
 
 ## Syntax

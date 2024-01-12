@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugObject::IsNullReference
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Tests whether this object is a null reference.
 
 ## Syntax

@@ -16,7 +16,6 @@ ms.subservice: deployment
 ---
 # &lt;customErrorReporting&gt; element (ClickOnce deployment)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies a URI to show when an error occurs.
 
 ## Syntax

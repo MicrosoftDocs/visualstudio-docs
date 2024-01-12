@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDebugEngine3
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Represents a single debug engine (DE) that controls the debugging of one or more modules.
 
 ## Syntax

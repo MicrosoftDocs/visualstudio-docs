@@ -14,8 +14,6 @@ ms.subservice: extensibility-integration
 ---
 # Discovering available brokered services
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Brokered services can be exposed by Visual Studio or its extensions.
 This document describes how to discover brokered services exposed by Visual Studio.
 

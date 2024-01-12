@@ -12,7 +12,6 @@ ms.subservice: extensibility-integration
 ---
 # Project Type Essentials
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Visual Studio includes several project types for languages such as Visual C# or Visual Basic. Visual Studio also lets you create your own project types.
 
  If you just want to add custom commands, editors, or tool windows to Visual Studio, you can do so without creating a new project type. For more information, see the following topics:

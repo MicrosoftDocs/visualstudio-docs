@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugDisassemblyStream2::GetDocument
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the source document associated with this input stream.
 
 ## Syntax

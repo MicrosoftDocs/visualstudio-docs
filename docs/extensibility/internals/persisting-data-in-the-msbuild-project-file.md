@@ -12,7 +12,6 @@ ms.subservice: extensibility-integration
 ---
 # Persisting Data in the MSBuild Project File
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A project subtype may need to persist subtype-specific data into the project file for later use. A project subtype uses project file persistence to meet the following requirements:
 
 1. Persist data used as part of building the project. (For more information on the Microsoft Build Engine, see [MSBuild](../../msbuild/msbuild.md).) Build-related information can either:

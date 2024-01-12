@@ -10,7 +10,6 @@ ms.subservice: extensibility-integration
 ---
 # Image Service Tools
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The VS SDK includes several tools to help extension builders use the Visual Studio image service.
 
 - The [Manifest from Resources](../../extensibility/internals/manifest-from-resources.md) tool takes a list of image resources (.png or .xaml files) and generates an image manifest file.

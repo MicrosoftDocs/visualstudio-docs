@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaLoadCallback::NotifyDebugDir
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Called when a debug directory was found in the .exe file.
 
 ## Syntax

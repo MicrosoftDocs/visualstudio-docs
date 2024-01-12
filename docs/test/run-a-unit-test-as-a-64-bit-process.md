@@ -13,8 +13,6 @@ author: mikejo5000
 ---
 # Run a unit test as a 64-bit process
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 If you have a 64-bit machine, you can run unit tests and capture code coverage information as a 64-bit process.
 
 ## To run a unit test as a 64-bit process

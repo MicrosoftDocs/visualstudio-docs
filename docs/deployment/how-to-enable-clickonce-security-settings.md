@@ -18,8 +18,6 @@ ms.subservice: deployment
 ---
 # Enable and configure ClickOnce security settings in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 You can enable and configure ClickOnce security settings in the **Security** page of the **Project Designer**. In this article, you learn how to enable security settings, configure security zones, and configure customized security zones.
 
  [!INCLUDE[ndptecclick](../deployment/includes/dotnet-task-unsupported.md)]

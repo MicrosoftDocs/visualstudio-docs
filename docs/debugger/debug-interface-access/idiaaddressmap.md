@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaAddressMap
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Provides control over how the DIA SDK computes virtual and relative virtual addresses for debug objects.
 
 ## Syntax

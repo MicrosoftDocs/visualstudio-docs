@@ -11,8 +11,6 @@ ms.subservice: general-ide
 ---
 # Create a Git repository from Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Visual Studio makes it easy to create a repo right from the IDE. Repository creation from Visual Studio is optimized for GitHub, but you can work remotely with the Git provider of your choice.  Here's how.
 
 ## Prerequisites

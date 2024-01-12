@@ -22,7 +22,6 @@ ms.subservice: deployment
 ---
 # Publish ClickOnce applications
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When publishing a ClickOnce application for the first time, publish properties can be set using the Publish Wizard. Only a few of the properties are available in the wizard; all other properties are set to their default values.
 
  Subsequent changes to publish properties are made on the **Publish** page in the **Project Designer**.

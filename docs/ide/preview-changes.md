@@ -12,8 +12,6 @@ f1_keywords:
 ---
 # Preview Changes window
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 When using various [Quick Actions](../ide/quick-actions.md) or [Refactoring](../ide/refactoring-in-visual-studio.md) tools in Visual Studio, it is often possible to preview changes that are going to be made to your project prior to accepting them. The **Preview Changes** window is where this is done.  
 
 The top half of the window shows the specific lines that will be changed, each with a checkbox. You can check or uncheck each checkbox if you want to selectively apply the refactoring to only specific lines.

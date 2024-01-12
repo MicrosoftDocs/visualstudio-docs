@@ -17,7 +17,6 @@ dev_langs:
 ---
 # BP_COND_STYLE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the breakpoint condition style for pending and bound breakpoints.
 
 ## Syntax

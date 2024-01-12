@@ -15,8 +15,6 @@ dev_langs:
 ---
 # PORT_SUPPLIER_DESCRIPTION_FLAGS
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Defines the metadata that can be retrieved about a port supplier.
 
 ## Syntax

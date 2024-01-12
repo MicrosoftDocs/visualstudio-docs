@@ -18,7 +18,6 @@ dev_langs:
 ---
 # IDebugMemoryContext2::GetInfo
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a [CONTEXT_INFO](../../../extensibility/debugger/reference/context-info.md) structure that describes the context.
 
 ## Syntax

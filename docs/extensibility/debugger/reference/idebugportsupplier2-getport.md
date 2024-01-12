@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugPortSupplier2::GetPort
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets a port from a port supplier.
 
 ## Syntax

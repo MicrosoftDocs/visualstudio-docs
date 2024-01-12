@@ -10,8 +10,6 @@ ms.subservice: python
 ---
 # Remotely debug Python code on Linux
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 ::: moniker range=">= vs-2019"
 
 [!include[Debugging Python code](includes/vs-2019/remote-debugging-python-code.md)]

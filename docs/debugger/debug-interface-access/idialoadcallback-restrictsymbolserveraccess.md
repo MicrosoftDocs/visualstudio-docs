@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaLoadCallback::RestrictSymbolServerAccess
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if access is allowed to a symbol server to resolve symbols.
 
 ## Syntax

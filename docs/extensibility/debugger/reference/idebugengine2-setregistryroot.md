@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugEngine2::SetRegistryRoot
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the registry root for the debug engine (DE).
 
 ## Syntax

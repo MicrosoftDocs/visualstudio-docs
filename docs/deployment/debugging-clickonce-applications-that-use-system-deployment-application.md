@@ -19,7 +19,6 @@ ms.subservice: deployment
 ---
 # Debug ClickOnce applications that use System.Deployment.Application
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In Visual Studio, ClickOnce deployment allows you to configure how an application is updated. However, if you need to use and customize advanced ClickOnce deployment features, you'll need to access the deployment object model provided by <xref:System.Deployment.Application>. You can use the <xref:System.Deployment.Application> APIs for advanced tasks such as:
 
 - Creating an "Update Now" option in your application

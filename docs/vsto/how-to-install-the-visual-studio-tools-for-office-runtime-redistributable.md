@@ -17,8 +17,6 @@ ms.subservice: office-development
 ---
 # Install the Visual Studio Tools for Office Runtime Redistributable
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
    Each computer that runs solutions created by using the Visual Studio in Visual Studio, must install the Visual Studio 2010 Tools for Office runtime. The runtime is installed automatically when you install Visual Studio, and Microsoft Office. For more information, see [Visual Studio Tools for Office runtime installation scenarios](../vsto/visual-studio-tools-for-office-runtime-installation-scenarios.md).
 
 [!include[Add-ins note](includes/addinsnote.md)]

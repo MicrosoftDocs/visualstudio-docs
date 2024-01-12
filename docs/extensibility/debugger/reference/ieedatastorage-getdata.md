@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IEEDataStorage::GetData
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the specified number of bytes from the object.
 
 ## Syntax

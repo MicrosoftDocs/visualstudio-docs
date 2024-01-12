@@ -11,8 +11,6 @@ ms.subservice: extensibility-integration
 ---
 # Displaying notifications in Visual Studio extensions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 There are several mechanisms for displaying notifications to the user of your extension. Picking the right one can be challenging, so let's look at the options.
 
 * Status bar

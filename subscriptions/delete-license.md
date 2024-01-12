@@ -91,7 +91,6 @@ admin on the agreement through which the subscriptions were purchased.
 0. You should now see only the users you need to delete.  You can select one user, then use CTRL+A to select them all, and choose **Delete**.
 0. Clear the filter field to display your updated subscriber list.  
 
-
 ## Resources
 
 [Subscriptions Support](https://aka.ms/vsadminhelp)

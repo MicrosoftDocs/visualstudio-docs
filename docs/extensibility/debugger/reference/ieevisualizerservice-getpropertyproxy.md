@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IEEVisualizerService::GetPropertyProxy
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method returns a proxy for a property object.
 
 ## Syntax

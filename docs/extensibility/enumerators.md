@@ -12,7 +12,6 @@ ms.subservice: extensibility-integration
 ---
 # Enumerators
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This section lists the enumerator data types in the Source Control Plug-in API that the source control plug-in must know about.
 
 ## In this section

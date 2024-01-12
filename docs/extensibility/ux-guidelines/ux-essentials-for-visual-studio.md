@@ -10,8 +10,6 @@ ms.subservice: extensibility-integration
 ---
 # UX Essentials for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 ## Best practices
 
 ### 1. Be consistent within the Visual Studio environment.

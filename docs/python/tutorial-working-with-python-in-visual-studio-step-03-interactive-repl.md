@@ -12,8 +12,6 @@ ms.subservice: python
 
 # Step 3: Use the Interactive REPL window
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 **Previous step: [Write and run code](tutorial-working-with-python-in-visual-studio-step-02-writing-code.md)**
 
 The Visual Studio **Interactive Window** for Python provides a rich read-evaluate-print-loop (REPL) experience that greatly shortens the usual edit-build-debug cycle. The **Interactive Window** provides all the capabilities of the REPL experience of the Python command line. It also makes it easy to exchange code with source files in the Visual Studio editor, which is otherwise cumbersome with the command line.

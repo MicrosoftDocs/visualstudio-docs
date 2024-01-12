@@ -10,9 +10,7 @@ ms.subservice: extensibility-integration
 ---
 # Notifications and Progress for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## <a name="BKMK_NotificationSystems"></a> Notification systems
-
 
  There are several ways to inform the user what is happening in Visual Studio regarding their software development tasks.
 
@@ -123,7 +121,6 @@ ms.subservice: extensibility-integration
  **Notification bubble in the Windows Notification area used for Visual Studio**
 
 ## <a name="BKMK_ProgressIndicators"></a> Progress indicators
-
 
  Progress indicators are an important part of a notification system for giving the user feedback. They tell the user when processes and operations will complete. Familiar indicator types include progress bars, spinning cursors, and animated icons. The type and placement of a progress indicator depends on the context, including what is being reported and how long the process or operation will take to complete.
 
@@ -277,7 +274,6 @@ ms.subservice: extensibility-integration
  **Output Window with ongoing process status and wait messaging**
 
 ## <a name="BKMK_Infobars"></a> Infobars
-
 
  Infobars give the user an indicator close to their point of attention and using the shared infobar control ensures consistency in visual appearance and interaction.
 

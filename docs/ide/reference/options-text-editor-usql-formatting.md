@@ -16,8 +16,6 @@ ms.subservice: general-ide
 ---
 # Options, Text Editor, U-SQL, Formatting
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Use the **Formatting** options page to set options for formatting code in the code editor. To access this options page, choose **Tools** > **Options**. In the **Options** dialog box, choose **Text Editor** > **U-SQL** > **Formatting**.
 
 ## General page

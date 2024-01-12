@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProgramNode2::GetHostPid
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the system process identifier for the process hosting the program.
 
 ## Syntax

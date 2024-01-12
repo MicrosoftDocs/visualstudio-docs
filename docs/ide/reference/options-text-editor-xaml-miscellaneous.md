@@ -30,8 +30,6 @@ ms.subservice: general-ide
 ---
 # Options, Text Editor, XAML, Miscellaneous
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Use the **Miscellaneous** property page to specify how elements and attributes are formatted in your XAML documents. To open the **Options** dialog box, click the **Tools** menu and then click **Options**. To access the **Miscellaneous** property page, expand the **Text Editor** > **XAML** > **Miscellaneous** node.
 
 ## Auto Insert

@@ -11,8 +11,6 @@ ms.subservice: xaml-tools
 ---
 # Modify the style of objects in Blend for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 The easiest way to customize an object is to set properties in the **Properties** pane.
 
 If you want reuse settings or groups of settings, create a reusable resource. This could be a *style*, *template*, or something simple like a custom color. You can also make a control appear differently based on its state. For example, a button turns green when the user clicks it.

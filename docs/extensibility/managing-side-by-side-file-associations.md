@@ -12,8 +12,6 @@ ms.subservice: extensibility-integration
 ---
 # Manage side-by-side file associations
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 If your VSPackage provides file associations, you must decide how to handle side-by-side installations in which a particular version of Visual Studio should be invoked to open a file. Incompatible file formats compound the issue.
 
 Users expect a new version of a product to be compatible with earlier versions, so that existing files can be loaded in a new version without losing data. Ideally, your VSPackage can both load and save the file formats of earlier versions. If that is not true, you should offer to upgrade the file format to the new version of your VSPackage. The downside to this approach is that the upgraded file cannot be opened in the earlier version.

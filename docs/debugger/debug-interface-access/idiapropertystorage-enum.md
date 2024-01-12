@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaPropertyStorage::Enum
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets an enumerator for properties within this set.
 
 ## Syntax

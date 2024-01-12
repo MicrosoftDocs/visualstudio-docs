@@ -33,8 +33,6 @@ ms.subservice: general-ide
 ---
 # Options dialog box: Environment \> Documents
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Use this page of the **Options** dialog box to control the display of documents in the integrated development environment (IDE) and manage external changes to documents and files. You can access this dialog box by clicking **Options** on the **Tools** menu and then selecting **Environment** > **Documents**.
 
 **Detect when file is changed outside the environment**

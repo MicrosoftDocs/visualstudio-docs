@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaLineNumber::get_addressSection
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the section part of the memory address where a block begins.
 
 ## Syntax

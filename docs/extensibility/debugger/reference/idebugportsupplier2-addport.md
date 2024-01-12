@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugPortSupplier2::AddPort
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Adds a port.
 
 ## Syntax

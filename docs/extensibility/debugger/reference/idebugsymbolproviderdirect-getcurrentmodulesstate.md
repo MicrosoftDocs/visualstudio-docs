@@ -16,7 +16,6 @@ dev_langs:
 ---
 # IDebugSymbolProviderDirect::GetCurrentModulesState
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves information about the symbol group of which the symbol provider is a member.
 
 ## Syntax

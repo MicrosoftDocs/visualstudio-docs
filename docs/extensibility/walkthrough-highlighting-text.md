@@ -12,7 +12,6 @@ ms.subservice: extensibility-integration
 ---
 # Walkthrough: Highlight text
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can add different visual effects to the editor by creating Managed Extensibility Framework (MEF) component parts. This walkthrough shows how to highlight every occurrence of the current word in a text file. If a word occurs more than one time in a text file, and you position the caret in one occurrence, every occurrence is highlighted.
 
 ## Create a MEF project

@@ -13,7 +13,6 @@ ms.subservice: extensibility-integration
 ---
 # Registering Interop Assembly Command Handlers
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A VSPackage must register with Visual Studio so that the integrated development environment (IDE) routes its commands properly.
 
  The registry can be updated either by manual editing or by using a Registrar (.rgs) file. For more information, see [Creating Registrar Scripts](/cpp/atl/creating-registrar-scripts).

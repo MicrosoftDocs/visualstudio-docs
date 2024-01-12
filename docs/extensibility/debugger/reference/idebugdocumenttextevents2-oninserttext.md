@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugDocumentTextEvents2::onInsertText
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Notifies the debug package that text has been inserted into the document.
 
 ## Syntax

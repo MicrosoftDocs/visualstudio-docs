@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugExpressionEvaluator::GetMethodProperty
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets a property object that contains the locals, arguments, and other properties of a method.
 
 ## Syntax

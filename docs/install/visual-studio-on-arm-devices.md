@@ -11,8 +11,6 @@ ms.subservice: installation
 ---
 # Visual Studio on Arm-powered devices
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 ::: moniker range="vs-2019"
 
 Visual Studio is built to target processors based on the x86 architecture, and there are no versions of Visual Studio for ARM-based processors.

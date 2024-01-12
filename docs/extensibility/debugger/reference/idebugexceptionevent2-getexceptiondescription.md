@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugExceptionEvent2::GetExceptionDescription
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets a displayable description of the exception.
 
 ## Syntax

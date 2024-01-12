@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugEngine2::CreatePendingBreakpoint
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates a pending breakpoint in the debug engine (DE).
 
 ## Syntax

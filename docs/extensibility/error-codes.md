@@ -14,7 +14,6 @@ ms.subservice: extensibility-integration
 ---
 # Error codes
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When a Source Control Plug-in API function returns an error, it is expected to be one of the following error codes. All errors are negative, warnings or informational error codes are positive, and success is 0.
 
 |Error Code|Value|Description|

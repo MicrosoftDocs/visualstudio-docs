@@ -12,8 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # Log info to the Output window using tracepoints in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Tracepoints allow you to log information to the Output window under configurable conditions without modifying or stopping your
 code. This feature is supported for both managed languages (C#, Visual Basic, F#) and native code as well as languages such as JavaScript and Python.
 

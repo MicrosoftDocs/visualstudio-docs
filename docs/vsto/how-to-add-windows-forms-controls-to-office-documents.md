@@ -18,7 +18,6 @@ ms.subservice: office-development
 ---
 # Add Windows Forms controls to Office documents
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can add Windows Forms controls to Microsoft Office Excel and Microsoft Office Word documents at design time in document-level projects. At run time, you can add controls in document-level customizations and in VSTO Add-ins. For example, you can add a <xref:Microsoft.Office.Tools.Excel.Controls.ComboBox> control to your worksheet so that users can select from a list of options.
 
  [!INCLUDE[appliesto_controls](../vsto/includes/appliesto-controls-md.md)]

@@ -12,7 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDebugGenericParamField
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Represents a parameter for a managed code generic type.
 
 ## Syntax

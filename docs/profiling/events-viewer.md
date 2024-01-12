@@ -12,8 +12,6 @@ ms.subservice: debug-diagnostics
 ---
 # Events viewer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 In the Performance Profiler, you can collect diagnostic info while your app is running, and then examine the collected information after the app stops like a post-mortem analysis.
 
 The generic events viewer shows app activity through a list of events like module load, thread start, and system configuration. This view helps you better diagnose how your app is doing within the Visual Studio profiler.
@@ -114,7 +112,6 @@ Here's an example of custom event code for C++.
 #include <evntprov.h>
 #include <iostream>
 #include <thread>
-
 
 // This GUID must be regenerated so it is unique for your provider
 // {7369B7AC-64EB-4618-B6B6-C8442B12E8F2}

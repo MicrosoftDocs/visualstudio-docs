@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaStackWalkFrame::searchForReturnAddressStart
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Searches the specified stack frame for a return address at or near the specified address.
 
 ## Syntax

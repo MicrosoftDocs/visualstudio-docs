@@ -105,7 +105,6 @@ Explore further:
 
 ::: moniker-end
 
-
 ## Next steps
 
 - [Install Visual Studio for Mac](installation.md)

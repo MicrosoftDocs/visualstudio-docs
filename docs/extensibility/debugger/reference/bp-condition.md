@@ -17,7 +17,6 @@ dev_langs:
 ---
 # BP_CONDITION
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the conditions under which a breakpoint fires.
 
 ## Syntax

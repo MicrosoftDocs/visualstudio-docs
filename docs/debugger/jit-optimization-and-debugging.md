@@ -18,7 +18,6 @@ ms.subservice: debug-diagnostics
 ---
 # JIT Optimization and Debugging
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 If you are trying to debug code, it is easier when that code is **NOT** optimized. When code is optimized, the compiler and runtime make changes to the emitted CPU code so that it runs faster, but has a less direct mapping to original source code. If the mapping is less direct, debuggers are frequently unable to tell you the value of local variables, and code stepping and breakpoints might not work as you expect.
 
 > [!NOTE]

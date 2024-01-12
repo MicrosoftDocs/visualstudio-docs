@@ -11,12 +11,9 @@ monikerRange: "<=vs-2019"
 ---
 # Browse and manage storage resources by using Server Explorer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 [!INCLUDE [storage-try-azure-tools](./includes/storage-try-azure-tools.md)]
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
-
 
 
 If you've installed Azure workload for Microsoft Visual Studio 2019, you can view blob, queue, and table data from your storage accounts for Azure. The Azure **Storage** node in Server Explorer shows data that’s in your local storage emulator account and your other Azure storage accounts.

@@ -13,7 +13,6 @@ ms.subservice: extensibility-integration
 ---
 # Installing VSPackages With Windows Installer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Integrating your VSPackage into Visual Studio requires more than just copying files to a user's computer. Your VSPackage's installer must install the VSPackage and its dependent files, and register and integrate them into Visual Studio. Your VSPackage can take advantage of integration features such as displaying an icon on the Visual Studio splash screen and About dialog box.
 
  Microsoft Windows Installer files are the recommended way to distribute your VSPackages. Easy-to-use Windows Installer packages can run on any Windows operating system supported by Visual Studio. For more information, see [Windows Installer](/previous-versions/2kt85ked(v=vs.120)).

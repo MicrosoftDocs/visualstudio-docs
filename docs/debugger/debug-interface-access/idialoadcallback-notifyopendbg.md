@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaLoadCallback::NotifyOpenDBG
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Called when a candidate .dbg file has been opened.
 
 ## Syntax

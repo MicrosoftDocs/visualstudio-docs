@@ -10,8 +10,6 @@ ms.subservice: ui-designers
 ---
 # Work with 3D assets for games and apps
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This article describes the Visual Studio tools that you can use to create or modify 3D models, textures, and shaders for DirectX-based games and apps.
 
 ## DirectX app development in Visual Studio

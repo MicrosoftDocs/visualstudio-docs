@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugSymbolProvider::GetNextAddress
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the debug address that follows a given debug address in a method.
 
 ## Syntax

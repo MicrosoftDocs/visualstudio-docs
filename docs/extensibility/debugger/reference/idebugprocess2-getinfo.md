@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProcess2::GetInfo
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets a description of the process.
 
 ## Syntax

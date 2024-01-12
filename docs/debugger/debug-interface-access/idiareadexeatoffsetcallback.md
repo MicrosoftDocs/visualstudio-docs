@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaReadExeAtOffsetCallback
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enables a client application to supply bytes of an executable file as  specified by file position.
 
 ## Syntax

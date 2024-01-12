@@ -15,8 +15,6 @@ ms.subservice: general-ide
 ---
 # User permissions and Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 For reasons of security, you should run Visual Studio as a typical user whenever possible.
 
 > [!WARNING]

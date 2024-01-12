@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaAddressMap::set_imageHeaders
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets image headers to enable relative virtual address translation.
 
 ## Syntax

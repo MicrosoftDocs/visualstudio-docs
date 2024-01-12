@@ -13,7 +13,6 @@ ms.subservice: debug-diagnostics
 ---
 # Spy++ Views
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Spy ++ displays tree views of the windows, messages, processes, and threads available on your machine.
 
 ## In This Section

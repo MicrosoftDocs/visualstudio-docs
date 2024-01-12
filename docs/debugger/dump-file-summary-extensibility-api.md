@@ -15,7 +15,6 @@ ms.subservice: debug-diagnostics
 ---
 # Dump File Summary Extensibility API
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Using the extensibility APIs in this section, you can extend the .Exe Project System and the **Dump Summary** page for use with your own custom debug engine.
 
 ## In This Section

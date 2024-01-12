@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugProperty3::GetCustomViewerCount
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the number of custom viewers that might be available for this property.
 
 ## Syntax

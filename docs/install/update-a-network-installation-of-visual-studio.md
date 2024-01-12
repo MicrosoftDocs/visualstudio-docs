@@ -14,8 +14,6 @@ ms.subservice: installation
 ---
 # Update a Visual Studio client that was installed from a layout
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 You can and should periodically update all Visual Studio installations so that they receive the latest security and functionality fixes. 
 
 If Visual Studio is installed on a machine in an organization and was originally installed from a layout, then most likely the client machine is part of a "managed environment", meaning that it is governed by a central administrative team and must adhere to organizational policies. To update client machines in managed environments, consider the questions below because the answers will inform how you should approach the update process. 

@@ -13,8 +13,6 @@ manager: jmartens
 ---
 # Walkthrough: Create a multiple-computer build environment
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 You can create a build environment within your organization by installing Visual Studio on a host computer and then copying various files and settings to another computer so that it can participate in builds. You don't have to install Visual Studio on the other computer.
 
 This document does not confer rights to redistribute the software externally or to provide build environments to third parties.

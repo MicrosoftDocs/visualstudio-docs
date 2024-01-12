@@ -16,7 +16,6 @@ dev_langs:
 ---
 # BP_LOCATION_CODE_FILE_LINE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Contains the data for the location of a breakpoint at a specific line in a code source file.
 
 ## Syntax

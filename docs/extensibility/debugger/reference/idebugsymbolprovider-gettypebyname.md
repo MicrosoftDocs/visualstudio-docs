@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugSymbolProvider::GetTypeByName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method maps a symbol name to a symbol type.
 
 ## Syntax

@@ -14,7 +14,6 @@ ms.subservice: debug-diagnostics
 ---
 # MemoryTypeEnum
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the type of memory to access.
 
 ## Syntax

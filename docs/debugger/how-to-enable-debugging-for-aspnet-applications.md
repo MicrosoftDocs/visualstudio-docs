@@ -19,8 +19,6 @@ ms.subservice: debug-diagnostics
 ---
 # Debug ASP.NET or ASP.NET Core apps in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 You can debug ASP.NET and ASP.NET Core apps in Visual Studio. The process differs between ASP.NET and ASP.NET Core, and whether you run it on IIS Express or a local IIS server.
 
 >[!NOTE]

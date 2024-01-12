@@ -14,8 +14,6 @@ ms.subservice: general-ide
 ---
 # Support for bidirectional languages in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Visual Studio can display Arabic and Hebrew text correctly and lets you enter bidirectional text for object names and values.
 
 > [!NOTE]

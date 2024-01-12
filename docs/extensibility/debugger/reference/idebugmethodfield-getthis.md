@@ -17,7 +17,6 @@ dev_langs:
 ---
 # IDebugMethodField::GetThis
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the `this` (`Me` in Visual Basic) pointer of the object containing the method.
 
 ## Syntax

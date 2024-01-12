@@ -16,8 +16,6 @@ ms.subservice: debug-diagnostics
 ---
 # Debug Interface Access SDK Reference
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 A complete reference to all of the interfaces and supporting enumerations and structures in the DIA SDK.
 
 ## In This Section

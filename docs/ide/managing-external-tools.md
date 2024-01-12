@@ -14,8 +14,6 @@ ms.subservice: general-ide
 ---
 # Manage external tools
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 You can call external tools from inside Visual Studio by using the **Tools** menu. A few default tools are available from the **Tools** menu, and you can customize the menu by adding other executables of your own.
 
 ## Tools available on the Tools menu

@@ -19,7 +19,6 @@ ms.subservice: installation
 ---
 # Administrative Templates (ADMX) 
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
  
 IT Administrators in organizations may want to control certain aspects of Visual Studio behavior to achieve consistency, compliance, or compatibility across their client machines. An easy way to accomplish this level of control is to configure and then deploy group policy settings to the client machines. The Visual Studio policies are consolidated in the [Visual Studio ADMX Template](https://aka.ms/vs/admx/details) into different categories, making them easily understandable and discoverable.   
 
