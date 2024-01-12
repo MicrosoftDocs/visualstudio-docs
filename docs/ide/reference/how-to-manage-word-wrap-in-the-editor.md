@@ -1,6 +1,6 @@
 ---
-title: Word wrap
-description: Learn how to turn the word wrap option on and off in the code editor.
+title: Toggle word wrap to see long code or line numbers
+description: Enable word wrapping in Visual Studio so long lines of code display on multiple lines in the Code Editor, or turn the feature off to see line numbers.
 ms.date: 04/06/2023
 ms.topic: how-to
 helpviewer_keywords:
@@ -10,11 +10,9 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Manage word wrap in the editor
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can set and clear the **Word wrap** option. When this option is set, the portion of a long line that extends beyond the current width of the Code Editor window is displayed on the next line. When this option is cleared&mdash;for example, to facilitate the use of line numbering&mdash;you can scroll to the right to see the ends of long lines.
 
@@ -47,6 +45,6 @@ If you're familiar with word wrap in Notepad++, Sublime Text, or Visual Studio C
 * [Triple click doesn't select whole line](https://developercommunity.visualstudio.com/t/fix-known-issues-in-word-wrap/351760)
 * [Pressing End key twice doesn't move cursor to end of line](https://developercommunity.visualstudio.com/t/fix-known-issues-in-word-wrap/351760)
 
-## See also
+## Related content
 
 [Features of the code editor](../writing-code-in-the-code-and-text-editor.md)

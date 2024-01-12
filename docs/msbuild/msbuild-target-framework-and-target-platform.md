@@ -1,12 +1,12 @@
 ---
 title: MSBuild Target Framework and Target Platform
-description: Learn how to build an MSBuild project to run on a target .NET Framework version, and a target platform or software architecture.
+description: Build an MSBuild project to run on a target .NET Framework version, a target platform, or a software architecture, and view supported .NET Framework versions.
 ms.date: 09/14/2023
-ms.topic: conceptual
+ms.topic: language-reference
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # MSBuild target framework and target platform
 
@@ -98,6 +98,6 @@ A *target configuration* is a subset of a target platform. For example, the `x86
 
 ```
 
-## See also
+## Related content
 
 - [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)

@@ -1,6 +1,6 @@
 ---
-title: Adding a Toolbar
-description: Learn how to add a toolbar containing buttons that are bound to commands to the Visual Studio integrated development environment (IDE).
+title: Add toolbar and buttons (Visual Studio extension)
+description: Create a Visual Studio extension to add a toolbar with buttons that are bound to commands to the Visual Studio integrated development environment (IDE).
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -9,11 +9,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Add a Toolbar
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This walkthrough shows how to add a toolbar to the Visual Studio IDE.
 
  A toolbar is a horizontal or vertical strip that contains buttons that are bound to commands. Depending on its implementation, a toolbar in the IDE can be repositioned, docked on any side of the main IDE window, or made to stay in front of other windows.
@@ -78,5 +77,5 @@ This walkthrough shows how to add a toolbar to the Visual Studio IDE.
 
 7. You should now see your toolbar as an icon to the right of the Find in Files icon. When you click the icon, you should see a message box that says **ToolbarTestCommandPackage. Inside IDEToolbar.ToolbarTestCommand.MenuItemCallback()**.
 
-## See also
+## Related content
 - [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md)

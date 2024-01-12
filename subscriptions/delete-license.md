@@ -29,7 +29,7 @@ Watch this video or read on to learn how to delete assignments.
    > ![Delete subscribers](_img/delete-license/delete-subscribers.png "Screenshot of manage subscribers page in the admin portal.  The Delete menu option is highlighted.")
 
    > [!NOTE]
-   > If you added subscription assignments through Microsoft Entra ID groups, it may take up to 24 hours for the deletion to be updated in the admin portal. For more information about using Entra ID groups to manage subscriptions, see [this topic](assign-license-bulk.md#use-entra-id-groups-to-assign-subscriptions) in the **Add multiple users** article. 
+   > If you added subscription assignments through Microsoft Entra groups, it may take up to 24 hours for the deletion to be updated in the admin portal. For more information about using Microsoft Entra groups to manage subscriptions, see [this topic](assign-license-bulk.md#use-entra-id-groups-to-assign-subscriptions) in the **Add multiple users** article. 
 
 ## Delete larger numbers of subscriptions
 
@@ -90,7 +90,6 @@ admin on the agreement through which the subscriptions were purchased.
 0. In the **Filter by name, email or reference** field, enter the word or phrase you used to mark the users to be deleted. The filter is applied even if the **Reference** column isn't displayed.
 0. You should now see only the users you need to delete.  You can select one user, then use CTRL+A to select them all, and choose **Delete**.
 0. Clear the filter field to display your updated subscriber list.  
-
 
 ## Resources
 

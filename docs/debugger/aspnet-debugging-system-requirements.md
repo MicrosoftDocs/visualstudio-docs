@@ -14,11 +14,10 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # ASP.NET Debugging: System Requirements
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This topic describes the software and security requirements for ASP.NET debugging scenarios:
 
 - Local debugging, in which Visual Studio and the Web application run on the same computer. There are two versions of this scenario:
@@ -46,7 +45,7 @@ This topic describes the software and security requirements for ASP.NET debuggin
 > [!CAUTION]
 > Before you change the ASP.NET worker process to run under a different account, consider the possible consequences if the ASP.NET worker process should be hacked while running under that account. The ASPNET and NETWORK SERVICE user accounts run with minimal permissions, reducing the possible damage if the process is hacked. If you must change the ASP.NET worker process to run under an account that has greater permissions, the potential damage is greater.
 
-## See also
+## Related content
 
 - [Debug ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)
 - [How to: Run the Worker Process Under a User Account](../debugger/how-to-run-the-worker-process-under-a-user-account.md)

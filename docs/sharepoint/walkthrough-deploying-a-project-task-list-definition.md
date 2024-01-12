@@ -11,11 +11,9 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
+ms.subservice: sharepoint-development
 ---
 # Walkthrough: Deploy a project task list definition
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This walkthrough shows you how to use Visual Studio 2012 to create, customize, debug, and deploy a SharePoint list to track project tasks.
 
@@ -164,15 +162,9 @@ Visual Studio recycles the IIS application pool, retracts any existing versions 
 
      For more information about remote deployment, see [Using Solutions](/previous-versions/office/developer/sharepoint-2010/ee534972(v=office.14)) and [Adding and Deploying Solutions with PowerShell in SharePoint 2010](/powershell/module/sharepoint-server/install-spsolution?view=sharepoint-server-ps&preserve-view=true).
 
-## Next steps
-
-You can learn more about how to customize and deploy SharePoint solutions from the following topics:
+## Related content
 
 - [Walkthrough: Create a site column, content type, and list for SharePoint](../sharepoint/walkthrough-create-a-site-column-content-type-and-list-for-sharepoint.md)
-
 - [How to: Create an event receiver](../sharepoint/how-to-create-an-event-receiver.md)
-
 - [Windows PowerShell for SharePoint Server 2010](/powershell/module/sharepoint-server)
-
-## See also
-[Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)
+- [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

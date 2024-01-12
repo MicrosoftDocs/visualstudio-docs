@@ -6,14 +6,13 @@ ms.topic: how-to
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 dev_langs:
 - CSharp
 - VB
 ---
 # Walkthrough: Implement code snippets
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can create code snippets and include them in an editor extension so that users of the extension can add them to their own code.
 
  A code snippet is a fragment of code or other text that can be incorporated in a file. To view all snippets that have been registered for particular programming languages, on the **Tools** menu, click **Code Snippet Manager**. To insert a snippet in a file, right-click where you want the snippet, click Insert Snippet, or **Surround With**, locate the snippet you want, and then double-click it. Press **Tab** or **Shift**+**Tab** to modify the relevant parts of the snippet and then press **Enter** or **Esc** to accept it. For more information, see [Code snippets](../ide/code-snippets.md).
@@ -300,5 +299,3 @@ You can create code snippets and include them in an editor extension so that use
 6. Accept the insertion by pressing either **Enter** or **Esc**.
 
 7. In a different part of the text, type "test" and then press **Tab**. Because "test" is the code-snippet shortcut, the snippet should be inserted again.
-
-## Next steps

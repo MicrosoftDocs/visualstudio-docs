@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Document data and document view in custom editors
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A custom editor consists of two parts: a document data object and a document view object. As the names suggest, the document data object represents the text data to be displayed. Similarly, the document view object (or "view") represents one or more windows in which to display the document data object.
 
 ## Document data object
@@ -31,7 +30,7 @@ A custom editor consists of two parts: a document data object and a document vie
 
  There are two options for creating a view for a custom editor. One is the in-place activation model, where the view is hosted in a window using either an ActiveX control or a document data object. The second is the simplified embedding model, where the view is hosted by Visual Studio and <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowPane> is implemented to handle window commands. For information about the in-place activation model, see [In-place activation](/previous-versions/visualstudio/visual-studio-2015/misc/in-place-activation?preserve-view=true&view=vs-2015). For information about the simplified embedding model, see [Simplified embedding](../extensibility/simplified-embedding.md).
 
-## See also
+## Related content
 
 - [Support multiple document views](../extensibility/supporting-multiple-document-views.md)
 - [Simplified embedding](../extensibility/simplified-embedding.md)

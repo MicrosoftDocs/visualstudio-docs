@@ -1,17 +1,15 @@
 ---
 title: "Remote Debug ASP.NET Core on Azure App Service"
-description: Learn how to configure Azure App Service for remote debugging and attach the remote debugger from Visual Studio. 
+description: Configure Azure App Service for remote debugging and attach the remote debugger from Visual Studio to debug the app as though it's running locally.
 ms.date: 12/20/2022
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'
 ---
 # Remote Debug ASP.NET Core on Azure App Service
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article describes how to attach the Visual Studio debugger to an ASP.NET Core app running on Azure App Service.  The following steps enable you to debug the app as though it's running locally.
 

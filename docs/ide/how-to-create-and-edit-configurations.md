@@ -1,8 +1,8 @@
 ---
 title: 'Create and edit configurations'
-description: Learn how you can use Visual Studio to create and edit several build configurations for your solution.
+description: Create and edit several build configurations for your solution in Visual Studio with the Configuration Manager, including Release, Debug, and Test.
 ms.date: 08/15/2023
-ms.technology: vs-ide-compile
+ms.subservice: compile-build
 ms.topic: how-to
 helpviewer_keywords:
 - solution build configurations, editing
@@ -19,8 +19,6 @@ ms.author: ghogen
 manager: jmartens
 ---
 # Create and edit configurations
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can create several build configurations for a solution, in addition to the built-in configurations **Debug** and **Release**. For example, you can create a **Test** configuration for internal testing builds, and you can configure different kinds of builds that you can distribute to different customers.
 
@@ -134,7 +132,7 @@ You create a new project configuration when you want to add a new type of build.
 
 3. In the **Project contexts** pane, for every project, select the **Configuration** and **Platform** you want, and select whether to **Build** it and whether to **Deploy** it.
 
-## See also
+## Related content
 
 - [Understand build configurations](../ide/understanding-build-configurations.md)
 - [Configure projects to target platforms](how-to-configure-projects-to-target-platforms.md)

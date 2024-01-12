@@ -1,7 +1,7 @@
 ---
-title: "Getting Started (SharePoint Development in Visual Studio)"
+title: Get started with SharePoint Development in Visual Studio
 titleSuffix: ""
-description: Get started with SharePoint development in Visual Studio. SharePoint offers a web-based collaboration platform.
+description: Get started with SharePoint development in Visual Studio and take advantage of a web-based collaboration platform for your projects and solutions.
 ms.date: "02/02/2017"
 ms.topic: overview
 dev_langs:
@@ -14,11 +14,9 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
+ms.subservice: sharepoint-development
 ---
 # Get started (SharePoint development in Visual Studio)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
   This section helps you start working with Visual Studio to develop SharePoint solutions that take advantage of  SharePoint Foundation and  Microsoft SharePoint Server.
 

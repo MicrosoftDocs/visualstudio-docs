@@ -13,11 +13,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Data in Office solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Many Office solutions enable users to retrieve or modify data. When you create Office solutions by using Visual Studio, there are several different ways you can work with data.
 
 ## In this section

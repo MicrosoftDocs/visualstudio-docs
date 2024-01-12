@@ -6,11 +6,9 @@ ms.topic: how-to
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.technology: vs-xml-tools
+ms.subservice: xml-tools
 ---
 # Add nodes to the workspace from the XML Schema Explorer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This topic explains how to add nodes to the [XML Schema Designer workspace](../xml-tools/xml-schema-designer-workspace.md) from the **XML Schema Explorer**. This can be achieved by dragging and dropping nodes from the **XML Schema Explorer** onto an XSD Designer view, or by using the **XML Schema Explorer's** context menu. You can also add nodes that are highlighted as a result of a search performed by the **XML Schema Explorer**. For more information, see [How to: Add schema set search result nodes to the workspace](../xml-tools/how-to-add-schema-set-search-result-nodes-to-the-workspace.md).
 
@@ -53,6 +51,6 @@ This topic explains how to add nodes to the [XML Schema Designer workspace](../x
 
      The `purchaseOrder` node and the `PurchaseOrderType` node appear next to each other on the design surface of the [Graph View](../xml-tools/graph-view.md). Because the two nodes are related (the `purchaseOrder` element is of the `PurchaseOrderType` type), an arrow is drawn between them.
 
-## See also
+## Related content
 
 - [XML Schema Explorer](../xml-tools/xml-schema-explorer.md)

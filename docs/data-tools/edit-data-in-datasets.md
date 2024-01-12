@@ -1,6 +1,6 @@
 ---
 title: Edit data in datasets using the .NET Framework
-description: Learn to edit data in datasets. Know how to edit dataset rows, insert new rows into a dataset, determine if there are changed rows, and locate rows with errors.
+description: Edit data in datasets with the .NET Framework and Visual Studio and insert new rows into a dataset, identify changed rows, and find rows with errors.
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -12,11 +12,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Edit data in datasets using the .NET Framework
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -133,6 +131,6 @@ When working with individual columns and rows of data, you might encounter error
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb" id="Snippet23":::
 ---
 
-## See also
+## Related content
 
 - [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)

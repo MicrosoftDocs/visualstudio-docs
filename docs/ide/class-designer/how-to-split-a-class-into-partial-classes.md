@@ -1,6 +1,6 @@
 ---
 title: Split a class into partial classes
-description: Learn how to use the Partial keyword to divide the declaration of a class or structure among several declarations in Class Designer.
+description: Use the Partial keyword to divide the declaration of a class or structure among several declarations in Class Designer in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -9,14 +9,12 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 dev_langs:
 - CSharp
 - VB
 ---
 # Split a class into partial classes in Class Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use the `partial` keyword (`Partial` in Visual Basic) to divide the declaration of a class or structure among several declarations. You can use as many partial declarations as you want.
 
@@ -74,7 +72,7 @@ End Class
 ```
 ---
 
-## See also
+## Related content
 
 - [Partial classes and methods](/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods)
 - [partial (Type) (C# Reference)](/dotnet/csharp/language-reference/keywords/partial-type)

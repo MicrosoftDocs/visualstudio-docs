@@ -11,11 +11,10 @@ dev_langs:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Dump File Summary Extensibility API
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Using the extensibility APIs in this section, you can extend the .Exe Project System and the **Dump Summary** page for use with your own custom debug engine.
 
 ## In This Section
@@ -23,5 +22,5 @@ Using the extensibility APIs in this section, you can extend the .Exe Project Sy
 
  <xref:Microsoft.VisualStudio.Debugger.VsDebugPresentationExtension>
 
-## See also
+## Related content
 - [Using Dump Files](../debugger/using-dump-files.md)

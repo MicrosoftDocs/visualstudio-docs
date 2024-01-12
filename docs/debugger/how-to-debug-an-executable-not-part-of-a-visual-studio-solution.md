@@ -17,11 +17,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Debug an app that isn't part of a Visual Studio solution (C++, C#, Visual Basic, F#)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You may want to debug an app (*.exe* file) that isn't part of a Visual Studio solution. It may be an [open folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) project, or you or someone else may have created the app outside of Visual Studio, or you got the app from somewhere else.
 
@@ -64,7 +62,7 @@ You may want to debug an app (*.exe* file) that isn't part of a Visual Studio so
 
 1. With the new file selected, start debugging the app by selecting an execution command, like **Start Debugging**, from the **Debug** menu.
 
-### See also
+### Related content
 - [Debugger settings and preparation](../debugger/debugger-settings-and-preparation.md)
 - [Debugger security](../debugger/debugger-security.md)
 - [DBG files](/previous-versions/visualstudio/visual-studio-2010/da528y14(v=vs.100))

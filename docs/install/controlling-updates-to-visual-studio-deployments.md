@@ -9,12 +9,11 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ---
 # Control updates to network-based Visual Studio deployments
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 > [!WARNING]
 > THIS CONTENT IS INTENDED TO BE DEPRECATED AS IT'S BEEN MERGED INTO OTHER PAGES. This page has been removed from the TOC.
 
@@ -80,7 +79,7 @@ In some cases, the client machine may have already installed Visual Studio from 
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 * [Enabling administrator updates](enabling-administrator-updates.md)

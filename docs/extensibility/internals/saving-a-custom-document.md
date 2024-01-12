@@ -10,11 +10,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Saving a Custom Document
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The environment handles the **Save**, **Save As**, and **Save All** commands. When a user clicks **Save**, **Save As**, **or Save All** on the **File** menu or closes the solution, resulting in a Save All, the following process occurs.
 
  ![Customer Editor Save](../../extensibility/internals/media/private.gif "Private")
@@ -37,6 +36,6 @@ Save, Save As, and Save All command handling for a custom editor
     > [!NOTE]
     > If you implement your own persistence, be sure to call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QuerySaveFiles%2A> method to save time. This method checks to make sure that it is safe to save the file (for example, the file is not read-only).
 
-## See also
+## Related content
 - <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>
 - [Opening and Saving Project Items](../../extensibility/internals/opening-and-saving-project-items.md)

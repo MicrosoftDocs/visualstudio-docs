@@ -1,6 +1,6 @@
 ---
 title: "Create and modify custom document properties"
-description: Learn how you can create and modify custom document properties if there is additional information you want to store with the document.
+description: Create and modify custom Microsoft Office Word document properties if there's additional information you want to store with the document.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -13,11 +13,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Create and modify custom document properties
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The Microsoft Office applications listed above provide built-in properties that are stored with documents. In addition, you can create and modify custom document properties if there is additional information you want to store with the document.
 
  [!INCLUDE[appliesto_docprops](../vsto/includes/appliesto-docprops-md.md)]
@@ -38,7 +37,7 @@ ms.technology: office-development
 ## Robust programming
  Attempting to access the `Value` property for undefined properties raises an exception.
 
-## See also
+## Related content
 - [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
 - [Program document-level customizations](../vsto/programming-document-level-customizations.md)
 - [How to: Read from and write to document properties](../vsto/how-to-read-from-and-write-to-document-properties.md)

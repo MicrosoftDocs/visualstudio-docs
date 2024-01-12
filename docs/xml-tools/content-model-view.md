@@ -6,11 +6,9 @@ ms.topic: reference
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.technology: vs-xml-tools
+ms.subservice: xml-tools
 ---
 # Content Model View
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Content Model View provides a graphic representation of local and global schema nodes and their components, including simple and complex types, elements, model groups, attributes, and attribute groups. XML comments and processing instructions cannot be viewed in the Content Model View. The Content Model View contains two panels: a **Workspace** panel that contains a list of the nodes in the [XML schema designer workspace](../xml-tools/xml-schema-designer-workspace.md), and the design surface where you can see the content model of schema nodes that are selected in the **Workspace** panel. The Content Model View also includes the XML Schema Designer toolbar and the breadcrumb bar.
 

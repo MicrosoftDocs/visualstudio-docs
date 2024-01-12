@@ -1,16 +1,14 @@
 ---
 title: 'Create an XML Document Based on an XSD Schema'
-description: Learn how to use the Generate Sample XML feature to create an XML document based on an XSD schema.
+description: Use the Generate Sample XML feature to create an XML document based on an XSD schema and confirm the use of various constructs in your schema.
 ms.date: 11/04/2016
 ms.topic: how-to
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.technology: vs-xml-tools
+ms.subservice: xml-tools
 ---
 # Create an XML document based on an XSD schema
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Generate Sample XML** feature generates a sample XML file based on your XML Schema (XSD) file.
 

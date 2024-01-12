@@ -11,11 +11,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Add a shortcut menu in a tool window
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a menu that appears when a user right-clicks a button, text box, or window background. Commands on a shortcut menu behave the same as commands on other menus or toolbars. To support a shortcut menu, specify it in the *.vsct* file and display it in response to the right-click of the mouse.
 
 A tool window consists of a WPF user control in a custom tool window class that inherits from <xref:Microsoft.VisualStudio.Shell.ToolWindowPane>.
@@ -268,6 +267,6 @@ A shortcut menu such as the one shown in this walkthrough lets the user select f
 
 4. Click a color on the shortcut menu. The tool window background color should be changed to the selected color.
 
-## See also
+## Related content
 - [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md)
 - [Using and providing services](../extensibility/using-and-providing-services.md)

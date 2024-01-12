@@ -25,11 +25,9 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Customize menus and toolbars in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can customize Visual Studio not only by adding and removing toolbars and menus on the menu bar, but also by adding and removing commands on any given toolbar or menu.
 
@@ -107,7 +105,7 @@ You can customize Visual Studio not only by adding and removing toolbars and men
 
     You can also reset all menus and toolbars by choosing the **Reset All** button.
 
-## See also
+## Related content
 
 - [Personalize the IDE](../ide/personalizing-the-visual-studio-ide.md)
 - [Customize the editor](../ide/how-to-change-text-case-in-the-editor.md)

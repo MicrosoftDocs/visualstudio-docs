@@ -6,11 +6,9 @@ ms.topic: how-to
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.technology: vs-xml-tools
+ms.subservice: xml-tools
 ---
 # Add nodes to the workspace from the Start View
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This topic describes how to add global nodes to the [XML Schema Designer workspace](../xml-tools/xml-schema-designer-workspace.md) from the [Start View](../xml-tools/start-view.md).
 

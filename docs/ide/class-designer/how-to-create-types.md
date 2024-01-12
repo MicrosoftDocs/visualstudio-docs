@@ -1,6 +1,6 @@
 ---
 title: 'Create Types by using Class Designer'
-description: Learn how to design new types for C# and Visual Basic projects by creating them on a class diagram.
+description: Design new types for C# and Visual Basic projects and apply custom attributes by creating them on a class diagram in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -19,11 +19,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Create types by using Class Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To design new types for C# and Visual Basic projects, create them on a class diagram. To see existing types, see [View Existing Types](how-to-view-existing-types.md).
 
@@ -157,7 +155,7 @@ Properties and fields that are collections of other types can be displayed on th
 
 The property or field is shown as an association line linking to the collected type.
 
-## See also
+## Related content
 
 - [Create and configure type members in Class Designer](creating-and-configuring-type-members.md)
 - [What is Class Designer?](designing-and-viewing-classes-and-types.md)

@@ -8,11 +8,9 @@ f1_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Options Dialog Box, Projects and Solutions, Web Projects
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Sets the web server that web projects will use for development within Visual Studio. To access these options, select **Tools > Options** expand **Projects and Solutions**, and select **Web Projects**.
 

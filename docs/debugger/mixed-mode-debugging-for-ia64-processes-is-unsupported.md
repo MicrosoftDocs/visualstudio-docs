@@ -13,11 +13,10 @@ dev_langs:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Mixed mode debugging for IA64 processes is unsupported.
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Visual Studio does not support mixed-mode debugging of managed and native code in IA64 processes. This means that you cannot step from managed code to native code, or from native code to managed code, while debugging.
 
 ### Workarounds
@@ -44,5 +43,5 @@ Visual Studio does not support mixed-mode debugging of managed and native code i
 
 2. In the Property Pages, click **Platform** and select Win32 from the list of platforms,
 
-## See also
+## Related content
 - [Debug 64-Bit Applications](../debugger/debug-64-bit-applications.md)

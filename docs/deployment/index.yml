@@ -5,9 +5,9 @@ summary: Learn how to deploy applications, services, and components using Visual
 
 metadata:
   title: Deployment documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: Learn how to use Visual Studio to deploy applications, services, and components.
+  description: Explore Visual Studio tools and features to deploy applications, services, and components, including ASP.NET, C++, .NET Framework and .NET Core, Docker, and Azure.
   ms.topic: landing-page
-  ms.technology: vs-ide-deployment
+  ms.subservice: deployment
   author: ghogen
   ms.author: ghogen
   manager: jmartens

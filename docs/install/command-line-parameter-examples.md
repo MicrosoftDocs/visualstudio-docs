@@ -1,17 +1,15 @@
 ---
 title: Command-line parameter examples for installation
-description: Customize these examples to create your own command-line installation of Visual Studio.
+description: Customize command-line parameter examples to create your own installation of Visual Studio by setting parameters, such as installPath, wait, all, remove, and more.
 ms.date: 8/8/2023
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ---
 # Command-line parameter examples for Visual Studio installation
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To illustrate how to [use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md), here are several examples that you can customize to match your needs.
 
@@ -56,7 +54,6 @@ Alternatively, you can also update your Visual Studio instance in one step by us
    ```shell
    "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" update --passive --norestart --installPath "C:\installPathVS"
    ```
-
 
 ## Using --wait
 
@@ -234,7 +231,7 @@ You can also use [`winget configure`](/windows/package-manager/configuration/) a
   
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 
 * [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)

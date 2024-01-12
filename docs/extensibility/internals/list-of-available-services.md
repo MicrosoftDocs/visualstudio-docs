@@ -9,11 +9,9 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # List of Available Services
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio and the Visual Studio SDK support the following services. Some packages offer their own services which are not listed here—for example, language services do not have a single service GUID. You must use the name of the language to find the GUID of the language service in the registry.
 

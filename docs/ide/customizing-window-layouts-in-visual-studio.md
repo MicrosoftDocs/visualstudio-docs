@@ -1,5 +1,5 @@
 ---
-title: Customize window layouts and personalize document tabs
+title: Customize & save layouts of your windows and tabs
 description: Learn how to customize tabs and windows in Visual Studio to create layouts that work best for your development workflows.
 ms.date: 08/30/2023
 ms.topic: conceptual
@@ -21,11 +21,9 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Customize window layouts and personalize tabs
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In Visual Studio, you can customize the position, size, and behavior of windows to create window layouts that work best for various development workflows. You can also personalize how you use [tabs](#personalize-tabs) to interact with your code.
 
@@ -282,6 +280,6 @@ We’ve made it easier to restore documents that you’ve last opened, similar t
 
 ::: moniker-end
 
-## See also
+## Related content
 
 - [How to: Move around in the IDE](../ide/how-to-move-around-in-the-visual-studio-ide.md)

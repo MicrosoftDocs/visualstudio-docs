@@ -14,11 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Work with text in documents
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The topics in this section provide step-by-step procedures and code examples for using the object model of Microsoft Office Word to work with text in Office projects.
 
  In some cases, the ways that you perform these tasks in VSTO Add-ins is different from the ways that you perform them in document-level customizations.
@@ -41,6 +40,6 @@ ms.technology: office-development
 |Hide the text in a bookmark before printing a document.|[How to: Programmatically hide text in documents](../vsto/how-to-programmatically-hide-text-in-documents.md)|
 |Add a comment to text.|[How to: Programmatically add comments to text in documents](../vsto/how-to-programmatically-add-comments-to-text-in-documents.md)|
 
-## See also
+## Related content
 - [Word object model overview](../vsto/word-object-model-overview.md)
 - [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)

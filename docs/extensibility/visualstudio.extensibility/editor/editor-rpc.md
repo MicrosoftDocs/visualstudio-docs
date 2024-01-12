@@ -7,7 +7,7 @@ ms.author: maiak
 monikerRange: ">=vs-2022"
 author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 
 # Editor RPC support
@@ -27,6 +27,6 @@ To facilitate interactions with RPC services, the object model exposes `RpcContr
 
 As opposed to `VersionedTextDocumentRange` and `VersionedTextDocumentPosition`, `Range` and `Microsoft.VisualStudio.RpcContracts.Utilities.Position` omit the Uri and document version, making for a smaller serializable representation. This type should be used in RPC contracts that contain lots of span/range equivalents that need to reduce their payload size for performance. These RPC contracts need to pass the document Uri and version for the spans or range to be instantiated into `Span` and `Position` objects by the `IEditorHostService`. `IEditorHostService` interfaces with extension-local copies of the text buffer, and manages opening and closing of documents described by the RPC types.
 
-## Next steps
+## Related content
 
 Learn more about Remote UI, the RPC model used in VS.Extensibilty at [Remote UI](../inside-the-sdk/remote-ui.md).

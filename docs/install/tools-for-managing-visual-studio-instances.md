@@ -1,7 +1,7 @@
 ---
 title: Tools for detecting and managing Visual Studio instances
 titleSuffix: ''
-description: Learn about the tools that you can use to detect and manage Visual Studio installations on client machines.
+description: Explore tools to detect and manage Visual Studio installations on client machines, including vswhere, PowerShell scripts, C# and C++ samples, and more.
 ms.date: 10/13/2023
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,12 +11,10 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ---
 # Tools for detecting and managing Visual Studio instances
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 There are several tools that you can use to detect and manage Visual Studio installations on client machines.
 
@@ -83,6 +81,6 @@ You will be prompted to provide a hive name, which becomes the name of your isol
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 
 * [Visual Studio administrator guide](../install/visual-studio-administrator-guide.md)

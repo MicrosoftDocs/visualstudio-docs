@@ -1,17 +1,15 @@
 ---
-title: Design XAML in Visual Studio and in Blend for Visual Studio
+title: Design XAML in Visual Studio and design with Blend for Visual Studio
 titleSuffix: ''
-description: Learn about the capabilities of the visual design tools in Visual Studio and Blend for Visual Studio for building UI and experiences in XAML.
+description: Explore the capabilities of the visual design tools in Visual Studio and Blend for Visual Studio for building UI and experiences in XAML.
 ms.date: 02/28/2020
 ms.topic: conceptual
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.technology: vs-xaml-tools
+ms.subservice: xaml-tools
 ---
 # Design XAML in Visual Studio and Blend for Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio and Blend for Visual Studio both provide visual tools for building engaging user interfaces and rich media experiences with XAML for a variety of app types. Both integrated development environments (IDE) share a common set of features, including a visual XAML editor (designer). Blend for Visual Studio, which supports the WPF and UWP platforms, provides additional tools for designing visual states and creating animations.
 
@@ -57,7 +55,7 @@ To increase your productivity, consider using Blend for Visual Studio for the fo
 
 For more information about advanced XAML design, see [Create a UI by using Blend for Visual Studio](../xaml-tools/creating-a-ui-by-using-blend-for-visual-studio.md).
 
-## See also
+## Related content
 
 - [XAML overview](xaml-overview.md)
 - [Blend for Visual Studio overview](creating-a-ui-by-using-blend-for-visual-studio.md)

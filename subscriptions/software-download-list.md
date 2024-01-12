@@ -1,11 +1,11 @@
 ---
-title: What software downloads are available in Visual Studio subscriptions?
+title: Available software downloads
 author: evanwindom
 ms.author: amast
 manager: shve
 ms.date: 05/24/2023
 ms.topic: how-to
-description:  Find a list of the software downloads included with your Visual Studio subscription.
+description: Find software downloads that are available with your Visual Studio subscription, including searching by software title by subscription type.
 ---
 
 # What software is available for download?

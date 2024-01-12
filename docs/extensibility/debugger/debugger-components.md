@@ -10,11 +10,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Debugger components
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Visual Studio debugger is implemented as a VSPackage and manages the entire debug session. The debug session comprises the following elements:
 
 - **Debug Package:** The Visual Studio debugger provides the same user interface no matter what is being debugged.

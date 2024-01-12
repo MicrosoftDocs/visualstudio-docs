@@ -1,6 +1,6 @@
 ---
 title: "Programmatically save workbooks"
-description: Programmatically save Microsoft Excel workbooks without changing the path and save a copy of a workbook without modifying the open workbook in memory.
+description: Save Microsoft Excel workbooks without changing the path and save a copy without modifying the open workbook in memory programmatically in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -13,11 +13,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Programmatically save workbooks
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   There are several ways to save a workbook. You can save a workbook without changing the path. If the workbook has not been saved before, you should save the workbook by specifying a path. Without an explicit path, Microsoft Office Excel saves the file in the current folder with the name it was given when it was created. You can also save a copy of the workbook without modifying the open workbook in memory.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
@@ -101,11 +100,10 @@ ms.technology: office-development
 ### To verify that the save was successful
  You can use some of the [DocumentProperties](/dotnet/api/microsoft.office.tools.excel.workbook.builtindocumentproperties) like the **Last Save Time** to verify that the save was successful.  
 
-
 ## Robust programming
  Interactively canceling any of the methods that save or copy the workbook raises a run-time error in your code. For example, if your procedure calls the <xref:Microsoft.Office.Tools.Excel.Workbook.SaveAs%2A> method but does not disable prompts from Excel, and your user clicks **Cancel** when prompted, Excel raises a run-time error.
 
-## See also
+## Related content
 - [Work with workbooks](../vsto/working-with-workbooks.md)
 - [Workbook host item](../vsto/workbook-host-item.md)
 - [How to: Programmatically close workbooks](../vsto/how-to-programmatically-close-workbooks.md)

@@ -1,19 +1,17 @@
 ---
 title: "Publish a Node.js app to Linux App Service"
-description: You can publish Node.js applications created in Visual Studio to Linux App Service on Azure
-ms.date: 11/22/2019
+description: Publish Node.js applications created in Visual Studio to Linux App Service on Azure, which deploys a Linux Docker container to run the Node.js application.
+ms.date: 11/06/2023
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
 ---
 # Publish a Node.js application to Azure (Linux App Service)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This tutorial walks you through the task of creating a simple Node.js application and publishing it to Azure.
 
@@ -23,6 +21,11 @@ For this tutorial, you deploy the app to [Linux App Service](/azure/app-service/
 Linux App Service deploys a Linux Docker container to run the Node.js application (as opposed to the Windows App Service, which runs Node.js apps behind IIS on Windows).
 
 This tutorial shows how to create a Node.js application starting from a template installed with the Node.js Tools for Visual Studio, push the code to a repository on GitHub, and then provision an Azure App Service via the Azure web portal so that you can deploy from the GitHub repository. To use the command-line to provision the Azure App Service and push the code from a local Git repository, see [Create Node.js App](/azure/app-service/containers/quickstart-nodejs).
+
+::: moniker range=">=vs-2022"
+> [!IMPORTANT]
+> The information in this article applies only to the Node.js project type (.njsproj). The template used in this article is no longer available starting in Visual Studio 2022 version 17.8 Preview 2.
+::: moniker-end
 
 In this tutorial, you learn how to:
 > [!div class="checklist"]
@@ -107,7 +110,7 @@ to the following illustration.
 
 5. Click **Create** to create the App Service.
 
-    It may take a few minutes to deploy.
+    It might take a few minutes to deploy.
 
 6. After it is deployed, go to the **Application settings** section, and add a setting with a name of `SCM_SCRIPT_GENERATOR_ARGS` and a value of `--node`.
 
@@ -167,14 +170,14 @@ how to start the Node.js process. Details of the implementation can be seen at
 the list of tools until reaching **SSH** under the **Development Tools** section.
 * To aid in troubleshooting, go to the **Diagnostics logs** settings for the App Service, and change the **Docker Container logging** setting
 from **Off** to **File System**. Logs are created in the container under */home/LogFiles/*_docker.log*, and can be accessed on the box using SSH or FTP(S).
-* A custom domain name may be assigned to the site, rather than the *.azurewebsites.net URL assigned by default. For more details, see the topic [Map Custom Domain](/azure/app-service/app-service-web-tutorial-custom-domain).
+* A custom domain name might be assigned to the site, rather than the *.azurewebsites.net URL assigned by default. For more details, see the topic [Map Custom Domain](/azure/app-service/app-service-web-tutorial-custom-domain).
 * Deploying to a staging site for further testing before moving into production is a best practice. For details on how to configure this, see the topic
 [Create staging environments](/azure/app-service/web-sites-staged-publishing).
 * See the [App Service on Linux FAQ](/azure/app-service/containers/app-service-linux-faq) for more commonly asked questions.
 
 ## Next steps
 
-In this tutorial, you learned how create a Linux App Service and deploy a Node.js application to the service. You may want to learn more about Linux App Service.
+In this tutorial, you learned how create a Linux App Service and deploy a Node.js application to the service. You might want to learn more about Linux App Service.
 
 > [!div class="nextstepaction"]
 > [Linux App Service](/azure/app-service/containers/app-service-linux-intro)

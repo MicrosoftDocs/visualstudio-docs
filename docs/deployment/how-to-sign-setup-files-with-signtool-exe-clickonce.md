@@ -16,11 +16,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Sign setup files with SignTool.exe (ClickOnce)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can use *SignTool.exe* to sign a Setup program (*setup.exe*). This process helps ensure that tampered files are not installed on end-user computers.
 
  By default, ClickOnce has signed manifests and a signed Setup program. However, if you want to change the parameters of the Setup program later, you must sign the Setup program later. If you change the parameters after the Setup program is signed, the signature becomes corrupted.
@@ -71,5 +70,5 @@ You can use *SignTool.exe* to sign a Setup program (*setup.exe*). This process h
     signtool sign /f CertFileName Setup.exe
     ```
 
-## See also
+## Related content
 - [How to: Re-sign application and deployment manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md)

@@ -17,11 +17,9 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Custom data visualizers for the Visual Studio debugger (.NET)
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A *visualizer* is part of the Visual Studio debugger user interface that displays a variable or object in a manner appropriate to its data type. For example, a [bitmap visualizer](/previous-versions/visualstudio/visual-studio-2015/debugger/image-watch/image-watch) interprets a bitmap structure and displays the graphic it represents. Some visualizers let you modify as well as view the data. In the debugger, a visualizer is represented by a magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon"). You can select the icon in a **DataTip**, debugger **Watch** window, or **QuickWatch** dialog box, and then select the appropriate visualizer for the corresponding object.
 
@@ -134,7 +132,7 @@ it returns helps to determine the object's serialization format (binary or JSON)
 - If the *debuggee-side* returns data to the *debugger-side* as part of the `TransferData` call, serialize the response to the
 *debugger-side's* stream via the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.Serialize%2A> method.
 
-## See also
+## Related content
 
 - [Walkthrough: Write a visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md)
 - [Walkthrough: Write a visualizer in Visual Basic](../debugger/walkthrough-writing-a-visualizer-in-visual-basic.md)

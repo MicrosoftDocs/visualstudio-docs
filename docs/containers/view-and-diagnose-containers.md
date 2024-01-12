@@ -1,16 +1,14 @@
 ---
 title: Use the Containers window in Visual Studio
-description: Describes how to improve your ability to debug and diagnose your container-based apps in Visual Studio by using the Containers tool window to see environment variables, files, logs, ports, and more the containers that host your app, as well as the locally available Docker images.
+description: Use Visual Studio Container Tools to debug and diagnose your applications by setting environment variables, and managing files, logs, ports, and more.
 author: ghogen
 ms.author: ghogen
 ms.topic: how-to
 ms.date: 10/27/2021
-ms.technology: vs-container-tools
+ms.subservice: container-tools
 monikerRange: ">=vs-2019"
 ---
 # Use the Containers window
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can view what's going on inside the containers that host your app by using the **Containers** window. If you're used to using the command prompt to run Docker commands to view and diagnose what's going on with your containers, this window provides a more convenient way to monitor your containers without leaving the Visual Studio IDE.
 
@@ -234,10 +232,7 @@ When the **Images** tab is selected, the **Prune** button will ask if you want t
 
 The confirmation dialogs for various tasks, such as removing containers and images, or launching more than 10 containers at a time, may be configured. You can disable each prompt by using the checkbox on the dialog. You can also enable or disable these options by using the settings at **Tools** > **Options** > **Container Tools** > **Containers Tool Window**. See [Configure Container Tools](container-tools-configure.md).
 
-## Next steps
+## Related content
 
-Learn more about the Container Tools available in Visual Studio by reading the [Container Tools Overview](overview.md).
-
-## See also
-
-[Container Development in Visual Studio](./index.yml)
+- [Container Tools Overview](overview.md)
+- [Container Development in Visual Studio](./index.yml)

@@ -1,6 +1,6 @@
 ---
-title: Use Class Designer
-description: Learn how to design, visualize, and refactor classes and other types in your code with Class Designer in Visual Studio.
+title: Design, visualize, & refactor with Class Designer
+description: Design, visualize, and refactor classes, other types, and their relationships in your code with Class Designer in Visual Studio.
 ms.date: 05/08/2018
 ms.topic: conceptual
 f1_keywords:
@@ -18,11 +18,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # What is Class Designer?
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 With the **Class Designer** tool in Visual Studio, you can design, visualize, and refactor class diagrams in C#, Visual Basic, or C++ projects. Class diagrams show the code elements and their relationships in a visual design surface, which can help you better understand your project structure and reorganize your code.
 
@@ -76,6 +74,8 @@ If you haven't installed the **Class Designer** component, follow these steps to
 1. Open **Visual Studio Installer** from the Windows Start menu, or by selecting **Tools** > **Get Tools and Features** from the menu bar in Visual Studio.
 
    **Visual Studio Installer** opens.
+   
+1. If you already have Visual Studio installed, click the **Modify** button from the options.
 
 1. Select the **Individual components** tab, and then scroll down to the **Code tools** category.
 
@@ -378,7 +378,7 @@ Use the following keys to navigate the **Class Details** window:
 > [!TIP]
 > For a comprehensive list of keyboard shortcuts, see [Keyboard shortcuts in Visual Studio](../default-keyboard-shortcuts-in-visual-studio.md).
 
-## See also
+## Related content
 
 - [Create types by using Class Designer](how-to-create-types.md)
 - [Work with C++ code in Class Designer](working-with-visual-cpp-code.md)

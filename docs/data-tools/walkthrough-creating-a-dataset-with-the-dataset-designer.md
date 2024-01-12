@@ -1,6 +1,6 @@
 ---
-title: Create a dataset for .NET Framework applications using the Dataset Designer
-description: In this walkthrough, create a ADO.NET dataset using the Dataset Designer in Visual Studio for .NET Framework applications. Understand the process of creating a new project and adding a new DataSet item to it.
+title: Build dataset in Dataset Designer (.NET Framework)
+description: Create an ADO.NET dataset with the Dataset Designer in Visual Studio for .NET Framework applications and build a new project with a DataSet item.
 ms.date: 11/01/2023
 ms.topic: conceptual
 helpviewer_keywords:
@@ -12,11 +12,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Walkthrough: Create a dataset for .NET Framework applications using the Dataset Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -92,7 +90,9 @@ This section explains how to add tables to the dataset.
 
      An **Order Details** data table, **OrderDetailsTableAdapter**, and a data relation between the **Orders** and **OrderDetails** tables are added to the dataset.
 
-## Next Steps
+## Save the dataset
+
+The dataset that you just created is available in the **Data Sources** window. You can now perform any of the following tasks:
 
 - Save the dataset.
 
@@ -102,7 +102,7 @@ This section explains how to add tables to the dataset.
 
 - Add validation logic to the <xref:System.Data.DataTable.ColumnChanging> or <xref:System.Data.DataTable.RowChanging> events of the data tables in the dataset. For more information, see [Validate data in datasets](../data-tools/validate-data-in-datasets.md).
 
-## See also
+## Related content
 
 - [Create and configure datasets in Visual Studio](../data-tools/create-and-configure-datasets-in-visual-studio.md)
 - [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)

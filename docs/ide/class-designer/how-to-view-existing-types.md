@@ -1,6 +1,6 @@
 ---
 title: 'View Existing Types (Class Designer)'
-description: Learn how to see an existing type and its members by adding its shape to a class diagram.
+description: View an existing type and the relationship to its members by adding its shape to a class diagram in Class Designer in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -10,11 +10,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # View types and relationships in Class Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 With Class Designer, you can manage class diagrams by performing the following actions:
 
@@ -108,6 +106,6 @@ In **Class Designer**, you can change the way the class diagram represents an as
 
 On the class diagram, right-click the association line, and choose **Show as Property** or **Show as Field** as appropriate. The association line disappears, and the property displays in the appropriate compartment within its type shape on the diagram.
 
-## See also
+## Related content
 
 - [Refactor classes and types in Class Designer](refactoring-classes-and-types.md)

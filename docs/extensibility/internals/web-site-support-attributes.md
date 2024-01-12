@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Web Site Support Attributes
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Visual Studio Web site project can be extended to provide support for Web programming languages. The language must register itself with Visual Studio so that project templates can appear in the **New Web Site** dialog box when the language is selected.
 
 The IronPython Studio sample includes web site support. The sample contains the following attribute classes to register IronPython as a codebehind language for new Web projects.

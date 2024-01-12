@@ -1,19 +1,17 @@
 ---
 title: Python support in Visual Studio on Windows
 titleSuffix: ""
-description: Summary of Python features in Visual Studio, making it the best Python IDE on Windows (also known as Python Tools for Visual Studio, PTVS) that you can use to edit, debug, and test code, and then publish an app.
+description: Explore Python Tools for Visual Studio (PTVS) and other Python features in Visual Studio to edit, debug, and test code, and publish applications.
 ms.date: 8/23/2023
 ms.topic: overview
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
+ms.subservice: python
 dev_langs:
  - Python
 ---
 # Work with Python in Visual Studio on Windows
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Python is a popular programming language that is reliable, flexible, easy to learn, free to use on all operating systems, and supported by both a strong developer community and many free libraries. Python supports all manners of development, including web applications, web services, desktop apps, scripting, and scientific computing. Scientists, casual developers, professional developers, and many universities alike use Python for programming. You can learn more about the language on [python.org](https://www.python.org) and [Python for Beginners](https://www.python.org/about/gettingstarted/).
 

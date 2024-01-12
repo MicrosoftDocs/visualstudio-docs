@@ -2,7 +2,7 @@
 title: BuildProjectOnload Element (Visual Studio Templates)
 description: Learn about the BuildProjectOnload element and how it builds only new projects as you create and add them to a solution.
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 author: maiak
 ms.author: maiak
@@ -10,7 +10,6 @@ manager: jmartens
 ---
 # BuildProjectOnload element (Visual Studio templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Builds only new projects as you create and add them to a solution. The entire solution isn't built.
 
 Element hierarchy:

@@ -6,11 +6,9 @@ ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Configure Windows Firewall for remote debugging
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 On a network protected by Windows Firewall, the firewall must be configured to permit remote debugging. Visual Studio and the remote debugging tools try to open the correct firewall ports during installation or startup, but you may also need to open ports or allow apps manually.
 
@@ -84,9 +82,9 @@ For remote debugging, the following ports must be open on the remote computer:
 |4025|Incoming|TCP|For VS 2019 and Azure App Service. This port is only used to remote debug a 32-bit process from a 64-bit version of the remote debugger. For more information, see  [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
 |3702|Outgoing|UDP|(Optional) Required for remote debugger discovery.|
 
-::: moniker-end
-
 If you select **Use Managed Compatibility Mode** under **Tools** > **Options** > **Debugging**, open these additional remote debugger ports. Debugger Managed Compatibility Mode enables a legacy, Visual Studio 2010 version of the debugger.
+
+::: moniker-end
 
 |**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|
 |-|-|-|-|
@@ -135,7 +133,7 @@ If you can't attach to your app with the remote debugger, make sure the remote d
   - To view or change the rule settings, right-click the **Remote Debugger** app in the list and select **Properties**. Use the **Properties** tabs to enable or disable the rule, or change port numbers, protocols, or network types.
   - If the remote debugger app doesn't appear in the rules list, [add and configure the correct ports](#configure-ports-for-remote-debugging).
 
-## See also
+## Related content
 
 - [Remote debugging](../debugger/remote-debugging.md)
 - [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md)

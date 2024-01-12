@@ -19,11 +19,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # View disassembly code in the Visual Studio debugger (C#, C++, Visual Basic, F#)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Disassembly** window shows assembly code corresponding to the instructions created by the compiler. If you're debugging managed code, these assembly instructions correspond to the native code created by the Just-in-Time (JIT) compiler, not the Microsoft intermediate language (MSIL) created by the Visual Studio compiler.
 
@@ -57,7 +55,7 @@ To enable the **Disassembly** window, under **Tools** > **Options** > **Debuggin
 To open the **Disassembly** window during debugging, select **Windows** > **Disassembly** or press **Alt**+**8**.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../ide/environment-settings.md#reset-settings).
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset all settings](../ide/environment-settings.md#reset-all-settings).
 
 To turn optional information on or off, right-click in the **Disassembly** window, and set or clear the desired options in the shortcut menu.
 
@@ -81,7 +79,7 @@ When you view memory contents in a **Memory** window or the **Disassembly** wind
 
 - Click the arrow at the top or bottom of the vertical scrollbar.
 
-## See also
+## Related content
 
 * [Viewing data in the debugger](../debugger/viewing-data-in-the-debugger.md)
 * [How to: Use the Registers window](../debugger/how-to-use-the-registers-window.md)

@@ -1,6 +1,6 @@
 ---
-title: 'Walkthrough: Outlining'
-description: Learn how to define and display outlining regions in the context of a language service or for your own file name extension and content type.
+title: Define and display outlining regions
+description: Define and display outlining regions in the context of a language service or for your own file name extension and content type in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -8,14 +8,13 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 dev_langs:
   - csharp
   - vb
 ---
 # Walkthrough: Outlining
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Set up language-based features such as outlining by defining the kinds of text regions you want to expand or collapse. You can define regions in the context of a language service, or define your own file name extension and content type and apply the region definition to only that type, or apply the region definitions to an existing content type (such as "text"). This walkthrough shows how to define and display outlining regions.
 
 ## Create a Managed Extensibility Framework (MEF) project
@@ -178,5 +177,5 @@ Set up language-based features such as outlining by defining the kinds of text r
 
 4. There should be an outlining region that includes both brackets. You should be able to click the Minus Sign to the left of the open bracket to collapse the outlining region. When the region is collapsed, the ellipsis symbol (*...*) should appear to the left of the collapsed region, and a popup containing the text **hover text** should appear when you move the pointer over the ellipsis.
 
-## See also
+## Related content
 - [Walkthrough: Link a content type to a file name extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

@@ -3,7 +3,7 @@ title: Get started with your new Visual Studio subscription
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 03/30/2023
+ms.date: 11/28/2023
 ms.topic: how-to
 description:  Learn how to get started with your new Visual Studio subscription
 ---
@@ -16,7 +16,7 @@ Congratulations on your new Visual Studio subscription.  You now have access to 
 Signing in to the portal is simple.  Just connect to [https://my.visualstudio.com](https://my.visualstudio.com) using the email address to which the subscription is assigned.  Which email address you use can depend on how you got the subscription.
 
 Learn how to:
-+ [Sign in with your MSA](sign-in-msa.md).  This scenario is the most common when you purchased a subscription through the Microsoft Store. 
++ [Sign in with your Microsoft Account (MSA)](sign-in-msa.md).  This scenario is the most common when you purchased a subscription through the Microsoft Store. 
 + [Sign in with your work/school account](sign-in-work.md).  Use this address if your subscription was assigned to you by your work or school.  
 + [Sign in with GitHub](sign-in-github.md).  If your GitHub account has other email addresses linked to it, you can use your GitHub account in place of the address associated with the subscription. 
 
@@ -55,7 +55,6 @@ A compound of development (Dev) and operations (Ops), DevOps is the union of peo
 What does DevOps mean for teams? DevOps enables formerly siloed roles—development, IT operations, quality engineering, and security—to coordinate and collaborate to produce better, more reliable products. When teams adopt a DevOps culture along with DevOps practices and tools, they gain the ability to better respond to customer needs, increase confidence in the applications they build, and achieve business goals faster.
 
 As an active Visual Studio subscriber, you can use a range of features in Azure DevOps that are included with your subscription. You can use these same features in each Azure DevOps organization in which you're a member, whether you created the organization or were added by someone else.  [Get started using Azure DevOps](vs-azure-devops.md).
-
 
 ## Resources
 

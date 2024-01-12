@@ -6,11 +6,9 @@ ms.topic: error-reference
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Warning: Changes have been made to the Configure Behavior dialog box that have not been applied
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Warning. Changes have been made to the Configure Behavior dialog box that have not been applied. Do you want to apply your changes?
 

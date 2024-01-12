@@ -6,11 +6,10 @@ ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Create an association between LINQ to SQL classes (O/R Designer)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Associations between entity classes in LINQ to SQL are analogous to relationships between tables in a database. You can create associations between entity classes by using the **Association Editor** dialog box.
 
 You must select a parent class and child class when you use the **Association Editor** dialog box to create an association. The parent class is the entity class that contains the primary key; the child class is the entity class that contains the foreign-key. For example, if entity classes were created that map to the `Northwind Customers` and `Orders` tables, the `Customer` class would be the parent class and the `Order` class would be the child class.
@@ -41,7 +40,7 @@ After you create an association, when you select the association in the **O/R De
 
 5. Click **OK** to create the association.
 
-## See also
+## Related content
 
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
 - [Walkthrough: Creating LINQ to SQL classes](how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-o-r-designer.md)

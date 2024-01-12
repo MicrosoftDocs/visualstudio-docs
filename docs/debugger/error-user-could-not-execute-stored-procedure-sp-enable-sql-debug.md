@@ -11,11 +11,9 @@ dev_langs:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Error: User Could Not Execute Stored Procedure sp_enable_sql_debug
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Stored Procedure sp_enable_sql_debug could not execute on the server. This can be caused by:
 

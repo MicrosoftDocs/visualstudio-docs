@@ -1,6 +1,6 @@
 ---
-title: Azure Monthly Credit
-description: FAQs list for subscribers using Azure
+title: FAQs for Azure for Visual Studio subscribers
+description: Review frequently asked questions (FAQs) for Azure subscribers about Visual Studio subscriptions, billing, service restrictions, account sign-in, and Azure credits.
 ms.topic: conceptual
 author: evanwindom
 ms.author: amast

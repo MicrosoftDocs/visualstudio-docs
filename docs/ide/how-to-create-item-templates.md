@@ -1,6 +1,6 @@
 ---
-title: Create item templates
-description: Learn how to use the Export Template Wizard to create an item template in Visual Studio.
+title: Create item templates with Export Template Wizard
+description: Use the Export Template Wizard to create an item template in Visual Studio, and enable the template to be used in a Universal Windows App project.
 ms.date: 01/02/2018
 ms.topic: how-to
 helpviewer_keywords:
@@ -8,11 +8,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Create item templates
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article shows you how to create an item template by using the **Export Template Wizard**. If your template will consist of multiple files, see [How to: Create multi-file item templates](../ide/how-to-create-multi-file-item-templates.md).
 
@@ -121,7 +119,7 @@ In some cases you may want to create an item template manually, from scratch.
 
 8. Copy the *.zip* file and paste it in the user item template location. The default directory is *%USERPROFILE%\Documents\Visual Studio 2022\Templates\ItemTemplates*. For more information, see [How to: Locate and organize project and item templates](../ide/how-to-locate-and-organize-project-and-item-templates.md).
 
-## See also
+## Related content
 
 - [Create project and item templates](../ide/creating-project-and-item-templates.md)
 - [How to: Create multi-file item templates](../ide/how-to-create-multi-file-item-templates.md)

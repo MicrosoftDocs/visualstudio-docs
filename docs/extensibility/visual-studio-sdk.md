@@ -1,6 +1,6 @@
 ---
-title: Visual Studio SDK
-description: The Visual Studio SDK helps you extend features or add new features to Visual Studio. Learn about some of the ways in which you can extend Visual Studio.
+title: What is the Visual Studio SDK?
+description: Explore the Visual Studio SDK to add features and extend options in the Visual Studio IDE, including menus, commands, and IntelliSense.
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
@@ -12,11 +12,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Visual Studio SDK
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Visual Studio SDK helps you extend Visual Studio features or integrate new features into Visual Studio. You can distribute your extensions to other users, as well as to the Visual Studio Marketplace. The following are some of the ways in which you can extend Visual Studio:
 
 - Add commands, buttons, menus, and other UI elements to the IDE
@@ -68,7 +67,7 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
 
 - [Extending Visual Studio](https://blog.slaks.net/2013-10-18/extending-visual-studio-part-1-getting-started/)
 
-## See also
+## Related content
 
 - [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md)
 - [FAQ: Converting add-ins to VSPackage extensions](/previous-versions/visualstudio/visual-studio-2015/extensibility/faq-converting-add-ins-to-vspackage-extensions?preserve-view=true&view=vs-2015)

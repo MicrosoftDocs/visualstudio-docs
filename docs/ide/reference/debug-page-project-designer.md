@@ -2,7 +2,7 @@
 title: Debug Page, Project Designer
 description: Use the Debug page of Project Designer to set debugging properties in a Visual Basic or C# project. See this article for descriptions of the settings.
 ms.date: 06/27/2018
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ms.topic: reference
 f1_keywords:
 - vb.ProjectPropertiesDebug
@@ -14,8 +14,6 @@ ms.author: mikejo
 manager: jmartens
 ---
 # Debug Page, Project Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Debug** page of the **Project Designer** to set properties for debugging behavior in a Visual Basic or C# project.
 

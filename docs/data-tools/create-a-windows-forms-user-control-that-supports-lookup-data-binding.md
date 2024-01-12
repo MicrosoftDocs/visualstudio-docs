@@ -13,11 +13,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Create a .NET Framework Windows Forms user control that supports lookup data binding
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -180,6 +178,6 @@ This sets up the data binding to display the `CompanyName` from the `Customers` 
 
 - Navigate through some records, and verify that the `CompanyName` appears in the `LookupBox` control.
 
-## See also
+## Related content
 
 - [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)

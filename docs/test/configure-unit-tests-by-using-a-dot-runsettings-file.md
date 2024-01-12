@@ -5,12 +5,10 @@ ms.date: 12/13/2022
 ms.topic: conceptual
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Configure unit tests by using a *.runsettings* file
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A *.runsettings* file can be used to configure how unit tests are being run. For example, it can be used to change the .NET version on which the tests are run, the directory for the test results, or the data that's collected during a test run. A common use of a *.runsettings* file is to customize [code coverage analysis](../test/customizing-code-coverage-analysis.md).
 
@@ -485,7 +483,7 @@ The **RunConfiguration** node should contain an **EnvironmentVariables** node. A
 > [!NOTE]
 > Because these environment variables should always be set when the test host is started, the tests should always run in a separate process. For this, the */InIsolation* flag will be set when there are environment variables so that the test host is always invoked.
 
-## See also
+## Related content
 
 - [Configure a test run](https://github.com/microsoft/vstest-docs/blob/master/docs/configure.md)
 - [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md)

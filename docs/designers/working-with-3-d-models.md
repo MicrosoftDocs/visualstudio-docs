@@ -6,11 +6,9 @@ ms.topic: conceptual
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-designers
+ms.subservice: ui-designers
 ---
 # Work with 3D models
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use the Model Editor in Visual Studio to create 3D models. You can use the models in your DirectX-based game or app.
 

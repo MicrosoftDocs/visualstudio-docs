@@ -1,6 +1,6 @@
 ---
 title: Configure a C++ project for IntelliSense
-description: Learn how to manually configure your C++ project to get IntelliSense working properly by using the Visual Studio IDE to help you identify and fix IntelliSense problems.
+description: Configure your C++ project manually to get IntelliSense working properly by using the Visual Studio IDE to help you identify and fix IntelliSense problems.
 ms.date: 10/08/2018
 ms.topic: conceptual
 author: tylermsft
@@ -8,8 +8,6 @@ ms.author: twhitney
 manager: markl
 ---
 # Configure a C++ project for IntelliSense
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In some cases, you might need to manually configure your C++ project to get IntelliSense working properly. For MSBuild projects (based on .vcxproj files), you can adjust settings in project properties. For non-MSBuild projects, you adjust settings in the CppProperties.json file in the root directory of the project. In some cases, you may need to create a hint file to help IntelliSense understand macro definitions. The Visual Studio IDE helps you identify and fix IntelliSense problems.
 
@@ -115,6 +113,6 @@ If you set the environment variable TRACEDESIGNTIME to true and restart Visual S
 
 To learn more about TRACEDESIGNTIME environment variable, see [Roslyn](https://github.com/dotnet/roslyn/blob/master/docs/wiki/Diagnosing-Project-System-Build-Errors.md) and [Common Project System](https://github.com/dotnet/project-system/blob/master/docs/design-time-builds.md). The information in these articles is relevant for C++ projects.
 
-## See also
+## Related content
 
 - [Visual C++ IntelliSense](visual-cpp-intellisense.md)

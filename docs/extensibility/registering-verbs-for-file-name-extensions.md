@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Register verbs for file name extensions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The association of a file name extension with an application generally has a preferred action that occurs when a user double-clicks a file. This preferred action is linked to a verb, for example open, that corresponds to the action.
 
  You can register verbs that are associated with a programmatic identifier (ProgID) for an extension by using the Shell key located at **HKEY_CLASSES_ROOT\{progid}\shell**. For more information, see [File types](/windows/desktop/shell/fa-file-types).
@@ -106,5 +105,5 @@ The association of a file name extension with an application generally has a pre
 > [!NOTE]
 > If you plan to change the default verb for an extension in a side-by-side deployment, consider the impact on installation and removal. During installation the original default value is overwritten.
 
-## See also
+## Related content
 - [Manage side-by-side file associations](../extensibility/managing-side-by-side-file-associations.md)

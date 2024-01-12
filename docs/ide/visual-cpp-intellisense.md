@@ -1,6 +1,6 @@
 ---
-title: C++ IntelliSense
-description: Learn about some IntelliSense features that you can use while coding your C++ project.
+title: Explore IntelliSense features for coding C++ projects
+description: Explore some IntelliSense features that you can use while coding your C++ project, such as statement completion, help with parameters, and error indicators.
 ms.date: 10/08/2018
 ms.topic: conceptual
 author: tylermsft
@@ -8,8 +8,6 @@ ms.author: twhitney
 manager: markl
 ---
 # Visual C++ IntelliSense features
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 IntelliSense is a name given to a set of features that make coding more convenient. IntelliSense for C++ is available for stand-alone files as well as for files that are part of a C++ project. In cross-platform projects, some IntelliSense features are available in *.cpp* and *.c* files in the shared code project, even when you are in an Android or iOS context.
 
@@ -97,7 +95,7 @@ Since different people have different ideas about what is convenient, virtually 
 
 ![Tool Options dialog box](../ide/media/sintellisensecpptoolsoptions.PNG)
 
-## See also
+## Related content
 
 - [Using IntelliSense](../ide/using-intellisense.md)
 - [Configure a C++ project for IntelliSense](visual-cpp-intellisense-configuration.md)

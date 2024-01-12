@@ -6,12 +6,11 @@ ms.topic: how-to
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 ---
 
 # Control the visibility of an icon or decorator
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A *decorator* is an icon or line of text that appears on a shape in a domain-specific language (DSL). You can make the decorator appear and disappear depending on the state of properties in the model. For example, on a shape representing a Person, you could have different icons that appear, depending on the person's gender, number of children, and so on.
 
 The following procedures assume that you've already defined a shape and its mapping to a domain class. For more information, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md).
@@ -103,7 +102,7 @@ Frequently, you want visibility to be controlled by a more complex formula than 
 
 8. Rebuild and run the solution.
 
-## See also
+## Related content
 
 - [Defining Shapes and Connectors](../modeling/defining-shapes-and-connectors.md)
 - [Setting a Background Image on a Diagram](../modeling/setting-a-background-image-on-a-diagram.md)

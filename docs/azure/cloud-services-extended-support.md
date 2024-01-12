@@ -1,11 +1,11 @@
 ---
 title: Use Cloud Services (extended support)
-description: Learn now to create and deploy a Cloud Services (extended support) using Azure Resource Manager with Visual Studio
+description: Create and deploy Cloud Services (extended support) on Azure by using Azure Resource Manager with Visual Studio on Windows.
 author: ghogen
 manager: jmartens
 f1_keywords:
  - AzureTools.Publish.UI
-ms.technology: vs-azure
+ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 01/25/2021
 ms.author: ghogen
@@ -13,7 +13,6 @@ monikerRange: ">=vs-2019"
 ---
 # Create and deploy to Cloud Services (extended support) in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
  
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
@@ -93,6 +92,6 @@ Congratulations! You've published your cloud service (extended support) project 
 
 To clean up the Azure resources you created by following this tutorial, go to the [Azure portal](https://portal.azure.com), choose **Resource groups**, find and open the resource group you used to create the cloud service (extended support), and choose **Delete resource group**.
 
-## Next steps
+## Related content
 
 Set up continuous integration (CI) using the **Configure** button on the **Publish** screen. For more information, see [Azure Pipelines documentation](/azure/devops/pipelines/?view=azure-devops&preserve-view=true).

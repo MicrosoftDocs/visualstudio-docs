@@ -6,11 +6,10 @@ ms.topic: how-to
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Walkthrough: Create an SDK using C++
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This walkthrough shows how to create a native C++ math library SDK, package the SDK as a Visual Studio Extension (VSIX), and then use it to create an app. The walkthrough is divided into these steps:
 
 - [To create the native and Windows Runtime libraries](../extensibility/walkthrough-creating-an-sdk-using-cpp.md#createClassLibrary)
@@ -179,8 +178,6 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
 
     This walkthrough showed how to create and use an Extension SDK to call into a Windows Runtime library and a non-Windows Runtime library.
 
-## Next steps
-
-## See also
+## Related content
 - [Walkthrough: Create an SDK using C# or Visual Basic](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md)
 - [Create a software development kit](../extensibility/creating-a-software-development-kit.md)

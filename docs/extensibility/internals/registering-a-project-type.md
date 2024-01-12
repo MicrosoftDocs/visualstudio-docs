@@ -10,11 +10,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Registering a Project Type
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When you create a new project type, you must create registry entries that enable Visual Studio to recognize and work with your project type. You typically create these registry entries by using a registry script (.rgs) file.
 
  In the example below, the statements from the registry provide default paths and data where applicable, followed by a table that contains entries from the registry script for each statement. The tables provide the script entries and additional information about the statements.
@@ -259,7 +258,7 @@ When you create a new project type, you must create registry entries that enable
 
  That means if you include a PROJECT_TYPE=EF entry in the .vsz file, the environment finds your .vsz files in the ProductDir directory specified previously.
 
-## See also
+## Related content
 - [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)
 - [Elements of a Project Model](../../extensibility/internals/elements-of-a-project-model.md)
 - [Creating Project Instances By Using Project Factories](../../extensibility/internals/creating-project-instances-by-using-project-factories.md)

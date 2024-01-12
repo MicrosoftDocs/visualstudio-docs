@@ -1,9 +1,9 @@
 ---
 title: "Tutorial: Editing for C# developers"
-description: This 10-minute introduction to the code editor in Visual Studio shows some of the ways that Visual Studio makes writing, navigating, and understanding C# code easier.
+description: Explore the code editor in Visual Studio and learn some of the ways that Visual Studio makes writing, navigating, and understanding C# code easier.
 ms.custom: vs-acquisition
 ms.date: 09/14/2021
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand
@@ -12,8 +12,6 @@ dev_langs:
 - CSharp
 ---
 # Learn to use the code editor with C\#
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this 10-minute introduction to the code editor in Visual Studio, we'll add code to a file to look at some of the ways that Visual Studio makes writing, navigating, and understanding C# code easier.
 

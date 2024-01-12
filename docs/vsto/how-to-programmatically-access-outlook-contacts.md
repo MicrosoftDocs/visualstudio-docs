@@ -11,11 +11,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Programmatically access Outlook contacts
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example finds all contacts whose last names contain a specified search string.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
@@ -34,7 +33,7 @@ ms.technology: office-development
 
 - Contacts whose last names contain the string "**Na"** (for example, Tzipi Butnaru) in the **Contacts** folder.
 
-## See also
+## Related content
 - [Work with contact items](/previous-versions/visualstudio/visual-studio-2017/vsto/working-with-contact-items)
 - [How to: Programmatically add an entry to Outlook contacts](../vsto/how-to-programmatically-add-an-entry-to-outlook-contacts.md)
 - [How to: Programmatically search for a specific contact](/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-search-for-a-specific-contact)

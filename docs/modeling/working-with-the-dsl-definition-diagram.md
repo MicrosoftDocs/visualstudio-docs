@@ -15,11 +15,10 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 ---
 # Working with the DSL Definition Diagram
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The diagram of a Domain-Specific Language Tools definition is an important tool for defining the domain-specific language. You can add elements to your domain model and define relationships on the diagram, and you can modify the layout of the diagram to make it more readable.
 
 ## The Layout of the Diagram
@@ -66,6 +65,6 @@ The diagram of a Domain-Specific Language Tools definition is an important tool 
 ### Show As Class
  If a domain relationship has derived relationships, or if it has embedding or reference relationships with other domain relationships, you can display the relationship as a class by right-clicking the relationship and then clicking **Show As Class**. The relationship will be displayed with a **Domain Properties** compartment and will show the inheritance and relationships trees.
 
-## See also
+## Related content
 
 - [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

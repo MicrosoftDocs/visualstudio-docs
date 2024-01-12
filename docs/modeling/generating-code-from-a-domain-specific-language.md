@@ -6,11 +6,9 @@ ms.topic: conceptual
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 ---
 # Generating Code from a Domain-Specific Language
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Microsoft Domain-Specific Language Tools provides a powerful way to generate code, documents, configuration files, and other artifacts from data represented in models. Using Domain-Specific Language Tools, you can create a set of classes that represent your data, and you can write your text templates in classes whose names and properties reflect that data.
 
@@ -49,10 +47,9 @@ Describes the command file that executes the TextTransform executable on the com
 [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md)\
 Provides the syntax of text template directives and control blocks.
 
-## Related Sections
+## Related content
 
-[Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)\
+- [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)\
 Explains the text template transformation process.
-
-[Code Generation in a Build Process](../modeling/code-generation-in-a-build-process.md)\
+- [Code Generation in a Build Process](../modeling/code-generation-in-a-build-process.md)\
 Read this topic if you are generating files from a DSL on a build server.

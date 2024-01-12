@@ -20,11 +20,9 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Limitations of Windows Forms controls on Office documents
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 There are some differences between Windows Forms controls that are added to Microsoft Office Word documents or Microsoft Office Excel worksheets, and Windows Forms controls that are added to Windows Forms. For example, when you add a <xref:Microsoft.Office.Tools.Word.Controls.Button> control to a document, properties such as <xref:System.Windows.Forms.Control.Dock>, <xref:System.Windows.Forms.Control.Anchor>, and <xref:System.Windows.Forms.Control.TabIndex> do not behave as you might expect.
 
@@ -179,7 +177,7 @@ The following controls and components are not available in the **Toolbox**:
 
 If you create a document-level Office project that uses an existing Word document or Excel workbook that contains ActiveX controls, the functionality of the ActiveX controls is not lost; however, there is no support for adding new ActiveX controls to your documents from within Visual Studio. For example, if your Word document has a button from the **Control** toolbox that runs a Visual Basic for Applications (VBA) macro, it will continue to run the macro after the document has been used in an Office project. However, it is recommended that you remove ActiveX controls and VBA macros and replace them with Windows Forms controls and managed code.
 
-## See also
+## Related content
 
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)
 - [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md)

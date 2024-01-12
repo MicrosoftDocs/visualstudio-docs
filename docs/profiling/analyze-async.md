@@ -8,10 +8,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.subservice: debug-diagnostics
 ---
 # Analyze performance of .NET asynchronous code
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the .NET Async tool to analyze the performance of asynchronous code in your app.
 
@@ -42,7 +41,7 @@ To further investigate a specific task or activity, right-click the row. Then se
 
 ![.NET Async tool with Go To Source File selected](../profiling/media/async-tool-gotosource.png ".NET Async tool with Go To Source File selected")
 
-## See also
+## Related content
 
 - [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md)
 - [Identify hot paths with Flame Graph](../profiling/flame-graph.md)

@@ -9,11 +9,9 @@ helpviewer_keywords:
 author: aarnott
 ms.author: andarno
 manager: ansonh
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Brokered service essentials
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A brokered service is a service acquired via an <xref:Microsoft.ServiceHub.Framework.IServiceBroker>,
 and is exposed as an RPC-compatible interface to enable the service and its client to exist in distinct AppDomains, processes or even across machines (in the case of Live Share).
@@ -114,7 +112,7 @@ When a client requests a brokered service, it either gets `null` back when the s
 A proxy is used whether the brokered service is activated in the same process as the client or a different one.
 This proxy helps to harmonize usage patterns across the local and remote service cases so that the client need not be aware of where the service is located.
 
-## See also
+## Related content
 
 - [Discovering Available Brokered Services](discover-available-brokered-services.md)
 - [Using and Providing Brokered Services](../use-and-provide-brokered-services.md)

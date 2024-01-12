@@ -9,11 +9,9 @@ f1_keywords:
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-designers
+ms.subservice: ui-designers
 ---
 # What is the Image Editor in Visual Studio?
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Image Editor** in Visual Studio is a tool that you can use to view and modify texture and image resources. Specifically, you can use the **Image Editor** to work with the kinds of rich texture and image formats that are used in DirectX app development. **Image Editor** includes support for popular image file formats and color encodings, features such as alpha-channels and MIP-mapping, and many of the highly compressed, hardware-accelerated texture formats that DirectX supports.
 
@@ -367,6 +365,6 @@ To achieve special effects or increase image quality at specific levels of detai
 > [!NOTE]
 > If you do not need to modify the contents of individual MIP levels—as you might do to achieve certain effects—we recommend that you generate mipmaps from the source texture at build time. This helps to ensure that MIP levels stay in sync with the source texture because modifications to a MIP level are not propagated to other levels automatically.
 
-## Next steps
+## Related content
 
 Visit the [Export textures](export-textures.md) page to learn how to use the Image Content Pipeline to export textures that contain mipmaps, premultiplies alpha, and more.

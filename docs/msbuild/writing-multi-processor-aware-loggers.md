@@ -10,7 +10,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # Write multi-processor-aware loggers
 
@@ -111,6 +111,6 @@ msbuild.exe myproj.proj -distributedlogger:XMLCentralLogger,MyLogger,Version=1.0
 |NOSUMMARY|
 |SHOWCOMMANDLINE|
 
-## See also
+## Related content
 
 - [Creating forwarding loggers](../msbuild/creating-forwarding-loggers.md)

@@ -1,8 +1,8 @@
 ---
 title: 'Configure projects to target platforms'
-description: Learn how Visual Studio enables you to set up your applications to target different platforms, including the ARM64 platform.
+description: Set up your applications to target different platforms, including the ARM64 platform in Visual Studio with the Configuration Manager.
 ms.date: 11/01/2023
-ms.technology: vs-ide-compile
+ms.subservice: compile-build
 ms.topic: how-to
 helpviewer_keywords:
 - project settings [Visual Studio], targeting platforms
@@ -20,8 +20,6 @@ ms.author: ghogen
 manager: jmartens
 ---
 # Configure projects to target platforms
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 :::moniker range=">=vs-2022"
 Visual Studio enables you to set up your application builds to target different platforms (processor architectures), including Arm64 and other platforms. You don't need to be running Visual Studio on a platform in order to build for that target platform. For more information about Arm64 support in Visual Studio, see [Visual Studio on ARM-powered devices](../install/visual-studio-on-arm-devices.md). For 64-bit platform support for .NET development, see [64-bit applications](/dotnet/framework/64-bit-apps).
@@ -154,7 +152,7 @@ You might have a .NET assembly or DLL that has both x86 and x64 versions. To set
 
 For more information about the project file, see [MSBuild project file schema reference](../msbuild/msbuild-project-file-schema-reference.md).
 
-## See also
+## Related content
 
 - [/platform (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/platform-compiler-option)
 - [64-bit applications](/dotnet/framework/64-bit-apps)

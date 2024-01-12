@@ -17,18 +17,16 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Display and Hide Register Groups (C#, C++, Visual Basic, F#)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Registers** window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node, **General** category.
 
 To reduce clutter, the **Registers** window organizes registers into groups. If you right-click the **Registers** window, you will see a shortcut menu containing these groups, which you can display or hide as you see fit following the procedure below.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../ide/environment-settings.md#reset-settings).
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset all settings](../ide/environment-settings.md#reset-all-settings).
 
 ## Display or hide register groups
 
@@ -38,6 +36,6 @@ To reduce clutter, the **Registers** window organizes registers into groups. If 
 
      Register groups that are not supported by the hardware you are debugging on are disabled on the shortcut menu, so they cannot be selected.
 
-## See also
+## Related content
 
 - [How to: Use the Registers Window](../debugger/how-to-use-the-registers-window.md)

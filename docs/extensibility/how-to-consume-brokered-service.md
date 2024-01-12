@@ -9,11 +9,9 @@ helpviewer_keywords:
 author: aarnott
 ms.author: andarno
 manager: ansonh
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Consume a brokered service
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This document describes all the code, patterns, and cautions relevant to the acquisition, general use, and disposal of any brokered service.
 To learn to *use* a particular brokered service once acquired, look up the particular documentation for that brokered service.
@@ -390,7 +388,7 @@ using (proxy as IDisposable)
 }
 ```
 
-## See also
+## Related content
 
 - [Discovering Available Brokered Services](internals/discover-available-brokered-services.md)
 - [Brokered Service Essentials](internals/brokered-service-essentials.md)

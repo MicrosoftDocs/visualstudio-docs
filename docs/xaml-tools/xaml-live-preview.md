@@ -1,6 +1,6 @@
 ---
-title: "Capture and edit desktop app UI with XAML Live Preview"
-description: "Pair XAML Live Preview with XAML Hot Reload to capture desktop app UI, make iterative changes to it in Visual Studio, and then view those changes in real time."
+title: Capture & edit desktop app UI with XAML Live Preview
+description: Pair XAML Live Preview with XAML Hot Reload to capture desktop app UI, make iterative changes in Visual Studio, and view your changes in real time.
 ms.date: 11/08/2021
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,12 +9,10 @@ helpviewer_keywords:
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.technology: vs-xaml-tools
+ms.subservice: xaml-tools
 monikerRange: vs-2022
 ---
 # XAML Live Preview: Capture and edit desktop app UI
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 With XAML Live Preview, you can capture a desktop app's user interface (UI) and bring it into a docked window within Visual Studio, which makes it easier to use [XAML Hot Reload](xaml-hot-reload.md) to change the app and then view those changes in real time as you make them.
 
@@ -117,6 +115,6 @@ XAML Live Preview works by capturing an application screenshot several times a s
 
 Learn more about [XAML Hot Reload](xaml-hot-reload.md), which pairs closely with XAML Live Preview.
 
-## See also
+## Related content
 
 [Visual Studio 2022 release notes](/visualstudio/releases/2022/release-notes)

@@ -1,15 +1,13 @@
 ---
-title: Visual Studio Container Tools for Docker on Windows
-description: Get to know the tools available in Visual Studio for working with Docker
+title: Visual Studio Container Tools & Docker on Windows
+description: Explore tools available for working with Docker containers in Visual Studio for Windows, including continuous delivery and continuous integration (CI/CD).
 author: ghogen
 ms.author: ghogen
 ms.topic: overview
 ms.date: 3/8/2023
-ms.technology: vs-container-tools
+ms.subservice: container-tools
 ---
 # Visual Studio Container Tools for Docker
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The tools included in Visual Studio for developing with Docker containers are easy to use, and greatly simplify building, debugging, and deployment for containerized applications. You can work with a container for a single project, or use container orchestration with Docker Compose or Service Fabric to work with multiple services in containers.
 

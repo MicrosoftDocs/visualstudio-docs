@@ -10,11 +10,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Create a custom debug engine
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A debug engine (DE) is a component that allows debugging of particular run-time architectures. There is typically only one DE implementation per run-time environment.
 
 > [!NOTE]
@@ -56,5 +55,5 @@ A debug engine (DE) is a component that allows debugging of particular run-time 
  [How To: Debug a custom debug engine](../../extensibility/debugger/how-to-debug-a-custom-debug-engine.md)
  Explains how to debug a custom DE.
 
-## See also
+## Related content
 - [Visual Studio debugger extensibility](../../extensibility/debugger/visual-studio-debugger-extensibility.md)

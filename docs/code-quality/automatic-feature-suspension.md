@@ -12,11 +12,9 @@ helpviewer_keywords:
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-code-analysis
+ms.subservice: code-analysis
 ---
 # Automatic feature suspension
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If your available system memory falls to 200 MB or less, Visual Studio displays the following message in the code editor:
 
@@ -63,7 +61,7 @@ In addition, caches used for internal Visual Studio operations are also cleared.
 > [!NOTE]
 > The automatic feature suspension warning occurs only once on a per-solution basis, not on a per-session basis. This means that if you switch from Visual Basic to Visual C# (or vice-versa) and run into another low memory condition, you can possibly get another automatic feature suspension warning.
 
-## See also
+## Related content
 
 - [How to: Configure live code analysis scope for managed code](./configure-live-code-analysis-scope-managed-code.md)
 - [Fundamentals of Garbage Collection](/dotnet/standard/garbage-collection/fundamentals)

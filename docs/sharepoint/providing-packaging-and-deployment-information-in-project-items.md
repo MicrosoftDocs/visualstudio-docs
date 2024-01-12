@@ -23,11 +23,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
+ms.subservice: sharepoint-development
 ---
 # Provide packaging and deployment information in project items
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   All SharePoint project items in Visual Studio have properties that you can use to provide additional data when the project is deployed to SharePoint. These properties are as follows:
 
 - Feature Properties
@@ -101,7 +100,7 @@ ms.technology: sharepoint-development
 </Assemblies>
 ```
 
-## See also
+## Related content
 - [Package and deploying SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)
 - [Use modules to include files in the solution](../sharepoint/using-modules-to-include-files-in-the-solution.md)
 - [Extend SharePoint packaging and deployment](../sharepoint/extending-sharepoint-packaging-and-deployment.md)

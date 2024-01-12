@@ -3,7 +3,7 @@ title: Assembly Element (Visual Studio Templates)
 titleSuffix: ""
 description: Learn about the Assembly element and how it specifies information about an assembly, which the template uses to add a reference of that assembly to projects.
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#Assembly
@@ -16,7 +16,6 @@ manager: jmartens
 ---
 # Assembly element (Visual Studio templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies information about an assembly, which the template uses to add a reference of that assembly to projects.
 
  \<VSTemplate>

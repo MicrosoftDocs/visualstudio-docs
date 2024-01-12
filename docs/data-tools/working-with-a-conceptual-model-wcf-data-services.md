@@ -10,11 +10,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Work with a Conceptual Model (WCF Data Services)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you use a conceptual model to describe the data in a database, you can query data through your objects instead of having to translate back and forth between a database schema and an object model.
 
@@ -40,7 +38,7 @@ The following topics show how to add validation to WCF Data Services application
 |[How to: Add, modify, and delete entities](/dotnet/framework/data/wcf/how-to-add-modify-and-delete-entities-wcf-data-services)|Shows how to create, update, and delete entity data in a data service.|
 |[How to: Define entity relationships](/dotnet/framework/data/wcf/how-to-define-entity-relationships-wcf-data-services)|Shows how to create or change relationships in a data service.|
 
-## See also
+## Related content
 
 - [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)
 - [Querying the Data Service](/dotnet/framework/data/wcf/querying-the-data-service-wcf-data-services)

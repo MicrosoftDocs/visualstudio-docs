@@ -13,10 +13,9 @@ helpviewer_keywords:
   - "Visual Studio terminal"
 no-loc: cmdlet
 monikerRange: ">=vs-2019"
+ms.subservice: general-ide
 ---
 # Visual Studio Developer Command Prompt and Developer PowerShell
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio includes two command-line shells for developers, a command prompt and an instance of PowerShell, as follows:
 
@@ -244,7 +243,7 @@ The Project Location can be adjusted in **Tools** > **Options** > **Projects &am
 > [!TIP]
 > The command-line arguments `-Arch`, `-HostArch`, and `-SkipAutomaticLocation` are supported by both the `Launch-VsDevShell.ps1` script and the `Enter-VsDevShell` cmdlet.
 
-## See also
+## Related content
 
 - [Windows Terminal](/windows/terminal/)
 - [.NET Framework Tools](/dotnet/framework/tools/index)

@@ -8,11 +8,9 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Get a service
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You often need to get Visual Studio services to access different features. In general, a Visual Studio service provides one or more interfaces that you can use. You can get most services from a VSPackage.
 
@@ -80,7 +78,7 @@ if (sp != null)
 }
 ```
 
-## See also
+## Related content
 
 - [How to: Provide a service](../extensibility/how-to-provide-a-service.md)
 - [Use and provide services](../extensibility/using-and-providing-services.md)

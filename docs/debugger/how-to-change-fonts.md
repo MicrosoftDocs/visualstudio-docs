@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Change Fonts
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can change the font, font style, and font size for Spy++ windows.
 
 ### To change font options
@@ -25,7 +24,7 @@ You can change the font, font style, and font size for Spy++ windows.
 
    Selecting **Save Font As Default** will cause all future Spy++ windows to use this font.
 
-## See also
+## Related content
 - [Using Spy++](../debugger/using-spy-increment.md)
 - [Spy++ Views](../debugger/spy-increment-views.md)
 - [Spy++ Reference](../debugger/spy-increment-reference.md)

@@ -1,18 +1,16 @@
 ---
 title: Enable or install first-party .NET analyzers
 ms.date: 09/14/2023
-description: Learn how to enable first-party .NET analyzers from the .NET SDK or install these analyzers as a NuGet package.
+description: Enable first-party .NET analyzers by using the .NET SDK in Visual Studio or install a first-party analyzer as a NuGet package.
 ms.topic: how-to
 helpviewer_keywords:
   - .NET analyzers
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-code-analysis
+ms.subservice: code-analysis
 ---
 # Enable or install first-party .NET analyzers
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 
 
@@ -34,7 +32,7 @@ If you are using legacy FxCop analyzers or FxCop analyzers and want to use the .
 - [Migrate from legacy analysis to .NET analyzers](migrate-from-legacy-analysis-to-net-analyzers.md)
 - [Migrate from FxCop analyzers to .NET analyzers](migrate-from-fxcop-analyzers-to-net-analyzers.md)
 
-## See also
+## Related content
 
 - [Overview of code analyzers in Visual Studio](roslyn-analyzers-overview.md)
 - [Use code analyzers in Visual Studio](use-roslyn-analyzers.md)

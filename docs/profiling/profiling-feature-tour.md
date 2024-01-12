@@ -1,7 +1,7 @@
 ---
 title: "First look at profiling tools"
-description: "Take a brief look at the different diagnostic tools available in Visual Studio."
-ms.date: 04/24/2023
+description: Review the different diagnostic tools available in Visual Studio for profiling your C#, Visual Basic, C++, and F# applications.
+ms.date: 11/09/2023
 ms.topic: conceptual
 f1_keywords:
   - vs.diagnosticshub.overview
@@ -12,11 +12,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # First look at profiling tools (C#, Visual Basic, C++, F#)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Application performance measuring tools are essential for developers who want to optimize their code and improve application performance. Visual Studio offers a range of profiling and diagnostics tools that can help you diagnose memory and CPU usage and other application-level issues. With these tools, you can accumulate performance data while you run your application. A profiler can help you make informed decisions quickly by providing a visual depiction of execution times and CPU usage for your application. In this article, we give a quick look at the most common profiling tools.
 
@@ -38,12 +36,14 @@ The profiling tools that you can access during a debugging session are available
 
 ::: moniker range=">=vs-2022"
 ![Diagnostic Tools window](../profiling/media/vs-2022/prof-tour-diagnostic-tools.png "Diagnostic Tools")
+
+While you are debugging, you can use the **Diagnostic Tools** window to analyze CPU, memory usage, .NET counters, and you can view events that show performance-related information.
 ::: moniker-end
 ::: moniker range="<=vs-2019"
 ![Diagnostic Tools window](../profiling/media/prof-tour-diagnostic-tools.png "Diagnostic Tools")
-::: moniker-end
 
 While you are debugging, you can use the **Diagnostic Tools** window to analyze CPU and memory usage, and you can view events that show performance-related information.
+::: moniker-end
 
 ::: moniker range=">=vs-2022"
 ![Diagnostic Tools Summary view](../profiling/media/vs-2022/prof-tour-cpu-and-memory-graph.png "Diagnostic Tools Summary")
@@ -55,9 +55,18 @@ While you are debugging, you can use the **Diagnostic Tools** window to analyze 
 The **Diagnostic Tools** window is a common way to profile apps, but for Release builds you can also do a post-mortem analysis of your app instead. For more information on different approaches, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). To see profiling tool support for different app types, see [Which tool should I use?](../profiling/choose-performance-tool.md).
 
 Tools available in the Diagnostic Tools window or during a debugging session include:
+::: moniker range=">=vs-2022"
+
+- [CPU usage](../profiling/beginners-guide-to-performance-profiling.md)
+- [Memory usage](../profiling/memory-usage.md)
+- [.NET Counters](../profiling/dotnet-counters-tool.md)
+- [PerfTips](../profiling/perftips.md)
+::: moniker-end
+::: moniker range="<=vs-2019"
 - [CPU usage](../profiling/beginners-guide-to-performance-profiling.md)
 - [Memory usage](../profiling/memory-usage.md)
 - [PerfTips](../profiling/perftips.md)
+::: moniker-end
 
 > [!TIP]
 > Use relaunch to skip the launch page and automatically run with your previous settings by pressing **Alt+F2** or by clicking **Debug > Performance Profiler**.
@@ -254,6 +263,7 @@ Starting in Visual Studio 2019 version 16.7, you can use the [.NET Counters tool
 The tool shows live values for each counter in a list view.
 
 :::image type="content" source="../profiling/media/dotnet-counters-tool-collecting.png" alt-text=".NET Counter tool collecting.":::
+
 ## Analyze resource consumption (XAML)
 
 In XAML apps, such as Windows desktop WPF apps and UWP apps, you can analyze resource consumption using the Application Timeline tool. For example, you can analyze the time spent by your application preparing UI frames (layout and render), servicing network and disk requests, and in scenarios like application startup, page load, and Window resize. To use the tool, choose **Application Timeline** in the Performance Profiler, and then choose **Start**. In your app, go through the scenario with a suspected resource consumption issue, and then choose **Stop collection** to generate the report.
@@ -302,7 +312,7 @@ In Visual Studio 2019,  the legacy Performance Explorer and related profiling to
 
 ![Performance Explorer tool](../profiling/media/prof-tour-performance-explorer.png "Performance Explorer")
 
-## See also
+## Related content
 
 - [Which tool should I use?](../profiling/choose-performance-tool.md)
 - [Reduce compute costs by using profiling tools](../profiling/optimize-code-using-profiling-tools.md)

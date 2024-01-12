@@ -1,14 +1,14 @@
 ---
-title: Target Build Order
-description: Learn how to specify the order in which MSBuild targets are run, if the input to one target depends on the output of another target.
+title: Set the run order for MSBuild targets
+description: Specify the order in which MSBuild targets run and whether the input to one target depends on the output of another target.
 ms.date: 10/17/2023
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - msbuild, build order
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 
 # Target build order
@@ -133,6 +133,6 @@ MSBuild determines the target build order as follows:
 
 7. After the target is executed or skipped, any other target that lists it in an `AfterTargets` attribute is run.
 
-## See also
+## Related content
 
 - [Targets](../msbuild/msbuild-targets.md)

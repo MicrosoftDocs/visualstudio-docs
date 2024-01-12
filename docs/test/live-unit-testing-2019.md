@@ -7,11 +7,10 @@ helpviewer_keywords:
 - Live Unit Testing
 author: mikejo5000
 ms.author: mikejo
+ms.subservice: test-tools
 monikerRange: 'vs-2019'
 ---
 # Configure and use Live Unit Testing
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 While you develop an application, Live Unit Testing automatically runs any affected unit tests in the background and presents the results and code coverage in real time. When you modify your code, Live Unit Testing provides feedback on how your changes affected existing tests and whether the new code you added is covered by one or more existing tests. This feedback reminds you to write unit tests as you make bug fixes or add new features.
 
@@ -192,7 +191,7 @@ Use the following attributes to exclude an entire assembly of tests from Live Un
 - **NUnit:** `[assembly: Category("SkipWhenLiveUnitTesting")]`
 - **MSTest:** `[assembly: TestCategory("SkipWhenLiveUnitTesting")]`
 
-## See also
+## Related content
 
 - [Code testing tools](https://visualstudio.microsoft.com/vs/testing-tools/)
 - [Live Unit Testing blog](https://devblogs.microsoft.com/visualstudio/live-unit-testing-in-visual-studio-2017-enterprise/)

@@ -6,9 +6,9 @@ summary: The Visual Studio debugger helps you observe the run-time behavior of y
 metadata:
   title: Debugger documentation - Visual Studio (Windows) # Required; page title displayed in search results. Include the brand. < 60 chars.
   titleSuffix: ""
-  description: Learn how to use Visual Studio to debug applications and code.
+  description: Explore documentation to help you use Visual Studio to debug applications and code, observe application run-time behavior, and find and fix problems in the code.
   ms.topic: landing-page
-  ms.technology: vs-ide-debug
+  ms.subservice: debug-diagnostics
   author: mikejo5000
   ms.author: mikejo
   manager: jmartens
@@ -30,6 +30,8 @@ landingContent:
             url: getting-started-with-the-debugger-cpp.md
           - text: Learn to debug Visual Basic
             url: ../get-started/visual-basic/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
+          - text: Try AI-assisted debugging
+            url: debug-with-copilot.md  
           - text: Run Python code in the debugger >>
             url: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
           - text: Debugging for absolute beginners
@@ -63,8 +65,6 @@ landingContent:
         links:
           - text: Debugger tips and tricks
             url: debugger-tips-and-tricks.md
-          - text: Debug with Copilot
-            url: debug-with-copilot.md
           - text: Write and debug running XAML code
             url: ../xaml-tools/xaml-hot-reload.md
           - text: Debug a live Azure app

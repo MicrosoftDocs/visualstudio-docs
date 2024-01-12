@@ -6,11 +6,10 @@ ms.topic: reference
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Images and Icons for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## <a name="BKMK_ImageUseInVisualStudio"></a> Image use in Visual Studio
  Before creating artwork, consider making use of the 1,000+ images in the [Visual Studio Image Library](https://www.microsoft.com/download/details.aspx?id=35825).
 
@@ -30,7 +29,6 @@ ms.technology: vs-ide-sdk
 - **Cursors.** Used to indicate whether an operation is allowed using the mouse, where an object may be dropped, and so on.
 
 ## <a name="BKMK_IconDesign"></a> Icon design
-
 
  Visual Studio uses modern-style icons, which have clean geometry and a 50/50 balance of positive/negative (light/dark), and use direct, understandable metaphors. Crucial icon design points center around clarity, simplification, and context.
 
@@ -230,7 +228,6 @@ ms.technology: vs-ide-sdk
  For more information on using color in Visual Studio icons, see [Using color in images](../../extensibility/ux-guidelines/images-and-icons-for-visual-studio.md#BKMK_UsingColorInImages).
 
 ## <a name="BKMK_UsingColorInImages"></a> Using color in images
-
 
  Icons in Visual Studio are primarily monochromatic. Color is reserved to convey specific information and never for decoration. Color is used:
 

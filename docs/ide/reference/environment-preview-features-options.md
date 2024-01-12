@@ -10,11 +10,9 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Options dialog box: Environment \> Preview Features
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use this page of the **Options** dialog box to enable or disable preview features in Visual Studio. The **Preview Features** options page changes frequently as different preview features are made available in Visual Studio.
 

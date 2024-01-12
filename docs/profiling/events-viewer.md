@@ -1,5 +1,5 @@
 ---
-title: Events Viewer
+title: Use the generic Events Viewer to diagnose your app
 description: Learn about the generic events viewer, which helps you better diagnose how your app is doing within the Visual Studio profiler.
 ms.date: 09/15/2023
 ms.topic: how-to
@@ -8,10 +8,9 @@ helpviewer_keywords:
 author: MikeJo5000
 ms.author: mikejo 
 manager: AndSter
+ms.subservice: debug-diagnostics
 ---
 # Events viewer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In the Performance Profiler, you can collect diagnostic info while your app is running, and then examine the collected information after the app stops like a post-mortem analysis.
 
@@ -114,7 +113,6 @@ Here's an example of custom event code for C++.
 #include <iostream>
 #include <thread>
 
-
 // This GUID must be regenerated so it is unique for your provider
 // {7369B7AC-64EB-4618-B6B6-C8442B12E8F2}
 GUID customEventProvider = { 0x7369b7ac, 0x64eb, 0x4618, { 0xb6, 0xb6, 0xc8, 0x44, 0x2b, 0x12, 0xe8, 0xf2 } };
@@ -155,7 +153,7 @@ int main()
 
 ::: moniker-end
 
-## See also
+## Related content
 
 - [Identify hot paths with Flame Graph](../profiling/flame-graph.md)
 - [Diagnose high latency with CPU Insights](../profiling/cpu-insights.md)

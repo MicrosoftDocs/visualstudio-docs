@@ -1,16 +1,14 @@
 ---
 title: Getting Started with Domain-Specific Languages
-description: Learn the basic concepts in defining and using a domain-specific language (DSL) created with the Modeling SDK for Visual Studio.
+description: Explore the basic concepts to define and use a domain-specific language (DSL) created with the Modeling SDK for Visual Studio.
 ms.date: 11/04/2016
 ms.topic: conceptual
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 ---
 # Get Started with Domain-Specific Languages
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This topic explains the basic concepts in defining and using a domain-specific language (DSL) created with the Modeling SDK for Visual Studio.
 
@@ -71,7 +69,7 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 
     - Choose an extension that is not associated with any application in your computer, or in any computer where you want to install the DSL. For example, **docx** and **htm** would be unacceptable file name extensions.
 
-    - The wizard will warn you if the extension that you have entered is being used as a DSL. Consider using a different file name extension. You can also reset the Visual Studio SDK Experimental instance to clear out old experimental designers. Click **Start**, click **All Programs**, **Microsoft Visual Studio 2010 SDK**, **Tools**, and then **Reset the Microsoft Visual Studio 2010 Experimental instance**.
+    - The wizard will warn you if the extension that you have entered is being used as a DSL. Consider using a different file name extension. You can also reset the Visual Studio SDK Experimental instance to clear out old experimental designers. In the Windows **Start** menu, type **reset the Visual Studio**, and then run the **Reset the Microsoft Visual Studio Experimental Instance** command matching your version of Visual Studio.
 
 7. Inspect the other pages and then click **Finish**.
 
@@ -399,11 +397,11 @@ Rename the existing domain classes and relationships. For example, starting from
 
 #### To reset the Visual Studio Experimental instance
 
-1. Click **Start**, click **All Programs**, **Microsoft Visual Studio 2010 SDK**, **Tools**, and then **Reset the Microsoft Visual Studio 2010 Experimental instance**.
+1. In the Windows **Start** menu, type **reset the Visual Studio**, and then run the **Reset the Microsoft Visual Studio Experimental Instance** command matching your version of Visual Studio.
 
 2. Rebuild any experimental DSLs or other experimental Visual Studio extensions that you still want to use.
 
-## See also
+## Related content
 
 - [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md)
 - [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)

@@ -1,18 +1,16 @@
 ---
 title: "Debug ASP.NET Core"
 description: "Debug ASP.NET Core using the Visual Studio debugger"
-ms.date: 08/06/2018
+ms.date: 11/22/2023
 ms.topic: quickstart
 helpviewer_keywords:
   - "debugger"
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Quickstart: Debug ASP.NET Core with the Visual Studio debugger
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio debugger provides many powerful features to help you debug your apps. This article provides a quick way to learn some of the basic features.
 
@@ -20,40 +18,63 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 1. Open Visual Studio.
 
-    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **asp.net**, choose **Templates**, then choose **Create new ASP.NET Core Web Application**. In the dialog box that appears, choose **Create**.
+   If the start window is not open, choose **File** > **Start Window**.
 
-    If you don't see the **ASP.NET Core Web Application** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
+1. On the start window, choose **Create a new project**.
+
+1. On the **Create a new project** window, enter or type *web app* in the search box. Next, choose **C#** from the Language list. Select the **ASP.NET Core Web App (Razor Pages)** template and follow steps to create the project.
+
+    If you don't see the **ASP.NET Core Web App (Razor Pages)** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 
     Visual Studio creates the project.
 
-1. In Solution Explorer, open About.cshtml.cs (under Pages/About.cshtml) and replace the following code. <!-- The file Pages/About.cshtml doesn't exist in the ASP.NET Web project created by VS 2022. -->
+1. In Solution Explorer, open *Privacy.cshtml* (under Pages) and replace the following code:
+
+   ```html
+   @{
+    ViewData["Title"] = "Privacy Policy";
+   }
+   ```
+
+   with this code:
+
+   ```html
+   @{
+    ViewData["Title"] = "Privacy Policy";
+    <label>@PrivacyModel.PrivacyMessage</label>
+   }
+   ```
+
+1. In Solution Explorer, open *Privacy.cshtml.cs* (under Pages/Privacy.cshtml) and replace the following code.
 
     ```csharp
     public void OnGet()
     {
-        Message = "Your application description page.";
     }
     ```
 
     with this code:
 
     ```csharp
+
+    public static string? PrivacyMessage { get; set; }
+
     public void OnGet()
     {
-        LinkedList<int> result = doWork();
-        Message = "Result of work: " + result.First.Value + ", " + result.First.Value;
+       LinkedList<int> result = DoWork();
+       PrivacyMessage = "Result of work: " + result.First.Value + ", " + result.First.Value;
     }
 
-    private static LinkedList<int> doWork()
+    private static LinkedList<int> DoWork()
     {
-        LinkedList<int> c1 = new LinkedList<int>();
+       LinkedList<int> c1 = new();
 
-        c1.AddLast(10);
-        c1.AddLast(20);
+       c1.AddLast(10);
+       c1.AddLast(20);
 
-        LinkedList<int> c2 = new LinkedList<int>(c1);
+       LinkedList<int> c2 = new(c1);
 
-        return c2;
+       return c2;
 
     }
     ```
@@ -62,19 +83,19 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 A *breakpoint* is a marker that indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run. It's the most basic feature in debugging.
 
-1. To set the breakpoint, click in the gutter to the left of the `doWork` function (or select the line of code and press **F9**).
+1. To set the breakpoint, click in the gutter to the left of the `DoWork` function (or select the line of code and press **F9**).
 
-    ![Set a breakpoint](../debugger/media/dbg-qs-set-breakpoint-aspnet.png)
+    ![Set a breakpoint](../debugger/media/debug-quickstart-set-breakpoint-aspnet.png)
 
     The breakpoint is set to the left of the opening brace (`{`).
 
 1. Now press **F5** (or choose **Debug > Start Debugging**).
 
-1. When the web page loads, select the **About** link at the top of the web page.
+1. When the web page loads, select the **Privacy** link at the top of the web page.
 
-    The debugger pauses where you set the breakpoint. A yellow arrow identifies the statement where the debugger and app execution is paused. The line with the opening brace (`{`) after the `doWork` function declaration hasn't yet executed.
+    The debugger pauses where you set the breakpoint. A yellow arrow identifies the statement where the debugger and app execution is paused. The line with the opening brace (`{`) after the `DoWork` function declaration hasn't yet executed.
 
-    ![Hit a breakpoint](../debugger/media/dbg-qs-hit-breakpoint-aspnet.png)
+    ![Hit a breakpoint](../debugger/media/debug-quickstart-hit-breakpoint-aspnet.png)
 
     > [!TIP]
     > If you have a breakpoint in a loop or recursion, or if you have many breakpoints that you frequently step through, use a [conditional breakpoint](../debugger/using-breakpoints.md#BKMK_Specify_a_breakpoint_condition_using_a_code_expression) to make sure that your code is suspended ONLY when specific conditions are met. This saves time and can also make it easier to debug issues that are hard to reproduce.
@@ -85,7 +106,7 @@ There are different commands to instruct the debugger to continue. We show a use
 
 While the code is paused at the breakpoint, hover over the statement `return c2` until the green **Run to click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png) appears, and then press the **Run to click** button.
 
-![Run to click](../debugger/media/dbg-qs-run-to-click-aspnet.png)
+![Run to click](../debugger/media/debug-quickstart-run-to-click-aspnet.png)
 
 The app continues execution, and pauses on the line of code where you clicked the button.
 
@@ -95,27 +116,13 @@ Common keyboard commands used to step through code include **F10** and **F11**. 
 
 1. In the current line of code (marked by the yellow execution pointer), hover over the `c2` object with your mouse to show a datatip.
 
-    ![View a datatip](../debugger/media/dbg-qs-data-tip-aspnet.png)
+    ![View a datatip](../debugger/media/debug-quickstart-data-tip-aspnet.png)
 
     The datatip shows you the current value of the `c2` variable and allows you to inspect its properties. When debugging, if you see a value you don't expect, you probably have a bug in the preceding or calling lines of code.
 
 2. Expand the datatip to look at the current property values of the `c2` object.
 
 3. If you want to pin the datatip so that you can continue to see the value of `c2` while you execute code, select the small pin icon. (You can move the pinned datatip to a convenient location.)
-
-## Edit code and continue debugging
-
-If you identify a change that you want to test in your code while in the middle of a debugging session, you can do that, too.
-
-1. In the `OnGet` method, select the second instance of `result.First.Value` and change `result.First.Value` to `result.Last.Value`.
-
-1. Press **F10** (or **Debug > Step Over**) a few times to advance the debugger and execute the edited code.
-
-    ![Edit and continue](../debugger/media/dbg-qs-edit-and-continue-aspnet.png "Edit and continue")
-
-    **F10** advances the debugger one statement at a time, but steps over functions instead of stepping into them (the code that you skip still executes).
-
-For more information on using edit-and-continue and on feature limitations, see [Edit and Continue](../debugger/edit-and-continue.md).
 
 ## Next steps
 

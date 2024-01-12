@@ -14,24 +14,18 @@
     href: tutorial-create-angular-app.md
   - name: Create a Vue.js app
     href: tutorial-create-vue-app.md
-  - name: Create a Vue.js app (.njsproj)
-    href: quickstart-vuejs-with-nodejs.md
 - name: Tutorials
   items:
   - name: Create a Node.js app with Express
     href: tutorial-nodejs.md
-  - name: Create a Node.js app with React
-    href: tutorial-nodejs-with-react-and-jsx.md
   - name: Create an ASP.NET Core app with React
     href: tutorial-asp-net-core-with-react.md
   - name: Create an ASP.NET Core app with Angular
     href: tutorial-asp-net-core-with-angular.md
   - name: Create an ASP.NET Core app with Vue
     href: tutorial-asp-net-core-with-vue.md
-  - name: Create an ASP.NET Core app with TypeScript
+  - name: Add TypeScript to an ASP.NET Core app
     href: tutorial-aspnet-with-typescript.md
-  - name: Publish a Node.js app to Linux App Service
-    href: publish-nodejs-app-azure.md
 - name: How-to Guides
   items:
   - name: Migrate from Node.js projects
@@ -54,14 +48,20 @@
     href: npm-package-management.md
   - name: Develop without projects or solutions ("Open Folder")
     href: develop-javascript-code-without-solutions-projects.md
-  - name: Create a Vue.js application (.njsproj)
-    href: create-application-with-vuejs.md
-  - name: Use the Node.js interactive REPL
-    href: nodejs-interactive-repl.md
   - name: Debug
     href: debug-nodejs.md
   - name: Unit testing
     href: unit-testing-javascript-with-visual-studio.md
+  - name: Node.js projects (.njsproj)
+    items:
+    - name: Create a Node.js app with React
+      href: tutorial-nodejs-with-react-and-jsx.md
+    - name: Create a Vue.js app (.njsproj)
+      href: quickstart-vuejs-with-nodejs.md
+    - name: Build a Vue.js app (.njsproj)
+      href: create-application-with-vuejs.md
+    - name: Publish a Node.js app to Linux App Service
+      href: publish-nodejs-app-azure.md
 - name: Reference
   items:
   - name: Properties, React, Angular, Vue

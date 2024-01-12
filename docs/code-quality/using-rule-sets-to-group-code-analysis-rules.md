@@ -1,5 +1,5 @@
 ---
-title: Code analysis rule sets
+title: Group your code analysis rules into sets
 ms.date: 04/17/2023
 description: Learn about built-in and customized rule sets in Visual Studio code analysis. See how to specify rule sets in files and how to configure rule sets in projects.
 ms.topic: conceptual
@@ -10,11 +10,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-code-analysis
+ms.subservice: code-analysis
 ---
 # Use rule sets to group code analysis rules
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you configure code analysis in Visual Studio, you can choose from a list of built-in *rule sets*. A rule set is a grouping of code analysis rules that identify targeted issues and specific conditions for that project. For example, you can apply a rule set that's designed to scan code for publicly available APIs. You can also apply a rule set that includes all the available rules.
 
@@ -66,6 +64,6 @@ The rule set for a project is specified by the **CodeAnalysisRuleSet** property 
 </PropertyGroup>
 ```
 
-## See also
+## Related content
 
 - [Code analysis rule set reference](../code-quality/rule-set-reference.md)

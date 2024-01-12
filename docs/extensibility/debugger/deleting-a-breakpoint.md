@@ -9,11 +9,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Deleting a breakpoint
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following describes the process when deleting a pending breakpoint:
 
 ## Deletion process
@@ -22,5 +21,5 @@ The following describes the process when deleting a pending breakpoint:
 > [!NOTE]
 > A single bound breakpoint can also be deleted by a call to [IDebugBoundBreakpoint2::Delete](../../extensibility/debugger/reference/idebugboundbreakpoint2-delete.md).
 
-## See also
+## Related content
 - [Call debugger events](../../extensibility/debugger/calling-debugger-events.md)

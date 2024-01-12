@@ -6,11 +6,9 @@ ms.topic: how-to
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 ---
 # Create a Windows Forms-based Domain-Specific Language
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use Windows Forms to display the state of a domain-specific language (DSL) model, instead of using a DSL diagram. This topic walks you through binding a Windows Form to a DSL by using the Visual Studio Visualization and Modeling SDK.
 
@@ -320,7 +318,7 @@ However, this code does not set a default name for the new item. It does not run
 
 Therefore we recommend that you use <xref:Microsoft.VisualStudio.Modeling.ElementOperations> to create new elements. For more information, see [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md).
 
-## See also
+## Related content
 
 - [How to define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
 - [Write code to customize a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)

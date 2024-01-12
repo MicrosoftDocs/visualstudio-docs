@@ -8,11 +8,9 @@ f1_keywords:
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Options, Text Editor, XML, Miscellaneous
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Miscellaneous** options page to change the autocompletion and schema settings for the XML Editor. To access miscellaneous XML options, choose **Tools** > **Options** > **Text Editor** > **XML**, and then choose **Miscellaneous**.
 

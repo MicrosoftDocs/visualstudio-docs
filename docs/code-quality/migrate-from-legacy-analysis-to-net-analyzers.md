@@ -1,6 +1,6 @@
 ---
-title: Migrate from FxCop to source analysis (.NET analyzers)
-description: "Learn how to analyze code for the first time or how to migrate from binary analysis (FxCop) to the new way of analyzing managed code using source analysis (.NET analyzers)."
+title: Migrate from FxCop to source analysis (.NET)
+description: Analyze code for the first time or migrate your process from binary analysis (FxCop code analysis) to .NET analyzers for source analysis.
 ms.date: 09/17/2021
 ms.topic: conceptual
 f1_keywords:
@@ -12,11 +12,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-code-analysis
+ms.subservice: code-analysis
 ---
 # Migrate from legacy analysis (FxCop) to source analysis (.NET analyzers)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Source analysis by .NET Compiler Platform ("Roslyn") analyzers replaces [legacy analysis](../code-quality/code-analysis-for-managed-code-overview.md) for managed code. For newer project templates such as .NET Core and .NET Standard projects, legacy analysis is not available.
 
@@ -51,6 +49,6 @@ To learn more about how to configure the .NET analyzers:
 
 - To find out about configuring analyzers using predefined rules with EditorConfig or a rule set file, see [Enable a category of rules](/dotnet/fundamentals/code-analysis/code-quality-rule-options).
 
-## See also
+## Related content
 
 - [Migrate from FxCop analyzers to .NET analyzers](migrate-from-fxcop-analyzers-to-net-analyzers.md)

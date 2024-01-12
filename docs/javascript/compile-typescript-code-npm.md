@@ -1,18 +1,16 @@
 ---
 title: Compile and build TypeScript code using npm
-description: Learn how to add TypeScript support to your Visual Studio projects by using the Node Package Manager (npm).
+description: Add TypeScript support to your Visual Studio projects by using the Node Package Manager (npm) package for portability across different platforms and environments.
 ms.date: 10/23/2023
 ms.topic: conceptual
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
 ---
 # Compile TypeScript code (Node.js)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the TypeScript npm package to add TypeScript support to projects based on the JavaScript Project System (JSPS), or *.esproj*. Starting in Visual Studio 2019, it is recommended that you use the npm package instead of the TypeScript SDK. The TypeScript npm package provides greater portability across different platforms and environments.
 
@@ -124,6 +122,6 @@ You can use Task Runner Explorer in Visual Studio to help automate tasks for thi
 - [NPM Task Runner](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.NPMTaskRunner) - Adds support for npm scripts defined in *package.json*. Supports yarn.
 - [Webpack Task Runner](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebPackTaskRunner) - Adds support for webpack.
 
-## See also
+## Related content
 
 [Properties, React, Angular, Vue](../ide/reference/property-pages-javascript-esproj.md)

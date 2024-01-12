@@ -3,16 +3,14 @@ title: "Tour the Visual Studio IDE"
 description: Learn about some of the windows, menus, and other UI features of the Visual Studio integrated development environment (IDE).
 ms.custom: vs-acquisition
 titleSuffix: ''
-ms.date: 11/01/2023
+ms.date: 12/18/2023
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Tour the Visual Studio IDE
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this introduction to the Visual Studio integrated development environment (IDE), you take a tour of some of the windows, menus, and other UI features.
 
@@ -142,17 +140,18 @@ To explore Visual Studio's features, let's create a new project.
 
 1. In the **Configure your new project** window, accept the default project name and location, and then select **Next**.
 
-    :::image type="content" source="media/vs-2022/quickstart-configure-new-project-console.png" alt-text="Screenshot of the 'Configure a new project' window in Visual Studio 2022, where you enter the name of the project.":::
+    :::image type="content" source="media/vs-2022/quickstart-configure-new-project-console.png" alt-text="Screenshot of the Configure a new project window in Visual Studio 2022, where you enter the name of the project and the project location." lightbox="media/vs-2022/quickstart-configure-new-project-console.png":::
 
 1. In the **Additional information** window, ensure that **.NET 8.0** appears in the **Framework** dropdown menu, and then select **Create**.
 
-    :::image type="content" source="media/vs-2022/create-project-additional-info.png" alt-text="Screenshot of the 'Additional information' window in Visual Studio 2022, where you select the version of the .NET that you want.":::
+    :::image type="content" source="media/vs-2022/create-project-additional-info.png" alt-text="Screenshot of the Additional information window in Visual Studio 2022, where you select the version of the .NET that you want." lightbox="media/vs-2022/create-project-additional-info.png":::
 
 1. The project is created and loaded in Visual Studio. 
 
 ### Basic layout
 
 * Take a look at the contents of your project using **Solution Explorer**, which shows you a graphical representation of the hierarchy of files and folders in your project, solution, or code folder. 
+
 * You can browse the hierarchy and select a file to open it in the **Editor**.
   The file *Program.cs* opens in the **Editor** window. The **Editor** shows the contents of files and is where you do most of your coding work in Visual Studio.
     
@@ -162,8 +161,19 @@ To explore Visual Studio's features, let's create a new project.
     
     :::image type="content" source="media/vs-2022/menu-bar.png" alt-text="Screenshot of the Menu bar in Visual Studio 2022.":::
 
+* Get AI assistance with [GitHub Copilot](visual-studio-github-copilot-extension.md) directly in the editor with context-aware code completions, suggestions, code explanations, and more. For example, you can receive code suggestions by writing a natural language comment describing what you want the code to do.
+
+    :::image type="content" source="media/vs-2022/quickstart-ide-orientation/github-copilot-extension-example.gif" alt-text="Screenshot of the GitHub Copilot extension in Visual Studio 2022." lightbox="media/vs-2022/quickstart-ide-orientation/github-copilot-extension-example.gif":::
+
+    > [!div class="button"]
+    > [Get GitHub Copilot](visual-studio-github-copilot-extension.md#prerequisites)
+
+    Learn more about [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md). 
+
 * Get contextual help by pressing F1 while the mouse cursor is on a keyword or after selecting a keyword. For example, select *console* and press F1 to jump to documentation on the *Console Class*. 
+
 * Visual Studio has excellent keyboard accessibility. It supports an array of built-in keyboard shortcuts to perform actions quickly. Use **Help > Keyboard Shortcut reference** to see the list of keyboard shortcuts.
+
 * The **Error List** shows errors, warnings, and messages about the current state of your code. If there are errors (like a missing brace or semicolon) in your file or anywhere in your project, they're listed here. To open the **Error List** window, choose the **View** menu, and then select **Error List**.
     
     :::image type="content" source="media/vs-2022/quickstart-ide-error-list.png" alt-text="Screenshot of the Error List in Visual Studio 2022.":::
@@ -193,7 +203,7 @@ The **Output** window automatically obtains focus and shows a successful build m
 
 ::: moniker range=">=vs-2022"
 
-:::image type="content" source="media/vs-2022/quickstart-build-output-minimal.png" alt-text="Screenshot of the Output window in Visual Studio 2022.":::
+:::image type="content" source="media/vs-2022/quickstart-build-output-minimal.png" alt-text="Screenshot of the Output window in Visual Studio 2022 showing output messages from building your project and from your source control provider." lightbox="media/vs-2022/quickstart-build-output-minimal.png":::
 
 ::: moniker-end
 
@@ -267,18 +277,12 @@ Visual Studio has many built-in debugging capabilities. Set a break point at any
 
 ::: moniker-end
 
-## Next steps
+## Related content
 
 You looked at just a few of the features of Visual Studio to get acquainted with the user interface. To explore further:
 
-> [!div class="nextstepaction"]
-> [Learn about the code editor](../get-started/tutorial-editor.md)
-
-> [!div class="nextstepaction"]
-> [Learn about projects and solutions](../get-started/tutorial-projects-solutions.md)
-
-## See also
-
+- [Learn about the code editor](../get-started/tutorial-editor.md)
+- [Learn about projects and solutions](../get-started/tutorial-projects-solutions.md)
 - [Overview of the Visual Studio IDE](../get-started/visual-studio-ide.md)
 - [More features of Visual Studio](../ide/advanced-feature-overview.md)
 - [Change theme and font colors](../ide/quickstart-personalize-the-ide.md)

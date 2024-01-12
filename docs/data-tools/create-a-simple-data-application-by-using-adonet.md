@@ -1,6 +1,6 @@
 ---
-title: Create a simple .NET Framework data application by using ADO.NET
-description: Learn to create a simple forms-to-data application by using Windows Forms and ADO.NET in Visual Studio.
+title: Create a .NET Framework data app by using ADO.NET
+description: Create a forms-over-data .NET Framework application with Visual C# or Visual Basic by using Windows Forms and ADO.NET in Visual Studio.
 ms.date: 10/25/2023
 ms.topic: conceptual
 dev_langs:
@@ -9,11 +9,9 @@ dev_langs:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Create a simple data application by using ADO.NET
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -267,6 +265,6 @@ To complete the FillOrCancel form logic, follow these steps.
 
 Run the application and try creating a few customers and orders to verify that everything is working as expected. To verify that the database is updated with your changes, open the **Tables** node in **Server Explorer**, right-click on the **Customers** and **Orders** nodes, and choose **Show Table Data**.
 
-## See also
+## Related content
 
 - [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)

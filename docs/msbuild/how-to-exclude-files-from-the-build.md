@@ -1,8 +1,8 @@
 ---
 title: Exclude Files from the Build
-description: Learn how to explicitly exclude or conditionally include files from builds in MSBuild project files.
+description: Discover how to explicitly exclude or conditionally include files from builds for MSBuild project files with attributes and wildcards.
 ms.date: 05/10/2023
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, wildcards
 - MSBuild, excluding files
@@ -10,7 +10,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # Exclude files from the build
 
@@ -119,7 +119,7 @@ In a project file you can use wildcards to include all the files in one director
 </Project>
 ```
 
-## See also
+## Related content
 
 - [Items](../msbuild/msbuild-items.md)
 - [MSBuild](../msbuild/msbuild.md)

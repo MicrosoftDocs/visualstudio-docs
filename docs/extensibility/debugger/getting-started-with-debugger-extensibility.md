@@ -10,11 +10,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Get started with debugger extensibility
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Visual Studio SDK provides the information that you need to create and customize debugger components used to debug programs from within the Visual Studio environment.
 
  Visual Studio debugging has added improvements derived from the extensive usability testing performed on previous Visual Studio debuggers. You can use Visual Studio debugging to step through a multi-language application, or you can implement on-the-fly editing of variables while debugging applications and multi-language solutions.

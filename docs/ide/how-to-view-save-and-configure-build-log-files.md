@@ -1,16 +1,14 @@
 ---
 title: 'View, save, and configure build log files'
-description: Learn how you can view, save, and configure build log files. These files provide information such as the command lines used for the compiler and other tools, which can help you troubleshoot build failures.
+description: View, save, and configure build log files that contain information such as the command lines used for the compiler and other tools, and troubleshoot build failures.
 ms.date: 11/11/2022
-ms.technology: vs-ide-compile
+ms.subservice: compile-build
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ---
 # View, save, and configure build log files
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 After you build a project in the Visual Studio IDE, you can view information about that build in the **Output** window. By using this information, you can troubleshoot a build failure, view the exact command lines used for all the build tools, or get full diagnostic information about the entire build process.
 
@@ -72,7 +70,8 @@ Binary logs are an optional feature for .NET projects that lets you have a riche
 :::moniker range=">=vs-2022"
 Binary logs are an optional feature for .NET projects that lets you have a richer log browsing experience that might make it easier to find information in large logs. To use binary logs, install the [Project System Tools 2022](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProjectSystemTools2022). For more information, see [https://msbuildlog.com](https://msbuildlog.com) and [Binary Log](https://github.com/microsoft/msbuild/blob/master/documentation/wiki/Binary-Log.md).
 :::moniker-end
-## See also
+
+## Related content
 
 - [Build and clean projects and solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)
 - [Compile and build](../ide/compiling-and-building-in-visual-studio.md)

@@ -12,11 +12,10 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Block
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Each code block is identified by a `SymTagBlock` symbol. Block symbols are used to identify nested scopes within functions.
 
 ## Properties

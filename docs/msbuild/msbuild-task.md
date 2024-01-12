@@ -1,6 +1,6 @@
 ---
 title: MSBuild Task
-description: Learn how the MSBuild task uses the same MSBuild process to build child projects from another MSBuild project.
+description: Explore how the MSBuild task uses the same MSBuild process to build child projects from another MSBuild project and review applicable properties and metadata.
 ms.date: 07/30/2019
 ms.topic: reference
 f1_keywords:
@@ -15,7 +15,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # MSBuild task
 

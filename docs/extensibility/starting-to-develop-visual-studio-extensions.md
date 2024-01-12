@@ -1,6 +1,6 @@
 ---
 title: Start developing Visual Studio extensions
-description: Get answers to some of the common questions that you may have the first time you start to write a Visual Studio extension.
+description: Get answers to common questions about writing Visual Studio extensions, including prerequisites, extending features, and project templates.
 ms.date: 08/26/2022
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,11 +9,9 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Start developing extensions in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If you've never written a Visual Studio extension before, you probably have some questions. We've listed some of the most common ones here. If you don't see the information you're looking for, use the feedback buttons (**Is this page helpful?** in the upper right of the screen) to ask for what you want.
 
@@ -92,7 +90,7 @@ In practice, we have found that the features most people want to extend are comm
 
  You can also publish your extension on the Visual Studio Marketplace, which makes it visible to a large number of Visual Studio customers. For an example of packaging an extension to the Marketplace, see [Walkthrough: Publishing a Visual Studio Extension](../extensibility/walkthrough-publishing-a-visual-studio-extension.md). For more information about what you need to do to publish on the Marketplace, see [Products and Extensions for Visual Studio](/azure/devops/extend/overview?view=vsts&preserve-view=true).
 
-## See also
+## Related content
 
 - [Extending Visual Studio for Mac](/previous-versions/visualstudio/mac/extending-visual-studio-mac-walkthrough)
 - [Extending Visual Studio Code](https://code.visualstudio.com/api)

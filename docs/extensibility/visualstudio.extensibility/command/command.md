@@ -4,7 +4,7 @@ description: An overview of extensibility commands
 author: ghogen
 ms.author: ghogen
 monikerRange: ">=vs-2022"
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ms.topic: overview
 ms.date: 02/02/2023
 ---
@@ -52,7 +52,6 @@ The [`CommandConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.co
 | Icon | CommandIconConfiguration | No | Commands can be displayed in the UI as either just an Icon, an Icon with text, or just text. This property configures what that icon should be, if any, and how it should be displayed. |
 | Shortcuts | CommandShortcutConfiguration[] | No | Defines the set of key combinations that can be used to execute the command. Shortcuts can be scoped down to only be applicable to specific IDE contexts. See at [Shortcuts](#shortcuts). |
 | ClientContexts[] | String | No | Client contexts requested by the command. By default the Shell and Editor contexts are returned. A client context is a snapshot of specific IDE states at the time a command was originally executed. Since these commands are executed asynchronously this state could change between the time the user executed the command and the command handler running. See at [Client contexts](./../inside-the-sdk/activation-constraints.md#client-context-keys). |
-| Priority | uint | No | Describes the display order of the command relative to other commands parented to the same `CommandPlacement.KnownPlacements`. |
 
 ### Example
 
@@ -85,14 +84,20 @@ There's a set of well-defined places in Visual Studio where commands can be plac
 - `ViewOtherWindowsMenu` - The command will be placed in a group under the top-level "View" -> "Other Windows" menu in Visual Studio.
 - `ExtensionsMenu` - The command will be placed in a group under the top-level "Extensions" menu in Visual Studio.
 
-Commands parented to the same placement are sorted based on their `Priority` property, relative to other commands or menus with the same placement.
+Commands can also be placed using the `CommandPlacement.VsctParent` method by the specifying the `Guid` and `Id` of group defined via VSCT.
+
+Commands parented to the same group are sorted based on their placement's `Priority` property, relative to other commands or menus with the same placement. The default `Priority` value for a `CommandPlacement` is `0` and can be modified by calling the `CommandPlacement.WithPriority` method, passing in the desired `Priority` value.
 
 ```csharp
 public override CommandConfiguration CommandConfiguration => new("%MyCommand.DisplayName%")
 {
+    // The command will be parented to a group inside of the "Tools" top level menu,
+    // a group inside of the "Extensions" top level menu, and the "About" group inside of the "Help" top level menu
     Placements = new CommandPlacement[]
     {
-        CommandPlacement.KnownPlacements.ToolsMenu
+        CommandPlacement.KnownPlacements.ToolsMenu,
+        CommandPlacement.KnownPlacements.ExtensionsMenu.WithPriority(0x0100),
+        CommandPlacement.VsctParent(new Guid("{d309f791-903f-11d0-9efc-00a0c911004f}"), id: 0x016B, priority: 0x0801),
     },
 };
 ```

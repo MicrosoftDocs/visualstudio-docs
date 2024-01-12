@@ -1,6 +1,6 @@
 ---
 title: "Walkthrough: Creating a Web Part for SharePoint"
-description: Create a web part for SharePoint. Web parts let users directly change the content, appearance, and behavior of SharePoint site pages by using a browser.
+description: Create a web part for SharePoint so users can directly change the content, appearance, and behavior of SharePoint site pages from a browser.
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -13,11 +13,9 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
+ms.subservice: sharepoint-development
 ---
 # Walkthrough: Create a web part for SharePoint
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Web Parts enable users to directly modify the content, appearance, and behavior of SharePoint site pages by using a browser. This walkthrough shows you how to create a Web Part by using the **Web Part** item template in Visual Studio 2010.
 

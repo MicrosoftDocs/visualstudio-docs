@@ -1,6 +1,6 @@
 ---
 title: "Add a custom task pane to an application"
-description: Learn how you can add a custom task pane to the applications by using the Visual Studio Tools for Office (VSTO) Add-in.
+description: Add a custom task pane with controls to your Microsoft Office applications by using the Visual Studio Tools for Office (VSTO) Add-in.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -12,11 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Add a custom task pane to an application
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can add a custom task pane to the applications listed above by using VSTO Add-in. For more information, see [Custom task panes](../vsto/custom-task-panes.md).
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
@@ -61,7 +60,7 @@ ms.technology: office-development
     > [!NOTE]
     > This code associates your custom task pane with the active window in the application. For some applications, you might want to modify this code to ensure that the task pane appears with other documents or items in the application. For more information, see [Custom task panes](../vsto/custom-task-panes.md).
 
-## See also
+## Related content
 - [Office UI customization](../vsto/office-ui-customization.md)
 - [Custom task panes](../vsto/custom-task-panes.md)
 - [Walkthrough: Automate an application from a custom task pane](../vsto/walkthrough-automating-an-application-from-a-custom-task-pane.md)

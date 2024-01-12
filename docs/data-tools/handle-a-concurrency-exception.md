@@ -1,6 +1,6 @@
 ---
-title: Handle a concurrency exception in .NET Framework database applications
-description: In .NET Framework application development with Visual Studio, handle a concurrency exception (System.Data.DBConcurrencyException), which is raised when two users try to change the same data in a database at the same time.
+title: Handle concurrency exceptions in .NET Framework
+description: Handle a concurrency exception (System.Data.DBConcurrencyException) in Visual Studio when two users try to change the same data in a database at the same time.
 ms.date: 09/11/2017
 ms.topic: how-to
 dev_langs:
@@ -16,11 +16,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Handle a concurrency exception in .NET Framework database applications
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -225,6 +223,6 @@ You can now test the form to make sure it behaves as expected. To simulate a con
 
    Selecting **No** cancels the update and updates the dataset with the values that are currently in the database. Selecting **Yes** writes the proposed value to the database.
 
-## See also
+## Related content
 
 - [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

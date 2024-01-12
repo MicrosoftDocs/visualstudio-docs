@@ -1,16 +1,14 @@
 ---
-title: Install Python support
-description: Learn how to install the Python Tools for Visual Studio (PTVS) in Visual Studio 
+title: Install Python Tools for Visual Studio (PTVS)
+description: Install the Python Tools for Visual Studio (PTVS) in Visual Studio on Windows and check your installation in the Python Interactive window.
 ms.date: 6/5/2023
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
+ms.subservice: python
 ---
 # Install Python support in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Python support is available only on Visual Studio for Windows. On Mac and Linux, Python support is available through [Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial).
 
@@ -72,7 +70,7 @@ To quickly test Python support:
     ![Screenshot of testing Python through the Visual Studio 2022 interactive window.](media/vs-2022/python-interactive.png)
     ::: moniker-end
 
-## Next steps
+## Related content
 
 - [Tutorial step 1: Create a Python project](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)
 - [Manually identify an existing Python interpreter](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment)

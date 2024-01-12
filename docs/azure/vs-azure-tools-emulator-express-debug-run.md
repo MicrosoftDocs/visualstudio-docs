@@ -1,16 +1,14 @@
 ---
-title: Emulator Express to run/debug Azure cloud service locally
-description: Using Emulator Express to run and debug a cloud service on a local machine
+title: Run & debug Azure service locally with Emulator Express
+description: Use Emulator Express to run and debug an Azure cloud service on a local machine without running Visual Studio as an administrator.
 author: mikejo5000
 manager: jmartens
-ms.technology: vs-azure
+ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 03/06/2017
 ms.author: mikejo
 ---
 # Using Emulator Express to run and debug an Azure cloud service on a local machine
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
@@ -45,5 +43,5 @@ The following issues are known limitations of Emulator Express:
 - You can't access port numbers below 1000. If you use an authentication provider that normally uses a port below 1000, you might need to change this value to a port number that's above 1000.
 - Any limitations that apply to the Azure Compute Emulator also apply to Emulator Express. For example, you can't have more than 50 role instances per deployment. For more information about the Azure Compute Emulator, see [Run an Azure Application in the Compute Emulator](vs-azure-tools-performance-profiling-cloud-services.md).
 
-## Next steps
+## Related content
 [Debugging Azure cloud services](vs-azure-tools-debugging-cloud-services-overview.md)

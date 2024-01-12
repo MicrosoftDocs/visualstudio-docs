@@ -1,15 +1,15 @@
 ---
 title: Using Multiple Processors to Build Projects
-description: Learn how MSBuild takes advantage of systems that have multiple processors or cores by creating a separate build process for each available processor.
+description: Explore how MSBuild takes advantage of systems that have multiple processors or cores by creating a separate build process for each available processor.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - multiple processors
 - MSBuild, multiple processor systems
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # Use multiple processors to build projects
 
@@ -37,7 +37,7 @@ MSBuild can take advantage of systems that have multiple processors, or multiple
 
  To avoid this problem but still enable multi-processor builds, MSBuild uses "process isolation." By using process isolation, MSBuild can create a maximum of `n` processes, where `n` equals the number of processors available on the system. For example, if MSBuild builds a solution on a system that has two processors, then only two build processes are created. These processes are re-used to build all the projects in the solution.
 
-## See also
+## Related content
 
 - [Build multiple projects in parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md)
 - [Tasks](../msbuild/msbuild-tasks.md)

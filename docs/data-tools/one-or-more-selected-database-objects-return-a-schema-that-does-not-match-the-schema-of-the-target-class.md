@@ -6,11 +6,9 @@ ms.topic: error-reference
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # One or more selected database objects return a schema that does not match the schema of the target class
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 One or more selected database objects return a schema that does not match the schema of the target class. Nothing has been added to the designer.
 

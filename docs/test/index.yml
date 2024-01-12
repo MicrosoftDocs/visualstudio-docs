@@ -5,13 +5,13 @@ summary: Visual Studio testing tools can help you and your team develop and sust
 
 metadata:
   title: Testing tools in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: Learn how to use Visual Studio to test your code.
+  description: Explore documentation to help you use Visual Studio to test your code, including overviews, getting started tutorials, and how-to guides.
   ms.topic: landing-page
-  ms.technology: vs-ide-test
+  ms.subservice: test-tools
   author: mikejo5000
   ms.author: mikejo
   manager: jmartens
-  ms.date: 08/19/2021
+  ms.date: 12/05/2023
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -82,14 +82,4 @@ landingContent:
             url: /azure/load-testing/
           - text: Continuous testing (Azure Pipelines)
             url: /azure/devops/pipelines/?view=azure-devops&preserve-view=true
-
-  # Card (optional)
-  - title: More testing tools
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-          - text: Coded UI (deprecated)
-            url: use-ui-automation-to-test-your-code.md
-          - text: Load testing (deprecated)
-            url: quickstart-create-a-load-test-project.md
 

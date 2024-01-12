@@ -1,7 +1,7 @@
 ---
 title: View memory for variables in the debugger
 description: Learn how to use Memory windows as you debug, to see the memory space your app is using. Other windows show variables and where they reside in memory.
-ms.date: 3/24/2023
+ms.date: 11/30/2023
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.memory
@@ -21,11 +21,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Use the Memory windows in the Visual Studio debugger (C#, C++, Visual Basic, F#)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 During debugging, the **Memory** window shows the memory space your app is using.
 
@@ -99,7 +97,7 @@ You can hide or display the toolbar at the top of the **Memory** window. You wil
 
 - Right-click in the **Memory** window, and select **Show Toolbar** in the context menu. The toolbar appears or disappears, depending on its previous state.
 
-## Follow a pointer through memory
+## Follow a pointer through memory (C/C++)
 
 In native code apps, you can use register names as live expressions. For example, you can use the stack pointer to follow the stack.
 
@@ -111,5 +109,12 @@ In native code apps, you can use register names as live expressions. For example
 
    When you use a debug command such as **Step**, the memory address displayed in the **Address** field and at the top of the **Memory** window automatically changes as the pointer changes.
 
-## See also
+## View memory pointers (.NET)
+
+If you want to view contents of a .NET object based on a memory pointer, such as an address obtained from a [heap snapshot](../debugger/using-dump-files.md), you can do that using `{CLR}@Address` notation. The address must be a pointer to memory, such as 0x1D102A581B0. Enter the memory pointer using `{CLR}@Address` notation in the Memory window **Address** field. Alternatively, you can use the same notation to add a watch using the [Watch window](../debugger/watch-and-quickwatch-windows.md).
+
+To get the memory pointer address from a heap snapshot, open the heap dump, choose **Debug Managed Memory**, which opens the [Memory Usage](../profiling/memory-usage.md) tool. Right-click the object you're interested in, and choose **View instances**.
+
+## Related content
+
 - [View data in the debugger](../debugger/viewing-data-in-the-debugger.md)

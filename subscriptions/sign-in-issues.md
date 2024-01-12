@@ -5,12 +5,12 @@ ms.author: amast
 manager: shve
 ms.date: 11/02/2023
 ms.topic: conceptual
-description:  Learn about issues that might arise when signing in to Visual Studio subscriptions
+description: Review potential sign-in issues for Visual Studio subscriptions, including Microsoft Accounts (MSA) limitations, failures due to aliases or deleted addresses.
 ---
 
 # Issues signing in to Visual Studio subscriptions
 
-To use your Visual Studio subscription, you must first sign in.  Depending on your subscription, you might have either a Microsoft account (MSA) or a Microsoft Entra ID identity.  This article discusses some of the issues you might encounter while signing in to your subscription.
+To use your Visual Studio subscription, you must first sign in.  Depending on your subscription, you might have either a Microsoft account (MSA) or a Microsoft Entra identity.  This article discusses some of the issues you might encounter while signing in to your subscription.
 
 ## Microsoft Accounts (MSA) can't be created using work/school email addresses
 

@@ -1,18 +1,16 @@
 ---
-title: Ways to debug XSLT code
-description: Learn how to debug XSLT code in Visual Studio using the XSLT debugger to step through code, set breakpoints, and view XSLT execution states.
+title: Debug XSLT code with the XSLT debugger
+description: Debug XSLT code in Visual Studio by using the XSLT debugger to step through code, set breakpoints, and view XSLT execution states.
 ms.date: 03/05/2019
 ms.topic: overview
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.technology: vs-xml-tools
+ms.subservice: xml-tools
 dev_langs:
 - CSharp
 ---
 # Debugging XSLT
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can debug XSLT code in Visual Studio. The XSLT debugger supports setting breakpoints, viewing XSLT execution states, and so on. The XSLT debugger can be used to debug XSLT style sheets or XSLT applications.
 

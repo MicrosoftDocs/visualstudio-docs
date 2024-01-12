@@ -16,20 +16,18 @@ helpviewer_keywords:
 author: akhera99
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Options, Text Editor, Basic (Visual Basic), Advanced
 
 ::: moniker range=">=vs-2022"
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **VB Specific** property page, in the **Visual Basic** folder of the **Text Editor** folder of the **Options** (**Tools** menu) dialog box, includes the following properties:
 
 ::: moniker-end
 
 ::: moniker range="<=vs-2019"
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **VB Specific** property page, in the **Basic** folder of the **Text Editor** folder of the **Options** (**Tools** menu) dialog box, includes the following properties:
 
 ::: moniker-end

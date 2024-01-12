@@ -13,11 +13,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Use Office functionality inside of Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When you create a document-level project, the document and the associated application are hosted inside Visual Studio so you can design and work directly with the document. When you have a Microsoft Office application open in Visual Studio, it generally works as expected. However, some of the application's functionality is different or inaccessible.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
@@ -31,7 +30,7 @@ ms.technology: office-development
 ## Password protection
  Microsoft Office Word documents and Microsoft Office Excel workbooks can be set so that they cannot be opened by someone who does not know the password. Password protection is handled differently in Word and Excel, and can affect your development process. For more information, see [Password protection on Office documents](../vsto/password-protection-on-office-documents.md).
 
-## See also
+## Related content
 - [Document protection in document-level solutions](/previous-versions/visualstudio/visual-studio-2017/vsto/document-protection-in-document-level-solutions)
 - [Information rights management and managed code extensions overview](../vsto/information-rights-management-and-managed-code-extensions-overview.md)
 - [Password protection on Office documents](../vsto/password-protection-on-office-documents.md)

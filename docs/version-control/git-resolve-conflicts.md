@@ -1,18 +1,16 @@
 ---
 title: Resolve merge conflicts in Visual Studio
 titleSuffix: ""
-description: Understanding, preventing, and resolving merge conflicts in Visual Studio.
+description: Understand how Git works to resolve conflicting changes that cause merge conflicts in your code branches and project files in Visual Studio.
 ms.date: 12/15/2022
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 ms.manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
+
+ms.subservice: general-ide
 ---
 # Resolve merge conflicts in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you merge one branch into another, file changes from commits in one branch can conflict with the changes in the other. Git attempts to resolve these changes by using the history in your repo to determine what the merged files should look like. When it isn't clear how to merge changes, Git halts the merge and tells you which files conflict.
 
@@ -86,11 +84,7 @@ Git is good at automatically merging file changes in most circumstances, as long
 > [!TIP]
 > To learn more about the accessibility options available to you, see the [Git keyboard shortcuts](../ide/reference/accessibility-tips-and-tricks.md#git-keyboard-shortcuts) section of the [Accessibility tips and tricks for Visual Studio](../ide/reference/accessibility-tips-and-tricks.md) page.
 
-## Next steps
+## Related content
 
-To continue your journey and learn more about resolving conflicts, see the [Git webpage for the merge command](https://git-scm.com/docs/git-merge).
-
-## See also
-
+- [Git webpage for the merge command](https://git-scm.com/docs/git-merge)
 - [The Git experience in Visual Studio](git-with-visual-studio.md)
-- [Visual Studio and GitHub: Better together](https://visualstudio.microsoft.com/vs/github/)

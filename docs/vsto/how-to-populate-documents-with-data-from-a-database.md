@@ -1,6 +1,6 @@
 ---
 title: "Populate documents with data from a database"
-description: Learn how you can use the data from a database in your solution, and how you can use Windows Forms controls to display the data in a document.
+description: Populate Microsoft Office Word documents with data from a database in your solution, and use Windows Forms controls to display the data in a document.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -12,11 +12,9 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Populate documents with data from a database
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can access data in document-level projects for Microsoft Office in the same way that you access data in Windows Forms projects. You use the same tools and code to bring the data from a database into your solution, and you can use Windows Forms controls to display the data.
 
@@ -62,7 +60,7 @@ When you run the project, the control displays the first record in the data sour
 
 For information about how to send updates to the typed dataset and the database, see [How to: Update a data source with data from a host control](../vsto/how-to-update-a-data-source-with-data-from-a-host-control.md).
 
-## See also
+## Related content
 
 - [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)
 - [Add new data sources](../data-tools/add-new-data-sources.md)

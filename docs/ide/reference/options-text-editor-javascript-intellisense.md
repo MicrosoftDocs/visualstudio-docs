@@ -2,7 +2,7 @@
 title: Options, Text Editor, JavaScript, IntelliSense
 description: Learn how to use the IntelliSense page of the Options dialog box to modify settings that affect the behavior of IntelliSense for JavaScript.
 ms.date: 01/16/2023
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Intellisense.References"
@@ -13,8 +13,6 @@ ms.author: mikejo
 manager: jmartens
 ---
 # Options dialog box: Text Editor \> JavaScript \> IntelliSense
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **IntelliSense** page of the **Options** dialog box to modify settings that affect the behavior of IntelliSense for JavaScript. You can access the **IntelliSense** page by choosing **Tools** > **Options** on the  menu bar, and then expanding **Text Editor** > **JavaScript/TypeScript** > **IntelliSense** > **General**.
 

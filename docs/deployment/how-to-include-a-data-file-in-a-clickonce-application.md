@@ -14,11 +14,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Include a data file in a ClickOnce application
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Each ClickOnce application you install is assigned a data directory on the destination computer's local disk where the application can manage its own data. Data files can include files of any type: text files, XML files, or even Microsoft Access database (*.mdb*) files. The following procedures show you how to add a data file of any type into your ClickOnce application.
 
  [!INCLUDE[ndptecclick](../deployment/includes/dotnet-dotnetmage-exe.md)]
@@ -79,5 +78,5 @@ Each ClickOnce application you install is assigned a data directory on the desti
 
      You must re-sign your deployment manifest because its hash of the application manifest has changed.
 
-## See also
+## Related content
 - [Access local and remote data in ClickOnce applications](../deployment/accessing-local-and-remote-data-in-clickonce-applications.md)

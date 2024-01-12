@@ -1,16 +1,14 @@
 ---
 title: Creating Custom Project and Item Templates
-description: Learn how template creation templates in the Visual Studio SDK let you include templates in larger extensions.
+description: Use the creation templates in the Visual Studio SDK to build custom projects and custom items, and include templates in larger extensions.
 ms.date: 3/16/2019
 ms.topic: overview
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Create custom project and item templates
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio SDK includes project templates that create a custom project template and a custom item template. These templates include some common parameter substitutions, and build as zip files. They are not automatically deployed, and they are not available in the experimental instance. You must copy the generated zip file to the user template directory.
 

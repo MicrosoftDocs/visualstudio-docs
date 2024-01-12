@@ -5,7 +5,7 @@ ms.author: amast
 manager: shve
 ms.date: 11/02/2023
 ms.topic: conceptual
-description:  Learn about managing Visual Studio subscriptions in a Microsoft Products and Services Agreement (MPSA)
+description: Manage Visual Studio subscriptions in a Microsoft Products and Services Agreement (MPSA), and review configuration differences between managed and unmanaged tenants.
 ---
 
 # Visual Studio subscriptions in a Microsoft Products and Services Agreement (MPSA)
@@ -49,7 +49,6 @@ To associate your account, you must
 > Granting BCP users permissions to view licenses, including Visual Studio Subscription licenses, in Business Center, is completely separate from granting users permissions on the Visual Studio Subscriptions Administration portal.
 
 Similarly, having Administrator permissions on the Visual Studio Subscriptions Administrator portal doesn't mean that the VSS Admin can view the licenses in Business Center.
-
 
 ## Unmanaged tenant
 

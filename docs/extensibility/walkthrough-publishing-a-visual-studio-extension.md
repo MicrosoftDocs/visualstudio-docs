@@ -1,6 +1,6 @@
 ---
 title: 'Walkthrough: Publish a Visual Studio extension'
-description: Learn how to publish a Visual Studio extension to Visual Studio Marketplace, which allows developers to browse for new and updated extensions.
+description: Publish a Visual Studio extension to Visual Studio Marketplace, which allows developers to browse for new and updated extensions.
 ms.date: 01/25/2023
 ms.topic: how-to
 helpviewer_keywords:
@@ -9,11 +9,9 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Walkthrough: Publish a Visual Studio extension
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This walkthrough shows you how to publish a Visual Studio extension to Visual Studio Marketplace. When you add your extension to Visual Studio Marketplace, developers can use **Extensions and Updates** to browse for new and updated extensions.
 

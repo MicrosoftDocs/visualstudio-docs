@@ -9,11 +9,9 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 ---
 # Add custom architecture validation to dependency diagrams
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In Visual Studio, users can validate the source code in a project against a layer model so that they can verify that the source code conforms to the dependencies on a dependency diagram. There is a standard validation algorithm, but you can define your own validation extensions.
 
@@ -274,6 +272,6 @@ namespace Validator3
 }
 ```
 
-## See also
+## Related content
 
 - [Extend dependency diagrams](../modeling/extend-layer-diagrams.md)

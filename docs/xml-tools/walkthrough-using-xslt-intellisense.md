@@ -6,11 +6,9 @@ ms.topic: how-to
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.technology: vs-xml-tools
+ms.subservice: xml-tools
 ---
 # Walkthrough: Using XSLT IntelliSense
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This walkthrough demonstrates how to use XSLT IntelliSense to auto-complete value of some attributes.
 
@@ -155,6 +153,6 @@ This walkthrough demonstrates how to use XSLT IntelliSense to auto-complete valu
 
      Notice how the list of prefixes appeared in the `stylesheet-prefix` and `result-prefix` attributes of the `xsl:namespace-alias` element.
 
-## See also
+## Related content
 
 - [XML editor IntelliSense features](../xml-tools/xml-editor-intellisense-features.md)

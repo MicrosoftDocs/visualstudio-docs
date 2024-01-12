@@ -6,12 +6,10 @@ ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
+ms.subservice: python
 ---
 
 # How Visual Studio uses Python search paths
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 With typical Python usage, the `PYTHONPATH` environment variable (or `IRONPYTHONPATH`, etc.) provides the default search path for module files. That is, when you use an `from <name> import...` or `import <name>` statement, Python searches the following locations in order for a matching name:
 
@@ -35,7 +33,7 @@ Once folders are added to the search paths, Visual Studio uses those paths for a
 
 Files with a _.zip_ or _.egg_ extension can also be added as search paths by selecting **Add Zip Archive to Search Path** command. As with folders, the contents of these files are scanned and made available to IntelliSense.
 
-## See also
+## Related content
 
 - [Manage Python environments in Visual Studio](managing-python-environments-in-visual-studio.md)
 - [Select an interpreter for a project](selecting-a-python-environment-for-a-project.md)

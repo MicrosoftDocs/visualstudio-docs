@@ -13,11 +13,9 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Use the keyboard exclusively
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Keyboard shortcuts can make it easier to navigate the Visual Studio IDE and to write code. This article explores a few ways you can use keyboard shortcuts more effectively.
 
@@ -84,7 +82,7 @@ To move among the options in a dialog box and change option settings by using on
 
    The tool window snaps into place at the new docking location.
 
-## See also
+## Related content
 
 * [Identifying and customizing keyboard shortcuts](../../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)
 * [Accessibility tips and tricks](../../ide/reference/accessibility-tips-and-tricks.md)

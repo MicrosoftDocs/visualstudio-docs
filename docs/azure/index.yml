@@ -6,8 +6,7 @@ metadata:
   description: Tutorials and conceptual articles about using Visual Studio to connect apps and services to Azure and develop services that run in the Azure cloud.
   author: ghogen
   manager: jmartens
-  ms.prod: visual-studio-windows
-  ms.technology: vs-azure
+  ms.subservice: azure-development
   ms.topic: landing-page
   ms.date: 10/21/2023
   ms.author: ghogen

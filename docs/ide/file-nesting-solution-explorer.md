@@ -1,6 +1,6 @@
 ---
 title: File nesting rules for Solution Explorer
-description: Learn about Solution Explorer file nesting rules, presets, and customization.
+description: Discover Solution Explorer in Visual Studio and review how to work with file nesting rules, presets, and customization for project-specific settings.
 ms.date: 05/25/2018
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,11 +9,9 @@ helpviewer_keywords:
 author: angelosp
 ms.author: angelpe
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # File nesting in Solution Explorer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Solution Explorer** nests related files to help organize them and make them easier to locate. For example, if you add a Windows Forms form to a project, the code file for the form is nested below the form in **Solution Explorer**. In .NET Core (and .NET 5 and later) projects, file nesting can be taken a step further. You can choose between the file nesting presets **Off**, **Default**, and **Web**. You can also [customize how files are nested](#customize-file-nesting) or [create solution-specific and project-specific settings](#create-project-specific-settings).
 
@@ -177,7 +175,7 @@ You can disable existing global file nesting rules for specific solutions or pro
 }
 ```
 
-## See also
+## Related content
 
 - [Personalize the IDE](../ide/personalizing-the-visual-studio-ide.md)
 - [Solutions and projects in Visual Studio](solutions-and-projects-in-visual-studio.md)

@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Author .vsct files
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This document shows how to author a *.vsct* file to add menu items, toolbars, and other user interface (UI) elements to the Visual Studio integrated development environment (IDE). Use these steps when you add UI elements to a Visual Studio package (VSPackage) that does not already have a *.vsct* file.
 
  For new projects, we recommend that you use the Visual Studio package template because it generates a *.vsct* file that, depending on your selections, already has the required elements for a menu command, a tool window, or a custom editor. You can modify this *.vsct* file to meet the requirements of your VSPackage. For more information about how to modify a *.vsct* file, see the examples in [Extend menus and commands](../../extensibility/extending-menus-and-commands.md).
@@ -230,7 +229,7 @@ This document shows how to author a *.vsct* file to add menu items, toolbars, an
    - Menu controller:
    A menu controller is a button that has an arrow next to it. Clicking the arrow opens a list. To add a menu controller to the UI, create a `Menu` element and set its `type` attribute to `MenuController` or `MenuControllerLatched`, depending on the behavior you want. To populate a menu controller, set it as the parent of a `Group` element. The menu controller will display all children of that group on its drop-down list.
 
-## See also
+## Related content
 - [Extend menus and commands](../../extensibility/extending-menus-and-commands.md)
 - [Visual Studio command table (.vsct) files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
 - [VSCT XML schema reference](../../extensibility/vsct-xml-schema-reference.md)

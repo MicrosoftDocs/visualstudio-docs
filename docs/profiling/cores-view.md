@@ -14,11 +14,10 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Cores View
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **Cores View** shows how thread execution was mapped to the logical processor cores (choose **Analyze** > **Concurrency Visualizer** to start the concurrency visualizer). If you're writing server applications, this view can help you optimize cache performance by using thread affinity or thread pool management. It can also help you examine cases where the use of thread affinity may have worsened the problem of cross-core migration. The Cores View has two parts, a graph and a legend.
 
  The graph shows logical cores on the y-axis and time on the x-axis. Every thread in the graph has a unique color so that you can track its movement across cores over time. You can filter the threads on this graph by selecting them in the legend area.
@@ -60,7 +59,7 @@ The Zoom control is a slider that lets you zoom in and out on the timeline so th
 
 - Zooming in and out: Hover over the timeline and then press **Ctrl** while you move the mouse wheel.
 
-## See also
+## Related content
 - [Concurrency Visualizer](../profiling/concurrency-visualizer.md)
 - [Utilization View](../profiling/utilization-view.md)
 - [Threads View](../profiling/threads-view-parallel-performance.md)

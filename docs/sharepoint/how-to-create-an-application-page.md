@@ -12,11 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
+ms.subservice: sharepoint-development
 ---
 # Create an application page
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can create an ASP.NET web page for one or more SharePoint sites. In SharePoint, these pages are called application pages. Unlike a site page, an application page contains code that runs behind the page. For more information, see [Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md).
 
 ### To create an application page
@@ -43,6 +42,6 @@ ms.technology: sharepoint-development
 
      The code file appears if you expand the node for the ASP.NET page file and has a *.cs* or *.vb* extension, depending on the language of the project. For an end-to-end example of how to create an application page, see [Walkthrough: Create a SharePoint application page](../sharepoint/walkthrough-creating-a-sharepoint-application-page.md).
 
-## See also
+## Related content
 - [Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)
 - [Walkthrough: Create a SharePoint application page](../sharepoint/walkthrough-creating-a-sharepoint-application-page.md)

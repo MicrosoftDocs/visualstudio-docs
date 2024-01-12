@@ -6,7 +6,7 @@ ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'
 ---
 # View file read and write information to help improve performance
@@ -54,7 +54,7 @@ Double-clicking any file will cause it to be loaded in the **Backtraces** view. 
  > [!NOTE] 
  > Caching the file read is not the correct fix as the OS already does that. Instead, cache what the file reads are translated into.
 
-## See also
+## Related content
 
 - [Beginners guide to CPU sampling](../profiling/beginners-guide-to-cpu-sampling.md)
 - [Analyze database](../profiling/analyze-database.md)

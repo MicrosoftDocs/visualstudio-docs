@@ -6,12 +6,10 @@ ms.topic: conceptual
 author: madskristensen
 ms.author: madsk
 manager: pchapman
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Publish your Visual Studio extension
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This section helps you getting your extension ready to share with your team or the whole world of Visual Studio users.
 

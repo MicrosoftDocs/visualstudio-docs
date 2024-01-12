@@ -12,11 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # &lt;customization&gt; element (Office development in Visual Studio)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The `customization` element of the `vstov4` namespace describes a specific Office solution. The child elements are different for document-level customizations and VSTO Add-ins.
 
 ## Syntax for document-level customizations

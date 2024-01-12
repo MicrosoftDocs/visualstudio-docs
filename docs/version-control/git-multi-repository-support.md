@@ -1,14 +1,14 @@
 ---
 title: Work with multiple repositories
 titleSuffix: ""
-description: Learn how to view, manage, and debug across 10 active repos at the same time by using the Git tooling within Visual Studio.
+description: View, manage, and debug your code across 10 active repos at the same time by using the Git tooling within Visual Studio.
 ms.date: 11/22/2022
 ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
 ms.manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
+
+ms.subservice: general-ide
 monikerRange: vs-2022
 ---
 # Work with multiple repos
@@ -64,7 +64,7 @@ Here's how to create a solution with multiple repositories:
 
 1. Open one of your existing solutions that already has a repository initialized.
 
-1. Right-click the solution in **Solution Explorer**, and then select **Add** > **[Existing Project](../ide/use-solution-explorer.md#the-add-context-menu-fly-out)**.
+1. Right-click the solution in **Solution Explorer**, and then select **Add** > **[Existing Project](../ide/use-solution-explorer.md#the-add-menu)**.
 
 1. Select the .csproj file for another project that has a repository initialized.
 
@@ -78,7 +78,7 @@ To do so, you can place the local repo directories in the same parent folder and
 
 :::image type="content" source="media/vs-2022/multi-repo-open-folder-solution.png" alt-text="Screenshot showing how you can activate multiple repositories from a folder in Visual Studio.":::
 
-## Next steps
+## Related content
 
 Want to know more about how we'll develop further Git functionality within Visual Studio 2022, or to share your feedback with us on the multi-repo feature? See the "Building with your feedback", "What's next", and "Let us know what you think" sections of the [Multi-repository support released](https://devblogs.microsoft.com/visualstudio/multi-repository-support-released/) blog post.
 

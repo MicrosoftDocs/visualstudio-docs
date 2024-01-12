@@ -1,6 +1,6 @@
 ---
 title: "Add Content controls to Word documents"
-description: Learn that in document-level Word projects, you can add content controls to the document in your project at design time or at run time. 
+description: Explore how to add content controls to a specific Microsoft Office Work document in your project at design time or at run time.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -25,11 +25,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Add Content controls to Word documents
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   In document-level Word projects, you can add content controls to the document in your project at design time or at run time. In Word VSTO Add-in projects, you can add content controls to any open document at run time.
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]
@@ -202,7 +201,7 @@ ms.technology: office-development
 
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs" id="Snippet6":::
 
-## See also
+## Related content
 - [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
 - [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
 - [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md)

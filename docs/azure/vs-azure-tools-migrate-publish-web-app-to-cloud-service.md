@@ -3,14 +3,12 @@ title: Migrate and publish web application to a Cloud Service
 description: Learn how to migrate and publish your web application to an Azure cloud service by using Visual Studio
 author: ghogen
 manager: jmartens
-ms.technology: vs-azure
+ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 11/10/2017
 ms.author: ghogen
 ---
 # Migrate and publish a web application to an Azure Cloud Service from Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
@@ -18,6 +16,10 @@ To take advantage of the hosting services and scaling ability of Azure, you migh
 
 > [!Important]
 > This migration is supported only for the specific ASP.NET, WCF, and WCF Workflow projects. It is not supported for ASP.NET Core projects. See [Supported Project Templates](#supported-project-templates).
+
+## Prerequisites
+
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## Migrate a project to cloud services
 
@@ -117,7 +119,7 @@ Applications that can be migrated and published to cloud services must use one o
 | WCF | WCF Workflow Service Application |
 | Workflow | WCF Workflow Service Application |
 
-## Next steps
+## Related content
 
 - [Prepare to Publish or Deploy an Azure Application from Visual Studio](vs-azure-tools-cloud-service-publish-set-up-required-services-in-visual-studio.md)
 - [Setting Up Named Authentication Credentials](vs-azure-tools-setting-up-named-authentication-credentials.md).

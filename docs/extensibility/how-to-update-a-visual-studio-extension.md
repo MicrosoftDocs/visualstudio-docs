@@ -1,6 +1,6 @@
 ---
 title: 'Update a Visual Studio Extension'
-description: Learn how to update a Visual Studio extension on your system by using Extensions and Updates to install the updated version.
+description: Update a Visual Studio extension on your system by using the Extensions and Updates options to install the updated version.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -10,11 +10,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Update a Visual Studio extension
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can update a Visual Studio extension on your system by using **Extensions and Updates** to install the updated version. If you create an updated version of an extension, you can signify it as updated by incrementing the version number in the VSIX manifest.
 
  Updates are installed when the VSIX manifest of the incoming extension has the same `ID` as the installed one and a higher `Version` number. If the `Version` number is the same or lower, the package cannot be installed. If the `ID` values do not match, the package that is not yet installed is recognized as a separate extension.
@@ -55,6 +54,6 @@ You can update a Visual Studio extension on your system by using **Extensions an
     > [!NOTE]
     > Starting in Visual Studio 2015 Update 2, you can specify (in **Tools** > **Options** > **Environment** > **Extensions and Updates**) whether you want automatic updates for per-user extensions,  all user extensions or both (the default setting).
 
-## See also
+## Related content
 - [Anatomy of a VSIX package](../extensibility/anatomy-of-a-vsix-package.md)
 - [Find and using Visual Studio extensions](../ide/finding-and-using-visual-studio-extensions.md)

@@ -1,20 +1,18 @@
 ---
 title: "Create an ASP.NET Core app with React"
-description: In this tutorial, you create an app using ASP.NET Core and React
-ms.date: 10/30/2023
+description: Create an ASP.NET Core project to serve as an API backend and a React project to provide the user interface in Visual Studio.
+ms.date: 11/14/2023
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
 monikerRange: '>= vs-2022'
 ---
 # Tutorial: Create an ASP.NET Core app with React in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this article, you learn how to build an ASP.NET Core project to act as an API backend and a React project to act as the UI.
 
@@ -26,11 +24,11 @@ You can use the method described in this article to create ASP.NET Core Single P
 - Create the client project based on the framework CLI installed on your computer
 
 > [!NOTE]
-> This article describes the project creation process using the updated template in Visual Studio 2022 version 17.8 Preview 2, which uses the Vite CLI.
+> This article describes the project creation process using the updated template in Visual Studio 2022 version 17.8, which uses the Vite CLI.
 
 ## Prerequisites
 
-- Visual Studio 2022 version 17.8 Preview 2 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+- Visual Studio 2022 version 17.8 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
   If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 - npm ([https://www.npmjs.com/](https://www.npmjs.com/package/npm)), which is included with Node.js
 - npx ([https://www.npmjs.com/package/npx](https://www.npmjs.com/package/npx))
@@ -93,7 +91,7 @@ The React app appears and is populated via the API. If you don't see the app, se
 
 1. In Solution Explorer, right-click the **ReactWithASP.Server** project and select **Add** > **Project Reference**.
 
-   The **reactwithasp.client*** project is selected.
+   Make sure the **reactwithasp.client** project is selected.
 
 1. Choose **OK**.
 
@@ -101,11 +99,9 @@ The React app appears and is populated via the API. If you don't see the app, se
 
    This opens the *.csproj* file for the project.
 
-   Notice the `<ReferenceOutputAssembly>` has the value set to `false`.
+1. In the *.csproj* file, make sure the project reference includes a `<ReferenceOutputAssembly>` element with the value set to `false`.
 
-1. In the *.csproj* file, update the project reference and add `<ReferenceOutputAssembly>` with the value set to `false`.
-
-   When you've updated the reference, it should look like the following.
+   This reference should look like the following.
 
    ```xml
     <ProjectReference Include="..\reactwithasp.client\reactwithasp.client.esproj">
@@ -113,29 +109,25 @@ The React app appears and is populated via the API. If you don't see the app, se
     </ProjectReference>
    ```
 
-1. Right-click the ASP.NET Core project and choose **Reload Project**.
+1. Right-click the ASP.NET Core project and choose **Reload Project** if that option is available.
 
-1. In *Program.cs*, update the check for `Environment.IsDevelopment` so it looks like the following.
+1. In *Program.cs*, make sure the following code is present.
 
    ```csharp
+   app.UseDefaultFiles();
+   app.UseStaticFiles();
+
    // Configure the HTTP request pipeline.
    if (app.Environment.IsDevelopment())
    {
       app.UseSwagger();
       app.UseSwaggerUI();
    }
-   else
-   {
-      app.UseDefaultFiles();
-      app.UseStaticFiles();
-   }
    ```
 
 1. To publish, right click the ASP.NET Core project, choose **Publish**, and select options to match your desired publish scenario, such as Azure, publish to a folder, etc.
 
-   The publish process takes more time than it does for just an ASP.NET Core project, since the `npm run build` command gets invoked when publishing.
-
-   You can modify the `npm run build` command using the **Production Build Command** in the React project properties. To modify it, right-click the React project in Solution Explorer and choose **Properties**.
+   The publish process takes more time than it does for just an ASP.NET Core project, since the `npm run build` command gets invoked when publishing. The [BuildCommand](../javascript/javascript-project-system-msbuild-reference.md#buildcommand) runs `npm run build` by default.
 
 ## Troubleshooting
 

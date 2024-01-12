@@ -56,7 +56,7 @@
       "breadcrumb_path": "/visualstudio/bridge/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "feedback_system": "GitHub",
-      "ms.prod": "visual-studio-family"
+      "ms.service": "visual-studio-family"
     },
     "fileMetadata": {},
     "template": [],

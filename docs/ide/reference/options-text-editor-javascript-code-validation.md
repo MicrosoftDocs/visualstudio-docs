@@ -2,7 +2,7 @@
 title: Options, Text Editor, JavaScript, Code Validation
 description: Learn how to use the Code Validation page of the Options dialog box to modify settings that affect the way that JavaScript handles errors. 
 ms.date: 10/29/2018
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Code_Validation.JavaScript_Errors"
@@ -11,8 +11,6 @@ ms.author: mikejo
 manager: jmartens
 ---
 # Options dialog box: Text Editor \> JavaScript/TypeScript \> Code Validation
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Code Validation** page of the **Options** dialog box to modify settings that affect the way that JavaScript handles errors. You can access the **Code Validation** page by choosing **Tools** > **Options** on the  menu bar, and then expanding **Text Editor** > **JavaScript/TypeScript** > **Code Validation.**
 

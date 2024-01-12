@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting ClickOnce Deployments
-description: Use this article to help you diagnose and resolve the most common issues with ClickOnce deployments.
+description: Review troubleshooting suggestions and considerations to help you diagnose and resolve the most common issues with ClickOnce deployments.
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs: 
@@ -16,11 +16,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Troubleshoot ClickOnce deployments
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This topic helps you diagnose and resolve the most common issues with ClickOnce deployments.
 
  In most cases, a ClickOnce application will download to a user's computer and run without any problems. There are some cases, however, where Web server or application configuration issues can cause unforeseen problems.
@@ -51,7 +50,7 @@ This topic helps you diagnose and resolve the most common issues with ClickOnce 
 
  Describes a technique for debugging ClickOnce applications that use System.Deployment.Application.
 
-## See also
+## Related content
 
 - [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)
 - [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)

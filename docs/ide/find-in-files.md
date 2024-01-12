@@ -1,6 +1,6 @@
 ---
-title: Find in Files
-description: Learn about the Find in Files feature and how to use it to search a specific set of files.
+title: "Search within Specific Files with 'Find in Files'"
+description: Explore the Find in Files feature in Visual Studio and discover how to use the feature to search a specific set of files.
 ms.date: 11/29/2021
 ms.topic: conceptual
 f1_keywords:
@@ -18,11 +18,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Find in Files
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Find in Files** allows you to search a specified set of files. The matches Visual Studio finds are listed in the **Find Results** window in the IDE. How the results appear depends on the options you choose on the **Find in Files** tab of the **Find and Replace** dialog box.
 
@@ -147,7 +145,6 @@ Use this option to append the results from the current search to previous search
 
 ::: moniker-end
 
-
 ## Search results
 
 :::moniker range=">=vs-2022"
@@ -183,7 +180,7 @@ In Visual Studio 2022 and later, you can set Visual Studio to always keep result
 
 :::moniker-end
 
-## See also
+## Related content
 
 - [Replace in files](../ide/replace-in-files.md)
 - [Find and replace text](../ide/finding-and-replacing-text.md)

@@ -13,11 +13,10 @@ dev_langs:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Warning: Script Debugging Disabled
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Script Debugging is currently disabled in Internet Explorer
 
  This warning occurs when you try to debug script without enabling script debugging in Internet Explorer. For security reasons, Internet Explorer disables script debugging by default.
@@ -38,5 +37,5 @@ Script Debugging is currently disabled in Internet Explorer
 
      The new settings will now be in effect.
 
-## See also
+## Related content
 - [How to: Attach to Script](attach-to-running-processes-with-the-visual-studio-debugger.md)

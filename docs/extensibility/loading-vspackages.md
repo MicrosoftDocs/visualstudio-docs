@@ -9,11 +9,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Load VSPackages
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 VSPackages are loaded into Visual Studio only when their functionality is required. For example, a VSPackage is loaded when Visual Studio uses a project factory or a service that the VSPackage implements. This feature is called delayed loading, which is used whenever possible to improve performance.
 
 > [!NOTE]
@@ -66,5 +65,5 @@ VSPackages are loaded into Visual Studio only when their functionality is requir
 
      Force loading should not be used for VSPackage communication. Use [Use and provide services](../extensibility/using-and-providing-services.md) instead.
 
-## See also
+## Related content
 - [VSPackages](../extensibility/internals/vspackages.md)

@@ -1,15 +1,15 @@
 ---
 title: Overriding ToolsVersion Settings
-description: Learn several ways you can change or override the value of the MSBuild Toolset for projects and solutions.
+description: Explore ways to change or override the value of the MSBuild Toolset for projects and solutions, including the ToolsVersion parameter and precedence order.
 ms.date: 11/11/2022
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, overriding ToolsVersion setting
 - MSBuild, building solutions with
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # Override ToolsVersion settings
 
@@ -122,7 +122,7 @@ msbuild.exe someproj.proj -tv:12.0 -p:Configuration=Debug
 
     4. Otherwise, use the current `ToolsVersion`.
 
-## See also
+## Related content
 
 - [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)

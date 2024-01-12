@@ -15,11 +15,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Test and Debug a Visualizer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Once you have written a visualizer, you need to debug and test it.
 
 One way to test a visualizer is by installing it in Visual Studio and calling it from a debugger window. (See [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md).) If you do that, you will need to use a second instance of Visual Studio to attach and debug the visualizer, which is running in the first instance of the debugger.
@@ -51,7 +50,7 @@ An easier way to debug a visualizer is to run the visualizer from a test driver.
 
     For a more complete example, see [Walkthrough: Writing a Visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md).
 
-## See also
+## Related content
 - [Walkthrough: Writing a Visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md)
 - [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md)
 - [Create Custom Visualizers for .NET objects](../debugger/create-custom-visualizers-of-data.md)

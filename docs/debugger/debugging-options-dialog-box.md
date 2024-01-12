@@ -19,11 +19,10 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Debugging, Options Dialog Box
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **Debugging** folder, in the **Options** dialog box on the **Tools** menu, provides the following pages, which enable you to specify debugger tool options.
 
 - [General, Debugging, Options Dialog Box](../debugger/general-debugging-options-dialog-box.md)

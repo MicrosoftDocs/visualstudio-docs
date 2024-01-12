@@ -9,11 +9,9 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 ---
 # Model user requirements
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio helps you understand, discuss, and communicate your users' needs by drawing diagrams about their activities and the part your system plays in helping them achieve their goals. A requirements model is a set of these diagrams, each of which focuses on a different aspect of the users' needs.
 
@@ -92,7 +90,7 @@ If a Restaurant deletes a Menu Item while a Customer is Ordering a Meal, any Ord
 
 See [Model your app's architecture](../modeling/model-your-app-s-architecture.md) to learn how to develop code that adheres to quality of service requirements.
 
-## See also
+## Related content
 
 - [Use models in your development process](../modeling/use-models-in-your-development-process.md)
 - [Model your app's architecture](../modeling/model-your-app-s-architecture.md)

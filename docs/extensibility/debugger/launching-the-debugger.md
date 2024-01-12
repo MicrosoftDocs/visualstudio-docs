@@ -9,11 +9,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Launch the debugger
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Launching the debugger requires sending the correct sequence of methods and events with their proper attributes.
 
 ## Sequences of methods and events
@@ -46,6 +45,6 @@ Launching the debugger requires sending the correct sequence of methods and even
 
 8. The DE sends an [IDebugEntryPointEvent2](../../extensibility/debugger/reference/idebugentrypointevent2.md) to the SDM with an `EVENT_SYNC` attribute.
 
-## See also
+## Related content
 - [Calling debugger events](../../extensibility/debugger/calling-debugger-events.md)
 - [Launching a program](../../extensibility/debugger/launching-a-program.md)

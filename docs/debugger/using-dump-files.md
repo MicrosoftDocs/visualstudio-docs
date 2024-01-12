@@ -19,11 +19,9 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Dump files in the Visual Studio debugger
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 <a name="BKMK_What_is_a_dump_file_"></a>
 A *dump file* is a snapshot that shows the process that was executing and modules that were loaded for an app at a point in time. A dump with heap information also includes a snapshot of the app's memory at that point.
@@ -105,7 +103,7 @@ Visual Studio automatically searches these locations for *.exe* files that aren'
 
 If Visual Studio can't find the files it needs to debug a module in the dump, it shows a **No Binary Found**, **No Symbols Found**, or **No Source Found** page. These pages provide detailed information about the cause of the issue, and provide action links that can help you locate the files. See [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
 
-## See also
+## Related content
 
 - [How to debug a managed memory dump with .NET Diagnostic Analyzers](../debugger/how-to-debug-managed-memory-dump.md)
 - [Just-In-Time debugging](../debugger/just-in-time-debugging-in-visual-studio.md)

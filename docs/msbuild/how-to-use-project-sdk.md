@@ -1,6 +1,6 @@
 ---
 title: Reference an MSBuild Project SDK
-description: Learn how to use MSBuild project SDKs to simplify using software development kits that require properties and targets to be imported.
+description: Use the MSBuild project SDKs to simplify working with software development kits that require properties and targets to be imported.
 ms.date: 05/10/2023
 ms.topic: how-to
 helpviewer_keywords:
@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # Use MSBuild project SDKs
 
@@ -120,7 +120,7 @@ The NuGet-based SDK resolver supports specifying a version in the [global.json](
 
 Only one version of each project SDK can be used during a build. If you reference two different versions of the same project SDK, MSBuild emits a warning. It is recommended to **not** specify a version in your projects if a version is specified in the *global.json* file.
 
-## See also
+## Related content
 
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)
 - [Customize your build](../msbuild/customize-your-build.md)

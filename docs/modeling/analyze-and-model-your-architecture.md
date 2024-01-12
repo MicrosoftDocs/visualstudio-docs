@@ -1,6 +1,6 @@
 ---
 title: Architecture analysis & modeling tools
-description: Design and model your app to make sure your app meets architectural requirements.
+description: Design and analyze your application to ensure it meets architectural requirements by using code maps, dependency diagrams, and language models.
 ms.date: 06/04/2021
 ms.topic: overview
 helpviewer_keywords:
@@ -16,11 +16,9 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 ---
 # Analyze and model your architecture
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Make sure your app meets architectural requirements by using Visual Studio architecture and modeling tools to design and model your app.
 

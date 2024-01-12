@@ -13,11 +13,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Edit a Register Value (C++)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Registers window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node.
 
@@ -33,5 +31,5 @@ The Registers window is available only if address-level debugging is enabled in 
     > [!CAUTION]
     > Editing floating-point values can result in minor inaccuracies because of decimal-to-binary conversion of fractional components. Even a seemingly innocuous edit can result in changes to some of the least significant bits in a floating-point register.
 
-## See also
+## Related content
 - [How to: Use the Registers Window](../debugger/how-to-use-the-registers-window.md)

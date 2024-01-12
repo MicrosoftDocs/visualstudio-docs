@@ -1,10 +1,10 @@
 ---
 title: "Tutorial: Create Windows App SDK Apps with Visual Studio & C#"
-description: Create a Windows App SDK app in Visual Studio with XAML and C#
+description: Create a Windows App SDK application in Visual Studio by using the Extensible Application Markup Language (XAML) and C#.
 titleSuffix: ""
 ms.custom: vs-acquisition
 ms.date: "04/27/2023"
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: tutorial
 ms.devlang: CSharp
 author: anandmeg
@@ -15,8 +15,6 @@ dev_langs:
 ---
 
 # Tutorial: Create your first Windows App SDK application in Visual Studio with XAML and C&#35;
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this introduction to the Visual Studio integrated development environment (IDE), you'll create a "Hello World" app that runs on any Windows 10 or later device. To do so, you'll use a Windows App SDK (WinUI 3) project template, Extensible Application Markup Language (XAML), and the C# programming language.
 

@@ -1,8 +1,8 @@
 ---
 title: Build and clean projects and solutions
-description: Learn how you can build, rebuild, or clean all or some of the projects or project items in a solution.
+description: Build, rebuild, or clean some of your projects or project items, or all of your projects, in your Visual Studio project solution.
 ms.date: 10/17/2023
-ms.technology: vs-ide-compile
+ms.subservice: compile-build
 ms.topic: conceptual
 f1_keywords:
 - VS.BuildProjectPicker
@@ -23,8 +23,6 @@ ms.author: ghogen
 manager: jmartens
 ---
 # Build and clean projects and solutions in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 By using the procedures in this topic, you can build, rebuild, or clean all or some of the projects or project items in a solution. For a step-by-step tutorial, see [Walkthrough: Building an application](../ide/walkthrough-building-an-application.md).
 
@@ -103,7 +101,7 @@ Perform either of the following steps:
 
 - Press **Ctrl**+**Break**.
 
-## See also
+## Related content
 
 - [How to: View, save, and configure build log files](../ide/how-to-view-save-and-configure-build-log-files.md)
 - [Obtaining build logs](../msbuild/obtaining-build-logs-with-msbuild.md)

@@ -1,6 +1,6 @@
 ---
 title: Working with C++ Code (Class Designer)
-description: Learn how to use class diagrams to design and visualize C++ code element, classes, and other types in a project.
+description: Work with class diagrams to design and visualize C++ code element, classes, and other types in your Visual Studio project.
 ms.date: 06/21/2017
 ms.topic: conceptual
 f1_keywords:
@@ -18,11 +18,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Work with C++ code in Class Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Class Designer** displays a visual design surface called a *class diagram* that provides a visual representation of the code elements in your project. You can use class diagrams to design and visualize classes and other types in a project.
 
@@ -344,6 +342,6 @@ The error you are most likely to see for a type resolution issue is **Code could
 > [!TIP]
 > For additional troubleshooting information, see [Class Designer errors](/troubleshoot/developer/visualstudio/ide/troubleshoot-class-designer-errors).
 
-## See also
+## Related content
 
 - [What is Class Designer?](designing-and-viewing-classes-and-types.md)

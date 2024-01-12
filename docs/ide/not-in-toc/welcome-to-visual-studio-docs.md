@@ -3,19 +3,18 @@ title: Welcome to the Visual Studio docs
 description: Find and learn about the resources available in the docs for the Visual Studio IDE on the Windows platform.
 ms.topic: ui-reference
 ms.author: ghogen
-ms.prod: visual-studio
-ms.technology: 
+ms.service: visual-studio
+ms.subservice: 
 author: ghogen
 manager: jmartens
 f1_keywords:
  - vs.ViewHelp
  - MSDNSTART
+ - vs.Default.Query
 ms.date: 02/28/2023
 ROBOTS: NOINDEX,NOFOLLOW
 ---
 # Welcome to the Visual Studio docs
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You likely arrived here by clicking **View Help** in the Visual Studio IDE. Let's get you where you need to go.
 

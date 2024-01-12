@@ -13,11 +13,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Specify ClickOnce Publish properties
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can configure ClickOnce Publish properties on the **Publish** page of the **Project Designer**, or by using the Publish Wizard. In this article, you learn how to specify basic properties such as the publishing location, the installation URL, online or offline install mode, and the publish version.
 
@@ -135,7 +133,7 @@ You can disable this behavior on the **Publish** page of the **Project Designer*
 
 3. In the **Publish Version** section, clear the **Automatically increment revision with each release** check box.
 
-## See also
+## Related content
 
 - [Publishing ClickOnce applications](../deployment/publishing-clickonce-applications.md)
 - [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)

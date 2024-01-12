@@ -1,6 +1,6 @@
 ---
 title: "Developing SharePoint Solutions"
-description: Develop SharePoint solutions. Know the elements of a SharePoint project. Understand SharePoint project and project item properties.
+description: Develop SharePoint solutions, understand SharePoint project and project item properties, and work with the elements of a SharePoint project.
 ms.date: "02/02/2017"
 ms.topic: overview
 f1_keywords:
@@ -14,11 +14,9 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
+ms.subservice: sharepoint-development
 ---
 # Develop SharePoint solutions
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
   Several SharePoint project type templates are available in Visual Studio for creating SharePoint sites and site elements. For a list of the available project types, see [SharePoint project and project item templates](../sharepoint/sharepoint-project-and-project-item-templates.md). Following is a description of the elements and properties of a SharePoint project.
 

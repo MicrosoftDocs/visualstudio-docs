@@ -1,5 +1,5 @@
 ---
-title: Debug 64-Bit Applications
+title: Debug and troubleshoot 64-Bit applications
 description: Learn how to debug a 64-bit application with Visual Studio. There are tips for troubleshooting unexpected debugging delays. 
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -14,12 +14,11 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 monikerRange: "<=vs-2019"
 ---
 # Debug 64-Bit Applications
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can debug a 64-bit application that is running on the local computer or on a remote computer.
 
  To debug a 64-bit application that is running on a remote computer, see [Remote Debugging](../debugger/remote-debugging.md).
@@ -48,7 +47,7 @@ You can debug a 64-bit application that is running on the local computer or on a
 
 - You are running into an issue where Visual Studio becomes unresponsive, or other performance problem. If the problem happens regularly, you can collect dumps of Visual Studio (devenv.exe) and the worker process (msvsmon.exe) and send them to Microsoft. For information about reporting a problem, see [How to Report a Problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio.md).
 
-## See also
+## Related content
 
 - [64-bit Applications](/dotnet/framework/64-bit-apps)
 - [Configuring Programs for 64-Bit](/cpp/build/configuring-programs-for-64-bit-visual-cpp)

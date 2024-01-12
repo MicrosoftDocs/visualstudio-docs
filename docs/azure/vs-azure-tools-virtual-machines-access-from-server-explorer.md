@@ -3,15 +3,13 @@ title: Accessing Azure Virtual Machines from Server Explorer
 description: Get an overview of how to view create and manage Azure virtual machines (VMs) in Server Explorer in Visual Studio.
 author: ghogen
 manager: jmartens
-ms.technology: vs-azure
+ms.subservice: azure-development
 ms.topic: conceptual
 ms.date: 8/31/2017
 ms.author: ghogen
 monikerRange: "<=vs-2019"
 ---
 # Accessing Azure Virtual Machines from Server Explorer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 > [!Important]
 > The Azure node of Server Explorer has been retired in Visual Studio 2022. You can use the Azure Portal or continue to use the Azure node of Server Explorer in previous versions of Visual Studio.
@@ -21,6 +19,8 @@ monikerRange: "<=vs-2019"
 > For more information about Visual Studio 2022, see our [release notes](/visualstudio/releases/2022/release-notes/).
 
 If you have virtual machines hosted by Azure, you can access them in Server Explorer. You must first sign in to your Azure subscription to view your mobile services. To sign in, open the shortcut menu for the Azure node in Server Explorer, and choose **Connect to Microsoft Azure**.
+
+If you don't have an Azure account, activate your [Azure benefits for Visual Studio subscribers](/visualstudio/subscriptions/vs-azure-eligibility) or [sign up for a free trial](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
 
 1. In Cloud Explorer, choose a virtual machine, and then choose the F4 key to show its properties window.
 

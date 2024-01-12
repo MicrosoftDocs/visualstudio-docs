@@ -9,19 +9,17 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 monikerRange: '>= vs-2019'
 ---
 # Deploy your application to Azure using GitHub Actions workflows created by Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Starting in Visual Studio 2019 version 16.11, you can create new GitHub Actions workflows for .NET projects hosted on GitHub.com.
 
 ## Prerequisites
 
 - You must be signed in to your [GitHub account](../ide/work-with-github-accounts.md) in Visual Studio.
-- An Azure subscription. Sign up for a free trail [here](https://azure.microsoft.com/free/).
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## Deploy a single project to Azure using GitHub Actions
 

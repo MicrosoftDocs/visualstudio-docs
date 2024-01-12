@@ -7,7 +7,7 @@ ms.author: maiak
 monikerRange: ">=vs-2022"
 author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 
 # Editor extensibility concepts
@@ -36,7 +36,6 @@ If you're familiar with legacy Visual Studio extensions, `ITextDocumentSnapshot`
 
 Best Practices:
 
-- Avoid calling [ITextDocumentSnapshot.CopyToString()](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Editor.md#M-Microsoft-VisualStudio-Extensibility-Editor-Data-ITextDocumentSnapshot-CopyToString).
 - You can use Position and Span to represent substrings in the document without expending resources copying or allocating strings. Most APIs operate in terms of these primitives.
 - You can use the indexer syntax, `textDocument[0]`, to read character by character in the document without copying it to a string.
 - If you must create a string such as for use as a dictionary key, use the overload that takes a `Span`, to avoid creating a large throwaway string from the entire line or document.
@@ -45,18 +44,18 @@ Best Practices:
 
 ## Position
 
-Represents a position within the text document. As opposed to `int` positions, the [Position](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Editor.md#position-type) type is aware of the `ITextDocumentSnapshot` it came from and supports `GetChar()` to directly get the character at that point.
+Represents a position within the text document. As opposed to `int` positions, the Position type is aware of the `ITextDocumentSnapshot` it came from and supports `GetChar()` to directly get the character at that point.
 
 If you're familiar with legacy Visual Studio extensions, Position is almost the same as [SnapshotPoint](/dotnet/api/microsoft.visualstudio.text.snapshotpoint) and supports most of the same methods.
 
 ## Span
 
-Represents a contiguous substring of characters within an `ITextDocumentSnapshot`. As opposed to a string created with `string.Substring()` or `ITextDocumentSnapshot.CopyToString()`, creating a [Span](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Editor.md#span-type) doesn't require any allocations or additional memory. You can later call `Span.GetText()` to realize it into a string in a deferred fashion.
+Represents a contiguous substring of characters within an `ITextDocumentSnapshot`. As opposed to a string created with `string.Substring()` or `ITextDocumentSnapshot.CopyToString()`, creating a Span doesn't require any allocations or additional memory. You can later call `Span.GetText()` to realize it into a string in a deferred fashion.
 
 If you're familiar with legacy Visual Studio extensions, `Position` is almost the same as
 [SnapshotSpan](/dotnet/api/microsoft.visualstudio.text.snapshotSpan) and supports most of the same methods.
 
-## Next steps
+## Related content
 
 Review sample code for a simple editor-based extension:
 

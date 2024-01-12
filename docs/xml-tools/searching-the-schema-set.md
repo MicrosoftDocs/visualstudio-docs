@@ -6,11 +6,9 @@ ms.topic: conceptual
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.technology: vs-xml-tools
+ms.subservice: xml-tools
 ---
 # Search the schema set
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **XML Schema Explorer** enables you to search the schema set in the following ways:
 
@@ -48,6 +46,6 @@ You can add the search results to the workspace by clicking the **Add highlighte
 
 To clear the search results, click the **x** button on the summary results pane of the **XML Schema Explorer** Search toolbar.
 
-## See also
+## Related content
 
 - [XML Schema Explorer](../xml-tools/xml-schema-explorer.md)

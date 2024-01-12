@@ -1,6 +1,6 @@
 ---
 title: Add references in the Reference Manager
-description: Learn how to use the Reference Manager dialog box to add and manage references to developed components.
+description: Use the Reference Manager in Visual Studio to add and manage references to components that you, Microsoft, or another company developed.
 ms.date: 10/31/2023
 ms.topic: how-to
 f1_keywords:
@@ -20,11 +20,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Add or remove references by using the Reference Manager
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use the Reference Manager dialog box to add and manage references to components that you, Microsoft, or another company developed. If you're developing a Universal Windows app, your project automatically references all of the correct Windows SDK DLLs. When you create a .NET project, your project automatically references the components it needs, such as the .NET SDK, but you need to add references as you add functionality. Some .NET APIs are exposed in components that you have to add manually. References to COM components or custom components have to be added manually.
 
@@ -223,7 +221,7 @@ You can remove unused references for [SDK style projects](/dotnet/core/project-s
 
 For more information, see [Remove unused references](reference/remove-unused-references.md).
 
-## See also
+## Related content
 
 - [Manage references in a project](managing-references-in-a-project.md)
 - [Troubleshoot broken references](troubleshooting-broken-references.md)

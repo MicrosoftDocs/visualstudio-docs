@@ -6,19 +6,17 @@ keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.date: 08/08/2023
+ms.date: 11/14/2023
 ms.topic: reference
 helpviewer_keywords:
 - workload ID, Visual Studio
 - component ID, Visual Studio
 - install Visual Studio, administrator guide
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 open_to_public_contributors: false
 ---
 # Visual Studio Test Controller component directory
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE[workloads-components-universal-header_md](includes/workloads-components-universal-header_md.md)]
 

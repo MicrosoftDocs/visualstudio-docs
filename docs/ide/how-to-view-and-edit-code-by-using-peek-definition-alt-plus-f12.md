@@ -1,16 +1,14 @@
 ---
-title: Using Peek Definition
-description: Learn how to use the Peek Definition command to view and edit your code without having to switch context from the code you're currently writing.
+title: Use Peek Definition to view and edit code
+description: Use the Peek Definition command to view and edit your code without having to switch context from the code you're currently writing.
 ms.date: 01/10/2018
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # View and edit code by using Peek Definition (Alt+F12)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use the **Peek Definition** command to view and edit code without switching away from the code that you're writing. **Peek Definition** and **Go To Definition** show the same information, but **Peek Definition** shows it in a pop-up window, and **Go To Definition** shows the code in a separate code window. **Go To Definition** causes your context (that is, the active code window, current line, and cursor position) to switch to the definition code window. By using **Peek Definition**, you can view and edit the definition and move around inside the definition file while keeping your place in the original code file.
 
@@ -78,7 +76,7 @@ You can use these keyboard shortcuts with the **Peek Definition** window:
 > [!NOTE]
 > You can also use the same keyboard shortcuts to edit code in a **Peek Definition** window as you use elsewhere in Visual Studio.
 
-## See also
+## Related content
 
 - [Navigate code](../ide/navigating-code.md)
 - [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md)

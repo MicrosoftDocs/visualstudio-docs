@@ -1,6 +1,6 @@
 ---
 title: Disable or move the package cache
-description: Learn how to disable, enable, or move the package cache for Visual Studio deployments.
+description: Disable, enable, or move the package cache of installed packages for Visual Studio deployments to save or recover disk space.
 ms.date: 04/28/2022
 ms.topic: conceptual
 f1_keywords:
@@ -12,12 +12,10 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ---
 # Disable or move the package cache
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The package cache provides a source of installed packages. You need these packages to repair Visual Studio or other related products when there's no internet connection. With some drives or system set ups, however, you might not want to keep all those packages around.
 The installer will download them when needed. If you want to save or recover disk space, you can disable or move the package cache.
@@ -53,7 +51,7 @@ install, modify, or repair Visual Studio.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 
 * [Install Visual Studio](install-visual-studio.md)
 * [Configure policies for enterprise deployments](configure-policies-for-enterprise-deployments.md)

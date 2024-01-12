@@ -8,11 +8,9 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Create an options page
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This walkthrough creates a simple Tools/Options page that uses a property grid to examine and set properties.
 
@@ -280,6 +278,6 @@ In this section, you'll add a Command and an event for the button to open the op
 
 - [Opening an Options Page](/previous-versions/cc826083(v=vs.140))
 
-## See also
+## Related content
 
 - [Options and options pages](../extensibility/internals/options-and-options-pages.md)

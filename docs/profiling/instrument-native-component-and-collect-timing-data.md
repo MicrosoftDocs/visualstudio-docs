@@ -6,11 +6,9 @@ ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Instrument a native stand-alone component and collect timing data with the profiler from the command line
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This topic describes how to use Visual Studio command-line profiling tools to instrument a native component such as a C++ .*exe* or .*dll* file, and to collect detailed timing data.
 
@@ -77,7 +75,7 @@ To end a profiling session:
 
      **VSPerfCmd /shutdown**
 
-## Reference
+## Related content
 
 - [VSInstr](../profiling/vsinstr.md)
 - [VSPerfCmd](../profiling/vsperfcmd.md)

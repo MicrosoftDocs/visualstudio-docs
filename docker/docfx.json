@@ -44,7 +44,7 @@
       "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
       "breadcrumb_path": "/visualstudio/docker/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "ms.prod": "visual-studio-family",
+      "ms.service": "visual-studio-family",
       "manager": "jmartens",
       "author": "ghogen",
       "ms.author": "ghogen",

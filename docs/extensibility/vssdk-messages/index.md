@@ -8,12 +8,10 @@ helpviewer_keywords:
 author: ankitvarmait
 ms.author: anva
 manager: tinali
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 
 # Visual Studio SDK error messages
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Some VS SDK analyzer errors have corresponding articles that explain why the error is generated, and, in some cases, how to fix the error. Use one of the following steps to see whether help is available for a particular error message.
 
@@ -22,7 +20,7 @@ Some VS SDK analyzer errors have corresponding articles that explain why the err
   
 If these steps don't lead to information about your error, go to the end of this page, and send feedback that includes the number or text of the error.
 
-The following resources might be useful:
+## Related content
 
 - [Update a Visual Studio extension](../migration/update-visual-studio-extension.md)
 - [Breaking API list](../migration/breaking-api-list.md)

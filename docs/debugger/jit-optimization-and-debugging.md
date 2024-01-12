@@ -14,11 +14,10 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # JIT Optimization and Debugging
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 If you are trying to debug code, it is easier when that code is **NOT** optimized. When code is optimized, the compiler and runtime make changes to the emitted CPU code so that it runs faster, but has a less direct mapping to original source code. If the mapping is less direct, debuggers are frequently unable to tell you the value of local variables, and code stepping and breakpoints might not work as you expect.
 
 > [!NOTE]
@@ -86,7 +85,7 @@ Set `"COMPlus_ReadyToRun": "0"`  by adding it to each profile in the *Properties
 }
 ```
 
-## See also
+## Related content
 - [How To Debug Dotnet Framework Source](../debugger/how-to-debug-dotnet-framework-source.md)
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)
 - [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)

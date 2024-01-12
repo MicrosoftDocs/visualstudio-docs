@@ -6,12 +6,10 @@ ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
+ms.subservice: python
 ---
 
 # Create a C++ extension for Python
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Commonly, modules written in C++ (or C) are used to extend the capabilities of a Python interpreter. You can also use them to enable access to low-level operating system capabilities.
 
@@ -479,6 +477,6 @@ You can create Python extensions in various ways, as described in the following 
 | [Boost.Python](https://www.boost.org/doc/libs/1_66_0/libs/python/doc/html/index.html) | 2002    |                                                                     |
 | [cppyy](https://cppyy.readthedocs.io/)                                                | 2017    |                                                                     |
 
-## See also
+## Related content
 
 You'll find the completed sample from this walkthrough on GitHub at [python-samples-vs-cpp-extension](https://github.com/Microsoft/python-sample-vs-cpp-extension).

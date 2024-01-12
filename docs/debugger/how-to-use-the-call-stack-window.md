@@ -1,6 +1,6 @@
 ---
 title: View the call stack in the debugger
-description: Use the Call Stack window to view the function or procedure calls that are currently on the stack in Visual Studio.
+description: Use the Call Stack window in the Visual Studio integrated development environment (IDE) to view the function or procedure calls that are currently on the stack.
 ms.date: 02/02/2023
 ms.topic: how-to
 f1_keywords: 
@@ -26,11 +26,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # View the call stack and use the Call Stack window in the debugger
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 By using the **Call Stack** window, you can view the function or procedure calls that are currently on the stack. The **Call Stack** window shows the order in which methods and functions are getting called. The call stack is a good way to examine and understand the execution flow of an app.
 
@@ -39,7 +37,7 @@ When [debugging symbols](#bkmk_symbols) are not available for part of a call sta
 ```[Frames below may be incorrect and/or missing, no symbols loaded for name.dll]```
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described here, depending on your active settings or edition. To change your settings, select **Import and Export Settings** on the **Tools** menu.  See [Reset settings](../ide/environment-settings.md#reset-settings). The **Call Stack** window is similar to the Debug perspective in some IDEs like Eclipse.
+> The dialog boxes and menu commands you see might differ from those described here, depending on your active settings or edition. To change your settings, select **Import and Export Settings** on the **Tools** menu.  See [Reset all settings](../ide/environment-settings.md#reset-all-settings). The **Call Stack** window is similar to the Debug perspective in some IDEs like Eclipse.
 
 ## View the call stack while in the debugger
 
@@ -78,7 +76,6 @@ To display external or non-user code, toggle the **Show External Code** button f
 Non-user code is any code that is not shown when [Just My Code](../debugger/just-my-code.md) is enabled. In managed code, non-user code frames are hidden by default. The following notation appears in place of the non-user code frames:
 
 `[<External Code>]`
-
 
 ## <a name="bkmk_switch"></a> Switch to another stack frame (change the debugger context)
 
@@ -162,7 +159,7 @@ See [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-
 
 1. Select **OK** to close the **Options** dialog box.
 
-## See also
+## Related content
 
 - [Mixed code and missing information in the Call Stack window](../debugger/mixed-code-and-missing-information-in-the-call-stack-window.md)
 - [Viewing data in the debugger](../debugger/viewing-data-in-the-debugger.md)

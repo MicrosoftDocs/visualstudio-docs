@@ -6,11 +6,9 @@ ms.topic: reference
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-code-analysis
+ms.subservice: code-analysis
 ---
 # Native Minimum Rules rule set
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Microsoft Native Minimum Rules focus on the most critical problems in native code, including potential security holes and application crashes.
 

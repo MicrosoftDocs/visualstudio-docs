@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 
-title: Track changes with Git # < 60 chars
+title: Track changes with Git in Visual Studio # < 60 chars
 summary: Share your code from within Visual Studio by using source control technologies such as Git and GitHub. # < 160 chars
 
 metadata:
@@ -11,8 +11,8 @@ metadata:
   author: ghogen
   ms.author: ghogen
   manager: jmartens
-  ms.prod: visual-studio-windows
-  ms.technology: vs-ide-general
+  
+  ms.subservice: general-ide
   ms.custom: version-control
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new

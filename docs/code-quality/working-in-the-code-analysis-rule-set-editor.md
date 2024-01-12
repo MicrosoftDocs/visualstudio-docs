@@ -8,11 +8,9 @@ f1_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-code-analysis
+ms.subservice: code-analysis
 ---
 # Use the code analysis rule set editor
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The code analysis rule set editor lets you specify the rules that are included in a custom rule set and set the severity of rule violations.
 
@@ -80,6 +78,6 @@ From the column headers of the rule set grid, you can sort and filter the rules 
 
 - To filter the rule sets by the value of a field, select the filter button on the column header of the field by which you want to filter. Select the check boxes of the values that you want to show, and clear the check boxes of the values that you want to hide.
 
-## See also
+## Related content
 
 - [Create a custom rule set](../code-quality/how-to-create-a-custom-rule-set.md)

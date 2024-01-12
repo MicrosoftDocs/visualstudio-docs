@@ -1,16 +1,14 @@
 ---
 title: Add Azure Storage by using Connected Services
-description: Add an Azure Storage service dependency to your app by using the Visual Studio Connected Services
+description: Connect an Azure Storage service dependency to your application by using Connected Services in Visual Studio on Windows and add a connected service.
 author: ghogen
 manager: jmartens
-ms.technology: vs-azure
+ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 05/15/2023
 ms.author: ghogen
 ---
 # Adding Azure storage by using Visual Studio Connected Services
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 With Visual Studio, you can connect any of the following to Azure Storage by using the **Connected Services** feature:
 
@@ -32,6 +30,7 @@ The connected service functionality adds all the needed references and connectio
 
 - Visual Studio with the Azure workload installed.
 - A project of one of the supported types
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## Connect to Azure Storage using Connected Services
 
@@ -131,7 +130,7 @@ To learn about working with blobs, you can continue with the quickstart for blob
 
 To learn about working with queues, start at [Azure queues quickstart (.NET) - Code examples](/azure/storage/queues/storage-quickstart-queues-dotnet?tabs=passwordless%2Croles-azure-portal%2Cenvironment-variable-windows%2Csign-in-azure-cli#code-examples).
 
-## See also
+## Related content
 
 - [Azure Storage forum](https://social.msdn.microsoft.com/forums/azure/home?forum=windowsazuredata)
 - [Azure Storage documentation](/azure/storage/)

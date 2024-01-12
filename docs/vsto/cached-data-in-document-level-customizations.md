@@ -17,11 +17,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Cached data in document-level customizations
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   A primary goal of document-level customizations is to separate data from view in Office documents. Data refers to the information that is stored in the document, including numbers and text. View refers to the user interface and the object model of Microsoft Office Word and Microsoft Office Excel.
 
  Visual Studio separates the data from the view in document-level customizations by enabling data to be embedded as a *data island*, also called the *data cache*. You can read or modify the data directly without starting Word or Excel. This is useful when you need to modify data in documents on a server that does not have Microsoft Office installed. Word and Excel are intended for use in client environments; they are not designed to be run on a server.
@@ -56,6 +55,6 @@ ms.technology: office-development
 |What types of data can you store?|Any public object in your customization assembly that meets certain requirements. For more information, see [Cache data](../vsto/caching-data.md).|Any XML data.|
 |Can you access the data without starting Microsoft Office applications?|Yes, by using the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> class provided by the  Visual Studio Tools for Office runtime .|Yes, by using classes in the <xref:System.IO.Packaging> namespace, or by using the Open XML Format SDK.|
 
-## See also
+## Related content
 - [Data in Office solutions](../vsto/data-in-office-solutions.md)
 - [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)

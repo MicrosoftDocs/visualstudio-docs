@@ -1,6 +1,6 @@
 ---
-title: "Walkthrough: Call code from VBA in a Visual C# project"
-description: Learn how to call a method in a document-level customization for Microsoft Excel from Visual Basic for Applications (VBA) code in the workbook.
+title: Call code from VBA in a Visual C# project in Visual Studio
+description: Call a Visual C# method in a document-level customization for Microsoft Office Excel from Visual Basic for Applications (VBA) code in the Excel workbook.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -18,11 +18,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Walkthrough: Call code from VBA in a Visual C# project
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This walkthrough demonstrates how to call a method in a document-level customization for Microsoft Office Excel from Visual Basic for Applications (VBA) code in the workbook. The procedure involves three basic steps: add a method to the `Sheet1` host item class, expose the method to VBA code in the workbook, and then call the method from VBA code in the workbook.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
@@ -242,7 +241,7 @@ ms.technology: office-development
 
 - Call code in a VSTO Add-in from VBA. For more information, see [Walkthrough: Call code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).
 
-## See also
+## Related content
 - [Combine VBA and document-level customizations](../vsto/combining-vba-and-document-level-customizations.md)
 - [Program document-level customizations](../vsto/programming-document-level-customizations.md)
 - [How to: Expose Code to VBA in a Visual Basic project](../vsto/how-to-expose-code-to-vba-in-a-visual-basic-project.md)

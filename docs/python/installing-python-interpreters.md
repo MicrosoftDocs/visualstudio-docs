@@ -6,11 +6,9 @@ ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
+ms.subservice: python
 ---
 # Install Python interpreters
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 By default, installing the Python development workload in Visual Studio 2017 and later also installs Python 3 (64-bit). You can optionally choose to install 32-bit and 64-bit versions of Python 2 and Python 3, along with Miniconda (Visual Studio 2019) or Anaconda 2/Anaconda 3 (Visual Studio 2017), as described in [Installation](installing-python-support-in-visual-studio.md).
 
@@ -57,7 +55,7 @@ If you move an existing interpreter to a new location using the file system, Vis
 
 Following this process ensures that the registry entries that identify the interpreter's location, which Visual Studio uses, are properly updated. Using an installer also handles any other side effects that may exist.
 
-## See also
+## Related content
 
 - [Manage Python environments](managing-python-environments-in-visual-studio.md)
 - [Select an interpreter for a project](selecting-a-python-environment-for-a-project.md)

@@ -1,10 +1,10 @@
 ---
-title: "Tutorial: Create a simple Visual Basic (VB) console app"
-description: "In this tutorial, you learn how to create a Visual Basic console application in Visual Studio."
+title: "Tutorial: Create simple Visual Basic console apps"
+description: Create a Visual Basic console application in Visual Studio that asks the user for input and displays the value along with the current time.
 ms.custom: vs-acquisition
-ms.date: 10/31/2023
-ms.technology: vs-ide-general
-ms.prod: visual-studio-windows
+ms.date: 11/17/2023
+ms.subservice: general-ide
+
 ms.topic: tutorial
 ms.devlang: vb
 author: anandmeg
@@ -15,8 +15,6 @@ dev_langs:
 # Customer intent: As a novice, I want to create my first app so that I see how Visual Basic works.
 ---
 # Tutorial: Create a simple Visual Basic (VB) console app
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article shows how you use Visual Studio to create a simple Visual Basic application, a *console app*. In this app, you ask the user for their name, and then display it back with the current time. You also explore some features of the [Visual Studio integrated development environment (IDE)](visual-studio-ide.md), including [source control in Git](/visualstudio/version-control). Visual Basic is a type-safe programming language that's designed to be easy to learn. A console app takes input and displays output in a command-line window, also known as a console.
 
@@ -72,11 +70,11 @@ First, you create a Visual Basic app project. The default project template inclu
 
 1. In the **Configure your new project** window, enter *WhatIsYourName* in the **Project name** box. Then, choose **Next**.
 
-   :::image type="content" source="media/vs-2019/vb-name-your-project-whatname.png" alt-text="Screenshot showing the 'Configure your new project' window with the Project name field set to'WhatIsYourName'.":::
+   :::image type="content" source="media/vs-2019/vb-name-your-project-whatname.png" alt-text="Screenshot showing the 'Configure your new project' window in Visual Studio with the Project name field set to 'WhatIsYourName'." lightbox="media/vs-2019/vb-name-your-project-whatname.png":::
 
 1. In the **Additional information** window, **.NET 5.0 (Current)** should already be selected for your target framework. If not, select **.NET 5.0 (Current)**. Then, choose **Create**.
 
-   :::image type="content" source="media/vs-2019/vb-target-framework.png" alt-text="Screenshot showing the 'Additional information' window with '.NET 5.0 (Current)' selected in the Target Framework field.":::
+   :::image type="content" source="media/vs-2019/vb-target-framework.png" alt-text="Screenshot showing the Additional information window in Visual Studio with .NET 5.0 (Current) selected as the target framework for the new project." lightbox="media/vs-2019/vb-target-framework.png":::
 
    Visual Studio opens your new project.
 
@@ -109,11 +107,11 @@ First, you create a Visual Basic app project. The default project template inclu
 
 1. In the **Configure your new project** window, enter *WhatIsYourName* in the **Project name** box. Then, choose **Next**.
 
-   :::image type="content" source="media/vs-2022/vb-name-your-project-whatname.png" alt-text="Screenshot showing the 'Configure your new project' window with the Project name field set to'WhatIsYourName'.":::
+   :::image type="content" source="media/vs-2022/vb-name-your-project-whatname.png" alt-text="Screenshot showing the 'Configure your new project' window in Visual Studio with the Project name field set to 'WhatIsYourName'." lightbox="media/vs-2022/vb-name-your-project-whatname.png":::
 
 1. In the **Additional information** window, **.NET 8.0** should already be selected for your target framework. If not, select **.NET 8.0**. Then, choose **Create**.
 
-   :::image type="content" source="media/vs-2022/vb-target-framework.png" alt-text="Screenshot showing the 'Additional information' window with '.NET 8.0' selected in the Framework field.":::
+   :::image type="content" source="media/vs-2022/vb-target-framework.png" alt-text="Screenshot showing the Additional information window in Visual Studio with .NET 8.0 selected as the target framework for the new project." lightbox="media/vs-2022/vb-target-framework.png":::
 
    Visual Studio opens your new project.
 
@@ -151,7 +149,7 @@ There are two ways to run this code, inside Visual Studio in *debug mode*, and f
 
 1. When the app runs in the Microsoft Visual Studio Debug Console, "Hello World!" displays. Press any key to close the debug console window and end the app:
 
-    :::image type="content" source="media/vs-2022/vb-console-window-hello-world.png" alt-text="Screenshot showing 'Hello World!' and the 'Press any key to close this window' messages.":::
+    :::image type="content" source="media/vs-2022/vb-console-window-hello-world.png" alt-text="Screenshot showing 'Hello World!' and the 'Press any key to close this window' messages when the app runs in the Debug Console." lightbox="media/vs-2022/vb-console-window-hello-world.png":::
 
 ::: moniker-end
 

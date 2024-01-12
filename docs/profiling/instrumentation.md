@@ -1,18 +1,16 @@
 ---
 title: "Instrument your .NET application"
-description: Learn about instrumenting your .NET applications.
+description: Explore how to use the dynamic Instrumentation tool for your .NET applications (C#, C++, Visual Basic, F#) in Visual Studio and analyze the report.
 ms.date: "03/31/2023"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'
 ---
 
 # Instrument your .NET applications in Visual Studio (C#, C++, Visual Basic, F#)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 With the release of Visual Studio 2022 version 17.5, you can use the new dynamic Instrumentation tool. This tool shows the exact number of times your functions are called and is faster than the previous version of the Instrumentation tool. This tool supports .NET Core instrumentation without needing PDBs.
 Starting in Visual Studio 2022 version 17.6 Preview 2, the tool also supports C/C++.
@@ -56,7 +54,7 @@ Click on a function that you are interested in, and you will see a more detailed
 
 The information available is similar to the CPU Usage tool, except that it is based on wall clock time and call counts instead of CPU utilization. This means blocked time such as time spent waiting for locks will show up in the instrumentation trace, unlike the CPU Usage tool. For detailed information on the views, see [CPU Usage](../profiling/cpu-usage.md).
 
-## See Also
+## Related content
 
-[Instrumentation](../profiling/instrumentation.md)
-[First look at profiling tools](../profiling/profiling-feature-tour.md)
+- [Instrumentation](../profiling/instrumentation.md)
+- [First look at profiling tools](../profiling/profiling-feature-tour.md)

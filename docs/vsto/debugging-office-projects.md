@@ -16,11 +16,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Debug Office projects
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can debug Office projects by using the same Microsoft Visual Studio tools you use for other Visual Studio projects. Visual Studio debugger features, such as the ability to insert breakpoints and view variables in the **Locals** window, are also available when you debug Office projects. For more information about Visual Studio debugging tools, see [Debug in Visual Studio](../debugger/debugger-feature-tour.md).
 
 > [!TIP]
@@ -93,7 +92,7 @@ ms.technology: office-development
 
  To write the errors to a log file, create an environment variable named `VSTO_LOGALERTS` and set it to 1 (one). The  Visual Studio Tools for Office runtime  creates the log file in the folder that contains the deployment manifest for the VSTO Add-in, or in the folder that contains the document or workbook that is associated with the customization. If that fails, the  Visual Studio Tools for Office runtime  creates the log file in  the local *%TEMP%* folder. For application-level VSTO Add-ins, the default name is *add-in name*.vsto.log. For document-level projects, the name of the log file is *document name*.*extension*.log, such as ExcelWorkbook1.xlsx.log. To stop logging errors, delete the environment variable or set it to 0 (zero).
 
-## See also
+## Related content
 
 - [Build Office solutions](../vsto/building-office-solutions.md)
 - [How to: Re-enable a VSTO Add-in that has been disabled](../vsto/how-to-re-enable-a-vsto-add-in-that-has-been-disabled.md)

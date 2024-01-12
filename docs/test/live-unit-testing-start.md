@@ -8,11 +8,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 ---
 # Get started with Live Unit Testing
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you enable Live Unit Testing in a Visual Studio solution, it visually depicts your test coverage and the status of your tests. Live Unit Testing also dynamically executes tests whenever you modify your code and immediately notifies you when your changes cause tests to fail.
 
@@ -358,7 +356,7 @@ This provides enough information for a preliminary investigation of the bug. Eit
 
    Live Unit Testing shows the updated results appear, which also appear in the code editor window.
 
-## See also
+## Related content
 
 - [Live Unit Testing in Visual Studio](live-unit-testing.md)
 - [Live Unit Testing Frequently Asked Questions](live-unit-testing-faq.yml)

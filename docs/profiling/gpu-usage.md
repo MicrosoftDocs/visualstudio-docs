@@ -1,16 +1,15 @@
 ---
-title: "GPU usage"
+title: Use the GPU Usage tool in the Performance Profiler 
 description: Learn how to use the GPU Usage tool in the Performance Profiler to better understand the high-level hardware usage of your Direct3D app.
 ms.date: "11/01/2018"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # GPU usage
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 >[!NOTE]
 > Visual Studio Graphics Diagnostics is not supported on ARM64 Visual Studio.
 

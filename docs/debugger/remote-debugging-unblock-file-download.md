@@ -8,11 +8,9 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Unblock the download of the remote tools on Windows Server
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 For older versions of Windows Server that include Internet Explorer, the default security settings in Internet Explorer on Windows Server can make it time-consuming to download components such as the remote tools.
 

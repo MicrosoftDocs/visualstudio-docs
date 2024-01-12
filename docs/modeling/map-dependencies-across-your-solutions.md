@@ -1,6 +1,6 @@
 ---
 title: Visualize dependencies with code maps
-description: Learn how code maps help you see how the code fits together without reading through files and lines of code.
+description: Use code maps to visualize dependencies across your code and see how the code fits together without reading through files and lines of code.
 ms.date: 05/16/2021
 ms.topic: how-to
 f1_keywords:
@@ -15,11 +15,9 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 ---
 # Map dependencies with code maps
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this article, you'll learn how to visualize dependencies across your code with code maps.
 
@@ -229,7 +227,7 @@ Suppose you have a code review to perform in some files with pending changes. To
 
    ![Use the Filter pane to simplify the display](../modeling/media/almcodemapfilterpane.png)
 
-## See also
+## Related content
 
 - [Share code maps](share-code-maps.md)
 - [Create code maps for C++](code-maps-for-cpp.md)

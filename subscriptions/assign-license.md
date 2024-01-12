@@ -6,7 +6,7 @@ manager: shve
 ms.assetid: 4e529a43-7aed-4eee-895d-862a631952df
 ms.date: 11/02/2023
 ms.topic: conceptual
-description:  Learn how admins can assign licenses to subscribers
+description: Assign license subscriptions to users (subscribers) in the Subscriptions Administration Portal, set up email notifications, and send assignment messages.
 ---
 
 # Assign licenses in the Visual Studio Subscriptions Administration Portal
@@ -16,8 +16,7 @@ As a Visual Studio subscriptions admin, you can use the admin portal to assign s
 For groups of users, you have choices for how you assign subscriptions.  
 + You can assign subscriptions one at a time.
 + You can also quickly and easily upload lists of subscribers and their subscription information using the [Bulk add](assign-license-bulk.md) feature.
-+ If your organization uses Microsoft Entra ID (Entra ID), you can [use Entra ID groups to assign subscriptions](./assign-license-bulk.md#use-entra-id-groups-to-assign-subscriptions) to groups of users.  
-
++ If your organization uses Microsoft Entra ID, you can [use Microsoft Entra groups to assign subscriptions](./assign-license-bulk.md#use-entra-id-groups-to-assign-subscriptions) to groups of users.  
 
 ## Add a single subscriber
 
@@ -26,13 +25,12 @@ Watch the video or read on to learn how to assign a Visual Studio subscription t
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vpPh]
 
-
 1. Sign in to the [admin portal](https://manage.visualstudio.com).
 2. To assign a license to a single Visual Studio subscriber, at the top of the table, select **Add**, then choose **Individual subscriber**.
    > [!div class="mx-imgBorder"]
    > ![Add a single subscriber](_img/assign-license-add/add-subscriber-individual.png "Screenshot of the subscriber list in the manage portal. Individual subscriber in the add menu is highlighted.")
 3. A fly-out panel appears.  Enter the information into the form fields for the new subscriber. 
-   + If your organization is using Entra ID, typing the name of the subscriber in the **Search Entra ID** box returns the names of any Entra ID group members matching your criteria.  After you select that person, sign-in email and notification email will automatically populate.  
+   + If your organization is using Microsoft Entra ID, typing the name of the subscriber in the **Search Microsoft Entra ID** box returns the names of any Microsoft Entra group members matching your criteria.  After you select that person, sign-in email and notification email will automatically populate.  
    + If the subscriber wasn't found in your organization, you can enter the subscriber's name in the **Name** field.  
    + Enter the email address you want your subscriber to use to sign in.  You can also select the **Add a different notification email for receiving communication** link and specify a different notification email address so subscribers and admins receive important subscription-related emails from Microsoft.
       > [!div class="mx-imgBorder"]
@@ -65,7 +63,6 @@ Using a notification email address lets you allow your subscribers to receive im
 ## Resend assignment emails
 
 After you add a subscriber, an assignment email will be automatically sent to the new subscriber with further instructions. You can send the assignment email again at any time by selecting the subscriber and then selecting the **Resend** button in the top menu.  To resend emails to multiple users, hold down the **Ctrl** key while selecting the subscribers.  When you select the **Resend** button, you see a dialog asking you to confirm you want to resend to those subscribers.  
-
 
 ## Resources
 

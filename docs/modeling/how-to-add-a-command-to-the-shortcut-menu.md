@@ -9,11 +9,9 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 ---
 # Add a command to the shortcut menu
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can add menu commands to your domain-specific language (DSL) so that your users can perform tasks that are specific to your DSL. The commands appear on the context (shortcut) menu when users right-click on the diagram. You can define a command so that it only appears in the menu in specific circumstances. For example, you can make the command visible only when the user clicks specific types of element, or elements in specific states.
 
@@ -353,7 +351,7 @@ protected override IList<MenuCommand> GetMenuCommands()
 
 - Make sure that you have uninstalled earlier versions of the package.
 
-## See also
+## Related content
 
 - [Writing code to customize a domain-specific language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
 - [How to: Modify a standard menu command](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md)

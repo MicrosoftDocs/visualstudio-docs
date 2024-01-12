@@ -1,18 +1,20 @@
 ---
-title: Debugging an Azure cloud service or virtual machine
-description: Debugging a Cloud Service or Virtual Machine in Visual Studio
+title: Debug an Azure cloud service or virtual machine
+description: Debug an Azure cloud service or virtual machine in Visual Studio by running the operation on your local computer or debugging remotely in Azure.
 author: mikejo5000
 manager: jmartens
 ms.topic: how-to
 ms.date: 2/28/2023
 ms.author: mikejo
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Debug an Azure cloud service in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Visual Studio gives you different options for debugging Azure cloud services and virtual machines.
+
+## Prerequisites
+
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## Debug your cloud service on your local computer
 
@@ -369,7 +371,7 @@ Visual Studio ASP.NET projects offer an option to create a handy virtual machine
 
 :::moniker-end
 
-## Next steps
+## Related content
 
 * Use **IntelliTrace** to collect a log of calls and events from a release server. See [Debugging a Published Cloud Service with IntelliTrace and Visual Studio](vs-azure-tools-IntelliTrace-debug-published-cloud-services.md).
 

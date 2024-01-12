@@ -1,18 +1,16 @@
 ---
 title: Use a lab environment for devops
-description: Learn about lab environments and how to use the cloud with Azure Pipelines or Team Foundation Server Build and Release.
+description: Learn about lab environments and how you can use the cloud with Azure Pipelines or Team Foundation Server Build and Release.
 ms.date: 08/22/2022
 ms.topic: how-to
 helpviewer_keywords:
   - lab environment, test lab
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Use a lab environment for your devops
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A lab environment is a collection of virtual and physical machines that you can use to develop and test applications. A lab environment can contain multiple roles needed to test multi-tiered applications, such as workstations, web servers, and database servers. In addition, you can use a build-deploy-test workflow with your lab environment to automate the process of building, deploying, and running automated tests on your application.
 

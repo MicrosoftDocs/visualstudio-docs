@@ -18,11 +18,10 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Supported Code Changes (C++)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Edit and Continue for C++ projects handles most types of code changes. However, some changes cannot be applied during program execution. To apply these changes, you must stop execution and build a fresh version of the code.
 
  See [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md) for information about working with Edit and Continue for C++ in Visual Studio.
@@ -160,5 +159,5 @@ Edit and Continue for C++ projects handles most types of code changes. However, 
 
  Setting this value at the start of a debug session causes the various components of Edit and Continue to spew verbose logging to the **Output Window** > **Debug** pane.
 
-## See also
+## Related content
 - [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md)

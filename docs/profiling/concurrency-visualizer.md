@@ -1,5 +1,5 @@
 ---
-title: "Concurrency Visualizer"
+title: View thread-timing graphs in Concurrency Visualizer 
 description: Use the Concurrency Visualizer to see graphs that show the thread timing in your multi-threaded app, helping you solve performance issues.
 ms.date: "07/11/2017"
 ms.topic: "conceptual"
@@ -13,11 +13,9 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Concurrency Visualizer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 > [!NOTE]
 > The Concurrency Visualizer is an optional extension to Visual Studio. Download the Concurrency Visualizer and the Concurrency Visualizer Collection Tools from the following links:
@@ -50,7 +48,7 @@ The Concurrency Visualizer relies on [Event Tracing for Windows](/windows/win32/
 |[Concurrency Visualizer SDK](../profiling/concurrency-visualizer-sdk.md)|Describes how to instrument your source code to display additional information in the Concurrency Visualizer.|
 |[Concurrency Visualizer command-line utility (CVCollectionCmd)](../profiling/concurrency-visualizer-command-line-utility-cvcollectioncmd.md)|Describes how to use the Concurrency Visualizer command line utility (CVCollectionCmd.exe) to collect and process traces on machines that don't have Visual Studio.|
 
-## See also
+## Related content
 
 - [Profiling in Visual Studio](../profiling/index.yml)
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)

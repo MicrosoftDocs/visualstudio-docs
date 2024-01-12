@@ -1,6 +1,6 @@
 ---
 title: Connect to projects in Team Explorer
-description: Learn how to use Team Explorer in Visual Studio to work with team members to develop and manage projects.
+description: Explore Team Explorer in Visual Studio to work with team members to develop and manage projects, source code, work items, and repositories.
 ms.date: 11/02/2022
 ms.topic: conceptual
 ms.author: ghogen
@@ -9,8 +9,6 @@ ms.manager: jmartens
 monikerRange: "<=vs-2019"
 ---
 # Connect to projects in Team Explorer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ::: moniker range="vs-2019"
 
@@ -89,7 +87,7 @@ How you use Team Explorer to connect to a project depends on the version of Visu
 
 ::: moniker-end
 
-## Next steps
+## Related content
 
 Explore the following resources to continue your learning:
 

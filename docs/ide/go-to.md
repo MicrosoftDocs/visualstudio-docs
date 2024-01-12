@@ -1,6 +1,6 @@
 ---
 title: Go to file, go to symbol, go to line
-description: Learn about Go To commands in Visual Studio and how you can use them to to perform focused searches of your code.
+description: Explore Go To commands in Visual Studio and discover how you can use them to to perform focused and filtered searches of your code.
 ms.date: 10/31/2023
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,11 +11,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Find code using Go To commands
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio's **Go To** commands perform a focused search of your code to help you quickly find specified items. You can go to a specific line, type, symbol, file, and member from a simple, unified interface.
 
@@ -86,7 +84,7 @@ Use preview tab | Display the selected item immediately in the IDE's preview tab
 Show details | Display project, file, line, and summary information from documentation comments in the window
 Center window | Move this window to the top-center of the code editor, instead of the top-right
 
-## See also
+## Related content
 
 - [Navigate code](../ide/navigating-code.md)
 - [Go To Line dialog box](../ide/reference/go-to-line.md)

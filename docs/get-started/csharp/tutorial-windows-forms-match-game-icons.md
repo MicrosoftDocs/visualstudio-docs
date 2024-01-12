@@ -1,20 +1,18 @@
 ---
 title: "Tutorial: Add icons to the matching game"
-description: In this tutorial, you'll assign a random icon to each label on your Matching Game Windows Form and implement an event handler to display the icons using C# or VB in Visual Studio.
+description: Assign a random icon to each label in a matching game Windows Form and add an event handler to display the icons with C# or VB in Visual Studio.
 dev_langs:
   - "CSharp"
   - "VB"
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: tutorial
 ms.date: 03/16/2023
 ms.custom: vs-acquisition
 ---
 # Tutorial: Add icons to your matching game WinForms app
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this series of four tutorials, you build a matching game, where the player matches pairs of hidden icons.
 

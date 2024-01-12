@@ -1,16 +1,16 @@
 ---
 title: "How to use managed identity with Bridge to Kubernetes"
-ms.technology: bridge
+ms.subservice: bridge
 ms.date: 08/11/2022
 ms.topic: "conceptual"
-description: "Learn how to use Azure Active Directory (Azure AD) managed identity in an AKS cluster with Bridge to Kubernetes"
+description: "Learn how to use Microsoft Entra managed identity in an AKS cluster with Bridge to Kubernetes"
 manager: jmartens
 author: ghogen
 ms.author: ghogen
 ---
 # Use managed identity with Bridge to Kubernetes
 
-If your AKS cluster uses [managed identity](/azure/active-directory/managed-identities-azure-resources/overview) security features to secure access to secrets and resources, Bridge to Kubernetes needs some special configuration to ensure it can work with these features. An Azure Active Directory (AD) token needs to be downloaded to the local machine to ensure that local execution and debugging is properly secured, and this requires some special configuration in Bridge to Kubernetes. This article shows how to configure Bridge to Kubernetes to work with services that use managed identity.
+If your AKS cluster uses [managed identity](/azure/active-directory/managed-identities-azure-resources/overview) security features to secure access to secrets and resources, Bridge to Kubernetes needs some special configuration to ensure it can work with these features. A Microsoft Entra token needs to be downloaded to the local machine to ensure that local execution and debugging is properly secured, and this requires some special configuration in Bridge to Kubernetes. This article shows how to configure Bridge to Kubernetes to work with services that use managed identity.
 
 ## How to configure your service to use managed identity
 
@@ -22,11 +22,13 @@ enableFeatures:
 ```
 
 > [!WARNING]
-> Be sure to only use managed identity for Bridge to Kubernetes when working with dev clusters, not production clusters, because the Azure AD token is fetched to the local machine, which presents a potential security risk.
+> Be sure to only use managed identity for Bridge to Kubernetes when working with dev clusters, not production clusters, because the Microsoft Entra token is fetched to the local machine, which presents a potential security risk.
 
 If you don't have a *KubernetesLocalConfig.yaml* file, you can create one; see [How to: Configure Bridge to Kubernetes](configure-bridge-to-kubernetes.md).
 
-## How to fetch the Azure Active Directory tokens
+<a name='how-to-fetch-the-azure-active-directory-tokens'></a>
+
+## How to fetch the Microsoft Entra tokens
 
 You must ensure that you are relying on either `Azure.Identity.DefaultAzureCredential` or `Azure.Identity.ManagedIdentityCredential` in code when fetching the token.
 
@@ -52,7 +54,7 @@ To learn how to access other Azure resources using managed identity, see the [Ne
 
 ## Receive Azure alerts when tokens are downloaded
 
-Whenever you use Bridge to Kubernetes on a service, the Azure AD token is downloaded to the local machine. You can enable Azure alerts to be notified when this occurs. For information, see [Enable Azure Defender](/azure/security-center/enable-azure-defender). Please be aware that there is a charge (after a 30-day trial period).
+Whenever you use Bridge to Kubernetes on a service, the Microsoft Entra token is downloaded to the local machine. You can enable Azure alerts to be notified when this occurs. For information, see [Enable Azure Defender](/azure/security-center/enable-azure-defender). Please be aware that there is a charge (after a 30-day trial period).
 
 ## Next steps
 
@@ -68,4 +70,4 @@ There are other tutorials in that section as well for using managed identity to 
 
 ## See also
 
-[Azure Active Directory](/azure/active-directory/managed-identities-azure-resources/)
+[Microsoft Entra ID](/azure/active-directory/managed-identities-azure-resources/)

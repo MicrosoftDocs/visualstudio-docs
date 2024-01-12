@@ -1,6 +1,6 @@
 ---
 title: "Office primary interop assemblies"
-description: Learn how to use the primary interop assembly (PIA) to gain access the features of a Microsoft Office application from an Office project.
+description: Use the primary interop assembly (PIA) to gain access the features of a Microsoft Office application from an Office project.
 ms.date: "12/23/2021"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,11 +13,9 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Office primary interop assemblies
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To use the features of a Microsoft Office application from an Office project, you must use the primary interop assembly (PIA) for the application. The PIA enables managed code to interact with a Microsoft Office application's COM-based object model.
 
@@ -67,7 +65,7 @@ For Visual Studio 2017 and later, these copies of the PIAs are installed to foll
 
 ### Primary interop assemblies in the global assembly cache
 
-To perform certain development tasks, the PIAs must be installed and registered in the global assembly cache on the development computer. Typically, the PIAs are installed automatically when you install Office on the development computer. For more information, see [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md).
+To perform certain development tasks, the PIAs must be installed and registered in the global assembly cache on the development computer. Typically, the PIAs are installed automatically when you install Office on the development computer. For more information, see [Configure a computer to develop Office solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md).
 
 The Office PIAs aren't required on end-user computers to run Office solutions. For more information, see [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md).
 
@@ -88,7 +86,7 @@ If you've installed and registered the PIAs in the global assembly cache, these 
 
 ## Primary interop assemblies for Microsoft Office applications
 
-The following table lists the primary interop assemblies that are available for  Office 2016 ,  Office 2013  and Office 2010.
+The following table lists the primary interop assemblies that are available for  Office 2016, Office 2013, and Office 2010.
 
 <br/>
 
@@ -108,7 +106,7 @@ The following table lists the primary interop assemblies that are available for 
 |Microsoft Publisher 14.0 Object Library<br /><br /> Microsoft Publisher 15.0 Object Library|Microsoft.Office.Interop.Publisher.dll|
 |Microsoft SharePoint Designer 14.0 Web Object Reference Library|Microsoft.Office.Interop.SharePointDesigner.dll|
 |Microsoft SharePoint Designer 14.0 Page Object Reference Library|Microsoft.Office.Interop.SharePointDesignerPage.dll|
-|Microsoft Smart Tags 2.0 Type Library **Note:**  Smart tags are deprecated in  Excel 2010  and  Word 2010 .|Microsoft.Office.Interop.SmartTag.dll|
+|Microsoft Smart Tags 2.0 Type Library **Note:**  Smart tags are deprecated in  Excel 2010 and Word 2010.|Microsoft.Office.Interop.SmartTag.dll|
 |Microsoft Visio 14.0 Type Library<br /><br /> Microsoft Visio 15.0 Type Library|Microsoft.Office.Interop.Visio.dll|
 |Microsoft Visio 14.0 Save As Web Type Library<br /><br /> Microsoft Visio 15.0 Save As Web Type Library|Microsoft.Office.Interop.Visio.SaveAsWeb.dll|
 |Microsoft Visio 14.0 Drawing Control Type Library<br /><br /> Microsoft Visio 15.0 Drawing Control Type Library|Microsoft.Office.Interop.VisOcx.dll|
@@ -119,11 +117,11 @@ The following table lists the primary interop assemblies that are available for 
 
 When you install and register the Office PIAs in the global assembly cache (either with Office or by installing the redistributable package for the PIAs), the binding redirect assemblies are also installed only in the global assembly cache. These assemblies ensure that the correct version of the primary interop assemblies is loaded at run time.
 
-For example, when a solution that references a Office 2010 assembly runs on a computer that has the  Office 2013  version of the same primary interop assembly, the binding redirect assembly instructs the .NET Framework runtime to load the  Office 2013  version of the primary interop assembly.
+For example, when a solution that references an Office 2010 assembly runs on a computer that has the  Office 2013  version of the same primary interop assembly, the binding redirect assembly instructs the .NET Framework runtime to load the  Office 2013  version of the primary interop assembly.
 
 For more information, see [How to: Enable and disable automatic binding redirection](/dotnet/framework/configure-apps/how-to-enable-and-disable-automatic-binding-redirection).
 
-## See also
+## Related content
 
 - [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md)
 - [Excel object model overview](../vsto/excel-object-model-overview.md)

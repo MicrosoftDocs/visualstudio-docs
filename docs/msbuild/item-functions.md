@@ -1,16 +1,16 @@
 ---
-title: Item Functions
-description: Learn how MSBuild code in tasks and targets can call item functions to get information about the items in the project.
+title: Call item functions from MSBuild code
+description: Explore how MSBuild code in tasks and targets can call item functions to get information about the items in the project.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - msbuild, Item functions
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
-# Item functions
+# Work with item functions
 
 Code in tasks and targets can call item functions to get information about the items in the project (in MSBuild 4.0 and later). These functions simplify getting distinct items and are faster than looping through the items.
 
@@ -138,6 +138,6 @@ The following change to the code results in the duplicate item value being succe
 
 The function `HasTrailingSlash` is not an item function. It is available for use with the `Condition` attribute. See [MSBuild conditions](msbuild-conditions.md).
 
-## See also
+## Related content
 
-You can also use attributes to perform operations on item lists, such as filtering on item metadata; see [Items](../msbuild/msbuild-items.md).
+You can also use attributes to perform operations on item lists, such as filtering on item metadata. For more information, see [Items](../msbuild/msbuild-items.md).

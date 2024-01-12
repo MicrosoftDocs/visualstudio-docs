@@ -16,11 +16,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
+ms.subservice: sharepoint-development
 ---
 # Add an entity to a model
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   To create an entity, add an entity control from the Visual Studio **Toolbox** onto the Business Data Connectivity (BDC) designer.
 
 ### To add an entity to the model
@@ -47,7 +46,7 @@ ms.technology: sharepoint-development
     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc_entity_data_class/bdcmodel1/contact.vb" id="Snippet1":::
     ---
 
-## See also
+## Related content
 - [How to: Add a Creator method](../sharepoint/how-to-add-a-creator-method.md)
 - [How to: Add a Deleter method](../sharepoint/how-to-add-a-deleter-method.md)
 - [How to: Add an Updater method](../sharepoint/how-to-add-an-updater-method.md)

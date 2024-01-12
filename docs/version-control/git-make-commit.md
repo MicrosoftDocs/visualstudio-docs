@@ -1,18 +1,16 @@
 ---
 title: Make a Git commit in Visual Studio
 titleSuffix: ""
-description: Make a Git commit in Visual Studio by using Git providers such as GitHub or Azure DevOps.
+description: Make a Git commit in Visual Studio by using Git providers such as GitHub or Azure DevOps, or locally with no provider at all.
 ms.date: 05/26/2023
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 ms.manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
+
+ms.subservice: general-ide
 ---
 # Make a Git commit in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The core part of any Git workflow is modifying files and committing the changes in those files.  While this article references GitHub repositories, you can work remotely with the Git provider of your choice, such as GitHub or Azure DevOps. Or, you can work locally with no provider at all.
 
@@ -46,11 +44,7 @@ When you double-click a **Commit**, Visual Studio opens its details in a separat
 
 :::image type="content" source="media/vs-2022/git-branch-commit-details.png" alt-text="The Commit Details dialog in Visual Studio 2022.":::
 
-## Next steps
+## Related content
 
-To continue your journey, visit the [Stage lines of code](git-line-staging.md) page.
-
-## See also
-
+- [Stage lines of code](git-line-staging.md)
 - [Git experience in Visual Studio](git-with-visual-studio.md)
-- [Visual Studio & GitHub: Better together](https://visualstudio.microsoft.com/vs/github/)

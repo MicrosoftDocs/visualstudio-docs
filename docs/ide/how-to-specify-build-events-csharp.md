@@ -1,8 +1,8 @@
 ---
 title: 'Specify build events (C#)'
-description: Learn how to use build events to specify commands that run before the build starts or after the build finishes.
+description: Use build events in Visual Studio to specify commands that run before the build starts or after the build finishes for C# programs.
 ms.date: 02/15/2023
-ms.technology: vs-ide-compile
+ms.subservice: compile-build
 ms.topic: how-to
 helpviewer_keywords:
 - pre-build events
@@ -15,8 +15,6 @@ ms.author: ghogen
 manager: jmartens
 ---
 # Specify build events (C#)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use build events to specify commands that run before the build starts or after the build finishes.
 
@@ -182,7 +180,7 @@ Build started...
    ========== Build started at 12:00 PM and took 00.723 seconds ==========
    ```
 
-## See also
+## Related content
 
 - [Build Events page, Project Designer (C#)](../ide/reference/build-events-page-project-designer-csharp.md)
 - [Pre-build event/Post-build event command line dialog box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md)

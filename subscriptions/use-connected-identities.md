@@ -1,12 +1,12 @@
 ---
-title: Use connected identities in Visual Studio subscriptions 
+title: Use connected identities in subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
 ms.date: 11/02/2023
 ms.topic: conceptual
 robots: "noindex, nofollow"
-description:  Learn how to work with connected Microsoft accounts and Microsoft Entra ID identities
+description: Work with connected identities such as Microsoft accounts and Microsoft Entra ID identities in Visual Studio subscriptions.
 ---
 
 # Use connected identities in Visual Studio subscriptions
@@ -15,13 +15,15 @@ If you receive a Visual Studio subscription through your work or school, and you
 
 ## About connected IDs
 
-Organizations are increasingly moving to Microsoft Entra ID-based identities to provide improved security and support for automated management of subscriptions.  If your subscription uses an MSA such as an @outlook.com or other personal email address, your admin can change your sign-in email to your Microsoft Entra ID identity.  Switching  changes how you sign in to the subscriber portal at https://my.visualstudio.com.  It might not change how you access all of your benefits, however.  
+Organizations are increasingly moving to Microsoft Entra ID-based identities to provide improved security and support for automated management of subscriptions.  If your subscription uses an MSA such as an @outlook.com or other personal email address, your admin can change your sign-in email to your Microsoft Entra identity.  Switching  changes how you sign in to the subscriber portal at https://my.visualstudio.com.  It might not change how you access all of your benefits, however.  
 
-If your admin connects your MSA and Microsoft Entra ID identities, you receive an email letting you know to start accessing your Visual Studio subscription with your Microsoft Entra ID identity instead of your MSA. 
+If your admin connects your MSA and Microsoft Entra identities, you receive an email letting you know to start accessing your Visual Studio subscription with your Microsoft Entra identity instead of your MSA. 
 
-## How to access benefits using Microsoft Entra ID identities
+<a name='how-to-access-benefits-using-microsoft-entra-id-identities'></a>
 
-After your admin connects your MSA to your Microsoft Entra ID identity, sign in to the [subscriber portal](https://my.visualstudio.com) with your Microsoft Entra ID identity to access benefits that rely on Microsoft Entra ID.  These benefits include:
+## How to access benefits using Microsoft Entra identities
+
+After your admin connects your MSA to your Microsoft Entra identity, sign in to the [subscriber portal](https://my.visualstudio.com) with your Microsoft Entra identity to access benefits that rely on Microsoft Entra ID.  These benefits include:
 + Visual Studio IDE
 + Azure DevOps
 + Azure DevTest individual credit

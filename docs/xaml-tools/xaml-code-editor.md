@@ -1,6 +1,6 @@
 ---
-title: XAML code editor
-description: Take a tour of the XAML code editor in Visual Studio
+title: What is the XAML code editor?
+description: Explore the XAML code editor in Visual Studio for tools to create Windows Presentation Foundation (WPF) or Universal Windows Platform (UWP) apps and Xamarin forms.
 ms.date: 06/16/2020
 ms.topic: overview
 f1_keywords:
@@ -9,11 +9,9 @@ monikerRange: ">=vs-2019"
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.technology: vs-xaml-tools
+ms.subservice: xaml-tools
 ---
 # XAML code editor
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The XAML code editor in the [Visual Studio IDE](../get-started/visual-studio-ide.md) includes all the tools you need to create WPF and UWP apps for the Windows platform, and for [Xamarin.Forms](/xamarin/xamarin-forms/user-interface/text/editor/). This article outlines both the role the code editor plays when you develop XAML-based apps, and the features that are unique to the XAML code editor in Visual Studio 2019.
 

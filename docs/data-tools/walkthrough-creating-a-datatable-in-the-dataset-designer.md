@@ -1,6 +1,6 @@
 ---
-title: Create a DataTable for .NET Framework applications using the Dataset Designer
-description: In this walkthrough, create a DataTable (without a TableAdapter) using the Dataset Designer in Visual Studio for .NET Framework applications. Create a new Windows Forms application and add a new dataset to it.
+title: New DataTable in Dataset Designer (.NET Framework)
+description: Create a DataTable (without a TableAdapter) with the Dataset Designer in Visual Studio for .NET Framework applications and build a Windows Forms app with a dataset.
 ms.date: 11/01/2023
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,11 +11,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Walkthrough: Create a DataTable for .NET Framework applications using the Dataset Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -77,7 +75,7 @@ To set the primary key, right-click the **SongID** column, and then click **Set 
 
 To save the **DataTableWalkthrough** project, on the **File** menu, select **Save All**.
 
-## See also
+## Related content
 
 - [Create and configure datasets in Visual Studio](../data-tools/create-and-configure-datasets-in-visual-studio.md)
 - [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)

@@ -44,7 +44,7 @@
     href: install/uninstall-visual-studio.md
   - name: Release dates & build numbers
     href: /visualstudio/releases/2022/release-history?toc=%2Fvisualstudio%2Ftoc.json#release-dates-and-build-numbers
-  - name: Visual Studio administrator guide
+  - name: Administrator guide
     items:
     - name: Overview
       href: install/visual-studio-administrator-guide.md
@@ -107,18 +107,18 @@
           href: install/workload-component-id-vs-test-agent.md
         - name: Visual Studio Test Controller
           href: install/workload-component-id-vs-test-controller.md        
-  - name: Devices, VMs, and Containers
+  - name: Use on Devices, VMs, and Containers
     items:
-    - name: Use Visual Studio from an Azure virtual machine
+    - name: Use on Azure virtual machines
       href: install/using-visual-studio-vm.md
-    - name: Use Visual Studio on an ARM device
+    - name: Use on Arm-powered devices
       href: install/visual-studio-on-arm-devices.md
-    - name: Install Build Tools into a Container
-      href: install/build-tools-container.md
-    - name: Advanced Example for Containers
-      href: install/advanced-build-tools-container.md
-    - name: Known Issues for Containers
-      href: install/build-tools-container-issues.md
+    - name: Install Build Tools into containers
+      items:  
+      - name: Install into Docker containers
+        href: install/build-tools-container.md
+      - name: Advanced container example
+        href: install/advanced-build-tools-container.md
 - name: Tutorials
   items:
   - name: C++ >>
@@ -145,10 +145,12 @@
       href: ide/visual-studio-github-copilot-extension.md
     - name: Use GitHub Copilot Chat 
       href: ide/visual-studio-github-copilot-chat.md
-    - name: Improved context in Copilot Chat
+    - name: Tips to improve Copilot Chat results 
       href: ide/copilot-chat-context.md
-    - name: Debug with Copilot
+    - name: Debug with GitHub Copilot
       href: debugger/debug-with-copilot.md
+    - name: Deploy GitHub Copilot to your enterprise
+      href: ide/deploy-copilot-to-enterprise.md
   - name: IntelliCode
     items:
     - name: 'What is IntelliCode?'
@@ -177,8 +179,6 @@
       href: ide/creating-solutions-and-projects.md
     - name: Open a project from a repo
       href: get-started/tutorial-open-project-from-repo.md
-    - name: Port, migrate, and upgrade projects
-      href: porting/port-migrate-and-upgrade-visual-studio-projects.md
     - name: Learn about Solution Explorer
       href: ide/use-solution-explorer.md
     - name: Manage project and solution properties
@@ -298,22 +298,14 @@
           href: ide/visual-cpp-code-snippets.md
         - name: Insert XML comments
           href: ide/reference/generate-xml-documentation-comments.md
-        - name: Use surround-with code snippets
-          href: ide/how-to-use-surround-with-code-snippets.md
-        - name: Best practices
-          href: ide/best-practices-for-using-code-snippets.md
-        - name: Create code snippets
-          items:
-          - name: 'Walkthrough: Create a code snippet'
-            href: ide/walkthrough-creating-a-code-snippet.md
-          - name: Distribute code snippets
-            href: ide/how-to-distribute-code-snippets.md
-          - name: Code snippet functions
-            href: ide/code-snippet-functions.md
-          - name: Code snippets schema reference
-            href: ide/code-snippets-schema-reference.md
-          - name: Troubleshoot snippets
-            href: /troubleshoot/developer/visualstudio/ide/troubleshooting-snippets?toc=%2Fvisualstudio%2Ftoc.json
+        - name: 'Walkthrough: Create a code snippet'
+          href: ide/walkthrough-creating-a-code-snippet.md
+        - name: Distribute code snippets
+          href: ide/how-to-distribute-code-snippets.md
+        - name: Code snippets schema reference
+          href: ide/code-snippets-schema-reference.md
+        - name: Troubleshoot snippets
+          href: /troubleshoot/developer/visualstudio/ide/troubleshooting-snippets?toc=%2Fvisualstudio%2Ftoc.json
       - name: Quick Actions
         displayName: light bulb screwdriver suggestions
         href: ide/quick-actions.md
@@ -772,6 +764,8 @@
     href: ide/how-to-customize-menus-and-toolbars-in-visual-studio.md
   - name: Window layouts & tabs
     href: ide/customizing-window-layouts-in-visual-studio.md
+  - name: Accessibility tips & tricks
+    href: ide/reference/accessibility-tips-and-tricks.md  
   - name: File nesting in Solution Explorer
     href: ide/file-nesting-solution-explorer.md
   - name: Startup behavior
@@ -789,9 +783,9 @@
     - name: Sign in or switch accounts
       displayName: personalization accounts
       href: ide/signing-in-to-visual-studio.md
-    - name: Access multiple user accounts
+    - name: 'Access multiple accounts (Azure, Entra)'
       href: ide/sign-in-access-multiple-accounts.md
-    - name: Work with accounts that require multifactor authentication
+    - name: Multifactor authentication (MFA)
       href: ide/work-with-multi-factor-authentication.md
     - name: Work with GitHub accounts in Visual Studio
       href: ide/work-with-github-accounts.md
@@ -877,6 +871,8 @@
           href: ide/reference/trust-settings.md
         - name: Web Browser
           href: ide/reference/web-browser-environment-options-dialog-box.md
+        - name: Notifications window
+          href: ide/reference/user-notifications-window.md
       - name: Projects and Solutions
         items:
         - name: General
@@ -991,6 +987,8 @@
         href: ide/reference/xaml-designer.md
     - name: Output window
       href: ide/reference/output-window.md
+    - name: Problem Details window
+      href: ide/reference/problem-details-window.md
     - name: Project Designer & project properties
       items:
       - name: Project Designer reference
@@ -1214,24 +1212,18 @@
   items:
   - name: "What's new in Docs"
     href: ide/whats-new-visual-studio-docs.md
-  - name: Release notes
+  - name: Release notes >>
     href: /visualstudio/releases/
-  - name: Release rhythm
+  - name: Release rhythm >>
     href: /visualstudio/productinfo/release-rhythm/
   - name: "Visual Studio 2022: What's new"
     href: ide/whats-new-visual-studio-2022.md
   - name: "Visual Studio 2019: What's new"
     href: ide/whats-new-visual-studio-2019.md
-  - name: License terms
+  - name: License terms >>
     href: https://visualstudio.microsoft.com/license-terms/
-  - name: Support lifecycle and servicing
+  - name: Support lifecycle and servicing >>
     href: /visualstudio/productinfo/vs-servicing-vs/
-  - name: Accessibility
-    items:
-    - name: Accessibility tips and tricks
-      href: ide/reference/accessibility-tips-and-tricks.md
-    - name: Accessibility products and services from Microsoft
-      href: ide/reference/accessibility-products-and-services-from-microsoft.md
   - name: Offline help >>
     href: help-viewer/overview.md
 - name: Send feedback

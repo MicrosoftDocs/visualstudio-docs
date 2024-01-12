@@ -1,6 +1,6 @@
 ---
 title: Creating a Windows Forms Toolbox Control
-description: This walkthrough shows how to use the Windows Forms Toolbox Control template to create a simple counter control using the Visual Studio SDK.
+description: Use the Windows Forms Toolbox Control template to build and test a simple counter control with the Visual Studio Extensibility Tools SDK.
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:
@@ -10,11 +10,9 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Create a Windows Forms Toolbox Control
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Windows Forms Toolbox Control item template that is included in the Visual Studio Extensibility Tools (VS SDK), lets you create a **Toolbox** control that is automatically added when the extension is installed. This walkthrough shows how to use the template to create a simple counter control that you can distribute to other users.
 
@@ -206,7 +204,7 @@ The `Counter` control will expose a method to increment the counter, an event to
 
 When you build a **Toolbox** control, Visual Studio creates a file named *ProjectName.vsix* in the \bin\debug\ folder of your project. You can deploy the control by uploading the *.vsix* file to a network or to a Web site. When a user opens the *.vsix* file, the control is installed and added to the Visual Studio **Toolbox** on the user's computer. Alternatively, you can upload the *.vsix* file to [Visual Studio Marketplace](https://marketplace.visualstudio.com/) so that users can find it by browsing in the **Tools** > **Extensions and Updates** dialog.
 
-## See also
+## Related content
 
 - [Extend other parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)
 - [Create a WPF Toolbox Control](../extensibility/creating-a-wpf-toolbox-control.md)

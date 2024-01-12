@@ -9,12 +9,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 monikerRange: '>= vs-2022'
 ---
 # Access ClickOnce activation data for .NET on Windows
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Starting in the .NET 8.0 Preview 1 version of *dotnet-mage*, you can access `ActivationData` properties using environment variables. Using this version of *dotnet-mage*, you can programmatically:
 
@@ -54,6 +52,6 @@ Previously, for .NET Framework apps, you would read this data using the followin
 string value = AppDomain.CurrentDomain?.SetupInformation?.ActivationArguments?.ActivationData?[0];
 ```
 
-## See also
+## Related content
 
 [ClickOnce for .NET on Windows](../deployment/clickonce-deployment-dotnet.md)

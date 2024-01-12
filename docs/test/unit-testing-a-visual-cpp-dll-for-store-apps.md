@@ -5,12 +5,10 @@ ms.date: 05/01/2019
 ms.topic: how-to
 ms.author: twhitney
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 author: tylermsft
 ---
 # Test a C++ DLL
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This topic describes one way to create unit tests for a C++ DLL for Universal Windows Platform (UWP) apps with the Microsoft Test Framework for C++. The RooterLib DLL demonstrates vague memories of limit theory from the calculus by implementing a function that calculates an estimate of the square root of a given number. The DLL might then be included in a UWP app that shows a user the fun things that can be done with math.
 
@@ -23,7 +21,6 @@ This topic also creates a single Visual Studio solution and separate projects fo
 Start by creating a new test project. On the **File** menu, choose **New** > **Project**. In the **Create a New Project** dialog, type "test" into the search box and then set **Language** to C++. Then choose **Unit Test App (Universal Windows)** from the list of project templates.
 
    ![Create a new UWP test project](media/vs-2019/cpp-new-uwp-test-project-vs2019.png)
-
 
 1. In the New Project dialog, expand **Installed** > **Visual C++** and choose **Windows Universal**. Then choose **Unit Test App (Universal Windows)** from the list of project templates.
 
@@ -69,7 +66,6 @@ Start by creating a new test project. On the **File** menu, choose **New** > **P
 In **Solution Explorer**, choose the solution name. From the shortcut menu, choose **Add**, and then **New Project**. In the **Add a New Project** dialog, set **Language** to C++ and type "DLL" into the search box. From the results list, choose **Unit Test App (Universal Windows - C++/CX)**.
 
 ![Create the RooterLib project](../test/media/vs-2019/cpp-new-uwp-test-project-vs2019.png)
-
 
 1. In the **Add New Project** dialog box, choose **DLL (UWP apps)**.
 

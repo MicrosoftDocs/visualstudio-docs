@@ -1,6 +1,6 @@
 ---
 title: Creating an Extension with a Menu Command
-description: Learn how to create an extension with a menu command that launches Notepad. Create a menu command and then change the menu command handler.
+description: Create an extension with a menu command that launches Notepad, create a menu command, and change the menu command handler in Visual Studio.
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:
@@ -11,11 +11,9 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Create an extension with a menu command
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This walkthrough shows how to create an extension with a menu command that launches Notepad.
 

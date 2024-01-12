@@ -1,6 +1,6 @@
 ---
 title: Enable debugging and diagnostics with Source Link
-description: Learn how to enable Source Link in your .NET project to improve debugging and diagnostics.
+description: Enable Source Link in your .NET project to improve debugging and diagnostics, where the debugger downloads underlying source files as you step into sections of code.
 ms.date: 08/09/2022
 ms.topic: how-to
 dev_langs: 
@@ -10,7 +10,7 @@ helpviewer_keywords:
   - source link, debugging, diagnostics
 author: poppastring
 ms.author: madownie
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 
 # Enable debugging and diagnostics with Source Link
@@ -64,7 +64,7 @@ Source Link packages are available for multiple source control providers:
 - [GitLab](https://github.com/dotnet/sourcelink#gitlab)
 - [Bitbucket](https://github.com/dotnet/sourcelink#bitbucket)
 
-## See also
+## Related content
 - [Source Link](/dotnet/standard/library-guidance/sourcelink)
 - [Specify symbol (.pdb) and source files in the debugger](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
 - [Improving Debug-time Productivity with Source Link](https://devblogs.microsoft.com/dotnet/improving-debug-time-productivity-with-source-link/)

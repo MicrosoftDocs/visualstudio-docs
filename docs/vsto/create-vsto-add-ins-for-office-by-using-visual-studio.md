@@ -1,6 +1,6 @@
 ---
-title: "Create VSTO Add-ins for Office by using Visual Studio"
-description: Learn how you can use the Microsoft Office developer tools in Visual Studio to create .NET Framework applications that extend Office.
+title: Create VSTO Add-ins for Office by using Visual Studio
+description: Explore how to use the Microsoft Office developer tools in Visual Studio to create .NET Framework applications that extend Office.
 titleSuffix: ""
 ms.date: "04/28/2021"
 ms.topic: "conceptual"
@@ -10,11 +10,10 @@ dev_langs:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Create VSTO Add-ins for Office by using Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 > [!IMPORTANT]
 > VSTO relies on the [.NET Framework](/dotnet/framework/get-started/overview). COM add-ins can also be written with the .NET Framework. Office Add-ins cannot be created with [.NET Core and .NET 5+](/dotnet/core/dotnet-five), the latest versions of .NET. This is because .NET Core/.NET 5+ cannot work together with .NET Framework in the same process and may lead to add-in load failures. You can continue to use .NET Framework to write VSTO and COM add-ins for Office. Microsoft will not be updating VSTO or the COM add-in platform to use .NET Core or .NET 5+. You can take advantage of .NET Core and .NET 5+, including ASP.NET Core, to create the server side of [Office Web Add-ins](/office/dev/add-ins/overview/office-add-ins).
 
@@ -107,7 +106,7 @@ ms.technology: office-development
 
  Contains links to information about COM interfaces that you can use to perform actions such as load and unload managed VSTO Add-ins in Office applications.
 
-## Related sections
+## Related content
 - [Office development with Visual Studio developer portal](https://developer.microsoft.com/office/docs)
  Provides additional resources such as technical articles, videos, and blogs.
 

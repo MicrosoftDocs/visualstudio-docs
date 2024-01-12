@@ -6,13 +6,11 @@ ms.topic: reference
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 dev_langs:
 - CSharp
 ---
 # Refactoring to replace var with an explicit type
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use this refactoring to replace [var](/dotnet/csharp/language-reference/keywords/var) in a local variable declaration with an explicit type.
 

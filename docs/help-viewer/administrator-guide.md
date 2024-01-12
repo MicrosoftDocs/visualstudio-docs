@@ -6,11 +6,9 @@ ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-help-viewer
+ms.subservice: help-viewer
 ---
 # Deploy and manage local Help installations for network environments 
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use Microsoft Help Viewer to install, view, and manage local documentation installs for Microsoft products and technologies on local computers. These technologies include Visual Studio, .NET, language reference, SQL Server, and Windows development. 
 
@@ -139,7 +137,7 @@ Next, you need to package the content so it can be deployed to client computers.
 
 3. Run the *.bat* file on the local machines that you want to install the Help content on.
 
-## See also
+## Related content
 
 - [Command-line arguments for the Help Content Manager](../help-viewer/command-line-arguments.md)
 - [Override Help Viewer defaults](../help-viewer/behavior-overrides.md)

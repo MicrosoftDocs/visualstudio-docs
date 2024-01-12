@@ -1,6 +1,6 @@
 ---
 title: Use code maps to debug your applications
-description: Learn how to use code maps to help you avoid getting lost in large code bases, unfamiliar code, or legacy code.
+description: Use code maps to debug your applications, to help you avoid getting lost in large code bases, unfamiliar code, or legacy code.
 ms.date: 09/28/2018
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,11 +15,9 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 ---
 # Use code maps to debug your applications
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [Code maps in Visual Studio](../modeling/map-dependencies-across-your-solutions.md) can help you avoid getting lost in large code bases, unfamiliar code, or legacy code. For example, when you're debugging, you might have to look at code across many files and projects. Use code maps to navigate around pieces of code and understand the relationships between them. That way, you don't have to keep track of this code in your head, or draw a separate diagram. So, when your work is interrupted, code maps help refresh your memory about the code you're working on.
 
@@ -138,7 +136,7 @@ Learn more about [debugging in Visual Studio with the Debugger tool](../debugger
 
  Now you're done with your investigation. You successfully found and fixed the problem by mapping the code. You also have a map that helps you navigate around the code, remember what you learned, and shows the steps you took to fix the problem.
 
-## See also
+## Related content
 
 - [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md)
 - [Visualize code](../modeling/visualize-code.md)

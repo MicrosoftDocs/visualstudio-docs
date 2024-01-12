@@ -1,6 +1,6 @@
 ---
 title: Manage application settings (.NET)
-description: Learn how to manage application settings that aren't included in the application code but are needed at runtime.
+description: Manage application settings that aren't included in the application code but are needed at runtime with the Visual Studio integrated development environment (IDE).
 ms.date: 03/16/2023
 ms.topic: conceptual
 f1_keywords:
@@ -10,11 +10,9 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Manage application settings (.NET)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Application settings enable you to store application information dynamically. With application settings, you can use a client computer to store information that shouldn't be included in the application code at runtime. Application settings can include connection strings, user preferences, and more.
 
@@ -103,6 +101,6 @@ Properties.Settings.Default.Save();
 
 For general information about accessing application settings through the `Settings` class, see [Application settings overview (.NET Framework)](/dotnet/framework/winforms/advanced/application-settings-overview). For information about iterating through the settings, see this [forum post](https://social.msdn.microsoft.com/Forums/vstudio/40fbb470-f1e8-4a02-a4a0-9f62b54d0fc4/is-this-possible-propertiessettingsdefault?forum=csharpgeneral).
 
-## See also
+## Related content
 
 - [Access application settings (.NET Framework)](/dotnet/visual-basic/developing-apps/programming/app-settings/accessing-application-settings)

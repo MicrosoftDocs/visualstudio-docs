@@ -1,16 +1,14 @@
 ---
 title: "Build multiple configurations"
-description: Learn how you can build most types of projects with multiple, or even all, of their build configurations with one IDE action.
+description: Build most types of projects with multiple, or even all, of their build configurations with one IDE action in Visual Studio.
 ms.date: 05/13/2020
-ms.technology: vs-ide-compile
+ms.subservice: compile-build
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ---
 # Build multiple configurations in a single build request
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can build most types of projects with multiple, or even all, of their build configurations with one IDE action by using the **Batch Build** dialog box. However, you can't build the following types of projects in multiple build configurations at the same time:
 
@@ -35,7 +33,7 @@ If a solution contains any project of those two project types, then **Batch Buil
 
 3. Choose the **Build** or **Rebuild** buttons to build the project with the configurations that you specified.
 
-## See also
+## Related content
 
 - [How to: Create and edit configurations](../ide/how-to-create-and-edit-configurations.md)
 - [Understand build configurations](../ide/understanding-build-configurations.md)

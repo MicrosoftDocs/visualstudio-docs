@@ -6,15 +6,11 @@ ms.topic: reference
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-f1_keywords:
- - vs.UserNotificationsToolWindowPane
+ms.subservice: extensibility-integration
 ---
 # Notifications and Progress for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## <a name="BKMK_NotificationSystems"></a> Notification systems
-
 
  There are several ways to inform the user what is happening in Visual Studio regarding their software development tasks.
 
@@ -99,7 +95,7 @@ f1_keywords:
  **Visual Studio Notifications tool window**
 
 #### <a name="BKMK_ErrorList"></a> Error list
- A notification within the error list indicate errors and warnings that occurred during compilation and or build process, and allows the user to navigate in code to that specific code error.
+ A notification within the error list indicates errors and warnings that occurred during compilation and or build process, and allows the user to navigate in code to that specific code error.
 
  ![Error list](../../extensibility/ux-guidelines/media/0901-08_errorlist.png "0901-08_ErrorList")
 
@@ -125,7 +121,6 @@ f1_keywords:
  **Notification bubble in the Windows Notification area used for Visual Studio**
 
 ## <a name="BKMK_ProgressIndicators"></a> Progress indicators
-
 
  Progress indicators are an important part of a notification system for giving the user feedback. They tell the user when processes and operations will complete. Familiar indicator types include progress bars, spinning cursors, and animated icons. The type and placement of a progress indicator depends on the context, including what is being reported and how long the process or operation will take to complete.
 
@@ -279,7 +274,6 @@ f1_keywords:
  **Output Window with ongoing process status and wait messaging**
 
 ## <a name="BKMK_Infobars"></a> Infobars
-
 
  Infobars give the user an indicator close to their point of attention and using the shared infobar control ensures consistency in visual appearance and interaction.
 

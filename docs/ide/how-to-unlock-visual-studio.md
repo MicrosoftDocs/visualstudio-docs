@@ -6,11 +6,9 @@ ms.topic: how-to
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Extend a trial version or update a license
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can evaluate a free trial of [Visual Studio Professional or Visual Studio Enterprise](https://visualstudio.microsoft.com/vs/compare/) for 30 days. And if you sign in, you can extend the trial period to 90 days. The 90 day trial extension works only one time. (Visual Studio Community doesn't require you to sign-in. However, if the installation prompts you to sign-in periodically, [sign in](signing-in-to-visual-studio.md) to continue using Visual Studio Community without interruptions.)
 
@@ -69,7 +67,7 @@ Sometimes, things go wrong. If you experience a problem, here are some support o
 * Report product issues by using the [Report a Problem](how-to-report-a-problem-with-visual-studio.md) tool.
 * Find answers to questions about subscriptions, accounts, and billing in the [Subscriptions Support FAQ](https://visualstudio.microsoft.com/subscriptions/support/).
 
-## See also
+## Related content
 
 * [Sign in to Visual Studio](../ide/signing-in-to-visual-studio.md)
 * [Compare Visual Studio editions](https://visualstudio.microsoft.com/vs/compare/)

@@ -1,16 +1,14 @@
 ---
 title: Installing the Visual Studio SDK
-description: Learn about the options to install the Visual Studio Software Development Kit, including during Visual Studio installation.
+description: Explore installation options for the Visual Studio Software Development Kit, including during Visual Studio installation.
 ms.date: 08/26/2022
 ms.topic: overview
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Install the Visual Studio SDK
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio SDK (Software Development Kit) is an optional feature in Visual Studio setup. You can also install the VS SDK later on.
 

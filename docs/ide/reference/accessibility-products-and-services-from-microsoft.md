@@ -16,11 +16,9 @@ helpviewer_keywords:
 author: j-martens
 ms.author: jmartens
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Accessibility products and services from Microsoft
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Microsoft is committed to making its products and services easier for everyone to use. This page provides information about the features, products, and services that make Microsoft Windows more accessible for people with disabilities.
 
@@ -68,7 +66,7 @@ Microsoft Support Services are subject to the prices, terms, and conditions in p
 
 For more information about how accessible technology for computers helps to improve the lives of people with disabilities, see the [Microsoft Accessibility](https://www.microsoft.com/accessibility/) website.
 
-## See also
+## Related content
 
 * [Resources for designing accessible applications](../../ide/reference/resources-for-designing-accessible-applications.md)
 * [Accessibility features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)

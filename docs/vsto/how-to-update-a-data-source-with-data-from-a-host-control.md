@@ -15,11 +15,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Update a data source with data from a host control
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can bind a host control to a data source and update the data source with the changes that are made to the data in the control. There are two main steps in this process:
 
 1. Update the in-memory data source with the modified data in the control. Typically, the in-memory data source is a <xref:System.Data.DataSet>, a <xref:System.Data.DataTable>, or some other data object.
@@ -125,7 +124,7 @@ ms.technology: office-development
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb" id="Snippet21":::
      ---
 
-## See also
+## Related content
 - [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)
 - [Save data back to the database](../data-tools/save-data-back-to-the-database.md)
 - [Update data by using a TableAdapter](../data-tools/update-data-by-using-a-tableadapter.md)

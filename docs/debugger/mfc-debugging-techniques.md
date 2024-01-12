@@ -23,11 +23,10 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # MFC Debugging Techniques
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 If you are debugging an MFC program, these debugging techniques may be useful.
 
 ## <a name="BKMK_In_this_topic"></a> In this topic
@@ -475,5 +474,5 @@ Building selected modules with the MFC debug libraries enables you to use steppi
 
    [In this topic](#BKMK_In_this_topic)
 
-## See also
-[Debugging Native Code](../debugger/debugging-native-code.md)
+## Related content
+- [Debugging Native Code](../debugger/debugging-native-code.md)

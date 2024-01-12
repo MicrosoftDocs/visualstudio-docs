@@ -10,11 +10,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Open project-specific editors
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 If an item file being opened by a project is intrinsically bound to the particular editor for that project, the project must open the file by using a project-specific editor. The file cannot be delegated down to the IDE's mechanism for selecting an editor. For example, instead of using a standard bitmap editor, you can use this project-specific editor option to specify a specific bitmap editor that recognizes information in the file that is unique to your project.
 
  The IDE calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.OpenItem%2A> method when it determines that a file should be opened by a specific project. For more information, see [Display files by using the Open File command](../extensibility/internals/displaying-files-by-using-the-open-file-command.md). Use the following guidelines to implement the `OpenItem` method to have your project open a file by using a project-specific editor.
@@ -46,7 +45,7 @@ If an item file being opened by a project is intrinsically bound to the particul
 
 6. Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.Show%2A> method to show and open the view.
 
-## See also
+## Related content
 - [Open and Save project items](../extensibility/internals/opening-and-saving-project-items.md)
 - [How to: Open standard editors](../extensibility/how-to-open-standard-editors.md)
 - [How to: Open editors for open documents](../extensibility/how-to-open-editors-for-open-documents.md)

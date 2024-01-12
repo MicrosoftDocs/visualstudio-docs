@@ -1,12 +1,12 @@
 ---
 title: What's New in MSBuild 16.0 
-description: Learn about the changed and updated features and properties for MSBuild 16.0, and link to release notes.
+description: Review the changed, updated, and new features and properties for MSBuild 16.0, including support for .NET Framework 4.7.2, and access links to release notes.
 ms.date: 03/11/2019
-ms.topic: conceptual
+ms.topic: whats-new
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 monikerRange: '>=vs-2019'
 ---
 # What's new in MSBuild 16.0
@@ -34,6 +34,6 @@ Starting with MSBuild 16.8, you can selectively choose whether to opt out of cer
 
 MSBuild (and Visual Studio) now targets .NET Framework 4.7.2. If you wish to use new MSBuild API features, your assembly must also upgrade, but existing code will continue to work.
 
-## See also
+## Related content
 
 - [MSBuild](../msbuild/msbuild.md)

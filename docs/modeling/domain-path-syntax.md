@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 ---
 # Domain Path Syntax
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 DSL Definitions use an XPath-like syntax to locate specific elements in a model.
 
  Ordinarily you do not have to work with this syntax directly. Where it appears in DSL Details or Properties window, you can click the downward arrow and use the path editor. However, the path appears in this form in the field after you have used the editor.
@@ -31,6 +30,6 @@ DSL Definitions use an XPath-like syntax to locate specific elements in a model.
 
  The name that you use for the element-to-link hop is the value of the role's `Property Name`. The name that you use for the link-to-element hop is the target role name.
 
-## See also
+## Related content
 
 - [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md)

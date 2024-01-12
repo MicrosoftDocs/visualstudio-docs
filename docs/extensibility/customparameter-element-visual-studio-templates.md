@@ -2,7 +2,7 @@
 title: CustomParameter Element (Visual Studio Templates)
 description: Learn about the CustomParameter element and how it contains a custom parameter name and value to use when a project or item is created from the template.
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#CustomParameter
@@ -14,7 +14,6 @@ manager: jmartens
 ---
 # CustomParameter element (Visual Studio templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Contains a custom parameter name and value to use when a project or item is created from the template.
 
 ## Syntax

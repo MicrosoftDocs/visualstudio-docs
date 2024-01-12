@@ -16,11 +16,9 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Custom document properties overview
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you build a document-level project, Visual Studio adds two custom properties to the document in the project: \_AssemblyLocation and \_AssemblyName. When a user opens a document, the Microsoft Office application checks for these custom document properties. If they exist in the document, the application loads the  Visual Studio Tools for Office runtime , which starts the customization. For more information, see [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md).
 
@@ -46,7 +44,7 @@ This property contains a string that provides details about the deployment manif
 
   The *SolutionID* is a GUID that the  Visual Studio Tools for Office runtime  uses to identify the solution. The *SolutionID* is automatically generated when you build the project. The **vstolocal** term indicates to the  Visual Studio Tools for Office runtime  that the assembly should be loaded from the same folder as the document.
 
-## See also
+## Related content
 
 - [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)
 - [Architecture of document-level customizations](../vsto/architecture-of-document-level-customizations.md)

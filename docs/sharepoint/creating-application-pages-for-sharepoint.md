@@ -1,6 +1,6 @@
 ---
 title: "Creating Application Pages for SharePoint"
-description: Create application pages for SharePoint. An application page is an ASP.NET web page that's designed for use in a SharePoint website.
+description: Create application pages for SharePoint, and work with ASP.NET web pages that are designed for use in a SharePoint website.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -15,11 +15,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
+ms.subservice: sharepoint-development
 ---
 # Create application pages for SharePoint
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   An *application page* is an ASP.NET Web page that is designed for use in a SharePoint Web site. Application pages are a specialized type of ASP.NET page. The primary difference between an application page and a standard ASP.NET page is that an application page contains content that is merged with a SharePoint master page. A master page enables application pages to share the same appearance and behavior as other pages on a site.
 
  Visual Studio enables you to design application pages by using a designer. The designer displays a content area for each content placeholder that is defined in a master page. You can design the application page by dragging controls to these content areas.
@@ -67,7 +66,7 @@ ms.technology: sharepoint-development
 
  You can explicitly change which master page is used by the application page by setting the `MasterPageFile` attribute of the application `Page` element. (For example: `MasterPageFile="~/_layouts/applicationv4.master"`). In fact, you must set this attribute if dynamic master pages are not enabled on the SharePoint server. For more information about master pages in SharePoint, see [Master Pages](/previous-versions/office/developer/sharepoint-2010/ms443795(v=office.14)).
 
-## See also
+## Related content
 - [SharePoint Foundation Development in Depth](/previous-versions/office/developer/sharepoint-2010/ee539092(v=office.14))
 - [ASP.NET overview](/aspnet/overview)
 - [ASP.NET Web Pages](/aspnet/web-pages/index)

@@ -1,14 +1,14 @@
 ---
 title: Create an MSBuild project file from scratch
-description: Walk through creating an MSBuild project file from scratch to understand how the XML is organized and how you can change it to control a build.
+description: Create an MSBuild project file from scratch to understand how the XML is organized and how you can change it to control a build.
 ms.date: 09/12/2022
-ms.topic: conceptual
+ms.topic: tutorial
 helpviewer_keywords:
 - MSBuild, tutorial
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # Walkthrough: Create an MSBuild project file from scratch
 
@@ -451,7 +451,7 @@ The following example shows a project file that compiles a Visual Basic applicat
 
  Visual Studio can automatically do much of the work that is shown in this walkthrough. To learn how to use Visual Studio to create, edit, build, and test MSBuild project files, see [Walkthrough: Use MSBuild](../msbuild/walkthrough-using-msbuild.md).
 
-## See also
+## Related content
 
 - [MSBuild overview](../msbuild/msbuild.md)
 - [MSBuild reference](../msbuild/msbuild-reference.md)

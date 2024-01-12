@@ -1,8 +1,8 @@
 ---
 title: Overview for Visual Basic developers
-description: Learn about using Visual Studio to edit, debug, and build code, and then publish an app as a Visual Basic developer.
-ms.date: 10/31/2023
-ms.technology: vs-ide-general
+description: Explore how to work with Visual Studio to edit, debug, and build code, and then publish an app as a Visual Basic developer.
+ms.date: 11/17/2023
+ms.subservice: general-ide
 ms.custom: vs-acquisition
 ms.topic: conceptual
 author: anandmeg
@@ -12,8 +12,6 @@ dev_langs:
 - VB
 ---
 # Welcome to the Visual Studio IDE | Visual Basic
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 An *integrated development environment* (IDE) is a feature-rich program that supports many aspects of software development. The Visual Studio IDE is a creative launching pad that you can use to edit, debug, and build code, and then publish an app. Over and above the standard editor and debugger that most IDEs provide, Visual Studio includes compilers, code completion tools, graphical designers, and many more features to enhance the software development process.
 
@@ -303,7 +301,7 @@ Dive in and create a simple program.
 
 1. In the **Configure your new project** window, enter **HelloWorld** in the **Project name** box, optionally change the directory location for your project files (the default locale is `C:\Users\<name>\source\repos`), and then select **Next**.
 
-    :::image type="content" source="media/vs-2019/configure-new-project.png" alt-text="Screenshot of the 'Configure your new project' window in Visual Studio 2019, where you enter the name of the project.":::
+    :::image type="content" source="media/vs-2019/configure-new-project.png" alt-text="Screenshot showing the Configure your new project dialog in Visual Studio 2019 and the options to set, including the project name and project location." lightbox="media/vs-2019/configure-new-project.png":::
 
 1. In the **Additional information** window, verify that **.NET Core 3.1** appears in the **Target Framework** drop-down menu, and then select **Create**.
 
@@ -352,7 +350,7 @@ Dive in and create a simple program.
 
 1. Enter your name in the console window and press **Enter**.
 
-   ![Screenshot of the console window showing the What is your name question and the app's response.](../media/vs-2019/overview-console-input.png)
+   :::image type="content" source="../media/vs-2019/overview-console-input.png" alt-text="Screenshot of the console window showing the What is your name question and the app's response." lightbox="../media/vs-2019/overview-console-input.png" border="false":::
 
 1. Press any key to close the console window and stop the running program.
 
@@ -374,11 +372,11 @@ Dive in and create a simple program.
 
 1. In the **Configure your new project** window, enter **HelloWorld** in the **Project name** box. Optionally, change the project directory location from the default location of *C:\\Users\\\<name>\\source\\repos*, and then select **Next**.
 
-   :::image type="content" source="media/vs-2022/configure.png" alt-text="Screenshot of the Configure your new project window with the project name HelloWorld entered." border="false":::
+   :::image type="content" source="media/vs-2022/configure.png" alt-text="Screenshot of the Configure your new project window with the project name HelloWorld entered." lightbox="media/vs-2022/configure.png" border="false":::
 
 1. In the **Additional information** window, verify that **.NET 8.0** appears in the **Target Framework** drop-down menu, and then select **Create**.
 
-   :::image type="content" source="media/vs-2022/additional-information.png" alt-text="Screenshot of the Additional information window with dot NET 8.0 selected." border="false":::
+   :::image type="content" source="media/vs-2022/additional-information.png" alt-text="Screenshot of the Additional information window with dot NET 8.0 selected." lightbox="media/vs-2022/additional-information.png" border="false":::
 
    Visual Studio creates the project. The program is a simple "Hello World" application that calls the <xref:System.Console.WriteLine?displayProperty=nameWithType> method to display the string **Hello, World!** in a console window.
 
@@ -495,7 +493,8 @@ Next, use refactoring again to make the code a little more concise.
 
 1. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
 
-   ![Screenshot of the Debug Console window showing the prompt for a name, the input, and the output.](../media/vs-2019/overview-console-final.png)
+   :::image type="content" source="../media/vs-2019/overview-console-final.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output." lightbox="../media/vs-2019/overview-console-final.png" border="false":::
+
    ::: moniker-end
 
 ::: moniker range=">=vs-2022"
@@ -509,7 +508,7 @@ Next, use refactoring again to make the code a little more concise.
 
 1. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
 
-   :::image type="content" source="../media/vs-2022/overview-console-final.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output." border="false":::
+   :::image type="content" source="../media/vs-2022/overview-console-final.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output." lightbox="../media/vs-2022/overview-console-final.png" border="false":::
 ::: moniker-end
 
 ## Debug code
@@ -556,18 +555,10 @@ Once the app is running, you can apply code changes to the running app by clicki
 
 For more information about debugging in Visual Studio, see the [Debugger feature tour](../../debugger/debugger-feature-tour.md).
 
-## Next steps
+## Related content
 
-Explore Visual Studio further by following along with one of these introductory articles:
-
-> [!div class="nextstepaction"]
-> [Learn to use the code editor](tutorial-editor.md)
-
-> [!div class="nextstepaction"]
-> [Learn about projects and solutions](tutorial-projects-solutions.md)
-
-## See also
-
+- [Learn to use the code editor](tutorial-editor.md)
+- [Learn about projects and solutions](tutorial-projects-solutions.md)
 - Discover [more Visual Studio features](../../ide/advanced-feature-overview.md).
 - Visit [visualstudio.microsoft.com](https://visualstudio.microsoft.com/vs/).
 - Read the [Visual Studio blog](https://devblogs.microsoft.com/visualstudio/).

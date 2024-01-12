@@ -11,12 +11,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2019'
 ---
 # Generate source code from .NET assemblies while debugging
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you debug a .NET application, you might find that you want to view source code that you don't have. For example, breaking on an exception or using the call stack to navigate to a source location.
 

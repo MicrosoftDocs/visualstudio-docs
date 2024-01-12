@@ -1,17 +1,15 @@
 ---
-title: GitHub Actions
-description: Learn about how you can set up CI/CD deployment to Azure using GitHub Actions in Visual Studio
+title: Use GitHub Actions to build, test, and deploy apps
+description: Set up continuous integration and continuous delivery (CI/CD) deployment to Azure by using GitHub Actions in Visual Studio in Windows.
 author: ghogen
 manager: jmartens
-ms.technology: vs-azure
+ms.subservice: azure-development
 ms.topic: overview
 ms.date: 08/17/2023
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
 # GitHub Actions deployment to Azure in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [GitHub Actions](https://github.com/features/actions) is the Continuous Integration / Continuous Delivery (CI/CD) solution offered by GitHub. You can host your code for free on GitHub.com and you can use GitHub Actions to automatically build, test and deploy your application when code changes are made.
 

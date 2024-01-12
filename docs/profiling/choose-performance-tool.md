@@ -1,6 +1,6 @@
 ---
 title: "Which performance tool should I use?"
-description: "Learn how to choose a performance tool in Visual Studio."
+description: Explore profiling tools in Visual Studio that can help you diagnose different kinds of application performance issues and find the right tool for your scenario.
 ms.date: 04/24/2023
 ms.topic: conceptual
 dev_langs:
@@ -12,11 +12,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Which performance tool should I use? (C#, Visual Basic, C++, F#)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio provides a variety of profiling tools to help you diagnose different kinds of app performance issues depending on your app type. In this article, we provide information to help you find the right tool for your scenario and application type. For a general approach to optimizing code using the profiling tools, see [Reduce compute costs by using profiling tools](../profiling/optimize-code-using-profiling-tools.md).
 
@@ -26,7 +24,7 @@ The following table lists the different tools Visual Studio offers and provides 
 
 |Performance Tool|Description|When to use the tool?|
 |----------------------|---------------------|-------------|-------------|
-|[CPU Usage](../profiling/beginners-guide-to-performance-profiling.md)|Shows where the CPU is spending time.|&#x2022; Begin an investigation for general performance issues.</br>&#x2022; Investigate high Server CPU usage.</br>&#x2022; Investigate DevOps scenarios, such as when orders are not getting through to the retail website.</br>&#x2022; Optimize CPU usage.</br>&#x2022; Investigate latency in API calls.|
+|[CPU Usage](../profiling/beginners-guide-to-performance-profiling.md)|Shows where the CPU is spending time.|&#x2022; Begin an investigation for general performance issues.</br>&#x2022; Investigate high server CPU usage.</br>&#x2022; Investigate DevOps scenarios, such as when orders are not getting through to the retail website.</br>&#x2022; Optimize CPU usage.</br>&#x2022; Investigate latency in API calls.|
 |[Flame graph](../profiling/flame-graph.md)|View within the CPU Usage tool that provides an alternate visualization of the call tree.|Investigate latency in API calls|
 |[Hot path](../profiling/cpu-insights.md)|View within the CPU Usage tool that shows where most of the CPU time was spent in your application.|Investigate latency in API calls|
 |[PerfTips](../profiling/perftips.md)|Shows a quick measurement of performance information while interacting with your code.|While debugging, you want to see the elapsed time between the previous step operation (or breakpoint) to the current step or breakpoint.|
@@ -72,7 +70,7 @@ The following tools are supported with Linux as the target platform as well as W
 - Events Viewer
 - Database
 
-## See also
+## Related content
 
 - [Profiling feature tour](../profiling/choose-performance-tool.md)
 - [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)

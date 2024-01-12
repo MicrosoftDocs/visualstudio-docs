@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Walkthrough: Create a custom editor
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The VSPackage project template can create a simple custom editor in C++. The VSPackage project template no longer supports C# or Visual Basic projects. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
 
 ## Prerequisites
@@ -41,5 +40,5 @@ The VSPackage project template can create a simple custom editor in C++. The VSP
 
      The editor supports cut-and-paste, find-and-replace, and open-and-load operations.
 
-## See also
+## Related content
 - [VSPackages](../extensibility/internals/vspackages.md)

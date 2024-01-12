@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Specifying File Handlers for File Name Extensions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 There are a number of ways to determine the application that handles a file which has a particular file extension. The OpenWithList and OpenWithProgids verbs are two ways to specify file handlers under the registry entry for the file extension.
 
 ## OpenWithList Verb
@@ -72,6 +71,6 @@ HKEY_CLASSES_ROOT\
 
  If the old ProgID has verbs associated with it, then these verbs will also appear under **Open With** *Product Name* in the shortcut menu.
 
-## See also
+## Related content
 - [About File Name Extensions](../extensibility/about-file-name-extensions.md)
 - [Registering Verbs for File Name Extensions](../extensibility/registering-verbs-for-file-name-extensions.md)

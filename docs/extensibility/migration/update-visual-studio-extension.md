@@ -1,18 +1,16 @@
 ---
 title: Update a Visual Studio extension
-description: Learn how to update your Visual Studio extension to work with Visual Studio 2022.
+description: Update your Visual Studio extension for .NET or C++ to work with Visual Studio 2022, including running code in extensions and shared projects for multi-targeting.
 ms.date: 06/08/2021
 ms.topic: conceptual
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 monikerRange: "vs-2022"
 feedback_system: GitHub
 ---
 # Update a Visual Studio extension for Visual Studio 2022
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 > [!IMPORTANT]
 > The advice in this article can guide developers in migrating extensions that require major changes to work in both Visual Studio 2019 and Visual Studio 2022. In those cases, we recommend that you have two VSIX projects and conditional compilation.
@@ -339,6 +337,6 @@ This code will prevent package references from importing the old version of the 
 
 **A**: [Step 2.4](samples.md#step-2---refactor-source-code-into-a-shared-project) of the Image Optimizer sample shows how to add VSCT files as linked items so that they're compiled into your VSCT file.
 
-## Next steps
+## Related content
 
 Follow a step-by-step example, [ImageOptimizer](samples.md), with links to the project and code changes for each step.

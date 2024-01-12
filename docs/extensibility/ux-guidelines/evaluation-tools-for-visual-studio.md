@@ -6,14 +6,12 @@ ms.topic: reference
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Evaluation Tools for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## Craftsmanship checklist for Visual Studio
  Use this checklist to evaluate user experience quality for visual and interaction details.
-
 
 
 - Verify that all commands result in feedback that tells users that their commands have been carried out.

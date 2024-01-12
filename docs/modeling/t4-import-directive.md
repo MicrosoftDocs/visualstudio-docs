@@ -6,11 +6,9 @@ ms.topic: reference
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 ---
 # T4 Import Directive
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In the code blocks of a Visual Studio T4 text template, the `import` directive allows you to refer to elements in another namespace without providing a fully qualified name. It is the equivalent of `using` in C# or `imports` in Visual Basic.
 

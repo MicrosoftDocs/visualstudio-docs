@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Exception handling (Visual Studio SDK)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following describes the process that occurs when exceptions are thrown.
 
 ## Exception handling process
@@ -43,5 +42,5 @@ The following describes the process that occurs when exceptions are thrown.
 
 10. If the method returns S_OK, calls `IDebugExceptionEvent2::PassToDebuggee`.
 
-## See also
+## Related content
 - [Call debugger events](../../extensibility/debugger/calling-debugger-events.md)

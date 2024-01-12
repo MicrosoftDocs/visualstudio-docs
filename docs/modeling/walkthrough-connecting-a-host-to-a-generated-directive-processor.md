@@ -9,14 +9,12 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 dev_langs:
 - CSharp
 - VB
 ---
 # Walkthrough: Connect a Host to a Generated Directive Processor
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can write your own host that processes text templates. A basic custom host is demonstrated in [Walkthrough: Creating a Custom Text Template Host](../modeling/walkthrough-creating-a-custom-text-template-host.md). You could extend that host to add functions such as generating multiple output files.
 
@@ -362,6 +360,6 @@ To test the custom text template host, first you must write a text template that
     Linked from: ExampleElement1
     ```
 
-## See also
+## Related content
 
 - [Walkthrough: Creating a Custom Text Template Host](../modeling/walkthrough-creating-a-custom-text-template-host.md)

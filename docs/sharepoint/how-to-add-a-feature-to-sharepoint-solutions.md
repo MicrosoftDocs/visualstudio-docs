@@ -11,16 +11,15 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
+ms.subservice: sharepoint-development
 ---
 # Add a feature to SharePoint solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When you create a SharePoint solution, one Feature and one Package are added to the solution. You can add more Feature items to organize different types of SharePoint files.
 
 ### To add a feature through Solution Explorer
 
 1. In **Solution Explorer**, open the shortcut menu for **Features**, and then choose **Add Feature**.
 
-## See also
+## Related content
 - [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

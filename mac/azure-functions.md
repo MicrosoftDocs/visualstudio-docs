@@ -5,7 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 04/02/2021
-ms.technology: vs-ide-install
+ms.subservice: install
 ms.topic: how-to
 ---
 # Introduction to Azure Functions in Visual Studio for Mac
@@ -39,7 +39,7 @@ To create and deploy functions you also need an Azure subscription. If you don't
 
     ![New Project dialog showing additional option](media/azure-functions-image3.png)
 
-    For more information on the different types of Azure Functions templates and the binding properties required to configure each template, see the [Available function templates](#available-function-templates) section. For this example, we're using a Http trigger with access rights set to anonymous.
+    For more information on the different types of Azure Functions templates and the binding properties required to configure each template, see the [Available function templates](#available-function-templates) section. For this example, we're using an Http trigger with access rights set to anonymous.
 
 4. Once you've set the parameters, choose the location for the project and click **Create**.
 

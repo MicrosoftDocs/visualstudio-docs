@@ -7,7 +7,6 @@ helpviewer_keywords:
 author: heiligerdankgesang 
 ms.author: dominicn
 manager: dominicn
-ms.prod: visual-studio-mac
 ms.custom: video
 ms.topic: how-to
 ---

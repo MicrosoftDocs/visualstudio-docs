@@ -1,16 +1,14 @@
 ---
 title: Run unit tests with Test Explorer
-description: Learn how to run tests with Test Explorer in Visual Studio. This topic covers how to enable automatic test runs after build, view test results, group and filter the test list, create playlists, and use test shortcuts.
+description: Run tests with Test Explorer in Visual Studio, enable automatic tests after build, view results, group and filter the test list, create playlists, and use shortcuts.
 ms.date: 12/13/2022
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 ---
 # Run unit tests with Test Explorer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use Test Explorer to run unit tests from Visual Studio or third-party unit test projects. You can also use Test Explorer to group tests into categories, filter the test list, and create, save, and run playlists of tests. You can also use Test Explorer to [debug unit tests](../test/debug-unit-tests-with-test-explorer.md) and, in Visual Studio Enterprise, to [analyze code coverage](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
 
@@ -371,7 +369,7 @@ Test Explorer can play a sound when a test run completes. There are two sounds: 
 3. Find the **Microsoft Visual Studio** category. Choose the **Test Run Succeeded** or **Test Run Failed** sounds to select the preset sounds or browse to your own audio file.  
 ![Windows 11 sound dialog](../test/media/default-windows-11-sound-dialog.png)
 
-## See also
+## Related content
 
 - [Unit test your code](../test/unit-test-your-code.md)
 - [Debug unit tests with Test Explorer](../test/debug-unit-tests-with-test-explorer.md)

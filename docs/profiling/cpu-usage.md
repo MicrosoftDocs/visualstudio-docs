@@ -6,11 +6,9 @@ ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Analyze CPU usage without debugging in the Performance Profiler (C#, Visual Basic, C++, F#)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A good way to start investigating performance issues in your app is to understand its CPU usage. The **CPU Usage** performance tool shows the CPU time and percentage spent executing code in C++, C#/Visual Basic.
 
@@ -229,7 +227,7 @@ If you want to view call counts in the Functions view, you can enable the settin
 
 ::: moniker-end
 
-## See also
+## Related content
 
 - [Troubleshoot Profiler errors](../profiling/troubleshoot-profiler-errors.md)
 - [Identify hot paths with Flame Graph](../profiling/flame-graph.md)

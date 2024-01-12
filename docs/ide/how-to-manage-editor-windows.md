@@ -1,5 +1,5 @@
 ---
-title: 'Manage editor windows'
+title: Split editor windows and manage multiple windows
 description: Learn how to split windows and open several windows at once so you can display your code in the way that works best for you.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -11,11 +11,9 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Manage editor windows
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can work on code in several locations at once. Do this by splitting an editor window, or by opening several instances of editor windows.
 
@@ -49,7 +47,7 @@ You can also create multiple instances of an editor window. This feature allows 
 
    A new tabbed instance of the editor is added.
 
-## See also
+## Related content
 
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
 - [Customize window layouts](../ide/customizing-window-layouts-in-visual-studio.md)

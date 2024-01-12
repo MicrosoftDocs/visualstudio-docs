@@ -9,11 +9,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Checklist: Create new project types
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You must complete several tasks to create a new project type. The following checklist provides a guide to those tasks:
 
 1. Design the functionality for your new project type. For more information, see [Project type design decisions](../../extensibility/internals/project-type-design-decisions.md).
@@ -52,7 +51,7 @@ You must complete several tasks to create a new project type. The following chec
 
 8. Create the Microsoft Installer (*.msi*) file for installing your VSPackages. For more information, see [Install VSPackages with Windows Installer](../../extensibility/internals/installing-vspackages-with-windows-installer.md), [Register a project type](../../extensibility/internals/registering-a-project-type.md), and [VSPackages](../../extensibility/internals/vspackages.md).
 
-## See also
+## Related content
 - [Hierarchies in Visual Studio](../../extensibility/internals/hierarchies-in-visual-studio.md)
 - [When to create project types](../../extensibility/internals/when-to-create-project-types.md)
 - [Create project types](../../extensibility/internals/creating-project-types.md)

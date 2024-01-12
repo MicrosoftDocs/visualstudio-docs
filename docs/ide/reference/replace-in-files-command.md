@@ -12,11 +12,10 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Replace In Files Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Replaces text in files using a subset of the options available on the **Replace in Files** tab of the **Find and Replace** window.
 
 ## Syntax

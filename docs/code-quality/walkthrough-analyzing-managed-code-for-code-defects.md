@@ -9,11 +9,9 @@ helpviewer_keywords:
 author: mikadumont
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-code-analysis
+ms.subservice: code-analysis
 ---
 # Walkthrough: Use static code analysis to find code defects
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this walkthrough, you'll analyze a managed project for code defects by using legacy code analysis.
 
@@ -154,6 +152,6 @@ This article steps you through the process of using legacy analysis to analyze y
 
      The project builds without any warnings or errors.
 
-## See also
+## Related content
 
 [Code analysis for managed code](../code-quality/code-analysis-for-managed-code-overview.md)

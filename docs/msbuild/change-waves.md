@@ -2,14 +2,14 @@
 title: Change waves
 description: Learn how to enable or disable features in MSBuild that are potentially disruptive.
 ms.date: 11/01/2023
-ms.topic: conceptual
+ms.topic: whats-new
 helpviewer_keywords:
 - Change waves [MSBuild]
 - MSBuildDisableFeaturesFromVersion environment variable
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # Change waves
 
@@ -108,7 +108,7 @@ There are scenarios where we want to place a feature under a change wave before 
 
 Opt-out is a better approach for us, otherwise we'd likely get limited feedback when a feature impacts customer builds.
 
-## See also
+## Related content
 
 - [MSBuild](msbuild.md)
 - [What's new in MSBuild 16](whats-new-msbuild-16-0.md)

@@ -3,7 +3,7 @@ title: JavaScript and TypeScript in Visual Studio
 description: Learn how Visual Studio provides rich support for JavaScript development, both using JavaScript directly, and also using the TypeScript programming language.
 titleSuffix: ""
 ms.date: "06/05/2023"
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 ms.topic: conceptual
 dev_langs:
   - "JavaScript"
@@ -14,8 +14,6 @@ ms.author: "mikejo"
 manager: jmartens
 ---
 # JavaScript and TypeScript in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ::: moniker range=">=vs-2022"
 Visual Studio 2022 provides rich support for JavaScript development, both using JavaScript directly, and also using the [TypeScript programming language](https://www.typescriptlang.org/), which was developed to provide a more productive and enjoyable JavaScript development experience, especially when developing projects at scale. You can write JavaScript or TypeScript code in Visual Studio for many application types and services.

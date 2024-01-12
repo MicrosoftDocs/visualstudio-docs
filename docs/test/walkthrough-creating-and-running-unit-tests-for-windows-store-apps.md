@@ -10,12 +10,10 @@ helpviewer_keywords:
 - unit tests, running
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Walkthrough: Create and run unit tests for UWP apps
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article describes how to unit test Universal Windows Platform (UWP) apps in Visual Studio. Visual Studio offers UWP unit test project templates for C#, Visual Basic, and C++. For more information about developing UWP apps, see [Get started with UWP apps](/windows/uwp/get-started/).
 
@@ -176,7 +174,6 @@ The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert> class provides se
 1. In **Test Explorer**, select **Run All Tests**.
 
 1. The test project builds and runs, and the test appears under **Passed Tests**. The **Group Summary** pane on the right provides details about the test.
-
 
 ### Add a class to the app project
 

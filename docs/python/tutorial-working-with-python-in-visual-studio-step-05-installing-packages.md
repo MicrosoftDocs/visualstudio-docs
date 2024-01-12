@@ -1,17 +1,15 @@
 ---
 title: Python in Visual Studio tutorial step 5, install packages
 titleSuffix: ""
-description: Step 5 of a core walkthrough of Python capabilities in Visual Studio. Demonstrates Visual Studio features on how to manage and install packages in a Python environment.
+description: Step 5 of a core walkthrough of Python capabilities in Visual Studio that shows Visual Studio features to manage and install packages in a Python environment.
 ms.date: 10/21/2022
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
+ms.subservice: python
 ---
 # Step 5: Install packages in your Python environment
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Previous step: [Run code in the debugger](tutorial-working-with-python-in-visual-studio-step-04-debugging.md)**
 

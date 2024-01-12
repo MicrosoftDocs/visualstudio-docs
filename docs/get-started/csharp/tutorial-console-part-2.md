@@ -1,10 +1,10 @@
 ---
 title: "Tutorial 2: Extend your C# console app"
-description: "Learn how to develop a C# console app in Visual Studio, step-by-step."
+description: Extend a C# console application in Visual Studio, including debugging features, managing multiple projects, and referencing third-party packages.
 ms.custom: vs-acquisition
 ms.date: 10/31/2023
-ms.technology: vs-ide-general
-ms.prod: visual-studio-windows
+ms.subservice: general-ide
+
 ms.topic: tutorial
 ms.devlang: CSharp
 author: anandmeg
@@ -15,8 +15,6 @@ dev_langs:
   - CSharp
 ---
 # Tutorial: Extend C# console app and debug in Visual Studio (part 2 of 2)
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In part 2 of this tutorial series, you dive a little deeper into the Visual Studio build and debug features you need for daily development. These features include managing multiple projects, debugging, and referencing third-party packages. You run the C# console app you created in [Part 1 of this tutorial](tutorial-console.md), and explore some features of the Visual Studio integrated development environment (IDE). This tutorial is part 2 of a two-part tutorial series.
 

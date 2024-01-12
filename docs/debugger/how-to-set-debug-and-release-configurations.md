@@ -29,11 +29,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Set debug and release configurations in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio projects have separate release and debug configurations for your program. You build the debug version for debugging and the release version for the final release distribution.
 
@@ -43,7 +41,7 @@ The release configuration of your program has no symbolic debug information and 
 
 For more information about build configurations, see [Understand build configurations](../ide/understanding-build-configurations.md).
 
-You can change the build configuration from the **Build** menu, from the toolbar, or in the project's property pages. Project property pages are language-specific. The procedure below shows how to change the build configuration from the menu and the toolbar. For more information about how to change the build configuration in projects in different languages, see the [See also](#see-also) section below.
+You can change the build configuration from the **Build** menu, from the toolbar, or in the project's property pages. Project property pages are language-specific. The procedure below shows how to change the build configuration from the menu and the toolbar. For more information about how to change the build configuration in projects in different languages, see the [Related content](#related-content) section below.
 
 ## Change the build configuration
 
@@ -132,7 +130,7 @@ For detailed information on project settings for debug configurations in C# or V
 
    The compiler creates the symbol file(s) in the same folder as the executable or the main output file.
 
-## <a name="see-also"></a>See also
+## <a name="related-content"></a>Related content
 
 - [Specify symbol (.pdb) files and source files in the Visual Studio debugger](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)<br/>
 - [Debugger settings and preparation](../debugger/debugger-settings-and-preparation.md)<br/>

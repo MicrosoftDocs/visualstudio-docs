@@ -12,11 +12,9 @@ helpviewer_keywords:
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Walkthrough: Test-first development with the Generate From Usage feature
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This topic demonstrates how to use the [Generate From Usage](../ide/visual-csharp-intellisense.md#generate-from-usage) feature, which supports test-first development.
 
@@ -167,7 +165,7 @@ Assume that the specification states that a new `Automobile` can be put into a `
 
      ![Test results that passed](../ide/media/testspassed.png)
 
-## See also
+## Related content
 
 - [Generate from usage](../ide/visual-csharp-intellisense.md#generate-from-usage)
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)

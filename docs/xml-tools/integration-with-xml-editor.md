@@ -6,11 +6,9 @@ ms.topic: conceptual
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.technology: vs-xml-tools
+ms.subservice: xml-tools
 ---
 # Integration with XML editor
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The XML Schema Designer is integrated with the XML editor. If you modify an XSD file in the XML editor, the change will be reflected in the [XML Schema Explorer](../xml-tools/xml-schema-explorer.md). If you have the [Graph View](../xml-tools/graph-view.md) or the [Content Model View](../xml-tools/content-model-view.md) open, the change will also be reflected there. You can navigate between the XML Schema Designer and the XML editor in the following ways:
 
@@ -26,6 +24,6 @@ Sometimes it is helpful to see the code in the XML editor and the graphical desi
 
 ![Screenshot of a Visual Studio project showing the View Designer pane, the XML Editor pane, and the XML Schema Explorer pane.](../xml-tools/media/xsddesignerwithxmleditorandcmv.gif)
 
-## See also
+## Related content
 
 - [XML Schema Explorer](../xml-tools/xml-schema-explorer.md)

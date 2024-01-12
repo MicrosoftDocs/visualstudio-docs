@@ -21,11 +21,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Security, versioning, and manifest issues in ClickOnce deployments
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 There are a variety of issues with ClickOnce security, application versioning, and manifest syntax and semantics that can cause a ClickOnce deployment not to succeed.
 
@@ -35,7 +33,7 @@ In Windows Vista, applications by default run as a standard user, even if the cu
 
 Due to the risk of exposing applications to security elevation attacks, ClickOnce applications cannot request permission elevation if UAC is enabled for the client. Any ClickOnce application that attempts to set its `requestedExecutionLevel` attribute to `requireAdministrator` or `highestAvailable` will not install on Windows Vista.
 
-In some cases, your ClickOnce application may attempt to run with administrator permissions because of installer detection logic on Windows Vista. In this case, you can set the `requestedExecutionLevel` attribute in the application manifest to `asInvoker`. This will cause the application itself to run without elevation. Visual Studio 2008 automatically adds this attribute to all application manifests.
+In some cases, your ClickOnce application may attempt to run with administrator permissions because of installer detection logic on Windows. In this case, you can set the `requestedExecutionLevel` attribute in the application manifest to `asInvoker`. This will cause the application itself to run without elevation. Visual Studio automatically adds this attribute to all application manifests.
 
 If you are developing an application that requires administrator permissions for the entire lifetime of the application, you should consider deploying the application by using Windows Installer (MSI) technology instead. For more information, see [Windows Installer basics](../extensibility/internals/windows-installer-basics.md).
 
@@ -90,7 +88,7 @@ If you want to move or copy an application, you must also update the `deployment
 > [!NOTE]
 > Every time that you update the manifest you must also sign it again.
 
-## See also
+## Related content
 
 [Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)
 [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)

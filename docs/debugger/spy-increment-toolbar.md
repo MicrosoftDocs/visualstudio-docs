@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Spy++ Toolbar
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The toolbar appears under the menu bar in Spy++. To display or hide the toolbar, on the **View** menu, click **Toolbar**.
 
  The following controls are available on the toolbar.
@@ -36,7 +35,7 @@ The toolbar appears under the menu bar in Spy++. To display or hide the toolbar,
 |![Spy&#43;&#43; Property Explorer Button](../debugger/media/icon_spy--_propexp.gif "Icon_Spy++_PropExp")|Displays the properties of the window that is selected in the Windows view.|
 |![Spy&#43;&#43; Refresh Button](../debugger/media/icon_spy--_refresh.gif "Icon_Spy++_Refresh")|Refreshes the system views.|
 
-## See also
+## Related content
 - [Using Spy++](../debugger/using-spy-increment.md)
 - [Spy++ Views](../debugger/spy-increment-views.md)
 - [Spy++ Reference](../debugger/spy-increment-reference.md)

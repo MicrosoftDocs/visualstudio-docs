@@ -6,12 +6,11 @@ ms.topic: how-to
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 ---
 
 # Share classes between DSLs
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In the Visual Studio Visualization and Modeling SDK, you can create an incomplete DSL Definition that you can import into another DSL. This approach lets you factor common parts of similar models.
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
@@ -52,6 +51,6 @@ In the Visual Studio Visualization and Modeling SDK, you can create an incomplet
 
 6. Build the solution.
 
-## See also
+## Related content
 
 - [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)

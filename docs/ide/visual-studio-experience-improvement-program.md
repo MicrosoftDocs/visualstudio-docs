@@ -1,16 +1,14 @@
 ---
 title: Customer Experience Improvement Program
-description: "Find out how to manage privacy settings in Visual Studio, and learn about Visual Studio system-generated logs, the types of data that's collected, and how it's used to fix problems and improve product quality."
+description: Manage privacy settings in Visual Studio, and explore system-generated logs, types of collected data, and how to fix problems and improve product quality.
 ms.date: 10/28/2021
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Visual Studio Customer Experience Improvement Program
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio Customer Experience Improvement Program (VSCEIP) is designed to help Microsoft improve Visual Studio over time. This program [collects information about errors](../ide/visual-studio-experience-improvement-program.md#types-of-collected-data), computer hardware, and how people use Visual Studio, without interrupting users in their tasks at the computer. The information that's collected helps Microsoft identify which features to improve. This document covers how to [opt in or out](../ide/visual-studio-experience-improvement-program.md#opt-in-or-out) of the VSCEIP, and provides some information about the types of data we collect and how we use it. It also provides tips on how extension authors can avoid inadvertent disclosure of personal or sensitive information.
 
@@ -119,7 +117,7 @@ Engineers use the information available in a work item to determine the root cau
 
 Extension authors should limit exposure of personal information by not using personal or other sensitive information in the names of their modules, types, and methods. If a crash or similar error condition occurs with that code on the stack, that information gets collected as part of the system-generated logs.
 
-## See also
+## Related content
 
 * [How to report a problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio.md)
 * [Visual Studio Developer Community](https://developercommunity.visualstudio.com/home)

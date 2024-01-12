@@ -1,8 +1,8 @@
 ---
 title: MSBuild Special Characters
-description: Learn about the MSBuild reserved characters for special use in specific contexts, and when and how to escape these characters.
+description: Review the MSBuild characters that are reserved for special use in specific contexts, and when and how to escape these characters.
 ms.date: 06/12/2019
-ms.topic: conceptual
+ms.topic: language-reference
 helpviewer_keywords:
 - escape characters
 - escape
@@ -10,7 +10,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # MSBuild special characters
 
@@ -34,6 +34,6 @@ MSBuild reserves some characters for special use in specific contexts. You only 
 |?|%3F|Wildcard character for file names in `Include` and `Exclude` attributes|
 |*|%2A|Wildcard character for use in file names in `Include` and `Exclude` attributes|
 
-## See also
+## Related content
 
 - [Items](../msbuild/msbuild-items.md)

@@ -9,11 +9,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Configuration options overview
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Projects in Visual Studio can support multiple configurations that can be built, debugged, run, and/or deployed. A configuration is a build type described with a named set of properties, typically compiler switches and file locations. By default, new solutions contain two configurations, *Debug* and *Release*. These configurations can be applied using their default settings, or modified to meet your specific solution and/or project requirements. Some packages can be built in two ways: as an ActiveX editor or as an in-place component. Projects do not need to support multiple configurations, however. If there is only one configuration available, that configuration is mapped into all of the solution configurations.
 
  Configurations typically consist of two parts: the configuration name (such as *Debug* or *Release*) and the platform settings. A configuration's platform name identifies the environment that the configuration targets, such as an API set or operating system platform. Users of Visual Studio cannot create a platform; they must choose from the selections a project VSPackage allows. When a user installs a VSPackage, the delivery platform created during development of the package can surface any platform name desired based on any criteria set by the package creator. The user can then select from the list of platforms made available through the VSPackage when the property pages are instantiated.
@@ -64,7 +63,7 @@ Configuration interfaces
 
   For more information on the configuration object interfaces and configuration provider object interfaces in the previous diagram, see [Project configuration object](../../extensibility/internals/project-configuration-object.md). In addition, [Project configuration for building](../../extensibility/internals/project-configuration-for-building.md) provides more information on the Configuration builder and build dependency object interfaces, and [Project configuration for managing deployment](../../extensibility/internals/project-configuration-for-managing-deployment.md) further describes the interfaces attached to the configuration deployer and deployment dependency objects. Finally, [Project configuration for output](../../extensibility/internals/project-configuration-for-output.md) describes the output group and output object interfaces, and the use of property pages to view and set configuration-dependent properties.
 
-## See also
+## Related content
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsCfgProvider2>
 - [Project configuration for building](../../extensibility/internals/project-configuration-for-building.md)
 - [Solution configuration](../../extensibility/internals/solution-configuration.md)

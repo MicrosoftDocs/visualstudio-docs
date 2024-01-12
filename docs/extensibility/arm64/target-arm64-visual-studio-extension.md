@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: ankitvarmait
 ms.author: anva
 manager: tinali
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 monikerRange: ">=vs-2022"
 feedback_system: GitHub
 ---
@@ -75,7 +75,6 @@ Add Visual Studio 2022:ARM64 support to your extension by using the following st
 
 At this point, you have a Visual Studio 2022-targeted extension VSIX. You should build your Visual Studio 2022-targeted VSIX project.
 
-
 ### Set the `<InstallationTarget>` tag to indicate Visual Studio 2022 using the Designer view
    ![Screenshot that shows adding InstallationTarget.](samples/add-arm64-target.png)   
 
@@ -126,5 +125,5 @@ At this point, you have a Visual Studio 2022-targeted extension VSIX. You should
       
       ![Screenshot that shows adding arm64 lib path](samples/add-arm64-library.png)   
 
-## See also
+## Related content
 - [Update a Visual Studio extension for Visual Studio 2022](../../extensibility/migration/update-visual-studio-extension.md)

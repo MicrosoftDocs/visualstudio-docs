@@ -9,11 +9,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Author a Windows Installer package
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Data drives the Windows Installer model. Rather than writing a procedural script to copy files and write registry entries, for example, you author rows and columns in database tables that contain file and registry data.
 
 ## Database entries
@@ -44,5 +43,5 @@ A variety of third-party setup tools provide a development environment for Windo
 
    For commercial products that integrate into Visual Studio by using the Visual Studio SDK, see [Visual Studio Marketplace](https://marketplace.visualstudio.com/).
 
-## See also
+## Related content
 - [Install VSPackages With Windows Installer](../../extensibility/internals/installing-vspackages-with-windows-installer.md)

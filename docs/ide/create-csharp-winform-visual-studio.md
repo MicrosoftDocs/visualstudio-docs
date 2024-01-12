@@ -1,6 +1,6 @@
 ---
 title: "Create a Windows Forms app with C#"
-description: "Learn how to create a Windows Forms app in Visual Studio with C#, step-by-step."
+description: Create a Windows Forms app in Visual Studio with C#, add button controls to the form, and run the code to test your application.
 ms.custom: vs-acquisition
 ms.date: 1/24/2023
 ms.topic: tutorial
@@ -8,13 +8,11 @@ ms.devlang: CSharp
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 dev_langs:
   - CSharp
 ---
 # Create a Windows Forms app in Visual Studio with C\#
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this tutorial, you'll create a simple C# application that has a Windows-based user interface (UI).
 

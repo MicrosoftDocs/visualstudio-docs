@@ -11,11 +11,9 @@ helpviewer_keywords:
 author: mikadumont
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-code-analysis
+ms.subservice: code-analysis
 ---
 # Configure live code analysis for .NET
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio analyzes code while you're editing source files in the editor. This is referred to as *background analysis*. Some of it is required minimal analysis for an acceptable Visual Studio IDE editing experience. Some of it is for improved responsiveness for IDE features. While some of it is to enable additional IDE functionality, such as diagnostics and code fixes from Roslyn analyzers. Based on the functionality, these analyses can be grouped as follows:
 
@@ -95,7 +93,7 @@ If Visual Studio detects that 200 MB or less of system memory is available to it
 
 ![Alert text minimizing analysis scope](./media/fsa_alert.png)
 
-## See also
+## Related content
 
 - [Automatic feature suspension](./automatic-feature-suspension.md)
 - [Power save mode feature request](https://github.com/dotnet/roslyn/issues/38429)

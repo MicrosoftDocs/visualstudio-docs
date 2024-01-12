@@ -2,12 +2,12 @@
 title: "Configure Bridge to Kubernetes"
 ms.date: 08/11/2022
 ms.topic: "conceptual"
-description: "Describes the additional configuration options for Bridge to Kubernetes"
+description: Configure Bridge to Kubernetes to ignore port mapping on a Kubernetes service or replicate environment variables and mounted files for pods in a cluster.
 keywords: "Bridge to Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, Kubernetes, Azure, containers"
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: bridge
+ms.subservice: bridge
 ---
 
 # Configure Bridge to Kubernetes

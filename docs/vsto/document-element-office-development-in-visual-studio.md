@@ -14,11 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # &lt;document&gt; element (Office development in Visual Studio)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The `document` element of the `vstov4` namespace stores customization-specific information for document-level customizations.
 
 ## Syntax
@@ -48,7 +47,7 @@ ms.technology: office-development
   solutionId="73e" />
 ```
 
-## See also
+## Related content
 
 - [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md)
 - [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md)

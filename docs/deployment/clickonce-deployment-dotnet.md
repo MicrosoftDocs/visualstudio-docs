@@ -1,6 +1,6 @@
 ---
 title: ClickOnce for .NET 5 and later on Windows
-description: "Learn about differences between ClickOnce for .NET Core 3.1, .NET 5 and later versus ClickOnce for .NET Framework."
+description: Discover the differences between ClickOnce for .NET Core 3.1 and .NET 5 and later versions, versus ClickOnce for .NET Framework.
 ms.date: 09/06/2023
 ms.topic: how-to
 helpviewer_keywords:
@@ -8,12 +8,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 monikerRange: '>= vs-2019'
 ---
 # ClickOnce for .NET on Windows
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article describes the differences between ClickOnce for .NET Core 3.1, .NET 5, and later, versus ClickOnce for .NET Framework.
 

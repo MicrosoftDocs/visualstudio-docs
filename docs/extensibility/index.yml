@@ -5,14 +5,14 @@ summary: Learn about Visual Studio extensibility.
 
 metadata:
   title: Visual Studio Extensibility
-  description: Learn how to extend Visual Studio.
+  description: Explore extensibility options in Visual Studio, including the Visual Studio SDK, how to write extensions, menu commands, tools, and the Language Server Protocol.
   ms.topic: landing-page
   ms.date: 02/24/2020
   author: madskristensen
   ms.author: madsk  
   manager: jmartens
-  ms.prod: visual-studio-windows
-  ms.technology: vs-ide-general  
+  
+  ms.subservice: general-ide  
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
 

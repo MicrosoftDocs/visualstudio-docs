@@ -2,7 +2,7 @@
 title: Description Element (Visual Studio Templates)
 description: Learn about the Description element and how it specifies the description of the template as it appears in either the New Project or Add New Item dialog box.
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 helpviewer_keywords:
 - Description element [Visual Studio project templates]
@@ -12,7 +12,6 @@ manager: jmartens
 ---
 # Description element (Visual Studio templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the description of the template as it appears in either the **New Project** or **Add New Item** dialog box.
 
  \<VSTemplate>

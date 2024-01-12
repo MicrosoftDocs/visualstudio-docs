@@ -1,6 +1,6 @@
 ---
 title: "Measure performance from the command line"
-description: "Measure CPU performance and managed memory usage in your application from the command line."
+description: Measure your application performance from the command line, and gather performance data for CPU usage, .NET memory allocation, instrumentation, and database queries.
 ms.date: 09/06/2023
 ms.topic: conceptual
 helpviewer_keywords: 
@@ -10,12 +10,10 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2019'
 ---
 # Measure application performance from the command line
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can collect performance information about an application by using command-line tools. You can collect performance data for CPU Usage, .NET memory allocation, instrumentation, and database queries.
 

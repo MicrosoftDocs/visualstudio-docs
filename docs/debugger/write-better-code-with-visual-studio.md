@@ -1,6 +1,6 @@
 ---
 title: Debugging techniques and tools
-description: "Write better code with fewer bugs by using Visual Studio to fix exceptions, fix errors, and improve your code"
+description: Write better code with fewer bugs by using Visual Studio to fix exceptions and resolve errors, and make improvements to your code.
 ms.date: "10/24/2023"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -8,11 +8,9 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Debugging techniques and tools to help you write better code
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Fixing bugs and errors in your code can be a time-consuming and sometimes frustrating task. It takes time to learn how to debug effectively. A powerful IDE like Visual Studio can make your job a lot easier. An IDE can help you fix errors and debug your code more quickly, and help you write better code with fewer bugs. This article provides a holistic view of the "bug-fixing" process, so you can know when to use the code analyzer, when to use the debugger, how to fix exceptions, and how to code for intent. If you already know that you need to use the debugger, see [First look at the debugger](../debugger/debugger-feature-tour.md).
 
@@ -410,7 +408,7 @@ To learn how to use the essential features of the debugger, see [Debugging for a
 
 Bugs of another kind include inefficient code that causes your app to run slowly or to use too much memory. Generally, optimizing performance is something you do later in your app development. However, you can run into performance issues early (for example, you see that some part of your app is running slow), and you might need to test your app with the profiling tools early on. For more information about profiling tools such as the CPU Usage tool and the Memory Analyzer, see [First look at the profiling tools](../profiling/profiling-feature-tour.md).
 
-## Next steps
+## Related content
 
 In this article, you've learned how to avoid and fix many common bugs in your code and when to use the debugger. Next, learn more about using the Visual Studio debugger to fix bugs.
 

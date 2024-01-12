@@ -1,6 +1,6 @@
 ---
 title: Access ClickOnce deployment properties for .NET
-description: "Learn how to access ClickOnce deployment properties for .NET Core 3.1, .NET 5 and later."
+description: Access ClickOnce deployment properties for .NET Core 3.1 on Windows or .NET 5 and later versions on Windows, including ActivationUri and URL parameters.
 ms.date: 10/25/2023
 ms.topic: how-to
 helpviewer_keywords:
@@ -8,12 +8,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 monikerRange: '>= vs-2022'
 ---
 # Access ClickOnce deployment properties for .NET on Windows
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Starting in .NET 7 and Visual Studio 2022 version 17.4, you can access ClickOnce deployment properties by using an environment variable.
 
@@ -80,6 +78,6 @@ Starting in .NET 7, **dotnet-mage** supports a new switch, `-TrustURLParameters`
 
 You need to set `trustURLParameters` to true to allow the application to access the `ActivationUri` and URL parameters.
 
-## See also
+## Related content
 
 [ClickOnce for .NET on Windows](../deployment/clickonce-deployment-dotnet.md)

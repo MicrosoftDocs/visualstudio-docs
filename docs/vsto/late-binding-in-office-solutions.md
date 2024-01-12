@@ -14,11 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Late binding in Office solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Some types in the object models of Office applications provide functionality that is available through late-binding features. For example, some methods and properties can return different types of objects depending on the context of the Office application, and some types can expose different methods or properties in different contexts.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
@@ -65,7 +64,7 @@ ms.technology: office-development
 
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet102":::
 
-## See also
+## Related content
 - [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)
 - [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
 - [Use Type dynamic &#40;C&#35; programming guide&#41;](/dotnet/csharp/programming-guide/types/using-type-dynamic)

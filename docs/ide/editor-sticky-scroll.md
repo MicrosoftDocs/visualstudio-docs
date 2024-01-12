@@ -6,12 +6,10 @@ ms.topic: overview
 author: anandmeg
 ms.author: meghaanand
 ms.manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 monikerRange: vs-2022
 ---
 # What is Sticky Scroll for Visual Studio?
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you work in a large code file or scroll through an unfamiliar codebase, sometimes it can be difficult to tell where you are in the code. With **Sticky Scroll**&mdash;previewed first in Visual Studio 2022 [version 17.5](/visualstudio/releases/2022/release-notes-v17.5)&mdash;you can *stick* scopes to the top of the editor so that they're always in view while you *scroll* through your code.
 

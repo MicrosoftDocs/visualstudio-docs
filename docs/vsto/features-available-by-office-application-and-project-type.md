@@ -1,6 +1,6 @@
 ---
-title: "Features available by Office application and project type"
-description: Learn how Visual Studio has several types of project templates that support different business scenarios for Microsoft Office applications.
+title: Find features for Office apps and project types (Visual Studio)
+description: Explore the project templates and features available in Visual Studio that support different business scenarios for Microsoft Office applications.
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -19,11 +19,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Features available by Office application and project type
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Visual Studio has several types of project templates that support different business scenarios for Microsoft Office applications, including the following types:
 
 - Document-level customizations.
@@ -33,7 +32,7 @@ ms.technology: office-development
   Not all applications can use every project type. For example, document-level projects are available only for Microsoft Office Word and Microsoft Office Excel. Similarly, some features are available only for certain types of projects or applications. For example, the actions pane is available only in document-level projects, and Ribbon extensions are available only for some applications. For more information about the different project types, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).
 
 > [!NOTE]
-> Office project templates are available only in some editions of Visual Studio. For more information, see [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md).
+> Office project templates are available only in some editions of Visual Studio. For more information, see [Configure a computer to develop Office solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md).
 
 ## Project types available for different Microsoft Office applications
  The following table shows the applications that you can use with each project type.
@@ -62,7 +61,7 @@ ms.technology: office-development
 |Ribbon customizations.|Document-level projects.<br /><br /> VSTO Add-in projects for the following applications:<br /><br /> -   Excel<br />-   InfoPath (InfoPath 2013 and InfoPath 2010 only)<br />-   Outlook<br />-   PowerPoint<br />-   Project<br />-   Visio<br />-   Word|[Ribbon overview](../vsto/ribbon-overview.md)|
 |Visual document designer.|Document-level projects.|[Office projects in the Visual Studio environment](../vsto/office-projects-in-the-visual-studio-environment.md)|
 
-## See also
+## Related content
 - [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)
 - [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
 - [Actions pane overview](../vsto/actions-pane-overview.md)

@@ -1,6 +1,6 @@
 ---
 title: Customize your build by folder or solution
-description: Learn about the special imports Directory.Build.props and Directory.Build.targets that you can use to customize the build system.
+description: Explore the special imports Directory.Build.props and Directory.Build.targets that you can use to customize the build system in Visual Studio.
 ms.date: 02/28/2023
 ms.topic: how-to
 helpviewer_keywords:
@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # Customize the build by folder
 
@@ -271,6 +271,6 @@ C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Current\Microsoft.
   ...
 ```
 
-## Next steps
+## Related content
 
-Explore other possible customization scenarios at [Customize your build](customize-your-build.md).
+- [Customize your build](customize-your-build.md).

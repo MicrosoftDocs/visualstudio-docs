@@ -1,6 +1,6 @@
 ---
 title: Update a network-based installation
-description: Learn how to update a Visual Studio client that was installed from a network layout
+description: Update a Visual Studio client installed from a network layout and make sure the client is receiving the latest security and functionality fixes. 
 ms.date: 6/6/2023
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,12 +9,10 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ---
 # Update a Visual Studio client that was installed from a layout
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can and should periodically update all Visual Studio installations so that they receive the latest security and functionality fixes. 
 
@@ -143,7 +141,7 @@ We also offer an [**installation chat**](https://visualstudio.microsoft.com/vs/s
 
 We have other support options available, too. See our [Visual Studio Developer Community](https://developercommunity.visualstudio.com/home).
 
-## See also
+## Related content
 
 * [Create and maintain a network layout](create-a-network-installation-of-visual-studio.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)

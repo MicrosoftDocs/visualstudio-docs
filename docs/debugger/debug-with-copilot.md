@@ -1,7 +1,7 @@
 ---
 title: Debug with GitHub Copilot
 description: Use Copilot to help debug your apps and provide performance insights.
-ms.date: 09/14/2023
+ms.date: 12/06/2023
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -14,12 +14,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ai-tools
+ms.subservice: ai-tools
 monikerRange: '>= vs-2022'
 ---
 # Debug your app with GitHub Copilot in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [GitHub Copilot chat for Visual Studio 2022](../ide/visual-studio-github-copilot-chat.md) supports many interactive debugging scenarios, including AI-assisted chat for debugging questions related to your variables, the call stack, and other code elements, along with highly targeted help associated with an **Ask Copilot** link.
 
@@ -43,7 +41,7 @@ Copilot provides detailed information in the CPU Usage auto insights. It provide
 
 When the CPU Usage tool provides auto insights in the Top Insights section, select **Ask Copilot** to learn from Copilot and start asking questions.
 
-![Animation of using Copilot with CPU Usage.](../debugger/media/vs-2022/debug-with-copilot-top-insights.gif "Using Copilot with CPU Usage.")
+[ ![Animation of using Copilot with CPU Usage.](../debugger/media/vs-2022/debug-with-copilot-top-insights.gif) ](../debugger/media/vs-2022/debug-with-copilot-top-insights.gif#lightbox)
 
 ## AI-assisted exceptions
 
@@ -53,7 +51,7 @@ When you see an exception, select the **Ask Copilot** link to get AI-generated a
 
 [![Screenshot of Ask Copilot option in Exception Helper.](../debugger/media/vs-2022/debug-with-copilot-exception-helper.png "Ask Copilot option in Exception Helper.")](../debugger/media/vs-2022/debug-with-copilot-exception-helper.png#lightbox)
 
-If you have more questions, just ask Copilot!
+When you select **Ask Copilot**, the Copilot Chat window opens in the right pane. If you have more questions, just ask Copilot!
 
 [![Screenshot of Chat window after choosing Ask Copilot.](../debugger/media/vs-2022/debug-with-copilot-exception-chat.png "Ask Copilot option in Exception Helper.")](../debugger/media/vs-2022/debug-with-copilot-exception-helper.png#lightbox)
 

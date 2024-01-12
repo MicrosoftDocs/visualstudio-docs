@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Structures and Unions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following are structures and unions in the Visual Studio Debugging SDK.
 
 - [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md)

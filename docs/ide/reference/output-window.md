@@ -13,11 +13,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Output window
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Output** window displays status messages for various features in the integrated development environment (IDE). To open the **Output** window, on the menu bar, choose **View** > **Output**, or press **Ctrl**+**Alt**+**O**.
 
@@ -66,6 +64,10 @@ In C++, you can create custom build steps and build events whose warnings and er
 ## Scroll behavior
 
 If you use autoscrolling in the **Output** window and then navigate by using the mouse or arrow keys, autoscrolling stops. To resume autoscrolling, press **Ctrl**+**End**.
+
+## Structured Diagnostics
+
+C++ MSBuild projects might emit structured diagnostics. The level of indentation of a diagnostic in the **Output** window represents the nested structure of the information. Enable or disable indentation with the **Project** > **Properties** > **Advanced** > **Enable MSVC Structured Output** option. You can affect several projects by creating a [Directory.Build.props](/visualstudio/msbuild/customize-by-directory) file with the **UseStructuredOutput** property defined to true or false.
 
 ## See also
 

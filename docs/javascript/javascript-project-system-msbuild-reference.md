@@ -8,7 +8,7 @@ ms.devlang: javascript
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
 monikerRange: '>= vs-2022'
@@ -119,7 +119,7 @@ If you modify the command, include `npm run` when using `npm`.
 
 ### PublishCommand
 
-The `PublishCommand` property specifies the behavior for the `publish` target. If the associated `package.json` contains a `publish` script, the default pro`PublishCommand` value is already set to run this script. In npm, it is common to have pre- and post- publish scripts, which will also run.
+The `PublishCommand` property specifies the behavior for the `publish` target. If the associated `package.json` contains a `publish` script, the default `PublishCommand` value is already set to run this script. In npm, it is common to have pre- and post- publish scripts, which will also run.
 
 If you modify the command, include `npm run` when using `npm`.
 

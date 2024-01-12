@@ -41,9 +41,9 @@
       "breadcrumb_path": "/visualstudio/subscriptions/_breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "manager": "shve",
-      "ms.topic": "conceptual",
-      "ms.prod": "visual-studio-family",
-      "ms.technology": "vs-subscriptions",
+      "titleSuffix": "Visual Studio Subscription",
+      "ms.service": "visual-studio-family",
+      "ms.subservice": "subscriptions",
       "searchScope": ["VS Subscriptions"],
       "recommendations": true
     },

@@ -1,7 +1,7 @@
 ---
-title: Create and configure datasets in .NET Framework applications
-description: Create and configure datasets in .NET Framework applications using ADO.NET in Visual Studio. A dataset is a set of objects that store data from a DB in memory and supports CRUD operations on that data.
-ms.date: 10/07/2022
+title: Create & configure datasets in .NET Framework apps
+description: Create and configure datasets in .NET Framework applications with ADO.NET in Visual Studio and the Data Source Configuration Wizard.
+ms.date: 12/15/2023
 ms.topic: how-to
 helpviewer_keywords:
 - typed datasets, creating
@@ -10,11 +10,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Create and configure  datasets in the .NET Framework using Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -94,7 +92,7 @@ This procedure shows how to add a table from the same database that you used to 
 
 Stand-alone tables need to implement `Fill` logic so that you can fill them with data. For information on filling data tables, see [Populating a DataSet from a DataAdapter](/dotnet/framework/data/adonet/populating-a-dataset-from-a-dataadapter).
 
-## See also
+## Related content
 
 - [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)
 - [Relationships in datasets](../data-tools/relationships-in-datasets.md)

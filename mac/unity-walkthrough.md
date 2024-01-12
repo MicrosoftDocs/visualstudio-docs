@@ -5,7 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 03/01/2022
-ms.technology: vs-ide-general
+ms.subservice: ide
 ms.topic: how-to
 ---
 # Getting started building games with Unity in Visual Studio for Mac
@@ -138,7 +138,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![Enemy asset selected in unity](media/unity-image23.png)
 
-5. The Visual Studio solution is straightforward. It contains an **Assets** folder (the same one from **Finder**) and the **EnemyAI.cs** script created earlier. In more sophisticated projects, the hierarchy will likely look different than what you see in Unity.
+5. The Visual Studio solution is straightforward. It contains an **Assets** folder (the same one from **Finder**) and the **EnemyAI.cs** script created earlier. In more sophisticated projects, the hierarchy will likely look different from what you see in Unity.
 
     ![Solution Window in Visual Studio for Mac](media/unity-image24.png)
 

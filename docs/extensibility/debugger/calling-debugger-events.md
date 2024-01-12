@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Call debugger events
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Events in debugging sessions occur in a specific order.
 
 ## Discussion
@@ -42,5 +41,5 @@ Events in debugging sessions occur in a specific order.
 
 12. [Exception handling](../../extensibility/debugger/exception-handling-visual-studio-sdk.md)
 
-## See also
+## Related content
 - [Creating a custom debug engine](../../extensibility/debugger/creating-a-custom-debug-engine.md)

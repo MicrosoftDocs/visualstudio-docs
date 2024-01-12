@@ -14,7 +14,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # MSBuild command-line reference
 
@@ -39,6 +39,9 @@ MSBuild.exe [Switches] [ProjectFile]
 |Switch|Short form|Description|
 |------------|----------------|-----------------|
 |-detailedSummary[:`True` or `False`]|-ds[:`True` or `False`]|If `True`, show detailed information at the end of the build log about the configurations that were built and how they were scheduled to nodes.|
+|-getItem:`itemName`,...||Write out the value of the item or items after evaluation, without executing the build, or if either the `-targets` option or the `-getTargetResult` option is used, write out the values after the build.|
+|-getProperty:`propertyName`,...||Write out the value of the property or properties after evaluation, without executing the build, or if either the `-targets` option or the `-getTargetResult` option is used, write out the values after the build.|
+|-getTargetResult:`targetName`,...||Write out the output values of the specified targets.|
 |-graphBuild[:`True` or `False`]|-graph[:`True` or `False`]|Causes MSBuild to construct and build a project graph. Constructing a graph involves identifying project references to form dependencies. Building that graph involves attempting to build project references prior to the projects that reference them, differing from traditional MSBuild scheduling. Requires MSBuild 16 or later.|
 |-help|/? or -h|Display usage information. The following command is an example:<br /><br /> `msbuild.exe -?`|
 |-ignoreProjectExtensions: `extensions`|-ignore: `extensions`|Ignore the specified extensions when determining which project file to build. Use a semicolon or a comma to separate multiple extensions, as the following example shows:<br /><br /> `-ignoreprojectextensions:.vcproj,.sln`|

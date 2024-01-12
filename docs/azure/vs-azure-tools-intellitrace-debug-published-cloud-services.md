@@ -3,14 +3,12 @@ title: Debug published Azure cloud service with IntelliTrace
 description: Learn how to debug a cloud service with Visual Studio and IntelliTrace
 author: mikejo5000
 manager: jmartens
-ms.technology: vs-azure
+ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 03/21/2017
 ms.author: mikejo
 ---
 # Debugging a published Azure cloud service with Visual Studio and IntelliTrace
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
@@ -23,6 +21,10 @@ As an alternative, you can use [remote debugging](vs-azure-tools-debugging-cloud
 > [!IMPORTANT]
 > IntelliTrace is intended for debug scenarios only, and should not be used for a production deployment.
 >
+
+## Prerequisites
+
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## Configure an Azure application for IntelliTrace
 To enable IntelliTrace for an Azure application, you must create and publish the application from a Visual Studio Azure project. You must configure IntelliTrace for your Azure application before you publish it to Azure. If you publish your application without configuring IntelliTrace, you need to republish the project. For more information, see [Publishing an Azure cloud services projects using Visual Studio](vs-azure-tools-publishing-a-cloud-service.md).
@@ -71,6 +73,6 @@ You can continue to work in Visual Studio while the IntelliTrace logs are downlo
 >
 >
 
-## Next steps
+## Related content
 - [Options for debugging Azure cloud services](vs-azure-tools-debugging-cloud-services-overview.md)
 - [Publishing an Azure cloud service using Visual Studio](vs-azure-tools-publishing-a-cloud-service.md)

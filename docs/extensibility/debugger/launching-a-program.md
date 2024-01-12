@@ -9,11 +9,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Launch a program
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Users who want to debug a program can press **F5** to run the debugger from the IDE. This begins a series of events that ultimately result in the IDE's connecting to a debug engine (DE), which is in turn connected, or attached, to the program as follows:
 
 1. The IDE first calls the project package to get the solution's active project debug settings. The settings include the starting directory, the environment variables, the port in which the program will run, and the DE to use to create the program, if specified. These settings are passed to the debug package.
@@ -51,6 +50,5 @@ Users who want to debug a program can press **F5** to run the debugger from the 
  [Attaching after a launch](../../extensibility/debugger/attaching-after-a-launch.md)
  Documents when the debug session is ready to attach the DE to the program.
 
-## Related sections
- [Debugging tasks](../../extensibility/debugger/debugging-tasks.md)
- Contains links to various debugging tasks, such as launching a program and evaluating expressions.
+## Related content
+- [Debugging tasks](../../extensibility/debugger/debugging-tasks.md) contains links to various debugging tasks, such as launching a program and evaluating expressions.

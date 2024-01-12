@@ -3,14 +3,12 @@ title: Prepare to publish or deploy a Cloud Service
 description: Learn the procedures to set up cloud and storage account services and configure your Azure application.
 author: ghogen
 manager: jmartens
-ms.technology: vs-azure
+ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 11/10/2017
 ms.author: ghogen
 ---
 # Prepare to publish or deploy a cloud service from Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
@@ -18,6 +16,10 @@ To publish a cloud service project, you must set up the following services as de
 
 * A **cloud service** to run your roles in the Azure environment, and
 * A **storage account** that provides access to the Blob, Queue, and Table services.
+
+## Prerequisites
+
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## Create a cloud service
 
@@ -73,6 +75,6 @@ The Azure portal shows the URLs that you can use to access resources in each of 
 
 The secondary access key provides the same access to your storage account as the primary access key and is generated as a backup should your primary access key be compromised. Additionally, it is recommended that you regenerate your access keys on a regular basis. You can modify a connection string setting to use the secondary key while you regenerate the primary key, then you can modify it to use the regenerated primary key while you regenerate the secondary key.
 
-## Next steps
+## Related content
 
 To learn more about publishing apps to Azure from Visual Studio, see [Publishing a Cloud Service using the Azure Tools](vs-azure-tools-publishing-a-cloud-service.md).

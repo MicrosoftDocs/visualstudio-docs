@@ -9,12 +9,10 @@ f1_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.custom: engagement-fy23
 ---
 # Bookmark code in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use bookmarks to mark lines in your code so that you can quickly return to a specific location, or jump back and forth between locations. Bookmarks can help you keep track of important parts of your code and remind you of what you might want to work on next, which can improve your productivity.
 
@@ -74,7 +72,7 @@ You can navigate between bookmarks by using the **Next bookmark** and **Previous
 
 You can organize bookmarks into virtual folders by selecting **New Folder** in the bookmark window and then dragging selected bookmarks into the new folder. And, you can rename the folders by using the right-click context menu, too.
 
-## See also
+## Related content
 
 - Explore more [features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md).
 - Learn about other productivity features in the [Productivity guide for Visual Studio](productivity-features.md).

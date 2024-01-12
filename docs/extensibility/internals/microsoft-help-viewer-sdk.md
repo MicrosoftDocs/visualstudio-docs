@@ -6,11 +6,9 @@ ms.topic: conceptual
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Microsoft Help Viewer SDK
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article contains the following tasks for Visual Studio Help Viewer integrators:
 
@@ -178,7 +176,7 @@ The body (not including the header and footer) of the topic will contain page li
 
 <ul class="toc">
 <li class="tocline1"><a href="#introduction" target="_self">1.0 Introduction</a></li>
-<li class="tocline1"><a href="#seealso" target="_self">See Also</a></li>
+<li class="tocline1"><a href="#related-content" target="_self">Related content</a></li>
 </ul>
 
 <div class="topic">
@@ -193,7 +191,7 @@ The body (not including the header and footer) of the topic will contain page li
 <p>Contoso Topic 1 contains examples of:
 <ul>
 <li>Collapsible Area</li>
-<li>Bookmark ("See also")</li>
+<li>Bookmark ("Related content")</li>
 <li>Code Snippets from Branding Package</li>
 </ul>
  </p>
@@ -247,11 +245,11 @@ some F# code
 
 <h4 class="subHeading">Example of code specific text</h4>Language = <LanguageSpecificText devLangcs="CS" devLangvb="VB" devLangcpp="C++" devLangnu="F#" />
 
-<a name="seealso"></a>
-<h1 class="heading">See Also</h1>
+<a name="related-content"></a>
+<h1 class="heading">Related content</h1>
 
-    <div id="seeAlsoSection" class="section">
-    <div class="seeAlsoStyle">
+    <div id="relatedcontentSection" class="section">
+    <div class="relatedcontentStyle">
         <a href="ms-xhelp:///?Id=ContosoTopic1">Main Topic</a>
     </div>
  </div>

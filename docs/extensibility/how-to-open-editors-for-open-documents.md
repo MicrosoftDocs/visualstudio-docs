@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Open editors for open documents
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Before a project opens a document window, the project first must determine whether the file is already open in the document window for another editor. The file can be either open in a project-specific editor, or one of the standard editors registered with Visual Studio.
 
 ## Open a project-specific editor
@@ -47,7 +46,7 @@ Before a project opens a document window, the project first must determine wheth
 
 2. If the document is not open, then complete the steps in [How to: Open standard editors](../extensibility/how-to-open-standard-editors.md).
 
-## See also
+## Related content
 - [Open and Save project items](../extensibility/internals/opening-and-saving-project-items.md)
 - [How to: Open project-specific editors](../extensibility/how-to-open-project-specific-editors.md)
 - [How to: Open standard editors](../extensibility/how-to-open-standard-editors.md)

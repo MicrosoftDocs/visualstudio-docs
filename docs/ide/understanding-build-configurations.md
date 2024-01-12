@@ -1,8 +1,8 @@
 ---
 title: Understand build configurations
-description: Learn how you need build configurations when you need to build your projects with different settings in Visual Studio.
+description: Discover how to work with build configurations when you need to build your projects with different settings in Visual Studio.
 ms.date: 11/01/2023
-ms.technology: vs-ide-compile
+ms.subservice: compile-build
 ms.topic: conceptual
 f1_keywords:
 - SolutionProperties.ActiveConfig
@@ -26,8 +26,6 @@ ms.author: ghogen
 manager: jmartens
 ---
 # Understand build configurations
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You need build configurations when you need to build your projects with different settings. For example, **Debug** and **Release** are build configurations, and different compiler options are used accordingly when building them.  One configuration is active and is indicated in the command bar at the top of the IDE.
 
@@ -101,8 +99,7 @@ When you build a solution using the **Build** > **Build Solution** command, Visu
 
 If you want to build multiple configurations and platforms in one action, you can use the **Build** > **Batch Build** option in Visual Studio. To access this feature, press **Ctrl**+**Q** to open the search box, and enter `Batch build`. Batch build is not available for all project types. See [How to: Build multiple configurations simultaneously](how-to-build-multiple-configurations-simultaneously.md).
 
-
-## See also
+## Related content
 
 - [Walkthrough: Build an application](../ide/walkthrough-building-an-application.md)
 - [Compile and build](../ide/compiling-and-building-in-visual-studio.md)

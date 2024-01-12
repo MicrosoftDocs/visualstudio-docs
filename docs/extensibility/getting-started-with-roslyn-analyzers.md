@@ -1,16 +1,14 @@
 ---
 title: Getting Started with Roslyn Analyzers
-description: Use these resources to get started with Roslyn analyzers in Visual Studio; includes a tutorial and several examples.
+description: Get started with Roslyn analyzers in Visual Studio with tutorials and examples about writing analyzers, adding code fixes, and developing real-world analyzers.
 ms.date: 04/02/2018
 ms.topic: conceptual
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Get started with Roslyn analyzers
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 With live, project-based code analyzers in Visual Studio, API authors can ship domain-specific code analysis as part of their NuGet packages. Because these analyzers are powered by the .NET Compiler Platform (code-named "Roslyn"), they can produce warnings in your code as you type even before you've finished the line (no more waiting to build your code to discover issues). Analyzers can also surface an automatic code fix through the Visual Studio light bulb prompt to let you clean up your code immediately.
 
@@ -26,7 +24,7 @@ With live, project-based code analyzers in Visual Studio, API authors can ship d
 
 [Several examples on GitHub, grouped into three kinds of analyzers](https://github.com/dotnet/roslyn/blob/master/docs/analyzers/Analyzer%20Samples.md)
 
-## See also
+## Related content
 
 - [.NET compiler platform package version reference](roslyn-version-support.md)
 - [More docs on the GitHub OSS site](https://github.com/dotnet/roslyn/tree/master/docs/analyzers)

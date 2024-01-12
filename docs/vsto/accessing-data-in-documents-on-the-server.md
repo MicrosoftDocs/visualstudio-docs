@@ -12,11 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Access data in documents on the server
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can program against the data in a document-level customization without having to use the object model of Microsoft Office Word or Microsoft Office Excel. This means that you can access data that is contained in a document on a server that does not have Word or Excel installed. For example, code on a server (for instance, in an ASP.NET page) can customize the data in a document and send the customized document to an end user. When the end user opens the document, data binding code in the solution assembly binds the customized data into the document. This is possible because the data in the document is separated from the user interface. For more information, see [Cached data in document-level customizations](../vsto/cached-data-in-document-level-customizations.md).
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
@@ -81,7 +80,7 @@ ms.technology: office-development
 ## Access typed datasets in the cache
  If you want to access the data in a typed dataset both from an Office solution and from an application outside of Office, such as a Windows Forms application or an ASP.NET project, you must define the typed dataset in a separate assembly that is referenced in both projects. If you add the typed dataset to each project by using the **Data Source Configuration** wizard or the **Dataset Designer**, the .NET Framework will treat the typed datasets in the two projects as different types. For more information about creating typed datasets, see [Create and configure datasets in Visual Studio](../data-tools/create-and-configure-datasets-in-visual-studio.md).
 
-## See also
+## Related content
 
 - [Access data in documents on the server](../vsto/accessing-data-in-documents-on-the-server.md)
 - [Cached data in document-level customizations](../vsto/cached-data-in-document-level-customizations.md)

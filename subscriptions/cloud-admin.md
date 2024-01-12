@@ -1,11 +1,11 @@
 ---
-title: Setting up admins for monthly Visual Studio subscriptions
+title: Set up admins for monthly subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
 ms.date: 03/21/2023
 ms.topic: how-to
-description: Setting Up admins for monthly Subscriptions
+description: Configure administrators who can assign subscriptions, edit assignments, add or delete subscriptions, and perform other subscription management tasks.
 ---
 # Set up admins for Visual Studio monthly subscriptions
 

@@ -1,6 +1,6 @@
 ---
-title: Calculate code metrics
-ms.date: 10/20/2022
+title: How code metrics help identify risks
+ms.date: 11/29/2023
 description: Learn about cyclomatic complexity, class coupling, and other Visual Studio code metrics. See how metrics can track development progress and identify risks.
 ms.topic: conceptual
 f1_keywords:
@@ -14,11 +14,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-code-analysis
+ms.subservice: code-analysis
 ---
 # Code metrics values
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The increased complexity of modern software applications also increases the difficulty of making the code reliable and maintainable. Code metrics is a set of software measures that provide developers better insight into the code they are developing. By taking advantage of code metrics, developers can understand which types and/or methods should be reworked or more thoroughly tested. Development teams can identify potential risks, understand the current state of a project, and track progress during software development.
 
@@ -52,7 +50,7 @@ Some software tools and compilers generate code that is added to a project and t
 
 Code generated for Windows Forms is not ignored, because it is code that the developer can see and change.
 
-## Next steps
+## Related content
 
 - [How to: Generate code metrics data](../code-quality/how-to-generate-code-metrics-data.md)
 - [Use the Code Metrics Results window](../code-quality/working-with-code-metrics-data.md)

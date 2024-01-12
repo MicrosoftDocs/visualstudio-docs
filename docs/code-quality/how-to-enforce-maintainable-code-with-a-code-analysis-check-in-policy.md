@@ -8,11 +8,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-code-analysis
+ms.subservice: code-analysis
 ---
 # Enforce maintainable code with a code analysis check-in policy
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Developers can use the Code Metrics tool to measure the complexity and maintainability of their code, but you cannot invoke Code Metrics as part of a check-in policy. However, you can enable Code Analysis rules that verify the compliance of your code with code metrics standards, and enforce the rules through check-in policies. For more information about code metrics, see [Code metrics values](../code-quality/code-metrics-values.md).
 
@@ -52,7 +50,7 @@ Administrators of version control for Team Foundation can add the Code Analysis 
 
 3. Click **OK**. The new check-in policy now applies to future check-ins.
 
-## See also
+## Related content
 
 - [Code metrics values](../code-quality/code-metrics-values.md)
 - [Creating and using code analysis check-in policies](../code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies.md)

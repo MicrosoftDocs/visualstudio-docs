@@ -1,18 +1,16 @@
 ---
 title: Python in Visual Studio tutorial step 3, interactive REPL
 titleSuffix: ""
-description: Step 3 of a core walkthrough of Python capabilities in Visual Studio, covering the Python Interactive REPL window.
+description: Step 3 of a core walkthrough of Python capabilities in Visual Studio that demonstrates the Python Interactive REPL window.
 ms.date: 07/14/2023
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
+ms.subservice: python
 ---
 
 # Step 3: Use the Interactive REPL window
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Previous step: [Write and run code](tutorial-working-with-python-in-visual-studio-step-02-writing-code.md)**
 

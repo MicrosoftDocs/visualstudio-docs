@@ -1,6 +1,6 @@
 ---
-title: Insert new records into a database in .NET Framework applications
-description: In .NET Framework application development with Visual Studio, insert new records into a database using the ADO.NET TableAdapter.Update method, one of the TableAdapter's DBDirect methods, or command objects.
+title: Insert records into a database (.NET Framework)
+description: Insert new records into a database with .NET Framework application development in Visual Studio, including the ADO.NET TableAdapter.Update method.
 ms.date: 06/01/2023
 ms.topic: how-to
 dev_langs:
@@ -15,11 +15,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Insert new records into a database in .NET Framework applications
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -96,6 +94,6 @@ The following example demonstrates inserting records into a database using comma
 
 You must have access to the database you're trying to connect to, and permission to perform inserts into the desired table.
 
-## See also
+## Related content
 
 - [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

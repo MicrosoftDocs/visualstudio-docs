@@ -3,7 +3,7 @@ title: Azure development with Visual Studio
 description: Learn about how you can connect your apps to Azure services in Visual Studio and deploy them to the cloud.
 author: ghogen
 manager: jmartens
-ms.technology: vs-azure
+ms.subservice: azure-development
 ms.topic: overview
 ms.date: 09/19/2023
 ms.author: ghogen
@@ -14,7 +14,9 @@ monikerRange: ">=vs-2019"
 
 Application development can be easier if you use cloud services to handle many issues that you would otherwise have to implement. When you use cloud services hosted in the Azure cloud, you use a reliable and highly available cloud environment that is managed by Microsoft to handle much of the infrastructure that many apps and services need, so that you can focus development efforts on what is unique to your application.
 
-In this article, you learn about how Visual Studio can help with Azure development, whether you're getting a web site up and running, connecting to services like storage, databases, secrets management, or using services that add value like caching. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
+In this article, you learn about how Visual Studio can help with Azure development, whether you're getting a web site up and running, connecting to services like storage, databases, secrets management, or using services that add value like caching. 
+
+[!INCLUDE [subscription-azure-benefits](includes/subscription-azure-benefits.md)]
 
 ## Supported technologies and languages
 
@@ -103,15 +105,15 @@ Learn more at [What is Azure Cache for Redis?](/azure/azure-cache-for-redis/cach
 
 ### Authenticating users
 
-Most web sites need some kind of user management and authentication mechanism, either site-specific or provided by an identity provider with which a user has an existing account. Built-in user authentication is supported in Azure App Service. Learn more at [Authentication and authorization in Azure App Service and Azure Functions](/azure/app-service/overview-authentication-authorization) and get started with [Add app authentication to your web app running on Azure App Service](/azure/app-service/scenario-secure-app-authentication-app-service). Microsoft Entra, previously known as Azure Active Directory (Azure AD), is a full-featured cloud-based identity management service. Learn more at [What is Microsoft Entra](/azure/active-directory/fundamentals/whatis).
+Most web sites need some kind of user management and authentication mechanism, either site-specific or provided by an identity provider with which a user has an existing account. Built-in user authentication is supported in Azure App Service. Learn more at [Authentication and authorization in Azure App Service and Azure Functions](/azure/app-service/overview-authentication-authorization) and get started with [Add app authentication to your web app running on Azure App Service](/azure/app-service/scenario-secure-app-authentication-app-service). Microsoft Entra ID (previously known as Azure Active Directory) is a full-featured cloud-based identity management service. Learn more at [What is Microsoft Entra](/azure/active-directory/fundamentals/whatis).
 
 Supported authentication providers include:
 
 - Social accounts: Facebook, Google, Microsoft account, and others
-- Azure AD accounts (from a single tenant)
-- Azure AD accounts (from multiple different tenants)
+- Microsoft Entra accounts (from a single tenant)
+- Microsoft Entra accounts (from multiple different tenants)
 
-Learn how to start using these services in your apps at [Connect to Azure Active Directory by using Connected Services in Visual Studio](vs-active-directory-add-connected-service.md).
+Learn how to start using these services in your apps at [Connect to Microsoft Entra ID by using Connected Services in Visual Studio](vs-active-directory-add-connected-service.md).
 
 ### App Configuration
 

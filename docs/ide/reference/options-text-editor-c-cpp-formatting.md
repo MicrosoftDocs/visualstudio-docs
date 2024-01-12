@@ -17,8 +17,6 @@ manager: markl
 ---
 # Options, Text Editor, C/C++, Formatting
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Use these property pages to change the default behavior of the code editor when you are programming in C or C++.
 
 ![C++ Formatting property pages](media/cpp-formatting.png)
@@ -38,7 +36,7 @@ The page also has options for configuring support for [ClangFormat](https://clan
 
 ClangFormat support is enabled by default. You can choose which of these common formatting conventions to apply to all your projects: LLVM, Google, Chromium, Mozilla, or WebKit. You can also create a custom format definition .clang-format or _clang-format file. If such a file is present in a project folder, Visual Studio uses it to format all source code files in that folder and its subfolders.
 
-By default, Visual Studio runs clang-format.exe in the background applies formatting as you type. You can also specify to run it only for manually invoked formatting commands **Format Document (Ctrl+K, Ctrl+D)** or **Format Selection (Ctrl + K, Ctrl + F)**.
+By default, Visual Studio runs clang-format.exe in the background and applies formatting as you type. You can also specify to run it only for manually invoked formatting commands **Format Document (Ctrl+K, Ctrl+D)** or **Format Selection (Ctrl + K, Ctrl + F)**.
 
 ## Indentation, New Lines, Spacing, Wrapping pages
 

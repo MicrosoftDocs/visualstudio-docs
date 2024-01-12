@@ -13,11 +13,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # &lt;Commands&gt; element (bootstrapper)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The `Commands` element implements tests described by the elements underneath the `InstallChecks` element, and declares which package the ClickOnce bootstrapper should install if the test fails.
 
 ## Syntax

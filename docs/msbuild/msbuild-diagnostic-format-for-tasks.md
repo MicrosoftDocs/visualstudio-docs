@@ -2,7 +2,7 @@
 title: MSBuild and Visual Studio diagnostic message formats
 description: Learn the format for diagnostic messages used in Visual Studio tools, which is relevant when writing MSBuild tasks that use these tools, or when creating custom tools that follow the same patterns.
 ms.date: 07/05/2022
-ms.topic: conceptual
+ms.topic: error-reference
 dev_langs:
 - VB
 - CSharp
@@ -10,7 +10,7 @@ dev_langs:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 
 # MSBuild and Visual Studio format for diagnostic messages
@@ -59,13 +59,13 @@ Each of the components of this format are described as follows:
 
 - **Category (Required)** Category must be either “error” or “warning”. Case does not matter. As with origin, category must not be localized.
 
-- **Code (Required)** Code identifies an application-specific error code/warning code. Code must not be localized and it must not contain spaces.
+- **Code (Optional)** Code identifies an application-specific error code/warning code. Code must not be localized and it must not contain spaces.
 
 - **Text** User-friendly text that explains the error, and it must be localized if you cater to multiple locales.
 
 When MSBuild calls command-line tools (for instance, `csc.exe` or `vbc.exe`), it looks at the output emitted by the tool to the standard out and standard error streams. Any lines that match the error format that I just described will be treated specially; that is, lines that are recognized as errors or warnings will be turned into build errors and warnings, respectively. To see the real benefit of this, you have to be building from within a development tool like Visual Studio or VS Code. Because MSBuild treats these messages specially, they get logged as first-class warnings and errors in the Visual Studio task list. If the Origin specifies line/column information, then double-clicking the message will take you to the source of the error in the offending file.
 
-## See also
+## Related content
 
 - [Diagnosing task failures](./diagnosing-task-failures.md)
 - [Exec task](./exec-task.md)

@@ -15,11 +15,9 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Stop statements in Visual Basic
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Basic Stop statement provides a programmatic alternative to setting a breakpoint. When the debugger encounters a Stop statement, it breaks execution of the program (enters break mode). C# programmers can achieve the same effect using a call to <xref:System.Diagnostics.Debugger.Break%2A?displayProperty=nameWithType>.
 
@@ -65,7 +63,7 @@ Debug.Fail("a clever output string goes here")
 ```
 ---
 
-## See also
+## Related content
 
 - [Debugger Security](debugger-security.md)
 - [Managed debugging: Recommended project settings](managed-debugging-recommended-property-settings.md)

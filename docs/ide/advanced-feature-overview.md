@@ -1,5 +1,5 @@
 ---
-title: Advanced features
+title: Explore advanced features for developers
 description: Learn about the advanced features that might be more appropriate for experienced developers, or those developers who are already familiar with Visual Studio.
 ms.custom: vs-acquisition
 ms.date: 8/19/2023
@@ -7,11 +7,9 @@ ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Features of Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article describes features for experienced developers, or developers who are already familiar with Visual Studio. For a basic introduction to Visual Studio, see the [Visual Studio IDE overview](../get-started/visual-studio-ide.md).
 
@@ -57,7 +55,7 @@ In Visual Studio, use [Cloud Explorer](/azure/vs-azure-tools-resources-managing-
 
 You can use Azure services for your apps by adding **Connected Services**, such as:
 
-- [Active Directory connected service](/azure/active-directory/develop/vs-active-directory-add-connected-service), to use [Azure Active Directory](/azure/active-directory/active-directory-whatis) (Azure AD) accounts to connect to web apps
+- [Active Directory connected service](/azure/active-directory/develop/vs-active-directory-add-connected-service), to use [Microsoft Entra ID](/azure/active-directory/active-directory-whatis) (Microsoft Entra ID) accounts to connect to web apps
 - [Azure Storage connected service](/azure/vs-azure-tools-connected-services-storage) for blob storage, queues, and tables
 - [Key Vault connected service](/azure/key-vault/vs-key-vault-add-connected-service) to manage secrets for web apps
 

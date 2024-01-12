@@ -1,16 +1,14 @@
 ---
 title: "Run profiling tools with or without the debugger"
-description: "Learn about differences between the different modes available for profiling tools"
-ms.date: "03/22/2023"
+description: Explore the differences between running profiling tools for your applications in Visual Studio with or without the debugger.
+ms.date: "11/09/2023"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Run profiling tools with or without the debugger (C#, Visual Basic, C++, F#)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio offers a choice of performance measurement and profiling tools. Some tools, like CPU Usage and Memory Usage, can run with or without the debugger, and on release or debug build configurations. Tools that appear in the [Diagnostics Tools window](../profiling/profiling-feature-tour.md#measure-performance-while-debugging) run only during a debugging session. Tools that appear in the [Performance Profiler](../profiling/profiling-feature-tour.md#post_mortem) run without the debugger and you analyze the results after you choose to stop and collect data (for post-mortem analysis).
 
@@ -26,6 +24,7 @@ To decide which tools and results to use, consider the following options:
   - The debugger itself changes performance times, as it does necessary debugger operations like intercepting exception and module load events.
   - Release build performance numbers in the Performance Profiler are the most precise and accurate. Debugger-integrated tool results are most useful to compare with other debugging-related measurements, or to use debugger features.
   - Some tools, such as the .NET Object Allocation tool, are only available for non-debugger scenarios.
+
 - Debug vs. release build
   - For problems caused by CPU-intensive calls, there might be considerable performance differences between release and debug builds. Check to see whether the issue exists in release builds.
   - If the problem occurs only during debug builds, you probably don't need to run the non-debugger tools. For release build problems, decide whether features provided by the debugger-integrated tools will help to pinpoint the problem.
@@ -33,9 +32,16 @@ To decide which tools and results to use, consider the following options:
 
 ## <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Collect profiling data while debugging
 
+::: moniker range=">=vs-2022"
+When you start debugging in Visual Studio by selecting **Debug** > **Start Debugging**, or pressing **F5**, the **Diagnostic Tools** window appears by default. To open it manually, select **Debug** > **Windows** > **Show Diagnostic Tools**. The **Diagnostic Tools** window shows information about events, process memory, CPU usage, and .NET Counters.
+
+![Screenshot of the Diagnostic Tools window.](../profiling/media/vs-2022/diagnostic-tools-window.png "Diagnostic Tools Window")
+::: moniker-end
+::: moniker range="<=vs-2019"
 When you start debugging in Visual Studio by selecting **Debug** > **Start Debugging**, or pressing **F5**, the **Diagnostic Tools** window appears by default. To open it manually, select **Debug** > **Windows** > **Show Diagnostic Tools**. The **Diagnostic Tools** window shows information about events, process memory, and CPU usage.
 
 ![Screenshot of the Diagnostic Tools window](../profiling/media/diagnostictoolswindow.png "Diagnostic Tools Window")
+::: moniker-end
 
 - Use the **Settings** icon in the toolbar to select whether to view **Memory Usage**, **UI Analysis**, and **CPU Usage**.
 
@@ -59,11 +65,23 @@ During a debugging session, the Events tab of the Diagnostic Tools window lists 
 
 Use the **Filter** drop-down list to filter events in and out of view, by selecting or clearing specific categories of events.
 
+::: moniker range=">=vs-2022"
+![Screenshot of Diagnostic Event filter.](../profiling/media/vs-2022/diagnostic-event-filter.png "Diagnostic Event Filter")
+::: moniker-end
+::: moniker range="<=vs-2019"
 ![Screenshot of Diagnostic Event filter](../profiling/media/diagnosticeventfilter.png "Diagnostic Event Filter")
+::: moniker-end
 
+::: moniker range=">=vs-2022"
+Use the search box to find a specific string in the event list. Here are the results of a search for the file name *model* that matched three events:
+
+![Screenshot of Diagnostic Event search.](../profiling/media/vs-2022/diagnostics-event-search.png "Diagnostic Event Search")
+::: moniker-end
+::: moniker range="<=vs-2019"
 Use the search box to find a specific string in the event list. Here are the results of a search for the string *name* that matched four events:
 
 ![Screenshot of Diagnostic Event search](../profiling/media/diagnosticseventsearch.png "Diagnostic Event Search")
+::: moniker-end
 
 For more information, see [Searching and filtering the Events tab of the Diagnostic Tools window](https://devblogs.microsoft.com/devops/searching-and-filtering-the-events-tab-of-the-diagnostic-tools-window/).
 
@@ -77,13 +95,23 @@ To collect performance data without debugging, you can run the Performance Profi
 
 1. On the diagnostic tools launch page, select one or more tools to run. Only the tools that are applicable to the project type, operating system, and programming language are shown. Select **Show all tools** to also see tools that are disabled for this diagnostic session.
 
+   ::: moniker range=">=vs-2022"
+   ![Screenshot of diagnostic tools.](../profiling/media/vs-2022/performance-profiler-summary-page.png "DIAG_SelectTool")
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
    ![Screenshot of diagnostic tools](../profiling/media/diaghubsummarypage.png "DIAG_SelectTool")
+   ::: moniker-end
 
 1. To start the diagnostic session, select **Start**.
 
-   While the session is running, some tools show graphs of real-time data on the diagnostic tools page, and controls to pause and resume data collection.
+   While the session is running, some tools show graphs of real-time data on the diagnostic tools page, and might show options to pause and resume data collection.
 
-    ![Screenshot of data collection on the Performance Profiler](../profiling/media/diaghubcollectdata.png "Hub collect data")
+   ::: moniker range=">=vs-2022"
+   ![Screenshot of data collection on the Performance Profiler.](../profiling/media/vs-2022/performance-profiler-collect-data.png "Diag collect data")
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
+   ![Screenshot of data collection on the Performance Profiler](../profiling/media/diaghubcollectdata.png "Hub collect data")
+   ::: moniker-end
 
 1. To end the diagnostic session, select **Stop Collection**.
 
@@ -91,7 +119,12 @@ To collect performance data without debugging, you can run the Performance Profi
 
 You can save the reports, and open them from the **Recently Opened Sessions** list on the Diagnostic Tools launch page.
 
+::: moniker range=">=vs-2022"
+![Screenshot of Diagnostic Tools Recently Opened Sessions list.](../profiling/media/vs-2022/performance-profiler-open-existing-diagnostics-session.png "PDHUB_OpenExistingDiagSession")
+::: moniker-end
+::: moniker range="<=vs-2019"
 ![Screenshot of Diagnostic Tools Recently Opened Sessions list](../profiling/media/diaghubopenexistingdiagsession.png "PDHUB_OpenExistingDiagSession")
+::: moniker-end
 
 For more information, see:
 

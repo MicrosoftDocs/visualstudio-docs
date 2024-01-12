@@ -1,6 +1,6 @@
 ---
 title: "Add and Remove Mapped Folders"
-description: Add and remove mapped folders to a project in SharePoint.  Change the deployment location of a mapped folder. Rename or remove mapped folders.
+description: Add and remove mapped folders to a project in SharePoint, change the deployment location of a mapped folder, and rename or remove mapped folders.
 ms.date: "02/02/2017"
 ms.topic: how-to
 f1_keywords:
@@ -14,11 +14,9 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
+ms.subservice: sharepoint-development
 ---
 # add and remove mapped folders
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
   Some commonly used folders in SharePoint, such as Images and Layouts, are deeply embedded in the file hierarchy. You can map these folders into a SharePoint project to access them more easily. Mapped folders are folders in the SharePoint project that correspond to the physical location of the files in the installation of SharePoint Server.
 
@@ -77,6 +75,6 @@ ms.technology: sharepoint-development
 
 3. To remove a mapped folder from the project, open its shortcut menu, choose **Delete**, and then choose the **OK** button in the dialog box to confirm the removal.
 
-## See also
+## Related content
 
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)

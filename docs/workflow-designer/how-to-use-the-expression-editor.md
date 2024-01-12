@@ -8,11 +8,9 @@ f1_keywords:
 author: jodavis
 ms.author: jodavis
 manager: jmartens
-ms.technology: vs-workflow-designer
+ms.subservice: workflow-designer
 ---
 # Use the Expression Editor
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Expression Editor is a Workflow Designer control that is used in many workflow activities to enter and evaluate expressions. The Expression Editor provides a full-fledged IDE editing experience, including IntelliSense, colorization, ParamInfo, error squiggles, among other features. The compiler validates the expression after it's entered. If the expression is invalid, an error icon is displayed. The editor can also be opened as an **Expression Editor** dialog box.
 
@@ -48,6 +46,6 @@ The **Expression Editor** behaves as follows:
 
      An alternative way to enter or edit an expression is to click the ellipsis next to the property name in the property grid. Selecting the ellipsis opens the **Expression Editor** as a dialog box.
 
-## See also
+## Related content
 
 - <xref:System.Activities.Presentation.View.ExpressionTextBox>

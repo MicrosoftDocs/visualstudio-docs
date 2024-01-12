@@ -12,11 +12,9 @@ helpviewer_keywords:
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Code Snippet Picker
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio Code Editor provides a **Code Snippet Picker** that allows you, in a few mouse clicks, to insert ready-made blocks of code into the active document.
 
@@ -52,7 +50,7 @@ A list of code snippets available for insertion, or a list of folders containing
 
 ## See also
 
-- [Best Practices for Using Code Snippets](../../ide/best-practices-for-using-code-snippets.md)
+- [Best Practices for Using Code Snippets](../../ide/code-snippets.md#best-practices-for-using-code-snippets)
 - [Visual Basic IntelliSense Code Snippets](/dotnet/visual-basic/developing-apps/using-ide/intellisense-code-snippets)
 - [Setting Bookmarks in Code](../../ide/setting-bookmarks-in-code.md)
-- [How to: Use Surround-with Code Snippets](../../ide/how-to-use-surround-with-code-snippets.md)
+- [Expansion snippets and surround-with snippets](../../ide/code-snippets.md#expansion-snippets-and-surround-with-snippets)

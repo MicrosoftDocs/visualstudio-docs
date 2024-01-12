@@ -7,7 +7,7 @@ ms.author: maiak
 monikerRange: ">=vs-2022"
 author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 
 # Tutorial: Advanced remote UI
@@ -104,7 +104,7 @@ internal class MyToolWindowData
     }
 
     [DataMember]
-    public ObservableCollection<MyColor> Colors { get; } = new();
+    public ObservableList<MyColor> Colors { get; } = new();
 
     [DataMember]
     public AsyncCommand AddColorCommand { get; }
@@ -128,10 +128,10 @@ internal class MyToolWindowData
 
 There are just a few noteworthy things in this code:
 
-1. `MyColor.Color` is a `string` but it's used as a `Brush` when data bound in XAML, this is a capability provided by WPF.
-1. The `AddColorCommand` async callback contains a 2-second delay to simulate a long-running operation.
-1. We use [ObservableCollection\<T\>](/dotnet/api/system.collections.objectmodel.observablecollection-1), which is supported by Remote UI, to dynamically update the list view.
-1. `MyToolWindowData` and `MyColor` don't implement [INotifyPropertyChanged](/dotnet/api/system.componentmodel.inotifypropertychanged) because, at the moment, all properties are readonly.
+- `MyColor.Color` is a `string` but it's used as a `Brush` when data bound in XAML, this is a capability provided by WPF.
+- The `AddColorCommand` async callback contains a 2-second delay to simulate a long-running operation.
+- We use [ObservableList\<T\>](/dotnet/api/microsoft.visualstudio.extensibility.ui.observablelist-1), which is an extended [ObservableCollection\<T\>](/dotnet/api/system.collections.objectmodel.observablecollection-1) provided by Remote UI to also support range operations, allowing better performance.
+- `MyToolWindowData` and `MyColor` don't implement [INotifyPropertyChanged](/dotnet/api/system.componentmodel.inotifypropertychanged) because, at the moment, all properties are readonly.
 
 ## Handle long-running async commands
 
@@ -300,6 +300,6 @@ With the code above, the `Color` property value is converted to a `LinearGradien
 
 This behavior can be changed by passing a [NonConcurrentSynchronizationContext](/dotnet/api/microsoft.visualstudio.threading.nonconcurrentsynchronizationcontext) to the `RemoteUserControl` constructor. In that case, you can use the provided synchronization context for all *async command* and `INotifyPropertyChanged` callbacks related to that control.
 
-## Next steps
+## Related content
 
-Learn more about VisualStudio.Extensibility by reading [Components of a VisualStudio.Extensibility extension](./extension-anatomy.md).
+- [Components of a VisualStudio.Extensibility extension](./extension-anatomy.md).

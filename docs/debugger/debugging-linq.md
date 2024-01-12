@@ -1,5 +1,5 @@
 ---
-title: "Debugging LINQ"
+title: Debug language integrated query (LINQ)
 description: Debug language integrated query (LINQ) in Visual Studio. View LINQ results. Understand behavioral differences when stepping into LINQ code.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -17,11 +17,10 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Debugging LINQ
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Visual Studio supports the debugging of language integrated query (LINQ) code, with some limitations. Most debugging features work with LINQ statements, including stepping, setting breakpoints, and viewing results in debugger windows. This topic describes the major limitations of LINQ debugging.
 
 ## <a name="BKMK_ViewingLINQResults"></a> Viewing LINQ Results
@@ -102,7 +101,7 @@ End Function
 ## <a name="BKMK_EditandContinueNotSupportedforLINQ"></a> Edit and Continue Not Supported for LINQ
  Edit and Continue supports changes to LINQ queries with limitations. For details, see [EnC Supported Changes](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md)
 
-## See also
+## Related content
 
 - [Debugging SQL](/previous-versions/visualstudio/visual-studio-2010/zefbf0t6\(v\=vs.100\))
 - [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)

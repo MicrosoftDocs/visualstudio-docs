@@ -1,6 +1,6 @@
 ---
-title: Replace in files
-description: Learn how to use Replace in Files to search the code of a specified set of files for a string or expression and change some or all of the matches found.
+title: Use Replace in Files to search code & make changes
+description: Explore the Replace in Files feature to search the code of a specified set of files for a string or expression and change some or all of the matches found.
 ms.date: 02/07/2023
 ms.topic: conceptual
 f1_keywords:
@@ -13,11 +13,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Replace in Files
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Replace in Files** allows you to search the code of a specified set of files for a string or expression, and change some or all of the matches found. The matches found and actions taken are listed in the **Find Results** window selected in **Result options**.
 
@@ -93,7 +91,7 @@ When selected, this option leaves open all files in which replacements have been
 
 ::: moniker-end
 
-## See also
+## Related content
 
 - [Find and replace text](../ide/finding-and-replacing-text.md)
 - [Find in files](../ide/find-in-files.md)

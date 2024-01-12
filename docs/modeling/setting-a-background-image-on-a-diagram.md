@@ -6,11 +6,10 @@ ms.topic: how-to
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 ---
 # Setting a Background Image on a Diagram
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In Visual Studio Visualization and Modeling SDK, you can set the background image for a generated designer by using custom code.
 
 ## Setting the background image
@@ -96,7 +95,7 @@ In Visual Studio Visualization and Modeling SDK, you can set the background imag
 
      For more information about customizing the model with program code, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).
 
-## See also
+## Related content
 
 - [Defining Shapes and Connectors](../modeling/defining-shapes-and-connectors.md)
 - [Customizing Text and Image Fields](../modeling/customizing-text-and-image-fields.md)

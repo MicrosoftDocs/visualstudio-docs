@@ -12,11 +12,9 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Populate documents with data from objects
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Accesing data in a data object works the same way in document-level projects for Microsoft Office Word as it does in Windows Forms projects. You use the same tools and code to bring the data from an object into your solution, and you can use Windows Forms controls to display the data. In addition, you can display data by using host controls. Host controls are native objects in Microsoft Office Word that have been enhanced with events and data binding capability. For more information, see [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md).
 
@@ -62,7 +60,7 @@ To connect the data object to the BindingSource:
 
 4. Add the data source as a databinding to the control.
 
-## See also
+## Related content
 
 - [Add new data sources](../data-tools/add-new-data-sources.md)
 - [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)

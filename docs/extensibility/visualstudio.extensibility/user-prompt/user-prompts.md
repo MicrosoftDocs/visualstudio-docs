@@ -7,12 +7,12 @@ ms.author: maiak
 monikerRange: ">=vs-2022"
 author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 
 # Create Visual Studio user prompts
 
-User prompts are a simple UI mechanism for prompting the user during the execution of a [Command](../command/command.md). Prompting the user creates a dialog box with a message, one to three buttons for the choices, and a dismiss button.
+User prompts are a simple UI mechanism for prompting the user to make a selection. Prompting the user creates a dialog box with a message, one to three buttons for the choices, and a dismiss button.
 
 > [!NOTE]
 > The exact UI used to prompt users may change in future versions based on user feedback or other factors.
@@ -33,7 +33,7 @@ The choices presented to the user are mapped to return values of the type define
 
 ## Get started
 
-User Prompts can only be created inside of a [Command](../command/command.md). To get started, [Create the extension project](../get-started/create-your-first-extension.md#create-the-extension-project) and [Add your first command](../get-started/create-your-first-extension.md#add-your-first-command).
+To get started, follow the [create the project](./../get-started/create-your-first-extension.md) section in the Getting Started section.
 
 ## Work with user prompts
 
@@ -45,9 +45,9 @@ This guide covers the following scenarios for working with User Prompts:
 
 ## Display a user prompt
 
-As discussed previously, user prompts can be shown inside of commands, where you have access to an `IClientContext` instance. To show a user prompt, call the `IClientContext.ShowPromptAsync<TResult>()` method inside the `ExecuteCommandAsync()` method for the command.
+Creating a user prompt with the new Extensibility Model is as simple as calling the `ShowPromptAsync` method from the [ShellExtensibility](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility) helpers and passing in your options.
 
-### `IClientContext.ShowPromptAsync<TResult>()`
+### `ShellExtensibility.ShowPromptAsync<TResult>()`
 
 The `ShowPromptAsync()` method takes three parameters:
 
@@ -64,7 +64,7 @@ The following code inside a `Command` shows a user prompt with a simple message 
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
 {
-    await context.ShowPromptAsync("This is a user prompt.", PromptOptions.OK, cancellationToken))
+    await this.Extensibility.Shell().ShowPromptAsync("This is a user prompt.", PromptOptions.OK, cancellationToken))
 }
 ```
 
@@ -105,7 +105,7 @@ Create a prompt with a single "OK" choice.
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken ct)
 {
     // Asking the user to confirm an operation.
-    if (!await context.ShowPromptAsync("Continue with executing the command?", PromptOptions.OKCancel, ct))
+    if (!await this.Extensibility.Shell().ShowPromptAsync("Continue with executing the command?", PromptOptions.OKCancel, ct))
     {
       return;
     }
@@ -122,7 +122,7 @@ If the user clicks "OK", `ShowPromptAsync` returns `true` when awaited. If the u
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken ct)
 {
   // Asking the user to confirm an operation.
-  if (!await context.ShowPromptAsync("Continue with executing the command?", PromptOptions.OKCancel.WithCancelAsDefault(), ct))
+  if (!await this.Extensibility.Shell().ShowPromptAsync("Continue with executing the command?", PromptOptions.OKCancel.WithCancelAsDefault(), ct))
   {
     return;
   }
@@ -159,7 +159,7 @@ Then create the `PromptOptions<TResult>` instance and pass it to `ShowPromptAsyn
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken ct)
 {
   // Custom prompt
-  var themeResult = await context.ShowPromptAsync(
+  var themeResult = await this.Extensibility.Shell().ShowPromptAsync(
     "Which theme should be used for the generated output?",
     new PromptOptions<TokenThemeResult>
     {

@@ -3,14 +3,12 @@ title: Configure the roles for an Azure cloud service
 description: Learn how to set up and configure roles for Azure cloud services using Visual Studio.
 author: ghogen
 manager: jmartens
-ms.technology: vs-azure
+ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 03/21/2017
 ms.author: ghogen
 ---
 # Configure Azure cloud service roles with Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
@@ -27,6 +25,10 @@ When you create an Azure cloud service in Visual Studio, two service configurati
 
 - `ServiceConfiguration.Cloud.cscfg`
 - `ServiceConfiguration.Local.cscfg`
+
+## Prerequisites
+
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## Configure an Azure cloud service
 You can configure an Azure cloud service from Solution Explorer in Visual Studio, as shown in the following steps:
@@ -265,5 +267,5 @@ To view the file created by the code in the previous section, follow these steps
 
 1. When the Windows Explorer window opens, enter `MyLocalStorageTest.txt`` into the **Search** text box, and select **Enter** to start the search.
 
-## Next steps
+## Related content
 Learn more about Azure projects in Visual Studio by reading [Configuring an Azure Project](vs-azure-tools-configuring-an-azure-project.md). Learn more about the cloud service schema by reading [Schema Reference](/previous-versions/azure/dd179398(v=azure.100)).

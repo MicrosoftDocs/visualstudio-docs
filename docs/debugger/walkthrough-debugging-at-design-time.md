@@ -13,11 +13,9 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Debug at design time in Visual Studio (C#, C++/CLI, Visual Basic, F#)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To debug code at design time instead of while an app is running, you can use the **Immediate** window.
 
@@ -101,6 +99,6 @@ The following example is in Visual Basic. You can also use the **Immediate** win
 
 1. Debug the code in the second instance of Visual Studio.
 
-## See also
+## Related content
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Debugger security](../debugger/debugger-security.md)

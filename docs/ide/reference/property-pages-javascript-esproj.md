@@ -11,13 +11,11 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 monikerRange: '>= vs-2022'
 ---
 
 # Property pages for React, Angular, and Vue projects in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article applies to React, Angular, and Vue projects created in Visual Studio that use the JavaScript Project System (JSPS), which is the *.esproj* project format. This format is supported starting in Visual Studio 2022.
 

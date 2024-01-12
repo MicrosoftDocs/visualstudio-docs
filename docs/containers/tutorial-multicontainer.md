@@ -1,15 +1,13 @@
 ---
 title: Work with multiple containers using Docker Compose
 author: ghogen
-description: Learn how to use multiple containers with Docker Compose and create a custom launch profile.
+description: Create and manage multi-container applications with Docker Compose and Container Tools in Visual Studio, including custom launch profiles.
 ms.author: ghogen
 ms.date: 10/18/2023
-ms.technology: vs-container-tools
+ms.subservice: container-tools
 ms.topic: tutorial
 ---
 # Tutorial: Create a multi-container app with Docker Compose
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this tutorial, you learn how to manage more than one container and communicate between them when using Container Tools in Visual Studio. Managing multiple containers requires *container orchestration* and requires an orchestrator such as Docker Compose or Service Fabric. For these procedures, you use Docker Compose. Docker Compose is great for local debugging and testing in the course of the development cycle.
 

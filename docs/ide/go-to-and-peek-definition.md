@@ -1,6 +1,6 @@
 ---
-title: Viewing type definitions
-description: Learn about the Go To Definition and Peek Definition features that enable you to easily view the definition of a type or member.
+title: View type definitions with Go To and Peek features
+description: Explore the Go To Definition and Peek Definition features that enable you to easily view the definition of a type or member in Visual Studio.
 ms.date: 01/10/2018
 ms.topic: conceptual
 helpviewer_keywords:
@@ -12,11 +12,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # View type and member definitions
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Developers often need to view the source code definitions for types or class members they use in their code. In Visual Studio, the **Go To Definition** and **Peek Definition** features enable you to easily view the definition of a type or member. If the source code is not available, metadata is displayed instead.
 
@@ -72,7 +70,7 @@ You can set an option to see decompiled source code when you view the definition
 > [!NOTE]
 > Visual Studio reconstructs method bodies using ILSpy decompilation. The first time you access this feature, you must agree to a legal disclaimer regarding software licensing and copyright and trademark laws.
 
-## See also
+## Related content
 
 - [Navigate code](../ide/navigating-code.md)
 - [How to: View and edit code by using Peek Definition (Alt+F12)](how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)

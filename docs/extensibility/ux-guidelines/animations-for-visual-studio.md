@@ -6,11 +6,10 @@ ms.topic: reference
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Animations for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## Animation fundamentals
 
 ### Animation best practices in Visual Studio
@@ -189,7 +188,6 @@ Progress indicators have a couple of notable advantages:
 - Determinate indicators give the user a sense of how far along the action is progressing, as well as a feeling of getting closer to the finish.
 
 ## <a name="BKMK_AnimationPatterns"></a> Animation patterns
-
 
 Animations in Visual Studio are meant to serve a specific function without hindering user productivity. Generally, animations in Visual Studio should be:
 

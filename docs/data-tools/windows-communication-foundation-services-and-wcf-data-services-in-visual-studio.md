@@ -1,6 +1,6 @@
 ---
-title: Windows Communication Foundation and WCF Data Services
-description: Explore Windows Communication Foundation (WCF) Services and WCF Data Services in Visual Studio, so you can create distributed applications.
+title: Windows Communication Foundation and Data Services
+description: Explore Windows Communication Foundation (WCF) Services and WCF Data Services in Visual Studio, and create distributed applications.
 ms.date: 11/01/2023
 ms.topic: overview
 dev_langs:
@@ -33,11 +33,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Windows Communication Foundation Services and WCF Data Services in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio provides tools for working with Windows Communication Foundation (WCF) and WCF Data Services, Microsoft technologies for creating distributed applications. This topic provides an introduction to services from a Visual Studio perspective. For the full documentation, see [WCF Data Services 4.5](/dotnet/framework/data/wcf/index).
 

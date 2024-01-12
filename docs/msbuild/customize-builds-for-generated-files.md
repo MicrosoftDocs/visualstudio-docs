@@ -1,6 +1,6 @@
 ---
 title: Handle generated files in a build
-description: Learn how to modify MSBuild project files so that files that are generated during the build proceed are included in build output.
+description: Customize MSBuild project files in Visual Studio so that files generated during the build process are included in build output.
 ms.date: 02/28/2023
 ms.topic: how-to
 helpviewer_keywords:
@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # Customize a build to handle generated files
 
@@ -38,6 +38,6 @@ Files generated during execution don't exist during the evaluation phase, theref
 
 Adding your generated file to `None` or `Content` is sufficient for the build process to see it. You also want to ensure it gets added at the right time. Ideally, your target runs before `BeforeBuild`. `AssignTargetPaths` is another possible target, as it is the final opportunity to modify `None` and `Content` items (among others) before they are transformed into new items. See [Common Item Types](common-msbuild-project-items.md).
 
-## Next steps
+## Related content
 
-Explore other possible customization scenarios at [Customize your build](customize-your-build.md).
+- [Customize your build](customize-your-build.md).

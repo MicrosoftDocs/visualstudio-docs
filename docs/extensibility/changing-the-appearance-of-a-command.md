@@ -10,11 +10,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Change the appearance of a command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can provide feedback to your user by changing the appearance of a command. For example, you may want a command to look different when it is unavailable. You can make commands available or unavailable, hide or show them, or check or uncheck them on the menu.
 
 To change the appearance of a command, perform one of these actions:
@@ -79,7 +78,7 @@ To change the appearance of a command, perform one of these actions:
 
 8. On the **Tools** menu you should now see **New Text**. Click **New Text**. The command should now be grayed out.
 
-## See also
+## Related content
 - [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md)
 - [How VSPackages add user interface elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)
 - [Extending menus and commands](../extensibility/extending-menus-and-commands.md)

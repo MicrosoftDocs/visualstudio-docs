@@ -1,17 +1,15 @@
 ---
-title: Your first extension
-description: Shows you the few simple steps to get your first Visual Studio extension up and running.
+title: "Create Visual Studio extensions with C# & .NET Framework"
+description: Create a Visual Studio extension with the .NET Framework and C# and an existing project template file, such as Empty VSIX Project (Community).
 ms.date: 12/01/2021
 ms.topic: conceptual
 author: madskristensen
 ms.author: madsk
 manager: pchapman
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-sdk
+
+ms.subservice: extensibility-integration
 ---
 # Your first Visual Studio extension
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article walks you through some simple steps to get your first Visual Studio extension up and running. A Visual Studio extension is written using the .NET Framework and C#. If you're already a .NET developer, you will find that writing extensions is similar to writing most other .NET programs and libraries.
 
@@ -144,7 +142,7 @@ Congratulations!!
 
 You can find the code for this extension in the [samples repository](https://github.com/VsixCommunity/Samples).
 
-## Additional resources
+## Related content
 
 * [Anatomy of extensions](extension-anatomy.md)
 * [Menus & Commands](../recipes/menus-buttons-commands.md)

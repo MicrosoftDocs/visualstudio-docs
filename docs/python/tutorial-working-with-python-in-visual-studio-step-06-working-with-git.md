@@ -1,18 +1,16 @@
 ---
 title: Python in Visual Studio tutorial step 6, work with Git
 titleSuffix: ""
-description: Step 6 of a core walkthrough of Python in Visual Studio, covering Visual Studio's Git-related features.
+description: Step 6 of a core walkthrough of Python in Visual Studio that demonstrates features for working with Git in Visual Studio.
 ms.date: 09/01/2023
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
+ms.subservice: python
 ---
 
 # Step 6: Work with Git
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Previous step: [Install packages and manage your Python environment](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md)**
 

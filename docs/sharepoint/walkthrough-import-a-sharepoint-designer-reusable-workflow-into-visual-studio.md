@@ -15,11 +15,9 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
+ms.subservice: sharepoint-development
 ---
 # Walkthrough: Import a SharePoint Designer reusable workflow
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
   This walkthrough demonstrates how to import a reusable workflow created in SharePoint Designer 2010 into a Visual Studio SharePoint workflow project.
 
@@ -116,7 +114,7 @@ ms.technology: sharepoint-development
 
 15. Choose the **Add** button, and then choose the **OK** button.
 
-     The action statement now reads **Set Assigned To to Current Item:CreatedBy**.
+     The action statement now reads **Set Assigned To Current Item:CreatedBy**.
 
 ## Save and deploy the reusable workflow
  Because Visual Studio can import only *.wsp* files, you must save the reusable workflow as a *.wsp* file and deploy it to SharePoint before importing it into Visual Studio.
@@ -266,7 +264,7 @@ ms.technology: sharepoint-development
 
      Notice that two actions are performed by the workflow: your name appears in the task's **Assigned To** column, and an announcement appears in the **Announcements** list.
 
-## See also
+## Related content
 - [Import items from an existing SharePoint site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
 - [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)

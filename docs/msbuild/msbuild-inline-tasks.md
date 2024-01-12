@@ -1,14 +1,14 @@
 ---
-title: MSBuild Inline Tasks
-description: Learn how to create MSBuild inline tasks by compiling a class that implements the Microsoft.Build.Framework.ITask interface.
+title: Create MSBuild inline tasks 
+description: Create MSBuild inline tasks by compiling a class that implements the Microsoft.Build.Framework.ITask interface in Visual Studio.
 ms.date: 10/31/2023
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, tasks
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # MSBuild inline tasks
 
@@ -189,7 +189,7 @@ File.WriteAllText(Path, content);
 </Project>
 ```
 
-## See also
+## Related content
 
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Walkthrough: Create an inline task](../msbuild/walkthrough-creating-an-inline-task.md)

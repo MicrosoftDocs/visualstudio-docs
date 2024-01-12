@@ -6,11 +6,9 @@ ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # View events with IntelliTrace in Visual Studio Enterprise (C#, Visual Basic)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use IntelliTrace to collect information about specific events or categories of events, or about individual function calls in addition to events. The following procedures show how to do this.
 
@@ -77,7 +75,7 @@ You can try debugging with just IntelliTrace events. IntelliTrace events are deb
 
 4. If you didn't find the bug, try examining other events leading up to the bug. You can also have IntelliTrace record call information so you can step through function calls.
 
-## Next Steps
+## Related content
 
 You can use some of the advanced features of IntelliTrace with historical debugging:
 

@@ -1,6 +1,6 @@
 ---
 title: Templates for projects and files
-description: Learn about how project and item templates provide reusable stubs that give users some basic code and structure.
+description: Explore how project and item templates in Visual Studio provide reusable stubs that give users some basic code and structure.
 ms.date: 12/20/2022
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,11 +11,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # What are project and item templates?
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Project and item templates are reusable stubs that give you some basic code and structure to customize for your own purposes. Typically, you start with a project template and then you add an item template.
 
@@ -45,7 +43,7 @@ When these files are compressed into a *.zip* file and put in the correct folder
 
 For more information about template folders, see [How to: Locate and organize project and item templates](how-to-locate-and-organize-project-and-item-templates.md).
 
-## See also
+## Related content
 
 - [Customize templates](../ide/customizing-project-and-item-templates.md)
 - [NuGet packages in Visual Studio templates](/nuget/visual-studio-extensibility/visual-studio-templates)

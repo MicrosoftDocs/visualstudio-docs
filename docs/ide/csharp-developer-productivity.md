@@ -1,18 +1,16 @@
 ---
 title: Productivity tips for .NET developers
-description: An overview of navigation, code analysis, unit testing, and other features to help you write better .NET code faster.
+description: Review productivity tips about navigation, code analysis, unit testing, and other features to help you write better C# code for .NET faster.
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.date: 08/08/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - editor
 ---
 # Visual Studio productivity guide for C# developers
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Learn how Visual Studio makes [.NET](/dotnet/fundamentals/) developers who use [C#](/dotnet/csharp/) more productive than ever. Take advantage of our performance and productivity improvements like navigation to decompiled assemblies, variable name suggestions as you type, a hierarchy-view in **Test Explorer**, Go To All (**Ctrl**+**T**) to navigate to file/type/member/symbol declarations, an intelligent **Exception Helper**, code style configuration and enforcement, and many refactorings and code fixes.
 
@@ -327,7 +325,7 @@ Here's a list of editor and productivity features to make writing code more effi
 | [Paste JSON or XML as classes](reference/paste-json-xml.md) | Copy any JSON or XML text fragment to the clipboard and paste it as strongly typed .NET classes into any C# code file. | **Edit** > **Paste Special** > **Paste JSON As Classes** (or **Paste XML As Classes**) |
 | [Copy and trim indentation](writing-code-in-the-code-and-text-editor.md#copy-and-paste-code) | Copy code from Visual Studio to another program (Outlook, Teams, etc.), without having to manually fix indentation after you paste your code. Available in Visual Studio 2022 [version 17.7](/visualstudio/releases/2022/release-notes) and later. |
 
-## See also
+## Related content
 
 - [.NET C# documentation](/dotnet/csharp/)
 - [Working with C# in VS Code](https://code.visualstudio.com/docs/languages/csharp)

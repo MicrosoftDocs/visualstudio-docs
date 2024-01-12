@@ -1,6 +1,6 @@
 ---
-title: "Publish overview"
-description: "Learn about the Publish window in Visual Studio"
+title: Publish tool for ASP.NET, .NET Core, & Python apps
+description: Explore the Publish tool in Visual Studio and deploy ASP.NET, .NET Core, and Python applications with a publishing profile (.pubxml file).
 ms.date: 10/14/2021
 ms.topic: overview
 dev_langs:
@@ -15,11 +15,9 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 monikerRange: '>= vs-2019'
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Overview of Publish
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 For ASP.NET, .NET Core, and Python apps, you can use the Publish tool to deploy your applications.
 

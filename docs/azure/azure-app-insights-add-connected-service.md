@@ -1,16 +1,14 @@
 ---
-title: Add Azure Application Insights by using Connected Services
-description: Add Azure Application Insights to your app by using the Visual Studio to add a connected service
+title: Add Application Insights with Connected Services
+description: Connect Azure Application Insights to your application by using Connected Services in Visual Studio on Windows and add a connected service.
 author: AngelosP
 manager: jmartens
-ms.technology: vs-azure
+ms.subservice: azure-development
 ms.topic: conceptual
 ms.date: 05/03/2023
 ms.author: angelpe
 ---
 # Add Azure Application Insights by using Visual Studio Connected Services
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 With Visual Studio, you can connect any of the following to Azure Application Insights by using the **Connected Services** feature:
 
@@ -33,6 +31,7 @@ The connected service functionality adds all the needed references and connectio
 
 - Visual Studio with the Azure workload installed.
 - A project of one of the supported types
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 :::moniker range="vs-2019"
 
@@ -148,7 +147,7 @@ For ASP.NET projects, see [Configure Application Insights for your ASP.NET websi
 
 The links take you to the section of the articles after the initial setup steps, which you've already done.
 
-## See also
+## Related content
 
 - [Azure Monitor product page](https://azure.microsoft.com/services/monitor/)
 - [Azure App Insights documentation](/azure/azure-monitor/app/app-insights-overview/)

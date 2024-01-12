@@ -10,12 +10,11 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 ---
 
 # Set CLR attributes on an element
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Custom attributes are special attributes that can be added to domain elements, shapes, connectors, and diagrams. You can add any attribute that inherits from the `System.Attribute` class.
 
 ## Add a custom attribute
@@ -38,6 +37,6 @@ Custom attributes are special attributes that can be added to domain elements, s
 
    `[` *AttributeName* `(` *ParameterName* `=` *Type* `)]`
 
-## See also
+## Related content
 
 - [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

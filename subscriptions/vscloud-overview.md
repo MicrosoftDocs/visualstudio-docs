@@ -5,7 +5,7 @@ ms.author: amast
 manager: shve
 ms.date: 03/28/2023
 ms.topic: overview
-description:  Rent Visual Studio Professional or Visual Studio Enterprise on a month-to-month or annual basis, with no long-term contract.
+description: Purchase (rent) Visual Studio Professional or Visual Studio Enterprise on a month-to-month or annual basis, with no long-term contract.
 ---
 
 # Buy Visual Studio Professional and Visual Studio Enterprise cloud subscriptions
@@ -55,7 +55,6 @@ If you purchased more than one subscription, you can proceed to the
 > [!div class="mx-imgBorder"]
 > ![Assign subscriptions to others](_img/buy-vs-subscriptions/buy-vs-sub-success-many.png "Screenshot of a monthly subscription purchase dialog. 'Assign to users' button is highlighted.")
 
-
 > [!div class="mx-imgBorder"]
 > ![View subscriptions](_img/buy-vs-subscriptions/assign-subscriptions.png "Screenshot of the Visual Studio subscriptions management portal.  The Add blade is highlighted. Select 'Add' to assign subscriptions to users.")
 
@@ -71,7 +70,6 @@ To cancel subscriptions, you just need to set the number of subscriptions for yo
 4. Locate the entry for the subscriptions you wish to cancel, and select **Change quantity**.
 1. Set the quantity to zero (0). 
 Your subscriptions remain in place until their scheduled billing date, but don't renew when the billing date is reached.   
-
 
 ## Frequently asked questions
 

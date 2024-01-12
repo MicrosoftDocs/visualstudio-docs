@@ -1,8 +1,8 @@
 ---
 title: Configure projects to target multiple platforms
-description: Learn how Visual Studio provides a way for a solution to target several different CPU architectures, or platforms, at once.
+description: Configure project solutions in Visual Studio to simultaneously target multiple platforms, including platforms with different CPU architectures.
 ms.date: 11/01/2023
-ms.technology: vs-ide-compile
+ms.subservice: compile-build
 ms.topic: how-to
 helpviewer_keywords:
 - projects [Visual Studio], targeting platforms
@@ -12,8 +12,6 @@ ms.author: ghogen
 manager: jmartens
 ---
 # Configure projects to target multiple platforms
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio provides a way for a solution to target several different CPU architectures, or platforms, at once. The properties to set these are accessed through the **Configuration Manager** dialog box.
 
@@ -55,7 +53,7 @@ Because you can change the settings based on the combination of configuration an
 
    It is possible to have a solution-level platform set to, for example, x64, and have no projects within that solution targeting the same platform. It is also possible to have multiple projects in your solution, each targeting different platforms. It is recommended that if you have one of these situations, you create a new configuration with a descriptive name to avoid confusion.
 
-## See also
+## Related content
 
 - [How to: Create and edit configurations](../ide/how-to-create-and-edit-configurations.md)
 - [Understand build configurations](../ide/understanding-build-configurations.md)

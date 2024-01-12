@@ -1,11 +1,11 @@
 ---
-title: Migrate Visual Studio subscriptions to a new agreement
+title: Migrate subscriptions to a new agreement
 author: evanwindom
 ms.author: amast
 manager: shve
 ms.date: 11/02/2023
 ms.topic: how-to
-description:  This article describes how admins can migrate assigned subscriptions from one agreement to another.
+description: Migrate assigned Visual Studio subscriptions from one agreement to another, and understand how the move affects subscription benefits and Azure credits.
 ---
 
 # Migrate subscriptions from one agreement to another
@@ -114,7 +114,6 @@ Take these steps to open your exported subscriptions list and move the relevant 
    > [!TIP]
    > If you have a lot of subscribers, you might find it helpful to use keyboard shortcuts when you're copying and pasting data. 
    > To select all the entries in a column like "Subscriber Name", select the first entry in the column (not the column heading), select and hold **Ctrl+Shift**, and then select the Down arrow key. This will select all the data in that column. 
-
 
 4. When all your data is moved to the bulk add template, save the template and close it. This list is the subscription list that you'll upload to your new agreement.
 

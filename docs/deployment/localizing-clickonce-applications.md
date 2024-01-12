@@ -19,11 +19,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Localize ClickOnce applications
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Localization is the process of making your application appropriate for a specific culture. This process involves translating user interface (UI) text to a region-specific language, using correct date and currency formatting, adjusting the size of controls on a form, and mirroring controls from right to left if necessary.
 
  Localizing your application results in the creation of one or more satellite assemblies. Each assembly contains UI strings, images, and other resources specific to a given culture. (Your application's main executable file contains the strings for the default culture for your application.)
@@ -77,7 +76,7 @@ Localization is the process of making your application appropriate for a specifi
 
 - You can set the <xref:System.Threading.Thread.CurrentUICulture%2A> property programmatically in your application. (This property must be set before you call the <xref:System.Windows.Forms.Application.Run%2A> method.)
 
-## See also
+## Related content
 - [\<assemblyIdentity> element](../deployment/assemblyidentity-element-clickonce-deployment.md)
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
 - [Globalize Windows forms](/dotnet/framework/winforms/advanced/globalizing-windows-forms)

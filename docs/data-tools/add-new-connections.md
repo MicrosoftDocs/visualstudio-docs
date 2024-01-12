@@ -1,20 +1,16 @@
 ---
-title: Connect to a database or open an MDF file in Visual Studio
-description: Connect to a database or data service with ADO.NET in Visual Studio, or connect to a database opened from an MDF file in Visual Studio.
-ms.date: 03/07/2023
+title: Connect to database or open MDF file (ADO.NET)
+ms.date: 11/09/2023
+description: Connect to a database or data service with ADO.NET in Visual Studio, or connect to a database opened from a median disk file (.mdf).
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Connect to a database in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
-[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
-
-The steps in this article show how to connect to a data source in the Visual Studio IDE. The data source can be a local database, online data service, or a database opened from an `.mdf` file. You can work directly with your data in Visual Studio. You can execute queries, edit data, create and edit tables and other schema properties, edit stored procedures and functions, triggers, and so on. These functions are independent of the programming language or .NET version you are using.
+The steps in this article show how to connect to a data source in the Visual Studio IDE. The data source can be a local database, online data service, or a database opened from an [`.mdf` file](#open-an-mdf-database-file). You can work directly with your data in Visual Studio. You can execute queries, edit data, create and edit tables and other schema properties, edit stored procedures and functions, triggers, and so on. These functions are independent of the programming language or .NET version you are using.
 
 ## Server Explorer and SQL Server Object Explorer
 
@@ -58,16 +54,41 @@ To create a connection to the database, click the **Connect to database** icon i
 
 This brings up the **Add Connection** dialog box. Here, we have entered the name of the SQL Server LocalDB instance, `(localdb)\MSSqlLocalDB`, which is usually installed with Visual Studio.
 
+If you don't have access to another database, and you don't see LocalDB installed, you can install LocalDB through the Visual Studio Installer, as part of the **Data storage and processing** workload, the **ASP.NET and web development** workload, or as an individual component. See [Modify Visual Studio](../install/modify-visual-studio.md).
+
 :::moniker range="<=vs-2019"
 ![Screenshot of Add New Connection dialog box.](../data-tools/media/add-new-connection-dialog.png)
 :::moniker-end
 :::moniker range=">=vs-2022"
-![Screenshot of Add New Connection dialog box.](./media/vs-2022/add-new-connection.png)
+![Screenshot of Add New Connection dialog box.](./media/vs-2022/add-new-connection-with-trust-selected.png)
+
+In Visual Studio 2022 version 17.8 and later, the dialog includes two new options (**Encrypt** and **Trust Server Certificate**) that go into the connection string and affect the security settings used for your connection. These options support the stricter security features of the Microsoft.Data.SqlClient 4.0 database driver. See [Changes in encryption and certificate validation behavior](/sql/connect/ado-net/encryption-and-certificate-validation#changes-in-encryption-and-certificate-validation-behavior).
+
+The recommended security practice is to use encryption and install a certificate on the server for it. See [Encryption and certificate validation](/sql/connect/ado-net/encryption-and-certificate-validation). To opt out of this enhanced security, set **Encrypt** to **Optional (False)**.
+
+If you don't set **Encrypt** to optional with Visual Studio 17.8 or later, which use version 4.0 of the Microsoft.Data.SqlClient, then encryption defaults to mandatory. This is a breaking change from the behavior in earlier versions. If you don't have a valid certificate or don't choose **Trust Server Certificate**, you get the following error message:
+
+> Encryption was enabled on this connection, review your SSL and certificate configuration for the target SQL Server, or enable 'Trust server certificate' in the connection dialog.
+>
+> **Additional information**
+>
+> A connection was successfully established with the server, but then an error occurred during the login process. (provider: SSL Provider, error: 0 - The certificate chain was issued by an authority that is not trusted.) (Microsoft SQL Server)
+
 :::moniker-end
 
-If you don't have access to another database, and you don't see LocalDB installed, you can install LocalDB through the Visual Studio Installer, as part of the **Data storage and processing** workload, the **ASP.NET and web development** workload, or as an individual component. See [Modify Visual Studio](../install/modify-visual-studio.md).
+### Authentication types
 
-### MDF files
+You can choose from a variety of authentication types that cover a wide range of scenarios. For details, see [Authentication types](/sql/ssdt/connect-to-an-existing-database-in-sql-server-data-tools#AuthTypes).
+
+:::moniker range=">=vs-2022"
+
+In Visual Studio 17.8 and later, the names of the authentication options for SQL connections have been updated to reflect the name change from Active Directory to Microsoft Entra.
+
+![Screenshot showing authentication types for Visual Studio 17.8 and later.](./media/vs-2022/authentication-options-microsoft-entra.png)
+
+:::moniker-end
+
+## Open an MDF database file
 
 The `.mdf` file stands for Master Database File and is a SQL database packaged into a file. These files have an associated `.ldf` (Log Database File) that contains the logs for that database. You can create new databases that are stored in `.mdf` files by adding a **Service-based Database** item to your project. See [Create a database and add tables](create-a-sql-database-by-using-a-designer.md).
 
@@ -157,6 +178,6 @@ If you're using the .NET Framework (not .NET Core or .NET 5 or later), and Windo
 
 If you're using .NET 5 or later, .NET Core or ASP.NET Core, you can connect your app to the database using [Connected Services](../azure/overview-connected-services.md). Using Connected Services, you can easily use a local development database, hosted by SQL LocalDB, SQL Server running in a container, or an on-premises instance of SQL Server, and then  transition to Azure SQL Database when you're ready to deploy to the cloud. For .NET 5 or later, .NET Core and ASP.NET Core, you should consider using [Entity Framework Core](/ef/core) as your database framework.
 
-## See also
+## Related content
 
 - [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)

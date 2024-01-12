@@ -1,7 +1,7 @@
 ---
 title: Install and use behind a firewall or proxy server
 description: Review the domain URLs, ports, and protocols that you might want to add to an allowlist or open if your organization uses a firewall or a proxy server
-ms.date: 10/10/2023
+ms.date: 11/27/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - network installation, Visual Studio
@@ -11,12 +11,10 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ---
 # Install and use Visual Studio and Azure Services behind a firewall or proxy server
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If you or your organization uses security measures such as a firewall or a proxy server, then there are domain URLs that you might want to add to an "allowlist" and ports and protocols that you might want to open so that you have the best experience when you install and use Visual Studio and Azure Services.
 
@@ -54,8 +52,9 @@ Because the Visual Studio Installer downloads files from various domains and the
 | \*.microsoftonline.com                | Sign-in location                            |
 | \*.live.com                           | Sign-in location                            |
 | github-releases.githubusercontent.com | Linux Development                           |
+| objects.githubusercontent.com         | Windows build tools                         |
+| github.com                            | Git for Windows & Windows Build Tools      |
 | az837173.vo.msecnd.net                | Development with Azure Storage              |
-| github.com/git-for-windows            | Git for Windows                             |
 
 #### Non-Microsoft domains
 
@@ -64,6 +63,7 @@ Because the Visual Studio Installer downloads files from various domains and the
 | archive.apache.org                | Mobile development with JavaScript (Cordova)                                                                                                |
 | cocos2d-x.org                     | Game development with C++ (Cocos)                                                                                                           |
 | download.epicgames.com            | Game development with C++ (Unreal Engine)                                                                                                   |
+| launcher-public-service-prod06.ol.epicgames.com | Game development with C++ (Unreal Engine)                                                                                     |
 | download.oracle.com               | Mobile development with JavaScript (Java SDK) <br /><br />Mobile Development with .NET (Java SDK)                                           |
 | public-cdn.cloud.unity3d.com      | Game development with Unity (Unity)                                                                                                         |
 | download.unity3d.com              | Game development with Unity (Unity)                                                                                                         |
@@ -100,7 +100,7 @@ To make sure that you have access to everything you want when you use Visual Stu
 | Remote Settings | az700632.vo.msecnd.net  | 443 | Used to turn off extensions that are known to cause problems in Visual Studio |
 | Windows Tools | developer.microsoft.com <br><br>dev.windows.com  <br><br>appdev.microsoft.com | https/443  | Used for Windows app store scenarios  |
 | JSON Schema <br>Discovery <br><br>JSON Schema <br>Definition<br><br>JSON Schema <br>Support for <br>Azure Resources  | json.schemastore.org <br>schemastoreorg.azurewebsites.net<br><br>json-schema.org<br><br>schema.management.azure.com  | http/80<br>https/443<br><br>http/80<br><br>https/443  | Used to discover and download JSON schemas that the user might use when editing JSON documents <br><br>Used to obtain the meta-validation schema for JSON<br><br>Used to obtain the current schema for Azure Resource Manager deployment templates  |
-| NPM package <br>discovery  | Skimdb.npmjs.com <br><br>Registry.npmjs.org <br><br>Api.npms.io  | https/443<br><br>http/80 &<br> https/443<br>https/443  | Required for searching for NPM packages, and used for client-side script package installation in web projects |
+| Npm package <br>discovery  | Skimdb.npmjs.com <br><br>Registry.npmjs.org <br><br>Api.npms.io  | https/443<br><br>http/80 &<br> https/443<br>https/443  | Required for searching for npm packages, and used for client-side script package installation in web projects |
 | Bower package<br> icons<br><br>Bower package <br>search | Bower.io <br><br>bowercache.azurewebsites.net <br>go.microsoft.com <br>Registry.bower.io | http/80<br><br>https/443<br>http/80<br>https/443  | Provides the default bower package icon  <br><br>Provides the ability to search for Bower packages  |
 | NuGet<br><br>NuGet package<br> discovery  | api.nuget.org <br>www.nuget.org <br>nuget.org <br>azuresearch-usnc.nuget.org <br>azuresearch-ussc.nuget.org <br>licenses.nuget.org <br>nuget.cdn.azure.cn <br>azuresearch-ea.nuget.org <br>azuresearch-sea.nuget.org <br><br>crl3.digicert.com <br>crl4.digicert.com <br>ocsp.digicert.com <br>cacerts.digicert.com  | https/443<br><br>http/80 &<br>https/443<br>  | Used to verify signed NuGet packages.<br><br>Required for searching for NuGet packages and versions  |
 | GitHub repository information  | api.github.com  | https/443  | Required for getting additional information about bower packages  |
@@ -116,10 +116,10 @@ To make sure that you have access to everything you want when you use Visual Stu
 | Updated web publish tooling <br>checks and extension <br>recommendations   | marketplace.visualstudio.com     | https/443   | Used for checking for the availability of updated publish tooling. If disabled, a potential recommended extension for web publishing may not be shown    |
 | Updated Azure Resource <br>Creation Endpoint Information   | \*.blob.core.windows.net   | https/443    | Used to update the endpoints used for the creation of Azure Resources for certain Azure Services. If disabled, the last downloaded or built in endpoint locations are used instead    |
 | Remote debugging and <br>Remote profiling of <br>Azure Websites    | &#42;.cloudapp.net <br> &#42;.azurewebsites.net    | 4022    | Used for attaching the remote debugger to Azure Websites. If disabled, attaching the remote debugger to Azure Websites will not work   |
-| Active Directory <br>Graph    | graph.windows.net    | https/443    | Used to provision  new Azure Active Directory applications. Also used by the Microsoft 365 MSGraph- connected service provider    |
+| Active Directory <br>Graph    | graph.windows.net    | https/443    | Used to provision  new Microsoft Entra applications. Also used by the Microsoft 365 MSGraph- connected service provider    |
 | Azure Functions <br>CLI Update <br>Check   | functionscdn.azureedge.net     | https/443      | Used for checking for updated versions of the Azure Functions CLI. If disabled, a cached copy (or the copy carried by the Azure Functions component) of the CLI will be used instead    |
 | Cordova     | npmjs.org<br>gradle.org    | http/80 &<br/>https/443      | HTTP is used for Gradle downloads during build; HTTPS is used to include Cordova plug-ins in projects   |
-| Cloud Explorer    | 1. &#60;clusterendpoint&#62; <br>Service Fabric <br>2. &#60;management endpoint&#62;<br>General Cloud Exp <br>3. &#60;graph endpoint&#62;<br>General Cloud Exp<br>4. &#60;storage account endpoint&#62;<br>Storage Nodes <br>5. &#60;Azure portal URLs&#62;<br>General Cloud Exp <br>6. &#60;key vault endpoints&#62; <br>Azure Resource Manager VM Nodes<br>7. &#60;PublicIPAddressOfCluster&#62;<br>Service Fabric Remote debugging and ETW Traces | <br>1.https/19080<br>2. https/443<br>3. https/443<br>4. https/443<br>5. https/443<br>6. https/443<br>7.tcp/dynamic                                                                               | 1. Example: test12.eastus.cloudapp.com<br>2. Retrieves subscriptions and retrieves/manages Azure resources<br>3. Retrieves Azure Stack subscriptions<br>4. Manages Storage resources (example: mystorageaccount.blob.core.windows.net)<br>5. "Open in Portal" context menu option (opens a resource in the Azure portal)<br>6. Creates and uses key vaults for VM debugging (Example: myvault.vault.azure.net) <br><br>7. Dynamically allocates block of ports based on number of nodes in the cluster and the available ports. <br><br>A port block will try to get three times the number of nodes with minimum of 10 ports.<br><br>For Streaming traces, an attempt is made to get the port block from 810. If any of that port block is already used, then an attempt is made to get the next block, and so on. (It the load balancer is empty, then ports from 810 are most likely used) <br><br>Similarly for debugging, four sets of the ports blocks are reserved: <br>- connectorPort: 30398, <br>- forwarderPort: 31398, <br>- forwarderPortx86: 31399,<br>- fileUploadPort: 32398<br> |
+| Cloud Explorer    | 1. &#60;clusterendpoint&#62; <br>Service Fabric <br>2. &#60;management endpoint&#62;<br>General Cloud Exp <br>3. &#60;graph endpoint&#62;<br>General Cloud Exp<br>4. &#60;storage account endpoint&#62;<br>Storage Nodes <br>5. &#60;Azure portal URLs&#62;<br>General Cloud Exp <br>6. &#60;key vault endpoints&#62; <br>Azure Resource Manager VM Nodes<br>7. &#60;PublicIPAddressOfCluster&#62;<br>Service Fabric Remote debugging and ETW Traces | <br>1.https/19080<br>2. https/443<br>3. https/443<br>4. https/443<br>5. https/443<br>6. https/443<br>7.tcp/dynamic                                                                               | 1. Example: test12.eastus.cloudapp.com<br>2. Retrieves subscriptions and retrieves/manages Azure resources<br>3. Retrieves Azure Stack subscriptions<br>4. Manages Storage resources (example: mystorageaccount.blob.core.windows.net)<br>5. "Open in Portal" context menu option (opens a resource in the Azure portal)<br>6. Creates and uses key vaults for VM debugging (Example: myvault.vault.azure.net) <br><br>7. Dynamically allocates block of ports based on number of nodes in the cluster and the available ports. <br><br>A port block will try to get three times the number of nodes with minimum of 10 ports.<br><br>For Streaming traces, an attempt is made to get the port block from 810. If any of that port block is already used, then an attempt is made to get the next block, and so on. (If the load balancer is empty, then ports from 810 are most likely used) <br><br>Similarly for debugging, four sets of the ports blocks are reserved: <br>- connectorPort: 30398, <br>- forwarderPort: 31398, <br>- forwarderPortx86: 31399,<br>- fileUploadPort: 32398<br> |
 | Cloud Services     | 1. RDP<br><br>2. core.windows.net <br><br>3.  management.azure.com<br> management.core.windows.net <br><br>4. &#42;.blob.core.windows.net <br>&#42;.queue.core.windows.net<br>&#42;.table.core.windows.net <br><br>5. portal.azure.com <br><br>6. &#60;user's cloud service&#62;.cloudapp.net <br> &#60;user's VM&#62;.&#60;region&#62;.azure.com                                                                                                    | 1. rdp/3389 <br><br> 2. https/443 <br><br> 3. https/443 <br><br> 4. https/443 <br><br> 5. https/443 <br><br>6. tcp <br>a) 30398 <br>b) 30400 <br>c) 31398 <br>d) 31400 <br>e) 32398 <br>f) 32400 | 1.  Remote Desktop to Cloud Services VM <br><br> 2.  Storage account component of the private diagnostics configuration <br><br> 3.  Azure portal <br><br> 4. Server Explorer - Azure Storage  &#42;  is customer named storage account  <br><br> 5.  Links to open the portal &#47; Download the subscription certificate &#47; Publish settings file <br><br>6. a)  Connector local port for remote debug for cloud service and VM<br> 6. b)  Connector public port for remote debug for cloud service and VM <br> 6. c)  Forwarder local port for remote debug for cloud service and VM <br> 6. d) Forwarder public port for remote debug for cloud service and VM  <br> 6. e) File uploader local port for remote debug for cloud service and VM <br> 6. f) File uploader public port for remote debug for cloud service and VM    |
 | Service Fabric   | 1. <br>learn.microsoft.com<br>aka.ms <br>go.microsoft.com <br><br>2. <br>vssftools.blob.core.windows.net <br>Vault.azure.com <br>Portal.azure.com <br><br> 3. &#42; vault.azure.net<br><br> 4. <br>app.vsaex.visualstudio.com<br>&#42; .vsspsext.visualstudio.com<br>clouds.vsrm.visualstudio.com <br>clouds.visualstudio.com<br>app.vssps.visualstudio.com <br>&#42; .visualstudio.com    | https/443      | 1. Documentation <br><br> 2. Create Cluster feature <br><br>3. The &#42; is the Azure key vault name (Example:- test11220180112110108.vault.azure.net  <br><br>  4. The &#42; is dynamic (Example: vsspsextprodch1su1.vsspsext.visualstudio.com)   |
 | Snapshot <br>Debugger      | 1. go.microsoft.com <br>2. management.azure.com <br> 3. &#42;.azurewebsites.net <br> 4. &#42;.scm.azurewebsites.net<br>5. api.nuget.org/v3/index.json <br>6. Remote Service/Servers IP address/FQDN    | 1. https/443 <br>2. https/443  <br>3. http/80 <br>4. https/443 <br>5. https/443 <br>6. Concord/<br> 4022 (Visual Studio version dependent)                                                       | 1. Query .json file for app service SKU size <br>2. Various Azure RM calls <br>3. Site warmup call via  <br>4. Customer's targeted App Service Kudu endpoint <br>5. Query Site Extension version published in nuget.org <br>6. [Remote debugging](../debugger/remote-debugging.md)    |
@@ -157,10 +157,11 @@ Here are a few more support options:
 * Suggest a feature, track product issues, and find answers in the [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8).
 * Use your [GitHub](https://github.com/) account to talk to us and other Visual Studio developers in the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).
 
-## See also
+## Related content
 
 * [Connectivity requirements for Live Share](/visualstudio/liveshare/reference/connectivity/)
 * [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
 * [Troubleshoot network-related errors in Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 * [Install behind a firewall or proxy server (Visual Studio for Mac)](/visualstudio/mac/install-behind-a-firewall-or-proxy-server)
+* [Configure network settings for Copilot in Visual Studio](https://docs.github.com/en/copilot/configuring-github-copilot/configuring-network-settings-for-github-copilot?tool=visualstudio#configuring-proxy-settings-for-github-copilot)

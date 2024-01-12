@@ -15,11 +15,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
+ms.subservice: sharepoint-development
 ---
 # Customize a SharePoint feature
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can create and customize SharePoint features by using the Feature Designer in Visual Studio. For example, you can set the Feature scope and add other Features as dependencies. By default, the Feature Designer is opened when you add a new Feature in Solution Explorer or the SharePoint Package Explorer.
 
 ## Opening the Feature Designer
@@ -85,5 +84,5 @@ ms.technology: sharepoint-development
 
 2. The template is refreshed with the original text, and any changes to the XML are lost.
 
-## See also
+## Related content
 - [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

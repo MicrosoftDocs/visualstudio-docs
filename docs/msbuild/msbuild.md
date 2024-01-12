@@ -1,15 +1,15 @@
 ---
-title: MSBuild
-description: Learn about how the Microsoft Build Engine (MSBuild) platform provides a project file with an XML schema to control builds.
-ms.date: 3/15/2023
-ms.topic: conceptual
+title: Use the MSBuild XML schema to control builds
+description: Explore how the Microsoft Build Engine (MSBuild) platform provides a project file with an XML schema to control builds with properties, items, tasks, and targets.
+ms.date: 11/03/2023
+ms.topic: overview
 helpviewer_keywords:
 - MSBuild, about MSBuild
 - MSBuild, overview
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # MSBuild
 
@@ -96,7 +96,7 @@ The command line `dotnet build --help` lists the command-line options specific t
  You can define a property conditionally by placing a `Condition` attribute in the element. The contents of conditional elements are ignored unless the condition evaluates to `true`. In the following example, the `Configuration` property is defined if it hasn't yet been defined.
 
 ```xml
-<Configuration  Condition=" '$(Configuration)' == '' ">DefaultValue</SomeProperty>
+<Configuration  Condition=" '$(Configuration)' == '' ">DefaultValue</Configuration>
 ```
 
  Properties can be referenced throughout the project file by using the syntax $(\<PropertyName>). For example, you can reference the properties in the previous examples by using `$(BuildDir)` and `$(Configuration)`.
@@ -173,7 +173,7 @@ The command line `dotnet build --help` lists the command-line options specific t
 
 ## <a name="BKMK_Multitargeting"></a> Multitargeting
 
- By using Visual Studio, you can compile an application to run on any one of several versions of .NET Framework. For example, you can compile an application to run on .NET Framework 2.0 on a 32-bit platform, and you can compile the same application to run on .NET Framework 4.5 on a 64-bit platform. The ability to compile to more than one framework is named multitargeting.
+ By using Visual Studio, you can compile an application to run on any one of several versions of .NET Framework or .NET Core, including .NET 5 and later. For example, you can compile an application to run on .NET Framework 4 on a 32-bit platform, and you can compile the same application to run on .NET Framework 4.8 on a 64-bit platform. The ability to compile to more than one framework is named multitargeting.
 
  These are some of the benefits of multitargeting:
 

@@ -1,14 +1,14 @@
 ---
-title: Use MSBuild
-description: Learn the various parts of an MSBuild project file, including items, item metadata, properties, targets, and tasks.
+title: "MSBuild Tutorial: Install and create a project"
+description: Explore the various parts of an MSBuild project file, including items, item metadata, properties, targets, and build tasks.
 ms.date: 10/17/2023
-ms.topic: conceptual
+ms.topic: tutorial
 helpviewer_keywords:
 - MSBuild, tutorial
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # Tutorial: Use MSBuild
 
@@ -84,7 +84,7 @@ Project files are XML-formatted files with the root node [Project](../msbuild/pr
 <Project ToolsVersion="15.0"  xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 ```
 
-Most .NET projects have a `Sdk` attribute. These projects are called SDK-style projects.
+Most .NET projects have an `Sdk` attribute. These projects are called SDK-style projects.
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
@@ -94,10 +94,9 @@ There are many variations of .NET SDKs for special purposes; they're described a
 
 The work of building an application is done with [Target](../msbuild/target-element-msbuild.md) and [Task](../msbuild/task-element-msbuild.md) elements.
 
-- A task is the smallest unit of work, in other words, the "atom" of a build. Tasks are independent executable components, which can have inputs and outputs. There are no tasks currently referenced or defined in the project file. You add tasks to the project file in the following sections. For more information, see the [Tasks](../msbuild/msbuild-tasks.md) topic.
+- A task is the smallest unit of work, in other words, the "atom" of a build. Tasks are independent executable components, which can have inputs and outputs. There are no tasks currently referenced or defined in the project file. You add tasks to the project file in the following sections. For more information, see [Tasks](../msbuild/msbuild-tasks.md).
 
-- A target is a named sequence of tasks. For more information, see the [Targets](../msbuild/msbuild-targets.md) topic.
-- [it might be a named sequence of tasks, but critically, it represents something to be built or done, so it should be defined in a goal-oriented way]
+- A target is a named sequence of tasks. It might be a named sequence of tasks, but critically, it represents something to be built or done, so it should be defined in a goal-oriented way. For more information, see [Targets](../msbuild/msbuild-targets.md).
 
 The default target is not defined in the project file. Instead, it's specified in imported projects. The [Import](../msbuild/import-element-msbuild.md) element specifies imported projects. For example, in a C# project, the default target is imported from the file *Microsoft.CSharp.targets*.
 
@@ -622,7 +621,7 @@ Notice that metadata expressed in this syntax doesn't cause batching.
 
 If you're primarily using the .NET SDK, continue reading at [MSBuild Reference for .NET SDK Projects](/dotnet/core/project-sdk/msbuild-props).
 
-## See also
+## Related content
 
 - [MSBuild overview](../msbuild/msbuild.md)
 - [MSBuild reference](../msbuild/msbuild-reference.md)

@@ -1,6 +1,6 @@
 ---
 title: "Publish to Azure by importing publish settings"
-description: "Create and import publish settings to deploy an application from Visual Studio to Azure App Service"
+description: Create and import publish settings to deploy ASP.NET and ASP.NET Core web applications from Visual Studio to Azure App Service.
 ms.date: 10/22/2021
 ms.topic: tutorial
 helpviewer_keywords:
@@ -8,11 +8,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Get publish settings from Azure and import into Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use the **Publish** tool to import publish settings and then deploy your app. In this article, we use publish settings for Azure App Service. These steps apply to ASP.NET and ASP.NET Core web apps. 
 

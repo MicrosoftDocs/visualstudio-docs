@@ -6,11 +6,9 @@ ms.topic: conceptual
 author: madskristensen
 ms.author: madsk
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Developer Community guidelines
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Developer Community tracks issues and feature suggestions for Visual Studio.
 
@@ -110,6 +108,6 @@ Any violations to the discussion etiquette can lead to removal of the comment an
 
 Comments and replies are publicly visible, but any attached files are privately shared with Microsoft only. This visibility is beneficial because it allows the entire community to see the issues and solutions found by other users. If you're concerned about the privacy of your data or identity, you have options. Read more about [Developer Community data privacy](./developer-community-privacy.md).
 
-## Next steps
+## Related content
 
 Head on over to the [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8) to report problems, suggest features, or browse through the existing tickets. Enjoy!

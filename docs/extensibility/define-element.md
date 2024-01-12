@@ -9,11 +9,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Define element
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Defines a symbol name and value pair. This symbol can be evaluated by conditional attributes. For more information, see [Conditional attributes](../extensibility/vsct-xml-schema-conditional-attributes.md). See also the [Symbols element](../extensibility/symbols-element.md).
 
 ## Syntax

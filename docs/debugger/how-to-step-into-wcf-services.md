@@ -1,5 +1,5 @@
 ---
-title: Step into WCF Services
+title: Step into WCF services in a Visual Studio solution
 description: Step into a Windows Communication Foundation (WCF) service. If it's in the same Visual Studio solution as the client, hit breakpoints inside the WCF service.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -14,11 +14,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Step into WCF Services
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In Visual Studio 2012, you can step into a WCF service. If the WCF service is in the same Visual Studio solution as the client, you can hit breakpoints inside the WCF Service.
 
  For stepping to work, you must have debugging enabled in the app.config or Web.config file. For information about how to enable debugging and for limitations on stepping into WCF services, see [Limitations on WCF Debugging](../debugger/limitations-on-wcf-debugging.md).
@@ -35,7 +34,7 @@ In Visual Studio 2012, you can step into a WCF service. If the WCF service is in
 
 5. Run to the breakpoint, then begin stepping. The debugger will step into the service automatically.
 
-## See also
+## Related content
 - [Debugging WCF Services](../debugger/debugging-wcf-services.md)
 - [Limitations on WCF Debugging](../debugger/limitations-on-wcf-debugging.md)
 - [How to: Debug a Self-Hosted WCF Service](../debugger/how-to-debug-a-self-hosted-wcf-service.md)

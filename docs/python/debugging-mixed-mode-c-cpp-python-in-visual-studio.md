@@ -6,11 +6,9 @@ ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
+ms.subservice: python
 ---
 # Debug Python and C++ together
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Most regular Python debuggers support debugging of only Python code. In practice, however, Python is used in conjunction with C or C++ in scenarios requiring high performance or the ability to directly invoke platform APIs. (See [Create a C++ extension for Python](working-with-c-cpp-python-in-visual-studio.md) for a walkthrough.)
 
@@ -41,7 +39,6 @@ Mixed-mode debugging features include the following, as explained in this articl
 1. When attaching the mixed-mode debugger to an existing process (**Debug** > **Attach to Process**), use the **Select** button to open the **Select Code Type** dialog. Then set the **Debug these code types** option and select **Python (native)** from the list:
 
     ![Screenshot of user selecting the Python (native) code type](media/mixed_mode_debugging_attach_type_updated.png)
-
 
     The code type settings are persistent, so if you want to disable mixed-mode debugging when attaching to a different process later, clear the **Python (native)** code type and apply the **Native** code type.
 

@@ -1,16 +1,14 @@
 ---
-title: Set the Visual Studio dark theme and change text colors
+title: Change font colors and themes
 description: Learn how to change the default Visual Studio color theme in the IDE and how to change the font colors in the code editor.
 ms.date: 08/04/2023
 ms.topic: how-to
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Personalize the Visual Studio IDE and the editor
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ::: moniker range="vs-2022"
 
@@ -135,7 +133,7 @@ Explore the other customization options in the [**Fonts and Colors** > **Options
 
 ::: moniker-end
 
-## See also
+## Related content
 
 - [Change fonts, colors, and themes in Visual Studio](../ide/how-to-change-fonts-and-colors-in-visual-studio.md)
 - [Change text case in the editor](../ide/how-to-change-text-case-in-the-editor.md)

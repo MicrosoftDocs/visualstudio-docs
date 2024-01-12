@@ -1,17 +1,15 @@
 ---
-title: Lint Python Code
-description: Run a linter in Visual Studio to check issues in Python code, including command-line options to customize linting.
+title: Lint Python Code and check for issues
+description: Run a linter in Visual Studio to check issues in Python code, and explore command-line options to customize the linting process.
 ms.date: 08/11/2023
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
+ms.subservice: python
 ---
 
 # Lint Python code
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Linting highlights syntactical and stylistic problems in your Python source code, which often helps you identify and correct subtle programming errors or unconventional coding practices that can lead to errors. For example, linting detects use of an uninitialized or undefined variable, calls to undefined functions, missing parentheses, and even more subtle issues such as attempting to redefine built-in types or functions. Linting is distinct from Formatting because linting analyzes how the code runs and detects errors whereas formatting only restructures how code appears.
 

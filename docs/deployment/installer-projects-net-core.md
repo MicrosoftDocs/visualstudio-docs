@@ -1,6 +1,6 @@
 ---
-description: "Packaging applications as an MSI is often accomplished using the Visual Studio Installer Projects Extension."
 title: "Visual Studio Installer Projects and .NET"
+description: Explore how to use the Visual Studio Installer Projects Extension to package .NET Core 3.1 or .NET 5 and later version applications for Microsoft Installer (MSI).
 titleSuffix: ""
 ms.date: "11/01/2023"
 ms.topic: "conceptual"
@@ -14,8 +14,6 @@ manager: MSLukeWest
 monikerRange: '>= vs-2019'
 ---
 # Visual Studio Installer Projects Extension and .NET
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Packaging applications as an MSI is often accomplished using the Visual Studio Installer Projects Extension.
 
@@ -72,7 +70,7 @@ The **.NET Core Runtime...** option should be selected for console applications,
 >[!NOTE]
 >These items are present starting with the Visual Studio 2019 Update 7 release.
 
-## See also
+## Related content
 
 - [Prerequisites Dialog Box](../ide/reference/prerequisites-dialog-box.md)
 - [Application Deployment Prerequisites](../deployment/application-deployment-prerequisites.md)

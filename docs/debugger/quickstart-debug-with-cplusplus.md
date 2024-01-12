@@ -1,6 +1,6 @@
 ---
-title: "Debug C++"
-description: "Debug native code using the Visual Studio debugger"
+title: Debug C++ code, set breakpoints, inspect variables
+description: Debug native C++ code by using the Visual Studio debugger, create a project, set breakpoints, inspect variables, and edit code while debugging.
 ms.date: 08/06/2018
 ms.topic: quickstart
 helpviewer_keywords:
@@ -8,11 +8,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Quickstart: Debug with C++ using the Visual Studio debugger
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio debugger provides many powerful features to help you debug your apps. This topic provides a quick way to learn some of the basic features.
 

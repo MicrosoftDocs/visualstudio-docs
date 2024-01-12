@@ -10,11 +10,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Add a menu controller to a toolbar
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This walkthrough builds on the [Add a toolbar to a tool window](../extensibility/adding-a-toolbar-to-a-tool-window.md) walkthrough and shows how to add a menu controller to the tool window toolbar. The steps shown here also can be applied to the toolbar that is created in the [Add a toolbar](../extensibility/adding-a-toolbar.md) walkthrough.
 
 A menu controller is a split control. The left side of the menu controller shows the last-used command, and you can run it by clicking it. The right side of the menu controller is an arrow that, when clicked, opens a list of additional commands. When you click a command on the list, the command runs, and it replaces the command on the left side of the menu controller. In this way, the menu controller operates like a command button that always shows the last-used command from a list.
@@ -214,6 +213,6 @@ Menu controllers can appear on menus but they are most often used on toolbars.
 
     A dialog box appears with the message **You selected Menu controller Item 3**. Notice that the message corresponds to the text on the menu controller button. The menu controller button now displays **MC Item 3**.
 
-## See also
+## Related content
 - [Adding a toolbar to a tool window](../extensibility/adding-a-toolbar-to-a-tool-window.md)
 - [Adding a toolbar](../extensibility/adding-a-toolbar.md)

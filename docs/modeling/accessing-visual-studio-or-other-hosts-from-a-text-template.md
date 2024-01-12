@@ -7,11 +7,9 @@ ms.topic: how-to
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 ---
 # Access Visual Studio or other hosts from a text template
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In a text template, you can use methods and properties that are exposed by the host that executes the template. Visual Studio is an example of a host.
 

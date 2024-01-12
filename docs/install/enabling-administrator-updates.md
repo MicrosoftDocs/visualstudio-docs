@@ -1,18 +1,16 @@
 ---
-title: Enabling administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager
+title: Enable admin updates to Visual Studio with Microsoft Endpoint Manager
 titleSuffix: ''
-description: Learn more about how to deploy administrator updates to Visual Studio.
+description: Explore how to enable distribution of administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager.
 ms.date: 9/27/2023
 ms.topic: overview
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ---
 # Enabling administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Every time a new Visual Studio update is released, Microsoft will publish a Visual Studio administrator update package to the Microsoft Update servers. An administrator can then distribute this Visual Studio administrator update package via [Windows Server Update Services (WSUS)](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus) by using the [Configuration Manager (SCCM)](/configmgr/core/understand/introduction), or via [Windows Update for Business (WUfB)](/windows/deployment/update/waas-manage-updates-wufb) by using the [Microsoft Endpoint Manager (Intune)](https://endpoint.microsoft.com). The Windows Update agent on the client computers will recognize that the update is available and will initiate the update.
 

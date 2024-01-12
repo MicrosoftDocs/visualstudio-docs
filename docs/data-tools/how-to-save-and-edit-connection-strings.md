@@ -1,16 +1,14 @@
 ---
-title: Save and edit database connection strings for .NET Framework applications
-description: In .NET Framework application development with Visual Studio, know how to save and edit connection strings in Visual Studio applications. Save or edit a connection string directly in application settings.
-ms.date: 10/07/2022
+title: Save & edit DB connection strings (.NET Framework)
+description: Save and edit connection strings in .NET Framework application development with Visual Studio, or edit a connection string directly in application settings.
+ms.date: 12/15/2023
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Save and edit database connection strings for .NET Framework applications
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -60,6 +58,6 @@ You can modify connection information for each TableAdapter in a dataset.
 Storing sensitive information (such as a password) within the connection string can affect the security of your application. Using Windows integrated security is a more secure way to control access to a database.
 For more information, see [Protecting connection information](/dotnet/framework/data/adonet/protecting-connection-information).
 
-## See also
+## Related content
 
 - [Adding connections](../data-tools/add-new-connections.md)

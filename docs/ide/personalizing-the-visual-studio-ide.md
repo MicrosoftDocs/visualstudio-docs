@@ -1,16 +1,14 @@
 ---
-title: Customize the IDE
-description: Learn how to personalize the Visual Studio IDE in ways that best support your own development style and requirements.
+title: Customize & save your personal Visual Studio IDE settings
+description: Personalize  the Visual Studio integrated development environment (IDE) in ways that best support your own development style and requirements.
 ms.date: 08/24/2022
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Personalize the Visual Studio IDE
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can personalize Visual Studio in various ways to best support your own development style and requirements. Many of your settings roam with you across Visual Studio instances&mdash;see [Synchronized settings](../ide/synchronized-settings-in-visual-studio.md). This article briefly describes different personalizations and where you can find more information.
 
@@ -62,7 +60,7 @@ You can define and save multiple window layouts and switch between them. For exa
 
 You can customize the **Tools** menu to launch external tools. For more information, see [Manage external tools](../ide/managing-external-tools.md).
 
-## See also
+## Related content
 
 - [Environment settings](environment-settings.md)
 - [Visual Studio IDE overview](../get-started/visual-studio-ide.md)

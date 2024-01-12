@@ -1,16 +1,14 @@
 ---
 title: Working with elements in XAML Designer
-description: Learn how to work with elements in the XAML Designer in Visual Studio or Blend for Visual Studio.
+description: Work with elements in the XAML Designer in Visual Studio or Blend for Visual Studio and add elements—controls, layouts, and shapes—to your app in XAML.
 ms.date: 05/14/2018
 ms.topic: conceptual
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.technology: vs-xaml-tools
+ms.subservice: xaml-tools
 ---
 # Work with elements in XAML Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can add elements—controls, layouts, and shapes—to your app in XAML, in code, or by using XAML Designer. This topic describes how to work with elements in XAML Designer in Visual Studio or Blend for Visual Studio.
 
@@ -106,6 +104,6 @@ You can restore default values for specific layout properties of an element by u
 
 To reset the element layout, right-click the element in the Document Outline window or the artboard, and then choose **Layout** > **Reset** *PropertyName*, where *PropertyName* is the property that you want to reset (or choose **Layout** > **Reset All** to reset all the layout properties for the element).
 
-## See also
+## Related content
 
 - [Create a UI by using XAML Designer](../xaml-tools/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)

@@ -27,11 +27,9 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 ---
 # Map methods on the call stack while debugging in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Create a code map to visually trace the call stack while you're debugging. You can make notes on the map to track what the code is doing so you can focus on finding bugs.
 
@@ -184,7 +182,7 @@ Create a code map to visually trace the call stack while you're debugging. You c
 
 - [Find bugs using the map](#FindBugs)
 
-## See also
+## Related content
 
 - [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
 - [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)

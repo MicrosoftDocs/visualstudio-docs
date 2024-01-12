@@ -1,6 +1,6 @@
 ---
-title: "Debugging Native Code"
-description: Learn about common debugging problems and high-level techniques for native applications in Visual Studio.
+title: Debug native code and check for optimizations
+description: Explore common debugging problems and high-level techniques for native applications in Visual Studio, including optimizations, assertions, and assembly code.
 ms.date: "02/07/2023"
 ms.topic: "conceptual"
 dev_langs:
@@ -16,11 +16,10 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Debugging Native Code
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The section covers some common debugging problems and techniques for native applications. The techniques covered in this section are high-level techniques. For the mechanics of using the Visual Studio debugger, see [First look at the debugger](../debugger/debugger-feature-tour.md).
 
 ## In This Section
@@ -64,7 +63,7 @@ The section covers some common debugging problems and techniques for native appl
  [First look at the debugger](../debugger/debugger-feature-tour.md)
  Provides links to the larger sections of the debugging documentation. Information includes what's new in the debugger, settings and preparation, breakpoints, handling exceptions, edit and continue, debugging managed code, debugging native code, debugging SQL, and the user interface references.
 
-## See also
+## Related content
 
 - [Debugger Security](../debugger/debugger-security.md)
 - [Debugging in Visual Studio](../debugger/index.yml)

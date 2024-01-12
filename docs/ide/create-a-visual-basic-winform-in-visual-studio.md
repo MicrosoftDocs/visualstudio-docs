@@ -1,10 +1,10 @@
 ---
-title: "Tutorial: Create a Windows Forms app with Visual Basic"
-description: "In this tutorial, learn how to create a Windows Forms app in Visual Studio with Visual Basic."
+title: "Tutorial: Create Windows Forms app (Visual Basic)"
+description: Create a Windows Forms app in Visual Studio with Visual Basic, add a button to the form, add a label and code, and run the application.
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: tutorial
 dev_langs:
   - VB
@@ -12,8 +12,6 @@ ms.date: 02/24/2023
 ms.custom: vs-acquisition
 ---
 # Tutorial: Create a WinForms app with Visual Basic
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this tutorial, you'll create a Visual Basic application that has a Windows Forms user interface.
 The Visual Studio integrated development environment (IDE) includes all the tools you need to create a Windows Forms app.

@@ -1,10 +1,10 @@
 ---
-title: Deploy an app into a container in the cloud with Visual Studio
+title: Deploy an app into a container in the cloud
 author: ghogen
-description: Learn how to deploy an app into a container in Azure or Docker Hub without Docker Desktop or a Dockerfile.
+description: Deploy an application into a container in Azure or Docker Hub in Visual Studio rather than using Docker Desktop or a Dockerfile.
 ms.author: ghogen
 ms.date: 10/23/2023
-ms.technology: vs-container-tools
+ms.subservice: container-tools
 ms.topic: how-to
 ---
 # Deploy an app into a container in Azure or Docker Hub
@@ -80,7 +80,7 @@ Next time you want to publish using the same target and settings, you can use th
 
 To clean up resources, use the Azure portal or use the Azure CLI or Azure PowerShell to delete the resource group, if you created one, or delete the resources individually.
 
-## Next steps
+## Related content
 
 Learn more about:
 
