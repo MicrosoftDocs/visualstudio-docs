@@ -33,7 +33,7 @@ This walkthrough illustrates the following tasks:
 
 To complete this walkthrough, you must have the following:
 
-- Visual Studio 2010 or later
+- Visual Studio
 
 - Visual Studio SDK
 

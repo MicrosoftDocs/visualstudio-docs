@@ -16,7 +16,7 @@ ms.subservice: deployment
 
 After you create a bootstrapper package, you can create localized versions of the bootstrapper package by creating two more files for each locale: a software license terms file (such as a *eula.rtf*) and a package manifest (*package.xml*).
 
- By default, Visual Studio 2010 includes localized bootstrapper packages only for .NET Framework 4, .NET Framework 4 Client Profile, F# Runtime 2.0, and F# Runtime 4.0. You can create localized packages for other bootstrappers by completing three steps.
+ By default, Visual Studio includes localized bootstrapper packages only for a few specific version of .NET Framework. You can create localized packages for other bootstrappers by completing three steps.
 
 1. Create a folder that is named after the locale name in *\Program Files (x86)\Microsoft SDKs\ClickOnce Bootstrapper\Packages\\\<BootstrapperPackageName>*.
 

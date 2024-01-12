@@ -33,7 +33,7 @@ In Windows Vista, applications by default run as a standard user, even if the cu
 
 Due to the risk of exposing applications to security elevation attacks, ClickOnce applications cannot request permission elevation if UAC is enabled for the client. Any ClickOnce application that attempts to set its `requestedExecutionLevel` attribute to `requireAdministrator` or `highestAvailable` will not install on Windows Vista.
 
-In some cases, your ClickOnce application may attempt to run with administrator permissions because of installer detection logic on Windows Vista. In this case, you can set the `requestedExecutionLevel` attribute in the application manifest to `asInvoker`. This will cause the application itself to run without elevation. Visual Studio 2008 automatically adds this attribute to all application manifests.
+In some cases, your ClickOnce application may attempt to run with administrator permissions because of installer detection logic on Windows. In this case, you can set the `requestedExecutionLevel` attribute in the application manifest to `asInvoker`. This will cause the application itself to run without elevation. Visual Studio automatically adds this attribute to all application manifests.
 
 If you are developing an application that requires administrator permissions for the entire lifetime of the application, you should consider deploying the application by using Windows Installer (MSI) technology instead. For more information, see [Windows Installer basics](../extensibility/internals/windows-installer-basics.md).
 
