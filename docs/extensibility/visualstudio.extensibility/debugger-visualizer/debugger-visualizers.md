@@ -57,7 +57,7 @@ internal class StringDebuggerVisualizerProvider : DebuggerVisualizerProvider
 The previous code defines a new debugger visualizer, which applies to objects of type `string`:
 
 - The [`DebuggerVisualizerProviderConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.debuggervisualizers.debuggervisualizerproviderconfiguration) property defines the visualizer display name and the supported .NET type.
-- The [`CreateVisualizerAsync`](/dotnet/api/microsoft.visualstudio.extensibility.debuggervisualizers.debuggervisualizerprovider.createvisualizerasync) method is invoked by Visual Studio when the user requests the display of the debugger visualizer for a certain value. `CreateVisualizerAsync` uses the [`VisualizerTarget`](VisualizerTarget) object to retrieve the value to be visualized and passes it to a custom remote user control (reference the [Remote UI](./../inside-the-sdk/remote-ui.md) documentation). The remote user control is then returned and will be shown in a popup window in Visual Studio.
+- The [`CreateVisualizerAsync`](/dotnet/api/microsoft.visualstudio.extensibility.debuggervisualizers.debuggervisualizerprovider.createvisualizerasync) method is invoked by Visual Studio when the user requests the display of the debugger visualizer for a certain value. `CreateVisualizerAsync` uses the [`VisualizerTarget`](/dotnet/api/microsoft.visualstudio.extensibility.debuggervisualizers.visualizertarget) object to retrieve the value to be visualized and passes it to a custom remote user control (reference the [Remote UI](./../inside-the-sdk/remote-ui.md) documentation). The remote user control is then returned and will be shown in a popup window in Visual Studio.
 
 ## Targeting multiple types
 
