@@ -106,7 +106,7 @@ Both the extension project and the container project must target the .NET versio
 
 ### RequiresInProcessHosting property
 
-The `Extension` class must be configured with the `RequiresInProcessHosting = true` property that identifies the extension as being *in-process*.
+The [`Extension`](/dotnet/api/microsoft.visualstudio.extensibility.extension) class must be configured with the `RequiresInProcessHosting = true` property that identifies the extension as being *in-process*.
 
 ```CSharp
 [VisualStudioContribution]

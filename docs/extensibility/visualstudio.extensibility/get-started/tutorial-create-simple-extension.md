@@ -26,7 +26,7 @@ The tutorial contains the following steps:
 
 In this step, you'll learn about options for configuring and placing the command. The purpose of hosting the command is to expose it to the user in some way, such as adding a menu item or a command bar button.
 
-The project template or the sample you created in the [Create your first extension](create-your-first-extension.md) tutorial consists of a single C# file that includes a `Command` class already. You can update that in place.
+The project template or the sample you created in the [Create your first extension](create-your-first-extension.md) tutorial consists of a single C# file that includes a [`Command`](/dotnet/api/microsoft.visualstudio.extensibility.commands.command) class already. You can update that in place.
 
 1. Rename the `Command1.cs` file to `InsertGuidCommand.cs`, rename the class `InsertGuidCommand`, update the `CommandConfiguration` property.
 
@@ -39,7 +39,7 @@ The project template or the sample you created in the [Create your first extensi
 
    `Placements` specifies where the command should appear in the IDE. In this case, the command is placed in the Extensions menu, one of the top-level menus in Visual Studio.
 
-   The argument to the `CommandConfiguration` constructor is the command's display name, which is the menu text. The display name is enclosed by `%` characters because it references a string resource from `.vsextension/string-resources.json` to support localization.
+   The argument to the [`CommandConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandconfiguration) constructor is the command's display name, which is the menu text. The display name is enclosed by `%` characters because it references a string resource from `.vsextension/string-resources.json` to support localization.
 
 1. Update `.vsextension/string-resources.json` with the display name of `InsertGuidCommand`.
 
@@ -59,9 +59,9 @@ The project template or the sample you created in the [Create your first extensi
    };
    ```
 
-   You can specify a known built-in icon, in this case `OfficeWebExtension`, or upload images for the icon as described in [Add Visual Studio commands](../command/command.md). The second argument is an enumeration that determines how the command should appear in toolbars (in addition to its place in a menu). The option `IconSettings.IconAndText` means show the icon and the display name next to each other.
+   You can specify a known built-in icon, in this case [`OfficeWebExtension`](/dotnet/api/microsoft.visualstudio.extensibility.imagemoniker.knownvalues.officewebextension), or upload images for the icon as described in [Add Visual Studio commands](../command/command.md). The second argument is an enumeration that determines how the command should appear in toolbars (in addition to its place in a menu). The option [`IconSettings.IconAndText`](/dotnet/api/microsoft.visualstudio.extensibility.commands.iconsettings#microsoft-visualstudio-extensibility-commands-iconsettings-iconandtext) means show the icon and the display name next to each other.
 
-1. Add the `VisibleWhen` property, which specifies the conditions that must apply for the item to appear to the user.
+1. Add the [`VisibleWhen`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandconfiguration.visiblewhen) property, which specifies the conditions that must apply for the item to appear to the user.
 
    ```csharp
    public override CommandConfiguration CommandConfiguration => new("%InsertGuidCommand.DisplayName%")
@@ -76,7 +76,7 @@ See [using rule based activation constraints](./../inside-the-sdk/activation-con
 
 ## Create the execution method
 
-In this step, you implement the command's `ExecuteCommandAsync` method, which defines what happens when the user chooses the menu item, or presses the item in the toolbar for your command.
+In this step, you implement the command's [`ExecuteCommandAsync`](/dotnet/api/microsoft.visualstudio.extensibility.commands.dynamiccommand.executecommandasync) method, which defines what happens when the user chooses the menu item, or presses the item in the toolbar for your command.
 
 Copy the following code to implement the method.
 
@@ -104,9 +104,9 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 
 The first line validates the arguments, then we create a new `Guid` to use later.
 
-Then, we create an `ITextViewSnapshot` (the `textView` object here) by calling the asynchronous method `GetActiveTextViewAsync`. A cancellation token is passed in to preserve the ability to cancel the asynchronous request, but this part isn't demonstrated in this sample. If we don't get a text view successfully, we write to the log and terminate without doing anything else.
+Then, we create an [`ITextViewSnapshot`](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewsnapshot) (the `textView` object here) by calling the asynchronous method [`GetActiveTextViewAsync`](/dotnet/api/microsoft.visualstudio.extensibility.extensionmethods.getactivetextviewasync). A cancellation token is passed in to preserve the ability to cancel the asynchronous request, but this part isn't demonstrated in this sample. If we don't get a text view successfully, we write to the log and terminate without doing anything else.
 
-Now we're ready to call the asynchronous method that submits an edit request to Visual Studio's editor. The method we want is `EditAsync`. That's a member of the `EditorExtensibility` class, which allows interaction with the running Visual Studio Editor in the IDE. The `Command` type, which your own `InsertGuidCommand` class inherits from, has a member `Extensibility` that provides access to the `EditorExtensibility` object, so we can get to the `EditorExtensibility` class with a call to `this.Extensibility.Editor()`.
+Now we're ready to call the asynchronous method that submits an edit request to Visual Studio's editor. The method we want is [`EditAsync`](/dotnet/api/microsoft.visualstudio.extensibility.editor.editorextensibility.editasync). That's a member of the [`EditorExtensibility`](/dotnet/api/microsoft.visualstudio.extensibility.editor.editorextensibility) class, which allows interaction with the running Visual Studio Editor in the IDE. The `Command` type, which your own `InsertGuidCommand` class inherits from, has a member `Extensibility` that provides access to the [`EditorExtensibility`](/dotnet/api/microsoft.visualstudio.extensibility.editor.editorextensibility) object, so we can get to the `EditorExtensibility` class with a call to `this.Extensibility.Editor()`.
 
 The `EditAsync` method takes an `Action<IEditBatch>` as a parameter. This parameter is called `editorSource`,
 
