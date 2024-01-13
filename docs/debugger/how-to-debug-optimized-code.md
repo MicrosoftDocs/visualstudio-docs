@@ -24,7 +24,7 @@ ms.subservice: debug-diagnostics
 # Debug Optimized Code
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Reset settings](../ide/environment-settings.md#reset-settings).
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Reset all settings](../ide/environment-settings.md#reset-all-settings).
 
 > [!NOTE]
 > The [/Zo (Enhance Optimized Debugging)](/cpp/build/reference/zo-enhance-optimized-debugging) compiler option (introduced in Visual Studio Update 3) generates richer debugging information for optimized code (projects that are not built with the **/Od** compiler option. See [/O Options (Optimize Code)](/cpp/build/reference/o-options-optimize-code)). This includes improved support for debugging local variables and inlined functions.
@@ -82,7 +82,7 @@ for (x=0; x<10; x++)
 
  Suppose you set a breakpoint at this line. You might expect the breakpoint to be hit 10 times, but if the code is optimized, the breakpoint is hit only one time. That is because the first instruction sets the value of `x` to 0. The compiler recognizes that this only has to be done once and moves it out of the loop. The breakpoint moves with it. The instructions that compare and increment `x` remain inside the loop. When you view the **Disassembly** window, the [step unit](/previous-versions/visualstudio/visual-studio-2010/ek13f001(v=vs.100)) is automatically set to Instruction for greater control, which is useful when you step through optimized code.
 
-## See also
+## Related content
 
 - [Debugger Security](../debugger/debugger-security.md)
 - [Debugging Native Code](../debugger/debugging-native-code.md)

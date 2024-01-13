@@ -25,11 +25,6 @@ You can configure ClickOnce applications to automatically update when assemblies
 
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]
 
-## Prerequisites
- You need the following components to complete this walkthrough:
-
-- Visual Studio 2010.
-
 ## Create an Update Consent dialog box
  To display a privacy prompt, create an application that asks the reader to consent to automatic updates for the application.
 

@@ -30,7 +30,7 @@ You can enable both managed and native debuggers in the calling app project's **
 If you don't have access to a calling app's project, you can debug the DLL from the DLL project. You don't need mixed mode to debug just the DLL project. For more information, see [How to: Debug from a DLL project](../debugger/how-to-debug-from-a-dll-project.md).
 
 > [!NOTE]
-> The dialog boxes and commands you see might differ from the ones in this article, depending on your Visual Studio settings or edition. To change your settings, choose **Tools** > **Import and Export Settings**. For more information, see [Reset settings](../ide/environment-settings.md#reset-settings).
+> The dialog boxes and commands you see might differ from the ones in this article, depending on your Visual Studio settings or edition. To change your settings, choose **Tools** > **Import and Export Settings**. For more information, see [Reset all settings](../ide/environment-settings.md#reset-all-settings).
 
 ## Enable mixed-mode debugging for a native calling app
 
@@ -69,6 +69,6 @@ If you don't have access to a calling app's project, you can debug the DLL from 
     > For a .NET Core app in Visual Studio 2017 and Visual Studio 2019, you must use the *launchSettings.json* file instead of the project properties to enable mixed-mode debugging.
     ::: moniker-end
 
-## See also
+## Related content
 
 - [How to: Debug from a DLL project](../debugger/how-to-debug-from-a-dll-project.md)

@@ -78,7 +78,7 @@ Before you can start this procedure, install these components:
 
      \- or -
 
-- Reset the Visual Studio Experimental Instance. This will unregister all of the DSLs that you have previously built. On the **Start** menu, click **All Programs**, **Microsoft Visual Studio 2010 SDK**, **Tools**, and then **Reset the Microsoft Visual Studio 2010 Experimental instance**. You can rebuild any other DSLs that you want to use again.
+- Reset the Visual Studio Experimental Instance. This will unregister all of the DSLs that you have previously built. In the Windows **Start** menu, type **reset the Visual Studio**, and then run the **Reset the Microsoft Visual Studio Experimental Instance** command matching your version of Visual Studio. You can rebuild any other DSLs that you want to use again.
 
      \- or -
 

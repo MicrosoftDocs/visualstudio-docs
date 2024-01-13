@@ -109,17 +109,17 @@ Visual styles enable the appearance of common controls to change based on the th
    > The remaining steps make the following assumptions about your solution:
    >
    > - The name of the solution is **MyWPFProject**.
-   > - The solution is located in the following directory: `%UserProfile%\Documents\Visual Studio 2010\Projects\`.
+   > - The solution is located in the following directory: `%UserProfile%\Documents\Visual Studio version\Projects\`.
    >
-   > - The solution is published to the following directory: `%UserProfile%\Documents\Visual Studio 2010\Projects\publish`.
-   > - The most recent version of the published application files is located in the following directory: `%UserProfile%\Documents\Visual Studio 2010\Projects\publish\Application Files\WPFApp_1_0_0_0`
+   > - The solution is published to the following directory: `%UserProfile%\Documents\Visual Studio version\Projects\publish`.
+   > - The most recent version of the published application files is located in the following directory: `%UserProfile%\Documents\Visual Studio version\Projects\publish\Application Files\WPFApp_1_0_0_0`
    >
    > You do not have to use the name or the directory locations described above. The name and locations described above are used only to illustrate the steps required to publish your solution.
 
 2. At the command prompt, change the path to the directory that contains the most recent version of the published application files. The following example demonstrates this step.
 
    ```cmd
-   cd "%UserProfile%\Documents\Visual Studio 2010\Projects\MyWPFProject\publish\Application Files\WPFApp_1_0_0_0"
+   cd "%UserProfile%\Documents\Visual Studio version\Projects\MyWPFProject\publish\Application Files\WPFApp_1_0_0_0"
    ```
 
 3. At the command prompt, run the following command to embed the manifest file into the executable file of the application.

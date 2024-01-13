@@ -68,7 +68,7 @@ We'll assume that the expected value of `resultInt` after calling `AddIterative(
 
 7. Now step into the `AddInt()` method. You should see the bug in this code immediately.
 
-## Next steps
+## Related content
 
 This procedure just scratched the surface of what you can do with historical debugging.
 

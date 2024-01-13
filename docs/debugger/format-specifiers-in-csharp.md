@@ -69,6 +69,6 @@ The following table describes the C# format specifiers for the Visual Studio deb
 |raw|Displays item as it appears in the raw item node. Valid on proxy objects only.|Dictionary\<T>|Raw view of Dictionary\<T>|
 |results|Used with a variable of a type that implements IEnumerable or IEnumerable\<T>, usually the result of a query expression. Displays only the members that contain the query result.|Displays all the members|Displays the members the meet the conditions of the query|
 
-## See also
+## Related content
 - [Watch and QuickWatch windows](../debugger/watch-and-quickwatch-windows.md)
 - [Autos and Locals windows](../debugger/autos-and-locals-windows.md)

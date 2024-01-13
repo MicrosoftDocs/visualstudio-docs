@@ -71,7 +71,7 @@ Debugging a multithreaded application that has a user interface can be especiall
 
   Several ways to switch the debugging context to another thread.
 
-- [Follow a single thread while debugging](../debugger/get-started-debugging-multithreaded-apps.md#follow-a-single-thread-with-conditional-breakpoints)
+- [Follow a single thread while debugging](../debugger/get-started-debugging-multithreaded-apps.md#bkmk_follow_a_thread)
 
   Several ways to switch the debugging context to another thread.
 
@@ -95,7 +95,7 @@ Debugging a multithreaded application that has a user interface can be especiall
 
   Give your thread a name that you view in the **Threads** window.
 
-## See also
+## Related content
 
 - [Use breakpoints](../debugger/using-breakpoints.md)
 - [Threading](/dotnet/standard/threading/index)

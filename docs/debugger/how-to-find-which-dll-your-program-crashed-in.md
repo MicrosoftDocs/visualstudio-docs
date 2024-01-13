@@ -42,6 +42,6 @@ ms.subservice: debug-diagnostics
 
 6. Look at the **Name** and **Path** columns to see the DLL name and path.
 
-## See also
+## Related content
 - [Debugging DLL Projects](../debugger/debugging-dll-projects.md)
 - [How to: Use the Modules Window](../debugger/how-to-use-the-modules-window.md)

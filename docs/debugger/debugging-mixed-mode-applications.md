@@ -37,7 +37,7 @@ To enable Edit and Continue for C++, see [How to enable and disable Edit and Con
  In a mixed-mode application, the evaluation of properties by the debugger is an expensive operation. As a result, debugging operations such as stepping might appear slow. For more information, see [Navigating code in the debugger](../debugger/navigating-through-code-with-the-debugger.md). If you experience poor performance in mixed-mode debugging, you might want to turn off property evaluation in the debugger windows.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../ide/environment-settings.md#reset-settings).
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset all settings](../ide/environment-settings.md#reset-all-settings).
 
 ### To turn off property evaluation
 
@@ -49,6 +49,6 @@ To enable Edit and Continue for C++, see [How to enable and disable Edit and Con
 
    Because native call stacks and managed call stacks differ, the debugger cannot always provide the complete call stack for mixed code. When native code calls managed code, you may notice some discrepancies. For more information, see [Mixed Code and Missing Information in the Call Stack Window](../debugger/mixed-code-and-missing-information-in-the-call-stack-window.md).
 
-## See also
+## Related content
 
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)

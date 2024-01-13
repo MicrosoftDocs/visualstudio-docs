@@ -43,7 +43,7 @@ You can change the namespace of a domain-specific language. Make the change in t
 
     1. Delete **\Users\\**_{your name}_**\AppData\Local\Microsoft\VisualStudio\\\*Exp**.
 
-    2. On the Windows **Start** menu, choose **All Programs** > **Microsoft Visual Studio 2010 SDK** > **Tools** > **Reset the Experimental Instance**.
+    2. In the Windows **Start** menu, type **reset the Visual Studio**, and then run the **Reset the Microsoft Visual Studio Experimental Instance** command matching your version of Visual Studio.
 
 11. On the **Build** menu, choose **Rebuild Solution**.
 
