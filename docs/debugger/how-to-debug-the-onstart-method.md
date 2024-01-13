@@ -42,7 +42,7 @@ You can debug a Windows service by starting the service and attaching the debugg
 
 4. In the Just-In-Time Debugger window, select the version of Visual Studio you want to use for debugging.
 
-    ![Screenshot of a Visual Studio Just-In-Time Debugger window with 'New instance of Microsoft Visual Studio 2015' selected in the list of Possible Debuggers.](../debugger/media/justintimedebugger.png)
+    ![Screenshot of a Visual Studio Just-In-Time Debugger window with 'New instance of Microsoft Visual Studio' selected in the list of Possible Debuggers.](../debugger/media/justintimedebugger.png)
 
 5. A new instance of Visual Studio starts, and execution is stopped at the `Debugger.Launch()` method.
 
