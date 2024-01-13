@@ -258,6 +258,3 @@ Go to specific points in your application's execution when you start debugging f
 
 #### Forums
  [Visual Studio Debugger](https://social.msdn.microsoft.com/Forums/en-US/home)
-
-#### Guidance
- [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 6: A Testing Toolbox](/previous-versions/msp-n-p/jj159337(v=pandp.10))

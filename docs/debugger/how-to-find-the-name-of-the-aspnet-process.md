@@ -32,9 +32,6 @@ To debug a running ASP.NET app, the Visual Studio debugger must attach to the AS
     - *dotnet.exe* is ASP.NET Core.
     - *inetinfo.exe* is older ASP applications running in-process.
 
->[!NOTE]
->Visual Studio 2012 and earlier ASP.NET code can be on the file system and run on the test server *WebDev.WebServer.exe* or *WebDev.WebServer40.exe*. In this case, for local debugging, attach to *WebDev.WebServer.exe* or *WebDev.WebServer40.exe* instead of the ASP.NET process.
-
 ## Related content
 
 - [Attach to a running process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)
