@@ -22,9 +22,6 @@ The simulator provides an environment in which you can design, develop, debug, a
 
 The Visual Studio simulator for UWP apps does not run in an isolated environment on your local machine. Therefore, errors that occur in the simulator, such as a non-recoverable system-wide error, can also affect the entire machine.
 
-> [!IMPORTANT]
-> The Visual Studio 2015 simulator does not include the geolocation button. This is because the Windows 10 simulator does not include geolocation simulation.
-
 ## <a name="BKMK_Set_the_simulator_as_the_target"></a> Set the simulator as the target
 
 To run your UWP app in the simulator, select **Simulator** from the drop-down list next to the **Start Debugging** button on the debugger **Standard** toolbar. This option is only available if your app's **Target Platform Min. Version** is less than or equal to the operating system on your development machine.
