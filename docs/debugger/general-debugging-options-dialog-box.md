@@ -242,6 +242,7 @@ Displays a warning dialog box when you debug a program for which the debugger ha
 **Warn if script debugging is disabled on launch**:
 Displays a warning dialog box when the debugger is launched with script debugging disabled.
 
+::: moniker range="vs-2019"
 **Use Managed Compatibility Mode**:
 When this option is selected, the debugger uses the Visual Studio 2010 managed debugger, which was required when you debug C++/CLI code.
 
@@ -249,6 +250,7 @@ When this option is selected, the debugger uses the Visual Studio 2010 managed d
 When this option is selected, the debugger uses the Visual Studio 2010 native debugger instead of the new native debugger.
 
 - Use this option when you are debugging .NET C++ code, because the new debugging engine does not support evaluating .NET C++ expressions. However, enabling Native Compatibility Mode disables many features that depend on the current debugger implementation to operate. For example, the legacy engine lacks many visualizers for built-in types like `std::string` in Visual Studio 2015 projects.   Use Visual Studio 2013 projects for the optimal debugging experience in these cases.
+::: moniker-end
 
 ## See also
 

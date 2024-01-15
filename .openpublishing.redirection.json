@@ -7553,6 +7553,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/modeling/how-to-migrate-a-domain-specific-language-to-a-new-version.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/modeling/how-to-migrate-a-domain-specific-language-to-a-new-version",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/modeling/create-uml-modeling-projects-and-diagrams.md",
       "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false

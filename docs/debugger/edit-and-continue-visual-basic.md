@@ -66,7 +66,7 @@ To edit code in Break mode:
 
      Your code now executes with your applied edits incorporated into the project.
 
-## Related Sections
+## Related content
 
 - [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md)
 

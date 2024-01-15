@@ -88,6 +88,6 @@ To learn more about .NET SDK templates and their locations, reference the follow
 |[.NET default templates](/dotnet/core/tools/dotnet-new-sdk-templates) | When you install the .NET SDK, you receive over a dozen built-in templates for creating projects and files, including console apps, class libraries, unit test projects, ASP.NET Core apps (including Angular and React projects), and configuration files.  This article lists the templates that come pre-installed with the .NET SDK and describes how to interact with them. |
 |[Manage .NET project and item templates](/dotnet/core/install/templates?pivots=os-windows&preserve-view=true) | .NET provides a template system that enables users to install or uninstall packages containing templates from NuGet, a NuGet package file, or a file system directory. This article describes how to manage .NET templates through the .NET SDK CLI. |
 
-## See also
+## Related content
 
 - [Visual Studio template schema reference (extensibility)](../extensibility/visual-studio-template-schema-reference.md)

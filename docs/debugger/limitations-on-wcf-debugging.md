@@ -70,7 +70,7 @@ This topic describes limitations on these scenarios.
 ## Self-Hosting
  A *self-hosted service* is a WCF service that does not run inside IIS, the WCF Service Host, or the ASP.NET Development Server. For information about how to debug a self-hosted service, see [How to: Debug a Self-Hosted WCF Service](../debugger/how-to-debug-a-self-hosted-wcf-service.md).
 
- To enable debugging of ASP.NET 3.0 or 3.5 applications, ASP.NET 3.0 or 3.5 must be installed before Visual Studio 2010 is installed. If Visual Studio 2010 is installed before ASP.NET 3.0 or 3.5, an error occurs when you try to debug a ASP.NET 3.0 or 3.5 application. The error message is, "Unable to Automatically Step Into the Server." To fix this problem, use the Windows **Control Panel** > **Programs and Features** to repair your Visual Studio 2010 installation.
+ If you see the error message, "Unable to Automatically Step Into the Server.", repair your Visual Studio installation to try to resolve the issue. This may happen if you install Visual Studio before installing ASP.NET.
 
 ## Related content
 - [Debugging WCF Services](../debugger/debugging-wcf-services.md)
