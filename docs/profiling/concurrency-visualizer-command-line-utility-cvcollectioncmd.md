@@ -15,10 +15,10 @@ ms.subservice: debug-diagnostics
 You can use the Concurrency Visualizer command-line utility (*CVCollectionCmd.exe*) to collect traces from the command line so that you can view them in the Concurrency Visualizer for Visual Studio. The tools can be used on computers that do not have Visual Studio installed.
 
 > [!NOTE]
-> Starting in Visual Studio 2013, the Concurrency Visualizer is an optional extension. (Previously it had been included in Visual Studio.) You can download the [Concurrency Visualizer collection tools for Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=49103) from the Download Center.
+> The Concurrency Visualizer is an optional extension. (Previously it had been included in Visual Studio.) You can download the [Concurrency Visualizer collection tools for Visual Studio](https://www.microsoft.com/download/details.aspx?id=49103) from the Download Center.
 
 ## Download the Concurrency Visualizer command-line utility
- To download and install the command-line utility, go to [Concurrency Visualizer Collection Tools for Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=49103) and follow the instructions. By default, *CVCollectionCmd.exe* is installed in %ProgramFiles%\Microsoft Concurrency Visualizer Collection Tools\ (%ProgramFiles(x86)%\Microsoft Concurrency Visualizer Collection Tools\ on x64 computers).
+ To download and install the command-line utility, go to [Concurrency Visualizer Collection Tools for Visual Studio](https://www.microsoft.com/download/details.aspx?id=49103) and follow the instructions. By default, *CVCollectionCmd.exe* is installed in %ProgramFiles%\Microsoft Concurrency Visualizer Collection Tools\ (%ProgramFiles(x86)%\Microsoft Concurrency Visualizer Collection Tools\ on x64 computers).
 
 ## Collect a trace with CVCollectionCmd
  You can collect a trace by starting the app with CVCollectionCmd, or by attaching to it. See the command reference below for your options. For example
@@ -58,8 +58,8 @@ You can use the Concurrency Visualizer command-line utility (*CVCollectionCmd.ex
 | Tag | Description | Values |
 |-------------------------| - | - |
 | Config | Demarcates the overall config file. | Must contain these elements:<br /><br /> -   MinorVersion<br />-   MajorVersion |
-| MajorVersion | Specifies the major version of the config file. | Must be 1 for Visual Studio 2012 projects. If not 1, the utility will not work. |
-| MinorVersion | Specifies the minor version of the config file. | Must be 0 for Visual Studio 2012 projects. If not 0, the utility will not work. |
+| MajorVersion | Specifies the major version of the config file. | Must be 1 for most Visual Studio projects. If not 1, the utility will not work. |
+| MinorVersion | Specifies the minor version of the config file. | Must be 0 for most Visual Studio projects. If not 0, the utility will not work. |
 | IncludeEnvSymbolPath | Sets a value that determines whether the environment symbol path (_NT_SYMBOL_PATH) is used. | -   True<br />-   False |
 | DeleteEtlsAfterAnalysis | Sets a value that determines whether the ETL files are deleted when analysis completes. | -   True<br />-   False |
 | SymbolPath | Specifies the path of the symbol server. For more information, see [Use the Microsoft Symbol Server to obtain debug symbol files](/windows/win32/dxtecharts/debugging-with-symbols). | A directory name or URL. |

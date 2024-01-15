@@ -211,7 +211,7 @@ Note that searching for symbols increases code coverage runtime. So keep this sm
 -->
 <!--
             <SymbolSearchPaths>
-                   <Path>C:\Users\User\Documents\Visual Studio 2012\Projects\ProjectX\bin\Debug</Path>
+                   <Path>C:\Users\username\source\repos\ProjectX</Path>
                    <Path>\\mybuildshare\builds\ProjectX</Path>
             </SymbolSearchPaths>
 -->

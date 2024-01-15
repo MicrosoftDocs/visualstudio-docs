@@ -186,7 +186,7 @@ For more information, see the [Code snippets](../ide/code-snippets.md) and [C# c
 
 ### XAML #region support
 
-Starting with Visual Studio 2015, we made #region support available for XAML developers in WPF and UWP, and more recently in [Xamarin.Forms](/xamarin/xamarin-forms/user-interface/text/editor/), too. In Visual Studio 2019, we continue to make incremental improvements to #region support. For example, in [version 16.4](/visualstudio/releases/2019/release-notes-v16.4/) and later, #region options show as you begin to type `<!`.
+In Visual Studio, #region support is available for XAML developers in WPF, UWP, and [Xamarin.Forms](/xamarin/xamarin-forms/user-interface/text/editor/). In Visual Studio 2019, we continue to make incremental improvements to #region support. For example, in [version 16.4](/visualstudio/releases/2019/release-notes-v16.4/) and later, #region options show as you begin to type `<!`.
 
 ![The XAML code editor with #region options showing in IntelliSense](media/code-editor-xaml-region.png "Screenshot of the XAML code editor with #region options showing in IntelliSense")
 

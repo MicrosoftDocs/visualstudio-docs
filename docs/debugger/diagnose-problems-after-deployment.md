@@ -22,7 +22,7 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 
   You can also collect IntelliTrace diagnostic and method data for web, SharePoint, WPF, and Windows Form apps on remote machines without changing the target environment by using the IntelliTrace stand-alone collector. However, the stand-alone collector can have a significant performance impact. See [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md).
 
-## <a name="TFS2013"></a> Team Foundation Server 2010, 2012, 2013, and 2015 (ASP.NET)
+## <a name="TFS2013"></a> Older versions of Team Foundation Server (ASP.NET)
 
 For ASP.NET apps, you can set up your build process to create a build manifest (*BuildInfo.config* file) for your web project and include this manifest with your release. This manifest contains information about the project, source control, and build system that were used to create a specific build. This information helps Visual Studio find the matching source and symbols after you open the IntelliTrace log to review the recorded events.
 
