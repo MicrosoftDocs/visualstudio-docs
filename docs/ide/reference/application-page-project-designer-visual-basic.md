@@ -119,9 +119,9 @@ The following settings are available in the **Windows application framework prop
 > [!TIP]
 > The section following this one describes **Windows application framework properties** settings specific to Windows Presentation Foundation (WPF) apps.
 
-### Enable XP visual styles
+### Enable Windows visual styles
 
-Enables or disables the Windows XP visual styles, also known as *Windows XP Themes*. Windows XP visual styles enable, for example, controls with rounded corners and dynamic colors. The default is enabled.
+Enables or disables the Windows visual styles, also known as *Windows Themes*. Windows visual styles enable, for example, controls with rounded corners and dynamic colors. The default is enabled.
 
 ### Make single instance application
 

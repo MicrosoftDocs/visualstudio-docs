@@ -160,12 +160,13 @@ The `InstallChecks` element supports starting a variety of tests against the loc
 
 |Property|Notes|Possible Values|
 |--------------|-----------|---------------------|
+|`Version9X`|Version number of a Windows 9X operating system.|4.10 = Windows 98|
 |`VersionNT`|Version number of a Windows operating system.|Major.Minor.ServicePack|
 |`VersionNT64`|Version number of a 64-bit Windows operating system.|Major.Minor.ServicePack.|
 |`VersionMsi`|Version number of the Windows Installer service.|2.0 = Windows Installer 2.0|
 |`AdminUser`|Specifies whether a user has administrator privileges on a Windows NT-based operating system.|0 = no administrator privileges<br /><br /> 1 = administrator privileges|
 
- For example, to block installation on a computer running Windows 95, use code such as the following:
+ For example, to block installation on a computer running Windows 8, use code such as the following:
 
 ```xml
     <!-- Block install on Windows 8 -->
