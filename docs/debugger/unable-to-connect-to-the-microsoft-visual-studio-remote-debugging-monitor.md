@@ -114,10 +114,6 @@ If the error message also mentions a firewall, the firewall on the local machine
 
 You may see this error if you try to debug on a 64-bit remote computer from a 32-bit computer (not supported).
 
-## <a name="security_package"></a> A security package specific error occurred
-
-This may be a legacy issue specific to Windows XP and Windows 7. See this [information](https://stackoverflow.com/questions/4786016/unable-to-connect-to-the-microsoft-remote-debugging-monitor-a-security-package).
-
 ## Causes and recommendations
 
 ### <a name="dns"></a> The remote machine is not reachable

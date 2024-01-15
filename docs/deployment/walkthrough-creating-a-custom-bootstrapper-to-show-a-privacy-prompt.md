@@ -134,7 +134,7 @@ You can configure ClickOnce applications to automatically update when assemblies
     6. In the **Startup object** drop-down menu, select **Module1**.
 
        > [!NOTE]
-       > Disabling the application framework disables features such as Windows XP visual styles, application events, splash screen, single instance application, and more. For more information, see [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md).
+       > Disabling the application framework disables features such as visual styles, application events, splash screen, single instance application, and more. For more information, see [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md).
 
        For Visual C# developers only:
 
