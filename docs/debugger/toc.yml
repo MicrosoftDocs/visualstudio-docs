@@ -262,8 +262,6 @@
       href: remote-debugger-port-assignments.md
     - name: Configure the Windows Firewall for remote debugging
       href: configure-the-windows-firewall-for-remote-debugging.md
-    - name: Unblock the download on Windows Server
-      href: remote-debugging-unblock-file-download.md
     - name: Troubleshoot remote debugging >>
       href: /troubleshoot/developer/visualstudio/debuggers/troubleshooting-remote-debugging?toc=%2Fvisualstudio%2Fdebugger%2Ftoc.json
     - name: Remote debugging error reference
