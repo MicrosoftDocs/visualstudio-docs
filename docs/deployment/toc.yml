@@ -55,8 +55,6 @@
         href: clickonce-cache-overview.md
       - name: ClickOnce and application settings
         href: clickonce-and-application-settings.md
-      - name: ClickOnce deployment on Windows Vista
-        href: clickonce-deployment-on-windows-vista.md
       - name: Localization
         items:
         - name: Localize ClickOnce applications

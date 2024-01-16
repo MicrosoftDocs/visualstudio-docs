@@ -1870,6 +1870,11 @@
         "redirect_document_id": false
     },
     {
+      "source_path": "docs/deployment/clickonce-deployment-on-windows-vista.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/deployment/clickonce-deployment-on-windows-vista",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/deployment/troubleshooting-specific-errors-in-clickonce-deployments.md",
       "redirect_url": "/troubleshoot/developer/visualstudio/ide/troubleshoot-clickonce-deployments",
       "redirect_document_id": false
