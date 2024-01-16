@@ -1056,6 +1056,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/error-debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/edit-and-continue.md",
       "redirect_url": "/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue",
       "redirect_document_id": false
@@ -1863,6 +1868,11 @@
         "source_path": "docs/test/walkthrough-create-and-run-a-load-test.md",
         "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/walkthrough-create-and-run-a-load-test",
         "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/deployment/clickonce-deployment-on-windows-vista.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/deployment/clickonce-deployment-on-windows-vista",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/deployment/troubleshooting-specific-errors-in-clickonce-deployments.md",

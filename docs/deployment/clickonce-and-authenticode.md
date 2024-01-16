@@ -52,7 +52,7 @@ ms.subservice: deployment
 ### Update expired certificates
  In earlier versions of the .NET Framework, updating an application whose certificate had expired could cause that application to stop functioning. To resolve this problem, use one of the following methods:
 
-- Update the .NET Framework to version 2.0 SP1 or later on Windows XP, or version 3.5 or later on Windows Vista.
+- Update the .NET Framework version 3.5 or later.
 
 - Uninstall the application, and reinstall a new version with a valid certificate.
 
