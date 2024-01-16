@@ -454,10 +454,6 @@
           href: how-to-debug-the-onstart-method.md
       - name: F#
         href: debugging-f-hash.md
-      - name: Error reference
-        items:
-        - name: Debugging isn't possible because a kernel debugger is enabled on the system
-          href: error-debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system.md
     - name: C/C++ code
       items:
       - name: Debug native code

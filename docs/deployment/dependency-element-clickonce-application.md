@@ -108,7 +108,7 @@ Identifies a platform or assembly dependency that is required for the applicatio
 |`buildNumber`|Required. Specifies the build number of the OS.|
 |`servicePackMajor`|Required. Specifies the service pack major number of the OS.|
 |`servicePackMinor`|Optional. Specifies the service pack minor number of the OS.|
-|`productType`|Optional. Identifies the product type value. Valid values are `server`, `workstation`, and `domainController`. For example, for Windows 2000 Professional, this attribute value is `workstation`.|
+|`productType`|Optional. Identifies the product type value. Valid values are `server`, `workstation`, and `domainController`. For example, for Windows 10, this attribute value is `workstation`.|
 |`suiteType`|Optional. Identifies a product suite available on the system, or the system's configuration type. Valid values are `backoffice`, `blade`, `datacenter`, `enterprise`, `home`, `professional`, `smallbusiness`, `smallbusinessRestricted`, and `terminal`. For example, for Windows 2000 Professional, this attribute value is `professional`.|
 
 ### dependentAssembly
