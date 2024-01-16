@@ -500,8 +500,6 @@
         href: how-to-find-the-name-of-the-aspnet-process.md
       - name: Debug deployed Web applications
         href: debugging-deployed-web-applications.md
-      - name: 'Walkthrough: Debugging a Web Form'
-        href: walkthrough-debugging-a-web-form.md
       - name: Debug ASP.NET exceptions
         href: how-to-debug-aspnet-exceptions.md
       - name: 'Web apps: Errors and troubleshooting'
