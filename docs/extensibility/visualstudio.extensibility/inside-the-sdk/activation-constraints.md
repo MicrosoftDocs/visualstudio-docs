@@ -16,13 +16,13 @@ One of the common concepts in VisualStudio.Extensibility is use of context-based
 
 ## Constraint types
 
-Each constraint is defined as an instance of the [`ActivationConstraint`](/dotnet/api/microsoft.visualstudio.extensibility.activationconstraint) type created with one of the `ActivationConstraint`'s factory methods, like `ClientContext`.
+Each constraint is defined as an instance of the [`ActivationConstraint`](/dotnet/api/microsoft.visualstudio.extensibility.activationconstraint) type created with one of the `ActivationConstraint`'s factory methods, like [`ClientContext`](/dotnet/api/microsoft.visualstudio.extensibility.activationconstraint.clientcontext).
 
 Multiple activation constraints can be combined together using the [`And`](/dotnet/api/microsoft.visualstudio.extensibility.activationconstraint.and), [`Or`](/dotnet/api/microsoft.visualstudio.extensibility.activationconstraint.or), and [`Not`](/dotnet/api/microsoft.visualstudio.extensibility.activationconstraint.not) methods. You can also combine activation constraints using operators `&`, `|`, and `!`.
 
 ## Example definition
 
-In the following example, the command configuration property `EnabledWhen` defines when the command is in the enabled state. The `ClientContext` method is one of the activation constraint factory methods. It generates the activation constraint, given the two arguments, a string and regular expression pattern to match against that string. Therefore, the following code indicates that a command is enabled when the user has selected a file with one of those extensions.
+In the following example, the command configuration property [`EnabledWhen`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandconfiguration.enabledwhen) defines when the command is in the enabled state. The [`ClientContext`](/dotnet/api/microsoft.visualstudio.extensibility.activationconstraint.clientcontext) method is one of the activation constraint factory methods. It generates the activation constraint, given the two arguments, a string and regular expression pattern to match against that string. Therefore, the following code indicates that a command is enabled when the user has selected a file with one of those extensions.
 
 ```csharp
 public override CommandConfiguration CommandConfiguration => new("%My command.DisplayName%")
@@ -51,11 +51,11 @@ EnabledWhen =
 
 ## Activation constraint properties
 
-Activation constraints can be used to configure a variety of VisualStudio.Extensibility functionalities, including the [loading of an extension](/dotnet/api/microsoft.visualstudio.extensibility.extensionconfiguration.loadedwhen), and the [enabled](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandconfiguration.enabledwhen) or [visible](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandconfiguration.visiblewhen) state of a command. The configuration types contain property of type `ActivationConstraint`, typically with a `When` suffix that implies that something activates when the specified conditions are satisfied.
+Activation constraints can be used to configure a variety of VisualStudio.Extensibility functionalities, including the [loading of an extension](/dotnet/api/microsoft.visualstudio.extensibility.extensionconfiguration.loadedwhen), and the [enabled](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandconfiguration.enabledwhen) or [visible](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandconfiguration.visiblewhen) state of a command. The configuration types contain property of type [`ActivationConstraint`](/dotnet/api/microsoft.visualstudio.extensibility.activationconstraint), typically with a `When` suffix that implies that something activates when the specified conditions are satisfied.
 
 ## Activation constraint factory methods
 
-This section shows the list of currently supported activation constraints. Each entry on the list is a factory method on the `ActivationConstraint` type.
+This section shows the list of currently supported activation constraints. Each entry on the list is a factory method on the [`ActivationConstraint`](/dotnet/api/microsoft.visualstudio.extensibility.activationconstraint) type.
 
 | Term | Description |
 | -- | -- |
