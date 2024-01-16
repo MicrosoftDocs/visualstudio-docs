@@ -36,7 +36,6 @@ The `Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor` 
 - [The requested name was valid, but no data of the requested type was found](#valid_name)
 - [The Visual Studio Remote Debugger on the target computer cannot connect back to this computer](#cant_connect_back)
 - [Access denied](#access_denied)
-- [A security package specific error occurred](#security_package)
 
 ## <a name="cannot_connect"></a> The debugger cannot connect to the remote computer. The debugger was unable to resolve the specified computer name
 
