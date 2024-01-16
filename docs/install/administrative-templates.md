@@ -28,7 +28,7 @@ The Visual Studio group policy settings contained in the ADMX file are machine-w
  
  ## Visual Studio policy categories
  
- There are four main categories of Visual Studio policies that are included in the Visual Studio Administrative Templates (ADMX):
+ There are five main categories of Visual Studio policies that are included in the Visual Studio Administrative Templates (ADMX):
  
   - **Feedback** - controls behavior of the send-a-smile feature.
   - [**Install and Update**](./configure-policies-for-enterprise-deployments.md) - controls product acquisition behavior.
