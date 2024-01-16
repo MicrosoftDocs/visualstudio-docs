@@ -38,7 +38,7 @@ ClickOnce maintains activation log files for all deployments. These logs documen
 
 3. Set the string value `LogFilePath` to the full path and filename of your preferred custom log location.
 
-     This location must be in a directory to which the user has write access. For example, on Windows Vista, create the following folder structure and set `LogFilePath` to *C:\Users\\\<username>\Documents\Logs\ClickOnce\installation.log*.
+     This location must be in a directory to which the user has write access. For example, create the following folder structure and set `LogFilePath` to *C:\Users\\\<username>\Documents\Logs\ClickOnce\installation.log*.
 
 ## Related content
 - [Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)

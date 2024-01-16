@@ -110,8 +110,6 @@ Click this button to generate and open the *app.manifest* file. Visual Studio us
 
 ClickOnce works with a level of `asInvoker` or in virtualized mode (no manifest generation). To specify virtualized mode, remove the entire tag from app.manifest.
 
-For more information about manifest generation, see [ClickOnce Deployment on Windows Vista](../../deployment/clickonce-deployment-on-windows-vista.md).
-
 ## Windows application framework properties
 
 The following settings are available in the **Windows application framework properties** section. These options are available only if the **Enable application framework** check box is selected.
