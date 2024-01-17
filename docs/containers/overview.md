@@ -165,7 +165,7 @@ ENTRYPOINT ["dotnet", "WebApplication-Docker.dll"]
 
 ## Add Docker support using the .NET SDK option
 
-With Visual Studio 2022 17.9 and later, and in projects that target .NET 7 or later, you have the option of using .NET SDK's built-in support for container builds, which means you don't need a Dockerfile. Instead, settings are encoded in a `.json` configuration file, *launchSettings.json*.
+With Visual Studio 2022 17.9 and later, and in projects that target .NET 7 or later, you have the option of using .NET SDK's built-in support for container builds, which means you don't need a Dockerfile. Instead, settings for launching the containers with Visual Studio are encoded in a `.json` configuration file, *launchSettings.json*.
 
 ![Screenshot showing the Container Scaffolding Options dialog for adding Docker support.](./media/overview/vs-2022/container-scaffolding-options.png)
 
