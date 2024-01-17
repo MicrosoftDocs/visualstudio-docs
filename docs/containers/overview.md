@@ -128,7 +128,7 @@ ENTRYPOINT ["dotnet", "WebApplication-Docker.dll"]
 
 ## Add Docker support using the Dockerfile container build type
 
-When you add or enable Docker support to a .NET 8 or later project, Visual Studio shows the **Container Scaffolding Options** dialog box, which gives you the choice of operating system (Linux or Windows), but also the ability to choose the container build type, either **Dockerfile** or **.NET SDK**.
+When you add or enable Docker support to a .NET 7 or later project, Visual Studio shows the **Container Scaffolding Options** dialog box, which gives you the choice of operating system (Linux or Windows), but also the ability to choose the container build type, either **Dockerfile** or **.NET SDK**.
 
 If you choose **Dockerfile**, Visual Studio adds the following to the project:
 
@@ -165,7 +165,7 @@ ENTRYPOINT ["dotnet", "WebApplication-Docker.dll"]
 
 ## Add Docker support using the .NET SDK option
 
-With Visual Studio 2022 17.9 and later, and in projects that target .NET 7 or later, you have the option of using .NET SDK's built-in support for container builds, which means you don't need a Dockerfile. Instead, settings for launching the containers with Visual Studio are encoded in a `.json` configuration file, *launchSettings.json*.
+With Visual Studio 2022 17.9 and later with the .NET 7 SDK installed, and in projects that target .NET 6 or later, you have the option of using .NET SDK's built-in support for container builds, which means you don't need a Dockerfile. Instead, you configure your containers using MSBuild properties in the project file, and the settings for launching the containers with Visual Studio are encoded in a `.json` configuration file, *launchSettings.json*.
 
 ![Screenshot showing the Container Scaffolding Options dialog for adding Docker support.](./media/overview/vs-2022/container-scaffolding-options.png)
 
@@ -185,7 +185,7 @@ The .NET SDK container build entry in *launchSettings.json* looks like the follo
 }
 ```
 
-The .NET SDK manages some of the choices that would have been encoded in a Dockerfile, such as the container base image that is automatically chosen to match the targeted version of .NET, and the environment variables to set. Some of the settings here, such as the ports to be used, can be modified for your scenario.
+The .NET SDK manages some of the choices that would have been encoded in a Dockerfile, such as the container base image that is chosen to match the targeted version of .NET, and the environment variables to set. The settings available in the project file for container configuration are listed at [Customizing your container](https://github.com/dotnet/sdk-container-builds/blob/main/docs/ContainerCustomization.md).
 
 :::moniker-end
 
