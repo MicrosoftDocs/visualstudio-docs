@@ -32,7 +32,7 @@ Almost every menu command in Visual Studio has a keyboard shortcut. You can also
 
 You can use several methods to move through the files open in the editor. You can move among files based on the order in which you access them, use the IDE Navigator to quickly find any file currently open, or pin favorite files to the tab well so that they are always visible.
 
-Navigate backward and navigate forward cycle through the open files in the editor based on the order in which they were accessed, much like back and forward do for your viewing history in Microsoft Internet Explorer.
+Navigate backward and navigate forward cycle through the open files in the editor based on the order in which they were accessed, much like back and forward do for your viewing history in a browser.
 
 ### To move through open files in order of use
 

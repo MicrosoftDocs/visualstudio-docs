@@ -71,7 +71,7 @@ You must follow these steps to take advantage of Trusted Application Deployment:
 
 - The <xref:System.Security.Cryptography?displayProperty=fullName> namespace.
 
-- *CertMgr.exe*, which is a component of Internet Explorer and therefore exists on Windows 98 and all later versions. For more information, see [Certmgr.exe (Certificate Manager Tool)](/dotnet/framework/tools/certmgr-exe-certificate-manager-tool).
+- *CertMgr.exe*, which is installed with the Windows SDK. For more information, see [Certmgr.exe (Certificate Manager Tool)](/dotnet/framework/tools/certmgr-exe-certificate-manager-tool).
 
 ### Create a ClickOnce Application
  A ClickOnce application is a .NET Framework client application combined with manifest files that describe the application and supply installation parameters. You can turn your program into a ClickOnce application by using the **Publish** command in Visual Studio. Alternatively, you can generate all the files required for ClickOnce deployment by using tools that are included with the Windows Software Development Kit (SDK). For detailed steps about ClickOnce deployment, see [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md).
