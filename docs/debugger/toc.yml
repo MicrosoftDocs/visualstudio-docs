@@ -527,11 +527,7 @@
     - name: JavaScript and TypeScript >>
       href: ../javascript/debug-nodejs.md
     - name: Web apps
-      items:
-      - name: Debug Web applications
-        href: debugging-web-applications.md
-      - name: 'Warning: Script debugging disabled'
-        href: warning-script-debugging-disabled.md
+      href: debugging-web-applications.md
     - name: WCF services
       items:
       - name: Debug WCF services
