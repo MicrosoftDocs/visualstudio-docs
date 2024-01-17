@@ -95,7 +95,7 @@ First, provide the path and click **Finish** to complete the Publish wizard.
 
 Next, you see the summary page for the new [publish profile](./publish-overview.md) that you just created using the Publish wizard. Click **Publish** and Visual Studio deploys your web app to the provided path.
 
-![Screenshot showing the publish to folder summary page](./media/publish-folder-summary-page.png)
+![Screenshot showing the publish to folder summary page.](./media/publish-folder-summary-page.png)
 
 You can come back to this summary page after you close it. Next time you right-click and choose **Publish**, Visual Studio opens this summary page. (To get back to the Publish wizard just click **New** in the summary page.)
 

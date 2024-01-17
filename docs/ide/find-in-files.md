@@ -95,7 +95,7 @@ The **File types** option indicates the types of files to search through in the 
 
 :::image type="content" source="media/vs-2022/find-file-types.png" alt-text="Screenshot of the File Types section of the Find In Files dialog box.":::
 
-You can search for multiple file types by separating them with a semicolon (`;`). You can also can exclude folders and files by prefixing any path or file type with an exclamation mark (`!`).
+You can search for multiple file types by separating them with a semicolon (`;`). You can also exclude folders and files by prefixing any path or file type with an exclamation mark (`!`).
 
 ### Append results
 
