@@ -91,8 +91,8 @@ If you want to visualize a .NET type that is natively supported by Newtonsoft.Js
 If the type to be visualized can't be automatically serialized by Newtonsoft.Json, you can create a custom visualizer object source to handle the serialization.
 
 - Create a new .NET class library project targeting `netstandard2.0`. You can target a more specific version of .NET Framework or .NET (for example, `net472` or `net6.0`) if necessary to serialize the object to be visualized.
-- Add a package reference to [Microsoft.VisualStudio.DebuggerVisualizers](https://www.nuget.org/packages/Microsoft.VisualStudio.DebuggerVisualizers) version 17.6 or newer.
-- Add a class extending `VisualizerObjectSource` and override `GetData` writing the serialized value of `target` to the `outgoingData` stream.
+- Add a package reference to [`DebuggerVisualizers`](https://www.nuget.org/packages/Microsoft.VisualStudio.DebuggerVisualizers) version 17.6 or newer.
+- Add a class extending [`VisualizerObjectSource`](/dotnet/api/microsoft.visualstudio.extensibility.debuggervisualizers.visualizerobjectsourcetype) and override `GetData` writing the serialized value of `target` to the `outgoingData` stream.
 
 ```csharp
 public class MyObjectSource : VisualizerObjectSource
@@ -144,7 +144,7 @@ You should try to minimize the number of dependencies of the visualizer object s
 
 ### Update the debugger visualizer provider to use the custom visualizer object source
 
-You can then update your [`DebuggerVisualizerProviderConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.debuggervisualizers.debuggervisualizerproviderconfiguration) configuration to reference your custom visualizer object source:
+You can then update your [`DebuggerVisualizerProvider`](/dotnet/api/microsoft.visualstudio.extensibility.debuggervisualizers.debuggervisualizerproviderconfiguration) configuration to reference your custom visualizer object source:
 
 ```csharp
     public override DebuggerVisualizerProviderConfiguration DebuggerVisualizerProviderConfiguration => new("My visualizer", typeof(TypeToVisualize))
@@ -161,9 +161,9 @@ You can then update your [`DebuggerVisualizerProviderConfiguration`](/dotnet/api
 
 ## Work with large and complex objects
 
-If the retrieval of data from the visualizer object source can't be done with a single parameterless call to `RequestDataAsync`, you can instead perform a more complex message exchange with the visualizer object source by invoking [`RequestDataAsync<TMessage, TResponse>(TMessage, JsonSerializer?, CancellationToken)`](/dotnet/api/microsoft.visualstudio.extensibility.debuggervisualizers.visualizerobjectsourceclient.requestdataasync#microsoft-visualstudio-extensibility-debuggervisualizers-visualizerobjectsourceclient-requestdataasync-2(-0-newtonsoft-json-jsonserializer-system-threading-cancellationtoken)) multiple times and sending different *messages* to the visualizer object source. Both the message and response is serialized by the VisualStudio.Extensibility infrastructure using Newtonsoft.Json. Other overrides of `RequestDataAsync` allow you to use `JToken` objects or implement custom serialization and deserialization.
+If the retrieval of data from the visualizer object source can't be done with a single parameterless call to [`RequestDataAsync`](/dotnet/api/microsoft.visualstudio.extensibility.debuggervisualizers.visualizerobjectsourceclient.requestdataasync), you can instead perform a more complex message exchange with the visualizer object source by invoking [`RequestDataAsync<TMessage, TResponse>(TMessage, JsonSerializer?, CancellationToken)`](/dotnet/api/microsoft.visualstudio.extensibility.debuggervisualizers.visualizerobjectsourceclient.requestdataasync#microsoft-visualstudio-extensibility-debuggervisualizers-visualizerobjectsourceclient-requestdataasync-2(-0-newtonsoft-json-jsonserializer-system-threading-cancellationtoken)) multiple times and sending different *messages* to the visualizer object source. Both the message and response is serialized by the VisualStudio.Extensibility infrastructure using Newtonsoft.Json. Other overrides of `RequestDataAsync` allow you to use `JToken` objects or implement custom serialization and deserialization.
 
-You can implement any custom protocol using different messages to retrieve information from the visualizer object source. The most common use case for this feature is breaking the retrieval of a potentially large object into multiple calls to avoid `RequestDataAsync` timing out.
+You can implement any custom protocol using different messages to retrieve information from the visualizer object source. The most common use case for this feature is breaking the retrieval of a potentially large object into multiple calls to avoid [`RequestDataAsync`](/dotnet/api/microsoft.visualstudio.extensibility.debuggervisualizers.visualizerobjectsourceclient.requestdataasync) timing out.
 
 This is an example of how you can retrieve the content of a potentially large collection one item at a time:
 
@@ -180,7 +180,7 @@ for (int i = 0; ; i++)
 }
 ```
 
-The code above uses a simple index as message for the `RequestDataAsync` calls. The corresponding visualizer object source code would override the `TransferData` method (instead of `GetData`):
+The code above uses a simple index as message for the [`RequestDataAsync`](/dotnet/api/microsoft.visualstudio.extensibility.debuggervisualizers.visualizerobjectsourceclient.requestdataasync) calls. The corresponding visualizer object source code would override the `TransferData` method (instead of `GetData`):
 
 ```csharp
 public class MyCollectionTypeObjectSource : VisualizerObjectSource
@@ -210,7 +210,7 @@ public class MyCollectionTypeObjectSource : VisualizerObjectSource
 
 The visualizer object source above leverages the `VisualizerObjectSource.DeserializeFromJson` method to deserialize the message sent by the visualizer provider from `incomingData`.
 
-When implementing a debugger visualizer provider that performs complex message interaction with the visualizer object source, it's usually better to pass the `VisualizerTarget` to the visualizer's `RemoteUserControl` so that the message exchange can happen asynchronously while the control is loaded. Passing the `VisualizerTarget` also lets you send messages to the visualizer object source to retrieve data based on the user's interactions with the visualizer's UI.
+When implementing a debugger visualizer provider that performs complex message interaction with the visualizer object source, it's usually better to pass the [`VisualizerTarget`](/dotnet/api/microsoft.visualstudio.extensibility.debuggervisualizers.visualizertarget) to the visualizer's `RemoteUserControl` so that the message exchange can happen asynchronously while the control is loaded. Passing the `VisualizerTarget` also lets you send messages to the visualizer object source to retrieve data based on the user's interactions with the visualizer's UI.
 
 ```csharp
 public override Task<IRemoteUserControl> CreateVisualizerAsync(VisualizerTarget visualizerTarget, CancellationToken cancellationToken)
@@ -240,7 +240,7 @@ internal class MyVisualizerUserControl : RemoteUserControl
 
 ## Opening visualizers as Tool Windows
 
-By default, all debugger visualizer extensions are opened as modal dialog windows on the foreground of Visual Studio. Hence, if the user wants to continue to interact with the IDE, the visualizer will need to be closed. However, if the `Style` property is set to `ToolWindow` in the `DebuggerVisualizerProviderConfiguration` property, then the visualizer will be opened as a non-modal tool window that can remain open during the rest of the debug session. If no style is declared, the default value `ModalDialog` will be used.
+By default, all debugger visualizer extensions are opened as modal dialog windows on the foreground of Visual Studio. Hence, if the user wants to continue to interact with the IDE, the visualizer will need to be closed. However, if the `Style` property is set to `ToolWindow` in the [`DebuggerVisualizerProviderConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.debuggervisualizers.debuggervisualizerproviderconfiguration) property, then the visualizer will be opened as a non-modal tool window that can remain open during the rest of the debug session. If no style is declared, the default value `ModalDialog` will be used.
 
 ```csharp
     public override DebuggerVisualizerProviderConfiguration DebuggerVisualizerProviderConfiguration => new("My visualizer", typeof(TypeToVisualize))
@@ -321,7 +321,7 @@ internal class MyVisualizerUserControl : RemoteUserControl
 }
 ```
 
-The `Available` notification will be received after the `RemoteUserControl` has been created and just before it is made visible in the newly created visualizer tool window. For as long as the visualizer remains open, the other `VisualizerTargetStateNotification` values can be received every time the debug target changes its state. The `ValueUpdated` notification is used to indicate that the last expression opened by the visualizer was successfully re-evaluated where the debugger stopped and should be refreshed by the UI. On the other hand, whenever the debug target is resumed or the expression cannot be re-evaluated after stopping, the `Unavailable` notification will be received.
+The `Available` notification will be received after the [`RemoteUserControl`](/dotnet/api/microsoft.visualstudio.extensibility.ui.remoteusercontrol) has been created and just before it is made visible in the newly created visualizer tool window. For as long as the visualizer remains open, the other `VisualizerTargetStateNotification` values can be received every time the debug target changes its state. The `ValueUpdated` notification is used to indicate that the last expression opened by the visualizer was successfully re-evaluated where the debugger stopped and should be refreshed by the UI. On the other hand, whenever the debug target is resumed or the expression cannot be re-evaluated after stopping, the `Unavailable` notification will be received.
 
 ## Update the visualized object value
 

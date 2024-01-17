@@ -35,7 +35,7 @@ Creating a tool window with the new Extensibility Model is as simple as calling 
 
 ### ShowDialogAsync
 
-The `ShowDialogAsync` method has several overloads that you should become familiar with:
+The [ShowDialogAsync](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.showdialogasync) method has several overloads that you should become familiar with:
 
 #### Overloads
 
@@ -160,7 +160,7 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 
 ## Get the dialog result
 
-If you need to know whether a user affirmatively closed a dialog or dismissed it, you can await the call to `ShowDialogAsync`, and it will return a `Microsoft.VisualStudio.RpcContracts.Notifications.DialogResult`, which represents the action taken by the user.
+If you need to know whether a user affirmatively closed a dialog or dismissed it, you can await the call to [`ShowDialogAsync`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.showdialogasync), and it will return a `Microsoft.VisualStudio.RpcContracts.Notifications.DialogResult`, which represents the action taken by the user.
 
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
