@@ -66,7 +66,7 @@ public override MenuConfiguration MyMenu => new("%MyMenu.DisplayName%")
 
 ## Place items on a menu
 
-Placing on item on a menu is done by adding items to the `Children` array on the `MenuConfiguration`. The order that items are added to this array dictate how these items will be displayed visually in the IDE.
+Placing on item on a menu is done by adding items to the `Children` array on the [`MenuConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.menuconfiguration). The order that items are added to this array dictate how these items will be displayed visually in the IDE.
 
 ### Placing commands on a menu
 
@@ -85,7 +85,7 @@ public static MenuConfiguration MyMenu => new("%MyMenu.DisplayName%")
 
 ### Placing menus on a menu
 
-Placing menus on a menu is done using the `MenuChild.Menu` method, passing in another `MenuConfiguration` as a parameter.
+Placing menus on a menu is done using the `MenuChild.Menu` method, passing in another [`MenuConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.menuconfiguration) as a parameter.
 
 ```csharp
 [VisualStudioContribution]
@@ -144,7 +144,7 @@ In the two previous examples, the resulting menu would be identical in the IDE. 
 
 ## Create a toolbar
 
-To create a toolbar with the new Extensibility Model, add a static [`ToolbarConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.toolbarconfiguration) property, adorning the class with the `VisualStudioContribution` attribute. This static property can be placed on any class in your Extension project. In the new Extensibility Model samples they exist on the `Extension` class for simplicity.
+To create a toolbar with the new Extensibility Model, add a static [`ToolbarConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.toolbarconfiguration) property, adorning the class with the [`VisualStudioContribution`](/dotnet/api/microsoft.visualstudio.extensibility.visualstudiocontributionattribute) attribute. This static property can be placed on any class in your Extension project. In the new Extensibility Model samples they exist on the [`Extension`](/dotnet/api/microsoft.visualstudio.extensibility.extension) class for simplicity.
 
 ```csharp
 [VisualStudioContribution]
@@ -155,7 +155,7 @@ public class ExtensionEntrypoint : Extension
 }
 ```
 
-Leaving the `Placement` property of the `ToolbarConfiguration` as `null` will place the toolbar on the Standard Toolbar Bar and can be made visible by selecting the toolbar in the `View -> Toolbars` menu.
+Leaving the `Placement` property of the [`ToolbarConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.toolbarconfiguration) as `null` will place the toolbar on the Standard Toolbar Bar and can be made visible by selecting the toolbar in the `View -> Toolbars` menu.
 
 ### ToolbarConfiguration class
 
@@ -222,9 +222,9 @@ In the two examples here, the resulting toolbar would be identical in the IDE. T
 
 ## Create a group
 
-A group is a visual grouping of items where a separator will be placed in between the last and first items of adjacent groups. In the sections above, it describes how to create groups inside of the context of the `Children` property of a `MenuConfiguration` or `ToolbarConfiguration`. It is also possible to define groups inside of their own `CommandGroupConfiguration`. This is useful when you would like to parent a group to an existing menu or toolbar in Visual Studio without defining you're own menu or toolbar. It can also be useful if you would like to format your code in a way that separates your group definitions from your menu and toolbar definitions.
+A group is a visual grouping of items where a separator will be placed in between the last and first items of adjacent groups. In the sections above, it describes how to create groups inside of the context of the `Children` property of a [`MenuConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.menuconfiguration) or [`ToolbarConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.toolbarconfiguration). It is also possible to define groups inside of their own [`CommandGroupConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandgroupconfiguration). This is useful when you would like to parent a group to an existing menu or toolbar in Visual Studio without defining you're own menu or toolbar. It can also be useful if you would like to format your code in a way that separates your group definitions from your menu and toolbar definitions.
 
-To create a group with the new Extensibility Model, add a static [`CommandGroupConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandgroupconfiguration) property. This static property can be placed on any class in your Extension project. In the new Extensibility Model samples they exist on the `Extension` class for simplicity. If a `CommandGroupConfiguration` specifies a `Placement`, it should also be adorned with the `VisualStudioContribution` attribute.
+To create a group with the new Extensibility Model, add a static [`CommandGroupConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandgroupconfiguration) property. This static property can be placed on any class in your Extension project. In the new Extensibility Model samples they exist on the [`Extension`](/dotnet/api/microsoft.visualstudio.extensibility.extension) class for simplicity. If a `CommandGroupConfiguration` specifies a `Placement`, it should also be adorned with the [`VisualStudioContribution`](/dotnet/api/microsoft.visualstudio.extensibility.visualstudiocontributionattribute) attribute.
 
 ```csharp
 public static CommandGroupConfiguration MyGroup => new();
@@ -244,7 +244,7 @@ The [`CommandGroupConfiguration`](/dotnet/api/microsoft.visualstudio.extensibili
 
 ### Place a group in the IDE
 
-There is a set of well-defined places in Visual Studio where commands can be placed. These placements are defined by the property [`CommandPlacement.KnownPlacements`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandplacement.knownplacements) on the class `Microsoft.VisualStudio.Extensibility.Commands.GroupPlacement`. The current set of `KnownPlacements` is:
+There is a set of well-defined places in Visual Studio where commands can be placed. These placements are defined by the property [`CommandPlacement.KnownPlacements`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandplacement.knownplacements) on the class [`Commands.GroupPlacement`](/dotnet/api/microsoft.visualstudio.extensibility.commands.groupplacement). The current set of `KnownPlacements` is:
 
 - `ToolsMenu` - The command will be placed in a group under the top-level "Tools" menu in Visual Studio.
 - `ViewOtherWindowsMenu` - The command will be placed in a group under the top-level "View" -> "Other Windows" menu in Visual Studio.
@@ -260,7 +260,7 @@ public static CommandGroupConfiguration MyGroup2 => new(GroupPlacement.KnownPlac
 
 ## Place items on a group
 
-Commands and menus can be placed onto groups using the `Children` array property on the `CommandGroupConfiguration`.
+Commands and menus can be placed onto groups using the `Children` array property on the [`CommandGroupConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandgroupconfiguration).
 
 ### Place commands on a group
 
@@ -279,7 +279,7 @@ public static CommandGroupConfiguration MyGroup => new(GroupPlacement.KnownPlace
 
 ### Place menus on a group
 
-Placing menus on a group is done using the `GroupChild.Menu` method, passing in a `MenuConfiguration` as a parameter.
+Placing menus on a group is done using the `GroupChild.Menu` method, passing in a [`MenuConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.menuconfiguration) as a parameter.
 
 ```csharp
 [VisualStudioContribution]
@@ -297,7 +297,7 @@ public static CommandGroupConfiguration MyGroup => new(GroupPlacement.KnownPlace
 
 ## Place groups on a menu or toolbar
 
-Placing a group on a menu is done using the `MenuChild.Group` method, passing in a `CommandGroupConfiguration` as a parameter. Placing a group on a toolbar is done using the `ToolbarChild.Group`  method, passing in a `CommandGroupConfiguration` as a parameter. Groups parented to menus or toolbars in this way can't have the `Placement` property of the `CommandGroupConfiguration` set to any value except `null`, and it shouldn't be adorned with the `VisualStudioContribution` attribute.
+Placing a group on a menu is done using the `MenuChild.Group` method, passing in a [`CommandGroupConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandgroupconfiguration) as a parameter. Placing a group on a toolbar is done using the `ToolbarChild.Group`  method, passing in a `CommandGroupConfiguration` as a parameter. Groups parented to menus or toolbars in this way can't have the `Placement` property of the `CommandGroupConfiguration` set to any value except `null`, and it shouldn't be adorned with the [`VisualStudioContribution`](/dotnet/api/microsoft.visualstudio.extensibility.visualstudiocontributionattribute) attribute.
 
 ```csharp
 private static CommandGroupConfiguration MyGroup => new()
@@ -341,9 +341,9 @@ public static ToolbarConfiguration MyToolbar => new("%MyToolbar.DisplayName%")
 
 ## Placement ordering (Priority)
 
-Placements are ordered based on the value of their [`Priority`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandplacement.priority) property when parented to a control defined in VSCT, relative to other items parented to the same group, menu, or toolbar. The `Priority` property is an `unsigned short`. The default `Priority` value for a `CommandPlacement` and `GroupPlacement` is `0` and can be modified by calling the `CommandPlacement.WithPriority` or `GroupPlacement.WithPriority` methods, passing in the desired `Priority` value. The `Priority` can also be set by using the `CommandPlacement.VsctParent` and `GroupPlacement.VsctParent` methods and passing in the desired `Priority` directly.
+Placements are ordered based on the value of their [`Priority`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandplacement.priority) property when parented to a control defined in VSCT, relative to other items parented to the same group, menu, or toolbar. The `Priority` property is an `unsigned short`. The default `Priority` value for a [`CommandPlacement`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandplacement) and [`GroupPlacement`](/dotnet/api/microsoft.visualstudio.extensibility.commands.groupplacement) is `0` and can be modified by calling the `CommandPlacement.WithPriority` or `GroupPlacement.WithPriority` methods, passing in the desired `Priority` value. The `Priority` can also be set by using the `CommandPlacement.VsctParent` and `GroupPlacement.VsctParent` methods and passing in the desired `Priority` directly.
 
-The `Priority` property is not involved when parenting items to controls defined via configuration objects using the VisualStudio.Extensibility model (i.e. the group, menu, or toolbar being parented to was defined using `CommandGroupConfiguration`, `MenuConfiguration`, or `ToolbarConfiguration`).
+The `Priority` property is not involved when parenting items to controls defined via configuration objects using the VisualStudio.Extensibility model (i.e. the group, menu, or toolbar being parented to was defined using [`CommandGroupConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandgroupconfiguration), [`MenuConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.menuconfiguration), or [`ToolbarConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.toolbarconfiguration)).
 
 ### GroupPlacement
 
