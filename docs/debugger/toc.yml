@@ -674,8 +674,6 @@
         href: error-unable-to-connect-to-sql-server-on-remote-machine.md
       - name: Unable to access the SQL Server debugging interface
         href: error-unable-to-access-the-sql-server-debugging-interface.md
-      - name: SQL Can't Find SSDEBUGPS
-        href: error-sql-can-t-find-ssdebugps.md
       - name: Transact-SQL execution ended without debugging
         href: error-transact-sql-execution-ended-without-debugging.md
       - name: User could not execute stored procedure sp_enable_sql_debug

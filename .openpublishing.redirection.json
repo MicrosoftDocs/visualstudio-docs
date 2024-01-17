@@ -1056,6 +1056,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/error-sql-can-t-find-ssdebugps.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-sql-can-t-find-ssdebugps",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/warning-script-debugging-disabled.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/warning-script-debugging-disabled",
       "redirect_document_id": false
