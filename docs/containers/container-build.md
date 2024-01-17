@@ -90,6 +90,11 @@ msbuild /p:SolutionPath=<solution-name>.sln /p:Configuration=Release docker-comp
 
 ## Debugging
 
+::: moniker range=">=vs-2022"
+> [!NOTE]
+> This section describes how you can customize your Docker containers when you choose the Dockerfile container build type. If you are using the .NET SDK build type, the customization options are different, and most of the information in this section is not applicable.
+::: moniker-end
+
 When you build in the **Debug** configuration, there are several optimizations that Visual Studio does that help with the performance of the build process for containerized projects. The build process for containerized apps isn't as straightforward as simply following the steps outlined in the Dockerfile. Building in a container is slower than building on the local machine.  So, when you build in the **Debug** configuration, Visual Studio actually builds your projects on the local machine, and then shares the output folder to the container using volume mounting. A build with this optimization enabled is called a *Fast* mode build.
 
 In **Fast** mode, Visual Studio calls `docker build` with an argument that tells Docker to build only the first stage in the Dockerfile (normally the `base` stage). You can change that by setting the MSBuild property, `DockerfileFastModeStage`, described at [Container Tools MSBuild properties](container-msbuild-properties.md).   Visual Studio handles the rest of the process without regard to the contents of the Dockerfile. So, when you modify your Dockerfile, such as to customize the container environment or install additional dependencies, you should put your modifications in the first stage.  Any custom steps placed in the Dockerfile's `build`, `publish`, or `final` stages aren't executed.
@@ -120,11 +125,6 @@ For information on `vsdbg.exe`, see [Offroad debugging of .NET Core on Linux and
 
 ### Modify container image for debugging and production
 
-::: moniker range=">=vs-2022"
-> [!NOTE]
-> This section describes how you can customize your Docker containers when you choose the Dockerfile container build type. If you are using the .NET SDK build type, the customization options are different, and the information in this article is not applicable.
-::: moniker-end
-
 To modify the container image for both debugging and production, modify the `base` stage. Add your customizations to the Dockerfile in the base stage section, usually the first section in the Dockerfile. Refer to the [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) in the Docker documentation for information about Dockerfile commands.
 
 ```dockerfile
@@ -152,11 +152,6 @@ ENTRYPOINT ["dotnet", "WebApplication3.dll"]
 ```
 
 ### Modify container image only for debugging
-
-::: moniker range=">=vs-2022"
-> [!NOTE]
-> This section describes how you can customize your Docker containers when you choose the Dockerfile container build type. If you are using the .NET SDK build type, the customization options are different, and the information in this article is not applicable.
-::: moniker-end
 
 This scenario applies when you want to do something with your containers to help you in the debugging process, such as installing something for diagnostic purposes, but you don't want that installed in production builds.
 
