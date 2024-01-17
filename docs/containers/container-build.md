@@ -200,7 +200,7 @@ The next sections contain information that might be useful in certain cases, suc
 
 ## Building from the command line
 
-If you want to build outside of Visual Studio, you can use `docker build`, `MSBuild`, or `dotnet publish` to build from the command line.
+If you want to build outside of Visual Studio, you can use `docker build`, `MSBuild`, `dotnet build`, or `dotnet publish` to build from the command line.
 
 ### docker build
 
