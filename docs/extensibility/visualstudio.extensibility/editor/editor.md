@@ -72,7 +72,7 @@ Assuming you decide to implement both listeners, the finished class declaration 
       ...
 ```
 
-Since both `ITextViewOpenClosedListener` and `ITextViewChangedListener` declare the `TextViewExtensionConfiguration` property, the configuration applies to both listeners.
+Since both [ITextViewOpenClosedListener](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewopenclosedlistener) and [ITextViewChangedListener](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewchangedlistener) declare the [TextViewExtensionConfiguration](/dotnet/api/microsoft.visualstudio.extensibility.editor.textviewextensionconfiguration) property, the configuration applies to both listeners.
 
 When you run your extension, you should see:
 
@@ -106,7 +106,7 @@ DocumentTypes are hierarchical. That is, C# and C++ both descend from "code", so
 
 ### Define a new document type
 
-You can define a new document type, for example to support a custom code language, by adding a static [DocumentTypeConfiguration](/dotnet/api/microsoft.visualstudio.extensibility.editor.documenttypeconfiguration) property to any class in the extension project, and marking the property with the `VisualStudioContribution` attribute.
+You can define a new document type, for example to support a custom code language, by adding a static [DocumentTypeConfiguration](/dotnet/api/microsoft.visualstudio.extensibility.editor.documenttypeconfiguration) property to any class in the extension project, and marking the property with the [`VisualStudioContribution`](/dotnet/api/microsoft.visualstudio.extensibility.visualstudiocontributionattribute) attribute.
 
 `DocumentTypeConfiguration` allows you to define a new document type, specify that it inherits one or more other document types, and specify one or more file extensions that are used to identify the file type:
 
@@ -183,13 +183,13 @@ EditorExtensibility editorService = this.Extensibility.Editor();
 
 ### Access editor state within a command
 
-`ExecuteCommandAsync()` in each `Command` is passed an `IClientContext` that contains a snapshot of the state of the IDE at the time the command was invoked. You can access the active document via the `ITextViewSnapshot` interface, which you get by from the `EditorExtensibility` object by calling the asynchronous method `GetActiveTextViewAsync`:
+`ExecuteCommandAsync()` in each `Command` is passed an `IClientContext` that contains a snapshot of the state of the IDE at the time the command was invoked. You can access the active document via the [`ITextViewSnapshot`](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewsnapshot) interface, which you get by from the [`EditorExtensibility`](/dotnet/api/microsoft.visualstudio.extensibility.editor.editorextensibility) object by calling the asynchronous method [`GetActiveTextViewAsync`](/dotnet/api/microsoft.visualstudio.extensibility.editor.editorextensibility.getactivetextviewasync):
 
 ```csharp
 using ITextViewSnapshot textView = await this.Extensibility.Editor().GetActiveTextViewAsync(clientContext, cancellationToken);
 ```
 
-Once you have `ITextViewSnapshot`, you can access editor state. `ITextViewSnapshot` is an immutable view of editor state at a point in time, so you need to use the other interfaces in the [Editor object model](editor-concepts.md) to make edits.
+Once you have `ITextViewSnapshot`, you can access editor state. [`ITextViewSnapshot`](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewsnapshot) is an immutable view of editor state at a point in time, so you need to use the other interfaces in the [Editor object model](editor-concepts.md) to make edits.
 
 ## Make changes in a text document from an extension
 
@@ -202,9 +202,9 @@ Learn more about asynchronous programming at [Asynchronous programming with asyn
 In the new Visual Studio extensibility model, the extension is second class relative to the user: it can't directly
 modify the editor or the text document. All state changes are asynchronous and cooperative, with Visual Studio IDE performing the requested change on the extension's behalf. The extension can request one or more changes on a specific version of the document or text view, but changes from an extension may be rejected, such as if that area of the document has changed.
 
-Edits are requested using the `EditAsync()` method on `EditorExtensibility`.
+Edits are requested using the `EditAsync()` method on [`EditorExtensibility`](/dotnet/api/microsoft.visualstudio.extensibility.editor.editorextensibility).
 
-If you're familiar with legacy Visual Studio extensions, `ITextDocumentEditor` is almost the same as the state changing methods from [ITextBuffer](/dotnet/api/microsoft.visualstudio.text.itextbuffer) and [ITextDocument](/dotnet/api/microsoft.visualstudio.text.itextdocument) and supports most of the same capabilities.
+If you're familiar with legacy Visual Studio extensions, [`ITextDocumentEditor`](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextdocumenteditor) is almost the same as the state changing methods from [ITextBuffer](/dotnet/api/microsoft.visualstudio.text.itextbuffer) and [ITextDocument](/dotnet/api/microsoft.visualstudio.text.itextdocument) and supports most of the same capabilities.
 
 ```csharp
 MutationResult result = await this.Extensibility.Editor().EditAsync(
