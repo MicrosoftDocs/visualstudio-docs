@@ -149,7 +149,7 @@ Deployment of legacy COM components has traditionally been a difficult task. Com
 
 - The component is an out-of-process server. EXE servers are not supported; only DLLs are supported.
 
-- The component is part of the operating system, or is a system component, such as XML, Internet Explorer, or Microsoft Data Access Components (MDAC). You should follow the redistribution policy of the component author; check with your vendor.
+- The component is part of the operating system, or is a system component, such as XML, a browser component, or Microsoft Data Access Components (MDAC). You should follow the redistribution policy of the component author; check with your vendor.
 
 - The component is part of an application, such as Microsoft Office. For example, you should not attempt to isolate Microsoft Excel Object Model. This is part of Office and can only be used on a computer with the full Office product installed.
 

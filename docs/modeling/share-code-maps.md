@@ -43,7 +43,7 @@ When you export a code map as an image, you can copy it into other applications,
 
 ## Export the map as an XPS file
 
-When you export a code map as an XPS file, you can see it in XML or XAML viewers like Internet Explorer.
+When you export a code map as an XPS file, you can see it in XML or XAML viewers.
 
 1. On the code map toolbar, choose **Share** > **Email As Portable XPS** or **Save As Portable XPS**.
 

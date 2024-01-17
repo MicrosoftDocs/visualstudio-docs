@@ -69,8 +69,6 @@ There are three different strategies for deploying a ClickOnce application; the 
 
  Applications that target .NET Framework 3.5 and above can be installed using any browser.
 
- Applications that target .NET Framework 2.0 require Internet Explorer.
-
 ## Related content
 
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)

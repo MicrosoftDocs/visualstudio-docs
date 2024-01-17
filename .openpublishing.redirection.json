@@ -1056,6 +1056,21 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/warning-script-debugging-disabled.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/warning-script-debugging-disabled",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/walkthrough-debugging-a-web-form.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/walkthrough-debugging-a-web-form",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/remote-debugging-unblock-file-download.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/remote-debugging-unblock-file-download",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/error-debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system",
       "redirect_document_id": false
@@ -1991,7 +2006,6 @@
       "redirect_url": "/troubleshoot/developer/visualstudio/tools-utilities/troubleshooting-office-solution-security",
       "redirect_document_id": false
     },
-
     {
       "source_path": "docs/debugger/troubleshoot-data-breakpoint-errors.md",
       "redirect_url": "visualstudio/debugger/troubleshooting-breakpoints",

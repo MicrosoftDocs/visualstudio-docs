@@ -25,7 +25,7 @@ If you don't have Visual Studio installed, you can prevent Just-In-Time debuggin
 
 - If you're trying to run a web app, disable script debugging:
 
-  In Windows **Control Panel** > **Network and Internet** > **Internet Options**, select **Disable script debugging (Internet Explorer)** and **Disable script debugging (other)**. The exact steps and settings depend on your version of Windows and your browser.
+  In Windows **Control Panel** > **Network and Internet** > **Internet Options** > **Advanced**, select **Disable script debugging**. The exact steps and settings depend on your version of Windows and your browser.
 
   ![JIT Internet Options](../debugger/media/jitinternetoptions.png "JIT internet options")
 
