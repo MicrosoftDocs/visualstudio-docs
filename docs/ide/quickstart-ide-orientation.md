@@ -157,7 +157,7 @@ To explore Visual Studio's features, let's create a new project.
     
     :::image type="content" source="media/vs-2022/editor.png" alt-text="Screenshot of the Editor in Visual Studio 2022.":::
 
-* The menu bar along the top of Visual Studio groups commands into categories. For example, the **Project** menu contains commands related to the project you're working in. On the **Tools** menu, you can customize how Visual Studio behaves by selecting **Options**, or add features to your installation by selecting **Get Tools and Features**.
+* The menu bar along the top of Visual Studio groups commands into categories. For example, the **Project** menu contains commands related to the project you're working in. On the **Tools** menu, you can customize how Visual Studio behaves by selecting **Options**, or add features to your installation by selecting **Get Tools and Features**. You can [customize Visual Studio IDE settings](personalizing-the-visual-studio-ide.md) in various ways to best support your own development style and requirements.
     
     :::image type="content" source="media/vs-2022/menu-bar.png" alt-text="Screenshot of the Menu bar in Visual Studio 2022.":::
 
