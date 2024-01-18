@@ -45,7 +45,7 @@ Together, these listeners can be used to observe the open, close, and modificati
 Then, create a new class, implementing the [ExtensionPart](/dotnet/api/microsoft.visualstudio.extensibility.extensionpart) base class and `ITextViewChangedListener`,
 `ITextViewOpenClosedListener`, or both, and add a [VisualStudioContribution](/dotnet/api/microsoft.visualstudio.extensibility.visualstudiocontributionattribute) attribute.
 
-Then, implement the [TextViewExtensionConfiguration](/dotnet/api/microsoft.visualstudio.extensibility.editor.textviewextensionconfiguration) property, as required by `ITextViewChangedListener` and `ITextViewOpenClosedListener`, making the listener apply when editing C# files:
+Then, implement the [TextViewExtensionConfiguration](/dotnet/api/microsoft.visualstudio.extensibility.editor.textviewextensionconfiguration) property, as required by [ITextViewChangedListener](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewchangedlistener) and [ITextViewOpenClosedListener](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewopenclosedlistener), making the listener apply when editing C# files:
 ```csharp
 public TextViewExtensionConfiguration TextViewExtensionConfiguration => new()
 {
