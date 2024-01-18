@@ -28,7 +28,7 @@ In this step, you'll learn about options for configuring and placing the command
 
 The project template or the sample you created in the [Create your first extension](create-your-first-extension.md) tutorial consists of a single C# file that includes a [`Command`](/dotnet/api/microsoft.visualstudio.extensibility.commands.command) class already. You can update that in place.
 
-1. Rename the `Command1.cs` file to `InsertGuidCommand.cs`, rename the class `InsertGuidCommand`, update the `CommandConfiguration` property.
+1. Rename the `Command1.cs` file to `InsertGuidCommand.cs`, rename the class `InsertGuidCommand`, update the [`CommandConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandconfiguration) property.
 
    ```csharp
    public override CommandConfiguration CommandConfiguration => new("%InsertGuidCommand.DisplayName%")
@@ -37,7 +37,7 @@ The project template or the sample you created in the [Create your first extensi
    };
    ```
 
-   `Placements` specifies where the command should appear in the IDE. In this case, the command is placed in the Extensions menu, one of the top-level menus in Visual Studio.
+   [`Placements`](/dotnet/api/microsoft.visualstudio.extensibility.commands.basecontrolconfiguration.placements) specifies where the command should appear in the IDE. In this case, the command is placed in the Extensions menu, one of the top-level menus in Visual Studio.
 
    The argument to the [`CommandConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandconfiguration) constructor is the command's display name, which is the menu text. The display name is enclosed by `%` characters because it references a string resource from `.vsextension/string-resources.json` to support localization.
 
@@ -108,7 +108,7 @@ Then, we create an [`ITextViewSnapshot`](/dotnet/api/microsoft.visualstudio.exte
 
 Now we're ready to call the asynchronous method that submits an edit request to Visual Studio's editor. The method we want is [`EditAsync`](/dotnet/api/microsoft.visualstudio.extensibility.editor.editorextensibility.editasync). That's a member of the [`EditorExtensibility`](/dotnet/api/microsoft.visualstudio.extensibility.editor.editorextensibility) class, which allows interaction with the running Visual Studio Editor in the IDE. The `Command` type, which your own `InsertGuidCommand` class inherits from, has a member `Extensibility` that provides access to the [`EditorExtensibility`](/dotnet/api/microsoft.visualstudio.extensibility.editor.editorextensibility) object, so we can get to the `EditorExtensibility` class with a call to `this.Extensibility.Editor()`.
 
-The `EditAsync` method takes an `Action<IEditBatch>` as a parameter. This parameter is called `editorSource`,
+The [`EditAsync`](/dotnet/api/microsoft.visualstudio.extensibility.editor.editorextensibility.editasync) method takes an `Action<IEditBatch>` as a parameter. This parameter is called `editorSource`,
 
 The call to `EditAsync` uses a lambda expression. To break this down a little, you could also write that call as follows:
 
@@ -125,6 +125,6 @@ await this.Extensibility.Editor().EditAsync(
 
 You could think of this call as specifying the code that you want to be run in the Visual Studio editor process. The lambda expression specifies what you want changed in the editor. The `batch` is of type `IEditBatch`, which implies that the lambda expression defined here makes a small set of changes that should be accomplished as a unit, rather than being interrupted by other edits by the user or language service. If the code executes too long, that can lead to unresponsiveness, so it's important to keep changes within this lambda expression limited and understand anything that could lead to delays.
 
-Using the `AsEditable` method on the document, you get a temporary editor object that you can use to specify the desired changes. Think of everything in the lambda expression as a request for Visual Studio to execute rather than as actually executing, because as described in the [Use Visual Studio editor extensibility](../editor/editor.md), there's a particular protocol for handling these asynchronous edit requests from extensions, and there's a possibility of the changes not being accepted, such as if the user is making changes at the same time that create a conflict.
+Using the [`AsEditable`](/dotnet/api/microsoft.visualstudio.extensibility.editor.ieditable-1.aseditable) method on the document, you get a temporary editor object that you can use to specify the desired changes. Think of everything in the lambda expression as a request for Visual Studio to execute rather than as actually executing, because as described in the [Use Visual Studio editor extensibility](../editor/editor.md), there's a particular protocol for handling these asynchronous edit requests from extensions, and there's a possibility of the changes not being accepted, such as if the user is making changes at the same time that create a conflict.
 
-The `EditAsync` pattern can be used to modify text in general by specifying your modifications after the "specify your desired changes here" comment.
+The [`EditAsync`](/dotnet/api/microsoft.visualstudio.extensibility.editor.editorextensibility.editasync) pattern can be used to modify text in general by specifying your modifications after the "specify your desired changes here" comment.

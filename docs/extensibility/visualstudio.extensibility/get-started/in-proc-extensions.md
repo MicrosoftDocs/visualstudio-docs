@@ -134,7 +134,7 @@ Here's an example code snippet that shows how one can utilize `VisualStudioExten
   </ItemGroup>
 ```
 
-* You can now query for `VisualStudioExtensibility` instance via `GetServiceAsync` method in your package or other components:
+* You can now query for [VisualStudioExtensibility](/dotnet/api/microsoft.visualstudio.extensibility.visualstudioextensibility) instance via `GetServiceAsync` method in your package or other components:
 
 ```CSharp
 ...
@@ -173,6 +173,6 @@ If you also want to contribute components like tool windows, editor listeners us
 </PropertyGroup>    
 ```
 
-* Create a new extension class inheriting from `Extension` base class and set [RequiresInProcessHosting](#requiresinprocesshosting-property) property as shown previously.
+* Create a new extension class inheriting from [`Extension`](/dotnet/api/microsoft.visualstudio.extensibility.extension) base class and set [RequiresInProcessHosting](#requiresinprocesshosting-property) property as shown previously.
 
 You can now use all capabilities of VisualStudio.Extensibility together with your existing VSSDK extension.

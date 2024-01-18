@@ -47,7 +47,7 @@ You can also see the [`VisualStudioContribution`](/dotnet/api/microsoft.visualst
 
 ## Add your first command
 
-The template creates `Command1.cs` as your first command handler, which you can use as a starting point. Since we want to make Visual Studio aware of this command, and the [`Command`](/dotnet/api/microsoft.visualstudio.extensibility.commands.command) class implements `IVisualStudioContributionClass`, the command is marked with the `VisualStudioContribution` attribute.
+The template creates `Command1.cs` as your first command handler, which you can use as a starting point. Since we want to make Visual Studio aware of this command, and the [`Command`](/dotnet/api/microsoft.visualstudio.extensibility.commands.command) class implements [`IVisualStudioContributionClass`](/dotnet/api/microsoft.visualstudio.extensibility.ivisualstudiocontributionclass), the command is marked with the `VisualStudioContribution` attribute.
 
 ```csharp
 [VisualStudioContribution]
