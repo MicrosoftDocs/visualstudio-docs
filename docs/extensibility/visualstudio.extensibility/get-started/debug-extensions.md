@@ -33,7 +33,7 @@ There is some internal code in the ServiceHub host process that handles the RPC 
 ## Debug the extension in the experimental instance of Visual Studio
 
 1. Open the extension project.
-1. Set up a breakpoint, for example, in your extension's [`InitializeServices`](/dotnet/api/microsoft.visualstudio.extensibility.extension.initializeservices) method on the main class derived from `Extension`. To set a breakpoint on a line of code, click on the line, and press `F9`.
+1. Set up a breakpoint, for example, in your extension's [`InitializeServices`](/dotnet/api/microsoft.visualstudio.extensibility.extension.initializeservices) method on the main class derived from [`Extension`](/dotnet/api/microsoft.visualstudio.extensibility.extension). To set a breakpoint on a line of code, click on the line, and press `F9`.
 1. From the main menu, choose **Debug > Start Debugging** or press `F5`. Visual Studio Experimental Instance is launched; at the same time, the ServiceHub host process starts.
 1. Execute the steps in the experimental instance of Visual Studio that cause your extension to activate or to reproduce the scenario you're intending to debug.
 1. Visual Studio stops at a breakpoint.
