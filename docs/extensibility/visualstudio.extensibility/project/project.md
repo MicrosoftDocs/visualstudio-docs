@@ -34,7 +34,7 @@ This overview covers top scenarios for working with the project query API:
 - [Filter the query result](#filter-the-query-result)
 - [Use nested queries to specify desired properties](#use-nested-queries-to-specify-desired-properties)
 - [Retrieve a child collection using the Get method](#retrieve-a-child-collection-using-the-get-method)
-- [Query additional information from a previously returned item](#query-additional-information-from-a-previously returned-item)
+- [Query additional information from a previously returned item](#query-additional-information-from-a-previously-returned-item)
 - [Modify a project](#modify-a-project)
 - [Query for project properties](#query-for-project-properties)
 - [Query for solutions](#query-for-solutions)
