@@ -45,10 +45,10 @@ The [`MenuConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.comma
 
 | Parameter | Type | Required | Description |
 | --------- |----- | -------- | ----------- |
-| DisplayName | String | Yes | The default display name of your menu. Surround this string with the '%' character to enable localizing this string. See at [Localize metadata](localize-metadata.md). |
-| TooltipText | String | No | The text to display as the tooltip when the menu is hovered or focused. Surround this string with the '%' character to enable localizing this string. See at [Localize metadata](localize-metadata.md). |
-| Placements | CommandPlacement[] | No | Specifies the existing Groups within Visual Studio that the menu will be parented to. See at [Place a menu in the IDE](#place-a-menu-in-the-ide). |
-| Children | MenuChild[] | No | Describes the set of commands, menus and groups that should be parented to this menu. The order that these items are defined in the array represent the order that they'll appear visually in the IDE. See at [Place items on a menu](#place-items-on-a-menu) |
+| [DisplayName](dotnet/api/microsoft.visualstudio.extensibility.commands.controlcontainerconfiguration.displayname) | String | Yes | The default display name of your menu. Surround this string with the '%' character to enable localizing this string. See at [Localize metadata](localize-metadata.md). |
+| [TooltipText](/dotnet/api/microsoft.visualstudio.extensibility.commands.controlcontainerconfiguration.tooltiptext) | String | No | The text to display as the tooltip when the menu is hovered or focused. Surround this string with the '%' character to enable localizing this string. See at [Localize metadata](localize-metadata.md). |
+| [Placements](/dotnet/api/microsoft.visualstudio.extensibility.commands.controlcontainerconfiguration.placements) | CommandPlacement[] | No | Specifies the existing Groups within Visual Studio that the menu will be parented to. See at [Place a menu in the IDE](#place-a-menu-in-the-ide). |
+| [Children](/dotnet/api/microsoft.visualstudio.extensibility.commands.controlcontainerconfiguration-1.children) | MenuChild[] | No | Describes the set of commands, menus and groups that should be parented to this menu. The order that these items are defined in the array represent the order that they'll appear visually in the IDE. See at [Place items on a menu](#place-items-on-a-menu) |
 
 ## Place a menu in the IDE
 
@@ -70,7 +70,7 @@ Placing on item on a menu is done by adding items to the `Children` array on the
 
 ### Placing commands on a menu
 
-Placing commands on a menu is done using the `MenuChild.Command<T>` method, replacing the template argument with the class name of the `Command`.
+Placing commands on a menu is done using the `MenuChild.Command<T>` method, replacing the template argument with the class name of the [`Command`](/dotnet/api/microsoft.visualstudio.extensibility.commands.command).
 
 ```csharp
 [VisualStudioContribution]
@@ -85,7 +85,8 @@ public static MenuConfiguration MyMenu => new("%MyMenu.DisplayName%")
 
 ### Placing menus on a menu
 
-Placing menus on a menu is done using the `MenuChild.Menu` method, passing in another [`MenuConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.menuconfiguration) as a parameter.
+Placing menus on a menu is done using the [`MenuChild.Menu`](/dotnet/api/microsoft.visualstudio.extensibility.commands.menuchild.menu) method, passing in another [`MenuConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.menuconfiguration) as a parameter.
+
 
 ```csharp
 [VisualStudioContribution]
@@ -163,10 +164,10 @@ The [`ToolbarConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.co
 
 | Parameter | Type | Required | Description |
 | --------- |----- | -------- | ----------- |
-| DisplayName | String | Yes | The default display name of your toolbar. Surround this string with the '%' character to enable localizing this string. See at [Localize metadata](localize-metadata.md). |
-| TooltipText | String | No | The text to display as the tooltip when the toolbar is hovered or focused. Surround this string with the '%' character to enable localizing this string. See at [Localize metadata](localize-metadata.md). |
-| Placements | CommandPlacement[] | No | Specifies the existing Groups within Visual Studio that the toolbar will be parented to. See at [Place a command in the IDE](command.md#place-a-command-in-the-ide). Leaving this property as `null` will place the toolbar on the Standard Toolbar Bar and can be made visible by selecting the toolbar in the `View -> Toolbars` menu |
-| Children | ToolbarChild[] | No | Describes the set of commands, menus and groups that should be parented to this toolbar. The order that these items are defined in the array represent the order that they'll appear visually in the IDE. See at [Place items on a toolbar](#place-items-on-a-toolbar) |
+| [DisplayName](/dotnet/api/microsoft.visualstudio.extensibility.commands.controlcontainerconfiguration.displayname) | String | Yes | The default display name of your toolbar. Surround this string with the '%' character to enable localizing this string. See at [Localize metadata](localize-metadata.md). |
+| [TooltipText](/dotnet/api/microsoft.visualstudio.extensibility.commands.controlcontainerconfiguration.tooltiptext) | String | No | The text to display as the tooltip when the toolbar is hovered or focused. Surround this string with the '%' character to enable localizing this string. See at [Localize metadata](localize-metadata.md). |
+| [Placements](/dotnet/api/microsoft.visualstudio.extensibility.commands.controlcontainerconfiguration.placements) | CommandPlacement[] | No | Specifies the existing Groups within Visual Studio that the toolbar will be parented to. See at [Place a command in the IDE](command.md#place-a-command-in-the-ide). Leaving this property as `null` will place the toolbar on the Standard Toolbar Bar and can be made visible by selecting the toolbar in the `View -> Toolbars` menu |
+| [Children](/dotnet/api/microsoft.visualstudio.extensibility.commands.controlcontainerconfiguration-1.children) | ToolbarChild[] | No | Describes the set of commands, menus and groups that should be parented to this toolbar. The order that these items are defined in the array represent the order that they'll appear visually in the IDE. See at [Place items on a toolbar](#place-items-on-a-toolbar) |
 
 ## Place items on a toolbar
 
@@ -200,7 +201,7 @@ public static ToolbarConfiguration MyToolbar => new("%MyToolbar.DisplayName%")
 };
 ```
 
-This can also be accomplished by using the `ToolbarChild.Group` method to define a group inline. You would then use the `ToolbarChild` class to parent items to the group.
+This can also be accomplished by using the `ToolbarChild.Group` method to define a group inline. You would then use the [`ToolbarChild`](/dotnet/api/microsoft.visualstudio.extensibility.commands.toolbarchild) class to parent items to the group.
 
 ```csharp
 [VisualStudioContribution]
@@ -239,8 +240,8 @@ The [`CommandGroupConfiguration`](/dotnet/api/microsoft.visualstudio.extensibili
 
 | Parameter | Type | Required | Description |
 | --------- |----- | -------- | ----------- |
-| Placement | GroupPlacement | No | Specifies the existing menu or toolbar within Visual Studio that the group will be parented to. See at [Place a group in the IDE](#place-a-group-in-the-ide). |
-| Children | GroupChild[] | No | Describes the set of commands and menus that should be parented to this group. The order that these items are defined in the array represent the order that they'll appear visually in the IDE. See at [Place items on a group](#place-items-on-a-group) |
+| [Placement](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandgroupconfiguration.placements) | GroupPlacement | No | Specifies the existing menu or toolbar within Visual Studio that the group will be parented to. See at [Place a group in the IDE](#place-a-group-in-the-ide). |
+| [Children](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandgroupconfiguration.children) | GroupChild[] | No | Describes the set of commands and menus that should be parented to this group. The order that these items are defined in the array represent the order that they'll appear visually in the IDE. See at [Place items on a group](#place-items-on-a-group) |
 
 ### Place a group in the IDE
 
