@@ -127,7 +127,7 @@ internal class MyToolWindowControl : RemoteUserControl
 </DataTemplate>
 ```
 
-for more information on creating a `RemoteUserControl`, see[Remote UI](./../inside-the-sdk/remote-ui.md).
+for more information on creating a `RemoteUserControl`, see [Remote UI](./../inside-the-sdk/remote-ui.md).
 
 ## Create a command to show a tool window
 
