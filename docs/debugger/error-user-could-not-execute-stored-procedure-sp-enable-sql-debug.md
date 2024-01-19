@@ -19,7 +19,7 @@ The Stored Procedure sp_enable_sql_debug could not execute on the server. This c
 
 - A connection problem. You need to have a stable connection to the server.
 
-- Lack of necessary permissions on the server. To debug on SQL Server, both the account running Visual Studio and the account used to connect to SQL Server must be members of the sysadmin role. The account used to connect to SQL Server is either your Windows user account (if you are using Windows authentication) or an account with user ID and password (if you use SQL authentication).
+- Lack of necessary permissions on the server. To debug on SQL Server, both the account running Visual Studio and the account used to connect to SQL Server must be members of the sysadmin role. The account used to connect to SQL Server is either your Windows user account (if you're using Windows authentication) or an account with user ID and password (if you use SQL authentication).
 
 For more information, see [How to: Set SQL Server Permissions for Debugging](/previous-versions/w1bhybwz(v=vs.100)).
 
