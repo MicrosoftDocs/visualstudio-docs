@@ -25,7 +25,7 @@ Visual Studio includes the Microsoft unit testing frameworks for both managed an
 
 ## Run tests in Test Explorer
 
-When you build the test project, the tests appear in Test Explorer. If Test Explorer is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer** (or press **Ctrl** + **E**, **T**).
+When you build the test project, the tests appear in Test Explorer. If Test Explorer is not visible, choose **Test** on the Visual Studio menu, choose **Test**, and then choose **Test Explorer** (or press **Ctrl** + **E**, **T**).
 
 ::: moniker range="vs-2019"
 ![Test Explorer](../test/media/vs-2019/test-explorer-16-2.png)
