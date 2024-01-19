@@ -1,54 +1,86 @@
 ---
 title: Reformat your python code in Visual Studio
 description: Automatically format your Python code in Visual Studio, including the code spacing, statements, long line wrapping, and code comments.
-ms.date: 08/11/2023
-ms.topic: conceptual
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
 ms.subservice: python
+ms.topic: conceptual
+ms.date: 01/18/2024
+manager: jmartens
+
+# CustomerIntent: As a developer, I want to reformat Python code in Visual Studio so I can adjust settings like code spacing and line wrapping.
+
 ---
 
 # Automatically reformat Python code in Visual Studio
 
-Visual Studio lets you quickly reformat code to match specific formatter standards.
+Visual Studio lets you quickly reformat code to match specific formatter standards. In this article, you explore how to access and enable formatting features.
 
 ## Choose a formatter
 
 You can set your source code formatter through **Tools** > **Options** > **Text Editor** > **Python** > **Formatting**. Python Tools in Visual Studio support source code formatting with autopep8, Black formatter, and yapf.
 
-![Python formatting options in Visual Studio](media/options-editor-formatting.png)
+:::image type="content" source="media/options-editor-formatting.png" alt-text="Screenshot of the Python formatting options in Visual Studio and the Black formatter option selected." lightbox="media/options-editor-formatting.png":::
 
-[Python support in Visual Studio](installing-python-support-in-visual-studio.md) also adds the useful [**Fill Comment Paragraph**] command to the **Edit** > **Advanced** menu as described in a later section.
+[Python support in Visual Studio](installing-python-support-in-visual-studio.md) also adds the **Fill Comment Paragraph** command to the **Edit** > **Advanced** menu as described in a later section.
 
 ## Apply format to selection or file
 
-To format a selection:
+You can apply formatting settings to all content in a file or only to a specific section.
 
-- Select **Edit** > **Advanced** > **Format Selection**
-- Or, press **Ctrl**+**E** > **F**.
+To format a selection, use one of the following methods:
 
-To format the whole file:
+- Select **Edit** > **Advanced** > **Format Selection**.
+- Select the keyboard shortcut: Ctrl + E + F.
 
-- Select **Edit** > **Advanced** > **Format Document**
-- Or, press **Ctrl**+**E** > **D**.
+To format the whole file, use one of the following methods:
+
+- Select **Edit** > **Advanced** > **Format Document**.
+- Select the keyboard shortcut: Ctrl + E + D.
 
 ## Word wrap
 
-You can enable word wrapping in **Tools** > **Options** > **Text Editor** > **Python** > **Formatting** > **General**.
+You can enable word wrapping in **Tools** > **Options** > **Text Editor** > **Python** > **General**. In the **Settings** section, select the **Word wrap** checkbox.
 
-![Enable word wrap for Python](media/word-wrap-setting.png)
+:::image type="content" source="media/word-wrap-setting.png" alt-text="Screenshot that shows how to enable word wrapping for Python in Visual Studio." lightbox="media/word-wrap-setting.png":::
 
 ## Format comment text
 
-**Edit** > **Advanced** > **Fill Comment Paragraph** (**Ctrl**+**E** > **P**) reflows and formats comment text, combining short lines together and breaking up long ones.
+The **Edit** > **Advanced** > **Fill Comment Paragraph** option reflows and formats comment text. You can also access the feature by using the keyboard shortcut Ctrl + E + P.
 
-| Reformat | Example 1                                                                                                                         |
-| :------- | :-------------------------------------------------------------------------------------------------------------------------------- |
-| Before   | `# This is a very long long long long long long long long long long long long long long long long long long long comment`         |
-| After    | `# This is a very long long long long long long long long long long long long`<br/>`# long long long long long long long comment` |
+### Reformat long lines
 
-| Reformat | Example 2                       |
-| :------- | :------------------------------ |
-| Before   | `# foo`<br/>`# bar`<br/>`# baz` |
-| After    | `# foo bar baz`                 |
+Use the feature to break up long lines of text, as shown in this example:
+
+```python
+# This is a very long long long long long long long long long long long long long long long long long long long comment
+```
+
+The text is reformatted as multiple lines:
+
+```python
+# This is a very long long long long long long long long long long long long
+# long long long long long long long comment
+```
+
+### Combine short lines
+
+Use the feature to combine short lines of text, as shown in this example:
+
+```python
+# Short line of text
+# more text
+# text
+```
+
+The text is reformatted into a single line:
+
+```python
+# Short line of text more text text
+```
+
+## Related content
+
+- [Edit Python code](editing-python-code-in-visual-studio.md)
+- [Refactor Python code](refactoring-python-code.md)
+- [Lint Python code](linting-python-code.md)
