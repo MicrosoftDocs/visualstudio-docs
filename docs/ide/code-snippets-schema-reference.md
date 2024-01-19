@@ -135,7 +135,7 @@ There are three attributes available for the Code element:
 
 ## CodeSnippet element
 
-Allows you to specify a heading and multiple code snippets, which you can insert into Visual Studio code files.
+Allows you to specify a heading and multiple code snippets, which you can insert into Visual Studio Code files.
 
 ```xml
 <CodeSnippet Format="x.x.x">
@@ -536,7 +536,7 @@ Specifies the references, imports, declarations, and code for the code snippet.
 
 |Parent element|Description|
 | - |-----------------|
-|[CodeSnippet element](../ide/code-snippets-schema-reference.md#codesnippet-element)|Allows you to specify a heading and multiple code snippets, which you can insert into Visual Studio code files.|
+|[CodeSnippet element](../ide/code-snippets-schema-reference.md#codesnippet-element)|Allows you to specify a heading and multiple code snippets, which you can insert into Visual Studio Code files.|
 
 ## SnippetType element
 
