@@ -51,6 +51,8 @@ With Visual Studio 2022 version 17.9 and later and the GitHub Copilot extensions
 > [!NOTE]
 >To enable AI-generated commit messages, you need the [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs) and [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.VSGitHubCopilot) extensions. Install them by going to **Extensions** > **Manage Extensions** from the main menu. You might have to restart Visual Studio, and you'll need to have a subscription to GitHub Copilot. For information about these extensions, and how to get a GitHub Copilot subscription, see [What is the GitHub Copilot extension for Visual Studio](../ide/visual-studio-github-copilot-extension.md) and [What is the GitHub Copilot Chat extension](../ide/visual-studio-github-copilot-chat.md).
 
+![Screenshot showing AI-generated commit message.](./media/vs-2022/git-commit-message-ai.png)
+
 When you're ready to make a commit, use the sparkly pen icon (tooltip: **Add AI generated commit message**) at the lower right of the commit message editbox to request an AI-generated commit message. The AI-generated text is generated and added to anything you already had. Read it carefully to see if it's accurate. You have the option of accepting the insertion or discarding it. If you accept the insertion, you can then edit the text before submitting it. When you're ready, choose the **Commit Staged** button, or one of the other commit options available in the dropdown below and to the right of the commit message editbox.
 
 > [!NOTE]
