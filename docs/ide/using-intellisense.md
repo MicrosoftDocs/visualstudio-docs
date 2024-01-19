@@ -1,7 +1,7 @@
 ---
 title: Use IntelliSense for quick information & completion
 description: Explore how to work with IntelliSense features in Visual Studio, including List Members, Parameter Info, Quick Info, and Complete Word.
-ms.date: 12/02/2022
+ms.date: 1/18/2024
 ms.topic: conceptual
 helpviewer_keywords:
 - Quick info
@@ -16,7 +16,7 @@ ms.subservice: general-ide
 ---
 # IntelliSense in Visual Studio
 
-IntelliSense is a code-completion aid that includes a number of features: List Members, Parameter Info, Quick Info, and Complete Word. These features help you to learn more about the code you're using, keep track of the parameters you're typing, and add calls to properties and methods with only a few keystrokes.
+IntelliSense is a code-completion aid that includes a number of features: [List Members](#list-members), [Parameter Info](#parameter-info), [Quick Info](#quick-info), and [Complete Word](#complete-word). These features help you to learn more about the code you're using, keep track of the parameters you're typing, and add calls to properties and methods with only a few keystrokes.
 
 Many aspects of IntelliSense are language-specific. For more information about IntelliSense for different languages, see the topics listed in the [Related content](#related-content) section.
 
@@ -24,17 +24,37 @@ Many aspects of IntelliSense are language-specific. For more information about I
 
 A list of valid members from a type (or namespace) appears after you type a trigger character (for example, a period (`.`) in managed code or `::` in C++). If you continue typing characters, the list is filtered to include only the members that begin with those characters or where the beginning of *any* word within the name starts with those characters. IntelliSense also performs "camel case" matching, so you can just type the first letter of each camel-cased word in the member name to see the matches.
 
-After selecting an item, you can insert it into your code by pressing **Tab** or by typing a space. If you select an item and type a period, the item appears followed by the period, which brings up another member list. When you select an item but before you insert it, you get Quick Info for the item.
+After selecting an item, you can insert it into your code by pressing **Tab** or by typing a space. If you select an item and type a period, the item appears followed by the period, which brings up another member list. When you select an item but before you insert it, you get [Quick Info](#quick-info) for the item.
 
 In the member list, the icon to the left represents the type of the member, such as namespace, class, function, or variable. The list may be quite long, so you can press **PgUp** and **PgDn** to move up or down in the list.
 
+::: moniker range="vs-2019"
+
 ![Visual Studio Member List](../ide/media/vs2015_intellisense.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+:::image type="content" source="media/vs-2022/using-intellisense/intellisense-list-members.png" alt-text="Screenshot of IntelliSense List Members feature.":::
+
+::: moniker-end
 
 You can invoke the **List Members** feature manually by typing **Ctrl**+**J**, choosing **Edit** > **IntelliSense** > **List Members**, or by choosing the **List Members** button on the editor toolbar. When it is invoked on a blank line or outside a recognizable scope, the list displays symbols in the global namespace.
 
-To turn List Members off by default (so that it does not appear unless specifically invoked), go to **Tools** > **Options** > **All Languages** and deselect **Auto list members**. If you want to turn off List Members only for a specific language, go to the **General** settings for that language.
+To turn List Members off by default (so that it does not appear unless specifically invoked), go to **Tools** > **Options** > **Text Editor** > **All Languages** and deselect **Auto list members**. If you want to turn off List Members only for a specific language, go to the **General** settings for that language.
+
+::: moniker range="vs-2019"
 
 You can also change to suggestion mode, in which only the text you type is inserted into the code. For example, if you enter an identifier that is not in the list and press **Tab**, in completion mode the entry would replace the typed identifier. To toggle between completion mode and suggestion mode, press **Ctrl**+**Alt**+**Space**, or choose **Edit** > **IntelliSense** > **Toggle Completion Mode**.
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+You can also change to suggestion mode, in which only the text you type is inserted into the code. For example, if you enter an identifier that is not in the list and press **Tab**, in completion mode the entry would replace the typed identifier. To toggle between completion mode and suggestion mode, press **Ctrl**+**Alt**+**Space**, or choose **Edit** > **IntelliSense** > **Switch between automatic and tab-only IntelliSense completion**.
+
+::: moniker-end
 
 ## Parameter Info
 
@@ -42,7 +62,17 @@ Parameter Info gives you information about the number, names, and types of param
 
 The parameter in bold indicates the next parameter that is required as you type the function. For overloaded functions, you can use the **Up** and **Down** arrow keys to view alternative parameter information for the function overloads.
 
+::: moniker range="vs-2019"
+
 ![Parameter Info](../ide/media/vs2015_param_info.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+:::image type="content" source="media/vs-2022/using-intellisense/intellisense-parameter-info.png" alt-text="Screenshot of IntelliSense Parameter Info feature.":::
+
+::: moniker-end
 
 When you annotate functions and parameters with XML Documentation comments, the comments will display as Parameter Info. For more information, see [Supply XML code comments](reference/generate-xml-documentation-comments.md).
 
@@ -52,11 +82,31 @@ You can manually invoke Parameter Info by choosing **Edit** > **IntelliSense** >
 
 Quick Info displays the complete declaration for any identifier in your code.
 
+::: moniker range="vs-2019"
+
 ![Visual Studio Quick Info](../ide/media/vs2015_quick_info.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+:::image type="content" source="media/vs-2022/using-intellisense/intellisense-quick-info.png" alt-text="Screenshot of IntelliSense Quick Info feature.":::
+
+::: moniker-end
 
 When you select a member from the **List Members** box, Quick Info also appears.
 
+::: moniker range="vs-2019"
+
 ![Parameter Info in a C&#35; code file](../ide/media/vs2015_paraminfo.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+:::image type="content" source="media/vs-2022/using-intellisense/intellisense-quick-info-parameter-info.png" alt-text="Screenshot of IntelliSense Quick Info & Parameter Info feature.":::
+
+::: moniker-end
 
 You can manually invoke Quick Info by choosing **Edit** > **IntelliSense** > **Quick Info**, by pressing **Ctrl**+**K**, **Ctrl**+**I**, or by choosing the **Quick Info** button on the editor toolbar.
 
