@@ -45,11 +45,11 @@ This guide covers the following scenarios for working with User Prompts:
 
 ## Display a user prompt
 
-Creating a user prompt with the new Extensibility Model is as simple as calling the `ShowPromptAsync` method from the [ShellExtensibility](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility) helpers and passing in your options.
+Creating a user prompt with the new Extensibility Model is as simple as calling the [`ShowPromptAsync`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.showpromptasync) method from the [ShellExtensibility](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility) helpers and passing in your options.
 
 ### `ShellExtensibility.ShowPromptAsync<TResult>()`
 
-The `ShowPromptAsync()` method takes three parameters:
+The [`ShowPromptAsync`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.showpromptasync) method takes three parameters:
 
 | Parameter | Type | Required | Description |
 | ----------|------|----------|-------------|
@@ -59,7 +59,7 @@ The `ShowPromptAsync()` method takes three parameters:
 
 ### Example
 
-The following code inside a `Command` shows a user prompt with a simple message and an OK button.
+The following code inside a [`Command`](/dotnet/api/microsoft.visualstudio.extensibility.commands.command) shows a user prompt with a simple message and an OK button.
 
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
@@ -70,7 +70,7 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 
 ## Use built-in options
 
-Several sets of predefined `PromptOptions` are available in the SDK.
+Several sets of predefined [`PromptOptions`](/dotnet/api/microsoft.visualstudio.extensibility.shell.promptoptions) are available in the SDK.
 
 ### OK
 
@@ -114,7 +114,7 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 }
 ```
 
-If the user clicks "OK", `ShowPromptAsync` returns `true` when awaited. If the user clicks the dismiss button, it returns `false`.
+If the user clicks "OK", [`ShowPromptAsync`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.showpromptasync) returns `true` when awaited. If the user clicks the dismiss button, it returns `false`.
 
 #### Change the default choice of a built-in option to "Cancel"
 
@@ -137,7 +137,7 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 
 In addition to the built-in options, you can customize the choices presented to the user and the return value mapped to each.
 
-Instead of using the sets defined in `PromptOptions`, create a new instance of `PromptOptions<TResult>` and pass it to `ShowPromptAsync`.
+Instead of using the sets defined in [`PromptOptions`](/dotnet/api/microsoft.visualstudio.extensibility.shell.promptoptions), create a new instance of `PromptOptions<TResult>` and pass it to [`ShowPromptAsync`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.showpromptasync).
 
 ### Example
 
@@ -153,7 +153,7 @@ public enum TokenThemeResult
 }
 ```
 
-Then create the `PromptOptions<TResult>` instance and pass it to `ShowPromptAsync` along with the required `message` and `cancellationToken` arguments:
+Then create the `PromptOptions<TResult>` instance and pass it to [`ShowPromptAsync`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.showpromptasync) along with the required `message` and `cancellationToken` arguments:
 
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken ct)
@@ -178,7 +178,7 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 }
 ```
 
-The `Choices` collection maps the user choices to values in the `TokenThemeResult` enum. `DismissedReturns` sets the value that is returned if the user clicks the dismiss button. `DefaultChoiceIndex` is a zero-based index into the `Choices` collection that defines the default choice.
+The [`Choices`](/dotnet/api/microsoft.visualstudio.extensibility.shell.promptoptions-1.choices) collection maps the user choices to values in the `TokenThemeResult` enum. `DismissedReturns` sets the value that is returned if the user clicks the dismiss button. `DefaultChoiceIndex` is a zero-based index into the `Choices` collection that defines the default choice.
 
 ## Next steps
 

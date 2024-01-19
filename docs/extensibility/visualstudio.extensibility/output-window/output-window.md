@@ -30,11 +30,11 @@ This guide is designed to cover the most common things you can do with the Outpu
 
 ## Get an Output window channel
 
-In order to write to the Output window, you need an Output window channel, which can be created by calling `VisualStudioExtensibility.Views().Output.GetChannelAsync()`.
+In order to write to the Output window, you need an Output window channel, which can be created by calling [`VisualStudioExtensibility.Views().Output.GetChannelAsync()`](/dotnet/api/microsoft.visualstudio.extensibility.documents.outputwindowextensibility.getchannelasync).
 
 ### `OutputWindowExtensibility.GetChannelAsync()`
 
-The `GetChannelAsync()` method has three parameters:
+The [`GetChannelAsync()`](/dotnet/api/microsoft.visualstudio.extensibility.documents.outputwindowextensibility.getchannelasync) method has three parameters:
 
 | Parameter | Type | Required | Description |
 | --------- |----- | -------- | ----------- |
@@ -48,7 +48,7 @@ The current version of the Output window API requires that the display name for 
 
 - Add a [`.resx` file](/dotnet/core/extensions/resources) ([sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample/Strings.resx)) and make sure it's configured with the ResXFileCodeGenerator in your project ([sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample/OutputWindowSample.csproj)).
 - Add an [Extension class](../inside-the-sdk/extension-anatomy.md#extension-instance) to your project, if it doesn't have one already ([sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample/OutputWindowSampleExtension.cs))
-- In the Extension class, override the `ResourceManager` property to return the ResourceManager corresponding to your .resx file.
+- In the Extension class, override the [`ResourceManager`](/dotnet/api/microsoft.visualstudio.extensibility.extensioncore.resourcemanager) property to return the ResourceManager corresponding to your .resx file.
 
 ### Edit the `.resx` resource file
 
@@ -87,7 +87,7 @@ Add the following to your `.csproj` project file (if you added the `.resx` file 
 
 ### Edit or add the Extension class
 
-If your project doesn't already contain a class that derives from `Microsoft.VisualStudio.Extensibility.Extension`, you need to add one like the simple one below (in this case called `MyExtension.cs`):
+If your project doesn't already contain a class that derives from [`Extension`](/dotnet/api/microsoft.visualstudio.extensibility.extension), you need to add one like the simple one below (in this case called `MyExtension.cs`):
 
 ```csharp
 using System.Resources;
@@ -102,14 +102,14 @@ namespace MyProject
 }
 ```
 
-If your project already contains such a class, you only need to add the line that sets the `ResourceManager` property.
+If your project already contains such a class, you only need to add the line that sets the [`ResourceManager`](/dotnet/api/microsoft.visualstudio.extensibility.extensioncore.resourcemanager) property.
 
 > [!NOTE]
 > Make sure that the `MyExtension` class is in the same namespace as the `MyStrings` resource class, which defaults to the name of the project, unless you have overridden it.
 
 ### Add the initialization code
 
-This code can be in whichever class you intend to use to show output messages (such as a [Command](./../command/command.md)), but the important thing is that `GetChannelAsync()` can only be called once for a given Output window channel ID, so consider calling it in a one-time, initialization method such as `InitializeAsync()`.
+This code can be in whichever class you intend to use to show output messages (such as a [Command](./../command/command.md)), but the important thing is that [`GetChannelAsync()`](/dotnet/api/microsoft.visualstudio.extensibility.documents.outputwindowextensibility.getchannelasync) can only be called once for a given Output window channel ID, so consider calling it in a one-time, initialization method such as [`InitializeAsync()`](/dotnet/api/microsoft.visualstudio.extensibility.extensionpart.initializeasync).
 
 ```csharp
 public override async Task InitializeAsync(CancellationToken cancellationToken)
@@ -133,7 +133,7 @@ The [`OutputWindow`](/dotnet/api/microsoft.visualstudio.extensibility.documents.
 
 ### Example
 
-This snippet could be used wherever you want to display a message in the Output window, such as in the `ExecuteCommandAsync()` method in a [Command](./../command/command.md).
+This snippet could be used wherever you want to display a message in the Output window, such as in the [`ExecuteCommandAsync()`](/dotnet/api/microsoft.visualstudio.extensibility.commands.iexecutablecommand.executecommandasync) method in a [Command](./../command/command.md).
 
 ```csharp
 if (this.outputWindow != null)
