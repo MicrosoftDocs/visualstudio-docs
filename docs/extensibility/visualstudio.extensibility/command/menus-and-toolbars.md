@@ -160,9 +160,9 @@ Leaving the `Placement` property of the [`ToolbarConfiguration`](/dotnet/api/mic
 
 ### ToolbarConfiguration class
 
-The [`ToolbarConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.toolbarconfiguration) class has a few parameters that you should become familiar with:
+The [`ToolbarConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.toolbarconfiguration) class has a few properties that you should become familiar with:
 
-| Parameter | Type | Required | Description |
+| Property | Type | Required | Description |
 | --------- |----- | -------- | ----------- |
 | [DisplayName](/dotnet/api/microsoft.visualstudio.extensibility.commands.controlcontainerconfiguration.displayname) | String | Yes | The default display name of your toolbar. Surround this string with the '%' character to enable localizing this string. See at [Localize metadata](localize-metadata.md). |
 | [TooltipText](/dotnet/api/microsoft.visualstudio.extensibility.commands.controlcontainerconfiguration.tooltiptext) | String | No | The text to display as the tooltip when the toolbar is hovered or focused. Surround this string with the '%' character to enable localizing this string. See at [Localize metadata](localize-metadata.md). |
