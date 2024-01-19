@@ -152,7 +152,7 @@ For more information, see [Securing applications](../ide/securing-applications.m
 
 ### Downloaded code snippets
 
-IntelliSense code snippets installed by Visual Studio are not in themselves a security hazard. However, they can create security risks in your application. Snippets downloaded from the Internet should be treated like any other downloaded content - with extreme caution.
+Code snippets installed by Visual Studio are not in themselves a security hazard. However, they can create security risks in your application. Snippets downloaded from the Internet should be treated like any other downloaded content - with extreme caution.
 
 - Download snippets only from sites you trust, and use up-to-date virus software.
 
