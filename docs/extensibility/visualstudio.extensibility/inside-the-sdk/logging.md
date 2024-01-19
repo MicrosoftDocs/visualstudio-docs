@@ -12,7 +12,7 @@ ms.subservice: extensibility-integration
 
 # Logging extension diagnostics
 
-Each extension part can inject a `TraceSource` instance that is created as part of the extensibility framework. Extension developers are recommended to utilize this instance for diagnostics as it will allow integration with future tools on Visual Studio diagnostics.
+Each extension part can inject a [`TraceSource`](/dotnet/api/microsoft.visualstudio.extensibility.extensibilitypoint.tracesource) instance that is created as part of the extensibility framework. Extension developers are recommended to utilize this instance for diagnostics as it will allow integration with future tools on Visual Studio diagnostics.
 
 ## Accessing log entries
 
