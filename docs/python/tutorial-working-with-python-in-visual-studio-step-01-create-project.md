@@ -16,9 +16,9 @@ ms.custom: vs-acquisition
 
 # Tutorial: Work with Python in Visual Studio
 
-In this tutorial, you learn how to work with Python in Visual Studio. Python is a popular programming language that's reliable, flexible, easy to learn, and free to use on all operating systems. Python is supported by a strong developer community and many free libraries. The language supports all kinds of development, including web applications, web services, desktop apps, scripting, and scientific computing. Many universities, scientists, casual developers, and professional developers use Python.
+In this tutorial, you learn how to work with Python in Visual Studio. Python is a popular programming language that's reliable, flexible, easy to learn, and free to use on all operating systems. Python is supported by a strong developer community and many free libraries. The language supports all kinds of development, including web applications, web services, desktop apps, scripting, and scientific computing. Many universities, scientists, casual developers, and professional developers use Python. Visual Studio provides first-class language support for Python.
 
-Visual Studio provides first-class language support for Python. This tutorial guides you through a six-step process:
+This tutorial guides you through a six-step process:
 
 > [!div class="checklist"]
 > * [Step 1: Create a Python project (this article)](#step-1-create-a-new-python-project)
@@ -28,7 +28,7 @@ Visual Studio provides first-class language support for Python. This tutorial gu
 > * [Step 5: Install packages and manage Python environments](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md)
 > * [Step 6: Work with Git](tutorial-working-with-python-in-visual-studio-step-06-working-with-git.md)
 
-This article covers the tasks in the first step. You create a new project and review the UI elements visible in Solution Explorer.
+This article covers the tasks in **Step 1**. You create a new project and review the UI elements visible in Solution Explorer.
 
 [!INCLUDE[tutorial-prereqs](includes/tutorial-prereqs.md)]
 
@@ -50,26 +50,6 @@ This tutorial begins with a simple project containing a single, empty code file.
 
 1. Select the **Python Application** template, specify a name for the project, and select **OK**.
 
-1. After a few moments, Visual Studio shows the project structure in the **Solution Explorer** window (1). The default code file is open in the editor (2). The **Properties** window (3) also opens and shows additional information for any item selected in **Solution Explorer**, including its exact location on disk.
-
-   :::image type="content" source="media/vs-getting-started-python-02-windows.png" alt-text="Screenshot showing the new project open in Visual Studio." lightbox="media/vs-getting-started-python-02-windows.png":::
-
-1. Take a few moments to familiarize yourself with **Solution Explorer**, which is where you browse files and folders in your project.
-
-   :::image type="content" source="media/vs-getting-started-python-03-solution-explorer.png" alt-text="Screenshot of Solution Explorer expanded to show features." lightbox="media/vs-getting-started-python-03-solution-explorer.png":::
-
-   Here's what you see in **Solution Explorer**:
-
-   - **(1)** Your project is highlighted in bold and uses the name you entered in the **New Project** dialog. On disk, this project is represented by a **.pyproj** file in your project folder.
-
-   - **(2)** At the top level is a *solution*, which by default has the same name as your project. A solution, represented by a **.sln** file on disk, is a container for one or more related projects. For example, if you write a C++ extension for your Python application, that C++ project could be in the same solution. The solution might also contain a project for a web service, along with projects for dedicated test programs.
-
-   - **(3)** Under your project you see source files. In this example, you have only a single **.py** file. Selecting a file displays its properties in the **Properties** window. Double-clicking a file opens it in whatever way is appropriate for that file.
-
-   - **(4)** Also under the project is the **Python Environments** node. When expanded, you see the Python interpreters that are available to you. Expand an interpreter node to see the libraries that are installed into that environment **(5)**.
-
-   Right-click any node or item in **Solution Explorer** to access a menu of applicable commands. For example, the **Rename** command lets you change the name of any node or item, including the project and the solution.
-
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
@@ -85,32 +65,56 @@ This tutorial begins with a simple project containing a single, empty code file.
 1. Select the **Python Application** template, and select **Next**.
 
 1. On the **Configure your new project** screen, specify a name and file location for the project, and then select **Create**.
-   
-   :::image type="content" source="media/vs-2022/getting-started-python-windows.png" alt-text="Screenshot showing the new project open in Visual Studio 2022." lightbox="media/vs-2022/getting-started-python-windows.png":::
-
-   The new project opens in Visual Studio and here's what you see:
-   
-   - **(1)** The Visual Studio **Solution Explorer** window shows the project structure.
-   - **(2)** The default code file opens in the editor.
-   - **(3)** The **Properties** window shows more information for the item selected in **Solution Explorer**, including its exact location on disk.
-   
-1. Familiarize yourself with **Solution Explorer**, where you can browse files and folders in your project.
-   
-   :::image type="content" source="media/vs-2022/getting-started-python-solution-explorer.png" alt-text="Screenshot of Solution Explorer expanded to show features for Visual Studio 2022." lightbox="media/vs-2022/getting-started-python-solution-explorer.png":::
-   
-   - **(1)** At the top level is the *solution*, which by default has the same name as your project. A solution, which is shown as a **.sln** file on disk, is a container for one or more related projects. For example, if you write a C++ extension for your Python application, that C++ project can be in the same solution. The solution might also contain a project for a web service, and projects for dedicated test programs.
-   
-   - **(2)** Your project is highlighted in bold and uses the name you entered in the **Create a new project** dialog. On disk, this project is represented by a **.pyproj** file in your project folder.
-   
-   - **(3)** Under your project you see source files. In this example, you have only a single **.py** file. Selecting a file displays its properties in the **Properties** window. If you don't see the **Properties** window, select the wrench icon in the **Solution Explorer** banner. Double-clicking a file opens it in whatever way is appropriate for that file.
-   
-   - **(4)** Also under the project is the **Python Environments** node. Expand the node to show the available Python interpreters.
-   
-   - **(5)** Expand an interpreter node to see the libraries installed in that environment.
-   
-   Right-click any node or item in **Solution Explorer** to show a context menu of applicable commands. For example, **Rename** lets you change the name of a node or item, including the project and the solution.
 
 ::: moniker-end
+
+After a few moments, your new project opens in Visual Studio:
+
+::: moniker range="<=vs-2019"
+
+   :::image type="content" source="media/vs-getting-started-python-02-windows.png" alt-text="Screenshot showing the new project open in Visual Studio." lightbox="media/vs-getting-started-python-02-windows.png":::
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+:::image type="content" source="media/vs-2022/getting-started-python-windows.png" alt-text="Screenshot showing the new project open in Visual Studio 2022." lightbox="media/vs-2022/getting-started-python-windows.png":::
+
+::: moniker-end
+
+Here's what you see:
+
+- **(1)** The Visual Studio **Solution Explorer** window shows the project structure.
+- **(2)** The default code file opens in the editor.
+- **(3)** The **Properties** window shows more information for the item selected in **Solution Explorer**, including its exact location on disk.
+
+## Review elements in Solution Explorer
+
+Take some time to familiarize yourself with **Solution Explorer**, where you can browse files and folders in your project.
+
+::: moniker range="<=vs-2019"
+
+:::image type="content" source="media/vs-getting-started-python-03-solution-explorer.png" alt-text="Screenshot of Solution Explorer expanded to show features." lightbox="media/vs-getting-started-python-03-solution-explorer.png":::
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+:::image type="content" source="media/vs-2022/getting-started-python-solution-explorer.png" alt-text="Screenshot of Solution Explorer expanded to show features for Visual Studio 2022." lightbox="media/vs-2022/getting-started-python-solution-explorer.png":::
+
+::: moniker-end
+
+- **(1)** At the top level is the *solution*, which by default has the same name as your project. A solution, which is shown as a **.sln** file on disk, is a container for one or more related projects. For example, if you write a C++ extension for your Python application, that C++ project can be in the same solution. The solution might also contain a project for a web service, and projects for dedicated test programs.
+   
+- **(2)** Your project is highlighted in bold and uses the name you entered in the **Create a new project** dialog. On disk, this project is represented by a **.pyproj** file in your project folder.
+   
+- **(3)** Under your project you see source files. In this example, you have only a single **.py** file. Selecting a file displays its properties in the **Properties** window. If you don't see the **Properties** window, select the wrench icon in the **Solution Explorer** banner. Double-clicking a file opens it in whatever way is appropriate for that file.
+   
+- **(4)** Also under the project is the **Python Environments** node. Expand the node to show the available Python interpreters.
+   
+- **(5)** Expand an interpreter node to see the libraries installed in that environment.
+   
+Right-click any node or item in **Solution Explorer** to show a context menu of applicable commands. For example, **Rename** lets you change the name of a node or item, including the project and the solution.
 
 ## Next step
 

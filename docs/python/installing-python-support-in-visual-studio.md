@@ -47,14 +47,18 @@ Complete the following steps to download and install the Python workload.
 
    :::moniker range=">=vs-2022"
 
-   `*%ProgramFiles%\Microsoft Visual Studio\\<VS_version>\\<VS_edition>Common7\IDE\Extensions\Microsoft\Python*`
+   ```python
+   *%ProgramFiles%\Microsoft Visual Studio\\<VS_version>\\<VS_edition>Common7\IDE\Extensions\Microsoft\Python*
+   ```
 
    where `<VS_version>` is 2022 and `<VS_edition>` is Community, Professional, or Enterprise.
 
    :::moniker-end
    :::moniker range="<=vs-2019"
 
-   `*%ProgramFiles(x86)%\Microsoft Visual Studio\\<VS_version>\\<VS_edition>Common7\IDE\Extensions\Microsoft\Python*`
+   ```python
+   *%ProgramFiles(x86)%\Microsoft Visual Studio\\<VS_version>\\<VS_edition>Common7\IDE\Extensions\Microsoft\Python*
+   ```
 
    where `<VS_version>` is 2019 or 2017 and `<VS_edition>` is Community, Professional, or Enterprise.
 

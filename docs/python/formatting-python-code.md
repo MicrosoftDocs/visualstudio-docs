@@ -31,12 +31,12 @@ You can apply formatting settings to all content in a file or only to a specific
 To format a selection, use one of the following methods:
 
 - Select **Edit** > **Advanced** > **Format Selection**.
-- Select the keyboard shortcut: Ctrl + E + F.
+- Select the keyboard shortcut Ctrl + E + F.
 
 To format the whole file, use one of the following methods:
 
 - Select **Edit** > **Advanced** > **Format Document**.
-- Select the keyboard shortcut: Ctrl + E + D.
+- Select the keyboard shortcut Ctrl + E + D.
 
 ## Word wrap
 
