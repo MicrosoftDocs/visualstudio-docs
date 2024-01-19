@@ -11,9 +11,9 @@ ms.date: 02/03/2023
 
 # Metadata localization overview
 
-Some metadata defined inside of configuration objects support localization. Properties that support localization are adorned with `Microsoft.VisualStudio.Extensibility.LocalizableStringAttribute` and the compiler emits a warning if these properties are set to a non-localizable value. These values can be localized by including *string-resources.json* files with your extension and surrounding the string resource key with `%` characters.
+Some metadata defined inside of configuration objects support localization. Properties that support localization are adorned with [`LocalizableStringAttribute`](/dotnet/api/microsoft.visualstudio.extensibility.localizablestringattribute) and the compiler emits a warning if these properties are set to a non-localizable value. These values can be localized by including *string-resources.json* files with your extension and surrounding the string resource key with `%` characters.
 
-A `Command` with a localized `DisplayName` and `ToolTipText` looks like the following:
+A [`Command`](/dotnet/api/microsoft.visualstudio.extensibility.commands.command) with a localized [`DisplayName`](/dotnet/api/microsoft.visualstudio.extensibility.commands.placeholdercommand.displayname) and [`ToolTipText`](/dotnet/api/microsoft.visualstudio.extensibility.commands.placeholdercommand.tooltiptext) looks like the following:
 
 ```csharp
 public override CommandConfiguration CommandConfiguration => new("%Microsoft.VisualStudio.MyExtension.SampleRemoteCommand.DisplayName%")

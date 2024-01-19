@@ -29,8 +29,8 @@ You'll learn about:
 This tutorial is based on the introductory [Remote UI](remote-ui.md) article and expects that you have a working VisualStudio.Extensibility extension including:
 
 1. a `.cs` file for the command that opens the tool window,
-1. a `MyToolWindow.cs` file for the `ToolWindow` class,
-1. a `MyToolWindowContent.cs` file for the `RemoteUserControl` class,
+1. a `MyToolWindow.cs` file for the [`ToolWindow`](/dotnet/api/microsoft.visualstudio.extensibility.toolwindows.toolwindow) class,
+1. a `MyToolWindowContent.cs` file for the [`RemoteUserControl`](/dotnet/api/microsoft.visualstudio.extensibility.ui.remoteusercontrol) class,
 1. a `MyToolWindowContent.xaml` embedded resource file for the `RemoteUserControl` xaml definition,
 1. a `MyToolWindowData.cs` file for the data context of the `RemoteUserControl`.
 
@@ -190,7 +190,7 @@ In this section, you implement the **Remove** button, which allows the user to d
             RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ListView}}}" />
 ```
 
-2. Add the corresponding `AsyncCommand` to `MyToolWindowData`:
+2. Add the corresponding [`AsyncCommand`](/dotnet/api/microsoft.visualstudio.extensibility.ui.asynccommand) to `MyToolWindowData`:
 
 ```CSharp
 [DataMember]
@@ -267,7 +267,7 @@ Until now, the data context of our *remote user control* has been composed of pr
 
 Because a *VisualStudio.Extensibility* extension may not even run in the Visual Studio process, it can't share WPF objects directly with its UI. The extension may not even have access to WPF types since it can target `netstandard2.0` or `net6.0` (not the `-windows` variant).
 
-Remote UI provides the `XamlFragment` type, which allows including a XAML definition of a WPF object in the data context of a *remote user control*:
+Remote UI provides the [`XamlFragment`](/dotnet/api/microsoft.visualstudio.extensibility.ui.xamlfragment) type, which allows including a XAML definition of a WPF object in the data context of a *remote user control*:
 
 ```CSharp
 [DataContract]
@@ -298,7 +298,7 @@ With the code above, the `Color` property value is converted to a `LinearGradien
 
 *Async command* callbacks (and `INotifyPropertyChanged` callbacks for values updated by the UI through data biding) are raised on random thread pool threads. Callbacks are raised one at a time and won't overlap until the code yields control (using an `await` expression).
 
-This behavior can be changed by passing a [NonConcurrentSynchronizationContext](/dotnet/api/microsoft.visualstudio.threading.nonconcurrentsynchronizationcontext) to the `RemoteUserControl` constructor. In that case, you can use the provided synchronization context for all *async command* and `INotifyPropertyChanged` callbacks related to that control.
+This behavior can be changed by passing a [NonConcurrentSynchronizationContext](/dotnet/api/microsoft.visualstudio.threading.nonconcurrentsynchronizationcontext) to the [`RemoteUserControl`](/dotnet/api/microsoft.visualstudio.extensibility.ui.remoteusercontrol) constructor. In that case, you can use the provided synchronization context for all *async command* and `INotifyPropertyChanged` callbacks related to that control.
 
 ## Related content
 
