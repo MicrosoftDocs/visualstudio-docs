@@ -3,6 +3,12 @@ ms.date: 01/21/2024
 ms.topic: include
 ---
 
+Follow these steps to create a project from existing files.
+
+> [!IMPORTANT]
+> The following process doesn't move or copy any original source files.
+> If you want to work with a copy of your files, first duplicate the folder and then create the project.
+
 1. Launch Visual Studio and select **File** > **New** > **Project**.
 
 1. In the **Create a new project** dialog, search for _python_, and select the **From Existing Python code** template. Enter a project name and location, choose the solution to contain the project, and select **Create**.
@@ -11,7 +17,7 @@ ms.topic: include
 
    :::image type="content" source="../media/projects-from-existing-1.png" alt-text="Screenshot of a New Project creation from Existing Code, including choosing the folder path, file type filters, and search paths." lightbox="../media/projects-from-existing-1.png":::
 
-1. On the next page, select the startup file for your project. Visual Studio selects the Python interpreter and version by default. You can change the environment by using the dropdown menu. When you're ready, select **Next**.
+1. On the next page, select the startup file for your project. Visual Studio selects the default global Python interpreter and version. You can change the environment by using the dropdown menu. When you're ready, select **Next**.
 
    > [!Note]
    > The dialog shows only files in the root folder. If the file you want is in a subfolder, leave the startup file blank. You can set the startup file later in **Solution Explorer**, as described in a later step.

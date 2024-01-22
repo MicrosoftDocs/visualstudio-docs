@@ -104,7 +104,7 @@ Take some time to familiarize yourself with **Solution Explorer**, where you can
 
 ::: moniker-end
 
-- **(1)** At the top level is the *solution*, which by default has the same name as your project. A solution, which is shown as a _.sln_ file on disk, is a container for one or more related projects. For example, if you write a C++ extension for your Python application, that C++ project can be in the same solution. The solution might also contain a project for a web service, and projects for dedicated test programs.
+- **(1)** At the top level is the *solution*, which by default has the same name as your project. A solution, which is shown as an _.sln_ file on disk, is a container for one or more related projects. For example, if you write a C++ extension for your Python application, that C++ project can be in the same solution. The solution might also contain a project for a web service, and projects for dedicated test programs.
    
 - **(2)** Your project is highlighted in bold and uses the name you entered in the **Create a new project** dialog. On disk, this project is represented by a _.pyproj_ file in your project folder.
    
