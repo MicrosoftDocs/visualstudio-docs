@@ -23,4 +23,4 @@ A file with a .publishsettings file extension has been generated in the location
 See also [Azure App Service](/azure/app-service).
 
 > [!NOTE]
-> When [basic authentication is disabled](../../../../../azure-docs/tree/main/articles/app-service/configure-basic-auth-disable.md), you can't view or configure deployment credentials in the Deployment Center.
+> When [basic authentication is disabled](../../../../../azure-doc/tree/main/articles/app-service/configure-basic-auth-disable.md), you can't view or configure deployment credentials in the Deployment Center.
