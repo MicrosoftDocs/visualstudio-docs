@@ -104,11 +104,11 @@ Take some time to familiarize yourself with **Solution Explorer**, where you can
 
 ::: moniker-end
 
-- **(1)** At the top level is the *solution*, which by default has the same name as your project. A solution, which is shown as a **.sln** file on disk, is a container for one or more related projects. For example, if you write a C++ extension for your Python application, that C++ project can be in the same solution. The solution might also contain a project for a web service, and projects for dedicated test programs.
+- **(1)** At the top level is the *solution*, which by default has the same name as your project. A solution, which is shown as a _.sln_ file on disk, is a container for one or more related projects. For example, if you write a C++ extension for your Python application, that C++ project can be in the same solution. The solution might also contain a project for a web service, and projects for dedicated test programs.
    
-- **(2)** Your project is highlighted in bold and uses the name you entered in the **Create a new project** dialog. On disk, this project is represented by a **.pyproj** file in your project folder.
+- **(2)** Your project is highlighted in bold and uses the name you entered in the **Create a new project** dialog. On disk, this project is represented by a _.pyproj_ file in your project folder.
    
-- **(3)** Under your project you see source files. In this example, you have only a single **.py** file. Selecting a file displays its properties in the **Properties** window. If you don't see the **Properties** window, select the wrench icon in the **Solution Explorer** banner. Double-clicking a file opens it in whatever way is appropriate for that file.
+- **(3)** Under your project you see source files. In this example, you have only a single _.py_ file. Selecting a file displays its properties in the **Properties** window. If you don't see the **Properties** window, select the wrench icon in the **Solution Explorer** banner. Double-clicking a file opens it in whatever way is appropriate for that file.
    
 - **(4)** Also under the project is the **Python Environments** node. Expand the node to show the available Python interpreters.
    
