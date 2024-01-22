@@ -29,20 +29,20 @@ This guide is designed to cover the top user scenarios when working with dialogs
 
 ## Create a dialog
 
-Creating a tool window with the new Extensibility Model is as simple as calling the ShowDialogAsync method from the [ShellExtensibility](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility) helpers and passing in your dialog content.
+Creating a tool window with the new Extensibility Model is as simple as calling the [ShowDialogAsync](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.showdialogasync) method from the [ShellExtensibility](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility) helpers and passing in your dialog content.
 
 ![Screenshot of a Dialog.](./media/dialog.png)
 
 ### ShowDialogAsync
 
-The ShowDialogAsync method several overloads that you should become familiar with:
+The [ShowDialogAsync](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.showdialogasync) method has several overloads that you should become familiar with:
 
 #### Overloads
 
-- [`Microsoft.VisualStudio.Extensibility.Shell.ShellExtensibility.ShowDialogAsync(content,cancellationToken)`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.showdialogasync#microsoft-visualstudio-extensibility-shell-shellextensibility-showdialogasync(microsoft-visualstudio-rpccontracts-remoteui-iremoteusercontrol-system-threading-cancellationtoken))
-- [`Microsoft.VisualStudio.Extensibility.Shell.ShellExtensibility.ShowDialogAsync(content,title,cancellationToken)`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.showdialogasync#microsoft-visualstudio-extensibility-shell-shellextensibility-showdialogasync(microsoft-visualstudio-rpccontracts-remoteui-iremoteusercontrol-system-string-system-threading-cancellationtoken))
-- [`Microsoft.VisualStudio.Extensibility.Shell.ShellExtensibility.ShowDialogAsync(content,options,cancellationToken)`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.showdialogasync#microsoft-visualstudio-extensibility-shell-shellextensibility-showdialogasync(microsoft-visualstudio-rpccontracts-remoteui-iremoteusercontrol-microsoft-visualstudio-rpccontracts-notifications-dialogoption-system-threading-cancellationtoken))
-- [`Microsoft.VisualStudio.Extensibility.Shell.ShellExtensibility.ShowDialogAsync(content,title,options,cancellationToken)`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.showdialogasync#microsoft-visualstudio-extensibility-shell-shellextensibility-showdialogasync(microsoft-visualstudio-rpccontracts-remoteui-iremoteusercontrol-system-string-microsoft-visualstudio-rpccontracts-notifications-dialogoption-system-threading-cancellationtoken))
+- [`ShowDialogAsync(content,cancellationToken)`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.showdialogasync#microsoft-visualstudio-extensibility-shell-shellextensibility-showdialogasync(microsoft-visualstudio-rpccontracts-remoteui-iremoteusercontrol-system-threading-cancellationtoken))
+- [`ShowDialogAsync(content,title,cancellationToken)`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.showdialogasync#microsoft-visualstudio-extensibility-shell-shellextensibility-showdialogasync(microsoft-visualstudio-rpccontracts-remoteui-iremoteusercontrol-system-string-system-threading-cancellationtoken))
+- [`ShowDialogAsync(content,options,cancellationToken)`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.showdialogasync#microsoft-visualstudio-extensibility-shell-shellextensibility-showdialogasync(microsoft-visualstudio-rpccontracts-remoteui-iremoteusercontrol-microsoft-visualstudio-rpccontracts-notifications-dialogoption-system-threading-cancellationtoken))
+- [`ShowDialogAsync(content,title,options,cancellationToken)`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.showdialogasync#microsoft-visualstudio-extensibility-shell-shellextensibility-showdialogasync(microsoft-visualstudio-rpccontracts-remoteui-iremoteusercontrol-system-string-microsoft-visualstudio-rpccontracts-notifications-dialogoption-system-threading-cancellationtoken))
 
 #### Parameters
 
@@ -87,13 +87,13 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 
 ## Customize the dialog buttons
 
-When a dialog is shown in the IDE, certain combinations of predefined dialog buttons and default actions can be selected. The predefined button and action combinations can be found in Microsoft.VisualStudio.RpcContracts.Notifications.DialogOption.
+When a dialog is shown in the IDE, certain combinations of predefined dialog buttons and default actions can be selected. The predefined button and action combinations can be found in `Microsoft.VisualStudio.RpcContracts.Notifications.DialogOption`.
 
 ![Screenshot of a Dialog button.](./media/dialog-button.png)
 
 Additionally, you can create your own combination of buttons and default actions from:
 
-- Microsoft.VisualStudio.RpcContracts.Notifications.DialogButton
+- `Microsoft.VisualStudio.RpcContracts.Notifications.DialogButton`
 
     ```csharp
 	public enum DialogButton
@@ -109,7 +109,7 @@ Additionally, you can create your own combination of buttons and default actions
 	}
 	```
 
-- Microsoft.VisualStudio.RpcContracts.Notifications.DialogResult
+- `Microsoft.VisualStudio.RpcContracts.Notifications.DialogResult`
 
 	```csharp
     public enum DialogResult
@@ -160,7 +160,7 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 
 ## Get the dialog result
 
-If you need to know whether a user affirmatively closed a dialog or dismissed it, you can await the call to `ShowDialogAsync`, and it will return a `Microsoft.VisualStudio.RpcContracts.Notifications.DialogResult`, which represents the action taken by the user.
+If you need to know whether a user affirmatively closed a dialog or dismissed it, you can await the call to [`ShowDialogAsync`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.showdialogasync), and it will return a `Microsoft.VisualStudio.RpcContracts.Notifications.DialogResult`, which represents the action taken by the user.
 
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
