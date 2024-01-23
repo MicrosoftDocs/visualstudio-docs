@@ -300,7 +300,7 @@ A **Referenced Types** tree in a snapshot diff report has the following columns.
 
 In Visual Studio 2022, the Memory Analysis tool also gives multiple powerful built-in auto insights for managed memory. Select the **Insights** tab in the Managed types reports and it shows the applicable auto insights like **Duplicate strings**, **Sparse arrays**, and **Event handler leaks**. For more information, see [Memory Usage Insights](../profiling/memory-usage.md?view=vs-2022#memory-usage-insights).
 
-![Managed memory insights](../profiling/media/managed-memory-insights.png "Referenced Types in a diff report")
+![Managed memory insights](../profiling/media/vs-2022/managed-memory-insights.png "Referenced Types in a diff report")
 
 ::: moniker-end
 
