@@ -48,12 +48,12 @@ The environments that Visual Studio knows about are displayed in the **Python En
 
 ::: moniker range="vs-2019"
 
-:::image type="content" source="media/environments/environments-view-all-2019.png" alt-text="Screenshot of the View All Python Environments command in Solution Explorer for Visual Studio 2019." lightbox="media/environments/environments-view-all-2019.png":::
+:::image type="content" source="media/environments/environments-view-all-2019.png" alt-text="Screenshot of the View All Python Environments command in Solution Explorer for Visual Studio 2019." border="false" lightbox="media/environments/environments-view-all-2019.png":::
 
 ::: moniker-end
 ::: moniker range=">=vs-2022"
 
-:::image type="content" source="media/environments/environments-view-all-2022.png" alt-text="Screenshot of the View All Python Environments command in Solution Explorer for Visual Studio 2022." lightbox="media/environments/environments-view-all-2022.png":::
+:::image type="content" source="media/environments/environments-view-all-2022.png" alt-text="Screenshot of the View All Python Environments command in Solution Explorer for Visual Studio 2022." border="false" lightbox="media/environments/environments-view-all-2022.png":::
 
 ::: moniker-end
 
@@ -61,12 +61,12 @@ The **Python Environments** window appears alongside **Solution Explorer** in Vi
 
 ::: moniker range="vs-2019"
 
-:::image type="content" source="media/environments/environments-default-view-2019.png" alt-text="Screenshot of the Python Environments window in Visual Studio 2019." lightbox="media/environments/environments-default-view-2019.png":::
+:::image type="content" source="media/environments/environments-default-view-2019.png" alt-text="Screenshot of the Python Environments window in Visual Studio 2019." border="false" lightbox="media/environments/environments-default-view-2019.png":::
 
 ::: moniker-end
 ::: moniker range=">=vs-2022"
 
-:::image type="content" source="media/environments/environments-default-view-2022.png" alt-text="Screenshot of the Python Environments window in Visual Studio 2022." lightbox="media/environments/environments-default-view-2022.png":::
+:::image type="content" source="media/environments/environments-default-view-2022.png" alt-text="Screenshot of the Python Environments window in Visual Studio 2022." border="false" lightbox="media/environments/environments-default-view-2022.png":::
 
 ::: moniker-end
 
@@ -76,13 +76,13 @@ When you select an environment in the list, Visual Studio displays various prope
 
 :::moniker range="vs-2019"
 
-For example, you can see in the previous image that the interpreter's location is **C:\Python36-32**. The commands at the bottom of the **Overview** tab each open a command prompt with the interpreter running. For more information, see [Python Environments window tab reference 2019- Overview](./python-environments-window-tab-reference?view=vs-2019&preserve-view=true#tab-overview).
+For example, you can see in the previous image that the interpreter's location is **C:\Python36-32**. The commands at the bottom of the **Overview** tab each open a command prompt with the interpreter running. For more information, see [Python Environments window tab reference 2019- Overview](./python-environments-window-tab-reference.md?view=vs-2019&preserve-view=true#tab-overview).
 
 :::moniker-end
 
 :::moniker range="vs-2022"
 
-For example, you can see in the previous image that the interpreter's location is **C:\Program Files (x86)\Microsoft Visual Studio\Python311**. The commands at the bottom of the **Overview** tab each open a command prompt with the interpreter running. For more information, see [Python Environments window tab reference (Visual Studio 2022) - Overview](./python-environments-window-tab-reference?view=vs-2022&preserve-view=true#tab-overview).
+For example, you can see in the previous image that the interpreter's location is **C:\Program Files (x86)\Microsoft Visual Studio\Python311**. The commands at the bottom of the **Overview** tab each open a command prompt with the interpreter running. For more information, see [Python Environments window tab reference (Visual Studio 2022) - Overview](./python-environments-window-tab-reference.md?view=vs-2022&preserve-view=true#tab-overview).
 
 :::moniker-end
 
@@ -97,7 +97,7 @@ To the right of each listed environment, is a control that opens an **Interactiv
 > [!TIP]
 > When you expand the **Python Environments** window wide enough, you see a fuller view of your environments that can be more convenient to work with.
 >
-> :::image type="content" source="media/environments/environments-expanded-view-2019.png" alt-text="Screenshot of the Python Environments window expanded view in Visual Studio 2019." lightbox="media/environments/environments-expanded-view-2019.png":::
+> :::image type="content" source="media/environments/environments-expanded-view-2019.png" alt-text="Screenshot of the Python Environments window expanded view in Visual Studio 2019." border="false" lightbox="media/environments/environments-expanded-view-2019.png":::
 
 ::: moniker-end
 
@@ -106,7 +106,7 @@ To the right of each listed environment, is a control that opens an **Interactiv
 > [!TIP]
 > When you expand the **Python Environments** window wide enough, you see a fuller view of your environments that can be more convenient to work with.
 > 
-> :::image type="content" source="media/environments/environments-expanded-view-2022.png" alt-text="Screenshot of the Python Environments window expanded view in Visual Studio 2022." lightbox="media/environments/environments-expanded-view-2022.png":::
+> :::image type="content" source="media/environments/environments-expanded-view-2022.png" alt-text="Screenshot of the Python Environments window expanded view in Visual Studio 2022." border="false" lightbox="media/environments/environments-expanded-view-2022.png":::
 
 ::: moniker-end
 
@@ -142,12 +142,12 @@ Visual Studio provides direct support for creating a virtual environment for a p
 At any time within an open project, you can create a new virtual environment. In **Solution Explorer**, expand the project node, right-click **Python Environments**, and choose **Add environment**. In **Add Environment**, choose **Virtual environment**.
 
 :::moniker range="vs-2019"
-For more information, see [Create a virtual environment (Visual Studio 2019)](./selecting-a-python-environment-for-a-project?view=vs-2019&preserve-view=true#create-a-virtual-environment).
+For more information, see [Create a virtual environment (Visual Studio 2019)](./selecting-a-python-environment-for-a-project.md?view=vs-2019&preserve-view=true#create-a-virtual-environment).
 
 :::moniker-end
 
 :::moniker range=">=vs-2022"
-For more information, see [Create a virtual environment (Visual Studio 2022)](./selecting-a-python-environment-for-a-project?view=vs-2022&preserve-view=true#create-a-virtual-environment).
+For more information, see [Create a virtual environment (Visual Studio 2022)](./selecting-a-python-environment-for-a-project.md?view=vs-2022&preserve-view=true#create-a-virtual-environment).
 :::moniker-end
 
 Visual Studio also provides a command to generate a _requirements.txt_ file from a virtual environment, making it easy to recreate the environment on other computers. For more information, see [Use virtual environments](selecting-a-python-environment-for-a-project.md#use-virtual-environments).
@@ -182,7 +182,7 @@ You can create a conda environment by using the `conda` tool, or with integrated
 
    You can monitor creation of the conda environment in the **Output** window. After creation completes, the output displays some command-line interface (CLI) instructions, such as `activate env`:
 
-   :::image type="content" source="media/environments/environments-conda-2.png" alt-text="Screenshot that shows the successful creation of a conda environment in Visual Studio." lightbox="media/environments/environments-conda-2.png":::
+   :::image type="content" source="media/environments/environments-conda-2.png" alt-text="Screenshot that shows the successful creation of a conda environment in Visual Studio." border="false" lightbox="media/environments/environments-conda-2.png":::
 
 1. In Visual Studio, you can activate a conda environment for your project in the same way that you would any other environment. For more information, see [Select an environment for a project](selecting-a-python-environment-for-a-project.md).
 
