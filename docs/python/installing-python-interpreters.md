@@ -13,7 +13,7 @@ ms.subservice: python
 ---
 # Install Python interpreters
 
-There are several options for installing Python interpreters on Visual Studio. You can install an interpreter when you install the Python workload, or you can install an interpreter after a workload is present. Interpreters can also be installed manually outside of the Visual Studio installer.
+There are several options for installing Python interpreters to work with Visual Studio. You can install an interpreter when you install the Python workload, or you can install an interpreter after a workload is present. Interpreters can also be installed manually outside of the Visual Studio installer.
 
 When you install the Python development workload in Visual Studio 2017 and later, Python 3 (64-bit) also installs by default. As an option, you can choose to install the 32-bit or 64-bit version of Python 2 or Python 3, along with Miniconda (Visual Studio 2019) or Anaconda 2/Anaconda 3 (Visual Studio 2017). The steps for this type of installation are described in [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
 
