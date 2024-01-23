@@ -3,7 +3,7 @@ title: Export subscription information in Visual Studio subscriptions| Microsoft
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 03/20/2023
+ms.date: 01/22/2024
 ms.topic: conceptual
 description:  Learn how to export a list of subscribers and details of their subscription assignments.
 ---
@@ -27,6 +27,7 @@ To perform the export:
 2. Select the **Export** tab. The file downloads to your local machine. The file includes the name of the agreement that contains your user subscriptions, and the date of the export.
 > [!div class="mx-imgBorder"]
 > ![Export subscribers](_img/exporting-subscriptions/exporting-subscriptions.png "Screenshot of the Manage subscribers page in the admin portal.  The Export menu item is highlighted.")
+
 3. The exported list appears as a .csv file in your normal downloads location. The file name includes the agreement number and the date you exported the list.  
 
 ## Resources
