@@ -82,7 +82,8 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    ENTRYPOINT ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
    ```
    
-   To target 64-bit,  specify the `-arch=amd64` option in the `ENTRYPOINT` command in your Dockerfile to start the [Developer Command Prompt for Visual Studio](../ide/reference/command-prompt-powershell.md#developer-command-prompt) (`VSDevCmd.bat`).
+   To target 64-bit,  specify the `-arch=amd64` option in the `ENTRYPOINT` command to start the [Developer Command Prompt for Visual Studio](../ide/reference/command-prompt-powershell.md#developer-command-prompt) (`VSDevCmd.bat`).
+
    For example:
    `ENTRYPOINT ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "-arch=amd64", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]`
 
@@ -130,7 +131,8 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    ENTRYPOINT ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
    ```
     
-   To target 64-bit,  specify the `-arch=amd64` option in the `ENTRYPOINT` command in your Dockerfile to start the [Developer Command Prompt for Visual Studio](../ide/reference/command-prompt-powershell.md#developer-command-prompt) (`VSDevCmd.bat`).
+   To target 64-bit,  specify the `-arch=amd64` option in the `ENTRYPOINT` command to start the [Developer Command Prompt for Visual Studio](../ide/reference/command-prompt-powershell.md#developer-command-prompt) (`VSDevCmd.bat`).
+
    For example:
    `ENTRYPOINT ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "-arch=amd64", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]`
 
