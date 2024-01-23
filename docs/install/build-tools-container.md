@@ -2,7 +2,7 @@
 title: Install Visual Studio Build Tools into a container to support a consistent build system
 titleSuffix: ''
 description: Learn how to install Visual Studio Build Tools into a Windows container to support continuous integration and continuous delivery (CI/CD) workflows.
-ms.date: 12/05/2023
+ms.date: 1/23/2024
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
@@ -81,6 +81,10 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    # This entry point starts the developer command prompt and launches the PowerShell shell.
    ENTRYPOINT ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
    ```
+   
+   To target the 64-bit developer command prompt for [`VSDevCmd.bat`](../ide/reference/command-prompt-powershell.md#developer-command-prompt), specify the `-arch=amd64` option in the `ENTRYPOINT` command of your Dockerfile.
+   For example:
+   `ENTRYPOINT ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "-arch=amd64", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]`
 
    > [!TIP]
    > For a list of workloads and components, see the [Visual Studio Build Tools component directory](workload-component-id-vs-build-tools.md).
@@ -125,6 +129,10 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    # This entry point starts the developer command prompt and launches the PowerShell shell.
    ENTRYPOINT ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
    ```
+    
+   To target the 64-bit developer command prompt for [`VSDevCmd.bat`](../ide/reference/command-prompt-powershell.md#developer-command-prompt), specify the `-arch=amd64` option in the `ENTRYPOINT` command of your Dockerfile.
+   For example:
+   `ENTRYPOINT ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "-arch=amd64", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]`
 
    > [!TIP]
    > For a list of workloads and components, see the [Visual Studio Build Tools component directory](workload-component-id-vs-build-tools.md).
