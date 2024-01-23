@@ -192,7 +192,7 @@ You can create a conda environment by using the `conda` tool, or with integrated
 
 To see the conda version, where conda environments are stored, and other information, run the `conda info` command at an Anaconda command prompt (a command prompt where Anaconda is in the path):
 
-```cli
+```console
 conda info
 ```
 
