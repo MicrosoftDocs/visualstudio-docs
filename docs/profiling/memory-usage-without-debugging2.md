@@ -1,7 +1,7 @@
 ---
 title: Analyze memory usage in the Performance Profiler
 description: Learn how to use the Memory Usage tool without the debugger in the Visual Studio Performance Profiler to monitor your app's memory use.
-ms.date: 02/22/2023
+ms.date: 01/22/2024
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -294,6 +294,15 @@ A **Referenced Types** tree in a snapshot diff report has the following columns.
 |**Inclusive Size (Bytes)**|The size of the objects in the primary snapshot, including the size of objects in the objects.|
 |**Inclusive Size Diff (Bytes)**|For a type, the difference in the size of all instances of the type between the primary snapshot and the previous snapshot, including the size of objects in the objects.|
 |**Module**|The module that contains the object.|
+
+::: moniker range="vs-2022"
+## Insights report
+
+In Visual Studio 2022, the Memory Analysis tool also gives multiple powerful built-in auto insights for managed memory. Select the **Insights** tab in the Managed types reports and it shows the applicable auto insights like **Duplicate strings**, **Sparse arrays**, and **Event handler leaks**. For more information, see [Memory Usage Insights](../profiling/memory-usage.md?view=vs-2022#memory-usage-insights).
+
+![Managed memory insights](../profiling/media/managed-memory-insights.png "Referenced Types in a diff report")
+
+::: moniker-end
 
 ## Related content
 
