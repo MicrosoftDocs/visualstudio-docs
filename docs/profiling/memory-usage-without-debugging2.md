@@ -99,7 +99,7 @@ The numbers are links that open detailed **Memory Usage** report views in new Vi
 |-|-|
 |![Step 1](../profiling/media/process-guide-1.png "Process Guide-1")|The total number of objects in memory when the snapshot was taken. Select this link to display a snapshot details report sorted by the count of instances of the types.|
 |![Step 2](../profiling/media/process-guide-2.png "Process Guide-2")|The difference between the total number of memory objects in this snapshot and the previous snapshot. Select this link to display a snapshot diff report sorted by the difference in the total count of instances of the types.|
-|![Step 3](../profiling/media/process-guide-3.png "Process Guide-3")|The total number of bytes in memory when the snapshot was taken.Select this link to display a snapshot details report sorted by the total size of the type instances.|
+|![Step 3](../profiling/media/process-guide-3.png "Process Guide-3")|The total number of bytes in memory when the snapshot was taken. Select this link to display a snapshot details report sorted by the total size of the type instances.|
 |![Step 4](../profiling/media/process-guide-4.png "Process Guide-4")|The difference between the total size of memory objects in this snapshot and the previous snapshot. A positive number means the memory size of this snapshot is larger than the previous one, and a negative number means the size is smaller. **Baseline** means a snapshot is the first in a diagnostic session. **No Difference** means the difference is zero. Select this link to display a snapshot diff report sorted by the difference in the total size of instances of the types.|
 ::: moniker-end
 
@@ -300,7 +300,7 @@ A **Referenced Types** tree in a snapshot diff report has the following columns.
 
 In Visual Studio 2022, the Memory Analysis tool also gives multiple powerful built-in auto insights for managed memory. Select the **Insights** tab in the Managed types reports and it shows the applicable auto insights like **Duplicate strings**, **Sparse arrays**, and **Event handler leaks**. For more information, see [Memory Usage Insights](../profiling/memory-usage.md#memory-usage-insights).
 
-![Screenshot of Managed memory insights](../profiling/media/vs-2022/managed-memory-insights.png)
+![Screenshot of Managed memory insights.](../profiling/media/vs-2022/managed-memory-insights.png)
 
 ::: moniker-end
 
