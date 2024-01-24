@@ -65,8 +65,8 @@ When setting property values, keep in mind that common properties may be set, re
 | DefineTrace | All | A boolean value that indicates whether you want the TRACE constant defined. |
 | DelaySign | .NET | A boolean value that indicates whether you want to delay-sign the assembly rather than full-sign it. |
 | Deterministic | .NET | A boolean value that indicates whether the compiler should produce identical assemblies for identical inputs. This parameter corresponds to the `/deterministic` switch of the compilers. |
-| DirectoryBuildPropsPath | All | Specifies the path to the *Directory.Build.props* file; if defined, this property overrides the default search algorithm. See [Customize your build](customize-your-build.md#customize-your-build.md#choose-between-adding-properties-to-a-props-or-targets-file). |
-| DirectoryBuildTargetsPath| All | Specifies the path to the *Directory.Build.targets* file; if defined, this property overrides the default search algorithm. See [Customize your build](customize-your-build.md#customize-your-build.md#choose-between-adding-properties-to-a-props-or-targets-file). |
+| DirectoryBuildPropsPath | All | Specifies the path to the *Directory.Build.props* file; if defined, this property overrides the default search algorithm. See [Customize your build](customize-your-build.md#choose-between-adding-properties-to-a-props-or-targets-file). |
+| DirectoryBuildTargetsPath| All | Specifies the path to the *Directory.Build.targets* file; if defined, this property overrides the default search algorithm. See [Customize your build](customize-your-build.md#choose-between-adding-properties-to-a-props-or-targets-file). |
 | DisableFastUpToDateCheck | All | A boolean value that applies to Visual Studio only. The Visual Studio build manager uses a process called FastUpToDateCheck to determine whether a project must be rebuilt to be up to date. This process is faster than using MSBuild to determine this. Setting the DisableFastUpToDateCheck property to `true` lets you bypass the Visual Studio build manager and force it to use MSBuild to determine whether the project is up to date. |
 | DocumentationFile | .NET | The name of the file that is generated as the XML documentation file. This name includes only the file name and has no path information. |
 
@@ -82,8 +82,8 @@ When setting property values, keep in mind that common properties may be set, re
 
 | Property or parameter name | Project types | Description |
 |------------------------------------| - | - |
-| ImportDirectoryBuildProps | All | A boolean value that indicates whether to import a *Directory.Build.props* file. See [Customize your build](customize-your-build.md#customize-your-build.md#choose-between-adding-properties-to-a-props-or-targets-file).|
-| ImportDirectoryBuildTargets | All | A boolean value that indicates whether to import a *Directory.Build.targets* file. See [Customize your build](customize-your-build.md#customize-your-build.md#choose-between-adding-properties-to-a-props-or-targets-file). |
+| ImportDirectoryBuildProps | All | A boolean value that indicates whether to import a *Directory.Build.props* file. See [Customize your build](customize-your-build.md#choose-between-adding-properties-to-a-props-or-targets-file).|
+| ImportDirectoryBuildTargets | All | A boolean value that indicates whether to import a *Directory.Build.targets* file. See [Customize your build](customize-your-build.md#choose-between-adding-properties-to-a-props-or-targets-file). |
 | IntermediateOutputPath | All | The full intermediate output path as derived from `BaseIntermediateOutputPath`, if no path is specified. For example, *obj\debug\\*. |
 | KeyContainerName | All | The name of the strong-name key container. |
 | KeyOriginatorFile | All | The name of the strong-name key file. |
