@@ -115,7 +115,7 @@ You'll be able de-select any directories that you don't want to reauthenticate a
 
 If you're experiencing CA/MFA issues and/or are unable to log in even when using the system web browser, try the following steps to resolve the issue:
 
-1. [Sign out](signing-in-to-visual-studio.md#sign-out-of-account) of the account in Visual Studio.
+1. Sign out of the account in Visual Studio.
 1. Select **Tools** > **Options** > **Accounts** > Uncheck **Authenticate across all Azure Active Directories**.
 1. Sign in again.
 
@@ -128,7 +128,7 @@ If you're experiencing CA/MFA issues and/or are unable to log in even when using
 
 Starting with Visual Studio 2022 version 17.5, if you see the previous error dialog, try the following steps to resolve the issue:
 
-1. [Sign out](signing-in-to-visual-studio.md#sign-out-of-account) of the account in Visual Studio.
+1. Sign out of the account in Visual Studio.
 1. Sign in again.
 1. Create a new [Report a Problem](https://developercommunity.visualstudio.com/VisualStudio/report) ticket explaining the activity you were doing and/or resource you were trying to access before encountering the problem.
 

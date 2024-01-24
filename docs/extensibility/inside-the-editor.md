@@ -16,7 +16,7 @@ The editor is composed of several different subsystems, which are designed to ke
 
 These sections describe different aspects of the editor:
 
-- [Overview of the subsystems](../extensibility/inside-the-editor.md#overview-of-the-subsystems)
+- [Overview of the subsystems](../extensibility/inside-the-editor.md#the-subsystems)
 
 - [The text model](../extensibility/inside-the-editor.md#the-text-model)
 
