@@ -1972,7 +1972,7 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/ide/accessibility-products-and-services-from-microsoft.md",
+      "source_path": "docs/ide/reference/accessibility-products-and-services-from-microsoft.md",
       "redirect_url": "https://www.microsoft.com/accessibility",
       "redirect_document_id": false,
       "monikers": [
@@ -1980,7 +1980,7 @@
     ]
     },
     {
-      "source_path": "docs/ide/accessibility-products-and-services-from-microsoft.md",
+      "source_path": "docs/ide/reference/accessibility-products-and-services-from-microsoft.md",
       "redirect_url": "https://www.microsoft.com/accessibility",
       "redirect_document_id": false,
       "monikers": [
