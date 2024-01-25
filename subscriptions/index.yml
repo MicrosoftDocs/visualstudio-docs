@@ -6,8 +6,6 @@ metadata:
   title: Visual Studio Subscriptions documentation
   description: Explore documentation about Visual Studio subscriptions to create applications on Windows, iOS, Android, and Linux with developer tools, cloud services, and more.
   ms.topic: landing-page
-  ms.prod: visual-studio-windows
-  ms.technology: vs-ide-general  
   author: evanwindom
   ms.author: amast
   manager: shve

@@ -19,11 +19,10 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Choose Breakpoints Dialog Box
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **Choose Breakpoints** dialog box opens when you try to set a breakpoint from ambiguous input in the **New Breakpoint** dialog box. A common example of ambiguous input is an overloaded function name.
 
  **Breakpoints**

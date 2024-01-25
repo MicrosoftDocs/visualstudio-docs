@@ -6,13 +6,11 @@ ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'
 ---
 
 # Instrument your .NET applications in Visual Studio (C#, C++, Visual Basic, F#)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 With the release of Visual Studio 2022 version 17.5, you can use the new dynamic Instrumentation tool. This tool shows the exact number of times your functions are called and is faster than the previous version of the Instrumentation tool. This tool supports .NET Core instrumentation without needing PDBs.
 Starting in Visual Studio 2022 version 17.6 Preview 2, the tool also supports C/C++.

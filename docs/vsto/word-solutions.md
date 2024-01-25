@@ -1,5 +1,5 @@
 ---
-title: "Word solutions"
+title: Automate, extend, and customize Microsoft Word
 description: Use Visual Studio solutions to automate Microsoft Office Word, extend Word features, and customize the Word user interface (UI).
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
@@ -25,11 +25,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Word solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Visual Studio provides project templates you can use to create document-level customizations and VSTO Add-ins for Microsoft Office Word. You can use these solutions to automate Word, extend Word features, and customize the Word user interface (UI). For more information about the differences between document-level customizations and VSTO Add-ins, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]

@@ -13,11 +13,9 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Programmatically print worksheets
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can print any worksheet in a workbook.
 
@@ -75,7 +73,7 @@ You can print any worksheet in a workbook.
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb" id="Snippet15":::
      ---
 
-## See also
+## Related content
 
 - [Work with worksheets](../vsto/working-with-worksheets.md)
 - [How to: Programmatically check spelling in worksheets](../vsto/how-to-programmatically-check-spelling-in-worksheets.md)

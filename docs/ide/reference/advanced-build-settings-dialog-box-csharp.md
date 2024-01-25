@@ -2,7 +2,7 @@
 title: Advanced Build Settings Dialog Box (C#)
 description: Learn how you can use Visual Studio to specify the project's advanced build configuration properties.
 ms.date: 08/05/2019
-ms.technology: vs-ide-compile
+ms.subservice: compile-build
 ms.topic: reference
 f1_keywords:
 - cs.AdvancedBuildSettings
@@ -14,8 +14,6 @@ manager: jmartens
 ---
 # Advanced Build Settings dialog box (C#)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Use the **Advanced Build Settings** dialog box of the **Project Designer** to specify the project's advanced build configuration properties. This dialog box applies to C# projects only.
 
 ## General
@@ -25,7 +23,6 @@ The following options enable you to set general advanced settings.
 **Language Version**
 
 Links to [/langversion (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/langversion-compiler-option), which provides information about how a default language version is chosen based on a project's target framework.
-
 
 **Internal Compiler Error Reporting**
 

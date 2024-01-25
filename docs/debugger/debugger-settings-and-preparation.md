@@ -16,11 +16,10 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Debugger Settings and Preparation
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This section describes the debugger-related property settings, and the preparation needed in order to debug your program with the Visual Studio debugger. If you create your program in Visual Studio using the project templates, these settings are set correctly for you in the Debug configuration.
 
  For more information, see [How to: Set Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md).

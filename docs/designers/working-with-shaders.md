@@ -6,11 +6,9 @@ ms.topic: conceptual
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-designers
+ms.subservice: ui-designers
 ---
 # Work with shaders
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use the graph-based Shader Designer in Visual Studio to design custom shader effects. You can use these shaders in your DirectX-based game or app.
 

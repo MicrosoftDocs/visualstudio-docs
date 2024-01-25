@@ -7,12 +7,10 @@ f1_keywords:
 - vs.UnitTest.CreateIntelliTest
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Generate unit tests for fuzz testing by using IntelliTest
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 IntelliTest explores your .NET code to generate test data and a suite of unit tests. For every statement in the code, a test input is generated that will execute that statement. A case analysis is performed for every conditional branch in the code. For example, `if` statements, assertions, and all operations that can throw exceptions are analyzed. This analysis is used to generate test data for a parameterized unit test for each of your methods, creating unit tests with high code coverage. Think of it as smart fuzz testing that trims down the inputs and test cases to what executes all your logic branches and checks for exceptions.
 

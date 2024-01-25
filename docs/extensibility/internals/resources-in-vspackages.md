@@ -10,11 +10,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Resources in VSPackages
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can embed localized resources in native satellite UI DLLs, managed satellite DLLs, or in a managed VSPackage itself.
 
  Some resources cannot be embedded in VSPackages. The following managed types can be embedded:
@@ -84,6 +83,6 @@ Visual Studio delays loading of VSPackages whenever possible. A consequence of e
 
 When Visual Studio requests a resource from a VSPackage after Setup, that package is likely to be already loaded and initialized, so the performance loss is minimal.
 
-## See also
+## Related content
 - [Managing VSPackages](../../extensibility/managing-vspackages.md)
 - [Localized Resources in MFC Applications: Satellite DLLs](/cpp/build/localized-resources-in-mfc-applications-satellite-dlls)

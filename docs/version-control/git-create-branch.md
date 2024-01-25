@@ -1,17 +1,15 @@
 ---
 title: Create a branch to track code changes
 description: Create a branch for source code control in Visual Studio with Git based off an existing branch for your project or solution.
-ms.date: 11/23/2022
+ms.date: 1/11/2024
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 ms.manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
+
+ms.subservice: general-ide
 ---
 # Create a Git branch in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 It's easy to create a new branch in Visual Studio; all you have to do is base it off an existing branch.
 
@@ -42,6 +40,7 @@ There you have it; you've created a new branch.
 > [!NOTE]
 > For more information about the latest updates that improve branch switching, see the [Visual Studio 2022 Performance Enhancements: Git Branch Switching](https://devblogs.microsoft.com/visualstudio/vs2022-performance-enhancements-git-branch-switching/) blog post.
 
-## Next steps
+## Related content
 
-To continue your journey, visit the [Make a commit](git-make-commit.md) page. And to learn more about how to manage branches in Visual Studio, see [Merge and rebase branches](git-manage-repository.md#merge-and-rebase-branches).
+- [Make a commit](git-make-commit.md) 
+- [Merge and rebase branches](git-manage-repository.md#merge-and-rebase-branches).

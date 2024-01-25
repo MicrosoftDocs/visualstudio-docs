@@ -31,11 +31,9 @@ helpviewer_keywords:
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # View the structure of code by using different tool windows
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ::: moniker range="<=vs-2019"
 
@@ -196,7 +194,7 @@ The **Code Definition** window displays the definition of a selected C++ type or
 Although this window is read-only, you can set breakpoints or bookmarks in it. To modify the displayed definition, choose **Edit Definition** on the shortcut menu. This opens the source file in the code editor and moves the insertion point to the line where the definition begins.
 
 > [!NOTE]
-> Starting in Visual Studio 2015, the **Code Definition** window can only be used with C++ code.
+> The **Code Definition** window can only be used with C++ code.
 
 ::: moniker-end
 

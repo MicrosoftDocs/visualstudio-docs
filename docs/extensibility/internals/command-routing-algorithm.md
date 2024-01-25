@@ -9,11 +9,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Command routing algorithm
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In Visual Studio commands are handled by a number of different components. Commands are routed from the innermost context, which is based on the current selection, to the outermost (also known as global) context. For more information, see [Command availability](../../extensibility/internals/command-availability.md).
 
 ## Order of command resolution
@@ -37,5 +36,5 @@ In Visual Studio commands are handled by a number of different components. Comma
 
 8. Global: If a command has not been handled by the previously mentioned contexts, Visual Studio attempts to route it to the VSPackage that owns a command that implements the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface. If the VSPackage has not been loaded already, it is not loaded when Visual Studio calls the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> method. The VSPackage is loaded only when the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec%2A> method is called.
 
-## See also
+## Related content
 - [Command design](../../extensibility/internals/command-design.md)

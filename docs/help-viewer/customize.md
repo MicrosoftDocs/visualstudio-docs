@@ -11,11 +11,10 @@ helpviewer_keywords:
 author: jasonchlus
 ms.author: jasonchlus
 manager: jmartens
-ms.technology: vs-help-viewer
+ms.subservice: help-viewer
 ---
 # Customize the help viewer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can customize the layout of the Help Viewer windows, as well as other options such as font size, maximum number of results, and whether to include English content.
 
 ## Customizing window layout
@@ -40,6 +39,6 @@ You open the **Viewer Options** dialog box by choosing the **Viewer Options** bu
 |Change the maximum number of history entries that appear in the **Favorites** window|Choose a value in the **Maximum History entries saved** list.|
 |Include or exclude English content when you view content for a non-English version of a product.|Select or clear the **Include English content in all navigation tabs and F1 requests** check box. **Caution:**  This feature also controls whether you can download English content in the **Manage Content** tab.|
 
-## See also
+## Related content
 
 - [Microsoft Help Viewer](../help-viewer/overview.md)

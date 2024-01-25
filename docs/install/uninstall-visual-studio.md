@@ -11,12 +11,10 @@ f1_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ---
 # Uninstall or remove Visual Studio 
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This page walks you through uninstalling Visual Studio, our integrated suite of productivity tools for developers.
 

@@ -13,11 +13,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Default command, group, and toolbar placement
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 For product uniformity and stability, the UI displays certain command groups by default, and Visual Studio provides definitions for commands and command groups. VSPackages can also use the standard commands and command groups.
 
  The default command groups fall into three categories: IDE commands, product commands, and editor commands.
@@ -35,6 +34,6 @@ For product uniformity and stability, the UI displays certain command groups by 
 
  Editor toolbars should be placed below IDE and product toolbars.
 
-## See also
+## Related content
 - [IDE-defined commands, menus, and groups](../../extensibility/internals/ide-defined-commands-menus-and-groups.md)
 - [How VSPackages add user interface elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)

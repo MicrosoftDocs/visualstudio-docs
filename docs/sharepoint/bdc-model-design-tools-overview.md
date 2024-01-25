@@ -22,11 +22,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
+ms.subservice: sharepoint-development
 ---
 # BDC model design tools overview
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can design a Business Data Connectivity (BDC) model by using the BDC Designer, the **BDC Method Details** window, and the **BDC Explorer**.
 
  The **BDC Explorer** enables you to browse the model, search the model, and define type descriptors.

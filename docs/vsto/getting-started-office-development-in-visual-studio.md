@@ -1,5 +1,5 @@
 ---
-title: "Get started (Office development in Visual Studio)"
+title: Get started with Microsoft Office developer tools (Visual Studio)
 description: Get started with the Microsoft Office developer tools in Visual Studio to build Office solutions for Microsoft Word, Excel, Outlook, and PowerPoint.
 titleSuffix: ""
 ms.date: "08/14/2019"
@@ -12,11 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Get started (Office development in Visual Studio)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This section contains topics that help you get started using the Microsoft Office developer tools in Visual Studio.
 
 [!include[Add-ins note](includes/addinsnote.md)]

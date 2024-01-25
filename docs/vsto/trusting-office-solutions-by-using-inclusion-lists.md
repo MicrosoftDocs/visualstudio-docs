@@ -14,11 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Trust Office solutions by using inclusion lists
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Inclusion lists enable users to grant trust to Office solutions that are signed with a certificate that identifies the publisher. Inclusion lists are user-specific, and they can be used for document-level customizations and VSTO Add-ins.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
@@ -38,6 +37,6 @@ ms.technology: office-development
 ## Structure of the inclusion list
  A valid inclusion list entry has two parts: a path to the deployment manifest, and the public key used to sign the solution. After a solution is added to the inclusion list, it is considered trusted. When the Office solution runs, the Office application compares the public key in the inclusion list with the signing key in the deployment manifest to verify that the solution that is currently running is the same as the original trusted version.
 
-## See also
+## Related content
 - [Grant trust to Office solutions](../vsto/granting-trust-to-office-solutions.md)
 - [Secure Office solutions](../vsto/securing-office-solutions.md)

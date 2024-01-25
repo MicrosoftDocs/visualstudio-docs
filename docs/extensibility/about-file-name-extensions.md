@@ -9,11 +9,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # About file name extensions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When you register a file extension of a VSPackage, you associate it with a version of Visual Studio. This is important if more than one version of Visual Studio is installed on a computer.
 
  File extensions for VSPackages are registered under **HKEY_CLASSES_ROOT** key with a default value that points to the associated programmatic identifier (ProgID).
@@ -30,6 +29,6 @@ HKEY_CLASSES_ROOT\
 
  In certain cases, the ProgID associated with a file extension should not be changed. For example, the ProgID for the *.htm* file extension (progid = htmlfile) is hard-coded in a number of places in the operating system, and is widely known and used in association with *.htm* and *.html* files.
 
-## See also
+## Related content
 - [Register file name extensions for side-by-side deployments](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md)
 - [Specify file handlers for file name extensions](../extensibility/specifying-file-handlers-for-file-name-extensions.md)

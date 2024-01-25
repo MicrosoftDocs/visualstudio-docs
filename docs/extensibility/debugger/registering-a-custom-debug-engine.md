@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Register a custom debug engine
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The debug engine must register itself as a class factory, following COM conventions as well as register with Visual Studio through the Visual Studio registry subkey.
 
 > [!NOTE]
@@ -43,7 +42,7 @@ HRESULT CTextInterpreterModule::RegisterServer(BOOL bRegTypeLib, const CLSID * p
 }
 ```
 
-## See also
+## Related content
 - [Creating a custom debug engine](../../extensibility/debugger/creating-a-custom-debug-engine.md)
 - [SDK helpers for debugging](../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)
 - [Tutorial: Building a debug engine using ATL COM](/previous-versions/bb147024(v=vs.90))

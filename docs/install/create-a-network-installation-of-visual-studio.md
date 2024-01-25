@@ -9,12 +9,10 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ---
 # Create and maintain a network installation of Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Sometimes an enterprise administrator wants to create a private installation point that contains Visual Studio files that can be [deployed to client machines within an organization](deploy-a-layout-onto-a-client-machine.md). Creating a private installation point is useful for situations where a user may have limited permissions, where the client machines may have limited access to the internet, or when an organization wants to standardize on a particular version of the developer toolset. We designed Visual Studio so that an administrator can both create and maintain a "layout", which is a private cache of Visual Studio files, that can be stored on an internal network share and can be made available on an organization's intranet. The layout serves as the source location for all Visual Studio files needed for both initial client installation and subsequent updates.
 
@@ -23,7 +21,6 @@ The information on this page is grouped up into three main sections:
 * [**Create the layout**](#create-the-layout): describes how to create the layout with the correct product content, how to configure the client's default settings, how to store it on a network file share, and how to make it available if you want to host it on a webserver on your intranet. 
 * [**Maintain the layout**](#maintaining-your-layout): information on how to best update the layout's product version, or modify the layout's product content, channel settings, installer version, and folder size. 
 * [**Help and Support**](#get-support-for-your-network-layout): where to ask for help
-
 
 ## Create the layout
 
@@ -107,7 +104,7 @@ There are several options you can use to customize the contents of your network 
 * `--add` to specify [workload or component IDs](workload-and-component-ids.md). <br>If `--add` is used, only those workloads and components specified with `--add` are downloaded.  If `--add` isn't used, all workload and components are downloaded.
 * `--includeRecommended` to include all the recommended components for the specified workload IDs.
 * `--includeOptional` to include all the optional components for the specified workload IDs.
-* `--config` to use a vsconfig file to specify the components that should be included in the layout. Make sure you specify the **full path** of the config file.  
+* `--config` to use a config file to specify the components that should be included in the layout.
 * `--lang` to specify [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales).
 
 Here are a few examples of how to create a custom network layout.

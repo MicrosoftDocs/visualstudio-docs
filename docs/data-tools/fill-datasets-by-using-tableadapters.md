@@ -1,5 +1,5 @@
 ---
-title: Fill datasets by using ADO.NET TableAdapters (.NET Framework)
+title: Fill datasets with TableAdapters (.NET Framework)
 description: Fill datasets in .NET Framework applications with TableAdapters and data from queries or stored procedures by using ADO.NET in Visual Studio.
 ms.date: 11/01/2023
 ms.topic: how-to
@@ -17,11 +17,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Fill datasets by using TableAdapters in .NET Framework applications
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 

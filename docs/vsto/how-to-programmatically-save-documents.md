@@ -12,11 +12,9 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Programmatically save documents
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 There are several ways to save Microsoft Office Word documents. You can save a document without changing the name of the document, or you can save a document with a new name.
 
@@ -104,7 +102,7 @@ This code example requires the following:
 
 - To save a document with a new name, a directory named *Test* must exist on drive C.
 
-## See also
+## Related content
 
 - [How to: Programmatically close documents](../vsto/how-to-programmatically-close-documents.md)
 - [How to: Programmatically open existing documents](../vsto/how-to-programmatically-open-existing-documents.md)

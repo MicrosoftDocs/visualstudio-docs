@@ -2,7 +2,7 @@
 title: Troubleshoot and create logs for MSBuild problems
 description: Learn how you can diagnose build problems in your Visual Studio project, and, if necessary, create a log to send to Microsoft for investigation.
 ms.date: 09/07/2023
-ms.technology: vs-ide-compile
+ms.subservice: compile-build
 ms.topic: how-to
 helpviewer_keywords:
   - MSBuild logs"
@@ -16,8 +16,6 @@ dev_langs:
 ms.description: "Generate build logs for MSBuild projects to collect helpful information when troubleshooting issues."
 ---
 # Troubleshoot and create logs for MSBuild problems
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The following procedures can help you diagnose build problems in your Visual Studio project, and, if necessary, create a log to send to Microsoft for investigation.
 

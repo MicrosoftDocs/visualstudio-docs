@@ -11,12 +11,10 @@ helpviewer_keywords:
 author: ankitvarmait
 ms.author: anva
 manager: tinali
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 
 # Visual Studio SDK analyzer error VsixCompatibility1001
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The extension is incompatible with the targeted version of Visual Studio because of referencing the incompatible VS SDK version.
 

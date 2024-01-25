@@ -11,13 +11,11 @@ helpviewer_keywords:
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Code snippets schema reference
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
-IntelliSense Code Snippets are pre-authored pieces of code that are ready to be inserted into your application with Visual Studio. You can increase productivity by providing code snippets that reduce the amount of time spent typing repetitive code or searching for samples. You can use the IntelliSense Code Snippet XML schema to create your own code snippets and add them to the code snippets that Visual Studio already includes.
+Code snippets are pre-authored pieces of code that are ready to be inserted into your application with Visual Studio. You can increase productivity by providing code snippets that reduce the amount of time spent typing repetitive code or searching for samples. You can use the IntelliSense Code Snippet XML schema to create your own code snippets and add them to the code snippets that Visual Studio already includes.
 
 ## Assembly element
 
@@ -137,7 +135,7 @@ There are three attributes available for the Code element:
 
 ## CodeSnippet element
 
-Allows you to specify a heading and multiple IntelliSense Code Snippets, which you can insert into Visual Studio code files.
+Allows you to specify a heading and multiple code snippets, which you can insert into Visual Studio Code files.
 
 ```xml
 <CodeSnippet Format="x.x.x">
@@ -538,7 +536,7 @@ Specifies the references, imports, declarations, and code for the code snippet.
 
 |Parent element|Description|
 | - |-----------------|
-|[CodeSnippet element](../ide/code-snippets-schema-reference.md#codesnippet-element)|Allows you to specify a heading and multiple IntelliSense Code Snippets, which you can insert into Visual Studio code files.|
+|[CodeSnippet element](../ide/code-snippets-schema-reference.md#codesnippet-element)|Allows you to specify a heading and multiple code snippets, which you can insert into Visual Studio Code files.|
 
 ## SnippetType element
 

@@ -2,7 +2,7 @@
 title: MSBuild Special Characters
 description: Review the MSBuild characters that are reserved for special use in specific contexts, and when and how to escape these characters.
 ms.date: 06/12/2019
-ms.topic: conceptual
+ms.topic: language-reference
 helpviewer_keywords:
 - escape characters
 - escape
@@ -10,7 +10,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # MSBuild special characters
 

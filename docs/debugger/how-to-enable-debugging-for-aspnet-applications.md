@@ -15,11 +15,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Debug ASP.NET or ASP.NET Core apps in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can debug ASP.NET and ASP.NET Core apps in Visual Studio. The process differs between ASP.NET and ASP.NET Core, and whether you run it on IIS Express or a local IIS server.
 
@@ -188,7 +186,7 @@ For example, if you specify `debug="true"` in <em>www.microsoft.com/aaa/web.conf
 > [!IMPORTANT]
 > Debug mode greatly reduces the performance of your app. When you deploy a production app or conduct performance measurements, set `debug="false"` in the *web.config* and specify a Release build.
 
-## See also
+## Related content
 - [ASP.NET debugging: system requirements](aspnet-debugging-system-requirements.md)
 - [How to: Run the worker process under a user account](how-to-run-the-worker-process-under-a-user-account.md)
 - [How to: Find the name of the ASP.NET process](how-to-find-the-name-of-the-aspnet-process.md)

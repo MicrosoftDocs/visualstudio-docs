@@ -1,5 +1,5 @@
 ---
-title: "Create a React app"
+title: Create a React app in Visual Studio
 description: Create, build, and run a simple React front-end web application project from a Visual Studio template, and set basic properties for the project.
 ms.date: 08/24/2023
 ms.custom: vs-acquisition
@@ -8,14 +8,12 @@ ms.devlang: javascript
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
 monikerRange: '>= vs-2022'
 ---
 # Create a React app
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you create and run a simple React frontend web application.
 

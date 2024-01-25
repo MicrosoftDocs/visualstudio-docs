@@ -6,12 +6,9 @@ ms.topic: conceptual
 author: madskristensen
 ms.author: madsk
 manager: pchapman
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Create an Extension Pack
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article shows you how to create an Extension Pack. An Extension Pack is a set of extensions that can be installed together. Extension Packs enable you to easily share your favorite extensions with other users or bundle a set of extensions together for a particular scenario.
 

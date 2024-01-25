@@ -1,5 +1,5 @@
 ---
-title: Grow data science skills with DataCamp in Visual Studio subscriptions
+title: Activate DataCamp and grow your data science skills
 author: evanwindom
 ms.author: amast
 manager: shve

@@ -14,11 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Grant trust to Office solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Grant trust to Office solutions means modifying the security policy of each target computer to trust the solution assembly, application manifest, deployment manifest, and document. Trust can be granted to the Office solution by either you or the end user.
 
  You can grant full trust to the Office solution by signing the application and deployment manifests.
@@ -41,7 +40,7 @@ ms.technology: office-development
 
  Administrators can disable the ClickOnce trust prompt or require that the prompt occur only for solutions that are signed with an Authenticode certificate. For more information about how to change these settings for the MyComputer, LocalIntranet, Internet, TrustedSites, and UntrustedSites zones, see [How to: Configure the ClickOnce trust prompt behavior](../deployment/how-to-configure-the-clickonce-trust-prompt-behavior.md).
 
-## See also
+## Related content
 
 - [Secure Office solutions](../vsto/securing-office-solutions.md)
 - [Grant trust to documents](../vsto/granting-trust-to-documents.md)

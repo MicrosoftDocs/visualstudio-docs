@@ -9,15 +9,13 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.prod: visual-studio-windows
+ms.subservice: general-ide
+
 ms.topic: whats-new
 ms.custom: vs-acquisition
 monikerRange: vs-2019
 ---
 # What's new in Visual Studio 2019
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Updated for the 16.11 release.** See [full release notes](/visualstudio/releases/2019/release-notes/) | View [product roadmap](/visualstudio/productinfo/vs2019-roadmap)
 

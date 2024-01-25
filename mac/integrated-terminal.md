@@ -18,7 +18,6 @@ To open the **Terminal**:
 - Use the **View** > **Terminal** menu command.
 - Use the **terminal** command from the **search** bar.
 
-
 ::: moniker range="vsmac-2022"
 
 :::image type="content" source="media/vsmac-2022/integrated-terminal-intro.png" alt-text="Screenshot showing the Visual Studio for Mac integrated terminal immediately after being launched.":::
@@ -55,7 +54,6 @@ Multiple instances of the Terminal may be running at any time. You can create a 
 ### Configuring the terminal font
 
 You can change the font **Family**, **Typeface** and **Size** used for the **Terminal Window Contents** from **Preferences...** > **Environment** > **Fonts**. By default, the font will be the same as that for the **Output Window Contents**, using Menlo Regular 11. You can set it to any font, independent of your **Text Editor** font.
-
 
 ::: moniker range="vsmac-2022"
 

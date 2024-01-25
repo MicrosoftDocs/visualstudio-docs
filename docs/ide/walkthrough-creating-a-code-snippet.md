@@ -1,5 +1,5 @@
 ---
-title: 'Walkthrough: Create a code snippet in Visual Studio'
+title: Create a code snippet in Visual Studio
 description: "Learn how to create a code snippet in three steps: create an XML file, fill in the appropriate elements, and add your code to it."
 ms.date: 04/11/2023
 ms.topic: how-to
@@ -13,14 +13,12 @@ helpviewer_keywords:
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 dev_langs:
 - CSharp
 - VB
 ---
 # Walkthrough: Create a code snippet in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can create a code snippet with only a few steps. All you need to do is create an XML file, fill in the appropriate elements, and add your code to it. You can optionally make use of replacement parameters and project references. Then, you can import the snippet to your Visual Studio installation by using the **Import** button in the **Code Snippets Manager**, which is available from the **Tools** menu.
 

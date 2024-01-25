@@ -8,13 +8,11 @@ ms.devlang: CSharp
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 dev_langs:
   - CSharp
 ---
 # Create a Windows Forms app in Visual Studio with C\#
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this tutorial, you'll create a simple C# application that has a Windows-based user interface (UI).
 

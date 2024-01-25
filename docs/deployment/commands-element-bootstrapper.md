@@ -13,11 +13,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # &lt;Commands&gt; element (bootstrapper)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The `Commands` element implements tests described by the elements underneath the `InstallChecks` element, and declares which package the ClickOnce bootstrapper should install if the test fails.
 
 ## Syntax
@@ -171,8 +170,8 @@ The `Commands` element implements tests described by the elements underneath the
             <!-- Block install on Windows 95 -->
             <FailIf Property="Version9X" Compare="VersionLessThan" Value="4.10" String="InvalidPlatformWin9x"/>
 
-            <!-- Block install on Windows 2000 SP 2 or less -->
-            <FailIf Property="VersionNT" Compare="VersionLessThan" Value="5.0.3" String="InvalidPlatformWinNT"/>
+            <!-- Block install on Windows 8 or less -->
+            <FailIf Property="VersionNT" Compare="VersionLessThan" Value="6.2" String="InvalidPlatformWinNT"/>
 
             <!-- Block install if Internet Explorer 5.01 or later is not present -->
             <FailIf Property="IEVersion" Compare="ValueNotExists" String="InvalidPlatformIE" />

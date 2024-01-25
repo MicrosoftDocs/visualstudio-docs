@@ -10,11 +10,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Tell the debugger what to show using the DebuggerDisplay Attribute (C#, Visual Basic, F#, C++/CLI)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The <xref:System.Diagnostics.DebuggerDisplayAttribute> controls how an object, property, or field is displayed in the debugger variable windows. This attribute can be applied to types (classes, structs, enums, delegates). If applied to a base type, the attribute also applies to a subclass.
 
@@ -174,7 +172,7 @@ class MyHashtable
 }
 ```
 
-## See also
+## Related content
 
 - [Using DebuggerTypeProxy Attribute](../debugger/using-debuggertypeproxy-attribute.md)
 - [Create custom views of managed objects](../debugger/create-custom-views-of-managed-objects.md)

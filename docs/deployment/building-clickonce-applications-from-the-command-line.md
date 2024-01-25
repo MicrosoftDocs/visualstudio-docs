@@ -1,5 +1,5 @@
 ---
-title: "Building ClickOnce Applications from the Command Line"
+title: Build ClickOnce Applications from command line
 description: Learn how to build Visual Studio projects from the command line, which allows you to reproduce a build using an automated process.
 ms.date: "10/25/2023"
 ms.topic: "conceptual"
@@ -14,11 +14,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Build ClickOnce applications from the command line
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In Visual Studio, you can build projects from the command line, even if they're created in the integrated development environment (IDE). In fact, you can rebuild a project created with Visual Studio on another computer that has only the .NET Framework installed. This capability allows you to reproduce a build by using an automated process, for example, in a central build lab or with advanced scripting techniques beyond the scope of building the project itself.
 
@@ -192,7 +190,7 @@ The following table shows the four URL options for ClickOnce deployment.
 | `SupportURL` | Optional. Set this URL option if the support site is different than the `PublishURL`. For example, you could set the `SupportURL` to your company's customer support web site. |
 | `UpdateURL` | Optional. Set this URL option if the update location is different than the `InstallURL`. For example, you could set the `PublishURL` to an FTP path and set the `UpdateURL` to a web URL. |
 
-## See also
+## Related content
 
 - <xref:Microsoft.Build.Tasks.GenerateBootstrapper>
 - <xref:Microsoft.Build.Tasks.GenerateApplicationManifest>

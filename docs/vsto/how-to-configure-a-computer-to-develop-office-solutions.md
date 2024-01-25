@@ -13,11 +13,9 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Configure a computer to develop Office solutions
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To configure a development computer so that you can use the Microsoft Office developer tools in Visual Studio, follow the instructions in this topic. You must have administrative privileges on the development computer to perform these steps.
 
@@ -57,7 +55,7 @@ If you install a supported version of Visual Studio, the .NET Framework, and Mic
 
 If you continue to experience problems, see [Additional support for errors in Office solutions](../vsto/additional-support-for-errors-in-office-solutions.md).
 
-## See also
+## Related content
 
 - [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)
 - [How to: Install the Visual Studio Tools for Office runtime redistributable](../vsto/how-to-install-the-visual-studio-tools-for-office-runtime-redistributable.md)

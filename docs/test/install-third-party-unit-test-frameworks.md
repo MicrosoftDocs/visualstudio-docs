@@ -5,12 +5,10 @@ ms.date: 12/04/2023
 ms.topic: how-to
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Install unit test frameworks
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio Test Explorer can run tests from any unit test framework that has developed an adapter interface for it. Installing the framework copies the binaries and adds Visual Studio project templates for the languages it supports. When you create a project with the template, the framework is registered with Test Explorer.
 
@@ -54,6 +52,6 @@ Update to the latest stable test adapter to experience better test discovery and
    Choose the **Install** button.
    ::: moniker-end
 
-## See also
+## Related content
 
 - [Unit test your code](../test/unit-test-your-code.md)

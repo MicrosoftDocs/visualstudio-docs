@@ -21,11 +21,9 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 ---
 # Browse and rearrange code maps
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Rearrange items on code maps to make them easier to read and improve their performance.
 

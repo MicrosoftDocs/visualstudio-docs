@@ -15,11 +15,10 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Error: Unable to connect to the machine &lt;name&gt;. The machine cannot be found on the network.
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This behavior occurs if one of the following conditions is true:
 
 - Your connection to the remote computer was broken.

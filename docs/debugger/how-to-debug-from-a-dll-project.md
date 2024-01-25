@@ -1,5 +1,5 @@
 ---
-title: Debug from a DLL Project
+title: Debug a DLL Project from the project itself
 description: You can start the debugging of a DLL project from the project itself, by specifying the calling app in the project properties. See this article for details.
 ms.date: 4/21/2023
 ms.topic: how-to
@@ -16,11 +16,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Debug from a DLL project in Visual Studio (C#, C++, Visual Basic, F#)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 One way to debug a DLL project is to specify the calling app in the DLL project properties. Then you can start debugging from the DLL project itself. For this method to work, the app must call the same DLL in the same location as the one you configure. If the app finds and loads a different version of the DLL, that version won't contain your breakpoints. For other methods of debugging DLLs, see [Debugging DLL projects](../debugger/debugging-dll-projects.md).
 
@@ -108,7 +106,7 @@ Additional tips:
 
 - In some scenarios, you may need to tell the debugger where to find the source code. For more information, see [Use the No Symbols Loaded/No Source Loaded pages](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md#use-the-no-symbols-loadedno-source-loaded-pages).
 
-## See also
+## Related content
 - [Debugging DLL projects](../debugger/debugging-dll-projects.md)
 - [Project settings for  C# debug configurations](../debugger/project-settings-for-csharp-debug-configurations.md)
 - [Project settings for a Visual Basic debug configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)

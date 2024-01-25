@@ -6,11 +6,9 @@ author: ghogen
 manager: jmartens
 ms.topic: how-to
 ms.date: 11/08/2023
-ms.technology: vs-container-tools
+ms.subservice: container-tools
 ---
 # Debug apps in a local Docker container
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio provides a consistent way to develop Docker containers and validate your application locally.
 You can run and debug your apps in Linux or Windows containers running on your local Windows desktop with Docker installed, and you don't have to restart the container each time you make a code change.

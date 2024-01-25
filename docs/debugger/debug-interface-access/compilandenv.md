@@ -10,11 +10,10 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # CompilandEnv
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The compiler may include additional environment variables with symbols. There is one `SymTagCompilandEnv` symbol for each of these variables.
 
 ## Properties

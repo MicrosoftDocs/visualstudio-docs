@@ -18,11 +18,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Excel object model overview
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   To develop solutions that use Microsoft Office Excel, you can interact with the objects provided by the Excel object model. This topic introduces the most important objects:
 
 - <xref:Microsoft.Office.Interop.Excel.Application>

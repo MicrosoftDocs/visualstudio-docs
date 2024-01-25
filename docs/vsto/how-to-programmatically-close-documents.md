@@ -12,11 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Programmatically close documents
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can close the active document or you can specify a document to close.
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]
@@ -69,7 +68,7 @@ ms.technology: office-development
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet4":::
      ---
 
-## See also
+## Related content
 - [How to: Programmatically open existing documents](../vsto/how-to-programmatically-open-existing-documents.md)
 - [How to: Programmatically save documents](../vsto/how-to-programmatically-save-documents.md)
 - [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)

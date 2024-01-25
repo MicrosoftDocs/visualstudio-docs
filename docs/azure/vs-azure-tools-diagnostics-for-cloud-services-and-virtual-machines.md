@@ -1,16 +1,14 @@
 ---
-title: "Diagnostics - Azure Cloud Services & VMs"
+title: "Diagnostics - Azure Cloud Services and VMs"
 description: Learn how to set up diagnostics for debugging Azure cloud services and virtual machines (VMs) in Visual Studio.
 author: ghogen
 manager: jmartens
-ms.technology: vs-azure
+ms.subservice: azure-development
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mikejo
 ---
 # Set up diagnostics for Azure Cloud Services and virtual machines
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
@@ -22,6 +20,10 @@ You can use one of the following options to set up Azure Diagnostics:
 
 * Change diagnostics settings in the **Diagnostics Configuration** dialog box in Visual Studio. The settings are saved in a file called diagnostics.wadcfgx (in Azure SDK 2.4 and earlier, the file is called diagnostics.wadcfg). You also you can directly modify the configuration file. If you manually update the file, the configuration changes take effect the next time you deploy the cloud service to Azure or run the service in the emulator.
 * Use Cloud Explorer or Server Explorer in Visual Studio to change the diagnostics settings for a cloud service or virtual machine that is running.
+
+> [!WARNING]
+> In Visual Studio 2022, the deprecated Azure Storage Emulator was replaced with the [Azurite emulator](/azure/storage/common/storage-use-azurite) when debugging your Cloud Service projects. This Azurite emulator does not work with the Azure Diagnostics plugin, which provides support for Azure Diagnostics when running and testing locally. If you need the plugin for local running and testing scenarios, you can either update the connection string in the local service configuration (`.cscfg`) to an Azure storage account (see [Manage connection strings for storage accounts](vs-azure-tools-configure-roles-for-cloud-service.md#manage-connection-strings-for-storage-accounts)), or download the previous [Azure storage emulator](/azure/storage/common/storage-use-emulator).
+ > In the Visual Studio 17.10 release, the local Azure Diagnostics plugin is being deprecated and will be disabled by default with the option to enable in that release. Due to the deprecation, the plugin might be removed in a future release of Visual Studio. This plugin is only used with the local Azure Compute emulator and disabling doesn't impact deployed Cloud Services that use the Azure Diagnostics extension in Azure.
 
 ## Azure SDK 2.6 diagnostics changes
 The following changes apply to Azure SDK 2.6 and later projects in Visual Studio:

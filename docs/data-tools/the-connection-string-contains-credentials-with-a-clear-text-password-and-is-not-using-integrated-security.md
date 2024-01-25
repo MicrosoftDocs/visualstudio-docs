@@ -6,11 +6,9 @@ ms.topic: error-reference
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # The connection string contains credentials with a clear text password and is not using integrated security
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Do you want to save the connection string to the current DBML file and application configuration files with this sensitive information?  Click **No** to save the connection string without the sensitive information.
 

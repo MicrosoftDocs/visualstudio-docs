@@ -7,12 +7,10 @@ helpviewer_keywords:
 - IntelliTest, Static helper classes
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Static helper classes
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 IntelliTest provides a set of static helper class that can be used when authoring [parameterized unit tests](test-generation.md#parameterized-unit-testing):
 

@@ -1,5 +1,5 @@
 ---
-title: "Debug DLL projects"
+title: Debug dynamic-link library (DLL) files and projects
 description: Debug dynamic-link library (DLL) files in Visual Studio, and use Visual Studio to create, build, configure, and debug DLLs.
 ms.date: "04/18/2022"
 ms.topic: "conceptual"
@@ -16,11 +16,9 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Debug DLLs in Visual Studio (C#, C++, Visual Basic, F#)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A DLL (dynamic-link library) is a library that contains code and data that can be used by more than one app. You can use Visual Studio to create, build, configure, and debug DLLs.
 
@@ -156,7 +154,7 @@ You can write a calling app for a DLL in managed or native code. If your native 
 
 You can also debug a native DLL from a managed calling project. For more information, see [How to debug managed and native code](how-to-debug-managed-and-native-code.md).
 
-## See also
+## Related content
 - [Debug managed code](../debugger/debugging-managed-code.md)
 - [Prepare to debug C++ projects](../debugger/debugging-preparation-visual-cpp-project-types.md)
 - [C#, F#, and Visual Basic project types](../debugger/managed-debugging-recommended-property-settings.md)

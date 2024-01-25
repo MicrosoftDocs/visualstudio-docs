@@ -14,11 +14,9 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Walkthrough: Writing a Visualizer in Visual Basic
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This walkthrough shows how to write a simple visualizer by using Visual Basic. The visualizer you will create in this walkthrough displays the contents of a string using a Windows Forms message box. This simple string visualizer is a basic example to show how you can create visualizers for other data types more applicable to your projects.
 
@@ -220,7 +218,7 @@ In the debugger-side code, you specify the type to visualize (the object source)
 
    If you want to use your visualizer in Visual Studio rather than just calling it from the test harness, you have to install it. For more information, see [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md).
 
-## See also
+## Related content
 
 - [Visualizer Architecture](../debugger/visualizer-architecture.md)
 - [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md)

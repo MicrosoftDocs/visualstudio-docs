@@ -17,11 +17,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Optional parameters in Office solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Many of the methods in the object models of Microsoft Office applications accept optional parameters. If you use Visual Basic to develop an Office solution in Visual Studio, you do not have to pass a value for optional parameters because the default values are automatically used for each missing parameter. In most cases, you can also omit optional parameters in Visual C# projects. However, you cannot omit optional **ref** parameters of the `ThisDocument` class in document-level Word projects.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
@@ -72,6 +71,6 @@ ms.technology: office-development
 
   For more information about value and reference type parameters, see [Pass arguments by value and by reference &#40;Visual Basic&#41;](/dotnet/visual-basic/programming-guide/language-features/procedures/passing-arguments-by-value-and-by-reference) (for Visual Basic) and [Pass parameters &#40;C&#35; programming guide&#41;](/dotnet/csharp/programming-guide/classes-and-structs/passing-parameters).
 
-## See also
+## Related content
 - [Develop Office solutions](../vsto/developing-office-solutions.md)
 - [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)

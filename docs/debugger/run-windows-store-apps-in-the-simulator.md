@@ -11,21 +11,16 @@ dev_langs:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 monikerRange: '<= vs-2019'
 ---
 # Run UWP apps in the simulator
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio simulator for UWP apps is a desktop application that simulates a UWP app. Typically, you will want to debug on the local machine, a connected device, or a remote machine. However, in some scenarios, you may want to use the Visual Studio simulator to emulate a different physical screen size and resolution. You can also simulate common touch and rotation events and simulate network connection properties.
 
 The simulator provides an environment in which you can design, develop, debug, and test UWP apps. However, before you publish your app to Microsoft Store, you should test your app on an actual device.
 
 The Visual Studio simulator for UWP apps does not run in an isolated environment on your local machine. Therefore, errors that occur in the simulator, such as a non-recoverable system-wide error, can also affect the entire machine.
-
-> [!IMPORTANT]
-> The Visual Studio 2015 simulator does not include the geolocation button. This is because the Windows 10 simulator does not include geolocation simulation.
 
 ## <a name="BKMK_Set_the_simulator_as_the_target"></a> Set the simulator as the target
 
@@ -151,6 +146,6 @@ You can navigate the simulator toolbar by pressing **CTRL + ALT + Up Arrow** to 
 
 You can shut down the simulator by pressing **CTRL + ALT + F4**.
 
-## See also
+## Related content
 
 - [Run apps from Visual Studio](debugging-windows-store-and-windows-universal-apps.md)

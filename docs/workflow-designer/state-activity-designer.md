@@ -8,11 +8,9 @@ f1_keywords:
 author: jodavis
 ms.author: jodavis
 manager: jmartens
-ms.technology: vs-workflow-designer
+ms.subservice: workflow-designer
 ---
 # State Activity Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A <xref:System.Activities.Statements.State> represents a state in which a state machine can be in.
 

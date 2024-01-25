@@ -7,11 +7,9 @@ ms.topic: ui-reference
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
+ms.subservice: python
 ---
 # Python Environments window tabs reference in Python Tools for Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To open the **Python Environments** window:
 

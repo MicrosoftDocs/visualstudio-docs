@@ -15,11 +15,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
+ms.subservice: sharepoint-development
 ---
 # Walkthrough: Add feature event receivers
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Feature event receivers are methods that execute when one of the following feature-related events occurs in SharePoint:
 
 - A feature is installed.
@@ -117,7 +116,7 @@ This walkthrough demonstrates how to add an event receiver to a feature in a Sha
 
      Notice that an announcement appears in the **Announcements** list after the feature is deactivated.
 
-## See also
+## Related content
 
 - [How to: Create an event receiver](../sharepoint/how-to-create-an-event-receiver.md)
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)

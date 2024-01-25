@@ -2,8 +2,8 @@
 title: "Change Log (Visual Studio Tools for Unity, Windows)"
 description: View the change log for Visual Studio Tools for Unity, Windows. See changes from version 1.0.0.0 through 4.7.0.0 and beyond.
 ms.date: "6/14/2023"
-ms.technology: vs-unity-tools
-ms.prod: visual-studio
+ms.subservice: unity-tools
+ms.service: visual-studio
 ms.topic: "conceptual"
 author: therealjohn
 ms.author: johmil
@@ -12,6 +12,90 @@ manager: crdun
 # Change log (Visual Studio Tools for Unity, Windows)
 
 Visual Studio Tools for Unity change log.
+
+## 17.8.2.0
+Released November 14, 2023
+
+### Bug fixes
+
+- **Debugging:**
+
+  - Improved support for consts when evaluating.
+
+- **Localization:**
+
+  - Fixed localization issues.
+
+## 17.8.1.0
+Released September 14, 2023
+
+### New Features
+
+- **Integration:**
+
+  - Added [`USP0021`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0021.md), Prefer reference equality.
+
+  - Added support for `TransformAccess` with [`UNT0022`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0022.md) and [`UNT0032`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0032.md)
+
+  - Added [`UNT0036`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0036.md), Inefficient method to get position and rotation.
+
+  - Added [`UNT0037`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0036.md), Inefficient method to get localPosition and localRotation.
+
+### Bug fixes
+
+- **Integration:**
+
+- Fixed [`USP0008`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0008.md) with partial types.
+
+## 17.8.0.0
+Released August 8, 2023
+
+### New Features
+
+- **Integration:**
+
+  - Improved accessibility.
+  
+  - Added alternate local player instance detection.
+
+  - Added support for EditorInstance.json.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed a performance issue forcing a full evaluation of the project context.
+
+  - Fixed a performance issue with images and the UPE.
+
+- **Debugging:**
+
+  - Fixed namespace lookup to walk the namespace hierarchy.
+
+  - Fixed an issue with symbol file path.
+
+## 17.7.0.0
+Released July 25, 2023
+
+### New Features
+
+- **Integration:**
+
+  - Added [`UNT0034`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0034.md), A Vector3 can be converted into a Vector2.
+
+  - Added [`UNT0035`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0034.md), A Vector2 can be converted into a Vector3.
+
+  - Added support for help links for all analyzers.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed localization issues with Russian language.
+
+  - Fixed checkboxes behavior with "Implement Unity Message" dialog.
+
+  - Fixed color and theme issues.
 
 ## 17.6.1.0
 Released May 22, 2023

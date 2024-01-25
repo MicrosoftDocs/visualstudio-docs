@@ -13,11 +13,9 @@ helpviewer_keywords:
 author: jasonchlus
 ms.author: jasonchlus
 manager: jmartens
-ms.technology: vs-help-viewer
+ms.subservice: help-viewer
 ---
 # Find topics in the table of contents
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In the **Contents** tab, you can use the table of contents (TOC) to find information. The table of contents is an expandable list that contains all of the topics in the installed books. For accessibility information about how to navigate through the TOC, see [Shortcut keys (Help Viewer)](../help-viewer/shortcut-keys.md).
 
@@ -45,7 +43,7 @@ If you have opened a topic using the index or full-text search features, you can
 
      The **Contents** tab opens and displays the topic's location in the TOC.
 
-## See also
+## Related content
 
 - [How to: Find topics in the index](../help-viewer/find-topics-index.md)
 - [How to: Search for topics](../help-viewer/find-topics.md)

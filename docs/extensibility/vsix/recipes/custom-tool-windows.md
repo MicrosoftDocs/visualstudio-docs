@@ -6,12 +6,10 @@ ms.topic: conceptual
 author: madskristensen
 ms.author: madsk
 manager: pchapman
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-sdk
+
+ms.subservice: extensibility-integration
 ---
 # Build custom tool windows
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Custom tool windows are great options for adding complex UI to Visual Studio.
 

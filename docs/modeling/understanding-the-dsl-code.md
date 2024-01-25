@@ -8,11 +8,9 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 ---
 # Understanding the DSL Code
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A Domain-Specific Language (DSL) solution generates an API that you can use to read and update instances of the DSL in Visual Studio. This API is defined in the code that is generated from the DSL definition. This topic describes the generated API.
 

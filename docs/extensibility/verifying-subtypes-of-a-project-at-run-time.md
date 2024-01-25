@@ -9,11 +9,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Verify subtypes of a project at run time
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A VSPackage that depends on a custom project subtype should include logic to look for that subtype so that it can fail gracefully if the subtype is not present. The following procedure shows how to verify the presence of a specified subtype.
 
 ### To verify the presence of a subtype
@@ -61,7 +60,7 @@ A VSPackage that depends on a custom project subtype should include logic to loo
     }
     ```
 
-## See also
+## Related content
 - [Project subtypes](../extensibility/internals/project-subtypes.md)
 - [Project subtypes design](../extensibility/internals/project-subtypes-design.md)
 - [Properties and methods extended by project subtypes](../extensibility/internals/properties-and-methods-extended-by-project-subtypes.md)

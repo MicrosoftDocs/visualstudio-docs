@@ -3,7 +3,7 @@ title: Visual Studio Integration (MSBuild)
 titleSuffix: ''
 description: Explore how Visual Studio can host projects in MSBuild format, even if they were authored by different tools and had customized build processes.
 ms.date: 10/20/2021
-ms.topic: conceptual
+ms.topic: overview
 helpviewer_keywords:
 - MSBuild, reference resolution
 - MSBuild, well-known target names
@@ -17,7 +17,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 
 # Visual Studio integration (MSBuild)

@@ -6,13 +6,11 @@ ms.topic: reference
 author: mikadumont
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 dev_langs:
   - CSharp
 ---
 # Convert between auto property and full property
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This refactoring applies to:
 

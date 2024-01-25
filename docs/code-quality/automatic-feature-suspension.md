@@ -12,11 +12,9 @@ helpviewer_keywords:
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-code-analysis
+ms.subservice: code-analysis
 ---
 # Automatic feature suspension
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If your available system memory falls to 200 MB or less, Visual Studio displays the following message in the code editor:
 

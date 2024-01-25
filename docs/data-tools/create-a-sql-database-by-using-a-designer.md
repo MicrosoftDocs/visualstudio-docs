@@ -1,5 +1,5 @@
 ---
-title: Create a database and add tables in .NET Framework applications
+title: Create database, add tables in .NET Framework apps
 description: Create a database with tables and foreign keys in a .NET Framework application by using Table Designer in Visual Studio.
 ms.date: 02/28/2023
 ms.topic: conceptual
@@ -10,11 +10,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Create a database and add tables in .NET Framework applications using Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 

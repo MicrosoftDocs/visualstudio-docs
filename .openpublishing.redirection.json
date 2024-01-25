@@ -1,6 +1,36 @@
 {
   "redirections": [
     {
+
+      "source_path": "docs/azure/vs-active-directory-error.md",
+      "redirect_url": "/visualstudio/azure/vs-active-directory-add-connected-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/data-tools/add-validation-to-an-n-tier-dataset.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/data-tools/add-validation-to-an-n-tier-dataset?view=vs-2017",
+      "redirect_document_id": "false"
+    },
+    
+    {
+      "source_path": "docs/data-tools/add-code-to-tableadapters-in-n-tier-applications.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/data-tools/add-code-to-tableadapters-in-n-tier-applications?view=vs-2017",
+      "redirect_document_id": "false"
+    },
+    
+    {
+      "source_path": "docs/data-tools/separate-datasets-and-tableadapters-into-different-projects.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/data-tools/separate-datasets-and-tableadapters-into-different-projects?view=vs-2017",
+      "redirect_document_id": "false"
+    },
+    
+    {
+      "source_path": "docs/data-tools/add-code-to-datasets-in-n-tier-applications.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/data-tools/add-code-to-datasets-in-n-tier-applications?view=vs-2017",
+      "redirect_document_id": "false"
+    },
+    
+    {
       "source_path": "docs/azure/vs-active-directory-dotnet-getting-started.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-active-directory-dotnet-getting-started?view=vs-2017",
       "redirect_document_id": "false"
@@ -591,6 +621,21 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/code-snippet-functions.md",
+      "redirect_url": "/visualstudio/ide/visual-csharp-code-snippets#code-snippet-functions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/how-to-use-surround-with-code-snippets.md",
+      "redirect_url": "/visualstudio/ide/code-snippets#expansion-snippets-and-surround-with-snippets",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/best-practices-for-using-code-snippets.md",
+      "redirect_url": "/visualstudio/ide/code-snippets#best-practices-for-using-code-snippets",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/dotfuscator/capabilities.md",
       "redirect_url": "/visualstudio/ide/dotfuscator/index",
       "redirect_document_id": false
@@ -1008,6 +1053,41 @@
     {            
       "source_path": "docs/ide/understanding-build-platforms.md",
       "redirect_url": "/visualstudio/ide/how-to-configure-projects-to-target-platforms",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/error-sql-can-t-find-ssdebugps.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-sql-can-t-find-ssdebugps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/warning-script-debugging-disabled.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/warning-script-debugging-disabled",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/walkthrough-debugging-a-web-form.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/walkthrough-debugging-a-web-form",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/remote-debugging-unblock-file-download.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/remote-debugging-unblock-file-download",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/error-debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/edit-and-continue.md",
+      "redirect_url": "/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/stop-code-changes.md",
+      "redirect_url": "/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue",
       "redirect_document_id": false
     },
     {
@@ -1810,6 +1890,11 @@
         "redirect_document_id": false
     },
     {
+      "source_path": "docs/deployment/clickonce-deployment-on-windows-vista.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/deployment/clickonce-deployment-on-windows-vista",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/deployment/troubleshooting-specific-errors-in-clickonce-deployments.md",
       "redirect_url": "/troubleshoot/developer/visualstudio/ide/troubleshoot-clickonce-deployments",
       "redirect_document_id": false
@@ -1850,6 +1935,22 @@
     {
       "source_path": "docs/install/visual-studio-build-numbers-and-release-dates.md",
       "redirect_url": "/visualstudio/releases/2019/history#release-dates-and-build-numbers",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2019"
+    ]
+    },
+    {
+      "source_path": "docs/porting/port-migrate-and-upgrade-visual-studio-projects.md",
+      "redirect_url": "/visualstudio/releases/2022/port-migrate-and-upgrade-visual-studio-projects",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2022"
+    ]
+    },
+    {
+      "source_path": "docs/porting/port-migrate-and-upgrade-visual-studio-projects.md",
+      "redirect_url": "/visualstudio/releases/2019/port-migrate-and-upgrade-visual-studio-projects",
       "redirect_document_id": false,
       "monikers": [
         "vs-2019"
@@ -1926,7 +2027,6 @@
       "redirect_url": "/troubleshoot/developer/visualstudio/tools-utilities/troubleshooting-office-solution-security",
       "redirect_document_id": false
     },
-
     {
       "source_path": "docs/debugger/troubleshoot-data-breakpoint-errors.md",
       "redirect_url": "visualstudio/debugger/troubleshooting-breakpoints",
@@ -7495,6 +7595,11 @@
     {
       "source_path": "docs/install/visual-studio-enterprise-guide.md",
       "redirect_url": "/visualstudio/install/visual-studio-administrator-guide",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/modeling/how-to-migrate-a-domain-specific-language-to-a-new-version.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/modeling/how-to-migrate-a-domain-specific-language-to-a-new-version",
       "redirect_document_id": false
     },
     {
@@ -19175,6 +19280,16 @@
       "source_path": "subscriptions/anonymization.md",
       "redirect_url": "/visualstudio/subscriptions/subscription-removed",
       "redirect_document_id": false
-    }           
+    },
+    {
+      "source_path": "docs/vsto/working-with-workbooks.md",
+      "redirect_url": "/visualstudio/vsto/how-to-programmatically-create-new-workbooks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/vsto/working-with-worksheets.md",
+      "redirect_url": "/visualstudio/vsto/how-to-programmatically-add-new-worksheets-to-workbooks",
+      "redirect_document_id": false
+    }   
   ]
 }

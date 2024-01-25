@@ -1,5 +1,5 @@
 ---
-title: Refactoring
+title: Refactoring for different programming languages
 description: Review popular refactoring scenarios in Visual Studio, including operations available for different programming languages with examples.
 ms.date: 01/10/2018
 ms.topic: conceptual
@@ -11,11 +11,9 @@ ms.devlang: CSharp
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Refactor code
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Refactoring is the process of modifying code in order to make it easier to maintain, understand, and extend, but without changing its behavior.
 

@@ -11,11 +11,10 @@ dev_langs:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Error: You do not have permission to inspect the process&#39;s identity
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You do not have permission to inspect the process's identity. This may be due to your system's configuration.
 
  The debugger was not able to inspect the process identity, which is necessary information for debugging. The most likely cause is Terminal Services being disabled. Terminal Services service is enabled by default. Follow these steps to re-enable it.

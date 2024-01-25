@@ -6,11 +6,9 @@ ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 ---
 # Debug and analyze unit tests with Test Explorer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use Test Explorer to start a debugging session for your tests. Stepping through your code with the Visual Studio debugger seamlessly takes you back and forth between the unit tests and the project under test. To start debugging:
 
@@ -37,7 +35,7 @@ To diagnose why a test method is taking too much time, select the method in Test
 > [!NOTE]
 > This feature is not currently supported for .NET Core.
 
-## See also
+## Related content
 
 - [Unit test your code](../test/unit-test-your-code.md)
 - [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)

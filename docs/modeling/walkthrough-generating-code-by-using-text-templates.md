@@ -9,11 +9,9 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 ---
 # Walkthrough: Generate Code by using Text Templates
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Code generation allows you to produce program code that is strongly typed, and yet can be easily changed when the source model changes. Contrast this with the alternative technique of writing a completely generic program that accepts a configuration file, which is more flexible, but results in code that is neither so easy to read and change, nor has such good performance. This walkthrough demonstrates this benefit.
 

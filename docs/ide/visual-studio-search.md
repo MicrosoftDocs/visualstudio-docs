@@ -1,5 +1,5 @@
 ---
-title: Use Visual Studio search
+title: Use Visual Studio search to find code & do queries
 description: Explore the Visual Studio search feature and discover how to find settings, menus, code, and work with filters, queries, and more.
 ms.date: 08/08/2023
 ms.topic: how-to
@@ -16,11 +16,9 @@ monikerRange: ">=vs-2019"
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Use Visual Studio search
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio integrated development environment (IDE) has many menus, options, and features, which can be difficult to remember. The Visual Studio search feature is a single search box that helps developers find IDE menus and options, while also searching your code. Whether you're new to Visual Studio or an experienced developer, this feature offers a quick way to search across IDE features and your code.
 

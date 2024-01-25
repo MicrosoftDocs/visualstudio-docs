@@ -1,5 +1,5 @@
 ---
-title: Design Windows Forms apps
+title: Design Windows Forms applications
 description: 'Explore Windows Forms Designer in Visual Studio for rapid application development: arrange controls, set margins and padding, adjust layout, size, and display.'
 ms.date: 08/09/2019
 ms.topic: overview
@@ -8,11 +8,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-designers
+ms.subservice: ui-designers
 ---
 # Windows Forms Designer overview
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Windows Forms Designer in Visual Studio provides a rapid development solution for creating Windows Forms-based applications. Windows Forms Designer lets you easily add controls to a form, arrange them, and write code for their events. For more information about Windows Forms, see [Windows Forms overview](/dotnet/framework/winforms/windows-forms-overview).
 

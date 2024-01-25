@@ -2,7 +2,7 @@
 title: CustomDataSignature Element (Visual Studio Templates)
 description: Learn about the CustomDataSignature element and how it specifies the text signature to locate the custom data.
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 helpviewer_keywords:
 - <CustomDataSignature> Element (Visual Studio Templates)
@@ -13,7 +13,6 @@ manager: jmartens
 ---
 # CustomDataSignature element (Visual Studio templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the text signature to locate the custom data.
 
  \<VSTemplate>

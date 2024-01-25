@@ -1,17 +1,15 @@
 ---
-title: Showing progress
+title: Explore types of progress bars
 description: Explore the different types of progress bars for backgrounds tasks in Visual Studio extensions and understand when to use each of them.
 ms.date: 12/01/2021
 ms.topic: conceptual
 author: madskristensen
 ms.author: madsk
 manager: pchapman
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-sdk
+
+ms.subservice: extensibility-integration
 ---
 # Progress bars for backgrounds tasks in Visual Studio extensions
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 There are several ways to show progress of a running background task in Visual Studio. Here's how to use progress bars from your own extensions.
 
@@ -104,6 +102,6 @@ private async Task LongRunningTaskAsync(TaskProgressData data, ITaskHandler hand
 }
 ```
 
-## Other resources
+## Related content
 
 * [Task Status Center API reference](/dotnet/api/microsoft.visualstudio.taskstatuscenter)

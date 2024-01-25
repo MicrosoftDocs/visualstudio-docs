@@ -9,11 +9,9 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Provide automation for windows
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can provide automation for document and tool windows. Providing automation is advisable whenever you want to make automation objects available on a window, and the environment does not already provide a ready-made automation object, as it does with a task list.
 
@@ -35,6 +33,6 @@ A standard <xref:EnvDTE.Document> object is also available from the environment,
 
 In addition, an editor can provide a VSPackage-specific automation object, retrieved through the <xref:EnvDTE.Document.Object%2A> method, by implementing the `IVsExtensibleObject` or `IExtensibleObject` interfaces. The [VSSDK samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples) contributes an RTF document-specific automation object.
 
-## See also
+## Related content
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsExtensibleObject>

@@ -1,5 +1,5 @@
 ---
-title: 'Walkthrough: Creating an N-tier Data Application with ADO.NET and the .NET Framework'
+title: Create N-tier data app in ADO.NET (.NET Framework)
 description: Create an N-tier data application with ADO.NET and the .NET Framework in Visual Studio and access data separated into multiple logical layers or tiers.
 ms.date: 11/01/2023
 ms.topic: conceptual
@@ -12,11 +12,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Walkthrough: Create an n-tier data application with ADO.NET and the .NET Framework
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -422,7 +420,7 @@ Depending on your application requirements, there are several steps that you may
 
 - Add additional methods to the service for updating data back to the database.
 
-## See also
+## Related content
 
 - [Work with datasets in n-tier applications](../data-tools/work-with-datasets-in-n-tier-applications.md)
 - [Hierarchical update](../data-tools/hierarchical-update.md)

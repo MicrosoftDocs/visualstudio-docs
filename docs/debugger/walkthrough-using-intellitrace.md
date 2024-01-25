@@ -6,11 +6,9 @@ ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # View events with IntelliTrace in Visual Studio Enterprise (C#, Visual Basic)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use IntelliTrace to collect information about specific events or categories of events, or about individual function calls in addition to events. The following procedures show how to do this.
 
@@ -57,13 +55,9 @@ You can try debugging with just IntelliTrace events. IntelliTrace events are deb
 
     In the **Diagnostic Tools** window, find the **Events** tab (You should see 3 tabs, **Events**, **Memory Usage**, and **CPU Usage**). The **Events** tab shows a chronological list of events, ending with the last event before the debugger broke execution. You should see an event named **Access WordSearchInputs.txt**.
 
-    The following screenshot is from Visual Studio 2015 Update 1.
-
     ![Screenshot of the Visual Studio code window. Execution is stopped at a breakpoint and the Events tab in the Diagnostic Tools window lists events.](../debugger/media/intellitrace-update1.png)
 
 3. Select the event to expand its details.
-
-    The following screenshot is from Visual Studio 2015 Update 1.
 
     ![Screenshot of the Events tab in the Visual Studio Diagnostic Tools window. An event is selected and expanded to show it's details.](../debugger/media/intellitraceupdate1-singleevent.png)
 
@@ -71,13 +65,11 @@ You can try debugging with just IntelliTrace events. IntelliTrace events are deb
 
     Click **Activate Historical Debugging**, which sets the debugger's context to the time when the selected event was collected, showing historical data in the **Call Stack**, **Locals** and the other participating debugger windows. If source code is available, Visual Studio moves the pointer to the corresponding code in the source window so you can examine it.
 
-    The following screenshot is from Visual Studio 2015 Update 1.
-
     ![Screenshot of the Visual Studio code window. Execution is stopped at a breakpoint, an event is selected, and the corresponding code line is highlighted.](../debugger/media/historicaldebugging-update1.png)
 
 4. If you didn't find the bug, try examining other events leading up to the bug. You can also have IntelliTrace record call information so you can step through function calls.
 
-## Next Steps
+## Related content
 
 You can use some of the advanced features of IntelliTrace with historical debugging:
 

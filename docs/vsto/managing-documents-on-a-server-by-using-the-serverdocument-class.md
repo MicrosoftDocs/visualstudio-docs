@@ -14,11 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Manage documents on a server by using the ServerDocument class
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can use the `ServerDocument` class in the  Visual Studio Tools for Office runtime  to manage several aspects of document-level customizations, even if Microsoft Office Word and Microsoft Office Excel are not installed. You can perform the following tasks:
 
 - Access and modify data in the data cache of a document or workbook. For more information, see [Work with cached data in the document](#CachedData).
@@ -59,7 +58,7 @@ ms.technology: office-development
 |To programmatically remove a customization from a document at run time.<br /><br /> For more information, see [How to: Remove managed code Extensions from documents](../vsto/how-to-remove-managed-code-extensions-from-documents.md).|The <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument.RemoveCustomization%2A> method.|
 |To get the URL of the deployment manifest that is associated with the document.|The <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument.DeploymentManifestUrl%2A> property.|
 
-## See also
+## Related content
 - [How to: Attach managed code extensions to documents](../vsto/how-to-attach-managed-code-extensions-to-documents.md)
 - [How to: Remove managed code extensions from documents](../vsto/how-to-remove-managed-code-extensions-from-documents.md)
 - [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)

@@ -14,11 +14,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Examine System Code After an Exception
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When an exception occurs, you might have to examine code inside a system call to determine the cause of the exception. The following procedure explains how to do this if you do not have symbols loaded for the system code or if Just My Code is enabled.
 
 ### To examine system code following an exception
@@ -37,5 +36,5 @@ When an exception occurs, you might have to examine code inside a system call to
 
 4. You can now examine the system code in the **Call Stack** window and other windows. For example, you can double-click a call stack frame to view the code in a source or **Disassembly** window.
 
-## See also
+## Related content
 - [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)

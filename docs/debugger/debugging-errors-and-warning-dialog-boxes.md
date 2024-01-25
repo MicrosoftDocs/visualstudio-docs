@@ -19,11 +19,10 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Debugging Errors and Warning Dialog Boxes
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Below are the errors and warning dialog boxes you may encounter while debugging your application.
 
 ## In This Section
@@ -51,7 +50,7 @@ Below are the errors and warning dialog boxes you may encounter while debugging 
 
  [Unable to Connect to the Machine](../debugger/error-unable-to-connect-to-the-machine-name-the-machine-cannot-be-found-on-the-network.md)
 
- [Error: Debugging Isn't Possible Because a Kernel Debugger is Enabled on the System](../debugger/error-debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system.md)
+ [Error: Debugging Isn't Possible Because a Kernel Debugger is Enabled on the System](/previous-versions/visualstudio/visual-studio-2017/debugger/error-debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system)
 
 ## Related Sections
  [Debugging Script and Web: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)

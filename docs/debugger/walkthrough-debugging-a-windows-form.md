@@ -19,11 +19,10 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Walkthrough: Debugging a Windows Form
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A Windows Form is one of the most common managed applications. A Windows Form creates a standard Windows application. You can complete this walkthrough using Visual Basic, C#, or C++.
 
  First, you must close any open solutions.
@@ -188,6 +187,6 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
 
      The debugger breaks execution of the Windows Form at the breakpoint.
 
-## See also
+## Related content
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)
 - [Debugger Security](../debugger/debugger-security.md)

@@ -1,5 +1,5 @@
 ---
-title: "Deploying a VSTO Solution Using Windows Installer"
+title: Deploy a VSTO Solution with Windows Installer (Visual Studio)
 description: Deploy a Microsoft Visual Studio Tools for Office (VSTO) add-in or document-level solution by using a Visual Studio Installer project.
 titleSuffix: ""
 ms.date: "08/18/2010"
@@ -18,11 +18,9 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Deploying a VSTO Solution Using Windows Installer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ## Summary
 
@@ -35,7 +33,6 @@ Ted Pattison, Ted Pattison Group
 This article was updated by Microsoft with permission from the original authors.
 
 **Applies to:** Visual Studio Tools for Office, Microsoft Office, Microsoft Visual Studio.
-
 
 
 You can develop a VSTO solution and deploy the solution by using a Windows Installer package. This discussion includes steps for deploying a simple Office Add-in.

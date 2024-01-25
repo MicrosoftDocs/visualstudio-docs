@@ -13,11 +13,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
+ms.subservice: sharepoint-development
 ---
 # Walkthrough: Import items from an existing SharePoint site
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This walkthrough demonstrates how to import items from an existing SharePoint site into a Visual Studio SharePoint project.
 
  This walkthrough demonstrates the following tasks:
@@ -137,7 +136,7 @@ ms.technology: sharepoint-development
 
      Notice that the custom site column that you imported from the first SharePoint site appears in the list.
 
-## See also
+## Related content
 - [Import items from an existing SharePoint site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
 - [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)

@@ -1,5 +1,5 @@
 ---
-title: Start Spy++
+title: Start the Spy++ tool to debug a solution
 description: Explore the Spy++ tool in Visual Studio for debugging a solution and start the tool from the integrated development environment (IDE) or from a command prompt.
 ms.date: 02/22/2023
 ms.topic: how-to
@@ -8,11 +8,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Start Spy++
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can start Spy++ either from Visual Studio or at a command prompt.
 
@@ -47,7 +45,7 @@ Because Spy++ runs independently, after you start it you can close Visual Studio
 
 For more information on the 32-bit and 64-bit version of Spy++, see [64-bit operating systems](../debugger/introducing-spy-increment.md#64-bit-operating-systems).
 
-## See also
+## Related content
 
 - [Using Spy++](../debugger/using-spy-increment.md)
 - [Spy++ Views](../debugger/spy-increment-views.md)

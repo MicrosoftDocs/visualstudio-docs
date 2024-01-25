@@ -10,11 +10,9 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Common patterns for poorly-behaved multithreaded applications
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Concurrency Visualizer helps developers to visualize the behavior of a multithreaded application. This tool includes a gallery of common patterns for multithreaded applications that behave badly. The gallery includes typical and recognizable visual patterns that are exposed through the tool, together with an explanation of the behavior that is represented by each pattern, the likely result of that behavior, and the most common approach to resolve it.
 
@@ -26,7 +24,7 @@ Sometimes a parallelized application stubbornly continues to execute serially ev
 
 As shown in the following illustration, the Concurrency Visualizer can also expose this symptom in the CPU Utilization View, where, despite the presence of multiple threads, the application consumes only one logical core.
 
-For more information, see the "Start with the problem section" in the MSDN Magazine article [Thread Performance - Resource Contention Concurrency Profiling in Visual Studio 2010](/archive/msdn-magazine/2010/june/msdn-magazine-thread-performance-resource-contention-concurrency-profiling-in-visual-studio-2010).
+For more information, see the "Start with the problem section" in the MSDN Magazine article [Thread Performance - Resource Contention Concurrency Profiling in Visual Studio](/archive/msdn-magazine/2010/june/msdn-magazine-thread-performance-resource-contention-concurrency-profiling-in-visual-studio-2010).
 
 ![Lock Contention](../profiling/media/lockcontention_2.png "LockContention_2")
 

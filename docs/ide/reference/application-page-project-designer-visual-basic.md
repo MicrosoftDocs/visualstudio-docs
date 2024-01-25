@@ -12,11 +12,9 @@ helpviewer_keywords:
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Application Page, Project Designer (Visual Basic)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Application** page of the Project Designer to specify a project's application settings and properties.
 
@@ -112,8 +110,6 @@ Click this button to generate and open the *app.manifest* file. Visual Studio us
 
 ClickOnce works with a level of `asInvoker` or in virtualized mode (no manifest generation). To specify virtualized mode, remove the entire tag from app.manifest.
 
-For more information about manifest generation, see [ClickOnce Deployment on Windows Vista](../../deployment/clickonce-deployment-on-windows-vista.md).
-
 ## Windows application framework properties
 
 The following settings are available in the **Windows application framework properties** section. These options are available only if the **Enable application framework** check box is selected.
@@ -121,9 +117,9 @@ The following settings are available in the **Windows application framework prop
 > [!TIP]
 > The section following this one describes **Windows application framework properties** settings specific to Windows Presentation Foundation (WPF) apps.
 
-### Enable XP visual styles
+### Enable Windows visual styles
 
-Enables or disables the Windows XP visual styles, also known as *Windows XP Themes*. Windows XP visual styles enable, for example, controls with rounded corners and dynamic colors. The default is enabled.
+Enables or disables the Windows visual styles, also known as *Windows Themes*. Windows visual styles enable, for example, controls with rounded corners and dynamic colors. The default is enabled.
 
 ### Make single instance application
 

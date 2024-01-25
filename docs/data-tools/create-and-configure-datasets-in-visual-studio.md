@@ -1,7 +1,7 @@
 ---
-title: Create and configure datasets in .NET Framework applications
+title: Create & configure datasets in .NET Framework apps
 description: Create and configure datasets in .NET Framework applications with ADO.NET in Visual Studio and the Data Source Configuration Wizard.
-ms.date: 10/07/2022
+ms.date: 12/15/2023
 ms.topic: how-to
 helpviewer_keywords:
 - typed datasets, creating
@@ -10,11 +10,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Create and configure  datasets in the .NET Framework using Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 

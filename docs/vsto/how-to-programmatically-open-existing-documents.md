@@ -12,11 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Programmatically open existing documents
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The <xref:Microsoft.Office.Interop.Word.Documents.Open%2A> method opens the existing Microsoft Office Word document specified by a fully qualified path and file name. This method returns a <xref:Microsoft.Office.Interop.Word.Document> that represents the opened document.
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]
@@ -48,7 +47,7 @@ ms.technology: office-development
 
 - A document named *NewDocument.doc* must exist in a directory named *Test* on drive C.
 
-## See also
+## Related content
 - [How to: Programmatically create new documents](../vsto/how-to-programmatically-create-new-documents.md)
 - [How to: Programmatically close documents](../vsto/how-to-programmatically-close-documents.md)
 - [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)

@@ -13,11 +13,9 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Using saved IntelliTrace data (C#, Visual Basic, C++)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Go to specific points in your application's execution when you start debugging from an IntelliTrace log (.iTrace) file. This file can contain performance events, exceptions, threads, test steps, modules, and other system info that IntelliTrace records while your app runs.
 
@@ -260,6 +258,3 @@ Go to specific points in your application's execution when you start debugging f
 
 #### Forums
  [Visual Studio Debugger](https://social.msdn.microsoft.com/Forums/en-US/home)
-
-#### Guidance
- [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 6: A Testing Toolbox](/previous-versions/msp-n-p/jj159337(v=pandp.10))

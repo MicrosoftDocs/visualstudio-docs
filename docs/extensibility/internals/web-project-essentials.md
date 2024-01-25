@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Web Project Essentials
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Web projects create Web applications. You can use a Web project to create a Web application that has smart Web pages. A smart Web page has server-side code that renders the Web page on demand.
 
  Using traditional programming languages, such as Visual Basic or Visual C#, you can create smart Web pages to collect and process information from a user, store it in a database, and so on.
@@ -52,5 +51,5 @@ Web projects create Web applications. You can use a Web project to create a Web 
 
   - Error markers (red squigglies) should always be created in the code editor's primary buffer.
 
-## See also
+## Related content
 - [Web Projects](../../extensibility/internals/web-projects.md)

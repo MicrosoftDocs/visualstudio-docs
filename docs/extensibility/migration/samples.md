@@ -6,13 +6,11 @@ ms.topic: sample
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 monikerRange: "vs-2022"
 feedback_system: GitHub
 ---
 # ImageOptimizer - Update a Visual Studio extension step by step
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This guide will show all the steps required for adding Visual Studio 2022 support while maintaining Visual Studio 2019 support using the Image Optimizer extension as a case study.  
 This is meant to be a thorough guide with git commit links to each step, but you are free to see the finalized PR here: 

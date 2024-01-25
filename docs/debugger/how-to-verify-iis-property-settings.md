@@ -17,16 +17,14 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Verify IIS Property Settings
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can set the properties for a Web application using the IIS administration tool. These properties must be set correctly for the application to run, so verifying these settings is often a necessary step in troubleshooting.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../ide/environment-settings.md#reset-settings).
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset all settings](../ide/environment-settings.md#reset-all-settings).
 
 ## To check IIS settings for the Web application
 
@@ -72,6 +70,6 @@ You can set the properties for a Web application using the IIS administration to
 
 9. Click **OK** to close the **Internet Information Services (IIS) Manager**, **Internet Services Manager**, or **Internet Information Services** dialog box.
 
-## See also
+## Related content
 
 - [Troubleshooting](../debugger/debugging-web-applications-troubleshooting.md)

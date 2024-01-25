@@ -40,11 +40,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Office projects in the Visual Studio environment
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Microsoft Office projects have a development experience that is similar to other types of projects in Visual Studio, such as Windows Forms projects. When you create or open an Office project, the project items appear in **Solution Explorer**. For document-level projects, the document (that is, the Word document or Excel workbook) opens in Visual Studio, and the document behaves as a visual designer.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
@@ -114,7 +113,7 @@ ms.technology: office-development
 ## Data Sources window
  You can use the **Data Sources** window in document-level Office projects to drag a data source onto your document and create a control that is bound to the data source. For more information, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md).
 
-## See also
+## Related content
 
 - [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
 - [Office project templates overview](../vsto/office-project-templates-overview.md)

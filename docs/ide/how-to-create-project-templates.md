@@ -1,5 +1,5 @@
 ---
-title: Create project templates
+title: Create project templates with wizard or XML file
 description: Create project templates in Visual Studio with the Export Template Wizard, or by grouping the project files and using a .vstemplate XML file.
 ms.date: 12/20/2022
 ms.topic: how-to
@@ -10,11 +10,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Create project templates
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article shows you how to create a template by using the **Export Template Wizard**, which packages your template in a *.zip* file.
 

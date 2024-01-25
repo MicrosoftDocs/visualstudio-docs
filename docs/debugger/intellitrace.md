@@ -1,5 +1,5 @@
 ---
-title: "IntelliTrace"
+title: Record code execution history with IntelliTrace
 description: Use IntelliTrace to record and trace your code's execution history in Visual Studio. Record specific events, examine related code, and debug errors.
 ms.date: "09/19/2018"
 ms.topic: "conceptual"
@@ -17,11 +17,9 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # IntelliTrace for Visual Studio Enterprise (C#, Visual Basic, C++)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can spend less time debugging your application when you use IntelliTrace to record and trace your code's execution history. You can find bugs easily because IntelliTrace lets you:
 
@@ -64,7 +62,10 @@ You can save IntelliTrace data from these sources:
 
 - An IntelliTrace session in Visual Studio 2015 Enterprise or later versions, or previous versions of Visual Studio Ultimate.
 
-- ASP.NET web apps hosted on IIS, or SharePoint 2010 and SharePoint 2013 applications running in deployment when you use Microsoft Monitoring Agent, either alone or with System Center 2012. See [Use the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md) and [Monitoring with Microsoft Monitoring Agent](/previous-versions/system-center/system-center-2012-R2/dn465153(v=sc.12)).
+- ASP.NET web apps hosted on IIS, or SharePoint applications running in deployment when you use Microsoft Monitoring Agent, either alone or with System Center 2012. See [Use the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md) and [Monitoring with Microsoft Monitoring Agent](/previous-versions/system-center/system-center-2012-R2/dn465153(v=sc.12)).
+
+  > [!IMPORTANT]
+  > Use of Microsoft Monitoring Agent (MMA) with IntelliTrace is no longer supported when Microsoft Monitoring Agent reaches end-of-life on August 31, 2024. For more information, see [Migrate to Azure Monitor Agent from Log Analytics agent](/azure/azure-monitor/agents/azure-monitor-agent-migration).
 
 Here are some examples of how IntelliTrace can help you with debugging:
 

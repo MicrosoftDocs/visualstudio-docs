@@ -17,13 +17,17 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Edit and Continue (Visual Basic)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+::: moniker range=">=vs-2022"
+Hot Reload, previously called Edit and Continue, is a feature for Visual Basic debugging that enables you to change your code while it is executing in Break mode. After code edits have been applied, you can resume code execution with the new edits in place and see the effect.
+::: moniker-end
 
+::: moniker range="vs-2019"
 Edit and Continue is a feature for Visual Basic debugging that enables you to change your code while it is executing in Break mode. After code edits have been applied, you can resume code execution with the new edits in place and see the effect.
+::: moniker-end
 
 You can use the Edit and Continue feature whenever you enter Break mode. In Break mode, the instruction pointer, a yellow arrowhead in the source window, points to the line containing an executable statement in a method or property body that will be executed next.
 
@@ -62,7 +66,7 @@ To edit code in Break mode:
 
      Your code now executes with your applied edits incorporated into the project.
 
-## Related Sections
+## Related content
 
 - [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md)
 

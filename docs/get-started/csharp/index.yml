@@ -12,8 +12,8 @@ metadata:
   author: ghogen
   ms.author: ghogen  
   manager: jmartens
-  ms.prod: visual-studio-windows
-  ms.technology: vs-acquisition  
+  
+  ms.subservice: vs-acquisition  
   dev_langs:
     - CSharp
 
@@ -25,7 +25,7 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Install Visual Studio
+          - text: Download and install Visual Studio
             url: ../../install/install-visual-studio.md
       - linkListType: get-started
         links:

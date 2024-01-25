@@ -2,7 +2,7 @@
 title: TemplateGroupID Element (Visual Studio Templates)
 description: Learn about the TemplateGroupID element and how it specifies what kind of project an item templates will show up in.
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#TemplateGroupID
@@ -15,7 +15,6 @@ manager: jmartens
 ---
 # TemplateGroupID Element (Visual Studio Templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies what kind of project an item templates will show up in. This element is significant when [ShowByDefault (Visual Studio Templates)](../extensibility/showbydefault-visual-studio-templates.md) is set to `false`. When [ShowByDefault (Visual Studio Templates)](../extensibility/showbydefault-visual-studio-templates.md) is set to `true`, then an item template is available in all project types.
 
  \<VSTemplate>

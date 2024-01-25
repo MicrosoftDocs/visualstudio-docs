@@ -1,6 +1,6 @@
 ---
 title: "How to use managed identity with Bridge to Kubernetes"
-ms.technology: bridge
+ms.subservice: bridge
 ms.date: 08/11/2022
 ms.topic: "conceptual"
 description: "Learn how to use Microsoft Entra managed identity in an AKS cluster with Bridge to Kubernetes"

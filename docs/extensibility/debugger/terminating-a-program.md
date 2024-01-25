@@ -9,11 +9,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Terminating a program
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following section describes the termination of a single program with one thread.
 
 ## Termination process
@@ -24,5 +23,5 @@ The following section describes the termination of a single program with one thr
 
    The IDE goes into design mode. The debug engine or run-time environment calls [IDebugPortNotify2::RemoveProgramNode](../../extensibility/debugger/reference/idebugportnotify2-removeprogramnode.md) to remove the program from the port.
 
-## See also
+## Related content
 - [Calling debugger events](../../extensibility/debugger/calling-debugger-events.md)

@@ -1,5 +1,5 @@
 ---
-title: "Add Actions pane to Word documents or Excel workbooks"
+title: Add Actions pane to Word docs or Excel workbooks
 description: Add an actions pane to a Microsoft Office Word document or a Microsoft Excel workbook, by first creating a Windows Forms user control.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -14,11 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Add an Actions Pane to Word Documents or Excel Workbooks
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   To add an actions pane to a Microsoft Office Word document or a Microsoft Excel workbook, first create a Windows Forms user control. Then, add the user control to the <xref:Microsoft.Office.Tools.ActionsPane.Controls%2A> property of the `ThisDocument.ActionsPane` field (Word) or `ThisWorkbook.ActionsPane` field (Excel) in your project.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
@@ -83,7 +82,7 @@ ms.technology: office-development
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb" id="Snippet15":::
      ---
 
-## See also
+## Related content
 - [Actions pane overview](../vsto/actions-pane-overview.md)
 - [Walkthrough: Insert text into a document from an actions pane](../vsto/walkthrough-inserting-text-into-a-document-from-an-actions-pane.md)
 - [How to: Manage control layout on actions panes](../vsto/how-to-manage-control-layout-on-actions-panes.md)

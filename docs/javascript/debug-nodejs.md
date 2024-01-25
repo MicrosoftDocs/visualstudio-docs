@@ -7,13 +7,11 @@ ms.devlang: javascript
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
 ---
 # Debug a JavaScript or TypeScript app in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can debug JavaScript and TypeScript code using Visual Studio. You can hit breakpoints, attach the debugger, inspect variables, view the call stack, and use other debugging features.
 
@@ -44,7 +42,7 @@ Visual Studio provides client-side debugging support only for Chrome and Microso
 
 - For debugging client-side script in ASP.NET apps, choose **Tools** > **Options** > **Debugging**, and then select **Enable JavaScript Debugging for ASP.NET (Chrome, Edge, and IE)**.
 
-  For more detailed information, see the blog post [Debug JavaScript in Microsoft Edge](https://devblogs.microsoft.com/visualstudio/debug-javascript-in-microsoft-edge-from-visual-studio/) and this [post for Google Chrome](https://devblogs.microsoft.com/aspnet/client-side-debugging-of-asp-net-projects-in-google-chrome). For debugging TypeScript in ASP.NET Core, see [Create an ASP.NET Core app with TypeScript](tutorial-aspnet-with-typescript.md).
+  For more detailed information, see the blog post [Debug JavaScript in Microsoft Edge](https://devblogs.microsoft.com/visualstudio/debug-javascript-in-microsoft-edge-from-visual-studio/) and this [post for Google Chrome](https://devblogs.microsoft.com/aspnet/client-side-debugging-of-asp-net-projects-in-google-chrome). For debugging TypeScript in ASP.NET Core, see [Add TypeScript to an existing ASP.NET Core app](tutorial-aspnet-with-typescript.md).
 
 - For Node.js applications and other JavaScript projects, follow the steps described here.
 

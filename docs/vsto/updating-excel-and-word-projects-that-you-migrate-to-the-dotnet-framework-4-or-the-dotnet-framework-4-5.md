@@ -12,11 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Update Excel and Word projects that You migrate to the .NET Framework 4.5
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   If you have an Excel or Word project that uses any of the following features, you must modify your code if the target framework is changed to the .NET Framework 4 or later:
 
 - [GetVstoObject and HasVstoObject methods](#GetVstoObject)
@@ -250,7 +249,7 @@ End Sub
 
  In projects that target the .NET Framework 4 or later, these collection types are now interfaces that do not derive from <xref:System.Collections.CollectionBase>. Some members are no longer available on these collection types, such as <xref:System.Collections.CollectionBase.Capacity%2A>, <xref:System.Collections.CollectionBase.List%2A>, and <xref:System.Collections.CollectionBase.InnerList%2A>.
 
-## See also
+## Related content
 - [Migrate Office solutions to the .NET Framework 4 or later](../vsto/migrating-office-solutions-to-the-dotnet-framework-4-or-later.md)
 - [Content controls](../vsto/content-controls.md)
 - [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)

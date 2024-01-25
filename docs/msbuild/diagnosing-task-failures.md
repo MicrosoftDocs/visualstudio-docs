@@ -1,5 +1,5 @@
 ---
-title: Diagnosing task failures
+title: Diagnose MSBuild task failures
 description: Diagnose MSBuild task failures by identifying the failing task, the tool name, and other information for troubleshooting.
 ms.date: 03/14/2023
 ms.topic: how-to
@@ -12,7 +12,7 @@ dev_langs:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # Diagnose MSBuild task failures
 

@@ -12,12 +12,10 @@ helpviewer_keywords:
   - data-driven unit tests
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Create a data-driven unit test
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use the Microsoft unit test framework (MSTest) for managed code to set up a unit test method to retrieve values from a data source. The method is run successively for each row in the data source, which makes it easy to test a variety of input by using a single method.
 
@@ -235,7 +233,7 @@ If you ran any of the `AddIntegers_FromDataRowTest`, `AddIntegers_FromDynamicDat
 
 When the method under test is corrected and the test rerun, the results bar turns green and the test method is moved to the **Passed Test** group.
 
-## See also
+## Related content
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute?displayProperty=fullName>
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext?displayProperty=fullName>

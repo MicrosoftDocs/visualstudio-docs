@@ -14,13 +14,11 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 ---
 # Code Generation and T4 Text Templates
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
-In Visual Studio, a *T4 text template* is a mixture of text blocks and control logic that can generate a text file. The control logic is written as fragments of program code in Visual C# or Visual Basic. In Visual Studio 2015 Update 2 and later, you can use C# version 6.0 features in T4 templates directives. The generated file can be text, such as a web page, or a resource file, or program source code in any language.
+In Visual Studio, a *T4 text template* is a mixture of text blocks and control logic that can generate a text file. The control logic is written as fragments of program code in Visual C# or Visual Basic. You can use C# version 6.0 features in T4 templates directives. The generated file can be text, such as a web page, or a resource file, or program source code in any language.
 
 For a domain-specific language(DSL), designed to express statements in a particular problem space, learn how to [Generate Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)
 

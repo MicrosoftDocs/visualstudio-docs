@@ -9,11 +9,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Get a port
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A port represents a connection to a machine on which processes are running. That machine could be the local machine or a remote machine (which could possibly be running a non-Windows-based operating system; see [Ports](../../extensibility/debugger/ports.md) for more information).
 
 A port is represented by the [IDebugPort2](../../extensibility/debugger/reference/idebugport2.md) interface. It is used to obtain information about processes running on the machine the port is connected to.
@@ -91,7 +90,7 @@ HRESULT CDebugEngine::ResumeProcess(IDebugProcess2 *pDebugProcess)
 }
 ```
 
-## See also
+## Related content
 - [Registering the program](../../extensibility/debugger/registering-the-program.md)
 - [Enabling a program to be debugged](../../extensibility/debugger/enabling-a-program-to-be-debugged.md)
 - [Port suppliers](../../extensibility/debugger/port-suppliers.md)

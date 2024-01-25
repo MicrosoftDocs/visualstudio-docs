@@ -14,11 +14,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Trusted Application Deployment overview
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This topic provides an overview of how to deploy ClickOnce applications that have elevated permissions by using the Trusted Application Deployment technology.
 
  Trusted Application Deployment, part of the ClickOnce deployment technology, makes it easier for organizations of any size to grant additional permissions to a managed application in a safer, more secure manner without user prompting. With Trusted Application Deployment, an organization  can just configure a client computer to have a list of trusted publishers, who are identified using Authenticode certificates. Thereafter, any ClickOnce application signed by one of these trusted publishers receives a higher level of trust.
@@ -72,7 +71,7 @@ You must follow these steps to take advantage of Trusted Application Deployment:
 
 - The <xref:System.Security.Cryptography?displayProperty=fullName> namespace.
 
-- *CertMgr.exe*, which is a component of Internet Explorer and therefore exists on Windows 98 and all later versions. For more information, see [Certmgr.exe (Certificate Manager Tool)](/dotnet/framework/tools/certmgr-exe-certificate-manager-tool).
+- *CertMgr.exe*, which is installed with the Windows SDK. For more information, see [Certmgr.exe (Certificate Manager Tool)](/dotnet/framework/tools/certmgr-exe-certificate-manager-tool).
 
 ### Create a ClickOnce Application
  A ClickOnce application is a .NET Framework client application combined with manifest files that describe the application and supply installation parameters. You can turn your program into a ClickOnce application by using the **Publish** command in Visual Studio. Alternatively, you can generate all the files required for ClickOnce deployment by using tools that are included with the Windows Software Development Kit (SDK). For detailed steps about ClickOnce deployment, see [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md).
@@ -96,6 +95,6 @@ You must follow these steps to take advantage of Trusted Application Deployment:
 ## Limitations of Trusted Application Deployment
  You can use Trusted Application Deployment to grant elevated trust to ClickOnce applications deployed over the Web or through an enterprise file share. You do not have to use Trusted Application Deployment for ClickOnce applications distributed on a CD, because, by default, these applications are granted full trust.
 
-## See also
+## Related content
 - [Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)
 - [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)

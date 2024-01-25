@@ -13,11 +13,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Sign Office solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   If you sign a solution, you can grant trust to the solution using the certificate as evidence. You can use the same certificate for multiple solutions, and all the solutions will be trusted with no additional security policy updates.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
@@ -41,7 +40,7 @@ ms.technology: office-development
 
 5. To verify that the correct certificate is being used, click **More Details** to view the certificate information.
 
-## See also
+## Related content
 
 - [Secure Office solutions](../vsto/securing-office-solutions.md)
 - [Grant trust to Office solutions](../vsto/granting-trust-to-office-solutions.md)

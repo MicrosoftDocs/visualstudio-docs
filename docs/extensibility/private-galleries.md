@@ -9,11 +9,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Private galleries
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can share the controls, templates, and tools that you develop by posting them to a *private gallery* on the intranet for your organization, as follows:
 
 - Create an Atom (RSS) feed to a suitably configured central location (repository) on your intranet. For more information, see [How to: Create an Atom feed for a private gallery](../extensibility/how-to-create-an-atom-feed-for-a-private-gallery.md).
@@ -84,6 +83,6 @@ DisplayNamePackageGuid={GUID} (REG_SZ)
 
 3. In the right pane, select an extension, and then choose the **Update** button.
 
-## See also
+## Related content
 - [Find and use Visual Studio extensions](../ide/finding-and-using-visual-studio-extensions.md)
 - [Ship Visual Studio extensions](../extensibility/shipping-visual-studio-extensions.md)

@@ -15,11 +15,9 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Visualizer API Reference
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visualizer APIs are provided for users who want to write a visualizer for the Visual Studio debugger. A visualizer is a small application that extends the functionality of the Visual Studio debugger user interface. A visualizer can display (and optionally edit) a data object of a specific type for which the visualizer is designed.
 
@@ -43,7 +41,7 @@ The Visualizer APIs are provided for users who want to write a visualizer for th
 
 - <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSourceException?displayProperty=fullName>
 
-## See also
+## Related content
 
 - [Walkthrough: Writing a Visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md)
 - [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)

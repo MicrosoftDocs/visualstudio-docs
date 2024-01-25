@@ -10,11 +10,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 ---
 # Walkthrough: Using a configuration file to define a data source
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This walkthrough illustrates how to use a data source defined in an *app.config* file for unit testing. You will learn how to create an *app.config* file that defines a data source that can be used by the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> class. Tasks presented in this walkthrough include the following:
 
@@ -266,7 +264,7 @@ Now that an *app.config* file has been defined, you will create a unit test that
 > [!IMPORTANT]
 > Deploy items like data sources so that they are accessible to the test in the deployment directory.
 
-## See also
+## Related content
 
 - [Unit test your code](../test/unit-test-your-code.md)
 - [How To: Create a data-driven unit test](../test/how-to-create-a-data-driven-unit-test.md)

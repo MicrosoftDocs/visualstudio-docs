@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Managed Extensibility Framework in the editor
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The editor is built by using Managed Extensibility Framework (MEF) components. You can build your own MEF components to extend the editor, and your code can consume editor components as well.
 
 The MEF is a .NET library that lets you add and modify features of an application or component that follows the MEF programming model. The Visual Studio editor can both provide and consume MEF component parts.
@@ -98,5 +97,5 @@ You may experience issues if you try to import something that doesn't exist in t
 
 5. When you have compiled your assembly, put it in the *..\Common7\IDE\Components\* folder of your Visual Studio installation.
 
-## See also
+## Related content
 - [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)

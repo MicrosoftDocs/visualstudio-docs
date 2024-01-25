@@ -9,11 +9,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-help-viewer
+ms.subservice: help-viewer
 ---
 # Shortcut keys in Microsoft Help Viewer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can navigate in the **Microsoft Help Viewer** by using the shortcut keys in the following table:
 

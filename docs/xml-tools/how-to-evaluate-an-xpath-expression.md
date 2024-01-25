@@ -6,11 +6,9 @@ ms.topic: how-to
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.technology: vs-xml-tools
+ms.subservice: xml-tools
 ---
 # Evaluate XPath expressions
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can evaluate XPath expressions by using the **QuickWatch** window during debugging. The XPath expression must be valid according to the W3C XPath 1.0 recommendation. The current XSLT context (that is, the `self::node()` node in the **Locals** window) provides the evaluation context for the XPath expression.
 
@@ -47,6 +45,6 @@ The following procedure uses the *below-average.xsl* and *books.xml* files from 
 
    The **Value** box shows that the XPath expression evaluates to `true`.
 
-## See also
+## Related content
 
 - [Debugging XSLT](../xml-tools/debugging-xslt.md)

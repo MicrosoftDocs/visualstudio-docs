@@ -2,7 +2,7 @@
 title: 'Build a Project That Has Resources'
 description: Learn about how to build a project that has resources, and how to compile resources by using MSBuild.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - resource files, compiling with MSBuild
 - resources [Visual Studio], compiling with MSBuild
@@ -11,7 +11,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # Build a project that has resources
 

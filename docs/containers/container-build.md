@@ -4,12 +4,10 @@ author: ghogen
 description: Explore Visual Studio fast mode, and modify the Dockerfile to customize your container images for both debug and production builds.
 ms.author: ghogen
 ms.date: 09/8/2023
-ms.technology: vs-container-tools
+ms.subservice: container-tools
 ms.topic: how-to
 ---
 # Customize Docker containers in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can customize your container images by editing the Dockerfile that Visual Studio generates when you add Docker support to your project. Whether you're building a customized container from the Visual Studio IDE, or setting up a command-line build, you need to know how Visual Studio uses the Dockerfile to build your projects. You need to know such details because, for performance reasons, Visual Studio follows a special process for building and running containerized apps that isn't obvious from the Dockerfile.
 
@@ -290,12 +288,9 @@ For more information about using SSL with ASP.NET Core apps in containers, see [
 
 For a code sample that demonstrates creating custom certificates for a multi-service app that are trusted on the host and in the containers for HTTPS service-to-service communication, see [CertExample](https://github.com/NCarlsonMSFT/CertExample).
 
-## Next steps
+## Related content
 
-Learn how to further customize your builds by setting additional MSBuild properties in your project files. See [MSBuild properties for container projects](container-msbuild-properties.md).
-
-## See also
-
-[MSBuild](../msbuild/msbuild.md)
-[Dockerfile on Windows](/virtualization/windowscontainers/manage-docker/manage-windows-dockerfile)
-[Linux containers on Windows](/virtualization/windowscontainers/deploy-containers/linux-containers)
+- [MSBuild properties for container projects](container-msbuild-properties.md).
+- [MSBuild](../msbuild/msbuild.md)
+- [Dockerfile on Windows](/virtualization/windowscontainers/manage-docker/manage-windows-dockerfile)
+- [Linux containers on Windows](/virtualization/windowscontainers/deploy-containers/linux-containers)

@@ -7,12 +7,10 @@ ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
+ms.subservice: python
 ---
 
 # Step 4: Run code in the debugger
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Previous step: [Use the Interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md)**
 

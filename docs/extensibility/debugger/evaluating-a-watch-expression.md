@@ -9,11 +9,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Evaluate a watch expression
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 > [!IMPORTANT]
 > In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 
@@ -166,6 +165,6 @@ STDMETHODIMP CParsedExpression::EvaluateSync(
 }
 ```
 
-## See also
+## Related content
 - [Evaluate a watch window expression](../../extensibility/debugger/evaluating-a-watch-window-expression.md)
 - [Sample implementation of expression evaluation](../../extensibility/debugger/sample-implementation-of-expression-evaluation.md)

@@ -1,5 +1,5 @@
 ---
-title: Connect to an Access database in .NET Framework applications
+title: Connect to Access database in .NET Framework apps
 description: Connect to data stored in an Access database (.mdb file or .accdb file) from .NET Framework applications with ADO.NET in Visual Studio.
 ms.date: 10/17/2023
 ms.topic: how-to
@@ -10,11 +10,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Connect to an Access database in .NET Framework applications
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -199,7 +197,7 @@ The dataset that you just created is available in the **Data Sources** window. Y
 
 - Add validation logic to the <xref:System.Data.DataTable.ColumnChanging> or <xref:System.Data.DataTable.RowChanging> event of the data tables in the dataset (see [Validate data in datasets](../data-tools/validate-data-in-datasets.md)).
 
-## See also
+## Related content
 
 - [Add connections](../data-tools/add-new-connections.md)
 - [WPF data binding overview](/dotnet/framework/wpf/data/data-binding-overview)

@@ -3,15 +3,13 @@ title: Add a connection to Azure SQL Database
 description: Connect Azure SQL Database to your application by using Connected Services in Visual Studio on Windows and add a connected service.
 author: AngelosP
 manager: jmartens
-ms.technology: vs-azure
+ms.subservice: azure-development
 ms.topic: conceptual
 ms.date: 05/15/2023
 ms.author: angelpe
 monikerRange: ">= vs-2019"
 ---
 # Add a connection to Azure SQL Database
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 With Visual Studio, you can connect any of the following to Azure SQL Database by using the **Connected Services** feature:
 
@@ -34,6 +32,7 @@ The connected service functionality adds all the needed references and connectio
 
 - Visual Studio with the Azure workload installed.
 - A project of one of the supported types
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## Connect to Azure SQL Database using Connected Services
 
@@ -149,7 +148,7 @@ Your code won't exactly match what is used in the quickstarts, which use a diffe
 var connection = builder.Configuration["ConnectionStrings:ConnectionString1"];
 ```
 
-## See also
+## Related content
 
 - [Azure SQL Database product page](https://azure.microsoft.com/services/sql-database/)
 - [Azure SQL Database documentation](/azure/azure-sql/database/)

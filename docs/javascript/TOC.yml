@@ -24,7 +24,7 @@
     href: tutorial-asp-net-core-with-angular.md
   - name: Create an ASP.NET Core app with Vue
     href: tutorial-asp-net-core-with-vue.md
-  - name: Create an ASP.NET Core app with TypeScript
+  - name: Add TypeScript to an ASP.NET Core app
     href: tutorial-aspnet-with-typescript.md
 - name: How-to Guides
   items:

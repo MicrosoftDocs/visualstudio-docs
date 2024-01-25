@@ -15,11 +15,10 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Edit and Continue Dialog Box
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 (Native Only) This dialog box appears when you have edited code while debugging and **Edit and Continue** recognizes that it can apply code changes. For more information, see [Edit and Continue](../debugger/edit-and-continue.md).
 
  **Never show me this dialog again**

@@ -3,8 +3,8 @@ title: "How to run a program (C#)"
 description: Start programming with C# in Visual Studio and run programs from a project or code file, work with assemblies, references, NuGet packages, and .NET. 
 ms.custom: vs-acquisition
 ms.date: 3/8/2023
-ms.technology: vs-ide-general
-ms.prod: visual-studio-windows
+ms.subservice: general-ide
+
 ms.topic: tutorial
 ms.devlang: CSharp
 author: ghogen
@@ -14,8 +14,6 @@ dev_langs:
   - CSharp
 ---
 # Run a C# program in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 How to run a program depends on what you start from, the type of program, and whether you want to run under the debugger. In the simplest case, to build and run an open project in Visual Studio:
 

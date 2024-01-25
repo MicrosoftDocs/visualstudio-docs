@@ -15,11 +15,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Specify which files are published by ClickOnce
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When publishing a ClickOnce application, all non-code files in the project are deployed along with the application. In some cases, you may not want or need to publish certain files, or you may want to install certain files based on conditions. Visual Studio provides the capabilities to exclude files, mark files as data files or prerequisites, and create groups of files for conditional installation.
 
  Files for a ClickOnce application are managed in the **Application Files** dialog box, accessible from the **Publish** page of the **Project Designer**.
@@ -110,6 +109,6 @@ When publishing a ClickOnce application, all non-code files in the project are d
     > [!NOTE]
     > You cannot change the **Download Group** for files that are required for the application to run.
 
-## See also
+## Related content
 - [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
 - [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)

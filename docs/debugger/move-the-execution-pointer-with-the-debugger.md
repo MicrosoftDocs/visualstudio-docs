@@ -8,11 +8,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Move the execution pointer to change the execution flow in the debugger
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 While debugging, you can manually move the execution pointer to change the next statement that will run next. Moving the pointer is useful for situations like skipping code that contains a known bug, and is a more advanced feature of the debugger.
 
@@ -47,7 +45,7 @@ The program counter jumps directly to the new location. Instructions between the
 >   - A call stack unwind is in progress.
 >   - A System.StackOverflowException or System.Threading.ThreadAbortException exception has been thrown.
 
-## See also
+## Related content
 - [What is debugging?](../debugger/what-is-debugging.md)
 - [Navigate code in the debugger](../debugger/navigating-through-code-with-the-debugger.md)
 - [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md)

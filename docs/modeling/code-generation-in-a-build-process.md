@@ -9,14 +9,12 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 dev_langs:
 - CSharp
 - VB
 ---
 # Invoke text transformation in the build process
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [Text transformation](../modeling/code-generation-and-t4-text-templates.md) can be invoked as part of the [build process](/azure/devops/pipelines/index) of a Visual Studio solution. There are build tasks that are specialized for text transformation. The T4 build tasks run design-time text templates, and they also compile run-time (preprocessed) text templates.
 
@@ -60,7 +58,6 @@ In **Solution Explorer**, choose **Unload** from the right-click menu of your pr
 In the .vbproj or .csproj file, find the last `Import Project` line.
 
 After that line, if it exists, insert the Text Templating import:
-
 
 ::: moniker range=">=vs-2022"
 

@@ -15,11 +15,10 @@ dev_langs:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This message may occur because the remote debugging monitor is not properly set up on the remote machine or the remote machine is inaccessible due to network problems or the presence of a firewall.
 
 > [!IMPORTANT]
@@ -37,7 +36,6 @@ The `Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor` 
 - [The requested name was valid, but no data of the requested type was found](#valid_name)
 - [The Visual Studio Remote Debugger on the target computer cannot connect back to this computer](#cant_connect_back)
 - [Access denied](#access_denied)
-- [A security package specific error occurred](#security_package)
 
 ## <a name="cannot_connect"></a> The debugger cannot connect to the remote computer. The debugger was unable to resolve the specified computer name
 
@@ -114,10 +112,6 @@ If the error message also mentions a firewall, the firewall on the local machine
 ## <a name="access_denied"></a> Access denied
 
 You may see this error if you try to debug on a 64-bit remote computer from a 32-bit computer (not supported).
-
-## <a name="security_package"></a> A security package specific error occurred
-
-This may be a legacy issue specific to Windows XP and Windows 7. See this [information](https://stackoverflow.com/questions/4786016/unable-to-connect-to-the-microsoft-remote-debugging-monitor-a-security-package).
 
 ## Causes and recommendations
 

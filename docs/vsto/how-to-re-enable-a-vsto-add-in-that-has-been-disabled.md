@@ -15,11 +15,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Re-enable a VSTO Add-in that has been disabled
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Microsoft Office applications can disable VSTO Add-ins that behave unexpectedly. If an application does not load your VSTO Add-in when you try to debug it, the application might have hard disabled or soft disabled your VSTO Add-in.
 
  [!INCLUDE[appliesto_allapp](../vsto/includes/appliesto-allapp-md.md)]
@@ -69,7 +68,7 @@ ms.technology: office-development
 
 7. Click **OK**.
 
-## See also
+## Related content
 - [Build Office solutions](../vsto/building-office-solutions.md)
 - [Debug Office projects](../vsto/debugging-office-projects.md)
 - [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)

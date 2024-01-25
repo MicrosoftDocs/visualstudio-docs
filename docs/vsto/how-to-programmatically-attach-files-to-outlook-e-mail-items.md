@@ -1,5 +1,5 @@
 ---
-title: "Programmatically attach files to Outlook email items"
+title: Programmatically attach files to Outlook emails in Visual Studio
 description: Explore how to attach files to Microsoft Office Outlook items by attaching a file to a new mail item and sending it to a specified user.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -15,11 +15,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Programmatically attach files to Outlook email items
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example attaches a file to a new mail item and sends it to Armando Pinto. The example assumes a person named Armando Pinto exists as the recipient.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
@@ -33,7 +32,7 @@ ms.technology: office-development
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Outlook_RL_AttachFiles/thisaddin.vb" id="Snippet1":::
  ---
 
-## See also
+## Related content
 - [Work with mail items](../vsto/working-with-mail-items.md)
 - [How to: Programmatically send email](../vsto/how-to-programmatically-send-e-mail-programmatically.md)
 - [How to: Programmatically save attachments from Outlook email items](../vsto/how-to-programmatically-save-attachments-from-outlook-e-mail-items.md)

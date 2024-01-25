@@ -6,11 +6,9 @@ ms.topic: error-reference
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Cannot create an association &lt;association name&gt; - property types do not match
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Cannot create an association \<association name> - property types do not match. Properties do not have matching types: \<property names>.
 

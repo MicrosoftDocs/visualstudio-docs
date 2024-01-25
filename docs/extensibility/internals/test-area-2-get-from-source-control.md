@@ -9,11 +9,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Test Area 2: Get From Source Control
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This test area covers test cases for retrieving items from the version store via the Get command. These test cases can be applied to both local and to Web projects.
 
 ## Command Menu Access
@@ -48,5 +47,5 @@ This test area covers test cases for retrieving items from the version store via
 |Get a file that DOES exist locally, same as latest version in the version store|1.  Create a new project.<br />2.  Add an item to the project.<br />3.  Put the project under source control.<br />4.  Get the item (**File**, **Source Control**, **Get** \<item>).|Local file is unchanged.|
 |Get a solution with one project|1.  Create a solution with one project.<br />2.  Place the solution under source control.<br />3.  Delete all the project files locally.<br />4.  Get the solution (**File**, **Source Control**, **Get**).|All deleted files are restored locally.|
 
-## See also
+## Related content
 - [Test Guide for Source Control Plug-ins](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)

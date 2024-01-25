@@ -5,7 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 03/03/2022
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ms.topic: conceptual
 ---
 # Debugging with Visual Studio for Mac

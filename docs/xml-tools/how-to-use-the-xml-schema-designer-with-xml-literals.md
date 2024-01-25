@@ -6,13 +6,11 @@ ms.topic: how-to
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.technology: vs-xml-tools
+ms.subservice: xml-tools
 dev_langs:
 - VB
 ---
 # Use the XML Schema Designer with XML literals
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This topic describes how to view a schema associated with an XML literal in a Visual Basic project.
 

@@ -1,5 +1,5 @@
 ---
-title: "Test Explorer FAQ"
+title: Review Test Explorer FAQ issues and answers
 description: Review frequently asked questions (FAQs) about Visual Studio Test Explorer, which include some common troubleshooting scenarios.
 ms.date: 06/25/2020
 ms.topic: conceptual
@@ -13,11 +13,9 @@ helpviewer_keywords:
 ms.author: mikejo
 author: MikeJo5000
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 ---
 # Visual Studio Test Explorer FAQ
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ## Dynamic test discovery
 
@@ -121,7 +119,7 @@ To fix this error:
 
 In Visual Studio 2019, you can opt into preview features in **Tools > Options > Environment > Preview Features**.
 
-## See also
+## Related content
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting?displayProperty=fullName>
 - [Create and run unit tests for existing code](/previous-versions/dd293546(v=vs.110))

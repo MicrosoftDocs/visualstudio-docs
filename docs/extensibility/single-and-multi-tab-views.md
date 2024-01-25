@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Single and Multi-tab Views
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 An editor can create different types of views. One example is a code editor window, another is a forms designer.
 
  A multi-tabbed view is a view that has multiple tabs. For example, the HTML editor has two tabs at the bottom: **Design** and **Source**, each a logical view. The design view displays a rendered web page, while the other displays the HTML that comprises the web page.
@@ -107,7 +106,7 @@ Error:
 }
 ```
 
-## See also
+## Related content
 - [Supporting Multiple Document Views](../extensibility/supporting-multiple-document-views.md)
 - [How to: Attach Views to Document Data](../extensibility/how-to-attach-views-to-document-data.md)
 - [Creating Custom Editors and Designers](../extensibility/creating-custom-editors-and-designers.md)

@@ -14,11 +14,10 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Debugging F\#
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Debugging F# is similar to debugging any managed language, with a few exceptions:
 
 - The **Autos** window does not display F# variables.
@@ -27,5 +26,5 @@ Debugging F# is similar to debugging any managed language, with a few exceptions
 
 - The debugger does not recognize F# expressions. To enter an expression in a debugger window or a dialog box during F# debugging, you must translate the expression into C# syntax. When you translate an F# expression into C#, make sure to remember that C# uses == as the comparison operator for equality and that F# uses a single =.
 
-## See also
+## Related content
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)

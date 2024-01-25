@@ -1,16 +1,14 @@
 ---
-title: Save and edit database connection strings for .NET Framework applications
+title: Save & edit DB connection strings (.NET Framework)
 description: Save and edit connection strings in .NET Framework application development with Visual Studio, or edit a connection string directly in application settings.
-ms.date: 10/07/2022
+ms.date: 12/15/2023
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Save and edit database connection strings for .NET Framework applications
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 

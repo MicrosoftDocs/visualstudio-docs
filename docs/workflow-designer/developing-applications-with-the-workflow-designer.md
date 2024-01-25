@@ -14,11 +14,9 @@ helpviewer_keywords:
 author: jodavis
 ms.author: jodavis
 manager: jmartens
-ms.technology: vs-workflow-designer
+ms.subservice: workflow-designer
 ---
 # Develop apps with the Workflow Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Workflow Designer is a visual designer and debugger for the graphical construction and debugging of [Windows Workflow Foundation](/dotnet/framework/windows-workflow-foundation/index) (WF) applications in Visual Studio. It enables you to compose a composite workflow application, activity library, or Windows Communication Foundation (WCF) service through the use of templates and activity designers.
 
@@ -38,6 +36,6 @@ To use Workflow project templates in Visual Studio, first install the **Windows 
 
    Visual Studio installs the **Windows Workflow Foundation** component.
 
-## See also
+## Related content
 
 - [Windows Workflow Foundation (.NET Framework)](/dotnet/framework/windows-workflow-foundation/index)

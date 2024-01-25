@@ -10,11 +10,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Query Edit Query Save (Source Control VSPackage)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Visual Studio editors can broadcast Query Edit Query Save (QEQS) events. Visual Studio Source Control Stub implements the QEQS service, so that it is the recipient of QEQS events. These events are then delegated to the currently active source control VSPackage. The active source control VSPackage implements the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2> and its methods. The methods of the `IVsQueryEditQuerySave2` interface are typically called immediately before a document is edited for the first time and immediately before a document is saved.
 
 ## QueryEditQuerySave Events
@@ -30,5 +29,5 @@ Visual Studio editors can broadcast Query Edit Query Save (QEQS) events. Visual 
 
  This method must behave in a transactional manner; that is, if the save is cancelled on a single file, the save is cancelled for all the files. Conversely, if the save is allowed, it must be allowed for all the files. As with the `IVsQueryEditQuerySave2::QueryEditFiles` method, cases to consider in implementing the `IVsQueryEditQuerySave2::QuerySaveFiles` method include multiple files, special files, cancel from user, and in-memory edits.
 
-## See also
+## Related content
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2>

@@ -7,7 +7,7 @@ ms.author: maiak
 monikerRange: ">=vs-2022"
 author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 
 # Contributions and Configurations
@@ -16,11 +16,11 @@ You can expose extensions components to Visual Studio by deriving from certain b
 
 ## Visual Studio Contributions
 
-The purpose of a Visual Studio extension is to *contribute* new features to Visual Studio. This is achieved by extending one of many classes like `Command`, `ToolWindow` or `ExtensionPart` and applying the `VisualStudioContribution` attribute.
+The purpose of a Visual Studio extension is to *contribute* new features to Visual Studio. This is achieved by extending one of many classes like [`Command`](/dotnet/api/microsoft.visualstudio.extensibility.commands.command), [`ToolWindow`](/dotnet/api/microsoft.visualstudio.extensibility.toolwindows.toolwindow), or [`ExtensionPart`](/dotnet/api/microsoft.visualstudio.extensibility.extensionpart) and applying the [`VisualStudioContribution`](/dotnet/api/microsoft.visualstudio.extensibility.visualstudiocontributionattribute) attribute.
 
 This article references the [Command Parenting](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/CommandParentingSample) sample extension to explain the concepts of contributing and configuring extension components.
 
-Every VisualStudio.Extensibility extension must contribute at least one `Extension` class:
+Every VisualStudio.Extensibility extension must contribute at least one [`Extension`](/dotnet/api/microsoft.visualstudio.extensibility.extension) class:
 
 ```csharp
 namespace CommandParentingSample;
@@ -36,22 +36,21 @@ public class CommandParentingSampleExtension : Extension
 }
 ```
 
-The `Extension` class is the first instantiated class of the extension and allows you to add your own services to the `IServiceCollection` to be used for dependency injection.
+The [`Extension`](/dotnet/api/microsoft.visualstudio.extensibility.extension) class is the first instantiated class of the extension and allows you to add your own services to the `IServiceCollection` to be used for dependency injection.
 
-The Command Parenting sample contributes another class, a `Command`, to Visual Studio:
+The Command Parenting sample contributes another class, a [`Command`](/dotnet/api/microsoft.visualstudio.extensibility.commands.command), to Visual Studio:
 
 ```csharp
 [VisualStudioContribution]
 internal class SampleCommand : Command
 {
-    public SampleCommand(VisualStudioExtensibility extensibility)
-        : base(extensibility)
+    public SampleCommand()
     {
     }
     ...
 ```
 
-When extending a base class provided by the VisualStudio.Extensibility SDK, you can know if you're expected to use the `VisualStudioContribution` attribute by checking whether the base class implements `IVisualStudioContributionClass` (both `Extension` and `Command` do).
+When extending a base class provided by the VisualStudio.Extensibility SDK, you can know if you're expected to use the `VisualStudioContribution` attribute by checking whether the base class implements [`IVisualStudioContributionClass`](/dotnet/api/microsoft.visualstudio.extensibility.ivisualstudiocontributionclass) (both `Extension` and `Command` do).
 
 Visual Studio contribution classes are lazily instantiated singletons: only one instance is created and its creation is delayed until Visual Studio needs to interact with it (for example when a `Command` is first invoked by the user).
 
@@ -61,39 +60,39 @@ Visual Studio often requires a unique identifier to be associated with contribut
 
 ## Configuring Visual Studio Contributions
 
-Most Visual Studio contribution classes require or allow configuration. For example, the `Command` abstract class requires the implementation of a `CommandConfiguration` property specifying at least the command's display name and, optionally, other properties like its placement.
+Most Visual Studio contribution classes require or allow configuration. For example, the [`Command`](/dotnet/api/microsoft.visualstudio.extensibility.commands.command) abstract class requires the implementation of a [`CommandConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandconfiguration) property specifying at least the command's display name and, optionally, other properties like its placement.
 
 ```csharp
 [VisualStudioContribution]
 internal class SampleCommand : Command
 {
-    ...
-    public override CommandConfiguration CommandConfiguration => new("%SampleCommand.DisplayName%")
+    /// <inheritdoc />
+    public override CommandConfiguration CommandConfiguration => new("%CommandParentingSample.SampleCommand.DisplayName%")
     {
         Placements = new[]
         {
             // File in project context menu
-            CommandPlacement.FromVsctParent(new Guid("{d309f791-903f-11d0-9efc-00a0c911004f}"), 1072),
+            CommandPlacement.VsctParent(new Guid("{d309f791-903f-11d0-9efc-00a0c911004f}"), id: 1072, priority: 0),
 
             // Project context menu
-            CommandPlacement.FromVsctParent(new Guid("{d309f791-903f-11d0-9efc-00a0c911004f}"), 1026),
+            CommandPlacement.VsctParent(new Guid("{d309f791-903f-11d0-9efc-00a0c911004f}"), id:  1026, priority: 0),
 
             // Solution context menu
-            CommandPlacement.FromVsctParent(new Guid("{d309f791-903f-11d0-9efc-00a0c911004f}"), 1043),
+            CommandPlacement.VsctParent(new Guid("{d309f791-903f-11d0-9efc-00a0c911004f}"), id:  1043, priority: 0),
         },
     };
     ...
 ```
 
-`CommandConfiguration` is a *compile-time constant*, which means that its value is evaluated when the extension is built and it is included in the extension manifest (`extension.json`). Visual Studio can read the extension manifest without loading the extension itself, which allows for better performance.
+[`CommandConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandconfiguration) is a *compile-time constant*, which means that its value is evaluated when the extension is built and it is included in the extension manifest (`extension.json`). Visual Studio can read the extension manifest without loading the extension itself, which allows for better performance.
 
 *Compile-time constants* are subject to additional limitations compared to normal properties, for example they must be readonly and their initialization code can't include references to non-static members or multi-statement imperative code blocks. These restrictions are enforced by the VisualStudio.Extensibility build tools and results in error messages like the following:
 
-> Property SampleCommand.CommandConfiguration is a compile-time constant. References to user-defined non-static members are not supported when evaluating compile-time constant values.
+> An issue was encountered when evaluating the compile-time constant SampleCommand.CommandConfiguration. References to user-defined non-static members are not supported when evaluating compile-time constant values.
 
 In general, the extension shouldn't reference *compile-time constant* configuration properties at run time.
 
-You can easily identify *Compile-time constant* configuration properties since their definition has the `CompileTimeEvaluation` attribute.
+You can easily identify *Compile-time constant* configuration properties since their definition has the [`CompileTimeEvaluation`](/dotnet/api/microsoft.visualstudio.extensibility.compiletimeevaluationattribute) attribute.
 
 ```csharp
 public abstract class Command : ExecutableCommandHandler, IVisualStudioContributionClass
@@ -108,19 +107,17 @@ public abstract class Command : ExecutableCommandHandler, IVisualStudioContribut
     ...
 ```
 
-On rare occasions, configuration properties are optional. For example, the `Extension` class has a virtual `ExtensionConfiguration` property which includes some less common configurations.
-
-In certain cases, you may need to implement multiple configuration properties on the same class. This is common when extending `ExtensionPart` and implementing multiple interfaces, each one requiring its own configuration property.
+On rare occasions, configuration properties may be optional. In certain cases, you may need to implement multiple configuration properties on the same class. This is common when extending [`ExtensionPart`](/dotnet/api/microsoft.visualstudio.extensibility.extensionpart) and implementing multiple interfaces, each one requiring its own configuration property.
 
 ## Standalone configuration properties
 
 As described above, Visual Studio contribution classes define a singleton class that usually exposes one or more *compile-time constant* configuration properties. The configuration properties values are saved as extension metadata.
 
-Some extensibility features require you to specify extension metadata that isn't tied to any class and it's either meaningful on its own or it's meant to be referenced by other configurations. A few examples are menu, toolbar and document type definitions. This is achieved by applying the `VisualStudioContribution` attribute to a static readonly configuration property.
+Some extensibility features require you to specify extension metadata that isn't tied to any class and it's either meaningful on its own or it's meant to be referenced by other configurations. A few examples are menu, toolbar and document type definitions. This is achieved by applying the [`VisualStudioContribution`](/dotnet/api/microsoft.visualstudio.extensibility.visualstudiocontributionattribute) attribute to a static readonly configuration property.
 
 Visual Studio contribution properties can be placed in any class.
 
-The [Command Parenting](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/CommandParentingSample/ExtensionCommandConfiguration.cs) sample defines a toolbar by declaring a static property of type `ToolbarConfiguration` and marking it as `VisualStudioContribution`.
+The [Command Parenting](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/CommandParentingSample/ExtensionCommandConfiguration.cs) sample defines a toolbar by declaring a static property of type [`ToolbarConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.toolbarconfiguration) and marking it as [`VisualStudioContribution`](/dotnet/api/microsoft.visualstudio.extensibility.visualstudiocontributionattribute).
 
 ```csharp
 namespace CommandParentingSample;
@@ -128,7 +125,7 @@ namespace CommandParentingSample;
 internal static class ExtensionCommandConfiguration
 {
     [VisualStudioContribution]
-    public static ToolbarConfiguration ToolBar => new("%ToolBar.DisplayName%")
+    public static ToolbarConfiguration ToolBar => new("%CommandParentingSample.ToolBar.DisplayName%")
     {
         Children = new[]
         {
@@ -140,34 +137,32 @@ internal static class ExtensionCommandConfiguration
 
 Visual Studio contribution properties are also *compile-time constants* and are subject to the same limitations discussed earlier.
 
-The [Markdown Linter](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/MarkdownLinter/TextViewEventListener.cs) project shows a sample of a Visual Studio contribution property being referenced by another configuration property:
+A Visual Studio contribution property can also reference another configuration property. For example:
 
 ```csharp
-internal static class MarkdownLinterExtensionContributions
+public static class MenuConfigurations
 {
     [VisualStudioContribution]
-    internal static DocumentTypeConfiguration MarkdownDocumentType => new("markdown")
+    public static CommandGroupConfiguration MyCommandGroup => new(GroupPlacement.KnownPlacements.ExtensionsMenu)
     {
-        FileExtensions = new[] { ".md", ".mdk", ".markdown" },
-        BaseDocumentType = DocumentType.KnownValues.Text,
-    };
-}
-
-[VisualStudioContribution]
-internal class TextViewEventListener : ExtensionPart, ITextViewOpenClosedListener, ITextViewChangedListener
-{
-    ...
-    public TextViewExtensionConfiguration TextViewExtensionConfiguration => new()
-    {
-        AppliesTo = new[]
+        Children = new GroupChild[]
         {
-            DocumentFilter.FromDocumentType(MarkdownLinterExtensionContributions.MarkdownDocumentType),
+            GroupChild.Menu(MyMenu),
+        },
+    };
+
+    [VisualStudioContribution]
+    public static MenuConfiguration MyMenu => new("%MyMenu.DisplayName%")
+    {
+        Children = new[]
+        {
+            MenuChild.Command<MyCommand>(),
         },
     };
     ...
 ```
 
-Types that are meant to be used to define Visual Studio contribution properties implement the `IVisualStudioContributionProperty` interface and are marked with the `CompileTimeEvaluation` attribute to document that their values are evaluated when the extension is built.
+Types that are meant to be used to define Visual Studio contribution properties implement the [`IVisualStudioContributionProperty`](/dotnet/api/microsoft.visualstudio.extensibility.ivisualstudiocontributionproperty) interface and are marked with the [`CompileTimeEvaluation`](/dotnet/api/microsoft.visualstudio.extensibility.compiletimeevaluationattribute) attribute to document that their values are evaluated when the extension is built.
 
 ```csharp
 [CompileTimeEvaluation]
@@ -178,6 +173,6 @@ The guidance about not referencing *compile-time constant* configuration propert
 
 In case a unique identifier is required for a Visual Studio contribution property, its full name (containing type full name and property name) is used by the VisualStudio.Extensibility infrastructure as an identifier. For example, the unique identifier of the toolbar configuration discussed here would be `CommandParentingSample.ExtensionCommandConfiguration.ToolbarConfiguration`.
 
-## Next steps
+## Related content
 
-Learn more about VisualStudio.Extensibility by reading [Components of a VisualStudio.Extensibility extension](./extension-anatomy.md).
+- [Components of a VisualStudio.Extensibility extension](./extension-anatomy.md).

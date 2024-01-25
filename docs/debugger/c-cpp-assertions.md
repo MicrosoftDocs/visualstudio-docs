@@ -1,5 +1,5 @@
 ---
-title: "C/C++ Assertions"
+title: Use C++ assertion statements for debugging
 description: Read about how C/C++ assertions work in Visual Studio debugging. An assertion specifies a condition that you expect to be true at a point in your program.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -26,11 +26,9 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # C/C++ Assertions
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 An assertion statement specifies a condition that you expect to be true at a point in your program. If that condition is not true, the assertion fails, execution of your program is interrupted, and the [Assertion Failed dialog box](../debugger/assertion-failed-dialog-box.md) appears.
 
@@ -348,7 +346,7 @@ This code relies on the assertion statement to handle the error condition. As a 
 
 [In this topic](#BKMK_In_this_topic)
 
-## See also
+## Related content
 
 - [Debugger Security](../debugger/debugger-security.md)
 - [Debugging Native Code](../debugger/debugging-native-code.md)

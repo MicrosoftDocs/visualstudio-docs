@@ -6,11 +6,9 @@ ms.topic: how-to
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.technology: vs-xml-tools
+ms.subservice: xml-tools
 ---
 # Create XML snippets
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The XML editor can be used to create new XML snippets. The editor includes an XML snippet, named "Snippet", that is a boilerplate snippet for creating new XML snippets.
 
@@ -110,7 +108,7 @@ Literals can also refer to functions. The XML editor includes a function named *
 
 The $prefix$ variable can then be used elsewhere in your XML snippet.
 
-## See also
+## Related content
 
 - [XML snippets](../xml-tools/xml-snippets.md)
 - [How to: Use XML snippets](../xml-tools/how-to-use-xml-snippets.md)

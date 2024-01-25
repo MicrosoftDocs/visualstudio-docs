@@ -6,11 +6,10 @@ ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Use the Concurrency Visualizer markers SDK
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This topic shows how to use the Concurrency Visualizer SDK to create spans and write flags, messages, and alerts.
 
 ### To use C++

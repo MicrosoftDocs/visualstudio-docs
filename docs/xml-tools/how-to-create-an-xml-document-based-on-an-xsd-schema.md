@@ -6,11 +6,9 @@ ms.topic: how-to
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.technology: vs-xml-tools
+ms.subservice: xml-tools
 ---
 # Create an XML document based on an XSD schema
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Generate Sample XML** feature generates a sample XML file based on your XML Schema (XSD) file.
 

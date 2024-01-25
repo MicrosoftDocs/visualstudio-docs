@@ -3,18 +3,20 @@ title: Publish an Azure cloud service
 description: Publish an Azure cloud service by using the Visual Studio Publish Azure Application Wizard to configure common, diagnostic, and advanced settings.
 author: ghogen
 manager: jmartens
-ms.technology: vs-azure
+ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 03/21/2017
 ms.author: ghogen
 ---
 # Using the Visual Studio Publish Azure Application Wizard
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
 After you develop a web application in Visual Studio, you can publish that application to an Azure cloud service by using the **Publish Azure Application** wizard.
+
+## Prerequisites
+
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## Accessing the Publish Azure Application wizard
 

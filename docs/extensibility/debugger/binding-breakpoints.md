@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Bind breakpoints
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 If the user sets a breakpoint, perhaps by pressing **F9**, the IDE formulates the request and prompts the debug session to create the breakpoint.
 
 ## Set a breakpoint
@@ -48,5 +47,5 @@ If the user sets a breakpoint, perhaps by pressing **F9**, the IDE formulates th
 
  If a DE handles a breakpoint, cannot bind it, but some other DE might bind it, it returns a warning. The IDE responds by placing a question glyph inside the breakpoint glyph to the left of the source code line.
 
-## See also
+## Related content
 - [Debugging tasks](../../extensibility/debugger/debugging-tasks.md)

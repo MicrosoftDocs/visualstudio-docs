@@ -12,11 +12,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Registering Project and Item Templates
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Project types must register the directories where their project and project-item templates are located. Visual Studio uses the registration information associated with your project types to determine what to show in the **Add New Project** and **Add New Item** dialog boxes.
 
  For more information about templates, see [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md).

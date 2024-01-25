@@ -9,11 +9,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # VSPackage Registration
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 VSPackages must advise Visual Studio that they are installed and should be loaded. This process is accomplished by writing information in the registry. That is a typical job of an installer.
 
 > [!NOTE]
@@ -50,6 +49,6 @@ VSPackages must advise Visual Studio that they are installed and should be loade
 
 - Self-registration code can be denied access to network resources, such as type libraries, if a component is both specified as run-from-source and is listed in the SelfReg table. This can cause the installation of the component to fail during an administrative installation.
 
-## See also
+## Related content
 - [Windows Installer](/windows/desktop/Msi/windows-installer-portal)
 - [Managed Package Registration](/previous-versions/bb166783(v=vs.100))

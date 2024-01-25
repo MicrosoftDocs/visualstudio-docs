@@ -6,11 +6,9 @@ ms.topic: how-to
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.technology: vs-xml-tools
+ms.subservice: xml-tools
 ---
 # Examine the content model of nodes by using the Content Model View
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This topic describes how to explore your nodes by using the [Content Model View](../xml-tools/content-model-view.md).
 

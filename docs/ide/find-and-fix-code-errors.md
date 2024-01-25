@@ -6,11 +6,9 @@ ms.topic: conceptual
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Make code work in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio includes a powerful integrated set of project build and debugging tools. This article describes how Visual Studio can help you find problems in your code by using build output, code analysis, debugging tools, and unit tests.
 

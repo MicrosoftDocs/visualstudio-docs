@@ -6,11 +6,9 @@ ms.topic: how-to
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.technology: vs-xml-tools
+ms.subservice: xml-tools
 ---
 # Execute an XSLT transformation from the XML editor
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The XML editor lets you associate an XSLT style sheet with an XML document, perform the transformation, and view the output. The resulting output from the XSLT transformation is displayed in a new document window.
 
@@ -54,6 +52,6 @@ If the **Output** property specifies a filename with an .*htm* or .*html* extens
 
 You can specify an output file name for both XML and XSL files. Open the **Properties** window and specify a file name in the **Output** field.
 
-## See also
+## Related content
 
 - [XML editor](../xml-tools/xml-editor.md)

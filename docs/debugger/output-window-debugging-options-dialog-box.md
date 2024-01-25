@@ -15,11 +15,10 @@ dev_langs:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Output Window, Debugging, Options Dialog Box
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can specify which types of debugging information appear in the **Output** window. To display these options, open the **Tools** menu, click **Options**, expand the **Debugging** node, and click **Output Window**.
 
 **General Output Settings**

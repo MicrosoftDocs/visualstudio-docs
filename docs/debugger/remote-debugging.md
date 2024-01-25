@@ -1,7 +1,7 @@
 ---
-title: "Remote debugging"
+title: Remote debugging
 description: Debug a Visual Studio application that has been deployed on a different computer by using the Visual Studio remote debugger.
-ms.date: 12/20/2022
+ms.date: 01/19/2024
 ms.topic: conceptual
 f1_keywords:
   - "vs.debug.remote.overview"
@@ -16,11 +16,9 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Remote Debugging
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can debug a Visual Studio application that has been deployed on a different computer. To do so, you use the Visual Studio remote debugger.
 
@@ -126,7 +124,7 @@ For debugging in ASP.NET and other server environments, you must either run the 
 
 [!INCLUDE [remote-debugger-symbols](../debugger/includes/remote-debugger-symbols.md)]
 
-## See also
+## Related content
 
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)

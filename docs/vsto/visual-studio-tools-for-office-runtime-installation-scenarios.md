@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Tools for Office runtime installation scenarios"
+title: Visual Studio Tools for Office runtime installation scenarios
 description: Install the Visual Studio 2010 Tools for Microsoft Office runtime during installation of Visual Studio, Microsoft Office, or the runtime redistributable.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -12,11 +12,9 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Visual Studio Tools for Office runtime installation scenarios
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
   You can install the Visual Studio 2010 Tools for Office runtime in three ways:
 
@@ -67,7 +65,7 @@ ms.technology: office-development
 
  For more information about including prerequisites in a ClickOnce solution, see [How to: Install prerequisites on end user computers to run Office solutions](/previous-versions/bb608608(v=vs.110)). For more information about how to install the runtime from the redistributable package manually, see [How to: Install the Visual Studio Tools for Office runtime redistributable](../vsto/how-to-install-the-visual-studio-tools-for-office-runtime-redistributable.md).
 
-## See also
+## Related content
 
 - [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)
 - [Assemblies in the Visual Studio Tools for Office runtime](../vsto/assemblies-in-the-visual-studio-tools-for-office-runtime.md)

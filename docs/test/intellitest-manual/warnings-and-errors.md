@@ -7,12 +7,10 @@ helpviewer_keywords:
 - IntelliTest, Warnings and errors
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Warnings and errors
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ## Warnings and errors by category
 

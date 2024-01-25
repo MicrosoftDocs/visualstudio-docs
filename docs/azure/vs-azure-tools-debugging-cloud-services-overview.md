@@ -6,11 +6,9 @@ manager: jmartens
 ms.topic: conceptual
 ms.date: 03/18/2017
 ms.author: mikejo
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Learn the various ways to debug an Azure cloud service
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 

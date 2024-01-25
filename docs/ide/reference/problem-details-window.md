@@ -10,12 +10,10 @@ helpviewer_keywords:
 author: tartanllama
 ms.author: sybrand
 manager: mluparu
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 
 # Problem Details window
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Problem Details** window shows structured diagnostics issued by the MSVC compiler or [code analysis for C/C++](/cpp/code-quality/code-analysis-for-c-cpp-overview).
 

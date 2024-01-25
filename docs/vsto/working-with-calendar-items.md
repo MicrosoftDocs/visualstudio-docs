@@ -17,11 +17,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Work with calendar items
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The <xref:Microsoft.Office.Interop.Outlook.AppointmentItem> class contains the methods and properties you use to perform tasks with calendar items.
 
 |Task|Procedure|
@@ -33,7 +32,7 @@ ms.technology: office-development
 
  For more information about Outlook tasks and the Outlook object model, see [Outlook object model overview](../vsto/outlook-object-model-overview.md).
 
-## See also
+## Related content
 - [Work with contact items](/previous-versions/visualstudio/visual-studio-2017/vsto/working-with-contact-items)
 - [Work with folders](../vsto/working-with-folders.md)
 - [Work with mail items](../vsto/working-with-mail-items.md)

@@ -14,11 +14,9 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 ---
 # Scenario: Change your design using visualization and modeling
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Make sure that your software system meets users' needs by using the visualization and modeling tools in Visual Studio.
 Use tools such as code maps, dependency diagrams, and class diagrams to:

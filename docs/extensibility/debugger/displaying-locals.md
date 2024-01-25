@@ -9,11 +9,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Display locals
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 > [!IMPORTANT]
 > In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 
@@ -30,9 +29,7 @@ ms.technology: vs-ide-debug
  [Sample implementation of locals](../../extensibility/debugger/sample-implementation-of-locals.md)
  Uses examples to step through the process of implementing locals.
 
-## Related sections
- [Evaluation context](../../extensibility/debugger/evaluation-context.md)
- Explains that when the debug engine (DE) calls the expression evaluator (EE), it passes three arguments.
+## Related content
+- [Evaluation context](../../extensibility/debugger/evaluation-context.md) explains that when the debug engine (DE) calls the expression evaluator (EE), it passes three arguments.
 
-## See also
- [Write a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
+- [Write a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)

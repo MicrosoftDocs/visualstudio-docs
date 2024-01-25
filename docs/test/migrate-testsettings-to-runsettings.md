@@ -8,11 +8,9 @@ f1_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 ---
 # Upgrade from .testsettings to .runsettings
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can upgrade your test configuration file from *.testsettings* to *.runsettings* with the SettingsMigrator tool that installs along with Visual Studio. Depending on your Visual Studio install location, you can find the settings migrator tool in the following path:
 ::: moniker range=">=vs-2022"
@@ -37,7 +35,7 @@ SettingsMigrator.exe E:\MyTest\MyTestSettings.testsettings E:\MyTest\MyNewRunSet
 
 If you're interested in reading more on how the *.testsettings* options convert to *.runsettings* you can find more implementation details in the [open source test platform repository](https://github.com/microsoft/vstest-docs/blob/master/RFCs/0023-TestSettings-Deprecation.md#migration) on GitHub.
 
-## See also
+## Related content
 
 - [Configure test runs with `.runsettings`](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md)
 - [Upgrade from MSTestv1 to MSTestv2](../test/mstest-update-to-mstestv2.md)

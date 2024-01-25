@@ -8,11 +8,9 @@ f1_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-code-analysis
+ms.subservice: code-analysis
 ---
 # Use the code analysis rule set editor
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The code analysis rule set editor lets you specify the rules that are included in a custom rule set and set the severity of rule violations.
 

@@ -1,5 +1,5 @@
 ---
-title: C# IntelliSense
+title: Use C# IntelliSense for quick access while coding
 description: Explore IntelliSense features that you can use while coding your C# project for quick access to variables, commands, functions, language keywords, and more.
 ms.date: 06/01/2021
 ms.topic: conceptual
@@ -9,11 +9,9 @@ helpviewer_keywords:
 author: mikadumont
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # C# IntelliSense
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 C# IntelliSense is available when coding in the editor, and while debugging in the [Immediate mode](../ide/reference/immediate-window.md) command window.
 

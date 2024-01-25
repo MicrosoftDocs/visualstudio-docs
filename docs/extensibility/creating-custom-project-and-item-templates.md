@@ -6,11 +6,9 @@ ms.topic: overview
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Create custom project and item templates
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio SDK includes project templates that create a custom project template and a custom item template. These templates include some common parameter substitutions, and build as zip files. They are not automatically deployed, and they are not available in the experimental instance. You must copy the generated zip file to the user template directory.
 

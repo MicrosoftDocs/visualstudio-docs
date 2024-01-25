@@ -1,7 +1,7 @@
 ---
-title: Use regular expressions
+title: Use regular expressions and review examples
 description: Explore some regular expression characters, operators, constructs, and pattern examples that you can use in Visual Studio.
-ms.date: 10/14/2022
+ms.date: 01/11/2024
 ms.topic: conceptual
 f1_keywords:
 - vsregularexpressionhelp
@@ -15,11 +15,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Use regular expressions in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio uses [.NET regular expressions](/dotnet/standard/base-types/regular-expressions) to find and replace text.
 

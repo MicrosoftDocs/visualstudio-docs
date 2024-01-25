@@ -2,11 +2,11 @@
 title: What's new and changed in MSBuild 15
 description: Review the changed, updated, and new features of MSBuild 15, available for the .NET Core SDK and for building .NET Core projects on Windows, macOS, and Linux.
 ms.date: 03/01/2017
-ms.topic: conceptual
+ms.topic: whats-new
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # What's new in MSBuild 15
 

@@ -12,11 +12,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Support for the Visual Studio SDK
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Several support options are available for customers who have questions about how to extend the Visual Studio integrated development environment (IDE).
 
 ## Free Support
@@ -57,6 +56,6 @@ Questions about Premier Support offerings in conjunction with the VSIP program c
 
 Information about individual support requests can be found at [Individual Support Requests](https://support.microsoft.com/supportforbusiness/productselection).
 
-## See also
+## Related content
 
 - [Visual Studio Developer Community](https://developercommunity.visualstudio.com/home)

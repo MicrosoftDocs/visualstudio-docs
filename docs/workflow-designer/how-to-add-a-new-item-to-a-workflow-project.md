@@ -6,11 +6,9 @@ ms.topic: how-to
 author: jodavis
 ms.author: jodavis
 manager: jmartens
-ms.technology: vs-workflow-designer
+ms.subservice: workflow-designer
 ---
 # Add a new item to a workflow project
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 After you've created a workflow project, you can add workflow activities, designers, and other familiar Visual Studio items to your project.
 
@@ -38,6 +36,6 @@ The following table lists the Windows Workflow Foundation (WF) items that you ca
 
 1. Select **Add** to add the item to the project.
 
-## See also
+## Related content
 
 - [Create a workflow project](../workflow-designer/creating-a-workflow-project.md)

@@ -1,16 +1,14 @@
 ---
 title: Run unit tests with Test Explorer
 description: Run tests with Test Explorer in Visual Studio, enable automatic tests after build, view results, group and filter the test list, create playlists, and use shortcuts.
-ms.date: 12/13/2022
+ms.date: 1/19/2024
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 ---
 # Run unit tests with Test Explorer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use Test Explorer to run unit tests from Visual Studio or third-party unit test projects. You can also use Test Explorer to group tests into categories, filter the test list, and create, save, and run playlists of tests. You can also use Test Explorer to [debug unit tests](../test/debug-unit-tests-with-test-explorer.md) and, in Visual Studio Enterprise, to [analyze code coverage](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
 
@@ -27,7 +25,7 @@ Visual Studio includes the Microsoft unit testing frameworks for both managed an
 
 ## Run tests in Test Explorer
 
-When you build the test project, the tests appear in Test Explorer. If Test Explorer is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer** (or press **Ctrl** + **E**, **T**).
+When you build the test project, the tests appear in Test Explorer. If Test Explorer is not visible, choose **Test** on the Visual Studio menu, and then choose **Test Explorer** (or press **Ctrl** + **E**, **T**).
 
 ::: moniker range="vs-2019"
 ![Test Explorer](../test/media/vs-2019/test-explorer-16-2.png)
@@ -371,7 +369,7 @@ Test Explorer can play a sound when a test run completes. There are two sounds: 
 3. Find the **Microsoft Visual Studio** category. Choose the **Test Run Succeeded** or **Test Run Failed** sounds to select the preset sounds or browse to your own audio file.  
 ![Windows 11 sound dialog](../test/media/default-windows-11-sound-dialog.png)
 
-## See also
+## Related content
 
 - [Unit test your code](../test/unit-test-your-code.md)
 - [Debug unit tests with Test Explorer](../test/debug-unit-tests-with-test-explorer.md)

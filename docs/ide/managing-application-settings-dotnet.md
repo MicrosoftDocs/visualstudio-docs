@@ -10,11 +10,9 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Manage application settings (.NET)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Application settings enable you to store application information dynamically. With application settings, you can use a client computer to store information that shouldn't be included in the application code at runtime. Application settings can include connection strings, user preferences, and more.
 

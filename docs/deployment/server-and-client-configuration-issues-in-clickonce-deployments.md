@@ -15,11 +15,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Server and client configuration issues in ClickOnce deployments
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 If you use Internet Information Services (IIS) on Windows Server, and your deployment contains a file type that Windows does not recognize, such as a Microsoft Word file, IIS will refuse to transmit that file, and your deployment will not succeed.
 
  Additionally, some Web servers and Web application software, such as ASP.NET, contain a list of files and file types that you cannot download. For example, ASP.NET prevents the download of all *Web.config* files. These files may contain sensitive information such as user names and passwords.
@@ -96,8 +95,8 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
 | https:// | You can install a ClickOnce application by using this protocol. |
 | file:// | You can install a ClickOnce application by using this protocol. |
 
-## Windows XP SP2: Windows Firewall
- By default, Windows XP SP2 enables the Windows Firewall. If you are developing your application on a computer that has Windows XP installed, you are still able to publish and run ClickOnce applications from the local server that is running IIS. However, you cannot access that server that is running IIS from another computer unless you open the Windows Firewall. See Windows Help for instructions on managing the Windows Firewall.
+## Windows Firewall
+ By default, Windows enables the Windows Firewall. If you are developing your application on a computer that has Windows installed, you are still able to publish and run ClickOnce applications from the local server that is running IIS. However, you cannot access that server that is running IIS from another computer unless you open the Windows Firewall. See Windows Help for instructions on managing the Windows Firewall.
 
 ## Windows Server: Enable FrontPage server extensions
  FrontPage Server Extensions from Microsoft is required for publishing applications to a Windows Web server that uses HTTP.
@@ -127,7 +126,7 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
 
  For detailed instructions for IIS, see [How to specify additional document types for HTTP compression](/troubleshoot/iis/content-types-http-compression).
 
-## See also
+## Related content
 - [Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)
 - [Choose a ClickOnce deployment strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)
 - [Application deployment prerequisites](../deployment/application-deployment-prerequisites.md)

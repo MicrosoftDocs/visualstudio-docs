@@ -3,14 +3,12 @@ title: Command-line build for Azure
 description: Command-line build for Azure
 author: ghogen
 manager: jmartens
-ms.technology: vs-azure
+ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 03/05/2017
 ms.author: ghogen
 ---
 # Building Azure projects from the command line
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 

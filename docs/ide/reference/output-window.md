@@ -13,11 +13,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Output window
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Output** window displays status messages for various features in the integrated development environment (IDE). To open the **Output** window, on the menu bar, choose **View** > **Output**, or press **Ctrl**+**Alt**+**O**.
 

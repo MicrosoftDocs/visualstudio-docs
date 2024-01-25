@@ -9,11 +9,9 @@ helpviewer_keywords:
 author: aarnott
 ms.author: andarno
 manager: ansonh
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Provide a brokered service
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A brokered service consists of the following elements:
 
@@ -650,7 +648,7 @@ internal class MefBrokeredService : IExportedBrokeredService, ICalculator
 }
 ```
 
-## See also
+## Related content
 - [Best Practices for Designing a Brokered Service](best-practices-design-brokered-service.md)
 - [How to Secure a Brokered Service](how-to-secure-brokered-service.md)
 - [Brokered Service Essentials](internals/brokered-service-essentials.md)

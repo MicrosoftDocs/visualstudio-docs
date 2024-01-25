@@ -23,11 +23,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Continuing Execution After an Exception
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When the debugger breaks execution because of an exception, you will see the **Exception Helper**, by default. If you have disabled the **Exception Helper** in the **Options** dialog box, you will see the **Exception Assistant** (C# or Visual Basic) or the **Exception** dialog box (C++).
 
  When the **Exception Helper** appears, you can try to fix the problem that caused the exception.
@@ -38,6 +37,6 @@ When the debugger breaks execution because of an exception, you will see the **E
 ## Mixed Code
  If you hit an unhandled exception while debugging a mixed native and managed code, operating system constraints prevent unwinding the call stack. If you try rewinding the call stack using the shortcut menu, an error message explains that the debugger cannot unwind from an unhandled except during mixed-code debugging.
 
-## See also
+## Related content
 
 - [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)

@@ -1,8 +1,8 @@
 ---
-title: 'Build Incrementally'
+title: Build incrementally out-of-date components
 description: Explore how to use MSBuild to build incrementally, so previously built components that are still up-to-date aren't rebuilt.
 ms.date: 05/16/2022
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, incremental builds
 - incremental builds
@@ -10,7 +10,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # Build incrementally
 

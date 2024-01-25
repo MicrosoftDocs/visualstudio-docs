@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Service Essentials
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A service is a contract between two VSPackages. One VSPackage provides a specific set of interfaces for another VSPackage to consume. Visual Studio is itself a collection of VSPackages that provides services to other VSPackages.
 
  For example, you can use the SVsActivityLog service to obtain an IVsActivityLog interface, which you can use to write to the activity log. For more information, see [How to: Use the Activity Log](../../extensibility/how-to-use-the-activity-log.md).
@@ -93,7 +92,7 @@ Fortunately, <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> wor
 
     This code obtains an SVsActivityLog service and casts it to an IVsActivityLog interface, which can be used to write to the activity log. For an example, see [How to: Use the Activity Log](../../extensibility/how-to-use-the-activity-log.md).
 
-## See also
+## Related content
 
 - [List of Available Services](../../extensibility/internals/list-of-available-services.md)
 - [Using and Providing Services](../../extensibility/using-and-providing-services.md)

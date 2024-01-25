@@ -8,11 +8,9 @@ f1_keywords:
 author: jodavis
 ms.author: jodavis
 manager: jmartens
-ms.technology: vs-workflow-designer
+ms.subservice: workflow-designer
 ---
 # AddToCollection\<T> Activity Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **AddToCollection\<T>** activity designer is used to create and configure an <xref:System.Activities.Statements.AddToCollection%601> activity.
 

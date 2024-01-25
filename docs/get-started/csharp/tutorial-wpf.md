@@ -3,8 +3,8 @@ title: "Hello World app with WPF in C#"
 description: Create a simple Windows Desktop .NET application in C# with Visual Studio by using the Windows Presentation Foundation (WPF) UI framework.
 ms.custom: vs-acquisition
 ms.date: 11/17/2023
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
+
+ms.subservice: general-ide
 ms.topic: tutorial
 dev_langs:
   - "CSharp"
@@ -13,8 +13,6 @@ ms.author: meghaanand
 manager: jmartens
 ---
 # Tutorial: Create a simple WPF application with C\#
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 By completing this tutorial, you become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You create a "Hello, World" application, design the UI, add code, and debug errors, while you learn about working in the integrated development environment ([IDE](visual-studio-ide.md)).
 

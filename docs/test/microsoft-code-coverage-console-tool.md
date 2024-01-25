@@ -5,12 +5,10 @@ ms.date: 12/05/2023
 ms.topic: conceptual
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Microsoft.CodeCoverage.Console tool
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Microsoft.CodeCoverage.Console is a command-line tool. You can use it to collect code coverage for C++ and C# code. It supports also merging and converting code coverage reports. This tool can be used to collect code coverage in non-test scenarios (for example, for a simple console application).
 
@@ -170,7 +168,7 @@ D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console shutdown 73c34ce5
 
 ::: moniker-end
 
-## See also
+## Related content
 
 - [dotnet-coverage code coverage utility](/dotnet/core/additional-tools/dotnet-coverage)
 - [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md)

@@ -16,11 +16,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Supporting Symbol-Browsing Tools
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 **Object Browser**, **Class View**, **Call Browser** and **Find Symbol Results** tools provide symbol browsing capabilities in Visual Studio. These tools display hierarchical tree views of symbols and show the relationships between the symbols in the tree. The symbols may represent namespaces, objects, classes, class members, and other language elements contained in various components. The components include Visual Studio projects, external .NET Framework components and type (.tlb) libraries. For more information, see [Viewing the Structure of Code](../../ide/viewing-the-structure-of-code.md).
 
 ## Symbol-Browsing Libraries
@@ -43,7 +42,7 @@ ms.technology: vs-ide-sdk
 > [!NOTE]
 > To implement a native code symbol provider, use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsLibrary2> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectList2> interfaces.
 
-## See also
+## Related content
 - [How to: Register a Library with the Object Manager](../../extensibility/internals/how-to-register-a-library-with-the-object-manager.md)
 - [How to: Expose Lists of Symbols Provided by the Library to the Object Manager](../../extensibility/internals/how-to-expose-lists-of-symbols-provided-by-the-library-to-the-object-manager.md)
 - [How to: Identify Symbols in a Library](../../extensibility/internals/how-to-identify-symbols-in-a-library.md)

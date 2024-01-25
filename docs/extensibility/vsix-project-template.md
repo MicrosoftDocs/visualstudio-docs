@@ -9,11 +9,9 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # VSIX project template
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use the VSIX Project template to wrap one or more Visual Studio extensions in a VSIX project, and then publish the package on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) Web site.
 
@@ -77,7 +75,7 @@ You can package an existing extension, or an extension that does not already hav
 
     Visual Studio builds a *.vsix* file that contains a VSIX manifest file, a [Content_Types]*.xml* file, and all of the extension assets that you added to the project.
 
-## See also
+## Related content
 
 - [VSIX extension schema 2.0 reference](../extensibility/vsix-extension-schema-2-0-reference.md)
 - [Find and use Visual Studio extensions](../ide/finding-and-using-visual-studio-extensions.md)

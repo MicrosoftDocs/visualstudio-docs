@@ -14,11 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
+ms.subservice: sharepoint-development
 ---
 # Debug SharePoint solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can debug SharePoint solutions by using the Visual Studio debugger. When you start debugging, Visual Studio deploys the project files to the SharePoint server and then opens an instance of the SharePoint site in the Web browser. The following sections explain how to debug SharePoint applications in Visual Studio.
 
 - [Enable debugging](#enable-debugging)

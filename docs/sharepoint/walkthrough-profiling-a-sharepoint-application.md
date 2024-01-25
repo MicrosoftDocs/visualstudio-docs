@@ -14,11 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
+ms.subservice: sharepoint-development
 ---
 # Walkthrough: Profile a SharePoint application
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This walkthrough shows how to use the profiling tools in Visual Studio to optimize the performance of a SharePoint application. The example application is a SharePoint feature event receiver that contains an idle loop that degrades the performance of the feature event receiver. The Visual Studio profiler enables you to locate and eliminate the most expensive (slowest-performing) part of the project, also known as the *hot path*.
 
  This walkthrough demonstrates the following tasks:
@@ -277,7 +276,7 @@ ms.technology: sharepoint-development
 
      The feature should activate much faster now that the call to the idle loop has been eliminated. The Sample Profiling Report should reflect this.
 
-## See also
+## Related content
 - [Performance Session Overview](../profiling/performance-session-overview.md)
 - [Beginners Guide to Performance Profiling](../profiling/beginners-guide-to-performance-profiling.md)
 - [Find Application Bottlenecks with Visual Studio Profiler](/archive/msdn-magazine/2008/march/find-application-bottlenecks-with-visual-studio-profiler)

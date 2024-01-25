@@ -7,14 +7,12 @@ dev_langs:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: tutorial
 ms.date: 03/16/2023
 ms.custom: vs-acquisition
 ---
 # Tutorial: Add reference variables and a timer control to your matching game WinForms app
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this series of four tutorials, you build a matching game, where the player matches pairs of hidden icons.
 

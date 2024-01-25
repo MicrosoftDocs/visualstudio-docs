@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Web Site Support Templates
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Visual Studio Web site project and item templates provide reusable and customizable Web site project and item stubs that accelerate the development process by removing the need to create new Web site projects and items from scratch. For more information on Visual Studio templates, see [Creating Project and Item Templates](../../ide/creating-project-and-item-templates.md).
 
 ## Project Template Folder

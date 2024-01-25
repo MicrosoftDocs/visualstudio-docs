@@ -12,12 +12,10 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ---
 # Configure policies for enterprise deployments of Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can configure certain aspects of Visual Studio's deployment and update behavior via policies. Some of these configurations are particular to an installed instance of Visual Studio, and some of the configurations can be global and apply to all instances of Visual Studio on the client machine. The configurable behaviors include:
 

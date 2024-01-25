@@ -14,11 +14,9 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
+ms.subservice: sharepoint-development
 ---
 # Get started (SharePoint development in Visual Studio)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
   This section helps you start working with Visual Studio to develop SharePoint solutions that take advantage of  SharePoint Foundation and  Microsoft SharePoint Server.
 

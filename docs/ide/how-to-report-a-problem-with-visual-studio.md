@@ -6,11 +6,9 @@ ms.topic: how-to
 author: madskristensen
 ms.author: madsk
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Report a problem with the Visual Studio product or installer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 > [!NOTE]
 > For Visual Studio for Mac, see [How to report a problem in Visual Studio for Mac](/visualstudio/mac/report-a-problem).
@@ -59,7 +57,6 @@ Alternatively, report a problem in **Visual Studio Installer** if you can't inst
     
    > [!Warning]
    > There may be a several seconds delay between clicking **Start recording** and the prompt where Windows asks for permission to start a program with elevated permissions.
-
 
 5. Review the attached files and upload additional files if you believe it would help diagnose the issue.
 

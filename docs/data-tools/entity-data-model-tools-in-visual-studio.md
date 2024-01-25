@@ -1,16 +1,14 @@
 ---
-title: Entity Framework Tools
+title: Overview of Entity Framework Tools
 description: Explore Entity Framework tools in Visual Studio, including the Entity Data Model Designer, Create Database Wizard, and Update Model Wizard.
 ms.date: 11/01/2023
 ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Entity Framework Tools in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Entity Framework is an object-relational mapping technology that enables .NET developers to work with relational data by using domain-specific objects. It eliminates the need for most of the data-access code that developers usually need to write. Entity Framework is the recommended object-relational mapping (ORM) modeling technology for new .NET applications.
 
@@ -48,6 +46,6 @@ The tools generate or modify an `.edmx` file. This `.edmx` file contains informa
 | [Entity Data Model](/dotnet/framework/data/adonet/entity-data-model) | Provides links and information for working with data that is used by applications built on Entity Framework. |
 | [Entity Framework (EF) Documentation)](/ef/ef6/get-started) | Provides an index of videos, tutorials, and advanced documentation to help you make the most of Entity Framework. |
 
-## See also
+## Related content
 
 - [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)

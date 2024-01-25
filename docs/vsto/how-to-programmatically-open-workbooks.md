@@ -12,11 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Programmatically open workbooks
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The <xref:Microsoft.Office.Interop.Excel.Workbooks> collection in Microsoft Office Excel makes it possible to work with all open workbooks and to open workbooks.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
@@ -37,7 +36,7 @@ ms.technology: office-development
 
 - A workbook named `YourWorkbook.xls` must exist in a directory named `Test` on drive C.
 
-## See also
+## Related content
 - [Work with workbooks](../vsto/working-with-workbooks.md)
 - [How to: Programmatically open text files as workbooks](../vsto/how-to-programmatically-open-text-files-as-workbooks.md)
 - [How to: Programmatically create new workbooks](../vsto/how-to-programmatically-create-new-workbooks.md)

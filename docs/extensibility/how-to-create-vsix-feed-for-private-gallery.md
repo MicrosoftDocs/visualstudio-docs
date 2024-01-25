@@ -9,11 +9,10 @@ helpviewer_keywords:
 author: anva
 ms.author: anva
 manager: tinali
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Create the ATOM feed (VsixFeed) for Visual Studio Private Galleries using VsixUtil
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can use the Visual Studio VSSDK command line utility tool to create an ATOM feed, see [Private galleries](../extensibility/private-galleries.md)  
 
 ```csharp
@@ -110,5 +109,5 @@ The install location for the VsixUtil tool is *{VS Install Path}\VSSDK\VisualStu
 </Vsix> 
 ```
 
-## See also
+## Related content
 - [Private galleries](../extensibility/private-galleries.md)

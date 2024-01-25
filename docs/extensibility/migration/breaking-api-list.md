@@ -6,13 +6,11 @@ ms.topic: reference
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 monikerRange: "vs-2022"
 feedback_system: GitHub
 ---
 # Breaking API changes in Visual Studio 2022
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If you're migrating an extension to Visual Studio 2022, the breaking changes listed here might affect you.
 

@@ -9,7 +9,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 
 # Customize your local build
@@ -18,7 +18,12 @@ When you work in a team that used a code repository like GitHub, source control,
 
 ## .user file
 
-*Microsoft.Common.CurrentVersion.targets* imports `$(MSBuildProjectFullPath).user` if it exists, so you can create a file next to your project with that additional extension. For long-term changes you plan to check into source control, prefer changing the project itself, so that future maintainers do not have to know about this extension mechanism.
+Using `$(MSBuildProjectFullPath).user`, also referred as `.user` file in this context, is also an option. This file is intended to keep extensions, options, or variables that are specific to your local machine. It is not intended to be uploaded to source control, and it is automatically checked on `.gitignore`. For more extensive changes prefer changing the project itself, so that future maintainers do not have to know about this extension mechanism.
+
+On supported multitargeted projects the `.user` file is automatically imported in inner builds and outer builds, so you can just create the file within the solution. If you are working on another type of build, you can still use the `.user` file. You can create it within your solution and then import it in your project file.
+```xml
+<Import Project="$(MSBuildProjectFullPath).user" Condition="Exists('$(MSBuildProjectFullPath).user')"/>
+```
 
 ## MSBuildExtensionsPath and MSBuildUserExtensionsPath
 

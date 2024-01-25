@@ -1,9 +1,9 @@
 ---
-title: What is Visual Studio?
+title: What is the Visual Studio IDE?
 titleSuffix: ''
 description: Explore the Visual Studio integrated development environment (IDE) that empowers you to develop, edit, debug, version control, and deploy your app.
 ms.date: 05/05/2023
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: overview
 ms.custom: vs-acquisition
 f1_keywords:
@@ -14,8 +14,6 @@ ms.author: meghaanand
 manager: jmartens
 ---
 # What is Visual Studio?
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio is a powerful developer tool that you can use to complete the entire development cycle in one place. It is a comprehensive integrated development environment (IDE) that you can use to write, edit, debug, and build code, and then deploy your app. Beyond code editing and debugging, Visual Studio includes compilers, code completion tools, source control, extensions, and many more features to enhance every stage of the software development process.
 

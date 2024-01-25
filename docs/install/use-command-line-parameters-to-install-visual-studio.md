@@ -11,19 +11,16 @@ f1_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ---
 # Use command-line parameters to install, update, and manage Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you install Visual Studio programmatically or from a command prompt, you can use various command-line parameters to control or customize the installation to perform the following actions:
 
 - Start the installation on the client with certain options and behaviors preselected.
 - Automate the installation or update process.
 - Create or maintain a network layout of the product files for installing or updating client machines.
-
 
 The command-line verbs and parameters described below can be used with the following executables or programs:
   - The setup bootstrapper, which is the small (~1 MB) file (for example, vs_enterprise.exe) that initiates the download process and the initial installation.
@@ -103,7 +100,7 @@ Syntax example: `vs_enterprise.exe [command] <optional parameters>...`
 | `--allWorkloads`                                   | **Optional**: During an install or modify command, this parameter installs all workloads and components, but no recommended or optional components.  |
 | `--includeRecommended`                             | **Optional**: During an install or modify command, this parameter includes the recommended components for any workloads that are installed, but not the optional components. The workloads are specified either with `--allWorkloads` or `--add`.  |
 | `--includeOptional`                                | **Optional**: During an install or modify command, this parameter includes the optional components for any workloads that are installed, but not the recommended components. The workloads are specified either with `--allWorkloads` or `--add`. |
-| `--quiet, -q`                                      | **Optional**: Used with any command, this parameter prevents any user interface from being displayed while the command is being executed. Not available to use programmatically by [standard users](https://aka.ms/vs/setup/policies). |
+| `--quiet`                                      | **Optional**: Used with any command, this parameter prevents any user interface from being displayed while the command is being executed. Not available to use programmatically by [standard users](https://aka.ms/vs/setup/policies). |
 | `--passive, -p`                                    | **Optional**: This parameter causes the user interface to be displayed in a non-interactive manner. This parameter is mutually exclusive from (and in fact overrides) the `--quiet` parameter. Also not available to use programmatically by [standard users](https://aka.ms/vs/setup/policies).  |
 | `--norestart`                                      | **Optional**: This parameter must be paired with either the `--passive` or `--quiet` parameters.  During an install, update, or modify command, adding the `--norestart` parameter delays any necessary reboot.    |
 | `--force`                                          | **Optional**: This parameter forces Visual Studio to close even if any Visual Studio process is in use. Forcing Visual Studio to close might cause loss of work, so use it with caution.  |
@@ -169,7 +166,7 @@ You can modify the update settings and programmatically configure the source loc
 | `--newChannelUri`                               | **Required**: The URI of the channel manifest. This value specifies where the next [source location of updates](update-visual-studio.md#configure-source-location-of-updates-1) will be. Refer to [syntax examples of --channelUri](/visualstudio/install/command-line-parameter-examples#using---channeluri) for possible values. If updates aren't wanted, `--channelUri` can point to a non-existent file (for example, --channelUri C:\doesntExist.chman). |
 | `--channelUri`                               | The URI of the old channel manifest. Can be used if the --installPath is not known. Must be used in conjunction with productID to identify the right instance to act upon. |
 | `--productId <id>`                           | Must be used if --channelUri is specified and is used to identify the right instance to act upon. The `productID` is something like "Microsoft.VisualStudio.Product.Enterprise". |
-| `--quiet, -q`                                   | **Optional**: This parameter prevents any user interface from being displayed while the command is being executed. Not available to use programmatically by [standard users](https://aka.ms/vs/setup/policies). |
+| `--quiet`                                   | **Optional**: This parameter prevents any user interface from being displayed while the command is being executed. Not available to use programmatically by [standard users](https://aka.ms/vs/setup/policies). |
 | `--removeOos true`                              | **Optional**: During a modifySettings command, this parameter (which must have the word true or false immediately after it) tells the Visual Studio installer to _persistently_ remove (or not remove) all installed components that have transitioned to an out-of-support state. Useful for helping to keep the machine secure. | 
 
 Syntax examples: 
@@ -234,7 +231,6 @@ visualstudioupdate-16.9.0to16.9.4.exe --installerUpdateArgs=--force,--noWeb,--ke
 
 ## Remove channel command and command-line parameters
 Channels that are available to update from, are cached on the client, and over time they can clutter things up. You can manually remove [update channels](update-visual-studio.md#configure-source-location-of-updates-1) by bringing up the Visual Studio Installer, switching to the **Available** tab, and clicking on the **X** in the top right corner of the product card. You can programmatically remove channels (for example, older layout locations) using the `removeChannel` command. You can run [vswhere](tools-for-managing-visual-studio-instances.md#using-vswhereexe) programmatically on the client machine to determine which channels are cached on the client machine. 
-
 
 | **Command** | **Description**                                                                                                         |
 |-------------|-------------------------------------------------------------------------------------------------------------------------|

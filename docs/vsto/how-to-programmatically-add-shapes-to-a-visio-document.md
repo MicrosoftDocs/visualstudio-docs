@@ -13,11 +13,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Programmatically add shapes to a Visio document
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can add shapes to a Microsoft Office Visio document by retrieving the masters from a stencil and dropping the shapes on the active page.
 
  For more information, see the VBA reference documentation for the [Microsoft.Office.Interop.Visio.Documents.Add](/office/vba/api/Visio.Documents.Add) method, [Microsoft.Office.Interop.Visio.Application.ActivePage](/office/vba/api/Visio.Application.ActivePage) property, and [Microsoft.Office.Interop.Visio.Page.Drop](/office/vba/api/Visio.Page.Drop) method.
@@ -37,7 +36,7 @@ ms.technology: office-development
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb" id="Snippet13":::
      ---
 
-## See also
+## Related content
 - [Visio solutions](../vsto/visio-solutions.md)
 - [Visio object model overview](../vsto/visio-object-model-overview.md)
 - [Work with Visio shapes](../vsto/working-with-visio-shapes.md)

@@ -9,12 +9,11 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ---
 # Control updates to network-based Visual Studio deployments
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 > [!WARNING]
 > THIS CONTENT IS INTENDED TO BE DEPRECATED AS IT'S BEEN MERGED INTO OTHER PAGES. This page has been removed from the TOC.
 

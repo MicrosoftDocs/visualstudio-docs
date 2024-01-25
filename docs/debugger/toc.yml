@@ -212,34 +212,32 @@
         href: hot-reload.md
       - name: Extend Hot Reload (.NET)
         href: hot-reload-metadataupdatehandler.md
+    - name: Edit and Continue
+      items:
+      - name: Configure Edit and Continue
+        href: how-to-enable-and-disable-edit-and-continue.md
+      - name: Edit and Continue (C++)
+        items:
+        - name: Edit and Continue for C++
+          href: edit-and-continue-visual-cpp.md
+        - name: Supported Code Changes (C++)
+          href: supported-code-changes-cpp.md
+      - name: Edit and Continue (Visual C#)
+        items:
+        - name: Edit and Continue for C#
+          href: edit-and-continue-visual-csharp.md
+        - name: Supported Code Changes
+          href: supported-code-changes-csharp.md
+      - name: Edit and Continue (Visual Basic)
+        href: edit-and-continue-visual-basic.md
+      - name: Edit and Continue not supported for F#
+        href: edit-and-continue-not-supported-for-f-hash.md
     - name: XAML Hot Reload
       items:
       - name: Write and debug running XAML code
         href: ../xaml-tools/xaml-hot-reload.md?toc=/visualstudio/debugger/toc.json
       - name: Troubleshooting XAML Hot Reload
         href: /troubleshoot/developer/visualstudio/tools-utilities/xaml-hot-reload-troubleshooting?toc=/visualstudio/debugger/toc.json
-    - name: Edit code and continue debugging
-      href: edit-and-continue.md
-    - name: Enable and disable Edit and Continue
-      href: how-to-enable-and-disable-edit-and-continue.md
-    - name: Stop code changes
-      href: how-to-stop-code-changes.md
-    - name: Edit and Continue (C++)
-      items:
-      - name: Edit and Continue for C++
-        href: edit-and-continue-visual-cpp.md
-      - name: Supported Code Changes (C++)
-        href: supported-code-changes-cpp.md
-    - name: Edit and Continue (Visual C#)
-      items:
-      - name: Edit and Continue for C#
-        href: edit-and-continue-visual-csharp.md
-      - name: Supported Code Changes
-        href: supported-code-changes-csharp.md
-    - name: Edit and Continue (Visual Basic)
-      href: edit-and-continue-visual-basic.md
-    - name: Edit and Continue not supported for F#
-      href: edit-and-continue-not-supported-for-f-hash.md
   - name: Source code
     items:
     - name: Decompile .NET assemblies
@@ -264,8 +262,6 @@
       href: remote-debugger-port-assignments.md
     - name: Configure the Windows Firewall for remote debugging
       href: configure-the-windows-firewall-for-remote-debugging.md
-    - name: Unblock the download on Windows Server
-      href: remote-debugging-unblock-file-download.md
     - name: Troubleshoot remote debugging >>
       href: /troubleshoot/developer/visualstudio/debuggers/troubleshooting-remote-debugging?toc=%2Fvisualstudio%2Fdebugger%2Ftoc.json
     - name: Remote debugging error reference
@@ -456,10 +452,6 @@
           href: how-to-debug-the-onstart-method.md
       - name: F#
         href: debugging-f-hash.md
-      - name: Error reference
-        items:
-        - name: Debugging isn't possible because a kernel debugger is enabled on the system
-          href: error-debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system.md
     - name: C/C++ code
       items:
       - name: Debug native code
@@ -508,8 +500,6 @@
         href: how-to-find-the-name-of-the-aspnet-process.md
       - name: Debug deployed Web applications
         href: debugging-deployed-web-applications.md
-      - name: 'Walkthrough: Debugging a Web Form'
-        href: walkthrough-debugging-a-web-form.md
       - name: Debug ASP.NET exceptions
         href: how-to-debug-aspnet-exceptions.md
       - name: 'Web apps: Errors and troubleshooting'
@@ -537,11 +527,7 @@
     - name: JavaScript and TypeScript >>
       href: ../javascript/debug-nodejs.md
     - name: Web apps
-      items:
-      - name: Debug Web applications
-        href: debugging-web-applications.md
-      - name: 'Warning: Script debugging disabled'
-        href: warning-script-debugging-disabled.md
+      href: debugging-web-applications.md
     - name: WCF services
       items:
       - name: Debug WCF services
@@ -688,8 +674,6 @@
         href: error-unable-to-connect-to-sql-server-on-remote-machine.md
       - name: Unable to access the SQL Server debugging interface
         href: error-unable-to-access-the-sql-server-debugging-interface.md
-      - name: SQL Can't Find SSDEBUGPS
-        href: error-sql-can-t-find-ssdebugps.md
       - name: Transact-SQL execution ended without debugging
         href: error-transact-sql-execution-ended-without-debugging.md
       - name: User could not execute stored procedure sp_enable_sql_debug

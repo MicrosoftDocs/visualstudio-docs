@@ -1,5 +1,5 @@
 ---
-title: "Programmatically perform actions if email message is received"
+title: Programmatically do actions when email received (Visual Studio)
 description: Perform custom actions for received Microsoft Outlook email messages programmatically from Visual Basic or C# in Visual Studio.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -15,11 +15,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Programmatically perform actions when an email message is received
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example performs custom actions when the user receives an email message.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
@@ -33,7 +32,7 @@ ms.technology: office-development
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Outlook_RL_PerformActions/thisaddin.vb" id="Snippet1":::
  ---
 
-## See also
+## Related content
 - [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md)
 - [Work with mail items](../vsto/working-with-mail-items.md)
 - [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)

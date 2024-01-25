@@ -6,11 +6,9 @@ ms.topic: error-reference
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # The connection property in the Application Settings file is missing or incorrect
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The connection property in the Application Settings file is missing or incorrect. The connection string from the `.dbml` file has been used in its place.
 

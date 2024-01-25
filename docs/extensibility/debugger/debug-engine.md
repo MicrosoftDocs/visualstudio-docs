@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Debug engine
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A debug engine (DE) works with the interpreter or operating system to provide debugging services such as execution control, breakpoints, and expression evaluation. The DE is responsible for monitoring the state of a program being debugged. To do accomplish this, the DE uses whatever methods are available to it in the supported runtime, whether from the CPU or from APIs supplied by the runtime.
 
  For example, the common language runtime (CLR) supplies mechanisms to monitor a running program through the ICorDebugXXX interfaces. A DE that supports the CLR uses the appropriate ICorDebugXXX interfaces to keep track of a managed code program being debugged. It then communicates any changes of state to the session debug manager (SDM), which forwards such information to the Visual Studio IDE.

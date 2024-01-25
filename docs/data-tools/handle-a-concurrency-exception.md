@@ -1,5 +1,5 @@
 ---
-title: Handle a concurrency exception in .NET Framework database applications
+title: Handle concurrency exceptions in .NET Framework
 description: Handle a concurrency exception (System.Data.DBConcurrencyException) in Visual Studio when two users try to change the same data in a database at the same time.
 ms.date: 09/11/2017
 ms.topic: how-to
@@ -16,11 +16,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Handle a concurrency exception in .NET Framework database applications
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 

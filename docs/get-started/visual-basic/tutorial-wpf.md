@@ -1,20 +1,18 @@
 ---
-title: "Tutorial: Create an app with Windows Presentation Foundation with Visual Basic"
+title: "Tutorial: Use Windows Presentation Foundation (WPF)"
 description: Create a Windows Desktop .NET app in Visual Basic with Visual Studio by using the Windows Presentation Foundation (WPF) UI framework.
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: tutorial
-ms.prod: visual-studio-windows
+
 dev_langs:
   - "VB"
-ms.date: 10/31/2022
+ms.date: 12/07/2023
 ms.custom: vs-acquisition
 ---
 # Tutorial: Create a WPF application with Visual Basic
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this tutorial, you'll create an application using Visual Basic in the Visual Studio integrated development environment (IDE).
 Your program will use the Windows Presentation Foundation (WPF) UI framework.
@@ -189,7 +187,7 @@ That code refers to the radio button selection.
 
 1. On the design surface, double-click the **Display** button.
 
-   *Greetings.xaml.vb* opens, with the cursor in the `Button_Click` event.
+   *MainWindow.xaml.vb* opens, with the cursor in the `Button_Click` event.
 
     ```vb
     Private Sub Button_Click(sender As Object, e As RoutedEventArgs)
@@ -217,8 +215,18 @@ To see how this process works, the first step deliberately introduces an error i
 1. Start the debugger by pressing **F5** or selecting **Debug**, then **Start Debugging**.
 
    A **Break Mode** window appears, and the **Output** window indicates that an exception has occurred.
+    
+   ::: moniker range="vs-2019"
 
-   :::image type="content" source="media/tutorial-wpf/exception-unhandled.png" alt-text="Screenshot showing the 'Exception Unhandled' window with a System.IO.Exception message that reads 'Cannot locate resource mainwindow.xaml'.":::
+      :::image type="content" source="media/tutorial-wpf/exception-unhandled.png" alt-text="Screenshot showing the 'Exception Unhandled' window with a System.IO.Exception message that reads 'Cannot locate resource mainwindow.xaml'.":::
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2022"
+
+   :::image type="content" source="media/tutorial-wpf/exception-unhandled-vs-2022.png" alt-text="Screenshot showing the 'Exception Unhandled' window with a System.IO.Exception message that reads 'Cannot locate resource mainwindow.xaml'.":::
+
+   ::: moniker-end
 
 1. Stop the debugger by choosing **Debug** > **Stop Debugging**.
 
@@ -299,7 +307,7 @@ Now that you've verified that everything works, you can prepare a release build 
 1. Select **Build** > **Build Solution**.
 
 Congratulations on completing this tutorial!
-You can find the *.exe* you built under your solution and project directory (*...\HelloWPFApp\HelloWPFApp\bin\Release*).
+You can find the *.exe* you built under your solution and project directory (*...\HelloWPFApp\bin\Release*).
 
 ## Next steps
 
@@ -307,7 +315,7 @@ Advance to the next article to learn how to create a Windows Forms app in Visual
 > [!div class="nextstepaction"]
 > [Create a Windows Forms app](../../ide/create-a-visual-basic-winform-in-visual-studio.md)
 
-## See also
+## Related links
 
 For more information about Visual Studio, see these resources:
 

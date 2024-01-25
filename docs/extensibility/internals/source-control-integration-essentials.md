@@ -10,11 +10,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Source Control Integration Essentials
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Visual Studio supports two types of source control integration: a source control plug-in that provides basic functionality and is built using the Source Control Plug-in API (formerly known as the MSSCCI API), and a VSPackage-based source control integration solution that provides more robust functionality.
 
 ## Source Control Plug-in
@@ -45,7 +44,7 @@ Visual Studio supports two types of source control integration: a source control
 
    For more information, see [Creating a Source Control VSPackage](../../extensibility/internals/creating-a-source-control-vspackage.md).
 
-## See also
+## Related content
 - [Overview](../../extensibility/internals/source-control-integration-overview.md)
 - [Creating a Source Control Plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md)
 - [Creating a Source Control VSPackage](../../extensibility/internals/creating-a-source-control-vspackage.md)

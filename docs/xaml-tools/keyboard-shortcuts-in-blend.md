@@ -7,11 +7,9 @@ ms.topic: reference
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.technology: vs-xaml-tools
+ms.subservice: xaml-tools
 ---
 # Keyboard shortcuts in Blend for Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ## Project shortcuts
 

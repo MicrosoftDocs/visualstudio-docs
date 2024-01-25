@@ -9,11 +9,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Icon element
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The guid attribute of the Icon tag is the guid of a defined bitmap. The `id` attribute selects the slot in the bitmap strip. This element is optional. If this element is not included the value of **guidOfficeIcon:msotcidNoIcon** will be implied.
 
 ## Syntax

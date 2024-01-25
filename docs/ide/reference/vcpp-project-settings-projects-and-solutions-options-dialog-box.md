@@ -19,8 +19,6 @@ manager: markl
 ---
 # VC++ Project Settings, Projects and Solutions, Options Dialog Box
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This dialog box lets you define C++ build and project settings related to logging, performance, and supporting file types.
 
 ## To access this dialog box

@@ -6,11 +6,9 @@ ms.topic: how-to
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.technology: vs-xml-tools
+ms.subservice: xml-tools
 ---
 # Generate an XML snippet from an XML schema
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The XML editor has the ability to generate XML snippets from an XML Schema definition language (XSD) schema. For example, as you are authoring an XML file, while positioned next to the element name, you can press **Tab** to populate the element with XML data generated from the schema information for that element.
 
@@ -149,7 +147,7 @@ Following is the XML data that is generated based on the schema information asso
 </Contact>
 ```
 
-## See also
+## Related content
 
 - [XML snippets](../xml-tools/xml-snippets.md)
 - [How to: Use XML snippets](../xml-tools/how-to-use-xml-snippets.md)

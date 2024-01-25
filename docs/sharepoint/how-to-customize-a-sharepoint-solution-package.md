@@ -16,11 +16,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
+ms.subservice: sharepoint-development
 ---
 # Customize a SharePoint solution package
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can use the Package Designer to create and customize a package (*.wsp*). For example, you can add SharePoint project items and Features, specify if the Web server is reset when the solution is deployed, and set the deployment server type.
 
 ## Open the Package Designer
@@ -83,5 +82,5 @@ ms.technology: sharepoint-development
 
      The template is refreshed with the original text, and any changes to the XML are lost.
 
-## See also
+## Related content
 - [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

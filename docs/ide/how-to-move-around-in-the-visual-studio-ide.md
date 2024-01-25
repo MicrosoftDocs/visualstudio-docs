@@ -1,5 +1,5 @@
 ---
-title: Move around in the IDE
+title: Move around in the IDE across windows and files
 description: Explore how to move around in the Visual Studio integrated development environment (IDE) from window to window and file to file in several different ways.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -15,11 +15,9 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Move around in the Visual Studio IDE
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The integrated development environment (IDE) has been designed to allow you to move from window to window and file to file in several different ways, depending on your preference or project requirements. You can choose to cycle through open files in the editor, or cycle through all active tool windows in the IDE. You also can switch directly to any file open in the editor, regardless of the order in which it was last accessed. These features can help increase your productivity when working in the IDE.
 
@@ -34,7 +32,7 @@ Almost every menu command in Visual Studio has a keyboard shortcut. You can also
 
 You can use several methods to move through the files open in the editor. You can move among files based on the order in which you access them, use the IDE Navigator to quickly find any file currently open, or pin favorite files to the tab well so that they are always visible.
 
-Navigate backward and navigate forward cycle through the open files in the editor based on the order in which they were accessed, much like back and forward do for your viewing history in Microsoft Internet Explorer.
+Navigate backward and navigate forward cycle through the open files in the editor based on the order in which they were accessed, much like back and forward do for your viewing history in a browser.
 
 ### To move through open files in order of use
 

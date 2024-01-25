@@ -6,11 +6,9 @@ ms.topic: conceptual
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.technology: vs-xml-tools
+ms.subservice: xml-tools
 ---
 # XML editor IntelliSense features
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The XML editor provides full IntelliSense features comparable to other language editors provided in Visual Studio. This section explains how you can use the IntelliSense with XML Schema definition language (XSD) and XSLT documents.
 
@@ -120,7 +118,7 @@ The **Auto Insert** section of the **Miscellaneous** page controls the following
 
 3. Make any changes to the **Auto insert** section and click **OK**.
 
-## See also
+## Related content
 
 - [XML editor](../xml-tools/xml-editor.md)
 - [Using IntelliSense](../ide/using-intellisense.md)

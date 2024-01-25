@@ -1,5 +1,5 @@
 ---
-title: "Modify Visual Studio workloads, components, & language packs"
+title: Modify Visual Studio workloads, components, & language packs
 titleSuffix: ''
 description: Modify your Visual Studio installation with the Visual Studio Installer, add or remove workloads, components, and language packs.
 ms.date: 7/28/2023
@@ -13,12 +13,10 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ---
 # Modify Visual Studio workloads, components, and language packs
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 It's easy to modify Visual Studio so that it includes only what you want, when you want it. To do so, open the Visual Studio Installer, and then add or remove workloads, components, and language packs.
 

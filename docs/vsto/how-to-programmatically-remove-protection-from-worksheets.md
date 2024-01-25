@@ -15,11 +15,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Programmatically remove protection from worksheets
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can programmatically remove protection from a Microsoft Office Excel worksheet.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
@@ -48,7 +47,7 @@ ms.technology: office-development
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb" id="Snippet18":::
      ---
 
-## See also
+## Related content
 - [Work with worksheets](../vsto/working-with-worksheets.md)
 - [How to: Programmatically protect worksheets](../vsto/how-to-programmatically-protect-worksheets.md)
 - [How to: Programmatically protect workbooks](../vsto/how-to-programmatically-protect-workbooks.md)

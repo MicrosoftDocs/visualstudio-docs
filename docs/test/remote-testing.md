@@ -6,12 +6,10 @@ ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 monikerRange: '>= vs-2022'
 ---
 # Remote Testing (experimental preview)
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Remote testing enables developers to connect Visual Studio 2022 to remote environments for running and debugging tests. This functionality is useful for cross-platform developers who deploy code to multiple different target environments such as different Windows or Linux operating systems. For example, normally a developer pushes changes to a CI pipeline to get feedback from a test running on Linux. With the remote testing feature, you can run Linux tests right from Visual Studio by connecting the Test Explorer to a remote environment.
 
@@ -213,7 +211,7 @@ Here's how you can use the Test Explorer to run and debug your remote environmen
 
 * Test Explorer can prompt you to install some missing environment prerequisites and attempt to install missing dependencies. However, the bulk of the provisioning of the remote environment is up to the user's specification.
 
-## See also
+## Related content
 
 - [Debug unit tests with Test Explorer](../test/debug-unit-tests-with-test-explorer.md)
 - [Run a unit test as a 64-bit process](../test/run-a-unit-test-as-a-64-bit-process.md)

@@ -2,7 +2,7 @@
 title: Item Metadata in Target Batching
 description: Learn how MSBuild uses item metadata in target batching to perform dependency analysis on the inputs and outputs of a build target.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - batching [MSBuild]
 - MSBuild, target batching
@@ -10,9 +10,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
-# Item metadata in target batching
+# Work with item metadata in target batching
 
 MSBuild has the ability to perform dependency analysis on the inputs and outputs of a build target. If it is determined that the inputs or outputs of the target are up-to-date, the target will be skipped and the build will proceed. `Target` elements use the `Inputs` and `Outputs` attributes to specify the items to inspect during dependency analysis.
 

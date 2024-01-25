@@ -7,14 +7,12 @@ ms.devlang: javascript
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
 monikerRange: '>= vs-2022'
 ---
 # Tutorial: Create an ASP.NET Core app with Angular in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this article, you learn how to build an ASP.NET Core project to act as an API backend and an Angular project to act as the UI.
 
@@ -135,9 +133,7 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
 
 1. To publish, right click the ASP.NET Core project, choose **Publish**, and select options to match your desired publish scenario, such as Azure, publish to a folder, etc.
 
-   The publish process takes more time than it does for just an ASP.NET Core project, since the `npm start` command gets invoked when publishing.
-
-   You can modify the `npm start` command using the **Startup Command** in the Angular project properties. To modify it, right-click the Angular project in Solution Explorer and choose **Properties**.
+   The publish process takes more time than it does for just an ASP.NET Core project, since the `npm run build` command gets invoked when publishing. The [BuildCommand](../javascript/javascript-project-system-msbuild-reference.md#buildcommand) runs `npm run build` by default.
 
 ## Troubleshooting
 

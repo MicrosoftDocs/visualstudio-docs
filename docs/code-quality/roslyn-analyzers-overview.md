@@ -11,11 +11,9 @@ helpviewer_keywords:
 author: mikadumont
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-code-analysis
+ms.subservice: code-analysis
 ---
 # About .NET source code analysis in Visual Studio with Roslyn analyzers
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 .NET Compiler Platform (Roslyn) Analyzers inspect your C# or Visual Basic code for style, quality, maintainability, design, and other issues. This inspection or analysis happens during design time in all open files.
 
@@ -96,7 +94,7 @@ You can't configure the severity of rules from analyzers that were installed as 
 > [!div class="nextstepaction"]
 > [Use code analyzers in Visual Studio](../code-quality/use-roslyn-analyzers.md)
 
-## See also
+## Related content
 
 - [Analyzers FAQ](analyzers-faq.yml)
 - [Write your own code analyzer](../extensibility/getting-started-with-roslyn-analyzers.md)

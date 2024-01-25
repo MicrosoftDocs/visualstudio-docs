@@ -11,11 +11,9 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
+ms.subservice: sharepoint-development
 ---
 # Create SharePoint solutions
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
   You can create SharePoint applications in Visual Studio as an alternative to creating them in SharePoint Designer. Visual Studio promotes rapid SharePoint development by providing such features as advanced debugging tools, IntelliSense, statement completion, and project templates. Visual Studio also takes advantage of advanced .NET Framework-based tools and languages. You can develop SharePoint projects by using either Visual Basic or Visual C#, and you can develop app for SharePoint projects by using JavaScript.
 

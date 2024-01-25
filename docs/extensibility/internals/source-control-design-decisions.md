@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Source Control Design Decisions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following design decisions should be considered for projects when implementing source control.
 
 ## Will information be shared or private?
@@ -29,7 +28,7 @@ The following design decisions should be considered for projects when implementi
 
 3. When your project or editor calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A> for a file, the special files associated with that file are not automatically checked out. Pass the special files in along with the parent file. The environment will detect the relationship between all files that are passed in and appropriately hide the special files in the check-out UI.
 
-## See also
+## Related content
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocumentsEvents2>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2>

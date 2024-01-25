@@ -1,19 +1,17 @@
 ---
-title: Using stubs to isolate parts of your app for testing
+title: Use stubs to isolate parts of your app for testing
 description: Learn about a stub, which is a small piece of code that takes the place of another component during testing. Using a stub returns consistent results.
 ms.date: 10/25/2023
 ms.topic: how-to
 ms.author: oscalles
 manager: aajohn
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 author: ocallesp
 dev_langs: 
   - CSharp
   - VB
 ---
 # Use stubs to isolate parts of your application from each other for unit testing
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 *Stub types* are an important technology provided by the Microsoft Fakes framework, enabling easy isolation of the component you're testing from other components it relies on. A stub acts as a small piece of code that replaces another component during testing. A key benefit of using stubs is the ability to obtain consistent results to make test writing easier. Even if the other components aren't yet fully functional, you can still execute tests by using stubs.
 
@@ -252,7 +250,6 @@ Now create the unit test.
 
    ![Screenshot of Test Explorer.](../test/media/microsoft-fakes-stubs-test-explorer.png)
 
-
 ## Stubs for different kinds of type members
 
 There are stubs for different kinds of type members.
@@ -421,6 +418,6 @@ The behavior can also be changed globally for all stub objects where the behavio
 StubBehaviors.Current = BehavedBehaviors.DefaultValue;
 ```
 
-## See also
+## Related content
 
 - [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)

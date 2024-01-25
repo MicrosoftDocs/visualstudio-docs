@@ -5,7 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 03/02/2022
-ms.technology: vs-ide-install
+ms.subservice: install
 ms.custom: video
 ms.topic: how-to
 ---
@@ -14,7 +14,6 @@ ms.topic: how-to
  [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 To start developing native, cross-platform .NET apps on macOS, install Visual Studio for Mac following the steps below.
-
 
 ::: moniker range="vsmac-2022"
 
@@ -26,7 +25,6 @@ Learn more about the changes in the [release notes](/visualstudio/releases/2022/
 ::: moniker-end
 
 ## Prerequisites
-
 
 ::: moniker range="vsmac-2022"
 
@@ -41,7 +39,6 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 - An Apple ID. If you don't have an Apple ID already, you can create a new one at https://appleid.apple.com. It's necessary to have an Apple ID for installing and signing into Xcode.
 
 ## Installation instructions
-
 
 ::: moniker range="vsmac-2022"
 

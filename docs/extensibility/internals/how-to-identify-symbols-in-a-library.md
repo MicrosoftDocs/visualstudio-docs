@@ -9,11 +9,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Identify symbols in a library
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Symbol-browsing tools display hierarchical views of symbols. The symbols represent namespaces, objects, classes, class members, and other language elements.
 
  Each symbol in the hierarchy can be identified by the navigation information passed by the symbol library to the Visual Studio object manager through the following interfaces:
@@ -77,7 +76,7 @@ N1
 
      The object manager calls this method to obtain the list of nodes contained in the presentation path of the symbol.
 
-## See also
+## Related content
 - [Support symbol-browsing tools](../../extensibility/internals/supporting-symbol-browsing-tools.md)
 - [How to: Register a library with the object manager](../../extensibility/internals/how-to-register-a-library-with-the-object-manager.md)
 - [How to: Expose lists of symbols provided by the library to the object manager](../../extensibility/internals/how-to-expose-lists-of-symbols-provided-by-the-library-to-the-object-manager.md)

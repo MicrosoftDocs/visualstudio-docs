@@ -10,11 +10,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Go to Find Combo box
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can search for text and run Visual Studio commands from the **Go to Find Combo** box, previously known as the **Find/Command** box. The equivalent of the **Find/Command** box is still available as a toolbar control, but it is named **Go to Find Combo** and is no longer visible by default. To display the **Go to Find Combo** box, follow these steps:
 

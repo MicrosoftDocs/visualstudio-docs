@@ -1,17 +1,15 @@
 ---
-title: Update Visual Studio using a minimal offline layout
+title: Update Visual Studio with minimal offline layout
 description: Create a minimal layout for a quick and easy way to update your offline Visual Studio instances for computers that aren't connected to the internet.
 ms.date: 9/28/2023
 ms.topic: how-to
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ---
 # Update Visual Studio using a minimal offline layout
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 For computers that are not connected to the internet, creating a minimal layout is the easiest and fastest way to update your offline Visual Studio instances.
 
@@ -74,7 +72,6 @@ This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The 
 | --includeRecommended                                | Includes the recommended components for any workloads that are installed, but not the optional components.                                                                                                                                                                                                                                                                                                                                  | Optional                        | For a  specific workload: <br> --add Microsoft.VisualStudio.Workload. ManagedDesktop;includeRecommended <br><br> To apply to all workloads: --includeRecommended |
 | --includeOptional                                   | Includes the optional components for any workloads that are installed, including the recommended components.                                                                                                                                                                                                                                                                                                                                | Optional                        | For a specific workload: <br>--add Microsoft.VisualStudio.Workload. ManagedDesktop;includeOptional <br><br> To apply to all workloads: --includeOptional         |
 
-
 ### Generating a minimal layout
 
 > [!IMPORTANT]
@@ -123,7 +120,6 @@ A few other examples using the **generate** command:
   ```shell
   MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise --baseVersion 16.4.0 --targetVersion 16.4.4 --add Microsoft.VisualStudio.Workload.ManagedDesktop;includeOptional --languages en-US fr-FR
   ```
-
 
 ### How to maintain a minimal layout
 

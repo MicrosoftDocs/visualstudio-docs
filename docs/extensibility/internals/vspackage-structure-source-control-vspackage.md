@@ -9,11 +9,9 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # VSPackage Structure (Source Control VSPackage)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Source Control Package SDK provides guidelines for creating a VSPackage that allow a source control implementer to integrate his or her source control functionality with the Visual Studio environment. A VSPackage is a COM component that is typically loaded on demand by the Visual Studio integrated development environment (IDE) based on the services that are advertised by the package in its registry entries. Every VSPackage must implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage>. A VSPackage typically consumes services offered by the Visual Studio IDE and proffers some services of its own.
 

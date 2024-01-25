@@ -50,7 +50,6 @@ To associate your account, you must
 
 Similarly, having Administrator permissions on the Visual Studio Subscriptions Administrator portal doesn't mean that the VSS Admin can view the licenses in Business Center.
 
-
 ## Unmanaged tenant
 
 If you registered to the Business Center with an email that wasn't a work account (not registered in the Microsoft Entra ID), as explained previously, the tenant association is slightly different. You need to perform a "domain take-over." During this process, you make yourself the Global Administrator (Company Administrator) which changes your tenant from "unmanaged" to "managed."

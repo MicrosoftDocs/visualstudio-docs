@@ -3,14 +3,12 @@ title: Publishing a Cloud Service using the Azure Tools
 description: Learn about how to publish Azure cloud service projects by using Visual Studio.
 author: ghogen
 manager: jmartens
-ms.technology: vs-azure
+ms.subservice: azure-development
 ms.topic: conceptual
 ms.date: 11/11/2017
 ms.author: ghogen
 ---
 # Publishing a cloud service using Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
@@ -22,6 +20,10 @@ Use the following procedures to publish your Azure application and to update a w
 
 - Publish or Package an Azure application from Visual Studio
 - Update a web role as part of the development and testing cycle
+
+## Prerequisites
+
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## Publish or package an Azure application from Visual Studio
 

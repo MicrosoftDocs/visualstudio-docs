@@ -8,11 +8,9 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Get started with the VSIX Project template
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use the VSIX Project template to create an extension or to package an existing extension for deployment. The VSIX Project template has both Visual Basic and Visual C# versions, and is installed as part of the Visual Studio SDK.
 

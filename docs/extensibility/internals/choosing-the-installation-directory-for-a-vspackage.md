@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Choose the installation directory for a VSPackage
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A VSPackage and its supporting files must be on a user's file system. The location depends on whether the VSPackage is managed or unmanaged, your side-by-side versioning scheme, and user choice.
 
 ## Unmanaged VSPackages
@@ -54,7 +53,7 @@ A VSPackage and its supporting files must be on a user's file system. The locati
 
 If your VSPackage DLL includes resources and the **SatelliteDll\DllName** registry entry points to it, Visual Studio attempts to load them in the above order.
 
-## See also
+## Related content
 - [Choose between shared and versioned VSPackages](../../extensibility/choosing-between-shared-and-versioned-vspackages.md)
 - [Manage VSPackages](../../extensibility/managing-vspackages.md)
 - [Manage package registration](/previous-versions/bb166783(v=vs.100))

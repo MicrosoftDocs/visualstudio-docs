@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Attach views to document data
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 If you have a new document view, you may be able to attach it to an existing document data object.
 
 ## To determine if you can attach a view to an existing document data object
@@ -37,6 +36,6 @@ If you have a new document view, you may be able to attach it to an existing doc
 ## Robust programming
  When Visual Studio calls your implementation of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.CreateEditorInstance%2A> method, it passes back a pointer to the existing document data object in the `punkDocDataExisting` parameter, if one exists. Examine the document data object returned in `punkDocDataExisting` to determine if the document data object is appropriate for your editor as outlined in the note in step 4 of the procedure in this topic. If it is appropriate, then your editor factory should provide a second view for the data as outlined in [Support multiple document views](../extensibility/supporting-multiple-document-views.md). If not, then it should display an appropriate error message.
 
-## See also
+## Related content
 - [Support multiple document views](../extensibility/supporting-multiple-document-views.md)
 - [Document data and document view in custom editors](../extensibility/document-data-and-document-view-in-custom-editors.md)

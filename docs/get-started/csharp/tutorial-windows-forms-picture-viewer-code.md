@@ -7,14 +7,12 @@ dev_langs:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: tutorial
 ms.date: 03/15/2023
 ms.custom: vs-acquisition
 ---
 # Tutorial: Add code to the picture viewer Windows Forms app in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this series of three tutorials, you'll create a Windows Forms application that loads a picture and displays it.
 The Visual Studio Integrated Design Environment (IDE) provides the tools you need to create the app.

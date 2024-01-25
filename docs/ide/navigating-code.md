@@ -1,5 +1,5 @@
 ---
-title: Code navigation commands
+title: Review options for browsing code in the editor
 description: Explore the different options in Visual Studio for browsing your code with the editor, including the Navigation bar, and Backward / Forward commands.
 ms.date: 11/21/2019
 ms.topic: conceptual
@@ -19,8 +19,6 @@ ms.author: ghogen
 manager: j-martens
 ---
 # Navigate code
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio provides numerous ways to navigate code in the editor. This topic summarizes the different ways you can navigate your code, and provides links to topics that go into more detail.
 

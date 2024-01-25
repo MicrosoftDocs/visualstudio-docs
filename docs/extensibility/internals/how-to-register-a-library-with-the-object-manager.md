@@ -12,11 +12,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Register a library with the object manager
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Browser** and **Find Symbol Results**, enable you to view symbols in your project or in external components. The symbols include namespaces, classes, interfaces, methods, and other language elements. The libraries track these symbols and expose them to the Visual Studio object manager that populates the tools with the data.
 
  The object manager keeps track of all available libraries. Each library must register with the object manager before providing symbols for the symbol-browsing tools.
@@ -168,7 +167,7 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
     ```
     ---
 
-## See also
+## Related content
 - [Legacy language service extensibility](../../extensibility/internals/legacy-language-service-extensibility.md)
 - [Support symbol-browsing tools](../../extensibility/internals/supporting-symbol-browsing-tools.md)
 - [How to: Expose lists of symbols provided by the library to the object manager](../../extensibility/internals/how-to-expose-lists-of-symbols-provided-by-the-library-to-the-object-manager.md)

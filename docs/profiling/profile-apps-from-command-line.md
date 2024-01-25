@@ -10,12 +10,10 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2019'
 ---
 # Measure application performance from the command line
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can collect performance information about an application by using command-line tools. You can collect performance data for CPU Usage, .NET memory allocation, instrumentation, and database queries.
 

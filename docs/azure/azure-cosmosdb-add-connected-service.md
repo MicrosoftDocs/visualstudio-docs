@@ -3,15 +3,13 @@ title: Add Azure Cosmos DB by using Connected Services
 description: Connect Azure Cosmos DB support to your application by using Connected Services in Visual Studio on Windows and add a connected service.
 author: AngelosP
 manager: jmartens
-ms.technology: vs-azure
+ms.subservice: azure-development
 ms.topic: conceptual
 ms.date: 05/15/2023
 ms.author: angelpe
 monikerRange: ">= vs-2019"
 ---
 # Add Azure Cosmos DB to your app by using Visual Studio Connected Services
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 With Visual Studio, you can connect any of the following to Azure Cosmos DB by using the **Connected Services** feature:
 
@@ -33,6 +31,7 @@ The connected service functionality adds all the needed references and connectio
 
 - Visual Studio with the Azure workload installed.
 - A project of one of the supported types
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## Connect to Azure Cosmos DB using Connected Services
 :::moniker range="vs-2019"
@@ -144,7 +143,7 @@ using CosmosClient client = new(
 
 The `CosmosClient` provides access to Cosmos DB functionality through its various methods. Once you have an instance of `CosmosClient`, you can create a NoSQL database by following this guide: [Create a database in Azure Cosmos DB for NoSQL using .NET](/azure/cosmos-db/nosql/how-to-dotnet-create-database).
 
-## See also
+## Related content
 
 - [Azure Cosmos DB product page](https://azure.microsoft.com/services/cosmos-db/)
 - [Azure Cosmos DB documentation](/azure/cosmos-db/)

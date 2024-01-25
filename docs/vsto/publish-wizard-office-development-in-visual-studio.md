@@ -17,11 +17,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Publish wizard (Office development in Visual Studio)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Use the **Publish Wizard** to copy solution files to a specified location, create the manifest files, and create a Setup program.
 
  To access this wizard, on the **Build** menu, choose **Publish** *SolutionName*. You can also access the **Publish Wizard** from **Solution Explorer**. Open the shortcut menu for the project node, and then choose **Publish**.
@@ -61,7 +60,7 @@ ms.technology: office-development
 
  Visual Studio does not burn the CD or DVD. You must copy the output to a CD or DVD manually.
 
-## See also
+## Related content
 - [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md)
 - [Publish Page, Project Designer &#40;Office development in Visual Studio&#41;](../vsto/publish-page-project-designer-office-development-in-visual-studio.md)
 - [Deploy an Office solution](../vsto/deploying-an-office-solution.md)

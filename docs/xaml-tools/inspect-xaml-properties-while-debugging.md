@@ -6,11 +6,9 @@ ms.topic: how-to
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.technology: vs-xaml-tools
+ms.subservice: xaml-tools
 ---
 # Inspect XAML properties while debugging
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can get a real-time view of your running XAML code with the **Live Visual Tree** and the **Live Property Explorer**. These tools give you a tree view of the UI elements of your running XAML application, and show you the runtime properties of any UI element you select.
 
@@ -20,6 +18,7 @@ You can use these tools in the following configurations:
 |-----------------|--------------------------------|
 |Windows Presentation Foundation (4.0 and later) applications|Windows 7 and later|
 |Universal Windows apps|Windows 10 and later, with the [Windows 10 SDK](https://dev.windows.com/downloads/windows-10-sdk) and later|
+|.NET Multi-platform App UI apps|Windows 10 and later, .NET 8 and later, Visual Studio 2022 17.9 and later|
 
 ## Look at Elements in the Live Visual Tree
 
@@ -28,7 +27,6 @@ Let's get started with a very simple WPF application that has a list view and a 
 ### Create the project
 
 1. Create a new C# WPF application (**File** > **New** > **Project**, type "C# WPF", choose the **WPF Application** project template, name the project **TestXAML**, and then verify that the correct .NET version appears in the **Target Framework** drop-down).
-
 
 2. Change MainWindow.xaml to the following:
 
@@ -130,6 +128,6 @@ You can use these XAML tools even when you don't have the source code. When you 
 
 4. In the second instance of Visual Studio, open the **Live Visual Tree** (**Debug > Windows > Live Visual Tree**). You should see the **TestXaml** UI elements, and you should be able to manipulate them as you did while debugging the application directly.
 
-## See also
+## Related content
 
 [Write and debug running XAML code with XAML Hot Reload](xaml-hot-reload.md)

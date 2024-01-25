@@ -23,11 +23,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Product and package schema reference
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A *product file* is an XML manifest that describes all of the external dependencies required by a ClickOnce application. Examples of external dependencies include the .NET Framework and the Microsoft Data Access Components (MDAC). A package file is similar to a product file but is used to install the culture-dependent components of a dependency, such as localized assemblies, license agreements, and documentation.
 
  The product and packages file consists of either a top-level `Product` or `Package` element, each of which contains the following elements.
@@ -152,6 +151,6 @@ A *product file* is an XML manifest that describes all of the external dependenc
 </Product>
 ```
 
-## See also
+## Related content
 - [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)
 - [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)

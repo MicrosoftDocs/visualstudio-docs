@@ -1,5 +1,5 @@
 ---
-title: Advanced features
+title: Explore advanced features for developers
 description: Learn about the advanced features that might be more appropriate for experienced developers, or those developers who are already familiar with Visual Studio.
 ms.custom: vs-acquisition
 ms.date: 8/19/2023
@@ -7,11 +7,9 @@ ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Features of Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article describes features for experienced developers, or developers who are already familiar with Visual Studio. For a basic introduction to Visual Studio, see the [Visual Studio IDE overview](../get-started/visual-studio-ide.md).
 

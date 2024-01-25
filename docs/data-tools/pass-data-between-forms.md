@@ -1,7 +1,7 @@
 ---
-title: Pass data between forms
+title: Pass data between forms controls (.NET Framework)
 description: Pass data between Windows Forms controls in .NET Framework application development with Visual Studio and create a TableAdapter query to fetch customer orders.
-ms.date: 11/04/2016
+ms.date: 12/15/2023
 ms.topic: how-to
 dev_langs:
 - VB
@@ -15,11 +15,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Pass data between forms
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -205,6 +203,6 @@ Depending on your application requirements, there are several steps you might wa
 
 - Adding functionality to save data back to the database. For more information, see [Save data back to the database](../data-tools/save-data-back-to-the-database.md).
 
-## See also
+## Related content
 
 - [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)

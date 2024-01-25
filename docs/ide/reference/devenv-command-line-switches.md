@@ -11,11 +11,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Devenv command-line switches
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Devenv lets you set various options for the IDE, build projects, debug projects, and deploy projects from the command line. Use these switches to run the IDE from a script or a .bat file (such as a nightly build script), or to start the IDE in a particular configuration.
 

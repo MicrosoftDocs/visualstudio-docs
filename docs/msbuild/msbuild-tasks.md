@@ -2,14 +2,14 @@
 title: Explore how MSBuild tasks perform build actions
 description: Learn how MSBuild uses tasks, or units of executable code that perform atomic build operations, during the build process.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: language-reference
 helpviewer_keywords:
 - tasks
 - MSBuild, tasks
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # MSBuild tasks
 

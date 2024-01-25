@@ -9,11 +9,9 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Add a menu to the Visual Studio menu bar
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This walkthrough shows how to add a menu to the menu bar of the Visual Studio integrated development environment (IDE). The IDE menu bar contains menu categories such as **File**, **Edit**, **View**, **Window**, and **Help**.
 
@@ -88,6 +86,6 @@ By completing this walkthrough, you can create a menu named **Test Menu** that c
 
     A message box should appear and display the message "TestCommand Inside TopLevelMenu.TestCommand.MenuItemCallback()".
 
-## See also
+## Related content
 
 - [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md)

@@ -6,13 +6,11 @@ ms.topic: how-to
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
 ---
 # Learn to use the code editor for JavaScript
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this short introduction to the code editor in Visual Studio, we'll look at some of the ways that Visual Studio makes writing, navigating, and understanding code easier.
 

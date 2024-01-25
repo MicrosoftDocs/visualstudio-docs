@@ -2,11 +2,11 @@
 title: 'Configure Targets and Tasks'
 description: Learn how to set selected MSBuild tasks to run in the environment they target, regardless of the environment of the development computer.
 ms.date: 01/11/2022
-ms.topic: conceptual
+ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # Configure targets and tasks
 
@@ -84,7 +84,7 @@ By default, MSBuild handles UsingTask's as "first one wins." Starting in 17.2, M
 
 ## Task factories
 
-Before it runs a task, MSBuild checks to see whether it is designated to run in the current software context. If the task is so designated, MSBuild passes it to the AssemblyTaskFactory, which runs it in the current process; otherwise, MSBuild passes the task to the TaskHostFactory, which runs the task in a process that matches the target context. Even if the current context and the target context match, you can force a task to run out-of-process (for isolation, security, or other reasons) by setting `TaskFactory` to `TaskHostFactory`.
+Before it runs a task, MSBuild checks to see whether it is designated to run in the current software context. If the task is so designated, MSBuild passes it to the `AssemblyTaskFactory`, which runs it in the current process; otherwise, MSBuild passes the task to the `TaskHostFactory`, which runs the task in a process that matches the target context. Even if the current context and the target context match, you can force a task to run out-of-process (for isolation, security, or other reasons) by setting `TaskFactory` to `TaskHostFactory`.
 
 ```xml
 <UsingTask TaskName="MisbehavingTask"

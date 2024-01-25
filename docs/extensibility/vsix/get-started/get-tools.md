@@ -1,17 +1,15 @@
 ---
-title: Get the tools
+title: "Install & configure the extensibility workload"
 description: Explore the tools you need to write Visual Studio extensions and the process to install the corresponding extensibility workload.
 ms.date: 12/01/2021
 ms.topic: conceptual
 author: madskristensen
 ms.author: madsk
 manager: pchapman
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-sdk
+
+ms.subservice: extensibility-integration
 ---
 # Get the tools needed to write Visual Studio extensions
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To write extensions you have to install the extensibility workload. That's technically all you need, but this set of documentation makes use of the community driven extension called *Extensibility Essentials*. Each version of Visual Studio has its own version: [Extensibility Essentials 2019](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ExtensibilityEssentials2019) or [Extensibility Essentials 2022](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ExtensibilityEssentials2022).
 

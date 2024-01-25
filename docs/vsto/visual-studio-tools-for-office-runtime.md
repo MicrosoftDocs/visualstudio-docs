@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Tools for Office Runtime Lifecycle Policy"
+title: Visual Studio Tools for Office Runtime Lifecycle Policy
 description: Explore the support lifecycle policy for the Visual Studio Tools for Office Runtime, including available versions and release dates.
 titleSuffix: ""
 ms.date: "10/4/2021"
@@ -12,11 +12,9 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Visual Studio Tools for Office Runtime
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio 2010 Tools for Office Runtime (VSTO Runtime) ships with various versions of Visual Studio and Microsoft Office and follows the support lifecycle of the parent product.
 

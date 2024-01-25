@@ -1,5 +1,5 @@
 ---
-title: Anatomy of a VSIX Package
+title: What is a Visual Studio VSIX package file?
 description: Explore the contents of a VSIX package file in Visual Studio, which contains one or more Visual Studio extensions and a metadata manifest file. 
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -10,11 +10,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Anatomy of a VSIX package
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A VSIX package is a *.vsix* file that contains one or more Visual Studio extensions, together with the metadata Visual Studio uses to classify and install the extensions. That metadata is contained in the VSIX manifest and the *[Content_Types].xml* file. A VSIX package may also contain one or more *Extension.vsixlangpack* files to provide localized setup text, and may contain additional VSIX packages to install dependencies.
 
  The VSIX package format follows the Open Packaging Conventions (OPC) standard. The package contains binaries and supporting files, together with a *[Content_Types].xml* file and a *.vsix* manifest file. One VSIX package may contain the output of multiple projects, or even multiple packages that have their own manifests.

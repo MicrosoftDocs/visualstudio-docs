@@ -1,16 +1,14 @@
 ---
-title: 'Microsoft Fakes: Generate & compile code; naming conventions'
+title: Configure Microsoft Fakes code generation
 description: Learn about options and issues in Fakes code generation and compilation, including the naming conventions for Fakes-generated types, members, and parameters.
 ms.date: 05/23/2023
 ms.topic: conceptual
 ms.author: oscalles
 manager: aajohn
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 author: ocallesp
 ---
 # Code generation, compilation, and naming conventions in Microsoft Fakes
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article discusses options and issues in Fakes code generation and compilation, and describes the naming conventions for Fakes-generated types, members, and parameters.
 
@@ -269,7 +267,6 @@ The following rules are applied recursively:
 
 - If a resulting name clashes with any member of the declaring type, a numbering scheme is used by appending a two-digit counter, starting at 01.
 
-
 ## Utilizing Microsoft Fakes in Continuous Integration
 
 ### Microsoft Fakes Assembly Generation
@@ -289,6 +286,6 @@ Microsoft Fakes is a feature available exclusively in Visual Studio Enterprise. 
 
 This reference must be added manually, specifically for SDK-style projects (that is, .NET Core, .NET 5+, and .NET Framework), because these projects now implicitly add assembly references. If you decide to use this method, make sure to update the Fakes assembly whenever the parent assembly undergoes changes.
 
-## See also
+## Related content
 
 - [Isolating code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)

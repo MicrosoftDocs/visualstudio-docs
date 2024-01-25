@@ -2,7 +2,7 @@
 title: MSBuild Toolset (ToolsVersion)
 description: Review the obsolete ToolsVersion attribute in the MSBuild project file that specifies a toolset of tasks, targets, and tools to build an application.
 ms.date: 11/01/2023
-ms.topic: conceptual
+ms.topic: language-reference
 helpviewer_keywords:
 - MSBuild, multitargeting
 - targeting a specific .NET Framework [MSBuild]
@@ -11,7 +11,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 # MSBuild Toolset (ToolsVersion)
 

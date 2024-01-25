@@ -1,16 +1,14 @@
 ---
-title: Synchronize settings
+title: Synchronize settings across multiple computers
 description: Learn how to synchronize your Visual Studio settings across multiple computers by signing in to the same personalization account.
 ms.date: 05/20/2022
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Synchronize Visual Studio settings across multiple computers
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you sign in to Visual Studio on multiple computers using the same personalization account, your settings can be synchronized across the computers.
 

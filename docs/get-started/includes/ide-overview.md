@@ -1,6 +1,6 @@
 ---
 ms.date: 11/17/2023
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.custom: vs-get-started
 author: anandmeg
 ms.author: meghaanand
@@ -365,7 +365,6 @@ First, rename the `name` variable:
    ::: moniker-end
 
    The variable is renamed across the project, which in our case is only two places.
-
 
 1. Now take a look at IntelliSense. Below the line that says `Console.WriteLine($"\nHello {username}!");`, type `DateTime now = DateTime.`.
 

@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Initialization Sequence of Project Subtypes
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The environment constructs a project by calling the base project factory implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory.CreateProject%2A>. The construction of a project subtype starts when the environment determines that the project type GUID list for a project file's extension is not empty. The project file extension and project GUID specify whether the project is a Visual Basic or Visual C# project type. For example, the .vbproj extension and {F184B08F-C81C-45F6-A57F-5ABD9991F28F} identify a Visual Basic project.
 
 ## Environment's Initialization of Project Subtypes
@@ -126,7 +125,7 @@ HRESULT HrCreateInnerProj
 }
 ```
 
-## See also
+## Related content
 
 - <xref:Microsoft.VisualStudio.Shell.Flavor>
 - [Project Subtypes](../../extensibility/internals/project-subtypes.md)

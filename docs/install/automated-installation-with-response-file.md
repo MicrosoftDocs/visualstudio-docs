@@ -1,5 +1,5 @@
 ---
-title: Configure installation default settings with a response file
+title: Configure installation defaults with a response file
 description: Create a response JSON file to help automate your Visual Studio installation with default settings for workloads, components, and other installation options.
 ms.date: 9/28/2023
 ms.topic: conceptual
@@ -11,12 +11,10 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ---
 # Configure installation default settings using a response file
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this article, you'll learn how to create a response file that helps you automate your Visual Studio installation. You can use this file to specify workloads, components, and other installation options to use when you install Visual Studio from a [layout](create-a-network-installation-of-visual-studio.md). You can also use this file to specify where the client should look for updates.
 

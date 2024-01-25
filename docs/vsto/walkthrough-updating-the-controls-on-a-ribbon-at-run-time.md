@@ -1,7 +1,6 @@
 ---
-title: "Walkthrough: Update the controls on a ribbon at run time"
+title: Update the controls on a ribbon at run time
 description: Use the Ribbon object model to update the controls on a ribbon after the ribbon is loaded into the Microsoft Office application.
-titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -17,11 +16,9 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Walkthrough: Update the controls on a ribbon at run time
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This walkthrough demonstrates how to use the Ribbon object model to update the controls on a ribbon after the ribbon is loaded into the Office application.
 
@@ -324,7 +321,7 @@ You can learn more about how to customize the Office UI from these topics:
 
 - Add a custom task pane to Outlook. For more information, see [Custom task panes](../vsto/custom-task-panes.md).
 
-## See also
+## Related content
 
 - [Access the ribbon at run time](../vsto/accessing-the-ribbon-at-run-time.md)
 - [Ribbon overview](../vsto/ribbon-overview.md)

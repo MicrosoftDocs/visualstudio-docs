@@ -1,5 +1,5 @@
 ---
-title: Improve start up time
+title: Improve start up time, control extension settings
 description: Learn how to control the settings of extensions and tool windows in the Performance Manager dialog box to improve Visual Studio start-up time.
 ms.date: 04/24/2023
 ms.topic: how-to
@@ -10,11 +10,9 @@ helpviewer_keywords:
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Optimize Visual Studio startup time
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio is designed to start up as quickly and efficiently as possible. However, certain Visual Studio extensions and tool windows can adversely affect startup time when they're loaded. You can control the behavior of slow extensions and tool windows in the **Performance Manager** dialog box. For more general tips on improving performance, see [Visual Studio performance tips and tricks](../ide/visual-studio-performance-tips-and-tricks.md).
 

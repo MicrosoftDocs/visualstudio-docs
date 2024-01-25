@@ -17,11 +17,10 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Expressions in the Visual Studio debugger
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Visual Studio debugger includes expression evaluators that work when you enter an expression in the **QuickWatch** dialog box, **Watch** window, or **Immediate** window. The expression evaluators are also at work in the **Breakpoints** window and many other places in the debugger.
 
 The following sections describes limitations of expression evaluation for languages supported by Visual Studio.
@@ -199,7 +198,7 @@ You cannot declare explicit new variables in debugger windows. However, you can 
 
 - Namespace or module level keywords, such as `End Sub` or `Module`.
 
-## See also
+## Related content
 - [Format Specifiers in C++](../debugger/format-specifiers-in-cpp.md)
 - [Context Operator (C++)](../debugger/context-operator-cpp.md)
 - [Format Specifiers in C#](../debugger/format-specifiers-in-csharp.md)

@@ -13,11 +13,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Flag and Unflag Threads (C#, Visual Basic, C++)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can flag a thread that you want to give special attention by marking it with an icon in the **Threads**, **Parallel Stacks** (thread view), **Parallel Watch**, and **GPU Threads** windows. This icon can help you and others distinguish flagged threads from other threads.
 
@@ -55,7 +53,7 @@ Flagged threads also receive special treatment in the **Thread** list on the **D
 
 5. Click **OK**.
 
-## See also
+## Related content
 - [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)
 - [Get started debugging multithreaded applications](../debugger/get-started-debugging-multithreaded-apps.md)
 - [Walkthrough: Debug multithreaded applications using the Threads window](../debugger/how-to-use-the-threads-window.md)

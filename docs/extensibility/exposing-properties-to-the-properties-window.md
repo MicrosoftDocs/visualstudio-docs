@@ -10,11 +10,9 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Expose properties to the Properties window
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This walkthrough exposes the public properties of an object to the **Properties** window. The changes you make to these properties are reflected in the **Properties** window.
 
@@ -263,6 +261,6 @@ In this walkthrough, <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContai
 
 Visual Studio tool windows persist between Visual Studio sessions. For more information on persisting the tool window state, see <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute>.
 
-## See also
+## Related content
 
 - [Extend properties and the Property window](../extensibility/extending-properties-and-the-property-window.md)

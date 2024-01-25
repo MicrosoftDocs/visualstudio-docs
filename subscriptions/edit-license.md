@@ -31,7 +31,6 @@ You can edit multiple subscribers at once using the bulk edit process. This feat
 
 Watch this video or read on to learn how to edit multiple subscribers using bulk edit. 
 
-
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vkAF]
 
 > [!NOTE]

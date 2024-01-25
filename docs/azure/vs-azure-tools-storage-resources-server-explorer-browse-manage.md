@@ -3,7 +3,7 @@ title: Browse and manage storage resources
 description: Browse and manage your Azure Storage resources, including blob, queue, and table data by using Visual Studio Server Explorer.
 author: ghogen
 manager: jmartens
-ms.technology: vs-azure
+ms.subservice: azure-development
 ms.topic: conceptual
 ms.date: 07/14/2023
 ms.author: ghogen
@@ -11,12 +11,9 @@ monikerRange: "<=vs-2019"
 ---
 # Browse and manage storage resources by using Server Explorer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 [!INCLUDE [storage-try-azure-tools](./includes/storage-try-azure-tools.md)]
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
-
 
 
 If you've installed Azure workload for Microsoft Visual Studio 2019, you can view blob, queue, and table data from your storage accounts for Azure. The Azure **Storage** node in Server Explorer shows data that’s in your local storage emulator account and your other Azure storage accounts.
@@ -37,6 +34,10 @@ Starting in Azure SDK 2.7, you can also use Cloud Explorer to view and manage yo
 > If needed, you can use the Azure Portal or continue to use the Azure node of Server Explorer in previous versions of Visual Studio.
 >
 > For more information about Visual Studio 2022, see our [release notes](/visualstudio/releases/2022/release-notes/).
+
+## Prerequisites
+
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## View and manage storage resources in Visual Studio
 

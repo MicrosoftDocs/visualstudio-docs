@@ -1,5 +1,5 @@
 ---
-title: "Visio solutions"
+title: Automate Microsoft Visio actions & extend features
 description: Use VSTO add-ins to automate Microsoft Visio actions, extend Visio features, or customize the Visio user interface (UI).
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
@@ -16,11 +16,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Visio solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Visual Studio provides project templates you can use to create VSTO Add-ins for Microsoft Office Visio. You can use VSTO Add-ins to automate Visio, extend Visio features, or customize the Visio user interface (UI).
 
  For more information about VSTO Add-ins, see [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md) and [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md). If you are new to programming with Microsoft Office, see [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md).
@@ -60,7 +59,7 @@ ms.technology: office-development
 
  For information about customizing the UI of Visio, see the VBA reference documentation for the [Visio.UIObject](/office/vba/api/Visio.UIObject) class.
 
-## See also
+## Related content
 - [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)
 - [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
 - [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)

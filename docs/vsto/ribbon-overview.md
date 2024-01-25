@@ -1,5 +1,5 @@
 ---
-title: "Ribbon overview"
+title: Explore how to work with the ribbon
 description: Explore how to work with the ribbon, organize related commands to make them easier to find, and configure how commands appear as controls on the ribbon. 
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -17,11 +17,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Ribbon overview
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The ribbon is a way to organize related commands so that they are easier to find. Commands appear as controls on the ribbon. Controls are organized into *groups* along a horizontal strip at the top edge of an application window. Related groups are organized on tabs.
 
  Most of the features that were accessed by using menus and toolbars in earlier versions of the Microsoft Office system can now be accessed by using the ribbon. For more information, see the technical article [Developer overview of the user interface for the 2007 Microsoft Office system](/previous-versions/office/developer/office-2007/aa338198(v=office.12)).

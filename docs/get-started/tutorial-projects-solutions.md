@@ -2,7 +2,7 @@
 title: Introduction to projects and solutions
 description: Explore the difference between projects and solutions that contain and organize projects, and how to work with these items in Visual Studio.
 ms.date: 12/05/2023
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.custom: vs-acquisition
 ms.topic: tutorial
 f1_keywords:
@@ -12,8 +12,6 @@ ms.author: meghaanand
 manager: jmartens
 ---
 # Introduction to projects and solutions
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This introductory article explores what it means to create a *solution* and a *project* in Visual Studio. A solution is a container to organize one or more related code projects, like a class library project and a corresponding test project.
 

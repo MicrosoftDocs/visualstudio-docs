@@ -12,11 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Office solutions development overview (VSTO)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   By using Microsoft Office as the front end for solutions, you can take advantage of the familiar Microsoft Office user interfaces and tools such as the word processing features in Word, the data analysis features of Excel, and the e-mail management features of Outlook. You can develop solutions in Visual Studio to customize Office applications and add the specific features you need for your business processes. For example, you can turn Word into a contract generator that assembles contracts out of pre-existing parts that can be made editable or not editable. With Excel, you can create an automated budget worksheet customized for different projects. Your users can also take office solutions offline, which makes complex solutions more practical than they would be if you use a web-based architecture.
 
  This topic provides an overview of the types of Office solutions that you can create by using the Visual Studio Tools for Office (VSTO) templates available in the Office developer tools in Visual Studio. For general information about how to develop with Office, see the [Office developer center](https://developer.microsoft.com/office).
@@ -81,7 +80,7 @@ ms.technology: office-development
 ### Security
  Security for VSTO Office solutions is enforced by a series of checks that the  Visual Studio Tools for Office runtime  makes when it installs and loads the solution. These checks include verifying whether the location of the deployment manifest is trusted or whether the certificate used to sign the deployment manifest is trusted. For more information, see [Secure Office solutions](../vsto/securing-office-solutions.md).
 
-## See also
+## Related content
 - [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)
 - [Architecture of document-level customizations](../vsto/architecture-of-document-level-customizations.md)
 - [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)

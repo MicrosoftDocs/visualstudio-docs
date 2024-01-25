@@ -1,5 +1,5 @@
 ---
-title: Install Visual Studio
+title: Install Visual Studio and choose your preferred features
 titleSuffix: ''
 description: Install Visual Studio quickly and with less system impact by choosing your preferred features to reduce the installation footprint.
 ms.date: 05/16/2023
@@ -16,12 +16,10 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ---
 # Install Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ::: moniker range="vs-2019"
 

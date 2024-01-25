@@ -10,14 +10,13 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Create a localized bootstrapper package
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 After you create a bootstrapper package, you can create localized versions of the bootstrapper package by creating two more files for each locale: a software license terms file (such as a *eula.rtf*) and a package manifest (*package.xml*).
 
- By default, Visual Studio 2010 includes localized bootstrapper packages only for .NET Framework 4, .NET Framework 4 Client Profile, F# Runtime 2.0, and F# Runtime 4.0. You can create localized packages for other bootstrappers by completing three steps.
+ By default, Visual Studio includes localized bootstrapper packages only for a few specific version of .NET Framework. You can create localized packages for other bootstrappers by completing three steps.
 
 1. Create a folder that is named after the locale name in *\Program Files (x86)\Microsoft SDKs\ClickOnce Bootstrapper\Packages\\\<BootstrapperPackageName>*.
 
@@ -88,7 +87,7 @@ After you create a bootstrapper package, you can create localized versions of th
 >[!NOTE]
 > Starting with the Visual Studio 2019 Update 7 release bootstrapper packages will also be discovered under the path *{VS Install Path}\MSBuild\Microsoft\VisualStudio\BootstrapperPackages*.
 
-## See also
+## Related content
 - [Create bootstrapper packages](../deployment/creating-bootstrapper-packages.md)
 - [Application deployment prerequisites](../deployment/application-deployment-prerequisites.md)
 - [How to: Create a package manifest](../deployment/how-to-create-a-package-manifest.md)

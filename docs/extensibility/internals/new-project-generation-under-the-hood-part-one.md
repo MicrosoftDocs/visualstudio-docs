@@ -9,11 +9,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # New Project Generation: Under the Hood, Part One
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Ever thought about how to create your own project type? Wonder what actually happens when you create a new project? Let's take a peek under the hood and see what's really going on.
 
  There are several tasks that Visual Studio coordinates for you:
@@ -207,5 +206,5 @@ devenv /installvstemplates
 
     **MyProjectNode** appears as a child node of Visual C# just under the Windows node.
 
-## See also
+## Related content
 - [New Project Generation: Under the Hood, Part Two](../../extensibility/internals/new-project-generation-under-the-hood-part-two.md)

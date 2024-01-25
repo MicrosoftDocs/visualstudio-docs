@@ -1,5 +1,5 @@
 ---
-title: "Create an Angular app"
+title: Create an Angular app in Visual Studio
 description: Create, build, and run a simple Angular front-end web application project from a Visual Studio template, and set basic properties for the project.
 ms.date: 05/26/2023
 ms.custom: vs-acquisition
@@ -8,15 +8,13 @@ ms.devlang: javascript
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
 monikerRange: '>= vs-2022'
 ---
 
 # Create an Angular app
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you create and run a simple Angular frontend web application.
 

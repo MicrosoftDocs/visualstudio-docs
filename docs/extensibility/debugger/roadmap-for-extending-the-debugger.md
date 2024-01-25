@@ -9,11 +9,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Roadmap for extending the debugger
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This documentation provides guide and reference information for extending the Visual Studio debugger with the Visual Studio SDK.
 
  Visual Studio debugging documentation includes samples, a comprehensive reference, and several representative scenarios that demonstrate typical ways to customize the debugger.
@@ -44,5 +43,5 @@ This documentation provides guide and reference information for extending the Vi
 
    [Samples](../../extensibility/debugger/visual-studio-debugging-samples.md)
 
-## See also
+## Related content
 - [Get started](../../extensibility/debugger/getting-started-with-debugger-extensibility.md)

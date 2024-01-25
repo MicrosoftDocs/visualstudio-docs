@@ -26,7 +26,6 @@ In this article, learn how to use macOS accessibility features, and to set acces
 > [!NOTE]
 > This guide refers to Visual Studio for Mac. For Visual Studio on Windows, see [Accessibility features of Visual Studio](/visualstudio/ide/reference/accessibility-features-of-visual-studio).
 
-
 ## Increase the contrast in macOS
 
 Visual Studio for Mac supports increased contrast in macOS, increasing the contrast of UI elements and making outlines more defined. To enable this:

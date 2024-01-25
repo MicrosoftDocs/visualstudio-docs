@@ -4,7 +4,7 @@ titleSuffix: ""
 description: 'Share Docker applications with the Docker Visual Studio Code Extension: create the container, build the container image, and start the container.'
 author: ghogen
 ms.author: ghogen
-ms.prod: vs-code
+ms.service: vs-code
 ms.topic: tutorial 
 ms.date: 03/24/2023
 # Under contractual obligation with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
@@ -24,7 +24,6 @@ In this tutorial, you learn how to:
 ## Prerequisites
 
 This tutorial continues the previous tutorial, [Create a Docker app with Visual Studio Code](docker-tutorial.md). To continue here, you'll need the running todo list manager from part 1.
-
 
 ## Update the code and replace the container
 
@@ -77,7 +76,6 @@ Let's make a few changes and learn about managing your containers.
 1. Refresh your browser on `http://localhost:3000` to see your updated help text.
 
    ![Screenshot shows the sample application with the modified text, described above.](media/todo-list-updated-empty-text.png)
-
 
 ## Share your image
 

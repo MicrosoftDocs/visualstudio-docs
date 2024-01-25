@@ -1,5 +1,5 @@
 ---
-title: Database compatibility
+title: Explore compatible database systems
 description: Explore compatible database systems for Visual Studio, including Microsoft SQL Server, Oracle, MySQL, PostgreSQL, SQLite, and Firebird.
 ms.date: 11/01/2023
 ms.topic: conceptual
@@ -10,11 +10,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Compatible database systems for Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To develop a data-connected application in Visual Studio, you typically install the database system on your local development machine, and then deploy the application and database to a production environment when they are ready. Visual Studio installs SQL Server Express LocalDB on your machine as part of the **Data storage and processing** workload. This LocalDB instance is useful for developing data-connected applications quickly and easily.
 

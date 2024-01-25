@@ -16,11 +16,9 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Edit and Continue error message
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Edit and Continue** error message box appears when you're debugging in a code language that supports Edit and Continue, but Edit and Continue isn't available for the code changes you've made. The error message provides a more detailed explanation. To respond to the dialog, select **OK** to close the dialog box and cancel the edit attempt.
 

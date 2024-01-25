@@ -7,12 +7,10 @@ description: Use Visual Studio with accounts that require multifactor authentica
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 
 # Sign in to Visual Studio with accounts that require multi-factor authentication (MFA)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this article, you'll learn how to use Visual Studio with accounts that require multi-factor authentication (MFA).
 

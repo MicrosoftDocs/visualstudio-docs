@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Add items to the Add New Item dialog box
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The process for adding items to the **Add New Item** dialog box starts with the registry keys. As shown in the following registry entries, the **AddItemTemplates** section contains the path and name of the directory in which items made available in the **Add New Item** dialog box are put.
 
 > [!NOTE]
@@ -72,7 +71,7 @@ The process for adding items to the **Add New Item** dialog box starts with the 
 
   If you implement this filter functionality, you do not have to map a table of every item that should be hidden. You can simply classify items into types and put the classifications in the *.vsdir* file or files. Then you can hide any of the items that have a specific classification by implementing the interface. In this way, you can make the items in the **Add New Item** dialog box dynamic based on the state within the project.
 
-## See also
+## Related content
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg2>
 - [Register project and item templates](../../extensibility/internals/registering-project-and-item-templates.md)
 - [CATIDs for objects that are typically used to extend projects](../../extensibility/internals/catids-for-objects-that-are-typically-used-to-extend-projects.md)

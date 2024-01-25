@@ -13,11 +13,9 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Office primary interop assemblies
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To use the features of a Microsoft Office application from an Office project, you must use the primary interop assembly (PIA) for the application. The PIA enables managed code to interact with a Microsoft Office application's COM-based object model.
 
@@ -123,7 +121,7 @@ For example, when a solution that references an Office 2010 assembly runs on a c
 
 For more information, see [How to: Enable and disable automatic binding redirection](/dotnet/framework/configure-apps/how-to-enable-and-disable-automatic-binding-redirection).
 
-## See also
+## Related content
 
 - [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md)
 - [Excel object model overview](../vsto/excel-object-model-overview.md)

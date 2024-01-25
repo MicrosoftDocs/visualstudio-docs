@@ -8,11 +8,9 @@ f1_keywords:
 author: jodavis
 ms.author: jodavis
 manager: jmartens
-ms.technology: vs-workflow-designer
+ms.subservice: workflow-designer
 ---
 # Use the Imports Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The imports designer enables you to enter namespaces for the types that you will use in your expressions. Much like the **Imports** or **using** keywords in Visual Basic and C#, specifying namespaces in the imports designer enable you to simply enter a type name in your expression rather than a fully qualified version type name.
 

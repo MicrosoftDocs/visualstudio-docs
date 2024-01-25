@@ -2,7 +2,7 @@
 title: 'Tutorial: Build an application'
 description: Become more familiar with several options that you can configure when you build applications with Visual Studio, such as hiding complier warnings.
 ms.date: 11/02/2023
-ms.technology: vs-ide-compile
+ms.subservice: compile-build
 ms.topic: tutorial
 author: ghogen
 ms.author: ghogen
@@ -10,7 +10,6 @@ manager: jmartens
 ---
 # Tutorial: Build an application
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In this article, you'll become more familiar with several options that you can configure when you build applications with Visual Studio. You'll create a custom build configuration, hide certain warning messages, and increase build output information for a sample application.
 
 ## Install the sample application

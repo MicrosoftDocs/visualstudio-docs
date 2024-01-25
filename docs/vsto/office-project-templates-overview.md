@@ -29,11 +29,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Office project templates overview
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The Microsoft Office developer tools in Visual Studio include project templates for creating the following types of Office solutions:
 
 - [Document-level customizations](#DocLevel)
@@ -162,7 +161,7 @@ ms.technology: office-development
 ## Excel Add-ins (.xla Files)
  There is no Office project for creating an Excel VSTO Add-in (*.xla* file). It is possible to save a workbook as an .xla file, but it is not a supported operation and is not recommended. If you save a workbook that has managed code extensions as a **Microsoft Office Excel Add-In (\*.xla)** file, you can select it in the **Add-Ins** dialog box to apply to another workbook. In some cases, your code will run in the target workbook after the VSTO Add-in is applied, but such use of the Office solution is not supported.
 
-## See also
+## Related content
 - [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
 - [Develop Office solutions](../vsto/developing-office-solutions.md)
 - [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)

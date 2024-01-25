@@ -6,11 +6,9 @@ ms.topic: error-reference
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Changing the return type of a DataContext method cannot be undone
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Changing the return type of a DataContext method cannot be undone. To revert back to the automatically generated type, you must drag the item from **Server Explorer** or **Database Explorer** onto the O/R Designer again. Are you sure you want to change the return type?
 

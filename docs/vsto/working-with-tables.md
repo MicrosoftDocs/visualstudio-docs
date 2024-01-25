@@ -14,11 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Work with tables
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The topics in this section provide step-by-step procedures and code examples for using the object model of Microsoft Office Word to work with tables in Office projects. In some cases, the ways that you perform these tasks in VSTO Add-ins is different from the ways that you perform them in document-level customizations.
 
 |Task|Procedure|
@@ -28,6 +27,6 @@ ms.technology: office-development
 |Add a row or column to a table.|[How to: Programmatically add rows and columns to Word tables](../vsto/how-to-programmatically-add-rows-and-columns-to-word-tables.md)|
 |Add text to a cell and format it.|[How to: Programmatically add text and formatting to cells in Word tables](../vsto/how-to-programmatically-add-text-and-formatting-to-cells-in-word-tables.md)|
 
-## See also
+## Related content
 - [Word object model overview](../vsto/word-object-model-overview.md)
 - [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)

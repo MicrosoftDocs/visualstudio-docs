@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Control events
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You must send events during the controlled execution of your program. All of the events are sent using the [IDebugEvent2](../../extensibility/debugger/reference/idebugevent2.md) interface and have attributes that require you to implement the [IDebugEvent2::GetAttributes](../../extensibility/debugger/reference/idebugevent2-getattributes.md) method.
 
 ## Additional methods

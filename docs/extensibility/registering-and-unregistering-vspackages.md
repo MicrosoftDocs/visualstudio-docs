@@ -9,11 +9,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Register and unregister VSPackages
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You use attributes to register a VSPackage, but
 
 ## Register a VSPackage
@@ -116,5 +115,5 @@ public override void Unregister(RegistrationContext context)
 }
 ```
 
-## See also
+## Related content
 - [VSPackages](../extensibility/internals/vspackages.md)

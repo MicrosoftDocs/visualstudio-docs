@@ -3,7 +3,7 @@ title: "Launch a subset of Docker Compose services"
 description: Use Docker Compose launch profiles and control what services are available for running and debugging with Visual Studio for Windows.
 author: ghogen
 manager: jmartens
-ms.technology: vs-container-tools
+ms.subservice: container-tools
 ms.devlang: dotnet
 ms.topic: how-to
 ms.date: 10/08/2021
@@ -11,8 +11,6 @@ ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
 # Launch a subset of Compose services
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If you have an application that consists of multiple services and uses Docker Compose, you can configure which services run and debug by creating or editing an existing launch profile in Docker Compose launch settings. Launch profiles allow you to dynamically run only the services that matter to your current scenario. You can create and select from launch profiles in order to customize your debugging experience and set specific launch actions such as `Browser Launch URL`. You will also have the option of either choosing each service individually or by choosing a Docker Compose profile, which also looks at your Compose file to determine the group of services to run.
 
@@ -187,12 +185,8 @@ Here is a description of each property in the *launchSettings.json*:
 |composeLaunchUrl| The URL to use when launching the browser. Valid replacement tokens are "{ServiceIPAddress}", "{ServicePort}", and "{Scheme}". For example: {Scheme}://{ServiceIPAddress}:{ServicePort}|
 |composeLaunchServiceName| Specifies the service used for replacing the tokens in composeLaunchUrl.|
 
-## Next steps
+## Related content
 
-Learn more about how Container Tools works by reading [Visual Studio Container Tools build and debug overview](container-build.md).
-
-## See also
-
+- [Visual Studio Container Tools build and debug overview](container-build.md)
 - [Visual Studio Container Tools launch settings](container-launch-settings.md)
-
 - [Docker Compose build settings](docker-compose-properties.md)

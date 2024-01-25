@@ -2,7 +2,7 @@
 title: MSBuild and Visual Studio diagnostic message formats
 description: Learn the format for diagnostic messages used in Visual Studio tools, which is relevant when writing MSBuild tasks that use these tools, or when creating custom tools that follow the same patterns.
 ms.date: 07/05/2022
-ms.topic: conceptual
+ms.topic: error-reference
 dev_langs:
 - VB
 - CSharp
@@ -10,7 +10,7 @@ dev_langs:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
+ms.subservice: msbuild
 ---
 
 # MSBuild and Visual Studio format for diagnostic messages

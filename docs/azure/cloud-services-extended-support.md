@@ -5,7 +5,7 @@ author: ghogen
 manager: jmartens
 f1_keywords:
  - AzureTools.Publish.UI
-ms.technology: vs-azure
+ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 01/25/2021
 ms.author: ghogen
@@ -13,7 +13,6 @@ monikerRange: ">=vs-2019"
 ---
 # Create and deploy to Cloud Services (extended support) in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
  
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 

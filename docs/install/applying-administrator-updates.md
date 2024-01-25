@@ -1,5 +1,5 @@
 ---
-title: Applying administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager
+title: Apply admin updates to Visual Studio with Microsoft Endpoint Manager
 titleSuffix: ''
 description: Apply administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager, view configurations, explore update distribution, view reports, and more.
 ms.date: 9/28/2023
@@ -7,12 +7,10 @@ ms.topic: overview
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ---
 # Applying administrator updates that use Microsoft Endpoint Manager (SCCM or Intune)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This document describes different types and characteristics of Visual Studio administrator updates. In this article, you'll find information on how and when they should be distributed throughout your organization, what configuration options are available, and how to view reports and troubleshoot. 
 

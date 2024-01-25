@@ -31,7 +31,6 @@ If you'd like to learn more about the C# Dev Kit, check out these resources:
 + The [C# Dev Kit FAQ](https://code.visualstudio.com/docs/csharp/cs-dev-kit-faq#_who-can-use-c-dev-kit) provides answers to common questions about the kit.  
 + The [C# Dev Kit page](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) on the Visual Studio Marketplace has information about the features, Q&A, ratings and reviews, and instructions on how to get started. 
 
-
 ## Eligibility
 
 | Subscription Level  |  Channels  | Benefit  | Renewable?    |
@@ -44,7 +43,6 @@ If you'd like to learn more about the C# Dev Kit, check out these resources:
 | Visual Studio Test Professional (Standard) | VL, Retail | Not available  |  N/A  |
 | MSDN Platforms (Standard) | VL, Retail | Not available  |  N/A  |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
-
 
 \* *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, BizSpark, Imagine, Imagine Premium, Microsoft Cloud Partner Program, Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services Developer, MCT Software & Services.*
 

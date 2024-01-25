@@ -12,11 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Walkthroughs using Excel
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The following walkthroughs demonstrate ways you can use document-level customizations and VSTO Add-ins to automate Microsoft Office Excel and customize the user interface (UI).
 
 ## Document-level walkthroughs

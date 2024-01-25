@@ -9,12 +9,10 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2019'
 ---
 # Debug .NET Apps in WSL with Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can easily run and debug your .NET Core and .NET 5+ apps in Linux without leaving Visual Studio using WSL. If you are a cross-platform developer, you can use this method as a simple way to test more of your target environments.
 

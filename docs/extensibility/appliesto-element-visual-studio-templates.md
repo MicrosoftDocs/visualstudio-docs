@@ -2,15 +2,13 @@
 title: AppliesTo Element (Visual Studio Templates)
 description: Learn about the AppliesTo element and how it specifies an optional expression to match one or more capabilities.
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 author: maiak
 ms.author: maiak
 manager: jmartens
 ---
 # AppliesTo element (Visual Studio templates)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Specifies an optional expression to match one or more capabilities (see <xref:Microsoft.VisualStudio.Shell.Interop.VsProjectCapabilityExpressionMatcher>). Capabilities are exposed by project types via the hierarchy as a property [__VSHPROPID5.VSHPROPID_ProjectCapabilities](<xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID5.VSHPROPID_ProjectCapabilities>). In this way, the template can be shared by multiple project types that have common applicable capabilities.
 

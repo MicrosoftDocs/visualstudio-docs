@@ -10,11 +10,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Evaluate a watch window expression
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 > [!IMPORTANT]
 > In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 
@@ -49,9 +48,7 @@ ms.technology: vs-ide-debug
  [Evaluating a watch expression](../../extensibility/debugger/evaluating-a-watch-expression.md)
  Explains what happens after a successful expression parse.
 
-## Related sections
- [Evaluation context](../../extensibility/debugger/evaluation-context.md)
- Provides the arguments that are passed when the debug engine (DE) calls the expression evaluator (EE).
+## Related content
+- [Evaluation context](../../extensibility/debugger/evaluation-context.md) provides the arguments that are passed when the debug engine (DE) calls the expression evaluator (EE).
 
-## See also
- [Writing a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
+- [Writing a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)

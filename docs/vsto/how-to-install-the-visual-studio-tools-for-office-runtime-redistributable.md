@@ -1,5 +1,5 @@
 ---
-title: "Install the Visual Studio Tools for Office Runtime Redistributable"
+title: Install the Visual Studio Tools for Office Runtime Redistributable
 description: Install the Microsoft Visual Studio 2010 Tools for Office Runtime redistributable, and review installation requirements.
 titleSuffix: ""
 ms.date: "01/25/2022"
@@ -13,11 +13,9 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Install the Visual Studio Tools for Office Runtime Redistributable
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
    Each computer that runs solutions created by using the Visual Studio in Visual Studio, must install the Visual Studio 2010 Tools for Office runtime. The runtime is installed automatically when you install Visual Studio, and Microsoft Office. For more information, see [Visual Studio Tools for Office runtime installation scenarios](../vsto/visual-studio-tools-for-office-runtime-installation-scenarios.md).
 
@@ -48,7 +46,7 @@ ms.technology: office-development
 
      The  Visual Studio Tools for Office runtime  includes language packs. If your installation of Windows is set to a language other than English, you can display runtime messages in the same language that you use for Windows. Similarly, if you install the  Visual Studio Tools for Office runtime . Then run your solutions on installations of Windows with a language other than English, runtime messages will appear in the same language as Windows. In some cases, you might need more language packs. For example, you might need extra language packs if your copy of Windows uses more than one language setting. Alternatively, you can switch to another language after you've already installed the  Visual Studio Tools for Office runtime . You can find language packs at [Microsoft Visual Studio 2010 Tools for the Microsoft Office system (version 4.0 runtime) language pack](https://go.microsoft.com/fwlink/?LinkId=140386).
 
-## See also
+## Related content
 
 - [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)
 - [Configure a computer to develop Office solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md)

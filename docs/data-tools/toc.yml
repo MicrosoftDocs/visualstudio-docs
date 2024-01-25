@@ -130,16 +130,6 @@
         href: save-a-dataset-as-xml.md
     - name: Query DataSets
       href: query-datasets.md
-    - name: N-tier applications
-      items:
-      - name: Add validation to an n-tier DataSet
-        href: add-validation-to-an-n-tier-dataset.md
-      - name: Add code to DataSets in n-tier applications
-        href: add-code-to-datasets-in-n-tier-applications.md
-      - name: Add code to TableAdapters in n-tier applications
-        href: add-code-to-tableadapters-in-n-tier-applications.md
-      - name: Separate DataSets and TableAdapters into different projects
-        href: separate-datasets-and-tableadapters-into-different-projects.md
   - name: Controls
     items:
     - name: Bind controls to data sources

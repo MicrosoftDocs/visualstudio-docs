@@ -14,11 +14,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Debug On a High-Performance Cluster (C#, Visual Basic, C++)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Debugging a multiprocessing program on a high-performance cluster is like debugging an ordinary program on a remote computer. However, there are some additional considerations. For general remote setup requirements, see [Remote Debugging](../debugger/remote-debugging.md).
 
@@ -91,7 +89,7 @@ Debugging a multiprocessing program on a high-performance cluster is like debugg
 
 `(MachineName = marvin) & (ThreadName = fourier1)`
 
-## See also
+## Related content
 - [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)
 - [Remote Debugging](../debugger/remote-debugging.md)
 - [How to: Use the Processes Window](/previous-versions/visualstudio/visual-studio-2010/7h8h5sdw(v=vs.100))

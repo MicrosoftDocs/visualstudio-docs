@@ -10,11 +10,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Best practices for implementing a source control plug-in
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following technical details can help you reliably implement a source control plug-in in Visual Studio.
 
 ## Memory management issues
@@ -52,6 +51,6 @@ The following technical details can help you reliably implement a source control
 
  Most user-configurable setting options are not defined in this manner, because they vary widely among source control plug-ins. Therefore, the recommended mechanism is an **Advanced** button. For instance, in the **Get** dialog box, the IDE displays only information that it understands, but it also displays an **Advanced** button if the plug-in has options for this command. When the user clicks the **Advanced** button, the IDE calls the [SccGetCommandOptions](../extensibility/sccgetcommandoptions-function.md) to enable the source control plug-in to prompt the user for information, such as bitflags or a date/time. The plug-in returns this information in a structure that is passed back during the `SccGet` command.
 
-## See also
+## Related content
 - [Source control plug-ins](../extensibility/source-control-plug-ins.md)
 - [Create a source control plug-in](../extensibility/internals/creating-a-source-control-plug-in.md)

@@ -1,5 +1,5 @@
 ---
-title: Shader Designer
+title: Use Shader Designer to create custom visual effects
 description: Learn how to work with the Visual Studio Shader Designer to create, modify, and export custom visual effects that are known as shaders.
 ms.date: 09/21/2018
 ms.topic: conceptual
@@ -9,11 +9,9 @@ f1_keywords:
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-designers
+ms.subservice: ui-designers
 ---
 # Shader Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This document describes how to work with the Visual Studio **Shader Designer** to create, modify, and export custom visual effects that are known as *shaders*.
 

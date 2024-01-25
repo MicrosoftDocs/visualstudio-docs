@@ -10,11 +10,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Add icons to menu commands
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Commands can appear on both menus and toolbars. On toolbars, it is common for a command to be displayed with just an icon (to save space) while on menus a command typically appears with both an icon and text.
 
  Icons are 16 pixels wide by 16 pixels high and can be either 8-bit color depth (256 colors) or 32-bit color depth (true color). 32-bit color icons are preferred. Icons are typically arranged in a single horizontal row in a single bitmap, although multiple bitmaps are allowed. This bitmap is declared in the *.vsct* file along with the individual icons available in the bitmap. See the reference for the [Bitmaps element](../extensibility/bitmaps-element.md) for more details.
@@ -76,6 +75,6 @@ Commands can appear on both menus and toolbars. On toolbars, it is common for a 
 
 8. Test your icon. Build the project and start debugging. In the experimental instance, find the command. It should show the icon you added.
 
-## See also
+## Related content
 - [Extending menus and commands](../extensibility/extending-menus-and-commands.md)
 - [VSCT XML schema reference](../extensibility/vsct-xml-schema-reference.md)

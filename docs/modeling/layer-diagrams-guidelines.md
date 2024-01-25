@@ -11,11 +11,9 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 ---
 # Dependency diagrams: guidelines
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Describe your app's architecture at a high level by creating *dependency diagrams* in Visual Studio. Make sure that your code stays consistent with this design by validating your code with a dependency diagram. You can also include layer validation in your build process.
 

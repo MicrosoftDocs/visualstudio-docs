@@ -6,11 +6,10 @@ ms.topic: conceptual
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Color theme tools
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Visual Studio SDK provides several tools to help you create and manage color themes.
 
 - The [VSIX Color Editor](../../extensibility/internals/vsix-color-editor.md) tool can create and edit custom colors for Visual Studio.

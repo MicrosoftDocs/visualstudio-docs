@@ -1,5 +1,5 @@
 ---
-title: "Graphics diagnostics"
+title: Explore Graphics Diagnostics tools for rendering issues
 description: Visual Studio Graphics Diagnostics is a set of tools for logging and analyzing Direct3D activity. Use them to troubleshoot rendering and performance problems.
 ms.date: "04/19/2023"
 ms.topic: "conceptual"
@@ -8,11 +8,10 @@ f1_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Visual Studio Graphics Diagnostics
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 >[!NOTE]
 > Visual Studio recommends PIX on Windows for DirectX 12 games. [PIX on Windows](https://aka.ms/PIXonWindows) is a performance tuning and debugging tool that fully supports DirectX 12. [Find out more information](visual-studio-graphics-diagnostics-directx-12.md) or [download here](https://aka.ms/downloadPIX).
 > Visual Studio Graphics Diagnostics is not supported on ARM64 Visual Studio.

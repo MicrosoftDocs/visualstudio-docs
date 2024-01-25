@@ -6,11 +6,9 @@ ms.topic: how-to
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-designers
+ms.subservice: ui-designers
 ---
 # Model 3D terrain
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article demonstrates how to use the Model Editor to create a 3D terrain model.
 
@@ -50,6 +48,6 @@ The terrain model is complete. Here's the final model again, with Phong shading 
 
 You can use this terrain model to demonstrate the effect of the gradient shader that's described in [How to: Create a geometry-based gradient shader](../designers/how-to-create-a-geometry-based-gradient-shader.md).
 
-## See also
+## Related content
 
 - [Model editor](../designers/model-editor.md)

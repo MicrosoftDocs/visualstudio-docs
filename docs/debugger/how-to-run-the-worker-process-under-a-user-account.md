@@ -17,11 +17,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Run the Worker Process Under a User Account
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To set up your computer so that you can run the ASP.NET worker process (aspnet_wp.exe or w3wp.exe) under a user account, follow these steps.
 
  > [!IMPORTANT]
@@ -80,6 +79,6 @@ To set up your computer so that you can run the ASP.NET worker process (aspnet_w
 
 13. Click **OK** to close the **Temporary ASP.NET Files Properties** dialog box.
 
-## See also
+## Related content
 - [Debug ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)
 - [ASP.NET Debugging: System Requirements](../debugger/aspnet-debugging-system-requirements.md)

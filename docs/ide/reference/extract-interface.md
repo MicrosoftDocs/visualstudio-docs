@@ -6,7 +6,7 @@ ms.topic: reference
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 f1_keywords:
 - vs.csharp.refactoring.extractinterface
 dev_langs:
@@ -14,8 +14,6 @@ dev_langs:
 - VB
 ---
 # Extract an interface refactoring
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This refactoring applies to:
 

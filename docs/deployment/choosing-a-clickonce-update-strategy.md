@@ -14,11 +14,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Choose a ClickOnce update strategy
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ClickOnce can provide automatic application updates. A ClickOnce application periodically reads its deployment manifest file to see whether updates to the application are available. If available, the new version of the application is downloaded and run. For efficiency, only those files that have changed are downloaded.
 
  When designing a ClickOnce application, you have to determine which strategy the application will use to check for available updates. There are three basic strategies that you can use: checking for updates on application startup, checking for updates after application startup (running in a background thread), or providing a user interface for updates.
@@ -124,7 +123,7 @@ ClickOnce can provide automatic application updates. A ClickOnce application per
 
  No prompting for trust levels will occur if you use Trusted Application Deployment. For more information, see [Trusted application deployment overview](../deployment/trusted-application-deployment-overview.md).
 
-## See also
+## Related content
 
 - <xref:System.Deployment.Application>
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)

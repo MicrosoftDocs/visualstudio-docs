@@ -1,5 +1,5 @@
 ---
-title: "Create an ASP.NET Core app with TypeScript"
+title: "Add TypeScript to an ASP.NET Core app"
 description: Create a simple web application by using ASP.NET Core and TypeScript, add TypeScript code, run the app, and debug with breakpoints.
 ms.date: 10/25/2023
 ms.topic: tutorial
@@ -7,13 +7,11 @@ ms.devlang: javascript
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
 ---
-# Tutorial: Create an ASP.NET Core app with TypeScript in Visual Studio
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Tutorial: Add TypeScript to an existing ASP.NET Core app in Visual Studio
 
 In this tutorial for Visual Studio development using ASP.NET Core and TypeScript, you create a simple web application, add some TypeScript code, and then run the app.
 

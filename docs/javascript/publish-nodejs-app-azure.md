@@ -7,13 +7,11 @@ ms.devlang: javascript
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
 ---
 # Publish a Node.js application to Azure (Linux App Service)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This tutorial walks you through the task of creating a simple Node.js application and publishing it to Azure.
 

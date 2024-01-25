@@ -10,11 +10,9 @@ helpviewer_keywords:
 author: mikadumont
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-code-analysis
+ms.subservice: code-analysis
 ---
 # Install third-party analyzers
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio includes a core set of .NET Compiler Platform (*Roslyn*) analyzers. These analyzers are always on. You can install additional analyzers either as NuGet packages, or as Visual Studio extensions in *VSIX* files.
 
@@ -62,12 +60,8 @@ Visual Studio includes a core set of .NET Compiler Platform (*Roslyn*) analyzers
 
 If you want to check whether the extension is installed, select **Extensions** > **Manage Extensions**. In the **Manage Extensions** dialog box, select the **Installed** category on the left, and then search for the extension by name.
 
-## Next steps
+## Related content
 
-> [!div class="nextstepaction"]
-> [Use code analyzers in Visual Studio](../code-quality/use-roslyn-analyzers.md)
-
-## See also
-
+- [Use code analyzers in Visual Studio](../code-quality/use-roslyn-analyzers.md)
 - [Overview of code analyzers in Visual Studio](../code-quality/roslyn-analyzers-overview.md)
 - [Install .NET analyzers](../code-quality/install-net-analyzers.md)

@@ -9,11 +9,9 @@ helpviewer_keywords:
 author: aarnott
 ms.author: andarno
 manager: ansonh
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Secure a brokered service
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Brokered services default to only being available to the local user and to the processes involved in the Visual Studio session that activated it.
 Under these defaults, security considerations for brokered services are no different than other code running in these processes, which include:
@@ -160,7 +158,7 @@ In such case it becomes an individual brokered service instance's responsibility
 
 The [Microsoft Threat Modeling Tool](/azure/security/develop/threat-modeling-tool) can be a useful tool for securing your shared state and your users.
 
-## See also
+## Related content
 - [Secure Development overview](/azure/security/develop/secure-dev-overview)
 - [How to: Provide a Brokered Service](how-to-provide-brokered-service.md)
 - [Best Practices for Designing a Brokered Service](best-practices-design-brokered-service.md)

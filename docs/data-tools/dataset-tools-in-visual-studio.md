@@ -1,5 +1,5 @@
 ---
-title: Visual Studio dataset tools for developing .NET Framework applications
+title: Overview of dataset tools for .NET Framework apps
 description: Explore ADO.NET dataset tools for .NET Framework applications in Visual Studio, including dataset workflows, N-tier architectures, and XML.
 ms.date: 11/21/2018
 ms.topic: conceptual
@@ -45,11 +45,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Visual Studio dataset tools for developing .NET Framework applications
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 

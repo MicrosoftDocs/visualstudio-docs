@@ -1,5 +1,5 @@
 ---
-title: Customize window layouts and personalize document tabs
+title: Customize & save layouts of your windows and tabs
 description: Learn how to customize tabs and windows in Visual Studio to create layouts that work best for your development workflows.
 ms.date: 08/30/2023
 ms.topic: conceptual
@@ -21,11 +21,9 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Customize window layouts and personalize tabs
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In Visual Studio, you can customize the position, size, and behavior of windows to create window layouts that work best for various development workflows. You can also personalize how you use [tabs](#personalize-tabs) to interact with your code.
 
@@ -34,6 +32,13 @@ In Visual Studio, you can customize the position, size, and behavior of windows 
 When you customize a window layout, the Visual Studio [integrated development environment](../get-started/visual-studio-ide.md) (IDE) remembers it. For example, if you change the docking location of **[Solution Explorer](use-solution-explorer.md)** and then close Visual Studio, the next time that you open Visual Studio, **Solution Explorer** will be docked in that same location. The Visual Studio IDE remembers the docking location even if you're working on another computer.
 
 You can also name and save a custom layout and then switch between layouts with a single command. For example, you could create a layout for editing and a layout for debugging, and switch between them by using the **Window** > **Apply Window Layout** menu command.
+
+::: moniker range="vs-2022"
+
+> [!TIP]
+> Starting with Visual Studio 17.9, the list of open documents was moved from a binary format in the .suo file to a plain text format in a JSON file. The JSON file is saved in the hidden .vs folder in the same location of the .suo file (solutionFolder.vs\SolutionName\v17). This JSON file contains the list of open documents and their properties, the layout of document groups and containers, and vertical tab column width. Storing in plain text as JSON allows for easier back up as well as the ability to check in different sets of open documents that can be restored as needed.
+
+::: moniker-end
 
 ### Tool and document windows
 

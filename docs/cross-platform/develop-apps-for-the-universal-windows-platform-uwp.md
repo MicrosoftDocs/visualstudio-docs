@@ -2,15 +2,13 @@
 title: Develop apps for the Universal Windows Platform (UWP)
 description: Learn about creating apps using Visual Studio and the Universal Windows Platform development tools.
 ms.date: 10/24/2017
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ---
 # Develop apps for the Universal Windows Platform (UWP)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 With the Universal Windows Platform and our one Windows core, you can run the same app on any Windows 10 device, from phones to desktops. Create these Universal Windows apps with Visual Studio and the Universal Windows App development tools.
 

@@ -7,12 +7,10 @@ ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 ms.manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
+
+ms.subservice: general-ide
 ---
 # Push from Visual Studio to a remote branch
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 After you've authenticated to GitHub, Visual Studio can improve your GitHub workflow. One of those improvements is the ability to push (also known as publish) a local project directly to GitHub with a single click. The final stage in a simple Git workflow is to push changes to your remote.
 
@@ -34,11 +32,8 @@ Here's how to push to a remote in Visual Studio.
 
 1. To push to your remote, select **Push** button, or select **Push** from the **Git** menu.
 
-## Next steps
+## Related content
 
-To continue your journey, visit the [Create a pull request in Visual Studio](git-create-pull-request.md) or [Fetch, pull, and sync in Visual Studio](git-fetch-pull-sync.md) page.
-
-## See also
-
+- [Create a pull request in Visual Studio](git-create-pull-request.md) or
+- [Fetch, pull, and sync in Visual Studio](git-fetch-pull-sync.md)
 - [Git experience in Visual Studio](git-with-visual-studio.md)
-- [Visual Studio & GitHub: Better together](https://visualstudio.microsoft.com/vs/github/)

@@ -1,17 +1,15 @@
 ---
-title: "Instrumentation"
+title: Explore instrumentation tools for your apps
 description: Explore the tools you can use to instrument your applications in Visual Studio, including dynamic and static instrumentation.
 ms.date: "11/09/2023"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 
 # Instrumentation in Visual Studio (C#, Visual Basic, C++, F#)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article describes the instrumentation tools in Visual Studio, which are used for collecting exact call counts and call times.
 

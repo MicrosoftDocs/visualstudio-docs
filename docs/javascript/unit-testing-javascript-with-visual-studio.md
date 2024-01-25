@@ -7,13 +7,11 @@ ms.devlang: javascript
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
 ---
 # Unit testing JavaScript and TypeScript in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can write and run unit tests in Visual Studio using some of the more popular
 JavaScript frameworks without the need to switch to a command prompt. Both Node.js and ASP.NET Core projects are supported.
@@ -129,7 +127,7 @@ The following example is based on the ASP.NET Core Model-View-Controller project
 
 1. Create an ASP.NET Core Model-View-Controller project.
 
-   For an example project, see [Create an ASP.NET Core app with TypeScript](../javascript/tutorial-aspnet-with-typescript.md). For unit testing support, we recommend you start with a standard ASP.NET Core project template.
+   For an example project, see [Add TypeScript to an existing ASP.NET Core app](../javascript/tutorial-aspnet-with-typescript.md). For unit testing support, we recommend you start with a standard ASP.NET Core project template.
 
 1. In Solution Explorer (right pane), right-click the ASP.NET Core project node and select **Manage NuGet Packages for Solutions**.
 
@@ -208,7 +206,7 @@ The following example is based on the ASP.NET Core Model-View-Controller project
 
    For Jest, if you want to compile TypeScript tests to JavaScript, remove the *tests* folder from the *exclude* section.
 
-   The *scripts* folder is where you can put the TypeScript code for your app. For an example project that adds code, see [Create an ASP.NET Core app with TypeScript](../javascript/tutorial-aspnet-with-typescript.md).
+   The *scripts* folder is where you can put the TypeScript code for your app. For an example project that adds code, see [Add TypeScript to an existing ASP.NET Core app](../javascript/tutorial-aspnet-with-typescript.md).
 
    # [Mocha](#tab/mocha)
 
@@ -233,7 +231,7 @@ The following example is based on the ASP.NET Core Model-View-Controller project
    }
    ```
 
-   The *scripts* folder is where you can put the TypeScript code for your app. For an example project that adds code, see [Create an ASP.NET Core app with TypeScript](../javascript/tutorial-aspnet-with-typescript.md).
+   The *scripts* folder is where you can put the TypeScript code for your app. For an example project that adds code, see [Add TypeScript to an existing ASP.NET Core app](../javascript/tutorial-aspnet-with-typescript.md).
 
 1. Right-click the project in Solution Explorer and choose **Add** > **New Item** (or press **Ctrl** + **SHIFT** + **A**). Use the search box to find the npm file, choose the **npm Configuration File**, use the default name, and click **Add**.
 

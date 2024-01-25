@@ -1,7 +1,7 @@
 ---
 title: Select installation locations
 description: Reduce the installation footprint of Visual Studio by changing the location of the download cache, shared components, SDKs, and tools to different drives.
-ms.date: 11/28/2022
+ms.date: 12/07/2023
 ms.custom: vs-acquisition
 ms.topic: how-to
 helpviewer_keywords:
@@ -12,12 +12,10 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ---
 # Select the installation locations in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ::: moniker range=">=vs-2022"
 

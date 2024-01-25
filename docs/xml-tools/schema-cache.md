@@ -6,11 +6,9 @@ ms.topic: conceptual
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.technology: vs-xml-tools
+ms.subservice: xml-tools
 ---
 # Schema cache
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The XML editor provides a schema cache located in the *%VSInstallDir%\xml\Schemas* directory. The schema cache is global to all users on your computer and includes standard XML schemas that are used for IntelliSense and XML document validation.
 
@@ -123,6 +121,6 @@ You can customize the location for the schema cache using the **Miscellaneous** 
 
    The catalog is automatically reloaded.
 
-## See also
+## Related content
 
 - [XML editor](../xml-tools/xml-editor.md)

@@ -6,7 +6,7 @@ ms.topic: reference
 author: mikadumont
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 f1_keywords:
   - "vs.csharp.refactoring.remove"
   - "vs.csharp.refactoring.reorder"
@@ -15,8 +15,6 @@ dev_langs:
   - VB
 ---
 # Change a method signature refactoring
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This refactoring applies to:
 

@@ -17,11 +17,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Walkthrough: Call code in a VSTO Add-in from VBA
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This walkthrough demonstrates how to expose an object in a VSTO Add-in to other Microsoft Office solutions, including Visual Basic for Applications (VBA) and COM VSTO Add-ins.
 
  [!INCLUDE[appliesto_allapp](../vsto/includes/appliesto-allapp-md.md)]
@@ -158,7 +157,7 @@ ms.technology: office-development
 
 - Customize the ribbon in a VSTO Add-in. For more information, see [Ribbon overview](../vsto/ribbon-overview.md) and [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md).
 
-## See also
+## Related content
 - [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
 - [Call code in VSTO Add-ins from other Office solutions](../vsto/calling-code-in-vsto-add-ins-from-other-office-solutions.md)
 - [Develop Office solutions](../vsto/developing-office-solutions.md)

@@ -10,12 +10,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'
 ---
 # Extend .NET Hot Reload using MetadataUpdateHandler (C#, Visual Basic)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can programmatically extend .NET Hot Reload support for additional scenarios that aren't typically supported, such as code changes that require clearing a cache or refreshing the UI. For example, to support hot reload with a JSON serializer, you need to clear its cache when a type is modified. For .NET MAUI developers, you may need to extend hot reload for edits/updates that don't trigger hot reload under normal conditions, such as editing a constructor, or an event handler for a UI element. You can use the <xref:System.Reflection.Metadata.MetadataUpdateHandlerAttribute> to refresh the application state, trigger a UI re-render, or perform similar actions.
 
@@ -147,7 +145,7 @@ Now, start the app. When you make a change to the label text in your C# code and
 
 ![Screenshot of Hot Reload working.](../debugger/media/vs-2022/hot-reload-metadataupdatehandler-example-works.png)
 
-## Additional resources
+## Related content
 
 - [C# UI and .NET Hot Reload](https://dev.to/davidortinau/c-ui-and-net-hot-reload-a-match-made-in-net-maui-243f)
 - [Supporting Hot Reload in your .NET application](https://www.meziantou.net/supporting-hot-reload-in-your-dotnet-application.htm)

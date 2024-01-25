@@ -8,11 +8,9 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Create a .vsct file
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 There are several ways to create an XML-based Visual Studio command table configuration (*.vsct*) file.
 
@@ -143,7 +141,7 @@ You can create an XML-based *.vsct* file from an existing binary *.cto* file. Do
 
      The first parameter value must match the value of the `ResourceName` attribute you defined in the project file.
 
-## See also
+## Related content
 - [Author .vsct files](../../extensibility/internals/authoring-dot-vsct-files.md)
 - [Visual Studio command table (.vsct) files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
 - [VSCT XML schema reference](../../extensibility/vsct-xml-schema-reference.md)

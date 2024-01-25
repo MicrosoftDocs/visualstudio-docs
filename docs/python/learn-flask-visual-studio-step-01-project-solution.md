@@ -7,12 +7,10 @@ ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
+ms.subservice: python
 ---
 
 # Tutorial: Get started with the Flask web framework in Visual Studio
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [Flask](https://palletsprojects.com/p/flask/) is a lightweight Python framework for web applications that provides the basics for URL routing and page rendering.
 

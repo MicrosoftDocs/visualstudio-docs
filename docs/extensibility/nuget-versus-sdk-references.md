@@ -6,11 +6,9 @@ ms.topic: conceptual
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # NuGet versus SDK as a project reference
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article is designed to help developers choose whether to package their software as a NuGet package or as a software development kit (SDK). Specifically, it discusses differences between the two when they're referenced in a Visual Studio project.
 
@@ -60,7 +58,7 @@ The following table helps you compare the referencing features of an SDK with th
 | The mechanism supports a lightweight manifest format. | Y | *SDKManifest.xml* supports many attributes, but a small subset is usually necessary. | Y | |
 | The mechanism is available for  all Visual Studio editions. | Y | The SDK supports all Visual Studio editions. | Y | NuGet supports all Visual Studio editions. |
 
-## See also
+## Related content
 
 - [Manage references in a project](../ide/managing-references-in-a-project.md)
 - [Manage references in a project (Visual Studio for Mac)](/visualstudio/mac/managing-references-in-a-project)

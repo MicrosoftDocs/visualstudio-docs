@@ -14,11 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Work with ranges
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The <xref:Microsoft.Office.Tools.Excel.NamedRange> and <xref:Microsoft.Office.Interop.Excel.Range> classes contain the methods and properties you use to perform tasks with ranges.
 
 |Task|Procedure|
@@ -36,7 +35,7 @@ ms.technology: office-development
 
  In some cases, the ways that you perform these tasks in VSTO Add-ins is different from the ways that you perform them in document-level customizations.
 
-## See also
+## Related content
 - [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)
 - [Work with worksheets](../vsto/working-with-worksheets.md)
 - [Work with workbooks](../vsto/working-with-workbooks.md)

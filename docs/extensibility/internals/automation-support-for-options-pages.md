@@ -9,11 +9,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Automation support for Options pages
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 VSPackages can provide custom **Options** dialog boxes to the **Tools** menu (**Tools Options** pages) in Visual Studio and can make them available to the automation model.
 
 ## Tools Options pages
@@ -31,5 +30,5 @@ VSPackages can provide custom **Options** dialog boxes to the **Tools** menu (**
 
    For a sample implementing a custom **Tools Options** page, see [VSSDK Samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples).
 
-## See also
+## Related content
 - [Expose project objects](../../extensibility/internals/exposing-project-objects.md)

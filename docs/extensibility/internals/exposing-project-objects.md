@@ -9,11 +9,9 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Expose project objects
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Custom project types can provide automation objects in order to allow access to the project using automation interfaces. Every project type is expected to provide the standard <xref:EnvDTE.Project> automation object that is accessed from <xref:EnvDTE.Solution>, which contains a collection of all projects that are open in the IDE. Each item in the project is expected to be exposed by a <xref:EnvDTE.ProjectItem> object accessed with `Project.ProjectItems`. In addition to these standard automation objects, projects can choose to offer project-specific automation objects.
 
@@ -86,6 +84,6 @@ It is a common convention for projects to expose a custom, project-specific proj
 
      The custom `Projects` collection object is a convenience entry point for the remaining part of your project automation model. Your project object is also accessible from the <xref:EnvDTE.Solution> project collection. After you have created the appropriate code and registry entries that provide consumers with `Projects` collection objects, your implementation must provide remaining standard objects for the project model. For more information, see [Project modeling](../../extensibility/internals/project-modeling.md).
 
-## See also
+## Related content
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject%2A>

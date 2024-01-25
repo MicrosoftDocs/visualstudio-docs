@@ -7,14 +7,12 @@ ms.devlang: javascript
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
 monikerRange: '=vs-2019'
 ---
 # Create a Vue.js application using Node.js Tools for Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio supports app development with the [Vue.js](https://vuejs.org/) framework in either JavaScript or TypeScript.
 

@@ -1,16 +1,14 @@
 ---
-title: "Remote Debug ASP.NET Core on a Remote IIS Computer"
+title: Remote debug ASP.NET Core on a remote IIS computer
 description: Debug an ASP.NET Core application that has been deployed to a remote Internet Information Services (IIS) computer using the Visual Studio remote debugger.
 ms.date: 11/21/2023
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Remote Debug ASP.NET Core on a Remote IIS Computer in Visual Studio
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To debug an ASP.NET Core application that has been deployed to IIS, install and run the remote tools on the computer where you deployed your app, and then attach to your running app from Visual Studio.
 
@@ -58,7 +56,7 @@ This article includes steps on setting up a basic configuration of IIS on Window
 
 ## Update browser security settings on Windows Server
 
-If you're using Internet Explorer in an older version of Windows Server, the Enhanced Security Configuration is enabled by default. You might need to add some domains as trusted sites to enable you to download some of the web server components. Add the trusted sites by going to **Internet Options > Security > Trusted Sites > Sites**. Add the following domains.
+If you're using an older version of Windows Server, you might need to add some domains as trusted sites to enable you to download some of the web server components. Add the trusted sites by going to **Internet Options > Security > Trusted Sites > Sites**. Add the following domains.
 
 - microsoft.com
 - go.microsoft.com

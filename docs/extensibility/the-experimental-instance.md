@@ -1,5 +1,5 @@
 ---
-title: The Experimental Instance
+title: Explore experimental space in Visual Studio SDK
 description: Explore how the Visual Studio SDK provides an experimental space to run untested applications in debug mode and safeguard your development environment.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -10,11 +10,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # The Experimental Instance
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To safeguard your Visual Studio development environment from untested applications that might change it, the VSSDK provides an experimental space that you can use to experiment. You develop new applications by using Visual Studio as usual, but you run them by using this experimental instance.
 
  Every application that has a VSIX package launches the Visual Studio experimental instance in debug mode.

@@ -1,16 +1,14 @@
 ---
-title: Productivity guide
+title: Efficient coding, debugging, & keyboard shortcuts
 description: Learn about the keyboard shortcuts and productivity features in Visual Studio that can help you efficiently write code, debug code, and handle errors.
 ms.date: 08/08/2023
 ms.topic: conceptual
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Productivity guide for Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If you want to save time while you're writing code, you're in the right place. This productivity guide includes tips that can help you get started with Visual Studio, write code, debug code, handle errors, and use keyboard shortcuts&mdash;all on one page.
 
@@ -65,7 +63,6 @@ Write code more quickly by using the following features.
 ::: moniker range=">=vs-2022" 
 - [**Try automatic copy and trim indentation**](writing-code-in-the-code-and-text-editor.md#copy-and-paste-code). Copy code from Visual Studio to another program (Outlook, Teams, etc.), without having to manually fix indentation after you paste your code. Available in Visual Studio 2022 [version 17.7](/visualstudio/releases/2022/release-notes) and later.
 ::: moniker-end 
-
 
 ## Navigate within your code and the IDE
 

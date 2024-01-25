@@ -12,11 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # &lt;friendlyName&gt; element (Office development in Visual Studio)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The `friendlyName` element of the `vstov4` namespace stores the name that appears in the list of installed programs.
 
 ## Syntax

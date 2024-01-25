@@ -1,5 +1,5 @@
 ---
-title: Locate templates
+title: Locate and organize project templates
 description: Locate and organize project templates, including installed templates and user templates (.vstemplate files), in Visual Studio.
 ms.date: 11/15/2022
 ms.topic: how-to
@@ -10,11 +10,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Locate and organize project and item templates
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Template files must be placed in a known location in order for them to be shown in the new project and new item dialog boxes..
 
@@ -90,6 +88,6 @@ To learn more about .NET SDK templates and their locations, reference the follow
 |[.NET default templates](/dotnet/core/tools/dotnet-new-sdk-templates) | When you install the .NET SDK, you receive over a dozen built-in templates for creating projects and files, including console apps, class libraries, unit test projects, ASP.NET Core apps (including Angular and React projects), and configuration files.  This article lists the templates that come pre-installed with the .NET SDK and describes how to interact with them. |
 |[Manage .NET project and item templates](/dotnet/core/install/templates?pivots=os-windows&preserve-view=true) | .NET provides a template system that enables users to install or uninstall packages containing templates from NuGet, a NuGet package file, or a file system directory. This article describes how to manage .NET templates through the .NET SDK CLI. |
 
-## See also
+## Related content
 
 - [Visual Studio template schema reference (extensibility)](../extensibility/visual-studio-template-schema-reference.md)

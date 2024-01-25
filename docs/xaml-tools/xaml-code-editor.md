@@ -1,5 +1,5 @@
 ---
-title: XAML code editor
+title: What is the XAML code editor?
 description: Explore the XAML code editor in Visual Studio for tools to create Windows Presentation Foundation (WPF) or Universal Windows Platform (UWP) apps and Xamarin forms.
 ms.date: 06/16/2020
 ms.topic: overview
@@ -9,11 +9,9 @@ monikerRange: ">=vs-2019"
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.technology: vs-xaml-tools
+ms.subservice: xaml-tools
 ---
 # XAML code editor
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The XAML code editor in the [Visual Studio IDE](../get-started/visual-studio-ide.md) includes all the tools you need to create WPF and UWP apps for the Windows platform, and for [Xamarin.Forms](/xamarin/xamarin-forms/user-interface/text/editor/). This article outlines both the role the code editor plays when you develop XAML-based apps, and the features that are unique to the XAML code editor in Visual Studio 2019.
 
@@ -188,7 +186,7 @@ For more information, see the [Code snippets](../ide/code-snippets.md) and [C# c
 
 ### XAML #region support
 
-Starting with Visual Studio 2015, we made #region support available for XAML developers in WPF and UWP, and more recently in [Xamarin.Forms](/xamarin/xamarin-forms/user-interface/text/editor/), too. In Visual Studio 2019, we continue to make incremental improvements to #region support. For example, in [version 16.4](/visualstudio/releases/2019/release-notes-v16.4/) and later, #region options show as you begin to type `<!`.
+In Visual Studio, #region support is available for XAML developers in WPF, UWP, and [Xamarin.Forms](/xamarin/xamarin-forms/user-interface/text/editor/). In Visual Studio 2019, we continue to make incremental improvements to #region support. For example, in [version 16.4](/visualstudio/releases/2019/release-notes-v16.4/) and later, #region options show as you begin to type `<!`.
 
 ![The XAML code editor with #region options showing in IntelliSense](media/code-editor-xaml-region.png "Screenshot of the XAML code editor with #region options showing in IntelliSense")
 

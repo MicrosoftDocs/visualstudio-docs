@@ -12,11 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Deploy an Office solution by using ClickOnce
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can deploy your Office solution in fewer steps if you use ClickOnce. If you publish updates, your solution will automatically detect and install them. However, ClickOnce requires that you install your solution separately for each user of a computer. Therefore, you should consider using Windows Installer (*.msi*) if more than one user will run your solution on the same computer.
 
 ## In this topic
@@ -456,7 +455,7 @@ ms.technology: office-development
 > [!NOTE]
 > Local data is saved for only one previous version of a solution. If you roll back two versions, local data isn't retained. For more information about local data, see [Access local and remote data in ClickOnce applications](../deployment/accessing-local-and-remote-data-in-clickonce-applications.md).
 
-## See also
+## Related content
 
 - [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
 - [Publish Office solutions](../vsto/deploying-an-office-solution-by-using-clickonce.md)

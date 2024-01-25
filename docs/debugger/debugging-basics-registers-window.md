@@ -15,11 +15,9 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # About the Registers Window in Visual Studio (C#, C++, Visual Basic, F#)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Registers** window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node.
 
@@ -60,6 +58,6 @@ For Intel x86 processors, you may see the following flags in the **Registers** w
 |Parity|PE = 1|
 |Carry|CY = 1|
 
-## See also
+## Related content
 - [How to: Use the Registers Window](../debugger/how-to-use-the-registers-window.md)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)

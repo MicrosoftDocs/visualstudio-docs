@@ -10,11 +10,9 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # /Upgrade (devenv.exe)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Updates the solution file and all of its project files, or the project file specified, to the current Visual Studio formats for these files.
 
@@ -44,7 +42,7 @@ Backups are automatically created and copied to a directory named Backup that's 
 
 Source-controlled solutions or projects must be checked out before they can be upgraded.
 
-Using the `/Upgrade` switch doesn't open Visual Studio. Results of the upgrade can be seen in the Upgrade Report for the development language of the solution or project. No error or usage info is returned. For more information on upgrading projects in Visual Studio, see [Port, Migrate, and Upgrade Visual Studio Projects](../../porting/port-migrate-and-upgrade-visual-studio-projects.md).
+Using the `/Upgrade` switch doesn't open Visual Studio. Results of the upgrade can be seen in the Upgrade Report for the development language of the solution or project. No error or usage info is returned. For more information on upgrading projects in Visual Studio, see [Port, Migrate, and Upgrade Visual Studio Projects](/visualstudio/releases/2022/port-migrate-and-upgrade-visual-studio-projects).
 
 ## Example
 

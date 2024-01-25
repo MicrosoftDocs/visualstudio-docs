@@ -8,11 +8,9 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # API reference for IntelliTrace extensibility
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 By using the information in this section, you can use IntelliTrace extensibility APIs to read and decode .itrace files in your application.
 
@@ -22,10 +20,8 @@ This namespace contains the IntelliTrace extensibility APIs:
 
 - <xref:Microsoft.VisualStudio.IntelliTrace>
 
-## Related sections
+## Related content
 
-[IntelliTrace](../debugger/intellitrace.md)
-Provides information about how to debug with IntelliTrace.
+- [IntelliTrace](../debugger/intellitrace.md) provides information about how to debug with IntelliTrace.
 
-[Developer code samples](https://code.msdn.microsoft.com/)
-Hosts a sample application showing how to use IntelliTrace extensibility.
+- [Developer code samples](https://code.msdn.microsoft.com/) hosts a sample application showing how to use IntelliTrace extensibility.

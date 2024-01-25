@@ -1,16 +1,14 @@
 ---
-title: Environment settings
+title: Adjust your development environment settings
 description: Learn about Visual Studio environment settings and how to adjust them to be optimal for the type of development that you do.
 ms.date: 12/14/2022
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Environment settings for Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In Visual Studio, you can optimize your development environment for the type of development work you do by selecting **Tools** > **Import and Export Settings Wizard**. From this wizard, you can choose a specific collection of settings that best matches your development environment. Each collection of settings optimizes elements such as keyboard shortcuts, window layouts, project and item templates, and command visibility.
 

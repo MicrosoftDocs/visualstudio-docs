@@ -6,11 +6,9 @@ ms.topic: how-to
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Create a software development kit
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A software development kit (SDK) is a collection of APIs that you can reference as a single item in Visual Studio. The **Reference Manager** dialog box lists all the SDKs that are relevant to the project. When you add an SDK to a project, the APIs are available in Visual Studio.
 
@@ -279,7 +277,7 @@ Note that in Visual Studio 2019 and earlier, rather than listing toolbox control
     </File>
     ```
 
-## See also
+## Related content
 
 - [Walkthrough: Create an SDK using C++](../extensibility/walkthrough-creating-an-sdk-using-cpp.md)
 - [Walkthrough: Create an SDK using C# or Visual Basic](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md)

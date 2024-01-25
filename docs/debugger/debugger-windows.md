@@ -6,11 +6,9 @@ ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Inspect data using debugger windows in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can open most debugger windows while you're debugging your program. To see a list of debugger windows, set a breakpoint and start debugging. When you hit the breakpoint and execution stops, choose **Debug > Windows**.
 
@@ -39,6 +37,6 @@ You can open most debugger windows while you're debugging your program. To see a
 |Disassembly|CTRL+ALT+D|[How to: Use the Disassembly Window](../debugger/how-to-use-the-disassembly-window.md)|
 |Registers|CTRL+ALT+G|[How to: Use the Registers Window](../debugger/how-to-use-the-registers-window.md)|
 
-## See also
+## Related content
 
 [First look at the debugger](../debugger/debugger-feature-tour.md)

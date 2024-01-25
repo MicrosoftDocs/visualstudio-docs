@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Use the Finder Tool
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can use the Finder Tool in the **Find Window** dialog box to display window properties or messages. The Finder Tool can also locate disabled child windows, and discern which window to highlight if disabled child windows overlap.
 
  ![Spy&#43;&#43; Find Window Dialog Box](../debugger/media/icon_spy--_find.png "Icon_Spy++_Find")
@@ -45,7 +44,7 @@ Finder Tool in the Find Window dialog box
 
     If you selected **Properties**, the [Window Properties Dialog Box](../debugger/window-properties-dialog-box.md) opens. If you selected **Messages**, a [Messages View](../debugger/messages-view.md) window opens.
 
-## See also
+## Related content
 - [Spy++ Views](../debugger/spy-increment-views.md)
 - [Using Spy++](../debugger/using-spy-increment.md)
 - [Spy++ Reference](../debugger/spy-increment-reference.md)

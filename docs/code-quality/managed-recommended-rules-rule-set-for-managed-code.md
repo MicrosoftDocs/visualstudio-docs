@@ -6,11 +6,9 @@ ms.topic: reference
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-code-analysis
+ms.subservice: code-analysis
 ---
 # Managed Recommended Rules rule set for managed code
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the Microsoft Managed Recommended Rules rule set to focus on the most critical problems in your managed code, including potential security holes, application crashes, and other important logic and design errors. This rule set includes all the rules in the [Managed Minimum Rules](managed-minimum-rules-rule-set-for-managed-code.md) rule set.
 

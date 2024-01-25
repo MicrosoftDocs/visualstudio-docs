@@ -13,11 +13,10 @@ dev_langs:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Mixed Mode Debugging Is Only Supported when Using Microsoft .NET Framework 2.0 or 3.0
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Versions of the Microsoft .NET Framework earlier than 2.0 do not provide support for mixed-mode debugging of 64-bit processes. This means that you cannot step from managed code to native code, or from native code to managed code, while you are debugging.
 
  To work around this problem, you can:
@@ -48,5 +47,5 @@ Versions of the Microsoft .NET Framework earlier than 2.0 do not provide support
 
 - See [Setting Up SQL Debugging](/previous-versions/visualstudio/visual-studio-2010/s4sszxst(v=vs.100)).
 
-## See also
+## Related content
 - [Debug 64-Bit Applications](../debugger/debug-64-bit-applications.md)

@@ -11,11 +11,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Manage VSPackages
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In most cases you don't need to worry about managing VSPackages, since the project and item templates register and load the package automatically. However, in some circumstances you may need to learn a bit more in order to manage your package.
 
 ## Use the experimental instance
@@ -39,5 +38,5 @@ Extensions can impact startup and solution load performance. Learn how Visual St
 ## Troubleshoot VSPackages
  Find out the techniques for troubleshooting VSPackages that don't load or are experiencing errors: [Troubleshoot VSPackages](../extensibility/troubleshooting-vspackages.md)
 
-## See also
+## Related content
 - [VSPackages](../extensibility/internals/vspackages.md)

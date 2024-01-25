@@ -32,11 +32,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Write code in Office solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   There are some aspects of writing code in Office projects that are different from other types of projects in Visual Studio. Many of these differences are related to the way the Office object models are exposed to managed code. Other differences are related to the design of Office projects.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
@@ -115,7 +114,7 @@ The following table shows key differences between Visual Basic and Visual C# in 
 |-------------|-----------------|-----------------------------------------|
 |Array indexes|The lower array bound of collections in Microsoft Office applications begins with 1. Visual Basic and Visual C# use 0-based arrays. For more information, see [Arrays &#40;C&#35; programming guide&#41;](/dotnet/csharp/programming-guide/arrays/index) and [Arrays in Visual Basic](/dotnet/visual-basic/programming-guide/language-features/arrays/index).|To access the first item of a collection in the object model of a Microsoft Office application, use the index 1 instead of 0.|
 
-## See also
+## Related content
 
 - [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
 - [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md)

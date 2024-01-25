@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Send startup events after a launch
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Once the debug engine (DE) is attached to the program, it sends a series of startup events back to the debug session.
 
  Startup events sent back to the debug session include:
@@ -38,6 +37,6 @@ Once the debug engine (DE) is attached to the program, it sends a series of star
 
   When the code is loaded and ready to run, but before any code is executed, the DE sends the SDM an [IDebugLoadCompleteEvent2](../../extensibility/debugger/reference/idebugloadcompleteevent2.md) load complete event. Finally, if the program isn't already running, the DE sends an [IDebugEntryPointEvent2](../../extensibility/debugger/reference/idebugentrypointevent2.md) entry point event, signaling that the program has reached its main entry point and is ready for debugging.
 
-## See also
+## Related content
 - [Control of execution](../../extensibility/debugger/control-of-execution.md)
 - [Debugging tasks](../../extensibility/debugger/debugging-tasks.md)

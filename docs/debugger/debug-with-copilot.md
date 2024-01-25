@@ -14,12 +14,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ai-tools
+ms.subservice: ai-tools
 monikerRange: '>= vs-2022'
 ---
 # Debug your app with GitHub Copilot in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [GitHub Copilot chat for Visual Studio 2022](../ide/visual-studio-github-copilot-chat.md) supports many interactive debugging scenarios, including AI-assisted chat for debugging questions related to your variables, the call stack, and other code elements, along with highly targeted help associated with an **Ask Copilot** link.
 

@@ -8,11 +8,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Create an extension with an editor item template
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can use item templates that are included in the Visual Studio SDK to create basic editor extensions that add classifiers, adornments, and margins to the editor. The editor item templates are available for Visual C# or Visual Basic VSIX projects.
 
 ## Create a classifier extension
@@ -88,5 +87,5 @@ You can use item templates that are included in the Visual Studio SDK to create 
 
 4. Build this project and start debugging. The experimental instance appears. If you open a text file, a green margin that has the words **Hello EditorMargin1** is displayed below the horizontal scroll bar.
 
-## See also
+## Related content
 - [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)

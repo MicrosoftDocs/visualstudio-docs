@@ -15,11 +15,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Customize the default Web page for a ClickOnce application
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When publishing a ClickOnce application to the Web, a Web page is automatically generated and published along with the application. The default page contains the name of the application and links to install the application, install prerequisites, or access help on MSDN.
 
 > [!NOTE]
@@ -42,7 +41,7 @@ When publishing a ClickOnce application to the Web, a Web page is automatically 
 
 4. Optional. To prevent Visual Studio from overwriting your customized publish Web page, uncheck **Automatically generate deployment Web page after every publish** in the **Publish Options** dialog box.
 
-## See also
+## Related content
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
 - [Publishing ClickOnce applications](../deployment/publishing-clickonce-applications.md)
 - [How to: Install prerequisites with a ClickOnce application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)

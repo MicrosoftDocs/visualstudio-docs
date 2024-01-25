@@ -9,11 +9,10 @@ dev_langs:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # GetAutoInsertExtensions method
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Gets information about the apps for Office that are to be automatically inserted during debugging.
 
  This method is reserved for future use.

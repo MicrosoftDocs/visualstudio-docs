@@ -1,17 +1,15 @@
 ---
-title: Use design-time sample data with the XAML Designer in Visual Studio
+title: Use design-time sample data with the XAML Designer
 description: Develop Windows Presentation Foundation (WPF) .NET projects with the XAML Designer in Visual Studio to enable sample data in data-reliant controls.
 ms.date: 06/01/2021
 ms.topic: conceptual
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.technology: vs-xaml-tools
+ms.subservice: xaml-tools
 monikerRange: ">=vs-2019"
 ---
 # Use design-time sample data with the XAML Designer in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Some data-reliant controls, such as `ListView`, `ListBox`, and `DataGrid`, are hard to visualize without data. In this article, we'll review a new approach that allows developers who are working on Windows Presentation Foundation (WPF) .NET Core projects or WPF .NET Framework projects with the XAML Designer in Visual Studio to enable sample data in these controls.
 
@@ -95,7 +93,7 @@ If your sample data is not showing anything or fails to show the correct type, y
 
 If you experience a problem that isn't listed in this section or that can't be fixed by refreshing the page, please let us know by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool.
 
-## See also
+## Related content
 
 - [XAML design-time properties](../xaml-tools/xaml-designtime-data.md)
 - [XAML in WPF apps](/dotnet/framework/wpf/advanced/xaml-in-wpf)

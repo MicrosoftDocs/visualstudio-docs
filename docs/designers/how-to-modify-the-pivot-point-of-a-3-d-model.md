@@ -6,11 +6,9 @@ ms.topic: how-to
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-designers
+ms.subservice: ui-designers
 ---
 # Modify the pivot point of a 3D model
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article demonstrates how to use the Model Editor to modify the *pivot point* of a 3D model. The pivot point is the point in space that defines the mathematical center of the object for rotation and scaling.
 
@@ -37,7 +35,7 @@ Here's a model that has a modified pivot point:
 
 ![A model of a house that has a modified pivot point](../designers/media/digit-modified-model.png)
 
-## See also
+## Related content
 
 - [How to: Create a basic 3D model](../designers/how-to-create-a-basic-3-d-model.md)
 - [Model editor](../designers/model-editor.md)

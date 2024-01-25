@@ -7,12 +7,10 @@ ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
+ms.subservice: python
 ms.custom: vs-acquisition
 ---
 # Tutorial: Work with Python in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Python is a popular programming language that is reliable, flexible, easy to learn, and free to use on all operating systems. Python is supported by both a strong developer community and many, free libraries. The language supports all kinds of development, including web applications, web services, desktop apps, scripting, and scientific computing. Many universities, scientists, casual developers, and professional developers use Python.
 
@@ -75,7 +73,6 @@ This tutorial begins with a simple project containing a single, empty code file.
    
 
 1. Select the **Python Application** template, and select **Next**.
-
 
    
 1. On the **Configure your new project** screen, specify a name and file location for the project, and then select **Create**.

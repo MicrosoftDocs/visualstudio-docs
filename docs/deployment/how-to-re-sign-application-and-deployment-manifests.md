@@ -16,11 +16,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Re-sign application and deployment manifests
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 After you make changes to deployment properties in the application manifest for Windows Forms applications, Windows Presentation Foundation applications (xbap), or Office solutions, you must re-sign both the application and deployment manifests with a certificate. This process helps ensure that tampered files are not installed on end user computers.
 
  Another scenario where you might re-sign the manifests is when your customers want to sign the application and deployment manifests with their own certificate.
@@ -109,7 +108,7 @@ After you make changes to deployment properties in the application manifest for 
 
 7. Optionally, copy the master deployment manifest (*publish\\\<appname>.application*) to your version deployment directory (*publish\Application Files\\\<appname>_\<version>*).
 
-## See also
+## Related content
 - [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)
 - [Code access security for ClickOnce applications](../deployment/code-access-security-for-clickonce-applications.md)
 - [ClickOnce and Authenticode](../deployment/clickonce-and-authenticode.md)

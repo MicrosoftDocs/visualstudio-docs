@@ -5,14 +5,12 @@ ms.date: 11/01/2023
 ms.topic: how-to
 helpviewer_keywords:
 - startup projects, setting multiple startup projects
-ms.technology: vs-ide-compile
+ms.subservice: compile-build
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ---
 # Set multiple startup projects
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio allows you to specify how more than one project is run when you press **F5** (Start with Debugging), or **Ctrl**+**F5** (Start without debugging), or use the toolbar button to launch your application. In this way, you could start multiple sites, apps, or services that depend on each other to work correctly during a debug session or just running and testing locally.
 

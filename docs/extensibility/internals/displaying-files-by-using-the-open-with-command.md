@@ -10,11 +10,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Display files by using the Open With command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A project can ask the IDE to display the **Open With** dialog box. This request prompts the user to open a file that has a selection of standard editors. The following steps describe this process:
 
 1. The project calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A>, specifying a value of `OSE_UseOpenWithDialog` for the `OSEOpenDocEditor` parameter.
@@ -26,7 +25,7 @@ A project can ask the IDE to display the **Open With** dialog box. This request 
 
 3. As soon as the user selects an item from the **Open With** dialog box, the IDE then opens the document by calling <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A> method. For more information, see [How to: Open standard editors](../../extensibility/how-to-open-standard-editors.md).
 
-## See also
+## Related content
 - [Open and save project items](../../extensibility/internals/opening-and-saving-project-items.md)
 - [Display files by using the Open File command](../../extensibility/internals/displaying-files-by-using-the-open-file-command.md)
 - [How to: Open standard editors](../../extensibility/how-to-open-standard-editors.md)

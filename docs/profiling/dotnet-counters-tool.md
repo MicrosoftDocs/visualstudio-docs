@@ -8,11 +8,9 @@ helpviewer_keywords:
 author: MikeJo5000
 ms.author: mikejo
 manager: AndSter
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Visualize dotnet counters from the Visual Studio profiler
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The .NET Counters tool allows you to visualize [dotnet counters](/dotnet/core/diagnostics/dotnet-counters) over time right from within the Visual Studio profiler.
 

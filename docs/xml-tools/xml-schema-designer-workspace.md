@@ -6,11 +6,9 @@ ms.topic: conceptual
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.technology: vs-xml-tools
+ms.subservice: xml-tools
 ---
 # XML Schema Designer workspace views
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The XML Schema Designer (XSD Designer) is a graphical tool that helps you explore your XML schemas. In addition to the [XML Schema Explorer](../xml-tools/xml-schema-explorer.md), which allows you to browse and navigate the XML Schema tree and perform searches, the XSD Designer provides three views where you can explore your XSD schema in more detail.
 

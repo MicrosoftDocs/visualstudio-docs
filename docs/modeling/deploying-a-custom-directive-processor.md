@@ -8,11 +8,9 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 ---
 # Deploying a Custom Directive Processor
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To use a custom directive processor in Visual Studio on any computer, you must register it by one of the methods described in this topic.
 

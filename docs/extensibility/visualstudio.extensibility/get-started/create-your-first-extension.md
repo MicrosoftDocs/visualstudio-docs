@@ -7,7 +7,7 @@ ms.author: maiak
 monikerRange: ">=vs-2022"
 author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 
 # Create your first Visual Studio extension
@@ -16,11 +16,7 @@ This document is a quickstart that shows how to create your first extension usin
 
 ## Prerequisites
 
-* Visual Studio 2022 version 17.8 Preview 1 or higher with `.NET desktop development` workload.
-
-* Install latest version of [VisualStudio.Extensibility Project System](https://marketplace.visualstudio.com/items?itemName=vsext.gladstone): With this extension, you can debug extension projects using F5. There is currently no other deployment mechanism supported.
-
-* If you're updating from earlier builds, make sure to update VisualStudio.Extensibility Project System to latest version as there are breaking changes in VisualStudio.Extensibility packages.
+* Visual Studio 2022 version 17.9 Preview 1 or higher with `Visual Studio extension development` workload.
 
 ## Create the extension project
 
@@ -32,7 +28,7 @@ At this point, you're ready to start extending Visual Studio by adding commands 
 
 ## The Extension class
 
-The template creates a class that extends `Extension`. This class is the first that is instantiated when your extension is loaded. In the `InitializeServices` method, you can add your own services to the service collection to make them available for dependency injection.
+The template creates a class that extends [`Extension`](/dotnet/api/microsoft.visualstudio.extensibility.extension). This class is the first that is instantiated when your extension is loaded. In the [`InitializeServices`](/dotnet/api/microsoft.visualstudio.extensibility.extension.initializeservices) method, you can add your own services to the service collection to make them available for dependency injection.
 
 ```csharp
 [VisualStudioContribution]
@@ -47,11 +43,11 @@ internal class ExtensionEntrypoint : Extension
 }
 ```
 
-You can also see the `VisualStudioContribution` attribute that is used to mark extension components that are meant to be consumed by Visual Studio. This attribute can be applied to classes implementing `IVisualStudioContributionClass` or static properties of a type implementing `IVisualStudioContributionProperty`.
+You can also see the [`VisualStudioContribution`](/dotnet/api/microsoft.visualstudio.extensibility.visualstudiocontributionattribute) attribute that is used to mark extension components that are meant to be consumed by Visual Studio. This attribute can be applied to classes implementing [`IVisualStudioContributionClass`](/dotnet/api/microsoft.visualstudio.extensibility.ivisualstudiocontributionclass) or static properties of a type implementing [`IVisualStudioContributionProperty`](/dotnet/api/microsoft.visualstudio.extensibility.ivisualstudiocontributionproperty).
 
 ## Add your first command
 
-The template creates `Command1.cs` as your first command handler, which you can use as a starting point. Since we want to make Visual Studio aware of this command, and the `Command` class implements `IVisualStudioContributionClass`, the command is marked with the `VisualStudioContribution` attribute.
+The template creates `Command1.cs` as your first command handler, which you can use as a starting point. Since we want to make Visual Studio aware of this command, and the [`Command`](/dotnet/api/microsoft.visualstudio.extensibility.commands.command) class implements [`IVisualStudioContributionClass`](/dotnet/api/microsoft.visualstudio.extensibility.ivisualstudiocontributionclass), the command is marked with the `VisualStudioContribution` attribute.
 
 ```csharp
 [VisualStudioContribution]
@@ -59,7 +55,7 @@ internal class Command1 : Command
 {
 ```
 
-The command has a configuration property named `CommandConfiguration`, which defines its display name, icon and placement under the `Extensions` menu.
+The command has a configuration property named [`CommandConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandconfiguration), which defines its display name, icon and placement under the `Extensions` menu.
 
 ```csharp
     public override CommandConfiguration CommandConfiguration => new("%MyExtension.Command1.DisplayName%")
@@ -75,7 +71,7 @@ Configuration properties are evaluated by the C# compiler when building the exte
 
 You can see that the display name of the command is `"%MyExtension.Command1.DisplayName%"`, which references the `MyExtension.Command1.DisplayName` string in the `.vsextension/string-resources.json` file, allowing this string to be localized.
 
-When the command is executed, Visual Studio will call in to `ExecuteCommandAsync` method where you can place a breakpoint. You can utilize `context` argument or `this.Extensibility` object to interact with Visual Studio.
+When the command is executed, Visual Studio will call in to [`ExecuteCommandAsync`](/dotnet/api/microsoft.visualstudio.extensibility.commands.dynamiccommand.executecommandasync) method where you can place a breakpoint. You can utilize `context` argument or `this.Extensibility` object to interact with Visual Studio.
 
 For example, a command handler could be as below:
 

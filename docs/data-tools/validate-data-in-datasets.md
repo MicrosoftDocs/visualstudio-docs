@@ -19,11 +19,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
 # Validate data in datasets in .NET Framework applications
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -245,7 +243,7 @@ Passing the <xref:System.Data.DataRowVersion> value along with the column index 
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb" id="Snippet22":::
      ---
 
-## See also
+## Related content
 
 - [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)
 - [How to: Validate data in the Windows Forms DataGridView control](/dotnet/framework/winforms/controls/how-to-validate-data-in-the-windows-forms-datagridview-control)

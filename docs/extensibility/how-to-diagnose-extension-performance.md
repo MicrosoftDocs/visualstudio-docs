@@ -6,11 +6,9 @@ ms.topic: how-to
 author: "BertanAygun"
 ms.author: "bertaygu"
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Measuring extension impact in startup
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ## Focus on extension performance in Visual Studio 2017
 

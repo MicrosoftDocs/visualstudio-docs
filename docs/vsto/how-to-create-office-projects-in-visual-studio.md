@@ -21,11 +21,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Create Office projects in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can use Visual Studio to create VSTO Add-in and document-level customizations for Microsoft Office applications. For more information about these types of projects, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
@@ -147,7 +146,7 @@ ms.technology: office-development
 
      For more information on how to add a document to the trusted locations, see the Microsoft Office Online web site [Create, remove, or change a trusted location for your files](https://support.office.com/article/Create-remove-or-change-a-trusted-location-for-your-files-f5151879-25ea-4998-80a5-4208b3540a62).
 
-## See also
+## Related content
 - [Office project templates overview](../vsto/office-project-templates-overview.md)
 - [Collaborative development of Office solutions](../vsto/collaborative-development-of-office-solutions.md)
 - [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)

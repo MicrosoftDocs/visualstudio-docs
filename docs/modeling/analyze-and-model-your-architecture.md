@@ -16,11 +16,9 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
+ms.subservice: modeling
 ---
 # Analyze and model your architecture
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Make sure your app meets architectural requirements by using Visual Studio architecture and modeling tools to design and model your app.
 

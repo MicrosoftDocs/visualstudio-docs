@@ -6,11 +6,9 @@ ms.topic: how-to
 author: vritant24
 ms.author: vrbhardw
 manager: manishj
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 ---
 # Test Execution with Hot Reload
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Test runs in Visual Studio involve building the project to update the binaries on disk before using [Test Platform](https://github.com/microsoft/vstest/) to execute your tests. The build time inside Visual Studio can vary depending on the [kind of changes](https://github.com/dotnet/roslyn/blob/296e0fada42f241d338b169c3c6c6189101ef0b7/docs/wiki/EnC-Supported-Edits.md) made to the code. For larger solutions, builds can be the most expensive part of the test run. 
 In Visual Studio 2022 and later, test execution with hot reload can be enabled to speed up test execution by skipping builds for supported scenarios.

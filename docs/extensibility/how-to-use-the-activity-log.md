@@ -1,5 +1,5 @@
 ---
-title: 'Use the Activity Log'
+title: Use the Activity Log to debug and add entries
 description: Work with the activity log in Visual Studio to debug VSPackages messages in retail environments and write entries to the log.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -9,11 +9,10 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Use the activity log
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 VSPackages can write messages to the activity log. This feature is especially useful for debugging VSPackages in retail environments.
 
 > [!TIP]
@@ -59,7 +58,7 @@ Because the activity log is a service, the activity log is unavailable in the VS
 
 You should obtain the activity log just before writing to it. Do not cache or save the activity log for future use.
 
-## See also
+## Related content
 
 - [/Log (devenv.exe)](../ide/reference/log-devenv-exe.md)
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog>

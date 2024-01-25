@@ -13,11 +13,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ---
 # Specify verbose log files for ClickOnce deployments
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ClickOnce maintains activity log files for all deployments. These logs document details pertaining to installing, initializing, updating, and uninstalling a ClickOnce deployment. To increase the detail that ClickOnce writes to these log files, use Registry Editor (*regedit.exe*) to specify the verbosity level.
 
 > [!CAUTION]
@@ -35,5 +34,5 @@ ClickOnce maintains activity log files for all deployments. These logs document 
 
 4. Set the `LogVerbosityLevel` value to `1`.
 
-## See also
+## Related content
 - [Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)

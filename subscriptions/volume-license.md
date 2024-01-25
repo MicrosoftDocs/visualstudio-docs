@@ -1,5 +1,5 @@
 ---
-title: Accessing the Admin Portal for Visual Studio Volume License customers
+title: Access Admin Portal for Volume License customers
 author: evanwindom
 ms.author: amast
 manager: shve

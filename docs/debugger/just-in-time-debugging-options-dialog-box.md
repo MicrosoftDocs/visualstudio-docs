@@ -18,11 +18,10 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Just-In-Time, Debugging, Options Dialog Box
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To access the **Just-In-Time** page, go to the **Tools** menu and click **Options**. In the **Options** dialog box, expand the **Debugging** node and select **Just-In-Time**. This page allows you to enable Just-In-Time debugging for managed code, native code, and script. For more information, see [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studio.md).
 
  You can enable Just-In-Time debugging for these program types:
@@ -46,7 +45,7 @@ To access the **Just-In-Time** page, go to the **Tools** menu and click **Option
 
  **Just-In-Time debugging registration errors detected. To repair, enable Just-In-Time debugging or run Visual Studio repair.**
 
- If you see either of these warnings, Just-In-Time debugging with Visual Studio 2012 requires Administrator privileges until you have fixed the problem. If you try to enable just-as a non-administrator under these conditions, you will see the following error message:
+ If you see either of these warnings, Just-In-Time debugging with Visual Studio requires Administrator privileges until you have fixed the problem. If you try to enable just-as a non-administrator under these conditions, you will see the following error message:
 
  **Access is denied. Have an administrator enable Just-In-Time debugging, or repair your installation of Visual Studio.**
 

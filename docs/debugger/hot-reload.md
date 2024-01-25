@@ -9,12 +9,10 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'
 ---
 # Write and debug running code with Hot Reload in Visual Studio (C#, Visual Basic, C++)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Starting in Visual Studio 2022, the Hot Reload experience in Visual Studio works for both managed .NET and native C++ apps. Regardless of the type of app you’re working on, the intention of Hot Reload is to save you as many app restarts between edits as possible, making you more productive by reducing the time you spend waiting for apps to rebuild, restart, re-navigate to the previous location where you were in the app itself, et al.
 
@@ -131,38 +129,7 @@ See [Unsupported scenarios](../debugger/supported-code-changes-csharp.md#unsuppo
 
 ## Configure Hot Reload
 
-You can configure Hot Reload by selecting **Settings** from the **Hot Reload** drop-down button.
-
-![Screenshot of configuring Hot Reload](../debugger/media/vs-2022/dotnet-hot-reload-configure.png)
-
-Or, open **Tools** > **Options** > **Debugging** > **.NET/C++ Hot Reload**.
-
-The settings for Hot Reload include:
-
-* **Enable Hot Reload and Edit and Continue when debugging**. Enables Hot Reload when starting with the debugger attached (F5).
-
-* **Enable Hot Reload when starting without debugging**. Enables Hot Reload when starting without the debugger attached (Ctrl+F5).
-
-* **Apply Hot Reload on File Save**. Applies code changes when you save the file.
-
-* **Logging Verbosity**. Filters amount of information displayed in the Hot Reload Output window.
-
-![Screenshot of settings for .NET Hot Reload](../debugger/media/vs-2022/dotnet-hot-reload-settings.png)
-
-You also can control whether .NET Hot Reload is available at the project level by modifying your .NET 6+ project's *launchSetting.json* file and setting `hotReloadEnabled` to `false`.
-
-Example:
-
-```xaml
-{
-  "profiles": {
-    "Console": {
-      "commandName": "Project",
-      "hotReloadEnabled": false
-    }
-  }
-}
-```
+To enable, disable, or configure Hot Reload, see [Configure Edit and Continue](../debugger/how-to-enable-and-disable-edit-and-continue.md).
 
 ## Warning message
 
@@ -172,14 +139,13 @@ If you see the following dialog box, Hot Reload is unable to apply the current e
 
 If you select the **Always rebuild when changes can't be applied** option in the dialog box, you won't see the dialog box again in the current Visual Studio session, and Visual Studio will automatically rebuild and reload instead of showing the dialog box.
 
-
 ## Troubleshooting
 
 It is highly recommended to check for the **Hot Reload Output** window for detailed diagnostic information regarding the Hot Reload session.
 
 If you're using response compression on .NET Core, see the information on [response compression](/dotnet/core/tools/dotnet-watch#response-compression).
 
-## See also
+## Related content
 
 * [Edit and Continue (C#)](../debugger/edit-and-continue-visual-csharp.md)
 * [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md)

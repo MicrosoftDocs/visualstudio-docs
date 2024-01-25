@@ -12,11 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
+ms.subservice: office-development
 ---
 # Add commands to shortcut menus
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This topic demonstrates how to add commands to a shortcut menu in an Office application by using a VSTO Add-in.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
@@ -83,7 +82,7 @@ ms.technology: office-development
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddin_menus.vb/ribbon1.vb" id="Snippet2":::
      ---
 
-## See also
+## Related content
 - [Office UI customization](../vsto/office-ui-customization.md)
 - [Walkthrough: Create Shortcut menus for bookmarks](/previous-versions/visualstudio/visual-studio-2017/vsto/walkthrough-creating-shortcut-menus-for-bookmarks)
 - [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)

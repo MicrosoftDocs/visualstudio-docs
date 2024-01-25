@@ -7,11 +7,9 @@ ms.topic: conceptual
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.technology: vs-xaml-tools
+ms.subservice: xaml-tools
 ---
 # Modify the style of objects in Blend for Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The easiest way to customize an object is to set properties in the **Properties** pane.
 
@@ -97,6 +95,6 @@ You can convert just about anything in your project to a resource. A resource is
 
 ![Convert color to resource button](../designers/media/89203705-cf66-46e0-b153-52a23cd744f7.png) ![Create Color Resource dialog box](../designers/media/6bff8b19-3cd5-41a0-bbf9-ff65532d5aae.png)
 
-## See also
+## Related content
 
 - [Creating a UI by using Blend for Visual Studio](../xaml-tools/creating-a-ui-by-using-blend-for-visual-studio.md)

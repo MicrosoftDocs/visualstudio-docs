@@ -11,11 +11,9 @@ helpviewer_keywords:
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Import and Export Settings command (.vssettings file)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Imports, exports, or resets Visual Studio settings file, `.vssettings`.
 
@@ -52,7 +50,6 @@ The following command exports the current settings to the file `MyFile.vssetting
 ```cmd
 Tools.ImportandExportSettings /export:"c:\Files\MyFile.vssettings"
 ```
-
 
 ## See also
 

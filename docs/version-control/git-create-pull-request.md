@@ -7,12 +7,10 @@ ms.topic: how-to
 author: houghj16
 ms.author: jehoughton
 ms.manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
+
+ms.subservice: general-ide
 ---
 # Create a pull request in Visual Studio 
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If you’re authenticated to GitHub or Azure DevOps and have pushed changes to your remote repository, you can create a pull request without leaving Visual Studio. Pull requests are an essential tool in GitHub and Azure DevOps for code review.  These reviews help catch issues in new features and allow teammates to share their experience with different regions of the codebase – improving the health of the codebase overall.  
 
@@ -25,9 +23,9 @@ To create a pull request, follow these steps:
 
 1. Then, you can [commit](git-make-commit.md) and [push](git-push-remote.md) your changes as you normally would in the Git Changes window.
 
-1. Select the link in the notification banner to **Create a Pull Request**.
+1. Select the link in the notification banner to **Create in Visual Studio** or **Create in Browser**.
 
-   :::image type="content" source="media/vs-2022/git-create-pr-infobar.png" alt-text="The Git Changes window with the infobar 'Successfully pushed to origin/featurebranch5. Create a Pull Request' text highlighted in Visual Studio 2022.":::
+   :::image type="content" source="media/vs-2022/git-create-pull-request-infobar-two-links.png" alt-text="Screenshot of the Git Changes window with the infobar 'Successfully pushed QP to origin. Pull request: Create in Visual Studio or create in browser.' in Visual Studio 2022.":::
    
    Alternatively, you can create a pull request from a remote branch by navigating to the **New Pull Request** window via the top-level menu **Git** > **GitHub** or **Azure DevOps** > **New Pull Request**. Or right-click a branch in the Git Repository Window.
    
