@@ -5,7 +5,7 @@ author: cwebster-99
 ms.author: cowebster
 ms.subservice: python
 ms.topic: how-to
-ms.date: 01/17/2024
+ms.date: 01/25/2024
 manager: jmartens
 
 # CustomerIntent: As a developer, I want to install Python support in Visual Studio so that I can access Python features in the product.
@@ -18,13 +18,13 @@ Python support is available only on Visual Studio for Windows. On Mac and Linux,
 
 ## Prerequisites 
 
-None.
+- Visual Studio on Windows. To install the product, follow the steps in [Install Visual Studio](../install/install-visual-studio.md).
 
 ## Download and install the Python workload
 
 Complete the following steps to download and install the Python workload.
 
-1. Download and run the latest Visual Studio installer for Windows. Python support is present in release 15.2 and later. If you have Visual Studio installed already, open Visual Studio and run the installer by selecting **Tools** > **Get Tools and Features**.
+1. Download and run the latest Visual Studio Installer for Windows. Python support is present in release 15.2 and later. If you have Visual Studio installed already, open Visual Studio and run the installer by selecting **Tools** > **Get Tools and Features**.
 
    > [!div class="nextstepaction"]
    > [Install Visual Studio Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted)
@@ -47,20 +47,16 @@ Complete the following steps to download and install the Python workload.
 
    :::moniker range=">=vs-2022"
 
-   ```python
-   *%ProgramFiles%\Microsoft Visual Studio\\<VS_version>\\<VS_edition>Common7\IDE\Extensions\Microsoft\Python*
-   ```
+   _%ProgramFiles%\Microsoft Visual Studio\\<VS_version>\\<VS_edition>Common7\IDE\Extensions\Microsoft\Python_
 
-   where `<VS_version>` is 2022 and `<VS_edition>` is Community, Professional, or Enterprise.
+   where _\<VS_version>_ is 2022 and _\<VS_edition>_ is Community, Professional, or Enterprise.
 
    :::moniker-end
    :::moniker range="<=vs-2019"
 
-   ```python
-   *%ProgramFiles(x86)%\Microsoft Visual Studio\\<VS_version>\\<VS_edition>Common7\IDE\Extensions\Microsoft\Python*
-   ```
+   _%ProgramFiles(x86)%\Microsoft Visual Studio\\<VS_version>\\<VS_edition>Common7\IDE\Extensions\Microsoft\Python_
 
-   where `<VS_version>` is 2019 or 2017 and `<VS_edition>` is Community, Professional, or Enterprise.
+   where _\<VS_version>_ is 2019 or 2017 and _\<VS_edition>_ is Community, Professional, or Enterprise.
 
    :::moniker-end
 

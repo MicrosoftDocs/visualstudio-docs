@@ -6,12 +6,11 @@ author: cwebster-99
 ms.author: cowebster
 ms.subservice: python
 ms.topic: tutorial
-ms.date: 01/19/2024
+ms.date: 01/25/2024
 manager: jmartens
 ms.custom: vs-acquisition
 
 # CustomerIntent: As a developer, I want to reformat Python code in Visual Studio so I can adjust settings like code spacing and line wrapping.
-
 ---
 
 # Tutorial: Work with Python in Visual Studio
@@ -40,7 +39,7 @@ This tutorial begins with a simple project containing a single, empty code file.
 
 ::: moniker range="<=vs-2019"
 
-1. In Visual Studio, select **File** > **New** > **Project** to open the **New Project** dialog. You can also use the keyboard shortcut Ctrl + Shift + N. In the dialog, you can browse templates across different languages, select a template for your project, and specify where Visual Studio places files.
+1. In Visual Studio, select **File** > **New** > **Project** to open the **New Project** dialog. You can also use the keyboard shortcut **Ctrl**+**Shift**+**N**. In the dialog, you can browse templates across different languages, select a template for your project, and specify where Visual Studio places files.
 
 1. To view Python templates, select **Installed** > **Python** on the left menu, or search for "Python." The search option is a great way to find a template when you can't remember its location in the languages tree.
 
@@ -54,7 +53,7 @@ This tutorial begins with a simple project containing a single, empty code file.
 
 ::: moniker range=">=vs-2022"
 
-1. In Visual Studio, select **File** > **New** > **Project** or use the keyboard shortcut Ctrl + Shift + N. The **Create a new project** screen opens, where you can search and browse templates across different languages.
+1. In Visual Studio, select **File** > **New** > **Project** or use the keyboard shortcut **Ctrl**+**Shift**+**N**. The **Create a new project** screen opens, where you can search and browse templates across different languages.
    
 1. To view Python templates, search for *python*. Search is a great way to find a template when you can't remember its location in the languages tree.
 
