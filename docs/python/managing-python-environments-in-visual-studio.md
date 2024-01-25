@@ -120,12 +120,7 @@ Visual Studio provides direct support for creating a virtual environment for a p
 
 At any time within an open project, you can create a new virtual environment. In **Solution Explorer**, expand the project node, right-click **Python Environments**, and choose **Add environment**. In **Add Environment**, choose **Virtual environment**.
 
-:::moniker range="vs-2019"
-For more information, see [Create a virtual environment-2019](/visualstudio/python/selecting-a-python-environment-for-a-project?view=vs-2019#create-a-virtual-environment).
-:::moniker-end
-:::moniker range=">=vs-2022"
-For more information, see [Create a virtual environment-2022](/visualstudio/python/selecting-a-python-environment-for-a-project?view=vs-2022#create-a-virtual-environment).
-:::moniker-end
+For more information, see [Create a virtual environment](selecting-a-python-environment-for-a-project.md#create-a-virtual-environment)t).
 
 Visual Studio also provides a command to generate a _requirements.txt_ file from a virtual environment, making it easy to recreate the environment on other computers. For more information, see [Use virtual environments](selecting-a-python-environment-for-a-project.md#use-virtual-environments).
 
