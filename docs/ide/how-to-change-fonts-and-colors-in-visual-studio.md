@@ -327,7 +327,7 @@ To improve toolbar usability and accessibility, you can add text to toolbar butt
 
 ### Accessibility support
 
-For more information about features, products, and services that make Windows more accessible for people with disabilities, see [Accessibility products and services from Microsoft](https://www.microsoft.com/accessibility). And, for more information about how to obtain more accessible formats of documentation for Microsoft products, you can view an index of accessible product documentation on the [Microsoft Accessibility](https://www.microsoft.com/en-us/accessibility) website.
+For more information about features, products, and services that make Windows more accessible for people with disabilities, see [Accessibility products and services from Microsoft](https://www.microsoft.com/accessibility). And, for more information about how to obtain more accessible formats of documentation for Microsoft products, you can view an index of accessible product documentation on the [Microsoft Accessibility](https://www.microsoft.com/accessibility) website.
 
 The accessibility information included on this page might apply only to users who license Microsoft products in the United States. If you obtained this product outside of the United States, visit the [Microsoft Accessibility](https://www.microsoft.com/accessibility/) website for a list of Microsoft support services telephone numbers and addresses. You can contact your subsidiary to find out whether the type of products and services described on this page are available in your area. Information about accessibility is also available in other languages.
 
