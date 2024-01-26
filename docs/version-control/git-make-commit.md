@@ -23,6 +23,8 @@ As you do your work, Visual Studio keeps track of the file changes to your proje
 
 :::image type="content" source="media/vs-2022/git-changes-window.png" alt-text="The Git Changes window in Visual Studio 2022.":::
 
+## Stage changes and make a commit
+
 To stage changes when you're ready, select the **+** (plus) button on each file you want to stage, or right-click a file and then select **Stage**. You can also stage all your modified files with one click by using the stage all **+** (plus) button at the top of the **Changes** section.
 
 When you stage a change, Visual Studio creates a **Staged Changes** section. Only changes in the **Staged Changes** section are added to the next commit, which you can do by selecting **Commit Staged**. The equivalent command for this action is `git commit -m "Your commit message"`.
@@ -38,6 +40,8 @@ Visual Studio also makes it easy to commit and sync with one click by using the 
 :::image type="content" source="media/vs-2022/git-file-version-compare.png" alt-text="The line-by-line comparison of file versions in Visual Studio 2022.":::
 
 New in [**version 17.6**](/visualstudio/releases/2022/release-notes-v17.6): You can also reference an issue or a pull request by typing `#` or selecting the **#** button in the lower right side of the commit message text box. For more information, see the [Reference issues and pull requests](https://devblogs.microsoft.com/visualstudio/reference-github-issues-and-pull-requests-in-visual-studio/) blog post.
+
+## Revert or amend a commit
 
 When you double-click a **Commit**, Visual Studio opens its details in a separate tool window. From here you can revert the commit, reset the commit, amend the commit message, or create a tag on the commit. When you click a changed file in the commit, Visual Studio opens the side-by-side **Diff** view of the commit and its parent.
 
