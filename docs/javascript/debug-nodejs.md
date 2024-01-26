@@ -157,7 +157,7 @@ Visual Studio has the capability to use and generate source maps on JavaScript s
 - In a JavaScript project, you can generate source maps using a bundler like webpack and a compiler like the TypeScript compiler (or Babel), which you can add to your project. For the TypeScript compiler, you must also add a *tsconfig.json* file and set the ```sourceMap``` compiler option. For an example that shows how to do this using a basic webpack configuration, see [Create a Node.js app with React](../javascript/tutorial-nodejs-with-react-and-jsx.md).
 
 > [!NOTE]
-> If you are new to source maps, read [Introduction to JavaScript Source Maps](https://www.html5rocks.com/en/tutorials/developertools/sourcemaps/) before continuing.
+> If you are new to source maps, read [What are Source Maps?](https://web.dev/articles/source-maps) before continuing.
 
 To configure advanced settings for source maps, use either a *tsconfig.json* or the project settings in a TypeScript project, but not both.
 
