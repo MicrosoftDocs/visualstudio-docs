@@ -233,7 +233,7 @@ Visual Studio also includes autocompletion for methods and parameters; for more 
 There are more ways to customize Visual Studio to be more accessible to you. For example, you can change the behavior of pop-up windows, text-based tool windows, toolbar buttons, margin indicators, and more.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described here, which can vary depending on your active settings or edition. To change your settings, select **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](environment-settings.md#reset-settings).
+> The dialog boxes and menu commands you see might differ from those described here, which can vary depending on your active settings or edition. To change your settings, select **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](environment-settings.md#reset-all-settings).
 
 #### Change the behavior of pop-up windows
 
@@ -327,7 +327,7 @@ To improve toolbar usability and accessibility, you can add text to toolbar butt
 
 ### Accessibility support
 
-For more information about features, products, and services that make Windows more accessible for people with disabilities, see [Accessibility products and services from Microsoft](reference/accessibility-products-and-services-from-microsoft.md). And, for more information about how to obtain more accessible formats of documentation for Microsoft products, see the [Documentation in alternative formats](reference/accessibility-products-and-services-from-microsoft.md#documentation-in-alternative-formats) section of the [Accessibility products and services from Microsoft](reference/accessibility-products-and-services-from-microsoft.md) page.
+For more information about features, products, and services that make Windows more accessible for people with disabilities, see [Accessibility products and services from Microsoft](https://www.microsoft.com/accessibility). And, for more information about how to obtain more accessible formats of documentation for Microsoft products, you can view an index of accessible product documentation on the [Microsoft Accessibility](https://www.microsoft.com/accessibility) website.
 
 The accessibility information included on this page might apply only to users who license Microsoft products in the United States. If you obtained this product outside of the United States, visit the [Microsoft Accessibility](https://www.microsoft.com/accessibility/) website for a list of Microsoft support services telephone numbers and addresses. You can contact your subsidiary to find out whether the type of products and services described on this page are available in your area. Information about accessibility is also available in other languages.
 
