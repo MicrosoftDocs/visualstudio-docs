@@ -49,20 +49,7 @@ To suppress this warning when debugging a legitimate scenario:
 
 "Trusted users" include yourself, plus a set of standard users who are typically defined on computers that have the .NET Framework installed, such as `aspnet`, `localsystem`, `networkservice`, and `localservice`.
 
-## UIElement List
-
- Name
- Name of the assembly requested to debug
-
- User
- Current user
-
- Attach
- Press to continue to debug by attaching
-
- Don't Attach
- Do not attach to the process
-
 ## Related content
+
 - [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)
 - [Debugger Security](../debugger/debugger-security.md)
