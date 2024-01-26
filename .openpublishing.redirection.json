@@ -1972,6 +1972,22 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/reference/accessibility-products-and-services-from-microsoft.md",
+      "redirect_url": "https://www.microsoft.com/accessibility",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2022"
+    ]
+    },
+    {
+      "source_path": "docs/ide/reference/accessibility-products-and-services-from-microsoft.md",
+      "redirect_url": "https://www.microsoft.com/accessibility",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2019"
+    ]
+    },
+    {
       "source_path": "docs/ide/how-to-troubleshoot-templates.md",
       "redirect_url": "/troubleshoot/developer/visualstudio/project-build/how-to-troubleshoot-templates",
       "redirect_document_id": false
