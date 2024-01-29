@@ -115,8 +115,6 @@ In Solution Explorer, you can view and manage the packages installed in an envir
 
    :::image type="content" source="media/environments/environments-installed-packages.png" alt-text="Screenshot that shows Python packages for an environment in Solution Explorer in Visual Studio." border="false" lightbox="media/environments/environments-installed-packages.png":::
 
-- To uninstall a package, select the **X** icon at the right.
-
 - To install new packages or manage existing packages, right-click the environment node and select **Manage Python Packages**. You can also use the package button on the Python toolbar:
 
    :::image type="content" source="media/environments/environments-manage-packages.png" alt-text="Screenshot that shows how to access the Manage Python packages option for an environment in Solution Explorer." border="false" lightbox="media/environments/environments-manage-packages.png":::
@@ -125,19 +123,21 @@ In Solution Explorer, you can view and manage the packages installed in an envir
 
    :::image type="content" source="media/environments/environments-current-packages.png" alt-text="Screenshot that shows the current packages for the selected environment in the Python Environments window." border="false" lightbox="media/environments/environments-current-packages.png":::
 
-In Visual Studio, packages and dependencies for most environments are downloaded from the [Python Package Index (PyPI)](https://pypi.org), where you can also search for available packages. Visual Studio's status bar and output window show information about the install.
+   In Visual Studio, packages and dependencies for most environments are downloaded from the [Python Package Index (PyPI)](https://pypi.org), where you can also search for available packages. Visual Studio's status bar and output window show information about the install.
 
-- To look for updated versions of a package or other packages, on the **Packages (PyPI)** tab, enter a search term (usually a package name):
+- To uninstall (remove) a package, locate the package in the list and select the **x** icon at the right.
+
+- To look for updated versions of a package or other packages, enter a search term (usually a package name):
 
    Visual Studio displays matching packages. In this example, the search is for packages that match the term _blinker_.
 
    :::image type="content" source="media/environments/environments-search-packages.png" alt-text="Screenshot that shows how Visual Studio shows how to search for matching packages in the Python Environments window." border="false" lightbox="media/environments/environments-search-packages.png":::
 
-Visual Studio displays a list of matching results as active command links.
+   Visual Studio displays a list of matching results as active command links.
 
-- The first command refreshes the named package to use the most current released version and current dependencies. The command is similar to `Run command: pip install <package-name>`. If you select Enter after your search term, Visual Studio automatically runs this first command.
+   - The first command refreshes the package to the most current version and current dependencies. The command is similar to `Run command: pip install <package-name>`. If you select Enter after your search term, Visual Studio automatically runs this first command.
    
-- The other links are for commands that install a specific package, version, or dependency, such as `Install blinker-async (0.0.3)`. To run one of these commands, select the link.
+   - The other links are for commands that install a specific package, version, or dependency, such as `Install blinker-async (0.0.3)`. To run one of these commands, select the link.
 
 ## Considerations about package installation
 
