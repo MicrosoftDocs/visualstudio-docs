@@ -103,9 +103,9 @@ Follow these steps to activate an existing environment for a project:
 
    If Visual Studio detects a _requirements.txt_ file in that environment, it asks whether to install those packages.
 
-After Visual Studio activates the environment, the name of the active environment is shown in a bold font in **Solution Explorer**:
+   After Visual Studio activates the environment, the name of the active environment is shown in a bold font in **Solution Explorer**:
 
-:::image type="content" source="media/environments/environments-project-activated-item.png" alt-text="Screenshot that shows how Visual Studio shows the name of the active environment in a bold font in Solution Explorer." border="false":::
+   :::image type="content" source="media/environments/environments-project-activated-item.png" alt-text="Screenshot that shows how Visual Studio shows the name of the active environment in a bold font in Solution Explorer." border="false":::
 
 ## View and manage installed packages
 
@@ -135,7 +135,7 @@ In Solution Explorer, you can view and manage the packages installed in an envir
 
    Visual Studio displays a list of matching results as active command links.
 
-   - The first command refreshes the package to the most current version and current dependencies. The command is similar to `Run command: pip install <package-name>`. If you select Enter after your search term, Visual Studio automatically runs this first command.
+   - The first command refreshes the package to the most current version and current dependencies. The command is similar to `Run command: pip install <package-name>`. If you select **Enter** after your search term, Visual Studio automatically runs this first command.
    
    - The other links are for commands that install a specific package, version, or dependency, such as `Install blinker-async (0.0.3)`. To run one of these commands, select the link.
 
