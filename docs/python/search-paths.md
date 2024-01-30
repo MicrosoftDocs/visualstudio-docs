@@ -27,6 +27,12 @@ Visual Studio ignores the search path environment variable, even when the variab
 
 To assist developers, Visual Studio provides a way to specify search paths directly in both Python environments and projects. Code that you run or debug in Visual Studio receives search paths from the `PYTHONPATH` environment variable and equivalent variable. By adding search paths, Visual Studio inspects the libraries in the specified locations and builds IntelliSense databases for the libraries as needed. (In Visual Studio 2017 version 15.5 and earlier, constructing the database can take some time depending on the number of libraries).
 
+## Prerequisites 
+
+- Visual Studio. To install the product, follow the steps in [Install Visual Studio](../install/install-visual-studio.md).
+
+- Python folders that you want to add to your search paths.
+
 ## Add Python folders to search paths
 
 Follow these steps to add a Python folder to Visual Studio search paths:
