@@ -202,11 +202,11 @@ The next sections contain information that might be useful in certain cases, suc
 
 If you want to build a container project with a Dockerfile outside of Visual Studio, you can use `docker build`, `MSBuild`, `dotnet build`, or `dotnet publish` to build from the command line.
 
-:::moniker range=>=vs-2022"
+:::moniker range=">=vs-2022"
 If you're using the .NET SDK build type, you don't have a Dockerfile, so you can't use `docker build`; instead, use `MSBuild`, `dotnet build` or `dotnet publish` to build on the command line.
 :::moniker-end
 
-### docker build
+### Use docker build
 
 To build a containerized solution from the command line, you can usually use the command `docker build <context>` for each project in the solution. You provide the *build context* argument. The *build context* for a Dockerfile is the folder on the local machine that's used as the working folder to generate the image. For example, it's the folder that you copy files from when you copy to the container.  In .NET Core projects, use the folder that contains the solution file (.sln).  Expressed as a relative path, this argument is typically ".." for a Dockerfile in a project folder, and the solution file in its parent folder.  For .NET Framework projects, the build context is the project folder, not the solution folder.
 
