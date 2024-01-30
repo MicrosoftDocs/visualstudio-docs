@@ -51,7 +51,6 @@ You can use the method described in this article to create ASP.NET Core Single P
 
    Compared to the [standalone React template](../javascript/tutorial-create-react-app.md), you see some new and modified files for integration with ASP.NET Core:
 
-   - aspnetcore-https.js
    - vite.config.js
    - App.js (modified)
    - App.test.js (modified)
