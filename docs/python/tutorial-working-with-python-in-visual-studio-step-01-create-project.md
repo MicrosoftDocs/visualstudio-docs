@@ -10,7 +10,7 @@ ms.date: 01/25/2024
 manager: jmartens
 ms.custom: vs-acquisition
 
-# CustomerIntent: As a developer, I want to reformat Python code in Visual Studio so I can adjust settings like code spacing and line wrapping.
+# CustomerIntent: As a developer, I want to create Python applications and projects in Visual Studio so I can support my Python development needs.
 ---
 
 # Tutorial: Work with Python in Visual Studio
