@@ -30,7 +30,7 @@ You can also use GitHub Copilot to convert comments to code, create unit tests, 
 ## Prerequisites
 
 To get started, you need:
-+ Visual Studio 2022 [version 17.4.4](/visualstudio/releases/2022/release-history) or later
++ Visual Studio 2022 [version 17.8](/visualstudio/releases/2022/release-history) or later
 + a GitHub Copilot [subscription](https://docs.github.com/enterprise-cloud@latest/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot). 
 
   > [!TIP]
