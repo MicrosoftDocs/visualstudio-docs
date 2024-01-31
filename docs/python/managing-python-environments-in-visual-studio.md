@@ -120,13 +120,13 @@ Visual Studio provides direct support for creating a virtual environment for a p
 
 At any time within an open project, you can create a new virtual environment. In **Solution Explorer**, expand the project node, right-click **Python Environments**, and choose **Add environment**. In **Add Environment**, choose **Virtual environment**.
 
-For more information, see [Create a virtual environment](selecting-a-python-environment-for-a-project.md#create-a-virtual-environment)t).
+For more information, see [Create a virtual environment](selecting-a-python-environment-for-a-project.md#create-a-virtual-environment).
 
 Visual Studio also provides a command to generate a _requirements.txt_ file from a virtual environment, making it easy to recreate the environment on other computers. For more information, see [Use virtual environments](selecting-a-python-environment-for-a-project.md#use-virtual-environments).
 
 #### Conda environments
 
-A conda environment is one you create using the `conda` tool, or with integrated conda management in Visual Studio 2017 version 15.7 and higher. (Requires Anaconda or Miniconda, which are available through the Visual Studio installer, see [Install Visual Studio 2017](/previous-versions/visualstudio/visual-studio-2017/python/installing-python-support-in-visual-studio?view=vs-2017#visual-studio-2017))
+A conda environment is one you create using the `conda` tool, or with integrated conda management in Visual Studio 2017 version 15.7 and higher. (Requires Anaconda or Miniconda, which are available through the Visual Studio installer, see [Install Visual Studio 2017](/previous-versions/visualstudio/visual-studio-2017/python/installing-python-support-in-visual-studio?view=vs-2017&preserve-view=true#visual-studio-2017))
 
 ::: moniker range="vs-2019"
 
