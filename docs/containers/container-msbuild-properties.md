@@ -21,7 +21,25 @@ To set the value of a property, edit the project file. For example, suppose your
 
 You can add the property setting to an existing `PropertyGroup` element, or if there isn't one, create a new `PropertyGroup` element.
 
-The following table shows the MSBuild properties available for container projects. The NuGet package version applies to [Microsoft.VisualStudio.Azure.Containers.Tools.Targets](https://www.nuget.org/packages/Microsoft.VisualStudio.Azure.Containers.Tools.Targets/).
+::: moniker range=">=vs-2022"
+## Properties for .NET SDK projects
+
+This section describes the MSBuild properties that apply when you choose the .NET SDK container build type.
+
+There is just one property, `EnableSdkContainerDebugging`, in the project file that is needed for .NET SDK containerized projects. It must be set to `True` for .NET SDK projects to enable debugging.
+
+```xml
+<PropertyGroup>
+   <EnableSdkContainerDebugging>True</EnableSdkContainerDebugging>
+</PropertyGroup>
+```
+
+## Properties for Dockerfile projects
+
+This section describes the MSBuild properties that apply when you choose the Dockerfile container build type.
+::: moniker-end
+
+The following table shows the MSBuild properties available for Dockerfile projects. The NuGet package version applies to [Microsoft.VisualStudio.Azure.Containers.Tools.Targets](https://www.nuget.org/packages/Microsoft.VisualStudio.Azure.Containers.Tools.Targets/).
 
 | Property name | Description | Default value  | NuGet package version|
 |---------------|-------------|----------------|----------------------|
