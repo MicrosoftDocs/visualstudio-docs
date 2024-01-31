@@ -25,7 +25,7 @@ You can debug ASP.NET and ASP.NET Core apps in Visual Studio. The process differ
 >The following steps and settings apply only to debugging apps on a local server. Debugging apps on a remote IIS server uses **Attach to Process**, and ignores these settings. For more information and instructions for remote debugging ASP.NET apps on IIS, see [Remote debug ASP.NET on an IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) or [Remote debug ASP.NET Core on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md).
 
 ::: moniker range=">=vs-2022"
-The built-in Kestrel and IIS Express servers are included with Visual Studio. Kestrel is the default debug server for ASP.NET and ASP.NET Core projects, and is preconfigured.
+The built-in Kestrel and IIS Express servers are included with Visual Studio. Kestrel is the default debug server for ASP.NET Core projects, and is preconfigured. IIS Express is the default debug server for ASP.NET.
 ::: moniker-end
 
 ::: moniker range="vs-2019"
