@@ -1,74 +1,88 @@
 ---
 title: Install Python Tools for Visual Studio (PTVS)
 description: Install the Python Tools for Visual Studio (PTVS) in Visual Studio on Windows and check your installation in the Python Interactive window.
-ms.date: 6/5/2023
-ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
 ms.subservice: python
+ms.topic: how-to
+ms.date: 01/25/2024
+manager: jmartens
+
+# CustomerIntent: As a developer, I want to install Python support in Visual Studio so that I can access Python features in the product.
+
 ---
+
 # Install Python support in Visual Studio
 
 Python support is available only on Visual Studio for Windows. On Mac and Linux, Python support is available through [Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial).
 
-## Download & install the Python workload
+## Prerequisites 
 
-1. Download and run the latest Visual Studio installer for Windows. Python support is present in the release 15.2 and later. If you have Visual Studio installed already, open Visual Studio and run the installer by selecting **Tools** > **Get Tools and Features**.
+- Visual Studio on Windows. To install the product, follow the steps in [Install Visual Studio](../install/install-visual-studio.md).
 
-    > [!div class="nextstepaction"]
-    > [Install Visual Studio Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted)
+## Download and install the Python workload
 
-    >[!Tip]
-    > The Community edition is for individual developers, classroom learning, academic research, and open source development. For other uses, install [Visual Studio Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Professional&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted) or [Visual Studio Enterprise](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted).
+Complete the following steps to download and install the Python workload.
 
-1. The installer provides a list of workloads that are groups of related options for specific development areas.
-   For Python, select the **Python development** workload and select **Install**:
+1. Download and run the latest Visual Studio Installer for Windows. Python support is present in release 15.2 and later. If you have Visual Studio installed already, open Visual Studio and run the installer by selecting **Tools** > **Get Tools and Features**.
 
-   ![Screenshot of the Python development workload selected in the Visual Studio installer.](media/installation-python-workload.png)
+   > [!div class="nextstepaction"]
+   > [Install Visual Studio Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted)
 
-   | Python&nbsp;installation&nbsp;options| Description |
+   > [!Tip]
+   > The Community edition is for individual developers, classroom learning, academic research, and open source development. For other uses, install [Visual Studio Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Professional&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted) or [Visual Studio Enterprise](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted).
+
+1. The installer provides a list of workloads that are groups of related options for specific development areas. For Python, select the **Python development** workload and select **Install**:
+
+   :::image type="content" source="media/installation-python-workload.png" alt-text="Screenshot of the Python development workload selected in the Visual Studio installer." lightbox="media/installation-python-workload.png":::
+
+   | Python installation options| Description |
    | --- | --- |
-   | Python distributions | Choose any combination of the available options, such as 32-bit and 64-bit variants of the Python 2, Python 3, Miniconda, Anaconda2, and Anaconda3 distributions that you plan to work with. Each includes the distribution's interpreter, runtime, and libraries. Anaconda, specifically, is an open data science platform that includes a wide range of pre-installed packages. Visual Studio automatically detects existing Python installations. See [The Python Environments window](managing-python-environments-in-visual-studio.md#the-python-environments-window). Also, if a newer version of Python is available than what's shown in the installer, you can install that version separately and Visual Studio will detect it. |
-   | **Cookiecutter template support** | Installs the Cookiecutter graphical UI to discover templates, input template options, and create projects and files. See [Use the Cookiecutter extension](using-python-cookiecutter-templates.md). |
-   | **Python web support** | Installs tools for web development including HTML, CSS, and JavaScript editing support, along with templates for projects using the Bottle, Flask, and Django frameworks. See [Python web project templates](python-web-application-project-templates.md). |
-   | **Python native development tools** | Installs the C++ compiler and other necessary components to develop native extensions for Python. See [Create a C++ extension for Python](working-with-c-cpp-python-in-visual-studio.md). Also install the **Desktop development with C++** workload for full C++ support. |
+   | **Python distributions** | Choose any combination of Python distribution that you plan to work with. Common options include 32-bit and 64-bit variants of Python 2, Python 3, Miniconda, Anaconda 2, and Anaconda 3. Each option includes the distribution's interpreter, runtime, and libraries. Anaconda, specifically, is an open data science platform that includes a wide range of preinstalled packages. Visual Studio automatically detects existing Python installations. For more information, see [The Python Environments window](managing-python-environments-in-visual-studio.md#the-python-environments-window). Also, if a newer version of Python is available than the version shown in the installer, you can install the new version separately and Visual Studio detects it. |
+   | **Cookiecutter template support** | Install the Cookiecutter graphical UI to discover templates, input template options, and create projects and files. For more information, see [Use the Cookiecutter extension](using-python-cookiecutter-templates.md). |
+   | **Python web support** | Install tools for web development including HTML, CSS, and JavaScript editing support, along with templates for projects using the Bottle, Flask, and Django frameworks. For more information, see [Python web project templates](python-web-application-project-templates.md). |
+   | **Python native development tools** | Install the C++ compiler and other necessary components to develop native extensions for Python. For more information, see [Create a C++ extension for Python](working-with-c-cpp-python-in-visual-studio.md). Also install the **Desktop development with C++** workload for full C++ support. |
 
-   By default, the Python workload gets installed for all users on a computer under: 
+   By default, the Python workload installs for all users on a computer under: 
 
    :::moniker range=">=vs-2022"
 
-   ```txt
-   *%ProgramFiles%\Microsoft Visual Studio\\<VS_version>\\<VS_edition>Common7\IDE\Extensions\Microsoft\Python*
-   ```
+   _%ProgramFiles%\Microsoft Visual Studio\\<VS_version>\\<VS_edition>Common7\IDE\Extensions\Microsoft\Python_
 
-   where `<VS_version>` is 2022 and `<VS_edition>` is Community, Professional, or Enterprise.
+   where _\<VS_version>_ is 2022 and _\<VS_edition>_ is Community, Professional, or Enterprise.
 
    :::moniker-end
    :::moniker range="<=vs-2019"
 
-   ```txt
-   *%ProgramFiles(x86)%\Microsoft Visual Studio\\<VS_version>\\<VS_edition>Common7\IDE\Extensions\Microsoft\Python*
-   ```
+   _%ProgramFiles(x86)%\Microsoft Visual Studio\\<VS_version>\\<VS_edition>Common7\IDE\Extensions\Microsoft\Python_
 
-   where `<VS_version>` is 2019 or 2017 and `<VS_edition>` is Community, Professional, or Enterprise.
+   where _\<VS_version>_ is 2019 or 2017 and _\<VS_edition>_ is Community, Professional, or Enterprise.
 
    :::moniker-end
 
 ## Test your install
 
-To quickly test Python support:
+Quickly check your installation of Python support:
 
-1. Launch Visual Studio
-2. Press **Alt**+**I** to open the **Python Interactive** window and enter `2+2`. If you don't see the output of **4**, recheck your steps.
+1. Launch Visual Studio.
 
-    ::: moniker range="<=vs-2019"
-    ![Screenshot of testing Python through the interactive window.](media/installation-interactive-test.png)
-    ::: moniker-end
+1. Select Alt + I to open the **Python Interactive** window.
 
-    ::: moniker range=">=vs-2022"
-    ![Screenshot of testing Python through the Visual Studio 2022 interactive window.](media/vs-2022/python-interactive.png)
-    ::: moniker-end
+1. In the window, enter the statement `2+2`.
+
+   The statement output `4` displays in the window. If you don't see the correct output, recheck your steps.
+
+   ::: moniker range="<=vs-2019"
+
+   :::image type="content" source="media/installation-interactive-test.png" alt-text="Screenshot that shows a test of Python support through the interactive window." lightbox="media/installation-interactive-test.png":::
+   
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2022"
+
+   :::image type="content" source="media/vs-2022/python-interactive.png" alt-text="Screenshot that shows a test of Python support through the Visual Studio 2022 interactive window." lightbox="media/vs-2022/python-interactive.png":::
+
+   ::: moniker-end
 
 ## Related content
 
