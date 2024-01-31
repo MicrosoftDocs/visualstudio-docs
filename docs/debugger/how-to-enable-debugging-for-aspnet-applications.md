@@ -128,7 +128,7 @@ IIS Express is the default, and is preconfigured. If you're debugging on Local I
 
 1. Under **Debuggers**, select **ASP.NET**.
 
-   ![ASP.NET debugger settings](media/dbg-aspnet-enable-debugging2.png "ASP.NET debugger settings")
+   ![Screenshot that shows ASP.NET debugger settings.](media/dbg-aspnet-enable-debugging2.png "ASP.NET debugger settings")
 
 1. Choose **File** > **Save Selected Items** (or press **Ctrl**+**S**) to save any changes.
 
