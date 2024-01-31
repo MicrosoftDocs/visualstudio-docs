@@ -18,7 +18,7 @@ Reusing existing code and refreshing code are common tasks for developers. You m
 Visual Studio provides several commands to help you automatically transform and clean your Python source code:
 
 - [Rename](#rename-a-class-method-or-variable) changes the name of a selected class, method, or variable.
-- [Add import](#add-import) provides a smart tag to add a missing import.
+- [Add import](#add-an-import-statement) provides a smart tag to add a missing import.
 - [Remove unused imports](#remove-unused-imports) deletes unused imports.
 
 ## Prerequisites 
@@ -56,8 +56,6 @@ The following steps show how to use the Rename command in your code.
    :::image type="content" source="media/vs-2022/code-refactor-rename-1.png" alt-text="Screenshot that shows how to specify a different name for an identifier in Visual Studio 2022." border="false":::
 
 ::: moniker-end
-
-The rename action can be undone.
 
 ## Add an import statement
 
