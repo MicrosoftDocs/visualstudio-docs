@@ -19,7 +19,7 @@ monikerRange: '>= vs-2022'
 ---
 # Debug your app with GitHub Copilot in Visual Studio
 
-[**GitHub Copilot**](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs) and [**GitHub Copilot Chat**](https://aka.ms/VSXGHCopilot) extensions in Visual Studio enable many interactive debugging scenarios, including AI-assisted chat for debugging questions related to your code. Copilot understands call stacks, frames, variable names, and values. As a result, you can pose detailed questions to the debugger-aware Copilot. In addition, Copilot provides an **Ask Copilot** link for the following scenarios:
+[**GitHub Copilot**](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs) and [**GitHub Copilot Chat**](https://aka.ms/VSXGHCopilot) extensions in Visual Studio enable many interactive debugging scenarios, including AI-assisted chat for debugging questions related to your code. Copilot understands call stacks, frames, variable names, and values. As a result, you can ask detailed questions to the debugger-aware Copilot. In addition, Copilot provides an **Ask Copilot** link for AI-assisted help focused on the following scenarios:
 
 - Exceptions
 - Auto Insights for CPU Usage
@@ -72,7 +72,7 @@ The following simple example shows how to get AI assistance when you encounter a
 
 ## Get AI assistance for an exception
 
-1. Select the **Ask Copilot** button.
+1. With the application paused on the exception, select the **Ask Copilot** button.
 
    [ ![Screenshot of Ask Copilot button in an exception.](../debugger/media/vs-2022/debug-with-copilot-exception.png) ](../debugger/media/vs-2022/debug-with-copilot-exception.png#lightbox)
 
@@ -83,6 +83,8 @@ The following simple example shows how to get AI assistance when you encounter a
    ![Screenshot of Preview button in the Copilot Chat window.](../debugger/media/vs-2022/debug-with-copilot-select-code-preview.png)
 
    Visual Studio shows a code preview with the suggested fix.
+
+   If you have questions about the exception, ask them in the Copilot Chat window. Copilot understands debugging concepts such as call stacks, frames, variable names, and values.
 
 1. Review the suggested fix and choose **Accept** to apply the code suggestion.
 
