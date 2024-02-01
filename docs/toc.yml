@@ -532,6 +532,55 @@
     href: ide/viewing-the-structure-of-code.md
   - name: Use the Task List
     href: ide/using-the-task-list.md
+  - name: Track changes with Git
+    items:
+    - name: Git in Visual Studio
+      href: version-control/git-with-visual-studio.md
+    - name: Get started
+      expanded: true
+      items:
+      - name: Clone a repo
+        href: version-control/git-clone-repository.md
+      - name: Create a repo
+        href: version-control/git-create-repository.md
+      - name: Git settings and preferences
+        href: version-control/git-settings.md
+    - name: Innerloop workflow
+      expanded: true
+      items:
+      - name: Create a branch
+        href: version-control/git-create-branch.md
+      - name: Make a commit
+        href: version-control/git-make-commit.md
+      - name: Stage lines of code
+        href: version-control/git-line-staging.md
+      - name: Push to remote
+        href: version-control/git-push-remote.md
+      - name: Create a pull request
+        href: version-control/git-create-pull-request.md
+      - name: Fetch, pull, and sync
+        href: version-control/git-fetch-pull-sync.md
+    - name: Repo management
+      expanded: true
+      items:
+      - name: Browse a repo
+        href: version-control/git-browse-repository.md
+      - name: Manage a repo
+        href: version-control/git-manage-repository.md
+      - name: Work with multiple repos
+        href: version-control/git-multi-repository-support.md
+      - name: Resolve merge conflicts
+        href: version-control/git-resolve-conflicts.md
+    - name: Reference
+      items:
+      - name: Git Changes with no active repo set
+        href: version-control/git-changes-with-no-active-repo.md
+    - name: Resources
+      items:
+      - name: Create a GitHub account
+        href: version-control/git-create-github-account.md
+      - name: Compare Git and Team Explorer side-by-side
+        href: version-control/git-team-explorer-feature-comparison.md
   - name: Class Designer
     items:
     - name: Design classes in Class Designer
