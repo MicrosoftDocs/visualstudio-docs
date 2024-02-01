@@ -1,7 +1,7 @@
 ---
 title: Customize your build by folder or solution
 description: Explore the special imports Directory.Build.props and Directory.Build.targets that you can use to customize the build system in Visual Studio.
-ms.date: 02/28/2023
+ms.date: 02/01/2024
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, transforms
@@ -59,7 +59,7 @@ For example, if you wanted to enable all of your projects to access the new Rosl
 
 ### Search scope
 
-When searching for a *Directory.Build.props* file, MSBuild walks the directory structure upwards from your project location (`$(MSBuildProjectFullPath)`), stopping after it locates a *Directory.Build.props* file. For example, if your `$(MSBuildProjectFullPath)` was *c:\users\username\code\test\case1*, MSBuild would start searching there and then search the directory structure upward until it located a *Directory.Build.props* file, as in the following directory structure.
+When searching for a *Directory.Build.props* file, MSBuild walks the directory structure upwards from your project location `$(MSBuildProjectFullPath)`, stopping after it locates a *Directory.Build.props* file. For example, if your `$(MSBuildProjectFullPath)` was *c:\users\username\code\test\case1*, MSBuild would start searching there and then search the directory structure upward until it located a *Directory.Build.props* file, as in the following directory structure.
 
 ```
 c:\users\username\code\test\case1
@@ -83,7 +83,7 @@ Properties that are set in *Directory.Build.props* can be overridden elsewhere i
 When you need to set a property or define a target for an individual project that overrides any prior settings, put that logic in the project file after the final import. In order to do this in an SDK-style project, you first have to replace the SDK-style attribute with the equivalent imports. See [How to use MSBuild project SDKs](how-to-use-project-sdk.md).
 
 > [!NOTE]
-> The MSBuild engine reads in all imported files during evaluation, before starting build execution for a project (including any `PreBuildEvent`), so these files are not expected to be modified by the `PreBuildEvent` or any other part of the build process. Any modifications do not take effect until the next invocation of *MSBuild.exe* or the next Visual Studio build. Also, if your build process contains many project builds (as with multitargeting or building dependent projects), then imported files, including *Directory.build.props* are read when evaluation occurs for each individual project build.
+> The MSBuild engine reads in all imported files during evaluation, before starting build execution for a project (including any `PreBuildEvent`), so these files are not expected to be modified by the `PreBuildEvent` or any other part of the build process. Any modifications do not take effect until the next invocation of *MSBuild.exe* or the next Visual Studio build. Also, if your build process contains many project builds (as with multitargeting or building dependent projects), then imported files, including *Directory.build.props*, are read when evaluation occurs for each individual project build.
 
 ### Use case: multi-level merging
 
