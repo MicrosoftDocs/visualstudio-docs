@@ -21,7 +21,7 @@ monikerRange: '>= vs-2022'
 
 [**GitHub Copilot**](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs) and [**GitHub Copilot Chat**](https://aka.ms/VSXGHCopilot) extensions in Visual Studio enable many interactive debugging scenarios, including AI-assisted chat for debugging questions related to your code. Copilot understands call stacks, frames, variable names, and values. As a result, you can pose detailed questions to the debugger-aware Copilot.
 
-In this article, you'll learn how to debug more effectively using the Copilot Chat extension in Visual Studio and the **Ask Copilot** link.
+In this article, you'll learn how to debug more effectively using the Copilot Chat extension and the **Ask Copilot** link.
 
 For more information on the GitHub Copilot extension in Visual Studio, see [About the GitHub Copilot extension for Visual Studio](visual-studio-github-copilot-extension.md).
 
@@ -71,7 +71,9 @@ The following simple example shows how to get AI assistance when you encounter a
 
 1. Press **F5** or select **Start Debugging** from the **Debug** menu.
 
-   An IndexOutOfRangeException occurs.
+   An `IndexOutOfRangeException`` occurs and the app pauses, showing the exception.
+
+## Get AI assistance for the exception
 
 1. Select the **Ask Copilot** button.
 
@@ -93,9 +95,9 @@ The following simple example shows how to get AI assistance when you encounter a
 
    This time, no exception occurs. It has been fixed!
 
-## AI-assisted auto insights
+## Get AI-assisted auto insights
 
-Copilot provides detailed information in the CPU Usage auto insights. It provides detailed information and insights for specific methods and properties, such as `String.Concat` and many other methods. With Copilot, ask questions about functions on the identified hot paths in your code, which can help you produce more efficient or cost-effective code.
+In addition to debugging help, Copilot provides detailed information in the CPU Usage auto insights. It provides detailed information and insights for specific methods and properties, such as `String.Concat` and many other methods. With Copilot, ask questions about functions on the identified hot paths in your code, which can help you produce more efficient or cost-effective code.
 
 When the CPU Usage tool provides auto insights in the Top Insights section, select **Ask Copilot** to learn from Copilot and start asking questions.
 
