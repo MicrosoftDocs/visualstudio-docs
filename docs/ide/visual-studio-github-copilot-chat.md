@@ -26,7 +26,7 @@ Copilot Chat provides AI assistance to help you make informed decisions and writ
 - **Code refinement**: get context-specific code suggestions & recommendations
 - **Unit testing**: generate unit tests
 - **[Profiling](../debugger/debug-with-copilot.md#get-ai-assistance-for-auto-insights)**: optimize code performance
-- **[Debugging](../debugger/debug-with-copilot.md)**: find issues and get proposed fixes to bugs and [exceptions](../debugger/debug-with-copilot.md#get-ai-assistance-for-exceptions).
+- **[Debugging](../debugger/debug-with-copilot.md)**: find issues and get proposed fixes to bugs and [exceptions](../debugger/debug-with-copilot.md#get-ai-assistance-for-an-exception).
 
 ## Prerequisites
 
