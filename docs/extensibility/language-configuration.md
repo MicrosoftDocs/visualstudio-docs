@@ -40,7 +40,7 @@ There are three parts to adding Language Configuration support to a Visual Studi
 
 1. [Create a Language Configuration file](#create-a-language-configuration-file)
 1. [Add a grammar file](#add-a-grammar-file)
-1. [Update the pkgdef file](#Update-the-pkgdef-file)
+1. [Update the pkgdef file](#update-the-pkgdef-file)
 
 ## Create a Language Configuration file
 
@@ -101,5 +101,10 @@ Copy to output = Copy always
 
 In order to have this accessible for Visual Studio, include the `language-config` file in the VSIX package. Including this file means it ships with the Visual Studio Extension. The file lets Visual Studio know that a Language Configuration is available for use. To add the file, edit your `vsixmanifest`` to add your PKGDEF def file, for examle: 
 
+```xml
 <Asset Type="Microsoft.VisualStudio.VsPackage" Path="Test.pkgdef"/> 
+```
 
+## Related content
+
+- [Language Server Protocol](./language-server-protocol.md)

@@ -45,6 +45,8 @@
       href: language-server-protocol.md
     - name: Add a Language Server Protocol extension
       href: adding-an-lsp-extension.md
+    - name: Language Configuration 
+      href: language-configuration.md
   - name: Open Folder
     items:
     - name: Open Folder
