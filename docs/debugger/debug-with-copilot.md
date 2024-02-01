@@ -76,15 +76,15 @@ The following simple example shows how to get AI assistance when you encounter a
 
    [ ![Screenshot of Ask Copilot button in an exception.](../debugger/media/vs-2022/debug-with-copilot-exception.png) ](../debugger/media/vs-2022/debug-with-copilot-exception.png#lightbox)
 
-   If it's not already open, the Copilot Chat window appears and provides an assessment of the error and a detailed description of the exception and why it occurred. In this example, Copilot Chat identifies a suggested code fix, a button to copy code, and a **Preview** button for the code fix.
+   If it's not already open, the Copilot Chat window appears and provides an assessment of the error and a detailed description of the exception and why it occurred. In this example, Copilot identifies a suggested code fix, a button to copy code, and a **Preview** button for the code fix.
+
+   If you have questions about the exception, ask them in the Ask Copilot text box. Copilot understands debugging concepts such as call stacks, frames, variable names, and values.
 
 1. Select the **Preview** button.
 
    ![Screenshot of Preview button in the Copilot Chat window.](../debugger/media/vs-2022/debug-with-copilot-select-code-preview.png)
 
    Visual Studio shows a code preview with the suggested fix.
-
-   If you have questions about the exception, ask them in the Copilot Chat window. Copilot understands debugging concepts such as call stacks, frames, variable names, and values.
 
 1. Review the suggested fix and choose **Accept** to apply the code suggestion.
 
