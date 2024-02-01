@@ -520,5 +520,5 @@ To use the keyboard:
 
 ## Related content
 
-- [Visual Studio version control docs](../version-control/index.yml).
+- [Visual Studio version control docs](../version-control/git-with-visual-studio.md).
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
