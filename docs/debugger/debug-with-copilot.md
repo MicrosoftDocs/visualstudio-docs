@@ -26,7 +26,7 @@ monikerRange: '>= vs-2022'
 
 In this article, you'll learn how to debug more efficiently using the Copilot Chat extension and the **Ask Copilot** link.
 
-For more information on the GitHub Copilot extension in Visual Studio, see [About the GitHub Copilot extension for Visual Studio](visual-studio-github-copilot-extension.md).
+For more information on the GitHub Copilot extension in Visual Studio, see [About the GitHub Copilot extension for Visual Studio](../ide/visual-studio-github-copilot-extension.md).
 
 ## Prerequisites
 
@@ -34,7 +34,7 @@ To get started, you need:
 
 + Visual Studio 2022 [version 17.8](/visualstudio/releases/2022/release-history) or later
 + Active [subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) to [GitHub Copilot for Individuals](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-individuals) or [GitHub Copilot for Business](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-business)
-+ [**GitHub Copilot** extension](visual-studio-github-copilot-extension.md#installation-instructions) in Visual Studio
++ [**GitHub Copilot** extension](../ide/visual-studio-github-copilot-extension.md#installation-instructions) in Visual Studio
 + [**GitHub Copilot Chat** extension](../ide/visual-studio-github-copilot-chat.md#install-the-visual-studio-extension)
 
    > [!NOTE]
