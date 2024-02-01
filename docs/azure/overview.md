@@ -169,6 +169,8 @@ If you want added control on top of your APIs, try [Azure API Management](/azure
 
 If you want to support multiple long client connections, try [Azure SignalR Service](/azure/azure-signalr/signalr-overview).
 
+If you're developing complex distributed apps and need orchestration between many services, try [.NET Aspire](/dotnet/aspire/get-started/aspire-overview).
+
 ## Next steps
 
 Learn more about Azure services that you might be interested in at [Azure services](https://azure.microsoft.com/products/).
