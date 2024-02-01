@@ -69,8 +69,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **New articles**
 
-- [Deploy GitHub Copilot to existing Visual Studio instances](../ide/deploy-copilot-to-enterprise.md)
-- [Title not found in: #12048](../ide/deploy-copilot-using-layouts.md)
+- [Deploy GitHub Copilot to existing Visual Studio instances](deploy-copilot-to-enterprise.md) - Install GitHub Copilot onto a client machine from a Visual Studio layout
 
 **Updated articles**
 
