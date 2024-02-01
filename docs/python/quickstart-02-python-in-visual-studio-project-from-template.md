@@ -148,5 +148,5 @@ Using templates can save you significant time when starting a project or creatin
 ## See also
 
 - [Manually identify an existing Python interpreter](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment)
-  [Install Python support in Visual Studio on Windows](installing-python-support-in-visual-studio.md#how-to-install-python-support-in-visual-studio-on-windows)
-- [Python tools install directory](installing-python-support-in-visual-studio.md#install-locations)
+  [Install Python support in Visual Studio on Windows](installing-python-support-in-visual-studio.md)
+- [Python tools install directory](installing-python-support-in-visual-studio.md#download--install-the-python-workload)

@@ -57,7 +57,7 @@ sections:
         answer: |
           The build errors get reported to the Output window when the Live Unit Testing drop-down is selected. There are a few common issues caused by incorrect configuration  in the [setup wizard](../test/live-unit-testing.md#configure) that can cause build issues in Live Unit Testing.
           
-          -	If the [Workspace Root](../test/live-unit-testing.md#worskpace-root) property is too long, it’s possible that the build will fail due to exceptions indicating that the path is too long.
+          -	If the [Workspace Root](../test/live-unit-testing.md#workspace-root) property is too long, it’s possible that the build will fail due to exceptions indicating that the path is too long.
           
           -	If the [Repository Root](../test/live-unit-testing.md#repository-root) property doesn't point towards the repository root, the workspace will be populated with the wrong set of files.
           
