@@ -7,7 +7,7 @@ ms.author: ghogen
 manager: jmartens
 ms.subservice: ui-designers
 ms.topic: how-to
-ms.custom: contperf-fy23q2,  engagement-fy23
+ms.custom: engagement-fy23
 ---
 # Fix HDPI/scaling issues with Windows Forms Designer in Visual Studio 
 
