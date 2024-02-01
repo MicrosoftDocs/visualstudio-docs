@@ -58,7 +58,7 @@ Note that CA policies enabled on an account might impact the account state or li
 
 ## Update an expired license
 
-If your subscription has expired and you no longer have access rights to Visual Studio, you must renew your subscription or add another account that has a subscription. To see more information about the license you are using, go to **File** > **Account Settings...** and look at the license information on the right side of the dialog. If you have another subscription associated with a different account, [add that account](signing-in-to-visual-studio.md#add-and-switch-user-accounts) to the **All Accounts** list on the left side of the dialog box by selecting the **Add an account** link.
+If your subscription has expired and you no longer have access rights to Visual Studio, you must renew your subscription or add another account that has a subscription. To see more information about the license you are using, go to **File** > **Account Settings...** and look at the license information on the right side of the dialog. If you have another subscription associated with a different account, [add that account](signing-in-to-visual-studio.md#add-and-switch-user-accounts-to-visual-studio) to the **All Accounts** list on the left side of the dialog box by selecting the **Add an account** link.
 
 ## Get support
 

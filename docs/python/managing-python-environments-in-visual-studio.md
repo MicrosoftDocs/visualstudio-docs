@@ -60,11 +60,11 @@ Visual Studio looks for installed global environments using the registry (follow
 When you select an environment in the list, Visual Studio displays various properties and commands for that environment on the **Overview** tab.
 
 :::moniker range="vs-2019"
-For example, you can see in the image above that the interpreter's location is **C:\Python36-32**. The four commands at the bottom of the **Overview** tab each open a command prompt with the interpreter running. For more information, see [Python Environments window tab reference 2019- Overview](python-environments-window-tab-reference.md#overview-tab).
+For example, you can see in the image above that the interpreter's location is **C:\Python36-32**. The four commands at the bottom of the **Overview** tab each open a command prompt with the interpreter running. For more information, see [Python Environments window tab reference 2019- Overview](python-environments-window-tab-reference.md#tab-overview).
 :::moniker-end
 
 :::moniker range="vs-2022"
-For example, you can see in the image above that the interpreter's location is **C:\Program Files (x86)\Microsoft Visual Studio\Python310**. The four commands at the bottom of the **Overview** tab each open a command prompt with the interpreter running. For more information, see [Python Environments window tab reference 2022- Overview](python-environments-window-tab-reference.md#overview-tab).
+For example, you can see in the image above that the interpreter's location is **C:\Program Files (x86)\Microsoft Visual Studio\Python310**. The four commands at the bottom of the **Overview** tab each open a command prompt with the interpreter running. For more information, see [Python Environments window tab reference 2022- Overview](python-environments-window-tab-reference.md#tab-overview).
 :::moniker-end
 
 Use the drop-down list below the list of environments to switch to different tabs such as **Packages**, and **IntelliSense**. These tabs are also described in the [Python Environments window tab reference](python-environments-window-tab-reference.md).
@@ -120,18 +120,13 @@ Visual Studio provides direct support for creating a virtual environment for a p
 
 At any time within an open project, you can create a new virtual environment. In **Solution Explorer**, expand the project node, right-click **Python Environments**, and choose **Add environment**. In **Add Environment**, choose **Virtual environment**.
 
-:::moniker range="vs-2019"
-For more information, see [Create a virtual environment-2019](./selecting-a-python-environment-for-a-project.md?view=vs-2019&preserve-view=true#create-a-virtual-environment-1).
-:::moniker-end
-:::moniker range=">=vs-2022"
-For more information, see [Create a virtual environment-2022](./selecting-a-python-environment-for-a-project.md?view=vs-2022&preserve-view=true#create-a-virtual-environment-1).
-:::moniker-end
+For more information, see [Create a virtual environment](selecting-a-python-environment-for-a-project.md#create-a-virtual-environment).
 
 Visual Studio also provides a command to generate a _requirements.txt_ file from a virtual environment, making it easy to recreate the environment on other computers. For more information, see [Use virtual environments](selecting-a-python-environment-for-a-project.md#use-virtual-environments).
 
 #### Conda environments
 
-A conda environment is one you create using the `conda` tool, or with integrated conda management in Visual Studio 2017 version 15.7 and higher. (Requires Anaconda or Miniconda, which are available through the Visual Studio installer, see [Install Visual Studio 2017](installing-python-support-in-visual-studio.md#visual-studio-2017)
+A conda environment is one you create using the `conda` tool, or with integrated conda management in Visual Studio 2017 version 15.7 and higher. (Requires Anaconda or Miniconda, which are available through the Visual Studio installer, see [Install Visual Studio 2017](/previous-versions/visualstudio/visual-studio-2017/python/installing-python-support-in-visual-studio?view=vs-2017&preserve-view=true#visual-studio-2017))
 
 ::: moniker range="vs-2019"
 

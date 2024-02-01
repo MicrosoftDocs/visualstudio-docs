@@ -1,7 +1,7 @@
 ---
 title: "Instrument your .NET application"
 description: Explore how to use the dynamic Instrumentation tool for your .NET applications (C#, C++, Visual Basic, F#) in Visual Studio and analyze the report.
-ms.date: "03/31/2023"
+ms.date: "01/31/2024"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -26,6 +26,8 @@ You can access the Instrumentation tool by launching the Performance Profiler fo
 1. Select the **Instrumentation** check box.
 
    ![Screenshot showing Instrumentation tool selected.](./media/vs-2022/instrumentation-tool-launch.png "Instrumentation tool selected")
+
+    If you enable the **Start with collection paused** option before starting the profiler, data will not be collected until you select the **Record** button in the diagnostic session view.
 
    > [!NOTE]
    > If the tool isn't available for selection, clear every other tool's check box because some tools need to run alone. To learn more about running tools together, see [Using multiple profiler tools simultaneously](../profiling/use-multiple-profiler-tools-simultaneously.md).
