@@ -1,7 +1,7 @@
 ---
 title: Debug with GitHub Copilot
 description: Use Copilot to help debug your apps and provide performance insights.
-ms.date: 12/06/2023
+ms.date: 02/01/2024
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -19,21 +19,79 @@ monikerRange: '>= vs-2022'
 ---
 # Debug your app with GitHub Copilot in Visual Studio
 
-[GitHub Copilot chat for Visual Studio 2022](../ide/visual-studio-github-copilot-chat.md) supports many interactive debugging scenarios, including AI-assisted chat for debugging questions related to your variables, the call stack, and other code elements, along with highly targeted help associated with an **Ask Copilot** link.
+[**GitHub Copilot**](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs) and [**GitHub Copilot Chat**](https://aka.ms/VSXGHCopilot) extensions in Visual Studio enable many interactive debugging scenarios, including AI-assisted chat for debugging questions related to your code. Copilot understands call stacks, frames, variable names, and values. As a result, you can pose detailed questions to the debugger-aware Copilot.
 
-For related videos, see the [blog post announcement](https://devblogs.microsoft.com/visualstudio/simplified-code-refinement-and-debugging-with-github-copilot-chat/
-).
+In this article, you'll learn how to debug more effectively using the Copilot Chat extension in Visual Studio and the **Ask Copilot** link.
 
-Learn more about [AI-assisted development in Visual Studio](../ide/ai-assisted-development-visual-studio.md) and how to [use Copilot Chat in Visual Studio](../ide/visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio).
+For more information on the GitHub Copilot extension in Visual Studio, see [About the GitHub Copilot extension for Visual Studio](visual-studio-github-copilot-extension.md).
 
 ## Prerequisites
 
-To use Copilot with the debugging features, you must have Visual Studio 2022 version 17.7.4 or later, a [GitHub Copilot subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot), and the Copilot extensions for Visual Studio installed:
+To get started, you need:
++ Visual Studio 2022 [version 17.8](/visualstudio/releases/2022/release-history) or later
++ Active [subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) to [GitHub Copilot for Individuals](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-individuals) or [GitHub Copilot for Business](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-business)
++ [**GitHub Copilot** extension](visual-studio-github-copilot-extension.md#installation-instructions) in Visual Studio
 
-- [GitHub Copilot installation instructions](https://docs.github.com/en/copilot/getting-started-with-github-copilot?tool=visualstudio)
-- [GitHub Copilot Chat installation instructions](https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat?tool=visualstudio)
+## Install the Visual Studio extension
 
-[![Screenshot of Copilot extensions.](../debugger/media/vs-2022/debug-with-copilot-extensions.png "Copilot extensions.")](../debugger/media/vs-2022/debug-with-copilot-extensions.png#lightbox)
+To install the GitHub Copilot Chat extension in Visual Studio:
+
+1. Open Visual Studio.
+1. On the menu bar, select **Extensions** > **Manage Extensions**.
+1. In the Search box, enter "GitHub Copilot Chat".
+1. Select the **GitHub Copilot Chat** extension, and then select the **Download** button.
+1. Restart Visual Studio to complete the installation process.
+
+   > [!NOTE]
+   > If you experience authentication issues after installing the extension, see [Troubleshooting authentication issues with GitHub Copilot Chat](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-authentication-issues-with-github-copilot-chat).
+
+## Start a debugging session
+
+The following simple example shows how to get AI assistance when you encounter an exception.
+
+1. In Visual Studio, create a new C# Console app for .NET and replace the code in *Program.cs* with the following code:
+
+    ```csharp
+    using System;
+    using System.Collections.Generic;
+    
+    public class Example
+    {
+        public static void Main(string[] args)
+        {
+            int value = Int32.Parse(args[0]);
+            List<String> names = null;
+            if (value > 0)
+                names = new List<String>();
+    
+            names.Add("Major Major Major");
+        }
+    }
+    ```
+
+1. Press **F5** or select **Start Debugging** from the **Debug** menu.
+
+   An IndexOutOfRangeException occurs.
+
+1. Select the **Ask Copilot** button.
+
+   [ ![Screenshot of Ask Copilot button in an exception.](../debugger/media/vs-2022/debug-with-copilot-exception.png) ](../debugger/media/vs-2022/debug-with-copilot-exception.png#lightbox)
+
+   If it's not already open, the Copilot Chat window appears and provides an assessment of the error and why it might have occurred. In this example, Copilot Chat provides a suggested code fix, a button to copy code, and a **Preview** button for the code fix.
+
+1. Select the **Preview** button.
+
+   [ ![Screenshot of Preview button in the Copilot Chat window.](../debugger/media/vs-2022/debug-with-copilot-select-code-preview.png) ](../debugger/media/vs-2022/debug-with-copilot-select-code-preview.png#lightbox)
+
+   Visual Studio shows a code preview with the suggested fix.
+
+1. Review the suggested fix and choose **Accept** to apply the code suggestion.
+
+   [ ![Screenshot of code preview in Visual Studio.](../debugger/media/vs-2022/debug-with-copilot-code-preview.png) ](../debugger/media/vs-2022/debug-with-copilot-code-preview.png#lightbox)
+
+1. Restart the debugger.
+
+   This time, no exception occurs. It has been fixed!
 
 ## AI-assisted auto insights
 
@@ -42,25 +100,3 @@ Copilot provides detailed information in the CPU Usage auto insights. It provide
 When the CPU Usage tool provides auto insights in the Top Insights section, select **Ask Copilot** to learn from Copilot and start asking questions.
 
 [ ![Animation of using Copilot with CPU Usage.](../debugger/media/vs-2022/debug-with-copilot-top-insights.gif) ](../debugger/media/vs-2022/debug-with-copilot-top-insights.gif#lightbox)
-
-## AI-assisted exceptions
-
-Copilot has access to exceptions, call stack, local variables, and code. By asking good questions based on the relevant exception data that Visual Studio has when you’re at an exception, Copilot Chat can provide useful insights and fixes for the issue.
-
-When you see an exception, select the **Ask Copilot** link to get AI-generated answers related to the specific exception and context.
-
-[![Screenshot of Ask Copilot option in Exception Helper.](../debugger/media/vs-2022/debug-with-copilot-exception-helper.png "Ask Copilot option in Exception Helper.")](../debugger/media/vs-2022/debug-with-copilot-exception-helper.png#lightbox)
-
-When you select **Ask Copilot**, the Copilot Chat window opens in the right pane. If you have more questions, just ask Copilot!
-
-[![Screenshot of Chat window after choosing Ask Copilot.](../debugger/media/vs-2022/debug-with-copilot-exception-chat.png "Ask Copilot option in Exception Helper.")](../debugger/media/vs-2022/debug-with-copilot-exception-helper.png#lightbox)
-
-## AI-assisted debugging
-
-Copilot understands call stacks, frames, variable names, and values. As a result, you can pose detailed questions to the debugger-aware Copilot.
-
-![Screenshot of asking a debugging question.](../debugger/media/vs-2022/debug-with-copilot-asking-a-question.png "Asking a Debugging Question.")
-
-And Copilot answers!
-
-![Screenshot of answered question.](../debugger/media/vs-2022/debug-with-copilot-question-answered.png "Answered Question.")
