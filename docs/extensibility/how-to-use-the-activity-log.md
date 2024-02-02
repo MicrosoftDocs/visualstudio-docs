@@ -44,7 +44,7 @@ VSPackages can write messages to the activity log. This feature is especially us
 
    `*%AppData%\Microsoft\VisualStudio\{version}\ActivityLog.xml`
 
-3. Open the activity log with any text editor. Here is a typical entry:
+3. Open the activity log with any text editor. Here's a typical entry:
 
    ```
    Called for: Company.MyApp.MyAppPackage ...
@@ -58,7 +58,7 @@ When writing an editor-based extension, you may experience issues if you try to 
 
 Because the activity log is a service, the activity log is unavailable in the VSPackage constructor.
 
-You should obtain the activity log just before writing to it. Do not cache or save the activity log for future use.
+You should obtain the activity log just before writing to it. Don't cache or save the activity log for future use.
 
 ## Related content
 
