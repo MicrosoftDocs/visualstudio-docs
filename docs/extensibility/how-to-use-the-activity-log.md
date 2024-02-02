@@ -1,7 +1,7 @@
 ---
 title: Use the Activity Log to debug and add entries
 description: Work with the activity log in Visual Studio to debug VSPackages messages in retail environments and write entries to the log.
-ms.date: 11/04/2016
+ms.date: 2/02/2022
 ms.topic: how-to
 helpviewer_keywords:
 - VSPackages, debugging
@@ -20,7 +20,7 @@ VSPackages can write messages to the activity log. This feature is especially us
 
 ## To write an entry to the activity log
 
-1. Insert this code in the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method or in any other method except the VSPackage constructor:
+1. Insert this code in the [Initialize](/dotnet/api/microsoft.visualstudio.shell.package.initialize) method or in any other method except the VSPackage constructor:
 
     ```csharp
     IVsActivityLog log = GetService(typeof(SVsActivityLog)) as IVsActivityLog;
@@ -32,7 +32,7 @@ VSPackages can write messages to the activity log. This feature is especially us
         "Called for: {0}", this.ToString()));
     ```
 
-     This code gets the <xref:Microsoft.VisualStudio.Shell.Interop.SVsActivityLog> service and casts it to an <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog> interface. <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog.LogEntry%2A> writes an informational entry into the activity log using the current cultural context.
+     This code gets the [SVsActivityLog](/dotnet/api/microsoft.visualstudio.shell.interop.svsactivitylog) service and casts it to an [IVsActivityLog](/dotnet/api/microsoft.visualstudio.shell.interop.ivsactivitylog) interface. [LogEntry](/dotnet/api/microsoft.visualstudio.shell.interop.ivsactivitylog.logentry) writes an informational entry into the activity log using the current cultural context.
 
 2. When the VSPackage is loaded (usually when a command is invoked or a window is opened), the text is written to the activity log.
 
@@ -42,15 +42,17 @@ VSPackages can write messages to the activity log. This feature is especially us
 
 2. After closing Visual Studio, find the activity log in the subfolder for Visual Studio data:
 
-   <em>*%AppData%</em>\Microsoft\VisualStudio\\\<version>\ActivityLog.xml*.
+   `*%AppData%\Microsoft\VisualStudio\{version}\ActivityLog.xml`
 
 3. Open the activity log with any text editor. Here is a typical entry:
 
    ```
    Called for: Company.MyApp.MyAppPackage ...
    ```
+
 ## Troubleshooting Import/Export Issues in Editor Extensions: Access the MEF Composition Error Log
-When writing an editor-based extension, you may experience issues if you try to import something that doesn't exist in the current VS install, or if you incorrectly author your import or export.  The primary way to find and address these issues is to reference the **Managed Extensibility Framework (MEF) Composition Error Log**, stored at *%localappdata%\Microsoft\VisualStudio[yourVSVersion]\ComponentModelCache\Microsoft.VisualStudio.Default.err*.  To learn more about using MEF in your extensions, check out [this documentation](../extensibility/managed-extensibility-framework-in-the-editor.md).
+
+When writing an editor-based extension, you may experience issues if you try to import something that doesn't exist in the current VS install, or if you incorrectly author your import or export.  The primary way to find and address these issues is to reference the **Managed Extensibility Framework (MEF) Composition Error Log**, stored at `%localappdata%\Microsoft\VisualStudio{version}\ComponentModelCache\Microsoft.VisualStudio.Default.err`.  To learn more about using MEF in your extensions, check out [this documentation](../extensibility/managed-extensibility-framework-in-the-editor.md).
 
 ## Robust programming
 
