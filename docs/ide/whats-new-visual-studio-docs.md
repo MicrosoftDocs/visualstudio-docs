@@ -84,7 +84,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Manage npm packages in Visual Studio](../javascript/npm-package-management.md) - fixes [Issue 9991](https://github.com/MicrosoftDocs/visualstudio-docs#9991)
+- [Manage npm packages in Visual Studio](../javascript/npm-package-management.md) - Update recommendations for adding npm support to ASP.NET Core projects
 
 ### MSBuild
 
