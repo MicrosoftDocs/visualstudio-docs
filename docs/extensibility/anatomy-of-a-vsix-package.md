@@ -23,7 +23,7 @@ A VSIX package is a `.vsix` file that contains one or more Visual Studio extensi
 
 ## The VSIX manifest
 
- The VSIX manifest contains information about the extension to be installed, and follows the VSX Schema. For more information, see [VSIX extension schema 2.0 reference](vsix-extension-schema-2-0-reference.md).
+ The VSIX manifest contains information about the extension to be installed, and follows the VSIX Schema. For more information, see [VSIX extension schema 2.0 reference](vsix-extension-schema-2-0-reference.md).
 
  The VSIX manifest must be named `extension.vsixmanifest` when it is included in a `.vsix` file.
 
