@@ -21,7 +21,7 @@ In the process, you will learn how to:
 
 For this example, you'll use Visual C# to add a custom menu button named "Say Hello World!" that looks like this:
 
-![Hello World command](media/hello-world-say-hello-world.png)
+![Screenshot showing a custom menu command.](media/vs-2022/hello-world-menu-command.png)
 
 > [!NOTE]
 > This article applies to Visual Studio on Windows. For Visual Studio for Mac, see [Extensibility walkthrough in Visual Studio for Mac](/visualstudio/mac/extending-visual-studio-mac-walkthrough).
