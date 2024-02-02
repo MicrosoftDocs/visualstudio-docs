@@ -23,7 +23,7 @@ A VSIX package is a `.vsix` file that contains one or more Visual Studio extensi
 
 ## The VSIX manifest
 
- The VSIX manifest contains information about the extension to be installed, and follows the VSX Schema. For more information, see [VSIX extension schema 2.0 reference](vsix-extension-schema-2-0-reference.md). For an example VSIX manifest, see [PackageManifest element (root element, VSX schema)](/previous-versions/dd393754(v=vs.110)).
+ The VSIX manifest contains information about the extension to be installed, and follows the VSX Schema. For more information, see [VSIX extension schema 2.0 reference](vsix-extension-schema-2-0-reference.md).
 
  The VSIX manifest must be named `extension.vsixmanifest` when it is included in a `.vsix` file.
 
@@ -41,7 +41,7 @@ A VSIX package is a `.vsix` file that contains one or more Visual Studio extensi
 
  If a user tries to install an extension that has dependencies, the installer verifies that the required assemblies are installed on the user system. If the required assemblies are not found, **Extensions and Updates** displays a list of the missing assemblies.
 
- If the extension manifest includes one or more [Reference](/previous-versions/visualstudio/visual-studio-2010/dd393687(v=vs.100)) elements, **Extensions and Updates** compares the manifest of each reference to the extensions that are installed on the system, and installs the referenced extension if it is not already installed. If an earlier version of a referenced extension is installed, the newer version replaces it.
+ If the extension manifest includes one or more [Dependency](vsix-extension-schema-2-0-reference.md#dependencies-element) elements, **Extensions and Updates** compares the manifest of each reference to the extensions that are installed on the system, and installs the referenced extension if it is not already installed. If an earlier version of a referenced extension is installed, the newer version replaces it.
 
  If a project in a multi-project solution includes a reference to another project in the same solution, the VSIX package includes the dependencies of that project. You can override this behavior by selecting the reference for the internal project, and then, in the **Properties** window, setting the **Output Groups Included in VSIX** property to `BuiltProjectOutputGroup`.
 
@@ -51,7 +51,7 @@ A VSIX package is a `.vsix` file that contains one or more Visual Studio extensi
 
  During installation, **Extensions and Updates** looks for the contents of the VSIX package in a folder under *%LocalAppData%\Microsoft\VisualStudio\{version}\Extensions*.
 
- By default, the installation applies only to the current user, because *%LocalAppData%* is a user-specific directory. However, if you set the `AllUsers` element of the manifest to `True`, the extension will be installed under <em>..\\</em>VisualStudioInstallationFolder<em>\Common7\IDE\Extensions</em> and will be available to all users of the computer.
+ By default, the installation applies only to the current user, because *%LocalAppData%* is a user-specific directory. However, if you set the `AllUsers` element of the manifest to `True`, the extension will be installed under `..\{VisualStudioInstallationFolder}\Common7\IDE\Extensions` and will be available to all users of the computer.
 
 ## [Content_Types].xml
 
