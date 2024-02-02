@@ -36,9 +36,9 @@ Similarly, *Microsoft.Common.targets* looks for *Directory.Build.targets*.
 *Directory.Build.props* is imported early in the sequence of imported files, which can be important if you need a set a property that is used by imports, especially those that are implicitly imported by using the `Sdk` attribute, such as when using the .NET SDK in most .NET project files.
 
 > [!NOTE]
-> Linux-based file systems are case-sensitive. Make sure the casing of the Directory.Build.props filename matches exactly, or it won't be detected during the build process.
+> Linux-based file systems are case-sensitive. Make sure the casing of the *Directory.Build.props* filename matches exactly, or it won't be detected during the build process.
 >
-> See [this GitHub issue](https://github.com/dotnet/core/issues/1991#issue-368441031) for more information.
+> For more information, see [this GitHub issue](https://github.com/dotnet/core/issues/1991#issue-368441031).
 
 ### Directory.Build.props example
 
@@ -74,7 +74,7 @@ The location of the solution file is irrelevant to *Directory.Build.props*.
 
 ### Import order
 
-*Directory.Build.props* is imported very early in *Microsoft.Common.props*, and properties defined later are unavailable to it. So, avoid referring to properties that are not yet defined (and will evaluate to empty).
+*Directory.Build.props* is imported early in *Microsoft.Common.props*, and properties defined later are unavailable to it. So, avoid referring to properties that aren't yet defined (and will evaluate to empty).
 
 Properties that are set in *Directory.Build.props* can be overridden elsewhere in the project file or in imported files, so you should think of the settings in *Directory.Build.props* as specifying the defaults for your projects.
 
@@ -83,7 +83,7 @@ Properties that are set in *Directory.Build.props* can be overridden elsewhere i
 When you need to set a property or define a target for an individual project that overrides any prior settings, put that logic in the project file after the final import. In order to do this in an SDK-style project, you first have to replace the SDK-style attribute with the equivalent imports. See [How to use MSBuild project SDKs](how-to-use-project-sdk.md).
 
 > [!NOTE]
-> The MSBuild engine reads in all imported files during evaluation, before starting build execution for a project (including any `PreBuildEvent`), so these files are not expected to be modified by the `PreBuildEvent` or any other part of the build process. Any modifications do not take effect until the next invocation of *MSBuild.exe* or the next Visual Studio build. Also, if your build process contains many project builds (as with multitargeting or building dependent projects), then imported files, including *Directory.build.props*, are read when evaluation occurs for each individual project build.
+> The MSBuild engine reads in all imported files during evaluation, before starting build execution for a project (including any `PreBuildEvent`), so these files aren't expected to be modified by the `PreBuildEvent` or any other part of the build process. Any modifications do not take effect until the next invocation of *MSBuild.exe* or the next Visual Studio build. Also, if your build process contains many project builds (as with multitargeting or building dependent projects), then imported files, including *Directory.build.props*, are read when evaluation occurs for each individual project build.
 
 ### Use case: multi-level merging
 
@@ -112,8 +112,8 @@ To make MSBuild correctly merge the "inner" files (*2-src* and *2-test*) with th
 A summary of MSBuild's general approach is as follows:
 
 - For any given project, MSBuild finds the first *Directory.Build.props* upward in the solution structure, merges it with defaults, and stops scanning for more.
-- If you want multiple levels to be found and merged, then [`<Import...>`](../msbuild/property-functions.md#msbuild-getpathoffileabove) (shown above) the "outer" file from the "inner" file.
-- If the "outer" file does not itself also import something above it, then scanning stops there.
+- If you want multiple levels to be found and merged, then [`<Import...>`](../msbuild/property-functions.md#msbuild-getpathoffileabove) (shown previously) the "outer" file from the "inner" file.
+- If the "outer" file doesn't itself also import something above it, then scanning stops there.
 
 Or more simply: the first *Directory.Build.props* that doesn't import anything is where MSBuild stops.
 
@@ -127,7 +127,7 @@ This example shows the use the preprocessed output to determine where to set a p
 
 To help you analyze the usage of a particular property you want to set, you can run MSBuild with the `/preprocess` or `/pp` argument. The output text is the result of all the imports, including the system imports like *Microsoft.Common.props* that are implicitly imported, and any of your own imports. With this output, you can see where your property needs to be set relative to where its value is used.
 
-As an example, suppose you have a simple .NET Core or .NET 5 or later Console App project, and you want to customize the intermediate output folder, normally `obj`. The property that specifies this path is `BaseIntermediateOutput`. If you try putting this in a `PropertyGroup` element in your project file along with the various other properties that are already set there, such as `TargetFramework`, you would discover when you build the project that the property does not take effect. If you run MSBuild with the `/pp` option and search the output for `BaseIntermediateOutputPath`, you can see why. In this case, `BaseIntermediateOutput` is read and used in `Microsoft.Common.props`.
+As an example, suppose you have a simple .NET Core or .NET 5 or later Console App project, and you want to customize the intermediate output folder, normally `obj`. The property that specifies this path is `BaseIntermediateOutput`. If you try putting this in a `PropertyGroup` element in your project file along with the various other properties that are already set there, such as `TargetFramework`, you would discover when you build the project that the property doesn't take effect. If you run MSBuild with the `/pp` option and search the output for `BaseIntermediateOutputPath`, you can see why. In this case, `BaseIntermediateOutput` is read and used in `Microsoft.Common.props`.
 
 There's a comment in *Microsoft.Common.props* that says the property `BaseIntermediateOutput` has to be set here, before it's used by another property, `MSBuildProjectExtensionsPath`. You can also see that when `BaseIntermediateOutputPath` is initially set, there's a check for a pre-existing value, and if it's undefined, it gets set to `obj`.
 
@@ -135,7 +135,7 @@ There's a comment in *Microsoft.Common.props* that says the property `BaseInterm
 <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">obj\</BaseIntermediateOutputPath>
 ```
 
-So, this tells you that to set this property, it must be specified somewhere earlier than this. Just before this code in the preprocessed output, you can see that `Directory.Build.props` is imported, so this tells you that you can set `BaseIntermediateOutputPath` there and it will be set early enough to have the desired effect.
+So, this placement tells you that to set this property, it must be specified somewhere earlier than this. Just before this code in the preprocessed output, you can see that `Directory.Build.props` is imported, so you can set `BaseIntermediateOutputPath` there and it will be set early enough to have the desired effect.
 
 The following abbreviated preprocessed output shows the result of putting the `BaseIntermediateOutput` setting in `Directory.Build.props`. The comments at the top of standard imports include the filename and usually some helpful information about why that file is imported.
 
