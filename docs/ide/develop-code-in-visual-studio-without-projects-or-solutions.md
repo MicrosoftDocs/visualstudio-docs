@@ -77,7 +77,7 @@ The following example shows how to clone a GitHub repo and then open its code in
 
 #### Use Git in Visual Studio
 
-As of Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/), we introduced a new, streamlined Git interface that you can use to interact with your files on GitHub. To learn more, visit the [Visual Studio version control docs](../version-control/index.yml).
+As of Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/), we introduced a new, streamlined Git interface that you can use to interact with your files on GitHub. To learn more, visit the [Visual Studio version control docs](../version-control/git-with-visual-studio.md).
 
 #### Use Team Explorer in Visual Studio
 
