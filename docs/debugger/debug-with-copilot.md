@@ -70,7 +70,7 @@ The following simple example shows how to get AI assistance when you encounter a
 
    An `IndexOutOfRangeException` occurs and the app pauses, showing the exception.
 
-   To get AI assistance for the exception, continue this task in the next section.
+   To get AI assistance for the exception, continue to the next section.
 
 ### Ask for AI assistance
 
