@@ -1,7 +1,11 @@
 {
   "redirections": [
     {
-
+      "source_path": "docs/version-control/index.md",
+      "redirect_url": "/visualstudio/version-control/git-with-visual-studio",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "docs/azure/vs-active-directory-error.md",
       "redirect_url": "/visualstudio/azure/vs-active-directory-add-connected-service",
       "redirect_document_id": "false"
