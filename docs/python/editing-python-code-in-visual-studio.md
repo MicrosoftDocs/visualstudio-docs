@@ -190,7 +190,7 @@ If you write a great code snippet that you'd like to share, feel free to post it
 
 ## Navigate your code
 
-Python support in Visual Studio provides several ways to quickly navigate within your code, including libraries for which the source code is available. You can find libraries with source code for the [navigation bar](#navigation-bar), [**Go To Definition**](#go-to-definition), [**Navigate To**](#go-to), and [**Find All References**](#find-all-references) commands. You can also use the Visual Studio [**Object Browser**](../ide/viewing-the-structure-of-code.md#BKMK_ObjectBrowser).
+Python support in Visual Studio provides several ways to quickly navigate within your code, including libraries for which the source code is available. You can find libraries with source code for the [navigation bar](#navigation-bar), [**Go To Definition**](#go-to-definition), [**Go To** (string search)](#go-to), and [**Find All References**](#find-all-references) commands. You can also use the Visual Studio [**Object Browser**](../ide/viewing-the-structure-of-code.md#BKMK_ObjectBrowser).
 
 ### Navigation bar
 
@@ -207,7 +207,7 @@ The **Go To Definition** command quickly jumps from the use of an identifier (su
 
 :::image type="content" source="media/code-editing-go-to-definition.png" alt-text="Screenshot that shows the Go To Definition command in Visual Studio." border="false":::
 
-### Go To
+### Go To (string search)
 
 The **Edit** > **Go To** command (**Ctrl**+**,**) displays a search box in the editor where you can type any string and see possible matches in your code that defines a function, class, or variable containing that string. This feature provides a similar capability as **Go To Definition** but without having to locate a use of an identifier.
 
