@@ -70,9 +70,9 @@ The following simple example shows how to get AI assistance when you encounter a
 
    An `IndexOutOfRangeException` occurs and the app pauses, showing the exception.
 
-   To get AI assistance for the exception, proceed to the next section of this article.
+   To get AI assistance for the exception, continue this task in the next section.
 
-## Ask for AI assistance
+### Ask for AI assistance
 
 1. With the application paused on the exception, select the **Ask Copilot** button.
 
