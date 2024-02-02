@@ -40,9 +40,11 @@ To get started, you need:
    > [!NOTE]
    > If you experience authentication issues after installing the extension, see [Troubleshooting authentication issues with GitHub Copilot Chat](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-authentication-issues-with-github-copilot-chat).
 
-## Start a debugging session
+## Get AI assistance for an exception
 
-The following simple example shows how to get AI assistance when you encounter an exception and quickly update your code based on AI suggested fixes.
+The following simple example shows how to get AI assistance when you encounter an exception and how to quickly update your code based on AI-suggested fixes.
+
+### Start a debugging session
 
 1. In Visual Studio, create a new C# Console app for .NET and replace the code in *Program.cs* with the following code:
 
@@ -70,7 +72,7 @@ The following simple example shows how to get AI assistance when you encounter a
 
    To get AI assistance for the exception, proceed to the next section of this article.
 
-## Get AI assistance for an exception
+## Ask for AI assistance
 
 1. With the application paused on the exception, select the **Ask Copilot** button.
 
