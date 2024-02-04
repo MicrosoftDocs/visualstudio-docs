@@ -27,7 +27,7 @@ Before you run the Publish Wizard, you should set the publishing properties appr
 > When you install more than one version of an application by using ClickOnce, the installation moves earlier versions of the application into a folder named *Archive*, in the publish location that you specify. Archiving earlier versions in this manner keeps the installation directory clear of folders from the earlier version.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, click **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../ide/environment-settings.md#reset-settings).
+> The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, click **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../ide/environment-settings.md#reset-all-settings).
 
 ## To publish to a file share or path
 

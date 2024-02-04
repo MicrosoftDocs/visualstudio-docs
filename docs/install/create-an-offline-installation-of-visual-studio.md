@@ -73,7 +73,7 @@ Open a command prompt with administrator privileges, navigate to the directory w
     vs_enterprise.exe --layout c:\localVSlayout --add Microsoft.VisualStudio.Workload.NativeDesktop --includeRecommended --includeOptional --lang en-US 
     ```
     
-- You can also [use an exported vsconfig file](create-a-network-installation-of-visual-studio.md#use-a-vsconfig-file-to-customize-the-contents-of-your-layout) to customize the layout content, [verify](create-a-network-installation-of-visual-studio.md?#verify-a-layout) a layout or [fix](create-a-network-installation-of-visual-studio.md?#fix-a-layout) a layout.
+- You can also [use an exported vsconfig file](create-a-network-installation-of-visual-studio.md#configure-the-contents-of-a-layout) to customize the layout content, [verify](create-a-network-installation-of-visual-studio.md?#verify-a-layout) a layout or [fix](create-a-network-installation-of-visual-studio.md?#fix-a-layout) a layout.
 
 ### Step 3 - Install Visual Studio from the local layout
 When you install Visual Studio from a local layout, the Visual Studio installer uses the local versions of the files. But, if you select components during installation that aren't in the layout, then the Visual Studio installer will attempt to download them from the internet. To make sure that you install only the files that you've previously downloaded, use the same [command-line options](use-command-line-parameters-to-install-visual-studio.md) that you used to create the local layout. To make sure your installer doesn't try to access the internet when it's installing the product, use the `--noweb` switch.

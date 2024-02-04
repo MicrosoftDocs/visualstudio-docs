@@ -11,7 +11,7 @@ ms.subservice: python
 
 # Profile Python code
 
-You can profile a Python application when using CPython-based interpreters. (See [Features matrix - profiling](overview-of-python-tools-for-visual-studio.md#matrix-profiling) for the availability of this feature for different versions of Visual Studio.)
+You can profile a Python application when using CPython-based interpreters. (See [Profiling tools with comprehensive reporting](overview-of-python-tools-for-visual-studio.md#profiling-tools-with-comprehensive-reporting) for the availability of this feature for different versions of Visual Studio.)
 
 ## Profiling for CPython-based interpreters
 

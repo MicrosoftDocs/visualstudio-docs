@@ -123,7 +123,7 @@ additionalContent:
         url: ../ide/ai-assisted-development-visual-studio.md
       - title: Track version changes
         summary: Share code using version control technologies such as Git and GitHub.
-        url: ../version-control/index.yml
+        url: ../version-control/git-with-visual-studio.md
       - title: Extend Visual Studio
         summary: Add your own functionality to the Visual Studio IDE to improve your development experience.
         url: ../extensibility/index.yml

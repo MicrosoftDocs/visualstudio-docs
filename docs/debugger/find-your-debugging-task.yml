@@ -47,11 +47,11 @@ sections:
           
           - **How do I break execution only if another breakpoint is hit?**
           
-            Set a Dependent Breakpoint that breaks execution only if another breakpoint is first hit. For more information, see [Dependent Breakpoint](using-breakpoints.md#Set-a-dependent-breakpoint).
+            Set a Dependent Breakpoint that breaks execution only if another breakpoint is first hit. For more information, see [Dependent Breakpoint](using-breakpoints.md#BKMK_set_a_dependent_breakpoint).
 
           - **Can I hit a breakpoint only once?**
  
-            Set a temporary breakpoint which lets you break the code only once. For more information, see [Temporary Breakpoint](using-breakpoints.md#Set-a-Temporary-breakpoint).
+            Set a temporary breakpoint which lets you break the code only once. For more information, see [Temporary Breakpoint](using-breakpoints.md#BKMK_set_a_temporary_breakpoint).
           
           - **Can I pause code inside a loop at a certain iteration?**
           

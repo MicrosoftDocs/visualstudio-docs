@@ -1,7 +1,11 @@
 {
   "redirections": [
     {
-
+      "source_path": "docs/version-control/index.md",
+      "redirect_url": "/visualstudio/version-control/git-with-visual-studio",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "docs/azure/vs-active-directory-error.md",
       "redirect_url": "/visualstudio/azure/vs-active-directory-add-connected-service",
       "redirect_document_id": "false"
@@ -1970,6 +1974,22 @@
       "source_path": "docs/ide/troubleshooting-broken-references.md",
       "redirect_url": "/troubleshoot/developer/visualstudio/project-build/troubleshooting-broken-references",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/accessibility-products-and-services-from-microsoft.md",
+      "redirect_url": "https://www.microsoft.com/accessibility",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2022"
+    ]
+    },
+    {
+      "source_path": "docs/ide/reference/accessibility-products-and-services-from-microsoft.md",
+      "redirect_url": "https://www.microsoft.com/accessibility",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2019"
+    ]
     },
     {
       "source_path": "docs/ide/how-to-troubleshoot-templates.md",

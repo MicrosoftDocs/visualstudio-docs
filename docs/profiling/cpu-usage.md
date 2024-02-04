@@ -53,6 +53,8 @@ Usually, the local machine best replicates installed app execution. To collect d
     ![Screenshot that shows Select CPU Usage.](../profiling/media/cpu-use-lib-choose-cpu-usage.png "Select CPU Usage")
     ::: moniker-end
 
+    If you enable the **Start with collection paused** option before starting the profiler, data will not be collected until you select the **Record** button in the diagnostic session view.
+
     > [!NOTE]
     > For more information on how to make the tool more efficient, see [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md).
 

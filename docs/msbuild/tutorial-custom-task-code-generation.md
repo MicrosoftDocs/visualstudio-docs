@@ -468,7 +468,7 @@ In this section, you'll wire up the task implementation in `.props` and `.target
 
 1. Create a *build* folder and in that folder, add two text files: *AppSettingStronglyTyped.props* and *AppSettingStronglyTyped.targets*. *AppSettingStronglyTyped.props* is imported  early in *Microsoft.Common.props*, and properties defined later are unavailable to it. So, avoid referring to properties that are not yet defined; they would evaluate to empty.
 
-	*Directory.Build.targets* is imported from *Microsoft.Common.targets* after importing `.targets` files from NuGet packages. So, it can override properties and targets defined in most of the build logic, or set properties for all your projects regardless of what the individual projects set. See [import order](customize-your-build.md#import-order).
+	*Directory.Build.targets* is imported from *Microsoft.Common.targets* after importing `.targets` files from NuGet packages. So, it can override properties and targets defined in most of the build logic, or set properties for all your projects regardless of what the individual projects set. See [import order](customize-your-build.md#choose-between-adding-properties-to-a-props-or-targets-file).
 
 	*AppSettingStronglyTyped.props* includes the task and defines some properties with default values:
 

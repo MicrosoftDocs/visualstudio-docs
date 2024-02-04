@@ -79,7 +79,6 @@ When you select an environment in the list, Visual Studio displays various prope
 For example, you can see in the previous image that the interpreter's location is **C:\Python36-32**. The commands at the bottom of the **Overview** tab each open a command prompt with the interpreter running. For more information, see [Python Environments window tab reference 2019- Overview](./python-environments-window-tab-reference.md?view=vs-2019&preserve-view=true#tab-overview).
 
 :::moniker-end
-
 :::moniker range="vs-2022"
 
 For example, you can see in the previous image that the interpreter's location is **C:\Program Files (x86)\Microsoft Visual Studio\Python311**. The commands at the bottom of the **Overview** tab each open a command prompt with the interpreter running. For more information, see [Python Environments window tab reference (Visual Studio 2022) - Overview](./python-environments-window-tab-reference.md?view=vs-2022&preserve-view=true#tab-overview).
@@ -142,19 +141,22 @@ Visual Studio provides direct support for creating a virtual environment for a p
 At any time within an open project, you can create a new virtual environment. In **Solution Explorer**, expand the project node, right-click **Python Environments**, and choose **Add environment**. In **Add Environment**, choose **Virtual environment**.
 
 :::moniker range="vs-2019"
+
 For more information, see [Create a virtual environment (Visual Studio 2019)](./selecting-a-python-environment-for-a-project.md?view=vs-2019&preserve-view=true#create-a-virtual-environment).
 
 :::moniker-end
-
 :::moniker range=">=vs-2022"
+
 For more information, see [Create a virtual environment (Visual Studio 2022)](./selecting-a-python-environment-for-a-project.md?view=vs-2022&preserve-view=true#create-a-virtual-environment).
+
 :::moniker-end
 
 Visual Studio also provides a command to generate a _requirements.txt_ file from a virtual environment, making it easy to recreate the environment on other computers. For more information, see [Use virtual environments](selecting-a-python-environment-for-a-project.md#use-virtual-environments).
 
 #### Conda environments
 
-You can create a conda environment by using the `conda` tool, or with integrated conda management in Visual Studio 2017 version 15.7 and later. A conda environment requires Anaconda or Miniconda. These platforms are available through the Visual Studio installer. For more information, see [Install Python support in Visual Studio](./installing-python-support-in-visual-studio.md).
+You can create a conda environment by using the `conda` tool, or with integrated conda management in Visual Studio 2017 version 15.7 and later. A conda environment requires Anaconda or Miniconda. 
+These platforms are available through the Visual Studio installer. For more information, see [Install Python support in Visual Studio](/previous-versions/visualstudio/visual-studio-2017/python/installing-python-support-in-visual-studio?view=vs-2017&preserve-view=true#visual-studio-2017).
 
 1. In the **Python Environments** window (or from the Python toolbar), select **Add Environment** to open the **Add environment** dialog.
 
