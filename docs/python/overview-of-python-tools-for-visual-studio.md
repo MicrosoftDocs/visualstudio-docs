@@ -74,7 +74,7 @@ For every Python environment known to Visual Studio, you can easily open the sam
 
 :::moniker range="<=vs-2019"
 
-:::image type="content" source="media/interactive-window.png" alt-text="Screenshot that shows the expanded view of the Python interactive window in Visual Studio 2019." border="false":::
+:::image type="content" source="media/interactive-window.png" alt-text="Screenshot that shows the expanded view of the Python interactive window in Visual Studio 2019.":::
 
 :::moniker-end
 :::moniker range=">=vs-2022"

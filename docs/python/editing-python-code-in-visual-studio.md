@@ -190,7 +190,7 @@ If you write a great code snippet that you'd like to share, feel free to post it
 
 ## Navigate your code
 
-Python support in Visual Studio provides several ways to quickly navigate within your code, including libraries for which the source code is available. You can find libraries with source code for the [navigation bar](#navigation-bar), [**Go To Definition**](#go-to-definition), [**Go To** (string search)](#go-to), and [**Find All References**](#find-all-references) commands. You can also use the Visual Studio [**Object Browser**](../ide/viewing-the-structure-of-code.md#BKMK_ObjectBrowser).
+Python support in Visual Studio provides several ways to quickly navigate within your code, including libraries for which the source code is available. You can find libraries with source code for the [navigation bar](#navigation-bar), [**Go To Definition**](#go-to-definition), [**Go To** (string search)](#go-to-string-search), and [**Find All References**](#find-all-references) commands. You can also use the Visual Studio [**Object Browser**](../ide/viewing-the-structure-of-code.md#BKMK_ObjectBrowser).
 
 ### Navigation bar
 
