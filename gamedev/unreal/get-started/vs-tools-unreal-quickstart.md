@@ -99,7 +99,7 @@ Long UE macros can be difficult to read. Visual Studio Tools for Unreal Engine e
 
     :::image type="content" source="../media/vs-unreal-engine-macro-expansion.png" alt-text="A screenshot of the macro expansion window showing the expanded contents of the UE_DEFINE_GAMEPLAY_TAG_STATIC macro.":::
 
-For more information about expanding macros in Visual Studio, see [Visualize C/c++ macro expansion](/cpp/ide/visualize-macro-expansion).
+For more information about expanding macros in Visual Studio, see [Visualize C/C++ macro expansion](/cpp/ide/visualize-macro-expansion).
 
 This quickstart showed how Visual Studio Tools for Unreal Engine makes it easier to understand UE macros, view UE logging, and view UE Blueprints. May your UE development work be more productive and enjoyable!
 
