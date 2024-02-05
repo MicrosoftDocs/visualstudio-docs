@@ -67,13 +67,6 @@ Selecting **@** symbol (at) starts a decorator and shows potential decorators. M
 
 For more information, see [Options - completion results](python-support-options-and-settings-in-visual-studio.md#completion-results).
 
-<!-- Unable to locate the following settings:
-
-> [!TIP]
-> You can configure the behavior of completions by selecting **Tools** > **Options** > **Text Editor** > **Python** > **Advanced**. Among these, **Filter list based on search string** applies filtering of completion suggestions as you type (default is checked), and **Member completion displays intersection of members** shows only completions that are supported by all possible types (default is unchecked). For more information, see [Options - completion results](python-support-options-and-settings-in-visual-studio.md#completion-results).
-
--->
-
 ### Type hints
 
 Type hints are available in Visual Studio 2017 version 15.7 and later.
@@ -140,13 +133,6 @@ Code coloring uses information from code analysis to color variables, statements
 To customize the colors, go to **Tools** > **Options** > **Environment** > **Fonts and Colors**. In the **Display items** list, modify the desired **Python** entries:
 
 :::image type="content" source="media/code-editing-customize-colors.png" alt-text="Screenshot that shows the Fonts and Colors options in Visual Studio." border="false":::
-
-<!-- Unable to locate the following setting:
-
-> [!TIP]
-> To disable code coloring, go to **Tools** > **Options** > **Text Editor** > **Python** > **Advanced**. Clear the **Miscellaneous Options** > **Color names based on type** checkbox. For more information, see [Options - Miscellaneous options](python-support-options-and-settings-in-visual-studio.md#miscellaneous-options).
-
--->
 
 ## Insert code snippets
 
