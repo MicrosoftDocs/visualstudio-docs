@@ -54,10 +54,6 @@ For example, the following screenshot shows some of the capabilities:
 
 To add support to your extension, you first create a language configuration file. The name of the file must follow a standard: use hyphens to separate the words in the filename, and make sure it ends with `language-config.json`.
 
-## Add a grammar file
-
-In addition, a grammar file is necessary for this process for the language. See [Language Grammars](https://macromates.com/manual/en/language_grammars)
-
 In the extension project, make sure that your `language-config.json` file has the following property settings:
 
 ```
@@ -65,6 +61,10 @@ Build Action = Content
 Include in VSIX = True
 Copy to output = Copy always 
 ```
+
+## Add a grammar file
+
+In addition, a grammar file is necessary for this process for the language. See [Language Grammars](https://macromates.com/manual/en/language_grammars).
 
 ## Update the pkgdef file
 
