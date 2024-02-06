@@ -48,6 +48,6 @@ The change report adds columns (marked with **(Diff)**) to the base report that 
 
 ::: moniker range=">=vs-2022"
 
-[![Screenshot of Native Types Diff View.](../media/vs-2022/dbgdiag-mem-native-types-view-diff.png "Native Types Diff View")](../profiling/media/vs-2022/dbgdiag-mem-native-types-view-diff.png#ligtbox)
+[![Screenshot of Native Types Diff View.](../media/vs-2022/dbgdiag-mem-native-types-view-diff.png "Native Types Diff View")](../media/vs-2022/dbgdiag-mem-native-types-view-diff.png#ligtbox)
 
 ::: moniker-end

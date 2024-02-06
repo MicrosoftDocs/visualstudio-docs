@@ -20,7 +20,7 @@ title: Managed Types report
 
  ::: moniker range=">=vs-2022"
 
-[ ![Screenshot of managed type report.](../media/vs-2022/dbgdiag-mem-managed-types-report-paths-to-root.png "Managed type report")](../profiling/media/vs-2022/dbgdiag-mem-managed-types-report-paths-to-root.png#lightbox) 
+[ ![Screenshot of managed type report.](../media/vs-2022/dbgdiag-mem-managed-types-report-paths-to-root.png "Managed type report")](../media/vs-2022/dbgdiag-mem-managed-types-report-paths-to-root.png#lightbox) 
 
  ::: moniker-end
 
@@ -54,7 +54,7 @@ title: Managed Types report
 
  ::: moniker range=">=vs-2022"
 
- [![Screenshot of the Instances view in the Memory Usage tool.](../media/vs-2022/dbgdiag-mem-managed-types-report-instances.png "Instances view in the Memory Usage tool")](../profiling/media/vs-2022/dbgdiag-mem-managed-types-report-instances.png#lightbox)
+ [![Screenshot of the Instances view in the Memory Usage tool.](../media/vs-2022/dbgdiag-mem-managed-types-report-instances.png "Instances view in the Memory Usage tool")](../media/vs-2022/dbgdiag-mem-managed-types-report-instances.png#lightbox)
 
  ::: moniker-end
 
