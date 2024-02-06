@@ -14,13 +14,13 @@ title: Change (Diff) report
 
    ::: moniker range="<=vs-2019"
 
-   ![Screenshot of Choose a change link in a cell.](../profiling/media/vs-2019/dbgdiag-mem-choose-diff-report.png)
+   ![Screenshot of Choose a change link in a cell.](../media/vs-2019/dbgdiag-mem-choose-diff-report.png)
 
    ::: moniker-end
 
    ::: moniker range=">=vs-2022"
 
-   ![Screenshot of Choose a change link in a cell.](../profiling/media/vs-2022/dbgdiag-mem-choose-diff-report.png)
+   ![Screenshot of Choose a change link in a cell.](../media/vs-2022/dbgdiag-mem-choose-diff-report.png)
 
    ::: moniker-end
 
@@ -28,13 +28,13 @@ title: Change (Diff) report
 
    ::: moniker range="<=vs-2019"
 
-   ![Screenshot of Choose a snapshot from the Compare To list.](../profiling/media/vs-2019/dbgdiag-mem-choose-compare-to.png)
+   ![Screenshot of Choose a snapshot from the Compare To list.](../media/vs-2019/dbgdiag-mem-choose-compare-to.png)
 
    ::: moniker-end
 
    ::: moniker range=">=vs-2022"
 
-   ![Screenshot of Choose a snapshot from the Compare with list.](../profiling/media/vs-2022/dbgdiag-mem-choose-compare-to.png)
+   ![Screenshot of Choose a snapshot from the Compare with list.](../media/vs-2022/dbgdiag-mem-choose-compare-to.png)
 
    ::: moniker-end
 
@@ -42,12 +42,12 @@ The change report adds columns (marked with **(Diff)**) to the base report that 
 
 ::: moniker range="<=vs-2019"
 
-![Screenshot of Native Types Diff View.](../profiling/media/vs-2019/dbgdiag-mem-native-types-view-diff.png)
+![Screenshot of Native Types Diff View.](../media/vs-2019/dbgdiag-mem-native-types-view-diff.png)
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-[![Screenshot of Native Types Diff View.](../profiling/media/vs-2022/dbgdiag-mem-native-types-view-diff.png "Native Types Diff View")](../profiling/media/vs-2022/dbgdiag-mem-native-types-view-diff.png#ligtbox)
+[![Screenshot of Native Types Diff View.](../media/vs-2022/dbgdiag-mem-native-types-view-diff.png "Native Types Diff View")](../profiling/media/vs-2022/dbgdiag-mem-native-types-view-diff.png#ligtbox)
 
 ::: moniker-end

@@ -14,13 +14,13 @@ title: Native Types report
 
  ::: moniker range="<=vs-2019"
 
- ![Screenshot of Native Type View.](../profiling/media/vs-2019/dbgdiag-mem-native-types-view.png)
+ ![Screenshot of Native Type View.](../media/vs-2019/dbgdiag-mem-native-types-view.png)
 
  ::: moniker-end
 
  ::: moniker range=">=vs-2022"
 
- ![Screenshot of Native Type View.](../profiling/media/vs-2022/dbgdiag-mem-native-types-view.png)
+ ![Screenshot of Native Type View.](../media/vs-2022/dbgdiag-mem-native-types-view.png)
 
  ::: moniker-end
 
@@ -28,11 +28,11 @@ title: Native Types report
 
 ::: moniker range="<=vs-2019"
 
-- Choose the instances icon (![The instance icon in the Object Type column](../profiling/media/dbg-mma-instances-icon.png "DBG_MMA_InstancesIcon")) of a selected type to display information about the objects of the selected type in the snapshot.
+- Choose the instances icon (![The instance icon in the Object Type column](../media/dbg-mma-instances-icon.png "DBG_MMA_InstancesIcon")) of a selected type to display information about the objects of the selected type in the snapshot.
 
      The **Instances** view displays each instance of the selected type. Selecting an instance displays the call stack that resulted in the creation of the instance in the **Allocation Call Stack** pane.
 
-     ![Screenshot of the Instances view and Allocation Call Stack pane.](../profiling/media/vs-2019/dbgdiag-mem-native-instances.png)
+     ![Screenshot of the Instances view and Allocation Call Stack pane.](../media/vs-2019/dbgdiag-mem-native-instances.png)
 
 ::: moniker-end
 
@@ -42,7 +42,7 @@ title: Native Types report
 
      The **Instances** view displays each instance of the selected type. Selecting an instance displays the call stack that resulted in the creation of the instance in the **Allocation Call Stack** pane.
 
-     ![Screenshot of the Instances view and Allocation Call Stack pane.](../profiling/media/vs-2022/dbgdiag-mem-native-instances.png)
+     ![Screenshot of the Instances view and Allocation Call Stack pane.](../media/vs-2022/dbgdiag-mem-native-instances.png)
 
 ::: moniker-end
 
@@ -50,7 +50,7 @@ title: Native Types report
 
 - Choose **Stacks View** in the **View Mode** list to see the allocation stack for the selected type.
 
-     ![Screenshot of Stacks view.](../profiling/media/vs-2019/dbgdiag-mem-native-stacks-view.png)
+     ![Screenshot of Stacks view.](../media/vs-2019/dbgdiag-mem-native-stacks-view.png)
 
 ::: moniker-end
 
@@ -58,6 +58,6 @@ title: Native Types report
 
 - Choose **Stacks** to see the allocation stack for the selected type.
 
-     ![Screenshot of Stacks view.](../profiling/media/vs-2022/dbgdiag-mem-native-stacks-view.png)
+     ![Screenshot of Stacks view.](../media/vs-2022/dbgdiag-mem-native-stacks-view.png)
 
 ::: moniker-end
