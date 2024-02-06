@@ -1,7 +1,7 @@
 ---
 title: "Measure memory usage in your apps"
 description: Find memory leaks and inefficient memory while you're debugging with the debugger-integrated diagnostic tool, Memory Usage.
-ms.date: 01/24/2024
+ms.date: 02/06/2024
 ms.topic: tutorial
 author: mikejo5000
 ms.author: mikejo
@@ -153,6 +153,8 @@ To analyze memory usage, click one of the links that opens up a detailed report 
 
 ### Managed types reports
 
+[!INCLUDE [managed-types-report](../profiling/includes/managed-types-report.md)]
+
  Choose the current link of an **Objects (Diff)** or **Allocations (Diff)** cell in the Memory Usage summary table.
 
  ::: moniker range="<=vs-2019"
@@ -204,6 +206,8 @@ To analyze memory usage, click one of the links that opens up a detailed report 
  The **Instances** view displays the instances of the selected object in the snapshot in the upper pane. The **Paths to Root** and **Referenced Objects** pane displays the objects that reference the selected instance and the types that the selected instance references. When the debugger is stopped at the point where the snapshot was taken, you can hover over the **Value** cell to display the values of the object in a tool tip.
 
 ### Native types reports
+
+[!INCLUDE [native-types-report](../profiling/includes/native-types-report.md)]
 
  Choose the current link of an **Allocations (Diff)** or **Heap Size (Diff)** cell in the Memory Usage summary table of the **Diagnostic Tools** window.
 
@@ -260,10 +264,12 @@ To analyze memory usage, click one of the links that opens up a detailed report 
 ::: moniker range=">=vs-2022"
 ### Memory Usage Insights
 
-[!INCLUDE [managed-types-report](../profiling/includes/managed-types-report.md)]
+[!INCLUDE [memory-usage-insights](../profiling/includes/memory-usage-insights.md)]
 ::: moniker-end
 
 ### Change (Diff) reports
+
+[!INCLUDE [change-diff-report](../profiling/includes/change-diff-report.md)]
 
 - Choose the change link in a cell of the summary table of the **Memory Usage** tab on the **Diagnostic Tools** window.
 

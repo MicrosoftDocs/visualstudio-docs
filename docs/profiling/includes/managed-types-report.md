@@ -14,13 +14,13 @@ title: Managed Types report
 
  ::: moniker range="<=vs-2019"
 
- ![Screenshot of managed type report.](../profiling/media/vs-2019/dbgdiag-mem-managed-types-report-paths-to-root.png)
+ ![Screenshot of managed type report.](../media/vs-2019/dbgdiag-mem-managed-types-report-paths-to-root.png)
 
  ::: moniker-end
 
  ::: moniker range=">=vs-2022"
 
-[ ![Screenshot of managed type report.](../profiling/media/vs-2022/dbgdiag-mem-managed-types-report-paths-to-root.png "Managed type report")](../profiling/media/vs-2022/dbgdiag-mem-managed-types-report-paths-to-root.png#lightbox) 
+[ ![Screenshot of managed type report.](../media/vs-2022/dbgdiag-mem-managed-types-report-paths-to-root.png "Managed type report")](../profiling/media/vs-2022/dbgdiag-mem-managed-types-report-paths-to-root.png#lightbox) 
 
  ::: moniker-end
 
@@ -32,7 +32,7 @@ title: Managed Types report
 
  The **Referenced Objects** tree displays the references that are held by the type selected in the upper pane.
 
- ![Screenshot of Referenced Objects report.](../profiling/media/vs-2019/dbgdiag-mem-managed-types-report-referenced-types.png)
+ ![Screenshot of Referenced Objects report.](../media/vs-2019/dbgdiag-mem-managed-types-report-referenced-types.png)
 
  ::: moniker-end
 
@@ -40,7 +40,7 @@ title: Managed Types report
 
  ::: moniker range=">=vs-2022"
 
- ![Screenshot of Referenced Objects report.](../profiling/media/vs-2022/dbgdiag-mem-managed-types-report-referenced-types.png)
+ ![Screenshot of Referenced Objects report.](../media/vs-2022/dbgdiag-mem-managed-types-report-referenced-types.png)
 
  ::: moniker-end
 
@@ -48,13 +48,13 @@ title: Managed Types report
 
  ::: moniker range="<=vs-2019"
 
- ![Screenshot of the Instances view in the Memory Usage tool.](../profiling/media/vs-2019/dbgdiag-mem-managed-types-report-instances.png)
+ ![Screenshot of the Instances view in the Memory Usage tool.](../media/vs-2019/dbgdiag-mem-managed-types-report-instances.png)
 
  ::: moniker-end
 
  ::: moniker range=">=vs-2022"
 
- [![Screenshot of the Instances view in the Memory Usage tool.](../profiling/media/vs-2022/dbgdiag-mem-managed-types-report-instances.png "Instances view in the Memory Usage tool")](../profiling/media/vs-2022/dbgdiag-mem-managed-types-report-instances.png#lightbox)
+ [![Screenshot of the Instances view in the Memory Usage tool.](../media/vs-2022/dbgdiag-mem-managed-types-report-instances.png "Instances view in the Memory Usage tool")](../profiling/media/vs-2022/dbgdiag-mem-managed-types-report-instances.png#lightbox)
 
  ::: moniker-end
 
