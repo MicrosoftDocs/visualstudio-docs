@@ -1,26 +1,22 @@
 ---
 description: "Creates an enumerator for the base classes of this class."
-title: IDebugClassField::EnumBaseClasses | Microsoft Docs
+title: IDebugClassField::EnumBaseClasses
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugClassField::EnumBaseClasses
 helpviewer_keywords:
 - IDebugClassField::EnumBaseClasses method
-ms.assetid: 78749674-ef75-46d3-a1f4-ff33afd90e32
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugClassField::EnumBaseClasses
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an enumerator for the base classes of this class.
 
 ## Syntax

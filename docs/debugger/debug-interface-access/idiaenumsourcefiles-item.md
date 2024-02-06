@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a source file by means of an index."
-title: "IDiaEnumSourceFiles::Item | Microsoft Docs"
+title: "IDiaEnumSourceFiles::Item"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumSourceFiles::Item method"
-ms.assetid: 3c19d7ed-0232-4b0e-9b10-f33ed9e0c93b
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaEnumSourceFiles::Item
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a source file by means of an index.
 
 ## Syntax

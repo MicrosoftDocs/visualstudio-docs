@@ -1,21 +1,17 @@
 ---
-title: Contributing to the Add New Item Dialog Box | Microsoft Docs
+title: Contributing to the Add New Item Dialog Box
 description: Learn how to contribute to the Add New Item dialog box in Visual Studio by registering Add Item templates under the Projects registry subkey.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - Add New Item dialog box, contributing to
-ms.assetid: b2e53175-9372-4d17-8c2b-9264c9e51e9c
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Contribute to the Add New Item dialog box
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A project subtype can provide a complete new directory of items for the **Add New Item** dialog box by registering **Add Item** templates under the **Projects** registry subkey.
 
 ## Register Add New Item templates
@@ -39,6 +35,6 @@ A project subtype can provide a complete new directory of items for the **Add Ne
 
  You can filter items in the **Add New Item** dialog box by implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg> interface on the project subtype aggregator object. For example, a project subtype that implements a database project by aggregating a Visual Studio project, can filter the Visual Studio specific items from the **Add New Item** dialog box by implementing filtering, and in turn, can add database project-specific items by supporting `VSHPROPID_ AddItemTemplatesGuid` in <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetProperty%2A>. For more information on filtering and adding items to the **Add New Item** dialog box, see [Add items to the Add New Item dialog box](../../extensibility/internals/adding-items-to-the-add-new-item-dialog-boxes.md).
 
-## See also
+## Related content
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg2>
 - [CATIDs for objects that are typically used to extend projects](../../extensibility/internals/catids-for-objects-that-are-typically-used-to-extend-projects.md)

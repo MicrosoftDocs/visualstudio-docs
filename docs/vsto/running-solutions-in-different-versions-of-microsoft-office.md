@@ -16,13 +16,9 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
 # Run solutions in different versions of Microsoft Office
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ## Run Office solutions created by using Visual Studio 2010 and above
 
@@ -54,7 +50,7 @@ ms.workload:
 
  3. Office solutions that require the Visual Studio 2005 Tools for Office Second Edition Runtime are not compatible with 64-bit versions of  Office 2013  and Office 2010. To run these solutions in the 64-bit edition of  Office 2013  or Office 2010, you must upgrade the project to Visual Studio 2010 or to a Visual Studio 2008 project that targets the 2007 Microsoft Office system.
 
-## See also
+## Related content
 - [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
 - [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)
 - [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)

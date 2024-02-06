@@ -5,17 +5,12 @@ ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - System.Activities.Statements.Parallel.UI
-ms.assetid: 0306dc3b-075a-4091-ac3a-96486fbabed5
 author: jodavis
 ms.author: jodavis
 manager: jmartens
-ms.technology: vs-workflow-designer
-ms.workload:
-- multiple
+ms.subservice: workflow-designer
 ---
 # Parallel Activity Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The <xref:System.Activities.Statements.Parallel> activity executes a collection of child activities concurrently.
 

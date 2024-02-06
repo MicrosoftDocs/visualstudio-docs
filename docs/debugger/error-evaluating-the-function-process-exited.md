@@ -1,6 +1,6 @@
 ---
 description: "Full message text: The target process exited with code 'code' while evaluating the function 'function'."
-title: "The target process exited with code &apos;code&apos; while evaluating the function &apos;function&apos; | Microsoft Docs"
+title: "The target process exited with code &apos;code&apos; while evaluating the function &apos;function&apos;"
 ms.date: "4/06/2018"
 ms.topic: "error-reference"
 f1_keywords:
@@ -8,13 +8,9 @@ f1_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Error: The target process exited with code &#39;code&#39; while evaluating the function &#39;function&#39;
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Full message text: The target process exited with code 'code' while evaluating the function 'function'.
 

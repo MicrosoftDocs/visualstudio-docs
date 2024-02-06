@@ -1,5 +1,5 @@
 ---
-title: "Class Hierarchy of Symbol Types | Microsoft Docs"
+title: "Class Hierarchy of Symbol Types"
 description: Review a list of symbol types in the class hierarchy of the Visual Studio debug interface access SDK.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -7,17 +7,13 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "symbols [DIA SDK], class hierarchies"
-ms.assetid: 0ccd6990-4654-44cd-a6f3-bdd82fe90f6c
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Class Hierarchy of Symbol Types
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following table describes the symbol types in the class hierarchy.
 
 ## Symbol Types

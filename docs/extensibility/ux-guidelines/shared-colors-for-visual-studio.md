@@ -1,19 +1,15 @@
 ---
-title: Shared Colors for Visual Studio | Microsoft Docs
+title: Shared Colors for Visual Studio
 description: Learn how to use common Visual Studio shell elements and themes to design your own custom UI that is consistent with the Visual Studio environment.
 ms.date: 04/26/2017
 ms.topic: reference
-ms.assetid: 8d11b9a0-6175-4f2e-8e7f-79daee1bfd41
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Shared colors for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When you're designing UI that uses common Visual Studio shell elements, or you'd like your interface element to be consistent with similar features, use existing token names in package definition files to choose and assign colors. This ensures that your UI stays consistent with the overall Visual Studio environment and that it updates automatically when themes are added or updated.
 
 This article describes common UI elements and the token names that they use, which you can reference when building similar UI. For specific information about how to access these color tokens, see [The VSColor Service](../../extensibility/ux-guidelines/colors-and-styling-for-visual-studio.md#BKMK_TheVSColorService).

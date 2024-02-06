@@ -1,14 +1,12 @@
 ---
-title: Find MSBuild and use its API | Microsoft Docs
-description: Learn how to ensure that programmatic builds from your application match builds done within Visual Studio or MSBuild.exe, and learn how to locate and use a consistent version on MSBuild when developing a programmatic build application on different machines.
+title: Find MSBuild and use its API
+description: Create a programmatic build app on different machines with the same MSBuild version, and ensure builds from your app match builds in Visual Studio or MSBuild.exe. 
 ms.date: 2/28/2023
-ms.topic: conceptual
+ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # Find and use a version of MSBuild
 
@@ -118,7 +116,7 @@ You cannot reference any MSBuild types (from the `Microsoft.Build` namespace) in
 
 To specify an MSBuild instance, you can select a result of `MSBuildLocator.QueryVisualStudioInstances` to pass to `MSBuildLocator.RegisterInstance` using the custom logic you need.
 
-## Next steps
+## Related content
 
 Learn about MSBuild APIs by consulting the MSBuild API Reference:
 

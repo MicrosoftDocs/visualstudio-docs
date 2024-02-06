@@ -6,13 +6,9 @@ ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Configure Visual Studio as a WIP-exempt app
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [Windows Information Protection](/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) (WIP) helps to protect enterprise data from leaking through apps like email, social media, and the public cloud, which are outside of the enterprise’s control. WIP helps to protect against accidental data leakage on enterprise-owned devices and personal devices, without requiring changes to your environment or other apps.
 
@@ -32,6 +28,6 @@ Because Visual Studio includes multiple binaries, [create an WIP-exempt AppLocke
 
 To specify where Visual Studio can access enterprise data on your network, follow these [steps to define where your protected apps can find and send enterprise data](/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure#choose-where-apps-can-access-enterprise-data). To stop Windows from blocking connections to cloud resources through an IP address, make sure to add the /\*AppCompat\*/ string to the setting.
 
-## See also
+## Related content
 
 - [App behavior with WIP](/windows/security/information-protection/windows-information-protection/app-behavior-with-wip)

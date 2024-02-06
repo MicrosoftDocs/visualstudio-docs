@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a stack frame enumerator for a specific platform type."
-title: "IDiaStackWalker::getEnumFrames2 | Microsoft Docs"
+title: "IDiaStackWalker::getEnumFrames2"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaStackWalker2::getEnumFrames2 method"
-ms.assetid: 73196d3f-112c-4b3a-997b-7c6b815d4afc
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaStackWalker::getEnumFrames2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a stack frame enumerator for a specific platform type.
 
 ## Syntax

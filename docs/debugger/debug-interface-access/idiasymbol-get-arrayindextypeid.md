@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the array index type identifier of the symbol."
-title: "IDiaSymbol::get_arrayIndexTypeId | Microsoft Docs"
+title: "IDiaSymbol::get_arrayIndexTypeId"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_arrayIndexTypeId method"
-ms.assetid: 124f86e2-6f66-4541-87c3-799f435b731e
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_arrayIndexTypeId
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the array index type identifier of the symbol.
 
 ## Syntax

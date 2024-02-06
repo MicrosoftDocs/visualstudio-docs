@@ -4,13 +4,11 @@ description: Additional information and best practices for submitting performanc
 author: madskristensen
 ms.author: madsk
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.date: 11/19/2019
 ms.topic: conceptual
 ---
-# How to increase the chances of a performance issue being fixed
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Increase the chances of a performance issue being fixed
 
 The "[Report a problem](./how-to-report-a-problem-with-visual-studio.md?view=vs-2019&preserve-view=true)" tool is widely used by Visual Studio users to report a range of problems. The Visual Studio team spots crash and slowness trends in user feedback and addresses issues impacting a broad swath of users. The more actionable a specific feedback ticket is, the more likely it will be diagnosed and resolved quickly by the product team. This document describes the best practices while reporting crash or slowness issues to make them more actionable.
 
@@ -258,7 +256,7 @@ What makes these types of issues most actionable is to provide additional logs t
 2. Download the Microsoft Visual Studio and .NET Framework Log Collection Tool [here](https://www.microsoft.com/download/details.aspx?id=12493).
 3. Run the tool. This outputs a zip file to **%temp%/vslogs.zip**. Please attach that file to your feedback.
 
-## See also
+## Related content
 
 * [Report a problem with Visual Studio for Mac](/visualstudio/mac/report-a-problem)
 * [Report a problem with C++](/cpp/how-to-report-a-problem-with-the-visual-cpp-toolset)

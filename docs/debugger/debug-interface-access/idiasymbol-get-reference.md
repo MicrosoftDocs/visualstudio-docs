@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a flag that specifies whether a pointer type is a reference."
-title: "IDiaSymbol::get_reference | Microsoft Docs"
+title: "IDiaSymbol::get_reference"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_reference method"
-ms.assetid: 6a97cb74-6a14-41fd-8e24-2a42d7a1e529
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_reference
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that specifies whether a pointer type is a reference.
 
 ## Syntax

@@ -1,26 +1,22 @@
 ---
 description: "Gets the count of elements in the array."
-title: IDebugArrayObject::GetCount | Microsoft Docs
+title: IDebugArrayObject::GetCount
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugArrayObject::GetCount
 helpviewer_keywords:
 - IDebugArrayObject::GetCount method
-ms.assetid: 7931f3f7-033c-4bf8-8abd-95183952ebb0
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugArrayObject::GetCount
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the count of elements in the array.
 
 ## Syntax

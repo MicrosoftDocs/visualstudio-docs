@@ -6,7 +6,6 @@ author: ghogen
 ms.author: ghogen
 manager: dominicn
 ms.date: 06/30/2022
-ms.assetid: 49917483-28AA-4598-A847-71F1F2E0DCB5
 ---
 # Version control & source control with Git in Visual Studio for Mac
 
@@ -28,7 +27,6 @@ To learn more about the Git tooling in Visual Studio for Mac, the following arti
 * [Setting Up a Git Repository](set-up-git-repository.md)
 * [Working with Git](working-with-git.md)
 ::: moniker-end
-
 
 ## See also
 

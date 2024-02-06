@@ -6,16 +6,12 @@ ms.topic: reference
 author: mikadumont
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 dev_langs:
   - CSharp
-ms.workload: 
-  - "dotnet"
 monikerRange: vs-2019
 ---
 # Move type to namespace
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This refactoring applies to:
 

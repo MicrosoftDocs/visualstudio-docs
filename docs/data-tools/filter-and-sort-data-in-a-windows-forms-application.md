@@ -1,6 +1,6 @@
 ---
-title: Filter and sort data in a Windows Forms application
-description: Filter and sort data in a Windows Forms application. Set the Filter property to a string expression that returns the desired records.
+title: Filter and sort data in a Windows Forms application (.NET Framework)
+description: In .NET Framework application development with Visual Studio, filter and sort data in a Windows Forms application. Set the Filter property to a string expression that returns the desired records.
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -14,17 +14,12 @@ helpviewer_keywords:
 - data views, filtering
 - sorting datasets, using data views
 - dataset filtering, using data views
-ms.assetid: f4f100f1-776d-46dc-b2fd-5b35b98d9561
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# Filter and sort data in a Windows Forms application
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Filter and sort data in a .NET Framework Windows Forms application
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -57,6 +52,6 @@ You sort data by setting the <xref:System.Windows.Forms.BindingSource.Sort%2A> p
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDisplaying/VB/Form1.vb" id="Snippet7":::
      ---
 
-## See also
+## Related content
 
 - [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)

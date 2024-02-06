@@ -1,19 +1,14 @@
 ---
-title: Colors and Styling for Visual Studio | Microsoft Docs
+title: Colors and Styling for Visual Studio
 description: Learn how the Visual Studio User Experience uses color as a communication tool, instead of for purely aesthetic reasons.
 ms.date: 07/31/2017
 ms.topic: reference
-ms.assetid: 0e384ea1-4d9e-4307-8884-6e183900732c
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Colors and Styling for Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ## Use color in Visual Studio
 
@@ -267,7 +262,6 @@ protected override void Dispose(bool disposing)
 
 ## <a name="BKMK_ChoosingHighContrastColors"></a> Choosing High Contrast colors
 
-### Overview
 
 Windows uses several high-contrast system-level themes that increase the color contrast of text, backgrounds, and images, making elements appear more distinct on the screen. For accessibility reasons, it is important that Visual Studio interface elements respond correctly when users switch to a High Contrast theme.
 
@@ -330,7 +324,6 @@ Many common UI elements already have High Contrast colors defined. You can refer
 
 ## <a name="BKMK_ExposingColorsForEndUsers"></a> Exposing colors for end users
 
-### Overview
 
 Sometimes you'll want to allow the end user to customize your UI, like when you're creating a code editor or design surface. The most common way to do this is by using the **Tools &gt; Options** dialog. Unless you have highly specialized UI that requires special controls, the easiest way to present the customization is through the **Fonts and Colors** page within the **Environment** section of the dialog. For each element that you expose for customization, the user can choose to change the foreground color, background color, or both.
 

@@ -7,14 +7,10 @@ helpviewer_keywords:
   - "IntelliTest, Exploration bounds"
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
-ms.workload:
-  - "multiple"
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Exploration bounds
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **PexSettingsAttributeBase** is the abstract base class for settings bounds as attributes. See [Settings Waterfall](settings-waterfall.md) for an overview of settings in IntelliTest.
 

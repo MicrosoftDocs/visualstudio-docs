@@ -1,24 +1,20 @@
 ---
 description: "Retrieves the expression evaluator metric file given the name or the metric."
-title: IDebugSettingsCallback2::GetEEMetricFile | Microsoft Docs
+title: IDebugSettingsCallback2::GetEEMetricFile
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugSettingsCallback2::GetEEMetricFile
-ms.assetid: 3a0bf9e5-bbd2-4d15-840d-8244732787fc
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugSettingsCallback2::GetEEMetricFile
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the expression evaluator metric file given the name or the metric.
 
 ## Syntax

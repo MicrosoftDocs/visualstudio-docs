@@ -1,5 +1,5 @@
 ---
-title: Unzip Task | Microsoft Docs
+title: Unzip Task
 description: Learn about parameters and usage of the MSBuild Unzip task, which unzips a .zip archive to a specified location.
 ms.date: 11/04/2016
 ms.reviewer: ''
@@ -12,18 +12,14 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - Unzip task [MSBuild]
 - MSBuild, Unzip task
-ms.assetid: 916bb2e3-3017-4828-ae27-c0b5c99bbb48
 caps.latest.revision: 16
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # Unzip task
 

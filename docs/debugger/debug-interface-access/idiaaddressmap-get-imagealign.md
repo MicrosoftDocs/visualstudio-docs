@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the current image alignment."
-title: "IDiaAddressMap::get_imageAlign | Microsoft Docs"
+title: "IDiaAddressMap::get_imageAlign"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaAddressMap::get_imageAlign method"
-ms.assetid: f1ba8071-669c-4cf7-9ac0-02f26d99f366
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaAddressMap::get_imageAlign
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the current image alignment.
 
 ## Syntax

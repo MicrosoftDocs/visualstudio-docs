@@ -1,26 +1,22 @@
 ---
 description: "Gets the displayable name of the document that contains this document context."
-title: IDebugDocumentContext2::GetName | Microsoft Docs
+title: IDebugDocumentContext2::GetName
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDocumentContext2::GetName
 helpviewer_keywords:
 - IDebugDocumentContext2::GetName
-ms.assetid: 546c5b2e-f166-4edb-9e61-57d797ca98a1
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugDocumentContext2::GetName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the displayable name of the document that contains this document context.
 
 ## Syntax

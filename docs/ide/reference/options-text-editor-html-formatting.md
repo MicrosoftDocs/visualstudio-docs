@@ -2,19 +2,15 @@
 title: Options, Text Editor, HTML (Web Forms), Formatting
 description: Learn how to use the Formatting page in the HTML section to set HTML project options for formatting code in the Code Editor.
 ms.date: 1/15/2019
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.HTML.Format
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.workload:
-- multiple
 ---
 # Options, Text Editor, HTML (Web Forms), Formatting
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Formatting** options page to set HTML project options for formatting code in the Code Editor. To access this page, on the menu bar, choose **Tools** > **Options**, and then expand **Text Editor** > **HTML (Web Forms)** > **Formatting**.
 

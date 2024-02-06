@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a debug stream by means of an index or name."
-title: "IDiaEnumDebugStreams::Item | Microsoft Docs"
+title: "IDiaEnumDebugStreams::Item"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumDebugStreams::Item method"
-ms.assetid: 6b388fe1-eabc-4720-9d59-dc09b0ceaeac
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaEnumDebugStreams::Item
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a debug stream by means of an index or name.
 
 ## Syntax

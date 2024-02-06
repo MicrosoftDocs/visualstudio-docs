@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the symbol that contains the specified virtual address."
-title: "IDiaStackWalkHelper::symbolForVA | Microsoft Docs"
+title: "IDiaStackWalkHelper::symbolForVA"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaStackWalkHelper::symbolForVA method"
-ms.assetid: 8dd9455d-d44c-4dd6-a0aa-31131cbea2aa
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaStackWalkHelper::symbolForVA
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the symbol that contains the specified virtual address.
 
 ## Syntax

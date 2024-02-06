@@ -1,26 +1,22 @@
 ---
 description: "This method gets the class field type representing a fully qualified class name."
-title: IDebugSymbolProvider::GetClassTypeByName | Microsoft Docs
+title: IDebugSymbolProvider::GetClassTypeByName
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugSymbolProvider::GetClassTypeByName
 helpviewer_keywords:
 - IDebugSymbolProvider::GetClassTypeByName method
-ms.assetid: 2c748909-51dc-49b7-b193-19f96fca1138
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugSymbolProvider::GetClassTypeByName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the class field type representing a fully qualified class name.
 
 ## Syntax

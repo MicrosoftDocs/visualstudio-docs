@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically sort data in worksheets"
+title: "Programmatically sort data in worksheets"
 description: Learn how you can use Visual Studio to programmatically sort data that is contained in worksheet ranges and lists at run time.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -14,13 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Programmatically sort data in worksheets
+# Programmatically sort data in worksheets
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can sort data that is contained in worksheet ranges and lists at run time. The following code sorts a multi-column range named `Fruits` by the data in the first column, and then by the data in the second column.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
@@ -75,7 +72,7 @@ ms.workload:
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb" id="Snippet24":::
      ---
 
-## See also
+## Related content
 - [Work with worksheets](../vsto/working-with-worksheets.md)
 - [How to: Programmatically automatically fill ranges with incrementally changing data](../vsto/how-to-programmatically-automatically-fill-ranges-with-incrementally-changing-data.md)
 - [How to: Programmatically refer to worksheet ranges in code](../vsto/how-to-programmatically-refer-to-worksheet-ranges-in-code.md)

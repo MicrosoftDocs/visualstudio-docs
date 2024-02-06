@@ -1,26 +1,22 @@
 ---
 description: "Retrieves a specified number of custom attributes in an enumeration sequence."
-title: IEnumDebugCustomAttributes::Next | Microsoft Docs
+title: IEnumDebugCustomAttributes::Next
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumCustomAttributes::Next
 helpviewer_keywords:
 - IEnumDebugCustomAttributes::Next
-ms.assetid: e36f856b-2619-42d1-b73e-4f2390fc22bd
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugCustomAttributes::Next
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a specified number of custom attributes in an enumeration sequence.
 
 ## Syntax

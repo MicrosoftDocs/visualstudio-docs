@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically print documents"
+title: "Programmatically print documents"
 description: Learn how you can print an entire Microsoft Word document, or part of a document, to your default printer.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -12,13 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Programmatically print documents
+# Programmatically print documents
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can print an entire Microsoft Office Word document, or part of a document, to your default printer.
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]
@@ -71,5 +68,5 @@ ms.workload:
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb" id="Snippet12":::
      ---
 
-## See also
+## Related content
 - [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)

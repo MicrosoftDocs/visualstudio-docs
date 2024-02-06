@@ -1,24 +1,20 @@
 ---
 description: "Describes the computer on which the debugger is running."
-title: COMPUTER_INFO | Microsoft Docs
+title: COMPUTER_INFO
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - COMPUTER_INFO structure
-ms.assetid: 943085b2-f165-462d-9a4e-2086f0cdfff4
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # COMPUTER_INFO
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the computer on which the debugger is running.
 
 ## Syntax

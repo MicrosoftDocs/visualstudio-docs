@@ -6,17 +6,13 @@ ms.topic: "ui-reference"
 helpviewer_keywords:
   - "reference, Spy++"
   - "Spy++ reference"
-ms.assetid: 2cf41bc9-55f3-4bb6-b28d-08c75215debd
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Spy++ reference overview
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 See the sections listed below for descriptions of each Spy++ menu and dialog box:
 
 ## In this section

@@ -1,6 +1,6 @@
 ---
-title: Data bind custom objects
-description: Bind objects as data sources in Visual Studio. Use design-time tools for working with custom objects as the data source in your application.
+title: Data bind custom objects in .NET Framework applications
+description: Bind objects as ADO.NET data sources in Visual Studio. Use design-time tools for working with custom objects as the data source in your application.
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -11,17 +11,12 @@ helpviewer_keywords:
 - data [Visual Studio], binding to objects
 - object binding
 - binding, to objects
-ms.assetid: ed743ce6-73af-45e5-a8ff-045eddaccc86
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# Bind objects as data sources in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Bind objects as data sources in .NET Framework applications using Visual Studio
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -171,6 +166,6 @@ The following example shows how to use the `TableAdapter.Insert` DBDirect method
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form3.vb" id="Snippet23":::
 ---
 
-## See also
+## Related content
 
 - [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)

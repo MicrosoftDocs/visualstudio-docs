@@ -1,22 +1,18 @@
 ---
-title: Open Messages View from Find Window | Microsoft Docs
+title: Open Messages View from Find Window
 description: Use the Find Window dialog box in Spy++ to select a target window, and then open a Messages view for that window.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 
   - Messages View in Spy++, opening
   - opening Messages View in Spy++
-ms.assetid: 601a193e-432a-417b-9406-6fec9e401264
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
-# How to: Open Messages View from Find Window
+# Open Messages View from Find Window
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You might find it convenient to use the **Find Window** dialog box to select a target window, and then open a Messages view of that window.
 
 ### To open a Messages view window using the Find Window dialog box

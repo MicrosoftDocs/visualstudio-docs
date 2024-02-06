@@ -1,20 +1,15 @@
 ---
 title: Automatically apply product keys
-description: Learn how to apply product keys programmatically when you deploy Visual Studio.
+description: Apply your product key programmatically during or after installation as part of a script to automate deployment of Visual Studio.
 ms.date: 7/7/2023
 ms.topic: conceptual
-ms.assetid: d79260be-6234-4fd3-89b5-a9756b4a93c1
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.workload:
-- multiple
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ---
 # Automatically apply product keys when deploying Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can apply your product key programmatically as part of a script that is used to automate the deployment of Visual Studio. You can set a product key on a device programmatically either during an installation of Visual Studio or after an installation completes.
 
@@ -137,7 +132,7 @@ If `StorePID.exe` successfully applies the product key, it returns an `%ERRORLEV
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 
 * [Install Visual Studio](../install/install-visual-studio.md)
 * [Create an offline installation of Visual Studio](../install/create-an-offline-installation-of-visual-studio.md)

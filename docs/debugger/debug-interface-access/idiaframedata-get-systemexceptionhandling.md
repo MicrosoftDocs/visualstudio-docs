@@ -1,23 +1,19 @@
 ---
 description: "IDiaFrameData::get_systemExceptionHandling retrieves a flag that indicates whether system exception handling is in effect."
-title: "IDiaFrameData::get_systemExceptionHandling | Microsoft Docs"
+title: "IDiaFrameData::get_systemExceptionHandling"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaFrameData::get_systemExceptionHandling method"
-ms.assetid: e8df1972-913c-446c-9779-775575b0caa9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaFrameData::get_systemExceptionHandling
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that indicates whether system exception handling is in effect.
 
 ## Syntax

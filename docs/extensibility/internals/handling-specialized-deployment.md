@@ -1,22 +1,18 @@
 ---
-title: Handling Specialized Deployment | Microsoft Docs
+title: Handling Specialized Deployment
 description: Learn how to handle the specialized deployment of an application project in Visual Studio. For example, a deployment to a Web server or a device.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - deploying applications [Visual Studio SDK]
 - specialized deployment
-ms.assetid: de068b6a-e806-45f0-9dec-2458fbb486f7
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Handle specialized deployment
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A deployment is an optional operation for projects. A Web project, for example, supports a deployment to let a project update a Web server. Likewise, a **Smart Device** project supports a deployment to copy a built application to the target device. Project subtypes can supply specialized deployment behavior by implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg> interface. This interface defines a complete set of the deployment operations:
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg.AdviseDeployStatusCallback%2A>
@@ -311,5 +307,5 @@ A deployment is an optional operation for projects. A Web project, for example, 
 > [!NOTE]
 > All code examples provided in this topic are parts of a larger example in [VSSDK samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples).
 
-## See also
+## Related content
 - [Project subtypes](../../extensibility/internals/project-subtypes.md)

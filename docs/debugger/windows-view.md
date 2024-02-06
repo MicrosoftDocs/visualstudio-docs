@@ -1,5 +1,5 @@
 ---
-title: "Windows View | Microsoft Docs"
+title: "Windows View"
 description: Windows View shows a tree of all windows and controls. Use it as a starting point to obtain information about windows of interest.
 ms.date: "12/21/2022"
 ms.topic: "conceptual"
@@ -7,17 +7,13 @@ f1_keywords:
   - "vs.externaltools.spyplus.windowsview"
 helpviewer_keywords:
   - "Windows view"
-ms.assetid: 154786ce-c803-4bfb-8198-f7962a900363
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Windows View
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When you first open Spy++, Windows view displays a tree of all windows and controls in the system. The window handle and class name are shown. The current desktop window is at the top of the tree. All other windows are children of the desktop, and are listed according to the standard window hierarchy. Sibling windows appear in expansible lists indented below their parents.
 
  The figure below shows a typical Spy++ Windows view with the top node expanded.

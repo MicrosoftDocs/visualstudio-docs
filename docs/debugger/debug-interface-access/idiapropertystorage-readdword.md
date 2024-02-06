@@ -1,23 +1,19 @@
 ---
 description: "Reads DWORD values in a property set."
-title: "IDiaPropertyStorage::ReadDWORD | Microsoft Docs"
+title: "IDiaPropertyStorage::ReadDWORD"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaPropertyStorage::ReadDWORD"
-ms.assetid: 5f4c034e-a9d3-4560-94b5-ede524741439
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaPropertyStorage::ReadDWORD
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Reads `DWORD` values in a property set.
 
 ## Syntax

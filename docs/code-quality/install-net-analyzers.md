@@ -1,23 +1,18 @@
 ---
 title: Enable or install first-party .NET analyzers
 ms.date: 09/14/2023
-description: Learn how to enable first-party .NET analyzers from the .NET SDK or install these analyzers as a NuGet package.
-ms.custom: devdivchpfy22
+description: Enable first-party .NET analyzers by using the .NET SDK in Visual Studio or install a first-party analyzer as a NuGet package.
 ms.topic: how-to
 helpviewer_keywords:
   - .NET analyzers
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-code-analysis
-ms.workload:
-  - dotnet
+ms.subservice: code-analysis
 ---
 # Enable or install first-party .NET analyzers
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-## Overview
 
 .NET compiler platform (Roslyn) analyzers inspect your C# or Visual Basic code for code quality and code style issues. The first-party .NET analyzers are **target-platform agnostic**. That is, your project doesn't need to target a specific .NET platform. The analyzers work for projects that target `net5.0` and earlier .NET versions, such as `netcoreapp`, `netstandard`, and `net472`.
 
@@ -37,7 +32,7 @@ If you are using legacy FxCop analyzers or FxCop analyzers and want to use the .
 - [Migrate from legacy analysis to .NET analyzers](migrate-from-legacy-analysis-to-net-analyzers.md)
 - [Migrate from FxCop analyzers to .NET analyzers](migrate-from-fxcop-analyzers-to-net-analyzers.md)
 
-## See also
+## Related content
 
 - [Overview of code analyzers in Visual Studio](roslyn-analyzers-overview.md)
 - [Use code analyzers in Visual Studio](use-roslyn-analyzers.md)

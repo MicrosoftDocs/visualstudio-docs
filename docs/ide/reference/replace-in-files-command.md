@@ -9,17 +9,13 @@ helpviewer_keywords:
 - Edit.ReplaceInFiles command
 - Replace In Files command
 - ReplaceInFiles command
-ms.assetid: f116066a-4f65-4f2c-94ef-12cbd8cfb598
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Replace In Files Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Replaces text in files using a subset of the options available on the **Replace in Files** tab of the **Find and Replace** window.
 
 ## Syntax

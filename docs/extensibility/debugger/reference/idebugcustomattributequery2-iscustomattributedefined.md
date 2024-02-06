@@ -1,26 +1,22 @@
 ---
 description: "Determines whether a custom attribute exists by name."
-title: IDebugCustomAttributeQuery2::IsCustomAttributeDefined | Microsoft Docs
+title: IDebugCustomAttributeQuery2::IsCustomAttributeDefined
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCustomAttributeQuery2::IsCustomAttributeDefined
 helpviewer_keywords:
 - IDebugCustomAttributeQuery2::IsCustomAttributeDefined
-ms.assetid: 5c07cc52-6d2d-42df-9d76-9f1f769641db
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugCustomAttributeQuery2::IsCustomAttributeDefined
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines whether a custom attribute exists by name.
 
 ## Syntax

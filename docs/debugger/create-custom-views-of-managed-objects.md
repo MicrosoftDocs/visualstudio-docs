@@ -1,5 +1,5 @@
 ---
-title: "Create custom views of .NET objects | Microsoft Docs"
+title: "Create custom views of .NET objects"
 description: Visual Studio debugger displays data in its variable windows. Learn to customize how data types—including custom types—are displayed. 
 ms.date: "08/08/2023"
 ms.topic: "conceptual"
@@ -18,17 +18,13 @@ helpviewer_keywords:
   - "mcee_cs.dat file"
   - "debugger, expanding data types"
   - "mcee_mc.dat file"
-ms.assetid: 9969e9b2-9008-4729-8a14-0d6deaa61576
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "dotnet"
+ms.subservice: debug-diagnostics
 ---
 # Create custom views of .NET objects (C#, Visual Basic, F#, C++/CLI)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can customize the way Visual Studio displays data types in debugger variable windows.
 
 ## Attributes
@@ -44,7 +40,7 @@ You can write a visualizer to display any .NET data type. For more information, 
 > [!NOTE]
 > To create a visualizer for C/C++ objects, see [UIVisualizer element](../debugger/create-custom-views-of-native-objects.md#BKMK_UIVisualizer) within the [Natvis](../debugger/create-custom-views-of-native-objects.md) documentation. Also, see the [C/C++ custom visualizer sample](https://github.com/Microsoft/ConcordExtensibilitySamples/tree/master/CppCustomVisualizer) or the [SQLite native Debugger Visualizer](https://github.com/Microsoft/VSSDK-Extensibility-Samples/tree/master/SqliteVisualizer) sample.
 
-## See also
+## Related content
 
 - [Tell the debugger what to show using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md)
 - [Tell the debugger what type to show using DebuggerTypeProxy Attribute](../debugger/using-debuggertypeproxy-attribute.md)

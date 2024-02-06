@@ -3,15 +3,12 @@ title: Accessing private Azure clouds
 description: Learn how to access private cloud resources by using Visual Studio.
 author: ghogen
 manager: jmartens
-ms.technology: vs-azure
-ms.workload: azure-vs
+ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 11/13/2017
 ms.author: ghogen
 ---
 # Accessing private Azure clouds with Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 By default, Visual Studio supports Azure cloud REST endpoints. In this article, you learn how to use your private cloud's certificate to access and interact with the private cloud from Visual Studio.
 

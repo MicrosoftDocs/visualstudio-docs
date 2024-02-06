@@ -1,26 +1,22 @@
 ---
 description: "Specifies the name type of files to retrieve."
-title: GETNAME_TYPE | Microsoft Docs
+title: GETNAME_TYPE
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - GETNAME_TYPE
 helpviewer_keywords:
 - GETNAME_TYPE enumeration
-ms.assetid: 2f9f1679-e9e8-4c9c-ac90-aa07bfe69914
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # GETNAME_TYPE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the name type of files to retrieve.
 
 ## Syntax

@@ -7,17 +7,12 @@ f1_keywords:
 - vs.codeanalysis.policyfailures
 helpviewer_keywords:
 - policy errors, code analysis
-ms.assetid: d1f221cd-68c0-4277-9397-b76ad0dbae77
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-code-analysis
-ms.workload:
-- multiple
+ms.subservice: code-analysis
 ---
 # Code Analysis Policy Errors
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The following errors occur if the code analysis policy is not satisfied at check-in:
 

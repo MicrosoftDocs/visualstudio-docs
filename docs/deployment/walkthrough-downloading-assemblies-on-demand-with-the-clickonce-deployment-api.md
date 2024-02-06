@@ -11,17 +11,13 @@ helpviewer_keywords:
   - "assemblies, downloading [ClickOnce]"
   - "ClickOnce deployment, on-demand download"
   - "on-demand assemblies, ClickOnce"
-ms.assetid: d20e2789-8621-4806-b5b7-841122da1456
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+ms.subservice: deployment
 ---
 # Walkthrough: Download assemblies on demand with the ClickOnce deployment API
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 By default, all of the assemblies included in a ClickOnce application are downloaded when the application is first run. However, you may have parts of your application that are used by a small set of your users. In this case, you want to download an assembly only when you create one of its types. The following walkthrough demonstrates how to mark certain assemblies in your application as "optional", and how to download them by using classes in the <xref:System.Deployment.Application> namespace when the common language runtime (CLR) demands them.
 
  [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]
@@ -140,5 +136,5 @@ By default, all of the assemblies included in a ClickOnce application are downlo
 
 3. When your main form appears, press the <xref:System.Windows.Forms.Button>. You should see a string in a message box window that reads "Hello, World!".
 
-## See also
+## Related content
 - <xref:System.Deployment.Application.ApplicationDeployment>

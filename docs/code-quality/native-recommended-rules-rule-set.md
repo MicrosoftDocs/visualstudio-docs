@@ -6,13 +6,9 @@ ms.topic: reference
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-code-analysis
-ms.workload:
-- multiple
+ms.subservice: code-analysis
 ---
 # Native Recommended Rules rule set
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Native Recommended Rules focus on the most critical and common problems in native code, including potential security holes and application crashes. This rule set includes all of the rules in the [Native Minimum Rules](native-minimum-rules-rule-set.md) rule set.
 

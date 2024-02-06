@@ -1,19 +1,14 @@
 ---
 title: Create a unit test project
 description: Learn how to create a unit test project. The test project can be in the same solution as the production code, or it can be in a separate solution.
-ms.custom: devdivchpfy22
 ms.date: 02/22/2023
 ms.topic: how-to
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
-ms.workload: 
-  - multiple
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Create a unit test project
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Unit tests often mirror the structure of the code under test. For example, a unit test project would be created for each code project in the product. The test project can be in the same solution as the production code, or it can be in a separate solution. You can have multiple unit test projects in a solution.
 
@@ -45,18 +40,9 @@ Unit tests often mirror the structure of the code under test. For example, a uni
 
    If the code that you want to test is in another location, see [Managing references in a project](../ide/managing-references-in-a-project.md) for information about adding a reference.
 
-## Next steps
-
-See one of the following sections:
-
-**Writing unit tests**
+## Related content
 
 - [Unit test your code](../test/unit-test-your-code.md)
-
 - [Writing unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
-
 - [Use the MSTest framework in unit tests](using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md)
-
-**Running unit tests**
-
 - [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)

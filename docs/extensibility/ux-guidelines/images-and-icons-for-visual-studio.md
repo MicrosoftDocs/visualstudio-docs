@@ -1,19 +1,15 @@
 ---
-title: Images and Icons for Visual Studio | Microsoft Docs
+title: Images and Icons for Visual Studio
 description: Learn about the design concepts used to create the images and icons for Visual Studio. 
 ms.date: 04/26/2017
 ms.topic: reference
-ms.assetid: f410325e-9cf2-4f39-b6d7-b672121c2691
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Images and Icons for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## <a name="BKMK_ImageUseInVisualStudio"></a> Image use in Visual Studio
  Before creating artwork, consider making use of the 1,000+ images in the [Visual Studio Image Library](https://www.microsoft.com/download/details.aspx?id=35825).
 
@@ -34,7 +30,6 @@ ms.workload:
 
 ## <a name="BKMK_IconDesign"></a> Icon design
 
-### Overview
  Visual Studio uses modern-style icons, which have clean geometry and a 50/50 balance of positive/negative (light/dark), and use direct, understandable metaphors. Crucial icon design points center around clarity, simplification, and context.
 
 - **Clarity:** focus on the core metaphor that gives an icon its meaning and individuality.
@@ -234,7 +229,6 @@ ms.workload:
 
 ## <a name="BKMK_UsingColorInImages"></a> Using color in images
 
-### Overview
  Icons in Visual Studio are primarily monochromatic. Color is reserved to convey specific information and never for decoration. Color is used:
 
 - to indicate an action

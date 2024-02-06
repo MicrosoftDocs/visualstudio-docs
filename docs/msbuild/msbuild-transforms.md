@@ -1,18 +1,15 @@
 ---
-title: MSBuild Transforms | Microsoft Docs
-description: Learn about how MSBuild uses transforms, one-to-one conversions of one item list to another, to build projects more efficiently.
+title: Use MSBuild transforms to build projects
+description: Learn how MSBuild uses transforms, one-to-one conversions of one item list to another, to build projects more efficiently.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, transforms
 - transforms [MSBuild]
-ms.assetid: d0bcfc3c-14fa-455e-805c-63ccffa4a3bf
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # MSBuild transforms
 
@@ -104,7 +101,7 @@ relativedir: sub1\sub2\sub3\
 extension: .xsd
 ```
 
-## See also
+## Related content
 
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)
 - [MSBuild reference](../msbuild/msbuild-reference.md)

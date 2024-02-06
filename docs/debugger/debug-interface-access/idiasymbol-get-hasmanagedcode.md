@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a flag indicating whether the module contains managed code."
-title: "IDiaSymbol::get_hasManagedCode | Microsoft Docs"
+title: "IDiaSymbol::get_hasManagedCode"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_hasManagedCode method"
-ms.assetid: e40f82f5-88fe-4a9b-b594-3605f42773ec
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "dotnet"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_hasManagedCode
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag indicating whether the module contains managed code.
 
 ## Syntax

@@ -1,26 +1,22 @@
 ---
 description: "Specifies the type of structure used to describe the location of the breakpoint."
-title: BP_LOCATION | Microsoft Docs
+title: BP_LOCATION
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - BP_LOCATION
 helpviewer_keywords:
 - BP_LOCATION union
-ms.assetid: ed1e874c-f289-4c31-8b6c-04dde03ad0f5
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # BP_LOCATION
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the type of structure used to describe the location of the breakpoint.
 
 ## Syntax

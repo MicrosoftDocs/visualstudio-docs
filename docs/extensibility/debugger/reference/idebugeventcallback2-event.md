@@ -1,26 +1,22 @@
 ---
 description: "Sends notification of debug events."
-title: IDebugEventCallback2::Event | Microsoft Docs
+title: IDebugEventCallback2::Event
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEventCallback2::Event
 helpviewer_keywords:
 - IDebugEventCallback2::Event
-ms.assetid: e5a3345b-d460-4e40-8f5b-3111c56a2ed9
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugEventCallback2::Event
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sends notification of debug events.
 
 ## Syntax

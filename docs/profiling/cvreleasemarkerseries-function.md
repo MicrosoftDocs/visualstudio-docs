@@ -1,5 +1,5 @@
 ---
-title: CvReleaseMarkerSeries Function | Microsoft Docs
+title: CvReleaseMarkerSeries Function
 description: See reference information for the Concurrency Visualizer SDK function CvReleaseMarkerSeries (C library).
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,17 +7,13 @@ f1_keywords:
   - cvmarkers/CvReleaseMarkerSeries
 helpviewer_keywords: 
   - CvReleaseMarkerSeries method
-ms.assetid: 3b4711ee-e534-411d-9128-f69cd7932a48
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
 # CvReleaseMarkerSeries function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Releases marker series. Do not use marker series object after releasing otherwise the application might crash. Failure to release marker series causes a memory leak.
 
 ## Syntax

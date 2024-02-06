@@ -1,23 +1,18 @@
 ---
-title: 'How to: Display URLs as Links in the Editor'
-description: Learn how to display URLs as links in the code editor.
+title: 'Display URLs as Links in the Editor'
+description: Display URLs in your code as active links in the Visual Studio Code Editor and enable link underlining, tooltips, and keyboard quick access functions.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - URLs, opening
 - Code Editor, displaying URLs
 - editors, displaying URLs
-ms.assetid: 7c673953-476e-4897-9c2d-1fc15556c172
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
-# How to: Display URLs as Links in the Editor
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Display URLs as Links in the Editor
 
 You can choose to have the Code Editor treat Uniform Resource Locators (URLs) in your code as active links. When you use this feature, URLs:
 
@@ -41,6 +36,6 @@ You can choose to have the Code Editor treat Uniform Resource Locators (URLs) in
 
 4. Under **Display**, select **Enable single-click URL navigation**.
 
-## See also
+## Related content
 
 - [Features of the code editor](../../ide/writing-code-in-the-code-and-text-editor.md)

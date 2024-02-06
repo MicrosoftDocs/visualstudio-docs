@@ -1,6 +1,6 @@
 ---
 description: "Enables or disables the breakpoint."
-title: IDebugBoundBreakpoint2::Enable | Microsoft Docs
+title: IDebugBoundBreakpoint2::Enable
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,20 +8,16 @@ f1_keywords:
 helpviewer_keywords:
 - Enable method
 - IDebugBoundBreakpoint2::Enable method
-ms.assetid: 1b4e3f73-c94d-4aa3-9aa8-0d8cb8a6c5ca
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugBoundBreakpoint2::Enable
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enables or disables the breakpoint.
 
 ## Syntax

@@ -1,22 +1,17 @@
 ---
-title: Typed vs. untyped datasets
-description: Understand the difference between typed and untyped datasets. Contrast data access in typed and untyped datasets.
+title: Typed vs. untyped datasets in the .NET Framework
+description: Understand the difference between typed and untyped datasets. Contrast data access in typed and untyped datasets when developing .NET Framework applications with Visual Studio.
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
-ms.assetid: c83ba0bb-5425-4d47-8891-6b4dbf937701
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# Typed vs. untyped datasets
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Typed vs. untyped datasets in the .NET Framework
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -49,6 +44,6 @@ Even though typed datasets have many advantages, an untyped dataset is useful in
 
 More generally, there are many times when you might create a dataset dynamically without having a schema available. In that case, the dataset is simply a convenient structure in which you can keep information, as long as the data can be represented in a relational way. At the same time, you can take advantage of the dataset's capabilities, such as the ability to serialize the information to pass to another process, or to write out an XML file.
 
-## See also
+## Related content
 
 - [Dataset tools](../data-tools/dataset-tools-in-visual-studio.md)

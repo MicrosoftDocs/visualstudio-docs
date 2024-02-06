@@ -1,26 +1,22 @@
 ---
 description: "Used to determine if a program can stop execution after reaching a particular point in the execution."
-title: CANSTOP_REASON | Microsoft Docs
+title: CANSTOP_REASON
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - CANSTOP_REASON
 helpviewer_keywords:
 - CANSTOP_REASON enumeration
-ms.assetid: 6da944eb-36cd-4a8c-8d71-544c775cfcc1
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # CANSTOP_REASON
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Used to determine if a program can stop execution after reaching a particular point in the execution.
 
 ## Syntax

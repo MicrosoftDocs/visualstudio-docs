@@ -1,24 +1,20 @@
 ---
 description: "Determines if the function at the specified debug address is considered stale."
-title: IDebugComPlusSymbolProvider::IsFunctionStale | Microsoft Docs
+title: IDebugComPlusSymbolProvider::IsFunctionStale
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugComPlusSymbolProvider::IsFunctionStale
-ms.assetid: dcffc090-4ed8-47b2-ba51-bce1a6b6428d
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::IsFunctionStale
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if the function at the specified debug address is considered stale.
 
 ## Syntax

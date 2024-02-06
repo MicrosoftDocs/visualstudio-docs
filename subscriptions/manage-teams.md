@@ -3,7 +3,6 @@ title: Managing large teams and contractors in Visual Studio subscriptions | Vis
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: 3fc57f5f-2446-4774-9f8f-98ea1340f6b2
 ms.date: 03/17/2023
 ms.topic: conceptual
 description:  Learn about admins' responsibility to manage subscriptions for large teams and external contractors.

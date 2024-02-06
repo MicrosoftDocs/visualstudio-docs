@@ -1,6 +1,6 @@
 ---
-title: Save data with the TableAdapter DBDirect methods
-description: In this tutorial, run SQL statements directly against a database by using the DBDirect methods of a TableAdapter.
+title: Save data with the ADO.NET TableAdapter DBDirect methods (.NET Framework)
+description: In this tutorial, run SQL statements directly against a database by using the DBDirect methods of a ADO.NET TableAdapter in a .NET Framework application.
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -11,17 +11,12 @@ helpviewer_keywords:
 - data [Visual Studio], saving
 - saving data, tutorials
 - data [Visual Studio], TableAdapter
-ms.assetid: 74a6773b-37e1-4d96-a39c-63ee0abf49b1
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# Save data with the TableAdapter DBDirect methods
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Save data with the TableAdapter DBDirect methods in .NET Framework applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -59,7 +54,7 @@ This tutorial uses SQL Server Express LocalDB and the Northwind sample database.
 
 ## Create a Windows Forms application
 
-The first step is to create a **Windows Forms Application**. Create a project using the **Windows Forms App** project type, using C# or Visual Basic.
+The first step is to create a **Windows Forms App (.NET Framework)**. Create a project using the **Windows Forms App** project type, using C# or Visual Basic.
 
 > [!NOTE]
 > The code for this tutorial is available in C# and Visual Basic. To switch the code language on this page between C# and Visual Basic, use the code language switcher at the top of the page on the right side.
@@ -176,6 +171,6 @@ Depending on your application requirements, there are several steps you might wa
 
 - Adding additional tables to the dataset by selecting **Configure DataSet with Wizard** from within the **Data Sources** window. You can add controls that display related data by dragging the related nodes onto the form. For more information, see [Relationships in Datasets](relationships-in-datasets.md).
 
-## See also
+## Related content
 
 - [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

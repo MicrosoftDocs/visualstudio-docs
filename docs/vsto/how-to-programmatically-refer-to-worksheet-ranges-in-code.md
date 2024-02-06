@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically refer to worksheet ranges in code"
+title: "Programmatically refer to worksheet ranges in code"
 description: Learn how you can use Visual Studio to programmatically refer to the contents of a NamedRange control or a native Excel range object in a Microsoft Excel worksheet.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -15,13 +15,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Programmatically refer to worksheet ranges in code
+# Programmatically refer to worksheet ranges in code
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You use a similar process to refer to the contents of a <xref:Microsoft.Office.Tools.Excel.NamedRange> control or a native Excel range object.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
@@ -54,7 +51,7 @@ ms.workload:
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet47":::
      ---
 
-## See also
+## Related content
 - [Work with ranges](../vsto/working-with-ranges.md)
 - [How to: Programmatically check spelling in worksheets](../vsto/how-to-programmatically-check-spelling-in-worksheets.md)
 - [How to: Programmatically apply styles to ranges in workbooks](../vsto/how-to-programmatically-apply-styles-to-ranges-in-workbooks.md)

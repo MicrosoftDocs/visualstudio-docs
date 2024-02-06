@@ -1,22 +1,18 @@
 ---
-title: Common Language Runtime and Expression Evaluation | Microsoft Docs
+title: Common Language Runtime and Expression Evaluation
 description: Learn how the Common Language Runtime interacts with the debug engine and how to integrate a proprietary programming language into the Visual Studio IDE.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], expression evaluation
 - expression evaluation, and common language runtime
-ms.assetid: b36c1eb5-1aaf-48a6-b287-ee7a273d2b1c
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # Common language runtime and expression evaluation
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 > [!IMPORTANT]
 > In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 
@@ -33,5 +29,5 @@ ms.workload:
 
  When the CLR DE calls the proprietary EE to evaluate an expression, the DE supplies the EE with interfaces to an SP and a binder object. Thus, writing a CLR-based debug engine means it's necessary only to implement the appropriate expression evaluator interfaces; the CLR takes care of the binding and the symbol handling for you.
 
-## See also
+## Related content
 - [Write a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)

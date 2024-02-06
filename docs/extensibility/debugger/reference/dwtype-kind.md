@@ -1,26 +1,22 @@
 ---
 description: "Specifies how to interpret the type of an IDebugField object."
-title: dwTYPE_KIND | Microsoft Docs
+title: dwTYPE_KIND
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - dwTYPE_KIND
 helpviewer_keywords:
 - dwTYPE_KIND enumeration
-ms.assetid: 6ff56b0f-c502-4e6c-9829-bfa05361b783
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # dwTYPE_KIND
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies how to interpret the type of an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object.
 
 ## Syntax

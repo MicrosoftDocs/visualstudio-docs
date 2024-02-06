@@ -1,25 +1,21 @@
 ---
 description: "Retrieves to a symbol type given its debug address."
-title: IDebugComPlusSymbolProvider::GetTypeFromAddress | Microsoft Docs
+title: IDebugComPlusSymbolProvider::GetTypeFromAddress
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugComPlusSymbolProvider::GetTypeFromAddress
 - GetTypeFromAddress
-ms.assetid: 01f21ff9-e8a5-4e5f-9f7b-1b6de8b1432f
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetTypeFromAddress
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves to a symbol type given its debug address.
 
 ## Syntax

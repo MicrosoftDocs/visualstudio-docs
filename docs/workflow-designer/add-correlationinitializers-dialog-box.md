@@ -5,17 +5,12 @@ ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - AddCorrelationInitializers.UI
-ms.assetid: c0517467-d54a-4ee6-aef0-c19b96b6f395
 author: jodavis
 ms.author: jodavis
 manager: jmartens
-ms.technology: vs-workflow-designer
-ms.workload:
-- multiple
+ms.subservice: workflow-designer
 ---
 # Add CorrelationInitializers Dialog Box
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Add Correlation Initializers** dialog box is used in Workflow Designer to configure the **CorrelationInitializers** properties of the <xref:System.ServiceModel.Activities.Send>, <xref:System.ServiceModel.Activities.Receive>, <xref:System.ServiceModel.Activities.SendReply>, and <xref:System.ServiceModel.Activities.ReceiveReply> activities. For more information about the activity designers that use this box, see the [Send](../workflow-designer/send-activity-designer.md), [Receive](../workflow-designer/receive-activity-designer.md), [ReceiveAndSendReply](../workflow-designer/receiveandsendreply-template-designer.md), and [SendAndReceiveReply](../workflow-designer/sendandreceivereply-template-designer.md) topics.
 

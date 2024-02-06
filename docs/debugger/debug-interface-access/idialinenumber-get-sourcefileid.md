@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a unique source file identifier for the source file that contributed this line."
-title: "IDiaLineNumber::get_sourceFileId | Microsoft Docs"
+title: "IDiaLineNumber::get_sourceFileId"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaLineNumber::get_sourceFileId method"
-ms.assetid: 4f482a1e-e85f-4173-98de-8e5f7622554b
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaLineNumber::get_sourceFileId
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a unique source file identifier for the source file that contributed this line.
 
 ## Syntax

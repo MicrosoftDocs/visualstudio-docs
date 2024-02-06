@@ -1,21 +1,17 @@
 ---
 description: "IDiaSymbol::findInlineFramesByAddr retrieves an enumeration that allows a client to iterate through all of the inline frames on a given address."
-title: "IDiaSymbol::findInlineFramesByAddr | Microsoft Docs"
+title: "IDiaSymbol::findInlineFramesByAddr"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: 36a122e6-f27e-40cd-9784-cdaf279e1905
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::findInlineFramesByAddr
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves an enumeration that allows a client to iterate through all of the inline frames on a given address.
 
 ## Syntax

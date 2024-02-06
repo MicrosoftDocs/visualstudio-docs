@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically protect worksheets"
+title: "Programmatically protect worksheets"
 description: Learn how you can use the protection feature in Microsoft Excel to prevent users and code from modifying objects in a worksheet.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -14,13 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Programmatically protect worksheets
+# Programmatically protect worksheets
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The protection feature in Microsoft Office Excel helps prevent users and code from modifying objects in a worksheet. By default, all cells are locked after you turn on protection.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
@@ -71,7 +68,7 @@ ms.workload:
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb" id="Snippet17":::
      ---
 
-## See also
+## Related content
 - [Work with worksheets](../vsto/working-with-worksheets.md)
 - [How to: Programmatically remove protection from worksheets](../vsto/how-to-programmatically-remove-protection-from-worksheets.md)
 - [How to: Programmatically protect workbooks](../vsto/how-to-programmatically-protect-workbooks.md)

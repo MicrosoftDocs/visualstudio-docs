@@ -1,8 +1,7 @@
 ---
-title: "How to: Map schemas to Word documents inside Visual Studio"
+title: "Map schemas to Word documents inside Visual Studio"
 description: Learn how you can map an XML schema to a Microsoft Office Word document while the document is open in Visual Studio.
 titleSuffix: ""
-
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -15,13 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Map schemas to Word documents inside Visual Studio
+# Map schemas to Word documents inside Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   **Important** The information set out in this topic regarding Microsoft Word is presented exclusively for the benefit and use of individuals and organizations who are located outside the United States and its territories or who are using, or developing programs that run on, Microsoft Word products that were licensed by Microsoft before January 2010, when Microsoft removed an implementation of particular functionality related to custom XML from Microsoft Word. This information regarding Microsoft Word may not be read or used by individuals or organizations in the United States or its territories who are using, or developing programs that run on, Microsoft Word products that were licensed by Microsoft after January 10, 2010; those products will not behave the same as products licensed before that date or purchased and licensed for use outside the United States.
 
  [!INCLUDE[appliesto_wdalldoc](../vsto/includes/appliesto-wdalldoc-md.md)]
@@ -61,6 +57,6 @@ ms.workload:
 
 10. Drag elements from the **XML Structure** window to the places in your document where you want the corresponding controls to be created.
 
-## See also
+## Related content
 - [How to: Map schemas to worksheets inside Visual Studio](../vsto/how-to-map-schemas-to-worksheets-inside-visual-studio.md)
 - [XML schemas and data in document-level customizations](../vsto/xml-schemas-and-data-in-document-level-customizations.md)

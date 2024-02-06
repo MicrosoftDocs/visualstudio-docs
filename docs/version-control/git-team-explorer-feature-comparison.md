@@ -7,14 +7,11 @@ ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 ms.manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
+
+ms.subservice: general-ide
 monikerRange: "vs-2019"
-ms.custom: version-control
 ---
 # Compare the Git experience to Team Explorer in Visual Studio 2019
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 We launched the first version of a Git experience in Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/). This experience helps reduce context switching with a simple **Git Changes** window that includes common Git tasks. It also includes a screen-wide **Git Repository** window for more advanced Git operations, such as branch management and repository browsing.
 
@@ -63,11 +60,8 @@ If you’ve been using Team Explorer, here is a step-by-step guide that explains
 |---------|---------|---------|
 |**Access list of files with conflicts** | :::image type="content" source="media/resolve-conflicts-team-explorer-sml.png" alt-text="Screenshot collage of the Changes window and the Resolve Conflicts window for Team Explorer in Visual Studio 2019, with a procedure overlay." lightbox="media/resolve-conflicts-team-explorer-lrg.png":::</p>1. Navigate to the **Resolve Conflicts** window by clicking the **Conflicts** link. <br> 2. Use the **Conflicts** list to resolve your merge conflicts. | :::image type="content" source="media/resolve-conflicts-new-git-sml.png" alt-text="Screenshot of the Git Changes window in Visual Studio 2019, with a 'resolve conflicts' procedure overlay." lightbox="media/resolve-conflicts-new-git-lrg.png"::: </p>1. Verify that **Merge in progress with conflicts** appears. <br>2. The list of files with merge conflicts appears in the **Unmerged Changes** section of the **Git Changes** window. <br>Resolve the conflicts. |
 
-## Next steps
+## Related content
 
-For more information about the Git experience, see the latest video, [Getting started with Git in Visual Studio 2019](https://www.youtube.com/watch?v=GCZ9x3yqkyc), on YouTube.
-
-## See also
-
+- [Getting started with Git in Visual Studio 2019](https://www.youtube.com/watch?v=GCZ9x3yqkyc)
 - [The Git experience in Visual Studio 2019](git-with-visual-studio.md?view=vs-2019&preserve-view=true)
 - [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md)

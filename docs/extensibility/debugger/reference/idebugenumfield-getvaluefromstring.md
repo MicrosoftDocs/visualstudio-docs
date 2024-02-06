@@ -1,26 +1,22 @@
 ---
 description: "This method returns the value associated with the name of an enumeration constant."
-title: IDebugEnumField::GetValueFromString | Microsoft Docs
+title: IDebugEnumField::GetValueFromString
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEnumField::GetValueFromString
 helpviewer_keywords:
 - IDebugEnumField::GetValueFromString method
-ms.assetid: 1ef8ac5e-a3e0-4078-b876-7f5615aedcbb
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugEnumField::GetValueFromString
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method returns the value associated with the name of an enumeration constant.
 
 ## Syntax

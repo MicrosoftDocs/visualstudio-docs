@@ -14,13 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
 # &lt;vstoRuntime&gt; element (Office development in Visual Studio)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The `vstoRuntime` element of the `vstav3` namespace contains a supported version of the Visual Studio Tools for Office runtime for a specific Office solution.
 
 ## Syntax

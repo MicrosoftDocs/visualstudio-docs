@@ -1,21 +1,16 @@
 ---
-title: "Custom Native ETW Heap Events | Microsoft Docs"
+title: "Custom Native ETW Heap Events"
 description: Learn how to use a custom heap to reduce allocation overhead, but still provide allocation information to the memory profiler for allocation analysis.
 ms.date: "02/24/2017"
 ms.topic: "conceptual"
-ms.assetid: 668a6603-5082-4c78-98e6-f3dc871aa55b
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 dev_langs:
   - C++
-ms.workload:
-  - "cplusplus"
 ---
 # Custom native ETW heap events
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio contains a variety of [profiling and diagnostic tools](../profiling/profiling-feature-tour.md), including a native memory profiler.  This profiler hooks [ETW events](/windows-hardware/drivers/devtest/event-tracing-for-windows--etw-) from the heap provider and provides analysis of how memory is being allocated and used.  By default, this tool can only analyze allocations made from the standard Windows heap, and any allocations outside this native heap would not be displayed.
 
@@ -153,6 +148,7 @@ As with the standard Windows heap, you can also use this tool to compare snapsho
 > [!TIP]
 > Visual Studio also contains a **Memory Usage** tool in the **Performance Profiling** toolset, which is enabled from the **Debug** > **Performance Profiler** menu option, or the **Alt**+**F2** keyboard combination.  This feature does not include heap tracking and will not display your custom heap as described here.  Only the **Diagnostic Tools** window, which can be enabled with the **Debug** > **Windows** > **Show Diagnostic Tools** menu, or the **Ctrl**+**Alt**+**F2** keyboard combination, contains this functionality.
 
-## See also
-[First look at profiling tools](../profiling/profiling-feature-tour.md)
-[Memory Usage](../profiling/memory-usage.md)
+## Related content
+
+- [First look at profiling tools](../profiling/profiling-feature-tour.md)
+- [Memory Usage](../profiling/memory-usage.md)

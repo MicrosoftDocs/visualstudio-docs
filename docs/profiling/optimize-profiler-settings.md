@@ -1,5 +1,5 @@
 ---
-title: Optimizing Profiler settings | Microsoft Docs
+title: Optimizing Profiler settings
 description: Learn how the Performance Profiler and Diagnostic Tools window in Visual Studio have many different settings which affect the overall performance of the tools.
 ms.date: 02/28/2023
 ms.topic: how-to
@@ -8,12 +8,9 @@ helpviewer_keywords:
 author: MikeJo5000
 ms.author: mikejo 
 manager: AndSter
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
 # Optimizing Profiler settings
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Performance Profiler and Diagnostic Tools window in Visual Studio have many different settings which affect the overall performance of the tools. Changing some settings can cause analysis to run quickly or cause additional wait times while processing results in tools. Below is a summary of certain settings and their impact on performance.
 
@@ -48,7 +45,7 @@ Certain tools, such as the [CPU Usage](../profiling/cpu-usage.md) tool and [NET 
 ![Diag Hub Properties Page](../profiling/media/diaghubpropertiespage.png "Diag Hub Properties Page")
 ::: moniker-end
 
-## See also
+## Related content
 
 - [Running profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)
 - [Using multiple profiler tools simultaneously](../profiling/use-multiple-profiler-tools-simultaneously.md)

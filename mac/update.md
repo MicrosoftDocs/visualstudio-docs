@@ -5,10 +5,8 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 04/24/2022
-ms.custom: devdivchpfy22
-ms.technology: vs-ide-install
+ms.subservice: install
 ms.topic: how-to
-ms.assetid: DB8DC9FE-FF21-4061-8A96-3F9FC08A4F8F
 ---
 # Update Visual Studio for Mac
 
@@ -27,7 +25,6 @@ You can use the **Visual Studio Update** box to check for new updates, change ch
 
 To open the **Visual Studio Update**, select **Visual Studio > Check for Updates...**:
 
-
 ::: moniker range="vsmac-2022"
 
 :::image type="content" source="media/vsmac-2022/check-for-updates.png" alt-text="Screenshot of the Check for updates option off the Visual Studio menu.":::
@@ -35,7 +32,6 @@ To open the **Visual Studio Update**, select **Visual Studio > Check for Updates
 ::: moniker-end
 
 This displays the **Visual Studio Update** box:
-
 
 ::: moniker range="vsmac-2022"
 
@@ -46,7 +42,6 @@ This displays the **Visual Studio Update** box:
 ## Changing the update channel
 
 To change the channel, select it from the **Update channel:** drop-down and select **Switch Channel**:
-
 
 ::: moniker range="vsmac-2022"
 
@@ -61,7 +56,6 @@ Switching channels automatically starts the download process of new updates.
 If you've selected the option to **Check Automatically**, the **Visual Studio Update** box will pop up when Visual Studio for Mac is open to let you know that new updates are available. New updates will start downloading automatically to your machine when the updater box appears.
 
 Once the updates are downloaded, select **Restart and Install Updates** to start installing the updates:
-
 
 ::: moniker range="vsmac-2022"
 

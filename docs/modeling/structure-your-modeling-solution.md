@@ -6,13 +6,9 @@ ms.topic: how-to
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+ms.subservice: modeling
 ---
 # Structure your modeling solution
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To use models effectively in a development project, the team members must be able to work on models of different parts of the project at the same time. This topic suggests a scheme for dividing the application into different parts that correspond to the layers in an overall layering diagram.
 
@@ -100,6 +96,6 @@ For example, if you frequently use solutions that have Presentation, Business, a
 
 4. Following the instructions in the wizard, select the projects that you want to include in the template, provide a name and description for the template, and specify an output location.
 
-## See also
+## Related content
 
 - [Use models in your development process](../modeling/use-models-in-your-development-process.md)

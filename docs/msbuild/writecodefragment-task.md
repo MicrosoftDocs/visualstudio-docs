@@ -1,5 +1,5 @@
 ---
-title: WriteCodeFragment Task | Microsoft Docs
+title: WriteCodeFragment Task
 description: Learn how MSBuild uses the WriteCodeFragment task to generate a temporary code file from the specified generated code fragment.
 ms.date: 07/26/2023
 ms.topic: reference
@@ -7,17 +7,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - MSBuild, WriteCodeFragment task
 - WriteCodeFragment task [MSBuild]
-ms.assetid: 1d2514b4-5bef-43bb-bebe-496da8ef063c
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # WriteCodeFragment task
 

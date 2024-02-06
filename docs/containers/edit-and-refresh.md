@@ -1,18 +1,14 @@
 ---
-title: Debug apps in a local Docker container | Microsoft Docs
-description: Learn how to modify an app that's running in a local Docker container, refresh the container via Edit and Refresh, and then set debugging breakpoints.
+title: Debug apps in a local Docker container
+description: Modify applications running in a local Docker container, refresh with the Edit and Refresh actions, and set debugging breakpoints.
 ms.author: ghogen
 author: ghogen
 manager: jmartens
-ms.assetid: 480e3062-aae7-48ef-9701-e4f9ea041382
 ms.topic: how-to
-ms.workload: multiple
-ms.date: 10/07/2022
-ms.technology: vs-container-tools
+ms.date: 11/08/2023
+ms.subservice: container-tools
 ---
 # Debug apps in a local Docker container
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio provides a consistent way to develop Docker containers and validate your application locally.
 You can run and debug your apps in Linux or Windows containers running on your local Windows desktop with Docker installed, and you don't have to restart the container each time you make a code change.
@@ -159,11 +155,47 @@ The following procedure demonstrates how to add orchestration support to a .NET 
    ![Screenshot of the code window for Program.cs in Visual Studio with a breakpoint set to the left of a code line that is highlighted in yellow.](media/edit-and-refresh/breakpoint-console.png)
    ::: moniker-end
 
+:::moniker range=">=vs-2022"
+## Authenticating to Azure services using the token proxy
+
+When you're using Azure services from a container, you can use [DefaultAzureCredential](/dotnet/api/azure.identity.defaultazurecredential) (with the [VisualStudioCredential](/dotnet/api/azure.identity.visualstudiocredential) enabled) to authenticate with Azure services with your Microsoft Entra account without any additional configuration in the container. To enable this, see [How to configure Visual Studio Container Tools](container-tools-configure.md). Also, you need to set up Azure authentication in Visual Studio by following the instructions at [Authenticate Visual Studio with Azure](/dotnet/azure/configure-visual-studio#authenticate-visual-studio-with-azure). The support for VisualStudioCredential in a container is available in Visual Studio version 17.6 and later.
+
+### Azure Functions
+
+If you're debugging an integrated Azure Functions project and using the token proxy in the container to handle authentication to Azure services, you need to copy the .NET runtime onto the container for the token proxy to run. If you're debugging an isolated Azure Functions project, it already has the .NET runtime, so there's no need for this extra step.
+
+To ensure the .NET runtime is available to the token proxy, add or modify the `debug` layer in the Dockerfile that copies the .NET runtime into the container image. For Linux containers, you can add the following code to the Dockerfile:
+
+```dockerfile
+# This layer is to support debugging, VS's Token Proxy requires the runtime to be installed in the container
+FROM mcr.microsoft.com/dotnet/runtime:8.0 AS runtime
+FROM base as debug
+COPY --from=runtime /usr/share/dotnet /usr/share/dotnet
+RUN ln -s /usr/share/dotnet/dotnet /usr/bin/dotnet
+```
+
+Also, in the Visual Studio project, you need to make some changes to specify this as the layer to use when debugging in Fast Mode. For an explanation of Fast Mode, see [Customize Docker containers in Visual Studio](container-build.md#debugging). For single container scenarios (not Docker Compose), set the MSBuild property `DockerfileFastModeStage` to `debug` in order to use that layer for debugging. For Docker Compose, modify the `docker-compose.vs.debug.yml` as follows:
+
+```yml
+# Set the stage to debug to use an image with the .NET runtime in it
+services:
+  functionappintegrated:
+    build:
+      target: debug
+```
+
+For a code sample of authentication with Azure Functions, including both integrated and isolated scenarios, see [VisualStudioCredentialExample](https://github.com/NCarlsonMSFT/VisualStudioCredentialExample).
+:::moniker-end
+
 ## Container reuse
 
-During the development cycle, Visual Studio rebuilds only your container images and the container itself when you change the Dockerfile. If you don't change the Dockerfile, Visual Studio reuses the container from an earlier run.
+When you use [Fast Mode](container-build.md#debugging), which Visual Studio normally uses for the Debug configuration, Visual Studio rebuilds only your container images and the container itself when you change the Dockerfile. If you don't change the Dockerfile, Visual Studio reuses the container from an earlier run.
 
 If you manually modified your container and want to restart with a clean container image, use the **Build** > **Clean** command in Visual Studio, and then build as normal.
+
+When you're not using Fast Mode, which is typical for the Release configuration, Visual Studio rebuilds the container each time the project is built.
+
+You can configure when Fast Mode is used; see [How to configure Visual Studio Container Tools](container-tools-configure.md).
 
 ## Troubleshoot
 

@@ -1,5 +1,5 @@
 ---
-title: Stepping in Break Mode | Microsoft Docs
+title: Stepping in Break Mode
 description: Learn about the process that occurs when the debugger is in break mode. The debugger must then step through code.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,17 +7,13 @@ helpviewer_keywords:
 - break mode, stepping
 - stepping, in break mode
 - debugging [Debugging SDK], stepping in break mode
-ms.assetid: b08dc8ee-6c63-4462-a097-6f525cfbb35a
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # Stepping in break mode
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following section describes the process that occurs when the debugger is in break mode and must step through code:
 
 ## Stepping process
@@ -26,5 +22,5 @@ The following section describes the process that occurs when the debugger is in 
 
 2. When the step is finished, send an [IDebugStepCompleteEvent2](../../extensibility/debugger/reference/idebugstepcompleteevent2.md) as a stopping event.
 
-## See also
+## Related content
 - [Calling debugger events](../../extensibility/debugger/calling-debugger-events.md)

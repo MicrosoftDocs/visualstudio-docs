@@ -8,13 +8,10 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+ms.subservice: modeling
 ---
 # Security of Text Templates
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Text templates have the following security concerns:
 
 - Text templates are vulnerable to arbitrary code insertions.

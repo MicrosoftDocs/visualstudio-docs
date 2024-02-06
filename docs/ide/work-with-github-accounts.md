@@ -1,21 +1,17 @@
 ---
-title: Work with GitHub accounts in Visual Studio
+title: Add GitHub accounts to your keychain
 ms.date: 05/16/2023
 ms.topic: how-to
-description: "Learn how to use Visual Studio with GitHub accounts."
+description: Add your public GitHub or GitHub Enterprise account to your Visual Studio keychain so you can track code changes in GitHub repositories from Visual Studio.
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 monikerRange: ">=vs-2019"
 ---
-# Work with GitHub accounts in Visual Studio
+# Add your GitHub accounts to your Visual Studio keychain
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
-If you have a public GitHub or GitHub Enterprise account, you can add it to your Visual Studio keychain. After you add your account, you'll be able to take advantage of the platform integration by accessing and creating GitHub repositories, right from Visual Studio.
+In this article, you learn how to add your public GitHub or GitHub Enterprise account to your Visual Studio keychain. After you add your account, you'll be able to [track your code changes in GitHub repositories](../version-control/git-create-repository.md), right from Visual Studio. You can also create and use [GitHub Actions for deployment automation](../azure/azure-deployment-using-github-actions.md).
 
 ## Adding public GitHub accounts
 
@@ -179,5 +175,7 @@ Verify that HTTP Strict Transport Security (HSTS) is not enabled for localhost o
 > [!NOTE]
 > Please [report a problem](https://developercommunity.visualstudio.com/report?space=8&entry=problem) if you're still experiencing sign in issues.
 
-## See also
+## Related content
 - [Sign in to Visual Studio](signing-in-to-visual-studio.md)
+- [How Visual Studio makes version control easy with Git](../version-control/git-with-visual-studio.md)
+- [Deploy your application to Azure using GitHub Actions workflows](../azure/azure-deployment-using-github-actions.md).

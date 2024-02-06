@@ -6,13 +6,9 @@ ms.topic: reference
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+ms.subservice: modeling
 ---
 # API Reference for Modeling SDK for Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio Visualization and Modeling SDK provides the platform on which your domain-specific languages (DSL) tools are built.
 

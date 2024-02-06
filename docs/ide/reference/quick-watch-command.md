@@ -8,17 +8,13 @@ f1_keywords:
 helpviewer_keywords:
 - Quick Watch command
 - Debug.Quickwatch command
-ms.assetid: 9670ac3a-8f2f-4874-974d-cb87d3b0cde1
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Quick Watch Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Displays the selected or specified text in the Expression field of the [QuickWatch](../../debugger/watch-and-quickwatch-windows.md) window. You can use this dialog box to calculate the current value of a variable or expression recognized by the debugger, or the contents of a register. In addition, you can change the value of any non-const variable or the contents of any register.
 
 ## Syntax

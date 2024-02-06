@@ -5,17 +5,12 @@ ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - System.Activities.Statements.Rethrow.UI
-ms.assetid: 9cfa2eda-395f-4cf3-9154-83fadd4f7452
 author: jodavis
 ms.author: jodavis
 manager: jmartens
-ms.technology: vs-workflow-designer
-ms.workload:
-- multiple
+ms.subservice: workflow-designer
 ---
 # Rethrow Activity Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Rethrow** activity designer is used to create and configure a <xref:System.Activities.Statements.Rethrow> activity.
 

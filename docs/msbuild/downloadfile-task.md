@@ -1,5 +1,5 @@
 ---
-title: DownloadFile Task | Microsoft Docs
+title: DownloadFile Task
 description: Learn about the parameters of the MSBuild DownloadFile task, which downloads specified files using HTTP.
 ms.date: 11/04/2016
 ms.reviewer: ''
@@ -12,18 +12,14 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - DownloadFile task [MSBuild]
 - MSBuild, DownloadFile task
-ms.assetid: 916bb2e3-3017-4828-ae27-c0b5c99bbb48
 caps.latest.revision: 16
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # DownloadFile task
 

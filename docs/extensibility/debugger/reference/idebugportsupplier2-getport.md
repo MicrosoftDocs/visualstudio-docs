@@ -1,26 +1,22 @@
 ---
 description: "Gets a port from a port supplier."
-title: IDebugPortSupplier2::GetPort | Microsoft Docs
+title: IDebugPortSupplier2::GetPort
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPortSupplier2::GetPort
 helpviewer_keywords:
 - IDebugPortSupplier2::GetPort
-ms.assetid: d55d5055-7386-4037-bf22-4c3e434a99ca
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPortSupplier2::GetPort
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets a port from a port supplier.
 
 ## Syntax

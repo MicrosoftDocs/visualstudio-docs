@@ -1,5 +1,5 @@
 ---
-title: "Debugger Security | Microsoft Docs"
+title: "Debugger Security"
 description: Learn the security risks posed by debugging, risks both to the debugging machine and to the machine being debugged. Follow the recommendations to minimize risk. 
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -12,17 +12,13 @@ helpviewer_keywords:
   - "debugging [Visual Studio], security"
   - "debugger, security"
   - "security [Visual Studio], debugging best practices"
-ms.assetid: d4fc3c43-e844-419c-8dbb-551cc2a9b09e
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Debugger Security
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The ability to debug another process gives you extremely broad powers that you would not otherwise have, especially when debugging remotely. A malicious debugger could inflict widespread damage on the machine being debugged.
 
  However, many developers do not realize that the security threat can also flow in the opposite direction. It is possible for malicious code in the debuggee process to jeopardize the security of the debugging machine: there are a number of security exploits that must be guarded against.
@@ -75,7 +71,7 @@ The ability to debug another process gives you extremely broad powers that you w
 
   See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
 
-## See also
+## Related content
 - [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md)

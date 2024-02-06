@@ -1,7 +1,7 @@
 ---
-title: "Modify Visual Studio workloads, components, & language packs"
+title: Modify Visual Studio workloads, components, & language packs
 titleSuffix: ''
-description: Learn how to modify Visual Studio, step-by-step.
+description: Modify your Visual Studio installation with the Visual Studio Installer, add or remove workloads, components, and language packs.
 ms.date: 7/28/2023
 ms.topic: how-to
 ms.custom: vs-acquisition
@@ -10,18 +10,13 @@ helpviewer_keywords:
 - change visual studio
 - changing Visual Studio
 - customize Visual Studio
-ms.assetid: 3399ea7b-a291-4a9e-80a1-b861a21afa1d
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.workload:
-- multiple
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ---
 # Modify Visual Studio workloads, components, and language packs
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 It's easy to modify Visual Studio so that it includes only what you want, when you want it. To do so, open the Visual Studio Installer, and then add or remove workloads, components, and language packs.
 
@@ -133,7 +128,7 @@ Workloads contain the components you need for the programming language or platfo
 
 1. After the modified workloads or components are installed, choose **Launch** from the Visual Studio Installer to open Visual Studio 2022.
 
-You can also use a [configuration file to modify an existing installation to add or remove components](import-export-installation-configurations.md#use-a-configuration-file-to-add-components-to-an-existing-installation). Learn more about using [installation configuration files to configure Visual Studio](import-export-installation-configurations.md).
+You can also use a [configuration file to modify an existing installation to add or remove components](import-export-installation-configurations.md#programmatically-use-a-configuration-file-to-add-components-to-an-existing-installation). Learn more about using [installation configuration files to configure Visual Studio](import-export-installation-configurations.md).
 
 ::: moniker-end
 
@@ -152,7 +147,7 @@ To do so:
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 
 * [List of Visual Studio workload & component IDs](workload-and-component-ids.md)
 * [Update Visual Studio](update-visual-studio.md)

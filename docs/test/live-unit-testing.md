@@ -1,20 +1,16 @@
 ---
 title: Configure and use Live Unit Testing
 description: Learn about Live Unit Testing during application development, including supported frameworks and how to configure Live Unit Testing.
-ms.custom: SEO-VS-2020
 ms.date: 08/01/2023
 ms.topic: how-to
 helpviewer_keywords:
 - Live Unit Testing
 author: mikejo5000
 ms.author: mikejo
-ms.workload:
-- dotnet
+ms.subservice: test-tools
 monikerRange: '>=vs-2022'
 ---
 # Configure and use Live Unit Testing
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 While you develop an application, Live Unit Testing automatically runs any affected unit tests in the background and presents the results and code coverage in real time. When you modify your code, Live Unit Testing provides feedback on how your changes affected existing tests and whether the new code you added is covered by one or more existing tests. This feedback reminds you to write unit tests as you make bug fixes or add new features.
 

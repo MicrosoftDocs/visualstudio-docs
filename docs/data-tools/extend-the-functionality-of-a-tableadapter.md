@@ -1,6 +1,6 @@
 ---
-title: Extend the functionality of a TableAdapter
-description: Learn to extend the functionality of a TableAdapter by adding code to the TableAdapter's partial class file.
+title: Extend the functionality of a TableAdapter in .NET Framework applications
+description: Using Visual Studio, learn to extend the functionality of an ADO.NET TableAdapter in .NET Framework applications by adding code to the TableAdapter's partial class file.
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -10,17 +10,12 @@ helpviewer_keywords:
 - data [Visual Studio], TableAdapters
 - data [Visual Studio], extending TableAdapters
 - TableAdapters, adding functionality
-ms.assetid: 418249c8-c7f3-47ef-a94c-744cb6fe6aaf
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# Extend the functionality of a TableAdapter
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Extend the functionality of a TableAdapter in .NET Framework applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -53,6 +48,6 @@ The following example assumes a TableAdapter named `CustomersTableAdapter`is in 
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataTableAdapters/VB/CustomersTableAdapterExtended.vb" id="Snippet2":::
      ---
 
-## See also
+## Related content
 
 - [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md)

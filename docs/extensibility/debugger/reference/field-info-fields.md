@@ -1,26 +1,22 @@
 ---
 description: "Specifies what information to retrieve about an IDebugField object."
-title: FIELD_INFO_FIELDS | Microsoft Docs
+title: FIELD_INFO_FIELDS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - FIELD_INFO_FIELDS
 helpviewer_keywords:
 - FIELD_INFO_FIELDS enumeration
-ms.assetid: a69487d2-e701-4165-804a-8a011df9a3bd
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # FIELD_INFO_FIELDS
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies what information to retrieve about an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object.
 
 ## Syntax

@@ -1,26 +1,22 @@
 ---
 description: "Notifies the debug package that text attributes have been updated in the document."
-title: IDebugDocumentTextEvents2::onUpdateTextAttributes | Microsoft Docs
+title: IDebugDocumentTextEvents2::onUpdateTextAttributes
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDocumentTextEvents2::OnUpdateTextAttributes
 helpviewer_keywords:
 - IDebugDocumentTextEvents2::onUpdateTextAttributes
-ms.assetid: eb68d69a-1ad9-4ce4-84e1-40979ef16634
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugDocumentTextEvents2::onUpdateTextAttributes
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Notifies the debug package that text attributes have been updated in the document.
 
 ## Syntax

@@ -7,17 +7,12 @@ helpviewer_keywords:
 - Edit Devenv switch
 - Devenv, /Edit switch
 - /Edit Devenv switch
-ms.assetid: 02b3d6e7-a2b1-4d83-a747-aa8c2fb758b7
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # /Edit (devenv.exe)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Opens the specified file in an existing instance of Visual Studio.
 

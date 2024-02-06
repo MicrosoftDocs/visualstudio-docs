@@ -5,21 +5,14 @@ ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - link content type to file name extension
-ms.assetid: 21ee64ce-9afe-4b08-94a0-8389cc4dc67c
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Walkthrough: Link a content type to a file name extension
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can define your own content type and link a file name extension to it by using the editor Managed Extensibility Framework (MEF) extensions. In some cases, the file name extension is already defined by a language service. But, to use it with MEF, you must still link it to a content type.
-
-## Prerequisites
- Starting in Visual Studio 2015, you don't install the Visual Studio SDK from the download center. It's included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ## Create a MEF project
 
@@ -99,5 +92,5 @@ You can define your own content type and link a file name extension to it by usi
     [ContentType("hid")]
     ```
 
-## See also
+## Related content
 - [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)

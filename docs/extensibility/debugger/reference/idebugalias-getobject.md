@@ -1,26 +1,22 @@
 ---
 description: "Gets the object that this alias is for."
-title: IDebugAlias::GetObject | Microsoft Docs
+title: IDebugAlias::GetObject
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugAlias::GetObject
 helpviewer_keywords:
 - IDebugAlias::GetObject method
-ms.assetid: 97bc3af6-6e55-4940-8a6d-692c61257806
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugAlias::GetObject
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the object that this alias is for.
 
 ## Syntax

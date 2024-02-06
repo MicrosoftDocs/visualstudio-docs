@@ -1,23 +1,19 @@
 ---
 description: "This interface represents a position in the address space of the machine running the program being debugged."
-title: IDebugMemoryContext2 | Microsoft Docs
+title: IDebugMemoryContext2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugMemoryContext2
 helpviewer_keywords:
 - IDebugMemoryContext2 interface
-ms.assetid: 3a544c8b-11dc-46bb-8549-261e4ac5bbc4
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugMemoryContext2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a position in the address space of the machine running the program being debugged.
 
 ## Syntax

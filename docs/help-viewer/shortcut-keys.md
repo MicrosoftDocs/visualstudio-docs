@@ -6,17 +6,12 @@ ms.topic: reference
 helpviewer_keywords:
   - "shortcut keys [Help Viewer]"
   - "Help Viewer, shortcut keys"
-ms.assetid: ec14c85d-7efb-441c-a46b-bee34a227e39
-author: jasonchlus
-ms.author: jasonchlus
+author: ghogen
+ms.author: ghogen
 manager: jmartens
-ms.technology: vs-help-viewer
-ms.workload:
-  - "multiple"
+ms.subservice: help-viewer
 ---
-# Shortcut keys in Help Viewer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Shortcut keys in Microsoft Help Viewer
 
 You can navigate in the **Microsoft Help Viewer** by using the shortcut keys in the following table:
 

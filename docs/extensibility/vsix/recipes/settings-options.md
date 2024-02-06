@@ -6,13 +6,10 @@ ms.topic: conceptual
 author: madskristensen
 ms.author: madsk
 manager: pchapman
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-sdk
-ms.custom: cookbook
+
+ms.subservice: extensibility-integration
 ---
 # Custom settings and options in Visual Studio extensions
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Storing and retrieving settings is a must-have for many extensions. Let's explore how to work with settings with these goals in mind:
 
@@ -166,7 +163,7 @@ private void OnSettingsSaved(object sender, General e)
 ## Get the source code
 You can find the source code for this extension in the [samples repository](https://github.com/VsixCommunity/Samples).
 
-## Additional resources
+## Related content
 Read the docs for all the details surrounding these scenarios, but notice that while they do provide more detailed documentation, they don't follow the best practices outlined in this sample. They also don't use the Community Toolkit that makes working with settings so much easier.
 
 * [Creating an Options Page](../../creating-an-options-page.md)

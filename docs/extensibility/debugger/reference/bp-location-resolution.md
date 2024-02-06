@@ -1,25 +1,21 @@
 ---
 description: "Describes the resolution of a breakpoint at a specific location."
-title: BP_LOCATION_RESOLUTION | Microsoft Docs
+title: BP_LOCATION_RESOLUTION
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - BP_LOCATION_RESOLUTION
 helpviewer_keywords:
 - BP_LOCATION_RESOLUTION structure
-ms.assetid: 86ea2c8a-54a3-48e8-83c7-18a515273129
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 ---
 # BP_LOCATION_RESOLUTION
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the resolution of a breakpoint at a specific location.
 
 ## Syntax

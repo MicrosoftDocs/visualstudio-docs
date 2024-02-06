@@ -1,5 +1,5 @@
 ---
-title: Project Type Design Decisions | Microsoft Docs
+title: Project Type Design Decisions
 description: Learn about the item, project file persistence, and commitment mechanic design decisions to make before you extend Visual Studio by creating a new project type.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -8,17 +8,13 @@ helpviewer_keywords:
 - project types, commitment mechanics
 - project types, items
 - project types, design decisions
-ms.assetid: f68671fe-fd7a-4e56-a0b5-330b0f1fedb1
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Project Type Design Decisions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Before you create a new project type, you must make several design decisions regarding your project type. You must decide what types of items your projects will contain, how project files will be persisted, and what commitment model you will use.
 
 ## Project Items
@@ -54,7 +50,7 @@ Before you create a new project type, you must make several design decisions reg
 
  When data objects are opened by using transacted mode, changes are saved to a temporary location in memory and are not committed until the user manually chooses to save the file. At that time, all changes must occur together or no changes will be made.
 
-## See also
+## Related content
 - [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)
 - [Opening and Saving Project Items](../../extensibility/internals/opening-and-saving-project-items.md)
 - [Project Persistence](../../extensibility/internals/project-persistence.md)

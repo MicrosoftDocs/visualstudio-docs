@@ -1,26 +1,22 @@
 ---
 description: "Returns a copy of the current processes enumeration as a separate object."
-title: IEnumDebugProcesses2::Clone | Microsoft Docs
+title: IEnumDebugProcesses2::Clone
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugProcesses2::Clone
 helpviewer_keywords:
 - IEnumDebugProcesses2::Clone
-ms.assetid: 3d4196d3-5a80-4f76-b8b2-f72e80c8d406
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugProcesses2::Clone
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns a copy of the current enumeration as a separate object.
 
 ## Syntax

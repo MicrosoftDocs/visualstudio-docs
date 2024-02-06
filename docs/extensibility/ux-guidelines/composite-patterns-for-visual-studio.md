@@ -1,19 +1,15 @@
 ---
-title: Composite Patterns for Visual Studio | Microsoft Docs
+title: Composite Patterns for Visual Studio
 description: Learn about important composite patterns for consistency in Visual Studio. Composite patterns combine interaction and design elements.
 ms.date: 11/04/2016
 ms.topic: reference
-ms.assetid: e48ecfb2-f4b5-4d3a-b4a2-7a4d62fa4ec0
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Composite Patterns for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Composite patterns combine interaction and design elements in distinct configurations. Some of the most important composite patterns in Visual Studio with regard to consistency include:
 
 - [Data visualization](../../extensibility/ux-guidelines/composite-patterns-for-visual-studio.md#BKMK_DataVisualization)
@@ -28,7 +24,6 @@ Composite patterns combine interaction and design elements in distinct configura
 
 ## <a name="BKMK_DataVisualization"></a> Data visualization
 
-### Overview
  Charts are a visual way to aggregate and visualize data in order to enhance decision-making. They can help users faced with a lot of data but little meaning see what deserves attention and what might need an action.
 
  The user will benefit from a chart if any of the following conditions are true:
@@ -82,7 +77,6 @@ Composite patterns combine interaction and design elements in distinct configura
 ## <a name="BKMK_OnObjectUI"></a> On-object UI and peeking
  This section gives context to peeking, also known as code peek view, a type of on-object UI unique to Visual Studio.
 
-### Overview
 
 - On-object UI should give the user more information or interactivity without detracting from their main task.
 
@@ -247,7 +241,6 @@ Composite patterns combine interaction and design elements in distinct configura
 
 ## <a name="BKMK_SelectionModels"></a> Selection models
 
-### Overview
  A selection model is the mechanism used to indicate and confirm operations on one or more objects of interest within the user interface. This topic discusses selection interaction patterns within Visual Studio document editors: text editors, design surfaces, and modeling surfaces.
 
  Users must have a way of indicating to Visual Studio what they are working on, and Visual Studio must respond predictably with feedback to users about what it is operating on. Differences or a miscommunication between the user and the user interface can result in the user not noticing an action, which can have unintended consequences. Often, the error goes unnoticed until the user sees that something is missing or has changed. Selection models are therefore one of the most critical pieces of user interface design. Although selection models in Visual Studio are consistent with Windows, there are slight variations.
@@ -471,7 +464,6 @@ Composite patterns combine interaction and design elements in distinct configura
 
 ## <a name="BKMK_PersistenceAndSavingSettings"></a> Persistence and saving settings
 
-### Overview
  Although each software component in Visual Studio is usually responsible for its own state and persistence, Visual Studio automatically saves settings in some cases, such as with window sizes and positions. The table below is a combination of settings saved automatically and settings that require an explicit user or programmed action to be taken.
 
 |Object|What to save|When to save|Where to save|

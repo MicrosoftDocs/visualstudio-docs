@@ -8,13 +8,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-code-analysis
-ms.workload:
-- multiple
+ms.subservice: code-analysis
 ---
 # Code analysis rule set reference
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you configure legacy analysis for managed code projects in Visual Studio, you can choose from a list of built-in *rule sets*. Some rules are included in more than one of the built-in rule sets, for example, the Basic Correctness Rules rule set includes rules that are in the Managed Recommended Rules rule set.
 

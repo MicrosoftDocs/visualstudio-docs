@@ -1,22 +1,17 @@
 ---
-title: IDE GUIDs | Microsoft Docs
+title: IDE GUIDs
 description: The VSConstants class publishes a set of GUIDs of some parts of the IDE. This article lists the GUIDs.
 ms.date: 03/22/2018
 ms.topic: reference
 helpviewer_keywords:
 - GUIDs, integrated development environment
 - IDE, GUIDs
-ms.assetid: d31a0f97-b7be-4fb5-a942-8ba4527bc068
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # IDE GUIDs
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The <xref:Microsoft.VisualStudio.VSConstants> class publishes GUIDs of some parts of the integrated development environment (IDE) as listed in the table below.
 

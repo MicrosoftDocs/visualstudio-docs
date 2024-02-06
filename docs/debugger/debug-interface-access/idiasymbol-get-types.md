@@ -1,23 +1,19 @@
 ---
 description: "Retrieves an array of compiler-specific types for this symbol."
-title: "IDiaSymbol::get_types | Microsoft Docs"
+title: "IDiaSymbol::get_types"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_types method"
-ms.assetid: 5f056e0c-e15b-4e00-8f78-aadc8574f7ea
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_types
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves an array of compiler-specific types for this symbol.
 
 ## Syntax

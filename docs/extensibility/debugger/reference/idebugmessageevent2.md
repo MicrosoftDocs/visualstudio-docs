@@ -1,23 +1,19 @@
 ---
 description: "This interface is used by the debug engine (DE) to send a message to Visual Studio that requires a response from the user."
-title: IDebugMessageEvent2 | Microsoft Docs
+title: IDebugMessageEvent2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugMessageEvent2
 helpviewer_keywords:
 - IDebugMessageEvent2 interface
-ms.assetid: a9ff3d00-e9ac-4cd6-bda9-584a4815aff8
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugMessageEvent2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface is used by the debug engine (DE) to send a message to Visual Studio that requires a response from the user.
 
 ## Syntax

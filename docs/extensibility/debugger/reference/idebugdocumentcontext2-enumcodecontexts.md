@@ -1,26 +1,22 @@
 ---
 description: "Retrieves a list of all code contexts associated with this document context."
-title: IDebugDocumentContext2::EnumCodeContexts | Microsoft Docs
+title: IDebugDocumentContext2::EnumCodeContexts
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDocumentContext2::EnumCodeContexts
 helpviewer_keywords:
 - IDebugDocumentContext2::EnumCodeContexts
-ms.assetid: 627af69c-5cce-4e1d-8233-5f4d8dbc62e5
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugDocumentContext2::EnumCodeContexts
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a list of all code contexts associated with this document context.
 
 ## Syntax

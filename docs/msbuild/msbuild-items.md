@@ -1,17 +1,14 @@
 ---
-title: MSBuild Items | Microsoft Docs
-description: Learn how to use the MSBuild items, item types, and work with lists of items by using and modifying item metadata.
+title: Use MSBuild items and item types
+description: Use the MSBuild items and item types, work with lists of items by using and modifying item metadata and review the Exclude attribute.
 ms.date: 06/01/2023
-ms.topic: conceptual
+ms.topic: language-reference
 helpviewer_keywords:
 - MSBuild, Items
-ms.assetid: d762eff4-c92a-4b5f-a944-1ca30aa22319
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # MSBuild items
 
@@ -390,7 +387,7 @@ Output:
 -->
 ```
 
-Because the `KeepDuplicates` attribute considers the metadata of items in addition to the item values, it's important to know what's happening with the metadata. For example, see [Detecting duplicates when using the Metadata item function](./item-functions.md#detecting-duplicate-items-when-using-the-metadata-item-function).
+Because the `KeepDuplicates` attribute considers the metadata of items in addition to the item values, it's important to know what's happening with the metadata. For example, see [Detecting duplicates when using the Metadata item function](./item-functions.md#detecting-duplicates-when-using-the-metadata-item-function).
 
 ## Updating metadata on items in an ItemGroup outside of a Target
 
@@ -645,7 +642,7 @@ Item1: notebook
 -->
 ```
 
-## See also
+## Related content
 
 - [Item element (MSBuild)](../msbuild/item-element-msbuild.md)
 - [Common MSBuild project items](../msbuild/common-msbuild-project-items.md)

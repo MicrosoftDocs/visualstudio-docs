@@ -10,17 +10,12 @@ helpviewer_keywords:
 - Editing Experience
 - Options dialog box
 - Editing Experience, selecting
-ms.assetid: 05298fc5-fc4e-4bb2-b942-1f7d2dcdff0f
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Options, Text Editor, File Extension
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This Options dialog allows you to specify how all files with certain file extensions will be handled by the Visual Studio integrated development environment (IDE). For each **Extension** that you enter, you can select an Editing Experience. This allows you to choose the IDE editor or designer in which documents of a certain type will open. To display these options, choose **Options** from the **Tools** menu, expand the **Text Editor** node, and select **File Extension**.
 

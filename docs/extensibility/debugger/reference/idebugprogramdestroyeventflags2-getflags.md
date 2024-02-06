@@ -1,25 +1,21 @@
 ---
 description: "Retrieves the program destroy flags."
-title: IDebugProgramDestroyEventFlags2::GetFlags | Microsoft Docs
+title: IDebugProgramDestroyEventFlags2::GetFlags
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - GetFlags
 - IDebugProgramDestroyEventFlags2::GetFlags
-ms.assetid: dd53bd0c-459a-4077-ba81-780defb71e87
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProgramDestroyEventFlags2::GetFlags
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the program destroy flags.
 
 ## Syntax

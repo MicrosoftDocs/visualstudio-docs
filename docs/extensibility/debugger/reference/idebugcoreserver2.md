@@ -1,23 +1,19 @@
 ---
 description: "This interface is used to represent and obtain information from a server on a machine on the network."
-title: IDebugCoreServer2 | Microsoft Docs
+title: IDebugCoreServer2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCoreServer2
 helpviewer_keywords:
 - IDebugCoreServer2 interface
-ms.assetid: 9c47d0a6-9eb1-464e-bd44-fa2b552d4d36
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugCoreServer2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface is used to represent and obtain information from a server on a machine on the network.
 
 ## Syntax

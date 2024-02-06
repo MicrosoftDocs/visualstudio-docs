@@ -4,10 +4,9 @@ description: An overview of the project query API
 author: hgwelliver
 ms.author: hwelliver
 monikerRange: ">=vs-2022"
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ms.topic: overview
 ms.date: 02/13/2023
-ms.custom: template-overview
 ---
 
 # Query the project API
@@ -35,7 +34,7 @@ This overview covers top scenarios for working with the project query API:
 - [Filter the query result](#filter-the-query-result)
 - [Use nested queries to specify desired properties](#use-nested-queries-to-specify-desired-properties)
 - [Retrieve a child collection using the Get method](#retrieve-a-child-collection-using-the-get-method)
-- [Query additional information from a previously returned item](#query-additional-information-from-a-previously returned-item)
+- [Query additional information from a previously returned item](#query-additional-information-from-a-previously-returned-item)
 - [Modify a project](#modify-a-project)
 - [Query for project properties](#query-for-project-properties)
 - [Query for solutions](#query-for-solutions)
@@ -70,7 +69,7 @@ ProjectQueryableSpace workSpace = queryService.QueryableSpace;
 
 ## Query the project system for a project
 
-The `WorkspacesExtensibility` object lets you query for an individual project, if you have the project GUID. There are usually two GUIDs associated with a project, one that represents the project type, and other that uniquely represents the project. You can find the project's unique GUID in the solution file, or from an extension, you can query for the `Guid` property as demonstrated in the next section.
+The [`WorkspacesExtensibility`](/dotnet/api/microsoft.visualstudio.extensibility.workspacesextensibility) object lets you query for an individual project, if you have the project GUID. There are usually two GUIDs associated with a project, one that represents the project type, and other that uniquely represents the project. You can find the project's unique GUID in the solution file, or from an extension, you can query for the `Guid` property as demonstrated in the next section.
 
 ```csharp
 IAsyncEnumerable<IQueryResultItem<IProjectSnapshot>> projectList = workspace
@@ -157,7 +156,7 @@ IAsyncEnumerable<IQueryResultItem<IProjectSnapshot>> webProjects = workspace
 
 ### Example using built-in filtering
 
-You can also use query methods like `ProjectsByCapabilities` that have filtering built into the query.
+You can also use query methods like [`ProjectsByCapabilities`](/dotnet/api/microsoft.visualstudio.projectsystem.query.solutionpropertiesfilterextensions.projectsbycapabilities) that have filtering built into the query.
 
 ```csharp
 IAsyncEnumerable<IQueryResultItem<IProjectSnapshot>> webProjects = workspace
@@ -261,7 +260,7 @@ IQueryResult<IProjectSnapshot> updatedProjects = myproject
 
 ## Query for project properties
 
-You can use a `Get` clause to query for project properties. The following query returns a collection of `IPropertySnapshot` that contains entries for the two properties requested. `IPropertySnapshot` contains the property name, display name, and value at a point in time.
+You can use a `Get` clause to query for project properties. The following query returns a collection of [`IPropertySnapshot`](/dotnet/api/microsoft.visualstudio.projectsystem.query.ipropertysnapshot) that contains entries for the two properties requested. `IPropertySnapshot` contains the property name, display name, and value at a point in time.
 
 ```csharp
 // We assume that we can find the "RootNamespace" property in the result.

@@ -1,5 +1,5 @@
 ---
-title: "Securing ClickOnce Applications | Microsoft Docs"
+title: "Securing ClickOnce Applications"
 description: Learn about the implications of code access security constraints in the .NET Framework that can limit access to code for your ClickOnce applications.
 ms.date: "02/17/2017"
 ms.topic: "conceptual"
@@ -11,17 +11,13 @@ helpviewer_keywords:
   - "Windows applications, ClickOnce security"
   - "ClickOnce deployment, security"
   - "deploying applications, ClickOnce security"
-ms.assetid: a05b5f2f-d1f2-471a-8096-8b11f7554265
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+ms.subservice: deployment
 ---
 # Secure ClickOnce applications
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ClickOnce applications are subject to code access security constraints in the .NET Framework to help limit the access that code has to protected resources and operations. For that reason, it is important that you understand the implications of code access security to write your ClickOnce applications accordingly. Your applications can use Full Trust or use partial zones, such as the Internet and Intranet zones, to limit access.
 
  Additionally, ClickOnce uses certificates to verify the authenticity of the application's publisher, and to sign the application and deployment manifests to prove that the files have not been tampered with. Signing is an optional step, which makes it easier to change the application files after the manifests are generated. However, without signed manifests, it is difficult to ensure that the application installer is not tampered in man-in-the-middle security attacks. For this reason, we recommend that you sign your application and deployment manifests to help secure your applications.
@@ -78,6 +74,6 @@ ClickOnce applications are subject to code access security constraints in the .N
 ## Deploying obfuscated assemblies
  Visual Studio includes the free [PreEmptive Protection - Dotfuscator Community](../ide/dotfuscator/index.md), which you can use to protect your ClickOnce applications through code obfuscation and active protection measures.  For details, please see [the ClickOnce section of the Dotfuscator Community User Guide](https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/advanced_clickonce.html).
 
-## See also
+## Related content
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
 - [Choose a ClickOnce deployment strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)

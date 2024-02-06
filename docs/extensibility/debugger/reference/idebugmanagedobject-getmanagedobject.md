@@ -1,26 +1,22 @@
 ---
 description: "Returns an interface that represents the managed object."
-title: IDebugManagedObject::GetManagedObject | Microsoft Docs
+title: IDebugManagedObject::GetManagedObject
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugManagedObject::GetManagedObject
 helpviewer_keywords:
 - IDebugManagedObject::GetManagedObject method
-ms.assetid: 6abe1402-6aad-41e6-8ec1-ae12d5945992
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugManagedObject::GetManagedObject
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns an interface that represents the managed object.
 
 ## Syntax

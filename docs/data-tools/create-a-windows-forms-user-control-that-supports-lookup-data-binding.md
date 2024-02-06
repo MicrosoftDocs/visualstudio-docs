@@ -1,6 +1,6 @@
 ---
-title: Using lookup tables in data binding - Windows Forms
-description: Learn to create a Windows Forms user control that supports lookup data binding, using the LookupBindingPropertiesAttribute class in Visual Studio.
+title: Using lookup tables in data binding in .NET Framework Windows Forms
+description: Learn to create a Windows Forms user control in .NET Framework application that supports lookup data binding, using the LookupBindingPropertiesAttribute class in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -10,17 +10,12 @@ helpviewer_keywords:
 - data binding, user controls
 - LookupBindingPropertiesAttribute class, examples
 - user controls [Visual Basic], creating
-ms.assetid: c48b4d75-ccfc-4950-8b14-ff8adbfe4208
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# Create a Windows Forms user control that supports lookup data binding
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Create a .NET Framework Windows Forms user control that supports lookup data binding
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -40,7 +35,7 @@ This walkthrough creates a lookup control that binds to data from two tables. Th
 
 During this walkthrough, you'll learn how to:
 
-- Create a new **Windows Forms Application**.
+- Create a new **Windows Forms App (.NET Framework)**.
 
 - Add a new **User Control** to your project.
 
@@ -55,6 +50,8 @@ During this walkthrough, you'll learn how to:
 - Create a form to display data in the new control.
 
 ## Prerequisites
+
+To complete this tutorial, you need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify. See [Modify Visual Studio](../install/modify-visual-studio.md).
 
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
@@ -74,7 +71,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ## Create a Windows Forms app project
 
-The first step is to create a **Windows Forms Application** project.
+The first step is to create a **Windows Forms App (.NET Framework)** project.
 
 1. In Visual Studio, on the **File** menu, select **New** > **Project**.
 
@@ -181,6 +178,6 @@ This sets up the data binding to display the `CompanyName` from the `Customers` 
 
 - Navigate through some records, and verify that the `CompanyName` appears in the `LookupBox` control.
 
-## See also
+## Related content
 
 - [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)

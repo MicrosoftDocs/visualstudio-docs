@@ -1,26 +1,22 @@
 ---
 description: "This method sets the language to use to create printable results."
-title: IDebugExpressionEvaluator::SetLocale | Microsoft Docs
+title: IDebugExpressionEvaluator::SetLocale
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugExpressionEvaluator::SetLocale
 helpviewer_keywords:
 - IDebugExpressionEvaluator::SetLocale method
-ms.assetid: d3d2027d-74e2-4ae6-bcc7-59d12f873b7c
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugExpressionEvaluator::SetLocale
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method sets the language to use to create printable results.
 
 ## Syntax

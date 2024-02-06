@@ -1,21 +1,17 @@
 ---
-title: Commands That Must Be Run After Installation | Microsoft Docs
+title: Commands That Must Be Run After Installation
 description: Learn about the commands that must be run as part of your installation of an extension deployed through a .msi file in Visual Studio. 
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - post-install commands
-ms.assetid: c9601f2e-2c6e-4da9-9a6e-e707319b39e2
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Commands that must be run after installation
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 If you deploy your extension through a *.msi* file, you must run **devenv /setup** as part of your installation in order for Visual Studio to discover your extensions.
 
 > [!NOTE]
@@ -79,5 +75,5 @@ If you deploy your extension through a *.msi* file, you must run **devenv /setup
 |CA_RunDevenv2005|DEVENV_EXE_2005|6605|
 |CA_RunDevenv2008|DEVENV_EXE_2008|6608|
 
-## See also
+## Related content
 - [Install VSPackages with Windows Installer](../../extensibility/internals/installing-vspackages-with-windows-installer.md)

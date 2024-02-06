@@ -1,25 +1,18 @@
 ---
-title: 'Walkthrough: Creating a Margin Glyph | Microsoft Docs'
+title: 'Walkthrough: Creating a Margin Glyph'
 description: Learn how to customize the appearance of editor margins by using custom editor extensions by using this walkthrough.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - margin glyph
-ms.assetid: 814185db-24f9-417f-b3b1-7c5aabb42b45
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Walkthrough: Create a margin glyph
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can customize the appearance of editor margins by using custom editor extensions. This walkthrough puts a custom glyph on the indicator margin whenever the word "todo" appears in a code comment.
-
-## Prerequisites
- Starting in Visual Studio 2015, you don't install the Visual Studio SDK from the download center. It's included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ## Create a MEF project
 

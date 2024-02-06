@@ -1,26 +1,22 @@
 ---
 description: "Specifies how to parse an expression."
-title: PARSEFLAGS | Microsoft Docs
+title: PARSEFLAGS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - PARSEFLAGS
 helpviewer_keywords:
 - PARSEFLAGS enumeration
-ms.assetid: 47943f0a-54cb-4493-a62e-5dba97bd4c35
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # PARSEFLAGS
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies how to parse an expression.
 
 ## Syntax

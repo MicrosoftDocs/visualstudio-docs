@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a flag indicating whether a section contains comments or similar information."
-title: "IDiaSectionContrib::get_informational | Microsoft Docs"
+title: "IDiaSectionContrib::get_informational"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSectionContrib::get_informational method"
-ms.assetid: 5351e89f-7db1-4f8e-9e57-2dd1c74002e0
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSectionContrib::get_informational
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag indicating whether a section contains comments or similar information.
 
 ## Syntax

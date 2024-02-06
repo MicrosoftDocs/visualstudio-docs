@@ -1,26 +1,22 @@
 ---
 description: "Gets the type of the breakpoint represented by this resolution."
-title: IDebugBreakpointResolution2::GetBreakpointType | Microsoft Docs
+title: IDebugBreakpointResolution2::GetBreakpointType
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugBreakpointResolution2::GetBreakpointType
 helpviewer_keywords:
 - IDebugBreakpointResolution2::GetBreakpointType
-ms.assetid: 2b707fb9-f703-4c78-91bf-7434f57790a0
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugBreakpointResolution2::GetBreakpointType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the type of the breakpoint represented by this resolution.
 
 ## Syntax

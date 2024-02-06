@@ -1,24 +1,20 @@
 ---
 description: "Retrieves the value string of an expression evaluator metric given its name."
-title: IDebugSettingsCallback2::GetEEMetricString | Microsoft Docs
+title: IDebugSettingsCallback2::GetEEMetricString
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugSettingsCallback2::GetEEMetricString
-ms.assetid: 85e3c093-6a91-4101-ab32-d8ac6eed4918
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugSettingsCallback2::GetEEMetricString
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the value string of an expression evaluator metric given its name.
 
 ## Syntax

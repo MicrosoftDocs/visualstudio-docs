@@ -1,6 +1,6 @@
 ---
-title: "Code Access Security for ClickOnce Applications | Microsoft Docs"
-description: Learn about code access security for ClickOnce applications and how to configure the code access security permissions.
+title: "Code Access Security for ClickOnce Applications"
+description: Explore code access security for ClickOnce applications and how to configure the code access security permissions in Visual Studio.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -18,17 +18,13 @@ helpviewer_keywords:
   - "security [ClickOnce], ClickOnce applications"
   - "ClickOnce applications, code access security policies"
   - "security, ClickOnce"
-ms.assetid: 04b104d0-0bd3-4ccb-b164-1de92d234487
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+ms.subservice: deployment
 ---
 # Code access security for ClickOnce applications
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ClickOnce applications are based on the .NET Framework and are subject to code access security constraints. For this reason, it is important that you understand the implications of code access security and write your ClickOnce applications accordingly.
 
  Code access security is a mechanism in the .NET Framework that helps limit the access that code has to protected resources and operations. You should configure the code access security permissions for your ClickOnce application to use the zone appropriate for the location of the application installer. In most cases, you can choose the **Internet** zone for a limited set of permissions or the **Local Intranet** zone for a greater set of permissions.
@@ -90,7 +86,7 @@ ClickOnce applications are based on the .NET Framework and are subject to code a
 
   In the **Advanced Security Settings** dialog box, the **Debug this application with the selected permission set** check box is selected and disabled. This is because Debug In Zone cannot be turned off for browser-hosted applications.
 
-## See also
+## Related content
 - [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)
 - [Enable and configure ClickOnce security settings](../deployment/how-to-enable-clickonce-security-settings.md)
 - [Set a security zone for a ClickOnce application](../deployment/how-to-enable-clickonce-security-settings.md#set-a-security-zone-for-a-clickonce-application)

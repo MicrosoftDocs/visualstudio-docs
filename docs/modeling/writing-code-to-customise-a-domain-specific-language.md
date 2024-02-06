@@ -1,9 +1,6 @@
 ---
 title: Customize a domain-specific language
 description: Learn how to use custom code to access, modify, or create a model in a domain-specific language (DSL).
-ms.custom:
-- SEO-VS-2020
-- kr2b-contr-experiment
 ms.date: 06/22/2022
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,14 +8,10 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-  - "multiple"
+ms.subservice: modeling
 ---
 
 # Write code to customize a domain-specific language
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This section shows you how to use custom code to access, modify, or create a model in a domain-specific language (DSL).
 
@@ -78,6 +71,6 @@ Keeping objects in the Store, instead of just as ordinary objects, provides seve
 
 - **Serialization**. The Store provides a standard way to serialize the objects it contains to a file. You can customize the rules for serializing and deserializing. For more information, see [Customizing File Storage and XML Serialization](../modeling/customizing-file-storage-and-xml-serialization.md).
 
-## Next steps
+## Related content
 
 - [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md)

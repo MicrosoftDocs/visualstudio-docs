@@ -1,23 +1,19 @@
 ---
 description: "This interface represents a class as a type."
-title: IDebugClassField | Microsoft Docs
+title: IDebugClassField
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugClassField
 helpviewer_keywords:
 - IDebugClassField interface
-ms.assetid: 49358cbc-8973-4862-9dcc-79b1248e6712
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugClassField
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a class as a type.
 
 ## Syntax

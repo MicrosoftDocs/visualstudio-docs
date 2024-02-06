@@ -1,7 +1,7 @@
 ---
-title: Pass data between forms
-description: In this Windows Forms controls walkthrough, get step-by-step instructions for passing data from one form to another.
-ms.date: 11/04/2016
+title: Pass data between forms controls (.NET Framework)
+description: Pass data between Windows Forms controls in .NET Framework application development with Visual Studio and create a TableAdapter query to fetch customer orders.
+ms.date: 12/15/2023
 ms.topic: how-to
 dev_langs:
 - VB
@@ -12,28 +12,23 @@ helpviewer_keywords:
 - data [Visual Studio], passing between forms
 - forms, passing data between
 - Windows Forms, walkthroughs
-ms.assetid: 78bf038b-9296-4fbf-b0e8-d881d1aff0df
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
 # Pass data between forms
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
-This walkthrough provides step-by-step instructions for passing data from one form to another. Using the customers and orders tables from Northwind, one form allows users to select a customer, and a second form displays the selected customer's orders. This walkthrough shows how to create a method on the second form that receives data from the first form.
+This tutorial provides step-by-step instructions for passing data from one form to another. Using the customers and orders tables from Northwind, one form allows users to select a customer, and a second form displays the selected customer's orders. This tutorial shows how to create a method on the second form that receives data from the first form.
 
 > [!NOTE]
-> This walkthrough demonstrates only one way to pass data between forms. There are other options for passing data to a form, including creating a second constructor to receive data, or creating a public property that can be set with data from the first form.
+> This tutorial demonstrates only one way to pass data between forms. There are other options for passing data to a form, including creating a second constructor to receive data, or creating a public property that can be set with data from the first form.
 
-Tasks illustrated in this walkthrough include:
+Tasks illustrated in this tutorial include:
 
-- Creating a new **Windows Forms Application** project.
+- Creating a new **Windows Forms App (.NET Framework)** project.
 
 - Creating and configuring a dataset with the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png).
 
@@ -49,7 +44,9 @@ Tasks illustrated in this walkthrough include:
 
 ## Prerequisites
 
-This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
+To complete this tutorial, you need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify. See [Modify Visual Studio](../install/modify-visual-studio.md).
+
+This tutorial uses SQL Server Express LocalDB and the Northwind sample database.
 
 1. If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.
 
@@ -200,12 +197,12 @@ Add a TableAdapter query to Form2 to load orders for the selected customer on Fo
 
 ## Next steps
 
-Depending on your application requirements, there are several steps you may want to perform after passing data between forms. Some enhancements you could make to this walkthrough include:
+Depending on your application requirements, there are several steps you might want to perform after passing data between forms. Some enhancements you could make to this tutorial include:
 
 - Editing the dataset to add or remove database objects. For more information, see [Create and configure datasets](../data-tools/create-and-configure-datasets-in-visual-studio.md).
 
 - Adding functionality to save data back to the database. For more information, see [Save data back to the database](../data-tools/save-data-back-to-the-database.md).
 
-## See also
+## Related content
 
 - [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)

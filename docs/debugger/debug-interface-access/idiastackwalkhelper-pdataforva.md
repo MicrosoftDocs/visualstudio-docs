@@ -1,23 +1,19 @@
 ---
 description: "Returns the PDATA data block associated with the virtual address."
-title: "IDiaStackWalkHelper::pdataForVA | Microsoft Docs"
+title: "IDiaStackWalkHelper::pdataForVA"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaStackWalkHelper2::pdataByVA method"
-ms.assetid: fafc38fe-74dc-4726-9a51-eebf3a673d7f
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaStackWalkHelper::pdataForVA
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the PDATA data block associated with the virtual address.
 
 ## Syntax

@@ -8,13 +8,9 @@ f1_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- dotnet
+ms.subservice: general-ide
 ---
 # Options, Text Editor, F#, CodeLens
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **CodeLens** options page to modify the text editor CodeLens settings for F#. To access this options page, choose **Tools** > **Options**, and then choose **Text Editor** > **F#** > **CodeLens**.
 

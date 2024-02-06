@@ -1,22 +1,18 @@
 ---
-title: Registering Single File Generators | Microsoft Docs
+title: Registering Single File Generators
 description: Learn how to register a custom tool in Visual Studio to instantiate it and associate it with a particular project type.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - registration, custom tools
 - custom tools, defining registry settings
-ms.assetid: db7592c0-1273-4843-9617-6e2ddabb6ca8
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Registering Single File Generators
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To make a custom tool available in Visual Studio, you must register it so Visual Studio can instantiate it and associates it with a particular project type.
 
 ### To register a custom tool
@@ -65,7 +61,7 @@ To make a custom tool available in Visual Studio, you must register it so Visual
    "GeneratesDesignTimeSource"=dword:00000001
    ```
 
-## See also
+## Related content
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator>
 - [Implementing Single-File Generators](../../extensibility/internals/implementing-single-file-generators.md)
 - [Exposing Types to Visual Designers](../../extensibility/internals/exposing-types-to-visual-designers.md)

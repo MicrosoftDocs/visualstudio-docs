@@ -1,21 +1,15 @@
 ---
-title: "Cross-Platform Mobile Development in Visual Studio | Microsoft Docs"
-description: In this article, learn how you can build apps for Android, iOS, and Windows devices by using Visual Studio.
+title: Build cross-platform mobile apps in Visual Studio
+description: Build cross-platform mobile applications for Android, iOS, and Windows devices by using Visual Studio and target devices from a single code base.
 titleSuffix: ""
-ms.custom: devdivchpfy22
 ms.date: 08/26/2022
-ms.technology: vs-ide-mobile
+ms.subservice: mobile-development
 ms.topic: "conceptual"
-ms.assetid: 8202717a-e990-45cf-b092-438651ccb38a
 author: therealjohn
 ms.author: johmil
-ms.workload:
-  - "multiple"
 ---
 
 # Cross-platform mobile development in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can build apps for Android, iOS, and Windows devices by using Visual Studio.  As you design your app, use tools in Visual Studio to easily add connected services such as Microsoft 365, Azure App Service, and Application Insights.
 
@@ -133,7 +127,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 |[Watch a video introduction to the Visual Studio Tools for Unity 2.0 Preview](https://www.bing.com/videos/search?q=visual+studio+tools+for+unity&qs=n&form=QBVLPG&pq=visual+studio+tools+for+unity&sc=6-29&sp=-1&sk=#view=detail&mid=0A13177F0BC7463A24080A13177F0BC7463A2408&preserve-view=true) (Video)|
 |[Learn about Unity](https://unity.com/) (Unity website)|
 
-## See also
+## Related content
 
 - [Add Microsoft 365 APIs to a Visual Studio project](/office/developer-program/office-365-developer-program)
 - [Azure App Services - Mobile Apps](https://azure.microsoft.com/services/app-service/mobile/)

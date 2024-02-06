@@ -1,9 +1,8 @@
 ---
-title: Partners managing Visual Studio subscriptions for customers | Microsoft Docs
+title: Partners managing Visual Studio subscriptions for customers
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: 6866dfab-c4fa-428e-bb0d-7b202c81f770
 ms.date: 03/23/2023
 ms.topic: conceptual
 description:  Learn how partners manage Visual Studio subscriptions for their customers.
@@ -45,7 +44,6 @@ This scenario applies to new partners placing new Open License orders but who re
 
 This scenario applies to partners that already have access to the [Visual Studio Subscriptions Administration Portal](https://manage.visualstudio.com), but have placed an order for Open Licenses with Visual Studio subscriptions that they'll need to manage.  
 
-
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vkAG]
 
 Steps for partners to add a new license:
@@ -55,7 +53,6 @@ Steps for partners to add a new license:
 
 > [!NOTE]
 > The customer will receive a notification email informing them that a Partner has been added to the Open License. They can choose to remove the Partner’s access.
-
 
 ## Resources
 

@@ -2,7 +2,6 @@
 title: "Deploy your Visual Studio app to a folder, IIS, Azure, or another destination"
 titleSuffix: ""
 description: Learn more about publishing options for your app using the Publish tool.
-ms.custom: "contperf-fy21q1"
 ms.date: 05/12/2023
 ms.topic: "ui-reference"
 f1_keywords:
@@ -15,13 +14,9 @@ dev_langs:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+ms.subservice: deployment
 ---
 # Deploy your app to a folder, IIS, Azure, or another destination
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 By deploying an application, service, or component, you distribute it for installation on other computers, devices, servers, or in the cloud. You choose the appropriate method in Visual Studio for the type of deployment that you need.
 

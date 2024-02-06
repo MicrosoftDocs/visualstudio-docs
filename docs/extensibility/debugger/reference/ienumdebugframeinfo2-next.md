@@ -1,26 +1,22 @@
 ---
 description: "Returns the next set of elements from the FRAMEINFO enumeration."
-title: IEnumDebugFrameInfo2::Next | Microsoft Docs
+title: IEnumDebugFrameInfo2::Next
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugFrameInfo2::Next
 helpviewer_keywords:
 - IEnumDebugFrameInfo2::Next
-ms.assetid: 64a64eeb-5dea-4119-8a22-03771015d1e5
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugFrameInfo2::Next
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the next set of elements from the enumeration.
 
 ## Syntax

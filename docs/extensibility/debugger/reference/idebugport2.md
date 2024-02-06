@@ -1,23 +1,19 @@
 ---
 description: "This interface represents a debug port on a machine."
-title: IDebugPort2 | Microsoft Docs
+title: IDebugPort2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPort2
 helpviewer_keywords:
 - IDebugPort2 interface
-ms.assetid: 8fd87f05-a950-4d14-b925-98be29d4facc
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugPort2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a debug port on a machine.
 
 ## Syntax

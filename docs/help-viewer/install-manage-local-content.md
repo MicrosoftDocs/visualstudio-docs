@@ -1,6 +1,6 @@
 ---
 title: Install local help documentation
-description: Install and manage local help documentation using the Microsoft Help Viewer. Add, remove, update, and move Help content that's installed on your computer.
+description: Install and manage local help documentation by using the Microsoft Help Viewer, and add, remove, update, and move Help content installed on your computer.
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -18,17 +18,12 @@ helpviewer_keywords:
   - "Help Viewer, removing local content"
   - "Help Viewer, installing local content"
   - "Help Viewer, downloading content"
-ms.assetid: efd9df4c-2e69-4c50-992c-9678a8d8cf19
 author: jasonchlus
 ms.author: jasonchlus
 manager: jmartens
-ms.technology: vs-help-viewer
-ms.workload:
-  - "multiple"
+ms.subservice: help-viewer
 ---
 # Install and manage local content
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 By using the Microsoft Help Viewer, you can add, remove, update, and move the Help content that is installed on your computer to fit your software development needs.
 
@@ -127,7 +122,7 @@ You can save disk space by moving installed content from your local computer to 
 
 3. Choose the **Close** button when the content has been moved.
 
-## See also
+## Related content
 
 - [Microsoft Help Viewer](../help-viewer/overview.md)
 - [Override Help Viewer defaults](../help-viewer/behavior-overrides.md)

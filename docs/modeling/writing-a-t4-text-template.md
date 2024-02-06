@@ -1,6 +1,6 @@
 ---
 title: Writing a T4 Text Template
-description: Learn about T4 text templates and how to write a text template that includes directives, text blocks, and control blocks.
+description: Work with T4 text templates in Visual Studio and how to write a text template that includes directives, text blocks, and control blocks.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -10,13 +10,10 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+ms.subservice: modeling
 ---
 # Writing a T4 Text Template
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A text template contains the text that will be generated from it. For example, a template that creates a web page will contain "\<html>..." and all the other standard parts of an HTML page. Inserted into the template are *control blocks*, which are fragments of program code. Control blocks provide varying values and allow parts of the text to be conditional and repeated.
 
  This structure makes a template easy to develop, because you can start with a prototype of the generated file, and incrementally insert control blocks that vary the result.
@@ -264,13 +261,11 @@ You can also obtain other services that are provided by the host. For more infor
 ## Editing Templates
  Specialized text template editors can be downloaded from the Extension Manager Online Gallery. On the **Tools** menu, click **Extension Manager**. Click **Online Gallery**, and then use the search tool.
 
-## Related topics
+## Related content
 
-|Task|Topic|
-|-|-|
-|Writing a template.|[Guidelines for Writing T4 Text Templates](../modeling/guidelines-for-writing-t4-text-templates.md)|
-|Generate text by using program code.|[Text Template Structure](../modeling/writing-a-t4-text-template.md)|
-|Generate files in a Visual Studio solution.|[Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)|
-|Run text generation outside Visual Studio.|[Generating Files with the TextTransform Utility](../modeling/generating-files-with-the-texttransform-utility.md)|
-|Transform your data in the form of a domain-specific language.|[Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)|
-|Write directive processors to transform your own data sources.|[Customizing T4 Text Transformation](../modeling/customizing-t4-text-transformation.md)|
+- [Guidelines for Writing T4 Text Templates](../modeling/guidelines-for-writing-t4-text-templates.md)
+- [Text Template Structure](../modeling/writing-a-t4-text-template.md)
+- [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)
+- [Generating Files with the TextTransform Utility](../modeling/generating-files-with-the-texttransform-utility.md)
+- [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)
+- [Customizing T4 Text Transformation](../modeling/customizing-t4-text-transformation.md)

@@ -1,5 +1,5 @@
 ---
-title: "How to: Create an Event Receiver for a Specific List Instance | Microsoft Docs"
+title: "Create an Event Receiver for a Specific List Instance"
 titleSuffix: ""
 description: Create an event receiver for a specific list instance. A list instance event receiver responds to events that occur in any instance of a list definition.
 ms.date: "02/02/2017"
@@ -13,13 +13,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+ms.subservice: sharepoint-development
 ---
-# How to: Create an event receiver for a specific list instance
+# Create an event receiver for a specific list instance
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   A list instance event receiver responds to events that occur in any instance of a list definition. Although the event receiver template does not enable the targeting of a specific list instance, you can modify an event receiver that is scoped to a list definition to respond to events in a specific list instance.
 
  To target a specific list instance, in the *Elements.xml* for the event receiver, replace `ListTemplateId` with `ListUrl` and add the URL of the list instance.
@@ -84,6 +81,6 @@ ms.workload:
 
      Notice that the event receiver does not trigger on the new announcement because the receiver is configured to respond only to events in the custom announcement list instance, **TestAnnouncements**.
 
-## See also
+## Related content
 - [How to: Create an event receiver](../sharepoint/how-to-create-an-event-receiver.md)
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)

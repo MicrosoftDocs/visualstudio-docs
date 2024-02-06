@@ -13,13 +13,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
 # Cache data
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can cache data objects in a document-level customization so that the data can be accessed offline, or without opening Microsoft Office Word or Microsoft Office Excel. To cache an object, the object must have a data type that meets certain requirements. Many common data types in the .NET Framework meet these requirements, including <xref:System.String>, <xref:System.Data.DataSet>, and <xref:System.Data.DataTable>.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
@@ -81,7 +78,7 @@ ms.workload:
 
  If you add an object with a **null** value to the data cache by using the <xref:Microsoft.VisualStudio.Tools.Applications.Runtime.CachedAttribute> attribute at design time, you can use the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> class to initialize the cached data objects before the document is opened. This is useful if you want to initialize the cached data on a server without Word or Excel installed, before the document is opened by an end user. For more information, see [Access data in documents on the server](../vsto/accessing-data-in-documents-on-the-server.md).
 
-## See also
+## Related content
 - [How to: Cache data for use offline or on a server](../vsto/how-to-cache-data-for-use-offline-or-on-a-server.md)
 - [How to: Programmatically cache a data source in an Office document](../vsto/how-to-programmatically-cache-a-data-source-in-an-office-document.md)
 - [How to: Cache data in a password-protected document](../vsto/how-to-cache-data-in-a-password-protected-document.md)

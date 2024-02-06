@@ -17,13 +17,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
 # Properties in Office projects
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   There are several important properties that are available to Office projects in Visual Studio. These properties can be accessed in the **Properties** window.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
@@ -49,7 +46,7 @@ ms.workload:
 
  Use the **Value2** property in the **Properties** window to bind the <xref:Microsoft.Office.Tools.Excel.NamedRange.Value2%2A> property of the <xref:Microsoft.Office.Tools.Excel.NamedRange> to a field in your data source.
 
-## See also
+## Related content
 - [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
 - [Office project templates overview](../vsto/office-project-templates-overview.md)
 - [Events in Office projects](../vsto/events-in-office-projects.md)

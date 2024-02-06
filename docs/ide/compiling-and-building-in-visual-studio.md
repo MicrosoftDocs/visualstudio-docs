@@ -1,22 +1,17 @@
 ---
-title: Compiling building
-description: Learn how you use the Visual Studio IDE build method, the MSBuild command-line tools build method, or Azure Pipelines build method to build an application.
-ms.date: 10/07/2022
-ms.technology: vs-ide-compile
+title: Use different build methods to build apps
+description: Use the Visual Studio IDE build method, the MSBuild command-line tools build method, or Azure Pipelines build method to build an application.
+ms.date: 1/11/2024
+ms.subservice: compile-build
 ms.topic: conceptual
 helpviewer_keywords:
 - builds [Visual Studio], about building in Visual Studio
 - custom build steps, types of builds
-ms.assetid: c7958821-285f-4e28-9e7a-b5d8b40336a1
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.workload:
-- multiple
 ---
 # Compile and build in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 For a first introduction to building within the IDE, see [Walkthrough: Building an application](walkthrough-building-an-application.md).
 
@@ -31,10 +26,7 @@ You can use any of the following methods to build an application: the Visual Stu
 
 The documentation in this section goes into further details of the IDE-based build process. For more information on the other methods, see [CMake](/cpp/build/cmake-projects-in-visual-studio), [MSBuild](../msbuild/msbuild.md) and [Azure Pipelines](/azure/devops/pipelines/index?view=vsts&preserve-view=true), respectively.
 
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Compile and build in Visual Studio for Mac](/visualstudio/mac/compiling-and-building).
-
-## Overview of building from the IDE
+## Building from the IDE
 
 When you create a project, Visual Studio created default build configurations for the project and the solution that contains the project.  These configurations define how the solutions and projects are built and deployed. Project configurations in particular are unique for a target platform (such as Windows or Linux) and build type (such as debug or release). You can edit these configurations however you like, and can also create your own configurations as needed.
 
@@ -50,7 +42,7 @@ From there, you can explore a variety of other tasks:
 - [Set build options](reference/options-dialog-box-projects-and-solutions-build-and-run.md)
 - [Build multiple projects in parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md).
 
-## See also
+## Related content
 
 - [Building (compiling) website projects](/previous-versions/hwxa5aha(v=vs.140))
 - [Compile and build (Visual Studio for Mac)](/visualstudio/mac/compiling-and-building)

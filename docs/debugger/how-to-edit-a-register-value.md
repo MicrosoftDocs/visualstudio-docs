@@ -1,5 +1,5 @@
 ---
-title: Edit a Register Value | Microsoft Docs
+title: Edit a Register Value
 description: Learn how to modify the contents of a register by editing its value in the Registers window (available only if address-level debugging is enabled).
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -10,17 +10,12 @@ dev_langs:
 helpviewer_keywords: 
   - Registers window, editing register values
   - register values
-ms.assetid: e27b6bd8-e6d4-4f1d-8a86-9f4047bb1167
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
-# How to: Edit a Register Value (C++)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Edit a Register Value (C++)
 
 The Registers window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node.
 
@@ -36,5 +31,5 @@ The Registers window is available only if address-level debugging is enabled in 
     > [!CAUTION]
     > Editing floating-point values can result in minor inaccuracies because of decimal-to-binary conversion of fractional components. Even a seemingly innocuous edit can result in changes to some of the least significant bits in a floating-point register.
 
-## See also
+## Related content
 - [How to: Use the Registers Window](../debugger/how-to-use-the-registers-window.md)

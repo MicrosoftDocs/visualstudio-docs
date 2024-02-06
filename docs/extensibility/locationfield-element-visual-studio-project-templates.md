@@ -3,22 +3,18 @@ title: LocationField Element (Visual Studio Project Templates)
 titleSuffix: ""
 description: Learn about the LocationField element and how it specifies if the New Project dialog box Location text box is enabled, disabled, or hidden for the project template.
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#LocationField
 helpviewer_keywords:
 - LocationField element [Visual Studio project templates]
-ms.assetid: 6aaaa155-6ce0-4f7f-aa50-8d63d7a7c992
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.workload:
-- vssdk
 ---
 # LocationField element (Visual Studio project templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies whether or not the **Location** text box in the **New Project** dialog box is enabled, disabled, or hidden for the project template.
 
  \<VSTemplate>

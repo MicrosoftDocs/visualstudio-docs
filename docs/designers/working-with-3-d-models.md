@@ -3,17 +3,12 @@ title: Working with 3D Models
 description: Learn about creating 3D models by using the Model Editor in Visual Studio, which you can use in your DirectX-based game or app.
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.assetid: fa035091-1354-4d1c-be44-4fb83860466f
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-designers
-ms.workload:
-- multiple
+ms.subservice: ui-designers
 ---
 # Work with 3D models
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use the Model Editor in Visual Studio to create 3D models. You can use the models in your DirectX-based game or app.
 

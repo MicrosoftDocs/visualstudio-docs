@@ -1,5 +1,5 @@
 ---
-title: When Element (MSBuild) | Microsoft Docs
+title: When Element (MSBuild)
 description: Learn about the MSBuild When element, which specifies a possible block of code for the Choose element to select.
 ms.date: 08/10/2022
 ms.topic: reference
@@ -12,13 +12,10 @@ dev_langs:
 helpviewer_keywords:
 - <When> Element [MSBuild]
 - When Element [MSBuild]
-ms.assetid: eb27de6f-4e71-4e87-87e2-d93f7bf5899c
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # When element (MSBuild)
 

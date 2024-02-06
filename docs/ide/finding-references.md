@@ -1,6 +1,6 @@
 ---
 title: Finding references in your code
-description: Learn about the Find All References command to find references to particular code elements in your code.
+description: Explore the Find All References command in Visual Studio to find references to particular code elements in your code, including by reference type.
 ms.date: 02/15/2023
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,13 +9,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Find references in your code
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use the **Find All References** command to find where particular code elements are referenced throughout your codebase. The **Find All References** command is available on the context (right-click) menu of the element you want to find references to. Or, if you're a keyboard user, press **Shift + F12**.
 
@@ -56,6 +52,6 @@ In C# or Visual Basic, the **Find References** window has a **Kind** column wher
 
 After you apply a filter or a filter set, you can easily remove it by using the **Clear All Filters** button.
 
-## See also
+## Related content
 
 - [Navigating code](../ide/navigating-code.md)

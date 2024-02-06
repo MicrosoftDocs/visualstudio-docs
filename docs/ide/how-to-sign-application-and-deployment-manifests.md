@@ -1,8 +1,8 @@
 ---
-title: 'How to: Sign application and deployment manifests'
-description: Learn about requirements for signing for publishing ClickOnce application and deployment manifests. Signing is optional for .exe-based applications.
+title: 'Sign application and deployment manifests'
+description: Explore the signing requirements to publish ClickOnce application and deployment manifests, and optional signing for .exe-based applications.
 ms.date: 09/14/2023
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ms.topic: conceptual
 helpviewer_keywords:
 - manifests [Visual Studio]
@@ -13,16 +13,11 @@ helpviewer_keywords:
 - ClickOnce deployment [Visual Studio], signing assemblies
 - key files [Visual Studio]
 - assemblies [Visual Studio], signing
-ms.assetid: 64173505-8bfb-41cf-a0de-b9075173f3a2
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.workload:
-- multiple
 ---
-# How to: Sign application and deployment manifests
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Sign application and deployment manifests
 
 If you want to publish an application by using ClickOnce deployment, the application and deployment manifests must be signed with a public/private key pair and signed using Authenticode technology. You can sign the manifests by using a certificate from the Windows certificate store or a key file.
 
@@ -117,7 +112,7 @@ To generate unsigned manifests that include all files in the hash, you must firs
 
 1. Publish the application.
 
-## See also
+## Related content
 
 - [Strong-named assemblies](/dotnet/framework/app-domains/strong-named-assemblies)
 - [How to: Create a public-private key pair](/dotnet/framework/app-domains/how-to-create-a-public-private-key-pair)

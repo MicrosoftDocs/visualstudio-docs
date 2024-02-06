@@ -1,5 +1,5 @@
 ---
-title: Getting Local Values | Microsoft Docs
+title: Getting Local Values
 description: Learn how Visual Studio gets the value of a local variable by using GetPropertyInfo for managed and unmanaged code.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,17 +7,13 @@ helpviewer_keywords:
 - expression evaluation, local values
 - debugging [Debugging SDK], local values
 - expression evaluation, getting local values
-ms.assetid: a10b0764-65ac-476f-bf42-b4a9c38e20de
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # Get local values
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 > [!IMPORTANT]
 > In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 

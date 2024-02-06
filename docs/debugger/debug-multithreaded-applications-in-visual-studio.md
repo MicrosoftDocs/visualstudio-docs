@@ -1,7 +1,6 @@
 ---
-title: "Debug multithreaded applications | Microsoft Docs"
-description: Debug multithreaded applications in Visual Studio. Review tools and other articles about debugging multithreaded apps.
-
+title: "Debug multithreaded applications"
+description: Debug multithreaded applications in Visual Studio and review tools and other articles about debugging multithreaded apps.
 ms.date: "07/13/2023"
 ms.topic: "conceptual"
 f1_keywords:
@@ -17,17 +16,13 @@ helpviewer_keywords:
   - "debugging [Visual Studio], multithreaded"
   - "multithreaded debugging"
   - "high-performance debugging"
-ms.assetid: 9d175bc2-1d95-4c47-9bc3-9755af968a9c
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Debug multithreaded applications in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A thread is a sequence of instructions to which the operating system grants processor time. Every process that is running in the operating system consists of at least one thread. Processes that have more than one thread are called multithreaded.
 
 Computers with multiple processors, multi-core processors, or hyperthreading processes can run several simultaneous threads. Parallel processing using many threads can greatly improve program performance, but it may also make debugging more difficult because you're tracking many threads.
@@ -76,7 +71,7 @@ Debugging a multithreaded application that has a user interface can be especiall
 
   Several ways to switch the debugging context to another thread.
 
-- [Follow a single thread while debugging](../debugger/get-started-debugging-multithreaded-apps.md#follow-a-single-thread-with-conditional-breakpoints)
+- [Follow a single thread while debugging](../debugger/get-started-debugging-multithreaded-apps.md#bkmk_follow_a_thread)
 
   Several ways to switch the debugging context to another thread.
 
@@ -100,7 +95,7 @@ Debugging a multithreaded application that has a user interface can be especiall
 
   Give your thread a name that you view in the **Threads** window.
 
-## See also
+## Related content
 
 - [Use breakpoints](../debugger/using-breakpoints.md)
 - [Threading](/dotnet/standard/threading/index)

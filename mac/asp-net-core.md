@@ -5,8 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 08/26/2022
-ms.assetid: 6E8B0C90-33D6-4546-8207-CE0787584565
-ms.custom: video, devdivchpfy22
+ms.custom: video
 no-loc: [Blazor, "Blazor WebAssembly"]
 ms.topic: how-to
 monikerRange: ">=vsmac-2022"
@@ -17,7 +16,6 @@ monikerRange: ">=vsmac-2022"
 
 Visual Studio for Mac makes it easy to develop your app's service with its support for the latest ASP.NET Core Web development platform. ASP.NET Core runs on the latest evolution of the .NET platform and runtime. It's been tuned for fast performance, factored for small install sizes, and reimagined to run on Linux and macOS, as well as Windows.
 
-
 ::: moniker range="vsmac-2022"
 
 ## Installing .NET 6
@@ -27,7 +25,6 @@ Visual Studio for Mac makes it easy to develop your app's service with its suppo
 ::: moniker-end
 
 ## Creating an ASP.NET Core app in Visual Studio for Mac
-
 
 ::: moniker range="vsmac-2022"
 
@@ -63,7 +60,6 @@ The ASP.NET Core Empty template creates a web application with default files lik
 ::: moniker-end
 
 ### Program.cs
-
 
 ::: moniker range="vsmac-2022"
 
@@ -106,7 +102,6 @@ Visual Studio for Mac uses a random port to launch your web project. To find out
 Once the project is running, your default web browser should launch and connect to the URL listed in the Application Output. Alternatively, you can open any browser of your choice, and enter `http://localhost:5000/`, replacing the `5000` with the port that Visual Studio output in the Application Output. You should see the text `Hello World!`:
 
 :::image type="content" source="media/asp-net-core-image7.png" alt-text="Screenshot of a web browser showing text.":::
-
 
 ## Troubleshooting
 

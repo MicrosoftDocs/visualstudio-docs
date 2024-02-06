@@ -1,18 +1,14 @@
 ---
 title: Guidelines for Writing T4 Text Templates
-description: Learn the general guidelines that are helpful if you are generating program code or other application resources in Visual Studio.
+description: Review helpful guidelines for generating program code or other application resources in Visual Studio with T4 text templates.
 ms.date: 11/04/2016
 ms.topic: conceptual
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+ms.subservice: modeling
 ---
 # Guidelines for Writing T4 Text Templates
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 These general guidelines might be helpful if you are generating program code or other application resources in Visual Studio. They are not fixed rules.
 
@@ -167,7 +163,7 @@ However, for some kinds of business requirements, it is important to clarify com
 
 You can also design your own type of diagram as a domain-specific language (DSL). Code can be generated from both UML and DSLs. For more information, see [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md).
 
-## See also
+## Related content
 
 - [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)
 - [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md)

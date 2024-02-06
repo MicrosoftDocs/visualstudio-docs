@@ -1,32 +1,25 @@
 ---
-title: 'Walkthrough: Displaying Statement Completion | Microsoft Docs'
+title: 'Walkthrough: Displaying Statement Completion'
 description: Learn how to implement language-based statement completion for plaintext content by using this walkthrough.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - statement completion
-ms.assetid: f3152c4e-7673-4047-a079-2326941d1c83
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 dev_langs:
 - CSharp
 - VB
-ms.workload:
-- vssdk
 ---
 # Walkthrough: Display statement completion
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can implement language-based statement completion by defining the identifiers for which you want to provide completion and then triggering a completion session. You can define statement completion in the context of a language service, define your own file name extension and content type and then display completion for just that type. Or, you can trigger completion for an existing content type—for example, "plaintext". This walkthrough shows how to trigger statement completion for the "plaintext" content type, which is the content type of text files. The "text" content type is the ancestor of all other content types, including code and XML files.
 
  Statement completion is typically triggered by typing certain characters—for example, by typing the beginning of an identifier such as "using". It's typically dismissed by pressing the **Spacebar**, **Tab**, or **Enter** key to commit a selection. You can implement the IntelliSense features that trigger when typing a character by using a command handler for the keystrokes (the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface) and a handler provider that implements the <xref:Microsoft.VisualStudio.Editor.IVsTextViewCreationListener> interface. To create the completion source, which is the list of identifiers that participate in completion, implement the <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSource> interface and a completion source provider (the <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSourceProvider> interface). The providers are Managed Extensibility Framework (MEF) component parts. They're responsible for exporting the source and controller classes and importing services and brokers—for example, the <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigatorSelectorService>, which enables navigation in the text buffer, and the <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionBroker>, which triggers the completion session.
 
  This walkthrough shows how to implement statement completion for a hard-coded set of identifiers. In full implementations, the language service and the language documentation are responsible for providing that content.
-
-## Prerequisites
- Starting in Visual Studio 2015, you don't install the Visual Studio SDK from the download center. It's included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ## Create a MEF Project
 
@@ -286,5 +279,5 @@ You can implement language-based statement completion by defining the identifier
 
 4. As you type first "a" and then "d", a list that contains "addition" and "adaptation" should appear. Notice that addition is selected. When you type another "d", the list should contain only "addition", which is now selected. You can commit "addition" by pressing the **Spacebar**, **Tab**, or **Enter** key, or dismiss the list by typing Esc or any other key.
 
-## See also
+## Related content
 - [Walkthrough: Link a content type to a file name extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

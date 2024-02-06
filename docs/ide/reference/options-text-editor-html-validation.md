@@ -2,19 +2,15 @@
 title: Options, Text Editor, HTML (Web Forms), Validation
 description: Learn how to use the Validation page in the HTML section to set preferences for how the HTML editor checks the syntax of HTML markup in your document.
 ms.date: 1/15/2019
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.HTML.Validation
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.workload:
-- multiple
 ---
 # Options, Text Editor, HTML (Web Forms), Validation
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Validation** options page to set preferences for how the HTML editor checks the syntax of HTML markup in your document. To access this page, on the menu bar, choose **Tools** > **Options**, and then expand **Text Editor** > **HTML (Web Forms)** > **Validation**.
 

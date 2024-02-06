@@ -1,22 +1,18 @@
 ---
-title: Wizard Interface (IDTWizard) | Microsoft Docs
+title: Wizard Interface (IDTWizard)
 description: The IDE uses the IDTWizard interface to communicate with wizards. Wizards must implement this interface to be installed in the IDE.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDTWizard interface
 - wizards, interface
-ms.assetid: 09618d9d-d115-45b6-bccc-de328994b39c
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Wizard Interface (IDTWizard)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The integrated development environment (IDE) uses the <xref:EnvDTE.IDTWizard> interface to communicate with wizards. Wizards must implement this interface in order to be installed in the IDE.
 
  The <xref:EnvDTE.IDTWizard.Execute%2A> method is the only method associated with the <xref:EnvDTE.IDTWizard> interface. Wizards implement this method and the IDE calls the method on the interface. The following example shows the signature of the method.

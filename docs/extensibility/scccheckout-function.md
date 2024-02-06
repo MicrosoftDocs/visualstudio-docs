@@ -1,23 +1,19 @@
 ---
 description: "Given a list of fully qualified file names, this function checks them out to the local drive."
-title: SccCheckout Function | Microsoft Docs
+title: SccCheckout Function
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - SccCheckout
 helpviewer_keywords:
 - SccCheckout function
-ms.assetid: 06e9ecd7-fc09-40c1-9dd1-2b56c622c80b
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # SccCheckout function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Given a list of fully qualified file names, this function checks them out to the local drive. The comment applies to all files being checked out. The comment argument can be a `null` string.
 
 ## Syntax

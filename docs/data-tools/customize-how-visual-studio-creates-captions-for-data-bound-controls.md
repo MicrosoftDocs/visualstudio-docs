@@ -1,6 +1,6 @@
 ---
-title: Customize captions for data-bound controls
-description: Customize how Visual Studio creates captions for data-bound controls. Modify the smart captioning behavior of the Data Sources window. Turn off smart captioning.
+title: Customize captions for data-bound controls in .NET Framework applications
+description: Customize how Visual Studio creates captions for data-bound controls in .NET Framework applications. Modify the smart captioning behavior of the Data Sources window. Turn off smart captioning.
 ms.date: 11/03/2017
 ms.topic: how-to
 helpviewer_keywords:
@@ -8,17 +8,12 @@ helpviewer_keywords:
 - smart captions
 - captions, data-bound
 - Data Sources Window, label captions
-ms.assetid: 6d4d15f8-4d78-42fd-af64-779ae98d62c8
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# Customize how Visual Studio creates captions for data-bound controls
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Customize how Visual Studio creates captions for data-bound controls in .NET Framework applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -108,6 +103,6 @@ The following table lists the internal default settings for these registry value
 
     The next time you drag items from the **Data Sources** window, the caption labels are created with unmodified captions.
 
-## See also
+## Related content
 
 - [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)

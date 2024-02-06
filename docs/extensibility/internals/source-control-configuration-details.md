@@ -1,21 +1,17 @@
 ---
-title: Source Control Configuration Details | Microsoft Docs
+title: Source Control Configuration Details
 description: Learn about implementing source control for a project type in Visual Studio, which involves configuring your project system or editor to request permissions.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - source control [Visual Studio SDK], configuration details
-ms.assetid: adbee9fc-7a2e-4abe-a3b8-e6615bcd797f
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Source Control Configuration Details
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In order to implement source control, you need to properly configure your project system or editor to do the following:
 
 - Request permission to transition to changed state
@@ -48,7 +44,7 @@ In order to implement source control, you need to properly configure your projec
 
  For each add, rename, and remove action, there is an `OnQuery*` method and an `OnAfter*` method. Call the `OnQuery*` method to ask permission to add, rename, or remove the file or directory. Call the `OnAfter*` method after the file or directory has been added, renamed, or removed and the project state reflects the new state.
 
-## See also
+## Related content
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QuerySaveFile%2A>

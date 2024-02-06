@@ -1,20 +1,18 @@
 ---
 title: "Tutorial: Display a message when a player wins"
-description: In this tutorial, you'll finish the Matching Game by adding code to keep matched pairs visible and display a message when a player wins.
+description: Complete code development on a matching game by adding code to keep matched pairs visible and display a message when a player wins.
 dev_langs:
   - "CSharp"
   - "VB"
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: tutorial
 ms.date: 03/16/2023
 ms.custom: vs-acquisition
 ---
 # Tutorial: Display a message in your matching game WinForms app
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this series of four tutorials, you build a matching game, where the player matches pairs of hidden icons.
 

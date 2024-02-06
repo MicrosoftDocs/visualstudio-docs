@@ -6,8 +6,6 @@ ms.author: dominicn
 manager: dominicn
 ms.date: 12/16/2019
 ms.topic: conceptual
-ms.assetid: 4bcb8acf-db50-4bd8-a48e-86248f00c90b
-
 ---
 # Debugging into NuGet packages with Source Link in Visual Studio for Mac
 
@@ -32,7 +30,6 @@ You can change the setting in **Download External Code** to suit your preference
 By default, **Ask** is selected. You'll receive the following prompt when external code is found for a NuGet package:
 
 ![Screenshot of prompt that appears when external code is found for a NuGet package](media/source-link2.png)
-
 
 ## See also
 

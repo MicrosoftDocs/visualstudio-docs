@@ -3,17 +3,12 @@ title: Connection string contains password
 description: The connection string contains credentials with a clear text password and is not using integrated security
 ms.date: 11/04/2016
 ms.topic: error-reference
-ms.assetid: 501d85af-92e0-4471-b280-8a59c0688575
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
 # The connection string contains credentials with a clear text password and is not using integrated security
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Do you want to save the connection string to the current DBML file and application configuration files with this sensitive information?  Click **No** to save the connection string without the sensitive information.
 

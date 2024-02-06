@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the file name of the library or object file from which the object was loaded."
-title: "IDiaSymbol::get_libraryName | Microsoft Docs"
+title: "IDiaSymbol::get_libraryName"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_libraryName method"
-ms.assetid: d04ddd9a-812d-46e4-bd39-28bdf3edfb70
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_libraryName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the file name of the library or object file from which the object was loaded.
 
 ## Syntax

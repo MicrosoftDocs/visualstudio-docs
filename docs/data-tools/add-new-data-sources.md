@@ -1,6 +1,6 @@
 ---
-title: Add new data sources
-description: Add new data sources in Visual Studio. A data source is a .NET object that connects to a data store and make the data available to a .NET application.
+title: Add data sources in ADO.NET apps (.NET Framework)
+description: Add .NET Framework data sources by using ADO.NET in Visual Studio and connect your application to information in a data store.
 ms.date: 06/01/2023
 ms.topic: how-to
 f1_keywords:
@@ -8,17 +8,12 @@ f1_keywords:
 helpviewer_keywords:
 - data [Visual Studio], data sources
 - data sources
-ms.assetid: ed28c625-bb89-4037-bfde-cfa435d182a2
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# Add new data sources
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Add new data sources in ADO.NET applications (.NET Framework)
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -121,6 +116,6 @@ If you want to bind to an object in an assembly or project that doesn't appear i
 
 You can create a data source from a SharePoint list by running the **Data Source Configuration Wizard** and selecting the **SharePoint** data-source type. SharePoint exposes data through WCF Data Services, so creating a SharePoint data source is the same as creating a data source from a service. Selecting the **SharePoint** item in the **Data Source Configuration Wizard** opens the **Add Service Reference** dialog box, where you connect to the SharePoint data service by pointing to the SharePoint server. This action requires the SharePoint SDK.
 
-## See also
+## Related content
 
 - [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)

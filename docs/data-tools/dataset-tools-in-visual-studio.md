@@ -1,6 +1,6 @@
 ---
-title: Dataset tools
-description: Review the dataset tools available in Visual Studio. Read about dataset workflow, datasets and N-tier architecture, and datasets and XML.
+title: Overview of dataset tools for .NET Framework apps
+description: Explore ADO.NET dataset tools for .NET Framework applications in Visual Studio, including dataset workflows, N-tier architectures, and XML.
 ms.date: 11/21/2018
 ms.topic: conceptual
 f1_keywords:
@@ -42,17 +42,12 @@ helpviewer_keywords:
 - datasets [Visual Basic], populating
 - datasets [Visual Basic], namespace
 - data adapters, populating datasets
-ms.assetid: ee57f4f6-9fe1-4e0a-be9a-955c486ff427
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# DataSet tools in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Visual Studio dataset tools for developing .NET Framework applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -92,6 +87,6 @@ For information about datasets in N-tier applications, see [Work with datasets i
 
 For information about converting datasets to and from XML, see [Read XML data into a dataset](../data-tools/read-xml-data-into-a-dataset.md) and [Save a dataset as XML](../data-tools/save-a-dataset-as-xml.md).
 
-## See also
+## Related content
 
 - [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)

@@ -1,5 +1,5 @@
 ---
-title: "&lt;publisherIdentity&gt; Element (ClickOnce Deployment) | Microsoft Docs"
+title: "&lt;publisherIdentity&gt; Element (ClickOnce Deployment)"
 description: The publisherIdentity element contains information about the publisher that signed a deployment manifest. The element is required for signed manifests.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -11,17 +11,13 @@ helpviewer_keywords:
   - "publisherIdentity Element [ClickOnce deployment manifest], introduction"
   - "required element for signed manifests [ClickOnce], publisherIdentity Element"
   - "publisherIdentity Element [ClickOnce deployment manifest], syntax, elements, and attributes"
-ms.assetid: 34c579db-d2f2-4b66-b9c8-47207f33d950
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+ms.subservice: deployment
 ---
 # &lt;publisherIdentity&gt; element (ClickOnce deployment)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Contains information about the publisher that signed this deployment manifest.
 
 ## Syntax

@@ -1,23 +1,19 @@
 ---
-title: Adding Icons to Menu Commands | Microsoft Docs
-description: Learn how to add icons to commands that can appear on both menus and toolbars in the Visual Studio integrated development environment (IDE).
+title: Adding Icons to Menu Commands
+description: Add 16 by 16 icons with 8-bit or 32-bit color depth to menu and toolbar commands in the Visual Studio integrated development environment (IDE).
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - icons [Visual Studio], adding to toolbars
 - toolbars [Visual Studio], adding icons to commands
 - commands [Visual Studio], adding icons
-ms.assetid: 362a0c7e-5729-4297-a83f-1aba1a37fd44
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Add icons to menu commands
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Commands can appear on both menus and toolbars. On toolbars, it is common for a command to be displayed with just an icon (to save space) while on menus a command typically appears with both an icon and text.
 
  Icons are 16 pixels wide by 16 pixels high and can be either 8-bit color depth (256 colors) or 32-bit color depth (true color). 32-bit color icons are preferred. Icons are typically arranged in a single horizontal row in a single bitmap, although multiple bitmaps are allowed. This bitmap is declared in the *.vsct* file along with the individual icons available in the bitmap. See the reference for the [Bitmaps element](../extensibility/bitmaps-element.md) for more details.
@@ -51,7 +47,7 @@ Commands can appear on both menus and toolbars. On toolbars, it is common for a 
     </GuidSymbol>
     ```
 
-6. Create a `<Bitmap>` in the `<Bitmaps>` section of the *.vsct* file to represent the bitmap containing the icons.
+6. Create a `<Bitmap>` in the `<Bitmaps>` section within `<Commands>` section of the *.vsct* file to represent the bitmap containing the icons.
 
     - Set the `guid` value to the name of the `<GuidSymbol>` element you created in the previous step.
 
@@ -79,6 +75,6 @@ Commands can appear on both menus and toolbars. On toolbars, it is common for a 
 
 8. Test your icon. Build the project and start debugging. In the experimental instance, find the command. It should show the icon you added.
 
-## See also
+## Related content
 - [Extending menus and commands](../extensibility/extending-menus-and-commands.md)
 - [VSCT XML schema reference](../extensibility/vsct-xml-schema-reference.md)

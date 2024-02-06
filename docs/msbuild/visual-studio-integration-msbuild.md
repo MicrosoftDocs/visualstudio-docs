@@ -1,9 +1,9 @@
 ---
 title: Visual Studio Integration (MSBuild)
 titleSuffix: ''
-description: Learn how Visual Studio can host projects in MSBuild format, even if they were authored by different tools and had customized build processes.
+description: Explore how Visual Studio can host projects in MSBuild format, even if they were authored by different tools and had customized build processes.
 ms.date: 10/20/2021
-ms.topic: conceptual
+ms.topic: overview
 helpviewer_keywords:
 - MSBuild, reference resolution
 - MSBuild, well-known target names
@@ -14,13 +14,10 @@ helpviewer_keywords:
 - MSBuild, output groups
 - MSBuild, in-process compilers
 - MSBuild, design-time target execution
-ms.assetid: 06cd6d7f-8dc1-4e49-8a72-cc9e331d7bca
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 
 # Visual Studio integration (MSBuild)
@@ -197,7 +194,7 @@ Adding item type names to the `AvailableItemName` item type will cause items of 
 
  If you use the Visual Studio IDE to start debugging (either by choosing the F5 key or by choosing **Debug** > **Start Debugging** on the menu bar) or to build your project (for example, **Build** > **Build Solution**), the build process uses a fast update check to improve performance. In some cases where customized builds create files that get built in turn, the fast update check does not correctly identify the changed files. Projects that need more thorough update checks can turn off the fast checking by setting the environment variable `DISABLEFASTUPTODATECHECK=1`. Alternatively, projects can set this as an MSBuild property in the project or in a file the project imports.
 
-## See also
+## Related content
 
 - [How to: Extend the Visual Studio build process](../msbuild/how-to-extend-the-visual-studio-build-process.md)
 - [Start a build from within the IDE](../msbuild/starting-a-build-from-within-the-ide.md)

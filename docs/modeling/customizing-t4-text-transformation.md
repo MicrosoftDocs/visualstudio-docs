@@ -9,13 +9,9 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+ms.subservice: modeling
 ---
 # Customize T4 Text Transformation
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Text templates are a feature of Visual Studio that allow you to generate program code or other text files through a transformation process. Using Visual Studio SDK, you can extend the default template transformation process by customizing the text template directive processor or the text template host.
 
@@ -35,6 +31,6 @@ Text templates are a feature of Visual Studio that allow you to generate program
 
  If you are writing a Visual Studio extension, consider using the existing text transformation service instead of writing your own host. For more information, see [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md).
 
-## Reference
+## Related content
 
 - [Write a T4 text template](../modeling/writing-a-t4-text-template.md) provides the syntax of text template directives and control blocks.

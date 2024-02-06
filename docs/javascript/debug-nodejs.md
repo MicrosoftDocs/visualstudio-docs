@@ -1,22 +1,17 @@
 ---
 title: "Debug a JavaScript or TypeScript app"
-description: Visual Studio provides support for debugging JavaScript and TypeScript apps in Visual Studio.
+description: Debug JavaScript and TypeScript applications in Visual Studio, reach breakpoints in your code, attach the debugger, inspect variables, view the call stack, and more.
 ms.date: "06/05/2023"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-javascript
-ms.custom: devdivchpfy22
+ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
-ms.workload:
-  - "nodejs"
 ---
 # Debug a JavaScript or TypeScript app in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can debug JavaScript and TypeScript code using Visual Studio. You can hit breakpoints, attach the debugger, inspect variables, view the call stack, and use other debugging features.
 
@@ -47,7 +42,7 @@ Visual Studio provides client-side debugging support only for Chrome and Microso
 
 - For debugging client-side script in ASP.NET apps, choose **Tools** > **Options** > **Debugging**, and then select **Enable JavaScript Debugging for ASP.NET (Chrome, Edge, and IE)**.
 
-  For more detailed information, see the blog post [Debug JavaScript in Microsoft Edge](https://devblogs.microsoft.com/visualstudio/debug-javascript-in-microsoft-edge-from-visual-studio/) and this [post for Google Chrome](https://devblogs.microsoft.com/aspnet/client-side-debugging-of-asp-net-projects-in-google-chrome). For debugging TypeScript in ASP.NET Core, see [Create an ASP.NET Core app with TypeScript](tutorial-aspnet-with-typescript.md).
+  For more detailed information, see the blog post [Debug JavaScript in Microsoft Edge](https://devblogs.microsoft.com/visualstudio/debug-javascript-in-microsoft-edge-from-visual-studio/) and this [post for Google Chrome](https://devblogs.microsoft.com/aspnet/client-side-debugging-of-asp-net-projects-in-google-chrome). For debugging TypeScript in ASP.NET Core, see [Add TypeScript to an existing ASP.NET Core app](tutorial-aspnet-with-typescript.md).
 
 - For Node.js applications and other JavaScript projects, follow the steps described here.
 
@@ -162,7 +157,7 @@ Visual Studio has the capability to use and generate source maps on JavaScript s
 - In a JavaScript project, you can generate source maps using a bundler like webpack and a compiler like the TypeScript compiler (or Babel), which you can add to your project. For the TypeScript compiler, you must also add a *tsconfig.json* file and set the ```sourceMap``` compiler option. For an example that shows how to do this using a basic webpack configuration, see [Create a Node.js app with React](../javascript/tutorial-nodejs-with-react-and-jsx.md).
 
 > [!NOTE]
-> If you are new to source maps, read [Introduction to JavaScript Source Maps](https://www.html5rocks.com/en/tutorials/developertools/sourcemaps/) before continuing.
+> If you are new to source maps, read [What are Source Maps?](https://web.dev/articles/source-maps) before continuing.
 
 To configure advanced settings for source maps, use either a *tsconfig.json* or the project settings in a TypeScript project, but not both.
 
@@ -247,6 +242,6 @@ However, you can't automatically hit breakpoints on files generated with Razor s
 
 For more information, see [Client-side debugging of ASP.NET projects in Google Chrome](https://devblogs.microsoft.com/aspnet/client-side-debugging-of-asp-net-projects-in-google-chrome/).
 
-## See also
+## Related content
 
 [Properties, React, Angular, Vue](../ide/reference/property-pages-javascript-esproj.md)

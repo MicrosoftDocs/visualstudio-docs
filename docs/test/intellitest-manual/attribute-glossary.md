@@ -7,14 +7,10 @@ helpviewer_keywords:
 - IntelliTest, Attribute glossary
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
-ms.workload:
-- multiple
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Attribute glossary
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ## Attributes by namespace
 

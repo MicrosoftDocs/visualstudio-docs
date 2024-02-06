@@ -1,22 +1,18 @@
 ---
-title: Getting a Port | Microsoft Docs
+title: Getting a Port
 description: Learn how Visual Studio supplies a port to the debug engine to register program nodes with the port and to satisfy requests for process information.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - ports, getting
 - debugging [Debugging SDK], ports
-ms.assetid: 745c2337-cfff-4d02-b49c-3ca7c4945c5e
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # Get a port
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A port represents a connection to a machine on which processes are running. That machine could be the local machine or a remote machine (which could possibly be running a non-Windows-based operating system; see [Ports](../../extensibility/debugger/ports.md) for more information).
 
 A port is represented by the [IDebugPort2](../../extensibility/debugger/reference/idebugport2.md) interface. It is used to obtain information about processes running on the machine the port is connected to.
@@ -94,7 +90,7 @@ HRESULT CDebugEngine::ResumeProcess(IDebugProcess2 *pDebugProcess)
 }
 ```
 
-## See also
+## Related content
 - [Registering the program](../../extensibility/debugger/registering-the-program.md)
 - [Enabling a program to be debugged](../../extensibility/debugger/enabling-a-program-to-be-debugged.md)
 - [Port suppliers](../../extensibility/debugger/port-suppliers.md)

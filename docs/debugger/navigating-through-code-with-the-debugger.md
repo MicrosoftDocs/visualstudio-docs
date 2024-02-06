@@ -1,7 +1,6 @@
 ---
 title: "Navigate code with the debugger"
 description: "Learn how to use the Visual Studio debugger to troubleshoot your code. Topics include entering break mode, stepping through code, and running to a target."
-
 ms.date: 06/16/2023
 ms.topic: how-to
 f1_keywords: 
@@ -13,13 +12,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
 # Navigate through code by using the Visual Studio debugger
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio debugger can help you navigate through code to inspect the state of an app and show its execution flow, which is also known as *code stepping*. You can use keyboard shortcuts, debug commands, breakpoints, and other features to quickly get to the code you want to examine. By getting more familiar with debugger navigation commands and shortcuts, you can find and resolve app problems faster and more easily. For a list of the most common keyboard shortcuts related to code navigation and debugging, see the [Debug](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_debug-popular-shortcuts) section in Keyboard shortcuts.
 
@@ -183,7 +178,7 @@ For information about visually tracing the call stack, see [Map methods on the c
 
 ### Run to a cursor location
 
-To run to the cursor location, in source code or the **Call Stack** window, select the line you want to break at, and then right-click and select **Run To Cursor**, or select **Ctrl**+**F10**. Selecting **Run To Cursor** is similar to setting a [temporary breakpoint](../debugger/using-breakpoints.md#set-a-temporary-breakpoint).
+To run to the cursor location, in source code or the **Call Stack** window, select the line you want to break at, and then right-click and select **Run To Cursor**, or select **Ctrl**+**F10**. Selecting **Run To Cursor** is similar to setting a [temporary breakpoint](../debugger/using-breakpoints.md#BKMK_set_a_temporary_breakpoint).
 
 ::: moniker range=">= vs-2022"
 ### Force run to a cursor location
@@ -193,7 +188,7 @@ To run to the cursor location, in source code or the **Call Stack** window, sele
 ::: moniker-end
 ### Run to click
 
-While the debugger is paused, you can hover over a statement in source code or the **Disassembly** window and select the **Run execution to here** green arrow. Using **Run to Click** is similar to setting a [temporary breakpoint](../debugger/using-breakpoints.md#set-a-temporary-breakpoint).
+While the debugger is paused, you can hover over a statement in source code or the **Disassembly** window and select the **Run execution to here** green arrow. Using **Run to Click** is similar to setting a [temporary breakpoint](../debugger/using-breakpoints.md#BKMK_set_a_temporary_breakpoint).
 
 ![Screenshot that shows Run to Click and the green arrow.](../debugger/media/dbg-run-to-click.png)
 
@@ -246,7 +241,7 @@ You can change the next statement that will run by moving the yellow execution p
 
 This is an advanced debugger feature. For more information, see [Move the execution pointer](../debugger/move-the-execution-pointer-with-the-debugger.md).
 
-## See also
+## Related content
 - [What is debugging?](../debugger/what-is-debugging.md)
 - [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md)
 - [First look at debugging](../debugger/debugger-feature-tour.md)

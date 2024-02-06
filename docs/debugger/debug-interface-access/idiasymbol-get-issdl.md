@@ -1,21 +1,17 @@
 ---
 description: "Specifies whether the module is compiled with the /SDL option."
-title: "IDiaSymbol::get_isSdl | Microsoft Docs"
+title: "IDiaSymbol::get_isSdl"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: 6aa0e116-da75-4643-a4d7-d8e142231e21
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_isSdl
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies whether the module is compiled with the /SDL option.
 
 ## Syntax

@@ -1,26 +1,22 @@
 ---
 description: "Gets a detailed description of the exception that fired this event."
-title: IDebugExceptionEvent2::GetException | Microsoft Docs
+title: IDebugExceptionEvent2::GetException
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugExceptionEvent2::GetException
 helpviewer_keywords:
 - IDebugExceptionEvent2::GetException
-ms.assetid: 7c98f41d-322b-4e72-a514-cbd4823eb70d
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugExceptionEvent2::GetException
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets a detailed description of the exception that fired this event.
 
 ## Syntax

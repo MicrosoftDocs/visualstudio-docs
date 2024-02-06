@@ -1,21 +1,17 @@
 ---
-title: "Introducing Spy++ | Microsoft Docs"
+title: Introducing the Spy++ debugging tool
 description: Read about the Spy++ debugging tool. Display a graphical tree of system object relationships. Get properties for selected windows, threads, processes, or messages.
 ms.date: "02/22/2023"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "Spy++"
-ms.assetid: 733b514b-63a9-402d-89aa-4f0416766655
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Introducing Spy++
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Spy++ lets you perform the following tasks:
 
 - Display a graphical tree of relationships among system objects. These include [processes](../debugger/processes-view.md), [threads](../debugger/threads-view.md), and [windows](../debugger/windows-view.md).
@@ -50,7 +46,7 @@ Spy++ lets you perform the following tasks:
 > [!NOTE]
 > Although the Spy++ (64-bit) file name contains "amd", it runs on any x64 Windows operating system.
 
-## See also
+## Related content
 
 - [How to: Start Spy++](../debugger/how-to-start-spy-increment.md)
 - [Using Spy++](../debugger/using-spy-increment.md)

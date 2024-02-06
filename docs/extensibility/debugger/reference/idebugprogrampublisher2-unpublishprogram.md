@@ -1,26 +1,22 @@
 ---
 description: "Makes a program unavailable to be debugged."
-title: IDebugProgramPublisher2::UnpublishProgram | Microsoft Docs
+title: IDebugProgramPublisher2::UnpublishProgram
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgramPublisher2::UnpublishProgram
 helpviewer_keywords:
 - IDebugProgramPublisher2::UnpublishProgram
-ms.assetid: 627e7d38-b2ac-4873-9a40-37ff7f47cd1d
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProgramPublisher2::UnpublishProgram
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Makes a program unavailable to be debugged.
 
 ## Syntax

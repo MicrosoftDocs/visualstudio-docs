@@ -1,23 +1,19 @@
 ---
 description: "Enumerates by address the various symbols contained in the data source."
-title: "IDiaEnumSymbolsByAddr | Microsoft Docs"
+title: "IDiaEnumSymbolsByAddr"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumSymbolsbyAddr interface"
-ms.assetid: 37d3dcdf-e4fa-4354-b5e1-8843566b52ac
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaEnumSymbolsByAddr
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enumerates by address the various symbols contained in the data source.
 
 ## Syntax

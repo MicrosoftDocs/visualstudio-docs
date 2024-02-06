@@ -5,23 +5,18 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - architecture
-ms.assetid: 822cbb8d-7ab4-40ee-bd12-44016ebcce81
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Inside the editor
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The editor is composed of several different subsystems, which are designed to keep the editor text model separate from the text view and the user interface.
 
 These sections describe different aspects of the editor:
 
-- [Overview of the subsystems](../extensibility/inside-the-editor.md#overview-of-the-subsystems)
+- [Overview of the subsystems](../extensibility/inside-the-editor.md#the-subsystems)
 
 - [The text model](../extensibility/inside-the-editor.md#the-text-model)
 
@@ -43,7 +38,7 @@ These sections describe the features of the editor:
 
 - [IntelliSense](../extensibility/inside-the-editor.md#intellisense)
 
-## Overview of the subsystems
+## The subsystems
 
 ### Text model subsystem
 
@@ -319,7 +314,7 @@ Statement completion provides pop-up lists of potential completions for method n
 ## Troubleshooting Import/Export Issues: Access the MEF Composition Error Log 
 You may experience issues if you try to import something that doesn't exist in the current VS install, or if you incorrectly author your import or export.  The primary way to find and address these issues is to reference the **Managed Extensibility Framework (MEF) Composition Error Log**, stored at *%localappdata%\Microsoft\VisualStudio[yourVSVersion]\ComponentModelCache\Microsoft.VisualStudio.Default.err*.
 
-## See also
+## Related content
 
 - [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)
 - [Editor imports](../extensibility/editor-imports.md)

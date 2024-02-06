@@ -1,23 +1,19 @@
 ---
 description: "Positions the enumerator by performing a lookup by virtual address (VA)."
-title: "IDiaEnumSymbolsByAddr::symbolByVA | Microsoft Docs"
+title: "IDiaEnumSymbolsByAddr::symbolByVA"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumSymbolsByAddr::symbolByVA method"
-ms.assetid: ac84339f-70c6-48ed-85d0-6d7d1b5194e8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaEnumSymbolsByAddr::symbolByVA
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Positions the enumerator by performing a lookup by virtual address (VA).
 
 ## Syntax

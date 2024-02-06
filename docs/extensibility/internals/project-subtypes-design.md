@@ -1,21 +1,16 @@
 ---
-title: Project Subtypes Design | Microsoft Docs
+title: Project Subtypes Design
 description: Learn how project subtypes let VSPackages extend projects based on the Microsoft Build Engine (MSBuild).
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - project subtypes, design
-ms.assetid: 405488bb-1362-40ed-b0f1-04a57fc98c56
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Project Subtypes Design
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Project subtypes let VSPackages extend projects based on the Microsoft Build Engine (MSBuild). The use of aggregation lets you reuse the bulk of the core managed project system implemented in Visual Studio yet still customize the behavior for a particular scenario.
 

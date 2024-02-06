@@ -1,26 +1,22 @@
 ---
 description: "Obtains a specified interface across process boundaries."
-title: IDebugProviderProgramNode2::UnmarshalDebuggeeInterface | Microsoft Docs
+title: IDebugProviderProgramNode2::UnmarshalDebuggeeInterface
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProviderProgramNode2::UnmarshalDebuggeeInterface
 helpviewer_keywords:
 - IDebugProviderProgramNode2::UnmarshalDebuggeeInterface
-ms.assetid: 2e4653c5-10f1-493c-9973-f31d266c5d48
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProviderProgramNode2::UnmarshalDebuggeeInterface
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Obtains a specified interface across process boundaries.
 
 ## Syntax

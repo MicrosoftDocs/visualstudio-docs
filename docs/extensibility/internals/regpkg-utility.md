@@ -1,22 +1,18 @@
 ---
-title: RegPkg Utility | Microsoft Docs
+title: RegPkg Utility
 description: Learn how the RegPkg.exe utility registers a VSPackage with Visual Studio and prepares it for deployment.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - regpkg, registration utility
 - registration, regpkg utility
-ms.assetid: 1683ee18-59d1-4bab-a674-dd00dd960de3
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # RegPkg Utility
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 > [!NOTE]
 > The preferred way to register packages in Visual Studio is by using .pkgdef files. This allows for extension deployment without having to access the system registry, which is a requirement for VSIX deployment. Pkgdef files are created by using the [CreatePkgDef Utility](../../extensibility/internals/createpkgdef-utility.md). For more information on Visual Studio package deployment, see [Shipping Visual Studio Extensions](../../extensibility/shipping-visual-studio-extensions.md).
 

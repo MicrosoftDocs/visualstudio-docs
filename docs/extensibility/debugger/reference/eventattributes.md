@@ -1,26 +1,22 @@
 ---
 description: "Specifies the event attributes."
-title: EVENTATTRIBUTES | Microsoft Docs
+title: EVENTATTRIBUTES
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - EVENTATTRIBUTES
 helpviewer_keywords:
 - EVENTATTRIBUTES enumeration
-ms.assetid: 04db10f7-df31-4464-98e8-b3777428179e
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # EVENTATTRIBUTES
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the event attributes.
 
 ## Syntax

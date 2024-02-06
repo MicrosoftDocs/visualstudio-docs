@@ -1,26 +1,22 @@
 ---
 description: "IDebugEngineLaunch2::TerminateProcess terminates a process."
-title: IDebugEngineLaunch2::TerminateProcess | Microsoft Docs
+title: IDebugEngineLaunch2::TerminateProcess
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEngineLaunch2::TerminateProcess
 helpviewer_keywords:
 - IDebugEngineLaunch2::TerminateProcess
-ms.assetid: f7039e7f-5f57-4222-9ad2-11a66b2da6e0
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugEngineLaunch2::TerminateProcess
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Terminates a process.
 
 ## Syntax

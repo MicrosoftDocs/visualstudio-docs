@@ -1,20 +1,18 @@
 ---
 title: Work with multiple containers using Docker Compose
 author: ghogen
-description: Learn how to use multiple containers with Docker Compose and create a custom launch profile.
+description: Create and manage multi-container applications with Docker Compose and Container Tools in Visual Studio, including custom launch profiles.
 ms.author: ghogen
-ms.date: 9/8/2023
-ms.technology: vs-container-tools
+ms.date: 10/18/2023
+ms.subservice: container-tools
 ms.topic: tutorial
 ---
 # Tutorial: Create a multi-container app with Docker Compose
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
-In this tutorial, you'll learn how to manage more than one container and communicate between them when using Container Tools in Visual Studio.  Managing multiple containers requires *container orchestration* and requires an orchestrator such as Docker Compose or Service Fabric. Here, we'll use Docker Compose. Docker Compose is great for local debugging and testing in the course of the development cycle.
+In this tutorial, you learn how to manage more than one container and communicate between them when using Container Tools in Visual Studio. Managing multiple containers requires *container orchestration* and requires an orchestrator such as Docker Compose or Service Fabric. For these procedures, you use Docker Compose. Docker Compose is great for local debugging and testing in the course of the development cycle.
 
 :::moniker range=">=vs-2022"
-The completed sample that you'll create in this tutorial may be found on GitHub at [https://github.com/MicrosoftDocs/vs-tutorial-samples](https://github.com/MicrosoftDocs/vs-tutorial-samples) in the folder *docker/ComposeSample*.
+The completed sample that you create in this tutorial can be found on GitHub at [https://github.com/MicrosoftDocs/vs-tutorial-samples](https://github.com/MicrosoftDocs/vs-tutorial-samples) in the folder *docker/ComposeSample*.
 :::moniker-end
 
 ## Prerequisites
@@ -23,13 +21,12 @@ The completed sample that you'll create in this tutorial may be found on GitHub 
 
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 * [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Web Development**, **Azure Tools** workload, and/or **.NET cross-platform development** workload installed
-* [.NET Core 3 Development Tools](https://dotnet.microsoft.com/download/dotnet-core/3.1) for development with .NET Core 3.1.
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-* [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Web Development**, **Azure Tools** workload, and/or **.NET cross-platform development** workload installed. This includes .NET Core 3.1 and .NET 6 development tools.
+* [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Web Development**, **Azure Tools** workload, and/or **.NET cross-platform development** workload installed. This installation includes the .NET 8 development tools.
 ::: moniker-end
 
 ## Create a Web Application project
@@ -40,7 +37,7 @@ In Visual Studio, create an **ASP.NET Core Web App** project, named `WebFrontEnd
 
 ![Screenshot showing Create ASP.NET Core Web App project.](./media/tutorial-multicontainer/vs-2019/create-web-project1.png)
 
-Do not select **Enable Docker Support**. You'll add Docker support later.
+Don't select **Enable Docker Support**. You add Docker support later in the process.
 
 ![Screenshot of the Additional information screen when creating a web project. The option to Enable Docker Support is not selected.](./media/tutorial-multicontainer/vs-2019/create-web-project-additional-information.png)
 
@@ -52,7 +49,7 @@ Do not select **Enable Docker Support**. You'll add Docker support later.
 
 ![Screenshot showing Create ASP.NET Core Web App project.](./media/tutorial-multicontainer/vs-2022/create-web-project.png)
 
-Do not select **Enable Docker Support**. You'll add Docker support later.
+Don't select **Enable Docker Support**. You add Docker support later in the process.
 
 ![Screenshot of the Additional information screen when creating a web project. The option to Enable Docker Support is not selected.](./media/tutorial-multicontainer/vs-2022/create-web-project-additional-information.png)
 
@@ -166,41 +163,42 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
     }
    ```
 
-    > [!NOTE]
-    > In real-world code, you shouldn't dispose `HttpClient` after every request. For best practices, see [Use HttpClientFactory to implement resilient HTTP requests](/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests).
+   > [!NOTE]
+   > In real-world code, you shouldn't dispose `HttpClient` after every request. For best practices, see [Use HttpClientFactory to implement resilient HTTP requests](/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests).
 
 1. In the *Index.cshtml* file, add a line to display `ViewData["Message"]` so that the file looks like the following code:
 
-      ```cshtml
-      @page
-      @model IndexModel
-      @{
-          ViewData["Title"] = "Home page";
-      }
+   ```cshtml
+   @page
+   @model IndexModel
+   @{
+      ViewData["Title"] = "Home page";
+   }
     
-      <div class="text-center">
-          <h1 class="display-4">Welcome</h1>
-          <p>Learn about <a href="/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-          <p>@ViewData["Message"]</p>
-      </div>
-      ```
+   <div class="text-center">
+      <h1 class="display-4">Welcome</h1>
+      <p>Learn about <a href="/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+      <p>@ViewData["Message"]</p>
+   </div>
+   ```
 
 1. (ASP.NET 2.x only) Now in the Web API project, add code to the Values controller to customize the message returned by the API for the call you added from *webfrontend*.
 
-      ```csharp
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
-        {
-            return "webapi (with value " + id + ")";
-        }
-      ```
+   ```csharp
+   // GET api/values/5
+   [HttpGet("{id}")]
+   public ActionResult<string> Get(int id)
+   {
+      return "webapi (with value " + id + ")";
+   }
+   ```
 
-   With .NET Core 3.1 and later, you don't need this, because you can use the WeatherForecast API that is already there. However, you need to comment out the call to <xref:Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection*>  in the Web API project, because this code uses HTTP, not HTTPS, to call the Web API.
+   > [!NOTE]
+   > In .NET Core 3.1 and later, you can use the provided WeatherForecast API rather than this extra code. However, you need to comment out the call to <xref:Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection*> in the Web API project because the code uses HTTP to make the call rather than HTTPS.
 
-    ```csharp
-                //app.UseHttpsRedirection();
-    ```
+   ```csharp
+         //app.UseHttpsRedirection();
+   ```
 
 ## Add Docker Compose support
 
@@ -269,11 +267,11 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
 
    The web app for .NET 3.1 shows the weather data in JSON format.
 
-1. Now suppose you are only interested in having the debugger attached to WebFrontEnd, not the Web API project. From the menu bar, you can use the dropdown next to the start button to bring up a menu of debug options; choose **Manage Docker Compose Launch Settings**.
+1. Now suppose you're only interested in having the debugger attached to WebFrontEnd, not the Web API project. From the menu bar, you can use the dropdown next to the start button to bring up a menu of debug options; choose **Manage Docker Compose Launch Settings**.
 
    ![Screenshot of Debug Manage Compose Settings menu item.](media/launch-settings/debug-dropdown-manage-compose.png)
 
-   The **Manage Docker Compose Launch Settings** dialog comes up. With this dialog, you can control which subset of services is launched during a debugging session, which are launched with or without the debugger attached, as well as the launch service and URL. See [Start a subset of Compose services](launch-profiles.md).
+   The **Manage Docker Compose Launch Settings** dialog comes up. With this dialog, you can control which subset of services is launched during a debugging session, which are launched with or without the debugger attached, and the launch service and URL. See [Start a subset of Compose services](launch-profiles.md).
 
    ![Screenshot of Manage Docker Compose Launch Settings dialog box.](media/tutorial-multicontainer/vs-2019/launch-profile-1.png)
 
@@ -412,11 +410,11 @@ Congratulations, you're running a Docker Compose application with a custom Docke
 
 ## Set up launch profiles
 
-1. This solution has a Redis Cache, but it's not efficient to rebuild the Redis cache container every time you start a debugging session. To avoid that, you can set up a couple of launch profiles, one profile that just starts the Redis cache, and another to start the other services, which will use the Redis cache container that's already running. From the menu bar, you can use the dropdown next to the start button to bring up a menu of debug options; choose **Manage Docker Compose Launch Settings**.
+1. This solution has a Redis Cache, but it's not efficient to rebuild the Redis cache container every time you start a debugging session. To avoid that situation, you can set up a couple of launch profiles. Create one profile to start the Redis cache. Create a second profile to start the other services. The second profile can use the Redis cache container that's already running. From the menu bar, you can use the dropdown next to the start button to open a menu with debugging options. Select **Manage Docker Compose Launch Settings**.
 
    ![Screenshot of Debug Manage Compose Settings menu item.](media/tutorial-multicontainer/vs-2022/debug-dropdown-manage-compose.png)
 
-   The **Manage Docker Compose Launch Settings** dialog comes up. With this dialog, you can control which subset of services is launched during a debugging session, which are launched with or without the debugger attached, as well as the launch service and URL. See [Start a subset of Compose services](launch-profiles.md).
+   The **Manage Docker Compose Launch Settings** dialog comes up. With this dialog, you can control which subset of services is launched during a debugging session, which are launched with or without the debugger attached, and the launch service and URL. See [Start a subset of Compose services](launch-profiles.md).
 
    ![Screenshot of Manage Docker Compose Launch Settings dialog box.](media/tutorial-multicontainer/vs-2022/launch-profile.png)
 
@@ -430,7 +428,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
 
    (Optional) Create a third profile `Start All` to start everything. You can choose **Start without debugging** for Redis.
 
-1. Choose **Start Redis** from the dropdown list on the main Visual Studio toolbar, press **F5**. The Redis container builds and starts. You can use the **Containers** window to see that it's running. Next, choose **Start My Services** from the dropdown list and press **F5** to launch them. Now you can keep the Redis cache container running throughout many subsequent debug sessions. Every time you use **Start My Services**, those services will use the same Redis cache container.
+1. Choose **Start Redis** from the dropdown list on the main Visual Studio toolbar, press **F5**. The Redis container builds and starts. You can use the **Containers** window to see that it's running. Next, choose **Start My Services** from the dropdown list and press **F5** to launch them. Now you can keep the Redis cache container running throughout many subsequent debug sessions. Every time you use **Start My Services**, those services use the same Redis cache container.
 
 Congratulations, you're running a Docker Compose application with a custom Docker Compose profile.
 

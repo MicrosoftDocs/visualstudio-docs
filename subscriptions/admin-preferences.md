@@ -3,7 +3,6 @@ title:  Set preferences in the Visual Studio subscriptions admin portal
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: 0fe9eaa4-f589-429e-a443-13bf86637d5a
 ms.date: 03/23/2023
 ms.topic: conceptual
 description: Learn how to set preferences for language, contacts, subscription level and others in the Administration Portal

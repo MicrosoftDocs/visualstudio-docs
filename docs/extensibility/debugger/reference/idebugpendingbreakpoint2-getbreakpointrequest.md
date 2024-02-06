@@ -1,6 +1,6 @@
 ---
 description: "Gets the breakpoint request that was used to create this pending breakpoint."
-title: IDebugPendingBreakpoint2::GetBreakpointRequest | Microsoft Docs
+title: IDebugPendingBreakpoint2::GetBreakpointRequest
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,20 +8,16 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPendingBreakpoint2::GetBreakpointRequest method
 - GetBreakpointRequest method
-ms.assetid: cb1e36aa-4302-455c-98fb-6638a1ef5c46
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPendingBreakpoint2::GetBreakpointRequest
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the breakpoint request that was used to create this pending breakpoint.
 
 ## Syntax

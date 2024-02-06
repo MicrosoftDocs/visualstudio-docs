@@ -1,26 +1,22 @@
 ---
 description: "Returns a copy of the current ports enumeration as a separate object."
-title: IEnumDebugPorts2::Clone | Microsoft Docs
+title: IEnumDebugPorts2::Clone
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugPorts2::Clone
 helpviewer_keywords:
 - IEnumDebugPorts2::Clone
-ms.assetid: d5ce77e8-bb99-409a-98fa-20fe5a0de25e
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugPorts2::Clone
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns a copy of the current enumeration as a separate object.
 
 ## Syntax

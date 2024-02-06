@@ -17,17 +17,12 @@ helpviewer_keywords:
 - comments, comment tasks in Task List
 - tokens, and the Task List
 - Task List, comment tasks
-ms.assetid: 88327e04-fa3e-48db-995b-ad89e0dc4ed2
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Options dialog box: Environment \> Task List
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This Options page allows you to add, delete, and change the comment tokens that generate **Task List** reminders. To display these settings, select **Options** from the **Tools** menu, expand the **Environment** folder, and choose **Task List**.
 

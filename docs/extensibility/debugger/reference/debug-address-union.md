@@ -1,26 +1,22 @@
 ---
 description: "Describes different kinds of addresses."
-title: DEBUG_ADDRESS_UNION | Microsoft Docs
+title: DEBUG_ADDRESS_UNION
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - DEBUG_ADDRESS_UNION
 helpviewer_keywords:
 - DEBUG_ADDRESS_UNION union
-ms.assetid: e3d11aab-de0d-4109-b5dc-11e07e64382d
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # DEBUG_ADDRESS_UNION
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes different kinds of addresses.
 
 ## Syntax

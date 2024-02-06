@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically print worksheets"
+title: "Programmatically print worksheets"
 description: Learn how you can use Visual Studio to programmatically print any worksheet in a Microsoft Excel workbook.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -13,13 +13,9 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Programmatically print worksheets
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Programmatically print worksheets
 
 You can print any worksheet in a workbook.
 
@@ -77,7 +73,7 @@ You can print any worksheet in a workbook.
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb" id="Snippet15":::
      ---
 
-## See also
+## Related content
 
 - [Work with worksheets](../vsto/working-with-worksheets.md)
 - [How to: Programmatically check spelling in worksheets](../vsto/how-to-programmatically-check-spelling-in-worksheets.md)

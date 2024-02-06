@@ -1,22 +1,18 @@
 ---
-title: Displaying Locals | Microsoft Docs
+title: Displaying Locals
 description: Learn about the list of local variables and arguments, collectively called the locals of the method, which are displayed when execution pauses.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], expression evaluation
 - expression evaluation, displaying locals
-ms.assetid: 62264cec-845b-4233-aed7-0b038fa79250
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # Display locals
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 > [!IMPORTANT]
 > In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 
@@ -33,9 +29,7 @@ ms.workload:
  [Sample implementation of locals](../../extensibility/debugger/sample-implementation-of-locals.md)
  Uses examples to step through the process of implementing locals.
 
-## Related sections
- [Evaluation context](../../extensibility/debugger/evaluation-context.md)
- Explains that when the debug engine (DE) calls the expression evaluator (EE), it passes three arguments.
+## Related content
+- [Evaluation context](../../extensibility/debugger/evaluation-context.md) explains that when the debug engine (DE) calls the expression evaluator (EE), it passes three arguments.
 
-## See also
- [Write a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
+- [Write a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)

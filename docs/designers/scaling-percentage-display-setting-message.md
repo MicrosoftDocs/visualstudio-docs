@@ -6,14 +6,10 @@ ms.topic: ui-reference
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-designers
-ms.workload:
-  - "multiple"
+ms.subservice: ui-designers
 ms.custom: engagement-fy23
 ---
 # Scaling on your main display is set to X%
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you open a form in **Windows Forms Designer** on an HDPI monitor, Visual Studio displays an information bar with a message that includes the monitor's current scaling percentage and an option to restart Visual Studio at 100% scaling. Restarting at 100% scaling allows for proper rendering without overlap.
 

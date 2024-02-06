@@ -1,5 +1,5 @@
 ---
-title: Debug ASP.NET Exceptions | Microsoft Docs
+title: Debug ASP.NET Exceptions
 description: Learn to configure so that the debugger stops for unhandled exceptions in your ASP.NET application. You can assure that the break occurs in non-system code.
 ms.date: 07/21/2023
 ms.topic: how-to
@@ -12,17 +12,13 @@ helpviewer_keywords:
   - debugging [Visual Studio], ASP.NET exceptions
   - ASP.NET, exceptions
   - exceptions, ASP.NET
-ms.assetid: 1810096e-de8c-435e-be3d-f365d0cd0a6a
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - aspnet
+ms.subservice: debug-diagnostics
 ---
-# How to: Debug ASP.NET Exceptions
+# Debug ASP.NET Exceptions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Debugging exceptions is an important part of developing a robust ASP.NET application. General information about how to debug exceptions is at [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md).
 
  To debug unhandled ASP.NET exceptions, you must make sure that the debugger stops for them. The ASP.NET runtime has a top-level exception handler. Therefore, the debugger never breaks on unhandled exceptions by default. To break into the debugger when an exception is thrown, you must select **Break when Thrown** setting for that specific exception in the **Exceptions** dialog box.
@@ -47,5 +43,5 @@ Debugging exceptions is an important part of developing a robust ASP.NET applica
 
 - Place `try ... catch` blocks around code that can throw exceptions that you can anticipate and know how to handle. For example, if the application is making calls to an XML Web Service or directly to a SQL Server, that code should be in **try ... catch** blocks because there are numerous exceptions that can occur.
 
-## See also
+## Related content
 - [Debug ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)

@@ -1,19 +1,16 @@
 ---
-title: Using Memory Efficiently When You Build Large Projects | Microsoft Docs
+title: Using Memory Efficiently When You Build Large Projects
 description: Learn how MSBuild manages memory automatically, such as unloading older versions and retrieving caches, when building large projects.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - memory use (MSBuild)
 - msbuild, efficient memory use building large trees
 - caching (MSBuild)
-ms.assetid: 853a21ed-69f7-4817-af00-57f73e2c74b5
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # Use memory efficiently when you build large projects
 
@@ -21,6 +18,6 @@ Large projects often contain many subprojects and other dependencies, which may 
 
  Version 4.0 handles this memory management automatically, saving projects from having to use properties such as  `UnloadProjectsOnCompletion` and `UseResultsCache`.
 
-### See also
+### Related content
 
 - [Build multiple projects in parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md)

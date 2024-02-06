@@ -7,17 +7,12 @@ helpviewer_keywords:
 - Hebrew character display [Visual Studio]
 - bidirectional language support
 - Arabic, creating applications
-ms.assetid: b56f9795-ed8d-4452-9d49-8ca0b0145d86
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Support for bidirectional languages in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio can display Arabic and Hebrew text correctly and lets you enter bidirectional text for object names and values.
 

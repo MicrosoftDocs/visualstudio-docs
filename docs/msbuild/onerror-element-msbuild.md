@@ -1,5 +1,5 @@
 ---
-title: OnError Element (MSBuild) | Microsoft Docs
+title: OnError Element (MSBuild)
 description: Learn how MSBuild uses the OnError element to cause one or more targets to execute, if the ContinueOnError attribute is false for a failed task.
 ms.date: 03/13/2017
 ms.topic: reference
@@ -9,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - OnError Element [MSBuild]
 - <OnError Element [MSBuild]
-ms.assetid: 765767d3-ecb7-4cd9-ba1e-d9468964dddc
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # OnError element (MSBuild)
 

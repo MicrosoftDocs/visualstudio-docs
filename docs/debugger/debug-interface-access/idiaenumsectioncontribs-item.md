@@ -1,23 +1,19 @@
 ---
 description: "Retrieves section contributions by means of an index."
-title: "IDiaEnumSectionContribs::Item | Microsoft Docs"
+title: "IDiaEnumSectionContribs::Item"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumSectionContribs::Item method"
-ms.assetid: 63a28f23-0ca0-44a7-b11b-ca0206d642a0
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaEnumSectionContribs::Item
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves section contributions by means of an index.
 
 ## Syntax

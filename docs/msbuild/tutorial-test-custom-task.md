@@ -1,6 +1,6 @@
 ---
-title: Test a custom task | Microsoft Docs
-description: Learn how to test an MSBuild custom task
+title: Unit test MSBuild custom tasks with Visual Studio
+description: Use unit testing functionality in Visual Studio to test an MSBuild custom task before distribution to ensure the correctness of the code.
 ms.date: 03/17/2022
 ms.topic: tutorial
 helpviewer_keywords:
@@ -8,9 +8,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # Tutorial: Test a custom task
 

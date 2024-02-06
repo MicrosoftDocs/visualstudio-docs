@@ -1,26 +1,22 @@
 ---
 description: "Gets the name of the default indexer."
-title: IDebugClassField::GetDefaultIndexer | Microsoft Docs
+title: IDebugClassField::GetDefaultIndexer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugClassField::GetDefaultIndexer
 helpviewer_keywords:
 - IDebugClassField::GetDefaultIndexer method
-ms.assetid: 47ce4f45-3816-4b40-909c-5032d0692d75
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugClassField::GetDefaultIndexer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the name of the default indexer.
 
 ## Syntax

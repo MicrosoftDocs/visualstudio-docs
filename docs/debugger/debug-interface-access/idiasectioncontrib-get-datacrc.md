@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the cyclic redundancy check (CRC) of the data in the section."
-title: "IDiaSectionContrib::get_dataCrc | Microsoft Docs"
+title: "IDiaSectionContrib::get_dataCrc"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSectionContrib::get_dataCrc method"
-ms.assetid: 33b7488f-dc9c-47b3-b08c-737e0eb1bf7d
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSectionContrib::get_dataCrc
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the cyclic redundancy check (CRC) of the data in the section.
 
 ## Syntax

@@ -1,22 +1,17 @@
 ---
-title: Adding a Tool Window | Microsoft Docs
-description: Learn how to create a tool window and integrate it into Visual Studio by adding a control and a toolbar containing a command to the tool window.
+title: Add a Tool Window & integrate into Visual Studio
+description: Create a tool window and integrate it into Visual Studio by adding a control and a toolbar containing a command to the tool window.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - tutorials
 - tool windows
-ms.assetid: 8e16c381-03c8-404e-92ef-3614cdf3150a
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Add a tool window
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this walkthrough you learn how to create a tool window and integrate it into Visual Studio in the following ways:
 
@@ -278,5 +273,5 @@ Next, specify a default location in the IDE for the tool window. Configuration i
 
     You should hear the chime sound.
 
-## See also
+## Related content
 - [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md)

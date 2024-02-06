@@ -1,22 +1,18 @@
 ---
-title: 'How to: Identify Symbols in a Library | Microsoft Docs'
+title: 'Identify Symbols in a Library'
 description: Learn how to identify symbols in a library by implementing methods that pass navigation information from the symbol library to the Visual Studio object manager. 
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - Call Browser tool, identifying symbols in the library
 - Call Browser tool
-ms.assetid: 8fb0de61-71e7-42d1-8b41-2ad915474384
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
-# How to: Identify symbols in a library
+# Identify symbols in a library
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Symbol-browsing tools display hierarchical views of symbols. The symbols represent namespaces, objects, classes, class members, and other language elements.
 
  Each symbol in the hierarchy can be identified by the navigation information passed by the symbol library to the Visual Studio object manager through the following interfaces:
@@ -80,7 +76,7 @@ N1
 
      The object manager calls this method to obtain the list of nodes contained in the presentation path of the symbol.
 
-## See also
+## Related content
 - [Support symbol-browsing tools](../../extensibility/internals/supporting-symbol-browsing-tools.md)
 - [How to: Register a library with the object manager](../../extensibility/internals/how-to-register-a-library-with-the-object-manager.md)
 - [How to: Expose lists of symbols provided by the library to the object manager](../../extensibility/internals/how-to-expose-lists-of-symbols-provided-by-the-library-to-the-object-manager.md)

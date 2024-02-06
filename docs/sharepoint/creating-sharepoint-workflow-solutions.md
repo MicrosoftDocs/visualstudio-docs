@@ -1,5 +1,5 @@
 ---
-title: "Creating SharePoint Workflow Solutions | Microsoft Docs"
+title: "Creating SharePoint Workflow Solutions"
 description: Create SharePoint workflow solutions using tools to make custom workflows that manage the lifecycle of documents and list items in SharePoint websites.
 ms.date: "02/02/2017"
 ms.topic: overview
@@ -19,13 +19,9 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+ms.subservice: sharepoint-development
 ---
 # Create SharePoint workflow solutions
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio provides tools to help you create custom workflows that manage the life cycle of documents and list items in a SharePoint Web site. Items provided include a designer, a set of activity controls, and the necessary assembly references. Visual Studio also includes the **SharePoint Customization Wizard**, to help create and configure the workflows.
 

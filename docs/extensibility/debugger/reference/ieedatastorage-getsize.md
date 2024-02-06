@@ -1,26 +1,22 @@
 ---
 description: "Returns the number of bytes contained in this object."
-title: IEEDataStorage::GetSize | Microsoft Docs
+title: IEEDataStorage::GetSize
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEEDataStorage::GetSize
 helpviewer_keywords:
 - IEEDataStorage::GetSize
-ms.assetid: 33d232c4-1239-4abc-922b-e1bc5b908169
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEEDataStorage::GetSize
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the number of bytes contained in this object.
 
 ## Syntax

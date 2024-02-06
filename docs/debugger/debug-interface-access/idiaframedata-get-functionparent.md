@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a frame data interface for the enclosing function."
-title: "IDiaFrameData::get_functionParent | Microsoft Docs"
+title: "IDiaFrameData::get_functionParent"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaFrameData::get_functionParent method"
-ms.assetid: f00b9ab1-d4da-4818-973a-58f8f0e66769
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaFrameData::get_functionParent
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a frame data interface for the enclosing function.
 
 ## Syntax

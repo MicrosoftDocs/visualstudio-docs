@@ -1,19 +1,14 @@
 ---
-title: "Historical Debugging | Microsoft Docs"
+title: "Historical Debugging"
 description: Troubleshoot an app by inspecting its state as you move backward and forward through its execution. Intellitrace collects the information for this capability.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-ms.assetid: 7cc5ddf2-2f7c-4f83-b7ca-58e92e9bfdd2
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Historical debugging (C#, Visual Basic, C++)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Historical debugging is a mode of debugging that depends on the information collected by IntelliTrace. It allows you to move backward and forward through the execution of your application and inspect its state.
 

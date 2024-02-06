@@ -1,5 +1,5 @@
 ---
-title: "&lt;Product&gt; Element (Bootstrapper) | Microsoft Docs"
+title: "&lt;Product&gt; Element (Bootstrapper)"
 description: The Product element is the top-level XML element inside of a product file. The Product element is required in a product file.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -10,17 +10,13 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "<product> element [bootstrapper]"
-ms.assetid: 52b414af-ec80-4d2f-ad14-902543cd268e
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+ms.subservice: deployment
 ---
 # &lt;Product&gt; element (bootstrapper)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The `Product` element is the top-level XML element inside of a product file.
 
 ## Syntax

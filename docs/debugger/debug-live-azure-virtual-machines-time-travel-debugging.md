@@ -1,7 +1,6 @@
 ---
 title: Time travel debugging for live ASP.NET apps on Azure VMs
 description: Use the Visual Studio Snapshot Debugger with Time Travel Debugging (TTD) to record and replay live ASP.NET apps on Azure VMs.
-ms.custom: kr2b-contr-experiment
 ms.date: 06/09/2022
 ms.topic: how-to
 helpviewer_keywords: 
@@ -10,13 +9,8 @@ author: poppastring
 ms.author: madownie
 manager: andster
 monikerRange: '>= vs-2019'
-ms.workload: 
-  - aspnet
-  - azure
 ---
 # Use time travel debugging to record and replay ASP.NET apps on Azure VMs
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Time travel debugging in Visual Studio Enterprise can record a web app running on an Azure virtual machine (VM), and then accurately reconstruct and replay the execution path. Time Travel Debugging (TTD) was added to Visual Studio 2019 Enterprise as a preview feature, and is now integrated into the Visual Studio Snapshot Debugger.
 
@@ -112,7 +106,7 @@ For more information and help, see [Troubleshooting and known issues for snapsho
 
 If it's difficult to recreate a particular state in your app, consider using a conditional snappoint. Conditional snappoints help you avoid collecting a recording until the app enters a desired state, such as when a variable has a particular value. For more information about setting conditions based on expressions, filters, or hit counts, see [Breakpoint conditions](using-breakpoints.md#breakpoint-conditions).
 
-## Next steps
+## Related content
 
 In this tutorial, you learned how to use the Snapshot Debugger to collect a time travel recording for Azure VMs. Learn more about snapshot debugging:
 

@@ -1,24 +1,19 @@
 ---
 title: Manage assembly and manifest signing
-description: Learn about the advantages of strong-name signing, which gives a software component a globally unique identity. 
+description: Explore how to manage an assembly and the advantages of strong-name signing, which gives a software component a globally unique identity. 
 ms.date: 02/17/2017
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ms.topic: conceptual
 helpviewer_keywords:
 - manifests [Visual Studio]
 - signing manifests [Visual Studio]
 - application manifests [Visual Studio]
 - assemblies [Visual Studio], signing
-ms.assetid: 6c1ef36b-25f7-4ad0-b29a-51801b7a5420
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.workload:
-- multiple
 ---
 # Manage assembly and manifest signing
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Strong-name signing gives a software component a globally unique identity. Strong names are used to guarantee that the assembly cannot be spoofed by someone else, and to make sure that component dependencies and configuration statements map to the correct component and component version.
 
@@ -68,7 +63,7 @@ If you only have access to a public key, you can use delay-signing to defer assi
 
 For information about signing manifests, see [How to: Sign application and deployment manifests](../ide/how-to-sign-application-and-deployment-manifests.md).
 
-## See also
+## Related content
 
 - [Strong-named assemblies](/dotnet/framework/app-domains/strong-named-assemblies)
 - [Strong-named assemblies (C++/CLI)](/cpp/dotnet/strong-name-assemblies-assembly-signing-cpp-cli)

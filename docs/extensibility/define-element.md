@@ -1,22 +1,18 @@
 ---
-title: Define Element | Microsoft Docs
+title: Define Element
 description: The Define element defines a symbol name and value pair. This symbol can be evaluated by conditional attributes.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - VSCT XML schema elements, Define
 - Define element (VSCT XML schema)
-ms.assetid: 5aee74e3-de41-4dc6-9618-93e158af56dd
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Define element
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Defines a symbol name and value pair. This symbol can be evaluated by conditional attributes. For more information, see [Conditional attributes](../extensibility/vsct-xml-schema-conditional-attributes.md). See also the [Symbols element](../extensibility/symbols-element.md).
 
 ## Syntax

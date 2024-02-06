@@ -1,26 +1,22 @@
 ---
 description: "This method determines whether the Edit and Continue status of this object or of the parent container is out of date."
-title: IDebugObject2::IsEncOutdated | Microsoft Docs
+title: IDebugObject2::IsEncOutdated
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugObject2::IsEncOutdated
 helpviewer_keywords:
 - IDebugObject2::IsEncOutdated method
-ms.assetid: d3a8c02d-895b-478c-9957-d663130f308e
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugObject2::IsEncOutdated
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method determines whether the Edit and Continue status of this object or of the parent container is out of date. A custom expression evaluator does not implement this method and always returns `E_NOTIMPL`.
 
 ## Syntax

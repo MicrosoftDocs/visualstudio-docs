@@ -1,21 +1,17 @@
 ---
-title: 'Walkthrough: Customizing the Text View | Microsoft Docs'
+title: 'Walkthrough: Customizing the Text View'
 description: Learn how to customize a text view by modifying any of the several properties in its editor-format map by using this walkthrough.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - customizing the view
-ms.assetid: 32d32ac8-22ff-4de7-af69-bd46ec4ad9bf
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Walkthrough: Customize the text view
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can customize a text view by modifying any of the following properties in its editor-format map:
 
 - Indicator margin
@@ -29,9 +25,6 @@ You can customize a text view by modifying any of the following properties in it
 - Inactive selected text (that is, selected text that's lost focus)
 
 - Visible whitespace
-
-## Prerequisites
- Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It's included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ## Create a MEF project
 
@@ -105,5 +98,5 @@ You can customize a text view by modifying any of the following properties in it
 
 5. Turn on visible whitespace. (On the **Edit** menu, point to **Advanced** and then click **View White Space**). Type some tabs in the text. Red arrows that represent the tabs should be displayed.
 
-## See also
+## Related content
 - [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)

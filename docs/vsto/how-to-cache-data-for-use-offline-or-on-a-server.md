@@ -1,5 +1,5 @@
 ---
-title: "How to: Cache data for use offline or on a server"
+title: "Cache data for use offline or on a server"
 description: Mark a data item to be cached in the document, so that it's available offline. This makes it possible for the data in the document to be manipulated by other code.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -16,13 +16,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Cache data for use offline or on a server
+# Cache data for use offline or on a server
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can mark a data item to be cached in the document, so that it is available offline. This also makes it possible for the data in the document to be manipulated by other code when the document is stored on a server.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
@@ -61,7 +58,7 @@ ms.workload:
 
 4. In the **Properties** window, set the **Modifiers** property to **Public** (by default it is **Internal**).
 
-## See also
+## Related content
 - [Cache data](../vsto/caching-data.md)
 - [How to: Programmatically cache a data source in an Office document](../vsto/how-to-programmatically-cache-a-data-source-in-an-office-document.md)
 - [How to: Cache data in a password-protected document](../vsto/how-to-cache-data-in-a-password-protected-document.md)

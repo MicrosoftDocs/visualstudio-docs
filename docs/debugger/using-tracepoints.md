@@ -1,7 +1,6 @@
 ---
-title: "Log info with tracepoints | Microsoft Docs"
+title: "Log info with tracepoints"
 description: Set tracepoints to log info to Output without modifying or stopping your code. Just specify an output string under the Action checkbox in Breakpoint Settings.
-ms.custom: devdivchpfy22
 ms.date: 08/26/2022
 ms.topic: "how-to"
 helpviewer_keywords:
@@ -9,12 +8,9 @@ helpviewer_keywords:
 author: MikeJo5000
 ms.author: mikejo
 manager: AndSter
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Log info to the Output window using tracepoints in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Tracepoints allow you to log information to the Output window under configurable conditions without modifying or stopping your
 code. This feature is supported for both managed languages (C#, Visual Basic, F#) and native code as well as languages such as JavaScript and Python.
@@ -304,7 +300,7 @@ The way that expressions are evaluated in the **Action** message box may be diff
 
 If you're trying to debug a live application, and looking for a similar feature, check out our log point feature in the Snapshot Debugger. The snapshot debugger is a tool used to investigate issues in production applications. Logpoints also allow you to send messages to the Output Window without having to modify source code and don't affect your running application. For more information, see [Debug live Azure application](../debugger/debug-live-azure-applications.md).
 
-## See also
+## Related content
 
 - [What is debugging?](../debugger/what-is-debugging.md)
 - [Write better C# code using Visual Studio](../debugger/write-better-code-with-visual-studio.md)

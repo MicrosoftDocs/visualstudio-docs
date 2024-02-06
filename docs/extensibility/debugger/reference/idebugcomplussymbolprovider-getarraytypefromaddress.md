@@ -1,25 +1,21 @@
 ---
 description: "Retrieves type information about the specified array given its debug address."
-title: IDebugComPlusSymbolProvider::GetArrayTypeFromAddress | Microsoft Docs
+title: IDebugComPlusSymbolProvider::GetArrayTypeFromAddress
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - GetArrayTypeFromAddress
 - IDebugComPlusSymbolProvider::GetArrayTypeFromAddress
-ms.assetid: cc0c53f1-8c0f-49fa-8dbe-bc155e9ce0ef
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetArrayTypeFromAddress
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves type information about the specified array given its debug address.
 
 ## Syntax

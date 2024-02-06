@@ -5,17 +5,12 @@ ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - System.Activities.Statements.FlowDecision.UI
-ms.assetid: 4a49edc3-3662-4b7b-812e-0a5ba00d6c94
 author: jodavis
 ms.author: jodavis
 manager: jmartens
-ms.technology: vs-workflow-designer
-ms.workload:
-- multiple
+ms.subservice: workflow-designer
 ---
 # FlowDecision Activity Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The <xref:System.Activities.Statements.FlowDecision> node is a conditional node that provides a branch for the flow of control into one of two alternatives based on whether a specified condition is satisfied. If the flow requires more than two branches, use <xref:System.Activities.Statements.FlowSwitch%601> instead.
 

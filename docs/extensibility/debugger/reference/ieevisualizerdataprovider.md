@@ -1,26 +1,22 @@
 ---
 description: "This interface provides the ability to change an object's value through a type visualizer."
-title: IEEVisualizerDataProvider | Microsoft Docs
+title: IEEVisualizerDataProvider
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEEVisualizerDataProvider
 helpviewer_keywords:
 - IEEVisualizerDataProvider interface
-ms.assetid: 5fdfe6e3-b94e-4edb-acc5-41d8773d8ca5
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEEVisualizerDataProvider
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 > [!IMPORTANT]
 > In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 

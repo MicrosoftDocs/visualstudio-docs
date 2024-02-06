@@ -3,17 +3,12 @@ title: Object from unsupported provider
 description: You have selected a database object from an unsupported database provider. View information about this Visual Studio (O/R Designer) message.
 ms.date: 11/04/2016
 ms.topic: error-reference
-ms.assetid: c0f1298e-31aa-471e-ae19-1bafffd2ae40
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
 # You have selected a database object from an unsupported database provider
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **O/R Designer** supports only the .NET Framework Data Provider for SQL Server (<xref:System.Data.SqlClient>). Although you can click **OK** and continue to work with objects from unsupported database providers, you may experience unexpected behavior at run time.
 

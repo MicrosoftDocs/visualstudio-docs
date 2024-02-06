@@ -6,13 +6,9 @@ ms.topic: conceptual
 author: madskristensen
 ms.author: madsk
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-  - "multiple"
+ms.subservice: general-ide
 ---
 # Suggest a feature for Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 We've introduced a new experience for suggesting features alongside the current ability to report problems on [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8). This is a new way you can be empowered to engage directly with Visual Studio's engineering workflow.
 
@@ -44,6 +40,6 @@ After you submit a feature suggestion, states indicate where your feature submis
 
 - - -
 
-## See also
+## Related content
 
 - [Introducing 'Suggest a Feature' in Developer Community (Visual Studio blog)](https://devblogs.microsoft.com/visualstudio/introducing-suggest-a-feature-in-developer-community/?utm_source=vs_developer_news&utm_medium=referral)

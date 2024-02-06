@@ -3,17 +3,12 @@ title: 'Workflow Designer: Debug XAML'
 description: Learn how workflows are defined in terms of XAML and how to debug XAML with the Workflow Designer.
 ms.date: 11/04/2016
 ms.topic: how-to
-ms.assetid: d9305dbc-af62-4bdd-b03f-c54e3fe9ecc7
 author: jodavis
 ms.author: jodavis
 manager: jmartens
-ms.technology: vs-workflow-designer
-ms.workload:
-- uwp
+ms.subservice: workflow-designer
 ---
-# How to: Debug XAML with the Workflow Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Debug XAML with the Workflow Designer
 
 Workflows are defined in terms of XAML. The UI representation of workflow is built on top of the XAML tree defining the workflow. The debugging experience is similar to debugging workflows in the Workflow Designer. For instance, while debugging XAML, the locals, watch, and threads windows work the same way as they do in Workflow Designer debugging. In addition, the call stack view during the XAML debugging is a line-based hierarchical view of the execution flow for the workflow.
 
@@ -32,7 +27,7 @@ Workflows are defined in terms of XAML. The UI representation of workflow is bui
 
 5. When the code execution reaches one of your breakpoints, the XAML element associated with that breakpoint will be highlighted. To move to the next breakpoint, use the **F10** or **F11** key.
 
-## See also
+## Related content
 
 - [How to: Set Breakpoints in Workflows](../workflow-designer/how-to-set-breakpoints-in-workflows.md)
 - [Debug workflows](debugging-workflows-with-the-workflow-designer.md)

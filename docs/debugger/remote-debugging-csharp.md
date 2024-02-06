@@ -1,8 +1,7 @@
 ---
-title: "Remote Debug a C# or VB project | Microsoft Docs"
+title: "Remote Debug a C# or VB project"
 description: Learn how to debug a Visual Studio C# or Visual Basic application from a remote computer by following these step-by-step instructions.
-ms.custom: remotedebugging
-ms.date: "08/17/2023"
+ms.date: "12/17/2023"
 ms.topic: "conceptual"
 dev_langs:
   - "C++"
@@ -12,17 +11,13 @@ dev_langs:
   - "VB"
 helpviewer_keywords:
   - "remote debugging, setup"
-ms.assetid: a9753fbb-e7f4-47f0-9dbe-9de90c6c8457
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "dotnet"
+ms.subservice: debug-diagnostics
 ---
 # Remote Debugging a C# or Visual Basic project in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To debug a Visual Studio application that has been deployed on a different computer, install and run the remote tools on the computer where you deployed your app, configure your project to connect to the remote computer from Visual Studio, and then run your app.
 
 ![Screenshot of remote debugger components.](../debugger/media/remote-debugger-client-apps.png "Remote_debugger_components")
@@ -55,6 +50,8 @@ The remote debugger is supported on Windows 7 and newer and on versions of Windo
 The debugger cannot deploy Visual C# or Visual Basic desktop applications to a remote machine, but you can still debug them remotely as follows. The following procedure assumes that you want to debug it on a computer named **MJO-DL**, as shown in the illustration below.
 
 1. Create a WPF project named **MyWpf**.
+
+   If you are trying to remote debug a MAUI app instead of WPF, see [Remote debug a .NET MAUI app on Windows](#remote-debug-a-net-maui-app-on-windows).
 
 2. Set a breakpoint somewhere in the code that is easily reached.
 
@@ -122,11 +119,35 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
 
     If you have any non-code files that need to be used by the application, you need to include them in the Visual Studio project. Create a project folder for the additional files (in the **Solution Explorer**, click **Add > New Folder**). Then add the files to the folder (in the **Solution Explorer**, click **Add > Existing Item**, then select the files). On the **Properties** page for each file, set **Copy to Output Directory** to **Copy always**.
 
+## Remote debug a .NET MAUI app on Windows
+
+.NET MAUI apps are packaged apps that need to be registered when deployed, not just copied to a remote machine. To remote debug, you can deploy an unpackaged version of the app.
+
+Use one of the following methods to remote debug:
+
+- Publish the app to the remote device as an unpackaged app using the steps described in [Use the CLI to publish unpackaged .NET MAUI apps for Windows](/dotnet/maui/windows/deployment/publish-unpackaged-cli), and then follow the steps in this article to remote debug. (Skip the steps to copy the app.)
+
+- Follow the steps in this article, including steps to create a Debug Launch profile for the project. Before you start debugging, manually edit the *launchSettings.json* file, replacing the **commandName** `Project` value with `MsixPackage`, as shown here.
+
+  ```json
+  "Remote Profile": {
+    "commandName": "MsixPackage",
+    "remoteDebugEnabled": true,
+    "remoteDebugMachine": "170.200.20.22",
+    "authenticationMode": "None"
+  }
+  ```
+
+  When you start debugging, this method first deploys an unpackaged version of the app and starts it.
+
+  > [!NOTE]
+  > You can't edit *launchSettings.json* in the Debug Launch profile dialog box once you change the value to `MsixPackage`.
+
 ## Set Up Debugging with Remote Symbols
 
 [!INCLUDE [remote-debugger-symbols](../debugger/includes/remote-debugger-symbols.md)]
 
-## See also
+## Related content
 
 - [Debugging in Visual Studio](../debugger/index.yml)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)

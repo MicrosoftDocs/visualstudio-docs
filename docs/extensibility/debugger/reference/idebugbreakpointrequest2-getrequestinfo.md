@@ -1,26 +1,22 @@
 ---
 description: "Gets the breakpoint request information that describes this breakpoint request."
-title: IDebugBreakpointRequest2::GetRequestInfo | Microsoft Docs
+title: IDebugBreakpointRequest2::GetRequestInfo
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugBreakpointRequest2::GetRequestInfo
 helpviewer_keywords:
 - IDebugBreakpointRequest2::GetRequestInfo
-ms.assetid: 5defd8d7-6daa-479b-8909-fcc4ae0b357a
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugBreakpointRequest2::GetRequestInfo
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the breakpoint request information that describes this breakpoint request.
 
 ## Syntax

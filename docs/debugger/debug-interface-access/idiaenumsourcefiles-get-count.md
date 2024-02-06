@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the number of source files."
-title: "IDiaEnumSourceFiles::get_Count | Microsoft Docs"
+title: "IDiaEnumSourceFiles::get_Count"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumSourceFiles::get_Count method"
-ms.assetid: 04083b97-e1ac-4baf-bf5a-50a4dc1c6f27
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaEnumSourceFiles::get_Count
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the number of source files.
 
 ## Syntax

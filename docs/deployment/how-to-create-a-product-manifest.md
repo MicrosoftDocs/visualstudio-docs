@@ -1,5 +1,5 @@
 ---
-title: Create a Product Manifest | Microsoft Docs
+title: Create a Product Manifest
 description: Learn how to deploy prerequisites for your ClickOnce application with a package that contains a single product manifest and a package manifest for each locale.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -13,17 +13,13 @@ helpviewer_keywords:
   - product files [Windows Installer]
   - prerequisites, custom bootstrapper package
   - dependencies, custom bootstrapper package
-ms.assetid: 2d316aaa-8bc0-4ce5-90ab-23b3eac0b5dd
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
+ms.subservice: deployment
 ---
-# How to: Create a product manifest
+# Create a product manifest
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To deploy prerequisites for your application, you can create a bootstrapper package. A bootstrapper package contains a single product manifest file but a package manifest for each locale. The package manifest contains localization-specific aspects of your package. This includes strings, end-user license agreements, and the language packs.
 
  For more information about package manifests, see [How to: Create a package manifest](../deployment/how-to-create-a-package-manifest.md).
@@ -110,7 +106,7 @@ To deploy prerequisites for your application, you can create a bootstrapper pack
     </Commands>
     ```
 
-12. Move the *C:\package* folder to the Visual Studio bootstrapper directory. For Visual Studio 2010, this is the *\Program Files\Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages* directory.
+12. Move the *C:\package* folder to the Visual Studio bootstrapper directory. For older versions of Visual Studio, this is the *\Program Files\Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages* directory.
 
 ## Example
  The product manifest contains installation instructions for custom prerequisites.
@@ -156,5 +152,5 @@ To deploy prerequisites for your application, you can create a bootstrapper pack
 </Product>
 ```
 
-## See also
+## Related content
 - [Product and package schema reference](../deployment/product-and-package-schema-reference.md)

@@ -1,23 +1,19 @@
 ---
 description: "Each function is identified by a SymTagFunction symbol."
-title: "Function (Debug Interface Access SDK) | Microsoft Docs"
+title: "Function (Debug Interface Access SDK)"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "Function symbol"
-ms.assetid: 458dc91c-b78b-4427-84f4-615d89e26760
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Function (Debug Interface Access SDK)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Each function is identified by a `SymTagFunction` symbol.
 
 ## Properties

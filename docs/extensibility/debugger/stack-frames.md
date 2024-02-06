@@ -1,5 +1,5 @@
 ---
-title: Stack Frames | Microsoft Docs
+title: Stack Frames
 description: This article describes the definition and role of a stack frame in the debugger architecture in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,17 +7,13 @@ helpviewer_keywords:
 - stack frames, debugging
 - debugging [Debugging SDK], stack frames
 - stack frames
-ms.assetid: b5e439d4-1e9d-4e13-9cad-bb8b136d4ca8
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # Stack frames
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In the debugger architecture, a *stack frame*:
 
 - Is an abstraction of a stack that provides the execution context of a thread. A thread always executes within a function. A stack frame holds the local variables of the function and the arguments to it. In order to debug with Visual Studio, the language or environment being debugged must support stack frames.

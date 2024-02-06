@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the source code bytes."
-title: "IDiaInjectedSource::get_source | Microsoft Docs"
+title: "IDiaInjectedSource::get_source"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaInjectedSource::get_source method"
-ms.assetid: 3c0b5386-321f-4f8f-85cc-e2ee7b4cc3d2
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaInjectedSource::get_source
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the source code bytes.
 
 ## Syntax

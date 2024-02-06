@@ -1,5 +1,5 @@
 ---
-title: "How to: Add Windows forms controls to Office documents"
+title: "Add Windows forms controls to Office documents"
 description: Learn how you can add Windows Forms controls to Microsoft Office Excel and Microsoft Office Word documents at design time in document-level projects.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -14,13 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Add Windows Forms controls to Office documents
+# Add Windows Forms controls to Office documents
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can add Windows Forms controls to Microsoft Office Excel and Microsoft Office Word documents at design time in document-level projects. At run time, you can add controls in document-level customizations and in VSTO Add-ins. For example, you can add a <xref:Microsoft.Office.Tools.Excel.Controls.ComboBox> control to your worksheet so that users can select from a list of options.
 
  [!INCLUDE[appliesto_controls](../vsto/includes/appliesto-controls-md.md)]
@@ -136,7 +133,7 @@ ms.workload:
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb" id="Snippet7":::
      ---
 
-## See also
+## Related content
 - [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md)
 - [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md)
 - [How to: Resize controls within worksheet cells](../vsto/how-to-resize-controls-within-worksheet-cells.md)

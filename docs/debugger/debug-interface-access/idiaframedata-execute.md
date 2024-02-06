@@ -1,23 +1,19 @@
 ---
 description: "Performs stack unwinding and returns results in a stack walk frame interface."
-title: "IDiaFrameData::execute | Microsoft Docs"
+title: "IDiaFrameData::execute"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaFrameData::execute method"
-ms.assetid: 7a6c7d03-1ff1-4059-bd54-5f407eeebc26
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaFrameData::execute
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Performs stack unwinding and returns results in a stack walk frame interface.
 
 ## Syntax

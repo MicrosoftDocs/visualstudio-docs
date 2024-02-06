@@ -1,7 +1,7 @@
 ### YamlMime:FAQ
 metadata:
   title: "Debugging Native Code FAQs | Microsoft Docs"
-  description: Find links to frequently asked questions (FAQs) and answers about debugging native code in Visual Studio.
+  description: Find links to articles that address frequently asked questions (FAQs) and provide answers for debugging native code in Visual Studio.
   ms.date: "03/07/2023"
   ms.topic: faq
   f1_keywords:
@@ -17,14 +17,11 @@ metadata:
   author: "mikejo5000"
   ms.author: "mikejo"
   manager: jmartens
-  ms.technology: vs-ide-debug
+  ms.subservice: debug-diagnostics
   ms.workload:
     - "cplusplus"
 
 title: Debugging Native Code FAQs
-
-summary: |
-  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 sections:
   - name: General

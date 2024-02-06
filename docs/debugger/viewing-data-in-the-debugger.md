@@ -1,5 +1,5 @@
 ---
-title: "Create custom views of data in the debugger | Microsoft Docs"
+title: "Create custom views of data in the debugger"
 description: Learn the various ways  to inspect and modify program state in Visual Studio debugger. These include the Autos and Watch windows, DataTips, and Visualizers.  
 ms.date: "08/08/2023"
 ms.topic: "conceptual"
@@ -12,17 +12,12 @@ dev_langs:
 helpviewer_keywords:
   - "debugging [Visual Studio], inspecting programs"
   - "debugger, viewing data"
-ms.assetid: 13e1105f-f987-402e-9108-ec6ac12be042
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Create custom views of data in the Visual Studio debugger (C#, Visual Basic, C++)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio debugger provides many tools for inspecting and modifying the state of your program. Most of these tools function only in break mode.
 
@@ -40,7 +35,7 @@ The Visual Studio debugger provides many tools for inspecting and modifying the 
 - To create a visualizer for .NET objects, see [Custom visualizers](../debugger/create-custom-visualizers-of-data.md).
 - To create a visualizer for C/C++ objects, see [UIVisualizer element](../debugger/create-custom-views-of-native-objects.md#BKMK_UIVisualizer) within the [Natvis](../debugger/create-custom-views-of-native-objects.md) documentation. Also, see the [C/C++ custom visualizer sample](https://github.com/Microsoft/ConcordExtensibilitySamples/tree/master/CppCustomVisualizer) or the [SQLite native Debugger Visualizer](https://github.com/Microsoft/VSSDK-Extensibility-Samples/tree/master/SqliteVisualizer) sample.
 
-## See also
+## Related content
 
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Command window](../ide/reference/command-window.md)

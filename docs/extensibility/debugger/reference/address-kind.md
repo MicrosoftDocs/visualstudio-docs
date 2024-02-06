@@ -1,26 +1,22 @@
 ---
 description: "Specifies the kinds of addresses."
-title: ADDRESS_KIND | Microsoft Docs
+title: ADDRESS_KIND
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - ADDRESS_KIND
 helpviewer_keywords:
 - ADDRESS_KIND enumeration
-ms.assetid: 3a12fbec-7088-4cf9-8f6f-ad8ddec6009a
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # ADDRESS_KIND
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the kinds of addresses.
 
 ## Syntax

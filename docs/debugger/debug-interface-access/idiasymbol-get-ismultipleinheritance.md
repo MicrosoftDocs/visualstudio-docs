@@ -1,21 +1,17 @@
 ---
 description: "Specifies whether the this pointer points to a data member with multiple inheritance."
-title: "IDiaSymbol::get_isMultipleInheritance | Microsoft Docs"
+title: "IDiaSymbol::get_isMultipleInheritance"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: 0aa356a1-5c5c-4ee4-8b48-bae0a2610013
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_isMultipleInheritance
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies whether the `this` pointer points to a data member with multiple inheritance.
 
 ## Syntax

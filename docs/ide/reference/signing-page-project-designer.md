@@ -2,7 +2,7 @@
 title: Signing Page, Project Designer
 description: Use the Signing page of the Project Designer to sign the application and deployment manifests and also to sign the assembly.
 ms.date: 11/04/2016
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 ms.topic: reference
 f1_keywords:
 - vs.AddNewStrongNameKey
@@ -15,16 +15,11 @@ f1_keywords:
 helpviewer_keywords:
 - Project Designer, Signing page
 - Signing page in Project Designer
-ms.assetid: dab3ba13-2f92-4827-92bd-1be3c35bc48b
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.workload:
-- multiple
 ---
 # Signing Page, Project Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Signing** page of the **Project Designer** to sign the application and deployment manifests and also to sign the assembly (strong-name signing).
 

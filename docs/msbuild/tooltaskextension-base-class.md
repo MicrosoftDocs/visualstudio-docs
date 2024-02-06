@@ -1,5 +1,5 @@
 ---
-title: ToolTaskExtension Base Class | Microsoft Docs
+title: ToolTaskExtension Base Class
 description: Learn about the parameters that the Microsoft.Build.Tasks.ToolTaskExtension base class adds to the tasks that inherit from it.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,14 +7,10 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
-ms.assetid: 258ae433-f68a-49f1-b276-da20e3472e68
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # ToolTaskExtension base class
 

@@ -1,7 +1,6 @@
 ---
 title: Debug live ASP.NET Azure Kubernetes Services
 description: Learn how to use the Snapshot Debugger in Visual Studio to set snappoints and take snapshots while debugging live ASP.NET Azure Kubernetes Services.
-ms.custom: 
 ms.date: 02/11/2019
 ms.topic: how-to
 helpviewer_keywords: 
@@ -10,13 +9,8 @@ author: poppastring
 ms.author: madownie
 manager: andster
 monikerRange: '>= vs-2019'
-ms.workload: 
-  - aspnet
-  - azure
 ---
 # Debug live ASP.NET Azure Kubernetes Services using the Snapshot Debugger
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Snapshot Debugger takes a snapshot of your in-production apps when code that you're interested in executes. To instruct the debugger to take a snapshot, you set snappoints and logpoints in your code. The debugger lets you see exactly what went wrong, without impacting traffic of your production application. The Snapshot Debugger can help you dramatically reduce the time it takes to resolve issues that occur in production environments.
 
@@ -138,7 +132,7 @@ In addition to taking a snapshot when a snappoint is hit, you can also configure
 
     If you choose **Send to application log**, when the logpoint is hit, the message appears anywhere that you can see messages from `System.Diagnostics.Trace` (or `ILogger` in .NET Core), such as [App Insights](/azure/application-insights/app-insights-asp-net-trace-logs).
 
-## Next steps
+## Related content
 
 In this tutorial, you've learned how to use the Snapshot Debugger for Azure Kubernetes. You may want to read more details about this feature.
 

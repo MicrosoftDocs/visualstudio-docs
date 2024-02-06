@@ -1,5 +1,5 @@
 ---
-title: "&lt;Signature&gt; Element (ClickOnce Deployment) | Microsoft Docs"
+title: "&lt;Signature&gt; Element (ClickOnce Deployment)"
 description: The Signature element contains the necessary information to digitally sign this deployment manifest. Signing a deployment manifest is optional but recommended.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,17 +9,13 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "<Signature> element [ClickOnce deployment manifest]"
-ms.assetid: c99b07ad-e8ba-43f2-b0d6-3745e7a7c8b3
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+ms.subservice: deployment
 ---
 # &lt;Signature&gt; element (ClickOnce deployment)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Contains the necessary information to digitally sign this deployment manifest.
 
 ## Syntax

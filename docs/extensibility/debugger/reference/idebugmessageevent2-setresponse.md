@@ -1,6 +1,6 @@
 ---
 description: "Sets the response, if any, from the message box."
-title: IDebugMessageEvent2::SetResponse | Microsoft Docs
+title: IDebugMessageEvent2::SetResponse
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,20 +8,16 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugMessageEvent2::SetResponse method
 - SetResponse method
-ms.assetid: 2a5e318d-3225-4abd-83f1-28323baff6c0
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugMessageEvent2::SetResponse
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the response, if any, from the message box.
 
 ## Syntax

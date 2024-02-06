@@ -11,24 +11,19 @@ helpviewer_keywords:
   - Publish language property
   - ClickOnce deployment, changing publish language
   - publishing, ClickOnce
-ms.assetid: ef5024c4-cda1-4970-bc75-32a2a10c92c3
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
+ms.subservice: deployment
 ---
-# How to: Change the publish language for a ClickOnce application
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Change the publish language for a ClickOnce application
 
 When publishing a ClickOnce application, the user interface displayed during installation defaults to the language and culture of your development computer. If you are publishing a localized application, you will need to specify a language and culture to match the localized version. This is determined by the `Publish language` property for your project.
 
 The `Publish language` property can be set in the **Publish Options** dialog box, accessible from the **Publish** page of the **Project Designer**.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../ide/environment-settings.md#reset-settings).
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../ide/environment-settings.md#reset-all-settings).
 
 ## To change the publish language
 
@@ -44,7 +39,7 @@ The `Publish language` property can be set in the **Publish Options** dialog box
 
 5. In the **Publish Options** dialog box, select a language and culture from the **Publish language** drop-down list, and then click **OK**.
 
-## See also
+## Related content
 
 - [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
 - [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)

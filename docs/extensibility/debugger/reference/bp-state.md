@@ -1,26 +1,22 @@
 ---
 description: "Specifies the existence of a bound breakpoint and also specifies if it is enabled."
-title: BP_STATE | Microsoft Docs
+title: BP_STATE
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - BP_STATE
 helpviewer_keywords:
 - BP_STATE enumeration
-ms.assetid: 08aa6a3f-3e5f-4c83-8eca-7b7b5f8e208d
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # BP_STATE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the existence of a bound breakpoint and also specifies if it is enabled.
 
 ## Syntax

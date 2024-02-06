@@ -1,6 +1,6 @@
 ---
-description: "The Visual C++ project system is used for .vcxproj files."
-title: "Visual C++ project extensibility"
+title: Visual C++ project extensibility
+description: Explore how the Visual C++ project system is used for .vcxproj files to provide extra C++ specific extensibility points.
 ms.date: "04/23/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -8,12 +8,9 @@ dev_langs:
 author: "tylermsft"
 ms.author: "twhitney"
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload: ["vssdk"]
+ms.subservice: extensibility-integration
 ---
 # Visual Studio C++ Project system extensibility and toolset integration
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual C++ project system is used for .vcxproj files. It's based on the [Visual Studio Common Project System (CPS)](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/Index.md) and provides additional, C++ specific extensibility points for easy integration of new toolsets, build architectures, and target platforms.
 

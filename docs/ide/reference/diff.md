@@ -7,17 +7,12 @@ helpviewer_keywords:
 - Devenv, /Diff switch
 - /Diff Devenv switch
 - Diff Devenv switch
-ms.assetid: 5377fedb-632a-4e86-a947-7c11c86451e7
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # /Diff (devenv.exe)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Compares two files. The differences are displayed in a special Visual Studio window.
 

@@ -1,19 +1,16 @@
 ---
-title: Task Writing | Microsoft Docs
-description: Learn about how you can create your own tasks to provide the code that runs during the MSBuild build process.
+title: Write your own tasks with code for MSBuild
+description: Explore how you can create your own tasks to provide the code that runs during the MSBuild build process for your projects.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, writing tasks
 - tasks, creating for MSBuild
 - MSBuild, creating tasks
-ms.assetid: 3ebc5f87-8f00-46fc-82a1-228f35a6823b
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # Task writing
 
@@ -258,7 +255,7 @@ The following example shows a project file invoking the previous example task, S
 </Project>
 ```
 
-## See also
+## Related content
 
 - [Create a custom task](tutorial-custom-task-code-generation.md)
 - [Create a REST API client with MSBuild](tutorial-rest-api-client-msbuild.md)

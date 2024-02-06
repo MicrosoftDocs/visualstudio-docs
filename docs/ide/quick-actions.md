@@ -1,21 +1,17 @@
 ---
 title: Quick Actions, light bulbs, and screwdrivers
-description: Learn how to use a single Quick Action to refactor, generate, or otherwise modify your code.
+description: Use a single Quick Action in Visual Studio to refactor, generate, or modify your C#, C++, or Visual Basic code files to apply updates and fixes or generate code.
 ms.date: 08/29/2022
 ms.topic: conceptual
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 dev_langs:
 - CSharp
 - VB
-ms.workload:
-- multiple
 ---
 # Quick Actions
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Quick Actions let you easily refactor, generate, or otherwise modify code with a single action. Quick Actions are available for C#, [C++](/cpp/ide/writing-and-refactoring-code-cpp), and Visual Basic code files. Some actions are specific to a language, and others apply to all languages.
 
@@ -24,7 +20,6 @@ Quick Actions can be used to:
 - Apply a code fix for a [code analyzer](../code-quality/roslyn-analyzers-overview.md) rule violation
 
 - [Suppress](../code-quality/use-roslyn-analyzers.md#suppress-violations) a code analyzer rule violation or [configure](../code-quality/use-roslyn-analyzers.md#set-rule-severity-from-the-light-bulb-menu) its severity
-
 
 - Apply a refactoring (for example, [inline a temporary variable](../ide/reference/inline-temporary-variable.md))
 
@@ -60,7 +55,7 @@ To see potential fixes, select either the down arrow next to the light bulb or t
 > [!TIP]
 > To learn how to turn off some of the code fix Quick Actions, see [Disable source code analysis for .NET](../code-quality/disable-code-analysis.md).
 
-## See also
+## Related content
 
 - [Common Quick Actions](../ide/common-quick-actions.md)
 - [Code styles and Quick Actions](../ide/code-styles-and-code-cleanup.md)

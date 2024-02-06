@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the offset of the symbol location."
-title: "IDiaSymbol::get_offset | Microsoft Docs"
+title: "IDiaSymbol::get_offset"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_offset method"
-ms.assetid: 8292bb08-4dc8-4663-beb4-258f5d5a448d
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_offset
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the offset of the symbol location. Use when the [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md) is `LocIsRegRel` or `LocIsBitField`.
 
 ## Syntax

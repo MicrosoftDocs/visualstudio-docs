@@ -1,6 +1,6 @@
 ---
 title: Set control to create when dragging
-description: Discover how to set the control to be created when you drag from the Data Sources window onto the WPF designer or Windows Forms designer in Visual Studio.
+description: Discover how to set the control to be created when you drag from the Data Sources window onto the WPF designer or Windows Forms designer when developing .NET Framework applications in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -8,17 +8,12 @@ helpviewer_keywords:
 - Windows Forms, displaying data
 - data [Visual Studio], displaying on Windows Forms
 - data [Visual Studio], Data Sources window
-ms.assetid: 20597ff8-0c98-43ec-8fb1-05376804ba48
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
 # Set the control to be created when dragging from the Data Sources window
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -69,6 +64,6 @@ Before you drag an item that represents a column or a property of an object from
 
      If you don't want to create a control for the column or property, select **None** in the drop-down menu. This is useful if you want to drag the parent table or object to the designer, but you do not want to include the specific column or property.
 
-## See also
+## Related content
 
 - [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)

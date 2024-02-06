@@ -1,5 +1,5 @@
 ---
-title: IDebugExpressionContext2 | Microsoft Docs
+title: IDebugExpressionContext2
 description: "This interface represents a context for expression evaluation"
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,17 +7,13 @@ f1_keywords:
 - IDebugExpressionContext2
 helpviewer_keywords:
 - IDebugExpressionContext2 interface
-ms.assetid: 577fdaae-4b2d-4112-9839-ab899535fa6f
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugExpressionContext2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a context for expression evaluation.
 
 ## Syntax

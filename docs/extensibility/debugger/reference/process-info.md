@@ -1,26 +1,22 @@
 ---
 description: "Contains information about a process."
-title: PROCESS_INFO | Microsoft Docs
+title: PROCESS_INFO
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - PROCESS_INFO
 helpviewer_keywords:
 - PROCESS_INFO structure
-ms.assetid: 260c33cc-a05e-4645-84b6-536d0b3b0537
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # PROCESS_INFO
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Contains information about a process.
 
 ## Syntax

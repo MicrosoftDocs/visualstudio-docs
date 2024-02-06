@@ -1,6 +1,6 @@
 ---
 title: 'Dependency Diagrams: Guidelines'
-description: Learn how to describe your app's architecture at a high level by creating dependency diagrams in Visual Studio.
+description: Describe your application architecture at a high level by creating dependency diagrams with layers to represent functional areas or components in Visual Studio.
 ms.date: 09/28/2018
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,13 +11,9 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+ms.subservice: modeling
 ---
 # Dependency diagrams: guidelines
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Describe your app's architecture at a high level by creating *dependency diagrams* in Visual Studio. Make sure that your code stays consistent with this design by validating your code with a dependency diagram. You can also include layer validation in your build process.
 
@@ -170,7 +166,7 @@ During the development process, you might want to suppress some of the reported 
 
 To ensure that future changes in the code conform to the dependency diagrams, include layer validation to your solution's standard build process. Whenever other team members build the solution, any differences between the dependencies in the code and the dependency diagram will be reported as build errors. For more information about including layer validation in the build process, see [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md).
 
-## See also
+## Related content
 
 - [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)
 - [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)

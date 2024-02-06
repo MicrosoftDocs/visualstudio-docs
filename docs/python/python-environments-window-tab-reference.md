@@ -1,20 +1,15 @@
 ---
-title: Python environments window reference
+title: Python Tools for Visual Studio environments window
+titleSuffix: ''
 description: Details on each of the tabs that appear in the Python Environments window in Visual Studio.
 ms.date: 03/18/2019
-ms.topic: reference
+ms.topic: ui-reference
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
-
-ms.workload:
-  - python
-  - data-science
+ms.subservice: python
 ---
-# Python Environments window tabs reference
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Python Environments window tabs reference in Python Tools for Visual Studio
 
 To open the **Python Environments** window:
 
@@ -25,7 +20,7 @@ If you expand the **Python Environments** window wide enough, these options are 
 
 ![Python Environments window expanded view](media/environments/environments-expanded-view-2019.png)
 
-## Overview tab
+## Tab: Overview
 
 Provides basic information and commands for the environment:
 

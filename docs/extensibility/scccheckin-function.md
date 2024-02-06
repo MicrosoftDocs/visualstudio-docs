@@ -1,23 +1,19 @@
 ---
 description: "This function checks in previously checked-out files to the source control system, storing the changes and creating a new version."
-title: SccCheckin Function | Microsoft Docs
+title: SccCheckin Function
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - SccCheckin
 helpviewer_keywords:
 - SccCheckin function
-ms.assetid: e3f26ac2-6163-42e1-a764-22cfea5a3bc6
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # SccCheckin function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function checks in previously checked-out files to the source control system, storing the changes and creating a new version. This function is called with a count and an array of names of the files to be checked in.
 
 ## Syntax

@@ -1,23 +1,19 @@
 ---
-title: Custom Tools | Microsoft Docs
-description: Learn how to create custom tools in Visual Studio that associate a tool with an item in a project and run that tool whenever the file is saved.
+title: Build custom tools & join them with project items
+description: Create custom tools in Visual Studio that associate a tool with an item in a project and run that tool whenever the file is saved.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - VSPackages, custom tools
 - tools [Visual Studio], custom
 - custom tools
-ms.assetid: d669f154-9b23-48b6-b9f6-7419c8dd61a6
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Custom tools
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 *Custom tools* let you associate a tool with an item in a project and run that tool whenever the file is saved. Certain custom tools, sometimes referred to as *single-file generators*, are frequently used to implement translators that generate code from data and vice versa. For example, single-file generators create Visual C# and Visual Basic source code out of the *.settings* and *.resx* files. The generated source code provides strongly-typed access to the data in the *.settings* and *.resx* files. The Visual C# and Visual Basic project types support custom tools; Visual C++ project types do not. Your own project types can also support custom tools.
 
  Custom tools are registered components that implement the `IVsSingleFileGenerator` interface.

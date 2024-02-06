@@ -6,13 +6,9 @@ ms.topic: reference
 author: mikadumont
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- dotnet
+ms.subservice: general-ide
 ---
 # Generate Comparison Operators for types that implement IComparable
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This code generation applies to:
 

@@ -1,25 +1,21 @@
 ---
 description: "Retrieves the number of type parameters that are associated with the generic field."
-title: IDebugGenericFieldDefinition::TypeParamCount | Microsoft Docs
+title: IDebugGenericFieldDefinition::TypeParamCount
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - TypeParamCount
 - IDebugGenericFieldDefinition::TypeParamCount
-ms.assetid: d41dd5ea-aa25-4bf3-bcfd-e0bf451ead49
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugGenericFieldDefinition::TypeParamCount
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the number of type parameters that are associated with the generic field.
 
 ## Syntax

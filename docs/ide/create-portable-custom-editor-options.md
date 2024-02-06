@@ -1,7 +1,6 @@
 ---
-title: EditorConfig settings
-description: Learn how to add an EditorConfig file to your project or codebase to enforce consistent coding styles for everyone that works in the codebase.
-ms.custom: devdivchpfy22
+title: Define coding styles with EditorConfig
+description: Add an EditorConfig file to your project or codebase to enforce consistent coding styles for everyone that works in the codebase.
 ms.date: 08/26/2022
 ms.topic: how-to
 helpviewer_keywords:
@@ -9,11 +8,9 @@ helpviewer_keywords:
 author: mikadumont
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Create portable, custom editor settings with EditorConfig
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can add an EditorConfig file to your project or codebase to enforce consistent coding styles for everyone that works in the codebase. EditorConfig settings take precedence over global Visual Studio text editor settings. This means that you can tailor each codebase to use text editor settings that are specific to that project. You can still set your own personal editor preferences in the Visual Studio **Options** dialog box. Those settings apply whenever you're working in a codebase without an *.editorconfig* file, or when the *.editorconfig* file doesn't override a particular setting. An example of such a preference is indent style&mdash;tabs or spaces.
 
@@ -165,7 +162,7 @@ dir .editorconfig /s
 
 You can control the scope of your EditorConfig conventions by setting the ```root=true``` property in the *.editorconfig* file at the root of your repo or in the directory that your project resides. Visual Studio looks for a file named *.editorconfig* in the directory of the opened file and in every parent directory. The search ends when it reaches the root filepath, or if an *.editorconfig* file with ```root=true``` is found.
 
-## See also
+## Related content
 
 - [.NET code style conventions](/dotnet/fundamentals/code-analysis/code-style-rule-options)
 - [Supporting EditorConfig for a language service](../extensibility/supporting-editorconfig.md)

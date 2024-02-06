@@ -1,5 +1,5 @@
 ---
-title: "&lt;deployment&gt; Element (ClickOnce Deployment) | Microsoft Docs"
+title: "&lt;deployment&gt; Element (ClickOnce Deployment)"
 description: The deployment element identifies the attributes used for the deployment of updates and exposure to the system.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -16,17 +16,13 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "<deployment> element [ClickOnce deployment manifest]"
-ms.assetid: 4fafa9c2-97a0-4cea-b8fd-9746dca33af4
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+ms.subservice: deployment
 ---
 # &lt;deployment&gt; element (ClickOnce deployment)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Identifies the attributes used for the deployment of updates and exposure to the system.
 
 ## Syntax
@@ -63,7 +59,7 @@ Identifies the attributes used for the deployment of updates and exposure to the
 | `install` | Required. Specifies whether this application defines a presence on the Windows **Start** menu and in the Control Panel **Add or Remove Programs** application. Valid values are `true` and `false`. If `false`, ClickOnce will always run the latest version of this application from the network, and will not recognize the `subscription` element. |
 | `minimumRequiredVersion` | Optional. Specifies the minimum version of this application that can run on the client. If the version number of the application is less than the version number supplied in the deployment manifest, the application will not run. Version numbers must be specified in the format `N.N.N.N`, where `N` is an unsigned integer. If the `install` attribute is `false`, `minimumRequiredVersion` must not be set. |
 | `mapFileExtensions` | Optional. Defaults to `false`. If `true`, all files in the deployment must have a .deploy extension. ClickOnce will strip this extension off these files as soon as it downloads them from the Web server. If you publish your application by using Visual Studio, it automatically adds this extension to all files. This parameter allows all the files within a ClickOnce deployment to be downloaded from a Web server that blocks transmission of files ending in "unsafe" extensions such as .exe. |
-| `disallowUrlActivation` | Optional. Defaults to `false`. If `true`, prevents an installed application from being started by clicking the URL or entering the URL into Internet Explorer. If the `install` attribute is not present, this attribute is ignored. |
+| `disallowUrlActivation` | Optional. Defaults to `false`. If `true`, prevents an installed application from being started by clicking the URL or entering the URL into a browser. If the `install` attribute is not present, this attribute is ignored. |
 | `trustURLParameters` | Optional. Defaults to `false`. If `true`, allows the URL to contain query string parameters that are passed into the application, much like command-line arguments are passed to a command-line application. For more information, see [How to: Retrieve Query String Information in an Online ClickOnce Application](../deployment/how-to-retrieve-query-string-information-in-an-online-clickonce-application.md).<br /><br /> If the `disallowUrlActivation` attribute is `true`, `trustUrlParameters` must either be excluded from the manifest, or explicitly set to `false`. |
 
  The `deployment` element also contains the following child elements.

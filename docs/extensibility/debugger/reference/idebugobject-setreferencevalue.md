@@ -1,26 +1,22 @@
 ---
 description: "Sets the reference value of this object."
-title: IDebugObject::SetReferenceValue | Microsoft Docs
+title: IDebugObject::SetReferenceValue
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugObject::SetReferenceValue
 helpviewer_keywords:
 - IDebugObject::SetReferenceValue method
-ms.assetid: 08c78a4e-98eb-41cb-8b75-02a6a43d49f7
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugObject::SetReferenceValue
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the reference value of this object.
 
 ## Syntax

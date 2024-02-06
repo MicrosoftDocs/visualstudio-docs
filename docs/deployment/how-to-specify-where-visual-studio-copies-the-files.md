@@ -1,5 +1,5 @@
 ---
-title: Specify ClickOnce Publish properties | Microsoft Docs
+title: Specify ClickOnce Publish properties
 description: Learn how to set the Publish properties for a ClickOnce application, such as the location where the application files and manifest are put, and the installation URL.
 ms.date: 08/04/2023
 ms.topic: how-to
@@ -10,17 +10,12 @@ dev_langs:
 helpviewer_keywords: 
   - publishing, specifying location
   - Publish Location property
-ms.assetid: 6c552700-dda3-49fe-af98-4717344fda07
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
+ms.subservice: deployment
 ---
 # Specify ClickOnce Publish properties
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can configure ClickOnce Publish properties on the **Publish** page of the **Project Designer**, or by using the Publish Wizard. In this article, you learn how to specify basic properties such as the publishing location, the installation URL, online or offline install mode, and the publish version.
 
@@ -126,7 +121,7 @@ When publishing a ClickOnce application, changing the `Publish Version` property
 You can disable this behavior on the **Publish** page of the **Project Designer**.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../ide/environment-settings.md#reset-settings).
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../ide/environment-settings.md#reset-all-settings).
 
 ### Disable automatically incrementing the publish version
 
@@ -138,7 +133,7 @@ You can disable this behavior on the **Publish** page of the **Project Designer*
 
 3. In the **Publish Version** section, clear the **Automatically increment revision with each release** check box.
 
-## See also
+## Related content
 
 - [Publishing ClickOnce applications](../deployment/publishing-clickonce-applications.md)
 - [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)

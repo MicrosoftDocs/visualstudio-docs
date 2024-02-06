@@ -1,26 +1,22 @@
 ---
 description: "Specifies whether the exception should be passed on to the program being debugged when execution resumes, or if the exception should be discarded."
-title: IDebugExceptionEvent2::PassToDebuggee | Microsoft Docs
+title: IDebugExceptionEvent2::PassToDebuggee
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugExceptionEvent2::PassToDebuggee
 helpviewer_keywords:
 - IDebugExceptionEvent2::PassToDebuggee
-ms.assetid: a20d0f0b-2ca0-4437-bd22-9213c81d2738
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugExceptionEvent2::PassToDebuggee
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies whether the exception should be passed on to the program being debugged when execution resumes, or if the exception should be discarded.
 
 ## Syntax

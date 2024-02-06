@@ -1,26 +1,22 @@
 ---
 description: "Returns the next set of elements from the code paths enumeration."
-title: IEnumCodePaths2::Next | Microsoft Docs
+title: IEnumCodePaths2::Next
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumCodePaths2::Next
 helpviewer_keywords:
 - IEnumCodePaths2::Next
-ms.assetid: c7a8fe97-2abc-4cee-8aef-64f1daa93b5c
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumCodePaths2::Next
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the next set of elements from the enumeration.
 
 ## Syntax

@@ -16,13 +16,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+ms.subservice: sharepoint-development
 ---
 # Deploy, publish, and upgrade SharePoint solution packages
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   After you develop a SharePoint solution in Visual Studio, you can either deploy its package (.wsp) file to a local SharePoint server or publish it to a remote or local SharePoint server. If you deploy the files, you can customize how the package files (.wsp) are deployed.
 
 > [!NOTE]
@@ -62,5 +59,5 @@ ms.workload:
 ### Upgrade published packages
  If you make any changes to a SharePoint project in Visual Studio after it is published, the published package must be upgraded to include the changes. To upgrade successfully, a package must have a unique name. If a package with the same name is found on the SharePoint site - which can occur when you are updating an existing application - an error alerts you to the file name conflict and lets you rename the package. After being republished, the new package appears on the SharePoint site and can be upgraded. An upgraded package updates the solution by using data from the older package, and then activates the solution in SharePoint. For more information, see [How to: Deploy, publish, and upgrade SharePoint solutions on a remote server](../sharepoint/how-to-deploy-publish-and-upgrade-sharepoint-solutions-on-a-remote-server.md).
 
-## See also
+## Related content
 - [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

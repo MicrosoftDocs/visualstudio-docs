@@ -2,7 +2,6 @@
 title: Suppress code analysis violations
 ms.date: 01/18/2022
 description: Learn how to suppress code analysis violations in Visual Studio. Understand how to use the SuppressMessageAttribute attribute for in-source suppression.
-ms.custom: devdivchpfy22
 ms.topic: conceptual
 helpviewer_keywords:
 - source suppression, code analysis
@@ -10,17 +9,13 @@ helpviewer_keywords:
 author: mikadumont
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-code-analysis
+ms.subservice: code-analysis
 dev_langs:
 - CSharp
 - VB
 - CPP
-ms.workload:
-- multiple
 ---
 # Suppress code analysis violations
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 It is often useful to indicate that a warning is not applicable. Suppressing code analysis violations indicates team members the code was reviewed, and the warning can be suppressed. The following sections describe the different ways to suppress code analysis violations using the Visual Studio IDE.
 
@@ -70,7 +65,6 @@ The [global suppression file](#global-level-suppressions) uses the [SuppressMess
 - From the **code editor**, place the cursor in the line of code with the violation and press **Quick actions and refactorings** (or press **Ctrl**+**Period (.)**) to open the **Quick Actions** menu. Select **Suppress CAXXXX**, and then choose **in Suppression File**. You see a preview of the [global suppression file](#global-level-suppressions) that will be created or modified.
 
 - From the **Analyze** menu, select **Analyze** > **Build and Suppress Active Issues** on the menu bar to suppress all current violations. Suppressing all current violations is sometimes referred to as "baselining".
-
 
 ## Suppress violations using project settings
 
@@ -238,7 +232,7 @@ For legacy code analysis, you can choose whether to suppress code analysis warni
 > [!NOTE]
 > Code analysis ignores `GeneratedCodeAttribute` when it is applied to either an entire assembly or a single parameter.
 
-## See also
+## Related content
 
 - <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Scope>
 - <xref:System.Diagnostics.CodeAnalysis>

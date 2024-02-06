@@ -1,6 +1,6 @@
 ---
-title: "Target Office apps through primary interop assemblies"
-description: Learn how you can use Visual Studio to programmatically target Microsoft Office applications through primary interop assemblies.
+title: Target Office apps with primary interop assemblies
+description: Explore how you can use Visual Studio to programmatically target Microsoft Office applications through primary interop assemblies.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -15,13 +15,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Target Office applications through primary interop assemblies
+# Target Office applications through primary interop assemblies
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When you create a new Office project, Visual Studio automatically adds references to the Microsoft Office primary interop assemblies (PIAs) that are required to build your project. You must add references to other PIAs in the following scenarios:
 
 - You want to use features of other Microsoft Office applications in your project. For example, you might want to use features of Microsoft Office Excel in a project for Microsoft Office Word.
@@ -49,7 +46,7 @@ ms.workload:
 
      The assembly name appears in the **References** folder of **Solution Explorer**.
 
-## See also
+## Related content
 - [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md)
 - [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)
 - [Develop Office solutions](../vsto/developing-office-solutions.md)

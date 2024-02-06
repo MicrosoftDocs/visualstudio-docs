@@ -8,17 +8,13 @@ f1_keywords:
 helpviewer_keywords:
 - Add Existing Project command
 - File.AddExistingProject
-ms.assetid: 71cf3e31-c76b-405b-ad6a-1b1bc654bd40
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Add Existing Project Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Adds an existing project to the current solution.
 
 ## Syntax

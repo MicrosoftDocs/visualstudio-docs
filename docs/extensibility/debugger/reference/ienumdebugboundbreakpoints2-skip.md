@@ -1,26 +1,22 @@
 ---
 description: "Skips over the specified number of elements in the bound breakpoints enumeration."
-title: IEnumDebugBoundBreakpoints2::Skip | Microsoft Docs
+title: IEnumDebugBoundBreakpoints2::Skip
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugBoundBreakpoints2::Skip
 helpviewer_keywords:
 - IEnumDebugBoundBreakpoints2::Skip
-ms.assetid: 95659709-6d7c-44ca-b598-629eb688429f
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugBoundBreakpoints2::Skip
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Skips over the specified number of elements.
 
 ## Syntax

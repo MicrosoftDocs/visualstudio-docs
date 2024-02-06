@@ -1,8 +1,7 @@
 ---
-title: Manage exceptions with the debugger | Microsoft Docs
+title: Manage exceptions with the debugger
 description: Learn how to specify which exceptions the debugger breaks on, at which point you want the debugger to break, and how breaks are handled.
-
-ms.date: 01/23/2023
+ms.date: 01/19/2024
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.exceptions
@@ -28,17 +27,12 @@ helpviewer_keywords:
   - common language runtime, exceptions
   - native run-time checks
   - exceptions, debugging
-ms.assetid: 43a77fa8-37d0-4c98-a334-0134dbca4ece
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
 # Manage exceptions with the debugger in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 An exception is an indication of an error state that occurs while a program is being executed. You can tell the debugger which exceptions or sets of exceptions to break on, and at which point you want the debugger to break (that is, pause in the debugger). When the debugger breaks, it shows you where the exception was thrown. You can also add or delete exceptions. With a solution open in Visual Studio, use **Debug > Windows > Exception Settings** to open the **Exception Settings** window.
 
@@ -288,7 +282,7 @@ To add conditional exceptions:
 
 4. If you need to delete a condition, choose the **X** at the end of the condition line.
 
-## See also
+## Related content
 
 - [Continue execution after an exception](../debugger/continuing-execution-after-an-exception.md)<br/>
 - [How to: Examine system code after an exception](../debugger/how-to-examine-system-code-after-an-exception.md)<br/>

@@ -1,22 +1,17 @@
 ---
-title: Application Patterns for Visual Studio | Microsoft Docs
+title: Application Patterns for Visual Studio
 description: Learn about the difference between document windows, tool windows, and modeless dialogs, including window usage patterns for new features for Visual Studio.
 ms.date: 04/26/2017
 ms.topic: reference
-ms.assetid: 8ed68602-4e28-46fe-b39f-f41979b308a2
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Application Patterns for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## <a name="BKMK_WindowInteractions"></a> Window interactions
 
-### Overview
 The two main window types used in Visual Studio are document editors and tool windows. Rare, but possible, are large modeless dialogs. Although these are all modeless in the shell, their patterns are fundamentally different. This section covers the difference between document windows, tool windows, and modeless dialogs. Modal dialog patterns are covered in [Dialogs](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_Dialogs).
 
 ### Comparing window usage patterns
@@ -38,7 +33,6 @@ Think carefully about which container type you need. Common usage pattern consid
 
 ## <a name="BKMK_ToolWindows"></a> Tool windows
 
-### Overview
 Tool windows support the user's work that happens in document windows. They can be used to display a hierarchy that represents a fundamental root object that Visual Studio provides and can manipulate.
 
 When considering a new tool window in the IDE, authors should:

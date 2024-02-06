@@ -98,9 +98,7 @@ f1_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # Default F1 page for MSBuild errors
 

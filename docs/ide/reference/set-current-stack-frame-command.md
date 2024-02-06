@@ -8,17 +8,13 @@ f1_keywords:
 helpviewer_keywords:
   - "Set Current Stack Frame command"
   - "Debug.SetCurrentStackFrame command"
-ms.assetid: 3dcf52c0-6781-4598-bac2-0094dce67c20
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-  - "multiple"
+ms.subservice: general-ide
 ---
 # Set Current Stack Frame Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Allows you to set a particular stack frame.
 
 ## Syntax

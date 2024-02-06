@@ -1,26 +1,22 @@
 ---
 description: "Retrieves a list of all the threads running in the process."
-title: IDebugProcess2::EnumThreads | Microsoft Docs
+title: IDebugProcess2::EnumThreads
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProcess2::EnumThreads
 helpviewer_keywords:
 - IDebugProcess2::EnumThreads
-ms.assetid: 05677385-7a7f-4545-8438-af00dde85db0
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProcess2::EnumThreads
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a list of all the threads running in the process.
 
 ## Syntax

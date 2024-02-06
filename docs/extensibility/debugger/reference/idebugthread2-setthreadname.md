@@ -1,26 +1,22 @@
 ---
 description: "Sets the name of the thread."
-title: IDebugThread2::SetThreadName | Microsoft Docs
+title: IDebugThread2::SetThreadName
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugThread2::SetThreadName
 helpviewer_keywords:
 - IDebugThread2::SetThreadName
-ms.assetid: fa934121-3f58-44dc-9c30-d3f752e44c8b
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugThread2::SetThreadName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the name of the thread.
 
 ## Syntax

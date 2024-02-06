@@ -1,26 +1,22 @@
 ---
 description: "Used to describe a machine."
-title: MACHINE_INFO_FLAGS | Microsoft Docs
+title: MACHINE_INFO_FLAGS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - MACHINE_INFO_FLAGS
 helpviewer_keywords:
 - MACHINE_INFO_FLAGS enumeration
-ms.assetid: 1482095d-9a2e-4ef1-9e14-362c0b85194e
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # MACHINE_INFO_FLAGS
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Used to describe a machine.
 
 ## Syntax

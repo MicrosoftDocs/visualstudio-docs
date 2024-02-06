@@ -1,18 +1,15 @@
 ---
-title: MSBuild Tasks | Microsoft Docs
+title: Explore how MSBuild tasks perform build actions
 description: Learn how MSBuild uses tasks, or units of executable code that perform atomic build operations, during the build process.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: language-reference
 helpviewer_keywords:
 - tasks
 - MSBuild, tasks
-ms.assetid: 5d3cc4a7-e5db-4f73-b707-8b6882fddcf8
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # MSBuild tasks
 
@@ -65,7 +62,7 @@ A build platform needs the ability to execute any number of actions during the b
 
  MSBuild looks for tasks in several locations. The first location is in files with the extension `.OverrideTasks` stored in the MSBuild directory. Tasks in these files override any other tasks with the same names, including tasks in the project file. The second location is in the project file and its imports. If the task is not defined in the project, it will be searched for in MSBuild's default tasks which are defined in a `.tasks` file in the MSBuild directory.
 
-## See also
+## Related content
 
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)
 - [MSBuild](../msbuild/msbuild.md)

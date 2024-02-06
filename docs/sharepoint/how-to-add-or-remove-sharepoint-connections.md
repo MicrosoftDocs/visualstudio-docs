@@ -1,6 +1,6 @@
 ---
-title: "How to: Add or Remove SharePoint Connections | Microsoft Docs"
-description: Add or remove SharePoint connections using the SharePoint Connections node in the Server Explorer window of Visual Studio.
+title: "Add or Remove SharePoint Connections"
+description: Add or remove SharePoint connections by using the SharePoint Connections node in the Server Explorer window of Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -13,13 +13,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+ms.subservice: sharepoint-development
 ---
-# How to: Add or remove SharePoint connections
+# Add or remove SharePoint connections
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Server Explorer lets you browse SharePoint sites as well as data connections. However, before you can browse the contents of a SharePoint site you must add it to the **SharePoint Connections** node.
 
 ### To add a SharePoint site to the SharePoint connections node

@@ -6,17 +6,12 @@ ms.topic: "ui-reference"
 helpviewer_keywords:
   - "Spy++. process properties"
   - "process properties, Spy++"
-ms.assetid: fe6c9d32-4b81-4dc4-a307-848d23af66ce
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Process Properties dialog box
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use this dialog box to find out more about a specific process. To display this dialog box, move the focus to a [Processes View](processes-view.md) window. Select any process node in the tree, then choose **Properties** from the **View** menu.
 

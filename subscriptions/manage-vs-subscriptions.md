@@ -3,10 +3,9 @@ title:  Manage Visual Studio Subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: 196c6d04-9a33-47d5-b0f1-038e7c3a7ac9
-ms.date: 03/30/2023
+ms.date: 11/28/2023
 ms.topic: conceptual
-description: Learn how to get the most out of your Visual Studio subscriptions
+description: Explore management tasks for your Visual Studio subscriptions, including renewal, transfer, profile changes, and setting preferences.
 ---
 # Managing subscriptions
 
@@ -34,9 +33,9 @@ On the Benefits page, the subscription in use is displayed in the drop-down list
 
 ### If your subscription isn't visible...
 
-+ It may be expired. Only active subscriptions are displayed in the Subscriber Portal.
-+ It may be associated with a different email address. If you have multiple subscriptions and they are assigned to different email addresses, you'll only see one at a time.  To switch to a different subscription, sign out of the portal and sign in with the email associated with the desired subscription.  
-+ If your company buys subscriptions through a Volume License, your admin may not have assigned a subscription to you, or may have reassigned your subscription to another user.
++ It could be expired. Only active subscriptions are displayed in the Subscriber Portal.
++ It could be associated with a different email address. If you have multiple subscriptions and they're assigned to different email addresses, you only see one at a time.  To switch to a different subscription, sign out of the portal and sign in with the email associated with the desired subscription.  
++ If your company buys subscriptions through a Volume License, your admin could have not assigned a subscription to you, or could have reassigned your subscription to another user.
 
 ## Renewing my subscriptions
 
@@ -44,7 +43,7 @@ On the Benefits page, the subscription in use is displayed in the drop-down list
 + Microsoft Store: If you purchased your subscription from the [Microsoft Store](https://www.microsoft.com/store), you can renew it there as well.
 + Volume License:  If your company buys subscriptions through a Volume License, your admin should contact a reseller to renew your subscriptions.
 
-**Cloud subscriptions:**  Cloud subscriptions don't need to be renewed. As long as your subscription is paid, it will remain active.
+**Cloud subscriptions:**  Cloud subscriptions don't need to be renewed. As long as your subscription is paid, it remains active.
 
 **Subscriptions acquired through programs:**  If you get your subscription through a program, your subscription is tied to your participation in the program. Reach out to your program contacts for additional information.
 
@@ -55,7 +54,7 @@ On the Benefits page, the subscription in use is displayed in the drop-down list
 ## Transferring subscriptions
 
 If your subscription was purchased through Microsoft Volume Licensing and you need to reassign it to someone else within the organization, your admin can help you.
-Retail subscriptions can be transferred to another user by contacting Customer Service. Complimentary or “Not For Resale” subscriptions cannot be transferred.
+Retail subscriptions can be transferred to another user by contacting Customer Service. Complimentary or “Not For Resale” subscriptions can't be transferred.
 
 ## Managing my profile
 
@@ -68,7 +67,7 @@ You can easily change the contact information and preferences in your profile.
 1. Select your name in the upper right corner of the Subscriber Portal.
 2. Select the **Edit profile** button.
 3. On the **About** tab, you can change your name, email, country/region, profile picture and contact preferences. On the **Preferences** tab, you can select your preferred language, date and time patterns, time zone, and user interface theme.
-4. When you’ve finalized your changes, select **Save**.
+4. When your changes are done, select **Save**.
 5. Select your browser's **back** button to return to the Benefits page.
 
 ### Setting communications preferences
@@ -80,7 +79,7 @@ To receive periodic updates and newsletters about your subscription and benefits
    
 ### Linking my subscription to existing Azure DevOps Services or Azure subscriptions
 
-If you sign in to your subscription using a personal Microsoft account (MSA) and have a subscription that includes Azure DevOps Services or Microsoft Azure using a work or school account managed by Azure, you can link the two subscriptions. Using an "alternate account" allows you to keep using your MSA to sign in to your subscription while having access to existing Azure, Azure DevOps Services or IDE resources that are associated with your school or work accounts.
+If you sign in to your subscription using a personal Microsoft account (MSA) and have a subscription that includes Azure DevOps Services or Microsoft Azure using a work or school account managed by Azure, you can link the two subscriptions. Use an "alternate account" to keep using your MSA to sign in to your subscription and still have access to existing Azure, Azure DevOps Services or IDE resources associated with your school or work accounts.
 
 Even if both accounts use the same email address, you need to add your work/school account as an alternate to use your benefits across both accounts.
 
@@ -91,11 +90,11 @@ To add an alternate account:
 3. Under **Alternate account**, choose **Add alternate account**.
 4. Enter your work/school account email address and select **Add**.
 
-After you've added an alternate account, you can update or remove it at any time by selecting the **Subscriptions** tab and choosing the appropriate option in the **Related Links** section.
+After you add an alternate account, you can update or remove it at any time by selecting the **Subscriptions** tab and choosing the appropriate option in the **Related Links** section.
 
 ## Frequently asked questions
 
-### Q: If I do not renew my subscription, how long will Microsoft keep my data?
+### Q: If I don't renew my subscription, how long does Microsoft keep my data?
 
 A: Depending on the purchasing channel, Microsoft maintains customer data for different lengths of time.
 
@@ -105,13 +104,17 @@ A: Depending on the purchasing channel, Microsoft maintains customer data for di
 | Volume Licensing Service Center (VLSC) | 180 |
 | Microsoft Products and Services Agreement (MPSA) | 180 |
 | Visual Studio Cloud Subscriptions | 180 |
-| Program (for example, MCT, MPN, Imagine) | 180 |
+| Program (for example, Microsoft Certified Trainer, Microsoft Cloud Partner Program, Imagine) | 180 |
 | Not For Resale (for example, MVP, MSP) | 180 |
 | DevEssentials | 30 |
 
 > [!NOTE]
-> + If you choose to close your Microsoft Account or Azure AD, your personal data will be anonymized immediately.
+> + If you choose to close your Microsoft Account or Microsoft Entra ID, your personal data will be anonymized immediately.
 > + We will not fully remove all your personal data if you have active subscriptions.
+
+### Q: How do I leave the Visual Studios Dev Essentials program?
+
+A:  To leave the program, select the [Subscriptions tab](https://my.visualstudio.com/Subscriptions), locate the entry for Visual Studio Dev Essentials, and select the "Leave program" link in the far right column.  
 
 ## Support resources
 

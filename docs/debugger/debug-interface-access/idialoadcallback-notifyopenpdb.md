@@ -1,23 +1,19 @@
 ---
 description: "Called when a candidate .pdb file is opened."
-title: "IDiaLoadCallback::NotifyOpenPDB | Microsoft Docs"
+title: "IDiaLoadCallback::NotifyOpenPDB"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaLoadCallback::NotifyOpenPDB method"
-ms.assetid: c0547f99-8468-4e57-82ca-9ef7d6707c8a
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaLoadCallback::NotifyOpenPDB
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Called when a candidate .pdb file is opened.
 
 ## Syntax

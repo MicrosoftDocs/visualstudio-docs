@@ -1,23 +1,19 @@
 ---
 description: "Provides a query context for debug symbols."
-title: "IDiaSession | Microsoft Docs"
+title: "IDiaSession"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSession interface"
-ms.assetid: 69dab9bf-2c68-4f70-9678-3b50fba3e6fa
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSession
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Provides a query context for debug symbols.
 
 ## Syntax

@@ -7,11 +7,10 @@ author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.date: 08/10/2021
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ms.topic: include
 ---
-
 
 
 ## Test Agent

@@ -1,26 +1,22 @@
 ---
 description: "Skips over the specified number of elements in the processes enumeration."
-title: IEnumDebugProcesses2::Skip | Microsoft Docs
+title: IEnumDebugProcesses2::Skip
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugProcesses2::Skip
 helpviewer_keywords:
 - IEnumDebugProcesses2::Skip
-ms.assetid: b9e9d888-189b-44c4-a65f-e91612458898
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugProcesses2::Skip
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Skips over the specified number of elements.
 
 ## Syntax

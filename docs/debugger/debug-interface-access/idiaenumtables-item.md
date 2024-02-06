@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a table by means of an index or name."
-title: "IDiaEnumTables::Item | Microsoft Docs"
+title: "IDiaEnumTables::Item"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumTables::Item method"
-ms.assetid: d65ab262-10c6-48ce-95a3-b5e4cb2c85af
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaEnumTables::Item
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a table by means of an index or name.
 
 ## Syntax

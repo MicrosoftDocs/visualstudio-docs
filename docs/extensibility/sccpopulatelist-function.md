@@ -1,23 +1,19 @@
 ---
 description: "This function updates a list of files for a particular source control command and supplies source control status on all given files."
-title: SccPopulateList Function | Microsoft Docs
+title: SccPopulateList Function
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - SccPopulateList
 helpviewer_keywords:
 - SccPopulateList function
-ms.assetid: 7416e781-c571-4a7f-8af3-a089ce8be662
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # SccPopulateList Function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function updates a list of files for a particular source control command and supplies source control status on all given files.
 
 ## Syntax

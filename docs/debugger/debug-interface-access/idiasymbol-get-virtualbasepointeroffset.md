@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the offset of the virtual base pointer."
-title: "IDiaSymbol::get_virtualBasePointerOffset | Microsoft Docs"
+title: "IDiaSymbol::get_virtualBasePointerOffset"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_virtualBasePointerOffset method"
-ms.assetid: a4f2649c-6702-491c-90a1-d6d669258c51
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_virtualBasePointerOffset
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the offset of the virtual base pointer.
 
 ## Syntax

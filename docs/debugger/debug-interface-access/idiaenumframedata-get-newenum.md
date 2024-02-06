@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the System.Runtime.InteropServices.ComTypes.IEnumVARIANT version of the frame data enumerator."
-title: "IDiaEnumFrameData::get__NewEnum | Microsoft Docs"
+title: "IDiaEnumFrameData::get__NewEnum"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumFrameData::get__NewEnum method"
-ms.assetid: f5fe0279-0549-4af5-8f89-bcb535fc5809
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaEnumFrameData::get__NewEnum
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the <xref:System.Runtime.InteropServices.ComTypes.IEnumVARIANT> version of this enumerator.
 
 ## Syntax

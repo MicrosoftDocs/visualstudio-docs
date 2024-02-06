@@ -1,24 +1,20 @@
 ---
 description: "Gets the user name from the port supplier."
-title: IDebugProcessSecurity::GetUserName | Microsoft Docs
+title: IDebugProcessSecurity::GetUserName
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugProcessSecurity::GetUserName
-ms.assetid: c73c60ac-da6e-45ae-8f04-95353a24ca3e
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProcessSecurity::GetUserName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the user name from the port supplier.
 
 ## Syntax

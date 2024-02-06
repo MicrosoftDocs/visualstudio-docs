@@ -1,14 +1,12 @@
 ---
-title: What's New in MSBuild 17.0  | Microsoft Docs
-description: Learn about the changed and updated features and properties for MSBuild 17.0, and link to release notes.
-ms.date: 11/11/2022
-ms.topic: conceptual
+title: What's New in MSBuild 17.0 
+description: Review the changed, updated, and new features of MSBuild 17, including support for .NET Framework 4.7.2 and .NET 6.0, and access links to release notes.
+ms.date: 11/01/2023
+ms.topic: whats-new
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 monikerRange: '>=vs-2019'
 ---
 # What's new in MSBuild 17.0
@@ -56,8 +54,8 @@ Binary logs are smaller and have more information.
 
 - `MSBuildCopyContentTransitively` is now on by default, ensuring consistency in output folders on incremental builds.
 
-For more changes in this version, see the detailed release notes.
+For more changes in this version, see the detailed release notes and for changes in MSBuild versions that you can opt out of, see [change waves](change-waves.md).
 
-## See also
+## Related content
 
 - [MSBuild](../msbuild/msbuild.md)

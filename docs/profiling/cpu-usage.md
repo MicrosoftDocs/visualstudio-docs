@@ -3,17 +3,12 @@ title: Analyze CPU usage in the Performance Profiler
 description: Learn about the CPU Usage performance tool, which shows the CPU time and percentage spent executing code in C++, C#, Visual Basic, and JavaScript apps.
 ms.date: 08/15/2023
 ms.topic: how-to
-ms.assetid: 7501a20d-04a1-480f-a69c-201524aa709d
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
 # Analyze CPU usage without debugging in the Performance Profiler (C#, Visual Basic, C++, F#)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A good way to start investigating performance issues in your app is to understand its CPU usage. The **CPU Usage** performance tool shows the CPU time and percentage spent executing code in C++, C#/Visual Basic.
 
@@ -57,6 +52,8 @@ Usually, the local machine best replicates installed app execution. To collect d
     ::: moniker range="<=vs-2019"
     ![Screenshot that shows Select CPU Usage.](../profiling/media/cpu-use-lib-choose-cpu-usage.png "Select CPU Usage")
     ::: moniker-end
+
+    If you enable the **Start with collection paused** option before starting the profiler, data will not be collected until you select the **Record** button in the diagnostic session view.
 
     > [!NOTE]
     > For more information on how to make the tool more efficient, see [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md).
@@ -232,7 +229,7 @@ If you want to view call counts in the Functions view, you can enable the settin
 
 ::: moniker-end
 
-## See also
+## Related content
 
 - [Troubleshoot Profiler errors](../profiling/troubleshoot-profiler-errors.md)
 - [Identify hot paths with Flame Graph](../profiling/flame-graph.md)

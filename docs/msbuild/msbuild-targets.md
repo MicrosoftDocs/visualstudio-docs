@@ -1,17 +1,14 @@
 ---
-title: MSBuild Targets | Microsoft Docs
-description: Learn how MSBuild uses targets to group tasks together and allow the build process to be factored into smaller units.
+title: Use MSBuild targets to create small build units 
+description: Explore how MSBuild uses targets to group several tasks together and allow the build process to be factored into smaller units.
 ms.date: 06/01/2023
-ms.topic: conceptual
+ms.topic: language-reference
 helpviewer_keywords:
 - MSBuild, targets
-ms.assetid: 8060b4d2-e4a9-48cf-a437-852649ceb417
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # MSBuild targets
 
@@ -452,7 +449,7 @@ Project systems or project which do not want to reference all dlls or winmd file
 
 ===================================================
 ExportWindowsMDFile
-When a project is generating a a winmd file through c# or vb, ect the compiler will create a WinMDModule file. This file needs to be run
+When a project is generating a winmd file through c# or vb, ect the compiler will create a WinMDModule file. This file needs to be run
 through the winmdexp tool in order to generate the resulting WinMD file.
 ===================================================
 <Target Name="ExportWindowsMDFile"
@@ -934,7 +931,7 @@ This target gathers the Redist folders from the SDKs which have been resolved.
         DependsOnTargets="$(SDKRedistOutputGroupDependsOn)"/>
 ```
 
-## See also
+## Related content
 
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)
 - [How to: Use the same target in multiple project files](../msbuild/how-to-use-the-same-target-in-multiple-project-files.md)

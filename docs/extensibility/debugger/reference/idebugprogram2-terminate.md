@@ -1,26 +1,22 @@
 ---
 description: "Terminates the program."
-title: IDebugProgram2::Terminate | Microsoft Docs
+title: IDebugProgram2::Terminate
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgram2::Terminate
 helpviewer_keywords:
 - IDebugProgram2::Terminate
-ms.assetid: 4d3127d3-b1e9-4b28-ac22-2f2eea255f86
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProgram2::Terminate
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Terminates the program.
 
 ## Syntax

@@ -1,5 +1,5 @@
 ---
-title: Debug multiple processes | Microsoft Docs
+title: Debug multi-process applications
 description: Debug multiple processes in Visual Studio. Start and switch between processes, break, continue, step through source, and end or detach from individual processes.
 ms.date: 11/20/2018
 ms.topic: how-to
@@ -14,17 +14,12 @@ dev_langs:
   - VB
   - FSharp
   - C++
-ms.assetid: bde37134-66af-4273-b02e-05b3370c31ab
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
 # Debug multiple processes (C#, Visual Basic, C++)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio can debug a solution that has several processes. You can start and switch between processes, break, continue, and step through source, stop debugging, and end or detach from individual processes.
 
@@ -170,7 +165,7 @@ The following table describes the behaviors of the debugger stop, terminate, and
 |**Processes** window > **Terminate Process**|The selected process is ended.<br />Other processes maintain their existing state (suspended or running).|
 |**Processes** window > **Detach when debugging stops**|If selected, **Debug** > **Stop Debugging** detaches from the selected process. <br />If not selected, **Debug** > **Stop Debugging** ends the selected process. |
 
-## See also
+## Related content
 
 - [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
 - [Attach to running processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)

@@ -1,23 +1,19 @@
 ---
 description: "Retrieves an enumerator for all tables contained in the symbol store."
-title: "IDiaSession::getEnumTables | Microsoft Docs"
+title: "IDiaSession::getEnumTables"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSession::getEnumTables method"
-ms.assetid: 66e0fba2-ca63-4e24-a46a-c99c7fb61dd1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSession::getEnumTables
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves an enumerator for all tables contained in the symbol store.
 
 ## Syntax

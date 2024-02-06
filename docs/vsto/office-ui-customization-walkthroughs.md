@@ -14,13 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
 # Office UI customization walkthroughs
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The following walkthroughs demonstrate ways that you can customize the user interface (UI) of Microsoft Office applications by using document-level customizations and VSTO Add-ins.
 
 ## Actions pane walkthroughs
@@ -73,7 +70,7 @@ ms.workload:
 - [Walkthrough: Update a chart in a worksheet using radio buttons](../vsto/walkthrough-updating-a-chart-in-a-worksheet-using-radio-buttons.md)
  Shows the basics of changing chart styles using option buttons on an Excel worksheet.
 
-## See also
+## Related content
 - [Walkthroughs using Word](../vsto/walkthroughs-using-word.md)
 - [Walkthroughs using Excel](../vsto/walkthroughs-using-excel.md)
 - [Data in Office solutions walkthroughs](../vsto/data-in-office-solutions-walkthroughs.md)

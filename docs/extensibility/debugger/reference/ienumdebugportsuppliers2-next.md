@@ -1,26 +1,22 @@
 ---
 description: "Returns the next set of elements from the port suppliers enumeration."
-title: IEnumDebugPortSuppliers2::Next | Microsoft Docs
+title: IEnumDebugPortSuppliers2::Next
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugPortSuppliers2::Next
 helpviewer_keywords:
 - IEnumDebugPortSuppliers2::Next
-ms.assetid: e2a2d226-e70b-42c2-bf00-a936517940c8
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugPortSuppliers2::Next
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the next set of elements from the enumeration.
 
 ## Syntax

@@ -8,17 +8,13 @@ f1_keywords:
 helpviewer_keywords:
   - "Debug.ListDisassembly command"
   - "list disassembly command"
-ms.assetid: eb363e35-e86a-4121-966f-991210c27e2a
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-  - "multiple"
+ms.subservice: general-ide
 ---
 # List Disassembly Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Begins the debug process and allows you to specify how errors are handled.
 
 ## Syntax

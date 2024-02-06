@@ -10,17 +10,12 @@ helpviewer_keywords:
 - WPF, data binding in Visual Studio
 - WPF data binding [Visual Studio], walkthroughs
 - WPF Designer, data binding
-ms.assetid: 8823537c-82f0-41f7-bf30-705f0e5e59fd
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
 # Bind WPF controls to a WCF data service
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this walkthrough, you will create a WPF application that contains data-bound controls. The controls are bound to customer records that are encapsulated in a WCF Data Service. You will also add buttons that customers can use to view and update records.
 
@@ -313,7 +308,7 @@ After completing this walkthrough, you can perform the following related tasks:
 
 - Learn how to use the **Data Sources** window in Visual Studio to display related data (that is, data in a parent-child relationship) in WPF controls. For more information, see [Walkthrough: Displaying related data in a WPF application](../data-tools/display-related-data-in-wpf-applications.md).
 
-## See also
+## Related content
 
 - [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md)
 - [Bind WPF controls to a dataset](../data-tools/bind-wpf-controls-to-a-dataset.md)

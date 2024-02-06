@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the lines in a specified compiland that contain a specified address."
-title: "IDiaSession::findLinesByAddr | Microsoft Docs"
+title: "IDiaSession::findLinesByAddr"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSession::findLinesByAddr method"
-ms.assetid: 640403c0-14cf-403c-ad19-38b3bdc28ca8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSession::findLinesByAddr
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the lines in a specified compiland that contain a specified address.
 
 ## Syntax

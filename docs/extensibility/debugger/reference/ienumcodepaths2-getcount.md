@@ -1,26 +1,22 @@
 ---
 description: "Returns the number of elements in the code paths enumeration."
-title: IEnumCodePaths2::GetCount | Microsoft Docs
+title: IEnumCodePaths2::GetCount
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumCodePaths2::GetCount
 helpviewer_keywords:
 - IEnumCodePaths2::GetCount
-ms.assetid: 988c5092-fcc5-43a1-a94c-c261edd56ebf
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumCodePaths2::GetCount
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the number of elements in the enumeration.
 
 ## Syntax

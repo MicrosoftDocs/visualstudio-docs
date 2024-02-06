@@ -1,6 +1,6 @@
 ---
-title: Create a Windows Forms user control with data binding
-description: Understand how to create a Windows Forms user control that supports complex data binding, by implementing the ComplexBindingPropertiesAttribute class.
+title: Create a .NET Framework Windows Forms user control with data binding
+description: Understand how to create a Windows Forms user control that supports complex data binding in ADO.NET applications with Visual Studio.
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -13,13 +13,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# Create a Windows Forms user control that supports complex data binding
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Create a .NET Framework Windows Forms user control that supports complex data binding with ADO.NET
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -52,6 +48,8 @@ During this walkthrough, you'll learn how to:
 - Add the new control by dragging it from the **Data Sources** window onto **Form1**.
 
 ## Prerequisites
+
+To complete this tutorial, you need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify. See [Modify Visual Studio](../install/modify-visual-studio.md).
 
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
@@ -154,13 +152,13 @@ Press **F5** to run the application.
 
 ## Next steps
 
-Depending on your application requirements, there are several steps you may want to perform after creating a control that supports databinding. Some typical next steps include:
+Depending on your application requirements, there are several steps you might want to perform after creating a control that supports databinding. Some typical next steps include:
 
 - Placing your custom controls in a control library so you can reuse them in other applications.
 
 - Creating controls that support lookup scenarios. For more information, see [Create a Windows Forms user control that supports lookup data binding](../data-tools/create-a-windows-forms-user-control-that-supports-lookup-data-binding.md).
 
-## See also
+## Related content
 
 - [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)
 - [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md)

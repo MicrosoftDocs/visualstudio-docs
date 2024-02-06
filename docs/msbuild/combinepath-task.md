@@ -1,5 +1,5 @@
 ---
-title: CombinePath Task | Microsoft Docs
+title: CombinePath Task
 description: Learn about how to use the MSBuild CombinePath task to combine the specified paths into a single path.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,17 +7,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - MSBuild, CombinePath task
 - CombinePath task [MSBuild]
-ms.assetid: c20edbf4-3d4f-4f66-b1d5-753a0d858ed8
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # CombinePath task
 

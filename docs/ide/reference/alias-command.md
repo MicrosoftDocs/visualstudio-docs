@@ -11,17 +11,13 @@ helpviewer_keywords:
 - Tools.Alias command
 - command aliases
 - alias command
-ms.assetid: bdf857df-b5d5-450f-8c10-a6fd4dccc130
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Alias Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates a new alias for a complete command, complete command and arguments, or another alias.
 
 > [!TIP]

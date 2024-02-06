@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the offset part of the contribution's address."
-title: "IDiaSectionContrib::get_addressOffset | Microsoft Docs"
+title: "IDiaSectionContrib::get_addressOffset"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSectionContrib::get_addressOffset method"
-ms.assetid: 4d569323-0e11-456d-9f92-a218bf292ecf
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSectionContrib::get_addressOffset
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the offset part of the contribution's address.
 
 ## Syntax

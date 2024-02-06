@@ -1,26 +1,22 @@
 ---
 description: "This method returns a copy of the current fields enumeration as a separate object."
-title: IEnumDebugFields::Clone | Microsoft Docs
+title: IEnumDebugFields::Clone
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugFields::Clone
 helpviewer_keywords:
 - IEnumDebugFields::Clone method
-ms.assetid: 7ec265a8-696f-45ce-a2a2-0a83e96fee1b
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugFields::Clone
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method returns a copy of the current enumeration as a separate object.
 
 ## Syntax

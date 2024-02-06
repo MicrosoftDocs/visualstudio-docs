@@ -1,5 +1,5 @@
 ---
-title: Common MSBuild Project Properties | Microsoft Docs
+title: Common MSBuild Project Properties
 description: Learn about common MSBuild project properties that can be defined or used in project files or included in .targets files that MSBuild provides.
 ms.date: 01/18/2018
 ms.topic: reference
@@ -7,19 +7,15 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - msbuild, common properties
 - msbuild, project file properties
 - ExcludeDeploymentUrl property
 - project file properties (MSBuild)
-ms.assetid: 9857505d-ae15-42f1-936d-6cd7fb9dd276
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # Common MSBuild project properties
 
@@ -27,7 +23,7 @@ The following table lists frequently used properties that are defined in the Vis
 
 Project files in Visual Studio (*.csproj*, *.vbproj*, *.vcxproj*, and others) contain MSBuild XML code that runs when you build a project by using the IDE. Projects typically import one or more *.targets* files to define their build process. For more information, see [MSBuild .targets files](../msbuild/msbuild-dot-targets-files.md).
 
-When setting property values, keep in mind that common properties may be set, reset, or used in a number of imported files. Therefore, it matters where you set a property--in your project file, in *Directory.Build.props*, or in another imported file. If you're setting a property somewhere and not getting the expected result, consider where and how the property is changed or used in all the files imported by your project, including imports that are added implicitly when you're using the `Sdk` attribute. See [Directory.Build.props and Directory.Build.targets](customize-your-build.md#directorybuildprops-and-directorybuildtargets). Preprocessing can help with this (see the `/preprocess` or `/pp` command-line option at [MSBuild command-line reference](./msbuild-command-line-reference.md)).
+When setting property values, keep in mind that common properties may be set, reset, or used in a number of imported files. Therefore, it matters where you set a property--in your project file, in *Directory.Build.props*, or in another imported file. If you're setting a property somewhere and not getting the expected result, consider where and how the property is changed or used in all the files imported by your project, including imports that are added implicitly when you're using the `Sdk` attribute. See [Choose between adding properties to a .props or .targets file](customize-your-build.md#choose-between-adding-properties-to-a-props-or-targets-file). Preprocessing can help with this (see the `/preprocess` or `/pp` command-line option at [MSBuild command-line reference](./msbuild-command-line-reference.md)).
 
 ## List of common properties and parameters
 
@@ -69,8 +65,8 @@ When setting property values, keep in mind that common properties may be set, re
 | DefineTrace | All | A boolean value that indicates whether you want the TRACE constant defined. |
 | DelaySign | .NET | A boolean value that indicates whether you want to delay-sign the assembly rather than full-sign it. |
 | Deterministic | .NET | A boolean value that indicates whether the compiler should produce identical assemblies for identical inputs. This parameter corresponds to the `/deterministic` switch of the compilers. |
-| DirectoryBuildPropsPath | All | Specifies the path to the *Directory.Build.props* file; if defined, this property overrides the default search algorithm. See [Customize your build](customize-your-build.md#directorybuildprops-and-directorybuildtargets). |
-| DirectoryBuildTargetsPath| All | Specifies the path to the *Directory.Build.targets* file; if defined, this property overrides the default search algorithm. See [Customize your build](customize-your-build.md#directorybuildprops-and-directorybuildtargets). |
+| DirectoryBuildPropsPath | All | Specifies the path to the *Directory.Build.props* file; if defined, this property overrides the default search algorithm. See [Customize your build](customize-your-build.md#choose-between-adding-properties-to-a-props-or-targets-file). |
+| DirectoryBuildTargetsPath| All | Specifies the path to the *Directory.Build.targets* file; if defined, this property overrides the default search algorithm. See [Customize your build](customize-your-build.md#choose-between-adding-properties-to-a-props-or-targets-file). |
 | DisableFastUpToDateCheck | All | A boolean value that applies to Visual Studio only. The Visual Studio build manager uses a process called FastUpToDateCheck to determine whether a project must be rebuilt to be up to date. This process is faster than using MSBuild to determine this. Setting the DisableFastUpToDateCheck property to `true` lets you bypass the Visual Studio build manager and force it to use MSBuild to determine whether the project is up to date. |
 | DocumentationFile | .NET | The name of the file that is generated as the XML documentation file. This name includes only the file name and has no path information. |
 
@@ -86,8 +82,8 @@ When setting property values, keep in mind that common properties may be set, re
 
 | Property or parameter name | Project types | Description |
 |------------------------------------| - | - |
-| ImportDirectoryBuildProps | All | A boolean value that indicates whether to import a *Directory.Build.props* file. See [Customize your build](customize-your-build.md#directorybuildprops-and-directorybuildtargets).|
-| ImportDirectoryBuildTargets | All | A boolean value that indicates whether to import a *Directory.Build.targets* file. See [Customize your build](customize-your-build.md#directorybuildprops-and-directorybuildtargets). |
+| ImportDirectoryBuildProps | All | A boolean value that indicates whether to import a *Directory.Build.props* file. See [Customize your build](customize-your-build.md#choose-between-adding-properties-to-a-props-or-targets-file).|
+| ImportDirectoryBuildTargets | All | A boolean value that indicates whether to import a *Directory.Build.targets* file. See [Customize your build](customize-your-build.md#choose-between-adding-properties-to-a-props-or-targets-file). |
 | IntermediateOutputPath | All | The full intermediate output path as derived from `BaseIntermediateOutputPath`, if no path is specified. For example, *obj\debug\\*. |
 | KeyContainerName | All | The name of the strong-name key container. |
 | KeyOriginatorFile | All | The name of the strong-name key file. |
@@ -122,6 +118,8 @@ When setting property values, keep in mind that common properties may be set, re
 | ProcessorArchitecture | .NET | The processor architecture that is used when assembly references are resolved. Valid values are "msil," "x86," "amd64," or "ia64." |
 | ProduceOnlyReferenceAssembly | .NET | A boolean value that instructs the compiler to emit only a reference assembly rather than compiled code. Can't be used in conjunction with `ProduceReferenceAssembly`.  This property corresponds to the `/refonly` switch of the *vbc.exe* and *csc.exe* compilers. |
 | ProduceReferenceAssembly | .NET | A boolean value that when set to `true` enables production of [reference assemblies](/dotnet/standard/assembly/reference-assemblies) for the current assembly. `Deterministic` should be `true` when using this feature. This property corresponds to the `/refout` switch of the *vbc.exe* and *csc.exe* compilers. |
+| RegisterAssemblyMSBuildArchitecture | Windows only | Specifies the default architecture for which the managed DLL is registered. This property is useful because COM uses the Windows registry to store the registrations in architecture-specific hives. For example, on a Windows system, an AnyCPU managed assembly can have its types registered in the 64-bit hive and/or in the 32-bit (WoW) hive, and the build uses this property to determine which architecture-specific registry hive to use. Valid values include "x86," "x64," and "ARM64." |
+| RegisterForCOMInterop | Windows only | Indicates that your managed application will expose a COM object (a COM callable wrapper). See [Build page - Output section](../ide/reference/build-page-project-designer-csharp.md). This setting affects only the machine on which the project is building. If you're deploying to other machines, call [regasm.exe](/dotnet/framework/tools/regasm-exe-assembly-registration-tool) to register the assembly on the target machine.|
 | RemoveIntegerChecks | Visual Basic | A boolean value that indicates whether to disable integer overflow error checks. The default value is `false`. This property is equivalent to the `/removeintchecks` switch of the *vbc.exe* compiler. |
 | RootNamespace | All | The root namespace to use when you name an embedded resource. This namespace is part of the embedded resource manifest name. |
 

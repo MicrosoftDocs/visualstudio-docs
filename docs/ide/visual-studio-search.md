@@ -1,6 +1,6 @@
 ---
-title: Use Visual Studio search
-description: Learn to use Visual Studio search to find settings, menus, code, and more.
+title: Use Visual Studio search to find code & do queries
+description: Explore the Visual Studio search feature and discover how to find settings, menus, code, and work with filters, queries, and more.
 ms.date: 08/08/2023
 ms.topic: how-to
 helpviewer_keywords:
@@ -12,18 +12,13 @@ helpviewer_keywords:
 - windows [Visual Studio], navigating
 - Window.QuickLaunch
 - IDE navigator
-ms.assetid: 3870a8fd-4afa-4f1e-a811-9fdf41a9e82d
 monikerRange: ">=vs-2019"
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Use Visual Studio search
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio integrated development environment (IDE) has many menus, options, and features, which can be difficult to remember. The Visual Studio search feature is a single search box that helps developers find IDE menus and options, while also searching your code. Whether you're new to Visual Studio or an experienced developer, this feature offers a quick way to search across IDE features and your code.
 
@@ -112,7 +107,7 @@ The search results include tabs for **All**, **Code**, **Visual Studio**. You ca
 - **Ctrl**+**Q**, **Ctrl**+**M** for Visual Studio menus, options, components, and templates
 - **Ctrl**+**Q**, **Ctrl**+**E** to go to the **All** tab, for both
 
-## See also
+## Related content
 
 - [Visual Studio commands](reference/visual-studio-commands.md)
 - [Keyboard shortcuts in Visual Studio](default-keyboard-shortcuts-in-visual-studio.md)

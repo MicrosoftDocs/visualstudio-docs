@@ -6,17 +6,13 @@ ms.topic: reference
 author: governesss
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 f1_keywords:
   - "vs.csharp.refactoring.make.local.function.static"
 dev_langs:
   - CSharp
-ms.workload:
-  - "dotnet"
 ---
 # Static local function refactorings and Quick Actions
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article outlines two productivity features related  to static local functions. One is a refactoring that makes a local function static, and the other is a Quick Action that generates code to pass variables into a static local function.
 

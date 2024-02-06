@@ -3,20 +3,24 @@ title: Configure an Azure cloud service project
 description: Learn how to configure an Azure cloud service project in Visual Studio, depending on your requirements for that project.
 author: ghogen
 manager: jmartens
-ms.technology: vs-azure
-ms.workload: azure-vs
+ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 03/06/2017
 ms.author: ghogen
 ---
 # Configure an Azure cloud service project with Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+ [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
+
 You can configure an Azure cloud service project, depending on your requirements for that project. You can set properties for the project for the following categories:
 
 - **Publish a cloud service to Azure** - You can set a property to make sure that an existing cloud service deployed to Azure is not accidentally deleted.
 - **Run or debug a cloud service on the local computer** - You can select a service configuration to use and indicate whether you want to start the Azure Storage Emulator.
 - **Validate a cloud service package when it is created** - You can decide to treat any warnings as errors so that you can ensure that the cloud service package deploys without any issues.
+
+## Prerequisites
+
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## Steps to configure an Azure cloud service project
 1. Open or create a cloud service project in Visual Studio
@@ -39,5 +43,5 @@ You can configure an Azure cloud service project, depending on your requirements
 
 1. From the Visual Studio toolbar, select **Save**.
 
-## Next steps
+## Related content
 - [Configure an Azure project using multiple service configurations](vs-azure-tools-multiple-services-project-configurations.md)

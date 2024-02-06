@@ -1,20 +1,16 @@
 ---
 title: The Git experience in Visual Studio
 titleSuffix: ""
-description: Learn how Git makes source control in Visual Studio more productive.
+description: Explore Git options for source control in Visual Studio and track the code changes you make over time or revert to specific versions.
 ms.date: 05/17/2023
 ms.topic: overview
 author: ghogen
 ms.author: ghogen
 ms.manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
-ms.custom: version-control
 
+ms.subservice: general-ide
 ---
 # How Visual Studio makes version control easy with Git
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Have you ever wished you could go back to a previously working version of your code? Do you find yourself manually storing copies of your code in different locations as a backup? Well, version control is the answer.
 

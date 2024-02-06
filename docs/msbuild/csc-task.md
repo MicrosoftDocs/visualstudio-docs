@@ -1,5 +1,5 @@
 ---
-title: Csc Task | Microsoft Docs
+title: Csc Task
 description: This article describes the MSBuild Csc task, which wraps the C# compiler, csc.exe, and produces .exe, .dll, or .netmodule files.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -9,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - Csc task [MSBuild]
 - MSBuild, Csc task
-ms.assetid: d8c19b36-f5ca-484b-afa6-8ff3b90e103a
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # Csc task
 

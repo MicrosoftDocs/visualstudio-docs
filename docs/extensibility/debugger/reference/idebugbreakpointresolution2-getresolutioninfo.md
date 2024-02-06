@@ -1,26 +1,22 @@
 ---
 description: "Gets the breakpoint resolution information that describes this breakpoint."
-title: IDebugBreakpointResolution2::GetResolutionInfo | Microsoft Docs
+title: IDebugBreakpointResolution2::GetResolutionInfo
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugBreakpointResolution2::GetResolutionInfo
 helpviewer_keywords:
 - IDebugBreakpointResolution2::GetResolutionInfo
-ms.assetid: 828cbdf6-b87d-4c45-be87-d87087b04a60
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugBreakpointResolution2::GetResolutionInfo
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the breakpoint resolution information that describes this breakpoint.
 
 ## Syntax

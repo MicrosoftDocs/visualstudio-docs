@@ -1,26 +1,22 @@
 ---
 description: "Gets the code context that describes the location of this event."
-title: IDebugCanStopEvent2::GetCodeContext | Microsoft Docs
+title: IDebugCanStopEvent2::GetCodeContext
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCanStopEvent2::GetCodeContext
 helpviewer_keywords:
 - IDebugCanStopEvent2::GetCodeContext
-ms.assetid: eecf08b6-f9b7-4358-941b-3a448a92ac62
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugCanStopEvent2::GetCodeContext
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the code context that describes the location of this event.
 
 ## Syntax

@@ -3,17 +3,12 @@ title: Use stored procedures in LINQ to SQL to update data
 description: Use stored procedures in the LINQ to SQL Object Relational Designer (O/R Designer) to perform updates, inserts, and deletes of data.
 ms.date: 11/04/2016
 ms.topic: how-to
-ms.assetid: e88224ab-ff61-4a3a-b6b8-6f3694546cac
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)
 
 Stored procedures can be added to the **O/R Designer** and executed as typical <xref:System.Data.Linq.DataContext> methods. They can also be used to override the default LINQ to SQL run-time behavior that performs Inserts, Updates, and Deletes when changes are saved from entity classes to a database (for example, when calling the <xref:System.Data.Linq.DataContext.SubmitChanges%2A> method).
 
@@ -31,7 +26,7 @@ By default, the logic to update a database (inserts, updates, and deletes) with 
 
 ### To assign stored procedures to override the default behavior of an entity class
 
-1. Open the **LINQ to SQL** file in the designer. (Double-click the **.dbml** file in **Solution Explorer**.)
+1. Open the **LINQ to SQL** file in the designer. (Double-click the *`.dbml`* file in **Solution Explorer**.)
 
 2. In **Server Explorer** or **Database Explorer**, expand **Stored Procedures** and locate the stored procedures that you want to use for the Insert, Update, and/or Delete commands of the entity class.
 
@@ -61,7 +56,7 @@ By default, the logic to update a database (inserts, updates, and deletes) with 
 
 To revert to using the default runtime logic for updates, click the ellipsis next to the **Insert**, **Update**, or **Delete** command in the **Properties** window and then select **Use runtime** in the **Configure Behavior** dialog box.
 
-## See also
+## Related content
 
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
 - [DataContext methods](../data-tools/datacontext-methods-o-r-designer.md)

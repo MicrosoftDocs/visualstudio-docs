@@ -14,17 +14,12 @@ helpviewer_keywords:
 - UseEnv switch
 - /UseEnv Devenv switch
 - Devenv, /UseEnv
-ms.assetid: 2dd14603-a61b-42d2-ba31-427a0ee8a799
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # /UseEnv (devenv.exe)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Starts Visual Studio and loads certain environment variables for compilation.
 

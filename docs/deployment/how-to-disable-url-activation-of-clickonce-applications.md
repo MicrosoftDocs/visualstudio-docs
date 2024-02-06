@@ -11,17 +11,12 @@ helpviewer_keywords:
   - disallowUrlActivation
   - URL activation, ClickOnce applications
   - ClickOnce deployment, URL activation
-ms.assetid: db31a16b-960f-4264-91d7-c7c40f876068
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
+ms.subservice: deployment
 ---
-# How to: Disable URL activation of ClickOnce applications
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Disable URL activation of ClickOnce applications
 
 Typically, a ClickOnce application will launch automatically immediately after it is installed from a Web server. For security reasons, you may decide to disable this behavior, and tell users to launch the application from the **Start** menu instead. The following procedure describes how to disable URL activation.
 
@@ -41,6 +36,6 @@ This procedure uses the Windows Software Development Kit (SDK) tool MageUI.exe. 
 
 4. Save and sign the manifest.
 
-## See also
+## Related content
 
 - [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)

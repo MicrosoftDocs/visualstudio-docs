@@ -1,5 +1,5 @@
 ---
-title: MT Task | Microsoft Docs
+title: MT Task
 description: Learn about the parameters and command-line options of the MSBuild MT task, which wraps the Microsoft Manifest Tool, mt.exe.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,13 +15,10 @@ dev_langs:
 helpviewer_keywords:
 - MSBUILD (C++), MT task
 - MT task (MSBuild (C++))
-ms.assetid: bb94913c-1042-4968-9f08-b394518e899f
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # MT task
 

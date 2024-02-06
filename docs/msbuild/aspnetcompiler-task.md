@@ -9,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - MSBuild, AspNetCompiler task
 - AspNetCompiler task [MSBuild]
-ms.assetid: f811c019-a67b-4d54-82e6-e29549496f6e
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- aspnet
+ms.subservice: msbuild
 ---
 # AspNetCompiler task
 

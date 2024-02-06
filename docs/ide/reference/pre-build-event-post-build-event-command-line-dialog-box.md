@@ -2,7 +2,7 @@
 title: Pre-build event-Post-build event command line dialog
 description: Learn how you can pre- or post-build events directly in the edit box, or how you can select pre- and post-build macros from a list of available macros.
 ms.date: 11/04/2016
-ms.technology: vs-ide-compile
+ms.subservice: compile-build
 ms.topic: reference
 f1_keywords:
 - cs.ProjectPropertiesBuildEventsBuilder
@@ -29,16 +29,11 @@ helpviewer_keywords:
 - $(SolutionFileName)
 - $(ProjectName)
 - build events, macros
-ms.assetid: d49b2c57-24bf-4fb2-8351-5c4b6cca938f
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.workload:
-- multiple
 ---
 # Pre-build event/post-build event command line dialog box
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can type pre- or post-build events for the [Build Events Page, Project Designer (C#)](../../ide/reference/build-events-page-project-designer-csharp.md) directly in the edit box, or you can select pre- and post-build macros from a list of available macros.
 

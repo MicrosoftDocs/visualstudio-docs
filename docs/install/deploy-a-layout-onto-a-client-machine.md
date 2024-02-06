@@ -1,6 +1,6 @@
 ---
 title: Deploy a layout onto a client machine
-description: Learn how to deploy a network layout of Visual Studio within an enterprise.
+description: Deploy a network layout of Visual Studio onto a client machine within an enterprise programmatically as part of an installation script.
 ms.date: 6/6/2023
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,16 +9,12 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.workload:
-- multiple
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ---
 # Deploy Visual Studio from a layout onto a client machine
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
  
-
 In order to deploy a layout to a client machine, you'll need to consider the following topics first:
 
 - [**Prepare the layout**](create-a-network-installation-of-visual-studio.md): Make sure that your layout is ready to install onto the client.
@@ -29,7 +25,7 @@ In order to deploy a layout to a client machine, you'll need to consider the fol
 
 ## Install Visual Studio onto a client machine from a layout
 
-Administrators can deploy a Visual Studio layout onto client workstations programatically as part of an installation script.  
+Administrators can deploy a Visual Studio layout onto client workstations programmatically as part of an installation script.  
 
 ### Install from a network layout
 
@@ -114,7 +110,7 @@ You need to make sure that any [offline client machines have the right certifica
 
 When you install from a layout, the installer on the client always looks for the Visual Studio packages in the layout's location. However, if the installer tries to install components that are _not_ included in the layout, then it will attempt to acquire the Visual Studio packages from the [update source](update-visual-studio.md#configure-source-location-of-updates-1), which administrators often configure to [point back to itself](automated-installation-with-response-file.md#configure-the-response-file-used-when-installing-from-a-layout). 
 
-If you want to explicitly prevent the Visual Studio Installer from attempting to download any missing content from Microsoft hosted servers on the web, you can use the [`--noWeb` parameter](use-command-line-parameters-to-install-visual-studio.md#layout-command-and-command--line-parameters). If `--noWeb` is used and the layout is missing a component that is selected to be installed, then the setup will fail.  Also, if `--noWeb` is used and the layout is hosted on your intranet web servers as opposed to a file network share, then the setup will fail. 
+If you want to explicitly prevent the Visual Studio Installer from attempting to download any missing content from Microsoft hosted servers on the web, you can use the [`--noWeb` parameter](use-command-line-parameters-to-install-visual-studio.md#layout-command-and-command-line-parameters). If `--noWeb` is used and the layout is missing a component that is selected to be installed, then the setup will fail.  Also, if `--noWeb` is used and the layout is hosted on your intranet web servers as opposed to a file network share, then the setup will fail. 
 
 Using the `--noweb` switch often fixes the error message "A product matching the following parameters can't be found".
 
@@ -136,7 +132,7 @@ We also offer an [**installation chat**](https://visualstudio.microsoft.com/vs/s
 
 We have other support options available, too. See our [Visual Studio Developer Community](https://developercommunity.visualstudio.com/home).
 
-## See also
+## Related content
 
 - [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 - [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)

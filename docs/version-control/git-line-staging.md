@@ -1,20 +1,17 @@
 ---
 title: Stage lines of code in Visual Studio
 titleSuffix: ""
-description: Stage multiple lines of code at one time or split changes across different commits by using Git from directly within Visual Studio.
+description: Stage multiple lines of code at the same time or split changes across different commits by using Git from directly within Visual Studio.
 ms.date: 05/16/2023
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 ms.manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
-ms.custom: version-control
+
+ms.subservice: general-ide
 monikerRange: vs-2022
 ---
 # Stage lines of code in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Line-staging support, also known as [interactive staging](https://git-scm.com/book/en/v2/Git-Tools-Interactive-Staging), is available in Visual Studio 2022 [version 17.3](/visualstudio/releases/2022/release-notes-v17.3) and later. Line-staging lets you stage chunks of changes in your files right from the code editor. Line staging can also be helpful when you want to split changes across different commits.
 
@@ -78,11 +75,7 @@ After you've prepared your commit by reviewing and staging the changes you want 
 
 :::image type="content" source="media/vs-2022/git-commit-staged-changes-inline.png" alt-text="Screenshot of the Git Changes dialog in Visual Studio 2022." lightbox="media/vs-2022/git-commit-staged-changes-expanded.png":::
 
-## Next steps
+## Related content
 
-To continue your journey, visit the [Push to remote](git-push-remote.md) page.
-
-## See also
-
+- [Push to remote](git-push-remote.md)
 - [Git experience in Visual Studio](git-with-visual-studio.md)
-- [Visual Studio & GitHub: Better together](https://visualstudio.microsoft.com/vs/github/)

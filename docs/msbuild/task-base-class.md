@@ -1,5 +1,5 @@
 ---
-title: Task Base Class | Microsoft Docs
+title: Task Base Class
 description: Learn about the parameters that the Microsoft.Build.Utilities.Task base class adds to the tasks that inherit from it.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,14 +7,10 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
-ms.assetid: 6c3f6238-b9f0-4325-b8b0-de61090bd0a2
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # Task base class
 

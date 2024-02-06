@@ -9,17 +9,12 @@ helpviewer_keywords:
 - Devenv, /build switch
 - build Devenv switch
 - command-line builds
-ms.assetid: ced21627-7653-455b-8821-3e31c6a448cf
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # /Build (devenv.exe)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Builds a solution or project using a specified solution configuration file.
 

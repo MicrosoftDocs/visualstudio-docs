@@ -1,17 +1,13 @@
 ---
-title: "Workspace file contexts in Visual Studio | Microsoft Docs"
+title: "Workspace file contexts in Visual Studio"
 description: Learn about file context providers that implement the IFileContextProvider interface to support insights into Open Folder workspaces.
 ms.date: "02/21/2018"
 ms.topic: "conceptual"
 author: "vukelich"
 ms.author: "svukel"
 manager: "viveis"
-ms.workload:
-  - "vssdk"
 ---
 # Workspace file contexts
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 All insights into [Open Folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) workspaces are produced by "file context providers" that implement the <xref:Microsoft.VisualStudio.Workspace.IFileContextProvider> interface. These extensions might look for patterns in folders or files, read MSBuild files and makefiles, detect package dependencies, etc. in order to accumulate the insights they need to define a file context. A file context by itself does not perform any action, but rather provides data that another extension can then act on.
 
@@ -68,7 +64,7 @@ A workspace listens to file change notifications and provides the <xref:Microsof
 >[!TIP]
 >A workspace's [indexing service](workspace-indexing.md) subscribes to file events by default. File additions and modifications will cause relevant `IFileScanner`s events to be invoked for new data for that file. File deletions will remove indexed data. You don't need to subscribe your `IFileScanner` to the file watcher service.
 
-## Next steps
+## Related content
 
 * [Indexing](workspace-indexing.md) - Workspace indexing collects and persists information about the workspace.
 * [Workspaces](workspaces.md) - Review workspace concepts and settings storage.

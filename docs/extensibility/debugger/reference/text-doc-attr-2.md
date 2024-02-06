@@ -1,26 +1,22 @@
 ---
 description: "Describes the attributes of a document."
-title: TEXT_DOC_ATTR_2 | Microsoft Docs
+title: TEXT_DOC_ATTR_2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - TEXT_DOC_ATTR_2
 helpviewer_keywords:
 - TEXT_DOC_ATTR_2 enumeration
-ms.assetid: 2333b33b-042b-4ac6-9ebe-e66f95f52f51
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # TEXT_DOC_ATTR_2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the attributes of a document.
 
 ## Syntax

@@ -1,6 +1,6 @@
 ---
 title: "Architecture of VSTO Add-ins"
-description: VSTO Add-ins created in Visual Studio have architectural features that emphasize stability and security, and enable them to work closely with Microsoft Office.
+description: Explore VSTO add-ins in Visual Studio and the architectural features that emphasize stability and security, and enable them to work closely with Microsoft Office.
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -15,13 +15,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
 # Architecture of VSTO Add-ins
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   VSTO Add-ins created by using the Office developer tools in Visual Studio have architectural features that emphasize stability and security, and enable them to work closely with Microsoft Office. This topic describes the following aspects of VSTO Add-ins:
 
 - [Understand VSTO Add-ins](#UnderstandingAddIns)
@@ -102,7 +99,7 @@ ms.workload:
 
 11. The  Visual Studio Tools for Office runtime  calls the `ThisAddIn_Startup` method in your VSTO Add-in. This method is the default event handler for the <xref:Microsoft.Office.Tools.AddInBase.Startup> event. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md).
 
-## See also
+## Related content
 - [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)
 - [Architecture of document-level customizations](../vsto/architecture-of-document-level-customizations.md)
 - [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)

@@ -1,7 +1,7 @@
 ---
 title: Select installation locations
-description: Learn how to reduce the installation footprint of Visual Studio on your system drive by changing the location of the download cache, shared components, SDKs, and tools to different drives. For example, move some files from the C drive to the D drive.
-ms.date: 11/28/2022
+description: Reduce the installation footprint of Visual Studio by changing the location of the download cache, shared components, SDKs, and tools to different drives.
+ms.date: 12/07/2023
 ms.custom: vs-acquisition
 ms.topic: how-to
 helpviewer_keywords:
@@ -12,14 +12,10 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.workload:
-- multiple
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ---
 # Select the installation locations in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ::: moniker range=">=vs-2022"
 
@@ -102,7 +98,7 @@ You can reduce the installation footprint of Visual Studio on your system drive 
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 
 * [Install Visual Studio](install-visual-studio.md)
 * [Update Visual Studio](update-visual-studio.md)

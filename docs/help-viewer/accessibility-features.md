@@ -6,18 +6,12 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "accessibility features [Help Viewer]"
   - "Help Viewer, accessibility features"
-ms.assetid: 94a3225c-d2cb-4565-8453-855d1cdc1acf
-author: jasonchlus
-ms.author: jasonchlus
+author: ghogen
+ms.author: ghogen
 manager: jmartens
-ms.technology: vs-help-viewer
-ms.custom: kr2b-contr-experiment
-ms.workload:
-  - "multiple"
+ms.subservice: help-viewer
 ---
 # Accessibility features of the Help Viewer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Microsoft is committed to making its products and services easy for everyone to use. Several features help make Microsoft Help Viewer accessible for people with a wide range of abilities.
 
@@ -106,7 +100,7 @@ You can reposition the Help Viewer window.
 
   :::image type="content" source="./media/accessibility-features/move-help-viewer.png" alt-text="Screenshot of Help Viewer and an on-screen keyboard. The Alt and M keys and the Spacebar are called out.":::
 
-## See also
+## Related content
 
 - [Microsoft Help Viewer](../help-viewer/overview.md)
 - [Shortcut Keys (Help Viewer)](../help-viewer/shortcut-keys.md)

@@ -3,20 +3,13 @@ title: Learn Django tutorial in Visual Studio step 4, web project template
 titleSuffix: ""
 description: A walkthrough of Django basics in the context of Visual Studio projects, specifically the features provided by the Django Web Project template.
 ms.date: 12/12/2022
-ms.custom: devdivchpfy22
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
-
-ms.workload:
-  - python
-  - data-science
+ms.subservice: python
 ---
 # Step 4: Use the full Django Web Project template
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Previous step: [Serve static files, add pages, and use template inheritance](learn-django-in-visual-studio-step-03-serve-static-files-and-add-pages.md)**
 
@@ -175,7 +168,6 @@ from django.urls import path
 from django.contrib import admin
 from django.contrib.auth.views import LoginView, LogoutView
 from app import forms, views
-
 
 urlpatterns = [
     path('', views.home, name='home'),

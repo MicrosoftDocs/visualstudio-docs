@@ -1,26 +1,22 @@
 ---
 description: "Specifies the kind of symbol information to retrieve."
-title: SYMBOL_SEARCH_INFO_FIELDS | Microsoft Docs
+title: SYMBOL_SEARCH_INFO_FIELDS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - SYMBOL_SEARCH_INFO_FIELDS
 helpviewer_keywords:
 - SYMBOL_SEARCH_INFO_FIELDS enumeration
-ms.assetid: bce35af0-722d-46d4-afa6-eaae598c51ff
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # SYMBOL_SEARCH_INFO_FIELDS
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the kind of symbol information to retrieve.
 
 ## Syntax

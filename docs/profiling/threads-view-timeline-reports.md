@@ -1,5 +1,5 @@
 ---
-title: "Threads view timeline reports in the Concurrency Visualizer | Microsoft Docs"
+title: "Threads view timeline reports in the Concurrency Visualizer"
 description: "Learn that in the Threads view, you can use timeline reports to identify which threads are executing code during an execution segment."
 ms.date: "05/06/2022"
 ms.topic: "conceptual"
@@ -16,13 +16,9 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Threads view timeline reports in the Concurrency Visualizer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
  This article provides information about the timeline reports in the Threads view of the Concurrency Visualizer.
 
@@ -80,6 +76,6 @@ These segments in the timeline are associated with blocking times that are categ
 
  The UI Processing category helps you understand the responsiveness of GUI applications, and is desirable in applications that depend on UI responsiveness. For example, if the UI thread in an application achieves 100% time in UI Processing, it's probably responsive. However, if the UI thread spends considerable time in other categories, look for the root causes and consider options for reducing non-UI categories on that thread.
 
-## See also
+## Related content
 
 - [Concurrency Visualizer](../profiling/concurrency-visualizer.md)

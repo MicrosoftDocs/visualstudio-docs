@@ -9,17 +9,12 @@ f1_keywords:
 helpviewer_keywords:
 - Find and Replace, Options dialog box
 - Find and Replace, customizing
-ms.assetid: f804d6d5-6309-46e4-8294-b83e880b5ec9
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Find and Replace, Environment, Options Dialog Box
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use this page of the **Options** dialog box to control message boxes and other aspects of a find and replace operation. You can access this dialog box from the **Tools** menu by selecting **Options**, expanding **Environment**, and then selecting **Find and Replace**.
 

@@ -5,9 +5,8 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 11/09/2020
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ms.topic: conceptual
-ms.assetid: 527E6BEC-EF15-4002-ACB5-62AE1C16F6B7
 ---
 # Data visualizations in Visual Studio for Mac
 

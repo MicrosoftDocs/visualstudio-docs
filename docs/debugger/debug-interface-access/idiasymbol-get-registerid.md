@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the register designator of the location when the LocationType Enumeration) is set to LocIsEnregistered`."
-title: "IDiaSymbol::get_registerId | Microsoft Docs"
+title: "IDiaSymbol::get_registerId"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_registerId method"
-ms.assetid: f881e793-eb9e-48dc-a847-dd61d77174fc
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_registerId
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the register designator of the location when the [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md) is set to `LocIsEnregistered`.
 
 ## Syntax

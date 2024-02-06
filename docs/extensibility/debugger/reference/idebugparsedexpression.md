@@ -1,23 +1,19 @@
 ---
 description: "This interface represents a parsed expression ready to be evaluated."
-title: IDebugParsedExpression | Microsoft Docs
+title: IDebugParsedExpression
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugParsedExpression
 helpviewer_keywords:
 - IDebugParsedExpression interface
-ms.assetid: be6486ed-b070-4898-95b1-58581bcb4447
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugParsedExpression
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 > [!IMPORTANT]
 > In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 

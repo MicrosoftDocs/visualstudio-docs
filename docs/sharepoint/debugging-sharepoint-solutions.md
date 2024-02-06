@@ -1,5 +1,5 @@
 ---
-title: "Debugging SharePoint Solutions | Microsoft Docs"
+title: "Debugging SharePoint Solutions"
 description: Debug SharePoint solutions using the Visual Studio debugger. Explore the F5 debug and deployment process, debug workflows, and debug feature event receivers.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -14,13 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+ms.subservice: sharepoint-development
 ---
 # Debug SharePoint solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can debug SharePoint solutions by using the Visual Studio debugger. When you start debugging, Visual Studio deploys the project files to the SharePoint server and then opens an instance of the SharePoint site in the Web browser. The following sections explain how to debug SharePoint applications in Visual Studio.
 
 - [Enable debugging](#enable-debugging)
@@ -146,5 +143,5 @@ ms.workload:
 
  For more information about other SharePoint registry keys, see [Debug extensions for the SharePoint tools in Visual Studio](../sharepoint/debugging-extensions-for-the-sharepoint-tools-in-visual-studio.md).
 
-## See also
+## Related content
 - [Troubleshoot SharePoint solutions](../sharepoint/troubleshooting-sharepoint-solutions.md)

@@ -1,6 +1,6 @@
 ---
 description: "Gets the current hit count for this bound breakpoint."
-title: IDebugBoundBreakpoint2::GetHitCount | Microsoft Docs
+title: IDebugBoundBreakpoint2::GetHitCount
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,20 +8,16 @@ f1_keywords:
 helpviewer_keywords:
 - GetHitCount method
 - IDebugBoundBreakpoint2::GetHitCount method
-ms.assetid: 23481f37-047c-41d2-8286-4da1f4084961
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugBoundBreakpoint2::GetHitCount
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the current hit count for this bound breakpoint.
 
 ## Syntax

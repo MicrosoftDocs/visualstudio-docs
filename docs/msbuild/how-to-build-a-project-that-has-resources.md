@@ -1,22 +1,19 @@
 ---
-title: 'How to: Build a Project That Has Resources | Microsoft Docs'
+title: 'Build a Project That Has Resources'
 description: Learn about how to build a project that has resources, and how to compile resources by using MSBuild.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - resource files, compiling with MSBuild
 - resources [Visual Studio], compiling with MSBuild
 - projects [.NET Framework], building
 - MSBuild, building a project with resources
-ms.assetid: d07ac73f-2c2d-4e9a-812a-6dcb632bafe2
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
-# How to: Build a project that has resources
+# Build a project that has resources
 
 If you are building localized versions of a project, all user interface elements must be separated into resource files for the different languages. If the project uses only strings, the resource files can use text files. Alternatively, you can use *.resx* files as the resource files.
 
@@ -76,7 +73,7 @@ The following example project contains two tasks: the `GenerateResource` task to
 </Project>
 ```
 
-## See also
+## Related content
 
 - [MSBuild](../msbuild/msbuild.md)
 - [GenerateResource task](../msbuild/generateresource-task.md)

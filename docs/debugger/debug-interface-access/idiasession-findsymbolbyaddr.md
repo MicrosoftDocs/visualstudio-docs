@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a specified symbol type that contains, or is closest to, a specified address."
-title: "IDiaSession::findSymbolByAddr | Microsoft Docs"
+title: "IDiaSession::findSymbolByAddr"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSession::findSymbolByAddr method"
-ms.assetid: c130abc5-4d0a-4d2d-8286-94fde36ddd4a
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSession::findSymbolByAddr
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a specified symbol type that contains, or is closest to, a specified address.
 
 ## Syntax

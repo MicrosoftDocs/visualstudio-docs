@@ -1,26 +1,22 @@
 ---
 description: "This method informs the process that a session is now debugging the process."
-title: IDebugProcessEx2::Attach | Microsoft Docs
+title: IDebugProcessEx2::Attach
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProcessEx2::Attach
 helpviewer_keywords:
 - IDebugProcessEx2::Attach method
-ms.assetid: f3334ed7-39bf-4d02-a338-36f567b9b287
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProcessEx2::Attach
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method informs the process that a session is now debugging the process.
 
 ## Syntax

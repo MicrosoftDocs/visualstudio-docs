@@ -1,26 +1,22 @@
 ---
 description: "This method sets the language that the process will be hosted under."
-title: IDebugProcess3::SetHostingProcessLanguage | Microsoft Docs
+title: IDebugProcess3::SetHostingProcessLanguage
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProcess3::SetHostingProcessLanguage
 helpviewer_keywords:
 - IDebugProcess3::SetHostingProcessLanguage
-ms.assetid: e42f33ed-f29c-4e45-92ce-ab504b72d77c
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProcess3::SetHostingProcessLanguage
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method sets the language that the process will be hosted under. This language can then be used by the debug engine (DE) to load the appropriate expression evaluator.
 
 ## Syntax

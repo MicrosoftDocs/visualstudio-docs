@@ -1,23 +1,19 @@
 ---
 description: "This interface enumerates port suppliers."
-title: IEnumDebugPortSuppliers2 | Microsoft Docs
+title: IEnumDebugPortSuppliers2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugPortSuppliers2
 helpviewer_keywords:
 - IEnumDebugPortSuppliers2
-ms.assetid: cd0a73dc-dd25-46fd-8c4f-5b011501afeb
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IEnumDebugPortSuppliers2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface enumerates port suppliers.
 
 ## Syntax

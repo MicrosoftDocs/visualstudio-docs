@@ -1,26 +1,22 @@
 ---
 description: "Specifies the debug launch flags."
-title: LAUNCH_FLAGS | Microsoft Docs
+title: LAUNCH_FLAGS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - LAUNCH_FLAGS
 helpviewer_keywords:
 - LAUNCH_FLAGS enumeration
-ms.assetid: f51aab02-d257-4302-bb79-b7d8ba9ac4e5
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # LAUNCH_FLAGS
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the debug launch flags.
 
 ## Syntax

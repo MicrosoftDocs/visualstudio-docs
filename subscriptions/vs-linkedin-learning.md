@@ -1,12 +1,11 @@
 ---
-title: LinkedIn Learning benefit in Visual Studio subscriptions | Microsoft Docs
+title: Activate LinkedIn Learning benefit in subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: 5bba2205-d32f-413d-9b58-724a24993842
-ms.date: 06/15/2023
+ms.date: 11/30/2023
 ms.topic: how-to
-description:  Learn about the LinkedIn Learning benefit included in selected Visual Studio subscriptions.
+description: Activate and explore the LinkedIn Learning benefit available in eligible Visual Studio subscriptions, and find answers to frequently asked questions.
 ---
 
 # The LinkedIn Learning benefit in Visual Studio subscriptions
@@ -16,6 +15,9 @@ Unlock the power of LinkedIn with access to the people, insights, and skills you
 Selected Visual Studio subscriptions include a subscription to LinkedIn Premium, which includes LinkedIn Learning.  The length of your Premium subscription depends on the type of Visual Studio subscription you have.
 
 You need to have a LinkedIn account to take advantage of your LinkedIn Learning benefit.  If you don't have one already, you have a chance to create one before you activate your Premium subscription.
+
+> [!IMPORTANT]
+> These offer can't be combined with other LinkedIn Learning offers.  No more than two of these offers may be claimed in a single calendar year, regardless of source.
 
 ## Activation steps
 

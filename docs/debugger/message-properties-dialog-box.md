@@ -6,17 +6,12 @@ ms.topic: "ui-reference"
 helpviewer_keywords:
   - "message options"
   - "message options, General"
-ms.assetid: 58e9dc24-baf6-4ab8-916c-aea28b72e3b0
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Message Properties dialog box
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use this dialog box to find out more about a specific message. To display this dialog box, move the focus to a [Messages View](messages-view.md) window. Select any message node in the tree, then choose **Properties** from the **View** menu.
 

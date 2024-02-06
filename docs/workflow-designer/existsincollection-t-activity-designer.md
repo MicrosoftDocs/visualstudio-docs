@@ -5,17 +5,12 @@ ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.ExistsInCollection`1.UI"
-ms.assetid: 0acf9a13-caf5-4bb4-ba22-ec37d2b7267a
 author: jodavis
 ms.author: jodavis
 manager: jmartens
-ms.technology: vs-workflow-designer
-ms.workload:
-  - "multiple"
+ms.subservice: workflow-designer
 ---
 # ExistsInCollection\<T> Activity Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **ExistsInCollection\<T>** activity designer is used to create and configure an <xref:System.Activities.Statements.ExistsInCollection%601> activity.
 

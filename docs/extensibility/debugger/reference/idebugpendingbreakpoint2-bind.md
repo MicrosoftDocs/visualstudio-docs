@@ -1,6 +1,6 @@
 ---
 description: "Binds this pending breakpoint to one or more code locations."
-title: IDebugPendingBreakpoint2::Bind | Microsoft Docs
+title: IDebugPendingBreakpoint2::Bind
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,20 +8,16 @@ f1_keywords:
 helpviewer_keywords:
 - Bind method
 - IDebugPendingBreakpoint2::Bind method
-ms.assetid: 46e3f307-219d-40cd-a929-d41399c60ecf
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPendingBreakpoint2::Bind
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Binds this pending breakpoint to one or more code locations.
 
 ## Syntax

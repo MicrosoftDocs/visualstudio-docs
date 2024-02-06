@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a symbol by its unique identifier."
-title: "IDiaSession::symbolById | Microsoft Docs"
+title: "IDiaSession::symbolById"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSession::symbolById method"
-ms.assetid: 062e4b5a-9c4d-4703-88da-ec13102c2b66
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSession::symbolById
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a symbol by its unique identifier.
 
 ## Syntax

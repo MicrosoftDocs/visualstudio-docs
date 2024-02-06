@@ -1,17 +1,13 @@
 ---
-title: "Quickstart: Install & configure Visual Studio Tools for Unity"
-description: "Quickstart: Learn how to connect Unity and Visual Studio for cross-platform development. Visual Studio Tools for Unity offers support for writing and debugging."
+title: "Install & configure Visual Studio Tools for Unity"
+description: Connect Unity and Visual Studio and use Visual Studio Tools for Unity to support writing and debugging for cross-platform development.
 ms.date: 08/26/2022
-ms.custom: kr2b-contr-experiment, devdivchpfy22
-ms.technology: vs-unity-tools
-ms.prod: visual-studio
+ms.subservice: unity-tools
+ms.service: visual-studio
 ms.topic: quickstart
-ms.assetid: 66b5b4eb-13b5-4071-98d2-87fafa4598a8
 author: "therealjohn"
 ms.author: "johmil"
 manager: crdun
-ms.workload:
-  - "unity"
 zone_pivot_groups: platform
 ---
 

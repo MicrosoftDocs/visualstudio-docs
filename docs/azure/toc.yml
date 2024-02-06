@@ -7,12 +7,13 @@
   - name: About Azure development in Visual Studio
     href: overview.md
 - name: Connect to Azure services
+  expanded: false
   items:
   - name: 'What are Connected Services?'
     href: overview-connected-services.md
   - name: 'Find & provision Azure resources'
     href: overview-azure-integration.md
-  - name: Azure Active Directory (Azure AD)
+  - name: Microsoft Entra ID
     href: vs-active-directory-add-connected-service.md
   - name: App Insights
     href: azure-app-insights-add-connected-service.md
@@ -21,7 +22,7 @@
   - name: CosmosDB
     href: azure-cosmosdb-add-connected-service.md
   - name: Key Vault
-    href: /azure/key-vault/vs-key-vault-add-connected-service
+    href: vs-key-vault-add-connected-service.md
   - name: SignalR
     href: azure-signalr-add-connected-service.md
   - name: SQL Database
@@ -30,33 +31,24 @@
     href: vs-azure-tools-connected-services-storage.md
   - name: App Configuration
     href: vs-azure-tools-connected-services-app-configuration.md
-  expanded: false
 - name: Deploy to Azure
   items:
   - name: ASP.NET web app
+    href: deploy-aspnet-web-app-to-azure.md
+  - name: Get a publish profile from Azure App Service
+    href: how-to-get-publish-profile-from-azure-app-service.md
+  - name: Continuous integration with GitHub Actions
     items:
-    - name: Azure Container Apps >>
-      href: /azure/container-apps/deploy-visual-studio
-    - name: Azure App Service >>
-      href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs
-    - name: Azure Container Registry
-      href: ../containers/hosting-web-apps-in-docker.md
-  - name: Azure Function app
-    href: /azure/azure-functions/functions-create-your-first-function-visual-studio
-  - name: Continuous integration
-    expanded: true
-    items:
-    - name: GitHub Actions
-      items:
-      - name: Overview
-        href: overview-github-actions.md
-      - name: Deploy to Azure using GitHub Actions
-        href: azure-deployment-using-github-actions.md
-    - name: ASP.NET Core and Git >>
-      href: /azure/app-service/deploy-continuous-deployment
-    - name: Azure Pipelines >>
-      href: /azure/devops/pipelines/get-started-yaml?view=vsts&preserve-view=true
-- name: Azure Cloud Services development
+    - name: Continuous integration with GitHub Actions
+      href: overview-github-actions.md
+    - name: Deploy to Azure using GitHub Actions
+      href: azure-deployment-using-github-actions.md
+    - name: Deploy an ASP.NET Core app with Entity Framework to Azure with GitHub Actions
+      href: end-to-end-deployment-entity-framework-core-github-actions.md
+- name: Sign in with your Azure subscription
+  href: how-to-sign-in-with-azure-subscription.md          
+- name: 'Extended support for Azure Cloud Services'
+  expanded: false
   items:
   - name: Use Cloud Services (extended support)
     href: cloud-services-extended-support.md
@@ -140,24 +132,4 @@
       href: vs-azure-tools-resources-managing-with-cloud-explorer.md
     - name: Access Azure virtual machines from Server Explorer
       href: vs-azure-tools-virtual-machines-access-from-server-explorer.md
-  expanded: false
-- name: Work with Azure Active Directory
-  items:
-  - name: Get started with .NET MVC projects
-    href: vs-active-directory-dotnet-getting-started.md
-  - name: What happened to my .NET MVC project?
-    href: vs-active-directory-dotnet-what-happened.md
-  - name: Get started with WebAPI projects
-    href: vs-active-directory-webapi-getting-started.md
-  - name: What happened to my WebAPI project?
-    href: vs-active-directory-webapi-what-happened.md
-  - name: Diagnose errors during authentication
-    href: vs-active-directory-error.md
-- name: How to
-  items:
-  - name: Get publish profile from Azure App Service
-    href: how-to-get-publish-profile-from-azure-app-service.md
-  - name: Sign in with your Azure subscription
-    href: how-to-sign-in-with-azure-subscription.md
-  - name: Deploy an ASP.NET Core app with Entity Framework to Azure with GitHub Actions
-    href: end-to-end-deployment-entity-framework-core-github-actions.md
+

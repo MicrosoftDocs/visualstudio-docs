@@ -1,19 +1,15 @@
 ---
-title: Use the Concurrency Visualizer Markers SDK | Microsoft Docs
+title: Use the Concurrency Visualizer Markers SDK
 description: Learn how to use the Concurrency Visualizer markers SDK in Visual Studio to create spans and write flags, messages, and alerts. 
 ms.date: 11/04/2016
 ms.topic: how-to
-ms.assetid: 19a45032-f8a7-4137-890e-2ceeec938b8d
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
-# How To: Use the Concurrency Visualizer markers SDK
+# Use the Concurrency Visualizer markers SDK
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This topic shows how to use the Concurrency Visualizer SDK to create spans and write flags, messages, and alerts.
 
 ### To use C++
@@ -173,5 +169,5 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
 
      ![Screenshot of the Threads view in the Concurrency Visualizer, showing a marker, flag, and message series, with a message, alert, and flag span.](../profiling/media/cvmarkerseriesmanaged.png "CvMarkerSeriesManaged")
 
-## See also
+## Related content
 - [Concurrency Visualizer SDK](../profiling/concurrency-visualizer-sdk.md)

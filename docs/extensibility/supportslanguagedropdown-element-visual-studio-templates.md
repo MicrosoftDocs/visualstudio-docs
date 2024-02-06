@@ -3,23 +3,18 @@ title: SupportsLanguageDropDown Element (Visual Studio Templates)
 titleSuffix: ""
 description: Learn about the SupportsLanguageDropDown element and how it specifies whether the Web item template is identical for multiple languages, and if the Language option is enabled.
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#SupportsLanguageDropDown
 helpviewer_keywords:
 - SupportsLanguageDropDown element [Visual Studio Templates]
 - <SupportsLanguageDropDown> element [Visual Studio Templates]
-ms.assetid: 641197d5-f724-4c06-bc47-2e22dad3fbfb
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.workload:
-- vssdk
 ---
 # SupportsLanguageDropDown Element (Visual Studio Templates)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Specifies whether the Web item template is identical for multiple languages, and whether the **Language** option is enabled on the **Add New Item** dialog box.
 

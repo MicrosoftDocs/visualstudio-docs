@@ -1,25 +1,21 @@
 ---
 description: "Retrieves a list of optional modifiers."
-title: IDebugModOpt::GetModOpts | Microsoft Docs
+title: IDebugModOpt::GetModOpts
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugModOpt::GetModOpts
 - GetModOpts
-ms.assetid: cb513fa9-d521-4a65-b968-f55f53a368df
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugModOpt::GetModOpts
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a list of optional modifiers.
 
 ## Syntax

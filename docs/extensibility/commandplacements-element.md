@@ -1,5 +1,5 @@
 ---
-title: CommandPlacements Element | Microsoft Docs
+title: CommandPlacements Element
 description: The CommandPlacements element groups CommandPlacement elements and other CommandPlacements groupings. The CommandPlacements element is optional.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -8,17 +8,13 @@ f1_keywords:
 helpviewer_keywords:
 - CommandPlacements element (VSCT XML schema)
 - VSCT XML schema elements, CommandPlacements
-ms.assetid: 78a5724a-3b9f-4c78-9c0d-8faa3924f81c
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # CommandPlacements element
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The CommandPlacements element groups CommandPlacement elements and other CommandPlacements groupings.
 
  The CommandPlacements element is optional. If no commands, groups, or menus must be included in a secondary location, you do not have to include this section in your *.vsct* file.

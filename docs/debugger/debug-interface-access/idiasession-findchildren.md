@@ -1,23 +1,19 @@
 ---
 description: "Retrieves all children of a specified parent identifier that match the name and symbol type."
-title: "IDiaSession::findChildren | Microsoft Docs"
+title: "IDiaSession::findChildren"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSession::findChildren method"
-ms.assetid: 5d19046f-f668-4aa9-8788-95cda9a98997
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSession::findChildren
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves all children of a specified parent identifier that match the name and symbol type.
 
 ## Syntax

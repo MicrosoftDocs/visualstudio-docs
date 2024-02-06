@@ -1,24 +1,20 @@
 ---
 description: "Retrieves the document checksum for a breakpoint request given the unique identifier of the checksum algorithm to use."
-title: IDebugBreakpointChecksumRequest2::GetChecksum | Microsoft Docs
+title: IDebugBreakpointChecksumRequest2::GetChecksum
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugBreakpointChecksumRequest2::GetChecksum
-ms.assetid: ec434882-e5c0-4d76-a58b-22c260d8626e
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugBreakpointChecksumRequest2::GetChecksum
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the document checksum for a breakpoint request given the unique identifier of the checksum algorithm to use.
 
 ## Syntax

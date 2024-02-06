@@ -1,6 +1,6 @@
 ---
 description: "The Dia2dump sample shows how to use the Microsoft Debug Interface Access Software Development Kit (DIA SDK) to query a PDB file for information."
-title: "Dia2dump Sample | Microsoft Docs"
+title: "Dia2dump Sample"
 ms.date: "07/24/2018"
 ms.topic: "reference"
 dev_langs:
@@ -8,17 +8,12 @@ dev_langs:
 helpviewer_keywords:
   - "sample applications [DIA SDK]"
   - "Dia2dump sample [DIA SDK]"
-ms.assetid: 492c0893-7043-452f-a020-890a47230d20
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Dia2dump Sample
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Dia2dump sample shows how to use the Microsoft Debug Interface Access Software Development Kit (DIA SDK) to query a PDB file for information.
 
@@ -74,4 +69,4 @@ Dia2Dump.exe relies on the msdia*version*.dll COM server to provide its services
 
 ## See also
 
-- [Port, Migrate, and Upgrade Visual Studio Projects](../../porting/port-migrate-and-upgrade-visual-studio-projects.md)
+- [Port, Migrate, and Upgrade Visual Studio Projects](/visualstudio/releases/2019/port-migrate-and-upgrade-visual-studio-projects)

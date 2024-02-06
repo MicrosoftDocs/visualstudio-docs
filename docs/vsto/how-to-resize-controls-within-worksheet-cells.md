@@ -1,5 +1,5 @@
 ---
-title: "How to: Resize controls within worksheet cells"
+title: "Resize controls within worksheet cells"
 description: Learn how you can use Visual Studio to resize controls within Microsoft Excel worksheet cells both at design time and at run time.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -14,13 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Resize controls within worksheet cells
+# Resize controls within worksheet cells
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When you resize columns or rows on a worksheet, any host controls within the cells automatically resize to the height or width of the cell that was resized. Windows Forms controls do not resize automatically by default.
 
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]
@@ -79,7 +76,7 @@ ms.workload:
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb" id="Snippet6":::
      ---
 
-## See also
+## Related content
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)
 - [How to: Add Windows Forms controls to Office documents](../vsto/how-to-add-windows-forms-controls-to-office-documents.md)
 - [How to: Hide controls on worksheets when printing](../vsto/how-to-hide-controls-on-worksheets-when-printing.md)

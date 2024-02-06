@@ -1,26 +1,22 @@
 ---
 description: "This method retrieves an object that allows enumeration of the list of persisted ports."
-title: IDebugPortSupplier3::EnumPersistedPorts | Microsoft Docs
+title: IDebugPortSupplier3::EnumPersistedPorts
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPortSupplier3::EnumPersistedPorts
 helpviewer_keywords:
 - IDebugPortSupplier3::EnumPersistedPorts
-ms.assetid: 1c3dead3-5d6c-4067-8418-4015f0b0dd07
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPortSupplier3::EnumPersistedPorts
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method retrieves an object that allows enumeration of the list of persisted ports.
 
 ## Syntax

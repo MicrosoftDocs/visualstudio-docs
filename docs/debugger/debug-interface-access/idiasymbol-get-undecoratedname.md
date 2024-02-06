@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the undecorated name for a C++ decorated, or linkage, name."
-title: "IDiaSymbol::get_undecoratedName | Microsoft Docs"
+title: "IDiaSymbol::get_undecoratedName"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_undecoratedName method"
-ms.assetid: e49edf25-a51d-4787-bd5b-2bf5af827c8c
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_undecoratedName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the undecorated name for a C++ decorated, or linkage, name.
 
 ## Syntax

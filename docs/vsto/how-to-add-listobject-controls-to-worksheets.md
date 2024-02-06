@@ -1,5 +1,5 @@
 ---
-title: "How to: Add ListObject controls to worksheets"
+title: "Add ListObject controls to worksheets"
 description: Learn how you can add ListObject controls to a Microsoft Office Excel worksheet at design time and at run time in document-level projects.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -12,13 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Add ListObject controls to worksheets
+# Add ListObject controls to worksheets
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can add <xref:Microsoft.Office.Tools.Excel.ListObject> controls to a Microsoft Office Excel worksheet at design time and at run time in document-level projects.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
@@ -92,7 +89,7 @@ ms.workload:
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/ThisAddIn.vb" id="Snippet8":::
      ---
 
-## See also
+## Related content
 - [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)
 - [ListObject control](../vsto/listobject-control.md)

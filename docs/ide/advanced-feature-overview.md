@@ -1,5 +1,5 @@
 ---
-title: Advanced features
+title: Explore advanced features for developers
 description: Learn about the advanced features that might be more appropriate for experienced developers, or those developers who are already familiar with Visual Studio.
 ms.custom: vs-acquisition
 ms.date: 8/19/2023
@@ -7,13 +7,9 @@ ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Features of Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article describes features for experienced developers, or developers who are already familiar with Visual Studio. For a basic introduction to Visual Studio, see the [Visual Studio IDE overview](../get-started/visual-studio-ide.md).
 
@@ -59,7 +55,7 @@ In Visual Studio, use [Cloud Explorer](/azure/vs-azure-tools-resources-managing-
 
 You can use Azure services for your apps by adding **Connected Services**, such as:
 
-- [Active Directory connected service](/azure/active-directory/develop/vs-active-directory-add-connected-service), to use [Azure Active Directory](/azure/active-directory/active-directory-whatis) (Azure AD) accounts to connect to web apps
+- [Active Directory connected service](/azure/active-directory/develop/vs-active-directory-add-connected-service), to use [Microsoft Entra ID](/azure/active-directory/active-directory-whatis) (Microsoft Entra ID) accounts to connect to web apps
 - [Azure Storage connected service](/azure/vs-azure-tools-connected-services-storage) for blob storage, queues, and tables
 - [Key Vault connected service](/azure/key-vault/vs-key-vault-add-connected-service) to manage secrets for web apps
 
@@ -139,7 +135,7 @@ In Visual Studio, you can manage your source code in Git repos hosted by any pro
 
 ::: moniker range=">=vs-2022"
 
-For full details, see the [Git experience in Visual Studio](../version-control/git-with-visual-studio.md) page and the [Visual Studio version control documentation](../version-control/index.yml) navigation page. And, for a step-by-step tutorial on how to connect to a Git or Azure DevOps repository by using Visual Studio, see the [Open a project from a repo](../get-started/tutorial-open-project-from-repo.md?view=vs-2022&preserve-view=true) page.
+For full details, see the [Git experience in Visual Studio](../version-control/git-with-visual-studio.md) page. And, for a step-by-step tutorial on how to connect to a Git or Azure DevOps repository by using Visual Studio, see the [Open a project from a repo](../get-started/tutorial-open-project-from-repo.md?view=vs-2022&preserve-view=true) page.
 
 > [!TIP]
 > We continue to build out the Git feature set and iterate on it based on your feedback. For more info about a recent feature update along with a link to survey where you can share your feedback on it, see the [Multi-repo support in Visual Studio](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) blog post.
@@ -148,7 +144,7 @@ For full details, see the [Git experience in Visual Studio](../version-control/g
 
 ::: moniker range="vs-2019"
 
-How you open a project from a GitHub repo by using Visual Studio 2019 depends on which version you have. Specifically, if you've installed version [**version 16.8**](/visualstudio/releases/2019/release-notes/) or later, there's a new, more fully integrated [Git experience in Visual Studio](../version-control/git-with-visual-studio.md) available to you. For more information, see the [Visual Studio version control documentation](../version-control/index.yml) page.
+How you open a project from a GitHub repo by using Visual Studio 2019 depends on which version you have. Specifically, if you've installed version [**version 16.8**](/visualstudio/releases/2019/release-notes/) or later, there's a new, more fully integrated [Git experience in Visual Studio](../version-control/git-with-visual-studio.md) available to you.
 
 And, for a step-by-step tutorial on how to connect to a Git or Azure DevOps repository by using Visual Studio, see the [Open a project from a repo](../get-started/tutorial-open-project-from-repo.md?view=vs-2019&preserve-view=true) page.
 

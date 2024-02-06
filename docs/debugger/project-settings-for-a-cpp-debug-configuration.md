@@ -1,7 +1,6 @@
 ---
 title: "Project settings for a C++ debug config"
 description: Configure C and C++ debugging in Property Pages. This article describes the settings and tells you their category.
-
 ms.date: "08/19/2022"
 ms.topic: "reference"
 f1_keywords:
@@ -106,17 +105,12 @@ helpviewer_keywords:
   - "-Z7 compiler option [C++]"
   - "pdb files, debug build project settings"
   - "/MAP linker option"
-ms.assetid: 860c7f13-a108-4fe5-8fca-d235cd3ca1cb
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "cplusplus"
+ms.subservice: debug-diagnostics
 ---
 # Project settings for a C++ debug configuration
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can change the project settings for a C or C++ debug configuration in the **Property Pages** dialog box, as discussed in [How to: Set debug and release configurations](../debugger/how-to-set-debug-and-release-configurations.md). The following tables show where to find debugger-related settings in the **Property Pages** dialog box.
 

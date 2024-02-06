@@ -1,22 +1,15 @@
 ---
 title: Write C++ extensions for Python
 description: This article walks you through how to create a C++ extension for Python by using Visual Studio, CPython, and PyBind11, including mixed-mode debugging.
-ms.custom: devdivchpfy22
-ms.date: 09/01/2023
+ms.date: 01/30/2024
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
-
-ms.workload:
-  - python
-  - data-science
+ms.subservice: python
 ---
 
 # Create a C++ extension for Python
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Commonly, modules written in C++ (or C) are used to extend the capabilities of a Python interpreter. You can also use them to enable access to low-level operating system capabilities.
 
@@ -104,7 +97,7 @@ For more information about the installation options, see [Install Python support
 
 Follow the instructions in this section to create two identical C++ projects, _superfastcode_ and _superfastcode2_. Later, you'll use a separate approach in each project to expose the C++ code to Python.
 
-1. In **Solution Explorer**, right-click the solution, and then select **Add** > **New Project**. A Visual Studio solution can contain both Python and C++ projects, which is one of the advantages of using Visual Studio for Python.
+1. In **Solution Explorer**, right-click the solution section header, and then select **Add** > **New Project**. A Visual Studio solution can contain both Python and C++ projects, which is one of the advantages of using Visual Studio for Python.
 
 1. Search on **C++**, select **Empty project**, specify either **superfastcode** for the first project or **superfastcode2** for the second project, and then select **OK**.
 
@@ -135,17 +128,17 @@ Follow the instructions in this section to create two identical C++ projects, _s
 
 1. Set the properties as described in the following table:
 
-   | Tab                             | Property                                      | Value                                                                                                                                                                                                                                                                                                                          |
-   | ------------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-   | **General**                     | **Target Name**                               | Specify the name of the module to refer to it from Python in `from...import` statements. You use this same name in the C++ code when you define the module for Python. To use the name of the project as the module name, leave the default value of **$\<ProjectName>**. For `python_d.exe`, add `_d` to the end of the name. |
-   |                                 | **Advanced** > **Target File Extension**      | **.pyd**                                                                                                                                                                                                                                                                                                                       |
-   |                                 | **Project Defaults** > **Configuration Type** | **Dynamic Library (.dll)**                                                                                                                                                                                                                                                                                                     |
-   | **C/C++** > **General**         | **Additional Include Directories**            | Add the Python _include_ folder as appropriate for your installation (for example, `c:\Python36\include`).                                                                                                                                                                                                                     |
-   | **C/C++** > **Preprocessor**    | **Preprocessor Definitions**                  | If it's present, change the **\_DEBUG** value to **NDEBUG** to match the non-debug version of CPython. When you're using _python_d.exe_, leave this value unchanged.                                                                                                                                                           |
-   | **C/C++** > **Code Generation** | **Runtime Library**                           | **Multi-threaded DLL (/MD)** to match the non-debug version of CPython. When you're using _python_d.exe_, leave this value as **Multi-threaded Debug DLL (/MDd)**.                                                                                                                                                             |
-   |                                 | **Basic Runtime Checks**                      | **Default**                                                                                                                                                                                                                                                                                                                    |
-   | **Linker** > **General**        | **Additional Library Directories**            | Add the Python _libs_ folder that contains _.lib_ files, as appropriate for your installation (for example, _c:\Python36\libs_). Be sure to point to the _libs_ folder that contains _.lib_ files, and _not_ the _Lib_ folder that contains _.py_ files.                                                                       |
-   |                                 |                                               |
+   | Tab                                         | Property                           | Value                                                                                                                                                                                                                                                                                                                          |
+   | ------------------------------------------- | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+   | **Configuration Properties** > **General**  | **Target Name**                    | Specify the name of the module to refer to it from Python in `from...import` statements. You use this same name in the C++ code when you define the module for Python. To use the name of the project as the module name, leave the default value of **$\<ProjectName>**. For `python_d.exe`, add `_d` to the end of the name. |
+   |                                             | **Configuration Type**             | **Dynamic Library (.dll)**                                                                                                                                                                                                                                                                                                     |
+   | **Configuration Properties** > **Advanced** | **Target File Extension**          | **.pyd**                                                                                                                                                                                                                                                                                                                       |
+   | **C/C++** > **General**                     | **Additional Include Directories** | Add the Python _include_ folder as appropriate for your installation (for example, `c:\Python36\include`).                                                                                                                                                                                                                     |
+   | **C/C++** > **Preprocessor**                | **Preprocessor Definitions**       | If it's present, change the **\_DEBUG** value to **NDEBUG** to match the non-debug version of CPython. When you're using _python_d.exe_, leave this value unchanged.                                                                                                                                                           |
+   | **C/C++** > **Code Generation**             | **Runtime Library**                | **Multi-threaded DLL (/MD)** to match the non-debug version of CPython. When you're using _python_d.exe_, leave this value as **Multi-threaded Debug DLL (/MDd)**.                                                                                                                                                             |
+   |                                             | **Basic Runtime Checks**           | **Default**                                                                                                                                                                                                                                                                                                                    |
+   | **Linker** > **General**                    | **Additional Library Directories** | Add the Python _libs_ folder that contains _.lib_ files, as appropriate for your installation (for example, _c:\Python36\libs_). Be sure to point to the _libs_ folder that contains _.lib_ files, and _not_ the _Lib_ folder that contains _.py_ files.                                                                       |
+   |                                             |                                    |
 
    > [!NOTE]
    > If the **C/C++** tab isn't displayed in the project properties, the project contains no files that identifies as C/C++ source files. This condition can occur if you create a source file without a _.c_ or _.cpp_ file extension.
@@ -484,6 +477,6 @@ You can create Python extensions in various ways, as described in the following 
 | [Boost.Python](https://www.boost.org/doc/libs/1_66_0/libs/python/doc/html/index.html) | 2002    |                                                                     |
 | [cppyy](https://cppyy.readthedocs.io/)                                                | 2017    |                                                                     |
 
-## See also
+## Related content
 
 You'll find the completed sample from this walkthrough on GitHub at [python-samples-vs-cpp-extension](https://github.com/Microsoft/python-sample-vs-cpp-extension).

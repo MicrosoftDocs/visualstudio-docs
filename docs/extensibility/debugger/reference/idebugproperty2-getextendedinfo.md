@@ -1,26 +1,22 @@
 ---
 description: "Gets extended information for the property."
-title: IDebugProperty2::GetExtendedInfo | Microsoft Docs
+title: IDebugProperty2::GetExtendedInfo
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProperty2::GetExtendedInfo
 helpviewer_keywords:
 - IDebugProperty2::GetExtendedInfo
-ms.assetid: 0c9c0b2b-7540-4424-adb5-fce7aa37a026
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProperty2::GetExtendedInfo
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets extended information for the property.
 
 ## Syntax

@@ -15,13 +15,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
 # Work with folders
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The <xref:Microsoft.Office.Interop.Outlook.MAPIFolder> class contains the methods and properties you use to access, create, and customize folders.
 
 |Task|Procedure|
@@ -34,7 +31,7 @@ ms.workload:
 
  For more information about Outlook tasks and the Outlook object model, see [Outlook object model overview](../vsto/outlook-object-model-overview.md).
 
-## See also
+## Related content
 - [Work with contact items](/previous-versions/visualstudio/visual-studio-2017/vsto/working-with-contact-items)
 - [Work with mail items](../vsto/working-with-mail-items.md)
 - [Work with calendar items](../vsto/working-with-calendar-items.md)

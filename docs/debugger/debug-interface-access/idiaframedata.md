@@ -1,23 +1,19 @@
 ---
 description: "Exposes the details of a stack frame."
-title: "IDiaFrameData | Microsoft Docs"
+title: "IDiaFrameData"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaFrameData interface"
-ms.assetid: 2f1b4986-341b-4641-89a4-226e261e9d93
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaFrameData
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Exposes the details of a stack frame.
 
 ## Syntax

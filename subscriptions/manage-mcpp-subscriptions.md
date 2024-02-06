@@ -1,17 +1,16 @@
 ---
-title: Manage Visual Studio subscriptions from Microsoft Cloud Partner Program | Microsoft Docs
+title: Manage subscriptions from Cloud Partner Program
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: 83efe4ee-9a9d-4776-b27c-852d89dadafd
-ms.date: 06/14/2023
+ms.date: 11/28/2023
 ms.topic: how-to
-description: How Microsoft Cloud Partner Program partners assign Visual Studio subscriptions to end users.
+description: Discover how Microsoft Cloud Partner Program partners assign Visual Studio subscriptions to their end users (subscribers).
 ---
 
 # Manage Visual Studio subscriptions offered through the Microsoft Cloud Partner Program 
 
-Partners who earn a competency or who purchase the Action Pack in the Microsoft Cloud Partner Program, formerly known as Microsoft Partner Network (MPN), are eligible to use Visual Studio subscriptions. These subscriptions are licensed per user, and are only valid when assigned to a specific named user who works for the partner company.
+Partners who earn a competency or who purchase the Action Pack in the Microsoft Cloud Partner Program, formerly known as Microsoft Cloud Partner Network, are eligible to use Visual Studio subscriptions. These subscriptions are licensed per user, and are only valid when assigned to a specific named user who works for the partner company.
 
 See Visual Studio subscriptions offered to partners in the [Microsoft Cloud Partner Program](program-mcpp.md) for details.
 
@@ -54,7 +53,6 @@ Microsoft Action Pack subscriber and Visual Studio subscriptions
 
 + Download the [Terms of participation in the Microsoft Cloud Partner Program](https://aka.ms/partner-benefits-use-guide)
 
-
 ## See also
 
 + [Visual Studio documentation](/visualstudio/)
@@ -64,4 +62,4 @@ Microsoft Action Pack subscriber and Visual Studio subscriptions
 
 ## Next steps
 
-Subscribers and Program Admins should work directly with the Cloud  support team to resolve any problems with subscribers accessing subscriptions. Visit the [Support for Partners](https://partner.microsoft.com/support) page for assistance. (Your MPN sign-in credentials are required.)
+Subscribers and Program Admins should work directly with the Cloud  support team to resolve any problems with subscribers accessing subscriptions. Visit the [Support for Partners](https://partner.microsoft.com/support) page for assistance. (Your Cloud Partner Network sign-in credentials are required.)

@@ -1,23 +1,19 @@
 ---
 description: "This interface gives access to a method that can create a visualizer service, which is used to handle type visualizer tasks for the IDE."
-title: IEEVisualizerServiceProvider | Microsoft Docs
+title: IEEVisualizerServiceProvider
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEEVisualizerServiceProvider
 helpviewer_keywords:
 - IEEVisualizerServiceProvider interface
-ms.assetid: 859d1a51-1c65-4c8b-ae74-3b74b181ebcd
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IEEVisualizerServiceProvider
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 > [!IMPORTANT]
 > In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 

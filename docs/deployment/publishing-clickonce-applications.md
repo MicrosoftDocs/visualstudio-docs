@@ -1,5 +1,5 @@
 ---
-title: "Publishing ClickOnce Applications | Microsoft Docs"
+title: "Publishing ClickOnce Applications"
 description: Learn how to use the Publish Wizard to publish a ClickOnce application for the first time. Make later changes on the Publish page in the Project Designer.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -15,17 +15,13 @@ helpviewer_keywords:
   - "ClickOnce applications, publishing"
   - "applications [Visual Studio], ClickOnce deployment"
   - "deploying applications [ClickOnce], publishing ClickOnce applications"
-ms.assetid: eb6dfe79-f54c-4331-8e36-073688e70973
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+ms.subservice: deployment
 ---
 # Publish ClickOnce applications
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When publishing a ClickOnce application for the first time, publish properties can be set using the Publish Wizard. Only a few of the properties are available in the wizard; all other properties are set to their default values.
 
  Subsequent changes to publish properties are made on the **Publish** page in the **Project Designer**.
@@ -100,6 +96,6 @@ When publishing a ClickOnce application for the first time, publish properties c
 |[Walkthrough: Create a custom installer for a ClickOnce application](../deployment/walkthrough-creating-a-custom-installer-for-a-clickonce-application.md)|Explains how to create a custom installer to install a ClickOnce application.|
 |[How to: Publish a WPF application with visual styles enabled](../deployment/how-to-publish-a-wpf-application-with-visual-styles-enabled.md)|Provides step-by-step instructions to resolve an error that appears when you attempt to publish a WPF application that has visual styles enabled.|
 
-## See also
+## Related content
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
 - [ClickOnce reference](../deployment/clickonce-reference.md)

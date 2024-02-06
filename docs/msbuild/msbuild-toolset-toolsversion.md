@@ -1,20 +1,17 @@
 ---
-title: MSBuild Toolset (ToolsVersion) | Microsoft Docs
-description: Learn how to use the ToolsVersion attribute in the MSBuild project file to specify a toolset of tasks, targets, and tools to build an application.
-ms.date: 11/07/2022
-ms.topic: conceptual
+title: MSBuild Toolset (ToolsVersion)
+description: Review the obsolete ToolsVersion attribute in the MSBuild project file that specifies a toolset of tasks, targets, and tools to build an application.
+ms.date: 11/01/2023
+ms.topic: language-reference
 helpviewer_keywords:
 - MSBuild, multitargeting
 - targeting a specific .NET Framework [MSBuild]
 - MSBuild, targeting a specific .NET Framework
 - multitargeting [MSBuild]
-ms.assetid: 40040ee7-4620-4043-a6d8-ccba921421d1
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # MSBuild Toolset (ToolsVersion)
 
@@ -29,7 +26,6 @@ The MSBuild `ToolsVersion` attribute on the Project element in Visual Studio and
 ```xml
 <Project ToolsVersion="Current" ... </Project>
 ```
-
 
 > [!NOTE]
 > Some project types use the `sdk` attribute instead of `ToolsVersion`. For more information, see [Additions to the csproj format for .NET Core](/dotnet/core/tools/csproj).
@@ -96,7 +92,7 @@ Alternately, you can determine the Toolset programmatically by calling the metho
 
 - [GetPathToBuildTools](/previous-versions/visualstudio/visual-studio-2013/dn251121(v=vs.121)) returns the path of the build tools.
 
-## See also
+## Related content
 
 - [Standard and custom Toolset configurations](../msbuild/standard-and-custom-toolset-configurations.md)
 - [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)

@@ -1,5 +1,5 @@
 ---
-title: Import Element (MSBuild) | Microsoft Docs
+title: Import Element (MSBuild)
 description: Learn how MSBuild uses the Import element to import the contents of one project file into another project file.
 ms.date: 03/13/2017
 ms.topic: reference
@@ -9,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - Import element [MSBuild]
 - <Import> element [MSBuild]
-ms.assetid: 3bfecaf1-69fd-4008-b651-c9dafd4389d9
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # Import element (MSBuild)
 

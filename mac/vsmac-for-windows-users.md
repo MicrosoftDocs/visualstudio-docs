@@ -6,7 +6,6 @@ ms.author: dominicn
 manager: dominicn
 ms.date: 04/28/2022
 ms.topic: reference
-ms.assetid: 61CB6883-08CE-470F-8599-6F7570DB756E
 ---
 # Visual Studio for Mac for Windows users
 
@@ -18,7 +17,6 @@ Migrating from one operating system to another can be daunting. There are often 
 
 As developers, many of you will be accustomed to using the keyboard for your tasks and navigation. Some keys on the keyboard are common between Macs and Windows PCs. You might think that keyboard actions such as copy and paste use the same key combinations. This is not always the case. Fortunately, you can change your key bindings in Visual Studio for Mac to closely match those of Visual Studio in Windows.
 
-
 ::: moniker range="vsmac-2022"
 
 The first time you run Visual Studio for Mac you'll see the keyboard shortcuts selection window:
@@ -28,7 +26,6 @@ If you want to change the keyboard shortcuts later, you can find the setting in 
 :::image type="content" source="media/vsmac-2022/preferences-keyboard-shortcuts.png" alt-text="Screenshot showing the keyboard shortcuts in the Preferences window.":::
 
 ::: moniker-end
-
 
 ::: moniker range="vsmac-2022"
 
@@ -52,7 +49,6 @@ The macOS Command (⌘) modifier key can commonly replace the Control key in Win
 > You can find a comprehensive list of macOS shortcuts on the [Apple Support website](https://support.apple.com/en-us/HT201236).
 
 ## Menus
-
 
 ::: moniker range="vsmac-2022"
 

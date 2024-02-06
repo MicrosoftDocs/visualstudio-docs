@@ -1,5 +1,5 @@
 ---
-title: Upgrading Projects | Microsoft Docs
+title: Upgrading Projects
 description: Learn about the interfaces that the Visual Studio SDK provides to implement upgrade support in your projects.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,17 +7,12 @@ helpviewer_keywords:
 - upgrading VSPackages
 - upgrading applications, strategies
 - VSPackages, upgrade support
-ms.assetid: e01cb44a-8105-4cf4-8223-dfae65f8597a
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Upgrading Projects
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Changes to the project model from one version of Visual Studio to the next may require that projects and solutions be upgraded so that they can run on the newer version. The Visual Studio SDK provides interfaces that can be used to implement upgrade support in your own projects.
 
@@ -177,6 +172,6 @@ Typically, project item implementers want to leverage an already fully instantia
 
 2. At the time your project item gets a notification of the project upgrade, the **Visual Studio Conversion Wizard** is still displayed. Therefore, you should use the methods of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUpgradeLogger> interface to provide upgrade messages to the wizard UI.
 
-## See also
+## Related content
 
 - [Projects](../../extensibility/internals/projects.md)

@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the offset, in segments, where the section begins."
-title: "IDiaSegment::get_offset | Microsoft Docs"
+title: "IDiaSegment::get_offset"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSegment::get_offset method"
-ms.assetid: 97415ac6-b072-4e3c-9dd3-73087ae605fc
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSegment::get_offset
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the offset, in segments, where the section begins.
 
 ## Syntax

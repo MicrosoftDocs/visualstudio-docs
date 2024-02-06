@@ -16,17 +16,12 @@ helpviewer_keywords:
 - home page
 - Options dialog box, Web settings
 - Internet Explorer, setting options
-ms.assetid: 586db4eb-032d-4cb5-93a6-a7c14de1ae49
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Options dialog box: Environment \> Web Browser
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Sets options for both the internal Web browser and Internet Explorer. To access this dialog box, click **Options** on the **Tools** menu, expand the **Environment** folder, and select **Web Browser**.
 
@@ -39,7 +34,7 @@ Sets options for both the internal Web browser and Internet Explorer. To access 
 > Opening certain files or components from the Web can execute code on your computer.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../environment-settings.md#reset-settings).
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../environment-settings.md#reset-all-settings).
 
 ## Home page
 

@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a flag that specifies whether the user-defined data type has any assignment operators defined."
-title: "IDiaSymbol::get_hasAssignmentOperator | Microsoft Docs"
+title: "IDiaSymbol::get_hasAssignmentOperator"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_hasAssignmentOperator method"
-ms.assetid: fb1acb9c-4500-4343-a590-0395789e4040
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_hasAssignmentOperator
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that specifies whether the user-defined data type has any assignment operators defined.
 
 ## Syntax

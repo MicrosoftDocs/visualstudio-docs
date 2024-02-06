@@ -8,16 +8,12 @@ ms.devlang: javascript
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 monikerRange: '>= vs-2022'
 dev_langs:
   - JavaScript
-ms.workload:
-  - "nodejs"
 ---
 # Tutorial: Create a Node.js and Express app in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this article, you will learn how to use Visual Studio to build a simple Node.js web app that uses the Express framework.
 

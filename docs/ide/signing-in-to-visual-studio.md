@@ -1,20 +1,15 @@
 ---
-title: Sign in 
-description: Learn why to sign in to Visual Studio, how to sign in, and how to add and switch user accounts.
-ms.custom: "contperf-fy21q1"
-ms.date: 05/23/2023
+title: Sign in or switch Visual Studio accounts 
+titleSuffix: ""
+description: Explore sign in concepts for working with Visual Studio, and find out how to sign in and how to add and switch user accounts.
+ms.date: 11/23/2023
 ms.topic: how-to
-ms.assetid: b9531c25-e4cf-43ae-b331-a9f31a8cd171
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
-# Sign in to Visual Studio on Windows 
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Sign in or switch Visual Studio user accounts 
 
 In this article, you'll learn how to sign in to Visual Studio, add and switch user accounts, update your profile, sign out of your account, and the benefits to signing in.  If you are looking to learn how to use multiple accounts for sign-ins, check out our article, [Access multiple accounts associated with the Visual Studio sign-in account](sign-in-access-multiple-accounts.md).
 
@@ -22,7 +17,9 @@ You can get subscription support and search the frequently asked questions about
 
 <a name="sign-in"></a>
 
-## Sign in with a Microsoft or organizational account
+## Sign in to your account
+
+You can sign in to your Microsoft or organizational account.  To add another account, see [Add and switch user accounts](#add-and-switch).
 
 ::: moniker range="<=vs-2019"
 
@@ -52,18 +49,6 @@ You can get subscription support and search the frequently asked questions about
 
 You can see that you're successfully signed in the upper-right corner of the Visual Studio environment. Unless you sign out, you're automatically signed in to Visual Studio whenever you start it, and any changes to synchronized settings are automatically applied.
 
-::: moniker range="<=vs-2019"
-
-   ![Currently logged in user in VS2019](../ide/media/vs2019_username.png)
-
-::: moniker-end
-
-::: moniker range="vs-2022"
-
-   ![Currently logged in user in VS2022](../ide/media/vs-2022/visual-studio-sign-in.png)
-
-::: moniker-end
-
 <a name="benefits"></a>
 ## Benefits: why sign in? 
 
@@ -78,6 +63,39 @@ While you don't have to sign in, there are many advantages to doing so.
 |Use Community edition without interruptions|While it's not required to sign in, you might periodically get prompts to sign-in if you haven't done so. Please sign in to the IDE to continue using Visual Studio Community without interruptions.|
 |[Get 'Visual Studio Dev Essentials'](https://visualstudio.microsoft.com/dev-essentials/)|This program includes free software, training, support, and more.|
 
+<a name="add-and-switch"></a>
+
+## Add and switch user accounts to Visual Studio
+
+If you have multiple accounts, you can add them all to Visual Studio so that you can access the resources from any account without having to sign in to it separately.
+
+After you add multiple accounts on one machine, that group of accounts roams with you if you sign in to Visual Studio on another machine.  However, your account credentials do not roam therefore you'll be prompted to enter credentials for those other accounts the first time you attempt to use their resources on a new machine.
+
+There are several types of accounts you can add: 
+
+- Add a standard Visual Studio account:
+  
+  ::: moniker range="vs-2019"
+  
+  1. Choose **File** > **Account Settings**.
+  1. From **All Accounts**, choose an account by using the **+** or the **Add** dropdown. 
+  1. On the **Sign in to your account** page, select the account or choose **Use another account**.
+  1. Follow the prompts to enter the new account credentials.
+
+  ::: moniker-end
+
+  ::: moniker range="vs-2022"
+  
+  1. Select the icon with your profile name in the upper-right corner of the Visual Studio environment.
+  1. Select **Add another account** and then choose an account to sign into.
+  1. On the **Sign in to your account** page, select the account or choose **Use another account**. 
+  1. Follow the prompts to enter the new account credentials.
+
+  ::: moniker-end
+
+- [Add a GitHub account](work-with-github-accounts.md)
+- [Add a Multifactor authentication (MFA) account](work-with-multi-factor-authentication.md)
+
 <a name="profile"></a>
 
 ## Update your account profile
@@ -85,96 +103,3 @@ While you don't have to sign in, there are many advantages to doing so.
 1. Go to **File > Account Settings...** and select the **Manage Visual Studio profile** link.
 1. In the browser window, select **Edit profile** and change the settings that you want.
 1. When you're done, select **Save changes**.
-
-<a name="add-and-switch"></a>
-
-## Add and switch user accounts
-
-If you have multiple Microsoft accounts and/or work or school accounts, you can add them all to Visual Studio so that you can access the resources from any account without having to sign in to it separately.
-
-After you add multiple accounts on one machine, that set of accounts roams with you if you sign in to Visual Studio on another machine.
-
-> [!NOTE]
-> Although the account names roam, the credentials do not. You'll be prompted to enter credentials for those other accounts the first time you attempt to use their resources on a new machine.
-
-### Add an additional account to Visual Studio
-
-::: moniker range="<=vs-2019"
-
-To add an additional account to Visual Studio:
-
-1. Choose **File** > **Account Settings**.
-1. From **All Accounts**, choose an account by using the **+** or the **Add** dropdown.
-1. On the **Sign in to your account** page, select the account or choose **Use another account**. Follow the prompts to enter the new account credentials.
-
-(Optional) Now you use the Add Connected Service dialog and see the Azure services associated with the account you just added. You should see all the services associated with the specified subscription. Even though you're not currently signed into Visual Studio with the second account, you are signed in to that account's services and resources. [Learn more about accessing the resources associated with accounts in Visual Studio](./sign-in-access-multiple-accounts.md).
-
-::: moniker-end
-
-::: moniker range="vs-2022"
-
-To add an additional account to Visual Studio:
-
-1. Select the icon with your profile name in the upper-right corner of the Visual Studio environment.
-1. Select **Add another account** and then choose an account to sign into.
-1. On the **Sign in to your account** page, select the account or choose **Use another account**. Follow the prompts to enter the new account credentials.
-
-You can also add an additional account from the **Account settings** dialog:
-
-1. Select the icon with your profile name in the upper-right corner of the Visual Studio environment. Then, select **Account settings** to manage your accounts. You can also open the Account Settings dialog by going to **File** > **Account Settings...**.
-1. From **All Accounts**, choose an account by using the **+ Add** dropdown.
-1. On the **Sign in to your account** page, select the account or choose **Use another account**. Follow the prompts to enter the new account credentials.
-
-::: moniker-end
-
-### Add a GitHub account to Visual Studio
-
-::: moniker range="<=vs-2019"
-
-Starting with Visual Studio 2019 version 16.8, you’ll be able to add both GitHub and GitHub Enterprise accounts to your keychain. You’ll be able to add and leverage them just as you do with Microsoft accounts, which means that you’ll have an easier time accessing your GitHub resources across Visual Studio.
-
-::: moniker-end
-
-::: moniker range="vs-2022"
-
-You can add both GitHub and GitHub Enterprise accounts to your keychain. You can add and leverage them just as you do with Microsoft accounts, enabling you to easily access your GitHub resources across Visual Studio.
-
-::: moniker-end
-
-For detailed instructions, see [Work with GitHub accounts in Visual Studio](work-with-github-accounts.md).
-
-### Add a multi-factor authentication (MFA) enabled account to Visual Studio
-
-::: moniker range="<=vs-2019"
-
-Starting with Visual Studio 2019 version 16.6, users can access resources secured via CA policies such as MFA. To use this enhanced workflow, you'll need to opt into using your system's default web browser as the mechanism to add and reauthenticate Visual Studio accounts.  For detailed instructions, see [Work with accounts that require multi-factor authentication (MFA)](work-with-multi-factor-authentication.md)
-
-::: moniker-end
-
-::: moniker range="vs-2022"
-
-You can also access resources secured via CA policies such as MFA. To use this enhanced workflow, you'll need to opt into using your system's default web browser as the mechanism to add and reauthenticate Visual Studio accounts.  For detailed instructions, see [Work with accounts that require multi-factor authentication (MFA)](work-with-multi-factor-authentication.md)
-
-::: moniker-end
-
-## Sign out of your account
-
-::: moniker range="<=vs-2019"
-
-1. Select the icon with your profile name in the upper-right corner of the Visual Studio environment.
-1. Select **Account settings....**.
-1. Select **Sign out**.
-
-::: moniker-end
-
-::: moniker range="vs-2022"
-
-Select the icon with your profile name in the upper-right corner of the Visual Studio environment and then select **Sign out**.
-
-:::image type="content" source="../ide/media/vs-2022/visual-studio-profile-sign-out.png" alt-text="Screenshot showing Visual Studio sign out option":::
-
-You can also sign out by using the Account settings dialog. Select **Account settings** and then select **Sign out**. You can also open the Account Settings dialog by going to **File** > **Account Settings...**.
-
-:::image type="content" source="../ide/media/vs-2022/visual-studio-sign-out-vs-2022.png" alt-text="Screenshot showing Visual Studio sign out on Account Settings dialog.":::
-
-::: moniker-end

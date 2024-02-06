@@ -1,5 +1,5 @@
 ---
-title: CvWriteFlag Function | Microsoft Docs
+title: CvWriteFlag Function
 description: See reference information for the Concurrency Visualizer SDK function CvWriteFlag (C library).
 ms.date: 11/04/2016
 ms.topic: reference
@@ -13,17 +13,13 @@ helpviewer_keywords:
   - CvWriteFlagExVA method
   - CvWriteFlagExA method
   - CvWriteFlagExVW method
-ms.assetid: ee9da1e2-7b34-4cba-81e2-215d25d32e4d
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
 # CvWriteFlag function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Writes a flag to the Concurrency Visualizer trace file.
 
 ## Syntax

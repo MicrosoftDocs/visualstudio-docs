@@ -1,23 +1,19 @@
 ---
 description: "The debug engine (DE) sends this interface to the session debug manager (SDM) when an instance of the DE is created."
-title: IDebugEngineCreateEvent2 | Microsoft Docs
+title: IDebugEngineCreateEvent2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEngineCreateEvent2
 helpviewer_keywords:
 - IDebugEngineCreateEvent2 interface
-ms.assetid: 37c0a841-1c8d-4802-a990-36b54bca3ef7
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugEngineCreateEvent2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The debug engine (DE) sends this interface to the session debug manager (SDM) when an instance of the DE is created.
 
 ## Syntax

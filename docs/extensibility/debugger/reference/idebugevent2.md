@@ -1,23 +1,19 @@
 ---
 description: "This interface is used to communicate both critical debug information, such as stopping at a breakpoint, and non-critical information, such as a debugging message."
-title: IDebugEvent2 | Microsoft Docs
+title: IDebugEvent2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEvent2
 helpviewer_keywords:
 - IDebugEvent2 interface
-ms.assetid: de3d714d-96fb-4e12-b66b-a75391472153
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugEvent2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface is used to communicate both critical debug information, such as stopping at a breakpoint, and non-critical information, such as a debugging message.
 
 ## Syntax

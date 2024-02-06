@@ -1,6 +1,6 @@
 ---
-title: Create lookup tables in WPF applications
-description: Create lookup tables in WPF apps. A lookup table is a control that shows information from a data table based on a foreign-key field value in another table.
+title: Create lookup tables in .NET Framework WPF applications
+description: Create lookup tables in WPF .NET Framework apps. A lookup table is a control that shows information from a data table based on a foreign-key field value in another table.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -11,17 +11,12 @@ helpviewer_keywords:
 - WPF [WPF], data
 - WPF Designer, data binding
 - data binding, WPF
-ms.assetid: 56a1fbff-c7e8-4187-a1c1-ffd17024bc1b
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# Create lookup tables in WPF applications
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Create lookup tables in .NET Framework WPF applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -88,7 +83,7 @@ For example, consider a table of `Orders` in a sales database. Each record in th
     |<xref:System.Windows.Controls.Primitives.Selector.SelectedValue%2A>|Visual Studio binds this property to the column or property of the child data that you dragged to the designer. This is the foreign key to the parent data.|
     |<xref:System.Windows.Controls.Primitives.Selector.SelectedValuePath%2A>|Visual Studio sets this property to the path of the column or property of the child data that is the foreign key to the parent data.|
 
-## See also
+## Related content
 
 - [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md)
 - [Display related data in WPF applications](../data-tools/display-related-data-in-wpf-applications.md)

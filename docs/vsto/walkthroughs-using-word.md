@@ -12,13 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
 # Walkthroughs using Word
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The following walkthroughs demonstrate ways you can use document-level customizations and VSTO Add-ins to automate Microsoft Office Word and customize the user interface (UI).
 
 ## Document-level walkthroughs
@@ -59,7 +56,7 @@ ms.workload:
 - [Walkthrough: Create a custom tab by using Ribbon XML](../vsto/walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md)
  Demonstrates how to create a custom ribbon tab by using an XML descriptor file in a VSTO Add-in.
 
-## See also
+## Related content
 - [Walkthroughs using Excel](../vsto/walkthroughs-using-excel.md)
 - [Data in Office solutions walkthroughs](../vsto/data-in-office-solutions-walkthroughs.md)
 - [Office UI customization walkthroughs](../vsto/office-ui-customization-walkthroughs.md)

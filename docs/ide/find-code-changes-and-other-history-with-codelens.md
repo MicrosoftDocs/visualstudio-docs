@@ -1,6 +1,6 @@
 ---
 title: Find code changes and other history with CodeLens
-description: Learn about CodeLens and how to use it explore the history of your code without having to leave the editor.
+description: Explore CodeLens in Visual Studio and how to use the tool to explore the history of your code without having to leave the editor.
 ms.date: 06/30/2023
 ms.topic: conceptual
 f1_keywords:
@@ -8,13 +8,9 @@ f1_keywords:
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Find code changes and other history with CodeLens
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ::: moniker range="vs-2022"
 
@@ -522,10 +518,7 @@ To use the keyboard:
 
 ::: moniker-end
 
-## Next steps
+## Related content
 
-Learn more about how to use Git and Azure DevOps in the [Visual Studio version control docs](../version-control/index.yml).
-
-## See also
-
+- [Visual Studio version control docs](../version-control/git-with-visual-studio.md).
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)

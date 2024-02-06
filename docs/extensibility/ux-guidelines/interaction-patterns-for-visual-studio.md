@@ -1,20 +1,15 @@
 ---
-title: Interaction Patterns for Visual Studio | Microsoft Docs
+title: Interaction Patterns for Visual Studio
 description: Learn about the library of common interaction patterns that you can use when building new features for Visual Studio.
 ms.date: 05/13/2020
 ms.topic: reference
-ms.assetid: a3643792-b0df-481c-bc35-576f948e04cf
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Interaction Patterns for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-## Overview
  A design pattern, in general, is the core of a design that can be applied in specific situations to solve problems with similar sets of constraints. Feature and system designers use these design patterns as starting points, which can then be adapted to their specific situation.
 
  Visual Studio has a library of common interaction patterns that should be considered when building new features. There are two core contexts for our design patterns: Visual Studio Client (devenv) and GitHub Codespaces (formerly Visual Studio Online). For some design problems, there is a ubiquitous pattern that works well in all situations. In many cases, however, the solution might be different for UI that is being presented within a browser and that which is hosted on a client application.

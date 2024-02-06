@@ -1,5 +1,5 @@
 ---
-title: OPTNAMECHANGEPFN | Microsoft Docs
+title: OPTNAMECHANGEPFN
 description: Learn about the OPTNAMECHANGEPFN callback function, which communicates name changes from the source control plug-in to the Visual Studio IDE.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,17 +7,13 @@ f1_keywords:
 - OPTNAMECHANGEPFN
 helpviewer_keywords:
 - OPTNAMECHANGEPFN callback function
-ms.assetid: 147303f3-c7f1-438a-81b7-db891ea3d076
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # OPTNAMECHANGEPFN
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This is a callback function specified in a call to the [SccSetOption](../extensibility/sccsetoption-function.md) (using option `SCC_OPT_NAMECHANGEPFN`) and is used to communicate name changes made by the source control plug-in back to the IDE.
 
 ## Signature

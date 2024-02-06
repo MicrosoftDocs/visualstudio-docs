@@ -1,23 +1,19 @@
 ---
 description: "This function closes a project, marking the end of a particular session."
-title: SccCloseProject Function | Microsoft Docs
+title: SccCloseProject Function
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - SccCloseProject
 helpviewer_keywords:
 - SccCloseProject function
-ms.assetid: 259c2069-d349-4814-810f-1c3151b7fb84
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # SccCloseProject function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function closes a project, marking the end of a particular session.
 
 ## Syntax

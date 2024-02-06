@@ -8,17 +8,13 @@ f1_keywords:
 helpviewer_keywords:
   - "Set Current Thread command"
   - "Debug.SetCurrentThread command"
-ms.assetid: 9917ed1d-6c30-4d94-b2f0-69acce74f1b2
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-  - "multiple"
+ms.subservice: general-ide
 ---
 # Set Current Thread Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the specified thread as the current thread.
 
 ## Syntax

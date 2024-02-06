@@ -1,5 +1,5 @@
 ---
-title: "How to: Add a Parameter to a Method | Microsoft Docs"
+title: "Add a Parameter to a Method"
 description: Know how to add a parameter to a business data connectivity (BDC) method, which lets you pass information into the method or return information from the method.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -16,13 +16,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+ms.subservice: sharepoint-development
 ---
-# How to: Add a parameter to a method
+# Add a parameter to a method
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Use a parameter to pass information into the method or to return information from a method. All methods must have at least one parameter. For more information about how to design a parameter to support the type of method that you want to create, see [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md).
 
  When you add a parameter to a method, Visual Studio adds the Parameter element to the XML of the model file in your project. For more information about the attributes of a Parameter element, see [Parameter](/previous-versions/office/developer/sharepoint-2010/ee557705(v=office.14)).
@@ -51,7 +48,7 @@ ms.workload:
 
 8. Modify the type descriptor of the parameter. For more information, see [How to: Define the type descriptor of a parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md).
 
-## See also
+## Related content
 - [BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md)
 - [How to: Add an entity to a model](../sharepoint/how-to-add-an-entity-to-a-model.md)
 - [How to: Define the type descriptor of a parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md)

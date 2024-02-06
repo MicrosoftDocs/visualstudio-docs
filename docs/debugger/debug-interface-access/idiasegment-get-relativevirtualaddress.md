@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the relative virtual address (RVA) of the beginning of the section."
-title: "IDiaSegment::get_relativeVirtualAddress | Microsoft Docs"
+title: "IDiaSegment::get_relativeVirtualAddress"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSegment::get_relativeVirtualAddress method"
-ms.assetid: b6a573a1-3671-4c1c-a5c2-2ab8f07fd510
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSegment::get_relativeVirtualAddress
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the relative virtual address (RVA) of the beginning of the section.
 
 ## Syntax

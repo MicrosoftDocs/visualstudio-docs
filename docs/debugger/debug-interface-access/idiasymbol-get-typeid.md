@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the type identifier of the symbol."
-title: "IDiaSymbol::get_typeId | Microsoft Docs"
+title: "IDiaSymbol::get_typeId"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_typeId method"
-ms.assetid: b40be36e-10e1-463c-9c6d-21862679d29f
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_typeId
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the type identifier of the symbol.
 
 ## Syntax

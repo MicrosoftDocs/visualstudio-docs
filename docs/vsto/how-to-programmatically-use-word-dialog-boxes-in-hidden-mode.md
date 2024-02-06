@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically use Word dialog boxes in hidden mode"
+title: "Programmatically use Word dialog boxes in hidden mode"
 description: Learn how you can use Visual Studio to programmatically use Microsoft Word dialog boxes in hidden mode.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -14,13 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Programmatically use Word dialog boxes in hidden mode
+# Programmatically use Word dialog boxes in hidden mode
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can perform complex operations with one method call by invoking the built-in dialog boxes in Microsoft Office Word without displaying them to the user. You can do this by using the <xref:Microsoft.Office.Interop.Word.Dialog.Execute%2A> method of the <xref:Microsoft.Office.Interop.Word.Dialog> object without calling the <xref:Microsoft.Office.Interop.Word.Dialog.Display%2A> method.
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]
@@ -41,7 +38,7 @@ ms.workload:
 
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet104":::
 
-## See also
+## Related content
 - [How to: Programmatically use built-in dialog boxes in Word](../vsto/how-to-programmatically-use-built-in-dialog-boxes-in-word.md)
 - [Word object model overview](../vsto/word-object-model-overview.md)
 - [Late binding in Office solutions](../vsto/late-binding-in-office-solutions.md)

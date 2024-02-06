@@ -1,23 +1,19 @@
 ---
 description: "Enumerates the various debug streams contained in the data source."
-title: "IDiaEnumDebugStreams | Microsoft Docs"
+title: "IDiaEnumDebugStreams"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumDebugStreams interface"
-ms.assetid: 611caf4f-7a5f-4aa4-b909-52feeb3cc752
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaEnumDebugStreams
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enumerates the various debug streams contained in the data source.
 
 ## Syntax

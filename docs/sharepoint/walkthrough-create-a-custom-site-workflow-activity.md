@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Create a Custom Site Workflow Activity | Microsoft Docs"
+title: "Walkthrough: Create a Custom Site Workflow Activity"
 description: In this walkthrough, see how to create a custom activity for a site-level SharePoint workflow using Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -15,13 +15,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+ms.subservice: sharepoint-development
 ---
 # Walkthrough: Create a custom site workflow activity
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This walkthrough demonstrates how to create a custom activity for a site-level workflow using Visual Studio. (Site-level workflows apply to the whole site, not just a list on the site.) The custom activity creates a backup Announcements list and then copies the contents of the Announcements list into it.
 
  This walkthrough demonstrates the following tasks:
@@ -124,6 +121,6 @@ ms.workload:
 
 5. On the QuickLaunch bar, choose the **Announcements Backup** link. Notice that all of the announcements that are contained in the **Announcements** list have been copied to this new list.
 
-## See also
+## Related content
 - [How to: Create an event receiver](../sharepoint/how-to-create-an-event-receiver.md)
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)

@@ -1,25 +1,18 @@
 ---
-title: 'Walkthrough: Highlighting Text | Microsoft Docs'
-description: Learn how to highlight every occurrence of the current word in a text file by adding visual effects to the editor in this walkthrough.
+title: 'Walkthrough: Highlighting Text'
+description: Highlight every occurrence of the current word in a text file by adding visual effects to the editor in this walkthrough in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - highlight text
-ms.assetid: 64b772ad-4392-42e9-a237-5137f0384bf0
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Walkthrough: Highlight text
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can add different visual effects to the editor by creating Managed Extensibility Framework (MEF) component parts. This walkthrough shows how to highlight every occurrence of the current word in a text file. If a word occurs more than one time in a text file, and you position the caret in one occurrence, every occurrence is highlighted.
-
-## Prerequisites
- Starting in Visual Studio 2015, you don't install the Visual Studio SDK from the download center. It's included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ## Create a MEF project
 
@@ -407,5 +400,5 @@ You can add different visual effects to the editor by creating Managed Extensibi
 
 4. Position the cursor in one of the occurrences of "hello". Every occurrence should be highlighted in blue.
 
-## See also
+## Related content
 - [Walkthrough: Link a content type to a file name extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

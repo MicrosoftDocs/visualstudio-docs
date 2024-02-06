@@ -1,26 +1,22 @@
 ---
 description: "Describes a particular module (DLL, EXE, or assembly)."
-title: MODULE_INFO | Microsoft Docs
+title: MODULE_INFO
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - MODULE_INFO
 helpviewer_keywords:
 - MODULE_INFO structure
-ms.assetid: f2e06180-1ab3-4eb5-a428-7994cceb61b6
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # MODULE_INFO
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes a particular module (DLL, EXE, or assembly).
 
 ## Syntax

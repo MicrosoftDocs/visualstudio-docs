@@ -1,18 +1,15 @@
 ---
-title: Obtaining Build Logs with MSBuild | Microsoft Docs
-description: Learn to use switches with MSBuild to specify how much build data to review and whether to save build data to one or more files.
+title: Obtaining Build Logs with MSBuild
+description: Use switches with MSBuild and specify how much build data to review and whether to save build data to one or more files.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, logging
 - logging [MSBuild]
-ms.assetid: 6ba9a754-9cc0-4fed-9fc8-4dcd3926a031
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # Obtain build logs with MSBuild
 
@@ -98,7 +95,7 @@ For more information, see [Command-line reference](../msbuild/msbuild-command-li
 
  In the MSBuild command line, you specify the custom logger by using the **-logger** switch. You can also use the **-noconsolelogger** switch to disable the default console logger.
 
-## See also
+## Related content
 
 - <xref:Microsoft.Build.Framework.LoggerVerbosity>
 - [Build loggers](../msbuild/build-loggers.md)

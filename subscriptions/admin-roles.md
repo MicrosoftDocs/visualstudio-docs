@@ -1,12 +1,11 @@
 ---
-title:  Super admin and admin roles for Visual Studio subscriptions
+title: Use super admin and admin roles for subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: 6601c395-f778-48c1-ab76-cf454b9193e4
 ms.date: 03/17/2023
 ms.topic: conceptual
-description: Learn about the super admin and admin roles, and how to assign admins. 
+description: Review the responsibilities and roles for super administrators and administrators of Visual Studio subscriptions and how to assign administrators. 
 ---
 
 # Super admins and admins for Visual Studio subscription agreements

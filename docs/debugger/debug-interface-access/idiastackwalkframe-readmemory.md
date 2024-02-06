@@ -1,23 +1,19 @@
 ---
 description: "Reads memory from image."
-title: "IDiaStackWalkFrame::readMemory | Microsoft Docs"
+title: "IDiaStackWalkFrame::readMemory"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaStackWalkFrame::readMemory method"
-ms.assetid: 7ab0b525-a5a7-4692-acad-e8c00fa9ab9a
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaStackWalkFrame::readMemory
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Reads memory from image.
 
 ## Syntax

@@ -5,9 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 03/03/2022
-ms.custom: devdivchpfy22
-ms.technology: vs-ide-debug
-ms.assetid: BB7A084D-9AC2-48B5-8076-6C8518796BBA
+ms.subservice: debug-diagnostics
 ms.topic: conceptual
 ---
 # Debugging with Visual Studio for Mac

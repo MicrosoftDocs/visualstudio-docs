@@ -1,27 +1,25 @@
 ---
-title: Customize the IDE
-description: Learn how to personalize the Visual Studio IDE in ways that best support your own development style and requirements.
-ms.date: 08/24/2022
+title: Customize & save your personal Visual Studio IDE settings
+description: Customize the Visual Studio integrated development environment (IDE) in ways that best support your own development style and requirements.
+ms.date: 01/18/2024
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
-# Personalize the Visual Studio IDE
+# Customize the Visual Studio IDE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
-You can personalize Visual Studio in various ways to best support your own development style and requirements. Many of your settings roam with you across Visual Studio instances&mdash;see [Synchronized settings](../ide/synchronized-settings-in-visual-studio.md). This article briefly describes different personalizations and where you can find more information.
+You can customize Visual Studio IDE settings in various ways to best support your own development style and requirements. Many of your settings roam with you across Visual Studio instances&mdash;see [Synchronized settings](../ide/synchronized-settings-in-visual-studio.md). This article briefly describes different personalizations and where you can find more information.
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Customize the Visual Studio for Mac IDE](/visualstudio/mac/customizing-the-ide).
 
-## Default settings
+## Default environment settings for Visual Studio
 
-You can choose a default collection of settings that optimizes Visual Studio for your type of development. For more information, see [Environment settings](environment-settings.md).
+You can choose a default collection of [environment settings](environment-settings.md) that optimizes Visual Studio for your type of development. 
+
+In Visual Studio, you can optimize your development environment for the type of development work you do by selecting **Tools** > **Import and Export Settings Wizard**. From this wizard, you can choose a specific collection of settings that best matches your development environment. Each collection of settings optimizes elements such as keyboard shortcuts, window layouts, project and item templates, and command visibility.
 
 ## General environment options
 
@@ -40,13 +38,13 @@ To change the color theme between Dark, Light, Blue, and Blue (Extra Contrast), 
 
 To change colorization options in the editor, type **environment** in the search box, and then choose **Environment > Fonts and Colors**. See [How to: Change fonts and colors](../ide/how-to-change-fonts-and-colors-in-visual-studio.md).
 
+## Customize menus and toolbars
+
+To add or remove menu or toolbar items, see [How to: Customize menus and toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md).
+
 ### Main menu casing
 
 You can change the main menu casing between **Title Case** ("File") and **All Caps** ("FILE"). Type **environment** in the search box, select **Environment > General**, and then change the **Apply title case styling to menu bar** option.
-
-### Customize menus and toolbars
-
-To add or remove menu or toolbar items, see [How to: Customize menus and toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md).
 
 ## Window layouts
 
@@ -56,7 +54,7 @@ You can define and save multiple window layouts and switch between them. For exa
 
 You can customize the **Tools** menu to launch external tools. For more information, see [Manage external tools](../ide/managing-external-tools.md).
 
-## See also
+## Related content
 
 - [Environment settings](environment-settings.md)
 - [Visual Studio IDE overview](../get-started/visual-studio-ide.md)

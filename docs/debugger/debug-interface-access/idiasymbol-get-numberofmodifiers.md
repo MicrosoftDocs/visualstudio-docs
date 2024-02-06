@@ -1,21 +1,17 @@
 ---
 description: "Retrieves the number of modifiers that are applied to the original type."
-title: "IDiaSymbol::get_numberOfModifiers | Microsoft Docs"
+title: "IDiaSymbol::get_numberOfModifiers"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: 61ff7431-1994-4f7e-a182-1817f16f60a9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_numberOfModifiers
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the number of modifiers that are applied to the original type.
 
 ## Syntax

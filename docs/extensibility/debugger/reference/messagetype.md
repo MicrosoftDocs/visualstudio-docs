@@ -1,26 +1,22 @@
 ---
 description: "Specifies the message type and reason."
-title: MESSAGETYPE | Microsoft Docs
+title: MESSAGETYPE
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - MESSAGETYPE
 helpviewer_keywords:
 - MESSAGETYPE enumeration
-ms.assetid: 800cc77d-3c27-4763-a9df-552a9384bd49
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # MESSAGETYPE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the message type and reason.
 
 ## Syntax

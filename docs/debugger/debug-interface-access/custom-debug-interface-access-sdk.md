@@ -1,5 +1,5 @@
 ---
-title: "Custom (Debug Interface Access SDK) | Microsoft Docs"
+title: "Custom (Debug Interface Access SDK)"
 description: Find reference information about custom symbol types (identified with the SymTagCustom tag) in the Visual Studio debug interface access SDK.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -7,17 +7,13 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "Custom symbol"
-ms.assetid: a219fc83-d2a8-4bc5-b7e1-bfafeb247f16
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Custom (Debug Interface Access SDK)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Some compilers introduce symbols that are not identified by any of the standard lexical symbol types. These symbols are identified by a `SymTagCustom` tag.
 
 ## Properties

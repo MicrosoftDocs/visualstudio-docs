@@ -1,5 +1,5 @@
 ---
-title: How to add an app.config file to a project
+title: Add an app.config file to a project
 description: Learn how to add an app.config file to a C# project so you can customize how the common language runtime locates and loads assembly files.
 ms.date: 01/17/2023
 ms.topic: how-to
@@ -10,13 +10,9 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- dotnet
+ms.subservice: general-ide
 ---
-# How to: Add an application configuration file to a C# project
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Add an application configuration file to a C# project
 
 By adding an application configuration file (*app.config* file) to a C# project, you can customize how the common language runtime locates and loads assembly files. For more information about application configuration files or about assemblies in .NET, see [How the runtime locates assemblies (.NET Framework)](/dotnet/framework/deployment/how-the-runtime-locates-assemblies) and [Assemblies in .NET](/dotnet/standard/assembly/).
 
@@ -39,7 +35,7 @@ When you build your project, the development environment automatically copies yo
 
      A file named *App.config* is added to your project.
 
-## See also
+## Related content
 
 - [Manage application settings (.NET)](../ide/managing-application-settings-dotnet.md)
 - [Configuration file schema (.NET Framework)](/dotnet/framework/configure-apps/file-schema/index)

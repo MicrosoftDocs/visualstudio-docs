@@ -5,17 +5,12 @@ ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.Interop.UI"
-ms.assetid: 800a3403-ba86-41c4-8de1-c4fee9703eb1
 author: jodavis
 ms.author: jodavis
 manager: jmartens
-ms.technology: vs-workflow-designer
-ms.workload:
-  - "multiple"
+ms.subservice: workflow-designer
 ---
 # Interop Activity Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Interop** activity designer is used to create and configure an <xref:System.Activities.Statements.Interop> activity.
 

@@ -1,7 +1,7 @@
 ---
 title: Develop code without projects or solutions
-description: Learn how to develop code directly in Visual Studio without a need for projects or solutions.
-ms.date: 04/29/2022
+description: Develop code directly in Visual Studio without placing the code in a solution or project, and start working quickly with IntelliSense, search, debugging, and more. 
+ms.date: 11/7/2023
 ms.topic: how-to
 helpviewer_keywords:
 - open folder [Visual Studio]
@@ -10,13 +10,9 @@ helpviewer_keywords:
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Develop code in Visual Studio without projects or solutions
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can open code from nearly any type of directory-based project into Visual Studio without the need for a solution or project file. This means you can, for example, clone a repo on GitHub, open it directly into Visual Studio, and begin developing, without having to create a solution or project. If needed, you can specify custom build tasks and launch parameters through simple JSON files.
 
@@ -42,6 +38,33 @@ You can open code into Visual Studio in the following ways:
 
 - Open code from a cloned GitHub repo.
 
+### To open multiple folders
+Starting in Visual Studio 2022 version 17.9 Preview 1, you can specify multiple folders to open in Visual Studio. Opening multiple folders is especially useful in code repos with lots of unrelated code, and a developer only needs a subset to do some work.
+- On the Visual Studio menu bar, choose **File** > **Open** > **Workspace**, and then browse to the `.code-workspace` file location.
+- The `.code-workspace` file itself is expected to be a .JSON schema, which looks like the following:
+
+```json
+{
+    "folders" : [
+        {
+            "path" : "some\\child\\foo",
+            "name" : "The Foo"
+        },
+        {
+            "path" : "..\\..\\some\\unrelated\\bar"
+        },
+        {
+            "path" : "C:\\a\\full\\path\\baz"
+        },
+        {
+            "path" : "${env.ANY_ENV_VARIABLE}\\foobar"
+        }
+    ]
+}
+```
+
+Each `"path"` value can be any relative path or rooted path. Rooted paths must be on the same drive letter. Environment variables can be used with the syntax `${env.ANY_ENV_VARIABLE}`. The `"name"` property can be used to create a visual alias for the folder in the Solution Explorer.
+
 ### To open code from a cloned GitHub repo
 
 The following example shows how to clone a GitHub repo and then open its code in Visual Studio. To follow this procedure, you must have a GitHub account and Git for Windows installed on your system. See [Create a GitHub account to use with Visual Studio](../version-control/git-create-github-account.md) and [Git for Windows](https://git-for-windows.github.io/) for more information.
@@ -54,7 +77,7 @@ The following example shows how to clone a GitHub repo and then open its code in
 
 #### Use Git in Visual Studio
 
-As of Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/), we introduced a new, streamlined Git interface that you can use to interact with your files on GitHub. To learn more, visit the [Visual Studio version control docs](../version-control/index.yml).
+As of Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/), we introduced a new, streamlined Git interface that you can use to interact with your files on GitHub. To learn more, visit the [Visual Studio version control docs](../version-control/git-with-visual-studio.md).
 
 #### Use Team Explorer in Visual Studio
 
@@ -121,7 +144,7 @@ The **Start** button's text changes to reflect that the project is the startup i
 
 ![Project on Start button](media/customize-start-button-project.png)
 
-## See also
+## Related content
 
 - [Customize build and debug tasks](../ide/customize-build-and-debug-tasks-in-visual-studio.md)
 - [Open Folder projects for C++](/cpp/build/open-folder-projects-cpp)

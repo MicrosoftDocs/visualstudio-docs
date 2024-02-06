@@ -7,7 +7,7 @@ metadata:
    titleSuffix: ""
    description: Learn how to use Visual Studio to develop applications, services, and tools in the language of your choice, for any platform or device.
    ms.topic: hub-page
-   ms.date: 04/13/2023
+   ms.date: 10/24/2023
    author: ghogen
    ms.author: ghogen
    manager: jmartens
@@ -18,15 +18,19 @@ highlightedContent:
    - title: Setup and installation
      itemType: download
      url: ../install/install-visual-studio.md
-   - title: About Visual Studio IDE
+   - title: What is Visual Studio
      itemType: overview
      url: ../get-started/visual-studio-ide.md
    - title: Visual Studio 2022
      itemType: whats-new
      url: ../ide/whats-new-visual-studio-2022.md
-   - title: Browse Visual Studio training
-     itemType: learn
-     url: /training/browse/?products=vs
+   - title: GitHub Copilot
+     itemType: get-started
+     url: ../ide/ai-assisted-development-visual-studio.md
+   - title: Previous versions
+     itemType: overview
+     url: /previous-versions/visualstudio/
+
 
 conceptualContent:
   title: Get started
@@ -48,6 +52,9 @@ conceptualContent:
         - text: Open code from a repo
           url: ../get-started/tutorial-open-project-from-repo.md
           itemType: tutorial
+        - text: Get AI assistance with GitHub Copilot
+          url: ../ide/visual-studio-github-copilot-extension.md
+          itemType: overview
     - title: Follow a tutorial
       links:
         - text: Simple C# console app
@@ -96,7 +103,7 @@ additionalContent:
    sections:
    - title: Tasks
      items:
-      - title: Develop
+      - title: Edit code
         summary: Write and manage your code using the code editor.
         url: ../ide/index-writing-code.yml
       - title: Build
@@ -111,28 +118,16 @@ additionalContent:
       - title: Deploy
         summary: Share your apps and code by using Web Deploy, InstallShield, NuGet, Continuous Integration, and more.
         url: ../deployment/index.yml
-      - title: Version control
+      - title: AI-assisted development
+        summary: Get answers and suggestions from GitHub Copilot and code assistance with IntelliCode.
+        url: ../ide/ai-assisted-development-visual-studio.md
+      - title: Track version changes
         summary: Share code using version control technologies such as Git and GitHub.
-        url: ../version-control/index.yml
-      - title: DevOps
-        summary: Continuously build and release your apps in the cloud, and implement Agile practices with Azure DevOps Services.
-        url: /azure/devops
-      - title: Measure performance
-        summary: Identify bottlenecks and optimize code performance by using diagnostic tools.
-        url: ../profiling/index.yml
-      - title: Extend
+        url: ../version-control/git-with-visual-studio.md
+      - title: Extend Visual Studio
         summary: Add your own functionality to the Visual Studio IDE to improve your development experience.
         url: ../extensibility/index.yml
-      - title: Data
-        summary: Create data apps that connect to any database or service, and anywhere—local or cloud.
-        url: ../data-tools/accessing-data-in-visual-studio.md
-      - title: Collaborate
-        summary: Share, edit, and debug code in a collaborative, real-time environment.
-        url: /visualstudio/liveshare/
-      - title: Develop with Docker containers
-        summary: Use Docker containers to isolate modular components and improve scalability.
-        url: ../containers/index.yml
-
+      
    - title: Development with Visual Studio
      items:
         - title: Web and cloud
@@ -171,11 +166,13 @@ additionalContent:
               url: /cpp/windows/desktop-applications-visual-cpp
             - text: Mobile development with C++
               url: /visualstudio/cross-platform/
-        - title: Gaming
+        - title: Game development
           links:
-            - text: Game development with Unity
+            - text: Unity
               url: /visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity
-            - text: Game development with C++
+            - text: Unreal Engine
+              url: /visualstudio/gamedev/unreal/get-started/vs-tools-unreal-overview
+            - text: Universal Windows Platform (UWP)
               url: /windows/uwp/gaming/e2e
         - title: Other toolsets
           links:

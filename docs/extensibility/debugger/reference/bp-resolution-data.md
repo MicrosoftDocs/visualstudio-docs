@@ -1,26 +1,22 @@
 ---
 description: "Describes the result of binding a data breakpoint."
-title: BP_RESOLUTION_DATA | Microsoft Docs
+title: BP_RESOLUTION_DATA
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - BP_RESOLUTION_DATA
 helpviewer_keywords:
 - BP_RESOLUTION_DATA structure
-ms.assetid: 9e0b9000-6a84-47b9-b07a-367a75764389
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # BP_RESOLUTION_DATA
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the result of binding a data breakpoint.
 
 ## Syntax

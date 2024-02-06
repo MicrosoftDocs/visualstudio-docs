@@ -1,19 +1,15 @@
 ---
-title: 'Walkthrough: Displaying Light Bulb Suggestions | Microsoft Docs'
-description: Learn how to create a light bulb in the Visual Studio editor that appears on the current word and has two suggested actions by using this walkthrough.
+title: 'Walkthrough: Displaying Light Bulb Suggestions'
+description: Create a light bulb in the Visual Studio editor that appears on the current word and has two suggested actions by using this walkthrough.
 ms.date: 11/04/2016
 ms.topic: how-to
-ms.assetid: 99e5566d-450e-4660-9bca-454e1c056a02
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Walkthrough: Display light bulb suggestions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Light bulbs are icons in the Visual Studio editor that expand to display a set of actions, for example, fixes for problems identified by the built-in code analyzers or code refactoring.
 
  In the Visual C# and Visual Basic editors, you can also use the .NET Compiler Platform ("Roslyn") to write and package your own code analyzers with actions that display light bulbs automatically. For more information, see:
@@ -33,9 +29,6 @@ Light bulbs are icons in the Visual Studio editor that expand to display a set o
   ![light bulb preview](../extensibility/media/lightbulbpreview.png "LightBulbPreview")
 
   You can use light bulbs to provide your own suggested actions. For example, you could provide actions to move opening curly braces to a new line or move them to the end of the preceding line. The following walkthrough shows how to create a light bulb that appears on the current word and has two suggested actions: **Convert to upper case** and **Convert to lower case**.
-
-## Prerequisites
- Starting in Visual Studio 2015, you don't install the Visual Studio SDK from the download center. It's included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ## Create a Managed Extensibility Framework (MEF) project
 

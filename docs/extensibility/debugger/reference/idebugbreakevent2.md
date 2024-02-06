@@ -1,23 +1,19 @@
 ---
 description: "This interface tells the session debug manager (SDM) that an asynchronous break has been successfully completed."
-title: IDebugBreakEvent2 | Microsoft Docs
+title: IDebugBreakEvent2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugBreakEvent2
 helpviewer_keywords:
 - IDebugBreakEvent2 interface
-ms.assetid: 57dfdbc2-4e68-4dbf-9579-006cd6fb1c62
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugBreakEvent2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface tells the session debug manager (SDM) that an asynchronous break has been successfully completed.
 
 ## Syntax

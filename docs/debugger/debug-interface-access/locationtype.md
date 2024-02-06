@@ -1,23 +1,19 @@
 ---
 description: "Indicates the kind of location information contained in a symbol."
-title: "LocationType | Microsoft Docs"
+title: "LocationType"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "LocationType enumeration"
-ms.assetid: d3e1eedc-bfd3-4c91-881b-d69565138d0f
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # LocationType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Indicates the kind of location information contained in a symbol.
 
 ## Syntax

@@ -1,5 +1,5 @@
 ---
-title: "Advanced Visualizer Scenarios | Microsoft Docs"
+title: "Advanced Visualizer Scenarios"
 description: Visual Studio debugger visualizers advanced scenarios and examples for them. 
 ms.date: "05/09/2022"
 ms.topic: "conceptual"
@@ -16,8 +16,6 @@ helpviewer_keywords:
 author: "mpeyrotc"
 ms.author: "mapeyrot"
 manager: caslan
-ms.workload:
-  - "multiple"
 ---
 # Advanced visualizer scenarios
 
@@ -258,7 +256,7 @@ public void VisualizerLoaded(object sender, RoutedEventArgs e)
 
 With these changes, your visualizer should be able to handle objects that take a long time to serialize from the *debuggee-side* to the *debugger-side*.
 
-## See also
+## Related content
 
 - [Walkthrough: Write a visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md)
 - [Walkthrough: Write a visualizer in Visual Basic](../debugger/walkthrough-writing-a-visualizer-in-visual-basic.md)

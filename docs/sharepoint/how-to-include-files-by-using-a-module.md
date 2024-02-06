@@ -1,6 +1,6 @@
 ---
-title: "How to: Include Files by Using a Module | Microsoft Docs"
-description: Know how to include files by using a module, which is a container that lets you deploy files such as ASPX master pages, text files, or images to SharePoint.
+title: "Include Files by Using a Module"
+description: Include files by using a module container that lets you deploy files such as ASPX .master pages, text files, or images to SharePoint.
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -12,13 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+ms.subservice: sharepoint-development
 ---
-# How to: Include files by using a module
+# Include files by using a module
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   *Modules* (not to be confused with Visual Basic modules) are containers that enable you to deploy files such as ASPX master pages, text files, or images to SharePoint.
 
  You can choose to deploy a file into a document library or as a normal file (for example, default.aspx) outside a document library. To add a file to a document library, specify `Type="GhostableInLibrary"` as an attribute in the **File** element. This setting instructs SharePoint to create a list item to go with your file when it is added to the library. To deploy a file outside a document library, either specify `Type="Ghostable"` or just omit the **Type** attribute.
@@ -61,6 +58,6 @@ ms.workload:
 
      The files copy to the specified locations in SharePoint.
 
-## See also
+## Related content
 - [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)
 - [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)

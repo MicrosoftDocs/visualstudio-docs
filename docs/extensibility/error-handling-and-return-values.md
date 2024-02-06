@@ -1,5 +1,5 @@
 ---
-title: Error Handling and Return Values | Microsoft Docs
+title: Error Handling and Return Values
 description: Learn how the Visual Studio SDK provides interop assemblies to record rich error information when receiving an error notification.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,17 +7,13 @@ helpviewer_keywords:
 - errors [Visual Studio SDK], handling
 - error handling
 - return values
-ms.assetid: b2d9079d-39a6-438a-8010-290056694b5c
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Error handling and return values
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 VSPackages and COM use the same architecture for errors. The `SetErrorInfo` and `GetErrorInfo` functions are part of the Win32 application programming interface (API). Any VSPackage in the integrated development environment (IDE) can call these global Win32 APIs to record rich error information when receiving an error notification. The Visual Studio SDK provides interop assemblies to manage error information.
 
 ## Interop methods

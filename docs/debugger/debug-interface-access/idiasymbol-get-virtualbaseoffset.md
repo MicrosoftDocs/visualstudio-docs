@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the offset in the virtual function table of a virtual function."
-title: "IDiaSymbol::get_virtualBaseOffset | Microsoft Docs"
+title: "IDiaSymbol::get_virtualBaseOffset"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_virtualBaseOffset method"
-ms.assetid: 103b034f-36c4-42d5-aa34-1449a1e66d03
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_virtualBaseOffset
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the offset in the virtual function table of a virtual function.
 
 ## Syntax

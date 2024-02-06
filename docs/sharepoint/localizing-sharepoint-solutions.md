@@ -1,5 +1,5 @@
 ---
-title: "Localizing SharePoint Solutions | Microsoft Docs"
+title: "Localizing SharePoint Solutions"
 description: Localize SharePoint solutions by removing hard-coded strings from the code and abstracting them into XML-based resource (.resx) files containing translated strings.
 ms.date: 04/20/2023
 ms.topic: overview
@@ -16,13 +16,9 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+ms.subservice: sharepoint-development
 ---
 # Localize SharePoint solutions
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The process of preparing your applications so that they can be used worldwide is known as localization. Localization is translating resources to a specific culture. For more information, see [Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md). This topic provides an overview on how to localize a SharePoint solution.
 

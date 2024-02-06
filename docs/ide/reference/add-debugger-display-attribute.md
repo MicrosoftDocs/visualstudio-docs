@@ -6,13 +6,9 @@ ms.topic: reference
 author: mikadumont
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- dotnet
+ms.subservice: general-ide
 ---
 # Add DebuggerDisplay Attribute
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This code generation applies to:
 

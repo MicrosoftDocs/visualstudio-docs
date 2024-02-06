@@ -1,26 +1,22 @@
 ---
 description: "Returns a copy of the current modules enumeration as a separate object."
-title: IEnumDebugModules2::Clone | Microsoft Docs
+title: IEnumDebugModules2::Clone
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugModules2::Clone
 helpviewer_keywords:
 - IEnumDebugModules2::Clone
-ms.assetid: fd6d3abc-20d9-4f6f-9c8e-5bd29f68d47d
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugModules2::Clone
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns a copy of the current enumeration as a separate object.
 
 ## Syntax

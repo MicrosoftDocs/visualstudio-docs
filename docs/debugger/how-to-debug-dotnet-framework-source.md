@@ -1,21 +1,16 @@
 ---
-title: Debug .NET Framework source | Microsoft Docs
-description: Learn how to debug .NET Framework source. You must configure for it and download debugging symbols.
+title: Debug .NET Framework source
+description: Debug .NET Framework source by enabling stepping into .NET Framework source code and allowing access to debugging symbols for the code.
 ms.date: 07/20/2023
 ms.topic: how-to
 helpviewer_keywords: 
   - debugging, .NET Framework source
-ms.assetid: fc12e472-ac6a-4e77-8e22-a769e13a03b8
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - dotnet
+ms.subservice: debug-diagnostics
 ---
-# How to: Debug .NET Framework source
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Debug .NET Framework source
 
 To debug .NET Framework source, you must:
 
@@ -74,7 +69,7 @@ To debug .NET Framework source, you must:
 
    - Select **Symbol Settings** to open the **Symbols** page. On the **Symbols** page, under **Symbol file (.pdb) locations**, select **Microsoft Symbol Servers** to access symbols from the public Microsoft Symbol Servers. Select the toolbar buttons to add other symbol locations and change the loading order. Select **OK** to close the dialog.
 
-## See also
+## Related content
 
 - [Debugging managed code](../debugger/debugging-managed-code.md)
 - [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)

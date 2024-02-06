@@ -1,23 +1,18 @@
 ---
 title: Configuring Warnings in Visual Basic
-description: Learn about how you can configure warnings in Visual Basic which, in turn, will help you write cleaner, faster, better code with fewer bugs.
+description: Configure warnings like 'warn as error' and 'no warn' in Visual Basic to help you write cleaner, faster, better code with fewer bugs.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - errors [Visual Basic], warnings
 - run-time errors, warnings
 - warnings, configuring
-ms.assetid: 99cf4781-bd4d-47b4-91b9-217933509f82
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Configuring warnings in Visual Basic
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Basic compiler includes a set of warnings about code that may cause run-time errors. You can use that information to write cleaner, faster, better code with fewer bugs. For example, the compiler will produce a warning when the user attempts to invoke a member of an unassigned object variable, return from a function without setting the return value, or execute a `Try` block with errors in the logic to catch exceptions.
 
@@ -115,7 +110,7 @@ Generated when a `Catch` block is never reached due to its relation to other `Ca
 
 ID: 42029, 42031
 
-## See also
+## Related content
 
 - [Error types](/dotnet/visual-basic/programming-guide/language-features/error-types)
 - [Try...Catch...Finally statement](/dotnet/visual-basic/language-reference/statements/try-catch-finally-statement)

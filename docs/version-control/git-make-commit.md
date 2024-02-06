@@ -1,19 +1,15 @@
 ---
 title: Make a Git commit in Visual Studio
 titleSuffix: ""
-description: Make a Git commit in Visual Studio by using Git providers such as GitHub or Azure DevOps.
-ms.date: 05/26/2023
+description: Make a Git commit in Visual Studio by using Git providers such as GitHub or Azure DevOps, or locally with no provider at all.
+ms.date: 01/19/2024
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 ms.manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
-ms.custom: version-control
+ms.subservice: general-ide
 ---
 # Make a Git commit in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The core part of any Git workflow is modifying files and committing the changes in those files.  While this article references GitHub repositories, you can work remotely with the Git provider of your choice, such as GitHub or Azure DevOps. Or, you can work locally with no provider at all.
 
@@ -27,7 +23,7 @@ As you do your work, Visual Studio keeps track of the file changes to your proje
 
 :::image type="content" source="media/vs-2022/git-changes-window.png" alt-text="The Git Changes window in Visual Studio 2022.":::
 
-New in [**version 17.6**](/visualstudio/releases/2022/release-notes-v17.6): You can also reference an issue or a pull request by typing `#` or selecting the **#** button in the lower right side of the commit message text box. For more information, see the [Reference issues and pull requests](https://devblogs.microsoft.com/visualstudio/reference-github-issues-and-pull-requests-in-visual-studio/) blog post.
+## Stage changes and make a commit
 
 To stage changes when you're ready, select the **+** (plus) button on each file you want to stage, or right-click a file and then select **Stage**. You can also stage all your modified files with one click by using the stage all **+** (plus) button at the top of the **Changes** section.
 
@@ -43,15 +39,32 @@ Visual Studio also makes it easy to commit and sync with one click by using the 
 
 :::image type="content" source="media/vs-2022/git-file-version-compare.png" alt-text="The line-by-line comparison of file versions in Visual Studio 2022.":::
 
-When you double-click a **Commit**, Visual Studio opens its details in a separate tool window. From here you can revert the commit, reset the commit, amend the commit message, or create a tag on the commit. When you click a changed file in the commit, Visual Studio opens the side-by-side **Diff** view of the commit and its parent.
+New in [**version 17.6**](/visualstudio/releases/2022/release-notes-v17.6): You can also reference an issue or a pull request by typing `#` or selecting the **#** button in the lower right side of the commit message text box. For more information, see the [Reference issues and pull requests](https://devblogs.microsoft.com/visualstudio/reference-github-issues-and-pull-requests-in-visual-studio/) blog post.
+
+## Revert, reset, or amend a commit
+
+When you double-click a **Commit**, Visual Studio opens its details in a separate tool window. From here you can revert the commit, reset (undo) the commit, amend the commit message, or create a tag on the commit. When you click a changed file in the commit, Visual Studio opens the side-by-side **Diff** view of the commit and its parent.
 
 :::image type="content" source="media/vs-2022/git-branch-commit-details.png" alt-text="The Commit Details dialog in Visual Studio 2022.":::
 
-## Next steps
+:::moniker range=">=vs-2022"
+## Generate commit messages with GitHub Copilot Chat
 
-To continue your journey, visit the [Stage lines of code](git-line-staging.md) page.
+With Visual Studio 2022 version 17.9 and later and the GitHub Copilot extensions, you can use AI to generate detailed commit messages that describe your changes.
 
-## See also
+> [!NOTE]
+>To enable AI-generated commit messages, you need the [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs) extension and the [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.VSGitHubCopilot) extension. To install the GitHub Copilot extension, use the Visual Studio Installer, choose **Modify**, go to **Individual Components**, and choose the GitHub Copilot component. Install the GitHub CoPilot Chat extension by going to **Extensions** > **Manage Extensions** from the main menu in Visual Studio. You might have to restart Visual Studio, and you'll need to have a subscription to GitHub Copilot. For information about these extensions, and how to get a GitHub Copilot subscription, see [What is the GitHub Copilot extension for Visual Studio](../ide/visual-studio-github-copilot-extension.md) and [What is the GitHub Copilot Chat extension](../ide/visual-studio-github-copilot-chat.md).
 
+![Screenshot showing AI-generated commit message.](./media/vs-2022/git-commit-message-ai.png)
+
+When you're ready to make a commit, use the sparkly pen icon (tooltip: **Add AI generated commit message**) at the lower right of the commit message editbox to request an AI-generated commit message. The AI-generated text is generated and added to anything you already had. Read it carefully to see if it's accurate. You have the option of accepting the insertion or discarding it. If you accept the insertion, you can then edit the text before submitting it. When you're ready, choose the **Commit Staged** button, or one of the other commit options available in the dropdown below the commit message editbox.
+
+> [!NOTE]
+> Read about how GitHub Copilot protects the privacy of your data at [GitHub Copilot Business Privacy Statement](https://docs.github.com/site-policy/privacy-policies/github-copilot-business-privacy-statement).
+
+:::moniker-end
+
+## Related content
+
+- [Stage lines of code](git-line-staging.md)
 - [Git experience in Visual Studio](git-with-visual-studio.md)
-- [Visual Studio & GitHub: Better together](https://visualstudio.microsoft.com/vs/github/)

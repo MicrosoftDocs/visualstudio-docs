@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the section part of the code address for the frame."
-title: "IDiaFrameData::get_addressSection | Microsoft Docs"
+title: "IDiaFrameData::get_addressSection"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaFrameData::get_addressSection method"
-ms.assetid: e4eedede-4a1c-4da2-a812-b92df328fd8d
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaFrameData::get_addressSection
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the section part of the code address for the frame.
 
 ## Syntax

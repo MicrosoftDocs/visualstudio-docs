@@ -1,5 +1,5 @@
 ---
-title: "Tools to debug threads and processes | Microsoft Docs"
+title: "Tools to debug threads and processes"
 description: Review tools to debug threads and processes in Visual Studio. Threads and processes represent sequences of instructions that must execute in a specific order.
 ms.date: "04/21/2018"
 ms.topic: "conceptual"
@@ -14,17 +14,13 @@ helpviewer_keywords:
   - "processes, debugging"
   - "debugging threads"
   - "debugging [Visual Studio], threads"
-ms.assetid: 9f0c8505-b6b2-452b-adfd-076db14d8115
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Tools to debug threads and processes in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 *Threads* and *processes* are related concepts in computer science. Both represent sequences of instructions that must execute in a specific order. Instructions in separate threads or processes, however, can execute in parallel.
 
  Processes exist in the operating system and correspond to what users see as programs or applications. A thread, on the other hand, exists within a process. For this reason, threads are sometimes referred to as *light-weight processes*. Each process consists of one or more threads.
@@ -60,7 +56,7 @@ The tools you need to use in Visual Studio depend on what type of code you are t
 |**Tasks** window|-   View information about <xref:System.Threading.Tasks.Task> objects including task ID, task status (scheduled, running, waiting, deadlocked), and which thread is assigned to the task.<br />-   Current location in call stack.<br />-   Delegate passed to the task at creation time|-   Switch to current task<br />-   Flag or unflag a task<br />-   Freeze or thaw a task|
 |**GPU Threads** window|-   The flag column, in which you can mark a thread that you want to pay special attention to.<br />-   The current thread column, in which a yellow arrow indicates the current thread.<br />-   The **Thread Count** column, which displays the number of threads at the same location.<br />-   The **Line** column, which displays the line of code where each group of threads is located.<br />-   The **Address** column, which displays the instruction address where each group of threads is located.<br />-   The **Location** column, which is the location in the code of the address.<br />-   The **Status** column, which shows whether the thread is active or blocked.<br />-   The **Tile** column, which shows the tile index for the threads in the row.|-   Change to a different thread<br />-   Display a particular tile and thread<br />-   Display or hide a column<br />-   Sort by a column<br />-   Group threads<br />-   Freeze or thaw threads<br />-   Flag or unflag a thread<br />-   Display only flagged threads|
 
-## See also
+## Related content
 
 - [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)
 - [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)

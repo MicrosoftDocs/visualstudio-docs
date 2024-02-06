@@ -1,19 +1,14 @@
 ---
 title: Create and Edit an XSD Schema File
-description: Learn how to create a new XML Schema (XSD) file and add content to it in Visual Studio.
+description: Create and edit a new XML Schema (XSD) file in Visual Studio in a few short steps, and add more content to the XSD file.
 ms.date: 11/04/2016
 ms.topic: how-to
-ms.assetid: 91b10cd7-c0cd-4e5a-a46b-4fed60dff542
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.technology: vs-xml-tools
-ms.workload:
-- multiple
+ms.subservice: xml-tools
 ---
-# How to: Create and edit an XSD schema file
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Create and edit an XSD schema file
 
 This topic describes how to create a new XML Schema (XSD) file and then add content to the XSD file.
 

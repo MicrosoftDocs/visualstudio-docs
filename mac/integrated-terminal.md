@@ -6,7 +6,6 @@ ms.author: dominicn
 manager: dominicn
 ms.date: 08/15/2022
 ms.topic: how-to
-ms.assetid: EFD53CE9-8174-4FE4-8863-2984D22FD921
 ---
 # Integrated Terminal in Visual Studio for Mac
 
@@ -18,7 +17,6 @@ To open the **Terminal**:
 - Use the **Ctrl + `** keyboard shortcut with the backtick character to show or hide the Terminal window.
 - Use the **View** > **Terminal** menu command.
 - Use the **terminal** command from the **search** bar.
-
 
 ::: moniker range="vsmac-2022"
 
@@ -56,7 +54,6 @@ Multiple instances of the Terminal may be running at any time. You can create a 
 ### Configuring the terminal font
 
 You can change the font **Family**, **Typeface** and **Size** used for the **Terminal Window Contents** from **Preferences...** > **Environment** > **Fonts**. By default, the font will be the same as that for the **Output Window Contents**, using Menlo Regular 11. You can set it to any font, independent of your **Text Editor** font.
-
 
 ::: moniker range="vsmac-2022"
 

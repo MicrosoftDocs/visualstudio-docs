@@ -1,19 +1,14 @@
 ---
-title: UX Essentials for Visual Studio | Microsoft Docs
+title: UX Essentials for Visual Studio
 description: Review these user experience best practices for new features you develop for Visual Studio, including knowing about screen resolution.
 ms.date: 04/26/2017
 ms.topic: reference
-ms.assetid: a793cf7a-f230-43ce-88d0-fa5d6f1aa9c7
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # UX Essentials for Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ## Best practices
 

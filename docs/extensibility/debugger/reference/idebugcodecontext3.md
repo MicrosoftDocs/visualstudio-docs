@@ -1,24 +1,20 @@
 ---
 description: "Extends the IDebugCodeContext2 interface to enable the retrieval of module and process interfaces."
-title: IDebugCodeContext3 | Microsoft Docs
+title: IDebugCodeContext3
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugCodeContext3 interface
-ms.assetid: 524eb882-0ad5-4bfb-95eb-eb3abb3d0237
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugCodeContext3
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Extends the [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) interface to enable the retrieval of module and process interfaces.
 
 ## Syntax

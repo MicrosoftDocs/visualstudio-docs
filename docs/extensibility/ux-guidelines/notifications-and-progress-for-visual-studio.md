@@ -1,24 +1,17 @@
 ---
-title: Notifications and Progress for Visual Studio | Microsoft Docs
+title: Notifications and Progress for Visual Studio
 description: Learn about several ways to inform users what is happening in Visual Studio regarding their software development tasks.
 ms.date: 11/04/2016
 ms.topic: reference
-ms.assetid: f0ef65e9-0f1f-45f4-9f25-6e2398691168
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
-f1_keywords:
- - vs.UserNotificationsToolWindowPane
+ms.subservice: extensibility-integration
 ---
 # Notifications and Progress for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## <a name="BKMK_NotificationSystems"></a> Notification systems
 
-### Overview
  There are several ways to inform the user what is happening in Visual Studio regarding their software development tasks.
 
  When implementing any kind of notification:
@@ -102,7 +95,7 @@ f1_keywords:
  **Visual Studio Notifications tool window**
 
 #### <a name="BKMK_ErrorList"></a> Error list
- A notification within the error list indicate errors and warnings that occurred during compilation and or build process, and allows the user to navigate in code to that specific code error.
+ A notification within the error list indicates errors and warnings that occurred during compilation and or build process, and allows the user to navigate in code to that specific code error.
 
  ![Error list](../../extensibility/ux-guidelines/media/0901-08_errorlist.png "0901-08_ErrorList")
 
@@ -129,7 +122,6 @@ f1_keywords:
 
 ## <a name="BKMK_ProgressIndicators"></a> Progress indicators
 
-### Overview
  Progress indicators are an important part of a notification system for giving the user feedback. They tell the user when processes and operations will complete. Familiar indicator types include progress bars, spinning cursors, and animated icons. The type and placement of a progress indicator depends on the context, including what is being reported and how long the process or operation will take to complete.
 
 #### Factors
@@ -283,7 +275,6 @@ f1_keywords:
 
 ## <a name="BKMK_Infobars"></a> Infobars
 
-### Overview
  Infobars give the user an indicator close to their point of attention and using the shared infobar control ensures consistency in visual appearance and interaction.
 
  ![Infobar](../../extensibility/ux-guidelines/media/0904-01_infobar.png "0904-01_Infobar")

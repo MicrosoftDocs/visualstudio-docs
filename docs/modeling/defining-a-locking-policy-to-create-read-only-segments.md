@@ -1,22 +1,15 @@
 ---
 title: Define a locking policy to create read-only segments
 description: Learn how you can define a policy for a program to lock part or all of a domain-specific language (DSL) model so that it can be read but not changed.
-ms.custom:
-- SEO-VS-2020
-- kr2b-contr-experiment
 ms.date: 06/22/2022
 ms.topic: how-to
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-  - "multiple"
+ms.subservice: modeling
 ---
 
 # Define a locking policy to create read-only segments
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Immutability API of the Visual Studio Visualization and Modeling SDK allows a program to lock part or all of a domain-specific language (DSL) model so that it can be read but not changed. This read-only option could be used, for example, so that a user can ask colleagues to annotate and review a DSL model but can disallow them from changing the original.
 

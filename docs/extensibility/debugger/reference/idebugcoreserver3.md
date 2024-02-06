@@ -1,23 +1,19 @@
 ---
 description: "This interface gives access to information about the server the process is running in."
-title: IDebugCoreServer3 | Microsoft Docs
+title: IDebugCoreServer3
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCoreServer3
 helpviewer_keywords:
 - IDebugCoreServer3 interface
-ms.assetid: 51f5f41b-a5a4-4df0-a703-41f3d1811d7f
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugCoreServer3
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface gives access to information about the server the process is running in.
 
 ## Syntax

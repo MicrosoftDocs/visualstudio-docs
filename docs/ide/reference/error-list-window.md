@@ -8,17 +8,12 @@ helpviewer_keywords:
 - build errors
 - Error List window
 - errors [Visual Studio], Error List window
-ms.assetid: b7f6d45a-733b-4ad8-bc2f-737a37509e56
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
-# Error List Window
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Error List window
 
 > [!NOTE]
 > The **Error List** displays information about a specific error message. You can copy the error number or error string text from the **Output** window. To display the **Output** window, press **Ctrl**+**Alt**+**O**. See [Output window](../../ide/reference/output-window.md).
@@ -72,26 +67,30 @@ You can copy the error list and save it to a file. Select the errors you want to
 
 ## UI Element List
 
-Severity
+**Severity**
 
 Displays the different types of **Error List** entry (**Error**, **Message**, **Warning**, **Warning (active)**, **Warning (inactive)**.
 
-Code
+**Code**
 
 Displays the error code.
 
-Description
+**Description**
 
 Displays the text of the entry.
 
-Project
+**Project**
 
 Displays the name of the current project.
 
-File
+**File**
 
 Displays the file name.
 
-Line
+**Line**
 
 Displays the line where the problem occurs.
+
+**Details**
+
+Displays a clickable icon to open the [Problem Details window](../../ide/reference/problem-details-window.md) if this entry has additional details.

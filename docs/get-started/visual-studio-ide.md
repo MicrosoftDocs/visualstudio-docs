@@ -1,23 +1,19 @@
 ---
-title: What is Visual Studio?
+title: What is the Visual Studio IDE?
 titleSuffix: ''
-description: Learn how Visual Studio is a powerful integrated development environment that empowers you to develop, edit, debug, version control, and deploy your app.
+description: Explore the Visual Studio integrated development environment (IDE) that empowers you to develop, edit, debug, version control, and deploy your app.
 ms.date: 05/05/2023
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: overview
-ms.custom: vs-acquisition,  vs-get-started
+ms.custom: vs-acquisition
 f1_keywords:
 - vs.startpage
 - VS.StartPage.HowDoI
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.workload:
-- multiple
 ---
 # What is Visual Studio?
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio is a powerful developer tool that you can use to complete the entire development cycle in one place. It is a comprehensive integrated development environment (IDE) that you can use to write, edit, debug, and build code, and then deploy your app. Beyond code editing and debugging, Visual Studio includes compilers, code completion tools, source control, extensions, and many more features to enhance every stage of the software development process.
 
@@ -52,12 +48,13 @@ Visual Studio provides developers a feature rich development environment to deve
 - Multiple language support - code in C++, C#, JavaScript, TypeScript, Python, and more
 - Cross-platform development - build apps for any platform
 - Version control integration - collaborate on code with team mates
+- AI-assisted development - write code more efficiently with AI assistance 
 
 ## Discover Visual Studio
 
 ### Develop your code
 
-Visual Studio IDE provides many [features](../ide/writing-code-in-the-code-and-text-editor.md) that make it easier for you to write and manage your code with confidence. For example, code quickly and accurately using IntelliSense code suggestions, make quick improvements to your code using light bulbs that suggest actions, or expand/collapse blocks of code using outlining. Organize and explore your code with the **Solution Explorer** that shows your code organized by files or the **Class View** that shows your code organized by classes.
+Visual Studio IDE provides many [features](../ide/writing-code-in-the-code-and-text-editor.md) that make it easier for you to write and manage your code with confidence. For example, code quickly and accurately with [AI-assisted development](../ide/ai-assisted-development-visual-studio.md) tools, such as [GitHub Copilot](../ide/visual-studio-github-copilot-extension.md) and [IntelliCode](../ide/intellicode-visual-studio.md), make quick improvements to your code using light bulbs that suggest actions, or expand/collapse blocks of code using outlining. Organize and explore your code with the **Solution Explorer** that shows your code organized by files or the **Class View** that shows your code organized by classes.
 
 Learn more about all the features in the IDE to organize and edit content:
 
@@ -84,6 +81,7 @@ Learn more about debugging effectively in Visual Studio:
 - [Debug your app](..//debugger/debugger-feature-tour.md)
 - [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md)
 - [Measure app performance](../profiling/beginners-guide-to-performance-profiling.md)
+- [Debug with Copilot](../debugger/debug-with-copilot.md)
 - [Tips and tricks](../debugger/debugger-tips-and-tricks.md)
 
 ### Test your code
@@ -123,10 +121,19 @@ Learn more about how to [deploy your app using Visual Studio](/visualstudio/depl
 - [Deploy your app from Visual Studio](../deployment/deploying-applications-services-and-components.md)
 - [Deploy your app to a folder, a web server, Azure, or another destination](../deployment/deploying-applications-services-and-components-resources.md)
 
+### AI-assisted development
+
+[GitHub Copilot](../ide/visual-studio-github-copilot-extension.md), [GitHub Copilot Chat](../ide/visual-studio-github-copilot-chat.md), and [IntelliCode](../ide/intellicode-visual-studio.md) assist developers in writing code faster and with greater accuracy, help develop a deeper understanding of the codebase, and help with other development tasks such as writing unit tests, [debugging](../debugger/debug-with-copilot.md), and profiling.
+
+Learn more about [AI-assisted development](../ide/ai-assisted-development-visual-studio.md) in Visual Studio:
+- [Use GitHub Copilot in Visual Studio](../ide/visual-studio-github-copilot-extension.md)
+- [Use GitHub Copilot Chat in Visual Studio](../ide/visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio)
+- [Debug with Copilot](../debugger/debug-with-copilot.md)
+
 ## Choose your Visual Studio edition
 
 There are three editions of Visual Studio: 
-- [Community](https://visualstudio.microsoft.com/vs/community/) - free, fully-featured IDE for students, open-source and individual developers 
+- [Community](https://visualstudio.microsoft.com/vs/community/) - free, fully featured IDE for students, open-source and individual developers 
 - [Professional](https://visualstudio.microsoft.com/vs/professional/) -  a subscription based option for individual developers or small teams.
 - [Enterprise](https://visualstudio.microsoft.com/vs/enterprise/) - a subscription based option for small to large business and enterprise organizations.
 

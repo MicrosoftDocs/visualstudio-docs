@@ -1,22 +1,18 @@
 ---
-title: Terminating a Program | Microsoft Docs
+title: Terminating a Program
 description: This article describes how the IDE uses the debug engine to terminate a single program with a single thread.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - programs, termination events
 - debugging [Debugging SDK], terminating a program
-ms.assetid: eedda0a3-5e05-44fe-841d-a2f4866ac72d
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # Terminating a program
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following section describes the termination of a single program with one thread.
 
 ## Termination process
@@ -27,5 +23,5 @@ The following section describes the termination of a single program with one thr
 
    The IDE goes into design mode. The debug engine or run-time environment calls [IDebugPortNotify2::RemoveProgramNode](../../extensibility/debugger/reference/idebugportnotify2-removeprogramnode.md) to remove the program from the port.
 
-## See also
+## Related content
 - [Calling debugger events](../../extensibility/debugger/calling-debugger-events.md)

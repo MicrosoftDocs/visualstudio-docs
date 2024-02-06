@@ -1,23 +1,19 @@
 ---
 description: "Retrieves an enumerated sequence of debug data streams."
-title: "IDiaSession::getEnumDebugStreams | Microsoft Docs"
+title: "IDiaSession::getEnumDebugStreams"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSession::getEnumDebugStreams method"
-ms.assetid: d294954b-80e9-476c-b9f0-5ca6fd575f68
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSession::getEnumDebugStreams
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves an enumerated sequence of debug data streams.
 
 ## Syntax

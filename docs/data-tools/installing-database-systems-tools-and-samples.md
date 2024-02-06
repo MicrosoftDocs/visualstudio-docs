@@ -1,23 +1,18 @@
 ---
-title: Database compatibility
-description: Review compatible database systems for Visual Studio, such as Microsoft SQL Server, Oracle, MySQL, PostgreSQL, SQLite, and Firebird.
-ms.date: 09/06/2017
+title: Explore compatible database systems
+description: Explore compatible database systems for Visual Studio, including Microsoft SQL Server, Oracle, MySQL, PostgreSQL, SQLite, and Firebird.
+ms.date: 11/01/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - database systems
 - database compatibility
 - databases for Visual Studio
-ms.assetid: 821de34b-eaa9-40af-b9aa-b8305de16899
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
 # Compatible database systems for Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To develop a data-connected application in Visual Studio, you typically install the database system on your local development machine, and then deploy the application and database to a production environment when they are ready. Visual Studio installs SQL Server Express LocalDB on your machine as part of the **Data storage and processing** workload. This LocalDB instance is useful for developing data-connected applications quickly and easily.
 
@@ -51,7 +46,7 @@ SQLite is an embedded SQL database engine that runs in the application's own pro
 
 Firebird is an open-source SQL database system. You can download it from the [Firebird download page](http://firebirdsql.org/en/downloads/). An ADO.NET data provider is available through the NuGet Package Manager.
 
-## See also
+## Related content
 
 - [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)
 - [How to determine the version and edition of SQL Server and its components](https://support.microsoft.com/help/321185/how-to-determine-the-version-edition-and-update-level-of-sql-server-an)

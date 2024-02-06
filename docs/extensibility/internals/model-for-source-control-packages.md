@@ -1,21 +1,17 @@
 ---
-title: Model for Source Control Packages | Microsoft Docs
+title: Model for Source Control Packages
 description: This model represents a source control implementation. The article shows the names of the classes to make it easier to see how source control is carried out.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - source control [Visual Studio SDK], model
-ms.assetid: 6164b2d3-a622-4de8-bef3-a6de985e9ebd
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Model for Source Control Packages
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following model represents an example of a source control implementation. In the model, you see the interfaces that you must implement and the environment services that you must call. Like all services, you actually call the methods of a particular interface that you obtain by way of the service. The names of the classes are identified to make it easier to see how source control is carried out.
 
  ![SCC&#95;TUP Examples](../../extensibility/internals/media/scc_tup.gif "SCC_TUP")
@@ -32,7 +28,7 @@ Example Source Control Project
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsSccManager2>|Called by projects to register with the source control package and to obtain information on source control status. This interface is accessed using the <xref:Microsoft.VisualStudio.Shell.Interop.SVsSccManager> service.|
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProject2>|Implemented by the project to respond to source control requests for information about files and to obtain the source control settings required for the project file.|
 
-## See also
+## Related content
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccManager2>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProject2>

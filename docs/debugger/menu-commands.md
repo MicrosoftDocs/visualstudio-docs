@@ -6,17 +6,12 @@ ms.topic: "ui-reference"
 helpviewer_keywords:
   - "Spy++, menu commands"
   - "menu commands, Spy++"
-ms.assetid: 9d1aab27-9ac0-4096-8e12-c47503acb2e9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Spy++ menu commands
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Help topics on this page list the commands available from the Spy++ menus.
 

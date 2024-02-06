@@ -1,26 +1,22 @@
 ---
 description: "Specifies the step unit for stepping."
-title: STEPUNIT | Microsoft Docs
+title: STEPUNIT
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - STEPUNIT
 helpviewer_keywords:
 - STEPUNIT enumeration
-ms.assetid: cb8441f2-f744-4e73-acfe-ae8542df9649
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # STEPUNIT
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the step unit for stepping.
 
 ## Syntax

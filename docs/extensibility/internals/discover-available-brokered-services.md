@@ -7,17 +7,12 @@ ms.topic: reference
 helpviewer_keywords:
 - brokered services, Visual Studio
 - Visual Studio, brokered services
-ms.assetid: 724eb24b-b87c-4971-a2e7-adee7afc03b2
 author: aarnott
 ms.author: andarno
 manager: ansonh
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Discovering available brokered services
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Brokered services can be exposed by Visual Studio or its extensions.
 This document describes how to discover brokered services exposed by Visual Studio.

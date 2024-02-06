@@ -1,23 +1,19 @@
 ---
 description: "This interface provides the functions that allow getting and setting a property."
-title: IDebugPropertyField | Microsoft Docs
+title: IDebugPropertyField
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPropertyField
 helpviewer_keywords:
 - IDebugPropertyField interface
-ms.assetid: b50edb2c-fb8d-4def-993d-17d23d2027c1
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugPropertyField
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface provides the functions that allow getting and setting a property.
 
 ## Syntax

@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically format text in documents"
+title: "Programmatically format text in documents"
 description: Learn how you can use the Range object to programmatically format text in a Microsoft Word document.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -13,13 +13,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Programmatically format text in documents
+# Programmatically format text in documents
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can use the <xref:Microsoft.Office.Interop.Word.Range> object to format text in a Microsoft Office Word document.
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]
@@ -52,7 +49,7 @@ ms.workload:
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb" id="Snippet62":::
      ---
 
-## See also
+## Related content
 - [How to: Programmatically define and select ranges in documents](../vsto/how-to-programmatically-define-and-select-ranges-in-documents.md)
 - [How to: Programmatically insert text into Word documents](../vsto/how-to-programmatically-insert-text-into-word-documents.md)
 - [How to: Programmatically search for and replace text in documents](../vsto/how-to-programmatically-search-for-and-replace-text-in-documents.md)

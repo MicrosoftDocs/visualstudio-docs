@@ -1,22 +1,18 @@
 ---
-title: Creating Options Pages | Microsoft Docs
+title: Creating Options Pages
 description: Learn how to create an Options page under the Tools menu in Visual Studio by implementing a DialogPage class from the managed package framework.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - managed package framework, creating Tools Options pages
 - Tools Options pages [Visual Studio SDK], creating using managed package framework
-ms.assetid: 1bf11fec-dece-4943-8053-6de1483c43eb
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Create options pages
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In the Visual Studio managed package framework, classes derived from <xref:Microsoft.VisualStudio.Shell.DialogPage> extend the Visual Studio IDE by adding **Options** pages under the **Tools** menu.
 
  An object implementing a given **Tools Option** page is associated with specific VSPackages by the <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> object.
@@ -80,6 +76,6 @@ In the Visual Studio managed package framework, classes derived from <xref:Micro
 :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VSSDK/ui_usersettings_toolsoptionpages/cs/uiusersettingstoolsoptionspagespackage.cs" id="Snippet08":::
 :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VSSDK/ui_usersettings_toolsoptionpages/vb/uiusersettingstoolsoptionspagespackage.vb" id="Snippet08":::
 
-## See also
+## Related content
 - [Extend user settings and options](../../extensibility/extending-user-settings-and-options.md)
 - [Automation support for options pages](../../extensibility/internals/automation-support-for-options-pages.md)

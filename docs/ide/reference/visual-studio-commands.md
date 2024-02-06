@@ -7,17 +7,12 @@ helpviewer_keywords:
 - Visual Studio, commands
 - commands, Visual Studio
 - command syntax
-ms.assetid: 76ffa394-ee89-4629-aba9-1a62b72e6cc1
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Visual Studio commands
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can enter Visual Studio commands in the [**Command** window](../../ide/reference/command-window.md), [**Immediate** window](../../ide/reference/immediate-window.md), or **Find/Command** box. In each case, the greater than sign (`>`) indicates that a command, rather than a search or debug operation, follows.
 

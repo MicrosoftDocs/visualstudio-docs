@@ -1,26 +1,22 @@
 ---
 description: "Gets the attributes for this debug event."
-title: IDebugEvent2::GetAttributes | Microsoft Docs
+title: IDebugEvent2::GetAttributes
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEvent2::GetAttributes
 helpviewer_keywords:
 - IDebugEvent2::GetAttributes
-ms.assetid: 2ac5b5fb-da17-43f7-811a-313f677e60d7
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugEvent2::GetAttributes
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the attributes for this debug event.
 
 ## Syntax

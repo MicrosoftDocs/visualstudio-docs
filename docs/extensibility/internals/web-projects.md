@@ -1,21 +1,17 @@
 ---
-title: Web Projects | Microsoft Docs
+title: Web Projects
 description: Learn the internal details about how the web project system work in Visual Studio, for developers who want to extend Visual Studio.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - web projects
-ms.assetid: d9c0329f-4b0b-4fda-8061-cce69f2f502d
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Web Projects
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A Web project system is a project system that creates Web projects. Web projects in turn create Web applications. You can program a Web page using traditional programming languages, such as Visual Basic or Visual C#, to collect and process information from a user, store it in a database, and so on. Web pages with associated code are called smart Web pages.
 
 ## In This Section

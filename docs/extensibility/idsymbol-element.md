@@ -1,22 +1,18 @@
 ---
-title: IDSymbol Element | Microsoft Docs
+title: IDSymbol Element
 description: The IDSymbol element contains the ID of the GUID:ID pair that represents a menu, group, or command.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDSymbol element (VSCT XML schema)
 - VSCT XML schema elements, IDSymbol
-ms.assetid: 760cfd20-3c06-422c-9103-98bfa1f387f8
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # IDSymbol element
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The `IDSymbol` element contains the ID of the GUID:ID pair that represents a menu, group, or command. The GUID comes from the parent `GuidSymbol` element. The `IDSymbol` element has a `name` attribute that provides a friendly name for the ID, which is contained in the `value` attribute.
 
 ## Syntax

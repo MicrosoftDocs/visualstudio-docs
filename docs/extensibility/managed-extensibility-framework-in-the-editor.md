@@ -1,31 +1,26 @@
 ---
-title: Managed Extensibility Framework in the Editor | Microsoft Docs
+title: Managed Extensibility Framework in the Editor
 description: Learn about the Managed Extensibility Framework, which allows you to build your own components to extend the editor in the Visual Studio SDK.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - using MEF for extensions
-ms.assetid: 3f59a285-6c33-4ae3-a4fb-ec1f5aa21bd1
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Managed Extensibility Framework in the editor
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The editor is built by using Managed Extensibility Framework (MEF) components. You can build your own MEF components to extend the editor, and your code can consume editor components as well.
 
-## Overview of the Managed Extensibility Framework
- The MEF is a .NET library that lets you add and modify features of an application or component that follows the MEF programming model. The Visual Studio editor can both provide and consume MEF component parts.
+The MEF is a .NET library that lets you add and modify features of an application or component that follows the MEF programming model. The Visual Studio editor can both provide and consume MEF component parts.
 
- The MEF is contained in the .NET Framework version 4 *System.ComponentModel.Composition.dll* assembly.
+The MEF is contained in the .NET Framework version 4 *System.ComponentModel.Composition.dll* assembly.
 
- For more information about MEF, see [Managed Extensibility Framework (MEF)](/dotnet/framework/mef/index).
+For more information about MEF, see [Managed Extensibility Framework (MEF)](/dotnet/framework/mef/index).
 
-### Component parts and composition containers
+## Component parts and composition containers
  A component part is a class or a member of a class that can do one (or both) of the following:
 
 - Consume another component
@@ -36,10 +31,10 @@ The editor is built by using Managed Extensibility Framework (MEF) components. Y
 
   The composition container, <xref:System.ComponentModel.Composition.Hosting.CompositionContainer>, is typically owned by the host. The composition container maintains a *catalog* of exported component parts.
 
-### Export and import component parts
+## Export and import component parts
  You can export any functionality, as long as it is implemented as a public class or a public member of a class (property or method). You do not have to derive your component part from <xref:System.ComponentModel.Composition.Primitives.ComposablePart>. Instead, you must add a <xref:System.ComponentModel.Composition.ExportAttribute> attribute to the class or class member that you want to export. This attribute specifies the *contract* by which another component part can import your functionality.
 
-### The export contract
+## The export contract
  The <xref:System.ComponentModel.Composition.ExportAttribute> defines the entity (class, interface, or structure) that is being exported. Typically, the export attribute takes a parameter that specifies the type of the export.
 
 ```
@@ -67,7 +62,7 @@ class TestAdornmentLayerDefinition : AdornmentLayerDefinition {   }
 public AdornmentLayerDefinition scarletLayerDefinition;
 ```
 
-### Import a MEF Export
+## Import a MEF Export
  When you want to consume a MEF export, you must know the contract (typically the type) by which it was exported, and add a <xref:System.ComponentModel.Composition.ImportAttribute> attribute that has that value. By default, the import attribute takes one parameter, which is the type of the class that it modifies. The following lines of code import the <xref:Microsoft.VisualStudio.Text.Classification.IClassificationTypeRegistryService> type.
 
 ```
@@ -102,5 +97,5 @@ You may experience issues if you try to import something that doesn't exist in t
 
 5. When you have compiled your assembly, put it in the *..\Common7\IDE\Components\* folder of your Visual Studio installation.
 
-## See also
+## Related content
 - [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)

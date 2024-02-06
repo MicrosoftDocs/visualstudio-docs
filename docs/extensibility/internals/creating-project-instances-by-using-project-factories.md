@@ -1,22 +1,18 @@
 ---
-title: Creating Project Instances By Using Project Factories | Microsoft Docs
+title: Creating Project Instances By Using Project Factories
 description: Learn how to create project class instances by using project factories in the Visual Studio integrated development environment (IDE).
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - project factories
 - projects [Visual Studio SDK], project factories
-ms.assetid: 94c90012-8669-459c-af8e-307ac242c8c4
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Create project instances by using project factories
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Project types in Visual Studio use a *project factory* to create instances of project objects. A project factory is similar to a standard class factory for cocreatable COM objects. However, project objects are not cocreatable; they can only be created by using a project factory.
 
  The Visual Studio IDE calls the project factory implemented in your VSPackage when a user loads an existing project or creates a new project in Visual Studio. The new project object provides the IDE with enough information to populate **Solution Explorer**. The new project object also provides the required interfaces for supporting all relevant UI actions initiated by the IDE.
@@ -42,7 +38,7 @@ Project types in Visual Studio use a *project factory* to create instances of pr
 
    A project can also use no files and, instead, store its project state in a storage mechanism other than the file system, such as a database or Web server. In this case, the file name parameter passed to the `CreateProject` method is not actually a file system path but a unique string—a URL—to identify the project data. You do not need to copy the template files that are passed to `CreateProject` to trigger the appropriate construction sequence to be executed.
 
-## See also
+## Related content
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsOwnedProjectFactory>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsRegisterProjectTypes>

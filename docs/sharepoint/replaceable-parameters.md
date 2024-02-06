@@ -1,5 +1,5 @@
 ---
-title: "Replaceable Parameters | Microsoft Docs"
+title: "Replaceable Parameters"
 description: Review replaceable parameters (tokens), which specify values inside project files for SharePoint solution items whose actual values aren't known at design time.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -14,12 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload: "office"
+ms.subservice: sharepoint-development
 ---
 # Replaceable parameters
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Replaceable parameters, or *tokens*, can be used inside project files to provide values for SharePoint solution items whose actual values aren't known at design time. They're similar in function to the standard Visual Studio template tokens. For more information, see [Template Parameters](../ide/template-parameters.md).
 
 ## Token format
@@ -103,5 +101,5 @@ ms.workload: "office"
 
  You can add the extension directly to the targets (*.targets*) file. However, adding the extension alters the extensions list for all SharePoint projects packaged on the local system, not just your own. This extension may be convenient when you are the sole developer on the system or if most of your projects require it. However, because it is system-specific, this approach is not portable, and therefore, it is recommended that you add any extensions to the project file instead.
 
-## See also
+## Related content
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)

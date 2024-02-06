@@ -1,6 +1,6 @@
 ---
 title: Collapse and expand regions of code
-description: Learn how you can use the expand and collapse commands to work in outline mode in Visual Studio.
+description: Use the expand and collapse commands in the Visual Studio integrated development environment (IDE) to work in outline mode.
 ms.date: 05/22/2023
 ms.topic: conceptual
 helpviewer_keywords:
@@ -14,13 +14,9 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Outlining
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To hide a region of code from view, you can collapse it so that it appears under a plus sign (**+**) in the text editor. Then, to expand a collapsed region, select the plus sign.
 
@@ -58,7 +54,7 @@ The following commands can be found on the **Edit** > **Outlining** submenu.
 
 You can also use the Visual Studio SDK to define the text regions you want to expand or collapse. See [Walkthrough: Outlining](../extensibility/walkthrough-outlining.md).
 
-## See also
+## Related content
 
 - [Features of the code editor](writing-code-in-the-code-and-text-editor.md)
 - [Source editor (Visual Studio for Mac)](/visualstudio/mac/source-editor)

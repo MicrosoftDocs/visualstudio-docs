@@ -1,5 +1,5 @@
 ---
-title: "Debugging, Options Dialog Box | Microsoft Docs"
+title: "Debugging, Options Dialog Box"
 description: Find links that describe the Options dialog box for general debugging, just-in-time debugging, output window debugging, and symbol debugging in Visual Studio.
 ms.date: "11/04/2016"
 ms.topic: "ui-reference"
@@ -16,17 +16,13 @@ helpviewer_keywords:
   - "debugger, options"
   - "Options dialog box, debugging"
   - "debugging [Visual Studio], settings and preparation"
-ms.assetid: 9450589a-42ea-45bf-b128-89447225cca6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Debugging, Options Dialog Box
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **Debugging** folder, in the **Options** dialog box on the **Tools** menu, provides the following pages, which enable you to specify debugger tool options.
 
 - [General, Debugging, Options Dialog Box](../debugger/general-debugging-options-dialog-box.md)

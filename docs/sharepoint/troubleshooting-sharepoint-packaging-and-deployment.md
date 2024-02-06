@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting SharePoint Packaging and Deployment | Microsoft Docs"
+title: "Troubleshooting SharePoint Packaging and Deployment"
 description: Understand and fix various problems that you might encounter when you package and deploy SharePoint solutions.
 ms.date: 02/22/2017
 ms.topic: "conceptual"
@@ -22,13 +22,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+ms.subservice: sharepoint-development
 ---
 # Troubleshoot SharePoint packaging and deployment
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This topic covers various problems that you might encounter when you package and deploy SharePoint solutions.
 
 ## Enable enhanced debugging
@@ -108,6 +105,6 @@ ms.workload:
 
  To remove this warning, either build the project and then close and then reopen the designer, or disable the auto-retract option for the project. To do this, clear the **Auto-retract after debugging** check box on the **SharePoint** tab of the project properties dialog box.
 
-## See also
+## Related content
 
 - [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

@@ -9,16 +9,11 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.C/C++.Advanced"
 helpviewer_keywords:
   - "Text Editor Options dialog box, advanced"
-ms.assetid: 67c82ae5-fddd-49df-baec-8e7498b156f3
 author: tylermsft
 ms.author: twhitney
 manager: markl
-ms.workload:
-  - "cplusplus"
 ---
 # Options, Text Editor, C/C++, Advanced
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 By changing these options, you can change the behavior related to IntelliSense and the browsing database when you're programming in C or C++.
 

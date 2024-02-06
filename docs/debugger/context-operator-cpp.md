@@ -1,5 +1,5 @@
 ---
-title: "Context operator in the debugger (C++) | Microsoft Docs"
+title: "Context operator in the debugger (C++)"
 description: You may need to provide context for a C++ name that is in an outer scope and is hidden by a local name. Learn how to use the context operator to do this. 
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -17,17 +17,13 @@ helpviewer_keywords:
   - "context operator, in expressions"
   - "debugging [C++], expressions"
   - "native expression evaluator"
-ms.assetid: 73cc9afe-f4a4-474e-bb89-5a33fb5e570c
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "cplusplus"
+ms.subservice: debug-diagnostics
 ---
 # Context Operator in the Visual Studio Debugger (C++)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can use the context operator in C++ to qualify a breakpoint location, variable name, or expression. The context operator is useful for specifying a name from an outer scope that is otherwise hidden by a local name.
 
 ## <a name="BKMK_Using_context_operators_to_specify_a_symbol"></a> Syntax

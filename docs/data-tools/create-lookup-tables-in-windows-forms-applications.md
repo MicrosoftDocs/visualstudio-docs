@@ -1,22 +1,17 @@
 ---
-title: Create lookup tables in Windows Forms applications
+title: Create lookup tables in .NET Framework Windows Forms applications
 description: Read how to create lookup tables in Windows Forms applications. A lookup table describes controls that are bound to two related data tables.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - lookup tables
 - lookup tables, creating
-ms.assetid: 0edd5385-c381-4b17-9096-74e2778db9d5
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# Create lookup tables in Windows Forms applications
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Create lookup tables in .NET Framework Windows Forms applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -57,6 +52,6 @@ For example, consider a table of `Orders` in a sales database. Each record in th
     |**ValueMember**|Visual Studio sets this property to the first column participating in the primary key, or the first column in the table if no key is defined.<br /><br /> If you need to make an adjustment, set this to the primary key in the table with the column you want to display.|
     |**SelectedValue**|Visual Studio sets this property to the original column dropped from the **Data Sources** window.<br /><br /> If you need to make an adjustment, set this to the foreign-key column in the related table.|
 
-## See also
+## Related content
 
 - [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)

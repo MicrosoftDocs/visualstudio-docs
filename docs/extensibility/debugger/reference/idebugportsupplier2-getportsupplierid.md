@@ -1,26 +1,22 @@
 ---
 description: "Gets the port supplier identifier."
-title: IDebugPortSupplier2::GetPortSupplierId | Microsoft Docs
+title: IDebugPortSupplier2::GetPortSupplierId
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPortSupplier2::GetPortSupplierId
 helpviewer_keywords:
 - IDebugPortSupplier2::GetPortSupplierId
-ms.assetid: 741d0829-0943-49bf-b56e-61e836043006
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPortSupplier2::GetPortSupplierId
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the port supplier identifier.
 
 ## Syntax

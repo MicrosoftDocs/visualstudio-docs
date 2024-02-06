@@ -1,21 +1,17 @@
 ---
-title: Extending Properties | Microsoft Docs
+title: Extending Properties
 description: Learn about the interfaces that you must implement and call to extend the list of properties in the Visual Studio Properties window.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - Properties window, providing support
-ms.assetid: 68e2cbd4-861c-453f-8c9f-4ab6afc80e67
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Extend properties
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Visual Studio **Properties** window is a universal property browser for COM and COM+ components and supports all Visual Studio products. The **Properties** window works with `ITypeInfo` type information and COM+ metadata to list the design-time properties for the currently selected object in any other window in the integrated development environment (IDE).
 
  The **Properties** window, which can be opened by pressing **F4** on the keyboard, or selecting **Properties Window** on the **View** menu, is used to view and edit configuration-independent, design-time properties and events of selected objects. Configuration-dependent properties, associated with solutions and projects, are displayed on [Property pages](../../extensibility/internals/property-pages.md). For more information, [Manage configuration options](../../extensibility/internals/managing-configuration-options.md).

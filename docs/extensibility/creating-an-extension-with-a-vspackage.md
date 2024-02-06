@@ -1,25 +1,16 @@
 ---
-title: Creating an Extension with a VSPackage | Microsoft Docs
+title: Creating an Extension with a VSPackage
 description: Learn how to create a VSIX project and add a VSPackage project item using the VSPackage to get the UI Shell service in order to show a message box.
 ms.date: 3/16/2019
 ms.topic: how-to
-ms.assetid: c0cc5e08-4897-44f2-8309-e3478f1f999e
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Create an extension with a VSPackage
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This walkthrough shows you how to create a VSIX project and add a VSPackage project item. We will use the VSPackage to get the UI Shell service in order to show a message box.
-
-## Prerequisites
-
-Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ## Create a VSPackage
 

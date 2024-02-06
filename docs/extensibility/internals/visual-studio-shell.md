@@ -1,22 +1,18 @@
 ---
-title: Visual Studio Shell | Microsoft Docs
+title: Visual Studio Shell
 description: The Visual Studio shell is the primary agent of integration in Visual Studio and provides basic functionality and supports cross-communication among VSPackages.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - shell, Visual Studio
 - Visual Studio, shell
-ms.assetid: cb124ef4-1a6b-4bfe-bfbf-295ef9c07f36
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Visual Studio Shell
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Visual Studio shell is the primary agent of integration in Visual Studio. The shell provides necessary functionality to enable VSPackages to share common services. Because the architectural goal of Visual Studio is to vest primary functionality in the VSPackages, the shell is a framework to provide basic functionality and support cross-communication among its component VSPackages.
 
 ## Shell Responsibilities
@@ -76,7 +72,7 @@ The Visual Studio shell is the primary agent of integration in Visual Studio. Th
 
 - **Toolbox**
 
-## See also
+## Related content
 - <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>
 - <xref:Microsoft.VisualStudio.Shell.Interop.SVsShell>

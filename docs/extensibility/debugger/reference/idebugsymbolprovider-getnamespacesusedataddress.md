@@ -1,26 +1,22 @@
 ---
 description: "This method creates an enumerator for namespaces associated with the debug address."
-title: IDebugSymbolProvider::GetNamespacesUsedAtAddress | Microsoft Docs
+title: IDebugSymbolProvider::GetNamespacesUsedAtAddress
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugSymbolProvider::GetNamespacesUsedAtAddress
 helpviewer_keywords:
 - IDebugSymbolProvider::GetNamespacesUsedAtAddress method
-ms.assetid: 392de54b-9af0-4567-953b-1b41acd1e05c
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugSymbolProvider::GetNamespacesUsedAtAddress
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method creates an enumerator for namespaces associated with the debug address.
 
 ## Syntax

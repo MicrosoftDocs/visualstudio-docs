@@ -1,26 +1,22 @@
 ---
 description: "Specifies the information to be retrieved about the successful resolution of a breakpoint."
-title: BPRESI_FIELDS | Microsoft Docs
+title: BPRESI_FIELDS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - BPRESI_FIELDS
 helpviewer_keywords:
 - BPRESI_FIELDS enumeration
-ms.assetid: 99f17b1e-3e67-4f85-89d6-5c6cf45c8008
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # BPRESI_FIELDS
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the information to be retrieved about the successful resolution of a breakpoint.
 
 ## Syntax

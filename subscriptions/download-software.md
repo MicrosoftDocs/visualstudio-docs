@@ -1,12 +1,11 @@
 ---
-title: Downloading software titles in Visual Studio subscriptions | Microsoft Docs
+title: Download software titles in subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: e2f2619c-7736-47e5-a066-5940d5994db9
 ms.date: 05/24/2023
 ms.topic: conceptual
-description:  Learn how to locate and download Microsoft software titles in Visual Studio subscriptions
+description: Find and download Microsoft software titles in Visual Studio subscriptions and locate the software you need to get the most out of your subscription. 
 ---
 
 # Downloading software titles in Visual Studio subscriptions

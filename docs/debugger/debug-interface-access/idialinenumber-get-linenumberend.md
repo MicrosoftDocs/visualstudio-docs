@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the one-based source line number where the statement or expression ends."
-title: "IDiaLineNumber::get_lineNumberEnd | Microsoft Docs"
+title: "IDiaLineNumber::get_lineNumberEnd"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaLineNumber::get_lineNumberEnd method"
-ms.assetid: b101853e-2bcf-47c1-acef-e13984c7ea9d
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaLineNumber::get_lineNumberEnd
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the one-based source line number where the statement or expression ends.
 
 ## Syntax

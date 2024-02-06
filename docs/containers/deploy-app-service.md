@@ -1,17 +1,15 @@
 ---
-title: Deploy an ASP.NET Core container to Azure App Service
-description: Learn how to use Visual Studio Container Tools to deploy an ASP.NET Core web app in a Docker container to Azure App Service
+title: Deploy an ASP.NET Core app to Azure App Service
+description: Use Visual Studio Container Tools to deploy an ASP.NET Core web app in a Docker container to Azure App Service and view the settings.
 author: ghogen
 manager: jmartens
-ms.technology: vs-container-tools
+ms.subservice: container-tools
 ms.devlang: dotnet
 ms.topic: how-to
-ms.date: 10/28/2021
+ms.date: 10/18/2023
 ms.author: ghogen
 ---
 # Deploy an ASP.NET Core container to Azure App Service using Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This tutorial walks you through using Visual Studio to publish your containerized ASP.NET Core web application to an [Azure App Service](/azure/app-service). Azure App Service is an appropriate service for a single-container web app hosted in Azure.
 
@@ -34,15 +32,13 @@ To complete this tutorial:
 
 The following steps guide you through creating a basic ASP.NET Core app that will be used in this tutorial.
 
-::: moniker range=">= vs-2019"
 1. From the Visual Studio start window, choose **Create a new project**.
 1. Choose **ASP.NET Core Web App**, and choose **Next**.
 1. Give your new application a name (or take the default) and choose **Next**.
-1. Choose the .NET version you want to target. If you're not sure, choose the long-term support (LTS) version.
+1. Choose the .NET version you want to target. If you're not sure, choose the .NET 8.0 version.
 1. Choose whether or not you want SSL support by using the **Configure for HTTPS** checkbox.
 1. Check the **Enable Docker Support** checkbox.
 1. Select the container type, and click **Create**.
-::: moniker-end
 
 ## Deploy the container to Azure
 
@@ -148,10 +144,7 @@ To remove all Azure resources associated with this tutorial, delete the resource
 
 In the Azure portal, choose **Resource groups**, select the resource group to open its details page. Verify that this is the correct resource group, then choose **Remove resource group**, type the name, and choose **Delete**.
 
-## Next steps
+## Related content
 
-Learn more about [Azure App Service](/azure/app-service/overview).
-
-## See also
-
-[Deploy to Azure Container Registry](hosting-web-apps-in-docker.md)
+- [Azure App Service](/azure/app-service/overview)
+- [Deploy to Azure Container Registry](hosting-web-apps-in-docker.md)

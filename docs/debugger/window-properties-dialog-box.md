@@ -5,17 +5,12 @@ ms.date: "11/04/2016"
 ms.topic: "ui-reference"
 helpviewer_keywords:
   - "Window Properties dialog box"
-ms.assetid: c70e9429-fb0c-452a-9626-79f168393e44
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Window Properties dialog box
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use this dialog box to find out more about a specific window. To display this dialog box, move the focus to the [Windows View](windows-view.md) window. Select any window node in the tree, then choose **Properties** from the **View** menu.
 

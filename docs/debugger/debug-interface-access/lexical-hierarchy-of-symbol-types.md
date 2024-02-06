@@ -1,23 +1,19 @@
 ---
 description: "The following table shows the symbol types in the lexical hierarchy."
-title: "Lexical Hierarchy of Symbol Types | Microsoft Docs"
+title: "Lexical Hierarchy of Symbol Types"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "symbols [DIA SDK], type hierarchies"
-ms.assetid: 912da653-ddfe-45a4-84aa-64281283739a
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Lexical Hierarchy of Symbol Types
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following table shows the symbol types in the lexical hierarchy.
 
 ## Symbol Types

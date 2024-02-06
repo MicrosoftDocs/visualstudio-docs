@@ -1,5 +1,5 @@
 ---
-title: Error Task | Microsoft Docs
+title: Error Task
 description: Use the MSBuild Error task to stop a build and log an error based on an evaluated conditional statement.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -9,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - Error task [MSBuild]
 - MSBuild, Error task
-ms.assetid: e96a90ee-a8ae-4e5b-8ef2-b5cf5fedd8b2
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # Error task
 

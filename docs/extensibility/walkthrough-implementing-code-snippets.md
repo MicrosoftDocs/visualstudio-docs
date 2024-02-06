@@ -1,22 +1,18 @@
 ---
-title: 'Walkthrough: Implementing Code Snippets | Microsoft Docs'
+title: 'Walkthrough: Implementing Code Snippets'
 description: You can create code snippets and include them in an editor extension. Learn how to create/register code snippets by using this walkthrough.
 ms.date: 11/04/2016
 ms.topic: how-to
-ms.assetid: adbc5382-d170-441c-9fd0-80faa1816478
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 dev_langs:
 - CSharp
 - VB
-ms.workload:
-- vssdk
 ---
 # Walkthrough: Implement code snippets
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can create code snippets and include them in an editor extension so that users of the extension can add them to their own code.
 
  A code snippet is a fragment of code or other text that can be incorporated in a file. To view all snippets that have been registered for particular programming languages, on the **Tools** menu, click **Code Snippet Manager**. To insert a snippet in a file, right-click where you want the snippet, click Insert Snippet, or **Surround With**, locate the snippet you want, and then double-click it. Press **Tab** or **Shift**+**Tab** to modify the relevant parts of the snippet and then press **Enter** or **Esc** to accept it. For more information, see [Code snippets](../ide/code-snippets.md).
@@ -32,9 +28,6 @@ You can create code snippets and include them in an editor extension so that use
 3. Implement snippet expansion.
 
    This walkthrough is based on [Walkthrough: Display statement completion](../extensibility/walkthrough-displaying-statement-completion.md).
-
-## Prerequisites
- Starting in Visual Studio 2015, you don't install the Visual Studio SDK from the download center. It's included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ## Create and register code snippets
  Typically, code snippets are associated with a registered language service. However, you do not have to implement a <xref:Microsoft.VisualStudio.Package.LanguageService> to register code snippets. Instead, just specify a GUID in the snippet index file and then use the same GUID in the <xref:Microsoft.VisualStudio.Shell.ProvideLanguageCodeExpansionAttribute> that you add to your project.
@@ -306,5 +299,3 @@ You can create code snippets and include them in an editor extension so that use
 6. Accept the insertion by pressing either **Enter** or **Esc**.
 
 7. In a different part of the text, type "test" and then press **Tab**. Because "test" is the code-snippet shortcut, the snippet should be inserted again.
-
-## Next steps

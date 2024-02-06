@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the thunk type of a function."
-title: "IDiaSymbol::get_thunkOrdinal | Microsoft Docs"
+title: "IDiaSymbol::get_thunkOrdinal"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_thunkOrdinal method"
-ms.assetid: 4b28d78a-1974-4d8a-8bb7-781bf630f2f4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_thunkOrdinal
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the thunk type of a function.
 
 ## Syntax

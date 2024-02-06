@@ -1,26 +1,22 @@
 ---
 description: "Specifies what kind of information to retrieve for a particular machine."
-title: MACHINE_INFO_FIELDS | Microsoft Docs
+title: MACHINE_INFO_FIELDS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - MACHINE_INFO_FIELDS
 helpviewer_keywords:
 - MACHINE_INFO_FIELDS enumeration
-ms.assetid: 2d61d206-7d40-4df1-8c88-1b3c9c78821e
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # MACHINE_INFO_FIELDS
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies what kind of information to retrieve for a particular machine.
 
 ## Syntax

@@ -1,17 +1,13 @@
 ---
-title: "Change Log (Visual Studio Tools for Unity, Mac) | Microsoft Docs"
+title: "Change Log (Visual Studio Tools for Unity, Mac)"
 description: View the change log for Visual Studio Tools for Unity, Mac. See changes from version 1.0.0.0 through 2.7.0.0 and beyond.
-
 ms.date: "12/13/2022"
-ms.technology: vs-unity-tools
-ms.prod: visual-studio
+ms.subservice: unity-tools
+ms.service: visual-studio
 ms.topic: "conceptual"
-ms.assetid: 33a6ac54-d997-4308-b5a0-af7387460849
 author: therealjohn
 ms.author: johmil
 manager: crdun
-ms.workload:
-  - "unity"
 ---
 # Change Log (Visual Studio Tools for Unity, Mac)
 
@@ -73,7 +69,7 @@ Released October 11, 2022
 
   - Fixed case where async communication completed synchronously.
 
-  - Fixed running the fast build on the the Threadpool. 
+  - Fixed running the fast build on the Threadpool. 
 
 ## 17.4.1.0
 Released September 14, 2022

@@ -1,18 +1,15 @@
 ---
-title: Create a Git repo
-description: Create a repo in Visual Studio by using Git, or browse to an Azure DevOps repo.
+title: Create a Git repo or work remotely with a provider
+description: Create a repo in Visual Studio by using Git, browse to an Azure DevOps repo, or work remotely with the Git provider of your choice.
 ms.date: 03/17/2023
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 ms.manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
-ms.custom: version-control
+
+ms.subservice: general-ide
 ---
 # Create a Git repository from Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio makes it easy to create a repo right from the IDE. Repository creation from Visual Studio is optimized for GitHub, but you can work remotely with the Git provider of your choice.  Here's how.
 
@@ -65,11 +62,8 @@ After you’ve created a repo or [cloned one](git-clone-repository.md), Visual S
 
 1. Select the **Create and Push** button to create your repo and add your app.
 
-## Next steps
+## Related content
 
-To continue your journey, visit the [Create a branch](git-create-branch.md) page.
-
-## See also
-
+- [Create a branch](git-create-branch.md)
 - [Tutorial: Open a project from a repo](../get-started/tutorial-open-project-from-repo.md)
 - [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md)

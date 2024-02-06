@@ -1,22 +1,18 @@
 ---
-title: "Spy++ Views | Microsoft Docs"
+title: "Spy++ Views"
 description: Learn about views in the Spy++ debugging tool. Spy ++ displays tree views of the windows, messages, processes, and threads available on your computer.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "views, Spy++"
   - "Spy++, views"
-ms.assetid: c60867af-f814-4fac-8f06-3c39cbefc7ea
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Spy++ Views
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Spy ++ displays tree views of the windows, messages, processes, and threads available on your machine.
 
 ## In This Section

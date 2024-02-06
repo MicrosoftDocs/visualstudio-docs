@@ -1,5 +1,5 @@
 ---
-title: Find Which DLL Your Program Crashed In | Microsoft Docs
+title: Find Which DLL Your Program Crashed In
 description: Use the Modules window to identify which external DLL was active when your application crashed. You can do this for a system DLL, or for someone else's code.   
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -17,17 +17,12 @@ helpviewer_keywords:
   - Modules window
   - debugging [Visual Studio], DLL crashes
   - DLLs, load order of
-ms.assetid: ecf62568-8b65-4a41-b8a4-e962ff2dfb71
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
-# How to: Find Which DLL Your Program Crashed In (C#, C++, Visual Basic, F#)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Find Which DLL Your Program Crashed In (C#, C++, Visual Basic, F#)
 
  If your application crashes during a call to a system DLL or someone else's code, you need to find out which DLL was active when the crash occurred. If you experience a crash in a DLL outside your own program, you can identify the location using the **Modules** window.
 
@@ -47,6 +42,6 @@ ms.workload:
 
 6. Look at the **Name** and **Path** columns to see the DLL name and path.
 
-## See also
+## Related content
 - [Debugging DLL Projects](../debugger/debugging-dll-projects.md)
 - [How to: Use the Modules Window](../debugger/how-to-use-the-modules-window.md)

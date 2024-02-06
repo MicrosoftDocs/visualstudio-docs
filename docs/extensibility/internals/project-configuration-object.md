@@ -1,22 +1,18 @@
 ---
-title: Project Configuration Object | Microsoft Docs
+title: Project Configuration Object
 description: Learn how the project configuration object manages the display of configuration information to the UI.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - project configurations, object
 - objects, project configuration
-ms.assetid: 877756c9-4261-43d9-9f32-51bf06b4219f
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Project Configuration Object
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The project configuration object manages the display of configuration information to the UI.
 
  ![Visual Studio Project Configuration](../../extensibility/internals/media/vsprojectcfg.gif "vsProjectCfg")

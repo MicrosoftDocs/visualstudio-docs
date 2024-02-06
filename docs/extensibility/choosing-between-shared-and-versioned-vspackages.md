@@ -1,5 +1,5 @@
 ---
-title: Choosing Between Shared and Versioned VSPackages | Microsoft Docs
+title: Choosing Between Shared and Versioned VSPackages
 description: Learn about side-by-side installations of VSPackages through shared or versioned strategies, with multiple versions of Visual Studio and of the .NET Framework.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,17 +7,13 @@ helpviewer_keywords:
 - SxS
 - side-by-side installation
 - installation [Visual Studio SDK], side-by-side
-ms.assetid: e3128ac3-2e92-48e9-87ab-3b6c9d80e8c9
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Choose between shared and versioned VSPackages
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Different versions of Visual Studio can coexist on the same computer. VSPackages can support any mix of Visual Studio versions.
 
  You can enable side-by-side installations of VSPackages through either of two strategies, the shared strategy or the versioned strategy. Both accommodate the presence of multiple versions of Visual Studio and associated versions of the .NET Framework.
@@ -59,6 +55,6 @@ Different versions of Visual Studio can coexist on the same computer. VSPackages
 
   In addition to planning for binary compatibility for your VSPackage binaries, you also should consider solution and project file formats. If your VSPackage creates a new project type, you must decide whether it can run in just one version or in multiple versions of Visual Studio. For more information, see [Upgrading custom projects](../extensibility/internals/upgrading-projects.md#upgrading-custom-projects).
 
-## See also
+## Related content
 - [Installing VSPackages with Windows Installer](../extensibility/internals/installing-vspackages-with-windows-installer.md)
 - [Component management](../extensibility/internals/component-management.md)

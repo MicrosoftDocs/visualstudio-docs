@@ -15,17 +15,12 @@ helpviewer_keywords:
 - ProjectConfig Devenv switch (/ProjectConfig)
 - projects [Visual Studio], build configuration
 - projects [Visual Studio], cleaning
-ms.assetid: 6b54ef59-ffed-4f62-a645-1279ede97ebf
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # /ProjectConfig (devenv.exe)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Specifies a project build configuration to be applied when you build, clean, rebuild, or deploy the project named in the `/Project` argument.
 

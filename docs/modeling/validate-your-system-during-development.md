@@ -8,13 +8,9 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+ms.subservice: modeling
 ---
 # Validate your system during development
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio can help keep your software consistent with user requirements and with the architecture of your system.
 
@@ -33,7 +29,7 @@ Use the following tasks to validate your software:
 
 **Forums** - [Visual Studio Visualization & Modeling Tools](https://social.msdn.microsoft.com/Forums/en-US/home?forum=vsarch)<br />- [Visual Studio extensibility](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=vsx)
 
-## See also
+## Related content
 
 - [Model user requirements](../modeling/model-user-requirements.md)
 - [Analyze and model architecture](../modeling/analyze-and-model-your-architecture.md)

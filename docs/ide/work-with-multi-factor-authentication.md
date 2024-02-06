@@ -3,18 +3,14 @@ title: Multi-factor authentication with Visual Studio sign-ins
 titleSuffix: "" 
 ms.date: 08/24/2023
 ms.topic: how-to
-description: "Learn how to use Visual Studio with accounts that require multi-factor authentication (MFA)."
+description: Use Visual Studio with accounts that require multifactor authentication (MFA) to protect your apps and data with conditional access policies.
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 
 # Sign in to Visual Studio with accounts that require multi-factor authentication (MFA)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this article, you'll learn how to use Visual Studio with accounts that require multi-factor authentication (MFA).
 
@@ -119,12 +115,12 @@ You'll be able de-select any directories that you don't want to reauthenticate a
 
 If you're experiencing CA/MFA issues and/or are unable to log in even when using the system web browser, try the following steps to resolve the issue:
 
-1. [Sign out](signing-in-to-visual-studio.md#sign-out-of-account) of the account in Visual Studio.
+1. Sign out of the account in Visual Studio.
 1. Select **Tools** > **Options** > **Accounts** > Uncheck **Authenticate across all Azure Active Directories**.
 1. Sign in again.
 
 > [!NOTE]
-> After these steps you'll likely be able to log in, but your account will be put in a filtered state. While in a filtered state, only your account's default tenant and resources will be available. All other Azure Active Directory tenants and resources will become inaccessible, but you can [manually add them back](#how-to-opt-out-of-using-a-specific-azure-active-directory-tenant-in-visual-studio).
+> After these steps you'll likely be able to log in, but your account will be put in a filtered state. While in a filtered state, only your account's default tenant and resources will be available. All other Microsoft Entra tenants and resources will become inaccessible, but you can [manually add them back](#how-to-opt-out-of-using-a-specific-azure-active-directory-tenant-in-visual-studio).
 
 ### Pre-authorization issues
 
@@ -132,7 +128,7 @@ If you're experiencing CA/MFA issues and/or are unable to log in even when using
 
 Starting with Visual Studio 2022 version 17.5, if you see the previous error dialog, try the following steps to resolve the issue:
 
-1. [Sign out](signing-in-to-visual-studio.md#sign-out-of-account) of the account in Visual Studio.
+1. Sign out of the account in Visual Studio.
 1. Sign in again.
 1. Create a new [Report a Problem](https://developercommunity.visualstudio.com/VisualStudio/report) ticket explaining the activity you were doing and/or resource you were trying to access before encountering the problem.
 
@@ -151,7 +147,9 @@ Starting with Visual Studio 2022 version 17.5, if you see the previous error dia
 1. After setting the user variable, open Visual Studio from the Developer Command Prompt: ```devenv```.
 1. Sign in again.
 
-## How to opt out of using a specific Azure Active Directory tenant in Visual Studio
+<a name='how-to-opt-out-of-using-a-specific-azure-active-directory-tenant-in-visual-studio'></a>
+
+## How to opt out of using a specific Microsoft Entra tenant in Visual Studio
 
 Visual Studio 2019 version 16.6 and above offers the flexibility to filter out tenants individually or globally, effectively hiding them from Visual Studio. Filtering eliminates the need to authenticate with that tenant, but it also means that you won't be able to access any associated resources.
 
@@ -177,7 +175,7 @@ After you deselect the tenant to filter, the **Account Settings** and the **Filt
 
 :::image type="content" source="media/vs-2022/account-settings-filter-account-dialogs-tenants-filtered-out-state.png" alt-text="Screenshot showing the filtered tenant state on the Account Settings and the Filter Account dialogs":::
 
-## See also
+## Related content
 
 - [Sign in to Visual Studio](signing-in-to-visual-studio.md)
 - [Sign in to Visual Studio for Mac](/visualstudio/mac/signing-in)

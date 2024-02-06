@@ -1,26 +1,22 @@
 ---
 description: "Gets the properties that describe this thread."
-title: IDebugThread2::GetThreadProperties | Microsoft Docs
+title: IDebugThread2::GetThreadProperties
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugThread2::GetThreadProperties
 helpviewer_keywords:
 - IDebugThread2::GetThreadProperties
-ms.assetid: 304403fd-f4f8-4096-ac2c-bd3b59663aad
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugThread2::GetThreadProperties
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the properties that describe this thread.
 
 ## Syntax

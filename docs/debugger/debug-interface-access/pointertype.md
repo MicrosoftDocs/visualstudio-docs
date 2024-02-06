@@ -1,23 +1,19 @@
 ---
 description: "Each pointer is identified by a SymTagPointerType symbol."
-title: "PointerType | Microsoft Docs"
+title: "PointerType"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "PointerType symbol"
-ms.assetid: 67228681-7345-4537-8af3-93806803ee96
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # PointerType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Each pointer is identified by a `SymTagPointerType` symbol.
 
 ## Properties

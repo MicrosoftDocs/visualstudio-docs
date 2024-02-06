@@ -1,26 +1,22 @@
 ---
 description: "This structure represents the address of a method of a class."
-title: METADATA_ADDRESS_METHOD | Microsoft Docs
+title: METADATA_ADDRESS_METHOD
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - METADATA_ADDRESS_METHOD
 helpviewer_keywords:
 - METADATA_ADDRESS_METHOD structure
-ms.assetid: fc0e5370-1b4f-4867-837f-0d63c4b9dd09
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # METADATA_ADDRESS_METHOD
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This structure represents the address of a method of a class.
 
 ## Syntax

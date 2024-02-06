@@ -1,5 +1,5 @@
 ---
-title: "How to: Add a Custom Property | Microsoft Docs"
+title: "Add a Custom Property"
 description: Learn how to add a custom property to the Business Data Connectivity (BDC) model in SharePoint, using the Property Editor in Visual Studio's BDC Explorer.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -16,13 +16,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+ms.subservice: sharepoint-development
 ---
-# How to: Add a custom property
+# Add a custom property
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can add custom properties to the model by using the **Property Editor**. You can access these properties in code to retrieve information such as connection strings and other data at run time.
 
 ### To add a custom property
@@ -41,7 +38,7 @@ ms.workload:
 
 6. For the **Value** field of the custom property, specify a value, and then choose the **OK** button.
 
-## See also
+## Related content
 - [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)
 - [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)
 - [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md)

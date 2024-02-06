@@ -1,6 +1,6 @@
 ---
 title: Uncommitted edits
-description: Commit in-process edits on data-bound Windows Forms controls before saving data. Call EndEdit for all BindingSource components on a form.
+description: Commit in-process edits on data-bound Windows Forms controls before saving data in ADO.NET applications. Call EndEdit for all BindingSource components on a form.
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -13,17 +13,12 @@ helpviewer_keywords:
 - hierarchical update, committing edited records
 - BindingSource class, committing edited records
 - EndEdit method
-ms.assetid: 61af4798-eef7-468c-b229-5e1497febb2f
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
 # Commit in-process edits on data-bound controls before saving data
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -58,7 +53,7 @@ The following code uses a [LINQ (Language-Integrated Query)](/dotnet/csharp/linq
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VSProDataOrcasEndEditOnAll/VB/Form1.vb" id="Snippet2":::
      ---
 
-## See also
+## Related content
 
 - [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)
 - [Hierarchical update](../data-tools/hierarchical-update.md)

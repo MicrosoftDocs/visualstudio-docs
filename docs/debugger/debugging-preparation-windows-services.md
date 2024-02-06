@@ -1,7 +1,6 @@
 ---
-title: "Prepare to debug Windows services | Microsoft Docs"
+title: "Prepare to debug Windows services"
 description: Prepare to debug Windows services, which are programs that run in the background under Windows, in Visual Studio.
-
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -12,20 +11,16 @@ dev_langs:
 helpviewer_keywords:
   - "debugging [Visual Studio], Windows services"
   - "Windows Service applications, debugging"
-ms.assetid: ac0a99f7-ec3d-4a20-b17f-698a817fdcc2
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Debugging Preparation: Windows Services
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A Windows service is a program that runs in the background under Microsoft Windows. Examples include the Telnet service and the Windows time service, which updates your computer's visible clock. A Windows service cannot be run from within Visual Studio; it must run within the context of the Services Control Manager. For more information, see [Creating Windows Services](/dotnet/framework/windows-services/how-to-create-windows-services), [Debugging Windows Service Applications](/dotnet/framework/windows-services/how-to-debug-windows-service-applications), and [Windows Service Applications](/dotnet/framework/windows-services/index).
 
-## See also
+## Related content
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)
 - [Managed debugging: Recommended project settings](../debugger/managed-debugging-recommended-property-settings.md)
 - [Project Settings for  C# Debug Configurations](../debugger/project-settings-for-csharp-debug-configurations.md)

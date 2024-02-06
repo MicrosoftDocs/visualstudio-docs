@@ -1,23 +1,19 @@
 ---
-title: Extend the build process
-description: Learn various ways to modify the build process so that you can control and customize how your projects build.
-
+title: Extend and customize the build process
+description: Explore several ways you can modify the build process so you can control and customize how your projects build, including overriding properties.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, overriding predefined targets
 - MSBuild, overriding DependsOn properties
 - MSBuild, extending Visual Studio builds
 - MSBuild, DependsOn properties
-ms.assetid: cb077613-4a59-41b7-96ec-d8516689163c
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
-# How to: Extend the Visual Studio build process
+# Extend the Visual Studio build process
 
 The Visual Studio build process is defined by a series of MSBuild *.targets* files that are imported into your project file. One of these imported files, *Microsoft.Common.targets*, can be extended to allow you to run custom tasks at several points in the build process. This article explains two methods you can use to extend the Visual Studio build process:
 
@@ -217,7 +213,7 @@ In this example, this is an SDK-style project. As mentioned in the note about SD
 
 The order of elements is important. The `BuildDependsOn` and `CleanDependsOn` elements must appear after importing the standard SDK targets file.
 
-## See also
+## Related content
 
 - [Visual Studio integration](../msbuild/visual-studio-integration-msbuild.md)
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)

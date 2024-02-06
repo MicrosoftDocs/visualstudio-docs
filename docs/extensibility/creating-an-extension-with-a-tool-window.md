@@ -1,25 +1,16 @@
 ---
-title: Creating an Extension with a Tool Window | Microsoft Docs
-description: Learn how to use the VSIX project template and the Custom Tool Window item template to create an extension with a tool window.
+title: Creating an Extension with a Tool Window
+description: Use the VSIX project template and the Custom Tool Window item template to create an extension with a tool window in Visual Studio.
 ms.date: 3/16/2019
 ms.topic: how-to
-ms.assetid: 585b0a3a-f85b-4f92-81bb-9ca499bb8a89
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Create an extension with a tool window
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 In this procedure, you learn how to use the VSIX project template and the **Custom Tool Window** item template to create an extension with a tool window.
-
-## Prerequisites
-
- Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ### Create a tool window
 

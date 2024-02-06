@@ -5,9 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 04/27/2022
-ms.custom: devdivchpfy22
-ms.technology: vs-ide-install
-ms.assetid: 4EB95F75-BC2E-4982-9564-2975805712D8
+ms.subservice: install
 ms.topic: how-to
 ---
 # Uninstall Visual Studio for Mac 
@@ -17,9 +15,6 @@ ms.topic: how-to
 You can use this guide to uninstall each component in Visual Studio for Mac individually by navigating to the relevant section. We recommend you use the scripts provided in the [Uninstall scripts](#uninstall-scripts) section to uninstall everything.
 
 This article is for Visual Studio for Mac. If you're looking for info on VS Code, see [Visual Studio Code set-up](https://code.visualstudio.com/docs/setup/setup-overview).
-
-> [!NOTE]
-> We'd like to learn more about why you're uninstalling Visual Studio for Mac so we can make it better. If you have a few minutes, [please share your feedback](https://aka.ms/vs/mac/uninstallsurvey). Thank you!
 
 ## Uninstall scripts
 
@@ -86,7 +81,6 @@ If you prefer to remove Visual Studio for Mac and its dependencies manually (ins
 
 The first step in uninstalling Visual Studio from a Mac is to locate **Visual Studio** app in the **Applications** directory and drag it to **Trash**. Alternatively, control-click and select **Move to Trash** as illustrated in the following image:
 
-
 ::: moniker range="vsmac-2022"
 
 :::image type="content" source="media/vsmac-2022/move-vsmac-application-to-trash.png" alt-text="Screenshot showing how to uninstall Visual Studio for Mac application.":::
@@ -96,7 +90,6 @@ The first step in uninstalling Visual Studio from a Mac is to locate **Visual St
 Deleting this app bundle removes Visual Studio for Mac, but there may still be other files such as Xamarin SDKs, .NET SDKs, or iOS development tools on the file system.
 
 To remove all traces of Visual Studio for Mac, run the following commands in Terminal:
-
 
 ::: moniker range="vsmac-2022"
 

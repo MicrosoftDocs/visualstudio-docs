@@ -1,23 +1,19 @@
 ---
 description: "Sets image headers to enable relative virtual address translation."
-title: "IDiaAddressMap::set_imageHeaders | Microsoft Docs"
+title: "IDiaAddressMap::set_imageHeaders"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaAddressMap::set_imageHeaders method"
-ms.assetid: a46b9d0e-43e6-433f-b2c7-aa203981e4e4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaAddressMap::set_imageHeaders
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets image headers to enable relative virtual address translation.
 
 ## Syntax

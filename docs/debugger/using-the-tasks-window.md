@@ -1,5 +1,5 @@
 ---
-title: "Using the Tasks Window | Microsoft Docs"
+title: Use the Tasks Window to view concurrent operations
 description: Tasks are asynchronous operations that can run concurrently. Multiple tasks can run on the same thread. Use Tasks to view task and WinJS.Promise object information.
 ms.date: "05/30/2023"
 ms.topic: "conceptual"
@@ -12,17 +12,12 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "debugger, parallel tasks window"
-ms.assetid: bd5e0612-a0dc-41cf-a7af-1e87d0d5c35f
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Using the Tasks Window (C#, Visual Basic, C++)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Tasks** window resembles the **Threads** window, except that it shows information about <xref:System.Threading.Tasks.Task?displayProperty=fullName> or [task_handle](/cpp/parallel/concrt/reference/task-group-class) objects instead of each thread. Like threads, tasks represent asynchronous operations that can run concurrently; however, multiple tasks may run on the same thread.
 
@@ -113,7 +108,7 @@ The columns in the **Tasks** window show the following information.
 
 The **Switch to Task** command makes the current task the active task. The **Switch to Frame** command makes the selected stack frame the active stack frame. The debugger context switches to the current task or the selected stack frame.
 
-## See also
+## Related content
 
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)

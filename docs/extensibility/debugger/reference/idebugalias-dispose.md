@@ -1,26 +1,22 @@
 ---
 description: "Marks this alias for removal."
-title: IDebugAlias::Dispose | Microsoft Docs
+title: IDebugAlias::Dispose
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugAlias::Dispose
 helpviewer_keywords:
 - IDebugAlias::Dispose method
-ms.assetid: e84909a4-d378-4f48-bf25-2c014c77c8e3
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugAlias::Dispose
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Marks this alias for removal.
 
 ## Syntax

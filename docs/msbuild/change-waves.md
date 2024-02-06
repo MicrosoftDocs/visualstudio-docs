@@ -1,17 +1,15 @@
 ---
 title: Change waves
 description: Learn how to enable or disable features in MSBuild that are potentially disruptive.
-ms.date: 09/26/2022
-ms.topic: conceptual
+ms.date: 11/01/2023
+ms.topic: whats-new
 helpviewer_keywords:
 - Change waves [MSBuild]
 - MSBuildDisableFeaturesFromVersion environment variable
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # Change waves
 
@@ -37,7 +35,26 @@ You will receive a warning and/or default to a specific wave if you don't set `M
 
 ## Change waves and associated features
 
-The links in the list below go to the GitHub PR for the feature.
+### 17.10
+
+- [AppDomain configuration is serialized without using BinFmt](https://github.com/dotnet/msbuild/pull/9320) - feature can be opted out only if [BinaryFormatter](/dotnet/api/system.runtime.serialization.formatters.binary.binaryformatter) is allowed at runtime by editing `MSBuild.runtimeconfig.json`
+- [Cache SDK resolver data process-wide](https://github.com/dotnet/msbuild/pull/9335)
+
+### 17.8
+
+- [[RAR] Don't do I/O on SDK-provided references](https://github.com/dotnet/msbuild/pull/8688)
+- [Delete destination file before copy](https://github.com/dotnet/msbuild/pull/8685)
+- [Moving from SHA1 to SHA256 for Hash task](https://github.com/dotnet/msbuild/pull/8812)
+- [Deprecating custom derived BuildEventArgs](https://github.com/dotnet/msbuild/pull/8917) - feature can be opted out only if [BinaryFormatter](/dotnet/api/system.runtime.serialization.formatters.binary.binaryformatter) is allowed at runtime by editing `MSBuild.runtimeconfig.json`
+
+### 17.6
+
+- [Parse invalid property under target](https://github.com/dotnet/msbuild/pull/8190)
+- [Eliminate project string cache](https://github.com/dotnet/msbuild/pull/7965)
+- [Log an error when no provided search path for an import exists](https://github.com/dotnet/msbuild/pull/8095)
+- [Log assembly loads](https://github.com/dotnet/msbuild/pull/8316)
+- [AnyHaveMetadataValue returns false when passed an empty list](https://github.com/dotnet/msbuild/pull/8603)
+- [Log item self-expansion](https://github.com/dotnet/msbuild/pull/8581)
 
 ### 17.4
 
@@ -91,7 +108,7 @@ There are scenarios where we want to place a feature under a change wave before 
 
 Opt-out is a better approach for us, otherwise we'd likely get limited feedback when a feature impacts customer builds.
 
-## See also
+## Related content
 
 - [MSBuild](msbuild.md)
 - [What's new in MSBuild 16](whats-new-msbuild-16-0.md)

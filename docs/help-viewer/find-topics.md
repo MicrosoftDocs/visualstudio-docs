@@ -3,18 +3,12 @@ title: Search for topics (Help Viewer)
 description: Learn how to search for topics in the Microsoft Help Viewer. Customize searches by using wildcard expressions, logical operators, and advanced search operators.
 ms.date: 05/17/2022
 ms.topic: how-to
-ms.assetid: 683f1b0c-1551-4bba-91fe-3855f03fdd69
 author: jasonchlus
 ms.author: jasonchlus
 manager: jmartens
-ms.technology: vs-help-viewer
-ms.custom: kr2b-contr-experiment
-ms.workload:
-  - "multiple"
+ms.subservice: help-viewer
 ---
-# How to: Search for topics in Help Viewer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Search for topics in Help Viewer
 
 You can use the full-text search feature of Microsoft Help Viewer to locate all topics that contain a particular word. You can also refine and customize your search by using wildcard expressions, logical operators, and advanced search operators.
 

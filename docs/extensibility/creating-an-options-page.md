@@ -1,31 +1,22 @@
 ---
-title: Creating an Options Page | Microsoft Docs
+title: Creating an Options Page
 description: Learn how to create a simple Tools/Options page that uses a property grid to examine and set properties.
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:
 - Tools Options pages [Visual Studio SDK], creating
-ms.assetid: 9f4e210c-4b47-4daa-91fa-1c301c4587f9
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Create an options page
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This walkthrough creates a simple Tools/Options page that uses a property grid to examine and set properties.
 
  To save these properties to and restore them from a settings file, follow these steps, and then see [Create a settings category](../extensibility/creating-a-settings-category.md).
 
  The MPF provides two classes to help you create Tools Options pages, the <xref:Microsoft.VisualStudio.Shell.Package> class and the <xref:Microsoft.VisualStudio.Shell.DialogPage> class. You create a VSPackage to provide a container for these pages by subclassing the `Package` class. You create each tools options page by deriving from the `DialogPage` class.
-
-## Prerequisites
-
- Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ## Create a Tools Options grid page
 
@@ -287,6 +278,6 @@ In this section, you'll add a Command and an event for the button to open the op
 
 - [Opening an Options Page](/previous-versions/cc826083(v=vs.140))
 
-## See also
+## Related content
 
 - [Options and options pages](../extensibility/internals/options-and-options-pages.md)

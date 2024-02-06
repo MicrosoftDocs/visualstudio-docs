@@ -1,26 +1,22 @@
 ---
 description: "Describes a stack frame."
-title: FRAMEINFO | Microsoft Docs
+title: FRAMEINFO
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - FRAMEINFO
 helpviewer_keywords:
 - FRAMEINFO structure
-ms.assetid: 95001b89-dddb-45bb-889d-8327994e38a5
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # FRAMEINFO
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes a stack frame.
 
 ## Syntax

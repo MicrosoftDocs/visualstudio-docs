@@ -3,18 +3,12 @@ title: Override Help Viewer defaults
 description: Learn about Help Content Manager overrides, which change the default behavior of Help Viewer and help-related features in the Visual Studio IDE.
 ms.date: 05/17/2022
 ms.topic: conceptual
-ms.assetid: 95fe6396-276b-4ee5-b03d-faacec42765f
-author: jasonchlus
-ms.author: jasonchlus
+author: ghogen
+ms.author: ghogen
 manager: jmartens
-ms.technology: vs-help-viewer
-ms.custom: kr2b-contr-experiment
-ms.workload:
-  - "multiple"
+ms.subservice: help-viewer
 ---
 # Override Help Viewer defaults
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can change the default behavior of Microsoft Help Viewer and help-related features in the Visual Studio IDE.
 
@@ -85,7 +79,7 @@ You can control the following types of behavior by setting registry key values i
 |Override BITS job priority|HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node (on a 64-bit machine)\Microsoft\Help\v2.3|BITSPriority|**foreground**, **high**, **normal**, or **low**|
 |Point to local content store on network share|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Help\ v2.3\Catalogs\VisualStudio15|LocationPath|*ContentStoreNetworkShare*|
 
-## See also
+## Related content
 
 - [Help Viewer administrator guide](../help-viewer/administrator-guide.md)
 - [Command-line arguments for the Help Content Manager](../help-viewer/command-line-arguments.md)

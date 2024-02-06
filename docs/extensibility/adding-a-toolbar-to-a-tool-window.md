@@ -1,22 +1,18 @@
 ---
-title: Adding a Toolbar to a Tool Window | Microsoft Docs
+title: Adding a Toolbar to a Tool Window
 description: Learn how to add a toolbar containing buttons that are bound to commands to a tool window in the Visual Studio integrated development environment (IDE).
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - tool windows, adding toolbars
 - toolbars [Visual Studio], adding to tool windows
-ms.assetid: 172f64b3-87f8-4292-9c1c-65bffa2b0970
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Add a toolbar to a tool window
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This walkthrough shows how to add a toolbar to a tool window.
 
  A toolbar is a horizontal or vertical strip that contains buttons bound to commands. The length of a toolbar in a tool window is always the same as the width or height of the tool window, depending on where the toolbar is docked.
@@ -24,9 +20,6 @@ This walkthrough shows how to add a toolbar to a tool window.
  Unlike toolbars in the IDE, a toolbar in a tool window must be docked and cannot be moved or customized. If the VSPackage is written in umanaged code, the toolbar can be docked on any edge.
 
  For more information about how to add a toolbar, see [Adding a toolbar](../extensibility/adding-a-toolbar.md).
-
-## Prerequisites
- Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ## Create a toolbar for a tool window
 
@@ -111,5 +104,5 @@ This walkthrough shows how to add a toolbar to a tool window.
 
 3. On the toolbar, click the icon to display the message **TWTestCommandPackage Inside TWToolbar.TWTestCommand.MenuItemCallback()**.
 
-## See also
+## Related content
 - [Add a toolbar](../extensibility/adding-a-toolbar.md)

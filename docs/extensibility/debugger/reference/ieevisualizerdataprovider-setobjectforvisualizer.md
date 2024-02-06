@@ -1,26 +1,22 @@
 ---
 description: "This method changes the object that the visualizer represents."
-title: IEEVisualizerDataProvider::SetObjectForVisualizer | Microsoft Docs
+title: IEEVisualizerDataProvider::SetObjectForVisualizer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEEVisualizerDataProvider::SetObjectForVisualizer
 helpviewer_keywords:
 - IEEVisualizerDataProvider::SetObjectForVisualizer method
-ms.assetid: 40dad2be-57ff-4f74-9d82-c48039c125c4
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEEVisualizerDataProvider::SetObjectForVisualizer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method changes the object that the visualizer represents.
 
 ## Syntax

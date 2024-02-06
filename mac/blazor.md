@@ -5,8 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 08/31/2020
-ms.technology: vs-ide-general
-ms.assetid: D2717D3A-9225-40A8-8155-7D0143B2CA60
+ms.subservice: ide
 no-loc: [Blazor, "Blazor WebAssembly"]
 ms.topic: how-to
 ---

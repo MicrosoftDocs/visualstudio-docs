@@ -1,26 +1,22 @@
 ---
 description: "This method returns a GUID representing the language of this process as set by a call to SetHostingProcessLanguage."
-title: IDebugProcess3::GetHostingProcessLanguage | Microsoft Docs
+title: IDebugProcess3::GetHostingProcessLanguage
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProcess3::GetHostingProcessLanguage
 helpviewer_keywords:
 - IDebugProcess3::GetHostingProcessLanguage
-ms.assetid: 52fca002-a9ef-43b1-9192-afbe7bb59ad4
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProcess3::GetHostingProcessLanguage
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method returns a `GUID` representing the language of this process as set by a call to [SetHostingProcessLanguage](../../../extensibility/debugger/reference/idebugprocess3-sethostingprocesslanguage.md).
 
 ## Syntax

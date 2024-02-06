@@ -1,6 +1,6 @@
 ---
-title: Enable debugging and diagnostics with Source Link | Microsoft Docs
-description: Learn how to enable Source Link in your .NET project to improve debugging and diagnostics.
+title: Enable debugging and diagnostics with Source Link
+description: Enable Source Link in your .NET project to improve debugging and diagnostics, where the debugger downloads underlying source files as you step into sections of code.
 ms.date: 08/09/2022
 ms.topic: how-to
 dev_langs: 
@@ -8,15 +8,12 @@ dev_langs:
   - VB
 helpviewer_keywords: 
   - source link, debugging, diagnostics
-ms.assetid: 82DD2220-60A6-4D08-A0C9-E7955744A345
 author: poppastring
 ms.author: madownie
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
 
-# How to: Enable debugging and diagnostics with Source Link
+# Enable debugging and diagnostics with Source Link
 
 Source Link is a technology that enables first-class source debugging experiences for binaries. With Source Link-enabled libraries, the debugger can [download the underlying source files](https://devblogs.microsoft.com/dotnet/improving-debug-time-productivity-with-source-link/) as you step in, and you can set breakpoints/tracepoints like you would with any other source. It also enables analysis tools to easily find the correct source code when debugging production environments like Azure.
 
@@ -67,7 +64,7 @@ Source Link packages are available for multiple source control providers:
 - [GitLab](https://github.com/dotnet/sourcelink#gitlab)
 - [Bitbucket](https://github.com/dotnet/sourcelink#bitbucket)
 
-## See also
+## Related content
 - [Source Link](/dotnet/standard/library-guidance/sourcelink)
 - [Specify symbol (.pdb) and source files in the debugger](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
 - [Improving Debug-time Productivity with Source Link](https://devblogs.microsoft.com/dotnet/improving-debug-time-productivity-with-source-link/)

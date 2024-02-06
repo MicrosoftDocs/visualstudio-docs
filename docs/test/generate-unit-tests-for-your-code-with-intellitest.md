@@ -1,20 +1,16 @@
 ---
 title: Generate unit tests for your code with IntelliTest
 description: IntelliTest explores your .NET code to generate test data and a suite of unit tests. Learn how to run IntelliTest to generate smart fuzz tests that cover all your logic branches, see which tests are failing, and fix them. 
-ms.date: 04/21/2023
+ms.date: 12/04/2023
 ms.topic: conceptual
 f1_keywords:
 - vs.UnitTest.CreateIntelliTest
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
-ms.workload:
-- multiple
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Generate unit tests for fuzz testing by using IntelliTest
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 IntelliTest explores your .NET code to generate test data and a suite of unit tests. For every statement in the code, a test input is generated that will execute that statement. A case analysis is performed for every conditional branch in the code. For example, `if` statements, assertions, and all operations that can throw exceptions are analyzed. This analysis is used to generate test data for a parameterized unit test for each of your methods, creating unit tests with high code coverage. Think of it as smart fuzz testing that trims down the inputs and test cases to what executes all your logic branches and checks for exceptions.
 
@@ -27,6 +23,10 @@ The **Create IntelliTest** and **Run IntelliTest** menu commands:
 * Are available only in the Enterprise Edition of Visual Studio.
 
 * Support only C# code that targets the .NET Framework.
+
+  > [!NOTE]
+  > For .NET 6 support with IntelliTest, you can install the Preview version of Visual Studio Enterprise and see the [announcement
+](https://devblogs.microsoft.com/visualstudio/intellitest-simplifies-writing-and-maintaining-unit-tests/).
 
 * Are [extensible](#extend-framework) and support emitting tests in MSTest, MSTest V2, NUnit, and xUnit format.
 

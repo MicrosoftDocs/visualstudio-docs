@@ -1,26 +1,22 @@
 ---
 description: "Describes the location of a code breakpoint."
-title: BP_RESOLUTION_CODE | Microsoft Docs
+title: BP_RESOLUTION_CODE
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - BP_RESOLUTION_CODE
 helpviewer_keywords:
 - BP_RESOLUTION_CODE structure
-ms.assetid: ac103ec5-771c-4667-92de-b5abb53bbb52
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # BP_RESOLUTION_CODE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the location of a code breakpoint.
 
 ## Syntax

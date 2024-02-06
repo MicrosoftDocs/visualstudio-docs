@@ -1,26 +1,22 @@
 ---
 description: "Creates a pending breakpoint in the debug engine (DE)."
-title: IDebugEngine2::CreatePendingBreakpoint | Microsoft Docs
+title: IDebugEngine2::CreatePendingBreakpoint
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEngine2::CreatePendingBreakpoint
 helpviewer_keywords:
 - IDebugEngine2::CreatePendingBreakpoint
-ms.assetid: 92e85b90-a931-48d9-89a7-a6edcb83ae5a
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugEngine2::CreatePendingBreakpoint
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates a pending breakpoint in the debug engine (DE).
 
 ## Syntax

@@ -1,30 +1,22 @@
 ---
-title: Creating a Settings Category | Microsoft Docs
+title: Creating a Settings Category
 description: Learn how to create a Visual Studio settings category and use it to save and restore values from a settings file.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - profile settings, creating categories
-ms.assetid: 97c88693-05ff-499e-8c43-352ee073dcb7
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Create a settings category
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this walkthrough you create a Visual Studio settings category and use it to save values to and restore values from a settings file. A settings category is a group of related properties that appear as a "custom settings point"; that is, as a check box in the **Import and Exports Settings** wizard. (You can find it on the **Tools** menu.) Settings are saved or restored as a category, and individual settings are not displayed in the wizard. For more information, see [Environment settings](../ide/environment-settings.md).
 
 You create a settings category by deriving it from the <xref:Microsoft.VisualStudio.Shell.DialogPage> class.
 
 To start this walkthrough, you must first complete the first section of [Create an Options page](../extensibility/creating-an-options-page.md). The resulting Options property grid lets you examine and change the properties in the category. After you save the property category in a settings file, you examine the file to see how the property values are stored.
-
-## Prerequisites
- Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ## Create a settings category
  In this section, you use a custom settings point to save and restore the values of the settings category.

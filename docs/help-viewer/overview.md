@@ -1,6 +1,7 @@
 ---
-title: Offline help documentation
-description: Install and view offline help documentation for various products and technologies, such as Visual Studio and .NET, using Microsoft Help Viewer.
+title: 'What is the offline Help Viewer?'
+titleSuffix: ""
+description: Install and view offline help documentation for various products and technologies such as Visual Studio and .NET with the Microsoft Help Viewer.
 ms.date: 11/02/2017
 ms.topic: conceptual
 f1_keywords:
@@ -14,40 +15,40 @@ helpviewer_keywords:
   - "Help Viewer, window components"
   - "Help Viewer, navigating"
   - "toolbar [Help Viewer]"
-ms.assetid: 74e41666-2ce8-4ac0-a0e5-3723d1e322c2
-author: jasonchlus
-ms.author: jasonchlus
+author: ghogen
+ms.author: ghogen
 manager: jmartens
-ms.technology: vs-help-viewer
-ms.workload:
-  - "multiple"
+ms.subservice: help-viewer
 ---
-# Microsoft Help Viewer
+# What is the Microsoft Help Viewer? 
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+You can use Microsoft Help Viewer to install, view, and manage local documentation installs for Microsoft products and technologies on local computers. These products include Visual Studio, .NET, language reference, SQL Server, and Windows development. 
 
-You can install and view content for various products and technologies on your local computer by using Microsoft Help Viewer. These products include Visual Studio, .NET, language reference, SQL Server, and Windows Development. Help Viewer enables you to:
+With Help Viewer, you, and any users you support, can:
 
-- Download sets of content, which are also referred to as books. This can be useful if you need to work "offline" and still have access to documentation.
+- Download documentation, which are also referred to as books. This is useful when you want to access documentation while working offline. 
 
-- Find topics by title by browsing and searching the table of contents.
+- Search and find topics through the table of contents, book index, or even full-text search. 
 
-- Look up subjects in the index.
+- View, bookmark, and print content.
 
-- Find information by using full-text search.
+## Get started 
 
-- View, bookmark, and print topics.
+To install Help Viewer, see [Microsoft Help Viewer installation](../help-viewer/installation.md). 
 
-To install Help Viewer, see [Microsoft Help Viewer installation](../help-viewer/installation.md). To start reading help topics in the Help Viewer rather than online, go to the **Help** menu in Visual Studio, and then choose **Set Help Preference** > **Launch in Help Viewer**.
+To start reading help topics in the Help Viewer rather than online, go to the **Help** menu in Visual Studio, and then choose **Set Help Preference** > **Launch in Help Viewer**.
 
 > [!TIP]
-> Another way to download content locally so you can view it when you don't have an internet connection is to download a PDF version of it. Many documentation sets on Microsoft Learn include a link at the bottom of the table of contents (TOC) to download a PDF file that contains all the articles for that TOC.
+> Another way to download content locally so you can view it when you don't have an internet connection is to download a PDF version of it. Many documentation sets on Microsoft Learn include a link at the bottom of the table of contents to download a PDF file that contains all the articles for that TOC.
 >
+> Look for this link:
 > ![Download PDF for Visual Studio documentation](media/overview/download-pdf.png)
 
-## Help Viewer tour
+## Tour the Help Viewer window
 
 You can find information in installed content by using the navigation tabs, view installed content in the topic tab or tabs, and manage content by using the **Manage Content** tab. You can also perform additional tasks by using the buttons on the toolbar and find additional information in the lower-right corner of the window.
+
+The following information describes the default setup for Help Viewer. You can also [customize it's layout and settings](../help-viewer/customize.md).
 
 ### Navigation tabs
 
@@ -71,26 +72,27 @@ The content list shows which books you can install or have already installed, wh
 > [!NOTE]
 > The functionality of the **Manage Content** tab may differ if the Help Viewer administrator deactivates these features, or if no internet access is available.
 
+### Keyboard shortcuts
+
+Find the list of keyboard shortcuts in the article, "[Shortcut keys in Help Viewer](shortcut-keys.md)".
+
 ### Toolbar buttons
 
 The toolbar in the **Help Viewer** window contains the following buttons:
 
-- The **Show Topic in Contents** button shows the location of the topic in the **Contents** tab.
+| Toolbar buttons | Descriptions |
+|-----------------|--------------|
+| **Show Topic in Contents**|Shows the location of the topic in the **Contents** tab.|
+| **Add to Favorites**|Adds the active topic to the **Favorites** tab.|
+| **Find in Topic**|Highlights search text in the active topic.|
+| **Print**|Prints or shows a preview of the active topic.|
+| **Viewer Options**|Displays settings such as how large the text appears, how many search results to return, how many topics to show in history, and whether to check for updates online.|
+| **Manage Content**|Makes the **Manage Content** tab active.|
+| Small triangle on the right-hand side|Opens a list of tabs, including topic tabs and the **Manage Content** tab. You can choose a tab name to make it the active tab.|
 
-- The **Add to Favorites** button adds the active topic to the **Favorites** tab.
-
-- The **Find in Topic** button highlights search text in the active topic.
-
-- The **Print** button prints or shows a preview of the active topic.
-
-- The **Viewer Options** button displays settings such as how large the text appears, how many search results to return, how many topics to show in history, and whether to check for updates online.
-
-- The **Manage Content** button makes the **Manage Content** tab active.
-
-- The small triangle on the right-hand side opens a list of tabs, including topic tabs and the **Manage Content** tab. You can choose a tab name to make it the active tab.
-
-## See also
+## Related content
 
 - [Microsoft Help Viewer installation](../help-viewer/installation.md)
-- [Help Viewer administrator guide](../help-viewer/administrator-guide.md)
-- [Install and manage local content](../help-viewer/install-manage-local-content.md)
+- [Install content locally](../help-viewer/install-manage-local-content.md)
+- [Deploy content to others](../help-viewer/administrator-guide.md)
+- [Customize Help Viewer's layout and settings](../help-viewer/customize.md)

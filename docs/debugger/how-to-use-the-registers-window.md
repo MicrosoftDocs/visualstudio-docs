@@ -1,7 +1,6 @@
 ---
-title: View register values in the debugger | Microsoft Docs
+title: View register values in the debugger
 description: View register values in the Registers window in Visual Studio. During debugging, register values change as code executes in your app.
-
 ms.date: 11/19/2018
 ms.topic: how-to
 f1_keywords: 
@@ -19,17 +18,12 @@ helpviewer_keywords:
   - register groups
   - debugging [Visual Studio], Registers window
   - Registers window
-ms.assetid: 2918ffa2-562f-40d6-9053-ef321bbeb767
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
 # View register values in the Registers window (C#, C++, Visual Basic, F#)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Registers** window displays register contents during Visual Studio debugging. For a high-level introduction to concepts behind registers and the **Registers** window, see [Debugging basics: Registers window](../debugger/debugging-basics-registers-window.md).
 
@@ -51,9 +45,9 @@ You can edit register values. For more information, see [How to: Edit a register
 1. While debugging is running or at a breakpoint, select **Debug** > **Windows** > **Registers**, or press **Alt**+**5**.
 
 >[!NOTE]
->Dialog boxes and menu commands might differ depending on your Visual Studio edition or settings. To change your settings, select **Import and Export Settings** on the Visual Studio **Tools** menu. For more information, see [Reset settings](../ide/environment-settings.md#reset-settings).
+>Dialog boxes and menu commands might differ depending on your Visual Studio edition or settings. To change your settings, select **Import and Export Settings** on the Visual Studio **Tools** menu. For more information, see [Reset all settings](../ide/environment-settings.md#reset-all-settings).
 
-### See also
+## Related content
 
 - [Debugging basics: Registers window](../debugger/debugging-basics-registers-window.md)
 - [Viewing data in the debugger](../debugger/viewing-data-in-the-debugger.md)

@@ -1,5 +1,5 @@
 ---
-title: Include Element | Microsoft Docs
+title: Include Element
 description: The Include element specifies a file that can be located on the supplied include path for insertion into the current file. 
 ms.date: 11/04/2016
 ms.topic: reference
@@ -8,17 +8,13 @@ f1_keywords:
 helpviewer_keywords:
 - Include element (VSCT XML schema)
 - VSCT XML schema elements, Include
-ms.assetid: c923dfe6-084a-4105-aec1-f0a3f8399c54
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Include element
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Include element specifies a file that can be located on the supplied include path for insertion into the current file.  All symbols and types defined will become part of the compiled result.
 
 ## Syntax

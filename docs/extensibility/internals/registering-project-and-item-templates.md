@@ -1,5 +1,5 @@
 ---
-title: Registering Project and Item Templates | Microsoft Docs
+title: Registering Project and Item Templates
 description: Learn how Visual Studio uses registration information for your project types to determine what to show in the Add New Project and Add New Item dialog boxes.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -9,17 +9,13 @@ helpviewer_keywords:
 - Add New Item dialog box
 - Add New Project dialog box
 - registry, Add New Project dialog box
-ms.assetid: 6b909f93-d7f5-4aec-81c6-ee9ff0f31638
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Registering Project and Item Templates
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Project types must register the directories where their project and project-item templates are located. Visual Studio uses the registration information associated with your project types to determine what to show in the **Add New Project** and **Add New Item** dialog boxes.
 
  For more information about templates, see [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md).

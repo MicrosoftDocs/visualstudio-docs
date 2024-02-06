@@ -1,26 +1,22 @@
 ---
 description: "Describes a method or function call."
-title: CODE_PATH | Microsoft Docs
+title: CODE_PATH
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - CODE_PATH
 helpviewer_keywords:
 - CODE_PATH structure
-ms.assetid: 2d4b2890-4c9d-47e1-83c0-df9c6436427f
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # CODE_PATH
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes a method or function call.
 
 ## Syntax

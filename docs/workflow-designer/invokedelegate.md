@@ -6,15 +6,10 @@ ms.topic: reference
 f1_keywords:
   - "InvokeDelegate Designer"
   - "System.Activities.Statements.InvokeDelegate.UI"
-ms.assetid: 289a7498-5127-453f-beb5-05f05b80d26f
 author: jodavis
 ms.author: jodavis
-ms.workload:
-  - "multiple"
 ---
 # InvokeDelegate
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **InvokeDelegate** designer is used to create and configure an <xref:System.Activities.Statements.InvokeDelegate> activity.
 

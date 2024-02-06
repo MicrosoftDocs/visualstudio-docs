@@ -6,18 +6,14 @@ ms.topic: reference
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 f1_keywords:
 - vsl.GenerateFromUsage
 dev_langs:
 - CSharp
 - VB
-ms.workload:
-- dotnet
 ---
 # Generate a class or type in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This code generation applies to:
 

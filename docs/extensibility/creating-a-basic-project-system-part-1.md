@@ -1,23 +1,19 @@
 ---
-title: Creating a Basic Project System, Part 1 | Microsoft Docs
-description: Learn how to create a project type named extension.myproj. In Visual Studio, projects are containers used to organize source code files and other assets.
+title: Creating a Basic Project System, Part 1
+description: Create a basic project in Visual Studio to hold and organize source code files and other assets, and work with the project template and instance.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - writing a project system
 - project system
 - tutorial
-ms.assetid: 882a10fa-bb1c-4b01-943a-7a3c155286dd
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Create a basic project system, part 1
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In Visual Studio, projects are the containers that developers use to organize source code files and other assets. Projects appear as children of solutions in the **Solution Explorer**. Projects let you organize, build, debug, and deploy source code and create references to Web services, databases, and other resources.
 
  Projects are defined in project files, for example a *.csproj* file for a Visual C# project. You can create your own project type that has your own project file name extension. For more information about project types, see [Project types](../extensibility/internals/project-types.md).
@@ -54,9 +50,8 @@ In Visual Studio, projects are the containers that developers use to organize so
 - Implement basic template parameter substitution.
 
 ## Prerequisites
- Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
- You must also download the source code for the [Managed Package Framework for projects](https://github.com/tunnelvisionlabs/MPFProj10). Extract the file to a location that is accessible to the solution you are going to create.
+ Download the source code for the [Managed Package Framework for projects](https://github.com/tunnelvisionlabs/MPFProj10). Extract the file to a location that is accessible to the solution you are going to create.
 
 ## Create a basic project type
  Create a C# VSIX project named **SimpleProject**. (**File** > **New** > **Project** and then **Visual C#** > **Extensibility** > **VSIX Project**). Add a Visual Studio Package project item template (on the **Solution Explorer**, right-click the project node and select **Add** > **New Item**, then go to **Extensibility** > **Visual Studio Package**). Name the file *SimpleProjectPackage*.

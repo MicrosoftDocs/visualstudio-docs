@@ -1,27 +1,23 @@
 ---
 title: Access ClickOnce deployment properties for .NET
-description: "Learn how to access ClickOnce deployment properties for .NET Core 3.1, .NET 5 and later."
-ms.date: 08/10/2023
+description: Access ClickOnce deployment properties for .NET Core 3.1 on Windows or .NET 5 and later versions on Windows, including ActivationUri and URL parameters.
+ms.date: 10/25/2023
 ms.topic: how-to
 helpviewer_keywords:
   - "deployment properties, ClickOnce for .NET 5+"
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
+ms.subservice: deployment
 monikerRange: '>= vs-2022'
-ms.workload:
-  - "multiple"
 ---
 # Access ClickOnce deployment properties for .NET on Windows
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+Starting in .NET 7 and Visual Studio 2022 version 17.4, you can access ClickOnce deployment properties by using an environment variable.
 
-Starting in .NET 7 and Visual Studio 2022 version 17.4, you can access ClickOnce deployment properties using an environment variable.
+The application launcher shares ClickOnce application deployment properties with the application being launched (.NET only). Properties are shared with the application by using environment variables.
 
-The application launcher shares ClickOnce application deployment properties with the application being launched (.NET only). Properties are shared with the application using environment variables.
-
-The variable names closely match the properties in the .NET Framework <xref:System.Deployment.Application.ApplicationDeployment> class. The new variable names include a ClickOnce_ prefix:
+The variable names closely match the properties in the .NET Framework <xref:System.Deployment.Application.ApplicationDeployment> class. The new variable names include a `ClickOnce_` prefix:
 
 - [ClickOnce_IsNetworkDeployed](/dotnet/api/system.deployment.application.applicationdeployment.isnetworkdeployed)
 - [ClickOnce_ActivationUri](/dotnet/api/system.deployment.application.applicationdeployment.activationuri)
@@ -33,9 +29,9 @@ The variable names closely match the properties in the .NET Framework <xref:Syst
 - [ClickOnce_UpdatedVersion](/dotnet/api/system.deployment.application.applicationdeployment.updatedversion)
 - [ClickOnce_UpdateLocation](/dotnet/api/system.deployment.application.applicationdeployment.updatelocation)
 
-In addition to these, a new property is available that returns the application launcher version:
+In addition to these changes, a new property is available that returns the application launcher version:
 
-- ClickOnce_LauncherVersion
+- `ClickOnce_LauncherVersion`
 
 A .NET application can use these properties directly or indirectly.
 
@@ -58,11 +54,11 @@ if (Environment.GetEnvironmentVariable("ClickOnce_IsNetworkDeployed")?.ToLower()
 }
 ```
 
-Indirect usage of these properties requires the implementation of a new ApplicationDeployment class, at the application level, that abstracts the reading of environment variables and provides an experience that is very similar to old .NET Framework class.
+Indirect usage of these properties requires the implementation of a new `ApplicationDeployment` class at the application level. This class abstracts the reading of environment variables and provides a similar experience to the old .NET Framework class.
 
 For a sample implementation of this class, see [ApplicationDeployment.cs](https://github.com/dotnet/deployment-tools/blob/main/Documentation/dotnet-mage/ApplicationDeployment.cs).
 
-With the addition of this class, you can use it as follows:
+The following code snippet shows how to use this class:
 
 ```csharp
 NameValueCollection nameValueTable = new NameValueCollection();
@@ -78,10 +74,10 @@ if (ApplicationDeployment.IsNetworkDeployed)
 
 ## ActivationUri and URL parameters
 
-In .NET 7, dotnet-mage supports a new switch, `-TrustURLParameters` or `-tu`. This switch allows you to set the required deployment attribute using the dotnet-mage tool. This is an improvement over old Mage tool, which did not support this functionality and instead required you to manually modify the application manifest to add the `trustURLParameters` attribute, as follows: \<deployment install="true" trustURLParameters="true"\>
+Starting in .NET 7, **dotnet-mage** supports a new switch, `-TrustURLParameters` or `-tu`. This switch allows you to set the required deployment attribute by using the dotnet-mage tool. This change is an improvement over the old Mage tool, which didn't support this functionality and also required manual modification of the application manifest to add the `trustURLParameters` attribute, \<deployment install="true" trustURLParameters="true"\>.
 
-You need to set trustURLParameters to true to allow the application to access ActivationUri and the URL parameters.
+You need to set `trustURLParameters` to true to allow the application to access the `ActivationUri` and URL parameters.
 
-## See also
+## Related content
 
 [ClickOnce for .NET on Windows](../deployment/clickonce-deployment-dotnet.md)

@@ -8,14 +8,10 @@ helpviewer_keywords:
 - unit tests, and generics
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
-ms.workload:
-- multiple
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Unit tests for generic methods
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can generate unit tests for generic methods exactly as you do for other methods. The following sections provide information about and examples of creating unit tests for generic methods.
 
@@ -192,6 +188,6 @@ namespace TestProject1
 }
 ```
 
-## See also
+## Related content
 
 - [Unit test your code](../test/unit-test-your-code.md)

@@ -1,26 +1,22 @@
 ---
 description: "Specifies the type of comparison for references."
-title: REFERENCE_COMPARE | Microsoft Docs
+title: REFERENCE_COMPARE
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - REFERENCE_COMPARE
 helpviewer_keywords:
 - REFERENCE_COMPARE enumeration
-ms.assetid: e31cdc78-f621-498b-9ca4-aefa790b9f6f
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # REFERENCE_COMPARE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the type of comparison for references.
 
 ## Syntax

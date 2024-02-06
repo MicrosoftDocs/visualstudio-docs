@@ -1,21 +1,17 @@
 ---
-title: Properties Window Fields and Interfaces | Microsoft Docs
+title: Properties Window Fields and Interfaces
 description: Learn about the selection that determines what information is displayed in the Properties window based on the window that has focus in the Visual Studio IDE.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - Properties window, fields and interfaces
-ms.assetid: 0328f0e5-2380-4a7a-a872-b547cb775050
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Properties Window Fields and Interfaces
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The model for selection to determine what information is displayed in the **Properties** window is based on the window that has focus in the IDE. Every window, and object within the selected window, can have its selection context object pushed to the global selection context. The environment updates the global selection context with values from a window frame when that window has the focus. When the focus changes, so does the selection context.
 
 ## Tracking Selection in the IDE

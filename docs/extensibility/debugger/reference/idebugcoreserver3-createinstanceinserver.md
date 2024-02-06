@@ -1,26 +1,22 @@
 ---
 description: "Creates an instance of a debug engine on the server."
-title: IDebugCoreServer3::CreateInstanceInServer | Microsoft Docs
+title: IDebugCoreServer3::CreateInstanceInServer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCoreServer3::CreateInstanceInServer
 helpviewer_keywords:
 - IDebugCoreServer3::CreateInstanceInServer
-ms.assetid: 76f36bae-f6ab-413c-a8a9-8808bfeba05b
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugCoreServer3::CreateInstanceInServer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an instance of a debug engine on the server.
 
 ## Syntax

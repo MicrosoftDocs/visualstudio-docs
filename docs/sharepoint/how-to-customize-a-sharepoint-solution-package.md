@@ -1,5 +1,5 @@
 ---
-title: "How to: Customize a SharePoint Solution Package | Microsoft Docs"
+title: "Customize a SharePoint Solution Package"
 description: Use the Package Designer to make and customize a SharePoint solution package (.wsp). View or overwrite the packaged manifest file. Change the manifest template.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -16,13 +16,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+ms.subservice: sharepoint-development
 ---
-# How to: Customize a SharePoint solution package
+# Customize a SharePoint solution package
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can use the Package Designer to create and customize a package (*.wsp*). For example, you can add SharePoint project items and Features, specify if the Web server is reset when the solution is deployed, and set the deployment server type.
 
 ## Open the Package Designer
@@ -85,5 +82,5 @@ ms.workload:
 
      The template is refreshed with the original text, and any changes to the XML are lost.
 
-## See also
+## Related content
 - [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

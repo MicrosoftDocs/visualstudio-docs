@@ -1,5 +1,5 @@
 ---
-title: "How to: Change the namespace of a domain-specific language"
+title: "Change the namespace of a domain-specific language"
 description: Provides information about how to change the namespace of a domain-specific language.
 ms.date: 10/31/2018
 ms.topic: how-to
@@ -9,13 +9,9 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-  - "multiple"
+ms.subservice: modeling
 ---
-# How to: Change the namespace of a domain-specific language
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Change the namespace of a domain-specific language
 
 You can change the namespace of a domain-specific language. Make the change in the **DSL Explorer**, in the properties of the Dsl Package project, and in the assembly information.
 
@@ -47,10 +43,10 @@ You can change the namespace of a domain-specific language. Make the change in t
 
     1. Delete **\Users\\**_{your name}_**\AppData\Local\Microsoft\VisualStudio\\\*Exp**.
 
-    2. On the Windows **Start** menu, choose **All Programs** > **Microsoft Visual Studio 2010 SDK** > **Tools** > **Reset the Experimental Instance**.
+    2. In the Windows **Start** menu, type **reset the Visual Studio**, and then run the **Reset the Microsoft Visual Studio Experimental Instance** command matching your version of Visual Studio.
 
 11. On the **Build** menu, choose **Rebuild Solution**.
 
-## See also
+## Related content
 
-[Domain-specific language tools glossary](/previous-versions/bb126564(v=vs.100))
+- [Domain-specific language tools glossary](/previous-versions/bb126564(v=vs.100))

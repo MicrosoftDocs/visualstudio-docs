@@ -1,21 +1,16 @@
 ---
-title: Debug Azure services | Microsoft Docs
+title: Debug Azure services
 description: You can debug Azure services with Visual Studio. Use the links in this article to learn about the various ways to do this. 
 ms.date: 09/14/2018
 ms.topic: how-to
 helpviewer_keywords: 
   - debugger
-ms.assetid: 3d434de3-ee5f-419d-9a94-ac4ac02d635b
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - azure
+ms.subservice: debug-diagnostics
 ---
 # Debug Azure services in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use Visual Studio to debug Azure services in different scenarios:
 
@@ -39,6 +34,6 @@ To remote debug:
 
 - ASP.NET on Azure Service Fabric, see [Debug a remote Service Fabric application](/azure/service-fabric/service-fabric-debugging-your-application#debug-a-remote-service-fabric-application)
 
-## See also
+## Related content
 
 - [Debugging in Visual Studio](../debugger/index.yml)

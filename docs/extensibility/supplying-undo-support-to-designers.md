@@ -1,21 +1,16 @@
 ---
-title: Supplying Undo Support to Designers | Microsoft Docs
+title: Supplying Undo Support to Designers
 description: Learn how to provide Undo support in designers, either automatically or by using features in the Visual Studio SDK.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - designers [Visual Studio SDK], undo support
-ms.assetid: 43eb1f14-b129-404a-8806-5bf9b099b67b
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Supply undo support to designers
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Designers, like editors, typically need to support undo operations so that users can reverse their recent changes when modifying a code element.
 
@@ -97,7 +92,7 @@ Designers implementing a <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine
 
 - The designer chooses to explicitly create undo units using either the standard undo unit provided by an implementation of <xref:System.ComponentModel.Design.UndoEngine.UndoUnit> or the Visual Studio-specific implementation <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine.UndoUnit>, which derives from <xref:System.ComponentModel.Design.UndoEngine.UndoUnit> and also provides an implementation of both <xref:Microsoft.VisualStudio.OLE.Interop.IOleUndoUnit> and <xref:Microsoft.VisualStudio.OLE.Interop.IOleParentUndoUnit>.
 
-## See also
+## Related content
 
 - <xref:System.ComponentModel.Design.UndoEngine>
 - <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine>

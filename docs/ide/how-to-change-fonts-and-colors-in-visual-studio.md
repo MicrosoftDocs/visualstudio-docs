@@ -1,24 +1,18 @@
 ---
-title: Change themes, fonts, text, and contrast for accessibility
+title: Change themes, fonts, text, & accessibility options in Visual Studio
 description: Learn how to change Visual Studio color themes, font colors, text sizes, extra-contrast colors, and more for ease of use and accessibility concerns.
 titleSuffix: ''
 ms.date: 04/21/2023
 ms.topic: how-to
-ms.custom: contperf-fy22q3
 helpviewer_keywords:
 - Visual Studio, color themes
 - color themes, Visual Studio
-ms.assetid: 60d91ba1-244b-4c43-847f-60b744f1352a
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
-# How to: Change fonts, colors, and themes in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Change fonts, colors, and themes in Visual Studio
 
 ::: moniker range=">=vs-2022"
 
@@ -239,7 +233,7 @@ Visual Studio also includes autocompletion for methods and parameters; for more 
 There are more ways to customize Visual Studio to be more accessible to you. For example, you can change the behavior of pop-up windows, text-based tool windows, toolbar buttons, margin indicators, and more.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described here, which can vary depending on your active settings or edition. To change your settings, select **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](environment-settings.md#reset-settings).
+> The dialog boxes and menu commands you see might differ from those described here, which can vary depending on your active settings or edition. To change your settings, select **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](environment-settings.md#reset-all-settings).
 
 #### Change the behavior of pop-up windows
 
@@ -333,11 +327,11 @@ To improve toolbar usability and accessibility, you can add text to toolbar butt
 
 ### Accessibility support
 
-For more information about features, products, and services that make Windows more accessible for people with disabilities, see [Accessibility products and services from Microsoft](reference/accessibility-products-and-services-from-microsoft.md). And, for more information about how to obtain more accessible formats of documentation for Microsoft products, see the [Documentation in alternative formats](reference/accessibility-products-and-services-from-microsoft.md#documentation-in-alternative-formats) section of the [Accessibility products and services from Microsoft](reference/accessibility-products-and-services-from-microsoft.md) page.
+For more information about features, products, and services that make Windows more accessible for people with disabilities, see [Accessibility products and services from Microsoft](https://www.microsoft.com/accessibility). And, for more information about how to obtain more accessible formats of documentation for Microsoft products, you can view an index of accessible product documentation on the [Microsoft Accessibility](https://www.microsoft.com/accessibility) website.
 
 The accessibility information included on this page might apply only to users who license Microsoft products in the United States. If you obtained this product outside of the United States, visit the [Microsoft Accessibility](https://www.microsoft.com/accessibility/) website for a list of Microsoft support services telephone numbers and addresses. You can contact your subsidiary to find out whether the type of products and services described on this page are available in your area. Information about accessibility is also available in other languages.
 
-## See also
+## Related content
 
 - [Features of the code editor in Visual Studio](../ide/writing-code-in-the-code-and-text-editor.md)
 - [Personalize the Visual Studio IDE and the editor](../ide/quickstart-personalize-the-ide.md)

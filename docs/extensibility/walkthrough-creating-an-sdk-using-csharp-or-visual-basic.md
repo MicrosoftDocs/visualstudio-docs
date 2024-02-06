@@ -1,22 +1,18 @@
 ---
-title: 'Walkthrough: Creating an SDK using C# or Visual Basic | Microsoft Docs'
+title: 'Walkthrough: Creating an SDK using C# or Visual Basic'
 description: Learn how to create a simple Math Library SDK by using Visual C# and then package the SDK as a Visual Studio Extension by using this walkthrough.
 ms.date: 11/04/2016
 ms.topic: how-to
-ms.assetid: ef96a249-5eef-402a-a8d5-d74cb49239bd
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 dev_langs:
 - CSharp
 - VB
 ---
 # Walkthrough: Create an SDK using C# or Visual Basic
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In this walkthrough, you'll learn how to create a simple Math Library SDK by using Visual C# and then package the SDK as a Visual Studio Extension (VSIX). You'll complete the following procedures:
 
 - [To create the SimpleMath Windows Runtime component](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md#createClassLibrary)
@@ -425,7 +421,7 @@ End Class
 
     You have successfully created and used an Extension SDK.
 
-## See also
+## Related content
 - [Walkthrough: Create an SDK using C++](../extensibility/walkthrough-creating-an-sdk-using-cpp.md)
 - [Walkthrough: Create an SDK using JavaScript](../extensibility/walkthrough-creating-an-sdk-using-javascript.md)
 - [Create a Software Development Kit](../extensibility/creating-a-software-development-kit.md)

@@ -1,26 +1,22 @@
 ---
 description: "Skips over the specified number of elements in the programs enumeration."
-title: IEnumDebugPrograms2::Skip | Microsoft Docs
+title: IEnumDebugPrograms2::Skip
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugPrograms2::Skip
 helpviewer_keywords:
 - IEnumDebugPrograms2::Skip
-ms.assetid: b283858b-b375-4760-bfec-ab37de89958d
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugPrograms2::Skip
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Skips over the specified number of elements.
 
 ## Syntax

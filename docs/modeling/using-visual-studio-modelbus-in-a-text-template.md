@@ -6,13 +6,9 @@ ms.topic: how-to
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+ms.subservice: modeling
 ---
 # Using Visual Studio ModelBus in a Text Template
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If you write text templates that read a model that contains Visual Studio ModelBus references, you might want to resolve the references to access the target models. In that case, you have to adapt the text templates and the referenced domain-specific languages (DSLs):
 
@@ -394,7 +390,7 @@ You now have a DSL that can be accessed by text templates through ModelBus. Refe
 
     If you have set the MBR on that element, the referenced model opens and the referenced element is selected.
 
-## See also
+## Related content
 
 - [Integrating Models by using Visual Studio Modelbus](../modeling/integrating-models-by-using-visual-studio-modelbus.md)
 - [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md)

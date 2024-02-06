@@ -6,8 +6,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 04/13/2019
-ms.technology: vs-ide-install
-ms.assetid: 31AF914A-C66B-4CD3-9429-39695E0E94AE
+ms.subservice: install
 ---
 # Troubleshooting: Updater has errors retrieving information in Visual Studio for Mac
 

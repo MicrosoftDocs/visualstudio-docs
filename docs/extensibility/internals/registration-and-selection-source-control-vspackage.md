@@ -1,22 +1,18 @@
 ---
-title: Registration and Selection (Source Control VSPackage) | Microsoft Docs
+title: Registration and Selection (Source Control VSPackage)
 description: Learn how to register a source control VSPackage with Visual Studio and how to select which package to load from multiple registered source control packages.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - registration, source control packages
 - source control packages, registration
-ms.assetid: 7d21fe48-489a-4f55-acb5-73da64c4e155
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Registration and Selection (Source Control VSPackage)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A source control VSPackage must be registered to expose it to the Visual Studio. If more than one source control VSPackage is registered, the user can select which VSPackage to load at appropriate times. See [VSPackages](../../extensibility/internals/vspackages.md) for more details on VSPackages and how to register them.
 
 ## Registering a Source Control Package
@@ -77,7 +73,7 @@ A source control VSPackage must be registered to expose it to the Visual Studio.
 
   Unlike previous versions of Visual Studio, an IDE restart is no longer the only way to switch source control VSPackages. VSPackage selection is automatic. Switching packages requires Windows User privileges (not Administrator or Power User).
 
-## See also
+## Related content
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionPersistence>
 - [Features](../../extensibility/internals/source-control-vspackage-features.md)
 - [Creating a Source Control Plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md)

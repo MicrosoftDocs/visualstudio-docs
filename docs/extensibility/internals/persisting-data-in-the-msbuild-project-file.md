@@ -1,21 +1,17 @@
 ---
-title: Persisting Data in the MSBuild Project File | Microsoft Docs
+title: Persisting Data in the MSBuild Project File
 description: Learn how to persist data in a project file and use IPersistXMLFragment to maintain the data in the project file across project subtype aggregation levels.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - project files, persisting data in
-ms.assetid: 6a920cb7-453d-4ffd-af1c-6f3084bd03f7
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Persisting Data in the MSBuild Project File
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A project subtype may need to persist subtype-specific data into the project file for later use. A project subtype uses project file persistence to meet the following requirements:
 
 1. Persist data used as part of building the project. (For more information on the Microsoft Build Engine, see [MSBuild](../../msbuild/msbuild.md).) Build-related information can either:
@@ -74,5 +70,5 @@ A project subtype may need to persist subtype-specific data into the project fil
       </ProjectExtensions>
     ```
 
-## See also
+## Related content
 - [Project Subtypes](../../extensibility/internals/project-subtypes.md)

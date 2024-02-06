@@ -1,7 +1,7 @@
 ---
-title: Create a DataTable in the Dataset Designer
-description: In this walkthrough, create a DataTable (without a TableAdapter) using the Dataset Designer. Create a new Windows Forms application, and add a new dataset to it.
-ms.date: 10/19/2016
+title: New DataTable in Dataset Designer (.NET Framework)
+description: Create a DataTable (without a TableAdapter) with the Dataset Designer in Visual Studio for .NET Framework applications and build a Windows Forms app with a dataset.
+ms.date: 11/01/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - DataTable objects, creating
@@ -11,27 +11,21 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# Walkthrough: Create a DataTable in the Dataset Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Walkthrough: Create a DataTable for .NET Framework applications using the Dataset Designer
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 This walkthrough explains how to create a <xref:System.Data.DataTable> (without a TableAdapter) using the **Dataset Designer**. For information on creating data tables that include TableAdapters, see [Create and configure TableAdapters](../data-tools/create-and-configure-tableadapters.md).
 
+## Prerequisites
+
+To complete this tutorial, you need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify. See [Modify Visual Studio](../install/modify-visual-studio.md).
+
 ## Create a new Windows Forms application
 
-1. In Visual Studio, on the **File** menu, select **New** > **Project**.
-
-2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Desktop**.
-
-3. In the middle pane, select the **Windows Forms App** project type.
-
-4. Name the project **DataTableWalkthrough**, and then choose **OK**.
+1. In Visual Studio, create a new **Windows Forms App (.NET Framework)** project and name it **DataTableWalkthrough**.
 
      The **DataTableWalkthrough** project is created and added to **Solution Explorer**.
 
@@ -81,7 +75,7 @@ To set the primary key, right-click the **SongID** column, and then click **Set 
 
 To save the **DataTableWalkthrough** project, on the **File** menu, select **Save All**.
 
-## See also
+## Related content
 
 - [Create and configure datasets in Visual Studio](../data-tools/create-and-configure-datasets-in-visual-studio.md)
 - [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)

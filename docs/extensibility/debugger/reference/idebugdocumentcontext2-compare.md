@@ -1,26 +1,22 @@
 ---
 description: "Compares this document context to a given array of document contexts."
-title: IDebugDocumentContext2::Compare | Microsoft Docs
+title: IDebugDocumentContext2::Compare
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDocumentContext2::Compare
 helpviewer_keywords:
 - IDebugDocumentContext2::Compare
-ms.assetid: 2327b1ba-52d0-42fb-a01e-63cb4b332d2f
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugDocumentContext2::Compare
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Compares this document context to a given array of document contexts.
 
 ## Syntax

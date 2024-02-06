@@ -9,17 +9,13 @@ helpviewer_keywords:
 - Debug.ListModules command
 - ListModules command
 - list modules command
-ms.assetid: 3cb73774-6ac0-43b2-b781-75ed47175bfd
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # List Modules Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Lists the modules for the current process.
 
 ## Syntax

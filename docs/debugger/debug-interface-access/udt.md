@@ -1,6 +1,6 @@
 ---
 description: "Each class, structure, and union is identified by a SymTagUDT symbol."
-title: "UDT | Microsoft Docs"
+title: "UDT"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -11,17 +11,13 @@ helpviewer_keywords:
   - "unions, as symbols"
   - "UDT symbol"
   - "structs [C++]"
-ms.assetid: f12459dd-c64d-4cc9-9ee3-a56e19e9e573
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # UDT
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Each class, structure, and union is identified by a `SymTagUDT` symbol. Each member, function, data, or nested type, and each base class, appears as a class child of the user-defined type (UDT).
 
 ## Properties

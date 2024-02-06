@@ -5,17 +5,12 @@ ms.date: 04/24/2019
 ms.topic: tutorial
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - getting the DTE object
-ms.assetid: c1f40bab-c6ec-45b0-8333-ea5ceb02a39d
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Walkthrough: Access the DTE object from an editor extension
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In VSPackages, you can get the DTE object by calling the <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> method with the type of the DTE object. In Managed Extensibility Framework (MEF) extensions, you can import <xref:Microsoft.VisualStudio.Shell.SVsServiceProvider> and then call the <xref:Microsoft.VisualStudio.Shell.ServiceProvider.GetService%2A> method with a type of <xref:EnvDTE.DTE>.
 
@@ -54,7 +49,6 @@ To follow this walkthrough, you must install the Visual Studio SDK. For more inf
    ThreadHelper.ThrowIfNotOnUIThread();
    DTE dte = (DTE)ServiceProvider.GetService(typeof(DTE));
    ```
-
 
 ## See also
 

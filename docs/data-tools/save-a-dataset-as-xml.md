@@ -1,6 +1,6 @@
 ---
-title: Save a dataset as XML
-description: Save a dataset as XML. Access the XML data in a dataset by calling the available XML methods on the dataset, such as GetXml or WriteXml.
+title: Save an ADO.NET dataset as XML (.NET Framework)
+description: In .NET Framework application development with Visual Studio, save a ADO.NET dataset as XML. Access the XML data in a dataset by calling the available XML methods on the dataset, such as GetXml or WriteXml.
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -11,17 +11,12 @@ helpviewer_keywords:
 - data [Visual Studio], saving as XML
 - datasets [Visual Basic], saving as XML
 - saving data
-ms.assetid: 68b8327c-ae05-49ff-b9ba-99183e70b52c
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# Save a dataset as XML
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Save a dataset as XML in .NET Framework applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -53,6 +48,6 @@ Calling the <xref:System.Data.DataSet.WriteXml%2A> method sends the XML-formatte
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb" id="Snippet13":::
      ---
 
-## See also
+## Related content
 
 - [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

@@ -1,21 +1,17 @@
 ---
-title: Project Type Essentials | Microsoft Docs
+title: Project Type Essentials
 description: Learn about when you must create a project type and when you can extend an existing project type by using project subtypes.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - project types [Visual Studio SDK]
-ms.assetid: 09991589-2300-430e-b6a4-7f2b95fe676f
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Project Type Essentials
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Visual Studio includes several project types for languages such as Visual C# or Visual Basic. Visual Studio also lets you create your own project types.
 
  If you just want to add custom commands, editors, or tool windows to Visual Studio, you can do so without creating a new project type. For more information, see the following topics:

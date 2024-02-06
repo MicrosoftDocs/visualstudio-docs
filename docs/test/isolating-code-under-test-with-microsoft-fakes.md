@@ -1,22 +1,17 @@
 ---
 title: Isolating Code Under Test with Microsoft Fakes
 description: Learn how Microsoft Fakes helps you isolate the code you are testing by replacing other parts of the application with stubs or shims.
-ms.custom: devdivchpfy22
 ms.date: 05/23/2023
 ms.topic: how-to
 ms.author: oscalles
 manager: aajohn
-ms.technology: vs-ide-test
-ms.workload: 
-  - multiple
+ms.subservice: test-tools
 author: ocallesp
 dev_langs: 
   - VB
   - CSharp
 ---
 # Isolate code under test with Microsoft Fakes
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Code isolation is a testing strategy often implemented with tools like Microsoft Fakes, where the code you're testing is separated from the rest of the application. This separation is achieved by replacing parts of the application that interact with the code under test with stubs or shims. These are small pieces of code controlled by your tests, which simulate the behavior of the actual parts they're replacing.
 
@@ -104,11 +99,7 @@ Distributed testing with the [vstest task](/azure/devops/pipelines/tasks/test/vs
 - Code coverage is supported for test projects targeting .NET Framework using Microsoft Fakes in Visual Studio Enterprise version 2015 and higher.
 - Code coverage support for test projects targeting .NET Core and .NET 5.0 or later using Microsoft Fakes is available in Visual Studio 2019 update 9 and higher.
 
-
-## In this section
-
-[Use stubs to isolate parts of your application from each other for unit testing](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md)
-
-[Use shims to isolate your application from other assemblies for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md)
-
-[Code generation, compilation, and naming conventions in Microsoft Fakes](../test/code-generation-compilation-and-naming-conventions-in-microsoft-fakes.md)
+## Related content
+- [Use stubs to isolate parts of your application from each other for unit testing](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md)
+- [Use shims to isolate your application from other assemblies for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md)
+- [Code generation, compilation, and naming conventions in Microsoft Fakes](../test/code-generation-compilation-and-naming-conventions-in-microsoft-fakes.md)

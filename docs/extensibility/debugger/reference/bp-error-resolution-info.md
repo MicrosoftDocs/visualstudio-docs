@@ -1,26 +1,22 @@
 ---
 description: "Describes the resolution of an error breakpoint, including location, program, and thread."
-title: BP_ERROR_RESOLUTION_INFO | Microsoft Docs
+title: BP_ERROR_RESOLUTION_INFO
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - BP_ERROR_RESOLUTION_INFO
 helpviewer_keywords:
 - BP_ERROR_RESOLUTION_INFO structure
-ms.assetid: a6b83242-5728-4716-80f3-840c96d59c6c
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # BP_ERROR_RESOLUTION_INFO
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the resolution of an error breakpoint, including location, program, and thread.
 
 ## Syntax

@@ -1,6 +1,6 @@
 ---
-title: "View  data with the Tabular visualizer  | Microsoft Docs"
-description: Use tabular visualizer in Visual Studio debugger.
+title: "View  data with the Tabular visualizer "
+description: View large collection objects with built-in tabular visualizers in the Visual Studio debugger and examine data by row and column for fields and properties.
 ms.date: "01/19/2023"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,15 +13,11 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'
-ms.workload:
-  - "multiple"
 ---
 
 # Tabular visualizers in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 While you are debugging in Visual Studio, you can view large collection objects with the built-in tabular visualizers. The visualizer shows data in a tabular view with one row per object and sortable columns for each field and property. 
 
@@ -64,6 +60,6 @@ You can use the right-click context menu to customize the view:
 
 :::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-visualizer-filtering.gif" alt-text="Diagram of View the visualizer data filter.":::
 
-## See also
+## Related content
 - [View strings in a string visualizer](../debugger/view-strings-visualizer.md)
 - [Create custom visualizers (C#, Visual Basic)](../debugger/create-custom-visualizers-of-data.md)

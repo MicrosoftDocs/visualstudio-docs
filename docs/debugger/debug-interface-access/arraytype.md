@@ -1,5 +1,5 @@
 ---
-title: "ArrayType | Microsoft Docs"
+title: "ArrayType"
 description: Find reference information about the ArrayType symbol type (SymTagArray) in the Visual Studio debug interface access SDK.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -7,17 +7,13 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "ArrayType symbol"
-ms.assetid: 1d973a3a-2bde-46df-8625-85d519bb3cc9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # ArrayType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 An array is identified by a `SymTagArray` symbol.
 
 ## Properties

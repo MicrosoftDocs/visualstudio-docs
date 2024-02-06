@@ -3,17 +3,12 @@ title: 'Sample XSD File: Relationships'
 description: View the sample XSD file for a purchase order schema with annotations and documentation, that is used in various examples in the XSD Schema Designer documentation.
 ms.date: 11/04/2016
 ms.topic: sample
-ms.assetid: 60126510-b7dd-4cb4-92d3-9883590b92f2
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.technology: vs-xml-tools
-ms.workload:
-- multiple
+ms.subservice: xml-tools
 ---
 # Sample XSD file: Relationships
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The following XSD file is used in various examples in the XSD Schema Designer documentation. This file is a purchase order schema with annotations and documentation.
 

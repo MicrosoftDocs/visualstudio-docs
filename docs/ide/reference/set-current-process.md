@@ -6,17 +6,13 @@ ms.topic: reference
 helpviewer_keywords:
 - Debug.SetCurrentProcess command
 - Set Current Process command
-ms.assetid: 1e016ebd-aadd-411f-a606-03bf69d3f8aa
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Set Current Process
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the specified process as the active process in the debugger.
 
 ## Syntax

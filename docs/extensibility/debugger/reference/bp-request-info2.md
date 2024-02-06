@@ -1,26 +1,22 @@
 ---
 description: "Contains the information required to implement a breakpoint, including vendor GUID, constraint and tracepoint."
-title: BP_REQUEST_INFO2 | Microsoft Docs
+title: BP_REQUEST_INFO2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - BP_REQUEST_INFO2
 helpviewer_keywords:
 - BP_REQUEST_INFO2 structure
-ms.assetid: 008c87f7-a76e-43d3-8904-11b225d6a9a5
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # BP_REQUEST_INFO2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Contains the information required to implement a breakpoint, including vendor GUID, constraint and tracepoint.
 
 ## Syntax

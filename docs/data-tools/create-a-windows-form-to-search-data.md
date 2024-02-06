@@ -1,6 +1,6 @@
 ---
-title: Create a Windows Form to search data
-description: Read an example of how to create a Windows Form to search data. Create the Windows Form application, data source, and form. Add parameterization. Test the app.
+title: Create .NET Framework Windows Form to search data
+description: Create a .NET Framework Windows Form to search data with ADO.NET in Visual Studio by configuring the data source, controls, and search query function.
 ms.date: 06/07/2021
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,17 +9,12 @@ helpviewer_keywords:
 - parameters, displaying filtered data
 - data [Visual Studio], parameterizing queries
 - data [Visual Studio], searching
-ms.assetid: 65ca79a9-7458-466c-af55-978cd24c549e
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# Create a Windows Form to search data
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Create a .NET Framework Windows Form to search data with ADO.NET
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -152,6 +147,6 @@ Depending on your application requirements, there are several steps you may want
 
 - Editing the dataset to add or remove database objects. For more information, see [Create and configure datasets](../data-tools/create-and-configure-datasets-in-visual-studio.md).
 
-## See also
+## Related content
 
 - [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)

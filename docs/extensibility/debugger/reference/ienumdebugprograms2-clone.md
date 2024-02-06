@@ -1,26 +1,22 @@
 ---
 description: "Returns a copy of the current programs enumeration as a separate object."
-title: IEnumDebugPrograms2::Clone | Microsoft Docs
+title: IEnumDebugPrograms2::Clone
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugPrograms2::Clone
 helpviewer_keywords:
 - IEnumDebugPrograms2::Clone
-ms.assetid: 880846c2-39d3-45cd-85c3-ad5409a3710f
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugPrograms2::Clone
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns a copy of the current enumeration as a separate object.
 
 ## Syntax

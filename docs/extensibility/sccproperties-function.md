@@ -1,23 +1,19 @@
 ---
 description: "This function displays source control properties for a file or project."
-title: SccProperties Function | Microsoft Docs
+title: SccProperties Function
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - SccProperties
 helpviewer_keywords:
 - SccProperties function
-ms.assetid: 1bed38c9-73d2-4474-9717-f9dc26a89cbe
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # SccProperties Function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function displays source control properties for a file or project.
 
 ## Syntax

@@ -1,19 +1,15 @@
 ---
-title: Animations for Visual Studio | Microsoft Docs
+title: Animations for Visual Studio
 description: Learn about rules that help ensure consistent and user-friendly animation styles across the Visual Studio IDE.
 ms.date: 04/26/2017
 ms.topic: reference
-ms.assetid: 446773a9-e6f7-4c0c-8dbc-9e303bf32eb1
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Animations for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## Animation fundamentals
 
 ### Animation best practices in Visual Studio
@@ -193,7 +189,6 @@ Progress indicators have a couple of notable advantages:
 
 ## <a name="BKMK_AnimationPatterns"></a> Animation patterns
 
-### Overview
 Animations in Visual Studio are meant to serve a specific function without hindering user productivity. Generally, animations in Visual Studio should be:
 
 - Small and unobtrusive

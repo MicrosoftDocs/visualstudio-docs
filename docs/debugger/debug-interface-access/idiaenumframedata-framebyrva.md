@@ -1,23 +1,19 @@
 ---
 description: "Returns a frame by relative virtual address (RVA)."
-title: "IDiaEnumFrameData::frameByRVA | Microsoft Docs"
+title: "IDiaEnumFrameData::frameByRVA"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumFrameData::frameByRVA method"
-ms.assetid: 4b8dec05-e76c-4cc4-9644-2369d583849f
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaEnumFrameData::frameByRVA
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns a frame by relative virtual address (RVA).
 
 ## Syntax

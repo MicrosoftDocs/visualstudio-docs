@@ -1,26 +1,22 @@
 ---
 description: "Resets the code paths enumeration to the first element."
-title: IEnumCodePaths2::Reset | Microsoft Docs
+title: IEnumCodePaths2::Reset
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumCodePaths2::Reset
 helpviewer_keywords:
 - IEnumCodePaths2::Reset
-ms.assetid: 490c0e19-ff4b-4673-bd06-cdee996ac226
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumCodePaths2::Reset
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Resets the enumeration to the first element.
 
 ## Syntax

@@ -1,21 +1,17 @@
 ---
 description: "Represents the definition of a field for a managed code generic type."
-title: IDebugGenericFieldDefinition | Microsoft Docs
+title: IDebugGenericFieldDefinition
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugGenericFieldDefinition interface
-ms.assetid: b5a853b7-221e-4d62-8948-07423089d75d
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugGenericFieldDefinition
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Represents the definition of a field for a managed code generic type.
 
 ## Syntax

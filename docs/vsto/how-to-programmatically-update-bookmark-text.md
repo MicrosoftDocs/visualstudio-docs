@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically update bookmark text"
+title: "Programmatically update bookmark text"
 description: Learn how you can use Visual Studio to programmatically insert text into a placeholder bookmark in a Microsoft Word document.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -13,13 +13,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Programmatically update bookmark text
+# Programmatically update bookmark text
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can insert text into a placeholder bookmark in a Microsoft Office Word document so that you can retrieve the text at a later time, or to replace text in a bookmark. If you are developing a document-level customization, you can also update text in a <xref:Microsoft.Office.Tools.Word.Bookmark> control that is bound to data. For more information, see [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md).
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]
@@ -97,7 +94,7 @@ ms.workload:
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb" id="Snippet66":::
      ---
 
-## See also
+## Related content
 - [How to: Programmatically insert text into Word documents](../vsto/how-to-programmatically-insert-text-into-word-documents.md)
 - [Word object model overview](../vsto/word-object-model-overview.md)
 - [Bookmark control](../vsto/bookmark-control.md)

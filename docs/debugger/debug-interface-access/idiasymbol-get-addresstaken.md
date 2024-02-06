@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a flag that indicates whether another symbol references this symbol's address."
-title: "IDiaSymbol::get_addressTaken | Microsoft Docs"
+title: "IDiaSymbol::get_addressTaken"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_addressTaken method"
-ms.assetid: 0d366188-f5e1-4226-b392-58c09539d097
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_addressTaken
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that indicates whether another symbol references this symbol's address.
 
 ## Syntax

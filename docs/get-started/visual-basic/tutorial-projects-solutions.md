@@ -1,21 +1,17 @@
 ---
 title: Tutorial projects and solutions Visual Basic
-description: Learn how to create a solution and a project in Visual Studio as a Visual Basic developer.
+description: Create a new project and a solution to organize and contain your code projects in Visual Studio as a Visual Basic developer.
 ms.date: 09/14/2021
-ms.technology: vs-ide-general
-ms.custom: vs-acquisition, get-started
+ms.subservice: general-ide
+ms.custom: vs-acquisition
 ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 dev_langs:
 - VB
-ms.workload:
-- dotnet
 ---
 # Learn about projects and solutions using Visual Basic
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this introductory article, we'll explore what it means to create a *solution* and a *project* in Visual Studio. A solution is a container that's used to organize one or more related code projects, for example a class library project and a corresponding test project. We'll look at the properties of a project and some of the files it can contain. We'll also create a reference from one project to another.
 

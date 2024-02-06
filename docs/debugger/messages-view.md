@@ -1,5 +1,5 @@
 ---
-title: "Messages View | Microsoft Docs"
+title: "Messages View"
 description: Each window, thread, and process has an associated message stream that can be viewed in a Messages View window. Learn how to open and control a Messages View.
 ms.date: "12/21/2022"
 ms.topic: "conceptual"
@@ -7,17 +7,13 @@ f1_keywords:
   - "vs.externaltools.spyplus.messagesview"
 helpviewer_keywords:
   - "Messages view"
-ms.assetid: 14c2a786-c23a-4b2d-acad-8c32a856c70d
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Messages View
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Each window has an associated message stream. A Messages view window displays this message stream. The window handle, message code, and message are shown. You can create a Messages view for a thread or process as well. This allows you to view messages sent to all windows owned by a specific process or thread, which is particularly useful for capturing window initialization messages.
 
  A typical Messages view window appears below. Note that the first column contains the window handle, and the second column contains a message code (explained in [Message Codes](../debugger/message-codes.md)). Decoded message parameters and return values are on the right.

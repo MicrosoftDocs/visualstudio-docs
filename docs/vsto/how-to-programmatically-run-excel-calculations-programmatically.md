@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically run Excel calculations"
+title: "Programmatically run Excel calculations"
 description: Learn how you can use Visual Studio to programmatically run calculations in a Microsoft Excel workbook.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -14,13 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Programmatically run Excel calculations
+# Programmatically run Excel calculations
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You use a similar process to run calculations in a <xref:Microsoft.Office.Tools.Excel.NamedRange> control or a native Excel range object.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
@@ -70,7 +67,7 @@ ms.workload:
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb" id="Snippet31":::
      ---
 
-## See also
+## Related content
 - [Work with ranges](../vsto/working-with-ranges.md)
 - [NamedRange control](../vsto/namedrange-control.md)
 - [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)

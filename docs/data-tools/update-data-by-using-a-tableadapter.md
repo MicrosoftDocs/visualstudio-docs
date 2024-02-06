@@ -1,6 +1,6 @@
 ---
-title: Update data by using a TableAdapter
-description: Update data in a dataset. Send the data back to the database by calling the Update method of a TableAdapter.
+title: Update data with TableAdapter (.NET Framework)
+description: Update data in a dataset with .NET Framework application development in Visual Studio and return data to the database with the ADO.NET TableAdapter.Update method.
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -13,17 +13,12 @@ helpviewer_keywords:
 - TableAdapters, updating data
 - data [Visual Studio], updating
 - saving data
-ms.assetid: 5e32e10e-9bac-4969-9bdd-b8f6919d3516
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# Update data by using a TableAdapter
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Update data by using a TableAdapter in .NET Framework applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -55,6 +50,6 @@ Call the `Update` method of a TableAdapter. Pass the name of the data table that
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form3.vb" id="Snippet9":::
      ---
 
-## See also
+## Related content
 
 - [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

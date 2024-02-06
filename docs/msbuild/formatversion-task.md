@@ -1,5 +1,5 @@
 ---
-title: FormatVersion Task | Microsoft Docs
+title: FormatVersion Task
 description: Learn about various ways the MSBuild FormatVersion tasks appends the revision number to the version number.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,14 +7,10 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
-ms.assetid: 96e692f6-b581-46ca-8cc9-441a1861e371
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # FormatVersion task
 

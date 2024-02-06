@@ -1,26 +1,22 @@
 ---
 description: "Gets the system process identifier for the process hosting the program."
-title: IDebugProgramNode2::GetHostPid | Microsoft Docs
+title: IDebugProgramNode2::GetHostPid
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgramNode2::GetHostPid
 helpviewer_keywords:
 - IDebugProgramNode2::GetHostPid
-ms.assetid: e65b4b15-46d8-4ca7-9456-2b4c078f7cf9
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProgramNode2::GetHostPid
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the system process identifier for the process hosting the program.
 
 ## Syntax

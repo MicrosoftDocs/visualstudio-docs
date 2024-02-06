@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically add rows and columns to Word tables"
+title: "Programmatically add rows and columns to Word tables"
 description:  Learn how you can use the Add method of the Rows object to add rows to the table. You can also use the Add method of the Columns object to add columns.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -14,13 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Programmatically add rows and columns to Word tables
+# Programmatically add rows and columns to Word tables
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   In a Microsoft Office Word table, the cells are organized into rows and columns. You can use the <xref:Microsoft.Office.Interop.Word.Rows.Add%2A> method of the <xref:Microsoft.Office.Interop.Word.Rows> object to add rows to the table and the <xref:Microsoft.Office.Interop.Word.Columns.Add%2A> method of the <xref:Microsoft.Office.Interop.Word.Columns> object to add columns.
 
  [!INCLUDE[appliesto_wdalldocapp](includes/appliesto-wdalldocapp-md.md)]
@@ -90,7 +87,7 @@ ms.workload:
      :::code language="vb" source="codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb" id="Snippet96":::
      ---
 
-## See also
+## Related content
 - [How to: Programmatically create Word tables](how-to-programmatically-create-word-tables.md)
 - [How to: Programmatically add text and formatting to cells in Word tables](how-to-programmatically-add-text-and-formatting-to-cells-in-word-tables.md)
 - [How to: Programmatically populate Word tables with document properties](how-to-programmatically-populate-word-tables-with-document-properties.md)

@@ -1,5 +1,5 @@
 ---
-title: "Format specifiers in the debugger (C#) | Microsoft Docs"
+title: "Format specifiers in the debugger (C#)"
 description: Use a format specifier to change the format in which a value is displayed in the Watch window. This article provides usage details.
 ms.date: "11/21/2018"
 ms.topic: "conceptual"
@@ -20,17 +20,13 @@ helpviewer_keywords:
   - "Watch window, format specifiers in C#"
   - "format specifiers, debugger"
   - "debugger, format specifiers recognized by"
-ms.assetid: 345c8589-5f36-4d34-a58c-e56271687dd6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "dotnet"
+ms.subservice: debug-diagnostics
 ---
 # Format specifiers in C# in the Visual Studio debugger
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can change the format in which a value is displayed in the **Watch** window by using format specifiers. You can also use format specifiers in the **Immediate** window, the **Command** window, in [tracepoints](../debugger/using-breakpoints.md#BKMK_Print_to_the_Output_window_with_tracepoints), and in source windows. If you pause on an expression in those windows, the result will appear in a  [DataTip](../debugger/view-data-values-in-data-tips-in-the-code-editor.md) in the specified format display.
 
 To use a format specifier, enter the variable expression followed by a comma and the appropriate specifier.
@@ -73,6 +69,6 @@ The following table describes the C# format specifiers for the Visual Studio deb
 |raw|Displays item as it appears in the raw item node. Valid on proxy objects only.|Dictionary\<T>|Raw view of Dictionary\<T>|
 |results|Used with a variable of a type that implements IEnumerable or IEnumerable\<T>, usually the result of a query expression. Displays only the members that contain the query result.|Displays all the members|Displays the members the meet the conditions of the query|
 
-## See also
+## Related content
 - [Watch and QuickWatch windows](../debugger/watch-and-quickwatch-windows.md)
 - [Autos and Locals windows](../debugger/autos-and-locals-windows.md)

@@ -8,17 +8,12 @@ f1_keywords:
 - System.Activities.Statements.FlowSwitch`1.UI
 - System.Activities.Core.Presentation.FlowSwitchLink`1.UI
 - System.Activities.Core.Presentation.FlowSwitchLinkIdentifier.UI
-ms.assetid: 5b9c5afe-7499-4ee8-8c33-28aff14bde07
 author: jodavis
 ms.author: jodavis
 manager: jmartens
-ms.technology: vs-workflow-designer
-ms.workload:
-- multiple
+ms.subservice: workflow-designer
 ---
 # FlowSwitch\<T> Activity Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The <xref:System.Activities.Statements.FlowSwitch%601> activity is a conditional node that provides branching for the flow of control based on match criterion when more than two alternative branches are required. If the flow branching requires only two paths, use the <xref:System.Activities.Statements.FlowDecision> activity instead.
 

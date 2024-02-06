@@ -1,6 +1,6 @@
 ---
-title: Handle a concurrency exception
-description: Handle a concurrency exception (System.Data.DBConcurrencyException), which is raised when two users try to change the same data in a database at the same time.
+title: Handle concurrency exceptions in .NET Framework
+description: Handle a concurrency exception (System.Data.DBConcurrencyException) in Visual Studio when two users try to change the same data in a database at the same time.
 ms.date: 09/11/2017
 ms.topic: how-to
 dev_langs:
@@ -13,17 +13,12 @@ helpviewer_keywords:
 - data concurrency, walkthroughs
 - updating datasets, errors
 - concurrency control, walkthroughs
-ms.assetid: 73ee9759-0a90-48a9-bf7b-9d6fc17bff93
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# Handle a concurrency exception
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Handle a concurrency exception in .NET Framework database applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -31,7 +26,7 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException?displayProperty
 
 This walkthrough takes you through the following process:
 
-1. Create a new **Windows Forms Application** project.
+1. Create a new **Windows Forms App (.NET Framework)** project.
 
 2. Create a new dataset based on the Northwind Customers table.
 
@@ -228,6 +223,6 @@ You can now test the form to make sure it behaves as expected. To simulate a con
 
    Selecting **No** cancels the update and updates the dataset with the values that are currently in the database. Selecting **Yes** writes the proposed value to the database.
 
-## See also
+## Related content
 
 - [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

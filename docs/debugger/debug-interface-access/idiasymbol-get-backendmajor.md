@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the back-end major version number of the compiler."
-title: "IDiaSymbol::get_backEndMajor | Microsoft Docs"
+title: "IDiaSymbol::get_backEndMajor"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_backEndMajor method"
-ms.assetid: 900a05dd-c29b-44ad-b46b-f43bda819a66
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_backEndMajor
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the back-end major version number of the compiler.
 
 ## Syntax

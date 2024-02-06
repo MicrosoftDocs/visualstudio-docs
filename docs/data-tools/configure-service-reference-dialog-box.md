@@ -9,17 +9,12 @@ helpviewer_keywords:
 - WCF services, Configure Service Reference dialog box
 - service references [Visual Studio], configuring behavior
 - Configure Service Reference dialog box
-ms.assetid: 25e4c36b-2db6-4e71-9010-b7068255d09d
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
 # Configure Service Reference dialog box
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 

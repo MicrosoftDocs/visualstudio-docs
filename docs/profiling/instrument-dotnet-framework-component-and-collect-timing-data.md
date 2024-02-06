@@ -3,17 +3,12 @@ title: Profiler command line - Instrument client .NET component, get time data
 description: Learn how to use the Visual Studio Profiling Tools command-line tools to collect timing data for a .NET Framework component of a stand-alone application.
 ms.date: 06/28/2023
 ms.topic: how-to
-ms.assetid: b7dcc27b-45c6-4302-9552-6fa5b1e94b56
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - dotnet
+ms.subservice: debug-diagnostics
 ---
 # Instrument a stand-alone .NET Framework component and collect timing data with the profiler from the command line
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This topic describes how to use Visual Studio command-line profiling tools to instrument a .NET Framework component such as an .*exe* or .*dll* file, and to collect detailed timing data.
 
@@ -93,7 +88,7 @@ To end a profiling session:
 
      **VSPerfClrEnv /off**
 
-## Reference
+## Related content
 
 - [VSIntr](../profiling/vsinstr.md)
 - [VSPerfCmd](../profiling/vsperfcmd.md)

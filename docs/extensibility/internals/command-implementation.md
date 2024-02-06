@@ -1,21 +1,17 @@
 ---
-title: Command Implementation | Microsoft Docs
+title: Command Implementation
 description: Learn about command implementation in Visual Studio, how to set up a command group in a VSPackage, add a command to it, register the command, and implement it. 
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - commands, implementation
-ms.assetid: c782175c-cce4-4bd0-8374-4a897ceb1b3d
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Command implementation
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To implement a command in a VSPackage, you must perform the following tasks:
 
 1. In the *.vsct* file, set up a command group and then add the command to it. For more information, see [Visual Studio command table (.vsct) files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md).
@@ -131,6 +127,6 @@ public int Exec(ref Guid pguidCmdGroup, uint nCmdID, uint nCmdexecopt, IntPtr pv
 }
 ```
 
-## See also
+## Related content
 
 - [How VSPackages add user interface elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)

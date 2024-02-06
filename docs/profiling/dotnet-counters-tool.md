@@ -1,25 +1,21 @@
 ---
-title: "Visualize dotnet counters | Microsoft Docs"
-description: "Learn to use the .NET Counters tool in the Visual Studio Performance Profiler."
+title: "Visualize dotnet counters"
+description: Use the .NET Counters tool in the Visual Studio Performance Profiler to visualize dotnet counters over time and better understand your data.
 ms.date: "12/7/2020"
-
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "dotnet, counters, profiling"
 author: MikeJo5000
 ms.author: mikejo
 manager: AndSter
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Visualize dotnet counters from the Visual Studio profiler
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The .NET Counters tool allows you to visualize [dotnet counters](/dotnet/core/diagnostics/dotnet-counters) over time right from within the Visual Studio profiler.
 
 > [!NOTE]
-> The .NET Counters tool requires Visual Studio 2019 version 16.7 or later and targets .NET Core 3.0+.
+> The .NET Counters tool requires Visual Studio 2019 version 16.7 or later and targets .NET Core 3.0+ and .NET 5+.
 
 ## Setup
 
@@ -63,7 +59,7 @@ You can also view graphs in the detailed report by selecting the checkboxes next
 
 The table updates to relevant values for the time selected in the graphs. Use the **Clear Selection** button to reset the selected time range to the entire trace.
 
-## See also
+## Related content
 
 - [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md)
 - [dotnet counters](/dotnet/core/diagnostics/dotnet-counters)

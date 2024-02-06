@@ -1,7 +1,6 @@
 ---
-title: Inspect variables - Autos and Locals windows | Microsoft Docs
+title: Inspect variables - Autos and Locals windows
 description: Inspect variables in the Autos and Locals windows while debugging in Visual Studio. The Autos and Locals windows show variable values while you are debugging.
-
 ms.date: 07/20/2023
 ms.topic: how-to
 f1_keywords: 
@@ -10,17 +9,12 @@ f1_keywords:
 helpviewer_keywords: 
   - debugger, variable windows
   - debugging [Visual Studio], variable windows
-ms.assetid: bb6291e1-596d-4af0-9f22-5fd713d6b84b
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
 # Inspect variables in the Autos and Locals windows
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Autos** and **Locals** windows show variable values while you are debugging. The windows are only available during a debugging session. The **Autos** window shows variables used around the current statement where the debugger is paused. The **Locals** window shows variables defined in the local scope, which is usually the current function or method.
 
@@ -204,7 +198,7 @@ To see the return values of the `sumVars()` and `subtractVars()` method calls in
    ![Screenshot of Autos return value C#.](../debugger/media/autosreturnvaluecsharp2.png "Autos return value C#")
    ::: moniker-end
 
-## See also
+## Related content
 
 - [What is debugging?](../debugger/what-is-debugging.md)
 - [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md)

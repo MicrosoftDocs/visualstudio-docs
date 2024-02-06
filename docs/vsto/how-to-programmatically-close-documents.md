@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically close documents"
+title: "Programmatically close documents"
 description:  Learn how you can close the active document or you can specify a Microsoft Office Word document to close.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -12,13 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Programmatically close documents
+# Programmatically close documents
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can close the active document or you can specify a document to close.
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]
@@ -71,7 +68,7 @@ ms.workload:
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet4":::
      ---
 
-## See also
+## Related content
 - [How to: Programmatically open existing documents](../vsto/how-to-programmatically-open-existing-documents.md)
 - [How to: Programmatically save documents](../vsto/how-to-programmatically-save-documents.md)
 - [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)

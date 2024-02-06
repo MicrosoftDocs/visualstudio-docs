@@ -1,22 +1,18 @@
 ---
-title: 'New Project Generation: Under the Hood, Part One | Microsoft Docs'
+title: 'New Project Generation: Under the Hood, Part One'
 description: Take a detailed look at what happens in the Visual Studio integrated development environment (IDE) as you create your own project type (Part 1 of 2).
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - projects [Visual Studio], new project dialog
 - projects [Visual Studio], new project generation
-ms.assetid: 66778698-0258-467d-8b8b-c351744510eb
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # New Project Generation: Under the Hood, Part One
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Ever thought about how to create your own project type? Wonder what actually happens when you create a new project? Let's take a peek under the hood and see what's really going on.
 
  There are several tasks that Visual Studio coordinates for you:
@@ -210,5 +206,5 @@ devenv /installvstemplates
 
     **MyProjectNode** appears as a child node of Visual C# just under the Windows node.
 
-## See also
+## Related content
 - [New Project Generation: Under the Hood, Part Two](../../extensibility/internals/new-project-generation-under-the-hood-part-two.md)

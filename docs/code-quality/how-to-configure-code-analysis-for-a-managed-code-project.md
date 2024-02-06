@@ -1,5 +1,5 @@
 ---
-title: Configure Code Analysis
+title: Configure rule set for legacy code analysis
 ms.date: 04/04/2018
 description: Learn how to configure the rule set that Visual Studio legacy code analysis uses. See how to apply a rule set to one or multiple projects in a solution.
 ms.topic: how-to
@@ -17,13 +17,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-code-analysis
-ms.workload:
-  - dotnet
+ms.subservice: code-analysis
 ---
-# How to: Configure legacy analysis for managed code
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Configure legacy analysis for managed code
 
 In Visual Studio, you can choose from a list of code analysis [rule sets](../code-quality/rule-set-reference.md) to apply to a managed code project. By default, the **Microsoft Minimum Recommended Rules** rule set is selected, but you can apply a different rule set if desired. Rule sets can be applied to one or multiple projects in a solution.
 
@@ -75,6 +71,6 @@ By default, all the managed projects of a solution are assigned the *Microsoft M
 
 5. Select the **Rule Set** field of a project, and then select the name of the rule set that you want to apply.
 
-## See also
+## Related content
 
 - [Code analysis rule set reference](../code-quality/rule-set-reference.md)

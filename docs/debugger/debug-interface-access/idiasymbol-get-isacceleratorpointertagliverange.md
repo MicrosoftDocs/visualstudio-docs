@@ -1,21 +1,17 @@
 ---
 description: "Retrieves a flag that indicates whether the symbol corresponds to the definition range symbol for the tag component of a pointer variable in code compiled for a C++ AMP Accelerator."
-title: "IDiaSymbol::get_isAcceleratorPointerTagLiveRange | Microsoft Docs"
+title: "IDiaSymbol::get_isAcceleratorPointerTagLiveRange"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: d195aec4-6d3c-42e0-88a5-3d463539f0b8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_isAcceleratorPointerTagLiveRange
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that indicates whether the symbol corresponds to the *definition range symbol* for the tag component of a pointer variable in code compiled for a C++ AMP Accelerator. The definition range symbol is the location of a variable for a span of addresses.
 
 ## Syntax

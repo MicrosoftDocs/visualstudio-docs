@@ -1,23 +1,19 @@
 ---
 description: "Destroys marker_series object and releases all allocated resources."
-title: marker_series::~marker_series Destructor | Microsoft Docs
+title: marker_series::~marker_series Destructor
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
 - cvmarkersobj/Concurrency, diagnostic::marker_series::~marker_series
 helpviewer_keywords: 
 - Concurrency, diagnostic::marker_series::~marker_series destructor
-ms.assetid: 5632523b-fd58-40aa-8523-f29ee9083a65
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
 # marker_series::~marker_series destructor
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Destroys marker_series object and releases all allocated resources.
 
 ## Syntax

@@ -1,5 +1,5 @@
 ---
-title: Adding a Menu Controller to a Toolbar | Microsoft Docs
+title: Adding a Menu Controller to a Toolbar
 description: Learn how to create a menu controller and add it to a tool window toolbar in Visual Studio, then implement the menu controller commands and test it.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -7,25 +7,18 @@ helpviewer_keywords:
 - toolbars [Visual Studio], adding menu controllers
 - menus, adding menu controllers to toolbars
 - menu controllers, adding to toolbars
-ms.assetid: 6af9b0b4-037f-404c-bb40-aaa1970768ea
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Add a menu controller to a toolbar
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This walkthrough builds on the [Add a toolbar to a tool window](../extensibility/adding-a-toolbar-to-a-tool-window.md) walkthrough and shows how to add a menu controller to the tool window toolbar. The steps shown here also can be applied to the toolbar that is created in the [Add a toolbar](../extensibility/adding-a-toolbar.md) walkthrough.
 
 A menu controller is a split control. The left side of the menu controller shows the last-used command, and you can run it by clicking it. The right side of the menu controller is an arrow that, when clicked, opens a list of additional commands. When you click a command on the list, the command runs, and it replaces the command on the left side of the menu controller. In this way, the menu controller operates like a command button that always shows the last-used command from a list.
 
 Menu controllers can appear on menus but they are most often used on toolbars.
-
-## Prerequisites
-Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ## Create a menu controller
 
@@ -220,6 +213,6 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 
     A dialog box appears with the message **You selected Menu controller Item 3**. Notice that the message corresponds to the text on the menu controller button. The menu controller button now displays **MC Item 3**.
 
-## See also
+## Related content
 - [Adding a toolbar to a tool window](../extensibility/adding-a-toolbar-to-a-tool-window.md)
 - [Adding a toolbar](../extensibility/adding-a-toolbar.md)

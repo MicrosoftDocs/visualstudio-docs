@@ -1,9 +1,9 @@
 ---
-title: JavaScript IntelliSense
+title: Display JavaScript parameters & member lists with IntelliSense
 description: Learn how Visual Studio delivers richer IntelliSense, support for modern JavaScript features, and improved productivity features.
 ms.date: 02/21/2023
 ms.topic: conceptual
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 helpviewer_keywords:
 - IntelliSense [JavaScript]
 - <reference> JavaScript XML tag
@@ -24,12 +24,8 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.workload:
-- multiple
 ---
 # JavaScript IntelliSense
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio provides a powerful JavaScript editing experience right out of the box. Powered by a TypeScript-based language service, Visual Studio delivers rich IntelliSense, support for modern JavaScript features, and productivity features such as Go to Definition, refactoring, and more.
 
@@ -125,7 +121,7 @@ By default, the language service tries to detect which JavaScript libraries are 
 
 Currently, auto-detection works for dependencies downloaded from npm (by reading the *package.json* file), Bower (by reading the *bower.json* file), and for loose files in your project that match a list of roughly the top 400 most popular JavaScript libraries. For example, if you have *jquery-1.10.min.js* in your project, the file *jquery.d.ts* will be fetched and loaded in order to provide a better editing experience. This *.d.ts* file will have no impact on your project.
 
-## See also
+## Related content
 
 - [Using IntelliSense](../ide/using-intellisense.md)
 - [JavaScript support (Visual Studio for Mac)](/visualstudio/mac/javascript)

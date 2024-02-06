@@ -1,19 +1,14 @@
 ---
-title: How to use XML snippets
+title: Use XML snippets
 description: Learn how to use commands in the XML editor to insert XML snippets or to wrap an XML snippet around selected text.
 ms.date: 11/04/2016
 ms.topic: how-to
-ms.assetid: 3a27375b-81cc-48f6-a884-e1cb8c4f78f5
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.technology: vs-xml-tools
-ms.workload:
-- multiple
+ms.subservice: xml-tools
 ---
-# How to: Use XML snippets
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Use XML snippets
 
 You can invoke XML snippets by using the following two commands on the XML editor shortcut menu. The **Insert Snippet** command inserts the XML snippet at the cursor position. The **Surround With** command wraps the XML snippet around the selected text. Each XML snippet has designated snippet types. The snippet types determine whether the snippet is available with the **Insert Snippet** command, the **Surround With** command, or both.
 
@@ -108,7 +103,7 @@ Pressing **Enter** or **Esc** cancels field editing and returns the editor to no
 
 The default colors for editable code snippet fields can be changed by modifying the **Code Snippet Field** setting in the **Fonts and Colors** pane of the **Options** dialog box. For more information, see [How to: Change fonts and colors in the editor](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md).
 
-## See also
+## Related content
 
 - [XML snippets](../xml-tools/xml-snippets.md)
 - [How to: Generate an XML snippet from an XML schema](../xml-tools/how-to-generate-an-xml-snippet-from-an-xml-schema.md)

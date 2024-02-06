@@ -1,12 +1,11 @@
 ---
-title: Set up Visual Studio subscriptions with GitHub Enterprise | Microsoft Docs
+title: Set up subscriptions with GitHub Enterprise
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: f271d623-dcde-442a-865c-4dca5ad8a9c5
-ms.date: 03/20/2023
+ms.date: 11/02/2023
 ms.topic: conceptual
-description: Managing subscriptions in the Visual Studio subscriptions with GitHub Enterprise
+description: Manage Visual Studio subscriptions for an organization by using GitHub Enterprise, assign subscriptions to organization members, and move subscribers.
 ---
 
 # Set up GitHub Enterprise licenses with Visual Studio subscriptions
@@ -38,7 +37,7 @@ As a new GitHub Enterprise customer, you and your team need to get access to you
 
 ## Assign Visual Studio subscriptions to organization members
 
-In the Visual Studio subscriptions admin portal, the Visual Studio subscriptions admin can assign a subscription to a user. If you’re new to Visual Studio Subscription administration, you should have received an invitation to the Visual Studio Subscriptions admin portal to begin assigning subscriptions. After you select the link to sign into the [admin portal](https://manage.visualstudio.com), you’ll be able to use the **Add** dropdown to add Visual Studio subscribers individually, or in bulk using Microsoft Excel, or Azure Active Directory groups. Just follow the prompts for adding subscribers, making sure to use email domains that can receive email and choose subscription levels that contain GitHub Enterprise.
+In the Visual Studio subscriptions admin portal, the Visual Studio subscriptions admin can assign a subscription to a user. If you’re new to Visual Studio Subscription administration, you should have received an invitation to the Visual Studio Subscriptions admin portal to begin assigning subscriptions. After you select the link to sign into the [admin portal](https://manage.visualstudio.com), you’ll be able to use the **Add** dropdown to add Visual Studio subscribers individually, or in bulk using Microsoft Excel, or Microsoft Entra groups. Just follow the prompts for adding subscribers, making sure to use email domains that can receive email and choose subscription levels that contain GitHub Enterprise.
 
 For more information about assigning subscriptions, see our articles with specific steps to:
 + [Add single users](assign-license.md)

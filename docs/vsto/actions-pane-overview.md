@@ -1,6 +1,6 @@
 ---
-title: "Actions pane overview"
-description: Learn how an actions pane is a customizable Document Actions task pane that is attached to a specific Microsoft Office Word document or Excel workbook.
+title: Attach an actions pane to documents or workbooks
+description: Attach an actions pane to specific Microsoft Office Word documents or Excel workbooks and access a customizable Document Actions task pane.
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -14,13 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
 # Actions pane overview
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   An actions pane is a customizable **Document Actions** task pane that is attached to a specific Microsoft Office Word document or Microsoft Office Excel workbook. The actions pane is hosted inside the Office task pane along with other built-in task panes, such as the **XML Source** task pane in Excel or the **Styles and Formatting** task pane in Word. You can use Windows Forms controls or WPF controls to design the actions pane user interface.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
@@ -178,7 +175,7 @@ ms.workload:
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb" id="Snippet101":::
  ---
 
-## See also
+## Related content
 - [Use WPF controls in Office solutions](../vsto/using-wpf-controls-in-office-solutions.md)
 - [Office UI customization](../vsto/office-ui-customization.md)
 - [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md)

@@ -1,21 +1,17 @@
 ---
-title: Supporting Source Control | Microsoft Docs
+title: Supporting Source Control
 description: Learn how Visual Studio supports file checkouts, checkins, and other source control operations for your project or editor.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - source control [Visual Studio SDK], supporting
-ms.assetid: 567acde3-354e-4f39-8d99-0ef86c103396
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Supporting Source Control
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Visual Studio supports file checkouts, check-ins, and other source control operations for your project or editor. As a source control client, Visual Studio is designed to interact with a source control package, such as Visual SourceSafe, which provides archiving, versioning, and control facilities for a dynamically defined set of files.
 
 ## In This Section

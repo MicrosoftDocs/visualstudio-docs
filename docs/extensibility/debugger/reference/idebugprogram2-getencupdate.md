@@ -1,26 +1,22 @@
 ---
 description: "This method gets the Edit and Continue (ENC) update for this program."
-title: IDebugProgram2::GetENCUpdate | Microsoft Docs
+title: IDebugProgram2::GetENCUpdate
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgram2::GetENCUpdate
 helpviewer_keywords:
 - IDebugProgram2::GetENCUpdate
-ms.assetid: 9832aac8-6320-4fd8-91dd-2a0852febb00
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProgram2::GetENCUpdate
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the Edit and Continue (ENC) update for this program. A custom debug engine always returns `E_NOTIMPL`.
 
 ## Syntax

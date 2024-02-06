@@ -1,23 +1,19 @@
 ---
 description: "This interface is sent by the debug engine (DE) to the session debug manager (SDM) when asynchronous expression evaluation is complete."
-title: IDebugExpressionEvaluationCompleteEvent2 | Microsoft Docs
+title: IDebugExpressionEvaluationCompleteEvent2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugExpressionEvaluationCompleteEvent2
 helpviewer_keywords:
 - IDebugExpressionEvaluationCompleteEvent2
-ms.assetid: d538fc19-55bf-4231-9595-eb01e84fd1d8
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugExpressionEvaluationCompleteEvent2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) when asynchronous expression evaluation is complete.
 
 ## Syntax

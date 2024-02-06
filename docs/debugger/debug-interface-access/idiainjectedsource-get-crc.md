@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a cyclic redundancy check (CRC) calculated from the bytes of the source code."
-title: "IDiaInjectedSource::get_crc | Microsoft Docs"
+title: "IDiaInjectedSource::get_crc"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaInjectedSource::get_crc method"
-ms.assetid: 2ecdda93-950e-40d6-b79b-4ae3c55b6cfc
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaInjectedSource::get_crc
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a cyclic redundancy check (CRC) calculated from the bytes of the source code.
 
 ## Syntax

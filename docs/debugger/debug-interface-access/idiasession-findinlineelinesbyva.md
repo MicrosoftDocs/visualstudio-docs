@@ -1,21 +1,17 @@
 ---
 description: "IDiaSession::findInlineeLinesByVA retrieves an enumeration that allows a client to iterate through the line number information of all functions that are inlined, directly or indirectly, by the specified parent symbol and are contained within the specified virtual address (VA)."
-title: "IDiaSession::findInlineeLinesByVA | Microsoft Docs"
+title: "IDiaSession::findInlineeLinesByVA"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: dffe6594-e0d1-4ed5-aeea-8773f88d82a6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSession::findInlineeLinesByVA
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves an enumeration that allows a client to iterate through the line number information of all functions that are inlined, directly or indirectly, by the specified parent symbol and are contained within the specified virtual address (VA).
 
 ## Syntax

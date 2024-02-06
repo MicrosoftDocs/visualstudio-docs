@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a specified symbol type that contains, or is closest to, a specified relative virtual address (RVA) and offset."
-title: "IDiaSession::findSymbolByRVAEx | Microsoft Docs"
+title: "IDiaSession::findSymbolByRVAEx"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSession::findSymbolByRVAEx method"
-ms.assetid: 61344966-fed4-4c02-9e27-20356ec2ef7c
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSession::findSymbolByRVAEx
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a specified symbol type that contains, or is closest to, a specified relative virtual address (RVA) and offset.
 
 ## Syntax

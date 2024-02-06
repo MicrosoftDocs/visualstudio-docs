@@ -1,22 +1,21 @@
 ---
-title: Connected services
-description: Learn about how you can add connections to Azure services in Visual Studio
+title: Connect to Azure services, gRPC, OpenAPI, and more
+description: Connect your application to Azure services, OpenAPI and other endpoints, databases, and data providers with Connected Services in Visual Studio on Windows.
 author: ghogen
 manager: jmartens
-ms.technology: vs-azure
-ms.custom: vs-azure
-ms.workload: azure-vs
+ms.subservice: azure-development
 ms.topic: overview
 ms.date: 08/01/2022
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
-# About Visual Studio Connected Services
+# Connect to Azure services, gRPC, OpenAPI, and more
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+Developers are building apps with an increasing number of services, yet the service technologies are evolving just as fast.  
 
-Developers are building apps with an increasing number of services, yet the service technologies are evolving just as fast.  Visual Studio offers a modern service consumption experience, **Connected Services**, that enables each service the ability to tailor their consumption experience, prompting the developer for the relevant questions they need to get started quickly.  Connected Services includes a collection of tools in Visual Studio that help you connect your application to the following:
+With Visual Studio's **Connected Services**, you get a modern service consumption experience that enables each service the ability to tailor their consumption experience, prompting you for the relevant questions you need to get started quickly.  
 
+Connected Services includes a collection of tools in Visual Studio that help you connect your application to the following:
 * [Azure services](#azure)
 * OpenAPI endpoints
 * gRPC (Remote Procedure Call) endpoints
@@ -32,6 +31,8 @@ Get started by right-clicking on the project node, and choosing **Add > Connecte
 :::moniker-end
 
 Supported project types vary by the type of service. You'll see the options that apply to your project type in the listed selections.
+
+[!INCLUDE [subscription-azure-benefits](includes/subscription-azure-benefits.md)]
 
 <a name="azure"/>
 

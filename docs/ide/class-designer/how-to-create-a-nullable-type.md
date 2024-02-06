@@ -6,20 +6,15 @@ ms.topic: how-to
 helpviewer_keywords:
 - nullable types, Class Designer
 - Class Designer [Visual Studio], nullable types
-ms.assetid: 84673a89-3f6d-4668-919e-1c0f56182fe5
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 dev_langs:
 - CSharp
 - VB
-ms.workload:
-- multiple
 ---
 # Create a nullable type in Class Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Certain value types do not always have (or need) a defined value. This is common practice in databases, where some fields might not be assigned any value. For example, you might assign a null value to a database field to signify that it has not yet been assigned a value.
 
@@ -86,7 +81,7 @@ For more information about nullable types in C#, see [Nullable Types](/dotnet/cs
 
 1. Right-click the class shape and click **Class Details**. You can view or modify the new type's properties in the **Class Details** window.
 
-## See also
+## Related content
 
 - <xref:System.Nullable%601>
 - [Nullable Types](/dotnet/csharp/programming-guide/nullable-types/index)

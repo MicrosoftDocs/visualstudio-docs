@@ -1,23 +1,19 @@
 ---
 description: "Maintains stack context between invocations of the IDiaFrameData::execute) method."
-title: "IDiaStackWalkFrame | Microsoft Docs"
+title: "IDiaStackWalkFrame"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaStackWalkFrame interface"
-ms.assetid: 42d82845-d6f6-4846-9ecd-9dd169216077
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaStackWalkFrame
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Maintains stack context between invocations of the [IDiaFrameData::execute](../../debugger/debug-interface-access/idiaframedata-execute.md) method.
 
 ## Syntax

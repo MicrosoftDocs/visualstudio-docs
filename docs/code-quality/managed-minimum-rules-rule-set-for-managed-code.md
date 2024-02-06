@@ -3,17 +3,12 @@ title: Managed Minimum Rules rule set for managed code
 ms.date: 11/04/2016
 description: Learn about the Managed Minimum Rules rule set in Visual Studio, which focuses on security, robustness, and other critical issues. See rule descriptions.
 ms.topic: reference
-ms.assetid: 44a50c54-8dd3-42b2-8387-532a150e5a6c
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-code-analysis
-ms.workload:
-- dotnet
+ms.subservice: code-analysis
 ---
 # Managed Minimum Rules rule set for managed code
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Managed Minimum rules focus on the most critical problems in your code, including potential security holes, application crashes, and other important logic and design errors. Include this rule set in any custom rule set you create for your projects.
 

@@ -1,26 +1,22 @@
 ---
 description: "Determines whether a process can be terminated."
-title: IDebugPortEx2::CanTerminateProcess | Microsoft Docs
+title: IDebugPortEx2::CanTerminateProcess
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPortEx2::CanTerminateProcess
 helpviewer_keywords:
 - IDebugPortEx2::CanTerminateProcess
-ms.assetid: 111f65d8-5a1a-42b3-9de3-dd9bb03a33fd
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPortEx2::CanTerminateProcess
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines whether a process can be terminated.
 
 ## Syntax

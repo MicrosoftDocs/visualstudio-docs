@@ -1,6 +1,6 @@
 ---
 description: "Deletes the breakpoint."
-title: IDebugBoundBreakpoint2::Delete | Microsoft Docs
+title: IDebugBoundBreakpoint2::Delete
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,20 +8,16 @@ f1_keywords:
 helpviewer_keywords:
 - Delete method
 - IDebugBoundBreakpoint2::Delete method
-ms.assetid: 7088dc66-f24a-446f-a52a-397d02457a41
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugBoundBreakpoint2::Delete
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Deletes the breakpoint.
 
 ## Syntax

@@ -1,22 +1,18 @@
 ---
-title: PreviewImage Element (Visual Studio Templates) | Microsoft Docs
+title: PreviewImage Element (Visual Studio Templates)
 description: Learn about the PreviewImage element and how it specifies the file name for the preview image that will appear in the New Project or Add New Item dialog box.
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 helpviewer_keywords:
 - <PreviewImage> Element (Visual Studio Templates)
 - PreviewImage Element (Visual Studio Templates)
-ms.assetid: d1796f20-523b-4e0d-8ac3-ca87f3b5a9b6
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.workload:
-- vssdk
 ---
 # PreviewImage element (Visual Studio templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the preview image, as a file name, for the preview image that will appear in either the **New Project** or **Add New Item** dialog box.
 
  \<VSTemplate>

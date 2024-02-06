@@ -1,23 +1,18 @@
 ---
-title: "Write JavaScript code in Visual Studio without a solution or project"
+title: Write JavaScript code in Visual Studio without solution or project
 titleSuffix: ""
-description: Visual Studio provides support for creating code without a dependence on a project file or solution file
-
+description: Write JavaScript code in Visual Studio without placing the code in a solution or project, and start working quickly with IntelliSense, search, debugging, and more. 
 ms.date: "01/23/2023"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
-ms.workload:
-  - "nodejs"
 ---
 # Develop JavaScript and TypeScript code in Visual Studio without solutions or projects
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Starting in Visual Studio 2017, you can [develop code without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md), which enables you to open a folder of code and immediately start working with rich editor support such as IntelliSense, search, refactoring, debugging, and more. In addition to these features, the Node.js Tools for Visual Studio adds support for building TypeScript files, managing npm packages, and running npm scripts.
 

@@ -6,9 +6,9 @@ summary: The Visual Studio debugger helps you observe the run-time behavior of y
 metadata:
   title: Debugger documentation - Visual Studio (Windows) # Required; page title displayed in search results. Include the brand. < 60 chars.
   titleSuffix: ""
-  description: Learn how to use Visual Studio to debug applications and code.
+  description: Explore documentation to help you use Visual Studio to debug applications and code, observe application run-time behavior, and find and fix problems in the code.
   ms.topic: landing-page
-  ms.technology: vs-ide-debug
+  ms.subservice: debug-diagnostics
   author: mikejo5000
   ms.author: mikejo
   manager: jmartens
@@ -30,6 +30,8 @@ landingContent:
             url: getting-started-with-the-debugger-cpp.md
           - text: Learn to debug Visual Basic
             url: ../get-started/visual-basic/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
+          - text: Try AI-assisted debugging
+            url: debug-with-copilot.md  
           - text: Run Python code in the debugger >>
             url: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
           - text: Debugging for absolute beginners
@@ -81,6 +83,29 @@ landingContent:
             url: autos-and-locals-windows.md
           - text: Set a watch on variables
             url: watch-and-quickwatch-windows.md
+
+  - title: Measure performance
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Get started analyzing CPU usage
+            url: ../profiling/beginners-guide-to-performance-profiling.md
+          - text: Get started measuring memory usage
+            url: ../profiling/memory-usage.md
+          - text: AI-assisted CPU usage auto insights with Copilot
+            url: debug-with-copilot.md#get-ai-assistance-for-auto-insights
+      - linkListType: overview
+        links:
+          - text: First look at profiling tools
+            url: ../profiling/profiling-feature-tour.md
+          - text: Which tool should I use?
+            url: ../profiling/choose-performance-tool.md
+          - text: Ways to run profiling tools
+            url: ../profiling/running-profiling-tools-with-or-without-the-debugger.md
+      - linkListType: concept
+        links:
+         - text: Understanding performance collection methods
+           url: ../profiling/understanding-performance-collection-methods-perf-profiler.md
 
   # Card
   - title: Collaborate

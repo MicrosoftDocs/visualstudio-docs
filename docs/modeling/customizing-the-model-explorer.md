@@ -10,13 +10,10 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+ms.subservice: modeling
 ---
 # Customizing the Model Explorer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can change the appearance and behavior of the explorer for your domain-specific language designer as follows:
 
 - Change the window title.
@@ -109,6 +106,6 @@ You can change the appearance and behavior of the explorer for your domain-speci
 
      The explorer should show only an **Actors** node, and should not show the **Comments** node.
 
-## See also
+## Related content
 
 - [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

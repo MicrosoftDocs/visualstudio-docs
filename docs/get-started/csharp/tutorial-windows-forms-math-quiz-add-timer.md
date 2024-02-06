@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: Add a timer to a Windows Forms app"
-description: Learn how to use the Visual Studio IDE to add a Timer control and event handler to the math quiz Windows Forms app.
+description: Add a Timer control and event handler to a math quiz Windows Forms application in the Visual Studio integrated development environment (IDE).
 ms.custom: vs-acquisition
 dev_langs:
   - "CSharp"
@@ -10,13 +10,9 @@ ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Tutorial: Add a timer to a math quiz WinForms app
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this series of four tutorials, you'll build a math quiz. The quiz contains four random math problems that a quiz taker tries to answer within a specified time.
 

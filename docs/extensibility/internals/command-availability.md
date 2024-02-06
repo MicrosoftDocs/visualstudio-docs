@@ -1,22 +1,17 @@
 ---
-title: Command Availability | Microsoft Docs
+title: Command Availability
 description: Learn how command context, which changes based on the current project, current editor, and other factors, determines which commands are available in Visual Studio.
 ms.date: 03/22/2018
 ms.topic: conceptual
 helpviewer_keywords:
 - commands, context
 - menu items, visibility contexts
-ms.assetid: c74e3ccf-d771-48c8-a2f9-df323b166784
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Command availability
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio context determines which commands are available. The context can change depending on the current project, the current editor, the VSPackages that are loaded, and other aspects of the integrated development environment (IDE).
 
@@ -51,7 +46,7 @@ If an appropriate command context GUID is not already defined, you can define on
 > [!CAUTION]
 > Make sure that your VSPackage does not affect any existing context GUIDs because other VSPackages may depend on them.
 
-## See also
+## Related content
 
 - [Selection context objects](../../extensibility/internals/selection-context-objects.md)
 - [How VSPackages add user interface elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)

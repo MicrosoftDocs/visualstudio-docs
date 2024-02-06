@@ -1,5 +1,5 @@
 ---
-title: "Debug at design time | Microsoft Docs"
+title: "Debug at design time"
 description: Use the Immediate window to debug code at design time, without running the app. You can execute a function and examine the state when a breakpoint is hit.
 ms.date: "06/06/2023"
 ms.topic: "conceptual"
@@ -10,17 +10,12 @@ helpviewer_keywords:
   - "breakpoints, design-time debugging"
   - "Immediate window, design-time debugging"
   - "design-time debugging"
-ms.assetid: 35bfdd2c-6f60-4be1-ba9d-55fce70ee4d8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Debug at design time in Visual Studio (C#, C++/CLI, Visual Basic, F#)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To debug code at design time instead of while an app is running, you can use the **Immediate** window.
 
@@ -104,6 +99,6 @@ The following example is in Visual Basic. You can also use the **Immediate** win
 
 1. Debug the code in the second instance of Visual Studio.
 
-## See also
+## Related content
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Debugger security](../debugger/debugger-security.md)

@@ -1,7 +1,6 @@
 ---
-title: "Debugging a Windows Form | Microsoft Docs"
+title: "Debugging a Windows Form"
 description: Follow a walkthrough to see how to create and debug a Windows Form, a common managed application. You can use C#, Visual Basic, or C++.
-
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -17,17 +16,13 @@ helpviewer_keywords:
   - "Attach to Process dialog box, walkthroughs"
   - "Windows Forms, debugging"
   - "debugging Windows Forms, walkthroughs"
-ms.assetid: 529db1e2-d9ea-482a-b6a0-7c543d17f114
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Walkthrough: Debugging a Windows Form
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A Windows Form is one of the most common managed applications. A Windows Form creates a standard Windows application. You can complete this walkthrough using Visual Basic, C#, or C++.
 
  First, you must close any open solutions.
@@ -192,6 +187,6 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
 
      The debugger breaks execution of the Windows Form at the breakpoint.
 
-## See also
+## Related content
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)
 - [Debugger Security](../debugger/debugger-security.md)

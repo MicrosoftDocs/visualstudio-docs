@@ -7,17 +7,13 @@ helpviewer_keywords:
 - VSPackages, CATIDs
 - GUIDs, VSPackages
 - CATIDs for VSPackages
-ms.assetid: 0c7fdb66-ed96-4b36-89f6-021bca573572
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # CATIDs for objects that are typically used to extend projects
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following table lists CATIDs that are used to extend `Project` and `ProjectItem` automation objects for Visual Basic, Visual C#, and Visual C++ projects. These CATIDs are defined in *VSLangProj.olb*.
 
 ## Listing of CATIDs

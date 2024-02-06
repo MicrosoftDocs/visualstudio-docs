@@ -1,22 +1,17 @@
 ---
-title: How to create and apply a resource
+title: Create and apply a resource
 description: Learn how to create and apply a resource in the XAML Designer so that you can store and reuse styles and templates for elements.
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
 - VS.XamlDesigner.CreateResource
 - VS.XamlDesigner.EditResource
-ms.assetid: 3ff4006d-659d-4073-9a41-06ff85e6cfdf
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.technology: vs-xaml-tools
-ms.workload:
-- multiple
+ms.subservice: xaml-tools
 ---
-# How to create and apply a resource
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Create and apply a resource
 
 Styles and templates for elements in the XAML Designer are stored in reusable entities called resources. Styles enable you to set element properties and reuse those settings for a consistent appearance across multiple elements. A [ControlTemplate](xref:Windows.UI.Xaml.Controls.ControlTemplate) defines the appearance of a control and can also be applied as a resource. For more information, see [XAML styles](/windows/uwp/design/controls-and-patterns/xaml-styles) and [Control templates](/windows/uwp/design/controls-and-patterns/control-templates).
 
@@ -71,6 +66,6 @@ Whenever you create a new resource from an existing property, [Style](xref:Windo
 
 3. Modify options for the resource.
 
-## See also
+## Related content
 
 - [Creating a UI by using XAML Designer](../xaml-tools/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)

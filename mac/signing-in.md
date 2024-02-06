@@ -5,8 +5,6 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 04/26/2022
-ms.assetid: E4CFD03C-03AF-48CA-B409-6DB1CA45E991
-ms.custom: devdivchpfy22
 ms.topic: how-to
 ---
 # Sign in to Visual Studio for Mac
@@ -31,7 +29,6 @@ If you do decide not to log in straight away, you'll be able to use an evaluatio
 > Make sure that you're connected to the internet before signing in to Visual Studio for Mac. Subscriptions can only be activated online. If you're not connected, select "I'll do this later" and log in through the menu when you get connected.
 
 To sign in to Visual Studio for Mac on first launch, follow these steps:
-
 
 ::: moniker range="vsmac-2022"
 
@@ -64,7 +61,6 @@ To sign in to Visual Studio for Mac on first launch, follow these steps:
 Visual Studio for Mac supports adding multiple accounts to your personalization account. These accounts will allow you to access resources, such as Azure, from any added account.
 
 To add additional user accounts, choose the **Visual Studio > Account...** menu from Visual Studio for Mac. Select the **Add...** button to enter additional account credentials.
-
 
 ::: moniker range="vsmac-2022"
 

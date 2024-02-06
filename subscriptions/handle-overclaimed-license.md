@@ -1,15 +1,14 @@
 ---
-title: Handle over-allocated licenses in Visual Studio subscriptions | Microsoft Docs
+title: Handle over-allocated licenses in Visual Studio subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: a747100c-6f08-41a4-aaad-05099741742b
 ms.date: 03/20/2023
 ms.topic: conceptual
 description:  Learn how admins can resolve over-allocated subscriptions
 ---
 
-# How to handle over-allocated subscriptions
+# Handle over-allocated subscriptions
 
 Sometimes orders are changed after subscribers have been added, which can result in having more assigned subscriptions than licenses owned by your company, which is called "over-allocation".  
 
@@ -37,7 +36,6 @@ There are several ways to resolve over-allocations:
 ## Billing and true-up
 
 If your organization has an Enterprise Agreement (EA), admins are able to assign subscriptions without purchasing them, and pay for them later through a reconciliation process known as a "true-up".  When you over-allocate, your organization is billed for the maximum number of subscriptions assigned to users during the "true-up".  The billing takes place even if you no longer have the maximum number of subscriptions assigned at the time the true-up takes place.  To learn more about monitoring your maximum usage, visit the [Maximum Usage](maximum-usage.md) article.
-
 
 ## See also
 

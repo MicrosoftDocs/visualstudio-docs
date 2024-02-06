@@ -1,26 +1,22 @@
 ---
 description: "Gets the source code range of this document context."
-title: IDebugDocumentContext2::GetSourceRange | Microsoft Docs
+title: IDebugDocumentContext2::GetSourceRange
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDocumentContext2::GetSourceRange
 helpviewer_keywords:
 - IDebugDocumentContext2::GetSourceRange
-ms.assetid: 5903c75e-5390-4d13-9314-1ee276255313
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugDocumentContext2::GetSourceRange
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the source code range of this document context.
 
 ## Syntax

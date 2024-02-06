@@ -1,26 +1,22 @@
 ---
 description: "This method returns the next set of IDebugObject elements from the enumeration."
-title: IEnumDebugObjects::Next | Microsoft Docs
+title: IEnumDebugObjects::Next
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugObjects::Next
 helpviewer_keywords:
 - IEnumDebugObjects::Next method
-ms.assetid: e54c3055-6030-4dc9-9f7a-5e3ce75f252f
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugObjects::Next
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method returns the next set of elements from the enumeration.
 
 ## Syntax

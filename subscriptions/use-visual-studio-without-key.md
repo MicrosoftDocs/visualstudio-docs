@@ -1,15 +1,14 @@
 ---
-title: How to use Visual Studio without a product key | Microsoft Docs
+title: Use Visual Studio without a product key
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: dc9e8aa8-cbcc-4c65-a657-56ae984713dc
 ms.date: 12/06/2022
 ms.topic: how-to
 description:  Learn how to install and use Visual Studio if you don't have access to downloads
 ---
 
-# How to download and use Visual Studio if you don't have access to downloads
+# Download and use Visual Studio if you don't have access to downloads
 
 If your Visual Studio subscription is provided to you by your work or school, or you're in a special program that provides limited subscriptions, you may not have access to software downloads and product keys in the subscriber portal.  
 
@@ -30,7 +29,6 @@ After Visual Studio is installed, you'll need to launch it to sign in.
 
 That's all there is to it.  As long as you're signed in your computer, Visual Studio will recognize you automatically.  If you restart your computer, you'll be prompted to sign in again.  
 
-
 ## Support resources
 
 + For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).
@@ -39,7 +37,6 @@ That's all there is to it.  As long as you're signed in your computer, Visual St
 ## See also
 
 + [Visual Studio documentation](/visualstudio/)
-
 
 ## Next steps
 

@@ -1,17 +1,15 @@
 ---
 title: "Linting JavaScript in Visual Studio"
-description: Learn how to lint JavaScript in Visual Studio
+description: Use ESLint to lint JavaScript and TypeScript in Visual Studio, install dependencies, configure linting rules, and access troubleshooting support.
 ms.date: 06/28/2023
 ms.topic: how-to
 ms.devlang: javascript
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
-ms.workload:
-  - "nodejs"
 monikerRange: '>= vs-2022'
 ---
 

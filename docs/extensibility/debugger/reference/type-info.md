@@ -1,26 +1,22 @@
 ---
 description: "This structure specifies various kinds of information about a field's type."
-title: TYPE_INFO | Microsoft Docs
+title: TYPE_INFO
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - TYPE_INFO
 helpviewer_keywords:
 - TYPE_INFO structure
-ms.assetid: d725cb68-a565-49d1-a16f-ff0445c587a0
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # TYPE_INFO
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This structure specifies various kinds of information about a field's type.
 
 ## Syntax

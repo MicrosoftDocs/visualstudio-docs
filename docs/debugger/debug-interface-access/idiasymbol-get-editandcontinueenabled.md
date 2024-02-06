@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a flag indicating whether the module was compiled with the /Z7, /Zi, /ZI (Debug Information Format)) compiler switch."
-title: "IDiaSymbol::get_editAndContinueEnabled | Microsoft Docs"
+title: "IDiaSymbol::get_editAndContinueEnabled"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_editAndContinueEnabled method"
-ms.assetid: cd703c64-9ff8-4654-8493-8cde9309cb22
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_editAndContinueEnabled
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag indicating whether the module was compiled with the [/Z7, /Zi, /ZI (Debug Information Format)](/cpp/build/reference/z7-zi-zi-debug-information-format) compiler switch.
 
 ## Syntax

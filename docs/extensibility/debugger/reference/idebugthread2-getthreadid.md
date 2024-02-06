@@ -1,26 +1,22 @@
 ---
 description: "Gets the system thread identifier."
-title: IDebugThread2::GetThreadId | Microsoft Docs
+title: IDebugThread2::GetThreadId
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugThread2::GetThreadId
 helpviewer_keywords:
 - IDebugThread2::GetThreadId
-ms.assetid: db8b1c07-6b86-47f9-b292-bac19c276d36
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugThread2::GetThreadId
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the system thread identifier.
 
 ## Syntax

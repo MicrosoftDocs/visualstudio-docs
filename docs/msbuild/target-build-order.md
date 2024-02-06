@@ -1,17 +1,14 @@
 ---
-title: Target Build Order | Microsoft Docs
-description: Learn how to specify the order in which MSBuild targets are run, if the input to one target depends on the output of another target.
-ms.date: 09/12/2022
-ms.topic: conceptual
+title: Set the run order for MSBuild targets
+description: Specify the order in which MSBuild targets run and whether the input to one target depends on the output of another target.
+ms.date: 10/17/2023
+ms.topic: how-to
 helpviewer_keywords:
 - msbuild, build order
-ms.assetid: f4a26339-9f9a-497a-9aa6-0797183d450d
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 
 # Target build order
@@ -20,7 +17,7 @@ Targets must be ordered if the input to one target depends on the output of anot
 
 - `InitialTargets`. This `Project` attribute specifies the targets that will run first, even if targets are specified on the command line or in the `DefaultTargets` attribute.
 
-- `DefaultTargets`. This `Project` attribute specifies which targets are run if a target is not specified explicitly on the command line.
+- `DefaultTargets`. This `Project` attribute specifies which targets are run if a target isn't specified explicitly on the command line.
 
 - `DependsOnTargets`. This `Target` attribute specifies targets that must run before this target can run.
 
@@ -28,7 +25,7 @@ Targets must be ordered if the input to one target depends on the output of anot
 
 A target is never run twice during a build, even if a subsequent target in the build depends on it. Once a target has been run, its contribution to the build is complete.
 
-Targets may have a `Condition` attribute. If the specified condition evaluates to `false`, the target isn't executed and has no effect on the build. For more information about conditions, see [Conditions](../msbuild/msbuild-conditions.md).
+Targets can have a `Condition` attribute. If the specified condition evaluates to `false`, the target isn't executed and has no effect on the build. For more information about conditions, see [Conditions](../msbuild/msbuild-conditions.md).
 
 ## Initial targets
 
@@ -40,7 +37,7 @@ The value of the `InitialTargets` attribute can be a semicolon-delimited, ordere
 <Project InitialTargets="Warm;Eject" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 ```
 
-Imported projects may have their own `InitialTargets` attributes. All initial targets are aggregated together and run in order.
+Imported projects can have their own `InitialTargets` attributes. All initial targets are aggregated together and run in order.
 
 For more information, see [How to: Specify which target to build first](../msbuild/how-to-specify-which-target-to-build-first.md).
 
@@ -60,7 +57,7 @@ You can override the default targets by using the **-target** switch on the comm
 
 If both initial targets and default targets are specified, and if no command-line targets are specified, MSBuild runs the initial targets first, and then runs the default targets.
 
-Imported projects may have their own `DefaultTargets` attributes. The first `DefaultTargets` attribute encountered determines which default targets will run.
+Imported projects can have their own `DefaultTargets` attributes. The first `DefaultTargets` attribute encountered determines which default targets will run.
 
 For more information, see [How to: Specify which target to build first](../msbuild/how-to-specify-which-target-to-build-first.md).
 
@@ -111,7 +108,7 @@ Alternately, specify the order as
 </Target>
 ```
 
-It is not generally useful to specify *both* `BeforeTargets` and `AfterTargets` on the same target. As described in the next section, only the first target encountered will cause the new target to run.
+It isn't useful to specify *both* `BeforeTargets` and `AfterTargets` on the same target. As described in the next section, only the first target encountered will cause the new target to run.
 
 ## Determine the target build order
 
@@ -128,7 +125,7 @@ MSBuild determines the target build order as follows:
 4. Before the target is executed or skipped, its `DependsOnTargets` targets are run, unless the `Condition` attribute is applied to the target and evaluates to `false`.
 
    > [!NOTE]
-   > A target is considered skipped if it is not executed because its output items are up-to-date (see [incremental build](../msbuild/incremental-builds.md)). This check is done just before executing the tasks inside the target, and does not affect the order of execution of targets.
+   > A target is considered skipped if it isn't executed because its output items are up-to-date (see [incremental build](../msbuild/incremental-builds.md)). This check is done just before executing the tasks inside the target, and does not affect the order of execution of targets.
 
 5. Before the target is executed or skipped, any other target that lists the target in a `BeforeTargets` attribute is run.
 
@@ -136,6 +133,6 @@ MSBuild determines the target build order as follows:
 
 7. After the target is executed or skipped, any other target that lists it in an `AfterTargets` attribute is run.
 
-## See also
+## Related content
 
 - [Targets](../msbuild/msbuild-targets.md)

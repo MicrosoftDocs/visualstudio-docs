@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a reference to the compiland symbol that contributed this section."
-title: "IDiaSectionContrib::get_compiland | Microsoft Docs"
+title: "IDiaSectionContrib::get_compiland"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSectionContrib::get_compiland method"
-ms.assetid: c0496f6f-f8f2-435f-8674-6c32db6c5934
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSectionContrib::get_compiland
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a reference to the compiland symbol that contributed this section.
 
 ## Syntax

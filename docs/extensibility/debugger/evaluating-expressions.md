@@ -1,5 +1,5 @@
 ---
-title: Evaluating Expressions | Microsoft Docs
+title: Evaluating Expressions
 description: Learn about evaluating expressions, which are created from strings passed down from the Autos, Watch, QuickWatch, or Immediate windows.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,17 +7,13 @@ helpviewer_keywords:
 - expressions [Debugging SDK], evaluating
 - debugging [Debugging SDK], expression evaluation
 - expression evaluation
-ms.assetid: 5ccfcc80-dea5-48a1-8bae-6a26f8d3bc56
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # Evaluate expressions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Expressions are created from strings passed down from the **Autos**, **Watch**, **QuickWatch**, or **Immediate** windows. When an expression is evaluated, it generates a printable string that contains the name and type of variable or argument and its value. This string is displayed in the corresponding IDE window.
 
 ## Implementation
@@ -29,7 +25,7 @@ Expressions are created from strings passed down from the **Autos**, **Watch**, 
 
  To enable expression evaluation, a DE must implement the [IDebugExpression2](../../extensibility/debugger/reference/idebugexpression2.md) and [IDebugExpressionContext2](../../extensibility/debugger/reference/idebugexpressioncontext2.md) interfaces. Both synchronous and asynchronous evaluation require the implementation of the [IDebugProperty2::GetPropertyInfo](../../extensibility/debugger/reference/idebugproperty2-getpropertyinfo.md) method.
 
-## See also
+## Related content
 - [Stack frames](../../extensibility/debugger/stack-frames.md)
 - [Expression evaluation context](../../extensibility/debugger/expression-evaluation-context.md)
 - [Debug tasks](../../extensibility/debugger/debugging-tasks.md)

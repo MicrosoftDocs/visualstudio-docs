@@ -1,25 +1,21 @@
 ---
 description: "Retrieves the name of the assembly given its module and application domain."
-title: IDebugComPlusSymbolProvider::GetAssemblyName | Microsoft Docs
+title: IDebugComPlusSymbolProvider::GetAssemblyName
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugComPlusSymbolProvider::GetAssemblyName
 - GetAssemblyName
-ms.assetid: a08cd609-b9b9-47bd-bf73-cbf851285907
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetAssemblyName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the name of the assembly given its module and application domain.
 
 ## Syntax

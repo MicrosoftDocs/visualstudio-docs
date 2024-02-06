@@ -1,6 +1,6 @@
 ---
 title: Work with data in Visual Studio
-description: Work with data in Visual Studio. Create apps that connect to data in other database products or services over local machines, LANs, or public or private clouds.
+description: Work with data in Visual Studio and create apps that connect to data in other database products or services over local machines, LANs, and public or private clouds.
 ms.date: 09/14/2023
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,13 +11,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
 # Work with data in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In Visual Studio, you can create applications that connect to data in virtually any database product or service, in any format, anywhere—on a local machine, on a local area network, or in a public, private, or hybrid cloud.
 
@@ -189,7 +185,7 @@ Install [Python support in Visual Studio](../python/overview-of-python-tools-for
 - [Django and MySQL on Azure](/azure/app-service-web/web-sites-python-ptvs-django-mysql)
 - Work with [blobs](/azure/storage/blobs/storage-quickstart-blobs-python), [files](/azure/storage/files/storage-python-how-to-use-file-storage), [queues](/azure/storage/queues/storage-quickstart-queues-python), and [tables (Cosmo DB)](/azure/cosmos-db/table-storage-how-to-use-python).
 
-## Related topics
+## Related content
 
 [Microsoft AI platform](https://azure.microsoft.com/overview/ai-platform/?v=17.42w)&mdash;Provides an introduction to the Microsoft intelligent cloud, including Cortana Analytics Suite and support for Internet of Things.
 

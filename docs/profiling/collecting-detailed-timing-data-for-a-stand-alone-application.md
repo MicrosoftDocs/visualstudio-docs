@@ -6,17 +6,12 @@ ms.topic: how-to
 helpviewer_keywords: 
   - profiling tools,instrumentation method
   - instrumentation profiling method
-ms.assetid: 4017d9d1-d609-4f41-8e4e-976abae746b3
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
 # Collect detailed timing data for a stand-alone application by using the profiler command line
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article describes the procedures and options for collecting detailed performance data for a client (stand-alone) component such as a DLL by using the instrumentation method from the command line. Use the instrumentation method to collect detailed timing information. Instrumentation data is useful for analyzing I/O issues and for fine-grained analysis of application scenarios.
 
@@ -32,7 +27,7 @@ Using [VSInstr](../profiling/vsinstr.md), you can instrument DLLs for which you 
 |**Profile a .NET Framework application by using instrumentation**|-   [Instrument a .NET component and collect detailed timing data](../profiling/instrument-dotnet-framework-component-and-collect-timing-data.md)|
 |**Profile a C/C++ application by using instrumentation**|-   [Instrument a native component and collect detailed timing data](../profiling/instrument-native-component-and-collect-timing-data.md)|
 
-## Reference
+## Related content
 
 - [VSIntr](../profiling/vsinstr.md)
 - [VSPerfCmd](../profiling/vsperfcmd.md)

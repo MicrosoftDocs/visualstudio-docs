@@ -1,22 +1,18 @@
 ---
-title: Registering a Tool Window | Microsoft Docs
+title: Registering a Tool Window
 description: Learn how you can register your tool windows with Visual Studio using ProvideToolWindowAttribute and ProvideToolWindowVisibilityAttribute.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - tool windows, registering managed
 - tool windows, registering
-ms.assetid: 8c8c4a24-3da4-497b-9db2-0ddd7cfbfdd2
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Register a tool window
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can register your tool windows using <xref:Microsoft.VisualStudio.Shell.ProvideToolWindowAttribute> and  <xref:Microsoft.VisualStudio.Shell.ProvideToolWindowVisibilityAttribute>.
 
 ## Example

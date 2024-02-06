@@ -1,24 +1,20 @@
 ---
 title: Create UIs with Visual Studio XAML Designer
-description: Learn about the workspace UI and features of the XAML Designer in Blend for Visual Studio that provides a visual interface to help you design XAML-based apps.
+description: Explore XAML Designer workspace UI and features in Blend for Visual Studio that provides a visual interface to help you design XAML-based apps.
 ms.date: 07/04/2023
 ms.topic: conceptual
-ms.custom: contperf-fy21q4
 f1_keywords:
 - VS.XamlDesigner
 - VS.DevicePanel
 - VS.DocumentOutline
 - Blend.Start.Dev12
 ms.devlang: CSharp
-ms.assetid: c54969a7-d75a-4a35-9b37-af7a596a7c24
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.technology: vs-xaml-tools
+ms.subservice: xaml-tools
 ---
 # Create a UI by using XAML Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The XAML Designer in Visual Studio and Blend for Visual Studio provides a visual interface to help you design XAML-based apps, such as WPF and UWP. You can create user interfaces for your apps by dragging controls from the Toolbox window (Assets window in Blend for Visual Studio) and setting properties in the Properties window. You can also edit XAML directly in XAML view.
 
@@ -163,7 +159,7 @@ To the right of each property value is a *property marker* that appears as a box
 
 For more information about using properties and handling events, see [Intro to controls and patterns](/windows/uwp/design/controls-and-patterns/controls-and-events-intro).
 
-## See also
+## Related content
 
 - [Work with elements in XAML Designer](../xaml-tools/working-with-elements-in-xaml-designer.md)
 - [How to create and apply a resource](../xaml-tools/how-to-create-and-apply-a-resource.md)

@@ -1,36 +1,30 @@
 ---
-title: "Debug managed code | Microsoft Docs"
+title: "Debug managed code"
 description: "Debug C# or Visual Basic using the Visual Studio debugger"
-
-ms.date: 03/18/2018
+ms.date: 10/23/2023
 ms.topic: quickstart
 helpviewer_keywords:
   - "debugger"
-ms.assetid: f4cea2e1-08dc-47ac-aba2-3b8c338e607f
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "dotnet"
+ms.subservice: debug-diagnostics
 ---
 # Quickstart: Debug with C# or Visual Basic using the Visual Studio debugger
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
-The Visual Studio debugger provides many powerful features to help you debug your apps. This topic provides a quick way to learn some of the basic features.
+The Visual Studio debugger provides many powerful features to help you debug your apps. This article provides a quick way to learn some of the basic features.
 
 ## Create a new project
 
 1. Open Visual Studio and create a new project.
 
-    If the start window is not open, choose **File** > **Start Window**. On the start window, choose **Create a new project**.
+    If the start window isn't open, choose **File** > **Start Window**. On the start window, choose **Create a new project**.
 
     On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list.
 
     After you apply the language and platform filters, choose the **Console App** template for .NET Core, and then choose **Next**.
 
-    Choose either the recommended target framework or .NET 6, and then choose **Create**.
+    Choose either the recommended target framework or .NET 8, and then choose **Create**.
 
     If you don't see the **Console App** project template for .NET Core, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET Core cross-platform development** workload, then choose **Modify**.
 
@@ -132,7 +126,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 ## Set a breakpoint
 
-A *breakpoint* is a marker that indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run. It is the most basic feature in debugging.
+A *breakpoint* is a marker that indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run. It's the most basic feature in debugging.
 
 1. To set the breakpoint, click in the gutter to the left of the `doWork` function call (or select the line of code and press **F9**).
 
@@ -142,7 +136,7 @@ A *breakpoint* is a marker that indicates where Visual Studio should suspend you
 
     ![Hit a breakpoint](../debugger/media/dbg-qs-hit-breakpoint-csharp.png "Hit a breakpoint")
 
-    The debugger pauses where you set the breakpoint. The statement where the debugger and app execution is paused is indicated by the yellow arrow. The line with the `doWork` function call hasn't yet executed.
+    The debugger pauses where you set the breakpoint. A yellow arrow identifies the statement where the debugger and app execution is paused. The line with the `doWork` function call hasn't yet executed.
 
     > [!TIP]
     > If you have a breakpoint in a loop or recursion, or if you have many breakpoints that you frequently step through, use a [conditional breakpoint](../debugger/using-breakpoints.md#BKMK_Specify_a_breakpoint_condition_using_a_code_expression) to make sure that your code is suspended ONLY when specific conditions are met. A conditional breakpoint can save time and it can also make it easier to debug issues that are hard to reproduce.
@@ -151,7 +145,7 @@ A *breakpoint* is a marker that indicates where Visual Studio should suspend you
 
 There are different commands to instruct the debugger to continue. We show a useful code navigation command that is available starting in Visual Studio 2017.
 
-While paused at the breakpoint, hover over the statement `c1.AddLast(20)` until the green **Run to click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears, and then press the **Run to click** button.
+While the code is paused at the breakpoint, hover over the statement `c1.AddLast(20)` until the green **Run to click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears, and then press the **Run to click** button.
 
 ![Run to click](../debugger/media/dbg-qs-run-to-click-csharp.png "Run to click")
 
@@ -169,13 +163,13 @@ Common keyboard commands used to step through code include **F10** and **F11**. 
 
 2. Expand the data tip to look at the current property values of the `c1` object.
 
-3. If you want to pin the data tip so that you can continue to see the value of `c1` while you execute code, click the small pin icon. (You can move the pinned data tip to a convenient location.)
+3. If you want to pin the data tip so that you can continue to see the value of `c1` while you execute code, select the small pin icon. (You can move the pinned data tip to a convenient location.)
 
 ## Edit code and continue debugging
 
 If you identify a change that you want to test in your code while in the middle of a debugging session, you can do that, too.
 
-1. Click the second instance of `c2.First.Value` and change `c2.First.Value` to `c2.Last.Value`.
+1. Select the second instance of `c2.First.Value` and change `c2.First.Value` to `c2.Last.Value`.
 
 2. Press **F10** (or **Debug > Step Over**) a few times to advance the debugger and execute the edited code.
 
@@ -187,7 +181,7 @@ For more information on using edit-and-continue and on feature limitations, see 
 
 ## Next steps
 
-In this tutorial, you've learned how to start the debugger, step through code, and inspect variables. You may want to get a high-level look at debugger features along with links to more information.
+In this tutorial, you've learned how to start the debugger, step through code, and inspect variables. You might want to get a high-level look at debugger features along with links to more information.
 
 > [!div class="nextstepaction"]
 > [First look at the debugger](../debugger/debugger-feature-tour.md)

@@ -6,13 +6,10 @@ ms.topic: conceptual
 author: madskristensen
 ms.author: madsk
 manager: pchapman
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-sdk
-ms.custom: cookbook, kr2b-contr-experiment
+
+ms.subservice: extensibility-integration
 ---
 # Matching Visual Studio themes in Visual Studio extensions
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Whenever you are building any custom UI using WPF, you need to make sure it matches the theming of Visual Studio. That way your UI will look native and feel more like a natural part of Visual Studio. If not, your tool windows and dialogs might end up looking like this in the Light theme:
 
@@ -73,7 +70,7 @@ That's all there is to it. Your dialog window is now themed using Visual Studio 
 ## Get the source code
 You can find the source code for this extension in the [Community Toolkit test project](https://github.com/VsixCommunity/Community.VisualStudio.Toolkit/tree/master/demo/VSSDK.TestExtension).
 
-## Additional resources
+## Related content
 Learn more about Visual Studio colors from these resources.
 
 * [Colors and styling for Visual Studio](../../ux-guidelines/colors-and-styling-for-visual-studio.md)

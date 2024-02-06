@@ -1,21 +1,17 @@
 ---
 description: "Retrieves the sub type."
-title: "IDiaSymbol::get_subType | Microsoft Docs"
+title: "IDiaSymbol::get_subType"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: 0b3cbf77-8f11-434a-ad60-ea9829fec6fa
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_subType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the sub type.
 
 ## Syntax

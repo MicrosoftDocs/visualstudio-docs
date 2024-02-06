@@ -1,5 +1,5 @@
 ---
-title: Create a Web Service Test
+title: Create web service test to locate web service pages
 description: Learn how to use a performance test for web services and customize requests in the Web Performance Test Editor to locate web service pages.
 ms.date: 08/03/2023
 ms.topic: how-to
@@ -7,15 +7,12 @@ helpviewer_keywords:
   - Web performance tests, creating Web service tests
   - Web services [Visual Studio ALM], creating
   - service tests, Web
-ms.assetid: fbcd57ee-06ad-4260-8694-09f8e0f93e39
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
+ms.subservice: test-tools
 ---
 # Create a web service test
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use a web performance test to test web services. For the most current documentation, see [How to create a web service test](/previous-versions/visualstudio/visual-studio-2017/test/how-to-create-a-web-service-test).
 

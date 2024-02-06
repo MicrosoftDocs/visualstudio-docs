@@ -1,5 +1,5 @@
 ---
-title: "Debugging GPU Code | Microsoft Docs"
+title: "Debugging GPU Code"
 description: Learn about debugging C++ code that's running on the graphics processing unit (GPU) in Visual Studio.
 ms.date: "02/22/2022"
 ms.topic: "conceptual"
@@ -8,17 +8,13 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: c7e77a5a-cb57-4b11-9187-ecc89acc8775
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Debugging GPU Code
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can debug C++ code that is running on the graphics processing unit (GPU). GPU debugging support in Visual Studio includes race detection, launching processes and attaching to them, and integration into the debugging windows.
 
 ## Supported Platforms
@@ -77,7 +73,7 @@ You can debug C++ code that is running on the graphics processing unit (GPU). GP
 ### Error: Timeout Detection and Recovery (TDR) must be disabled at the remote site.
  It is possible for C++ AMP computations to exceed the default time interval that's set by the Windows timeout detection and recovery process (TDR). When that happens, the computation is canceled and the data is lost. For more information, see [Handling TDRs in C++ AMP](/archive/blogs/nativeconcurrency/handling-tdrs-in-c-amp).
 
-## See also
+## Related content
 - [Walkthrough: Debugging a C++ AMP Application](/cpp/parallel/amp/walkthrough-debugging-a-cpp-amp-application)
 - [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
 - [Start GPU Debugging in Visual Studio](/archive/blogs/nativeconcurrency/start-gpu-debugging-in-visual-studio-2012)

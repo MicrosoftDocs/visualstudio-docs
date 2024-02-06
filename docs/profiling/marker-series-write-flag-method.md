@@ -1,23 +1,19 @@
 ---
 description: "Writes a flag to the Concurrency Visualizer trace file."
-title: marker_series::write_flag Method | Microsoft Docs
+title: marker_series::write_flag Method
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
 - cvmarkersojb/Concurrency, diagnostic::marker_series::write_flag
 helpviewer_keywords: 
 - Concurrency, diagnostic::marker_series::write_flag method
-ms.assetid: ca07f388-e5d5-46fd-b991-fe6e9029a68f
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
 # marker_series::write_flag method
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Writes a flag to the Concurrency Visualizer trace file.
 
 ## Syntax

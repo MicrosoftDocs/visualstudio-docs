@@ -1,5 +1,5 @@
 ---
-title: "Visualizer Architecture | Microsoft Docs"
+title: "Visualizer Architecture"
 description: A visualizer displays a specific type of data element, and may allow editing also. Learn about the architecture of a visualizer.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -8,17 +8,13 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: 6aad395f-7170-4d9e-b2b8-a5faf453380e
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Visualizer Architecture
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The architecture of a debugger visualizer has two parts:
 
 - The *debugger side* runs within the Visual Studio debugger. The debugger-side code creates and displays the user interface for your visualizer.
@@ -83,7 +79,7 @@ The architecture of a debugger visualizer has two parts:
 |---------------------|-------------------|
 |<xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.TransferData%2A><br /><br /> —or—<br /><br /> <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.TransferObject%2A>|<xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.TransferData%2A>|
 
-## See also
+## Related content
 - [Create custom visualizers for .NET objects](create-custom-visualizers-of-data.md)
 - [Walkthrough: Writing a Visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md)
 - [Walkthrough: Writing a Visualizer in Visual Basic](../debugger/walkthrough-writing-a-visualizer-in-visual-basic.md)

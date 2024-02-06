@@ -1,6 +1,6 @@
 ---
-title: "Assertions in Managed Code | Microsoft Docs"
-description: Learn about assertions as a debugging tool for C#, Visual Basic, or F# managed code in Visual Studio.
+title: "Assertions in Managed Code"
+description: Explore how to work with assertions as a debugging tool for C#, Visual Basic, or F# managed code applications in Visual Studio.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -17,17 +17,13 @@ helpviewer_keywords:
   - "assertions, side effects"
   - "Trace.Listeners property"
   - "assertions, managed code"
-ms.assetid: 70ab2522-6486-4076-a1a9-e0f11cd0f3a1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "dotnet"
+ms.subservice: debug-diagnostics
 ---
 # Assertions in Managed Code
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 An assertion, or `Assert` statement, tests a condition, which you specify as an argument to the `Assert` statement. If the condition evaluates to true, no action occurs. If the condition evaluates to false, the assertion fails. If you are running with a debug build, your program enters break mode.
 
 ## <a name="BKMK_In_this_topic"></a> In this topic
@@ -236,7 +232,7 @@ Trace.Assert(stacksize > 0, "Out of stack space. Bytes left:", "inctemp failed o
 ## <a name="BKMK_Setting_assertions_in_configuration_files"></a> Setting assertions in configuration files
  You can set assertions in your program configuration file as well as in your code. For more information, see <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName> or <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName>.
 
-## See also
+## Related content
 
 - <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName>
 - <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName>

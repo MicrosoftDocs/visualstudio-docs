@@ -3,17 +3,12 @@ title: XML snippets
 description: Learn about the XML snippets feature in the XML editor that allows you to build XML files more quickly by reusing XML snippets and inserting them into your files.
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.assetid: 348dbf64-3f09-4fff-b47a-a7ecdf3221cc
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
-ms.technology: vs-xml-tools
-ms.workload:
-- multiple
+ms.subservice: xml-tools
 ---
 # XML snippets
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The XML editor offers a feature, called *XML snippets*, that allows you to build XML files more quickly. You can reuse XML snippets by inserting them into your files. You can also generate XML data based on an XML schema definition language (XSD) schema.
 
@@ -47,7 +42,7 @@ The XML editor also has the ability to generate an XML snippet from an XML schem
 
 In addition to the snippets that are included with Visual Studio by default, you can also create and use your own XML snippets. For more information, see [How to: Create XML snippets](../xml-tools/how-to-create-xml-snippets.md).
 
-## See also
+## Related content
 
 - [Code snippets in Visual Studio](../ide/code-snippets.md)
 - [XML editor](../xml-tools/xml-editor.md)

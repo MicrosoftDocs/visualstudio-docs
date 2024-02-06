@@ -1,6 +1,6 @@
 ---
 description: "Due to security considerations, IIS has returned a generic error."
-title: "The Web Server Could Not Find the Requested Resource | Microsoft Docs"
+title: "The Web Server Could Not Find the Requested Resource"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 dev_langs:
@@ -13,13 +13,10 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Error: The Web Server Could Not Find the Requested Resource
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Due to security considerations, IIS has returned a generic error.
 
 One possible cause is the security configuration of the server. IIS 6.0 and earlier versions used an add-on program, known as URLScan, to filter out suspicious and malformed requests. IIS 7.0 has built-in Request Filtering for the same purpose. In both cases, overly restrictive request filtering can prevent Visual Studio from debugging the server.

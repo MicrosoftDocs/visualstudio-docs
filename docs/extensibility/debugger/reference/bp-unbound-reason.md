@@ -1,26 +1,22 @@
 ---
 description: "Gives the reason a breakpoint was unbound."
-title: BP_UNBOUND_REASON | Microsoft Docs
+title: BP_UNBOUND_REASON
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - BP_UNBOUND_REASON
 helpviewer_keywords:
 - BP_UNBOUND_REASON enumeration
-ms.assetid: 939b6f9c-113b-471d-9f30-b03871af6285
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # BP_UNBOUND_REASON
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gives the reason a breakpoint was unbound.
 
 ## Syntax

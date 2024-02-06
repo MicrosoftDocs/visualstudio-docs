@@ -6,17 +6,12 @@ ms.topic: how-to
 helpviewer_keywords:
 - editors, text case
 - text, case
-ms.assetid: b04d1327-a45e-4c12-a0d0-67672b3fa855
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
-# How to: Change text case in the editor
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Change text case in the editor
 
 You can use menu commands or keyboard shortcuts to convert the case of selected text to all upper case or to all lower case.
 
@@ -34,6 +29,6 @@ You can use menu commands or keyboard shortcuts to convert the case of selected 
 > [!TIP]
 > To revert to the previous case formatting before this change, select **Undo** from the **Edit** menu.
 
-## See also
+## Related content
 
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)

@@ -1,23 +1,19 @@
 ---
 description: "This interface provides several methods for accessing a port's server and notification facilities."
-title: IDebugDefaultPort2 | Microsoft Docs
+title: IDebugDefaultPort2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDefaultPort2
 helpviewer_keywords:
 - IDebugDefaultPort2 interface
-ms.assetid: 7b3452af-9a96-4c4c-9946-4339b72d3d7b
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugDefaultPort2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface provides several methods for accessing a port's server and notification facilities.
 
 ## Syntax

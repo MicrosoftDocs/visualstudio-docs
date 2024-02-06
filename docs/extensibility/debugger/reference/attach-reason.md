@@ -1,26 +1,22 @@
 ---
 description: "Specifies the reason for the debug engine (DE) to attach to a program node."
-title: ATTACH_REASON | Microsoft Docs
+title: ATTACH_REASON
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - ATTACH_REASON
 helpviewer_keywords:
 - ATTACH_REASON enumeration
-ms.assetid: 159fb70b-a344-4ba6-9115-b7eaa16e228f
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # ATTACH_REASON
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the reason for the debug engine (DE) to attach to a program node.
 
 ## Syntax

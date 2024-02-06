@@ -11,17 +11,13 @@ helpviewer_keywords:
 - Command window
 - Command mode in Command window
 - IDE Command window
-ms.assetid: 48711628-1909-4713-a73e-d7b714c77f8a
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Command Window
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **Command** window is used to execute commands or aliases directly in the Visual Studio integrated development environment (IDE). You can execute both menu commands and commands that do not appear on any menu. To display the **Command** window, choose **Other Windows** from the **View** menu, and select **Command Window**.
 
 ## Displaying the Values of Variables

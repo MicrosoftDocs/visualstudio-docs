@@ -1,26 +1,22 @@
 ---
 description: "Returns a value indicating the protocol that is being used to communicate between the server and the debug package."
-title: IDebugCoreServer3::GetConnectionProtocol | Microsoft Docs
+title: IDebugCoreServer3::GetConnectionProtocol
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCoreServer3::GetConnectionProtocol
 helpviewer_keywords:
 - IDebugCoreServer3::GetConnectionProtocol
-ms.assetid: 368ced5b-c5d9-4090-a5b4-26ff400d1a55
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugCoreServer3::GetConnectionProtocol
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns a value indicating the protocol that is being used to communicate between the server and the debug package.
 
 ## Syntax

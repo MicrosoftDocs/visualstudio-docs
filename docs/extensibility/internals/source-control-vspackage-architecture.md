@@ -1,21 +1,17 @@
 ---
-title: Source Control VSPackage Architecture | Microsoft Docs
+title: Source Control VSPackage Architecture
 description: Learn about the architecture of a source-control package, which is a VSPackage that provides functionality to Visual Studio as a source control service.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - source control packages, architecture
-ms.assetid: 453125fc-23dc-49b1-8476-94581f05e6c7
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Source Control VSPackage Architecture
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A source-control package is a VSPackage that uses services that the Visual Studio IDE provides. In return, a source-control package provides its functionality as a source control service. Additionally, a source-control package is a more versatile alternative than a source control plug-in for integrating source control into Visual Studio.
 
  A source control plug-in that implements the Source Control Plug-in API abides by a strict contract. For example, a plug-in cannot replace the default Visual Studio user interface (UI). Moreover, the Source Control Plug-in API does not enable a plug-in to implement its own source control model. A source-control package, however, overcomes both of these limitations. A source-control package has complete control over the source control experience of a Visual Studio user. Additionally, a source-control package can use its own source control model and logic, and it can define all the source control-related user interfaces.
@@ -45,6 +41,6 @@ A source-control package is a VSPackage that uses services that the Visual Studi
 
   Writing a VSPackage-based source-control package requires more advanced programming expertise than writing a Source Control Plug-in API-based plug-in.
 
-## See also
+## Related content
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage>
 - [Getting Started](../../extensibility/internals/getting-started-with-source-control-vspackages.md)

@@ -1,5 +1,5 @@
 ---
-title: FindInList Task | Microsoft Docs
+title: FindInList Task
 description: Learn to use the MSBuild FindInList task to find an item that has the matching itemspec in a specified list.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,17 +7,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - FindInList task [MSBuild]
 - MSBuild, FindInList task
-ms.assetid: d49b9f84-52a2-4242-9269-b741a7a7e9f7
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # FindInList task
 

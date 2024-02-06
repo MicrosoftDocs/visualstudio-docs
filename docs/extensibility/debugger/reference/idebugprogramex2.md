@@ -1,23 +1,19 @@
 ---
 description: "This interface lets the session debug manager (SDM) attach to a program and get the program node associated with a program."
-title: IDebugProgramEx2 | Microsoft Docs
+title: IDebugProgramEx2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgramEx2
 helpviewer_keywords:
 - IDebugProgramEx2 interface
-ms.assetid: 663359ed-635a-4539-addb-0cc52f19d1bd
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugProgramEx2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface lets the session debug manager (SDM) attach to a program and get the program node associated with a program.
 
 ## Syntax

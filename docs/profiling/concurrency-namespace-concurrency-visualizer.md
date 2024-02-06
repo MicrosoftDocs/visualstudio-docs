@@ -1,5 +1,5 @@
 ---
-title: "Concurrency Namespace (Concurrency Visualizer) | Microsoft Docs"
+title: "Concurrency Namespace (Concurrency Visualizer)"
 description: To write concurrent programs in C++, use the Concurrency namespace, which provides access to the Concurrency Runtime, a concurrency framework for C++.
 custom.ms: SEO-VS-2020
 ms.date: "11/04/2016"
@@ -8,17 +8,13 @@ f1_keywords:
   - "cvmarkersobj/Concurrency"
 helpviewer_keywords:
   - "Concurrency namespace"
-ms.assetid: 001fbfce-a278-4502-aa27-26d65dd61453
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Concurrency namespace (Concurrency Visualizer)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The `Concurrency` namespace provides classes and functions that give you access to the Concurrency Runtime, a concurrent programming framework for C++. For more information, see [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime).
 
 ## Syntax
@@ -38,5 +34,5 @@ namespace Concurrency;
 ## Requirements
  **Header:** cvmarkersobj.h
 
-## See also
+## Related content
 - [C library reference](../profiling/c-library-reference.md)

@@ -3,17 +3,12 @@ title: Native Minimum Rules rule set
 ms.date: 11/04/2016
 description: Learn about the Native Minimum Rules rule set in Visual Studio. See descriptions of rules for security, robustness, and other critical issues in native code.
 ms.topic: reference
-ms.assetid: 2d898bc4-fba5-472e-8f09-b0c6b511c5a3
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-code-analysis
-ms.workload:
-- multiple
+ms.subservice: code-analysis
 ---
 # Native Minimum Rules rule set
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Microsoft Native Minimum Rules focus on the most critical problems in native code, including potential security holes and application crashes.
 

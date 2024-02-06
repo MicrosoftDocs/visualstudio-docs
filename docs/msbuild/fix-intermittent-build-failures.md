@@ -1,5 +1,5 @@
 ---
-title: 'How to: Diagnose and resolve build race conditions'
+title: 'Diagnose and resolve build race conditions'
 description: Learn how to diagnose and fix race conditions in your MSBuild parallel builds.
 ms.date: 01/31/2023
 ms.topic: how-to
@@ -8,9 +8,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # Fix intermittent build failures
 
@@ -171,7 +169,7 @@ If the desired behavior is to use `SpecialMode`, then the appropriate fix is to 
 
 The build issue could be fixed also by removing the AdditionalProperties metadata from *Middle1.csproj*, if that fits the intention.
 
-## Next steps
+## Related content
 
 - [Build multiple projects in parallel with MSBuild](building-multiple-projects-in-parallel-with-msbuild.md)
 

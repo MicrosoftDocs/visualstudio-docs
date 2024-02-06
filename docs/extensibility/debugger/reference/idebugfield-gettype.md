@@ -1,26 +1,22 @@
 ---
 description: "This method gets the type of field."
-title: IDebugField::GetType | Microsoft Docs
+title: IDebugField::GetType
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugField::GetType
 helpviewer_keywords:
 - IDebugField::GetType method
-ms.assetid: b3cdec9f-ef7b-44d0-a775-d17ef7eae968
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugField::GetType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the type of field.
 
 ## Syntax

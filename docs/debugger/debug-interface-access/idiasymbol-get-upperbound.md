@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a symbol representing the upper bound of a FORTRAN array dimension."
-title: "IDiaSymbol::get_upperBound | Microsoft Docs"
+title: "IDiaSymbol::get_upperBound"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_upperBound method"
-ms.assetid: a77dcafa-ea3f-45da-826d-8f9b4489a03f
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_upperBound
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a symbol representing the upper bound of a FORTRAN array dimension.
 
 ## Syntax

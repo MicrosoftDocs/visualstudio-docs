@@ -1,5 +1,5 @@
 ---
-title: "Unable to Attach to the Process | Microsoft Docs"
+title: "Unable to Attach to the Process"
 description: Learn the meaning of "Unable to Attach to the Process", the two scenarios that cause it, and the solutions. 
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -13,13 +13,10 @@ dev_langs:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Unable to Attach to the Process
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Unable to attach to the process. Debugger component on server received access denied while connecting to this machine.
 
  There are two common scenarios that cause this error:

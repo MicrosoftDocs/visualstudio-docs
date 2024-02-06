@@ -1,22 +1,18 @@
 ---
-title: Buttons Element | Microsoft Docs
+title: Buttons Element
 description: The Buttons element groups Button elements, which represent individual commands. This article contains an example.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - Buttons element (VSCT XML schema)
 - VSCT XML schema elements, Buttons
-ms.assetid: 9f2cf94d-dec5-4776-a836-9a89c75f0c87
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Buttons element
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Groups [Button](../extensibility/button-element.md) elements, which represent individual commands.
 
 ## Syntax

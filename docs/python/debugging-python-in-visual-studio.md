@@ -1,21 +1,15 @@
 ---
-title: Debug Python code
-description: Visual Studio provides rich debugging for Python code, including setting breakpoints, stepping, inspecting values, looking at exceptions, and debugging in the interactive window.
+title: Debug Python code, set breakpoints, inspect code
+description: Use rich interactive debugging for Python code in Visual Studio, including setting breakpoints, stepping, inspecting values, looking at exceptions, and more.
 ms.date: 07/28/2023
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
-
-ms.workload:
-  - python
-  - data-science
+ms.subservice: python
 ---
 
 # Debug your Python code
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio provides a comprehensive debugging experience for Python, including attaching to running processes, evaluating expressions in the **Watch** and **Immediate** windows, inspecting local variables, breakpoints, step in/out/over statements, **Set Next Statement**, and more.
 
@@ -260,6 +254,6 @@ The following steps enable debugging in the current Visual Studio session:
 
 1. Start debugging and reproduce your issue again. The debugger logs can then be found in `%temp%\DebugAdapterHostLog.txt`.
 
-## See also
+## Related content
 
 For complete details on the Visual Studio debugger, see [Debugging in Visual Studio](../debugger/debugger-feature-tour.md).

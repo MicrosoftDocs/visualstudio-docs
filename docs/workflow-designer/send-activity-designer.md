@@ -5,17 +5,12 @@ ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "System.ServiceModel.Activities.Send.UI"
-ms.assetid: b514f2e4-767c-4b94-ac61-dd3a54d4b96d
 author: jodavis
 ms.author: jodavis
 manager: jmartens
-ms.technology: vs-workflow-designer
-ms.workload:
-  - "multiple"
+ms.subservice: workflow-designer
 ---
 # Send Activity Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Send** activity designer is used to create and configure a <xref:System.ServiceModel.Activities.Send> activity.
 

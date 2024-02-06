@@ -1,10 +1,9 @@
 ---
-title: Managing Azure resources with Cloud Explorer | Microsoft Docs
-description: Learn how to use Cloud Explorer to browse and manage Azure resources within Visual Studio.
+title: Managing Azure resources with Cloud Explorer
+description: Find and manage resources and resource groups associated with your Azure accounts by using Visual Studio Cloud Explorer.
 author: ghogen
 manager: jmartens
-ms.technology: vs-azure
-ms.workload: azure-vs
+ms.subservice: azure-development
 ms.topic: conceptual
 ms.date: 01/22/2022
 ms.author: ghogen
@@ -12,7 +11,7 @@ monikerRange: "<=vs-2019"
 ---
 # Manage the resources associated with your Azure accounts in Visual Studio Cloud Explorer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+ [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
 > [!Important]
 > Cloud Explorer has been retired in Visual Studio 2022. Instead, you can use the following alternatives:
@@ -33,7 +32,7 @@ Like the [Azure portal](https://portal.azure.com), Cloud Explorer is built on th
 ## Prerequisites
 
 * Visual Studio 2017 or later (see [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)) with the **Azure workload** selected. You can also use an earlier version of Visual Studio with the Microsoft Azure SDK for .NET 2.9.
-* Microsoft Azure account - If you don't have an account, you can [sign up for a free trial](https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/) or [activate your Visual Studio subscriber benefits](https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/).
+* [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 > [!NOTE]
 > To view Cloud Explorer, press **Ctrl**+**Q** to activate the search box, and then enter **Cloud Explorer**.

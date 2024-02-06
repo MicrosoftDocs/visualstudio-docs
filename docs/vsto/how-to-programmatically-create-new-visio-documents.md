@@ -1,6 +1,6 @@
 ---
-title: "How to: Programmatically create new Visio documents"
-description: Learn how you can programmatically create a new Microsoft Visio drawing document and add it to the Documents collection of open Visio documents.
+title: "Programmatically create new Visio documents"
+description: Create a Microsoft Visio drawing document and add it to the Documents collection of open Visio documents programmatically from Visual Basic or C# in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -12,13 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Programmatically create new Visio documents
+# Programmatically create new Visio documents
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When you create a new Microsoft Office Visio drawing document, you add it to the `Microsoft.Office.Interop.Visio.Documents` collection of open Visio documents. Consequently, the `Microsoft.Office.Interop.Visio.Documents.Add` method creates a new Visio drawing document. For more information, see the VBA reference documentation for the [Microsoft.Office.Interop.Visio.Documents.Add](/office/vba/api/Visio.Documents.Add) method.
 
 ## Create new blank documents
@@ -85,7 +82,7 @@ ms.workload:
 
 - A Visio document named `myTemplate.vst` must be located in a directory named `Test` in the *My Documents* folder (for Windows XP and earlier) or the *Documents* folder (for Windows Vista).
 
-## See also
+## Related content
 - [Visio solutions](../vsto/visio-solutions.md)
 - [Visio object model overview](../vsto/visio-object-model-overview.md)
 - [How to: Programmatically open Visio documents](../vsto/how-to-programmatically-open-visio-documents.md)

@@ -1,21 +1,17 @@
 ---
 description: "Retrieves the source file and line number that indicate where a specified user-defined type is defined."
-title: "IDiaSymbol::getSrcLineOnTypeDefn | Microsoft Docs"
+title: "IDiaSymbol::getSrcLineOnTypeDefn"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: ad554d18-9988-4b64-ad71-e7594c266e94
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::getSrcLineOnTypeDefn
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the source file and line number that indicate where a specified user-defined type is defined.
 
 ## Syntax

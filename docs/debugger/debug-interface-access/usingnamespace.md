@@ -1,23 +1,19 @@
 ---
 description: "Some symbols might be referred to by namespace, and would subsequently be identified by a SymTagUsingNameSpace tag."
-title: "UsingNameSpace | Microsoft Docs"
+title: "UsingNameSpace"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "UsingNamespace symbol tag"
-ms.assetid: e8e1beb5-7cb9-43b4-9ff4-760d5f91ea2d
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # UsingNameSpace
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Some symbols might be referred to by namespace, and would subsequently be identified by a `SymTagUsingNameSpace` tag.
 
 > [!NOTE]

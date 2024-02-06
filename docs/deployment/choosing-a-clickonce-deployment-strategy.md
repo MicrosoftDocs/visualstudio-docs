@@ -1,5 +1,5 @@
 ---
-title: "Choosing a ClickOnce Deployment Strategy | Microsoft Docs"
+title: "Choosing a ClickOnce Deployment Strategy"
 description: Learn about the strategies for deploying a ClickOnce application and how to choose a strategy depending on the type of application that you are deploying.
 ms.date: "01/27/2023"
 ms.topic: "conceptual"
@@ -10,17 +10,13 @@ dev_langs:
 helpviewer_keywords:
   - "ClickOnce deployment, strategies"
   - "deploying applications, ClickOnce"
-ms.assetid: 98bcab65-ab8b-4ed1-9adc-fdacf92b8106
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+ms.subservice: deployment
 ---
 # Choose a ClickOnce deployment strategy
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 There are three different strategies for deploying a ClickOnce application; the strategy that you choose depends primarily on the type of application that you are deploying. The three deployment strategies are as follows:
 
 - Install from the Web or a Network Share
@@ -73,9 +69,7 @@ There are three different strategies for deploying a ClickOnce application; the 
 
  Applications that target .NET Framework 3.5 and above can be installed using any browser.
 
- Applications that target .NET Framework 2.0 require Internet Explorer.
-
-## See also
+## Related content
 
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
 - [Choose a ClickOnce update strategy](../deployment/choosing-a-clickonce-update-strategy.md)

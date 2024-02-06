@@ -1,5 +1,5 @@
 ---
-title: Optimizing Menu and Toolbar Commands | Microsoft Docs
+title: Optimizing Menu and Toolbar Commands
 description: Learn how Visual Studio can minimize command confusion caused by adding VSPackages and their corresponding commands.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -9,17 +9,13 @@ helpviewer_keywords:
 - menus [Visual Studio SDK], commands
 - menu commands, implementing
 - toolbars [Visual Studio], commands
-ms.assetid: 8385f1a6-1e98-4dca-83d2-fcbed7177242
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Optimizing Menu and Toolbar Commands
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The addition of VSPackages and their corresponding commands to Visual Studio may cause a crowded UI. Visual Studio provides ways to help minimize UI command confusion.
 
 ## In This Section

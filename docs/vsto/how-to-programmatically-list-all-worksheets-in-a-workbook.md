@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically list all worksheets in a workbook"
+title: "Programmatically list all worksheets in a workbook"
 description: Learn how you can programmatically list all worksheets in a Microsoft Excel workbook by using Visual Studio.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -13,13 +13,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Programmatically list all worksheets in a workbook
+# Programmatically list all worksheets in a workbook
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The <xref:Microsoft.Office.Interop.Excel.Workbook> class provides a <xref:Microsoft.Office.Interop.Excel.Worksheets> object. This object contains a collection of all the <xref:Microsoft.Office.Interop.Excel.Worksheet> objects in the workbook.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
@@ -46,7 +43,7 @@ ms.workload:
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb" id="Snippet13":::
      ---
 
-## See also
+## Related content
 - [Work with worksheets](../vsto/working-with-worksheets.md)
 - [How to: Programmatically add new worksheets to workbooks](../vsto/how-to-programmatically-add-new-worksheets-to-workbooks.md)
 - [How to: Programmatically move worksheets within workbooks](../vsto/how-to-programmatically-move-worksheets-within-workbooks.md)

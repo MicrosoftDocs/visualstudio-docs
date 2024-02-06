@@ -11,17 +11,12 @@ helpviewer_keywords:
 - design-time expression evaluation
 - Immediate window
 - first-chance exception notifications
-ms.assetid: d33e7937-73f3-4c69-9df0-777a8713c6f2
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Immediate window
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Immediate** window to debug and evaluate expressions, execute statements, and print variable values. The **Immediate** window evaluates expressions by building and using the currently selected project.
 

@@ -1,5 +1,5 @@
 ---
-title: XmlPoke Task | Microsoft Docs
+title: XmlPoke Task
 description: Learn how MSBuild uses the XmlPoke task to set values as specified by an XPath query into an XML file.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,17 +7,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - XmlPoke task [MSBuild]
 - MSBuild, XmlPoke task
-ms.assetid: 6ba1953c-be3b-4df8-8561-e133408f8270
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # XmlPoke task
 

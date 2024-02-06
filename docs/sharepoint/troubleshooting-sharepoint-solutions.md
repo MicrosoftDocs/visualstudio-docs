@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting SharePoint Solutions | Microsoft Docs"
+title: "Troubleshooting SharePoint Solutions"
 description: See what problems or alerts might occur when you debug SharePoint solutions by using the Visual Studio debugger.
 ms.date: "02/22/2017"
 ms.topic: "conceptual"
@@ -18,14 +18,11 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+ms.subservice: sharepoint-development
 ---
 
 # Troubleshoot SharePoint solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The following problems or alerts might occur when you debug SharePoint solutions by using the Visual Studio debugger. For more information, see [Debugging SharePoint 2007 Workflow Solutions](/previous-versions/bb386166(v=vs.100)).
 
 ## Token restrictions in sandboxed visual web parts
@@ -335,7 +332,7 @@ ms.workload:
 
  To resolve this problem, make sure that the Site URL property value of the SharePoint project in Visual Studio matches the URL that's assigned to the Default Zone for the alternate access mappings of the web application. You can't resolve the error by using another zone, such as Intranet, for the URL. The site URL for the project and the URL in the default zone must match. To access alternate access mappings, open the SharePoint 2010 Central Administration utility, choose the **Application Management** link , and then, under **Web Applications**, choose the **Configure alternate access mappings** link. For more information, see [Create zones for Web applications](/previous-versions/office/sharepoint-2007-products-and-technologies/cc263087(v=office.12)).
 
-## See also
+## Related content
 
 - [Troubleshoot SharePoint packaging and deployment](../sharepoint/troubleshooting-sharepoint-packaging-and-deployment.md)
 - [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)

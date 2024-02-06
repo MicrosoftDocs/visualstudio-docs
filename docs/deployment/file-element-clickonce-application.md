@@ -1,5 +1,5 @@
 ---
-title: "&lt;file&gt; Element (ClickOnce Application) | Microsoft Docs"
+title: "&lt;file&gt; Element (ClickOnce Application)"
 description: The file element identifies all nonassembly files downloaded and used by the application. The file element is optional.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -17,17 +17,13 @@ dev_langs:
 helpviewer_keywords:
   - "<file> element [ClickOnce application manifest]"
   - "manifests [ClickOnce], file element"
-ms.assetid: 56e3490c-eed5-4841-b1bf-eefe778b6ac9
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+ms.subservice: deployment
 ---
 # &lt;file&gt; element (ClickOnce application)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Identifies all nonassembly files downloaded and used by the application.
 
 ## Syntax

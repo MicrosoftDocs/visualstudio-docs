@@ -1,6 +1,6 @@
 ---
 description: "A complete reference to all of the interfaces and supporting enumerations and structures in the DIA SDK."
-title: "Debug Interface Access SDK Reference | Microsoft Docs"
+title: "Debug Interface Access SDK Reference"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -9,17 +9,12 @@ helpviewer_keywords:
   - "reference [DIA SDK]"
   - "API reference [DIA SDK]"
   - "DIA SDK, reference"
-ms.assetid: 7cdbbce1-8b59-43ce-b6aa-a948bb4d7148
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Debug Interface Access SDK Reference
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A complete reference to all of the interfaces and supporting enumerations and structures in the DIA SDK.
 

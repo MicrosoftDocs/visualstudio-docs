@@ -6,17 +6,13 @@ ms.topic: reference
 author: mikadumont
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 dev_langs:
   - CSharp
   - VB
-ms.workload:
-  - "dotnet"
 monikerRange: '>= vs-2019'
 ---
 # Convert anonymous type to class
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This refactoring applies to:
 

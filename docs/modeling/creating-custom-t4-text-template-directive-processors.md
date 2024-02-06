@@ -8,13 +8,9 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+ms.subservice: modeling
 ---
 # Create Custom T4 Text Template Directive Processors
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The *text template transformation process* takes a *text template* file as the input and produces a text file as the output. The *text template transformation engine* controls the process, and the engine interacts with a text template transformation host and one or more text template *directive processors* to complete the process. For more information, see [The Text Template Transformation Process](../modeling/the-text-template-transformation-process.md).
 
@@ -62,7 +58,7 @@ After all calls to ProcessDirective() the templating engine will call these meth
 
 - For more information, see [Walkthrough: Creating a Custom Directive Processor](../modeling/walkthrough-creating-a-custom-directive-processor.md).
 
-## See also
+## Related content
 
 - [Deploy a Custom Directive Processor](../modeling/deploying-a-custom-directive-processor.md) explains how to register a custom directive processor.
 - [Walkthrough: Create a Custom Directive Processor](../modeling/walkthrough-creating-a-custom-directive-processor.md) describes how to create a custom directive processor, how to register and test the directive processor, and how to format the output file as HTML.

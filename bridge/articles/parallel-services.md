@@ -5,8 +5,7 @@ description: Learn how to use Bridge to Kubernetes to connect your development c
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: bridge
-ms.custom: "contperf-fy22q1"
+ms.subservice: bridge
 ms.topic: how-to
 ---
 # Debug multiple services (VS Code)

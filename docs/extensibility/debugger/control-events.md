@@ -1,21 +1,17 @@
 ---
-title: Control Events | Microsoft Docs
+title: Control Events
 description: Learn about sending events during the controlled execution of your program by using the IDebugEvent2 interface.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - debugging [Debugging SDK], events
-ms.assetid: 0fc63484-5fb6-4887-9ea4-1905b459ca9d
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # Control events
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You must send events during the controlled execution of your program. All of the events are sent using the [IDebugEvent2](../../extensibility/debugger/reference/idebugevent2.md) interface and have attributes that require you to implement the [IDebugEvent2::GetAttributes](../../extensibility/debugger/reference/idebugevent2-getattributes.md) method.
 
 ## Additional methods

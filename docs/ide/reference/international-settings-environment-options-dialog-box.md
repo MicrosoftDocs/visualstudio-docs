@@ -12,17 +12,12 @@ helpviewer_keywords:
 - languages, environment settings
 - Options dialog box, international settings
 - languages, specifying default
-ms.assetid: e3a8815c-6995-4099-8e88-34f91fad55b2
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Options dialog box: Environment \> International Settings
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The International Settings page lets you change the default language when you have more than one language version of the integrated development environment (IDE) installed on your machine. You can access this dialog box by selecting **Options** from the **Tools** menu and then choosing **International Settings** from the **Environment** folder.
 

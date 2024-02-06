@@ -1,23 +1,18 @@
 ---
 title: "Create a Vue.js app using Node.js"
-description: You can create Node.js applications in Visual Studio using the Vue.js framework
-
-ms.date: "07/06/2018"
+description: Create Node.js applications in Visual Studio by using the Vue.js framework along with JavaScript or the TypeScript programming language.
+ms.date: "11/06/2023"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
-ms.workload:
-  - "nodejs"
 monikerRange: '=vs-2019'
 ---
 # Create a Vue.js application using Node.js Tools for Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio supports app development with the [Vue.js](https://vuejs.org/) framework in either JavaScript or TypeScript.
 
@@ -26,9 +21,6 @@ The following new features support Vue.js application development in Visual Stud
 * Support for Script, Style, and Template blocks in *.vue* files
 * Recognition of the `lang` attribute on *.vue* files
 * Vue.js project and file templates
-
-> [!IMPORTANT]
-> Starting in Visual Studio 2022, you can alternatively [create a Vue project](../javascript/tutorial-create-vue-app.md) using the new [CLI-based project type](https://devblogs.microsoft.com/visualstudio/the-new-javascript-typescript-experience-in-vs-2022-preview-3/). The information in this article applies only to the Node.js project type (.njsproj).
 
 ## Prerequisites
 
@@ -158,7 +150,7 @@ These steps require vue-cli 3.0, which is currently in beta.
 
 #### Build with vue-cli 3.0
 
-An unknown issue with the vue-cli 3.0 may prevent automating the build process. Each time that you try to refresh the wwwroot folder, you need to run the command `npm run build` on the client-app folder.
+An unknown issue with the vue-cli 3.0 might prevent automating the build process. Each time that you try to refresh the wwwroot folder, you need to run the command `npm run build` on the client-app folder.
 
 Alternatively, you can build the vue-cli 3.0 project as a pre-build event using the ASP.NET project properties. Right-click the project, choose **Properties**, and include the following commands in the **Build** tab, in the **Pre-build event command line** text box.
 
@@ -185,7 +177,7 @@ cd ../
 
 * Running the command `npm run build` as a pre-build event on the project properties doesn't work when using vue-cli 3.0.
 
-## See also
+## Related content
 
 - [Vue get started guide](https://vuejs.org/v2/guide).
 - [Vue CLI project](https://github.com/vuejs/vue-cli).

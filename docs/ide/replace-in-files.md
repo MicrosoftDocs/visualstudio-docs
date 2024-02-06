@@ -1,6 +1,6 @@
 ---
-title: Replace in files
-description: Learn how to use Replace in Files to search the code of a specified set of files for a string or expression and change some or all of the matches found.
+title: Use Replace in Files to search code & make changes
+description: Explore the Replace in Files feature to search the code of a specified set of files for a string or expression and change some or all of the matches found.
 ms.date: 02/07/2023
 ms.topic: conceptual
 f1_keywords:
@@ -13,13 +13,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Replace in Files
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Replace in Files** allows you to search the code of a specified set of files for a string or expression, and change some or all of the matches found. The matches found and actions taken are listed in the **Find Results** window selected in **Result options**.
 
@@ -65,6 +61,18 @@ The **Replace in Files** options are almost identical to the options in the **[F
 
 To replace instances of the string in the **Find** textbox with another string, enter the replacement string in the **Replace** textbox. To delete instances of the string in the **Find** textbox, leave this field blank. Open the list to display the strings you most recently searched for. Choose the adjacent **Expression Builder** button if you want to use one or more regular expressions in your replacement string. For more information, see [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md).
 
+## Preserve case
+
+When you do a Replace, you can preserve the original casing of each match in your code. Toggle case preservation with the Preserve case option (**Alt**+**V**). This option is available in Visual Studio 2022 version 17.8 or later.
+
+To get Pascal case and Camel case, your Replace string must also be in Pascal case or Camel case. Case is also preserved in text that contains hyphens or underscores.
+
+Examples:
+
+– Replacing "begin" with "end" will turn "Begin" into "End" and "BEGIN" into "END".
+
+– Replacing "onetwothree" with "fourFiveSix" will turn "onetwothree" into "fourfivesix", "oneTwoThree" into "fourFiveSix", and "OneTwoThree" into "FourFiveSix".
+
 ::: moniker range="vs-2019"
 
 ## Keep modified files open after Replace All
@@ -83,7 +91,7 @@ When selected, this option leaves open all files in which replacements have been
 
 ::: moniker-end
 
-## See also
+## Related content
 
 - [Find and replace text](../ide/finding-and-replacing-text.md)
 - [Find in files](../ide/find-in-files.md)

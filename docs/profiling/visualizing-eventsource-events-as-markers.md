@@ -1,19 +1,15 @@
 ---
-title: "Visualizing EventSource Events as Markers | Microsoft Docs"
+title: "Visualizing EventSource Events as Markers"
 description: Learn that Concurrency Visualizer can display EventSource events as markers, and you can control how the markers are displayed.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-ms.assetid: 3a10022a-5c37-48b1-a833-dd35902176b6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Visualize EventSource events as markers
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Concurrency Visualizer can display EventSource events as markers, and you can control how the markers are displayed. To view the EventSource markers, register the ETW provider GUID by using the [Advanced Settings](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) dialog box. The Concurrency Visualizer has default conventions to represent EventSource events as [Flag Markers](../profiling/concurrency-visualizer-markers.md#flag-markers), [Span Markers](../profiling/concurrency-visualizer-markers.md#span-markers), and [Message Markers](../profiling/concurrency-visualizer-markers.md#message-markers). You can customize how EventSource events are displayed by adding custom fields to the events. For more information about markers, see [Concurrency Visualizer Markers](../profiling/concurrency-visualizer-markers.md). For more information about EventSource events, see <xref:System.Diagnostics.Tracing>.
 
 ## Default visualization of EventSource events
@@ -92,5 +88,5 @@ The Concurrency Visualizer can display EventSource events as markers, and you ca
 > [!NOTE]
 > The use of SpanID to nest spans, allow them to partially overlap on the same thread, or allow them to start on one thread and end on another is not supported.
 
-## See also
+## Related content
 - [Concurrency visualizer markers](../profiling/concurrency-visualizer-markers.md)

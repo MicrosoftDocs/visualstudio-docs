@@ -1,19 +1,14 @@
 ---
-title: Synchronize settings
+title: Synchronize settings across multiple computers
 description: Learn how to synchronize your Visual Studio settings across multiple computers by signing in to the same personalization account.
 ms.date: 05/20/2022
 ms.topic: conceptual
-ms.assetid: a3d2ea29-be5d-4012-9820-44b06adbb7dd
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Synchronize Visual Studio settings across multiple computers
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you sign in to Visual Studio on multiple computers using the same personalization account, your settings can be synchronized across the computers.
 
@@ -91,7 +86,7 @@ Certain settings like tool window layout aren't shared between different side-by
 
 To reset all settings to their defaults, sign in to Visual Studio, and then select **Tools** > **Import and Export Settings** to open the **Import and Export Settings Wizard**. Select **Reset all settings** and then follow the remaining steps of the wizard.
 
-## See also
+## Related content
 
 - [Personalize the IDE](../ide/personalizing-the-visual-studio-ide.md)
 - [Environment settings](../ide/environment-settings.md)

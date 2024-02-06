@@ -1,5 +1,5 @@
 ---
-title: 'How to: Add a Dependency to a VSIX Package | Microsoft Docs'
+title: 'Add a Dependency to a VSIX Package'
 description: Learn how to set up a VSIX package deployment that installs any dependencies that are not already present on the target computer.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -8,17 +8,12 @@ helpviewer_keywords:
 - package assembly
 - package dll
 - vsix reference
-ms.assetid: 8f20177b-dab9-43a3-b959-81a591b451d6
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
-# How to: Add a dependency to a VSIX package
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Add a dependency to a VSIX package
 
 You can set up a VSIX package deployment that installs any dependencies that are not already present on the target computer. To accomplish this, include the VSIX dependencies to the *source.extension.vsixmanifest* file.
 
@@ -44,7 +39,7 @@ If your extension requires 15.3 or higher, you would declare the **InstallationT
 
 The VSIXInstaller will detect earlier versions of Visual Studio and inform the user that a later update is required.
 
-## See also
+## Related content
 
 - [VSIX extension schema 1.0 reference](/previous-versions/dd393700(v=vs.110))
 - [Anatomy of a VSIX package](../extensibility/anatomy-of-a-vsix-package.md)

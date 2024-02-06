@@ -1,21 +1,17 @@
 ---
 title: "Configure npm packages with package.json"
-description: Specify npm package versions using package.json
+description: Specify npm package versions for your Node.js application by using a package.json file and investigate potential causes for warnings or errors. 
 ms.date: "09/06/2018"
 ms.topic: "conceptual"
 ms.devlang: javascript
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
-ms.workload:
-  - "nodejs"
 ---
 # package.json configuration
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If you are developing a Node.js app with a lot of npm packages, it's not uncommon to run into warnings or errors when you build your project if one or more packages has been updated. Sometimes, a version conflict results, or a package version has been deprecated. Here are a couple of quick tips to help you configure your [package.json](https://docs.npmjs.com/files/package.json) file and understand what is going on when you see warnings or errors. This is not a complete guide to *package.json* and is focused only on npm package versioning.
 

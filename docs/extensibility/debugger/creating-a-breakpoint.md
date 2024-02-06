@@ -1,22 +1,18 @@
 ---
-title: Creating a Breakpoint | Microsoft Docs
+title: Creating a Breakpoint
 description: Learn about the method calls that the session debug manager makes when the module that is needed to bind a breakpoint is loaded.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - breakpoints, creating
 - debugging [Debugging SDK], creating breakpoints
-ms.assetid: 6f9f87bb-192e-45e0-9a7a-ffe729e87f7d
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # Create a breakpoint
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following describes the process of creating a breakpoint.
 
 ## Methods in breakpoint creation
@@ -35,5 +31,5 @@ The following describes the process of creating a breakpoint.
 
 5. [IDebugPendingBreakpoint2::EnumBoundBreakpoints](../../extensibility/debugger/reference/idebugpendingbreakpoint2-enumboundbreakpoints.md)
 
-## See also
+## Related content
 - [Call debugger events](../../extensibility/debugger/calling-debugger-events.md)

@@ -1,25 +1,21 @@
 ---
 description: "Sets the path to the common language runtime (CLR) loaded in the debugger."
-title: IDebugExpressionEvaluator2::SetCorPath | Microsoft Docs
+title: IDebugExpressionEvaluator2::SetCorPath
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - SetCorPath
 - IDebugExpressionEvaluator2::SetCorPath
-ms.assetid: 27b614ff-7325-4f9b-8da4-61ee020c9410
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugExpressionEvaluator2::SetCorPath
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the path to the common language runtime (CLR) loaded in the debugger.
 
 ## Syntax

@@ -1,19 +1,14 @@
 ---
-title: 'How to: Model 3D Terrain'
+title: 'Model 3D Terrain'
 description: Learn how to use the Model Editor to create a 3D terrain model by dividing a plane to make additional faces and manipulating their vertices.
 ms.date: 11/04/2016
 ms.topic: how-to
-ms.assetid: f779b1fd-82a9-4a11-8ab7-c1c9caabc883
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-designers
-ms.workload:
-- multiple
+ms.subservice: ui-designers
 ---
-# How to: Model 3D terrain
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Model 3D terrain
 
 This article demonstrates how to use the Model Editor to create a 3D terrain model.
 
@@ -53,6 +48,6 @@ The terrain model is complete. Here's the final model again, with Phong shading 
 
 You can use this terrain model to demonstrate the effect of the gradient shader that's described in [How to: Create a geometry-based gradient shader](../designers/how-to-create-a-geometry-based-gradient-shader.md).
 
-## See also
+## Related content
 
 - [Model editor](../designers/model-editor.md)

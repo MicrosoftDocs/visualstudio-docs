@@ -1,23 +1,19 @@
 ---
 description: "This function gets the version number of the Source Control Plug-in API supported by the source control plug-in."
-title: SccGetVersion Function | Microsoft Docs
+title: SccGetVersion Function
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - SccGetVersion
 helpviewer_keywords:
 - SccGetVersion function
-ms.assetid: a6e786bf-744e-4272-9e21-0be44d23b1a1
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # SccGetVersion Function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function gets the version number of the Source Control Plug-in API supported by the source control plug-in.
 
 ## Syntax

@@ -1,7 +1,7 @@
 ---
-title: Read XML data into a dataset
-description: Read XML data into a dataset. In this walkthrough, you create a Windows application that loads XML data into a dataset.
-ms.date: 11/04/2016
+title: Read XML data into dataset in .NET Framework apps
+description: Read XML data into ADO.NET datasets with .NET Framework application development in Visual Studio and create Windows apps to load XML data into datasets.
+ms.date: 11/01/2023
 ms.topic: how-to
 dev_langs:
 - VB
@@ -15,21 +15,20 @@ helpviewer_keywords:
 - XML [Visual Studio], reading
 - XML documents, reading
 - datasets [Visual Basic], reading XML data
-ms.assetid: fae72958-0893-47d6-b3dd-9d42418418e4
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# Read XML data into a dataset
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Read XML data into a dataset in .NET Framework applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 ADO.NET provides simple methods for working with XML data. In this walkthrough, you create a Windows application that loads XML data into a dataset. The dataset is then displayed in a <xref:System.Windows.Forms.DataGridView> control. Finally, an XML schema based on the contents of the XML file is displayed in a text box.
+
+## Prerequisites
+
+To complete this tutorial, you need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify. See [Modify Visual Studio](../install/modify-visual-studio.md).
 
 ## Create a new project
 
@@ -222,7 +221,7 @@ This walkthrough teaches you the basics of reading an XML file into a dataset, a
 
 - Edit the data in the dataset and write it out to a database.
 
-## See also
+## Related content
 
 - [Access data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)
 - [XML tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)

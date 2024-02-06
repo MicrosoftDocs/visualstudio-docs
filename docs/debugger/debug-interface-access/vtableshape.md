@@ -1,6 +1,6 @@
 ---
 description: "The VTable) symbol has a class child symbol identified by the SymTagVTableShape tag."
-title: "VTableShape | Microsoft Docs"
+title: "VTableShape"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -8,17 +8,13 @@ dev_langs:
 helpviewer_keywords:
   - "VTableShape symbol"
   - "SymTagVTableShape tag"
-ms.assetid: dd97f4c3-115d-46a9-b506-2531e30a0d8f
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # VTableShape
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The [VTable](../../debugger/debug-interface-access/vtable.md) symbol has a class child symbol identified by the `SymTagVTableShape` tag.
 
 ## Properties

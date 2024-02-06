@@ -1,5 +1,5 @@
 ---
-title: "ResourcesGenerator Task | Microsoft Docs"
+title: "ResourcesGenerator Task"
 description: Learn how MSBuild uses the ResourcesGenerator task to embed one or more resources into a .resources file.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -7,18 +7,14 @@ dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
-  - "jsharp"
 helpviewer_keywords:
   - "embedding resources into a .resources file [WPF MSBuild]"
   - "ResourcesGenerator task [WPF MSBuild]"
   - "ResourcesGenerator task [WPF MSBuild], parameters"
-ms.assetid: e782bbac-9ee6-472b-8171-3ee008c77b4e
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-  - "multiple"
+ms.subservice: msbuild
 ---
 # ResourcesGenerator task
 

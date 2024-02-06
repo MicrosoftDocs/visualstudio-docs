@@ -1,5 +1,5 @@
 ---
-title: Restore Hidden Debugger Commands | Microsoft Docs
+title: Restore Hidden Debugger Commands
 description: Learn to restore hidden debugger commands in Visual Studio. Default IDE settings for some languages may hide certain debugger commands.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -13,17 +13,13 @@ helpviewer_keywords:
   - debugger, restoring commands
   - debugging [Visual Studio], restoring commands
   - commands, debugger
-ms.assetid: 76ac9b77-f536-43b5-a9fc-984854b1c566
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
-# How to: Restore Hidden Debugger Commands
+# Restore Hidden Debugger Commands
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When you set up Visual Studio, you are asked to choose a set of default IDE settings for your primary programming language. Default IDE settings for some languages may hide certain debugger commands.
 
  If you want to use a debugger feature that is hidden by your default IDE settings, you can add the command back to the menu using the following procedure.
@@ -70,6 +66,6 @@ When you set up Visual Studio, you are asked to choose a set of default IDE sett
 
 9. Click **Close**.
 
-## See also
+## Related content
 - [Debugger Security](../debugger/debugger-security.md)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)

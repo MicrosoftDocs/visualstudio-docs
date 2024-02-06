@@ -1,21 +1,16 @@
 ---
-title: "Evaluating the function &apos;function&apos; timed out and needed to be aborted in an unsafe way | Microsoft Docs"
+title: "Evaluating the function &apos;function&apos; timed out and needed to be aborted in an unsafe way"
 description: "Full message text: Evaluating the function 'function' timed out and needed to be aborted in an unsafe way."
 ms.date: "12/09/2022"
 ms.topic: "error-reference"
-ms.custom: "contperf-fy21q4"
 f1_keywords:
   - "vs.debug.error.unsafe_func_eval_abort"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Error: Evaluating the function &#39;function&#39; timed out and needed to be aborted in an unsafe way
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Full message text: Evaluating the function 'function' timed out and needed to be aborted in an unsafe way. This may have corrupted the target process.
 

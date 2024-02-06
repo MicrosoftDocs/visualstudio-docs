@@ -1,22 +1,18 @@
 ---
-title: Detecting System Requirements | Microsoft Docs
+title: Detecting System Requirements
 description: Learn how to configure the Microsoft Windows Installer to detect system requirements such as the edition of Visual Studio that is installed.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - setup, VSPackages
 - launch conditions
-ms.assetid: 0ba94acf-bf0b-4bb3-8cca-aaac1b5d6737
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Detect system requirements
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A VSPackage cannot function unless Visual Studio is installed. When you use Microsoft Windows Installer to manage the installation of your VSPackage, you can configure the installer to detect whether Visual Studio is installed. You can also configure it to check the system for other requirements, for example, a particular version of Windows or a particular amount of RAM.
 
 ## Detect Visual Studio editions
@@ -43,5 +39,5 @@ When a newer edition is installed, the registry keys for that edition are added 
 ## Detect when Visual Studio is running
  Your VSPackage can't be registered correctly if Visual Studio is running when the VSPackage is installed. The installer must detect when Visual Studio is running and then refuse to install the program. Windows Installer doesn't let you use table entries to enable such detection. Instead, you must create a custom action, as follows: Use the `EnumProcesses` function to detect the *devenv.exe* process, and then either set an installer property that's used in a launch condition or conditionally display a dialog box that prompts the user to close Visual Studio.
 
-## See also
+## Related content
 - [Install VSPackages With Windows Installer](../../extensibility/internals/installing-vspackages-with-windows-installer.md)

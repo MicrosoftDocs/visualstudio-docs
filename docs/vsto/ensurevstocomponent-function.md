@@ -9,13 +9,10 @@ dev_langs:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
 # EnsureVSTOComponent function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This API supports the Office infrastructure and isn't intended to be used directly from your code.
 
 ## Syntax

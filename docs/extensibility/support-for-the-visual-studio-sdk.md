@@ -1,5 +1,5 @@
 ---
-title: Support for the Visual Studio SDK | Microsoft Docs
+title: Support for the Visual Studio SDK
 description: Learn about the support options that are available for customers about how to extend the Visual Studio IDE.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -9,17 +9,13 @@ helpviewer_keywords:
 - Help, Visual Studio SDK
 - newsgroups, Visual Studio SDK support
 - Web sites, Visual Studio SDK support
-ms.assetid: d9011f5a-cb53-418f-9d8f-74b15b9fc5f5
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Support for the Visual Studio SDK
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Several support options are available for customers who have questions about how to extend the Visual Studio integrated development environment (IDE).
 
 ## Free Support
@@ -60,6 +56,6 @@ Questions about Premier Support offerings in conjunction with the VSIP program c
 
 Information about individual support requests can be found at [Individual Support Requests](https://support.microsoft.com/supportforbusiness/productselection).
 
-## See also
+## Related content
 
 - [Visual Studio Developer Community](https://developercommunity.visualstudio.com/home)

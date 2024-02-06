@@ -1,6 +1,6 @@
 ---
 title: Administrative Templates (ADMX)
-description: Use Visual Studio Administrative Templates to manage group policy.
+description: Configure and deploy group policy settings to the client machines in the Visual Studio ADMX Template and control Visual Studio behavior.
 ms.date: 8/8/2023
 ms.topic: conceptual
 ms.custom: vs-acquisition
@@ -14,14 +14,11 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.workload:
-- multiple
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ---
 # Administrative Templates (ADMX) 
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
  
 IT Administrators in organizations may want to control certain aspects of Visual Studio behavior to achieve consistency, compliance, or compatibility across their client machines. An easy way to accomplish this level of control is to configure and then deploy group policy settings to the client machines. The Visual Studio policies are consolidated in the [Visual Studio ADMX Template](https://aka.ms/vs/admx/details) into different categories, making them easily understandable and discoverable.   
 
@@ -31,7 +28,7 @@ The Visual Studio group policy settings contained in the ADMX file are machine-w
  
  ## Visual Studio policy categories
  
- There are four main categories of Visual Studio policies that are included in the Visual Studio Administrative Templates (ADMX):
+ There are five main categories of Visual Studio policies that are included in the Visual Studio Administrative Templates (ADMX):
  
   - **Feedback** - controls behavior of the send-a-smile feature.
   - [**Install and Update**](./configure-policies-for-enterprise-deployments.md) - controls product acquisition behavior.
@@ -54,7 +51,7 @@ For machines within a corporate network, you can use the [Group Policy editor](/
 
 [!INCLUDE [install_get_support_md](includes/install_get_support_md.md)]
 
- ## See also
+ ## Related content
 
 * [Visual Studio Administrators Guide](visual-studio-administrator-guide.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)

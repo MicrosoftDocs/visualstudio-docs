@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a flag that specifies whether the user-defined type (UDT) has been aligned to some specific memory boundary."
-title: "IDiaSymbol::get_isDataAligned | Microsoft Docs"
+title: "IDiaSymbol::get_isDataAligned"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_isDataAligned method"
-ms.assetid: ddd11a41-6c00-4829-acf4-aa1ace8c21a7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_isDataAligned
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that specifies whether the user-defined type (UDT) has been aligned to some specific memory boundary.
 
 ## Syntax

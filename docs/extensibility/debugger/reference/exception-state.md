@@ -1,26 +1,22 @@
 ---
 description: "Specifies the exception state."
-title: EXCEPTION_STATE | Microsoft Docs
+title: EXCEPTION_STATE
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - EXCEPTION_STATE
 helpviewer_keywords:
 - EXCEPTION_STATE enumeration
-ms.assetid: 597f4f4c-9b70-485c-b5dc-3c2e3aecc664
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # EXCEPTION_STATE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the exception state.
 
 ## Syntax

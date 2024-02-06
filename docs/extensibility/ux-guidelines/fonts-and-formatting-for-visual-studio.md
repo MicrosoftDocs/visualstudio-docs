@@ -1,19 +1,15 @@
 ---
-title: Fonts and Formatting for Visual Studio | Microsoft Docs
+title: Fonts and Formatting for Visual Studio
 description: Learn about fonts and formatting for new features you design for Visual Studio, including how to use the environment font.
 ms.date: 04/26/2017
 ms.topic: reference
-ms.assetid: c3c3df69-83b4-4fd0-b5b1-e18c33f39376
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Fonts and Formatting for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## <a name="BKMK_TheEnvironmentFont"></a> The environment font
  All fonts within Visual Studio must be exposed to the user for customization. This is primarily done through the **Fonts and Colors** page in the **Tools > Options** dialog. The three main categories of font settings are:
 

@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the location type of a data symbol."
-title: "IDiaSymbol::get_locationType | Microsoft Docs"
+title: "IDiaSymbol::get_locationType"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_locationType method"
-ms.assetid: fbb09c43-ebb7-4b4f-be53-ccff86eb183a
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_locationType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the location type of a data symbol.
 
 ## Syntax

@@ -1,24 +1,20 @@
 ---
 description: "Sets the core server for the port supplier."
-title: IDebugPortSupplierEx2::SetServer | Microsoft Docs
+title: IDebugPortSupplierEx2::SetServer
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugPortSupplierEx2::SetServer
-ms.assetid: 0e8ef194-3a4f-4abf-8382-4607ab3005d1
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPortSupplierEx2::SetServer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the core server for the port supplier.
 
 ## Syntax

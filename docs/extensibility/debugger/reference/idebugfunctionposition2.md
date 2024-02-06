@@ -1,23 +1,19 @@
 ---
 description: "This interface represents an abstract position of a function in a source document."
-title: IDebugFunctionPosition2 | Microsoft Docs
+title: IDebugFunctionPosition2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugFunctionPosition2
 helpviewer_keywords:
 - IDebugFunctionPosition2 interface
-ms.assetid: a835f65b-91b0-48ad-8485-04534c814b1b
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugFunctionPosition2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents an abstract position of a function in a source document.
 
 ## Syntax

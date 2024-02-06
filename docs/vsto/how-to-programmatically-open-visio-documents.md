@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically open Visio documents"
+title: "Programmatically open Visio documents"
 description: Learn how you can use Visual Studio to programmatically open a Visio document with the Open or OpenEx methods.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -12,13 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Programmatically open Visio documents
+# Programmatically open Visio documents
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   There are two methods for opening existing Microsoft Office Visio documents: Open and OpenEx. The OpenEx method is identical to the Open method, except that it provides arguments in which the caller can specify how the document opens.
 
  For details about the object model, see the VBA reference documentation for the [Microsoft.Office.Interop.Visio.Documents.Open](/office/vba/api/Visio.Documents.Open) method and [Microsoft.Office.Interop.Visio.Documents.OpenEx](/office/vba/api/Visio.Documents.OpenEx) method.
@@ -54,7 +51,7 @@ ms.workload:
 
 - A Visio document named `myDrawing.vsd` must be located in a directory named `Test` in the *My Documents* folder (for Windows XP and earlier) or the *Documents* folder (for Windows Vista).
 
-## See also
+## Related content
 - [Visio solutions](../vsto/visio-solutions.md)
 - [Visio object model overview](../vsto/visio-object-model-overview.md)
 - [How to: Programmatically create new Visio documents](../vsto/how-to-programmatically-create-new-visio-documents.md)

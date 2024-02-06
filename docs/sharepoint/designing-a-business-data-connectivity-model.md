@@ -1,5 +1,5 @@
 ---
-title: "Designing a Business Data Connectivity Model | Microsoft Docs"
+title: "Designing a Business Data Connectivity Model"
 description: Design a business data connectivity (BDC) model. Add entities and methods. Define method parameters. Add filter descriptors. Validate the BDC model.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -12,13 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+ms.subservice: sharepoint-development
 ---
 # Design a business data connectivity model
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can develop a model for the Business Data Connectivity (BDC) service by adding entities and methods to a model file. An entity describes a collection of data fields. For example, an entity can represent a table in a database. A method performs a task such as adding, deleting, or updating data represented by the entities. For more information, see [Integrate business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md).
 
 ## Add entities

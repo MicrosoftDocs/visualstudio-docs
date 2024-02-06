@@ -1,28 +1,22 @@
 ---
-title: "Tutorial: Create a C# ASP.NET Core web app in Visual Studio"
-description: In this tutorial, create a web app in Visual Studio with C# and ASP.NET Core.
+title: "Tutorial: Create C# ASP.NET Core web application"
+description: Create a web application in the Visual Studio integrated development environment (IDE) by using C# and ASP.NET Core, make changes to the app, and run the app.
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: tutorial
-ms.date: 02/23/2023
-ms.prod: visual-studio-windows
-ms.workload:
-  - "aspnet"
-  - "dotnetcore"
+ms.date: 11/17/2023
+
 dev_langs:
   - CSharp
 ms.devlang: CSharp
-ms.custom: "vs-acquistion, get-started"
 ---
 # Tutorial: Get started with C# and ASP.NET Core in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+In this tutorial for C# development with ASP.NET Core, you create a C# ASP.NET Core web app in Visual Studio.
 
-In this tutorial for C# development with ASP.NET Core, you'll create a C# ASP.NET Core web app in Visual Studio.
-
-This tutorial will show you how to:
+This tutorial shows you how to:
 
 > [!div class="checklist"]
 >
@@ -34,8 +28,7 @@ This tutorial will show you how to:
 
 ## Prerequisites
 
-   You need Visual Studio to complete this tutorial.
-   Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs) for a free version.
+You need Visual Studio to complete this tutorial. Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs) for a free version.
 
 - For more information about upgrading to the latest Visual Studio release, see [Visual Studio updates](../../install/update-visual-studio.md).
 
@@ -43,7 +36,7 @@ This tutorial will show you how to:
 
 ## Create a project
 
-First, you'll create an ASP.NET Core project. The project type comes with all the template files you'll need to build a fully functional website.
+First, you create an ASP.NET Core project. The project type comes with all the template files you need to build a fully functional website.
 
 ::: moniker range="vs-2019"
 
@@ -53,36 +46,45 @@ First, you'll create an ASP.NET Core project. The project type comes with all th
 
 1. In the **Create a new project** window, select **C#** from the Language list. Next, select **Windows** from the platform list, and **Web** from the project types list.
 
-      After you apply the language, platform, and project type filters, select the **ASP.NET Core Web App** template, and then select **Next**.
+   After you apply the language, platform, and project type filters, select the **ASP.NET Core Web App** template, and then select **Next**.
 
-   :::image type="content" source="./media/vs-2019/csharp-create-new-project-aspnet-core.png" alt-text="Screenshot shows the ASP.NET Core Web App project template highlighted in the New Project dialog box.":::
+   :::image type="content" source="./media/vs-2019/csharp-create-new-project-aspnet-core.png" alt-text="Screenshot that shows the ASP.NET Core Web App project template highlighted in the New Project dialog box in Visual Studio." lightbox="./media/vs-2019/csharp-create-new-project-aspnet-core.png":::
 
    > [!NOTE]
-   > If you don't see the **ASP.NET Core Web App** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, found at the bottom of the list of templates, select the **Install more tools and features** link.
+   > If you don't see the **ASP.NET Core Web App** template, you can install it from the **Create a new project** window.
+   > 
+   > In the **Not finding what you're looking for?** message at the bottom of the list of templates, select the **Install more tools and features** link.
    >
    > ![Screenshot shows the Install more tools and features link that is part of the Not finding what you're looking for message.](../../get-started/media/vs-2019/not-finding-what-looking-for.png)
    >
-   > Next, in the Visual Studio Installer, select **ASP.NET and web development**.
+   > In the Visual Studio Installer, select **ASP.NET and web development**.
    >
    > ![Screenshot shows the dot NET Core cross-platform development workload in the Visual Studio Installer.](../../get-started/media/aspnet-core-web-dev-workload.png)
    >
-   > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Next, select **Continue** to install the workload.
+   > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Select **Continue** to install the workload.
+   >
+   > Return to step 2 in this "[Create a project](#create-a-project)" procedure.
 
 1. In the **Configure your new project** window, enter **MyCoreApp** in the **Project name** field. Then, select **Next**.
 
-   :::image type="content" source="./media/vs-2019/csharp-name-your-aspnet-app.png" alt-text="Screenshot shows the Configure your new project window with MyCoreApp entered in the Project name field.":::
+   :::image type="content" source="./media/vs-2019/csharp-name-your-aspnet-app.png" alt-text="Screenshot that shows the Configure your new project window in Visual Studio with MyCoreApp entered in the Project name field." lightbox="./media/vs-2019/csharp-name-your-aspnet-app.png":::
 
-1. In the **Additional information** window, verify that **.NET Core 3.1** appears in the **Target Framework** field. From this window, you can enable Docker support and add authentication support. The drop-down menu for **Authentication Type** has the following four options:
-    - **None**. No authentication.
-    - **Individual accounts**. These authentications are stored in a local or Azure-based database.
-    - **Microsoft identity platform**. This option uses Active Directory, Azure AD, or Microsoft 365 for authentication.
-    - **Windows**. Suitable for intranet applications.
+1. In the **Additional information** window, verify that **.NET Core 3.1** appears in the **Target Framework** field.
 
-    Leave the **Enable Docker** box unchecked, and select **None** for Authentication Type. Next, select **Create**.
+   From this window, you can enable Docker support and add authentication support. The drop-down menu for **Authentication Type** has the following four options:
+   
+   - **None**: No authentication.
+   - **Individual accounts**: These authentications are stored in a local or Azure-based database.
+   - **Microsoft identity platform**: This option uses Microsoft Entra ID or Microsoft 365 for authentication.
+   - **Windows**: Suitable for intranet applications.
 
-   :::image type="content" source="./media/vs-2019/aspnet-core-additional-information.png" alt-text="Screenshot shows the default settings in the Additional information window. The Framework value is .NET Core 3.1.":::
+   Leave the **Enable Docker** box unchecked, and select **None** for Authentication Type.
 
-   Visual Studio will open up your new project.
+   :::image type="content" source="./media/vs-2019/aspnet-core-additional-information.png" alt-text="Screenshot that shows the default settings in the Additional information window where the target framework is set to .NET Core 3.1." lightbox="./media/vs-2019/aspnet-core-additional-information.png":::
+
+1. Select **Create**.
+
+Visual Studio opens your new project.
 
 ::: moniker-end
 
@@ -94,36 +96,45 @@ First, you'll create an ASP.NET Core project. The project type comes with all th
 
 1. In the **Create a new project** window, select **C#** from the Language list. Next, select **Windows** from the platform list, and **Web** from the project types list.
 
-      After you apply the language, platform, and project type filters, select the **ASP.NET Core Web App** template, and then select **Next**.
+   After you apply the language, platform, and project type filters, select the **ASP.NET Core Web App** template, and then select **Next**.
 
-   :::image type="content" source="media/vs-2022/csharp-create-new-project-aspnet-core.png" border="false" alt-text="Screenshot shows the ASP.NET Core Web App project template selected and highlighted on the Create a new project page.":::
+   :::image type="content" source="media/vs-2022/csharp-create-new-project-aspnet-core.png" border="false" alt-text="Screenshot that shows the ASP.NET Core Web App project template selected and highlighted on the Create a new project page." lightbox="media/vs-2022/csharp-create-new-project-aspnet-core.png":::
 
    > [!NOTE]
-   > If you don't see the **ASP.NET Core Web App** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, found at the bottom of the list of templates,  select the **Install more tools and features** link.
+   > If you don't see the **ASP.NET Core Web App** template, you can install it from the **Create a new project** window.
+   > 
+   > In the **Not finding what you're looking for?** message at the bottom of the list of templates, select the **Install more tools and features** link.
    >
    > :::image type="content" source="media/vs-2022/not-finding-what-looking-for.png" alt-text="Screenshot shows the Install more tools and features link that is part of the Not finding what you're looking for message.":::
    >
-   > Then, in the Visual Studio Installer, select the **ASP.NET and web development** workload.
+   > In the Visual Studio Installer, select the **ASP.NET and web development** workload.
    >
    > :::image type="content" source="media/vs-2022/aspnet-core-web-dev-workload.png" alt-text="Screenshot shows the ASP.NET and web development workload in the Visual Studio Installer.":::
    >
-   > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Next, select **Continue** to install the workload.
+   > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Select **Continue** to install the workload.
+   > 
+   > Return to step 2 in this "[Create a project](#create-a-project)" procedure.
 
 1. In the **Configure your new project** window, enter **MyCoreApp** in the **Project name** field. Then, select **Next**.
 
-   :::image type="content" source="media/vs-2022/csharp-name-your-aspnet-app.png" border="false" alt-text="Screenshot shows the Configure your new project window with MyCoreApp entered in the Project name field.":::
+   :::image type="content" source="media/vs-2022/csharp-name-your-aspnet-app.png" border="false" alt-text="Screenshot that shows the Configure your new project window in Visual Studio with MyCoreApp entered in the Project name field." lightbox="media/vs-2022/csharp-name-your-aspnet-app.png":::
 
-1. In the **Additional information** window, verify that **.NET 6.0** appears in the **Target Framework** field. From this window, you can enable Docker support and add authentication support. The drop-down menu for **Authentication Type** has the following four options:
-    - **None**. No authentication.
-    - **Individual accounts**. These authentications are stored in a local or Azure-based database.
-    - **Microsoft identity platform**. This option uses Active Directory, Azure AD, or Microsoft 365 for authentication.
-    - **Windows**. Suitable for intranet applications.
+1. In the **Additional information** window, verify that **.NET 8.0** appears in the **Target Framework** field.
 
-    Leave the **Enable Docker** box unchecked, and select **None** for Authentication Type. Next, select **Create**.
+   From this window, you can enable Docker support and add authentication support. The drop-down menu for **Authentication Type** has the following four options:
 
-   :::image type="content" source="media/vs-2022/aspnet-core-additional-information.png" border="false" alt-text="Screenshot shows the default settings in the Additional information window. The Framework value is .NET 6.0.":::
+   - **None**: No authentication.
+   - **Individual accounts**: These authentications are stored in a local or Azure-based database.
+   - **Microsoft identity platform**: This option uses Microsoft Entra ID or Microsoft 365 for authentication.
+   - **Windows**: Suitable for intranet applications.
 
-   Visual Studio will open up your new project.
+   Leave the **Enable Docker** box unchecked, and select **None** for Authentication Type.
+
+   :::image type="content" source="media/vs-2022/aspnet-core-additional-information.png" border="false" alt-text="Screenshot that shows the default settings in the Additional information window where the target framework is set to .NET 8.0." lightbox="media/vs-2022/aspnet-core-additional-information.png":::
+
+1. Select **Create**.
+
+Visual Studio opens your new project.
 
 ::: moniker-end
 
@@ -135,50 +146,52 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
 ## Tour your solution
 
- 1. The project template creates a solution with a single ASP.NET Core project that is named **MyCoreApp**. Select the **Solution Explorer** tab to view its contents.
+1. The project template creates a solution with a single ASP.NET Core project named **MyCoreApp**. Select the **Solution Explorer** tab to view its contents.
 
-    ![Screenshot shows the MyCoreApp project selected in the Solution Explorer in Visual Studio.](media/csharp-aspnet-razor-solution-explorer-mycoreapp.png)
+   ![Screenshot shows the MyCoreApp project selected in the Solution Explorer in Visual Studio.](media/csharp-aspnet-razor-solution-explorer-mycoreapp.png)
 
- 1. Expand the **Pages** folder.
+1. Expand the **Pages** folder.
 
-     ![Screenshot shows the contents of the Pages folder in the the Solution Explorer in Visual Studio..](media/vs-2019/csharp-aspnet-solution-explorer-pages.png)
+   ![Screenshot shows the contents of the Pages folder in the the Solution Explorer in Visual Studio..](media/vs-2019/csharp-aspnet-solution-explorer-pages.png)
 
- 1. Select the **Index.cshtml** file, and view in the code editor.
+1. Select the **Index.cshtml** file, and view the file in the code editor.
 
-     ![Screenshot shows the Index dot c s h t m l file open in the Visual Studio code editor.](media/vs-2019/csharp-aspnet-index-cshtml.png)
+   ![Screenshot shows the Index dot c s h t m l file open in the Visual Studio code editor.](media/vs-2019/csharp-aspnet-index-cshtml.png)
 
- 1. Each .cshtml file has an associated code file. To open the code file in the editor, expand the **Index.cshtml** node in Solution Explorer, and select the **Index.cshtml.cs** file.
+1. Each .cshtml file has an associated code file. To open the code file in the editor, expand the **Index.cshtml** node in Solution Explorer, and select the **Index.cshtml.cs** file.
 
-     ![Screenshot shows Index dot c s h t m l file selected in the Solution Explorer in Visual Studio.](media/vs-2019/csharp-aspnet-choose-index-cshtml.png)
+   ![Screenshot shows Index dot c s h t m l file selected in the Solution Explorer in Visual Studio.](media/vs-2019/csharp-aspnet-choose-index-cshtml.png)
 
- 1. View the **Index.cshtml.cs** file in the code editor.
+1. View the **Index.cshtml.cs** file in the code editor.
 
-     ![Screenshot shows the Index dot c s h t m l dot c s file open in the Visual Studio code editor.](media/vs-2019/csharp-aspnet-index-cshtml-editing.png)
+   ![Screenshot shows the Index dot c s h t m l dot c s file open in the Visual Studio code editor.](media/vs-2019/csharp-aspnet-index-cshtml-editing.png)
 
- 1. The project contains a **wwwroot** folder that is the root for your website. Expand the folder to view its contents.
+1. The project contains a **wwwroot** folder, which is the root for your website. Expand the folder to view its contents.
 
-     ![Screenshot shows the w w w root folder selected in the Solution Explorer in Visual Studio.](media/csharp-aspnet-razor-solution-explorer-wwwroot.png)
+   ![Screenshot shows the w w w root folder selected in the Solution Explorer in Visual Studio.](media/csharp-aspnet-razor-solution-explorer-wwwroot.png)
 
-    You can put static site content&mdash;such as CSS, images, and JavaScript libraries&mdash;directly in the paths where you want them.
+   You can put static site content such as CSS, images, and JavaScript libraries directly in the paths where you want them.
+   
+   The project also contains configuration files that manage the web app at run time. The default application [configuration](/aspnet/core/fundamentals/configuration) is stored in **appsettings.json**. However, you can override these settings by using **appsettings.Development.json**.
 
- 1. The project also contains configuration files that manage the web app at run time. The default application [configuration](/aspnet/core/fundamentals/configuration) is stored in **appsettings.json**. However, you can override these settings by using **appsettings.Development.json**. Expand the **appsettings.json** file to view the **appsettings.Development.json** file.
+1. Expand the **appsettings.json** file to view the **appsettings.Development.json** file.
 
-     ![Screenshot shows appsettings dot j son selected and expanded in the Solution Explorer in Visual Studio.](media/csharp-aspnet-razor-solution-explorer-appsettingsjson.png)
+   ![Screenshot shows appsettings dot j son selected and expanded in the Solution Explorer in Visual Studio.](media/csharp-aspnet-razor-solution-explorer-appsettingsjson.png)
 
 ## Run, debug, and make changes
 
-1. Select the **IIS Express** button in the toolbar, to build and run the app in debug mode. Alternatively, press **F5**, or go to **Debug** > **Start Debugging** from the menu bar.
+1. In the toolbar, select the **IIS Express** button to build and run the app in debug mode. Alternatively, press **F5**, or go to **Debug** > **Start Debugging** from the menu bar.
 
-     ![Screenshot shows the I I S Express button highlighted in the toolbar in Visual Studio.](media/csharp-aspnet-razor-iisexpress.png)
+   ![Screenshot shows the I I S Express button highlighted in the toolbar in Visual Studio.](media/csharp-aspnet-razor-iisexpress.png)
 
-     > [!NOTE]
-     > If you get an error message that says **Unable to connect to web server 'IIS Express'**, close Visual Studio and then relaunch the program as an administrator. You can do this by right-clicking the Visual Studio icon from the Start Menu, and then selecting the **Run as administrator** option from the context menu.
-     >
-     > You might also get a message that asks if you want to accept an IIS SSL Express certificate. To view the code in a web browser, select **Yes**, and then select **Yes** if you receive a follow-up security warning message.
+   > [!NOTE]
+   > If you get an error message that says **Unable to connect to web server 'IIS Express'**, close Visual Studio and then relaunch the program as an administrator. You can do this task by right-clicking the Visual Studio icon from the Start Menu, and then selecting the **Run as administrator** option from the context menu.
+   >
+   > You might also get a message that asks if you want to accept an IIS SSL Express certificate. To view the code in a web browser, select **Yes**, and then select **Yes** if you receive a follow-up security warning message.
 
 1. Visual Studio launches a browser window. You should then see **Home** and **Privacy** pages in the menu bar.
 
-1. Select **Privacy** from the menu bar. The **Privacy** page in the browser renders the text that is set in the **Privacy.cshtml** file.
+1. Select **Privacy** from the menu bar. The **Privacy** page in the browser renders the text that's set in the **Privacy.cshtml** file.
 
    ![Screenshot shows the MyCoreApp Privacy page with the following text: Use this page to detail your site's privacy policy.](media/vs-2019/csharp-aspnet-browser-page-privacy.png)
 
@@ -190,11 +203,11 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
 1. Now, let's make a code change. Select **Privacy.cshtml.cs**. Next, clean up the `using` directives at the top of the file by using the following shortcut:
 
-   Mouseover or select a greyed out `using` directive. A [Quick Actions](../../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Select the light bulb, and then select **Remove unnecessary usings**.
+   Mouseover or select a greyed out `using` directive. A [Quick Actions](../../ide/quick-actions.md) light bulb appears below the caret or in the left margin. Select the light bulb, and then select **Remove unnecessary usings**.
 
    ![Screenshot shows the Privacy dot c s h t m l file in the Visual Studio code editor with the Quick Actions tooltip exposed for a greyed out using directive.](media/vs-2019/csharp-aspnet-remove-unnecessary-usings.png)
 
-   Now select **Preview changes** to see what will change.
+   Now select **Preview changes** to see what changes.
 
    ![Screenshot shows the Preview Changes dialog box. The dialog box shows the directive being removed, and previews the code change after the removal.](media/vs-2019/csharp-aspnet-preview-changes.png)
 
@@ -202,19 +215,19 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
 1. Next, in the `OnGet()` method, change the body to the following code:
 
-     ```csharp
-     public void OnGet()
-     {
-        string dateTime = DateTime.Now.ToShortDateString();
-        ViewData["TimeStamp"] = dateTime;
-     }
-    ```
+   ```csharp
+   public void OnGet()
+   {
+      string dateTime = DateTime.Now.ToShortDateString();
+      ViewData["TimeStamp"] = dateTime;
+   }
+   ```
 
 1. Notice a wavy underline appears under **DateTime**. The wavy underline appears because this type isn't in scope.
 
    ![Screenshot shows an error mark, in the form of a wavy underline, for DateTime in the Visual Studio code editor.](media/vs-2019/csharp-aspnet-add-new-onget-method.png)
 
-    Open the **Error List** toolbar to see the same errors listed there. If you don't see the **Error List** toolbar, go to **View** > **Error List** from the top menu bar.
+   Open the **Error List** toolbar to see the same errors listed there. If you don't see the **Error List** toolbar, go to **View** > **Error List** from the top menu bar.
 
    ![Screenshot shows the Error List toolbar in Visual Studio with DateTime listed.](media/vs-2019/csharp-aspnet-error-list.png)
 
@@ -240,7 +253,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
    ![ Screenshot shows the Home page for the web app in the browser window.](media/vs-2019/csharp-aspnet-index-page.png)
 
-   In the code editor, you'll see HTML code for the text that appears on the **Home** page.
+   In the code editor, you see HTML code for the text that appears on the **Home** page.
 
    ![Screenshot shows the Index dot c s h t m l file for the Home page in the Visual Studio code editor.](media/vs-2019/csharp-aspnet-index-cshtml-page.png)
 
@@ -252,7 +265,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
    ![Screenshot shows the IIS Express button highlighted in the toolbar for Visual Studio.](media/vs-2019/csharp-aspnet-generic-iis-button.png)
 
-1. In the web browser, you'll see your new changes on the **Home** page.
+1. In the web browser, you see your new changes on the **Home** page.
 
    ![Screenshot shows the Home page for the web app in the browser window. The updated text says Hello World!](media/vs-2019/csharp-aspnet-index-page-hello-world.png)
 
@@ -264,50 +277,50 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
 ## Tour your solution
 
- 1. The project template creates a solution with a single ASP.NET Core project that is named **MyCoreApp**. Select the **Solution Explorer** tab to view its contents.
+1. The project template creates a solution with a single ASP.NET Core project named **MyCoreApp**. Select the **Solution Explorer** tab to view its contents.
 
-     :::image type="content" source="media/vs-2022/csharp-aspnet-razor-solution-explorer-mycoreapp.png" alt-text="Screenshot shows the MyCoreApp project selected and its content in the Solution Explorer in Visual Studio.":::
+   :::image type="content" source="media/vs-2022/csharp-aspnet-razor-solution-explorer-mycoreapp.png" alt-text="Screenshot shows the MyCoreApp project selected and its content in the Solution Explorer in Visual Studio.":::
 
- 1. Expand the **Pages** folder.
+1. Expand the **Pages** folder.
 
-     :::image type="content" source="media/vs-2022/csharp-aspnet-solution-explorer-pages.png" alt-text="Screenshot shows the contents of the Pages folder in the Solution Explorer.":::
+   :::image type="content" source="media/vs-2022/csharp-aspnet-solution-explorer-pages.png" alt-text="Screenshot shows the contents of the Pages folder in the Solution Explorer.":::
 
- 1. Select the **Index.cshtml** file, and view in the code editor.
+1. Select the **Index.cshtml** file, and view in the code editor.
 
-     :::image type="content" source="media/vs-2022/csharp-aspnet-index-cshtml.png" alt-text="Screenshot shows the Index.cshtml file open in the Visual Studio code editor.":::
+   :::image type="content" source="media/vs-2022/csharp-aspnet-index-cshtml.png" alt-text="Screenshot shows the Index.cshtml file open in the Visual Studio Code editor.":::
 
- 1. Each .cshtml file has an associated code file. To open the code file in the editor, expand the **Index.cshtml** node in Solution Explorer, and select the **Index.cshtml.cs** file.
+1. Each .cshtml file has an associated code file. To open the code file in the editor, expand the **Index.cshtml** node in Solution Explorer, and select the **Index.cshtml.cs** file.
 
-     :::image type="content" source="media/vs-2022/csharp-aspnet-choose-index-cshtml.png" alt-text="Screenshot shows Index.cshtml file selected in the Solution Explorer in Visual Studio.":::
+   :::image type="content" source="media/vs-2022/csharp-aspnet-choose-index-cshtml.png" alt-text="Screenshot shows Index.cshtml file selected in the Solution Explorer in Visual Studio.":::
 
- 1. View the **Index.cshtml.cs** file in the code editor.
+1. View the **Index.cshtml.cs** file in the code editor.
 
-     :::image type="content" source="media/vs-2022/csharp-aspnet-index-cshtml-editing.png" alt-text="Screenshot shows the Index.cshtml.cs file open in the Visual Studio code editor.":::
+   :::image type="content" source="media/vs-2022/csharp-aspnet-index-cshtml-editing.png" alt-text="Screenshot shows the Index.cshtml.cs file open in the Visual Studio Code editor.":::
 
- 1. The project contains a **wwwroot** folder that is the root for your website. Expand the folder to view its contents.
+1. The project contains a **wwwroot** folder, which is the root for your website. Expand the folder to view its contents.
 
-     :::image type="content" source="media/vs-2022/csharp-aspnet-razor-solution-explorer-wwwroot.png" alt-text="Screenshot shows the w w w root folder selected in the Solution Explorer in Visual Studio.":::
+   :::image type="content" source="media/vs-2022/csharp-aspnet-razor-solution-explorer-wwwroot.png" alt-text="Screenshot shows the w w w root folder selected in the Solution Explorer in Visual Studio.":::
 
-    You can put static site content&mdash;such as CSS, images, and JavaScript libraries&mdash;directly in the paths where you want them.
+   You can put static site content such as CSS, images, and JavaScript libraries directly in the paths where you want them.
 
- 1. The project also contains configuration files that manage the web app at run time. The default application [configuration](/aspnet/core/fundamentals/configuration) is stored in **appsettings.json**. However, you can override these settings by using **appsettings.Development.json**. Expand the **appsettings.json** file to view the **appsettings.Development.json** file.
+1. The project also contains configuration files that manage the web app at run time. The default application [configuration](/aspnet/core/fundamentals/configuration) is stored in **appsettings.json**. However, you can override these settings by using **appsettings.Development.json**. Expand the **appsettings.json** file to view the **appsettings.Development.json** file.
 
-     :::image type="content" source="media/vs-2022/csharp-aspnet-razor-solution-explorer-appsettingsjson.png" alt-text="Screenshot shows appsettings.json selected and expanded, which exposes appsettings.Development.json, in the Solution Explorer in Visual Studio.":::
+   :::image type="content" source="media/vs-2022/csharp-aspnet-razor-solution-explorer-appsettingsjson.png" alt-text="Screenshot shows appsettings.json selected and expanded, which exposes appsettings.Development.json, in the Solution Explorer in Visual Studio.":::
 
 ## Run, debug, and make changes
 
-1. Select the **IIS Express** button in toolbar, to build and run the app in debug mode. Alternatively, press **F5**, or go to **Debug** > **Start Debugging** from the menu bar.
+1. In the toolbar, select the **IIS Express** button to build and run the app in debug mode. Alternatively, press **F5**, or go to **Debug** > **Start Debugging** from the menu bar.
 
-     :::image type="content" source="media/vs-2022/csharp-aspnet-razor-iis-express.png" alt-text="Screenshot shows the I I S Express button highlighted in the toolbar in Visual Studio.":::
+   :::image type="content" source="media/vs-2022/csharp-aspnet-razor-iis-express.png" alt-text="Screenshot shows the I I S Express button highlighted in the toolbar in Visual Studio.":::
 
-     > [!NOTE]
-     > If you get an error message that says **Unable to connect to web server 'IIS Express'**, close Visual Studio and then relaunch the program as an administrator. You can do this by right-clicking the Visual Studio icon from the Start Menu, and then selecting the **Run as administrator** option from the context menu.
-     >
-     > You might also get a message that asks if you want to accept an IIS SSL Express certificate. To view the code in a web browser, select **Yes**, and then select **Yes** if you receive a follow-up security warning message.
+   > [!NOTE]
+   > If you get an error message that says **Unable to connect to web server 'IIS Express'**, close Visual Studio and then relaunch the program as an administrator. You can do this task by right-clicking the Visual Studio icon from the Start Menu, and then selecting the **Run as administrator** option from the context menu.
+   >
+   > You might also get a message that asks if you want to accept an IIS SSL Express certificate. To view the code in a web browser, select **Yes**, and then select **Yes** if you receive a follow-up security warning message.
 
 1. Visual Studio launches a browser window. You should then see **Home** and **Privacy** pages in the menu bar.
 
-1. Select **Privacy** from the menu bar. The **Privacy** page in the browser renders the text that is set in the **Privacy.cshtml** file.
+1. Select **Privacy** from the menu bar. The **Privacy** page in the browser renders the text that's set in the **Privacy.cshtml** file.
 
    :::image type="content" source="media/vs-2022/csharp-aspnet-browser-page-privacy.png" alt-text="Screenshot shows the MyCoreApp Privacy page with the following text: Use this page to detail your site's privacy policy.":::
 
@@ -315,21 +328,21 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
 1. In Visual Studio, open **Privacy.cshtml** for editing. Next, delete the sentence, _Use this page to detail your site's privacy policy_ and replace it with _This page is under construction as of @ViewData["TimeStamp"]_.
 
-   :::image type="content" source="media/vs-2022/csharp-aspnet-privacy-cshtml-code-changed.png" alt-text="Screenshot shows the Privacy.cshtml file open in the Visual Studio code editor with the updated text.":::
+   :::image type="content" source="media/vs-2022/csharp-aspnet-privacy-cshtml-code-changed.png" alt-text="Screenshot shows the Privacy.cshtml file open in the Visual Studio Code editor with the updated text.":::
 
 1. Now, let's make a code change. Select **Privacy.cshtml.cs**. Then, clean up the `using` directives at the top of the file by selecting the following shortcut:
 
-   Mouseover or select a greyed out `using` directive. A [Quick Actions](../../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Select the light bulb, and then select the expand arrow next to **Remove unnecessary usings**.
+   Mouseover or select a greyed out `using` directive. A [Quick Actions](../../ide/quick-actions.md) light bulb appears below the caret or in the left margin. Select the light bulb, and then select the expand arrow next to **Remove unnecessary usings**.
 
-   :::image type="content" source="media/vs-2022/csharp-aspnet-remove-unnecessary-usings.png" alt-text="Screenshot shows the Privacy.cshtml file in the Visual Studio code editor with the Quick Actions tooltip open and Preview changes highlighted.":::
+   :::image type="content" source="media/vs-2022/csharp-aspnet-remove-unnecessary-usings.png" alt-text="Screenshot shows the Privacy.cshtml file in the Visual Studio Code editor with the Quick Actions tooltip open and Preview changes highlighted.":::
 
-   Now select **Preview changes** to see what will change.
+   Now select **Preview changes** to see what changes.
 
    :::image type="content" source="media/vs-2022/csharp-aspnet-preview-changes.png" border="false" alt-text="Screenshot shows the Preview Changes dialog box. The dialog box shows the directive being removed, and previews the code change after the removal.":::
 
    Select **Apply**. Visual Studio deletes the unnecessary `using` directives from the file.
 
-1. Next, create a string for the current date that is formatted for your culture or region by using the [DateTime.ToString](xref:System.DateTime.ToString%2A) method.
+1. Next, create a string for the current date that's formatted for your culture or region by using the [DateTime.ToString](xref:System.DateTime.ToString%2A) method.
 
    - The first argument for the method specifies how the date should be displayed. This example uses the format specifier (`d`) which indicates the short date format.
    - The second argument is the [CultureInfo](/dotnet/api/system.globalization.cultureinfo) object that specifies the culture or region for the date. The second argument determines, among other things, the language of any words in the date, and the type of separators used.
@@ -370,19 +383,19 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
    :::image type="content" source="media/vs-2022/csharp-aspnet-index-page.png" alt-text="Screenshot shows the Home page for the web app in the browser window.":::
 
-   In the code editor, you'll see HTML code for the text that appears on the **Home** page.
+   In the code editor, you see HTML code for the text that appears on the **Home** page.
 
-   :::image type="content" source="media/vs-2022/csharp-aspnet-index-cshtml-hello.png" alt-text="Screenshot shows the Index.cshtml file for the Home page in the Visual Studio code editor.":::
+   :::image type="content" source="media/vs-2022/csharp-aspnet-index-cshtml-hello.png" alt-text="Screenshot shows the Index.cshtml file for the Home page in the Visual Studio Code editor.":::
 
 1. Replace the _Welcome_ text with _Hello World!_
 
-   :::image type="content" source="media/vs-2022/csharp-aspnet-index-cshtml-page-hello-world.png" alt-text="Screenshot shows the Index.cshtml file in the Visual Studio code editor with the 'Welcome' text changed to 'Hello World!'.":::
+   :::image type="content" source="media/vs-2022/csharp-aspnet-index-cshtml-page-hello-world.png" alt-text="Screenshot shows the Index.cshtml file in the Visual Studio Code editor with the 'Welcome' text changed to 'Hello World!'.":::
     
 1. Select **IIS Express** or press **Ctrl**+**F5** to run the app and open it in a web browser.
 
    :::image type="content" source="media/vs-2022/csharp-aspnet-generic-iis-button.png" alt-text="Screenshot shows the IIS Express button highlighted in the toolbar for Visual Studio.":::
 
-1. In the web browser, you'll see your new changes on the **Home** page.
+1. In the web browser, you see your new changes on the **Home** page.
 
    :::image type="content" source="media/vs-2022/csharp-aspnet-index-page-hello-world.png" alt-text="Screenshot shows the Home page for the web app in the browser window. The updated text says 'Hello World!'":::
 

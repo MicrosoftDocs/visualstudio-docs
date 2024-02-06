@@ -1,5 +1,5 @@
 ---
-title: "Debugging F# | Microsoft Docs"
+title: "Debugging F#"
 description: Review a list of differences between debugging F# compared with debugging other managed languages in Visual Studio.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -11,17 +11,13 @@ dev_langs:
 helpviewer_keywords:
   - "Debugging [F#]"
   - "F#, debugging"
-ms.assetid: 20bcd51c-2d06-4281-9a1e-ef2b91d1a779
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Debugging F\#
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Debugging F# is similar to debugging any managed language, with a few exceptions:
 
 - The **Autos** window does not display F# variables.
@@ -30,5 +26,5 @@ Debugging F# is similar to debugging any managed language, with a few exceptions
 
 - The debugger does not recognize F# expressions. To enter an expression in a debugger window or a dialog box during F# debugging, you must translate the expression into C# syntax. When you translate an F# expression into C#, make sure to remember that C# uses == as the comparison operator for equality and that F# uses a single =.
 
-## See also
+## Related content
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)

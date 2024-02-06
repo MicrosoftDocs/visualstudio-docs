@@ -1,7 +1,6 @@
 ---
-title: "Prepare to debug Windows Forms apps | Microsoft Docs"
+title: "Prepare to debug Windows Forms apps"
 description: Take preparation steps to debug Windows Forms applications, which are created by the Windows Forms project template in Visual Studio.
-
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -15,17 +14,12 @@ helpviewer_keywords:
   - "debugging [Visual Studio], Windows applications"
   - "debugging [C#], Windows applications"
   - "debugging [Visual Basic], Windows applications"
-ms.assetid: 7092ee7f-8378-4def-aef8-1695bd97cf14
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Debugging Preparation: Windows Forms Applications
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Windows Forms App project template creates a Windows Forms application. Debugging this type of application in Visual Studio is straightforward. For information on creating a project of this type, see [Create a Windows Form App](../ide/create-csharp-winform-visual-studio.md).
 
@@ -63,7 +57,7 @@ The Windows Forms App project template creates a Windows Forms application. Debu
 
 4. Debug using the techniques discussed in [First look at the debugger](../debugger/debugger-feature-tour.md).
 
-## See also
+## Related content
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)
 - [Managed debugging: Recommended project settings](../debugger/managed-debugging-recommended-property-settings.md)
 - [How to: Set Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md)

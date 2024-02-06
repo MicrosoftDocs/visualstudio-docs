@@ -1,5 +1,5 @@
 ---
-title: Delete Task | Microsoft Docs
+title: Delete Task
 description: Learn about parameters and considerations for using the MSBuild Delete task to delete specified files.
 ms.date: 07/08/2022
 ms.topic: reference
@@ -12,13 +12,10 @@ dev_langs:
 helpviewer_keywords:
 - Delete task [MSBuild]
 - MSBuild, Delete task
-ms.assetid: 916bb2e3-3017-4828-ae27-c0b5c99bbb48
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # Delete task
 

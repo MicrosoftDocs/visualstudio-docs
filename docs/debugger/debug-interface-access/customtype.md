@@ -1,5 +1,5 @@
 ---
-title: "CustomType | Microsoft Docs"
+title: "CustomType"
 description: Find reference information about the CustomType symbol type (SymTagCustomType) in the Visual Studio debug interface access SDK.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -7,17 +7,13 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "CustomType symbol"
-ms.assetid: 1b66bc0a-7979-416f-bf7f-e5df91584c91
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # CustomType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Vendor-defined types (compiler-specific types) are identified by a `SymTagCustomType` symbol.
 
 ## Properties

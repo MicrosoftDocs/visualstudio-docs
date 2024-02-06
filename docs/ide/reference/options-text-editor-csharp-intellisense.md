@@ -11,17 +11,12 @@ helpviewer_keywords:
 - IntelliSense [C#], wavy underlines
 - wavy underlines
 - Text Editor Options dialog box, IntelliSense
-ms.assetid: 3466dedb-e5f4-424c-8dd8-e4941b2f4fc2
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- dotnet
+ms.subservice: general-ide
 ---
 # Options, Text Editor, C#, IntelliSense
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **IntelliSense** options page to modify settings that affect the behavior of IntelliSense for C#. To access this options page, choose **Tools** > **Options**, and then choose **Text Editor** > **C#** > **IntelliSense**.
 

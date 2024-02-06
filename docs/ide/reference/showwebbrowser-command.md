@@ -8,17 +8,12 @@ f1_keywords:
 helpviewer_keywords:
   - "ShowWebBrowser command"
   - "View.ShowWebBrowser command"
-ms.assetid: c6a4fbd6-8e9d-45cc-8b2f-93990d065e78
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-  - "multiple"
+ms.subservice: general-ide
 ---
 # ShowWebBrowser Command
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Displays the URL you specify in a web browser window either within the integrated development environment (IDE) or external to the IDE.
 

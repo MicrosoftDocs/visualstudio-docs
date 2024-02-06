@@ -1,5 +1,5 @@
 ---
-title: "Merging XML in Feature and Package Manifests | Microsoft Docs"
+title: "Merging XML in Feature and Package Manifests"
 description: Merge designer-generated and user-added XML code in SharePoint feature and package manifests. Learn feature and package manifest elements, and merge exceptions.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -11,13 +11,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+ms.subservice: sharepoint-development
 ---
 # Merge XML in feature and package manifests
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Features and packages are defined by XML manifest files. These packaged manifests are a combination of data generated from designers and custom XML entered in the manifest template by users. At packaging time, Visual Studio merges the custom XML statements with the designer-provided XML to form the packaged XML manifest file. Similar elements, with the exceptions noted later in Merge Exceptions, are merged to avoid XML validation errors after you deploy the files to SharePoint, and to make the manifest files smaller and more efficient.
 
 ## Modify the manifests
@@ -76,6 +73,6 @@ ms.workload:
 ## Manually add deployed files
  Some manifest elements, such as ApplicationResourceFile and DwpFiles, specify a location that includes a file name. However, adding a file name entry to the manifest template does not add the underlying file to the package. You must add the file to the project to include it in the package and set its Deployment Type property accordingly.
 
-## See also
+## Related content
 - [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)
 - [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)

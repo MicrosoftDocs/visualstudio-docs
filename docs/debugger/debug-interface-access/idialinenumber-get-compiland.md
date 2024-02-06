@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a reference to the symbol for the compiland that contributed the bytes of image text."
-title: "IDiaLineNumber::get_compiland | Microsoft Docs"
+title: "IDiaLineNumber::get_compiland"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaLineNumber::get_compiland method"
-ms.assetid: c476d0b8-c473-47eb-96f5-c4e8f577b1c9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaLineNumber::get_compiland
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a reference to the symbol for the compiland that contributed the bytes of image text.
 
 ## Syntax

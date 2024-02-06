@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the number of bytes in a block."
-title: "IDiaLineNumber::get_length | Microsoft Docs"
+title: "IDiaLineNumber::get_length"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaLineNumber::get_length method"
-ms.assetid: 2c55a6f7-4ef5-45fb-9fd1-d72deaaa2829
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaLineNumber::get_length
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the number of bytes in a block.
 
 ## Syntax

@@ -1,23 +1,19 @@
 ---
 description: "Enumerates the various segments contained in the data source."
-title: "IDiaEnumSegments | Microsoft Docs"
+title: "IDiaEnumSegments"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumSegments interface"
-ms.assetid: 0c9edd5e-b9ce-43e1-a791-cd4c5d16d923
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaEnumSegments
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enumerates the various segments contained in the data source.
 
 ## Syntax

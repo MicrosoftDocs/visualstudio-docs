@@ -10,12 +10,8 @@ f1_keywords:
 author: tylermsft
 ms.author: twhitney
 manager: markl
-ms.workload:
-  - "cplusplus"
 ---
 # Options, Text Editor, C/C++, Experimental
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 By changing these options, you can change the behavior related to IntelliSense and the browsing database when you're programming in C or C++. These features are truly experimental and may be modified or removed from Visual Studio in a future release.
 

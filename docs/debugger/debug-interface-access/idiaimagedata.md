@@ -1,23 +1,19 @@
 ---
 description: "Exposes the details of the base location and memory offsets of the module or image."
-title: "IDiaImageData | Microsoft Docs"
+title: "IDiaImageData"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaImageData interface"
-ms.assetid: b696f350-fc08-4352-9287-a15e87512c1e
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaImageData
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Exposes the details of the base location and memory offsets of the module or image.
 
 ## Syntax

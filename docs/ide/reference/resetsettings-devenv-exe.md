@@ -8,24 +8,19 @@ helpviewer_keywords:
 - ResetSettings switch
 - /ResetSettings Devenv switch
 - settings [Visual Studio], resetting
-ms.assetid: 1d41021c-6f58-4bd5-b122-d1c995812192
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # /ResetSettings (devenv.exe)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Restores Visual Studio default settings and automatically launches the Visual Studio IDE. This switch optionally resets the settings to a specified settings file (`*.vssettings`).
 
 The default settings come from the profile that was selected when Visual Studio was first launched.
 
 > [!TIP]
-> To learn how to reset settings using the integrated development environment (IDE), see [Reset settings](../environment-settings.md#reset-settings).
+> To learn how to reset settings using the integrated development environment (IDE), see [Reset settings](../environment-settings.md#reset-all-settings).
 
 ## Syntax
 

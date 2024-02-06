@@ -1,26 +1,22 @@
 ---
 description: "Specifies the condition associated with the breakpoint pass count that causes the breakpoint to fire."
-title: BP_PASSCOUNT_STYLE | Microsoft Docs
+title: BP_PASSCOUNT_STYLE
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - BP_PASSCOUNT_STYLE
 helpviewer_keywords:
 - BP_PASSCOUNT_STYLE structure
-ms.assetid: 0a647047-e2d5-4724-a0b8-68108425ecad
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # BP_PASSCOUNT_STYLE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the condition associated with the breakpoint pass count that causes the breakpoint to fire.
 
 ## Syntax

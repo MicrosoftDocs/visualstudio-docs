@@ -1,18 +1,13 @@
 ---
 title: "Write unit tests for C/C++"
-description: Write C++ unit tests in Visual Studio using various test frameworks including CTest, Boost.Test, and Google Test.
+description: Write and run C++ unit tests with the Test Explorer in Visual Studio by using CTest, Boost.Test, Google Test, and other testing frameworks.
 ms.date: 11/29/2022
-ms.custom: devdivchpfy22
 ms.topic: conceptual
 ms.author: "twhitney"
 manager: markl
-ms.workload:
-  - "cplusplus"
 author: tylermsft
 ---
 # Write unit tests for C/C++ in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can write and run your C++ unit tests by using the **Test Explorer** window. It works just like it does for other languages. For more information about using **Test Explorer**, see [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md).
 
@@ -40,7 +35,7 @@ C++ unit test projects support [CodeLens](../ide/find-code-changes-and-other-his
 
 - **CTest** support is included with the **C++ CMake tools** component, which is part of the **Desktop development with C++** workload. For more information, see [How to: Use CTest in Visual Studio](how-to-use-ctest-for-cpp.md).
 
-**Visual Studio 2015 and earlier**
+**Earlier versions of Visual Studio**
 
 You can download the Google Test adapter and Boost.Test Adapter extensions on the Visual Studio Marketplace. Find them at [Test adapter for Boost.Test](https://marketplace.visualstudio.com/items?itemName=VisualCPPTeam.TestAdapterforBoostTest) and [Test adapter for Google Test](https://marketplace.visualstudio.com/items?itemName=VisualCPPTeam.TestAdapterforGoogleTest).
 
@@ -164,6 +159,6 @@ Choose the icon for more information, or to run or debug the unit test:
 
 ![C++ CodeLens Run and Debug](media/vs-2022/cpp-test-codelens-run-debug-2022.png)
 
-## See also
+## Related content
 
 - [Unit test your code](unit-test-your-code.md)

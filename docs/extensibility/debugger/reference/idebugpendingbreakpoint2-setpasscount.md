@@ -1,6 +1,6 @@
 ---
 description: "Sets or changes the pass count associated with the pending breakpoint."
-title: IDebugPendingBreakpoint2::SetPassCount | Microsoft Docs
+title: IDebugPendingBreakpoint2::SetPassCount
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,20 +8,16 @@ f1_keywords:
 helpviewer_keywords:
 - SetPassCount method
 - IDebugPendingBreakpoint2::SetPassCount method
-ms.assetid: 08ddd328-57eb-42e0-baa9-8424dcd1bf04
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPendingBreakpoint2::SetPassCount
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets or changes the pass count associated with the pending breakpoint.
 
 ## Syntax

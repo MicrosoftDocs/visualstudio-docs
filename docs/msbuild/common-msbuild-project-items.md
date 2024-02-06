@@ -1,5 +1,5 @@
 ---
-title: Common MSBuild Project Items | Microsoft Docs
+title: Common MSBuild Project Items
 description: Learn about common MSBuild project items. Items are named references to one or more files, and have metadata like file names, paths, and version numbers.
 ms.date: 10/29/2020
 ms.topic: reference
@@ -7,16 +7,12 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - MSBuild, common project items
-ms.assetid: 1eba3721-cc12-4b80-9987-84923ede5e2e
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # Common MSBuild project items
 

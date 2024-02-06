@@ -11,13 +11,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
 # Application manifests for Office solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   An application manifest is an XML file that describes the assemblies that are loaded into a Microsoft Office solution. The Microsoft Office development tools in Visual Studio use the ClickOnce application manifest schema defined in the [ClickOnce application manifest](../deployment/clickonce-application-manifest.md) reference.
 
  Application manifests for Office solutions use the following ClickOnce elements and attributes.

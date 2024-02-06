@@ -1,5 +1,5 @@
 ---
-title: "How to: Define a Method Instance | Microsoft Docs"
+title: "Define a Method Instance"
 description: Understand how to define a method instance for a method in your business data connectivity (BDC) model.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -14,13 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+ms.subservice: sharepoint-development
 ---
-# How to: Define a method instance
+# Define a method instance
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You must define at least one method instance for every method in your model.
 
  Add a method instance by using the **BDC Method Details** window. When you add the method instance, Visual Studio adds a `<MethodInstance>` element to the XML of the model file in your project. For more information about the attributes of a `<MethodInstance>` element, see [MethodInstance](/previous-versions/office/developer/sharepoint-2010/ee556838(v=office.14)).
@@ -37,7 +34,7 @@ ms.workload:
 
 4. In the **Properties** window, set the properties of the method instance. For more information about each property, see [MethodInstance](/previous-versions/office/developer/sharepoint-2010/ee556838(v=office.14)).
 
-## See also
+## Related content
 - [BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md)
 - [How to: Add an entity to a model](../sharepoint/how-to-add-an-entity-to-a-model.md)
 - [How to: Add a parameter to a method](../sharepoint/how-to-add-a-parameter-to-a-method.md)

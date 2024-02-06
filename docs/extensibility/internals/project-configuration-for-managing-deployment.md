@@ -1,22 +1,18 @@
 ---
-title: Project Configuration for Managing Deployment | Microsoft Docs
+title: Project Configuration for Managing Deployment
 description: Learn about deployment to the expected location for debugging and installation and the two ways Visual Studio supports projects that support deployment.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - project configurations, managing deployment
 - projects [Visual Studio SDK], configuration for managing deployment
-ms.assetid: bd5940d9-d94d-4944-beda-4ec1ab2bbde5
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Project Configuration for Managing Deployment
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Deployment is the act of physically moving the output items from a build process to the expected location for debugging and installation. For example, a Web application might be built on a local machine and then placed on the server.
 
  Visual Studio supports two ways that projects can be involved in deployment:

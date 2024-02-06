@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically create a custom calendar"
+title: "Programmatically create a custom calendar"
 description: Use this example to programmatically create a new Calendar folder named PersonalCalendar, and then create a new Appointment item and add it to the Calendar folder.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -13,13 +13,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Programmatically create a custom calendar
+# Programmatically create a custom calendar
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example creates a new Calendar folder named **PersonalCalendar**, and then creates a new Appointment item and adds it to the Calendar folder. The code then displays the Calendar folder.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
@@ -27,7 +24,7 @@ ms.workload:
 ## Example
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_OL_CustomCalendar/thisaddin.cs" id="Snippet1":::
 
-## See also
+## Related content
 - [Work with calendar items](../vsto/working-with-calendar-items.md)
 - [How to: Programmatically create appointments](../vsto/how-to-programmatically-create-appointments.md)
 - [How to: Programmatically create a meeting request](../vsto/how-to-programmatically-create-a-meeting-request.md)

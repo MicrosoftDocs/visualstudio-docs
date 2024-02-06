@@ -1,6 +1,6 @@
 ---
 title: "Threads view in the Concurrency Visualizer"
-description: "Learn that in the Threads view, you can identify which threads are executing code during an execution segment."
+description: Explore the Threads view in the Concurrency Visualizer, where you can identify which threads are executing code during an execution segment.
 ms.date: "05/06/2022"
 ms.topic: "conceptual"
 f1_keywords:
@@ -22,17 +22,12 @@ f1_keywords:
   - "vs.cv.threads.tools.zoom"
 helpviewer_keywords:
   - "Concurrency Visualizer, Threads View (Parallel Performance)"
-ms.assetid: 2e441103-a266-407b-88c3-fb58716257a3
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Threads view in the Concurrency Visualizer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Threads** view is the most detailed and feature-rich view in the Concurrency Visualizer. In the **Threads** view, you can identify which threads are executing code during an execution segment, and analyze whether threads are executing or blocking because of synchronization, I/O, or other reasons. **Threads** view reports also profile call-stack tree execution and unblocking threads.
 
@@ -305,6 +300,6 @@ The zoom control is a slider that helps you to zoom in and out on the timeline s
 ### Zoom in and out by using the mouse wheel
  Click on any point on the timeline (to ensure it has mouse focus), and then press **Ctrl** and move the mouse wheel (forward zooms in; backward zooms out).
 
-## See also
+## Related content
 
 - [Concurrency Visualizer](../profiling/concurrency-visualizer.md)

@@ -22,7 +22,7 @@
     href: kubernetes-environment-variables.md
 - name: Configure Bridge to Kubernetes
   href: configure-bridge-to-kubernetes.md
-- name: Use Azure AD managed identities
+- name: Use Microsoft Entra managed identities
   href: managed-identity.md
 - name: Resources
   expanded: true

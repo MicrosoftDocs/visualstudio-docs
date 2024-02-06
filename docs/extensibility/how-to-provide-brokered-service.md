@@ -1,22 +1,17 @@
 ---
-title: 'How to: Provide a brokered service'
+title: 'Provide a brokered service'
 description: Learn how to design, create, register, and proffer a brokered service for consumption by yourself and others.
 monikerRange: '>= vs-2019'
 ms.date: 01/07/2022
 ms.topic: how-to
 helpviewer_keywords:
 - brokered services, providing
-ms.assetid: e09556bb-41e4-46e2-a14d-47e09d67f8a1
 author: aarnott
 ms.author: andarno
 manager: ansonh
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
-# How to: Provide a brokered service
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Provide a brokered service
 
 A brokered service consists of the following elements:
 
@@ -653,7 +648,7 @@ internal class MefBrokeredService : IExportedBrokeredService, ICalculator
 }
 ```
 
-## See also
+## Related content
 - [Best Practices for Designing a Brokered Service](best-practices-design-brokered-service.md)
 - [How to Secure a Brokered Service](how-to-secure-brokered-service.md)
 - [Brokered Service Essentials](internals/brokered-service-essentials.md)

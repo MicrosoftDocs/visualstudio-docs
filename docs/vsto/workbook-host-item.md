@@ -19,13 +19,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
 # Workbook host item
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The <xref:Microsoft.Office.Tools.Excel.Workbook> host item is a type that extends the <xref:Microsoft.Office.Interop.Excel.Workbook> type from the primary interop assembly for Excel. The <xref:Microsoft.Office.Tools.Excel.Workbook> host item provides all of the same properties, methods, and events as a <xref:Microsoft.Office.Interop.Excel.Workbook> object, but it also provides additional features.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
@@ -52,7 +49,7 @@ ms.workload:
 ## Understand workbook host items in VSTO Add-in projects
  In VSTO Add-in projects, you can generate a <xref:Microsoft.Office.Tools.Excel.Workbook> host item at run time for any workbook that is open in Excel. To generate a <xref:Microsoft.Office.Tools.Excel.Workbook> host item, use the `GetVstoObject` method. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
 
-## See also
+## Related content
 - [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)
 - [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
 - [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)

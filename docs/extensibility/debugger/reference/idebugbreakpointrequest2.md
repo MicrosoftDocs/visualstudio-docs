@@ -1,23 +1,19 @@
 ---
 description: "The IDebugBreakPointRequest2 interface represents the information necessary to create and bind any type of breakpoint."
-title: IDebugBreakpointRequest2 | Microsoft Docs
+title: IDebugBreakpointRequest2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugBreakpointRequest2
 helpviewer_keywords:
 - IDebugBreakpointRequest2 interface
-ms.assetid: 01ac4013-96f9-4235-b289-f55f9e99558f
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugBreakpointRequest2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents the information necessary to create and bind any type of breakpoint.
 
 ## Syntax

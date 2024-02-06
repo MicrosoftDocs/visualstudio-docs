@@ -1,23 +1,19 @@
 ---
 description: "This interface is sent by the debug engine (DE) to the session debug manager (SDM) when a thread name changes in the program being debugged."
-title: IDebugThreadNameChangedEvent2 | Microsoft Docs
+title: IDebugThreadNameChangedEvent2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugThreadNameChangedEvent2
 helpviewer_keywords:
 - IDebugThreadNameChangedEvent2
-ms.assetid: 34c1652e-f019-48ba-8b26-ace20f8a158c
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugThreadNameChangedEvent2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) when a thread name changes in the program being debugged.
 
 ## Syntax

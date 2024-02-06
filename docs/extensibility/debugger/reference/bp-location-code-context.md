@@ -1,25 +1,21 @@
 ---
 description: "Describes the location of a breakpoint that is bound directly to an address in the program being debugged."
-title: BP_LOCATION_CODE_CONTEXT | Microsoft Docs
+title: BP_LOCATION_CODE_CONTEXT
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - BP_LOCATION_CODE_CONTEXT
 helpviewer_keywords:
 - BP_LOCATION_CODE_CONTEXT structure
-ms.assetid: 37412896-021a-4f73-9bb7-4125502c2e18
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 ---
 # BP_LOCATION_CODE_CONTEXT
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the location of a breakpoint that is bound directly to an address in the program being debugged.
 
 ## Syntax

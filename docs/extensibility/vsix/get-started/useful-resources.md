@@ -6,13 +6,10 @@ ms.topic: conceptual
 author: madskristensen
 ms.author: madsk
 manager: pchapman
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-sdk
-ms.custom: cookbook
+
+ms.subservice: extensibility-integration
 ---
 # Useful resources on Visual Studio extensions
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 These resources can help you better navigate the world of Visual Studio extensibility.
 

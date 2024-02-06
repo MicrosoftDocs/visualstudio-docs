@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a specified number of section contributions in the enumeration sequence."
-title: "IDiaEnumSectionContribs::Next | Microsoft Docs"
+title: "IDiaEnumSectionContribs::Next"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumSectionContribs::Next method"
-ms.assetid: a6bb2adb-ee6d-4f3c-ab5b-e89361c8880e
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaEnumSectionContribs::Next
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a specified number of section contributions in the enumeration sequence.
 
 ## Syntax

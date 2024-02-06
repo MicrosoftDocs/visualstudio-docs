@@ -1,21 +1,17 @@
 ---
 description: "Retrieves the base data slot."
-title: "IDiaSymbol::get_baseDataSlot | Microsoft Docs"
+title: "IDiaSymbol::get_baseDataSlot"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: f9ed21b7-9397-4813-926e-ade11914b06b
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_baseDataSlot
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the base data slot.
 
 ## Syntax

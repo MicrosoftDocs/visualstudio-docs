@@ -1,26 +1,22 @@
 ---
 description: "Removes a specified program node from availability to debug engines (DEs) and the session debug manager (SDM)."
-title: IDebugProgramPublisher2::UnpublishProgramNode | Microsoft Docs
+title: IDebugProgramPublisher2::UnpublishProgramNode
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgramPublisher2::UnpublishProgramNode
 helpviewer_keywords:
 - IDebugProgramPublisher2::UnpublishProgramNode
-ms.assetid: 57c7e6e1-b84e-4e14-ad83-cbbb64e2f526
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProgramPublisher2::UnpublishProgramNode
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Removes a specified program node from availability to debug engines (DEs) and the session debug manager (SDM).
 
 ## Syntax

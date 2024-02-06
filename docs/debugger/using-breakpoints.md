@@ -1,7 +1,7 @@
 ---
-title: Use breakpoints in the debugger | Microsoft Docs
+title: Use breakpoints in the debugger
 description: Learn about breakpoints, one of the most important debugging techniques. The article covers breakpoint actions, tracepoints, conditions, and much more.
-ms.date: 12/13/2022
+ms.date: 12/06/2023
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.breakpointswin
@@ -27,17 +27,12 @@ f1_keywords:
   - vs.debug.breakpt.location.file
 helpviewer_keywords: 
   - breakpoints, about breakpoints
-ms.assetid: 020b2e97-3b3e-4b2c-872d-b5c6025e120e
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
 # Use breakpoints in the Visual Studio debugger
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Breakpoints are one of the most important debugging techniques in your developer's toolbox. You set breakpoints wherever you want to pause debugger execution. For example, you may want to see the state of code variables or look at the call stack at a certain breakpoint.  If you are trying to resolve a warning or issue while using breakpoints, see [Troubleshoot breakpoints in the Visual Studio debugger](../debugger/troubleshooting-breakpoints.md).
 
@@ -254,20 +249,22 @@ You can break execution when a function is called. This is useful, for example, 
 
 Data breakpoints break execution when a specific object's property changes.
 
-**To set a data breakpoint**
+To set a data breakpoint:
 
-1. In a .NET Core project, start debugging, and wait until a breakpoint is reached.
+1. In a .NET Core or .NET 5+ project, start debugging, and wait until a breakpoint is reached.
 
 2. In the **Autos**, **Watch**, or **Locals** window, right-click a property and select **Break when value changes** in the context menu.
 
     ![Managed Data Breakpoint](../debugger/media/managed-data-breakpoint.png "Managed Data Breakpoint")
 
-Data breakpoints in .NET Core won't work for:
+Data breakpoints for .NET Core and .NET 5+ won't work for:
 
 - Properties that are not expandable in the tooltip, Locals, Autos, or Watch window
 - Static variables
 - Classes with the DebuggerTypeProxy Attribute
 - Fields inside of structs
+
+For the maximum number that you can set, see [Data breakpoint hardware limits](#data-breakpoint-hardware-limits).
 
 ::: moniker-end
 
@@ -275,7 +272,7 @@ Data breakpoints in .NET Core won't work for:
 
  Data breakpoints break execution when a value stored at a specified memory address changes. If the value is read but not changed, execution doesn't break.
 
-**To set a data breakpoint:**
+To set a data breakpoint:
 
 1. In a C++ project, start debugging, and wait until a breakpoint is reached. On the **Debug** menu, choose **New Breakpoint** > **Data Breakpoint**.
 
@@ -295,6 +292,16 @@ Data breakpoints don't work under the following conditions:
 > - Data breakpoints depend on specific memory addresses. The address of a variable changes from one debugging session to the next, so data breakpoints are automatically disabled at the end of each debugging session.
 >
 > - If you set a data breakpoint on a local variable, the breakpoint remains enabled when the function ends, but the memory address is no longer applicable, so the behavior of the breakpoint is unpredictable. If you set a data breakpoint on a local variable, you should delete or disable the breakpoint before the function ends.
+
+## Data breakpoint hardware limits
+
+The Windows kernel and the underlying hardware have the following limits when setting data breakpoints. The limit refers to the maximum number of data breakpoints that you can set.
+
+|Processor architecture|Data breakpoint limit|
+|-|-|
+|x64 and x86|4|
+|ARM64|2|
+|ARM|1|
 
 ::: moniker range=">= vs-2022"
 ## <a name="BKMK_set_a_dependent_breakpoint"></a>Set a dependent breakpoint
@@ -402,7 +409,7 @@ To visually trace breakpoints during code execution, see [Map methods on the cal
 
 2. In the **Disassembly** window, click in the left margin of the instruction you want to break at. You can also select it and press **F9**, or right-click and select **Breakpoint** > **Insert Breakpoint**.
 
-## See also
+## Related content
 
 - [What is debugging?](../debugger/what-is-debugging.md)
 - [Write better C# code using Visual Studio](../debugger/write-better-code-with-visual-studio.md)

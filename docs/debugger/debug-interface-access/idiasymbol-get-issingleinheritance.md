@@ -1,19 +1,17 @@
 ---
 description: "Specifies whether the this pointer points to a data member with single inheritance."
-title: "IDiaSymbol::get_isSingleInheritance | Microsoft Docs"
+title: "IDiaSymbol::get_isSingleInheritance"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: 46cde656-059b-4c20-9476-3ca68ccc9912
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_isSingleInheritance
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies whether the `this` pointer points to a data member with single inheritance.
 
 ## Syntax

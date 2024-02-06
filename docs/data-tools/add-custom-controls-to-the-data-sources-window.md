@@ -1,6 +1,6 @@
 ---
-title: Add custom controls to the Data Sources window
-description: Add custom controls to the Data Sources window in Visual Studio. Customize the bindable controls list. Add associated controls.
+title: Add custom controls to the Data Sources window for .NET Framework applications
+description: Add custom controls to the Data Sources window with ADO.NET in Visual Studio. Customize the bindable controls list. Add associated controls.
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -12,15 +12,12 @@ helpviewer_keywords:
 - LookupBindingPropertiesAttribute class, using
 - ComplexBindingPropertiesAttribute class, using
 - Data Sources Window, selecting controls
-ms.assetid: 8c43e7d2-ba94-4d9b-96de-3aa971955afd
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
+ms.subservice: data-tools
 ---
-# Add custom controls to the Data Sources window
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Add custom controls to the Data Sources window for .NET Framework applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -89,7 +86,7 @@ To add controls to the list of associated controls:
     > [!NOTE]
     > Only controls that are located within the current solution or in a referenced assembly can be added to the list of associated controls. (The controls must also implement one of the data-binding attributes in the previous table.) To bind data to a custom control that is not available in the Data Sources window, drag the control from the **Toolbox** onto the design surface, and then drag the item to bind to from the **Data Sources** window onto the control.
 
-## See also
+## Related content
 
 - [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)
 - [Data UI Customization options dialog box](../ide/reference/options-windows-forms-designer-data-ui-customization.md)

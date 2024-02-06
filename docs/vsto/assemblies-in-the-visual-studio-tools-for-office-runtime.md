@@ -1,6 +1,6 @@
 ---
-title: "Assemblies in the Visual Studio Tools for Office runtime"
-description: Learn that Visual Studio automatically adds references to the Visual Studio Tools for Office runtime assemblies.
+title: Review assemblies in the Visual Studio Tools for Office runtime
+description: Explore assemblies in the Visual Studio Tools for Office runtime and how Visual Studio automatically adds references the assemblies.
 titleSuffix: ""
 ms.date: 02/02/2017
 ms.topic: conceptual
@@ -12,13 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
 # Assemblies in the Visual Studio Tools for Office runtime
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When you create an Office project, Visual Studio automatically adds references to the  Visual Studio Tools for Office runtime  assemblies that are used for the project type and the target .NET Framework of the project. There are different assemblies in the Office extensions for the .NET Framework 3.5, .NET Framework 4, and .NET Framework 4.5. For more information about the Office extensions, see [Visual Studio Tools for Office runtime overview](visual-studio-tools-for-office-runtime-overview.md).
 
 ## Assemblies in the Office extensions for the .NET Framework 4 and the .NET Framework 4.5
@@ -59,6 +56,6 @@ ms.workload:
 |Microsoft.VisualStudio.Tools.Applications.ServerDocument.v10.0.dll|Provides the following types:<br /><br /> -   The <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> class, which you can use to programmatically attach customization assemblies to documents and to access the cached data in documents. For more information, see [Manage documents on a server by using the ServerDocument class](managing-documents-on-a-server-by-using-the-serverdocument-class.md).<br />-   Several classes that represent the hierarchy of cached data in a document-level customization. For more information, see [Access data in documents on the server](accessing-data-in-documents-on-the-server.md).|
 |Microsoft.VisualStudio.Tools.Office.Runtime.v10.0.dll|Provides the following types:<br /><br /> -   The Microsoft.VisualStudio.Tools.Office.Runtime.Security.AddInSecurityEntry and Microsoft.VisualStudio.Tools.Office.Runtime.Security.UserInclusionList classes, which you can use to create user inclusion list entries to grant trust to Office solutions that target the .NET Framework 3.5.<br />-   Other types that are part of the Visual Studio Tools for Office runtime infrastructure, and are not intended to be used directly from your code.|
 
-## See also
+## Related content
 - [Visual Studio Tools for Office runtime overview](visual-studio-tools-for-office-runtime-overview.md)
 - [Visual Studio Tools for Office runtime installation scenarios](visual-studio-tools-for-office-runtime-installation-scenarios.md)

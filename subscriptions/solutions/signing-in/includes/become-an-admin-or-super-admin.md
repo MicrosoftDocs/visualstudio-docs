@@ -1,5 +1,5 @@
 ---
-title: How to become a Visual Studio Subscriptions admin 
+title: Become a Visual Studio Subscriptions admin 
 description: Learn how to become a Visual Studio Subscriptions admin or super admin
 comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include

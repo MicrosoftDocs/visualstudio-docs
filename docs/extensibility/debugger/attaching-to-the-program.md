@@ -1,21 +1,17 @@
 ---
-title: Attaching to the Program | Microsoft Docs
+title: Attaching to the Program
 description: Learn how Visual Studio implements the debugger attaching to a program after the program has been registered with the appropriate port.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - debug engines, attaching to programs
-ms.assetid: 9a3f5b83-60b5-4ef0-91fe-a432105bd066
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # Attach to the program
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 After you have registered your programs with the appropriate port, you must attach the debugger to the program you want to debug.
 
 ## Choose how to attach
@@ -55,7 +51,7 @@ After you have registered your programs with the appropriate port, you must atta
     > [!NOTE]
     > This is not the same `IDebugProgram2` object that was passed into the `IDebugEngine2::Attach` method. The previously passed `IDebugProgram2` object is recognized by the port only and is a separate object.
 
-## See also
+## Related content
 - [Launch-based attachment](../../extensibility/debugger/launch-based-attachment.md)
 - [Sending events](../../extensibility/debugger/sending-events.md)
 - [LaunchSuspended](../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md)

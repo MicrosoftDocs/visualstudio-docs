@@ -2,7 +2,6 @@
 description: "The entryPoints element of the vstav3 namespace contains all the entryPoint elements associated with an Office solution."
 title: "&lt;entryPoints&gt; element (Office development in Visual Studio)"
 titleSuffix: ""
-
 ms.date: "02/02/2017"
 ms.topic: "reference"
 dev_langs:
@@ -13,13 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
 # &lt;entryPoints&gt; element (Office development in Visual Studio)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The `entryPoints` element of the `vstav3` namespace contains all the `entryPoint` elements associated with an Office solution.
 
 ## Syntax

@@ -6,16 +6,12 @@ ms.topic: reference
 author: m-redding
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 dev_langs:
   - CSharp
   - VB
-ms.workload: 
-  - "dotnet"
 ---
 # Convert `typeof` to `nameof`
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This refactoring applies to:
 

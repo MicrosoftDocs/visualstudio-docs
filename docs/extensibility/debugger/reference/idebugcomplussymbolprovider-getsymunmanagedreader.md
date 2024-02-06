@@ -1,25 +1,21 @@
 ---
 description: "Retrieves the symbol reader to be used by unmanaged code."
-title: IDebugComPlusSymbolProvider::GetSymUnmanagedReader | Microsoft Docs
+title: IDebugComPlusSymbolProvider::GetSymUnmanagedReader
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugComPlusSymbolProvider::GetSymUnmanagedReader
 - GetSymUnmanagedReader
-ms.assetid: 8f1c1627-217f-4405-8141-7a2eb80310a5
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetSymUnmanagedReader
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the symbol reader to be used by unmanaged code.
 
 ## Syntax

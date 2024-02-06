@@ -1,6 +1,6 @@
 ---
-title: Bind WPF controls to a dataset
-description: Create a WPF application in Visual Studio that contains data-bound controls, which are bound to product records that are encapsulated in a dataset.
+title: Bind WPF controls to an ADO.NET dataset (.NET Framework)
+description: Create a WPF .NET Framework application in Visual Studio that contains data-bound controls, which are bound to product records that are encapsulated in an ADO.NET dataset.
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -10,17 +10,12 @@ helpviewer_keywords:
 - WPF, data binding in Visual Studio
 - WPF data binding [Visual Studio], walkthroughs
 - WPF Designer, data binding
-ms.assetid: 177420b9-568b-4dad-9d16-1b0e98a24d71
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# Bind WPF controls to a dataset
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Bind WPF controls to a dataset in .NET Framework applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -42,7 +37,7 @@ This walkthrough illustrates the following tasks:
 
 You need the following components to complete this walkthrough:
 
-- Visual Studio
+- To complete this tutorial, you need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify. See [Modify Visual Studio](../install/modify-visual-studio.md).
 
 - Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorks Light (AdventureWorksLT) sample database attached to it. To download the database, see [AdventureWorks sample databases](/sql/samples/adventureworks-install-configure?tabs=ssms).
 
@@ -256,7 +251,7 @@ After completing this walkthrough, you might try the following related tasks:
 
 - Learn how to use the **Data Sources** window in Visual Studio to display related data (that is, data in a parent-child relationship) in WPF controls. For more information, see [Walkthrough: Display related data in a WPF app](../data-tools/display-related-data-in-wpf-applications.md).
 
-## See also
+## Related content
 
 - [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md)
 - [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)

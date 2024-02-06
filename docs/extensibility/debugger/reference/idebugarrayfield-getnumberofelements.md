@@ -1,26 +1,22 @@
 ---
 description: "Gets the number of elements in the array."
-title: IDebugArrayField::GetNumberOfElements | Microsoft Docs
+title: IDebugArrayField::GetNumberOfElements
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugArrayField::GetNumberOfElements
 helpviewer_keywords:
 - IDebugArrayField::GetNumberOfElements method
-ms.assetid: a1961ef3-d69d-4022-b8c9-b9cfb9811345
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugArrayField::GetNumberOfElements
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the number of elements in the array.
 
 ## Syntax

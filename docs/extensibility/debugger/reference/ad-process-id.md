@@ -1,26 +1,22 @@
 ---
 description: "Specifies the process ID, which may be either a system ID or a GUID."
-title: AD_PROCESS_ID | Microsoft Docs
+title: AD_PROCESS_ID
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - AD_PROCESS_ID
 helpviewer_keywords:
 - AD_PROCESS_ID union
-ms.assetid: 4cb40d12-2e92-4f09-83f4-689928bd65b3
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # AD_PROCESS_ID
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the process ID, which may be either a system ID or a GUID.
 
 ## Syntax

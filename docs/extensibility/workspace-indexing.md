@@ -1,17 +1,13 @@
 ---
-title: "Workspace indexing in Visual Studio | Microsoft Docs"
+title: "Workspace indexing in Visual Studio"
 description: Learn about workspace indexing, which is the collection and persistent storage of data to support rich IDE features for an Open Folder workspace.
 ms.date: "02/21/2018"
 ms.topic: "conceptual"
 author: "vukelich"
 ms.author: "svukel"
 manager: "viveis"
-ms.workload:
-  - "vssdk"
 ---
 # Workspace indexing
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In a solution, project systems are responsible for providing functionality for build, debug, **GoTo** symbol searching, and more. Project systems can do this work because they understand the relation and capabilities of files within a project. An [Open Folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) workspace needs the same insight to provide rich IDE features as well. The collection and persistent storage of this data is a process called workspace indexing. This indexed data can be queried through a set of asynchronous APIs. Extenders can participate in the indexing process by providing <xref:Microsoft.VisualStudio.Workspace.Indexing.IFileScanner>s that know how to handle certain types of files.
 
@@ -63,7 +59,7 @@ Extensions can export a scanner by implementing `IWorkspaceProviderFactory<IFile
 
 In advanced situations, an extension might dynamically support an arbitrary set of file types. Rather than MEF exporting `IWorkspaceProviderFactory<IFileScanner>`, an extension can export `IWorkspaceProviderFactory<IFileScannerProvider>`. When indexing begins, this factory type will be imported, instantiated, and have its <xref:Microsoft.VisualStudio.Workspace.Indexing.IFileScannerProvider.GetSymbolScannersAsync%2A> method invoked. `IFileScanner` instances supporting any value from `FileScannerTpeConstants` will be honored, not just symbols.
 
-## Next steps
+## Related content
 
 * [Workspaces and language services](workspace-language-services.md) - Learn how to integrate language services into an Open Folder workspace.
 * [Workspace build](workspace-build.md) - Open Folder supports build systems such as MSBuild and makefiles.

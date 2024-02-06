@@ -1,25 +1,21 @@
 ---
 description: "Retrieves the identifier for the application domain."
-title: IDebugAlias2::GetAppDomainId | Microsoft Docs
+title: IDebugAlias2::GetAppDomainId
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - GetAppDomainId
 - IDebugAlias2::GetAppDomainId
-ms.assetid: 23581aaa-5a53-4859-b264-eca49fc44bcd
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugAlias2::GetAppDomainId
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the identifier for the application domain.
 
 ## Syntax

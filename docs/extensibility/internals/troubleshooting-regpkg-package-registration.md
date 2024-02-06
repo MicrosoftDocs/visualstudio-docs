@@ -1,21 +1,17 @@
 ---
-title: Troubleshooting RegPkg Package Registration | Microsoft Docs
+title: Troubleshooting RegPkg Package Registration
 description: Use this information to troubleshoot RegPkg package registration in Visual Studio. Use the version of RegPkg that is appropriate for your package.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - RegPkg
-ms.assetid: f33f822f-697a-4bad-9c10-554b4c8f6246
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Troubleshooting RegPkg Package Registration
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 > [!NOTE]
 > The preferred way to register packages in Visual Studio is by using .pkgdef files. This allows for extension deployment without having to access the system registry. Pkgdef files are created by using the [CreatePkgDef Utility](../../extensibility/internals/createpkgdef-utility.md).
 
@@ -34,6 +30,6 @@ ms.workload:
 
    The earlier version of RegPkg can register packages that have been built by using the Microsoft.VisualStudio.Shell.dll assembly. However, it cannot register packages built by using later versions of that assembly.
 
-## See also
+## Related content
 - [VSPackages](../../extensibility/internals/vspackages.md)
 - [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

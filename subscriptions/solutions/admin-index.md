@@ -2,7 +2,6 @@
 title: Subscriptions admin support solutions 
 description: List of INCLUDEs files for Visual Studio subscriptions admin support widget content
 ms.topic: conceptual
-ms.assetid: 478648b9-f6f0-4ea3-83b4-5cffa196a496
 robots: noindex, nofollow
 author: evanwindom 
 ms.author: amast 

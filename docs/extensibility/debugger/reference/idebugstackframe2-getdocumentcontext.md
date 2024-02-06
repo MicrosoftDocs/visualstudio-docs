@@ -1,26 +1,22 @@
 ---
 description: "Gets the document context for this stack frame."
-title: IDebugStackFrame2::GetDocumentContext | Microsoft Docs
+title: IDebugStackFrame2::GetDocumentContext
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugStackFrame2::GetDocumentContext
 helpviewer_keywords:
 - IDebugStackFrame2::GetDocumentContext
-ms.assetid: 69e81439-1238-4f18-9028-6fd1c1ba5e4a
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugStackFrame2::GetDocumentContext
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the document context for this stack frame.
 
 ## Syntax

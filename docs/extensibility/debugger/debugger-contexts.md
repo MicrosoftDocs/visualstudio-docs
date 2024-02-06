@@ -1,21 +1,17 @@
 ---
-title: Debugger Contexts | Microsoft Docs
+title: Debugger Contexts
 description: "Learn how the Visual Studio debug engine operates within distinct contexts: code context, documentation context or position, and expression evaluation context."
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - debugging [Debugging SDK], contexts
-ms.assetid: 79808036-b680-4e4c-9c61-4ed43aa11323
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # Debugger contexts
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In Visual Studio debugging, the debug engine (DE) operates simultaneously within several distinct contexts, as follows:
 
 - The code context, which describes the current location in a program's execution stream.

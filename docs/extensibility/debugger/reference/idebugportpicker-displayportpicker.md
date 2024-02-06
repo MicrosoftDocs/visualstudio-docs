@@ -1,25 +1,21 @@
 ---
 description: "Displays the specified dialog box that allows the user to select a port."
-title: IDebugPortPicker::DisplayPortPicker | Microsoft Docs
+title: IDebugPortPicker::DisplayPortPicker
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - DisplayPortPicker
 - IDebugPortPicker::DisplayPortPicker
-ms.assetid: 08511ef5-be64-4069-b169-a569cc94bc64
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPortPicker::DisplayPortPicker
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Displays the specified dialog box that allows the user to select a port.
 
 ## Syntax

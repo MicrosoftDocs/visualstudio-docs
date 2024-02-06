@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a flag that specifies whether the function is an introducing virtual function."
-title: "IDiaSymbol::get_intro | Microsoft Docs"
+title: "IDiaSymbol::get_intro"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_intro method"
-ms.assetid: 101afe4a-4c57-45de-87b4-330394c6de10
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_intro
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that specifies whether the function is an introducing virtual function.
 
 ## Syntax

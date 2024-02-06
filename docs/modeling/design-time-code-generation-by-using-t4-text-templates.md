@@ -1,6 +1,6 @@
 ---
-title: Design-Time Code Generation by using T4 Text Templates
-description: Learn how design-time T4 text templates let you generate program code and other files in your Visual Studio project.
+title: Design-time code generation with T4 text templates
+description: Use design-time T4 text templates with models to generate program code and other files in your Visual Studio project for particular aspects of your application.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -14,13 +14,9 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+ms.subservice: modeling
 ---
 # Design-Time Code Generation by using T4 Text Templates
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Design-time T4 text templates let you generate program code and other files in your Visual Studio project. Typically, you write the templates so that they vary the code that they generate according to data from a *model*. A model is a file or database that contains key information about your application's requirements.
 
@@ -373,16 +369,11 @@ A useful feature of templates is that they look very much like the files that th
 
 Please see [Guidelines for Writing T4 Text Templates](../modeling/guidelines-for-writing-t4-text-templates.md).
 
-## Next steps
+## Related content
 
-|Next step|Topic|
-|-|-|
-|Write and debug a more advanced text template, with code that uses auxiliary functions, included files, and external data.|[Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md)|
-|Generate documents from templates at run time.|[Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md)|
-|Run text generation outside Visual Studio.|[Generating Files with the TextTransform Utility](../modeling/generating-files-with-the-texttransform-utility.md)|
-|Transform your data in the form of a domain-specific language.|[Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)|
-|Write directive processors to transform your own data sources.|[Customizing T4 Text Transformation](../modeling/customizing-t4-text-transformation.md)|
-
-## See also
-
+- [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md)
+- [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md)
+- [Generating Files with the TextTransform Utility](../modeling/generating-files-with-the-texttransform-utility.md)
+- [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)
+- [Customizing T4 Text Transformation](../modeling/customizing-t4-text-transformation.md)
 - [Guidelines for Writing T4 Text Templates](../modeling/guidelines-for-writing-t4-text-templates.md)

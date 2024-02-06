@@ -1,23 +1,19 @@
 ---
 description: "Describes the properties of a symbol instance."
-title: "IDiaSymbol | Microsoft Docs"
+title: "IDiaSymbol"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol interface"
-ms.assetid: 01ad328a-736c-4933-a9f8-c2ded19ddd8c
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the properties of a symbol instance.
 
 ## Syntax

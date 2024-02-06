@@ -1,23 +1,19 @@
 ---
 description: "Checks to see if two symbols are equivalent."
-title: "IDiaSession::symsAreEquiv | Microsoft Docs"
+title: "IDiaSession::symsAreEquiv"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSession::symsAreEquiv method"
-ms.assetid: 9941d520-e203-46c0-83c3-b3a967f4fc59
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSession::symsAreEquiv
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Checks to see if two symbols are equivalent.
 
 ## Syntax

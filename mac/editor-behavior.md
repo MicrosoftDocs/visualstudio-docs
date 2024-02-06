@@ -5,9 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 03/03/2022
-ms.custom: devdivchpfy22
 ms.topic: reference
-ms.assetid: 81EE4460-26EB-4BB0-9297-932E1F88E4B8
 ---
 # Editor Behavior in Visual Studio for Mac
 

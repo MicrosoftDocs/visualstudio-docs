@@ -10,17 +10,13 @@ dev_langs:
 helpviewer_keywords: 
   - file associations, ClickOnce applications
   - ClickOnce deployment, file associations
-ms.assetid: 835230c8-3177-440f-85e3-e40f1d8b4f9d
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
+ms.subservice: deployment
 ---
-# How to: Create file associations for a ClickOnce application
+# Create file associations for a ClickOnce application
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ClickOnce applications can be associated with one or more file name extensions, so that the application will be started automatically when the user opens a file of those types. Adding file name extension support to a ClickOnce application is straightforward.
 
 > [!NOTE]
@@ -56,7 +52,7 @@ ClickOnce applications can be associated with one or more file name extensions, 
 
     [!INCLUDE[ndptecclick](../deployment/includes/dotnet-dotnetmage-exe.md)]
 
-## See also
+## Related content
 - [\<fileAssociation> element](../deployment/fileassociation-element-clickonce-application.md)
 - [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)
 - [Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)

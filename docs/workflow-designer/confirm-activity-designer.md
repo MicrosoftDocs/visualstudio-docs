@@ -5,17 +5,12 @@ ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.Confirm.UI"
-ms.assetid: c753b67b-b0e7-462a-bb4e-ba8db04a078d
 author: jodavis
 ms.author: jodavis
 manager: jmartens
-ms.technology: vs-workflow-designer
-ms.workload:
-  - "multiple"
+ms.subservice: workflow-designer
 ---
 # Confirm Activity Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Confirm** activity designer is used to create and configure a <xref:System.Activities.Statements.Confirm> activity.
 

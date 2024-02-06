@@ -1,25 +1,20 @@
 ---
 title: Visual Studio administrator guide
 titleSuffix: ''
-description: Learn more about how to deploy Visual Studio in an enterprise environment.
+description: Explore deployment options for Visual Studio in an enterprise environment, including acquiring the software and methods for deploying and updating the installation.
 ms.date: 8/8/2023
 ms.topic: overview
 helpviewer_keywords:
 - network installation, Visual Studio
 - administrator guide, Visual Studio
 - installing Visual Studio, administrator guide
-ms.assetid: 4af353f5-6cfd-4ebe-bcfb-f42306e451a0
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.workload:
-- multiple
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ---
 # Visual Studio administrator guide
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In enterprise environments, system administrators typically deploy and update software on end users machines. The Visual Studio product integrates well in these types of environments by giving system administrators the ability to manage and control when and how the Visual Studio software is deployed and updated. Visual Studio can be acquired from the internet, from a network share, or from a product cache, and it can be deployed and updated manually, programatically or by using systems management software. Visual Studio provides the ability to create and maintain acquisition locations, pre-configure installation defaults, deploy product keys during the installation process, and manage product updates after a successful rollout. This administrator guide provides quick links to scenario-based guidance for enterprise deployment.
 
@@ -80,7 +75,7 @@ The following resources will help you do the initial install of Visual Studio in
 
 - **[Review the Install Visual Studio documentation](install-visual-studio.md)** to get a high level overview of the installation options available to end users. [Select the workloads and components](workload-and-component-ids.md) that you want available for install on your client machines.  
 
-- **[Acquire the correct Visual Studio bootstrapper to install the product](create-a-network-installation-of-visual-studio.md#download-the-visual-studio-bootstrapper-to-create-the-network-layout).** There are different bootstrappers available for you to choose from. Some bootstrappers install a very particular version of the product, while other bootstrappers initialize the servicing baseline channel. 
+- **[Acquire the correct Visual Studio bootstrapper to install the product](create-a-network-installation-of-visual-studio.md#download-the-visual-studio-bootstrapper-to-create-the-layout).** There are different bootstrappers available for you to choose from. Some bootstrappers install a very particular version of the product, while other bootstrappers initialize the servicing baseline channel. 
 
 - **[Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)**. Use a variety of parameters to programmatically control or customize your Visual Studio installation. You can build an installation script that automates the installation process. For more information, see [command line parameter examples](command-line-parameter-examples.md).
 

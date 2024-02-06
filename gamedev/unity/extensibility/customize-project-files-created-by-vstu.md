@@ -1,17 +1,13 @@
 ---
-title: "Customize Project Files Created by VSTU | Microsoft Docs"
+title: "Customize Project Files Created by VSTU"
 description: Learn to customize project files created by Visual Studio Tools for Unity (VSTU). Review a C# code example.
-
 ms.date: "04/19/2021"
-ms.technology: vs-unity-tools
-ms.prod: visual-studio
+ms.subservice: unity-tools
+ms.service: visual-studio
 ms.topic: "conceptual"
-ms.assetid: 60b8cc1d-cacc-404d-b768-77e81bc354f8
 author: "conceptdev"
 ms.author: "crdun"
 manager: crdun
-ms.workload:
-  - "unity"
 ---
 # Customize project files created by VSTU
 Unity provides callbacks during project file generation. Implement `OnGeneratedSlnSolution` and `OnGeneratedCSProject` methods using an [`AssetPostprocessor`](https://docs.unity3d.com/ScriptReference/AssetPostprocessor.html) to modify the project or solution file whenever it's regenerated.

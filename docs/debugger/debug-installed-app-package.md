@@ -1,5 +1,5 @@
 ---
-title: Debug an installed UWP app package | Microsoft Docs
+title: Debug an installed UWP app package
 description: Debug an installed Universal Windows Platform (UWP) app package in Visual Studio on Windows 10 and newer computers, Xbox, and Internet of Things (IoT) devices.
 ms.date: 02/22/2022
 ms.topic: how-to
@@ -14,17 +14,12 @@ dev_langs:
   - VB
 helpviewer_keywords: 
   - app package, debug
-ms.assetid: 5a94ad64-100d-43ca-9779-16cb5af86f97
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - uwp
+ms.subservice: debug-diagnostics
 ---
 # Debug an installed UWP app package in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio can debug installed Universal Windows Platform (UWP) app packages on Windows 10 and newer computers and Xbox, HoloLens, and IoT devices.
 
@@ -91,7 +86,7 @@ When you start debugging an installed app package on a connected Xbox, HoloLens,
 
 For more information on remote deployment of UWP apps, see [Deploy and debug UWP apps](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps#advanced-remote-deployment-options) and [Debug UWP apps on remote machines](run-windows-store-apps-on-a-remote-machine.md).
 
-## See also
+## Related content
 
 - [Debugging in Visual Studio](../debugger/index.yml)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)

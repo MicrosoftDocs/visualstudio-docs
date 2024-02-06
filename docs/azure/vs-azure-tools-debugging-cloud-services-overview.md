@@ -1,17 +1,17 @@
 ---
-title: Options for debugging Azure cloud services | Microsoft Docs
+title: Options for debugging Azure cloud services
 description: Debugging Azure cloud services
 author: mikejo5000
 manager: jmartens
 ms.topic: conceptual
-ms.workload: azure-vs
 ms.date: 03/18/2017
 ms.author: mikejo
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 ---
 # Learn the various ways to debug an Azure cloud service
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+ [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
+
 This article provides links to the various ways to debug an Azure cloud service.
 
 ## Debugging an Azure cloud service in Visual Studio
@@ -23,5 +23,5 @@ If you are using Visual Studio Enterprise to write roles targeted .NET Framework
 ## Remote debugging
 You can enable remote debugging on your cloud services at the time when you deploy the cloud service from Visual Studio. If you choose to enable remote debugging for a deployment, remote debugging services are installed on the virtual machines that run each role instance. These services - such as `msvsmon.exe` - do not affect performance or result in extra costs. For more information, see [Debug a cloud service in Azure](vs-azure-tools-debug-cloud-services-virtual-machines.md#debug-a-cloud-service-in-azure).
 
-## Next steps
+## Related content
 - [Debugging an Azure cloud service or VM in Visual Studio](./vs-azure-tools-debug-cloud-services-virtual-machines.md) - Learn the details of how to debug Azure cloud services.

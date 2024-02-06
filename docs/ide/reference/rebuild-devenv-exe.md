@@ -9,17 +9,12 @@ helpviewer_keywords:
 - projects [Visual Studio], rebuilding
 - /Rebuild Devenv switch
 - applications [Visual Studio], rebuilding
-ms.assetid: c5a8a4bf-0e2b-46eb-a44a-8aeb29b92c32
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # /Rebuild (devenv.exe)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Cleans and then builds the specified solution configuration.
 

@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the slot number of the location."
-title: "IDiaSymbol::get_slot | Microsoft Docs"
+title: "IDiaSymbol::get_slot"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_slot method"
-ms.assetid: 97e405b8-483f-4da0-91e7-ca4d88251ecd
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_slot
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the slot number of the location. Use when the [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md) is `LocIsSlot`.
 
 ## Syntax

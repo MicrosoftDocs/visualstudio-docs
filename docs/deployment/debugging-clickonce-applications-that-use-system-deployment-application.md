@@ -12,17 +12,13 @@ helpviewer_keywords:
   - debugging, ClickOnce applications
   - debugging, System.Deployment
   - deploying applications [ClickOnce], debugging
-ms.assetid: 86f31948-2ca8-47c0-8e8b-c2b817bbf79f
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
+ms.subservice: deployment
 ---
 # Debug ClickOnce applications that use System.Deployment.Application
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In Visual Studio, ClickOnce deployment allows you to configure how an application is updated. However, if you need to use and customize advanced ClickOnce deployment features, you'll need to access the deployment object model provided by <xref:System.Deployment.Application>. You can use the <xref:System.Deployment.Application> APIs for advanced tasks such as:
 
 - Creating an "Update Now" option in your application
@@ -76,5 +72,5 @@ In Visual Studio, ClickOnce deployment allows you to configure how an applicatio
 
    Use the <xref:System.Deployment.Application.ApplicationDeployment.IsNetworkDeployed%2A> property to invoke the <xref:System.Deployment.Application> APIs only when the application is deployed; the APIs shouldn't be invoked during debugging in Visual Studio.
 
-## See also
+## Related content
 - <xref:System.Deployment.Application>

@@ -1,5 +1,5 @@
 ---
-title: Configure the ClickOnce Trust Prompt Behavior | Microsoft Docs
+title: Configure the ClickOnce Trust Prompt Behavior
 description: Learn how to configure the ClickOnce trust prompt to control whether end users are given the option of installing ClickOnce applications.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -13,17 +13,13 @@ helpviewer_keywords:
   - ClickOnce applications, install without prompting
   - ClickOnce applications, trust prompt
   - ClickOnce deployment, trust prompt
-ms.assetid: cc04fa75-012b-47c9-9347-f4216be23cf2
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
+ms.subservice: deployment
 ---
-# How to: Configure the ClickOnce trust prompt behavior
+# Configure the ClickOnce trust prompt behavior
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can configure the ClickOnce trust prompt to control whether end users are given the option of installing ClickOnce applications, such as Windows Forms applications, Windows Presentation Foundation applications, console applications, WPF browser applications, and Office solutions. You configure the trust prompt by setting registry keys on each end user's computer.
 
  The following table shows the configuration options that can be applied to each of the five zones (Internet, UntrustedSites, MyComputer, LocalIntranet, and TrustedSites).
@@ -229,7 +225,7 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
 
 3. Build and run the application.
 
-## See also
+## Related content
 - [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)
 - [Code access security for ClickOnce applications](../deployment/code-access-security-for-clickonce-applications.md)
 - [ClickOnce and Authenticode](../deployment/clickonce-and-authenticode.md)

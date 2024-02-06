@@ -8,13 +8,10 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-  - "multiple"
+ms.subservice: modeling
 ---
 # Working with the Domain-Specific Language Explorer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **DSL Explorer** displays several kinds of information in a tree view. For more information about most of the items in the DSL Explorer, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md).
 
  It has the following nodes:
@@ -39,6 +36,6 @@ The **DSL Explorer** displays several kinds of information in a tree view. For m
 
 - **Xml Serialization Behavior**. Serialization settings for the model. For more information about serialization, see [Customizing File Storage and XML Serialization](../modeling/customizing-file-storage-and-xml-serialization.md).
 
-## See also
+## Related content
 
 - [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

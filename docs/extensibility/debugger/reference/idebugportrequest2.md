@@ -1,23 +1,19 @@
 ---
 description: "This interface describes a port."
-title: IDebugPortRequest2 | Microsoft Docs
+title: IDebugPortRequest2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPortRequest2
 helpviewer_keywords:
 - IDebugPortRequest2 interface
-ms.assetid: 556e610d-7c4b-44a8-965a-76a9d02b601a
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugPortRequest2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface describes a port. This description is used to add the port to a port supplier.
 
 ## Syntax

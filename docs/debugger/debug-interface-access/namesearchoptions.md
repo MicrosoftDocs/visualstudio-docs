@@ -1,23 +1,19 @@
 ---
 description: "Specifies the search options for symbol and file names."
-title: "NameSearchOptions | Microsoft Docs"
+title: "NameSearchOptions"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "NameSearchOptions enumeration"
-ms.assetid: 67dfbede-2678-47df-b664-5c49841d0b9b
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # NameSearchOptions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the search options for symbol and file names.
 
 ## Syntax

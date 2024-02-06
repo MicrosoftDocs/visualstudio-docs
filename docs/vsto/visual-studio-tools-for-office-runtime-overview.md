@@ -1,6 +1,6 @@
 ---
 title: "Visual Studio Tools for Office runtime overview"
-description: Visual Studio 2010 Tools for Office runtime must be installed on end-user computers to run solutions that are created by using the Microsoft Office developer tools.
+description: Explore the Visual Studio 2010 Tools for Microsoft Office runtime, including supported versions, Office extensions for the .NET Framework, and the solution loader. 
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -25,13 +25,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
 # Visual Studio Tools for Office runtime overview
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   To run solutions that are created by using the Microsoft Office developer tools in Visual Studio, the Visual Studio 2010 Tools for Office runtime must be installed on end-user computers. For more information, see [How to: Install the Visual Studio Tools for Office runtime redistributable](../vsto/how-to-install-the-visual-studio-tools-for-office-runtime-redistributable.md). The Visual Studio 2010 Tools for Office runtime consists of two main components:
 
 - The Office extensions for the .NET Framework. These components are managed assemblies that provide the communication layer between your solution and the Microsoft Office application. For more information, see [Understand the Office extensions for the .NET Framework](#officeextensions).
@@ -113,7 +110,7 @@ ms.workload:
 ## Repair the Visual Studio 2010 Tools for Office runtime
  If you need to repair the runtime, open **Programs and Features** or **Add or Remove Programs** in the Control Panel, select **Microsoft Visual Studio 2010 Tools for Office Runtime** in the list of programs, and then click **Uninstall**. The setup program that runs enables you to repair the runtime. If you click **Change**, you are not given an option for repairing the runtime.
 
-## See also
+## Related content
 - [Visual Studio Tools for Office runtime installation scenarios](../vsto/visual-studio-tools-for-office-runtime-installation-scenarios.md)
 - [Assemblies in the Visual Studio Tools for Office runtime](../vsto/assemblies-in-the-visual-studio-tools-for-office-runtime.md)
 - [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)

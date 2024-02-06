@@ -7,17 +7,12 @@ f1_keywords:
   - vs.code.analysis.selecttfsrulesets
   - vs.code.analysis.browsefortfsruleset
   - vs.code.analysis.policyeditor
-ms.assetid: fd029003-5671-4b24-8b6f-032e0a98b2e8
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-code-analysis
-ms.workload:
-  - dotnet
+ms.subservice: code-analysis
 ---
 # Implement Custom Code Analysis Check-in Policies for Managed Code
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A code analysis check-in policy specifies a set of rules that members of an Azure DevOps project must run on source code before it is checked in to version control. Microsoft provides a set of standard *rule sets* that group code analysis rules into functional areas. *Custom check-in policy rule sets* specify a set of code analysis rules that are specific to a project. A rule set is stored in a .ruleset file.
 

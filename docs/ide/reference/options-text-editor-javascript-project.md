@@ -2,7 +2,7 @@
 title: Options, Text Editor, JavaScript, Project
 description: Learn how to use the Project page of the Options dialog box to specify JavaScript and TypeScript project options in the Code Editor.
 ms.date: 06/19/2020
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Project.General"
@@ -12,12 +12,8 @@ f1_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.workload:
-  - "multiple"
 ---
 # Options, Text Editor, JavaScript, Project
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Project** page of the **Options** dialog box to specify JavaScript and TypeScript project options in the Code Editor. To access this page, on the menu bar, choose **Tools** > **Options**, and then expand **Text Editor** > **JavaScript/TypeScript** > **Project**.
 

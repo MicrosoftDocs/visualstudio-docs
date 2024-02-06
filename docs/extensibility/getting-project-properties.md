@@ -1,28 +1,19 @@
 ---
-title: Getting Project Properties | Microsoft Docs
+title: Getting Project Properties
 description: Learn how to display project properties in a tool window. This example shows the tree control in the tool window.
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:
 - project properties, displaying in tool window
 - tool windows, displaying project properties
-ms.assetid: 96ba07ca-0811-4013-8602-12550ac4ba79
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Get project properties
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This walkthrough shows how to displays project properties in a tool window.
-
-## Prerequisites
-
-Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ### To create a VSIX Project and add a tool window
 

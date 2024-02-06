@@ -1,23 +1,19 @@
 ---
 description: "Enumerates the various stack frames available."
-title: "IDiaEnumStackFrames | Microsoft Docs"
+title: "IDiaEnumStackFrames"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumStackFrames interface"
-ms.assetid: 3d1e8403-c9fc-42ff-ae35-0ab9a5ed2ad7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaEnumStackFrames
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enumerates the various stack frames available.
 
 ## Methods in Vtable Order

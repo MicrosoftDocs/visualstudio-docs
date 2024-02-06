@@ -1,24 +1,20 @@
 ---
 description: "Enumerates the valid values for flags that control expression evaluation."
-title: EVALFLAGS90 | Microsoft Docs
+title: EVALFLAGS90
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - EVALFLAGS90 enumeration
-ms.assetid: 64fb0139-8b04-4726-b52c-db2e04d65498
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # EVALFLAGS90
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enumerates the valid values for flags that control expression evaluation. This enumeration extends the [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) enumeration.
 
 ## Syntax

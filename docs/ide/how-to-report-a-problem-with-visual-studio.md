@@ -1,19 +1,14 @@
 ---
 title: Report a problem with Visual Studio
-description: "Find out how to report a problem with Visual Studio"
+description: Report a problem in Visual Studio by using the product installer or the built-in Feedback Tool, which allows you to easily add diagnostic information.
 ms.date: 10/07/2021
 ms.topic: how-to
-ms.assetid: bee01179-cde5-4419-9095-190ee0ba5902
 author: madskristensen
 ms.author: madsk
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-  - "multiple"
+ms.subservice: general-ide
 ---
 # Report a problem with the Visual Studio product or installer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 > [!NOTE]
 > For Visual Studio for Mac, see [How to report a problem in Visual Studio for Mac](/visualstudio/mac/report-a-problem).
@@ -50,9 +45,9 @@ Alternatively, report a problem in **Visual Studio Installer** if you can't inst
     ![Take a screenshot](../ide/media/feedback-screenshot.png)
     *Only Microsoft engineers can see the screenshot*
 
-1. <a name="trace"/>Video record the problem to provide a trace. 
+1. <a name="trace"/>Record your actions to reproduce the issue.
 
-   One of the best ways to help the Visual Studio engineering team solve the problem is to provide a trace and heap dump files for them to look through. You can do that by recording the steps that resulted in the bug.
+   One of the best ways to help the Visual Studio engineering team solve the problem is to provide a trace and heap dump files for them to look through. You can do that by recording the steps that resulted in the bug. A screenshot will be captured every time the mouse is clicked, but keyboard entry will not record screenshots.
    1. Click **Start recording**. Wait a moment for the permissions prompt.
    2. Go through your steps to record the issue. 
    3. When finished, find the small pop-up window and click **Stop recording**. 
@@ -62,7 +57,6 @@ Alternatively, report a problem in **Visual Studio Installer** if you can't inst
     
    > [!Warning]
    > There may be a several seconds delay between clicking **Start recording** and the prompt where Windows asks for permission to start a program with elevated permissions.
-
 
 5. Review the attached files and upload additional files if you believe it would help diagnose the issue.
 
@@ -145,7 +139,7 @@ If you don't want to or can't use Visual Studio to report a problem, there's a c
 
 If you don't have a problem to report but want to suggest a feature, there's a place for doing that too. For more information, see the [Suggest a feature](https://aka.ms/feedback/suggest?space=8) page.
 
-## See also
+## Related content
 
 * [Developer Community Guidelines](./developer-community-guidelines.md)
 * [Report a problem with Visual Studio for Mac](/visualstudio/mac/report-a-problem)

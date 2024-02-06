@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the symbol that contains a specified metadata token."
-title: "IDiaSession::findSymbolByToken | Microsoft Docs"
+title: "IDiaSession::findSymbolByToken"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSession::findSymbolByToken method"
-ms.assetid: 3c92149c-6eef-454f-86be-66e89557b9e6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSession::findSymbolByToken
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the symbol that contains a specified metadata token.
 
 ## Syntax

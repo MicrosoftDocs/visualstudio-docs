@@ -1,23 +1,16 @@
 ---
 title: Python in Visual Studio tutorial step 4, debugging
 titleSuffix: ""
-description: Step 4 of a core walkthrough of Python capabilities in Visual Studio, covering how to run Python code in the debugger.
+description: Step 4 of a core walkthrough of Python capabilities in Visual Studio that demonstrates how to run Python code in the debugger.
 ms.date: 08/11/2023
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
-
-ms.workload:
-  - python
-  - data-science
-ms.custom: devdivchpfy22
+ms.subservice: python
 ---
 
 # Step 4: Run code in the debugger
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Previous step: [Use the Interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md)**
 

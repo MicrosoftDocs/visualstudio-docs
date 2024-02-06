@@ -8,18 +8,14 @@ f1_keywords:
 helpviewer_keywords:
 - Edit.FindInFiles command
 - find in files command
-ms.assetid: 2fc78bfe-b339-4599-97f9-4cafd8a194d9
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 monikerRange: "<=vs-2019"
 ---
 # Find in Files Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Search files using a subset of the options available on the **Find in Files** tab of the **Find and Replace** window.
 
 > [!IMPORTANT]

@@ -1,5 +1,5 @@
 ---
-title: MSBuild Conditional Constructs | Microsoft Docs
+title: MSBuild Conditional Constructs
 description: Learn how MSBuild provides a mechanism for conditional processing with the Choose, When, and Otherwise elements.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,7 +7,6 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - <Choose> Element [MSBuild]
 - Choose Element [MSBuild]
@@ -17,13 +16,10 @@ helpviewer_keywords:
 - <Otherwise> Element [MSBuild]
 - Otherwise Element [MSBuild]
 - When Element [MSBuild]
-ms.assetid: dd54258e-f4fb-448f-9da4-d1817e0cbaf2
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # MSBuild conditional constructs
 

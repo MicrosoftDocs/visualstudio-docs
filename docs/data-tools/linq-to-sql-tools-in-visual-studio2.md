@@ -1,19 +1,14 @@
 ---
 title: LINQ to SQL O/R Designer overview
-description: Get an overview of LINQ to SQL tools in Visual Studio. Learn about the Object Relational Designer (O/R Designer).
-ms.date: 11/04/2016
+description: Explore LINQ to SQL tools in Visual Studio for object-relational mapping, including the Object Relational Designer (O/R Designer).
+ms.date: 11/01/2023
 ms.topic: overview
-ms.assetid: 45e477c0-5c6b-41f9-b2d0-2808fb4f6537
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
 # LINQ to SQL tools in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 LINQ to SQL was the first object-relational mapping technology released by Microsoft. It works well in basic scenarios and continues to be supported in Visual Studio, but it's no longer under active development. Use LINQ to SQL when maintaining a legacy application that's already using it, or in simple applications that use SQL Server and do not require multi-table mapping. In general, new applications should use the Entity Framework when an object-relational mapper layer is required.
 
@@ -35,11 +30,11 @@ To add a LINQ to SQL entity model to your project, choose **Project** > **Add Ne
 
 ![LINQ to SQL classes](../data-tools/media/raddata-linq-to-sql-classes.png)
 
-Visual Studio creates a *.dbml* file and adds it to your solution. This is the XML mapping file and its related code files.
+Visual Studio creates a `.dbml` file and adds it to your solution. This is the XML mapping file and its related code files.
 
 ![LINQ to SQL classes in Solution Explorer](../data-tools/media/raddata-linq-to-sql-classes-in-solution-explorer.png)
 
-When you select the *.dbml* file, Visual Studio shows the **O/R Designer** surface that enables you to visually create the model. The following illustration shows the designer after the Northwind `Customers` and `Orders` tables have been dragged from **Server Explorer**. Note the relationship between the tables.
+When you select the `.dbml` file, Visual Studio shows the **O/R Designer** surface that enables you to visually create the model. The following illustration shows the designer after the Northwind `Customers` and `Orders` tables have been dragged from **Server Explorer**. Note the relationship between the tables.
 
 ![LINQ to SQL Designer](../data-tools/media/raddata-linq-to-sql-designer.png)
 

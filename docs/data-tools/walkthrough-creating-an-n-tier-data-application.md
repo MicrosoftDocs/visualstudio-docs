@@ -1,7 +1,7 @@
 ---
-title: 'Walkthrough: Creating an N-tier Data Application'
-description: In this walkthrough, create an N-tier data application. N-tier data applications are apps that access data and are separated into many logical layers, or tiers.
-ms.date: 11/22/2021
+title: Create N-tier data app in ADO.NET (.NET Framework)
+description: Create an N-tier data application with ADO.NET and the .NET Framework in Visual Studio and access data separated into multiple logical layers or tiers.
+ms.date: 11/01/2023
 ms.topic: conceptual
 dev_langs:
 - VB
@@ -9,17 +9,12 @@ dev_langs:
 helpviewer_keywords:
 - n-tier applications, creating
 - n-tier applications, walkthroughs
-ms.assetid: d15e4d31-2839-48d9-9e0e-2e73404d82a2
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# Walkthrough: Create an n-tier data application
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Walkthrough: Create an n-tier data application with ADO.NET and the .NET Framework
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -50,6 +45,9 @@ During this walkthrough, you perform the following steps:
 - Write code to populate the data tables.
 
 ## Prerequisites
+
+To complete this tutorial, you need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify. See [Modify Visual Studio](../install/modify-visual-studio.md).
+
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
 1. If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-downloads), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **.NET desktop development** workload, or as an individual component.
@@ -98,7 +96,7 @@ The first step of this walkthrough is to create a solution and two class library
 
 ### To create the n-tier solution and DataEntityTier class library
 
-1. In Visual Studio, create a project using the Windows Forms (.NET Framework) project template for C# or Visual Basic. .NET Core, .NET 5 and later are not supported.
+1. In Visual Studio, create a project using the **Windows Forms App (.NET Framework)** project template for C# or Visual Basic. .NET Core, .NET 5 and later are not supported.
 
 4. Name the project **DataEntityTier**.
 
@@ -422,7 +420,7 @@ Depending on your application requirements, there are several steps that you may
 
 - Add additional methods to the service for updating data back to the database.
 
-## See also
+## Related content
 
 - [Work with datasets in n-tier applications](../data-tools/work-with-datasets-in-n-tier-applications.md)
 - [Hierarchical update](../data-tools/hierarchical-update.md)

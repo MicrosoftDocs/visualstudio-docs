@@ -1,22 +1,18 @@
 ---
 description: "Following are enumerations for the Visual Studio Debugging SDK."
-title: Enumerations (Visual Studio Debugging) | Microsoft Docs
+title: Enumerations (Visual Studio Debugging)
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - enumerations [Visual Studio SDK]
 - debugging [Debugging SDK], enumerations
-ms.assetid: 557065bf-081f-4d57-8744-bae02b8a5a6e
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # Enumerations (Visual Studio Debugging)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Following are enumerations for the Visual Studio Debugging SDK.
 
 - [AD_PROCESS_ID_TYPE](../../../extensibility/debugger/reference/ad-process-id-type.md)

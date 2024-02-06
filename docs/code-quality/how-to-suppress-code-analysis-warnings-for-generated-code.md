@@ -3,17 +3,12 @@ title: Suppress Code Analysis violations for Generated Code
 ms.date: 05/13/2019
 description: Learn how to suppress code analysis warnings for generated code. See how to prevent Visual Studio from displaying legacy analysis warnings about generated code.
 ms.topic: how-to
-ms.assetid: 3a96434e-d419-43a7-81ba-95cccac835b8
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-code-analysis
-ms.workload: 
-  - multiple
+ms.subservice: code-analysis
 ---
-# How to: Suppress code analysis warnings for generated code
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Suppress code analysis warnings for generated code
 
 Generated code includes code that's added to your project by managed code compilers or third-party tools. You might want to see the rule violations that code analysis discovers in generated code. However, since you can't view and maintain the code that contains the violations, you might not want to see them.
 

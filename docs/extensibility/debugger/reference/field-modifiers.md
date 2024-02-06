@@ -1,26 +1,22 @@
 ---
 description: "Specifies modifiers for a field type."
-title: FIELD_MODIFIERS | Microsoft Docs
+title: FIELD_MODIFIERS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - FIELD_MODIFIERS
 helpviewer_keywords:
 - FIELD_MODIFIERS enumeration
-ms.assetid: 1e44681c-1f03-41a9-9c04-b79f231b0822
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # FIELD_MODIFIERS
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies modifiers for a field type.
 
 ## Syntax

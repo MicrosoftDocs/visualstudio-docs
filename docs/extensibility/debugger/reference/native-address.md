@@ -1,26 +1,21 @@
 ---
 description: "This structure represents a native address."
-title: NATIVE_ADDRESS | Microsoft Docs
+title: NATIVE_ADDRESS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - NATIVE_ADDRESS
 helpviewer_keywords:
 - NATIVE_ADDRESS structure
-ms.assetid: 7a0cd085-bfc8-45cc-a3d4-4459070e207a
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # NATIVE_ADDRESS
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This structure represents a native address.
 

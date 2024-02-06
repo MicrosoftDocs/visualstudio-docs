@@ -6,16 +6,12 @@ ms.topic: reference
 author: mikadumont
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 dev_langs:
 - CSharp
 - VB
-ms.workload:
-- dotnet
 ---
 # Refactoring to convert LINQ to a foreach statement
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use this refactoring to convert [LINQ query syntax](/dotnet/csharp/programming-guide/concepts/linq/query-syntax-and-method-syntax-in-linq) to a [foreach](/dotnet/csharp/language-reference/keywords/foreach-in) statement.
 

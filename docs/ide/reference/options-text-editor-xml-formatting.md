@@ -5,15 +5,12 @@ ms.date: 10/29/2018
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.XML.Formatting
-ms.assetid: 203e60b2-7b80-4ff4-9fa1-aa9f4374377b
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
 # Options, Text Editor, XML, Formatting
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Formatting** options page to specify how elements and attributes are formatted in your XML documents. To access XML formatting options, choose **Tools** > **Options** > **Text Editor** > **XML**, and then choose **Formatting**.
 

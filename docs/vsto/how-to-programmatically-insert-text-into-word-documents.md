@@ -1,6 +1,6 @@
 ---
-title: "How to: Programmatically insert text into Word documents"
-description: Learn how you can programmatically insert text into a Microsoft Word document by using Visual Studio.
+title: "Programmatically insert text into Word documents"
+description: Insert text into a Microsoft Word document at a specific location or by replacing specific text  programmatically by using Visual Basic or C# in Visual Studio.
 titleSuffix: ""
 ms.date: "08/14/2019"
 ms.topic: "how-to"
@@ -16,13 +16,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Programmatically insert text into Word documents
+# Programmatically insert text into Word documents
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   There are three primary ways to insert text into Microsoft Office Word documents:
 
 - Insert text in a range.
@@ -178,7 +175,7 @@ ms.workload:
    :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet56":::
    ---
 
-## See also
+## Related content
 - [How to: Programmatically format text in documents](../vsto/how-to-programmatically-format-text-in-documents.md)
 - [How to: Programmatically define and select ranges in documents](../vsto/how-to-programmatically-define-and-select-ranges-in-documents.md)
 - [How to: Programmatically extend ranges in documents](../vsto/how-to-programmatically-extend-ranges-in-documents.md)

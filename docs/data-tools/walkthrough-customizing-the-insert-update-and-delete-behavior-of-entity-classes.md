@@ -6,17 +6,12 @@ ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
-ms.assetid: 03ff1146-706e-4780-91cb-56a83df63eea
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
 # Walkthrough: Customize the insert, update, and delete behavior of entity classes
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -278,7 +273,7 @@ Depending on your application requirements, there are several steps that you may
 
 - Add LINQ queries to filter data. For information, see [Introduction to LINQ queries (C#)](/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries).
 
-## See also
+## Related content
 
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
 - [DataContext methods](../data-tools/datacontext-methods-o-r-designer.md)

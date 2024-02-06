@@ -1,26 +1,22 @@
 ---
 description: "Gets the new property."
-title: IDebugPropertyCreateEvent2::GetDebugProperty | Microsoft Docs
+title: IDebugPropertyCreateEvent2::GetDebugProperty
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPropertyCreateEvent2::GetDebugProperty
 helpviewer_keywords:
 - IDebugPropertyCreateEvent2::GetDebugProperty
-ms.assetid: d7e43183-444c-4417-af19-82e28229f83a
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPropertyCreateEvent2::GetDebugProperty
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the new property.
 
 ## Syntax

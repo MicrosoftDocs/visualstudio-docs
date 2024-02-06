@@ -1,26 +1,22 @@
 ---
 description: "Determines whether or not the debug engine (DE) supports the option of passing this exception to the program being debugged when execution resumes."
-title: IDebugExceptionEvent2::CanPassToDebuggee | Microsoft Docs
+title: IDebugExceptionEvent2::CanPassToDebuggee
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugExceptionEvent2::CanPassToDebuggee
 helpviewer_keywords:
 - IDebugExceptionEvent2::CanPassToDebuggee
-ms.assetid: ae4bbe0a-fbe1-49be-a310-ea64279a434b
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugExceptionEvent2::CanPassToDebuggee
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines whether or not the debug engine (DE) supports the option of passing this exception to the program being debugged when execution resumes.
 
 ## Syntax

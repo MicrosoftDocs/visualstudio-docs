@@ -17,7 +17,7 @@ sap.id: 8250612f-7446-20c5-7473-16d089f2280d
 
 If you're not seeing all of your subscriptions, the most common causes are:
 
-+ **Your subscriptions are associated with different email aliases.**  For example, your Dev Essentials membership is associated with your Microsoft Account (MSA), which typically uses an email address like myname@outlook.com.  You also have subscriptions provided to you by your work or school that are associated to a different alias such as myname@contoso.com. 
++ **Your subscriptions are associated with different email aliases.**  For example, your Dev Essentials membership is associated with your Microsoft Account (MSA), which typically uses an email address like `myname@outlook.com`.  You also have subscriptions provided to you by your work or school that are associated to a different alias such as `myname@contoso.com`. 
 
     To see those subscriptions, you need to sign in to the [subscriptions portal](https://my.visualstudio.com/subscriptions) with the appropriate credentials.  
 

@@ -1,7 +1,6 @@
 ---
-title: "What is debugging?"
-description: "Understand what it means to debug an app"
-ms.custom: "debug-experiment"
+title: What is debugging and a debugger?
+description: Explore the process of debugging an application, what is a debugger, and the differences between debugging and running your app.
 ms.date: "10/17/2018"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -9,13 +8,9 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # What is debugging?
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio debugger is a powerful tool. Before we show how to use it, we want to talk about some terms such as *debugger*, *debugging*, and *debug mode*. This way, when we talk later about finding and fixing bugs, we'll be talking about the same thing.
 
@@ -43,7 +38,7 @@ When you switch this setting, you change your project from a debug configuration
 
 The debugger is an essential tool to find and fix bugs in your apps. However, context is king, and it is important to leverage all the tools at your disposable to help you quickly eliminate bugs or errors. Sometimes, the right "tool" might be a better coding practice. By learning when to use the debugger vs. some other tool, you will also learn how to use the debugger more effectively.
 
-## Next steps
+## Related content
 
 In this article, you've learned a few general debugging concepts. Next, you can start learning how to debug with Visual Studio and how to write code with less bugs. The following articles show C# code examples, but the concepts apply to all languages supported by Visual Studio.
 

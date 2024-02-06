@@ -1,5 +1,5 @@
 ---
-title: "How to: Remove managed code extensions from documents"
+title: "Remove managed code extensions from documents"
 description: Programmatically remove the customization assembly from a document or workbook that is part of a document-level customization for Microsoft Word or Excel.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -12,13 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Remove managed code extensions from documents
+# Remove managed code extensions from documents
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can programmatically remove the customization assembly from a document or workbook that is part of a document-level customization for Microsoft Office Word or Microsoft Office Excel. Users can then open the documents and view the contents, but any custom user interface (UI) you add to the documents will not appear, and your code will not run.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
@@ -57,6 +54,6 @@ ms.workload:
 
 4. Build the project and run the application on the computer where you want to remove the customization. The computer must have the Visual Studio 2010 Tools for Office runtime installed.
 
-## See also
+## Related content
 - [Manage documents on a server by using the ServerDocument class](../vsto/managing-documents-on-a-server-by-using-the-serverdocument-class.md)
 - [How to: Attach Managed code extensions to documents](../vsto/how-to-attach-managed-code-extensions-to-documents.md)

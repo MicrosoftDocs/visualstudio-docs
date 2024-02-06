@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the offset section of a thunk target."
-title: "IDiaSymbol::get_targetOffset | Microsoft Docs"
+title: "IDiaSymbol::get_targetOffset"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_targetOffset method"
-ms.assetid: 7d141223-132a-409c-a5a4-94f97340313c
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_targetOffset
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the offset section of a thunk target.
 
 ## Syntax

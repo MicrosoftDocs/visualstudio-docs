@@ -1,6 +1,6 @@
 ---
-title: "Walkthrough: Create a custom tab by using Ribbon XML"
-description: Learn how you can add buttons to the Add-Ins tab and automate Microsoft Word by using Ribbon (XML).
+title: Create custom tabs with Ribbon XML to automate Word
+description: Create a custom tab to the Add-Ins tab and automate Microsoft Office Word by using Ribbon (XML) rather than the Ribbon Designer.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -16,13 +16,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
 # Walkthrough: Create a custom tab by using Ribbon XML
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This walkthrough demonstrates how to create a custom Ribbon tab by using the **Ribbon (XML)** item.
 
  [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]
@@ -168,7 +165,7 @@ ms.workload:
 
 - Customize the UI of Microsoft Office Outlook by using Outlook Form Regions. For more information, see [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md).
 
-## See also
+## Related content
 - [Ribbon overview](../vsto/ribbon-overview.md)
 - [Ribbon XML](../vsto/ribbon-xml.md)
 - [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)

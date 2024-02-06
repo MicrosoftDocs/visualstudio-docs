@@ -1,18 +1,15 @@
 ---
-title: VSIX Community Toolkit
-description: Welcome to the Visual Studio Extensibility Community Toolkit
+title: Explore the VSIX Community Toolkit
+description: Explore the Visual Studio Extensibility Community Toolkit, including getting started and a walkthrough of typical scenarios.
 ms.date: 12/01/2021
 ms.topic: overview
 author: madskristensen
 ms.author: madsk
 manager: pchapman
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-sdk
-ms.custom: cookbook
+
+ms.subservice: extensibility-integration
 ---
 # Visual Studio Community Toolkit
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This toolkit will help you write successful Visual Studio extensions and there's something for absolute beginners to experts alike.
 

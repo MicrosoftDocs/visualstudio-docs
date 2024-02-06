@@ -1,5 +1,5 @@
 ---
-title: "&lt;dependency&gt; Element (ClickOnce Application) | Microsoft Docs"
+title: "&lt;dependency&gt; Element (ClickOnce Application)"
 description: The dependency element identifies a platform or assembly dependency that is required for the application.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -21,17 +21,13 @@ dev_langs:
 helpviewer_keywords:
   - "manifests [ClickOnce], dependency element"
   - "<dependency> element [ClickOnce application manifest]"
-ms.assetid: 09d6a1e0-60f8-4fbd-843b-8e49ee3115a3
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+ms.subservice: deployment
 ---
 # &lt;dependency&gt; element (ClickOnce application)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Identifies a platform or assembly dependency that is required for the application.
 
 ## Syntax
@@ -112,7 +108,7 @@ Identifies a platform or assembly dependency that is required for the applicatio
 |`buildNumber`|Required. Specifies the build number of the OS.|
 |`servicePackMajor`|Required. Specifies the service pack major number of the OS.|
 |`servicePackMinor`|Optional. Specifies the service pack minor number of the OS.|
-|`productType`|Optional. Identifies the product type value. Valid values are `server`, `workstation`, and `domainController`. For example, for Windows 2000 Professional, this attribute value is `workstation`.|
+|`productType`|Optional. Identifies the product type value. Valid values are `server`, `workstation`, and `domainController`. For example, for Windows 10, this attribute value is `workstation`.|
 |`suiteType`|Optional. Identifies a product suite available on the system, or the system's configuration type. Valid values are `backoffice`, `blade`, `datacenter`, `enterprise`, `home`, `professional`, `smallbusiness`, `smallbusinessRestricted`, and `terminal`. For example, for Windows 2000 Professional, this attribute value is `professional`.|
 
 ### dependentAssembly

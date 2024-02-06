@@ -1,21 +1,16 @@
 ---
-title: 'Workflow Designer - How to: Use the Imports Designer'
+title: 'Workflow Designer - Use the Imports Designer'
 description: Learn how the imports designer enables you to enter namespaces for the types that you will use in your expressions.
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
 - System.Activities.Presentation.View.ImportDesigner.UI
-ms.assetid: 61328ab6-9b66-4e12-8630-22e30ee8c9d1
 author: jodavis
 ms.author: jodavis
 manager: jmartens
-ms.technology: vs-workflow-designer
-ms.workload:
-- multiple
+ms.subservice: workflow-designer
 ---
-# How to: Use the Imports Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Use the Imports Designer
 
 The imports designer enables you to enter namespaces for the types that you will use in your expressions. Much like the **Imports** or **using** keywords in Visual Basic and C#, specifying namespaces in the imports designer enable you to simply enter a type name in your expression rather than a fully qualified version type name.
 

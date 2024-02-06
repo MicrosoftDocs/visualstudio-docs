@@ -1,5 +1,5 @@
 ---
-title: Commands Element | Microsoft Docs
+title: Commands Element
 description: "The Commands element represents the collection of commands on the VSPackage toolbar and can have these sections: menus, groups, buttons, combos, and bitmaps."
 ms.date: 11/04/2016
 ms.topic: reference
@@ -8,17 +8,13 @@ f1_keywords:
 helpviewer_keywords:
 - Commands element (VSCT XML schema)
 - VSCT XML schema elements, Commands
-ms.assetid: 47cf16a5-d78b-452e-86f6-b5893856dddf
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Commands element
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Represents the collection of commands on the VSPackage toolbar. The collection can have up to five subsections, as follows: menus, groups, buttons, combos, and bitmaps.
 
  Each subsection child element, for example, \<Menu>, is identified by a unique command ID that is a GUID and numeric identifier pair. The GUID identifies the "command set" and is used to group logically related commands. The VSPackage should define its own command set to avoid collisions with command IDs that are defined by other VSPackages.

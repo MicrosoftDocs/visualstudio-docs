@@ -1,5 +1,5 @@
 ---
-title: "BDC Model Design Tools Overview | Microsoft Docs"
+title: "BDC Model Design Tools Overview"
 description: Read an overview of design tools to use with a Business Data Connectivity (BDC) model. Learn about the BDC Designer, BDC Method Details window, and BDC Explorer.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -22,13 +22,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+ms.subservice: sharepoint-development
 ---
 # BDC model design tools overview
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can design a Business Data Connectivity (BDC) model by using the BDC Designer, the **BDC Method Details** window, and the **BDC Explorer**.
 
  The **BDC Explorer** enables you to browse the model, search the model, and define type descriptors.
@@ -71,7 +68,7 @@ ms.workload:
 
  For more information, see [How to: Define the type descriptor of a parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md).
 
-## See also
+## Related content
 - [How to: Create a BDC model](../sharepoint/how-to-create-a-bdc-model.md)
 - [How to: Add an entity to a model](../sharepoint/how-to-add-an-entity-to-a-model.md)
 - [How to: Add a Finder method](../sharepoint/how-to-add-a-finder-method.md)

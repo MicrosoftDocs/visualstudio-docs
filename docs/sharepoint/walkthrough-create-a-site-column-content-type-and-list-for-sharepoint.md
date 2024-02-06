@@ -19,13 +19,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+ms.subservice: sharepoint-development
 ---
 # Walkthrough: Create a site column, content type, and list for SharePoint
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The following procedures demonstrate how to create custom SharePoint site columns—or *fields*—as well as a content type that uses the site columns. It also shows how to create a list that uses the new content type.
 
  This walkthrough includes the following tasks:
@@ -221,7 +218,7 @@ ms.workload:
 
      The new record appears in the list.
 
-## See also
+## Related content
 - [Create site columns, content types, and lists for SharePoint](../sharepoint/creating-site-columns-content-types-and-lists-for-sharepoint.md)
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
 - [How to: Create a Custom Field Type](/previous-versions/office/developer/sharepoint-2010/bb862248(v=office.14))

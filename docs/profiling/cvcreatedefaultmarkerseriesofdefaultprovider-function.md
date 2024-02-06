@@ -1,5 +1,5 @@
 ---
-title: CvCreateDefaultMarkerSeriesOfDefaultProvider Function | Microsoft Docs
+title: CvCreateDefaultMarkerSeriesOfDefaultProvider Function
 description: See reference information for the Concurrency Visualizer SDK function CvCreateDefaultMarkerSeriesOfDefaultProvider (C library).
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,17 +7,13 @@ f1_keywords:
   - cvmarkers/CvCreateDefaultMarkerSeriesOfDefaultProvider
 helpviewer_keywords: 
   - CvCreateDefaultMarkerSeriesOfDefaultProvider method
-ms.assetid: 24eb80f8-8fca-4c47-93b5-bb1eb8ffdffd
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
 # CvCreateDefaultMarkerSeriesOfDefaultProvider function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates default marker series of a default provider.
 
 ## Syntax

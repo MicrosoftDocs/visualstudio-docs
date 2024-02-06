@@ -1,23 +1,19 @@
 ---
 description: "This interface represents the resolution of a breakpoint error."
-title: IDebugErrorBreakpointResolution2 | Microsoft Docs
+title: IDebugErrorBreakpointResolution2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugErrorBreakpointResolution2
 helpviewer_keywords:
 - IDebugErrorBreakpointResolution2
-ms.assetid: b1234216-0ac8-461d-b2a7-54f60f8f3262
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugErrorBreakpointResolution2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents the resolution of a breakpoint error.
 
 ## Syntax

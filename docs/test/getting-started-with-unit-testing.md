@@ -1,20 +1,16 @@
 ---
 title: Get started with unit testing
 description: Use Visual Studio to define and run unit tests to maintain code health, and to find errors and faults before your customers do.
-ms.date: 12/13/2022
+ms.date: 01/19/2024
 ms.topic: tutorial
 helpviewer_keywords:
 - unit testing, create unit test plans
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
-ms.workload:
-- multiple
+ms.subservice: test-tools
 ---
 # Get started with unit testing
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use Visual Studio to define and run unit tests to maintain code health, ensure code coverage, and find errors and faults before your customers do. Run your unit tests frequently to make sure your code is working properly.
 

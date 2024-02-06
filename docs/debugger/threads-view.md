@@ -1,5 +1,5 @@
 ---
-title: "Threads View | Microsoft Docs"
+title: "Threads View"
 description: Understand the Threads view in the Spy++ debugging tool. The Threads view is a flat listing of all threads associated with windows on your system.
 ms.date: "12/21/2022"
 ms.topic: "conceptual"
@@ -7,17 +7,13 @@ f1_keywords:
   - "vs.externaltools.spyplus.threadsview"
 helpviewer_keywords:
   - "Threads view"
-ms.assetid: abfb4e9e-1622-47c9-afda-b6b71a9d88e4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Threads View
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Threads view is a flat listing of all threads associated with windows on your system. The Thread ID and module name for each thread are shown. Processes are not included, but you can easily find the process that owns a selected thread.
 
 ## Procedures

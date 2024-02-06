@@ -5,17 +5,12 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - extensions
-ms.assetid: 6b151891-c06d-40b1-9867-42298caa8492
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Get started with language service and editor extensions
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use editor extensions to add language service features such as outlining, brace matching, IntelliSense, and light bulbs to your own programming language or to any content type. You can also customize the appearance and behavior of the Visual Studio editor, for example text coloring, margins, adornments, and other visual elements. You can also define your own type of content, and specify the appearance and behavior of the text views in which your content appears.
 
@@ -92,6 +87,6 @@ You can use editor extensions to add language service features such as outlining
 
 - [Walkthrough: Using a shortcut key with an editor extension](../extensibility/walkthrough-using-a-shortcut-key-with-an-editor-extension.md)
 
-## See also
+## Related content
 
 - [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)

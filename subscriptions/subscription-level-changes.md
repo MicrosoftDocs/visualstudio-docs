@@ -3,7 +3,6 @@ title: Effects of changing Visual Studio subscription levels | Visual Studio Mar
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: bb2fa359-8170-4db0-a0c5-d49fc692b0aa
 ms.date: 04/03/2023
 ms.topic: conceptual
 description:  Learn about the effects of upgrading or downloading your Visual Studio subscription level.

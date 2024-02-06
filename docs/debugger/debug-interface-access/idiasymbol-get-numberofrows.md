@@ -1,21 +1,17 @@
 ---
 description: "Retrieves the number of rows in the matrix."
-title: "IDiaSymbol::get_numberOfRows | Microsoft Docs"
+title: "IDiaSymbol::get_numberOfRows"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: cf3eb110-d07f-4995-b68b-08290aa67d6f
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_numberOfRows
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the number of rows in the matrix.
 
 ## Syntax

@@ -8,17 +8,12 @@ helpviewer_keywords:
 - examples [Visual Studio SDK], brokered services
 - Visual Studio, brokered services
 - brokered services
-ms.assetid: d2b743f2-a06b-4f82-aaef-f207046a299e
 author: aarnott
 ms.author: andarno
 manager: ansonh
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Using and providing brokered services
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A brokered service is a service acquired via an <xref:Microsoft.ServiceHub.Framework.IServiceBroker>,
 and is exposed as an RPC-compatible interface to enable the service and its client to exist in distinct AppDomains, processes or even across machines (in the case of Live Share).

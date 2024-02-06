@@ -212,34 +212,32 @@
         href: hot-reload.md
       - name: Extend Hot Reload (.NET)
         href: hot-reload-metadataupdatehandler.md
+    - name: Edit and Continue
+      items:
+      - name: Configure Edit and Continue
+        href: how-to-enable-and-disable-edit-and-continue.md
+      - name: Edit and Continue (C++)
+        items:
+        - name: Edit and Continue for C++
+          href: edit-and-continue-visual-cpp.md
+        - name: Supported Code Changes (C++)
+          href: supported-code-changes-cpp.md
+      - name: Edit and Continue (Visual C#)
+        items:
+        - name: Edit and Continue for C#
+          href: edit-and-continue-visual-csharp.md
+        - name: Supported Code Changes
+          href: supported-code-changes-csharp.md
+      - name: Edit and Continue (Visual Basic)
+        href: edit-and-continue-visual-basic.md
+      - name: Edit and Continue not supported for F#
+        href: edit-and-continue-not-supported-for-f-hash.md
     - name: XAML Hot Reload
       items:
       - name: Write and debug running XAML code
         href: ../xaml-tools/xaml-hot-reload.md?toc=/visualstudio/debugger/toc.json
       - name: Troubleshooting XAML Hot Reload
         href: /troubleshoot/developer/visualstudio/tools-utilities/xaml-hot-reload-troubleshooting?toc=/visualstudio/debugger/toc.json
-    - name: Edit code and continue debugging
-      href: edit-and-continue.md
-    - name: Enable and disable Edit and Continue
-      href: how-to-enable-and-disable-edit-and-continue.md
-    - name: Stop code changes
-      href: how-to-stop-code-changes.md
-    - name: Edit and Continue (C++)
-      items:
-      - name: Edit and Continue for C++
-        href: edit-and-continue-visual-cpp.md
-      - name: Supported Code Changes (C++)
-        href: supported-code-changes-cpp.md
-    - name: Edit and Continue (Visual C#)
-      items:
-      - name: Edit and Continue for C#
-        href: edit-and-continue-visual-csharp.md
-      - name: Supported Code Changes
-        href: supported-code-changes-csharp.md
-    - name: Edit and Continue (Visual Basic)
-      href: edit-and-continue-visual-basic.md
-    - name: Edit and Continue not supported for F#
-      href: edit-and-continue-not-supported-for-f-hash.md
   - name: Source code
     items:
     - name: Decompile .NET assemblies
@@ -264,24 +262,18 @@
       href: remote-debugger-port-assignments.md
     - name: Configure the Windows Firewall for remote debugging
       href: configure-the-windows-firewall-for-remote-debugging.md
-    - name: Unblock the download on Windows Server
-      href: remote-debugging-unblock-file-download.md
     - name: Troubleshoot remote debugging >>
       href: /troubleshoot/developer/visualstudio/debuggers/troubleshooting-remote-debugging?toc=%2Fvisualstudio%2Fdebugger%2Ftoc.json
     - name: Remote debugging error reference
       items:
       - name: Remote debugging errors and troubleshooting
         href: remote-debugging-errors-and-troubleshooting.md
-      - name: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer does not have permission to connect to this computer
-        href: error-the-microsoft-visual-studio-remote-debugging-monitor-no-permission.md
       - name: A DCOM error occurred trying to contact the remote computer. Access is denied.
         href: a-dcom-error-occurred-trying-to-contact-the-remote-computer-access-is-denied.md
       - name: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer is running as a different user
         href: error-the-microsoft-visual-studio-remote-debugging-monitor-on-the-remote-computer-is-running-as-a-different-user.md
       - name: Unable to automatically step into the server
         href: error-unable-to-automatically-step-into-the-server.md
-      - name: Workgroup remote logon failure
-        href: error-workgroup-remote-logon-failure.md
       - name: Kerberos authentication failed
         href: error-kerberos-authentication-failed.md
       - name: Ensure that DNS is correctly configured on the target computer
@@ -294,26 +286,12 @@
         href: error-unable-to-initiate-dcom-communication.md
       - name: Remote computer could not initiate DCOM communications
         href: error-remote-computer-could-not-initiate-dcom-communications.md
-      - name: Firewall on local machine
-        href: error-firewall-on-local-machine.md
-      - name: Firewall no authentication
-        href: error-firewall-no-authentication.md
-      - name: RPC requires authentication
-        href: error-rpc-requires-authentication.md
-      - name: You do not have permission to inspect the process's identity
-        href: error-you-do-not-have-permission-to-inspect-the-process-s-identity.md
       - name: The Visual Studio remote debugger service on the target computer cannot connect back to this computer
         href: error-the-visual-studio-remote-debugger-service-on-the-target-computer-cannot-connect-back-to-this-computer.md
       - name: Web site worker process has been terminated by IIS
         href: error-web-site-worker-process-has-been-terminated-by-iis.md
       - name: Unable to connect to the machine <name>. The machine cannot be found on the network.
         href: error-unable-to-connect-to-the-machine-name-the-machine-cannot-be-found-on-the-network.md
-      - name: Mixed mode debugging is supported only when using Microsoft .NET Framework 2.0 or greater
-        href: error-mixed-mode-debugging-is-supported-only-when-using-microsoft-dotnet-framework-2-0-or-greater.md
-      - name: Mixed mode debugging for IA64 processes is unsupported
-        href: error-mixed-mode-debugging-for-ia64-processes-is-unsupported.md
-      - name: Mixed-mode debugging for x64 processes is supported only when using Microsoft .NET Framework 4 or greater
-        href: error-mixed-mode-debugging-for-x64-processes-is-supported-only-when-using-microsoft-dotnet-framework-4-or-greater.md
       - name: Remote machine does not appear in a Remote Connections dialog
         href: error-remote-machine-does-not-appear-in-a-remote-connections-dialog.md
   - name: Attach to process
@@ -456,10 +434,6 @@
           href: how-to-debug-the-onstart-method.md
       - name: F#
         href: debugging-f-hash.md
-      - name: Error reference
-        items:
-        - name: Debugging isn't possible because a kernel debugger is enabled on the system
-          href: error-debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system.md
     - name: C/C++ code
       items:
       - name: Debug native code
@@ -508,8 +482,6 @@
         href: how-to-find-the-name-of-the-aspnet-process.md
       - name: Debug deployed Web applications
         href: debugging-deployed-web-applications.md
-      - name: 'Walkthrough: Debugging a Web Form'
-        href: walkthrough-debugging-a-web-form.md
       - name: Debug ASP.NET exceptions
         href: how-to-debug-aspnet-exceptions.md
       - name: 'Web apps: Errors and troubleshooting'
@@ -537,11 +509,7 @@
     - name: JavaScript and TypeScript >>
       href: ../javascript/debug-nodejs.md
     - name: Web apps
-      items:
-      - name: Debug Web applications
-        href: debugging-web-applications.md
-      - name: 'Warning: Script debugging disabled'
-        href: warning-script-debugging-disabled.md
+      href: debugging-web-applications.md
     - name: WCF services
       items:
       - name: Debug WCF services
@@ -688,8 +656,6 @@
         href: error-unable-to-connect-to-sql-server-on-remote-machine.md
       - name: Unable to access the SQL Server debugging interface
         href: error-unable-to-access-the-sql-server-debugging-interface.md
-      - name: SQL Can't Find SSDEBUGPS
-        href: error-sql-can-t-find-ssdebugps.md
       - name: Transact-SQL execution ended without debugging
         href: error-transact-sql-execution-ended-without-debugging.md
       - name: User could not execute stored procedure sp_enable_sql_debug
@@ -704,7 +670,7 @@
         href: source-server-security-alert.md
       - name: Mixed mode debugging for x64 processes is only supported when using Microsoft.NET Framework 4 or greater
         href: mixed-mode-debugging-for-x64-processes-is-only-supported-when-using-microsoft-dotnet-framework-4-or-greater.md
-      - name: Mixed mode debugging for IA64 processes is unsupported.
+      - name: Mixed mode debugging for IA64 processes is unsupported
         href: mixed-mode-debugging-for-ia64-processes-is-unsupported.md
       - name: Mixed Mode Debugging Is Only Supported when Using Microsoft .NET Framework 2.0 or 3.0
         href: mixed-mode-debugging-is-only-supported-when-using-microsoft-dotnet-framework-2-0-or-3-0.md

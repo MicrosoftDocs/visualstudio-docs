@@ -1,5 +1,5 @@
 ---
-title: Session Debug Manager | Microsoft Docs
+title: Session Debug Manager
 description: Learn about the session debug manager, which manages multiple debug engines debugging programs in multiple processes across any number of machines.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -10,17 +10,13 @@ helpviewer_keywords:
 - session debug manager
 - session debug manager, debug engine multiplexing
 - session debug manager, delegating
-ms.assetid: fbb1928d-dddc-43d1-98a4-e23b0ecbae09
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # Session debug manager
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The session debug manager (SDM) manages any number of debug engines (DE) that are debugging any number of programs in multiple processes across any number of machines. In addition to being a debug engine multiplexer, the SDM provides a unified view of the debug session to the IDE.
 
 ## Session debug manager operation

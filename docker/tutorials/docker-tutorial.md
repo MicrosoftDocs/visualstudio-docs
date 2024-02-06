@@ -1,14 +1,12 @@
 ---
-title: "Get started with Docker apps in Visual Studio Code"
+title: Get started with Docker apps in Visual Studio Code
 titleSuffix: ""
-description: Learn how to update Docker apps and share the apps with VS Code. 
+description: Create Docker applications with Visual Studio Code, the Docker Visual Studio Code Extension, Docker Desktop, and Docker Hub.
 author: ghogen
 ms.author: ghogen
-ms.prod: vs-code
+ms.service: vs-code
 ms.topic: tutorial 
 ms.date: 04/12/2023
-ms.custom: template-tutorial, contperf-fy22q3
-
 # Under contractual obligation with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
 ---
 
@@ -193,7 +191,6 @@ Now that you have an image, you can run the application.
 1. Add an item or two to test if it works as you expect.   You can mark items as complete and remove items.
    Your frontend is successfully storing items in the backend.
 
-
 ## Next steps
 
 You've completed this tutorial and you have a running todo list manager with a few items.  You've learned to create container images and run a containerized app.
@@ -203,7 +200,6 @@ Next, try part II of this series:
 
 > [!div class="nextstepaction"]
 > [Update and share a Docker app](docker-tutorial-share.md)
-
 
 Here are some resources that might be useful to you:
 - [Docker Cloud Integration](https://github.com/docker/compose-cli)

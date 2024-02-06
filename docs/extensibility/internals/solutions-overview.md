@@ -5,17 +5,12 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - solutions, about solutions
-ms.assetid: 3b21e3a1-170a-4485-941e-6b04b7b27886
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Solutions overview
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A solution is a grouping of one or more projects that work together to create an application. The project and status information pertaining to the solution are stored in two different solution files. The [solution (.sln) file](solution-dot-sln-file.md) is text-based and can be placed under source code control and shared between users. The [solution user option (.suo) file](solution-user-options-dot-suo-file.md) is binary. As a result, the .suo file cannot be placed under source code control and contains user-specific information.
 
@@ -43,7 +38,7 @@ When a solution is opened, the following process takes place.
 > [!NOTE]
 > If you want to create a new solution configuration consisting of two projects' configurations and excluding a third from the build, you need to use the Property Pages UI or automation. You can't change the solution build manager configurations and their properties directly, but you can manipulate the solution build manager using the `SolutionBuild` class from DTE in the automation model. For more information about configuring solutions, see [Solution Configuration](../../extensibility/internals/solution-configuration.md).
 
-## See also
+## Related content
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionOpts>

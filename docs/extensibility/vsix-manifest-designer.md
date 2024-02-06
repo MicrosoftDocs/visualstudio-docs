@@ -1,5 +1,5 @@
 ---
-title: VSIX Manifest Designer | Microsoft Docs
+title: VSIX Manifest Designer
 description: Learn how the VSIX Manifest Designer modifies a VSIX package manifest file, which sets the installation behavior for a Visual Studio extension.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -9,17 +9,13 @@ helpviewer_keywords:
 - vsixmanifest
 - vsix manifest
 - manifest designer
-ms.assetid: 5a691e77-cf91-430d-90ea-361d9031ef83
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # VSIX Manifest Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Modifies a VSIX package manifest file, which sets the installation behavior for a Visual Studio extension.
 
 The **VSIX Manifest Designer** maps to the underlying VSIX schema. Every element in the schema can be set by using a corresponding control in the designer. For more information about the schema, see [VSIX Extension Schema 2.0 Reference](../extensibility/vsix-extension-schema-2-0-reference.md).

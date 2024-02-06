@@ -1,5 +1,5 @@
 ---
-title: Adding a Shortcut Menu in a Tool Window | Microsoft Docs
+title: Adding a Shortcut Menu in a Tool Window
 description: Learn how to add a shortcut menu to a tool window in Visual Studio that appears when a button, text box, or window background is right-clicked.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -8,17 +8,13 @@ helpviewer_keywords:
 - menus, context menus
 - shortcut menus, adding to tool windows
 - tool windows, adding context menus
-ms.assetid: 50234537-9e95-4b7e-9cb7-e5cf26d6e9d2
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Add a shortcut menu in a tool window
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a menu that appears when a user right-clicks a button, text box, or window background. Commands on a shortcut menu behave the same as commands on other menus or toolbars. To support a shortcut menu, specify it in the *.vsct* file and display it in response to the right-click of the mouse.
 
 A tool window consists of a WPF user control in a custom tool window class that inherits from <xref:Microsoft.VisualStudio.Shell.ToolWindowPane>.
@@ -26,9 +22,6 @@ A tool window consists of a WPF user control in a custom tool window class that 
 This walkthrough shows how to create a shortcut menu as a Visual Studio menu, by declaring menu items in the *.vsct* file, and then using the Managed Package Framework to implement them in the class that defines the tool window. This approach facilitates access to Visual Studio commands, UI elements, and the Automation object model.
 
 Alternatively, if your shortcut menu will not access Visual Studio functionality, you can use the <xref:System.Windows.FrameworkElement.ContextMenu%2A> property of a XAML element in the user control. For more information, see [ContextMenu](/dotnet/framework/wpf/controls/contextmenu).
-
-## Prerequisites
-Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ## Create the tool window shortcut menu package
 
@@ -274,6 +267,6 @@ A shortcut menu such as the one shown in this walkthrough lets the user select f
 
 4. Click a color on the shortcut menu. The tool window background color should be changed to the selected color.
 
-## See also
+## Related content
 - [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md)
 - [Using and providing services](../extensibility/using-and-providing-services.md)

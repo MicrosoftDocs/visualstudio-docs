@@ -1,22 +1,15 @@
 ---
 title: Python in Visual Studio tutorial step 5, install packages
 titleSuffix: ""
-description: Step 5 of a core walkthrough of Python capabilities in Visual Studio. Demonstrates Visual Studio features on how to manage and install packages in a Python environment.
+description: Step 5 of a core walkthrough of Python capabilities in Visual Studio that shows Visual Studio features to manage and install packages in a Python environment.
 ms.date: 10/21/2022
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
-
-ms.workload:
-  - python
-  - data-science
-ms.custom: devdivchpfy22
+ms.subservice: python
 ---
 # Step 5: Install packages in your Python environment
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Previous step: [Run code in the debugger](tutorial-working-with-python-in-visual-studio-step-04-debugging.md)**
 
@@ -35,7 +28,7 @@ The Python developer community has produced thousands of useful packages that yo
    :::moniker-end
 
    > [!NOTE]
-   > You can also use the **Ctrl+K, Ctrl+`** keyboard shortcut to open the **Python Environments** window from the Solution Explorer window. If the shortcut doesn't work and you can't find the Python Environments window in the menu, it's possible that you haven't installed the Python workload. See [How to install Python support in Visual Studio on Windows](installing-python-support-in-visual-studio.md#how-to-install-python-support-in-visual-studio-on-windows) for guidance about how to install Python.
+   > You can also use the **Ctrl+K, Ctrl+`** keyboard shortcut to open the **Python Environments** window from the Solution Explorer window. If the shortcut doesn't work and you can't find the Python Environments window in the menu, it's possible that you haven't installed the Python workload. See [How to install Python support in Visual Studio on Windows](installing-python-support-in-visual-studio.md) for guidance about how to install Python.
 
    With a Python project open, you can open the **Python Environments** window from **Solution Explorer**. Right-click **Python Environments** and select **View All Python Environments**.
 

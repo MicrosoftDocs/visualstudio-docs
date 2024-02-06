@@ -3,16 +3,13 @@ title: Change the F1 help key
 description: "Describes how to re-map or remove the F1 key mapping"
 ms.date: 08/20/2020
 ms.topic: how-to
-ms.custom: contperf-fy21q1
 robots: noindex,nofollow
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 author: mikejo5000
 ms.author: mikejo
 ---
 # Change the F1 help key in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If you want to use the F1 key for a different function than the F1 help service, or you just want to disable the help using F1, you can remove or modify the key mapping.
 

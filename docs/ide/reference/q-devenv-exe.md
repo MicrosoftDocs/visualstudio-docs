@@ -7,17 +7,12 @@ helpviewer_keywords:
 - /? Devenv switch
 - Devenv, /? switch
 - Devenv, command-line help
-ms.assetid: fd8fd6b2-1304-4d06-8118-6629666801fb
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # /? (devenv.exe)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Displays a message box listing all `devenv` switches, with a brief description of each switch.
 

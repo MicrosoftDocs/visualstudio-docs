@@ -1,6 +1,6 @@
 ---
 description: "Sets or changes the condition associated with the pending breakpoint."
-title: IDebugPendingBreakpoint2::SetCondition | Microsoft Docs
+title: IDebugPendingBreakpoint2::SetCondition
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,20 +8,16 @@ f1_keywords:
 helpviewer_keywords:
 - SetCondition method
 - IDebugPendingBreakpoint2::SetCondition method
-ms.assetid: 0534224f-654f-4862-bc4d-a9a81a5f8899
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPendingBreakpoint2::SetCondition
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets or changes the condition associated with the pending breakpoint.
 
 ## Syntax

@@ -6,17 +6,12 @@ ms.topic: "ui-reference"
 helpviewer_keywords:
   - "Spy++, thread properties"
   - "thread properties, Spy++"
-ms.assetid: 5352d11a-debb-4c20-b9a0-d37d94900b1c
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Thread Properties dialog box
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use this dialog box find out more about a specific thread. To display this dialog box, move the focus to a [Threads View](threads-view.md) window, or open [Messages View](messages-view.md) and expand a message. Select any thread node in the tree, then choose **Properties** from the **View** menu.
 

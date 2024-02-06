@@ -1,23 +1,19 @@
 ---
 description: "This interface represents a module that supports alternate locations of symbols and JustMyCode states."
-title: IDebugModule3 | Microsoft Docs
+title: IDebugModule3
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugModule3
 helpviewer_keywords:
 - IDebugModule3 interface
-ms.assetid: 44f8e96e-9c59-4ffc-9a08-9c908a0e4de7
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugModule3
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a module that supports alternate locations of symbols and JustMyCode states.
 
 ## Syntax

@@ -5,8 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 05/06/2018
-ms.technology: vs-ide-install
-ms.assetid: 26A0DE31-2FBF-4E1B-99FB-083111AA1680
+ms.subservice: install
 ms.topic: reference
 ---
 # Creating and editing a custom EditorConfig file in Visual Studio for Mac

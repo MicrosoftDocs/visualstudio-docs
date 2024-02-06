@@ -1,26 +1,22 @@
 ---
 description: "Specifies desired properties to be obtained from a program provider."
-title: PROVIDER_FLAGS | Microsoft Docs
+title: PROVIDER_FLAGS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - PROVIDER_FLAGS
 helpviewer_keywords:
 - PROVIDER_FLAGS enumeration
-ms.assetid: 8cbd2312-ed2f-4477-b192-c3f25c6098c3
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # PROVIDER_FLAGS
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies desired properties to be obtained from a program provider.
 
 ## Syntax

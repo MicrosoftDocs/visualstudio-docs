@@ -1,23 +1,19 @@
 ---
 description: "Initializes a new instance of the marker_series class."
-title: marker_series::marker_series Constructor | Microsoft Docs
+title: marker_series::marker_series Constructor
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
 - cvmarkersobj/Concurrency, diagnostic::marker_series::marker_series
 helpviewer_keywords: 
 - Concurrency, diagnostic::marker_series constructor
-ms.assetid: 042c7d23-f1d8-4e09-9e76-a21c30243790
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
 # marker_series::marker_series constructor
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Initializes a new instance of the `marker_series` class.
 
 ## Syntax

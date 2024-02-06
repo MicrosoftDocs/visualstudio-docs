@@ -1,21 +1,16 @@
 ---
-title: Database projects and DAC projects
-description: Read about database projects and data-tier applications (DACs). Use DB projects to create new databases, create new DACs, and update existing DBs and DACs.
-ms.date: 11/21/2018
+title: Database projects & DAC projects (.NET Framework)
+description: Explore database projects and data-tier applications (DACs) to create new databases and new DACs, and update existing databases and DACs.
+ms.date: 11/01/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - databases, managing change
-ms.assetid: 40b51f5a-d52c-44ac-8f84-037a0917af33
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# Database projects and data-tier applications
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Database projects and data-tier applications (.NET Framework)
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -31,6 +26,6 @@ For a list of the database features that are supported by data-tier applications
 | **Performing iterative database development:** Developers can check out parts of the project and update them in an isolated development environment. By using this type of environment, you can test your changes without affecting other members of the team. After the changes are complete, you check the files back into version control, where other team members can obtain your changes and build and deploy them to a test server. | - [Project-oriented offline database development (SQL Server Data Tools)](/sql/ssdt/project-oriented-offline-database-development)<br />- [Transact-SQL debugger (SQL Server Management Studio)](/sql/ssms/scripting/transact-sql-debugger) |
 | **Prototyping, verifying test results, and modifying database scripts and objects:** You can use the Transact-SQL editor to perform any one of these common tasks. | - [Query and text editors (SQL Server Management Studio)](/sql/ssms/scripting/query-and-text-editors-sql-server-management-studio) |
 
-## See also
+## Related content
 
 - [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)

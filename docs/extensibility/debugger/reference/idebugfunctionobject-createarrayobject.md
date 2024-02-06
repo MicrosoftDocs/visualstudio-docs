@@ -1,26 +1,22 @@
 ---
 description: "Creates an array object."
-title: IDebugFunctionObject::CreateArrayObject | Microsoft Docs
+title: IDebugFunctionObject::CreateArrayObject
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugFunctionObject::CreateArrayObject
 helpviewer_keywords:
 - IDebugFunctionObject::CreateArrayObject method
-ms.assetid: a380e53c-15f1-401f-927f-f366eea789e6
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugFunctionObject::CreateArrayObject
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an array object. This array can contain either primitive or object instance values.
 
 ## Syntax

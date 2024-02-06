@@ -1,26 +1,22 @@
 ---
 description: "Returns the number of elements in the modules enumeration."
-title: IEnumDebugModules2::GetCount | Microsoft Docs
+title: IEnumDebugModules2::GetCount
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugModules2::GetCount
 helpviewer_keywords:
 - IEnumDebugModules2::GetCount
-ms.assetid: f4def3d2-7cc9-4cd2-9649-3b7e00a76220
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugModules2::GetCount
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the number of elements in the enumeration.
 
 ## Syntax

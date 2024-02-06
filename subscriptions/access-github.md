@@ -1,12 +1,11 @@
 ---
-title: Visual Studio subscriptions with GitHub Enterprise | Microsoft Docs
+title: Visual Studio subscriptions with GitHub Enterprise
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: 2249b32a-46d7-4e29-b543-4769c71ceda6
 ms.date: 04/03/2023
 ms.topic: conceptual
-description: Learn about accessing GitHub Enterprise as part of Visual Studio subscriptions
+description: Discover how to access GitHub Enterprise as part of Visual Studio subscriptions, get started using GitHub, and find support options.
 ---
 
 # Visual Studio subscriptions with GitHub Enterprise 

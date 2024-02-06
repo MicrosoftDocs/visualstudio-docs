@@ -13,13 +13,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
 # Troubleshoot Office solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This section contains tips for solving common problems that you might encounter when creating solutions by using the Office development tools in Visual Studio.
 
 ## In this section
@@ -56,6 +53,6 @@ ms.workload:
 
  Lists frequently asked questions about programming Office solutions and provides links to topics that can help solve common problems.
 
-## See also
+## Related content
 
 - [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

@@ -1,6 +1,6 @@
 ---
-title: Find the running ASP.NET process | Microsoft Docs
-description: Learn how to debug a running ASP.NET app. You attach the Visual Studio debugger to the ASP.NET process by name.   
+title: Find the running ASP.NET process
+description: Debug a running ASP.NET application in Visual Studio, and attach the Visual Studio debugger to the ASP.NET process by name.   
 ms.date: 11/04/2018
 ms.topic: how-to
 dev_langs: 
@@ -11,17 +11,12 @@ dev_langs:
 helpviewer_keywords: 
   - ASP.NET debugging, ASP.NET process
   - ASP.NET process
-ms.assetid: 931a7597-b0f0-4a28-931d-46e63344435f
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - aspnet
+ms.subservice: debug-diagnostics
 ---
 # Find the name of the ASP.NET process
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To debug a running ASP.NET app, the Visual Studio debugger must attach to the ASP.NET process by name.
 
@@ -37,10 +32,7 @@ To debug a running ASP.NET app, the Visual Studio debugger must attach to the AS
     - *dotnet.exe* is ASP.NET Core.
     - *inetinfo.exe* is older ASP applications running in-process.
 
->[!NOTE]
->Visual Studio 2012 and earlier ASP.NET code can be on the file system and run on the test server *WebDev.WebServer.exe* or *WebDev.WebServer40.exe*. In this case, for local debugging, attach to *WebDev.WebServer.exe* or *WebDev.WebServer40.exe* instead of the ASP.NET process.
-
-**See also:**
+## Related content
 
 - [Attach to a running process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)
 - [Prerequisites for remote debugging web applications](remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)

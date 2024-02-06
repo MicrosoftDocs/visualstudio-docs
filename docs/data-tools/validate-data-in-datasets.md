@@ -1,6 +1,6 @@
 ---
-title: Validate data in datasets
-description: Learn to validate data in datasets. Validating data involves confirming that values entered into data objects conform to constraints within a dataset's schema.
+title: Validate data in datasets in .NET Framework applications
+description: Learn to validate data in ADO.NET datasets in .NET Framework application development with Visual Studio. Validating data involves confirming that values entered into data objects conform to constraints within a dataset's schema.
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -16,17 +16,12 @@ helpviewer_keywords:
 - data validation
 - validating data, datasets
 - updating datasets, validating data
-ms.assetid: 79500596-1e4d-478e-a991-a636fd73a622
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# Validate data in datasets
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Validate data in datasets in .NET Framework applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -248,7 +243,7 @@ Passing the <xref:System.Data.DataRowVersion> value along with the column index 
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb" id="Snippet22":::
      ---
 
-## See also
+## Related content
 
 - [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)
 - [How to: Validate data in the Windows Forms DataGridView control](/dotnet/framework/winforms/controls/how-to-validate-data-in-the-windows-forms-datagridview-control)

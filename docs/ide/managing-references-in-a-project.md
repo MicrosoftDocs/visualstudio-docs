@@ -1,6 +1,6 @@
 ---
 title: Manage references in a project
-description: Learn how to manage references to external components and connected services in a project.
+description: Manage references to external components and connected services in your project so Visual Studio can locate the component or the service.
 ms.date: 08/31/2023
 ms.topic: conceptual
 f1_keywords:
@@ -20,13 +20,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Manage references in a project
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Before you write code against an external component or connected service, your project must first contain a reference to it. A reference is essentially an entry in a project file that contains the information that Visual Studio needs to locate the component or the service.
 
@@ -72,7 +68,7 @@ The [Universal Windows Platform](/windows/uwp/get-started/universal-application-
 
 Universal Windows Platform (UWP) projects can create references to other UWP projects in the solution, or to Windows 8.1 projects or binaries, provided that these projects don't use APIs that have been deprecated in Windows 10 and later. For more information, see [Move from Windows Runtime 8 to UWP](/windows/uwp/porting/w8x-to-uwp-root).
 
-If you choose to retarget Windows 8.1 projects to Windows 10 and later, see [Port, migrate, and upgrade Visual Studio projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md). 
+If you choose to retarget Windows 8.1 projects to Windows 10 and later, see [Port, migrate, and upgrade Visual Studio projects](/visualstudio/releases/2022/port-migrate-and-upgrade-visual-studio-projects). 
 
 > [!TIP]
 > For information about how to create and build a new UWP app for Windows 10 and Windows 11, see [Choose a UWP version](/windows/uwp/updates-and-versions/choose-a-uwp-version?ocid=VSClient_VerX_NewProject_version&preserve-view=true).
@@ -145,7 +141,7 @@ Unlike most other project types, a *shared project* doesn't have any binary outp
 
 File references are direct references to assemblies outside the context of a Visual Studio project. You create them by using the **Browse** tab of the Reference Manager dialog box. Use a file reference when you just have an assembly or component, and not the project that creates it as output.
 
-## See also
+## Related content
 
 - [Troubleshoot broken references](../ide/troubleshooting-broken-references.md)
 - [How to: Add or remove references](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md)

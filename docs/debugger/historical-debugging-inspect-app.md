@@ -1,19 +1,14 @@
 ---
-title: Inspect your app with historical debugging | Microsoft Docs
+title: Inspect your app with historical debugging
 description: Follow an investigation that uses IntelliTrace historical debugging to track down a bug in a C# console application.
 ms.date: 11/04/2016
 ms.topic: how-to
-ms.assetid: 629b5d93-39b2-430a-b8ba-d2a47fdf2584
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
 # Inspect your app with IntelliTrace historical debugging in Visual Studio (C#, Visual Basic, C++)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use [historical debugging](../debugger/historical-debugging.md) to move backward and forward through the execution of your application and inspect its state.
 
@@ -73,7 +68,7 @@ We'll assume that the expected value of `resultInt` after calling `AddIterative(
 
 7. Now step into the `AddInt()` method. You should see the bug in this code immediately.
 
-## Next steps
+## Related content
 
 This procedure just scratched the surface of what you can do with historical debugging.
 

@@ -1,21 +1,18 @@
 ---
-title: 'How to: Build Incrementally | Microsoft Docs'
-description: Learn how to use MSBuild to build incrementally, so previously built components that are still up-to-date aren't rebuilt.
+title: Build incrementally out-of-date components
+description: Explore how to use MSBuild to build incrementally, so previously built components that are still up-to-date aren't rebuilt.
 ms.date: 05/16/2022
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, incremental builds
 - incremental builds
 - MSBuild, building incrementally
-ms.assetid: 8d82d7d8-a2f1-4df6-9d2f-80b9e0cb3ac3
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
-# How to: Build incrementally
+# Build incrementally
 
 When you build a large project, it is important that previously built components that are still up-to-date are not rebuilt. If all targets are built every time, each build will take a long time to complete. To enable incremental builds (builds in which only those targets that have not been built before or targets that are out of date, are rebuilt), the Microsoft Build Engine (MSBuild) can compare the timestamps of the input files with the timestamps of the output files and determine whether to skip, build, or partially rebuild a target. However, there must be a one-to-one mapping between inputs and outputs. You can use transforms to enable targets to identify this direct mapping. For more information on transforms, see [Transforms](../msbuild/msbuild-transforms.md).
 
@@ -100,7 +97,7 @@ This project file contains both the `Convert` and `Build` targets. The `Generate
 </Project>
 ```
 
-## See also
+## Related content
 
 - [Targets](../msbuild/msbuild-targets.md)
 - [Target element (MSBuild)](../msbuild/target-element-msbuild.md)

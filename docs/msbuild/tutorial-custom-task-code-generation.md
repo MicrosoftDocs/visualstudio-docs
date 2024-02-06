@@ -1,6 +1,6 @@
 ---
-title: Create a custom task | Microsoft Docs
-description: Learn how to use MSBuild to create a custom task for code generation that properly handles incremental build and clean operations.
+title: Create a custom task with MSBuild
+description: Use MSBuild to create a custom task for code generation that properly handles incremental build and clean operations and supports multitargeting.
 ms.date: 02/17/2022
 ms.topic: tutorial
 helpviewer_keywords:
@@ -9,9 +9,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # Tutorial: Create a custom task for code generation
 
@@ -470,7 +468,7 @@ In this section, you'll wire up the task implementation in `.props` and `.target
 
 1. Create a *build* folder and in that folder, add two text files: *AppSettingStronglyTyped.props* and *AppSettingStronglyTyped.targets*. *AppSettingStronglyTyped.props* is imported  early in *Microsoft.Common.props*, and properties defined later are unavailable to it. So, avoid referring to properties that are not yet defined; they would evaluate to empty.
 
-	*Directory.Build.targets* is imported from *Microsoft.Common.targets* after importing `.targets` files from NuGet packages. So, it can override properties and targets defined in most of the build logic, or set properties for all your projects regardless of what the individual projects set. See [import order](customize-your-build.md#import-order).
+	*Directory.Build.targets* is imported from *Microsoft.Common.targets* after importing `.targets` files from NuGet packages. So, it can override properties and targets defined in most of the build logic, or set properties for all your projects regardless of what the individual projects set. See [import order](customize-your-build.md#choose-between-adding-properties-to-a-props-or-targets-file).
 
 	*AppSettingStronglyTyped.props* includes the task and defines some properties with default values:
 

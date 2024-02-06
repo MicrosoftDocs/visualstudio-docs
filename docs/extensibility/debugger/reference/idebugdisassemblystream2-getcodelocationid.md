@@ -1,26 +1,22 @@
 ---
 description: "Returns a code location identifier for a particular code context."
-title: IDebugDisassemblyStream2::GetCodeLocationId | Microsoft Docs
+title: IDebugDisassemblyStream2::GetCodeLocationId
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDisassemblyStream2::GetCodeLocationId
 helpviewer_keywords:
 - IDebugDisassemblyStream2::GetCodeLocationId
-ms.assetid: 567adfb8-2f54-499a-a027-e4ecb82277ef
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugDisassemblyStream2::GetCodeLocationId
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns a code location identifier for a particular code context.
 
 ## Syntax

@@ -1,6 +1,6 @@
 ---
 description: "Windows file sharing has been configured so that you will connect to the remote computer using a different user name."
-title: "Windows file sharing has been configured... | Microsoft Docs"
+title: "Windows file sharing has been configured..."
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:
@@ -13,13 +13,10 @@ dev_langs:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Error: Windows file sharing has been configured...
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Windows file sharing has been configured so that you will connect to the remote computer using a different user name. This is incompatible with remote debugging
 
  The current file sharing configuration is set up to connect to the remote computer using a different user name. Remote debugging is not possible in this scenario.

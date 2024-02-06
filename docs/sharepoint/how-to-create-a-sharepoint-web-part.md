@@ -1,6 +1,6 @@
 ---
-title: "How to: Create a SharePoint Web Part | Microsoft Docs"
-description: Create and customize a web part by using a designer, or by adding a web part item to any SharePoint project and then editing the code file for the web part.
+title: "Create a SharePoint Web Part"
+description: Create and customize a web part by using a designer, or by adding a web part item to any SharePoint project and editing the code file for the web part.
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -12,13 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+ms.subservice: sharepoint-development
 ---
-# How to: Create a SharePoint web part
+# Create a SharePoint web part
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can create and customize a web part by adding a **Web Part** item to any SharePoint project and then editing the code file for the web part or by using a designer. For more information, see [How to: Create a SharePoint web part by using a designer](../sharepoint/how-to-create-a-sharepoint-web-part-by-using-a-designer.md).
 
 ### To create a SharePoint web part
@@ -45,7 +42,7 @@ ms.workload:
 
      For an example, see [Walkthrough: Create a web part for SharePoint](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint.md).
 
-## See also
+## Related content
 - [Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)
 - [How to: Create a SharePoint web part by using a designer](../sharepoint/how-to-create-a-sharepoint-web-part-by-using-a-designer.md)
 - [Walkthrough: Create a web part for SharePoint](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint.md)

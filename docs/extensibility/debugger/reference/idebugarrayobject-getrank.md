@@ -1,26 +1,22 @@
 ---
 description: "Gets the rank of the array, that is, the number of dimensions."
-title: IDebugArrayObject::GetRank | Microsoft Docs
+title: IDebugArrayObject::GetRank
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugArrayObject::GetRank
 helpviewer_keywords:
 - IDebugArrayObject::GetRank method
-ms.assetid: 9948551a-e334-4ff6-979c-08dab633b9b6
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugArrayObject::GetRank
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the rank of the array, that is, the number of dimensions.
 
 ## Syntax

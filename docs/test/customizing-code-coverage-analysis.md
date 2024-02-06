@@ -5,14 +5,10 @@ ms.date: 05/22/2023
 ms.topic: conceptual
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
-ms.workload:
-- multiple
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Customize code coverage analysis
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 By default, code coverage analyzes all solution assemblies that are loaded during unit tests. We recommend that you use this default behavior, because it works well most of the time. For more information, see [Use code coverage to determine how much code is tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
 
@@ -215,7 +211,7 @@ Note that searching for symbols increases code coverage runtime. So keep this sm
 -->
 <!--
             <SymbolSearchPaths>
-                   <Path>C:\Users\User\Documents\Visual Studio 2012\Projects\ProjectX\bin\Debug</Path>
+                   <Path>C:\Users\username\source\repos\ProjectX</Path>
                    <Path>\\mybuildshare\builds\ProjectX</Path>
             </SymbolSearchPaths>
 -->
@@ -324,7 +320,7 @@ Included items must then not match any entries in the exclude list to remain inc
 </RunSettings>
 ```
 
-## See also
+## Related content
 
 - [Configure unit tests by using a run settings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md)
 - [Use code coverage to determine how much code is tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md)

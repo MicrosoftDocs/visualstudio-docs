@@ -1,22 +1,18 @@
 ---
-title: Use MSBuild
-description: Learn the various parts of an MSBuild project file, including items, item metadata, properties, targets, and tasks.
-ms.date: 10/07/2022
-ms.topic: conceptual
-ms.custom: contperf-fy21q2
+title: "MSBuild Tutorial: Install and create a project"
+description: Explore the various parts of an MSBuild project file, including items, item metadata, properties, targets, and build tasks.
+ms.date: 10/17/2023
+ms.topic: tutorial
 helpviewer_keywords:
 - MSBuild, tutorial
-ms.assetid: b8a8b866-bb07-4abf-b9ec-0b40d281c310
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
-# Walkthrough: Use MSBuild
+# Tutorial: Use MSBuild
 
-MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough introduces you to the building blocks of MSBuild and shows you how to write, manipulate, and debug MSBuild projects. You will learn about:
+MSBuild is the build platform for Microsoft and Visual Studio. This tutorial introduces you to the building blocks of MSBuild and shows you how to write, manipulate, and debug MSBuild projects. You learn about:
 
 - Creating and manipulating a project file.
 
@@ -24,7 +20,7 @@ MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough 
 
 - How to use build items.
 
-You can run MSBuild from Visual Studio, or from the **Command Window**. In this walkthrough, you create an MSBuild project file using Visual Studio. You edit the project file in Visual Studio, and use the **Command Window** to build the project and examine the results.
+You can run MSBuild from Visual Studio, or from the **Command Window**. In this tutorial, you create an MSBuild project file using Visual Studio. You edit the project file in Visual Studio, and use the **Command Window** to build the project and examine the results.
 
 ## Install MSBuild
 
@@ -42,7 +38,7 @@ To install MSBuild on a system that doesn't have Visual Studio, go to [Build Too
 ::: moniker range=">=vs-2022"
 If you have Visual Studio, then you already have MSBuild installed. With Visual Studio 2022, it's installed under the Visual Studio installation folder. For a typical default installation on Windows 10, MSBuild.exe is under the installation folder in *MSBuild\Current\Bin*.
 
-In the Visual Studio installer, navigate to **Individual Components**, and locate the checkbox for **MSBuild**. It is automatically selected when you choose any of the other workloads to install.
+In the Visual Studio installer, navigate to **Individual Components**, and locate the checkbox for **MSBuild**. It's automatically selected when you choose any of the other workloads to install.
 
 To install MSBuild on a system that doesn't have Visual Studio, go to Build Tools for Visual Studio 2022 on the [downloads page](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta). Another way of getting MSBuild is to install the [.NET SDK](/dotnet/core/sdk#acquiring-the-net-sdk).
 
@@ -50,13 +46,13 @@ To install MSBuild on a system that doesn't have Visual Studio, go to Build Tool
 
 ## Create an MSBuild project
 
- The Visual Studio project system is based on MSBuild. This makes it easy to create a new project file using Visual Studio. In this section, you create a C# project file. You can choose to create a Visual Basic project file instead. In the context of this walkthrough, the difference between the two project files is minor.
+ The Visual Studio project system is based on MSBuild. It's easy to create a new project file using Visual Studio. In this section, you create a C# project file. You can choose to create a Visual Basic project file instead. In the context of this tutorial, the difference between the two project files is minor.
 
 **To create a project file**
 
 1. Open Visual Studio and create a project:
 
-    In the search box, type **winforms**, then choose **Create a new Windows Forms App (.NET Framework)**. In the dialog box that appears, choose **Create**.
+    In the search box, type `winforms`, then choose **Create a new Windows Forms App (.NET Framework)**. In the dialog box that appears, choose **Create**.
 
     In the **Project name** box, type `BuildApp`. Enter a **Location** for the solution, for example, *D:\\*.
 
@@ -88,28 +84,27 @@ Project files are XML-formatted files with the root node [Project](../msbuild/pr
 <Project ToolsVersion="15.0"  xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 ```
 
-Most .NET projects have a `Sdk` attribute. These are called SDK-style projects.
+Most .NET projects have an `Sdk` attribute. These projects are called SDK-style projects.
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
 ```
 
-There are many variations of .NET SDKs for special purposes; they are described at [.NET Project SDKs](/dotnet/core/project-sdk/overview).
+There are many variations of .NET SDKs for special purposes; they're described at [.NET Project SDKs](/dotnet/core/project-sdk/overview).
 
 The work of building an application is done with [Target](../msbuild/target-element-msbuild.md) and [Task](../msbuild/task-element-msbuild.md) elements.
 
-- A task is the smallest unit of work, in other words, the "atom" of a build. Tasks are independent executable components which may have inputs and outputs. There are no tasks currently referenced or defined in the project file. You add tasks to the project file in the sections below. For more information, see the [Tasks](../msbuild/msbuild-tasks.md) topic.
+- A task is the smallest unit of work, in other words, the "atom" of a build. Tasks are independent executable components, which can have inputs and outputs. There are no tasks currently referenced or defined in the project file. You add tasks to the project file in the following sections. For more information, see [Tasks](../msbuild/msbuild-tasks.md).
 
-- A target is a named sequence of tasks. For more information, see the [Targets](../msbuild/msbuild-targets.md) topic.
-- [it might be a named sequence of tasks, but critically, it represents something to be built or done, so it should be defined in a goal-oriented way]
+- A target is a named sequence of tasks. It might be a named sequence of tasks, but critically, it represents something to be built or done, so it should be defined in a goal-oriented way. For more information, see [Targets](../msbuild/msbuild-targets.md).
 
-The default target is not defined in the project file. Instead, it is specified in imported projects. The [Import](../msbuild/import-element-msbuild.md) element specifies imported projects. For example, in a C# project, the default target is imported from the file *Microsoft.CSharp.targets*.
+The default target is not defined in the project file. Instead, it's specified in imported projects. The [Import](../msbuild/import-element-msbuild.md) element specifies imported projects. For example, in a C# project, the default target is imported from the file *Microsoft.CSharp.targets*.
 
 ```xml
 <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 ```
 
-Imported files are effectively inserted into the project file wherever they are referenced.
+Imported files are effectively inserted into the project file wherever they're referenced.
 
 In SDK-style projects, you don't see this import element, since the SDK attribute causes this file to be imported implicitly.
 
@@ -117,7 +112,7 @@ MSBuild keeps track of the targets of a build, and guarantees that each target i
 
 ## Add a target and a task
 
- Add a target to the project file. Add a task to the target that prints out a message.
+ Add a target to the project file. Add a task to the target that prints a message.
 
 **To add a target and a task**
 
@@ -128,7 +123,7 @@ MSBuild keeps track of the targets of a build, and guarantees that each target i
     </Target>
     ```
 
-    This creates a target named HelloWorld. Notice that you have IntelliSense support while editing the project file.
+    This code creates a target named HelloWorld. Notice that you have IntelliSense support while editing the project file.
 
 2. Add lines to the HelloWorld target, so that the resulting section looks like this:
 
@@ -142,16 +137,16 @@ MSBuild keeps track of the targets of a build, and guarantees that each target i
 
 The `Message` task is one of the many tasks that ships with MSBuild. For a complete list of available tasks and usage information, see [Task reference](../msbuild/msbuild-task-reference.md).
 
-The `Message` task takes the string value of the Text attribute as input and displays it on the output device (or writes it to one or more logs, if applicable). The HelloWorld target executes the Message task twice: first to display "Hello", and then to display "World".
+The `Message` task takes the string value of the Text attribute as input and displays it on the output device (or writes it to one or more logs, if applicable). The HelloWorld target executes the Message task twice: first to display "Hello", and then to display "World."
 
 ## Build the target
 
-If you try to build this project from Visual Studio, it won't build the target you defined. That's because Visual Studio chooses the default target, which is still the one in the imported *.targets* file.
+If you try to build this project from Visual Studio, it doesn't build the target you defined. That's because Visual Studio chooses the default target, which is still the one in the imported `.targets` file.
 
-Run MSBuild from the **Developer Command Prompt** for Visual Studio to build the HelloWorld target defined above. Use the -target or -t command-line switch to select the target.
+Run MSBuild from the **Developer Command Prompt** for Visual Studio to build the HelloWorld target defined previously. Use the -target or -t command-line switch to select the target.
 
 > [!NOTE]
-> We will refer to the **Developer Command Prompt** as the **Command Window** in the sections below.
+> We will refer to the **Developer Command Prompt** as the **Command Window** in the following sections.
 
 **To build the target:**
 
@@ -159,11 +154,11 @@ Run MSBuild from the **Developer Command Prompt** for Visual Studio to build the
 
    In the search box on the taskbar, start typing the name of the tool, such as `dev` or `developer command prompt`. This brings up a list of installed apps that match your search pattern.
 
-   If you need to find it manually, the file is *LaunchDevCmd.bat* in the *<visualstudio installation folder\>\Common7\Tools* folder.
+   If you need to find it manually, the file is *LaunchDevCmd.bat* in the *{Visual Studio installation folder}\Common7\Tools* folder.
 
 2. From the command window, navigate to the folder containing the project file, in this case, *D:\BuildApp\BuildApp*.
 
-3. Run msbuild with the command switch `-t:HelloWorld`. This selects and builds the HelloWorld target:
+3. Run msbuild with the command switch `-t:HelloWorld`. This command selects and builds the HelloWorld target:
 
     ```cmd
     msbuild buildapp.csproj -t:HelloWorld
@@ -202,15 +197,15 @@ Run MSBuild from the **Developer Command Prompt** for Visual Studio to build the
 <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
 ```
 
- defines the property named TargetFrameworkVersion, giving it the string value "v4.5".
+ defines the property named TargetFrameworkVersion, giving it the string value "v4.5."
 
- Build properties may be redefined at any time. If
+ Build properties can be redefined at any time. If
 
 ```xml
 <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 ```
 
- appears later in the project file, or in a file imported later in the project file, then TargetFrameworkVersion takes the new value "v3.5".
+ appears later in the project file, or in a file imported later in the project file, then TargetFrameworkVersion takes the new value "v3.5."
 
 ## Examine a property value
 
@@ -241,7 +236,7 @@ Use this syntax to examine some of the properties in the project file.
     msbuild buildapp.csproj -t:HelloWorld
     ```
 
-1. Examine the output. You should see these two lines (your output may differ):
+1. Examine the output. You should see these two lines (your output might differ):
 
     ::: moniker range="=vs-2022"
 
@@ -263,13 +258,13 @@ Use this syntax to examine some of the properties in the project file.
 
 ### Conditional properties
 
-Many properties like `Configuration` are defined conditionally, that is, the `Condition` attribute appears in the property element. Conditional properties are defined or redefined only if the condition evaluates to "true". Note that undefined properties are given the default value of an empty string. For example,
+Many properties like `Configuration` are defined conditionally, that is, the `Condition` attribute appears in the property element. Conditional properties are defined or redefined only if the condition evaluates to "true." Undefined properties are given the default value of an empty string. For example,
 
 ```xml
 <Configuration   Condition=" '$(Configuration)' == '' ">Debug</Configuration>
 ```
 
-means "If the Configuration property has not been defined yet, define it and give it the value 'Debug'".
+means "If the Configuration property hasn't been defined yet, define it and give it the value 'Debug'."
 
 Almost all MSBuild elements can have a Condition attribute. For more discussion about using the Condition attribute, see [Conditions](../msbuild/msbuild-conditions.md).
 
@@ -283,7 +278,7 @@ You can reference environment variables in project files the same way as build p
 
 ## Set properties from the command line
 
-Properties may be defined on the command line using the -property or -p command line switch. Property values received from the command line override property values set in the project file and environment variables.
+Properties can be defined on the command line using the -property or -p command line switch. Property values received from the command line override property values set in the project file and environment variables.
 
 **To set a property value from the command line:**
 
@@ -299,7 +294,7 @@ Properties may be defined on the command line using the -property or -p command 
     Configuration is Release.
     ```
 
-MSBuild creates the Configuration property and gives it the value "Release".
+MSBuild creates the Configuration property and gives it the value "Release."
 
 ## Special characters
 
@@ -446,20 +441,20 @@ Change the Message task to use carriage returns and line feeds (%0A%0D) to displ
 
  adds all files with the file extension *.jpeg* in the *images* folder, and all its subfolders, to the Photos item type. For more examples, see [How to: Select the files to build](../msbuild/how-to-select-the-files-to-build.md).
 
- Notice that as items are declared they are added to the item type. For example,
+ Notice that as items are declared they're added to the item type. For example,
 
 ```xml
 <Photos Include="images\*.jpeg" />
 <Photos Include="images\*.gif" />
 ```
 
- creates an item type named Photo containing all files in the *images* folder with a file extension of either *.jpeg* or *.gif*. This is equivalent to the following line:
+ creates an item type named Photo that contains all files in the *images* folder with a file extension of either `.jpeg` or `.gif`. Those lines are equivalent to the following line:
 
 ```xml
 <Photos Include="images\*.jpeg;images\*.gif" />
 ```
 
- You can exclude an item from an item type with the Exclude attribute. For example,
+ You can exclude an item from an item type with the `Exclude` attribute. For example,
 
 ```xml
 <Compile Include="*.cs" Exclude="*Designer*">
@@ -467,14 +462,14 @@ Change the Message task to use carriage returns and line feeds (%0A%0D) to displ
 
  adds all files with the file extension *.cs* to the Compile item type, except for files whose names contain the string *Designer*. For more examples, see [How to: Exclude files from the build](../msbuild/how-to-exclude-files-from-the-build.md).
 
-The Exclude attribute only affects the items added by the Include attribute in the item element that contains them both. For example,
+The `Exclude` attribute only affects the items added by the Include attribute in the item element that contains them both. For example,
 
 ```xml
 <Compile Include="*.cs" />
 <Compile Include="*.res" Exclude="Form1.cs">
 ```
 
-would not exclude the file *Form1.cs*, which was added in the preceding item element.
+wouldn't exclude the file *Form1.cs*, which was added in the preceding item element.
 
 **To include and exclude items**
 
@@ -508,7 +503,7 @@ would not exclude the file *Form1.cs*, which was added in the preceding item ele
 
 ## Item metadata
 
- Items may contain metadata in addition to the information gathered from the Include and Exclude attributes. This metadata can be used by tasks that require more information about items than just the item value.
+ Items can contain metadata in addition to the information gathered from the `Include` and `Exclude` attributes. Tasks that require more information about items than just the item value can use this metadata.
 
  Item metadata is declared in the project file by creating an element with the name of the metadata as a child element of the item. An item can have zero or more metadata values. For example, the following CSFile item has Culture metadata with a value of "Fr":
 
@@ -551,7 +546,7 @@ would not exclude the file *Form1.cs*, which was added in the preceding item ele
     Compile.DependentUpon: Settings.settings
     ```
 
-Notice how the phrase "Compile.DependentUpon" appears several times. The use of metadata with this syntax within a target causes "batching". Batching means that the tasks within the target are executed once for each unique metadata value. This is the MSBuild script equivalent of the common "for loop" programming construct. For more information, see [Batching](../msbuild/msbuild-batching.md).
+Notice how the phrase "Compile.DependentUpon" appears several times. The use of metadata with this syntax within a target causes "batching." Batching means that the tasks within the target are executed once for each unique metadata value. Batching is the MSBuild script equivalent of the common "foreach loop" programming construct. For more information, see [Batching](../msbuild/msbuild-batching.md).
 
 ### Well-known metadata
 
@@ -584,7 +579,7 @@ Notice how the phrase "Compile.DependentUpon" appears several times. The use of 
     Compile Filename: Settings.Designer
     ```
 
-By comparing the two examples above, you can see that while not every item in the Compile item type has DependentUpon metadata, all items have the well-known Filename metadata.
+By comparing the preceding two examples, you can see that while not every item in the Compile item type has DependentUpon metadata, all items have the well-known Filename metadata.
 
 ### Metadata transformations
 
@@ -618,15 +613,15 @@ For example, an item list of source files can be transformed into a collection o
     Backup files: Form1.bak;Form1.Designer.bak;Program.bak;AssemblyInfo.bak;Resources.Designer.bak;Settings.Designer.bak
     ```
 
-Notice that metadata expressed in this syntax does not cause batching.
+Notice that metadata expressed in this syntax doesn't cause batching.
 
 ## Next steps
 
- To learn how to create a simple project file one step at a time, on Windows, try out the [Walkthrough: Creating an MSBuild project file from scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md).
+ To learn how to create a simple project file one step at a time, on Windows, try out [Create an MSBuild project file from scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md).
 
-If you're primarily using the .NET SDK, you may wish to continue reading at [MSBuild Reference for .NET SDK Projects](/dotnet/core/project-sdk/msbuild-props).
+If you're primarily using the .NET SDK, continue reading at [MSBuild Reference for .NET SDK Projects](/dotnet/core/project-sdk/msbuild-props).
 
-## See also
+## Related content
 
 - [MSBuild overview](../msbuild/msbuild.md)
 - [MSBuild reference](../msbuild/msbuild-reference.md)

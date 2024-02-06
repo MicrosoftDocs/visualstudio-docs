@@ -1,26 +1,22 @@
 ---
 description: "Moves the document context by a given number of statements or lines."
-title: IDebugDocumentContext2::Seek | Microsoft Docs
+title: IDebugDocumentContext2::Seek
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDocumentContext2::Seek
 helpviewer_keywords:
 - IDebugDocumentContext2::Seek
-ms.assetid: 71501356-8a82-4d36-b354-6625bdd2baa0
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugDocumentContext2::Seek
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Moves the document context by a given number of statements or lines.
 
 ## Syntax

@@ -1,21 +1,17 @@
 ---
 description: "Enables a debug engine to override the default behavior of the Visual Studio UI when you end a debug session."
-title: IDebugProgramDestroyEventFlags2 | Microsoft Docs
+title: IDebugProgramDestroyEventFlags2
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugProgramDestroyEventFlags2 interface
-ms.assetid: d384ff71-dc71-40b9-a871-801f8b6a3418
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugProgramDestroyEventFlags2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enables a debug engine to override the default behavior of the Visual Studio UI when you end a debug session.
 
 ## Syntax

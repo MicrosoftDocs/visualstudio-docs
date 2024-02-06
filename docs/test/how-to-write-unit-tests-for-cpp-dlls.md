@@ -5,13 +5,9 @@ ms.date: 02/16/2021
 ms.topic: how-to
 ms.author: twhitney
 manager: markl
-ms.workload: 
-  - cplusplus
 author: tylermsft
 ---
 # Write unit tests for C++ DLLs in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 There are several ways to test DLL code, depending on whether it exports the functions that you want to test. Choose one of the following ways:
 
@@ -59,7 +55,6 @@ Go to the procedure [To add unit tests in the same project](#sameProject).
 
       1. On the **File** menu, choose **New** > **Project**. In the **Add a New Project** dialog, set **Language** to C++ and type "test" into the search box. Then choose the **Native Unit Test Project**.
 
-
   1. In **Solution Explorer**, right-click on the test project, then choose **Add** > **Reference**.
 
   1. Select **Projects**, and then the project to be tested.
@@ -81,7 +76,6 @@ Go to the procedure [To add unit tests in the same project](#sameProject).
   1. Create a Native Unit Test Project.
 
       1. On the **File** menu, choose **New** > **Project**. In the **Add a New Project** dialog, set **Language** to C++ and type "test" into the search box. Then choose the **Native Unit Test Project**.
-
 
   1. In **Solution Explorer**, on the shortcut menu of the test project, choose **Properties**.
 
@@ -154,7 +148,7 @@ Go to the procedure [To add unit tests in the same project](#sameProject).
 
 1. In **Test Explorer**, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, for example, to run it in debug mode with breakpoints enabled.
 
-## See also
+## Related content
 
 - [Write unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
 - [Microsoft.VisualStudio.TestTools.CppUnitTestFramework API Reference](../test/microsoft-visualstudio-testtools-cppunittestframework-api-reference.md)

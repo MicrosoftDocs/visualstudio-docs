@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a flag that indicates whether the section contains uninitialized data."
-title: "IDiaSectionContrib::get_uninitializedData | Microsoft Docs"
+title: "IDiaSectionContrib::get_uninitializedData"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSectionContrib::get_uninitializedData method"
-ms.assetid: 39736f35-6c73-4f54-a092-517192e417ff
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSectionContrib::get_uninitializedData
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that indicates whether the section contains uninitialized data.
 
 ## Syntax

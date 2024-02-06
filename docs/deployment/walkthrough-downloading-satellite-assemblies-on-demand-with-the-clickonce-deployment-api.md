@@ -16,17 +16,13 @@ helpviewer_keywords:
   - "ClickOnce deployment, on-demand download"
   - "localization, ClickOnce deployment"
   - "ClickOnce deployment, localization"
-ms.assetid: fdaa553f-a27e-44eb-a4e2-08c122105a87
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+ms.subservice: deployment
 ---
 # Walkthrough: Download satellite assemblies on demand with the ClickOnce deployment API
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Windows Forms applications can be configured for multiple cultures through the use of satellite assemblies. A *satellite assembly* is an assembly that contains application resources for a culture other than the application's default culture.
 
  As discussed in [Localize ClickOnce applications](../deployment/localizing-clickonce-applications.md), you can include multiple satellite assemblies for multiple cultures within the same ClickOnce deployment. By default, ClickOnce will download all of the satellite assemblies in your deployment to the client machine, although a single client will probably require only one satellite assembly.
@@ -69,5 +65,5 @@ Windows Forms applications can be configured for multiple cultures through the u
 ## Next steps
  In a production environment, you will likely need to remove the line in the code example that sets <xref:System.Threading.Thread.CurrentUICulture%2A> to a specific value, because client machines will have the correct value set by default. When your application runs on a Japanese client machine, for example, <xref:System.Threading.Thread.CurrentUICulture%2A> will be `ja-JP` by default. Setting this value programmatically is a good way to test your satellite assemblies before you deploy your application.
 
-## See also
+## Related content
 - [Localize ClickOnce applications](../deployment/localizing-clickonce-applications.md)

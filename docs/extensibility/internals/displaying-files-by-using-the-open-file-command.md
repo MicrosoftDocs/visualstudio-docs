@@ -1,5 +1,5 @@
 ---
-title: Displaying Files By Using the Open File Command | Microsoft Docs
+title: Displaying Files By Using the Open File Command
 description: Learn how the Visual Studio integrated development environment (IDE) handles the Open File command on the File menu to display files.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,17 +7,13 @@ helpviewer_keywords:
 - project types, supporting Open File command
 - Open File command
 - persistence, supporting Open File command
-ms.assetid: 4fff0576-b2f3-4f17-9769-930f926f273c
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Display files by using the Open File command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following steps describe how the IDE handles the **Open File** command, which is available on the **File** menu in Visual Studio. The steps also describe how projects should respond to calls that originate from this command.
 
  When a user clicks the **Open File** command on the **File** menu, and selects a file from the **Open File** dialog box, the following process occurs:
@@ -49,7 +45,7 @@ The following steps describe how the IDE handles the **Open File** command, whic
 
 5. The project then has the option of opening the file by using a project-specific editor or a standard editor. For more information, see [How to: Open project-specific editors](../../extensibility/how-to-open-project-specific-editors.md) and [How to: Open standard editors](../../extensibility/how-to-open-standard-editors.md), respectively.
 
-## See also
+## Related content
 - [Display files by using the Open With command](../../extensibility/internals/displaying-files-by-using-the-open-with-command.md)
 - [Open and save project items](../../extensibility/internals/opening-and-saving-project-items.md)
 - [How to: Open project-specific editors](../../extensibility/how-to-open-project-specific-editors.md)

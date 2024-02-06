@@ -5,8 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 03/03/2022
-ms.assetid: CC1B72D6-12FF-4CCC-A9D4-00F2DC14589F
-ms.custom: video, devdivchpfy22
+ms.custom: video
 ms.topic: how-to
 ---
 # Creating and editing build configurations in Visual Studio for Mac

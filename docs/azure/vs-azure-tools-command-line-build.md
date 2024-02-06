@@ -1,17 +1,17 @@
 ---
-title: Command-line build for Azure | Microsoft Docs
+title: Command-line build for Azure
 description: Command-line build for Azure
 author: ghogen
 manager: jmartens
-ms.technology: vs-azure
-ms.workload: azure-vs
+ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 03/05/2017
 ms.author: ghogen
 ---
 # Building Azure projects from the command line
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+ [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
+
 Using the Microsoft Build Engine (MSBuild), you can build products in build-lab environments where Visual Studio is not installed. MSBuild uses an XML format for project files that's extensible and fully supported by Microsoft. Using the MSBuild file format, you can describe what items must be built for one or more platforms and configurations.
 
 You can also run MSBuild at the command line, and this topic describes that approach. By setting properties on the command line, you can build specific configurations of a project. Similarly, you can also define the targets that MSBuild builds. For more information about command-line parameters and MSBuild, see [MSBuild Command-Line Reference](../msbuild/msbuild-command-line-reference.md).
@@ -26,5 +26,5 @@ By default, each Azure project includes one service-configuration file for local
 
 If you want to use an alternate directory for the stored package and configuration files, set the path by using the `/p:PublishDir=Directory\` option, including the trailing backslash separator.
 
-## Next steps
+## Related content
 After the package is built, you can deploy it to Azure.

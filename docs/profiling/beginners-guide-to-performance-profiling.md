@@ -1,7 +1,6 @@
 ---
 title: "Measure CPU usage in your apps"
-description: "Analyze CPU performance issues in your application using the debugger-integrated diagnostics tools."
-
+description: Measure and analyze CPU performance issues in your C#, Visual Basic, C++, or F# application by using the debugger-integrated diagnostics tools in Visual Studio.
 ms.date: 12/02/2022
 ms.topic: tutorial
 helpviewer_keywords:
@@ -9,17 +8,12 @@ helpviewer_keywords:
   - "Diagnostics Tools, CPU Usage"
   - "CPU Usage"
   - "Diagnostics Tools"
-ms.assetid: da2fbf8a-2d41-4654-a509-dd238532d25a
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Measure application performance by analyzing CPU usage (C#, Visual Basic, C++, F#)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Find performance issues while you're debugging with the debugger-integrated **CPU Usage** diagnostic tool.  You can also analyze CPU usage without a debugger attached or by targeting a running app. For more information, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
 

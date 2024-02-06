@@ -1,7 +1,6 @@
 ---
-title: Specify a .NET Framework version for debugging | Microsoft Docs
+title: Specify a .NET Framework version for debugging
 description: Specify an older .NET Framework version for debugging. The Visual Studio debugger supports debugging older versions of .NET Framework as well as the current version.
-
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -12,17 +11,12 @@ dev_langs:
 helpviewer_keywords: 
   - .NET Framework, specifying version for debugging
   - debugging [Visual Studio], specifying .NET Framework version
-ms.assetid: 7a4893ba-4620-4774-893f-378d4ca28893
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - dotnet
+ms.subservice: debug-diagnostics
 ---
 # Specify an older .NET Framework version for debugging (C#, Visual Basic, F#)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio debugger supports debugging older versions of the Microsoft .NET Framework as well as the current version. If you start an application from Visual Studio, the debugger can always identify the correct version of the .NET Framework for the application you are debugging. However, if the application is already running and you start debugging by using **Attach to**, the debugger may not always be able to identify an older version of the .NET Framework. If this happens, you will get an error message that says,
 
@@ -62,5 +56,5 @@ In the rare cases where this error appears, you can set a registry key to indica
 
      If you still get an error message when you start to debug, verify that you have entered the version number correctly in the registry. Also verify that you are using a version of the .NET Framework supported by Visual Studio. The debugger is compatible with the current .NET Framework version and previous versions, but may not be forward compatible with future versions.
 
-## See also
+## Related content
 - [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)

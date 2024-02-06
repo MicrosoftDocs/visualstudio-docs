@@ -1,7 +1,7 @@
 ---
 title: "First look at deployment"
-description: "Learn about your options for deploying apps from Visual Studio."
-ms.date: 03/23/2023
+description: Explore application deployment options in Visual Studio, including Azure, the web, network shares, devices, Microsoft Store, and Windows desktop installer packages.
+ms.date: 11/02/2023
 ms.topic: conceptual
 dev_langs:
   - "FSharp"
@@ -19,13 +19,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+ms.subservice: deployment
 ---
 # First look at deployment in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 By deploying an application, service, or component, you distribute it for installation on other computers, devices, or servers, or in the cloud. You choose the appropriate method in Visual Studio for the type of deployment that you need. (Many app types support other deployment tools, such as command-line deployment or NuGet, that aren't described here.)
 
@@ -35,7 +31,7 @@ See the quickstarts and tutorials for step-by-step deployment instructions. For 
 
 Deployment to a local folder is typically used for testing or to begin a staged deployment in which another tool is used for final deployment.
 
-- **ASP.NET**, **ASP.NET Core**, **Node.js**, **Python**, and .**NET Core**: Use the **Publish** tool to deploy to a local folder. The exact options available depend on your app type. In Solution Explorer, right-click your project and select **Publish**. (If you haven't previously configured any publishing profiles, you must then select **Create new profile**.) Next, select **Folder**. For more information, see [Publish an ASP.NET app](quickstart-deploy-aspnet-web-app.md?tabs=folder).
+- **ASP.NET**, **ASP.NET Core**, **Node.js**, **Python**, **.NET Core**, and **.NET 5 and later**: Use the **Publish** tool to deploy to a local folder. The exact options available depend on your app type. In Solution Explorer, right-click your project and select **Publish**. (If you haven't previously configured any publishing profiles, you must then select **Create new profile**.) Next, select **Folder**. For more information, see [Publish an ASP.NET app](quickstart-deploy-aspnet-web-app.md?tabs=folder).
 
     ![Screenshot that shows selecting Publish.](../deployment/media/quickstart-publish.png)
 
@@ -80,11 +76,12 @@ Deployment to a local folder is typically used for testing or to begin a staged 
   - [Deploy a .NET Windows desktop app using ClickOnce](quickstart-deploy-using-clickonce-folder.md)
   - [Deploy a C++/CLR app using ClickOnce](/cpp/windows/clickonce-deployment-for-visual-cpp-applications)
 
+:::moniker range="<=vs-2019"
 ## Create an installer package (Windows desktop)
 
 If you require a more complex installation of a desktop application than ClickOnce can provide, you can create a Windows Installer package (MSI or EXE installation file) or a custom bootstrapper.
 
-- An MSI-based installer package can be created by using the [WiX Toolset Visual Studio 2017 Extension](https://marketplace.visualstudio.com/items?itemName=RobMensching.WixToolsetVisualStudio2017Extension). This is a command-line toolset.
+- An MSI-based installer package can be created by using the [WiX Toolset Visual Studio 2019 Extension](https://marketplace.visualstudio.com/items?itemName=WixToolset.WixToolsetVisualStudio2019Extension). This is a command-line toolset.
 
 - An MSI or EXE installer package can be created by using a Setup project (vdproj). To use this option, see [Visual Studio Installer Projects Extension and .NET 6.0](../deployment/installer-projects-net-core.md) or, go directly to the [Visual Studio Installer Projects extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.MicrosoftVisualStudio2017InstallerProjects#overview).
 
@@ -94,7 +91,23 @@ If you require a more complex installation of a desktop application than ClickOn
   > InstallShield Limited Edition is no longer included with Visual Studio and isn't supported in Visual Studio 2017 and later versions. Check with Flexera Software about future availability.
 
 - You can also install prerequisite components for desktop applications by configuring a generic installer package, which is known as a bootstrapper. For more information, see [Application deployment prerequisites](../deployment/application-deployment-prerequisites.md).
+:::moniker-end
+:::moniker range=">=vs-2022"
+## Create an installer package (Windows desktop)
 
+If you require a more complex installation of a desktop application than ClickOnce can provide, you can create a Windows Installer package (MSI or EXE installation file) or a custom bootstrapper.
+
+- An MSI-based installer package can be created by using the [WiX Toolset Visual Studio 2022 Extension](https://marketplace.visualstudio.com/items?itemName=WixToolset.WixToolsetVisualStudio2022Extension). This is a command-line toolset.
+
+- An MSI or EXE installer package can be created by using a Setup project (vdproj). To use this option, see [Visual Studio Installer Projects Extension and .NET 6.0](../deployment/installer-projects-net-core.md) or, go directly to the [Visual Studio Installer Projects extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.MicrosoftVisualStudio2017InstallerProjects#overview).
+
+- An MSI or EXE installer package can be created by using [InstallShield](https://www.revenera.com/install/products/installshield/installshield-requirements) from Flexera Software. InstallShield may be used with Visual Studio 2017 and later versions. Community Edition isn't supported.
+
+  > [!NOTE]
+  > InstallShield Limited Edition is no longer included with Visual Studio and isn't supported in Visual Studio 2017 and later versions. Check with Flexera Software about future availability.
+
+- You can also install prerequisite components for desktop applications by configuring a generic installer package, which is known as a bootstrapper. For more information, see [Application deployment prerequisites](../deployment/application-deployment-prerequisites.md).
+:::moniker-end
 ## Publish to Microsoft Store
 
 From Visual Studio, you can create app packages for deployment to Microsoft Store.
@@ -106,6 +119,10 @@ From Visual Studio, you can create app packages for deployment to Microsoft Stor
 - **Windows desktop**: You can deploy to Microsoft Store starting in Visual Studio 2017 version 15.4. To do this, start by creating a Windows Application Packaging Project. For more information, see [Package a desktop app for Microsoft Store](/windows/uwp/porting/desktop-to-uwp-packaging-dot-net).
 
     ![Screenshot that shows selecting Windows Application Packaging Project.](../deployment/media/feature-tour-desktop-bridge.png)
+
+## Deploy as a Windows app 
+
+To package a project as a Windows app that can receive servicing updates, you can create an app installer. See [Create an App Installer file with Visual Studio](/windows/msix/app-installer/create-appinstallerfile-vs).
 
 ## Deploy to a device (UWP)
 

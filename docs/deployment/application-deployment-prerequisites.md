@@ -1,5 +1,5 @@
 ---
-title: "Application Deployment Prerequisites | Microsoft Docs"
+title: "Application Deployment Prerequisites"
 description: Learn about the deployment prerequisites for your applications, including using the Prerequisites Dialog Box and bootstrapper packages.
 ms.date: "09/23/2021"
 ms.topic: "conceptual"
@@ -14,17 +14,12 @@ helpviewer_keywords:
   - "ClickOnce deployment, dependencies"
   - "prerequisites, ClickOnce"
   - "dependencies, ClickOnce"
-ms.assetid: fc6e047e-ad94-44e8-8ff5-b6d1f4ca7735
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+ms.subservice: deployment
 ---
 # Application deployment prerequisites (Windows desktop)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To have your Windows desktop application install and run successfully, first install all components upon which your application is dependent onto the target computer. For example, most applications created using Visual Studio have a dependency on the .NET Framework. In this case, the correct version of the common language runtime must be present on the destination computer before the application is installed.
 
@@ -80,6 +75,6 @@ By default, bootstrapping is enabled for both Windows Installer deployment (by u
 ## Operating system support
  The Visual Studio bootstrapper is not supported on Windows Server 2008 Server Core or Windows Server 2008 R2 Server Core, as they provide a low-maintenance server environment with limited functionality. For example, the Server Core installation option only supports the .NET Framework 3.5 Server Core profile, which cannot run the Visual Studio features that depend on the full .NET Framework.
 
-## See also
+## Related content
 - [Choose a ClickOnce deployment strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)

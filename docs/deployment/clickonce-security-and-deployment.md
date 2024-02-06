@@ -1,5 +1,5 @@
 ---
-title: "ClickOnce Security and Deployment | Microsoft Docs"
+title: "ClickOnce Security and Deployment"
 description: Learn about Visual Studio support for ClickOnce, a deployment technology that enables you to create self-updating Windows-based applications.
 ms.date: "09/14/2023"
 ms.topic: "conceptual"
@@ -12,17 +12,13 @@ helpviewer_keywords:
   - "deploying applications [ClickOnce]"
   - "ClickOnce deployment"
   - "publishing, ClickOnce"
-ms.assetid: abab6d34-c3c2-45c1-a8b6-43c7d3131e7a
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+ms.subservice: deployment
 ---
 # ClickOnce security and deployment
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ClickOnce is a deployment technology that enables you to create self-updating Windows-based applications that can be installed and run with minimal user interaction. Visual Studio provides full support for publishing and updating applications deployed with ClickOnce technology if you have developed your projects with Visual Basic and Visual C#. For information about deploying Visual C++ applications, see [ClickOnce Deployment for Visual C++ Applications](/cpp/windows/clickonce-deployment-for-visual-cpp-applications).
 
  ClickOnce deployment overcomes three major issues in deployment:
@@ -116,10 +112,10 @@ ClickOnce is a deployment technology that enables you to create self-updating Wi
 |Chrome|3.5|
 |Microsoft Edge|3.5|
 
-## See also
-- [ClickOnce deployment on Windows Vista](../deployment/clickonce-deployment-on-windows-vista.md)
+## Related content
 - [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
 - [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)
 - [Deploy COM components with ClickOnce](../deployment/deploying-com-components-with-clickonce.md)
 - [Build ClickOnce applications from the command line](../deployment/building-clickonce-applications-from-the-command-line.md)
 - [Debug ClickOnce applications that use System.Deployment.Application](../deployment/debugging-clickonce-applications-that-use-system-deployment-application.md)
+- [ClickOnce deployment on older versions of Windows](/previous-versions/visualstudio/visual-studio-2017/deployment/clickonce-deployment-on-windows-vista)

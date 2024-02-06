@@ -1,5 +1,5 @@
 ---
-title: "Debugging Errors and Warning Dialog Boxes | Microsoft Docs"
+title: "Debugging Errors and Warning Dialog Boxes"
 description: See a list of errors and warning dialog boxes that you might encounter while debugging your application in Visual Studio.
 ms.date: "11/04/2016"
 ms.topic: "ui-reference"
@@ -16,17 +16,13 @@ helpviewer_keywords:
   - "debugging [Visual Studio], errors"
   - "debugger, errors"
   - "errors [Visual Studio], debugger"
-ms.assetid: 73baaf39-3026-48c9-be48-8b9ba0063cde
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Debugging Errors and Warning Dialog Boxes
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Below are the errors and warning dialog boxes you may encounter while debugging your application.
 
 ## In This Section
@@ -54,7 +50,7 @@ Below are the errors and warning dialog boxes you may encounter while debugging 
 
  [Unable to Connect to the Machine](../debugger/error-unable-to-connect-to-the-machine-name-the-machine-cannot-be-found-on-the-network.md)
 
- [Error: Debugging Isn't Possible Because a Kernel Debugger is Enabled on the System](../debugger/error-debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system.md)
+ [Error: Debugging Isn't Possible Because a Kernel Debugger is Enabled on the System](/previous-versions/visualstudio/visual-studio-2017/debugger/error-debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system)
 
 ## Related Sections
  [Debugging Script and Web: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)

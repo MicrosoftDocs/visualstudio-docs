@@ -1,26 +1,22 @@
 ---
 description: "Retrieves a specific port supplier."
-title: IDebugCoreServer2::GetPortSupplier | Microsoft Docs
+title: IDebugCoreServer2::GetPortSupplier
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCoreServer2::GetPortSupplier
 helpviewer_keywords:
 - IDebugCoreServer2::GetPortSupplier
-ms.assetid: acf181d4-ef42-4aa5-86f9-95fd5467ea31
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugCoreServer2::GetPortSupplier
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a specific port supplier.
 
 ## Syntax

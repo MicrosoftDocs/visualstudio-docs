@@ -1,6 +1,6 @@
 ---
-title: "Outlook solutions"
-description: Learn how you can use VSTO Add-ins to automate Outlook, extend Outlook features, or customize the Outlook user interface (UI).
+title: Automate Outlook actions with VSTO add-ins
+description: Use VSTO add-ins to automate Microsoft Outlook actions, extend Outlook features, or customize the Outlook user interface (UI).
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -17,13 +17,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
 # Outlook solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Visual Studio provides project templates you can use to create VSTO Add-ins for Microsoft Office Outlook. You can use VSTO Add-ins to automate Outlook, extend Outlook features, or customize the Outlook user interface (UI). For more information about VSTO Add-ins, see [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md).
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]

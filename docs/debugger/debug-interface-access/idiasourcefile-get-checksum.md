@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the checksum bytes."
-title: "IDiaSourceFile::get_checksum | Microsoft Docs"
+title: "IDiaSourceFile::get_checksum"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSourceFile::get_checksum method"
-ms.assetid: aad63a7e-4e22-44e4-8a5b-81b5174ced1e
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSourceFile::get_checksum
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the checksum bytes.
 
 ## Syntax

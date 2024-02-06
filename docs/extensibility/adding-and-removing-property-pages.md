@@ -1,5 +1,5 @@
 ---
-title: Adding and Removing Property Pages | Microsoft Docs
+title: Adding and Removing Property Pages
 description: Learn how to add and remove property pages in the Project Designer that provide a centralized location for managing project properties in Visual Studio. 
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -7,20 +7,15 @@ helpviewer_keywords:
 - property pages, adding
 - property pages, project subtypes
 - property pages, removing
-ms.assetid: 34853412-ab8a-4caa-9601-7d0727b2985d
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 dev_langs:
 - CSharp
 - VB
-ms.workload:
-- vssdk
 ---
 # Add and remove property pages
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Project Designer provides a centralized location for managing project properties, settings, and resources in Visual Studio. It appears as a single window in the Visual Studio integrated development environment (IDE) and contains a number of panes on the right that are accessed through the tabs on the left. The panes (often referred to as property pages) in the Project Designer vary by project type and language. The Project Designer can be accessed with the **Properties** command on the **Project** menu.
 
@@ -219,6 +214,6 @@ A project subtype frequently needs to display additional property pages in the P
     ```
     ---
 
-## See also
+## Related content
 
 - [Project subtypes](../extensibility/internals/project-subtypes.md)

@@ -1,9 +1,6 @@
 ---
 title: Calculated and custom DSL storage properties
 description: Learn how all domain properties in a domain-specific language (DSL) can be displayed to the user on the diagram and in your language explorer.
-ms.custom:
-- SEO-VS-2020
-- kr2b-contr-experiment
 ms.date: 06/22/2022
 ms.topic: how-to
 helpviewer_keywords:
@@ -11,14 +8,10 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+ms.subservice: modeling
 ---
 
 # Calculated and custom storage properties
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 All domain properties in a domain-specific language (DSL) can be displayed to the user on the diagram and in your language explorer, and can be accessed by program code. However, properties differ in the way that their values are stored.
 
@@ -118,7 +111,7 @@ However, the `set` method might also be called if the user invokes **Undo** or *
 
 For more information about transactions, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).
 
-## Next steps
+## Related content
 
 - [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)
 - [Properties of Domain Properties](../modeling/properties-of-domain-properties.md)

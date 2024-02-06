@@ -1,23 +1,19 @@
 ---
 description: "This function adds a list of files from source control to the currently opened project."
-title: SccAddFilesFromSCC Function | Microsoft Docs
+title: SccAddFilesFromSCC Function
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - SccAddFilesFromSCC
 helpviewer_keywords:
 - SccAddFilesFromSCC function
-ms.assetid: f21a3500-ade8-4dd8-8647-10e2179be9c1
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # SccAddFilesFromSCC function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function adds a list of files from source control to the currently opened project.
 
 ## Syntax

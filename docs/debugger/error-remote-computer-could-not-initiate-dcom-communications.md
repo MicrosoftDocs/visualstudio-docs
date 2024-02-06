@@ -1,6 +1,6 @@
 ---
 description: "A DCOM error occurred when the remote machine tried to communicate with the local machine."
-title: "Remote computer could not initiate DCOM communications | Microsoft Docs"
+title: "Remote computer could not initiate DCOM communications"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:
@@ -13,13 +13,10 @@ dev_langs:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Error: Remote computer could not initiate DCOM communications
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A DCOM error occurred when the remote machine tried to communicate with the local machine. The local machine is the machine that is
 
  running Visual Studio. This error can occur for several reasons:

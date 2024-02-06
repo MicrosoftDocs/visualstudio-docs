@@ -1,7 +1,6 @@
 ---
-title: "Write a visualizer in Visual Basic | Microsoft Docs"
+title: "Write a visualizer in Visual Basic"
 description: Follow a walkthrough to create a simple visualizer in Visual Basic. You also create a test harness to test your visualizer.
-
 ms.date: "05/27/2020"
 ms.topic: "conceptual"
 dev_langs:
@@ -12,22 +11,17 @@ dev_langs:
 helpviewer_keywords:
   - "visualizers, writing"
   - "walkthroughs [Visual Studio], visualizers"
-ms.assetid: c93bf5a1-3e5e-422f-894e-bd72c9bc1b57
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Walkthrough: Writing a Visualizer in Visual Basic
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This walkthrough shows how to write a simple visualizer by using Visual Basic. The visualizer you will create in this walkthrough displays the contents of a string using a Windows Forms message box. This simple string visualizer is a basic example to show how you can create visualizers for other data types more applicable to your projects.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, go to the **Tools** menu and choose **Import and Export** . For more information, see [Reset settings](../ide/environment-settings.md#reset-settings).
+> The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, go to the **Tools** menu and choose **Import and Export** . For more information, see [Reset settings](../ide/environment-settings.md#reset-all-settings).
 
 Visualizer code must be placed in a DLL that will be read by the debugger. The first step is to create a class library project for the DLL.
 
@@ -224,7 +218,7 @@ In the debugger-side code, you specify the type to visualize (the object source)
 
    If you want to use your visualizer in Visual Studio rather than just calling it from the test harness, you have to install it. For more information, see [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md).
 
-## See also
+## Related content
 
 - [Visualizer Architecture](../debugger/visualizer-architecture.md)
 - [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md)

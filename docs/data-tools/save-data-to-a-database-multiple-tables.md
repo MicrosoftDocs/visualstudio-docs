@@ -1,6 +1,6 @@
 ---
-title: Save data to a database (multiple tables)
-description: In this walkthrough, save data from multiple tables to a database using DataSet tools in Visual Studio.
+title: Save data to a database (multiple tables) in .NET Framework applications
+description: In this walkthrough, save data from multiple tables to a database using ADO.NET DataSet tools in .NET Framework application development in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -11,17 +11,12 @@ helpviewer_keywords:
 - data [Visual Studio], saving
 - saving data, walkthroughs
 - data [Visual Studio], updating
-ms.assetid: 7ebe03da-ce8c-4cbc-bac0-a2fde4ae4d07
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# Save data to a database (multiple tables)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Save data to a database (multiple tables) in .NET Framework applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -42,6 +37,8 @@ Tasks illustrated in this walkthrough include:
 - Modifying the code to send the updated data in the dataset back to the database.
 
 ## Prerequisites
+
+To complete this tutorial, you need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify. See [Modify Visual Studio](../install/modify-visual-studio.md).
 
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
@@ -148,6 +145,6 @@ You can update the database by calling the `Update` methods of the **Customers**
 
 4. Check the values in the database to verify that the changes were saved.
 
-## See also
+## Related content
 
 - [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

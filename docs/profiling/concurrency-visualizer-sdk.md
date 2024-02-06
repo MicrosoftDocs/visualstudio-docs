@@ -1,21 +1,17 @@
 ---
-title: "Concurrency Visualizer SDK | Microsoft Docs"
+title: "Concurrency Visualizer SDK"
 description: Learn how to use Concurrency Visualizer SDK to instrument your code to display markers. Markers are icons that display in Concurrency Visualizer to mark events.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.cv.sdk.about"
-ms.assetid: 4b22cdf9-59b1-4c88-a6d8-1644a4a11e08
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Concurrency Visualizer SDK
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can instrument your source code by using the Concurrency Visualizer SDK to display additional information in the Concurrency Visualizer. You can associate the additional data with phases and events in your code. These additional visualizations are known as *markers*.  For an introductory walkthrough, see [Introducing the Concurrency Visualizer SDK](/archive/blogs/visualizeparallel/introducing-the-concurrency-visualizer-sdk).
 
 ## Properties

@@ -3,17 +3,12 @@ title: Property types do not match
 description: 'Cannot create an association - property types do not match. View information about this Visual Studio Object Relational Designer (O/R Designer) message.'
 ms.date: 11/04/2016
 ms.topic: error-reference
-ms.assetid: 97ec5a04-6e23-45a2-9226-d77ead854392
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-  - "data-storage"
+ms.subservice: data-tools
 ---
 # Cannot create an association &lt;association name&gt; - property types do not match
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Cannot create an association \<association name> - property types do not match. Properties do not have matching types: \<property names>.
 

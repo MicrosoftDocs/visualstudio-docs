@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a flag indicating whether the symbol file contains C types."
-title: "IDiaSymbol::get_isCTypes | Microsoft Docs"
+title: "IDiaSymbol::get_isCTypes"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaStackWalker2 interface"
-ms.assetid: 00c73cf9-2933-472e-bc1d-d041f4d7e412
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_isCTypes
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag indicating whether the symbol file contains C types.
 
 ## Syntax

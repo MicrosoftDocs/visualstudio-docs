@@ -1,19 +1,22 @@
 ---
 title: Retain constant virtual IP for Azure cloud service
 description: Learn how to ensure that the virtual IP address (VIP) of your Azure cloud service doesn't change.
-
 author: ghogen
 manager: jmartens
-ms.technology: vs-azure
-ms.workload: azure-vs
+ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 03/21/2017
 ms.author: ghogen
 ---
 # Retain a constant virtual IP address for an Azure cloud service
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+ [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
+
 When you update a cloud service that's hosted in Azure, you might need to ensure that the virtual IP address (VIP) of the service doesn't change. Many domain management services use the Domain Name System (DNS) for registering domain names. DNS works only if the VIP remains the same. You can use the **Publish Wizard** in Azure Tools to ensure that the VIP of your cloud service doesn’t change when you update it. For more information about how to use DNS domain management for cloud services, see [Configuring a custom domain name for an Azure cloud service](/azure/cloud-services/cloud-services-custom-domain-name-portal).
+
+## Prerequisites
+
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## Publish a cloud service without changing its VIP
 The VIP of a cloud service is allocated when you first deploy it to Azure in a particular environment, such as the production environment. The VIP changes only if you delete the deployment explicitly or the deployment is implicitly deleted by the deployment update process. To retain the VIP, you must not delete your deployment, and you must make sure that Visual Studio doesn’t delete your deployment automatically.
@@ -47,5 +50,5 @@ You can specify deployment settings in the **Publish Wizard**, which supports se
 
     ![Publish Azure Application Summary page](./media/vs-azure-tools-cloud-service-retain-a-constant-virtual-ip-address/azure-publish-summary.png)
 
-## Next steps
+## Related content
 - [Using the Visual Studio Publish Azure Application Wizard](vs-azure-tools-publish-azure-application-wizard.md)

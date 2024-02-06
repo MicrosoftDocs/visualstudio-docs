@@ -1,5 +1,5 @@
 ---
-title: 'Test Area 3: Check Out-Undo Checkout | Microsoft Docs'
+title: 'Test Area 3: Check Out-Undo Checkout'
 description: This source-control plug-in test area covers editing and reverting items from the version store by using the Check Out and Undo Checkout commands.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -8,17 +8,13 @@ helpviewer_keywords:
 - source control plug-ins, undo checkout
 - source control [Visual Studio SDK], checking out
 - source control [Visual Studio SDK], undo checkout
-ms.assetid: ce00c5a5-d472-4f45-8776-d77a1fbe9d37
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Test Area 3: Check Out/Undo Checkout
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This source-control plug-in test area covers editing and reverting items from the version store via the **Check Out** and **Undo Checkout** commands.
 
 **Check Out**: Marks an item in the version store as checked out, modifies the local copy to read/write.
@@ -135,5 +131,5 @@ When the user reconnects to the version store, the checkout states of all of the
 |Undo Checkout of a project after adding file(s) to the project|1.  Create a new project and add it to source control.<br />2.  Check out the project.<br />3.  Add a file to the project.<br />4.  Undo Checkout of the project.|Added file is removed from the project in Solution Explorer.<br /><br /> Project is no longer checked out.|
 |Undo Checkout of a project after deleting file(s) from the project|1.  Create a new project and add it to source control.<br />2.  Check out the project.<br />3.  Delete a file from the project.<br />4.  Undo Checkout of the project.|Deleted file appears under the project in Solution Explorer.<br /><br /> Project is no longer checked out.|
 
-## See also
+## Related content
 - [Test Guide for Source Control Plug-ins](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)

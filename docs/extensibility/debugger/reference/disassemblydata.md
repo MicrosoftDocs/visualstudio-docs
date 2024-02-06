@@ -1,26 +1,22 @@
 ---
 description: "Describes one disassembly instruction for the integrated development environment (IDE) to display."
-title: DisassemblyData | Microsoft Docs
+title: DisassemblyData
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - DisassemblyData
 helpviewer_keywords:
 - DisassemblyData structure
-ms.assetid: 10e70aa7-9381-40d3-bdd1-d2cad78ef16c
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # DisassemblyData
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes one disassembly instruction for the integrated development environment (IDE) to display.
 
 ## Syntax

@@ -1,6 +1,6 @@
 ---
-title: Debug a managed memory dump with .NET Diagnostic Analyzers | Microsoft Docs
-description: Learn how to use Visual Studio's .NET Diagnostics Analyzers to analyze a managed memory dump 
+title: Debug memory dump with .NET Diagnostic Analyzers
+description: Use .NET Diagnostics Analyzers in Visual Studio to analyze a managed memory dump for an application that isn't responding to requests in a timely manner.
 ms.date: 04/21/2021
 ms.topic: how-to
 dev_langs: 
@@ -15,12 +15,8 @@ author: poppastring
 ms.author: madownie
 manager: andster
 monikerRange: '>= vs-2019'
-ms.workload: 
-  - "multiple"
 ---
-# How to debug a managed memory dump with .NET Diagnostic Analyzers
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Debug a managed memory dump with .NET Diagnostic Analyzers
 
 
 In this tutorial, you will:
@@ -89,7 +85,7 @@ My next job is to find that problematic code.
 
    ![Analyze decompiled code](../debugger/media/diagnostic-analyzer-decompiled-code.png)
 
-## See also
+## Related content
 
 * [Use dump files in the debugger](../debugger/using-dump-files.md)
 * [Generate source code from .NET assemblies while debugging](../debugger/decompilation.md)

@@ -1,26 +1,22 @@
 ---
 description: "Gets the value returned on stepping out of or over a function."
-title: IDebugReturnValueEvent2::GetReturnValue | Microsoft Docs
+title: IDebugReturnValueEvent2::GetReturnValue
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugReturnValueEvent2::GetReturnValue
 helpviewer_keywords:
 - IDebugReturnValueEvent2::GetReturnValue
-ms.assetid: 86c50d5a-6df6-4798-818a-c587a8741f90
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugReturnValueEvent2::GetReturnValue
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the value returned on stepping out of or over a function.
 
 ## Syntax

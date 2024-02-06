@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically use built-in dialog boxes in Word"
+title: "Programmatically use built-in dialog boxes in Word"
 description: Learn how you can use Visual Studio to programmatically use built-in dialog boxes in Microsoft Word.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -13,13 +13,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Programmatically use built-in dialog boxes in Word
+# Programmatically use built-in dialog boxes in Word
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When working with Microsoft Office Word, there are times when you need to display dialog boxes for user input. Although you can create your own, you might also want to take the approach of using the built-in dialog boxes in Word, which are exposed in the <xref:Microsoft.Office.Interop.Word.Dialogs> collection of the <xref:Microsoft.Office.Interop.Word.Application> object. This enables you to access over 200 of the built-in dialog boxes, which are represented as enumerations.
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]
@@ -52,7 +49,7 @@ ms.workload:
 
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet102":::
 
-## See also
+## Related content
 - [How to: Programmatically use Word dialog boxes in hidden mode](../vsto/how-to-programmatically-use-word-dialog-boxes-in-hidden-mode.md)
 - [Word object model overview](../vsto/word-object-model-overview.md)
 - [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)

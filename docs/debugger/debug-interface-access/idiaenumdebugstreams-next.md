@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a specified number of debug streams in the enumeration sequence."
-title: "IDiaEnumDebugStreams::Next | Microsoft Docs"
+title: "IDiaEnumDebugStreams::Next"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumDebugStreams::Next method"
-ms.assetid: eb8eae5a-be27-45f4-a7bd-6e4ef0652385
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaEnumDebugStreams::Next
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a specified number of debug streams in the enumeration sequence.
 
 ## Syntax

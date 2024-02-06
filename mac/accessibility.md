@@ -5,7 +5,6 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 02/23/2022
-ms.assetid: 2C4AAC2E-3B4A-4496-8BE0-1F5A7F81D1CA
 ms.topic: overview
 ---
 # Accessibility in Visual Studio for Mac
@@ -26,7 +25,6 @@ In this article, learn how to use macOS accessibility features, and to set acces
 
 > [!NOTE]
 > This guide refers to Visual Studio for Mac. For Visual Studio on Windows, see [Accessibility features of Visual Studio](/visualstudio/ide/reference/accessibility-features-of-visual-studio).
-
 
 ## Increase the contrast in macOS
 

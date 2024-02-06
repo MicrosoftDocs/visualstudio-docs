@@ -1,5 +1,5 @@
 ---
-title: "CV_call_e | Microsoft Docs"
+title: "CV_call_e"
 description: Get reference information about the CV_call_e enumeration type, which specifies the calling convention for a function in the debug interface access SDK.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -7,17 +7,13 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "CV_call_e enumeration"
-ms.assetid: f230560b-4243-432d-8f19-46df112043b9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # CV_call_e
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the calling convention for a function.
 
 > [!NOTE]

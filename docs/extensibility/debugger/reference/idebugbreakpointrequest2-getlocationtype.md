@@ -1,26 +1,22 @@
 ---
 description: "Gets the breakpoint location type of this breakpoint request."
-title: IDebugBreakpointRequest2::GetLocationType | Microsoft Docs
+title: IDebugBreakpointRequest2::GetLocationType
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugBreakpointRequest2::GetLocationType
 helpviewer_keywords:
 - IDebugBreakpointRequest2::GetLocationType
-ms.assetid: b6d14c59-d3aa-48ff-8278-f6b5bba9c2f3
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugBreakpointRequest2::GetLocationType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the breakpoint location type of this breakpoint request.
 
 ## Syntax

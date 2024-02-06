@@ -3,17 +3,12 @@ title: Mixed Minimum Rules rule set
 ms.date: 11/04/2016
 description: Learn about the Mixed Minimum Rules rule set in Visual Studio. See descriptions of rules for C++ projects that support the Common Language Runtime.
 ms.topic: reference
-ms.assetid: bc8df61c-19af-40ab-a871-315807e5f4bf
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-code-analysis
-ms.workload:
-- multiple
+ms.subservice: code-analysis
 ---
 # Mixed Minimum Rules rule set
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Microsoft Mixed Minimum Rules focus on the most critical problems in C++ projects that support the Common Language Runtime, including potential security holes and application crashes.
 

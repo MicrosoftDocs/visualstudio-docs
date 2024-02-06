@@ -1,26 +1,22 @@
 ---
 description: "Sets the reference type."
-title: IDebugReference2::SetReferenceType | Microsoft Docs
+title: IDebugReference2::SetReferenceType
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugReference2::SetReferenceType
 helpviewer_keywords:
 - IDebugReference2::SetReferenceType
-ms.assetid: 5854a172-ea82-481c-97d9-c7fc16923d44
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugReference2::SetReferenceType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the reference type. Reserved for future use.
 
 ## Syntax

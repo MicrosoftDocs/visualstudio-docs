@@ -6,17 +6,12 @@ ms.topic: reference
 f1_keywords:
 - System.Activities.Statements.TryCatch.UI
 - System.Activities.Statements.Catch`1.UI
-ms.assetid: 02a326c2-4009-442f-b7cb-e42121fd2992
 author: jodavis
 ms.author: jodavis
 manager: jmartens
-ms.technology: vs-workflow-designer
-ms.workload:
-- multiple
+ms.subservice: workflow-designer
 ---
 # TryCatch Activity Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **TryCatch** activity designer is used to create and configure a <xref:System.Activities.Statements.TryCatch> activity.
 

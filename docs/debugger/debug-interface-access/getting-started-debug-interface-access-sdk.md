@@ -1,6 +1,6 @@
 ---
 description: "The Debug Interface Access (DIA) SDK supplies you with instructional documentation and a sample that illustrates how to use the DIA API."
-title: "Getting Started (Debug Interface Access SDK) | Microsoft Docs"
+title: "Getting Started (Debug Interface Access SDK)"
 ms.date: "05/09/2023"
 ms.topic: "reference"
 dev_langs:
@@ -8,17 +8,13 @@ dev_langs:
 helpviewer_keywords:
   - ".dbg files"
   - "DBG files"
-ms.assetid: cb3d040a-2846-40d7-bdbc-8a5beb5dd2f6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Getting Started (Debug Interface Access SDK)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Debug Interface Access (DIA) SDK supplies you with instructional documentation and a sample that illustrates how to use the DIA API. Use the interfaces and methods in the DIA SDK to develop custom applications that open the `.pdb` and `.dbg` files and search their content for symbols, values, attributes, addresses, and other debugging information. This SDK also provides reference tables for the properties associated with symbols found in C++ applications.
 
  To make best use of the DIA SDK, you should be familiar with the following:

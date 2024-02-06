@@ -4,15 +4,11 @@ description: How to publish a web application using the publishing tools in Visu
 ms.date: 04/02/2019
 helpviewer_keywords:
   - "deployment, website"
-ms.assetid: 8524a4c5-97a9-41ac-a2a0-034efb9bfc57
 author: heiligerdankgesang 
 ms.author: dominicn
 manager: dominicn
-ms.prod: visual-studio-mac
 ms.custom: video
 ms.topic: how-to
-ms.workload:
-  - "azure"
 ---
 # Publish a Web app to Azure App Service using Visual Studio for Mac
 

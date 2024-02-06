@@ -1,26 +1,22 @@
 ---
 description: "Specifies the state of a pending breakpoint (a breakpoint that has not yet been bound)."
-title: PENDING_BP_STATE | Microsoft Docs
+title: PENDING_BP_STATE
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - PENDING_BP_STATE
 helpviewer_keywords:
 - PENDING_BP_STATE enumeration
-ms.assetid: ac04ad72-fa92-4a15-ade2-0d0bbbadfc7f
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # PENDING_BP_STATE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the state of a pending breakpoint (a breakpoint that has not yet been bound).
 
 ## Syntax

@@ -1,26 +1,22 @@
 ---
 description: "Gets the document that contains this document context."
-title: IDebugDocumentContext2::GetDocument | Microsoft Docs
+title: IDebugDocumentContext2::GetDocument
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDocumentContext2::GetDocument
 helpviewer_keywords:
 - IDebugDocumentContext2::GetDocument
-ms.assetid: c6d46c5d-ade8-4dc8-9862-8fc7876658c4
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugDocumentContext2::GetDocument
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the document that contains this document context.
 
 ## Syntax

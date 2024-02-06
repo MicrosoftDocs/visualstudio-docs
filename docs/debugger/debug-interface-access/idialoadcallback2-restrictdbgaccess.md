@@ -1,23 +1,19 @@
 ---
 description: "Determines if looking for debug information is allowed from .dbg files."
-title: "IDiaLoadCallback2::RestrictDBGAccess | Microsoft Docs"
+title: "IDiaLoadCallback2::RestrictDBGAccess"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaLoadCallback2::RestrictDBGAccess method"
-ms.assetid: 63b67a93-2910-4fff-aa70-6b2eaa08e5c8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaLoadCallback2::RestrictDBGAccess
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if looking for debug information is allowed from .dbg files.
 
 ## Syntax

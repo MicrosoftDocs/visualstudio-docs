@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a flag that specifies whether the function has been marked as being not inline (using the noinline) attribute)."
-title: "IDiaSymbol::get_noInline | Microsoft Docs"
+title: "IDiaSymbol::get_noInline"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_noInline method"
-ms.assetid: 5c610b78-f1a3-494a-acf8-c42b97935be1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_noInline
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that specifies whether the function has been marked as being not inline (using the [noinline](/cpp/cpp/noinline) attribute).
 
 ## Syntax

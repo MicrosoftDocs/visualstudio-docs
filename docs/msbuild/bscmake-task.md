@@ -1,5 +1,5 @@
 ---
-title: BscMake Task | Microsoft Docs
+title: BscMake Task
 description: Learn about BscMake, which wrapped the Microsoft Browse Information Maintenance Utility tool bscmake.exe. The Visual Studio IDE no longer uses BscMake.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -10,18 +10,14 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 - C++
 helpviewer_keywords:
 - MSBuild (C++), tasks
 - BscMake task (MSBuild (C++))
-ms.assetid: bb98fc67-cad8-43a7-9598-60df6d734db2
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # BscMake task
 

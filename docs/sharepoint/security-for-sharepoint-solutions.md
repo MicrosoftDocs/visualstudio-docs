@@ -1,5 +1,5 @@
 ---
-title: "Security for SharePoint Solutions | Microsoft Docs"
+title: "Security for SharePoint Solutions"
 description: Discover what features Visual Studio incorporates to help enhance the security of SharePoint applications.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -14,13 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+ms.subservice: sharepoint-development
 ---
 # Security for SharePoint solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Visual Studio incorporates the following features to help enhance the security of SharePoint applications.
 
 ## Safe control entries
@@ -81,6 +78,6 @@ ms.workload:
 
 - [Building Secure ASP.NET Applications: Authentication, Authorization, and Secure Communication](/previous-versions/msp-n-p/ff649100(v=pandp.10))
 
-## See also
+## Related content
 
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)

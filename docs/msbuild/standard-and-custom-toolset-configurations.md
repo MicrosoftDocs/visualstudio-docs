@@ -1,20 +1,17 @@
 ---
-title: Standard and Custom Toolset Configurations | Microsoft Docs
-description: Learn about standard and custom MSBuild Toolsets, which contain references to tasks, targets, and tools you can use to build an application project.
+title: Create a Custom Toolset Configuration
+description: Explore the standard and custom MSBuild Toolsets, which contain references to tasks, targets, and tools you can use to build an application project.
 ms.date: 11/10/2022
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, custom toolset configurations
 - MSBuild, msbuild.exe.config
-ms.assetid: 15a048c8-5ad3-448e-b6e9-e3c5d7147ed2
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
-# Standard and custom Toolset configurations
+# Create a custom Toolset configuration
 
 An MSBuild toolset contains references to tasks, targets, and tools that you can use to build an application project. MSBuild includes a standard toolset, but you can also create custom toolsets.
 
@@ -64,6 +61,6 @@ MSBuild contains the standard toolset `Current` that references the current vers
 
   You can also add custom, ToolsVersion-specific properties to the configuration file by using the same syntax that you use to add the MSBuildToolsPath property. To make these custom properties available to the project file, use the same name as the name of the value that is specified in the configuration file. You may define Toolsets but not sub-toolsets in the configuration file.
 
-## See also
+## Related content
 
 - [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md)

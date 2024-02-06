@@ -1,26 +1,22 @@
 ---
 description: "Determines if the server is local to the caller."
-title: IDebugCoreServer3::QueryIsLocal | Microsoft Docs
+title: IDebugCoreServer3::QueryIsLocal
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCoreServer3::QueryIsLocal
 helpviewer_keywords:
 - IDebugCoreServer3::QueryIsLocal
-ms.assetid: cca030de-f853-4ed7-b2fb-395f08a6b884
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugCoreServer3::QueryIsLocal
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if the server is local to the caller.
 
 ## Syntax

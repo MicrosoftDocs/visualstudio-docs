@@ -1,6 +1,6 @@
 ---
 title: Validate code with dependency diagrams
-description: Learn that to make sure that code doesn't conflict with its design, you should validate your code with dependency diagrams in Visual Studio.
+description: Validate your code with dependency diagrams in Visual Studio to find conflicts in dependencies and refactor or migrate code to a different design as needed.
 ms.date: 09/28/2018
 ms.topic: conceptual
 helpviewer_keywords:
@@ -18,13 +18,9 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+ms.subservice: modeling
 ---
 # Validate code with dependency diagrams
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ## Why use dependency diagrams?
 
@@ -232,7 +228,7 @@ The following section describes the syntax that is used in these errors, explain
 | DV3001: **Missing Link** | Layer '*LayerName*' links to '*Artifact*' which cannot be found. Are you missing an assembly reference? |
 | DV9001: **Architectural analysis found internal errors** | Results might not be complete. For more information, see the detailed build event log or output window. |
 
-## See also
+## Related content
 
 - [Live dependency validation in Visual Studio](https://devblogs.microsoft.com/devops/live-dependency-validation-in-visual-studio-2017/)
 - [Validate your system during development](../modeling/validate-your-system-during-development.md)

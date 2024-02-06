@@ -1,22 +1,18 @@
 ---
-title: Custom User Interface (Source Control VSPackage) | Microsoft Docs
+title: Custom User Interface (Source Control VSPackage)
 description: Learn how to create a custom user interface (UI) in Visual Studio by using a source control VSPackage to specify UI elements.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - user interface, source control packages
 - source control packages, user interface
-ms.assetid: f35ddb24-53bf-461e-b34f-7414f657c082
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Custom user interface (source control VSPackage)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A VSPackage declares its menu items and their default states through the Visual Studio command table (*.vsct*) file. The Visual Studio integrated development environment (IDE) displays the menu items in their default states until the VSPackage is loaded. Subsequently, the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> method is called to enable or disable menu items.
 
  A VSPackage can set a registry key so the VSPackage can be automatically loaded depending on a command user interface (UI) context, although typically a source control VSPackage should load on demand instead of just switching to a particular UI context. For more information about the **AutoLoadPackages** registry key, see [Manage VSPackages](../../extensibility/managing-vspackages.md).
@@ -53,7 +49,7 @@ A VSPackage declares its menu items and their default states through the Visual 
 | Tool windows | The source control VSPackage hides any tool windows it owns when it is made inactive. |
 | Source control VSPackage-specific options pages | The registry key **HKLM\SOFTWARE\Microsoft\VisualStudio\X.Y\ToolsOptionsPages\VisibilityCmdUIContexts** lets a VSPackage set the contexts in which it requires its options pages to be displayed. A registry entry under this key would have to be created by using the service ID (SID) of the source control service and assigning it a DWORD value of 1. Whenever a UI event occurs in a context the source control VSPackage is registered with, the VSPackage will be called if it is active. |
 
-## See also
+## Related content
 - <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccManager2>

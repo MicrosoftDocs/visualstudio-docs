@@ -1,22 +1,18 @@
 ---
-title: When a Breakpoint Binds or Becomes Unbound | Microsoft Docs
-description: Learn about unbound breakpoints. When a breakpoint can't be bound at the time a call is made, the bind time and create time of the breakpoint are different.
+title: When a Breakpoint Binds or Becomes Unbound
+description: Explore unbound breakpoints. When a breakpoint can't be bound at the time a call is made, the bind time and create time of the breakpoint are different.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], breakpoint unbound events
 - breakpoint bound events
-ms.assetid: 61bf00b2-8293-49d3-b919-1efb0dec9151
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # When a breakpoint binds or becomes unbound
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When a breakpoint can't be bound at the time a call is made to the [IDebugPendingBreakpoint2::CanBind](../../extensibility/debugger/reference/idebugpendingbreakpoint2-canbind.md) method, the bind time and create time of the breakpoint are different.
 
 ## Methods called
@@ -32,5 +28,5 @@ When a breakpoint can't be bound at the time a call is made to the [IDebugPendin
 
 5. [IDebugBreakpointBoundEvent2::GetPendingBreakpoint](../../extensibility/debugger/reference/idebugbreakpointboundevent2-getpendingbreakpoint.md) and [IDebugBreakpointBoundEvent2::EnumBoundBreakpoints](../../extensibility/debugger/reference/idebugbreakpointboundevent2-enumboundbreakpoints.md) methods to verify and to get the bound breakpoints.
 
-## See also
+## Related content
 - [Calling debugger events](../../extensibility/debugger/calling-debugger-events.md)

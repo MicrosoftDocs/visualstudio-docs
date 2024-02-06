@@ -1,5 +1,5 @@
 ---
-title: "COM Server and Container Debugging | Microsoft Docs"
+title: "COM Server and Container Debugging"
 description: Learn about COM server and container debugging. Debug a COM server and container in the same solution, a server app without container information, or an SDI app.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -14,17 +14,13 @@ helpviewer_keywords:
   - "COM servers, debugging"
   - "ActiveX controls, debugging"
   - "COM [Visual Studio], debugging"
-ms.assetid: b7ce8696-ebb8-4354-a767-f76b8ada4ac1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # COM Server and Container Debugging
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 COM applications perform a number of tasks outside of the programmer's direct control. Communication between DLLs, usage counts on objects, and Clipboard operations are just a few of the areas where you might encounter unexpected behavior. When this happens, your first step is to track down the source of the problem.
 
  The Visual Studio debugger supports stepping across and into containers and servers. This includes the ability to step across remote procedure calls (RPC).
@@ -50,6 +46,6 @@ COM applications perform a number of tasks outside of the programmer's direct co
 
  To access the *Project* Property Pages dialog box, right-click your project in Solution Explorer, and then choose Properties from the shortcut menu. To find the Command line arguments property, expand the Configuration Properties category and click the Debugging page.
 
-## See also
+## Related content
 
 - [COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md)

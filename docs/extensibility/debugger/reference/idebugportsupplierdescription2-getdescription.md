@@ -1,24 +1,20 @@
 ---
 description: "Retrieves the description and description metadata for the port supplier."
-title: IDebugPortSupplierDescription2::GetDescription | Microsoft Docs
+title: IDebugPortSupplierDescription2::GetDescription
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugPortSupplierDescription2::GetDescription
-ms.assetid: bff5f536-1cd1-4313-8856-db7b05818305
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPortSupplierDescription2::GetDescription
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the description and description metadata for the port supplier.
 
 ## Syntax

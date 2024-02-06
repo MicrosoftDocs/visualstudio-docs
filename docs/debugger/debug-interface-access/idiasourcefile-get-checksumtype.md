@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the checksum type."
-title: "IDiaSourceFile::get_checksumType | Microsoft Docs"
+title: "IDiaSourceFile::get_checksumType"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSourceFile::get_checksumType method"
-ms.assetid: 4c363e61-a6a9-409a-9cc0-d06eb2bee645
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSourceFile::get_checksumType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the checksum type.
 
 ## Syntax

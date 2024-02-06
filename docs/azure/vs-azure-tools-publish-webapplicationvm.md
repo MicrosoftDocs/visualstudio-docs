@@ -1,17 +1,15 @@
 ---
-title: Publish-WebApplicationVM | Microsoft Docs
+title: Publish-WebApplicationVM
 description: Learn how to deploy a web application to a virtual machine. This script creates the required resources in your Azure subscription if they don't exist.
 author: ghogen
 manager: jmartens
-ms.technology: vs-azure
-ms.workload: azure-vs
+ms.subservice: azure-development
 ms.topic: conceptual
 ms.date: 11/11/2016
 ms.author: ghogen
 ---
 # Publish-WebApplicationVM (Windows PowerShell script)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Deploys a web application to a virtual machine. The script creates the required resources in your Azure subscription if they don't exist.
 
 ```

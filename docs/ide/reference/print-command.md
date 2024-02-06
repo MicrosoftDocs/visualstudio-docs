@@ -9,17 +9,12 @@ helpviewer_keywords:
 - Debug.Print command
 - Print method
 - Print command
-ms.assetid: 0412d381-590a-483f-bab4-6e1cca095645
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Print command
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Evaluates an expression or displays specified text.
 

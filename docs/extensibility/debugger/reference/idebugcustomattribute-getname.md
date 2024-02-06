@@ -1,26 +1,22 @@
 ---
 description: "Gets the name of the custom attribute."
-title: IDebugCustomAttribute::GetName | Microsoft Docs
+title: IDebugCustomAttribute::GetName
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCustomAttribute::GetName
 helpviewer_keywords:
 - IDebugCustomAttribute::GetName
-ms.assetid: ba509cc5-5816-4925-a094-4c72d88c360c
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugCustomAttribute::GetName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the name of the custom attribute.
 
 ## Syntax

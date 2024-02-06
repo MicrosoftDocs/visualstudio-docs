@@ -1,6 +1,6 @@
 ---
 title: Add or remove imported namespaces (Visual Basic)
-description: Learn how to add or remove imported namespaces and add or remove user imports.
+description: Add or remove imported Visual Basic namespaces and add, remove, or update user imports with the Project Designer in Visual Studio.
 ms.date: 06/21/2017
 ms.topic: how-to
 helpviewer_keywords:
@@ -9,17 +9,12 @@ helpviewer_keywords:
 - namespaces [Visual Studio], imported
 - imported namespaces [Visual Studio]
 - references [Visual Studio], imported namespaces
-ms.assetid: 44cebec3-0ea0-47c2-8406-4edeab6a997e
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
-# How to: Add or remove imported namespaces (Visual Basic)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Add or remove imported namespaces (Visual Basic)
 
 Importing a namespace allows you to use elements from that namespace in your code without fully qualifying the element. For example, if you want to access the `Create` method in the `System.Messaging.MessageQueue` class, you can import the `System.Messaging` namespace and just refer to the element you need in code as `MessageQueue.Create`.
 
@@ -74,6 +69,6 @@ If you later change you mind and decide that was really the `EventLog` class tha
 
 5. Click the **Update user import** button to update the namespace in the **Imported Namespaces** list.
 
-## See also
+## Related content
 
 - [Manage references in a project](../ide/managing-references-in-a-project.md)

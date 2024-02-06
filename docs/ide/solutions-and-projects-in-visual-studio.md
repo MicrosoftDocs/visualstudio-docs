@@ -16,13 +16,9 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # What are solutions and projects in Visual Studio?
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article describes the difference between a *project* and a *solution* in Visual Studio. It also briefly covers how to create a new project and how to use the [Solution Explorer](use-solution-explorer.md) tool window to interact with your projects and solutions.
 
@@ -94,8 +90,8 @@ For ASP.NET Core projects, you can customize how files are nested in **Solution 
 > [!NOTE]
 > To view the application images and icons that appear in Visual Studio, download the [**Visual Studio Image Library**](https://www.microsoft.com/download/details.aspx?id=35825).
 
-## See also
+## Related content
 
 - [Manage project and solution properties](managing-project-and-solution-properties.md)
 - [Filtered solutions in Visual Studio](filtered-solutions.md)
-- [Project migration and upgrade reference for Visual Studio](../porting/port-migrate-and-upgrade-visual-studio-projects.md)
+- [Project migration and upgrade reference for Visual Studio](/visualstudio/releases/2022/port-migrate-and-upgrade-visual-studio-projects)

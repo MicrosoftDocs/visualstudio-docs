@@ -6,15 +6,9 @@ ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
-
-ms.workload:
-  - python
-  - data-science
+ms.subservice: python
 ---
 # Use IPython in the Interactive window
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio **Interactive** window in IPython mode is an advanced yet user-friendly interactive development environment that has Interactive Parallel Computing features. This article walks through using IPython in the Visual Studio **Interactive** window, in which all of the regular [Interactive window](python-interactive-repl-in-visual-studio.md) features are also available.
 
@@ -77,6 +71,6 @@ For this walkthrough, you will need to have installed IPython, numpy and matplot
 
 IPython has many other useful features such as escaping to the system shell, variable substitution, capturing output, etc. Refer to the [IPython documentation](https://ipython.org/documentation.html) for more.
 
-## See also
+## Related content
 
 - The [Azure Data Science Virtual Machine](/azure/machine-learning/data-science-virtual-machine/overview) is pre-configured to run Jupyter notebooks along with a wide range of other data science tools.

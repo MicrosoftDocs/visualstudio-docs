@@ -1,22 +1,18 @@
 ---
-title: Control Messages View | Microsoft Docs
+title: Control Messages View
 description: You can choose the windows and messages types shown in a Messages View window, and the display format for message lines. See this article for details.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 
   - Spy++, Messages View
   - Messages view, controlling
-ms.assetid: 32685ab2-6c5b-41fc-b429-29260caef585
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
-# How to: Control Messages View
+# Control Messages View
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 With Spy++, you have considerable control over the content of a [Messages View](../debugger/messages-view.md) window. You can [start and stop](../debugger/how-to-start-and-stop-the-message-log-display.md) displaying the messages at any time, and you can specify:
 
 - Which message types you want to see.

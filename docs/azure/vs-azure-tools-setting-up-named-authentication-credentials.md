@@ -1,17 +1,16 @@
 ---
-title: Set up named authentication credentials | Microsoft Docs
+title: Set up named authentication credentials
 description: 'Learn how to provide credentials that Visual Studio can use to authenticate requests to Azure, so you can publish an application to Azure from Visual Studio or monitor an existing cloud service.'
 author: ghogen
 manager: jmartens
-ms.technology: vs-azure
-ms.workload: azure-vs
+ms.subservice: azure-development
 ms.topic: conceptual
 ms.date: 11/11/2017
 ms.author: ghogen
 ---
 # Set up named authentication credentials
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+ [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
 To publish an application to Azure or to monitor an existing cloud service, Visual Studio requires credentials to authenticate requests to Azure, namely your Azure subscription ID and a valid X.509 v3 certificate with a key of at least 2048 bits. You provide these credentials through either of the following methods:
 
@@ -19,6 +18,10 @@ To publish an application to Azure or to monitor an existing cloud service, Visu
 - Create a subscription file (`.publishsettings`), which contains a public key for the certificate. The subscription file can contain credentials for more than one subscription, as described in this article.
 
 Note: these credentials are different from credentials used to authenticate requests to Azure storage services.
+
+## Prerequisites
+
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## Create a subscription file
 
@@ -30,7 +33,7 @@ In Server Explorer, right-click the **Azure** node and select **Manage and Filte
 
 If you want to create a certificate yourself, you can refer to the instructions in [Create and upload a management certificate for Azure](/azure/cloud-services/cloud-services-certs-create) and then manually upload the certificate to the [Azure portal](https://portal.azure.com/).
 
-## Next steps
+## Related content
 
 - [General overview of Web Apps](/azure/app-service/)
 - [Deploy your app to Azure App Service](/azure/app-service/app-service-deploy-local-git)

@@ -1,22 +1,18 @@
 ---
-title: Custom Parameters | Microsoft Docs
+title: Custom Parameters
 description: Learn how to create custom parameters that control the operation of a wizard after a wizard has started, by modifying a .vsz file.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - wizards, custom parameters
 - custom parameters
-ms.assetid: ba5c364b-66e6-47ea-9760-a0b70de8f0a0
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Custom parameters
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Custom parameters control the operation of a wizard after a wizard has started. A related *.vsz* file provides an array of user-defined parameters that are packaged by the integrated development environment (IDE) and passed to the wizard as an array of strings when the wizard is started. The wizard then parses the array of strings and uses the information to control the actual operation of the wizard. In this manner, a wizard can customize functionality depending on the contents of the *.vsz* file.
 
  Context parameters, on the other hand, define the state of the project when the wizard is started. For more information, see [Context parameters](../../extensibility/internals/context-parameters.md).
@@ -39,7 +35,7 @@ Param="PROJECT_TYPE = CSPROJ"
 
  For more information, see [Wizard (.vsz) file](../../extensibility/internals/wizard-dot-vsz-file.md).
 
-## See also
+## Related content
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3>
 - [Context parameters](../../extensibility/internals/context-parameters.md)
 - [Wizards](../../extensibility/internals/wizards.md)

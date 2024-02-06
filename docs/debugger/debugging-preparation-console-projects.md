@@ -1,7 +1,6 @@
 ---
-title: "Prepare to debug console projects | Microsoft Docs"
+title: "Prepare to debug console projects"
 description: Get information about preparing to debug console projects (C#, C++, Visual Basic, F#) in Visual Studio.
-
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -13,17 +12,12 @@ helpviewer_keywords:
   - "debugging [Visual Studio], console applications"
   - "debugging console applications"
   - "console applications, debugging"
-ms.assetid: 9641f1d9-2d5a-48b1-8731-6525e8f67892
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Debugging Preparation: Console Projects (C#, C++, Visual Basic, F#)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Preparing to debug a Console project is similar to preparing to debug a Windows project, with some additional considerations such as setting command-line arguments and how to pause the app for debugging. For more information, see [Debugging preparation for a Windows Form apps](../debugger/debugging-preparation-windows-forms-applications.md). Because of the similarity of all console applications, this topic covers the following project types:
 

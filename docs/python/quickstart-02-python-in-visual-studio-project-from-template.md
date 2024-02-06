@@ -1,21 +1,15 @@
 ---
-title: Quickstart - Create a Python project using a template
-description: In this quickstart, you create a Visual Studio project for Python using the built-in template for a basic Flask app.
+title: "Quickstart: Create Python project with a template"
+description: In this quickstart, you create a Visual Studio project for Python by using the built-in template for a basic Flask application.
 ms.date: 09/08/2023
 ms.topic: quickstart
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
-ms.custom: devdivchpfy22
-ms.workload:
-  - python
-  - data-science
+ms.subservice: python
 ---
 
 # Quickstart: Create a Python project from a template in Visual Studio
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Once you've [installed Python support in Visual Studio](installing-python-support-in-visual-studio.md), it's easy to create a new Python project using a variety of templates. In this Quickstart, you create a simple Flask app using a template. The resulting project is similar to the project you create manually through [Quickstart - Create a web app with Flask](../ide/quickstart-python.md).
 
@@ -154,5 +148,5 @@ Using templates can save you significant time when starting a project or creatin
 ## See also
 
 - [Manually identify an existing Python interpreter](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment)
-  [Install Python support in Visual Studio on Windows](installing-python-support-in-visual-studio.md#how-to-install-python-support-in-visual-studio-on-windows)
-- [Python tools install directory](installing-python-support-in-visual-studio.md#install-locations)
+  [Install Python support in Visual Studio on Windows](installing-python-support-in-visual-studio.md)
+- [Python tools install directory](installing-python-support-in-visual-studio.md#download--install-the-python-workload)

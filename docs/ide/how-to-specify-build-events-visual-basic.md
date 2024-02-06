@@ -1,8 +1,8 @@
 ---
-title: 'How to: Specify build events (Visual Basic)'
-description: Learn how build events in Visual Basic can be used to run scripts, macros, or other actions as a part of the compilation process.
+title: 'Specify build events (Visual Basic)'
+description: Explore how to use build events in Visual Basic to run scripts, macros, or other actions as a part of the compilation process.
 ms.date: 11/04/2016
-ms.technology: vs-ide-compile
+ms.subservice: compile-build
 ms.topic: how-to
 helpviewer_keywords:
 - pre-build events
@@ -10,16 +10,11 @@ helpviewer_keywords:
 - post-build events
 - build events [Visual Studio]
 - builds [Visual Studio], events
-ms.assetid: 40dc83bf-a7c5-4a14-816a-fa0980b6e4c3
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.workload:
-- multiple
 ---
-# How to: Specify build events (Visual Basic)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Specify build events (Visual Basic)
 
 Build events in Visual Basic can be used to run scripts, macros, or other actions as a part of the compilation process. Pre-build events occur before compilation; post-build events occur after compilation.
 
@@ -160,7 +155,7 @@ The following procedure shows how to set the minimum operating system version in
     <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
     ```
 
-## See also
+## Related content
 
 - [Compile page, Project Designer (Visual Basic)](../ide/reference/compile-page-project-designer-visual-basic.md)
 - [Publish page, Project Designer](../ide/reference/publish-page-project-designer.md)

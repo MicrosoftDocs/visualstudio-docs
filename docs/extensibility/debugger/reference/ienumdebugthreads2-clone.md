@@ -1,26 +1,22 @@
 ---
 description: "Returns a copy of the current threads enumeration as a separate object."
-title: IEnumDebugThreads2::Clone | Microsoft Docs
+title: IEnumDebugThreads2::Clone
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugThreads2::Clone
 helpviewer_keywords:
 - IEnumDebugThreads2::Clone
-ms.assetid: d774322c-e72d-4df3-b317-928da39dadc5
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugThreads2::Clone
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns a copy of the current enumeration as a separate object.
 
 ## Syntax

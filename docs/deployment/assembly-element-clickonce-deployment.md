@@ -1,5 +1,5 @@
 ---
-title: "&lt;assembly&gt; Element (ClickOnce Deployment) | Microsoft Docs"
+title: "&lt;assembly&gt; Element (ClickOnce Deployment)"
 description: The assembly element is the root element and is required in ClickOnce deployment. Its first contained element must be an assemblyIdentity element.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -11,17 +11,13 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "<assembly> element [ClickOnce deployment manifest]"
-ms.assetid: b8e3362a-f821-4696-b98d-571d4bbfe431
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+ms.subservice: deployment
 ---
 # &lt;assembly&gt; element (ClickOnce deployment)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The top-level element for the deployment manifest.
 
 ## Syntax

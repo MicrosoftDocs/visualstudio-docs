@@ -1,6 +1,6 @@
 ---
-title: "Office UI customization"
-description: Learn how you can customize the user interface (UI) of Microsoft Office applications by using the Office developer tools in Visual Studio.
+title: Customize the UI for Office applications
+description: Customize the user interface (UI) of Microsoft Office applications by using the Office developer tools in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -15,13 +15,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
 # Office UI customization
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can customize the user interface (UI) of Microsoft Office applications by using the Office developer tools in Visual Studio. This topic describes the UI features that you can customize in the following sections:
 
 - [Comparison of UI features](#Comparison)
@@ -93,7 +90,7 @@ ms.workload:
 ## <a name="Shortcut"></a> Shortcut Menus
  A shortcut menu appears when you right-click in a document or an application window. You can set a shortcut menu to appear after an event takes place, such as when a user right-clicks a document, workbook, or host control. You can add a number of different menu commands or controls to a shortcut menu. Create shortcut menus by using XML. If you add a **Ribbon (XML)** item to your Office project, you can add XML to the Ribbon XML file to create shortcut menus. For more information about using XML to create shortcut menus, see [How to: Add commands to shortcut menus](../vsto/how-to-add-commands-to-shortcut-menus.md).
 
-## See also
+## Related content
 - [Ribbon overview](../vsto/ribbon-overview.md)
 - [Windows forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md)
 - [Actions pane overview](../vsto/actions-pane-overview.md)

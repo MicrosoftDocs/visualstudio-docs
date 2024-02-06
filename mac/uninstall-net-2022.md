@@ -6,13 +6,12 @@ ms.author: dominicn
 manager: dominicn
 ms.date: 11/08/2021
 ms.topic: how-to
-ms.assetid: 18f722bc-3d9d-4c75-9e77-d66b64784c8d
 ---
 # Visual Studio for Mac 17.0 Previews and .NET on Apple Silicon machines
 
  [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
-On Apple Silicon machines (also known as M1, M2, or ARM) with older x64 SDKs installed, you'll need to remove all existing .NET installations in order to use the .NET 6 GA Arm64 SDK.  
+On Apple Silicon machines (also known as M1, M2, M3, or ARM) with older x64 SDKs installed, you'll need to remove all existing .NET installations in order to use the .NET 6 GA Arm64 SDK.  
 
 > [!NOTE]
 > This information is specific for Visual Studio for Mac 2022 Preview (17.0) versions. For information on this process for Visual Studio for Mac 2019 versions, see [Visual Studio for Mac 8.10 and .NET on Apple Silicon machines](/visualstudio/mac/uninstall-net-2019) for details.

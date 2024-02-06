@@ -1,5 +1,5 @@
 ---
-title: "How to: Add a Project Output Reference | Microsoft Docs"
+title: "Add a Project Output Reference"
 description: Learn to add a project output reference so that you can deploy non-SharePoint project assemblies (or .xap files in Silverlight projects) to SharePoint.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -13,13 +13,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+ms.subservice: sharepoint-development
 ---
-# How to: Add a project output reference
+# Add a project output reference
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   To deploy non-SharePoint project assemblies (or .xap files in Silverlight projects) to SharePoint, add them as a project output reference.
 
  This process creates a solution build dependency between the two projects. Projects associated with project output references are built before the SharePoint project is built and deployed.
@@ -38,7 +35,7 @@ ms.workload:
 
 6. Choose the arrow next to **Project Name**, choose the name of the non-SharePoint project item, and then choose the **OK** button.
 
-## See also
+## Related content
 - [Provide packaging and deployment information in project items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)
 - [How to: Mark controls as safe controls](../sharepoint/how-to-mark-controls-as-safe-controls.md)
 - [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

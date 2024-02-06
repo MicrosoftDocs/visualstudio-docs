@@ -1,5 +1,5 @@
 ---
-title: Specify Debugger Settings | Microsoft Docs
+title: Use Debugger Settings for variables and warnings
 description: Specify various settings for debugger behavior in Visual Studio, such as how to display variables, what warnings are presented, and how to set breakpoints.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -14,17 +14,13 @@ helpviewer_keywords:
   - debugger, setting options
   - debugging [Visual Studio], debugger settings
   - options, debugging
-ms.assetid: ea172841-7fef-47bf-bd02-e7da4c3c7109
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
-# How to: Specify Debugger Settings
+# Specify Debugger Settings
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In Visual Studio, you can specify various settings for debugger behavior, including how variables are displayed, whether certain warnings are presented, how breakpoints are set, and how breaking affects running programs. You specify debugger settings in the **Options** dialog box.
 
 ### To set debugger options
@@ -39,7 +35,7 @@ In Visual Studio, you can specify various settings for debugger behavior, includ
 
 4. Select or clear the desired option or options. Press F1 to get Help about the options.
 
-## See also
+## Related content
 - [General, Debugging, Options Dialog Box](../debugger/general-debugging-options-dialog-box.md)
 - [Edit and Continue, Debugging, Options Dialog Box](./edit-and-continue.md)
 - [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)

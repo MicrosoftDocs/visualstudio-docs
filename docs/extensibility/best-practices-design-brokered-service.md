@@ -6,17 +6,12 @@ ms.date: 01/07/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - brokered services, providing
-ms.assetid: e186883e-9390-4dc0-9f21-62662a16df11
 author: aarnott
 ms.author: andarno
 manager: ansonh
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Best practices for designing a brokered service
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Follow the general [guidance and restrictions documented for RPC interfaces](https://github.com/microsoft/vs-streamjsonrpc/blob/master/doc/dynamicproxy.md) for StreamJsonRpc.
 
@@ -168,5 +163,5 @@ Best practices for adding members to existing services include:
 - Update your service to register and proffer the new version _in addition to_ the old version.
 - If you have a client of your brokered service, update your client to request the newer version, and fallback to requesting the older version if the newer one comes back as null.
 
-## See also
+## Related content
 - [How to provide a brokered service](how-to-provide-brokered-service.md)

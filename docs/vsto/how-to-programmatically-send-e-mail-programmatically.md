@@ -1,6 +1,6 @@
 ---
-title: "How to: Programmatically send email"
-description: Use Visual Studio to programmatically send an email from Microsoft Outlook. This example sends an email message to contacts that have the domain name example.com.
+title: "Programmatically send email"
+description: Send an email message to specified recipients from Microsoft Office Outlook programmatically with Visual Basic or C# in Visual Studio.
 ms.date: "08/14/2019"
 ms.topic: "how-to"
 dev_langs:
@@ -14,13 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Programmatically send email
+# Programmatically send email
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example sends an email message to contacts that have the domain name **example.com** in their email addresses.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
@@ -38,7 +35,7 @@ ms.workload:
 ## Robust programming
  Do not remove the filter code that searches for the domain name **example.com**. Your solution will send email messages to all of your contacts if you remove the filter.
 
-## See also
+## Related content
 - [Work with mail items](../vsto/working-with-mail-items.md)
 - [How to: Programmatically create an email item](../vsto/how-to-programmatically-create-an-e-mail-item.md)
 - [How to: Programmatically access Outlook contacts](../vsto/how-to-programmatically-access-outlook-contacts.md)

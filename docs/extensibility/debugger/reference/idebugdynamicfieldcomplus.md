@@ -1,21 +1,17 @@
 ---
 description: "Represents a dynamic field for an IDebugBinder object."
-title: IDebugDynamicFieldCOMPlus | Microsoft Docs
+title: IDebugDynamicFieldCOMPlus
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugDynamicFieldCOMPlus interface
-ms.assetid: c3a25f27-327a-4bdb-b026-27d436ddcd0c
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugDynamicFieldCOMPlus
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Represents a dynamic field for an [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) object.
 
 ## Syntax

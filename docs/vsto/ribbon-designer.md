@@ -1,6 +1,6 @@
 ---
-title: "Ribbon Designer"
-description: Learn how you can use the Ribbon Designer to add custom tabs, groups, and controls to the ribbon of a Microsoft Office application.
+title: Use the Ribbon Designer to add & configure controls
+description: Use the Ribbon Designer to add custom tabs, groups, and controls to the ribbon of a Microsoft Office application and configure how the controls react to events.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -25,13 +25,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
 # Ribbon Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The Ribbon Designer is a visual design canvas. Use the Ribbon Designer to add custom tabs, groups, and controls to the ribbon of a Microsoft Office application.
 
  [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]
@@ -197,7 +194,7 @@ ms.workload:
 |Select the first control on the drop-down panel if the drop-down panel is open.|**Right**|
 |Close a drop-down panel.|**Esc**|
 
-## See also
+## Related content
 
 - [Ribbon overview](../vsto/ribbon-overview.md)
 - [Ribbon XML](../vsto/ribbon-xml.md)

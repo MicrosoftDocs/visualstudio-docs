@@ -1,23 +1,18 @@
 ---
-title: Hidden Element (Visual Studio Templates) | Microsoft Docs
+title: Hidden Element (Visual Studio Templates)
 description: Learn about the Hidden element and how it specifies whether the template appears in either the new project or Add New Item dialog boxes.
 ms.date: 04/17/2019
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#Hidden
 helpviewer_keywords:
 - Hidden element [Visual Studio project template]
-ms.assetid: f37406b0-52e7-4f2c-aacf-bc8d7a4117b3
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.workload:
-- vssdk
 ---
 # Hidden element (Visual Studio templates)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Specifies whether the template appears in either the new project or **Add New Item** dialog boxes.
 

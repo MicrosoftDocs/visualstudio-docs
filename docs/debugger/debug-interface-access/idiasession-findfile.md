@@ -1,23 +1,19 @@
 ---
 description: "Retrieves source files by compiland and name."
-title: "IDiaSession::findFile | Microsoft Docs"
+title: "IDiaSession::findFile"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSession::findFile method"
-ms.assetid: a215dc21-b316-40d7-9923-55bfa014976b
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSession::findFile
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves source files by compiland and name.
 
 ## Syntax

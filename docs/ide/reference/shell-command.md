@@ -13,17 +13,13 @@ helpviewer_keywords:
 - .exe files
 - Shell, launching exe files
 - Visual Studio, executables from
-ms.assetid: 737fda23-b852-45c4-a9fe-41cbce6ba70f
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Shell Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Launches executable programs from within Visual Studio.
 
 ## Syntax

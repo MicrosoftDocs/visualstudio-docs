@@ -1,5 +1,5 @@
 ---
-title: 'How to: Customize the Code Analysis Dictionary'
+title: 'Customize the Code Analysis Dictionary'
 ms.date: 11/04/2016
 description: Learn about the code analysis dictionary that identifies spelling and naming convention errors. See how to create a custom dictionary and apply it to a project.
 ms.topic: how-to
@@ -7,17 +7,12 @@ helpviewer_keywords:
   - code analysis dictionary
   - custom dictionary, code analysis
   - dictionary, code analysis
-ms.assetid: 667e3b4e-beff-48be-b3d1-376e1716a895
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-code-analysis
-ms.workload: 
-  - multiple
+ms.subservice: code-analysis
 ---
-# How to: Customize the Code Analysis Dictionary
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Customize the Code Analysis Dictionary
 
 Code Analysis uses a built-in dictionary to check identifiers in your code for errors in spelling, grammatical case, and other naming conventions of the .NET design guidelines. You can create a custom dictionary Xml file to add, remove, or modify terms, abbreviations, and acronyms to the built-in dictionary.
 

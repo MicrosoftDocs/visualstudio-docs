@@ -3,7 +3,7 @@ title: JavaScript and TypeScript in Visual Studio
 description: Learn how Visual Studio provides rich support for JavaScript development, both using JavaScript directly, and also using the TypeScript programming language.
 titleSuffix: ""
 ms.date: "06/05/2023"
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 ms.topic: conceptual
 dev_langs:
   - "JavaScript"
@@ -14,8 +14,6 @@ ms.author: "mikejo"
 manager: jmartens
 ---
 # JavaScript and TypeScript in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ::: moniker range=">=vs-2022"
 Visual Studio 2022 provides rich support for JavaScript development, both using JavaScript directly, and also using the [TypeScript programming language](https://www.typescriptlang.org/), which was developed to provide a more productive and enjoyable JavaScript development experience, especially when developing projects at scale. You can write JavaScript or TypeScript code in Visual Studio for many application types and services.
@@ -43,7 +41,7 @@ The TypeScript SDK has been deprecated in Visual Studio 2022. Existing projects 
 
 ## Project templates
 
-Starting in Visual Studio 2022, there is a new JavaScript/TypeScript project type (.esproj) that allows you to create standalone Angular, React, and Vue projects in Visual Studio. These front-end projects are created using the framework CLI tools you have installed on your local machine, so the version of the template is up to you. To migrate from existing Node.js projects to the new project system, see [Migrate Node.js projects](../javascript/migrate-nodejs-projects.md).
+Starting in Visual Studio 2022, there is a new JavaScript/TypeScript project type (.esproj), called the JavaScript Project System (JSPS), which allows you to create standalone Angular, React, and Vue projects in Visual Studio. These front-end projects are created using the framework CLI tools you have installed on your local machine, so the version of the template is up to you. To migrate from existing Node.js projects to the new project system, see [Migrate Node.js projects](../javascript/migrate-nodejs-projects.md). For MSBuild information for the new project type, see [MSBuild properties for JSPS](../javascript/javascript-project-system-msbuild-reference.md)
 
 Within these new projects, you can run JavaScript and TypeScript unit tests, easily add and connect ASP.NET Core API projects and download your npm modules using the npm manager. Check out some of the quickstarts and tutorials to get started. For more information, see [Visual Studio tutorials | JavaScript and TypeScript](/visualstudio/javascript).
 

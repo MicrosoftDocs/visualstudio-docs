@@ -1,5 +1,5 @@
 ---
-title: Image Library
+title: Explore the Visual Studio Image Library
 description: Learn about the Visual Studio Image Library that contains application images that appear in Visual Studio, Windows, Office, and other Microsoft software.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -11,17 +11,12 @@ helpviewer_keywords:
 - Visual Studio Image Library
 - icons [Visual Studio], Image Library
 - bitmaps [Visual Studio], Image Library
-ms.assetid: f7a2e7c8-3b9f-4f8e-a6a8-000d72e3811d
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-designers
-ms.workload:
-- multiple
+ms.subservice: ui-designers
 ---
 # The Visual Studio image library
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio Image Library contains application images that appear in Microsoft Visual Studio, Microsoft Windows, the Office system and other Microsoft software. This set of over 1,000 images can be used to create applications that look visually consistent with Microsoft software.
 
@@ -29,7 +24,7 @@ The Visual Studio Image Library contains application images that appear in Micro
 
 The image library is divided into five categories: Common Elements, Actions, Annotations, Icons, and Objects. Readme files are included in the PDF format for the Common Elements and Icon types. They contain information about how to use these images appropriately in your applications.
 
-## See also
+## Related content
 
 - [Install Visual Studio](../install/install-visual-studio.md)
 - [Images, bitmaps, and metafiles](/dotnet/framework/winforms/advanced/images-bitmaps-and-metafiles)

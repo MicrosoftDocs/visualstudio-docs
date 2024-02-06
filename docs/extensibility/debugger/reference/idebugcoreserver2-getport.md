@@ -1,26 +1,22 @@
 ---
 description: "Retrieves a specific port."
-title: IDebugCoreServer2::GetPort | Microsoft Docs
+title: IDebugCoreServer2::GetPort
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCoreServer2::GetPort
 helpviewer_keywords:
 - IDebugCoreServer2::GetPort
-ms.assetid: 3f5ea4a8-6085-4600-980a-9e48f8b5be56
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugCoreServer2::GetPort
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a specific port.
 
 ## Syntax

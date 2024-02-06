@@ -1,19 +1,15 @@
 ---
-title: Image Service and Catalog | Microsoft Docs
+title: Image Service and Catalog
 description: This article contains guidance and best practices for adopting the Visual Studio Image Service and Image Catalog.
 ms.date: 04/01/2019
 ms.topic: conceptual
-ms.assetid: 34990c37-ae98-4140-9b1e-a91c192220d9
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Image service and catalog
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This cookbook contains guidance and best practices for adopting the Visual Studio Image Service and Image Catalog introduced in Visual Studio 2015.
 
  The image service introduced in Visual Studio 2015 lets developers get the best images for the device and the user's chosen theme to display the image, including correct theming for the context in which they are displayed. Adopting the image service will help eliminate major pain points related to asset maintenance, HDPI scaling, and theming.
@@ -284,7 +280,7 @@ A \<Source> element can have exactly one of the following optional subelements:
   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
   xmlns:imaging="clr-namespace:Microsoft.VisualStudio.Imaging;assembly=Microsoft.VisualStudio.Imaging"
   xmlns:theming="clr-namespace:Microsoft.VisualStudio.PlatformUI;assembly=Microsoft.VisualStudio.Imaging"
-  xmlns:utilities="clr-namespace:Microsoft.Internal.VisualStudio.Imaging;assembly=Microsoft.VisualStudio.Imaging"
+  xmlns:utilities="clr-namespace:Microsoft.VisualStudio.PlatformUI;assembly=Microsoft.VisualStudio.Utilities"
   xmlns:catalog="clr-namespace:Microsoft.VisualStudio.Imaging;assembly=Microsoft.VisualStudio.ImageCatalog"
   Title="MainWindow" Height="350" Width="525" UseLayoutRounding="True">
   <Window.Resources>

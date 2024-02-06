@@ -1,18 +1,15 @@
 ---
-title: Customize the solution build | Microsoft Docs
-description: Learn how to customize the solution build done by MSBuild, for command-line builds of solutions.
+title: Customize the solution build
+description: Customize the solution build prepared by MSBuild for command-line builds of solutions with settings that don't affect project builds.
 ms.date: 02/28/2023
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, transforms
 - transforms [MSBuild]
-ms.assetid: d0bceb3b-14fb-455c-805a-63acefa4b3ed
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 
 # Customize the solution build
@@ -38,6 +35,6 @@ When you have many solution files that you want to extend in the same way, but y
 
 When you have *Directory.Solution.props* or *Directory.Solution.targets* in a root folder, but you have a solution under that folder that you don't want to import them, you can use the solution-specific files mentioned previously `before.{solutionname}.sln.targets` and `after.{solutionname}.sln.targets` to set the properties `$(ImportDirectorySolutionProps)` and `$(ImportDirectorySolutionTargets)` to false. Or, you can use the properties `$(DirectorySolutionPropsPath)` and `$(DirectorySolutionTargetsPath)` to specify a different location for those files. This could be helpful if you have various subsets of your solutions that require certain property values or targets common to the subsets.
 
-## Next steps
+## Related content
 
-Explore other possible customization scenarios at [Customize your build](customize-your-build.md).
+- [Customize your build](customize-your-build.md).

@@ -1,23 +1,16 @@
 ---
-title: Learn Django tutorial in Visual Studio step 2, views and page template
+title: Learn Django tutorial in Visual Studio step 2, view & page template
 titleSuffix: ""
 description: A walkthrough of Django basics in the context of Visual Studio projects, specifically steps of creating an app and using views and templates.
 ms.date: 09/08/2023
-ms.custom: devdivchpfy22
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
-
-ms.workload:
-  - python
-  - data-science
+ms.subservice: python
 ---
 
 # Step 2: Create a Django app with views and page templates
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Previous step: [Create a Visual Studio project and solution](learn-django-in-visual-studio-step-01-project-and-solution.md)**
 
@@ -34,7 +27,7 @@ In this step, you learn how to:
 
 ## Step 2-1: Create an app with a default structure
 
-A Django app is a separate Python package that contains a set of related files for a specific purpose. A Django project can contain many apps, which help a web host to serve many separate entry points from a single domain name. For example, a Django project for a domain like contoso.com might contain one app for `www.contoso.com`, a second app for support.contoso.com, and a third app for docs.contoso.com. In this case, the Django project handles site-level URL routing and settings (in its _urls.py_ and _settings.py_ files). Each app has its own distinct styling and behavior through its internal routing, views, models, static files, and administrative interface.
+A Django app is a separate Python package that contains a set of related files for a specific purpose. A Django project can contain many apps, which help a web host to serve many separate entry points from a single domain name. For example, a Django project for a domain like `contoso.com` might contain one app for `www.contoso.com`, a second app for `support.contoso.com`, and a third app for `docs.contoso.com`. In this case, the Django project handles site-level URL routing and settings (in its _urls.py_ and _settings.py_ files). Each app has its own distinct styling and behavior through its internal routing, views, models, static files, and administrative interface.
 
 A Django app usually begins with a standard set of files. Visual Studio provides templates to initialize a Django app within a Django project, along with an integrated menu command that serves the same purpose:
 

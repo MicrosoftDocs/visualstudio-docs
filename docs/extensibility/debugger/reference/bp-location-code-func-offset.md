@@ -1,25 +1,21 @@
 ---
 description: "Describes the offset location of a breakpoint in a function in code."
-title: BP_LOCATION_CODE_FUNC_OFFSET | Microsoft Docs
+title: BP_LOCATION_CODE_FUNC_OFFSET
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - BP_LOCATION_CODE_FUNC_OFFSET
 helpviewer_keywords:
 - BP_LOCATION_CODE_FUNC_OFFSET structure
-ms.assetid: ab38f7ca-fa01-4cf3-a06c-56cbb7207617
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 ---
 # BP_LOCATION_CODE_FUNC_OFFSET
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the offset location of a breakpoint in a function in code.
 
 ## Syntax

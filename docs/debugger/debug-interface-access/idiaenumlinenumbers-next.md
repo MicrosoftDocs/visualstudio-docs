@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a specified number of line numbers in the enumeration sequence."
-title: "IDiaEnumLineNumbers::Next | Microsoft Docs"
+title: "IDiaEnumLineNumbers::Next"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumLineNumbers::Next method"
-ms.assetid: 363d5b40-1316-4ab8-836f-63637f619e0a
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaEnumLineNumbers::Next
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a specified number of line numbers in the enumeration sequence.
 
 ## Syntax

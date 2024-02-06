@@ -1,5 +1,5 @@
 ---
-title: 'How to: Register a Library with the Object Manager | Microsoft Docs'
+title: 'Register a Library with the Object Manager'
 description: Learn how to register a library with the Visual Studio object manager so that you can view symbols in browsing tools, such as Class View and Object Browser.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -9,17 +9,13 @@ helpviewer_keywords:
 - IVsSimpleLibrary2 interface, registering library with object manager
 - IVsObjectManager2 interface, registering library with object manager
 - libraries, symbol-browsing tools
-ms.assetid: f124dd05-cb0f-44ad-bb2a-7c0b34ef4038
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
-# How to: Register a library with the object manager
+# Register a library with the object manager
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Browser** and **Find Symbol Results**, enable you to view symbols in your project or in external components. The symbols include namespaces, classes, interfaces, methods, and other language elements. The libraries track these symbols and expose them to the Visual Studio object manager that populates the tools with the data.
 
  The object manager keeps track of all available libraries. Each library must register with the object manager before providing symbols for the symbol-browsing tools.
@@ -171,7 +167,7 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
     ```
     ---
 
-## See also
+## Related content
 - [Legacy language service extensibility](../../extensibility/internals/legacy-language-service-extensibility.md)
 - [Support symbol-browsing tools](../../extensibility/internals/supporting-symbol-browsing-tools.md)
 - [How to: Expose lists of symbols provided by the library to the object manager](../../extensibility/internals/how-to-expose-lists-of-symbols-provided-by-the-library-to-the-object-manager.md)

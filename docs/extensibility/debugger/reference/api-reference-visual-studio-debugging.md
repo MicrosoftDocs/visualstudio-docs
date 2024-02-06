@@ -1,21 +1,17 @@
 ---
 description: "The reference section includes a conceptual overview of the API, a guide that shows the syntax and usage for all API elements, and an assortment of code examples."
-title: API Reference (Visual Studio Debugging) | Microsoft Docs
+title: API Reference (Visual Studio Debugging)
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - debugging [Debugging SDK], API reference
-ms.assetid: e4e429da-3667-41f7-9158-a8207d13e91a
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # API Reference (Visual Studio Debugging)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The reference section includes a conceptual overview of the API, a guide that shows the syntax and usage for all API elements, and an assortment of code examples. All references are listed alphabetically by category.
 
  The following table shows the common `HRESULT` values returned by methods.

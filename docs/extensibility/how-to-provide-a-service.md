@@ -1,21 +1,17 @@
 ---
-title: 'How to: Provide a Service | Microsoft Docs'
+title: 'Provide a Service'
 description: A VSPackage can provide services that other VSPackages can use. Learn how a VSPackage registers a service with Visual Studio and adds the service.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - services, providing
-ms.assetid: 12bc1f12-47b1-44f6-b8db-862aa88d50d1
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
-# How to: Provide a service
+# Provide a service
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A VSPackage can provide services that other VSPackages can use. To provide a service, a VSPackage must register the service with Visual Studio and add the service.
 
  The <xref:Microsoft.VisualStudio.Shell.Package> class implements both <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> and <xref:System.ComponentModel.Design.IServiceContainer>. <xref:System.ComponentModel.Design.IServiceContainer> contains callback methods that provide  services on demand.
@@ -136,7 +132,7 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
 
      The value of `helloString` should be "Hello".
 
-## See also
+## Related content
 - [How to: Get a service](../extensibility/how-to-get-a-service.md)
 - [Use and provide services](../extensibility/using-and-providing-services.md)
 - [Service essentials](../extensibility/internals/service-essentials.md)

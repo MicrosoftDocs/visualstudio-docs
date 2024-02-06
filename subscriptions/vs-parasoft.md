@@ -1,9 +1,8 @@
 ---
-title: Parasoft Virtualize/SOAtest Professional in Visual Studio subscriptions | Microsoft Docs
+title: Parasoft Virtualize/SOAtest Professional in Visual Studio subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: 00c1f300-d04e-4695-815e-775ffbf0f931
 ms.date: 06/15/2023
 ms.topic: how-to
 description:  Learn how to activate the Parasoft Virtualize/SOA Test Professional subscription included in your Visual Studio subscription.
@@ -22,7 +21,6 @@ Test earlier and more often.  Simulate and test the behavior of unavailable evol
    > ![Parasoft Benefit Tile](_img/vs-parasoft/vs-parasoft-tile.png "Screenshot of the Parasoft benefit tile.  The Activate button is selected.")
 
 3. You're redirected to the Parasoft website, where you create an account.  Just provide your contact information and select **Submit**.
-
 
 4. Once you’ve created your account, you see a notification that you've been sent an email with download instructions.  (Remember to check your spam or junk mail folders if you don’t see the email in your inbox.)
 

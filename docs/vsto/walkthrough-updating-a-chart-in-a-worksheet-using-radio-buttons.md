@@ -13,13 +13,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
 # Walkthrough: Updating a Chart in a Worksheet Using Radio Buttons
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This walkthrough shows the basics of using radio buttons on a Microsoft Office Excel worksheet to give the user a way to quickly switch between options. In this case, the options change the style of a chart.
 
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]
@@ -271,5 +268,5 @@ ms.workload:
 
 - Change formatting on a worksheet by using check boxes. 
 
-## See also
+## Related content
 - [Walkthroughs using Excel](../vsto/walkthroughs-using-excel.md)

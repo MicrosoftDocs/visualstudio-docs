@@ -1,21 +1,17 @@
 ---
-title: Use the Finder Tool | Microsoft Docs
+title: Use the Finder Tool
 description: Use the Finder Tool in the Spy++ tool's Find Window dialog box to display window properties or messages during a debugging session.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 
   - Window Finder Tool
-ms.assetid: 5841926b-08c3-4e43-88bd-4223d04f9aef
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
-# How to: Use the Finder Tool
+# Use the Finder Tool
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can use the Finder Tool in the **Find Window** dialog box to display window properties or messages. The Finder Tool can also locate disabled child windows, and discern which window to highlight if disabled child windows overlap.
 
  ![Spy&#43;&#43; Find Window Dialog Box](../debugger/media/icon_spy--_find.png "Icon_Spy++_Find")
@@ -48,7 +44,7 @@ Finder Tool in the Find Window dialog box
 
     If you selected **Properties**, the [Window Properties Dialog Box](../debugger/window-properties-dialog-box.md) opens. If you selected **Messages**, a [Messages View](../debugger/messages-view.md) window opens.
 
-## See also
+## Related content
 - [Spy++ Views](../debugger/spy-increment-views.md)
 - [Using Spy++](../debugger/using-spy-increment.md)
 - [Spy++ Reference](../debugger/spy-increment-reference.md)

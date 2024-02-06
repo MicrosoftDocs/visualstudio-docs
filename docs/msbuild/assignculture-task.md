@@ -1,5 +1,5 @@
 ---
-title: "AssignCulture Task | Microsoft Docs"
+title: "AssignCulture Task"
 description: Use the MSBuild AssignCulture task to produce items that have a metadata named Culture containing the corresponding culture identifier.
 ms.date: 08/23/2023
 ms.topic: "reference"
@@ -9,17 +9,13 @@ dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
-  - "jsharp"
 helpviewer_keywords:
   - "MSBuild, AssignCulture task"
   - "AssignCulture task [MSBuild]"
-ms.assetid: 8f8314cc-82a6-4f16-a62d-b9f0d1d5e274
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-  - "multiple"
+ms.subservice: msbuild
 ---
 # AssignCulture task
 

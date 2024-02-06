@@ -1,26 +1,22 @@
 ---
 description: "Gets the description of a port that was previously used to create the port (if available)."
-title: IDebugPort2::GetPortRequest | Microsoft Docs
+title: IDebugPort2::GetPortRequest
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPort2::GetPortRequest
 helpviewer_keywords:
 - IDebugPort2::GetPortRequest
-ms.assetid: 14abf847-0675-4fa8-872e-971e00c84224
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPort2::GetPortRequest
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the description of a port that was previously used to create the port (if available).
 
 ## Syntax

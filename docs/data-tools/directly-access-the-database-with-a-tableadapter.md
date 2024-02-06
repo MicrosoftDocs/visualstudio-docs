@@ -1,6 +1,6 @@
 ---
-title: Directly access the database with a TableAdapter
-description: Directly access a database with a TableAdapter, using methods such as Insert, Update, and Delete to manipulate data directly in the database.
+title: Directly access the database with a TableAdapter in .NET Framework applications
+description: Directly access a database with an ADO .NET TableAdapter in .NET Framework applications with Visual Studio, using methods such as Insert, Update, and Delete to manipulate data directly in the database.
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -18,17 +18,12 @@ helpviewer_keywords:
 - TableAdapter.Update method
 - saving data
 - TableAdapters
-ms.assetid: 012c5924-91f7-4790-b2a6-f51402b7014b
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# Directly access the database with a TableAdapter
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Directly access the database with a TableAdapter in .NET Framework applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -82,6 +77,6 @@ Call the TableAdapter `DbDirect` method that performs the task you are trying to
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb" id="Snippet21":::
      ---
 
-## See also
+## Related content
 
 - [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md)

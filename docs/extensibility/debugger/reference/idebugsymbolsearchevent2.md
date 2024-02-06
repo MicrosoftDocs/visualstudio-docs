@@ -1,23 +1,19 @@
 ---
 description: "This interface is sent by the debug engine (DE) to indicate that the debugging symbols for a module being debugged have been loaded."
-title: IDebugSymbolSearchEvent2 | Microsoft Docs
+title: IDebugSymbolSearchEvent2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugSymbolSearchEvent2
 helpviewer_keywords:
 - IDebugSymbolSearchEvent2
-ms.assetid: 9b946d55-ff85-44eb-b40a-efbf8282eafd
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugSymbolSearchEvent2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface is sent by the debug engine (DE) to indicate that the debugging symbols for a module being debugged have been loaded.
 
 ## Syntax

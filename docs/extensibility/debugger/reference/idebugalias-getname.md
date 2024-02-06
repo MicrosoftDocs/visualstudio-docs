@@ -1,26 +1,22 @@
 ---
 description: "Gets the name of this alias."
-title: IDebugAlias::GetName | Microsoft Docs
+title: IDebugAlias::GetName
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugAlias::GetName
 helpviewer_keywords:
 - IDebugAlias::GetName method
-ms.assetid: ac2d8891-56b5-40ef-9866-ed74f18bb043
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugAlias::GetName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the name of this alias.
 
 ## Syntax

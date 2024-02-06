@@ -1,5 +1,5 @@
 ---
-title: SDK Helpers for Debugging | Microsoft Docs
+title: SDK Helpers for Debugging
 description: Learn about functions and declarations that are global helper functions for implementing debug engines, expression evaluators, and symbol providers in C++.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -9,23 +9,18 @@ helpviewer_keywords:
 - Debugging SDK, registry locations
 - dbgmetric.h
 - metrics [Debugging SDK]
-ms.assetid: 80a52e93-4a04-4ab2-8adc-a7847c2dc20b
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # SDK Helpers for Debugging
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 These functions and declarations are global helper functions for implementing debug engines, expression evaluators, and symbol providers in C++.
 
 > [!NOTE]
 > There are no managed versions of these functions and declarations at this time.
 
-## Overview
  In order for debug engines, expression evaluators, and symbol providers to be used by Visual Studio, they must be registered. This is done by setting registry subkeys and entries, otherwise known as "setting metrics." The following global functions are designed to ease the process of updating these metrics. See the section on Registry Locations to find out the layout of each registry subkey that is updated by these functions.
 
 ## General Metric Functions

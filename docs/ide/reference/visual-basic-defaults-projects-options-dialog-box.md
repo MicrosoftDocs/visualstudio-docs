@@ -9,17 +9,13 @@ helpviewer_keywords:
 - Option Explicit statement, setting in the IDE
 - Option Compare statement, setting in the IDE
 - Option Strict statement, setting in the IDE
-ms.assetid: 2465cd9d-18b6-4c4a-b1ea-86dbab23fc79
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Visual Basic Defaults, Projects, Options Dialog Box
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the default settings for Visual Basic project options. When a new project is created, the specified option statements will be added to the project header in the Code Editor. The options apply to all Visual Basic projects.
 
 To access this dialog box, on the **Tools** menu, click **Options**, expand the **Projects and Solutions** folder, and then click **VB Defaults**.

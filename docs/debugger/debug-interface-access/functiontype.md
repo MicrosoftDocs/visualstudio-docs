@@ -1,6 +1,6 @@
 ---
 description: "Each unique function signature is identified by a SymTagFunctionType symbol."
-title: "FunctionType | Microsoft Docs"
+title: "FunctionType"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -8,17 +8,13 @@ dev_langs:
 helpviewer_keywords:
   - "function signature"
   - "FunctionType symbol"
-ms.assetid: 646a07e7-9d4f-4e21-95e3-3e403cdd4843
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # FunctionType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Each unique function signature is identified by a `SymTagFunctionType` symbol. Each parameter is identified as a class child symbol with a `SymTagFunctionArgType` tag.
 
 ## Properties

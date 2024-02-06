@@ -13,17 +13,12 @@ helpviewer_keywords:
 - Solution Explorer, miscellaneous files
 - Miscellaneous Files folder
 - files [Visual Studio], miscellaneous
-ms.assetid: 5b96640b-8efe-48a4-8d0a-1ae3f9587e44
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Miscellaneous files
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You might want to use the Visual Studio editor to work on files independently from a project or solution. While you have a solution open, you can open and modify files without adding them to a solution or to a project. Files you want to work with independently are called miscellaneous files. Miscellaneous files are external to solutions and projects, are not included in builds, and cannot be included with a solution under source control.
 

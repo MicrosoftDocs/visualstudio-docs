@@ -1,5 +1,5 @@
 ---
-title: Target Element (MSBuild) | Microsoft Docs
+title: Target Element (MSBuild)
 description: Learn about the MSBuild Target element, which contains a set of tasks for MSBuild to execute sequentially. 
 ms.date: 06/13/2019
 ms.topic: reference
@@ -9,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - Target element [MSBuild]
 - <Target> element [MSBuild]
-ms.assetid: 350f6fc2-86b3-45f2-a31e-ece0e6bd4dca
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # Target element (MSBuild)
 

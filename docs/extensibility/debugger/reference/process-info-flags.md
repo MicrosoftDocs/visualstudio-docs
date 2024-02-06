@@ -1,6 +1,6 @@
 ---
 description: "Describes or specifies properties of a process."
-title: PROCESS_INFO_FLAGS | Microsoft Docs
+title: PROCESS_INFO_FLAGS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -10,16 +10,12 @@ helpviewer_keywords:
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # PROCESS_INFO_FLAGS
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Describes or specifies properties of a process.
 

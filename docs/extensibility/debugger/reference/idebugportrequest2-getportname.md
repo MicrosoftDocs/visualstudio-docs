@@ -1,26 +1,22 @@
 ---
 description: "Gets the name of the port."
-title: IDebugPortRequest2::GetPortName | Microsoft Docs
+title: IDebugPortRequest2::GetPortName
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPortRequest2::GetPortName
 helpviewer_keywords:
 - IDebugPortRequest2::GetPortName
-ms.assetid: 53e2a3a4-bb34-4a02-a983-6bd84ea70587
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPortRequest2::GetPortName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the name of the port.
 
 ## Syntax

@@ -8,17 +8,12 @@ f1_keywords:
 helpviewer_keywords:
 - log Command window output command
 - View.LogCommandWindowOutput command
-ms.assetid: d4ecec35-5af4-4954-8d60-2cd24583fbb4
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Log Command window output command
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Copies all input and output from the **Command** window into a file.
 

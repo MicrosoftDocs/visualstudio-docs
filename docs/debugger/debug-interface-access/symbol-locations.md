@@ -1,6 +1,6 @@
 ---
 description: "Most symbols have a defined location within the image file."
-title: "Symbol Locations | Microsoft Docs"
+title: "Symbol Locations"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -8,17 +8,13 @@ dev_langs:
 helpviewer_keywords:
   - "LocationType values"
   - "symbols [DIA SDK], locations"
-ms.assetid: 7c8cd8fe-169e-4161-9cff-5e9015984add
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Symbol Locations
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Most symbols have a defined location within the image file. A symbol's location is specified with a value from the [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md) enumeration. The symbol may support additional properties depending on its location.
 
  The following table shows the most commonly used location types and their additional properties.

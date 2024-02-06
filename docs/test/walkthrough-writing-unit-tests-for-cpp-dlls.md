@@ -1,17 +1,13 @@
 ---
-title: "How to: Write unit tests for C++ DLLs"
-description: Learn how to develop a native C++ DLL using test-first methodology. Begin by creating a native test project.
+title: "Write unit tests for C++ DLLs"
+description: Develop a native C++ DLL by using test-first methodology, create test and DLL projects, debug tests, refactor, reduce dependencies to improve unit testing, and more.
 ms.date: 06/13/2019
 ms.topic: how-to
 ms.author: twhitney
 manager: markl
-ms.workload:
-  - "cplusplus"
 author: tylermsft
 ---
-# How to: Write unit tests for C++ DLLs
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Write unit tests for C++ DLLs
 
 This walkthrough describes how to develop a native C++ DLL using test-first methodology. The basic steps are as follows:
 
@@ -108,7 +104,6 @@ The following steps show how to create a DLL project in Visual Studio 2019.
             return 0.0;
         }
     ```
-
 
 ## <a name="make_functions_visible"></a> Couple the test project to the DLL project
 
@@ -317,7 +312,7 @@ The following steps show how to create a DLL project in Visual Studio 2019.
 
    You can also mandate a minimum level of code coverage.
 
-## See also
+## Related content
 
 - [Add unit tests to existing C++ applications](../test/how-to-use-microsoft-test-framework-for-cpp.md)
 - [Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework](how-to-use-microsoft-test-framework-for-cpp.md)

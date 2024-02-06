@@ -1,6 +1,6 @@
 ---
 description: "Retrieves the user-displayable name for this context."
-title: IDebugMemoryContext2::GetName | Microsoft Docs
+title: IDebugMemoryContext2::GetName
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,20 +8,16 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugMemoryContext2::GetName method
 - GetName method
-ms.assetid: 8c212556-7d9e-4d68-b2a9-8212f50d0287
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugMemoryContext2::GetName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the user-displayable name for this context.
 
 ## Syntax

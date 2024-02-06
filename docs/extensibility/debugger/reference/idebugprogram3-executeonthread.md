@@ -1,24 +1,20 @@
 ---
 description: "Executes the debugger program."
-title: IDebugProgram3::ExecuteOnThread | Microsoft Docs
+title: IDebugProgram3::ExecuteOnThread
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugProgram3::ExecuteOnThread
-ms.assetid: 2f5211e3-7a3f-47bf-9595-dfc8b4895d0d
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProgram3::ExecuteOnThread
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Executes the debugger program. The thread is returned to give the debugger information on which thread the user is viewing when executing the program.
 
 ## Syntax

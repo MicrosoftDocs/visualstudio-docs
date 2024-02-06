@@ -11,17 +11,12 @@ helpviewer_keywords:
 - Visual Studio commands
 - pre-defined command aliases
 - command aliases
-ms.assetid: de8bb378-8c1c-4087-a9a5-537fa8314c19
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Visual Studio Command Aliases
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Command aliases let you type fewer characters when you want to execute a command. You enter aliases into the **Find/Command** box or **Command** window. For example, instead of entering `>File.OpenFile` to display the **Open File** dialog box, you can use the pre-defined alias `>of`.
 

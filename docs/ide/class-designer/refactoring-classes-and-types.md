@@ -14,17 +14,12 @@ helpviewer_keywords:
 - types [Visual Studio], refactoring
 - Class Designer [Visual Studio], refactoring classes
 - refactoring, classes
-ms.assetid: dcf07bb4-fa3b-4224-9dec-566fd924a8ce
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Refactor classes and types in Class Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you refactor code, you make it easier to understand, maintain, and more efficient by changing its internal structure and how its objects are designed, not its external behavior. Use Class Designer and the Class Details window to reduce the work that you have to do and the chance of introducing bugs when you refactor C#, Visual Basic, or C++ code in your Visual Studio project.
 
@@ -84,6 +79,6 @@ Using **Class Designer**, you can move a type member from one type to another ty
 
      The property is removed from the source type and appears in the destination type.
 
-## See also
+## Related content
 
 - [Design classes in Class Designer](designing-and-viewing-classes-and-types.md)

@@ -1,19 +1,22 @@
 ---
-title: How to manage service configurations and profiles | Microsoft Docs
+title: Manage service configurations and profiles
 description: Learn how to work with service configurations and profiles configuration files| which store settings for the deployment environments and publish settings for cloud services.
 author: ghogen
 manager: jmartens
-ms.technology: vs-azure
-ms.workload: azure-vs
+ms.subservice: azure-development
 ms.topic: conceptual
 ms.date: 8/11/2017
 ms.author: ghogen
 ---
-# How to manage service configurations and profiles
+# Manage service configurations and profiles
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-## Overview
+ [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
+
 When you publish a cloud service, Visual Studio stores configuration information in two kinds of configuration files: service configurations and profiles. Service configurations (.cscfg files) store settings for the deployment environments for an Azure cloud service. Azure uses these configuration files when it manages your cloud services. On the other hand, profiles (.azurePubxml files) store publish settings for cloud services. These settings are a record of what you choose when you use the publish wizard, and are used locally by Visual Studio. This topic explains how to work with both types of configuration files.
+
+## Prerequisites
+
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## Service Configurations
 You can create multiple service configurations to use for each of your deployment environments. For example, you might create a service configuration for the local environment that you use to run and test an Azure application and another service configuration for your production environment.
@@ -90,5 +93,5 @@ When you run the wizard for the first time, a default profile is created. Visual
 4. After you finish changing the settings, select **Next** to go back to the **Settings** page.
 5. (Optional) select **Publish** to publish the cloud service using the new settings. If you don’t want to publish your cloud service at this time, and you close the Publish Wizard, Visual Studio asks you if you want to save the changes to the profile.
 
-## Next steps
+## Related content
 To learn about configuring other parts of your Azure project from Visual Studio, see [Configuring an Azure Project](vs-azure-tools-cloud-service-retain-a-constant-virtual-ip-address.md).

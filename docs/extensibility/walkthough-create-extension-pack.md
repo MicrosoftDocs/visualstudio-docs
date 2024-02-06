@@ -5,24 +5,13 @@ ms.date: 07/27/2018
 ms.topic: tutorial
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - extensions
-ms.assetid: 5388EEBA-211D-4114-8CD9-70C899919F7E
 author: maiak
 ms.author: maiak
 manager: Meng
-ms.workload:
-- vssdk
 ---
 # Walkthrough: Create an Extension Pack
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 An Extension Pack is a set of extensions that can be installed together. Extension Packs enable you to easily share your favorite extensions with other users or bundle a set of extensions together for a particular scenario.
-
-## Prerequisites
-
-Starting in Visual Studio 2015, the Visual Studio SDK is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
-
-The Extension Pack feature is available starting with Visual Studio 15.8 Preview 2.
 
 ## Create an extension with an Extension Pack item template
 

@@ -1,23 +1,19 @@
 ---
 description: "Symbols with SymTagTypedef tags introduce names for other types."
-title: "Typedef (Debug Interface Access SDK) | Microsoft Docs"
+title: "Typedef (Debug Interface Access SDK)"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "Typedef symbol [DIA SDK]"
-ms.assetid: 9ab441b9-cc72-47fa-83e2-87b3c2b891b4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Typedef (Debug Interface Access SDK)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Symbols with `SymTagTypedef` tags introduce names for other types.
 
 ## Properties

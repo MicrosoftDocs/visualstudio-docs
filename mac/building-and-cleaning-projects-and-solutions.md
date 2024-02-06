@@ -5,8 +5,6 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 02/28/2022
-ms.custom: devdivchpfy22
-ms.assetid: E4B6CB42-9FE2-43B9-93B7-BD4BD50518B1
 ms.topic: how-to
 ---
 # Building and cleaning projects and solutions in Visual Studio for Mac

@@ -1,21 +1,17 @@
 ---
 description: "Given a corresponding tag value, this method returns an enumeration of symbols that are contained in this stub function at a specified relative virtual address."
-title: "IDiaSymbol::findSymbolsByRVAForAcceleratorPointerTag | Microsoft Docs"
+title: "IDiaSymbol::findSymbolsByRVAForAcceleratorPointerTag"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: 024ccd78-5867-4ca7-bc26-548758e9ac53
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::findSymbolsByRVAForAcceleratorPointerTag
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Given a corresponding tag value, this method returns an enumeration of symbols that are contained in this stub function at a specified relative virtual address.
 
 ## Syntax

@@ -1,5 +1,5 @@
 ---
-title: "LIB Task | Microsoft Docs"
+title: "LIB Task"
 description: Learn how MSBuild uses the LIB task to wrap the Microsoft 32-bit Library Manager tool, lib.exe, which creates and manages a library of COFF object files. 
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -15,18 +15,14 @@ dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
-  - "jsharp"
   - "C++"
 helpviewer_keywords:
   - "MSBuild (C++), LIB task"
   - "LIB task (MSBuild (C++))"
-ms.assetid: e062c7f9-cc69-4a83-9361-1bb5355e5fe8
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-  - "multiple"
+ms.subservice: msbuild
 ---
 # LIB task
 

@@ -1,6 +1,6 @@
 ---
-title: Display related data in WPF applications
-description: Display related data in WPF applications. Work with data from multiple tables or entities that are related to each other in a parent-child relationship.
+title: Display related data in .NET Framework WPF applications
+description: Display related data in WPF .NET Framework applications. Work with data from multiple tables or entities that are related to each other in a parent-child relationship.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -11,17 +11,12 @@ helpviewer_keywords:
 - WPF [WPF], data
 - WPF Designer, data binding
 - data binding, WPF
-ms.assetid: 3aa80194-0191-474d-9d28-5ec05654b426
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# Display related data in WPF applications
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Display related data in .NET Framework WPF applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -55,7 +50,7 @@ You can create data-bound controls that display related data by dragging items f
 
      ![Data Sources Window showing relation](../data-tools/media/datasources2.gif)
 
-## See also
+## Related content
 
 - [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md)
 - [Create lookup tables in WPF applications](../data-tools/create-lookup-tables-in-wpf-applications.md)

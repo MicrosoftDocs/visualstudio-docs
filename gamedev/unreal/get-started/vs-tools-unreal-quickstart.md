@@ -1,10 +1,10 @@
 ---
-title: "Quickstart: Visual Studio Tools for Unreal Engine | Microsoft Docs"
+title: "Quickstart: Visual Studio Tools for Unreal Engine"
 description: Read an overview about Visual Studio Tools for Unreal Engine, which is a free Visual Studio extension that helps you develop games with Unreal Engine.
-ms.date: "08/01/2023"
+ms.date: 10/19/2023
 ms.topic: quickstart
-ms.prod: visual-studio
-ms.technology: vs-unreal-engine-tools
+ms.service: visual-studio
+ms.subservice: unreal-engine-tools
 author: TylerMSFT
 ms.author: TWhitney
 manager: MarkL
@@ -12,7 +12,7 @@ manager: MarkL
 
 # Quickstart: Visual Studio Tools for Unreal Engine
 
-In this article, download a Unreal Engine (UE) game sample and use Visual Studio Tools for Unreal Engine to:
+In this article, download an Unreal Engine (UE) game sample and use Visual Studio Tools for Unreal Engine to:
 - [View UE Blueprints in Visual Studio](#view-ue-blueprints-in-visual-studio)
 - [View UE logging in Visual Studio](#view-ue-logging-within-visual-studio)
 - [View UE macros in Visual Studio](#view-ue-macros-in-visual-studio)
@@ -53,7 +53,7 @@ Once you have downloaded the game sample, update `LyraStarterGame.uproject` to u
 
 You can view, but not edit, UE Blueprints from within Visual Studio. This is useful because you can see UE Blueprints without having to switch between the Unreal Editor and Visual Studio. To try it out, follow these steps:
 
-1. In Visual Studio, open `LyraCharacter.h`. Either search for that file in the Search pane of the **Solution Explorer** or find it under **Games** > **LyraStarterGame** > **Source** > **LyraGame** > **AbilitySystem** > **Abilities** > **LyraGameplayAbility.h**
+1. In Visual Studio, open `LyraCharacter.h`. Either search for that file in the Search pane of the **Solution Explorer** or find it under **Games** > **LyraStarterGame** > **Source** > **LyraGame** > **Character** > **LyraCharacter.h**
 1. In `LyraCharacter.h`, go to line 96. You should see the following class: `class LYRAGAME_API ALyraCharacter : public AModularCharacter ...`
 1. There are four Blueprint classes that extend this class. You should see a link just above the `ALyraCharacter` class definition that says: `4 derived Blueprint classes`. Click that link to view the four Blueprint classes that extend this class:
     :::image type="content" source="../media/vs-blueprints-link.png" alt-text="Screenshot of the blueprints link above the Alyra Character class. It lists related blueprints." lightbox="../media/vs-blueprints-link.png":::
@@ -76,11 +76,11 @@ You can use the Visual Studio Tools for Unreal Engine to view UE logging within 
 
     :::image type="content" source="../media/vs-unreal-engine-log.png" alt-text="A screenshot of the Unreal Engine Log window showing 'shot fired' events and the Categories dropdown with LogLyra selected.":::
 
-    The events will be at the bottom of the log so you may have to scroll down to see them. You could also choose the **Clear** button to clear the log and then fire again to see the log message.
+    The events are at the bottom of the log so you might have to scroll down to see them. You could also choose the **Clear** button to clear the log and then fire again to see the log message.
 
 If you find the font color hard to read, you can adjust it under **Tools** > **Options** > **Environment** > **Fonts and Colors**. Change the dropdown **Show settings for:** to **Unreal Engine Log**. In **Display items:** select **Log** and change the **Item foreground** color to something easier to see for you.
 
-Having the UE logging window open while you're debugging is very convenient because you don't have to switch to the Unreal Editor to see them.
+Having the UE logging window open while you're debugging is convenient because you don't have to switch to the Unreal Editor to see them.
 
 ## View UE macros in Visual Studio
 
@@ -94,10 +94,12 @@ Long UE macros can be difficult to read. Visual Studio Tools for Unreal Engine e
 1. Choose **Expand Inline**, to expand the macro, and all nested macros, in the code window.
     :::image type="content" source="../media/vs-unreal-engine-macro-expanded-inline.png" alt-text="A screenshot of the expanded contents of the UE_DEFINE_GAMEPLAY_TAG_STATIC macro." lightbox="../media/vs-unreal-engine-macro-expanded-inline.png":::
     You can press `Ctrl+z` to undo the expansion.
-1. Choose **Search online** to open your browser. It will open with a search populated to find the macro. In the previous example, this opens the browser to search for `C++ #define UE_DEFINE_GAMEPLAY_TAG_STATIC(TagName, Tag) static FNativeGameplayTag TagName(UE_PLUGIN_NAME, UE_MODULE_NAME,  …`
+1. Choose **Search online** to open your browser. It opens with a search populated to find the macro. In the previous example, this opens the browser to search for `C++ #define UE_DEFINE_GAMEPLAY_TAG_STATIC(TagName, Tag) static FNativeGameplayTag TagName(UE_PLUGIN_NAME, UE_MODULE_NAME,  …`
 1. Choose **Visualize the expansion** to open the **Macro Expansion** window. You can expand the nested macros that are part of the larger macro one step at a time. Scroll to the end of the expansion to see the macro expansion arrows in the upper-right corner of the window. Choose the right arrow to expand the next nested macro. Choose the left arrow to collapse the last nested macro that was expanded:
 
     :::image type="content" source="../media/vs-unreal-engine-macro-expansion.png" alt-text="A screenshot of the macro expansion window showing the expanded contents of the UE_DEFINE_GAMEPLAY_TAG_STATIC macro.":::
+
+For more information about expanding macros in Visual Studio, see [Visualize C/C++ macro expansion](/cpp/ide/visualize-macro-expansion).
 
 This quickstart showed how Visual Studio Tools for Unreal Engine makes it easier to understand UE macros, view UE logging, and view UE Blueprints. May your UE development work be more productive and enjoyable!
 

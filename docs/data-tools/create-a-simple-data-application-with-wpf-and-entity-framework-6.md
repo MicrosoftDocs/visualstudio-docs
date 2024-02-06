@@ -1,6 +1,6 @@
 ---
 title: Simple data app with WPF and Entity Framework 6
-description: In this walkthrough, see how to create a simple forms-over-data app in Visual Studio with Windows Presentation Foundation (WPF) and Entity Framework 6.
+description: Create a forms-over-data .NET Framework application in Visual Studio with Windows Presentation Foundation (WPF) and Entity Framework 6.
 ms.date: 09/14/2023
 ms.topic: conceptual
 dev_langs:
@@ -8,13 +8,9 @@ dev_langs:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
 # Create a simple data application with WPF and Entity Framework 6
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ::: moniker range="vs-2022"
 > [!WARNING]
@@ -25,13 +21,13 @@ This walkthrough shows how to create a basic "forms over data" application in Vi
 
 This article focuses on using data tools in Visual Studio, and does not attempt to explain the underlying technologies in any depth. It assumes that you have a basic familiarity with XAML, Entity Framework, and SQL. This example also does not demonstrate Model-View-ViewModel (MVVM) architecture, which is standard for WPF applications. However, you can copy this code into your own MVVM application with few modifications.
 
-The final code for this tutorial may be found in GitHub at [VS Tutorial Samples - EF6](https://github.com/MicrosoftDocs/vs-tutorial-samples/tree/master/ef6).
+The final code for this tutorial can be found in GitHub at [VS Tutorial Samples - EF6](https://github.com/MicrosoftDocs/vs-tutorial-samples/tree/master/ef6).
 
 ## Install and connect to Northwind
 
 This example uses SQL Server Express LocalDB and the Northwind sample database. If the ADO.NET data provider for that product supports Entity Framework, it should work with other SQL database products just as well.
 
-1. If you don't have SQL Server Express LocalDB, install it through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **Data storage and Processing** workload, or as an individual component.
+1. If you don't have SQL Server Express LocalDB, install it through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **Data storage and processing** workload, or as an individual component.
 
 2. Install the Northwind sample database by following these steps:
 
@@ -91,7 +87,7 @@ This example uses SQL Server Express LocalDB and the Northwind sample database. 
 
     ![Screenshot of choosing database Objects for the model.](../data-tools/media/vs-2022/choose-entity-framework-objects.png)
 
-1. The wizard generates the C# classes that represent the Entity Framework model. The classes are plain old C# classes and they are what we databind to the WPF user interface. The *.edmx* file describes the relationships and other metadata that associates the classes with objects in the database. The *.tt* files are T4 templates that generate the code that operates on the model and saves changes to the database. You can see all these files in **Solution Explorer** under the Northwind_model node:
+1. The wizard generates the C# classes that represent the Entity Framework model. The classes are plain old C# classes and they are what we databind to the WPF user interface. The `.edmx` file describes the relationships and other metadata that associates the classes with objects in the database. The `.tt` files are T4 templates that generate the code that operates on the model and saves changes to the database. You can see all these files in **Solution Explorer** under the Northwind_model node:
 
       :::moniker range="<=vs-2019"
       ![Screenshot showing Solution Explorer Entity Framework model files.](../data-tools/media/solution-explorer-entity-framework-model-files.png)
@@ -100,9 +96,9 @@ This example uses SQL Server Express LocalDB and the Northwind sample database. 
       ![Screenshot showing Solution Explorer Entity Framework model files](media/vs-2022/solution-explorer-entity-framework-model-files.png)
       :::moniker-end
 
-    The designer surface for the *.edmx* file enables you to modify some properties and relationships in the model. We are not going to use the designer in this walkthrough.
+    The designer surface for the `.edmx` file enables you to modify some properties and relationships in the model. We are not going to use the designer in this walkthrough.
 
-1. The *.tt* files are general purpose and you need to tweak one of them to work with WPF databinding, which requires ObservableCollections. In **Solution Explorer**, expand the Northwind_model node until you find *Northwind_model.tt*. (Make sure you are not in the *.Context.tt* file, which is directly below the *.edmx* file.)
+1. The `.tt` files are general purpose and you need to tweak one of them to work with WPF databinding, which requires ObservableCollections. In **Solution Explorer**, expand the Northwind_model node until you find *Northwind_model.tt*. (Make sure you are not in the *.Context.tt* file, which is directly below the `.edmx` file.)
 
    - Replace the two occurrences of <xref:System.Collections.ICollection> with <xref:System.Collections.ObjectModel.ObservableCollection%601>.
 
@@ -466,7 +462,7 @@ Add these handler methods to the MainWindow class in *MainWindow.xaml.cs*. If yo
 
 To start debugging, press **F5**. You should see customer and order data populated in the grid, and the navigation buttons should work as expected. Click on **Commit** to add a new customer or order to the model after you have entered the data. Click on **Cancel** to back out of a new customer or new order form without saving the data. You can make edits to existing customers and orders directly in the text boxes, and those changes are written to the model automatically.
 
-## See also
+## Related content
 
 - [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)
 - [Entity Framework documentation](/ef/)

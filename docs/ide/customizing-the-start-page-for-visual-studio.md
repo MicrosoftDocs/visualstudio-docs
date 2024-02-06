@@ -1,6 +1,6 @@
 ---
 title: Change the startup experience
-description: Learn how to customize your startup experience so Visual Studio opens with the tools that are most useful to you.
+description: Customize your startup experience so Visual Studio opens with the tools that are most useful to you, such as opening the most recently opened solution. 
 ms.date: 06/05/2023
 ms.topic: conceptual
 f1_keywords:
@@ -12,13 +12,9 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Customize startup
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can customize the startup experience for Visual Studio in several different ways, such as opening your most recent solution or just an empty development environment.
 

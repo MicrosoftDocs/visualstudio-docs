@@ -1,20 +1,14 @@
 ---
-title: Data tools for .NET
-description: Review Visual Studio data tools for .NET, which provide API and tooling support to connect to databases, model data in memory, and display data in the UI.
-ms.date: 11/04/2016
+title: Data tools for .NET Framework development
+description: Explore Visual Studio data tools for .NET Framework apps for API and tooling support to connect to databases, model data in memory, and display data in the UI.
+ms.date: 11/01/2023
 ms.topic: overview
-ms.assetid: c3175080-1dfb-4ab8-a460-92dadbb844b4
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
-- dotnet
+ms.subservice: data-tools
 ---
-# Visual Studio data tools for .NET
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Visual Studio data tools for .NET Framework development
 
 Visual Studio and .NET together provide extensive API and tooling support for connecting to databases, modeling data in memory, and displaying the data in the user interface. The .NET classes that provide data-access functionality are known as [ADO.NET](/dotnet/framework/data/adonet/index). ADO.NET, along with the data tooling in Visual Studio, was designed primarily to support relational databases and XML. These days, many NoSQL database vendors, or third parties, offer ADO.NET providers.
 
@@ -23,6 +17,10 @@ Visual Studio and .NET together provide extensive API and tooling support for co
 The following diagram shows a simplified view of the basic architecture:
 
 ![ADO.NET Architecture](../data-tools/media/raddata-ado-net-architecture-diagram.png)
+
+## Installation
+
+To use the data tools for .NET, you need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify. See [Modify Visual Studio](../install/modify-visual-studio.md).
 
 ## Typical workflow
 

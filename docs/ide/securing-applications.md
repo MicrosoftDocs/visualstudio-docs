@@ -6,17 +6,12 @@ ms.topic: conceptual
 helpviewer_keywords:
 - security [Visual Studio], applications
 - application design, securability
-ms.assetid: 7d32c4cf-8bec-4307-a2a8-42f0ceddf3eb
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Secure applications
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You should consider security in all aspects of your application development, from design to deployment. Start by running Visual Studio as securely as possible. See [User permissions](../ide/user-permissions-and-visual-studio.md).
 
@@ -36,7 +31,7 @@ Security is also an important consideration in the build process. A few addition
 - [Dotfuscator](dotfuscator/index.md) is free and helps to protect .NET assemblies from reverse-engineering and unauthorized use such as unauthorized debugging.
 - [Strong-name signing](managing-assembly-and-manifest-signing.md) can be used to uniquely identify software components and prevent name spoofing.
 
-## See also
+## Related content
 
 - [Security in .NET](/dotnet/standard/security/index)
 - [Azure security](/azure/security/)

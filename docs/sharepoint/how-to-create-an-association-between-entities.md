@@ -1,5 +1,5 @@
 ---
-title: "How to: Create an Association between Entities | Microsoft Docs"
+title: "Create an Association between Entities"
 description: Define relationships between entities in your Business Data Connectivity (BDC) model by creating associations in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -20,13 +20,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+ms.subservice: sharepoint-development
 ---
-# How to: Create an association between entities
+# Create an association between entities
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can define relationships between entities in your Business Data Connectivity (BDC) model by creating associations. Visual Studio generates methods that provide consumers of the model with information about each association. These methods can be consumed by SharePoint web parts, lists, or custom applications to display data relationships in a user interface (UI).
 
  You can create two types of associations in the BDC designer: foreign key-based associations and foreign keyless associations. For more information, see [Create an association between entities](../sharepoint/creating-an-association-between-entities.md).
@@ -59,7 +56,7 @@ ms.workload:
 
      For examples of Association Navigator methods, see [Create an association between entities](../sharepoint/creating-an-association-between-entities.md).
 
-## See also
+## Related content
 - [Create an association between entities](../sharepoint/creating-an-association-between-entities.md)
 - [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)
 - [How to: Add a Finder method](../sharepoint/how-to-add-a-finder-method.md)

@@ -2,22 +2,15 @@
 title: Learn Django tutorial in Visual Studio, step 1, Django basics
 titleSuffix: ""
 description: A walkthrough of Django basics in the context of Visual Studio projects, demonstrating the support Visual Studio provides for Django development.
-ms.custom: devdivchpfy22
 ms.date: 09/08/2023
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
-
-ms.workload:
-  - python
-  - data-science
+ms.subservice: python
 ---
 
 # Tutorial: Get started with the Django web framework in Visual Studio
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [Django](https://www.djangoproject.com/) is a high-level Python framework designed for rapid, secure, and scalable web development. This tutorial explores the Django framework in the context of the project templates. Visual Studio provides the project templates to streamline the creation of Django-based web apps.
 

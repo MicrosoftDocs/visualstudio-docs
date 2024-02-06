@@ -1,26 +1,22 @@
 ---
 description: "Contains information about a debug property."
-title: DEBUG_PROPERTY_INFO | Microsoft Docs
+title: DEBUG_PROPERTY_INFO
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - DEBUG_PROPERTY_INFO
 helpviewer_keywords:
 - DEBUG_PROPERTY_INFO structure
-ms.assetid: 5a085d18-62c6-4740-b9e9-3f5db6bfdf7f
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # DEBUG_PROPERTY_INFO
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Contains information about a debug property.
 
 ## Syntax

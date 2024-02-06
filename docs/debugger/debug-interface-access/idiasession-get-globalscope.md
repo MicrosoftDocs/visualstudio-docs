@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a reference to the global scope."
-title: "IDiaSession::get_globalScope | Microsoft Docs"
+title: "IDiaSession::get_globalScope"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSession::get_globalScope method"
-ms.assetid: 75d128a8-3dce-40ed-b392-de3fdda041b7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSession::get_globalScope
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a reference to the global scope.
 
 ## Syntax

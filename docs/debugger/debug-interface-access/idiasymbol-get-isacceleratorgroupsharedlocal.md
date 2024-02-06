@@ -1,21 +1,17 @@
 ---
 description: "Retrieves a flag that indicates whether the symbol corresponds to a group shared local variable in code compiled for a C++ AMP Accelerator."
-title: "IDiaSymbol::get_isAcceleratorGroupSharedLocal | Microsoft Docs"
+title: "IDiaSymbol::get_isAcceleratorGroupSharedLocal"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: 17a20542-5b45-478f-bb80-0d56031aadb5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_isAcceleratorGroupSharedLocal
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that indicates whether the symbol corresponds to a group shared local variable in code compiled for a C++ AMP Accelerator.
 
 ## Syntax

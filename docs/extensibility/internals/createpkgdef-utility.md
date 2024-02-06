@@ -1,5 +1,5 @@
 ---
-title: CreatePkgDef Utility | Microsoft Docs
+title: CreatePkgDef Utility
 description: Learn about the CreatePkgDef utility that takes a .dll file for a Visual Studio extension as a parameter and creates a .pkgdef file to accompany the .dll file. 
 ms.date: 11/04/2016
 ms.topic: reference
@@ -8,17 +8,13 @@ helpviewer_keywords:
 - create pkgdef
 - pkgdef
 - createpkgdef
-ms.assetid: c745cb76-47a6-49ff-9eed-16af0f748e35
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # CreatePkgDef utility
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Takes a .dll file for a Visual Studio extension as a parameter and creates a *.pkgdef* file to accompany the *.dll* file. The *.pkgdef* file contains all the information that would otherwise be written to the system registry when the extension is installed.
 
 > [!NOTE]
@@ -58,7 +54,6 @@ If the installation folder is *%vsinstalldir%\Common7\IDE\Extensions\\*, the ext
 
 > [!NOTE]
 > The **Manage Extensions** tool cannot be used to access an extension unless it is installed as part of a VSIX package.
-
 
 ## See also
 - [CreateExpInstance utility](../../extensibility/internals/createexpinstance-utility.md)

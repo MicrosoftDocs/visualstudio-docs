@@ -5,24 +5,21 @@ author: Mikejo5000
 ms.author: mikejo
 ms.date: 08/11/2023
 ms.topic: conceptual
-ms.custom: contperf-fy21q4
 helpviewer_keywords:
   - "Visual Studio command prompt"
   - "command prompt, Visual Studio"
   - "Developer Command Prompt"
   - "Developer PowerShell"
   - "Visual Studio terminal"
-ms.assetid: 94fcf524-9045-4993-bfb2-e2d8bad44219
 no-loc: cmdlet
 monikerRange: ">=vs-2019"
+ms.subservice: general-ide
 ---
 # Visual Studio Developer Command Prompt and Developer PowerShell
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Visual Studio includes two command-line shells for developers, a command prompt and an instance of PowerShell, as follows:
 
-- **Visual Studio Developer Command Prompt** - A standard command prompt with certain environment variables set to make using command-line developer tools easier. Available since Visual Studio 2015.
+- **Visual Studio Developer Command Prompt** - A standard command prompt with certain environment variables set to make using command-line developer tools easier.
 
     ::: moniker range="vs-2019"
     :::image type="content" source="media/developer-command-prompt-for-vs/command-prompt.png" alt-text="Screenshot of the Developer Command Prompt for Visual Studio 2019 showing clrver tool.":::
@@ -246,7 +243,7 @@ The Project Location can be adjusted in **Tools** > **Options** > **Projects &am
 > [!TIP]
 > The command-line arguments `-Arch`, `-HostArch`, and `-SkipAutomaticLocation` are supported by both the `Launch-VsDevShell.ps1` script and the `Enter-VsDevShell` cmdlet.
 
-## See also
+## Related content
 
 - [Windows Terminal](/windows/terminal/)
 - [.NET Framework Tools](/dotnet/framework/tools/index)

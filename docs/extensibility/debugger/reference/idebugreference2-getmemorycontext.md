@@ -1,26 +1,22 @@
 ---
 description: "Gets a memory context of a reference."
-title: IDebugReference2::GetMemoryContext | Microsoft Docs
+title: IDebugReference2::GetMemoryContext
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugReference2::GetMemoryContext
 helpviewer_keywords:
 - IDebugReference2::GetMemoryContext
-ms.assetid: 47fc3827-07a0-4eee-b7f4-fc1c62e6b25c
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugReference2::GetMemoryContext
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets a memory context of a reference. Reserved for future use.
 
 ## Syntax

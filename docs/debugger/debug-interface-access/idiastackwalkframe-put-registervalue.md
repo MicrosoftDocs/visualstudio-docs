@@ -1,23 +1,19 @@
 ---
 description: "IDiaStackWalkFrame::put_registerValue sets the value of a register."
-title: "IDiaStackWalkFrame::put_registerValue | Microsoft Docs"
+title: "IDiaStackWalkFrame::put_registerValue"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaStackWalkFrame::put_registerValue method"
-ms.assetid: 2d8b79b6-7240-43fe-b24e-e4ff3e2c15b0
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaStackWalkFrame::put_registerValue
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the value of a register.
 
 ## Syntax

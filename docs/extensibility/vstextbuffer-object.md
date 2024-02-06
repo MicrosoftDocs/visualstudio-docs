@@ -1,5 +1,5 @@
 ---
-title: VSTextBuffer Object | Microsoft Docs
+title: VSTextBuffer Object
 description: The VSTextBuffer object represents a stream of Unicode text, which is generally associated with a file. This article lists the interfaces of VSTextBuffer.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -8,17 +8,13 @@ f1_keywords:
 helpviewer_keywords:
 - VSTextBuffer object, reference
 - views [Visual Studio SDK], VSTextBuffer object
-ms.assetid: c5f94b45-7249-4e1f-a53d-1d2a1c61e0ef
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # VSTextBuffer object
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The text buffer object represents a stream of Unicode text, which is generally associated with a file. A <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> object can be used outside the context of the core editor, as in, a wizard.
 
  The following table shows the interfaces of `VSTextBuffer`.

@@ -1,18 +1,14 @@
 ---
-title: "How to: Extend the Domain-Specific Language Designer"
+title: "Extend the Domain-Specific Language Designer"
 description: Learn how you can make extensions to the designer that you use to edit domain-specific language (DSL) Definitions.
 ms.date: 11/04/2016
 ms.topic: how-to
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-  - "multiple"
+ms.subservice: modeling
 ---
-# How to: Extend the Domain-Specific Language Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Extend the Domain-Specific Language Designer
 
 You can make extensions to the designer that you use to edit DSL Definitions. Types of extension that you can make include adding menu commands, adding handlers for drag and double-click gestures, and rules that are triggered when particular types of values or relationships change. The extensions can be packaged as a Visual Studio Integration Extension (VSIX) and distributed to other users.
 

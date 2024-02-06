@@ -10,17 +10,13 @@ dev_langs:
 helpviewer_keywords: 
   - ClickOnce deployment, updates
   - deployment update, alternative locations
-ms.assetid: 7faacd35-2638-492d-80f6-6b57e5f820de
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
+ms.subservice: deployment
 ---
-# How to: Specify an alternate location for deployment updates
+# Specify an alternate location for deployment updates
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can install your ClickOnce application initially from a CD or a file share, but the application must check for periodic updates on the Web. You can specify an alternate location for updates in your deployment manifest so that your application can update itself from the Web after its initial installation.
 
 > [!NOTE]
@@ -58,7 +54,7 @@ You can install your ClickOnce application initially from a CD or a file share, 
 
  All ClickOnce applications that use `<deploymentProvider>` should explicitly declare the permissions they need in their application manifest, so that the application does not receive different levels of trust on different computers.
 
-## See also
+## Related content
 - [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)
 - [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)
 - [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)

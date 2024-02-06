@@ -1,21 +1,17 @@
 ---
 description: "Retrieves a built-in kind of the HLSL type."
-title: "IDiaSymbol::get_builtInKind | Microsoft Docs"
+title: "IDiaSymbol::get_builtInKind"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: 953e6dba-582e-4b76-b736-898b92e5693e
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_builtInKind
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a built-in kind of the HLSL type.
 
 ## Syntax

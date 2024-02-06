@@ -1,7 +1,7 @@
 ---
-title: Save data back to the database
-description: Use DataSet tools to save data back to the database. The dataset is an in-memory copy of data that should be saved back to the database if it's modified.
-ms.date: 11/04/2016
+title: Save data back to database in .NET Framework apps
+description: Save data back to a database with ADO.NET DataSet tools in Visual Studio and get changed records, transmit updates, or commit changes.
+ms.date: 11/01/2023
 ms.topic: how-to
 helpviewer_keywords:
 - datasets [Visual Basic], validating data
@@ -15,17 +15,12 @@ helpviewer_keywords:
 - saving data, about saving data
 - datasets [Visual Basic], constraints
 - TableAdapters
-ms.assetid: afe6cb8a-dc6a-428b-b07b-903ac02c890b
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# Save data back to the database
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Save data back to the database in .NET Framework applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -272,7 +267,7 @@ In an UPDATE statement, you need to specify both the new values (those that will
 > [!NOTE]
 > You can also set values in the `Parameters` collection yourself in code, which you would typically do in an event handler for the data adapter's <xref:System.Data.DataTable.RowChanging> event.
 
-## See also
+## Related content
 
 - [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)
 - [Create and configure TableAdapters](create-and-configure-tableadapters.md)

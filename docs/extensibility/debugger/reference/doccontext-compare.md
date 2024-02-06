@@ -1,26 +1,22 @@
 ---
 description: "Specifies the criteria for comparing two document contexts."
-title: DOCCONTEXT_COMPARE | Microsoft Docs
+title: DOCCONTEXT_COMPARE
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - DOCCONTEXT_COMPARE
 helpviewer_keywords:
 - DOCCONTEXT_COMPARE enumeration
-ms.assetid: ed947c34-b07e-4b69-8381-b6e7cb842862
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # DOCCONTEXT_COMPARE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the criteria for comparing two document contexts.
 
 ## Syntax

@@ -1,6 +1,6 @@
 ---
 ms.date: 02/24/2023
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.custom: vs-get-started, devdivchpfy22
 ms.author: ghogen
 author: ghogen
@@ -41,6 +41,6 @@ To associate your code with Git, start by creating a new Git repository where yo
 
     The second icon with the pencil shows the number of uncommitted changes to your code. You can select this icon to view those changes in the **Git Changes** window.
 
-To learn more about how to use Git with your app, see the [Visual Studio version control documentation](../../version-control/index.yml).
+To learn more about how to use Git with your app, see the [Visual Studio version control documentation](../../version-control/git-with-visual-studio.md).
 
 ::: moniker-end

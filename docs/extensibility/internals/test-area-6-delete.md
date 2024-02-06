@@ -1,22 +1,18 @@
 ---
-title: 'Test Area 6: Delete | Microsoft Docs'
+title: 'Test Area 6: Delete'
 description: This source control test area covers delete actions in Solution Explorer for your Visual Studio source control plug-in.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - source control [Visual Studio SDK], deleting items
 - source control plug-ins, deleting items
-ms.assetid: 6f2e872c-5ba2-4303-9f50-a90cef9a6225
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Test Area 6: Delete
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This source-control plug-in test area covers delete actions.
 
  Source control responds to delete actions in **Solution Explorer**.
@@ -50,5 +46,5 @@ This source-control plug-in test area covers delete actions.
 |Delete a File System Web project|1.  Create a File System Web project (use the Browse button to specify a UNC path).<br />2.  Add the solution to source control.<br />3.  Remove the entire project from the solution.<br />4.  Repeat steps 1 through 3 for a local Web project (exercises different paths through the code but has the same external interface and behavior).|Common Expected Behavior.|
 |Delete a file from a File System Web project|1.  Create a File System Web project.<br />2.  Add the solution to source control.<br />3.  Delete a file from the project.<br />4.  Repeat steps 1 through 3 for a local Web project (exercises different paths through the code but has the same external interface and behavior).|Common Expected Behavior.|
 
-## See also
+## Related content
 - [Test Guide for Source Control Plug-ins](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)

@@ -1,18 +1,14 @@
 ---
 title: Tips to improve performance
-description: Learn how to optimize certain Visual Studio features that you might not be using to help improve performance.
+description: Explore tips to improve and optimize certain Visual Studio features that you might not be using to help improve performance.
 ms.date: 05/22/2023
 ms.topic: conceptual
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Visual Studio performance tips and tricks
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio performance recommendations are intended for low memory situations, which may occur in rare cases. In these situations, you can optimize certain Visual Studio features that you may not be using. The following tips aren't intended as general recommendations.
 
@@ -143,6 +139,6 @@ If forcing garbage collection reliably makes your scenario work, file a report t
 
 For a detailed description of the CLR garbage collector, see [Fundamentals of garbage collection](/dotnet/standard/garbage-collection/fundamentals).
 
-## See also
+## Related content
 
 - [Optimize Visual Studio performance](../ide/optimize-visual-studio-performance.md)

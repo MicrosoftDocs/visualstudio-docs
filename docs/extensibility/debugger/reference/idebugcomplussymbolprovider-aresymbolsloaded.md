@@ -1,25 +1,21 @@
 ---
 description: "Determines if the debug symbols are loaded for the specified module given the application domain identifier."
-title: IDebugComPlusSymbolProvider::AreSymbolsLoaded | Microsoft Docs
+title: IDebugComPlusSymbolProvider::AreSymbolsLoaded
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - AreSymbolsLoaded
 - IDebugComPlusSymbolProvider::AreSymbolsLoaded
-ms.assetid: bbf8707d-f89c-4177-b019-d519f1ec6f4a
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::AreSymbolsLoaded
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if the debug symbols are loaded for the specified module given the application domain identifier.
 
 ## Syntax

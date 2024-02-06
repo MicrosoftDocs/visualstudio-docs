@@ -5,15 +5,15 @@ summary: Learn about the new VisualStudio.Extensibility SDK, current in preview.
 
 metadata:
   title: VisualStudio.Extensibility SDK
-  description: Learn how to extend Visual Studio using the new VisualStudio.Extensibility SDK.
+  description: Explore how to extend Visual Studio with the VisualStudio.Extensibility SDK, create an extension, work with commands, tools, the code editor, and debugging features.
   ms.topic: landing-page
   ms.date: 05/30/2023
   author: maiak
   ms.author: maiak
   monikerRange: ">=vs-2022"
   manager: jmartens
-  ms.prod: visual-studio-windows
-  ms.technology: vs-extensibility  
+  
+  ms.subservice: extensibility-integration  
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
 

@@ -1,7 +1,7 @@
 ---
 title: Documents, Environment, Options Dialog Box
 description: Learn how to use the Environments page in the Documents section to control the display of documents in the IDE and manage external changes to documents and files.
-ms.date: 05/16/2022
+ms.date: 10/23/2023
 ms.topic: reference
 f1_keywords:
 - VS.Environment.Documents
@@ -26,17 +26,12 @@ helpviewer_keywords:
 - Options dialog box, Documents page
 - warnings, files changed
 - Solution Explorer, displaying files in
-ms.assetid: 4e3ccf1b-cd68-4db6-9470-710c911b47fc
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Options dialog box: Environment \> Documents
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use this page of the **Options** dialog box to control the display of documents in the integrated development environment (IDE) and manage external changes to documents and files. You can access this dialog box by clicking **Options** on the **Tools** menu and then selecting **Environment** > **Documents**.
 
@@ -73,7 +68,7 @@ Select this option to display the **Miscellaneous Files** node in **Solution Exp
 
 **Items saved in the Miscellaneous files project**
 
-Specifies the number of files to persist in the **Miscellaneous Files** folder of **Solution Explorer**. These files are listed even if they are no longer open in an editor. You can specify any whole number from 0 to 256. The default number is 0.
+Specifies the number of files to persist in the **Miscellaneous Files** folder of **Solution Explorer**. These files are listed even if they are no longer open in an editor. You can specify any whole number from 0 to 99. The default number is 0.
 
 For example, if you set this option to 5 and have 10 miscellaneous files open, when you close all 10 files, the first 5 will still be shown in the **Miscellaneous Files** folder.
 

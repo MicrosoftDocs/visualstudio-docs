@@ -10,13 +10,9 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Set language-specific editor options
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio offers a variety of text editor options that apply to specific programming languages. You can configure options in the **Options** dialog box, which is accessed from the **Tools** menu. You can also configure some editor settings on a project- or codebase-basis by [creating an EditorConfig file](../../ide/create-portable-custom-editor-options.md).
 

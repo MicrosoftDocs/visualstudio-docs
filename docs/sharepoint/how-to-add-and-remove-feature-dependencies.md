@@ -1,5 +1,5 @@
 ---
-title: "How to: Add and Remove Feature Dependencies | Microsoft Docs"
+title: "Add and Remove Feature Dependencies"
 description: Review how to add and remove feature dependencies to your SharePoint solution using the Feature Designer in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -14,13 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+ms.subservice: sharepoint-development
 ---
-# How to: Add and remove feature dependencies
+# Add and remove feature dependencies
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Your SharePoint Feature may depend on other Features for functionality or data. In these cases, you can mark these other Features as dependencies for your Feature. This way, the SharePoint server ensures that dependent Features are activated before your Feature is activated.
 
 ## Add dependencies
@@ -62,7 +59,7 @@ ms.workload:
 
 1. In the Feature Designer, expand the **Feature Activation Dependencies** node, choose the name of the feature that you want to remove, and then choose the **Remove** button.
 
-## See also
+## Related content
 - [Create SharePoint features](../sharepoint/creating-sharepoint-features.md)
 - [How to: Customize a SharePoint feature](../sharepoint/how-to-customize-a-sharepoint-feature.md)
 - [How to: Add and remove items to SharePoint features](../sharepoint/how-to-add-and-remove-items-to-sharepoint-features.md)

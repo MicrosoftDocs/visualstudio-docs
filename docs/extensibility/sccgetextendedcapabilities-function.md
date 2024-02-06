@@ -1,23 +1,19 @@
 ---
 description: "This function returns additional capabilities supported by the source control plug-in."
-title: SccGetExtendedCapabilities Function | Microsoft Docs
+title: SccGetExtendedCapabilities Function
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - SccGetExtendedCapabilities
 helpviewer_keywords:
 - SccGetExtendedCapabilities function
-ms.assetid: 588c6a92-2147-4d8b-a357-96ca7da0a092
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # SccGetExtendedCapabilities function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function returns additional capabilities supported by the source control plug-in.
 
 ## Syntax

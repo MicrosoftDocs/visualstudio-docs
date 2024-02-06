@@ -9,17 +9,13 @@ helpviewer_keywords:
   - "Debug.ListSource command"
   - "list source command"
   - "ListSource command"
-ms.assetid: e45f08d2-f4a3-49c3-9452-aa60508e2f74
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-  - "multiple"
+ms.subservice: general-ide
 ---
 # List Source Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Displays the specified lines of source code.
 
 ## Syntax

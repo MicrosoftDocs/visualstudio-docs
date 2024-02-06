@@ -1,24 +1,20 @@
 ---
 description: "Enumerates additional kinds of fields that an IDebugField object can contain."
-title: FIELD_KIND_EX | Microsoft Docs
+title: FIELD_KIND_EX
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - FIELD_KIND_EX enumeration
-ms.assetid: 922c3208-1e94-485f-b70a-3bc96affeff8
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # FIELD_KIND_EX
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enumerates additional kinds of fields that an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object can contain. This enumeration extends the [FIELD_KIND](../../../extensibility/debugger/reference/field-kind.md) enumeration.
 
 ## Syntax

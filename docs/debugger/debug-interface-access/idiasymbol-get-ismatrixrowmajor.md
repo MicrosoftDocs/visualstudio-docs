@@ -1,21 +1,17 @@
 ---
 description: "Specifies whether the matrix is row major."
-title: "IDiaSymbol::get_isMatrixRowMajor | Microsoft Docs"
+title: "IDiaSymbol::get_isMatrixRowMajor"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: 36b1e881-ea76-48b0-b67f-e9eb0d19bec7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_isMatrixRowMajor
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies whether the matrix is row major.
 
 ## Syntax

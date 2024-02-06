@@ -1,21 +1,17 @@
 ---
-title: Control of Execution | Microsoft Docs
+title: Control of Execution
 description: Learn about stopping events, which means that the DE waits for a response from the user by means of the IDE.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], control of execution
-ms.assetid: 97071846-007e-450f-95a6-f072d0f5e61e
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # Control of execution
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The debug engine (DE) typically sends one of the following events as the last startup event:
 
 - The entry point event, if attaching to a newly launched program
@@ -57,5 +53,5 @@ The debug engine (DE) typically sends one of the following events as the last st
 
    The calls the SDM makes to `Step`, **Execute**, and **Continue** are asynchronous, which means that the SDM expects the call to return quickly. If the DE sends the SDM a stopping event on the same thread before `Step`, **Execute**, or **Continue** returns, the SDM stops responding.
 
-## See also
+## Related content
 - [Debug tasks](../../extensibility/debugger/debugging-tasks.md)

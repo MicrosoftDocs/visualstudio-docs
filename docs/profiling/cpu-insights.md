@@ -6,10 +6,8 @@ ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'
-ms.workload: 
-  - multiple
 ---
 # Diagnose high latency with CPU Insights
 
@@ -31,7 +29,7 @@ On the summary page under **Top Functions**, you can find the top functions call
 
 ![Screenshot showing Hot Path selected.](./media/vs-2022/hot-path.png "Hot Path selected")
 
-## See also
+## Related content
 
 - [Analyze CPU usage in the Performance Profiler](../profiling/cpu-usage.md)
 - [Identify hot paths with Flame Graph](../profiling/flame-graph.md)

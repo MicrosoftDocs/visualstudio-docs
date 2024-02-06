@@ -1,22 +1,17 @@
 ---
-title: Creating Custom Editors and Designers | Microsoft Docs
+title: Creating Custom Editors and Designers
 description: "Learn about the different types of editors that can by hosted by the Visual Studio IDE: the core editor, custom editors, external editors, and designers."
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - designers [Visual Studio SDK]
 - editors [Visual Studio SDK], custom
-ms.assetid: b6a5e8b2-0ae1-4fc3-812d-09d40051b435
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Create custom editors and designers
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio integrated development environment (IDE) can host different types of editor:
 
@@ -89,17 +84,15 @@ Explains the difference between syntax coloring in the core editor and in custom
 [Document data and document view in custom editors](../extensibility/document-data-and-document-view-in-custom-editors.md)\
 Explains how to implement document data and document views in custom editors.
 
-## Related sections
+## Related content
 
-[Legacy interfaces in the editor](/previous-versions/visualstudio/visual-studio-2015/extensibility/legacy-interfaces-in-the-editor?preserve-view=true&view=vs-2015)\
+- [Legacy interfaces in the editor](/previous-versions/visualstudio/visual-studio-2015/extensibility/legacy-interfaces-in-the-editor?preserve-view=true&view=vs-2015)\
 Explains how to access the core editor by means of the legacy API.
 
-[Develop a legacy language service](../extensibility/internals/developing-a-legacy-language-service.md)\
+- [Develop a legacy language service](../extensibility/internals/developing-a-legacy-language-service.md)\
 Explains how to implement a language service.
 
-[Extend other parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)\
+- [Extend other parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)\
 Explains how to create UI elements that match the rest of Visual Studio.
-
-## See also
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory>

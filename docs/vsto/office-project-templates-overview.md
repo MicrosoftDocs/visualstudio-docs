@@ -1,6 +1,6 @@
 ---
 title: "Office project templates overview"
-description: Learn how the Microsoft Office developer tools in Visual Studio include project templates for creating different types of Office solutions.
+description: Explore how the Microsoft Office developer tools in Visual Studio include project templates for creating different types of Office solutions.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -29,13 +29,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
 # Office project templates overview
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The Microsoft Office developer tools in Visual Studio include project templates for creating the following types of Office solutions:
 
 - [Document-level customizations](#DocLevel)
@@ -49,7 +46,7 @@ ms.workload:
   Each project provides files and code to get you started on a specific kind of solution. The generated code for each project includes startup and shutdown event handlers. You can add code to these event handlers to initialize your solution when it is loaded and to clean up your solution when it is unloaded. For more information, see [Office projects in the Visual Studio environment](../vsto/office-projects-in-the-visual-studio-environment.md) and [Events in Office projects](../vsto/events-in-office-projects.md).
 
 > [!NOTE]
-> The Office development tools are included with certain editions of Visual Studio. For more information, see [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md).
+> The Office development tools are included with certain editions of Visual Studio. For more information, see [Configure a computer to develop Office solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md).
 
 ## <a name="DocLevel"></a> Document-level customizations
  The **Office** node in the **New Project** dialog box provides the following project templates to get you started creating document-level customizations for Word and Excel:
@@ -164,7 +161,7 @@ ms.workload:
 ## Excel Add-ins (.xla Files)
  There is no Office project for creating an Excel VSTO Add-in (*.xla* file). It is possible to save a workbook as an .xla file, but it is not a supported operation and is not recommended. If you save a workbook that has managed code extensions as a **Microsoft Office Excel Add-In (\*.xla)** file, you can select it in the **Add-Ins** dialog box to apply to another workbook. In some cases, your code will run in the target workbook after the VSTO Add-in is applied, but such use of the Office solution is not supported.
 
-## See also
+## Related content
 - [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
 - [Develop Office solutions](../vsto/developing-office-solutions.md)
 - [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)

@@ -6,14 +6,10 @@ ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 monikerRange: vs-2022
 ---
 # Learn about the Spell Checker
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Many of the features in Visual Studio are designed to help you write the code you want, from making sure that your code compiles to helping you with code styling. Now, with the **Spell Checker** feature&mdash;introduced in [version 17.5](/visualstudio/releases/2022/release-notes-v17.5)&mdash;Visual Studio can even make sure your spelling is accurate.
 
@@ -105,6 +101,6 @@ There are a few special behaviors in how Visual Studio checks code for spelling 
 - Backslashes in a string will omit the subsequent character from being spell-checked and treat the backslash and subsequent character as a word delimiter. For example, in the string `hello\nworld`, Visual Studio detects the backslash first. Visual Studio treats the `\n` as a word delimiter, which leaves "hello" and "world", each of which are checked individually.
 - Strings that contain URLs such as `https://...` or `mailto:..` won't be spell-checked over the entire string.
 
-## See also
+## Related content
 
 - [Improving the Spell Checker](https://devblogs.microsoft.com/visualstudio/improving-the-spell-checker/)

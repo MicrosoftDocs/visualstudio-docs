@@ -1,26 +1,22 @@
 ---
 description: "Specifies the location type of the breakpoint for a breakpoint request."
-title: BP_LOCATION_TYPE | Microsoft Docs
+title: BP_LOCATION_TYPE
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - BP_LOCATION_TYPE
 helpviewer_keywords:
 - BP_LOCATION_TYPE structure
-ms.assetid: 0248430a-3b61-4809-87a9-e9b6bb7d1130
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # BP_LOCATION_TYPE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the location type of the breakpoint for a breakpoint request.
 
 ## Syntax

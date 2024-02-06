@@ -14,13 +14,9 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
 # Design and create Office solutions
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio provides project templates that you can use to create several different types of Office solutions. This section of the documentation describes the project templates and provides guidance about creating Office projects. For information about how to implement code and user interface customizations after you have created your project, see [Develop Office solutions](../vsto/developing-office-solutions.md).
 
@@ -89,7 +85,7 @@ Visual Studio provides project templates that you can use to create several diff
 ## Referenced assemblies
  The assembly can reference other assemblies, which are listed in the project's references. However, one document-level project assembly cannot reference another document-level project assembly.
 
-## See also
+## Related content
 - [Office project templates overview](../vsto/office-project-templates-overview.md)
 - [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
 - [Office projects in the Visual Studio environment](../vsto/office-projects-in-the-visual-studio-environment.md)

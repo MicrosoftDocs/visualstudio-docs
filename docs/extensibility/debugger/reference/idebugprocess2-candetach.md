@@ -1,26 +1,22 @@
 ---
 description: "Determines if the session debug manager (SDM) can detach the process."
-title: IDebugProcess2::CanDetach | Microsoft Docs
+title: IDebugProcess2::CanDetach
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProcess2::CanDetach
 helpviewer_keywords:
 - IDebugProcess2::CanDetach
-ms.assetid: 2830f7c3-69fb-474a-97b8-5b869e38d546
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProcess2::CanDetach
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if the session debug manager (SDM) can detach the process.
 
 ## Syntax

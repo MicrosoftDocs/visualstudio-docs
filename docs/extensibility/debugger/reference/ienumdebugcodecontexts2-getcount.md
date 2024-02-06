@@ -1,26 +1,22 @@
 ---
 description: "Returns the number of code context elements in the enumeration."
-title: IEnumDebugCodeContexts2::GetCount | Microsoft Docs
+title: IEnumDebugCodeContexts2::GetCount
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugCodeContexts2::GetCount
 helpviewer_keywords:
 - IEnumDebugCodeContexts2::GetCount
-ms.assetid: 74c52fcf-688c-40df-9acd-29b3b84e6216
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugCodeContexts2::GetCount
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the number of elements in the enumeration.
 
 ## Syntax

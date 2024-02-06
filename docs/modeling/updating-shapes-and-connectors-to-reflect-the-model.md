@@ -6,13 +6,9 @@ ms.topic: conceptual
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+ms.subservice: modeling
 ---
 # Update Shapes and Connectors to Reflect the Model
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In a domain-specific language in Visual Studio, you can make the appearance of a shape reflect the state of the underlying model.
 

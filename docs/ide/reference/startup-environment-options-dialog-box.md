@@ -5,18 +5,13 @@ ms.date: 01/10/2023
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Environment.Startup"
-ms.assetid: 9d517203-3c62-4660-b7b4-ea7d032dcb1e
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-  - "multiple"
+ms.subservice: general-ide
 monikerRange: vs-2019
 ---
 # Options dialog box: Environment \> Startup
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use this page to set a different default action when Visual Studio starts up. In the **On startup, open** list, choose from **Start window** (which lets you open a new or existing project), **Most recent solution**, or **Empty environment**.
 

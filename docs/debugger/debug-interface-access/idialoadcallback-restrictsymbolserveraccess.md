@@ -1,23 +1,19 @@
 ---
 description: "Determines if access is allowed to a symbol server to resolve symbols."
-title: "IDiaLoadCallback::RestrictSymbolServerAccess | Microsoft Docs"
+title: "IDiaLoadCallback::RestrictSymbolServerAccess"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaLoadCallback::RestrictSymbolServerAccess method"
-ms.assetid: db37ad9f-f75e-4f0c-83bf-21a6e66ba859
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaLoadCallback::RestrictSymbolServerAccess
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if access is allowed to a symbol server to resolve symbols.
 
 ## Syntax

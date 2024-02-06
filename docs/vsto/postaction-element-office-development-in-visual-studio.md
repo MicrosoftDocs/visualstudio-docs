@@ -13,13 +13,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
 # &lt;postAction&gt; element (Office development in Visual Studio)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The `postAction` element of the `vstav3` namespace contains the `entrypoint` elements and all `postActionData` elements that are associated with post-deployment actions, which run after Office solutions are installed.
 
 ## Syntax

@@ -7,14 +7,10 @@ helpviewer_keywords:
 - IntelliTest, Dynamic symbolic execution
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-test
-ms.workload:
-- multiple
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Input generation using dynamic symbolic execution
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 IntelliTest generates inputs for [parameterized unit tests](test-generation.md#parameterized-unit-testing) by analyzing the branch conditions in the program. Test inputs are chosen based on whether they can trigger new branching behaviors of the program. The analysis is an incremental process. It refines a predicate `q: I -> {true, false}` over the formal test input parameters `I`. `q` represents the set of behaviors that IntelliTest has already observed. Initially, `q := false`, since nothing has yet been observed.
 
@@ -96,7 +92,7 @@ determine new test inputs, including objects and
 their field values, such that the test and the
 program under test will behave in other interesting ways.
 
-This means that IntelliTest must to create objects of
+This means that IntelliTest must create objects of
 certain types and set their field values. If the
 class is [visible](#visibility) and has a
 [visible](#visibility) default constructor,
@@ -214,6 +210,6 @@ The [PexChoose](static-helper-classes.md#pexchoose) static class can be used to 
 
 Post your ideas and feature requests on [Developer Community](https://aka.ms/feedback/suggest?space=8).
 
-## Further reading
+## Related content
 
 * [How does it work?](https://devblogs.microsoft.com/devops/smart-unit-tests-a-mental-model/)

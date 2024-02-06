@@ -19,17 +19,12 @@ helpviewer_keywords:
 - views, line numbers
 - views, changing mode
 - views, outlining
-ms.assetid: 1fb48027-d870-439f-8b72-4a0321390748
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
-# How to: Manage editor modes
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Manage editor modes
 
 With Visual Studio, you can view the code editor in various display modes.
 
@@ -65,7 +60,7 @@ In **Virtual Space** mode, spaces are inserted at the end of each line of code. 
     > [!NOTE]
     > **Virtual Space** is enabled in **Column Selection** mode. When **Virtual Space** mode is not enabled, the insertion point moves from the end of one line directly to the first character of the next.
 
-## See also
+## Related content
 
 - [Customize window layouts and personalize tabs](../ide/customizing-window-layouts-in-visual-studio.md)
 - [Fonts and Colors, Environment, Options dialog box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md)

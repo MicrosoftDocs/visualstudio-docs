@@ -1,5 +1,5 @@
 ---
-title: "Building and Debugging SharePoint Solutions | Microsoft Docs"
+title: "Building and Debugging SharePoint Solutions"
 description: Learn to build and debug SharePoint solutions, and understand how it's different from building and debugging other types of projects in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: overview
@@ -12,13 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+ms.subservice: sharepoint-development
 ---
 # Build and debug SharePoint solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   In general, building and debugging SharePoint solutions is the same as building and debugging other types of projects in Visual Studio. The topics in this section explain the differences that do exist.
 
 ## Project output for SharePoint solutions

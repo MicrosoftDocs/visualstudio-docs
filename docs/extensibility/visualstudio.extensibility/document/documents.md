@@ -4,10 +4,9 @@ description: An overview of extensibility documents
 author: maiak
 ms.author: maiak
 monikerRange: ">=vs-2022"
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ms.topic: overview
 ms.date: 02/10/2023
-ms.custom: template-overview
 ---
 
 # Extend Visual Studio documents
@@ -21,8 +20,7 @@ class, which has the following properties:
 - `IsReadOnly`
 - `IsInitialized`
 
-The `DocumentsExtensibility` object provides various methods that are used to obtain and work with
-`DocumentSnapshot` object instances.
+The [`DocumentsExtensibility`](/dotnet/api/microsoft.visualstudio.extensibility.documentsextensibility) object provides various methods that are used to obtain and work with `DocumentSnapshot` object instances.
 
 ## Work with documents
 
@@ -48,8 +46,8 @@ DocumentSnapshot document = await documents.OpenDocumentAsync(uri, cancellationT
 ### Get a text document snapshot
 
 A `DocumentSnapshot` is an abstract representation of a document.  If you want to read or write the text in a
-`DocumentSnapshot`, you can do so using the `ITextDocumentSnapshot` interface, which can be obtained with the
-`AsTextDocumentAsync` extension method for `DocumentSnapshot`.
+`DocumentSnapshot`, you can do so using the [`ITextDocumentSnapshot`](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextdocumentsnapshot) interface, which can be obtained with the
+[`AsTextDocumentAsync`](/dotnet/api/microsoft.visualstudio.extensibility.documentextensions.astextdocumentasync) extension method for `DocumentSnapshot`.
 
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
@@ -74,7 +72,7 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 
 There are scenarios when components may want to react to events related to documents (that is, when they're opened,
 closed, or saved).  This can be accomplished by implementing the `IDocumentEventsListener` interface, and
-using `DocumentsExtensibility.SubscribeAsync` to set up the event subscription.
+using [`DocumentsExtensibility.SubscribeAsync`](/dotnet/api/microsoft.visualstudio.extensibility.documentsextensibility.subscribeasync) to set up the event subscription.
 
 ```csharp
 internal sealed class SubscribeCommand : Command, IToggleCommand

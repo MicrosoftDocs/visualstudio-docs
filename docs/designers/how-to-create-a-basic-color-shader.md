@@ -3,17 +3,12 @@ title: 'Create Shaders with Shader Designer'
 description: Learn how to use Shader Designer to create different types of shaders
 ms.date: 06/04/2023
 ms.topic: how-to
-ms.assetid: c301328a-079a-49e8-b688-4749c01657c0
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-designers
-ms.workload:
-- multiple
+ms.subservice: ui-designers
 ---
 # Create Shaders with Shader Designer in Visual Studio
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this article, you learn how to use the [Shader Designer](../designers/shader-designer.md) to create different kinds of shaders.
 
@@ -41,7 +36,6 @@ The following illustration shows the completed shader graph and a preview of the
 ![Shader graph and its result on a 3&#45;D model](../designers/media/digit-flat-color-effect.png)
 
 Certain shapes might provide better previews for some shaders. For more information about how to preview shaders in the Shader Designer, see [Shader Designer](../designers/shader-designer.md).
-
 
 
 ## Create basic Lambert shaders
@@ -72,7 +66,6 @@ Before you begin, make sure that the **Properties** window and the **Toolbox** a
 The following illustration shows the shader that's described in this document applied to a 3D model.
 
 ![Lambert lighting applied to a model.](../designers/media/digit-lambert-effect-result.png)
-
 
 
 ## Create basic Phong shaders
@@ -116,7 +109,6 @@ The following illustration shows the shader that's described in this document ap
 ![Phong lighting applied to a model](../designers/media/digit-lighting-model.png)
 
 
-
 ## Create basic texture shaders
 
 Use the Shader Designer and the Directed Graph Shader Language (DGSL) to create a single-texture shader. This shader sets the final color directly to the RGB and alpha values that are sampled from the texture.
@@ -152,8 +144,6 @@ Certain shapes might provide better previews for some shaders. For more informat
 
 
 
-
-
 ## Create grayscale texture shaders
 
 Use the Shader Designer and the Directed Graph Shader Language (DGSL) to create a grayscale texture shader. This shader modifies the RGB color value of the texture sample, and then uses it together with the unmodified alpha value to set the final color.
@@ -180,7 +170,6 @@ The following illustration shows the completed shader graph and a preview of the
 In this illustration, a plane is used as the preview shape, and a texture has been specified to better demonstrate the effect of the shader.  Certain shapes might provide better previews for some shaders. To learn more about previewing shaders, see [Shader Designer](../designers/shader-designer.md#preview-shaders).
 
 ![Grayscale texture shader graph and a preview of its effect](../designers/media/digit-grayscale-effect.png)
-
 
 
 ## Create geometry-based gradient shaders
@@ -226,9 +215,7 @@ For more information about how to apply a shader to a 3D model, see [How to: App
 
 
 
-
-
-## Next steps
+## Related content
 - [How to: Apply a shader to a 3D model](../designers/how-to-apply-a-shader-to-a-3-d-model.md)
 - [How to: Export a shader](../designers/how-to-export-a-shader.md)
 - [Shader Designer nodes](../designers/shader-designer-nodes.md)

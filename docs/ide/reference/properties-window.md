@@ -15,17 +15,12 @@ helpviewer_keywords:
 - Properties window, overrides
 - virtual functions, Properties window
 - Properties window
-ms.assetid: e6e0fa4f-75c4-4a52-af15-281cd61876ca
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Properties window
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use this window to view and change the design-time properties and events of selected objects that are located in editors and designers. You can also use the **Properties** window to edit and view file, project, and solution properties. You can find **Properties** Window on the **View** menu. You can also open it by pressing **F4** or by typing **Properties** in the search box.
 

@@ -1,23 +1,19 @@
 ---
 description: "This interface supplies ports to the session debug manager (SDM)."
-title: IDebugPortSupplier2 | Microsoft Docs
+title: IDebugPortSupplier2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPortSupplier2
 helpviewer_keywords:
 - IDebugPortSupplier2 interface
-ms.assetid: 37067324-2ea6-4a01-8829-a6e9c7a70068
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugPortSupplier2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface supplies ports to the session debug manager (SDM).
 
 ## Syntax

@@ -1,5 +1,5 @@
 ---
-title: CvReleaseProvider Function | Microsoft Docs
+title: CvReleaseProvider Function
 description: See reference information for the Concurrency Visualizer SDK function CvReleaseProvider (C library).
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,17 +7,13 @@ f1_keywords:
   - cvmarkers/CvReleaseProvider
 helpviewer_keywords: 
   - CvReleaseProvider method
-ms.assetid: 8d74379e-295d-452b-bd5f-0769df387d4f
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
 # CvReleaseProvider function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Releases marker provider. Releasing the marker provider will not affect previously created marker series of this provider. Marker series have to be release separately by CvReleaseMarkerSeries call. Failure to release provider causes a memory leak.
 
 ## Syntax

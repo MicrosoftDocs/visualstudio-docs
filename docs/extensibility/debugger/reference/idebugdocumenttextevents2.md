@@ -1,23 +1,19 @@
 ---
 description: "This interface is used to notify Visual Studio about changes to the source document that are supplied by the debug engine."
-title: IDebugDocumentTextEvents2 | Microsoft Docs
+title: IDebugDocumentTextEvents2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDocumentTextEvents2
 helpviewer_keywords:
 - IDebugDocumentTextEvents2 interface
-ms.assetid: a10cbb6b-11a8-4056-b42a-2ecebf0e690d
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugDocumentTextEvents2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface is used to notify Visual Studio about changes to the source document that are supplied by the debug engine.
 
 ## Syntax

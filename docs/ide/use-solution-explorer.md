@@ -1,21 +1,16 @@
 ---
 title: Learn about Solution Explorer
-description: Learn how you can use Solution Explorer and its context menu to manage the projects and files in a solution.
+description: Use Solution Explorer in Visual Studio and review the context menu options to manage the projects and files in a solution.
 ms.date: 08/08/2023
 ms.topic: conceptual
-ms.custom: contperf-fy22q4
 helpviewer_keywords:
 - solution explorer [Visual Studio]
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Learn about Solution Explorer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use Solution Explorer to manage the projects and files within a solution. This article describes the Solution Explorer user interface (UI) in detail, and how to open Solution Explorer if you inadvertently close it. The article also describes how you can use right-click context menu in Solution Explorer to quickly add new files, folders, and code elements to a project.
 
@@ -154,7 +149,7 @@ You can find the **Collapse All Descendants** command on the right-click context
 
 ::: moniker-end
 
-## See also
+## Related content
 
 - [What are solutions and projects in Visual Studio?](solutions-and-projects-in-visual-studio.md)
 - [What is the .NET Project Designer?](reference/project-properties-reference.md)

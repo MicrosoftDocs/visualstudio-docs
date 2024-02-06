@@ -8,17 +8,13 @@ f1_keywords:
 helpviewer_keywords:
   - "list call stack command"
   - "Debug.ListCallStack command"
-ms.assetid: a8b20bf2-81d2-4069-aea8-23e6b15b4347
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-  - "multiple"
+ms.subservice: general-ide
 ---
 # List Call Stack Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Displays the current call stack.
 
 ## Syntax

@@ -1,22 +1,17 @@
 ---
-title: How to run code analysis manually for .NET
+title: Run code analysis manually for .NET
 ms.date: 05/13/2022
 description: "Learn how to manually run code analysis in Visual Studio 2019 version 16.5 or later versions. See how to run Roslyn analyzers on C# or Visual Basic code."
 ms.topic: how-to
 helpviewer_keywords:
   - code analysis, running
   - run code analysis
-ms.assetid: 5086d228-f92e-4515-9708-c5b89b9e9a03
 author: mikadumont
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-code-analysis
-ms.workload:
-  - dotnet
+ms.subservice: code-analysis
 ---
 # Run code analysis manually for .NET
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 By default, .NET Compiler Platform ("Roslyn") analyzers analyze your C# or Visual Basic code as you type by doing live analysis, as well as during build. Hence, you won't normally need to trigger code analysis manually. However, there are some scenarios where you may want to manually trigger code analysis:
 

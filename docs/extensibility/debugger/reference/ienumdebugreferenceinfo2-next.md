@@ -1,26 +1,22 @@
 ---
 description: "Returns the next set of DEBUG_REFERENCE_INFO elements from the enumeration."
-title: IEnumDebugReferenceInfo2::Next | Microsoft Docs
+title: IEnumDebugReferenceInfo2::Next
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugReferenceInfo2::Next
 helpviewer_keywords:
 - IEnumDebugReferenceInfo2::Next
-ms.assetid: 70b31a57-1701-4757-9e7e-63ec60a71b3c
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugReferenceInfo2::Next
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the next set of elements from the enumeration.
 
 ## Syntax

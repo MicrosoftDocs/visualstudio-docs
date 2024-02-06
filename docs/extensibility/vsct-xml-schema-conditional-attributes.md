@@ -1,22 +1,18 @@
 ---
-title: VSCT XML Schema Conditional Attributes | Microsoft Docs
+title: VSCT XML Schema Conditional Attributes
 description: Learn how to apply conditional attributes to VSCT XML schema lists and items. Attributes evaluate to true or false, controlling the resulting output.
 ms.date: 07/13/2022
 ms.topic: reference
 helpviewer_keywords:
 - VSCT XML schema elements, conditional attributes
 - conditional attributes (VSCT XML schema)
-ms.assetid: 754d4f32-319b-44c9-915f-f7c60e53222e
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # VSCT XML schema conditional attributes
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can apply conditional attributes to all lists and items. Logical operators and symbol expansion expressions evaluate to true or false. If true, the associated list or item is included in the resulting output.
 
  You can test token expansions against other token expansions or constants. The function `Defined()` tests whether a particular name has been defined, even if it has no value. To define a name, use the `VSCTDefinitions` property in your project file.

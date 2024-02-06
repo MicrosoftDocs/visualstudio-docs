@@ -7,17 +7,12 @@ helpviewer_keywords:
 - RunExit Devenv switch
 - Devenv, /RunExit switch
 - /RunExit Devenv switch
-ms.assetid: bfc94875-5fc0-4110-b961-d59c0b403790
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # /RunExit (devenv.exe)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Compiles and runs the specified project or solution, and then closes the integrated development environment (IDE).
 

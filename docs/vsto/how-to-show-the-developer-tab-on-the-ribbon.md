@@ -1,6 +1,6 @@
 ---
-title: "How to: Show the Developer tab on the ribbon"
-description: Learn how you can use Visual Studio to programmatically show the Developer tab on the ribbon in a Microsoft Word document.
+title: "Show the Developer tab on the ribbon"
+description: Explore how to configure Visual Studio to programmatically show the Developer tab on the ribbon in a Microsoft Word document.
 ms.date: "08/14/2019"
 ms.topic: "how-to"
 dev_langs:
@@ -12,13 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Show the Developer tab on the ribbon
+# Show the Developer tab on the ribbon
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   To access the **Developer** tab on the ribbon of an Office application, you must configure it to show that tab because it doesn't appear by default. For example, you must show that tab if you want to add a <xref:Microsoft.Office.Tools.Word.GroupContentControl> to a document-level customization for Word.
 
 > [!NOTE]
@@ -64,5 +61,5 @@ ms.workload:
 
 5. Choose the **OK** button to close the **Options** dialog box.
 
-## See also
+## Related content
 - [Office UI customization](../vsto/office-ui-customization.md)

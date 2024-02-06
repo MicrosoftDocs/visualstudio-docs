@@ -1,20 +1,17 @@
 ---
-title: Item Metadata in Task Batching | Microsoft Docs
+title: Item Metadata in Task Batching
 description: Learn how MSBuild uses item metadata in task batching to divide item lists into different categories, or batches, and run a task one time with each batch.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - batching [MSBuild]
 - MSBuild, batching
 - task batching [MSBuild]
 - MSBuild, task batching
-ms.assetid: 31e480f8-fe4d-4633-8c54-8ec498e2306d
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # Item metadata in task batching
 
@@ -247,7 +244,7 @@ The [Message task](../msbuild/message-task.md) displays the following informatio
 Items in ExampColl: Item2;Item5
 ```
 
-## See also
+## Related content
 
 - [Well-known item metadata](../msbuild/msbuild-well-known-item-metadata.md)
 - [Item element (MSBuild)](../msbuild/item-element-msbuild.md)

@@ -1,6 +1,6 @@
 ---
-title: Turn off constraints while filling a dataset
-description: Know how to turn off constraints while filling a dataset. Suspend update constraints programmatically or by using the Dataset Designer.
+title: Turn off constraints while filling a dataset in .NET Framework applications
+description: Know how to turn off constraints while filling a dataset. Suspend update constraints programmatically or by using the Dataset Designer when developing .NET Framework applications with Visual Studio.
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -15,17 +15,12 @@ helpviewer_keywords:
 - constraints [Visual Basic], datasets
 - datasets [Visual Basic], constraints
 - constraints [Visual Basic], suspending during dataset update
-ms.assetid: 553f7d0c-2faa-4c17-b226-dd02855bf1dc
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# Turn off constraints while filling a dataset
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Turn off constraints while filling a dataset in .NET Framework applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
@@ -53,7 +48,7 @@ If there were no mechanism to allow temporary constraint suspension, an error wo
 
 2. In the **Properties** window, set the <xref:System.Data.DataSet.EnforceConstraints%2A> property to `false`.
 
-## See also
+## Related content
 
 - [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md)
 - [Relationships in datasets](../data-tools/relationships-in-datasets.md)

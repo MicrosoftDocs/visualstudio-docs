@@ -1,7 +1,6 @@
 ---
-title: "Remote Debug a C++ Project | Microsoft Docs"
-description: Learn how to debug a Visual Studio C++ application from a remote computer by following these step-by-step instructions.
-ms.custom: "remotedebugging"
+title: "Remote Debug a C++ Project"
+description: Debug a Visual Studio C++ application from a remote computer, install and run remote tools, configure your project to connect, and deploy and run your app.
 ms.date: "03/20/2023"
 ms.topic: "conceptual"
 dev_langs:
@@ -12,17 +11,12 @@ dev_langs:
   - "VB"
 helpviewer_keywords:
   - "remote debugging, setup"
-ms.assetid: 8b8eca0d-122f-4eda-848a-cf0945f207d0
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "cplusplus"
+ms.subservice: debug-diagnostics
 ---
 # Remote Debugging a C++ Project in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To debug a Visual Studio application on a different computer, install and run the remote tools on the computer where you will deploy your app, configure your project to connect to the remote computer from Visual Studio, and then deploy and run your app.
 
@@ -109,7 +103,7 @@ You should be able to debug your code with the symbols you generate on the Visua
 
 If you must use remote symbols, you need to specify the remote symbols in Visual Studio by adding a Windows file share to the symbol search path in **Tools > Options > Debugging > Symbols**.
 
-## See also
+## Related content
 - [Debugging in Visual Studio](../debugger/index.yml)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)

@@ -16,24 +16,20 @@ helpviewer_keywords:
   - "remote debugging, DCOM error"
   - "remote DCOM access denied error"
   - "DCOM, access errors"
-ms.assetid: 9d7dfc1b-9fe0-4f54-9c50-9c0e0f8358c5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # A DCOM error occurred trying to contact the remote computer. Access is denied.
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Remote debugging uses DCOM to communicate between the local and remote computers in the following situations:
 
 - The debugger is set to **Native Compatibility Mode** or **Managed Compatibility Mode** is checked in the **Tools > Options > Debugging** page
 
 - You are debugging managed C++ (C++/CLI) code.
 
-- In Visual Studio 2013, when **Enable native Edit and Continue** is checked in the **Tools > Options > Debugging** page
+- In older versions of Visual Studio, when **Enable native Edit and Continue** is checked in the **Tools > Options > Debugging** page
 
 - Some third party debugging scenarios
 
@@ -41,7 +37,7 @@ Remote debugging uses DCOM to communicate between the local and remote computers
 
 - Turn off  **Native Compatibility Mode** and **Managed Compatibility Mode**.
 
-- In Visual Studio 2013, turn off **Enable native Edit and Continue**.
+- In older versions of Visual Studio, turn off **Enable native Edit and Continue**.
 
 - Reboot both computers.
 

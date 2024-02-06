@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a flag that specifies whether the user-defined data type has a constructor or destructor."
-title: "IDiaSymbol::get_constructor | Microsoft Docs"
+title: "IDiaSymbol::get_constructor"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_constructor method"
-ms.assetid: 2f2cf1e0-f817-4ca0-b782-3341362c46a9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_constructor
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that specifies whether the user-defined data type has a constructor or destructor.
 
 ## Syntax

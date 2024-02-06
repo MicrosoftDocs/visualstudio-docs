@@ -1,5 +1,5 @@
 ---
-title: Debug in Mixed Mode | Microsoft Docs
+title: Debug in Mixed Mode (managed and native code)
 description: See how to enable mixed-mode debugging (managed and native code together) in the property pages of the calling app's project.
 ms.date: 04/15/2022
 ms.topic: how-to
@@ -12,17 +12,12 @@ helpviewer_keywords:
   - debugging DLLs
   - debugging [Visual Studio], mixed-mode
   - mixed-mode debugging
-ms.assetid: 2859067d-7fcc-46b0-a4df-8c2101500977
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
-# How to: Debug in mixed mode (C#, C++, Visual Basic)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Debug in mixed mode (C#, C++, Visual Basic)
 
 The following procedures describe how to enable debugging for managed and native code together, also known as mixed-mode debugging. There are two mixed-mode debugging scenarios:
 
@@ -35,7 +30,7 @@ You can enable both managed and native debuggers in the calling app project's **
 If you don't have access to a calling app's project, you can debug the DLL from the DLL project. You don't need mixed mode to debug just the DLL project. For more information, see [How to: Debug from a DLL project](../debugger/how-to-debug-from-a-dll-project.md).
 
 > [!NOTE]
-> The dialog boxes and commands you see might differ from the ones in this article, depending on your Visual Studio settings or edition. To change your settings, choose **Tools** > **Import and Export Settings**. For more information, see [Reset settings](../ide/environment-settings.md#reset-settings).
+> The dialog boxes and commands you see might differ from the ones in this article, depending on your Visual Studio settings or edition. To change your settings, choose **Tools** > **Import and Export Settings**. For more information, see [Reset all settings](../ide/environment-settings.md#reset-all-settings).
 
 ## Enable mixed-mode debugging for a native calling app
 
@@ -74,6 +69,6 @@ If you don't have access to a calling app's project, you can debug the DLL from 
     > For a .NET Core app in Visual Studio 2017 and Visual Studio 2019, you must use the *launchSettings.json* file instead of the project properties to enable mixed-mode debugging.
     ::: moniker-end
 
-## See also
+## Related content
 
 - [How to: Debug from a DLL project](../debugger/how-to-debug-from-a-dll-project.md)

@@ -9,17 +9,13 @@ helpviewer_keywords:
 - symbol path command
 - Debug.SymbolPath command
 - SymbolPath command
-ms.assetid: b697ef2d-3f5d-40df-b113-7068a5bec0d4
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Symbol Path Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the list of directories for the debugger to search for symbols.
 
 ## Syntax

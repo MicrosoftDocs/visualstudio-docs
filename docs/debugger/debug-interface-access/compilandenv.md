@@ -1,5 +1,5 @@
 ---
-title: "CompilandEnv | Microsoft Docs"
+title: "CompilandEnv"
 description: Find reference information about the CompilandEnv symbol type (SymTagCompilandEnv) in the Visual Studio debug interface access SDK.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -7,17 +7,13 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "CompilandEnv symbol"
-ms.assetid: 808404bb-ece1-47f1-b9ea-c76d4d86ddd9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # CompilandEnv
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The compiler may include additional environment variables with symbols. There is one `SymTagCompilandEnv` symbol for each of these variables.
 
 ## Properties

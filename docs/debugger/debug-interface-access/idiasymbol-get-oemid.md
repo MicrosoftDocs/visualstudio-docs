@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the symbol's original equipment manufacturer (OEM) ID value."
-title: "IDiaSymbol::get_oemId | Microsoft Docs"
+title: "IDiaSymbol::get_oemId"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_oemId method"
-ms.assetid: c472830f-c3eb-46ab-9498-cd637763d241
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_oemId
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the symbol's original equipment manufacturer (OEM) ID value.
 
 ## Syntax

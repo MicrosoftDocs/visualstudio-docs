@@ -1,6 +1,6 @@
 ---
 description: "This message occurs when you attempt SQL debugging on a machine where SQL debugging is not enabled."
-title: "Unable to access the SQL Server debugging interface | Microsoft Docs"
+title: "Unable to access the SQL Server debugging interface"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:
@@ -14,13 +14,10 @@ dev_langs:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Error: Unable to access the SQL Server debugging interface
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This message occurs when you attempt SQL debugging on a machine where SQL debugging is not enabled.
 
 ### To correct this error

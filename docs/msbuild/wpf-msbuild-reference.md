@@ -1,5 +1,5 @@
 ---
-title: WPF MSBuild Reference | Microsoft Docs
+title: WPF MSBuild Reference
 description: Learn how Windows Presentation Foundation (WPF) extends the MSBuild build engine with additional build support.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,17 +7,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - build support [WPF]
 - MSBuild [WPF]
-ms.assetid: 94b12890-365d-479a-b239-71109fbcb462
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # WPF MSBuild reference
 

@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a source file by source file identifier."
-title: "IDiaSession::findFileById | Microsoft Docs"
+title: "IDiaSession::findFileById"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSession::findFileById method"
-ms.assetid: 710efe04-78b5-4f3e-a1d8-f9b069063503
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSession::findFileById
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a source file by source file identifier.
 
 ## Syntax

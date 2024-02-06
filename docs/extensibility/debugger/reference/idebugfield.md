@@ -1,23 +1,19 @@
 ---
 description: "This interface represents a field, that is, a description of a symbol or type."
-title: IDebugField | Microsoft Docs
+title: IDebugField
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugField
 helpviewer_keywords:
 - IDebugField interface
-ms.assetid: adecdd1c-b1b9-4027-92da-74cbe910636f
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugField
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a field, that is, a description of a symbol or type.
 
 ## Syntax

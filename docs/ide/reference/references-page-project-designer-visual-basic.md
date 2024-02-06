@@ -10,17 +10,12 @@ f1_keywords:
 helpviewer_keywords:
 - References page in Project Designer
 - Project Designer, References page
-ms.assetid: 5a47c595-e084-401c-86e1-74e0bf74fd86
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # References Page, Project Designer (Visual Basic)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **References** page of the **Project Designer** to manage references, web references, and imported namespaces in your project. Projects can contain references to COM components, XML web services, .NET libraries or assemblies, or other class libraries. For more information on using references, see [Managing references in a project](../../ide/managing-references-in-a-project.md).
 

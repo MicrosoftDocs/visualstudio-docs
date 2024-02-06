@@ -6,14 +6,11 @@ author: "brickgeorge"
 ms.author: madsk
 ms.date: 08/04/2017
 ms.topic: reference
-ms.assetid: 694ffb31-132c-4d63-b930-8254e7c50c25
 ms.reviewer: "Jamie.Young"
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 ---
 # Color value reference for Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This topic is a reference for creating new color tokens. When you're creating new UI, you can use similar colors from existing UI to choose the colors for each main theme and the system color name for that element for High Contrast themes.
 

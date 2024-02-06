@@ -1,19 +1,16 @@
 ---
-title: Item Functions | Microsoft Docs
-description: Learn how MSBuild code in tasks and targets can call item functions to get information about the items in the project.
+title: Call item functions from MSBuild code
+description: Explore how MSBuild code in tasks and targets can call item functions to get information about the items in the project.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - msbuild, Item functions
-ms.assetid: 5e6df3cc-2db8-4cbd-8fdd-3ffd03ac0876
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
-# Item functions
+# Work with item functions
 
 Code in tasks and targets can call item functions to get information about the items in the project (in MSBuild 4.0 and later). These functions simplify getting distinct items and are faster than looping through the items.
 
@@ -106,7 +103,7 @@ The following example shows how to use intrinsic item functions.
 
 ## Detecting duplicates when using the Metadata item function
 
-The `Metadata` item function preserves the original metadata of the source items. This has some implications when considering whether the items returned are duplicates or not. To control how duplicate items are handled, you can use the attribute [KeepDuplicates](./msbuild-items.md#keepduplicates-attribute). You can also remove the metadata, if it's not needed, by adding the [RemoveMetadata](./msbuild-items.md#removemetadata-attribute), in which case only the values themselves are considered when detecting duplicates.
+The `Metadata` item function preserves the original metadata of the source items. This has some implications when considering whether the items returned are duplicates or not. To control how duplicate items are handled, you can use the attribute [KeepDuplicates](./msbuild-items.md#BKMK_KeepDuplicates). You can also remove the metadata, if it's not needed, by adding the [RemoveMetadata](./msbuild-items.md#BKMK_RemoveMetadata), in which case only the values themselves are considered when detecting duplicates.
 
 ```xml
   <Target Name="MetadataToItem">
@@ -141,6 +138,6 @@ The following change to the code results in the duplicate item value being succe
 
 The function `HasTrailingSlash` is not an item function. It is available for use with the `Condition` attribute. See [MSBuild conditions](msbuild-conditions.md).
 
-## See also
+## Related content
 
-You can also use attributes to perform operations on item lists, such as filtering on item metadata; see [Items](../msbuild/msbuild-items.md).
+You can also use attributes to perform operations on item lists, such as filtering on item metadata. For more information, see [Items](../msbuild/msbuild-items.md).

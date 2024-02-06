@@ -1,23 +1,19 @@
 ---
 description: "Returns an indicator of a methods calling convention."
-title: "IDiaSymbol::get_callingConvention | Microsoft Docs"
+title: "IDiaSymbol::get_callingConvention"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_callingConvention method"
-ms.assetid: 355d3877-b6b6-45fd-a1d8-baed428d8f96
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_callingConvention
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns an indicator of a methods calling convention.
 
 ## Syntax

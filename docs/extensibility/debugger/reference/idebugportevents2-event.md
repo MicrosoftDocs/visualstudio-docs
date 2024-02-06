@@ -1,26 +1,22 @@
 ---
 description: "This method sends events that signify the creation and destruction of processes and programs on a port."
-title: IDebugPortEvents2::Event | Microsoft Docs
+title: IDebugPortEvents2::Event
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPortEvents2::Event
 helpviewer_keywords:
 - IDebugPortEvents2::Event
-ms.assetid: 5cc813f7-04a1-4462-9ea7-fbddcf0e0143
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPortEvents2::Event
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method sends events that signify the creation and destruction of processes and programs on a port.
 
 ## Syntax

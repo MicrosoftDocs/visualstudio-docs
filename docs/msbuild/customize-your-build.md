@@ -1,17 +1,15 @@
 ---
-title: Customize your build | Microsoft Docs
-description: Learn about several extensibility hooks you can use to customize MSBuild projects that use the standard build process. 
+title: Customize your build with extensibility hooks
+description: Customize your build with several extensibility hooks that you can use to modify MSBuild projects that use the standard build process. 
 ms.date: 03/22/2023
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, transforms
 - transforms [MSBuild]
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # Customize your build
 
@@ -71,7 +69,7 @@ When deciding where to put the properties, use the following general guidelines:
 
 - If possible, prefer customizing properties at evaluation time over changing properties inside a target. This guideline makes it easier to load a project and understand what it's doing.
 
-## See also
+## Related content
 
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)
 

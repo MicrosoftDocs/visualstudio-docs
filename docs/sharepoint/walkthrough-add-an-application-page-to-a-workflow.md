@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Add an Application Page to a Workflow | Microsoft Docs"
+title: "Walkthrough: Add an Application Page to a Workflow"
 description: In this walkthrough, add an application page to a SharePoint workflow solution. Amend the workflow code. Create, code, and test the application page.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -14,13 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+ms.subservice: sharepoint-development
 ---
 # Walkthrough: Add an application page to a workflow
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This walkthrough demonstrates how to add an application page that displays data derived from a workflow to a workflow project. It builds on the project described in the topic [Walkthrough: Create a workflow with association and initiation forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md).
 
  This walkthrough demonstrates the following tasks:
@@ -345,18 +342,11 @@ ms.workload:
 
      The expense report summary page lists all of the expense reports that exceeded the allocated amount, the amount they exceeded it by, and the total amount for all reports.
 
-## Next steps
- For more information about SharePoint application pages, see [Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md).
+## Related content
 
- You can learn more about how to design SharePoint page content by using the Visual Web Designer in Visual Studio from these topics:
-
+- [Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md).
 - [Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md).
-
 - [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md).
-
-## See also
-
 - [Walkthrough: Create a workflow with association and initiation forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md)
 - [How to: Create an application page](../sharepoint/how-to-create-an-application-page.md)
-- [Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)

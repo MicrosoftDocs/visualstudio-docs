@@ -1,26 +1,22 @@
 ---
 description: "Gets the document context that corresponds to this code context."
-title: IDebugCodeContext2::GetDocumentContext | Microsoft Docs
+title: IDebugCodeContext2::GetDocumentContext
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCodeContext2::GetDocumentContext
 helpviewer_keywords:
 - IDebugCodeContext2::GetDocumentContext
-ms.assetid: d552cc92-963f-43c1-949f-ae6b63a427b8
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugCodeContext2::GetDocumentContext
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the document context that corresponds to this code context. The document context represents a position in the source file that corresponds to the source code that generated this instruction.
 
 ## Syntax

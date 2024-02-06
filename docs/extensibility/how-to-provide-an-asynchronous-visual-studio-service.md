@@ -1,19 +1,15 @@
 ---
-title: 'How to: Provide an Asynchronous Visual Studio Service | Microsoft Docs'
+title: 'Provide an Asynchronous Visual Studio Service'
 description: Learn how to provide an asynchronous Visual Studio service. This approach allows you to obtain a service without blocking the UI thread.
 ms.date: 11/04/2016
 ms.topic: how-to
-ms.assetid: 0448274c-d3d2-4e12-9d11-8aca78a1f3f5
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
-# How to: Provide an asynchronous Visual Studio service
+# Provide an asynchronous Visual Studio service
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 If you want to obtain a service without blocking the UI thread, you should create an asynchronous service and load the package on a background thread. For this purpose you can use an <xref:Microsoft.VisualStudio.Shell.AsyncPackage> rather than a <xref:Microsoft.VisualStudio.Shell.Package>, and add the service with the asynchronous package's special asynchronous methods.
 
  For information about providing synchronous Visual Studio services, see [How to: Provide a service](../extensibility/how-to-provide-a-service.md).
@@ -237,5 +233,5 @@ public sealed class TestAsyncPackage : AsyncPackage
 
 8. Build the solution and start debugging. When the experimental instance of Visual Studio appears, go to the **Tools** menu and look for the **Invoke TestAsyncCommand** menu item. When you click it, the TextWriterService writes to the file you specified. (You don't need to open a solution, because invoking the command also causes the package to load.)
 
-## See also
+## Related content
 - [Use and provide services](../extensibility/using-and-providing-services.md)

@@ -1,5 +1,5 @@
 ---
-title: RemoveDir Task | Microsoft Docs
+title: RemoveDir Task
 description: Learn how MSBuild uses the RemoveDir task to remove the specified directory and all of its files and subdirectories.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -9,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - RemoveDir task [MSBuild]
 - MSBuild, RemoveDir task
-ms.assetid: 7ab214be-26b2-4bcd-9de8-c1b2091c0b74
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # RemoveDir task
 

@@ -9,13 +9,9 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Developer Community data privacy
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 By default, all information in problem reports on [Developer Community](https://aka.ms/feedback/suggest?space=8), including any comments and replies, is publicly visible. This is beneficial because it allows the entire community to see the issues, solutions, and workarounds that other users have found. However, if you're concerned about the privacy of your data or identity, you have options. You can also View, Export, or Delete your feedback data.
 
@@ -135,7 +131,7 @@ Deleting will remove the following information about you from Developer Communit
 > We will not delete, but will anonymize, the following public information: your comments, your solutions, problems that you reported.
 
 > [!IMPORTANT]
-> Delete of an Azure AD or MSA account triggers the Delete process for Developer Community.
+> Delete of a Microsoft Entra ID or MSA account triggers the Delete process for Developer Community.
 
 To initiate a Delete, follow these steps:
 
@@ -153,7 +149,7 @@ Once you click **Delete my account**:
 - If you report a new problem or log into Developer Community, you will be identified as a new user.
 - If you delete your account from Developer Community, we will not delete it from other Microsoft services.
 
-## See also
+## Related content
 
 - [How to report a problem with Visual Studio](how-to-report-a-problem-with-visual-studio.md)
 - [C++ problem report data privacy](/cpp/how-to-report-a-problem-with-the-visual-cpp-toolset#reports-and-privacy)

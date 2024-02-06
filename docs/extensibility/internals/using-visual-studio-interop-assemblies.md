@@ -1,5 +1,5 @@
 ---
-title: Using Visual Studio Interop Assemblies | Microsoft Docs
+title: Using Visual Studio Interop Assemblies
 description: Learn how Visual Studio interop assemblies allow managed applications to access the COM interfaces that provide Visual Studio extensibility.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,17 +7,13 @@ helpviewer_keywords:
 - Visual Studio, interop assemblies
 - interop assemblies, Visual Studio
 - managed VSPackages, interop assemblies
-ms.assetid: 1043eb95-4f0d-4861-be21-2a25395b3b3c
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Using Visual Studio Interop Assemblies
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Visual Studio interop assemblies allow managed applications to access the COM interfaces that provide Visual Studio extensibility. There are some differences between straight COM interfaces and their interop versions. For example, HRESULTs are generally represented as int values and need to be handled in the same way as exceptions, and parameters (especially out parameters) are treated differently.
 
 ## Handling HRESULTs Returned to Managed Code from COM
@@ -136,5 +132,5 @@ else
 
  Managed methods that call interfaces of this type should pull the first element out of the [out] array. This element can be treated as if it were a `retval` return value from the corresponding COM interface.
 
-## See also
+## Related content
 - [Interoperating with Unmanaged Code](/dotnet/framework/interop/index)

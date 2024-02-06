@@ -8,17 +8,12 @@ f1_keywords:
 helpviewer_keywords:
 - Debug.EvaluateStatement command
 - Evaluate Statement command
-ms.assetid: 032039bc-9477-4f93-9b9d-66d4be0e90f4
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Evaluate Statement command
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Evaluates and displays the given statement.
 

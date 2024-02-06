@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the section part of the memory address where a block begins."
-title: "IDiaLineNumber::get_addressSection | Microsoft Docs"
+title: "IDiaLineNumber::get_addressSection"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaLineNumber::get_addressSection method"
-ms.assetid: a01c1bae-04b2-4c30-8621-60939a3124c2
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaLineNumber::get_addressSection
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the section part of the memory address where a block begins.
 
 ## Syntax

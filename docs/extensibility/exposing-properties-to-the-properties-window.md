@@ -1,29 +1,20 @@
 ---
-title: Exposing Properties to the Properties Window | Microsoft Docs
-description: Learn about the public properties of an object. The changes you make to these properties are reflected in the Properties window.
+title: Exposing Properties to the Properties Window
+description: Explore the public properties of an object and how changes you make to these properties are reflected in the Properties window.
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:
 - properties [Visual Studio SDK], exposing in Property Browser
 - properties [Visual Studio SDK]
 - Property Browser, exposing properties
-ms.assetid: 47f295b5-1ca5-4e7b-bb52-7b926b136622
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Expose properties to the Properties window
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 This walkthrough exposes the public properties of an object to the **Properties** window. The changes you make to these properties are reflected in the **Properties** window.
-
-## Prerequisites
-
-Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ## Expose properties to the Properties window
 
@@ -270,6 +261,6 @@ In this walkthrough, <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContai
 
 Visual Studio tool windows persist between Visual Studio sessions. For more information on persisting the tool window state, see <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute>.
 
-## See also
+## Related content
 
 - [Extend properties and the Property window](../extensibility/extending-properties-and-the-property-window.md)

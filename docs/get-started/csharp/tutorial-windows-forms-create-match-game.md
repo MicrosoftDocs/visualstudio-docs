@@ -1,18 +1,14 @@
 ---
 title: "Tutorial: Create a matching game"
-description: In these tutorials, you'll create a game where a player matches icons. To start, create a project in Visual Studio using C# or VB Windows Forms and add layout.
+description: Create a game where a player matches icons, and start by creating a project in Visual Studio by using C# or VB Windows Forms and add layout.
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: tutorial
 ms.date: 02/28/2023
-ms.custom: 
-- vs-acquisition
 ---
 # Tutorial: Create a matching game WinForms app
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this series of four tutorials, you build a matching game, where the player matches pairs of hidden icons.
 

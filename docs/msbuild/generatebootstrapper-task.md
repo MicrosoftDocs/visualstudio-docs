@@ -1,5 +1,5 @@
 ---
-title: GenerateBootstrapper Task | Microsoft Docs
+title: GenerateBootstrapper Task
 description: Use the MSBuild GenerateBootstrapper task for an automated way to detect, download, and install an application and its prerequisites.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -9,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - MSBuild, GenerateBootstrapper task
 - GenerateBootstrapper task [MSBuild]
-ms.assetid: ca3ba2c6-d2ea-41f2-b7e3-0fc2b0730460
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # GenerateBootstrapper task
 

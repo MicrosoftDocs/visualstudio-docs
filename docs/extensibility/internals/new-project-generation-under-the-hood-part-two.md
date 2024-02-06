@@ -1,22 +1,17 @@
 ---
-title: 'New Project Generation: Under the Hood, Part Two | Microsoft Docs'
+title: 'New Project Generation: Under the Hood, Part Two'
 description: Take a detailed look at what happens in the Visual Studio integrated development environment (IDE) as you create your own project type (Part 2 of 2).
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - projects [Visual Studio], new project dialog
 - projects [Visual Studio], new project generation
-ms.assetid: 73ce91d8-0ab1-4a1f-bf12-4d3c49c01e13
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # New Project Generation: Under the Hood, Part Two
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In [New Project Generation: Under the Hood, Part One](../../extensibility/internals/new-project-generation-under-the-hood-part-one.md) we saw how the **New Project** dialog Box is populated. Let's assume you've selected a **Visual C# Windows Application**, filled out the **Name** and **Location** text boxes, and clicked OK.
 
@@ -152,7 +147,7 @@ namespace Simple
 </ItemGroup>
 ```
 
-## See also
+## Related content
 
 - [New Project Generation: Under the Hood, Part One](../../extensibility/internals/new-project-generation-under-the-hood-part-one.md)
 - [MSBuild](../../msbuild/msbuild.md)

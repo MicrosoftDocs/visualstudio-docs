@@ -1,6 +1,6 @@
 ---
-title: C# IntelliSense
-description: Learn about some IntelliSense features that you can use while coding your C# project.
+title: Use C# IntelliSense for quick access while coding
+description: Explore IntelliSense features that you can use while coding your C# project for quick access to variables, commands, functions, language keywords, and more.
 ms.date: 06/01/2021
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,13 +9,9 @@ helpviewer_keywords:
 author: mikadumont
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- dotnet
+ms.subservice: general-ide
 ---
 # C# IntelliSense
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 C# IntelliSense is available when coding in the editor, and while debugging in the [Immediate mode](../ide/reference/immediate-window.md) command window.
 
@@ -162,7 +158,7 @@ If you press **Tab**, IntelliSense stubs out a method with the correct signature
 > [!NOTE]
 > Use the **Navigate Backward** command on the **View** menu (**Ctrl**+**-**) to go back to the event hookup statement.
 
-## See also
+## Related content
 
 - [Use IntelliSense](../ide/using-intellisense.md)
 - [Visual Studio IDE](../get-started/visual-studio-ide.md)

@@ -1,25 +1,20 @@
 ---
 title: Tools for detecting and managing Visual Studio instances
 titleSuffix: ''
-description: Learn about the tools that you can use to detect and manage Visual Studio installations on client machines.
-ms.date: 12/17/2022
+description: Explore tools to detect and manage Visual Studio installations on client machines, including vswhere, PowerShell scripts, C# and C++ samples, and more.
+ms.date: 10/13/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - vswhere
 - vswhere.exe
 - visual studio instance
-ms.assetid: 85686707-14C0-4860-9B7A-66485D43D241
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.workload:
-- multiple
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ---
 # Tools for detecting and managing Visual Studio instances
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 There are several tools that you can use to detect and manage Visual Studio installations on client machines.
 
@@ -39,7 +34,7 @@ The following tools and utilities will help you detect and manage installed Visu
 `vswhere.exe` is automatically included in Visual Studio 2017 and later, or you can download it from [the vswhere releases page](https://github.com/Microsoft/vswhere/releases). Use `vswhere -?` to get help information about the tool. For example, this command shows all releases of Visual Studio, including earlier versions of the product and prereleases, and outputs the results in JSON format:
 
 ```shell
-C:\Program Files (x86)\Microsoft Visual Studio\Installer> vswhere.exe -legacy -prerelease -format json
+C:\Program Files (x86)\Microsoft Visual Studio\Installer>vswhere.exe -legacy -prerelease -format json
 ```
 
 ## Using Windows Management Instrumentation (WMI)
@@ -47,7 +42,7 @@ C:\Program Files (x86)\Microsoft Visual Studio\Installer> vswhere.exe -legacy -p
 If the Visual Studio Client Detector Utility is installed on the machine, then you can query for Visual Studio instance information using WMI. The Visual Studio Client Detector Utility is installed by default with every Visual Studio 2017, Visual Studio 2019, and Visual Studio 2022 update that was released on or after May 12, 2020. It is also available on the [Microsoft Update Catalog](https://catalog.update.microsoft.com/) if you want to install it independently.  For an example of how to use the utility to return Visual Studio instance information, open up PowerShell as an administrator on the client machine, and type in the following command:
 
 ```shell
-Get-CimInstance MSFT_VSInstance
+Get-CimInstance MSFT_VSInstance -Namespace root/cimv2/vs
 ```
 
 ## Using Microsoft Endpoint Configuration Manager
@@ -86,6 +81,6 @@ You will be prompted to provide a hive name, which becomes the name of your isol
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 
 * [Visual Studio administrator guide](../install/visual-studio-administrator-guide.md)

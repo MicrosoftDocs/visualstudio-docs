@@ -1,5 +1,5 @@
 ---
-title: "How to: Import a Master Page or Theme | Microsoft Docs"
+title: "Import a Master Page or Theme"
 description: Make templates for master pages and themes in SharePoint Designer, then import into Visual Studio to give pages on your SharePoint site a consistent appearance.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -12,13 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+ms.subservice: sharepoint-development
 ---
-# How to: Import a master page or theme
+# Import a master page or theme
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can give pages on your SharePoint site a consistent appearance by creating and using master pages and themes. Visual Studio doesn't provide templates for these elements, but you can create them in SharePoint Designer and then import them into Visual Studio. For more information, see [Building Block: Pages and User Interface](/previous-versions/office/developer/sharepoint-2010/ee539040(v=office.14)) on the Microsoft website.
 
 ### To import a master page or theme
@@ -87,7 +84,7 @@ ms.workload:
 
      The list of either master pages or themes appears and contains either the master page or the theme that you imported.
 
-## See also
+## Related content
 - [Master Pages](/previous-versions/office/developer/sharepoint-2010/ms443795(v=office.14))
 - [Importing items from an existing SharePoint site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)
 - [Create pages for SharePoint](../sharepoint/creating-pages-for-sharepoint.md)

@@ -13,17 +13,12 @@ helpviewer_keywords:
 - /L Devenv switch
 - LCID devenv switch
 - /LCID Devenv switch
-ms.assetid: 3a3f4e70-ea66-4351-9d62-acb1dec30e8e
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # /LCID (devenv.exe)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Sets the default language used for text, currency, and other values within the IDE.
 

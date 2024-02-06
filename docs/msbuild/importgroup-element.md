@@ -1,5 +1,5 @@
 ---
-title: ImportGroup Element | Microsoft Docs
+title: ImportGroup Element
 description: Learn how MSBuild uses the ImportGroup element to contain a collection of Import elements that are grouped under an optional condition.
 ms.date: 03/13/2017
 ms.topic: reference
@@ -7,17 +7,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - <ImportGroup> element [MSBuild]
 - ImportGroup element [MSBuild]
-ms.assetid: dac3fa2d-6678-4017-af35-93686f53f302
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # ImportGroup element
 

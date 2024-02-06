@@ -1,26 +1,22 @@
 ---
 description: "Gets the language information for this code context."
-title: IDebugCodeContext2::GetLanguageInfo | Microsoft Docs
+title: IDebugCodeContext2::GetLanguageInfo
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCodeContext2::GetLanguageInfo
 helpviewer_keywords:
 - IDebugCodeContext2::GetLanguageInfo
-ms.assetid: 03002ef1-9fe6-44b6-b23b-ef7b86b2b21b
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugCodeContext2::GetLanguageInfo
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the language information for this code context.
 
 ## Syntax

@@ -1,22 +1,18 @@
 ---
-title: 'Test Area 7: Share | Microsoft Docs'
+title: 'Test Area 7: Share'
 description: This source control test area covers sharing items between locations by using the Share command for your Visual Studio source control plug-in.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - source control [Visual Studio SDK], sharing items
 - source control plug-ins, sharing items
-ms.assetid: 6ec4780a-bda4-4327-bb3e-c6c9e7eabf35
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Test Area 7: Share
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This test area covers sharing items between locations via the **Share** command.
 
  A hhare operation is the apparent duplication of files and folder items between two or more locations within a source control file hierarchy. Duplication does not really occur on the server, but the user does see the same file in two or more specified locations. Whenever changes are made to any of the shared items, those changes appear in all other shared locations.
@@ -56,5 +52,5 @@ This test area covers sharing items between locations via the **Share** command.
 |Share a folder into the loaded Project — Recursive|1.  Create a new project.<br />2.  Add the solution to source control.<br />3.  Select the project.<br />4.  Open the **Share** dialog box (**File** -> **Source Control** -> **Share**).<br />5.  Select a folder.<br />6.  Share the folder recursively into the project.|Common Expected Behavior.|
 |Share several files from one project to another|1.  Create a new project with several files in it.<br />2.  Add the solution to source control.<br />3.  Close the solution.<br />4.  Create a new project in a new solution.<br />5.  Add the solution to source control.<br />6.  Select the project.<br />7.  Open the **Share** dialog box (**File** -> **Source Control** -> **Share**).<br />8.  Share several files from the previously created project to the currently open project.|Common Expected Behavior.|
 
-## See also
+## Related content
 - [Test Guide for Source Control Plug-ins](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)

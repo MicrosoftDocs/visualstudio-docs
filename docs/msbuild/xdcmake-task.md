@@ -1,5 +1,5 @@
 ---
-title: "XDCMake Task | Microsoft Docs"
+title: "XDCMake Task"
 description: Learn how MSBuild uses the XDCMake task to wrap the XML Documentation tool xdcmake.exe, which merges XML document comment files into an .xml file.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,18 +9,14 @@ dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
-  - "jsharp"
   - "C++"
 helpviewer_keywords:
   - "XDCMake task (MSBuild (C++))"
   - "MSBuild (C++), XDCMake task"
-ms.assetid: a7de9c64-903a-4a02-85f3-f37672270f25
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-  - "multiple"
+ms.subservice: msbuild
 ---
 # XDCMake task
 

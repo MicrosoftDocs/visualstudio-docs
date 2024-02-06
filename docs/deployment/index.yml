@@ -5,9 +5,9 @@ summary: Learn how to deploy applications, services, and components using Visual
 
 metadata:
   title: Deployment documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: Learn how to use Visual Studio to deploy applications, services, and components.
+  description: Explore Visual Studio tools and features to deploy applications, services, and components, including ASP.NET, C++, .NET Framework and .NET Core, Docker, and Azure.
   ms.topic: landing-page
-  ms.technology: vs-ide-deployment
+  ms.subservice: deployment
   author: ghogen
   ms.author: ghogen
   manager: jmartens
@@ -95,6 +95,21 @@ landingContent:
             url: ../azure/azure-deployment-using-github-actions.md
           - text: Deploy Entity Framework Core app with GitHub Actions
             url: ../azure/end-to-end-deployment-entity-framework-core-github-actions.md
+  
+  # Card
+  - title: Deploy Docker containers
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Deploy to Azure Container Registry
+            url: ../containers/hosting-web-apps-in-docker.md
+          - text: Deploy to Azure App Service
+            url: ../containers/deploy-app-service.md
+          - text: Deploy to Docker Hub
+            url: ../containers/deploy-docker-hub.md
+          - text: Deploy without a Dockerfile
+            url: ../containers/deploy-containerized.md
+  
   # Card
   - title: Additional deployment types
     linkLists:

@@ -1,26 +1,22 @@
 ---
 description: "Gets the memory bytes that compose the value of a property."
-title: IDebugProperty2::GetMemoryBytes | Microsoft Docs
+title: IDebugProperty2::GetMemoryBytes
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProperty2::GetMemoryBytes
 helpviewer_keywords:
 - IDebugProperty2::GetMemoryBytes
-ms.assetid: b32042ed-7a06-4b4a-99ef-fe03b0aa61cc
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProperty2::GetMemoryBytes
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the memory bytes that compose the value of a property.
 
 ## Syntax

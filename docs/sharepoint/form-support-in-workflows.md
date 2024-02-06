@@ -1,5 +1,5 @@
 ---
-title: "Form Support in Workflows | Microsoft Docs"
+title: "Form Support in Workflows"
 description: 'Read about form support in SharePoint workflows. Four types of forms can be used in a workflow: association, initiation, task, and modification.'
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -12,13 +12,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+ms.subservice: sharepoint-development
 ---
 # Form support in workflows
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Four types of forms can be used in a workflow: association, initiation, task, and modification. These form types can be based on either an ASPX form or an InfoPath form. The level of support that Visual Studio provides for a particular form depends on several factors, which are described in the following tables. For more information about workflow form types, see [Workflow Forms Overview](/previous-versions/office/developer/sharepoint-2010/ms457061(v=office.14)).
 
 ## XML refactoring
@@ -44,7 +41,7 @@ ms.workload:
 |Task|-   The form is referenced in the *Elements.xml* file of the workflow.<br />-   The *Elements.xml* file of the workflow is not refactored.|-   The form is imported, but not referenced in the *Elements.xml* of the workflow.<br />-   The *Elements.xml* file of the workflow is not refactored. **Note:**  Rules and properties must be added and changed for this scenario to work.|
 |Modification|Not applicable. ASPX modification forms cannot be created in SharePoint Designer.|Not applicable. InfoPath modification forms cannot be created in SharePoint Designer, except for the built-in SharePoint Server workflow, which is not included in the .wsp file when the workflow is exported.|
 
-## See also
+## Related content
 - [Walkthrough: Create a workflow with association and initiation forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md)
 - [Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md)
 - [Import items from an existing SharePoint site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)

@@ -1,21 +1,17 @@
 ---
-title: Preparing Extensions for Windows Installer Deployment | Microsoft Docs
+title: Preparing Extensions for Windows Installer Deployment
 description: Learn how to prepare a project whose default output is a VSIX package for inclusion in a Setup project.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - vsix msi
-ms.assetid: 5ee2d1ba-478a-4cb7-898f-c3b4b2ee834e
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Prepare extensions for Windows Installer deployment
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You cannot use a Windows Installer package (MSI) to deploy a VSIX package. However, you can extract the contents of a VSIX package for MSI deployment. This document shows how to prepare a project whose default output is a VSIX package for inclusion in a Setup project.
 
 ## Prepare an extension project for Windows Installer deployment
@@ -52,6 +48,6 @@ You cannot use a Windows Installer package (MSI) to deploy a VSIX package. Howev
 
 5. Add the remaining files to your Setup project.
 
-## See also
+## Related content
 - [Visual Studio installer deployment](/previous-versions/2kt85ked(v=vs.120))
 - [Walkthrough: Create a custom action](/previous-versions/visualstudio/visual-studio-2010/d9k65z2d(v=vs.100))

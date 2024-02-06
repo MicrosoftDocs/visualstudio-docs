@@ -1,21 +1,17 @@
 ---
 description: "Signals the Visual Studio debugger UI to warn the user that symbols could not be located for the launched executable."
-title: IDebugNoSymbolsEvent2 | Microsoft Docs
+title: IDebugNoSymbolsEvent2
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugNoSymbolsEvent2 interface
-ms.assetid: f6fb6388-47f6-4385-9ad5-95d62f9a7592
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugNoSymbolsEvent2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Signals the Visual Studio debugger UI to warn the user that symbols could not be located for the launched executable.
 
 ## Syntax

@@ -1,23 +1,19 @@
 ---
 description: "Each FORTRAN array has a dimension that is identified by a SymTagDimension symbol."
-title: "Dimension | Microsoft Docs"
+title: "Dimension"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "Dimension Symbol"
-ms.assetid: 94f791da-bfea-454f-8a14-da31e8e1596a
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Dimension
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Each FORTRAN array has a dimension that is identified by a `SymTagDimension` symbol.
 
 ## Properties

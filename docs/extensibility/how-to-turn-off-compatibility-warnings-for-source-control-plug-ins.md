@@ -6,17 +6,12 @@ ms.topic: how-to
 helpviewer_keywords:
 - source control plug-ins, turning off compatibility warnings
 - compatibility warnings, turning off
-ms.assetid: ba318e12-921b-4b7a-a8c2-12c712be1dbf
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
-# How to: Turn off compatibility warnings for source control plug-ins
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Turn off compatibility warnings for source control plug-ins
 
 A user may see several compatibility warnings when employing source control in Visual Studio. The warnings presented depend on the capabilities of the source control plug-in and can be disabled as detailed here.
 
@@ -40,6 +35,6 @@ A user may see several compatibility warnings when employing source control in V
 
      It is best to support reentrancy (`SCC_CAP_REENTRANT` capability); doing so will remove this warning. However, if this support is not possible, these registry entries can be set.
 
-## See also
+## Related content
 
 - [Capability flags](../extensibility/capability-flags.md)

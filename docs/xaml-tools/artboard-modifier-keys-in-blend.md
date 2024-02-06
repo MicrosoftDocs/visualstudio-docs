@@ -3,17 +3,13 @@ title: Artboard modifier keys in Blend
 description: Learn about keyboard shortcuts using modifier keys in Blend for Visual Studio to modify actions in the artboard, such as zooming, resizing, and panning.
 ms.date: 11/04/2016
 ms.topic: reference
-ms.assetid: 50732733-ff49-41ba-8c44-4f6a3875ec1c
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
-ms.technology: vs-xaml-tools
-ms.workload:
-- multiple
+ms.subservice: xaml-tools
 ---
 # Artboard modifier keys in Blend
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Some keyboard shortcuts do not have associated menu items, which means that you can't use the Blend user interface to discover them. The following table lists shortcuts that modify an action, such as resizing an object.
 
 |To do this action|Do this|

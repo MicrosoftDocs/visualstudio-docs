@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a flag that specifies whether the user-defined data type is constant."
-title: "IDiaSymbol::get_constType | Microsoft Docs"
+title: "IDiaSymbol::get_constType"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_constType method"
-ms.assetid: cb43605e-fa39-4f83-b047-f936a8019d03
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_constType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that specifies whether the user-defined data type is constant.
 
 ## Syntax

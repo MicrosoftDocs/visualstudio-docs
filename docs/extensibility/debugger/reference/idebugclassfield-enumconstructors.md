@@ -1,26 +1,22 @@
 ---
 description: "Creates an enumerator for the constructors for this class."
-title: IDebugClassField::EnumConstructors | Microsoft Docs
+title: IDebugClassField::EnumConstructors
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugClassField::EnumConstructors
 helpviewer_keywords:
 - IDebugClassField::EnumConstructors method
-ms.assetid: 66a250b2-75a0-45aa-8d58-40f91cc4bf7b
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugClassField::EnumConstructors
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an enumerator for the constructors for this class.
 
 ## Syntax

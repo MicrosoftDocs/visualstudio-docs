@@ -1,21 +1,17 @@
 ---
 description: "IDiaSession::findInlineFramesByAddr retrieves an enumeration that allows a client to iterate through all of the inline frames on a given address."
-title: "IDiaSession::findInlineFramesByAddr | Microsoft Docs"
+title: "IDiaSession::findInlineFramesByAddr"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: e7dc1ac7-bb09-45be-96d2-365a9b7336e4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSession::findInlineFramesByAddr
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves an enumeration that allows a client to iterate through all of the inline frames on a given address.
 
 ## Syntax

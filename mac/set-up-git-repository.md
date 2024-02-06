@@ -5,7 +5,6 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 06/30/2022
-ms.assetid: E992FA1D-B2AD-4A28-ADC6-47E4FC471060
 ms.topic: how-to
 ---
 # Set up a Git repository in Visual Studio for Mac
@@ -37,7 +36,6 @@ To set up a Git repository, execute the following steps:
     ![view and copy address](media/version-control-git3.png)
 
    You'll need the HTTPS address to point Visual Studio for Mac to this repo.
-
 
 ## Clone an existing repository
 Visual Studio for Mac makes it easy to clone a repository right from the IDE. You can work remotely with the Git provider of your choice, such as GitHub or Azure DevOps.

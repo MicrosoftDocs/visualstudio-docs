@@ -6,13 +6,9 @@ ms.topic: how-to
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+ms.subservice: modeling
 ---
 # Embed a Diagram in a Windows Form
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can embed a DSL diagram in a Windows control, which appears in the Visual Studio window.
 
@@ -139,7 +135,7 @@ You can embed a DSL diagram in a Windows control, which appears in the Visual St
 
      Notice that the list box shows a list of the elements in the model, and that it is correct after any addition or deletion, and after Undo and Redo.
 
-## See also
+## Related content
 
 - [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)
 - [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)

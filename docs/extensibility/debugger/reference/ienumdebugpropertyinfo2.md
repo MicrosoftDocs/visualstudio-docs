@@ -1,23 +1,19 @@
 ---
 description: "This interface enumerates DEBUG_PROPERTY_INFO structures."
-title: IEnumDebugPropertyInfo2 | Microsoft Docs
+title: IEnumDebugPropertyInfo2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugPropertyInfo2
 helpviewer_keywords:
 - IEnumDebugPropertyInfo2
-ms.assetid: fdea8262-40b8-473e-88ba-639e4c4648e6
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IEnumDebugPropertyInfo2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface enumerates [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) structures.
 
 ## Syntax

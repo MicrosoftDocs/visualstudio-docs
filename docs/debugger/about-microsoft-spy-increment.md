@@ -1,21 +1,16 @@
 ---
-title: "About Microsoft Spy++ | Microsoft Docs"
+title: "About Microsoft Spy++"
 description: View the About Microsoft Spy++ dialog box in Visual Studio to display copyright, version, ownership, and other information about the Spy++ debugging utility.
 ms.date: "06/03/2022"
 ms.topic: "ui-reference"
 helpviewer_keywords:
   - "Microsoft Spy++"
-ms.assetid: b32e4318-e656-441a-abfa-d38b81096924
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # About Microsoft Spy++
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use this dialog box to view copyright, version, ownership, and other information about Spy++.
 

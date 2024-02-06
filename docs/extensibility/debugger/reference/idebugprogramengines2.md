@@ -1,23 +1,19 @@
 ---
 description: "This interface is used by program nodes to specify all the possible debug engines (DE) that can debug this program."
-title: IDebugProgramEngines2 | Microsoft Docs
+title: IDebugProgramEngines2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgramEngines2
 helpviewer_keywords:
 - IDebugProgramEngines2 interface
-ms.assetid: 53d648f0-6c11-4337-badd-c43f3872b62c
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugProgramEngines2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface is used by program nodes to specify all the possible debug engines (DE) that can debug this program.
 
 ## Syntax

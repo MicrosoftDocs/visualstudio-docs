@@ -1,26 +1,22 @@
 ---
 description: "This method gets a property object that contains the locals, arguments, and other properties of a method."
-title: IDebugExpressionEvaluator::GetMethodProperty | Microsoft Docs
+title: IDebugExpressionEvaluator::GetMethodProperty
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugExpressionEvaluator::GetMethodProperty
 helpviewer_keywords:
 - IDebugExpressionEvaluator::GetMethodProperty method
-ms.assetid: c394fe4d-eeb6-4feb-828c-098d84a6f1ba
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugExpressionEvaluator::GetMethodProperty
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets a property object that contains the locals, arguments, and other properties of a method.
 
 ## Syntax

@@ -1,26 +1,22 @@
 ---
 description: "Creates a unique ID or alias for this object or returns an existing alias."
-title: IDebugObject2::CreateAlias | Microsoft Docs
+title: IDebugObject2::CreateAlias
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugObject2::CreateAlias
 helpviewer_keywords:
 - IDebugObject2::CreateAlias method
-ms.assetid: 54a05920-5d13-4f67-962b-d1a7f013dff9
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugObject2::CreateAlias
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates a unique ID or alias for this object or returns an existing alias.
 
 ## Syntax

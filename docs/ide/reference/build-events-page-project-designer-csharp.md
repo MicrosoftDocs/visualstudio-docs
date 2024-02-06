@@ -2,7 +2,7 @@
 title: Build Events Page, Project Designer (C#)
 description: Learn how to specify build configuration instructions. You can also specify the conditions under which any post-build events are run.
 ms.date: 10/17/2019
-ms.technology: vs-ide-compile
+ms.subservice: compile-build
 ms.topic: reference
 f1_keywords:
 - cs.ProjectPropertiesBuildEvents
@@ -11,16 +11,11 @@ helpviewer_keywords:
 - Project Designer, Build Events page
 - pre-build events
 - post-build events
-ms.assetid: 3fff9ae5-213c-46ea-a660-1d70acb6c922
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.workload:
-- dotnet
 ---
 # Build Events Page, Project Designer (C#)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Build Events** page of the **Project Designer** to specify build configuration instructions. You can also specify the conditions under which any post-build events are run. For more information, see [How to: Specify Build Events (C#)](../../ide/how-to-specify-build-events-csharp.md) and [How to: Specify Build Events (Visual Basic)](../../ide/how-to-specify-build-events-visual-basic.md).
 

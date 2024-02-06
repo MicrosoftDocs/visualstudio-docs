@@ -26,13 +26,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
 # Program document-level customizations
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When you extend Microsoft Office Word or Microsoft Office Excel by using a document-level customization, you can perform the following tasks:
 
 - Automate the application by using its object model.
@@ -171,7 +168,7 @@ Globals.ThisDocument.Save()
 ## Use the GetVstoObject and HasVstoObject methods
  To call the `HasVstoObject` and `GetVstoObject` method, use the `Globals.Factory.GetVstoObject` or `Globals.Factory.HasVstoObject` method, and pass in the native Word or Excel object (such as a <xref:Microsoft.Office.Interop.Word.Document> or <xref:Microsoft.Office.Interop.Excel.Worksheet>) that you want to test.
 
-## See also
+## Related content
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)
 - [Combine VBA and document-level customizations](../vsto/combining-vba-and-document-level-customizations.md)
 - [Manage documents on a server by using the ServerDocument class](../vsto/managing-documents-on-a-server-by-using-the-serverdocument-class.md)

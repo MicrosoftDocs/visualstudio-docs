@@ -1,5 +1,5 @@
 ---
-title: Managing VSPackages | Microsoft Docs
+title: Managing VSPackages
 description: Learn about managing VSPackages, so that you know when you can simply use the default VSPackage management provided by Visual Studio, and how and when to customize it.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -8,17 +8,13 @@ helpviewer_keywords:
 - VSPackages, delayed loading
 - delay loading
 - VSPackages, loading
-ms.assetid: 386e0ce5-4107-4164-b0cd-1cf43eb5e7cf
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Manage VSPackages
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In most cases you don't need to worry about managing VSPackages, since the project and item templates register and load the package automatically. However, in some circumstances you may need to learn a bit more in order to manage your package.
 
 ## Use the experimental instance
@@ -42,5 +38,5 @@ Extensions can impact startup and solution load performance. Learn how Visual St
 ## Troubleshoot VSPackages
  Find out the techniques for troubleshooting VSPackages that don't load or are experiencing errors: [Troubleshoot VSPackages](../extensibility/troubleshooting-vspackages.md)
 
-## See also
+## Related content
 - [VSPackages](../extensibility/internals/vspackages.md)

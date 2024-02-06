@@ -2,21 +2,14 @@
 title: Learn Flask tutorial in Visual Studio step 3, static files and pages
 titleSuffix: ""
 description: A walkthrough of Flask basics in the context of Visual Studio projects, specifically demonstrating how to serve static files, add pages to the app, and use template inheritance
-ms.custom: devdivchpfy22
 ms.date: 02/07/2022
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
-
-ms.workload:
-  - python
-  - data-science
+ms.subservice: python
 ---
 # Step 3: Serve static files, add pages, and use template inheritance with Flask app
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Previous step: [Create a Flask app with views and page templates](learn-flask-visual-studio-step-02-create-app.md)**
 

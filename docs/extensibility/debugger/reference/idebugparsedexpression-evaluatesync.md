@@ -1,26 +1,22 @@
 ---
 description: "This method evaluates the parsed expression and optionally casts the result to another data type."
-title: IDebugParsedExpression::EvaluateSync | Microsoft Docs
+title: IDebugParsedExpression::EvaluateSync
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugParsedExpression::EvaluateSync
 helpviewer_keywords:
 - IDebugParsedExpression::EvaluateSync method
-ms.assetid: 0ea04cfa-de87-4b6c-897e-4572c1a28942
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugParsedExpression::EvaluateSync
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method evaluates the parsed expression and optionally casts the result to another data type.
 
 ## Syntax

@@ -1,5 +1,5 @@
 ---
-title: "How to: Protect parts of documents by using content controls"
+title: "Protect parts of documents by using content controls"
 description: Learn how you can use Visual Studio to protect parts of a Microsoft Word document by using content controls.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -18,13 +18,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Protect parts of documents by using content controls
+# Protect parts of documents by using content controls
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When you protect part of a document, you prevent users from changing or deleting the content in that part of the document. There are several ways you can protect parts of a Microsoft Office Word document by using content controls:
 
 - You can protect a content control.
@@ -117,7 +114,7 @@ ms.workload:
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb" id="Snippet15":::
      ---
 
-## See also
+## Related content
 - [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
 - [Content controls](../vsto/content-controls.md)
 - [How to: Add content controls to Word documents](../vsto/how-to-add-content-controls-to-word-documents.md)

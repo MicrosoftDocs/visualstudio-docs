@@ -1,26 +1,22 @@
 ---
 description: "This method skips over the specified number of elements in the addresses enumeration."
-title: IEnumDebugAddresses::Skip | Microsoft Docs
+title: IEnumDebugAddresses::Skip
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugAddresses::Skip
 helpviewer_keywords:
 - IEnumDebugAddresses::Skip method
-ms.assetid: ed9a8e71-30ef-414b-9da5-c9a2a251b84e
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugAddresses::Skip
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method skips over the specified number of elements.
 
 ## Syntax

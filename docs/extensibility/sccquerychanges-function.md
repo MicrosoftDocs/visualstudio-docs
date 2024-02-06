@@ -1,23 +1,19 @@
 ---
 description: "This function enumerates a given list of files, providing information about name changes for each file via a callback function."
-title: SccQueryChanges Function | Microsoft Docs
+title: SccQueryChanges Function
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - SccQueryChanges
 helpviewer_keywords:
 - SccQueryChanges function
-ms.assetid: 4cd58eb3-6952-49b1-9620-8682e3eaa604
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # SccQueryChanges Function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function enumerates a given list of files, providing information about name changes for each file via a callback function.
 
 ## Syntax

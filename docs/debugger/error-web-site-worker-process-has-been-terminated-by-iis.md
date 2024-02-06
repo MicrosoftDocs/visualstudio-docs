@@ -1,6 +1,6 @@
 ---
 description: "The debugger stopped execution of code on the Web site."
-title: "Web site worker process has been terminated by IIS | Microsoft Docs"
+title: "Web site worker process has been terminated by IIS"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:
@@ -13,13 +13,10 @@ dev_langs:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Error: Web site worker process has been terminated by IIS
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The debugger stopped execution of code on the Web site. This caused Internet Information Services (IIS) to assume that the worker process had stopped responding. Therefore, IIS terminated the worker process.
 
  To continue to debug, you must configure IIS to allow the worker process to continue. This error message does not appear with versions of IIS that are older than IIS 7.

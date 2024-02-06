@@ -1,23 +1,19 @@
 ---
 description: "Returns the offset part of the starting address of the range in which the local symbol is valid."
-title: "IDiaSymbol::get_liveRangeStartAddressOffset | Microsoft Docs"
+title: "IDiaSymbol::get_liveRangeStartAddressOffset"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_liveRangeStartAddressOffset"
-ms.assetid: f5b28914-0a14-4b22-8259-59d7f97ee610
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_liveRangeStartAddressOffset
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the offset part of the starting address of the range in which the local symbol is valid.
 
 ## Syntax

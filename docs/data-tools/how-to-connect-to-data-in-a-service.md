@@ -1,5 +1,5 @@
 ---
-title: 'How to: Connect to Data in a WCF Service'
+title: 'Connect to Data in a WCF Service'
 description: Connect your app to data returned from a Windows Communication Foundation (WCF) service by running the Data Source Configuration Wizard and selecting Service on the Choose a Data Source Type page.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -11,17 +11,12 @@ helpviewer_keywords:
 - web services, reading data
 - web services, as data sources
 - web services, connecting
-ms.assetid: a6b54353-05fe-4e5c-8631-90231fc95504
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+ms.subservice: data-tools
 ---
-# How to: Connect to data in a WCF service
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Connect to data in a WCF service
 
 You connect your .NET Framework application to the data returned from a Windows Communication Foundation (WCF) service by running the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png) and selecting **Service** on the **Choose a Data Source Type** page.
 
@@ -55,11 +50,8 @@ The WCF tools are not installed with the .NET workload; use the Visual Studio In
 
      The data source is added to the **Data Sources** window.
 
-## Next steps
+## Related content
 
-To add functionality to your application, select an item in the **Data Sources** window and drag it onto a form to create bound controls. For more information, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md).
-
-## See also
-
+- [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)
 - [Bind WPF controls to a WCF data service](../data-tools/bind-wpf-controls-to-a-wcf-data-service.md)
 - [Windows Communication Foundation Services and WCF data services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)

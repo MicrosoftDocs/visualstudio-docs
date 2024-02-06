@@ -1,5 +1,5 @@
 ---
-title: Breakpoint Errors | Microsoft Docs
+title: Breakpoint Errors
 description: Learn about the process when a breakpoint attempts to bind to code but fails and how to troubleshoot breakpoint errors.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,17 +7,13 @@ helpviewer_keywords:
 - breakpoints, errors
 - debugging [Debugging SDK], breakpoint errors
 - errors [Debugging SDK]
-ms.assetid: 79221c6b-a924-4c8e-a778-e312e4e0c0c8
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # Breakpoint errors
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following describes the process when a breakpoint attempts to bind to code but fails.
 
 ## Troubleshoot a breakpoint error
@@ -30,5 +26,5 @@ The following describes the process when a breakpoint attempts to bind to code b
 
 4. The SDM calls [IDebugErrorBreakpoint2::GetBreakpointResolution](../../extensibility/debugger/reference/idebugerrorbreakpoint2-getbreakpointresolution.md) to get the reason why the error breakpoint failed to bind.
 
-## See also
+## Related content
 - [Calling debugger events](../../extensibility/debugger/calling-debugger-events.md)

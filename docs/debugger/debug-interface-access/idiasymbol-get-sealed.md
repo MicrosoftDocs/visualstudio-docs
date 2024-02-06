@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a flag that specifies whether the class or method is sealed."
-title: "IDiaSymbol::get_sealed | Microsoft Docs"
+title: "IDiaSymbol::get_sealed"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_sealed method"
-ms.assetid: cd1fef1f-47de-47c7-885f-f6f0a9a07d8c
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_sealed
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that specifies whether the class or method is sealed.
 
 ## Syntax

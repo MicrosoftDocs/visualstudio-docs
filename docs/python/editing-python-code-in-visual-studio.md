@@ -1,21 +1,15 @@
 ---
-title: Edit Python code
+title: Edit Python code and use Intellisense
 description: For Python, Visual Studio provides rich IntelliSense, code snippets, and navigation features, alongside formatting, linting, and refactoring.
 ms.date: 09/01/2023
 ms.topic: conceptual
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.technology: vs-python
-
-ms.workload:
-  - python
-  - data-science
+ms.subservice: python
 ---
 
 # Edit Python code
-
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Because you spend much of your development time in the code editor, [Python support in Visual Studio](installing-python-support-in-visual-studio.md) provides functionality to help you be more productive. Features include IntelliSense syntax highlighting, autocompletion, signature help, method overrides, search, and navigation.
 
@@ -219,7 +213,7 @@ Double-clicking any name, or selecting with arrow keys and **Enter**, navigates 
 
 ![Find All References results](media/code-editing-find-all-references.png)
 
-## See also
+## Related content
 
 - [Formatting](formatting-python-code.md)
 - [Refactoring](refactoring-python-code.md)

@@ -1,10 +1,9 @@
 ---
-title:  Windows Developer Account benefit in Visual Studio subscriptions | Microsoft Docs
+title:  Windows Developer Account benefit in Visual Studio subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: 588480a3-8806-4ea5-9915-c25974770069
-ms.date: 06/15/2023
+ms.date: 11/02/2023
 ms.topic: how-to
 description:  Learn about the Windows Developer Account included with your Visual Studio subscription.
 ---
@@ -17,7 +16,7 @@ Your Windows Developer Account, included with selected Visual Studio subscriptio
 To use your Windows Developer Account, you need to set up an account or sign in using an existing account.
 
 > [!IMPORTANT]
-> Creation of a Windows Developer account requires the use of a Microsoft Account (MSA).  Use of Azure Active Directory accounts is not supported.  
+> Creation of a Windows Developer account requires the use of a Microsoft Account (MSA).  Use of Microsoft Entra accounts is not supported.  
 
 We recommend that you create a "private" browser window for this process.  For example, in Google Chrome, create a new "incognito" window.  In Internet Explorer, create a new "InPrivate" window.
 
@@ -34,7 +33,7 @@ We recommend that you create a "private" browser window for this process.  For e
 0. Select **Individual** as your account type.
 0. Create your publisher display name.  This name is the unique name your customers see associated with your apps, add-ins, and services.
 0. Provide your contact information and preferred email language, then select **Next**.
-0. You may be asked to verify your password.  Enter it and select **Sign in**.
+0. You might be asked to verify your password.  Enter it and select **Sign in**.
 0. On the Registration – Payment page, paste the code you copied earlier into the Promo Code field.  The page updates to show that *no payment is required*.  Select **Next**.
 0. Review your account information, review the App Developer Agreement, and select the checkbox to indicate your acceptance of the terms and conditions.  Then select **Finish**.
 0. Select **Go to dashboard** to begin using your Windows Developer Account!
@@ -58,7 +57,7 @@ Excludes:  Microsoft Cloud Partner Program, Imagine, MCT Software & Services, NF
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
-Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You need to sign in with that email address to see those subscriptions.
+Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you might have one or more assigned to a different email address.  You need to sign in with that email address to see those subscriptions.
 
 ## Support resources
 

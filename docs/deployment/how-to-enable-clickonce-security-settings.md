@@ -1,5 +1,5 @@
 ---
-title: Enable & configure ClickOnce security | Microsoft Docs
+title: Enable & configure ClickOnce security
 description: Learn how the Publish wizard automatically enables code access security for ClickOnce applications to publish the application.
 ms.date: 08/04/2023
 ms.topic: how-to
@@ -11,17 +11,12 @@ helpviewer_keywords:
   - security [Visual Studio], ClickOnce applications
   - ClickOnce deployment, security settings
   - security settings, ClickOnce deployment
-ms.assetid: 73cd3e9d-cd72-4ad2-8cae-94d6bb6b01e0
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
+ms.subservice: deployment
 ---
-# How to: Enable and configure ClickOnce security settings in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Enable and configure ClickOnce security settings in Visual Studio
 
 You can enable and configure ClickOnce security settings in the **Security** page of the **Project Designer**. In this article, you learn how to enable security settings, configure security zones, and configure customized security zones.
 
@@ -106,7 +101,7 @@ You can deploy a ClickOnce application that uses default permissions for the Int
     > [!NOTE]
     > You can use the `ToXml` method of a permission set to generate the XML code for the application manifest. For example, to generate the XML for the <xref:System.Security.Permissions.EnvironmentPermission> permission set, call the <xref:System.Security.Permissions.EnvironmentPermission.ToXml%2A> method.
 
-## See also
+## Related content
 
 - [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)
 - [Code access security for ClickOnce applications](../deployment/code-access-security-for-clickonce-applications.md)

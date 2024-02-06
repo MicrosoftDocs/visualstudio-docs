@@ -1,26 +1,22 @@
 ---
 description: "This method returns a list of type visualizers that this service knows about."
-title: IEEVisualizerService::GetCustomViewerList | Microsoft Docs
+title: IEEVisualizerService::GetCustomViewerList
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEEVisualizerService::GetCustomViewerList
 helpviewer_keywords:
 - IEEVisualizerService::GetCustomViewerList method
-ms.assetid: 249d26ca-914f-43af-a400-8162477223f4
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEEVisualizerService::GetCustomViewerList
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method returns a list of type visualizers that this service knows about.
 
 ## Syntax

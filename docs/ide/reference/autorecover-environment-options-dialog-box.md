@@ -12,17 +12,12 @@ helpviewer_keywords:
 - AutoRecover page
 - saving files, automatically
 - files, saving automatically
-ms.assetid: 397e5e44-4bbe-4289-94d1-642b466c9111
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # AutoRecover, Environment, Options dialog box
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use this page in the **Options** dialog box to specify whether to automatically back up files or not. You can also specify if you want to restore modified files if Visual Studio shuts down unexpectedly.
 

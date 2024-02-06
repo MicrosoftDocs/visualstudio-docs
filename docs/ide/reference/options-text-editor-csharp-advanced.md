@@ -9,13 +9,9 @@ f1_keywords:
 author: mikadumont
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- dotnet
+ms.subservice: general-ide
 ---
 # Options, Text Editor, C#, Advanced
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Advanced** options page to modify the settings for editor formatting, code refactoring, and XML documentation comments for C#. To access this options page, choose **Tools** > **Options**, and then choose **Text Editor** > **C#** > **Advanced**.
 
@@ -165,7 +161,6 @@ Select these check boxes to display dotted vertical lines between the curly brac
 
       public int Bump => ++Count;
    }
-
 
    public class CustomClass
    {

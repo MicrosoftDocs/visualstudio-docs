@@ -1,6 +1,6 @@
 ---
 description: "Methods are listed alphabetically under each interface in the table of contents and on the interface page in Vtable order."
-title: "Interfaces (Debug Interface Access SDK) | Microsoft Docs"
+title: "Interfaces (Debug Interface Access SDK)"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -8,17 +8,13 @@ dev_langs:
 helpviewer_keywords:
   - "interfaces [DIA SDK]"
   - "DIA SDK, interfaces"
-ms.assetid: 62aee7c3-d314-4272-a32b-b2818f32fab8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Interfaces (Debug Interface Access SDK)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Methods are listed alphabetically under each interface in the table of contents and on the interface page in Vtable order.
 
 ## In This Section

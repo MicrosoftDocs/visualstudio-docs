@@ -1,23 +1,19 @@
 ---
 description: "IDiaStackWalkHelper::searchForReturnAddress searches the specified stack frame for the nearest function return address."
-title: "IDiaStackWalkHelper::searchForReturnAddress | Microsoft Docs"
+title: "IDiaStackWalkHelper::searchForReturnAddress"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaStackWalkHelper2::searchForReturnAddress method"
-ms.assetid: 904223b1-6e26-4980-b310-d0b222cdbbbd
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaStackWalkHelper::searchForReturnAddress
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Searches the specified stack frame for the nearest function return address.
 
 ## Syntax

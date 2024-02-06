@@ -1,6 +1,6 @@
 ---
 description: "When the .exe file is created, each public symbol (at a minimum, each global function and data symbol) is given a SymTagPublicSymbol tag."
-title: "PublicSymbol | Microsoft Docs"
+title: "PublicSymbol"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -9,17 +9,13 @@ helpviewer_keywords:
   - "data symbols [C++]"
   - "PublicSymbol symbol"
   - "global functions [C++], as public symbols"
-ms.assetid: f8d33007-302d-4549-9dad-47fb33ea60b7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # PublicSymbol
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When the .exe file is created, each public symbol (at a minimum, each global function and data symbol) is given a `SymTagPublicSymbol` tag.
 
 ## Properties

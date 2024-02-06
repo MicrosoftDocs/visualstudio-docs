@@ -1,6 +1,6 @@
 ---
 title: Update existing project item templates
-description: Learn how to use Export Template Wizard and other manual processes to update project item templates that you've already created.
+description: Use the Export Template Wizard and other manual processes in Visual Studio to update project item templates that you already created.
 ms.date: 01/02/2018
 ms.topic: how-to
 helpviewer_keywords:
@@ -11,11 +11,9 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ---
-# How to: Update existing templates
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Update existing templates
 
 After you create a template and compress the files into a *.zip* file, you may want to modify the template. You can do this by manually changing the files in the template or by exporting a new template from a project that's based on the template.
 
@@ -63,7 +61,7 @@ You can update an existing template without using the **Export Template Wizard**
 
 1. Delete the extracted template files and the old template *.zip* file.
 
-## See also
+## Related content
 
 - [Customize templates](../ide/customizing-project-and-item-templates.md)
 - [Create project and item templates](../ide/creating-project-and-item-templates.md)

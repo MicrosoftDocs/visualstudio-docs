@@ -1,26 +1,22 @@
 ---
 description: "Creates an enumerator for properties associated with the stack frame, such as local variables."
-title: IDebugStackFrame2::EnumProperties | Microsoft Docs
+title: IDebugStackFrame2::EnumProperties
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugStackFrame2::EnumProperties
 helpviewer_keywords:
 - IDebugStackFrame2::EnumProperties
-ms.assetid: 334bb95e-c7e0-4008-9f06-8c3999e47ee8
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugStackFrame2::EnumProperties
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an enumerator for properties associated with the stack frame, such as local variables.
 
 ## Syntax

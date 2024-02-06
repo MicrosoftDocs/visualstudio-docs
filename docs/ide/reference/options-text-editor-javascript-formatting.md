@@ -2,7 +2,7 @@
 title: Options, Text Editor, JavaScript, Formatting
 description: Learn how to use the Formatting page of the Options dialog box to set options for formatting code in the Code Editor. 
 ms.date: 10/29/2018
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Formatting.Spacing"
@@ -11,16 +11,11 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Formatting.Spacing"
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Formatting.General"
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Formatting.New_Lines"
-ms.assetid: 28a0aef1-9353-4d94-95a5-54b42e15c0dc
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.workload:
-  - "multiple"
 ---
 # Options dialog box: Text Editor \> JavaScript \> Formatting
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Formatting** page of the **Options** dialog box to set options for formatting code in the Code Editor. To access this page, on the menu bar, choose **Tools** > **Options**, and then expand **Text Editor** > **JavaScript/TypeScript** > **Formatting**.
 

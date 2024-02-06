@@ -1,19 +1,15 @@
 ---
-title: TargetPlatformName Element (Visual Studio Templates) | Microsoft Docs
+title: TargetPlatformName Element (Visual Studio Templates)
 description: Learn about the TargetPlatformName element and how it specifies the platform that the project template targets.
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
-ms.assetid: 3a6b1f45-b5d6-418e-add1-87ee8f15033d
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.workload:
-- vssdk
 ---
 # TargetPlatformName Element (Visual Studio Templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the platform that the project template targets. This element is used to specify that a project template is used to create Windows 8.x Store apps.
 
 ## Syntax

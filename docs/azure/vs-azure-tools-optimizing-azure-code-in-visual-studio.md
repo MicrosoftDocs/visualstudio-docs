@@ -3,15 +3,15 @@ title: Optimizing your Azure code
 description: Learn about how Azure code optimization tools in Visual Studio help make your code more robust and better-performing.
 author: ghogen
 manager: jmartens
-ms.technology: vs-azure
+ms.subservice: azure-development
 ms.topic: conceptual
-ms.workload: azure-vs
 ms.date: 11/11/2016
 ms.author: ghogen
 ---
 # Optimizing Your Azure Code
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+ [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
+
 When you’re programming apps that use Microsoft Azure, there are some coding practices you should follow to help avoid problems with app scalability, behavior and performance in a cloud environment. Microsoft provides an Azure Code Analysis tool that recognizes and identifies several of these commonly-encountered issues and helps you resolve them. You can download the tool in Visual Studio via NuGet.
 
 ## Azure Code Analysis rules
@@ -89,7 +89,7 @@ Use Shared Access Signature (SAS) for authentication. Access Control Service (AC
 Please share your ideas and feedback at [Azure Code Analysis feedback](https://social.msdn.microsoft.com/Forums/en-US/home).
 
 ### Reason
-For enhanced security, Azure Active Directory is replacing ACS authentication with SAS authentication. See [Azure Active Directory is the future of ACS](https://cloudblogs.microsoft.com/enterprisemobility/2013/06/22/azure-active-directory-is-the-future-of-acs/) for information on the transition plan.
+For enhanced security, Microsoft Entra ID is replacing ACS authentication with SAS authentication. See [Microsoft Entra ID is the future of ACS](https://cloudblogs.microsoft.com/enterprisemobility/2013/06/22/azure-active-directory-is-the-future-of-acs/) for information on the transition plan.
 
 ### Solution
 Use SAS authentication in your apps. The following example shows how to use an existing SAS token to access a service bus namespace or entity.
@@ -455,5 +455,5 @@ public class BlogsController : Controller
     }
 ```
 
-## Next steps
+## Related content
 To learn more about optimizing and troubleshooting Azure apps, see [Troubleshoot a web app in Azure App Service using Visual Studio](/azure/app-service/web-sites-dotnet-troubleshoot-visual-studio).

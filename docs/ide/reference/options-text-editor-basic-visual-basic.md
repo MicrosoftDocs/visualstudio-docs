@@ -1,4 +1,4 @@
-﻿---
+---
 title: Options, Text Editor, Basic (VB), Advanced
 description: Learn how to use the Advanced page in the Basic section to change the default settings of the Analysis, Import Directives, and Highlighting properties.
 ms.date: 05/20/2022
@@ -13,26 +13,21 @@ f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.Basic.VB_Specific
 helpviewer_keywords:
 - Basic Text Editor Options dialog box
-ms.assetid: 5a8cafca-f7b4-4a2d-92ce-6894a7673d00
 author: akhera99
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Options, Text Editor, Basic (Visual Basic), Advanced
 
 ::: moniker range=">=vs-2022"
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **VB Specific** property page, in the **Visual Basic** folder of the **Text Editor** folder of the **Options** (**Tools** menu) dialog box, includes the following properties:
 
 ::: moniker-end
 
 ::: moniker range="<=vs-2019"
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **VB Specific** property page, in the **Basic** folder of the **Text Editor** folder of the **Options** (**Tools** menu) dialog box, includes the following properties:
 
 ::: moniker-end
@@ -62,20 +57,20 @@ The **VB Specific** property page, in the **Basic** folder of the **Text Editor*
 
 ::: moniker-end
 
-## Using Directives
+## Import Directives
 
-- Place 'System' directives first when sorting usings
+- Place 'System' directives first when sorting imports
 
-   When selected, the **Remove and Sort Usings** command in the right-click menu sorts the `using` directives and places the 'System' namespaces at the top of the list.
+   When selected, the **Remove and Sort Imports** command in the right-click menu sorts the `import` directives and places the 'System' namespaces at the top of the list.
 
-- Separate using directive groups
+- Separate import directive groups
 
-   When selected, the **Remove and Sort Usings** command in the right-click menu separates `using` directives by inserting an empty line between groups of directives that have the same root namespace.
+   When selected, the **Remove and Sort Imports** command in the right-click menu separates `import` directives by inserting an empty line between groups of directives that have the same root namespace.
 
-- Suggest usings for types in reference assemblies
-- Suggest usings for types in NuGet packages
+- Suggest imports for types in reference assemblies
+- Suggest imports for types in NuGet packages
 
-   When these options are selected, a [Quick Action](../quick-actions.md) is available to install a NuGet package and add a `using` directive for unreferenced types.
+   When these options are selected, a [Quick Action](../quick-actions.md) is available to install a NuGet package and add an `import` directive for unreferenced types.
 
    ![Quick Action to install NuGet package in Visual Studio](media/nuget-lightbulb.png)
 

@@ -1,25 +1,20 @@
 ---
 title: Use command-line parameters to install Visual Studio
 titleSuffix: ''
-description: Learn how to use command-line parameters to control or customize your Visual Studio installation.
-ms.date: 8/8/2023
+description: Use command-line parameters with your Visual Studio installation and start the installation with preselected options or automate the installation and update process.
+ms.date: 11/27/2023
 ms.topic: conceptual
 f1_keywords:
 - command-line parameters
 - switches
 - command prompt
-ms.assetid: 480f3cb4-d873-434e-a8bf-82cff7401cf2
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.workload:
-- multiple
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ---
 # Use command-line parameters to install, update, and manage Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you install Visual Studio programmatically or from a command prompt, you can use various command-line parameters to control or customize the installation to perform the following actions:
 
@@ -27,18 +22,17 @@ When you install Visual Studio programmatically or from a command prompt, you ca
 - Automate the installation or update process.
 - Create or maintain a network layout of the product files for installing or updating client machines.
 
-
-The command-line verbs and parameters described below are designed to be used with the following executables or programs:
-  - The setup bootstrapper, which is the small (~1 MB) file (for example, vs_enterprise.exe) that initiates the download process.
-  - The Visual Studio installer that may already be installed on the machine and is located in the folder `C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe`. Note that you can't initiate the installer programmatically from the same directory that the installer resides in.  
+The command-line verbs and parameters described below can be used with the following executables or programs:
+  - The setup bootstrapper, which is the small (~1 MB) file (for example, vs_enterprise.exe) that initiates the download process and the initial installation.
+  - The Visual Studio installer that may already be installed on the machine and is located in the folder `C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe`. You must initiate the installer programmatically from a _different_ directory that the installer resides in. The installer is typically used for update or modify commands. 
   - With a [winget command using winget's --override switch](#use-winget-to-install-or-modify-visual-studio). 
-  - With an Administrator Update package, which is available to download from the [Microsoft Update Catalog](https://catalog.update.microsoft.com), to programatically update your network layout. More information describing how to do this can be found in the [Update or modify your layout](create-a-network-installation-of-visual-studio.md#update-the-layout-to-a-specific-version-of-the-product) article. 
+  - With an Administrator Update package, which is available to download from the [Microsoft Update Catalog](https://catalog.update.microsoft.com), to programatically update your network layout. More information can be found in the [Update or modify your layout](create-a-network-installation-of-visual-studio.md#update-the-layout-to-a-specific-version-of-the-product) article. 
 
-Not all commands or parameters work in each of these situations, and we've tried to document the exceptions below. Furthermore, in some scenarios you may not have access to all of these executables. For example, client machines may only have the installer available for programmatic execution if Visual Studio was installed via a layout.  
+Not all commands or parameters work in each of these situations, and any special caveats or exceptions are documented. Furthermore, in some scenarios you may not have access to all of these executables described above. For example, client machines may only have the installer available for programmatic execution if Visual Studio was installed via a layout.  
 
 ::: moniker range="vs-2019"
 
-You can get the Visual Studio 2019 bootstrappers from the table below. Alternatively, if you want a specific version of Visual Studio 2019, you can go to the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history#installing-an-earlier-release) page, which has links to the fixed version bootstrappers for your chosen version and edition of Visual Studio.
+You can get the Visual Studio 2019 bootstrappers from the following table. Alternatively, if you want a specific version of Visual Studio 2019, you can go to the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history#installing-an-earlier-release) page, which has links to the fixed version bootstrappers for your chosen version and edition of Visual Studio.
 
 | **Edition**                     | **Bootstrapper**                                                             |
 |---------------------------------|------------------------------------------------------------------------------|
@@ -50,7 +44,7 @@ You can get the Visual Studio 2019 bootstrappers from the table below. Alternati
 
 ::: moniker range=">=vs-2022"
 
-To get the latest bootstrappers for Visual Studio 2022 that will always install the latest version of the Current channel, download one of the files below. Alternatively, if you want to install a specific version or a specific channel of Visual Studio 2022, go to the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page, which has links to the fixed version bootstrappers for each servicing release. 
+To get the latest bootstrappers for Visual Studio 2022 that always install the latest version of the Current channel, download one of the files in the following table. Alternatively, if you want to install a specific version or a specific channel of Visual Studio 2022, go to the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page, which has links to the fixed version bootstrappers for each servicing release. 
 
 | **Edition**                      | **Bootstrapper**                                                                                   |
 |----------------------------|-------------------------------------------------------------------------------------------|
@@ -77,7 +71,7 @@ To get the latest bootstrappers for Visual Studio 2022 that will always install 
 
 ## Install, Update, Modify, Repair, Uninstall, and Export commands and command-line parameters
 
-When invoking the Visual Studio bootstrapper or the installer programmatically to install the product or to maintain a layout, the first parameter is the command (the verb) that describes the operation to perform. The subsequent optional command line parameters, which are all prefixed by two dashes (--), further define how that operation is supposed to happen. All Visual Studio command-line parameters are case-insensitive, and additional examples can be found on the [Command-line parameter examples](command-line-parameter-examples.md) page.
+When invoking the Visual Studio bootstrapper or the installer programmatically to install the product or to maintain a layout, the first parameter is the command (the verb) that describes the operation to perform. The subsequent optional command line parameters, which are all prefixed by two dashes (--), further define how that operation is supposed to happen. All Visual Studio command-line parameters are case-insensitive, and more examples can be found on the [Command-line parameter examples](command-line-parameter-examples.md) page.
 
 Syntax example: `vs_enterprise.exe [command] <optional parameters>...`
 
@@ -106,19 +100,20 @@ Syntax example: `vs_enterprise.exe [command] <optional parameters>...`
 | `--allWorkloads`                                   | **Optional**: During an install or modify command, this parameter installs all workloads and components, but no recommended or optional components.  |
 | `--includeRecommended`                             | **Optional**: During an install or modify command, this parameter includes the recommended components for any workloads that are installed, but not the optional components. The workloads are specified either with `--allWorkloads` or `--add`.  |
 | `--includeOptional`                                | **Optional**: During an install or modify command, this parameter includes the optional components for any workloads that are installed, but not the recommended components. The workloads are specified either with `--allWorkloads` or `--add`. |
-| `--quiet, -q`                                      | **Optional**: Used with any command, this parameter prevents any user interface from being displayed while the command is being executed. Not available to use programmatically by [standard users](https://aka.ms/vs/setup/policies). |
+| `--quiet`                                      | **Optional**: Used with any command, this parameter prevents any user interface from being displayed while the command is being executed. Not available to use programmatically by [standard users](https://aka.ms/vs/setup/policies). |
 | `--passive, -p`                                    | **Optional**: This parameter causes the user interface to be displayed in a non-interactive manner. This parameter is mutually exclusive from (and in fact overrides) the `--quiet` parameter. Also not available to use programmatically by [standard users](https://aka.ms/vs/setup/policies).  |
-| `--norestart`                                      | **Optional**: This parameter must be paired with either the `--passive` or `--quiet` parameters.  During an install, update, or modify command, adding the `--norestart` parameter will delay any necessary reboot.    |
+| `--norestart`                                      | **Optional**: This parameter must be paired with either the `--passive` or `--quiet` parameters.  During an install, update, or modify command, adding the `--norestart` parameter delays any necessary reboot.    |
 | `--force`                                          | **Optional**: This parameter forces Visual Studio to close even if any Visual Studio process is in use. Forcing Visual Studio to close might cause loss of work, so use it with caution.  |
 | `--installWhileDownloading`                        | **Optional**: During an install, update, or modify command, this parameter allows Visual Studio to both download and install the product in parallel. It's the default experience.  |
 | `--downloadThenInstall`                            | **Optional**: During an install, update, or modify command, this parameter forces Visual Studio to download all files before installing them. It is mutually exclusive from the `--installWhileDownloading` parameter.   |
-| `--channelUri`                                     | **Optional**: During an update command, you can pass in a new channelUri to change the update settings location.  Recommend to pair with --installPath parameter so that it's very explicit which instance of Visual Studio you're configuring. See [syntax examples of --channelUri](/visualstudio/install/command-line-parameter-examples#using---channelUri) |
-| `--channelId <id>`                                 | The ID of the channel, represented like `VisualStudio.17.Release`. See [syntax examples of --channelId](/visualstudio/install/command-line-parameter-examples#using---channelUri). This is required for `modify` operations, alongside either `--productID` or `--installPath`.  |
-| `--productId <id>`                                 | **Optional**: The ID of the product for the instance that will be modified, and used in conjunction with `--channelId`. The `productID` is something like "Microsoft.VisualStudio.Product.Enterprise". |
+| `--channelUri`                                     | **Optional**: During an update command, you can pass in a new channelUri to change the update settings location.  Recommend to pair with --installPath parameter so that it's explicit which instance of Visual Studio you're configuring. See [syntax examples of --channelUri](/visualstudio/install/command-line-parameter-examples#using---channeluri) |
+| `--channelId <id>`                                 | The ID of the channel, represented like `VisualStudio.17.Release`. See [syntax examples of --channelId](/visualstudio/install/command-line-parameter-examples#using---channeluri). This is required for `modify` operations, alongside either `--productID` or `--installPath`.  |
+| `--productId <id>`                                 | **Optional**: The ID of the product for the instance that will be modified, and used with `--channelId`. The `productID` is something like "Microsoft.VisualStudio.Product.Enterprise". |
 | `--nickname <name>`                                | **Optional**: During an install command, this parameter defines the nickname to assign to an installed product. The nickname can't be longer than 10 characters. |
 | `--productKey`                                     | **Optional**: During an install command, this parameter defines the product key to use for an installed product. It's composed of 25 alphanumeric characters in the format `xxxxxxxxxxxxxxxxxxxxxxxxx`.  |
-| `--removeOos true`                                 | **Optional**: During an install, update, or modify command, this parameter (which must have the word true or false immediately after it) tells the Visual Studio installer to remove (or don't remove) all installed components that have transitioned to an out-of-support state. This behavior is applicable for a single event. If you want to make this behavior persistent, apply this parameter to the modifySettings command which is described below, or [configure the removeOOS global policy](configure-policies-for-enterprise-deployments.md). Useful for helping to keep the machine secure.  |
-| `--config <path>`                                  | **Optional**: During an install or modify operation, this determines the workloads and components to add based on a previously saved installation configuration file. This operation is additive and it won't remove any workload or component if they aren't present in the file. Also, items that don't apply to the product won't be added. During an export operation, this determines the location to save the installation configuration file.  |
+| `--removeOos true`                                 | **Optional**: During an install, update, or modify command, this parameter (which must have the word true or false immediately after it) tells the Visual Studio installer to remove (or don't remove) all installed components that have transitioned to an out-of-support state. This behavior is applicable for a single event. If you want to make this behavior persistent, apply this parameter to the modifySettings command, which is described below, or [configure the removeOOS global policy](configure-policies-for-enterprise-deployments.md). Useful for helping to keep the machine secure.  |
+| `--config <path to *.vsconfig file>`               | **Optional**: During an install or modify operation, this determines the workloads and components to add based on a previously saved installation configuration file. This operation is additive and it doesn't remove any workload or component if they aren't present in the file. Also, items that don't apply to the product aren't added. Make sure you specify the fully qualified path to the config file. During an export operation, this determines the location to save the installation configuration file.  |
+| `--installerOnly`                                  | **Optional**: During an install or update operation, this parameter tells the Visual Studio Installer to install just itself (the installer). Its functionality is equivalent to the `--update` parameter, but more intuitive. Meant to be used when prepping and pre-configuring client machines.  |
 | `--help, --?, -h, -?`                              | Displays an offline version of this page.     |
 
 ## Layout command and command-line parameters
@@ -132,18 +127,18 @@ All layout management operations are run using the bootstrapper exe and they ass
 | `--add <one or more workload or component IDs>` | **Optional**: One or more workload or component IDs to add. The required components of the artifact are installed, but not the recommended or optional components. You can control additional components globally using `--includeRecommended` and/or `--includeOptional`. For finer-grained control, you can append `;includeRecommended` or `;includeOptional` to the ID (for example, `--add Workload1;includeRecommended` or `--add Workload2;includeOptional`). For more information, see the [Workload and component IDs](workload-and-component-ids.md) page. <br/>**Note**: If `--add` is used, only the specified workloads and components and their dependencies are downloaded. If `--add` isn't specified, all workloads and components are downloaded to the layout. |
 | `--includeRecommended`                          | **Optional**: Includes the recommended components for any workloads that are installed, but not the optional components. The workloads are specified either with `--allWorkloads` or `--add`.         |
 | `--includeOptional`                             | **Optional**: Includes the recommended *and* optional components for any workloads being included in the layout. The workloads are specified with `--add`.                        |
-| `--wait`                       | **Optional**: The process will wait until the install is completed before returning an exit code. This is useful when automating installations where one needs to wait for the install to finish to handle the return code from that install. The `--wait` parameter can only be passed into the bootstrapper; it is not supported by the installer (setup.exe). It is particularly useful when updating layouts. Additional examples can be found [here](command-line-parameter-examples.md#update).   |
-| `--useLatestInstaller`         | **Optional**: Legacy functionality that is only applicable for Visual Studio bootstrappers older than April 2023. Anything shipped after April 2023 uses the latest installer by default. If this parameter is present, then the latest version of the Visual Studio Installer will be included in your layout, even if it belongs to a newer major version of the product. This can be useful if you want to take advantage of new features or bug fixes that are available in the latest installer. For more information, refer to [Configure the layout to always use the latest installer](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer) documentation. |
-| `--config <*.vsconfig>`      | **Optional**: If present, Visual Studio will use the [contents of the configuration file](import-export-installation-configurations.md) to configure your layout. |
-| `--noWeb`                      | **Optional**: If present, Visual Studio setup uses the files in your layout directory to install Visual Studio, and it will not download any packages from the web. If a user tries to install components that aren't in the layout, setup will fail. Do not use this parameter if you're trying to deploy a layout hosted on an internal intranet website. For more information, see [Install on a client that doesn't have internet access](deploy-a-layout-onto-a-client-machine.md#install-on-a-client-that-doesnt-have-internet-access). <br/><br/> **Important**: Note that the `--noWeb` parameter does not stop the Visual Studio Installer on an internet-connected client machine from checking for updates if the client is configured to look at Microsoft hosted servers for updates. In this case, `--noWeb` simply prevents the client from downloading the product packages. |
+| `--wait`                       | **Optional**: The process waits until the install is completed before returning an exit code. This is useful when automating installations where one needs to wait for the install to finish to handle the return code from that install. The `--wait` parameter can only be passed into the bootstrapper; it is not supported by the installer (setup.exe). It is particularly useful when updating layouts. More examples can be found [here](command-line-parameter-examples.md#update).   |
+| `--useLatestInstaller`         | **Optional**: Legacy functionality that is only applicable for Visual Studio bootstrappers older than April 2023. Anything shipped after April 2023 uses the latest installer by default. If this parameter is present, then the latest version of the Visual Studio Installer is included in your layout, even if it belongs to a newer major version of the product. This can be useful if you want to take advantage of new features or bug fixes that are available in the latest installer. For more information, refer to [Configure the layout to always use the latest installer](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer) documentation. |
+| `--config <path to *.vsconfig file>`      | **Optional**: If present, Visual Studio uses the [contents of the configuration file](import-export-installation-configurations.md) to configure your layout. Make sure you specify the fully qualified path to the config file. |
+| `--noWeb`                      | **Optional**: If present, Visual Studio setup uses the files in your layout directory to install Visual Studio, and it doesn't download any packages from the web. If a user tries to install components that aren't in the layout, setup fails. Don't use this parameter if you're trying to deploy a layout hosted on an internal intranet website. For more information, see [Install on a client that doesn't have internet access](deploy-a-layout-onto-a-client-machine.md#install-on-a-client-that-doesnt-have-internet-access). <br/><br/> **Important**: The `--noWeb` parameter doesn't stop the Visual Studio Installer on an internet-connected client machine from checking for updates if the client is configured to look at Microsoft hosted servers for updates. In this case, `--noWeb` simply prevents the client from downloading the product packages. |
 | `--verify`                                      | **Optional**: Verify the contents of a layout. Any corrupt or missing files are listed.            |
 | `--fix`                                         | **Optional**: Verify the contents of a layout. If any files are corrupt or missing, they're redownloaded. Internet access is required to fix a layout.           |
 | `--clean <one or more paths to catalogs>`       | **Optional**: Removes old versions of components from a layout that has been updated to a newer version.    |
 
 | **Advanced layout parameters** | **Description**                                  |
 |--------------------------------|--------------------------------------------------|
-| `--channelId <id>`             | **Optional**: The ID of the channel for the instance to be installed, represented like `VisualStudio.17.Release`. This is required for the install command, and ignored for other commands if `--installPath` is specified. See [syntax examples of --channelId](/visualstudio/install/command-line-parameter-examples#using---channelUri).       |
-| `--channelUri <uri>`           | **Optional**: The URI of the channel manifest. This value governs the [source location of updates](update-visual-studio.md#configure-source-location-of-updates-1) and the initial value is [configured in the layout's response.json file](create-a-network-installation-of-visual-studio.md#configure-initial-client-installation-defaults-for-this-layout). Refer to [syntax examples of --channelUri](/visualstudio/install/command-line-parameter-examples#using---channelUri) for possible values. If updates aren't wanted, `--channelUri` can point to a non-existent file (for example, --channelUri C:\doesntExist.chman). This can be used for the install command; it's ignored for other commands.  |
+| `--channelId <id>`             | **Optional**: The ID of the channel for the instance to be installed, represented like `VisualStudio.17.Release`. This is required for the install command, and ignored for other commands if `--installPath` is specified. See [syntax examples of --channelId](/visualstudio/install/command-line-parameter-examples#using---channeluri).       |
+| `--channelUri <uri>`           | **Optional**: The URI of the channel manifest. This value governs the [source location of updates](update-visual-studio.md#configure-source-location-of-updates-1) and the initial value is [configured in the layout's response.json file](create-a-network-installation-of-visual-studio.md#configure-initial-client-installation-defaults-for-this-layout). Refer to [syntax examples of --channelUri](/visualstudio/install/command-line-parameter-examples#using---channeluri) for possible values. If updates aren't wanted, `--channelUri` can point to a non-existent file (for example, --channelUri C:\doesntExist.chman). This can be used for the install command; it's ignored for other commands.  |
 | `--installChannelUri <uri>`    | **Optional**: The URI of the channel manifest to use for the installation. The URI specified by `--channelUri` (which must be specified when `--installChannelUri` is specified) is used to detect updates. This can be used for the install command; it's ignored for other commands.  |
 | `--installCatalogUri <uri>`    | **Optional**: The URI of the catalog manifest to use for the installation. If specified, the channel manager attempts to download the catalog manifest from this URI before using the URI in the install channel manifest. This parameter is used to support offline install, where the layout cache will be created with the product catalog already downloaded. This can be used for the install command; it's ignored for other commands.    |
 | `--productId <id>`             | **Optional**: The ID of the product for the instance that will be installed. This is pre-populated in normal installation conditions. The `productID` is something like "Microsoft.VisualStudio.Product.Enterprise". |
@@ -168,10 +163,10 @@ You can modify the update settings and programmatically configure the source loc
 | **modifySettings parameters**                   | **Description**                                        |
 |-------------------------------------------------|----------------------------------------------------------------------|
 | `--installPath <dir>`                           | **Recommended** to use to specify which instance of Visual Studio to act upon.  |
-| `--newChannelUri`                               | **Required**: The URI of the channel manifest. This value specifies where the next [source location of updates](update-visual-studio.md#configure-source-location-of-updates-1) will be. Refer to [syntax examples of --channelUri](/visualstudio/install/command-line-parameter-examples#using---channelUri) for possible values. If updates aren't wanted, `--channelUri` can point to a non-existent file (for example, --channelUri C:\doesntExist.chman). |
+| `--newChannelUri`                               | **Required**: The URI of the channel manifest. This value specifies where the next [source location of updates](update-visual-studio.md#configure-source-location-of-updates-1) will be. Refer to [syntax examples of --channelUri](/visualstudio/install/command-line-parameter-examples#using---channeluri) for possible values. If updates aren't wanted, `--channelUri` can point to a non-existent file (for example, --channelUri C:\doesntExist.chman). |
 | `--channelUri`                               | The URI of the old channel manifest. Can be used if the --installPath is not known. Must be used in conjunction with productID to identify the right instance to act upon. |
 | `--productId <id>`                           | Must be used if --channelUri is specified and is used to identify the right instance to act upon. The `productID` is something like "Microsoft.VisualStudio.Product.Enterprise". |
-| `--quiet, -q`                                   | **Optional**: This parameter prevents any user interface from being displayed while the command is being executed. Not available to use programmatically by [standard users](https://aka.ms/vs/setup/policies). |
+| `--quiet`                                   | **Optional**: This parameter prevents any user interface from being displayed while the command is being executed. Not available to use programmatically by [standard users](https://aka.ms/vs/setup/policies). |
 | `--removeOos true`                              | **Optional**: During a modifySettings command, this parameter (which must have the word true or false immediately after it) tells the Visual Studio installer to _persistently_ remove (or not remove) all installed components that have transitioned to an out-of-support state. Useful for helping to keep the machine secure. | 
 
 Syntax examples: 
@@ -236,7 +231,6 @@ visualstudioupdate-16.9.0to16.9.4.exe --installerUpdateArgs=--force,--noWeb,--ke
 
 ## Remove channel command and command-line parameters
 Channels that are available to update from, are cached on the client, and over time they can clutter things up. You can manually remove [update channels](update-visual-studio.md#configure-source-location-of-updates-1) by bringing up the Visual Studio Installer, switching to the **Available** tab, and clicking on the **X** in the top right corner of the product card. You can programmatically remove channels (for example, older layout locations) using the `removeChannel` command. You can run [vswhere](tools-for-managing-visual-studio-instances.md#using-vswhereexe) programmatically on the client machine to determine which channels are cached on the client machine. 
-
 
 | **Command** | **Description**                                                                                                         |
 |-------------|-------------------------------------------------------------------------------------------------------------------------|
@@ -315,7 +309,7 @@ Each operation generates several log files in the `%TEMP%` directory that indica
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 
 - [Command-line parameter examples for Visual Studio installation](command-line-parameter-examples.md)
 - [Create an offline installation of Visual Studio](create-an-offline-installation-of-visual-studio.md)

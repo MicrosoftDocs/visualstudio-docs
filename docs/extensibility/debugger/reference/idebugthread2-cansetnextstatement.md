@@ -1,26 +1,22 @@
 ---
 description: "Determines whether the current instruction pointer can be set to the given stack frame."
-title: IDebugThread2::CanSetNextStatement | Microsoft Docs
+title: IDebugThread2::CanSetNextStatement
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugThread2::CanSetNextStatement
 helpviewer_keywords:
 - IDebugThread2::CanSetNextStatement
-ms.assetid: 7014af80-ff4f-4790-a34b-0528918d1fa3
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugThread2::CanSetNextStatement
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines whether the current instruction pointer can be set to the given stack frame.
 
 ## Syntax

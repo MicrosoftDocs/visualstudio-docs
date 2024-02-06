@@ -1,21 +1,17 @@
 ---
-title: 'How to: Open Editors for Open Documents | Microsoft Docs'
+title: 'Open Editors for Open Documents'
 description: Learn how to open a file in a standard or project-specific editor. When a project opens a document window, it must determine whether the file is already open.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], opening for open documents
-ms.assetid: 1a0fa49c-efa4-4dcc-bdc0-299b7052acdc
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
-# How to: Open editors for open documents
+# Open editors for open documents
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Before a project opens a document window, the project first must determine whether the file is already open in the document window for another editor. The file can be either open in a project-specific editor, or one of the standard editors registered with Visual Studio.
 
 ## Open a project-specific editor
@@ -50,7 +46,7 @@ Before a project opens a document window, the project first must determine wheth
 
 2. If the document is not open, then complete the steps in [How to: Open standard editors](../extensibility/how-to-open-standard-editors.md).
 
-## See also
+## Related content
 - [Open and Save project items](../extensibility/internals/opening-and-saving-project-items.md)
 - [How to: Open project-specific editors](../extensibility/how-to-open-project-specific-editors.md)
 - [How to: Open standard editors](../extensibility/how-to-open-standard-editors.md)

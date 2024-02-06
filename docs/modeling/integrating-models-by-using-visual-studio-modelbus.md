@@ -1,22 +1,15 @@
 ---
 title: Integrate models by using ModelBus
 description: Learn how Visual Studio ModelBus provides a method for creating links between models and from other tools into models.
-ms.custom:
-- SEO-VS-2020
-- kr2b-contr-experiment
 ms.date: 06/24/2022
 ms.topic: how-to
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-  - "multiple"
+ms.subservice: modeling
 ---
 
 # Integrate models by using Visual Studio ModelBus
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio ModelBus provides a method for creating links between models and from other tools into models. For example, you could link domain-specific language (DSL) models and UML models. You can create an integrated set of DSLs.
 
@@ -519,7 +512,7 @@ When you right-click the **DSL Definition Diagram**, select **Enable ModelBus**,
 
 - In *DslPackage\source.extention.tt*, `|ModelBusAdapter|` is added as a MEF Component.
 
-## Next steps
+## Related content
 
 - [How to: Open a Model from File in Program Code](../modeling/how-to-open-a-model-from-file-in-program-code.md)
 - [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)

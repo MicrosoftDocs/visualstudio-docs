@@ -1,11 +1,10 @@
 ---
 title: F1 help no-match fallback
 description: "Oops! No F1 match found."
-ms.prod: visual-studio
-ms.technology: 
+ms.service: visual-studio
+ms.subservice: 
 ms.date: 10/19/2021
 ms.topic: error-reference
-ms.custom: contperf-fy21q4
 recommendations: false
 robots: noindex,nofollow
 f1_keywords:
@@ -1456,8 +1455,6 @@ author: mikejo5000
 ms.author: mikejo
 ---
 # Oops! No `F1` help match was found
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ## Now what?
 

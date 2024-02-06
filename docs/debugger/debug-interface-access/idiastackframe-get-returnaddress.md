@@ -1,23 +1,19 @@
 ---
 description: "Retrieves the return address of the frame."
-title: "IDiaStackFrame::get_returnAddress | Microsoft Docs"
+title: "IDiaStackFrame::get_returnAddress"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaStackFrame::get_returnAddress method"
-ms.assetid: 0df91981-919f-48ed-9c70-4121567d645b
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaStackFrame::get_returnAddress
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the return address of the frame.
 
 ## Syntax

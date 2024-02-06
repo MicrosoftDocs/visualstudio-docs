@@ -1,23 +1,19 @@
 ---
 description: "Retrieves corresponding string names for given property identifiers."
-title: "IDiaPropertyStorage::ReadPropertyNames | Microsoft Docs"
+title: "IDiaPropertyStorage::ReadPropertyNames"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaPropertyStorage::ReadPropertyNames"
-ms.assetid: f8bcab77-afca-4a8f-8710-697842f8a518
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaPropertyStorage::ReadPropertyNames
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves corresponding string names for given property identifiers.
 
 ## Syntax

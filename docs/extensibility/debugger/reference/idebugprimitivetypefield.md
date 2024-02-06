@@ -1,21 +1,17 @@
 ---
 description: "Represents a primitive type enumeration value from an IDebugField interface."
-title: IDebugPrimitiveTypeField | Microsoft Docs
+title: IDebugPrimitiveTypeField
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugPrimitiveTypeField interface
-ms.assetid: 73a428fd-797e-4ceb-8392-ba16f1c5226b
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugPrimitiveTypeField
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Represents a primitive type enumeration value from an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface.
 
 ## Syntax

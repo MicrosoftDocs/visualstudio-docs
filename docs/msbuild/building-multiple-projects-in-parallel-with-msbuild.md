@@ -1,19 +1,16 @@
 ---
-title: Building Multiple Projects in Parallel with MSBuild | Microsoft Docs
-description: Learn about the MSBuild settings you can use to build multiple projects faster by running them in parallel.
+title: Build multiple projects in parallel with MSBuild
+description: Explore the MSBuild settings that you can use to build multiple projects faster by running them in parallel in Visual Studio.
 ms.date: 09/14/2023
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - parallel project builds
 - building multiple projects in parallel
 - msbuild, building projects in parallel
-ms.assetid: c8c9aadc-33ad-4aa1-b07d-b879e9eabda0
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # Build multiple projects in parallel with MSBuild
 
@@ -74,7 +71,7 @@ The following project builds a specified target `DoIt` in `do_it.proj` in parall
 </Project>
 ```
 
-## See also
+## Related content
 
 - [Use multiple processors to build projects](../msbuild/using-multiple-processors-to-build-projects.md)
 - [Write multi-processor-aware loggers](../msbuild/writing-multi-processor-aware-loggers.md)

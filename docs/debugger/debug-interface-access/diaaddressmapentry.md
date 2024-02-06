@@ -1,23 +1,19 @@
 ---
 description: "Describes an entry in an address map."
-title: "DiaAddressMapEntry | Microsoft Docs"
+title: "DiaAddressMapEntry"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "DiaAddressMapEntry enumeration"
-ms.assetid: 5d0ae226-981d-4541-a801-fc4993fe663b
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # DiaAddressMapEntry
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes an entry in an address map.
 
 ## Syntax

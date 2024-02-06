@@ -1,24 +1,20 @@
 ---
-title: ProjectCollection Element (Visual Studio Templates) | Microsoft Docs
+title: ProjectCollection Element (Visual Studio Templates)
 description: Learn about the ProjectCollection element and how it specifies the organization and contents of multi-project templates.
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#ProjectCollection
 helpviewer_keywords:
 - <ProjectCollection> element [Visual Studio Templates]
 - ProjectCollection element [Visual Studio Templates]
-ms.assetid: deb27180-2035-49ed-b835-c47bb3cd2f8f
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.workload:
-- vssdk
 ---
 # ProjectCollection element (Visual Studio templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the organization and contents of multi-project templates.
 
  \<VSTemplate>

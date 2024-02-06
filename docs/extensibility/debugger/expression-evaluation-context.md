@@ -1,21 +1,17 @@
 ---
-title: Expression Evaluation Context | Microsoft Docs
+title: Expression Evaluation Context
 description: Learn about expression evaluation context, which represents a context for expression evaluation and exists when a program has stopped at a breakpoint.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - expression evaluation, context
-ms.assetid: a2fd3758-09bd-45ae-8ecc-2d276c0036ba
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # Expression evaluation context
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In Visual Studio debugging, an **expression evaluation context**:
 
 - Represents a context for expression evaluation. Generally, an evaluation context corresponds to the lexical scope within which to evaluate variables, parameters, functions, and methods. For example, an expression evaluation context associated with a stack frame will provide the context for evaluating local variables, method parameters, and class members (if applicable).

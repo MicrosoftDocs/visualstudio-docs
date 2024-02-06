@@ -1,23 +1,19 @@
 ---
 description: "Creates an enumerator that contains the same enumeration state as the current section contributions enumerator."
-title: "IDiaEnumSectionContribs::Clone | Microsoft Docs"
+title: "IDiaEnumSectionContribs::Clone"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumSectionContribs::Clone method"
-ms.assetid: 81d3f3a7-3684-4e5c-b028-29b268684a2c
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaEnumSectionContribs::Clone
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an enumerator that contains the same enumeration state as the current enumerator.
 
 ## Syntax

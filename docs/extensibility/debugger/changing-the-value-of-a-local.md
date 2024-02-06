@@ -1,22 +1,18 @@
 ---
-title: Changing the Value of a Local | Microsoft Docs
+title: Changing the Value of a Local
 description: Learn about the process of changing the value of a local when a new value is typed in the value field of the Locals window.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - debugging [Debugging SDK], expression evaluation
 - expression evaluation, changing values programmatically
-ms.assetid: 8407d3df-d38a-4328-82d1-98084bef43ec
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # Change the value of a local
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 > [!IMPORTANT]
 > In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 
@@ -44,6 +40,6 @@ ms.workload:
  [Sample implementation of changing values](../../extensibility/debugger/sample-implementation-of-changing-values.md)
  Uses the MyCEE sample to step through the process of changing values.
 
-## See also
+## Related content
 - [Writing a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
 - [Displaying locals](../../extensibility/debugger/displaying-locals.md)

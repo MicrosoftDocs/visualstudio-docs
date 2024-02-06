@@ -1,25 +1,21 @@
 ---
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
-description: "Learn about the new features in Visual Studio 2019."
+description: Explore new features in Visual Studio 2019, including instant code cleanup, collaboration through a Git-first workflow, and automatic snapshots of app execution.
 ms.date: 08/04/2023
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
-ms.assetid: 00bec66b-bcee-46f5-91d9-f73a2b469744
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.prod: visual-studio-windows
+ms.subservice: general-ide
+
 ms.topic: whats-new
 ms.custom: vs-acquisition
-ms.workload:
-  - "multiple"
+monikerRange: vs-2019
 ---
 # What's new in Visual Studio 2019
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Updated for the 16.11 release.** See [full release notes](/visualstudio/releases/2019/release-notes/) | View [product roadmap](/visualstudio/productinfo/vs2019-roadmap)
 
@@ -241,7 +237,7 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 * If you experience an issue where Visual Studio stops responding, crashes, or other performance issue, you can easily share repro steps and supporting files with us by using the [Report a Problem](how-to-report-a-problem-with-visual-studio.md) tool.
 
-## See also
+## Related content
 
 * [What's new in Visual Studio 2022 (Preview)](whats-new-visual-studio-2022.md)
 * [What's new in the Visual Studio docs](whats-new-visual-studio-docs.md)
@@ -252,5 +248,3 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 * [What's new for C# 9.0](/dotnet/csharp/whats-new/csharp-9)
 * [What's new in .NET 5](/dotnet/core/dotnet-five)
 * [What's new in .NET Framework](/dotnet/framework/whats-new/)
-* [Microsoft Build conference](https://mybuild.microsoft.com/)
-* [Microsoft Ignite conference](https://ignite.microsoft.com/)

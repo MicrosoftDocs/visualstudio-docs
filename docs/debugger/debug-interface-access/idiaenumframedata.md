@@ -1,23 +1,19 @@
 ---
 description: "Enumerates the various frame data elements contained in the data source."
-title: "IDiaEnumFrameData | Microsoft Docs"
+title: "IDiaEnumFrameData"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumFrameData interface"
-ms.assetid: 2ca7fd5a-b2fa-4b3a-9492-0263eafc435b
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaEnumFrameData
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enumerates the various frame data elements contained in the data source.
 
 ## Syntax

@@ -1,6 +1,6 @@
 ---
 title: "Get started programming VSTO Add-ins"
-description: Learn how you can use VSTO Add-ins to automate Microsoft Office applications, extend features of the application, and customize the application's user interface.
+description: Use VSTO add-ins to automate Microsoft Office applications, extend features of the application, and customize the application's user interface.
 ms.date: "04/28/2021"
 ms.topic: "conceptual"
 f1_keywords:
@@ -14,13 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
 # Get started programming VSTO Add-ins
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 > [!IMPORTANT]
 > VSTO relies on the [.NET Framework](/dotnet/framework/get-started/overview). COM add-ins can also be written with the .NET Framework. Office Add-ins cannot be created with [.NET Core and .NET 5+](/dotnet/core/dotnet-five), the latest versions of .NET. This is because .NET Core/.NET 5+ cannot work together with .NET Framework in the same process and may lead to add-in load failures. You can continue to use .NET Framework to write VSTO and COM add-ins for Office. Microsoft will not be updating VSTO or the COM add-in platform to use .NET Core or .NET 5+. You can take advantage of .NET Core and .NET 5+, including ASP.NET Core, to create the server side of [Office Web Add-ins](/office/dev/add-ins/overview/office-add-ins).
 
@@ -70,24 +67,14 @@ ms.workload:
 
   For more information about how to customize the UI of Microsoft Office applications, see [Office UI customization](../vsto/office-ui-customization.md).
 
-## Next steps
- To learn how to create VSTO Add-ins, see the following walkthroughs:
+## Related content
 
 - [Walkthrough: Create your first VSTO Add-in for Excel](../vsto/walkthrough-creating-your-first-vsto-add-in-for-excel.md)
-
 - [Walkthrough: Create your first VSTO Add-In for Outlook](../vsto/walkthrough-creating-your-first-vsto-add-in-for-outlook.md)
-
 - [Walkthrough: Create your first VSTO Add-in for PowerPoint](../vsto/walkthrough-creating-your-first-vsto-add-in-for-powerpoint.md)
-
 - [Walkthrough: Create your first VSTO Add-in for Project](../vsto/walkthrough-creating-your-first-vsto-add-in-for-project.md)
-
 - [Walkthrough: Create your first VSTO Add-in for Word](../vsto/walkthrough-creating-your-first-vsto-add-in-for-word.md)
-
-  These walkthroughs introduce you to the Office development tools in Visual Studio and the programming model for VSTO Add-ins.
-
-  For a list of topics that walk you through some of the common tasks in Office projects, see [Common tasks in Office programming](../vsto/common-tasks-in-office-programming.md).
-
-## See also
+- [Common tasks in Office programming](../vsto/common-tasks-in-office-programming.md)
 - [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
 - [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)
 - [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)

@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically create a meeting request"
+title: "Programmatically create a meeting request"
 description: Learn how you can programmatically create a meeting request in Microsoft Outlook and send the request to a required attendee.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -13,13 +13,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Programmatically create a meeting request
+# Programmatically create a meeting request
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example creates a meeting request in Microsoft Office Outlook and sends the request to a required attendee.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
@@ -33,6 +30,6 @@ ms.workload:
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Outlook_RL_MeetingRequest/thisaddin.vb" id="Snippet1":::
  ---
 
-## See also
+## Related content
 - [Work with calendar items](../vsto/working-with-calendar-items.md)
 - [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)

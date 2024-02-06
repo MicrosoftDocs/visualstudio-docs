@@ -1,9 +1,8 @@
 ---
-title: Visual Studio IDE in Visual Studio subscription | Microsoft Docs
+title: Visual Studio IDE in Visual Studio subscription
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: c4b13464-76be-40f1-ad60-ed79ee264b12
 ms.date: 06/15/2023
 ms.topic: how-to
 description: In this article, you learn how to download and install the Visual Studio IDE that's included in your Visual Studio subscription.
@@ -58,7 +57,6 @@ Here's how to download and install the IDE for your version of Visual Studio. We
    Visual Studio opens. You're ready to start using it right away!
 
    ![Screenshot of the options for getting started with using the newly installed Visual Studio.](_img/vs-ide-experience/vs-ide-start-cropped.png "Screenshot of the options for getting started with using the newly installed Visual Studio.")
-
 
 ## Eligibility
 

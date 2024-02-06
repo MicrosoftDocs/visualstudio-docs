@@ -30,13 +30,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
 # Programmatic limitations of host items and host controls
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Each host item and host control is designed to behave like a corresponding native Microsoft Office Word or Microsoft Office Excel object, with additional functionality. However, there are some fundamental differences between the behavior of host items and host controls and native Office objects at run time.
 
  For general information about host items and host controls, see [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md).
@@ -94,7 +91,7 @@ ms.workload:
 
  The Word and Excel object models include properties that expose collections of native controls on documents and worksheets. You cannot access managed controls by using these properties. For example, it is not possible to enumerate each <xref:Microsoft.Office.Tools.Word.Bookmark> host control in a document by using the <xref:Microsoft.Office.Interop.Word._Document.Bookmarks%2A> property of a <xref:Microsoft.Office.Interop.Word.Document> or the <xref:Microsoft.Office.Tools.Word.Document.Bookmarks%2A> property of a <xref:Microsoft.Office.Tools.Word.Document>. These properties include only the <xref:Microsoft.Office.Interop.Word.Bookmark> controls in the document; they do not contain the <xref:Microsoft.Office.Tools.Word.Bookmark> host controls in the document.
 
-## See also
+## Related content
 - [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
 - [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
 - [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)

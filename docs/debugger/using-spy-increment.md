@@ -1,21 +1,17 @@
 ---
-title: "Using Spy++ | Microsoft Docs"
+title: Use Spy++ to view threads, windows, and messages
 description: Spy++ (SPYXX.EXE) gives you a graphical view of the system's processes, threads, windows, and window messages. Look here for links to relevant articles.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "Using Spy++"
-ms.assetid: 02769bfa-5679-4ee2-8c6b-27876edb4e8c
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # Using Spy++
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Spy++ (SPYXX.EXE) is a Win32-based utility that gives you a graphical view of the system's processes, threads, windows, and window messages. This section of the Spy++ Help includes the following help topics:
 
 ## In This Section

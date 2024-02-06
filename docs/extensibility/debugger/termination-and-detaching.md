@@ -1,22 +1,18 @@
 ---
-title: Termination and Detaching | Microsoft Docs
+title: Termination and Detaching
 description: Normal termination means that a program being debugged runs to completion with no breakpoints, exceptions, run-time errors, or infinite loops.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - programs, termination events
 - debug engines, detaching from programs
-ms.assetid: 268c1e51-6363-45d1-964c-1ab99bdfa4f9
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # Termination and detaching
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following section describes normal termination.
 
 ## Discussion
@@ -24,5 +20,5 @@ The following section describes normal termination.
 
  You must send an [IDebugProgramDestroyEvent2](../../extensibility/debugger/reference/idebugprogramdestroyevent2.md) to implement normal termination. Normal termination requires running the [IDebugProgramDestroyEvent2::GetExitCode](../../extensibility/debugger/reference/idebugprogramdestroyevent2-getexitcode.md) method.
 
-## See also
+## Related content
 - [Creating a custom debug engine](../../extensibility/debugger/creating-a-custom-debug-engine.md)

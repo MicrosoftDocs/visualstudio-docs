@@ -1,23 +1,19 @@
 ---
 description: "Skips a specified number of symbols in an enumeration sequence."
-title: "IDiaEnumSymbols::Skip | Microsoft Docs"
+title: "IDiaEnumSymbols::Skip"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumSymbols::Skip method"
-ms.assetid: e601fbc9-b10b-41c7-8180-959e57efabe8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaEnumSymbols::Skip
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Skips a specified number of symbols in an enumeration sequence.
 
 ## Syntax

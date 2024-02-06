@@ -1,26 +1,22 @@
 ---
 description: "Retrieves the name of the evaluation context."
-title: IDebugExpressionContext2::GetName | Microsoft Docs
+title: IDebugExpressionContext2::GetName
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugExpressionContext2::GetName
 helpviewer_keywords:
 - IDebugExpressionContext2::GetName
-ms.assetid: c2b70d22-17af-4986-a7e3-930910367216
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugExpressionContext2::GetName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the name of the evaluation context.
 
 ## Syntax

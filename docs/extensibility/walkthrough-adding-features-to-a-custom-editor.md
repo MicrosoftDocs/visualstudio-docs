@@ -1,21 +1,17 @@
 ---
-title: 'Walkthrough: Adding Features to a Custom Editor | Microsoft Docs'
+title: 'Walkthrough: Adding Features to a Custom Editor'
 description: Learn how to add more features to a custom editor after you create the editor by using this walkthrough.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], custom - add features
-ms.assetid: bfe083b6-3e35-4b9c-ad4f-b30b9ff412a5
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Walkthrough: Add features to a custom editor
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 After you create a custom editor, you can add more features to it.
 
 ## To create an editor for a VSPackage
@@ -150,6 +146,6 @@ After you create a custom editor, you can add more features to it.
 
   - `Window.Object`
 
-## See also
+## Related content
 
 - [Automation model overview](../extensibility/internals/automation-model-overview.md)

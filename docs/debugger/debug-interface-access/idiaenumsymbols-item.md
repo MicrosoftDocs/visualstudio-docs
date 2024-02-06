@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a symbol by means of an index."
-title: "IDiaEnumSymbols::Item | Microsoft Docs"
+title: "IDiaEnumSymbols::Item"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumSymbols::Item method"
-ms.assetid: 2bd1ec04-e677-4e32-8e32-33334f1eed77
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaEnumSymbols::Item
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a symbol by means of an index.
 
 ## Syntax

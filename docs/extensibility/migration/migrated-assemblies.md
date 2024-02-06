@@ -6,15 +6,11 @@ ms.topic: conceptual
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
+ms.subservice: extensibility-integration
 monikerRange: "vs-2022"
-ms.workload:
-- vssdk
 feedback_system: GitHub
 ---
 # SDK reference packages
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The easiest way to author Visual Studio extensions is with a reference to the
 [`Microsoft.VisualStudio.Sdk` NuGet package](https://www.nuget.org/packages/microsoft.visualstudio.sdk).

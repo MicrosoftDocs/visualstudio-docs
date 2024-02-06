@@ -6,13 +6,9 @@ ms.topic: how-to
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+ms.subservice: modeling
 ---
 # Share code maps
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can save code maps as part of a Visual Studio project, as an image, or as an XPS file.
 
@@ -47,7 +43,7 @@ When you export a code map as an image, you can copy it into other applications,
 
 ## Export the map as an XPS file
 
-When you export a code map as an XPS file, you can see it in XML or XAML viewers like Internet Explorer.
+When you export a code map as an XPS file, you can see it in XML or XAML viewers.
 
 1. On the code map toolbar, choose **Share** > **Email As Portable XPS** or **Save As Portable XPS**.
 
@@ -55,6 +51,6 @@ When you export a code map as an XPS file, you can see it in XML or XAML viewers
 
 3. Name the code map. Make sure that the **Save as type** box is set to **XPS files (\*.xps)**. Choose **Save**.
 
-## See also
+## Related content
 
 - [Map dependencies with code maps](../modeling/map-dependencies-across-your-solutions.md)

@@ -1,23 +1,18 @@
 ---
-title: "Visual Studio Tools for Unity | Microsoft Docs"
-description: Read an overview about Visual Studio Tools for Unity, which is a free Visual Studio extension that helps you develop cross-platform games and apps with Unity.
-
+title: "Visual Studio Tools for Unity"
+description: Explore Visual Studio Tools for Unity, a free Visual Studio extension that helps you develop cross-platform games and apps with Unity.
 ms.date: "12/10/2021"
-ms.technology: vs-unity-tools
-ms.prod: visual-studio
+ms.subservice: unity-tools
+ms.service: visual-studio
 ms.topic: overview
-ms.assetid: 6cabc626-5310-4622-a743-210a9abb5535
 author: therealjohn
 ms.author: johmil
 manager: crdun
-ms.workload:
-  - "unity"
 zone_pivot_groups: platform
 ---
 # Visual Studio Tools for Unity
 ![Screenshot of a computer, game controller, and icons for game play.](../media/hero.png)
 
-## Overview
 Visual Studio Tools for Unity includes a rich set of features that enhances writing and debugging Unity C# scripts and working with Unity projects.
 
 * Troubleshoot, inspect, and explore code using a debugger that's tuned for Unity projects.
@@ -132,7 +127,7 @@ Quickly search Unity documentation by highlighting a class or method name, then 
 Syntax highlighting and auto-complete for shader files. 
 
 ### Support for assembly definition files
-Edit Unity Assembley Definition (.asmdef) files directly in Visual Studio with keyword coloring and completions.
+Edit Unity Assembly Definition (.asmdef) files directly in Visual Studio with keyword coloring and completions.
 
 :::zone pivot="macos"
 ### Run and debug unit tests

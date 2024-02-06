@@ -1,23 +1,19 @@
 ---
 description: "This interface describes a method."
-title: IDebugMethodField | Microsoft Docs
+title: IDebugMethodField
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugMethodField
 helpviewer_keywords:
 - IDebugMethodField interface
-ms.assetid: a7dc9030-fc98-4cf1-b943-37a4003300b6
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugMethodField
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface describes a method.
 
 ## Syntax

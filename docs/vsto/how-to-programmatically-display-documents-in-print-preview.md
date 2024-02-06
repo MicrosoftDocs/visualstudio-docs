@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically display documents in Print Preview"
+title: "Programmatically display documents in Print Preview"
 description: Learn how you can programmatically display documents in Print Preview in a Microsoft Word document.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -13,13 +13,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Programmatically display documents in Print Preview
+# Programmatically display documents in Print Preview
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   If your solution generates a report, you might want to display the report to the user in Print Preview mode.
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]
@@ -72,7 +69,7 @@ ms.workload:
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet14":::
      ---
 
-## See also
+## Related content
 - [How to: Programmatically print documents](../vsto/how-to-programmatically-print-documents.md)
 - [How to: Programmatically open existing documents](../vsto/how-to-programmatically-open-existing-documents.md)
 - [How to: Programmatically create new documents](../vsto/how-to-programmatically-create-new-documents.md)

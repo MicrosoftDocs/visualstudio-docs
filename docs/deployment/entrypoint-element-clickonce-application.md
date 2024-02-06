@@ -1,5 +1,5 @@
 ---
-title: "&lt;entryPoint&gt; Element (ClickOnce Application) | Microsoft Docs"
+title: "&lt;entryPoint&gt; Element (ClickOnce Application)"
 description: The entryPoint element identifies the assembly that should be executed when this ClickOnce application is run on a client computer.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -13,17 +13,13 @@ dev_langs:
 helpviewer_keywords:
   - "<entryPoint> element [ClickOnce application manifest]"
   - "manifests [ClickOnce], entryPoint element"
-ms.assetid: 10ad3083-10c1-4189-a870-9bba2eab244f
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+ms.subservice: deployment
 ---
 # &lt;entryPoint&gt; element (ClickOnce application)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Identifies the assembly that should be executed when this ClickOnce application is run on a client computer.
 
 ## Syntax

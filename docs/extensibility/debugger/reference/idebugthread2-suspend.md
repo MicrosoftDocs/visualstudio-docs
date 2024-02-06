@@ -1,26 +1,22 @@
 ---
 description: "Suspends a thread."
-title: IDebugThread2::Suspend | Microsoft Docs
+title: IDebugThread2::Suspend
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugThread2::Suspend
 helpviewer_keywords:
 - IDebugThread2::Suspend
-ms.assetid: 1e20be85-aa12-48de-bb83-0bf0976e99ae
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugThread2::Suspend
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Suspends a thread.
 
 ## Syntax

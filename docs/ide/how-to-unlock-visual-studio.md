@@ -3,17 +3,12 @@ title: Extend a trial version or update a license
 description: Learn how to extend a free trial of Visual Studio, use an online subscription or product key to unlock Visual Studio, and update a stale or expired license.
 ms.date: 06/16/2023
 ms.topic: how-to
-ms.assetid: ffb580a1-8b5d-48f5-b811-87f8036f50ea
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Extend a trial version or update a license
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can evaluate a free trial of [Visual Studio Professional or Visual Studio Enterprise](https://visualstudio.microsoft.com/vs/compare/) for 30 days. And if you sign in, you can extend the trial period to 90 days. The 90 day trial extension works only one time. (Visual Studio Community doesn't require you to sign-in. However, if the installation prompts you to sign-in periodically, [sign in](signing-in-to-visual-studio.md) to continue using Visual Studio Community without interruptions.)
 
@@ -63,7 +58,7 @@ Note that CA policies enabled on an account might impact the account state or li
 
 ## Update an expired license
 
-If your subscription has expired and you no longer have access rights to Visual Studio, you must renew your subscription or add another account that has a subscription. To see more information about the license you are using, go to **File** > **Account Settings...** and look at the license information on the right side of the dialog. If you have another subscription associated with a different account, [add that account](signing-in-to-visual-studio.md#add-and-switch-user-accounts) to the **All Accounts** list on the left side of the dialog box by selecting the **Add an account** link.
+If your subscription has expired and you no longer have access rights to Visual Studio, you must renew your subscription or add another account that has a subscription. To see more information about the license you are using, go to **File** > **Account Settings...** and look at the license information on the right side of the dialog. If you have another subscription associated with a different account, [add that account](signing-in-to-visual-studio.md#add-and-switch-user-accounts-to-visual-studio) to the **All Accounts** list on the left side of the dialog box by selecting the **Add an account** link.
 
 ## Get support
 
@@ -72,7 +67,7 @@ Sometimes, things go wrong. If you experience a problem, here are some support o
 * Report product issues by using the [Report a Problem](how-to-report-a-problem-with-visual-studio.md) tool.
 * Find answers to questions about subscriptions, accounts, and billing in the [Subscriptions Support FAQ](https://visualstudio.microsoft.com/subscriptions/support/).
 
-## See also
+## Related content
 
 * [Sign in to Visual Studio](../ide/signing-in-to-visual-studio.md)
 * [Compare Visual Studio editions](https://visualstudio.microsoft.com/vs/compare/)

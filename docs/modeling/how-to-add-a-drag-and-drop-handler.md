@@ -1,18 +1,14 @@
 ---
-title: 'How to: Add a Drag-and-Drop Handler'
+title: 'Add a Drag-and-Drop Handler'
 description: Learn how you can add handlers for drag-and-drop events to your DSL so that users can drag items onto your diagram from other diagrams.
 ms.date: 11/04/2016
 ms.topic: how-to
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+ms.subservice: modeling
 ---
-# How to: Add a Drag-and-Drop Handler
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Add a Drag-and-Drop Handler
 
 You can add handlers for drag-and-drop events to your DSL, so that users can drag items onto your diagram from other diagrams or from other parts of Visual Studio. You can also add handlers for events such as double-clicks. Together, drag-and-drop and double-click handlers are known as *gesture handlers*.
 
@@ -567,7 +563,7 @@ namespace Company.CompartmentDrag  // EDIT.
 }
 ```
 
-## See also
+## Related content
 
 - [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md)
 - [Deploying Domain-Specific Language Solutions](msi-and-vsix-deployment-of-a-dsl.md)

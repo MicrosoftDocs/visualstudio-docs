@@ -1,5 +1,5 @@
 ---
-title: "How to: Manage control layout on actions panes"
+title: "Manage control layout on actions panes"
 description: Learn how you can manage control layout on action panes by writing code to properly stack the user controls.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -13,13 +13,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Manage control layout on actions panes
+# Manage control layout on actions panes
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   An actions pane is docked to the right of a document or worksheet by default; however, it can be docked to the left, top, or bottom. If you are using multiple user controls, you can write code to properly stack the user controls on the actions pane. For more information, see [Actions pane overview](../vsto/actions-pane-overview.md).
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
@@ -76,7 +73,7 @@ ms.workload:
 
 - A Word document-level project with an actions pane that contains multiple user controls or nested actions pane controls.
 
-## See also
+## Related content
 - [Actions pane overview](../vsto/actions-pane-overview.md)
 - [How to: Add an actions pane to Word documents or Excel workbooks](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md)
 - [How to: Add an actions Pane to Word Documents or Excel workbooks](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md)

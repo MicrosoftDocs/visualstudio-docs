@@ -15,17 +15,13 @@ helpviewer_keywords:
   - publishing localized projects
   - macros, deploying with
   - macros, publishing with
-ms.assetid: 7c4cd83a-f985-4c85-9022-fadb5dbd2b39
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
+ms.subservice: deployment
 ---
-# How to: Publish a project that has a specific locale
+# Publish a project that has a specific locale
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 It is not uncommon for an application to contain components that have different locales. In this scenario, you would create a solution that has several projects, and then publish separate projects for each locale. This procedure shows how to use a macro to publish the first project in a solution by using the 'en' locale. If you want to try this procedure with a locale other than 'en', make sure to set `localeString` in the macro to match the locale that you are using (for example, 'de' or 'de-DE').
 
 > [!NOTE]
@@ -159,7 +155,7 @@ It is not uncommon for an application to contain components that have different 
 
 7. Look in *C:\Inetpub\wwwroot\PublishLocales\en*. You should see the installed files such as the manifests, *setup.exe*, and the publish Web page file, in addition to the localized resource DLL. (By default ClickOnce appends a *.deploy* extension on EXEs and DLLs; you can remove this extension after deployment.)
 
-## See also
+## Related content
 - [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
 - [Macros development environment](/previous-versions/visualstudio/visual-studio-2010/fb30sxt3(v=vs.100))
 - [Macro Explorer window](/previous-versions/visualstudio/visual-studio-2010/wwkx67sw(v=vs.100))

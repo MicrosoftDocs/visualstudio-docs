@@ -1,23 +1,19 @@
 ---
 description: "Prepares the debug data stored in a program database (.pdb) file accessed through an in-memory data stream."
-title: "IDiaDataSource::loadDataFromIStream | Microsoft Docs"
+title: "IDiaDataSource::loadDataFromIStream"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaDataSource::loadDataFromIStream method"
-ms.assetid: 8fe33eea-1457-4b8c-ae19-f1ede5578483
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaDataSource::loadDataFromIStream
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Prepares the debug data stored in a program database (.pdb) file accessed through an in-memory data stream.
 
 ## Syntax

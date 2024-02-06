@@ -1,5 +1,5 @@
 ---
-title: 'How to: Save and open files with encoding'
+title: 'Save and open files with encoding'
 description: Learn how to save and open files with specific encoding so, when you open the file, Visual Studio displays the file correctly.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -8,17 +8,12 @@ helpviewer_keywords:
 - files, encoding
 - bidirectional language support, encoded files
 - file encoding, bidirectional languages
-ms.assetid: cb52b732-b395-4ba1-a3ef-104b3942a12a
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
-# How to: Save and open files with encoding
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Save and open files with encoding
 
 You can save files with specific character encoding to support bidirectional languages. You can also specify an encoding when opening a file, so that Visual Studio displays the file correctly.
 
@@ -57,7 +52,7 @@ You can save files with specific character encoding to support bidirectional lan
 
 3. Follow Steps 2 and 3 from the preceding procedure.
 
-## See also
+## Related content
 
 - [Encoding and line breaks](encodings-and-line-breaks.md)
 - [Encoding and Windows Forms globalization](/dotnet/framework/winforms/advanced/encoding-and-windows-forms-globalization)

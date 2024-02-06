@@ -1,26 +1,22 @@
 ---
 description: "Launches an executable file."
-title: IDebugPortEx2::LaunchSuspended | Microsoft Docs
+title: IDebugPortEx2::LaunchSuspended
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPortEx2::LaunchSuspended
 helpviewer_keywords:
 - IDebugPortEx2::LaunchSuspended
-ms.assetid: 34b2cf99-2e52-4757-8969-1d12ac517ec0
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPortEx2::LaunchSuspended
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Launches an executable file.
 
 ## Syntax

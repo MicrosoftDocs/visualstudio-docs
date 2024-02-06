@@ -8,17 +8,13 @@ f1_keywords:
 helpviewer_keywords:
 - Edit.Replace command
 - Replace command
-ms.assetid: a15767f1-5a3d-44f5-8c77-7b0f1157f340
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Replace Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Replaces text in files using a subset of the options available on the **Replace in Files** tab of the **Find and Replace** window.
 
 ## Syntax

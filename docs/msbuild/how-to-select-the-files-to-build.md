@@ -1,21 +1,18 @@
 ---
-title: 'How to: Select the Files to Build | Microsoft Docs'
-description: Learn how to select the files to build in the MSBuild project file by listing each file separately or using wildcards.
+title: 'Select the Files to Build'
+description: Select the files to build in the MSBuild project file by listing each file separately or by using wildcards with the asterisk (*) character.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, wildcards
 - MSBuild, including files
 - Include attribute [MSBuild]
-ms.assetid: f5ff182f-7b3a-46fb-9335-37df54cfb8eb
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
-# How to: Select the files to build
+# Select the files to build
 
 When you build a project that contains several files, you can list each file separately in the project file, or you can use wildcards to include all the files in one directory or a nested set of directories.
 
@@ -171,7 +168,7 @@ The following code example uses a wildcard to include all the *.cs* files.
 </Project>
 ```
 
-## See also
+## Related content
 
 - [How to: Exclude files from the build](../msbuild/how-to-exclude-files-from-the-build.md)
 - [Items](../msbuild/msbuild-items.md)

@@ -1,23 +1,19 @@
 ---
 description: "This interface represents a running process and its programs."
-title: IDebugProcess3 | Microsoft Docs
+title: IDebugProcess3
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProcess3
 helpviewer_keywords:
 - IDebugProcess3 interface
-ms.assetid: 7bd6b952-cf34-4e66-b8f6-d472dac3748f
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugProcess3
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a running process and its programs. This interface exists as a replacement to several methods in the [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) interface. It provides control over all programs in the process.
 
 > [!NOTE]

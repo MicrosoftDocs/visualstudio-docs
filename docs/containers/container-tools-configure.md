@@ -1,15 +1,13 @@
 ---
 title: Configure Visual Studio Container Tools
-description: Configure the tools available in Visual Studio for working with Docker containers.
+description: Use Visual Studio Container Tools to control how Visual Studio works with Docker containers, including performance settings and resource usage.
 author: ghogen
 ms.author: ghogen
 ms.topic: how-to
 ms.date: 07/13/2023
-ms.technology: vs-container-tools
+ms.subservice: container-tools
 ---
-# How to configure Visual Studio Container Tools
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Configure Visual Studio Container Tools
 
 Using Visual Studio settings, you can control some aspects of how Visual Studio works with Docker containers, including settings that affect performance and resource usage when working with Docker containers.
 
@@ -92,6 +90,6 @@ To disable this feature, set the **Tools** > **Options** setting **Run a service
 
 :::moniker-end
 
-## Next steps
+## Related content
 
 Read more about working with containers in Visual Studio in this [overview](overview.md).

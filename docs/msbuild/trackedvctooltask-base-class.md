@@ -1,5 +1,5 @@
 ---
-title: TrackedVCToolTask Class | Microsoft Docs
+title: TrackedVCToolTask Class
 description: Learn about the parameters that the TrackedVCToolTask base class adds to the tasks that inherit from it.
 ms.date: 03/10/2019
 ms.topic: reference
@@ -7,11 +7,8 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 author: ghogen
 ms.author: ghogen
-ms.workload:
-- multiple
 ---
 # TrackedVCToolTask base class
 

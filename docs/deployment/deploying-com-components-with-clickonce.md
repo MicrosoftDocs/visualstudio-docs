@@ -1,5 +1,5 @@
 ---
-title: "Deploying COM Components with ClickOnce | Microsoft Docs"
+title: "Deploying COM Components with ClickOnce"
 description: Learn about steps necessary to deploy .NET applications in ClickOnce that contain legacy COM components.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -13,18 +13,14 @@ helpviewer_keywords:
   - "COM components, deploying"
   - "deploying applications [ClickOnce], COM components"
   - "components, deploying"
-ms.assetid: 1a4c7f4c-7a41-45f2-9af4-8b1666469b89
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+ms.subservice: deployment
 ---
 # Deploy COM components with ClickOnce
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-Deployment of legacy COM components has traditionally been a difficult task. Components need to be globally registered and thus can cause undesirable side effects between overlapping applications. This situation is generally not a problem in .NET Framework applications because components are completely isolated to an application or are side-by-side compatible. Visual Studio allows you to deploy isolated COM components on the Windows XP or higher operating system.
+Deployment of legacy COM components has traditionally been a difficult task. Components need to be globally registered and thus can cause undesirable side effects between overlapping applications. This situation is generally not a problem in .NET Framework applications because components are completely isolated to an application or are side-by-side compatible. Visual Studio allows you to deploy isolated COM components on the Windows operating system.
 
  ClickOnce provides an easy and safe mechanism for deploying your .NET applications. However, if your applications use legacy COM components, you will need to take additional steps for deploying them. This topic describes how to deploy isolated COM components and reference native components (for example, from Visual Basic 6.0 or Visual C++).
 
@@ -46,7 +42,7 @@ Deployment of legacy COM components has traditionally been a difficult task. Com
 
 - Use the bootstrapper to deploy your COM components; this works on all supported platforms.
 
-- Use native component isolation (also known as registration-free COM) deployment. However, this will only work on a Windows XP or higher operating system.
+- Use native component isolation (also known as registration-free COM) deployment.
 
 ### Example of isolating and deploying a simple COM component
  In order to demonstrate registration-free COM component deployment, this example will create a Windows-based application in Visual Basic that references an isolated native COM component created using Visual Basic 6.0, and deploy it using ClickOnce.
@@ -147,13 +143,13 @@ Deployment of legacy COM components has traditionally been a difficult task. Com
  COM control isolation makes it easy to deploy COM components that do not already have manifests. However, if a component is supplied with a manifest, you can reference the manifest directly. In fact, you should always use the manifest supplied by the author of the component wherever possible rather than using the **Isolated** property.
 
 ## Limitations of registration-free COM component deployment
- Registration-free COM provides clear advantages over traditional deployment techniques. However, there are a few limitations and caveats that should also be pointed out. The greatest limitation is that it only works on Windows XP or higher. The implementation of registration-free COM required changes to the way in which components are loaded in the core operating system. Unfortunately, there is no down-level support layer for registration-free COM.
+ Registration-free COM provides clear advantages over traditional deployment techniques.
 
  Not every component is a suitable candidate for registration-free COM. A component is not a suitable if any of the following are true:
 
 - The component is an out-of-process server. EXE servers are not supported; only DLLs are supported.
 
-- The component is part of the operating system, or is a system component, such as XML, Internet Explorer, or Microsoft Data Access Components (MDAC). You should follow the redistribution policy of the component author; check with your vendor.
+- The component is part of the operating system, or is a system component, such as XML, a browser component, or Microsoft Data Access Components (MDAC). You should follow the redistribution policy of the component author; check with your vendor.
 
 - The component is part of an application, such as Microsoft Office. For example, you should not attempt to isolate Microsoft Excel Object Model. This is part of Office and can only be used on a computer with the full Office product installed.
 
@@ -169,5 +165,5 @@ Deployment of legacy COM components has traditionally been a difficult task. Com
 
   There are several scenarios in which COM registration is required on the developer's machine, even though the application's deployment does not require registration. The `Isolated` property requires that the COM component be registered on the developer's machine in order to auto-generate the manifest during the build. There are no registration-capturing capabilities that invoke the self-registration during the build. Also, any classes not explicitly defined in the type library will not be reflected in the manifest. When using a COM component with a pre-existing manifest, such as a native reference, the component may not need to be registered at development time. However, registration is required if the component is an ActiveX control and you want to include it in the **Toolbox** and the Windows Forms designer.
 
-## See also
+## Related content
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)

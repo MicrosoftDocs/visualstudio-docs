@@ -1,17 +1,13 @@
 ---
-title: "Workspaces in Visual Studio | Microsoft Docs"
-description: Learn how Visual Studio uses a workspace to represent a collection of files in Open Folder, including workspace providers and services.
+title: "Workspaces in Visual Studio"
+description: Explore how Visual Studio uses a workspace to represent a collection of files in Open Folder, including workspace providers and services.
 ms.date: "02/21/2018"
 ms.topic: "conceptual"
 author: "vukelich"
 ms.author: "svukel"
 manager: "viveis"
-ms.workload:
-  - "vssdk"
 ---
 # Workspaces
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A workspace is how Visual Studio represents any collection of files in [Open Folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md), and it's represented by the <xref:Microsoft.VisualStudio.Workspace.IWorkspace> type. By itself, the workspace doesn't understand the contents or features related to files within the folder. Rather, it provides a general set of APIs for features and extensions to produce and consume data that others can act upon. The producers are composed through the [Managed Extensibility Framework](https://github.com/Microsoft/vs-mef/blob/master/doc/index.md) (MEF) using various export attributes.
 
@@ -176,7 +172,7 @@ Workspace extensibility is heavily MEF-based, and composition errors will cause 
 
 Error details can be found in _%LOCALAPPDATA%\Microsoft\VisualStudio\16.0_id\ComponentModelCache\Microsoft.VisualStudio.Default.err_. Resolve any errors for types implemented by your extension.
 
-## Next steps
+## Related content
 
 * [File contexts](workspace-file-contexts.md) - File context providers bring code intelligence for Open Folder workspaces.
 * [Indexing](workspace-indexing.md) - Workspace indexing collects and persists information about the workspace.

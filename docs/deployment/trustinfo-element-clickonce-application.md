@@ -1,5 +1,5 @@
 ---
-title: "&lt;trustInfo&gt; element (ClickOnce application) | Microsoft Docs"
+title: "&lt;trustInfo&gt; element (ClickOnce application)"
 description: The trustInfo element describes the minimum security permissions required for the application to run on the client computer. The trustInfo element is required.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -17,17 +17,13 @@ dev_langs:
 helpviewer_keywords:
   - "manifests [ClickOnce], trustInfo element"
   - "<trustInfo> element [ClickOnce application manifest]"
-ms.assetid: 8a813a74-e158-4308-be78-565937f6af83
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+ms.subservice: deployment
 ---
 # &lt;trustInfo&gt; element (ClickOnce application)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the minimum security permissions required for the application to run on the client computer.
 
 ## Syntax

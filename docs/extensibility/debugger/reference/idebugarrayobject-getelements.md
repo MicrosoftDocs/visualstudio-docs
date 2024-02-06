@@ -1,26 +1,22 @@
 ---
 description: "Gets an enumerator of all elements of the array."
-title: IDebugArrayObject::GetElements | Microsoft Docs
+title: IDebugArrayObject::GetElements
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugArrayObject::GetElements
 helpviewer_keywords:
 - IDebugArrayObject::GetElements method
-ms.assetid: f6a6262f-5183-46ce-8a45-33ef46088b98
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugArrayObject::GetElements
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets an enumerator of all elements of the array.
 
 ## Syntax

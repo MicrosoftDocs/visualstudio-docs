@@ -1,5 +1,5 @@
 ---
-title: Set a watch on variables | Microsoft Docs
+title: Set a watch on variables and expressions
 description: While you debug, see variables and expressions in Watch and QuickWatch. Watch can display several variables, QuickWatch only one, and only while in break.
 ms.date: 04/21/2023
 ms.topic: how-to
@@ -15,13 +15,9 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
 # Watch variables with Watch windows and QuickWatch
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 While you're debugging, you can use **Watch** windows and **QuickWatch** to watch variables and expressions. The windows are only available during a debugging session.
 
@@ -361,7 +357,7 @@ To observe the `a` variable,
 
 1. Continue debugging. You can observe the variable in the **Watch** window.
 
-## See also
+## Related content
 - [What is debugging?](../debugger/what-is-debugging.md)
 - [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md)
 - [First look at debugging](../debugger/debugger-feature-tour.md)

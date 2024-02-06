@@ -1,23 +1,19 @@
 ---
 description: "IDiaFrameData::get_maxStack retrieves the maximum number of bytes pushed on the stack in the frame."
-title: "IDiaFrameData::get_maxStack | Microsoft Docs"
+title: "IDiaFrameData::get_maxStack"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaFrameData::get_maxStack method"
-ms.assetid: 2585e13c-c0f3-49fe-9a84-08adb0dbeaa4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaFrameData::get_maxStack
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the maximum number of bytes pushed on the stack in the frame.
 
 ## Syntax

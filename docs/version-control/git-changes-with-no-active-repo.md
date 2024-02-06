@@ -6,14 +6,11 @@ ms.topic: ui-reference
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
-ms.custom: version-control
+
+ms.subservice: general-ide
 ---
 
 # Git Changes window with no active repo set
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If you issue a Git instruction in Visual Studio, such as trying to commit a change when there's no active repo set, you see the Git Changes window. From this window, you may choose to:
 

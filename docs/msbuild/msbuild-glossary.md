@@ -3,13 +3,10 @@ title: MSBuild glossary
 description: Learn the Microsoft Build Engine (MSBuild) glossary terms that describe the build engine and its components.
 ms.date: 11/04/2016
 ms.topic: reference
-ms.assetid: f767d8e4-24d8-4803-80eb-e857202dbe2c
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
 # MSBuild glossary
 

@@ -1,5 +1,5 @@
 ---
-title: Set a Thread Name in Managed Code | Microsoft Docs
+title: Set a Thread Name in Managed Code
 description: Set a thread name in managed code during multithreaded app debugging in Visual Studio. Thread naming is used to keep track of threads in the Threads window.
 ms.date: 04/27/2017
 ms.topic: how-to
@@ -13,17 +13,13 @@ helpviewer_keywords:
   - threading [Visual Studio], names
   - thread names
   - debugging [Visual Studio], threads
-ms.assetid: c0c4d74a-0314-4b71-81c9-b0b019347ab8
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - dotnet
+ms.subservice: debug-diagnostics
 ---
-# How to: Set a Thread Name in Managed Code
+# Set a Thread Name in Managed Code
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Thread naming is possible in any edition of Visual Studio. Thread naming is useful for keeping track of threads in the **Threads** window.
 
  To set a thread name in managed code, use the <xref:System.Threading.Thread.Name%2A> property.
@@ -76,6 +72,6 @@ End Sub
 ```
 ---
 
-## See also
+## Related content
 - [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)
 - [How to: Set a Thread Name in Native Code](../debugger/how-to-set-a-thread-name-in-native-code.md)

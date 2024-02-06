@@ -5,6 +5,7 @@ comment:  As of August 2023 this include is used to render marketing FAQ content
 ms.assetid: a95181b0-b64c-4c29-a90e-928962c06d81
 author: evanwindom 
 ms.author: amast 
+ms.topic: article
 ms.date: 08/17/2023
 user.type: admin 
 tags: renewal, transfer
@@ -18,4 +19,4 @@ When your organization renewed the agreement, your reseller should have checked 
 
 Note: If the automatic transfer option wasn’t selected during the renewal process, it can’t be added after the agreement has been signed.
 
-If the request wasn't submitted, you can [bulk upload](https://learn.microsoft.com/visualstudio/subscriptions/assign-license-bulk) the users to the new agreement. From the admin portal, you can select **bulk upload** from the Add dropdown.  An Excel form is provided for you to enter the required information so the users can be assigned. Or, if your organization is using Azure Active Directory you can add [Azure AD groups](https://learn.microsoft.com/visualstudio/subscriptions/assign-license-bulk#use-azure-active-directory-groups-to-assign-subscriptions) to streamline the process of adding users. 
+If the request wasn't submitted, you can [bulk upload](https://learn.microsoft.com/visualstudio/subscriptions/assign-license-bulk) the users to the new agreement. From the admin portal, you can select **bulk upload** from the Add dropdown.  An Excel form is provided for you to enter the required information so the users can be assigned. Or, if your organization is using Microsoft Entra ID you can add [Microsoft Entra groups](https://learn.microsoft.com/visualstudio/subscriptions/assign-license-bulk#use-azure-entra-id-groups-to-assign-subscriptions) to streamline the process of adding users. 

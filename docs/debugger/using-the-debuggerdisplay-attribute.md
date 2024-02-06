@@ -1,5 +1,5 @@
 ---
-title: Display custom info using DebuggerDisplay | Microsoft Docs
+title: Display custom info using DebuggerDisplay
 description: Use an instance of DebuggerDisplayAttribute to control how an object, property, or field is displayed in the debugger variable windows.
 ms.date: 04/22/2022
 ms.topic: how-to
@@ -7,17 +7,12 @@ helpviewer_keywords:
   - attributes, debugger
   - DebuggerDisplay attribute
   - DebuggerDisplayAttribute class
-ms.assetid: f4eb7c76-af4e-493b-9ab6-9cb05949d9b3
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+ms.subservice: debug-diagnostics
 ---
 # Tell the debugger what to show using the DebuggerDisplay Attribute (C#, Visual Basic, F#, C++/CLI)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The <xref:System.Diagnostics.DebuggerDisplayAttribute> controls how an object, property, or field is displayed in the debugger variable windows. This attribute can be applied to types (classes, structs, enums, delegates). If applied to a base type, the attribute also applies to a subclass.
 
@@ -177,7 +172,7 @@ class MyHashtable
 }
 ```
 
-## See also
+## Related content
 
 - [Using DebuggerTypeProxy Attribute](../debugger/using-debuggertypeproxy-attribute.md)
 - [Create custom views of managed objects](../debugger/create-custom-views-of-managed-objects.md)

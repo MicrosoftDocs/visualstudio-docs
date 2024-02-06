@@ -1,23 +1,18 @@
 ---
 description: "Initializes a new instance of the span class."
-title: "span::span Constructor | Microsoft Docs"
+title: "span::span Constructor"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
   - "cvmarkersobj/Concurrency::diagnostic::span::span"
 helpviewer_keywords:
   - "Concurrency::diagnostic::span constructor"
-ms.assetid: 8b5578aa-5e5c-4ac7-87c7-ce87c4246e2c
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # span::span Constructor
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Initializes a new instance of the `span` class.
 

@@ -1,5 +1,5 @@
 ---
-title: "Verifying and Debugging SharePoint Code | Microsoft Docs"
+title: "Verifying and Debugging SharePoint Code"
 description: Verify and debug SharePoint code. Use IntelliTrace to examine past events and current state in your solution. Use unit testing to ensure your methods work correctly.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -14,13 +14,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+ms.subservice: sharepoint-development
 ---
 # Verify and debug SharePoint code
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 By using IntelliTrace and unit testing, you can more easily debug your SharePoint solutions and ensure that each method in them works correctly. You can use these features for SharePoint projects in Visual Studio by following the same procedures as for other types of projects.
 
 ## Intellitrace
@@ -44,6 +41,6 @@ SharePoint projects support Microsoft Fakes, which is an isolation framework in 
 |[Walkthrough: Debug a SharePoint application by using IntelliTrace](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md)|Demonstrates how to find coding errors in a SharePoint project by using IntelliTrace.|
 |[Unit Test Your Code](../test/unit-test-your-code.md)|Describes how to find logic errors in your code by using unit tests.|
 
-## See also
+## Related content
 
 - [Improve Code Quality](../test/improve-code-quality.md)

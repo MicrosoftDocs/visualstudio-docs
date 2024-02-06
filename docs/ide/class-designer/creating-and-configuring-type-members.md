@@ -24,17 +24,12 @@ helpviewer_keywords:
 - methods [Visual Studio], adding parameters
 - Class Details window
 - Class Details window, member creation
-ms.assetid: 42af8738-3738-4ca7-82ff-edf573a68f96
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Create and configure type members in Class Designer
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can add these members to types on a class diagram and configure those members in the **Class Details** window:
 
@@ -315,7 +310,7 @@ You cannot edit partial methods by using the Class Designer or the **Class Detai
 
 You cannot edit native C++ code by using the Class Designer or the **Class Details** window; you must use the Code Editor to edit native C++ code.
 
-## See also
+## Related content
 
 - [Viewing types and relationships](designing-and-viewing-classes-and-types.md)
 - [Refactoring classes and types](refactoring-classes-and-types.md)

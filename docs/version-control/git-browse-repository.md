@@ -1,18 +1,15 @@
 ---
 title: "Browse repos, compare branches & commits"
-description: Browse any Git repository in Visual Studio by using the Git Repository window.
+description: Browse any Git repository in Visual Studio by using the Git Repository window to view local and remote branches and multiple branches at the same time.
 ms.date: 08/08/2023
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 ms.manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
-ms.custom: version-control
+
+ms.subservice: general-ide
 ---
 # Browse Git repositories and compare branches in Visual Studio
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Git Changes** window provides a seamless way to interact with Git while coding without having to switch away from your code. But there are times when it makes more sense to focus on your Git repository. For example, you might need to get a good picture of what your team has been working on or maybe [compare two commits](#compare-commits) to investigate a bug.
 
@@ -118,11 +115,7 @@ Checking out the tip of a remote branch can be helpful if you would like to quic
 
 :::image type="content" source="media/vs-2022/git-checkout-tip-commit.png" alt-text="Screenshot that shows the Checkout Tip Commit option." lightbox="media/vs-2022/git-checkout-tip-commit.png":::
 
-## Next steps
+## Related content
 
-To continue your journey, see [Manage Git repositories in Visual Studio](git-manage-repository.md).
-
-## See also
-
+- [Manage Git repositories in Visual Studio](git-manage-repository.md)
 - [The Git experience in Visual Studio](git-with-visual-studio.md)
-- [Visual Studio and GitHub: Better together](https://visualstudio.microsoft.com/vs/github/)

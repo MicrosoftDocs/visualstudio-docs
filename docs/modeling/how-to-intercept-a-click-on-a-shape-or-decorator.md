@@ -1,9 +1,6 @@
 ---
-title: 'How to: Intercept a click on a shape or decorator in a DSL'
+title: 'Intercept a click on a shape or decorator in a DSL'
 description: Learn how to intercept a click on a shape or an icon decorator, and how you can intercept clicks, double-clicks, drags, and other gestures.
-ms.custom: 
-- SEO-VS-2020
-- kr2b-contr-experiment
 ms.date: 06/24/2022
 ms.topic: how-to
 helpviewer_keywords:
@@ -11,14 +8,11 @@ helpviewer_keywords:
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+ms.subservice: modeling
 ---
 
-# How to: Intercept a click on a shape or decorator
+# Intercept a click on a shape or decorator
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following procedures demonstrate how to intercept a click on a shape or an icon decorator. You can intercept clicks, double-clicks, drags, and other gestures, and make the element respond.
 
 ## Intercept clicks on shapes
@@ -401,7 +395,7 @@ namespace Company.CompartmentDrag
 }
 ```
 
-## See also
+## Related content
 
 - [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md)
 - [Properties of Decorators](../modeling/properties-of-decorators.md)

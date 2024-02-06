@@ -3,17 +3,12 @@ title: Command-line arguments for the Help Content Manager
 description: Use command-line arguments for the Help Content Manager (HlpCtntMgr.exe) to specify how to deploy and manage local Help content.
 ms.date: 11/01/2017
 ms.topic: reference
-ms.assetid: 3aa9890a-1147-42ba-adea-17935d184038
 author: jasonchlus
 ms.author: jasonchlus
 manager: jmartens
-ms.technology: vs-help-viewer
-ms.workload:
-  - "multiple"
+ms.subservice: help-viewer
 ---
 # Command-line arguments for the Help Content Manager
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can specify how to deploy and manage local Help content by using command-line arguments for Help Content Manager (*HlpCtntMgr.exe*). You must run scripts for this command-line tool with administrator permissions, and you can't run these scripts as a service. You can perform the following tasks by using this tool:
 

@@ -1,5 +1,5 @@
 ---
-title: "&lt;customErrorReporting&gt; Element (ClickOnce Deployment) | Microsoft Docs"
+title: "&lt;customErrorReporting&gt; Element (ClickOnce Deployment)"
 description: The customErrorReporting element specifies a URI to show when an error occurs instead of an error dialog box showing the exception stack.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,17 +9,13 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "<customErrorReporting> element [ClickOnce deployment manifest]"
-ms.assetid: 7d31816e-c692-46b5-9cc9-753284b3bcda
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+ms.subservice: deployment
 ---
 # &lt;customErrorReporting&gt; element (ClickOnce deployment)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies a URI to show when an error occurs.
 
 ## Syntax

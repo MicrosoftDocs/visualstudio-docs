@@ -1,26 +1,22 @@
 ---
 description: "This method returns the exact type of a variable."
-title: IDebugBinder::ResolveDynamicType | Microsoft Docs
+title: IDebugBinder::ResolveDynamicType
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugBinder::ResolveDynamicType
 helpviewer_keywords:
 - IDebugBinder::ResolveDynamicType method
-ms.assetid: 2c36ef92-5b44-4cfd-988e-54a2e5a6710c
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugBinder::ResolveDynamicType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method returns the exact type of a variable.
 
 ## Syntax

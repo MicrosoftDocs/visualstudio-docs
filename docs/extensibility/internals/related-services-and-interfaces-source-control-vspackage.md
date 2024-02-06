@@ -7,17 +7,12 @@ ms.topic: reference
 helpviewer_keywords:
 - source control packages, interfaces
 - interfaces, source control packages
-ms.assetid: 3e96e838-5675-46bb-99cf-40d420086038
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Related Services and Interfaces (Source Control VSPackage)
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This section lists all the source control VSPackage-related interfaces in the Visual Studio SDK. The source control VSPackage implements some of these interfaces and uses others to accomplish source control tasks.
 

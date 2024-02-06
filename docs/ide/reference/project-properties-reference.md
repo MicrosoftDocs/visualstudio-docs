@@ -1,35 +1,30 @@
 ---
 title: What is the .NET Project Designer?
 description: Learn how to configure and customize .NET project properties by using the Project Designer.
-ms.date: 06/17/2022
+ms.date: 11/16/2023
 ms.topic: reference
 helpviewer_keywords:
 - user interface [Visual Studio], projects
 - projects [Visual Studio], user interface
-ms.assetid: eec49aec-5474-48a7-889d-709045b9a475
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # What is the .NET Project Designer?
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 The Project Designer in Visual Studio is a dialog box that you can use to specify applications settings and properties for a .NET project. The Project Designer includes several different project properties pages to interact with. What you see depends on your .NET project type, platform, and programming language.
 
-The Project Designer appears after you select a [project node](../use-solution-explorer.md#tool-window) in **Solution Explorer** and then use the right-click context menu to select **Properties**.
+The Project Designer appears after you select a [project node](../use-solution-explorer.md#solution-explorer-ui) in **Solution Explorer** and then use the right-click context menu to select **Properties**.
 
 > [!IMPORTANT]
 > The project properties that you can access by using the .NET Project Designer differ from the properties you can access by using the [Properties window](properties-window.md) in Solution Explorer.
 
 ::: moniker range="vs-2022"
 
-The following screenshot shows an example of the .NET project properties for a C# console project in the Project Designer. Notice that .NET 6.0 appears as the target framework.
+The following screenshot shows an example of the .NET project properties for a C# console project in the Project Designer.
 
-:::image type="content" source="media/vs-2022/project-properties-designer-csharp-console.png" alt-text="Screenshot of the .NET Project Designer in Visual Studio 2022 with .NET 6.0 as the target framework.":::
+:::image type="content" source="media/vs-2022/project-properties-designer-csharp-console.png" alt-text="Screenshot of the .NET Project Designer in Visual Studio 2022 with .NET 8.0 as the target framework.":::
 
 The following screenshot shows an example of the .NET project properties for a Visual Basic console project in the Project Designer. Notice that .NET Framework 4.7.2 appears as the target framework.
 

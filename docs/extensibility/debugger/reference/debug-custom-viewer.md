@@ -1,26 +1,22 @@
 ---
 description: "A structure that identifies a custom viewer or type visualizer."
-title: DEBUG_CUSTOM_VIEWER | Microsoft Docs
+title: DEBUG_CUSTOM_VIEWER
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - DEBUG_CUSTOM_VIEWER
 helpviewer_keywords:
 - DEBUG_CUSTOM_VIEWER structure
-ms.assetid: 8e0ef3f0-0107-48e8-a037-6e52b4c4ed9d
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # DEBUG_CUSTOM_VIEWER
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A structure that identifies a custom viewer or type visualizer.
 
 ## Syntax

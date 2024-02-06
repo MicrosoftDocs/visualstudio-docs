@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically protect workbooks"
+title: "Programmatically protect workbooks"
 description: Learn how you can protect a Microsoft Excel workbook so that users cannot add or delete worksheets, and also unprotect the workbook programmatically.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -16,13 +16,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
-# How to: Programmatically protect workbooks
+# Programmatically protect workbooks
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can protect a Microsoft Office Excel workbook so that users cannot add or delete worksheets, and also unprotect the workbook programmatically. You can optionally specify a password, indicate whether you want the structure protected (so users cannot move sheets around), and indicate whether you want the workbook's windows protected.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
@@ -79,7 +76,7 @@ ms.workload:
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb" id="Snippet7":::
      ---
 
-## See also
+## Related content
 - [Work with workbooks](../vsto/working-with-workbooks.md)
 - [How to: Programmatically protect worksheets](../vsto/how-to-programmatically-protect-worksheets.md)
 - [How to: Programmatically hide worksheets](../vsto/how-to-programmatically-hide-worksheets.md)

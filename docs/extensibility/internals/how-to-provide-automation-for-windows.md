@@ -1,22 +1,17 @@
 ---
-title: 'How to: Provide Automation for Windows | Microsoft Docs'
+title: 'Provide Automation for Windows'
 description: Learn how to provide automation for document and tool windows in Visual Studio by using Microsoft.VisualStudio.Shell.Interop methods.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - automation [Visual Studio SDK], tool windows
 - tool windows, automation
-ms.assetid: 512ab2a4-7987-4912-8f40-8804bf66f829
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
-# How to: Provide automation for windows
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+# Provide automation for windows
 
 You can provide automation for document and tool windows. Providing automation is advisable whenever you want to make automation objects available on a window, and the environment does not already provide a ready-made automation object, as it does with a task list.
 
@@ -38,6 +33,6 @@ A standard <xref:EnvDTE.Document> object is also available from the environment,
 
 In addition, an editor can provide a VSPackage-specific automation object, retrieved through the <xref:EnvDTE.Document.Object%2A> method, by implementing the `IVsExtensibleObject` or `IExtensibleObject` interfaces. The [VSSDK samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples) contributes an RTF document-specific automation object.
 
-## See also
+## Related content
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsExtensibleObject>

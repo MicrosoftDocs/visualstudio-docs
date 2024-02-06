@@ -1,17 +1,14 @@
 ---
-title: MSBuild Multitargeting Overview | Microsoft Docs
-description: Learn how to use MSBuild to compile an application to run on any one of several versions of the .NET Framework, and on any one of several system platforms.
+title: MSBuild Multitargeting Overview
+description: Use MSBuild to compile an application to run on any one of several versions of the .NET Framework, and on any one of several system platforms.
 ms.date: 11/04/2016
-ms.topic: conceptual
-ms.assetid: eecbcd65-9fbc-4307-a321-46d3c3b79b12
+ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+ms.subservice: msbuild
 ---
-# MSBuild multitargeting overview
+# Target multiple framework versions and platforms
 
 By using MSBuild, you can compile an application to run on any one of several versions of the .NET Framework, and on any one of several system platforms. For example, you can compile an application to run on the .NET Framework 2.0 on a 32-bit platform, and compile the same application to run on the .NET Framework 4.5 on a 64-bit platform.
 

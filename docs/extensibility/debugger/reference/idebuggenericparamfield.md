@@ -1,21 +1,17 @@
 ---
 description: "Represents a parameter for a managed code generic type."
-title: IDebugGenericParamField | Microsoft Docs
+title: IDebugGenericParamField
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugGenericParamField interface
-ms.assetid: ba24f499-5ba7-4c67-83e6-923229b52327
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 ---
 # IDebugGenericParamField
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Represents a parameter for a managed code generic type.
 
 ## Syntax

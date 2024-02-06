@@ -1,6 +1,6 @@
 ---
 description: "A managed type (any symbol defined by metadata, or native to the memory and resource management functionality of languages such as C#) is identified by a SymTagManagedType symbol."
-title: "ManagedType | Microsoft Docs"
+title: "ManagedType"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -9,17 +9,13 @@ helpviewer_keywords:
   - "SymTagManagedType symbol"
   - "managed type symbol"
   - "ManagedType symbol"
-ms.assetid: 5db99e2a-4f2e-4796-89b7-b401b151826f
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "dotnet"
+ms.subservice: debug-diagnostics
 ---
 # ManagedType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A managed type (any symbol defined by metadata, or native to the memory and resource management functionality of languages such as C#) is identified by a `SymTagManagedType` symbol.
 
 ## Properties

@@ -1,23 +1,19 @@
 ---
 description: "Returns the length of the address range in which the local symbol is valid."
-title: "IDiaSymbol::get_liveRangeLength | Microsoft Docs"
+title: "IDiaSymbol::get_liveRangeLength"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_liveRangeLength"
-ms.assetid: ffcce3cc-085c-44eb-8145-46e3819c54f9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_liveRangeLength
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the length of the address range in which the local symbol is valid.
 
 ## Syntax

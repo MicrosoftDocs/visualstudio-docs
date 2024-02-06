@@ -1,5 +1,5 @@
 ---
-title: POPDIRLISTFUNC | Microsoft Docs
+title: POPDIRLISTFUNC
 description: Learn about the POPDIRLISTFUNC callback function, which is passed to update directories to find out which are under source control.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,17 +7,13 @@ f1_keywords:
 - POPLISTFUNC
 helpviewer_keywords:
 - POPDIRLISTFUNC callback function
-ms.assetid: 0ee90fd2-5467-4154-ab4c-7eb02ac3a14c
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # POPDIRLISTFUNC
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This is a callback function given to the [SccPopulateDirList](../extensibility/sccpopulatedirlist-function.md) function to update a collection of directories and (optionally) file names to find out which are under source control.
 
  The `POPDIRLISTFUNC` callback should be called only for those directories and file names (in the list given to the `SccPopulateDirList` function) that are actually under source control.

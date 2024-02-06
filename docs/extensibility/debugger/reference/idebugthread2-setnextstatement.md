@@ -1,26 +1,22 @@
 ---
 description: "Sets the current instruction pointer to the given code context."
-title: IDebugThread2::SetNextStatement | Microsoft Docs
+title: IDebugThread2::SetNextStatement
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugThread2::SetNextStatement
 helpviewer_keywords:
 - IDebugThread2::SetNextStatement
-ms.assetid: 9e2834dd-4ecf-45af-8e6c-f9318ebdac06
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugThread2::SetNextStatement
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the current instruction pointer to the given code context.
 
 ## Syntax

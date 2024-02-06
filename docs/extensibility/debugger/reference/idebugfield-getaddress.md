@@ -1,26 +1,22 @@
 ---
 description: "This method gets the debug address of a field."
-title: IDebugField::GetAddress | Microsoft Docs
+title: IDebugField::GetAddress
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugField::GetAddress
 helpviewer_keywords:
 - IDebugField::GetAddress method
-ms.assetid: 6981bf03-66ef-4bf9-87ea-f6c9624486cb
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugField::GetAddress
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the debug address of a field.
 
 ## Syntax

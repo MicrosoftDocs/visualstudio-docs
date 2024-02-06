@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a specified number of symbols in the enumeration sequence."
-title: "IDiaEnumSymbols::Next | Microsoft Docs"
+title: "IDiaEnumSymbols::Next"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumSymbols::Next method"
-ms.assetid: bfe5fe27-6a84-4392-910f-e325146d7552
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaEnumSymbols::Next
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a specified number of symbols in the enumeration sequence.
 
 ## Syntax

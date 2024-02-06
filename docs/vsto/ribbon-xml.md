@@ -1,6 +1,6 @@
 ---
-title: "Ribbon XML"
-description: Learn how to use the Ribbon (XML) item if you want to customize the ribbon in a way that isn't supported by the Ribbon (Visual Designer) item.
+title: Customize a project ribbon with Ribbon (XML) item
+description: Use the Ribbon (XML) item to customize a project ribbon in a way that the Ribbon (Visual Designer) item doesn't support.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -22,13 +22,10 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+ms.subservice: office-development
 ---
 # Ribbon XML
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The Ribbon (XML) item enables you to customize a ribbon by using XML. Use the Ribbon (XML) item if you want to customize the ribbon in a way that is not supported by the Ribbon (Visual Designer) item. For a comparison of what you can do with each item, see [Ribbon overview](../vsto/Ribbon-overview.md).
 
  [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]
@@ -149,7 +146,7 @@ ms.workload:
 |`OnLoad`|Assigns the <xref:Microsoft.Office.Core.IRibbonControl> parameter to the `Ribbon` field. Microsoft Office applications call this method when they load the custom ribbon. You can use this field to dynamically update the custom ribbon. For more information, see the technical article [Customize the Office (2007) Ribbon user interface for developers (Part 1 of 3)](/previous-versions/office/developer/office-2007/aa338202(v=office.12)).|
 |`GetResourceText`|Called by the `GetCustomUI` method to obtain the contents of the Ribbon XML file.|
 
-## See also
+## Related content
 - [Ribbon overview](../vsto/ribbon-overview.md)
 - [Walkthrough: Create a custom tab by using Ribbon XML](../vsto/walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md)
 - [Office UI customization](../vsto/office-ui-customization.md)

@@ -1,8 +1,7 @@
 ---
-title: Analyzer configuration
+title: Customize Roslyn analyzer rules
 ms.date: 07/27/2022
 description: Learn how to customize Roslyn analyzer rules. See how to adjust analyzer severities, suppress violations, and designate files as generated code.
-ms.custom: devdivchpfy22
 ms.topic: conceptual
 helpviewer_keywords:
 - code analysis, managed code
@@ -11,13 +10,9 @@ helpviewer_keywords:
 author: mikadumont
 ms.author: midumont
 manager: jmartens
-ms.technology: vs-ide-code-analysis
-ms.workload:
-- dotnet
+ms.subservice: code-analysis
 ---
 # Overview
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Each Roslyn analyzer *diagnostic* or rule has a default severity and suppression state that can be overwritten and customized for your project. This article covers setting analyzer severities and suppressing analyzer violations.
 
@@ -344,7 +339,7 @@ In a .NET Core project, if you add a reference to a project that has NuGet analy
 <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="5.0.0" PrivateAssets="all" />
 ```
 
-## See also
+## Related content
 
 - [Overview of code analyzers in Visual Studio](../code-quality/roslyn-analyzers-overview.md)
 - [Submit a code analyzer bug](https://github.com/dotnet/roslyn-analyzers/issues)

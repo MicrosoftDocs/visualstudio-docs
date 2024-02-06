@@ -7,17 +7,12 @@ helpviewer_keywords:
 - Toolbox, Data tab
 - Data tab, Toolbox
 - data [Visual Studio], Toolbox
-ms.assetid: 2ae38b2a-29d2-461c-a67d-29dad274bf45
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+ms.subservice: general-ide
 ---
 # Toolbox, Data tab
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Displays data objects you can add to a forms and components. The **Data** tab of the **Toolbox** appears when you create a project that has an associated designer. The **Toolbox** appears by default in the Visual Studio integrated development environment; if you need to display the **Toolbox**, select **Toolbox** from the **View** menu.
 

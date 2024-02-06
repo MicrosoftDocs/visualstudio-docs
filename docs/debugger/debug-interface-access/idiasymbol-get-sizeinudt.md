@@ -1,21 +1,17 @@
 ---
 description: "Retrieves the size of a member of a user-defined type."
-title: "IDiaSymbol::get_sizeInUdt | Microsoft Docs"
+title: "IDiaSymbol::get_sizeInUdt"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: a82ab896-0185-46a4-b4d5-babfcc660fe1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_sizeInUdt
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the size of a member of a user-defined type.
 
 ## Syntax

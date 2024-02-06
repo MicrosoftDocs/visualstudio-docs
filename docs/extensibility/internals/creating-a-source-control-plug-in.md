@@ -1,5 +1,5 @@
 ---
-title: Creating a Source Control Plug-in | Microsoft Docs
+title: Creating a Source Control Plug-in
 description: Learn how to create a source control plug-in that adds a source control capability to the Visual Studio integrated development environment (IDE).
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,17 +7,13 @@ helpviewer_keywords:
 - plug-ins, source control
 - source control plug-ins
 - source control [Visual Studio SDK], plug-ins
-ms.assetid: c7e69fa4-150e-469a-a6fc-fa1260bdbb07
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+ms.subservice: extensibility-integration
 ---
 # Create a source control plug-in
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Visual Studio SDK provides resources that enable you to add source control capability to the Visual Studio integrated development environment (IDE). It lets you use any plug-in DLL that complies with the Source Control Plug-in API outlined in this documentation.
 
 ## In this section

@@ -1,26 +1,22 @@
 ---
 description: "Sets the value of this property to the value of the given reference."
-title: IDebugProperty2::SetValueAsReference | Microsoft Docs
+title: IDebugProperty2::SetValueAsReference
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProperty2::SetValueAsReference
 helpviewer_keywords:
 - IDebugProperty2::SetValueAsReference method
-ms.assetid: 341b1b89-4ab8-4e1c-abe2-fb955df5c6b0
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProperty2::SetValueAsReference
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the value of this property to the value of the given reference.
 
 ## Syntax

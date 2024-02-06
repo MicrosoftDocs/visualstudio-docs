@@ -5,8 +5,7 @@ ms.author: amast
 manager: shve
 ms.date: 06/15/2023
 ms.topic: how-to
-ms.custom: devdivchpfy22
-description: Learn about the Pluralsight training benefit that's included with select Visual Studio subscriptions.
+description: Activate and explore the Pluralsight training benefit available in eligible Visual Studio subscriptions, and find answers to frequently asked questions.
 ---
 
 # Pluralsight training benefit in Visual Studio subscriptions

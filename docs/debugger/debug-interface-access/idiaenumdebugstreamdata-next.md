@@ -1,23 +1,19 @@
 ---
 description: "Retrieves a specified number of records in the enumerated sequence."
-title: "IDiaEnumDebugStreamData::Next | Microsoft Docs"
+title: "IDiaEnumDebugStreamData::Next"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumDebugStreamData::Next method"
-ms.assetid: 114171dd-38fd-4bd7-a702-8ff887ffc99b
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+ms.subservice: debug-diagnostics
 ---
 # IDiaEnumDebugStreamData::Next
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a specified number of records in the enumerated sequence.
 
 ## Syntax
