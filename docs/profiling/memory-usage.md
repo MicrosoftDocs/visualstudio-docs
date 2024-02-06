@@ -117,6 +117,7 @@ If **Memory Usage** does not give you the data that you need, other profiling to
    If you have trouble collecting or displaying data, see [Troubleshoot profiling errors and fix issues](../profiling/troubleshoot-profiler-errors.md).
 
 ## Analyze memory usage data
+
 The rows of the Memory Usage summary table list the snapshots that you have taken during the debugging session and provides links to more detailed views.
 
 ::: moniker range="<=vs-2019"
@@ -151,6 +152,7 @@ To analyze memory usage, click one of the links that opens up a detailed report 
    The report appears in a separate window.
 
 ### Managed types reports
+
  Choose the current link of an **Objects (Diff)** or **Allocations (Diff)** cell in the Memory Usage summary table.
 
  ::: moniker range="<=vs-2019"
@@ -201,7 +203,8 @@ To analyze memory usage, click one of the links that opens up a detailed report 
 
  The **Instances** view displays the instances of the selected object in the snapshot in the upper pane. The **Paths to Root** and **Referenced Objects** pane displays the objects that reference the selected instance and the types that the selected instance references. When the debugger is stopped at the point where the snapshot was taken, you can hover over the **Value** cell to display the values of the object in a tool tip.
 
-### Native type reports
+### Native types reports
+
  Choose the current link of an **Allocations (Diff)** or **Heap Size (Diff)** cell in the Memory Usage summary table of the **Diagnostic Tools** window.
 
  ::: moniker range="<=vs-2019"
@@ -257,20 +260,7 @@ To analyze memory usage, click one of the links that opens up a detailed report 
 ::: moniker range=">=vs-2022"
 ### Memory Usage Insights
 
-For managed memory, the Memory Analysis tool also gives multiple powerful built-in auto insights. Select the **Insights** tab in the Managed types reports and it shows the applicable auto insights like **Duplicate strings**, **Sparse arrays**, and **Event handler leaks**.
-
-[![Screenshot of the insight view in the Memory Usage tool.](../profiling/media/vs-2022/dbgdiag-mem-managed-insights.png "Memory Usage insight")](../profiling/media/vs-2022/dbgdiag-mem-managed-insights.png#lightbox)
-
-The **Duplicate Strings** section shows the list of strings that get allocated multiple times on the heap. In addition, this section shows the total wasted memory, that is, the (number of instances - 1) times the size of the string.
-
-The **Sparse Arrays** section shows arrays that are mostly filled with zero elements, which can be inefficient in terms of performance and memory usage. The memory analysis tool will automatically detect these arrays and show you how much memory is being wasted due to these zero values.
-
-The **Event Handler Leaks** section, available in Visual Studio 2022 version 17.9 Preview 1, shows potential memory leaks that can occur when one object subscribes to another object's event. If the publisher of the event outlives the subscriber, the subscriber remains alive, even if there are no other references to it. This can lead to memory leaks, where unused memory isn't properly freed, causing the application to use more and more memory over time.
-
-Certain types are known to have fields that can be read to determine the size of the native memory they're holding onto. The **Insights** tab shows fake native memory nodes in the object graph, which are retained by their parent objects such that the UI will recognize them and display their size and reference graph.
-
-[![Screenshot of the native insight view in the Memory Usage tool.](../profiling/media/vs-2022/dbgdiag-mem-native-insights.png "native insight view in the Memory Usage tool")](../profiling/media/vs-2022/dbgdiag-mem-native-insights.png#lightbox)
-
+[!INCLUDE [managed-types-report](../profiling/includes/managed-types-report.md)]
 ::: moniker-end
 
 ### Change (Diff) reports
