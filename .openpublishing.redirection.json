@@ -1060,6 +1060,51 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/error-mixed-mode-debugging-for-x64-processes-is-supported-only-when-using-microsoft-dotnet-framework-4-or-greater.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-mixed-mode-debugging-for-x64-processes-is-supported-only-when-using-microsoft-dotnet-framework-4-or-greater",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/mixed-mode-debugging-for-ia64-processes-is-unsupported.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/mixed-mode-debugging-for-ia64-processes-is-unsupported",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/error-mixed-mode-debugging-is-supported-only-when-using-microsoft-dotnet-framework-2-0-or-greater.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-mixed-mode-debugging-is-supported-only-when-using-microsoft-dotnet-framework-2-0-or-greater",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/error-you-do-not-have-permission-to-inspect-the-process-s-identity.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-you-do-not-have-permission-to-inspect-the-process-s-identity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/error-rpc-requires-authentication.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-rpc-requires-authentication",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/error-firewall-no-authentication.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-firewall-no-authentication",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/error-firewall-on-local-machine.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-firewall-on-local-machine",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/error-workgroup-remote-logon-failure.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-workgroup-remote-logon-failure",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/error-the-microsoft-visual-studio-remote-debugging-monitor-no-permission.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-the-microsoft-visual-studio-remote-debugging-monitor-no-permission",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/error-sql-can-t-find-ssdebugps.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-sql-can-t-find-ssdebugps",
       "redirect_document_id": false

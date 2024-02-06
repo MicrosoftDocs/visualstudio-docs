@@ -268,16 +268,12 @@
       items:
       - name: Remote debugging errors and troubleshooting
         href: remote-debugging-errors-and-troubleshooting.md
-      - name: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer does not have permission to connect to this computer
-        href: error-the-microsoft-visual-studio-remote-debugging-monitor-no-permission.md
       - name: A DCOM error occurred trying to contact the remote computer. Access is denied.
         href: a-dcom-error-occurred-trying-to-contact-the-remote-computer-access-is-denied.md
       - name: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer is running as a different user
         href: error-the-microsoft-visual-studio-remote-debugging-monitor-on-the-remote-computer-is-running-as-a-different-user.md
       - name: Unable to automatically step into the server
         href: error-unable-to-automatically-step-into-the-server.md
-      - name: Workgroup remote logon failure
-        href: error-workgroup-remote-logon-failure.md
       - name: Kerberos authentication failed
         href: error-kerberos-authentication-failed.md
       - name: Ensure that DNS is correctly configured on the target computer
@@ -290,26 +286,12 @@
         href: error-unable-to-initiate-dcom-communication.md
       - name: Remote computer could not initiate DCOM communications
         href: error-remote-computer-could-not-initiate-dcom-communications.md
-      - name: Firewall on local machine
-        href: error-firewall-on-local-machine.md
-      - name: Firewall no authentication
-        href: error-firewall-no-authentication.md
-      - name: RPC requires authentication
-        href: error-rpc-requires-authentication.md
-      - name: You do not have permission to inspect the process's identity
-        href: error-you-do-not-have-permission-to-inspect-the-process-s-identity.md
       - name: The Visual Studio remote debugger service on the target computer cannot connect back to this computer
         href: error-the-visual-studio-remote-debugger-service-on-the-target-computer-cannot-connect-back-to-this-computer.md
       - name: Web site worker process has been terminated by IIS
         href: error-web-site-worker-process-has-been-terminated-by-iis.md
       - name: Unable to connect to the machine <name>. The machine cannot be found on the network.
         href: error-unable-to-connect-to-the-machine-name-the-machine-cannot-be-found-on-the-network.md
-      - name: Mixed mode debugging is supported only when using Microsoft .NET Framework 2.0 or greater
-        href: error-mixed-mode-debugging-is-supported-only-when-using-microsoft-dotnet-framework-2-0-or-greater.md
-      - name: Mixed mode debugging for IA64 processes is unsupported
-        href: mixed-mode-debugging-for-ia64-processes-is-unsupported.md
-      - name: Mixed-mode debugging for x64 processes is supported only when using Microsoft .NET Framework 4 or greater
-        href: error-mixed-mode-debugging-for-x64-processes-is-supported-only-when-using-microsoft-dotnet-framework-4-or-greater.md
       - name: Remote machine does not appear in a Remote Connections dialog
         href: error-remote-machine-does-not-appear-in-a-remote-connections-dialog.md
   - name: Attach to process
