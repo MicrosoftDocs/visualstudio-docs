@@ -1,14 +1,14 @@
 ---
 title: Edit Python code and use Intellisense
 description: Develop Python applications in Visual Studio and access rich IntelliSense, code snippets, and navigation features. Apply formatting, linting, and refactoring to clean and maintain your code.
-ms.date: 02/01/2024
+ms.date: 02/07/2024
 ms.topic: conceptual
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
 ms.subservice: python
 
-# CustomerIntent: As a developer, I want to build Python applications in Visual Studio so that I can access rich features to help me clean and maintain my code.
+# CustomerIntent: As a developer, I want to build Python applications in Visual Studio so that I can access rich features to help me write and maintain my code.
 ---
 
 # Edit Python code and use Intellisense
@@ -102,10 +102,8 @@ Using the **Run Mypy** command on this code generates the following error:
 
 :::image type="content" source="media/code-editing-type-hints-validation-error.png" alt-text="Screenshot that shows the example result of Mypy validating type hints." border="false" lightbox="media/code-editing-type-hints-validation-error.png":::
 
-> [!TIP]
+> [!NOTE]
 > For versions of Python before 3.5, Visual Studio also displays type hints that you supply through Typeshed _stub files_ (_.pyi_). You can use stub files when you don't want to include type hints directly in your code or to create type hints for a library that doesn't use them directly. For more information, see [Create stubs for Python modules](https://github.com/python/mypy/wiki/Creating-Stubs-For-Python-Modules) in the Mypy project wiki.
->
-> Visual Studio includes a bundles set of Typeshed files for Python 2 and 3, so additional downloads aren't necessary. However, if you want to use a different set of files, you can specify the path in the **Tools** > **Options** > **Python** > **Language Server** options. For more information, see [Options - Language Server](python-support-options-and-settings-in-visual-studio.md#language-server-options).
 >
 > Visual Studio doesn't currently support type hints in comments.
 
@@ -176,7 +174,7 @@ If you write a great code snippet that you'd like to share, feel free to post it
 
 ## Navigate your code
 
-Python support in Visual Studio provides several ways to quickly navigate within your code, including libraries for which the source code is available. You can find libraries with source code for the [navigation bar](#navigation-bar), [**Go To Definition**](#go-to-definition), [**Go To** (string search)](#go-to-string-search), and [**Find All References**](#find-all-references) commands. You can also use the Visual Studio [**Object Browser**](../ide/viewing-the-structure-of-code.md#BKMK_ObjectBrowser).
+Python support in Visual Studio provides several ways to quickly navigate within your code, including libraries for which the source code is available. You can find libraries with source code for the [navigation bar](#navigation-bar), [**Go To Definition**](#go-to-definition), [**Go To**](#go-to), and [**Find All References**](#find-all-references) commands. You can also use the Visual Studio [**Object Browser**](../ide/viewing-the-structure-of-code.md#BKMK_ObjectBrowser).
 
 ### Navigation bar
 
@@ -193,7 +191,7 @@ The **Go To Definition** command quickly jumps from the use of an identifier (su
 
 :::image type="content" source="media/code-editing-go-to-definition.png" alt-text="Screenshot that shows the Go To Definition command in Visual Studio." border="false":::
 
-### Go To (string search)
+### Go To
 
 The **Edit** > **Go To** command (**Ctrl**+**,**) displays a search box in the editor where you can type any string and see possible matches in your code that defines a function, class, or variable containing that string. This feature provides a similar capability as **Go To Definition** but without having to locate a use of an identifier.
 

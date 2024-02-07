@@ -1,7 +1,7 @@
 ---
 title: Refactor to transform and clean your Python code
 description: Visual Studio makes it easy to refactor and clean your Python code. Rename identifiers, extract methods, add imports, and remove unused imports.
-ms.date: 01/30/2024
+ms.date: 02/07/2024
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
@@ -30,7 +30,7 @@ Visual Studio provides several commands to help you automatically transform and 
 
 You can use the Rename command to change the name for a specific identifier, including a class, method, or variable. Visual Studio supports updating all instances of the identifier or only the specific instances that you indicate.
 
-The following steps show how to use the Rename command in your code.
+The following steps show how to use the **Rename** command in your code.
 
 ::: moniker range="<=vs-2019"
 
@@ -99,7 +99,7 @@ Visual Studio attempts to filter out members that aren't defined in a module. An
 
 Similarly, Visual Studio filters functions that are imported from other modules or the built-in namespace. If a module imports the `settrace` function from the `sys` module, in theory, you can import the function from that module. However, the best approach is to use the `import settrace from sys` statement directly, so Visual Studio specifically offers that statement.
 
-Finally, suppose a module is normally excluded, but it has other values that are included like a name assigned with a value in the module. Visual Studio still excludes the import. This behavior assumes the value shouldn't be exported because it's defined in another module. Another assignment is likely to be a dummy value that also isn't exported.
+Finally, suppose a module is normally excluded, but it has other values that are included like a name assigned with a value in the module. Visual Studio still excludes the import. This behavior assumes the value shouldn't be exported because another module defines it. Another assignment is likely to be a dummy value that also isn't exported.
 
 ## Remove unused imports
 
@@ -138,7 +138,7 @@ The following steps show how to remove unused imports in your code.
 
 Before you use the refactoring commands, review the following considerations.
 
-- After you run a refactoring command, you can revert the changes by using the **Edit** > **Undo** command. The Rename command offers a preview feature, so you can see changes before they're applied.
+- After you run a refactoring command, you can revert the changes by using the **Edit** > **Undo** command. The **Rename** command offers a **Preview** feature, so you can see changes before they're applied.
 
 - Visual Studio doesn't account for control flow in your code. If you use an identifier before the supporting definition is present in the code, such as an `import` statement, Visual Studio still processes the identifier as used. Visual Studio expects to find supporting definitions for identifiers before you make calls and assignments.
 

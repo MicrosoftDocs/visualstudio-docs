@@ -20,7 +20,7 @@ Python is a popular programming language that's reliable, flexible, easy to lear
 
 Visual Studio is a powerful Python IDE on Windows. Visual Studio provides [open-source](https://github.com/Microsoft/ptvs) support for the Python language through the **Python Development** and **Data Science** workloads (Visual Studio 2017 and later) and the free Python Tools for Visual Studio extension (Visual Studio 2015 and earlier). [Tour the Visual Studio IDE](../ide/quickstart-ide-orientation.md) to familiarize yourself with the IDE features for writing and editing Python code.
 
-Visual Studio doesn't currently support Python on Mac. However, Visual Studio Code is available on Mac and Linux. For more information, see [questions and answers](#questions-and-answers).
+Visual Studio Code is available on Mac and Linux. For more information, see [questions and answers](#questions-and-answers).
 
 To get started:
 
@@ -163,7 +163,7 @@ For more information, see [Azure SDK for Python](/azure/python/) and [Azure libr
 
 **Q. Is Python support available with Visual Studio for Mac?**
 
-A. Not at this time, but you can up vote the request on [Developer Community](https://developercommunity.visualstudio.com/content/idea/351820/python-tools-for-visual-studio-mac.html). The [Visual Studio for Mac](/visualstudio/mac/) documentation identifies the currently supported development types. In the meantime, Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
+A. Visual Studio for Mac isn't currently supported. For more information, see [What's happening to Visual Studio for Mac](../../mac/what-happened-to-vs-for-mac.md). Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
 
 **Q. What can I use to build UI with Python?**
 
