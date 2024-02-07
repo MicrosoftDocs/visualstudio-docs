@@ -14,7 +14,7 @@ You can implement customized language-specific syntax in the Visual Studio edito
 
 ## What is Language Configuration
 
-Visual Studio offers intelligent editing capabilities for various programming languages through language extensions. Language Configuration supplements the servers that use Language Server Protocol (LSP) and provides declarative data that enables the Visual Studio editor to make formatting, colorization, and completion decisions instantaneously, without making an asynchronous query to the LSP server. Declarative language features are defined in configuration files. For instance, HTML, CSS, and typescript-basic extensions bundled with Visual Studio offer a subset of the following declarative language features:
+Visual Studio offers intelligent editing capabilities for various programming languages through language extensions. Language Configuration supplements the servers that use Language Server Protocol (LSP) and provides declarative data that enables the Visual Studio editor to make formatting, colorization, and completion decisions without the delay of making an asynchronous query to the LSP server. Declarative language features are defined in configuration files. For instance, HTML, CSS, and typescript-basic extensions bundled with Visual Studio offer a subset of the following declarative language features:
 
 - Syntax highlighting
 - Snippet completion
@@ -31,7 +31,7 @@ Using Language Configuration helps with:
 - Simplicity: Short JSON files with regular expressions are easier to maintain than complex algorithm
 - Portability: Require no or minimal changes between Visual Studio Code and Visual Studio
 
-Also, Language Configuration files provide an easy way to extend Visual Studio to support some basic refactoring features through an easy-to-read JSON file.
+Also, language configuration files provide an easy way to extend Visual Studio to support some basic refactoring features through an easy-to-read JSON file.
 
 ## Add Language Configuration support to a Visual Studio extension
 
@@ -48,7 +48,7 @@ To create a language service extension using Language Configuration, first make 
 
 Next, create a new VSIX project by navigating to **File** > **New Project** > **Visual C#** > **Extensibility** > **VSIX Project**:
 
-![Screenshot showing how to create a VSIX project.](media/lsp-vsix-project.png)
+![Screenshot showing how to create a VSIX project.](media/vs-2022/create-vsix-project.png)
 
 ## Create a Language Configuration file
 
@@ -236,7 +236,7 @@ In addition to `increaseIndentPattern` and `decreaseIndentPatter`, there are two
 
 If there's no indentation rule set for the programming language, the editor indents when the line ends with an open bracket and unindents when you type a closing bracket. The bracket here is defined by `brackets`.
 
-#### OnEnterRules
+#### Pressing Enter
 
 `onEnterRules` defines a list of rules to evaluate when **Enter** is pressed in the editor.
 
@@ -277,7 +277,7 @@ Copy to output = Copy always
 
 ## (optional) Add a grammar file
 
-In addition, you can add a TextMate grammar file to provide syntax coloring for the language. TextMate grammars are a structured collection of regular expressions and are written as a plist (XML) or JSON files. See [Language Grammars](https://macromates.com/manual/en/language_grammars). If you don't provide a language-specific grammar file, it falls back to a built-in default setting.
+In addition, you can add a TextMate grammar file to provide syntax coloring for the language. TextMate grammars are a structured collection of regular expressions and are written as a plist (XML) or JSON files. See [Language Grammars](https://macromates.com/manual/en/language_grammars). If you don't provide a language-specific grammar file, a built-in default setting is used.
 
 To add custom TextMate grammar or theme files, follow these steps:
 
