@@ -1060,6 +1060,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/error-windows-file-sharing-has-been-configured-dot-dot-dot.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-windows-file-sharing-has-been-configured-dot-dot-dot",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/cannot-change-value-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/cannot-change-value-dialog-box",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/error-mixed-mode-debugging-for-x64-processes-is-supported-only-when-using-microsoft-dotnet-framework-4-or-greater.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-mixed-mode-debugging-for-x64-processes-is-supported-only-when-using-microsoft-dotnet-framework-4-or-greater",
       "redirect_document_id": false
