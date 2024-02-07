@@ -50,7 +50,7 @@ Next, create a new VSIX project by navigating to **File** > **New Project**, sea
 
 ![Screenshot showing how to create a VSIX project.](media/vs-2022/create-vsix-project.png)
 
-## Create a Language Configuration file
+## Create a language configuration file
 
 When making your own language configuration file, you can choose which aspects to onboard in the JSON file. For example, you can choose to support comment toggling, autoclosing of braces, or any combination of the available functionality described in this section.
 
