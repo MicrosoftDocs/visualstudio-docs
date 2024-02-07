@@ -163,7 +163,7 @@ For more information, see [Azure SDK for Python](/azure/python/) and [Azure libr
 
 **Q. Is Python support available with Visual Studio for Mac?**
 
-A. Visual Studio for Mac isn't currently supported. For more information, see [What's happening to Visual Studio for Mac](https://learn.microsoft.com/en-us/visualstudio/mac/what-happened-to-vs-for-mac?) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
+A. Visual Studio for Mac isn't currently supported. For more information, see [What's happening to Visual Studio for Mac?](https://learn.microsoft.com/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
 
 **Q. What can I use to build UI with Python?**
 
