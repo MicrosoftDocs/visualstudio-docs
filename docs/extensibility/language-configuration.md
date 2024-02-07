@@ -290,7 +290,7 @@ To add custom TextMate grammar or theme files, follow these steps:
 
 ## Create a pkgdef file
 
-Next, create a `.pkgdef` file. A `.pkgdef` file contains all the registration information that would otherwise be added to the system registry. More information about `pkgdef`, see [Registering VSPackages](internals/registering-vspackages.md) and [What is a pkgdef file? And why?](https://devblogs.microsoft.com/visualstudio/whats-a-pkgdef-and-why). In your `pkgdef` file, you should have the path to the `language-configuration.json` file and the path for the language grammar. Language services such as LSP ask for the editor content type and get that through Language Configuration. This information provides the language-specific intelligence inside a server that can communicate with development tooling. When a language service doesn't exist, the Language Configuration engine falls back to the TextMate grammar. Your `.pkgdef` file should look like this:  
+Next, create a `.pkgdef` file. A `.pkgdef` file contains all the registration information that would otherwise be added to the system registry. For more information about `pkgdef` files, see [Registering VSPackages](internals/registering-vspackages.md) and [What is a pkgdef file? And why?](https://devblogs.microsoft.com/visualstudio/whats-a-pkgdef-and-why). In your `pkgdef` file, you should have the path to the `language-configuration.json` file and the path for the language grammar. Language services such as LSP ask for the editor content type and get that through Language Configuration. This information provides the language-specific intelligence inside a server that can communicate with development tooling. When a language service doesn't exist, the Language Configuration engine falls back to the TextMate grammar. Your `.pkgdef` file should look like this:  
 
 ```pkgdef
 [$RootKey$\TextMate\Repositories]
@@ -313,7 +313,7 @@ Next, create a `.pkgdef` file. A `.pkgdef` file contains all the registration in
 "source.cs"="$PackageFolder$\csharp-language-configuration.json
 ```
 
-Make sure that the properties of the `pkgdef` file are set as the following:  
+Make sure that the properties of the `pkgdef` file are set as follows:  
 
 ```
 Build Action = Content
