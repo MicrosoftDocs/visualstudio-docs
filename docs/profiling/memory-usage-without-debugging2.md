@@ -33,18 +33,24 @@ The Memory Usage tool can run [with or without the debugger](../profiling/runnin
 
 1. Under **Available Tools**, select **Memory Usage**, and then select **Start**.
 
+   ::: moniker range=">=vs-2022"
+   ![Start a Memory Usage diagnostic session](../profiling/media/vs-2022/memory-usage-start-performance-profiler.png "Start a Memory Usage diagnostic session")
+   ::: moniker-end
+
+   ::: moniker range="vs-2019"
    ![Start a Memory Usage diagnostic session](../profiling/media/memory-usage-start-diagnostics-session.png "Start a Memory Usage diagnostic session")
+   ::: moniker-end
 
 ### Monitor memory use
 
 When you start a diagnostic session, your app starts, and the **Diagnostic Tools** window displays a timeline graph of your app's memory use.
 
-::: moniker range="<=vs-2019"
-![Screenshot of the Diagnostic Tools window in the Visual Studio Performance Profiler showing a timeline graph of the app's memory use.](../profiling/media/memory-usage-report-overview.png "Memory Report Overview")
+::: moniker range="vs-2022"
+![Screenshot of the Diagnostic Tools window in the Visual Studio Performance Profiler showing a timeline graph of the app's memory use.](../profiling/media/vs-2022/memory-usage-report-overview-vs-2022.png "Memory Usage Report Overview")
 ::: moniker-end
 
-::: moniker range="vs-2022"
-![Screenshot of the Diagnostic Tools window in the Visual Studio Performance Profiler showing a timeline graph of the app's memory use.](../profiling/media/memory-usage-report-overview-vs-2022.png "Memory Usage Report Overview")
+::: moniker range="vs-2019"
+![Screenshot of the Diagnostic Tools window in the Visual Studio Performance Profiler showing a timeline graph of the app's memory use.](../profiling/media/memory-usage-report-overview.png "Memory Report Overview")
 ::: moniker-end
 
 The timeline graph shows memory fluctuations as the app runs. Spikes in the graph usually indicate that some code is collecting or creating data, and then discarding it when the processing is done. Large spikes indicate areas that you can optimize. Main concern is a rise in memory consumption that's not returned. This may indicate inefficient memory use or even a memory leak.
@@ -55,11 +61,21 @@ An app uses a large number of objects, and you might want to concentrate your an
 
 To collect snapshots, select **Take snapshot** when you want to capture the memory data.
 
+::: moniker range=">=vs-2022"
+![Screenshot of taking a snapshot](../profiling/media/vs-2022/memory-usage-take-snapshot.png)
+::: moniker-end
+
 ### <a name="BKMK_Close_a_monitoring_session"></a> Close the diagnostic session
 
 To stop a monitoring session without creating a report, just close the diagnostic window. To generate a report when you're done collecting or have taken snapshots, select **Stop Collection**.
 
-![Stop Collection](../profiling/media/memory-usage-stop-collection.png "Stop Collection")
+::: moniker range=">=vs-2022"
+![Screenshot of stopping the collection](../profiling/media/vs-2022/memory-usage-stop-collection.png)
+::: moniker-end
+
+::: moniker range="vs-2019"
+![Screenshot of stopping the collection](../profiling/media/memory-usage-stop-collection.png)
+::: moniker-end
 
 If you have trouble collecting or displaying data, see [Troubleshoot profiling errors and fix issues](../profiling/troubleshoot-profiler-errors.md).
 
@@ -67,12 +83,12 @@ If you have trouble collecting or displaying data, see [Troubleshoot profiling e
 
 After you stop data collection, the **Memory Usage** tool stops the app and displays the **Memory Usage** overview page.
 
-::: moniker range="<=vs-2019"
-![Screenshot of the overview page in the Memory Usage tool in the Visual Studio Performance Profiler, showing a memory usage graph and two snapshot panes.](../profiling/media/memory-usage-report-overview-1.png "Memory Usage overview page")
+::: moniker range=">=vs-2022"
+![Screenshot of the overview page in the Memory Usage tool in the Visual Studio Performance Profiler, showing a memory usage graph and two snapshot panes.](../profiling/media/vs-2022/memory-usage-report-overview-1-vs-2022.png "Memory Usage overview page")
 ::: moniker-end
 
-::: moniker range="vs-2022"
-![Screenshot of the overview page in the Memory Usage tool in the Visual Studio Performance Profiler, showing a memory usage graph and two snapshot panes.](../profiling/media/memory-usage-report-overview-1-vs-2022.png "Memory Usage overview page")
+::: moniker range="vs-2019"
+![Screenshot of the overview page in the Memory Usage tool in the Visual Studio Performance Profiler, showing a memory usage graph and two snapshot panes.](../profiling/media/memory-usage-report-overview-1.png "Memory Usage overview page")
 ::: moniker-end
 
 ### <a name="BKMK_Memory_Usage_snapshot_views"></a> Memory Usage snapshots
@@ -81,7 +97,18 @@ The numbers in the **Snapshot** panes show the objects and bytes in memory when 
 
 The numbers are links that open detailed **Memory Usage** report views in new Visual Studio windows. A [snapshot details report](#snapshot-details-reports) shows the types and instances in one snapshot. A [snapshot difference (diff) report](#snapshot-difference-diff-reports) compares the types and instances in two snapshots.
 
-::: moniker range="<=vs-2019"
+::: moniker range=">=vs-2022"
+  ![Snapshot view links](../profiling/media/vs-2022/memory-usage-snapshot-view-numbered-vs-2022.png "Snapshot view links")
+
+|Image|Description|
+|-|-|
+|![Step 1](../profiling/media/process-guide-1.png "Process Guide-1")|The total number of objects in memory when the snapshot was taken. Select this link to display a snapshot details report sorted by the count of instances of the types.|
+|![Step 2](../profiling/media/process-guide-2.png "Process Guide-2")|The difference between the total number of memory objects in this snapshot and the previous snapshot. Select this link to display a snapshot diff report sorted by the difference in the total count of instances of the types.|
+|![Step 3](../profiling/media/process-guide-3.png "Process Guide-3")|The total number of bytes in memory when the snapshot was taken. Select this link to display a snapshot details report sorted by the total size of the type instances.|
+|![Step 4](../profiling/media/process-guide-4.png "Process Guide-4")|The difference between the total size of memory objects in this snapshot and the previous snapshot. A positive number means the memory size of this snapshot is larger than the previous one, and a negative number means the size is smaller. **Baseline** means a snapshot is the first in a diagnostic session. **No Difference** means the difference is zero. Select this link to display a snapshot diff report sorted by the difference in the total size of instances of the types.|
+::: moniker-end
+
+::: moniker range="vs-2019"
   ![Snapshot view links](../profiling/media/memory-usage-snapshot-view-numbered.png "Snapshot view links")
 
 |Image|Description|
@@ -92,62 +119,27 @@ The numbers are links that open detailed **Memory Usage** report views in new Vi
 |![Step 4](../profiling/media/process-guide-4.png "Process Guide-4")|The difference between the total number of memory objects in this snapshot and the previous snapshot. Select this link to display a snapshot diff report. It’s sorted by the difference in the total count of instances of the types.|
 ::: moniker-end
 
-::: moniker range="vs-2022"
-  ![Snapshot view links](../profiling/media/memory-usage-snapshot-view-numbered-vs-2022.png "Snapshot view links")
+## Managed types reports
 
-|Image|Description|
-|-|-|
-|![Step 1](../profiling/media/process-guide-1.png "Process Guide-1")|The total number of objects in memory when the snapshot was taken. Select this link to display a snapshot details report sorted by the count of instances of the types.|
-|![Step 2](../profiling/media/process-guide-2.png "Process Guide-2")|The difference between the total number of memory objects in this snapshot and the previous snapshot. Select this link to display a snapshot diff report sorted by the difference in the total count of instances of the types.|
-|![Step 3](../profiling/media/process-guide-3.png "Process Guide-3")|The total number of bytes in memory when the snapshot was taken. Select this link to display a snapshot details report sorted by the total size of the type instances.|
-|![Step 4](../profiling/media/process-guide-4.png "Process Guide-4")|The difference between the total size of memory objects in this snapshot and the previous snapshot. A positive number means the memory size of this snapshot is larger than the previous one, and a negative number means the size is smaller. **Baseline** means a snapshot is the first in a diagnostic session. **No Difference** means the difference is zero. Select this link to display a snapshot diff report sorted by the difference in the total size of instances of the types.|
-::: moniker-end
-
-## Memory Usage snapshot reports
-
-<a name="BKMK_Snapshot_report_trees"></a> When you select one of the snapshot links in the **Memory Usage** overview page, a snapshot report opens in a new page.
-
-::: moniker range="<=vs-2019"
-![Memory Usage snapshot report](../profiling/media/memory-usage-snapshot-report-all.png "Memory Usage snapshot report")
-::: moniker-end
-
-::: moniker range="vs-2022"
-![Memory Usage snapshot report](../profiling/media/memory-usage-snapshot-report-all-vs-2022.png "Memory Usage snapshot report")
-::: moniker-end
-
-If an **Object Type** is blue, you can select it to navigate to the object in the source code, in a separate window.
-
-Types that you can't identify or whose involvement in your code you don't understand are probably .NET, operating system, or compiler objects. The **Memory Usage** tool displays these objects if they're involved in the ownership chains of your objects.
-
-In the snapshot report:
-
-- The **Managed Memory** tree shows the types and instances in the report. Selecting a type or instance displays the **Paths to Root** and **Referenced Objects** trees for the selected item.
-
-- The **Paths to Root** tree shows the chain of objects that reference a type or instance. The .NET garbage collector cleans up the memory for an object only when all references to it have been released.
-
-- The **Referenced Types** or **Referenced Objects** tree shows the objects that the selected type or instance references.
+[!INCLUDE [managed-types-report](../profiling/includes/managed-types-report.md)]
 
 ### <a name="BKMK_Report_tree_filters_"></a> Report tree filters
 
 Many types in apps aren't required to app developers. The snapshot report filters can hide most of these types in the **Managed Memory** and **Paths to Root** trees.
 
-::: moniker range="<=vs-2019"
-![Sort and filter options](../profiling/media/memory-usage-sort-and-filter.png "Memory Usage Sort and Filter")
+::: moniker range=">=vs-2022"
+![Sort and filter options](../profiling/media/vs-2022/memory-usage-sort-and-filter-vs-2022.png "Memory usage sort and filter")
 ::: moniker-end
 
-::: moniker range="vs-2022"
-![Sort and filter options](../profiling/media/memory-usage-sort-and-filter-vs-2022.png "Memory usage sort and filter")
+::: moniker range="vs-2019"
+![Sort and filter options](../profiling/media/memory-usage-sort-and-filter.png "Memory Usage Sort and Filter")
 ::: moniker-end
 
 - <a name="BKMK_Filter"></a> To filter a tree by type name, enter the name in the **Filter** box. The filter isn't case-sensitive, and it recognizes the specified string in any part of the type name.
 
+- <a name="BKMK_Just_My_Code"></a> Select **Show Just My Code** in the **Filter** dropdown to hide most instances that are generated by external code. External types belong to the operating system or framework components, or are generated by the compiler.
+
 - <a name="BKMK_Collapse_Small_Objects"></a> Select **Collapse Small Objects** in the **Filter** dropdown to hide types whose **Size (Bytes)** is less than 0.5 percent of the total memory.
-
-- <a name="BKMK_Just_My_Code"></a> Select **Just My Code** in the **Filter** dropdown to hide most instances that are generated by external code. External types belong to the operating system or framework components, or are generated by the compiler.
-
-## Managed types reports
-
-[!INCLUDE [managed-types-report](../profiling/includes/managed-types-report.md)]
 
 ## Native types reports
 
