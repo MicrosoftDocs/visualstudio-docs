@@ -31,10 +31,12 @@ In Visual Studio on Windows, you use the **Python Environments** window, as desc
 
 ## Prerequisites
 
-- A Python workload installed. If you're new to Python in Visual Studio, see the following articles for general background:
+- A Python workload installed.
 
-   - [Work with Python in Visual Studio](overview-of-python-tools-for-visual-studio.md)
-   - [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md)
+If you're new to Python in Visual Studio, see the following articles for general background:
+
+- [Work with Python in Visual Studio](overview-of-python-tools-for-visual-studio.md)
+- [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md)
 
 ## The Python Environments window
 
@@ -124,9 +126,7 @@ For these reasons, developers often create a _virtual environment_ for a project
 
 Visual Studio provides direct support for creating a virtual environment for a project. If you open a project that contains a _requirements.txt_ file, Visual Studio prompts you automatically to create a virtual environment and install those dependencies. You see the same behavior when you create a project from a template that includes _requirements.txt_ file.
 
-At any time within an open project, you can create a new virtual environment. In **Solution Explorer**, expand the project node, right-click **Python Environments**, and choose **Add environment**. In **Add Environment**, choose **Virtual environment**.
-
-For more information, see [Create a virtual environment](./selecting-a-python-environment-for-a-project.md#create-a-virtual-environment).
+At any time within an open project, you can create a new virtual environment. In **Solution Explorer**, expand the project node, right-click **Python Environments**, and choose **Add environment**. In **Add Environment**, choose **Virtual environment**. For more information, see [Create a virtual environment](./selecting-a-python-environment-for-a-project.md#create-a-virtual-environment).
 
 Visual Studio also provides a command to generate a _requirements.txt_ file from a virtual environment, making it easy to recreate the environment on other computers. For more information, see [Use virtual environments](selecting-a-python-environment-for-a-project.md#use-virtual-environments).
 
