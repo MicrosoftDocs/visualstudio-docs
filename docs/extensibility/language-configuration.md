@@ -22,9 +22,8 @@ Visual Studio offers intelligent editing capabilities for various programming la
 - Bracket autoclosing
 - Comment toggling
 - Autoindentation
-- Folding (by markers)
 
-Visual Studio provides the capability for extensions to define a language configuration for any programming language. The language configuration file controls fundamental editing features such as comment toggling, bracket matching and surrounding, and collapsing sections of code (region folding).
+Visual Studio provides the capability for extensions to define a language configuration for any programming language. The language configuration file controls fundamental editing features such as comment toggling, and bracket matching and surrounding.
 
 Using Language Configuration helps with: 
 
@@ -91,12 +90,6 @@ The following code shows an example language configuration file.
       ["\"", "\""],
       ["`", "`"]
     ],
-    "folding": {
-      "markers": {
-        "start": "^\\s*//\\s*#?region\\b",
-        "end": "^\\s*//\\s*#?endregion\\b"
-      }
-    },
     "wordPattern": "(-?\\d*\\.\\d\\w*)|([^\\`\\~\\!\\@\\#\\%\\^\\&\\*\\(\\)\\-\\=\\+\\[\\{\\]\\}\\\\\\|\\;\\:\\'\\\"\\,\\.\\<\\>\\/\\?\\s]+)",
     "indentationRules": {
       "increaseIndentPattern": "^((?!\\/\\/).)*(\\{[^}\"'`]*|\\([^)\"'`]*|\\[[^\\]\"'`]*)$",
@@ -206,29 +199,7 @@ When you select a range in Visual Studio and enter an opening bracket, Visual St
 }
 ```
 
-#### Folding
-
-In Visual Studio, folding is defined either indentation-based, or defined by contributed folding range providers:
-
-- Indentation-based folding with markers: If no folding range provider is available for the given language, indentation-based folding is used. A folding region starts when a line has a smaller indent than one or more following lines, and ends when there's a line with the same or smaller indent. Empty lines are ignored.
-Additionally, the language configuration can define start and end markers. These markers are defined as `start` and `end` regexes in `folding.markers`. When matching lines are found, a folding range inside the pair is created. Folding markers must be non-empty and typically look like `//#region` and `//#endregion`.
-
-The following JSON creates folding markers for `//#region` and `//#endregion`.
-
-```json
-{
-  "folding": {
-    "markers": {
-      "start": "^\\s*//\\s*#?region\\b",
-      "end": "^\\s*//\\s*#?endregion\\b"
-    }
-  }
-}
-```
-
-- Language server folding: The Language Server responds to the [`textDocument/foldingRange`](https://microsoft.github.io/language-server-protocol/specification#textDocument_foldingRange) request with a list of folding ranges, and Visual Studio would render the ranges as folding markers.
-
-#### Word Pattern
+#### Word pattern
 
 `wordPattern` defines what's considered as a word in the programming language. Code suggestion features use this setting to determine word boundaries if `wordPattern` is set. 
 
@@ -238,7 +209,7 @@ The following JSON creates folding markers for `//#region` and `//#endregion`.
 }
 ```
 
-#### Indentation Rules
+#### Indentation rules
 
 `indentationRules` defines how the editor should adjust the indentation of current line or next line when you type, paste, and move lines.
 
@@ -265,7 +236,7 @@ In addition to `increaseIndentPattern` and `decreaseIndentPatter`, there are two
 
 If there's no indentation rule set for the programming language, the editor indents when the line ends with an open bracket and unindents when you type a closing bracket. The bracket here is defined by `brackets`.
 
-#### On Enter Rules
+#### OnEnterRules
 
 `onEnterRules` defines a list of rules to evaluate when **Enter** is pressed in the editor.
 
