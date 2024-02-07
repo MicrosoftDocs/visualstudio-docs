@@ -52,7 +52,6 @@ Make sure to install the following:
 
    Compared to the [standalone Vue template](../javascript/tutorial-create-vue-app.md), you see some new and modified files for integration with ASP.NET Core:
 
-   - aspnetcore-https.js
    - vite.config.json (modified)
    - HelloWorld.vue (modified)
    - package.json (modified)

@@ -1,7 +1,7 @@
 ---
 title: 'Specify build events (C#)'
 description: Use build events in Visual Studio to specify commands that run before the build starts or after the build finishes for C# programs.
-ms.date: 02/15/2023
+ms.date: 02/01/2024
 ms.subservice: compile-build
 ms.topic: how-to
 helpviewer_keywords:
@@ -94,7 +94,7 @@ When you perform the previous steps, Visual Studio modifies your project file by
 
 The output of your build events is written to the **Build** section of the **Output Window**. To open it, choose **View** > **Other Windows**, **Output Window**, or press **Ctrl**+**Alt**+**O**. In the dropdown next to **Show output from**, choose **Build**.
 
-If your pre-build or post-build event does not complete successfully, you can terminate the build by having your event action exit with a code other than zero (0). A zero exit code indicates a successful action; any other exit code is considered an error.
+If your pre-build or post-build event doesn't complete successfully, you can terminate the build by having your event action exit with a code other than zero (0). A zero exit code indicates a successful action; any other exit code is considered an error.
 
 If your pre-build event fails, you might see an error like this in the **Error List** window:
 
@@ -129,7 +129,7 @@ That pre-build event results in the following entry, called a `Target` in your p
 
 The build event appears as a target that includes the [Exec task](../msbuild/exec-task.md) with the input you specified as the `Command`. Newlines are encoded in the XML.
 
-When you build the project in this example, the pre-build event prints the values of some properties. In this example, `$(CscToolPath)` doesn't produce any output, because it's not defined. It is an optional property that you can define in your project file to give the path to a customized instance of the C# compiler (for example, if you were testing a different version of *csc.exe*, or an experimental compiler).
+When you build the project in this example, the pre-build event prints the values of some properties. In this example, `$(CscToolPath)` doesn't produce any output, because it's not defined. It's an optional property that you can define in your project file to give the path to a customized instance of the C# compiler (for example, if you were testing a different version of *csc.exe*, or an experimental compiler).
 
 Output from your build events is written to the build output, which can be found in the **Output** window. In the **Show output from** dropdown, choose **Build**.
 

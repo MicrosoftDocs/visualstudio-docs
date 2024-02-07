@@ -1,7 +1,7 @@
 ---
 title: Enable debugging for ASP.NET apps
 description: Learn how to enable debugging for ASP.NET and ASP.NET Core apps in Visual Studio. You can run the process on an IIS Express server or a local IIS server. 
-ms.date: 07/24/2023
+ms.date: 01/30/2024
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -24,9 +24,13 @@ You can debug ASP.NET and ASP.NET Core apps in Visual Studio. The process differ
 >[!NOTE]
 >The following steps and settings apply only to debugging apps on a local server. Debugging apps on a remote IIS server uses **Attach to Process**, and ignores these settings. For more information and instructions for remote debugging ASP.NET apps on IIS, see [Remote debug ASP.NET on an IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) or [Remote debug ASP.NET Core on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md).
 
+::: moniker range=">=vs-2022"
+The built-in Kestrel and IIS Express servers are included with Visual Studio. Kestrel is the default debug server for ASP.NET Core projects, and is preconfigured. IIS Express is the default debug server for ASP.NET.
+::: moniker-end
+
+::: moniker range="vs-2019"
 The built-in IIS Express server is included with Visual Studio. IIS Express is the default debug server for ASP.NET and ASP.NET Core projects, and is preconfigured. It's the easiest way to debug, and ideal for initial debugging and testing.
 
-::: moniker range=">=vs-2022"
 For ASP.NET Core, you can also debug on the Kestrel web server.
 ::: moniker-end
 
@@ -41,36 +45,10 @@ You can also debug an ASP.NET or ASP.NET Core app on a local IIS server (version
 - Install and correctly configure IIS with the appropriate version(s) of ASP.NET and/or ASP.NET Core. For more information on using IIS with ASP.NET Core, see [Host ASP.NET Core on Windows with IIS](/aspnet/core/host-and-deploy/iis/index). For ASP.NET, see [Install IIS and ASP.NET Modules](/iis/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-1-install-iis-and-asp-net-modules).
 - Make sure the app runs on IIS without errors.
 
-## Debug ASP.NET apps
-
-IIS Express is the default, and is preconfigured. If you're debugging on Local IIS, make sure you meet the [requirements for local IIS debugging](#iis).
-
-1. Select the ASP.NET project in Visual Studio **Solution Explorer** and click the **Properties** icon, or press **Alt**+**Enter**, or right-click and choose **Properties**.
-
-1. Select the **Web** tab.
-
-   If you don't see the **Web** tab, see [Debug ASP.NET Core apps](#debug-aspnet-core-apps). The Web tab only appears for ASP.NET Framework.
-
-1. In the **Properties** pane, under **Servers**,
-   - For IIS Express, select **IIS Express** from the dropdown.
-   - For local IIS,
-     1. Select **Local IIS** from the dropdown.
-     1. Next to the **Project URL** field, select **Create Virtual Directory**, if you haven't yet set up the app in IIS.
-
-1. Under **Debuggers**, select **ASP.NET**.
-
-   ![ASP.NET debugger settings](media/dbg-aspnet-enable-debugging2.png "ASP.NET debugger settings")
-
-1. Choose **File** > **Save Selected Items** (or press **Ctrl**+**S**) to save any changes.
-
-1. To debug the app, in your project, set breakpoints on some code. In the Visual Studio toolbar, make sure the configuration is set to **Debug**, and the browser you want appears in **IIS Express (\<Browser name>)** or **Local IIS (\<Browser name>)** in the emulator field.
-
-1. To start debugging, select **IIS Express (\<Browser name>)** or **Local IIS (\<Browser name>)** in the toolbar, select **Start Debugging** from the **Debug** menu, or press **F5**. The debugger pauses at the breakpoints. If the debugger can't hit the breakpoints, see [Troubleshoot debugging](#troubleshoot-debugging).
-
 ::: moniker range=">=vs-2022"
 ## Debug ASP.NET Core apps
 
-IIS Express is the default, and is preconfigured. If you're debugging on local IIS instead of IIS Express, make sure you meet the [prerequisites for local IIS debugging](#prerequisites-for-local-iis-server). A default profile based on the project name is also present, which is configured for the Kestrel web server.
+A default profile based for https or one based on the project name may be present, which are configured for the Kestrel web server. If you're debugging on local IIS instead, make sure you meet the [prerequisites for local IIS debugging](#prerequisites-for-local-iis-server).
 
 1. Select the ASP.NET Core project in Visual Studio **Solution Explorer** and click the **Properties** icon, or press **Alt**+**Enter**, or right-click and choose **Properties**.
 
@@ -80,8 +58,8 @@ IIS Express is the default, and is preconfigured. If you're debugging on local I
 
 1. Select the profile to configure for debugging.
 
+   - For Kestrel, select the **https** profile or the profile named after the project.
    - For IIS Express, select **IIS Express** from the dropdown.
-   - For Kestrel, select the profile named after the project.
    - For local IIS, select **New** and create a new IIS profile.
 
 1. Make sure **Launch browser** is selected.
@@ -100,7 +78,7 @@ IIS Express is the default, and is preconfigured. If you're debugging on local I
 
 1. To debug the app, in your project, set breakpoints on some code. In the Visual Studio toolbar, make sure the configuration is set to **Debug**.
 
-1. To start debugging, select  the profile name in the toolbar, such as **\<project profile name>**, **IIS Express**, or **\<IIS profile name>** in the toolbar, select **Start Debugging** from the **Debug** menu, or press **F5**. The debugger pauses at the breakpoints. If the debugger can't hit the breakpoints, see [Troubleshoot debugging](#troubleshoot-debugging).
+1. To start debugging, select  the profile name in the toolbar, such as **https**, **IIS Express**, or **\<IIS profile name>** in the toolbar, select **Start Debugging** from the **Debug** menu, or press **F5**. The debugger pauses at the breakpoints. If the debugger can't hit the breakpoints, see [Troubleshoot debugging](#troubleshoot-debugging).
 ::: moniker-end
 
 ::: moniker range="<=vs-2019"
@@ -130,6 +108,33 @@ IIS Express is the default, and is preconfigured. If you're debugging on Local I
 
 1. To start debugging, select **IIS Express** or **\<IIS profile name>** in the toolbar, select **Start Debugging** from the **Debug** menu, or press **F5**. The debugger pauses at the breakpoints. If the debugger can't hit the breakpoints, see [Troubleshoot debugging](#troubleshoot-debugging).
 ::: moniker-end
+
+## Debug ASP.NET apps
+
+IIS Express is the default, and is preconfigured. If you're debugging on Local IIS, make sure you meet the [requirements for local IIS debugging](#iis).
+
+1. Select the ASP.NET project in Visual Studio **Solution Explorer** and click the **Properties** icon, or press **Alt**+**Enter**, or right-click and choose **Properties**.
+
+1. Select the **Web** tab.
+
+   If you don't see the **Web** tab, see [Debug ASP.NET Core apps](#debug-aspnet-core-apps). The Web tab only appears for ASP.NET Framework.
+
+1. In the **Properties** pane, under **Servers**,
+   - For Kestrel, select **https** from the dropdown.
+   - For IIS Express, select **IIS Express** from the dropdown.
+   - For local IIS,
+     1. Select **Local IIS** from the dropdown.
+     1. Next to the **Project URL** field, select **Create Virtual Directory**, if you haven't yet set up the app in IIS.
+
+1. Under **Debuggers**, select **ASP.NET**.
+
+   ![Screenshot that shows ASP.NET debugger settings.](media/dbg-aspnet-enable-debugging2.png "ASP.NET debugger settings")
+
+1. Choose **File** > **Save Selected Items** (or press **Ctrl**+**S**) to save any changes.
+
+1. To debug the app, in your project, set breakpoints on some code. In the Visual Studio toolbar, make sure the configuration is set to **Debug**, and the browser you want appears in **IIS Express (\<Browser name>)** or **Local IIS (\<Browser name>)** in the emulator field.
+
+1. To start debugging, select **IIS Express (\<Browser name>)** or **Local IIS (\<Browser name>)** in the toolbar, select **Start Debugging** from the **Debug** menu, or press **F5**. The debugger pauses at the breakpoints. If the debugger can't hit the breakpoints, see [Troubleshoot debugging](#troubleshoot-debugging).
 
 ## Troubleshoot debugging
 

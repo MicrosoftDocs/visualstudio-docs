@@ -25,7 +25,7 @@ Code snippets are small blocks of reusable code that you can add to a code file.
 
 ## Find available snippets
 
-Before you (create a snippet of your own)[walkthrough-creating-a-code-snippet.md], you can check the available snippets for a language, select **Tools** > **Code Snippets Manager** from the menu bar (or, press **Ctrl**+**K**, **Ctrl**+**B**) and then select the language you want from the drop-down menu at the top of the dialog box.
+Before you [create a snippet of your own](walkthrough-creating-a-code-snippet.md), you can check the available snippets for a language, select **Tools** > **Code Snippets Manager** from the menu bar (or, press **Ctrl**+**K**, **Ctrl**+**B**) and then select the language you want from the drop-down menu at the top of the dialog box.
 
 ![Screenshot of the Code Snippets Manager dialog box.](media/code-snippets-manager.png)
 

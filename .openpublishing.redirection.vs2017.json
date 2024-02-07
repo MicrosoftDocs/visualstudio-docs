@@ -27316,7 +27316,7 @@
             "monikers": [
                 "vs-2017"
             ]
-        },
+          },
         {
             "source_path": "docs/ide/reference/accessibility-tips-and-tricks.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/accessibility-tips-and-tricks",

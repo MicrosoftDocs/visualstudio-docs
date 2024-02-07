@@ -78,7 +78,7 @@ void PrintInjectedSource(IDiaInjectedSource* pSource)
         wprintf(L"\n");
 
         wprintf(L"  object filename: ");
-        if (pSource->get_filename(&objectFilename) == S_OK)
+        if (pSource->get_objectFilename(&objectFilename) == S_OK)
         {
             wprintf(L"%s", objectFilename);
         }
@@ -89,7 +89,7 @@ void PrintInjectedSource(IDiaInjectedSource* pSource)
         wprintf(L"\n");
 
         wprintf(L"  virtual filename: ");
-        if (pSource->get_filename(&virtualFilename) == S_OK)
+        if (pSource->get_virtualFilename(&virtualFilename) == S_OK)
         {
             wprintf(L"%s", virtualFilename);
         }

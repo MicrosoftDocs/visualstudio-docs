@@ -57,7 +57,7 @@ With Trusted Application Deployment, you can configure client computers so that 
 - [ClickOnce and Authenticode](../deployment/clickonce-and-authenticode.md)
 - [Trusted application deployment overview](../deployment/trusted-application-deployment-overview.md)
 - [Enable and configure ClickOnce security settings](../deployment/how-to-enable-clickonce-security-settings.md)
-- [Set a security zone for a ClickOnce application](../deployment/how-to-enable-clickonce-security-settings.md#set-a-security-zone-for-a-clickonce-application.md)
+- [Set a security zone for a ClickOnce application](../deployment/how-to-enable-clickonce-security-settings.md#set-a-security-zone-for-a-clickonce-application)
 - [Set custom permissions for a ClickOnce application](../deployment/how-to-enable-clickonce-security-settings.md#set-custom-permissions-for-a-clickonce-application)
 - [Debug a ClickOnce application with restricted permissions](securing-clickonce-applications.md)
 - [Add a trusted publisher to a client computer for ClickOnce applications](../deployment/how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md)
