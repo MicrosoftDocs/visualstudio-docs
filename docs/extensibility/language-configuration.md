@@ -46,7 +46,7 @@ There are three parts to adding Language Configuration support to a Visual Studi
 
 To create a language service extension using Language Configuration, first make sure you have the **Visual Studio extension development** Workload installed for your instance of VS.
 
-Next, create a new VSIX project by navigating to **File** > **New Project** > **Visual C#** > **Extensibility** > **VSIX Project**:
+Next, create a new VSIX project by navigating to **File** > **New Project**, search for "vsix," and look for **VSIX Project**:
 
 ![Screenshot showing how to create a VSIX project.](media/vs-2022/create-vsix-project.png)
 
