@@ -40,14 +40,16 @@ There are three parts to adding Language Configuration support to a Visual Studi
 
 1. [Create a VSIX project](#create-a-vsix-project)
 1. [Create a Language Configuration file](#create-a-language-configuration-file)
-1. [Add a grammar file](#add-a-grammar-file)
-1. [Update the pkgdef file](#update-the-pkgdef-file)
+1. [Add a grammar file](#optional-add-a-grammar-file)
+1. [Update the pkgdef file](#create-a-pkgdef-file)
 
 ## Create a VSIX project
 
 To create a language service extension using Language Configuration, first make sure you have the **Visual Studio extension development** Workload installed for your instance of VS.
 
 Next, create a new VSIX project by navigating to **File** > **New Project** > **Visual C#** > **Extensibility** > **VSIX Project**:
+
+![Screenshot showing how to create a VSIX project.](media/lsp-vsix-project.png)
 
 ## Create a Language Configuration file
 
@@ -315,9 +317,9 @@ To add custom TextMate grammar or theme files, follow these steps:
    > [!TIP]
    > A *.tmtheme* file defines how the scopes map to Visual Studio classifications (named color keys). For guidance, you can reference the global *.tmtheme* file in the *%ProgramFiles(x86)%\Microsoft Visual Studio\\\<version>\\\<SKU>\Common7\IDE\CommonExtensions\Microsoft\TextMate\Starterkit\Themesg* directory.
 
-## Create the pkgdef file
+## Create a pkgdef file
 
-Next, create a `.pkgdef` file. A `.pkgdef` file contains all the registration information that would otherwise be added to the system registry. More information about `pkgdef`, see [What is a pkgdef file? And why?](https://devblogs.microsoft.com/visualstudio/whats-a-pkgdef-and-why). In your `pkgdef` file, you should have the path to the `language-config.json` file and the path for the language grammar. Language services such as LSP will ask for the editor content type and get that through Language Configuration. This information will provide the language-specific intelligence inside a server that can communicate with development tooling. When a language service doesn't exist, the Language Configuration engine falls back to the TextMate grammar. TextMate grammars are a structured collection of regular expressions and are written as a plist (XML) or JSON files. Your `.pkgdef` file should look like this:  
+Next, create a `.pkgdef` file. A `.pkgdef` file contains all the registration information that would otherwise be added to the system registry. More information about `pkgdef`, see [Registering VSPackages](internals/registering-vspackages) and [What is a pkgdef file? And why?](https://devblogs.microsoft.com/visualstudio/whats-a-pkgdef-and-why). In your `pkgdef` file, you should have the path to the `language-config.json` file and the path for the language grammar. Language services such as LSP will ask for the editor content type and get that through Language Configuration. This information will provide the language-specific intelligence inside a server that can communicate with development tooling. When a language service doesn't exist, the Language Configuration engine falls back to the TextMate grammar. TextMate grammars are a structured collection of regular expressions and are written as a plist (XML) or JSON files. Your `.pkgdef` file should look like this:  
 
 ```pkgdef
 [$RootKey$\TextMate\Repositories]
