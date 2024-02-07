@@ -34,7 +34,7 @@ The Memory Usage tool can run [with or without the debugger](../profiling/runnin
 1. Under **Available Tools**, select **Memory Usage**, and then select **Start**.
 
    ::: moniker range=">=vs-2022"
-   ![Start a Memory Usage diagnostic session](../profiling/media/vs-2022/memory-usage-start-performance-profiler.png "Start a Memory Usage diagnostic session")
+   [ ![Start a Memory Usage diagnostic session](../profiling/media/vs-2022/memory-usage-start-performance-profiler.png)](../profiling/media/vs-2022/memory-usage-start-performance-profiler.png#lightbox)
    ::: moniker-end
 
    ::: moniker range="vs-2019"
@@ -45,8 +45,8 @@ The Memory Usage tool can run [with or without the debugger](../profiling/runnin
 
 When you start a diagnostic session, your app starts, and the **Diagnostic Tools** window displays a timeline graph of your app's memory use.
 
-::: moniker range="vs-2022"
-![Screenshot of the Diagnostic Tools window in the Visual Studio Performance Profiler showing a timeline graph of the app's memory use.](../profiling/media/vs-2022/memory-usage-report-overview-vs-2022.png "Memory Usage Report Overview")
+::: moniker range=">=vs-2022"
+[ ![Screenshot of the Diagnostic Tools window in the Visual Studio Performance Profiler showing a timeline graph of the app's memory use.](../profiling/media/vs-2022/memory-usage-report-overview-vs-2022.png)](../profiling/media/vs-2022/memory-usage-report-overview-vs-2022.png#lightbox)
 ::: moniker-end
 
 ::: moniker range="vs-2019"
@@ -95,7 +95,7 @@ After you stop data collection, the **Memory Usage** tool stops the app and disp
 
 The numbers in the **Snapshot** panes show the objects and bytes in memory when each snapshot was taken, and the difference between the snapshot and the previous one.
 
-The numbers are links that open detailed **Memory Usage** report views in new Visual Studio windows. A [snapshot details report](#snapshot-details-reports) shows the types and instances in one snapshot. A [snapshot difference (diff) report](#snapshot-difference-diff-reports) compares the types and instances in two snapshots.
+The numbers are links that open detailed **Memory Usage** report views in new Visual Studio windows. A [snapshot details report](#managed-types-reports) shows the types and instances in one snapshot. A [snapshot difference (diff) report](#change-diff-reports) compares the types and instances in two snapshots.
 
 ::: moniker range=">=vs-2022"
   ![Snapshot view links](../profiling/media/vs-2022/memory-usage-snapshot-view-numbered-vs-2022.png "Snapshot view links")
