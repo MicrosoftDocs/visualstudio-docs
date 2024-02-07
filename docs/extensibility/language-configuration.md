@@ -1,5 +1,5 @@
 ---
-title: Add optimized language-specific syntax support in a Visual Studio extension by using Language Configuration
+title: Add language-specific syntax support in a Visual Studio extension by using Language Configuration
 description: Explore the functionality and benefits of Language Configuration, which is a useful framework for providing language-specific syntax support for programming languages in the Visual Studio editor.
 ms.date: 2/1/2024
 ms.topic: how-to
@@ -8,9 +8,9 @@ ms.author: maiak
 manager: jmartens
 ms.subservice: extensibility-integration
 ---
-# Add optimized support for language syntax in the editor
+# Customizing editor behavior by using Language Configuration
 
-You can the performance of and support for language-specific syntax operations in the Visual Studio editor by using Language Configuration.
+You can implement customized language-specific syntax in the Visual Studio editor by using Language Configuration to enable language-specific syntax operations. As compared to using a Language Server, using Language Configuration can improve performance, since all of its operations are local.
 
 ## What is Language Configuration
 
@@ -38,21 +38,261 @@ Also, Language Configuration files provide an easy way to extend Visual Studio t
 
 There are three parts to adding Language Configuration support to a Visual Studio extension:
 
+1. [Create a VSIX project](#create-a-vsix-project)
 1. [Create a Language Configuration file](#create-a-language-configuration-file)
 1. [Add a grammar file](#add-a-grammar-file)
 1. [Update the pkgdef file](#update-the-pkgdef-file)
 
+## Create a VSIX project
+
+To create a language service extension using Language Configuration, first make sure you have the **Visual Studio extension development** Workload installed for your instance of VS.
+
+Next, create a new VSIX project by navigating to **File** > **New Project** > **Visual C#** > **Extensibility** > **VSIX Project**:
+
 ## Create a Language Configuration file
 
-To create a Language Configuration file, first refer to the guide at [Language Configuration Guide](https://code.visualstudio.com/api/language-extensions/language-configuration-guide).
-
-When making your own language configuration file, you can choose which aspect to onboard in the JSON file.
-
-For example, the following screenshot shows some of the capabilities:
-
-![Screenshot showing possible scenarios you can enable by using Language Configuration.](./media/vs-2022/language-configuration-examples.png)
+When making your own language configuration file, you can choose which aspects to onboard in the JSON file. For example, you can choose to support comment toggling, autoclosing of braces, or any combination of the available functionality described in this section.
 
 To add support to your extension, you first create a language configuration file. The name of the file must follow a standard: use hyphens to separate the words in the filename, and make sure it ends with `language-config.json`.
+
+The following code shows an example language configuration file.
+
+```json
+{
+    "comments": {
+      "lineComment": "***",
+      "blockComment": ["{*", "*}"]
+    },
+    "brackets": [
+      ["@", "@"],
+      ["#", "#"],
+      ["$", "$"],
+      ["(", ")"]
+    ],
+    "autoClosingPairs": [
+      { "open": "{", "close": "}" },
+      { "open": "@", "close": "@" },
+      { "open": "#", "close": "#" },
+      { "open": "$", "close": "$" },
+      { "open": "(", "close": ")" },
+      { "open": "'", "close": "'", "notIn": ["string", "comment"] },
+      { "open": "\"", "close": "\"", "notIn": ["string"] },
+    ],
+    "autoCloseBefore": ";:.,=}])>` \n\t",
+    "surroundingPairs": [
+      ["@", "@"],
+      ["#", "#"],
+      ["$", "$"],
+      ["[", "]"],
+      ["(", ")"],
+      ["'", "'"],
+      ["\"", "\""],
+      ["`", "`"]
+    ],
+    "folding": {
+      "markers": {
+        "start": "^\\s*//\\s*#?region\\b",
+        "end": "^\\s*//\\s*#?endregion\\b"
+      }
+    },
+    "wordPattern": "(-?\\d*\\.\\d\\w*)|([^\\`\\~\\!\\@\\#\\%\\^\\&\\*\\(\\)\\-\\=\\+\\[\\{\\]\\}\\\\\\|\\;\\:\\'\\\"\\,\\.\\<\\>\\/\\?\\s]+)",
+    "indentationRules": {
+      "increaseIndentPattern": "^((?!\\/\\/).)*(\\{[^}\"'`]*|\\([^)\"'`]*|\\[[^\\]\"'`]*)$",
+      "decreaseIndentPattern": "^((?!.*?\\/\\*).*\\*/)?\\s*[\\)\\}\\]].*$"
+    }
+  }
+```
+
+### Configuration settings
+
+The following sections describe the settings that are available in the language configuration file.
+
+#### Comment toggling
+
+Language configuration files offer two commands for comment toggling. **Toggle Line Comment** and **Toggle Block Comment**. You can specify `comments.blockComment` and `comments.lineComment` to control how Visual Studio should comment out lines / blocks.
+
+```json
+{
+  "comments": {
+    "lineComment": "//",
+    "blockComment": ["/*", "*/"]
+  }
+}
+```
+
+#### Brackets definition
+
+When you move the cursor to a bracket defined here, Visual Studio highlights that bracket together with its matching pair.
+
+```json
+{
+  "brackets": [["{", "}"], ["[", "]"], ["(", ")"]]
+}
+```
+
+#### Autoclosing
+
+When you type `'`, Visual Studio creates a pair of single quotes and puts the cursor in the middle: `'|'`. This section defines such pairs.
+
+
+```json
+{
+  "autoClosingPairs": [
+    { "open": "{", "close": "}" },
+    { "open": "[", "close": "]" },
+    { "open": "(", "close": ")" },
+    { "open": "'", "close": "'", "notIn": ["string", "comment"] },
+    { "open": "\"", "close": "\"", "notIn": ["string"] },
+    { "open": "`", "close": "`", "notIn": ["string", "comment"] },
+    { "open": "/**", "close": " */", "notIn": ["string"] }
+  ]
+}
+```
+
+The `notIn` key disables this feature in certain code ranges. For example, when you are writing the following code:
+
+```js
+// ES6's Template String
+`ES6's Template String`;
+```
+
+The single quote will not be autoclosed.
+
+Pairs that do not require a `notIn` property can also use a simpler syntax:
+
+```json
+{
+  "autoClosingPairs": [ ["{", "}"], ["[", "]"] ]
+}
+```
+
+##### Autoclosing before
+
+By default, Visual Studio only autocloses pairs if there is whitespace right after the cursor. So when you type `{` in the following JSX code, you would not get autoclose:
+
+```js
+const Component = () =>
+  <div className={>
+                  ^ Does not get autoclosed by default
+  </div>
+```
+
+However, this definition overrides that behavior:
+
+```json
+{
+  "autoCloseBefore": ";:.,=}])>` \n\t"
+}
+```
+
+Now when you enter `{` right before `>`, Visual Studio autocloses it with `}`.
+
+#### Autosurrounding
+
+When you select a range in Visual Studio and enter an opening bracket, Visual Studio surrounds the selected content with a pair of brackets. This feature is called Autosurrounding, and here you can define the autosurrounding pairs for a specific language:
+
+```json
+{
+  "surroundingPairs": [
+    ["{", "}"],
+    ["[", "]"],
+    ["(", ")"],
+    ["'", "'"],
+    ["\"", "\""],
+    ["`", "`"]
+  ]
+}
+```
+
+#### Folding
+
+In Visual Studio, folding is defined either indentation-based, or defined by contributed folding range providers:
+
+- Indentation-based folding with markers: If no folding range provider is available for the given language, indentation-based folding is used. A folding region starts when a line has a smaller indent than one or more following lines, and ends when there is a line with the same or smaller indent. Empty lines are ignored.
+Additionally, the language configuration can define start and end markers. These are defined as `start` and `end` regexes in `folding.markers`. When matching lines are found, a folding range inside the pair is created. Folding markers must be non-empty and typically look like `//#region` and `//#endregion`.
+
+The following JSON creates folding markers for `//#region` and `//#endregion`.
+
+```json
+{
+  "folding": {
+    "markers": {
+      "start": "^\\s*//\\s*#?region\\b",
+      "end": "^\\s*//\\s*#?endregion\\b"
+    }
+  }
+}
+```
+
+- Language server folding: The Language Server responds to the [`textDocument/foldingRange`](https://microsoft.github.io/language-server-protocol/specification#textDocument_foldingRange) request with a list of folding ranges, and Visual Studio would render the ranges as folding markers.
+
+#### Word Pattern
+
+`wordPattern` defines what's considered as a word in the programming language. Code suggestion features will use this setting to determine word boundaries if `wordPattern` is set. 
+
+```json
+{
+  "wordPattern": "(-?\\d*\\.\\d\\w*)|([^\\`\\~\\!\\@\\#\\%\\^\\&\\*\\(\\)\\-\\=\\+\\[\\{\\]\\}\\\\\\|\\;\\:\\'\\\"\\,\\.\\<\\>\\/\\?\\s]+)"
+}
+```
+
+#### Indentation Rules
+
+`indentationRules` defines how the editor should adjust the indentation of current line or next line when you type, paste, and move lines.
+
+```json
+{
+  "indentationRules": {
+    "increaseIndentPattern": "^((?!\\/\\/).)*(\\{[^}\"'`]*|\\([^)\"'`]*|\\[[^\\]\"'`]*)$",
+    "decreaseIndentPattern": "^((?!.*?\\/\\*).*\\*/)?\\s*[\\)\\}\\]].*$"
+  }
+}
+```
+
+For example, `if (true) {` matches `increaseIndentPattern`, then if you press **Enter** after the open bracket `{`, the editor will automatically indent once, and your code will end up as:
+
+```javascript
+if (true) {
+  console.log();
+```
+
+In addition to `increaseIndentPattern` and `decreaseIndentPatter`, there are two other indentation rules:
+
+- `indentNextLinePattern` - If a line matches this pattern, then **only the next line** after it should be indented once.
+- `unIndentedLinePattern` - If a line matches this pattern, then its indentation should not be changed and it should not be evaluated against the other rules.
+
+If there is no indentation rule set for the programming language, the editor will indent when the line ends with an open bracket and outdent when you type a closing bracket. The bracket here is defined by `brackets`.
+
+#### On Enter Rules
+
+`onEnterRules` defines a list of rules that will be evaluated when **Enter** is pressed in the editor.
+
+```json
+{
+  "onEnterRules": [{
+    "beforeText": "^\\s*(?:def|class|for|if|elif|else|while|try|with|finally|except|async).*?:\\s*$",
+    "action": { "indent": "indent" }
+  }]
+}
+```
+
+When pressing Enter, the text before, after, or one line above the cursor is checked against the following properties:
+
+- `beforeText` (mandatory). A regular expression that matches the text before the cursor (limited to the current line).
+- `afterText`. A regular expression that matches the text after the cursor (limited to the current line).
+- `previousLineText`. A regular expression that matches the text one line above the cursor.
+
+If all the specified properties match, the rule is considered to match and no further `onEnterRules` will be evaluated. An `onEnterRule` can specify the following actions:
+
+- `indent` (mandatory). One of `none, indent, outdent, indentOutdent`.
+  - `none` means that the new line will inherit the indentation of the current line.
+  - `indent` means that the new line will be indented relative to the current line.
+  - `outdent` means that the new line will be unindented relative to the current line.
+  - `indentOutdent` means that two new lines will be inserted, one indented and the second one outdented.
+- `appendText`. A string that will be appended after the new line and after the indentation.
+- `removeText`. The number of characters to remove from the new line's indentation.
+
+### Property settings
 
 In the extension project, make sure that your `language-config.json` file has the following property settings:
 
@@ -62,13 +302,22 @@ Include in VSIX = True
 Copy to output = Copy always 
 ```
 
-## Add a grammar file
+## (optional) Add a grammar file
 
-In addition, a grammar file is necessary for this process for the language. See [Language Grammars](https://macromates.com/manual/en/language_grammars).
+In addition, you can add a TextMate grammar file to provide syntax coloring for the language. See [Language Grammars](https://macromates.com/manual/en/language_grammars). If you don't provide a language-specific grammar file, it will fall back to a built-in default setting.
 
-## Update the pkgdef file
+To add custom TextMate grammar or theme files, follow these steps:
 
-Next, update the extension's `.pkgdef` file. A `.pkgdef` file contains all the registration information that would otherwise be added to the system registry. More information about `pkgdef`, see [What is a pkgdef file? And why?](https://devblogs.microsoft.com/visualstudio/whats-a-pkgdef-and-why). In your `pkgdef` file, you should have the path to the `language-config.json` file and the path for the language grammar. Language services such as LSP will ask for the editor content type and get that through Language Configuration. This information will provide the language-specific intelligence inside a server that can communicate with development tooling. When a language service doesn't exist, the Language Configuration engine falls back to the TextMate grammar. TextMate grammars are a structured collection of regular expressions and are written as a plist (XML) or JSON files. Your `.pkgdef` file should look like this:  
+1. Create a folder named "Grammars" inside your extension (or it can be whatever name you choose).
+
+2. Inside the *Grammars* folder, include any *\*.tmlanguage*, *\*.plist*, *\*.tmtheme*, or *\*.json* files you’d like that provide custom colorization.
+
+   > [!TIP]
+   > A *.tmtheme* file defines how the scopes map to Visual Studio classifications (named color keys). For guidance, you can reference the global *.tmtheme* file in the *%ProgramFiles(x86)%\Microsoft Visual Studio\\\<version>\\\<SKU>\Common7\IDE\CommonExtensions\Microsoft\TextMate\Starterkit\Themesg* directory.
+
+## Create the pkgdef file
+
+Next, create a `.pkgdef` file. A `.pkgdef` file contains all the registration information that would otherwise be added to the system registry. More information about `pkgdef`, see [What is a pkgdef file? And why?](https://devblogs.microsoft.com/visualstudio/whats-a-pkgdef-and-why). In your `pkgdef` file, you should have the path to the `language-config.json` file and the path for the language grammar. Language services such as LSP will ask for the editor content type and get that through Language Configuration. This information will provide the language-specific intelligence inside a server that can communicate with development tooling. When a language service doesn't exist, the Language Configuration engine falls back to the TextMate grammar. TextMate grammars are a structured collection of regular expressions and are written as a plist (XML) or JSON files. Your `.pkgdef` file should look like this:  
 
 ```pkgdef
 [$RootKey$\TextMate\Repositories]
