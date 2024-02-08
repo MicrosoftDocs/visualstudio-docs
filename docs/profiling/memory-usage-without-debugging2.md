@@ -159,13 +159,13 @@ Many types in apps aren't required to app developers. The snapshot report filter
 
    ::: moniker range=">=vs-2022"
 
-   ![Screenshot of Choose a change link in a cell.](../media/vs-2022/memory-usage-snapshot-view-diff-link.png)
+   ![Screenshot of Choose a change link in a cell.](../profiling/media/vs-2022/memory-usage-snapshot-view-diff-link.png)
 
    ::: moniker-end
 
    ::: moniker range="vs-2019"
 
-   ![Screenshot of Choose a change link in a cell.](../media/vs-2019/dbgdiag-mem-choose-diff-report.png)
+   ![Screenshot of Choose a change link in a cell.](../profiling/media/vs-2019/dbgdiag-mem-choose-diff-report.png)
 
    ::: moniker-end
 
@@ -173,13 +173,13 @@ Many types in apps aren't required to app developers. The snapshot report filter
 
    ::: moniker range=">=vs-2022"
 
-   ![Screenshot of Choose a snapshot from the Compare with list.](../media/vs-2022/dbgdiag-mem-choose-compare-to.png)
+   ![Screenshot of Choose a snapshot from the Compare with list.](../profiling/media/vs-2022/dbgdiag-mem-choose-compare-to.png)
 
    ::: moniker-end
 
    ::: moniker range="<=vs-2019"
 
-   ![Screenshot of Choose a snapshot from the Compare To list.](../media/vs-2019/dbgdiag-mem-choose-compare-to.png)
+   ![Screenshot of Choose a snapshot from the Compare To list.](../profiling/media/vs-2019/dbgdiag-mem-choose-compare-to.png)
 
    ::: moniker-end
 
