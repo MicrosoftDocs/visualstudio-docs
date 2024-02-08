@@ -134,7 +134,7 @@ The rows of the Memory Usage summary table list the snapshots that you have take
 
  The name of the column depends on the debugging mode you choose in the project properties: .NET, native, or mixed (both .NET and native).
 
-- The **Objects (Diff)** and **Allocations (Diff)** columns display the number of objects in .NET and native memory when the snapshot was taken.
+- The **Objects (Diff)** (.NET) or **Allocations (Diff)** (C++) column display the number of objects in .NET or native memory when the snapshot was taken.
 
 - The **Heap Size (Diff)** column displays the number of bytes in the .NET and native heaps
 
@@ -166,6 +166,34 @@ To analyze memory usage, click one of the links that opens up a detailed report 
 ::: moniker-end
 
 ### Change (Diff) reports
+
+- Choose the change link in a cell of the summary table of the **Memory Usage** tab on the **Diagnostic Tools** window.
+
+   ::: moniker range="<=vs-2019"
+
+   ![Screenshot of Choose a change link in a cell.](../media/vs-2019/dbgdiag-mem-choose-diff-report.png)
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2022"
+
+   ![Screenshot of Choose a change link in a cell.](../media/vs-2022/dbgdiag-mem-choose-diff-report.png)
+
+   ::: moniker-end
+
+- Choose a snapshot in the **Compare To** list of a managed or native report.
+
+   ::: moniker range="<=vs-2019"
+
+   ![Screenshot of Choose a snapshot from the Compare To list.](../media/vs-2019/dbgdiag-mem-choose-compare-to.png)
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2022"
+
+   ![Screenshot of Choose a snapshot from the Compare with list.](../media/vs-2022/dbgdiag-mem-choose-compare-to.png)
+
+   ::: moniker-end
 
 [!INCLUDE [change-diff-report](../profiling/includes/change-diff-report.md)]
 

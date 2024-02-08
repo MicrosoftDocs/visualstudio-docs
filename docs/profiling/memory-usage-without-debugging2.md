@@ -100,6 +100,8 @@ The numbers are links that open detailed **Memory Usage** report views in new Vi
 ::: moniker range=">=vs-2022"
   ![Snapshot view links](../profiling/media/vs-2022/memory-usage-snapshot-view-numbered-vs-2022.png "Snapshot view links")
 
+For C++, the **Objects (Diff)** column is named **Allocations (Diff)**.
+
 |Image|Description|
 |-|-|
 |![Step 1](../profiling/media/process-guide-1.png "Process Guide-1")|The total number of objects in memory when the snapshot was taken. Select this link to display a snapshot details report sorted by the count of instances of the types.|
@@ -152,6 +154,34 @@ Many types in apps aren't required to app developers. The snapshot report filter
 ::: moniker-end
 
 ## Change (Diff) reports
+
+- Choose the change link in a cell of the **Snapshot** pane in the Memory Usage overview page.
+
+   ::: moniker range=">=vs-2022"
+
+   ![Screenshot of Choose a change link in a cell.](../media/vs-2022/memory-usage-snapshot-view-diff-link.png)
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2019"
+
+   ![Screenshot of Choose a change link in a cell.](../media/vs-2019/dbgdiag-mem-choose-diff-report.png)
+
+   ::: moniker-end
+
+- Choose a snapshot in the **Compare To** list of a managed or native report.
+
+   ::: moniker range=">=vs-2022"
+
+   ![Screenshot of Choose a snapshot from the Compare with list.](../media/vs-2022/dbgdiag-mem-choose-compare-to.png)
+
+   ::: moniker-end
+
+   ::: moniker range="<=vs-2019"
+
+   ![Screenshot of Choose a snapshot from the Compare To list.](../media/vs-2019/dbgdiag-mem-choose-compare-to.png)
+
+   ::: moniker-end
 
 [!INCLUDE [change-diff-report](../profiling/includes/change-diff-report.md)]
 
