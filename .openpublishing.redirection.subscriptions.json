@@ -17,7 +17,7 @@
         },
         {
             "source_path": "subscriptions/whats-new-in-subscription.md",
-            "redirect_url": "/visualstudio/subscriptions/index",
+            "redirect_url": "/visualstudio/subscriptions",
             "redirect_document_id": false
         }
     ]
