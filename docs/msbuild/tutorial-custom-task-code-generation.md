@@ -333,9 +333,12 @@ To generate a NuGet package, add the following code to set the properties for th
 	<Description>Generates a strongly typed setting class base on a text file.</Description>
 	<PackageTags>MyTags</PackageTags>
 	<Copyright>Copyright ©Contoso 2022</Copyright>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
 	...
 </PropertyGroup>
 ```
+
+The property [CopyLocalLockFileAssemblies](/dotnet/core/project-sdk/msbuild-props#copylocallockfileassemblies) is needed to make sure that dependencies are copied to the output directory.
 
 #### Mark dependencies as private
 
