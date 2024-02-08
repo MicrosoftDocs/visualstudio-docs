@@ -46,6 +46,16 @@ Note the difference between full MSBuild (the one that Visual Studio uses) and p
 
 if you want to share code between .NET Framework and any other .NET implementation, such as .NET Core, your library should target [.NET Standard 2.0](/dotnet/standard/net-standard), and you want to run inside Visual Studio, which runs on the .NET Framework. .NET Framework doesn't support .NET Standard 2.1.
 
+## Choose the MSBuild API version to reference
+
+When compiling a custom task, you should reference the version of the MSBuild API (`Microsoft.Build.*`) that matches your target runtime.
+
+MSBuild is highly compatible with tasks developed for older MSBuild versions (though Microsoft reserves the right to make documented breaking changes, that is very rare). Because of that, it's best to have compile-time guards to ensure that you aren't accidentally referencing APIs added in newer MSBuild releases.
+
+If you reference a newer MSBuild than your target runtime environment, you can encounter `MissingMethodException` at runtime when calling APIs that were added between the runtime MSBuild and the one you reference. This is not a compile-time problem, because the compiler sees the (new) assembly, which has those methods.
+
+If you take code that will run in the older environment and compile it against a newer MSBuild, the resulting binaries will generally work, except in the case where MSBuild adds a new method that changes overload resolution. However, as you make changes it's easy to accidentally reference a new API and then break at runtime in older environments.
+
 ## Create the AppSettingStronglyTyped MSBuild custom task
 
 The first step is to create the MSBuild custom task. Information about how to [write an MSBuild custom task](task-writing.md) might help you understand the following steps. An MSBuild custom task is a class that implements the <xref:Microsoft.Build.Framework.ITask> interface.
