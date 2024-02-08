@@ -325,16 +325,16 @@ To generate a NuGet package, add the following code to set the properties for th
 
 ```xml
 <PropertyGroup>
-	... 
-	<IsPackable>true</IsPackable>
-	<Version>1.0.0</Version>
-	<Title>AppSettingStronglyTyped</Title>
-	<Authors>Your author name</Authors>
-	<Description>Generates a strongly typed setting class base on a text file.</Description>
-	<PackageTags>MyTags</PackageTags>
-	<Copyright>Copyright ©Contoso 2022</Copyright>
+    ... 
+    <IsPackable>true</IsPackable>
+    <Version>1.0.0</Version>
+    <Title>AppSettingStronglyTyped</Title>
+    <Authors>Your author name</Authors>
+    <Description>Generates a strongly typed setting class base on a text file.</Description>
+    <PackageTags>MyTags</PackageTags>
+    <Copyright>Copyright ©Contoso 2022</Copyright>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
-	...
+    ...
 </PropertyGroup>
 ```
 
