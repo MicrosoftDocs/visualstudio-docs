@@ -17,7 +17,7 @@ title: Managed Types report
  [![Screenshot of managed type report.](../media/vs-2022/dbgdiag-mem-managed-types-report-paths-to-root.png "Managed type report")](../media/vs-2022/dbgdiag-mem-managed-types-report-paths-to-root.png#lightbox)
 
  > [!NOTE]
- > For .NET code, the **View Instances** icon (![The instance icon in the Object Type column](../media/dbg-mma-instances-icon.png "DBG_MMA_InstancesIcon")) is only available while using the [debugger-integrated Memory Usage tool](../profiling/memory-usage.md).
+ > For .NET code, the **View Instances** icon (![The instance icon in the Object Type column](../media/dbg-mma-instances-icon.png "DBG_MMA_InstancesIcon")) is only available while using the [debugger-integrated Memory Usage tool](../profiling/memory-usage.md) or when you open a [heap snapshot](../debugger/using-dump-files?view=vs-2022) and choose **Debug Managed Memory**.
 
  ::: moniker-end
 
@@ -33,7 +33,7 @@ title: Managed Types report
 
  ::: moniker range=">=vs-2022"
 
- The **Referenced Objects** tree displays the references that are held by the type selected in the upper pane.
+ The **Referenced Types** tree displays the references that are held by the type selected in the upper pane.
 
  ![Screenshot of Referenced Objects report.](../media/vs-2022/dbgdiag-mem-managed-types-report-referenced-types.png)
 
