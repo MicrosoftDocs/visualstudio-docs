@@ -62,7 +62,7 @@ If **Memory Usage** does not give you the data that you need, other profiling to
      When the app finishes loading, the Summary view of the Diagnostics Tools appears.
 
      ::: moniker range="<=vs-2019"
-     
+
      ![Screenshot of Diagnostics Tools Summary Tab.](../profiling/media/vs-2019/diag-tools-summary-tab-2.png)
 
      > [!NOTE]
@@ -154,6 +154,22 @@ To analyze memory usage, click one of the links that opens up a detailed report 
 ### Managed types reports
 
 [!INCLUDE [managed-types-report](../profiling/includes/managed-types-report.md)]
+
+To display the instances of a selected type in the upper pane, click the **View Instances** icon next to the object type.
+
+::: moniker range=">=vs-2022"
+
+[![Screenshot of the Instances view in the Memory Usage tool.](../media/vs-2022/dbgdiag-mem-managed-types-report-instances.png "Instances view in the Memory Usage tool")](../media/vs-2022/dbgdiag-mem-managed-types-report-instances.png#lightbox)
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+![Screenshot of the Instances view in the Memory Usage tool.](../media/vs-2019/dbgdiag-mem-managed-types-report-instances.png)
+
+::: moniker-end
+
+The **Instances** view displays the instances of the selected object in the snapshot in the upper pane. The **Paths to Root** and **Referenced Objects** pane displays the objects that reference the selected instance and the types that the selected instance references. When the debugger is stopped at the point where the snapshot was taken, you can hover over the **Value** cell to display the values of the object in a tool tip.
 
 ### Native types reports
 
