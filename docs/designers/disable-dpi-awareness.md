@@ -27,7 +27,7 @@ When an application declares itself to be DPI-aware, it's a statement specifying
 >```xml
 ><PropertyGroup>
 >   ...
->   <ForceDesignerDPIUnaware>false</ForceDesignerDPIUnaware>
+>   <ForceDesignerDPIUnaware>true</ForceDesignerDPIUnaware>
 ></PropertyGroup>
 
 :::moniker-end
