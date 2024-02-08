@@ -14,7 +14,10 @@ title: Managed Types report
 
  ::: moniker range=">=vs-2022"
 
-[ ![Screenshot of managed type report.](../media/vs-2022/dbgdiag-mem-managed-types-report-paths-to-root.png "Managed type report")](../media/vs-2022/dbgdiag-mem-managed-types-report-paths-to-root.png#lightbox) 
+ [![Screenshot of managed type report.](../media/vs-2022/dbgdiag-mem-managed-types-report-paths-to-root.png "Managed type report")](../media/vs-2022/dbgdiag-mem-managed-types-report-paths-to-root.png#lightbox)
+
+ > [!NOTE]
+ > For .NET code, the **View Instances** icon (![The instance icon in the Object Type column](../media/dbg-mma-instances-icon.png "DBG_MMA_InstancesIcon")) is only available while using the [debugger-integrated Memory Usage tool](../profiling/memory-usage.md).
 
  ::: moniker-end
 
