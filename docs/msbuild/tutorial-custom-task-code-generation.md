@@ -48,7 +48,7 @@ if you want to share code between .NET Framework and any other .NET implementati
 
 ## Choose the MSBuild API version to reference
 
-When compiling a custom task, you should reference the version of the MSBuild API (`Microsoft.Build.*`) that matches your target runtime.
+When compiling a custom task, you should reference the version of the MSBuild API (`Microsoft.Build.*`) that matches the minimum version of Visual Studio and/or the .NET SDK that you expect to support.
 
 MSBuild is highly compatible with tasks developed for older MSBuild versions (though Microsoft reserves the right to make documented breaking changes, that is very rare). Because of that, it's best to have compile-time guards to ensure that you aren't accidentally referencing APIs added in newer MSBuild releases.
 
