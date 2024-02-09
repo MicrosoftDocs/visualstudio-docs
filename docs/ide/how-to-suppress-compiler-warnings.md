@@ -164,9 +164,9 @@ If you're building a project from the command line, you can also suppress warnin
 
 See [MSBuild command line reference](../msbuild/msbuild-command-line-reference.md).
 
-## Suppress warnings for all projects and solutions in a directory subtree
+## Suppress warnings for all projects and solutions in a directory structure
 
-You can suppress warnings for many projects at once if they are all under a common directory in the filesystem by using the MSBuild file *Directory.Build.props*. See [Customize builds by directory](../msbuild/customize-by-directory.md). For example, if you place the following *Directory.Build.props* file at the root of a folder with many solutions and projects, you can suppress a specified list of warnings for all the projects in that subfolder and recursively to folders within it.
+You can suppress warnings for many projects at once if they are all under a common directory in the filesystem by using the MSBuild file *Directory.Build.props*. See [Customize builds by directory](../msbuild/customize-by-directory.md). For example, if you place the following *Directory.Build.props* file at the root of a folder with many solutions and projects, you can suppress a specified list of warnings for all the projects in that folder and recursively to folders within it.
 
 ```xml
 <Project>
