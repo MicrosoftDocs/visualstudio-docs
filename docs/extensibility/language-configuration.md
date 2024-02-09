@@ -115,6 +115,8 @@ Language configuration files offer two commands for comment toggling. **Toggle L
 }
 ```
 
+This setting affects the behavior of the Visual Studio text editor when you press **Ctrl**+**K**, **Ctrl**+**C**.
+
 #### Brackets definition
 
 When you move the cursor to a bracket defined here, Visual Studio highlights that bracket together with its matching pair.
@@ -124,6 +126,8 @@ When you move the cursor to a bracket defined here, Visual Studio highlights tha
   "brackets": [["{", "}"], ["[", "]"], ["(", ")"]]
 }
 ```
+
+The relevant setting in the Visual Studio **Tools > Options** dialog, in **Text Editor, General, Display**, is the checkbox **Enable brace pair colorization**.
 
 #### Autoclosing
 
@@ -199,6 +203,8 @@ When you select a range in Visual Studio and enter an opening bracket, Visual St
 }
 ```
 
+The relevant setting in Visual Studio **Tools > Options** is in **Text Editor, General, Display** the checkbox **Automatically surround selections when typing quotes or brackets**.
+
 #### Word pattern
 
 `wordPattern` defines what's considered as a word in the programming language. Code suggestion features use this setting to determine word boundaries if `wordPattern` is set. 
@@ -211,7 +217,7 @@ When you select a range in Visual Studio and enter an opening bracket, Visual St
 
 #### Indentation rules
 
-`indentationRules` defines how the editor should adjust the indentation of current line or next line when you type, paste, and move lines.
+`indentationRules` defines how the editor should adjust the indentation of current line or next line when you type, paste, and move lines, or when you format text with **Ctrl**+**K**, **Ctrl**+**D** (Format Document) and **Ctrl**+**K**, **Ctrl**+**F** (Format Selection).
 
 ```json
 {
