@@ -1,7 +1,7 @@
 ---
 title: About the GitHub Copilot Chat extension for Visual Studio
 description: Learn about the fully integrated AI-powered GitHub Copilot Chat extension in Visual Studio, and how you can use the chat interface to ask and receive answers to coding-related questions from right within the IDE.
-ms.date: 1/10/2024
+ms.date: 1/17/2024
 ms.topic: overview 
 author: anandmeg
 ms.author: meghaanand
@@ -25,13 +25,13 @@ Copilot Chat provides AI assistance to help you make informed decisions and writ
 - **Code help**: get answers to programming-related questions in natural language or code snippet format
 - **Code refinement**: get context-specific code suggestions & recommendations
 - **Unit testing**: generate unit tests
-- **[Profiling](../debugger/debug-with-copilot.md#ai-assisted-auto-insights)**: optimize code performance
-- **[Debugging](../debugger/debug-with-copilot.md#ai-assisted-debugging)**: find issues and get proposed fixes to bugs and [exceptions](../debugger/debug-with-copilot.md#ai-assisted-exceptions).
+- **[Profiling](../debugger/debug-with-copilot.md#get-ai-assistance-for-auto-insights)**: optimize code performance
+- **[Debugging](../debugger/debug-with-copilot.md)**: find issues and get proposed fixes to bugs and [exceptions](../debugger/debug-with-copilot.md#get-ai-assistance-for-an-exception).
 
 ## Prerequisites
 
 To get started, you need:
-+ Visual Studio 2022 [version 17.6](/visualstudio/releases/2022/release-history) or later
++ Visual Studio 2022 [version 17.8](/visualstudio/releases/2022/release-history) or later
 + Active [subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) to [GitHub Copilot for Individuals](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-individuals) or [GitHub Copilot for Business](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-business)
 + [**GitHub Copilot** extension](visual-studio-github-copilot-extension.md#installation-instructions) in Visual Studio
 

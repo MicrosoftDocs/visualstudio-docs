@@ -1,7 +1,7 @@
 ---
 title: "Search within Specific Files with 'Find in Files'"
 description: Explore the Find in Files feature in Visual Studio and discover how to use the feature to search a specific set of files.
-ms.date: 11/29/2021
+ms.date: 1/12/2024
 ms.topic: conceptual
 f1_keywords:
 - vs.findinfiles
@@ -86,8 +86,8 @@ You can also use the adjacent **Browse (...)** button to locate where you want t
 
 To refine your search, you can select or clear the following option(s):
 
-- **Include external items** - Use this option to include external items, such as files like "windows.h" that you might reference but aren't part of a solution.
-- **Include miscellaneous files** - Use this option to include miscellaneous files, such as files that you've opened but aren't part of a solution.
+- **Include external items** - Use this option to include referenced files from outside a C++ project, that is, files like "windows.h" that are included by your code files, but aren't part of a solution. This option only applies to C++ projects.
+- **Include miscellaneous files** - Use this option to include miscellaneous files, which are files that you've opened but aren't part of a solution. See [Miscellaneous files](./reference/miscellaneous-files.md).
 
 ## File types
 
@@ -95,7 +95,7 @@ The **File types** option indicates the types of files to search through in the 
 
 :::image type="content" source="media/vs-2022/find-file-types.png" alt-text="Screenshot of the File Types section of the Find In Files dialog box.":::
 
-You can search for multiple file types by separating them with a semicolon (`;`). You can also can exclude folders and files by prefixing any path or file type with an exclamation mark (`!`).
+You can search for multiple file types by separating them with a semicolon (`;`). You can also exclude folders and files by prefixing any path or file type with an exclamation mark (`!`).
 
 ### Append results
 

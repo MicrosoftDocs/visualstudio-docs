@@ -14,7 +14,7 @@ ms.subservice: extensibility-integration
 
 The new Visual Studio Extensibility SDK is built on top of brokered services infrastructure that was introduced in Visual Studio 2019. It primarily consists of:
 
-* A `VisualStudioExtensibility` object that acts as the entry point for the extensibility API. This object has extension methods on it such as `Views()` or `Languages()` that exposes extensibility points of the IDE.
+* A [VisualStudioExtensibility](/dotnet/api/microsoft.visualstudio.extensibility.visualstudioextensibility) object that acts as the entry point for the extensibility API. This object has extension methods on it such as `Views()` or `Languages()` that exposes extensibility points of the IDE.
 
 * Wrappers and extension methods around brokered services exposed by [IServiceBroker](/dotnet/api/microsoft.servicehub.framework.iservicebroker) infrastructure with the goal of making services easy to use. In some cases, extension methods should return the contract interface directly.
 

@@ -11,10 +11,7 @@ ms.subservice: python
 
 # Profile Python code
 
-
-
 You can profile a Python application when using CPython-based interpreters. This feature is currently supported with Python 3.9 and earlier.
-
 
 ## Profiling for CPython-based interpreters
 

@@ -135,7 +135,7 @@ In Visual Studio, you can manage your source code in Git repos hosted by any pro
 
 ::: moniker range=">=vs-2022"
 
-For full details, see the [Git experience in Visual Studio](../version-control/git-with-visual-studio.md) page and the [Visual Studio version control documentation](../version-control/index.yml) navigation page. And, for a step-by-step tutorial on how to connect to a Git or Azure DevOps repository by using Visual Studio, see the [Open a project from a repo](../get-started/tutorial-open-project-from-repo.md?view=vs-2022&preserve-view=true) page.
+For full details, see the [Git experience in Visual Studio](../version-control/git-with-visual-studio.md) page. And, for a step-by-step tutorial on how to connect to a Git or Azure DevOps repository by using Visual Studio, see the [Open a project from a repo](../get-started/tutorial-open-project-from-repo.md?view=vs-2022&preserve-view=true) page.
 
 > [!TIP]
 > We continue to build out the Git feature set and iterate on it based on your feedback. For more info about a recent feature update along with a link to survey where you can share your feedback on it, see the [Multi-repo support in Visual Studio](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) blog post.
@@ -144,7 +144,7 @@ For full details, see the [Git experience in Visual Studio](../version-control/g
 
 ::: moniker range="vs-2019"
 
-How you open a project from a GitHub repo by using Visual Studio 2019 depends on which version you have. Specifically, if you've installed version [**version 16.8**](/visualstudio/releases/2019/release-notes/) or later, there's a new, more fully integrated [Git experience in Visual Studio](../version-control/git-with-visual-studio.md) available to you. For more information, see the [Visual Studio version control documentation](../version-control/index.yml) page.
+How you open a project from a GitHub repo by using Visual Studio 2019 depends on which version you have. Specifically, if you've installed version [**version 16.8**](/visualstudio/releases/2019/release-notes/) or later, there's a new, more fully integrated [Git experience in Visual Studio](../version-control/git-with-visual-studio.md) available to you.
 
 And, for a step-by-step tutorial on how to connect to a Git or Azure DevOps repository by using Visual Studio, see the [Open a project from a repo](../get-started/tutorial-open-project-from-repo.md?view=vs-2019&preserve-view=true) page.
 
@@ -162,18 +162,20 @@ You can also improve the Git performance on large repositories by [enabling Git 
 
 ::: moniker-end
 
-## Next steps
+## Extend Visual Studio
 
-- If Visual Studio doesn't have the exact functionality you need, you can add it. Personalize the IDE based on your workflow and style, add support for external tools that aren't integrated with Visual Studio, and modify existing functionality to increase your productivity. For the latest version of the Visual Studio Extensibility Tools (VS SDK), see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
+If Visual Studio doesn't have the exact functionality you need, you can add it. Personalize the IDE based on your workflow and style, add support for external tools that aren't integrated with Visual Studio, and modify existing functionality to increase your productivity. For the latest version of the Visual Studio Extensibility Tools (VS SDK), see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
 
-- You can use the .NET Compiler Platform *Roslyn* to write your own code analyzers and code generators. Find everything you need at [Roslyn](https://github.com/dotnet/Roslyn).
+You can use the .NET Compiler Platform *Roslyn* to write your own code analyzers and code generators. Find everything you need at [Roslyn](https://github.com/dotnet/Roslyn).
 
-- Find [existing extensions](https://marketplace.visualstudio.com/vs) for Visual Studio created by Microsoft developers and the Visual Studio development community.
+Find [existing extensions](https://marketplace.visualstudio.com/vs) for Visual Studio created by Microsoft developers and the Visual Studio development community.
 
-- To learn more about extending Visual Studio, see [Extend Visual Studio IDE](https://visualstudio.microsoft.com/vs/extend/).
+To learn more about extending Visual Studio, see [Extend Visual Studio IDE](https://visualstudio.microsoft.com/vs/extend/).
 
-## See also
+## Related content
 
+- [Visual Studio SDK](../extensibility/visual-studio-sdk.md)
+- [Roslyn](https://github.com/dotnet/Roslyn)
 - [Visual Studio IDE overview](../get-started/visual-studio-ide.md)
 - [What's new in Visual Studio 2017](../ide/whats-new-visual-studio-2017.md)
 - [What's new in Visual Studio 2019](../ide/whats-new-visual-studio-2019.md)

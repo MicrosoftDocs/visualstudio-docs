@@ -25,7 +25,7 @@ Code snippets are small blocks of reusable code that you can add to a code file.
 
 ## Find available snippets
 
-Before you (create a snippet of your own)[walkthrough-creating-a-code-snippet.md], you can check the available snippets for a language, select **Tools** > **Code Snippets Manager** from the menu bar (or, press **Ctrl**+**K**, **Ctrl**+**B**) and then select the language you want from the drop-down menu at the top of the dialog box.
+Before you [create a snippet of your own](walkthrough-creating-a-code-snippet.md), you can check the available snippets for a language, select **Tools** > **Code Snippets Manager** from the menu bar (or, press **Ctrl**+**K**, **Ctrl**+**B**) and then select the language you want from the drop-down menu at the top of the dialog box.
 
 ![Screenshot of the Code Snippets Manager dialog box.](media/code-snippets-manager.png)
 
@@ -152,7 +152,7 @@ For more information, see [Securing applications](../ide/securing-applications.m
 
 ### Downloaded code snippets
 
-IntelliSense code snippets installed by Visual Studio are not in themselves a security hazard. However, they can create security risks in your application. Snippets downloaded from the Internet should be treated like any other downloaded content - with extreme caution.
+Code snippets installed by Visual Studio are not in themselves a security hazard. However, they can create security risks in your application. Snippets downloaded from the Internet should be treated like any other downloaded content - with extreme caution.
 
 - Download snippets only from sites you trust, and use up-to-date virus software.
 

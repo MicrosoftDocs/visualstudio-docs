@@ -128,7 +128,7 @@ Workloads contain the components you need for the programming language or platfo
 
 1. After the modified workloads or components are installed, choose **Launch** from the Visual Studio Installer to open Visual Studio 2022.
 
-You can also use a [configuration file to modify an existing installation to add or remove components](import-export-installation-configurations.md#use-a-configuration-file-to-add-components-to-an-existing-installation). Learn more about using [installation configuration files to configure Visual Studio](import-export-installation-configurations.md).
+You can also use a [configuration file to modify an existing installation to add or remove components](import-export-installation-configurations.md#programmatically-use-a-configuration-file-to-add-components-to-an-existing-installation). Learn more about using [installation configuration files to configure Visual Studio](import-export-installation-configurations.md).
 
 ::: moniker-end
 

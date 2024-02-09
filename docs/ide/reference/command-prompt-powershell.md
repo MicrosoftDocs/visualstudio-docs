@@ -19,7 +19,7 @@ ms.subservice: general-ide
 
 Visual Studio includes two command-line shells for developers, a command prompt and an instance of PowerShell, as follows:
 
-- **Visual Studio Developer Command Prompt** - A standard command prompt with certain environment variables set to make using command-line developer tools easier. Available since Visual Studio 2015.
+- **Visual Studio Developer Command Prompt** - A standard command prompt with certain environment variables set to make using command-line developer tools easier.
 
     ::: moniker range="vs-2019"
     :::image type="content" source="media/developer-command-prompt-for-vs/command-prompt.png" alt-text="Screenshot of the Developer Command Prompt for Visual Studio 2019 showing clrver tool.":::

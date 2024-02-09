@@ -1,7 +1,7 @@
 ---
 title: Start developing Visual Studio extensions
 description: Get answers to common questions about writing Visual Studio extensions, including prerequisites, extending features, and project templates.
-ms.date: 08/26/2022
+ms.date: 02/02/2024
 ms.topic: conceptual
 helpviewer_keywords:
 - getting started, Visual Studio integration
@@ -13,7 +13,7 @@ ms.subservice: extensibility-integration
 ---
 # Start developing extensions in Visual Studio
 
-If you've never written a Visual Studio extension before, you probably have some questions. We've listed some of the most common ones here. If you don't see the information you're looking for, use the feedback buttons (**Is this page helpful?** in the upper right of the screen) to ask for what you want.
+If you've never written a Visual Studio extension before, you probably have some questions. We've listed some of the most common ones here. If you don't see the information you're looking for, use the feedback button at the upper right of this page to ask for what you want.
 
 > [!NOTE]
 > This article applies to Visual Studio on Windows. For Visual Studio for Mac, see [Extending Visual Studio for Mac](/previous-versions/visualstudio/mac/extending-visual-studio-mac-walkthrough). For Visual Studio Code, see [Visual Studio Code Extension API](https://code.visualstudio.com/api).

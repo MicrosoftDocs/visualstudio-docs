@@ -1,7 +1,7 @@
 ---
 title: "Message Options dialog box in Spy++"
 description: Specify in Message Options which messages are listed in Messages View, and what message data to display.
-ms.date: "11/04/2016"
+ms.date: 02/05/2024
 ms.topic: "ui-reference"
 helpviewer_keywords:
   - "message options, Spy++"
@@ -11,13 +11,14 @@ ms.author: "mikejo"
 manager: jmartens
 ms.subservice: debug-diagnostics
 ---
+
 # Message Options dialog box
 
-Use this dialog box to select which messages are listed in [Messages View](messages-view.md). To display this dialog box, choose **Log Messages** from the **Spy** menu.
+Use this dialog box to select which messages are listed in [Messages view](messages-view.md). To display this dialog box, choose **Log Messages** from the **Spy** menu.
 
 ## Windows tab, Message Options
 
-Use the **Windows** tab to set the scope of the messages listed in [Messages View](messages-view.md). The following settings are available:
+Use the **Windows** tab to set the scope of the messages listed in [Messages view](messages-view.md). The following settings are available:
 
 - **Finder Tool**: The drag and drop tool used to select a window.
 - **Hide Spy++**: Removes the main Spy++ window and leaves the **MessageOptions** dialog box visible on top of your other applications.
@@ -30,7 +31,7 @@ Use the **Windows** tab to set the scope of the messages listed in [Messages Vie
 
 ## Messages tab, Message Options
 
-Use the **Messages** tab to select which message types to list in [Messages View](messages-view.md), and to specify message search criteria. Typically, you first select **Message Groups**, and then fine-tune the selection by selecting individual **Messages to View**. The **All** button selects all message types, and the **None** button clears all types.
+Use the **Messages** tab to select which message types to list in [Messages view](messages-view.md), and to specify message search criteria. Typically, you first select **Message Groups**, and then fine-tune the selection by selecting individual **Messages to View**. The **All** button selects all message types, and the **None** button clears all types.
 
 The following settings are available on the **Messages** tab:
 
@@ -47,7 +48,7 @@ The following settings are available on the **Messages** tab:
 
 ## Output tab, Message Options
 
-Use the **Output** tab to specify what data from each message to list in [Messages View](messages-view.md). The following settings are available:
+Use the **Output** tab to specify what data from each message to list in [Messages view](messages-view.md). The following settings are available:
 
 - **Line Numbers**: Display line numbers.
 - **Message Nesting Level**: Prefix nested messages with one period per level.
@@ -63,11 +64,10 @@ Use the **Output** tab to specify what data from each message to list in [Messag
 
 ## Related sections
 
-- [Message Search dialog box](message-search-dialog-box.md): Used to find the node for a specific message in Message View.
+- [Message Search dialog box](search-tools-for-spy-increment-views.md#message-search): Used to find the node for a specific message in Message View.
 - [Message Properties dialog box](message-properties-dialog-box.md): Used to display the properties of a message selected in Message View.
 - [Spy++ reference](spy-increment-reference.md): Includes sections describing each Spy++ menu and dialog box.
-- [Searching for a message in Messages View](how-to-search-for-a-message-in-messages-view.md): Explains how to find a specific message in Messages View.
-- [Opening Messages View from Find Window](how-to-open-messages-view-from-find-window.md): Explains how to open Messages View from the Find Window dialog box.
-- [Messages View](messages-view.md): Displays the message stream associated with a window, process, or thread.
-- [Spy++ Views](spy-increment-views.md): Explains the Spy++ tree views of windows, messages, processes, and threads.
+- [Searching for a message in Messages view](how-to-use-messages-view.md#search-for-a-message-in-messages-view): Explains how to find a specific message in Messages View.
+- [Opening Messages view from Find window](how-to-use-messages-view.md#open-messages-view-from-find-window): Explains how to open Messages View from the Find Window dialog box.
+- [Messages view](messages-view.md): Displays the message stream associated with a window, process, or thread.
 - [Using Spy++](using-spy-increment.md): Introduces the Spy++ tool and explains how it can be used.
