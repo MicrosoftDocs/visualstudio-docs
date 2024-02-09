@@ -384,6 +384,8 @@ You must also embed the runtime assets of our dependencies into the Task package
 	<BuildOutputTargetFolder>tasks</BuildOutputTargetFolder>
 	<!-- NuGet does validation that libraries in a package are exposed as dependencies, but we _explicitly_ do not want that behavior for MSBuild tasks. They are isolated by design. Therefore we ignore this specific warning. -->
 	<NoWarn>NU5100</NoWarn>
+    <!-- Suppress NuGet warning NU5128. -->
+    <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
 	...
 </PropertyGroup>
 
