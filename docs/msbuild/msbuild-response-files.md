@@ -29,6 +29,8 @@ The autoresponse file is a special *.rsp* file that *MSBuild.exe* automatically 
 
 In version 15.6 and above, MSBuild will search parent directories of the project for a file named *Directory.Build.rsp*.  This can be helpful in a source code repository to provide default arguments during command-line builds.  It can also be used to specify the command-line arguments of hosted builds.
 
+You can use the syntax `%MSBuildThisFileDirectory%` in a *Directory.Build.rsp* file, to refer to the directory that contains the *Directory.Build.rsp* file. This syntax requires percent signs on all operating systems, like `Environment.ExpandEnvironmentVariables`, even though `MSBuildThisFileDirectory` is not an environment variable.
+
 ## Disabling response files
 
 To disable automatically processing the default response files *MSBuild.rsp* and *Directory.Build.rsp* in a particular invocation of MSBuild, use the command-line option `-noAutoResponse`. Any response files referenced explicitly using the @-syntax on the command-line are still processed. See [MSBuild command line reference](msbuild-command-line-reference.md). 
