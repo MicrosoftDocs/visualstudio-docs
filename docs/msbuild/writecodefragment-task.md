@@ -115,7 +115,7 @@ A typical use case for the `WriteCodeFragment` task is in a target that generate
   <ItemGroup>
      <AssemblyAttribute Include="AssemblyVersion">
        <_Parameter1>1.0.0.0</_Parameter1>
-     </AssemblyAttributes>
+     </AssemblyAttribute>
   </ItemGroup>
   <WriteCodeFragment AssemblyAttributes="@(AssemblyAttribute)"
                      Language="C#"
