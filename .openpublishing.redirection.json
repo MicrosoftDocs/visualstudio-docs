@@ -15922,6 +15922,71 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/spy-increment-help.md",
+      "redirect_url": "/visualstudio/debugger/introducing-spy-increment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/spy-increment-views.md",
+      "redirect_url": "/visualstudio/debugger/introducing-spy-increment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-display-spy-increment-views.md",
+      "redirect_url": "/visualstudio/debugger/using-spy-increment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-refresh-the-view.md",
+      "redirect_url": "/visualstudio/debugger/using-spy-increment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-change-fonts.md",
+      "redirect_url": "/visualstudio/debugger/using-spy-increment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-expand-and-collapse-spy-increment-trees.md",
+      "redirect_url": "/visualstudio/debugger/using-spy-increment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-use-the-finder-tool.md",
+      "redirect_url": "/visualstudio/debugger/how-to-use-windows-view",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-search-for-a-window-in-windows-view.md",
+      "redirect_url": "/visualstudio/debugger/how-to-use-windows-view",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-control-messages-view.md",
+      "redirect_url": "/visualstudio/debugger/how-to-use-messages-view",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-open-messages-view-from-find-window.md",
+      "redirect_url": "/visualstudio/debugger/how-to-use-messages-view",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-search-for-a-message-in-messages-view.md",
+      "redirect_url": "/visualstudio/debugger/how-to-use-messages-view",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-start-and-stop-the-message-log-display.md",
+      "redirect_url": "/visualstudio/debugger/how-to-use-messages-view",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/about-microsoft-spy-increment.md",
+      "redirect_url": "/visualstudio/debugger/spy-increment-reference",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "scripting-docs/winscript/reference/includes/vista-first-md.md",
       "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/includes/vista-first",
       "redirect_document_id": false
