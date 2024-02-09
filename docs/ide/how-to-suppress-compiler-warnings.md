@@ -164,6 +164,18 @@ If you're building a project from the command line, you can also suppress warnin
 
 See [MSBuild command line reference](../msbuild/msbuild-command-line-reference.md).
 
+## Suppress warnings for all projects and solutions in a directory structure
+
+You can suppress warnings for many projects at once if they are all under a common directory in the filesystem by using the MSBuild file *Directory.Build.props*. See [Customize builds by directory](../msbuild/customize-by-directory.md). For example, if you place the following *Directory.Build.props* file at the root of a folder with many solutions and projects, you can suppress a specified list of warnings for all the projects in that folder and recursively to folders within it.
+
+```xml
+<Project>
+   <PropertyGroup>
+      <NoWarn>$(NoWarn);CS0028;CS0618</NoWarn>
+   </PropertyGroup>
+</Project>
+```
+
 ## Suppress tool warnings
 
 How you suppress warnings from tools other than the compiler, such as MSBuild, depends on what type of project you have and what version of MSBuild you're using.
@@ -228,8 +240,16 @@ In some cases, you might want to suppress NuGet compiler warnings for a single N
     </PackageReference>
    ```
 
+## Suppress Code Analysis warnings
+
+Diagnostic messages with codes beginning with `CA` are Code Analysis violations and warnings, which are distinct from the compiler warnings discussed in this article. You can suppress Code Analysis warnings in various ways, including using site-specific markup and project-wide or globally, by using rules configuration files. See [Suppress Code Analysis warnings](/dotnet/fundamentals/code-analysis/suppress-warnings) and [Suppress Code Analysis violations](../code-quality/in-source-suppression-overview.md).
+
 ## Related content
 
 - [Walkthrough: Build an application](../ide/walkthrough-building-an-application.md)
 - [How to: View, save, and configure build log files](../ide/how-to-view-save-and-configure-build-log-files.md)
 - [Compile and build](../ide/compiling-and-building-in-visual-studio.md)
+- [Code Analysis](../code-quality/roslyn-analyzers-overview.md)
+- [C# Compiler options to report errors and warnings](/dotnet/csharp/language-reference/compiler-options/errors-warnings)
+- [Configuring warnings in Visual Basic](configuring-warnings-in-visual-basic.md)
+- [C++ compiler errors and warnings](/cpp/error-messages/compiler-errors-1/c-cpp-build-errors)
