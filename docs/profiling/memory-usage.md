@@ -1,7 +1,7 @@
 ---
 title: "Measure memory usage in your apps"
 description: Find memory leaks and inefficient memory while you're debugging with the debugger-integrated diagnostic tool, Memory Usage.
-ms.date: 01/24/2024
+ms.date: 02/06/2024
 ms.topic: tutorial
 author: mikejo5000
 ms.author: mikejo
@@ -62,7 +62,7 @@ If **Memory Usage** does not give you the data that you need, other profiling to
      When the app finishes loading, the Summary view of the Diagnostics Tools appears.
 
      ::: moniker range="<=vs-2019"
-     
+
      ![Screenshot of Diagnostics Tools Summary Tab.](../profiling/media/vs-2019/diag-tools-summary-tab-2.png)
 
      > [!NOTE]
@@ -117,6 +117,7 @@ If **Memory Usage** does not give you the data that you need, other profiling to
    If you have trouble collecting or displaying data, see [Troubleshoot profiling errors and fix issues](../profiling/troubleshoot-profiler-errors.md).
 
 ## Analyze memory usage data
+
 The rows of the Memory Usage summary table list the snapshots that you have taken during the debugging session and provides links to more detailed views.
 
 ::: moniker range="<=vs-2019"
@@ -133,7 +134,7 @@ The rows of the Memory Usage summary table list the snapshots that you have take
 
  The name of the column depends on the debugging mode you choose in the project properties: .NET, native, or mixed (both .NET and native).
 
-- The **Objects (Diff)** and **Allocations (Diff)** columns display the number of objects in .NET and native memory when the snapshot was taken.
+- The **Objects (Diff)** (.NET) or **Allocations (Diff)** (C++) column display the number of objects in .NET or native memory when the snapshot was taken.
 
 - The **Heap Size (Diff)** column displays the number of bytes in the .NET and native heaps
 
@@ -151,126 +152,33 @@ To analyze memory usage, click one of the links that opens up a detailed report 
    The report appears in a separate window.
 
 ### Managed types reports
- Choose the current link of an **Objects (Diff)** or **Allocations (Diff)** cell in the Memory Usage summary table.
 
- ::: moniker range="<=vs-2019"
+[!INCLUDE [managed-types-report](../profiling/includes/managed-types-report.md)]
 
- ![Screenshot of managed type report.](../profiling/media/vs-2019/dbgdiag-mem-managed-types-report-paths-to-root.png)
-
- ::: moniker-end
-
- ::: moniker range=">=vs-2022"
-
-[ ![Screenshot of managed type report.](../profiling/media/vs-2022/dbgdiag-mem-managed-types-report-paths-to-root.png "Managed type report")](../profiling/media/vs-2022/dbgdiag-mem-managed-types-report-paths-to-root.png#lightbox) 
-
- ::: moniker-end
-
- The top pane shows the count and size of the types in the snapshot, including the size of all objects that are referenced by the type (**Inclusive Size**).
-
- The **Paths to Root** tree in the bottom pane displays the objects that reference the type selected in the upper pane. The .NET garbage collector cleans up the memory for an object only when the last type that references it has been released.
-
- ::: moniker range="<=vs-2019"
-
- The **Referenced Objects** tree displays the references that are held by the type selected in the upper pane.
-
- ![Screenshot of Referenced Objects report.](../profiling/media/vs-2019/dbgdiag-mem-managed-types-report-referenced-types.png)
-
- ::: moniker-end
-
- The **Referenced Types** tree displays the references that are held by the type selected in the upper pane.
-
- ::: moniker range=">=vs-2022"
-
- ![Screenshot of Referenced Objects report.](../profiling/media/vs-2022/dbgdiag-mem-managed-types-report-referenced-types.png)
-
- ::: moniker-end
-
- To display the instances of a selected type in the upper pane, click on "View Instances" next to the object type.
-
- ::: moniker range="<=vs-2019"
-
- ![Screenshot of the Instances view in the Memory Usage tool.](../profiling/media/vs-2019/dbgdiag-mem-managed-types-report-instances.png)
-
- ::: moniker-end
-
- ::: moniker range=">=vs-2022"
-
- [![Screenshot of the Instances view in the Memory Usage tool.](../profiling/media/vs-2022/dbgdiag-mem-managed-types-report-instances.png "Instances view in the Memory Usage tool")](../profiling/media/vs-2022/dbgdiag-mem-managed-types-report-instances.png#lightbox)
-
- ::: moniker-end
-
- The **Instances** view displays the instances of the selected object in the snapshot in the upper pane. The **Paths to Root** and **Referenced Objects** pane displays the objects that reference the selected instance and the types that the selected instance references. When the debugger is stopped at the point where the snapshot was taken, you can hover over the **Value** cell to display the values of the object in a tool tip.
-
-### Native type reports
- Choose the current link of an **Allocations (Diff)** or **Heap Size (Diff)** cell in the Memory Usage summary table of the **Diagnostic Tools** window.
-
- ::: moniker range="<=vs-2019"
-
- ![Screenshot of Native Type View.](../profiling/media/vs-2019/dbgdiag-mem-native-types-view.png)
-
- ::: moniker-end
-
- ::: moniker range=">=vs-2022"
-
- ![Screenshot of Native Type View.](../profiling/media/vs-2022/dbgdiag-mem-native-types-view.png)
-
- ::: moniker-end
-
- The **Types View** displays the number and size of the types in the snapshot.
-
-::: moniker range="<=vs-2019"
-
-- Choose the instances icon (![The instance icon in the Object Type column](../profiling/media/dbg-mma-instances-icon.png "DBG_MMA_InstancesIcon")) of a selected type to display information about the objects of the selected type in the snapshot.
-
-     The **Instances** view displays each instance of the selected type. Selecting an instance displays the call stack that resulted in the creation of the instance in the **Allocation Call Stack** pane.
-
-     ![Screenshot of the Instances view and Allocation Call Stack pane.](../profiling/media/vs-2019/dbgdiag-mem-native-instances.png)
-
-::: moniker-end
+To display the instances of a selected type in the upper pane, click the **View Instances** icon next to the object type.
 
 ::: moniker range=">=vs-2022"
 
-- Choose **View Instances** next to a selected type to display information about the objects of the selected type in the snapshot.
-
-     The **Instances** view displays each instance of the selected type. Selecting an instance displays the call stack that resulted in the creation of the instance in the **Allocation Call Stack** pane.
-
-     ![Screenshot of the Instances view and Allocation Call Stack pane.](../profiling/media/vs-2022/dbgdiag-mem-native-instances.png)
+[![Screenshot of the Instances view in the Memory Usage tool.](../profiling/media/vs-2022/dbgdiag-mem-managed-types-report-instances.png "Instances view in the Memory Usage tool")](../profiling/media/vs-2022/dbgdiag-mem-managed-types-report-instances.png#lightbox)
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
+::: moniker range="vs-2019"
 
-- Choose **Stacks View** in the **View Mode** list to see the allocation stack for the selected type.
-
-     ![Screenshot of Stacks view.](../profiling/media/vs-2019/dbgdiag-mem-native-stacks-view.png)
+![Screenshot of the Instances view in the Memory Usage tool.](../profiling/media/vs-2019/dbgdiag-mem-managed-types-report-instances.png)
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+The **Instances** view displays the instances of the selected object in the snapshot in the upper pane. The **Paths to Root** and **Referenced Objects** pane displays the objects that reference the selected instance and the types that the selected instance references. When the debugger is stopped at the point where the snapshot was taken, you can hover over the **Value** cell to display the values of the object in a tool tip.
 
-- Choose **Stacks** to see the allocation stack for the selected type.
+### Native types reports
 
-     ![Screenshot of Stacks view.](../profiling/media/vs-2022/dbgdiag-mem-native-stacks-view.png)
-
-::: moniker-end
+[!INCLUDE [native-types-report](../profiling/includes/native-types-report.md)]
 
 ::: moniker range=">=vs-2022"
 ### Memory Usage Insights
 
-For managed memory, the Memory Analysis tool also gives multiple powerful built-in auto insights. Select the **Insights** tab in the Managed types reports and it shows the applicable auto insights like **Duplicate strings**, **Sparse arrays**, and **Event handler leaks**.
-
-[![Screenshot of the insight view in the Memory Usage tool.](../profiling/media/vs-2022/dbgdiag-mem-managed-insights.png "Memory Usage insight")](../profiling/media/vs-2022/dbgdiag-mem-managed-insights.png#lightbox)
-
-The **Duplicate Strings** section shows the list of strings that get allocated multiple times on the heap. In addition, this section shows the total wasted memory, that is, the (number of instances - 1) times the size of the string.
-
-The **Sparse Arrays** section shows arrays that are mostly filled with zero elements, which can be inefficient in terms of performance and memory usage. The memory analysis tool will automatically detect these arrays and show you how much memory is being wasted due to these zero values.
-
-The **Event Handler Leaks** section, available in Visual Studio 2022 version 17.9 Preview 1, shows potential memory leaks that can occur when one object subscribes to another object's event. If the publisher of the event outlives the subscriber, the subscriber remains alive, even if there are no other references to it. This can lead to memory leaks, where unused memory isn't properly freed, causing the application to use more and more memory over time.
-
-Certain types are known to have fields that can be read to determine the size of the native memory they're holding onto. The **Insights** tab shows fake native memory nodes in the object graph, which are retained by their parent objects such that the UI will recognize them and display their size and reference graph.
-
-[![Screenshot of the native insight view in the Memory Usage tool.](../profiling/media/vs-2022/dbgdiag-mem-native-insights.png "native insight view in the Memory Usage tool")](../profiling/media/vs-2022/dbgdiag-mem-native-insights.png#lightbox)
-
+[!INCLUDE [memory-usage-insights](../profiling/includes/memory-usage-insights.md)]
 ::: moniker-end
 
 ### Change (Diff) reports
@@ -303,19 +211,7 @@ Certain types are known to have fields that can be read to determine the size of
 
    ::: moniker-end
 
-The change report adds columns (marked with **(Diff)**) to the base report that show the difference between the base snapshot value and the comparison snapshot. Here's how a Native Type View diff report might look:
-
-::: moniker range="<=vs-2019"
-
-![Screenshot of Native Types Diff View.](../profiling/media/vs-2019/dbgdiag-mem-native-types-view-diff.png)
-
-::: moniker-end
-
-::: moniker range=">=vs-2022"
-
-[![Screenshot of Native Types Diff View.](../profiling/media/vs-2022/dbgdiag-mem-native-types-view-diff.png "Native Types Diff View")](../profiling/media/vs-2022/dbgdiag-mem-native-types-view-diff.png#ligtbox)
-
-::: moniker-end
+[!INCLUDE [change-diff-report](../profiling/includes/change-diff-report.md)]
 
 ## Blogs and videos
 
