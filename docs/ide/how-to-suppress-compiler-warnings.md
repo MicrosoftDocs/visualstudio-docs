@@ -252,4 +252,4 @@ Diagnostic messages with codes beginning with `CA` are Code Analysis violations 
 - [Code Analysis](../code-quality/roslyn-analyzers-overview.md)
 - [C# Compiler options to report errors and warnings](/dotnet/csharp/language-reference/compiler-options/errors-warnings)
 - [Configuring warnings in Visual Basic](configuring-warnings-in-visual-basic.md)
-- [C++ compiler errors and warnings](/cpp/error-messages/compiler-errors-1/c-cpp-build-errors?view=msvc-170)
+- [C++ compiler errors and warnings](/cpp/error-messages/compiler-errors-1/c-cpp-build-errors)
