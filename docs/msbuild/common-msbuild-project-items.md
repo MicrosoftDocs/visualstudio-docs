@@ -180,6 +180,10 @@ Represents the FxCop project to import.
 
 Represents assemblies whose namespaces should be imported by the Visual Basic compiler.
 
+## Folder
+
+This element is only used by Visual Studio as a placeholder for an empty folder. When the folder is populated, it is replaced by another element.
+
 ## See also
 
 - [Common MSBuild project properties](../msbuild/common-msbuild-project-properties.md)
