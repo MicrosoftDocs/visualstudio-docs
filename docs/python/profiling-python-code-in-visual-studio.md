@@ -12,7 +12,6 @@ ms.subservice: python
 # Profile Python code
 
 
-[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can profile a Python application when using CPython-based interpreters. This feature is currently supported with Python 3.9 and earlier.
 
