@@ -9,6 +9,7 @@ ms.author: mikejo
 author: mikejo5000
 manager: jmartens
 ms.subservice: code-analysis
+monikerRange: 'vs-2019'
 ---
 # FxCopCmd tool errors
 
