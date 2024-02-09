@@ -28,10 +28,7 @@ landingContent:
             url: ~/new-subscriber.md
           - text: "Compare options & pricing"
             url: https://visualstudio.microsoft.com/vs/pricing
-      - linkListType: whats-new
-        links:          
-          - text: "What's new in subscriptions"
-            url: ~/whats-new-in-subscriptions.md      
+  
 
 
   # Card

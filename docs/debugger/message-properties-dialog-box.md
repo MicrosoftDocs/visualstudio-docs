@@ -1,7 +1,7 @@
 ---
 title: "Message Properties dialog box in Spy++"
 description: Consult Message Properties to find more about a message than is shown in Messages View.
-ms.date: "06/06/2022"
+ms.date: 02/05/2024
 ms.topic: "ui-reference"
 helpviewer_keywords:
   - "message options"
@@ -11,9 +11,10 @@ ms.author: "mikejo"
 manager: jmartens
 ms.subservice: debug-diagnostics
 ---
+
 # Message Properties dialog box
 
-Use this dialog box to find out more about a specific message. To display this dialog box, move the focus to a [Messages View](messages-view.md) window. Select any message node in the tree, then choose **Properties** from the **View** menu.
+Use this dialog box to find out more about a specific message. To display this dialog box, move the focus to a [Messages view](messages-view.md) window. Select any message node in the tree, then choose **Properties** from the **View** menu.
 
 The **General** tab is the only tab displayed. The following settings are available:
 
@@ -27,10 +28,9 @@ The **General** tab is the only tab displayed. The following settings are availa
 ## Related sections
 
 - [Message Options dialog box](message-options-dialog-box.md): Used to select which messages are listed in the active Messages view.
-- [Message Search dialog box](message-search-dialog-box.md): Used to find the node for a specific message in Messages view.
+- [Message Search dialog box](search-tools-for-spy-increment-views.md#message-search): Used to find the node for a specific message in Messages view.
 - [Spy++ reference](spy-increment-reference.md): Includes sections describing each Spy++ menu and dialog box.
-- [Opening Messages View from Find Window](how-to-open-messages-view-from-find-window.md): Explains how to open Messages view from the Find Window dialog box.
-- [Searching for a message in Messages View](how-to-search-for-a-message-in-messages-view.md): Explains how to find a specific message in Messages view.
-- [Messages View](messages-view.md): Displays the message stream associated with a window, process, or thread.
-- [Spy++ Views](spy-increment-views.md): Explains the Spy++ tree views of windows, messages, processes, and threads.
+- [Opening Messages view from Find window](how-to-use-messages-view.md#open-messages-view-from-find-window): Explains how to open Messages view from the Find Window dialog box.
+- [Searching for a message in Messages view](how-to-use-messages-view.md#search-for-a-message-in-messages-view): Explains how to find a specific message in Messages view.
+- [Messages view](messages-view.md): Displays the message stream associated with a window, process, or thread.
 - [Using Spy++](using-spy-increment.md): Introduces the Spy++ tool and explains how it can be used.
