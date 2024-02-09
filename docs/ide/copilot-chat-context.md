@@ -32,7 +32,7 @@ To get started using GitHub Copilot Chat in Visual Studio, you need:
 + [GitHub Copilot extension installed](visual-studio-github-copilot-extension.md#installation-instructions) in Visual Studio
 + [GitHub Copilot Chat extension installed](visual-studio-github-copilot-chat.md#install-the-visual-studio-extension) in Visual Studio
 
-## <a name="slash-commands"></a>Use slash commands for common tasks
+## <a name="slash-commands"></a>Use slash commands in Copilot Chat for common tasks
 
 Slash commands in Copilot Chat help you set the intent quickly for common development tasks. By using specific slash commands to form your question, you can get better answers without having to write out long questions. 
 
@@ -65,7 +65,7 @@ To easily reference a file, simply add a *#* symbol at the beginning of the file
 | Where are the tests in #BasketService.cs?| BasketService.cs |
 | /explain the AddItemToBasket method in #BasketService.cs| AddItemToBasket method in BasketService.cs |
 
-## <a name="find-context"></a>Review the sources used by Copilot
+## <a name="find-context"></a>Review the sources used by Copilot Chat
 
 Copilot Chat displays the context it used after every result, so that you can tell what was taken into account when answering your question. When you ask a Copilot Chat a question and get a response in the chat window, an **References** dropdown appears below the response. The entries in the **References** dropdown list show you the context referenced by Copilot Chat to generate that response. This information can help you modify your question to get better and more relevant answers.
 

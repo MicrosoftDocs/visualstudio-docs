@@ -1,7 +1,7 @@
 ---
 title: "Spy++ menu commands"
 description: See a list of the Spy++ menus and, for each menu, a link to further information.
-ms.date: "06/02/2022"
+ms.date: 02/05/2024
 ms.topic: "ui-reference"
 helpviewer_keywords:
   - "Spy++, menu commands"
@@ -11,6 +11,7 @@ ms.author: "mikejo"
 manager: jmartens
 ms.subservice: debug-diagnostics
 ---
+
 # Spy++ menu commands
 
 The Help topics on this page list the commands available from the Spy++ menus.
@@ -75,5 +76,4 @@ The **Window** menu provides commands to manage Spy++ windows.
 ## Related sections
 
 - [Using Spy++](using-spy-increment.md): Introduces the Spy++ tool and explains how it can be used.
-- [Spy++ Views](spy-increment-views.md): Explains the Spy++ tree views of windows, messages, processes, and threads.
 - [Spy++ reference](spy-increment-reference.md): Includes this section, and sections describing each Spy++ dialog box.

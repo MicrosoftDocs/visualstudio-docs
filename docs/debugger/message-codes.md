@@ -1,7 +1,7 @@
 ---
 title: "Message Codes"
 description: Learn the meanings of the message codes shown on each message line of Messages View.
-ms.date: "11/04/2016"
+ms.date: 02/05/2024
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "message codes"
@@ -10,9 +10,10 @@ ms.author: "mikejo"
 manager: jmartens
 ms.subservice: debug-diagnostics
 ---
-# Message Codes
 
-Each message line shown in [Messages View](../debugger/messages-view.md) contains a 'P,' 'S,' 's,' or 'R' code. These codes have the following meanings:
+# Message codes
+
+Each message line shown in [Messages view](messages-view.md) contains a 'P,' 'S,' 's,' or 'R' code. These codes have the following meanings:
 
 |Code|Meaning|
 |----------|-------------|

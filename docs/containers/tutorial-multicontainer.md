@@ -428,7 +428,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
 
    (Optional) Create a third profile `Start All` to start everything. You can choose **Start without debugging** for Redis.
 
-1. Choose **Start Redis** from the dropdown list on the main Visual Studio toolbar, press **F5**. The Redis container builds and starts. You can use the **Containers** window to see that it's running. Next, choose **Start My Services** from the dropdown list and press **F5** to launch them. Now you can keep the Redis cache container running throughout many subsequent debug sessions. Every time you use **Start My Services**, those services use the same Redis cache container.
+1. Choose **Start Redis** from the dropdown list on the main Visual Studio toolbar. The Redis container builds and starts without debugging. You can use the **Containers** window to see that it's running. Next, choose **Start My Services** from the dropdown list and press **F5** to launch them. Now you can keep the Redis cache container running throughout many subsequent debug sessions. Every time you use **Start My Services**, those services use the same Redis cache container.
 
 Congratulations, you're running a Docker Compose application with a custom Docker Compose profile.
 
