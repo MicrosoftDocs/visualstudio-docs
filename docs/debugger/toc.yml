@@ -672,63 +672,43 @@
     href: debug-interface-access/debug-interface-access-sdk.md
   - name: Spy++
     items:
-    - name: Spy++ help
-      href: spy-increment-help.md
+    - name: Introducing Spy++
+      href: introducing-spy-increment.md
     - name: Spy++ guide
       items:
       - name: Using Spy++
         href: using-spy-increment.md
-      - name: Introducing Spy++
-        href: introducing-spy-increment.md
       - name: Start Spy++
         href: how-to-start-spy-increment.md
       - name: Spy++ toolbar
         href: spy-increment-toolbar.md
-      - name: Display Spy++ views
-        href: how-to-display-spy-increment-views.md
-      - name: Refresh the view
-        href: how-to-refresh-the-view.md
-      - name: Change fonts
-        href: how-to-change-fonts.md
-      - name: Expand and collapse Spy++ trees
-        href: how-to-expand-and-collapse-spy-increment-trees.md
     - name: Views in Spy++
       items:
-      - name: Spy++ views
-        href: spy-increment-views.md
       - name: Windows
         items:
-        - name: Windows View
+        - name: Windows view
           href: windows-view.md
-        - name: Use the Finder tool
-          href: how-to-use-the-finder-tool.md
-        - name: Search for a window in Windows View
-          href: how-to-search-for-a-window-in-windows-view.md
+        - name: Use Windows view
+          href: how-to-use-windows-view.md
       - name: Messages
         items:
-        - name: Messages View
+        - name: Messages view
           href: messages-view.md
-        - name: Control Messages View
-          href: how-to-control-messages-view.md
-        - name: Open Messages View from Find window
-          href: how-to-open-messages-view-from-find-window.md
-        - name: Search for a message in Messages View
-          href: how-to-search-for-a-message-in-messages-view.md
-        - name: Start and stop the message log display
-          href: how-to-start-and-stop-the-message-log-display.md
+        - name: Use Messages view
+          href: how-to-use-messages-view.md
         - name: Message codes
           href: message-codes.md
       - name: Processes
         items:
-        - name: Processes View
+        - name: Processes view
           href: processes-view.md
-        - name: Search for a process in Processes View
+        - name: Search for a process
           href: how-to-search-for-a-process-in-processes-view.md
       - name: Threads
         items:
-        - name: Threads View
+        - name: Threads view
           href: threads-view.md
-        - name: Search for a thread in Threads View
+        - name: Search for a thread
           href: how-to-search-for-a-thread-in-threads-view.md
     - name: Spy++ reference
       items:
@@ -748,5 +728,3 @@
         href: process-properties-dialog-box.md
       - name: Thread Properties dialog box
         href: thread-properties-dialog-box.md
-      - name: About Spy++ dialog box
-        href: about-microsoft-spy-increment.md

@@ -1,7 +1,7 @@
 ---
 title: "Search tools for Spy++ views"
-description: See dialog boxes that specify what data a Spy++ views window will display. Dialog boxes include Find Window, Window Search, Message Search, Process Search, and Thread Search.
-ms.date: "06/02/2022"
+description: See dialog boxes that specify what data a Spy++ views window display. Dialog boxes include Find Window, Window Search, Message Search, Process Search, and Thread Search.
+ms.date: 02/05/2024
 ms.topic: "ui-reference"
 helpviewer_keywords:
   - "searching, Spy++"
@@ -11,9 +11,10 @@ ms.author: "mikejo"
 manager: jmartens
 ms.subservice: debug-diagnostics
 ---
+
 # Search tools for Spy++ views
 
-Use these dialog boxes to specify what data a Spy++ Views window will display.
+Use these dialog boxes to specify what data a Spy++ views window displays.
 
 ## Find Window
 
@@ -26,11 +27,11 @@ Use this dialog box to select a window and display its properties or messages. T
 - **Class**: The class of the window.
 - **Style**: The style of the window.
 - **Rect**: The bounding rectangle for the window.
-- **Show Properties or Messages**: Determines whether pressing OK will display the [Window Properties dialog box](window-properties-dialog-box.md) or open a [Messages View](messages-view.md).
+- **Show Properties or Messages**: Determines whether pressing OK displays the [Window Properties dialog box](window-properties-dialog-box.md) or opens a [Messages view](messages-view.md).
 
 ## Window Search
 
-Use this dialog box to find and select the node for a specific window in [Windows View](windows-view.md). To display this dialog box, move the focus to the Windows view window. Then choose **Find Window** from the **Search** menu.
+Use this dialog box to find and select the node for a specific window in [Windows view](windows-view.md). To display this dialog box, move the focus to the Windows view window. Then choose **Find Window** from the **Search** menu.
 
 You can use the **Finder Tool** to select a window, or you can enter the window handle, or identify the window by caption and class.
 
@@ -43,7 +44,7 @@ You can use the **Finder Tool** to select a window, or you can enter the window 
 
 ## Message Search
 
-Use this dialog box to find and select the node for a specific message in [Messages View](messages-view.md). To display this dialog box, move the focus to a Messages view window. Then choose **Find Message** from the **Search** menu.
+Use this dialog box to find and select the node for a specific message in [Messages view](messages-view.md). To display this dialog box, move the focus to a Messages view window. Then choose **Find Message** from the **Search** menu.
 
 - **Finder Tool**: The drag and drop tool used to select a window.
 - **Hide Spy++**: Removes the main Spy++ window and leaves the **MessageSearch** dialog box visible on top of your other applications.
@@ -54,7 +55,7 @@ Use this dialog box to find and select the node for a specific message in [Messa
 
 ## Process Search
 
-Use this dialog box to find and select the node for a specific process in [Processes View](processes-view.md). To display this dialog box, move the focus to a **Processes** view window. Then choose **Find Process** from the **Search** menu.
+Use this dialog box to find and select the node for a specific process in [Processes view](processes-view.md). To display this dialog box, move the focus to a **Processes** view window. Then choose **Find Process** from the **Search** menu.
 
 - **Process**: The process ID to search for.
 - **Module**: The module string to search for.
@@ -62,7 +63,7 @@ Use this dialog box to find and select the node for a specific process in [Proce
 
 ## Thread Search
 
-Use this dialog box to find and select the node for a specific thread in [Threads View](threads-view.md). To display this dialog box, move the focus to a **Threads** view window. Then choose **Find Thread** from the **Search** menu.
+Use this dialog box to find and select the node for a specific thread in [Threads view](threads-view.md). To display this dialog box, move the focus to a **Threads** view window. Then choose **Find Thread** from the **Search** menu.
 
 - **Thread**: The thread ID to search for.
 - **Module**: The module string to search for.
@@ -70,6 +71,5 @@ Use this dialog box to find and select the node for a specific thread in [Thread
 
 ## Related sections
 
-- [Spy++ Views](spy-increment-views.md): Explains the Spy++ tree views of windows, messages, processes, and threads.
 - [Using Spy++](using-spy-increment.md): Introduces the Spy++ tool and explains how it can be used.
-- [Using the finder tool](how-to-use-the-finder-tool.md): Shows how this tool scans windows for properties or messages.
+- [Using the Finder tool](how-to-use-windows-view.md#use-the-finder-tool): Shows how this tool scans windows for properties or messages.
