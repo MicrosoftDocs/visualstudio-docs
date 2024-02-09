@@ -48,13 +48,7 @@ if you want to share code between .NET Framework and any other .NET implementati
 
 ## Choose the MSBuild API version to reference
 
-When compiling a custom task, you should reference the version of the MSBuild API (`Microsoft.Build.*`) that matches the minimum version of Visual Studio and/or the .NET SDK that you expect to support.
-
-MSBuild is highly compatible with tasks developed for older MSBuild versions (though Microsoft reserves the right to make documented breaking changes, that is very rare). Because of that, it's best to have compile-time guards to ensure that you aren't accidentally referencing APIs added in newer MSBuild releases.
-
-If you reference a newer MSBuild than your target runtime environment, you can encounter `MissingMethodException` at runtime when calling APIs that were added between the runtime MSBuild and the one you reference. This is not a compile-time problem, because the compiler sees the (new) assembly, which has those methods.
-
-If you take code that will run in the older environment and compile it against a newer MSBuild, the resulting binaries will generally work, except in the case where MSBuild adds a new method that changes overload resolution. However, as you make changes it's easy to accidentally reference a new API and then break at runtime in older environments.
+When compiling a custom task, you should reference the version of the MSBuild API (`Microsoft.Build.*`) that matches the minimum version of Visual Studio and/or the .NET SDK that you expect to support. For example, to support users on Visual Studio 2019, you should build against MSBuild 16.11.
 
 ## Create the AppSettingStronglyTyped MSBuild custom task
 
