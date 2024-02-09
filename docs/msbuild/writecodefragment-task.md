@@ -34,6 +34,9 @@ Generates a temporary code file from the specified generated code fragment. Does
 
 In addition to having the parameters that are listed in the table, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
+:::moniker range=">=vs-2022"
+## Generate assembly-level attributes
+
 In MSBuild 17.7 and later, this task was updated to support a greater variety of parameter types for assembly-level attributes. MSBuild 17.6 and earlier supported only `String` as a parameter type for assembly-level attributes. With MSBuild 17.7 and later, you can construct any .NET assembly attribute, not only those whose parameters were string types, as in earlier versions of MSBuild.
 
 For example, to define the assembly-level attribute `CLSCompliant(true)`, which uses a Boolean parameter, you can use the following syntax:
@@ -98,6 +101,33 @@ You can use any syntax that would normally be allowed in an attribute declaratio
 ```
 
 When you use `IsLiteral`, the syntax is interpreted by the appropriate compiler, and is therefore language-specific. If you have situations where more than one language share the same MSBuild import files and/or project files, you might need to use conditional syntax to ensure the code compiles with the relevant project-specific language.
+
+> [!NOTE]
+> The syntax described in this section (`_TypeName` and `_IsLiteral` suffixes) isn't supported in F#.
+:::moniker-end
+
+## Example
+
+A typical use case for the `WriteCodeFragment` task is in a target that generates a file that defines an assembly-level attribute and adds that to the build. With `AssemblyAttribute` defined, you can invoke the `WriteCodeFragment` task as in the following code.
+
+```xml
+<Target Name="AddAssemblyVersion" BeforeTargets="Build">
+  <ItemGroup>
+     <AssemblyAttribute Include="AssemblyVersion">
+       <_Parameter1>1.0.0.0</_Parameter1>
+     </AssemblyAttributes>
+  </ItemGroup>
+  <WriteCodeFragment AssemblyAttributes="@(AssemblyAttribute)"
+                     Language="C#"
+                     OutputDirectory="$(IntermediateOutputPath)"
+                     OutputFile="AssemblyVersion.cs">
+    <Output TaskParameter="OutputFile" ItemName="Compile" />
+    <Output TaskParameter="OutputFile" ItemName="FileWrites" />
+  </WriteCodeFragment>
+</Target>
+```
+
+The `OutputFile` is given a specific filename; if not specified, a filename is randomly generated. Also, to add the generated file to the build, the `Compile` item list is given as an output. The file is also added to the `FileWrites` item list, so that it is deleted when the `Clean` target is run.
 
 ## See also
 
