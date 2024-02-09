@@ -34,11 +34,11 @@ The Memory Usage tool can run [with or without the debugger](../profiling/runnin
 1. Under **Available Tools**, select **Memory Usage**, and then select **Start**.
 
    ::: moniker range=">=vs-2022"
-   [ ![Start a Memory Usage diagnostic session](../profiling/media/vs-2022/memory-usage-start-performance-profiler.png)](../profiling/media/vs-2022/memory-usage-start-performance-profiler.png#lightbox)
+   [ ![Start a Memory Usage diagnostic session.](../profiling/media/vs-2022/memory-usage-start-performance-profiler.png)](../profiling/media/vs-2022/memory-usage-start-performance-profiler.png#lightbox)
    ::: moniker-end
 
    ::: moniker range="vs-2019"
-   ![Start a Memory Usage diagnostic session](../profiling/media/memory-usage-start-diagnostics-session.png "Start a Memory Usage diagnostic session")
+   ![Start a Memory Usage diagnostic session.](../profiling/media/memory-usage-start-diagnostics-session.png "Start a Memory Usage diagnostic session")
    ::: moniker-end
 
 ### Monitor memory use
@@ -62,7 +62,7 @@ An app uses a large number of objects, and you might want to concentrate your an
 To collect snapshots, select **Take snapshot** when you want to capture the memory data.
 
 ::: moniker range=">=vs-2022"
-![Screenshot of taking a snapshot](../profiling/media/vs-2022/memory-usage-take-snapshot.png)
+![Screenshot of taking a snapshot.](../profiling/media/vs-2022/memory-usage-take-snapshot.png)
 ::: moniker-end
 
 ### <a name="BKMK_Close_a_monitoring_session"></a> Close the diagnostic session
@@ -70,11 +70,11 @@ To collect snapshots, select **Take snapshot** when you want to capture the memo
 To stop a monitoring session without creating a report, just close the diagnostic window. To generate a report when you're done collecting or have taken snapshots, select **Stop Collection**.
 
 ::: moniker range=">=vs-2022"
-![Screenshot of stopping the collection](../profiling/media/vs-2022/memory-usage-stop-collection.png)
+![Screenshot of stopping the collection.](../profiling/media/vs-2022/memory-usage-stop-collection.png)
 ::: moniker-end
 
 ::: moniker range="vs-2019"
-![Screenshot of stopping the collection](../profiling/media/memory-usage-stop-collection.png)
+![Screenshot of stopping the collection.](../profiling/media/memory-usage-stop-collection.png)
 ::: moniker-end
 
 If you have trouble collecting or displaying data, see [Troubleshoot profiling errors and fix issues](../profiling/troubleshoot-profiler-errors.md).
@@ -98,7 +98,7 @@ The numbers in the **Snapshot** panes show the objects and bytes in memory when 
 The numbers are links that open detailed **Memory Usage** report views in new Visual Studio windows. A [snapshot details report](#managed-types-reports) shows the types and instances in one snapshot. A [snapshot difference (diff) report](#change-diff-reports) compares the types and instances in two snapshots.
 
 ::: moniker range=">=vs-2022"
-  ![Snapshot view links](../profiling/media/vs-2022/memory-usage-snapshot-view-numbered-vs-2022.png "Snapshot view links")
+  ![Screenshot of Snapshot view links](../profiling/media/vs-2022/memory-usage-snapshot-view-numbered-vs-2022.png "Snapshot view links")
 
 For C++, the **Objects (Diff)** column is named **Allocations (Diff)**.
 
