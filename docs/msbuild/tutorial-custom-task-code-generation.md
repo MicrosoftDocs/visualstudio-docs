@@ -46,6 +46,10 @@ Note the difference between full MSBuild (the one that Visual Studio uses) and p
 
 if you want to share code between .NET Framework and any other .NET implementation, such as .NET Core, your library should target [.NET Standard 2.0](/dotnet/standard/net-standard), and you want to run inside Visual Studio, which runs on the .NET Framework. .NET Framework doesn't support .NET Standard 2.1.
 
+## Choose the MSBuild API version to reference
+
+When compiling a custom task, you should reference the version of the MSBuild API (`Microsoft.Build.*`) that matches the minimum version of Visual Studio and/or the .NET SDK that you expect to support. For example, to support users on Visual Studio 2019, you should build against MSBuild 16.11.
+
 ## Create the AppSettingStronglyTyped MSBuild custom task
 
 The first step is to create the MSBuild custom task. Information about how to [write an MSBuild custom task](task-writing.md) might help you understand the following steps. An MSBuild custom task is a class that implements the <xref:Microsoft.Build.Framework.ITask> interface.
@@ -325,17 +329,20 @@ To generate a NuGet package, add the following code to set the properties for th
 
 ```xml
 <PropertyGroup>
-	... 
-	<IsPackable>true</IsPackable>
-	<Version>1.0.0</Version>
-	<Title>AppSettingStronglyTyped</Title>
-	<Authors>Your author name</Authors>
-	<Description>Generates a strongly typed setting class base on a text file.</Description>
-	<PackageTags>MyTags</PackageTags>
-	<Copyright>Copyright ©Contoso 2022</Copyright>
-	...
+    ... 
+    <IsPackable>true</IsPackable>
+    <Version>1.0.0</Version>
+    <Title>AppSettingStronglyTyped</Title>
+    <Authors>Your author name</Authors>
+    <Description>Generates a strongly typed setting class base on a text file.</Description>
+    <PackageTags>MyTags</PackageTags>
+    <Copyright>Copyright ©Contoso 2022</Copyright>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    ...
 </PropertyGroup>
 ```
+
+The property [CopyLocalLockFileAssemblies](/dotnet/core/project-sdk/msbuild-props#copylocallockfileassemblies) is needed to make sure that dependencies are copied to the output directory.
 
 #### Mark dependencies as private
 
@@ -384,6 +391,8 @@ You must also embed the runtime assets of our dependencies into the Task package
 	<BuildOutputTargetFolder>tasks</BuildOutputTargetFolder>
 	<!-- NuGet does validation that libraries in a package are exposed as dependencies, but we _explicitly_ do not want that behavior for MSBuild tasks. They are isolated by design. Therefore we ignore this specific warning. -->
 	<NoWarn>NU5100</NoWarn>
+    <!-- Suppress NuGet warning NU5128. -->
+    <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
 	...
 </PropertyGroup>
 

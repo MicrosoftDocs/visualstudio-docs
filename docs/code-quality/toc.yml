@@ -95,7 +95,7 @@
       items:
       - name: Migrate from legacy analysis to .NET analyzers
         href: migrate-from-legacy-analysis-to-net-analyzers.md
-      - name: Migrate from FxCop analyzers to .NET analyzers
+      - name: Migrate from NuGet FxCop analyzers to .NET analyzers
         href: migrate-from-fxcop-analyzers-to-net-analyzers.md
       - name: FAQ
         href: net-analyzers-faq.yml
