@@ -1,7 +1,7 @@
 ---
 title: Switch between Python environments
 description: Select a specific Python environment in Visual Studio, including Anaconda and virtual environments, to apply the environment to a specific project.
-ms.date: 01/29/2024
+ms.date: 02/09/2024
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
@@ -106,6 +106,17 @@ Follow these steps to activate an existing environment for a project:
    After Visual Studio activates the environment, the name of the active environment is shown in a bold font in **Solution Explorer**:
 
    :::image type="content" source="media/environments/environments-project-activated-item.png" alt-text="Screenshot that shows how Visual Studio shows the name of the active environment in a bold font in Solution Explorer." border="false":::
+
+## Remove a virtual environment
+
+Follow these steps to remove an existing environment for a project:
+
+1. In **Solution Explorer**, right-click the virtual environment and select **Remove**.
+
+1. Visual Studio asks whether you want to remove or delete the virtual environment.
+
+   - Select **Remove** to make the environment unavailable to the project but leave it on the file system.
+   - Select **Delete** to both remove the environment from the project and delete it from the file system. The base interpreter is unaffected.
 
 ## View and manage installed packages
 

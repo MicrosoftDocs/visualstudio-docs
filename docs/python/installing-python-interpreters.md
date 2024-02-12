@@ -1,7 +1,7 @@
 ---
 title: Select and install Python interpreters
 description: Review a complete list of Python interpreters that are supported in Visual Studio and follow brief instructions on where to find their installers.
-ms.date: 01/23/2024
+ms.date: 02/08/2024
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
@@ -13,21 +13,19 @@ ms.subservice: python
 ---
 # Install Python interpreters
 
-There are several options for installing Python interpreters to work with Visual Studio. You can install an interpreter when you install the Python workload, or you can install an interpreter after a workload is present. Interpreters can also be installed manually outside of the Visual Studio installer.
+There are several options for installing Python interpreters to work with Visual Studio. You can install an interpreter when you install the Python workload, or you can install an interpreter after a workload is present. Interpreters can also be installed manually outside of the Visual Studio Installer.
 
 When you install the Python development workload in Visual Studio 2017 and later, Python 3 (64-bit) also installs by default. As an option, you can choose to install the 32-bit or 64-bit version of Python 2 or Python 3, along with Miniconda (Visual Studio 2019) or Anaconda 2/Anaconda 3 (Visual Studio 2017). The steps for this type of installation are described in [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
 
 An alternate approach is to install standard Python interpreters by using the **Add Environment** feature in Visual Studio. This option is available in the **Python Environments** window and the Python toolbar.
 
-Python interpreters can also be installed manually outside of the Visual Studio installer. Suppose you install Anaconda 3 before you install Visual Studio. You don't need to reinstall Anaconda through the Visual Studio installer. You can also install a newer version of an interpreter if it isn't yet listed in the Visual Studio installer. 
+Python interpreters can also be installed manually outside of the Visual Studio Installer. Suppose you install Anaconda 3 before you install Visual Studio. You don't need to reinstall Anaconda through the Visual Studio Installer. You can also install a newer version of an interpreter if it isn't yet listed in the Visual Studio Installer. 
 
 ## Prerequisites
 
-- Visual Studio 2019 and later supports Python version 3.7 and later. While it's possible to use an earlier version of Visual Studio to edit code written in earlier versions of Python, those versions of Python aren't officially supported. Visual Studio features such as IntelliSense and debugging might not work with earlier versions of Python.
+- Visual Studio supports Python version 3.7. While it's possible to use an earlier version of Visual Studio to edit code written in earlier versions of Python, those versions of Python aren't officially supported. Visual Studio features such as IntelliSense and debugging might not work with earlier versions of Python.
 
-- For Visual Studio 2015 and earlier, use Python 3.5 or earlier.
-
-- For Visual Studio 2015 and earlier, you must manually install one of the Python interpreters.
+- For Visual Studio 2015 and earlier, use Python 3.5 or earlier. You must manually install one of the Python interpreters.
 
 ### Anaconda distributions
 

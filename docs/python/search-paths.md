@@ -1,7 +1,7 @@
 ---
 title: Use Python folders in search paths
 description: Use the Add Folder to Search Path option in Solution Explorer to specify search paths for your Python environments and projects and avoid using system-wide variables.
-ms.date: 01/29/2024
+ms.date: 02/09/2024
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
@@ -49,12 +49,6 @@ After folders are added to the search paths, Visual Studio uses those paths for 
 
 > [!NOTE]
 > If your environment is based on Python 3 and you attempt to add a search path to Python 2.7 modules, you might see errors.
-
-## Use the Add PYTHONPATH shortcut
-
-<!-- Megha: I'm not able to find the **Add PYTHONPATH to Search Paths** option. Where is this feature? -->
-
-If your `PYTHONPATH` environment variable already includes the folder(s) you want, use the **Add PYTHONPATH to Search Paths** as a convenient shortcut.
 
 ## Add zip and egg files to search paths
 

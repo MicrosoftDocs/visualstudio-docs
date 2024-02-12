@@ -1,14 +1,14 @@
 ---
 title: Manage Python package dependencies
 description: Use the pip freeze > requirements.txt command and manage your Python package dependencies for application development in Visual Studio.
-ms.date: 01/24/2024
+ms.date: 02/09/2024
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
 ms.subservice: python
 
-# CustomerIntent: As a developer, I want to explore options for managing my Python package dependencies so that I can ensure my shared or copied Python application works as expected.
+# CustomerIntent: As a developer, I want to explore options for managing my Python package dependencies so that I can ensure my Python application works as expected.
 
 ---
 # Manage required Python packages with requirements.txt
@@ -19,11 +19,11 @@ The recommended approach for specifying external dependent Python packages is to
 
 A requirements file contains precise versions of all installed packages. You can use requirements files to freeze the requirements of an environment. By using precise package versions, you can easily reproduce your environment on another computer. The requirements files include packages even if they're installed with a version range, as a dependency of another package, or with an installer other than pip.
 
+Technically, any filename can be used to track requirements, but Visual Studio provides specific support for the requirements file named "requirements.txt." You can use the `-r <full path to file>` argument when you install a package to specify your preferred name for the file. 
+
 ## Prerequisites
 
-- Visual Studio provides specific support for the requirements file named "requirements.txt."
-
-- You don't need to name your file "requirements.txt." You can use the `-r <full path to file>` argument when you install a package to specify your preferred name for the file. 
+None.
 
 ## Install dependencies listed in requirements.txt
 
@@ -89,7 +89,7 @@ If the _requirements.txt_ file already exists, Visual Studio displays a prompt w
 - **Refresh existing entries**: Update the version specifiers in the _requirements.text_ file to match the currently installed version.
 - **Update and add entries**: Refresh existing requirements in the _requirements.text_ file, and append all new package requirements to the end of the file.
 
-Visual Studio runs pip to detect the current package requirements for the environment, and then updates your _requirements.txt_ file based on your selection.
+Visual Studio runs `pip` to detect the current package requirements for the environment, and then updates your _requirements.txt_ file based on your selection.
 
 ## Manually install package dependencies
 
