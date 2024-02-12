@@ -14,7 +14,7 @@ ms.author: mikejo
 manager: jmartens
 ms.subservice: code-analysis
 ---
-# Migrate from FxCop analyzers to .NET analyzers
+# Migrate from NuGet FxCop analyzers to .NET analyzers
 
 Source analysis by .NET Compiler Platform ("Roslyn") analyzers replaces [legacy analysis](code-analysis-for-managed-code-overview.md) for managed code. Many of the legacy analysis (FxCop) rules have already been rewritten as source analyzers.
 

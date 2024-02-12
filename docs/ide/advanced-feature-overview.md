@@ -162,18 +162,20 @@ You can also improve the Git performance on large repositories by [enabling Git 
 
 ::: moniker-end
 
-## Next steps
+## Extend Visual Studio
 
-- If Visual Studio doesn't have the exact functionality you need, you can add it. Personalize the IDE based on your workflow and style, add support for external tools that aren't integrated with Visual Studio, and modify existing functionality to increase your productivity. For the latest version of the Visual Studio Extensibility Tools (VS SDK), see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
+If Visual Studio doesn't have the exact functionality you need, you can add it. Personalize the IDE based on your workflow and style, add support for external tools that aren't integrated with Visual Studio, and modify existing functionality to increase your productivity. For the latest version of the Visual Studio Extensibility Tools (VS SDK), see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
 
-- You can use the .NET Compiler Platform *Roslyn* to write your own code analyzers and code generators. Find everything you need at [Roslyn](https://github.com/dotnet/Roslyn).
+You can use the .NET Compiler Platform *Roslyn* to write your own code analyzers and code generators. Find everything you need at [Roslyn](https://github.com/dotnet/Roslyn).
 
-- Find [existing extensions](https://marketplace.visualstudio.com/vs) for Visual Studio created by Microsoft developers and the Visual Studio development community.
+Find [existing extensions](https://marketplace.visualstudio.com/vs) for Visual Studio created by Microsoft developers and the Visual Studio development community.
 
-- To learn more about extending Visual Studio, see [Extend Visual Studio IDE](https://visualstudio.microsoft.com/vs/extend/).
+To learn more about extending Visual Studio, see [Extend Visual Studio IDE](https://visualstudio.microsoft.com/vs/extend/).
 
-## See also
+## Related content
 
+- [Visual Studio SDK](../extensibility/visual-studio-sdk.md)
+- [Roslyn](https://github.com/dotnet/Roslyn)
 - [Visual Studio IDE overview](../get-started/visual-studio-ide.md)
 - [What's new in Visual Studio 2017](../ide/whats-new-visual-studio-2017.md)
 - [What's new in Visual Studio 2019](../ide/whats-new-visual-studio-2019.md)
