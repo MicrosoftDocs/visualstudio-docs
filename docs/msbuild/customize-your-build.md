@@ -15,7 +15,7 @@ ms.subservice: msbuild
 
 MSBuild projects that use the standard build process (importing *Microsoft.Common.props* and *Microsoft.Common.targets*) have several extensibility hooks that you can use to customize your build process.
 
-Many customizable build operations are controlled by properties. It is important to know how and where to set a property value in order to have the desired effect. You can set properties on the command line (and in response files), in special files like *Directory.Build.props*, in imported files, or in the project file. It is important to know where a property is used, set, or changed and the order of imported files, including implicit imports from SDKs like the .NET SDK.
+Many customizable build operations are controlled by properties. It's important to know how and where to set a property value in order to have the desired effect. You can set properties on the command line (and in response files), in special files like *Directory.Build.props*, in imported files, or in the project file. It's important to know where a property is used, set, or changed and the order of imported files, including implicit imports from SDKs like the .NET SDK.
 
 For a list of properties, see [MSBuild common properties](./common-msbuild-project-properties.md).
 
@@ -43,7 +43,7 @@ A *Directory.Build.rsp* file in or above your source directory is applied to com
 
 MSBuild is import-order dependent, and the last definition of a property (or a `UsingTask` or target) is the definition used.
 
-When using explicit imports, you can import from a `.props` or `.targets` file at any point. Here is the widely used convention:
+When using explicit imports, you can import from a `.props` or `.targets` file at any point. Here's the widely used convention:
 
 - `.props` files are imported early in the import order.
 
