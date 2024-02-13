@@ -33,7 +33,7 @@ You can use Test Explorer to start a debugging session for your tests. Stepping 
 ::: moniker range=">=vs-2022"
 Starting in Visual Studio 2022 version 17.8, you can use any applicable tool in the Performance Profiler to help improve your code, and not just the Instrumentation tool. You can profile small units of work in isolation, make changes, and then remeasure and validate the impact of the change.
 
-To diagnose why a test method is taking more time than you'd like, or using more memory than you'd like, select the method in Test Explorer and then choose **Profile** on the right-click menu. The **Performance Profiler** opens and you can select a profiling tool to test your code. For more information, see this [blog post](https://devblogs.microsoft.com/visualstudio/a-unit-of-profiling-makes-the-allocations-go-away/) or see [Collect profiling data without debugging](../profiling/running-profiling-tools-with-or-without-the-debugger?view=vs-2022#collect-profiling-data-without-debugging).
+To diagnose why a test method is taking more time than you'd like, or using more memory than you'd like, select the method in Test Explorer and then choose **Profile** on the right-click menu. The **Performance Profiler** opens and you can select a profiling tool to test your code. For more information, see this [blog post](https://devblogs.microsoft.com/visualstudio/a-unit-of-profiling-makes-the-allocations-go-away/) or see [Collect profiling data without debugging](../profiling/running-profiling-tools-with-or-without-the-debugger.md#collect-profiling-data-without-debugging).
 ::: moniker-end
 
 ::: moniker range="vs-2019"
