@@ -6,7 +6,7 @@ ms.date: 2/13/2024
 ms.subservice: general-ide
 
 ms.topic: tutorial
-ms.devlang: CSharp
+ms.devlang: csharp
 author: ghogen
 ms.author: ghogen
 manager: jmartens
