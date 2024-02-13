@@ -2127,6 +2127,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/quickstart-personalize-the-ide.md",
+      "redirect_url": "/visualstudio/ide/how-to-change-fonts-and-colors-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/environment-settings.md",
+      "redirect_url": "/visualstudio/ide/personalizing-the-visual-studio-ide",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/install/set-defaults-for-enterprise-deployments.md",
       "redirect_url": "/visualstudio/install/configure-policies-for-enterprise-deployments",
       "redirect_document_id": false

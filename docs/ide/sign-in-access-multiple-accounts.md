@@ -20,7 +20,7 @@ Azure, Application Insights, Azure DevOps, and Microsoft 365 services all suppor
 
 Access your Azure account as follows:
 
-1. To open Server Explorer, choose **View** > **Server Explorer** (or, if you're using the "General" [environment settings](../ide/environment-settings.md), press **Ctrl**+**Alt**+**S**).
+1. To open Server Explorer, choose **View** > **Server Explorer** (or, if you're using the "General" [environment settings](../ide/personalizing-the-visual-studio-ide.md), press **Ctrl**+**Alt**+**S**).
 
 1. Expand the **Azure** node and notice that it contains the resources available in the Azure account associated with the account you used to sign in to Visual Studio. It looks similar to the following image:
 

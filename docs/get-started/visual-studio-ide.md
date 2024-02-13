@@ -59,7 +59,7 @@ Visual Studio IDE provides many [features](../ide/writing-code-in-the-code-and-t
 Learn more about all the features in the IDE to organize and edit content:
 
 - [Code editor](tutorial-editor.md)
-- [Personalize](../ide/quickstart-personalize-the-ide.md) the IDE and the editor 
+- [Personalize](../ide/personalizing-the-visual-studio-ide.md) the IDE and the editor 
 - [Organize code](tutorial-projects-solutions.md)
 - [Tips and tricks](../ide/productivity-features.md)
 

@@ -39,4 +39,4 @@ After you register an additional Azure cloud, you can choose which Azure cloud y
 - [Synchronize settings across multiple computers](../synchronized-settings-in-visual-studio.md)
 - [Sign in to Visual Studio](../signing-in-to-visual-studio.md)
 - [Work with multiple user accounts](../work-with-multiple-user-accounts.md)
-- [Environment settings](../environment-settings.md)
+- [Environment settings](../personalizing-the-visual-studio-ide.md)
