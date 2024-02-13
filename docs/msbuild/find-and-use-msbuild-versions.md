@@ -14,12 +14,12 @@ To ensure that programmatic builds from your application match builds done withi
 
 ## Use Microsoft.Build.Locator
 
-The [Microsoft.Build.Locator package](https://www.nuget.org/packages/Microsoft.Build.Locator) is relevant to situations where your application runs on client machines, virtual machines, or within containers, either where Visual Studio is installed or in environments where only the Visual Studio Build Tools, or just the .NET SDK is installed, such as when builds are requested with the `dotnet build` command line. In any case, your application needs to find the desired version of MSBuild. That could be the version that matches Visual Studio, MSBuild.exe, or `dotnet build`, or a particular consistent version regardless of the varying machine configurations in environments where your application might be used.
+The [Microsoft.Build.Locator package](https://www.nuget.org/packages/Microsoft.Build.Locator) is relevant to situations where your application runs on client machines, virtual machines, or within containers, either where Visual Studio is installed or in environments where only the Visual Studio Build Tools, or just the .NET SDK is installed, such as when builds are requested with the `dotnet build` command line. In any case, your application needs to find the desired version of MSBuild. That version of MSBuild could be the version that matches Visual Studio, MSBuild.exe, or `dotnet build`, or a particular consistent version regardless of the varying machine configurations in environments where your application might be used.
 
 > [!WARNING]
 > The Microsoft.Build.Locator package contains assemblies for .NET Framework and .NET Core (also applicable to .NET 5 and later). In a .NET Framework application, the .NET Framework version of Microsoft.Build.Locator is used, and in a .NET Core application, the .NET Core version is used. However, the .NET Core version can only find instances of MSBuild built with .NET Core, the MSBuild used by `dotnet.exe` in .NET SDK installations, not Visual Studio installations or Visual Studio Build Tools installations. The .NET Framework version of Microsoft.Build.Locator can only see Visual Studio installations, Visual Studio Build Tools installations, not .NET SDK installations. Therefore, it might be necessary to build a tool in two different target framework configurations to target both.
 
-If you redistribute *Microsoft.Build.Locator.dll* with your application, you won't need to distribute other MSBuild assemblies.
+If you redistribute *Microsoft.Build.Locator.dll* with your application, you don't need to distribute other MSBuild assemblies.
 
 Using the locator API requires a few changes in your project, described below. To see an example of the changes required to update a project, see [the commits made to an example project in the MSBuildLocator repository](https://github.com/Microsoft/MSBuildLocator/commits/example-updating-to-msbuild-15).
 
@@ -48,7 +48,7 @@ For example, you can use this XML:
 
 #### Use extension assemblies
 
-If you can't use NuGet packages, you can reference MSBuild assemblies that are distributed with Visual Studio. If you reference MSBuild directly, ensure that it won't be copied to your output directory by setting `Copy Local` to `False`. In the project file, this setting will look like the following code:
+If you can't use NuGet packages, you can reference MSBuild assemblies that are distributed with Visual Studio. If you reference MSBuild directly, ensure that it isn't copied to your output directory by setting `Copy Local` to `False`. In the project file, this setting resembles the following code:
 
 ```xml
     <Reference Include="Microsoft.Build, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -57,11 +57,11 @@ If you can't use NuGet packages, you can reference MSBuild assemblies that are d
 ```
 
 > [!NOTE]
-> If you're updating from a version of MSBuild prior to 15, MSBuild requires binding redirects for certain assemblies (Microsoft.Build assemblies), but if you reference the Microsoft.Build.Locator package, you ensure that your application automatically uses the required binding redirects to version 15.1.0.0. Binding redirects to this version support MSBuild 15.x, 16.x, and 17.x.
+> If you're updating from a version of MSBuild prior to 15, MSBuild requires binding redirects for certain assemblies (`Microsoft.Build` assemblies), but if you reference the `Microsoft.Build.Locator` package, you ensure that your application automatically uses the required binding redirects to version 15.1.0.0. Binding redirects to this version support MSBuild 15.x, 16.x, and 17.x.
 
 ## Ensure output is clean
 
-Build your project and inspect the output directory to make sure that it doesn't contain any *Microsoft.Build.\*.dll* assemblies other than *Microsoft.Build.Locator.dll*, added in the next step.
+Build your project and inspect the output directory to make sure that it doesn't contain any `Microsoft.Build.*.dll` assemblies other than `Microsoft.Build.Locator.dll`, added in the next step.
 
 ## Add package reference for Microsoft.Build.Locator
 
@@ -73,7 +73,7 @@ Add a NuGet package reference for [Microsoft.Build.Locator](https://www.nuget.or
     </PackageReference>
 ```
 
-Do not specify `ExcludeAssets=runtime` for the Microsoft.Build.Locator package.
+Don't specify `ExcludeAssets=runtime` for the Microsoft.Build.Locator package.
 
 ## Register instance before calling MSBuild
 
@@ -82,7 +82,7 @@ When you're creating a build application for general use, you don't know what ve
 The simplest way to add the call to the Locator API is to add a call to `MSBuildLocator.RegisterInstance`
 in your application startup code. One example is to pick the latest version, as shown here, but your application might have it own requirements.
 
-You cannot reference any MSBuild types (from the `Microsoft.Build` namespace) in the method that calls MSBuildLocator. For example, you cannot do this:
+You can't reference any MSBuild types (from the `Microsoft.Build` namespace) in the method that calls MSBuildLocator. For example, you can't use code like the following:
 
  ```csharp
  void ThisWillFail()
@@ -95,7 +95,7 @@ You cannot reference any MSBuild types (from the `Microsoft.Build` namespace) in
  }
  ```
 
- Instead, you must do this:
+ Instead, write code like this:
 
  ```csharp
  void MethodThatDoesNotDirectlyCallMSBuild()
