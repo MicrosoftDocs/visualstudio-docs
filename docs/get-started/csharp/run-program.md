@@ -2,7 +2,7 @@
 title: "How to run a program (C#)"
 description: Start programming with C# in Visual Studio and run programs from a project or code file, work with assemblies, references, NuGet packages, and .NET. 
 ms.custom: vs-acquisition
-ms.date: 3/8/2023
+ms.date: 2/13/2024
 ms.subservice: general-ide
 
 ms.topic: tutorial
@@ -29,7 +29,7 @@ How to run a program depends on what you start from, the type of program, and wh
 
 ## Start from a project
 
-You can run a C# project or *.csproj* file if it's a runnable program. If the project contains a C# file with a `Main` method, and its output is an executable or *.exe* file, it will probably run if it builds successfully. Newer versions of C# don't require a `Main` method; instead, program executions starts with top-level statements. See [Programs without Main methods](/dotnet/csharp/fundamentals/program-structure/top-level-statements).
+You can run a C# project (*.csproj* file) if it's a runnable program. If the project contains a C# file with a `Main` method, and its output is an executable or *.exe* file, it will probably run if it builds successfully. Newer versions of C# don't require a `Main` method; instead, program executions starts with top-level statements. See [Programs without Main methods](/dotnet/csharp/fundamentals/program-structure/top-level-statements). If a project has no `Main` method and no top-level statements, then it might be a class library. If so, it's not runnable on its own, but it can be referenced by other projects.
 
 1. If your program code is already in a Visual Studio project, open the project. To do so, you can double-click or tap on the *.csproj* file in Windows File Explorer, or choose **Open a project** in Visual Studio, browse to find the *.csproj* file, and select the file.
 
@@ -54,13 +54,13 @@ If you start from a code listing, code file, or small number of files, first mak
 
 ### Code listing for a single file
 
-1. Start Visual Studio, and open an empty C# Console Application project.
-1. Replace all the code in the project *.cs* file with the contents of your code listing or file.
+1. Start Visual Studio, choose **Create a new project**, and choose the C# **Console App** project.
+1. Replace all the code in the project *.cs* file with the contents of your code listing or file. If the code you want to use is on the web, or in a single file, it might be easiest to select the code, copy it to the clipboard, and paste it into a code file in the Visual Studio project.
 1. Rename the project *.cs* file to match your code file name.
 
 ### Several code listings or files on disk
 
-1. Start Visual Studio, and create a new project of the appropriate type. Use the C# **Console Application** if you're not sure.
+1. Start Visual Studio, and create a new project of the appropriate type. Use the C# **Console App** if you're not sure.
 1. In the new project, replace all the code in the project code file with the contents of your first code listing or file.
 1. Rename the project code file to match your code file name.
 1. For each remaining code file:
@@ -108,7 +108,7 @@ Here's an example of a missing `using` directive. You can add `using System;` to
 :::image type="content" source="media/vs-2022/missing-using-directive.png" alt-text="Screenshot of light bulb to add a using directive." border="false":::
 ::: moniker-end
 
-Newer versions of C# support implicit using directives for some commonly used namespaces, so if you chose that option when creating a project, you don't need them.
+More recent of C# support implicit using directives for some commonly used namespaces, so if you chose that option when creating a project, you don't need them.
 
 #### Add an assembly reference
 
