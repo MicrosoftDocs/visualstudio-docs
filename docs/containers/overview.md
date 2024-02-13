@@ -4,7 +4,7 @@ description: Explore tools available for working with Docker containers in Visua
 author: ghogen
 ms.author: ghogen
 ms.topic: overview
-ms.date: 3/8/2023
+ms.date: 2/13/2024
 ms.subservice: container-tools
 ---
 # Visual Studio Container Tools for Docker
