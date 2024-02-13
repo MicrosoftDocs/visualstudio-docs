@@ -23,7 +23,7 @@ A requirements file contains precise versions of all installed packages. You can
 
 - Visual Studio installed with support for Python workloads. For more information, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
 
-- A requirements file. You can use an existing requirements file or [generate a file](#generate-the-requirements-txt-file) as described in this article.
+- A requirements file. You can use an existing requirements file or [generate a file](#generate-the-requirementstxt-file) as described in this article.
 
 Technically, any filename can be used to track requirements. However, Visual Studio provides specific support for the requirements file named "requirements.txt." You can use the `-r <full path to file>` argument when you install a package to specify your preferred name for the file.
 
