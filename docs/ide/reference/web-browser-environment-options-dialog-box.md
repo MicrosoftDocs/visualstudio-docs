@@ -34,7 +34,7 @@ Sets options for both the internal Web browser and Internet Explorer. To access 
 > Opening certain files or components from the Web can execute code on your computer.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../environment-settings.md#reset-all-settings).
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../personalizing-the-visual-studio-ide.md#reset-all-settings).
 
 ## Home page
 

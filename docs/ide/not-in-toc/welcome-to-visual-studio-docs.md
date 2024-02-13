@@ -88,4 +88,4 @@ If your feedback is about the documentation, use the feedback link at the bottom
 ## Next steps
 
 + [Main documentation home page](~/windows/index.yml)
-+ [Select a color theme for Visual Studio](~/ide/quickstart-personalize-the-ide.md)
++ [Select a color theme for Visual Studio](~/ide/how-to-change-fonts-and-colors-in-visual-studio.md)

@@ -8,7 +8,7 @@ f1_keywords:
 - VS.DevicePanel
 - VS.DocumentOutline
 - Blend.Start.Dev12
-ms.devlang: CSharp
+ms.devlang: csharp
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens

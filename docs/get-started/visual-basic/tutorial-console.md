@@ -39,7 +39,7 @@ First, you create a Visual Basic app project. The default project template inclu
 ::: moniker range="<=vs-2019"
 
 > [!NOTE]
-> Some of the screenshots in this tutorial use the dark theme. If you aren't using the dark theme but would like to, see the [Personalize the Visual Studio IDE and Editor](../../ide/quickstart-personalize-the-ide.md) page to learn how.
+> Some of the screenshots in this tutorial use the dark theme. If you aren't using the dark theme but would like to, see the [Change fonts, colors, and themes in Visual Studio](../../ide/how-to-change-fonts-and-colors-in-visual-studio.md) page to learn how.
 
 ::: moniker-end
 
