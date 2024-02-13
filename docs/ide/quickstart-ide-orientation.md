@@ -285,5 +285,5 @@ You looked at just a few of the features of Visual Studio to get acquainted with
 - [Learn about projects and solutions](../get-started/tutorial-projects-solutions.md)
 - [Overview of the Visual Studio IDE](../get-started/visual-studio-ide.md)
 - [More features of Visual Studio](../ide/advanced-feature-overview.md)
-- [Change theme and font colors](../ide/quickstart-personalize-the-ide.md)
+- [Change theme and font colors](../ide/how-to-change-fonts-and-colors-in-visual-studio.md)
 - [Optimize the Visual Studio experience on Microsoft Dev Box](/azure/dev-box/how-to-generate-visual-studio-caches)

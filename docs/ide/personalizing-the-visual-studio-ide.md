@@ -17,9 +17,25 @@ You can customize Visual Studio IDE settings in various ways to best support you
 
 ## Default environment settings for Visual Studio
 
-You can choose a default collection of [environment settings](environment-settings.md) that optimizes Visual Studio for your type of development. 
+In Visual Studio, you can optimize your development environment for the type of development work you do by selecting **Tools** > **Import and Export Settings Wizard**. You can use the wizard to import or export specific categories of setting, or to reset the environment to one of the default collections of settings.  Each collection of settings optimizes elements such as keyboard shortcuts, window layouts, project and item templates, and command visibility.
 
-In Visual Studio, you can optimize your development environment for the type of development work you do by selecting **Tools** > **Import and Export Settings Wizard**. From this wizard, you can choose a specific collection of settings that best matches your development environment. Each collection of settings optimizes elements such as keyboard shortcuts, window layouts, project and item templates, and command visibility.
+### Reset all settings
+
+You can also use the wizard to reset the environment to one of the default collections of settings. Here's how.
+
+1. From the menu bar, select **Tools** > **Import and Export Settings**.
+
+1. In the **Import and Export Settings Wizard**, select **Reset all settings**, and then select **Next**.
+
+    :::image type="content" source="media/vs-2022/personalizing-the-visual-studio-ide/import-export-settings-wizard.png" alt-text="Screenshot of the 'Import and Export Settings Wizard' in Visual Studio 2022.":::
+
+1. On the **Save Current Settings** page, select either **Yes, save my current settings** or **No, just reset settings, overwriting my current settings**, and then select **Next**.
+
+1. On the **Choose a Default Collection of Settings** page, select a collection, and then select **Finish**.
+
+    :::image type="content" source="media/vs-2022/personalizing-the-visual-studio-ide/import-export-settings-collections.png" alt-text="Screenshot of the default collection of settings in Visual Studio.":::
+
+1. On the **Reset Complete** page, select **Close**.
 
 ## General environment options
 
@@ -56,7 +72,7 @@ You can customize the **Tools** menu to launch external tools. For more informat
 
 ## Related content
 
-- [Environment settings](environment-settings.md)
+- [Environment settings](personalizing-the-visual-studio-ide.md)
 - [Visual Studio IDE overview](../get-started/visual-studio-ide.md)
 - [Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
 - [Customize the Visual Studio for Mac IDE](/visualstudio/mac/customizing-the-ide)

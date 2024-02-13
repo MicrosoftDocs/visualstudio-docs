@@ -12,7 +12,7 @@ ms.subservice: extensibility-integration
 ---
 # Create a settings category
 
-In this walkthrough you create a Visual Studio settings category and use it to save values to and restore values from a settings file. A settings category is a group of related properties that appear as a "custom settings point"; that is, as a check box in the **Import and Exports Settings** wizard. (You can find it on the **Tools** menu.) Settings are saved or restored as a category, and individual settings are not displayed in the wizard. For more information, see [Environment settings](../ide/environment-settings.md).
+In this walkthrough you create a Visual Studio settings category and use it to save values to and restore values from a settings file. A settings category is a group of related properties that appear as a "custom settings point"; that is, as a check box in the **Import and Exports Settings** wizard. (You can find it on the **Tools** menu.) Settings are saved or restored as a category, and individual settings are not displayed in the wizard. For more information, see [Environment settings](../ide/personalizing-the-visual-studio-ide.md#general-environment-options).
 
 You create a settings category by deriving it from the <xref:Microsoft.VisualStudio.Shell.DialogPage> class.
 

@@ -798,11 +798,6 @@
   - name: Customize the IDE
     displayName: Personalize
     href: ide/personalizing-the-visual-studio-ide.md
-  - name: Personalize the color theme and text
-    href: ide/quickstart-personalize-the-ide.md
-  - name: Environment settings
-    displayName: profiles
-    href: ide/environment-settings.md
   - name: Synchronized settings
     href: ide/synchronized-settings-in-visual-studio.md
   - name: Fonts and colors
