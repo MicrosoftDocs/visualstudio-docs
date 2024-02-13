@@ -6,7 +6,7 @@ keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.date: 11/14/2023
+ms.date: 02/13/2024
 
 ms.subservice: installation
 ms.topic: include
@@ -21,7 +21,7 @@ ms.topic: include
 
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
-Microsoft.VisualStudio.Component.CoreEditor | Visual Studio core editor | 17.8.34129.139 | Required
+Microsoft.VisualStudio.Component.CoreEditor | Visual Studio core editor | 17.9.34511.75 | Required
 
 ## Unaffiliated components
 

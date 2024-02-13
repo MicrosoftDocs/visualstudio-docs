@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2022"
 titleSuffix: ""
 description: Discover new features in Visual Studio 2022, including answers to questions and AI consultations while you code with a subscription to GitHub Copilot.
-ms.date: 11/14/2023
+ms.date: 02/13/2024
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -15,7 +15,7 @@ ms.topic: whats-new
 ---
 # What's new in Visual Studio 2022
 
-**Updated for the 17.8 release.** See [full release notes](/visualstudio/releases/2022/release-notes) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
+**Updated for the 17.9 release.** See [full release notes](/visualstudio/releases/2022/release-notes) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
 
 >[!div class="button"]
 >[Download Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)
@@ -32,6 +32,8 @@ Want to see what's new in each updated release from within Visual Studio itself?
 ## AI-assisted development
 
 With a subscription to GitHub Copilot, you can get answers to questions and consult with an AI while you code. Visual Studio 2022 version 17.4 and later include integration with [GitHub Copilot](../ide/visual-studio-github-copilot-extension.md), and version 17.6 and later also support GitHub Copilot Chat. See [AI-assisted development](../ide/ai-assisted-development-visual-studio.md).
+
+In version 17.9 and later, try out [AI-generated commit messages](../version-control/git-make-commit.md#generate-commit-messages-with-github-copilot-chat).
 
 ## Performance improvements
 
@@ -62,10 +64,10 @@ In [Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/visual-studi
 
 ## Build modern apps
 
-Visual Studio 2022 makes it quick and easy to build modern, cloud-based applications with Azure. As well, our new version also has full support for .NET and its unified framework for web, client, and mobile apps for both Windows and Mac developers. And, Visual Studio 2022 includes robust support for the C++ workload with new productivity features, C++20 tooling, and [IntelliSense](using-intellisense.md).
+Visual Studio 2022 makes it quick and easy to build modern, cloud-based applications with Azure. See [Azure development with Visual Studio](../azure/overview.md). As well, our new version also has full support for .NET and its unified framework for web, client, and mobile apps for both Windows and Mac developers. And, Visual Studio 2022 includes robust support for the C++ workload with new productivity features, C++20 tooling, and [IntelliSense](using-intellisense.md).
 
 > [!TIP]
-> To learn more about **.NET 7**, the successor to [.NET 6](/dotnet/core/whats-new/dotnet-6/), see [What's new in .NET 7](/dotnet/core/whats-new/dotnet-7/).
+> To learn more about **.NET 8**, the successor to [.NET 7](/dotnet/core/whats-new/dotnet-7/), see [What's new in .NET 8](/dotnet/core/whats-new/dotnet-8/overview).
 
 ### Better dev tools for C++ and .NET, and Hot Reload
 
