@@ -11,7 +11,7 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 dev_langs:
-  - CSharp
+  - csharp
 ---
 # Run a C# program in Visual Studio
 
