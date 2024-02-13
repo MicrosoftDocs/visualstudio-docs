@@ -1060,6 +1060,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/how-to-verify-iis-property-settings.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/how-to-verify-iis-property-settings",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/error-windows-file-sharing-has-been-configured-dot-dot-dot.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-windows-file-sharing-has-been-configured-dot-dot-dot",
       "redirect_document_id": false
