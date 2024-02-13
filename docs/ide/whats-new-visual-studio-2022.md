@@ -33,6 +33,8 @@ Want to see what's new in each updated release from within Visual Studio itself?
 
 With a subscription to GitHub Copilot, you can get answers to questions and consult with an AI while you code. Visual Studio 2022 version 17.4 and later include integration with [GitHub Copilot](../ide/visual-studio-github-copilot-extension.md), and version 17.6 and later also support GitHub Copilot Chat. See [AI-assisted development](../ide/ai-assisted-development-visual-studio.md).
 
+In version 17.9 and later, try out [AI-generated commit messages](../version-control/git-make-commit.md#generate-commit-messages-with-github-copilot-chat).
+
 ## Performance improvements
 
 Visual Studio 2022 is faster, more approachable, more lightweight, and is designed for both learners and those building industrial scale solutions. Plus, we continue to focus on performance with each iterative release. To learn more, see the [Visual Studio 2022 – 17.5 Performance Enhancements](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-5-performance-enhancements/) blog post.
@@ -62,10 +64,10 @@ In [Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/visual-studi
 
 ## Build modern apps
 
-Visual Studio 2022 makes it quick and easy to build modern, cloud-based applications with Azure. As well, our new version also has full support for .NET and its unified framework for web, client, and mobile apps for both Windows and Mac developers. And, Visual Studio 2022 includes robust support for the C++ workload with new productivity features, C++20 tooling, and [IntelliSense](using-intellisense.md).
+Visual Studio 2022 makes it quick and easy to build modern, cloud-based applications with Azure. See [Azure development with Visual Studio](../azure/overview.md). As well, our new version also has full support for .NET and its unified framework for web, client, and mobile apps for both Windows and Mac developers. And, Visual Studio 2022 includes robust support for the C++ workload with new productivity features, C++20 tooling, and [IntelliSense](using-intellisense.md).
 
 > [!TIP]
-> To learn more about **.NET 7**, the successor to [.NET 6](/dotnet/core/whats-new/dotnet-6/), see [What's new in .NET 7](/dotnet/core/whats-new/dotnet-7/).
+> To learn more about **.NET 8**, the successor to [.NET 7](/dotnet/core/whats-new/dotnet-7/), see [What's new in .NET 8](/dotnet/core/whats-new/dotnet-8/overview).
 
 ### Better dev tools for C++ and .NET, and Hot Reload
 
