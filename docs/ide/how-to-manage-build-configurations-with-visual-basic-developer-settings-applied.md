@@ -36,4 +36,4 @@ By default, the Visual Basic developer settings hide the option to open the **Co
 
 - [Understand build configurations](../ide/understanding-build-configurations.md)
 - [Compile and build](../ide/compiling-and-building-in-visual-studio.md)
-- [Environment settings](../ide/environment-settings.md)
+- [Environment settings](../ide/personalizing-the-visual-studio-ide.md)

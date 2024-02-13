@@ -16,7 +16,7 @@ When you sign in to Visual Studio on multiple computers using the same personali
 
 By default, the following settings are synchronized:
 
-- Development settings. You select a collection of settings the first time you open Visual Studio, but you can change the selection anytime. For more information, see [Environment settings](../ide/environment-settings.md).
+- Development settings. You select a collection of settings the first time you open Visual Studio, but you can change the selection anytime. For more information, see [Environment settings](../ide/personalizing-the-visual-studio-ide.md).
 
 - User-defined command aliases. For more information about how to define command aliases, see [Visual Studio command aliases](../ide/reference/visual-studio-command-aliases.md).
 
@@ -89,6 +89,6 @@ To reset all settings to their defaults, sign in to Visual Studio, and then sele
 ## Related content
 
 - [Personalize the IDE](../ide/personalizing-the-visual-studio-ide.md)
-- [Environment settings](../ide/environment-settings.md)
+- [Environment settings](../ide/personalizing-the-visual-studio-ide.md)
 - [Environment > Accounts Options dialog box](reference/accounts-environment-options-dialog-box.md)
 - [Install Visual Studio versions side-by-side](../install/install-visual-studio-versions-side-by-side.md)

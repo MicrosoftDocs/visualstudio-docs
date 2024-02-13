@@ -488,8 +488,6 @@
         items:
         - name: 'Debug Web applications: Errors and troubleshooting'
           href: debugging-web-applications-errors-and-troubleshooting.md
-        - name: Verify IIS property settings
-          href: how-to-verify-iis-property-settings.md
         - name: ASP.NET not installed
           href: error-aspnet-not-installed.md
         - name: Debugging failed because integrated Windows authentication is not enabled

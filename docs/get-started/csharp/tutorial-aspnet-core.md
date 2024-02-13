@@ -10,7 +10,7 @@ ms.date: 11/17/2023
 
 dev_langs:
   - CSharp
-ms.devlang: CSharp
+ms.devlang: csharp
 ---
 # Tutorial: Get started with C# and ASP.NET Core in Visual Studio
 
@@ -32,7 +32,7 @@ You need Visual Studio to complete this tutorial. Visit the [Visual Studio downl
 
 - For more information about upgrading to the latest Visual Studio release, see [Visual Studio updates](../../install/update-visual-studio.md).
 
-- To customize your Visual Studio experience, see [personalize the Visual Studio IDE and Editor](../../ide/quickstart-personalize-the-ide.md).
+- To customize your Visual Studio experience, see [personalize the Visual Studio IDE and Editor](../../ide/personalizing-the-visual-studio-ide.md).
 
 ## Create a project
 

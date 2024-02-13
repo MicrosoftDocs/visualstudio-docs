@@ -1,7 +1,7 @@
 ---
 title: Find calls to a method
 description: Learn how to use the Call Hierarchy window to navigate all calls to, and sometimes from, a selected method, property, or constructor.
-ms.date: 05/18/2018
+ms.date: 02/09/2024
 ms.topic: reference
 f1_keywords:
 - VS.CallHierarchy
@@ -24,9 +24,12 @@ To display the **Call Hierarchy** window, right-click in the code editor on the 
 
 The member name appears in a tree view pane in the **Call Hierarchy** window. If you expand the member node, **Calls To** *member name*, and for C++, **Calls From** *member name*, subnodes appear.
 
-For C++ code, you can see calls both to and from a member:
+For C++ code, you can see explicit calls both to and from a member:
 
 ![Call Hierarchy for C++ code in Visual Studio](media/call-hierarchy-cpp.png)
+
+> [!NOTE]
+> In C++ code, member functions may be called implicitly, such as a constructor or a type conversion method; these implicit calls are not necessarily included in the list.
 
 For C# and Visual Basic code, you can see calls to a member, but not calls from:
 
@@ -34,7 +37,7 @@ For C# and Visual Basic code, you can see calls to a member, but not calls from:
 
 - If you expand the **Calls To** node, all members that call the selected member are displayed.
 
-- For C++, f you expand the **Calls From** node, all members that are called by the selected member are displayed.
+- For C++, f you expand the **Calls From** node, all members that are (explicitly) called by the selected member are displayed.
 
 You can then expand each calling member to see its **Calls To**, and for C++, **Calls From** nodes. This enables you to navigate into the stack of callers, as shown in the following image:
 

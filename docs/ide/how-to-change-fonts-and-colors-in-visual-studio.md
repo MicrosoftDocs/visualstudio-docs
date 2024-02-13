@@ -2,7 +2,7 @@
 title: Change themes, fonts, text, & accessibility options in Visual Studio
 description: Learn how to change Visual Studio color themes, font colors, text sizes, extra-contrast colors, and more for ease of use and accessibility concerns.
 titleSuffix: ''
-ms.date: 04/21/2023
+ms.date: 02/11/2024
 ms.topic: how-to
 helpviewer_keywords:
 - Visual Studio, color themes
@@ -233,7 +233,7 @@ Visual Studio also includes autocompletion for methods and parameters; for more 
 There are more ways to customize Visual Studio to be more accessible to you. For example, you can change the behavior of pop-up windows, text-based tool windows, toolbar buttons, margin indicators, and more.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described here, which can vary depending on your active settings or edition. To change your settings, select **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](environment-settings.md#reset-all-settings).
+> The dialog boxes and menu commands you see might differ from those described here, which can vary depending on your active settings or edition. To change your settings, select **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](personalizing-the-visual-studio-ide.md#reset-all-settings).
 
 #### Change the behavior of pop-up windows
 
@@ -292,11 +292,13 @@ You can choose to change the default colors for text, margin indicators, white s
 
 1. In **Show settings for**, select **Text Editor**.
 
-1. From **Display items**, select an item whose display you need to change, such as **Plain Text**, **Indicator Margin**, **Visible White Space**, **HTML Attribute Name**, or **XML Attribute**.
+1. From **Display items**, select an item whose display you need to change, such as **Plain Text**, **Line Number**, **Indicator Margin**, **Visible White Space**, **HTML Attribute Name**, or **XML Attribute**.
 
 1. Select display settings from the following options: **Item foreground**, **Item background**, and **Bold**.
 
 1. Select **OK**.
+
+Some languages have their own specific fonts and colors settings. If you're a C++ developer and you want to change the color used for functions, for example, you can look for **C++ Functions** in the **Display items** list. 
 
 > [!TIP]
 > To use high contrast colors for all application windows on your operating system, press **Left Alt**+**Left Shift**+**PrtScn**. If Visual Studio is open, close and then reopen it to fully implement high contrast colors.
@@ -333,5 +335,7 @@ The accessibility information included on this page might apply only to users wh
 
 ## Related content
 
-- [Features of the code editor in Visual Studio](../ide/writing-code-in-the-code-and-text-editor.md)
-- [Personalize the Visual Studio IDE and the editor](../ide/quickstart-personalize-the-ide.md)
+- [Features of the code editor in Visual Studio](writing-code-in-the-code-and-text-editor.md)
+- [Fonts and Colors, Environment, Options dialog box](./reference/fonts-and-colors-environment-options-dialog-box.md)
+- [Change text case in the editor](how-to-change-text-case-in-the-editor.md)
+- [Customize window layouts and personalize tabs](customizing-window-layouts-in-visual-studio.md)
