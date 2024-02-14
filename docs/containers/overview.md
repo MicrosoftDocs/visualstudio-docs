@@ -4,7 +4,7 @@ description: Explore tools available for working with Docker containers in Visua
 author: ghogen
 ms.author: ghogen
 ms.topic: overview
-ms.date: 3/8/2023
+ms.date: 2/13/2024
 ms.subservice: container-tools
 ---
 # Visual Studio Container Tools for Docker
@@ -93,7 +93,7 @@ You can add Docker support to an existing project by selecting **Add** > **Docke
 When you add or enable Docker support, Visual Studio adds the following to the project:
 
 * a *Dockerfile* file
-* a .dockerignore file
+* a `.dockerignore` file
 * a NuGet package reference to the Microsoft.VisualStudio.Azure.Containers.Tools.Targets
 
 The Dockerfile you add will resemble the following code. In this example, the project was named `WebApplication-Docker`, and you chose Linux containers:
