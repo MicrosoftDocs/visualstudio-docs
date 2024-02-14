@@ -268,16 +268,12 @@
       items:
       - name: Remote debugging errors and troubleshooting
         href: remote-debugging-errors-and-troubleshooting.md
-      - name: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer does not have permission to connect to this computer
-        href: error-the-microsoft-visual-studio-remote-debugging-monitor-no-permission.md
       - name: A DCOM error occurred trying to contact the remote computer. Access is denied.
         href: a-dcom-error-occurred-trying-to-contact-the-remote-computer-access-is-denied.md
       - name: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer is running as a different user
         href: error-the-microsoft-visual-studio-remote-debugging-monitor-on-the-remote-computer-is-running-as-a-different-user.md
       - name: Unable to automatically step into the server
         href: error-unable-to-automatically-step-into-the-server.md
-      - name: Workgroup remote logon failure
-        href: error-workgroup-remote-logon-failure.md
       - name: Kerberos authentication failed
         href: error-kerberos-authentication-failed.md
       - name: Ensure that DNS is correctly configured on the target computer
@@ -290,26 +286,12 @@
         href: error-unable-to-initiate-dcom-communication.md
       - name: Remote computer could not initiate DCOM communications
         href: error-remote-computer-could-not-initiate-dcom-communications.md
-      - name: Firewall on local machine
-        href: error-firewall-on-local-machine.md
-      - name: Firewall no authentication
-        href: error-firewall-no-authentication.md
-      - name: RPC requires authentication
-        href: error-rpc-requires-authentication.md
-      - name: You do not have permission to inspect the process's identity
-        href: error-you-do-not-have-permission-to-inspect-the-process-s-identity.md
       - name: The Visual Studio remote debugger service on the target computer cannot connect back to this computer
         href: error-the-visual-studio-remote-debugger-service-on-the-target-computer-cannot-connect-back-to-this-computer.md
       - name: Web site worker process has been terminated by IIS
         href: error-web-site-worker-process-has-been-terminated-by-iis.md
       - name: Unable to connect to the machine <name>. The machine cannot be found on the network.
         href: error-unable-to-connect-to-the-machine-name-the-machine-cannot-be-found-on-the-network.md
-      - name: Mixed mode debugging is supported only when using Microsoft .NET Framework 2.0 or greater
-        href: error-mixed-mode-debugging-is-supported-only-when-using-microsoft-dotnet-framework-2-0-or-greater.md
-      - name: Mixed mode debugging for IA64 processes is unsupported
-        href: mixed-mode-debugging-for-ia64-processes-is-unsupported.md
-      - name: Mixed-mode debugging for x64 processes is supported only when using Microsoft .NET Framework 4 or greater
-        href: error-mixed-mode-debugging-for-x64-processes-is-supported-only-when-using-microsoft-dotnet-framework-4-or-greater.md
       - name: Remote machine does not appear in a Remote Connections dialog
         href: error-remote-machine-does-not-appear-in-a-remote-connections-dialog.md
   - name: Attach to process
@@ -506,8 +488,6 @@
         items:
         - name: 'Debug Web applications: Errors and troubleshooting'
           href: debugging-web-applications-errors-and-troubleshooting.md
-        - name: Verify IIS property settings
-          href: how-to-verify-iis-property-settings.md
         - name: ASP.NET not installed
           href: error-aspnet-not-installed.md
         - name: Debugging failed because integrated Windows authentication is not enabled
@@ -644,8 +624,6 @@
         href: debugging-errors-and-warning-dialog-boxes.md
       - name: Assertion Failed dialog box
         href: assertion-failed-dialog-box.md
-      - name: Cannot Change Value dialog box
-        href: cannot-change-value-dialog-box.md
       - name: Debugger Cannot Display Source Code or Disassembly
         href: debugger-cannot-display-source-code-or-disassembly.md
       - name: Debugger Services Running Out of Memory
@@ -678,8 +656,6 @@
         href: error-transact-sql-execution-ended-without-debugging.md
       - name: User could not execute stored procedure sp_enable_sql_debug
         href: error-user-could-not-execute-stored-procedure-sp-enable-sql-debug.md
-      - name: Windows file sharing has been configured...
-        href: error-windows-file-sharing-has-been-configured-dot-dot-dot.md
       - name: 'Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process'
         href: security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md
       - name: 'Security Warning: Debugger must execute untrusted command'
@@ -688,71 +664,49 @@
         href: source-server-security-alert.md
       - name: Mixed mode debugging for x64 processes is only supported when using Microsoft.NET Framework 4 or greater
         href: mixed-mode-debugging-for-x64-processes-is-only-supported-when-using-microsoft-dotnet-framework-4-or-greater.md
-      - name: Mixed mode debugging for IA64 processes is unsupported
-        href: mixed-mode-debugging-for-ia64-processes-is-unsupported.md
       - name: Mixed Mode Debugging Is Only Supported when Using Microsoft .NET Framework 2.0 or 3.0
         href: mixed-mode-debugging-is-only-supported-when-using-microsoft-dotnet-framework-2-0-or-3-0.md
   - name: Debug Interface Access SDK
     href: debug-interface-access/debug-interface-access-sdk.md
   - name: Spy++
     items:
-    - name: Spy++ help
-      href: spy-increment-help.md
+    - name: Introducing Spy++
+      href: introducing-spy-increment.md
     - name: Spy++ guide
       items:
       - name: Using Spy++
         href: using-spy-increment.md
-      - name: Introducing Spy++
-        href: introducing-spy-increment.md
       - name: Start Spy++
         href: how-to-start-spy-increment.md
       - name: Spy++ toolbar
         href: spy-increment-toolbar.md
-      - name: Display Spy++ views
-        href: how-to-display-spy-increment-views.md
-      - name: Refresh the view
-        href: how-to-refresh-the-view.md
-      - name: Change fonts
-        href: how-to-change-fonts.md
-      - name: Expand and collapse Spy++ trees
-        href: how-to-expand-and-collapse-spy-increment-trees.md
     - name: Views in Spy++
       items:
-      - name: Spy++ views
-        href: spy-increment-views.md
       - name: Windows
         items:
-        - name: Windows View
+        - name: Windows view
           href: windows-view.md
-        - name: Use the Finder tool
-          href: how-to-use-the-finder-tool.md
-        - name: Search for a window in Windows View
-          href: how-to-search-for-a-window-in-windows-view.md
+        - name: Use Windows view
+          href: how-to-use-windows-view.md
       - name: Messages
         items:
-        - name: Messages View
+        - name: Messages view
           href: messages-view.md
-        - name: Control Messages View
-          href: how-to-control-messages-view.md
-        - name: Open Messages View from Find window
-          href: how-to-open-messages-view-from-find-window.md
-        - name: Search for a message in Messages View
-          href: how-to-search-for-a-message-in-messages-view.md
-        - name: Start and stop the message log display
-          href: how-to-start-and-stop-the-message-log-display.md
+        - name: Use Messages view
+          href: how-to-use-messages-view.md
         - name: Message codes
           href: message-codes.md
       - name: Processes
         items:
-        - name: Processes View
+        - name: Processes view
           href: processes-view.md
-        - name: Search for a process in Processes View
+        - name: Search for a process
           href: how-to-search-for-a-process-in-processes-view.md
       - name: Threads
         items:
-        - name: Threads View
+        - name: Threads view
           href: threads-view.md
-        - name: Search for a thread in Threads View
+        - name: Search for a thread
           href: how-to-search-for-a-thread-in-threads-view.md
     - name: Spy++ reference
       items:
@@ -772,5 +726,3 @@
         href: process-properties-dialog-box.md
       - name: Thread Properties dialog box
         href: thread-properties-dialog-box.md
-      - name: About Spy++ dialog box
-        href: about-microsoft-spy-increment.md

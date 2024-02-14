@@ -305,6 +305,6 @@ Feel free to dive into any of the following language-specific tutorials:
 
 ::: moniker range="vs-2022"
 
-[Visual Studio version control documentation](../version-control/index.yml)
+[Visual Studio version control documentation](../version-control/git-with-visual-studio.md)
 
 ::: moniker-end

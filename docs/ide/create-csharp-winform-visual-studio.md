@@ -4,7 +4,7 @@ description: Create a Windows Forms app in Visual Studio with C#, add button con
 ms.custom: vs-acquisition
 ms.date: 1/24/2023
 ms.topic: tutorial
-ms.devlang: CSharp
+ms.devlang: csharp
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
@@ -21,7 +21,7 @@ In this tutorial, you'll create a simple C# application that has a Windows-based
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
 
 > [!NOTE]
-> Some of the screenshots in this tutorial use the dark theme. If you aren't using the dark theme but would like to, see the [Personalize the Visual Studio IDE and Editor](../ide/quickstart-personalize-the-ide.md) page to learn how.
+> Some of the screenshots in this tutorial use the dark theme. If you aren't using the dark theme but would like to, see the [Change fonts, colors, and themes in Visual Studio](../ide/how-to-change-fonts-and-colors-in-visual-studio.md) page to learn how.
 
 ::: moniker-end
 

@@ -1,7 +1,11 @@
 {
   "redirections": [
     {
-
+      "source_path": "docs/version-control/index.md",
+      "redirect_url": "/visualstudio/version-control/git-with-visual-studio",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "docs/azure/vs-active-directory-error.md",
       "redirect_url": "/visualstudio/azure/vs-active-directory-add-connected-service",
       "redirect_document_id": "false"
@@ -1056,6 +1060,66 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/how-to-verify-iis-property-settings.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/how-to-verify-iis-property-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/error-windows-file-sharing-has-been-configured-dot-dot-dot.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-windows-file-sharing-has-been-configured-dot-dot-dot",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/cannot-change-value-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/cannot-change-value-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/error-mixed-mode-debugging-for-x64-processes-is-supported-only-when-using-microsoft-dotnet-framework-4-or-greater.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-mixed-mode-debugging-for-x64-processes-is-supported-only-when-using-microsoft-dotnet-framework-4-or-greater",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/mixed-mode-debugging-for-ia64-processes-is-unsupported.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/mixed-mode-debugging-for-ia64-processes-is-unsupported",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/error-mixed-mode-debugging-is-supported-only-when-using-microsoft-dotnet-framework-2-0-or-greater.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-mixed-mode-debugging-is-supported-only-when-using-microsoft-dotnet-framework-2-0-or-greater",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/error-you-do-not-have-permission-to-inspect-the-process-s-identity.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-you-do-not-have-permission-to-inspect-the-process-s-identity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/error-rpc-requires-authentication.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-rpc-requires-authentication",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/error-firewall-no-authentication.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-firewall-no-authentication",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/error-firewall-on-local-machine.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-firewall-on-local-machine",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/error-workgroup-remote-logon-failure.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-workgroup-remote-logon-failure",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/error-the-microsoft-visual-studio-remote-debugging-monitor-no-permission.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-the-microsoft-visual-studio-remote-debugging-monitor-no-permission",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/error-sql-can-t-find-ssdebugps.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-sql-can-t-find-ssdebugps",
       "redirect_document_id": false
@@ -2060,6 +2124,16 @@
     {
       "source_path": "docs/ide/how-to-build-to-a-common-output-directory.md",
       "redirect_url": "/visualstudio/ide/how-to-change-the-build-output-directory#build-to-a-common-outputdirectory",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/quickstart-personalize-the-ide.md",
+      "redirect_url": "/visualstudio/ide/how-to-change-fonts-and-colors-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/environment-settings.md",
+      "redirect_url": "/visualstudio/ide/personalizing-the-visual-studio-ide",
       "redirect_document_id": false
     },
     {
@@ -15863,6 +15937,71 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/spy-increment-help.md",
+      "redirect_url": "/visualstudio/debugger/introducing-spy-increment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/spy-increment-views.md",
+      "redirect_url": "/visualstudio/debugger/introducing-spy-increment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-display-spy-increment-views.md",
+      "redirect_url": "/visualstudio/debugger/using-spy-increment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-refresh-the-view.md",
+      "redirect_url": "/visualstudio/debugger/using-spy-increment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-change-fonts.md",
+      "redirect_url": "/visualstudio/debugger/using-spy-increment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-expand-and-collapse-spy-increment-trees.md",
+      "redirect_url": "/visualstudio/debugger/using-spy-increment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-use-the-finder-tool.md",
+      "redirect_url": "/visualstudio/debugger/how-to-use-windows-view",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-search-for-a-window-in-windows-view.md",
+      "redirect_url": "/visualstudio/debugger/how-to-use-windows-view",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-control-messages-view.md",
+      "redirect_url": "/visualstudio/debugger/how-to-use-messages-view",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-open-messages-view-from-find-window.md",
+      "redirect_url": "/visualstudio/debugger/how-to-use-messages-view",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-search-for-a-message-in-messages-view.md",
+      "redirect_url": "/visualstudio/debugger/how-to-use-messages-view",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-start-and-stop-the-message-log-display.md",
+      "redirect_url": "/visualstudio/debugger/how-to-use-messages-view",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/about-microsoft-spy-increment.md",
+      "redirect_url": "/visualstudio/debugger/spy-increment-reference",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "scripting-docs/winscript/reference/includes/vista-first-md.md",
       "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/includes/vista-first",
       "redirect_document_id": false
@@ -19289,6 +19428,11 @@
     {
       "source_path": "docs/vsto/working-with-worksheets.md",
       "redirect_url": "/visualstudio/vsto/how-to-programmatically-add-new-worksheets-to-workbooks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "subscriptions/whats-new-in-subscriptions.md",
+      "redirect_url": "/visualstudio/subscriptions",
       "redirect_document_id": false
     }   
   ]

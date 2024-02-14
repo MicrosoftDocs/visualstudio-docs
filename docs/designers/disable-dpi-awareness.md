@@ -1,13 +1,13 @@
 ---
 title: Fix DPI display issues in Windows Form Designer
 description: Fix DPI display problems in Windows Forms Designer in Visual Studio to correct scaling and rendering on HDPI (high dots per inch) monitors.
-ms.date: 06/29/2023
+ms.date: 02/08/2024
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.subservice: ui-designers
 ms.topic: how-to
-ms.custom: contperf-fy23q2,  engagement-fy23
+ms.custom: engagement-fy23
 ---
 # Fix HDPI/scaling issues with Windows Forms Designer in Visual Studio 
 
@@ -18,6 +18,19 @@ Higher pixel density creates sharper images, and display scaling sizes elements 
 When an application declares itself to be DPI-aware, it's a statement specifying that the app behaves well at higher DPI settings, and so Windows can apply autoscaling. Conversely, DPI-unaware applications render at a fixed DPI value of 96 pixels per inch, or 100%, and so autoscaling isn't applied.
 
 ## Windows Forms Designer is DPI-unaware
+
+:::moniker range=">=vs-2022"
+
+> [!NOTE]
+> In Visual Studio 2022 version 17.8 or later, you can avoid the issues described in this article. Visual Studio 2022 version 17.8 provides support for DPI-unaware tabs within a DPI-aware application. See [Visual Studio DPI improvements](/dotnet/desktop/winforms/whats-new/net80#visual-studio-dpi-improvements). This lets you design Windows Forms for DPI-unaware contexts, without requiring you to run Visual Studio in DPI-unaware mode. To use this setting in a Windows Forms project, set the property `ForceDesignerDPIUnaware` to `true` in your project file:
+>
+>```xml
+><PropertyGroup>
+>   ...
+>   <ForceDesignerDPIUnaware>true</ForceDesignerDPIUnaware>
+></PropertyGroup>
+
+:::moniker-end
 
 By default, Visual Studio is a dots per inch (DPI)-aware application, which means the display scales automatically.  However, **Windows Forms Designer** is a DPI-unaware app, so it appears as a bitmap at 96 DPI. Without autoscaling support, issues and overlapping arises when opening forms on HDPI monitors, like in this image:
 

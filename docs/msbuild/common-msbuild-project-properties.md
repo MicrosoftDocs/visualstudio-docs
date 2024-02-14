@@ -23,7 +23,7 @@ The following table lists frequently used properties that are defined in the Vis
 
 Project files in Visual Studio (*.csproj*, *.vbproj*, *.vcxproj*, and others) contain MSBuild XML code that runs when you build a project by using the IDE. Projects typically import one or more *.targets* files to define their build process. For more information, see [MSBuild .targets files](../msbuild/msbuild-dot-targets-files.md).
 
-When setting property values, keep in mind that common properties may be set, reset, or used in a number of imported files. Therefore, it matters where you set a property--in your project file, in *Directory.Build.props*, or in another imported file. If you're setting a property somewhere and not getting the expected result, consider where and how the property is changed or used in all the files imported by your project, including imports that are added implicitly when you're using the `Sdk` attribute. See [Directory.Build.props and Directory.Build.targets](customize-your-build.md#directorybuildprops-and-directorybuildtargets). Preprocessing can help with this (see the `/preprocess` or `/pp` command-line option at [MSBuild command-line reference](./msbuild-command-line-reference.md)).
+When setting property values, keep in mind that common properties may be set, reset, or used in a number of imported files. Therefore, it matters where you set a property--in your project file, in *Directory.Build.props*, or in another imported file. If you're setting a property somewhere and not getting the expected result, consider where and how the property is changed or used in all the files imported by your project, including imports that are added implicitly when you're using the `Sdk` attribute. See [Choose between adding properties to a .props or .targets file](customize-your-build.md#choose-between-adding-properties-to-a-props-or-targets-file). Preprocessing can help with this (see the `/preprocess` or `/pp` command-line option at [MSBuild command-line reference](./msbuild-command-line-reference.md)).
 
 ## List of common properties and parameters
 
@@ -65,8 +65,8 @@ When setting property values, keep in mind that common properties may be set, re
 | DefineTrace | All | A boolean value that indicates whether you want the TRACE constant defined. |
 | DelaySign | .NET | A boolean value that indicates whether you want to delay-sign the assembly rather than full-sign it. |
 | Deterministic | .NET | A boolean value that indicates whether the compiler should produce identical assemblies for identical inputs. This parameter corresponds to the `/deterministic` switch of the compilers. |
-| DirectoryBuildPropsPath | All | Specifies the path to the *Directory.Build.props* file; if defined, this property overrides the default search algorithm. See [Customize your build](customize-your-build.md#directorybuildprops-and-directorybuildtargets). |
-| DirectoryBuildTargetsPath| All | Specifies the path to the *Directory.Build.targets* file; if defined, this property overrides the default search algorithm. See [Customize your build](customize-your-build.md#directorybuildprops-and-directorybuildtargets). |
+| DirectoryBuildPropsPath | All | Specifies the path to the *Directory.Build.props* file; if defined, this property overrides the default search algorithm. See [Customize your build](customize-your-build.md#choose-between-adding-properties-to-a-props-or-targets-file). |
+| DirectoryBuildTargetsPath| All | Specifies the path to the *Directory.Build.targets* file; if defined, this property overrides the default search algorithm. See [Customize your build](customize-your-build.md#choose-between-adding-properties-to-a-props-or-targets-file). |
 | DisableFastUpToDateCheck | All | A boolean value that applies to Visual Studio only. The Visual Studio build manager uses a process called FastUpToDateCheck to determine whether a project must be rebuilt to be up to date. This process is faster than using MSBuild to determine this. Setting the DisableFastUpToDateCheck property to `true` lets you bypass the Visual Studio build manager and force it to use MSBuild to determine whether the project is up to date. |
 | DocumentationFile | .NET | The name of the file that is generated as the XML documentation file. This name includes only the file name and has no path information. |
 
@@ -82,8 +82,8 @@ When setting property values, keep in mind that common properties may be set, re
 
 | Property or parameter name | Project types | Description |
 |------------------------------------| - | - |
-| ImportDirectoryBuildProps | All | A boolean value that indicates whether to import a *Directory.Build.props* file. See [Customize your build](customize-your-build.md#directorybuildprops-and-directorybuildtargets).|
-| ImportDirectoryBuildTargets | All | A boolean value that indicates whether to import a *Directory.Build.targets* file. See [Customize your build](customize-your-build.md#directorybuildprops-and-directorybuildtargets). |
+| ImportDirectoryBuildProps | All | A boolean value that indicates whether to import a *Directory.Build.props* file. See [Customize your build](customize-your-build.md#choose-between-adding-properties-to-a-props-or-targets-file).|
+| ImportDirectoryBuildTargets | All | A boolean value that indicates whether to import a *Directory.Build.targets* file. See [Customize your build](customize-your-build.md#choose-between-adding-properties-to-a-props-or-targets-file). |
 | IntermediateOutputPath | All | The full intermediate output path as derived from `BaseIntermediateOutputPath`, if no path is specified. For example, *obj\debug\\*. |
 | KeyContainerName | All | The name of the strong-name key container. |
 | KeyOriginatorFile | All | The name of the strong-name key file. |

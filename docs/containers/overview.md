@@ -4,7 +4,7 @@ description: Explore tools available for working with Docker containers in Visua
 author: ghogen
 ms.author: ghogen
 ms.topic: overview
-ms.date: 3/8/2023
+ms.date: 2/13/2024
 ms.subservice: container-tools
 ---
 # Visual Studio Container Tools for Docker
@@ -47,9 +47,11 @@ In Visual Studio 2019 version 16.4 and later, the **Containers** window is avail
 
 Docker support is available for ASP.NET projects, ASP.NET Core projects, and .NET Core and .NET Framework console projects.
 
-The support for Docker in Visual Studio has changed over a number of releases in response to customer needs. There are two levels of Docker support you can add to a project, and the supported options vary by the type of project and the version of Visual Studio. With some supported project types, if you just want a container for a single project, without using orchestration, you can do that by adding Docker support.  The next level is container orchestration support, which adds appropriate support files for the particular orchestrator you choose.
+The support for Docker in Visual Studio has changed over a number of releases in response to customer needs. There are several options to add Docker support to a project, and the supported options vary by the type of project and the version of Visual Studio. With some supported project types, if you just want a container for a single project, without using orchestration, you can do that by adding Docker support. The next level is container orchestration support, which adds appropriate support files for the particular orchestrator you choose.
 
-With Visual Studio 2022, you can use Docker Compose or Service Fabric as container orchestration services.
+With Visual Studio 2022 version 17.9 and later, when you add Docker support to a .NET 7 or later project, you have two container build types to choose from for adding Docker support. You can choose to add a Dockerfile to specify how to build the container images, or you can choose to use the built-in container support provided by the .NET SDK.
+
+Also, with Visual Studio 2022 and later, when you choose container orchestration, you can use Docker Compose or Service Fabric as container orchestration services.
 
 > [!NOTE]
 > If you are using the full .NET Framework console project template, the supported option is **Add Container Orchestrator support** after project creation, with options to use Service Fabric or Docker Compose. Adding support at project creation and **Add Docker support** for a single project without orchestration are not available options.
@@ -84,15 +86,17 @@ You can add Docker support to an existing project by selecting **Add** > **Docke
 ![Screenshot showing how to add Docker Support menu option in Visual Studio.](./media/overview/vs-2022/add-docker-support.png)
 :::moniker-end
 
+:::moniker range="<=vs-2019"
+
+## Add Docker support
+
 When you add or enable Docker support, Visual Studio adds the following to the project:
 
 * a *Dockerfile* file
-* a .dockerignore file
+* a `.dockerignore` file
 * a NuGet package reference to the Microsoft.VisualStudio.Azure.Containers.Tools.Targets
 
 The Dockerfile you add will resemble the following code. In this example, the project was named `WebApplication-Docker`, and you chose Linux containers:
-
-:::moniker range="<=vs-2019"
 
 ```Dockerfile
 #See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
@@ -122,6 +126,18 @@ ENTRYPOINT ["dotnet", "WebApplication-Docker.dll"]
 :::moniker-end
 :::moniker range=">=vs-2022"
 
+## Add Docker support using the Dockerfile container build type
+
+When you add or enable Docker support to a .NET 7 or later project, Visual Studio shows the **Container Scaffolding Options** dialog box, which gives you the choice of operating system (Linux or Windows), but also the ability to choose the container build type, either **Dockerfile** or **.NET SDK**.
+
+If you choose **Dockerfile**, Visual Studio adds the following to the project:
+
+* a *Dockerfile* file
+* a .dockerignore file
+* a NuGet package reference to the Microsoft.VisualStudio.Azure.Containers.Tools.Targets
+
+The Dockerfile you add will resemble the following code. In this example, the project was named `WebApplication-Docker`, and you chose Linux containers:
+
 ```dockerfile
 #See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
@@ -146,6 +162,30 @@ WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "WebApplication-Docker.dll"]
 ```
+
+## Add Docker support using the .NET SDK option
+
+With Visual Studio 2022 17.9 and later with the .NET 7 SDK installed, in ASP.NET Core projects that target .NET 6 or later, you have the option of using .NET SDK's built-in support for container builds, which means you don't need a Dockerfile; see [Containerize a .NET app with dotnet publish](/dotnet/core/docker/publish-as-container?pivots=dotnet-8-0). Instead, you configure your containers using MSBuild properties in the project file, and the settings for launching the containers with Visual Studio are encoded in a `.json` configuration file, *launchSettings.json*.
+
+![Screenshot showing the Container Scaffolding Options dialog for adding Docker support.](./media/overview/vs-2022/container-scaffolding-options.png)
+
+The .NET SDK container build entry in *launchSettings.json* looks like the following code:
+
+```json
+"Container (.NET SDK)": {
+  "commandName": "SdkContainer",
+  "launchBrowser": true,
+  "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+  "environmentVariables": {
+    "ASPNETCORE_HTTPS_PORTS": "8081",
+    "ASPNETCORE_HTTP_PORTS": "8080"
+  },
+  "publishAllPorts": true,
+  "useSSL": true
+}
+```
+
+The .NET SDK manages some of the choices that would have been encoded in a Dockerfile, such as the container base image that is chosen to match the targeted version of .NET, and the environment variables to set. The settings available in the project file for container configuration are listed at [Customizing your container](https://github.com/dotnet/sdk-container-builds/blob/main/docs/ContainerCustomization.md).
 
 :::moniker-end
 

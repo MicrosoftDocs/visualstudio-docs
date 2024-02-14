@@ -20,7 +20,7 @@ Restores Visual Studio default settings and automatically launches the Visual St
 The default settings come from the profile that was selected when Visual Studio was first launched.
 
 > [!TIP]
-> To learn how to reset settings using the integrated development environment (IDE), see [Reset settings](../environment-settings.md#reset-settings).
+> To learn how to reset settings using the integrated development environment (IDE), see [Reset settings](../personalizing-the-visual-studio-ide.md#reset-all-settings).
 
 ## Syntax
 
@@ -70,6 +70,6 @@ devenv /NoSplash /ResetSettings General /Command Exit
 
 ## See also
 
-- [Environment settings](../environment-settings.md)
+- [Environment settings](../personalizing-the-visual-studio-ide.md)
 - [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md)
 - [Devenv command-line switches](../../ide/reference/devenv-command-line-switches.md)

@@ -27,7 +27,7 @@ By default, all the assemblies included in a ClickOnce application are downloade
 > Your application will have to run in full trust to use this procedure.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, click **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../ide/environment-settings.md#reset-settings).
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, click **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../ide/personalizing-the-visual-studio-ide.md#reset-all-settings).
 
 ## Create the projects
 

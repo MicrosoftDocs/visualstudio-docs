@@ -22,7 +22,7 @@ Use this option to specify whether to synchronize your settings across multiple 
 
 ### Enable device code flow
 
-When this option is selected, the behavior of Visual Studio changes when you select **Add an account** on the **File** > **Account Settings** page. Instead of seeing the **Sign in to your account** page, you're presented with a dialog box that gives you a URL and a code to paste into a web browser to sign in. This option is useful in cases where you can't sign in to Visual Studio in the regular manner, for example, if you use an older version of Internet Explorer, or if your firewall restricts access. For more information, see [Sign in to Visual Studio](../signing-in-to-visual-studio.md#add-an-account-using-device-code-flow).
+When this option is selected, the behavior of Visual Studio changes when you select **Add an account** on the **File** > **Account Settings** page. Instead of seeing the **Sign in to your account** page, you're presented with a dialog box that gives you a URL and a code to paste into a web browser to sign in. This option is useful in cases where you can't sign in to Visual Studio in the regular manner, for example, if you use an older version of Internet Explorer, or if your firewall restricts access. For more information, see [Sign in to Visual Studio](../signing-in-to-visual-studio.md#add-and-switch-user-accounts-to-visual-studio).
 
 ## Registered Azure clouds
 
@@ -39,4 +39,4 @@ After you register an additional Azure cloud, you can choose which Azure cloud y
 - [Synchronize settings across multiple computers](../synchronized-settings-in-visual-studio.md)
 - [Sign in to Visual Studio](../signing-in-to-visual-studio.md)
 - [Work with multiple user accounts](../work-with-multiple-user-accounts.md)
-- [Environment settings](../environment-settings.md)
+- [Environment settings](../personalizing-the-visual-studio-ide.md)

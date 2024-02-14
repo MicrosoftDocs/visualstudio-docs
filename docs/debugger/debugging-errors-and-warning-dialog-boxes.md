@@ -26,6 +26,7 @@ ms.subservice: debug-diagnostics
 Below are the errors and warning dialog boxes you may encounter while debugging your application.
 
 ## In This Section
+
  [Assertion Failed Dialog Box](../debugger/assertion-failed-dialog-box.md)
 
  [Cannot Change Value Dialog Box](../debugger/cannot-change-value-dialog-box.md)
@@ -52,7 +53,18 @@ Below are the errors and warning dialog boxes you may encounter while debugging 
 
  [Error: Debugging Isn't Possible Because a Kernel Debugger is Enabled on the System](/previous-versions/visualstudio/visual-studio-2017/debugger/error-debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system)
 
+## Archived articles
+
+The following debugging error reference articles are available in the older Visual Studio documentation.
+
+[Cannot Change Value dialog box](/previous-versions/visualstudio/visual-studio-2017/debugger/cannot-change-value-dialog-box)
+
+[Mixed mode debugging for IA64 processes is unsupported](/previous-versions/visualstudio/visual-studio-2017/debugger/mixed-mode-debugging-for-ia64-processes-is-unsupported)
+
+[Error: Windows file sharing has been configured...](/previous-versions/visualstudio/visual-studio-2017/debugger/error-windows-file-sharing-has-been-configured-dot-dot-dot)
+
 ## Related Sections
+
  [Debugging Script and Web: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)
 
  [Remote Debugging Errors](../debugger/remote-debugging-errors-and-troubleshooting.md)

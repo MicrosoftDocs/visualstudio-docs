@@ -115,7 +115,7 @@ The following command is an example of using `--wait` with the PowerShell script
   ```
 
 ## Using --channelURI
-Using the [latest installer](update-visual-studio.md#install-the-latest-and-greatest-installer), it's possible to [configure where Visual Studio looks for updates](update-visual-studio.md#configure-source-location-of-updates-1). The `--channelUri` is otherwise known as the update channel or the source location of updates. The following table gives example values for channelId and channelUri and what they mean.
+Using the [latest installer](update-visual-studio.md#use-the-latest-and-greatest-installer), it's possible to [configure where Visual Studio looks for updates](update-visual-studio.md#configure-source-location-of-updates-1). The `--channelUri` is otherwise known as the update channel or the source location of updates. The following table gives example values for channelId and channelUri and what they mean.
 
 | **Channel Name** | **--channelUri** | [**--channelId**](create-a-network-installation-of-visual-studio.md#ensure-your-layout-is-based-off-of-the-correct-channel) |
 |------------------|------------------|-----------------|
@@ -145,7 +145,7 @@ You can't use `--remove` in the same command as `--layout`. In other words, it's
 
 ## Using --removeOos
 
-Using the [latest installer](update-visual-studio.md#install-the-latest-and-greatest-installer), you can modify an installation and remove all [components that have transitioned to an out-of-support state](out-of-support-components.md) from the default installed Visual Studio instance. This example uses the installer already installed on the client machine to configure the removeOos setting. [Standard users, if they've been granted appropriate permissions](https://aka.ms/vs/setup/policies), can programmatically execute the modify command using the installer, but they aren't allowed to use the `--passive` or `--quiet` switch. Note that you can't initiate the installer programmatically from the same directory that the installer resides in.
+Using the [latest installer](update-visual-studio.md#use-the-latest-and-greatest-installer), you can modify an installation and remove all [components that have transitioned to an out-of-support state](out-of-support-components.md) from the default installed Visual Studio instance. This example uses the installer already installed on the client machine to configure the removeOos setting. [Standard users, if they've been granted appropriate permissions](https://aka.ms/vs/setup/policies), can programmatically execute the modify command using the installer, but they aren't allowed to use the `--passive` or `--quiet` switch. Note that you can't initiate the installer programmatically from the same directory that the installer resides in.
 
   ```shell
    "C:\Program Files (x86)\Microsoft Visual studio\Installer\setup.exe" modify ^

@@ -18,7 +18,7 @@ ms.subservice: debug-diagnostics
 This walkthrough shows how to write a simple visualizer by using C#. The visualizer you create in this walkthrough displays the contents of a string using a Windows Form. This simple string visualizer isn't especially useful in itself, but it shows the basic steps that you must follow to create more useful visualizers for other data types.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, go to the **Tools** menu and choose **Import and Export Settings**. For more information, see [Reset settings](../ide/environment-settings.md#reset-settings).
+> The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, go to the **Tools** menu and choose **Import and Export Settings**. For more information, see [Reset settings](../ide/personalizing-the-visual-studio-ide.md#reset-all-settings).
 
 Visualizer code must be placed in a DLL file that the debugger reads. Therefore, the first step is to create a Class Library project for the DLL.
 

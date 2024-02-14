@@ -48,7 +48,7 @@ landingContent:
       - linkListType: how-to-guide
         links:
           - text: Personalize the IDE
-            url: ../ide/quickstart-personalize-the-ide.md
+            url: ../ide/personalizing-the-visual-studio-ide.md
           - text: Compile and build
             url: ../ide/compiling-and-building-in-visual-studio.md
           - text: Debug code
