@@ -1,7 +1,7 @@
 ---
 title: Debug with GitHub Copilot
 description: Use Copilot to help debug your apps and provide performance insights.
-ms.date: 02/01/2024
+ms.date: 02/14/2024
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -46,7 +46,17 @@ The following simple example shows how to get AI assistance when you encounter a
 
 ### Start a debugging session
 
-1. In Visual Studio, create a new C# Console app for .NET and replace the code in *Program.cs* with the following code:
+1. In Visual Studio, create a new C# Console app.
+
+   On the start window, choose **Create a new project**. Type **console** in the search box, select **C#** as the language, and then choose **Console App** for .NET. Choose **Next**. Type a project name like **ConsoleApp_Copilot** and select **Next**.
+
+   Choose either the recommended target framework or .NET 8, and then choose **Create**.
+
+   If you don't see the **Console App** project template for .NET, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose the **.NET desktop development** workload, then choose **Modify**.
+
+   Visual Studio creates the console project, which appears in **Solution Explorer** in the right pane.
+
+1. Replace the code in *Program.cs* with the following code:
 
     ```csharp
     using System;
