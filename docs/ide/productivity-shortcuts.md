@@ -62,7 +62,7 @@ For a comprehensive list of command shortcuts and a printable keyboard shortcut 
 |Task|Shortcut|
 |-|-|
 |Go To All|**Ctrl**+**T**|
-|Go to recent files|**Ctrl**+**T**,**R**|
+|Go to recent files|**Ctrl**+**1**,**R**|
 |Multi-caret multiple insertion points|**Ctrl**+**Alt**+**click**|
 |Multi-caret add matching selection|**Shift**+**Alt**+**Ins**|
 |Format Document|**Ctrl**+**K**,**D**|
