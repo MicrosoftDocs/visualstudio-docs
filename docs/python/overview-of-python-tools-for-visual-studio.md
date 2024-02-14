@@ -105,7 +105,7 @@ The following image shows an example of a Visual Studio solution containing both
 
 Project and item templates automate the process of setting up different types of projects and files. The templates save you valuable time and relieve you from managing intricate and error-prone details. Visual Studio provides templates for web, Azure, data science, console, and other types of projects. You can find templates for files like Python classes, unit tests, Azure web configuration, HTML, and even Django apps.
 
-:::image type="content" source="media/project-and-item-templates.png" alt-text="Python project and item templates in Visual Studio" border="false" lightbox="media/project-and-item-templates.png":::
+:::image type="content" source="media/project-and-item-templates.png" alt-text="Screenshot of python project and item templates in Visual Studio" border="false" lightbox="media/project-and-item-templates.png":::
 
 For more information:
 
