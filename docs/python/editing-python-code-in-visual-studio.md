@@ -1,90 +1,91 @@
 ---
 title: Edit Python code and use Intellisense
-description: For Python, Visual Studio provides rich IntelliSense, code snippets, and navigation features, alongside formatting, linting, and refactoring.
-ms.date: 09/01/2023
+description: Develop Python applications in Visual Studio and access rich IntelliSense, code snippets, and navigation features. Apply formatting, linting, and refactoring to clean and maintain your code.
+ms.date: 02/07/2024
 ms.topic: conceptual
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
 ms.subservice: python
+
+# CustomerIntent: As a developer, I want to build Python applications in Visual Studio so that I can access rich features to help me write and maintain my code.
 ---
 
-# Edit Python code
+# Edit Python code and use Intellisense
 
 Because you spend much of your development time in the code editor, [Python support in Visual Studio](installing-python-support-in-visual-studio.md) provides functionality to help you be more productive. Features include IntelliSense syntax highlighting, autocompletion, signature help, method overrides, search, and navigation.
 
-The editor is also integrated with the **Interactive** window in Visual Studio, making it easy to exchange code between the two. See [Tutorial Step 3: Use the Interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md) and [Use the Interactive window - Send to Interactive command](python-interactive-repl-in-visual-studio.md#send-to-interactive-command) for details.
+The code editor is integrated with the **Interactive** window in Visual Studio. As you work, it's easy to exchange code between the two windows. For more information, see [Tutorial Step 3: Use the Interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md) and [Use the Interactive window - Send to Interactive command](python-interactive-repl-in-visual-studio.md#send-to-interactive-command).
 
-For general documentation on editing code in Visual Studio, see [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md). Also see [Outlining](../ide/outlining.md), which helps you stay focused on particular sections of your code.
+[Outlining](../ide/outlining.md) helps you stay focused on particular sections of your code. For general documentation on editing code in Visual Studio, see [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md). 
 
-You can also use the Visual Studio **Object Browser** (**View** > **Other Windows** > **Object Browser** or **Ctrl**+**W** > **J**) for inspecting Python classes defined in each module and the functions defined in those classes.
+The Visual Studio **Object Browser** lets you inspect Python classes defined in each module and the functions defined in those classes. You can access this feature on the **View** menu or by using the keyboard shortcut **Ctrl**+**Alt**+**J**.
 
-## IntelliSense
+## Use IntelliSense features
 
 IntelliSense provides [completions](#completions), [signature help](#signature-help), [quick info](#quick-info), and [code coloring](#code-coloring). Visual Studio 2017 versions 15.7 and later also support [type hints](#type-hints).
 
-To improve performance, IntelliSense in Visual Studio 2017 version 15.5 and earlier depends on a completion database that's generated for each Python environment in your project. Databases may need refreshing if you add, remove, or update packages. Database status is shown in the **Python Environments** window (a sibling of **Solution Explorer**) on the **IntelliSense** tab (see [Environments window reference](python-environments-window-tab-reference.md)).
+To improve performance, IntelliSense in Visual Studio 2017 version 15.5 and earlier depends on a completion database generated for each Python environment in your project. You might need to refresh your database if you add, remove, or update packages. Database status is shown in the **Python Environments** window (a companion of **Solution Explorer**) on the **IntelliSense** tab. For more information, see [Environments window reference](python-environments-window-tab-reference.md).
 
 Visual Studio 2017 version 15.6 and later uses a different means to provide IntelliSense completions that aren't dependent on the database.
 
 ### Completions
 
-Completions appear as statements, identifiers, and other words that may be appropriately entered at the current location in the editor. What's shown in the list is based on context and is filtered to omit incorrect or distracting options. Completions are often triggered by typing different statements (such as `import`) and operators (including a period), but you can have them appear at anytime by typing **Ctrl**+**J** > **Space**.
+Completions appear as statements, identifiers, and other words that can be appropriately entered at the current location in the editor. Intellisense populates the list of options based on context and filters incorrect or distracting items. Completions are often triggered by entering different statements (such as `import`) and operators (including a period), but they can appear at anytime by selecting the keyboard shortcut **Ctrl**+**J** +**Space**.
 
-![Member completion in the Visual Studio editor](media/code-editing-completions-simple.png)
+:::image type="content" source="media/code-editing-completions-simple.png" alt-text="Screenshot that shows member completion through Intellisense in the Visual Studio editor." border="false":::
 
-When a completion list is open, you can search for the completion you want using the arrow keys, the mouse, or by continuing to type. As you type more letters, the list is further filtered to show likely completions. You can also use shortcuts such as:
+When a completion list is open, you can search for the completion you want by using the arrow keys, the mouse, or by continuing to type. As you type more letters, the list is further filtered to show likely completions. You can also use shortcuts such as:
 
-- Typing letters that are not at the start of the name, such as 'parse' to find 'argparse'
-- Typing only letters that are at the start of words, such as 'abc' to find 'AbstractBaseClass' or 'air' to find 'as_integer_ratio'
-- Skipping letters, such as 'b64' to find 'base64'
+- Type letters that aren't at the start of the name, such as 'parse' to find 'argparse'
+- Type only letters that are at the start of words, such as 'abc' to find 'AbstractBaseClass' or 'air' to find 'as_integer_ratio'
+- Skip letters, such as 'b64' to find 'base64'
 
-Some examples:
+Here are some examples:
 
-![Member completion with filtering in the Visual Studio editor](media/code-editing-completion-filtering.png)
+:::image type="content" source="media/code-editing-completion-filtering.png" alt-text="Screenshot that shows member completion with filtering in the Visual Studio editor." border="false":::
 
-Member completions appear automatically when you type a period after a variable or value, along with the methods and attributes of the potential types. If a variable could be more than one type, the list includes all possibilities from all types, with extra information to indicate which types support each completion. Where a completion is supported by all possible types, it is shown without annotation.
+Member completions appear automatically when you type a period after a variable or value, along with the methods and attributes of the potential types. If a variable can be more than one type, the list includes all possibilities from all types. Extra information is shown to indicate which types support each completion. When all possible types support a completion, no annotation is shown.
 
-![Member completion on multiple types in the Visual Studio editor](media/code-editing-completion-types.png)
+:::image type="content" source="media/code-editing-completion-types.png" alt-text="Screenshot that shows member completion on multiple types in the Visual Studio editor." border="false":::
 
-By default, "dunder" members (members beginning and ending with a double underscore) are not shown. In general, such members should not be accessed directly. If you need one, however, typing the leading double underscore adds these completions to the list:
+By default, "dunder" members (members beginning and ending with a double underscore) aren't shown. In general, such members shouldn't be accessed directly. If you need to use a dunder, type the leading double underscore to add these completions to the list:
 
-![Private member completion in the Visual Studio editor](media/code-editing-completion-dunder.png)
+:::image type="content" source="media/code-editing-completion-dunder.png" alt-text="Screenshot that shows private dunder member completion types in the Visual Studio editor." border="false":::
 
-The `import` and `from ... import` statements display a list of modules that can be imported. With `from ... import`, the list includes members that can be imported from the specified module.
+The `import` and `from ... import` statements display a list of modules that can be imported. The `from ... import` statement produces a list that includes members that can be imported from the specified module.
 
-![Import completion in the Visual Studio editor](media/code-editing-completion-import.png)
+:::image type="content" source="media/code-editing-completion-import.png" alt-text="Screenshot that shows import and from import completion in the Visual Studio editor." border="false":::
 
-The `raise` and `except` statements display lists of classes likely to be error types. The list may not include all user-defined exceptions, but helps you find suitable built-in exceptions quickly:
+The `raise` and `except` statements display lists of classes likely to be error types. The list might not include all user-defined exceptions, but it helps you find suitable built-in exceptions quickly:
 
-![Exception completion in the Visual Studio editor](media/code-editing-completion-exception.png)
+:::image type="content" source="media/code-editing-completion-exception.png" alt-text="Screenshot that shows exception completion in the Visual Studio editor." border="false":::
 
-Typing @ starts a decorator and shows potential decorators. Many of these items aren't usable as decorators; check the library documentation to determine which to use.
+Selecting **@** symbol (at) starts a decorator and shows potential decorators. Many of these items aren't usable as decorators. Check the library documentation to determine which decorator to use.
 
-![Decorator completion in the Visual Studio editor](media/code-editing-completion-decorator.png)
+:::image type="content" source="media/code-editing-completion-decorator.png" alt-text="Screenshot that shows decorator completion in the Visual Studio editor." border="false":::
 
-> [!Tip]
-> You can configure the behavior of completions through **Tools** > **Options** > **Text Editor** > **Python** > **Advanced**. Among these, **Filter list based on search string** applies filtering of completion suggestions as you type (default is checked), and **Member completion displays intersection of members** shows only completions that are supported by all possible types (default is unchecked). See [Options - completion results](python-support-options-and-settings-in-visual-studio.md#completion-results).
+For more information, see [Options - completion results](python-support-options-and-settings-in-visual-studio.md#completion-results).
 
 ### Type hints
 
-_Visual Studio 2017 version 15.7 and later._
+Type hints are available in Visual Studio 2017 version 15.7 and later.
 
 "Type hints" in Python 3.5+ ([PEP 484](https://www.python.org/dev/peps/pep-0484/) (python.org) is an annotation syntax for functions and classes that indicate the types of arguments, return values, and class attributes. IntelliSense displays type hints when you hover over functions calls, arguments, and variables that have those annotations.
 
-In the example below, the `Vector` class is declared as `List[float]`, and the `scale` function contains type hints for both its arguments and return value. Hovering over a call to that function shows the type hints:
+In the following example, the `Vector` class is declared as the type `List[float]`, and the `scale` function contains type hints for both its arguments and return value. Hovering over a call to that function shows the type hints:
 
-![Hovering over a function call to reveal type hints](media/code-editing-type-hints1.png)
+:::image type="content" source="media/code-editing-type-hints1.png" alt-text="Screenshot that shows how hovering over a function call to reveal type hints." border="false":::
 
-In the following example, you can see how the annotated attributes of the `Employee` class appear in the IntelliSense completion popup for an attribute:
+In the next example, you can see how the annotated attributes of the `Employee` class appear in the IntelliSense completion popup for an attribute:
 
-![IntelliSense completion showing type hints](media/code-editing-type-hints2.png)
+:::image type="content" source="media/code-editing-type-hints1.png" alt-text="Screenshot that shows IntelliSense completion for a class with type hints." border="false":::
 
-It's also helpful to validate type hints throughout your project, because errors won't normally appear until run time. For this purpose, Visual Studio integrates the industry standard MyPy tool through the context menu command **Python** > **Run Mypy** in **Solution Explorer**:
+It's also helpful to validate type hints throughout your project because errors don't normally appear until run time. For this purpose, Visual Studio integrates the industry standard Mypy tool through the context menu command **Python** > **Run Mypy** in **Solution Explorer**:
 
-![Run MyPy context menu command in Solution Explorer](media/code-editing-type-hints-run-mypy.png)
+:::image type="content" source="media/python-linting-command.png" alt-text="Screenshot that shows the available linting commands for Python projects in Solution Explorer." border="false":::
 
-Running the command prompts you to install the mypy package, if needed. Visual Studio then runs mypy to validate type hints in every Python file in the project. Errors appear in the Visual Studio **Error List** window. Selecting an item in the window navigates to the appropriate line in your code.
+Running the command prompts you to install the Mypy package, if needed. Visual Studio then runs Mypy to validate type hints in every Python file in the project. Errors appear in the Visual Studio **Error List** window. Selecting an item in the window navigates to the appropriate line in your code.
 
 As a simple example, the following function definition contains a type hint to indicate that the `input` argument is type `str`, whereas the call to that function attempts to pass an integer:
 
@@ -99,66 +100,57 @@ commas_to_colons(1)
 
 Using the **Run Mypy** command on this code generates the following error:
 
-![Example result of mypy validating type hints](media/code-editing-type-hints-validation-error.png)
+:::image type="content" source="media/code-editing-type-hints-validation-error.png" alt-text="Screenshot that shows the example result of Mypy validating type hints." border="false" lightbox="media/code-editing-type-hints-validation-error.png":::
 
-> [!Tip]
-> For versions of Python before 3.5, Visual Studio also displays type hints that you supply through Typeshed _stub files_ (_.pyi_). You can use stub files whenever you don't want to include type hints directly in your code, or when you want to create type hints for a library that doesn't use them directly. For more information, see [Create stubs for Python modules](https://github.com/python/mypy/wiki/Creating-Stubs-For-Python-Modules) in the mypy project wiki.
+> [!NOTE]
+> For versions of Python before 3.5, Visual Studio also displays type hints that you supply through Typeshed _stub files_ (_.pyi_). You can use stub files when you don't want to include type hints directly in your code or to create type hints for a library that doesn't use them directly. For more information, see [Create stubs for Python modules](https://github.com/python/mypy/wiki/Creating-Stubs-For-Python-Modules) in the Mypy project wiki.
 >
-> Visual Studio includes a bundles set of Typeshed files for Python 2 and 3, so additional downloads aren't necessary. However, if you want to use a different set of files, you can specify the path in the **Tools** > **Options** > **Python** > **Language Server** options. See [Options - Language Server](python-support-options-and-settings-in-visual-studio.md#language-server-options).
->
-> At present, Visual Studio doesn't support type hints in comments.
+> Visual Studio doesn't currently support type hints in comments.
 
 ### Signature help
 
-When writing code that calls a function, signature help appears when you type the opening `(` and displays available documentation and parameter information. You can also make it appear with **Ctrl**+**Shift**+**Space** inside a function call. The information displayed depends on the documentation strings in the function's source code, but includes any default values.
+When writing code that calls a function, signature help appears when you type the opening parenthesis `(`. It displays available documentation and parameter information. You can access signature help with the keyboard shortcut **Ctrl**+**Shift**+**Space** inside a function call. The information displayed depends on the documentation strings in the function's source code, but includes any default values.
 
-![Signature help in the Visual Studio editor](media/code-editing-signature-help.png)
+:::image type="content" source="media/code-editing-signature-help.png" alt-text="Screenshot that shows signature help in the Visual Studio editor." border="false":::
 
-> [!Tip]
-> To disable signature help, go to **Tools** > **Options** > **Text Editor** > **Python** > **General** and clear **Statement completion** > **Parameter information**.
+> [!TIP]
+> To disable signature help, go to **Tools** > **Options** > **Text Editor** > **Python** > **General**. Clear the **Statement completion** > **Parameter information** checkbox.
 
 ### Quick info
 
-Hovering the mouse pointer over an identifier displays a Quick Info tooltip. Depending on the identifier, Quick Info may display the potential values or types, any available documentation, return types, and definition locations:
+Hovering the mouse pointer over an identifier displays a Quick Info tooltip. Depending on the identifier, Quick Info might display the potential values or types, any available documentation, return types, and definition locations:
 
-![Quick Info in the Visual Studio editor](media/code-editing-quick-info.png)
-
-::: moniker range="<=vs-2019"
+:::image type="content" source="media/code-editing-quick-info.png" alt-text="Screenshot that shows Quick Info display information in the Visual Studio editor." border="false":::
 
 ### Code coloring
 
-Code coloring uses information from code analysis to color variables, statements, and other parts of your code. For example, variables that refer to modules or classes may be shown in a different color than functions or other values, and parameter names appear in a different color than local or global variables. (By default, functions aren't shown in bold):
+Code coloring uses information from code analysis to color variables, statements, and other parts of your code. Variables that refer to modules or classes might be shown in a different color than functions or other values. Parameter names might appear in a different color than local or global variables. By default, functions aren't shown in bold.
 
-![Code and syntax coloring in the Visual Studio editor](media/code-editing-code-coloring.png)
+:::image type="content" source="media/code-editing-code-coloring.png" alt-text="Screenshot that shows code and syntax coloring in the Visual Studio editor." border="false":::
 
-To customize the colors, go to **Tools** > **Options** > **Environment** > **Fonts and Colors** and modify the **Python** entries in the **Display items** list:
+To customize the colors, go to **Tools** > **Options** > **Environment** > **Fonts and Colors**. In the **Display items** list, modify the desired **Python** entries:
 
-![Fonts and Colors options in Visual Studio](media/code-editing-customize-colors.png)
+:::image type="content" source="media/code-editing-customize-colors.png" alt-text="Screenshot that shows the Fonts and Colors options in Visual Studio." border="false":::
 
-> [!Tip]
-> To disable code coloring, go to **Tools** > **Options** > **Text Editor** > **Python** > **Advanced** and clear **Miscellaneous Options** > **Color names based on type**. See [Options - Miscellaneous options](python-support-options-and-settings-in-visual-studio.md#miscellaneous-options).
+## Insert code snippets
 
-::: moniker-end
-
-## Code snippets
-
-Code snippets are fragments of code that can be inserted into your files by typing a shortcut and pressing **Tab**, or using the **Edit** > **IntelliSense** > **Insert Snippet** and **Surround With** commands, selecting **Python**, then selecting the desired snippet.
+Code snippets are fragments of code that can be inserted into your files by using a keyboard shortcut and selecting **Tab**. You can also use the **Edit** > **IntelliSense** > **Insert Snippet** and **Surround With** commands, select **Python**, and then select the desired snippet.
 
 For example, `class` is a shortcut for a code snippet that inserts a class definition. You see the snippet appear in the autocompletion list when you type `class`:
 
-![Code snippet for the class shortcut](media/code-editing-code-snippet-class.png)
+:::image type="content" source="media/code-editing-code-snippet-class.png" alt-text="Screenshot that shows a code snippet for the class shortcut.":::
 
-Pressing **Tab** generates the rest of the class. You can then type over the name and bases list, moving between the highlighted fields with **Tab**, then press **Enter** to begin typing the body.
+Selecting **Tab** generates the rest of the class. You can then type over the name and bases list, move between the highlighted fields with **Tab**, and select **Enter** to begin typing the body.
 
-![Highlights on areas of a code snippet for you to complete](media/code-editing-code-snippets.png)
+:::image type="content" source="media/code-editing-code-snippets.png" alt-text="Screenshot that shows highlights on areas of a code snippet for you to complete." border="false":::
 
 ### Menu commands
 
-When you use the **Edit** > **IntelliSense** > **Insert Code Snippet** menu command, you first select **Python**, then select a snippet:
+When you use the **Edit** > **IntelliSense** > **Insert Code Snippet** menu command, you first select **Python**, and then select the desired snippet:
 
-![Selecting a code snippet through the Insert Code Snippet command](media/code-editing-code-snippet-insert.png)
+:::image type="content" source="media/code-editing-code-snippet-insert.png" alt-text="Screenshot that shows how to select a code snippet through the Insert Code Snippet command." border="false":::
 
-The **Edit** > **IntelliSense** > **Surround With** command, similarly, places the current selection in the text editor inside a chosen structural element. For example, suppose you had a bit of code like the following:
+The **Edit** > **IntelliSense** > **Surround With** command places the current selection in the text editor inside a chosen structural element. Suppose you had a piece of code like the following example:
 
 ```python
 sum = 0
@@ -166,55 +158,55 @@ for x in range(1, 100):
     sum = sum + x
 ```
 
-Selecting this code and choosing the **Surround With** command displays a list of available snippets. Choosing **def** from the list places the selected code within a function definition, and you can use the **Tab** key to navigate between the highlighted function name and arguments:
+Selecting this code and choosing the **Surround With** command displays a list of available snippets. Choosing **def** from the snippet list places the selected code within a function definition. You can use the **Tab** key to navigate between the highlighted function name and arguments:
 
-![Using the Surround With command for code snippets](media/code-editing-code-snippet-surround-with.png)
+:::image type="content" source="media/code-editing-code-snippet-surround-with.png" alt-text="Screenshot that shows how to use the Surround With command for code snippets." border="false":::
 
 ### Examine available snippets
 
-You can see the available code snippets in the **Code Snippets Manager**, opened by using **Tools** > **Code Snippets Manager** menu command and selecting **Python** as the language:
+You can see the available code snippets in the **Code Snippets Manager**. Access this feature from **Tools** > **Code Snippets Manager** and select **Python** as the language:
 
-![Code Snippets Manager in Visual Studio](media/code-editing-code-snippets-manager.png)
+:::image type="content" source="media/code-editing-code-snippets-manager.png" alt-text="Screenshot that shows the Code Snippets Manager in Visual Studio." border="false":::
 
 To create your own snippets, see [Walkthrough: Create a code snippet](../ide/walkthrough-creating-a-code-snippet.md).
 
-If you write a great code snippet that you'd like to share, feel free to post it in a gist and [let us know](https://github.com/Microsoft/PTVS/issues). We may be able to include it in a future release of Visual Studio.
+If you write a great code snippet that you'd like to share, feel free to post it in a gist and [let us know](https://github.com/Microsoft/PTVS/issues). We might be able to include it in a future release of Visual Studio.
 
 ## Navigate your code
 
-Python support in Visual Studio provides several means to quickly navigate within your code, including libraries for which source code is available: the [navigation bar](#navigation-bar), [**Go To Definition**](#go-to-definition), [**Navigate To**](#navigate-to), and [**Find All References**](#find-all-references). You can also use the Visual Studio [**Object Browser**](../ide/viewing-the-structure-of-code.md#BKMK_ObjectBrowser).
+Python support in Visual Studio provides several ways to quickly navigate within your code, including libraries for which the source code is available. You can find libraries with source code for the [navigation bar](#navigation-bar), [**Go To Definition**](#go-to-definition), [**Go To**](#go-to), and [**Find All References**](#find-all-references) commands. You can also use the Visual Studio [**Object Browser**](../ide/viewing-the-structure-of-code.md#BKMK_ObjectBrowser).
 
 ### Navigation bar
 
-The navigation bar is displayed at the top of each editor window and includes a two-level list of definitions. The left drop-down contains top-level class and function definitions in the current file; the right drop-down displays a list of definitions within the scope shown in the left. As you move around in the editor, the lists update to show your current context, and you can also select an entry from these lists to jump directly to.
+The navigation bar is displayed at the top of each editor window and includes a two-level list of definitions. The left dropdown contains top-level class and function definitions in the current file. The right dropdown displays a list of definitions within the scope shown in the left. As you move around in the editor, the lists update to show your current context, and you can also select an entry from these lists to jump directly to.
 
-![Navigation Bar in the Visual Studio editor](media/code-editing-navigation-bar.png)
+:::image type="content" source="media/code-editing-navigation-bar.png" alt-text="screenshot that shows the Navigation Bar in the Visual Studio editor." border="false":::
 
-> [!Tip]
+> [!TIP]
 > To hide the navigation bar, go to **Tools** > **Options** > **Text Editor** > **Python** > **General** and clear **Settings** > **Navigation bar**.
 
 ### Go To Definition
 
-**Go To Definition** quickly jumps from the use of an identifier (such as a function name, class, or variable), to the source code where it's defined. You invoke it by right-clicking an identifier and selecting **Go To Definition** or, by placing the caret in the identifier and pressing **F12**. It works across your code and external libraries provided that source code is available. If library source code is not available, **Go To Definition** jumps to the relevant `import` statement for a module reference, or displays an error.
+The **Go To Definition** command quickly jumps from the use of an identifier (such as a function name, class, or variable), to the location of the source code definition. To invoke the command, right-click an identifier and select **Go To Definition** or place the caret in the identifier and select **F12**. The command works across your code and external libraries where the source code is available. If library source code isn't available, **Go To Definition** jumps to the relevant `import` statement for a module reference or displays an error.
 
-![Go To Definition command in Visual Studio](media/code-editing-go-to-definition.png)
+:::image type="content" source="media/code-editing-go-to-definition.png" alt-text="Screenshot that shows the Go To Definition command in Visual Studio." border="false":::
 
-### Navigate To
+### Go To
 
-The **Edit** > **Navigate To** command (**Ctrl**+**,**) displays a search box in the editor where you can type any string and see possible matches in your code that defines a function, class, or variable containing that string. This feature provides a similar capability as **Go To Definition** but without having to locate a use of an identifier.
+The **Edit** > **Go To** command (**Ctrl**+**,**) displays a search box in the editor where you can type any string and see possible matches in your code that defines a function, class, or variable containing that string. This feature provides a similar capability as **Go To Definition** but without having to locate a use of an identifier.
 
-Double-clicking any name, or selecting with arrow keys and **Enter**, navigates to the definition of that identifier.
+To navigate to the definition of that identifier, double-click any name or select the name with arrow keys followed by **Enter**.
 
-![Navigate To command in Visual Studio](media/code-editing-navigate-to.png)
+:::image type="content" source="media/code-editing-navigate-to.png" alt-text="Screenshot that shows the Go To command in Visual Studio." border="false":::
 
 ### Find All References
 
-**Find All References** is a helpful way of discovering where any given identifier is both defined and used, including imports and assignments. You invoke it by right-clicking an identifier and selecting **Find All References**, or by placing the caret in the identifier and pressing **Shift**+**F12**. Double-clicking an item in the list navigates to its location.
+The **Find All References** feature is a helpful way of discovering where any given identifier is both defined and used, including imports and assignments. To invoke the command, right-click an identifier and select **Find All References**, or place the caret in the identifier and select **Shift**+**F12**. Double-clicking an item in the list navigates to its location.
 
-![Find All References results](media/code-editing-find-all-references.png)
+:::image type="content" source="media/code-editing-find-all-references.png" alt-text="Screenshot that shows the Find All References results in Visual Studio." border="false":::
 
 ## Related content
 
-- [Formatting](formatting-python-code.md)
-- [Refactoring](refactoring-python-code.md)
+- [Format Python code](formatting-python-code.md)
+- [Refactor Python code](refactoring-python-code.md)
 - [Use a linter](linting-python-code.md)
