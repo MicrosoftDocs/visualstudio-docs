@@ -30,15 +30,11 @@ If you're using Visual Studio 2022 [version 17.6](/visualstudio/releases/2022/re
 
 ### About the All-In-One Search experience
 
-With **All-In-One Search**, not only can you search for features, but now you can search your code elements, too.
+With **All-In-One Search**, not only can you search for features, but you can also search your code elements, such as files and symbols.
 
 :::image type="content" source="media/vs-2022/all-one-search.png" alt-text="Screenshot of the All-In-One Search experience in Visual Studio 2022 version 17.6 or later."::: 
 
-To enable this feature, go to **Tools** > **Options** > **Environment** > **Preview Features** > **New Visual Studio Search experience**.
-
-:::image type="content" source="media/vs-2022/all-one-search-tools-options.png" alt-text="Screenshot of the Tools Options menu in Visual Studio 2022 that shows how to toggle the All-In-One Search experience.":::
-
-After you enable **All-In-One Search** and restart Visual Studio, the new search experience appears as an option next to the menu bar. 
+The new search experience appears as an option next to the menu bar. 
 
 :::image type="content" source="media/vs-2022/all-one-search-from-menu-bar.png" alt-text="Screenshot of the All-In-One Search experience from the Visual Studio menu bar.":::
 
@@ -46,7 +42,7 @@ After you enable **All-In-One Search** and restart Visual Studio, the new search
 
 You can use the **Ctrl**+**Q** keyboard shortcut for feature searches, and the **Ctrl**+**T** keyboard shortcut for code searches. 
 
-#### Filters for queries
+#### Filters for Code Search queries
 
 To quickly get a filtered experience, you can type the corresponding prefixes before your query or use the corresponding keyboard shortcuts to open the search with the filter you want.
 
@@ -58,6 +54,10 @@ To quickly get a filtered experience, you can type the corresponding prefixes be
 
 > [!TIP]
 > To learn more about the new search experience, see both the [Better search in Visual Studio](https://devblogs.microsoft.com/visualstudio/new-better-search-in-visual-studio/) and [All-In-One Search available in 17.6](https://devblogs.microsoft.com/visualstudio/all-in-one-search-available-in-17-6/) blog posts.
+
+> [!TIP]
+> Text support (**Shift**+**Alt**+**F**) in Code Search has been added in preview as of 17.9 Preview 2. See the [17.9 Preview 3 brings exciting changes to Code Search
+](https://devblogs.microsoft.com/visualstudio/17-9-preview-3-brings-exciting-changes-to-code-search/) blog post to learn more. 
 
 ::: moniker-end
 
