@@ -1,7 +1,7 @@
 ---
 title: Debug unit tests with Test Explorer
 description: Debug and analyze unit tests with Test Explorer in Visual Studio by setting breakpoints to diagnose test method performance issues.
-ms.date: 03/24/2023
+ms.date: 02/13/2024
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
@@ -30,10 +30,18 @@ You can use Test Explorer to start a debugging session for your tests. Stepping 
 
 ## Diagnose test method performance issues
 
+::: moniker range=">=vs-2022"
+Starting in Visual Studio 2022 version 17.8, you can use any applicable tool in the Performance Profiler to help improve your code, and not just the Instrumentation tool. You can profile small units of work in isolation, make changes, and then remeasure and validate the impact of the change.
+
+To diagnose why a test method is taking more time than you'd like, or using more memory than you'd like, select the method in Test Explorer and then choose **Profile** on the right-click menu. The **Performance Profiler** opens and you can select a profiling tool to test your code. For more information, see this [blog post](https://devblogs.microsoft.com/visualstudio/a-unit-of-profiling-makes-the-allocations-go-away/) or see [Collect profiling data without debugging](../profiling/running-profiling-tools-with-or-without-the-debugger.md#collect-profiling-data-without-debugging).
+::: moniker-end
+
+::: moniker range="vs-2019"
 To diagnose why a test method is taking too much time, select the method in Test Explorer and then choose **Profile** on the right-click menu. See [Instrumentation profiling report](../profiling/understanding-instrumentation-data-values.md?view=vs-2017&preserve-view=true).
 
 > [!NOTE]
 > This feature is not currently supported for .NET Core.
+::: moniker-end
 
 ## Related content
 
