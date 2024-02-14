@@ -91,7 +91,7 @@ This command resumes app execution (and advances the debugger) until the current
 
 ## Run to cursor
 
-When you are editing code (rather than paused in the debugger), right-click a line of code in your app and choose **Run to Cursor** (or press **Ctrl** to **F10**). This command starts debugging and sets a temporary breakpoint on the current line of code. For more details on this feature and similar navigation features, see [Run to a specific location in your code](../debugger/navigating-through-code-with-the-debugger.md#run-to-a-specific-location-or-function).
+When you are editing code (rather than paused in the debugger), right-click a line of code in your app and choose **Run to Cursor** (or press **Ctrl** + **F10**). This command starts debugging and sets a temporary breakpoint on the current line of code. For more details on this feature and similar navigation features, see [Run to a specific location in your code](../debugger/navigating-through-code-with-the-debugger.md#run-to-a-specific-location-or-function).
 
 ::: moniker range=">= vs-2022"
 ![Run to Cursor](../debugger/media/vs-2022/dbg-tour-run-to-cursor.png "Run to Cursor")
