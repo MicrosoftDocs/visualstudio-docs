@@ -7,7 +7,7 @@
   "pullRequest": {
     "title": "[BULK] [DocuTune-Remediation] - Scheduled execution to fix known issues in Visual Studio documentation",
     "batchSize": 10,
-    "maxBatches": 100,
+    "maxBatches": 5,
     "body": "",
     "newBranchNamePrefix": "",
     "headRemote": "origin",
