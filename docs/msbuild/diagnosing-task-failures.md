@@ -58,7 +58,13 @@ When debugging MSBuild tasks, here are some general tips.
 + Set the environment variable `MSBuildDebugOnStart` to 1 to get a debugger attached to MSBuild at launch.
 + Set a breakpoint at the `Execute` method of the task to step through.
 
-You should also consider setting up a test environment for a task using xUnit. See [Unit testing C# in .NET Core using dotnet test and xUnit](/dotnet/core/testing/unit-testing-with-dotnet-test). You can configure the xUnit test to use the MSBuild API to invoke MSBuild programmatically with a mock project file that includes the properties, items, and targets you need for running the task in question. In some cases, it might make sense to create a mock build engine. You can see an example at [Unit test a custom MSBuild task with Visual Studio](./tutorial-test-custom-task.md).
+## Debug a custom task
+
+If you're writing code for a custom task, you can make it more easy to debug by adding a call to invoke the debugger in the task's `Execute` method. You can fence that code with an environment variable check, so that when a user sets that environment variable, then the task stops and gives the user the opportunity to debug. You can use [System.Diagnostics.Debugger.Launch](/dotnet/api/system.diagnostics.debugger.launch) or [System.Diagnostics.Debugger.Break](/dotnet/api/system.diagnostics.debugger.break) to launch or break in the debugger.
+
+You should be sure to add as much logging as possible in a custom task to make the task easier for users to debug it. This is particularly important when you finally identify the root case of a failure; add enough logging code to detect and report that failure mode in the future.
+
+Consider setting up a test environment for a task using xUnit. See [Unit testing C# in .NET Core using dotnet test and xUnit](/dotnet/core/testing/unit-testing-with-dotnet-test). You can configure the xUnit test to use the MSBuild API to invoke MSBuild programmatically with a mock project file that includes the properties, items, and targets you need for running the task in question. In some cases, it might make sense to create a mock build engine. You can see an example at [Unit test a custom MSBuild task with Visual Studio](./tutorial-test-custom-task.md).
 
 In .NET SDK projects, you can also modify *launchSettings.json* to add a special Debugging profile that runs *MSBuild.exe* with the command-line arguments and environment variables mentioned in this section.
 
@@ -74,10 +80,3 @@ In .NET SDK projects, you can also modify *launchSettings.json* to add a special
 ```
 
 If you want to be prompted to attach your own debugger at runtime, set the environment variable `MSBUILDDEBUGONSTART` to `2`. This can be helpful when you're using a different debugger, such as on macOS when Visual Studio is not available.
-
-## Debug a custom task
-
-If you're writing code for a custom task, you can make it more easy to debug by adding a call to invoke the debugger in the task's `Execute` method. You can fence that code with an environment variable check, so that when a user sets that environment variable, then the task stops and gives the user the opportunity to debug. You can use [System.Diagnostics.Debugger.Launch](/dotnet/api/system.diagnostics.debugger.launch) or [System.Diagnostics.Debugger.Break](/dotnet/api/system.diagnostics.debugger.break) to launch or break in the debugger.
-
-You should be sure to add as much logging as possible in a custom task to make the task easier for users to debug it. This is particularly important when you finally identify the root case of a failure; add enough logging code to detect and report that failure mode in the future.
-
