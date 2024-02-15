@@ -1,7 +1,7 @@
 ---
 title: Diagnose MSBuild task failures
 description: Diagnose MSBuild task failures by identifying the failing task, the tool name, and other information for troubleshooting.
-ms.date: 03/14/2023
+ms.date: 02/14/2024
 ms.topic: how-to
 f1_keywords:
 - MSBuild.ToolTask.ToolCommandFailed
@@ -48,3 +48,22 @@ Well-behaved tools generally emit some contextual or error information to their 
 
 > [!NOTE]
 > MSBuild recognizes a specific diagnostic output format. The details of this format are documented at [MSBuild and Visual Studio format for diagnostic messages](msbuild-diagnostic-format-for-tasks.md).
+
+## Debug into task code
+
+When debugging MSBuild tasks, here are some general tips.
+
+1. Narrow the scope of the repro case as much as possible (for example, by setting `/p:BuildProjectReferences=false` and start MSBuild with one specific project or one specific target) to have less code to work with.
+1. Use the MSBuild command-line option `/m:1` to have a single MSBuild process to debug.
+1. Set the environment variable `MSBuildDebugOnStart` to 1 to get a debugger attached to MSBuild at launch.
+1. Set a breakpoint at the Execute method of the task to step through.
+
+You should also consider setting up a test environment for a task using xUnit. See [Unit testing C# in .NET Core using dotnet test and xUnit](/dotnet/core/testing/unit-testing-with-dotnet-test). You can configure the xUnit test to use the MSBuild API to invoke MSBuild programmatically with a mock project file that includes the properties, items, and targets you need for running the task in question.
+
+## Debug a custom task
+
+If you're writing code for a custom task, you can make it more easy to debug by adding a call to invoke the debugger in the task's `Execute` method. You can fence that code with an environment variable check, so that when a user sets that environment variable, then the task stops and gives the user the opportunity to debug. You can use [System.Diagnostics.Debugger.Launch]() or [System.Diagnostics.Debugger.Break]() to launch or break in the debugger.
+
+You should be sure to add as much logging as possible in a custom task to make the task easier for users to debug it. This is particularly important when you finally identify the root case of a failure; add enough logging code to detect and report that failure mode in the future.
+
+
