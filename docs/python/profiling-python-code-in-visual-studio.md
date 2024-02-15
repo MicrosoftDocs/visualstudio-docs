@@ -17,7 +17,7 @@ You can profile a Python application when using CPython-based interpreters. This
 
 Profiling is started through the **Debug** > **Launch Python Profiling** menu command, which opens a configuration dialog:
 
-:::image type="content" source="media/profiling-config.png" alt-text="Screenshot of Profiling configuration dialog.":::
+:::image type="content" source="media/profiling-python-code-in-visual-studio/profiling-config.png" alt-text="Screenshot of Profiling configuration dialog.":::
 
 When you select **OK**, the profiler runs and opens a performance report through which you can explore how time is spent in the application:
 ::: moniker range="<=vs-2019"
