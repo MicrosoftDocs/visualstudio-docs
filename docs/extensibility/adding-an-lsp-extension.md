@@ -14,6 +14,8 @@ The Language Server Protocol (LSP) is a common protocol, in the form of JSON RPC
 
 ![language server protocol service in Visual Studio](media/lsp-service-in-VS.png)
 
+To ensure the best possible user experience, consider also implementing [Language Configuration](language-configuration.md), which provides local processing of many of the same operations, and can therefore improve the performance of many of the language-specific editor operations supported by the LSP.
+
 ## Language Server Protocol
 
 ![language server protocol implementation](media/lsp-implementation.png)
@@ -506,4 +508,6 @@ See the Marketplace instructions [here](walkthrough-publishing-a-visual-studio-e
 
 ## Related content
 
-- [Add Visual Studio editor support for other languages](../ide/adding-visual-studio-editor-support-for-other-languages.md)
+* [Add Visual Studio editor support for other languages](../ide/adding-visual-studio-editor-support-for-other-languages.md)
+
+* [Customizing editor behavior by using Language Configuration](language-configuration.md)
