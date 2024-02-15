@@ -58,7 +58,7 @@ When debugging MSBuild tasks, here are some general tips.
 + Set the environment variable `MSBuildDebugOnStart` to 1 to get a debugger attached to MSBuild at launch.
 + Set a breakpoint at the `Execute` method of the task to step through.
 
-You should also consider setting up a test environment for a task using xUnit. See [Unit testing C# in .NET Core using dotnet test and xUnit](/dotnet/core/testing/unit-testing-with-dotnet-test). You can configure the xUnit test to use the MSBuild API to invoke MSBuild programmatically with a mock project file that includes the properties, items, and targets you need for running the task in question.
+You should also consider setting up a test environment for a task using xUnit. See [Unit testing C# in .NET Core using dotnet test and xUnit](/dotnet/core/testing/unit-testing-with-dotnet-test). You can configure the xUnit test to use the MSBuild API to invoke MSBuild programmatically with a mock project file that includes the properties, items, and targets you need for running the task in question. In some cases, it might make sense to create a mock build engine. You can see an example at [Unit test a custom MSBuild task with Visual Studio](./tutorial-test-custom-task.md).
 
 In .NET SDK projects, you can also modify *launchSettings.json* to add a special Debugging profile that runs *MSBuild.exe* with the command-line arguments and environment variables mentioned in this section.
 
