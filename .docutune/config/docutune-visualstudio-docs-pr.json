@@ -2,36 +2,8 @@
   "BaseConfiguration": "docutune-default.json",
   "Docsets": [
     {
-      "DocsetName": "Docker",
-      "BasePath": "/visualstudio/docker"
-    },
-    {
-      "DocsetName": "mac",
-      "BasePath": "/visualstudio/mac"
-    },
-    {
-      "DocsetName": "gamedev",
-      "BasePath": "/visualstudio/gamedev"
-    },
-    {
-      "DocsetName": "bridge-to-kubernetes",
-      "BasePath": "/visualstudio/bridge"
-    },
-    {
-      "DocsetName": "scripting-docs",
-      "BasePath": "/scripting"
-    },
-    {
-      "DocsetName": "subscriptions",
-      "BasePath": "/visualstudio/subscriptions"
-    },
-    {
       "DocsetName": "docs",
       "BasePath": "/visualstudio"
-    },
-    {
-      "DocsetName": "vs-gamedev",
-      "BasePath": "/visualstudio/gamedev"
     }
   ],
   "MetadataMultilineValues": true
