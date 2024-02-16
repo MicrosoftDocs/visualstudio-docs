@@ -129,7 +129,7 @@ The connected service functionality adds all the needed references and connectio
 
    If you click on the three dots next to the dependency you added, you can see various options such as **Connect** to reopen the wizard and change the connection. You can also click the three dots at the top right of the window to see options to start local dependencies, change settings, and more.
 
-1. By default, the memory limit in the container is set to 2G, but normally, more memory is required to run CosmosDB. To fix this, navigate to the `.vs/sd/<GUID>/local` folder under your solution folder. In Windows Explorer, you might have to enable hidden files to see the `.vs` folder. Find and open the file *cosmosdb1.docker-compose.yml*. Set a 4G memory limit.
+1. By default, the memory limit in the container is set to 2G, but normally, more memory is required to run CosmosDB. To fix this, navigate to the `.vs/sd/<GUID>/local` folder under your solution folder. In Windows Explorer, you might have to enable hidden files to see the `.vs` folder. Find and open the file *cosmosdb1.docker-compose.yml*. Set a 4G or higher memory limit.
 
    ```yml
    mem_limit = 4G
@@ -138,6 +138,9 @@ The connected service functionality adds all the needed references and connectio
     To restart the container with the new setting, in the **Service Dependencies** section of the **Connected Services** tab, click on the three dots, and choose **Start local dependencies**.
 
 :::moniker-end
+
+> [!NOTE]
+> The local emulator for CosmosDB might use base image that contains a temporary license for Azure CosmosDB. If the container doesn't start, check the **Logs** tab in the **Containers*** window for the Cosmos DB container. If it mentions a PAL expiration issue, you need to get the latest base image for the local container. Run the following command from the console prompt: `docker pull mcr.microsoft.com/cosmosdb/linux/azure-cosmos-emulator:latest`. The license is periodically updated, and when it expires, refreshing to the newest container should solve the issue. You can view and report issues for the Azure CosmosDB emulator at the [Azure CosmosDB emulator GitHub repo](https://github.com/Azure/azure-cosmos-db-emulator-docker/issues).
 
 ## Next steps
 
