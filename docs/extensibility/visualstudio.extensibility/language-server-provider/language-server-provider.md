@@ -11,7 +11,6 @@ ms.date: 10/23/2023
 
 # Extensibility Language Server Provider
 
-## Overview
 A Language Server Provider involves a process that is hosted outside of Visual Studio, and that provides language features not present in Visual Studio. 
 
 These servers must adhere to the [Language Server Protocol](/visualstudio/extensibility/language-server-protocol), authored by an [extension project](./../get-started/create-your-first-extension.md), and implement `LanguageServerProvider`.

@@ -77,6 +77,7 @@ Read an overview of the areas of the SDK that you might need for your extension 
 * Use dialogs with custom UI to interact with the user, see [Dialogs](./dialog/dialog.md)
 * Create custom data visualizations when debugging, see [Debugger Visualizers](./debugger-visualizer/debugger-visualizers.md)
 * Query or modify information about project sand solutions, see [Project Query](./project/project.md)
+* Work with language servers/LSP for additional language support, see [Language Server Provider](./language-server-provider/language-server-provider.md)
 
 ## Samples and tutorials
 
