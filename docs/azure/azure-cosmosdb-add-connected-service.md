@@ -1,12 +1,12 @@
 ---
 title: Add Azure Cosmos DB by using Connected Services
 description: Connect Azure Cosmos DB support to your application by using Connected Services in Visual Studio on Windows and add a connected service.
-author: AngelosP
+author: ghogen
 manager: jmartens
 ms.subservice: azure-development
 ms.topic: conceptual
-ms.date: 05/15/2023
-ms.author: angelpe
+ms.date: 02/15/2024
+ms.author: ghogen
 monikerRange: ">= vs-2019"
 ---
 # Add Azure Cosmos DB to your app by using Visual Studio Connected Services
@@ -128,6 +128,15 @@ The connected service functionality adds all the needed references and connectio
    ![Screenshot showing "Service Dependencies" after adding the connected service.](./media/azure-cosmosdb-add-connected-service/service-dependencies-after.png)
 
    If you click on the three dots next to the dependency you added, you can see various options such as **Connect** to reopen the wizard and change the connection. You can also click the three dots at the top right of the window to see options to start local dependencies, change settings, and more.
+
+1. By default, the memory limit in the container is set to 2G, but normally, more memory is required to run CosmosDB. To fix this, navigate to the `.vs/sd/<GUID>/local` folder under your solution folder. In Windows Explorer, you might have to enable hidden files to see the `.vs` folder. Find and open the file *cosmosdb1.docker-compose.yml*. Set a 4G memory limit.
+
+   ```yml
+   mem_limit = 4G
+   ```
+
+    To restart the container with the new setting, in the **Service Dependencies** section of the **Connected Services** tab, click on the three dots, and choose **Start local dependencies**.
+
 :::moniker-end
 
 ## Next steps
