@@ -140,7 +140,7 @@ The connected service functionality adds all the needed references and connectio
 :::moniker-end
 
 > [!NOTE]
-> The local emulator for CosmosDB might use base image that contains a temporary license for Azure CosmosDB. If the container doesn't start, check the **Logs** tab in the **Containers*** window for the Cosmos DB container. If it mentions a PAL expiration issue, you need to get the latest base image for the local container. Run the following command from the console prompt: `docker pull mcr.microsoft.com/cosmosdb/linux/azure-cosmos-emulator:latest`. The license is periodically updated, and when it expires, refreshing to the newest container should solve the issue. You can view and report issues for the Azure CosmosDB emulator at the [Azure CosmosDB emulator GitHub repo](https://github.com/Azure/azure-cosmos-db-emulator-docker/issues).
+> The local emulator for CosmosDB might reference a base image that uses a temporary license for Azure CosmosDB. If the container doesn't start, check the **Logs** tab in the **Containers*** window for the Cosmos DB container. If it mentions a PAL expiration issue, you need to get the latest base image for the local container. Run the following command from the console prompt: `docker pull mcr.microsoft.com/cosmosdb/linux/azure-cosmos-emulator:latest`. The license is periodically updated, and when it expires, refreshing to the newest container should solve the issue. You can view and report issues for the Azure CosmosDB emulator at the [Azure CosmosDB emulator GitHub repo](https://github.com/Azure/azure-cosmos-db-emulator-docker/issues).
 
 ## Next steps
 
