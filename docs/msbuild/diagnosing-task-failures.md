@@ -55,7 +55,7 @@ When debugging MSBuild tasks, here are some general tips.
 
 + Narrow the scope of the repro case as much as possible (for example, by setting `/p:BuildProjectReferences=false` and start MSBuild with one specific project or one specific target) to have less code to work with.
 + Use the MSBuild command-line option `/m:1` to have a single MSBuild process to debug.
-+ Set the environment variable `MSBuildDebugOnStart` to 1 to get a debugger attached to MSBuild at launch.
++ Set the environment variable `MSBUILDDEBUGONSTART` to 1 to get a debugger attached to MSBuild at launch.
 + Set a breakpoint at the `Execute` method of the task to step through.
 
 ## Debug a custom task
