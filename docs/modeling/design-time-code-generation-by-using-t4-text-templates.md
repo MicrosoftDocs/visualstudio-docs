@@ -1,7 +1,7 @@
 ---
 title: Design-time code generation with T4 text templates
 description: Use design-time T4 text templates with models to generate program code and other files in your Visual Studio project for particular aspects of your application.
-ms.date: 11/04/2016
+ms.date: 02/16/2024
 ms.topic: how-to
 helpviewer_keywords:
 - text templates, guidelines for code generation
@@ -33,13 +33,13 @@ A text template contains a mixture of the text that you want to generate, and pr
 
 1. Create a new Visual Studio project, or open an existing one.
 
-2. Add a text template file to your project and give it a name that has the extension **.tt**.
+1. Add a text template file to your project and give it a name that has the extension **.tt**.
 
     To do this, in **Solution Explorer**, on the shortcut menu of your project, choose **Add** > **New Item**. In the **Add New Item** dialog box select **Text Template** from the middle pane.
 
     Notice that the **Custom Tool** property of the file is **TextTemplatingFileGenerator**.
 
-3. Open the file. It will already contain the following directives:
+1. Open the file. It will already contain the following directives:
 
    ```
    <#@ template hostspecific="false" language="C#" #>
@@ -48,20 +48,22 @@ A text template contains a mixture of the text that you want to generate, and pr
 
     If you added the template to a Visual Basic project, the language attribute will be "`VB`".
 
-4. Add some text at the end of the file. For example:
+1. Add some text at the end of the file. For example:
 
    ```
    Hello, world!
    ```
 
-5. Save the file.
+1. Save the file.
 
     You might see a **Security Warning** message box that asks you to confirm that you want to run the template. Click **OK**.
 
-6. In **Solution Explorer**, expand the template file node and you will find a file that has the extension **.txt**. The file contains the text generated from the template.
+1. In **Solution Explorer**, expand the template file node and you will find a file that has the extension **.txt**. The file contains the text generated from the template.
 
    > [!NOTE]
    > If your project is a Visual Basic project, you must click **Show All Files** in order to see the output file.
+
+1. Add a reference to the NuGet package [System.CodeDom](https://www.nuget.org/packages/System.CodeDom/).
 
 ### Regenerate the code
 
