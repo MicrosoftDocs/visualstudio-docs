@@ -4,10 +4,9 @@ description: An overview of VisualStudio.Extensibility Language Server Provider 
 author: javierdlg
 ms.author: jadelaga
 monikerRange: ">=vs-2022"
-ms.technology: vs-ide-sdk
-ms.topic: conceptual
+ms.subservice: extensibility-integration
+ms.topic: overview
 ms.date: 10/23/2023
-ms.custom: template-overview
 ---
 
 # Extensibility Language Server Provider
@@ -43,7 +42,7 @@ public class MyLanguageServerProvider : LanguageServerProvider
 ```
 
 After you've defined your provider, you need to:
-1. Configure your provider by overriding the `LanguageServerProviderConfiguration` property. This configuration property defines the the server display name and applicable document types. `LanguageServerBaseDocumentType` is available for all servers and triggers on all document types. See [Define a custom Document Type](#define-a-custom-document-type).
+1. Configure your provider by overriding the `LanguageServerProviderConfiguration` property. This configuration property defines the the server display name and applicable document types. `LanguageServerBaseDocumentType` is available for all servers and triggers on all document types. See [Define a custom Document Type](#define-custom-document-types).
 
 ```csharp
 public override LanguageServerProviderConfiguration LanguageServerProviderConfiguration => new("My Language Server",
