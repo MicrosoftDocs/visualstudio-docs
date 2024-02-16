@@ -23,7 +23,7 @@ This overview covers these top scenarios for working with language server provid
 - [Create a language server provider](#create-a-language-server-provider)
 - [Send additional data when starting a language server](#send-additional-data-when-starting-a-language-server)
 - [Define custom document types](#define-custom-document-types)
-- [Enable or disable a language server](#enable-or-disabe-a-language-server)
+- [Enable or disable a language server](#enable-or-disable-a-language-server)
 - [Use localized resources](#use-localized-resources)
 
 ## Create a language server provider
@@ -42,37 +42,39 @@ public class MyLanguageServerProvider : LanguageServerProvider
 ```
 
 After you've defined your provider, you need to:
-1. Configure your provider by overriding the `LanguageServerProviderConfiguration` property. This configuration property defines the the server display name and applicable document types. `LanguageServerBaseDocumentType` is available for all servers and triggers on all document types. See [Define a custom Document Type](#define-custom-document-types).
 
-```csharp
-public override LanguageServerProviderConfiguration LanguageServerProviderConfiguration => new("My Language Server",
-    new[]
-    {
-       DocumentFilter.FromDocumentType(LanguageServerBaseDocumentType),
-    });
-```
+1. Configure your provider by overriding the `LanguageServerProviderConfiguration` property. This configuration property defines the server display name and applicable document types. `LanguageServerBaseDocumentType` is available for all servers and triggers on all document types. See [Define a custom Document Type](#define-custom-document-types).
+
+    ```csharp
+    public override LanguageServerProviderConfiguration LanguageServerProviderConfiguration => new("My Language Server",
+        new[]
+        {
+           DocumentFilter.FromDocumentType(LanguageServerBaseDocumentType),
+        });
+    ```
 1. Override the `CreateServerConnectionAsync` method, which is called by Visual Studio to notify the extension that the LSP server should be started.
 
-```csharp
-// Activate the language server and return a duplex pipe that communicates with the server. 
-public override Task<IDuplexPipe?> CreateServerConnectionAsync(CancellationToken cancellationToken)
-{
-    (Stream PipeToServer, Stream PipeToVS) = FullDuplexStream.CreatePair();
+    ```csharp
+    // Activate the language server and return a duplex pipe that communicates with the server. 
+    public override Task<IDuplexPipe?> CreateServerConnectionAsync(CancellationToken cancellationToken)
+    {
+        (Stream PipeToServer, Stream PipeToVS) = FullDuplexStream.CreatePair();
+    
+        // Connect "PipeToServer" to the language server
+    
+        return Task.FromResult<IDuplexPipe?>(new DuplexPipe(PipeToVS.UsePipeReader(), PipeToVS.UsePipeWriter()));
+    }
+    ```
 
-    // Connect "PipeToServer" to the language server
-
-    return Task.FromResult<IDuplexPipe?>(new DuplexPipe(PipeToVS.UsePipeReader(), PipeToVS.UsePipeWriter()));
-}
-```
 1. Override the `OnServerInitializationResultAsync` method, which is called by Visual Studio after the LSP server has completed its start-up and configuration steps. `ServerInitializationResult` provides the resulting state of the server, and `LanguageServerInitializationFailureInfo` provides an exception if any.
 
-```csharp
-public override Task OnServerInitializationResultAsync(ServerInitializationResult startState,LanguageServerInitializationFailureInfo? initializationFailureInfo, CancellationToken cancellationToken)
-{
-    // Method called when server activation was completed successfully or failed, denoted by "startState".
-    return Task.CompletedTask;
-}
-```
+    ```csharp
+    public override Task OnServerInitializationResultAsync(ServerInitializationResult startState,LanguageServerInitializationFailureInfo?     initializationFailureInfo, CancellationToken cancellationToken)
+    {
+        // Method called when server activation was completed successfully or failed, denoted by "startState".
+        return Task.CompletedTask;
+    }
+    ```
 
 Here's what our sample language server provider looks like after completing all of the steps:
 
@@ -121,6 +123,7 @@ public MyLanguageServerProvider(ExtensionCore container, VisualStudioExtensibili
     this.LanguageServerOptions.InitializationOptions = JToken.Parse(@"[{""server"":""initialize""}]");
 }
 ```
+
 ## Define custom document types
 
 When an extension supports file types that are not natively supported by Visual Studio, extension authors can implement custom document types. These types can be used when defining `LanguageServerProviderConfiguration` to specify the supported document types.
@@ -155,7 +158,7 @@ public override LanguageServerProviderConfiguration LanguageServerProviderConfig
         });
 ```
 
-## Enable or Disabe a language server
+## Enable or disable a language server
 
 An enabled language server is allowed to "activate" once an applicable document type is opened. When disabled, a stop message is sent to any applicable active language server and prevent further activations.
 
@@ -212,7 +215,7 @@ public class MyLanguageServer : LanguageServerProvider
 }
 ```
 
-## Next Steps
+## Next steps
 
 - Follow the [create your first extension](../get-started/create-your-first-extension.md) tutorial to get started with creating an extension.
 - See the [Rust Language Server Provider](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/RustLanguageServerProvider) sample for a full example of creating an extension with a language server provider.
