@@ -1,7 +1,7 @@
 ---
 title: Design-time code generation with T4 text templates
 description: Use design-time T4 text templates with models to generate program code and other files in your Visual Studio project for particular aspects of your application.
-ms.date: 11/04/2016
+ms.date: 02/16/2024
 ms.topic: how-to
 helpviewer_keywords:
 - text templates, guidelines for code generation
@@ -20,12 +20,12 @@ ms.subservice: modeling
 
 Design-time T4 text templates let you generate program code and other files in your Visual Studio project. Typically, you write the templates so that they vary the code that they generate according to data from a *model*. A model is a file or database that contains key information about your application's requirements.
 
-For example, you could have a model that defines a workflow, either as a table or a diagram. From the model, you can generate the software that executes the workflow. When your users' requirements change, it is easy to discuss the new workflow with the users. Regenerating the code from the workflow is more reliable than updating the code by hand.
+For example, you could have a model that defines a workflow, either as a table or a diagram. From the model, you can generate the software that executes the workflow. When your users' requirements change, it's easy to discuss the new workflow with the users. Regenerating the code from the workflow is more reliable than updating the code by hand.
 
 > [!NOTE]
-> A *model* is a data source that describes a particular aspect of an application. It can be any form, in any kind of file or database. It does not have to be in any particular form, such as a UML model or Domain-Specific Language model. Typical models are in the form of tables or XML files.
+> A *model* is a data source that describes a particular aspect of an application. It can be any form, in any kind of file or database. It doesn't have to be in any particular form, such as a UML model or Domain-Specific Language model. Typical models are in the form of tables or XML files.
 
-You are probably already familiar with code generation. When you define resources in a **.resx** file in your Visual Studio solution, a set of classes and methods is generated automatically. The resources file makes it much easier and more reliable to edit the resources than it would be if you had to edit the classes and methods. With text templates, you can generate code in the same manner from a source of your own design.
+You're probably already familiar with code generation. When you define resources in a **.resx** file in your Visual Studio solution, a set of classes and methods is generated automatically. The resources file makes it much easier and more reliable to edit the resources than it would be if you had to edit the classes and methods. With text templates, you can generate code in the same manner from a source of your own design.
 
 A text template contains a mixture of the text that you want to generate, and program code that generates variable parts of the text. The program code allows you to repeat or conditionally omit parts of the generated text. The generated text can itself be program code that will form part of your application.
 
@@ -33,13 +33,13 @@ A text template contains a mixture of the text that you want to generate, and pr
 
 1. Create a new Visual Studio project, or open an existing one.
 
-2. Add a text template file to your project and give it a name that has the extension **.tt**.
+1. Add a text template file to your project and give it a name that has the extension **.tt**.
 
-    To do this, in **Solution Explorer**, on the shortcut menu of your project, choose **Add** > **New Item**. In the **Add New Item** dialog box select **Text Template** from the middle pane.
+    To do this, in **Solution Explorer**, on the shortcut menu of your project, choose **Add** > **New Item**. In the **Add New Item** dialog box, select **Text Template** from the middle pane.
 
     Notice that the **Custom Tool** property of the file is **TextTemplatingFileGenerator**.
 
-3. Open the file. It will already contain the following directives:
+1. Open the file. It will already contain the following directives:
 
    ```
    <#@ template hostspecific="false" language="C#" #>
@@ -48,17 +48,17 @@ A text template contains a mixture of the text that you want to generate, and pr
 
     If you added the template to a Visual Basic project, the language attribute will be "`VB`".
 
-4. Add some text at the end of the file. For example:
+1. Add some text at the end of the file. For example:
 
    ```
    Hello, world!
    ```
 
-5. Save the file.
+1. Save the file.
 
     You might see a **Security Warning** message box that asks you to confirm that you want to run the template. Click **OK**.
 
-6. In **Solution Explorer**, expand the template file node and you will find a file that has the extension **.txt**. The file contains the text generated from the template.
+1. In **Solution Explorer**, expand the template file node and you'll find a file that has the extension **.txt**. The file contains the text generated from the template.
 
    > [!NOTE]
    > If your project is a Visual Basic project, you must click **Show All Files** in order to see the output file.
@@ -133,7 +133,7 @@ To debug a text template:
 > [!TIP]
 > `debug="true"` makes the generated code map more accurately to the text template, by inserting more line numbering directives into the generated code. If you leave it out, breakpoints might stop the run in the wrong state.
 >
-> But you can leave the clause in the template directive even when you are not debugging. This causes only a very small drop in performance.
+> But you can leave the clause in the template directive even when you're not debugging. This causes only a very small drop in performance.
 
 ## Generating Code or Resources for Your Solution
 
@@ -191,23 +191,23 @@ You can generate program files that vary, depending on a model. A model is an in
 
 ### Generating Code and Generated Text
 
-When you generate program code, it is most important to avoid confusing the generating code that executes in your template, and the resulting generated code that becomes part of your solution. The two languages do not have to be the same.
+When you generate program code, it's most important to avoid confusing the generating code that executes in your template, and the resulting generated code that becomes part of your solution. The two languages don't have to be the same.
 
-The previous example has two versions. In one version, the generating code is in C#. In the other version, the generating code is Visual Basic. But the text generated by both of them is the same, and it is a C# class.
+The previous example has two versions. In one version, the generating code is in C#. In the other version, the generating code is Visual Basic. But the text generated by both of them is the same, and it's a C# class.
 
-In the same way, you could use a Visual C# template to generate code in any language. The generated text does not have to be in any particular language, and it does not have to be program code.
+In the same way, you could use a Visual C# template to generate code in any language. The generated text doesn't have to be in any particular language, and it doesn't have to be program code.
 
 ### Structuring text templates
 
 As a matter of good practice, we tend to separate the template code into two parts:
 
-- A configuration or data-gathering part, which sets values in variables, but does not contain text blocks. In the previous example, this part is the initialization of `properties`.
+- A configuration or data-gathering part, which sets values in variables, but doesn't contain text blocks. In the previous example, this part is the initialization of `properties`.
 
    This is sometimes called the "model" section, because it constructs an in-store model, and typically reads a model file.
 
 - The text-generation part (`foreach(...){...}` in the example), which uses the values of the variables.
 
-   This is not a necessary separation, but it is a style which makes it easier to read the template by reducing the complexity of the part that includes text.
+   This isn't a necessary separation, but it's a style which makes it easier to read the template by reducing the complexity of the part that includes text.
 
 ## Reading files or other sources
 
@@ -219,7 +219,7 @@ To access a model file or database, your template code can use assemblies such a
 <#@ import namespace="System.IO" #>
 ```
 
-The `assembly` directive makes the specified assembly available to your template code, in the same manner as the References section of a Visual Studio project. You do not need to include a reference to System.dll, which is referenced automatically. The `import` directive lets you use types without using their fully qualified names, in the same manner as the `using` directive in an ordinary program file.
+The `assembly` directive makes the specified assembly available to your template code, in the same manner as the References section of a Visual Studio project. You don't need to include a reference to System.dll, which is referenced automatically. The `import` directive lets you use types without using their fully qualified names, in the same manner as the `using` directive in an ordinary program file.
 
 For example, after importing **System.IO**, you could write:
 
@@ -242,7 +242,7 @@ For example, after importing **System.IO**, you could write:
 
 ### Opening a file with a relative pathname
 
-To load a file from a location relative to the text template, you can use `this.Host.ResolvePath()`. To use this.Host, you must set `hostspecific="true"` in the `template`:
+To load a file from a location relative to the text template, you can use `this.Host.ResolvePath()`. To use `this.Host`, you must set `hostspecific="true"` in the `template`:
 
 ```
 <#@ template debug="false" hostspecific="true" language="C#" #>
@@ -302,11 +302,10 @@ Typically, several files in a Visual Studio solution are generated with one inpu
 
 If the source model changes, you should re-run all the templates in the solution. To do this manually, choose **Transform All Templates** on the **Build** menu.
 
-If you have installed the Visual Studio Modeling SDK, you can have all the templates transformed automatically whenever you perform a build. To do this, edit your project file (.csproj or .vbproj) in a text editor and add the following lines near the end of the file, after any other `<import>` statements:
+If you have installed the Visual Studio Modeling SDK, you can have all the templates transformed automatically whenever you perform a build. To do this, edit your project file (.csproj or .vbproj) in a text editor and add the following lines near the end of the file, after any other `<import>` statements. In a SDK-style project, it can go anywhere in the project file.
 
 > [!NOTE]
-> The Text Template Transformation SDK and the Visual Studio Modeling SDK are installed automatically when you install specific features of Visual Studio. For more details, see
-[this blog post](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/).
+> The Text Template Transformation SDK and the Visual Studio Modeling SDK are installed automatically when you install specific features of Visual Studio.
 
 ```xml
 <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v17.0\TextTemplating\Microsoft.TextTemplating.targets" />
