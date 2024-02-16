@@ -63,8 +63,6 @@ A text template contains a mixture of the text that you want to generate, and pr
    > [!NOTE]
    > If your project is a Visual Basic project, you must click **Show All Files** in order to see the output file.
 
-1. Add a reference to the NuGet package [System.CodeDom](https://www.nuget.org/packages/System.CodeDom/).
-
 ### Regenerate the code
 
 A template will be executed, generating the subsidiary file, in any of the following cases:
