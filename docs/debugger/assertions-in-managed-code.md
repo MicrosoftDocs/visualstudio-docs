@@ -208,9 +208,8 @@ Trace.Assert ( stacksize > 0, "Out of stack space", "Failed in inctemp" );
 
 ### [VB](#tab/vb)
 ```VB
-Debug.Assert(stacksize > 0, "Out of stack space. Bytes left:" , Format(size, "G"))
-Trace.Assert(stacksize > 0, "Out of stack space. Bytes left:" , Format(size, "G"))
-Trace.Assert(stacksize > 0, "Out of stack space. Bytes left:", "inctemp failed on third call" )
+Debug.Assert(stacksize > 100, "Out of stack space" , "Failed in inctemp")
+Trace.Assert(stacksize > 0, "Out of stack space" , "Failed in inctemp")
 ```
 ---
 
