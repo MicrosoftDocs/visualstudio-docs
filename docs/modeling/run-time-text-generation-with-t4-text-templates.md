@@ -1,7 +1,7 @@
 ---
 title: Run-Time Text Generation with T4 Text Templates
 description: Generate text strings in your application at run time by using Visual Studio runtime text templates, and convert existing files to run-time templates.
-ms.date: 11/04/2016
+ms.date: 02/16/2024
 ms.topic: how-to
 dev_langs:
 - CSharp
@@ -49,14 +49,14 @@ Using a template in your application makes it is easier to see the final form of
 
 1. In Solution Explorer, on the shortcut menu of your project, choose **Add** > **New Item**.
 
-2. In the **Add New Item** dialog box, select **Runtime Text Template**. (In Visual Basic look under **Common Items** > **General**.)
+1. In the **Add New Item** dialog box, select **Runtime Text Template**. (In Visual Basic look under **Common Items** > **General**.)
 
-3. Type a name for your template file.
+1. Type a name for your template file.
 
     > [!NOTE]
     > The template file name will be used as a class name in the generated code. Therefore, it should not have spaces or punctuation.
 
-4. Choose **Add**.
+1. Choose **Add**.
 
     A new file is created that has extension **.tt**. Its **Custom Tool** property is set to **TextTemplatingFilePreprocessor**. It contains the following lines:
 
@@ -68,6 +68,8 @@ Using a template in your application makes it is easier to see the final form of
     <#@ import namespace="System.Collections.Generic" #>
     ```
 
+1. Add a reference to the NuGet package [System.CodeDom](https://www.nuget.org/packages/System.CodeDom/).
+
 ## Converting an Existing File to a Run-Time Template
 
 A good way to create a template is to convert an existing example of the output. For example, if your application will generate HTML files, you can start by creating a plain HTML file. Make sure that it works correctly and that its appearance is correct. Then include it into your Visual Studio project and convert it to a template.
@@ -76,18 +78,20 @@ A good way to create a template is to convert an existing example of the output.
 
 1. Include the file into your Visual Studio project. In Solution Explorer, on the shortcut menu of the project, choose **Add** > **Existing Item**.
 
-2. Set the file's **Custom Tools** property to **TextTemplatingFilePreprocessor**. In Solution Explorer, on the shortcut menu of the file, choose **Properties**.
+1. Set the file's **Custom Tools** property to **TextTemplatingFilePreprocessor**. In Solution Explorer, on the shortcut menu of the file, choose **Properties**.
 
     > [!NOTE]
     > If the property is already set, make sure that it is **TextTemplatingFilePreprocessor** and not **TextTemplatingFileGenerator**. This can happen if you include a file that already has the extension **.tt**.
 
-3. Change the file name extension to **.tt**. Although this step is optional, it helps you avoid opening the file in an incorrect editor.
+1. Change the file name extension to **.tt**. Although this step is optional, it helps you avoid opening the file in an incorrect editor.
 
-4. Remove any spaces or punctuation from the main part of the file name. For example "My Web Page.tt" would be incorrect, but "MyWebPage.tt" is correct. The file name will be used as a class name in the generated code.
+1. Remove any spaces or punctuation from the main part of the file name. For example "My Web Page.tt" would be incorrect, but "MyWebPage.tt" is correct. The file name will be used as a class name in the generated code.
 
-5. Insert the following line at the beginning of the file. If you are working in a Visual Basic project, replace "C#" with "VB".
+1. Insert the following line at the beginning of the file. If you are working in a Visual Basic project, replace "C#" with "VB".
 
     `<#@ template language="C#" #>`
+
+1. Add a reference to the NuGet package [System.CodeDom](https://www.nuget.org/packages/System.CodeDom/).
 
 ## The Content of the Run-Time Template
 
