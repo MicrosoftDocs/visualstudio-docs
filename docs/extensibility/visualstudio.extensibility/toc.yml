@@ -39,6 +39,8 @@ items:
   href: ./document/documents.md
 - name: Output window
   href: ./output-window/output-window.md
+- name: Language Server Provider (LSP)
+  href: ./language-server-provider/language-server-provider.md
 - name: Projects
   items:
   - name: About the project query API

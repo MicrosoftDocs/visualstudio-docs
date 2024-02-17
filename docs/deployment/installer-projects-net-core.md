@@ -44,7 +44,9 @@ To learn more about these deployment strategies, see [.NET application publishin
 
 2. From the Start window, choose **Create a new project**, and then type "setup" in the search box. Choose a Setup project, and follow instructions.
 
-   For more information, see [Setup and Deployment projects](/previous-versions/visualstudio/visual-studio-2010/wx3b589t(v=vs.100)).
+   For more information on Setup projects (*.vsproj), see [Setup and Deployment projects](/previous-versions/visualstudio/visual-studio-2010/wx3b589t(v=vs.100)).
+
+   For information on deployment properties, see [Deployment properties](/previous-versions/visualstudio/visual-studio-2010/seykw6dt(v=vs.100)).
 
 ### Workflow changes for .NET Core 3.1 and .NET 5 or later
 
