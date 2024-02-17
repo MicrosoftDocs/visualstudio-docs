@@ -24,7 +24,7 @@ ms.subservice: debug-diagnostics
 ---
 # Assertions in Managed Code
 
-An assertion, or `Assert` statement, tests a condition, which you specify as an argument to the `Assert` statement. If the condition evaluates to true, no action occurs. If the condition evaluates to false, the assertion fails. If you are running with a debug build, your program enters break mode.
+An assertion, or `Assert` statement, tests a condition, which you specify as an argument to the `Assert` statement. If the condition evaluates to true, no action occurs. If the condition evaluates to false, the assertion fails. If you're running with a debug build, your program enters break mode.
 
 ## <a name="BKMK_In_this_topic"></a> In this topic
  [Asserts in the System.Diagnostics Namespace](#BKMK_Asserts_in_the_System_Diagnostics_Namespace)
@@ -42,9 +42,9 @@ An assertion, or `Assert` statement, tests a condition, which you specify as an 
  [Setting assertions in configuration files](#BKMK_Setting_assertions_in_configuration_files)
 
 ## <a name="BKMK_Asserts_in_the_System_Diagnostics_Namespace"></a> Asserts in the System.Diagnostics Namespace
- In Visual Basic and Visual C#, you can use the `Assert` method from either <xref:System.Diagnostics.Debug> or <xref:System.Diagnostics.Trace>, which are in the <xref:System.Diagnostics> namespace. <xref:System.Diagnostics.Debug> class methods are not included in a Release version of your program, so they do not increase the size or reduce the speed of your release code.
+ In Visual Basic and Visual C#, you can use the `Assert` method from either <xref:System.Diagnostics.Debug> or <xref:System.Diagnostics.Trace>, which are in the <xref:System.Diagnostics> namespace. <xref:System.Diagnostics.Debug> class methods aren't included in a Release version of your program, so they don't increase the size or reduce the speed of your release code.
 
- C++ does not support the <xref:System.Diagnostics.Debug> class methods. You can achieve the same effect by using the <xref:System.Diagnostics.Trace> class with conditional compilation, such as `#ifdef DEBUG`... `#endif`.
+ C++ doesn't support the <xref:System.Diagnostics.Debug> class methods. You can achieve the same effect by using the <xref:System.Diagnostics.Trace> class with conditional compilation, such as `#ifdef DEBUG`... `#endif`.
 
  [In this topic](#BKMK_In_this_topic)
 
@@ -89,7 +89,7 @@ SavingsAccount.Withdraw(amount)
 ```
 ---
 
- Before you withdraw money from the account, you want to make sure that the account balance is sufficient to cover the amount you are preparing to withdraw. You might write an assertion to check the balance:
+ Before you withdraw money from the account, you want to make sure that the account balance is sufficient to cover the amount you're preparing to withdraw. You might write an assertion to check the balance:
 
 ### [C#](#tab/csharp)
 ```csharp
@@ -107,14 +107,14 @@ SavingsAccount.Withdraw(amount)
 ```
 ---
 
- Note that calls to the <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> method disappear when you create a Release version of your code. That means that the call that checks the balance disappears in the Release version. To solve this problem, you should replace <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> with <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName>, which does not disappear in the Release version:
+ Note that calls to the <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> method disappear when you create a Release version of your code. That means that the call that checks the balance disappears in the Release version. To solve this problem, you should replace <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> with <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName>, which doesn't disappear in the Release version:
 
  Calls to <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName> add overhead to your Release version, unlike calls to <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName>.
 
  [In this topic](#BKMK_In_this_topic)
 
 ## <a name="BKMK_Side_effects_of_Debug_Assert"></a> Side effects of Debug.Assert
- When you use <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName>, make sure that any code inside `Assert` does not change the results of the program if `Assert` is removed. Otherwise, you might accidentally introduce a bug that only shows up in the Release version of your program. Be especially careful about asserts that contain function or procedure calls, such as the following example:
+ When you use <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName>, make sure that any code inside `Assert` doesn't change the results of the program if `Assert` is removed. Otherwise, you might accidentally introduce a bug that only shows up in the Release version of your program. Be especially careful about asserts that contain function or procedure calls, such as the following example:
 
 ### [C#](#tab/csharp)
 ```csharp
@@ -129,7 +129,7 @@ Debug.Assert (meas(i) <> 0 )
 ```
 ---
 
- This use of <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> might appear safe at first glance, but suppose the function meas updates a counter each time it is called. When you build the Release version, this call to meas is eliminated, so the counter does not get updated. This is an example of a function with a side effect. Eliminating a call to a function that has side effects could result in a bug that only appears in the Release version. To avoid such problems, do not place function calls in a <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> statement. Use a temporary variable instead:
+ This use of <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> might appear safe at first glance, but suppose the function meas updates a counter each time it is called. When you build the Release version, this call to meas is eliminated, so the counter doesn't get updated. This is an example of a function with a side effect. Eliminating a call to a function that has side effects could result in a bug that only appears in the Release version. To avoid such problems, don't place function calls in a <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> statement. Use a temporary variable instead:
 
 ### [C#](#tab/csharp)
 ```csharp
@@ -144,7 +144,7 @@ Debug.Assert (temp <> 0)
 ```
 ---
 
- Even when you use <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName>, you might still want to avoid placing function calls inside an `Assert` statement. Such calls should be safe, because <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName> statements are not eliminated in a Release build. However, if you avoid such constructs as a matter of habit, you are less likely to make a mistake when you use <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName>.
+ Even when you use <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName>, you might still want to avoid placing function calls inside an `Assert` statement. Such calls should be safe, because <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName> statements aren't eliminated in a Release build. However, if you avoid such constructs as a matter of habit, you're less likely to make a mistake when you use <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName>.
 
  [In this topic](#BKMK_In_this_topic)
 
@@ -165,7 +165,7 @@ Debug.Assert (temp <> 0)
 
   If you need to use the Debug methods in a C# or Visual Basic Release build, you must define the DEBUG symbol in your Release configuration.
 
-  C++ does not support the <xref:System.Diagnostics.Debug> class methods. You can achieve the same effect by using the <xref:System.Diagnostics.Trace> class with conditional compilation, such as `#ifdef DEBUG`... `#endif`. You can define these symbols in the **\<Project> Property Pages** dialog box. For more information, see [Changing Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md) or [Changing Project Settings for a C or C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md).
+  C++ doesn't support the <xref:System.Diagnostics.Debug> class methods. You can achieve the same effect by using the <xref:System.Diagnostics.Trace> class with conditional compilation, such as `#ifdef DEBUG`... `#endif`. You can define these symbols in the **\<Project> Property Pages** dialog box. For more information, see [Changing Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md) or [Changing Project Settings for a C or C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md).
 
 ## <a name="BKMK_Assert_arguments"></a> Assert arguments
  <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName> and <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> take up to three arguments. The first argument, which is mandatory, is the condition you want to check. If you call <xref:System.Diagnostics.Trace.Assert(System.Boolean)?displayProperty=fullName> or <xref:System.Diagnostics.Debug.Assert(System.Boolean)?displayProperty=fullName> with only one argument, the `Assert` method checks the condition and, if the result is false, outputs the contents of the call stack to the **Output** window. The following example shows <xref:System.Diagnostics.Trace.Assert(System.Boolean)?displayProperty=fullName> and <xref:System.Diagnostics.Debug.Assert(System.Boolean)?displayProperty=fullName>:
@@ -208,9 +208,8 @@ Trace.Assert ( stacksize > 0, "Out of stack space", "Failed in inctemp" );
 
 ### [VB](#tab/vb)
 ```VB
-Debug.Assert(stacksize > 0, "Out of stack space. Bytes left:" , Format(size, "G"))
-Trace.Assert(stacksize > 0, "Out of stack space. Bytes left:" , Format(size, "G"))
-Trace.Assert(stacksize > 0, "Out of stack space. Bytes left:", "inctemp failed on third call" )
+Debug.Assert(stacksize > 100, "Out of stack space" , "Failed in inctemp")
+Trace.Assert(stacksize > 0, "Out of stack space" , "Failed in inctemp")
 ```
 ---
 
