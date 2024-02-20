@@ -1,7 +1,7 @@
 ---
 title: "Quickstart: Create Python project with a template"
 description: In this quickstart, you create a Visual Studio project for Python by using the built-in template for a basic Flask application.
-ms.date: 09/08/2023
+ms.date: 02/20/2024
 ms.topic: quickstart
 author: cwebster-99
 ms.author: cowebster
@@ -11,7 +11,7 @@ ms.subservice: python
 
 # Quickstart: Create a Python project from a template in Visual Studio
 
-Once you've [installed Python support in Visual Studio](installing-python-support-in-visual-studio.md), it's easy to create a new Python project using a variety of templates. In this Quickstart, you create a simple Flask app using a template. The resulting project is similar to the project you create manually through [Quickstart - Create a web app with Flask](../ide/quickstart-python.md).
+Once you've [installed Python support in Visual Studio](installing-python-support-in-visual-studio.md), it's easy to create a new Python project using a variety of templates. In this Quickstart, you create a simple Flask app using a template. The resulting project is similar to the project you create manually through [Quickstart - Create a web app with Flask](../ide/quickstart-python.md). To get the corresponding project templates for web development, you will need to install the optional [**Python for Web Support**](installing-python-support-in-visual-studio.md) workload from the Installer. 
 
 ::: moniker range="<=vs-2019"
 
@@ -149,4 +149,4 @@ Using templates can save you significant time when starting a project or creatin
 
 - [Manually identify an existing Python interpreter](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment)
   [Install Python support in Visual Studio on Windows](installing-python-support-in-visual-studio.md)
-- [Python tools install directory](installing-python-support-in-visual-studio.md#download--install-the-python-workload)
+- [Python tools install directory](installing-python-support-in-visual-studio.md#download-and-install-the-python-workload)
