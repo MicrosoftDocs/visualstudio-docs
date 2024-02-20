@@ -1,7 +1,7 @@
 ---
 title: Create custom views of C++ objects
 description: Use the Natvis framework to customize the way Visual Studio displays native types in the debugger for your applications.
-ms.date: 08/17/2023
+ms.date: 02/20/2024
 ms.topic: how-to
 f1_keywords: 
   - natvis
@@ -668,6 +668,26 @@ The **nd** format specifier, which turns off visualization matching for the deri
 ```
 
  ![Concurrency::Array with Synthetic element expansion](../debugger/media/dbg_natvis_expand_synthetic.png "Concurrency::Array with Synthetic element expansion")
+
+### Instrinsic expansion
+
+A custom intrinsic function that can be called from an expression. An `<Intrinsic>` element must be accompanied by a debugger component that implements the function through the IDkmIntrinsicFunctionEvaluator140 interface.
+
+```xml
+<Type Name="std::vector&lt;*&gt;">
+  <Intrinsic Name="size" Expression="(size_t)(_Mypair._Myval2._Mylast - _Mypair._Myval2._Myfirst)" />
+  <Intrinsic Name="capacity" Expression="(size_t)(_Mypair._Myval2._Myend - _Mypair._Myval2._Myfirst)" />
+  <DisplayString>{{ size={size()} }}</DisplayString>
+  <Expand>
+    <Item Name="[capacity]" ExcludeView="simple">capacity()</Item>
+    <Item Name="[allocator]" ExcludeView="simple">_Mypair</Item>
+    <ArrayItems>
+      <Size>size()</Size>
+      <ValuePointer>_Mypair._Myval2._Myfirst</ValuePointer>
+    </ArrayItems>
+  </Expand>
+</Type>
+```
 
 ### <a name="BKMK_HResult"></a> HResult element
  The `HResult` element lets you customize the information shown for an **HRESULT** in debugger windows. The `HRValue` element must contain the 32-bit value of the **HRESULT** that is to be customized. The `HRDescription` element contains the information to show in the debugger window.
