@@ -36,7 +36,7 @@ Each analyzer has one of the following severity levels:
 | Info | `suggestion` | Violations appear as *Messages* in the Error List, and not at all in command-line build output. | Offending code is underlined with gray squiggle and marked by small gray box in the scroll bar. |
 | Hidden | `silent` | Non-visible to user. | Non-visible to user. The diagnostic is reported to the IDE diagnostic engine, however. |
 | None | `none` | Suppressed completely. | Suppressed completely. |
-| Default | `default` | Corresponds to the default severity of the rule. To determine what the default value for a rule is, look in the Properties window. | Corresponds to the default severity of the rule. |
+| Default | `default` | Corresponds to the default severity of the rule. To determine what the default value for a rule is, [look in the Properties window](../code-quality/use-roslyn-analyzers.md#set-rule-severity-from-solution-explorer). | Corresponds to the default severity of the rule. |
 
 If rule violations are found by an analyzer, they're reported in the code editor as a *squiggle* under the offending code and in the Error List window.
 
