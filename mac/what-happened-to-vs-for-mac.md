@@ -1,10 +1,9 @@
 ---
 title: "What's happening to Visual Studio for Mac"
 description: "Learn about Visual Studio for Mac retirement and the new Mac development options."
-author: j-martens 
-ms.author: jmartens
-manager: jmartens
-ms.date: 09/01/2023
+author: anandmeg 
+ms.author: meghaanand
+ms.date: 12/01/2023
 ms.topic: overview
 ---
 # What's happening to Visual Studio for Mac?
