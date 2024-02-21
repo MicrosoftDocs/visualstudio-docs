@@ -29,7 +29,7 @@ The following table shows the different severity options:
 | Info | `suggestion` | Violations appear as *Messages* in the Error List, and not at all in command-line build output. | Offending code is underlined with a gray squiggle and marked by a small gray box in the scroll bar. |
 | Hidden | `silent` | Non-visible to user. | Non-visible to user. The diagnostic is reported to the IDE diagnostic engine, however. |
 | None | `none` | Suppressed completely. | Suppressed completely. |
-| Default | `default` | Corresponds to the default severity of the rule. To determine what the default value for a rule is, look in the Properties window. | Corresponds to the default severity of the rule. |
+| Default | `default` | Corresponds to the default severity of the rule. To determine what the default value for a rule is, [look in the Properties window](../code-quality/use-roslyn-analyzers.md#set-rule-severity-from-solution-explorer). | Corresponds to the default severity of the rule. |
 
 Rule violations found by the analyzer appear in the code editor (as a *squiggle* under the offending code) and in the Error List window by analyzer.
 
@@ -182,6 +182,9 @@ The icons next to each diagnostic in **Solution Explorer** correspond to the ico
 - Downward-pointing arrow in a circle indicates that the diagnostic is suppressed
 
 ![Diagnostics icons in Solution Explorer](media/diagnostics-icons-solution-explorer.png)
+
+>[!NOTE]
+> To view properties for code style rules (IDE prefix) in the Properties window, such as default severity, set the [EnforceCodeStyleInBuild](/dotnet/fundamentals/code-analysis/overview#enable-on-build) property to true.
 
 #### Convert an existing Ruleset file to EditorConfig file
 
