@@ -25,9 +25,13 @@ For scenario-specific debugging information, see the following articles:
 
 - Visual Studio installed with support for Python workloads. For more information, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
 
+- Python code to use with the debugger.
+
 ## Debug code with or without a project
 
-You don't need a project or solution file in Visual Studio to debug your Python code.
+If you want to control your Python environment and arguments, first create a project for your code. You can create a project with the [From existing Python code](managing-python-projects-in-visual-studio.md#create-a-project-from-existing-files) project template.
+
+However, you don't need a project or solution file in Visual Studio to debug your Python code.
 
 To debug code in a standalone Python file:
 
@@ -37,15 +41,13 @@ To debug code in a standalone Python file:
 
 Visual Studio launches the script with the global default environment and no arguments. You then have full debugging support for your code. 
 
-If you want to control the Python environment and arguments, first create a project for your code. You can create a project with the [From existing Python code](managing-python-projects-in-visual-studio.md#create-a-project-from-existing-files) project template.
-
 For more information, see [Python environments](managing-python-environments-in-visual-studio.md).
 
 ## Explore basic debugging
 
 The basic debugging workflow involves settings breakpoints, stepping through code, inspecting values, and handling exceptions.
 
-Start the debugging session for a project by selecting **Debug** > **Start Debugging** or the **Start** button on the toolbar, or the **F5** keyboard shortcut. These actions launch your project's _startup file_ with the project's active environment and any command-line arguments or search paths specified for **Project Properties**. To configure the properties, see [Set project debugging options](#set-project-debugging-options).
+Start the debugging session for a project by selecting **Debug** > **Start Debugging** or the **Start** button on the toolbar, or the **F5** keyboard shortcut. These actions launch your project's _startup file_ with the project's active environment and any command-line arguments or search paths specified for **Project Properties**. To configure the properties, see [Set project debugging options](#configure-project-debugging-options).
 
 ### Set the startup file
 
@@ -65,6 +67,8 @@ If you're debugging a standalone Python code file, Visual Studio launches the sc
 
 Breakpoints stop execution of code at a marked point so you can inspect the program state.
 
+Some breakpoints in Python can be surprising for developers who have worked with other programming languages. In Python, the entire file is executable code, so Python runs the file when it's loaded to process any top-level class or function definitions. If a breakpoint is set, you might find the debugger breaking part-way through a class declaration. This behavior is correct, even though it's sometimes surprising.
+
 - To set a breakpoint, select in the left margin of the code editor or right-click a line of code and select **Breakpoint** > **Insert Breakpoint**.
 
    A red dot appears on each line that has a set breakpoint.
@@ -73,8 +77,7 @@ Breakpoints stop execution of code at a marked point so you can inspect the prog
 
 - To remove a breakpoint, select the red dot or right-click the line of code and select **Breakpoint** > **Delete Breakpoint**. You can also disable a breakpoint by selecting the red dot and selecting **Breakpoint** > **Disable Breakpoint**.
 
-> [!NOTE]
-> Some breakpoints in Python can be surprising for developers who have worked with other programming languages. In Python, the entire file is executable code, so Python runs the file when it's loaded to process any top-level class or function definitions. If a breakpoint is set, you might find the debugger breaking part-way through a class declaration. This behavior is correct, even though it's sometimes surprising.
+#### Set conditions
 
 You can customize the conditions under which a breakpoint is triggered, such as breaking only when a variable is set to a certain value or value range.
 
@@ -88,9 +91,9 @@ When you set conditions, you can also select **Action** and create a message to 
 
 When Visual Studio stops code execution at a breakpoint, there are several commands you can use to step through your code or run blocks of code before breaking again. The commands are available in a few places in Visual Studio, including the **Debugger** toolbar, the **Debug** menu, the right-click context menu in the code editor, and through keyboard shortcuts. 
 
-The following table summarizes where you can find these commands in Visual Studio:
+The following table summarizes these commands and provides the keyboard shortcut:
 
-| Command | Keyboard shortcut | Description |
+| Command | Shortcut | Description |
 | --- | --- | --- |
 | **Continue**            | **F5**                     | Run code until you reach the next breakpoint. |
 | **Step Into**           | **F11**                    | Run the next statement and stop. If the next statement is a call to a function, the debugger stops at the first line of the called function. |
@@ -98,7 +101,7 @@ The following table summarizes where you can find these commands in Visual Studi
 | **Step Out**            | **Shift**+**F11**          | Run the code until the end of the current function, then step to the calling statement. This command is useful when you don't need to debug the remainder of the current function. |
 | **Run to Cursor**       | **Ctrl**+**F10**           | Run the code up to the location of the caret in the editor. This command allows you to easily skip over a segment of code that you don't need to debug. |
 | **Set Next Statement**  | **Ctrl**+**Shift**+**F10** | Change the current run point in the code to the location of the caret. This command allows you to omit a segment of code from being run at all, such as when you know the code is faulty or produces an unwanted side-effect. |
-| **Show Next Statement** | **Alt**+**Num**+**\***     | Return to the next statement to run in the code. This command helps you locate the place in your code where the debugger is stopped. |
+| **Show Next Statement** | **Alt**+**Num**+**\\**     | Return to the next statement to run in the code. This command helps you locate the place in your code where the debugger is stopped. |
 
 ### Inspect and modify values
 
@@ -214,16 +217,16 @@ The **Debug Interactive** window supports special meta-commands in addition to t
 | `$continue`, `$cont`, `$c`    | Start running the program from the current statement. |
 | `$down`, `$d`                 | Move the current frame one level down in the stack trace. |
 | `$frame`                      | Display the current frame ID. |
-| `$frame`                      | Switch the current frame to the specified frame ID. <br> - Requires a _frame ID_ argument. |
+| `$frame`                      | Switch the current frame to the specified frame ID. <br> - Requires a _\<frame ID>_ argument. |
 | `$load`                       | Load commands from file and executes until complete. |
 | `$proc`                       | Display the current process ID.  |
-| `$proc`                       | Switch the current process to the specified process ID. <br> - Requires a _process ID_ argument. |
+| `$proc`                       | Switch the current process to the specified process ID. <br> - Requires a _\<process ID>_ argument. |
 | `$procs`                      | List the processes currently being debugged. |
 | `$stepin`, `$step`, `$s`      | Step into the next function call, if possible. |
 | `$stepout`, `$return`, `$r`   | Step out of the current function. |
 | `$stepover`, `$until`, `$unt` | Step over the next function call. |
 | `$thread`                     | Display the current thread ID. | 
-| `$thread`                     | Switch the current thread to the specified thread ID. <br> - Requires a  _thread ID_ argument. |
+| `$thread`                     | Switch the current thread to the specified thread ID. <br> - Requires a _\<thread ID>_ argument. |
 | `$threads`                    | List the threads currently being debugged. |
 | `$up`, `$u`                   | Move up the current frame one level in the stack trace. |
 | `$where`, `$w`, `$bt`         | List the frames for the current thread. |
@@ -280,7 +283,7 @@ Follow these steps to manage your ptvsd installation:
 
 1. If the version is lower than 4.1.1a9 (the version bundled with Visual Studio), select the **X** to the right of the package to uninstall the older version. Visual Studio then uses its bundled version. (You can also uninstall from PowerShell by using the `pip uninstall ptvsd` command.)
 
-1. Alternately, you can update the ptvsd package to its newest version by following the instructions in the [Troubleshoot debug scenarios](#troubleshoot-debug-sceanarios) section.
+1. Alternately, you can update the ptvsd package to its newest version by following the instructions in the [Troubleshoot debug scenarios](#troubleshoot-debug-scenarios) section.
 
 ## Troubleshoot debug scenarios
 
@@ -311,7 +314,7 @@ The following steps enable debugging in the current Visual Studio session:
 
 1. Enter the following command:
 
-   ```ps
+   ```powershell
    DebugAdapterHost.Logging /On /OutputWindow
    ```
 
@@ -321,7 +324,7 @@ The following steps enable debugging in the current Visual Studio session:
 
 1. If Visual Studio stops responding or you aren't otherwise able to access the **Output** window, restart Visual Studio, open a command window, and enter the following command:
 
-   ```ps
+   ```powershell
    DebugAdapterHost.Logging /On
    ```
 
@@ -330,3 +333,5 @@ The following steps enable debugging in the current Visual Studio session:
 ## Related content
 
 - [Debugging in Visual Studio](../debugger/debugger-feature-tour.md)
+- [Mixed-mode Python/C++ debugging](debugging-mixed-mode-c-cpp-python-in-visual-studio.md)
+- [Symbols for mixed-mode debugging](debugging-symbols-for-mixed-mode-c-cpp-python.md)
