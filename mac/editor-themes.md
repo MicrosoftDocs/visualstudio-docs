@@ -5,7 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 06/23/2023
-ms.topic: reference
+ms.topic: ui-reference
 ---
 # Editor themes in Visual Studio for Mac
 

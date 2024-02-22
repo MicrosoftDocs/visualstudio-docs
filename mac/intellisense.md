@@ -5,7 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 08/16/2019
-ms.topic: reference
+ms.topic: conceptual
 ---
 # IntelliSense in Visual Studio for Mac
 
