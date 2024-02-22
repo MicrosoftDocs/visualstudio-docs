@@ -42,6 +42,8 @@ There are three parts to adding Language Configuration support to a Visual Studi
 1. [Add a grammar file](#optional-add-a-grammar-file)
 1. [Update the pkgdef file](#create-a-pkgdef-file)
 
+You can explore a working sample at [Language Configuration Sample](https://github.com/microsoft/VSExtensibility/tree/main/LSP/Samples/Language%20Configuration%20Setup%20Example).
+
 ## Create a VSIX project
 
 To create a language service extension using Language Configuration, first make sure you have the **Visual Studio extension development** Workload installed for your instance of VS.
@@ -336,3 +338,5 @@ In order to make the language configuration information accessible for Visual St
 ## Related content
 
 - [Language Server Protocol](./language-server-protocol.md)
+
+- [Language Configuration Sample](https://github.com/microsoft/VSExtensibility/tree/main/LSP/Samples/Language%20Configuration%20Setup%20Example)
