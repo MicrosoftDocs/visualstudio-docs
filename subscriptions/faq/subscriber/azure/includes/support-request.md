@@ -12,4 +12,4 @@ ms.faqid: q5_11
 
 ## How do I contact support for Azure subscription-related questions?
 
-You can get help with Azure issues and questions by [submitting a request request](https://learn.microsoft.com/azure/azure-portal/supportability/how-to-create-azure-support-request).
+You can get help with Azure issues and questions by [submitting a request](https://learn.microsoft.com/azure/azure-portal/supportability/how-to-create-azure-support-request).
