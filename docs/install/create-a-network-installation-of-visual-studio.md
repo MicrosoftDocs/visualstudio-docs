@@ -1,7 +1,7 @@
 ---
 title: Create a network-based installation
 description: Create a private network install point to deploy Visual Studio to support enterprise users with limited permissions or client machines with limited internet access.
-ms.date: 2/29/2023
+ms.date: 2/29/2024
 ms.topic: conceptual
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
