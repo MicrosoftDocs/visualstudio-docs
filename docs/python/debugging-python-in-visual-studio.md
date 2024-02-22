@@ -29,27 +29,15 @@ For scenario-specific debugging information, see the following articles:
 
 ## Debug code with or without a project
 
-If you want to control your Python environment and arguments, first create a project for your code. You can create a project with the [From existing Python code](managing-python-projects-in-visual-studio.md#create-a-project-from-existing-files) project template.
+If you want to control your Python environment and arguments, first create a project for your code. You can create a project with the **From existing Python code** project template. For more information, see [Create a project from existing Python code files](managing-python-projects-in-visual-studio.md#create-a-project-from-existing-files).
 
-However, you don't need a project or solution file in Visual Studio to debug your Python code.
-
-To debug code in a standalone Python file:
-
-1. Open your standalone Python file in Visual Studio.
-
-1. Right-click in the code editor and select **Start with Debugging**.
-
-Visual Studio launches the script with the global default environment and no arguments. You then have full debugging support for your code. 
-
-For more information, see [Python environments](managing-python-environments-in-visual-studio.md).
+However, you don't need a project or solution file in Visual Studio to debug your Python code. To debug code in a standalone Python file, open your file in Visual Studio, and select **Debug** > **Start Debugging**. Visual Studio launches the script with the global default environment and no arguments. You then have full debugging support for your code. For more information, see [Python environments](managing-python-environments-in-visual-studio.md).
 
 ## Explore basic debugging
 
-The basic debugging workflow involves settings breakpoints, stepping through code, inspecting values, and handling exceptions.
+The basic debugging workflow involves settings breakpoints, stepping through code, inspecting values, and handling exceptions. You can start a debugging session by selecting **Debug** > **Start Debugging** or use the **F5** keyboard shortcut. For a project, these actions launch the _startup file_ with the project's active environment and any command-line arguments or search paths specified for **Project Properties**. To configure the properties, see [Set project debugging options](#configure-project-debugging-options).
 
-Start the debugging session for a project by selecting **Debug** > **Start Debugging** or the **Start** button on the toolbar, or the **F5** keyboard shortcut. These actions launch your project's _startup file_ with the project's active environment and any command-line arguments or search paths specified for **Project Properties**. To configure the properties, see [Set project debugging options](#configure-project-debugging-options).
-
-### Set the startup file
+### Set the project startup file
 
 The startup file for a project is shown in bold in **Solution Explorer**. You can choose which file to use as the startup file.
 
@@ -69,23 +57,31 @@ Breakpoints stop execution of code at a marked point so you can inspect the prog
 
 Some breakpoints in Python can be surprising for developers who have worked with other programming languages. In Python, the entire file is executable code, so Python runs the file when it's loaded to process any top-level class or function definitions. If a breakpoint is set, you might find the debugger breaking part-way through a class declaration. This behavior is correct, even though it's sometimes surprising.
 
-- To set a breakpoint, select in the left margin of the code editor or right-click a line of code and select **Breakpoint** > **Insert Breakpoint**.
+- To set a breakpoint, select in the left margin of the code editor or right-click a line of code and select **Breakpoint** > **Insert Breakpoint**. A red dot appears on each line that has a set breakpoint.
 
-   A red dot appears on each line that has a set breakpoint.
-
-   :::image type="content" source="media/debugging-breakpoints.png" alt-text="Screenshot that shows how breakpoints are displayed in the left margin of the code file in Visual Studio." lightbox="media/debugging-breakpoints.png":::
+   :::image type="content" source="media/debugging-breakpoints.png" alt-text="Screenshot that shows how breakpoints are displayed in the left margin of the code file in Visual Studio." lightbox="media/debugging-breakpoints.png" border="false":::
 
 - To remove a breakpoint, select the red dot or right-click the line of code and select **Breakpoint** > **Delete Breakpoint**. You can also disable a breakpoint by selecting the red dot and selecting **Breakpoint** > **Disable Breakpoint**.
 
-#### Set conditions
+   :::image type="content" source="media/debugging-breakpoint-disable.png" alt-text="Screenshot that shows how to disable a breakpoint in the left margin of the code file in Visual Studio." lightbox="media/debugging-breakpoint-disable.png" border="false":::
+
+### Set conditions and actions
 
 You can customize the conditions under which a breakpoint is triggered, such as breaking only when a variable is set to a certain value or value range.
 
-- To set conditions, right-click the breakpoint's red dot, select **Condition**, then create expressions by using Python code. For full details on this feature in Visual Studio, see [Breakpoint conditions](../debugger/using-breakpoints.md#breakpoint-conditions).
+- To set conditions, right-click the breakpoint's red dot, select **Conditions**. The **Breakpoint Settings** dialog opens.
 
-When you set conditions, you can also select **Action** and create a message to log to the output window, optionally continuing execution automatically. Logging a message creates a _tracepoint_ without adding logging code to your application directly:
+   In the dialog, you can add multiple conditions and create conditional expressions by using Python code. For full details on this feature in Visual Studio, see [Breakpoint conditions](../debugger/using-breakpoints.md#breakpoint-conditions).
 
-:::image type="content" source="media/debugging-tracepoint.png" alt-text="Screenshot that shows how to create a tracepoint with a breakpoint in Visual Studio." lightbox="media/debugging-tracepoint.png"::: 
+   :::image type="content" source="media/debugging-breakpoints-conditions.png" alt-text="Screenshot that shows how to select the option to configure Conditions for a breakpoint in Visual Studio." lightbox="media/debugging-breakpoints-conditions.png"::: 
+
+- You also have the options to set **Actions** for a breakpoint. You can create a message to log to the **Output** window and optionally specify to continue execution automatically.
+
+   :::image type="content" source="media/debugging-breakpoints-tracepoint.png" alt-text="Screenshot that shows how to create tracepoint actions for a breakpoint in Visual Studio." lightbox="media/debugging-breakpoints-tracepoint.png"::: 
+
+   Logging a message creates a _tracepoint_ that doesn't add logging code to your application directly.
+   
+Depending on how you configure conditions and actions for a breakpoint, the red icon in the left margin changes to indicate your settings. You might see the dot shape, a clock timer, or a diamond.
 
 ### Step through code
 
@@ -107,9 +103,9 @@ The following table summarizes these commands and provides the keyboard shortcut
 
 When you stop code execution in the debugger, you can inspect and modify the values of variables. You can also use the **Watch** window to monitor individual variables and custom expressions. For more information, see [Inspect variables](../debugger/debugger-feature-tour.md#inspect-variables-with-the-autos-and-locals-windows).
 
-- To view a value by using **DataTips**, hover the mouse over any variable in the editor. You can select the value to change it:
+- To view a value by using the **DataTips** feature during debugging, hover the mouse over any variable in the editor. You can select the variable value to change it:
 
-   :::image type="content" source="media/debugging-quick-tips.png" alt-text="Screenshot that shows DataTips for a variable in the Visual Studio debugger." lightbox="media/debugging-quick-tips.png"::: 
+   :::image type="content" source="media/debugging-quick-tips.png" alt-text="Screenshot that shows the DataTips value for a variable in the Visual Studio debugger." lightbox="media/debugging-quick-tips.png"::: 
 
 - To use the **Autos** window, select **Debug** > **Windows** > **Autos**. This window contains variables and expressions that are close to the current statement. You can double-click in the value column or select and enter **F2** to edit the value:
 
@@ -129,15 +125,13 @@ When you stop code execution in the debugger, you can inspect and modify the val
 
    For more information on using the **Watch** window, see [Set a watch on variables with the Watch and QuickWatch windows](../debugger/watch-and-quickwatch-windows.md).
 
-- To inspect a string value, select the magnifying glass icon on the right side of the value. The `str`, `unicode`, `bytes`, and `bytearray` types are all available for inspection.
+- To inspect a string value, select **View** (magnifying glass) on the right side of the **Value** entry. The `str`, `unicode`, `bytes`, and `bytearray` types are all available for inspection.
 
-   Selecting the magnifying glass displays the unquoted string value in a popup dialog, with wrapping and scrolling, which is useful for long strings.
-   
-   You can also select the dropdown arrow on the magnifying glass to choose plain text, HTML, XML, and JSON visualizations:
+   The **View** dropdown menu displays four visualization options: Text, HTML, XML, or JSON. 
 
-   :::image type="content" source="media/debugging-string-visualizers.png" alt-text="Screenshot that shows how to access string visualizers from the magnifying glass in the Visual Studio debugger." lightbox="media/debugging-string-visualizers.png" border="false":::
+   :::image type="content" source="media/debugging-string-visualizers.png" alt-text="Screenshot that shows how to access visualizers from the View magnifying glass in the Visual Studio debugger." lightbox="media/debugging-string-visualizers.png" border="false":::
 
-   HTML, XML, and JSON visualizations appear in separate popup windows with syntax highlighting and tree views.
+   After you select a visualization, a popup dialog shows the unquoted string value according to the selected type. You can view the string with wrapping and scrolling, syntax highlighting, and tree views. These visualizations can help to debug issues with long and complex strings.
 
 ### View exceptions
 
