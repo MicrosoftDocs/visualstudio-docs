@@ -63,7 +63,7 @@ Some breakpoints in Python can be surprising for developers who have worked with
 
 - To remove a breakpoint, select the red dot or right-click the line of code and select **Breakpoint** > **Delete Breakpoint**. You can also disable a breakpoint by selecting the red dot and selecting **Breakpoint** > **Disable Breakpoint**.
 
-   :::image type="content" source="media/debugging-breakpoint-disable.png" alt-text="Screenshot that shows how to disable a breakpoint in the left margin of the code file in Visual Studio." lightbox="media/debugging-breakpoint-disable.png" border="false":::
+   :::image type="content" source="media/debugging-breakpoints-disable.png" alt-text="Screenshot that shows how to disable a breakpoint in the left margin of the code file in Visual Studio." lightbox="media/debugging-breakpoints-disable.png" border="false":::
 
 ### Set conditions and actions
 
@@ -73,11 +73,11 @@ You can customize the conditions under which a breakpoint is triggered, such as 
 
    In the dialog, you can add multiple conditions and create conditional expressions by using Python code. For full details on this feature in Visual Studio, see [Breakpoint conditions](../debugger/using-breakpoints.md#breakpoint-conditions).
 
-   :::image type="content" source="media/debugging-breakpoints-conditions.png" alt-text="Screenshot that shows how to select the option to configure Conditions for a breakpoint in Visual Studio." lightbox="media/debugging-breakpoints-conditions.png"::: 
+   :::image type="content" source="media/debugging-breakpoints-conditions.png" alt-text="Screenshot that shows how to select the option to configure Conditions for a breakpoint in Visual Studio." lightbox="media/debugging-breakpoints-conditions.png" border="false"::: 
 
 - You also have the options to set **Actions** for a breakpoint. You can create a message to log to the **Output** window and optionally specify to continue execution automatically.
 
-   :::image type="content" source="media/debugging-breakpoints-tracepoint.png" alt-text="Screenshot that shows how to create tracepoint actions for a breakpoint in Visual Studio." lightbox="media/debugging-breakpoints-tracepoint.png"::: 
+   :::image type="content" source="media/debugging-breakpoints-tracepoint.png" alt-text="Screenshot that shows how to create tracepoint actions for a breakpoint in Visual Studio." lightbox="media/debugging-breakpoints-tracepoint.png" border="false"::: 
 
    Logging a message creates a _tracepoint_ that doesn't add logging code to your application directly.
    
@@ -105,23 +105,23 @@ When you stop code execution in the debugger, you can inspect and modify the val
 
 - To view a value by using the **DataTips** feature during debugging, hover the mouse over any variable in the editor. You can select the variable value to change it:
 
-   :::image type="content" source="media/debugging-quick-tips.png" alt-text="Screenshot that shows the DataTips value for a variable in the Visual Studio debugger." lightbox="media/debugging-quick-tips.png"::: 
+   :::image type="content" source="media/debugging-quick-tips.png" alt-text="Screenshot that shows the DataTips value for a variable in the Visual Studio debugger." lightbox="media/debugging-quick-tips.png" border="false"::: 
 
 - To use the **Autos** window, select **Debug** > **Windows** > **Autos**. This window contains variables and expressions that are close to the current statement. You can double-click in the value column or select and enter **F2** to edit the value:
 
-   :::image type="content" source="media/debugging-autos-window.png" alt-text="Screenshot that shows the Autos window in the Visual Studio debugger." lightbox="media/debugging-autos-window.png"::: 
+   :::image type="content" source="media/debugging-autos-window.png" alt-text="Screenshot that shows the Autos window in the Visual Studio debugger." lightbox="media/debugging-autos-window.png" border="false"::: 
 
    For more information on using the **Autos** window, see [Inspect variables in the Autos and Locals windows](../debugger/autos-and-locals-windows.md).
 
 - To use the **Locals** window, select **Debug** > **Windows** > **Locals**. This window displays all variables that are in the current scope, which can again be edited:
  
-   :::image type="content" source="media/debugging-locals-window.png" alt-text="Screenshot that shows the Locals window in the Visual Studio debugger." lightbox="media/debugging-locals-window.png"::: 
+   :::image type="content" source="media/debugging-locals-window.png" alt-text="Screenshot that shows the Locals window in the Visual Studio debugger." lightbox="media/debugging-locals-window.png" border="false"::: 
 
    For more information on using the **Locals** window, see [Inspect variables in the Autos and Locals windows](../debugger/autos-and-locals-windows.md).
 
 - To use the **Watch** windows, select **Debug** > **Windows** > **Watch** > **Watch 1-4**. This option allows you to enter arbitrary Python expressions and view the results. Expressions are reevaluated for each step:
 
-   :::image type="content" source="media/debugging-watch-window.png" alt-text="Screenshot that shows the Watch window in the Visual Studio debugger." lightbox="media/debugging-watch-window.png"::: 
+   :::image type="content" source="media/debugging-watch-window.png" alt-text="Screenshot that shows the Watch window in the Visual Studio debugger." lightbox="media/debugging-watch-window.png" border="false"::: 
 
    For more information on using the **Watch** window, see [Set a watch on variables with the Watch and QuickWatch windows](../debugger/watch-and-quickwatch-windows.md).
 
@@ -137,21 +137,21 @@ When you stop code execution in the debugger, you can inspect and modify the val
 
 If an error occurs in your program during debugging, but you don't have an exception handler for it, the debugger breaks at the point of the exception:
 
-:::image type="content" source="media/debugging-exception-popup.png" alt-text="Screenshot that shows an Exception popup for an unhandled error in the Visual Studio debugger." lightbox="media/debugging-exception-popup.png":::
+:::image type="content" source="media/debugging-exception-popup.png" alt-text="Screenshot that shows an Exception popup for an unhandled error in the Visual Studio debugger." lightbox="media/debugging-exception-popup.png" border="false":::
 
 When an error occurs, you can inspect the current program state, including the call stack. However, if you step through the code, the debugging process continues to throw the exception until it's handled or your program exits.
 
 - To see an expanded view of exceptions, select **Debug** > **Windows** > **Exception Settings**. 
 
-   :::image type="content" source="media/debugging-exception-settings.png" alt-text="Screenshot that shows the Exceptions window in the Visual Studio debugger." lightbox="media/debugging-exception-settings.png":::
+   :::image type="content" source="media/debugging-exception-settings.png" alt-text="Screenshot that shows the Exceptions Settings window in the Visual Studio debugger." lightbox="media/debugging-exception-settings.png" border="false":::
 
-   In the **Python Exceptions** window opens, the checkbox next an exception controls whether the debugger _always_ breaks when that exception is raised.
+   In the **Exceptions Settings** window, the checkbox next an exception controls whether the debugger _always_ breaks when that exception is raised.
    
-- To break more often for a particular exception, select the checkbox next to the exception in the **Python Exceptions** window.
+- To break more often for a particular exception, select the checkbox next to the exception in the **Exception Settings** window.
 
 - By default, most exceptions break when an exception handler can't be found in the source code. To change this behavior, right-click any exception and modify the **Continue When Unhandled in User Code** option. To break less often for the exception, deselect the **Continue When Unhandled in User Code** option.
 
-- To configure an exception that doesn't appear in the **Python Exceptions** window, select **Add**. Enter a name for the exception to watch. The name must match the full name of the exception.
+- To configure an exception that doesn't appear in the **Exceptions Settings** window, select **Add** (plus symbol). Enter a name for the exception to watch. The name must match the full name of the exception.
 
 ## Configure project debugging options
 
