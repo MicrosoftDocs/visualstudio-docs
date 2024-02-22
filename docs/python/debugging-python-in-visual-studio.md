@@ -1,7 +1,7 @@
 ---
 title: Debug Python code, set breakpoints, inspect code
 description: Use rich interactive debugging for Python code in Visual Studio, including setting breakpoints, stepping, inspecting values, looking at exceptions, and more.
-ms.date: 02/20/2024
+ms.date: 02/22/2024
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
@@ -149,58 +149,58 @@ When an error occurs, you can inspect the current program state, including the c
    
 - To break more often for a particular exception, select the checkbox next to the exception in the **Exception Settings** window.
 
-- By default, most exceptions break when an exception handler can't be found in the source code. To change this behavior, right-click any exception and modify the **Continue When Unhandled in User Code** option. To break less often for the exception, deselect the **Continue When Unhandled in User Code** option.
+- By default, most exceptions break when an exception handler can't be found in the source code. To change this behavior, right-click any exception and modify the **Continue When Unhandled in User Code** option. To break less often for the exception, deselect this option.
 
-- To configure an exception that doesn't appear in the **Exceptions Settings** window, select **Add** (plus symbol). Enter a name for the exception to watch. The name must match the full name of the exception.
+- To configure an exception that doesn't appear in the **Exception Settings** window, select **Add** (plus symbol). Enter a name for the exception to watch. The name must match the full name of the exception.
 
 ## Configure project debugging options
 
-By default, the debugger starts your program with the standard Python launcher, no command-line arguments, and no other special paths or conditions. You can configure the startup options for a project by setting the debug properties.
+By default, the debugger starts your program with the standard Python launcher, no command-line arguments, and no other special paths or conditions. You can configure the startup options for a Python project by setting the debug properties.
 
-- To access the debug properties for a project, right-click your project in **Solution Explorer**, select **Properties**, and then select the **Debug** tab.
+- To access the debug properties for a project, right-click your Python project in **Solution Explorer**, select **Properties**, and then select the **Debug** tab.
 
-   :::image type="content" source="media/debugging-project-properties.png" alt-text="Screenshot that shows the project debug properties in the Visual Studio debugger." lightbox="media/debugging-project-properties.png":::
+   :::image type="content" source="media/debugging-project-properties.png" alt-text="Screenshot that shows the Python project debug properties in the Visual Studio debugger." lightbox="media/debugging-project-properties.png" border="false":::
 
 The following sections describe the specific properties.
 
-### Set launch properties (launcher)
+### Define launch behavior
 
-The following table describes properties you can use to configure launch behavior for the debugger.
+The following table lists possible values for the **Launch mode** property. Use this property to define the launch behavior for the debugger.
 
-| Property | Description |
+| Value | Description |
 | --- | --- |
 | **Standard Python launcher**   | Use debugging code written in portable Python compatible with CPython, IronPython, and variants like Stackless Python. This option provides the best experience for debugging pure Python code. When you attach to a running _python.exe_ process, the launcher specified in this property is used. This launcher also provides [mixed-mode debugging](debugging-mixed-mode-c-cpp-python-in-visual-studio.md) for CPython, which allows you to step seamlessly between C/C++ code and Python code. |
 | **Web launcher**               | Start your default browser on launch and enable debugging of templates. For more information, see the [Web template debugging](python-web-application-project-templates.md#debugging) section. |
-| **Django Web launcher**        | Identical behavior to the **Web launcher** property, and used only for the purposes of backwards compatibility. |
+| **Django Web launcher**        | Implement identical behavior to the **Web launcher** property but for a Django environment. Use this option only for the purposes of backwards compatibility. |
 | **IronPython (.NET) launcher** | Use the .NET debugger, which works only with IronPython but allows for stepping between any .NET language project, including C# and Visual Basic. This launcher is used if you attach to a running .NET process that hosts IronPython. |
 
-### Set run properties (search, startup, environment)
+### Define run behavior
 
-The following table describes properties you can set to configure running behavior for the debugger.
+The following table describes properties you can set to configure the running behavior for the debugger.
 
 | Property | Description |
 | --- | --- |
-| **Search Paths**          | These values match the items shown in the project's **Search Paths** node in **Solution Explorer**. While you can specify search paths in the **Properties** dialog, it can be easier to use **Solution Explorer**. The latter option lets your browse folders and automatically converts paths to relative form. |
-| **Script Arguments**      | These arguments are added to the command used to launch your script, and appear after your script's filename. The first item listed in the value is available to your script as `sys.argv[1]`, the second as `sys.argv[2]`, and so on. |
-| **Interpreter Arguments** | These arguments are added to the launcher command line before the name of your script. Common arguments are `-W ...` to control warnings, `-O` to slightly optimize your program, and `-u` to use unbuffered IO. IronPython users are likely to use this field to pass `-X` options, such as `-X:Frames` or `-X:MTA`. |
-| **Interpreter Path**      | This value overrides the path associated with the current environment. The value might be useful for launching your script with a nonstandard interpreter. |
+| **Search Paths**          | Specify the file and folder search paths Visual Studio uses for your project. These values match the items shown in the project's **Search Paths** node in **Solution Explorer**. While you can specify search paths in this dialog, it can be easier to use **Solution Explorer**, where you can browse folders and automatically convert paths to relative form. |
+| **Script Arguments**      | Define the arguments to add to the command Visual Studio uses to launch your script, and appear after your script's filename. The first item listed in the value is available to your script as `sys.argv[1]`, the second as `sys.argv[2]`, and so on. |
+| **Interpreter Arguments** | List the arguments to add to the launcher command line before the name of your script. Common arguments are `-W ...` to control warnings, `-O` to slightly optimize your program, and `-u` to use unbuffered IO. IronPython users are likely to use this field to pass `-X` options, such as `-X:Frames` or `-X:MTA`. |
+| **Interpreter Path**      | Identify an interpreter path to override the path associated with the current environment. The value might be useful for launching your script with a nonstandard interpreter. |
 | **Environment Variables** | Use this property to add entries of the form `<NAME>=\<VALUE>`. Visual Studio applies this property value last, on top of any existing global environment variables, and after `PYTHONPATH` is set according to the **Search Paths** setting. As a result, this setting can be used to manually override any of those other variables. |
 
-## Work with Immediate and Interactive windows
+## Work with interactive windows
 
-There are two interactive windows you can use during a debugging session: the standard Visual Studio **Immediate** window and the **Python Debug Interactive** window.
+There are two **interactive** windows you can use during a debugging session: the standard Visual Studio **Immediate** window and the **Python Debug Interactive** window.
 
 ### Open the Immediate window
 
-You can use the standard Visual Studio **Immediate** window for quick evaluation of Python expressions and inspection or assignment of variables within your running program. For more information, see [Immediate window](../ide/reference/immediate-window.md).
+You can use the standard Visual Studio **Immediate** window to quickly evaluate Python expressions and inspect or assign variables in your running program. For more information, see [Immediate window](../ide/reference/immediate-window.md).
 
-- To open the **Immediate** window, select **Debug** > **Windows** > **Immediate**.
+- To open the **Immediate** window, select **Debug** > **Windows** > **Immediate**. You can also use the keyboard shortcut **Ctrl**+**Alt**+**I**.
 
 ### Open the Debug Interactive window
 
-The **Python Debug Interactive** window offers a rich environment with the full [Interactive REPL](python-interactive-repl-in-visual-studio.md) experience available while debugging, including writing and running code. This window automatically connects to any process started in the debugger by using the Standard Python launcher (including processes attached through **Debug** > **Attach to Process**). However, this window isn't available when using mixed-mode C/C++ debugging.
+The **Python Debug Interactive** window offers a rich environment with the full [Interactive REPL](python-interactive-repl-in-visual-studio.md) experience available while debugging, including writing and running code. This window automatically connects to any process started in the debugger by using the Standard Python launcher, including processes attached through **Debug** > **Attach to Process**. However, this window isn't available when using mixed-mode C/C++ debugging.
 
-- To use the **Debug Interactive** window, select **Debug** > **Windows** > **Python Debug Interactive**. 
+- To use the **Debug Interactive** window, select **Debug** > **Windows** > **Python Debug Interactive** (**Shift**+**Alt**+**I**).
 
    :::image type="content" source="media/debugging-interactive.png" alt-text="Screenshot that shows how to work with the Python Debug Interactive window in Visual Studio." lightbox="media/debugging-interactive.png":::
 
@@ -242,9 +242,11 @@ The legacy debugger is the default in Visual Studio 2017 version 15.7 and earlie
 
 ### Support older Visual Studio or Python versions
 
-Visual Studio 2017 version 15.8 and later use a debugger based on ptvsd version 4.1+. Visual Studio 2019 version 16.5 and later use a debugger based on debugpy. These two versions of the debugger are compatible with Python 2.7 and Python 3.5+. If you're running one of these versions of Visual Studio, but you're using Python 2.6, 3.1 to 3.4, or IronPython, Visual Studio shows the error, **Debugger does not support this Python environment**:
+Visual Studio 2017 version 15.8 and later use a debugger based on ptvsd version 4.1 and later. Visual Studio 2019 version 16.5 and later use a debugger based on debugpy. These two versions of the debugger are compatible with Python 2.7 or Python 3.5 and later.
 
-:::image type="content" source="media/debugging-experimental-incompatible-error.png" alt-text="Screenshot of the debugger error message 'Debugger does not support this Python environment'." lightbox="media/debugging-experimental-incompatible-error.png"::: 
+If you're running one of these versions of Visual Studio, but you're using Python 2.6, 3.1 to 3.4, or IronPython, Visual Studio shows the error, **Debugger does not support this Python environment**:
+
+:::image type="content" source="media/debugging-experimental-incompatible-error.png" alt-text="Screenshot of the debugger error message 'Debugger does not support this Python environment'." lightbox="media/debugging-experimental-incompatible-error.png" border="false"::: 
 
 When Visual Studio reports this environment error, you must use the legacy debugger.
 
@@ -254,7 +256,7 @@ If you're using an older version of ptvsd in the current environment (such as an
 
 If your environment uses ptvsd 3.x, Visual Studio shows the error, **Debugger package could not be loaded**:
 
-:::image type="content" source="media/debugging-experimental-version-error.png" alt-text="Screenshot of the debugger error message 'Debugger package could not be loaded'." lightbox="media/debugging-experimental-version-error.png":::
+:::image type="content" source="media/debugging-experimental-version-error.png" alt-text="Screenshot of the debugger error message 'Debugger package could not be loaded'." lightbox="media/debugging-experimental-version-error.png" border="false":::
 
 The warning, **Debugger package is outdated**, appears when you're using an earlier 4.x version of ptvsd:
 
@@ -277,7 +279,7 @@ Follow these steps to manage your ptvsd installation:
 
 1. If the version is lower than 4.1.1a9 (the version bundled with Visual Studio), select the **X** to the right of the package to uninstall the older version. Visual Studio then uses its bundled version. (You can also uninstall from PowerShell by using the `pip uninstall ptvsd` command.)
 
-1. Alternately, you can update the ptvsd package to its newest version by following the instructions in the [Troubleshoot debug scenarios](#troubleshoot-debug-scenarios) section.
+1. Alternatively, you can update the ptvsd package to its newest version by following the instructions in the [Troubleshoot debug scenarios](#troubleshoot-debug-scenarios) section.
 
 ## Troubleshoot debug scenarios
 
@@ -308,7 +310,7 @@ The following steps enable debugging in the current Visual Studio session:
 
 1. Enter the following command:
 
-   ```powershell
+   ```console
    DebugAdapterHost.Logging /On /OutputWindow
    ```
 
@@ -318,7 +320,7 @@ The following steps enable debugging in the current Visual Studio session:
 
 1. If Visual Studio stops responding or you aren't otherwise able to access the **Output** window, restart Visual Studio, open a command window, and enter the following command:
 
-   ```powershell
+   ```console
    DebugAdapterHost.Logging /On
    ```
 
