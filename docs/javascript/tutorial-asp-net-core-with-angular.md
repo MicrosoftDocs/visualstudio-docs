@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Angular"
 description: Create an ASP.NET Core project to serve as an API backend and an Angular project to provide the user interface in Visual Studio.
-ms.date: 11/14/2023
+ms.date: 02/23/2024
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -42,7 +42,7 @@ Make sure to install the following:
 
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot showing Create a new project":::
 
-1. Search for Angular in the search bar at the top and then select **Angular and ASP.NET Core (Preview)**.
+1. Search for Angular in the search bar at the top and then select **Angular and ASP.NET Core**.
 
    :::image type="content" source="media/vs-2022/angular-choose-template.png" alt-text="Screenshot showing choosing a template.":::
 
@@ -60,6 +60,8 @@ Make sure to install the following:
    - angular.json(modified)
    - app.components.ts
    - app.module.ts
+
+   For more information on some of these project files, see [Next steps](#next-steps).
 
 ## Set the project properties
 
@@ -163,6 +165,6 @@ If the weather data doesn't load correctly, you may also need to verify that you
 
 ## Next steps
 
-For more information about SPA applications in ASP.NET Core, see the Angular section under [Developing Single Page Apps](/aspnet/core/client-side/spa/intro#developing-single-page-apps). The linked article provides additional context for project files such as *aspnetcore-https.js* and *proxy.conf.js*, although details of the implementation are different due to project template differences. For example, instead of a ClientApp folder, the Angular files are contained in a separate project.
+For more information about SPA applications in ASP.NET Core, see the Angular section under [Overview of Single-Page Apps (SPAs)](/aspnet/core/client-side/spa/intro?view=aspnetcore-7.0). The linked article provides additional context for project files such as *aspnetcore-https.js* and *proxy.conf.js*, although details of the implementation are different due to project template differences. For example, instead of a ClientApp folder, the Angular files are contained in a separate project.
 
 For MSBuild information specific to the client project, see [MSBuild properties for JSPS](../javascript/javascript-project-system-msbuild-reference.md).
