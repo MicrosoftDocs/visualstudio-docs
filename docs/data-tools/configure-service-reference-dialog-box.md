@@ -2,7 +2,7 @@
 title: Configure Service Reference Dialog Box
 description: Use the Configure Service Reference dialog box in Visual Studio to configure the behavior of Windows Communication Foundation (WCF) services.
 ms.date: 11/04/2016
-ms.topic: reference
+ms.topic: ui-reference
 f1_keywords:
 - msvse_wcf.dlg.ConfigureServiceReference
 helpviewer_keywords:
