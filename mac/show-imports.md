@@ -5,7 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 03/29/2019
-ms.topic: reference
+ms.topic: how-to
 ---
 # Show import items in Visual Studio for Mac
 

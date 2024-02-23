@@ -5,7 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 05/06/2018
-ms.topic: reference
+ms.topic: ui-reference
 ---
 # Source editor in Visual Studio for Mac
 
