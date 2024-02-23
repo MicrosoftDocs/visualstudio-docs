@@ -165,6 +165,6 @@ If the weather data doesn't load correctly, you may also need to verify that you
 
 ## Next steps
 
-For more information about SPA applications in ASP.NET Core, see the Angular section under [Overview of Single-Page Apps (SPAs)](/aspnet/core/client-side/spa/intro?view=aspnetcore-7.0). The linked article provides additional context for project files such as *aspnetcore-https.js* and *proxy.conf.js*, although details of the implementation are different due to project template differences. For example, instead of a ClientApp folder, the Angular files are contained in a separate project.
+For more information about SPA applications in ASP.NET Core, see the Angular section under [Overview of Single-Page Apps (SPAs)](/aspnet/core/client-side/spa/intro?view=aspnetcore-7.0&preserve-view=true). The linked article provides additional context for project files such as *aspnetcore-https.js* and *proxy.conf.js*, although details of the implementation are different due to project template differences. For example, instead of a ClientApp folder, the Angular files are contained in a separate project.
 
 For MSBuild information specific to the client project, see [MSBuild properties for JSPS](../javascript/javascript-project-system-msbuild-reference.md).
