@@ -142,6 +142,8 @@
     expanded: true
     items:
     - name: Use GitHub Copilot Completions
+      href: ide/visual-studio-github-copilot-install-and-states.md
+    - name: Use GitHub Copilot Completions
       href: ide/visual-studio-github-copilot-extension.md
     - name: Use GitHub Copilot Chat 
       href: ide/visual-studio-github-copilot-chat.md
