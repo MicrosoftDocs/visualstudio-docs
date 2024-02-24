@@ -141,7 +141,7 @@
   - name: GitHub Copilot
     expanded: true
     items:
-    - name: Use GitHub Copilot Completions
+    - name: Install and manage GitHub Copilot
       href: ide/visual-studio-github-copilot-install-and-states.md
     - name: Use GitHub Copilot Completions
       href: ide/visual-studio-github-copilot-extension.md
