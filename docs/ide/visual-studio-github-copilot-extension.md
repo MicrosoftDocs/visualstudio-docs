@@ -14,9 +14,9 @@ ai-usage: ai-assisted
 ---
 # What is the GitHub Copilot extension for Visual Studio?
 
-[**GitHub Copilot**](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs) and [GitHub Copilot Chat](https://aka.ms/VSXGHCopilot) in Visual Studio enable enhanced [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md), helping you be more productive and efficient when writing code.
+[**GitHub Copilot**](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs) and [GitHub Copilot Chat](https://aka.ms/VSXGHCopilot) extensions in Visual Studio enable enhanced [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md), helping you be more productive and efficient when writing code.
 
-In this article, you learn about Copilot Completions, an AI-powered pair programmer for Visual Studio that provides you with context-aware code completions, suggestions, and even entire code snippets. This powerful tool aids [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md) and helps developers write code more efficiently, reduce the time spent on repetitive tasks, and minimize errors.
+In this article, you learn about Copilot, an AI-powered pair programmer for Visual Studio that provides you with context-aware code completions, suggestions, and even entire code snippets. This powerful tool aids [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md) and helps developers write code more efficiently, reduce the time spent on repetitive tasks, and minimize errors.
 
 For more information on GitHub Copilot Chat in Visual Studio, see [About GitHub Copilot Chat in Visual Studio](visual-studio-github-copilot-chat.md).
 
@@ -38,35 +38,6 @@ To get started, you need:
   > GitHub Copilot is free for verified students and for maintainers of popular open source projects on GitHub. If you are not a student or maintainer of a popular open source project, you can [try GitHub Copilot for free with a one-time 30-day trial](https://github.com/settings/copilot). After the free trial, you will need a [paid subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) for continued use.
 
 GitHub Copilot supports several programming languages and frameworks, including but not limited to: C#, C++, and Python.
-
-## Installation instructions
-
-You can [install GitHub Copilot as an extension](#install-using-the-manage-extensions-dialog), but we recommend you [install GitHub Copilot as a component](#install-using-the-visual-studio-installer) using the Visual Studio Installer.
-
-### Install using the Visual Studio Installer
-
-1. Launch the Visual Studio Installer.
-1. Select the installation of Visual Studio you want to modify, and then select **Modify**.
-1. Select any workload, for example, **.NET desktop development**.
-1. Select **GitHub Copilot** from the list of **Optional** components, and then select **Modify** to install the extension.
-
-   :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-installer-component.png" alt-text="Screenshot that shows using the Visual Studio Installer to install the GitHub Copilot component." lightbox="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-installer-component.png":::
-
-    > [!NOTE]
-    > You'll use the **Manage Extensions** dialog to manage updates to the GitHub Copilot extension.
-
-### Install using the Manage Extensions dialog
-
-1. Open Visual Studio.
-1. On the menu bar, select **Extensions** > **Manage Extensions**.
-1. In the Search box, enter "GitHub Copilot".
-1. Select the **GitHub Copilot** extension, and then select the **Download** button.
-1. Restart Visual Studio to complete the installation process.
-
-> [!NOTE]
-> For more information about activation & authorization, see the [Installing the Visual Studio extension](https://docs.github.com/en/copilot/getting-started-with-github-copilot?tool=visualstudio#installing-the-visual-studio-extension) section in GitHub Docs.
-
-After installation, you can start using GitHub Copilot by typing code in the editor and observing the suggestions provided by AI.
 
 ## Exploring GitHub Copilot
 
