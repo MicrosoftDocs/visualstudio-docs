@@ -36,6 +36,8 @@ The latest information on VisualStudio.Extensibility may be found in the VSExten
 | [Overviews](#overviews) | Learn more by reading overviews of each major area of functionality. |
 | [Samples](#samples-and-tutorials) | Explore sample code demonstrating major features. |
 | [API reference](#api-docs) | Browse the VisualStudio.Extensibility API documentation. |
+| [Experimental APIs and Breaking Changes](#experimental-apis-and-breaking-changes) | Learn about our approach to stable-vs-experimental APIs and about breaking changes from the previous version. |
+| [Known Issues](#known-issues) | View known issues with the VisualStudio.Extensibility SDK. |
 | [Advanced topics](#advanced-topics) | Learn implementation details of the VisualStudio.Extensibility SDK. |
 
 ## Install VisualStudio.Extensibility
@@ -100,6 +102,24 @@ You can find a Visual Studio solution that contains all samples at [Samples.sln]
 | RegexMatchDebugVisualizer | Shows how to use [Remote UI](./inside-the-sdk/remote-ui.md) to create a [Debugger Visualizer](./debugger-visualizer/debugger-visualizers.md) to visualize regular expression matches that will launch in a modal dialog window. |
 | MemoryStreamDebugVisualizer | Shows how to create a [Debugger Visualizer](./debugger-visualizer/debugger-visualizers.md) to visualize MemoryStream objects that launches in a non-modal tool window. |
 | [RustLanguageServiceProvider](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/RustLanguageServerProvider) | Shows how to create a Rust language server provider extension that adds Intellisense and tooltips when a rust file is opened. |
+
+## Experimental APIs and Breaking Changes
+Starting with our 17.9 release, we're ready to label the vast majority of our APIs as stable. That is, we don't plan to make any breaking changes to these APIs. Any breaking changes that might need to be made, for example in response to user feedback about usability, will be communicated formally and with plenty of notice on our [breaking changes](https://github.com/microsoft/VSExtensibility/blob/main/docs/breaking_changes.md) page.
+
+There are a few of our APIs that don't yet meet this bar for stability, for one of several reasons:
+* The feature area is new and additional features and changes are expected in future versions.
+* The API is new and we want to incorporate user feedback into the deisgn before marking it stable.
+* We've received feedback that a particular API is difficult to use, so we're planning on updating it in future versions.
+
+For these APIs, we've explicitly labeled them using the `[Experimental]` attribute to help extension authors create their extensions with confidence in the the SDK.
+
+For more information, including how to use experimental APIs, please see our [Experimental APIs](https://github.com/microsoft/VSExtensibility/blob/main/docs/experimental_apis.md) page.
+
+## Known Issues
+
+We appreciate your feedback and bug reports in our [Issues Tracker](https://github.com/microsoft/VSExtensibility/issues), and we work to address any issues found in the SDK.
+
+Please visit our [Known Issues](https://github.com/microsoft/VSExtensibility/blob/main/docs/known_issues.md) page for information about any current known issues.
 
 ## Advanced topics
 
