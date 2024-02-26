@@ -5,7 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 04/28/2022
-ms.topic: reference
+ms.topic: overview
 ---
 # Visual Studio for Mac for Windows users
 
