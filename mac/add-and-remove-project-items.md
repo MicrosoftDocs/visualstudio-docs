@@ -26,7 +26,7 @@ You can add existing files to your project by right-clicking on the Project node
 
 ## Removing items
 
-To remove an item from your current project, select, and hold (or right-click) the item and select **Delete**.
+To remove an item from your current project, right-click the item and select **Delete**.
 
 ![Remove Item](media/add-and-remove-project-items-image3.png)
 
