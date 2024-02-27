@@ -34,5 +34,8 @@
       "BasePath": "/visualstudio/gamedev"
     }
   ],
-  "MetadataMultilineValues": true
+  "MetadataMultilineValues": true,
+  "RemoveTermSets": [
+    "*right-click*"
+  ]
 }
