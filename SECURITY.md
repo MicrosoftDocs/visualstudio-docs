@@ -23,7 +23,7 @@ Include the requested information listed below (as much as you can provide) to h
   - The location of the affected source code (tag/branch/commit or direct URL)
   - Any special configuration required to reproduce the issue
   - Step-by-step instructions to reproduce the issue
-  - Proof of concept or exploit code (if possible)
+  - Proof-of-concept or exploit code (if possible)
   - Impact of the issue, including how an attacker might exploit the issue
 
 This information will help us triage your report more quickly.

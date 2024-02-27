@@ -14,7 +14,7 @@ The Learn site is changing how we receive feedback on the documentation. The new
 
 We welcome your contributions to help us improve the Visual Studio docs. All the articles in this repository use GitHub-flavored markdown.
 
-Several feature areas of Visual Studio have their own folders in this repo, such as **debugger** for topics on debugging, **ide** for topics on the Visual Studio interactive development environment (integrated development environment (IDE)), and so forth. The **/media** subfolder in each folder contains art files for the topics.
+Several feature areas of Visual Studio have their own folders in this repo, such as **debugger** for topics on debugging, **ide** for topics on the Visual Studio integrated development environment (IDE), and so forth. The **/media** subfolder in each folder contains art files for the topics.
 
 For more information about contributing, see the [Contributing guide](CONTRIBUTING.md).
 
