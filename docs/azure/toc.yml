@@ -6,11 +6,11 @@
   items:
   - name: About Azure development in Visual Studio
     href: overview.md
-- name: Connect to Azure services
-  expanded: false
-  items:
   - name: 'What are Connected Services?'
     href: overview-connected-services.md
+- name: Connect to Azure services
+  expanded: true
+  items:
   - name: 'Find & provision Azure resources'
     href: overview-azure-integration.md
   - name: Microsoft Entra ID
@@ -32,6 +32,7 @@
   - name: App Configuration
     href: vs-azure-tools-connected-services-app-configuration.md
 - name: Deploy to Azure
+  expanded: false
   items:
   - name: ASP.NET web app
     href: deploy-aspnet-web-app-to-azure.md

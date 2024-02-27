@@ -5,7 +5,7 @@ description: "This document provides a list of hosts that must be allowed in you
 author: heiligerdankgesang 
 ms.author: dominicn
 manager: dominicn
-ms.topic: reference
+ms.topic: how-to
 ms.date: 01/10/2022
 ---
 # Install and use Visual Studio for Mac behind a firewall or proxy server

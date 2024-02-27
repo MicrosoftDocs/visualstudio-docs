@@ -6,7 +6,7 @@ ms.date: 11/17/2023
 ms.subservice: general-ide
 
 ms.topic: tutorial
-ms.devlang: CSharp
+ms.devlang: csharp
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens

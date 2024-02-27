@@ -1,99 +1,157 @@
 ---
 title: Use CookieCutter templates with Python
-description: Visual Studio supports the graphical Cookiecutter extension to discover templates for Python code and create projects from those templates.
-ms.date: 12/12/2022
+description: Use the graphical Cookiecutter extension in Visual Studio to discover templates for Python code and create projects from those templates.
+ms.date: 02/15/2024
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
 ms.subservice: python
+
+#customer intent: As a developer, I want to use the CookieCutter extension so that I can discover and use templates for Python code in Visual Studio.
 ---
+
 # Use the Cookiecutter extension
 
-[Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/) provides a graphical user interface to discover templates, input template options, and create projects and files. It's included with Visual Studio 2017 and later and can be installed separately in earlier versions of Visual Studio.
+[Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/) provides a graphical user interface to discover templates, input template options, and create projects and files. Visual Studio 2017 and later includes the Cookiecutter extension. It can be installed separately in earlier versions of Visual Studio.
 
-Cookiecutter requires Python 3.3 or later (32-bit or 64-bit) or Anaconda 3 4.2 or later (32-bit or 64-bit). If a suitable Python interpreter isn't available, Visual Studio displays a warning. If you install a Python interpreter while Visual Studio is running, select the **Home** button on the Cookiecutter toolbar to detect the newly installed interpreter. (See [Python environments](managing-python-environments-in-visual-studio.md) for more about environments in general.)
+In Visual Studio, the Cookiecutter extension is available under **View** > **Cookiecutter Explorer**:
 
-Once installed, select **View** > **Cookiecutter Explorer** to open its window:
+:::image type="content" source="media/cookiecutter-open.png" alt-text="Screenshot that shows the main window for Cookiecutter Explorer in Visual Studio." border="false" lightbox="media/cookiecutter-open.png":::
 
-![Cookiecutter main window](media/cookiecutter-overview.png)
+## Prerequisites 
 
-## Cookiecutter workflow
+- Visual Studio. To install the product, follow the steps in [Install Visual Studio](../install/install-visual-studio.md).
 
-Working with Cookiecutter is a process of browsing and selecting a template, cloning it to your local computer, setting options, then creating code from that template, as described in the sections that follow.
+- Python 3.3 or later (32-bit or 64-bit) or Anaconda 3 4.2 or later (32-bit or 64-bit).
+
+   - If a suitable Python interpreter isn't available, Visual Studio displays a warning.
+   
+   - If you install a Python interpreter while Visual Studio is running, select the **Home** option on the **Cookiecutter Explorer** toolbar to detect the newly installed interpreter. For more information, see [Create and manage Python environments in Visual Studio](managing-python-environments-in-visual-studio.md).
+
+## Work with Cookiecutter Explorer
+
+In **Cookiecutter Explorer**, you can browse and select templates, clone templates to your local computer, set template options, and create code from templates.
 
 ### Browse templates
 
-The Cookiecutter home page displays a list of templates to choose from, organized into the following groups:
+You can browse templates in **Cookiecutter Explorer** to see what's already installed and what's available.
 
-| Group | Description |
+1. In **Cookiecutter Explorer**, select the **Home** option on the toolbar to view the available templates. 
+
+   :::image type="content" source="media/cookiecutter-browse.png" alt-text="Screenshot that shows the home page for Cookiecutter Explorer in Visual Studio with templates listed for the Recommended and GitHub categories." border="false" lightbox="media/cookiecutter-browse.png":::
+
+   The home page displays a list of templates to choose from, organized into four possible groups:
+
+   | Group | Description | Notes |
+   | --- | --- | --- |
+   | **Installed** | Templates installed to your local computer. When an online template is used, its repository is automatically cloned to a subfolder of _~/.cookiecutters_. | You can remove an installed template from your system by selecting **Delete** on the **Cookiecutter Explorer** toolbar. |
+   | **Recommended** | Templates loaded from the recommended feed. Microsoft curates the default feed. | You can customize the feed by following the steps in [Set Cookiecutter options](#set-cookiecutter-options). |
+   | **GitHub** | GitHub search results for the "cookiecutter" keyword. The list of git repositories are returned in paginated form. | When the list of results exceeds the current view, you can select the **Load More** option to show the next set of paginated results in the list. |
+   | **Custom** | Any custom templates defined through **Cookiecutter Explorer**. When a custom template location is entered in the **Cookiecutter Explorer** search box, the location appears in this group. | You can define a custom template by entering the full path to the git repository, or the full path to a folder on your local disk. |
+
+1. To show or hide the list of available templates for a specific category, select the **arrow** next to the category.
+
+### Clone templates
+
+You can work with available templates in **Cookiecutter Explorer** to make local copies to work from.
+
+1. In **Cookiecutter Explorer**, select a template. Information about the selected template is displayed at the bottom of the **Cookiecutter Explorer** home page.
+
+   :::image type="content" source="media/cookiecutter-clone.png" alt-text="Screenshot that shows how to select a template for cloning in Cookiecutter Explorer in Visual Studio." border="false" lightbox="media/cookiecutter-clone.png":::
+
+   The template summary includes links for more information about the template. You can go to the **GitHub** repository page for the template, view the template **Wiki**, or find reported **Issues**.
+
+1. To clone the selected template, select **Next**. Cookiecutter makes a local copy of the template.
+
+The cloning behavior depends on the type of template you select:
+
+| Template type | Behavior |
 | --- | --- |
-| **Installed** | Templates that have been installed to your local computer. When an online template is used, its repository is automatically cloned to a subfolder of *~/.cookiecutters*. You can delete a selected installed template by pressing **Delete**. |
-| **Recommended** | Templates loaded from the recommended feed. The default feed is curated by Microsoft. See [Cookiecutter options](#cookiecutter-options) below for details on customizing the feed. |
-| **GitHub** | GitHub search results for the cookiecutter keyword. Results from GitHub come back paginated, if more results are available, **Load More** appears at the end of the list. |
-| **Custom** | When a custom location is entered in the search box, it appears in this group. You can either type in a full path to the GitHub repository, or the full path to a folder on your local disk. |
+| **Installed** | If the selected template was installed in a previous session of Visual Studio, it's automatically deleted and the latest version is installed and cloned on your local computer. |
+| **Recommended** | The selected template is cloned and installed on your local computer. |
+| **GitHub** | The selected template is cloned and installed on your local computer. |
+| **Custom search** | - **URL**: If you enter a custom URL for a git repository into the **Cookiecutter Explorer** search box, and then select the template, the selected template is cloned and installed on your local computer. <br> - **Folder path**: If you enter a custom folder path into the search box, and select the template, Visual Studio loads that template without cloning. |
 
-### Cloning
-
-When you select a template followed by **Next**, Cookiecutter makes a local copy to work from.
-
-If you select a template from the **Recommended** or **GitHub** groups, or enter a custom URL into the search box and select that template, it's cloned and installed on your local computer. If that template was installed in a previous session of Visual Studio, it's automatically deleted and the latest version is cloned.
-
-If you select a template from the **Installed** group, or enter a custom folder path into the search box and select that template, Visual Studio loads that template without cloning.
-
-> [!Important]
-> Cookiecutter templates are cloned under a single folder *~/.cookiecutters*. Each subfolder is named after the git repository name, which does not include the GitHub user name. Conflicts can arise if you clone different templates with the same name that come from different authors. In this case, Cookiecutter prevents you from overwriting the existing template with a different template of the same name. To install the other template, you must first delete the existing one.
+> [!IMPORTANT]
+> Cookiecutter templates are cloned under a single folder _~/.cookiecutters_. Each subfolder is named after the git repository name, which doesn't include the GitHub user name. Conflicts can arise if you clone different templates with the same name that come from different authors. In this case, Cookiecutter prevents you from overwriting the existing template with a different template of the same name. To install the other template, you must first delete the existing one.
 
 ### Set template options
 
-After the template is installed locally, Cookiecutter displays an options page where you can specify where you want Cookiecutter to generate files along with other options:
+After you install and clone a template locally, Cookiecutter displays the **Options** page. On this page, you can specify settings, such as the folder path location for generated files:
 
-![Cookiecutter options page](media/cookiecutter-template-options.png)
+:::image type="content" source="media/cookiecutter-template-options.png" alt-text="Screenshot that shows the options for a newly installed and cloned template in Cookiecutter Explorer in Visual Studio." border="false" lightbox="media/cookiecutter-template-options.png":::
 
-Each Cookiecutter template defines its own set of options, and specifies a default value for each one (displayed as the suggested text in each entry field). A default value may be a code snippet, often when it's a dynamic value that uses other options.
+Each Cookiecutter template defines its own set of options. When a default value is available for a setting, the **Options** page shows suggested text in the corresponding field. A default value might be a code snippet, often when it's a dynamic value that uses other options.
 
-It's possible to customize default values for specific options with a user configuration file. When the Cookiecutter extension detects a user configuration file, it overwrites the template's default values with the user config's default values. This behavior is discussed in the [User Config](https://cookiecutter.readthedocs.io/en/latest/advanced/user_config.html) section of the Cookiecutter documentation.
+For this example, the template name is defined as **cookiecutter-flask/cookiecutter-flask**. When a setting value can be changed, the field text is available for editing.
 
-If the template specifies specific Visual Studio tasks to run after code generation, an additional **Run additional tasks on completion** option appears that allows you to opt out of those tasks. The most common use of tasks is to open a web browser, open files in the editor, install dependencies, and so on.
+1. In the **Create to** field, enter the folder path location for any files generated by Cookiecutter.
 
-### Create
+1. Next, set other desired options for the template, such as:
 
-Once you've set your options, select **Create** to generate code (a warning appears if the output folder isn't empty). If you're familiar with the template's output and don't mind overwriting files, you can dismiss the warning. Otherwise, select **Cancel**, specify an empty folder, and then manually copy the created files to your non-empty output folder.
+   - **full_name**: The full name to apply to the template.
+   - **email**: The email address of the template author.
+   - **github_username**: The GitHub alias of the template author.
+   - **python_version**: The target Python version for web apps created from the template.
 
-After the files are created successfully, Cookiecutter provides an option to open the files in **Solution Explorer**:
+#### Set defaults with a configuration file
 
-![Cookiecutter showing Solution Explorer command](media/cookiecutter-files-created.png)
+You can customize default values for specific options with a user configuration file. When the Cookiecutter extension detects a user configuration file, it overwrites the template's default values with the configuration file values. For more information about this behavior, see the [User Config](https://cookiecutter.readthedocs.io/en/latest/advanced/user_config.html) section of the Cookiecutter documentation.
 
-## Cookiecutter options
+#### Opt out of specified tasks
+
+Some templates identify specific Visual Studio tasks to run after code generation. Common tasks include opening a web browser, opening files in the editor, and installing dependencies. When a template identifies specific tasks, the **Run additional tasks on completion** setting is added to the list of options. You can configure this setting to opt out of the specified Visual Studio tasks. 
+
+### Create code from templates
+
+After you set your template options, you're ready for Cookiecutter to create the project files and generate the code.
+
+The dialog displays a button after the list of options. The text for the button depends on the template. You might see **Create and Open folder**, **Add to Solution**, and so on.
+
+1. On the **Options** page, select the button that follows the list of options, such as **Create and Open folder** or **Add to Solution**.
+
+   :::image type="content" source="media/cookiecutter-create-folder.png" alt-text="Screenshot that shows the Create and Open Folder button after the list of template options." border="false":::
+
+   Cookiecutter generates the code. If the output folder isn't empty, a warning displays.
+   
+   - If you're familiar with the template's output and don't mind overwriting files, select **OK** to dismiss the warning.
+   
+   - Otherwise, select **Cancel**, specify an empty folder, and then manually copy the created files to your nonempty output folder.
+
+1. After Cookiecutter successfully creates the files, Visual Studio opens the template project files in **Solution Explorer**.
+
+## Set Cookiecutter options
 
 Cookiecutter options are available through **Tools** > **Options** > **Cookiecutter**:
 
-![Cookiecutter options](media/cookiecutter-tools-options.png)
+:::image type="content" source="media/cookiecutter-tools-options.png" alt-text="Screenshot that shows the options for Cookiecutter in Visual Studio." border="false" lightbox="media/cookiecutter-tools-options.png":::
 
 | Option | Description |
 | --- | --- |
-| **Recommended feed URL** | The location of the recommended templates feed. It can be a URL or a path to a local file. Leave the URL empty to use the default Microsoft curated feed. The feed provides a simple list of template locations, separated by newlines. To request changes to the curated feed, make a pull request against [the source on GitHub](https://github.com/Microsoft/PTVS/blob/master/Python/Product/Cookiecutter/CookiecutterFeed.txt). |
+| **Check for updated templates** | Controls whether Cookiecutter automatically checks online for updates to the installed templates. |
+| **Recommended feed URL** | The location of the recommended templates feed file. The location can be a URL or a path to a local file. Leave the URL empty to use the default Microsoft curated feed. The feed provides a simple list of template locations, separated by newlines. To request changes to the curated feed, make a pull request against [the source on GitHub](https://github.com/Microsoft/PTVS/blob/master/Python/Product/Cookiecutter/CookiecutterFeed.txt). |
 | **Show Help** | Controls the visibility of the help information bar at the top of the Cookiecutter window. |
 
 ## Optimize Cookiecutter templates for Visual Studio
 
-For the basics of authoring a Cookiecutter template, see the [Cookiecutter documentation](https://cookiecutter.readthedocs.io/en/latest/). The Cookiecutter extension for Visual Studio supports templates created for Cookiecutter v1.4.
+The Cookiecutter extension for Visual Studio supports templates created for Cookiecutter v1.4. For more information about authoring Cookiecutter templates, see the [Cookiecutter documentation](https://cookiecutter.readthedocs.io/en/latest/). 
 
 The default rendering of template variables depends on the type of data (string or list):
 
-- String: Label for variable name, text box for entering value, and a watermark showing the default value. Tooltip on the text box shows the default value.
-- List: Label for variable name, combo box for selecting a value. Tooltip on the combo box shows the default value.
+- **String**: The String data type uses a label for the variable name, a text box for entering the value, and a watermark that shows the default value. A tooltip on the text box shows the default value.
+- **List**: The List data type uses a label for the variable name and a combo box for selecting a value. A tooltip on the combo box shows the default value.
 
-It's possible to improve on this rendering by specifying additional metadata in your *cookiecutter.json* file that's specific to Visual Studio (and ignored by the Cookiecutter CLI). All properties are optional:
+You can improve on the rendering by specifying other metadata in your _cookiecutter.json_ file that's specific to Visual Studio (and ignored by the Cookiecutter CLI). All properties are optional:
 
 | Property | Description |
 | --- | --- |
-| Label | Specifies what appears above the editor for the variable, instead of the name of the variable. |
-| Description | Specifies the tooltip that appears on the edit control, instead of the default value for that variable. |
-| URL | Changes the label into a hyperlink, with a tooltip that shows the URL. Selecting the hyperlink opens the user's default browser to that URL. |
-| Selector | Allows customization of the editor for a variable. The following selectors are currently supported:<ul><li>`string`: Standard text box, default for strings.</li><li>`list`: Standard combo box, default for lists.</li><li>`yesno`: Combo box to choose between `y` and `n`, for strings.</li><li>`odbcConnection`: Text box with a **...** button that brings up a database connection dialog.</li></ul> |
+| `label` | Specifies the text to display above the editor for the variable, instead of the name of the variable. |
+| `description` | Specifies the tooltip to display on the edit control, instead of the default value for that variable. |
+| `url` | Changes the label into a hyperlink with a tooltip that shows the URL. Selecting the hyperlink opens the user's default browser to that URL. |
+| `selector` | Allows customization of the editor for a variable. The following selectors are currently supported: <br> - `string`: Standard text box, default for strings. <br> - `list`: Standard combo box, default for lists. <br> - `yesno`: Combo box to choose between `y` and `n`, for strings. <br> - `odbcConnection`: Text box with an ellipse button (**...**) that opens a database connection dialog. |
 
-Example:
+The following example shows how to set rendering properties:
 
 ```json
 {
@@ -122,13 +180,13 @@ Example:
 
 ### Run Visual Studio tasks
 
-Cookiecutter has a feature called *Post-Generate Hooks* that allows for running arbitrary Python code after the files are generated. Although flexible, it doesn't allow easy access to Visual Studio.
+Cookiecutter has a feature called **Post-Generate Hooks** that lets you run arbitrary Python code after the files are generated. Although the feature is flexible, it doesn't allow easy access to Visual Studio.
 
-For example, you may want to open a file in the Visual Studio editor, or in its web browser, or trigger the Visual Studio UI that prompts the user to create a virtual environment and install package requirements.
+You can use this feature to open a file in the Visual Studio editor or its web browser. You can also trigger the Visual Studio UI that prompts the user to create a virtual environment and install package requirements.
 
-To allow these scenarios, Visual Studio looks for extended metadata in *cookiecutter.json* that describes the commands to run after the user opens the generated files in **Solution Explorer** or after the files are added to an existing project. (Again, the user can opt out of running the tasks by clearing **Run additional tasks on completion** in the template options.)
+To allow these scenarios, Visual Studio looks for extended metadata in the _cookiecutter.json_ file. It searches for the commands to run after the user opens the generated files in **Solution Explorer** or after the files are added to an existing project. (Again, the user can opt out of running the tasks by clearing the **Run additional tasks on completion** template option.)
 
-Example:
+The following example shows how to set extended metadata in the _cookiecutter.json_ file:
 
 ```json
 "_visual_studio_post_cmds": [
@@ -147,11 +205,11 @@ Example:
 ]
 ```
 
-Commands are specified by name, and should use the non-localized (English) name to work on localized installs of Visual Studio. You can test and discover command names in the Visual Studio **Command** window.
+Specify the commands by name and use the nonlocalized (English) name to work on localized installs of Visual Studio. You can test and discover command names in the Visual Studio **Command** window.
 
-If you want to pass a single argument, specify it as a string like in the previous example.
+If you want to pass a single argument, specify the argument as a string as shown for the `name` metadata in the previous example.
 
-If you don't need to pass an argument, leave it an empty string or omit it from the JSON:
+If you don't need to pass an argument, leave the value as an empty string or omit it from the JSON file:
 
 ```json
 "_visual_studio_post_cmds": [
@@ -161,7 +219,7 @@ If you don't need to pass an argument, leave it an empty string or omit it from 
 ]
 ```
 
-Use an array for multiple arguments. For switches, split the switch and its value into separate arguments and use proper quoting. For example:
+For multiple arguments, use an array. For switches, split the switch and its value into separate arguments and use proper quoting, as shown in this example:
 
 ```json
 "_visual_studio_post_cmds": [
@@ -176,41 +234,37 @@ Use an array for multiple arguments. For switches, split the switch and its valu
 ]
 ```
 
-Arguments can refer to other Cookiecutter variables. In the examples above, the internal `_output_folder_path` variable is used to form an absolute path to generated files.
+Arguments can refer to other Cookiecutter variables. In the previous example, the internal `_output_folder_path` variable is used to form an absolute path to generated files.
 
-Note that the `Python.InstallProjectRequirements` command works only when adding files to an existing project. This limitation exists because the command is processed by the Python project in **Solution Explorer**, and there's no project to receive the message while in **Solution Explorer** - **Folder View**. We hope to remove the limitation win a future release (and provide better **Folder View** support in general).
+The `Python.InstallProjectRequirements` command works only when adding files to an existing project. This limitation exists because the command is processed by the Python project in **Solution Explorer**, and there's no project to receive the message while in **Solution Explorer** - **Folder View**.
 
-## Troubleshooting
+## Troubleshoot template issues
+
+Review the following sections for tips about troubleshooting your Python environment and code when working with Cookiecutter.
 
 ### Error loading template
 
-Some templates may be using invalid data types, such as boolean, in their *cookiecutter.json*. Report such instances to the template author by selecting the **Issues** link in the template information pane.
+Some templates might use invalid data types in their _cookiecutter.json_ file, such as boolean. You can report these instances to the template author by selecting the **Issues** link in the template information pane.
 
 ### Hook script failed
 
-Some templates may use post-generation scripts that are not compatible with the Cookiecutter UI. For example, scripts that query the user for input fails due to not having a terminal console.
+Some templates might use post-generation scripts that aren't compatible with the Cookiecutter UI. For example, scripts that query the user for input can fail due to lack of a terminal console.
 
 ### Hook script not supported on Windows
 
-If the post script is *.sh*, then it may not be associated with an application on your Windows computer. You may see a Windows dialog asking you to find a compatible application in the Windows store.
+If the post script file is _.sh_, it might not be associated with an application on your Windows computer. You might see a Windows dialog prompt to find a compatible application in the Windows store.
 
 ### Templates with known issues
 
-Clone failures:
+You can find out if a template has known issues by using the **Issues** link in the template summary in **Cookiecutter Explorer**:
 
-- **wildfish/cookiecutter-django-crud** (invalid character `|` in subfolder name)
-- **cookiecutter-pyvanguard** (invalid character `|` in subfolder name)
+:::image type="content" source="media/cookiecutter-find-issues.png" alt-text="Screenshot that shows how to open the list of known issues for a template in Cookiecutter Explorer." border="false":::
 
-Load failures:
+The link opens the GitHub issues page for the template:
 
-- **chrisdev/wagtail-cookiecutter-foundation** (uses a boolean type in *cookiecutter.json*)
-- **quintoandar/cookiecutter-android** (no template folder)
+:::image type="content" source="media/cookiecutter-known-issues.png" alt-text="Screenshot that shows the list of reported issues for a template in GitHub." lightbox="media/cookiecutter-known-issues.png":::
 
-Run failures:
+## Related content
 
-- **iknite/cookiecutter-ansible-role** (post hook script requires console input)
-- **benregn/cookiecutter-django-ansible** (Jinja error)
-
-Uses bash (not fatal):
-
-- **openstack-dev/cookiecutter**
+- [Python item templates reference](python-item-templates.md)
+- [Cookiecutter: Better Project Templates](https://cookiecutter.readthedocs.io/en/latest/)

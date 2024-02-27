@@ -6,7 +6,7 @@ ms.author: dominicn
 manager: dominicn
 ms.date: 05/06/2018
 ms.subservice: install
-ms.topic: reference
+ms.topic: how-to
 ---
 # Creating and editing a custom EditorConfig file in Visual Studio for Mac
 

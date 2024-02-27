@@ -5,7 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 08/19/2019
-ms.topic: reference
+ms.topic: how-to
 ---
 # Multi-caret editing in Visual Studio for Mac
 
