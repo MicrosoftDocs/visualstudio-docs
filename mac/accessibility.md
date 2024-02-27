@@ -1,12 +1,13 @@
 ---
-title: "Accessibility options in Visual Studio for Mac IDE and macOS"
-description: "Introduction of accessibility features in Visual Studio for Mac and how they can be enabled. Also learn about using macOS accessibility options and features, such as high contrast, keyboard navigation, and VoiceOver in Visual Studio for Mac"
+title: Accessibility options in Visual Studio for Mac IDE and macOS
+description: Introduction of accessibility features in Visual Studio for Mac and how they can be enabled. Also learn about using macOS accessibility options and features, such as high contrast, keyboard navigation, and VoiceOver in Visual Studio for Mac
 author: heiligerdankgesang 
 ms.author: dominicn
 manager: dominicn
 ms.date: 02/23/2022
 ms.topic: overview
 ---
+
 # Accessibility in Visual Studio for Mac
 
  [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
@@ -15,13 +16,13 @@ There are a number of accessibility tools and features built right into macOS to
 
 In addition to these, Visual Studio for Mac also has the following features to make it more accessible for people of varying abilities:
 
-* Editor text enlargement
-* Tool window text enlargement
-* Code editor color theme customization
-* Keyboard shortcut customization
-* Keyboard navigation
+- Editor text enlargement
+- Tool window text enlargement
+- Code editor color theme customization
+- Keyboard shortcut customization
+- Keyboard navigation
 
-In this article, learn how to use macOS accessibility features, and to set accessibility options in the Visual Studio for Mac IDE.
+In this article, learn how to use macOS accessibility features, and to set accessibility options in the Visual Studio for Mac integrated development environment (IDE).
 
 > [!NOTE]
 > This guide refers to Visual Studio for Mac. For Visual Studio on Windows, see [Accessibility features of Visual Studio](/visualstudio/ide/reference/accessibility-features-of-visual-studio).
@@ -34,7 +35,7 @@ Visual Studio for Mac supports increased contrast in macOS, increasing the contr
 
 1. Go to **Accessibility**, and select **Display**.
 
-1. Select the **Increase contrast** check box.
+1. Select the **Increase contrast** checkbox.
 
 ## Resize tool windows and editor content
 
@@ -75,4 +76,4 @@ Some users might find that the default color scheme doesn't meet their contrast 
 
 For more information, see the following topic:
 
-* [Use keyboard navigation](accessibility-keyboard.md)
+- [Use keyboard navigation](accessibility-keyboard.md)
