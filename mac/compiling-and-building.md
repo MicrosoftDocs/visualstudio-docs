@@ -1,29 +1,30 @@
 ---
-title: "Compiling and Building"
-description: "This article describes how to compile and build projects and solutions in Visual Studio for Mac"
+title: Compiling and Building
+description: This article describes how to compile and build projects and solutions in Visual Studio for Mac
 author: heiligerdankgesang 
 ms.author: dominicn
 manager: dominicn
 ms.date: 03/03/2022
 ms.topic: how-to
 ---
+
 # Compiling and building in Visual Studio for Mac
 
  [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
-Visual Studio for Mac can be used to build applications and create assemblies during the development of your project. It's important to build your code often to allow you to quickly identify type mismatches, erroneous syntax, misspelled keywords, and other compile-time errors. By building then debugging, you can also find and fix run-time errors such as logic, IO, and divide-by-zero errors.
+Visual Studio for Mac can be used to build applications and create assemblies during the development of your project. It's important to build your code often to allow you to quickly identify type mismatches, erroneous syntax, misspelled keywords, and other compile-time errors. By building then debugging, you can also find and fix run-time errors such as logic, I/O, and divide-by-zero errors.
 
-A successful build means the source code contains correct syntax and all static references to libraries, assemblies, and other components can resolve. The build process produces an application executable. This executable may then be tested via debugging and different kinds of manual and automated tests to validate code quality. After your application is fully tested, you can compile a release version to deploy to your customers.
+A successful build means the source code contains correct syntax and all static references to libraries, assemblies, and other components can resolve. The build process produces an application executable. This executable might then be tested via debugging and different kinds of manual and automated tests to validate code quality. After your application is fully tested, you can compile a release version to deploy to your customers.
 
 On the Mac, you can use any of the following methods to build your application: Visual Studio for Mac, MSBuild command-line tools, or Azure Pipelines.
 
 |Build Method  |Benefits  |
 |---------|---------|
-|Visual Studio for Mac     |  - Create builds immediately and test them in a debugger.<br />- Run multi-processor builds for C# projects.<br />-   Customize different aspects of the build system.        |
-|MSBuild command line     |   - Build projects without installing  Visual Studio for Mac.<br />- Run  multi-processor builds for all project types.<br />- Customize most areas of the build system.  |
-|Azure Pipelines     |   - Automate your build process as  part of a continuous integration/  continuous delivery pipeline.<br />- Apply automated tests with every build. <br />- Employ virtually unlimited cloud-based resources for build processes.<br />- Modify the build workflow and create build activities to perform deeply customized tasks. |
+|Visual Studio for Mac     |  - Create builds immediately and test them in a debugger.<br />- Run multiprocessor builds for C# projects.<br />-   Customize different aspects of the build system.        |
+|MSBuild command line     |   - Build projects without installing Visual Studio for Mac.<br />- Run multiprocessor builds for all project types.<br />- Customize most areas of the build system.  |
+|Azure Pipelines     |   - Automate your build process as part of a continuous integration and continuous delivery (CI/CD) pipeline.<br />- Apply automated tests with every build. <br />- Employ virtually unlimited cloud-based resources for build processes.<br />- Modify the build workflow and create build activities to perform deeply customized tasks. |
 
-The documentation in this section goes into further details of the IDE-based build process. To build applications from the command line without installing Visual Studio for Mac, you can install the latest [.NET Core SDK](https://dotnet.microsoft.com/download). For more information about building applications via the command line, see [MSBuild](/visualstudio/msbuild/msbuild). For details on building applications with Azure Pipelines, see [Azure Pipelines](/azure/devops/pipelines).
+The documentation in this section goes into further details of the integrated development environment (IDE)-based build process. To build applications from the command line without installing Visual Studio for Mac, you can install the latest [.NET Core SDK](https://dotnet.microsoft.com/download). For more information about building applications via the command line, see [MSBuild](/visualstudio/msbuild/msbuild). For details on building applications with Azure Pipelines, see [Azure Pipelines](/azure/devops/pipelines).
 
 > [!NOTE]
 > This topic applies to Visual Studio for Mac. For Visual Studio on Windows, see [Compile and build in Visual Studio](/visualstudio/ide/compiling-and-building-in-visual-studio).
@@ -36,15 +37,15 @@ For more information regarding how to build projects and solutions in the IDE, s
 
 Visual Studio for Mac can also be used to:
 
-* Change the output path by editing the Project's options:
+- Change the output path by editing the Project's options:
 
     ![Change output path](media/compiling-and-building-image4.png)
 
-* Change the verbosity of the build output:
+- Change the verbosity of the build output:
 
     ![Change build verbosity](media/compiling-and-building-image5.png)
 
-* Add Custom Commands before, during, or after Building or Cleaning:
+- Add Custom Commands before, during, or after Building or Cleaning:
 
     ![add custom commands](media/compiling-and-building-image6.png)
 

@@ -1,12 +1,13 @@
 ---
-title: "Building ASP.NET Core applications"
-description: "This article walks you through creating and exploring ASP.NET Core applications with Visual Studio for Mac."
+title: Building ASP.NET Core applications
+description: This article walks you through creating and exploring ASP.NET Core applications with Visual Studio for Mac.
 author: heiligerdankgesang 
 ms.author: dominicn
 manager: dominicn
 ms.date: 05/30/2019
 ms.topic: how-to
 ---
+
 # Building ASP.NET Core applications in Visual Studio for Mac
 
  [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
@@ -18,9 +19,9 @@ In this lab, you will create and explore an ASP.NET Core application with Visual
 ## Objectives
 
 > [!div class="checklist"]
-> * Create an ASP.NET Core web app
-> * Explore the ASP.NET Core hosting, configuration, and middleware model
-> * Debug an ASP.NET Core web app
+> - Create an ASP.NET Core web app
+> - Explore the ASP.NET Core hosting, configuration, and middleware model
+> - Debug an ASP.NET Core web app
 
 ## Prerequisites
 
@@ -50,7 +51,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![Screenshot of the solution project node selected to see its contents, including folders and files.](media/netcore-image3.png)
 
-2. This project follows the model-view-controller (MVC) paradigm to provide a clear division of responsibilities between data (models), presentation (views), and functionality (controllers). Open the **HomeController.cs** file from the **Controllers** folder.
+2. This project follows the Model-View-Controller (MVC) paradigm to provide a clear division of responsibilities between data (models), presentation (views), and functionality (controllers). Open the **HomeController.cs** file from the **Controllers** folder.
 
     ![Screenshot of solution project with a C# class named HomeController selected.](media/netcore-image4.png)
 
@@ -68,9 +69,9 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 6. The solution also contains a **wwwroot** folder that will be the root for your web site. You can put static site content, such as CSS, images, and JavaScript libraries, directly at the paths you'd want them to be at when the site is deployed.
 
-    ![Screenshot of solution with the w w w root folder selected.](media/netcore-image8.png)
+    ![Screenshot of solution with the w root folder selected.](media/netcore-image8.png)
 
-7. There are also a variety of configuration files that serve to manage the project, its packages, and the application at runtime. For example, the default application [configuration](/aspnet/core/fundamentals/configuration) is stored in **appsettings.json**. Nested below the appsettings.json file is the **appsettings.Development.json** file. Here, you can override some/all of these settings on a per-environment basis. Visual Studio for Mac will nest files in this manner using the same logic as Visual Studio for Windows, so that files which you need to access more often are at the forefront. 
+7. There are also a variety of configuration files that serve to manage the project, its packages, and the application at runtime. For example, the default application [configuration](/aspnet/core/fundamentals/configuration) is stored in **appsettings.json**. Nested below the appsettings.json file is the **appsettings.Development.json** file. Here, you can override some/all of these settings on a per-environment basis. Visual Studio for Mac will nest files in this manner using the same logic as Visual Studio for Windows, so that files which you need to access more often are at the forefront.
 
     ![Screenshot showing a detail view with a json file selected.](media/netcore-build-nested.png)
 
@@ -96,7 +97,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![Screenshot of the C# Main method highlighting the host variable setting the reverse proxy server with the UseIISIntegration method.](media/netcore-image14.png)
 
-6. It's a cleaner practice to separate the loading of settings from the application bootstrapping. To easily do this, **UseStartup** is called to specify that the **Startup** class is to be called for the loading of settings and other startup tasks, such as inserting middleware into the HTTP pipeline. You may have multiple **UseStartup** calls with the expectation that each one overwrites previous settings as needed.
+6. It's a cleaner practice to separate the loading of settings from the application bootstrapping. To easily do this, **UseStartup** is called to specify that the **Startup** class is to be called for the loading of settings and other startup tasks, such as inserting middleware into the HTTP pipeline. You might have multiple **UseStartup** calls with the expectation that each one overwrites previous settings as needed.
 
     ![Screenshot of the C# Main method highlighting the host variable setting the startup class with the UseStartup option.](media/netcore-image15.png)
 
@@ -110,7 +111,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 ## Task 4: Running and debugging the application
 
-1. In **Solution Explorer**, right-click the **CoreLab** project node and select **Options**.
+1. In **Solution Explorer**, select and hold (or right-click) the **CoreLab** project node and select **Options**.
 
     ![Screenshot showing the context menu for the CoreLab solution, highlighting Options.](media/netcore-image18.png)
 
@@ -124,7 +125,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 5. Press **F5** to build and run the application. Alternatively, you can select **Run > Start Debugging**.
 
-6. Visual Studio for Mac will launch two windows. The first is a console window that provides you a view into the self-hosted server application.
+6. Visual Studio for Mac will launch two Windows. The first is a console window that provides you a view into the self-hosted server application.
 
     ![Screenshot showing the console window for the self-hosted server application.](media/netcore-image20.png)
 
@@ -170,7 +171,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 ## Task 5: Application startup configuration
 
-1. From **Solution Explorer**, open **Startup.cs**. You may notice some red squiggles initially as NuGet packages are being restored in the background and the Roslyn compiler is building a complete picture of the project dependencies.
+1. From **Solution Explorer**, open **Startup.cs**. You might notice some red squiggles initially as NuGet packages are being restored in the background and the Roslyn compiler is building a complete picture of the project dependencies.
 
     ![Screenshot of the solution with the C# class file named Startup selected.](media/netcore-image29.png)
 
@@ -186,7 +187,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![Screenshot of the Startup method, showing the builder variable using the AddJsonFile method to add the json file named appsettings.](media/netcore-image32.png)
 
-5. After that, it attempts to load an environment-specific **appsettings.json** file, which would override existing settings. For example, this is a provided **appsettings.Development.json** file used for that specific environment. To read more about configuration in ASP.NET Core, check out [the docs](/aspnet/core/fundamentals/configuration).
+5. After that, it attempts to load an environment-specific **appsettings.json** file, which would override existing settings. For example, this is a provided **appsettings.Development.json** file used for that specific environment. To read more about configuration in ASP.NET Core, check out the [docs](/aspnet/core/fundamentals/configuration).
 
     ![Screenshot of the Startup method, showing the builder variable using the AddJsonFile method to add an environment-specific appsettings json file.](media/netcore-image34.png)
 
@@ -196,11 +197,11 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 ## Task 6: Inserting application middleware
 
-1. Locate the **Configure** method in the **Startup** class. This is where all the middleware is configured so that it can be inserted into the HTTP pipeline and used to process every request to the server. While this method is called only once, the contents of the methods (such as **UseStaticFiles**) may be executed on every request.
+1. Locate the **Configure** method in the **Startup** class. This is where all the middleware is configured so that it can be inserted into the HTTP pipeline and used to process every request to the server. While this method is called only once, the contents of the methods (such as **UseStaticFiles**) might be executed on every request.
 
     ![Screenshot showing the Configure method in the Startup class.](media/netcore-image36.png)
 
-2. You can also add additional middleware to be executed as part of the pipeline. Add the code below after **app.UseStaticFiles** to automatically add an **X-Test** header to every outgoing response. IntelliSense will help complete the code as you type.
+2. You can also add additional middleware to be executed as part of the pipeline. Add the following code after **app.UseStaticFiles** to automatically add an **X-Test** header to every outgoing response. IntelliSense will help complete the code as you type.
 
     ```csharp
     app.Use(async (context, next) =>
@@ -212,7 +213,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 3. Press **F5** to build and run the project.
 
-4. We can use the browser to inspect the headers to verify they are added. The instructions below are for Safari, but you can do the same in [Chrome](https://stackoverflow.com/questions/4423061/view-http-headers-in-google-chrome) or [Firefox](https://stackoverflow.com/questions/33974595/in-firefox-how-do-i-see-http-request-headers-where-in-web-console).
+4. We can use the browser to inspect the headers to verify they are added. The following instructions are for Safari, but you can do the same in [Chrome](https://stackoverflow.com/questions/4423061/view-http-headers-in-google-chrome) or [Firefox](https://stackoverflow.com/questions/33974595/in-firefox-how-do-i-see-http-request-headers-where-in-web-console).
 
 5. Once the browser loads the site, select **Safari > Preferences**.
 
