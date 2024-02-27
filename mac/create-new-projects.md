@@ -1,12 +1,13 @@
 ---
-title: "Creating new Projects and Solutions"
-description: "This article describes how to create projects and solutions in Visual Studio for Mac"
+title: Creating new Projects and Solutions
+description: This article describes how to create projects and solutions in Visual Studio for Mac
 author: heiligerdankgesang 
 ms.author: dominicn
 manager: dominicn
 ms.date: 02/28/2022
 ms.topic: how-to
 ---
+
 # Create a new project in Visual Studio for Mac
 
  [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
@@ -42,7 +43,7 @@ Optionally, at this stage you can also configure Git source control options. The
 
 ## Adding additional projects to a solution
 
-You can add additional projects to a solution by right-clicking the solution in the **Solution Window** and choosing either **Add > Add New Project** or **Add > Add Existing Project**.
+You can add additional projects to a solution by select and hold (or right-click) ing the solution in the **Solution Window** and choosing either **Add > Add New Project** or **Add > Add Existing Project**.
 
 Adding a new project will take you through project creation, as shown in [Configuring Your New Project](#configuring-your-new-project).
 

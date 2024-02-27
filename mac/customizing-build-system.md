@@ -1,17 +1,18 @@
 ---
 title: "Customize the Build System: msbuild on the Mac"
-description: "This article is a brief introduction to the MSBuild build system used by Visual Studio for Mac"
+description: This article is a brief introduction to the MSBuild build system used by Visual Studio for Mac
 author: heiligerdankgesang 
 ms.author: dominicn
 manager: dominicn
 ms.date: 09/19/2019
 ms.topic: conceptual
 ---
+
 # Customize the MSBuild system in Visual Studio for Mac
 
  [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
-The Microsoft Build Engine, which is also known as MSBuild, is a platform for building .NET applications.  The Mono framework also has its own implementation of Microsoft's Build Engine, called **xbuild**. At this time, however, xbuild has been phased out in favor of using MSBuild on all operating systems.
+The Microsoft Build Engine, which is also known as MSBuild, is a platform for building .NET applications. The Mono framework also has its own implementation of Microsoft's Build Engine, called **xbuild**. At this time, however, xbuild has been phased out in favor of using MSBuild on all operating systems.
 
 **MSBuild** is used as the build system for projects in Visual Studio for Mac and works by taking a set of inputs, such as source files, and transforms them to outputs, such as executables. It achieves this output by invoking tools such as the compiler.
 
@@ -21,11 +22,11 @@ MSBuild uses an XML project file that defines the *Items* that are part of your 
 
 ### Viewing the MSBuild file
 
-Locate the MSBuild file by right-clicking on your project name and selecting **Reveal in Finder**. The finder window displays all the files and folders related to your project, including the `.csproj` file, as illustrated in the following image:
+Locate the MSBuild file by select and hold (or right-click) ing on your project name and selecting **Reveal in Finder**. The finder window displays all the files and folders related to your project, including the `.csproj` file, as illustrated in the following image:
 
 ![csproj location in Finder](media/customizing-build-system-image1.png)
 
-To display the `.csproj` in a new tab in Visual Studio for Mac, right-click on your project name and browse to **Tools > Edit File**:
+To display the `.csproj` in a new tab in Visual Studio for Mac, select and hold (or right-click) on your project name and browse to **Tools > Edit File**:
 
 ![opening the csproj in the source editor](media/customizing-build-system-image2.png)
 
@@ -39,7 +40,7 @@ All MSBuild files contain a mandatory root `Project` element, like so:
 </Project>
 ```
 
-Typically, the project also imports a `.targets` file. This file contains many of the rules that describe how to process and build the various files. The import usually appear towards the bottom of your `proj` file, and for C# projects look something like this:
+Typically, the project also imports a `.targets` file. This file contains many of the rules that describe how to process and build the various files. The import usually appear toward the bottom of your `proj` file, and for C# projects look something like this:
 
 ```xml
 <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
@@ -92,11 +93,11 @@ For example, the following code snippet creates the iOS Launch Screens. The Laun
   </ItemGroup>
  ```
 
- Item sets can be referred to from expressions using the `@()` syntax. For example, `@(BundleResource)` will be evaluated as the BundleResource item set, which means all of the BundleResource items. If there are no items of this type, it is empty, without any error.
+Item sets can be referred to from expressions using the `@()` syntax. For example, `@(BundleResource)` will be evaluated as the BundleResource item set, which means all of the BundleResource items. If there are no items of this type, it is empty, without any error.
 
 ## Resources for learning MSBuild
 
 The following resources can be used to learn about MSBuild in more detail:
 
-* [MSBuild Overview](/visualstudio/msbuild/msbuild)
-* [MSBuild Concepts](/visualstudio/msbuild/msbuild-concepts)
+- [MSBuild Overview](/visualstudio/msbuild/msbuild)
+- [MSBuild Concepts](/visualstudio/msbuild/msbuild-concepts)

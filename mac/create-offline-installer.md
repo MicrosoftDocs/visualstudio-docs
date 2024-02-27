@@ -1,5 +1,5 @@
 ---
-title: "Create an Offline Installer"
+title: Create an Offline Installer
 description: Learn how you can create an offline installer on Windows for Visual Studio for Mac.
 author: heiligerdankgesang 
 ms.author: dominicn
@@ -8,6 +8,7 @@ ms.date: 11/06/2018
 ms.subservice: install
 ms.topic: how-to
 ---
+
 # Create an Offline Installer for Visual Studio for Mac
 
  [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
