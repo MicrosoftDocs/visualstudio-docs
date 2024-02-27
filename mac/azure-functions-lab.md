@@ -88,7 +88,7 @@ In this lab, you'll learn how to get started building Azure Functions using Visu
 
 ## Example 3: Creating and debugging an Azure function
 
-1. You're now ready to start adding some code. When working with a .NET class library, Azure Functions are added as static methods. From the **Solution Window**, select and hold (or right-click) the **AzureFunctions** project node and select **Add > Add Function**:
+1. You're now ready to start adding some code. When working with a .NET class library, Azure Functions are added as static methods. From the **Solution Window**, right-click the **AzureFunctions** project node and select **Add > Add Function**:
 
     ![Add function option](media/azure-functions-lab-image11.png)
 
@@ -192,7 +192,7 @@ In this lab, you'll learn how to get started building Azure Functions using Visu
 
 ## Exercise 4: Working with function.json
 
-1. In an earlier exercise, it was mentioned that Visual Studio for Mac "generated" a job function for the Azure function defined in the library. This is because Azure Functions doesn't actually use the method attributes at runtime, but rather uses a compile-time file system convention to configure where and how Azure Functions are made available. From the **Solution Window**, select and hold (or right-click) on your project node and select **Reveal in Finder**.
+1. In an earlier exercise, it was mentioned that Visual Studio for Mac "generated" a job function for the Azure function defined in the library. This is because Azure Functions doesn't actually use the method attributes at runtime, but rather uses a compile-time file system convention to configure where and how Azure Functions are made available. From the **Solution Window**, right-click on your project node and select **Reveal in Finder**.
 
      ![Reveal in Finder menu option](media/azure-functions-lab-image23.png)
 
@@ -204,7 +204,7 @@ In this lab, you'll learn how to get started building Azure Functions using Visu
 
     ![function.json file open in Visual Studio for mac](media/azure-functions-lab-image25.png)
 
-1. In the **Solution Window**, select and hold (or right-click) the **AzureFunctionsLab** project node and select **Add > New Folder**. Name the new folder **Adder**. By default convention, the name of this folder will define the path to the API, such as **api/Adder**.
+1. In the **Solution Window**, right-click the **AzureFunctionsLab** project node and select **Add > New Folder**. Name the new folder **Adder**. By default convention, the name of this folder will define the path to the API, such as **api/Adder**.
 
     ![New folder option](media/azure-functions-lab-image26.png)
 
