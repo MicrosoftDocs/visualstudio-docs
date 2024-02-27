@@ -170,7 +170,7 @@ The following table lists possible values for the **Launch mode** property. Use 
 | Value | Description |
 | --- | --- |
 | **Standard Python launcher**   | Use debugging code written in portable Python compatible with CPython, IronPython, and variants like Stackless Python. This option provides the best experience for debugging pure Python code. When you attach to a running _python.exe_ process, the launcher specified in this property is used. This launcher also provides [mixed-mode debugging](debugging-mixed-mode-c-cpp-python-in-visual-studio.md) for CPython, which allows you to step seamlessly between C/C++ code and Python code. |
-| **Web launcher**               | Start your default browser on launch and enable debugging of templates. For more information, see the [Web template debugging](python-web-application-project-templates.md#debugging) section. |
+| **Web launcher**               | Start your default browser on launch and enable debugging of templates. For more information, see the [Web template debugging](python-web-application-project-templates.md#debugging-options) section. |
 | **Django Web launcher**        | Implement identical behavior to the **Web launcher** property but for a Django environment. Use this option only for the purposes of backwards compatibility. |
 | **IronPython (.NET) launcher** | Use the .NET debugger, which works only with IronPython but allows for stepping between any .NET language project, including C# and Visual Basic. This launcher is used if you attach to a running .NET process that hosts IronPython. |
 

@@ -106,7 +106,7 @@ Follow these steps to create the Python application.
 
 1. As needed, adjust the value of the `COUNT` variable in the code to enable the benchmark to complete in about 2 seconds on your computer.
 
-1. Rerun the program to confirm the modified `COUNT` value produces the benchmark in about 2 seconds.
+1. Run the program again and confirm the modified `COUNT` value produces the benchmark in about 2 seconds.
 
 > [!TIP]
 > When you run benchmarks, always use the **Debug** > **Start without Debugging** option.
@@ -185,7 +185,7 @@ You need to set the project properties for both the _debug_ and _release_ build 
 
       To change a property value, enter a value in the property field. For some fields, you can select the current value to expand a dropdown menu of choices or open a dialog to help define the value.
 
-      After you update values on a tab, select ***Apply** before switching to a different tab. This action helps to ensure your changes remain.
+      After you update values on a tab, select **Apply** before switching to a different tab. This action helps to ensure your changes remain.
 
       | Tab and section | Property | Value |
       | --- | --- | --- |
@@ -322,9 +322,7 @@ For more information about the code presented in this section, see [Python/C API
 
 ### Use PyBind11
 
-If you complete the steps in the previous section for the _superfastcode_ project, you might notice that the exercise requires boilerplate code to create the module structures for C++ CPython extensions. In this exercise, you discover that PyBind11 simplifies the coding process. You use macros in a C++ header file to accomplish the same result, but with much less code. However, extra steps are required to ensure Visual Studio can locate the PyBind11 libraries and include files.
-
-For more information about the code in this section, see [PyBind11 basics](https://github.com/pybind/pybind11/blob/master/docs/basics.rst).
+If you complete the steps in the previous section for the _superfastcode_ project, you might notice that the exercise requires boilerplate code to create the module structures for C++ CPython extensions. In this exercise, you discover that PyBind11 simplifies the coding process. You use macros in a C++ header file to accomplish the same result, but with much less code. However, extra steps are required to ensure Visual Studio can locate the PyBind11 libraries and include files. For more information about the code in this section, see [PyBind11 basics](https://github.com/pybind/pybind11/blob/master/docs/basics.rst).
 
 #### Install PyBind11
 
@@ -362,7 +360,7 @@ After PyBind11 installs, you need to add the PyBind11 paths to the **Additional 
 
    1. Select **New Line** (folder with plus symbol) on the popup dialog toolbar.
 
-      :::image type="content" source="media/add-pybind11-paths.png" alt-text="Screenshot that shows how to add a PyBind11 path to the Additional Include Directories property." border="false" lightbox="media/add-pybind11-paths.png":::
+      :::image type="content" source="media/cpp-add-pybind11-path.png" alt-text="Screenshot that shows how to add a PyBind11 path to the Additional Include Directories property." border="false" lightbox="media/cpp-add-pybind11-path.png":::
 
       Visual Studio adds an empty line at the top of the list of paths and positions the insert cursor at the beginning.
 
@@ -628,7 +626,7 @@ Visual Studio supports debugging Python and C++ code together. The following ste
    >
    > If you don't mind modifying your Python code, you can add `import os` and `os.system("pause")` statements at the end of your program. This code duplicates the original pause prompt.
 
-1. Select **File** > **Save** (of **Ctrl**+**S**) to save the property changes.
+1. Select **File** > **Save** (or **Ctrl**+**S**) to save the property changes.
 
 1. On the Visual Studio toolbar, set the **Build** configuration to **Debug**.
 
