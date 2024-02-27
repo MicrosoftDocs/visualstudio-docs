@@ -7,7 +7,7 @@ helpviewer_keywords:
 - refactoring [Visual Studio]
 f1_keywords:
 - vs.csharp.refactoring.preview
-ms.devlang: CSharp
+ms.devlang: csharp
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens

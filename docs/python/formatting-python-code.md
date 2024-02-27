@@ -5,7 +5,7 @@ author: cwebster-99
 ms.author: cowebster
 ms.subservice: python
 ms.topic: conceptual
-ms.date: 01/25/2024
+ms.date: 02/20/2024
 manager: jmartens
 
 # CustomerIntent: As a developer, I want to reformat Python code in Visual Studio so I can adjust settings like code spacing and line wrapping.
@@ -27,15 +27,9 @@ You can set your source code formatter through **Tools** > **Options** > **Text 
 
 You can apply formatting settings to all content in a file or only to a specific selection.
 
-To format a selection, use one of the following methods:
+To format a selection, select **Edit** > **Advanced** > **Format Selection**.
 
-- Select **Edit** > **Advanced** > **Format Selection**.
-- Select the keyboard shortcut **Ctrl**+**E**+**F**.
-
-To format the whole file, use one of the following methods:
-
-- Select **Edit** > **Advanced** > **Format Document**.
-- Select the keyboard shortcut **Ctrl**+**E**+**D**.
+To format the whole file, select **Edit** > **Advanced** > **Format Document**.
 
 ## Word wrap
 
@@ -45,7 +39,7 @@ You can enable word wrapping in **Tools** > **Options** > **Text Editor** > **Py
 
 ## Format comment text
 
-The **Edit** > **Advanced** > **Fill Comment Paragraph** option reflows and formats comment text. You can also access the feature by using the keyboard shortcut **Ctrl**+**E**+**P**.
+The **Edit** > **Advanced** > **Fill Comment Paragraph** option reflows and formats comment text. 
 
 ### Reformat long lines
 

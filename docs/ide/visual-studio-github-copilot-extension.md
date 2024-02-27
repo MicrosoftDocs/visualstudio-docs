@@ -10,6 +10,7 @@ ms.subservice: ai-tools
 monikerRange: vs-2022
 content_well_notification: 
   - AI-contribution
+ai-usage: ai-assisted
 ---
 # What is the GitHub Copilot extension for Visual Studio?
 

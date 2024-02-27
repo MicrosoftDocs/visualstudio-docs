@@ -8,9 +8,8 @@ helpviewer_keywords:
   - "Windows applications, accessibility"
   - "Web applications, accessibility"
   - "accessibility, Web applications"
-author: j-martens
-ms.author: jmartens
-manager: jmartens
+author: anandmeg
+ms.author: meghaanand
 ms.subservice: general-ide
 ---
 # Resources for designing accessible applications
