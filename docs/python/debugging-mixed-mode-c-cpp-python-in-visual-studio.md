@@ -1,7 +1,7 @@
 ---
 title: Mixed-mode debugging for Python
 description: Simultaneously debug C++ and Python in Visual Studio including stepping between environments, viewing values, and evaluating expressions.
-ms.date: 2/27/2024
+ms.date: 2/28/2024
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
@@ -146,14 +146,14 @@ For this scenario, the workaround is to attach the debugger separately:
 > [!TIP]
 > You can add a pause or delay in the C++ application to ensure it doesn't call the Python code that you want to debug before you attach the debugger.
 
-## Mixed-mode specific features
+## Explore mixed-mode specific features
 
 Visual Studio provides several mixed-mode debugging features to make it easier to debug your application: 
 
-- [Combined call stack](#combined-call-stack)
+- [Combined call stack](#use-a-combined-call-stack)
 - [Step between Python and native code](#step-between-python-and-native-code)
-- [PyObject values view in native code](#pyobject-values-view-in-native-code)
-- [Native values view in Python code](#native-values-view-in-python-code)
+- [PyObject values view in native code](#use-pyobject-values-view-in-native-code)
+- [Native values view in Python code](#view-native-values-in-python-code)
 
 ### Use a combined call stack
 
