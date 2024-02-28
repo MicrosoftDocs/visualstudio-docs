@@ -620,11 +620,7 @@ Visual Studio supports debugging Python and C++ code together. The following ste
 1. In the **Properties** pane, select the **Debug** tab, and then select the **Debug** > **Enable native code debugging** option.
 
    > [!TIP]
-   > When you enable native code debugging, the Python output window might close immediately after the program finishes without pausing and showing the **Press any key to continue** prompt.
-   >
-   > To force the pause and prompt after you enable native code debugging, add the `-i` argument to the **Run** > **Interpreter Arguments** field on the **Debug** tab. This argument puts the Python interpreter into interactive mode after the code runs. The program waits for you to select **Ctrl**+**Z**+**Enter** to close the window.
-   >
-   > If you don't mind modifying your Python code, you can add `import os` and `os.system("pause")` statements at the end of your program. This code duplicates the original pause prompt.
+   > When you enable native code debugging, the Python output window might close immediately after the program finishes without pausing and showing the **Press any key to continue** prompt. To force the pause and prompt after you enable native code debugging, add the `-i` argument to the **Run** > **Interpreter Arguments** field on the **Debug** tab. This argument puts the Python interpreter into interactive mode after the code runs. The program waits for you to select **Ctrl**+**Z**+**Enter** to close the window. An alternate approach is to add `import os` and `os.system("pause")` statements at the end of your Python program. This code duplicates the original pause prompt.
 
 1. Select **File** > **Save** (or **Ctrl**+**S**) to save the property changes.
 
