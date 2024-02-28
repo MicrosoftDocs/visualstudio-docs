@@ -207,9 +207,37 @@ Specify which warnings are treated as errors. Separate multiple warning numbers 
 > [!TIP]
 > If you don't want code analysis warnings to be treated as errors, see [Code analysis FAQ](/visualstudio/code-quality/analyzers-faq#treat-warnings-as-errors).
 
+## Build, Output settings
 
+The following settings are used to configure the output options for the build process.
 
+**Base output path**
 
+Specifies the location of the output files for this project's configuration. Enter the path of the build output in this box, or choose the **Browse** button to specify a path. The path is relative; if you enter an absolute path, it will be saved as relative. The default path is bin\Debug or bin\Release\\.
+
+With simplified build configurations, the project system determines whether to build a debug or release version. The **Build** command from the **Debug** menu (F5) will put the build in the debug location regardless of the **Output path** you specify. However, the **Build** command from the **Build** menu puts it in the location you specify. For more information, see [Understanding Build Configurations](../../ide/understanding-build-configurations.md).
+
+**Reference assembly**
+
+Specifies whether to generate a [reference assembly](/dotnet/standard/assembly/reference-assemblies) containing the public API of the project.
+
+**Documentation file**
+
+Specifies the name of a file into which documentation comments will be processed. For more information, see [/doc (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/doc-compiler-option).
+
+## Build, Events settings
+
+For information on the build event settings, see [Build Events Page, Project Designer (C#)](../reference/build-events-page-project-designer-csharp.md).
+
+## Build, Publish settings
+
+**Publishing**
+
+Allows the MSBuild publish target to run. For more information, see the MSBuild [IsPublishable](/dotnet/core/project-sdk/msbuild-props#ispublishable) property.
+
+**Publish trimmed**
+
+Specifies whether trimming is enabled during the publish process. For more information, see [](/dotnet/core/project-sdk/msbuild-props#trim-related-properties).
 
 
 // Below are from old Application Settings
