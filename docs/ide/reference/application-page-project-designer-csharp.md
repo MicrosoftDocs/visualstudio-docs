@@ -13,6 +13,7 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.subservice: general-ide
+monikerRange: 'vs-2019'
 ---
 # Application Page, Project Designer (C#)
 

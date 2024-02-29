@@ -12,6 +12,7 @@ author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.subservice: general-ide
+monikerRange: '>= vs-2022'
 ---
 # .NET Project Designer (C#)
 
