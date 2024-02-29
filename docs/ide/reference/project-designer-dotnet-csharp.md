@@ -230,7 +230,7 @@ Specifies the name of a file into which documentation comments will be processed
 
 ## Build, Events settings
 
-For information on the build event settings, see [Build Events Page, Project Designer (C#)](../reference/build-events-page-project-designer-csharp.md).
+For information on the build event settings, see [Specify build events (C#)](../../ide/how-to-specify-build-events-csharp.md).
 
 ## Build, Publish settings
 
@@ -293,7 +293,7 @@ Specifies the size of sections in the output file. Valid values are **512**, **1
 
 ## Package, General settings
 
-The properties in this section are used to configure packages, generally corresponding to properties in a NuGet [.nuspec file](/nuget/reference/nuspec).
+The properties in this section are used to configure packages, generally corresponding to properties in a NuGet *.nuspec* file. For more information, see [.nuspec file](/nuget/reference/nuspec).
 
 ## Package, License settings
 
