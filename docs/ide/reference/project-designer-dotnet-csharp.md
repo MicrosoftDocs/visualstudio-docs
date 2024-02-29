@@ -15,7 +15,7 @@ ms.subservice: general-ide
 ---
 # .NET Project Designer (C#)
 
-Use the **Project Designer** to specify the project's settings and properties.
+Use the **Project Designer** to specify the project's settings and properties for .NET Core and .NET 5+. For .NET Framework and Visual Basic projects, see [What is the .NET Project Designer?](../ide/reference/project-properties-reference.md).
 
 To access the Project Designer, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project** > **Properties** on the menu bar. The **Project Designer** appears.
 
@@ -238,6 +238,58 @@ Allows the MSBuild publish target to run. For more information, see the MSBuild 
 **Publish trimmed**
 
 Specifies whether trimming is enabled during the publish process. For more information, see [](/dotnet/core/project-sdk/msbuild-props#trim-related-properties).
+
+**Publish native AOT**
+
+Specifies whether to produce an app that's self-contained and that has been ahead-of-time (AOT) compiled to native code. For more information, see [Native AOT deployment](/dotnet/core/deploying/native-aot/).
+
+## Build, Strong naming settings
+
+**Sign the assembly**
+
+Select this check box to sign the assembly and create a strongly named key file. For more information about signing the assembly by using the **Project Designer**, see [How to: Sign an Assembly (Visual Studio)](../managing-assembly-and-manifest-signing.md#how-to-sign-an-assembly-in-visual-studio). For more information, see [Strong-named assemblies](/dotnet/standard/assembly/strong-named).
+
+This option uses the Al.exe tool provided by the Windows Software Development Kit (SDK) to sign the assembly. For more information about Al.exe, see [How to: Sign an Assembly with a Strong Name](/dotnet/framework/app-domains/how-to-sign-an-assembly-with-a-strong-name).
+
+**Strong name key file** list
+
+Enables you to specify a new or existing strongly named key file that is used to sign the assembly. Select **\<Browse...>** to select an existing key file.
+
+**Delay sign only**
+
+Select this check box to enable delay signing. For more information, see [Delay-sign an assembly](/dotnet/standard/assembly/delay-sign).
+
+Note that a delay signed project will not run and cannot be debugged. You can, however, use the [Sn.exe (Strong Name Tool)](/dotnet/framework/tools/sn-exe-strong-name-tool) with the `-Vr` option to skip verification during development.
+
+> [!NOTE]
+> When you sign an assembly, you might not always have access to a private key. For example, an organization might have a closely guarded key pair that developers don't have access to on a daily basis. The public key might be available, but access to the private key is restricted to a few individuals. In such a case, you can use *delayed* or *partial signing* to provide the public key, deferring the addition of the private key until the assembly is handed off.
+
+## Build, Advanced settings
+
+The following options enable you to set advanced build settings.
+
+**Language version**
+
+Links to [/langversion (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/langversion-compiler-option), which provides information about how a default language version is chosen based on a project's target framework.
+
+**Check for arithmetic overflow**
+
+Specifies whether an integer arithmetic statement that is not in the scope of the [checked](/dotnet/csharp/language-reference/keywords/checked) or [unchecked](/dotnet/csharp/language-reference/keywords/unchecked) keywords and that results in a value outside the range of the data type will cause a run-time exception. For more information, see [/checked (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/checked-compiler-option).
+
+**Deterministic**
+
+Specifies whether to produce byte-for-byte equivalent output from the same input source. For more information, see [C# Compiler Options that control code generation](s/dotnet/csharp/language-reference/compiler-options/code-generation).
+
+**Internal compiler error reporting**
+
+Specifies whether to report compiler errors to Microsoft. If set to **prompt** (the default), you will receive a prompt if an internal compiler error occurs, giving you the option of sending an error report electronically to Microsoft. If set to **send**, an error report will be sent automatically. If set to **queue**, error reports will be queued. If set to **none**, the error will be reported only in the compiler's text output. For more information, see [/errorreport (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/errorreport-compiler-option).
+
+**File Alignment**
+
+Specifies the size of sections in the output file. Valid values are **512**, **1024**, **2048**, **4096**, and **8192**. These values are measured in bytes. Each section will be aligned on a boundary that is a multiple of this value, affecting the size of the output file. For more information, see [/filealign (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/filealign-compiler-option).
+
+
+
 
 
 // Below are from old Application Settings
