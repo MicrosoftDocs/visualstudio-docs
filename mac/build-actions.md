@@ -34,7 +34,7 @@ Some of the common build actions for projects you can build in Visual Studio for
 | **Compile** | any | The file is passed to the C# compiler as a source file.|
 | **Content** | .NET, Xamarin | For ASP.NET projects, these files are included as part of the site when it's deployed. For Xamarin.iOS and Xamarin.Mac projects, they'll be included in the app bundle.|
 | **Embedded Resource** | .NET | The file is passed to the C# compiler as a resource to be embedded in the assembly. [Assembly.GetManifestResourceStream](/dotnet/api/system.reflection.assembly.getmanifestresourcestream), from the `System.Reflection` namespace, can then be used to read the file from the assembly.|
-| **None** | any | The file isn't part of the build in any way and is included in the project for easy access from the integrated development environment (IDE). This value can be used for documentation files such as "ReadMe" files, for example.|
+| **None** | any | The file isn't part of the build in any way and is included in the project for easy access from the IDE. This value can be used for documentation files such as "ReadMe" files, for example.|
 
 > [!NOTE]
 > Additional build actions can be defined for specific project types, so the list of build actions depends on the project type and values might appear that are not in this list.
