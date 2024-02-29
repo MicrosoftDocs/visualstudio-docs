@@ -24,7 +24,7 @@ In this article, you explore how to work with the following mixed-mode debugging
 - Combined call stacks
 - Step between Python and native code
 - Breakpoints in both types of code
-- See Python representations of objects in native frames and vice versa
+- View Python representations of objects in native frames and vice versa
 - Debugging within the context of the Python project or the C++ project
 
 :::image type="content" source="media/mixed-mode-debugging.png" alt-text="Screenshot that shows an example of mixed-mode debugging for Python and C++ code in Visual Studio." border="false" lightbox="media/mixed-mode-debugging.png":::
