@@ -9,9 +9,10 @@ ms.date: 08/17/2023
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
+
 # GitHub Actions deployment to Azure in Visual Studio
 
-[GitHub Actions](https://github.com/features/actions) is the Continuous Integration / Continuous Delivery (CI/CD) solution offered by GitHub. You can host your code for free on GitHub.com and you can use GitHub Actions to automatically build, test and deploy your application when code changes are made.
+[GitHub Actions](https://github.com/features/actions) is the continuous integration and continuous delivery (CI/CD) solution offered by GitHub. You can host your code for free on GitHub.com and you can use GitHub Actions to automatically build, test, and deploy your application when code changes are made.
 
 :::moniker range=">=vs-2022"
 
@@ -40,7 +41,7 @@ Get started by right-clicking on your project in Solution Explorer and selecting
 
 ## How do I get my project on GitHub.com?
 
-See [create a new Git repository](../version-control/git-with-visual-studio.md?view=vs-2019&preserve-view=true#create-a-new-git-repository-in-visual-studio-2019).
+For more information, see [Create a new Git repository](../version-control/git-with-visual-studio.md?view=vs-2019&preserve-view=true#create-a-new-git-repository-in-visual-studio-2019).
 
 ## See also
 

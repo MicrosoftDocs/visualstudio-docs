@@ -9,11 +9,12 @@ ms.topic: how-to
 ms.date: 12/19/2023
 ms.author: ghogen
 ---
+
 # Add Microsoft Entra ID authentication by using Connected Services in Visual Studio
 
 You can add support for Microsoft Entra ID to an ASP.NET web app by using the Microsoft Identity platform connected service.
 
-By using Microsoft Entra ID, you can support user authentication for ASP.NET MVC web applications, or Active Directory Authentication in web API services. With Microsoft Entra authentication, your users can use their accounts from Microsoft Entra ID to connect to your web applications. The advantages of Microsoft Entra authentication with web API include enhanced data security when exposing an API from a web application. With Microsoft Entra ID, you do not have to manage a separate authentication system with its own account and user management.
+By using Microsoft Entra ID, you can support user authentication for ASP.NET Model-View-Controller (MVC) web applications, or Active Directory Authentication in web API services. With Microsoft Entra authentication, your users can use their accounts from Microsoft Entra ID to connect to your web applications. The advantages of Microsoft Entra authentication with web API include enhanced data security when exposing an API from a web application. With Microsoft Entra ID, you do not have to manage a separate authentication system with its own account and user management.
 
 This article and its companion articles provide details of using the Visual Studio Connected Service feature for Active Directory.
 
@@ -31,7 +32,7 @@ This article and its companion articles provide details of using the Visual Stud
 1. In Visual Studio, create or open an ASP.NET MVC project, or an ASP.NET Web API project.
 
 1. Select the **Project**, **Connected Services**, **Add** menu command, or right-click the **Connected Services** node found under the project in Solution Explorer, and choose **Add**, **Microsoft Identity platform**.
- 
+
    If you are missing the .NET MSIdentity tool, the screen prompts you to install it.
 
    ![Screenshot of required components window.](./media/vs-azure-active-directory/required-components.png)
