@@ -97,7 +97,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![Screenshot of the C# Main method highlighting the host variable setting the reverse proxy server with the UseIISIntegration method.](media/netcore-image14.png)
 
-6. It's a cleaner practice to separate the loading of settings from the application bootstrapping. To easily do this, **UseStartup** is called to specify that the **Startup** class is to be called for the loading of settings and other startup tasks, such as inserting middleware into the HTTP pipeline. You might have multiple **UseStartup** calls with the expectation that each one overwrites previous settings as needed.
+6. It's a cleaner practice to separate the loading of settings from the application bootstrapping. To easily do this, **UseStartup** is called to specify that the **Startup** class is to be called for the loading of settings and other startup tasks, such as inserting middleware into the HTTP pipeline. You can have multiple **UseStartup** calls with the expectation that each one overwrites previous settings as needed.
 
     ![Screenshot of the C# Main method highlighting the host variable setting the startup class with the UseStartup option.](media/netcore-image15.png)
 
