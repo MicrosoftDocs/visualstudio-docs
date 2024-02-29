@@ -35,7 +35,15 @@
     }
   ],
   "MetadataMultilineValues": true,
-  "RemoveTermSets": [
-    "*right-click*"
+,
+"RemoveTermSets": [
+    "*right-click*",
+    "*for-more-information-see*",
+    "*had-had*",
+
+    "formatting-learn-more",
+    "formatting-technical-for-more-information-see",
+    "formatting-technical-for-more-information-see-see",
+    "formatting-technical-accessibility-and-then-click"
   ]
 }
