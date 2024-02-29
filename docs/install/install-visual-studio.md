@@ -106,7 +106,7 @@ You will need to decide which version and edition of Visual Studio to install. T
 - The latest release of Visual Studio 2022 that is hosted on Microsoft servers. To install this, click on the following button and then choose the edition you want. A small "bootstrapper" file will then be downloaded into your **Downloads** folder.
 
  > [!div class="button"]
- > [Download Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)
+ > [Download Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-install-visual-studio-page-cta)
 
 ::: moniker-end
 
