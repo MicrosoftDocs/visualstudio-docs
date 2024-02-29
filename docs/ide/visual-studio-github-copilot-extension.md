@@ -1,7 +1,7 @@
 ---
 title: About the GitHub Copilot extension for Visual Studio
 description: Use Visual Studio with the GitHub Copilot extension to access AI features and generate information about your code, including suggested edits and new code snippets.
-ms.date: 12/15/2023
+ms.date: 2/28/2024
 ms.topic: overview 
 author: anandmeg
 ms.author: meghaanand
@@ -10,6 +10,7 @@ ms.subservice: ai-tools
 monikerRange: vs-2022
 content_well_notification: 
   - AI-contribution
+ai-usage: ai-assisted
 ---
 # What is the GitHub Copilot extension for Visual Studio?
 
@@ -31,7 +32,8 @@ You can also use GitHub Copilot to convert comments to code, create unit tests, 
 
 To get started, you need:
 + Visual Studio 2022 [version 17.6](/visualstudio/releases/2022/release-history) or later
-+ a GitHub Copilot [subscription](https://docs.github.com/enterprise-cloud@latest/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot). 
++ Active [subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) to [GitHub Copilot for Individuals](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-individuals) or [GitHub Copilot for Business](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-business)
++ Sign in to Visual Studio with the GitHub account that has an active GitHub Copilot subscription
 
   > [!TIP]
   > GitHub Copilot is free for verified students and for maintainers of popular open source projects on GitHub. If you are not a student or maintainer of a popular open source project, you can [try GitHub Copilot for free with a one-time 30-day trial](https://github.com/settings/copilot). After the free trial, you will need a [paid subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) for continued use.

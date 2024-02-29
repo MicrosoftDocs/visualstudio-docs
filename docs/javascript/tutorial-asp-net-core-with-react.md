@@ -39,7 +39,7 @@ You can use the method described in this article to create ASP.NET Core Single P
 
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot showing Create a new project.":::
 
-1. Search for React in the search bar at the top and then select **React and ASP.NET Core (Preview)**. This template is a JavaScript template.
+1. Search for React in the search bar at the top and then select **React and ASP.NET Core**. This template is a JavaScript template.
 
    :::image type="content" source="media/vs-2022/react-choose-template.png" alt-text="Screenshot showing choosing a template.":::
 

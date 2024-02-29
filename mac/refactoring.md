@@ -5,7 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 07/03/2020
-ms.topic: reference
+ms.topic: how-to
 ---
 # Refactoring in Visual Studio for Mac
 
