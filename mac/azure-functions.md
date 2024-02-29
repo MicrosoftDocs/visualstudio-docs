@@ -78,7 +78,7 @@ With Azure Functions support in Visual Studio for Mac you can test and debug you
 
 Function Templates enable you to quickly create new functions using the most common triggers and templates. To create another type of function, do the following:
 
-1. To add a new function, select, and hold (or right-click) on the project name and select **Add > Add Function...**:
+1. To add a new function, right-click on the project name and select **Add > Add Function...**:
 
     ![context action for adding new function](media/azure-functions-addnew.png)
 
