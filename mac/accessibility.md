@@ -22,7 +22,7 @@ In addition to these, Visual Studio for Mac also has the following features to m
 - Keyboard shortcut customization
 - Keyboard navigation
 
-In this article, learn how to use macOS accessibility features, and to set accessibility options in the Visual Studio for Mac integrated development environment (IDE).
+In this article, learn how to use macOS accessibility features, and to set accessibility options in the Visual Studio for Mac IDE.
 
 > [!NOTE]
 > This guide refers to Visual Studio for Mac. For Visual Studio on Windows, see [Accessibility features of Visual Studio](/visualstudio/ide/reference/accessibility-features-of-visual-studio).
