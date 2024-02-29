@@ -69,7 +69,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 6. The solution also contains a **wwwroot** folder that will be the root for your web site. You can put static site content, such as CSS, images, and JavaScript libraries, directly at the paths you'd want them to be at when the site is deployed.
 
-    ![Screenshot of solution with the w root folder selected.](media/netcore-image8.png)
+    ![Screenshot of solution with the w w w root folder selected.](media/netcore-image8.png)
 
 7. There are also a variety of configuration files that serve to manage the project, its packages, and the application at runtime. For example, the default application [configuration](/aspnet/core/fundamentals/configuration) is stored in **appsettings.json**. Nested below the appsettings.json file is the **appsettings.Development.json** file. Here, you can override some/all of these settings on a per-environment basis. Visual Studio for Mac will nest files in this manner using the same logic as Visual Studio for Windows, so that files which you need to access more often are at the forefront.
 
@@ -125,7 +125,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 5. Press **F5** to build and run the application. Alternatively, you can select **Run > Start Debugging**.
 
-6. Visual Studio for Mac will launch two Windows. The first is a console window that provides you a view into the self-hosted server application.
+6. Visual Studio for Mac will launch two windows. The first is a console window that provides you a view into the self-hosted server application.
 
     ![Screenshot showing the console window for the self-hosted server application.](media/netcore-image20.png)
 

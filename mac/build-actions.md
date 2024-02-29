@@ -37,7 +37,7 @@ Some of the common build actions for projects you can build in Visual Studio for
 | **None** | any | The file isn't part of the build in any way and is included in the project for easy access from the integrated development environment (IDE). This value can be used for documentation files such as "ReadMe" files, for example.|
 
 > [!NOTE]
-> Additional build actions might be defined by for specific project types, so the list of build actions depends on the project type and values might appear that are not in this list.
+> Additional build actions can be defined for specific project types, so the list of build actions depends on the project type and values might appear that are not in this list.
 
 Xamarin.iOS projects have the **BundleResource** build action, which will add the file as part of the app bundle. Information on Xamarin.Android specific build actions can be found in the [build process](/xamarin/android/deploy-test/building-apps/build-process#Build_Actions) guide.
 

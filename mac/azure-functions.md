@@ -94,8 +94,8 @@ You can use the above procedure to add more functions to your function app proje
 
 1. Right-click on the project name and select **Publish > Publish to Azure**:
     ![Context menu with Publish > Publish to Azure... option highlighted](media/azure-functions-image5.png)
-2. If you've already connected your Azure account to Visual Studio for Mac a list of available App Service are displayed. If you haven't logged in, you'll be prompted to do so.
-3. From the **Publish to Azure App Service** dialog, you can either select an existing App Service or create a new one by clicking **New**.
+2. If you've already connected your Azure account to Visual Studio for Mac a list of available app services are displayed. If you haven't logged in, you'll be prompted to do so.
+3. From the **Publish to Azure App Service** dialog, you can either select an existing app service or create a new one by clicking **New**.
 4. In the **Create new App Service** dialog, enter your settings:
     ![New App Service dialog, with fields for service name, subscription, resource group, and service plan settings.](media/azure-functions-image7.png)
 
@@ -154,7 +154,7 @@ One important setting you might need to set is `FUNCTIONS_EXTENSION_VERSION`. Wh
 
 - **Generic WebHook** – This is a simple function that will run whenever it receives a request from any service that supports webhooks. For more information, see the [Azure Functions article on generic webhooks](/azure/azure-functions/functions-create-generic-webhook-triggered-function).
 
-- **Durable functions orchestration** – Durable Functions let you write stateful functions in a serverless environment. The extension manages state, checkpoints, and restarts for you. For more information, see the Azure functions guides on [Durable functions](/azure/azure-functions/durable-functions-overview).
+- **Durable functions orchestration** – Durable functions let you write stateful functions in a serverless environment. The extension manages state, checkpoints, and restarts for you. For more information, see the guides on [Durable functions](/azure/azure-functions/durable-functions-overview).
 
 - **Image Resizer** – This function creates resized images whenever a blob is added to a container. The template takes path and connection string for the trigger, a small image output, and a medium image output.
 
