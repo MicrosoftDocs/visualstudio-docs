@@ -1,6 +1,6 @@
 ---
-title: "Creating and Editing Build Configurations"
-description: "This article describes creating build configurations in Visual Studio for Mac"
+title: Creating and Editing Build Configurations
+description: This article describes creating build configurations in Visual Studio for Mac
 author: heiligerdankgesang 
 ms.author: dominicn
 manager: dominicn
@@ -8,6 +8,7 @@ ms.date: 03/03/2022
 ms.custom: video
 ms.topic: how-to
 ---
+
 # Creating and editing build configurations in Visual Studio for Mac
 
  [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
@@ -17,7 +18,7 @@ Build configurations give you precise control over a build allowing you to creat
 You can create new configurations and edit existing ones for both projects and solutions using the Project Options dialog.
 
 >[!NOTE]
->This topic applies to Visual Studio for Mac. For Visual Studio on Windows, see [How to: Create and edit configurations](/visualstudio/ide/how-to-create-and-edit-configurations).
+> This topic applies to Visual Studio for Mac. For Visual Studio on Windows, see [How to: Create and edit configurations](/visualstudio/ide/how-to-create-and-edit-configurations).
 
 ## Creating a project build configuration
 
