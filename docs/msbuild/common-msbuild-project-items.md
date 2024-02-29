@@ -120,7 +120,7 @@ Represents files that aren't compiled into the project, but may be embedded or p
 | Item metadata name | Description |
 |-----------------------| - |
 | DependentUpon | Optional string. Specifies the file this file depends on to compile correctly. |
-| Generator | Required string. The name of any file generator that runs on this item. |
+| Generator | Optional string. The name of any file generator that runs on this item. |
 | LastGenOutput | Optional string. The name of the file that was created by any file generator that was run on this item. |
 | CustomToolNamespace | Optional string. The namespace in which any file generator that runs on this item should create code. |
 | Link | Optional string. The notational path to be displayed if the file is physically located outside the influence of the project. |
