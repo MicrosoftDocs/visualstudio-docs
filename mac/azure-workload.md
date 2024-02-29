@@ -1,12 +1,13 @@
 ---
-title: "Azure"
-description: "Add Azure data storage, authentication, and push notifications to mobile apps from within Visual Studio for Mac"
+title: Azure
+description: Add Azure data storage, authentication, and push notifications to mobile apps from within Visual Studio for Mac
 ms.topic: overview
 author: heiligerdankgesang 
 ms.author: dominicn
 manager: dominicn
 ms.date: 05/06/2018
 ---
+
 # Azure in Visual Studio for Mac
 
  [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]

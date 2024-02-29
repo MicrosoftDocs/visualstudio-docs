@@ -1,28 +1,29 @@
 ---
-title: "Set build actions"
-description: "This article describes the various build actions that can be used for C# projects"
+title: Set build actions
+description: This article describes the various build actions that can be used for C# projects
 author: heiligerdankgesang 
 ms.author: dominicn
 manager: dominicn
 ms.date: 09/18/2019
 ms.topic: conceptual
 ---
+
 # Configure build actions in Visual Studio for Mac
 
  [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
-All files in a Visual Studio for Mac project have a build action. The build action controls what happens to the file when the project is compiled. 
+All files in a Visual Studio for Mac project have a build action. The build action controls what happens to the file when the project is compiled.
 
 >[!NOTE]
->This topic applies to Visual Studio for Mac. For Visual Studio on Windows, see [Build actions](/visualstudio/ide/build-actions).
+> This topic applies to Visual Studio for Mac. For Visual Studio on Windows, see [Build actions](/visualstudio/ide/build-actions).
 
 ## Set a build action
 
 To set a build action for a file in Visual Studio for Mac, you can right-click on any file and browsing to **Build Action**, as illustrated below:
 
-![Selecting Compile build action from solution explorer](media/projects-and-solutions-image1.png)
+![Selecting Compile build action from Solution Explorer](media/projects-and-solutions-image1.png)
 
-Build actions for this file will be shown in the flyout menu. 
+Build actions for this file will be shown in the flyout menu.
 
 ## Build action values
 
@@ -36,11 +37,11 @@ Some of the common build actions for projects you can build in Visual Studio for
 | **None** | any | The file isn't part of the build in any way and is included in the project for easy access from the IDE. This value can be used for documentation files such as "ReadMe" files, for example.|
 
 > [!NOTE]
-> Additional build actions may be defined by for specific project types, so the list of build actions depends on the project type and values might appear that are not in this list.  
+> Additional build actions can be defined for specific project types, so the list of build actions depends on the project type and values might appear that are not in this list.
 
 Xamarin.iOS projects have the **BundleResource** build action, which will add the file as part of the app bundle. Information on Xamarin.Android specific build actions can be found in the [build process](/xamarin/android/deploy-test/building-apps/build-process#Build_Actions) guide.
 
-It's also possible to select more than one file in the solution explorer, allowing you to set the build action to many files at once.
+It's also possible to select more than one file in the Solution Explorer, allowing you to set the build action to many files at once.
 
 ## See also
 

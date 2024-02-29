@@ -1,12 +1,13 @@
 ---
-title: "Building and Cleaning Projects and Solutions"
-description: "This article describes how to build a project in Visual Studio for Mac"
+title: Building and Cleaning Projects and Solutions
+description: This article describes how to build a project in Visual Studio for Mac
 author: heiligerdankgesang 
 ms.author: dominicn
 manager: dominicn
 ms.date: 02/28/2022
 ms.topic: how-to
 ---
+
 # Building and cleaning projects and solutions in Visual Studio for Mac
 
  [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
@@ -26,11 +27,11 @@ Follow the steps in this article to learn how to build, rebuild, or clean your a
 
     ![selecting the build all menu item](media/compiling-and-building-image2.png)
 
-    * Choose **Build All** to compile the files and components within the project that have changed since the most recent build.
+    - Choose **Build All** to compile the files and components within the project that have changed since the most recent build.
 
-    * Choose **Rebuild All** to "clean" the solution and then builds all project files and components.
+    - Choose **Rebuild All** to "clean" the solution and then builds all project files and components.
 
-    * Choose **Clean All** to delete any intermediate and output files. With only the project and component files left, new instances of the intermediate and output files can then be built.
+    - Choose **Clean All** to delete any intermediate and output files. With only the project and component files left, new instances of the intermediate and output files can then be built.
 
 ## To build or rebuild a single project
 
@@ -44,13 +45,13 @@ Follow the steps in this article to learn how to build, rebuild, or clean your a
 
 To stop a build, use one of the following options:
 
-* Press the red square in the status area:
+- Press the red square in the status area:
 
     ![Press red square to stop build](media/compiling-and-building-image3.png)
 
-* Use the **Stop** item in the **Build** menu.
+- Use the **Stop** item in the **Build** menu.
 
-* Press **Cmd+Shift+Return**.
+- Press **Cmd+Shift+Return**.
 
 ## See also
 
