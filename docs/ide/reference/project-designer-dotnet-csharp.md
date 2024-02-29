@@ -100,6 +100,8 @@ For information about creating an icon, see [Image editor for icons](/cpp/window
 
 The **Resources** option helps you configure resource settings for your app. By default, the **Icon** and **Manifest** options are enabled. This enables you to select your own icon or to select different manifest generation options. Leave this radio button selected unless you're providing a resource file for the project.
 
+If you select **Resource file**, then configure a resource file for the project. Enter a path name or use the **Browse** button to add a Win32 resource file to the project. For more information, see [Create resource files for .NET apps](/dotnet/framework/resources/creating-resource-files-for-desktop-apps).
+
 **Manifest**
 
 Selects a manifest generation option when the application runs on Windows under User Account Control (UAC). This option can have the following values:
@@ -288,6 +290,55 @@ Specifies whether to report compiler errors to Microsoft. If set to **prompt** (
 
 Specifies the size of sections in the output file. Valid values are **512**, **1024**, **2048**, **4096**, and **8192**. These values are measured in bytes. Each section will be aligned on a boundary that is a multiple of this value, affecting the size of the output file. For more information, see [/filealign (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/filealign-compiler-option).
 
+## Package, General settings
+
+The properties in this section are used to configure packages, generally corresponding to properties in a NuGet [.nuspec file](/nuget/reference/nuspec).
+
+## Package, License settings
+
+**Package License**
+
+Specifies whether to include a license expression or license file in your package. For more information, see the [license](/nuget/reference/nuspec#license) element.
+
+## Package, Symbol settings
+
+**Produce a symbol package**
+
+Specifies whether to create a symbol package for debugging. For more information, see [Creating symbol packages (.snupkg)](/nuget/create-packages/symbol-packages-snupkg).
+
+## Code Analysis, All analyzer settings
+
+**Run on build**
+
+Specifies whether to run source code analysis when you build the project. For more information, see [Disable source code analysis for .NET](../../code-quality/disable-code-analysis).
+
+**Run on live analysis**
+
+Specifies whether to run live source code analysis when you build the project. For more information, see [Disable source code analysis for .NET](../../code-quality/disable-code-analysis).
+
+## Code Analysis, .NET analyzer settings
+
+**Enforce code style on build**
+
+Specfies whether .NET code style violations are reported when building the project. For more information, see [Enforce code styles on build](../../ide/code-styles-and-code-cleanup?view=vs-2022#enforce-code-styles-on-build).
+
+**Enable .NET analyzers**
+
+Enables or disables the .NET compiler platform (Roslyn) analyzers. For more information, see [Enable or install first-party .NET analyzers](../../code-quality/install-net-analyzers).
+
+**Analysis level**
+
+Specifies the set of analyzers to run in the project. For more information, see [Latest updates](/dotnet/fundamentals/code-analysis/overview#latest-updates) section in the code analysis overview article.
+
+## Debug, General settings
+
+Select the link to open the debug launch profiles UI. This UI allows you to add and configure different profiles to use when debugging. Each profile name appears as a start option in the **Start Debugging** list.
+
+For ASP.NET Core projects, the settings in the launch profiles UI correspond to settings in the project's *launchSettings.json* file. For detailed information on how this file is used in ASP.NET development, see [Development and launchSettings.json](/aspnet/core/fundamentals/environments#development-and-launchsettingsjson).
+
+## Resources, General settings
+
+Select the link to open the RESX assembly resources file. For more information, see [Settings page, Project Designer](../reference/settings-page-project-designer?view=vs-2022).
 
 
 
