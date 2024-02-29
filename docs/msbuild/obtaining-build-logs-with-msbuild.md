@@ -1,7 +1,7 @@
 ---
 title: Obtaining Build Logs with MSBuild
 description: Use switches with MSBuild and specify how much build data to review and whether to save build data to one or more files.
-ms.date: 11/04/2016
+ms.date: 02/14/2024
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, logging
@@ -13,7 +13,7 @@ ms.subservice: msbuild
 ---
 # Obtain build logs with MSBuild
 
-By using switches with MSBuild, you can specify how much build data you want to review and whether you want to save build data to one or more files. You can also specify a custom logger to collect build data. For information about MSBuild command-line switches that this topic doesn't cover, see [Command-line reference](../msbuild/msbuild-command-line-reference.md).
+By using command-line options with MSBuild, you can specify how much build data you want to review and whether you want to save build data to one or more files. You can also specify a custom logger to collect build data. For information about MSBuild command-line options that this topic doesn't cover, see [Command-line reference](../msbuild/msbuild-command-line-reference.md).
 
 > [!NOTE]
 > If you build projects by using the Visual Studio IDE, you can troubleshoot those builds by reviewing build logs. For more information, see [How to: View, save, and configure build log files](../ide/how-to-view-save-and-configure-build-log-files.md).
@@ -86,6 +86,8 @@ In the following example, a binary log file is created with the name *binarylogf
 ```cmd
 -bl:binarylogfilename.binlog
 ```
+
+You can use the [Structured log viewer](https://msbuildlog.com/) to view binary logs in a way that makes it much easier to see what is going on.
 
 For more information, see [Command-line reference](../msbuild/msbuild-command-line-reference.md).
 
