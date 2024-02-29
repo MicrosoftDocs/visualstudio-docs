@@ -20,9 +20,9 @@ The Visual Studio 2010 Tools for Office Runtime (VSTO Runtime) ships with variou
 
 It's also [available to download](https://aka.ms/VSTORuntimeDownload) and install independently. The versions of VSTO Runtime that are available on the download center follow the support lifecycle of the latest version of Microsoft Office that was available at the time of its release.
 
-It's recommended that developers install the latest version of the VSTO Runtime with their applications. It is supported when running with supported versions Office. If the VSTO Runtime needs to be serviced, only the latest version is updated.
+Developers should install the latest version of the VSTO Runtime with their applications. It's only supported when running with supported versions Office. If the VSTO Runtime needs to be serviced, only the latest version will be updated.
 
-The following is a list of the VSTO Runtime releases and the corresponding version of Office for which its support lifecycle follows: 
+The following list contains the VSTO Runtime releases and the corresponding version of Office for which its support lifecycle follows: 
 
 | VSTO Runtime version | Release date | Microsoft Office version |
 | --- | --- | --- |
@@ -41,5 +41,6 @@ The following is a list of the VSTO Runtime releases and the corresponding versi
 | 10.0.60828 | 01/12/2018 | Microsoft Office 2019 / <br>Microsoft Office 2021 / <br>Office 365 |
 | 10.0.60910 | 08/08/2023 | Microsoft Office 2013 / <br>Microsoft Office 2016 / <br>Microsoft Office 2019 / <br>Microsoft Office 2021 / <br>Office 365 |
 | 10.0.60912 | 11/01/2023 | Microsoft Office 2019 / <br>Microsoft Office 2021 / <br>Office 365 |
+| 10.0.60917 | 02/28/2024 | Microsoft Office 2019 / <br>Microsoft Office 2021 / <br>Office 365 |
 
 For more information on the Office Support Lifecycle, see [Lifecycle FAQ - Office, Office 365, and Microsoft 365](/lifecycle/faq/office).
