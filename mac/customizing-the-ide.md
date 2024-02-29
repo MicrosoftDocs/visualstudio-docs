@@ -81,35 +81,35 @@ Visual Studio for Mac's workspace consists of a main document area (normally the
 
 When you open any new solution or file in Visual Studio for Mac, you should notice some *tool windows* in the workspace, including the Solution Window, Document Outline, and Errors:
 
-![Tool Window](media/customizing-the-ide-image2a.png)
+![Tool window](media/customizing-the-ide-image2a.png)
 
 Visual Studio for Mac provides tool windows containing additional information, tools, and navigation aids, all of which can be accessed by browsing the **View** menu item and selecting a tool window to add it:
 
 ![Select new tool window](media/customizing-the-ide-image3a.png)
 
-Tool Windows might also be opened automatically by different commands, such as the **Find in Files** (Shift + Cmd + F) command, which opens a detached window of search results.
+Tool windows might also be opened automatically by different commands, such as the **Find in Files** (Shift + Cmd + F) command, which opens a detached window of search results.
 
-Tool Windows can be moved and arranged throughout your workflow in whatever way is most useful to you. For example, they can be docked on any side of the document editor, next to another tool window, above or below another window, or as a set of tabbed windows enabling you to quickly switch between them.
+Tool windows can be moved and arranged throughout your workflow in whatever way is most useful to you. For example, they can be docked on any side of the document editor, next to another tool window, above or below another window, or as a set of tabbed windows enabling you to quickly switch between them.
 
 For frequently used tool windows, you can also completely detach them from the Visual Studio for Mac window and into their own new window.
 
-Tool Windows can be pinned and closed by the controls in the top-right corner of each window:
+Tool windows can be pinned and closed by the controls in the top-right corner of each window:
 
 :::image type="content" source="media/customizing-the-ide-image5a.png" alt-text="Using controls to pin or close tool windows":::
 
-Pinned Windows are docked to the sides of the workspace and remain open for quicker access when you need them. Unpinned Windows are docked, but not shown until you hover over the tab for the window with a mouse or focus with the keyboard. They can be hidden when the mouse and keyboard focus leaves them.
+Pinned windows are docked to the sides of the workspace and remain open for quicker access when you need them. Unpinned windows are docked, but not shown until you hover over the tab for the window with a mouse or focus with the keyboard. They can be hidden when the mouse and keyboard focus leaves them.
 
 ### Organizing layouts
 
-The tool windows that are displayed at any time are dependent on the current context. For example, when using the visual designer, the toolbox and property grid Windows are most important. When debugging, it's useful to have the debugger windows for viewing the stack and locals.
+The tool windows that are displayed at any time are dependent on the current context. For example, when using the visual designer, the toolbox and property grid windows are most important. When debugging, it's useful to have the debugger windows for viewing the stack and locals.
 
 The state of the open tool windows is represented by a *layout*. You can switch the layouts manually through the View menu, as illustrated in the following image. It's also switched automatically when you carry out an action, such as debugging, or opening a Storyboard:
 
-![Selecting new Layouts](media/customizing-the-ide-image6b.png)
+![Selecting new layouts](media/customizing-the-ide-image6b.png)
 
 It's possible to create a new layout by using the **View > Layout > Save Current Layout...** menu item. This command will add your current layout to the menu so that you can select it at any time:
 
-![Save Current Layout](media/customizing-the-ide-image6a.png)
+![Save current layout](media/customizing-the-ide-image6a.png)
 
 ### Side-by-side editing support
 

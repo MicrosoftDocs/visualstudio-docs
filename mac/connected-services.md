@@ -58,7 +58,7 @@ A new service requires the following parameters:
 
 - **App service name** – unique name/id for the plan
 - **Subscription** – the subscription you'd like to use to pay for the service
-- **Resource Group** – a way or organizing all your Azure resources for a project. Option to use existing or create a new one. If this is your first Azure service, create a new one.
+- **Resource Group** – a way of organizing all your Azure resources for a project. Option to use existing or create a new one. If this is your first Azure service, create a new one.
 - **Service Plan** – Determines the location and cost of any resources that use it. Option to use existing or create a new one. If this is your first Azure service, use the default one or create a new one in the free tier (F1).
 
 Visit the [Mobile apps documentation](/azure/developer/mobile-apps/azure-mobile-apps/overview) for more information.
