@@ -19,7 +19,7 @@ All files in a Visual Studio for Mac project have a build action. The build acti
 
 ## Set a build action
 
-To set a build action for a file in Visual Studio for Mac, you can select and hold (or right-click) on any file and browsing to **Build Action**, as illustrated below:
+To set a build action for a file in Visual Studio for Mac, you can right-click on any file and browsing to **Build Action**, as illustrated below:
 
 ![Selecting Compile build action from Solution Explorer](media/projects-and-solutions-image1.png)
 

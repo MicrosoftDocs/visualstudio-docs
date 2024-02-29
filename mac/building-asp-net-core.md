@@ -111,7 +111,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 ## Task 4: Running and debugging the application
 
-1. In **Solution Explorer**, select and hold (or right-click) the **CoreLab** project node and select **Options**.
+1. In **Solution Explorer**, right-click the **CoreLab** project node and select **Options**.
 
     ![Screenshot showing the context menu for the CoreLab solution, highlighting Options.](media/netcore-image18.png)
 
