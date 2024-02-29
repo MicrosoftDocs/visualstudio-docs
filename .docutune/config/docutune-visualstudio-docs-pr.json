@@ -47,6 +47,7 @@
     "invalid-abbreviation-ide-integrated-development-environment-0001-include-abbreviation*",
     "*single-backtick*",
     "*incorrect-backtick-spacing*",
+    "product-azure-app-service",
     "*-caution-*"
   ]
 }
