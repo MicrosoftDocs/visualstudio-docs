@@ -29,7 +29,7 @@ Solution configurations are used to specify configurations for all projects in a
 
 Projects tend to have multiple configurations. The configuration and platform a project targets are used together to specify the properties to use when it's built. Switching between configurations allows for different outputs at build time. For example, a Debug configuration will output debugging symbols, allowing the debugger to resolve function names, parameters, or variables from a crashed application's stack trace. While this additional information is useful during development, it leads to an inflated file size and isn't ideal for distribution.
 
-Each platform has specific configurations for its build. The build configuration pages for projects can be accessed by navigating to the **Build** section in the **Project Options** dialog. Open up this dialog by select and hold (or right-click) ing the project and selecting **Options** or by double-clicking the project in the Solution Explorer.
+Each platform has specific configurations for its build. The build configuration pages for projects can be accessed by navigating to the **Build** section in the **Project Options** dialog. Open up this dialog by right-clicking the project and selecting **Options** or by double-clicking the project in the Solution Explorer.
 
 ## Run configuration
 

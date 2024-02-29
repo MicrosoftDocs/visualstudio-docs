@@ -43,7 +43,7 @@ Optionally, at this stage you can also configure Git source control options. The
 
 ## Adding additional projects to a solution
 
-You can add additional projects to a solution by select and hold (or right-click) ing the solution in the **Solution Window** and choosing either **Add > Add New Project** or **Add > Add Existing Project**.
+You can add additional projects to a solution by right-clicking the solution in the **Solution Window** and choosing either **Add > Add New Project** or **Add > Add Existing Project**.
 
 Adding a new project will take you through project creation, as shown in [Configuring Your New Project](#configuring-your-new-project).
 
