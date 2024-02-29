@@ -110,7 +110,7 @@ Selects a manifest generation option when the application runs on Windows under 
 
 - **Create application without a manifest**. This method is known as *virtualization*. Use this option for compatibility with earlier applications.
 
-- **Properties\app.manifest**. This option is required for applications deployed by ClickOnce or Registration-Free COM. If you publish an application by using ClickOnce deployment, **Manifest** is automatically set to this option.
+- **Use a custom manifest**. Allows you to enter a path or browse to a custom manifest for the project.
 
 ## Global Usings settings
 
