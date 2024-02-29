@@ -20,7 +20,7 @@ As of October 13, 2020, the Visual Studio 2015 documentation has been moved to t
 
 We recommend upgrading to the latest version, Visual Studio 2019. To download, see [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/).
 
-In the Visual Studio 2015 integrated development environment (IDE), F1 Help functionality should continue to work. If you encounter any issues, use the Docs Feedback link at the bottom of this page to create an issue our GitHub repo.
+In the Visual Studio 2015 IDE, F1 Help functionality should continue to work. If you encounter any issues, use the Docs Feedback link at the bottom of this page to create an issue our GitHub repo.
 
 If you are using Visual Studio 2015 docs frequently, you might want to explore the option of using the Help viewer and downloading the offline Help books for that version. See [Microsoft Help viewer](./help-viewer/overview.md).
 
