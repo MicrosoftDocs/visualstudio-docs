@@ -275,7 +275,7 @@ In this lab, you'll learn how to get started building Azure Functions using Visu
     }
     ```
 
-1. The one final step required to make this all work is to instruct Visual Studio for Mac to copy this file to the same relative path in the output directory every time it changes. With the file selected, choose the properties tab from the right-hand bar, and for **Copy to output directory** **, select ** **Copy if newer**:
+1. The one final step required to make this all work is to instruct Visual Studio for Mac to copy this file to the same relative path in the output directory every time it changes. With the file selected, choose the properties tab from the right-hand bar, and for **Copy to output directory** select **Copy if newer**:
 
     ![Properties options for json file](media/azure-functions-lab-image30.png)
 
