@@ -15,7 +15,7 @@ ms.subservice: general-ide
 ---
 # .NET Project Designer (C#)
 
-Use the **Project Designer** to specify the project's settings and properties for .NET Core and .NET 5+. For .NET Framework and Visual Basic projects, see [What is the .NET Project Designer?](../ide/reference/project-properties-reference.md).
+Use the **Project Designer** to specify the project's settings and properties for .NET Core and .NET 5+. For .NET Framework and Visual Basic projects, see [What is the .NET Project Designer?](../reference/project-properties-reference.md).
 
 To access the Project Designer, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project** > **Properties** on the menu bar. The **Project Designer** appears.
 
@@ -239,7 +239,7 @@ Allows the MSBuild publish target to run. For more information, see the MSBuild 
 
 **Publish trimmed**
 
-Specifies whether trimming is enabled during the publish process. For more information, see [](/dotnet/core/project-sdk/msbuild-props#trim-related-properties).
+Specifies whether trimming is enabled during the publish process. For more information, see [Trim-related properties](/dotnet/core/project-sdk/msbuild-props#trim-related-properties).
 
 **Publish native AOT**
 
@@ -280,7 +280,7 @@ Specifies whether an integer arithmetic statement that is not in the scope of th
 
 **Deterministic**
 
-Specifies whether to produce byte-for-byte equivalent output from the same input source. For more information, see [C# Compiler Options that control code generation](s/dotnet/csharp/language-reference/compiler-options/code-generation).
+Specifies whether to produce byte-for-byte equivalent output from the same input source. For more information, see [C# Compiler Options that control code generation](/dotnet/csharp/language-reference/compiler-options/code-generation).
 
 **Internal compiler error reporting**
 
@@ -310,21 +310,21 @@ Specifies whether to create a symbol package for debugging. For more information
 
 **Run on build**
 
-Specifies whether to run source code analysis when you build the project. For more information, see [Disable source code analysis for .NET](../../code-quality/disable-code-analysis).
+Specifies whether to run source code analysis when you build the project. For more information, see [Disable source code analysis for .NET](../../code-quality/disable-code-analysis.md).
 
 **Run on live analysis**
 
-Specifies whether to run live source code analysis when you build the project. For more information, see [Disable source code analysis for .NET](../../code-quality/disable-code-analysis).
+Specifies whether to run live source code analysis when you build the project. For more information, see [Disable source code analysis for .NET](../../code-quality/disable-code-analysis.md).
 
 ## Code Analysis, .NET analyzer settings
 
 **Enforce code style on build**
 
-Specfies whether .NET code style violations are reported when building the project. For more information, see [Enforce code styles on build](../../ide/code-styles-and-code-cleanup?view=vs-2022#enforce-code-styles-on-build).
+Specfies whether .NET code style violations are reported when building the project. For more information, see [Enforce code styles on build](../../ide/code-styles-and-code-cleanup.md#enforce-code-styles-on-build).
 
 **Enable .NET analyzers**
 
-Enables or disables the .NET compiler platform (Roslyn) analyzers. For more information, see [Enable or install first-party .NET analyzers](../../code-quality/install-net-analyzers).
+Enables or disables the .NET compiler platform (Roslyn) analyzers. For more information, see [Enable or install first-party .NET analyzers](../../code-quality/install-net-analyzers.md).
 
 **Analysis level**
 
@@ -338,34 +338,7 @@ For ASP.NET Core projects, the settings in the launch profiles UI correspond to 
 
 ## Resources, General settings
 
-Select the link to open the RESX assembly resources file. For more information, see [Settings page, Project Designer](../reference/settings-page-project-designer?view=vs-2022).
-
-
-
-
-// Below are from old Application Settings
-
-
-**Auto-generate binding redirects**
-
-Binding redirects are added to your project if your app or its components reference more than one version of the same assembly. If you want to manually define binding redirects in the project file, deselect **Auto-generate binding redirects**.
-
-For more information about redirection, see [Redirecting assembly versions](/dotnet/framework/configure-apps/redirect-assembly-versions).
-
-**Assembly Information**
-
-This button opens the [Assembly Information](../../ide/reference/assembly-information-dialog-box.md) dialog box.
-
-
-
-
-**Resource file**
-
-Select this radio button when you're providing a resource file for the project. Selecting this option disables the **Icon** and **Manifest** options.
-
-Enter a path name or use the Browse button (**...**) to add a Win32 resource file to the project.
-
-For more information, see [Create resource files for .NET apps](/dotnet/framework/resources/creating-resource-files-for-desktop-apps).
+Select the link to open the RESX assembly resources file. For more information, see [Settings page, Project Designer](../reference/settings-page-project-designer.md).
 
 ## See also
 
