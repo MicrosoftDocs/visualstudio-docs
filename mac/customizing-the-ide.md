@@ -59,7 +59,7 @@ Populated **Name** and **Email** fields will be used in any commit that is made 
 
 ## Key bindings
 
-Key bindings, or keyboard shortcuts, allow you to adapt your development environment so that you can move more efficiently throughout Visual Studio for Mac. It provides familiar key bindings for many popular integrated development environments (IDE), such as Visual Studio (on Windows), ReSharper, Visual Studio Code, and Xcode.
+Key bindings, or keyboard shortcuts, allow you to adapt your development environment so that you can move more efficiently throughout Visual Studio for Mac. It provides familiar key bindings for many popular IDEs, such as Visual Studio (on Windows), ReSharper, Visual Studio Code, and Xcode.
 
 Key bindings can be set by browsing to **Visual Studio > Preferences > Environment > Key Bindings**, as illustrated by the following image:
 
