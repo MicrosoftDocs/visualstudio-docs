@@ -144,7 +144,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 - [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md) - Update code coverage sample .runsettings to clarify VS 2022 vs. VS 2019 feature support
 
-## Community contributors
+### Community contributors
 
 The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
 
@@ -251,7 +251,7 @@ The following people contributed to the Visual Studio docs during this period. T
 
 - [Make a Git commit in Visual Studio](../version-control/git-make-commit.md) - Add new section for AI-generated commit messages
 
-## Community contributors
+### Community contributors
 
 The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
 
