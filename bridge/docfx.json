@@ -55,7 +55,7 @@
       "uhfHeaderId": "MSDocsHeader-VisualStudio",
       "breadcrumb_path": "/visualstudio/bridge/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "GitHub",
+      "feedback_system": "Standard",
       "ms.service": "visual-studio-family"
     },
     "fileMetadata": {},
