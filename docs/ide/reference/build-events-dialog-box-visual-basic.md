@@ -16,7 +16,6 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 monikerRange: 'vs-2019'
-monikerRange: 'vs-2019'
 ---
 # Build Events Dialog Box (Visual Basic)
 
