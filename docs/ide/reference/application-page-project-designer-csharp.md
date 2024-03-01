@@ -13,6 +13,7 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.subservice: general-ide
+monikerRange: 'vs-2019'
 ---
 # Application Page, Project Designer (C#)
 
@@ -48,19 +49,7 @@ Specifies the version of .NET that the application targets. This option can have
 
 For .NET Framework projects, the default value matches the target framework that you specified when you created the project.
 
-For a project that targets .NET Core, the available versions might appear as follows:
-
-::: moniker range="vs-2022"
-
-:::image type="content" source="../media/vs-2022/application-target-framework.png" alt-text="Screenshot of the target framework versions for a .NET Core project in Visual Studio 2022.":::
-
-::: moniker-end
-
-::: moniker range="<=vs-2019"
-
 ![Target framework versions for a .NET Core project](../media/application-target-framework.png)
-
-::: moniker-end
 
 > [!NOTE]
 > The prerequisite packages listed in the [Prerequisites Dialog Box](../../ide/reference/prerequisites-dialog-box.md) are set automatically the first time that you open the dialog box. If you subsequently change the project's target framework, you must select the prerequisites manually to match the new target framework.

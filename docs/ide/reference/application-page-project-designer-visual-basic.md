@@ -13,6 +13,7 @@ author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.subservice: general-ide
+monikerRange: 'vs-2019'
 ---
 # Application Page, Project Designer (Visual Basic)
 

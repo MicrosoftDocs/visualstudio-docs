@@ -12,6 +12,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+monikerRange: 'vs-2019'
 ---
 # Publish Page, Project Designer
 
