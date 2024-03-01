@@ -38,8 +38,6 @@ For information about how to access this property programmatically, see <xref:VS
 
 Specifies the version of .NET that the application targets. This option can have different values depending on which versions of .NET are installed on your computer.
 
-For .NET Framework projects, the default value matches the target framework that you specified when you created the project.
-
 For a project that targets .NET Core or .NET 5+, the available versions might appear as follows:
 
 :::image type="content" source="../media/vs-2022/application-target-framework.png" alt-text="Screenshot of the target framework versions for a .NET Core project in Visual Studio 2022.":::
