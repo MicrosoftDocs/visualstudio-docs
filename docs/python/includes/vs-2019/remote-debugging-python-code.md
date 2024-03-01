@@ -21,7 +21,7 @@ Visual Studio 2019 version 16.4 and earlier uses the [ptvsd library](https://pyp
 
 ## Prerequisites
 
-- Visual Studio installed with support for Python workloads. For more information, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
+- Visual Studio installed with support for Python workloads. For more information, see [Install Python support in Visual Studio](../../installing-python-support-in-visual-studio.md).
 
 - A remote computer running Python on an operating system like Mac OSX or Linux.
 
@@ -210,9 +210,7 @@ Use the following steps to configure ptvsd 3.x to work with the TCPS protocol:
 
 1. Restart the Python program on the remote computer so it's ready for debugging.
 
-<a name="add-certificate-trusted-root"></a>
-
-1. Secure the channel by adding the certificate to Trusted Root CA on the Windows computer with Visual Studio:
+1. <a name="add-certificate-trusted-root"></a> Secure the channel by adding the certificate to Trusted Root CA on the Windows computer with Visual Studio:
 
    1. Copy the certificate file from the remote computer to the local computer.
 
@@ -253,7 +251,7 @@ During the connection attempt, Visual Studio might encounter issues. Review the 
 
    **Issue**: The proper hostname or IP address isn't specified for the **Common Name** for the certificate.
 
-   **Action**: Recheck the steps in [Secure the connection with TCPS](#secure-the-connection-with-tcps). Be sure to use the correct **Common Name** when you create the certificate, and try the connection again.
+   **Action**: Recheck the steps in [Secure the connection with TCPS](#secure-connection-with-tcps-protocol). Be sure to use the correct **Common Name** when you create the certificate, and try the connection again.
 
    :::image type="content" source="../../media/remote-debugging-ssl-warning2.png" alt-text="Screenshot of the warning that says the remote SSL certificate doesn't match the hostname." border="false" lightbox="../../media/remote-debugging-ssl-warning2.png":::
 
