@@ -1,7 +1,7 @@
 ---
 title: How MSBuild builds projects
 description: Discover how MSBuild processes your project files, whether you invoke the build tool from Visual Studio or from a command line or script.
-ms.date: 05/18/2020
+ms.date: 02/13/2024
 ms.topic: overview
 helpviewer_keywords:
 - MSBuild, build process overview
@@ -18,7 +18,7 @@ The complete build process consists of [initial startup](#startup), [evaluation]
 
 ## Startup
 
-MSBuild can be invoked from Visual Studio through the MSBuild object model in *Microsoft.Build.dll*, or by invoking the executable directly on the command line, or in a script, such as in CI systems. In either case, inputs that affect the build process include the project file (or project object internal to Visual Studio), possibly a solution file, environment variables, and command-line switches or their object model equivalents. During the startup phase, the command-line options or object model equivalents are used to configure MSBuild settings such as configuring loggers. Properties set on the command line using the `-property` or `-p` switch are set as global properties, which override any values that would be set in the project files, even though project files are read in later.
+MSBuild can be invoked from Visual Studio through the MSBuild object model in *Microsoft.Build.dll*, or by invoking the executable (`MSBuild.exe` or `dotnet build`) directly on the command line, or in a script, such as in CI systems. In either case, inputs that affect the build process include the project file (or project object internal to Visual Studio), possibly a solution file, environment variables, and command-line switches or their object model equivalents. During the startup phase, the command-line options or object model equivalents are used to configure MSBuild settings such as configuring loggers. Properties set on the command line using the `-property` or `-p` switch are set as global properties, which override any values that would be set in the project files, even though project files are read in later.
 
 The next sections are about the input files, such as solution files or project files.
 
@@ -26,13 +26,13 @@ The next sections are about the input files, such as solution files or project f
 
 MSBuild instances may consist of one project, or many projects as part of a solution. The solution file isn't an MSBuild XML file, but MSBuild interprets it to know all the projects that are required to be built for the given configuration and platform settings. When MSBuild processes this XML input, it's referred to as the solution build. It has some extensible points that allow you to run something at every solution build, but since this build is a separate run from the individual project builds, no settings of properties or target definitions from the solution build are relevant to each project build.
 
-You can find out how to extend the solution build at [Customize the solution build](customize-your-build.md#customize-the-solution-build).
+You can find out how to extend the solution build at [Customize the solution build](customize-solution-build.md).
 
 ### Visual Studio builds vs. MSBuild.exe builds
 
 There are some significant differences between when projects build in Visual Studio vs. when you invoke MSBuild directly, either through the MSBuild executable, or when you use the MSBuild object model to start a build. Visual Studio manages the project build order for Visual Studio builds; it only calls MSBuild at the individual project level, and when it does, a couple of Boolean properties (`BuildingInsideVisualStudio`, `BuildProjectReferences`) are set that significantly affect what MSBuild does. Inside each project, execution occurs the same as when invoked through MSBuild, but the difference arises with referenced projects. In MSBuild, when referenced projects are required, a build actually occurs; that is, it runs tasks and tools, and generates the output. When a Visual Studio build finds a referenced project, MSBuild only returns the expected outputs from the referenced project; it lets Visual Studio control the building of those other projects. Visual Studio determines the build order and calls into MSBuild separately (as needed), all completely under Visual Studio's control.
 
-Another difference arises when MSBuild is invoked with a solution file, MSBuild parses the solution file, creates a standard XML input file, evaluates it, and executes it as a project. The solution build is executed before any project. When building from Visual Studio, none of this happens; MSBuild never sees the solution file. As a consequence, solution build customization (using *before.SolutionName.sln.targets* and *after.SolutionName.sln.targets*) only applies to MSBuild.exe or object model driven, not Visual Studio builds.
+Another difference arises when MSBuild is invoked with a solution file, MSBuild parses the solution file, creates a standard XML input file, evaluates it, and executes it as a project. The solution build is executed before any project. When building from Visual Studio, none of this happens; MSBuild never sees the solution file. As a consequence, solution build customization (using *before.SolutionName.sln.targets* and *after.SolutionName.sln.targets*) only applies to MSBuild.exe, `dotnet build`, or object-model-driven builds, not Visual Studio builds.
 
 ### Project SDKs
 
@@ -91,7 +91,7 @@ In this phase, all target object structures are created in memory, in preparatio
 
 ## Execution phase
 
-In the execution phase, the targets are ordered and run, and all tasks are executed. But first, properties and items that are defined within targets are evaluated together in a single phase in the order in which they appear. The order of processing is notably different from how  properties  and items that aren't in a target are processed: all properties first, and then all items, in separate passes. Changes to properties and items within a target can be observed after the target where they were changed.
+In the execution phase, the targets are ordered and run, and all tasks are executed. But first, properties and items that are defined within targets are evaluated together in a single phase in the order in which they appear. The order of processing is notably different from how properties and items that aren't in a target are processed: all properties first, and then all items, in separate passes. Changes to properties and items within a target can be observed after the target where they were changed.
 
 ### Target build order
 

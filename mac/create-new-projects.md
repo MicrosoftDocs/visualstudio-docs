@@ -1,12 +1,13 @@
 ---
-title: "Creating new Projects and Solutions"
-description: "This article describes how to create projects and solutions in Visual Studio for Mac"
+title: Creating new Projects and Solutions
+description: This article describes how to create projects and solutions in Visual Studio for Mac
 author: heiligerdankgesang 
 ms.author: dominicn
 manager: dominicn
 ms.date: 02/28/2022
 ms.topic: how-to
 ---
+
 # Create a new project in Visual Studio for Mac
 
  [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]

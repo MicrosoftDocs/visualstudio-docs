@@ -1,12 +1,13 @@
 ---
-title: "Keyboard navigation in Visual Studio for Mac"
-description: "Using Visual Studio for Mac with keyboard commands"
+title: Keyboard navigation in Visual Studio for Mac
+description: Using Visual Studio for Mac with keyboard commands
 author: heiligerdankgesang 
 ms.author: dominicn
 manager: dominicn
 ms.date: 09/23/2019
 ms.topic: how-to
 ---
+
 # Keyboard navigation in Visual Studio for Mac
 
  [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]

@@ -1,5 +1,5 @@
 ---
-title: "Adding and Removing Project Items"
+title: Adding and Removing Project Items
 description: This document describes how to add and remove project items in Visual Studio for Mac
 author: heiligerdankgesang 
 ms.author: dominicn
@@ -7,6 +7,7 @@ manager: dominicn
 ms.date: 02/28/2022
 ms.topic: how-to
 ---
+
 # Adding and removing project items in Visual Studio for Mac
 
  [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
@@ -35,4 +36,4 @@ The delete item confirmation dialog comes up. Select the **Delete** option to re
 
 ## See also
 
-* [Solutions and projects in Visual Studio (on Windows)](/visualstudio/ide/solutions-and-projects-in-visual-studio)
+- [Solutions and projects in Visual Studio (on Windows)](/visualstudio/ide/solutions-and-projects-in-visual-studio)

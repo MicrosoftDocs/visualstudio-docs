@@ -1,6 +1,6 @@
 ---
-title: "Getting Started with ASP.NET Core"
-description: "This article describes how to get started with ASP.NET in Visual Studio for Mac, including installation and creating a new project."
+title: Getting Started with ASP.NET Core
+description: This article describes how to get started with ASP.NET in Visual Studio for Mac, including installation and creating a new project.
 author: heiligerdankgesang 
 ms.author: dominicn
 manager: dominicn
@@ -10,6 +10,7 @@ no-loc: [Blazor, "Blazor WebAssembly"]
 ms.topic: how-to
 monikerRange: ">=vsmac-2022"
 ---
+
 # Getting Started with ASP.NET Core in Visual Studio for Mac
 
  [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
@@ -34,7 +35,7 @@ Open Visual Studio for Mac. On the Start Screen, select **New**
 
 The **New Project** dialog is shown. It lets you select a template to create your application.
 
-There are many projects that'll provide you with a pre-built template to start building your ASP.NET Core Application. They are:
+There are many projects that'll provide you with a prebuilt template to start building your ASP.NET Core Application. They are:
 
 - **.NET Core > Empty**
 - **.NET Core > API**
@@ -54,7 +55,7 @@ Select the **ASP.NET Core Empty Web Application** and select **Continue**. Give 
 
 :::image type="content" source="media/vsmac-2022/asp-net-core-2022-empty-project.png" alt-text="Screenshot shows new ASP.NET Core Empty Project view while creating an ASP.NET Core app.":::
 
-The ASP.NET Core Empty template creates a web application with default files like **Program.cs** that is explained here.  It also creates a **Dependencies** folder, which contains your project's NuGet package dependencies such as ASP.NET Core, the .NET Core framework, and the MSBuild targets that build the project:
+The ASP.NET Core Empty template creates a web application with default files like **Program.cs** that is explained here. It also creates a **Dependencies** folder, which contains your project's NuGet package dependencies such as ASP.NET Core, the .NET Core framework, and the MSBuild targets that build the project:
 
 :::image type="content" source="media/vsmac-2022/asp-net-core-2022-solution-dependencies.png" alt-text="Screenshot of Solution window displaying dependencies.":::
 ::: moniker-end
@@ -89,7 +90,7 @@ app.MapGet("/", () => "Hello World!");
 
 `app.Run();` runs the app.
 
-This simple Hello, World project can run now without any extra code being added. To run the app, you can either select which browser you want to run app in using the dropdown right of the **Play** button. Or, you can hit the **Play** (triangular) button to use your default browser:
+This simple Hello, World project can run now without any extra code being added. To run the app, you can either select which browser you want to run app in using the dropdown list right of the **Play** button. Or, you can hit the **Play** (triangular) button to use your default browser:
 
 :::image type="content" source="media/vsmac-2022/asp-net-web-picker.png" alt-text="Screenshot showing the select the browser to run your code.":::
 

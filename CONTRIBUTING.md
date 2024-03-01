@@ -10,11 +10,11 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 
 ## How can I contribute?
 
-There is a variety of ways to contribute to the documentation. Review the sections below to find out which one is right for you.
+There is a variety of ways to contribute to the documentation. Review the following sections to find out which one is right for you.
 
 ### Report bugs or suggest enhancements
 
-Please use the feedback tool at the bottom of any article to submit bugs and suggestions.
+Use the feedback tool at the bottom of any article to submit bugs and suggestions.
 
 ![Feedback tool](media/feedback-tool.png)
 

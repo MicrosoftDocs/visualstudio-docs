@@ -1,7 +1,7 @@
 ---
 title: Create an MSBuild project file from scratch
 description: Create an MSBuild project file from scratch to understand how the XML is organized and how you can change it to control a build.
-ms.date: 09/12/2022
+ms.date: 02/13/2024
 ms.topic: tutorial
 helpviewer_keywords:
 - MSBuild, tutorial
@@ -10,7 +10,7 @@ ms.author: ghogen
 manager: jmartens
 ms.subservice: msbuild
 ---
-# Walkthrough: Create an MSBuild project file from scratch
+# Create an MSBuild project file from scratch
 
 Programming languages that target the .NET Framework use MSBuild project files to describe and control the application build process. When you use Visual Studio to create an MSBuild project file, the appropriate XML is added to the file automatically. However, you may find it helpful to understand how the XML is organized and how you can change it to control a build.
 
@@ -19,7 +19,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
 
  For information about creating a project file for a C++ project, see [MSBuild (C++)](/cpp/build/msbuild-visual-cpp).
 
- This walkthrough shows how to create a basic project file incrementally, by using only a text editor. The walkthrough follows these steps:
+ This tutorial shows how to create a basic project file incrementally, by using only a text editor. The walkthrough follows these steps:
 
 1. Extend the PATH environment variable.
 
@@ -39,13 +39,15 @@ Programming languages that target the .NET Framework use MSBuild project files t
 
 9. Build incrementally.
 
-This walkthrough shows how to build the project at the command prompt and examine the results. For more information about MSBuild and how to run MSBuild at the command prompt, see [Walkthrough: Use MSBuild](../msbuild/walkthrough-using-msbuild.md).
+This tutorial shows how to build the project at the command prompt and examine the results. For more information about MSBuild and how to run MSBuild at the command prompt, see [Use MSBuild](../msbuild/walkthrough-using-msbuild.md).
 
-To complete the walkthrough, you must have Visual Studio installed because it includes MSBuild and the C# compiler, which are required for the walkthrough.
+To complete the tutorial, you must have Visual Studio installed because it includes MSBuild and the C# compiler, which are required for the walkthrough.
 
 ## Extend the path
 
-Before you can use MSBuild, you must extend the PATH environment variable to include all the required tools. You can use the **Developer Command Prompt for Visual Studio**. Search for it on Windows 10 in the search box in the Windows task bar. To set up the environment in an ordinary command prompt or in a scripting environment, run *VSDevCmd.bat* in the *Common7/Tools* subfolder of a Visual Studio installation.
+Before you can use MSBuild, you must extend the PATH environment variable to include all the required tools. 
+
+If you're running on Windows, you can use the **Developer Command Prompt for Visual Studio**. Search for it in the Windows search box in the Windows task bar. To set up the environment in an ordinary command prompt or in a scripting environment, run *VSDevCmd.bat* in the *Common7/Tools* subfolder of a Visual Studio installation.
 
 ## Create a minimal application
 
@@ -449,7 +451,7 @@ The following example shows a project file that compiles a Visual Basic applicat
 
 ## What's next?
 
- Visual Studio can automatically do much of the work that is shown in this walkthrough. To learn how to use Visual Studio to create, edit, build, and test MSBuild project files, see [Walkthrough: Use MSBuild](../msbuild/walkthrough-using-msbuild.md).
+ Visual Studio can automatically do much of the work that is shown in this walkthrough. To learn how to use Visual Studio to create, edit, build, and test MSBuild project files, see [Use MSBuild](../msbuild/walkthrough-using-msbuild.md).
 
 ## Related content
 
