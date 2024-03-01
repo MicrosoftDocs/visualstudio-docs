@@ -8,7 +8,7 @@ The documentation for Visual Basic and Visual C# is located in the [dotnet docs 
 
 ## Submit feedback
 
-The Learn site is changing how we receive feedback on the documentation. The new way is already available by clicking on the Feedback icon at the top right of each article. The old way (GitHub Issue controls at the bottom of the pages) is still available as of February 2024, but will be retired in the coming months. See [Announcing a new way to give feedback on Microsoft Learn](https://aka.ms/contentuserfeedback).
+The Learn site is changing how we receive feedback on the documentation. The new way is already available by clicking on the Feedback icon at the top right of each article, or immediately following an article. See [Announcing a new way to give feedback on Microsoft Learn](https://aka.ms/contentuserfeedback).
 
 ## Contribute to the documentation
 
