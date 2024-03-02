@@ -1,7 +1,7 @@
 ---
 title: What is the .NET Project Designer?
 description: Learn how to configure and customize .NET project properties by using the Project Designer.
-ms.date: 11/16/2023
+ms.date: 02/29/2024
 ms.topic: reference
 helpviewer_keywords:
 - user interface [Visual Studio], projects
@@ -13,7 +13,13 @@ ms.subservice: general-ide
 ---
 # What is the .NET Project Designer?
 
-The Project Designer in Visual Studio is a dialog box that you can use to specify applications settings and properties for a .NET project. The Project Designer includes several different project properties pages to interact with. What you see depends on your .NET project type, platform, and programming language.
+::: moniker range=">=vs-2022"
+The Project Designer in Visual Studio is a dialog box that you can use to specify applications settings and properties for a .NET or .NET Framework project. The Project Designer includes several different project properties tabs or pages to interact with. What you see depends on your .NET project type, platform, and programming language. For detailed information on properties in the .NET C# Project Designer, see [.NET Project Designer (C#)](../reference/project-designer-dotnet-csharp.md). For detailed information on the .NET Framework Project Designer, see [Project properties in the .NET Framework Project Designer](#project-properties-in-the-net-framework-project-designer).
+::: moniker-end
+
+::: moniker range="vs-2019"
+The Project Designer in Visual Studio is a dialog box that you can use to specify applications settings and properties for a .NET or .NET Framework project. The Project Designer includes several different project properties tabs or pages to interact with. What you see depends on your .NET project type, platform, and programming language.
+::: moniker-end
 
 The Project Designer appears after you select a [project node](../use-solution-explorer.md#solution-explorer-ui) in **Solution Explorer** and then use the right-click context menu to select **Properties**.
 
@@ -44,9 +50,11 @@ The following Visual Studio 2019 screenshot shows an example of the .NET project
 
 ::: moniker-end
 
-## Project properties in the .NET Project Designer
-
 ::: moniker range="vs-2022"
+
+## Project properties in the .NET Framework Project Designer
+
+For .NET Framework projects, use links in the following table to get information about properties.
 
 |Property       |Language/platform      |Description                                                              |
 |---------------|-----------------------|-------------------------------------------------------------------------|
@@ -69,6 +77,10 @@ The following Visual Studio 2019 screenshot shows an example of the .NET project
 ::: moniker-end
 
 ::: moniker range="<=vs-2019"
+
+## Project properties in the .NET Project Designer
+
+Use links in the following table to get information about properties.
 
 | Title | Description |
 | - | - |

@@ -11,6 +11,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+monikerRange: 'vs-2019'
 ---
 # Advanced Build Settings dialog box (C#)
 

@@ -11,6 +11,7 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.subservice: general-ide
+monikerRange: 'vs-2019'
 ---
 # Advanced Settings for Services Dialog Box
 

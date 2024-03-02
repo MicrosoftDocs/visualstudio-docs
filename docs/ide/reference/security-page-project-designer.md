@@ -13,6 +13,7 @@ helpviewer_keywords:
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
+monikerRange: 'vs-2019'
 ---
 # Security Page, Project Designer
 
