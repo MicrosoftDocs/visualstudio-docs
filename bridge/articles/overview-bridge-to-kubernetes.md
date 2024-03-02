@@ -9,7 +9,6 @@ manager: jmartens
 author: ghogen
 ms.author: ghogen
 ---
-
 # How Bridge to Kubernetes works
 
 *Bridge to Kubernetes* is an iterative development tool for authoring microservice applications that target Kubernetes. The Bridge to Kubernetes extension is available for Visual Studio and Visual Studio Code (VS Code).

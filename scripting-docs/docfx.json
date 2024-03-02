@@ -32,9 +32,7 @@
     "externalReference": [],
     "globalMetadata": {
       "uhfHeaderId": "MSDocsHeader-VisualStudio",
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
-      "feedback_product_url": "https://developercommunity2.visualstudio.com/search?space=8",
+      "feedback_system": "Standard",
       "breadcrumb_path": "~/_breadcrumb/toc.yml",
       "ROBOTS": "INDEX,FOLLOW",
       "author": "mikejo5000",

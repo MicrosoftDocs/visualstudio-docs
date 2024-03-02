@@ -15,6 +15,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+monikerRange: 'vs-2019'
 ---
 # Build Events Dialog Box (Visual Basic)
 

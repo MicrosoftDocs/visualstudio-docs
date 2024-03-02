@@ -32,6 +32,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+monikerRange: 'vs-2019'
 ---
 # Pre-build event/post-build event command line dialog box
 
