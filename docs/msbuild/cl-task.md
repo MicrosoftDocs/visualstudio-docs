@@ -244,7 +244,7 @@ Wraps the Microsoft C++ compiler tool, *cl.exe*. The compiler produces executabl
 
   - **StreamingSIMDExtensions2** - **/arch:SSE2**
 
-  - **AdvancedVectorExtensions** - **/arch:AVX2**
+  - **AdvancedVectorExtensions** - **/arch:AVX**
 
   - **AdvancedVectorExtensions2** - **/arch:AVX2**
 
