@@ -234,13 +234,21 @@ Wraps the Microsoft C++ compiler tool, *cl.exe*. The compiler produces executabl
 
    Optional String parameter.
 
-   Specifies the architecture for code generation that uses the Streaming SIMD Extensions (SSE) and Streaming SIMD Extensions 2 (SSE2) instructions.
+   Specifies the architecture for code generation that uses the Streaming SIMD Extensions (SSE), Streaming SIMD Extensions 2 (SSE2) and Advanced Vector Extensions (AVX) instructions.
 
    Specify one of the following values, each of which corresponds to a command-line option.
+
+  - **NoExtensions** - **/arch:IA32**
 
   - **StreamingSIMDExtensions** - **/arch:SSE**
 
   - **StreamingSIMDExtensions2** - **/arch:SSE2**
+
+  - **AdvancedVectorExtensions** - **/arch:AVX2**
+
+  - **AdvancedVectorExtensions2** - **/arch:AVX2**
+
+  - **AdvancedVectorExtensions512** - **/arch:AVX512**
 
     For more information, see [/arch (x86)](/cpp/build/reference/arch-x86).
 
