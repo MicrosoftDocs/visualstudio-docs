@@ -60,7 +60,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Using Spy++](../debugger/using-spy-increment.md) - Refactor Spy++ docs to a smaller set of articles
 - [Window Properties dialog box](../debugger/window-properties-dialog-box.md) - Refactor Spy++ docs to a smaller set of articles
 - [Windows view](../debugger/windows-view.md) - Refactor Spy++ docs to a smaller set of articles
-- [Debugging Errors and Warning Dialog Boxes](../debugger/debugging-errors-and-warning-dialog-boxes.md) - Remove several debugger error articles
 - [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md) - Move several remote debugging error reference articles to archive
 
 ### Designers
