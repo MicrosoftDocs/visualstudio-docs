@@ -86,7 +86,7 @@ vs_enterprise.exe --layout c:\localVSlayout --config c:\myconfig.vsconfig --lang
 
 ## Use a configuration file to automatically install missing components
 
-If you save a .vsconfig file into your solution root directory and then open a solution, Visual Studio will automatically detect any missing components and will prompt you to install them.
+If you save a `*.vsconfig` file into your solution root directory and then open a solution, Visual Studio will automatically detect any missing components and will prompt you to install them.
 
 > Note: If your `*.vsconfig` file contains extensions, then only those extensions that are hosted on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) will trigger the automatic "is-missing" detection and installation. If you would like this logic to include extensions that were installed from a non-Marketplace location, please provide details about your scenario here().
 
@@ -106,7 +106,7 @@ We also created an open source utility that locates Visual Studio installation *
 
 ## vsconfig file format
 
-The `.vsconfig` file is a json file format that contains a components section and optionally an extensions section. The components section contains [workloads and components](workload-and-component-ids.md) and looks like this.
+The `*.vsconfig` file is a json file format that contains a components section and optionally an extensions section. The components section contains [workloads and components](workload-and-component-ids.md) and looks like this.
 
 ```shell
 {
@@ -122,7 +122,7 @@ The `.vsconfig` file is a json file format that contains a components section an
 ### Extensions
 We are in the process of rolling out support for extensions in the *.vsconfig files. 
 
-Starting in [Visual Studio 2022 version 17.9](/visualstudio/releases/2022/release-notes), you can now specify public Visual Studio Marketplace or local private extensions in the `*.vsconfig` file and use the Visual Studio Installer to load them machine wide making it available for all users. Since these extensions are installed machine wide, to install you must have admin permissions, or have been granted control of the installer via the [AllowStandardUserControl](https://aka.ms/vs/setup/policies) policy. Note that any extensions previously installed by the Visual Studio Extension Manager had the capability of being (and were typically) installed per user, not machine wide, and the user didn't need to have admin permissions to install.
+Starting in [Visual Studio 2022 version 17.9](/visualstudio/releases/2022/release-notes), you can now specify public Visual Studio Marketplace or local private extensions in the `*.vsconfig` file and use the Visual Studio Installer to load them machine wide making them available for all users. Since these extensions are installed machine wide, to install you must have admin permissions or have been granted control of the installer via the [AllowStandardUserControl](https://aka.ms/vs/setup/policies) policy. Note that any extensions previously installed by the Visual Studio Extension Manager had the capability of being (and were typically) installed per user, not machine wide, and the user didn't need to have admin permissions to install.
 
 Starting in Visual Studio 2022 version 17.10 Preview 2, you can now use the Visual Studio installer to `export` machine-wide marketplace extensions into the *.vsconfig file. We suspect that this functionality may not cover all the different scenarios. If you would like the `export` functionality to support additional types of extensions, [please let us know](https://developercommunity.visualstudio.com/t/Ability-to-export-non-marketplace-or-use/10602937).
 
