@@ -1,7 +1,7 @@
 ---
 title: Write C++ extensions for Python
 description: Explore how to create a C++ extension for Python by using Visual Studio, CPython, and PyBind11, including mixed-mode debugging.
-ms.date: 02/27/2024
+ms.date: 03/04/2024
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster

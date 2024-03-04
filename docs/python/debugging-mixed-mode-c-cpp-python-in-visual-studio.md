@@ -1,7 +1,7 @@
 ---
 title: Mixed-mode debugging for Python
 description: Simultaneously debug C++ and Python in Visual Studio including stepping between environments, viewing values, and evaluating expressions.
-ms.date: 2/28/2024
+ms.date: 03/04/2024
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
@@ -70,7 +70,7 @@ The following steps describe how to enable mixed-mode debugging in a Python proj
 
     You can select other code types in addition to or instead of the **Native** option. For example, if a managed application hosts CPython, which in turn uses native extension modules, and you want to debug all three code projects, select the **Python**, **Native**, and **Managed** checkboxes. This approach gives you a unified debugging experience including combined call stacks and stepping between all three runtimes.
 
-### Use virtual environments
+### Work with virtual environments
 
 When you use this method of mixed-mode debugging for virtual environments (venvs), Python for Windows uses a _python.exe_ stub file for venvs that Visual Studio finds and loads as a subprocess.
 

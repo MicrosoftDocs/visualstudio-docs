@@ -1,7 +1,7 @@
 ---
 title: Symbols for mixed-mode Python/C++ debugging
-description: Explore how Visual Studio lets you load symbols from program database (PDB) files to support complete mixed-mode debugging for C++ and Python.
-ms.date: 02/22/2024
+description: Explore how you can use Visual Studio to load symbols from program database (PDB) files to support complete mixed-mode debugging for C++ and Python.
+ms.date: 03/04/2024
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
@@ -28,8 +28,6 @@ When Visual Studio detects missing required symbols, a dialog prompts you to tak
 ## Prerequisites
 
 - Visual Studio installed with support for Python workloads. For more information, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
-
-- Python for Windows installed. For more information, see [python.org/downloads/](https://www.python.org/downloads/).
 
 ## Check your interpreter version
 
