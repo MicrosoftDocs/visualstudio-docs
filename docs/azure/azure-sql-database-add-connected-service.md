@@ -96,7 +96,7 @@ Learn how to store secrets safely by following [Safe storage of app secrets in d
 
 ## Entity Framework migrations
 
-It might be convenient to work with a local data store during early development, but with Entity Framework Core, when you're ready to move to the cloud, you can use Visual Studio's support for Entity Framework migration to move your database, or merge changes with a remote data store. For more information, see [Migrations overview](/ef/core/managing-schemas/migrations/?tabs=vs).
+It might be convenient to work with a local data store during early development, but with Entity Framework Core, when you're ready to move to the cloud, you can use Visual Studio's support for Entity Framework migration to move your database, or merge changes with a remote data store. See [Migrations overview](/ef/core/managing-schemas/migrations/?tabs=vs).
 
 On the **Connected Services** tab, you can find the migration commands by clicking on the three dots, as shown in the screenshot:
 
@@ -133,7 +133,7 @@ When you use this option, you're asked the database context class and the locati
 
 ### Open in SQL Server Object Explorer
 
-For convenience, this command lets you jump to the SQL Server Object Explorer, so you can view tables and other database entities, and work directly with your data. For more information, see [Object explorer](/sql/ssms/object/object-explorer).
+For convenience, this command lets you jump to the SQL Server Object Explorer, so you can view tables and other database entities, and work directly with your data. See [Object explorer](/sql/ssms/object/object-explorer).
 
 ![Screenshot showing SQL Server Object Explorer.](./media/vs-2022/sql-server-object-explorer-2.png)
 

@@ -20,7 +20,7 @@ Deployment through Visual Studio is supported for many different project types. 
 
 For Azure deployment to a specific Azure service, you can find deployment steps for Visual Studio, along with other development tools, in the documentation for the specific Azure service, or in the ASP.NET documentation for the most commonly used Azure services for web apps, such as [Azure App Service](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs).
 
-Is your app containerized? If so, you might consider deploying to Azure Container Apps, a service that was designed specifically for containerized apps. For more information, see [Azure Container Apps](/azure/container-apps/deploy-visual-studio), but you can also work at a lower level and deploy container images to [Azure Container Registry](../containers/hosting-web-apps-in-docker.md).
+Is your app containerized? If so, you might consider deploying to Azure Container Apps, a service that was designed specifically for containerized apps. See [Azure Container Apps](/azure/container-apps/deploy-visual-studio), but you can also work at a lower level and deploy container images to [Azure Container Registry](../containers/hosting-web-apps-in-docker.md).
 
 For web APIs such as REST APIs or to implement events with triggers, consider deploying as an [Azure function](/azure/azure-functions/functions-create-your-first-function-visual-studio).
 

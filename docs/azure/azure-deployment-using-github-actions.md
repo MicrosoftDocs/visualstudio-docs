@@ -84,7 +84,7 @@ These steps are appropriate if you have more than one project that uses Docker c
 
    ![Screenshot showing the existing Azure Container Apps.](./media/azure-deployment-using-github-actions/github-actions-select-container-app.png)
 
-   When you create a new one, you see this screen. When testing or learning, it's usually best to create a new resource group to make it easier to delete everything later. A Container Apps environment is a secure boundary around groups of container apps that share the same virtual network and write logs to the same logging destination. For more information, see [Azure Container Apps environments](/azure/container-apps/environment). If you don't know what that is or haven't created one before, create a new one for this instance.
+   When you create a new one, you see this screen. When testing or learning, it's usually best to create a new resource group to make it easier to delete everything later. A Container Apps environment is a secure boundary around groups of container apps that share the same virtual network and write logs to the same logging destination. See [Azure Container Apps environments](/azure/container-apps/environment). If you don't know what that is or haven't created one before, create a new one for this instance.
 
    ![Screenshot showing creating a new Azure Container Apps instance.](./media/azure-deployment-using-github-actions/github-actions-azure-container-apps-create-new.png)
 
@@ -198,7 +198,7 @@ The main function of the workflow is to sign in to the Azure services with the r
 
 ### Editing and testing the workflow
 
-The above procedure generates a workflow YML file, but you normally need to review and customize it before it can be used for a deployment. You might need to refer to GitHub's guidance on writing workflow actions; see [About custom actions](https://docs.github.com/en/actions/creating-actions/about-custom-actions). The workflow file contains many configurable elements, such as the settings for the environment variables and names of the secrets. You can see references to the locations of your Dockerfiles, the name of your Azure container app, the branch in the repo you will use to trigger the workflow runs, and references to the secrets in GitHub. Secrets are referenced using the syntax `${{ secrets.SECRET_NAME }}`. For more information, see [GitHub Actions secrets](https://docs.github.com/en/rest/actions/secrets).
+The above procedure generates a workflow YML file, but you normally need to review and customize it before it can be used for a deployment. You might need to refer to GitHub's guidance on writing workflow actions; see [About custom actions](https://docs.github.com/en/actions/creating-actions/about-custom-actions). The workflow file contains many configurable elements, such as the settings for the environment variables and names of the secrets. You can see references to the locations of your Dockerfiles, the name of your Azure container app, the branch in the repo you will use to trigger the workflow runs, and references to the secrets in GitHub. Secrets are referenced using the syntax `${{ secrets.SECRET_NAME }}`. See [GitHub Actions secrets](https://docs.github.com/en/rest/actions/secrets).
 
 If your projects are not located at the root of the repo, you need to change the workflow to specify the path to find the Dockerfiles. Add environment variables for the relative paths to the Dockerfile in both projects.
 
