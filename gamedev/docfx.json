@@ -36,9 +36,7 @@
          "uhfHeaderId": "MSDocsHeader-VisualStudio",
         "breadcrumb_path": "/visualstudio/gamedev/breadcrumb/toc.json",
         "extendBreadcrumb": true,
-        "feedback_system": "GitHub",
-        "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
-        "feedback_product_url": "https://developercommunity.visualstudio.com/",
+        "feedback_system": "Standard",
         "zone_pivot_group_filename": "gamedev/zone-pivot-groups.json"
       },
       "fileMetadata": {},
