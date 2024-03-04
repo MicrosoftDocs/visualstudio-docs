@@ -28,7 +28,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Create a database and add tables in .NET Framework applications using Visual Studio](../data-tools/create-a-sql-database-by-using-a-designer.md) - Review and update date
+- [Create a database and add tables in .NET Framework applications using Visual Studio](../data-tools/create-a-sql-database-by-using-a-designer.md) - Review and update
 
 ### Debugger
 
