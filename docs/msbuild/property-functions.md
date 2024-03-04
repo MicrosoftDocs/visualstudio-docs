@@ -409,6 +409,26 @@ The following example shows how this function is used.
 </Project>
 ```
 
+From MSBuild version 17.10.0 this function accepts second, optional, argument requesting the hashing algorithm to be used:
+
+```xml
+<Project>
+   <PropertyGroup>
+      <MyHash>$([MSBuild]::StableStringHash("test1", "Sha256"))</MyHash>
+   </PropertyGroup>
+
+   <Target Name="WriteHash" AfterTargets="Build">
+      <Message Text="Hash: $(MyHash)"/>
+   </Target>
+</Project>
+```
+
+The second argument is case insensitive and currently supports following values:
+* Legacy - keeps the same behavior as calling the function without the second argument. Returns signed 32bit integer with similar properties as `string.GetHashCode`.
+* Fnv1a32bit - Returns signed 32bit integer representing a [Fowler–Noll–Vo hash of version '1a'](https://en.wikipedia.org/wiki/Fowler%E2%80%93Noll%E2%80%93Vo_hash_function#FNV-1a_hash) hash of the given string.
+* Fnv1a64bit - Returns signed 64bit integer representing a [Fowler–Noll–Vo hash of version '1a'](https://en.wikipedia.org/wiki/Fowler%E2%80%93Noll%E2%80%93Vo_hash_function#FNV-1a_hash) hash of the given string.
+* Sha256 - Returns unprefixed hex string representing a SHA256 hash of the given string.
+
 ## MSBuild ValueOrDefault
 
 The MSBuild `ValueOrDefault` property function returns the first argument, unless it's null or empty. If the first argument is null or empty, the function returns the second argument.
