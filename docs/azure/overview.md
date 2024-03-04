@@ -28,7 +28,7 @@ Visual Studio has many capabilities that can make it much easier to develop appl
 
 With Visual Studio, you can both develop apps that run in the Azure cloud, and connect to Azure services from your on-premises, desktop, and mobile apps. Visual Studio is the most full-featured and complete environment for Windows developers to connect .NET and ASP.NET applications to Azure services. Visual Studio also supports development in other technology stacks, such as Node.js and Python, which you can use to create web sites and web applications that you can deploy to Azure using the Azure CLI.
 
-C++ developers can access Azure services such as Azure Storage using a C++ client library, and IoT device developers using C and C++ can connect devices and services to Azure. For more information, see [Cloud and web programming in Visual C++](/cpp/cloud/cloud-and-web-programming-in-visual-cpp).
+C++ developers can access Azure services such as Azure Storage using a C++ client library, and IoT device developers using C and C++ can connect devices and services to Azure. See [Cloud and web programming in Visual C++](/cpp/cloud/cloud-and-web-programming-in-visual-cpp).
 
 Users of Azure Cloud Services, supported in Visual Studio for many previous releases, can continue to work with these services in Visual Studio using [Azure Cloud Services (extended support)](../azure/cloud-services-extended-support.md).
 
@@ -38,7 +38,7 @@ When you want to use an Azure service in your application, it usually requires m
 
 Visual Studio **Connected Services** is the name for the step-by-step wizards you can use to connect your projects (web and on-premises) to Azure services. Read more about the Azure services you can connect to and manage from Visual Studio at [About Visual Studio Connected Services](overview-connected-services.md).
 
-You can perform all the required Azure operations right from the Visual Studio IDE as you go through the Connected Services wizards. Instead of using the [Azure portal](https://portal.azure.com), you can provision resources in Azure, create resource groups, browse and view Azure resources, and deploy your applications and services. Once your project is connected to Azure services or deployed, the **Connected Services** tab displays information about your resources, and contains convenient links to your deployments. For more information, see [Work with Azure in Visual Studio](overview-azure-integration.md).
+You can perform all the required Azure operations right from the Visual Studio IDE as you go through the Connected Services wizards. Instead of using the [Azure portal](https://portal.azure.com), you can provision resources in Azure, create resource groups, browse and view Azure resources, and deploy your applications and services. Once your project is connected to Azure services or deployed, the **Connected Services** tab displays information about your resources, and contains convenient links to your deployments. See [Work with Azure in Visual Studio](overview-azure-integration.md).
 
 ## Deploy your applications to the Azure cloud
 
@@ -62,7 +62,6 @@ You can use Visual Studio debug your application while it's running in Azure, so
 
 If you're using a virtual machine (VM) to host an ASP.NET Core web app, see [Remote debug ASP.NET Core on IIS using an Azure VM from Visual Studio](../debugger/remote-debugging-azure.md).
 
-<a name='leverage-integrated-azure-features'></a>
 
 ## Use integrated Azure features
 
@@ -141,11 +140,11 @@ Secure storage of passwords and other secrets, such as access keys to databases 
 
 Visual Studio helps solve the issue of developing your app and changing a database locally and then synchronizing with a production database in Azure.
 
-In the case of ASP.NET Web App using Azure SQL Database and Entity Framework, when you make local changes to the database, you can push those schema changes and data changes to Azure in a structured way using Entity Framework migrations. For more information, see [Entity Framework migrations](azure-sql-database-add-connected-service.md#entity-framework-migrations).
+In the case of ASP.NET Web App using Azure SQL Database and Entity Framework, when you make local changes to the database, you can push those schema changes and data changes to Azure in a structured way using Entity Framework migrations. See [Entity Framework migrations](azure-sql-database-add-connected-service.md#entity-framework-migrations).
 
 ### Worker services
 
-ASP.NET web apps can benefit from running worker services. There's no additional cost to run a worker service on an existing App Service instance and it can be a direct replacement for the Windows Services that you might be running on-premises or in a virtual machine. For more information, see [Worker services in .NET](/dotnet/core/extensions/workers?pivots=dotnet-7-0).
+ASP.NET web apps can benefit from running worker services. There's no additional cost to run a worker service on an existing App Service instance and it can be a direct replacement for the Windows Services that you might be running on-premises or in a virtual machine. See [Worker services in .NET](/dotnet/core/extensions/workers?pivots=dotnet-7-0).
 
 ## Other web application technologies
 
@@ -153,7 +152,7 @@ Developers who use JavaScript and Python can use Visual Studio or [Visual Studio
 
 Node.js offers another option for web application development with server-side JavaScript. Learn more at [What is Azure for JavaScript developers](/azure/developer/javascript/core/what-is-azure-for-javascript-development) Get started with [Deploy a Node.js web app in Azure](/azure/app-service/quickstart-nodejs?tabs=windows&pivots=development-environment-vscode).
 
-Python is an increasingly popular language which, when using web frameworks Django and Flask, is another way of developing web applications. For more information, see [Get started with Python on Azure](/azure/developer/python/get-started?tabs=windows%2Capt%2Ccmd).
+Python is an increasingly popular language which, when using web frameworks Django and Flask, is another way of developing web applications. See [Get started with Python on Azure](/azure/developer/python/get-started?tabs=windows%2Capt%2Ccmd).
 
 ## Recommended Azure services
 
