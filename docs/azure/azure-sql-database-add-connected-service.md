@@ -9,12 +9,13 @@ ms.date: 05/15/2023
 ms.author: angelpe
 monikerRange: ">= vs-2019"
 ---
+
 # Add a connection to Azure SQL Database
 
 With Visual Studio, you can connect any of the following to Azure SQL Database by using the **Connected Services** feature:
 
 - .NET Framework console app
-- ASP.NET MVC (.NET Framework) 
+- ASP.NET Model-View-Controller (MVC) (.NET Framework)
 - ASP.NET Core
 - .NET Core (including console app, WPF, Windows Forms, class library)
 - .NET Core Worker Role
@@ -44,16 +45,16 @@ The connected service functionality adds all the needed references and connectio
 
 1. Choose **SQL Server Database**. The **Connect to dependency** page appears. You should see several options:
 
-   - SQL Server Express LocalDB, the built-in SQL database offering installed with Visual Studio
+   - SQL Server Express LocalDB, the built-in SQL Database offering installed with Visual Studio
    - SQL Server Database on a local container on your machine
-   - SQL Server Database, a on-premises SQL server on the local network
-   - Azure SQL database, for the SQL database running as an Azure service
+   - SQL Server Database, an on-premises SQL Server on the local network
+   - Azure SQL Database, for the SQL Database running as an Azure service
 
-   You can reduce cost and simplify early development by starting with a local database. You can migrate to the live service in Azure later by repeating these steps and choosing another option. If you create a database locally that you want to recreate in Azure, you can migrate your database to Azure at that time.
+   You can reduce cost and simplify early development by starting with a local database. You can migrate to the live service in Azure later by repeating these steps and choosing another option. If you create a database locally that you want to re-create in Azure, you can migrate your database to Azure at that time.
 
-   ![Screenshot showing SQL database choices.](./media/vs-2022/sql-database-choices-2.png)
+   ![Screenshot showing SQL Database choices.](./media/vs-2022/sql-database-choices-2.png)
 
-   If you want to connect to the Azure service, continue to the next step, or if you aren't signed in already, sign into your Azure account before continuing. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
+   If you want to connect to the Azure service, continue to the next step, or if you aren't signed in already, sign in to your Azure account before continuing. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
 
 1. In the **Configure Azure SQL Database** screen, select an existing Azure SQL Database, and select **Next**.
 
@@ -61,7 +62,7 @@ The connected service functionality adds all the needed references and connectio
 
     ![Screenshot showing "Connect to existing Azure SQL Database component" screen.](./media/azure-sql-database-add-connected-service/created-azure-sql-database.png)
 
-1. To create an Azure SQL Database:
+1. To create an Azure SQL database:
 
    1. Select **Create New** by the green plus sign.
 
@@ -140,7 +141,7 @@ For convenience, this command lets you jump to the SQL Server Object Explorer, s
 
 ## Next steps
 
-You can continue with the quickstarts for Azure SQL database, but instead of starting from the beginning, you can start after the initial connection is set up. If you're using Entity Framework, you can start at [Add the code to connect to Azure SQL Database](/azure/azure-sql/database/azure-sql-dotnet-entity-framework-core-quickstart?view=azuresql&preserve-view=true&tabs=visual-studio%2Cservice-connector%2Cportal#add-the-code-to-connect-to-azure-sql-database). If you're using `SqlClient` or ADO.NET data classes, you can start at [Add the code to connect to Azure SQL Database](/azure/azure-sql/database/azure-sql-dotnet-quickstart?view=azuresql&preserve-view=true&tabs=visual-studio%2Cpasswordless%2Cservice-connector%2Cportal#add-the-code-to-connect-to-azure-sql-database).
+You can continue with the quickstarts for Azure SQL Database, but instead of starting from the beginning, you can start after the initial connection is set up. If you're using Entity Framework, you can start at [Add the code to connect to Azure SQL Database](/azure/azure-sql/database/azure-sql-dotnet-entity-framework-core-quickstart?view=azuresql&preserve-view=true&tabs=visual-studio%2Cservice-connector%2Cportal#add-the-code-to-connect-to-azure-sql-database). If you're using `SqlClient` or ADO.NET data classes, you can start at [Add the code to connect to Azure SQL Database](/azure/azure-sql/database/azure-sql-dotnet-quickstart?view=azuresql&preserve-view=true&tabs=visual-studio%2Cpasswordless%2Cservice-connector%2Cportal#add-the-code-to-connect-to-azure-sql-database).
 
 Your code won't exactly match what is used in the quickstarts, which use a different way of getting the connection string. The connection strings are secrets and are securely stored as explained in [Safe storage of app secrets in development in ASP.NET Core](/aspnet/core/security/app-secrets?tabs=windows). In particular, to read the connection string from the secrets store, you can add code as in [Read the secret via the configuration API](/aspnet/core/security/app-secrets?tabs=windows#read-the-secret-via-the-configuration-api). In ASP.NET Core projects, the connection string created by Connected Services is available in a configuration object. You can access it by a property on the `WebApplicationBuilder` class (`builder` in many project templates), as in the following example:
 
