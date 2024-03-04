@@ -5,12 +5,12 @@ ms.author: amast
 manager: shve
 ms.date: 07/13/2022
 ms.topic: overview
-description: Explore the full range of benefits available with your Visual Studio subscriptions from the Subscriptions Portal, including tools, services, and partner offers.
+description: Explore the full range of benefits available with your Visual Studio subscriptions from the subscriber portal, including tools, services, and partner offers.
 ---
 
 # Using the subscriber portal - my.visualstudio.com
 
-The Visual Studio Subscriptions Portal, [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs), is your all-in-one resource to take advantage of the full range of benefits provided through your Visual Studio subscription.
+The Visual Studio subscriber portal, [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs), is your all-in-one resource to take advantage of the full range of benefits provided through your Visual Studio subscription.
 
 Sign in to the portal with the identity associated with your subscription(s).  This may be your Microsoft Account (MSA) or an email address provided to you by an organization, such as your employer or school.  You can now also sign in with your GitHub credentials.
 
