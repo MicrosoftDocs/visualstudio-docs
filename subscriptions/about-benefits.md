@@ -41,7 +41,7 @@ For more information about individual benefits, check out the corresponding arti
 
 ## Benefits that become temporarily unavailable
 
-While it's rare, sometimes technical issues can make a benefit unavailable for a short time. In those cases, we change the benefit tile in the [Visual Studio Subscriptions portal](https://my.visualstudio.com/benefits) to indicate the benefit is "Temporarily Unavailable".  When the issue is resolved, we restore the tile and the benefit is available.
+While it's rare, sometimes technical issues can make a benefit unavailable for a short time. In those cases, we change the benefit tile in the [Visual Studio subscriber portal](https://my.visualstudio.com/benefits) to indicate the benefit is "Temporarily Unavailable".  When the issue is resolved, we restore the tile and the benefit is available.
 
 ## Support resources
 
