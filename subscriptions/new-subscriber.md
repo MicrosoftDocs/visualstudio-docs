@@ -3,14 +3,14 @@ title: Get started with your new Visual Studio subscription
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 11/28/2023
+ms.date: 03/05/2024
 ms.topic: how-to
 description:  Learn how to get started with your new Visual Studio subscription
 ---
 
 # You have a new Visual Studio subscription.  What now? 
 
-Congratulations on your new Visual Studio subscription.  You now have access to the most comprehensive set of tools and resources to speed up development, promote collaboration anywhere, and innovative on any platform.  If this subscription is your first, you may not be sure how to get started.  This article introduces you to the subscriber portal at [my.visualstudio.com](https://my.visualstudio.com), and help you get started with some of the most popular benefits included in your subscription. 
+Congratulations on your new Visual Studio subscription.  You now have access to the most comprehensive set of tools and resources to speed up development, promote collaboration anywhere, and innovative on any platform.  If this subscription is your first, you may not be sure how to get started.  This article introduces you to the subscription portal at [my.visualstudio.com](https://my.visualstudio.com), and help you get started with some of the most popular benefits included in your subscription. 
 
 ## How to sign in to the portal
 Signing in to the portal is simple.  Just connect to [https://my.visualstudio.com](https://my.visualstudio.com) using the email address to which the subscription is assigned.  Which email address you use can depend on how you got the subscription.
