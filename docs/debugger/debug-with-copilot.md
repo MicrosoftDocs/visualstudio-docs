@@ -111,7 +111,7 @@ The following simple example shows how to get AI assistance using the inline Cha
 
    If Copilot has a suggested fix for your code, it shows you. If not, you can ask Copilot for a code suggestion.
 
-1. In this example, scroll to the end of the Copilot answer and select the follow-up question at the end of the inline Chat window.
+1. In this example, scroll to the end of the Copilot answer and select the follow-up question at the end of the inline Chat window, "How can I handle the case when no arguments are passed to the program?"
 
    ![Screenshot of Copilot follow-up question.](../debugger/media/vs-2022/debug-with-copilot-inline-chat-generated-question.png)
 
