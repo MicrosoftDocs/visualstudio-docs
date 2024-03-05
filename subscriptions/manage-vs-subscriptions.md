@@ -3,16 +3,16 @@ title:  Manage Visual Studio Subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 11/28/2023
+ms.date: 03/05/2024
 ms.topic: conceptual
 description: Explore management tasks for your Visual Studio subscriptions, including renewal, transfer, profile changes, and setting preferences.
 ---
 # Managing subscriptions
 
-The Visual Studio [Subscriber Portal](https://my.visualstudio.com) gives you the ability to manage all your subscriptions and program memberships in a single place. You can make changes to your profile, use all of the benefits included with your subscriptions, and switch between subscriptions quickly and easily.
+The Visual Studio [subscription portal](https://my.visualstudio.com) gives you the ability to manage all your subscriptions and program memberships in a single place. You can make changes to your profile, use all of the benefits included with your subscriptions, and switch between subscriptions quickly and easily.
 
 > [!NOTE]
-> Visual Studio Subscriptions [subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) do not support [GCC High tenants](https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization will need to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/). 
+> Visual Studio Subscriptions [subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) do not support [GCC High tenants](https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization will need to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/). 
 
 ## Managing multiple subscriptions
 
@@ -33,7 +33,7 @@ On the Benefits page, the subscription in use is displayed in the drop-down list
 
 ### If your subscription isn't visible...
 
-+ It could be expired. Only active subscriptions are displayed in the Subscriber Portal.
++ It could be expired. Only active subscriptions are displayed in the subscription portal.
 + It could be associated with a different email address. If you have multiple subscriptions and they're assigned to different email addresses, you only see one at a time.  To switch to a different subscription, sign out of the portal and sign in with the email associated with the desired subscription.  
 + If your company buys subscriptions through a Volume License, your admin could have not assigned a subscription to you, or could have reassigned your subscription to another user.
 
@@ -64,7 +64,7 @@ The subscriptions portal lets you create and manage a profile, making subscripti
 
 You can easily change the contact information and preferences in your profile.
 
-1. Select your name in the upper right corner of the Subscriber Portal.
+1. Select your name in the upper right corner of the subscription portal.
 2. Select the **Edit profile** button.
 3. On the **About** tab, you can change your name, email, country/region, profile picture and contact preferences. On the **Preferences** tab, you can select your preferred language, date and time patterns, time zone, and user interface theme.
 4. When your changes are done, select **Save**.
@@ -85,7 +85,7 @@ Even if both accounts use the same email address, you need to add your work/scho
 
 To add an alternate account:
 
-1. Sign in to the [Subscriber Portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) with your Microsoft Account (MSA).
+1. Sign in to the [subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) with your Microsoft Account (MSA).
 2. Select the **Subscriptions** tab.
 3. Under **Alternate account**, choose **Add alternate account**.
 4. Enter your work/school account email address and select **Add**.
