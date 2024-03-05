@@ -1,7 +1,7 @@
 ---
 title: Debug with GitHub Copilot
 description: Use Copilot to help debug your apps and provide performance insights.
-ms.date: 02/14/2024
+ms.date: 03/04/2024
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -19,12 +19,16 @@ monikerRange: '>= vs-2022'
 ---
 # Debug your app with GitHub Copilot in Visual Studio
 
-[**GitHub Copilot**](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs) and [**GitHub Copilot Chat**](https://aka.ms/VSXGHCopilot) extensions in Visual Studio enable many interactive debugging scenarios, including AI-assisted chat for debugging questions related to your code. Copilot understands call stacks, frames, variable names, and values. As a result, you can ask detailed questions to the debugger-aware Copilot. In addition, Copilot provides an **Ask Copilot** link for AI-assisted help focused on the following scenarios:
+In this article, you'll learn how to debug more efficiently using GitHub Copilot. Copilot understands call stacks, frames, variable names, and values. As a result, you can interact with the debugger-aware AI to ask detailed questions related to your code and to debugging issues in general.
+
+In addition, Copilot provides more extended help for targeted scenarios including the following:
 
 - Exceptions
 - Auto Insights for CPU Usage
 
-In this article, you'll learn how to debug more efficiently using the Copilot Chat extension and the **Ask Copilot** link.
+To get AI assistance While you're debugging in these scenarios, look for the **Ask Copilot** button.
+
+![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png)
 
 For more information on the GitHub Copilot extension in Visual Studio, see [About the GitHub Copilot extension for Visual Studio](../ide/visual-studio-github-copilot-extension.md).
 
@@ -39,6 +43,9 @@ To get started, you need:
 
    > [!NOTE]
    > If you experience authentication issues after installing the extension, see [Troubleshooting authentication issues with GitHub Copilot Chat](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-authentication-issues-with-github-copilot-chat).
+
+## Get AI assistance while debugging
+
 
 ## Get AI assistance for an exception
 
