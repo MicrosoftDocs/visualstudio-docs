@@ -1,7 +1,7 @@
 ---
 title: Debug with GitHub Copilot
 description: Use Copilot to help debug your apps and provide performance insights.
-ms.date: 02/14/2024
+ms.date: 03/04/2024
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -17,14 +17,17 @@ manager: jmartens
 ms.subservice: ai-tools
 monikerRange: '>= vs-2022'
 ---
+
 # Debug your app with GitHub Copilot in Visual Studio
 
-[**GitHub Copilot**](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs) and [**GitHub Copilot Chat**](https://aka.ms/VSXGHCopilot) extensions in Visual Studio enable many interactive debugging scenarios, including AI-assisted chat for debugging questions related to your code. Copilot understands call stacks, frames, variable names, and values. As a result, you can ask detailed questions to the debugger-aware Copilot. In addition, Copilot provides an **Ask Copilot** link for AI-assisted help focused on the following scenarios:
+In this article, you'll learn how to debug more efficiently using GitHub Copilot. Copilot can provide code fixes along with in-depth analysis and explanations of how code works. It helps with proposed fixes to bugs, and explains things such as exceptions. Copilot understands call stacks, frames, variable names, and values. As a result, you can interact with the debugger-aware AI to ask detailed questions related to your code and to debugging issues in general.
+
+In addition, Copilot provides more precise help for a few targeted scenarios including the following:
 
 - Exceptions
 - Auto Insights for CPU Usage
 
-In this article, you'll learn how to debug more efficiently using the Copilot Chat extension and the **Ask Copilot** link.
+To get AI assistance While you're debugging in these scenarios, look for the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button.
 
 For more information on the GitHub Copilot extension in Visual Studio, see [About the GitHub Copilot extension for Visual Studio](../ide/visual-studio-github-copilot-extension.md).
 
@@ -40,9 +43,12 @@ To get started, you need:
    > [!NOTE]
    > If you experience authentication issues after installing the extension, see [Troubleshooting authentication issues with GitHub Copilot Chat](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-authentication-issues-with-github-copilot-chat).
 
-## Get AI assistance for an exception
+## Get AI assistance to debug your app
 
-The following simple example shows how to get AI assistance when you encounter an exception and how to quickly update your code based on AI-suggested fixes.
+The following simple example shows how to get AI assistance using the inline Chat view.
+
+> [!NOTE]
+> You can also get help using the separate Chat window by selecting **View > GitHub Copilot Chat**. For more information, see [What is the GitHub Copilot Chat extension for Visual Studio?](../ide/visual-studio-github-copilot-chat.md).
 
 ### Start a debugging session
 
@@ -76,7 +82,53 @@ The following simple example shows how to get AI assistance when you encounter a
     }
     ```
 
+1. Right-click the following statement and choose **Breakpoint** > **Insert Breakpoint**.
+
+   ```csharp
+   int value = Int32.Parse(args[0]);
+   ```
+
 1. Press **F5** or select **Start Debugging** from the **Debug** menu.
+
+   The app pauses at the breakpoint. The Autos window shows that the args variable has a value of `string[0]`.
+
+   ![Screenshot of Autos window.](../debugger/media/vs-2022/debug-with-copilot-autos-window.png)
+
+1. Right-click in the code and choose **Ask Copilot** to open the inline Chat view.
+
+1. Type the following question in the inline Chat view:
+
+   ```
+   Why does the args variable have a value of string[0]?
+   ```
+
+   ![Screenshot of inline Copilot Chat.](../debugger/media/vs-2022/debug-with-copilot-inline-chat.png)
+
+   When you press **Enter**, Copilot provides an answer based on its understanding of your code. (You might get a different response than what is shown here.)
+
+   ![Screenshot of Copilot answered question.](../debugger/media/vs-2022/debug-with-copilot-inline-chat-answer.png)
+
+   If Copilot has a suggested fix for your code, it shows you. If not, you can ask Copilot for a code suggestion.
+
+1. In this example, scroll to the end of the Copilot answer and select the follow-up question at the end of the inline Chat window, "How can I handle the case when no arguments are passed to the program?"
+
+   ![Screenshot of Copilot follow-up question.](../debugger/media/vs-2022/debug-with-copilot-inline-chat-generated-question.png)
+
+   Copilot shows a suggested fix to your code.
+
+   ![Screenshot of Copilot suggested fix.](../debugger/media/vs-2022/debug-with-copilot-inline-chat-suggested-fix.png)
+
+   If you want to apply the code fix, choose **Accept**.
+
+1. Choose **Cancel** so we can continue learning other features of Copilot in the next section.
+
+## Get AI assistance for an exception
+
+The following simple example shows how to get AI assistance when you encounter an exception and how to quickly update your code based on AI-suggested fixes.
+
+### Start a debugging session
+
+- While paused in the debugger using the same sample app, press **F11** or **Debug** > **Step Into** to execute the current statement.
 
    An `IndexOutOfRangeException` occurs and the app pauses, showing the exception.
 
@@ -90,7 +142,7 @@ The following simple example shows how to get AI assistance when you encounter a
 
    If it's not already open, the Copilot Chat window appears and provides an assessment of the error and why it occurred. In this example, Copilot identifies a suggested code fix, a button to copy code, and a **Preview** button for the code fix.
 
-   If you have questions about the exception, ask them in the Ask Copilot text box. Copilot understands debugging concepts such as call stacks, frames, variable names, and values.
+   If you have questions about the exception, ask them in the Ask Copilot text box.
 
 1. Select the **Preview** button.
 
@@ -108,7 +160,7 @@ The following simple example shows how to get AI assistance when you encounter a
 
 ## Get AI assistance for auto insights
 
-In addition to interactive debugging assistance, Copilot provides detailed information in the CPU Usage auto insights. It provides information and insights for specific methods and properties, such as `String.Concat` and many other methods. With Copilot, ask questions about functions on the identified hot paths in your code, which can help you produce more efficient or cost-effective code.
+In addition to interactive debugging assistance, Copilot provides detailed information in the CPU Usage [Auto Insights](../profiling/cpu-insights.md). It provides information and insights related to a set of specific performance insights. With Copilot, ask questions about functions on the identified hot paths in your code, which can help you produce more efficient or cost-effective code.
 
 When the CPU Usage tool provides auto insights in the Top Insights section, select **Ask Copilot** to learn from Copilot and start asking questions.
 
