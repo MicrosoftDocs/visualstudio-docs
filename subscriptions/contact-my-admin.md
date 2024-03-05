@@ -16,14 +16,14 @@ If your Visual Studio subscription is provided to you by your work or school, ch
 + Enabling access to software downloads
 + Other functions related to your subscription
 
-Many organizations are large and complex, so you may not be aware of who your admin is.  We provide a feature in the subscriber portal to assist you with contacting your admin(s).   
+Many organizations are large and complex, so you may not be aware of who your admin is.  We provide a feature in the subscription portal to assist you with contacting your admin(s).   
 
 ## How to contact your admin
 
-1. Sign in to the subscriber portal at <https://my.visualstudio.com>
+1. Sign in to the subscription portal at <https://my.visualstudio.com>
 2. Select the **Contact my Admin** button. 
    > [!div class="mx-imgBorder"]
-   > ![Screenshot of the benefits page in the subscriber portal.  The Contact my admin button is highlighted.](_img/contact-my-admin/contact-my-admin-button.png "The Contact My Admin button allows you to contact your company's subscription admins.")
+   > ![Screenshot of the benefits page in the subscription portal.  The Contact my admin button is highlighted.](_img/contact-my-admin/contact-my-admin-button.png "The Contact My Admin button allows you to contact your company's subscription admins.")
 0. Enter the message for your admin.
 0. If you'd like to receive a copy of the message sent to your admin, choose the **Send me a copy** checkbox. 
 0. Finally, select **Send**.
