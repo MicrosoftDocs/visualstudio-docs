@@ -3,7 +3,7 @@ title: Admin portal changes for expired Visual Studio subscription agreements
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 11/02/2023
+ms.date: 03/05/2023
 ms.topic: conceptual
 description: Learn what happens for admins when an agreement expires
 ---
@@ -36,7 +36,7 @@ During this phase, both admins and subscribers continue to have access to their 
 
 When your agreement reaches the end of the expired period:
 + Admins and super admins lose access to the expired agreement(s) in the [admin portal](https://manage.visualstudio.com).  They aren't able to make any changes to subscriptions within the agreement.  (Access to any other current agreements in the admin portal remains unaffected.  The [Get help](https://manage.visualstudio.com/gethelp) page continues to be available.)
-+ Subscribers lose access to the expired subscription in the [subscriber portal](https://my.visualstudio.com).  If they have any other subscriptions assigned to them as part of another agreement, those subscriptions aren't affected. Thirty days after a Visual Studio subscription is disabled, any Azure subscriptions that rely on the Visual Studio subscription are removed. It's vital that subscribers move their Azure assets to another valid subscription to retain them.  Azure has its own notification process that helps guide subscribers in this case.  
++ Subscribers lose access to the expired subscription in the [subscription portal](https://my.visualstudio.com).  If they have any other subscriptions assigned to them as part of another agreement, those subscriptions aren't affected. Thirty days after a Visual Studio subscription is disabled, any Azure subscriptions that rely on the Visual Studio subscription are removed. It's vital that subscribers move their Azure assets to another valid subscription to retain them.  Azure has its own notification process that helps guide subscribers in this case.  
 
 ## Preserving your information
 
