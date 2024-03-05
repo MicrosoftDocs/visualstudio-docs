@@ -27,9 +27,7 @@ In addition, Copilot provides more precise help for a few targeted scenarios inc
 - Exceptions
 - Auto Insights for CPU Usage
 
-To get AI assistance While you're debugging in these scenarios, look for the **Ask Copilot** button.
-
-![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png)
+To get AI assistance While you're debugging in these scenarios, look for the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button.
 
 For more information on the GitHub Copilot extension in Visual Studio, see [About the GitHub Copilot extension for Visual Studio](../ide/visual-studio-github-copilot-extension.md).
 
