@@ -3,7 +3,7 @@ title:  Set preferences in the Visual Studio subscriptions admin portal
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 03/23/2023
+ms.date: 03/05/2024
 ms.topic: conceptual
 description: Learn how to set preferences for language, contacts, subscription level and others in the Administration Portal
 ---
@@ -40,10 +40,10 @@ If there's only one agreement for your email address, the drop-down is disabled.
 
 ### Contact email address
 
-This preference provides a way for your subscribers to reach out to admins by using the **Contact my Admin** button on the [subscriptions page](https://my.visualstudio.com/subscriptions) of the subscriber portal.  If this preference is left blank, subscriber messages are forwarded to all admins and super admins on the agreement.  We recommend using a group email alias or security group to tailor your audience for this contact email. You can also choose to input an individual’s email address if you prefer.
+This preference provides a way for your subscribers to reach out to admins by using the **Contact my Admin** button on the [subscriptions page](https://my.visualstudio.com/subscriptions) of the subscription portal.  If this preference is left blank, subscriber messages are forwarded to all admins and super admins on the agreement.  We recommend using a group email alias or security group to tailor your audience for this contact email. You can also choose to input an individual’s email address if you prefer.
 
 > [!NOTE]
-> The email address you list here **won't** be provided to subscribers.  When a subscriber submits a **Contact my Admin** request in the subscriber portal, the message will be forwarded to the alias without exposing it to the subscriber. 
+> The email address you list here **won't** be provided to subscribers.  When a subscriber submits a **Contact my Admin** request in the subscription portal, the message will be forwarded to the alias without exposing it to the subscriber. 
 
 ### Default subscription level
 
@@ -76,7 +76,7 @@ A:  No - while you can determine which admins are contacted using a security gro
 
 A:  Since your response comes from whatever email client you're using, the response the subscriber receives sees whatever email address you're using.  So, if you're responding from a group alias, they see the group alias.  If you respond from your own email address, they see that.  
 
-### Q: Where can I find out more about the **Contact my Admin** feature in the subscriber portal?
+### Q: Where can I find out more about the **Contact my Admin** feature in the subscription portal?
 
 A:  Check out our [Contact my Admin](contact-my-admin.md) article. 
 

@@ -33,7 +33,7 @@ A UPN mismatch can be encountered when a company has a Microsoft Entra ID set up
 2. Select your name in the upper right corner of the page.  Your profile opens.  Verify that the sign-in email address listed in your profile matches the address you used to sign in.  If it doesn't, your UPN is mismatched and you aren't able to view your subscription. 
 
 > [!div class="mx-imgBorder"]
-> ![Sign in email address](_img//aliasing/sign-in-email.png "Screenshot of the subscriber portal header. The username currently signed in is highlighted.")
+> ![Sign in email address](_img//aliasing/sign-in-email.png "Screenshot of the subscription portal header. The username currently signed in is highlighted.")
 
 #### How to fix a UPN mismatch
 
@@ -45,7 +45,7 @@ A UPN mismatch can be encountered when a company has a Microsoft Entra ID set up
 
 0. Save the changes 
 
-0. Inform the subscriber to sign out of the subscriber portal and access again using the UPN 
+0. Inform the subscriber to sign out of the subscription portal and access again using the UPN 
 
 ### Personal account aliasing issue
 
