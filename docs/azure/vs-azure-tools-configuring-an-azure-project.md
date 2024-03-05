@@ -8,6 +8,7 @@ ms.topic: how-to
 ms.date: 03/06/2017
 ms.author: ghogen
 ---
+
 # Configure an Azure cloud service project with Visual Studio
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
@@ -23,6 +24,7 @@ You can configure an Azure cloud service project, depending on your requirements
 - [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## Steps to configure an Azure cloud service project
+
 1. Open or create a cloud service project in Visual Studio
 
 1. In **Solution Explorer**, right-click the project, and, from the context menu, select **Properties**.
@@ -44,4 +46,5 @@ You can configure an Azure cloud service project, depending on your requirements
 1. From the Visual Studio toolbar, select **Save**.
 
 ## Related content
+
 - [Configure an Azure project using multiple service configurations](vs-azure-tools-multiple-services-project-configurations.md)

@@ -1,5 +1,5 @@
 ---
-title: Find & provision Azure resources
+title: Find and provision Azure resources
 description: Learn about how you can provision Azure resources, browse existing Azure resources, and deploy applications to Azure services with Visual Studio.
 author: ghogen
 manager: jmartens
@@ -9,7 +9,8 @@ ms.date: 10/19/2023
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
-# Find and provision Azure resources in Visual Studio 
+
+# Find and provision Azure resources in Visual Studio
 
 You can work with Azure in Visual Studio using many capabilities designed to make development and deployment to Azure easier.
 
@@ -39,7 +40,7 @@ You can use **Quick Launch** to find the Visual Studio IDE feature to connect to
 
 The following screenshot shows a typical Visual Studio dialog where you can browse and search existing Azure resources.
 
-1. You can filter by Azure subscription using the drop-down
+1. You can filter by Azure subscription using the dropdown list
 2. You can group the found instances either by Resource Group or by Resource Type (which effectively gives you a flat list)
 3. You can search by the resource name
 
@@ -72,7 +73,7 @@ Use Connected Services to connect your application to local emulators and other 
 ![Screenshot showing local Azure emulators.](./media/vs-2022/local-azure-emulators.png)
 :::moniker-end
 
-## Debug Azure Function projects offline without cost
+## Debug Azure function projects offline without cost
 
 Visual Studio will seamlessly emulate the Azure Functions service locally when you start debugging. You don't even have to be signed in with an Azure subscription.
 
