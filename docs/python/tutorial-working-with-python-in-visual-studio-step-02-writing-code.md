@@ -12,13 +12,13 @@ ms.subservice: python
 # CustomerIntent: As a developer, I want to write Python code in Visual Studio so I can access Intellisense features and run my Python projects.
 ---
 
-# Tutorial: Write and run Python code in Visual Studio (Step 2)
+# Tutorial: Write and run Python code in Visual Studio
 
-This article presents step 2 in the tutorial about working with Python in Visual Studio.
+This article presents step 2 in the tutorial series _Work with Python in Visual Studio_.
 
 The Visual Studio interactive development environment (IDE) provides various windows that support different development tasks. Step 1 in the tutorial describes how to manage project files in the **Solution Explorer** window. In step 2, you use the _editor_ window to work with the _contents_ of files, like source code. The editor is contextually aware of the type of file you're editing. The editor also recognizes the programming language (based on the file extension), and offers features appropriate to that language such as syntax coloring and auto-completion by using IntelliSense.
 
-In this tutorial, you learn how to:
+In Step 2 of the tutorial, you learn how to:
 
 > [!div class="checklist"]
 > - Write Python code in the editor
@@ -98,7 +98,7 @@ After you have some code in place, you're ready to try running your program. You
 
 1. When you run the program, a console window opens to show the results. This window is similar to what you see when you run a Python interpreter with the Python file (_PythonApplication1.py_) from the command line.
 
-   :::image type="content" source="media/tutor-python-2-first-run-program-output.pngg" alt-text="Screenshot that shows the console window with output for the running program in Visual Studio." border="false" lightbox="media/tutor-python-2-first-run-program-output.png":::
+   :::image type="content" source="media/tutor-python-2-first-run-program-output.png" alt-text="Screenshot that shows the console window with output for the running program in Visual Studio." border="false" lightbox="media/tutor-python-2-first-run-program-output.png":::
 
 1. To close the console window, select any key. You return to the Visual Studio editor.
 

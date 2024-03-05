@@ -107,12 +107,10 @@ Take some time to familiarize yourself with **Solution Explorer**. This window i
    
    A solution, which is shown as an _.sln_ file on disk, is a container for one or more related projects. For example, if you write a C++ extension for your Python application, that C++ project can be in the same solution. The solution might also contain a project for a web service, and projects for dedicated test programs.
    
-1. Locate the item directly under the solution name. This item is your project (**2**). Your project name is the name you entered in the **Create a new project** dialog.
+1. Locate the item directly under the solution name. This item is your project (**2**). Your project name is the name you entered in the **Create a new project** dialog. Visual Studio uses bold to identify the currently selected project in your solution.
 
    On disk, a _.pyproj_ file in your project folder represents the project.
 
-   When you have more than one project, Visual Studio uses bold to identify the currently selected project in your solution.
-   
 1. Toggle the **Expand/Collapse** arrow next to the project name to view your project source files. 
 
    Visual Studio uses bold to identify which file is the _Start File_ for the program. In this example, you have only a single _.py_ file. (**3**)
