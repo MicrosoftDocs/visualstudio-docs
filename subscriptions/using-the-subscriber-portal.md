@@ -1,21 +1,21 @@
 ---
-title: Get started in the Subscriber Portal
+title: Get started in the subscription portal
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 07/13/2022
+ms.date: 03/05/2024
 ms.topic: overview
-description: Explore the full range of benefits available with your Visual Studio subscriptions from the subscriber portal, including tools, services, and partner offers.
+description: Explore the full range of benefits available with your Visual Studio subscriptions from the subscription portal, including tools, services, and partner offers.
 ---
 
-# Using the subscriber portal - my.visualstudio.com
+# Using the subscription portal - my.visualstudio.com
 
-The Visual Studio subscriber portal, [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs), is your all-in-one resource to take advantage of the full range of benefits provided through your Visual Studio subscription.
+The Visual Studio subscription portal, [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs), is your all-in-one resource to take advantage of the full range of benefits provided through your Visual Studio subscription.
 
 Sign in to the portal with the identity associated with your subscription(s).  This may be your Microsoft Account (MSA) or an email address provided to you by an organization, such as your employer or school.  You can now also sign in with your GitHub credentials.
 
 > [!NOTE]
-> Visual Studio Subscriptions [subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) do not support [GCC High tenants](https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization will need to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/). 
+> Visual Studio [subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) do not support [GCC High tenants](https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization will need to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/). 
 
 Learn how to:
 + [Sign in with your MSA](sign-in-msa.md)
