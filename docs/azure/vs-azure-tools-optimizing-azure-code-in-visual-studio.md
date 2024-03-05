@@ -391,31 +391,6 @@ Store connection strings in the configuration files or Azure environments.
 
 For information on using configurations files such as web.config or app.config, see [ASP.NET Web Configuration Guidelines](/aspnet/web-forms/overview/deployment/visual-studio-web-deployment/web-config-transformations). For information on how Azure environment variables work, see [Azure Web Sites: How Application Strings and Connection Strings Work](https://azure.microsoft.com/blog/windows-azure-web-sites-how-application-strings-and-connection-strings-work/). For information on storing connection string in source control, see [avoid putting sensitive information such as connection strings in files that are stored in source code repository](/aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/source-control).
 
-## Use diagnostics configuration file
-### ID
-AP5000
-
-### Description
-Instead of configuring diagnostics settings in your code such as by using the Microsoft.WindowsAzure.Diagnostics programming API, you should configure diagnostics settings in the diagnostics.wadcfg file. (Or, diagnostics.wadcfgx if you use Azure SDK 2.5). By doing this, you can change diagnostics settings without having to recompile your code.
-
-Please share your ideas and feedback at [Azure Code Analysis feedback](https://social.msdn.microsoft.com/Forums/en-US/home).
-
-### Reason
-Before Azure SDK 2.5 (which uses Azure diagnostics 1.3), Azure Diagnostics (WAD) could be configured by using several different methods: adding it to the configuration blob in storage, by using imperative code, declarative configuration, or the default configuration. However, the preferred way to configure diagnostics is to use an XML configuration file (diagnostics.wadcfg or diagnostics.wadcfgx for SDK 2.5 and later) in the application project. In this approach, the diagnostics.wadcfg file completely defines the configuration and can be updated and redeployed at will. Mixing the use of the diagnostics.wadcfg configuration file with the programmatic methods of setting configurations by using the [DiagnosticMonitor](/previous-versions/azure/reference/ee758597(v=azure.100))or [RoleInstanceDiagnosticManager](/previous-versions/azure/reference/ee773157(v=azure.100))classes can lead to confusion. See [Initialize or Change Azure Diagnostics Configuration](/previous-versions/azure/hh411537(v=azure.100)) for more information.
-
-Beginning with WAD 1.3 (included with Azure SDK 2.5), it’s no longer possible to use code to configure diagnostics. As a result, you can only provide the configuration when applying or updating the diagnostics extension.
-
-### Solution
-Use the diagnostics configuration designer to move diagnostic settings to the diagnostics configuration file (diagnostics.wadcfg or diagnostics.wadcfgx for SDK 2.5 and later). It’s also recommended that you install [Azure SDK 2.5](https://social.msdn.microsoft.com/Forums/en-US/home) and use the latest diagnostics feature.
-
-1. On the shortcut menu for the role that you want to configure, choose Properties, and then choose the Configuration tab.
-2. In the **Diagnostics** section, make sure that the **Enable Diagnostics** check box is selected.
-3. Choose the **Configure** button.
-
-   ![Accessing the Enable Diagnostics option](./media/vs-azure-tools-optimizing-azure-code-in-visual-studio/IC796660.png)
-
-   See [Configuring Diagnostics for Azure Cloud Services and Virtual Machines](vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md) for more information.
-
 ## Avoid declaring DbContext objects as static
 ### ID
 AP6000

@@ -55,10 +55,6 @@ When you publish your Azure application, you can do one of the following tasks:
 
 1. (Optional) To cancel the deployment process, on the shortcut menu for the line item in the activity log, choose **Cancel and remove**. This command stops the deployment process and deletes the deployment environment from Azure. To remove the environment after deployment, use the Azure portal.
 
-1. (Optional) After your role instances have started, Visual Studio automatically shows the deployment environment in the **Cloud Services** node in Server Explorer. From here, you can see the status of the individual role instances. See [Managing Azure resources with Cloud Explorer](vs-azure-tools-resources-managing-with-cloud-explorer.md).The following illustration shows the role instances while they are still in the Initializing state:
-
-    ![VST_DeployComputeNode](./media/vs-azure-tools-publishing-a-cloud-service/IC744134.png)
-
 ## Update a web role as part of the development and testing cycle
 
 If your app’s back end infrastructure is stable, but the web roles need more frequent updating, you can use Web Deploy to update only a web role in your project. Web Deploy is handy when you don’t want to rebuild and redeploy the back end worker roles, or if you have multiple web roles and you want to update only one of the web roles.
@@ -110,6 +106,8 @@ The following procedure assumes that you are using the **Publish Azure Applicati
 
 ### Make web deploy secure
 
+:::moniker range="<=vs-2019"
+
 1. Web Deploy uses an untrusted, self-signed certificate by default, which is not recommended for uploading sensitive data. If you need to secure this process for sensitive data, you can add an SSL certificate to be used for Web Deploy connections. This certificate needs to be a trusted certificate, which you obtain from a certificate authority (CA).
 
     To make Web Deploy secure for each virtual machine for each of your web roles, you must upload the trusted certificate that you want to use for web deploy to the Azure portal. This certificate makes sure that the certificate is added to the virtual machine that is created for the web role when you publish your application.
@@ -122,6 +120,25 @@ The following procedure assumes that you are using the **Publish Azure Applicati
 
       > [!NOTE]
       > If you add a trusted SSL certificate, the yellow warning triangle no longer appears in the **Publish Wizard**.
+
+:::moniker-end
+
+:::moniker range=">=vs-2022"
+
+1. Web Deploy uses an untrusted, self-signed certificate by default, which is not recommended for uploading sensitive data. If you need to secure this process for sensitive data, you can add an SSL certificate to be used for Web Deploy connections. This certificate needs to be a trusted certificate, which you obtain from a certificate authority (CA).
+
+    To make Web Deploy secure for each virtual machine for each of your web roles, you must upload the trusted certificate that you want to use for web deploy to the Azure portal. This certificate makes sure that the certificate is added to the virtual machine that is created for the web role when you publish your application.
+
+1. To add a trusted SSL certificate to IIS to use for remote connections, follow these steps:
+
+   a. Connect to the virtual machine that is running the web role using remote desktop. For detailed steps about how to connect to the virtual machine, see [Enable Remote Desktop Connection for a Role in Azure Cloud Services using Visual Studio](/azure/cloud-services/cloud-services-role-enable-remote-desktop-visual-studio).
+
+   b. To add an SSL certificate, open the management service in IIS Manager. In IIS Manager, enable SSL by opening the **Bindings** link in the **Action** pane. The **Add Site Binding** dialog box appears. Choose **Add**, and then choose HTTPS in the **Type** drop-down list. In the **SSL certificate** list, choose the SSL certificate that you had signed by a CA and that you uploaded to the Azure portal. For more information, see [Configure Connection Settings for the Management Service](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770458(v=ws.10)).
+
+      > [!NOTE]
+      > If you add a trusted SSL certificate, the yellow warning triangle no longer appears in the **Publish Wizard**.
+
+:::moniker-end
 
 ## Include files in the service package
 

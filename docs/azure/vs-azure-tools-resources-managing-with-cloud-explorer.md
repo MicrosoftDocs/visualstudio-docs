@@ -31,7 +31,7 @@ Like the [Azure portal](https://portal.azure.com), Cloud Explorer is built on th
 
 ## Prerequisites
 
-* Visual Studio 2017 or later (see [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)) with the **Azure workload** selected. You can also use an earlier version of Visual Studio with the Microsoft Azure SDK for .NET 2.9.
+* Visual Studio (see [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)) with the **Azure workload** selected.
 * [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 > [!NOTE]

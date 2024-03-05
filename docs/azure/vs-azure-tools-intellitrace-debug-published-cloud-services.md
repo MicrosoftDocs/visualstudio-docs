@@ -49,6 +49,8 @@ To enable IntelliTrace for an Azure application, you must create and publish the
 
 The IntelliTrace log is a circular log file of the maximum size specified in the IntelliTrace settings (the default size is 250 MB). IntelliTrace logs are collected to a file in the file system of the virtual machine. When you request the logs, a snapshot is taken at that point in time and downloaded to your local computer.
 
+:::moniker range="vs-2019"
+
 After the Azure cloud service has been published to Azure, you can determine if IntelliTrace has been enabled from the Azure node in **Server Explorer**, as shown in the following image:
 
 ![Server Explorer - IntelliTrace enabled](./media/vs-azure-tools-intellitrace-debug-published-cloud-services/IC744134.png)
@@ -72,6 +74,8 @@ You can continue to work in Visual Studio while the IntelliTrace logs are downlo
 > The IntelliTrace logs might contain exceptions that the framework generates and handles afterwards. Internal framework code generates these exceptions as a normal part of starting up a role, so you may safely ignore them.
 >
 >
+
+:::moniker-end
 
 ## Related content
 - [Options for debugging Azure cloud services](vs-azure-tools-debugging-cloud-services-overview.md)
