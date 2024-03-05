@@ -3,7 +3,7 @@ title: Purchase Visual Studio cloud subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 03/28/2023
+ms.date: 03/05/2024
 ms.topic: overview
 description: Purchase (rent) Visual Studio Professional or Visual Studio Enterprise on a month-to-month or annual basis, with no long-term contract.
 ---
@@ -41,13 +41,13 @@ You need to be a contributor or higher for an Azure subscription that was create
 
     If you don't want subscriptions assigned to yourself, clear **Assign this subscription to me**.
 
-5. Confirm and finish your purchase. If you assigned a subscription to yourself, you can visit the [Visual Studio subscriber portal](https://my.visualstudio.com)
+5. Confirm and finish your purchase. If you assigned a subscription to yourself, you can visit the [Visual Studio subscription portal](https://my.visualstudio.com)
 to start downloading software and using other subscriber benefits.
 
 > [!div class="mx-imgBorder"]
 > ![Finish purchase successfully](_img/buy-vs-subscriptions/buy-vs-sub-success.png "Screenshot of a monthly subscription purchase confirmation dialog showing the purchase of one subscription.")
 
-6. Select **View my subscription** to open the subscriber portal and begin using your subscription.
+6. Select **View my subscription** to open the subscription portal and begin using your subscription.
 
 If you purchased more than one subscription, you can proceed to the
     [Visual Studio Subscriptions Admin portal](https://manage.visualstudio.com) to assign subscriptions to others.  You may need to [add your new subscriptions](add-monthly-subs.md) to the Admin Portal if this purchase is your first.
