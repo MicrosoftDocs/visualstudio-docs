@@ -89,8 +89,6 @@
       href: vs-azure-tools-intellitrace-debug-published-cloud-services.md
     - name: Test the performance of a cloud service
       href: vs-azure-tools-performance-profiling-cloud-services.md
-    - name: Optimize your Azure code
-      href: vs-azure-tools-optimizing-azure-code-in-visual-studio.md
   - name: Deploy a cloud service to Azure
     items:
     - name: Migrate and Deploy a Web Application to an Azure Cloud Service
