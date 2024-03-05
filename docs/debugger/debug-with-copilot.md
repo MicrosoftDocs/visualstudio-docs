@@ -105,9 +105,23 @@ The following simple example shows how to get AI assistance using the inline Cha
 
    ![Screenshot of inline Copilot Chat.](../debugger/media/vs-2022/debug-with-copilot-inline-chat.png)
 
-   When you press **Enter**, Copilot provides an answer based on it's understanding of your code. (You might get a different response than what is shown here.)
+   When you press **Enter**, Copilot provides an answer based on its understanding of your code. (You might get a different response than what is shown here.)
 
    ![Screenshot of Copilot answered question.](../debugger/media/vs-2022/debug-with-copilot-inline-chat-answer.png)
+
+   If Copilot has a suggested fix for your code, it shows you. If not, you can ask Copilot for a code suggestion.
+
+1. In this example, scroll to the end of the Copilot answer and select the follow-up question at the end of the inline Chat window.
+
+   ![Screenshot of Copilot follow-up question.](../debugger/media/vs-2022/debug-with-copilot-inline-chat-generated-question.png)
+
+   Copilot shows a suggested fix to your code.
+
+   ![Screenshot of Copilot suggested fix.](../debugger/media/vs-2022/debug-with-copilot-inline-chat-suggested-fix.png)
+
+   If you want to apply the code fix, choose **Accept**.
+
+1. Choose **Cancel** so we can continue learning other features of Copilot in the next section.
 
 ## Get AI assistance for an exception
 
@@ -129,7 +143,7 @@ The following simple example shows how to get AI assistance when you encounter a
 
    If it's not already open, the Copilot Chat window appears and provides an assessment of the error and why it occurred. In this example, Copilot identifies a suggested code fix, a button to copy code, and a **Preview** button for the code fix.
 
-   If you have questions about the exception, ask them in the Ask Copilot text box. Copilot understands debugging concepts such as call stacks, frames, variable names, and values.
+   If you have questions about the exception, ask them in the Ask Copilot text box.
 
 1. Select the **Preview** button.
 
@@ -147,7 +161,7 @@ The following simple example shows how to get AI assistance when you encounter a
 
 ## Get AI assistance for auto insights
 
-In addition to interactive debugging assistance, Copilot provides detailed information in the CPU Usage auto insights. It provides information and insights for specific methods and properties, such as `String.Concat` and many other methods. With Copilot, ask questions about functions on the identified hot paths in your code, which can help you produce more efficient or cost-effective code.
+In addition to interactive debugging assistance, Copilot provides detailed information in the CPU Usage [Auto Insights](../profiling/cpu-insights.md). It provides information and insights related to a set of specific performance insights. With Copilot, ask questions about functions on the identified hot paths in your code, which can help you produce more efficient or cost-effective code.
 
 When the CPU Usage tool provides auto insights in the Top Insights section, select **Ask Copilot** to learn from Copilot and start asking questions.
 
