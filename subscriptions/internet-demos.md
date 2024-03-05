@@ -3,7 +3,7 @@ title: Internet demos via Terminal Services in Visual Studio subscriptions| 
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 05/24/2023
+ms.date: 03/05/2024
 ms.topic: conceptual
 description:  Learn how to use product keys to support internet demonstrations via Terminal Services and enable RDS access
 ---
@@ -16,7 +16,7 @@ This permission is in addition to dev/test rights, where Visual Studio subscribe
 
 ## Enabling RDS Access
 
-Visual Studio subscribers can increase the number of users who can access a Windows Server via RDS by entering a product key supplied in the [Product Keys](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) tab on the [subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs). To obtain a product key, connect to the Product Keys page and scroll down to the version of Windows Server you're running. Locate “Windows Server < version > R2 Remote Desktop Services < user or device > connections” and select the **Claim Key** link. For example, if you’re using RDS on Windows Server 2012 R2 and your deployment uses user CALs, choose “Windows Server 2012 Remote Desktop Services user connections (50)”.
+Visual Studio subscribers can increase the number of users who can access a Windows Server via RDS by entering a product key supplied in the [Product Keys](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) tab on the [subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs). To obtain a product key, connect to the Product Keys page and scroll down to the version of Windows Server you're running. Locate “Windows Server < version > R2 Remote Desktop Services < user or device > connections” and select the **Claim Key** link. For example, if you’re using RDS on Windows Server 2012 R2 and your deployment uses user CALs, choose “Windows Server 2012 Remote Desktop Services user connections (50)”.
 Five keys of each type are available for Windows Server 2008 R2, and each key supports 20 connections. For Windows Server 2012 R2, four keys for each type are provide and support 50 connections each.
 
 ## To enable more connections in Windows Server
