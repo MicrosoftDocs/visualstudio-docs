@@ -88,7 +88,7 @@ vs_enterprise.exe --layout c:\localVSlayout --config c:\myconfig.vsconfig --lang
 
 If you save a `*.vsconfig` file into your solution root directory and then open a solution, Visual Studio will automatically detect any missing components and will prompt you to install them.
 
-> [NOTE!]: If your `*.vsconfig` file contains extensions, then only those extensions that are hosted on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) will trigger the automatic "is-missing" detection and installation. If you would like this logic to include extensions that were installed from a non-Marketplace location, please provide details about your scenario here().
+> [NOTE!]: If your `*.vsconfig` file contains extensions, then only those extensions that are hosted on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) will trigger the automatic "is-missing" detection and installation. If you would like this logic to include extensions that were installed from a non-Marketplace location, please [provide details about your scenario here](https://developercommunity.visualstudio.com/t/post/10607414).
 
 ![Solution Explorer suggests additional components](../install/media/vs-2019/solution-explorer-config-file.png)
 
