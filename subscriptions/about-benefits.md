@@ -28,7 +28,7 @@ To make it easy to find the benefits that most interest you, we've grouped them 
 By default, all of your benefits are displayed when you visit <https://my.visualstudio.com/benefits>. However, you can filter the list by selecting any of the three categories.
 
    > [!div class="mx-imgBorder"]
-   > ![Filter the list of benefits by category](_img/about-benefits/categories.png "Screenshot of the benefits category picker on the subscriber portal.")
+   > ![Filter the list of benefits by category](_img/about-benefits/categories.png "Screenshot of the benefits category picker on the subscription portal.")
 
 ## Benefits and offers provided by partners
 
@@ -41,7 +41,7 @@ For more information about individual benefits, check out the corresponding arti
 
 ## Benefits that become temporarily unavailable
 
-While it's rare, sometimes technical issues can make a benefit unavailable for a short time. In those cases, we change the benefit tile in the [Visual Studio subscriber portal](https://my.visualstudio.com/benefits) to indicate the benefit is "Temporarily Unavailable".  When the issue is resolved, we restore the tile and the benefit is available.
+While it's rare, sometimes technical issues can make a benefit unavailable for a short time. In those cases, we change the benefit tile in the [Visual Studio subscription portal](https://my.visualstudio.com/benefits) to indicate the benefit is "Temporarily Unavailable".  When the issue is resolved, we restore the tile and the benefit is available.
 
 ## Support resources
 
