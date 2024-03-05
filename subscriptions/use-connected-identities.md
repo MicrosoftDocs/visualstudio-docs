@@ -3,7 +3,7 @@ title: Use connected identities in subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 11/02/2023
+ms.date: 03/05/2024
 ms.topic: conceptual
 robots: "noindex, nofollow"
 description: Work with connected identities such as Microsoft accounts and Microsoft Entra ID identities in Visual Studio subscriptions.
@@ -15,7 +15,7 @@ If you receive a Visual Studio subscription through your work or school, and you
 
 ## About connected IDs
 
-Organizations are increasingly moving to Microsoft Entra ID-based identities to provide improved security and support for automated management of subscriptions.  If your subscription uses an MSA such as an @outlook.com or other personal email address, your admin can change your sign-in email to your Microsoft Entra identity.  Switching  changes how you sign in to the subscriber portal at https://my.visualstudio.com.  It might not change how you access all of your benefits, however.  
+Organizations are increasingly moving to Microsoft Entra ID-based identities to provide improved security and support for automated management of subscriptions.  If your subscription uses an MSA such as an @outlook.com or other personal email address, your admin can change your sign-in email to your Microsoft Entra identity.  Switching  changes how you sign in to the subscription portal at https://my.visualstudio.com.  It might not change how you access all of your benefits, however.  
 
 If your admin connects your MSA and Microsoft Entra identities, you receive an email letting you know to start accessing your Visual Studio subscription with your Microsoft Entra identity instead of your MSA. 
 
@@ -23,7 +23,7 @@ If your admin connects your MSA and Microsoft Entra identities, you receive an e
 
 ## How to access benefits using Microsoft Entra identities
 
-After your admin connects your MSA to your Microsoft Entra identity, sign in to the [subscriber portal](https://my.visualstudio.com) with your Microsoft Entra identity to access benefits that rely on Microsoft Entra ID.  These benefits include:
+After your admin connects your MSA to your Microsoft Entra identity, sign in to the [subscription portal](https://my.visualstudio.com) with your Microsoft Entra identity to access benefits that rely on Microsoft Entra ID.  These benefits include:
 + Visual Studio IDE
 + Azure DevOps
 + Azure DevTest individual credit
@@ -41,11 +41,11 @@ Adding an alternate account to your Visual Studio subscription allows you to acc
 Adding an alternate account to your Visual Studio subscription allows you to access certain subscription benefits with a different identity than that to which the subscription is assigned. These benefits include things like Azure DevOps and Azure, and the Visual Studio IDE.  In the past, this option was possible only if your Visual Studio subscription used a Microsoft Account (MSA). We extended this functionality for work or school accounts in Microsoft Entra ID.
 
 > [!NOTE]
-> An alternate ID only allows you to use that second ID to activate Azure credits and Azure DevOps, and to sign in to the Visual Studio IDE.  It can't be used to sign in to the subscriber portal at <https://my.visualstudio.com>.  You still need to use the ID to which the subscription is assigned to sign in to the portal. 
+> An alternate ID only allows you to use that second ID to activate Azure credits and Azure DevOps, and to sign in to the Visual Studio IDE.  It can't be used to sign in to the subscription portal at <https://my.visualstudio.com>.  You still need to use the ID to which the subscription is assigned to sign in to the portal. 
 
 ### Add the alternate account
 
-1. Sign in to the Visual Studio subscriber portal with your Microsoft account (https://my.visualstudio.com).
+1. Sign in to the Visual Studio subscription portal with your Microsoft account (https://my.visualstudio.com).
 2. Select the **Subscriptions** tab.
 3. Choose **Add alternate account**.
 4. Add your work or school account.
@@ -60,13 +60,13 @@ Your alternate account is added to the Visual Studio subscription, allowing both
 A: Azure DevOps should automatically recognize your subscription when you sign in using your primary or alternate identity. If not, you can try a few things:
 + Check that you have an active Visual Studio subscription that includes [Azure DevOps](vs-azure-devops.md#eligibility) as a benefit.
 + Confirm that you're using a login/identity that is either the primary or alternate identity for your Visual Studio subscription.  Many people, for example, also have a Visual Studio Dev Essentials membership associated with a different sign-in ID.  Attempting to sign in to other subscriptions with that ID fails unless those subscriptions are associated with that email address.
-+ Visit the [Visual Studio subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) at least once before you sign in to Azure DevOps.
++ Visit the [Visual Studio subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) at least once before you sign in to Azure DevOps.
 
 If Azure DevOps still doesn't recognize your subscription, contact [Azure DevOps support](https://azure.microsoft.com/support/devops/).
 
 ### Q: How can I contact my admin about alternate IDs?
 
-A:  Look for the "Contact my admin" button at the top right in the subscriber portal. For more information, see our [Contact your subscriptions admin](contact-my-admin.md) article.  
+A:  Look for the "Contact my admin" button at the top right in the subscription portal. For more information, see our [Contact your subscriptions admin](contact-my-admin.md) article.  
 
 ### Q: I'm an admin.  How do I use alternate IDs?
 
@@ -85,4 +85,4 @@ For assistance with sales, subscriptions, accounts and billing for Visual Studio
 
 ## Next steps
 
-After your admin connects your Microsoft Entra ID and MSA accounts, we recommend verifying that you can successfully sign in to the [subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs).  Make sure you can access benefits like Azure DevOps, Visual Studio, and your Azure DevTest individual credit.
+After your admin connects your Microsoft Entra ID and MSA accounts, we recommend verifying that you can successfully sign in to the [subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs).  Make sure you can access benefits like Azure DevOps, Visual Studio, and your Azure DevTest individual credit.
