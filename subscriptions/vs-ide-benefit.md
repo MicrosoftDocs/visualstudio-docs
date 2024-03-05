@@ -1,16 +1,16 @@
 ---
-title: Visual Studio IDE in Visual Studio subscription
+title: Visual Studio IDE in Visual Studio subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 06/15/2023
+ms.date: 03/05/2024
 ms.topic: how-to
 description: In this article, you learn how to download and install the Visual Studio IDE that's included in your Visual Studio subscription.
 ---
 
 # The Visual Studio IDE
 
-As a Visual Studio subscriber, you have access to the Visual Studio integrated development environment (IDE). Your IDE version depends on the level of your subscription. The benefit appears as a tile in the **Tools** category on the **Benefits included in my subscription** page of the [Visual Studio subscriber portal](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
+As a Visual Studio subscriber, you have access to the Visual Studio integrated development environment (IDE). Your IDE version depends on the level of your subscription. The benefit appears as a tile in the **Tools** category on the **Benefits included in my subscription** page of the [Visual Studio subscription portal](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 
 ## Download and install the IDE
 
