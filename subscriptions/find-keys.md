@@ -3,7 +3,7 @@ title: Find and claim product keys in subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 05/24/2023
+ms.date: 03/05/2024
 ms.topic: conceptual
 description: Find, claim, and export product keys in Visual Studio subscriptions, and review types of product keys such as OEM Key, Retail, and Static Activation Key.
 ---
@@ -50,7 +50,7 @@ To claim a product key:
 2. Select the [Product Keys](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) tab.
 3. Product keys are listed alphabetically by the name of the product.  You can either scroll down to the name of the desired product, or search for it using the search bar at the top of the page.
 > [!div class="mx-imgBorder"]
-> ![Search for Product Key](_img/product-keys/search-keys.png "Screenshot of the Product Keys page in the subscriber portal.")
+> ![Search for Product Key](_img/product-keys/search-keys.png "Screenshot of the Product Keys page in the subscription portal.")
    
 In this example, we’ve used the search bar to locate a product key for Visual Studio Enterprise 2019.
 As you can see, there are several versions listed.  One key each has already been claimed for Visual Studio Enterprise 2019 versions 16.0 and 16.1.  More keys of different types are still available for both versions. 
