@@ -3,7 +3,7 @@ title: Effects of changing Visual Studio subscription levels | Visual Studio Mar
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 04/03/2023
+ms.date: 03/05/2024
 ms.topic: conceptual
 description:  Learn about the effects of upgrading or downloading your Visual Studio subscription level.
 ---
@@ -28,7 +28,7 @@ For information about which version of Visual Studio is included in your subscri
  
 UPGRADES:  You have access to the level of the IDE provided in your new subscription.  To use it, uninstall the lower version and install the new, higher version.  
 
-DOWNGRADES: You still have perpetual use rights for the version provided in the higher subscription level.  You can't sign in to access that version of the IDE, though, so you need to activate it with a product key **before** you lose access to the higher level subscription.  You can get a product key by visiting the [product keys page](https://my.visualstudio.com/productkeys) in the subscriber portal.  If you've already claimed product keys for Visual Studio, you can also export the list of keys you've claimed. Learn more about [finding and claiming product keys](find-keys.md).
+DOWNGRADES: You still have perpetual use rights for the version provided in the higher subscription level.  You can't sign in to access that version of the IDE, though, so you need to activate it with a product key **before** you lose access to the higher level subscription.  You can get a product key by visiting the [product keys page](https://my.visualstudio.com/productkeys) in the subscription portal.  If you've already claimed product keys for Visual Studio, you can also export the list of keys you've claimed. Learn more about [finding and claiming product keys](find-keys.md).
 
 ### Individual Azure credits
 
