@@ -18,7 +18,7 @@ Sometimes an enterprise administrator wants to create a private installation cac
 
 The information on this page is grouped up into three main sections:
 
-* [**Create the layout**](#create-the-layout): describes how to create the layout with the correct product content, how to configure the default settings, how to store it on a network file share, and how to make it available on your intranet. 
+* [**Create the layout**](#create-the-layout): describes how to create the layout with the correct product content, configure the default settings, store it on a network file share, and make it available on your intranet. 
 * [**Maintain the layout**](#maintaining-your-layout): information on how to best update the layout's product version, or modify the layout's product content, channel settings, installer version, and folder size. 
 * [**Help and Support**](#get-support-for-your-network-layout): where to ask for help
 
