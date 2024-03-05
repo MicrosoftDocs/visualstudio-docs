@@ -3,7 +3,7 @@ title: Using product keys in Visual Studio subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 11/28/2023
+ms.date: 03/05/2024
 ms.topic: conceptual
 description: Obtain and manage your product keys in Visual Studio subscriptions for products that require keys for installation or activation.
 ---
@@ -58,7 +58,7 @@ Some keys are provided automatically, such as “static” keys, which you can u
 > ![Get Key from Downloads Page](_img/product-keys/download-get-key.png "Screenshot of the download page for Visual Studio Professional 2019.  The Get key link is highlighted.")
 
 > [!div class="mx-imgBorder"]
-> ![Product Keys Page](_img/product-keys/product-keys-page.png "Screenshot of the Product keys page on the subscriber portal.")
+> ![Product Keys Page](_img/product-keys/product-keys-page.png "Screenshot of the Product keys page on the subscription portal.")
 
 Various key types are available, depending on the product.
 
