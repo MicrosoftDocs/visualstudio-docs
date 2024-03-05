@@ -3,7 +3,7 @@ title: Buy and manage cloud subscriptions for CSPs
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 03/28/2023
+ms.date: 03/05/2024
 ms.topic: conceptual
 description: Help for Cloud Solution Providers on how to buy and manage Visual Studio cloud subscriptions for customers and answers to frequently asked questions.
 ---
@@ -57,7 +57,7 @@ also access the Subscription Admin portal from the Partner Center by choosing **
 
 If you have more than one Azure subscription for this customer, use the drop-down menu to choose the Azure subscription through which you made the purchases.  The **License Summary** shows you the number of subscriptions that have been assigned and how many are available for each Visual Studio cloud subscription option.  The summary also allows you to purchase more subscriptions or reduce the number of subscriptions.
 
-Choose **add** to assign a subscription to a new user.  The displayed count updates, and the end user receives an email notification. The end user can then sign in using the email address you provided to activate their Visual Studio subscription in the [Visual Studio subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs).
+Choose **add** to assign a subscription to a new user.  The displayed count updates, and the end user receives an email notification. The end user can then sign in using the email address you provided to activate their Visual Studio subscription in the [Visual Studio subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs).
 
 To reassign a Visual Studio subscription to a different user, you can delete the current subscriber and add a new subscriber.
 
