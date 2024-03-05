@@ -44,12 +44,12 @@ To get started, you need:
    > [!NOTE]
    > If you experience authentication issues after installing the extension, see [Troubleshooting authentication issues with GitHub Copilot Chat](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-authentication-issues-with-github-copilot-chat).
 
-## Get AI assistance while debugging
+## Get AI assistance to debug your app
 
+The following simple example shows how to get AI assistance using the inline Chat view.
 
-## Get AI assistance for an exception
-
-The following simple example shows how to get AI assistance when you encounter an exception and how to quickly update your code based on AI-suggested fixes.
+> [!NOTE]
+> You can also get help using the separate Chat window by selecting **View > GitHub Copilot Chat**. For more information, see [What is the GitHub Copilot Chat extension for Visual Studio?](../ide/visual-studio-github-copilot-chat).
 
 ### Start a debugging session
 
@@ -83,7 +83,39 @@ The following simple example shows how to get AI assistance when you encounter a
     }
     ```
 
+1. Right-click the following statement and choose **Breakpoint** > **Insert Breakpoint**.
+
+   ```csharp
+   int value = Int32.Parse(args[0]);
+   ```
+
 1. Press **F5** or select **Start Debugging** from the **Debug** menu.
+
+   The app pauses at the breakpoint. The Autos window shows that the args variable has a value of `string[0]`.
+
+   ![Screenshot of Autos window.](../debugger/media/vs-2022/debug-with-copilot-autos-window.png)
+
+1. Right-click in the code and choose **Ask Copilot** to open the inline Chat view.
+
+1. Type the following question in the inline Chat view:
+
+   ```
+   Why does the args variable have a value of string[0]?
+   ```
+
+   ![Screenshot of inline Copilot Chat.](../debugger/media/vs-2022/debug-with-copilot-inline-chat.png)
+
+   When you press **Enter**, Copilot provides an answer based on it's understanding of your code. (You might get a different response than what is shown here.)
+
+   ![Screenshot of Copilot answered question.](../debugger/media/vs-2022/debug-with-copilot-inline-chat-answer.png)
+
+## Get AI assistance for an exception
+
+The following simple example shows how to get AI assistance when you encounter an exception and how to quickly update your code based on AI-suggested fixes.
+
+### Start a debugging session
+
+- While paused in the debugger using the same sample app, press **F11** or **Debug** > **Step Into** to execute the current statement.
 
    An `IndexOutOfRangeException` occurs and the app pauses, showing the exception.
 
