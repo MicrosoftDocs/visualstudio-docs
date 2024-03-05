@@ -14,7 +14,14 @@ ms.subservice: installation
 ---
 # Create and maintain a network installation of Visual Studio
 
-Sometimes an enterprise administrator wants to create a private installation cache (also known as a "layout") that contains Visual Studio files that can be [deployed to client machines within an organization](deploy-a-layout-onto-a-client-machine.md). Creating a layout is useful for situations where a user may have limited permissions, where the client machines may have limited access to the internet, or when an organization wants to standardize on a particular version of the developer toolset. We designed Visual Studio so that an administrator can both create and maintain a layout and store it on an internal network share and optionally make it available on an organization's intranet. The layout serves as the source location for all Visual Studio files needed for both initial client installation and subsequent updates.
+Sometimes an enterprise administrator wants to create a private installation cache (also known as a "layout") that contains Visual Studio files that can be [deployed to client machines within an organization](deploy-a-layout-onto-a-client-machine.md). 
+
+Creating a layout is useful in following situations:
+-  A user has limited permissions
+-  The client machines have limited access to the internet
+-  An organization wants to standardize on a particular version of the developer toolset
+
+We designed Visual Studio so that an administrator can both create and maintain a layout and store it on an internal network share and optionally make it available on an organization's intranet. The layout serves as the source location for all Visual Studio files needed for both initial client installation and subsequent updates.
 
 The information on this page is grouped up into three main sections:
 
