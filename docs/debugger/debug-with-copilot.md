@@ -17,11 +17,12 @@ manager: jmartens
 ms.subservice: ai-tools
 monikerRange: '>= vs-2022'
 ---
+
 # Debug your app with GitHub Copilot in Visual Studio
 
-In this article, you'll learn how to debug more efficiently using GitHub Copilot. Copilot understands call stacks, frames, variable names, and values. As a result, you can interact with the debugger-aware AI to ask detailed questions related to your code and to debugging issues in general.
+In this article, you'll learn how to debug more efficiently using GitHub Copilot. Copilot can provide code fixes along with in-depth analysis and explanations of how code works. It helps with proposed fixes to bugs, and explains things such as exceptions. Copilot understands call stacks, frames, variable names, and values. As a result, you can interact with the debugger-aware AI to ask detailed questions related to your code and to debugging issues in general.
 
-In addition, Copilot provides more extended help for targeted scenarios including the following:
+In addition, Copilot provides more precise help for a few targeted scenarios including the following:
 
 - Exceptions
 - Auto Insights for CPU Usage
@@ -49,7 +50,7 @@ To get started, you need:
 The following simple example shows how to get AI assistance using the inline Chat view.
 
 > [!NOTE]
-> You can also get help using the separate Chat window by selecting **View > GitHub Copilot Chat**. For more information, see [What is the GitHub Copilot Chat extension for Visual Studio?](../ide/visual-studio-github-copilot-chat).
+> You can also get help using the separate Chat window by selecting **View > GitHub Copilot Chat**. For more information, see [What is the GitHub Copilot Chat extension for Visual Studio?](../ide/visual-studio-github-copilot-chat.md).
 
 ### Start a debugging session
 
