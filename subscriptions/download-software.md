@@ -16,11 +16,11 @@ Only the downloads included with your subscription are displayed for you on the 
 
 If your subscription is provided by your work or school, your subscriptions admin controls whether you have access to downloads. Disabling access to downloads also disables access to product keys. If you don't have access to downloads and product keys and need them, [contact your admin](contact-my-admin.md).
 
-## How do I find downloads in the subscriber portal?
+## How do I find downloads in the subscription portal?
 
 When you visit the [Downloads](https://my.visualstudio.com/downloads/featured?wt.mc_id=o~msft~docs) page, you see popular downloads arranged in groups by product type.  You can select one of the popular downloads shown, or search for any product using the search bar at the top of the page.
 > [!div class="mx-imgBorder"]
-> ![Subscriber downloads page](_img/subscriber-downloads/subscriber-downloads-resized.png "Screenshot of the Downloads page on the subscriber portal.")
+> ![Subscriber downloads page](_img/subscriber-downloads/subscriber-downloads-resized.png "Screenshot of the Downloads page on the subscription portal.")
 
 For example, if you choose **Visual Studio 2019** from the Developer Tools list, you see a list of available Visual Studio 2019 downloads.
 > [!div class="mx-imgBorder"]
