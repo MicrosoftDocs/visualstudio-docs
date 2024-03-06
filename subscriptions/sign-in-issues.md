@@ -3,14 +3,14 @@ title: Issues signing in to Visual Studio subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 03/05/2024
+ms.date: 03/06/2024
 ms.topic: conceptual
 description: Review potential sign-in issues for Visual Studio subscriptions, including Microsoft Accounts (MSA) limitations, failures due to aliases or deleted addresses.
 ---
 
 # Issues signing in to Visual Studio subscriptions
 
-To use your Visual Studio subscription, you must first sign in.  Depending on your subscription, you might have either a Microsoft account (MSA) or a Microsoft Entra identity.  This article discusses some of the issues you might encounter while signing in to your subscription.
+To use your Visual Studio subscription, you must first sign in. Depending on your subscription, you might have either a Microsoft account (MSA) or a Microsoft Entra identity. This article discusses some of the issues you might encounter while signing in to your subscription.
 
 ## Microsoft Accounts (MSA) can't be created using work/school email addresses
 
@@ -46,11 +46,11 @@ The sign-up block described here only prevents the creation of new accounts. It 
 
 ## Signing in fails when using GCC High tenants
 
-Visual Studio [subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) don't support [GCC High tenants](https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This limitation also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization needs to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/).  
+Visual Studio [subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) don't support [GCC High tenants](https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This limitation also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization needs to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/). 
 
 ## Deleting a sign-in address can prevent access to a subscription
 
-If you delete one or more identities (MSA or Microsoft Entra ID) associated with your subscription, your subscriber information including your user name and sign-in ID might be rendered anonymous.  "Anonymization" results in the loss of access to your subscription.
+If you delete one or more identities (MSA or Microsoft Entra ID) associated with your subscription, your subscriber information including your user name and sign-in ID might be rendered anonymous. "Anonymization" results in the loss of access to your subscription.
 
 To avoid impacts to your subscription access, use one of these techniques.
 + Deploy a single identity management system--either MSA or Microsoft Entra ID--but not both.
@@ -64,7 +64,7 @@ Depending on the account type used to sign in, available subscriptions might not
 
 The term “aliasing” refers to users having different identities to sign in to Windows (or your Active Directory) and to access email.
 
-Aliasing can be encountered when a company has a Microsoft Online Service for their directory sign-in but users access their email accounts using aliases or friendly names. For example, a user's work email name might be `johnd@contoso.com`, but they might use `John.Doe@contoso.com`.  For many customers who manage their subscriptions through the Volume Licensing Service Center (VLSC), sign-in fails.  The sign-in email address must match the one listed in the "Work or School Account" option.
+Aliasing can be encountered when a company has a Microsoft Online Service for their directory sign-in but users access their email accounts using aliases or friendly names. For example, a user's work email name might be `johnd@contoso.com`, but they might use `John.Doe@contoso.com`. For many customers who manage their subscriptions through the Volume Licensing Service Center (VLSC), sign-in fails. The sign-in email address must match the one listed in the "Work or School Account" option.
 
 ### What options do I have?
 
@@ -72,7 +72,7 @@ From a subscriber perspective, it's important to first work with your admin to u
 
 ## Resources
 
-For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp). 
+For assistance with sales, subscriptions, accounts, and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp). 
 
 ## See also
 
