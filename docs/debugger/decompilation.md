@@ -54,11 +54,11 @@ To autodecompile from the Call Stack window:
 
 1. In the Call Stack window, double-click any stack frame. The debugger decompiles the code, and then navigates directly to the current point of execution.
 
-   ![Screenshot of Call Stack window showing external code.](media/decompilation-call-stack-window.png)
+   ![Screenshot of Call Stack window showing external code.](media/vs-2-22/decompilation-call-stack-window.png)
 
    All of the decompiled code is also shown under the External Sources node in Solution Explorer, make it easy to browse through the external files if needed.
 
-   ![Screenshot of External Sources node showing decompiled assemblies.](media/decompilation-external-sources-node.png)
+   ![Screenshot of External Sources node showing decompiled assemblies.](media/vs-2022/decompilation-external-sources-node.png)
 
    You can debug the decompiled code and set breakpoints.
 
