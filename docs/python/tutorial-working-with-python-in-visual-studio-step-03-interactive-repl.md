@@ -34,7 +34,7 @@ In Step 3 of the tutorial, you learn how to:
 
 ## Open the Interactive Window for Python
 
-To get started, follow these steps to open the **Interactive Window** and start working with code:
+Follow these steps to open the **Interactive Window** and start working with code:
 
 1. Use one of the following methods to open the **Interactive Window** for Python:
 
@@ -81,7 +81,7 @@ Try these features by completing the following steps:
 
 1. Open your Python project file (_.py_) in the editor. (Tutorial Step 2 explains how to create this file, where the default file name is _PythonApplication1.py_.)
 
-1. Replace the `for` loop in the file with the following code:
+1. Replace the `for` loop statement in the file with the following code:
 
    ```python
    # Create a string with spaces proportional to a cosine of x in degrees
@@ -120,11 +120,11 @@ Try these features by completing the following steps:
    
 1. Scroll through your command history by using the **Up** arrow key and stop at the `for` loop code.
 
-1. Use the **Left/Right** arrow keys to move into the code for the `for` loop. When you reach the beginning of a line, select the **Left** arrow key to move to the end of the previous line.
+1. Use the **Left/Right** arrow keys to move into the code for the `for` loop statement. When you reach the beginning of a line, select the **Left** arrow key to move to the end of the previous line.
 
-1. In the `for` loop code, go to the `range` definition and change the statement to `range(0, 360, 12)`.
+1. In the `for` loop statement, go to the `range` definition and change the statement to `range(0, 360, 12)`.
 
-1. Select **Ctrl**+**Enter** anywhere in the `for` loop code to run the function again:  
+1. Select **Ctrl**+**Enter** anywhere in the `for` loop statement to run the function again:  
 
    :::image type="content" source="media/tutor-python-3-run-statement-again.png" alt-text="Screenshot that shows how to edit a previous statement in the Interactive Window in Visual Studio." border="false" lightbox="media/tutor-python-3-run-statement-again.png":::
 
