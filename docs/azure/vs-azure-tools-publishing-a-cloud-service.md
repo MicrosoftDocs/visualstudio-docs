@@ -14,12 +14,15 @@ ms.author: ghogen
 
 Visual Studio can publish an application directly to Azure, with support for both Staging and Production environments of a cloud service. When publishing, you select the deployment environment and a storage account that's used temporarily for the deployment package.
 
+:::moniker range="<=vs-2019"
 When you're developing and testing an Azure application, you can use Web Deploy to publish changes incrementally for your web roles. After you publish your application to a deployment environment, Web Deploy lets you deploy changes directly to the virtual machine that is running the web role. You do not have to package and publish your entire Azure application each time you want to update your web role to test out the changes. With this approach, you can have your web role changes available in the cloud for testing without waiting to have your application published to a deployment environment.
 
 Use the following procedures to publish your Azure application and to update a web role by using Web Deploy:
 
 - Publish or Package an Azure application from Visual Studio
 - Update a web role as part of the development and testing cycle
+
+:::moniker-end
 
 ## Prerequisites
 
@@ -54,6 +57,8 @@ When you publish your Azure application, you can do one of the following tasks:
    e. To publish this package to a deployment environment, you must use this location as the Package location when you create a cloud service and deploy this package to an environment with the Azure portal.
 
 1. (Optional) To cancel the deployment process, on the shortcut menu for the line item in the activity log, choose **Cancel and remove**. This command stops the deployment process and deletes the deployment environment from Azure. To remove the environment after deployment, use the Azure portal.
+
+:::moniker range="<=vs-2019"
 
 ## Update a web role as part of the development and testing cycle
 
@@ -106,8 +111,6 @@ The following procedure assumes that you are using the **Publish Azure Applicati
 
 ### Make web deploy secure
 
-:::moniker range="<=vs-2019"
-
 1. Web Deploy uses an untrusted, self-signed certificate by default, which is not recommended for uploading sensitive data. If you need to secure this process for sensitive data, you can add an SSL certificate to be used for Web Deploy connections. This certificate needs to be a trusted certificate, which you obtain from a certificate authority (CA).
 
     To make Web Deploy secure for each virtual machine for each of your web roles, you must upload the trusted certificate that you want to use for web deploy to the Azure portal. This certificate makes sure that the certificate is added to the virtual machine that is created for the web role when you publish your application.
@@ -115,23 +118,6 @@ The following procedure assumes that you are using the **Publish Azure Applicati
 1. To add a trusted SSL certificate to IIS to use for remote connections, follow these steps:
 
    a. To connect to the virtual machine that is running the web role, select the instance of the web role in **Cloud Explorer** or **Server Explorer**, and then choose the **Connect using Remote Desktop** command. For detailed steps about how to connect to the virtual machine, see [Enable Remote Desktop Connection for a Role in Azure Cloud Services using Visual Studio](/azure/cloud-services/cloud-services-role-enable-remote-desktop-visual-studio). Your browser prompts you to download an `.rdp` file.
-
-   b. To add an SSL certificate, open the management service in IIS Manager. In IIS Manager, enable SSL by opening the **Bindings** link in the **Action** pane. The **Add Site Binding** dialog box appears. Choose **Add**, and then choose HTTPS in the **Type** drop-down list. In the **SSL certificate** list, choose the SSL certificate that you had signed by a CA and that you uploaded to the Azure portal. For more information, see [Configure Connection Settings for the Management Service](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770458(v=ws.10)).
-
-      > [!NOTE]
-      > If you add a trusted SSL certificate, the yellow warning triangle no longer appears in the **Publish Wizard**.
-
-:::moniker-end
-
-:::moniker range=">=vs-2022"
-
-1. Web Deploy uses an untrusted, self-signed certificate by default, which is not recommended for uploading sensitive data. If you need to secure this process for sensitive data, you can add an SSL certificate to be used for Web Deploy connections. This certificate needs to be a trusted certificate, which you obtain from a certificate authority (CA).
-
-    To make Web Deploy secure for each virtual machine for each of your web roles, you must upload the trusted certificate that you want to use for web deploy to the Azure portal. This certificate makes sure that the certificate is added to the virtual machine that is created for the web role when you publish your application.
-
-1. To add a trusted SSL certificate to IIS to use for remote connections, follow these steps:
-
-   a. Connect to the virtual machine that is running the web role using remote desktop. For detailed steps about how to connect to the virtual machine, see [Enable Remote Desktop Connection for a Role in Azure Cloud Services using Visual Studio](/azure/cloud-services/cloud-services-role-enable-remote-desktop-visual-studio).
 
    b. To add an SSL certificate, open the management service in IIS Manager. In IIS Manager, enable SSL by opening the **Bindings** link in the **Action** pane. The **Add Site Binding** dialog box appears. Choose **Add**, and then choose HTTPS in the **Type** drop-down list. In the **SSL certificate** list, choose the SSL certificate that you had signed by a CA and that you uploaded to the Azure portal. For more information, see [Configure Connection Settings for the Management Service](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770458(v=ws.10)).
 
