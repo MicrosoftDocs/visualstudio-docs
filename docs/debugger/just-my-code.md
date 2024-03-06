@@ -120,7 +120,7 @@ If first chance exceptions are enabled for the exception, the calling user-code 
 
 ## <a name="BKMK_C___Just_My_Code"></a> C++ Just My Code
 
-Starting in Visual Studio 2017 version 15.8, Just My Code for code stepping is also supported. This feature also requires use of the [/JMC (Just my code debugging)](/cpp/build/reference/jmc) compiler switch. The switch is enabled by default in C++ projects. For **Call Stack** window and call stack support in Just My Code, the /JMC switch is not required.
+Starting in Visual Studio 2017 version 15.8, Just My Code for code stepping is also supported. This feature also requires use of the [/JMC (Just my code debugging)](/cpp/build/reference/jmc) compiler switch. The switch is enabled by default in C++ projects. For **Call Stack** window and call stack support in Just My Code, the /JMC switch isn't required.
 
 <a name="BKMK_CPP_User_and_non_user_code"></a>
 To be classified as user code, the PDB for the binary containing the user code must be loaded by the debugger (use the **Modules** window to check this).
@@ -128,12 +128,12 @@ To be classified as user code, the PDB for the binary containing the user code m
 For call stack behavior, such as in the **Call Stack** window, Just My Code in C++ considers only these functions to be *non-user code*:
 
 - Functions with stripped source information in their symbols file.
-- Functions where the symbol files indicate that there is no source file corresponding to the stack frame.
+- Functions where the symbol files indicate that there's no source file corresponding to the stack frame.
 - Functions specified in *\*.natjmc* files in the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.
 
 For code stepping behavior, Just My Code in C++ considers only these functions to be *non-user code*:
 
-- Functions for which the corresponding PDB file has not been loaded in the debugger.
+- Functions for which the corresponding PDB file hasn't been loaded in the debugger.
 - Functions specified in *\*.natjmc* files in the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.
 
 > [!NOTE]
@@ -153,7 +153,7 @@ If the debugger hits an exception, it stops on the exception, whether it is in u
 
 ### <a name="BKMK_CPP_Customize_call_stack_behavior"></a> Customize C++ call stack and code stepping behavior
 
-For C++ projects, you can specify the modules, source files, and functions the **Call Stack** window treats as non-user code by specifying them in *\*.natjmc* files. This customization also applies to code stepping if you are using the latest compiler (see [C++ Just My Code](#BKMK_CPP_User_and_non_user_code)).
+For C++ projects, you can specify the modules, source files, and functions the **Call Stack** window treats as non-user code by specifying them in *\*.natjmc* files. This customization also applies to code stepping if you're using the latest compiler (see [C++ Just My Code](#BKMK_CPP_User_and_non_user_code)).
 
 - To specify non-user code for all users of the Visual Studio machine, add the *.natjmc* file to the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.
 - To specify non-user code for an individual user, add the *.natjmc* file to the *%USERPROFILE%\My Documents\\<Visual Studio version\>\Visualizers* folder.
@@ -203,7 +203,7 @@ A *.natjmc* file is an XML file with this syntax:
 
 ### <a name="BKMK_CPP_Customize_stepping_behavior"></a> Customize C++ stepping behavior independent of Just My Code settings
 
-In C++ projects, you can specify functions to step over by listing them as *NoStepInto* functions in *\*.natstepfilter* files. Functions listed in *\*.natstepfilter* files are not dependent on Just My Code settings. A NoStepInto function tells the debugger to step over the function, even if it calls some StepInto functions or other user code. Unlike functions listed in *.natjmc*, the debugger will step into the first line of user code inside the NoStepInto function.
+In C++ projects, you can specify functions to step over by listing them as *NoStepInto* functions in *\*.natstepfilter* files. Functions listed in *\*.natstepfilter* files aren't dependent on Just My Code settings. A NoStepInto function tells the debugger to step over the function, even if it calls some StepInto functions or other user code. Unlike functions listed in *.natjmc*, the debugger will step into the first line of user code inside the NoStepInto function.
 
 - To specify non-user code for all local Visual Studio users, add the *.natstepfilter* file to the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.
 - To specify non-user code for an individual user, add the *.natstepfilter* file to the *%USERPROFILE%\My Documents\\<Visual Studio version\>\Visualizers* folder.
@@ -240,9 +240,9 @@ A *.natstepfilter* file is an XML file with this syntax:
 
 - Starting in Visual Studio 2022 version 17.6, you can add *.natjms* and *.natstepfilter* files directly to the solution or project.
 
-- Syntax errors in *.natstepfilter* and *.natjmc* files are not reported in the debugger's Output window.
+- Syntax errors in *.natstepfilter* and *.natjmc* files aren't reported in the debugger's Output window.
 
-- Unlike *.natvis* files, *.natstepfilter* and *.natjmc* files are not hot-reloaded. Instead, these files are reloaded near the beginning of the debug session.
+- Unlike *.natvis* files, *.natstepfilter* and *.natjmc* files aren't hot-reloaded. Instead, these files are reloaded near the beginning of the debug session.
 
 - For template functions, the use of `&lt;.*&gt;` or `&lt;.*` in the name may be helpful.
 
@@ -296,13 +296,13 @@ If an unhandled exception occurs in **UnrelatedCode**, and **MyCode** or **Libra
 If first-chance exceptions are enabled for the exception, and the exception occurs in **LibraryCode** or **UnrelatedCode**:
 
 - If the exception is handled, the debugger doesn't break.
-- If the exception is not handled, the debugger breaks.
+- If the exception isn't handled, the debugger breaks.
 
 ### <a name="BKMK_JS_Customize_Just_My_Code"></a> Customize JavaScript Just My Code
 
 To categorize user and non-user code for a single JavaScript project, you can add a *.json* file named *mycode.json* to the root folder of the project.
 
-The *mycode.json* file does not need to list all key value pairs. The **MyCode**, **Libraries**, and **Unrelated** values can be empty arrays.
+The *mycode.json* file doesn't need to list all key value pairs. The **MyCode**, **Libraries**, and **Unrelated** values can be empty arrays.
 
 *Mycode.json* files use this syntax:
 
