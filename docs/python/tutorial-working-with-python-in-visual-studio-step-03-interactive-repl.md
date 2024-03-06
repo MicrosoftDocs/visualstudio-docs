@@ -44,28 +44,28 @@ To get started, follow these steps to open the **Interactive Window** and start 
 
    Visual Studio opens the **Interactive Window** for Python under the editor window. The window has the standard **>>>** Python REPL prompt:
 
-   :::image type="content" source="tutor-python-3-open-interactive-window.png" alt-text="Screenshot that shows the Interactive Window for Python open underneath the code editor in Visual Studio." border="false" lightbox="tutor-python-3-open-interactive-window.png":::
+   :::image type="content" source="media/tutor-python-3-open-interactive-window.png" alt-text="Screenshot that shows the Interactive Window for Python open underneath the code editor in Visual Studio." border="false" lightbox="media/tutor-python-3-open-interactive-window.png":::
    
 1. In the **Interactive Window**, you can use the **Environment** dropdown list to select a specific Python interpreter to work with:
 
-   :::image type="content" source="tutor-python-3-select-environment-interpreter.png" alt-text="Screenshot that shows how to select the Python interpreter from the Environment dropdown list in the Interactive Window in Visual Studio." border="false" lightbox="tutor-python-3-select-environment-interpreter.png":::
+   :::image type="content" source="media/tutor-python-3-select-environment-interpreter.png" alt-text="Screenshot that shows how to select the Python interpreter from the Environment dropdown list in the Interactive Window in Visual Studio." border="false" lightbox="media/tutor-python-3-select-environment-interpreter.png":::
    
 1. You can make the **Interactive Window** larger by moving the separator between the window and the code editor:
 
-   :::image type="content" source="tutor-python-3-resize-interactive-window.png" alt-text="Screenshot that shows how to move the separator to increase the size of the Interactive Window in Visual Studio." border="false" lightbox="tutor-python-3-resize-interactive-window.png":::
+   :::image type="content" source="media/tutor-python-3-resize-interactive-window.png" alt-text="Screenshot that shows how to move the separator to increase the size of the Interactive Window in Visual Studio." border="false" lightbox="media/tutor-python-3-resize-interactive-window.png":::
 
    > [!TIP]
    > You can resize any window in Visual Studio by moving the separators between the window and surrounding windows. You can also move windows out of the Visual Studio frame, and rearrange windows within the frame.
 
 1. In the **Interactive Window**, enter a statement like `print("Hello, Visual Studio")` and a calculation expression like `123/456`. Visual Studio displays immediate results for your code:
 
-   :::image type="content" source="tutor-python-3-add-statements-expressions.png" alt-text="Screenshot that shows how the Interactive Window displays immediate results for code you enter in Visual Studio." border="false" lightbox="tutor-python-3-add-statements-expressions.png":::
+   :::image type="content" source="media/tutor-python-3-add-statements-expressions.png" alt-text="Screenshot that shows how the Interactive Window displays immediate results for code you enter in Visual Studio." border="false" lightbox="media/tutor-python-3-add-statements-expressions.png":::
 
 1. Next, enter a multiline statement like the function definition shown in the following example.
 
    As you enter the code, the **Interactive Window** shows the Python continuation prompt (**...** ). Unlike the command-line REPL experience, the **Interactive Window** provides automatic indentation as you enter code:
 
-   :::image type="content" source="tutor-python-3-add-multiline-statement.png" alt-text="Screenshot that shows the Interactive Window displays the Python continuation prompt for multiline code statements in Visual Studio." border="false" lightbox="tutor-python-3-add-multiline-statement.png":::
+   :::image type="content" source="media/tutor-python-3-add-multiline-statement.png" alt-text="Screenshot that shows the Interactive Window displays the Python continuation prompt for multiline code statements in Visual Studio." border="false" lightbox="media/tutor-python-3-add-multiline-statement.png":::
 
    To add a new line in your code, select **Shift**+**Enter**.
 
@@ -91,7 +91,7 @@ Try these features by completing the following steps:
 
 1. Right-click the `import` statement in the file and select **Send to Interactive** (or the keyboard shortcut **Ctrl**+**E**). Repeat this process for the `from` statement.
 
-   :::image type="content" source="tutor-python-3-send-statements.png" alt-text="Screenshot that shows how to send code for the import and from statements to the Interactive Window in Visual Studio." border="false" lightbox="tutor-python-3-send-statements.png":::
+   :::image type="content" source="media/tutor-python-3-send-statements.png" alt-text="Screenshot that shows how to send code for the import and from statements to the Interactive Window in Visual Studio." border="false" lightbox="media/tutor-python-3-send-statements.png":::
 
    When you select the **Send to Interactive** command, the selected code fragment is immediately pasted into the **Interactive Window** and run. In this case, Visual Studio imports the `cos` and `radians` routines from the `math` library, and also the `sys` library.
 
@@ -99,7 +99,7 @@ Try these features by completing the following steps:
    
    Because this code defines a function, you can quickly test it by calling the function a few times, as shown in the following example:
 
-   :::image type="content" source="tutor-python-3-send-function-test.png" alt-text="Screenshot that shows how to run a test of the function code sent to the Interactive Window in Visual Studio." border="false" lightbox="tutor-python-3-send-function-test.png":::
+   :::image type="content" source="media/tutor-python-3-send-function-test.png" alt-text="Screenshot that shows how to run a test of the function code sent to the Interactive Window in Visual Studio." border="false" lightbox="media/tutor-python-3-send-function-test.png":::
 
    > [!TIP]
    > You can use the keyboard shortcut **Ctrl**+**Enter** to run the current line of code in the **Interactive Window**. After the code runs, the caret prompt moves to the next line. Select **Ctrl**+**Enter** repeatedly for a convenient way to step through your code, which isn't possible in the Python command-line experience. You can also use this approach to step through your code without running the debugger and without necessarily starting your program from the beginning.
@@ -114,7 +114,7 @@ Try these features by completing the following steps:
 
    The multiline paste action is difficult to do in the Python command-line REPL experience. After your paste the code, the **Interactive Window** runs the code as if you entered it directly in the window:
 
-   :::image type="content" source="tutor-python-3-copy-paste-code.png" alt-text="Screenshot that shows how to paste multiple lines of code into the Interactive Window in Visual Studio." border="false" lightbox="tutor-python-3-copy-paste-code.png":::
+   :::image type="content" source="media/tutor-python-3-copy-paste-code.png" alt-text="Screenshot that shows how to paste multiple lines of code into the Interactive Window in Visual Studio." border="false" lightbox="media/tutor-python-3-copy-paste-code.png":::
 
    The current code works, but the output isn't inspiring. A different step value in the `for` loop can show more of the cosine wave. The code the `for` loop is available in the REPL history as a single unit. You can locate the code and make whatever changes you want and test the function again.
    
@@ -126,7 +126,7 @@ Try these features by completing the following steps:
 
 1. Select **Ctrl**+**Enter** anywhere in the `for` loop code to run the function again:  
 
-   :::image type="content" source="tutor-python-3-run-statement-again.png" alt-text="Screenshot that shows how to edit a previous statement in the Interactive Window in Visual Studio." border="false" lightbox="tutor-python-3-run-statement-again.png":::
+   :::image type="content" source="media/tutor-python-3-run-statement-again.png" alt-text="Screenshot that shows how to edit a previous statement in the Interactive Window in Visual Studio." border="false" lightbox="media/tutor-python-3-run-statement-again.png":::
 
 1. Repeat the process to experiment with different step settings until you find a value you like. You can also make the wave repeat by lengthening the range, for example, `range(0, 1800, 12)`.
 
@@ -140,7 +140,7 @@ Follow these steps to copy code from the **Interactive Window** to the editor:
 
 1. Right-click the selected code and choose **Copy Code** or use the keyboard shortcut **Ctrl**+**Shift**+**C**.
 
-   :::image type="content" source="tutor-python-3-copy-save-code.png" alt-text="Screenshot that shows the Interactive Window copy code command on a selection that includes prompts and output in Visual Studio." border="false" lightbox="tutor-python-3-copy-save-code.png":::
+   :::image type="content" source="media/tutor-python-3-copy-save-code.png" alt-text="Screenshot that shows the Interactive Window copy code command on a selection that includes prompts and output in Visual Studio." border="false" lightbox="media/tutor-python-3-copy-save-code.png":::
 
 1. Paste the copied code into the editor. This special feature of Visual Studio automatically omits any output, along with the `>>>` and `...` prompts, in the selection.
 
