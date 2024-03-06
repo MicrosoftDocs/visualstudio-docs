@@ -1,21 +1,21 @@
 ---
-title: Sign in to Visual Studio Subscriptions with a  Microsoft Account
+title: Sign in to Visual Studio Subscriptions with a Microsoft Account
 author: evanwindom
-ms.author: amast  
+ms.author: amast 
 manager: shve
-ms.date: 03/05/2024
+ms.date: 03/06/2024
 ms.topic: how-to
-description:  How to Sign In to Your Visual Studio Subscription with your Microsoft Account (MSA)
+description: Learn how to sign in to your Visual Studio subscription with your Microsoft Account (MSA).
 ---
 
-# Signing in to your Visual Studio subscription(s) with your Microsoft Account (MSA)
+# Sign in to your Visual Studio subscription with your Microsoft Account (MSA)
 
-The steps to sign in to your Visual Studio subscription depend on the kind of account you're using.  For example, you may be using a Microsoft Account (MSA) or an email address supplied by your employer or school.  As of January 2019, you can now also use your GitHub account to sign in to some subscriptions. 
+The steps to sign in to your Visual Studio subscription depend on the kind of account you're using. For example, you might be using a Microsoft Account (MSA) or an email address supplied by your employer or school. As of January 2019, you can now also use your GitHub account to sign in to some subscriptions. 
 
 This article provides the steps for signing in with your Microsoft Account (MSA).
 
 > [!NOTE]
-> Visual Studio [subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) do not support [GCC High tenants](https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization will need to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/). 
+> Visual Studio [subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) do not support Government Community Cloud (GCC High) [tenants](https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization will need to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/). 
 
 ## Signing in with your Microsoft Account (MSA)
 
@@ -31,19 +31,19 @@ This article provides the steps for signing in with your Microsoft Account (MSA)
 
 ## Frequently asked questions
 
-### Q:  I'm unable to sign in using my MSA.  
+### Q: I'm unable to sign in using my MSA. 
 
-A:  The most common cause of sign-in problems is attempting to sign in with an MSA that's different from the one associated with the subscription.  If you use several different email addresses, it's possible that you're trying to sign in with the wrong one.  Try signing in with another address.  If that's unsuccessful, you can reach out to our [subscriptions support](https://visualstudio.microsoft.com/subscriptions/support/) team for assistance.  
+A: The most common cause of sign-in problems is attempting to sign in with an MSA that's different from the one associated with the subscription. If you use several different email addresses, it's possible that you're trying to sign in with the wrong one. Try signing in with another address. If that's unsuccessful, you can reach out to our [subscriptions support](https://visualstudio.microsoft.com/subscriptions/support/) team for assistance. 
 
-### Q:  I can't see my subscription. Where is it?
+### Q: I can't see my subscription. Where is it?
 
-A:  Many users have more than one subscription.  If you're able to sign in to the subscriptions portal at https://my.visualstudio.com, but can't see your subscription, there are two common causes:
-+ You're logged in with a different Microsoft Account (MSA).  It's possible that you have multiple subscriptions and they're associated with different email addresses. To see the other subscriptions, sign out and sign back in using the other MSA.
-+ You have multiple subscriptions associated with the same MSA.  To see all of the subscriptions associated with your MSA, visit https://my.visualstudio.com/subscriptions and choose the subscription you wish to use. There's also a drop-down list on the [Benefits page](https://my.visualstudio.com/benefits) you can use to switch between subscriptions that are associated with the same sign-in email address.
+A: Many users have more than one subscription. If you're able to sign in to the subscriptions portal at https://my.visualstudio.com, but can't see your subscription, there are two common causes:
++ You're logged in with a different Microsoft Account (MSA). It's possible that you have multiple subscriptions and they're associated with different email addresses. To see the other subscriptions, sign out and sign back in using the other MSA.
++ You have multiple subscriptions associated with the same MSA. To see all of the subscriptions associated with your MSA, visit https://my.visualstudio.com/subscriptions and choose the subscription you wish to use. There's also a drop-down list on the [Benefits page](https://my.visualstudio.com/benefits) you can use to switch between subscriptions that are associated with the same sign-in email address.
 
 ## Resources 
 
-For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).
+For assistance with sales, subscriptions, accounts, and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).
 
 ## See also
 
@@ -54,4 +54,4 @@ For assistance with sales, subscriptions, accounts and billing for Visual Studio
 
 ## Next steps
 
-After you've successfully signed in to the subscriptions portal, we recommend visiting the Benefits page at https://my.visualstudio.com/benefits and exploring the great tools, services, and offers available to you.
+After you sign in to the subscriptions portal, we recommend visiting the Benefits page at https://my.visualstudio.com/benefits and exploring the great tools, services, and offers available to you.
