@@ -2,7 +2,12 @@
   "redirections": [
     {
       "source_path": "doc/azure/vs-azure-tools-optimizing-azure-code-in-visual-studio.md",
-      "redirect_url": "/visualstudio/azure/overview",
+      "redirect_url": "/visualstudio/azure/cloud-services-extended-support",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "doc/azure/vs-azure-tools-table-designer-construct-filter-strings.md",
+      "redirect_url": "/visualstudio/azure/cloud-services-extended-support",
       "redirect_document_id": "false"
     },
     {
