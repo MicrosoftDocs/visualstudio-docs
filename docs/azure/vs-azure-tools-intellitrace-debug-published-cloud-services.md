@@ -5,7 +5,7 @@ author: mikejo5000
 manager: jmartens
 ms.subservice: azure-development
 ms.topic: how-to
-ms.date: 03/21/2017
+ms.date: 03/06/2024
 ms.author: mikejo
 ---
 # Debugging a published Azure cloud service with Visual Studio and IntelliTrace

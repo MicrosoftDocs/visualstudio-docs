@@ -5,7 +5,7 @@ author: ghogen
 manager: jmartens
 ms.subservice: azure-development
 ms.topic: conceptual
-ms.date: 07/14/2023
+ms.date: 03/06/2024
 ms.author: ghogen
 monikerRange: "<=vs-2019"
 ---

@@ -107,22 +107,6 @@
       href: vs-azure-tools-service-configurations-and-profiles-how-to-manage.md
     - name: Set up named authentication credentials
       href: vs-azure-tools-setting-up-named-authentication-credentials.md
-  - name: Work with Azure storage
-    items:
-    - name: Get started with Storage Explorer
-      href: /azure/vs-azure-tools-storage-manage-with-storage-explorer
-    - name: Configure and Use the Storage Emulator with Visual Studio
-      href: /azure/vs-azure-tools-storage-emulator-using
-    - name: Constructing filter strings for the Table Designer
-      href: vs-azure-tools-table-designer-construct-filter-strings.md
-    - name: Manage Azure blob storage resources with Storage Explorer
-      href: /azure/vs-azure-tools-storage-explorer-blobs
-    - name: Use Storage Explorer with Azure file storage
-      href: /azure/vs-azure-tools-storage-explorer-files
-    - name: Microsoft Azure Storage Explorer release notes
-      href: /azure/vs-azure-tools-storage-explorer-relnotes
-    - name: Storage Explorer accessibility
-      href: /azure/vs-azure-tools-storage-explorer-accessibility
   - name: Cloud Explorer
     items:
     - name: Browse and manage storage resources by using Server Explorer

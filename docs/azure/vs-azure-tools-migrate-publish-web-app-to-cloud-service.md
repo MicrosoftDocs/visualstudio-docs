@@ -5,7 +5,7 @@ author: ghogen
 manager: jmartens
 ms.subservice: azure-development
 ms.topic: how-to
-ms.date: 11/10/2017
+ms.date: 03/06/2024
 ms.author: ghogen
 ---
 # Migrate and publish a web application to an Azure Cloud Service from Visual Studio

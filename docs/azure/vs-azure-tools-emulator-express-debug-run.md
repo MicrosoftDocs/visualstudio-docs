@@ -5,7 +5,7 @@ author: mikejo5000
 manager: jmartens
 ms.subservice: azure-development
 ms.topic: how-to
-ms.date: 03/06/2017
+ms.date: 03/06/2024
 ms.author: mikejo
 ---
 # Using Emulator Express to run and debug an Azure cloud service on a local machine

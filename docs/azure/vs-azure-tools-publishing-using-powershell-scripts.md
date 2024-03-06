@@ -5,7 +5,7 @@ author: ghogen
 manager: jmartens
 ms.subservice: azure-development
 ms.topic: conceptual
-ms.date: 11/22/2021
+ms.date: 03/06/2024
 ms.author: ghogen
 ---
 # Using Windows PowerShell scripts to publish to dev and test environments

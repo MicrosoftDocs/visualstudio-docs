@@ -5,7 +5,7 @@ author: ghogen
 manager: jmartens
 ms.subservice: azure-development
 ms.topic: conceptual
-ms.date: 06/28/2018
+ms.date: 03/06/2024
 ms.author: mikejo
 ---
 # Set up diagnostics for Azure Cloud Services and virtual machines

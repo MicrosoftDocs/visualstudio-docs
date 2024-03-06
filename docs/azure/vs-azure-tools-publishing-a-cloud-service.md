@@ -5,7 +5,7 @@ author: ghogen
 manager: jmartens
 ms.subservice: azure-development
 ms.topic: conceptual
-ms.date: 11/11/2017
+ms.date: 03/06/2024
 ms.author: ghogen
 ---
 # Publishing a cloud service using Visual Studio
