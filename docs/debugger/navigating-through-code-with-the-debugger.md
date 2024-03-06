@@ -225,7 +225,7 @@ If you've loaded debugging symbols for Microsoft system code and disabled Just M
 
 ::: moniker range=">=vs-2022"
 Starting in Visual Studio 2022 version 17.7, you can autodecompile .NET code when stepping into external code without the need to manually load debugging symbols. For more information, see [Generate source code from .NET assemblies while debugging](../debugger/decompilation.md).
-:::
+::: moniker-end
 
 To learn about loading Microsoft symbols, see [Configure location of symbol files and loading options](specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md#configure-location-of-symbol-files-and-loading-options).
 

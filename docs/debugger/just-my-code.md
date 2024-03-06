@@ -90,7 +90,7 @@ Double-clicking an expanded external code line in the **Call Stack** window high
 
 ::: moniker range=">=vs-2022"
 Starting in Visual Studio 2022 version 17.7, you can autodecompile .NET code by double-clicking external code in the Call Stack window. For more information, see [Generate source code from .NET assemblies while debugging](../debugger/decompilation.md).
-:::
+::: moniker-end
 
 ## <a name="BKMK__NET_Framework_Just_My_Code"></a>.NET Just My Code
 

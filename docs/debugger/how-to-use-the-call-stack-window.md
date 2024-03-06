@@ -135,7 +135,7 @@ Right-click in the **Call Stack** window and set or clear **Show \<**_the inform
 ## Autodecompile .NET external code
 
 Starting in Visual Studio 2022 version 17.7, you can autodecompile .NET code by double-clicking external code in the Call Stack window. For more information, see [Generate source code from .NET assemblies while debugging](../debugger/decompilation.md).
-:::
+::: moniker-end
 
 ## <a name="bkmk_symbols"></a> Load symbols for a module (C#, C++, Visual Basic, F#)
 
