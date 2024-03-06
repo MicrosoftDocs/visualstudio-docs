@@ -88,6 +88,10 @@ To view the code in a collapsed **[External Code]** frame, right-click in the **
 
 Double-clicking an expanded external code line in the **Call Stack** window highlights the calling code line in green in the source code. For DLLs or other modules not found or loaded, a symbol or source not found page may open.
 
+::: moniker range=">=vs-2022"
+Starting in Visual Studio 2022 version 17.7, you can autodecompile .NET code by double-clicking external code in the Call Stack window. For more information, see [Generate source code from .NET assemblies while debugging](../debugger/decompilation.md).
+:::
+
 ## <a name="BKMK__NET_Framework_Just_My_Code"></a>.NET Just My Code
 
 In .NET projects, Just My Code uses symbol (*.pdb*) files and program optimizations to classify user and non-user code. The .NET debugger considers optimized binaries and non-loaded *.pdb* files to be non-user code.
