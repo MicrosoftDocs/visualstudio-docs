@@ -1,7 +1,7 @@
 ---
 title: Decompile .NET code while debugging
 description: Generate and embed source code from .NET assemblies while debugging in Visual Studio. Extract and view the embedded source code.
-ms.date: 06/29/2023
+ms.date: 03/06/2024
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -38,6 +38,32 @@ The following illustration shows the **No Symbols Loaded** message.
 The following illustration shows the **Source Not Found** message.
 
 ![Screenshot of source not found document](media/decompilation-no-source-found.png)
+
+::: moniker range=">= vs-2022"
+## Autodecompile code
+
+Starting in Visual Studio 2022 version 17.7, the Visual Studio Debugger supports autodecompilation of external .NET code. You can autodecompile when stepping into external code or when using the Call Stack window.
+
+If you step into code that has been implemented externally, the debugger automatically decompiles it and displays the current point of execution. If you want to step into external code, [Just My Code](../debugger/just-my-code.md) must be disabled.
+
+You can easy decompile from the Call Stack window without disabling Just My Code.
+
+To autodecompile from the Call Stack window:
+
+1. While debugging with the Call Stack window open, select **Show External Code**.
+
+1. In the Call Stack window, double-click any stack frame. The debugger decompiles the code, and then navigates directly to the current point of execution.
+
+   ![Screenshot of Call Stack window showing external code.](media/vs-2022/decompilation-call-stack-window.png)
+
+   All of the decompiled code is also shown under the External Sources node in Solution Explorer, make it easy to browse through the external files if needed.
+
+   ![Screenshot of External Sources node showing decompiled assemblies.](media/vs-2022/decompilation-external-sources-node.png)
+
+   You can debug the decompiled code and set breakpoints.
+
+To disable the automatic decompilation of external code, go to **Tools > Options > Debugging > General** and deselect **Automatically decompile to source when needed (managed only)**.
+::: moniker-end
 
 ## Generate and embed sources for an assembly
 
