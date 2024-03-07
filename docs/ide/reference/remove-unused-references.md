@@ -18,7 +18,7 @@ This refactoring applies to:
 - C#
 - Visual Basic
 
-**What:** For [SDK style projects](/visualstudio/msbuild/how-to-use-project-sdk) only, lets you remove unused references.
+**What:** For [SDK style projects](../../msbuild/how-to-use-project-sdk.md) only, lets you remove unused references.
 
 **When:** You want to clean up project references and NuGet packages that have no usage.
 
