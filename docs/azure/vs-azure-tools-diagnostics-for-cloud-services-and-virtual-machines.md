@@ -19,7 +19,7 @@ In this article, we show you how to use Visual Studio to turn on and set up Azur
 :::moniker range="vs-2019"
 You can use one of the following options to set up Azure Diagnostics:
 
-* Change diagnostics settings in the **Diagnostics Configuration** dialog box in Visual Studio. The settings are saved in a file called *diagnostics.wadcfgx*. You also you can directly modify the configuration file. If you manually update the file, the configuration changes take effect the next time you deploy the cloud service to Azure or run the service in the emulator.
+* Change diagnostics settings in the **Diagnostics Configuration** dialog box in Visual Studio. The settings are saved in a file called *diagnostics.wadcfgx*. You also can directly modify the configuration file. If you manually update the file, the configuration changes take effect the next time you deploy the cloud service to Azure or run the service in the emulator.
 
 * Use Cloud Explorer or Server Explorer in Visual Studio 2019 or earlier to change the diagnostics settings for a cloud service or virtual machine that is running.
 
@@ -27,7 +27,7 @@ You can use one of the following options to set up Azure Diagnostics:
 
 :::moniker range=">=vs-2022"
 
-To set up Azure Diagnostics, change diagnostics settings in the **Diagnostics Configuration** dialog box in Visual Studio. The settings are saved in a file called *diagnostics.wadcfgx*. You also you can directly modify the configuration file. If you manually update the file, the configuration changes take effect the next time you deploy the cloud service to Azure or run the service in the emulator.
+To set up Azure Diagnostics, change diagnostics settings in the **Diagnostics Configuration** dialog box in Visual Studio. The settings are saved in a file called *diagnostics.wadcfgx*. You also can directly modify the configuration file. If you manually update the file, the configuration changes take effect the next time you deploy the cloud service to Azure or run the service in the emulator.
 
 > [!WARNING]
 > In Visual Studio 2022, the deprecated Azure Storage Emulator was replaced with the [Azurite emulator](/azure/storage/common/storage-use-azurite) when debugging your Cloud Service projects. This Azurite emulator does not work with the Azure Diagnostics plugin, which provides support for Azure Diagnostics when running and testing locally. If you need the plugin for local running and testing scenarios, you can either update the connection string in the local service configuration (`.cscfg`) to an Azure storage account (see [Manage connection strings for storage accounts](vs-azure-tools-configure-roles-for-cloud-service.md#manage-connection-strings-for-storage-accounts)), or download the previous [Azure storage emulator](/azure/storage/common/storage-use-emulator).
