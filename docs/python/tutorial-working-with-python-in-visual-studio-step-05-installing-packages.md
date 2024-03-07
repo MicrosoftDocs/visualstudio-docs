@@ -35,37 +35,46 @@ In Step 5 of the tutorial, you learn how to:
 
 Visual Studio provides two places to view information about Python environments:
 
-- The **Python Environments** node in **Solution Explorer** lists environments currently in use by your project. If you have more than one environment for a project, Visual Studio shows the active environment in bold. You can expand a specific environment to see the set of installed packages. When an environment is active, you can import its installed packages and use them in your code.
-
-   :::image type="content" source="media/environments/environments-installed-packages.png" alt-text="Screenshot that shows installed Python packages for an environment in Solution Explorer in Visual Studio." border="false" lightbox="media/environments/environments-installed-packages.png":::
-
-- The **Python Environments** window shows all available environments and their installed packages. You can view environments installed by using the Visual Studio Installer and environments installed separately. The available environments include global, virtual, and conda environments. Visual Studio shows the default Python environment for new projects in bold.
-
-Use one of the following methods to open the **Python Environments** window:
-
-- To access the window from the main toolbar in Visual Studio, select **View** > **Other Windows** > **Python Environments**:
+- The **Python Environments** _node_ in **Solution Explorer** lists environments currently in use by your project. If you have more than one environment for a project, Visual Studio shows the active environment in bold. You can expand a specific environment to see the set of installed packages. When an environment is active, you can import its installed packages and use them in your code.
 
    :::moniker range=">=vs-2022"
 
-   :::image type="content" source="media/environments/environments-default-view-2022.png" alt-text="Screenshot that shows how to open the Python Environments window in Visual Studio 2022." border="false" lightbox="media/environments/environments-default-view-2022.png":::
+   :::image type="content" source="media/python-environments-node-2022.png" alt-text="Screenshot that shows the Python Environments node in Solution Explorer in Visual Studio 2022." border="false" lightbox="media/python-environments-node-2022.png":::
 
    :::moniker-end
    :::moniker range="<=vs-2019"
 
-   :::image type="content" source="media/environments/environments-default-view-2019.png" alt-text="Screenshot that shows how to open the Python Environments window in Visual Studio 2019." border="false" lightbox="media/environments/environments-default-view-2019.png":::
+   :::image type="content" source="media/python-environments-node-2019.png" alt-text="Screenshot that shows the Python Environments node in Solution Explorer in Visual Studio 2019." border="false" lightbox="media/python-environments-node-2019.png":::
 
    :::moniker-end
 
-- If you have a Python project open in **Solution Explorer**, right-click the **Python Environments** node and select **View All Python Environments**:
+- The **Python Environments** _window_ displays all available environments and their installed packages. You can view environments installed by using the Visual Studio Installer and environments installed separately. The available environments include global, virtual, and conda environments. Visual Studio shows the default Python environment for new projects in bold.
+
+   :::moniker range=">=vs-2022"
+
+   :::image type="content" source="media/environments/environments-default-view-2022.png" alt-text="Screenshot that shows the Python Environments window in Visual Studio 2022." border="false" lightbox="media/environments/environments-default-view-2022.png":::
+
+   :::moniker-end
+   :::moniker range="<=vs-2019"
+
+   :::image type="content" source="media/environments/environments-default-view-2019.png" alt-text="Screenshot that shows the Python Environments window in Visual Studio 2019." border="false" lightbox="media/environments/environments-default-view-2019.png":::
+
+   :::moniker-end
+
+Use one of the following methods to open the **Python Environments** window:
+
+- To access the window from the main toolbar in Visual Studio, select **View** > **Other Windows** > **Python Environments**.
+
+- If you have a Python project open in **Solution Explorer**, right-click the **Python Environments** node under the project, and select **View All Python Environments**:
 
    :::moniker range="vs-2022"
 
-   :::image type="content" source="media/environments/environments-view-all-2022.png" alt-text="Screenshot that shows how to open the Python Environments window with right-click on the project in Visual Studio 2022." border="false" lightbox="media/environments/environments-view-all-2022.png":::
+   :::image type="content" source="media/environments/environments-view-all-2022.png" alt-text="Screenshot that shows how to open the Python Environments window with right-click in Visual Studio 2022." border="false" lightbox="media/environments/environments-view-all-2022.png":::
 
    :::moniker-end
    :::moniker range="<=vs-2019"
 
-   :::image type="content" source="media/environments/environments-view-all-2019.png" alt-text="Screenshot that shows how to open the Python Environments window with right-click on the project in Visual Studio 2019." border="false" lightbox="media/environments/environments-view-all-2019.png":::
+   :::image type="content" source="media/environments/environments-view-all-2019.png" alt-text="Screenshot that shows how to open the Python Environments window with right-click in Visual Studio 2019." border="false" lightbox="media/environments/environments-view-all-2019.png":::
 
    :::moniker-end
 
