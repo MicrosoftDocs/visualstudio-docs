@@ -25,7 +25,7 @@ This refactoring applies to:
 **Why:** Removing project references that have no usage can help save space and reduce startup time of your application, because it takes time to load each module and avoids having the compiler load metadata that will never be used.
 
 > [!NOTE]
-> You can upgrade your app to the latest .NET versions with the [.NET Upgrade Assistant](https://dotnet.microsoft.com/platform/upgrade-assistant) right from Visual Studio.
+> You can use the [.NET Upgrade Assistant](https://dotnet.microsoft.com/platform/upgrade-assistant) right from Visual Studio to upgrade your app to the latest .NET versions.
 
 ## How-to
 
