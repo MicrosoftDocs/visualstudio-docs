@@ -107,6 +107,8 @@
       href: vs-azure-tools-service-configurations-and-profiles-how-to-manage.md
     - name: Set up named authentication credentials
       href: vs-azure-tools-setting-up-named-authentication-credentials.md
+    - name: Construct filter strings in the table designer
+      href: vs-azure-tools-table-designer-construct-filter-strings.md
   - name: Cloud Explorer
     items:
     - name: Browse and manage storage resources by using Server Explorer

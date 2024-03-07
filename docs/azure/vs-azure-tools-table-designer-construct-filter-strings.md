@@ -7,6 +7,7 @@ ms.subservice: azure-development
 ms.topic: conceptual
 ms.date: 11/18/2016
 ms.author: ghogen
+monikerRange: vs-2019d
 ---
 # Constructing Filter Strings for the Table Designer
 
