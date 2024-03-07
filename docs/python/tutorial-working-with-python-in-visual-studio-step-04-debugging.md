@@ -28,7 +28,7 @@ In Step 4 of the tutorial, you learn how to:
 
 ## Prerequisites
 
-- A Python application project that has a Python file (_.py_) with code created in [Step 3: Use the Interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md).
+- A Python application project that has a Python file (_.py_) with code created in [Step 2: Write and run Python code](tutorial-working-with-python-in-visual-studio-step-02-writing-code.md).
 
 ## Prepare the Python file
 
