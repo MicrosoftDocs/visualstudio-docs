@@ -5,8 +5,9 @@ author: ghogen
 manager: jmartens
 ms.subservice: azure-development
 ms.topic: conceptual
-ms.date: 11/11/2017
+ms.date: 03/06/2024
 ms.author: ghogen
+monikerRange: <=vs-2019
 ---
 # Set up named authentication credentials
 
