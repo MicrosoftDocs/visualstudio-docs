@@ -18,7 +18,7 @@ This article presents step 6 in the tutorial series _Work with Python in Visual 
 
 Git is a version control system that helps you keep track of changes to your code files and projects. By storing your Python project files in Git, you can enable multiple developers to contribute to your files and maintain the integrity of your project over time.
 
-In the previous Steps in this tutorial, you create a Python application and make various changes to the code. In Step 6, you can add your project to a Git repository. You explore how to work with Git tools in Visual Studio to provide source control for your Python projects.
+In the previous Steps in this tutorial, you create a Python application and make various changes to the code. In Step 6, you can add your application to a Git repository. You explore how to work with Git tools in Visual Studio to provide source control for your Python projects.
 
 In Step 6 of the tutorial, you learn how to:
 
