@@ -13,9 +13,9 @@ monikerRange: <=vs-2019
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
-To filter data in an Azure table that is displayed in the Visual Studio **Table Designer**, you construct a filter string and enter it into the filter field. The filter string syntax is defined by the WCF Data Services and is similar to a SQL WHERE clause, but is sent to the Table service via an HTTP request. The **Table Designer** handles the proper encoding for you, so to filter on a desired property value, you need only enter the property name, comparison operator, criteria value, and optionally, Boolean operator in the filter field. You do not need to include the $filter query option as you would if you were constructing a URL to query the table via the [Storage Services REST API Reference](/rest/api/storageservices/).
+To filter data in an Azure table that is displayed in the Visual Studio **Table Designer**, you construct a filter string and enter it into the filter field. The filter string syntax is defined by the WCF Data Services and is similar to a SQL WHERE clause, but is sent to the Table service via an HTTP request. The **Table Designer** handles the proper encoding for you, so to filter on a desired property value, you need only enter the property name, comparison operator, criteria value, and optionally, Boolean operator in the filter field. You don't need to include the `$filter` query option as you would if you were constructing a URL to query the table via the [Storage Services REST API Reference](/rest/api/storageservices/).
 
-The WCF Data Services are based on the [Open Data Protocol](https://www.odata.org/) (OData). For details on the filter system query option (**$filter**), see the [OData URI Conventions specification](https://www.odata.org/documentation/odata-version-2-0/uri-conventions/).
+WCF Data Services is based on the [Open Data Protocol](https://www.odata.org/) (OData). For details on the filter system query option (**$filter**), see the [OData URI Conventions specification](https://www.odata.org/documentation/odata-version-2-0/uri-conventions/).
 
 ## Comparison Operators
 
@@ -35,7 +35,7 @@ The following logical operators are supported for all property types:
 
 When constructing a filter string, the following rules are important:
 
-* Use the logical operators to compare a property to a value. Note that it is not possible to compare a property to a dynamic value; one side of the expression must be a constant.
+* Use the logical operators to compare a property to a value. It isn't possible to compare a property to a dynamic value; one side of the expression must be a constant.
 * All parts of the filter string are case-sensitive.
 * The constant value must be of the same data type as the property in order for the filter to return valid results. For more information about supported property types, see [Understanding the Table Service Data Model](/rest/api/storageservices/Understanding-the-Table-Service-Data-Model).
 
@@ -48,13 +48,13 @@ The following example filters on the **PartitionKey** and **RowKey** properties;
 PartitionKey eq 'Partition1' and RowKey eq '00001'
 ```
 
-You can enclose each filter expression in parentheses, although it is not required:
+You can enclose each filter expression in parentheses, although it's not required:
 
 ```
 (PartitionKey eq 'Partition1') and (RowKey eq '00001')
 ```
 
-Note that the Table service does not support wildcard queries, and they are not supported in the Table Designer either. However, you can perform prefix matching by using comparison operators on the desired prefix. The following example returns entities with a LastName property beginning with the letter 'A':
+The Table service doesn't support wildcard queries, and they aren't supported in the Table Designer either. However, you can perform prefix matching by using comparison operators on the desired prefix. The following example returns entities with a LastName property beginning with the letter 'A':
 
 ```
 LastName ge 'A' and LastName lt 'B'
@@ -84,13 +84,13 @@ The following example returns all entities where the IsActive property is set to
 IsActive eq true
 ```
 
-You can also write this filter expression without the logical operator. In the following example, the Table service will also return all entities where IsActive is **true**:
+You can also write this filter expression without the logical operator. In the following example, the Table service also returns all entities where IsActive is **true**:
 
 ```
 IsActive
 ```
 
-To return all entities where IsActive is false, you can use the not operator:
+To return all entities where IsActive is false, you can use the `not` operator:
 
 ```
 not IsActive
