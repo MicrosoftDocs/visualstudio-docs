@@ -73,6 +73,8 @@
       href: vs-azure-tools-multiple-services-project-configurations.md
     - name: How to upgrade projects to the current version of the Azure Tools
       href: vs-azure-tools-upgrade-projects-to-the-current-version-of-the-azure-tools.md
+    - name: Construct filter strings in the table designer
+      href: vs-azure-tools-table-designer-construct-filter-strings.md
     - name: Access private Azure clouds
       href: vs-azure-tools-access-private-azure-clouds-with-visual-studio.md
   - name: Test and debug a cloud service
@@ -107,8 +109,6 @@
       href: vs-azure-tools-service-configurations-and-profiles-how-to-manage.md
     - name: Set up named authentication credentials
       href: vs-azure-tools-setting-up-named-authentication-credentials.md
-    - name: Construct filter strings in the table designer
-      href: vs-azure-tools-table-designer-construct-filter-strings.md
   - name: Cloud Explorer
     items:
     - name: Browse and manage storage resources by using Server Explorer
