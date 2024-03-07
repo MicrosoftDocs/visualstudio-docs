@@ -112,6 +112,8 @@ To prepare for the exercise, follow these steps to update your Python project fi
 
    :::image type="content" source="media/packages-unresolved-import-2019.png" alt-text="Screenshot that shows how Visual Studio 2019 uses special formatting to indicate that the matplotlib import statement is unresolved." border="false" lightbox="media/packages-unresolved-import-2019.png":::
 
+   :::moniker-end
+
    The `matplotlib` import statement is unresolved because the necessary packages aren't installed to the default global environment. You learn how to install the required packages in the next section.
 
 ## Install packages for the Python environment
@@ -127,9 +129,6 @@ To resolve the `matplotlib` import statement, you need to install the necessary 
    :::moniker-end
 
    Visual Studio shows the list of packages currently installed in the default environment.
-
-   > [!NOTE]
-   > If the view doesn't refresh to show the list of installed packages, select another environment, and then reselect the default environment.
 
 1. In the **Search** field, enter `matplotlib`. In the results list, select the **Run command: pip install matplotlib** option.
 
