@@ -255,7 +255,7 @@ Here are the volumes that are mounted in your container. What you see in your co
 | **TokenService.Proxy** | Contains the files required to run a service the enables VisualStudioCredential to communicate with Visual Studio on the host. |
 
 > [!NOTE]
-> If you're using the container runtime running in Windows Subsystem for Linux (WSL), set the environment variable `VSCT_WslDaemon=1` to use the correct volume mounts.
+> If you're using the ARM64 Docker runtime running in Windows Subsystem for Linux (WSL), set the environment variable `VSCT_WslDaemon=1` to use the correct volume mounts.
 
 :::moniker-end
 
