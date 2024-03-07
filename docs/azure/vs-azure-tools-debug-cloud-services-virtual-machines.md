@@ -91,7 +91,7 @@ If you enable remote debugging for a cloud service using the procedure in this s
 
 1. Accept prompts to allow access through the firewall. You should see a message indicating that *msvsmon.exe* has started listening for connections.
 
-1. In the Azure Portal, open the resource group and get the public IP Address for the Cloud Service (extended support).
+1. In the Azure portal, open the resource group and get the public IP Address for the Cloud Service (extended support).
 
    ![Screenshot showing where to find the public IP address for the cloud service.](./media/vs-2022/azure-resource-group-ip-address.png)
 
@@ -162,7 +162,7 @@ If you enable remote debugging for a cloud service using the procedure in this s
 
    ![Screenshot showing that msvsmon.exe is listening for connections.](./media/vs-2022/msvsmon-started-a-new-server.png)
 
-1. In the Azure Portal, open the resource group and get the public IP Address for the Cloud Service (extended support).
+1. In the Azure portal, open the resource group and get the public IP Address for the Cloud Service (extended support).
 
    :::image type="content" alt-text="Screenshot showing where to find the public IP address for the cloud service." source="./media/vs-2022/azure-resource-group-ip-address.png" lightbox="./media/vs-2022/azure-resource-group-ip-address.png":::
 
