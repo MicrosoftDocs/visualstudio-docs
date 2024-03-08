@@ -27,7 +27,7 @@ ms.subservice: general-ide
 
 ## Overview
 
-This rule flags places where JSON does not conform to required format. The rule applies to identified JSON, which is determined by the inclusion of an inline comment or comment preceding the JSON string, such as `//lang=json` or `//lang=json,strict`. The latter comment uses strict mode for JSON interpretation.
+This rule flags places where a JSON literal string does not conform to required syntax. The rule applies to identified JSON, which is determined by the inclusion of an inline comment or comment preceding the JSON string, such as `//lang=json` or `//lang=json,strict`. The latter comment uses strict mode for JSON interpretation.
 
 This rule is IDE-only and not applicable for command-line scenarios.
 
@@ -35,14 +35,13 @@ This rule is IDE-only and not applicable for command-line scenarios.
 
 Options specify the behavior that you want the rule to enforce.
 
-For code recognized as JSON, you set the options in Visual Studio by selecting **Tools** > **Options** > **Text Editor** > **C#** > **Advanced**. The following options are available under the **JSON strings** section:
+For code recognized as JSON, you set the options in Visual Studio by selecting **Tools** > **Options** > **Text Editor** > **C#** | **Visual Basic** > **Advanced**. The following options are available under the **JSON strings** section:
 
 | Property                                      | Description                                           |
 |-----------------------------------------------|-------------------------------------------------------|
 | **Colorize JSON strings**                     | Specifies whether to colorize JSON strings.           |
 | **Report invalid JSON**                       | Specifies whether to report invalid JSON.             |
-| **Highlight related components under cursor** | Specifies whether [Quick Actions](../../ide/quick-actions.md) </br>
-                                                  uses highlighting.     |
+| **Highlight related components under cursor** | Specifies whether [Quick Actions](../../ide/quick-actions.md)</br>uses highlighting.     |
 
 ## Example
 

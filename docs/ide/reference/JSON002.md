@@ -29,7 +29,7 @@ ms.subservice: general-ide
 
 This rule flags places where a JSON literal string is detected but is not explicitly identifed. JSON is identified by using an inline comment or comment preceding the JSON string such as `//lang=json` or `//lang=json,strict`. The latter comment uses strict mode for JSON interpretation.
 
-This rule may not be flagged in the editor if the JSON editor options are enabled in **Tools** > **Options** > **Text Editor** > **C#** > **Advanced** > **JSON strings**.
+This rule may not be flagged in the editor if the JSON editor options are enabled in **Tools** > **Options** > **Text Editor** > **C#** | **Visual Basic** > **Advanced** > **JSON strings**.
 
 This rule is IDE-only and not applicable for command-line scenarios.
 
