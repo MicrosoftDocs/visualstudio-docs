@@ -75,7 +75,7 @@ The following resources will help you do the initial install of Visual Studio in
 
 - **[Review the Install Visual Studio documentation](install-visual-studio.md)** to get a high level overview of the installation options available to end users. [Select the workloads and components](workload-and-component-ids.md) that you want available for install on your client machines.  
 
-- **[Acquire the correct Visual Studio bootstrapper to install the product](create-a-network-installation-of-visual-studio.md#download-the-visual-studio-bootstrapper-to-create-the-layout).** There are different bootstrappers available for you to choose from. Some bootstrappers install a very particular version of the product, while other bootstrappers initialize the servicing baseline channel. 
+- **[Acquire the correct Visual Studio bootstrapper to install the product](create-a-network-installation-of-visual-studio.md#download-the-visual-studio-bootstrapper-to-create-the-layout).** There are different bootstrappers available for you to choose from. Some bootstrappers install a very particular version of the product, while other bootstrappers initialize the servicing baseline channel. You must be an administrator on the machine to execute any of the bootstrappers.
 
 - **[Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)**. Use a variety of parameters to programmatically control or customize your Visual Studio installation. You can build an installation script that automates the installation process. For more information, see [command line parameter examples](command-line-parameter-examples.md).
 
