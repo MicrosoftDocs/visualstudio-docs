@@ -2,7 +2,7 @@
 title: Install Visual Studio and choose your preferred features
 titleSuffix: ''
 description: Install Visual Studio quickly and with less system impact by choosing your preferred features to reduce the installation footprint.
-ms.date: 05/16/2023
+ms.date: 03/11/2024
 ms.custom: vs-acquisition
 ms.topic: conceptual
 helpviewer_keywords:
