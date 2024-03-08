@@ -60,7 +60,7 @@ Before you begin installing Visual Studio:
 
 1. Check the [system requirements](/visualstudio/releases/2019/system-requirements). These requirements help you know whether your computer supports Visual Studio 2019.
 
-1. Make sure that the user performing the installation has administrator permissions on the machine. For more information, see [User Permissions and Visual Studio](/visualstudio/ide/user-permissions-and-visual-studio).
+1. Make sure that the user performing the initial installation has administrator permissions on the machine. For more information, see [User Permissions and Visual Studio](/visualstudio/ide/user-permissions-and-visual-studio).
 
 1. Apply the latest Windows updates. These updates ensure that your computer has both the latest security updates and the required system components for Visual Studio.
 
@@ -76,7 +76,7 @@ For questions about running other versions of Visual Studio side by side with Vi
 
 1. Check the [system requirements](/visualstudio/releases/2022/system-requirements). These requirements help you know whether your computer supports Visual Studio 2022.
 
-1. Make sure that the user performing the installation has administrator permissions on the machine. For more information, see [User Permissions and Visual Studio](/visualstudio/ide/user-permissions-and-visual-studio).
+1. Make sure that the user performing the initial installation has administrator permissions on the machine. For more information, see [User Permissions and Visual Studio](/visualstudio/ide/user-permissions-and-visual-studio).
 
 1. Apply the latest Windows updates. These updates ensure that your computer has both the latest security updates and the required system components for Visual Studio.
 
@@ -94,7 +94,7 @@ You will need to decide which version and edition of Visual Studio to install. T
 
 ::: moniker range="vs-2019"
 
-- The latest release of Visual Studio 2019 that is hosted on Microsoft servers. To install this, click on the following button and then choose the edition you want. A small "bootstrapper" file will then be downloaded into your **Downloads** folder.
+- The latest release of Visual Studio 2019 that is hosted on Microsoft servers. To install this, click on the following button and then choose the edition you want. A small "bootstrapper" file will then be downloaded into your **Downloads** folder. 
 
  > [!div class="button"]
  > [Download Visual Studio](/visualstudio/releases/2019/release-notes/)
@@ -103,14 +103,14 @@ You will need to decide which version and edition of Visual Studio to install. T
 
 ::: moniker range=">=vs-2022"
 
-- The latest release of Visual Studio 2022 that is hosted on Microsoft servers. To install this, click on the following button and then choose the edition you want. A small "bootstrapper" file will then be downloaded into your **Downloads** folder.
+- The latest release of Visual Studio 2022 that is hosted on Microsoft servers. To install this, click on the following button and then choose the edition you want. A small "bootstrapper" file will then be downloaded into your **Downloads** folder. 
 
  > [!div class="button"]
  > [Download Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-install-visual-studio-page-cta)
 
 ::: moniker-end
 
-- If you already have Visual Studio installed, you can [install another version alongside it](/visualstudio/install/install-visual-studio-versions-side-by-side#install-different-editions-within-the-same-major-visual-studio-version-side-by-side) by choosing one that is offered in the Visual Studio Installer's **Available** tab.
+- If you already have Visual Studio installed, you can [install another version alongside it](/visualstudio/install/install-visual-studio-versions-side-by-side#install-different-editions-within-the-same-major-visual-studio-version-side-by-side) by choosing one that is offered in the Visual Studio Installer's **Available** tab. 
 
 ::: moniker range="vs-2019"
 
@@ -128,7 +128,7 @@ You will need to decide which version and edition of Visual Studio to install. T
 
 ## Step 3 - Initiate the installation
 
-If you downloaded a bootstrapper file, then you can use it to install Visual Studio. The bootstrapper will first install the latest version of the Visual Studio Installer. The installer is a separate program that provides everything you need to both install and customize Visual Studio.
+If you downloaded a bootstrapper file, then you can use it to install Visual Studio assuming you have administrator permissions. The bootstrapper will first install the latest version of the Visual Studio Installer. The installer is a separate program that provides everything you need to both install and customize Visual Studio.
 
 ::: moniker range="vs-2019"
 
