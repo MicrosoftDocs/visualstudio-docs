@@ -41,7 +41,7 @@ For code recognized as JSON, you set the options in Visual Studio by selecting *
 |-----------------------------------------------|-------------------------------------------------------|
 | **Colorize JSON strings**                     | Specifies whether to colorize JSON strings.           |
 | **Report invalid JSON**                       | Specifies whether to report invalid JSON.             |
-| **Highlight related components under cursor** | Specifies whether [Quick Actions](/ide/quick-actions.md) </br>
+| **Highlight related components under cursor** | Specifies whether [Quick Actions](../../ide/quick-actions.md) </br>
                                                   uses highlighting.     |
 
 ## Example
