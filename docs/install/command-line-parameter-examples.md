@@ -1,7 +1,7 @@
 ---
 title: Command-line parameter examples for installation
 description: Customize command-line parameter examples to create your own installation of Visual Studio by setting parameters, such as installPath, wait, all, remove, and more.
-ms.date: 8/8/2023
+ms.date: 3/11/2024
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
@@ -92,9 +92,9 @@ The following command is an example of using `--wait` with the PowerShell script
 * Create a layout that includes only the Visual Studio core editor (the most minimal Visual Studio configuration) and the English language pack. More layout creation examples can be found on the [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md#configure-the-contents-of-a-layout) page.
 
   ```shell
-   vs_professional.exe --layout C:\VS ^
+   vs_professional.exe --layout "C:\VS" ^
    --lang en-US ^
-   --add Microsoft.VisualStudio.Workload.CoreEditor
+   --add Microsoft.VisualStudio.Workload.CoreEditor ^
   ```
 
 ## Using --all to acquire the entire product
@@ -190,13 +190,13 @@ All of these examples assume you're installing a new product using a bootstrappe
 * Use export to save the selection from an installation. This example uses the installer already installed on the client machine. 
 
   ```shell
-  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" export --installPath "C:\VS" --config "C:\.vsconfig"
+  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" export --installPath "C:\VS" --config "C:\my.vsconfig"
   ```
 
 * Use export to save custom selection from scratch. This example uses the installer already installed on the client machine.
 
   ```shell
-  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" export --channelId VisualStudio.17.Release --productId Microsoft.VisualStudio.Product.Enterprise --add Microsoft.VisualStudio.Workload.ManagedDesktop --includeRecommended --config "C:\.vsconfig"
+  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" export --channelId VisualStudio.17.Release --productId Microsoft.VisualStudio.Product.Enterprise --add Microsoft.VisualStudio.Workload.ManagedDesktop --includeRecommended --config "C:\my.vsconfig"
   ```
 
 ## Using --config
