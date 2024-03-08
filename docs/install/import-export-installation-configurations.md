@@ -17,7 +17,7 @@ ms.subservice: installation
 ---
 # Import or export installation configurations
 
-You can use installation configuration files to configure what Visual Studio installs. To do so, export the workloads, components, and extensions information into a [.vsconfig file](#vsconfig-file-format) by using the Visual Studio Installer. You can then import the configuration into new or existing Visual Studio installations, use it to create or modify a layout or an offline installation, put it in a solution directory or repo and trigger an install of missing components, and share it with others.
+You can use installation configuration files to configure what Visual Studio installs. To do so, export the workloads, components, and Marketplace extension information into a `.vsconfig` file by using the Visual Studio Installer. Once you have a `*.vsconfig` file, you can further refine it manually and add or remove additional components. The structure and syntax of the `*.vsconfig` file is [described below](#vsconfig-file-format). You can then import the configuration file into a new or existing Visual Studio installation, use it to create or modify a layout or an offline installation, put it in a solution directory or repo and trigger an install of missing components, and share it with others.
 
 ## Export a configuration using the Visual Studio Installer
 
@@ -52,23 +52,23 @@ You can export a configuration programmatically by using the `export` verb as de
 
 ## Import a configuration using the Visual Studio Installer
 
-You can `import` an installation configuration file into a previously installed instance of Visual Studio, or you can use it to initialize a new installation of Visual Studio. Importing a configuration file into Visual Studio will install anything listed in the config file that's not already installed. 
+You can import an installation configuration file into a previously installed instance of Visual Studio, or you can use it to initialize a new installation of Visual Studio. Importing a configuration file into Visual Studio will install anything listed in the config file that's not already installed. 
 
 ### Use the Visual Studio Installer UI
 
 When you're ready to import an installation configuration file, follow these steps.
 
-1. Open the Visual Studio Installer.
+1. Open the Visual Studio Installer and close Visual Studio. Most Installer operations require Visual Studio to be closed. 
 
-1.  On either the **Installed** tab or the **Available** tab, select **More** > **Import configuration** on the product card.
+1. On either the **Installed** tab or the **Available** tab, select **More** > **Import configuration** on the product card.
 
-1. Locate the .vsconfig file that you want to import, and then choose **Review details**.
+1. Locate the `.vsconfig` file that you want to import, and then choose **Review details**.
 
 1. Make sure you've got the workloads and components that you want, and then choose **Close**.
 
 ### Programmatically use a configuration file to add components to an existing installation
  
-You can use the `--config` parameter to either initialize or modify an existing installation and add components. The example below uses the installer already on the client machine to `modify` an existing installation.
+You can use the `--config` parameter to either initialize or modify an existing installation and add components. The example below uses the installer on the client machine to `modify` an existing installation.
 
 ```shell
 "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modify --installPath "C:\VS" --config "C:\myconfig.vsconfig"
@@ -79,7 +79,7 @@ You can use the `--config` parameter to either initialize or modify an existing 
 
 ## Use a configuration file to initialize the contents of a layout
 
-Using the correct bootstrapper that corresponds to the version and edition of Visual Studio that you want, open an administrator command prompt and run the following command to use `--config` to configure the contents of a layout:
+Using the correct bootstrapper that corresponds to the version and edition of Visual Studio that you want, open an administrator command prompt and run the following command to use the `--config` parameter to configure the contents of a layout:
 
 ```shell
 vs_enterprise.exe --layout c:\localVSlayout --config c:\myconfig.vsconfig --lang en-US 
@@ -104,7 +104,7 @@ You can also generate a `*.vsconfig` file right from **Solution Explorer**.
 
 1. Make sure you've got the workloads and components that you want, and then choose **Export**.
 
-We also created an open source utility that locates Visual Studio installation *.vsconfig files downstream recursively and merges them all together. You can find [more information about the VSConfigFinder tool here](https://github.com/microsoft/VSConfigFinder).
+We also created an open source utility that locates Visual Studio installation configuration `*.vsconfig` files downstream recursively and merges them all together. You can find [more information about the VSConfigFinder tool here](https://github.com/microsoft/VSConfigFinder).
 
 ## vsconfig file format
 
@@ -122,6 +122,7 @@ The `*.vsconfig` file is a json file format that contains a components section a
 ```
 
 ### Extensions
+
 Starting in [Visual Studio 2022 version 17.9](/visualstudio/releases/2022/release-notes), you can specify extensions in the `*.vsconfig` file and use the Visual Studio Installer to load them machine wide making them available for all users. Starting in Visual Studio 2022 version 17.10 Preview, you can use the Visual Studio Installer to `export` Visual Studio Marketplace extensions into the *.vsconfig file that were loaded in a machine wide context as [described previously](#export-a-configuration-using-the-visual-studio-installer). 
 
 There are a few known caveats with supporting extensions in the config file.
@@ -129,7 +130,7 @@ There are a few known caveats with supporting extensions in the config file.
 1. Since these extensions are installed machine wide, to install them you must have admin permissions or have been granted control of the installer via the [AllowStandardUserControl](https://aka.ms/vs/setup/policies) policy. Note that any extensions previously installed by the Visual Studio Extension Manager had the capability of being (and were typically) installed per user, not machine wide, and the user didn't need to have admin permissions to install.
 1. The Visual Studio Installer currently only supports importing certain types of extensions, such as those contained in a `*.vsix` package or those that aren't exceedingly "complicated". If you have an extension that is not being loaded via a config file properly, please let us know about it via a new [Developer Community suggestion](https://developercommunity.visualstudio.com/VisualStudio/suggest).  
 1. Only extensions that are hosted on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) will trigger the automatic "missing" detection and installation if the *.vsconfig file is in a solution directory. If you'd like this logic to include extensions that were installed from a non-Marketplace location, [please provide details about your scenario here](https://developercommunity.visualstudio.com/t/VS-solution-load-should-detect-and-promp/10607414).
-1. You will need to use the new `--allowUnsignedExtensions` parameter to programmatically allow unsigned extensions to be loaded. This can also be included in the *response.json* if installing from a layout. Use the `"allowUnsignedExtensions" : true` syntax as described in the [Example customized layout response file content](/visualstudio/install/automated-installation-with-response-file#example-customized-layout-response-file-content) documentation
+1. If you are programmatically using a `*.vsconfig` file to add extensions, then you will also need to use the new [`--allowUnsignedExtensions` parameter](use-command-line-parameters-to-install-visual-studio.md) to allow **un**signed extensions to be loaded in `--passive` or `--quiet` context. If you're installing from a layout, you can add the [`"allowUnsignedExtensions" : true` syntax to your *response.json* file](/visualstudio/install/automated-installation-with-response-file#example-customized-layout-response-file-content) to achieve a similar effect. 
 
 All machine-wide extensions are automatically updated typically once a day via a scheduled task. You can find more information [here](/visualstudio/ide/finding-and-using-visual-studio-extensions#automatic-extension-updates).
 
@@ -149,8 +150,9 @@ The .vsconfig file format that includes extensions should look like this.
     // Extensions are optional in .vsconfig, so if you don't want any, you can delete the entire extensions section.
     // The extensions must be in a *.vsix package
     // Make sure that the extensions you specify are designed to work with that version of Visual Studio.
-    // example syntax:
-    "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ImageOptimizer64bit",
+    // examples below
+    "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ImageOptimizer64bit",   //unsigned extension
+    "https://marketplace.visualstudio.com/items?itemName=vsext.RegexMatchVisualizer",  //signed extension
     "c:\\mylocaldrive\\someextension.vsix",
     "\\\\server\\share\\myextension.vsix",
     "https://myweb/anotherextension.vsix"
