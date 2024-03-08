@@ -23,7 +23,8 @@ You can use installation configuration files to configure what Visual Studio ins
 
 You can export an installation configuration file from a previously installed instance of Visual Studio. 
 
-> Starting with Visual Studio 2022 version 17.10 Preview, you can now export [Visual Studio Marketplace extensions](https://marketplace.visualstudio.com/vs) that were loaded in a machine wide context into a `*.vsconfig` file. If you'd like the `export` functionality to support additional types of extensions, [please let us know](https://developercommunity.visualstudio.com/t/Ability-to-export-non-marketplace-or-use/10602937).
+> [!NOTE]
+> Starting with Visual Studio 2022 version 17.10 Preview, you can now export [Visual Studio Marketplace extensions](https://marketplace.visualstudio.com/vs) that were loaded in a machine wide context into a *.vsconfig file. If you'd like the `export` functionality to support additional types of extensions, [please let us know](https://developercommunity.visualstudio.com/t/Ability-to-export-non-marketplace-or-use/10602937).
 
 ### Use the Visual Studio Installer UI
 
@@ -74,7 +75,7 @@ You can use the `--config` parameter to either initialize or modify an existing 
 ```
 
 > [!NOTE]
-> To add components to an existing installation by using a (_*.vsconfig_) configuration file, you'll need to `modify` your installed product and **not** `update` it. `Update` just updates existing installed components to the latest version. To learn more about the different installer operations, refer to the [Install Visual Studio from the command line](use-command-line-parameters-to-install-visual-studio.md) documentation.
+> To add components to an existing installation by using a config file (_*.vsconfig_), you'll need to `modify` your installed product and **not** `update` it. `Update` just updates existing installed components to the latest version. To learn more about the different installer operations, refer to the [Install Visual Studio from the command line](use-command-line-parameters-to-install-visual-studio.md) documentation.
 
 ## Use a configuration file to initialize the contents of a layout
 
@@ -88,7 +89,8 @@ vs_enterprise.exe --layout c:\localVSlayout --config c:\myconfig.vsconfig --lang
 
 If you save a `*.vsconfig` file into your solution root directory and then open a solution, Visual Studio will automatically detect any missing components and will prompt you to install them.
 
-> [NOTE!]: If your `*.vsconfig` file contains extensions, then only those extensions that are hosted on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) will trigger the automatic "is-missing" detection and installation. If you would like this logic to include extensions that were installed from a non-Marketplace location, please [provide details about your scenario here](https://developercommunity.visualstudio.com/t/post/10607414).
+> [!NOTE]
+> If your `*.vsconfig` file contains extensions, then only those extensions that are hosted on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) will trigger the automatic "is-missing" detection and installation. If you would like this logic to include extensions that were installed from a non-Marketplace location, please [provide details about your scenario here](https://developercommunity.visualstudio.com/t/post/10607414).
 
 ![Solution Explorer suggests additional components](../install/media/vs-2019/solution-explorer-config-file.png)
 
@@ -120,14 +122,13 @@ The `*.vsconfig` file is a json file format that contains a components section a
 ```
 
 ### Extensions
-Starting in [Visual Studio 2022 version 17.9](/visualstudio/releases/2022/release-notes), you can manually edit a `*.vsconfig` file and include extensions. The Visual Studio Installer will then load these extensions into Visual Studio and make them available for all users to use. 
 
-Starting in Visual Studio 2022 version 17.10 Preview, you can use the Visual Studio Installer to `export` Visual Studio Marketplace extensions into the `*.vsconfig` file that were loaded in a machine wide context as [described previously](#export-a-configuration-using-the-visual-studio-installer). 
+Starting in [Visual Studio 2022 version 17.9](/visualstudio/releases/2022/release-notes), you can specify extensions in the `*.vsconfig` file and use the Visual Studio Installer to load them machine wide making them available for all users. Starting in Visual Studio 2022 version 17.10 Preview, you can use the Visual Studio Installer to `export` Visual Studio Marketplace extensions into the *.vsconfig file that were loaded in a machine wide context as [described previously](#export-a-configuration-using-the-visual-studio-installer). 
 
 There are a few known caveats with supporting extensions in the config file.
 
-1. Since these extensions are installed machine wide, to install you must have admin permissions or have been granted control of the installer via the [AllowStandardUserControl](https://aka.ms/vs/setup/policies) policy. Note that any extensions previously installed by the Visual Studio Extension Manager had the capability of being (and were typically) installed per user, not machine wide, and the user didn't need to have admin permissions to install.
-1. The Visual Studio Installer only supports importing certain types of extensions, such as those contained in a `*.vsix` package or those that aren't exceedingly "complicated". If you have an extension that is not being loaded via a config file properly, please let us know about it via a new [Developer Community suggestion](https://developercommunity.visualstudio.com/VisualStudio/suggest).  
+1. Since these extensions are installed machine wide, to install them you must have admin permissions or have been granted control of the installer via the [AllowStandardUserControl](https://aka.ms/vs/setup/policies) policy. Note that any extensions previously installed by the Visual Studio Extension Manager had the capability of being (and were typically) installed per user, not machine wide, and the user didn't need to have admin permissions to install.
+1. The Visual Studio Installer currently only supports importing certain types of extensions, such as those contained in a `*.vsix` package or those that aren't exceedingly "complicated". If you have an extension that is not being loaded via a config file properly, please let us know about it via a new [Developer Community suggestion](https://developercommunity.visualstudio.com/VisualStudio/suggest).  
 1. Only extensions that are hosted on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) will trigger the automatic "missing" detection and installation if the *.vsconfig file is in a solution directory. If you'd like this logic to include extensions that were installed from a non-Marketplace location, [please provide details about your scenario here](https://developercommunity.visualstudio.com/t/VS-solution-load-should-detect-and-promp/10607414).
 1. If you are programmatically using a `*.vsconfig` file to add extensions, then you will also need to use the new [`--allowUnsignedExtensions` parameter](use-command-line-parameters-to-install-visual-studio.md) to allow **un**signed extensions to be loaded in `--passive` or `--quiet` context. If you're installing from a layout, you can add the [`"allowUnsignedExtensions" : true` syntax to your *response.json* file](/visualstudio/install/automated-installation-with-response-file#example-customized-layout-response-file-content) to achieve a similar effect. 
 
