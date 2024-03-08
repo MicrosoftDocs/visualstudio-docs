@@ -82,7 +82,7 @@ You can use the `--config` parameter to either initialize or modify an existing 
 Using the correct bootstrapper that corresponds to the version and edition of Visual Studio that you want, open an administrator command prompt and run the following command to use the `--config` parameter to configure the contents of a layout:
 
 ```shell
-vs_enterprise.exe --layout c:\localVSlayout --config c:\myconfig.vsconfig --lang en-US --allowUnsignedExtensions
+vs_enterprise.exe --layout "c:\localVSlayout" --config "c:\myconfig.vsconfig" --lang en-US
 ```
 
 ## Use a configuration file to automatically install missing components
