@@ -516,7 +516,7 @@
           href: /dotnet/fundamentals/code-analysis/style-rules/
         - name: .NET code refactoring conventions
           href: ide/reference/code-styles-refactoring-options.md
-        - name: IDE code style rules
+        - name: IDE-only code style rules
           items:
           - name: JSON001
             href: ide/reference/json001.md
