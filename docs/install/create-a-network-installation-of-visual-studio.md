@@ -111,7 +111,7 @@ There are several options you can use to customize the contents of your network 
 * `--add` to specify [workload or component IDs](workload-and-component-ids.md). <br>If `--add` is used, only those workloads and components specified with `--add` are downloaded.  If `--add` isn't used, all workload and components are downloaded.
 * `--includeRecommended` to include all the recommended components for the specified workload IDs.
 * `--includeOptional` to include all the optional components for the specified workload IDs.
-* `--config` to use a `*.vsconfig` file to specify the components that should be included in the layout. Make sure you specify the **full path** of the config file.  
+* `--config` to use a `*.vsconfig` file to specify the workloads, components or extensions that should be included in or referenced by the layout. Make sure you specify the **full path** of the config file.  
 * `--lang` to specify [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales).
 
 Here are a few examples of how to create a custom network layout.
@@ -139,11 +139,15 @@ Here are a few examples of how to create a custom network layout.
     ```shell
     vs_enterprise.exe --layout C:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Component.Git --lang en-US de-DE ja-JP
     ```
-    
-* You can also use a [vsconfig file](import-export-installation-configurations.md) to customize and limit the contents of a network layout. Make sure you specify the **full path** of the config file. If there are any [extensions in the vsconfig file](import-export-installation-configurations.md#extensions), the extensions files aren't copied into the layout, but the response.json file contains a reference to the extension, and the client tries to install it when installing from the layout.
+
+#### Use a configuration file to initialize the contents of a layout
+
+You can use the `--config` parameter to pass in a [*.vsconfig file](import-export-installation-configurations.md). Make sure you specify the **full path** of the config file. Using a *.vsconfig file during layout creation will customize and limit the contents of a network layout to what is specified in the configuration file. The configuration file will be copied into the layout directory and renamed to be `layout.vsconfig`.  
+
+If there are any [extensions specified in the *.vsconfig file](import-export-installation-configurations.md#extensions), then the extensions files aren't copied into the layout. Rather, the layout's `response.json` file will contain a reference to the newly created `layout.vsconfig` file, which in turns defines the location for where the client should install the extension from. If you are trying to install extensions that aren't digitally signed, make sure to also edit the `response.json` to add `"allowUnsignedExtensions": true`. Refer [here for `response.json` content examples](automated-installation-with-response-file.md#example-customized-layout-response-file-content).  
 
     ```shell
-    vs_enterprise.exe --layout C:\VSLayout --config "C:\myconfig.vsconfig" 
+    vs_enterprise.exe --layout "C:\VSLayout" --config "C:\myconfig.vsconfig" 
     ```
 
 ### Copy the layout to a network share
@@ -156,7 +160,7 @@ xcopy /e c:\VSLayout \\server\share\layoutdirectory
 
 ### Configure initial client installation defaults for this layout
 
-A file called `response.json` gets created in the root folder of the layout. This customizable file supplies the initial default settings that are configured on the client when the client initially installs from the layout. Common configuration options include the ability to configure which workloads, components, or languages should be installed by default on the client, where the client should receive updates from, or if out-of-support components should be removed during an update.  
+A file called `response.json` gets created in the root folder of the layout. This customizable file supplies the initial default settings that are configured on the client when the client initially installs from the layout. Common configuration options include the ability to configure which workloads, components, or languages should be installed by default on the client, if recommended components should also be installed, if the client should respect an installation *.vsconfig file, where the client should receive updates from, if out-of-support components should be removed during an update, or if unsigned extensions are allowed to be quietly programmatically loaded.  
 
 More information can be found on the [Automate Visual Studio installation with a response file](automated-installation-with-response-file.md) page. 
 
@@ -284,16 +288,16 @@ If you want to modify an existing partial layout so that it becomes a full layou
 vs_enterprise.exe --layout c:\VSLayout --all
 ```
 
-You can add components to a layout by passing in a vsconfig file that contains the additional components you want in your layout. 
+You can add components to a layout by passing in a `*.vsconfig` file that contains the additional components you want in your layout. If you do this, then the new *.vsconfig contents will overwrite the `layout.vsconfig` contents. For more information, refer to the previous section [Using a configuration file to initialize the contents of a layout](#use-a-configuration-file-to-initialize-the-contents-of-a-layout).
 
 ```shell
-vs_enterprise.exe --layout C:\VSLayout --config "C:\myconfig.vsconfig"
+vs_enterprise.exe --layout C:\VSLayout --config "C:\myupdatedconfig.vsconfig"
 ```
 
 Lastly, you can directly edit the `layout.json` configuration file in the layout folder and update the "add" section of this file to include the additional components you want included in your layout. You'll then need to update the layout using `--layout` as previously described to download the latest components. 
  
- > [!Note]
- > The easiest way to install the newly added layout components onto a client machine is to run the bootstrapper in the layout from the client machine. The 'add' section of the `response.json` file in the layout will determine which components are selected by default in the client's installer UI. If you've modified the layout using one of the methods above, you may want to manually double check and possibly adjust the 'add' section in the `response.json` file so that it more appropriately matches the contents in the 'add' section of the newly modified `layout.json` file. 
+> [!NOTE]
+> The easiest way to install the newly added layout components onto a client machine is to run the bootstrapper in the layout from the client machine. The 'add' section of the `response.json` file in the layout will determine which components are selected by default in the client's installer UI. If you've modified the layout using one of the methods above, you may want to manually double check and possibly adjust the 'add' section in the `response.json` file so that it more appropriately matches the contents in the 'add' section of the newly modified `layout.json` file. 
 
 ### Configure the layout to remove out-of-support components on the client machine.
 
