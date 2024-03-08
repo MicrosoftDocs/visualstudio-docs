@@ -1,14 +1,17 @@
 ---
 title: Debug Python code on remote Linux computers
 description: Use Visual Studio to debug Python code running on remote Linux computers, including necessary configuration steps, security, and troubleshooting.
-ms.date: 12/12/2022
+ms.date: 03/07/2024
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
 ms.subservice: python
+
+#customer intent: As a developer, I want to debug Python code on remote Linux computers by using Visual Studio so that I can access configuration and security features.
 ---
-# Remotely debug Python code on Linux
+
+# Remotely debug Python code on Linux in Visual Studio
 
 ::: moniker range=">= vs-2019"
 
