@@ -30,13 +30,14 @@ This rule is IDE-only and not applicable for command-line scenarios.
 
 Options specify the behavior that you want the rule to enforce.
 
-For recognized JSON, you set the options in Visual Studio by selecting **Tools** > **Options** > **Text Editor** > **C#** > **Advanced**. The following options are available:
+For code recognized as JSON, you set the options in Visual Studio by selecting **Tools** > **Options** > **Text Editor** > **C#** > **Advanced**. The following options are available:
 
-| Property                                      | Description                                   |
-|-----------------------------------------------|-----------------------------------------------|
-| **Colorize JSON strings**                     | Specifies whether to colorize JSON strings.   |
-| **Report invalid JSON**                       | Specifies whether to report invalid JSON.     |
-| **Highlight related components under cursor** | Specifies whether highlighting is applied      |
+| Property                                      | Description                                           |
+|-----------------------------------------------|-------------------------------------------------------|
+| **Colorize JSON strings**                     | Specifies whether to colorize JSON strings.           |
+| **Report invalid JSON**                       | Specifies whether to report invalid JSON.             |
+| **Highlight related components under cursor** | Specifies whether [Quick Actions](/ide/quick-actions.md) </br>
+                                                  uses highlighting.     |
 
 ## Example
 
@@ -93,4 +94,4 @@ For more information, see [How to suppress code analysis warnings](../suppress-w
 
 ## See also
 
-- JSON002
+- [JSON002](../reference/JSON002.md)
