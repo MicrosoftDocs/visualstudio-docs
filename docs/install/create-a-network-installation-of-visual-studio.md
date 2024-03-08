@@ -1,7 +1,7 @@
 ---
 title: Create a network-based installation
 description: Create a private network install point to deploy Visual Studio to support enterprise users with limited permissions or client machines with limited internet access.
-ms.date: 3/4/2024
+ms.date: 3/11/2024
 ms.topic: conceptual
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
@@ -288,7 +288,7 @@ If you want to modify an existing partial layout so that it becomes a full layou
 vs_enterprise.exe --layout c:\VSLayout --all
 ```
 
-You can add components to a layout by passing in a `*.vsconfig` file that contains the additional components you want in your layout. If you do this, then the new *.vsconfig contents will overwrite the `layout.vsconfig` contents. For more information, refer to the previous section [Using a configuration file to initialize the contents of a layout](#use-a-configuration-file-to-initialize-the-contents-of-a-layout).
+You can add components to a layout by passing in a `*.vsconfig` file that contains the additional components you want in your layout. If you do this, then the new `*.vsconfig` content will overwrite the existing `layout.vsconfig` content. For more information, refer to the previous section [Using a configuration file to initialize the contents of a layout](#use-a-configuration-file-to-initialize-the-contents-of-a-layout).
 
 ```shell
 vs_enterprise.exe --layout C:\VSLayout --config "C:\myupdatedconfig.vsconfig"
