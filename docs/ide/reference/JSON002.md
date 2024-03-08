@@ -51,6 +51,7 @@ var v = """{ "pie": true, "cherry": [1, 2, 3] }""";
 
 // Fixed code
 var v = /*lang=json,strict*/ """{ "pie": true, "cherry": [1, 2, 3] }""";
+```
 
 ## Suppress a warning
 
