@@ -1,7 +1,7 @@
 ---
 title: Configure policies for enterprise deployments
 description: Configure domain policies, related registry keys, and other configuration operations for enterprise deployments of Visual Studio.
-ms.date: 11/27/2023
+ms.date: 3/11/2024
 ms.topic: conceptual
 f1_keywords:
 - gpo
