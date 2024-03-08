@@ -136,9 +136,9 @@ Here are a few examples of how to create a custom network layout.
 
 * To create a layout with two workloads and one optional component in three languages, run:
 
-    ```shell
-    vs_enterprise.exe --layout C:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Component.Git --lang en-US de-DE ja-JP
-    ```
+```shell
+vs_enterprise.exe --layout C:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Component.Git --lang en-US de-DE ja-JP
+```
 
 #### Use a configuration file to initialize the contents of a layout
 
@@ -146,9 +146,9 @@ You can use the `--config` parameter to pass in a [*.vsconfig file](import-expor
 
 If there are any [extensions specified in the *.vsconfig file](import-export-installation-configurations.md#extensions), then the extensions files aren't copied into the layout. Rather, the layout's `response.json` file will contain a reference to the newly created `layout.vsconfig` file, which in turns defines the location for where the client should install the extension from. If you are trying to install extensions that aren't digitally signed, make sure to also edit the `response.json` to add `"allowUnsignedExtensions": true`. Refer [here for `response.json` content examples](automated-installation-with-response-file.md#example-customized-layout-response-file-content).  
 
-    ```shell
-    vs_enterprise.exe --layout "C:\VSLayout" --config "C:\myconfig.vsconfig" 
-    ```
+```shell
+vs_enterprise.exe --layout "C:\VSLayout" --config "C:\myconfig.vsconfig" 
+```
 
 ### Copy the layout to a network share
 
