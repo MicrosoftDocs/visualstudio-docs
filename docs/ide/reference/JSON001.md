@@ -2,12 +2,17 @@
 title: "JSON001: Invalid JSON pattern"
 description: "Learn about code analysis rule JSON001: Invalid JSON pattern"
 ms.date: 03/07/2024
+ms.topic: reference
 f1_keywords:
 - JSON001
 helpviewer_keywords:
 - JSON001
 dev_langs:
 - CSharp
+author: Mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.subservice: general-ide
 ---
 # Invalid JSON pattern (JSON001)
 
@@ -22,7 +27,7 @@ dev_langs:
 
 ## Overview
 
-This rule flags places where JSON does not conform to required format. The rule applies to recognized JSON, which is determined by the inclusion of a comment preceding the JSON string, either `//lang=json` or `//lang=json,strict`. The latter comment uses strict mode for JSON interpretation.
+This rule flags places where JSON does not conform to required format. The rule applies to identified JSON, which is determined by the inclusion of an inline comment or comment preceding the JSON string, such as `//lang=json` or `//lang=json,strict`. The latter comment uses strict mode for JSON interpretation.
 
 This rule is IDE-only and not applicable for command-line scenarios.
 
@@ -30,7 +35,7 @@ This rule is IDE-only and not applicable for command-line scenarios.
 
 Options specify the behavior that you want the rule to enforce.
 
-For code recognized as JSON, you set the options in Visual Studio by selecting **Tools** > **Options** > **Text Editor** > **C#** > **Advanced**. The following options are available:
+For code recognized as JSON, you set the options in Visual Studio by selecting **Tools** > **Options** > **Text Editor** > **C#** > **Advanced**. The following options are available under the **JSON strings** section:
 
 | Property                                      | Description                                           |
 |-----------------------------------------------|-------------------------------------------------------|
@@ -46,19 +51,19 @@ The following code snippet shows an example with invalid JSON.
 ```csharp
 // Code with violations
 // lang=json,strict
-var v = """{ "foo": true, "bar": [1, 2, 3 }""";
+var v = """{ "pie": true, "cherry": [1, 2, 3 }""";
 
 // Fixed code
 // lang=json,strict
-var v = """{ "foo": true, "bar": [1, 2, 3] }""";
+var v = """{ "pie": true, "cherry": [1, 2, 3] }""";
 
 // Code with violations
 //lang=json,strict
 var v = """
 {
-   "foo": true, 
+   "pie": true, 
    // Comments not allowed in strict mode
-   "bar": [1, 2, 3]
+   "cherry": [1, 2, 3]
 }
 """;
 
@@ -66,9 +71,9 @@ var v = """
 //lang=json
 var v = """
 {
-   "foo": true, 
+   "pie": true, 
    // Comments allowed if not using strict mode
-   "bar": [1, 2, 3]
+   "cherry": [1, 2, 3]
 }
 """;
 ```
@@ -83,14 +88,14 @@ If you want to suppress only a single violation, add preprocessor directives to 
 #pragma warning restore JSON001
 ```
 
-To disable the rule for a file, folder, or project, set its severity to `none` in the [configuration file](../configuration-files.md).
+To disable the rule for a file, folder, or project, set its severity to `none` in the [configuration file](/dotnet/fundamentals/code-analysis/configuration-files).
 
 ```ini
 [*.{cs,vb}]
 dotnet_diagnostic.JSON001.severity = none
 ```
 
-For more information, see [How to suppress code analysis warnings](../suppress-warnings.md).
+For more information, see [How to suppress code analysis warnings](/dotnet/fundamentals/code-analysis/suppress-warnings).
 
 ## See also
 
