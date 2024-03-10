@@ -142,9 +142,9 @@ vs_enterprise.exe --layout C:\VSLayout --add Microsoft.VisualStudio.Workload.Azu
 
 #### Use a configuration file to initialize the contents of a layout
 
-You can use the `--config` parameter to pass in a [*.vsconfig file](import-export-installation-configurations.md). Make sure you specify the **full path** of the config file. Using a *.vsconfig file during layout creation will customize and limit the contents of a network layout to what is specified in the configuration file. The configuration file will be copied into the layout directory and renamed to be `layout.vsconfig`.  
+You can use the `--config` parameter to pass in a [`*.vsconfig` file](import-export-installation-configurations.md). Make sure you specify the **full path** of the config file. Using a `*.vsconfig` file during layout creation will customize and limit the contents of a network layout to what is specified in the configuration file. The configuration file will be copied into the layout directory and renamed to `layout.vsconfig`.  
 
-If there are any [extensions specified in the *.vsconfig file](import-export-installation-configurations.md#extensions), then the extensions files aren't copied into the layout. Rather, the layout's `response.json` file will contain a reference to the newly created `layout.vsconfig` file, which in turns defines the location for where the client should install the extension from. If you are trying to install extensions that aren't digitally signed, make sure to also edit the `response.json` to add `"allowUnsignedExtensions": true`. Refer [here for `response.json` content examples](automated-installation-with-response-file.md#example-customized-layout-response-file-content).  
+Any [extensions specified in the `*.vsconfig` file](import-export-installation-configurations.md#extensions) aren't copied directly into the layout. Instead, the layout's `response.json` file will contain a reference to the newly created `layout.vsconfig` file, defining the installation location for the client's extensions. If you're installing extensions that aren't digitally signed, make sure to edit the `response.json` to add `"allowUnsignedExtensions": true`. See [`response.json` content examples](automated-installation-with-response-file.md#example-customized-layout-response-file-content).  
 
 ```shell
 vs_enterprise.exe --layout "C:\VSLayout" --config "C:\myconfig.vsconfig" 
@@ -160,7 +160,13 @@ xcopy /e c:\VSLayout \\server\share\layoutdirectory
 
 ### Configure initial client installation defaults for this layout
 
-A file called `response.json` gets created in the root folder of the layout. This customizable file supplies the initial default settings that are configured on the client when the client initially installs from the layout. Common configuration options include the ability to configure which workloads, components, or languages should be installed by default on the client, if recommended components should also be installed, if the client should respect an installation *.vsconfig file, where the client should receive updates from, if out-of-support components should be removed during an update, or if unsigned extensions are allowed to be quietly programmatically loaded.  
+A file called `response.json` is created in the root folder of the layout. This customizable file supplies the initial default settings to configure on the client, when the client initially installs from the layout. Common configuration options include the ability to configure:
+- workloads, components, or languages should be installed by default on the client
+- If recommended components should also be installed
+- If the client should respect an installation `*.vsconfig` file
+- Where should the client receive updates from
+- If out-of-support components should be removed during an update
+- If unsigned extensions are allowed to be quietly programmatically loaded
 
 More information can be found on the [Automate Visual Studio installation with a response file](automated-installation-with-response-file.md) page. 
 
@@ -288,7 +294,7 @@ If you want to modify an existing partial layout so that it becomes a full layou
 vs_enterprise.exe --layout c:\VSLayout --all
 ```
 
-You can add components to a layout by passing in a `*.vsconfig` file that contains the additional components you want in your layout. If you do this, then the new `*.vsconfig` content will overwrite the existing `layout.vsconfig` content. For more information, refer to the previous section [Using a configuration file to initialize the contents of a layout](#use-a-configuration-file-to-initialize-the-contents-of-a-layout).
+You can add components to a layout by passing in a `*.vsconfig` file that contains the additional components you want in your layout. If you do this, the new `*.vsconfig` content will overwrite the existing `layout.vsconfig` content. For more information, refer to the previous section [Using a configuration file to initialize the contents of a layout](#use-a-configuration-file-to-initialize-the-contents-of-a-layout).
 
 ```shell
 vs_enterprise.exe --layout C:\VSLayout --config "C:\myupdatedconfig.vsconfig"

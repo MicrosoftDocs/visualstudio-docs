@@ -18,10 +18,10 @@ ms.subservice: installation
 
 In this article, you'll learn how to create a response file that helps you automate your Visual Studio installation. It's most commonly used when you install Visual Studio from a [layout](create-a-network-installation-of-visual-studio.md). 
 
-The Visual Studio response file is a [JSON](http://json-schema.org/) file whose contents contain customizations used during the initial installation of Visual Studio onto the client. Its contents mirror the [command line arguments and parameters](use-command-line-parameters-to-install-visual-studio.md). Common configuration options include:
+The Visual Studio response file is a [JSON](http://json-schema.org/) file whose contents contain customizations used during the initial installation of Visual Studio onto the client. Its contents mirror the [command line arguments and parameters](use-command-line-parameters-to-install-visual-studio.md). Use the response file for following configuration options:
 
 - [**Configure which workloads, components, or languages should be selected by default**](install-visual-studio.md#step-4---choose-workloads) during initial install.
-- Reference a [**installation configuration *.vsconfig file**](create-a-network-installation-of-visual-studio.md#configure-the-contents-of-a-layout) that your team has standardized on.
+- Reference an [**installation configuration `*.vsconfig` file**](create-a-network-installation-of-visual-studio.md#configure-the-contents-of-a-layout) that your team has standardized on.
 - Specify [**where the client should receive updates from**](update-visual-studio.md#configure-source-location-of-updates-1). Examples include the default Microsoft hosted servers on the internet or from an admin-controlled network layout location.
 - Automatic removal of [**out-of-support components**](update-visual-studio.md#remove-out-of-support-components) during updates.
 
@@ -39,7 +39,7 @@ If an administrator [deploys Visual Studio by invoking the bootstrapper from a l
 
 ## Response file contents
 
-The response file encapsulates command line parameters that would be used by the Visual Studio installer, and it follows these general rules:
+The response file encapsulates command line parameters used by the Visual Studio Installer, and it follows these general rules:
  - If a command-line parameter takes no arguments (for example, `--quiet`, `--passive`, `includeRecommended`, `removeOos`, `useLatestInstaller`, `allowUnsignedExtensions`, etc.), the value in the response file should be true/false. 
  - If the parameter takes an argument (for example, `--installPath <dir>`, `--config <*.vsconfig file>`), then the value in the response file should be a string. 
  - If the parameter takes an argument and can appear on the command-line more than once (for example, `--add <id>`), the value in the response file should be an array of strings.
@@ -54,14 +54,14 @@ The configuration settings in the `response.json` file are only referenced when 
 
 If the administrator created a partial layout, then the default `response.json` file in the layout will specify only the workloads and languages that were included in the partial layout. 
 
-If the layout was created by passing in a `--config` *.vsconfig file, then the *.vsconfig file will be copied into the layout directory as `layout.vsconfig` and this config file will be referenced in the the `response.json` file. That way, you can use configuration files to initialize client installations that come from a layout. 
+If the layout is created by passing in a `--config` *.vsconfig file, then the *.vsconfig file will be copied into the layout directory as `layout.vsconfig` and this config file will be referenced in the `response.json` file. This way, you can use configuration files to initialize client installations that come from a layout. 
 
 Make sure to pay special attention to the channelUri setting, which configures [where the client will look for updates](update-visual-studio.md#configure-source-location-of-updates-1). The default configuration is for the client to look at Microsoft hosted servers on the internet for updates. You'll need to change the value of channelUri and point it to your layout if you want clients to get their updates from your layout. Examples for how to do this are [detailed below](#example-customized-layout-response-file-content). You can always change where a client looks for updates in the future by [executing the installer on the client and invoking the `modifySettings` command](use-command-line-parameters-to-install-visual-studio.md#modifysettings-command-and-command-line-parameters). 
 
-If the client installation is **not** done using `--quiet` or `--passive` mode, then it is possible for users to override the defaults specified in the `response.json` and further select or unselect additional workloads and components to install. 
+If the client installation is **not** done using `--quiet` or `--passive` mode, users can override the defaults specified in the `response.json` and further select or unselect additional workloads and components to install. 
 
 > [!WARNING]
-> Be very careful when you hand edit properties in the `response.json` that were defined when the layout was created, as some of the items are required for installation. 
+> Be very careful when editing properties in the `response.json` defined when the layout was created, as some of the items are required for installation. 
 
 The base `response.json` file in a layout should look similar to the following example, except that the productID would reflect the edition in your layout.   
 
@@ -142,7 +142,12 @@ The following `response.json` file example will initialize a Visual Studio 2019 
 }
 ```
 
-The following `response.json` file example will initialize a Visual Studio 2022 Enterprise client install to [use a configuration *.vsconfig file that defines what workloads, components, and extensions to install](import-export-installation-configurations.md#use-a-configuration-file-to-initialize-the-contents-of-a-layout), to select both the English and French UI languages, to have the [update location configured to look for sources in a http hosted layout](create-a-network-installation-of-visual-studio.md#making-your-layout-accessible-via-an-intranet-site), to allow [programmatic loading of unsigned extensions](import-export-installation-configurations.md#extensions), and to always [remove components that have transitioned to out of support when the client is being updated](update-visual-studio.md#remove-out-of-support-components). See the list of out-of-support components [here](out-of-support-components.md).
+In the following example, the `response.json` file initializes a Visual Studio 2022 Enterprise client install that:
+- [Uses a configuration *.vsconfig file that defines what workloads, components, and extensions to install](import-export-installation-configurations.md#use-a-configuration-file-to-initialize-the-contents-of-a-layout)
+- Selects both the English and French UI languages
+- Configures the [update location to look for sources in a http hosted layout](create-a-network-installation-of-visual-studio.md#making-your-layout-accessible-via-an-intranet-site)
+- Allows [programmatic loading of unsigned extensions](import-export-installation-configurations.md#extensions)
+- [Removes components that have transitioned to an out-of-support state at the time of updating the client](update-visual-studio.md#remove-out-of-support-components). See the list of out-of-support components [here](out-of-support-components.md).
 
 ```Example response.json
 {
