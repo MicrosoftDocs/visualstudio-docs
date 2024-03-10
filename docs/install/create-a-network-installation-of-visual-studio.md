@@ -111,7 +111,7 @@ There are several options you can use to customize the contents of your network 
 * `--add` to specify [workload or component IDs](workload-and-component-ids.md). <br>If `--add` is used, only those workloads and components specified with `--add` are downloaded.  If `--add` isn't used, all workload and components are downloaded.
 * `--includeRecommended` to include all the recommended components for the specified workload IDs.
 * `--includeOptional` to include all the optional components for the specified workload IDs.
-* `--config` to use a `*.vsconfig` file to specify the workloads, components or extensions that should be included in or referenced by the layout. Make sure you specify the **full path** of the config file.  
+* `--config` to use a `*.vsconfig` file to specify the [workloads, components or extensions](#use-a-configuration-file-to-initialize-the-contents-of-a-layout) that should be included in or referenced by the layout. Make sure you specify the **full path** of the config file.  
 * `--lang` to specify [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales).
 
 Here are a few examples of how to create a custom network layout.
@@ -161,7 +161,7 @@ xcopy /e c:\VSLayout \\server\share\layoutdirectory
 ### Configure initial client installation defaults for this layout
 
 A file called `response.json` is created in the root folder of the layout. This customizable file supplies the initial default settings to configure on the client, when the client initially installs from the layout. Common configuration options include the ability to configure:
-- workloads, components, or languages should be installed by default on the client
+- Which workloads, components, or languages should be installed by default on the client
 - If recommended components should also be installed
 - If the client should respect an installation `*.vsconfig` file
 - Where should the client receive updates from

@@ -18,7 +18,7 @@ ms.subservice: installation
 
 In this article, you'll learn how to create a response file that helps you automate your Visual Studio installation. It's most commonly used when you install Visual Studio from a [layout](create-a-network-installation-of-visual-studio.md). 
 
-The Visual Studio response file is a [JSON](http://json-schema.org/) file whose contents contain customizations used during the initial installation of Visual Studio onto the client. Its contents mirror the [command line arguments and parameters](use-command-line-parameters-to-install-visual-studio.md). Use the response file for following configuration options:
+The Visual Studio response file is a [JSON](http://json-schema.org/) file whose contents contain customizations used during the initial installation of Visual Studio onto the client. Its contents mirror the [command line arguments and parameters](use-command-line-parameters-to-install-visual-studio.md). Use the response file for the following configuration options:
 
 - [**Configure which workloads, components, or languages should be selected by default**](install-visual-studio.md#step-4---choose-workloads) during initial install.
 - Reference an [**installation configuration `*.vsconfig` file**](create-a-network-installation-of-visual-studio.md#configure-the-contents-of-a-layout) that your team has standardized on.
@@ -54,7 +54,7 @@ The configuration settings in the `response.json` file are only referenced when 
 
 If the administrator created a partial layout, then the default `response.json` file in the layout will specify only the workloads and languages that were included in the partial layout. 
 
-If the layout is created by passing in a `--config` *.vsconfig file, then the *.vsconfig file will be copied into the layout directory as `layout.vsconfig` and this config file will be referenced in the `response.json` file. This way, you can use configuration files to initialize client installations that come from a layout. 
+If the layout is created by passing in a `--config *.vsconfig` file, then the `*.vsconfig` file will be copied into the layout directory as `layout.vsconfig` and this config file will be referenced in the `response.json` file. This way, you can use configuration files to initialize client installations that come from a layout. 
 
 Make sure to pay special attention to the channelUri setting, which configures [where the client will look for updates](update-visual-studio.md#configure-source-location-of-updates-1). The default configuration is for the client to look at Microsoft hosted servers on the internet for updates. You'll need to change the value of channelUri and point it to your layout if you want clients to get their updates from your layout. Examples for how to do this are [detailed below](#example-customized-layout-response-file-content). You can always change where a client looks for updates in the future by [executing the installer on the client and invoking the `modifySettings` command](use-command-line-parameters-to-install-visual-studio.md#modifysettings-command-and-command-line-parameters). 
 
