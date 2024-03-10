@@ -5,7 +5,7 @@ author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
 ms.topic: how-to
-ms.date: 11/10/2017
+ms.date: 03/06/2024
 ms.author: ghogen
 ---
 # Migrate and publish a web application to an Azure Cloud Service from Visual Studio
@@ -65,7 +65,6 @@ If you have a connection string for your web application that uses an on-premise
     ![VST_AzureActivityLog](./media/vs-azure-tools-migrate-publish-web-app-to-cloud-service/IC744149.png)
 
 1. (Optional) To cancel the deployment process, right-click the line item in the activity log and choose **Cancel and remove**. This command stops the deployment process and deletes the deployment environment from Azure. Note: to remove this deployment environment after it has been deployed, you must use the [Azure portal](https://portal.azure.com).
-1. (Optional) After your role instances have started, Visual Studio automatically shows the deployment environment in the **Server Explorer > Cloud Services** node. From here you can view the status of the individual role instances.
 1. To access your application after deployment, choose the arrow next to your deployment when a status of **Completed** appears in the **Azure Activity log** along with the URL. See the following table for the details about how to start a specific type of web application from Azure.
 
 ## Using the compute emulator and starting application in Azure

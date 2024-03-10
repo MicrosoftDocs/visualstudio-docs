@@ -131,6 +131,12 @@ In the **Call Stack** window, right-click the function whose disassembly code yo
 
 Right-click in the **Call Stack** window and set or clear **Show \<**_the information that you want_**>**.
 
+::: moniker range=">=vs-2022"
+## Autodecompile .NET external code
+
+Starting in Visual Studio 2022 version 17.7, you can autodecompile .NET code by double-clicking external code in the Call Stack window. For more information, see [Generate source code from .NET assemblies while debugging](../debugger/decompilation.md).
+::: moniker-end
+
 ## <a name="bkmk_symbols"></a> Load symbols for a module (C#, C++, Visual Basic, F#)
 
 In the **Call Stack** window, you can load debugging symbols for code that doesn't currently have symbols loaded. These symbols can be .NET or system symbols downloaded from the Microsoft public symbol servers, or symbols in a symbol path on the computer that you're debugging.

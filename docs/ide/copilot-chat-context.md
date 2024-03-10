@@ -1,7 +1,7 @@
 ---
 title: 'Tips & Tricks for GitHub Copilot Chat in Visual Studio'
 description: Use slash commands, references, and threads to form better questions and get better answers with scoped context in GitHub Copilot Chat.
-ms.date: 1/10/2024
+ms.date: 3/6/2024
 ms.topic: how-to 
 author: anandmeg
 ms.author: meghaanand
@@ -40,7 +40,6 @@ You can use slash commands in a [chat window](visual-studio-github-copilot-chat.
 
 | **Command** | **Usage** | **Chat window** | **Inline chat** |
 |---------------------------|--------------------|:----------:|:----------:|
-| /clear| Clear the chat window. <br>  Example: `/clear`| Yes | No | 
 | /doc| Add comments for specified or selected code. <br>  Examples: <br>- `/doc DeleteBasketAsync method in BasketService.cs`</br>- select desired code and enter `/doc`| Yes | Yes |
 | /explain | Get code explanations. <br><br>  Examples: <br> - `/explain the AddItemToBasket method in BasketService.cs`</br>- select desired code and enter `/explain`| Yes | Yes |
 | /fix | Propose a fix for problems in the selected code. <br>  Examples: <br> - `/fix the SetQuantities method in BasketService.cs`</br>- select desired code and enter `/fix`| Yes | Yes |

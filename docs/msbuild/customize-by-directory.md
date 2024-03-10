@@ -33,7 +33,7 @@ When MSBuild runs, *Microsoft.Common.props* searches your directory structure fo
 
 Similarly, *Microsoft.Common.targets* looks for *Directory.Build.targets*.
 
-*Directory.Build.props* is imported early in the sequence of imported files, which can be important if you need a set a property that is used by imports, especially those that are implicitly imported by using the `Sdk` attribute, such as when using the .NET SDK in most .NET project files.
+*Directory.Build.props* is imported early in the sequence of imported files, which can be important if you need to set a property that is used by imports, especially those that are implicitly imported by using the `Sdk` attribute, such as when using the .NET SDK in most .NET project files.
 
 > [!NOTE]
 > Linux-based file systems are case-sensitive. Make sure the casing of the *Directory.Build.props* filename matches exactly, or it won't be detected during the build process.
