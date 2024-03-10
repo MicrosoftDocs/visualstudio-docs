@@ -11,7 +11,7 @@ helpviewer_keywords:
 - ADO.NET Data Service reference
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Add, update, or remove a WCF data service reference

@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "comments, worksheets"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically add and delete worksheet comments

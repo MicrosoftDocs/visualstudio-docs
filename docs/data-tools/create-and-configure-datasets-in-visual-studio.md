@@ -9,7 +9,7 @@ helpviewer_keywords:
 - datasets, configuring
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Create and configure  datasets in the .NET Framework using Visual Studio

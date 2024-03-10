@@ -11,7 +11,7 @@ helpviewer_keywords:
 - data [Visual Studio], creating table adapters
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Create and configure TableAdapters in .NET Framework applications

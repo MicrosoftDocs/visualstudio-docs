@@ -9,7 +9,7 @@ helpviewer_keywords:
 - target batching [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # Work with item metadata in target batching

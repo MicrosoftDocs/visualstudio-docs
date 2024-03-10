@@ -11,7 +11,7 @@ helpviewer_keywords:
 - managing extensions visual studio
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Find, install, and manage extensions for Visual Studio

@@ -5,7 +5,7 @@ ms.date: 07/28/2023
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 ---
 

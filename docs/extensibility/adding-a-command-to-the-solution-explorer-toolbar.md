@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Solution Explorer, adding buttons
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Add a command to the Solution Explorer toolbar

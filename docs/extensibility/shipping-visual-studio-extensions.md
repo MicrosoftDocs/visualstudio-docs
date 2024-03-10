@@ -9,7 +9,7 @@ helpviewer_keywords:
 - satellite DLLs, in VSIX packages
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Shipping Visual Studio Extensions

@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], data"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # Integrate business data into SharePoint

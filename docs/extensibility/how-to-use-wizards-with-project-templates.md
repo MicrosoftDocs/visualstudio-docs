@@ -11,7 +11,7 @@ helpviewer_keywords:
 - IWizard interface
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Use wizards with project templates

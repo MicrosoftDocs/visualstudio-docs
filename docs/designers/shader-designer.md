@@ -8,7 +8,7 @@ f1_keywords:
 - vs.graphics.shaderdesigner
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: ui-designers
 ---
 # Shader Designer

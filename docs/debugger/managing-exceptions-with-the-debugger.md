@@ -29,7 +29,7 @@ helpviewer_keywords:
   - exceptions, debugging
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Manage exceptions with the debugger in Visual Studio

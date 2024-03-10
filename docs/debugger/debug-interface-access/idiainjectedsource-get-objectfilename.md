@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaInjectedSource::get_objectFilename method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDiaInjectedSource::get_objectFilename

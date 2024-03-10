@@ -11,7 +11,7 @@ helpviewer_keywords:
 - Visual Studio installer
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 
 ms.subservice: installation
 ---

@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: how-to
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: ui-designers
 ---
 # Create a basic 3D model

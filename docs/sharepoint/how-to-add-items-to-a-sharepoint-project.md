@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, adding items"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # Add items to a SharePoint project

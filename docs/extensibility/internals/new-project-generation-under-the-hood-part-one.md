@@ -8,7 +8,7 @@ helpviewer_keywords:
 - projects [Visual Studio], new project generation
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # New Project Generation: Under the Hood, Part One

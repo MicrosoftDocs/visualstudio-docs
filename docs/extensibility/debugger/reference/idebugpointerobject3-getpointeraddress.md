@@ -8,7 +8,7 @@ helpviewer_keywords:
 - IDebugPointerObject3::GetPointerAddress
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

@@ -16,7 +16,7 @@ helpviewer_keywords:
 - data [Visual Studio], datasets
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Fill datasets by using TableAdapters in .NET Framework applications

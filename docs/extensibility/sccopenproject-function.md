@@ -9,7 +9,7 @@ helpviewer_keywords:
 - SccOpenProject function
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # SccOpenProject Function

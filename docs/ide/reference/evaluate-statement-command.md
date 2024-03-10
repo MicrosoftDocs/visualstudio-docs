@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Evaluate Statement command
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Evaluate Statement command

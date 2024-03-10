@@ -5,7 +5,7 @@ description: Learn about the depth of inheritance metric for code metrics in Vis
 ms.topic: conceptual
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: code-analysis
 ---
 # Code metrics - Depth of inheritance (DIT)

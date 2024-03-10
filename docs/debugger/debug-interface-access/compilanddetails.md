@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "CompilandDetails symbol"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # CompilandDetails

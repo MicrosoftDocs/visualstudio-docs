@@ -5,7 +5,7 @@ ms.date: 02/15/2024
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 
 #customer intent: As a developer, I want to use the CookieCutter extension so that I can discover and use templates for Python code in Visual Studio.

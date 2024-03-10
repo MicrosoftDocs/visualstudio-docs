@@ -11,7 +11,7 @@ dev_langs:
 - CPP
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: test-tools
 ---
 # Use code coverage to determine how much code is being tested

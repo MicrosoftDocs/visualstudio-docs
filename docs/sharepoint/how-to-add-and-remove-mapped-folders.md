@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "mapped folders [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # add and remove mapped folders

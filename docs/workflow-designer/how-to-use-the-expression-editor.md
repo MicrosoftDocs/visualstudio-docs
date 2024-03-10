@@ -7,7 +7,7 @@ f1_keywords:
 - System.Activities.Presentation.View.ExpressionTextBox.UI
 author: jodavis
 ms.author: jodavis
-manager: jmartens
+manager: mijacobs
 ms.subservice: workflow-designer
 ---
 # Use the Expression Editor

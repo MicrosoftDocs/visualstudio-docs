@@ -14,7 +14,7 @@ helpviewer_keywords:
 - images [Visual Basic], dragging from Data Sources window
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Bind controls to pictures from a database in .NET Framework applications

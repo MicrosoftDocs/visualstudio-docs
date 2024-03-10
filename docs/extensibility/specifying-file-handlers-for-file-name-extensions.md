@@ -7,7 +7,7 @@ helpviewer_keywords:
 - file extensions, specifying file handlers
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Specifying File Handlers for File Name Extensions

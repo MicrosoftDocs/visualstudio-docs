@@ -9,7 +9,7 @@ helpviewer_keywords:
 - wpf
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Create a WPF Toolbox Control

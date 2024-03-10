@@ -5,7 +5,7 @@ ms.date: 07/05/2023
 ms.topic: reference
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 

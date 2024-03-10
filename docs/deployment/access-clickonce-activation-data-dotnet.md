@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "file associations, ClickOnce for .NET 5+"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 monikerRange: '>= vs-2022'
 ---

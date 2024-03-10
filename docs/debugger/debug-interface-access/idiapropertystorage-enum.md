@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaPropertyStorage::Enum"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDiaPropertyStorage::Enum

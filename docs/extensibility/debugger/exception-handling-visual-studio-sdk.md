@@ -7,7 +7,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], exception handling
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Exception handling (Visual Studio SDK)

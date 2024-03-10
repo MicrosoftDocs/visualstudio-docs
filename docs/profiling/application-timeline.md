@@ -5,7 +5,7 @@ ms.date: "11/01/2018"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Analyze resource consumption and UI thread activity (XAML)

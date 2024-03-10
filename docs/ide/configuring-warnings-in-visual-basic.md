@@ -9,7 +9,7 @@ helpviewer_keywords:
 - warnings, configuring
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Configuring warnings in Visual Basic

@@ -5,7 +5,7 @@ ms.date: 05/17/2022
 ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: help-viewer
 ---
 # Override Help Viewer defaults

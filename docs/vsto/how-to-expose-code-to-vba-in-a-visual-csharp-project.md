@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "exposing code to VBA"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Expose code to VBA in a Visual C# project

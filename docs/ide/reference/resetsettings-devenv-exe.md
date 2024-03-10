@@ -10,7 +10,7 @@ helpviewer_keywords:
 - settings [Visual Studio], resetting
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # /ResetSettings (devenv.exe)

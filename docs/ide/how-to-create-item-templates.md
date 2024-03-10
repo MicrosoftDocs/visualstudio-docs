@@ -7,7 +7,7 @@ helpviewer_keywords:
 - item templates [Visual Studio], creating
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Create item templates

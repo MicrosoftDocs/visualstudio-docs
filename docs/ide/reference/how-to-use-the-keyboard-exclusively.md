@@ -12,7 +12,7 @@ helpviewer_keywords:
 - accessibility [Visual Studio]
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Use the keyboard exclusively

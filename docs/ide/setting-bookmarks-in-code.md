@@ -8,7 +8,7 @@ f1_keywords:
 - VS.BookmarkWindow
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ms.custom: engagement-fy23
 ---

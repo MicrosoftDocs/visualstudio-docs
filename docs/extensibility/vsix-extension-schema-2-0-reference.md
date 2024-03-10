@@ -8,7 +8,7 @@ helpviewer_keywords:
 - extension schema
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # VSIX extension schema 2.0 reference

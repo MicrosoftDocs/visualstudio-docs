@@ -5,7 +5,7 @@ ms.date: 05/12/2020
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 
 ms.workload:

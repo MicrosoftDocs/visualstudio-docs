@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugSymbolProvider::GetClassTypeByName method
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

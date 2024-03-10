@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "xaml diagnostics"
 author: maddymontaquila
 ms.author: maleger
-manager: jmartens
+manager: mijacobs
 ms.subservice: xaml-tools
 monikerRange: ">=vs-2019"
 ---

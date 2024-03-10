@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], add reference"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # Include a custom assembly in a BDC feature

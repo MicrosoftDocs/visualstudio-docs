@@ -11,7 +11,7 @@ helpviewer_keywords:
 - relationships, datasets
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Create relationships between datasets in .NET Framework applications

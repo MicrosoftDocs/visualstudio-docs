@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugArrayObject::GetDimensions method
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDebugArrayObject::GetDimensions

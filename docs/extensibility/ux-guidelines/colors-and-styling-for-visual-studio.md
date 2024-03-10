@@ -5,7 +5,7 @@ ms.date: 07/31/2017
 ms.topic: reference
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Colors and Styling for Visual Studio

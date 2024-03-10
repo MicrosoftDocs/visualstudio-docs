@@ -8,7 +8,7 @@ helpviewer_keywords:
 - breakpoint bound events
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # When a breakpoint binds or becomes unbound

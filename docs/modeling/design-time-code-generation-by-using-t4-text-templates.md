@@ -13,7 +13,7 @@ helpviewer_keywords:
 - text templates, generating code for your application
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Design-Time Code Generation by using T4 Text Templates

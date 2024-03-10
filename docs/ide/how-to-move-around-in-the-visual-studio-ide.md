@@ -14,7 +14,7 @@ helpviewer_keywords:
 - IDE navigator
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Move around in the Visual Studio IDE

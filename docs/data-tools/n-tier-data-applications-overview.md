@@ -10,7 +10,7 @@ helpviewer_keywords:
 - n-tier applications, about n-tier applications
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # N-tier .NET Framework data applications overview

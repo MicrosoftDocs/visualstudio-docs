@@ -107,7 +107,7 @@ helpviewer_keywords:
   - "/MAP linker option"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Project settings for a C++ debug configuration

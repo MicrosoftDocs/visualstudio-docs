@@ -9,7 +9,7 @@ ms.topic: tutorial
 ms.devlang: csharp
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 monikerRange: ">=vs-2019"
 dev_langs:
   - CSharp

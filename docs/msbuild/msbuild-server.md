@@ -7,7 +7,7 @@ helpviewer_keywords:
 - MSBuild Server
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # MSBuild Server

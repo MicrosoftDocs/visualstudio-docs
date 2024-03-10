@@ -8,7 +8,7 @@ helpviewer_keywords:
 - source control plug-ins, checking items in
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Test Area 4: Check In

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Office development in Visual Studio, XML"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # XML schemas and data in document-level customizations

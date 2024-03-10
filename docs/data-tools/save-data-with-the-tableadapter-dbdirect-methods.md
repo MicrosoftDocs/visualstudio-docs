@@ -13,7 +13,7 @@ helpviewer_keywords:
 - data [Visual Studio], TableAdapter
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Save data with the TableAdapter DBDirect methods in .NET Framework applications

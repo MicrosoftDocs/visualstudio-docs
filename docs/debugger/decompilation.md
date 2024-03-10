@@ -10,7 +10,7 @@ helpviewer_keywords:
   - debugging [Visual Studio], decompilation, source not found
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2019'
 ---

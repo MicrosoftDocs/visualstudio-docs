@@ -26,7 +26,7 @@ helpviewer_keywords:
 - XAML view settings, attribute spacing
 author: maddymontaquila
 ms.author: maleger
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Options, Text Editor, XAML, Formatting

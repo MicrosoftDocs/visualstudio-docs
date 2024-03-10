@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Basic Text Editor Options dialog box
 author: akhera99
 ms.author: midumont
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Options, Text Editor, Basic (Visual Basic), Advanced

@@ -11,7 +11,7 @@ helpviewer_keywords:
 - keyboard shortcuts
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Keyboard shortcuts in Visual Studio

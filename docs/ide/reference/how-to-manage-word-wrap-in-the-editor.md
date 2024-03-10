@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Code Editor, word wrap
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Manage word wrap in the editor

@@ -6,7 +6,7 @@ ms.date: 12/12/2022
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 ---
 # Step 4: Use the full Django Web Project template

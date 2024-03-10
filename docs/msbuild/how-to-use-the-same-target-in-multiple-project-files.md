@@ -8,7 +8,7 @@ helpviewer_keywords:
 - MSBuild, using the same target in multiple project files
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # Use the same target in multiple project files

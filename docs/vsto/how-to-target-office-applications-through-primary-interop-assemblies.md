@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "application development [Office development in Visual Studio], automating"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Target Office applications through primary interop assemblies

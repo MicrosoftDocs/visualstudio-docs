@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "pseudovariables"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Pseudovariables in the Visual Studio debugger

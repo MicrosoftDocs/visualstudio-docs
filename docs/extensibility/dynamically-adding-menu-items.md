@@ -9,7 +9,7 @@ helpviewer_keywords:
 - menus, adding dynamic items
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Dynamically add menu items

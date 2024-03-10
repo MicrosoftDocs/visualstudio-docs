@@ -8,7 +8,7 @@ helpviewer_keywords:
   - instrumentation profiling method
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Collect detailed timing data for a stand-alone application by using the profiler command line

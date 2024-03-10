@@ -14,7 +14,7 @@ helpviewer_keywords:
 - MSBuild, CreateProperty task
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # CreateProperty task

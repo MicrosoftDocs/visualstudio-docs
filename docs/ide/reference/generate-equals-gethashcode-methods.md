@@ -5,7 +5,7 @@ ms.date: 03/08/2021
 ms.topic: reference
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Generate Equals and GetHashCode method overrides in Visual Studio

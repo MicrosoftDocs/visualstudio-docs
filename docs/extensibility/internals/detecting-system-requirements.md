@@ -8,7 +8,7 @@ helpviewer_keywords:
 - launch conditions
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Detect system requirements

@@ -19,7 +19,7 @@ helpviewer_keywords:
 - software, modeling
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Create models for your app

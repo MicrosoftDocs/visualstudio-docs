@@ -9,7 +9,7 @@ helpviewer_keywords:
 - VSPackages, managed resources
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Resources in VSPackages

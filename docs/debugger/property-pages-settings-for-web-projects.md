@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "debug configurations, Web projects"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Property Pages Settings for Web Projects

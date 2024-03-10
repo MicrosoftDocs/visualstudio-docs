@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "Visual Studio Tools for Office runtime, assemblies"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Assemblies in the Visual Studio Tools for Office runtime

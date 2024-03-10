@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "firewalls, configuring for remote debugging"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Configure Firewall for Remote Debugging Dialog Box

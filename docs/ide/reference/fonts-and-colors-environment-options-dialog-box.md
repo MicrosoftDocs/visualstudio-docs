@@ -22,7 +22,7 @@ helpviewer_keywords:
 - printers, customizing
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Fonts and Colors, Environment, Options dialog box

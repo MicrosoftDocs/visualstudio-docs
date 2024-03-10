@@ -5,7 +5,7 @@ ms.date: 02/07/2024
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 
 # CustomerIntent: As a developer, I want to refactor my code by renaming identifiers, extracting methods, and refreshing any imports so that I can transform and clean my Python code.

@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Office development in Visual Studio, deployment manifests"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Deployment manifests for Office solutions

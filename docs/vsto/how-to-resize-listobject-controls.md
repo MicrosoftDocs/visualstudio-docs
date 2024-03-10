@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "ListObject control, resizing"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Resize ListObject controls

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "components, deploying"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Deploy COM components with ClickOnce

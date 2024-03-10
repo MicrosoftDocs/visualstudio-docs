@@ -14,7 +14,7 @@ helpviewer_keywords:
 - MSBuild, Warning task
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # Warning task

@@ -4,7 +4,7 @@ titleSuffix: ''
 description: List of all out-of-support components in Visual Studio 2022, Visual Studio 2019, and Visual Studio 2017.
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.date: 05/25/2023
 ms.custom: vs-acquisition
 ms.topic: reference

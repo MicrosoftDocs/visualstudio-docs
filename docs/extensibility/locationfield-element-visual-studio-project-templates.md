@@ -11,7 +11,7 @@ helpviewer_keywords:
 - LocationField element [Visual Studio project templates]
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ---
 # LocationField element (Visual Studio project templates)
 

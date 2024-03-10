@@ -19,7 +19,7 @@ helpviewer_keywords:
   - "manifests [ClickOnce], file element"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # &lt;file&gt; element (ClickOnce application)

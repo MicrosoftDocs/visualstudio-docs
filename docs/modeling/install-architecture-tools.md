@@ -5,7 +5,7 @@ ms.date: 05/16/2021
 ms.topic: how-to
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Install Code Map and Live Dependency Validation

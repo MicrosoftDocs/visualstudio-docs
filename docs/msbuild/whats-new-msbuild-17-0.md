@@ -5,7 +5,7 @@ ms.date: 11/01/2023
 ms.topic: whats-new
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 monikerRange: '>=vs-2019'
 ---

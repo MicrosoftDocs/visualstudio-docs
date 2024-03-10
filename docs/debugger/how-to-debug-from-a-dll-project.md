@@ -15,7 +15,7 @@ helpviewer_keywords:
   - debugging [Visual Studio], DLLs
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Debug from a DLL project in Visual Studio (C#, C++, Visual Basic, F#)

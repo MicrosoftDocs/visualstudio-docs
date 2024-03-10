@@ -8,7 +8,7 @@ helpviewer_keywords:
 - source control plug-ins, glossary
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Source Control Plug-in Glossary

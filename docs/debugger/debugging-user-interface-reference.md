@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "debugger, user interface reference"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Debugging User Interface Reference

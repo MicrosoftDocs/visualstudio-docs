@@ -7,7 +7,7 @@ helpviewer_keywords:
 - services, essentials
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Service Essentials

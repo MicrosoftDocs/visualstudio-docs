@@ -9,7 +9,7 @@ helpviewer_keywords:
 - expression evaluation, local properties
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Get local properties

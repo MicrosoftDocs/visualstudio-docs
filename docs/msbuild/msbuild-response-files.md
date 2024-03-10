@@ -14,7 +14,7 @@ helpviewer_keywords:
 - .rsp files
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # MSBuild response files

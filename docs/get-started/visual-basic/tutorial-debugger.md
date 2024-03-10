@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "debugger"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ---
 # Tutorial: Learn to debug Visual Basic code using Visual Studio
 

@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], opening documents"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically open existing documents

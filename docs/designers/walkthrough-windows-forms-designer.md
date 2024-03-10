@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Windows Forms Designer, get started
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: ui-designers
 ---
 # Tutorial: Get started with Windows Forms Designer

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - commands, implementation
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Command design

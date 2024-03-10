@@ -8,7 +8,7 @@ helpviewer_keywords:
 - projects [Visual Studio], user interface
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # What is the .NET Project Designer?

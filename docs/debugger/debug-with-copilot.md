@@ -13,7 +13,7 @@ helpviewer_keywords:
   - Copilot, debugging
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: ai-tools
 monikerRange: '>= vs-2022'
 ---

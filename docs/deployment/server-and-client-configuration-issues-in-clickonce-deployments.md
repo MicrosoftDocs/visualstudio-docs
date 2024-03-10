@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Windows applications, ClickOnce deployments"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Server and client configuration issues in ClickOnce deployments

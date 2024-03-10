@@ -2,7 +2,7 @@
 title: Testing the performance of a cloud service
 description: Test the performance of a cloud service using the Visual Studio profiler
 author: mikejo5000
-manager: jmartens
+manager: mijacobs
 ms.subservice: azure-development
 ms.topic: conceptual
 ms.date: 11/11/2016

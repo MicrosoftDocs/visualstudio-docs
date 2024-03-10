@@ -5,7 +5,7 @@ description: Explore the class coupling metric for code metrics in Visual Studio
 ms.topic: conceptual
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: code-analysis
 ---
 # Code metrics - Class coupling

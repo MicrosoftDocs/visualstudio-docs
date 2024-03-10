@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "FxCopCmd errors"
 ms.author: mikejo
 author: mikejo5000
-manager: jmartens
+manager: mijacobs
 ms.subservice: code-analysis
 monikerRange: 'vs-2019'
 ---

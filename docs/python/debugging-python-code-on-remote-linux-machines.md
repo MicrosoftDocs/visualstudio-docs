@@ -5,7 +5,7 @@ ms.date: 12/12/2022
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 ---
 # Remotely debug Python code on Linux

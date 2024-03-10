@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Edit and Continue [Visual Basic], supported code changes"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Supported code changes (C# and Visual Basic)

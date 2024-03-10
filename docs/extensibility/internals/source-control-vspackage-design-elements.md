@@ -7,7 +7,7 @@ helpviewer_keywords:
 - source control packages, design elements
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Source Control VSPackage Design Elements

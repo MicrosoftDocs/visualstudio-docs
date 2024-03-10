@@ -5,7 +5,7 @@ ms.date: 06/08/2021
 ms.topic: sample
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 monikerRange: "vs-2022"
 feedback_system: GitHub

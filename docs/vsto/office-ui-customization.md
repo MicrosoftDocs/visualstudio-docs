@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Office applications [Office development in Visual Studio], UI customization"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Office UI customization

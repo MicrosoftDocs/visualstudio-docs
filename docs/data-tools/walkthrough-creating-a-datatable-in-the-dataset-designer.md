@@ -10,7 +10,7 @@ helpviewer_keywords:
 - data [Visual Studio], Dataset Designer
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Walkthrough: Create a DataTable for .NET Framework applications using the Dataset Designer

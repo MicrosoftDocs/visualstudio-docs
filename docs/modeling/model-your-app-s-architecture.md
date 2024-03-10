@@ -7,7 +7,7 @@ helpviewer_keywords:
 - UML, modeling architecture
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Model your app&#39;s architecture

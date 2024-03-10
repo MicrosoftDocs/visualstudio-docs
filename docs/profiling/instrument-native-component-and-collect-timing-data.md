@@ -5,7 +5,7 @@ ms.date: 11/11/2022
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Instrument a native stand-alone component and collect timing data with the profiler from the command line

@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: ui-designers
 ---
 # Work with 3D models

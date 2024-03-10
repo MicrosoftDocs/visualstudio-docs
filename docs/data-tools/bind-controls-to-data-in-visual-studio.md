@@ -10,7 +10,7 @@ helpviewer_keywords:
 - displaying data
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Bind controls to data in .NET Framework applications using Visual Studio

@@ -7,7 +7,7 @@ dev_langs:
 - CSharp
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Create a simple data application with WPF and Entity Framework 6

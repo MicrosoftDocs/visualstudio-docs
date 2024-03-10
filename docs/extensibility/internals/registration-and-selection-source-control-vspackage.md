@@ -8,7 +8,7 @@ helpviewer_keywords:
 - source control packages, registration
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Registration and Selection (Source Control VSPackage)

@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "Options dialog box, debugging"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Just-In-Time, Debugging, Options Dialog Box

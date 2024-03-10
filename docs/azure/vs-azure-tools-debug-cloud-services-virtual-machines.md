@@ -2,7 +2,7 @@
 title: Debug an Azure cloud service or virtual machine
 description: Debug an Azure cloud service or virtual machine in Visual Studio by running the operation on your local computer or debugging remotely in Azure.
 author: mikejo5000
-manager: jmartens
+manager: mijacobs
 ms.topic: how-to
 ms.date: 2/28/2023
 ms.author: mikejo

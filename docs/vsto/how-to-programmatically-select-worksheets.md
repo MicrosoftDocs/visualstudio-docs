@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "Excel projects, selecting worksheets"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically select worksheets

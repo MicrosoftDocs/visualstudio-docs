@@ -5,7 +5,7 @@ ms.date: 11/18/2022
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 ---
 # Debug Python and C++ together

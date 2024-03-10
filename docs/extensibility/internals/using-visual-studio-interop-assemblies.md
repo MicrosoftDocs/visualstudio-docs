@@ -9,7 +9,7 @@ helpviewer_keywords:
 - managed VSPackages, interop assemblies
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Using Visual Studio Interop Assemblies

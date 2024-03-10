@@ -8,7 +8,7 @@ helpviewer_keywords:
 - project models, services
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Project Model Core Components

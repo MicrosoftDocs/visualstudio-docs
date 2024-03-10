@@ -11,7 +11,7 @@ helpviewer_keywords:
 - Domain-Specific Language, toolbox
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Customizing Tools and the Toolbox
