@@ -1,6 +1,6 @@
 ---
 title: Accessing Azure Virtual Machines from Server Explorer
-description: Get an overview of how to view create and manage Azure virtual machines (VMs) in Server Explorer in Visual Studio.
+description: Get an overview of how to view create and manage Azure Virtual Machines (VMs) in Server Explorer in Visual Studio.
 author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
@@ -9,6 +9,7 @@ ms.date: 03/06/2024
 ms.author: ghogen
 monikerRange: "<=vs-2019"
 ---
+
 # Accessing Azure Virtual Machines from Server Explorer
 
 > [!Important]
@@ -31,7 +32,7 @@ If you don't have an Azure account, activate your [Azure benefits for Visual Stu
    | DNS Name |The URL with the Internet address of the virtual machine. |
    | Environment |For a virtual machine, the value of this property is always Production. |
    | Name |The name of the virtual machine. |
-   | Size |The size of the virtual machine, which reflects the amount of memory and disk space that’s available. For more information, see [Virtual Machine Sizes](/azure/cloud-services/cloud-services-sizes-specs). |
+   | Size |The size of the virtual machine, which reflects the amount of memory and disk space that's available. For more information, see [Virtual Machine Sizes](/azure/cloud-services/cloud-services-sizes-specs). |
    | Status |Values include Starting, Started, Stopping, Stopped, and Retrieving Status. If Retrieving Status appears, the current status is unknown. The values for this property differ from the values that are used on the [Azure portal](https://portal.azure.com). |
    | SubscriptionID |The subscription ID for your Azure account. You can show this information on the [Azure portal](https://portal.azure.com) by viewing the properties for a subscription. |
 2. Choose an endpoint node, and then view the **Properties** window.
@@ -42,4 +43,4 @@ If you don't have an Azure account, activate your [Azure benefits for Visual Stu
    | Name |An identifier for the endpoint. |
    | Private Port |The port for network access internal to your application. |
    | Protocol |The protocol that the transport layer for this endpoint uses, either TCP or UDP. |
-   | Public Port |The port that’s used for public access to your application. |
+   | Public Port |The port that's used for public access to your application. |
