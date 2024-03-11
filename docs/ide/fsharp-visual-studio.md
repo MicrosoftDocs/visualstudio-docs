@@ -9,7 +9,7 @@ f1_keywords:
 - fs.ProjectPropertiesDebug
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Develop with Visual F# in Visual Studio

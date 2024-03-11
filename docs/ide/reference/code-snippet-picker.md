@@ -11,7 +11,7 @@ helpviewer_keywords:
 - code snippets, Code Snippet Picker
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Code Snippet Picker

@@ -24,7 +24,7 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], restricted permissions"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Add Content controls to Word documents

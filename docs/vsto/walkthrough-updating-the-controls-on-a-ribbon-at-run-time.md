@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], updating"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Walkthrough: Update the controls on a ribbon at run time

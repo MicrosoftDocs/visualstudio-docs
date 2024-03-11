@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], Windows Forms controls"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Add Windows Forms controls to Office documents

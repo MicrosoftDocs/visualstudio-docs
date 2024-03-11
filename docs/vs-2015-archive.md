@@ -5,7 +5,7 @@ ms.date: 10/13/2020
 ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ---
 
 # Visual Studio 2015 documentation

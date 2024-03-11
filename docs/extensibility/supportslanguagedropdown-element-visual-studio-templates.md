@@ -12,7 +12,7 @@ helpviewer_keywords:
 - <SupportsLanguageDropDown> element [Visual Studio Templates]
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ---
 # SupportsLanguageDropDown Element (Visual Studio Templates)
 

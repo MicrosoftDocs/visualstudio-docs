@@ -8,7 +8,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], visualizing data
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Visualizing and viewing data

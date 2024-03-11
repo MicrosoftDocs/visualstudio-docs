@@ -30,7 +30,7 @@ helpviewer_keywords:
 - editors, global settings
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Options dialog box: Text Editor \> General

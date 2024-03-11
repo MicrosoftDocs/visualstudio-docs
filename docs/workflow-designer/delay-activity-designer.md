@@ -7,7 +7,7 @@ f1_keywords:
   - "System.Activities.Statements.Delay.UI"
 author: jodavis
 ms.author: jodavis
-manager: jmartens
+manager: mijacobs
 ms.subservice: workflow-designer
 ---
 # Delay Activity Designer

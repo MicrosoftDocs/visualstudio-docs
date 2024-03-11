@@ -10,7 +10,7 @@ helpviewer_keywords:
 - find in files command
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 monikerRange: "<=vs-2019"
 ---

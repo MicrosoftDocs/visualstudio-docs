@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, debugging"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # Build and debug SharePoint solutions

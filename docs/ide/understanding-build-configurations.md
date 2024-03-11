@@ -23,7 +23,7 @@ helpviewer_keywords:
 - solutions [Visual Studio], build configuration
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ---
 # Understand build configurations
 

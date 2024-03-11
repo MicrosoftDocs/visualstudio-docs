@@ -8,7 +8,7 @@ helpviewer_keywords:
 - status bars, overview
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Extend the status bar

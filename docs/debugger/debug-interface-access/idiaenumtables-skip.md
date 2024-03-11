@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaEnumTables::Skip method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDiaEnumTables::Skip

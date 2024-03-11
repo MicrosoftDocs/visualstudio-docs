@@ -17,7 +17,7 @@ helpviewer_keywords:
 - Class Designer, tasks in C++
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Work with C++ code in Class Designer

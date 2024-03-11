@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "object models [Office development in Visual Studio], threading support"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Threading support in Office

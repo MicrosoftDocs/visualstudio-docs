@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "Performance Profiler, profiling methods"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Understand profiler performance collection methods

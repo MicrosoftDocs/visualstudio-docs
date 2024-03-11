@@ -26,7 +26,7 @@ helpviewer_keywords:
 - Class Details window, member creation
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Create and configure type members in Class Designer

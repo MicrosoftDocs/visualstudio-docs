@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Threads View Reports (Parallel Performance)"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Threads view reports in the Concurrency Visualizer

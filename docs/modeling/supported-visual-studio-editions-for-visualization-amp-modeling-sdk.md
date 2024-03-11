@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Domain-Specific Language Tools, supported Visual Studio editions
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Supported Visual Studio Editions for Visualization & Modeling SDK

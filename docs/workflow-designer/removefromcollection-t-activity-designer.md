@@ -7,7 +7,7 @@ f1_keywords:
   - "System.Activities.Statements.RemoveFromCollection`1.UI"
 author: jodavis
 ms.author: jodavis
-manager: jmartens
+manager: mijacobs
 ms.subservice: workflow-designer
 ---
 # RemoveFromCollection\<T> Activity Designer

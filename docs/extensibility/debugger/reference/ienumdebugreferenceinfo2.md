@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IEnumDebugReferenceInfo2
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IEnumDebugReferenceInfo2

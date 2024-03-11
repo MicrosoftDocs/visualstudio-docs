@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "walkthroughs [Domain-Specific Language Tools]"
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Add a Tracking Property to a Domain-Specific Language Definition

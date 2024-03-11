@@ -9,7 +9,7 @@ helpviewer_keywords:
 - BP_REQUEST_INFO2 structure
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

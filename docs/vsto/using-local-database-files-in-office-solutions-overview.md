@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "local data [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Use local database files in Office solutions overview

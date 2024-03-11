@@ -9,7 +9,7 @@ helpviewer_keywords:
 - return values
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Error handling and return values

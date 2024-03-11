@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "debugger, parallel tasks window"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # View threads and tasks in the Parallel Stacks window (C#, Visual Basic, C++)

@@ -5,7 +5,7 @@ ms.date: 03/07/2024
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 
 #customer intent: As a developer, I want to work with Python, C++, CPython, and PyBind11 in Visual Studio so that I can create and debug a C++ extension for Python.

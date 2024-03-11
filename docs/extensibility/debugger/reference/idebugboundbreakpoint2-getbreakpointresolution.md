@@ -10,7 +10,7 @@ helpviewer_keywords:
 - IDebugBoundBreakpoint2::GetBreakpointResolution method
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

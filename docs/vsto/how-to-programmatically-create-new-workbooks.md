@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "workbooks, creating"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically create new workbooks

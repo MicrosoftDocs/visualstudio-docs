@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Project Designer, Settings page
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Settings page, Project Designer

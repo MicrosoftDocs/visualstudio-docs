@@ -21,7 +21,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, deployment conflict resolution"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # Troubleshoot SharePoint packaging and deployment

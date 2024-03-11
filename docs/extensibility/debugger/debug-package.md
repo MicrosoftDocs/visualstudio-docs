@@ -7,7 +7,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], packages
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Debug package

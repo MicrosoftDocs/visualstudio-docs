@@ -9,7 +9,7 @@ helpviewer_keywords:
 - application settings [Visual Studio]
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Manage application settings (.NET)

@@ -7,7 +7,7 @@ f1_keywords:
   - "System.ServiceModel.Activities.TransactedReceiveScope.UI"
 author: jodavis
 ms.author: jodavis
-manager: jmartens
+manager: mijacobs
 ms.subservice: workflow-designer
 ---
 # TransactedReceiveScope Activity Designer

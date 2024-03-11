@@ -10,7 +10,7 @@ helpviewer_keywords:
 - IDE, user feedback
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Feedback to the user

@@ -7,7 +7,7 @@ f1_keywords:
 - System.Activities.Presentation.View.ImportDesigner.UI
 author: jodavis
 ms.author: jodavis
-manager: jmartens
+manager: mijacobs
 ms.subservice: workflow-designer
 ---
 # Use the Imports Designer

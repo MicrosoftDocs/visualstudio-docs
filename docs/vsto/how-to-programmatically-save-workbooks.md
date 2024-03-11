@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "workbooks, saving backup copies"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically save workbooks

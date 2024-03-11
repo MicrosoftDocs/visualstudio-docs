@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "manifests [ClickOnce], entryPoint element"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # &lt;entryPoint&gt; element (ClickOnce application)

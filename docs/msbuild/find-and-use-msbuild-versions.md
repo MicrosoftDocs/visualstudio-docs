@@ -5,7 +5,7 @@ ms.date: 2/13/2024
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # Find and use a version of MSBuild

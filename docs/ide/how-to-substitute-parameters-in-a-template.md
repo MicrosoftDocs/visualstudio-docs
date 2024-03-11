@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Visual Studio templates, using parameters
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Substitute parameters in a template

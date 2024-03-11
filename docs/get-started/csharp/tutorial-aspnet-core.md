@@ -3,7 +3,7 @@ title: "Tutorial: Create C# ASP.NET Core web application"
 description: Create a web application in the Visual Studio integrated development environment (IDE) by using C# and ASP.NET Core, make changes to the app, and run the app.
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ms.topic: tutorial
 ms.date: 11/17/2023

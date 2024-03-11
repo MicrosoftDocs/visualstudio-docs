@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "DBG files"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Getting Started (Debug Interface Access SDK)

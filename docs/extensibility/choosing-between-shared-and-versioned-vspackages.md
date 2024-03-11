@@ -9,7 +9,7 @@ helpviewer_keywords:
 - installation [Visual Studio SDK], side-by-side
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Choose between shared and versioned VSPackages

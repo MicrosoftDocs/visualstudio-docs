@@ -7,7 +7,7 @@ helpviewer_keywords:
 - dependency diagrams
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Validate your system during development

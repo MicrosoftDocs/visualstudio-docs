@@ -11,7 +11,7 @@ helpviewer_keywords:
 - Find and Replace, customizing
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Find and Replace, Environment, Options Dialog Box

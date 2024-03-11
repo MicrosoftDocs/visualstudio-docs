@@ -24,7 +24,7 @@ helpviewer_keywords:
   - "Office projects [Office development in Visual Studio], Excel"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Excel solutions

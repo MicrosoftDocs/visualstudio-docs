@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_container method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_container

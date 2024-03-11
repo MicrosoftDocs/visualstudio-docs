@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "worksheets [Office development in Visual Studio], XML schemas"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Map schemas to worksheets inside Visual Studio

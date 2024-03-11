@@ -6,7 +6,7 @@ ms.date: 05/16/2023
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-ms.manager: jmartens
+ms.manager: mijacobs
 
 ms.subservice: general-ide
 monikerRange: vs-2022

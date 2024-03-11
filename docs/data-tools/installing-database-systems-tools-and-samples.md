@@ -9,7 +9,7 @@ helpviewer_keywords:
 - databases for Visual Studio
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Compatible database systems for Visual Studio

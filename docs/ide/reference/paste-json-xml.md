@@ -5,7 +5,7 @@ ms.date: 04/04/2023
 ms.topic: reference
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Paste JSON or XML as classes

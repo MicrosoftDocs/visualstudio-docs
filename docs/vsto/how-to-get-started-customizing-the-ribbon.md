@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "customizing the Ribbon, adding Ribbon to project"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Get started customizing the ribbon

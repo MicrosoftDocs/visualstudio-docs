@@ -8,7 +8,7 @@ helpviewer_keywords:
 - VSIX private galleries, Atom feed
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Create an Atom feed for a private gallery

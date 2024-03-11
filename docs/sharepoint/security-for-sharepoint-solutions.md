@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, security"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # Security for SharePoint solutions

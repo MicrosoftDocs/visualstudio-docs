@@ -7,7 +7,7 @@ ms.subservice: python
 ms.topic: quickstart
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.custom: vs-acquisition
 
 #customer intent: As a developer, I want to create a Python web app in Visual Studio so that I can write and debug code, and run my app.

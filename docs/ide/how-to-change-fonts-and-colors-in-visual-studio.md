@@ -9,7 +9,7 @@ helpviewer_keywords:
 - color themes, Visual Studio
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Change fonts, colors, and themes in Visual Studio

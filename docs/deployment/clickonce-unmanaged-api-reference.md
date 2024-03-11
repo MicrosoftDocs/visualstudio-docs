@@ -25,7 +25,7 @@ helpviewer_keywords:
   - "GetDeploymentDataFromManifest [ClickOnce unmanaged]"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # ClickOnce unmanaged API reference

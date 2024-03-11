@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Command Devenv switch
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # /Command (devenv.exe)

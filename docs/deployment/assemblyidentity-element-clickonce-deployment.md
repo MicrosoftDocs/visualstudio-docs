@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "<assemblyIdentity> element [ClickOnce deployment manifest]"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # &lt;assemblyIdentity&gt; element (ClickOnce deployment)

@@ -5,7 +5,7 @@ ms.date: 05/22/2023
 ms.topic: conceptual
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Visual Studio performance tips and tricks

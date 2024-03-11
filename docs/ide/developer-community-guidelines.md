@@ -5,7 +5,7 @@ ms.date: 6/30/2020
 ms.topic: conceptual
 author: madskristensen
 ms.author: madsk
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Developer Community guidelines

@@ -17,7 +17,7 @@ helpviewer_keywords:
 - MSBuild, validating code
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Validate code with dependency diagrams

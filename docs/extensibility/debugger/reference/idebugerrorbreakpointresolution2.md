@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugErrorBreakpointResolution2
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDebugErrorBreakpointResolution2

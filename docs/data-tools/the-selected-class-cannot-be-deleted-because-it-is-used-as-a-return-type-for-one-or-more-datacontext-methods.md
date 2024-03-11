@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: error-reference
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # The selected class cannot be deleted because it is used as a return type for one or more DataContext methods

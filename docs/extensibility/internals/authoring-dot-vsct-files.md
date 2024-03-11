@@ -7,7 +7,7 @@ helpviewer_keywords:
 - VSCT files, manual authoring
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Author .vsct files

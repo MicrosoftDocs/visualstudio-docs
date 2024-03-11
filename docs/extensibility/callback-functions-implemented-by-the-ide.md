@@ -8,7 +8,7 @@ helpviewer_keywords:
 - callback functions, source control plug-ins
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Callback functions implemented by the IDE

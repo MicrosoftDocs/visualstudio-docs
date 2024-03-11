@@ -5,7 +5,7 @@ ms.date: 03/06/2018
 ms.topic: error-reference
 author: maddymontaquila
 ms.author: maleger
-manager: jmartens
+manager: mijacobs
 ms.subservice: xaml-tools
 ---
 # XAML errors and warnings

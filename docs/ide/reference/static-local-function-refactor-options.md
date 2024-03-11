@@ -5,7 +5,7 @@ ms.date: 02/10/2020
 ms.topic: reference
 author: governesss
 ms.author: midumont
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 f1_keywords:
   - "vs.csharp.refactoring.make.local.function.static"

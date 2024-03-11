@@ -10,7 +10,7 @@ helpviewer_keywords:
 - installing Visual Studio, administrator guide
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 
 ms.subservice: installation
 ---

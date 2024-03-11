@@ -11,7 +11,7 @@ helpviewer_keywords:
 - <SortOrder> element [Visual Studio Templates]
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ---
 # SortOrder Element (Visual Studio Templates)
 

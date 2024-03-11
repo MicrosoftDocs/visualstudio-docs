@@ -7,7 +7,7 @@ helpviewer_keywords:
 - text templates, escape sequences
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Use escape sequences in text templates

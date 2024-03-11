@@ -8,7 +8,7 @@ helpviewer_keywords:
 - IDE, GUIDs
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # IDE GUIDs

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - 'install layout'
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 
 ms.subservice: installation
 ---

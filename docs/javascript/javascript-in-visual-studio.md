@@ -11,7 +11,7 @@ dev_langs:
   - "DHTML"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ---
 # JavaScript and TypeScript in Visual Studio
 

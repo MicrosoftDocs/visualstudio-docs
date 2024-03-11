@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "e-mail [Office development in Visual Studio], custom actions"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically perform actions when an email message is received

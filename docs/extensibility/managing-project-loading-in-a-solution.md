@@ -7,7 +7,7 @@ helpviewer_keywords:
 - solutions, managing project loading
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Manage project loading in a solution

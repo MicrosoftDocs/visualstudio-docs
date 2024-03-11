@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaEnumLineNumbers::get_Count method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDiaEnumLineNumbers::get_Count

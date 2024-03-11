@@ -13,7 +13,7 @@ helpviewer_keywords:
 - data [Visual Studio], saving
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Save data by using a transaction in .NET Framework applications

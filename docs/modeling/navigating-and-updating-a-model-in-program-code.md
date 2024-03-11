@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Domain-Specific Language, programming domain models
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Navigate and Update a Model in Program Code

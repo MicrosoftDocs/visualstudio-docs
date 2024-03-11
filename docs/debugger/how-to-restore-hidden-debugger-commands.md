@@ -15,7 +15,7 @@ helpviewer_keywords:
   - commands, debugger
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Restore Hidden Debugger Commands

@@ -5,7 +5,7 @@ ms.date: 05/16/2018
 ms.topic: conceptual
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Improve performance for code maps

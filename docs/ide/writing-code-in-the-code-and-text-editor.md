@@ -8,7 +8,7 @@ helpviewer_keywords:
 - code editor [Visual Studio]
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Features of the code editor

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "event receivers [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # Create an event receiver

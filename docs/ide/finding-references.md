@@ -8,7 +8,7 @@ helpviewer_keywords:
 - find all references
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Find references in your code

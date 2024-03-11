@@ -20,7 +20,7 @@ helpviewer_keywords:
   - "helper methods [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Add controls to Office documents at run time

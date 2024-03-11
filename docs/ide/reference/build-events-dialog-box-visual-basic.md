@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "post-build events"
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 monikerRange: 'vs-2019'
 ---
 # Build Events Dialog Box (Visual Basic)

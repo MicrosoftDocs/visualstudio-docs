@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: error-reference
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # One or more selected database objects return a schema that does not match the schema of the target class

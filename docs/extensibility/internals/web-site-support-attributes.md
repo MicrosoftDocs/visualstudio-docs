@@ -7,7 +7,7 @@ helpviewer_keywords:
 - web site projects, registration
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Web Site Support Attributes

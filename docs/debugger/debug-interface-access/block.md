@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "Block symbol"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Block

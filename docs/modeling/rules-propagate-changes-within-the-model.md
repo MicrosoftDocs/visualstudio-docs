@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, rules"
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Rules Propagate Changes Within the Model

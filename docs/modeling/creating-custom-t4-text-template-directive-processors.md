@@ -7,7 +7,7 @@ helpviewer_keywords:
 - text templates, custom directive processors
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Create Custom T4 Text Template Directive Processors

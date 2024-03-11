@@ -7,7 +7,7 @@ helpviewer_keywords:
 - msbuild, Item functions
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # Work with item functions

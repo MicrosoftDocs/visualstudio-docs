@@ -10,7 +10,7 @@ helpviewer_keywords:
 - custom controls [Visual Studio]
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Toolbox

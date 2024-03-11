@@ -7,7 +7,7 @@ f1_keywords:
   - "System.Activities.Statements.ExistsInCollection`1.UI"
 author: jodavis
 ms.author: jodavis
-manager: jmartens
+manager: mijacobs
 ms.subservice: workflow-designer
 ---
 # ExistsInCollection\<T> Activity Designer

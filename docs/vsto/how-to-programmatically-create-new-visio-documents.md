@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], creating Visio documents"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically create new Visio documents

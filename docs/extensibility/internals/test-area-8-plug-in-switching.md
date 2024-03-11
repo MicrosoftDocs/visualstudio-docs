@@ -8,7 +8,7 @@ helpviewer_keywords:
 - source control plug-ins, switching
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Test Area 8: Plug-in Switching

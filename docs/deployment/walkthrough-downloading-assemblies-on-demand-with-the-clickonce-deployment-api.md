@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "on-demand assemblies, ClickOnce"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Walkthrough: Download assemblies on demand with the ClickOnce deployment API

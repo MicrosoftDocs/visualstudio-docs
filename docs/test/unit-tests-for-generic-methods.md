@@ -7,7 +7,7 @@ helpviewer_keywords:
 - generics, and unit tests
 - unit tests, and generics
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: test-tools
 author: mikejo5000
 ---

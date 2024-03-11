@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "deploying applications, ClickOnce security"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Secure ClickOnce applications

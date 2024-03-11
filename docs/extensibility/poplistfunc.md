@@ -9,7 +9,7 @@ helpviewer_keywords:
 - POPLISTFUNC callback function
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # POPLISTFUNC

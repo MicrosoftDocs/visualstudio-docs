@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "Office applications [Office development in Visual Studio], globalization"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Target the Office multilingual user interface

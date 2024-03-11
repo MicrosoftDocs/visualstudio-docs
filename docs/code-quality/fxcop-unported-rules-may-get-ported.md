@@ -8,7 +8,7 @@ helpviewer_keywords:
 - .NET analyzers, ported rules, unported rules, rules that may be ported
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: code-analysis
 ---
 # Unported rules that may be ported

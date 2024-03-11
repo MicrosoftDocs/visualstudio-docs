@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaSegment::get_execute method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDiaSegment::get_execute

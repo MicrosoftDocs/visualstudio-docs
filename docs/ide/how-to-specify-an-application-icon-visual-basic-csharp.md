@@ -9,7 +9,7 @@ helpviewer_keywords:
 - application icons [Visual Studio]
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Specify an application icon (Visual Basic, C#)

@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "Help Viewer, shortcut keys"
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: help-viewer
 ---
 # Shortcut keys in Microsoft Help Viewer

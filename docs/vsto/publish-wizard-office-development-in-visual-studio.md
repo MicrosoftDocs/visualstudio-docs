@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "Publish Wizard, Office solutions"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Publish wizard (Office development in Visual Studio)

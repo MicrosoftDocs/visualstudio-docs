@@ -8,7 +8,7 @@ helpviewer_keywords:
 - file name extensions
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # About file name extensions

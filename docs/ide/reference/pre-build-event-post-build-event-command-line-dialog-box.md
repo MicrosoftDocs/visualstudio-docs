@@ -31,7 +31,7 @@ helpviewer_keywords:
 - build events, macros
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 monikerRange: 'vs-2019'
 ---
 # Pre-build event/post-build event command line dialog box

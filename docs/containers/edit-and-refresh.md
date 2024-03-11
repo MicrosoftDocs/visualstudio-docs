@@ -3,7 +3,7 @@ title: Debug apps in a local Docker container
 description: Modify applications running in a local Docker container, refresh with the Edit and Refresh actions, and set debugging breakpoints.
 ms.author: ghogen
 author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.topic: how-to
 ms.date: 11/08/2023
 ms.subservice: container-tools

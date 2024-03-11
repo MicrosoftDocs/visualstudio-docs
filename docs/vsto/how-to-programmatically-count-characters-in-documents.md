@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], counting characters"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically count characters in documents

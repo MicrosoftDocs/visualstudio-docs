@@ -12,7 +12,7 @@ helpviewer_keywords:
 - Visual Studio, task list
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Use the Task List

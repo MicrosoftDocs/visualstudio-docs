@@ -28,7 +28,7 @@ helpviewer_keywords:
 - multi-caret selection
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Find and replace text in Visual Studio

@@ -10,7 +10,7 @@ helpviewer_keywords:
 - data sources
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Add new data sources in ADO.NET applications (.NET Framework)

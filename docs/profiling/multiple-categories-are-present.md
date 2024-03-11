@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Multiple Categories Are Present"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Multiple categories are present

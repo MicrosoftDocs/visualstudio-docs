@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], common tasks in Visio"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Work with Visio documents

@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Live Unit Testing
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: test-tools
 ---
 # Live Unit Testing overview

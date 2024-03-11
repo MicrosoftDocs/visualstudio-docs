@@ -19,7 +19,7 @@ helpviewer_keywords:
 - objects [Visual Studio], referencing
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Manage references in a project

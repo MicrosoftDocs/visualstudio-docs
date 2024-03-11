@@ -5,7 +5,7 @@ ms.date: 11/02/2022
 ms.topic: conceptual
 ms.author: ghogen
 author: ghogen
-ms.manager: jmartens
+ms.manager: mijacobs
 monikerRange: "<=vs-2019"
 ---
 # Connect to projects in Team Explorer

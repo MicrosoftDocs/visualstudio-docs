@@ -16,7 +16,7 @@ helpviewer_keywords:
   - aspnet_wp.exe
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Run the Worker Process Under a User Account

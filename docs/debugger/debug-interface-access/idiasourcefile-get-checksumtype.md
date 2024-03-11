@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaSourceFile::get_checksumType method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDiaSourceFile::get_checksumType

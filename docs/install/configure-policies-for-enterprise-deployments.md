@@ -11,7 +11,7 @@ helpviewer_keywords:
 - '{{PLACEHOLDER}}'
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 
 ms.subservice: installation
 ---

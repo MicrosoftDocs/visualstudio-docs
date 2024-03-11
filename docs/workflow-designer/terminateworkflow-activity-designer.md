@@ -7,7 +7,7 @@ f1_keywords:
 - System.Activities.Statements.TerminateWorkflow.UI
 author: jodavis
 ms.author: jodavis
-manager: jmartens
+manager: mijacobs
 ms.subservice: workflow-designer
 ---
 # TerminateWorkflow Activity Designer

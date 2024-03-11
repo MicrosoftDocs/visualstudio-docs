@@ -9,7 +9,7 @@ helpviewer_keywords:
 - data sources, defining with configuration files
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: test-tools
 ---
 # Walkthrough: Using a configuration file to define a data source

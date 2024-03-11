@@ -7,7 +7,7 @@ ms.custom: vs-acquisition
 ms.topic: how-to
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 
 ms.subservice: installation
 ---

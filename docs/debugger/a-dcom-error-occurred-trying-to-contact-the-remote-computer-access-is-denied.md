@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "DCOM, access errors"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # A DCOM error occurred trying to contact the remote computer. Access is denied.

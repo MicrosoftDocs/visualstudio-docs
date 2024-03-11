@@ -8,7 +8,7 @@ f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.CSharp.Advanced
 author: mikadumont
 ms.author: midumont
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Options, Text Editor, C#, Advanced
