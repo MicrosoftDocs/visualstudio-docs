@@ -2,7 +2,7 @@
 title: Options for Python code and projects (feature description)
 description: Explore options in Visual Studio for Python code and projects, including feature descriptions of environment preferences, debugging, diagnostics, and advanced settings.
 ms.date: 03/11/2024
-ms.topic: conceptual
+ms.topic: concept-article
 f1_keywords:
   - "VS.ToolsOptionsPages.Python_Tools"
   - "VS.ToolsOptionsPages.Python_Tools.General"
