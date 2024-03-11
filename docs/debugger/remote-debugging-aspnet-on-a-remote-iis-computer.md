@@ -5,7 +5,7 @@ ms.date: 11/21/2023
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Remote Debug ASP.NET Core on a Remote IIS Computer in Visual Studio

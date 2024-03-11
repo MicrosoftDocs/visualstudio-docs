@@ -5,7 +5,7 @@ ms.date: 07/17/2020
 ms.topic: conceptual
 author: maddymontaquila
 ms.author: maleger
-manager: jmartens
+manager: mijacobs
 ms.subservice: xaml-tools
 ---
 # Organize objects into layout containers in XAML Designer

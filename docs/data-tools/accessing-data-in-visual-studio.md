@@ -10,7 +10,7 @@ helpviewer_keywords:
 - ADO.NET, data access
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Work with data in Visual Studio

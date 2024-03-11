@@ -5,7 +5,7 @@ ms.date: "07/08/2022"
 ms.topic: "reference"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Remote Debugger Port Assignments

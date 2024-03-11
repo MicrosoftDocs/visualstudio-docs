@@ -10,7 +10,7 @@ helpviewer_keywords:
 - list of domains, locations, URLs
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 
 ms.subservice: installation
 ---

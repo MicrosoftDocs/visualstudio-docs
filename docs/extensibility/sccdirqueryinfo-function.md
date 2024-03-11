@@ -9,7 +9,7 @@ helpviewer_keywords:
 - SccDirQueryInfo function
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # SccDirQueryInfo function

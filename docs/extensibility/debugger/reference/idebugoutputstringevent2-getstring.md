@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugOutputStringEvent2::GetString
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

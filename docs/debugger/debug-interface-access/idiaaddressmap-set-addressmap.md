@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaAddressMap::set_addressMap method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDiaAddressMap::set_addressMap

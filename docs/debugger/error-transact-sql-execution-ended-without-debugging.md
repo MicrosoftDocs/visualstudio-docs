@@ -13,7 +13,7 @@ dev_langs:
   - "SQL"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Error: Transact-SQL execution ended without debugging

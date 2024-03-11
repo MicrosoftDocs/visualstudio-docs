@@ -16,7 +16,8 @@ helpviewer_keywords:
 - Compile page in Project Designer
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
+monikerRange: 'vs-2019'
 ---
 # Compile Page, Project Designer (Visual Basic)
 

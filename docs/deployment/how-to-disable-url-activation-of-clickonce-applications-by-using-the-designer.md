@@ -13,7 +13,7 @@ helpviewer_keywords:
   - ClickOnce deployment, URL activation
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Disable URL activation of ClickOnce applications by using the Designer

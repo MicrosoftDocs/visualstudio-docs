@@ -5,7 +5,7 @@ ms.date: 05/23/2019
 ms.topic: how-to
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Writing to the User Settings Store

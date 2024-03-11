@@ -5,7 +5,7 @@ ms.date: 01/18/2024
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Customize the Visual Studio IDE

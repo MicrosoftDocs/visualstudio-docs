@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Visual Studio administrator
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 
 ms.subservice: installation
 ---

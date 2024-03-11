@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: how-to
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Manage multiple threads in managed code

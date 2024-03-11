@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "performance tools"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Which performance tool should I use? (C#, Visual Basic, C++, F#)

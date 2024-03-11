@@ -2,18 +2,19 @@
 title: Add Application Insights with Connected Services
 description: Connect Azure Application Insights to your application by using Connected Services in Visual Studio on Windows and add a connected service.
 author: AngelosP
-manager: jmartens
+manager: mijacobs
 ms.subservice: azure-development
 ms.topic: conceptual
 ms.date: 05/03/2023
 ms.author: angelpe
 ---
+
 # Add Azure Application Insights by using Visual Studio Connected Services
 
 With Visual Studio, you can connect any of the following to Azure Application Insights by using the **Connected Services** feature:
 
 - .NET Framework console app
-- ASP.NET MVC (.NET Framework) 
+- ASP.NET Model-View-Controller (MVC) (.NET Framework)
 - ASP.NET Core
 - .NET Core (including console app, WPF, Windows Forms, class library)
 - .NET Core Worker Role
@@ -49,7 +50,7 @@ The connected service functionality adds all the needed references and connectio
 
     ![Screenshot showing "Add Azure Application Insights" screen.](./media/azure-app-insights-add-connected-service/azure-app-insights.png)
 
-    If you aren't signed in already, sign into your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
+    If you aren't signed in already, sign in to your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
 
 1. In the **Configure Azure Application Insights** screen, select an existing Azure Application Insights component, and select **Next**.
 
@@ -97,9 +98,9 @@ The connected service functionality adds all the needed references and connectio
 
    ![Screenshot showing Application Insights choices.](./media/azure-app-insights-add-connected-service/vs-2022/application-insights-choices-2.png)
 
-   If you choose to use the Application Insights Sdk locally, click **Next** to see the **Summary of changes** screen, which shows how your project is being modified. A NuGet package reference is added to your project and the connection code for the local emulator is added to your project.
+   If you choose to use the Application Insights SDK locally, click **Next** to see the **Summary of changes** screen, which shows how your project is being modified. A NuGet package reference is added to your project and the connection code for the local emulator is added to your project.
 
-   If you want to connect to the Azure service, continue to the next step, or if you aren't signed in already, sign into your Azure account before continuing. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
+   If you want to connect to the Azure service, continue to the next step, or if you aren't signed in already, sign in to your Azure account before continuing. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
 
 1. In the **Configure Azure Application Insights** screen, select an existing Azure Application Insights component, and select **Next**.
 

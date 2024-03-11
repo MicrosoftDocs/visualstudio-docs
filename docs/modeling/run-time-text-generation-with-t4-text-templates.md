@@ -13,7 +13,7 @@ helpviewer_keywords:
 - text templates, generating files at run time
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Run-Time Text Generation with T4 Text Templates

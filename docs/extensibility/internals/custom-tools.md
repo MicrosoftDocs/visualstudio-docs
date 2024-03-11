@@ -9,7 +9,7 @@ helpviewer_keywords:
 - custom tools
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Custom tools

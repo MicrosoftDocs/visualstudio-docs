@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "Outlook folders [Office development in Visual Studio], searching"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically search within a specific folder

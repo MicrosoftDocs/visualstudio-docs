@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugExceptionEvent2::GetExceptionDescription
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

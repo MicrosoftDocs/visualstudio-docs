@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, compartment shape"
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Properties of Compartment Shapes

@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "Visio [Office development in Visual Studio], opening Visio documents"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically open Visio documents

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - reference, Visual Studio SDK
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Visual Studio SDK reference

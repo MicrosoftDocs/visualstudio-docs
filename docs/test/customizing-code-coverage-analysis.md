@@ -4,7 +4,7 @@ description: Learn how to use the ExcludeFromCodeCoverageAttribute attribute to 
 ms.date: 02/20/2024
 ms.topic: conceptual
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: test-tools
 author: mikejo5000
 ---

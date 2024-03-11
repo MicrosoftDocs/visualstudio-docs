@@ -5,7 +5,7 @@ ms.date: 02/22/2024
 ms.topic: conceptual
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 
 #customer intent: As a developer, I want to use Python web app templates in Visual Studio so that I can build with the Bottle, Flask, and Django frameworks and publish to Azure App Service.

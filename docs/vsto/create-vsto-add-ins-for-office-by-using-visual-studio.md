@@ -9,7 +9,7 @@ dev_langs:
   - "CSharp"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Create VSTO Add-ins for Office by using Visual Studio

@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, packaging and deploying"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # Package and deploy SharePoint solutions

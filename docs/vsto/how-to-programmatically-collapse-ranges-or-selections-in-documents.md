@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "collapsing ranges"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically collapse ranges or selections in documents

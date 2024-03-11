@@ -9,7 +9,7 @@ helpviewer_keywords:
   - rule sets
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: code-analysis
 monikerRange: 'vs-2019'
 ---

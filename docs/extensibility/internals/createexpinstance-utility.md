@@ -11,7 +11,7 @@ helpviewer_keywords:
 - createexpinst
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # CreateExpInstance utility

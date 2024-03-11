@@ -7,7 +7,7 @@ helpviewer_keywords:
 - roslyn package versions
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # .NET compiler platform package version reference

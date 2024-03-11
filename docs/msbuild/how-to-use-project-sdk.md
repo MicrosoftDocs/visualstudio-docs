@@ -7,7 +7,7 @@ helpviewer_keywords:
 - MSBuild, SDKs, SDK
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # Use MSBuild project SDKs

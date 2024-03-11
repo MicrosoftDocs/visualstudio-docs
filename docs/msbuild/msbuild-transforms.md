@@ -8,7 +8,7 @@ helpviewer_keywords:
 - transforms [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # MSBuild transforms

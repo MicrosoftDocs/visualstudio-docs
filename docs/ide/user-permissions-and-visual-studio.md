@@ -10,7 +10,7 @@ helpviewer_keywords:
 - permissions
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # User permissions and Visual Studio

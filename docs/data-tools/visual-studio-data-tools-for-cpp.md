@@ -7,7 +7,7 @@ dev_langs:
 - CPP
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Visual Studio data tools for C++

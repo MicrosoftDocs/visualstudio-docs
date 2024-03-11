@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Domain-Specific Language Tools, user interface
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Overview of the Domain-Specific Language Tools User Interface

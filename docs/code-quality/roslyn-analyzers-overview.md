@@ -10,7 +10,7 @@ helpviewer_keywords:
 - code analyzers
 author: mikadumont
 ms.author: midumont
-manager: jmartens
+manager: mijacobs
 ms.subservice: code-analysis
 ---
 # About .NET source code analysis in Visual Studio with Roslyn analyzers

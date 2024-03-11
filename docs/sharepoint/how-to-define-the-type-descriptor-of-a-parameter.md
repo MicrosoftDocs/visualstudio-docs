@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], parameter types"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # Define the type descriptor of a parameter

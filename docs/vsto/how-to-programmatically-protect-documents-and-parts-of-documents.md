@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Word documents, protection"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically protect documents and parts of documents

@@ -9,7 +9,7 @@ helpviewer_keywords:
 - .sln files, VSPackages
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Solution (.sln) file

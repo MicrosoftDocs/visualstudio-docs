@@ -11,7 +11,7 @@ helpviewer_keywords:
 - Visual Studio Start Page
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Customize startup

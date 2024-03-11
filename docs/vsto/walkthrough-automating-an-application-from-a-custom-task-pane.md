@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "task panes [Office development in Visual Studio], automating applications"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Walkthrough: Automate an application from a custom task pane

@@ -16,7 +16,7 @@ helpviewer_keywords:
 - refactoring, classes
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Refactor classes and types in Class Designer

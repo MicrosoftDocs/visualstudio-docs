@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Word projects [Office development in Visual Studio], getting started"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Get started programming document-level customizations for Word

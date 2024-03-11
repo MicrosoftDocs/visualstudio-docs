@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "controls [Office development in Visual Studio], Window Forms controls"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Use Windows Forms controls on Excel worksheets

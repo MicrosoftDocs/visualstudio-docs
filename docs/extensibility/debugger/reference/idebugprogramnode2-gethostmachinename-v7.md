@@ -10,7 +10,7 @@ helpviewer_keywords:
 - IDebugProgramNode2::GetHostMachineNameIDebugProgramNode2::GetHostMachineName
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

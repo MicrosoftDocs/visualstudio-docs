@@ -10,7 +10,7 @@ helpviewer_keywords:
 - menus, creating cascading submenus
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Add a Submenu to a Menu

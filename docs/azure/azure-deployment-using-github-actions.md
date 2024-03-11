@@ -1,6 +1,6 @@
 ---
-title: "Deploy to Azure using GitHub Actions"
-description: "Learn to deploy your application to Azure using GitHub Actions workflows created by Visual Studio"
+title: Deploy to Azure using GitHub Actions
+description: Learn to deploy your application to Azure using GitHub Actions workflows created by Visual Studio
 ms.date: 08/10/2023
 ms.topic: how-to
 helpviewer_keywords:
@@ -8,10 +8,11 @@ helpviewer_keywords:
   - GitHub Actions, publish
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 monikerRange: '>= vs-2019'
 ---
+
 # Deploy your application to Azure using GitHub Actions workflows created by Visual Studio
 
 Starting in Visual Studio 2019 version 16.11, you can create new GitHub Actions workflows for .NET projects hosted on GitHub.com.
@@ -49,27 +50,27 @@ If you complete this step by using the [built-in Git tooling](../version-control
 
 ## Setting the GitHub secrets
 
-For the generated workflow to successfully deploy to Azure, it may require access to a [publish profile](/azure/app-service/deploy-github-actions?tabs=applevel#configure-the-github-secret).
+For the generated workflow to successfully deploy to Azure, it might require access to a [publish profile](/azure/app-service/deploy-github-actions?tabs=applevel#configure-the-github-secret).
 
-![one github secret](./media/azure-deployment-using-github-actions/summary-one-github-secret.png)
+![one GitHub secret](./media/azure-deployment-using-github-actions/summary-one-github-secret.png)
 
-A successful deployment may also require access to a [service principal](/azure/app-service/deploy-github-actions?tabs=userlevel#configure-the-github-secret).
+A successful deployment might also require access to a [service principal](/azure/app-service/deploy-github-actions?tabs=userlevel#configure-the-github-secret).
 
-![two github secrets](./media/azure-deployment-using-github-actions/summary-two-github-secrets.png)
+![two GitHub secrets](./media/azure-deployment-using-github-actions/summary-two-github-secrets.png)
 
 In all cases, Visual Studio tries to set the GitHub secret for you with the correct value. If it fails, it will let you know and give you the opportunity to try again.
 
-![github secret missing](./media/azure-deployment-using-github-actions/summary-one-github-secret-missing.png)
+![GitHub secret missing](./media/azure-deployment-using-github-actions/summary-one-github-secret-missing.png)
 
 If it fails to set the secret again, Visual Studio gives you the opportunity to get access to the secret manually, so you can complete the process through your repo's page on github.com.
 
-![set missing github secret](./media/azure-deployment-using-github-actions/summary-set-github-secret.png)
+![set missing GitHub secret](./media/azure-deployment-using-github-actions/summary-set-github-secret.png)
 
 ## Deploy multiple projects to Azure Container Apps using GitHub Actions
 
-These steps are appropriate if you have more than one project that uses Docker containers, and you want to deploy them as a  multiproject app. You can deploy multiproject apps such as those that implement microservices to [Azure Container Apps (ACA)](/azure/container-apps) or [Azure Kubernetes Service (AKS)](/azure/aks). This article covers ACA.
+These steps are appropriate if you have more than one project that uses Docker containers, and you want to deploy them as a multiproject app. You can deploy multiproject apps such as those that implement microservices to [Azure Container Apps](/azure/container-apps) or [Azure Kubernetes Service (AKS)](/azure/aks). This article covers Azure Container Apps.
 
-1. Right click on the **GitHub Actions** node in Solution Explorer, and choose **New workflow**. The GitHub Actions workflow wizard appears. 
+1. Right click on the **GitHub Actions** node in Solution Explorer, and choose **New workflow**. The GitHub Actions workflow wizard appears.
 
    ![Screenshot of GitHub Actions node menu.](./media/azure-deployment-using-github-actions/github-actions-new-workflow.png)
 
@@ -226,9 +227,9 @@ on:
   - working
 ```
 
-To test the changes, commit them and push to the branch of the repo specified in the trigger code. You don't need to create a PR. The workflow runs as long as the `push` trigger is set to the right branch.
+To test the changes, commit them and push to the branch of the repo specified in the trigger code. You don't need to create a pull request (PR). The workflow runs as long as the `push` trigger is set to the right branch.
 
-In the **Actions** tab on your repo at GitHub.com, look for the workflow run. You can get there directly by using a link on  GitHub Actions summary tab in Visual Studio. In GitHub, you can open the workflow run to view the logs.
+In the **Actions** tab on your repo at GitHub.com, look for the workflow run. You can get there directly by using a link on GitHub Actions summary tab in Visual Studio. In GitHub, you can open the workflow run to view the logs.
 
 ### Troubleshooting
 
@@ -250,7 +251,7 @@ RUN dotnet build "WebApi.csproj" -c Release -o /app/build
 
 #### Issue: Authentication credentials
 
-The workflow requires the right username and password secrets to be set up for Azure access. Visual Studio tries to do this automatically when you're creating the Azure assets or from the GitHub Actions screen in the VS IDE. You can check the secrets in GitHub and make sure they're there, or regenerate them and add them again to GitHub if necessary using the Settings section in the repo. Check the secrets ID against what is referenced in each section of the workflow. If necessary, you can go to the container registry in the Azure portal and get the username and password for the container registry and use those values to update the secrets in GitHub.
+The workflow requires the right username and password secrets to be set up for Azure access. Visual Studio tries to do this automatically when you're creating the Azure assets or from the GitHub Actions screen in the Microsoft Visual Studio IDE. You can check the secrets in GitHub and make sure they're there, or regenerate them and add them again to GitHub if necessary using the Settings section in the repo. Check the secrets ID against what is referenced in each section of the workflow. If necessary, you can go to the container registry in the Azure portal and get the username and password for the container registry and use those values to update the secrets in GitHub.
 
 If you ran the `az ad sp create-for-rbac` command to set up a service principal and get a client ID, client secret, and tenant ID, add the client ID and client secret as secrets in the [GitHub Actions Secrets](https://docs.github.com/en/rest/actions/secrets) section for your GitHub repo. You can provide Azure login credentials in the form of a username (client ID for the app) and password (client secret) for the Azure Container App authentication. To do that, replace the step `Azure login` with the following code. Use your own GitHub secret names you created for the client ID and client secret, and use the tenant ID from the output of the same command.
 
@@ -266,16 +267,16 @@ If you ran the `az ad sp create-for-rbac` command to set up a service principal 
 If the Dockerfile works correctly, and authentication is correct, and you're still seeing problems with your workflow, consider the following resources:
 
 - [Azure Container Apps on GitHub](https://github.com/microsoft/azure-container-apps)
-- [Azure Container apps on StackOverflow](https://stackoverflow.com/questions/tagged/azure-container-apps)
+- [Azure Container Apps on StackOverflow](https://stackoverflow.com/questions/tagged/azure-container-apps)
 
 ## Which project types are supported?
 
-* ASP.NET Core
-* ASP.NET 5 and above
-* Azure Functions
+- ASP.NET Core
+- ASP.NET 5 and above
+- Azure Functions
 
 ## Which Azure services are supported?
 
-* Azure Web Apps
-* Azure Functions
-* Azure API Management
+- Azure Web Apps
+- Azure Functions
+- Azure API Management

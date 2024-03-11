@@ -9,7 +9,7 @@ helpviewer_keywords:
 - text templates, functions that generate text
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Writing a T4 Text Template

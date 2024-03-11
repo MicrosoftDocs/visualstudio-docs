@@ -13,7 +13,7 @@ helpviewer_keywords:
   - ClickOnce deployment, error logging
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Set a custom log file location for ClickOnce deployment errors

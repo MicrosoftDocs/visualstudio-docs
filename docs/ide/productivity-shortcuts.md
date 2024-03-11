@@ -5,7 +5,7 @@ ms.date: 07/12/2022
 ms.topic: reference
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Shortcut tips for Visual Studio

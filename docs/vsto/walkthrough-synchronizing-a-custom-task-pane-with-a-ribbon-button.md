@@ -21,7 +21,7 @@ helpviewer_keywords:
   - "task panes [Office development in Visual Studio], synchronizing with Ribbon button"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Walkthrough: Synchronize a custom task pane with a Ribbon button

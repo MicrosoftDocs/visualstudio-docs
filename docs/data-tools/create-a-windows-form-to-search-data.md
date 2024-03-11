@@ -11,7 +11,7 @@ helpviewer_keywords:
 - data [Visual Studio], searching
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Create a .NET Framework Windows Form to search data with ADO.NET

@@ -6,7 +6,7 @@ ms.date: 03/07/2024
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 
 # CustomerIntent: As a developer, I want to manage and install packages for Python in Visual Studio so I can manage my Python environments.

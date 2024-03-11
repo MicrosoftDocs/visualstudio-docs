@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "IntelliTrace, debugging after a crash"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IntelliTrace for Visual Studio Enterprise (C#, Visual Basic, C++)

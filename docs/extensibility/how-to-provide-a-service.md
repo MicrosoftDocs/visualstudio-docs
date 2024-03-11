@@ -7,7 +7,7 @@ helpviewer_keywords:
 - services, providing
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Provide a service

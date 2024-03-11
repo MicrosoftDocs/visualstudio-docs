@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Call Hierarchy
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # View call hierarchy

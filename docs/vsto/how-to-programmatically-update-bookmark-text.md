@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Bookmark control, updating contents"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically update bookmark text

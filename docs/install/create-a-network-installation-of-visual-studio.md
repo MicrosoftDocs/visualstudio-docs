@@ -1,24 +1,31 @@
 ---
 title: Create a network-based installation
 description: Create a private network install point to deploy Visual Studio to support enterprise users with limited permissions or client machines with limited internet access.
-ms.date: 11/27/2023
+ms.date: 3/4/2024
 ms.topic: conceptual
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
 - '{{PLACEHOLDER}}'
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 
 ms.subservice: installation
 ---
 # Create and maintain a network installation of Visual Studio
 
-Sometimes an enterprise administrator wants to create a private installation point that contains Visual Studio files that can be [deployed to client machines within an organization](deploy-a-layout-onto-a-client-machine.md). Creating a private installation point is useful for situations where a user may have limited permissions, where the client machines may have limited access to the internet, or when an organization wants to standardize on a particular version of the developer toolset. We designed Visual Studio so that an administrator can both create and maintain a "layout", which is a private cache of Visual Studio files, that can be stored on an internal network share and can be made available on an organization's intranet. The layout serves as the source location for all Visual Studio files needed for both initial client installation and subsequent updates.
+Sometimes an enterprise administrator wants to create a private installation cache (also known as a "layout") that contains Visual Studio files that can be [deployed to client machines within an organization](deploy-a-layout-onto-a-client-machine.md). 
+
+Creating a layout is useful in following situations:
+-  A user has limited permissions
+-  The client machines have limited access to the internet
+-  An organization wants to standardize on a particular version of the developer toolset
+
+We designed Visual Studio so that an administrator can both create and maintain a layout and store it on an internal network share and optionally make it available on an organization's intranet. The layout serves as the source location for all Visual Studio files needed for both initial client installation and subsequent updates.
 
 The information on this page is grouped up into three main sections:
 
-* [**Create the layout**](#create-the-layout): describes how to create the layout with the correct product content, how to configure the client's default settings, how to store it on a network file share, and how to make it available if you want to host it on a webserver on your intranet. 
+* [**Create the layout**](#create-the-layout): describes how to create the layout with the correct product content, configure the default settings, store it on a network file share, and make it available on your intranet. 
 * [**Maintain the layout**](#maintaining-your-layout): information on how to best update the layout's product version, or modify the layout's product content, channel settings, installer version, and folder size. 
 * [**Help and Support**](#get-support-for-your-network-layout): where to ask for help
 
@@ -32,7 +39,7 @@ The layout path must be fewer than 80 characters; some organizations successfull
 
 ### Download the Visual Studio bootstrapper to create the layout
 
-Download the correct bootstrapper for the edition of Visual Studio you want and copy it into the directory that you want to serve as the layout's repository. Once the layout is created, you can then use it to install Visual Studio onto any client machine. The bootstrapper is the executable that you use to create, update, and perform other layout operations. You must have an internet connection to complete this step.
+Download the correct bootstrapper for the edition of Visual Studio you want and copy it into the directory that you want to serve as the layout's repository. Once the layout is created, you can then use it to install Visual Studio onto any client machine. The bootstrapper is the executable that you use to create, update, and perform other layout operations. You must have an internet connection and administrator permissions to complete this step.
 
 ::: moniker range="vs-2019"
 
@@ -81,7 +88,7 @@ You must have an internet connection to complete this step.
 
 Open an elevated command prompt, navigate to the directory where you downloaded the bootstrapper, and use the bootstrapper's parameters as defined in the [use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page to create and maintain your network layout. The following examples illustrate common ways of creating initial layouts. More examples can be found on the [command-line parameter examples for a Visual Studio installation](command-line-parameter-examples.md) page.  
 
-A complete initial layout for a single language locale requires about 40 GB of disk space for Visual Studio Community and about 50 GB for Visual Studio Enterprise. Additional [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales) require about half a GB each. 
+A complete initial layout for a single language locale requires about 40 GB of disk space for Visual Studio Community and about 50 GB for Visual Studio Enterprise. Extra [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales) require about half a GB each. 
  
 The recommended approach is to create an initial layout of Visual Studio with all workloads and appropriate languages and store the packages into the layout directory on the network server. That way, any client installation has access to the entire Visual Studio product offering and the ability to install any subset. To create a full complete layout of Visual Studio, run the following command from the directory that you plan to host the network layout on:
 
@@ -104,7 +111,7 @@ There are several options you can use to customize the contents of your network 
 * `--add` to specify [workload or component IDs](workload-and-component-ids.md). <br>If `--add` is used, only those workloads and components specified with `--add` are downloaded.  If `--add` isn't used, all workload and components are downloaded.
 * `--includeRecommended` to include all the recommended components for the specified workload IDs.
 * `--includeOptional` to include all the optional components for the specified workload IDs.
-* `--config` to use a config file to specify the components that should be included in the layout.
+* `--config` to use a `*.vsconfig` file to specify the components that should be included in the layout. Make sure you specify the **full path** of the config file.  
 * `--lang` to specify [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales).
 
 Here are a few examples of how to create a custom network layout.
@@ -183,7 +190,7 @@ Starting in June 2023, you're able to make your layouts available on an internal
 
 If you're using a version of Visual Studio that was shipped before June 2023, we recommend that you always use the latest Visual Studio Installer in your layout and distribute it to your clients. For example, if you distribute the Visual Studio 2022 installer in your Visual Studio 2019 layout, then your Visual Studio 2019 clients based off of that layout have the ability to change the source location for updates or to easily remove out-of-support components. Further details are [described below](#configure-the-layout-to-always-include-and-provide-the-latest-installer).
 
-The capability to programmatically ensure that you're using the latest installer is only available to Visual Studio 2019 bootstrappers that were built after Visual Studio 2022 originally shipped. So, the vs_enterprise.exe in the example below must be a version that shipped _after_ November 10, 2021. 
+The capability to programmatically ensure that you're using the latest installer is only available to Visual Studio 2019 bootstrappers that were built after Visual Studio 2022 originally shipped. So, the vs_enterprise.exe in the following example must be a version that shipped _after_ November 10, 2021. 
 
 To create a layout of the entire product that uses the latest and greatest installer available, run
 
@@ -383,7 +390,7 @@ If you used the `--wait` parameter, then depending on the result of the operatio
 
 ### Get support for your network layout
 
-If you experience a problem with your network layout, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE. If you're an IT Administrator and don't have Visual Studio installed, you can submit [**IT Admin feedback here**](https://aka.ms/vs/admin/feedback). When you use this tool, it would be very helpful if you could send the logs by the [VS Collect tool](https://aka.ms/vscollect) which can help us diagnose and fix the problem.
+If you experience a problem with your network layout, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE. If you're an IT Administrator and don't have Visual Studio installed, you can submit [**IT Admin feedback here**](https://aka.ms/vs/admin/feedback). When you use this tool, it would be very helpful if you could send the logs by the [Visual Studio Collect tool](https://aka.ms/vscollect) which can help us diagnose and fix the problem.
 
 We also offer an [**installation chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option for installation-related issues.
 

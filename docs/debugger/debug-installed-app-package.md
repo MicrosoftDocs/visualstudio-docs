@@ -16,7 +16,7 @@ helpviewer_keywords:
   - app package, debug
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Debug an installed UWP app package in Visual Studio

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Threads View Timeline Reports (Parallel Performance)"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Threads view timeline reports in the Concurrency Visualizer

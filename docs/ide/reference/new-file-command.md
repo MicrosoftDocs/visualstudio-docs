@@ -10,7 +10,7 @@ helpviewer_keywords:
 - New File command
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # New File Command

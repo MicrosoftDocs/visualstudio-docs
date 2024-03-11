@@ -19,7 +19,7 @@ helpviewer_keywords:
   - "debugger, format specifiers recognized by"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Format specifiers for C++ in the Visual Studio debugger

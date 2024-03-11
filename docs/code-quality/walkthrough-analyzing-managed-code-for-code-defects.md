@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "managed code, analyzing"
 author: mikadumont
 ms.author: midumont
-manager: jmartens
+manager: mijacobs
 ms.subservice: code-analysis
 monikerRange: 'vs-2019'
 ---

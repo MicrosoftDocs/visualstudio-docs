@@ -9,7 +9,7 @@ helpviewer_keywords:
 - data [Visual Studio], Toolbox
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Toolbox, Data tab

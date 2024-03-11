@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Domain-Specific Language, domain path
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Domain Path Syntax

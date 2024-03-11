@@ -5,7 +5,7 @@ ms.date: 03/05/2019
 ms.topic: overview
 author: dzsquared
 ms.author: drskwier
-manager: jmartens
+manager: mijacobs
 ms.subservice: xml-tools
 dev_langs:
 - CSharp

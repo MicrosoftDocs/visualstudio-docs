@@ -8,7 +8,7 @@ helpviewer_keywords:
 - extensibility, project objects
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Expose project objects

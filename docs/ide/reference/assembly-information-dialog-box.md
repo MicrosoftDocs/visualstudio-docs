@@ -9,8 +9,9 @@ helpviewer_keywords:
 - Assembly Information dialog box
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
+monikerRange: 'vs-2019'
 ---
 # Assembly Information dialog box
 

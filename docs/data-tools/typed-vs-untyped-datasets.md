@@ -8,7 +8,7 @@ dev_langs:
 - CSharp
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Typed vs. untyped datasets in the .NET Framework

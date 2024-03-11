@@ -8,7 +8,7 @@ helpviewer_keywords:
 - msi files, VSPackages
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Author a Windows Installer package

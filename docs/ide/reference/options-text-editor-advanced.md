@@ -12,7 +12,7 @@ helpviewer_keywords:
 - editors, global settings
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 monikerRange: ">=vs-2019"
 ---

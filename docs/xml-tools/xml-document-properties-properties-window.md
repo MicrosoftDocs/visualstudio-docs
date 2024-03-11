@@ -5,7 +5,7 @@ ms.date: 03/05/2019
 ms.topic: reference
 author: dzsquared
 ms.author: drskwier
-manager: jmartens
+manager: mijacobs
 ms.subservice: xml-tools
 ---
 # XML document properties, Properties window

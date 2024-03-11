@@ -5,7 +5,7 @@ ms.date: 11/01/2023
 ms.topic: overview
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Visual Studio data tools for .NET Framework development

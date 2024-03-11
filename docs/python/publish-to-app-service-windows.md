@@ -5,7 +5,7 @@ ms.date: 02/27/2024
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 
 #customer intent: As a developer, I want to publish a Python web application directly to Azure App Service from Visual Studio on Linux, including the necessary content for the web.config file.

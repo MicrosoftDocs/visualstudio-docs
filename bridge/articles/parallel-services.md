@@ -4,7 +4,7 @@ ms.date: 08/11/2022
 description: Learn how to use Bridge to Kubernetes to connect your development computer to a Kubernetes cluster and debug multiple services at the same time with local tunnel debugging, with Visual Studio Code.
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: bridge
 ms.topic: how-to
 ---

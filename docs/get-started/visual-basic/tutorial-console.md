@@ -9,7 +9,7 @@ ms.topic: tutorial
 ms.devlang: vb
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 dev_langs:
   - vb
 # Customer intent: As a novice, I want to create my first app so that I see how Visual Basic works.

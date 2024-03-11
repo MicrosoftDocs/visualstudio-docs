@@ -11,7 +11,7 @@ helpviewer_keywords:
 - datasets [Visual Basic], creating
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Walkthrough: Create a dataset for .NET Framework applications using the Dataset Designer

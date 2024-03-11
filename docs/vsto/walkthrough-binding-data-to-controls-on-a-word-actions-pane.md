@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "smart documents [Office development in Visual Studio], data binding"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Walkthrough: Bind data to controls on a Word actions pane

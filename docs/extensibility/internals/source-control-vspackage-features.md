@@ -7,7 +7,7 @@ helpviewer_keywords:
 - source control packages, features
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Source Control VSPackage Features

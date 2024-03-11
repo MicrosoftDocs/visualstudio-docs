@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], filter descriptors"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # Add a filter descriptor to a Finder method

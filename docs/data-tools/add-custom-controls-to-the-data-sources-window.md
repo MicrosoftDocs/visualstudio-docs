@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Data Sources Window, selecting controls
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Add custom controls to the Data Sources window for .NET Framework applications

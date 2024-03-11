@@ -7,7 +7,7 @@ helpviewer_keywords:
   - Concurrency Visualizer SDK, C++ Library Reference
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # C++ library reference

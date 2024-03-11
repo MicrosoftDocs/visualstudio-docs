@@ -7,7 +7,7 @@ helpviewer_keywords:
 - MSBuild, build process overview
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # How MSBuild builds projects

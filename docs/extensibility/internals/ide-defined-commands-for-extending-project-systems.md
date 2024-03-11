@@ -8,7 +8,7 @@ helpviewer_keywords:
 - project systems, environment-defined commands
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # IDE-Defined Commands for Extending Project Systems

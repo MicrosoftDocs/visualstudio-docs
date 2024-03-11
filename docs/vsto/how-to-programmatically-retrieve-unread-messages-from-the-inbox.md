@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "mail items [Office development in Visual Studio], unread mail"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically retrieve unread messages from the Inbox

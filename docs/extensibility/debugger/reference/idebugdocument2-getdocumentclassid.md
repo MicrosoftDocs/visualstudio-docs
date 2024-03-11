@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugDocument2::GetDocumentClassID
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

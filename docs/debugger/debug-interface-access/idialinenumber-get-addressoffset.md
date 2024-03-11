@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaLineNumber::get_addressOffset method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDiaLineNumber::get_addressOffset

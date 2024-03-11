@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "CPU Usage, command-line"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2019'
 ---

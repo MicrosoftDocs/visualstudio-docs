@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaEnumSegments::Item method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDiaEnumSegments::Item

@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "ranges, applying color"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically apply color to Excel ranges

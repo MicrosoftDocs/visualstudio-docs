@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Web Parts [SharePoint development in Visual Studio], creating"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # Create a SharePoint Web Part by using a designer

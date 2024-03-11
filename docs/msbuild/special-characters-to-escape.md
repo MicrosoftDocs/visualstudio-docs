@@ -12,7 +12,7 @@ helpviewer_keywords:
 - msbuild, special characters to escape
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # Special characters to escape

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Assert methods
 - unit tests, Assert classes
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: test-tools
 author: mikejo5000
 ---

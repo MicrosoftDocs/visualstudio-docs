@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "Outlook [Office development in Visual Studio], projects"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Debug Office projects

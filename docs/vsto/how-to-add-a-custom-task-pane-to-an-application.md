@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "custom task panes [Office development in Visual Studio], adding to application"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Add a custom task pane to an application

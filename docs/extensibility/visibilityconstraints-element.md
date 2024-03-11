@@ -10,7 +10,7 @@ helpviewer_keywords:
 - VisibilityConstraints element (VSCT XML schema)
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # VisibilityConstraints element

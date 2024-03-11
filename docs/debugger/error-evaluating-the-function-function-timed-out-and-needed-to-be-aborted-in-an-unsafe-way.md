@@ -7,7 +7,7 @@ f1_keywords:
   - "vs.debug.error.unsafe_func_eval_abort"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Error: Evaluating the function &#39;function&#39; timed out and needed to be aborted in an unsafe way

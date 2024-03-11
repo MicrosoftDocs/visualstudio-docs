@@ -1035,6 +1035,8 @@
       items:
       - name: Project Designer reference
         href: ide/reference/project-properties-reference.md
+      - name: .NET Project Designer (C#)
+        href: ide/reference/project-designer-dotnet-csharp.md
       - name: Application Page, Project Designer (UWP)
         href: ide/reference/application-page-project-designer-uwp.md
       - name: Application Page, Project Designer (Visual Basic)

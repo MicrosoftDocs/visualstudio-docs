@@ -13,7 +13,7 @@ helpviewer_keywords:
 - command aliases
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Visual Studio Command Aliases

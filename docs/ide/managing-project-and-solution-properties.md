@@ -5,7 +5,7 @@ ms.date: 05/26/2023
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Manage project and solution properties

@@ -7,7 +7,7 @@ helpviewer_keywords:
 - IDebugExpressionEvaluator3 interface
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDebugExpressionEvaluator3

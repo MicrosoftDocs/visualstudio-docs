@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugSymbolProvider::GetAddressesFromPosition method
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

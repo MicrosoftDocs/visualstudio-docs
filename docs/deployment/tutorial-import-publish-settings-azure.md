@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "deployment, publish settings"
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Get publish settings from Azure and import into Visual Studio

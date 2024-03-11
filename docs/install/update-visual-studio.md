@@ -14,7 +14,7 @@ f1_keywords:
 - VS.ToolsOptionsPages.Environment.ProductUpdates
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ---
 # Update Visual Studio
 

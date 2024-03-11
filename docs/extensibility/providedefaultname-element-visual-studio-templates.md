@@ -10,7 +10,7 @@ helpviewer_keywords:
 - ProvideDefaultName element [Visual Studio project templates]
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ---
 # ProvideDefaultName element (Visual Studio templates)
 

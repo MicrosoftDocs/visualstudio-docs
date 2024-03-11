@@ -2,10 +2,10 @@
 title: Publish to dev & test environments with PowerShell
 description: Use Windows PowerShell scripts from Visual Studio to publish to development and test environments, including customizing and extending scripts.
 author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: azure-development
 ms.topic: conceptual
-ms.date: 11/22/2021
+ms.date: 03/06/2024
 ms.author: ghogen
 ---
 # Using Windows PowerShell scripts to publish to dev and test environments
@@ -16,7 +16,7 @@ Using these scripts, you can provision customized versions (also known as dev an
 
 ## Prerequisites
 
-* Visual Studio 2015 or later with the **Azure workload** installed, or Visual Studio 2013 and Azure SDK 2.3 or later. See [Visual Studio Downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta). (You don't need the Azure SDK to generate the scripts for web projects. This feature is for web projects, not web roles in cloud services.)
+* Visual Studio with the **Azure workload** installed. See [Visual Studio Downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta).
 * Azure PowerShell 0.7.4 or later. See [How to install and configure Azure PowerShell](/powershell/azure/overview).
 * [Windows PowerShell 3.0](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770458(v=ws.10)) or later.
 * [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]

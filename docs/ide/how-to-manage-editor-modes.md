@@ -21,7 +21,7 @@ helpviewer_keywords:
 - views, outlining
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Manage editor modes

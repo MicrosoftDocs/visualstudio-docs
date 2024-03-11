@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "components [.NET Framework], deploying"
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # First look at deployment in Visual Studio

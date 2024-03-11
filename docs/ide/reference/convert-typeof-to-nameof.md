@@ -5,7 +5,7 @@ ms.date: 08/12/2020
 ms.topic: reference
 author: m-redding
 ms.author: midumont
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 dev_langs:
   - CSharp

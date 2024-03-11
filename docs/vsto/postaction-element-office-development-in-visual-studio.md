@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "postAction element"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # &lt;postAction&gt; element (Office development in Visual Studio)

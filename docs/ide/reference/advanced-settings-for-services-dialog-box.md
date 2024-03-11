@@ -9,8 +9,9 @@ helpviewer_keywords:
 - Advanced Settings for Services dialog box
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
+monikerRange: 'vs-2019'
 ---
 # Advanced Settings for Services Dialog Box
 

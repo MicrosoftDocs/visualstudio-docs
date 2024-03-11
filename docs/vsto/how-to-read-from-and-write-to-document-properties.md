@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Excel [Office development in Visual Studio], document properties"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Read from and write to document properties

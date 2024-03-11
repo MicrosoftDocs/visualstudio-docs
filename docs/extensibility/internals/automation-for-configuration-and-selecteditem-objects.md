@@ -8,7 +8,7 @@ helpviewer_keywords:
 - automation [Visual Studio SDK], builds
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Automation for Configuration and SelectedItem objects

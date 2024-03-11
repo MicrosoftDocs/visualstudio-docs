@@ -6,7 +6,7 @@ ms.date: 03/04/2024
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 
 # CustomerIntent: As a developer, I want to write Python code in Visual Studio so I can access Intellisense features and run my Python projects.

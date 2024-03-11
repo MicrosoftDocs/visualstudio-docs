@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "table of contents filtering [Help Viewer]"
 author: jasonchlus
 ms.author: jasonchlus
-manager: jmartens
+manager: mijacobs
 ms.subservice: help-viewer
 ---
 # Find topics in the table of contents

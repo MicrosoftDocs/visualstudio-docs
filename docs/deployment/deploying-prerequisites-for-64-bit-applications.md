@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "64-bit applications [Visual Studio]"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Deploy prerequisites for 64-bit applications

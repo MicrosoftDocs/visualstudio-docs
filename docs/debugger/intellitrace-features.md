@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio ALM], IntelliTrace"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IntelliTrace Features (C#, Visual Basic, C++)

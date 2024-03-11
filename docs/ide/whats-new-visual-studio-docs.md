@@ -1,13 +1,13 @@
 ---
 title: "What's new in Visual Studio docs"
 description: Discover recent changes in the Visual Studio documentation, including updated articles about getting started, the IDE, and deployment.
-ms.date: 02/01/2024
+ms.date: 03/01/2024
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 
 ms.topic: conceptual
@@ -15,6 +15,139 @@ ms.topic: conceptual
 # What's new in Visual Studio docs
 
 Welcome to what's new in Visual Studio docs. The following sections provide details on the previous three months of new and updated content.
+
+## February 2024
+
+### Azure
+
+**Updated articles**
+
+- [Add Azure Cosmos DB to your app by using Visual Studio Connected Services](../azure/azure-cosmosdb-add-connected-service.md) - Add troubleshooting information for Azure CosmosDB emulator
+
+### Data tools
+
+**Updated articles**
+
+- [Create a database and add tables in .NET Framework applications using Visual Studio](../data-tools/create-a-sql-database-by-using-a-designer.md) - Review and update
+
+### Debugger
+
+**New articles**
+
+- [How to use Messages view](../debugger/how-to-use-messages-view.md)
+- [How to use Windows view](../debugger/how-to-use-windows-view.md)
+
+**Updated articles**
+
+- [Expressions in the Visual Studio debugger](../debugger/expressions-in-the-debugger.md) - Update descriptions for debugger intrinsic functions
+- [Create custom views of C++ objects in the debugger using the Natvis framework](../debugger/create-custom-views-of-native-objects.md) - Add content for Natvis Intrinsic expansion
+- [Assertions in Managed Code](../debugger/assertions-in-managed-code.md) - Fix Visual Basic code examples for Assert
+- [Debug your app with GitHub Copilot in Visual Studio](../debugger/debug-with-copilot.md)
+  - Clarify get started steps for Debug with Copilot article
+  - Add example scenario for debugging with Copilot
+- [Unable to Attach to the Process](../debugger/unable-to-attach-to-the-process.md) - Update steps for Unable to Attach to Process
+- [Search for a process in Processes view](../debugger/how-to-search-for-a-process-in-processes-view.md) - Refactor Spy++ docs to a smaller set of articles
+- [Search for a thread in Threads view](../debugger/how-to-search-for-a-thread-in-threads-view.md) - Refactor Spy++ docs to a smaller set of articles
+- [Introducing Spy++](../debugger/introducing-spy-increment.md) - Refactor Spy++ docs to a smaller set of articles
+- [Message Options dialog box](../debugger/message-options-dialog-box.md) - Refactor Spy++ docs to a smaller set of articles
+- [Messages view](../debugger/messages-view.md) - Refactor Spy++ docs to a smaller set of articles
+- [Process Properties dialog box](../debugger/process-properties-dialog-box.md) - Refactor Spy++ docs to a smaller set of articles
+- [Processes view](../debugger/processes-view.md) - Refactor Spy++ docs to a smaller set of articles
+- [Search tools for Spy++ views](../debugger/search-tools-for-spy-increment-views.md) - Refactor Spy++ docs to a smaller set of articles
+- [Spy++ reference overview](../debugger/spy-increment-reference.md) - Refactor Spy++ docs to a smaller set of articles
+- [Spy++ Toolbar](../debugger/spy-increment-toolbar.md) - Refactor Spy++ docs to a smaller set of articles
+- [Threads view](../debugger/threads-view.md) - Refactor Spy++ docs to a smaller set of articles
+- [Using Spy++](../debugger/using-spy-increment.md) - Refactor Spy++ docs to a smaller set of articles
+- [Window Properties dialog box](../debugger/window-properties-dialog-box.md) - Refactor Spy++ docs to a smaller set of articles
+- [Windows view](../debugger/windows-view.md) - Refactor Spy++ docs to a smaller set of articles
+
+### Designers
+
+**Updated articles**
+
+- [Fix HDPI/scaling issues with Windows Forms Designer in Visual Studio](../designers/disable-dpi-awareness.md) - Add information about .NET 8 support for DPI-unaware tabs
+
+### Extensibility
+
+**New articles**
+
+- [Extensibility Language Server Provider](../extensibility/visualstudio.extensibility/language-server-provider/language-server-provider.md)
+- [Customizing editor behavior by using Language Configuration](../extensibility/language-configuration.md)
+
+**Updated articles**
+
+- [About VisualStudio.Extensibility (Preview)](../extensibility/visualstudio.extensibility/visualstudio-extensibility.md)
+  - Update landing page for 17.9.
+- [Anatomy of a VSIX package](../extensibility/anatomy-of-a-vsix-package.md) - Review, update screenshots and text
+- [Create custom project and item templates](../extensibility/creating-custom-project-and-item-templates.md) - Review, update screenshots and text
+- [Tutorial - Create your first extension: Hello World](../extensibility/extensibility-hello-world.md) - Review, update screenshots and text
+- [Get started with the VSIX Project template](../extensibility/getting-started-with-the-vsix-project-template.md) - Review, update screenshots and text
+- [Solution (.sln) file](../extensibility/internals/solution-dot-sln-file.md) - Review, update screenshots and text
+
+### IDE
+
+**Updated articles**
+
+- [Customize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md) - Merge editor docs
+- [Suppress compiler warnings](../ide/how-to-suppress-compiler-warnings.md) - Add links, information about code analysis warnings
+- [Quickstart: Create a Python web app with Visual Studio](../ide/quickstart-python.md) - Review and update
+- [Title not found in: ](../ide/whats-new-visual-studio-docs.md) - Generate What's New for January 2024
+
+### Modeling
+
+**Updated articles**
+
+- [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md) - Add NuGet package with link
+- [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md) - Add NuGet package with link
+
+### MSBuild
+
+**Updated articles**
+
+- [Diagnose MSBuild task failures](../msbuild/diagnosing-task-failures.md) - Review and update, and add info on debugging MSBuild tasks
+- [Customize your build](../msbuild/customize-your-build.md) - Review, update text and screenshots
+- [WriteCodeFragment task](../msbuild/writecodefragment-task.md) - Add example of WriteCodeFragment task
+- [Common MSBuild project items](../msbuild/common-msbuild-project-items.md) - Document Folder element
+- [Tutorial: Create a custom task for code generation](../msbuild/tutorial-custom-task-code-generation.md) - Add missing property CopyLocalLockFileAssemblies
+- [Customize the build by folder](../msbuild/customize-by-directory.md) - Review and update date
+
+### Profiling
+
+**Updated articles**
+
+- [Analyze memory usage without debugging in the Performance Profiler (C#, Visual Basic, C++, F#)](../profiling/memory-usage-without-debugging2.md) - Add C++ content to Memory Usage article, refactor articles
+- [Measure memory usage in Visual Studio (C#, Visual Basic, C++, F#)](../profiling/memory-usage.md) - Add C++ content to Memory Usage article, refactor articles
+
+### Python
+
+**Updated articles**
+
+- [Configure Python web apps for IIS](../python/configure-web-apps-for-iis-windows.md) - Review and update
+- [Publish Python web apps to Azure App Service on Linux](../python/publish-to-app-service-windows.md) - Review and update
+- [Python web application project templates](../python/python-web-application-project-templates.md) - Review and update
+- [Use the Cookiecutter extension](../python/using-python-cookiecutter-templates.md) - Review and update
+- [Edit Python code and use Intellisense](../python/editing-python-code-in-visual-studio.md) - Review and update
+- [Lint Python code in Visual Studio](../python/linting-python-code.md) - Review and update
+- [Python support in Visual Studio on Windows](../python/overview-of-python-tools-for-visual-studio.md) - Review and update
+- [Refactor Python code in Visual Studio](../python/refactoring-python-code.md) - Review and update
+- [Install Python interpreters](../python/installing-python-interpreters.md) - Review and update
+- [Manage required Python packages with requirements.txt](../python/managing-required-packages-with-requirements-txt.md) - Review and update
+- [Use Python folders in Visual Studio search paths](../python/search-paths.md) - Review and update
+- [Select a Python environment for a project in Visual Studio](../python/selecting-a-python-environment-for-a-project.md) - Review and update
+- [Create and manage Python environments in Visual Studio](../python/managing-python-environments-in-visual-studio.md) - Review and update
+
+### Test
+
+**Updated articles**
+
+- [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md) - Update code coverage sample .runsettings to clarify VS 2022 vs. VS 2019 feature support
+
+### Community contributors
+
+The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
+
+- [ciphercoder](https://github.com/ciphercoder) - Irfan Akram  ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [WardLootens](https://github.com/WardLootens) - Ward Lootens ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 
 ## January 2024
 
@@ -116,7 +249,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 - [Make a Git commit in Visual Studio](../version-control/git-make-commit.md) - Add new section for AI-generated commit messages
 
-## Community contributors
+### Community contributors
 
 The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
 
@@ -221,120 +354,3 @@ The following people contributed to the Visual Studio docs during this period. T
 - [elauser](https://github.com/elauser) - Matthias Oberleitner ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 - [jrdodds](https://github.com/jrdodds) - Jonathan Dodds ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 - [Styxxy](https://github.com/Styxxy) - Hans De Mulder ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-
-## November 2023
-
-### Containers
-
-**Updated articles**
-
-- [Debug apps in a local Docker container](../containers/edit-and-refresh.md) - Add section for token proxy
-
-### Data tools
-
-**Updated articles**
-
-- [Connect to a database in Visual Studio](../data-tools/add-new-connections.md) - Add info for Encrypt and Trust Server Certificate options for MDS 4.0 and Visual Studio 17.8
-
-### Debugger
-
-**Updated articles**
-
-- [Quickstart: Debug ASP.NET Core with the Visual Studio debugger](../debugger/quickstart-debug-aspnet.md) - Update content related to ASP.NET Core debugging based on project template changes
-- [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md) - Improve Hot Reload (C#/C++) documentation
-- [Write and debug running code with Hot Reload in Visual Studio (C#, Visual Basic, C++)](../debugger/hot-reload.md)
-  - Improve Hot Reload (C#/C++) documentation
-  - .NET 8 updates for getting started with Live Unit Testing
-
-### Deployment
-
-**Updated articles**
-
-- [First look at deployment in Visual Studio](../deployment/deploying-applications-services-and-components.md) - Review for .NET 8, and update date
-- [Visual Studio Installer Projects Extension and .NET](../deployment/installer-projects-net-core.md) - .NET 8 updates for getting started with Live Unit Testing
-
-### Get started
-
-**Updated articles**
-
-- [Tutorial: Create a simple Visual Basic (VB) console app](../get-started/visual-basic/tutorial-console.md) - .NET 8 Updates
-- [Welcome to the Visual Studio IDE | Visual Basic](../get-started/visual-basic/visual-studio-ide.md) - .NET 8 Updates
-- [Tutorial: Get started with C# and ASP.NET Core in Visual Studio](../get-started/csharp/tutorial-aspnet-core.md) - .NET 8 Updates
-- [Tutorial: Create a simple C# console app in Visual Studio (part 1 of 2)](../get-started/csharp/tutorial-console.md) - .NET 8 Updates
-- [Tutorial: Create a simple WPF application with C\#](../get-started/csharp/tutorial-wpf.md) - .NET 8 Updates
-
-### IDE
-
-**New articles**
-
-- [Get better answers by setting the context for GitHub Copilot Chat in Visual Studio](../ide/copilot-chat-context.md)
-- [Problem Details window](../ide/reference/problem-details-window.md)
-
-**Updated articles**
-
-- [Walkthrough: Create a code snippet in Visual Studio](../ide/walkthrough-creating-a-code-snippet.md) - fixes [9788](https://github.com/MicrosoftDocs/visualstudio-docs#9788)
-- [Sign in or switch Visual Studio user accounts](../ide/signing-in-to-visual-studio.md) - Update signing-in-to-visual-studio.md
-- [Get better answers by setting the context for GitHub Copilot Chat in Visual Studio](../ide/copilot-chat-context.md)
-  - New doc on improved context in copilot chat
-- [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) - Updated documentation for multiple folder support.
-- [Understand build configurations](../ide/understanding-build-configurations.md) - Review and update
-- [Tour the Visual Studio IDE](../ide/quickstart-ide-orientation.md) - .NET 8 Updates
-- [Access multiple accounts associated with the Visual Studio sign-in account](../ide/sign-in-access-multiple-accounts.md) - .NET 8 Updates
-- [Configure projects to target platforms](../ide/how-to-configure-projects-to-target-platforms.md) - Add two COM properties
-- [Go to Find Combo box](../ide/find-command-box.md) - Update for Visual Studio 2022 - Find/Command box was renamed
-- [Add or remove references by using the Reference Manager](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md) - Update Project References doc for .NET Core
-- [Error List window](../ide/reference/error-list-window.md) - Document Problem Details window
-
-### Install
-
-**Updated articles**
-
-- [Create and maintain a network installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md) - Installer doc updates for 17.8 (extensions in config file, EnableAdministratorUpdatesNotifications, --installerOnly)
-- [Import or export installation configurations](../install/import-export-installation-configurations.md) - Installer doc updates for 17.8 (extensions in config file, EnableAdministratorUpdatesNotifications, --installerOnly)
-- [Use command-line parameters to install, update, and manage Visual Studio](../install/use-command-line-parameters-to-install-visual-studio.md) - Installer doc updates for 17.8 (extensions in config file, EnableAdministratorUpdatesNotifications, --installerOnly)
-
-### JavaScript
-
-**Updated articles**
-
-- [Unit testing JavaScript and TypeScript in Visual Studio](../javascript/unit-testing-javascript-with-visual-studio.md) - Add example for setting up React unit tests for esproj
-- [Tutorial: Create an ASP.NET Core app with Angular in Visual Studio](../javascript/tutorial-asp-net-core-with-angular.md) - Update React, Vue, Angular tutorials for Visual Studio 17.8 GA
-- [Tutorial: Create an ASP.NET Core app with React in Visual Studio](../javascript/tutorial-asp-net-core-with-react.md) - Update React, Vue, Angular tutorials for Visual Studio 17.8 GA
-- [Tutorial: Create an ASP.NET Core app with Vue in Visual Studio](../javascript/tutorial-asp-net-core-with-vue.md) - Update React, Vue, Angular tutorials for Visual Studio 17.8 GA
-- [Manage npm packages in Visual Studio](../javascript/npm-package-management.md) - Refactor Node.js content in JSTS and update First look at the IDE for JSTS
-- [First look at the Visual Studio IDE](../javascript/quickstart-ide-orientation-js.md) - Refactor Node.js content in JSTS and update First look at the IDE for JSTS
-- [Tutorial: Create a Node.js and React app in Visual Studio](../javascript/tutorial-nodejs-with-react-and-jsx.md) - Refactor Node.js content in JSTS and update First look at the IDE for JSTS
-
-### MSBuild
-
-**Updated articles**
-
-- [Change waves](../msbuild/change-waves.md) - Review and update
-- [MSBuild conditions](../msbuild/msbuild-conditions.md) - MSBuild Conditions: Add section that lists supported elements
-
-### Profiling
-
-**Updated articles**
-
-- [First look at profiling tools (C#, Visual Basic, C++, F#)](../profiling/profiling-feature-tour.md) - Add .NET Counter information for profiling in Diagnostics Hub and update profiling articles
-- [Run profiling tools with or without the debugger (C#, Visual Basic, C++, F#)](../profiling/running-profiling-tools-with-or-without-the-debugger.md) - Add .NET Counter information for profiling in Diagnostics Hub and update profiling articles
-
-### Test
-
-**Updated articles**
-
-- [Get started with Live Unit Testing](../test/live-unit-testing-start.md) - .NET 8 updates for getting started with Live Unit Testing
-
-### VSTO
-
-**Updated articles**
-
-- [Configure a computer to develop Office solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md) - Consolidate two articles on configuring VSTO
-
-### Community contributors
-
-The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
-
-- [cw-sexton](https://github.com/cw-sexton) - CW ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [Giorgi](https://github.com/Giorgi) - Giorgi Dalakishvili ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - expression evaluation, and common language runtime
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Common language runtime and expression evaluation

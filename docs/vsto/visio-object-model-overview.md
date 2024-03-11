@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "Visio object model"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Visio object model overview

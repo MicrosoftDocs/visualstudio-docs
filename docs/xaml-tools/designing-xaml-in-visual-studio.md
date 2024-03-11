@@ -6,7 +6,7 @@ ms.date: 02/28/2020
 ms.topic: conceptual
 author: maddymontaquila
 ms.author: maleger
-manager: jmartens
+manager: mijacobs
 ms.subservice: xaml-tools
 ---
 # Design XAML in Visual Studio and Blend for Visual Studio

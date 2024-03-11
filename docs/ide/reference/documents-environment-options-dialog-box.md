@@ -28,7 +28,7 @@ helpviewer_keywords:
 - Solution Explorer, displaying files in
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Options dialog box: Environment \> Documents

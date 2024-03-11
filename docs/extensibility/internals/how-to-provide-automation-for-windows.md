@@ -8,7 +8,7 @@ helpviewer_keywords:
 - tool windows, automation
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Provide automation for windows

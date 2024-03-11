@@ -5,7 +5,7 @@ ms.date: 12/11/2019
 ms.topic: conceptual
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Synchronously autoloaded extensions

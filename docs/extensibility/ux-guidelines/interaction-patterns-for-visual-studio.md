@@ -5,7 +5,7 @@ ms.date: 05/13/2020
 ms.topic: reference
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Interaction Patterns for Visual Studio

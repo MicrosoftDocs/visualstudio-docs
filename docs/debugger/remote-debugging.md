@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "remote debugging, setup"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Remote Debugging

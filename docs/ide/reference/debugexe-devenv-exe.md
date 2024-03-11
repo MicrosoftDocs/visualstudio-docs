@@ -10,7 +10,7 @@ helpviewer_keywords:
 - debugging executables
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # /DebugExe (devenv.exe)

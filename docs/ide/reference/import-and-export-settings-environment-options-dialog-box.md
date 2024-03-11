@@ -7,7 +7,7 @@ f1_keywords:
 - VS.ToolsOptionsPages.Environment.Profiles
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Options dialog box: Environment \> Import and Export Settings

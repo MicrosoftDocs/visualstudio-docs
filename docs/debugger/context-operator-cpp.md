@@ -19,7 +19,7 @@ helpviewer_keywords:
   - "native expression evaluator"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Context Operator in the Visual Studio Debugger (C++)

@@ -25,7 +25,7 @@ helpviewer_keywords:
   - "failures, finding locations"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # C/C++ Assertions

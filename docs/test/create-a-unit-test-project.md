@@ -4,7 +4,7 @@ description: Learn how to create a unit test project. The test project can be in
 ms.date: 02/22/2023
 ms.topic: how-to
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: test-tools
 author: mikejo5000
 ---

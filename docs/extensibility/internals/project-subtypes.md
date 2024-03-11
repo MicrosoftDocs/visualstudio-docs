@@ -8,7 +8,7 @@ helpviewer_keywords:
 - project subtypes [Visual Studio SDK]
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Project Subtypes

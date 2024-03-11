@@ -10,7 +10,7 @@ helpviewer_keywords:
 - createpkgdef
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # CreatePkgDef utility

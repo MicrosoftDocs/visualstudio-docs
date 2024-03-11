@@ -6,7 +6,7 @@ ms.date: 03/06/2024
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 
 # CustomerIntent: As a developer, I want to debug my Python code in Visual Studio so I can access a robust debugging environment with rich features.

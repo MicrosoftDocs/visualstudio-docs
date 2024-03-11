@@ -14,7 +14,7 @@ helpviewer_keywords:
   - debugging [Visual Studio], ASP.NET
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Debug ASP.NET or ASP.NET Core apps in Visual Studio

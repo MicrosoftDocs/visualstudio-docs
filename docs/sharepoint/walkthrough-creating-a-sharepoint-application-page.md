@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "application pages [SharePoint development in Visual Studio], creating"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # Walkthrough: Create a SharePoint application page
