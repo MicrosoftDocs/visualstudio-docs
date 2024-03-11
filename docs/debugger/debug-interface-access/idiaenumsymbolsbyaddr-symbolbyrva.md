@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaEnumSymbolsByAddr::symbolByRVA method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDiaEnumSymbolsByAddr::symbolByRVA

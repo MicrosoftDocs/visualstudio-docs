@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], host controls"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Automate Word by using extended objects

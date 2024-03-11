@@ -8,7 +8,7 @@ helpviewer_keywords:
 - privacy, developer community
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Developer Community data privacy

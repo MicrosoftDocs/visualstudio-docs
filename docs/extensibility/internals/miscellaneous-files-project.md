@@ -10,7 +10,7 @@ helpviewer_keywords:
 - files, opening with Miscellaneous Files project
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Miscellaneous Files Project

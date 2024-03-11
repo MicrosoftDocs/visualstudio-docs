@@ -17,7 +17,7 @@ helpviewer_keywords:
 - constraints [Visual Basic], suspending during dataset update
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Turn off constraints while filling a dataset in .NET Framework applications

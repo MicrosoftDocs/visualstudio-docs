@@ -11,7 +11,7 @@ helpviewer_keywords:
 - document data objects, running document table
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Running Document Table

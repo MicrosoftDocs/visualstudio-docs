@@ -9,7 +9,7 @@ helpviewer_keywords:
 - source control [Visual Studio SDK], plug-ins
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Create a source control plug-in

@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "debugging [C++], resolving ambiguity"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Resolve Ambiguity Dialog Box

@@ -13,7 +13,7 @@ helpviewer_keywords:
   - ".NET applications, publishing"
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 monikerRange: '>= vs-2019'
 ms.subservice: deployment
 ---

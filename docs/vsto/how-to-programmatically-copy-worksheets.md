@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "Excel [Office development in Visual Studio], copying worksheets"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically copy worksheets

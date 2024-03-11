@@ -23,7 +23,7 @@ f1_keywords:
   - "javascript.project.property.reference.version"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ---
 # File Properties, JavaScript
 

@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "Value2 property"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Properties in Office projects

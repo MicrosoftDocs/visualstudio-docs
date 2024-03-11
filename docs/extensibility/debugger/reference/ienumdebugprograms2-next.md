@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IEnumDebugPrograms2::Next
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

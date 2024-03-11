@@ -12,7 +12,7 @@ helpviewer_keywords:
 - release builds
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ---
 # Manage build configurations with Visual Basic developer settings applied
 

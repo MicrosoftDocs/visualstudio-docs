@@ -13,7 +13,7 @@ helpviewer_keywords:
 - saving data
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Save a dataset as XML in .NET Framework applications

@@ -5,7 +5,7 @@ ms.date: 05/15/2023
 ms.topic: conceptual
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.CSharp.Code_Style.General

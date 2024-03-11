@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], adding comments"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically add comments to text in documents

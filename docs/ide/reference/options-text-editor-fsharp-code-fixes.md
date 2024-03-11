@@ -7,7 +7,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.F%2523.Code_Fixes"
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Options: Text Editor > F# > Code Fixes

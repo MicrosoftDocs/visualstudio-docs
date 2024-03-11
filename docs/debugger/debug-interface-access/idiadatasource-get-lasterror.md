@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaDataSource::get_lastError method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDiaDataSource::get_lastError

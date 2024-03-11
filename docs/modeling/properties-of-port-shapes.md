@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, port shape"
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Properties of Port Shapes

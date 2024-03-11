@@ -5,7 +5,7 @@ ms.date: 06/23/2023
 ms.topic: overview
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: ui-designers
 ---
 # What are textures and images?

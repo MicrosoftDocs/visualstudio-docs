@@ -19,7 +19,7 @@ helpviewer_keywords:
   - "debugger, source files"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Debug Source Files, Common Properties, Solution Property Pages Dialog Box

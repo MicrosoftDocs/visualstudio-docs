@@ -22,7 +22,7 @@ helpviewer_keywords:
   - "Windows Installer, bootstrapper elements"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Product and package schema reference

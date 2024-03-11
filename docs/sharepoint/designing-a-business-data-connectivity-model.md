@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], designing a model"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # Design a business data connectivity model

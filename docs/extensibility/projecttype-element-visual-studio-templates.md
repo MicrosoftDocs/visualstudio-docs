@@ -10,7 +10,7 @@ helpviewer_keywords:
 - ProjectType element [Visual Studio project templates]
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ---
 # ProjectType element (Visual Studio templates)
 

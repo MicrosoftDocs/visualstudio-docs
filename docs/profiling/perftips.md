@@ -5,7 +5,7 @@ ms.date: 9/11/2020
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # PerfTips

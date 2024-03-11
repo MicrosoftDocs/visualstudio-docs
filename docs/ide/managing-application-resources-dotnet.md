@@ -14,7 +14,7 @@ helpviewer_keywords:
 - application resources [Visual Studio]
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Manage application resources (.NET)

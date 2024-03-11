@@ -6,7 +6,7 @@ ms.date: 07/11/2022
 ms.topic: conceptual
 author: maddymontaquila
 ms.author: maleger
-manager: jmartens
+manager: mijacobs
 ms.subservice: xaml-tools
 ---
 # Draw shapes and paths

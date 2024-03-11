@@ -8,7 +8,7 @@ helpviewer_keywords:
 - specialized deployment
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Handle specialized deployment

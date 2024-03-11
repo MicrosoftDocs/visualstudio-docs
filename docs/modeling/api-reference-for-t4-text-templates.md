@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: reference
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # API Reference for T4 Text Templates

@@ -6,7 +6,7 @@ description: Configure Bridge to Kubernetes to ignore port mapping on a Kubernet
 keywords: "Bridge to Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, Kubernetes, Azure, containers"
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: bridge
 ---
 

@@ -7,7 +7,7 @@ helpviewer_keywords:
 - source control plug-ins, functions
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Source Control Plug-in API Functions

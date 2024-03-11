@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "parameters [Office development in Visual Studio], optional"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Optional parameters in Office solutions

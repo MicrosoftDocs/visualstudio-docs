@@ -20,7 +20,7 @@ helpviewer_keywords:
   - Registers window
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # View register values in the Registers window (C#, C++, Visual Basic, F#)

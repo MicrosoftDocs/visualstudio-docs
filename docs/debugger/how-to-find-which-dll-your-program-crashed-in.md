@@ -19,7 +19,7 @@ helpviewer_keywords:
   - DLLs, load order of
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Find Which DLL Your Program Crashed In (C#, C++, Visual Basic, F#)

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - walkthroughs [Domain-Specific Language Tools]
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Add a command to the shortcut menu

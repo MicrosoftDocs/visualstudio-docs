@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "debugger, Web application errors"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Error: The Web Server Could Not Find the Requested Resource

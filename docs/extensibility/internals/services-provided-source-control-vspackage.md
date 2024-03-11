@@ -8,7 +8,7 @@ helpviewer_keywords:
 - source control packages, services
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Services Provided (Source Control VSPackage)

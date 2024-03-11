@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "deployment, local folder, ClickOnce"
 author: john-hart
 ms.author: JohnHart
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 monikerRange: '>= vs-2019'
 ---

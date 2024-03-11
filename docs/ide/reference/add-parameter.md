@@ -5,7 +5,7 @@ ms.date: 09/28/2018
 ms.topic: reference
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Add a parameter to a method using a Quick Action

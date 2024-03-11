@@ -5,7 +5,7 @@ ms.date: 11/14/2017
 ms.topic: conceptual
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Language Server Protocol

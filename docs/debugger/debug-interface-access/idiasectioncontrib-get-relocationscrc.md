@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaSectionContrib::get_relocationsCrc method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDiaSectionContrib::get_relocationsCrc

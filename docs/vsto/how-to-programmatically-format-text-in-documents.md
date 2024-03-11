@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "text [Office development in Visual Studio], formatting in documents"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically format text in documents

@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # .NET Compiler Platform (&quot;Roslyn&quot;) extensibility

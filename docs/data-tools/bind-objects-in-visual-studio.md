@@ -13,7 +13,7 @@ helpviewer_keywords:
 - binding, to objects
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Bind objects as data sources in .NET Framework applications using Visual Studio

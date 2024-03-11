@@ -5,7 +5,7 @@ ms.date: 05/04/2020
 ms.topic: reference
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 f1_keywords:
 - vs.csharp.refactoring.rename

@@ -5,7 +5,7 @@ description: Use workload and component IDs to install Visual Studio by using a 
 keywords:
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.date: 11/14/2023
 ms.custom: vs-acquisition
 ms.topic: reference

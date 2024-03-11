@@ -7,7 +7,7 @@ f1_keywords:
 - vs.xmleditor.schemasdialog
 author: dzsquared
 ms.author: drskwier
-manager: jmartens
+manager: mijacobs
 ms.subservice: xml-tools
 ---
 # XML Schemas dialog box

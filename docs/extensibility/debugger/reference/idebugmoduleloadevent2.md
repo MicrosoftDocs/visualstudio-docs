@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugModuleLoadEvent2 interface
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDebugModuleLoadEvent2

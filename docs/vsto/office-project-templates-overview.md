@@ -28,7 +28,7 @@ helpviewer_keywords:
   - "Outlook [Office development in Visual Studio], project templates"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Office project templates overview

@@ -10,7 +10,7 @@ helpviewer_keywords:
 - IDE, currency
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Selection and Currency in the IDE

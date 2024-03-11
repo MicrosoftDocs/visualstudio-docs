@@ -18,7 +18,7 @@ helpviewer_keywords:
 - related tables, saving
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Hierarchical update in .NET Framework development

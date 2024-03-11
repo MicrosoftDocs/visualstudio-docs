@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IntelliTrace, debugging applications in production"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Using the IntelliTrace stand-alone collector (C#, Visual Basic)

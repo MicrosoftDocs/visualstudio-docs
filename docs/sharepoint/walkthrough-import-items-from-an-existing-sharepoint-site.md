@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "importing items [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # Walkthrough: Import items from an existing SharePoint site

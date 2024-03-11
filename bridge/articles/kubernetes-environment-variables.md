@@ -4,7 +4,7 @@ ms.date: 08/11/2022
 description: Use Kubernetes service environment variables with Bridge to Kubernetes to enable service-to-service communication as a nonelevated user in a Kubernetes cluster.
 ms.author: ghogen
 author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.topic: conceptual
 ms.subservice: bridge
 ---

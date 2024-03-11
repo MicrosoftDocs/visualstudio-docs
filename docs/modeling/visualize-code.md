@@ -9,7 +9,7 @@ helpviewer_keywords:
 - code, exploring
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Visualize code

@@ -5,7 +5,7 @@ ms.date: 02/09/2024
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 
 # CustomerIntent: As a developer, I want to select a Python environment in Visual Studio, including Anaconda and virtual environments, so that I can apply the environment to a specific project.

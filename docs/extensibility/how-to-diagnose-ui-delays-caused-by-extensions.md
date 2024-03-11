@@ -5,7 +5,7 @@ ms.date: "01/26/2018"
 ms.topic: "conceptual"
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Diagnose UI delays caused by extensions

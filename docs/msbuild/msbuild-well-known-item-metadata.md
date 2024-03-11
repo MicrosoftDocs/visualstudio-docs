@@ -12,7 +12,7 @@ helpviewer_keywords:
 - MSBuild, well-known item metadata
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # MSBuild well-known item metadata

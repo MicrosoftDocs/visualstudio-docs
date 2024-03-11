@@ -4,7 +4,7 @@ description: Learn how to create unit tests for a C++ DLL for Universal Windows 
 ms.date: 05/01/2019
 ms.topic: how-to
 ms.author: twhitney
-manager: jmartens
+manager: mijacobs
 ms.subservice: test-tools
 author: tylermsft
 ---

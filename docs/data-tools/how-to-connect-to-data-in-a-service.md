@@ -13,7 +13,7 @@ helpviewer_keywords:
 - web services, connecting
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Connect to data in a WCF service

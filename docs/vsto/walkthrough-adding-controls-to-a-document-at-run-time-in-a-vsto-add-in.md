@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], adding controls at run time"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Walkthrough: Add controls to a document at run time in a VSTO Add-in

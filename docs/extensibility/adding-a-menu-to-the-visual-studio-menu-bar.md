@@ -8,7 +8,7 @@ helpviewer_keywords:
 - top-level menus
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Add a menu to the Visual Studio menu bar

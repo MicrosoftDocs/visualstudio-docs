@@ -5,7 +5,7 @@ ms.date: 3/6/2024
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 dev_langs:
   - CSharp

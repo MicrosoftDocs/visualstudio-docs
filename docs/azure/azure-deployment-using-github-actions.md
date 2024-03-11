@@ -8,7 +8,7 @@ helpviewer_keywords:
   - GitHub Actions, publish
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 monikerRange: '>= vs-2019'
 ---

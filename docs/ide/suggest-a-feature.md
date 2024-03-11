@@ -5,7 +5,7 @@ ms.date: 10/13/2021
 ms.topic: conceptual
 author: madskristensen
 ms.author: madsk
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Suggest a feature for Visual Studio

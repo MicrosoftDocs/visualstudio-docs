@@ -9,7 +9,7 @@ helpviewer_keywords:
 - AD_PROCESS_ID union
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

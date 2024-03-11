@@ -9,7 +9,7 @@ helpviewer_keywords:
 - multi-project templates
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Create multi-project templates

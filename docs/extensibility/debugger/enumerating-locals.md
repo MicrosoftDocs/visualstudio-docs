@@ -8,7 +8,7 @@ helpviewer_keywords:
 - expression evaluation, enumerating locals
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Enumerate locals

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - text templates, debugging
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Debugging a T4 Text Template

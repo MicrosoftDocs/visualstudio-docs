@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: error-reference
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Cannot create an association &lt;association name&gt; - property types do not match

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - context parameters
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Context parameters

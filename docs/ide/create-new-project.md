@@ -9,7 +9,7 @@ helpviewer_keywords:
 - projects [Visual Studio], creating
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Create a new project in Visual Studio

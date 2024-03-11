@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Test Explorer FAQ"
 ms.author: mikejo
 author: MikeJo5000
-manager: jmartens
+manager: mijacobs
 ms.subservice: test-tools
 ---
 # Visual Studio Test Explorer FAQ

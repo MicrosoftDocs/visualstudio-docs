@@ -7,7 +7,7 @@ f1_keywords:
   - "vs.cv.performance.cvcollectioncmd"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Concurrency Visualizer command-line utility (CVCollectionCmd)

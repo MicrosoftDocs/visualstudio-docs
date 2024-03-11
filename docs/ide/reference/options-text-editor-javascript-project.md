@@ -11,7 +11,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Project"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ---
 # Options, Text Editor, JavaScript, Project
 

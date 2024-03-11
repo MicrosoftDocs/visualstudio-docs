@@ -38,7 +38,7 @@ helpviewer_keywords:
 - virtual space
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Options dialog box: Text Editor \> All Languages

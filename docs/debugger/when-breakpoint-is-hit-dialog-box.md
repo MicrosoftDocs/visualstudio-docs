@@ -14,7 +14,7 @@ dev_langs:
   - "SQL"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # When Breakpoint Is Hit Dialog Box

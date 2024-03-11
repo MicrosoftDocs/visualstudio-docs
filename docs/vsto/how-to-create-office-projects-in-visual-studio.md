@@ -20,7 +20,7 @@ helpviewer_keywords:
   - "application-level add-ins [Office development in Visual Studio], creating projects"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Create Office projects in Visual Studio

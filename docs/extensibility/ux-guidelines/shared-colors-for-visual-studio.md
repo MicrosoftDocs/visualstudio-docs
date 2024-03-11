@@ -5,7 +5,7 @@ ms.date: 04/26/2017
 ms.topic: reference
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Shared colors for Visual Studio

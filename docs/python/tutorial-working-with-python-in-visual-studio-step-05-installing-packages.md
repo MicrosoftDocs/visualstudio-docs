@@ -6,7 +6,7 @@ ms.date: 10/21/2022
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 ---
 # Step 5: Install packages in your Python environment

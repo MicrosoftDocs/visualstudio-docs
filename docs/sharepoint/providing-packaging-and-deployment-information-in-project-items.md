@@ -22,7 +22,7 @@ helpviewer_keywords:
   - "safe controls [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # Provide packaging and deployment information in project items

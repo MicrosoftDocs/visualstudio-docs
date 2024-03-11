@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "high-performance debugging"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Debug multithreaded applications in Visual Studio

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - automation [Visual Studio SDK], creating Tools Options pages
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Automation support for Options pages

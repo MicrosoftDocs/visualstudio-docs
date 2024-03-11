@@ -9,7 +9,7 @@ helpviewer_keywords:
 - data [Visual Studio], querying an EDM
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Work with a Conceptual Model (WCF Data Services)

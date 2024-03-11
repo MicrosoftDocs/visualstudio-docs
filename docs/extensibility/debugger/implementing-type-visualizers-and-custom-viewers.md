@@ -8,7 +8,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], type visualizer
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Implement type visualizers and custom viewers

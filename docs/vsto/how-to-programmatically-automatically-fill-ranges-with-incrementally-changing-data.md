@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "workbooks, filling ranges"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically automatically fill ranges with incrementally changing data

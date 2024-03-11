@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Publish a WPF application with visual styles enabled

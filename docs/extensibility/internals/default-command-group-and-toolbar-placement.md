@@ -12,7 +12,7 @@ helpviewer_keywords:
 - commands [Visual Studio], default product
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Default command, group, and toolbar placement

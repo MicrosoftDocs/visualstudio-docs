@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "debugging [Visual Basic], Windows applications"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Debugging Preparation: Windows Forms Applications

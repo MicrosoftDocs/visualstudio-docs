@@ -7,7 +7,7 @@ helpviewer_keywords:
 - project types, conditions for creating
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # When to Create Project Types

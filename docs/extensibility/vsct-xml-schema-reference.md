@@ -8,7 +8,7 @@ helpviewer_keywords:
 - VSCT XML schema elements
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # VSCT XML schema reference

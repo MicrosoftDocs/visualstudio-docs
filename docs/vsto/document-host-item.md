@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "host items [Office development in Visual Studio], Document"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Document host item

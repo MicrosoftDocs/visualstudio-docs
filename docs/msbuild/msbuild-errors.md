@@ -97,7 +97,7 @@ f1_keywords:
  - MSBuild.FindInvalidProjectReferences.WarnWhenVersionIsIncompatible
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # Default F1 page for MSBuild errors

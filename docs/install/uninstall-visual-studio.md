@@ -10,7 +10,7 @@ f1_keywords:
 - uninstall Visual Studio
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 
 ms.subservice: installation
 ---

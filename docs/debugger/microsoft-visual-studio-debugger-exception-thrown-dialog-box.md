@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "throwing exceptions, during debugging"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Microsoft Visual Studio Debugger (Exception Thrown) Dialog Box

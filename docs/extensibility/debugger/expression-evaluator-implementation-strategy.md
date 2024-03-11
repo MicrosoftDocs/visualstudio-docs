@@ -8,7 +8,7 @@ helpviewer_keywords:
 - debug engines, implementation strategies
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Expression evaluator implementation strategy

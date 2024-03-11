@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "custom Ribbon, multiple Ribbons"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Ribbon overview

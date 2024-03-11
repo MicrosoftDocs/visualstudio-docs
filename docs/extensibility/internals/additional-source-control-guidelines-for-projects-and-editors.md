@@ -7,7 +7,7 @@ helpviewer_keywords:
 - source control [Visual Studio SDK], guidelines for projects and editors
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Additional source control guidelines for projects and editors

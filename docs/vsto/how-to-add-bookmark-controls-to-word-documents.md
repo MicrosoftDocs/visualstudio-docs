@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "controls [Office development in Visual Studio], adding to documents"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Add Bookmark controls to Word documents

@@ -17,7 +17,7 @@ helpviewer_keywords:
 - TableAdapters
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Save data back to the database in .NET Framework applications

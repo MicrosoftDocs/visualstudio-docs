@@ -8,7 +8,7 @@ helpviewer_keywords:
 - MSBuild, batching
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # Run tasks or targets in batches based on item metadata

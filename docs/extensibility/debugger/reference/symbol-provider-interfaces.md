@@ -9,7 +9,7 @@ helpviewer_keywords:
 - symbol handler, evaluating variables
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Symbol Provider Interfaces

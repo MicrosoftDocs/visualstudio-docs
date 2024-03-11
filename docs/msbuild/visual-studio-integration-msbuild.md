@@ -16,7 +16,7 @@ helpviewer_keywords:
 - MSBuild, design-time target execution
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 

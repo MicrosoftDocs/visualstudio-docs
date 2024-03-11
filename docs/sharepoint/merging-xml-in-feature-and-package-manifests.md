@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, packaging"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # Merge XML in feature and package manifests

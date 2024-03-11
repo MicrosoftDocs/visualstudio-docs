@@ -8,7 +8,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], terminating a program
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Terminating a program

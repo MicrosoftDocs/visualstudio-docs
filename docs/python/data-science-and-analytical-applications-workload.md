@@ -5,7 +5,7 @@ ms.date: 1/5/2023
 ms.topic: overview
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 ---
 # Install data science support in Visual Studio

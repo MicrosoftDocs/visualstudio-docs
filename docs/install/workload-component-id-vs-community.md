@@ -5,7 +5,7 @@ description: Use Visual Studio Community workload and component IDs to install V
 keywords:
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.date: 02/13/2024
 ms.topic: reference
 helpviewer_keywords:

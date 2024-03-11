@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "worksheets, adding to workbooks"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically add new worksheets to workbooks

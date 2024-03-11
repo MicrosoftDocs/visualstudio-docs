@@ -2,7 +2,7 @@
 title: Publish-WebApplicationVM
 description: Learn how to deploy a web application to a virtual machine. This script creates the required resources in your Azure subscription if they don't exist.
 author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: azure-development
 ms.topic: conceptual
 ms.date: 11/11/2016

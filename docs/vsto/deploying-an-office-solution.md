@@ -21,7 +21,7 @@ helpviewer_keywords:
   - "solutions [Office development in Visual Studio], deploying Office solutions (2007 system)"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Deploy an Office solution

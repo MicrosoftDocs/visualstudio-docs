@@ -15,7 +15,7 @@ helpviewer_keywords:
 - EndEdit method
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Commit in-process edits on data-bound controls before saving data

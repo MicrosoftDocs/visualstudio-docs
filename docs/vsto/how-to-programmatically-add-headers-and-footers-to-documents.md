@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "footers, adding to documents"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically add headers and footers to documents

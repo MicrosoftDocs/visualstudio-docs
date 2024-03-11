@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "copying data, Office development in Visual Studio"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically copy data and formatting across worksheets

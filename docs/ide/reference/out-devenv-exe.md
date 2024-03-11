@@ -15,7 +15,7 @@ helpviewer_keywords:
 - output files, build errors
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # /Out (devenv.exe)

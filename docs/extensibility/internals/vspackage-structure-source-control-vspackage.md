@@ -8,7 +8,7 @@ helpviewer_keywords:
 - source control packages, VSPackage overview
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # VSPackage Structure (Source Control VSPackage)

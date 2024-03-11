@@ -8,7 +8,7 @@ helpviewer_keywords:
 - command-line tests
 ms.author: mikejo
 author: mikejo5000
-manager: jmartens
+manager: mijacobs
 ms.subservice: test-tools
 ---
 # VSTest.Console.exe command-line options

@@ -7,7 +7,7 @@ helpviewer_keywords:
 - IDebugPortSupplierLocale2::SetLocale
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

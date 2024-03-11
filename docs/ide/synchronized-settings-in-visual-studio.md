@@ -5,7 +5,7 @@ ms.date: 05/20/2022
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Synchronize Visual Studio settings across multiple computers

@@ -11,7 +11,7 @@ helpviewer_keywords:
 - <NumberOfParentCategoriesToRollUp> element [Visual Studio Templates]
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ---
 # NumberOfParentCategoriesToRollUp element (Visual Studio templates)
 

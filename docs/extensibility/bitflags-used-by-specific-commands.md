@@ -7,7 +7,7 @@ helpviewer_keywords:
 - source control plug-ins, bitflags used by specific commands
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Bitflags used by specific commands

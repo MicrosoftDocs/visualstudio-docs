@@ -16,7 +16,7 @@ helpviewer_keywords:
   - executable files, debugging outside of projects
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Debug an app that isn't part of a Visual Studio solution (C++, C#, Visual Basic, F#)

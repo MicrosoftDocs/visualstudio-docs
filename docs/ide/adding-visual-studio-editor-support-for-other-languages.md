@@ -13,7 +13,7 @@ helpviewer_keywords:
 - language support
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Add Visual Studio editor support for other languages

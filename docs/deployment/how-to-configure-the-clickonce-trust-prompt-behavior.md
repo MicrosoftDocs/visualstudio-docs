@@ -15,7 +15,7 @@ helpviewer_keywords:
   - ClickOnce deployment, trust prompt
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Configure the ClickOnce trust prompt behavior

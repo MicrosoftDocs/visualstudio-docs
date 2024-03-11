@@ -10,7 +10,7 @@ helpviewer_keywords:
 - constraints, architectural
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Dependency diagrams: guidelines

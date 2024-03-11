@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Class Designer [Visual Studio], nullable types
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 dev_langs:
 - CSharp

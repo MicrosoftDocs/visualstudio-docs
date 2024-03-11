@@ -14,7 +14,7 @@ helpviewer_keywords:
 - saving data
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Insert new records into a database in .NET Framework applications

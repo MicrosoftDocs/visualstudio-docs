@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio], Registers window"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # About the Registers Window in Visual Studio (C#, C++, Visual Basic, F#)

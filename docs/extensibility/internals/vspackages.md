@@ -7,7 +7,7 @@ helpviewer_keywords:
 - VSPackages
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # VSPackages

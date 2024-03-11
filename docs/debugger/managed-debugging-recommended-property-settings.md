@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "debugging managed code, recommended property settings"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Managed Debugging: Recommended Property Settings

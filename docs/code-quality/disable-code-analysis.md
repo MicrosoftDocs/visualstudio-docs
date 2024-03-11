@@ -8,7 +8,7 @@ helpviewer_keywords:
   - disable code analysis
 author: mikadumont
 ms.author: midumont
-manager: jmartens
+manager: mijacobs
 ms.subservice: code-analysis
 ---
 # Disable source code analysis for .NET

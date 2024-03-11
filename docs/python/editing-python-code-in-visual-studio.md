@@ -5,7 +5,7 @@ ms.date: 02/20/2024
 ms.topic: conceptual
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 
 # CustomerIntent: As a developer, I want to build Python applications in Visual Studio so that I can access rich features to help me write and maintain my code.

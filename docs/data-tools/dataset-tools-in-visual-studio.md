@@ -44,7 +44,7 @@ helpviewer_keywords:
 - data adapters, populating datasets
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Visual Studio dataset tools for developing .NET Framework applications

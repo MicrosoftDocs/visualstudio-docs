@@ -7,7 +7,7 @@ helpviewer_keywords:
 - source control plug-ins, capability flags
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Capability flags

@@ -6,7 +6,7 @@ ms.author: cowebster
 ms.subservice: python
 ms.topic: how-to
 ms.date: 01/25/2024
-manager: jmartens
+manager: mijacobs
 
 # CustomerIntent: As a developer, I want to install Python support in Visual Studio so that I can access Python features in the product.
 

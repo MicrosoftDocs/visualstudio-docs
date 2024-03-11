@@ -7,7 +7,7 @@ f1_keywords:
 - VS.ToolsOptionsPages.Projects.WebProjects
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Options Dialog Box, Projects and Solutions, Web Projects

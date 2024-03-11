@@ -7,7 +7,7 @@ helpviewer_keywords:
 - source control packages, architecture
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Source Control VSPackage Architecture

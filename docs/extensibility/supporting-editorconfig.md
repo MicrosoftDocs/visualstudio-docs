@@ -8,7 +8,7 @@ helpviewer_keywords:
 - editorconfig, supporting in a language service
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Supporting EditorConfig for your language service

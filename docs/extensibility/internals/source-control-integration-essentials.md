@@ -9,7 +9,7 @@ helpviewer_keywords:
 - essentials, Source Control Integration
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Source Control Integration Essentials

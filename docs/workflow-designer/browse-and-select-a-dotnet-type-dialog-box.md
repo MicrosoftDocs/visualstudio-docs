@@ -8,7 +8,7 @@ f1_keywords:
 - ActivityTypeResolver.UI
 author: jodavis
 ms.author: jodavis
-manager: jmartens
+manager: mijacobs
 ms.subservice: workflow-designer
 ---
 # Browse and Select a .NET Type Dialog Box

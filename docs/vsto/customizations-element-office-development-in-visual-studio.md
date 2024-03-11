@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <customizations> element"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # &lt;customizations&gt; element (Office development in Visual Studio)

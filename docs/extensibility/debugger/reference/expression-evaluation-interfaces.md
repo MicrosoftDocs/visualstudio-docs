@@ -7,7 +7,7 @@ helpviewer_keywords:
 - expression evaluation, interfaces
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Expression Evaluation Interfaces

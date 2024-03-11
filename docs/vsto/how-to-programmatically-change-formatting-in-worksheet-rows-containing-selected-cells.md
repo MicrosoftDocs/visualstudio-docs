@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "worksheets, changing formatting"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically change formatting in worksheet rows containing selected cells

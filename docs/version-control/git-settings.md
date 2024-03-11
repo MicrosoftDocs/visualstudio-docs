@@ -6,7 +6,7 @@ ms.date: 11/29/2022
 ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
-ms.manager: jmartens
+ms.manager: mijacobs
 
 ms.subservice: general-ide
 monikerRange: ">=vs-2019"

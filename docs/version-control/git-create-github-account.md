@@ -6,7 +6,7 @@ ms.date: 10/29/2021
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-ms.manager: jmartens
+ms.manager: mijacobs
 
 ms.subservice: general-ide
 ---

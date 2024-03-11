@@ -9,7 +9,7 @@ helpviewer_keywords:
 - managed package framework, creating projects
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Using the Managed Package Framework to Implement a Project Type (C#)

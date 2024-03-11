@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "installing Office development tools in Visual Studio"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Install the Visual Studio Tools for Office Runtime Redistributable

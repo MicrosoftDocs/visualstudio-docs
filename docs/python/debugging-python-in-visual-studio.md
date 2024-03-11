@@ -5,7 +5,7 @@ ms.date: 03/07/2024
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 
 #customer intent: As a developer, I want to use debugging features in Visual Studio so that I can set breakpoints, step into code, inspect values, and more in my Python code.

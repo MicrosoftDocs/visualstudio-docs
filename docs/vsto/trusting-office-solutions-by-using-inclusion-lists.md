@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "inclusion lists [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Trust Office solutions by using inclusion lists

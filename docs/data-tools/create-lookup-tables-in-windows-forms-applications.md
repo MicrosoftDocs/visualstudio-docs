@@ -8,7 +8,7 @@ helpviewer_keywords:
 - lookup tables, creating
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Create lookup tables in .NET Framework Windows Forms applications

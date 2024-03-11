@@ -10,7 +10,7 @@ helpviewer_keywords:
 - tool windows, adding context menus
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Add a shortcut menu in a tool window

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - walkthroughs [text templates], directive processor
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 dev_langs:
 - CSharp

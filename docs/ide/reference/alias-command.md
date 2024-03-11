@@ -13,7 +13,7 @@ helpviewer_keywords:
 - alias command
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Alias Command
