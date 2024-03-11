@@ -136,10 +136,9 @@ Here are a few examples of how to create a custom network layout.
 
 * To create a layout with two workloads and one optional component in three languages, run:
 
-     ```shell
-     ```
-vs_enterprise.exe --layout C:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Component.Git --lang en-US de-DE ja-JP
-```
+    ```shell
+    vs_enterprise.exe --layout C:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Component.Git --lang en-US de-DE ja-JP
+    ```
 
 #### Use a configuration file to initialize the contents of a layout
 
@@ -192,7 +191,7 @@ Starting in June 2023, you're able to make your layouts available on an internal
      | **.xml**| `text/xml` |
      | **.zip**| `application/x-zip-compressed` |
 
-3. Lastly, to deploy this layout on the client, [run a PowerShell script on the client to perform the initial installation](deploy-a-layout-onto-a-client-machine.md#install-from-an-internal-intranet-location). After Visual Studio successfully installs onto the client from a webhosted layout, then [client updates for webhosted layouts can be updated via standard methods](update-a-network-installation-of-visual-studio.md).  
+3. Lastly, to deploy this layout on the client, [run a PowerShell script on the client to perform the initial installation](deploy-a-layout-onto-a-client-machine.md#install-from-an-internal-intranet-location). After Visual Studio successfully installs onto the client from a web hosted layout, then [client updates for webhosted layouts can be updated via standard methods](update-a-network-installation-of-visual-studio.md).  
 
 ### Ensure your layout is using the latest installer
 
