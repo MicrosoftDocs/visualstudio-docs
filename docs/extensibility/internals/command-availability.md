@@ -8,7 +8,7 @@ helpviewer_keywords:
 - menu items, visibility contexts
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Command availability

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Domain-Specific Language, validation
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Validation in a Domain-Specific Language

@@ -11,7 +11,7 @@ helpviewer_keywords:
 - SolutionFolder element [Visual Studio Templates]
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ---
 # SolutionFolder Element (Visual Studio Templates)
 

@@ -5,7 +5,7 @@ ms.date: 3/6/2024
 ms.topic: how-to 
 author: anandmeg
 ms.author: meghaanand
-ms.manager: jmartens
+ms.manager: mijacobs
 ms.subservice: ai-tools
 helpviewer_keywords: 
   - copilot chat context

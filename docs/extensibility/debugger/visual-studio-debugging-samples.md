@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Debugging SDK, samples
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Visual Studio debugging samples

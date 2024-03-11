@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Domain-Specific Language, commands
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # The DslTextTransform Command

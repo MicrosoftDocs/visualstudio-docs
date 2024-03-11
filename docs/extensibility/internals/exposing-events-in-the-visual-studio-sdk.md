@@ -8,7 +8,7 @@ helpviewer_keywords:
 - automation [Visual Studio SDK], exposing events
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Expose events in the Visual Studio SDK

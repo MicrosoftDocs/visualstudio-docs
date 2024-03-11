@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, namespace"
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Change the namespace of a domain-specific language

@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "security [Office development in Visual Studio], troubleshooting"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Specific security considerations for Office solutions

@@ -9,7 +9,7 @@ helpviewer_keywords:
 - editor settings
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Set language-specific editor options

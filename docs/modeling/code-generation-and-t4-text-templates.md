@@ -13,7 +13,7 @@ helpviewer_keywords:
 - generating code
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Code Generation and T4 Text Templates

@@ -2,7 +2,7 @@
 title: Use GitHub Actions to build, test, and deploy apps
 description: Set up continuous integration and continuous delivery (CI/CD) deployment to Azure by using GitHub Actions in Visual Studio in Windows.
 author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: azure-development
 ms.topic: overview
 ms.date: 08/17/2023

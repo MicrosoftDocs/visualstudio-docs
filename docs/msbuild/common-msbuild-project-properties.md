@@ -14,7 +14,7 @@ helpviewer_keywords:
 - project file properties (MSBuild)
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # Common MSBuild project properties

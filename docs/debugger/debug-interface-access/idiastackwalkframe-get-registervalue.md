@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaStackWalkFrame::get_registerValue method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDiaStackWalkFrame::get_registerValue

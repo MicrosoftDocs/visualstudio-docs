@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "Dia2dump sample [DIA SDK]"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Dia2dump Sample

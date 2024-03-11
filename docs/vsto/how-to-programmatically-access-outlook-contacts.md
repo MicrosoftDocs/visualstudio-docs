@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "contacts [Office development in Visual Studio], searching"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically access Outlook contacts

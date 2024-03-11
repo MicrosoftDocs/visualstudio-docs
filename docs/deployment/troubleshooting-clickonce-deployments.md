@@ -15,7 +15,7 @@ helpviewer_keywords:
   - deploying applications [ClickOnce], troubleshooting
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Troubleshoot ClickOnce deployments

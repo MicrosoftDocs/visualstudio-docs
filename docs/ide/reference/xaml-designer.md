@@ -8,7 +8,7 @@ f1_keywords:
 - VS.ToolsOptionsPages.XAML_Designer.General
 author: maddymontaquila
 ms.author: maleger
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # XAML Designer options page

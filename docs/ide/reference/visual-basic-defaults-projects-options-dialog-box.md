@@ -11,7 +11,7 @@ helpviewer_keywords:
 - Option Strict statement, setting in the IDE
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Visual Basic Defaults, Projects, Options Dialog Box

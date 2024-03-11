@@ -10,7 +10,7 @@ helpviewer_keywords:
 - MSBuild, DependsOn properties
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # Extend the Visual Studio build process

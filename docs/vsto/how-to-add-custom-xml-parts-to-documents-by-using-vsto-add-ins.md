@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "application-level add-ins [Office development in Visual Studio], custom XML parts"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Add custom XML parts to documents by using VSTO Add-ins

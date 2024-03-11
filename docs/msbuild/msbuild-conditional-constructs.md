@@ -18,7 +18,7 @@ helpviewer_keywords:
 - When Element [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # MSBuild conditional constructs

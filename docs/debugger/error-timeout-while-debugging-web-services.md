@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "XML Web services, timeout while debugging"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Error: Timeout While Debugging Web Services

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - deploying applications [ClickOnce], debugging
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Debug ClickOnce applications that use System.Deployment.Application

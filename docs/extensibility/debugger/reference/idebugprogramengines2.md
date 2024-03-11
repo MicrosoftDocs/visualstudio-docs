@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugProgramEngines2 interface
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDebugProgramEngines2

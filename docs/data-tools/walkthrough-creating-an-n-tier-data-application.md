@@ -11,7 +11,7 @@ helpviewer_keywords:
 - n-tier applications, walkthroughs
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Walkthrough: Create an n-tier data application with ADO.NET and the .NET Framework

@@ -5,7 +5,7 @@ ms.date: 06/05/2023
 ms.topic: how-to
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript

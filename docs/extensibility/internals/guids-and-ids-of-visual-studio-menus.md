@@ -12,7 +12,7 @@ helpviewer_keywords:
 - menus
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # GUIDs and IDs of Visual Studio menus

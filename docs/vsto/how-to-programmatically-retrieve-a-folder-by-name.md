@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "Outlook folders [Office development in Visual Studio], retrieving by name"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically retrieve a folder by name

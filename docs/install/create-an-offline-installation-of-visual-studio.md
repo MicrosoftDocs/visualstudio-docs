@@ -9,7 +9,7 @@ f1_keywords:
 - layout [Visual Studio]
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 
 ms.subservice: installation
 ---

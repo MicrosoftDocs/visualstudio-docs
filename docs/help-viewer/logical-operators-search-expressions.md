@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "logical operators in search [Help Viewer]"
 author: jasonchlus
 ms.author: jasonchlus
-manager: jmartens
+manager: mijacobs
 ms.subservice: help-viewer
 ---
 # Logical and advanced operators in search expressions

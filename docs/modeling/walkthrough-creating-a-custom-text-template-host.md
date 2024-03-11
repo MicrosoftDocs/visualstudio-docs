@@ -8,7 +8,7 @@ helpviewer_keywords:
 - text templates, custom host walkthrough
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 dev_langs:
 - CSharp

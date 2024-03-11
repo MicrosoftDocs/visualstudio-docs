@@ -13,7 +13,7 @@ helpviewer_keywords:
 - data binding, WPF
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Bind WPF controls to data in .NET Framework applications

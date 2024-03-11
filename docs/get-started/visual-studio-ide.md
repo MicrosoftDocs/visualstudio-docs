@@ -11,7 +11,7 @@ f1_keywords:
 - VS.StartPage.HowDoI
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ---
 # What is Visual Studio?
 

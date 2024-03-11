@@ -8,7 +8,7 @@ helpviewer_keywords:
 - stories
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Model user requirements

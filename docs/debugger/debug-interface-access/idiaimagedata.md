@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaImageData interface"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDiaImageData

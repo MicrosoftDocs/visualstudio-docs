@@ -5,7 +5,7 @@ ms.date: 2/1/2024
 ms.topic: how-to
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Customizing editor behavior by using Language Configuration

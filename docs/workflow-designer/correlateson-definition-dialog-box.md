@@ -7,7 +7,7 @@ f1_keywords:
   - "CorrelatesOnDefinition.UI"
 author: jodavis
 ms.author: jodavis
-manager: jmartens
+manager: mijacobs
 ms.subservice: workflow-designer
 ---
 # CorrelatesOn Definition Dialog Box

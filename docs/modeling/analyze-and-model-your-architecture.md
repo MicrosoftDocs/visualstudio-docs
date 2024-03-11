@@ -15,7 +15,7 @@ helpviewer_keywords:
 - application modeling
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Analyze and model your architecture

@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "Excel [Office development in Visual Studio], closing workbooks"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically close workbooks

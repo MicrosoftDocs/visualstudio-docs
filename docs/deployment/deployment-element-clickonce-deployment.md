@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "<deployment> element [ClickOnce deployment manifest]"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # &lt;deployment&gt; element (ClickOnce deployment)

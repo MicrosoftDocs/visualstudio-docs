@@ -9,7 +9,7 @@ helpviewer_keywords:
 - .vsct files, common menu tasks
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Extend menus and commands

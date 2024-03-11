@@ -14,7 +14,7 @@ helpviewer_keywords:
 - FindUnderPath task [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # FindUnderPath task

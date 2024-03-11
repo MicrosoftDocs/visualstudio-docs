@@ -10,7 +10,7 @@ helpviewer_keywords:
   - ".pdb files, querying"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Querying the .Pdb File

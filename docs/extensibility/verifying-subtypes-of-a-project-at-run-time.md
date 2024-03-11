@@ -8,7 +8,7 @@ helpviewer_keywords:
 - check subtypes
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Verify subtypes of a project at run time

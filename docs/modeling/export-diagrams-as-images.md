@@ -9,7 +9,7 @@ helpviewer_keywords:
 - UML diagrams, saving
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Export diagrams as images

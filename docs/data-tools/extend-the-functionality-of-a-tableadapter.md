@@ -12,7 +12,7 @@ helpviewer_keywords:
 - TableAdapters, adding functionality
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Extend the functionality of a TableAdapter in .NET Framework applications

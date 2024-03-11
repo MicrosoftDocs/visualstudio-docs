@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "publisherIdentity Element [ClickOnce deployment manifest], syntax, elements, and attributes"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # &lt;publisherIdentity&gt; element (ClickOnce deployment)

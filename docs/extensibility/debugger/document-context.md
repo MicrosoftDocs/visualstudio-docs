@@ -7,7 +7,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], contexts
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Document context

@@ -9,7 +9,7 @@ helpviewer_keywords:
 - persistence, supporting Open With command
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Display files by using the Open With command

@@ -9,7 +9,7 @@ helpviewer_keywords:
 - PROCESS_INFO_FIELDS enumeration
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

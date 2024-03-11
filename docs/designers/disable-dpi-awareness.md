@@ -4,7 +4,7 @@ description: Fix DPI display problems in Windows Forms Designer in Visual Studio
 ms.date: 02/08/2024
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: ui-designers
 ms.topic: how-to
 ms.custom: engagement-fy23

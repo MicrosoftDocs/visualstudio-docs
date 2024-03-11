@@ -5,7 +5,7 @@ description: Learn about the All Rules rule set, which contains all ru
 ms.topic: reference
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: code-analysis
 monikerRange: 'vs-2019'
 ---

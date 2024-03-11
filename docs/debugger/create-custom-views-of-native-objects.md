@@ -9,7 +9,7 @@ dev_langs:
   - C++
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Create custom views of C++ objects in the debugger using the Natvis framework

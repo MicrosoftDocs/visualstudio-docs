@@ -10,7 +10,7 @@ helpviewer_keywords:
 - TemplateData element [Visual Studio project templates]
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ---
 # TemplateData Element (Visual Studio Templates)
 

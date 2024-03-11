@@ -7,7 +7,7 @@ helpviewer_keywords:
 - project configurations, output
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Project Configuration for Output

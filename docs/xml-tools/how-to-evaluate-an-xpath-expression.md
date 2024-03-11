@@ -5,7 +5,7 @@ description: Learn how to evaluate XPath expressions by using the QuickWatch win
 ms.topic: how-to
 author: dzsquared
 ms.author: drskwier
-manager: jmartens
+manager: mijacobs
 ms.subservice: xml-tools
 ---
 # Evaluate XPath expressions

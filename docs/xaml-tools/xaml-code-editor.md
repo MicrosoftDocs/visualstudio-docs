@@ -8,7 +8,7 @@ f1_keywords:
 monikerRange: ">=vs-2019"
 author: maddymontaquila
 ms.author: maleger
-manager: jmartens
+manager: mijacobs
 ms.subservice: xaml-tools
 ---
 # XAML code editor

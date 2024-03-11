@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "content controls [Office development in Visual Studio], adding to documents"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Walkthrough: Create a template by using content controls

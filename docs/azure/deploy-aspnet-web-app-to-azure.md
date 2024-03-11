@@ -2,7 +2,7 @@
 title: Deploy ASP.NET web apps to Azure
 description: Learn about how you can use Visual Studio to deploy a web app to Azure.
 author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: azure-development
 ms.topic: overview
 ms.date: 10/19/2023

@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugReturnValueEvent2
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDebugReturnValueEvent2

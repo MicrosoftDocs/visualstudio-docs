@@ -8,7 +8,7 @@ helpviewer_keywords:
 - programs, launching
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Launch a program

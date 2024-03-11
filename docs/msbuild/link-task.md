@@ -26,7 +26,7 @@ helpviewer_keywords:
 - Link task (MSBuild (C++))
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # Link task

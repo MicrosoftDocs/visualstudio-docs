@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "managed code, code analysis"
 author: mikadumont
 ms.author: midumont
-manager: jmartens
+manager: mijacobs
 ms.subservice: code-analysis
 ---
 # Overview of legacy analysis for managed code in Visual Studio

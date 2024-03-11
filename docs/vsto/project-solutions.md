@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "solutions [Office development in Visual Studio], Project"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Project solutions

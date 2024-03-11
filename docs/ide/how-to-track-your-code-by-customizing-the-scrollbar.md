@@ -5,7 +5,7 @@ ms.date: 03/20/2020
 ms.topic: how-to
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Customize the scroll bar

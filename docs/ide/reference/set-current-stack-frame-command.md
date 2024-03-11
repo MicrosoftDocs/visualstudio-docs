@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "Debug.SetCurrentStackFrame command"
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Set Current Stack Frame Command

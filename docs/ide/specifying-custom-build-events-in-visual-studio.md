@@ -8,7 +8,7 @@ helpviewer_keywords:
 - build events, customizing
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ---
 # Specify custom build events in Visual Studio
 

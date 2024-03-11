@@ -5,7 +5,7 @@ ms.date: 1/19/2024
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: test-tools
 ---
 # Run unit tests with Test Explorer

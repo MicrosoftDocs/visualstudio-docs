@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Help Viewer, index filtering"
 author: jasonchlus
 ms.author: jasonchlus
-manager: jmartens
+manager: mijacobs
 ms.subservice: help-viewer
 ---
 # Find topics by using the Help Viewer index

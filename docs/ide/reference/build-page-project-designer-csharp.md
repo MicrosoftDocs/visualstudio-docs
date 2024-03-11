@@ -11,7 +11,7 @@ helpviewer_keywords:
 - Project Designer, Build page
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 monikerRange: 'vs-2019'
 ---
 # Build Page, Project Designer (C#)

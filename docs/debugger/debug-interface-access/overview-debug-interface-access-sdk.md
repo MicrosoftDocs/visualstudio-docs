@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "executable images"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Overview (Debug Interface Access SDK)

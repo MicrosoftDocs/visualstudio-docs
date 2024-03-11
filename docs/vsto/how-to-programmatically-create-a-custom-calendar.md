@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "appointments [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically create a custom calendar

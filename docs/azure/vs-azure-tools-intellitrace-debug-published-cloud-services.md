@@ -2,7 +2,7 @@
 title: Debug published Azure cloud service with IntelliTrace
 description: Learn how to debug a cloud service with Visual Studio and IntelliTrace
 author: mikejo5000
-manager: jmartens
+manager: mijacobs
 ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 03/06/2024

@@ -5,7 +5,7 @@ ms.date: 12/15/2023
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Save and edit database connection strings for .NET Framework applications

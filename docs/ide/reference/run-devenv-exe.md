@@ -12,7 +12,7 @@ helpviewer_keywords:
 - R Devenv switch (/R)
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # /Run (devenv.exe)

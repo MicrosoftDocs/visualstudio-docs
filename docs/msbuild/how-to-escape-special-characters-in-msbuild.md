@@ -10,7 +10,7 @@ helpviewer_keywords:
 - MSBuild, escaping special characters
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # Escape special characters in MSBuild

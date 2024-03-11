@@ -13,7 +13,7 @@ helpviewer_keywords:
 - project files, referencing
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # Reference the name or location of the project file

@@ -15,7 +15,7 @@ helpviewer_keywords:
 monikerRange: ">=vs-2019"
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Use Visual Studio search

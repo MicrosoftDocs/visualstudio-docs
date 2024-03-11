@@ -12,7 +12,7 @@ helpviewer_keywords:
   - trusted application deployment, Trusted Publishers
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Add a trusted publisher to a client computer for ClickOnce applications

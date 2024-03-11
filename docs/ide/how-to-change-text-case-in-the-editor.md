@@ -8,7 +8,7 @@ helpviewer_keywords:
 - text, case
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Change text case in the editor

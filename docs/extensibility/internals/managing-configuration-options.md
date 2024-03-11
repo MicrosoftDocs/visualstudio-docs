@@ -7,7 +7,7 @@ helpviewer_keywords:
 - configuration options
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Managing Configuration Options

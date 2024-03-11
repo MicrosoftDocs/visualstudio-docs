@@ -13,7 +13,7 @@ helpviewer_keywords:
 - walkthroughs [Visual Studio ALM], modeling software
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Scenario: Change your design using visualization and modeling

@@ -8,7 +8,7 @@ helpviewer_keywords:
   - debugger
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Debug live ASP.NET Azure apps using the Snapshot Debugger

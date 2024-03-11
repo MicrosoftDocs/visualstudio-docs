@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugSymbolSearchEvent2::GetSymbolSearchInfo
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

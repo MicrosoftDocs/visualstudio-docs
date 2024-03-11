@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Settings Store, using
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Using the Settings Store

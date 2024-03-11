@@ -8,7 +8,7 @@ helpviewer_keywords:
 - commands, updating UI
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Updating the User Interface

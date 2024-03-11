@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Outlook [Office development in Visual Studio], form regions"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Create Outlook form regions

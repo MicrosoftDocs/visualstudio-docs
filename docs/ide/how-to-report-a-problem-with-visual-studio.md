@@ -5,7 +5,7 @@ ms.date: 10/07/2021
 ms.topic: how-to
 author: madskristensen
 ms.author: madsk
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Report a problem with the Visual Studio product or installer

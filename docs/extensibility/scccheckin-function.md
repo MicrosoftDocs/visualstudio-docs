@@ -9,7 +9,7 @@ helpviewer_keywords:
 - SccCheckin function
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # SccCheckin function

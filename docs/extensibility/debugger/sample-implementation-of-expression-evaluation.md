@@ -9,7 +9,7 @@ helpviewer_keywords:
 - expression evaluation, examples
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Sample implementation of expression evaluation

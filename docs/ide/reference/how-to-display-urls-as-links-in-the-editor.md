@@ -9,7 +9,7 @@ helpviewer_keywords:
 - editors, displaying URLs
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Display URLs as Links in the Editor

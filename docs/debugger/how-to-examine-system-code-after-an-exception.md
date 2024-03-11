@@ -13,7 +13,7 @@ helpviewer_keywords:
   - exceptions, debugging
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Examine System Code After an Exception

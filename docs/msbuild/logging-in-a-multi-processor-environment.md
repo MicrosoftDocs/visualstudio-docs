@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "MSBuild, logging"
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # Logging in a multi-processor environment

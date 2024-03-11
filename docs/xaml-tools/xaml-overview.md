@@ -5,7 +5,7 @@ ms.date: 06/23/2020
 ms.topic: overview
 author: maddymontaquila
 ms.author: maleger
-manager: jmartens
+manager: mijacobs
 ms.subservice: xaml-tools
 ---
 # Overview of XAML

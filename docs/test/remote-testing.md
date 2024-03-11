@@ -5,7 +5,7 @@ ms.date: 10/25/2023
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: test-tools
 monikerRange: '>= vs-2022'
 ---

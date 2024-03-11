@@ -16,7 +16,7 @@ helpviewer_keywords:
 - multiple tier applications
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Work with datasets in n-tier applications

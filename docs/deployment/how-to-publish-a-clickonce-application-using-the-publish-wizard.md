@@ -14,7 +14,7 @@ helpviewer_keywords:
   - publishing, ClickOnce
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Deploy a .NET Framework desktop application using the ClickOnce Publish wizard

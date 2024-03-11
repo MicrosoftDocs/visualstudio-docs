@@ -17,7 +17,7 @@ helpviewer_keywords:
 - MSBuild, ResolveAssemblyReference task
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # ResolveAssemblyReference task

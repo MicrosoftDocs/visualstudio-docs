@@ -8,7 +8,7 @@ helpviewer_keywords:
 - GUIDs, Visual Studio SDK
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # GUIDs and constants in the Visual Studio SDK

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - interfaces [Visual Studio]
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Implement an interface in Class Designer

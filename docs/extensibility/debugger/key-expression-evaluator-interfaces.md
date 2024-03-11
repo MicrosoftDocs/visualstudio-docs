@@ -8,7 +8,7 @@ helpviewer_keywords:
 - expression evaluation, interfaces
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Key expression evaluator interfaces

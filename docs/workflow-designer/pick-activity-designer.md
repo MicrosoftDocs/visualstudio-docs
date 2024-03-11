@@ -7,7 +7,7 @@ f1_keywords:
   - "System.Activities.Statements.Pick.UI"
 author: jodavis
 ms.author: jodavis
-manager: jmartens
+manager: mijacobs
 ms.subservice: workflow-designer
 ---
 # Pick Activity Designer

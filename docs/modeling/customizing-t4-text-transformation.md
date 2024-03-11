@@ -8,7 +8,7 @@ helpviewer_keywords:
 - text templates, custom hosts
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Customize T4 Text Transformation

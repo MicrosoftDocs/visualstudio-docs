@@ -17,7 +17,7 @@ helpviewer_keywords:
 - datasets [Visual Basic], reading XML data
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Read XML data into a dataset in .NET Framework applications

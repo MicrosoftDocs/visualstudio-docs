@@ -5,7 +5,7 @@ ms.date: 02/06/2024
 ms.topic: tutorial
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Measure memory usage in Visual Studio (C#, Visual Basic, C++, F#)

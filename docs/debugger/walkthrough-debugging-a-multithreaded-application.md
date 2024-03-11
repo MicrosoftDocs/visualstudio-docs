@@ -20,7 +20,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio], threads"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # View threads in the Visual Studio debugger by using the Threads window (C#, Visual Basic, C++)

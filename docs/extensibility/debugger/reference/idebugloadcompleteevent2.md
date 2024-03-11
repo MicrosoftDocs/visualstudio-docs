@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugLoadCompleteEvent2
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDebugLoadCompleteEvent2

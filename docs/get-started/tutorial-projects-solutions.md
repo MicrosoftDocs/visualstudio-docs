@@ -9,7 +9,7 @@ f1_keywords:
 - project.addnewitem
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ---
 # Introduction to projects and solutions
 

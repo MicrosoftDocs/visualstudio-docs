@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "<RelatedProducts> element [bootstrapper]"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # &lt;RelatedProducts&gt; element (bootstrapper)

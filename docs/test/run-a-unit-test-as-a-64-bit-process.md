@@ -7,7 +7,7 @@ helpviewer_keywords:
   - unit tests, creating
   - unit tests, running
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: test-tools
 author: mikejo5000
 ---

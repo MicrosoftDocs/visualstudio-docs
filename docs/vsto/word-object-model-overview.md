@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "Office object models"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Word object model overview

@@ -5,7 +5,7 @@ ms.date: 03/29/2019
 ms.topic: conceptual
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # What's New in the Visual Studio 2019 SDK

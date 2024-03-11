@@ -5,7 +5,7 @@ description: Learn about the Managed Minimum Rules rule set in Visual Studio, wh
 ms.topic: reference
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: code-analysis
 monikerRange: 'vs-2019'
 ---

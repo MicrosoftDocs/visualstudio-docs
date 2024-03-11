@@ -5,7 +5,7 @@ ms.date: 04/02/2018
 ms.topic: conceptual
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Get started with Roslyn analyzers

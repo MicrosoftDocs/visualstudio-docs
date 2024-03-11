@@ -6,7 +6,7 @@ dev_langs:
   - "VB"
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ms.topic: tutorial
 ms.date: 03/15/2023

@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Office functionality inside Visual Studio"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Use Office functionality inside of Visual Studio

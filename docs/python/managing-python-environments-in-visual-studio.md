@@ -6,7 +6,7 @@ ms.customL: devdivchpfy22
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 
 # CustomerIntent: As a developer, I want to use the Python Environments window in Visual Studio so that I can manage my Python environments and interpreters.

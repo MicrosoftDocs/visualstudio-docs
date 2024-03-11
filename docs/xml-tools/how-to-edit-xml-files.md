@@ -5,7 +5,7 @@ description: Explore how to use the XML editor in Visual Studio to edit many dif
 ms.topic: how-to
 author: dzsquared
 ms.author: drskwier
-manager: jmartens
+manager: mijacobs
 ms.subservice: xml-tools
 ---
 # Edit XML files

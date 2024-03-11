@@ -13,7 +13,7 @@ helpviewer_keywords:
 - WCF services, walkthrough
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Walkthrough: Create a simple WCF service in .NET Framework Windows Forms

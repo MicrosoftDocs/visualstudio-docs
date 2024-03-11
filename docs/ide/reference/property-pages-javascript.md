@@ -14,7 +14,7 @@ f1_keywords:
   - "javascript.project.property.debugging.allowlocalnetworkloopback"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ---
 # Property pages, JavaScript
 

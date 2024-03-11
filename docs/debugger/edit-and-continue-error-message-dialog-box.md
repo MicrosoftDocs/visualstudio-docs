@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "Edit and Continue Error Message dialog box"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Edit and Continue error message

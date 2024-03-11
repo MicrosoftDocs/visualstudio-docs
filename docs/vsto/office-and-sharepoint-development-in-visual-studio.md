@@ -19,7 +19,7 @@ helpviewer_keywords:
   - "Office, development with Visual Studio"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Office and SharePoint development in Visual Studio

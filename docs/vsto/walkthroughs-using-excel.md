@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "Excel [Office development in Visual Studio], walkthroughs"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Walkthroughs using Excel
