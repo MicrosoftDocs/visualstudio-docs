@@ -98,7 +98,7 @@ The recommended approach is to create an initial layout of Visual Studio with al
 
 ### Ensure your layout is based off of the correct channel
 
-It's important to ensure that the network layout is based off of the correct [channel](/visualstudio/releases/2022/vs2022-release-rhythm), because its one of the criteria that [administrator updates](applying-administrator-updates.md), if deployed throughout the organization, use to identify which client instances should be updated. For example, if your layout is based on the VisualStudio.17.Release.LTSC.17.0 channel and if your clients are configured to receive updates from Microsoft hosted servers, then any security updates made available on the 17.0 LTSC channel are available to the clients that installed or updated from that layout. 
+It's important to ensure that the network layout is based off of the correct [channel](/visualstudio/releases/2022/vs2022-release-rhythm), because it's one of the criteria that [administrator updates](applying-administrator-updates.md), if deployed throughout the organization, use to identify which client instances should be updated. For example, if your layout is based on the VisualStudio.17.Release.LTSC.17.0 channel and if your clients are configured to receive updates from Microsoft hosted servers, then any security updates made available on the 17.0 LTSC channel are available to the clients that installed or updated from that layout. 
 
 The bootstrappers listed previously are based off of the Current channel. To create a layout based off of one of the LTSC channels, acquire the correct channel's bootstrapper from the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page, copy it into your layout folder, and use it to create or update the layout. 
 
@@ -136,7 +136,8 @@ Here are a few examples of how to create a custom network layout.
 
 * To create a layout with two workloads and one optional component in three languages, run:
 
-```shell
+     ```shell
+     ```
 vs_enterprise.exe --layout C:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Component.Git --lang en-US de-DE ja-JP
 ```
 
@@ -172,7 +173,7 @@ More information can be found on the [Automate Visual Studio installation with a
 
 ### Making your layout accessible via an intranet site
 
-Starting in June 2023, you're able to make your layouts available on an internal intranet site, which lets you take advantage of webserver file caching and georeplication performance capabilities. To use this new feature, you need to use the latest Visual Studio bootstrappers and the latest Visual Studio Installer. IT administrators must do the following to take advantage of this intranet webhosting capability:
+Starting in June 2023, you're able to make your layouts available on an internal intranet site, which lets you take advantage of webserver file caching and georeplication performance capabilities. To use this new feature, you need to use the latest Visual Studio bootstrappers and the latest Visual Studio Installer. IT administrators must do the following to take advantage of this intranet web hosting capability:
 
 1. First, create and maintain a network layout and ensure that the bits are present and regularly updated on the network share. Also, remember to configure the [channelUri value in the layout's response.json](automated-installation-with-response-file.md#configure-the-response-file-used-when-installing-from-a-layout) if you want your clients to get their updates from the intranet layout location.
 2. Next, an admin will need to prepare an internal website and bind the website's source to the layout's network file location. They also need to ensure that the webserver respects the following MIME types:
