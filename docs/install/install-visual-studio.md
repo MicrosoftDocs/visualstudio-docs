@@ -160,7 +160,7 @@ If you downloaded a bootstrapper file, then you can use it to install Visual Stu
 
 ::: moniker-end
 
-You can also intiate an installation of any product that is offered on the [Visual Studio Installer's Available tab](/visualstudio/install/install-visual-studio-versions-side-by-side#install-different-editions-within-the-same-major-visual-studio-version-side-by-side). 
+You can also initiate an installation of any product that is offered on the [Visual Studio Installer's Available tab](/visualstudio/install/install-visual-studio-versions-side-by-side#install-different-editions-within-the-same-major-visual-studio-version-side-by-side). 
 
 ## Step 4 - Choose workloads
 
