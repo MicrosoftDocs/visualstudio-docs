@@ -13,7 +13,7 @@ ms.subservice: installation
 
 To illustrate how to [use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md), here are several examples that you can customize to match your needs.
 
-In each example, `vs_enterprise.exe`, `vs_professional.exe` and `vs_community.exe` represent the respective edition of the Visual Studio bootstrapper, which is the small (~1MB) file that initiates the download process. If you're using a different edition, substitute the appropriate bootstrapper name.
+In each example, `vs_enterprise.exe`, `vs_professional.exe`, and `vs_community.exe` represent the respective edition of the Visual Studio bootstrapper, which is the small (~ 1MB) file that initiates the download process. If you're using a different edition, substitute the appropriate bootstrapper name.
 
 All commands require administrative elevation, and a User Account Control prompt will be displayed if the process isn't started from an elevated prompt.
 
@@ -23,7 +23,7 @@ For lists of the workloads and components that you can install by using the comm
 
 ## Install using --installPath alongside the bootstrapper
 
-* Install a minimal instance of Visual Studio, with no interactive prompts but progress displayed:
+* Install a minimal instance of Visual Studio, with no interactive prompts, but progress displayed:
 
   ```shell
    vs_enterprise.exe --installPath C:\minVS ^
