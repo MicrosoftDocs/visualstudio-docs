@@ -68,6 +68,25 @@
         href: install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md
       - name: Troubleshoot network errors
         href: /troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors?toc=%2Fvisualstudio%2Ftoc.json
+      - name: Visual Studio workload and component IDs
+        items:
+        - name: Overview
+          displayName: Workload and component IDs
+          href: install/workload-and-component-ids.md
+        - name: Visual Studio Enterprise
+          href: install/workload-component-id-vs-enterprise.md
+        - name: Visual Studio Professional
+          href: install/workload-component-id-vs-professional.md
+        - name: Visual Studio Community
+          href: install/workload-component-id-vs-community.md
+        - name: Visual Studio Team Explorer
+          href: install/workload-component-id-vs-team-explorer.md
+        - name: Visual Studio Build Tools
+          href: install/workload-component-id-vs-build-tools.md
+        - name: Visual Studio Test Agent
+          href: install/workload-component-id-vs-test-agent.md
+        - name: Visual Studio Test Controller
+          href: install/workload-component-id-vs-test-controller.md        
     - name: Manage global policies
       items:
       - name: Administrative Templates (ADMX)
@@ -88,25 +107,6 @@
         href: install/disable-or-move-the-package-cache.md
       - name: Tools to detect & manage Visual Studio instances
         href: install/tools-for-managing-visual-studio-instances.md
-      - name: Visual Studio workload and component IDs
-        items:
-        - name: Overview
-          displayName: Workload and component IDs
-          href: install/workload-and-component-ids.md
-        - name: Visual Studio Enterprise
-          href: install/workload-component-id-vs-enterprise.md
-        - name: Visual Studio Professional
-          href: install/workload-component-id-vs-professional.md
-        - name: Visual Studio Community
-          href: install/workload-component-id-vs-community.md
-        - name: Visual Studio Team Explorer
-          href: install/workload-component-id-vs-team-explorer.md
-        - name: Visual Studio Build Tools
-          href: install/workload-component-id-vs-build-tools.md
-        - name: Visual Studio Test Agent
-          href: install/workload-component-id-vs-test-agent.md
-        - name: Visual Studio Test Controller
-          href: install/workload-component-id-vs-test-controller.md        
   - name: Use on Devices, VMs, and Containers
     items:
     - name: Use on Azure virtual machines
