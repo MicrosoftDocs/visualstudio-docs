@@ -35,6 +35,9 @@ In addition to these changes, a new property is available that returns the appli
 
 A .NET application can use these properties directly or indirectly.
 
+>[!NOTE]
+> Using this method, you can access application deployment properties, but .NET 7 does not support the equivalent of ApplicationDeployment methods.
+
 ## Access properties
 
 The following code example shows how to access two properties directly, `ClickOnce_IsNetworkDeployed` and `ClickOnce_ActivationUri`.
