@@ -17,9 +17,13 @@ You can visually compare two files in Visual Studio to examine the differences b
 
 In Solution Explorer, right-click on one of the files and choose **Compare With...**. The Open File dialog appears. Choose the second file, and then choose **Open**.
 
-![Screenshot of Compare Files menu](./media/vs-2022/compare-with-menu-item.png)
+![Screenshot of Compare With on the context menu.](./media/vs-2022/compare-with-menu-item.png)
 
 The file you right-clicked on appears on the right and is editable. The other file is shown in a read-only view. That means that from the perspective of the diff view, the file you right-clicked is the new version and the other file is considered the old version.
+
+If you select two files (use Ctrl-click to select), you can right-click and choose **Compare Selected** to open the diff view with just those two files.
+
+![Screenshot of Compare Selected context menu item.](./media/vs-2022/compare-selected.md.png)
 
 ## Compare two files (command-line)
 
