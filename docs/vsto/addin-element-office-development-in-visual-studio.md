@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "<addin> element"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # &lt;addin&gt; element (Office development in Visual Studio)

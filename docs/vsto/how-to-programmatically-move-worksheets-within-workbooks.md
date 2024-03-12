@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "workbooks, moving worksheets in"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically move worksheets within workbooks

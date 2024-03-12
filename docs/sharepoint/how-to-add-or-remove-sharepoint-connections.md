@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "SharePoint Connections [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # Add or remove SharePoint connections

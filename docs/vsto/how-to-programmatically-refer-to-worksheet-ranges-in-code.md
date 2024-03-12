@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Excel [Office development in Visual Studio], referring to worksheet ranges"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically refer to worksheet ranges in code

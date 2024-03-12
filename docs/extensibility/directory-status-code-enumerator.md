@@ -8,7 +8,7 @@ helpviewer_keywords:
 - source control plug-ins, directory status enumeration
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Directory status code enumerator

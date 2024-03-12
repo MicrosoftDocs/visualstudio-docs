@@ -8,7 +8,7 @@ helpviewer_keywords:
 - breakpoints, methods
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Breakpoint-related methods

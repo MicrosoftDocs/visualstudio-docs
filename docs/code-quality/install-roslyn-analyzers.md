@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Roslyn analyzers
 author: mikadumont
 ms.author: midumont
-manager: jmartens
+manager: mijacobs
 ms.subservice: code-analysis
 ---
 # Install third-party analyzers

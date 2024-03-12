@@ -253,6 +253,10 @@ Here are the volumes that are mounted in your container. What you see in your co
 | **Remote debugger** | Contains the bits required to run the debugger in the container depending on the project type. This is explained in more detail in the [Debugging](#debugging) section.|
 | **Source folder** | Contains the build context that is passed to Docker commands.|
 | **TokenService.Proxy** | Contains the files required to run a service the enables VisualStudioCredential to communicate with Visual Studio on the host. |
+
+> [!NOTE]
+> **Visual Studio 17.10 preview** If you're using Docker Engine in Windows Subsystem for Linux (WSL) without Docker Desktop, set the environment variable `VSCT_WslDaemon=1` to have VS use WSL paths when creating volume mounts. The NuGet package [Microsoft.VisualStudio.Azure.Containers.Tools.Targets 1.20.0-Preview 1](https://www.nuget.org/packages/Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.20.0-Preview.1) is also required.
+
 :::moniker-end
 
 For ASP.NET core web apps, there might be two additional folders for the SSL certificate and the user secrets, which is explained in more detail in the next section.

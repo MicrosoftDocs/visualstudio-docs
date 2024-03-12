@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Visual Studio, services
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # List of Available Services

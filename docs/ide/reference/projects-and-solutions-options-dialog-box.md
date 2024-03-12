@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Options dialog box, Projects and Solutions
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Options dialog box: Projects and Solutions \> General

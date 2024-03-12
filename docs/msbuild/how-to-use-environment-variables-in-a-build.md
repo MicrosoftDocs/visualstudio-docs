@@ -9,7 +9,7 @@ helpviewer_keywords:
 - MSBuild, environment variables
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # Use environment variables in a build

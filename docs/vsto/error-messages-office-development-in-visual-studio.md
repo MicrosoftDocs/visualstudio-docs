@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "error messages, Office development in Visual Studio"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Error messages (Office development in Visual Studio)

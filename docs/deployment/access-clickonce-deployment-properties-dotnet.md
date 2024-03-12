@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "deployment properties, ClickOnce for .NET 5+"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 monikerRange: '>= vs-2022'
 ---
@@ -34,6 +34,9 @@ In addition to these changes, a new property is available that returns the appli
 - `ClickOnce_LauncherVersion`
 
 A .NET application can use these properties directly or indirectly.
+
+>[!NOTE]
+> Using this method, you can access application deployment properties, but .NET 7 does not support the equivalent of ApplicationDeployment methods.
 
 ## Access properties
 

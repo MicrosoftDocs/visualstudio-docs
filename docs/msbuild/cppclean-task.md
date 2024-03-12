@@ -15,7 +15,7 @@ helpviewer_keywords:
 - CPPClean task (MSBuild (C++))
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # CPPClean Task

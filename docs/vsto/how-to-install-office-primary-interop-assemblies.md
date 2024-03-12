@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "Office primary interop assemblies, installing"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Install Office primary interop assemblies

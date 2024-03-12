@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "deployment, web app"
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 monikerRange: '>= vs-2019'
 ---

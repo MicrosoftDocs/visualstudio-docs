@@ -7,7 +7,7 @@ ms.topic: tutorial
 ms.devlang: csharp
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 dev_langs:
   - CSharp

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "tables [Office development in Visual Studio], adding text and formatting"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically add text and formatting to cells in Word tables

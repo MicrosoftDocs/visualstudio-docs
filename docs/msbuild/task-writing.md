@@ -9,7 +9,7 @@ helpviewer_keywords:
 - MSBuild, creating tasks
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # Task writing

@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "debugger, run options"
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ---
 # Options dialog box: Projects and Solutions \> Build and Run
 

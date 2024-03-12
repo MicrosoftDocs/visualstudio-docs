@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "modules [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # Use modules to include files in the solution

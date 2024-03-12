@@ -5,7 +5,7 @@ ms.date: 02/02/2024
 ms.topic: tutorial
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Tutorial - Create your first extension: Hello World

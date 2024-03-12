@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], tabs"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Change the position of a tab on the ribbon

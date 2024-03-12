@@ -14,7 +14,7 @@ helpviewer_keywords:
 - LC task [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # LC task

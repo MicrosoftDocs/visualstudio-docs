@@ -18,7 +18,7 @@ helpviewer_keywords:
 - attributes [Visual Studio], applying custom
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Create types by using Class Designer

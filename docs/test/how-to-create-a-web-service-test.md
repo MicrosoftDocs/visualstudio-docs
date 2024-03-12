@@ -9,7 +9,7 @@ helpviewer_keywords:
   - service tests, Web
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: test-tools
 ---
 # Create a web service test

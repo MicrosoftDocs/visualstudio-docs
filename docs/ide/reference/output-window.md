@@ -12,7 +12,7 @@ helpviewer_keywords:
 - Toolbox, removing controls
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Output window

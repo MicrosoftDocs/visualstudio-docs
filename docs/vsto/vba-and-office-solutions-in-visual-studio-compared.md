@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "managed code extensions [Office development in Visual Studio], VBA compared to"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # VBA and Office solutions in Visual Studio compared

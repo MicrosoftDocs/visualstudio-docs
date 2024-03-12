@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "DIA SDK, structures"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Enumerations and Structures

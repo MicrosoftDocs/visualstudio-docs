@@ -5,7 +5,7 @@ ms.date: 08/29/2022
 ms.topic: conceptual
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 dev_langs:
 - CSharp

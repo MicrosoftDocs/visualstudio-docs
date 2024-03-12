@@ -6,7 +6,7 @@ ms.date: 04/26/2019
 ms.topic: how-to
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Launch Visual Studio using DTE

@@ -10,7 +10,7 @@ helpviewer_keywords:
 - data [Visual Studio], Data Sources window
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Set the control to be created when dragging from the Data Sources window

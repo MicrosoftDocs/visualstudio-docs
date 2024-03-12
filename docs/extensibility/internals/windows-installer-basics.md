@@ -8,7 +8,7 @@ helpviewer_keywords:
 - VSPackages, Windows Installer basics
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Windows Installer Basics

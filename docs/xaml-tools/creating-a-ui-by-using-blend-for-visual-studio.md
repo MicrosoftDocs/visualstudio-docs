@@ -8,7 +8,7 @@ f1_keywords:
 - Blend.Start.Dev12
 author: maddymontaquila
 ms.author: maleger
-manager: jmartens
+manager: mijacobs
 ms.subservice: xaml-tools
 ---
 # Blend for Visual Studio overview

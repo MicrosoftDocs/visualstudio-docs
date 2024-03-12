@@ -2,7 +2,7 @@
 ms.topic: quickstart
 ms.author: ghogen
 author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: bridge
 title: Redirect traffic between Kubernetes cluster & local code (VS Code)
 ms.date: 09/14/2023

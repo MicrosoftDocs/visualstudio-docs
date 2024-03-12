@@ -6,7 +6,7 @@ ms.author: ghogen
 ms.service: visual-studio
 ms.subservice: 
 author: ghogen
-manager: jmartens
+manager: mijacobs
 f1_keywords:
  - vs.ViewHelp
  - MSDNSTART

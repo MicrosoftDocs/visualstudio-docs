@@ -8,7 +8,7 @@ helpviewer_keywords:
 - code analysis, source suppression
 author: mikadumont
 ms.author: midumont
-manager: jmartens
+manager: mijacobs
 ms.subservice: code-analysis
 dev_langs:
 - CSharp

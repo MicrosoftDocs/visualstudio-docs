@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <friendlyName> element"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # &lt;friendlyName&gt; element (Office development in Visual Studio)

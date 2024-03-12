@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaAddressMap::put_relativeVirtualAddressEnabled method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDiaAddressMap::put_relativeVirtualAddressEnabled

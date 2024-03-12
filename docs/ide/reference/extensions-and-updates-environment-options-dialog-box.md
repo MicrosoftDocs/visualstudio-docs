@@ -7,7 +7,7 @@ f1_keywords:
 - VS.ToolsOptionsPages.Environment.ExtensionManager
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Options dialog box: Environment \> Extensions

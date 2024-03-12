@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "user controls [SharePoint development in Visual Studio], adding"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # Create a user control for a SharePoint application page or web part

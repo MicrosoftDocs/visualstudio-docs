@@ -8,7 +8,7 @@ helpviewer_keywords:
 - MSBuild, msbuild.exe.config
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # Create a custom Toolset configuration

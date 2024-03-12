@@ -13,7 +13,7 @@ helpviewer_keywords:
 - IDE Command window
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Command Window

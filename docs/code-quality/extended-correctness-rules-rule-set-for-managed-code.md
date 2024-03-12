@@ -5,7 +5,7 @@ description: Learn about the Extended Correctness Rules rule set in Visual Studi
 ms.topic: reference
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: code-analysis
 monikerRange: 'vs-2019'
 ---

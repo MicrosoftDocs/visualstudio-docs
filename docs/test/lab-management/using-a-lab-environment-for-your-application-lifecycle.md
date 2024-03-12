@@ -6,7 +6,7 @@ ms.topic: how-to
 helpviewer_keywords:
   - lab environment, test lab
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: test-tools
 author: mikejo5000
 ---

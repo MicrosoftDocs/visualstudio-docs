@@ -32,7 +32,7 @@ helpviewer_keywords:
 - service method, called asynchronously[Visual Studio]
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Windows Communication Foundation Services and WCF Data Services in Visual Studio

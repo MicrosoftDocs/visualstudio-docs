@@ -9,7 +9,7 @@ helpviewer_keywords:
 - property pages, removing
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 dev_langs:
 - CSharp

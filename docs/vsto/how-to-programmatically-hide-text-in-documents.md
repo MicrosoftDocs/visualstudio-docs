@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "text [Office development in Visual Studio], hiding in documents"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically hide text in documents

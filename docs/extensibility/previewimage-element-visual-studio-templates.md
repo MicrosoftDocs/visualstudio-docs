@@ -9,7 +9,7 @@ helpviewer_keywords:
 - PreviewImage Element (Visual Studio Templates)
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ---
 # PreviewImage element (Visual Studio templates)
 

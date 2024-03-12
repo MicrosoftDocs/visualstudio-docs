@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: javascript
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript

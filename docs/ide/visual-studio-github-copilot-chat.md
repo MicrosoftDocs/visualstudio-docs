@@ -5,7 +5,7 @@ ms.date: 1/17/2024
 ms.topic: overview 
 author: anandmeg
 ms.author: meghaanand
-ms.manager: jmartens
+ms.manager: mijacobs
 ms.subservice: ai-tools
 monikerRange: vs-2022
 ---

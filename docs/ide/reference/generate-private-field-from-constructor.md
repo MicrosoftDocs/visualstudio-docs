@@ -5,7 +5,7 @@ ms.date: 06/20/2020
 ms.topic: reference 
 author: mikadumont
 ms.author: midumont
-manager: jmartens 
+manager: mijacobs 
 dev_langs: 
   - CSharp 
   - VB

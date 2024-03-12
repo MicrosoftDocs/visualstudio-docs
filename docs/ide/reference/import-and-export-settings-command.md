@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Import and Export Settings command
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Import and Export Settings command (.vssettings file)

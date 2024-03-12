@@ -5,7 +5,7 @@ ms.date: 09/30/2021
 ms.topic: overview
 author: maddymontaquila
 ms.author: maleger
-manager: jmartens
+manager: mijacobs
 ms.subservice: xaml-tools
 monikerRange: ">=vs-2019"
 ---

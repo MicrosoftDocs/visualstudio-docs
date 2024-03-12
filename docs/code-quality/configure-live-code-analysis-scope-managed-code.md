@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "full solution analysis"
 author: mikadumont
 ms.author: midumont
-manager: jmartens
+manager: mijacobs
 ms.subservice: code-analysis
 ---
 # Configure live code analysis for .NET

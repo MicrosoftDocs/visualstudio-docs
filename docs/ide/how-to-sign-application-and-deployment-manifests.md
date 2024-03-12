@@ -15,7 +15,7 @@ helpviewer_keywords:
 - assemblies [Visual Studio], signing
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ---
 # Sign application and deployment manifests
 

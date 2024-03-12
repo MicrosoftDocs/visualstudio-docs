@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], adding an entity"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # Add an entity to a model

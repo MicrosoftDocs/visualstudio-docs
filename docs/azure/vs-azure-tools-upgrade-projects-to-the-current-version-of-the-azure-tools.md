@@ -2,7 +2,7 @@
 title: Upgrade projects to current version of Azure tools
 description: Learn how to upgrade an Azure project in Visual Studio to the current version of the Azure tools
 author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: azure-development
 ms.topic: conceptual
 ms.date: 11/18/2016

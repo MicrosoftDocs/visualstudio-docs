@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "ClickOnce deployment, update strategies"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Choose a ClickOnce update strategy

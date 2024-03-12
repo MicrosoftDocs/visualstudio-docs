@@ -12,7 +12,7 @@ helpviewer_keywords:
 - user controls [Visual Studio], complex data binding
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Create a .NET Framework Windows Forms user control that supports complex data binding with ADO.NET

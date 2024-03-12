@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)

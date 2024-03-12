@@ -12,7 +12,7 @@ helpviewer_keywords:
   - query strings, retrieving information
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Retrieve query string information in an online ClickOnce application

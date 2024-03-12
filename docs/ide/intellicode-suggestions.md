@@ -8,7 +8,7 @@ ms.topic: conceptual
 description: IntelliCode suggestions
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ---
 # AI assistance while you edit code
 

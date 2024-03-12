@@ -8,7 +8,7 @@ f1_keywords:
 - Annotation
 author: jodavis
 ms.author: jodavis
-manager: jmartens
+manager: mijacobs
 ms.subservice: workflow-designer
 ---
 # Add comments to a workflow in the Workflow Designer

@@ -11,7 +11,7 @@ helpviewer_keywords:
 - <Project> element [Visual Studio Templates]
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ---
 # Project element (Visual Studio templates)
 

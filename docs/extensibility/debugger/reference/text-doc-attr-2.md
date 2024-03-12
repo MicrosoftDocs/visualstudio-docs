@@ -9,7 +9,7 @@ helpviewer_keywords:
 - TEXT_DOC_ATTR_2 enumeration
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

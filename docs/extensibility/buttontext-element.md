@@ -8,7 +8,7 @@ helpviewer_keywords:
 - VSCT XML schema elements, ButtonText
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # ButtonText element

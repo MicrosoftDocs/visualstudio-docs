@@ -5,7 +5,7 @@ ms.date: 01/26/2018
 ms.topic: reference
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Introduce a local variable in Visual Studio

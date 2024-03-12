@@ -8,7 +8,7 @@ helpviewer_keywords:
 - managed code, code analysis
 author: mikadumont
 ms.author: midumont
-manager: jmartens
+manager: mijacobs
 ms.subservice: code-analysis
 ---
 # Overview of code analysis for .NET in Visual Studio

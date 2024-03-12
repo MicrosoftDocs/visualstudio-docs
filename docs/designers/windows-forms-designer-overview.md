@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Windows Forms Designer
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: ui-designers
 ---
 # Windows Forms Designer overview

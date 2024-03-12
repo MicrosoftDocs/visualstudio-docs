@@ -2,7 +2,7 @@
 ms.topic: quickstart
 ms.author: ghogen
 author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: bridge
 title: Debug locally with Bridge to Kubernetes and AKS clusters
 ms.date: 08/15/2022

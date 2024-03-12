@@ -7,7 +7,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], required events
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Send the required events

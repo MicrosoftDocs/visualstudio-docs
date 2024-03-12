@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "worksheets, populating with data"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Fill ListObject controls with data

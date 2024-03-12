@@ -9,7 +9,7 @@ helpviewer_keywords:
 - persistence, supporting Open File command
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Display files by using the Open File command

@@ -14,7 +14,7 @@ helpviewer_keywords:
 - AspNetCompiler task [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # AspNetCompiler task

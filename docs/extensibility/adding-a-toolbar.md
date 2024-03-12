@@ -8,7 +8,7 @@ helpviewer_keywords:
 - IDE, adding toolbars
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Add a Toolbar

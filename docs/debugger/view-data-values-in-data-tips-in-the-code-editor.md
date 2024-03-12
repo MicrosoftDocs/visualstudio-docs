@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "data tips tool"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # View data values in DataTips in the code editor

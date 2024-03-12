@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "debugger, viewing data"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Create custom views of data in the Visual Studio debugger (C#, Visual Basic, C++)

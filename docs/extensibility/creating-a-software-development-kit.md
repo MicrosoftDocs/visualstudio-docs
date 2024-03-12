@@ -5,7 +5,7 @@ ms.date: 08/31/2021
 ms.topic: how-to
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Create a software development kit

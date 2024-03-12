@@ -7,7 +7,7 @@ helpviewer_keywords:
 - text templates, transformation process
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # The Text Template Transformation Process

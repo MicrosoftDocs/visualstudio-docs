@@ -9,7 +9,7 @@ helpviewer_keywords:
 - class diagrams, types
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # View types and relationships in Class Designer

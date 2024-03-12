@@ -14,7 +14,7 @@ helpviewer_keywords:
 - data [Windows Forms], displaying
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Bind Windows Forms controls to data in .NET Framework applications

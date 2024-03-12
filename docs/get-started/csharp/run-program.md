@@ -9,7 +9,7 @@ ms.topic: tutorial
 ms.devlang: csharp
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 dev_langs:
   - csharp
 ---

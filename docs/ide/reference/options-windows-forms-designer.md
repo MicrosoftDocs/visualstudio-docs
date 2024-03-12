@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Options dialog box, Windows Forms Designer
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Options dialog box: Windows Forms Designer

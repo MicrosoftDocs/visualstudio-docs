@@ -2,7 +2,7 @@
 title: Add Azure Cache for Redis by using Connected Services
 description: Learn how to add Azure Cache for Redis support to your app with the Visual Studio process for adding a connected service.
 author: AngelosP
-manager: jmartens
+manager: mijacobs
 ms.subservice: azure-development
 ms.topic: conceptual
 ms.date: 05/15/2023

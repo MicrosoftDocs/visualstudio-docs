@@ -8,7 +8,7 @@ helpviewer_keywords:
 - command routing
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Command routing algorithm

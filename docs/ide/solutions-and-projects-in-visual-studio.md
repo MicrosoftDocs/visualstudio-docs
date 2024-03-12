@@ -15,7 +15,7 @@ helpviewer_keywords:
 - projects [Visual Studio]
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # What are solutions and projects in Visual Studio?

@@ -7,7 +7,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Environment.TabsAndWindows"
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Options dialog box: Environment \> Tabs and Windows

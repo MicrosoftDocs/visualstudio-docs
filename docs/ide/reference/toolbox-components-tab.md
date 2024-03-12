@@ -11,7 +11,7 @@ helpviewer_keywords:
 - Toolbox, Components tab
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Toolbox, Components tab

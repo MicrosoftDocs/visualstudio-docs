@@ -5,7 +5,7 @@ ms.date: 08/23/2023
 ms.topic: ui-reference
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 
 ms.subservice: general-ide
 ---

@@ -7,7 +7,7 @@ ms.date: 12/18/2023
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Tour the Visual Studio IDE

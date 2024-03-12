@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Outlook [Office development in Visual Studio], folders"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Work with folders

@@ -5,7 +5,7 @@ ms.date: 02/13/2024
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: test-tools
 ---
 # Debug and analyze unit tests with Test Explorer

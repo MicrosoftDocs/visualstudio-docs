@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Office applications [Office development in Visual Studio], architecture"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Architecture of Office solutions in Visual Studio

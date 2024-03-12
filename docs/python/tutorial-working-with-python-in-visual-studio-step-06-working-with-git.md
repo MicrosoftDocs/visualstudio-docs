@@ -6,7 +6,7 @@ ms.date: 09/01/2023
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 ---
 

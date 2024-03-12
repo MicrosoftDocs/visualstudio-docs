@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaImageData::get_imageBase method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDiaImageData::get_imageBase

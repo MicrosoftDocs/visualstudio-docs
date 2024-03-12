@@ -6,7 +6,7 @@ ms.date: 02/04/2024
 ms.topic: overview
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 dev_langs:
  - Python

@@ -8,7 +8,7 @@ helpviewer_keywords:
   - run code analysis
 author: mikadumont
 ms.author: midumont
-manager: jmartens
+manager: mijacobs
 ms.subservice: code-analysis
 ---
 # Run code analysis manually for .NET

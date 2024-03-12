@@ -12,7 +12,7 @@ helpviewer_keywords:
 - Security page in Project Designer
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 monikerRange: 'vs-2019'
 ---
 # Security Page, Project Designer

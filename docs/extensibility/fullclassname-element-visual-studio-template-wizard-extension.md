@@ -10,7 +10,7 @@ helpviewer_keywords:
 - FullClassName element [Visual Studio project template]
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ---
 # FullClassName element (Visual Studio template wizard extension)
 

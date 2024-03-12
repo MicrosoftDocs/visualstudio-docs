@@ -5,7 +5,7 @@ ms.date: 05/17/2022
 ms.topic: how-to
 author: jasonchlus
 ms.author: jasonchlus
-manager: jmartens
+manager: mijacobs
 ms.subservice: help-viewer
 ---
 # Search for topics in Help Viewer

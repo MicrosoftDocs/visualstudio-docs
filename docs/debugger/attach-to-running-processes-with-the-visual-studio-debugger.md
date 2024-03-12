@@ -23,7 +23,7 @@ helpviewer_keywords:
   - "debugger, processes"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Attach to running processes with the Visual Studio debugger

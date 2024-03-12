@@ -8,7 +8,7 @@ helpviewer_keywords:
 - custom tools, defining registry settings
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Registering Single File Generators

@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Go To command
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Go To Command

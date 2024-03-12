@@ -5,7 +5,7 @@ ms.date: 03/07/2024
 ms.topic: include
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 
 ms.workload:

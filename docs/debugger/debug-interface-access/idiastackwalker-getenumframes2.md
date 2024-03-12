@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaStackWalker2::getEnumFrames2 method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDiaStackWalker::getEnumFrames2

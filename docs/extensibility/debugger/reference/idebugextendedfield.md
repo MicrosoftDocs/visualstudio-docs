@@ -7,7 +7,7 @@ helpviewer_keywords:
 - IDebugExtendedField interface
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDebugExtendedField

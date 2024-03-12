@@ -9,7 +9,7 @@ helpviewer_keywords:
 - template locations [Visual Studio]
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Locate and organize project and item templates

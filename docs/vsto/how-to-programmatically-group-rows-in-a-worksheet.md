@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "columns [Office development in Visual Studio], ungrouping"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically group rows in a worksheet

@@ -5,7 +5,7 @@ ms.date: 05/24/2023
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 monikerRange: vs-2022
 ---

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - configuration options, about configuration options
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Configuration options overview

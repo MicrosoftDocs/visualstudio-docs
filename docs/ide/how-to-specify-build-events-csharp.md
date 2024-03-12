@@ -12,7 +12,7 @@ helpviewer_keywords:
 - builds [Visual Studio], events
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ---
 # Specify build events (C#)
 

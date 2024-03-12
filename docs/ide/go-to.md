@@ -10,7 +10,7 @@ helpviewer_keywords:
 - go to
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Find code using Go To commands

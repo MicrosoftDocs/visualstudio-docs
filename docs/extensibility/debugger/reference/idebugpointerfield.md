@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugPointerField interface
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDebugPointerField

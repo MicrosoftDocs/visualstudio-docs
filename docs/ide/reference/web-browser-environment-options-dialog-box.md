@@ -18,7 +18,7 @@ helpviewer_keywords:
 - Internet Explorer, setting options
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Options dialog box: Environment \> Web Browser

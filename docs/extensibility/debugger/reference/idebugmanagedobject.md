@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugManagedObject interface
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDebugManagedObject

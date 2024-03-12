@@ -5,7 +5,7 @@ ms.date: 05/15/2018
 ms.topic: reference
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 dev_langs:
 - CSharp

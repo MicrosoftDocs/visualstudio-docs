@@ -10,7 +10,7 @@ helpviewer_keywords:
 - visual studio instance
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 
 ms.subservice: installation
 ---

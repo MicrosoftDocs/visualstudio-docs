@@ -38,7 +38,7 @@ helpviewer_keywords:
 - Code Editor, tabs
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Options, Text Editor, All Languages, Tabs

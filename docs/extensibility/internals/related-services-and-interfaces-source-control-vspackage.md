@@ -9,7 +9,7 @@ helpviewer_keywords:
 - interfaces, source control packages
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Related Services and Interfaces (Source Control VSPackage)

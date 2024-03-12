@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "CV_CPU_TYPE_e enumeration"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # CV_CPU_TYPE_e

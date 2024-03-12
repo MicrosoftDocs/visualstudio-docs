@@ -14,7 +14,7 @@ helpviewer_keywords:
 - <Target> element [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # Target element (MSBuild)

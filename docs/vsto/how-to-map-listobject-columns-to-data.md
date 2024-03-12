@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "ListObject control, mapping data"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Map ListObject columns to data

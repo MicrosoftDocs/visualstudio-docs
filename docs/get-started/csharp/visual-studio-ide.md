@@ -7,7 +7,7 @@ ms.custom: vs-acquisition
 ms.topic: overview
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 dev_langs:
 - CSharp
 ---

@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "globalization [Office development in Visual Studio], configuring"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Globalization and localization of Excel solutions

@@ -8,7 +8,7 @@ ms.topic: conceptual
 description: IntelliCode Visual Studio Code Completions
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ---
 
 # AI assistance when you write code

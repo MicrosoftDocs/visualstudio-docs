@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], dialog box launcher"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Add a Dialog box launcher to a Ribbon group

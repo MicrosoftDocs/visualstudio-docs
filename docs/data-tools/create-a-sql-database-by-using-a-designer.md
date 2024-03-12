@@ -9,7 +9,7 @@ helpviewer_keywords:
 - table designer
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Create a database and add tables in .NET Framework applications using Visual Studio

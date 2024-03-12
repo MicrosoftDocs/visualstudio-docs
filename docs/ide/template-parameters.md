@@ -10,7 +10,7 @@ helpviewer_keywords:
 - item templates, parameters
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Template parameters

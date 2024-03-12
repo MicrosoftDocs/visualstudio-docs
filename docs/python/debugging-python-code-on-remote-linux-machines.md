@@ -5,7 +5,7 @@ ms.date: 03/07/2024
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 
 #customer intent: As a developer, I want to debug Python code on remote Linux computers by using Visual Studio so that I can access configuration and security features.

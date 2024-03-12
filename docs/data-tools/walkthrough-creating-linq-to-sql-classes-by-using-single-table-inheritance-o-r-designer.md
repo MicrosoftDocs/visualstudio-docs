@@ -8,7 +8,7 @@ dev_langs:
 - CSharp
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Walkthrough: Create LINQ to SQL classes by using single-table inheritance (O/R Designer)

@@ -7,7 +7,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], enabling for programs
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Enable a program to be debugged

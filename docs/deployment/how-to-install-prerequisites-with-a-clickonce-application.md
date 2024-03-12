@@ -13,7 +13,7 @@ helpviewer_keywords:
   - components, bootstrapping
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Install prerequisites with a ClickOnce application

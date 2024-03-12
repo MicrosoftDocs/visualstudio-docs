@@ -7,7 +7,7 @@ helpviewer_keywords:
 - text templates, utility methods
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Text Template Utility Methods

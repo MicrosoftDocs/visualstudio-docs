@@ -4,7 +4,7 @@ description: "Describes how to re-map or remove the F1 key mapping"
 ms.date: 08/20/2020
 ms.topic: how-to
 robots: noindex,nofollow
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 author: mikejo5000
 ms.author: mikejo

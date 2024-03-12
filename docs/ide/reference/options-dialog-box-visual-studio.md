@@ -12,7 +12,7 @@ helpviewer_keywords:
 - tools [Visual Studio], customizing
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Options dialog box (Visual Studio)
