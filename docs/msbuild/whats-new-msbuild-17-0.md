@@ -45,6 +45,8 @@ MSBuild (and Visual Studio) now targets .NET Framework 4.7.2 and .NET 6.0. If yo
 
 Binary logs are smaller and have more information.
 
+In MSBuild 17.8 and later, try the new Terminal Logger (`-terminalLogger` or `-tl` option on the command line) for improved console output.
+
 ## Breaking changes
 
 - The method `GetType()` can no longer be called in property functions.
