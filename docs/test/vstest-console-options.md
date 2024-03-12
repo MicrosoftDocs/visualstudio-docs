@@ -41,7 +41,7 @@ The following table lists all the options for *VSTest.Console.exe* and short des
 |**/TestCaseFilter:[*expression*]**|Run tests that match the given expression.<br /><Expression\> is of the format <property\>=<value\>[\|<Expression\>].<br />Example: `/TestCaseFilter:"Priority=1"`<br />Example: `/TestCaseFilter:"TestCategory=Nightly|FullyQualifiedName=Namespace.ClassName.MethodName"`<br />The **/TestCaseFilter** command-line option cannot be used with the **/Tests** command-line option. <br />For information about creating and using expressions, see [TestCase filter](https://github.com/Microsoft/vstest-docs/blob/master/docs/filter.md).|
 |**/?**|Displays usage information.|
 |**/Logger:[*uri/friendlyname*]**|Specify a logger for test results. Specify the parameter multiple times to enable multiple loggers.<br />Example: To log results into a Visual Studio Test Results File (TRX), use<br />**/Logger:trx**<br />**[;LogFileName=\<Defaults to unique file name>]**|
-|**/ListTests:[*file name*]**|Lists discovered tests from the given test container.|
+|**/ListTests:[*file name*]**|Lists discovered tests from the given test container.<br />Note: The `/TestCaseFilters` option has no effect when listing tests; it only controls which tests get run.|
 |**/ListDiscoverers**|Lists installed test discoverers.|
 |**/ListExecutors**|Lists installed test executors.|
 |**/ListLoggers**|Lists installed test loggers.|
