@@ -55,6 +55,7 @@ Inline view shows the differences in a single window, as shown in the following 
 The **Summary** option is a toggle that you control by pressing the button. The other options are available when you click on the settings icon.
 
 | Option | Keyboard shortcut | Description |
+| - | - | - |
 | **Summary** | **Ctrl**+**\\**, **Ctrl**+**5** | If enabled, only the parts of the two files that differ appear in the view. If not enabled, the entire file is shown. |
 | **Inline mode** | **Ctrl**+**\\**, **Ctrl**+**1** | Show diffs in a single file view. |
 | **Side by side mode** | **Ctrl**+**\\**, **Ctrl**+**2** | Show the two files separately. |
