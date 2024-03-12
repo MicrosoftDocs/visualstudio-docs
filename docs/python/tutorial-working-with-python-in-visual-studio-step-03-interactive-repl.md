@@ -1,8 +1,8 @@
 ---
-title: Python in Visual Studio tutorial step 3, interactive REPL
+title: Python in Visual Studio tutorial Step 3, interactive REPL
 titleSuffix: ""
 description: Step 3 of a core walkthrough of Python capabilities in Visual Studio that demonstrates how to work with the Python Interactive REPL window.
-ms.date: 03/05/2024
+ms.date: 03/12/2024
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
@@ -14,9 +14,9 @@ ms.subservice: python
 
 # Tutorial: Use the Interactive REPL window in Visual Studio
 
-This article presents step 3 in the tutorial series _Work with Python in Visual Studio_.
+This article presents Step 3 in the tutorial series _Work with Python in Visual Studio_.
 
-The Visual Studio interactive development environment (IDE) provides various windows that support different development tasks. Step 1 and Step 2 in the tutorial describe how to manage files in **Solution Explorer** and work with file content in the code editor. In Step 3, you use the Visual Studio **Interactive Window** for Python for a rich read-evaluate-print-loop (REPL) experience that greatly shortens the usual edit-build-debug cycle. By working in the **Interactive Window** for Python, you gain all the capabilities of the REPL experience of the Python command line. It also makes it easy to exchange code with source files in the Visual Studio editor, which is otherwise cumbersome with the command line.
+The Visual Studio interactive development environment (IDE) provides various windows that support different development tasks. [Step 1](tutorial-working-with-python-in-visual-studio-step-01-create-project.md) and [Step 2](tutorial-working-with-python-in-visual-studio-step-02-writing-code.md) in the tutorial describe how to manage files in **Solution Explorer** and work with file content in the code editor. In Step 3, you use the Visual Studio **Interactive Window** for Python for a rich read-evaluate-print-loop (REPL) experience that greatly shortens the usual edit-build-debug cycle. By working in the **Interactive Window** for Python, you gain all the capabilities of the REPL experience of the Python command line. It also makes it easy to exchange code with source files in the Visual Studio editor, which is otherwise cumbersome with the command line.
 
 In Step 3 of the tutorial, you learn how to:
 

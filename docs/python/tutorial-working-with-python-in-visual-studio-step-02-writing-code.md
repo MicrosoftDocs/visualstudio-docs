@@ -1,8 +1,8 @@
 ---
-title: Python in Visual Studio tutorial step 2, write and run code
+title: Python in Visual Studio tutorial Step 2, write and run code
 titleSuffix: ""
 description: Step 2 of a core walkthrough of Python capabilities in Visual Studio that demonstrates how to edit code and run a project.
-ms.date: 03/04/2024
+ms.date: 03/12/2024
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
@@ -14,9 +14,9 @@ ms.subservice: python
 
 # Tutorial: Write and run Python code in Visual Studio
 
-This article presents step 2 in the tutorial series _Work with Python in Visual Studio_.
+This article presents Step 2 in the tutorial series _Work with Python in Visual Studio_.
 
-The Visual Studio interactive development environment (IDE) provides various windows that support different development tasks. Step 1 in the tutorial describes how to manage project files in the **Solution Explorer** window. In step 2, you use the _editor_ window to work with the _contents_ of files, like source code. The editor is contextually aware of the type of file you're editing. The editor also recognizes the programming language (based on the file extension), and offers features appropriate to that language such as syntax coloring and auto-completion by using IntelliSense.
+The Visual Studio interactive development environment (IDE) provides various windows that support different development tasks. [Step 1 in the tutorial](tutorial-working-with-python-in-visual-studio-step-01-create-project.md) describes how to manage project files in the **Solution Explorer** window. In Step 2, you use the _editor_ window to work with the _contents_ of files, like source code. The editor is contextually aware of the type of file you're editing. The editor also recognizes the programming language (based on the file extension), and offers features appropriate to that language such as syntax coloring and auto-completion by using IntelliSense.
 
 In Step 2 of the tutorial, you learn how to:
 
@@ -27,7 +27,7 @@ In Step 2 of the tutorial, you learn how to:
 
 ## Prerequisites
 
-- A Python application project with an empty Python file. If you don't have an empty Python file, follow the instructions in [Step 1: Create a new Python project](tutorial-working-with-python-in-visual-studio-step-01-create-project.md).
+- A Python application project with an empty Python file (_.py_) created in [Step 1: Create a new Python project](tutorial-working-with-python-in-visual-studio-step-01-create-project.md).
 
 ## Write code in Visual Studio
 

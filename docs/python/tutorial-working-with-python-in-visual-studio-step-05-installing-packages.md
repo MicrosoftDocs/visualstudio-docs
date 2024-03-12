@@ -1,8 +1,8 @@
 ---
-title: Python in Visual Studio tutorial step 5, install packages
+title: Python in Visual Studio tutorial Step 5, install packages
 titleSuffix: ""
 description: Step 5 of a core walkthrough of Python capabilities in Visual Studio that shows Visual Studio features to manage and install packages in a Python environment.
-ms.date: 03/07/2024
+ms.date: 03/12/2024
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
@@ -14,7 +14,7 @@ ms.subservice: python
 
 # Tutorial: Install packages in your Python environment in Visual Studio
 
-This article presents step 5 in the tutorial series _Work with Python in Visual Studio_.
+This article presents Step 5 in the tutorial series _Work with Python in Visual Studio_.
 
 All code in a Python project runs within the context of a specific environment. Examples of environments include a global environment, a virtual environment, a conda environment, and so on. The environment is used for any tasks that require language services that are specific to the Python version and a set of installed packages. Each environment requires certain installed packages based on the project code.
 

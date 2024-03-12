@@ -1,8 +1,8 @@
 ---
-title: Python in Visual Studio tutorial step 4, debugging
+title: Python in Visual Studio tutorial Step 4, debugging
 titleSuffix: ""
 description: Step 4 of a core walkthrough of Python capabilities in Visual Studio that demonstrates how to run Python code in the debugger.
-ms.date: 03/06/2024
+ms.date: 03/12/2024
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
@@ -14,7 +14,7 @@ ms.subservice: python
 
 # Tutorial: Run code in the Debugger in Visual Studio
 
-This article presents step 4 in the tutorial series _Work with Python in Visual Studio_.
+This article presents Step 4 in the tutorial series _Work with Python in Visual Studio_.
 
 Visual Studio provides capabilities to manage projects, a rich editing experience, the **Interactive Window**, and full-featured debugging for Python code. In Step 4 of this tutorial series, you use the **Debugger** to run your code step by step, including every iteration of a loop. In the **Debugger**, you can pause your program whenever certain conditions are true. At any point when the program is paused, you can examine the entire program state and change the value of variables. Such actions are essential for tracking down program bugs, and also provide helpful aids for following the exact program flow.
 
@@ -28,13 +28,13 @@ In Step 4 of the tutorial, you learn how to:
 
 ## Prerequisites
 
-- A Python application project that has a Python file (_.py_) with code created in [Step 2: Write and run Python code](tutorial-working-with-python-in-visual-studio-step-02-writing-code.md).
+- A Python application project that has a Python file (_.py_) with code created in [Step 2: Write and run Python code](tutorial-working-with-python-in-visual-studio-step-02-writing-code.md) and [Step 3: Use the Interactive REPL window](./tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md) of this tutorial.
 
 ## Prepare the Python file
 
 To prepare for the debugging exercise, follow these steps to update your Python project file to include more robust code:
 
-1. Open your Python project file (_.py_) in the editor. (Tutorial Step 2 explains how to create this file, where the default file name is _PythonApplication1.py_.)
+1. Open your Python project file (_.py_) in the editor.
 
 1. Replace the code in the file with the following code. This version of the code expands the `make_dot_string` function so you can examine its discrete steps in the debugger. It moves the `for` loop into a `main` function and runs it explicitly by calling the `main` function:
 
