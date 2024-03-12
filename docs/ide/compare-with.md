@@ -24,7 +24,7 @@ The file you right-clicked on appears on the right and is editable. The other fi
 
 If you select two files (use Ctrl-click to select), you can right-click and choose **Compare Selected** to open the diff view with just those two files.
 
-![Screenshot of Compare Selected context menu item.](./media/vs-2022/compare-selected.md.png)
+![Screenshot of Compare Selected context menu item.](./media/vs-2022/compare-selected.png)
 
 ## Compare two files (command-line)
 
