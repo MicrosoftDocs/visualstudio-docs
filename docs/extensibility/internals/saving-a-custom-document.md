@@ -9,7 +9,7 @@ helpviewer_keywords:
 - editors [Visual Studio SDK], saving custom documents
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Saving a Custom Document

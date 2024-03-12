@@ -9,7 +9,7 @@ helpviewer_keywords:
 - SccGetParentProjectPath function
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # SccGetParentProjectPath function

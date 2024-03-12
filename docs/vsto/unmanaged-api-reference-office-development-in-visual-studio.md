@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Office development in Visual Studio, unmanaged API reference"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Unmanaged API reference (Office development in Visual Studio)

@@ -4,7 +4,7 @@ description: Create and run tests with CTest for C++, which is integrated into V
 ms.date: 01/23/2020
 ms.topic: how-to
 ms.author: twhitney
-manager: jmartens
+manager: mijacobs
 ms.subservice: test-tools
 author: tylermsft
 ---

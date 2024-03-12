@@ -5,7 +5,7 @@ ms.date: 09/19/2018
 ms.topic: tutorial
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Inspect previous app states using IntelliTrace step-back in Visual Studio (Visual Studio Enterprise)

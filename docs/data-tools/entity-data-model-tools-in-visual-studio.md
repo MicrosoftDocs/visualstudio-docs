@@ -5,7 +5,7 @@ ms.date: 11/01/2023
 ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Entity Framework Tools in Visual Studio

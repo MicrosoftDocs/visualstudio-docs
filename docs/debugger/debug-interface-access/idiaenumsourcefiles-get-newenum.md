@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaEnumSourceFiles::get__NewEnum method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDiaEnumSourceFiles::get__NewEnum

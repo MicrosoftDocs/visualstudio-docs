@@ -9,7 +9,7 @@ helpviewer_keywords:
 - /RunExit Devenv switch
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # /RunExit (devenv.exe)

@@ -5,7 +5,7 @@ ms.date: 10/05/2018
 ms.topic: overview
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Visual Studio User Experience Guidelines

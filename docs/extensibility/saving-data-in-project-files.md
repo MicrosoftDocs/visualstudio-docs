@@ -9,7 +9,7 @@ helpviewer_keywords:
 - project files, saving data
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Save data in project files

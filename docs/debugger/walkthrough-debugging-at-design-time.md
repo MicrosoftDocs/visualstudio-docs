@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "design-time debugging"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Debug at design time in Visual Studio (C#, C++/CLI, Visual Basic, F#)

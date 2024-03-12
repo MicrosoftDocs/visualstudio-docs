@@ -11,6 +11,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: ghogen
+monikerRange: 'vs-2019'
 ---
 # Advanced Compiler Settings Dialog Box (Visual Basic)
 

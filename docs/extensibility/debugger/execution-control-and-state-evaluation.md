@@ -8,7 +8,7 @@ helpviewer_keywords:
 - expression evaluation, control of execution
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Execution control and state evaluation

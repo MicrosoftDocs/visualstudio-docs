@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "RibbonManager class"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Access the Ribbon at run time

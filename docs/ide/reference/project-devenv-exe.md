@@ -13,7 +13,7 @@ helpviewer_keywords:
 - projects [Visual Studio], cleaning
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # /Project (devenv.exe)

@@ -13,7 +13,7 @@ helpviewer_keywords:
 - data binding, WPF
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Display related data in .NET Framework WPF applications

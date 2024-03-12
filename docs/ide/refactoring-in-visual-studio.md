@@ -10,7 +10,7 @@ f1_keywords:
 ms.devlang: csharp
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Refactor code

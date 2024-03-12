@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaSegment::get_frame method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDiaSegment::get_frame

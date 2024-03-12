@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Office documents [Office development in Visual Studio, data sources"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Update a data source with data from a host control

@@ -10,7 +10,7 @@ f1_keywords:
 - command prompt
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 
 ms.subservice: installation
 ---

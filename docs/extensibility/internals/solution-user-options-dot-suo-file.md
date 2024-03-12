@@ -11,7 +11,7 @@ helpviewer_keywords:
 - solution user options (.suo) file
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Solution User Options (.suo) File

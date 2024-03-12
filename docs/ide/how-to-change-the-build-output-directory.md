@@ -8,7 +8,7 @@ helpviewer_keywords:
 - output directory, changing
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ---
 # Change the build output directory
 

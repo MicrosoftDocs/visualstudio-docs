@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "Choose Breakpoints dialog box"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Choose Breakpoints Dialog Box

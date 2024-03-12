@@ -5,7 +5,7 @@ ms.date: 06/04/2023
 ms.topic: how-to
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: ui-designers
 ---
 # Create Shaders with Shader Designer in Visual Studio

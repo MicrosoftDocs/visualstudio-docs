@@ -2,25 +2,26 @@
 title: Connect to Azure services, gRPC, OpenAPI, and more
 description: Connect your application to Azure services, OpenAPI and other endpoints, databases, and data providers with Connected Services in Visual Studio on Windows.
 author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: azure-development
 ms.topic: overview
 ms.date: 08/01/2022
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
+
 # Connect to Azure services, gRPC, OpenAPI, and more
 
-Developers are building apps with an increasing number of services, yet the service technologies are evolving just as fast.  
+Developers are building apps with an increasing number of services, yet the service technologies are evolving just as fast.
 
-With Visual Studio's **Connected Services**, you get a modern service consumption experience that enables each service the ability to tailor their consumption experience, prompting you for the relevant questions you need to get started quickly.  
+With Visual Studio's **Connected Services**, you get a modern service consumption experience that enables each service the ability to tailor their consumption experience, prompting you for the relevant questions you need to get started quickly.
 
 Connected Services includes a collection of tools in Visual Studio that help you connect your application to the following:
-* [Azure services](#azure)
-* OpenAPI endpoints
-* gRPC (Remote Procedure Call) endpoints
-* Windows Communication Foundation (WCF) endpoints
-* Databases and data providers
+- [Azure services](#azure)
+- OpenAPI endpoints
+- gRPC (Remote Procedure Call) endpoints
+- Windows Communication Foundation (WCF) endpoints
+- Databases and data providers
 
 :::moniker range="vs-2019"
 Get started by right-clicking on the **Connected Services** node in **Solution Explorer** and select **Manage Connected Services**.
@@ -49,9 +50,9 @@ Use Connected Services to connect your application to live Azure services emulat
 | [Azure Storage](/azure/storage) | Scalable cloud storage with support for blobs, tables, queues, disks. |
 | [Azure SignalR Service](/azure/azure-signalr/signalr-overview) | Real-time web functionality over HTTP. |
 | [Azure Key Vault](/azure/key-vault/general/overview) | Secure cloud storage for cryptographic keys and other secrets used by your Azure applications. |
-| [Azure SQL Database](/azure/azure-sql) | Cloud-hosted SQL database. |
+| [Azure SQL Database](/azure/azure-sql) | Cloud-hosted SQL Database. |
 | [Azure Cache for Redis](/azure/azure-cache-for-redis/cache-overview)| In-memory data store based on the Redis software. |
-| [Azure Cosmos DB](/azure/cosmos-db/introduction) | A fully managed NoSQL database for modern app development.| 
+| [Azure Cosmos DB](/azure/cosmos-db/introduction) | A fully managed NoSQL database for modern app development.|
 | [Microsoft Identity Platform](/azure/active-directory/develop/v2-overview) | Authentication with Microsoft identities and social accounts. |
 
 > [!NOTE]
@@ -66,7 +67,7 @@ Visual Studio provides options to connect to on-premises databases, locally emul
 | [Azure Cosmos DB Emulator on container](/azure/cosmos-db/introduction) | Azure Cosmos DB emulator running in a local container. |
 | [MongoDB on container](/azure/cosmos-db/introduction) | MongoDB document databases provides high reliability and easy scalability. This option makes it available in a local container. |
 | [PostgreSQL on container](/azure/postgresql/overview) | PostgreSQL is an object-relational database system that provides reliability and data integrity. This option makes it available in a local container. |
-| [SQLite](/ef/core/providers/sqlite/?tabs=dotnet-core-cli) | SQLite is an in-process library that provides a self-contained, transactional SQL database engine with no configuration. |
+| [SQLite](/ef/core/providers/sqlite/?tabs=dotnet-core-cli) | SQLite is an in-process library that provides a self-contained, transactional SQL Server Database Engine with no configuration. |
 | [SQL Server Database](/sql/sql-server/) | On-premises SQL Server Database. |
 
 ## Support for Azure emulators and local alternatives
@@ -80,8 +81,8 @@ Visual Studio generates any necessary client or server code to facilitate the co
 | [Azure Cosmos DB Emulator on container](/azure/cosmos-db/introduction) | Azure Cosmos DB emulator running in a local container. |
 | [Azure Storage Emulator](/azure/storage/common/storage-use-azurite?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&tabs=visual-studio) | Azurite is an Azure Storage emulator that runs on your local machine. |
 | [Application Insights SDK](/azure/azure-monitor/app/app-insights-overview) | Local mode for the Application Insights service.  |
-| [RabbitMQ on container](/azure/azure-functions/functions-bindings-rabbitmq) | RabbitMQ is an open-source multi-protocol message broker. This option makes it available in a local container. |
-| [Redis Cache on container](/azure/azure-cache-for-redis/cache-overview) | Redis cache hosted in a local container. |
+| [RabbitMQ on container](/azure/azure-functions/functions-bindings-rabbitmq) | RabbitMQ is an open-source multiprotocol message broker. This option makes it available in a local container. |
+| [Azure Cache for Redis on container](/azure/azure-cache-for-redis/cache-overview) | Azure Cache for Redis hosted in a local container. |
 | [Secrets.json](/aspnet/core/security/app-secrets?tabs=windows) | Local alternative for Key Vault. |
 | [SQL Server Express LocalDB](/sql/database-engine/configure-windows/sql-server-express-localdb) | Local alternative to Azure SQL Database. |
 
@@ -93,7 +94,7 @@ Use Connected Services to connect your application to any of the following servi
 |-|-|-|
 | [OpenAPI](https://github.com/OAI/OpenAPI-Specification) endpoints | [Develop ASP.NET Core apps with OpenAPI](/aspnet/core/web-api/Microsoft.dotnet-openapi) | A standard format for describing the capabilities of a service in computer-readable and human-readable form. |
 | [gRPC](https://grpc.io/docs/) endpoints | [Introduction to gRPC services on .NET](/aspnet/core/grpc/) | An open-source real-time procedure calling service. |
-| [WCF](/dotnet/framework/wcf/) endpoints | n/a | A .NET Framework solution supporting programming with a distributed network of services. |
+| [WCF](/dotnet/framework/wcf/) endpoints | N/A | A .NET Framework solution supporting programming with a distributed network of services. |
 
 ## Containers
 

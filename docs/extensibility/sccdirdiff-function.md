@@ -9,7 +9,7 @@ helpviewer_keywords:
 - SccDirDiff function
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # SccDirDiff function

@@ -1,7 +1,7 @@
 ---
 title: "View threads in the Parallel Stacks window"
 description: Use Parallel Stacks to help debug multithreaded applications. You can view stack information for all threads, and task-centered call stack information.
-ms.date: "11/20/2018"
+ms.date: "03/05/2024"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.parallelstacks"
@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "debugger, parallel tasks window"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # View threads and tasks in the Parallel Stacks window (C#, Visual Basic, C++)
@@ -54,6 +54,7 @@ The **Parallel Stacks** window has the following toolbar controls:
 |Icon|Control|Description|
 |-|-|-|
 |![Threads/Tasks combo box](media/vs-2022/parallel-stacks-toolbar-threads.png "Threads/Tasks combo box")|**Threads**/**Tasks** combo box|Switches the view between call stacks of threads and call stacks of tasks. For more information, see [Tasks view](#tasks-view) and [Threads view](#threads-view).|
+|![Filter icon](media/vs-2022/parallel-stacks-toolbar-filter.png "Filter icon")|**Filter** Control|Shows call stacks only for the specific set of threads that you're interested in.|
 |![Show Only Flagged icon](media/vs-2022/parallel-stacks-toolbar-flag.png "Show Only Flagged icon")|Show Only Flagged|Shows call stacks only for the threads that are flagged in other debugger windows, such as the **GPU Threads** window and the **Parallel Watch** window.|
 |![Toggle Method View icon](media/vs-2022/parallel-stacks-toolbar-method-toggle.png  "Toggle Method View icon")|Toggle **Method View**|Switches between call stack views and **Method View**. For more information, see [Method View](#method-view).|
 |![Auto Scroll to Current icon](media/vs-2022/parallel-stacks-toolbar-autoscroll.png   "Auto Scroll to Current icon")|Auto Scroll To Current Stack Frame|Autoscrolls the graph so that the current stack frame is in view. This feature is useful when you change the current stack frame from other windows, or when you hit a new breakpoint in large graphs.|

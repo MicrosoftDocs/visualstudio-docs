@@ -5,7 +5,7 @@ description: "Use Visual Studio workload and component IDs to run automated test
 keywords:
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.date: 08/10/2021
 
 ms.subservice: installation

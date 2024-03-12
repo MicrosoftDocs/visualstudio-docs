@@ -6,7 +6,7 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: maddymontaquila
 ms.author: maleger
-manager: jmartens
+manager: mijacobs
 ms.subservice: xaml-tools
 ---
 # Modify the style of objects in Blend for Visual Studio

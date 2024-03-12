@@ -6,7 +6,7 @@ ms.date: 11/23/2023
 ms.topic: how-to
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Sign in or switch Visual Studio user accounts 

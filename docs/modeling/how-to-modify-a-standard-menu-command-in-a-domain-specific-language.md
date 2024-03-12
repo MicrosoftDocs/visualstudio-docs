@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, adding custom commands"
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Modify a Standard Menu Command in a Domain-Specific Language

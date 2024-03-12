@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "Custom tab [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Walkthrough: Create a custom tab by using the Ribbon Designer

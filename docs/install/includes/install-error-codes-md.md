@@ -1,7 +1,7 @@
 ---
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.date: 05/28/2021
 
 ms.subservice: installation

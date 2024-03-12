@@ -20,7 +20,7 @@ helpviewer_keywords:
   - buffers, viewing
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Use the Memory windows in the Visual Studio debugger (C#, C++, Visual Basic, F#)

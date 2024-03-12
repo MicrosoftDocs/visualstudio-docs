@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Office project types in Visual Studio"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Design and create Office solutions

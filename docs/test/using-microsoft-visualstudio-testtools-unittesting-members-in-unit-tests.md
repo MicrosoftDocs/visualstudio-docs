@@ -4,7 +4,7 @@ description: Learn about the MSTest framework, which supports unit testing in Vi
 ms.date: 10/17/2022
 ms.topic: reference
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: test-tools
 author: mikejo5000
 ---

@@ -11,7 +11,7 @@ helpviewer_keywords:
 - HTML tab in Toolbox
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Toolbox, HTML tab

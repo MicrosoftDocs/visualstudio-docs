@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Office solutions [Office development in Visual Studio], developing"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Develop Office solutions

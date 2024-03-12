@@ -25,7 +25,7 @@ helpviewer_keywords:
   - Call Stack window, viewing disassembly code for functions on the call stack
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # View the call stack and use the Call Stack window in the debugger
@@ -130,6 +130,12 @@ In the **Call Stack** window, right-click the function whose disassembly code yo
 ## Change the optional information displayed
 
 Right-click in the **Call Stack** window and set or clear **Show \<**_the information that you want_**>**.
+
+::: moniker range=">=vs-2022"
+## Autodecompile .NET external code
+
+Starting in Visual Studio 2022 version 17.7, you can autodecompile .NET code by double-clicking external code in the Call Stack window. For more information, see [Generate source code from .NET assemblies while debugging](../debugger/decompilation.md).
+::: moniker-end
 
 ## <a name="bkmk_symbols"></a> Load symbols for a module (C#, C++, Visual Basic, F#)
 

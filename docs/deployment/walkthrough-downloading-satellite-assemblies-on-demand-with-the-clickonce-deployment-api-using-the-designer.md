@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "walkthroughs, localization"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Walkthrough: Download satellite assemblies on demand with the ClickOnce deployment API using the Designer

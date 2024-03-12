@@ -5,11 +5,10 @@ ms.date: 10/17/2023
 ms.topic: overview
 description: Explore the processes for using Bridge to Kubernetes to connect your development computer to your Kubernetes cluster, including diagnostics and logging.
 keywords: "Bridge to Kubernetes, Docker, Kubernetes, Azure, containers"
-manager: jmartens
+manager: mijacobs
 author: ghogen
 ms.author: ghogen
 ---
-
 # How Bridge to Kubernetes works
 
 *Bridge to Kubernetes* is an iterative development tool for authoring microservice applications that target Kubernetes. The Bridge to Kubernetes extension is available for Visual Studio and Visual Studio Code (VS Code).

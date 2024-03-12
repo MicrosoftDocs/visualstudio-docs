@@ -2,10 +2,10 @@
 title: Managing Azure resources with Cloud Explorer
 description: Find and manage resources and resource groups associated with your Azure accounts by using Visual Studio Cloud Explorer.
 author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: azure-development
 ms.topic: conceptual
-ms.date: 01/22/2022
+ms.date: 03/06/2024
 ms.author: ghogen
 monikerRange: "<=vs-2019"
 ---
@@ -31,7 +31,7 @@ Like the [Azure portal](https://portal.azure.com), Cloud Explorer is built on th
 
 ## Prerequisites
 
-* Visual Studio 2017 or later (see [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)) with the **Azure workload** selected. You can also use an earlier version of Visual Studio with the Microsoft Azure SDK for .NET 2.9.
+* Visual Studio (see [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)) with the **Azure workload** selected.
 * [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 > [!NOTE]

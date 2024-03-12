@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Include attribute [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # Select the files to build

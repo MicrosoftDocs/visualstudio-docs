@@ -8,7 +8,7 @@ helpviewer_keywords:
 - getting started, source control plug-ins
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Get started with source control plug-ins

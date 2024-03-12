@@ -8,7 +8,7 @@ helpviewer_keywords:
  - "solution filtering"
 author: TerryGLee
 ms.author: stsu
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 monikerRange: ">= vs-2019"
 ---

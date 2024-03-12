@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Visual Studio, line break characters
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Encodings and line endings

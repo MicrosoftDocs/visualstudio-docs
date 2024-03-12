@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "NamedRange control"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # NamedRange control

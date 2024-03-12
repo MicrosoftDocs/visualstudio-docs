@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IEnumDebugFields interface
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IEnumDebugFields

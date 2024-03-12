@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], document common tasks"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Work with documents

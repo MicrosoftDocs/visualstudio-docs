@@ -2,10 +2,10 @@
 title: Publishing a Cloud Service using the Azure Tools
 description: Learn about how to publish Azure cloud service projects by using Visual Studio.
 author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: azure-development
 ms.topic: conceptual
-ms.date: 11/11/2017
+ms.date: 03/06/2024
 ms.author: ghogen
 ---
 # Publishing a cloud service using Visual Studio
@@ -14,12 +14,15 @@ ms.author: ghogen
 
 Visual Studio can publish an application directly to Azure, with support for both Staging and Production environments of a cloud service. When publishing, you select the deployment environment and a storage account that's used temporarily for the deployment package.
 
+:::moniker range="<=vs-2019"
 When you're developing and testing an Azure application, you can use Web Deploy to publish changes incrementally for your web roles. After you publish your application to a deployment environment, Web Deploy lets you deploy changes directly to the virtual machine that is running the web role. You do not have to package and publish your entire Azure application each time you want to update your web role to test out the changes. With this approach, you can have your web role changes available in the cloud for testing without waiting to have your application published to a deployment environment.
 
 Use the following procedures to publish your Azure application and to update a web role by using Web Deploy:
 
 - Publish or Package an Azure application from Visual Studio
 - Update a web role as part of the development and testing cycle
+
+:::moniker-end
 
 ## Prerequisites
 
@@ -55,9 +58,7 @@ When you publish your Azure application, you can do one of the following tasks:
 
 1. (Optional) To cancel the deployment process, on the shortcut menu for the line item in the activity log, choose **Cancel and remove**. This command stops the deployment process and deletes the deployment environment from Azure. To remove the environment after deployment, use the Azure portal.
 
-1. (Optional) After your role instances have started, Visual Studio automatically shows the deployment environment in the **Cloud Services** node in Server Explorer. From here, you can see the status of the individual role instances. See [Managing Azure resources with Cloud Explorer](vs-azure-tools-resources-managing-with-cloud-explorer.md).The following illustration shows the role instances while they are still in the Initializing state:
-
-    ![VST_DeployComputeNode](./media/vs-azure-tools-publishing-a-cloud-service/IC744134.png)
+:::moniker range="<=vs-2019"
 
 ## Update a web role as part of the development and testing cycle
 
@@ -122,6 +123,8 @@ The following procedure assumes that you are using the **Publish Azure Applicati
 
       > [!NOTE]
       > If you add a trusted SSL certificate, the yellow warning triangle no longer appears in the **Publish Wizard**.
+
+:::moniker-end
 
 ## Include files in the service package
 

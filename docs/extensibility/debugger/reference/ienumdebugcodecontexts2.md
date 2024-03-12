@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IEnumDebugCodeContexts2
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IEnumDebugCodeContexts2

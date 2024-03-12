@@ -10,7 +10,7 @@ helpviewer_keywords:
 - file encoding, bidirectional languages
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Save and open files with encoding

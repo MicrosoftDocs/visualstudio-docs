@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: overview
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # Use the MSBuild API

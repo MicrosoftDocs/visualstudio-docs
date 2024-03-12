@@ -15,7 +15,7 @@ helpviewer_keywords:
 - concurrency control, walkthroughs
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Handle a concurrency exception in .NET Framework database applications

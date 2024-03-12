@@ -5,7 +5,7 @@ ms.date: 01/25/2024
 ms.topic: conceptual
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 
 # CustomerIntent: As a developer, I want to manage Python projects in Visual Studio so I can configure dependencies between files and relationships in my application.

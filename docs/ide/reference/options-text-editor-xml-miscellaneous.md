@@ -7,7 +7,7 @@ f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.XML.Miscellaneous
 author: maddymontaquila
 ms.author: maleger
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Options, Text Editor, XML, Miscellaneous

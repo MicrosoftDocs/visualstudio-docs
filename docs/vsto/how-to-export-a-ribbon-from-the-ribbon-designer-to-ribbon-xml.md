@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "exporting Ribbon"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Export a ribbon from the Ribbon Designer to Ribbon XML

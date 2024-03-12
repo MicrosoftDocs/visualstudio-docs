@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaSectionContrib::get_read method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDiaSectionContrib::get_read

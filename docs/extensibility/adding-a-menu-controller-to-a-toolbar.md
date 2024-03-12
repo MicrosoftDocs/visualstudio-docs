@@ -9,7 +9,7 @@ helpviewer_keywords:
 - menu controllers, adding to toolbars
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Add a menu controller to a toolbar

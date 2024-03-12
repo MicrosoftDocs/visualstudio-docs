@@ -5,7 +5,7 @@ ms.date: 01/19/2022
 ms.topic: conceptual
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 ---
 # Django web project template

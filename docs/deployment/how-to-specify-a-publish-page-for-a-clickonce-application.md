@@ -14,7 +14,7 @@ helpviewer_keywords:
   - ClickOnce deployment, specifying publish page
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Specify a publish page for a ClickOnce application

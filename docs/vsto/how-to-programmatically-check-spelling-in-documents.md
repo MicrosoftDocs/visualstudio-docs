@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "spelling checker, documents"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically check spelling in documents

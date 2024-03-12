@@ -9,7 +9,7 @@ helpviewer_keywords:
 - SccGetUserOption function
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # SccGetUserOption Function

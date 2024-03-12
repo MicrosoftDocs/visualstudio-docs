@@ -6,7 +6,7 @@ ms.date: 6/30/2023
 ms.author: maiak
 monikerRange: ">=vs-2022"
 author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 

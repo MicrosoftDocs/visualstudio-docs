@@ -2,7 +2,7 @@
 ms.topic: quickstart
 ms.author: ghogen
 author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: bridge
 title: Sample app for Bridge to Kubernetes to run locally
 ms.date: 08/11/2022

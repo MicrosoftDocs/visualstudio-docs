@@ -5,7 +5,7 @@ ms.date: 1/11/2024
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
-ms.manager: jmartens
+ms.manager: mijacobs
 ms.subservice: ai-tools
 monikerRange: vs-2022
 ---

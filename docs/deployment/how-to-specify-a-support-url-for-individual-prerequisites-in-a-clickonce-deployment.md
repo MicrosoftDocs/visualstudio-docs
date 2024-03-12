@@ -12,7 +12,7 @@ helpviewer_keywords:
   - ClickOnce deployment, URLs
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Specify a support URL for individual prerequisites in a ClickOnce deployment

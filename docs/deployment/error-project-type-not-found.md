@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "application not found"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Error: The application which this project type is based on was not found (Windows Installer or ClickOnce)

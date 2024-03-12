@@ -8,7 +8,7 @@ helpviewer_keywords:
 - breakpoints, hitting
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Hit a breakpoint

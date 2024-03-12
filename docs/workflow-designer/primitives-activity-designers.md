@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: reference
 author: jodavis
 ms.author: jodavis
-manager: jmartens
+manager: mijacobs
 ms.subservice: workflow-designer
 ---
 # Primitives Activity Designers

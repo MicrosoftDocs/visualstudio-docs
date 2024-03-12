@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Data symbol"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Data (Debug Interface Access SDK)

@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "<PackageFiles> element [bootstrapper]"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # &lt;PackageFiles&gt; element (bootstrapper)

@@ -7,7 +7,7 @@ helpviewer_keywords:
 - RegPkg
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Troubleshooting RegPkg Package Registration

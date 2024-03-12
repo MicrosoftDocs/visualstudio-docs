@@ -10,7 +10,7 @@ helpviewer_keywords:
 - command line, switches
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Add command-line switches

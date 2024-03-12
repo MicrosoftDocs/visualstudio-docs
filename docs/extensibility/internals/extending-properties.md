@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Properties window, providing support
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Extend properties

@@ -11,7 +11,7 @@ helpviewer_keywords:
 - MSBuild, reference
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # MSBuild reference

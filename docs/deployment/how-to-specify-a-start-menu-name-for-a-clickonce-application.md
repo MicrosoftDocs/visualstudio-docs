@@ -13,7 +13,7 @@ helpviewer_keywords:
   - ClickOnce deployment, Start menu name
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Specify a Start menu name for a ClickOnce application

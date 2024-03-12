@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugBinder interface
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDebugBinder

@@ -26,7 +26,7 @@ helpviewer_keywords:
 - debugging [Visual Studio], visualizing the call stack
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Map methods on the call stack while debugging in Visual Studio

@@ -11,7 +11,7 @@ helpviewer_keywords:
 - guid
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # GUIDs and IDs of Visual Studio commands

@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "e-mail [Office development in Visual Studio], sending"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically send email

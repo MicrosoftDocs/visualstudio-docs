@@ -7,7 +7,7 @@ helpviewer_keywords:
 - text templates, generating templates from templates
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Generate Templates from Templates By Using Escape Sequences

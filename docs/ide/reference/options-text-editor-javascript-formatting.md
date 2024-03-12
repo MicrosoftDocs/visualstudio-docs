@@ -13,7 +13,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Formatting.New_Lines"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ---
 # Options dialog box: Text Editor \> JavaScript \> Formatting
 

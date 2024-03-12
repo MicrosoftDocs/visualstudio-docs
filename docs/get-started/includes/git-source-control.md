@@ -4,7 +4,7 @@ ms.subservice: general-ide
 ms.custom: vs-get-started, devdivchpfy22
 ms.author: ghogen
 author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.topic: include
 ---
 

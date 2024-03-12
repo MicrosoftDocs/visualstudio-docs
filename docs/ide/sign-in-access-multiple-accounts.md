@@ -5,7 +5,7 @@ ms.date: 11/01/2023
 ms.topic: how-to
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Access multiple accounts associated with the Visual Studio sign-in account

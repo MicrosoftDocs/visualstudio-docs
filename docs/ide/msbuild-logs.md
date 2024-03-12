@@ -8,7 +8,7 @@ helpviewer_keywords:
   - MSBuild logs"
 author: tylermsft
 ms.author: twhitney
-manager: jmartens
+manager: mijacobs
 dev_langs:
  - CSharp
  - VB

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Call Browser tool
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Identify symbols in a library

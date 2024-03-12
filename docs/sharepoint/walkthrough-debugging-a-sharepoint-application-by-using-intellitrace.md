@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "IntelliTrace"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # Walkthrough: Debug a SharePoint application by using IntelliTrace

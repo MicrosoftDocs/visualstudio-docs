@@ -5,7 +5,7 @@ ms.date: 05/14/2018
 ms.topic: conceptual
 author: maddymontaquila
 ms.author: maleger
-manager: jmartens
+manager: mijacobs
 ms.subservice: xaml-tools
 ---
 # Work with elements in XAML Designer

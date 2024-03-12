@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Access databases, connecting
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Connect to an Access database in .NET Framework applications

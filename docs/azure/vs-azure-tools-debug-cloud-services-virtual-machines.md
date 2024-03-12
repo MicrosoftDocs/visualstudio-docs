@@ -2,9 +2,9 @@
 title: Debug an Azure cloud service or virtual machine
 description: Debug an Azure cloud service or virtual machine in Visual Studio by running the operation on your local computer or debugging remotely in Azure.
 author: mikejo5000
-manager: jmartens
+manager: mijacobs
 ms.topic: how-to
-ms.date: 2/28/2023
+ms.date: 03/06/2024
 ms.author: mikejo
 ms.subservice: debug-diagnostics
 ---
@@ -91,7 +91,7 @@ If you enable remote debugging for a cloud service using the procedure in this s
 
 1. Accept prompts to allow access through the firewall. You should see a message indicating that *msvsmon.exe* has started listening for connections.
 
-1. In the Azure Portal, open the resource group and get the public IP Address for the Cloud Service (extended support).
+1. In the Azure portal, open the resource group and get the public IP Address for the Cloud Service (extended support).
 
    ![Screenshot showing where to find the public IP address for the cloud service.](./media/vs-2022/azure-resource-group-ip-address.png)
 
@@ -162,7 +162,7 @@ If you enable remote debugging for a cloud service using the procedure in this s
 
    ![Screenshot showing that msvsmon.exe is listening for connections.](./media/vs-2022/msvsmon-started-a-new-server.png)
 
-1. In the Azure Portal, open the resource group and get the public IP Address for the Cloud Service (extended support).
+1. In the Azure portal, open the resource group and get the public IP Address for the Cloud Service (extended support).
 
    :::image type="content" alt-text="Screenshot showing where to find the public IP address for the cloud service." source="./media/vs-2022/azure-resource-group-ip-address.png" lightbox="./media/vs-2022/azure-resource-group-ip-address.png":::
 
@@ -288,7 +288,7 @@ You can debug programs that run in Azure App Services by using the Attach to Pro
 You can debug programs that run on Azure virtual machines by using Server Explorer in Visual Studio. When you enable remote debugging on an Azure virtual machine, Azure installs the remote debugging extension on the virtual machine. Then, you can attach to processes on the virtual machine and debug as you normally would.
 
 > [!NOTE]
-> Virtual machines created through the Azure resource manager stack can be remotely debugged by using Cloud Explorer in Visual Studio 2015. For more information, see [Managing Azure Resources with Cloud Explorer](vs-azure-tools-resources-managing-with-cloud-explorer.md).
+> Virtual machines created through the Azure resource manager stack can be remotely debugged by using Cloud Explorer in Visual Studio 2019. For more information, see [Managing Azure Resources with Cloud Explorer](vs-azure-tools-resources-managing-with-cloud-explorer.md).
 
 ### To debug an Azure virtual machine
 

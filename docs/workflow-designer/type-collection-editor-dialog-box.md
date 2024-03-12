@@ -7,7 +7,7 @@ f1_keywords:
 - TypeCollectionEditor.UI
 author: jodavis
 ms.author: jodavis
-manager: jmartens
+manager: mijacobs
 ms.subservice: workflow-designer
 ---
 # Type Collection Editor Dialog Box

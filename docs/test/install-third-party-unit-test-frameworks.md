@@ -4,7 +4,7 @@ description: Visual Studio Test Explorer can run tests from any unit test framew
 ms.date: 12/04/2023
 ms.topic: how-to
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: test-tools
 author: mikejo5000
 ---

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "ranges, defining in documents"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically define and select ranges in documents

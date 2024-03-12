@@ -8,7 +8,7 @@ helpviewer_keywords:
 - walkthroughs [text templates]
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Walkthrough: Generate Code by using Text Templates

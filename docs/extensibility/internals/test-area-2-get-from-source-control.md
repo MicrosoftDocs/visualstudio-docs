@@ -8,7 +8,7 @@ helpviewer_keywords:
 - source control [Visual Studio SDK], getting items from
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Test Area 2: Get From Source Control

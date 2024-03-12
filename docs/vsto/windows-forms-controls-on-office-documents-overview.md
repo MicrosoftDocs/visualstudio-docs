@@ -25,7 +25,7 @@ helpviewer_keywords:
   - "Office applications [Office development in Visual Studio], Windows Forms"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Windows Forms controls on Office documents overview

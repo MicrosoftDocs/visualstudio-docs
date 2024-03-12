@@ -9,7 +9,7 @@ helpviewer_keywords:
 - SccIsMultiCheckoutEnabled function
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # SccIsMultiCheckoutEnabled Function

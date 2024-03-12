@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "loggers, multi-proc"
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # Write multi-processor-aware loggers

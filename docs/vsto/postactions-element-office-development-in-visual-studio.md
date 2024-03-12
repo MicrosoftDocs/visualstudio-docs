@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "<postActions> element"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # &lt;postActions&gt; element (Office development)

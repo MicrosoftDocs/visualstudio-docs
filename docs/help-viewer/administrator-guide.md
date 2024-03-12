@@ -5,7 +5,7 @@ ms.date: 11/01/2017
 ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: help-viewer
 ---
 # Deploy and manage local Help installations for network environments 

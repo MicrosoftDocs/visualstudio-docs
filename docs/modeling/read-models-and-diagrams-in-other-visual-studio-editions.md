@@ -8,7 +8,7 @@ helpviewer_keywords:
 - models, versions of Visual Studio
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Read models and diagrams in other Visual Studio editions

@@ -17,7 +17,7 @@ helpviewer_keywords:
   - URLs, ClickOnce applications
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Specify a link for Technical Support

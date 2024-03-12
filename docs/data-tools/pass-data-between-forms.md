@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Windows Forms, walkthroughs
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Pass data between forms

@@ -21,7 +21,7 @@ helpviewer_keywords:
   - modules, displaying
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # View DLLs and executables in the Modules window (C#, C++, Visual Basic, F#)

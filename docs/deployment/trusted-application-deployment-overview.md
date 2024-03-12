@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "trusted application deployment"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Trusted Application Deployment overview

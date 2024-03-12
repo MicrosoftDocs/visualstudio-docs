@@ -2,7 +2,7 @@
 title: Deploy ASP.NET Docker app to Container Registry
 description: Use Visual Studio Container Tools to deploy a containerized ASP.NET or ASP.NET Core web app to Azure Container Registry.
 author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.devlang: dotnet
 ms.topic: how-to
 ms.subservice: container-tools

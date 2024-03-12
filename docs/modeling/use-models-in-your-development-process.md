@@ -7,7 +7,7 @@ helpviewer_keywords:
 - UML, using models
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Use models in your development process

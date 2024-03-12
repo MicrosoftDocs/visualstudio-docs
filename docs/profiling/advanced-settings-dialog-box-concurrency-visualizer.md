@@ -7,7 +7,7 @@ f1_keywords:
   - "vs.cv.settings"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Advanced Settings dialog box (Concurrency Visualizer)

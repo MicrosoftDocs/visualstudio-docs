@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "controls [Office development in Visual Studio], Excel host controls"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Automate Excel by using extended objects

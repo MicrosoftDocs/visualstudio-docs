@@ -5,7 +5,7 @@ ms.date: 09/01/2023
 ms.topic: quickstart
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 monikerRange: ">= vs-2019"
 ---

@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "coauthoring, in Excel"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Understand coauthoring and Add-ins

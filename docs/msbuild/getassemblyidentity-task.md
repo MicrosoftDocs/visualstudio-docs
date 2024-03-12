@@ -14,7 +14,7 @@ helpviewer_keywords:
 - GetAssemblyIdentity task [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # GetAssemblyIdentity task

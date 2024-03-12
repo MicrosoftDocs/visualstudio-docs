@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaDataSource::loadDataForExe method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDiaDataSource::loadDataForExe

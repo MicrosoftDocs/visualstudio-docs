@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: how-to
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Controlling Color, Line Style, and other Shape Properties

@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaSegment::get_length method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDiaSegment::get_length

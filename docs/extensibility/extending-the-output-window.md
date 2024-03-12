@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Output window, about Output window
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Extend the Output window

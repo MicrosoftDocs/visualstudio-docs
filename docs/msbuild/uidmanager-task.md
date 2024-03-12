@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "checking UIDs when localizing XAML elements [WPF MSBuild]"
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # UidManager task

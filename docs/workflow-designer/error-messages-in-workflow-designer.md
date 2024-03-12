@@ -9,7 +9,7 @@ f1_keywords:
 - System.Activities.Presentation.View.ErrorView.UI
 author: jodavis
 ms.author: jodavis
-manager: jmartens
+manager: mijacobs
 ms.subservice: workflow-designer
 ---
 # Error Messages in Workflow Designer

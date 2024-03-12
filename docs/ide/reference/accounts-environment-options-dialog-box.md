@@ -7,7 +7,7 @@ f1_keywords:
 - VS.ToolsOptionsPages.Environment.RoamingSettings
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Accounts, Environment, Options dialog box

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "reusable workflows [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # Walkthrough: Import a SharePoint Designer reusable workflow

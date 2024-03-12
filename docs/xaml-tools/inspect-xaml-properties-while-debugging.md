@@ -5,7 +5,7 @@ ms.date: 11/02/2023
 ms.topic: how-to
 author: maddymontaquila
 ms.author: maleger
-manager: jmartens
+manager: mijacobs
 ms.subservice: xaml-tools
 ---
 # Inspect XAML properties while debugging

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - extension, publishing
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Walkthrough: Publishing a Visual Studio extension via command line

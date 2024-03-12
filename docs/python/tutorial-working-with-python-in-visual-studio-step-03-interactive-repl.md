@@ -6,7 +6,7 @@ ms.date: 03/12/2024
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 
 # CustomerIntent: As a developer, I want to use the Interactive Window for Python in Visual Studio so I can have a robust read-evaluate-print-loop (REPL) experience for developing Python code.

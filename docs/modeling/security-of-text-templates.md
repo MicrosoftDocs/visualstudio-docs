@@ -7,7 +7,7 @@ helpviewer_keywords:
 - text templates, security
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Security of Text Templates

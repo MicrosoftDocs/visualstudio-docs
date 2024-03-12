@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "manifests [ClickOnce]"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Walkthrough: Manually deploy a ClickOnce application

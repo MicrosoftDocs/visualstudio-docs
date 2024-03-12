@@ -7,7 +7,7 @@ helpviewer_keywords:
 - IDebugFirewallConfigurationCallback2 interface
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDebugFirewallConfigurationCallback2

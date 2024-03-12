@@ -8,7 +8,7 @@ helpviewer_keywords:
 - configuration properties, supporting with Visual Studio SDK
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Support for Project and Configuration Properties

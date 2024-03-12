@@ -8,7 +8,7 @@ helpviewer_keywords:
 - command handling with interop assemblies, registering
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Registering Interop Assembly Command Handlers
