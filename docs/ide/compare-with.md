@@ -50,11 +50,11 @@ Inline view shows the differences in a single window, as shown in the following 
 
 ![Screenshot showing the differences in an inline view.](./media/vs-2022/compare-with-inline-view.png)
 
-## Display options in diff view
+## Display settings in diff view
 
-The **Summary** option is a toggle that you control by pressing the button. The other options are available when you click on the settings icon.
+The **Summary** option is a toggle that you control by pressing the button. The other settings are available when you click on the gear icon.
 
-| Option | Keyboard shortcut | Description |
+| Setting | Keyboard shortcut | Description |
 | - | - | - |
 | **Summary** | **Ctrl**+**\\**, **Ctrl**+**5** | If enabled, only the parts of the two files that differ appear in the view. If not enabled, the entire file is shown. |
 | **Inline mode** | **Ctrl**+**\\**, **Ctrl**+**1** | Show diffs in a single file view. |
