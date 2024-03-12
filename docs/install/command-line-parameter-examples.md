@@ -1,7 +1,7 @@
 ---
 title: Command-line parameter examples for installation
 description: Customize command-line parameter examples to create your own installation of Visual Studio by setting parameters, such as installPath, wait, all, remove, and more.
-ms.date: 8/8/2023
+ms.date: 3/11/2024
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
@@ -13,7 +13,7 @@ ms.subservice: installation
 
 To illustrate how to [use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md), here are several examples that you can customize to match your needs.
 
-In each example, `vs_enterprise.exe`, `vs_professional.exe` and `vs_community.exe` represent the respective edition of the Visual Studio bootstrapper, which is the small (~1MB) file that initiates the download process. If you're using a different edition, substitute the appropriate bootstrapper name.
+In each example, `vs_enterprise.exe`, `vs_professional.exe`, and `vs_community.exe` represent the respective edition of the Visual Studio bootstrapper, which is the small (~ 1MB) file that initiates the download process. If you're using a different edition, substitute the appropriate bootstrapper name.
 
 All commands require administrative elevation, and a User Account Control prompt will be displayed if the process isn't started from an elevated prompt.
 
@@ -23,7 +23,7 @@ For lists of the workloads and components that you can install by using the comm
 
 ## Install using --installPath alongside the bootstrapper
 
-* Install a minimal instance of Visual Studio, with no interactive prompts but progress displayed:
+* Install a minimal instance of Visual Studio, with no interactive prompts, but progress displayed:
 
   ```shell
    vs_enterprise.exe --installPath C:\minVS ^
@@ -42,7 +42,7 @@ For lists of the workloads and components that you can install by using the comm
 
 ## Update 
 
-* Update a Visual Studio instance via the command line with progress displayed and no interactive prompts. You can run these series of commands in two steps by using a bootstrapper found on either the client or in a layout. The first command updates the installer on the client, and the second command updates the Visual Studio product. You'll need to run this in an elevated command prompt, because updating the installer requires administrator permissions. The following example simulates updating a client using an evergreen bootstrapper in the layout. 
+* Update a Visual Studio instance via the command line with progress displayed and no interactive prompts. You can run these series of commands in two steps by using a bootstrapper found on either the client or in a layout. The first command updates the installer on the client, and the second command updates the Visual Studio product. You need to run these commands in an elevated command prompt, because updating the installer requires administrator permissions. The following example simulates updating a client using an evergreen bootstrapper in the layout. 
 
    ```shell
    \\layoutserver\share\path\vs_enterprise.exe --update --quiet --wait
@@ -92,9 +92,9 @@ The following command is an example of using `--wait` with the PowerShell script
 * Create a layout that includes only the Visual Studio core editor (the most minimal Visual Studio configuration) and the English language pack. More layout creation examples can be found on the [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md#configure-the-contents-of-a-layout) page.
 
   ```shell
-   vs_professional.exe --layout C:\VS ^
+   vs_professional.exe --layout "C:\VS" ^
    --lang en-US ^
-   --add Microsoft.VisualStudio.Workload.CoreEditor
+   --add Microsoft.VisualStudio.Workload.CoreEditor ^
   ```
 
 ## Using --all to acquire the entire product
@@ -132,7 +132,7 @@ If you choose to use a custom layout as the update channel, then be aware of the
 
 ## Using --remove
 
-* Remove the Profiling Tools component from the default installed Visual Studio instance. This example uses the installer already installed on the client machine. [Standard users, if they've been granted appropriate permissions](https://aka.ms/vs/setup/policies), can programmatically execute the modify command using the installer, but they aren't allowed to use the `--passive` or `--quiet` switch. Note that you can't initiate the installer programmatically from the same directory that the installer resides in.
+* Remove the Profiling Tools component from the default installed Visual Studio instance. This example uses the installer already installed on the client machine. [Standard users with appropriate permissions](https://aka.ms/vs/setup/policies) can programmatically execute the modify command using the installer, but they aren't allowed to use the `--passive` or `--quiet` switch. Note that you can't initiate the installer programmatically from the same directory that the installer resides in.
 
   ```shell
   "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modify ^
@@ -145,7 +145,7 @@ You can't use `--remove` in the same command as `--layout`. In other words, it's
 
 ## Using --removeOos
 
-Using the [latest installer](update-visual-studio.md#use-the-latest-and-greatest-installer), you can modify an installation and remove all [components that have transitioned to an out-of-support state](out-of-support-components.md) from the default installed Visual Studio instance. This example uses the installer already installed on the client machine to configure the removeOos setting. [Standard users, if they've been granted appropriate permissions](https://aka.ms/vs/setup/policies), can programmatically execute the modify command using the installer, but they aren't allowed to use the `--passive` or `--quiet` switch. Note that you can't initiate the installer programmatically from the same directory that the installer resides in.
+Using the [latest installer](update-visual-studio.md#use-the-latest-and-greatest-installer), you can modify an installation and remove all [components that have transitioned to an out-of-support state](out-of-support-components.md) from the default installed Visual Studio instance. This example uses the installer already installed on the client machine to configure the removeOos setting. [Standard users, if they've been granted appropriate permissions](https://aka.ms/vs/setup/policies), can programmatically execute the modify command using the installer, but they aren't allowed to use the `--passive` or `--quiet` switch. You can't initiate the installer programmatically from the same directory that the installer resides in.
 
   ```shell
    "C:\Program Files (x86)\Microsoft Visual studio\Installer\setup.exe" modify ^
@@ -154,7 +154,7 @@ Using the [latest installer](update-visual-studio.md#use-the-latest-and-greatest
    --passive
   ```
 
-* Adjust the update settings to persistently remove all components that have transitioned to an out-of-support state every time the product updates:
+* Adjust the update settings to persistently remove all components transitioned to an out-of-support state every time the product updates:
 
   ```shell
   "C:\Program Files (x86)\Microsoft Visual studio\Installer\setup.exe" modify ^
@@ -190,13 +190,13 @@ All of these examples assume you're installing a new product using a bootstrappe
 * Use export to save the selection from an installation. This example uses the installer already installed on the client machine. 
 
   ```shell
-  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" export --installPath "C:\VS" --config "C:\.vsconfig"
+  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" export --installPath "C:\VS" --config "C:\my.vsconfig"
   ```
 
 * Use export to save custom selection from scratch. This example uses the installer already installed on the client machine.
 
   ```shell
-  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" export --channelId VisualStudio.17.Release --productId Microsoft.VisualStudio.Product.Enterprise --add Microsoft.VisualStudio.Workload.ManagedDesktop --includeRecommended --config "C:\.vsconfig"
+  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" export --channelId VisualStudio.17.Release --productId Microsoft.VisualStudio.Product.Enterprise --add Microsoft.VisualStudio.Workload.ManagedDesktop --includeRecommended --config "C:\my.vsconfig"
   ```
 
 ## Using --config
@@ -207,7 +207,7 @@ All of these examples assume you're installing a new product using a bootstrappe
   vs_enterprise.exe --config "C:\my.vsconfig" --installPath "C:\VS"
   ```
 
-* Use --config to add workloads and components to an existing installation. This example uses the installer already installed on the client machine. [Standard users, if they've been granted appropriate permissions](https://aka.ms/vs/setup/policies), can programmatically execute the modify command using the installer, but they aren't allowed to use the `--passive` or `--quiet` switch. Note that you can't initiate the installer programmatically from the same directory that the installer resides in.
+* Use --config to add workloads and components to an existing installation. This example uses the installer already installed on the client machine. [Standard users with appropriate permissions](https://aka.ms/vs/setup/policies) can programmatically execute the modify command using the installer, but they aren't allowed to use the `--passive` or `--quiet` switch. You can't initiate the installer programmatically from the same directory that the installer resides in.
 
   ```shell
    "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modify --installPath "C:\VS" --config "C:\my.vsconfig"
@@ -221,7 +221,7 @@ All of these examples assume you're installing a new product using a bootstrappe
 
 ## Using winget
 
-Use the [Windows Package Manager](/windows/package-manager/winget/) "winget" tool to programmatically install or update Visual Studio on your machines along with other packages managed by winget. To customize the installation and specify additional workloads and components, you can use winget's `--override` switch alongside winget's `install` command, and pass in an [exported vsconfig file](import-export-installation-configurations.md) like this:
+Use the [Windows Package Manager](/windows/package-manager/winget/) "winget" tool to programmatically install or update Visual Studio on your machines along with other packages managed by winget. To customize the installation and specify other workloads and components, you can use winget's `--override` switch alongside winget's `install` command, and pass in an [exported vsconfig file](import-export-installation-configurations.md) like this:
 
   ```shell
   winget install --id Microsoft.VisualStudio.2022.Community --override "--passive --config C:\my.vsconfig"
