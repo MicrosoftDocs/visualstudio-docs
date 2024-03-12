@@ -21,6 +21,12 @@ Blend for Visual Studio is a component of Visual Studio. To install Blend, in th
 
 If you're new to Blend for Visual Studio, take a moment to become familiar with the unique features of the workspace. This topic takes you on a quick tour.
 
+::: moniker range=">= vs-2022"
+## Open Blend
+
+To switch to the Blend UI, open a XAML-based project in Visual Studio and select **View** > **Design in Blend...**, and the Blend for Visual Studio UI opens.
+::: moniker-end
+
 ## Tools panel
 
 You can use the **Tools** panel in Blend for Visual Studio to create and modify objects in your application. The **Tools** panel appears on the left-hand side of the XAML designer when you have a *.xaml* file open.
