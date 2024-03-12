@@ -8,6 +8,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
+monikerRange: ">=vs-2022"
 ---
 # Compare files in Visual Studio
 
