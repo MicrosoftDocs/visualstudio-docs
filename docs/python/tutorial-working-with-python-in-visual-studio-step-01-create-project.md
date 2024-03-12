@@ -19,7 +19,7 @@ This article is the first step in a six part tutorial series that demonstrates h
 
 The six parts in the tutorial series include:
 
-- [Step 1: Create a Python project (this article)](#step-1-create-a-new-python-project)
+- [Step 1: Create a Python project (this article)](#create-a-new-python-project)
 - [Step 2: Write and run code to see Visual Studio IntelliSense at work](tutorial-working-with-python-in-visual-studio-step-02-writing-code.md)
 - [Step 3: Create more code in the Interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md)
 - [Step 4: Run the completed program in the Visual Studio debugger](tutorial-working-with-python-in-visual-studio-step-04-debugging.md)
@@ -34,7 +34,7 @@ In Step 1 of the tutorial, you learn how to:
 
 [!INCLUDE[tutorial-prereqs](includes/tutorial-prereqs.md)]
 
-## Step 1: Create a new Python project
+## Create a new Python project
 
 A *project* is how Visual Studio manages all the files that come together to produce a single application. Application files include source code, resources, and configurations. A project formalizes and maintains the relationships among all the project's files. The project also manages external resources that are shared between multiple projects. A project allows your application to effortlessly expand and grow. Using projects is easier than managing relationships by hand in unplanned folders, scripts, text files, and your memory.
 
