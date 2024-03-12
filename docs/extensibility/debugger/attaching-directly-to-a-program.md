@@ -14,7 +14,7 @@ ms.subservice: debug-diagnostics
 
 Users who want to debug programs in a process that is already running typically follow this process:
 
-1. In the IDE, open the **Debug** menu and select the **Attach to Processes** command.
+1. In the IDE, open the **Debug** menu and select the **Attach to Process...** command.
 
     The **Attach to Process** dialog box appears, listing all debug engines (DEs) installed on the machine.
 
