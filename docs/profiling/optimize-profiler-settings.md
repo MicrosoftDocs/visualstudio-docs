@@ -45,6 +45,14 @@ Certain tools, such as the [CPU Usage](../profiling/cpu-usage.md) tool and [NET 
 ![Diag Hub Properties Page](../profiling/media/diaghubpropertiespage.png "Diag Hub Properties Page")
 ::: moniker-end
 
+::: moniker range=">=vs-2022"
+## Set the collection folder
+
+The Visual Studio profiler uses a collection scratch directory to store performance traces before they are saved or discarded. By default, the profiler uses your temp directory. However, you can specify a different scratch directory by first opening the Diagnostic Tools Window (**Debug** > **Windows** > **Show Diagnostic Tools**), and then choosing **Select Tools** > **Settings** > **General** > **Scratch Directory**.
+
+![Profiler scratch directory](../profiling/media/vs-2022/profiler-settings-scratch-directory.png "Profiler scratch directory")
+::: moniker-end
+
 ## Related content
 
 - [Running profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)
