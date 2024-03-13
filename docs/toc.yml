@@ -516,6 +516,14 @@
           href: /dotnet/fundamentals/code-analysis/style-rules/
         - name: .NET code refactoring conventions
           href: ide/reference/code-styles-refactoring-options.md
+        - name: IDE-only code style rules
+          items:
+          - name: JSON001
+            href: ide/reference/json001.md
+          - name: JSON002
+            href: ide/reference/json002.md
+          - name: RE0001
+            href: ide/reference/re0001.md
     - name: Customize the scroll bar
       href: ide/how-to-track-your-code-by-customizing-the-scrollbar.md
     - name: Set bookmarks in code
