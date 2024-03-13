@@ -540,6 +540,8 @@
     href: ide/viewing-the-structure-of-code.md
   - name: Use the Task List
     href: ide/using-the-task-list.md
+  - name: Compare files - diff view
+    href: ide/compare-with.md
   - name: Class Designer
     items:
     - name: Design classes in Class Designer
