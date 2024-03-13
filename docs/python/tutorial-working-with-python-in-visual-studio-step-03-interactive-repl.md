@@ -1,44 +1,87 @@
 ---
-title: Python in Visual Studio tutorial step 3, interactive REPL
+title: Python in Visual Studio tutorial Step 3, interactive REPL
 titleSuffix: ""
-description: Step 3 of a core walkthrough of Python capabilities in Visual Studio that demonstrates the Python Interactive REPL window.
-ms.date: 07/14/2023
+description: Step 3 of a core walkthrough of Python capabilities in Visual Studio that demonstrates how to work with the Python Interactive REPL window.
+ms.date: 03/13/2024
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
 manager: mijacobs
 ms.subservice: python
+
+# CustomerIntent: As a developer, I want to use the Interactive Window for Python in Visual Studio so I can have a robust read-evaluate-print-loop (REPL) experience for developing Python code.
 ---
 
-# Step 3: Use the Interactive REPL window
+# Tutorial: Use the Interactive REPL window in Visual Studio
 
-**Previous step: [Write and run code](tutorial-working-with-python-in-visual-studio-step-02-writing-code.md)**
+This article presents Step 3 in the tutorial series _Work with Python in Visual Studio_.
 
-The Visual Studio **Interactive Window** for Python provides a rich read-evaluate-print-loop (REPL) experience that greatly shortens the usual edit-build-debug cycle. The **Interactive Window** provides all the capabilities of the REPL experience of the Python command line. It also makes it easy to exchange code with source files in the Visual Studio editor, which is otherwise cumbersome with the command line.
+The Visual Studio interactive development environment (IDE) provides various windows that support different development tasks. [Step 1](tutorial-working-with-python-in-visual-studio-step-01-create-project.md) and [Step 2](tutorial-working-with-python-in-visual-studio-step-02-writing-code.md) in the tutorial describe how to manage files in **Solution Explorer** and work with file content in the code editor. In Step 3, you use the Visual Studio **Interactive Window** for Python for a rich read-evaluate-print-loop (REPL) experience that greatly shortens the usual edit-build-debug cycle. By working in the **Interactive Window** for Python, you gain all the capabilities of the REPL experience of the Python command line. It also makes it easy to exchange code with source files in the Visual Studio editor, which is otherwise cumbersome with the command line.
 
-> [!NOTE]
-> For issues with REPL, be sure to have `ipython` and `ipykernel` packages installed, and for help installing packages, see [Python environments packages tab](./python-environments-window-tab-reference.md#packages-tab).
+In Step 3 of the tutorial, you learn how to:
 
-1. Open the **Interactive Window** by right-clicking the project's Python environment in **Solution Explorer** (such as **Python 3.6 (32-bit)** shown in an earlier graphic) and selecting **Open Interactive Window**. Another way is, to select **View** > **Other Windows** > **Python Interactive Windows** from the main Visual Studio menu.
+> [!div class="checklist"]
+> - Access the Interactive Window for Python and set the Python interpreter
+> - Enter and run code in the window, and scroll the command history
+> - Insert existing code or code from other sources
+> - Copy code and program output from the Interactive Window
 
-1. The **Interactive Window** opens below the editor with the standard **>>>** Python REPL prompt. The **Environment** drop-down list allows you to select a specific interpreter to work with. If you'd like to make the **Interactive Window** larger you can drag the separator between the two windows, seen in the image below:
+## Prerequisites
 
-   ![Python interactive window and dragging to resize](media/vs-getting-started-python-11-interactive1b.png)
+- A Python application project that has a Python file (_.py_) with code created in [Step 2: Write and run Python code](tutorial-working-with-python-in-visual-studio-step-02-writing-code.md).
 
-   > [!Tip]
-   > You can resize all of the windows in Visual Studio by dragging the bordering separators. You can also drag windows out independently of the Visual Studio frame, and rearrange them however you like within the frame. For complete details, see [Customize window layouts](../ide/customizing-window-layouts-in-visual-studio.md).
+- To best support the REPL experience, install the `ipython` and `ipykernel` packages. For more information, see [Python environments packages tab](./python-environments-window-tab-reference.md#packages-tab).
 
-1. Enter a few statements like `print("Hello, Visual Studio")` and expressions like `123/456` to see immediate results:
+## Open the Interactive Window for Python
 
-   ![Python interactive window immediate results](media/vs-getting-started-python-12-interactive2.png)
+Follow these steps to open the **Interactive Window** and start working with code:
 
-1. When you start writing a multiline statement (like a function definition), the **Interactive Window** shows Python's **...** prompt for continuing lines. Unlike the command-line REPL, this will provide automatic indentation. You can add a new **...** line by pressing `Shift+Enter`:
+1. Use one of the following methods to open the **Interactive Window** for Python:
 
-   ![Python interactive window with statement continuation](media/vs-getting-started-python-13-interactive3.png)
+   - In **Solution Explorer**, right-click your project node and select **Open Interactive Window**.
+   - In **Solution Explorer**, under the **Python Environments** node for your project, right-click the Python environment for your project and select **Open Interactive Window**. (An example of a Python environment is **Python 3.11 (64-bit)**.)
+   - On the toolbar, select **View** > **Other Windows** > **Python Interactive Windows** or use the keyboard shortcut **Alt**+**I**.
 
-1. The **Interactive Window** provides a full history of everything you've entered, and improves upon the command-line REPL with multiline history items. For example, you can easily recall the entire definition of the `f` function as a single unit and easily change the name to `make_double`, rather than re-creating the function line by line.
+   Visual Studio opens the **Interactive Window** for Python under the editor window. The window has the standard **>>>** Python REPL prompt:
 
-1. Visual Studio can send multiple lines of code from an editor window to the **Interactive Window**. This capability allows you to maintain code in a source file and easily send the chosen fragments to the **Interactive Window**. You can then work with such code fragments in the rapid REPL environment rather than having to run the whole program. To see this feature, first replace the `for` loop in the _PythonApplication1.py_ file with the code below:
+   :::image type="content" source="media/tutor-python-3-open-interactive-window.png" alt-text="Screenshot that shows the Interactive Window for Python open underneath the code editor in Visual Studio." border="false" lightbox="media/tutor-python-3-open-interactive-window.png":::
+   
+1. In the **Interactive Window**, you can use the **Environment** dropdown list to select a specific Python interpreter to work with:
+
+   :::image type="content" source="media/tutor-python-3-select-environment-interpreter.png" alt-text="Screenshot that shows how to select the Python interpreter from the Environment dropdown list in the Interactive Window in Visual Studio." border="false" lightbox="media/tutor-python-3-select-environment-interpreter.png":::
+   
+1. You can make the **Interactive Window** larger by moving the separator between the window and the code editor:
+
+   :::image type="content" source="media/tutor-python-3-resize-interactive-window.png" alt-text="Screenshot that shows how to move the separator to increase the size of the Interactive Window in Visual Studio." border="false" lightbox="media/tutor-python-3-resize-interactive-window.png":::
+
+   > [!TIP]
+   > You can resize any window in Visual Studio by moving the separators between the window and surrounding windows. You can also move windows out of the Visual Studio frame, and rearrange windows within the frame.
+
+1. In the **Interactive Window**, enter a statement like `print("Hello, Visual Studio")` and a calculation expression like `123/456`. Visual Studio displays immediate results for your code:
+
+   :::image type="content" source="media/tutor-python-3-add-statements-expressions.png" alt-text="Screenshot that shows how the Interactive Window displays immediate results for code you enter in Visual Studio." border="false" lightbox="media/tutor-python-3-add-statements-expressions.png":::
+
+1. Next, enter a multiline statement like the function definition shown in the following example.
+
+   As you enter the code, the **Interactive Window** shows the Python continuation prompt (**...** ). Unlike the command-line REPL experience, the **Interactive Window** provides automatic indentation as you enter code:
+
+   :::image type="content" source="media/tutor-python-3-add-multiline-statement.png" alt-text="Screenshot that shows the Interactive Window displays the Python continuation prompt for multiline code statements in Visual Studio." border="false" lightbox="media/tutor-python-3-add-multiline-statement.png":::
+
+   To add a new line in your code, select **Shift**+**Enter**.
+
+1. Scroll through the list of commands you entered so far by using the **Up/Down** arrow keys.
+
+   The **Interactive Window** provides a full history of everything you enter, and improves upon the command-line REPL experience with multiline history items. You can quickly recall the entire definition of a function as a single unit and change the function name or adjust other statements. This approach is easier than re-creating the function line by line.
+
+## Reuse and modify existing code
+
+Visual Studio provides different ways to use existing Python code in the **Interactive Window**, such as copy and paste, and accessing previously entered code as described earlier. Another method is to send multiple lines of code from an editor window to the **Interactive Window**. This capability allows you to maintain code in a source file and easily send the chosen fragments to the **Interactive Window**. You can then work with the code fragments in the rapid REPL environment rather than having to run the whole program.
+
+Try these features by completing the following steps:
+
+1. Open your Python project file (_.py_) in the editor. (Tutorial Step 2 explains how to create this file, where the default file name is _PythonApplication1.py_.)
+
+1. Replace the `for` loop statement in the file with the following code:
 
    ```python
    # Create a string with spaces proportional to a cosine of x in degrees
@@ -46,14 +89,22 @@ The Visual Studio **Interactive Window** for Python provides a rich read-evaluat
        return ' ' * int(20 * cos(radians(x)) + 20) + 'o'
    ```
 
-1. Select the `import`, `from`, and `make_dot_string` function statements in the _.py_ file. Right-click the selected text and chose **Send to Interactive** (or press **Ctrl**+**Enter**). The code fragment is immediately pasted into the **Interactive Window** and run. Because the code has defined a function, you can quickly test that function by calling it a few times:
+1. Right-click the `import` statement in the file and select **Send to Interactive** (or the keyboard shortcut **Ctrl**+**E**). Repeat this process for the `from` statement.
 
-   ![Sending code to the interactive window and testing it](media/vs-getting-started-python-14-interactive4.png)
+   :::image type="content" source="media/tutor-python-3-send-statements.png" alt-text="Screenshot that shows how to send code for the import and from statements to the Interactive Window in Visual Studio." border="false" lightbox="media/tutor-python-3-send-statements.png":::
 
-   > [!Tip]
-   > Using **Ctrl**+**Enter** in the editor _without_ a selection runs the current line of code in the **Interactive Window** and automatically places the caret on the next line. With this feature, pressing **Ctrl**+**Enter** repeatedly provides a convenient way to step through your code that is not possible with only the Python command line. It also lets you step through your code without running the debugger and without necessarily starting your program from the beginning.
+   When you select the **Send to Interactive** command, the selected code fragment is immediately pasted into the **Interactive Window** and run. In this case, Visual Studio imports the `cos` and `radians` routines from the `math` library, and also the `sys` library.
 
-1. You can also copy and paste multiple lines of code into the **Interactive Window** from any source, such as the snippet below, which is difficult to do with the Python command-line REPL. When pasted, the **Interactive Window** runs that code as if you'd typed it in:
+1. Repeat the process again for the `make_dot_string` function. Be sure to send both lines of the function. After you send the complete code for the function, enter a new line in the **Interactive Window**.
+   
+   Because this code defines a function, you can quickly test it by calling the function a few times, as shown in the following example:
+
+   :::image type="content" source="media/tutor-python-3-send-function-test.png" alt-text="Screenshot that shows how to run a test of the function code sent to the Interactive Window in Visual Studio." border="false" lightbox="media/tutor-python-3-send-function-test.png":::
+
+   > [!TIP]
+   > You can use the keyboard shortcut **Ctrl**+**Enter** to run the current line of code in the **Interactive Window**. After the code runs, the caret prompt moves to the next line. Select **Ctrl**+**Enter** repeatedly for a convenient way to step through your code, which isn't possible in the Python command-line experience. You can also use this approach to step through your code without running the debugger and without necessarily starting your program from the beginning.
+
+1. Try the process again, but this time copy and paste multiple lines of code into the **Interactive Window** from any source. You can use the following code snippet:
 
    ```python
    for i in range(360):
@@ -61,17 +112,37 @@ The Visual Studio **Interactive Window** for Python provides a rich read-evaluat
        print(s)
    ```
 
-   ![Pasting multiple lines of code using Sending Interactive](media/vs-getting-started-python-15-interactive5.png)
+   The multiline paste action is difficult to do in the Python command-line REPL experience. After your paste the code, the **Interactive Window** runs the code as if you entered it directly in the window:
 
-1. As you can see, this code works fine but its output isn't inspiring. A different step value in the `for` loop would show more of the cosine wave. The entire for loop is available in the REPL history as a single unit. You can go back and make whatever changes you want and then test the function again. Press the up arrow to first recall the `for` loop. You can navigate in the code by pressing the left or right arrows (until you do so, the up and down arrows continue to cycle through the history). Navigate to and change the `range` specification to `range(0, 360, 12)`. Then press **Ctrl**+**Enter** anywhere in the code, to run the whole statement again:
+   :::image type="content" source="media/tutor-python-3-copy-paste-code.png" alt-text="Screenshot that shows how to paste multiple lines of code into the Interactive Window in Visual Studio." border="false" lightbox="media/tutor-python-3-copy-paste-code.png":::
 
-   ![Editing a previous statement in the interactive window](media/vs-getting-started-python-16-interactive6.png)
+   The current code works, but the output isn't inspiring. A different step value in the `for` loop can show more of the cosine wave. The code the `for` loop is available in the REPL history as a single unit. You can locate the code and make whatever changes you want and test the function again.
+   
+1. Scroll through your command history by using the **Up** arrow key and stop at the `for` loop code.
 
-1. Repeat the process to experiment with different step settings until you find a value you like best. You can also make the wave repeat by lengthening the range, for example, `range(0, 1800, 12)`.
+1. Use the **Left/Right** arrow keys to move into the code for the `for` loop statement. When you reach the beginning of a line, select the **Left** arrow key to move to the end of the previous line.
 
-1. When you're satisfied with the code you wrote in the **Interactive Window**, select it. Next, right-click the code and choose **Copy Code** (**Ctrl**+**Shift**+**C**). Finally, paste the selected code into the editor. Notice how this special feature of Visual Studio automatically omits any output, along with the `>>>` and `...` prompts. For example, the image below shows using the **Copy Code** command on a selection that includes prompts and output:
+1. In the `for` loop statement, go to the `range` definition and change the statement to `range(0, 360, 12)`.
 
-   ![Interactive window copy code command on a selection with prompts and output](media/vs-getting-started-python-17-interactive7.png)
+1. Select **Ctrl**+**Enter** anywhere in the `for` loop statement to run the function again:  
+
+   :::image type="content" source="media/tutor-python-3-run-statement-again.png" alt-text="Screenshot that shows how to edit a previous statement in the Interactive Window in Visual Studio." border="false" lightbox="media/tutor-python-3-run-statement-again.png":::
+
+1. Repeat the process to experiment with different step settings until you find a value you like. You can also make the wave repeat by lengthening the range, for example, `range(0, 1800, 12)`.
+
+## Copy your code and program output
+
+Visual Studio lets you copy any code that you write in the **Interactive Window**, and also any output from running your code.
+
+Follow these steps to copy code from the **Interactive Window** to the editor:
+
+1. In the **Interactive Window**, select the code you want to copy.
+
+1. Right-click the selected code and choose **Copy Code** or use the keyboard shortcut **Ctrl**+**Shift**+**C**.
+
+   :::image type="content" source="media/tutor-python-3-copy-save-code.png" alt-text="Screenshot that shows the Interactive Window copy code command on a selection that includes prompts and output in Visual Studio." border="false" lightbox="media/tutor-python-3-copy-save-code.png":::
+
+1. Paste the copied code into the editor. This special feature of Visual Studio automatically omits any output, along with the `>>>` and `...` prompts, in the selection.
 
    When you paste into the editor, you get only the code:
 
@@ -81,16 +152,11 @@ The Visual Studio **Interactive Window** for Python provides a rich read-evaluat
        print(s)
    ```
 
-   If you want to copy the exact contents of the **Interactive Window**, including prompts and output, use the standard **Copy** command.
+1. To copy the exact contents of the **Interactive Window** including prompts and any program output, use the standard **Copy** command.
 
-1. What you've done is use the rapid REPL environment of the **Interactive Window** to work out the details for a small piece of code, then you conveniently added that code to your project's source file. When you now run the code again with **Ctrl**+**F5** (or **Debug** > **Start without Debugging**), you see the exact results you wanted.
+In these steps, you used the rapid REPL environment of the **Interactive Window** to work out the details for a small piece of Python code and conveniently added the code to your project's source file. When you rerun your code with **Ctrl**+**F5** or **Debug** > **Start without Debugging**, you see the exact results you wanted.
 
 ## Next step
 
 > [!div class="nextstepaction"]
-> [Run code in the debugger](tutorial-working-with-python-in-visual-studio-step-04-debugging.md)
-
-## Go deeper
-
-- [Use the Interactive window](python-interactive-repl-in-visual-studio.md)
-- [Use IPython REPL](interactive-repl-ipython.md)
+> [Step 4: Run code in the debugger](tutorial-working-with-python-in-visual-studio-step-04-debugging.md)

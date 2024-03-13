@@ -1,91 +1,157 @@
 ---
-title: Python in Visual Studio tutorial step 2, write and run code
+title: Python in Visual Studio tutorial Step 2, write and run code
 titleSuffix: ""
 description: Step 2 of a core walkthrough of Python capabilities in Visual Studio that demonstrates how to edit code and run a project.
-ms.date: 07/14/2023
+ms.date: 03/13/2024
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
 manager: mijacobs
 ms.subservice: python
+
+# CustomerIntent: As a developer, I want to write Python code in Visual Studio so I can access Intellisense features and run my Python projects.
 ---
 
-# Step 2: Write and run code
+# Tutorial: Write and run Python code in Visual Studio
 
-**Previous step: [Create a new Python project](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)**
+This article presents Step 2 in the tutorial series _Work with Python in Visual Studio_.
 
-Although **Solution Explorer** is where you manage project files, the _editor_ window is typically where you work with the _contents_ of files, like source code. The editor is contextually aware of the type of file you're editing. The editor also recognizes the programming language (based on the file extension), and offers features appropriate to that language such as syntax coloring and auto-completion using IntelliSense.
+The Visual Studio interactive development environment (IDE) provides various windows that support different development tasks. [Step 1 in the tutorial](tutorial-working-with-python-in-visual-studio-step-01-create-project.md) describes how to manage project files in the **Solution Explorer** window. In Step 2, you use the _editor_ window to work with the _contents_ of files, like source code. The editor is contextually aware of the type of file you're editing. The editor also recognizes the programming language (based on the file extension), and offers features appropriate to that language such as syntax coloring and auto-completion by using IntelliSense.
 
-1. When you create a new "Python Application" project, a default empty file named _PythonApplication1.py_ is opened in the Visual Studio editor.
+In Step 2 of the tutorial, you learn how to:
 
-1. In the editor, start typing `print("Hello, Visual Studio")` and notice how Visual Studio IntelliSense displays autocompletion options along the way. The outlined option in the drop-down list is the default completion that's used when you press the **Tab** key. Completions are most helpful when longer statements or identifiers are involved.
+> [!div class="checklist"]
+> - Write Python code in the editor
+> - Run code (without debugging)
+> - Use Intellisense features for writing code
 
-   ![IntelliSense auto-completion popup](media/vs-getting-started-python-04-IntelliSense1b.png)
+## Prerequisites
 
-1. IntelliSense shows different information based on the statement you're using, the function you're calling, and so on. With the `print` function, typing `(` after `print` to indicate a function call displays full usage information for that function. The IntelliSense pop up also shows the current argument in boldface (**value** as shown here):
+- A Python application project with an empty Python file (_.py_) created in [Step 1: Create a new Python project](tutorial-working-with-python-in-visual-studio-step-01-create-project.md).
 
-   ![IntelliSense auto-completion popup for a function](media/vs-getting-started-python-05-IntelliSense2b.png)
+## Write code in Visual Studio
 
-1. Complete the statement so it matches the code below:
+When you create a new Python project from the **Python Application** template, Visual Studio creates an empty Python file (_.py_) and opens the file in the editor. Visual Studio uses the project name that you specify at creation as the name for the file. The default project name is "Python Application1" and the default file name is _PythonApplication1.py_. In this section, you add code to this empty Python file.
+
+Follow these steps to start writing Python code:
+
+1. Open your empty Python file in the Visual Studio editor.
+
+1. In the editor, start to enter the Python function name `print`.
+
+   As you enter the function name, Visual Studio IntelliSense displays auto-completion options for your code. The default completion option is highlighted:
+
+   :::image type="content" source="media/tutor-python-2-intellisense-print-completion.png" alt-text="Screenshot that shows IntelliSense auto-completion options in the editor in Visual Studio. The default completion option is highlighted." border="false" lightbox="media/tutor-python-2-intellisense-print-completion.png":::
+
+   To apply the default completion to your code, select the **Tab** keyboard shortcut.
+   
+   Completions are most helpful when you need to add longer statements or identifiers in your code. IntelliSense shows different completion options based on the statement you're using. For example, when you use parenthesis `()` with a function name, Intellisense recognizes the code as a function call.
+
+1. In the editor, start to enter code to call the `print()` function.
+
+   When you enter the open parenthesis `(`, Intellisense shows full usage information for the function. The current argument is in boldface. In this example, the argument is **values: object**:
+
+   :::image type="content" source="media/tutor-python-2-intellisense-argument-completion.png" alt-text="Screenshot that shows IntelliSense auto-completion options for the print function in the editor in Visual Studio." border="false" lightbox="media/tutor-python-2-intellisense-argument-completion.png":::
+
+1. In the editor, complete the code statement so it matches the following example:
 
    ```python
    print("Hello, Visual Studio")
    ```
 
-1. Notice the syntax coloration that differentiates the statement `print` from the argument `"Hello Visual Studio"`. You can, temporarily delete the last `"` on the string and notice how Visual Studio shows a red underline for code that contains syntax errors. Finally replace the `"` to correct the code.
+   Notice how Visual Studio applies different syntax coloration for the `print` function versus the function argument `"Hello, Visual Studio"`. Visual Studio also uses coloring and formatting techniques to help you read your code. For example, Visual Studio uses underlining to draw your attention to issues with your code.
 
-   ![IntelliSense syntax coloring and error highlighting](media/vs-getting-started-python-06-IntelliSense3b.png)
+1. Temporarily delete the closing quote mark `"` for the string argument.
 
-   > [!Tip]
-   > Because one's development environment is a very personal matter, Visual Studio gives you complete control over Visual Studio's appearance and behavior. Select the **Tools** > **Options** menu command and explore the settings under the **Environment** and **Text Editor** tabs. By default you see only a limited number of options; to see every option for every programming language, select **Show all settings** at the bottom of the dialog.
+   Notice how Visual Studio shows a red underline for code that contains syntax errors.
 
-1. Run the code you've written to this point by pressing **Ctrl**+**F5** or selecting **Debug** > **Start without Debugging** menu item. Visual Studio warns you if you still have errors in your code.
+   :::image type="content" source="media/tutor-python-2-intellisense-colors-highlights.png" alt-text="Screenshot that shows IntelliSense syntax coloring and error highlighting in the editor in Visual Studio." border="false" lightbox="media/tutor-python-2-intellisense-colors-highlights.png":::
 
-1. When you run the program, a console window will display the results. It's similar to running a Python interpreter with _PythonApplication1.py_ from the command line. Press any key to close the window and return to the Visual Studio editor.
+1. Replace the closing quote mark `"` in your code.
 
-   ![Output for the first run of the program](media/vs-getting-started-python-07-output.png)
+### Configure preferred formatting and behavior
 
-1. In addition to completions for statements and functions, IntelliSense provide completions for Python `import` and `from` statements. These completions help you easily discover what modules are available in your environment and the members of those modules. In the editor, delete the `print` line and start typing `import`. A list of modules appears when you type the space:
+Your development environment preferences are a personal matter. Visual Studio gives you complete control over the IDE appearance and interactive behavior. In addition to showing/hiding windows and setting up your preferred window layout, you can choose colors and other formatting options for menus, window content, and the editor.
 
-   ![IntellSense showing available modules for an import statement](media/vs-getting-started-python-08-import1.png)
+Follow these steps to explore configuration options for your environment:
 
-1. Complete the line by typing or selecting `sys`.
+1. Select **Tools** > **Options** on the toolbar.
 
-1. On the next line, type `from` to again see a list of modules:
+1. Explore the configuration settings under the **Environment** and **Text Editor** tabs.
 
-   ![IntellSense showing available modules for a from statement](media/vs-getting-started-python-09-import2.png)
+   Each tab lists settings by area, such as **General**, **Fonts and Colors**, **Advanced**, and so on.
+   
+1. Explore options specific to working with Python in Visual Studio:
 
-1. Select or type `math`, then continue typing with a space and `import`, which displays the module members:
+   - **Tools** > **Options** > **Python**
+   - **Tools** > **Options** > **Text Editor** > **Python**
 
-   ![IntellSense showing module members](media/vs-getting-started-python-10-import3.png)
+1. To see options that apply to all supported programming languages, select **Tools** > **Options** > **Text Editor** > **All Languages**.
 
-1. Finish by importing the `cos` and `radians` members, noticing the autocompletions available for each. When you're done, your code should appear as follows:
+## Run code in Visual Studio
+
+After you have some code in place, you're ready to try running your program. You can choose to run the application with or without debugging.
+
+1. To run the code without debugging, select **Debug** > **Start without Debugging** on the toolbar, or use the **Ctrl**+**F5** keyboard shortcut.
+
+   Visual Studio warns you if you still have errors in your code.
+
+1. When you run the program, a console window opens to show the results. This window is similar to what you see when you run a Python interpreter with the Python file (_PythonApplication1.py_) from the command line.
+
+   :::image type="content" source="media/tutor-python-2-first-run-program-output.png" alt-text="Screenshot that shows the console window with output for the running program in Visual Studio." border="false" lightbox="media/tutor-python-2-first-run-program-output.png":::
+
+1. To close the console window, select any key. You return to the Visual Studio editor.
+
+## Explore Intellisense completions
+
+In addition to completions for statements and functions, IntelliSense provides completions for Python `import` and `from` statements. These completions help you easily discover what modules are available in your environment and the members of those modules.
+
+Follow these steps to explore more Intellisense completion features:
+
+1. In the editor, delete the `print` statement from your code.
+
+1. Start to enter the `import sys` statement. When you start to enter `sys`, Visual Studio shows a list of possible modules for the `import` function:
+
+   :::image type="content" source="media/tutor-python-2-intellisense-import-sys-completion.png" alt-text="Screenshot that shows how IntelliSense displays the available modules for an import statement in the editor in Visual Studio." border="false" lightbox="media/tutor-python-2-intellisense-import-sys-completion.png":::
+
+   You can scroll through the list to see the full set of available modules.
+
+1. To complete the statement, enter `sys` or select the `sys` completion option in the Intellisense dialog.
+
+1. Move to the next line in your code file, and start to enter the `from math` statement. Visual Studio shows the list of possible modules for the function:
+
+   :::image type="content" source="media/tutor-python-2-intellisense-from-math-completion.png" alt-text="Screenshot that shows how IntelliSense displays the available modules for the 'from' statement in the editor in Visual Studio." border="false" lightbox="media/tutor-python-2-intellisense-from-math-completion.png":::
+
+1. Complete the `math` library name or select the `math` completion option from the Intellisense dialog.
+
+1. Continue the statement by adding a space followed by the `import` function name. Visual Studio shows the list of possible module members for this use of the `import` function:
+
+   :::image type="content" source="media/tutor-python-2-intellisense-import-members-completion.png" alt-text="Screenshot that shows how IntelliSense displays the available module members for the `import` function in the editor in Visual Studio" border="false" lightbox="media/tutor-python-2-intellisense-import-members-completion.png":::
+
+1. Finish the statement by using the Intellisense completion options to add the `cos` and `radians` members.
+
+   Here's what your completed code should look like:
 
    ```python
    import sys
    from math import cos, radians
    ```
 
-   > [!Tip]
-   > Completions work with substrings as you type, matching parts of words, letters at the beginning of words, and even skipped characters. See [Edit code - Completions](editing-python-code-in-visual-studio.md#completions) for details.
+   > [!TIP]
+   > Completions work with substrings as you type, matching parts of words, letters at the beginning of words, and even skipped characters.
 
-1. Add a little more code to print the cosine values for 360 degrees:
+1. Add a little more code to your Python file and print the cosine values for 360 degrees:
 
    ```python
    for i in range(360):
        print(cos(radians(i)))
    ```
 
-1. Run the program again with **Ctrl**+**F5** or **Debug** > **Start without Debugging**. Close the output window when you're done.
+1. Run your program again. You can try the **Ctrl**+**F5** keyboard shortcut.
+
+   Close the program output window when you're done.
 
 ## Next step
 
 > [!div class="nextstepaction"]
-> [Use the interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md)
-
-## Go deeper
-
-- [Edit code](editing-python-code-in-visual-studio.md)
-- [Format code](formatting-python-code.md)
-- [Refactor code](refactoring-python-code.md)
-- [Use PyLint](linting-python-code.md)
+> [Step 3: Use the interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md)
