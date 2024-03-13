@@ -42,15 +42,7 @@ You can configure preferences for debugging, diagnostics, and the general enviro
 
 ::: moniker-end
 
-The **Options** dialog lists other Python settings under **Text Editor** > **Python**. There are options for scroll bars, tabs, and formatting, along with general and advanced settings.
-
-::: moniker range=">=vs-2022"
-
-:::image type="content" source="media/vs-2022/options-text-editor-python-all-tabs-general.png" alt-text="Screenshot that shows the categories of options for Python and the specific general options in Visual Studio 2022." lightbox="media/vs-2022/options-text-editor-python-all-tabs-general.png":::
-
-::: moniker-end
-
-Other settings are available under **Environment** > **Fonts and Colors** for the **Text Editor** settings group.
+The **Options** dialog lists other Python settings under **Text Editor** > **Python**. There are options for scroll bars, tabs, and formatting, along with general and advanced settings. Other settings are available under **Environment** > **Fonts and Colors** for the **Text Editor** settings group.
 
 ::: moniker range="<=vs-2019"
 
@@ -104,8 +96,6 @@ The following options are available under **Tools** > **Options** > **Python**> 
 
 The following options are available under **Tools** > **Options** > **Python**> **Conda**:
 
-:::image type="content" source="media/options-conda.png" alt-text="Screenshot of the Conda options for Python in the Options dialog." lightbox="media/options-conda.png":::
-
 | Option | Default | Description |
 | --- | --- | --- |
 | **Conda executable path** | (blank) | Specifies an exact path to the *conda.exe* executable rather than relying on the default Miniconda installation included with the Python workload. If another path is given here, it takes precedence over the default installation and any other conda.exe executables specified in the registry. You might change this setting if you manually install a newer version of Anaconda or Miniconda, or want to use a 32-bit distro rather than the default 64-bit distro. |
@@ -128,10 +118,6 @@ The following options are available under **Tools** > **Options** > **Python**> 
 
 ::: moniker-end
 ::: moniker range="<=vs-2019"
-
-<!-- Remove image after text confirmed -->
-
-:::image type="content" source="media/options-debugging-2019.png" alt-text="Screenshot of Debugging options for Python in the Options dialog." lightbox="media/options-debugging-2019.png":::
 
 | Option | Default | Description | Availability | 
 | --- | --- | --- | --- |
@@ -176,9 +162,6 @@ The following options are available under **Tools** > **Options** > **Python**> 
 | **Save diagnostics to file** | n/a | This option prompts for a filename and saves the log to a text file. | Visual Studio 2019 and earlier |
 | **Copy diagnostics to clipboard** button | n/a | Select this option to place the entire log file on the clipboard. This operation might take some time depending on the size of the log. | Visual Studio 2019 and earlier |
 
-:::image type="content" source="media/options-diagnostics.png" alt-text="Screenshot of Diagnostics options for Python in the Options dialog." lightbox="media/options-diagnostics.png":::
-
-
 ### Language server options
 
 The following options are available under **Tools** > **Options** > **Python**> **Language server**:
@@ -188,17 +171,11 @@ The following options are available under **Tools** > **Options** > **Python**> 
 | **Disable completions from Typeshed** | Off | Visual Studio IntelliSense normally uses a bundled version of Typeshed (a set of *.pyi* files) to find type hints for standard library and third-party libraries for both Python 2 and Python 3. Setting this option disables the bundled TypeShed behavior. | Visual Studio 2019 and earlier |
 | **Custom Typeshed path** | (blank) | If set, Visual Studio uses the Typeshed files at this path instead of its bundled version. Ignore if **Disable completions from Typeshed** is set. | Visual Studio 2019 and earlier |
 
-:::image type="content" source="media/options-language-server.png" alt-text="Screenshot of Language Server options for Python in the Options dialog." lightbox="media/options-language-server.png":::
-
 ::: moniker-end
 
 ### Interactive Windows options
 
 The following options are available under **Tools** > **Options** > **Python**> **Interactive Windows**:
-
-<!-- Remove image after text confirmed -->
-
-:::image type="content" source="media/options-interactive-windows.png" alt-text="Screenshot of Interactive Windows options for Python in the Options dialog." lightbox="media/options-interactive-windows.png":::
 
 | Option | Default | Description |
 | --- | --- | --- |
@@ -215,15 +192,15 @@ Under **Text Editor** > **Python**, there are options for scroll bars, tabs, and
 
 ::: moniker range=">=vs-2022"
 
-:::image type="content" source="media/vs-2022/options-text-editor-python-all-tabs-general.png" alt-text="Screenshot that shows the categories of options for Python and the specific general options in Visual Studio 2022." lightbox="media/vs-2022/options-text-editor-python-all-tabs-general.png":::
+:::image type="content" source="media/vs-2022/options-text-editor-python-all-tabs-general.png" alt-text="Screenshot that shows the categories of text editor options for Python and specific general options in Visual Studio 2022." lightbox="media/vs-2022/options-text-editor-python-all-tabs-general.png":::
 
 ::: moniker-end
 
 <!-- TBD: Add picture for VS 2019 ? -->
 
-### General Python editor options
-
 ::: moniker range=">=vs-2022"
+
+### General Python editor options
 
 The following options are available under **Tools** > **Options** > **Text Editor** > **Python** > **General**:
 
@@ -243,7 +220,7 @@ The following options are available under **Tools** > **Options** > **Text Edito
 
 ::: moniker-end
 
-<!-- TBD: Add detailed table for VS 2019 ? -->
+<!-- TBD: Add detailed table for General options in VS 2019 ? -->
 
 ### Advanced Python editor options
 
