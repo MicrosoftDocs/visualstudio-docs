@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Data Sources Window, label captions
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Customize how Visual Studio creates captions for data-bound controls in .NET Framework applications

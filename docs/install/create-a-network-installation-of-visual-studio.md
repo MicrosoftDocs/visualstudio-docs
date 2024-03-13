@@ -1,14 +1,14 @@
 ---
 title: Create a network-based installation
 description: Create a private network install point to deploy Visual Studio to support enterprise users with limited permissions or client machines with limited internet access.
-ms.date: 3/4/2024
+ms.date: 3/11/2024
 ms.topic: conceptual
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
 - '{{PLACEHOLDER}}'
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 
 ms.subservice: installation
 ---
@@ -33,7 +33,7 @@ The information on this page is grouped up into three main sections:
 
 ### Prepare the network file share storage location
 
-First, you need to determine where you're going to store the downloaded Visual Studio packages. If you have multiple editions of Visual Studio in use within your enterprise (for example, Visual Studio 2022 Professional and Visual Studio 2022 Enterprise), you must create a separate layout for each edition. This can consume a lot of disk space, especially when you consider that layout updates consume disk space too. 
+First, you need to determine where you're going to store the downloaded Visual Studio packages. If you have multiple editions of Visual Studio in use within your enterprise (for example, Visual Studio 2022 Professional and Visual Studio 2022 Enterprise), you must create a separate layout for each edition. Creating a separate layout for each edition can consume a lot of disk space, especially when you consider that layout updates consume disk space too. 
 
 The layout path must be fewer than 80 characters; some organizations successfully use [symbolic links](/windows/win32/fileio/symbolic-links) to work around the 80-character limitation. 
 
@@ -57,7 +57,7 @@ Other supported bootstrappers include [vs_teamexplorer.exe](https://aka.ms/vs/16
 
 ::: moniker range="=vs-2022"
 
-The following bootstrappers always install the latest most secure version of Visual Studio 2022 on the Current channel, no matter when you run them. Alternatively, if you want to create or update a layout to a specific version or a specific channel of Visual Studio 2022, go to the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page that has links to the evergreen and fixed version bootstrappers for each servicing release on each channel, and download the one you want. Copy it into the directory that you want to serve as the source location of the layout. 
+The following bootstrappers always install the latest most secure version of Visual Studio 2022 on the Current channel, no matter when you run them. Alternatively, if you want to create or update a layout to a specific version or a specific channel of Visual Studio 2022, download the evergreen and fixed version bootstrapper for the servicing release for the channel that you want from [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers). Copy it into the directory that you want to serve as the source location of the layout. 
 
 | Edition                         | Bootstrapper                                                            |
 |---------------------------------|-------------------------------------------------------------------------|
@@ -98,7 +98,7 @@ The recommended approach is to create an initial layout of Visual Studio with al
 
 ### Ensure your layout is based off of the correct channel
 
-It's important to ensure that the network layout is based off of the correct [channel](/visualstudio/releases/2022/vs2022-release-rhythm), because this is one of the criteria that [administrator updates](applying-administrator-updates.md), if they're deployed throughout the organization, use to identify which client instances should be updated. For example, if your layout is based off of the VisualStudio.17.Release.LTSC.17.0 channel and if your clients are configured to receive updates from Microsoft hosted servers, then any security updates that we make available on the 17.0 LTSC channel will be available to the clients that have installed or updated from that layout. 
+It's important to ensure that the network layout is based off of the correct [channel](/visualstudio/releases/2022/vs2022-release-rhythm), because it's one of the criteria that [administrator updates](applying-administrator-updates.md), if deployed throughout the organization, use to identify which client instances should be updated. For example, if your layout is based on the VisualStudio.17.Release.LTSC.17.0 channel and if your clients are configured to receive updates from Microsoft hosted servers, then any security updates made available on the 17.0 LTSC channel are available to the clients that installed or updated from that layout. 
 
 The bootstrappers listed previously are based off of the Current channel. To create a layout based off of one of the LTSC channels, acquire the correct channel's bootstrapper from the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page, copy it into your layout folder, and use it to create or update the layout. 
 
@@ -106,12 +106,12 @@ The bootstrappers listed previously are based off of the Current channel. To cre
 
 ### Configure the contents of a layout
 
-There are several options you can use to customize the contents of your network layout. You can create a partial layout that only contains a specific set of [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales), [workloads, components, and their recommended or optional dependencies](workload-and-component-ids.md). This might be useful if you know that you're going to deploy only a subset of workloads to client workstations. Typical command-line parameters for customizing the layout include:
+There are several options you can use to customize the contents of your network layout. You can create a partial layout that only contains a specific set of [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales), [workloads, components, and their recommended or optional dependencies](workload-and-component-ids.md). A partial layout is useful if you know that you're going to deploy only a subset of workloads to client workstations. Typical command-line parameters for customizing the layout include:
 
 * `--add` to specify [workload or component IDs](workload-and-component-ids.md). <br>If `--add` is used, only those workloads and components specified with `--add` are downloaded.  If `--add` isn't used, all workload and components are downloaded.
 * `--includeRecommended` to include all the recommended components for the specified workload IDs.
 * `--includeOptional` to include all the optional components for the specified workload IDs.
-* `--config` to use a `*.vsconfig` file to specify the components that should be included in the layout. Make sure you specify the **full path** of the config file.  
+* `--config` to use a `*.vsconfig` file to specify the [workloads, components or extensions](#use-a-configuration-file-to-initialize-the-contents-of-a-layout) that should be included in or referenced by the layout. Make sure you specify the **full path** of the config file.  
 * `--lang` to specify [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales).
 
 Here are a few examples of how to create a custom network layout.
@@ -139,12 +139,16 @@ Here are a few examples of how to create a custom network layout.
     ```shell
     vs_enterprise.exe --layout C:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Component.Git --lang en-US de-DE ja-JP
     ```
-    
-* You can also use a [vsconfig file](import-export-installation-configurations.md) to customize and limit the contents of a network layout. Make sure you specify the **full path** of the config file. If there are any [extensions in the vsconfig file](import-export-installation-configurations.md#extensions), the extensions files aren't copied into the layout, but the response.json file contains a reference to the extension, and the client tries to install it when installing from the layout.
 
-    ```shell
-    vs_enterprise.exe --layout C:\VSLayout --config "C:\myconfig.vsconfig" 
-    ```
+#### Use a configuration file to initialize the contents of a layout
+
+You can use the `--config` parameter to pass in a [`*.vsconfig` file](import-export-installation-configurations.md). Make sure you specify the **full path** of the config file. Using a `*.vsconfig` file during layout creation customizes and limits the contents of a network layout to what is specified in the configuration file. The configuration file is copied into the layout directory and renamed to `layout.vsconfig`.  
+
+Any [extensions specified in the `*.vsconfig` file](import-export-installation-configurations.md#extensions) aren't copied directly into the layout. Instead, the layout's `response.json` file contains a reference to the newly created `layout.vsconfig` file, defining the installation location for the client's extensions. If you're installing extensions that aren't digitally signed, make sure to edit the `response.json` to add `"allowUnsignedExtensions": true`. See [`response.json` content examples](automated-installation-with-response-file.md#example-customized-layout-response-file-content).  
+
+```shell
+vs_enterprise.exe --layout "C:\VSLayout" --config "C:\myconfig.vsconfig" 
+```
 
 ### Copy the layout to a network share
 
@@ -156,16 +160,22 @@ xcopy /e c:\VSLayout \\server\share\layoutdirectory
 
 ### Configure initial client installation defaults for this layout
 
-A file called `response.json` gets created in the root folder of the layout. This customizable file supplies the initial default settings that are configured on the client when the client initially installs from the layout. Common configuration options include the ability to configure which workloads, components, or languages should be installed by default on the client, where the client should receive updates from, or if out-of-support components should be removed during an update.  
+A file called `response.json` is created in the root folder of the layout. This customizable file supplies the initial default settings to configure on the client, when the client initially installs from the layout. Common configuration options include the ability to configure:
+- Which workloads, components, or languages should be installed by default on the client
+- If recommended components should also be installed
+- If the client should respect an installation `*.vsconfig` file
+- Where should the client receive updates from
+- If out-of-support components should be removed during an update
+- If unsigned extensions are allowed to load quietly & programmatically
 
 More information can be found on the [Automate Visual Studio installation with a response file](automated-installation-with-response-file.md) page. 
 
 ### Making your layout accessible via an intranet site
 
-Starting in June 2023, you're able to make your layouts available on an internal intranet site, which lets you take advantage of webserver file caching and georeplication performance capabilities. To use this new feature, you need to use the latest Visual Studio bootstrappers and the latest Visual Studio Installer. IT administrators must do the following to take advantage of this intranet webhosting capability:
+Starting in June 2023, you're able to make your layouts available on an internal intranet site, which lets you take advantage of webserver file caching and georeplication performance capabilities. To use this new feature, you need to use the latest Visual Studio bootstrappers and the latest Visual Studio Installer. IT administrators must do the following to take advantage of this intranet web hosting capability:
 
 1. First, create and maintain a network layout and ensure that the bits are present and regularly updated on the network share. Also, remember to configure the [channelUri value in the layout's response.json](automated-installation-with-response-file.md#configure-the-response-file-used-when-installing-from-a-layout) if you want your clients to get their updates from the intranet layout location.
-2. Next, an admin will need to prepare an internal website and bind the website's source to the layout's network file location. They also need to ensure that the following MIME types in the following table are respected by the webserver. 
+2. Next, an admin will need to prepare an internal website and bind the website's source to the layout's network file location. They also need to ensure that the webserver respects the following MIME types:
 
      | **File Extension** | **MIME Type** |
      |------------------|------------------|
@@ -181,16 +191,16 @@ Starting in June 2023, you're able to make your layouts available on an internal
      | **.xml**| `text/xml` |
      | **.zip**| `application/x-zip-compressed` |
 
-3. Lastly, to deploy this layout on the client, [run a PowerShell script on the client to perform the initial installation](deploy-a-layout-onto-a-client-machine.md#install-from-an-internal-intranet-location). After Visual Studio successfully installs onto the client from a webhosted layout, then [client updates for webhosted layouts can be updated via standard methods](update-a-network-installation-of-visual-studio.md).  
+3. Lastly, to deploy this layout on the client, [run a PowerShell script on the client to perform the initial installation](deploy-a-layout-onto-a-client-machine.md#install-from-an-internal-intranet-location). After Visual Studio successfully installs onto the client from a web hosted layout, then [client updates for webhosted layouts can be updated via standard methods](update-a-network-installation-of-visual-studio.md).  
 
 ### Ensure your layout is using the latest installer
 
 > [!NOTE]
 > As of June 2023, the latest installer ships by default with every update to all supported versions of Visual Studio 2017, Visual Studio 2019, and Visual Studio 2022. So if you're using one of these product versions, you won't need to do anything explicitly to get the latest version of the installer with the latest functionality and bug fixes. 
 
-If you're using a version of Visual Studio that was shipped before June 2023, we recommend that you always use the latest Visual Studio Installer in your layout and distribute it to your clients. For example, if you distribute the Visual Studio 2022 installer in your Visual Studio 2019 layout, then your Visual Studio 2019 clients based off of that layout have the ability to change the source location for updates or to easily remove out-of-support components. Further details are [described below](#configure-the-layout-to-always-include-and-provide-the-latest-installer).
+If you're using a version of Visual Studio shipped before June 2023, we recommend that you always use the latest Visual Studio Installer in your layout and distribute it to your clients. For example, if you distribute the Visual Studio 2022 installer in your Visual Studio 2019 layout, then your Visual Studio 2019 clients based off of that layout have the ability to change the source location for updates or to easily remove out-of-support components. Further details are [described in the following section](#configure-the-layout-to-always-include-and-provide-the-latest-installer).
 
-The capability to programmatically ensure that you're using the latest installer is only available to Visual Studio 2019 bootstrappers that were built after Visual Studio 2022 originally shipped. So, the vs_enterprise.exe in the following example must be a version that shipped _after_ November 10, 2021. 
+The capability to ensure programmatically that you're using the latest installer is only available to Visual Studio 2019 bootstrappers that were built after Visual Studio 2022 originally shipped. So, the vs_enterprise.exe in the following example must be a version that shipped _after_ November 10, 2021. 
 
 To create a layout of the entire product that uses the latest and greatest installer available, run
 
@@ -200,7 +210,7 @@ vs_enterprise.exe --layout C:\VSLayout --useLatestInstaller
 
 ## Maintaining your layout
 
-It's a best practice to periodically update your Visual Studio layout to the latest secure version of the product. This will ensure that the layout can be used both as an installation point as well as an update source for client installations. The following section describes the most common or useful layout maintenance operations.
+It's a best practice to periodically update your Visual Studio layout to the latest secure version of the product. This ensures that the layout can be used both as an installation point and an update source for client installations. The following section describes the most common or useful layout maintenance operations.
 
 If you host a layout on a network file share, you may want to download an updated layout to a private local share (for example, c:\VSLayoutUpdate) and then, after all of the updated content is downloaded, copy it to your layout network file share (for example, \\server\products\VS). If you don't do this, users who happen to run setup while you're updating the layout might get a mismatch of content from the layout because it wasn't yet completely updated.
 
@@ -284,16 +294,16 @@ If you want to modify an existing partial layout so that it becomes a full layou
 vs_enterprise.exe --layout c:\VSLayout --all
 ```
 
-You can add components to a layout by passing in a vsconfig file that contains the additional components you want in your layout. 
+You can add components to a layout by passing in a `*.vsconfig` file that contains the additional components you want in your layout. If you do this, the new `*.vsconfig` content will overwrite the existing `layout.vsconfig` content. For more information, refer to the previous section [Using a configuration file to initialize the contents of a layout](#use-a-configuration-file-to-initialize-the-contents-of-a-layout).
 
 ```shell
-vs_enterprise.exe --layout C:\VSLayout --config "C:\myconfig.vsconfig"
+vs_enterprise.exe --layout C:\VSLayout --config "C:\myupdatedconfig.vsconfig"
 ```
 
 Lastly, you can directly edit the `layout.json` configuration file in the layout folder and update the "add" section of this file to include the additional components you want included in your layout. You'll then need to update the layout using `--layout` as previously described to download the latest components. 
  
- > [!Note]
- > The easiest way to install the newly added layout components onto a client machine is to run the bootstrapper in the layout from the client machine. The 'add' section of the `response.json` file in the layout will determine which components are selected by default in the client's installer UI. If you've modified the layout using one of the methods above, you may want to manually double check and possibly adjust the 'add' section in the `response.json` file so that it more appropriately matches the contents in the 'add' section of the newly modified `layout.json` file. 
+> [!NOTE]
+> The easiest way to install the newly added layout components onto a client machine is to run the bootstrapper in the layout from the client machine. The 'add' section of the `response.json` file in the layout will determine which components are selected by default in the client's installer UI. If you've modified the layout using one of the methods above, you may want to manually double check and possibly adjust the 'add' section in the `response.json` file so that it more appropriately matches the contents in the 'add' section of the newly modified `layout.json` file. 
 
 ### Configure the layout to remove out-of-support components on the client machine.
 

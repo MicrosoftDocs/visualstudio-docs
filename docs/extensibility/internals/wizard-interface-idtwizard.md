@@ -8,7 +8,7 @@ helpviewer_keywords:
 - wizards, interface
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Wizard Interface (IDTWizard)

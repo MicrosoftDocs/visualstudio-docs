@@ -9,7 +9,7 @@ helpviewer_keywords:
 - MSBuild, msbuild.exe
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # Build specific targets in solutions by using MSBuild.exe

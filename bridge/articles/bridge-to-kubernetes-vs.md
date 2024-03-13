@@ -4,7 +4,7 @@ description: Use Bridge to Kubernetes with Visual Studio to connect to a cluster
 keywords: "Bridge to Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, Kubernetes, Azure, containers"
 ms.author: ghogen
 author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: bridge
 ms.topic: tutorial 
 ms.date: 08/11/2022

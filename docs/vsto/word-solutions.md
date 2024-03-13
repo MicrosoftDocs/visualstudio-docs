@@ -24,7 +24,7 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], Word"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Word solutions

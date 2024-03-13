@@ -9,7 +9,7 @@ dev_langs:
 - C++
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # ToolTaskExtension base class

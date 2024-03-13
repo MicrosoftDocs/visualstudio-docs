@@ -6,7 +6,7 @@ ms.date: 10/23/2023
 ms.topic: how-to
 author: houghj16
 ms.author: jehoughton
-ms.manager: jmartens
+ms.manager: mijacobs
 
 ms.subservice: general-ide
 ---

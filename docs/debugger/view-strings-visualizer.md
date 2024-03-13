@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "visualizers, string"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # View strings in a string visualizer in Visual Studio

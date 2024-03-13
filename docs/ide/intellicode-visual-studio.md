@@ -9,7 +9,7 @@ ms.subservice: intellicode
 ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ---
 # IntelliCode: AI-assisted code development in Visual Studio
 

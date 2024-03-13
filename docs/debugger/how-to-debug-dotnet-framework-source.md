@@ -7,7 +7,7 @@ helpviewer_keywords:
   - debugging, .NET Framework source
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Debug .NET Framework source

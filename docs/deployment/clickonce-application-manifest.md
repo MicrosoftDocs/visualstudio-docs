@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "ClickOnce, application manifests"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # ClickOnce application manifest

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - what's new [Visual Studio SDK], source control plug-ins
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # What&#39;s New in the Source Control Plug-in API Version 1.3

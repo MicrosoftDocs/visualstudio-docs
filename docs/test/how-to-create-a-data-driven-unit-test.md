@@ -11,7 +11,7 @@ helpviewer_keywords:
   - unit tests, data-driven
   - data-driven unit tests
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: test-tools
 author: mikejo5000
 ---

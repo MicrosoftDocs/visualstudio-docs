@@ -8,7 +8,7 @@ f1_keywords:
 - Blend.Start.Dev12
 author: maddymontaquila
 ms.author: maleger
-manager: jmartens
+manager: mijacobs
 ms.subservice: xaml-tools
 ---
 # Blend for Visual Studio overview
@@ -20,6 +20,12 @@ Blend for Visual Studio is a component of Visual Studio. To install Blend, in th
 ![UWP workload components](media/installer-uwp.png)&nbsp;&nbsp;&nbsp;&nbsp;![.NET desktop development workload components](media/installer-dotnet-desktop.png)
 
 If you're new to Blend for Visual Studio, take a moment to become familiar with the unique features of the workspace. This topic takes you on a quick tour.
+
+::: moniker range=">= vs-2022"
+## Open Blend
+
+To switch to the Blend UI, open a XAML-based project in Visual Studio and select **View** > **Design in Blend...**, and the Blend for Visual Studio UI opens.
+::: moniker-end
 
 ## Tools panel
 

@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Architecture, Visual Studio Integration
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # VSSDK Utilities

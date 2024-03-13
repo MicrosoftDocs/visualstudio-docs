@@ -5,7 +5,7 @@ ms.date: 08/08/2023
 ms.topic: conceptual
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Productivity guide for Visual Studio

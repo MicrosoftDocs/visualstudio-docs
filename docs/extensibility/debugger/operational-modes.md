@@ -7,7 +7,7 @@ helpviewer_keywords:
 - debug engines, modes
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Operational modes

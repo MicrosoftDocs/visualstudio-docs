@@ -5,7 +5,7 @@ ms.date: 10/17/2023
 ms.topic: overview
 description: Explore the processes for using Bridge to Kubernetes to connect your development computer to your Kubernetes cluster, including diagnostics and logging.
 keywords: "Bridge to Kubernetes, Docker, Kubernetes, Azure, containers"
-manager: jmartens
+manager: mijacobs
 author: ghogen
 ms.author: ghogen
 ---

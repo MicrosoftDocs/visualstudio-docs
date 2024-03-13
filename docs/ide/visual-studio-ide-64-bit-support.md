@@ -9,7 +9,7 @@ helpviewer_keywords:
 - 64-bit programming [C++]
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Visual Studio IDE 64-Bit support

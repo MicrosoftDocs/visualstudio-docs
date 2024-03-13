@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "text [Office development in Visual Studio], text searches"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically search for and replace text in documents

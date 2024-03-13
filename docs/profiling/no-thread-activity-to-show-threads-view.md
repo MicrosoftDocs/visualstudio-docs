@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, No Thread Activity to Show (Threads View)"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # No thread activity to show (Threads View)

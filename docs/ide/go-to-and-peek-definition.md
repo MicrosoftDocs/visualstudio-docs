@@ -11,7 +11,7 @@ helpviewer_keywords:
 - member definition [Visual Studio]
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # View type and member definitions

@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "date values"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically store and retrieve date values in Excel ranges

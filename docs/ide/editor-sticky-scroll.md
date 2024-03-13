@@ -5,7 +5,7 @@ ms.date: 05/18/2023
 ms.topic: overview 
 author: anandmeg
 ms.author: meghaanand
-ms.manager: jmartens
+ms.manager: mijacobs
 ms.subservice: general-ide
 monikerRange: vs-2022
 ---

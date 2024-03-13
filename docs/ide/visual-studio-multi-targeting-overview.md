@@ -9,7 +9,7 @@ helpviewer_keywords:
 - .NET Framework targeting [Visual Studio]
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Framework targeting overview

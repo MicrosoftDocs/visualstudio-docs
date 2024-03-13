@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Advanced Security Settings dialog box
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 monikerRange: 'vs-2019'
 ---
 # Advanced Security Settings dialog box

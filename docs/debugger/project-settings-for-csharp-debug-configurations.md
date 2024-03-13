@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "debugging [C#], debugger settings"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Project settings for C# debug configurations

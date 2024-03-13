@@ -9,7 +9,7 @@ helpviewer_keywords:
 - commands, changing text
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Change the text of a menu command

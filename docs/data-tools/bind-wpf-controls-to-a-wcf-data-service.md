@@ -12,7 +12,7 @@ helpviewer_keywords:
 - WPF Designer, data binding
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Bind WPF controls to a WCF data service

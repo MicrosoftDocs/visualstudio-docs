@@ -5,7 +5,7 @@ ms.date: 9/28/2023
 ms.topic: how-to
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 
 ms.subservice: installation
 ---

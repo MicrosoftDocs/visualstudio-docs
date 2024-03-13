@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "Spy++ toolbar"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 

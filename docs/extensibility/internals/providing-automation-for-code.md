@@ -7,7 +7,7 @@ helpviewer_keywords:
 - CodeModel object
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Providing Automation for Code

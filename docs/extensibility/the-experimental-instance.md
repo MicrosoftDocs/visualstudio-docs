@@ -9,7 +9,7 @@ helpviewer_keywords:
 - VSIP, experimental builds
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # The Experimental Instance

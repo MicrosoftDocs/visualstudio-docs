@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "packages [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # Create SharePoint solution packages

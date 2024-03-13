@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], updating entity instances"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # Add an Updater method

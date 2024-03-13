@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio], variable evaluation"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Expressions in the Visual Studio debugger

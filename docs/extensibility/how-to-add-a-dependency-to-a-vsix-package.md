@@ -10,7 +10,7 @@ helpviewer_keywords:
 - vsix reference
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Add a dependency to a VSIX package

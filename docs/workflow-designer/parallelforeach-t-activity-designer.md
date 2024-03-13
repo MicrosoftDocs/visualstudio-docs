@@ -7,7 +7,7 @@ f1_keywords:
   - "System.Activities.Statements.ParallelForEach`1.UI"
 author: jodavis
 ms.author: jodavis
-manager: jmartens
+manager: mijacobs
 ms.subservice: workflow-designer
 ---
 # ParallelForEach Activity Designer

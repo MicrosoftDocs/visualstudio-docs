@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, user controls"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # Create reusable controls for web parts or application pages

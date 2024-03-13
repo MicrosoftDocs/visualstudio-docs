@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "events [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Workbook host item

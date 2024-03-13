@@ -9,7 +9,7 @@ helpviewer_keywords:
 - windows forms
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Create a Windows Forms Toolbox Control

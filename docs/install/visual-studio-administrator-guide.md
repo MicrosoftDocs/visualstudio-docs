@@ -2,7 +2,7 @@
 title: Visual Studio administrator guide
 titleSuffix: ''
 description: Explore deployment options for Visual Studio in an enterprise environment, including acquiring the software and methods for deploying and updating the installation.
-ms.date: 8/8/2023
+ms.date: 3/11/2024
 ms.topic: overview
 helpviewer_keywords:
 - network installation, Visual Studio
@@ -10,7 +10,7 @@ helpviewer_keywords:
 - installing Visual Studio, administrator guide
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 
 ms.subservice: installation
 ---
@@ -52,18 +52,20 @@ You will need to make a plan for how you deploy Visual Studio across your organi
 
 ### Plan for how Visual Studio should be installed and initialized 
 
-   - How does Visual Studio get originally installed on the machine? The action of _initially_ installing Visual Studio requires administrative privileges on the machine. Do users have the ability to install the product themselves or will an IT admin need to facilitate it through an elevated process?
+   - How does Visual Studio get originally installed on the machine? The action of _initially_ installing Visual Studio by using a bootstrapper requires administrative privileges on the machine. Do users have the ability to install the product themselves or will an IT admin need to facilitate it through an elevated process?
 
    - How are you licensing and [distributing entitlement subscriptions within your organization](/visualstudio/subscriptions/admin-responsibilities)? Does the installation require [product keys](/visualstudio/subscriptions/product-keys)?
 
    - What [group policy settings](/visualstudio/install/configure-policies-for-enterprise-deployments) need to be configured on your client machines? Can you use the [Administrative Templates (ADMX)](./administrative-templates.md) or the [Microsoft Intune settings catalog](https://devblogs.microsoft.com/visualstudio/configure-visual-studio-policies-using-microsoft-endpoint-manager-intune/) to configure policies across your organization? 
 
-   - Which [workloads and components](workload-and-component-ids.md) does your company need?  
+   - Which [workloads and components](workload-and-component-ids.md) does your company need? Do you plan to utilize [`*.vsconfig` files](import-export-installation-configurations.md) to standardize your teams' installations?
    
 ### Plan for how Visual Studio will be regularly updated
 
-   - Where should your client machines acquire the product updates from? This often depends on if clients have access to the internet or not. Should they get their updates from an IT managed and maintained [company-wide network layout](update-a-network-installation-of-visual-studio.md), or should they acquire the updates from the internet? 
-   - Who is allowed to update the client machines? By default, the action of updating Visual Studio requires administrative privileges on the machine, although starting in August 2023, an admin can delegate update capability to standard users by configuring the [`AllowStandardUserControl` policy](https://aka.ms/vs/setup/policies). Are users allowed to update their machines, or does an admin need to invoke it centrally or programatically via a system context process? 
+   - Where should your client machines acquire the product updates from? This often depends on if clients have access to the internet or not. Should they get their updates from an IT managed and maintained [company-wide network layout](update-a-network-installation-of-visual-studio.md), or should they acquire the updates from the internet?
+     
+   - Who is allowed to update the client machines? By default, the action of updating Visual Studio requires administrative privileges on the machine, although starting in August 2023, an admin can delegate update capability to standard users by configuring the [`AllowStandardUserControl` policy](https://aka.ms/vs/setup/policies). Standard users can never use the bootstrapper, though. The `AllowStandardUserControl` policy just enables them to use the Visual Studio Installer functionality after the installer has already been installed on the client. Are users allowed to update their machines, or does an admin need to invoke it centrally or programmatically via a system context process?
+     
    - When should the updates happen? Should it be left to the user's discretion to decide when to update, or are there organizational policies that govern timeliness of updates? 
 
 > [!Tip] 
@@ -75,11 +77,11 @@ The following resources will help you do the initial install of Visual Studio in
 
 - **[Review the Install Visual Studio documentation](install-visual-studio.md)** to get a high level overview of the installation options available to end users. [Select the workloads and components](workload-and-component-ids.md) that you want available for install on your client machines.  
 
-- **[Acquire the correct Visual Studio bootstrapper to install the product](create-a-network-installation-of-visual-studio.md#download-the-visual-studio-bootstrapper-to-create-the-layout).** There are different bootstrappers available for you to choose from. Some bootstrappers install a very particular version of the product, while other bootstrappers initialize the servicing baseline channel. 
+- **[Acquire the correct Visual Studio bootstrapper to install the product](create-a-network-installation-of-visual-studio.md#download-the-visual-studio-bootstrapper-to-create-the-layout).** There are different bootstrappers available for you to choose from. Some bootstrappers install a very particular version of the product, while other bootstrappers initialize the servicing baseline channel. You must be an administrator on the machine to execute any of the bootstrappers.
 
-- **[Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)**. Use a variety of parameters to programmatically control or customize your Visual Studio installation. You can build an installation script that automates the installation process. For more information, see [command line parameter examples](command-line-parameter-examples.md).
+- **[Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)**. Use a variety of parameters or use an [installation configuration `*.vsconfig` file](import-export-installation-configurations.md) to programmatically control or customize your Visual Studio installation. You can build an installation script that automates the installation process. For more information, see [command line parameter examples](command-line-parameter-examples.md).
 
-- **[Create a layout (network installation) of Visual Studio](create-a-network-installation-of-visual-studio.md)**. A layout is a cache of the Visual Studio files in a folder on your network that you can use for both the initial installation as well as all product updates. A layout can be used if your client machines have limited internet connectivity. You can use a [response file](automated-installation-with-response-file.md), which allows you to set defaults when [installing the product](deploy-a-layout-onto-a-client-machine.md). After your layout is created, you should [maintain it regularly](create-a-network-installation-of-visual-studio.md#maintaining-your-layout). Remember to make sure that either the user or system account that's running the update has proper access to the network share that contains the layout. For more information, refer to [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md#error-the-product-fails-to-install-or-update-because-network-share-permissions-arent-configured-correctly).
+- **[Create a layout (network installation) of Visual Studio](create-a-network-installation-of-visual-studio.md)**. A layout is a cache of the Visual Studio files in a folder on your network that you can use for both the initial installation as well as all product updates. A layout can be used if your client machines have limited internet connectivity. You can use an [installation configuration *.vsconfig file](import-export-installation-configurations.md) to initialize the contents of the layout. You can use a [response file](automated-installation-with-response-file.md), which allows you to set defaults when [installing the product](deploy-a-layout-onto-a-client-machine.md). After your layout is created, you should [maintain it regularly](create-a-network-installation-of-visual-studio.md#maintaining-your-layout). Remember to make sure that either the user or system account that's running the update has proper access to the network share that contains the layout. For more information, refer to [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md#error-the-product-fails-to-install-or-update-because-network-share-permissions-arent-configured-correctly).
 
 -  **[Deploy a layout onto client machines within your organization](deploy-a-layout-onto-a-client-machine.md)**. Learn how to install Visual Studio from a layout onto client machines across your organization.
 

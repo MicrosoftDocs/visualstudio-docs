@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaLoadCallback2::RestrictSystemRootAccess method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDiaLoadCallback2::RestrictSystemRootAccess

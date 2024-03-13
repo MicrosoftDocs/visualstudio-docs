@@ -28,7 +28,7 @@ helpviewer_keywords:
   - Visual Basic projects, debug and release builds
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Set debug and release configurations in Visual Studio

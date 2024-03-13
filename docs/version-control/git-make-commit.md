@@ -6,7 +6,7 @@ ms.date: 01/19/2024
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-ms.manager: jmartens
+ms.manager: mijacobs
 ms.subservice: general-ide
 ---
 # Make a Git commit in Visual Studio

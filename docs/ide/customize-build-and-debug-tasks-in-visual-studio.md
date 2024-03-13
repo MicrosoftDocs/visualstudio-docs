@@ -11,7 +11,7 @@ helpviewer_keywords:
 - launch.vs.json file [Visual Studio]
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Customize build and debug tasks for "Open Folder" development

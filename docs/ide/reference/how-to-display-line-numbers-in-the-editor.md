@@ -10,7 +10,7 @@ helpviewer_keywords:
 - code, line number displaying
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Display line numbers in the editor

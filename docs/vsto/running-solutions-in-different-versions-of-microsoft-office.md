@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "multiple Office versions"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Run solutions in different versions of Microsoft Office

@@ -20,7 +20,7 @@ helpviewer_keywords:
   - "stepping, out of managed code"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Mixed Code and Missing Information in the Call Stack Window

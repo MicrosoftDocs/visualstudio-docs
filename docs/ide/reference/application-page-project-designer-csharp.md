@@ -11,7 +11,7 @@ helpviewer_keywords:
 - Application page in Project Designer
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 monikerRange: 'vs-2019'
 ---

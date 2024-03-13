@@ -19,7 +19,7 @@ helpviewer_keywords:
   - "debug configurations, Visual Basic"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Project Settings for a Visual Basic Debug Configuration

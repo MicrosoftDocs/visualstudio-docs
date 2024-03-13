@@ -7,7 +7,7 @@ helpviewer_keywords:
 - project subtypes, initialization sequence
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Initialization Sequence of Project Subtypes

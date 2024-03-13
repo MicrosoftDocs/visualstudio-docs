@@ -16,7 +16,7 @@ helpviewer_keywords:
   - application updates
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Manage updates for a ClickOnce application

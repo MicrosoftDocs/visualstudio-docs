@@ -6,7 +6,7 @@ ms.subservice: general-ide
 ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ---
 # Develop apps for the Universal Windows Platform (UWP)
 

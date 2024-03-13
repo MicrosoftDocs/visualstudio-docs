@@ -2,7 +2,7 @@
 title: Add a connection to Azure SQL Database
 description: Connect Azure SQL Database to your application by using Connected Services in Visual Studio on Windows and add a connected service.
 author: AngelosP
-manager: jmartens
+manager: mijacobs
 ms.subservice: azure-development
 ms.topic: conceptual
 ms.date: 05/15/2023

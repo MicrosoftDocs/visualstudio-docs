@@ -8,7 +8,7 @@ helpviewer_keywords:
 - MSBuild, overview
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # MSBuild
@@ -59,6 +59,8 @@ For an introductory tutorial for MSBuild on Windows, see [Walkthrough: Using MSB
 ```cmd
 MSBuild.exe MyProj.proj -property:Configuration=Debug
 ```
+
+MSBuild does not change its behavior based on the file extension, but the convention is to use extensions ending in `proj` such as `.csproj`, `.vcxproj`, or `.vbproj`, for the main MSBuild input file, called the "project file."
 
  For more information about MSBuild command-line options, see [Command-line reference](../msbuild/msbuild-command-line-reference.md).
 

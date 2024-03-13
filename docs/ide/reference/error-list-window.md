@@ -10,7 +10,7 @@ helpviewer_keywords:
 - errors [Visual Studio], Error List window
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Error List window

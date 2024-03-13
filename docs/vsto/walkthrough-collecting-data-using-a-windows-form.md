@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "worksheets [Office development in Visual Studio], collecting data"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Walkthrough: Collect data by using a Windows Form

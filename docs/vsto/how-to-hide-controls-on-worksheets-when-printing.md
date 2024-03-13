@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "worksheets, hiding controls when printing"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Hide controls on worksheets when printing

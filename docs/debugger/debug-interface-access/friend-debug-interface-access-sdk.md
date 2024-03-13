@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "Friend symbol"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Friend (Debug Interface Access SDK)

@@ -9,7 +9,7 @@ helpviewer_keywords:
 - UNMANAGED_ADDRESS_THIS_RELATIVE structure
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

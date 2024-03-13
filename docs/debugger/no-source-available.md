@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "No Source Code Available for the Current Location dialog box"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # No Source Available

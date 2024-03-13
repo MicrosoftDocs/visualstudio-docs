@@ -9,7 +9,7 @@ helpviewer_keywords:
 - app.config files, adding to C# projects
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Add an application configuration file to a C# project

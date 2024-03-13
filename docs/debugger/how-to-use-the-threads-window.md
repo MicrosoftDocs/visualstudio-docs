@@ -13,7 +13,7 @@ helpviewer_keywords:
   - tutorials, multithreaded debugging
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Walkthrough: Debug a multithreaded app using the Threads window (C#, Visual Basic, C++)

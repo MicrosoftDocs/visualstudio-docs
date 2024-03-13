@@ -13,7 +13,7 @@ helpviewer_keywords:
   - deploying applications [ClickOnce], multiple .NET Framework versions
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Use ClickOnce to deploy applications that can run on multiple versions of the .NET Framework

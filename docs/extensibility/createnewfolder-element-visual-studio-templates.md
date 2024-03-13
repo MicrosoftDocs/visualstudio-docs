@@ -10,7 +10,7 @@ helpviewer_keywords:
 - CreateNewFolder element [Visual Studio project templates]
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ---
 # CreateNewFolder element (Visual Studio templates)
 

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "keyboard shortcuts, Office development in Visual Studio"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Microsoft Office Excel Keyboard, Settings, Options dialog box

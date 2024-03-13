@@ -4,7 +4,7 @@ description: Learn how to use the .runsettings file in Visual Studio to configur
 ms.date: 09/05/2023
 ms.topic: conceptual
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: test-tools
 author: mikejo5000
 ---

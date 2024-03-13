@@ -7,7 +7,7 @@ helpviewer_keywords:
 - text templates, accessing models
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Access models from text templates

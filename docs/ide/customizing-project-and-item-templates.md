@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Visual Studio templates, customizing
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Customize project and item templates

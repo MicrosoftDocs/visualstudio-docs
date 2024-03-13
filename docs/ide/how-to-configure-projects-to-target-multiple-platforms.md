@@ -9,7 +9,7 @@ helpviewer_keywords:
 - platforms, changing target platforms
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ---
 # Configure projects to target multiple platforms
 

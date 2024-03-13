@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], Finder method"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # Add a Finder method

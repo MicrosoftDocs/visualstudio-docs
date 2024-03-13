@@ -29,7 +29,7 @@ helpviewer_keywords:
 - XMLDataDocument class
 author: dzsquared
 ms.author: drskwier
-manager: jmartens
+manager: mijacobs
 ms.subservice: xml-tools
 ---
 # Overview of XML tools in Visual Studio

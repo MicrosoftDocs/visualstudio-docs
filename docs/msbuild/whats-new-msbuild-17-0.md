@@ -5,7 +5,7 @@ ms.date: 11/01/2023
 ms.topic: whats-new
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 monikerRange: '>=vs-2019'
 ---
@@ -44,6 +44,8 @@ MSBuild (and Visual Studio) now targets .NET Framework 4.7.2 and .NET 6.0. If yo
 ## Logs
 
 Binary logs are smaller and have more information.
+
+In MSBuild 17.8 and later, try the new Terminal Logger (`-terminalLogger` or `-tl` option on the command line) for improved console output.
 
 ## Breaking changes
 

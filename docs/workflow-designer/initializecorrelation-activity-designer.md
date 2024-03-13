@@ -7,7 +7,7 @@ f1_keywords:
   - "System.ServiceModel.Activities.InitializeCorrelation.UI"
 author: jodavis
 ms.author: jodavis
-manager: jmartens
+manager: mijacobs
 ms.subservice: workflow-designer
 ---
 # InitializeCorrelation Activity Designer

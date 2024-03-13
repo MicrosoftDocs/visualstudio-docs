@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "dumps"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Dump files in the Visual Studio debugger

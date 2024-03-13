@@ -1450,7 +1450,7 @@ f1_keywords:
 - MSB6009
 - MSBuild.DebugPathTooLong
 - MSB6012
-manager: jmartens
+manager: mijacobs
 author: mikejo5000
 ms.author: mikejo
 ---

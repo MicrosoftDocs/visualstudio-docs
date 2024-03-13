@@ -8,7 +8,7 @@ helpviewer_keywords:
 - web controls, publishing
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Walkthrough: Publish a Visual Studio extension

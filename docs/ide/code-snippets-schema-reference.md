@@ -10,7 +10,7 @@ helpviewer_keywords:
 - IntelliSense Code Snippets, XML Schema
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Code snippets schema reference

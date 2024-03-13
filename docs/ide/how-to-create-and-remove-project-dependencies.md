@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.subservice: compile-build
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ---
 # Create and remove project dependencies
 

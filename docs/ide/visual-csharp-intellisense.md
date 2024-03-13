@@ -8,7 +8,7 @@ helpviewer_keywords:
 - IntelliSense [C#]
 author: mikadumont
 ms.author: midumont
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # C# IntelliSense

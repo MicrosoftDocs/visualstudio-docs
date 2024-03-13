@@ -8,7 +8,7 @@ helpviewer_keywords:
 - IDebugGenericFieldInstance::TypeArgumentCount
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

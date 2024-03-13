@@ -19,7 +19,7 @@ helpviewer_keywords:
   - "ClickOnce applications, deployed by others"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Walkthrough: Manually deploy a ClickOnce application that does not require re-signing and that preserves branding information

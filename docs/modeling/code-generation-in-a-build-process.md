@@ -8,7 +8,7 @@ helpviewer_keywords:
 - text templates, transforming by using msbuild
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 dev_langs:
 - CSharp

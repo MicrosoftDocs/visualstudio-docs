@@ -7,7 +7,7 @@ helpviewer_keywords:
 - source control [Visual Studio SDK], model
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Model for Source Control Packages

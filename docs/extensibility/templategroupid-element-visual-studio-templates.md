@@ -11,7 +11,7 @@ helpviewer_keywords:
 - <TemplateGroupID> element [Visual Studio Templates]
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ---
 # TemplateGroupID Element (Visual Studio Templates)
 

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - debugging [Visual Studio], expression evaluation
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Watch variables with Watch windows and QuickWatch

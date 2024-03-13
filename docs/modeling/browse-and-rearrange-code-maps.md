@@ -20,7 +20,7 @@ helpviewer_keywords:
 - dependency graphs, browsing
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Browse and rearrange code maps

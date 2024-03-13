@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "Concurrency::diagnostic::span constructor"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # span::span Constructor

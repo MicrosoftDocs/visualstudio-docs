@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Unprotect method"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically remove protection from worksheets

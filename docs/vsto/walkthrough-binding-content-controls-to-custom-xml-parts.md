@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "DatePickerContentControl, binding to a custom XML part"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Walkthrough: Bind content controls to custom XML parts

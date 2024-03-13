@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "walkthroughs [Office development in Visual Studio], Word"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Walkthroughs using Word

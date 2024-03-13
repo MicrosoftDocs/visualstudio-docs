@@ -8,7 +8,7 @@ helpviewer_keywords:
 - objects, project configuration
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Project Configuration Object

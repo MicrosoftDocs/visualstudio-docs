@@ -13,7 +13,7 @@ helpviewer_keywords:
 - data [Visual Studio], updating
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Save data to a database (multiple tables) in .NET Framework applications

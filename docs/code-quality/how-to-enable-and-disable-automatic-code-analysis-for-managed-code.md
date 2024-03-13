@@ -5,7 +5,7 @@ description: Learn how to turn binary code analysis on and off in Visual Studio.
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: code-analysis
 monikerRange: 'vs-2019'
 ---

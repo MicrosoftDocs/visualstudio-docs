@@ -7,7 +7,7 @@ helpviewer_keywords:
 - solution explorer [Visual Studio]
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Learn about Solution Explorer

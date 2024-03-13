@@ -11,7 +11,7 @@ helpviewer_keywords:
 - symbols, exposing lists to the object manager
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Expose Lists of symbols provided by the library to the object manager

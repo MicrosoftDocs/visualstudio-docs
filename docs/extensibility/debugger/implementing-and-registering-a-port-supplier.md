@@ -8,7 +8,7 @@ helpviewer_keywords:
 - port suppliers, registering
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Implement and register a port supplier

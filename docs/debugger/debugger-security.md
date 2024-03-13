@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "security [Visual Studio], debugging best practices"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Debugger Security

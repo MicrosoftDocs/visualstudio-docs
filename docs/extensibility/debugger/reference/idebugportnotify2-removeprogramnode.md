@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugPortNotify2::RemoveProgramNode
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

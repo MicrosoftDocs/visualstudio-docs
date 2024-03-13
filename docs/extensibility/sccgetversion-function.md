@@ -9,7 +9,7 @@ helpviewer_keywords:
 - SccGetVersion function
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # SccGetVersion Function

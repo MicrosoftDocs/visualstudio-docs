@@ -14,7 +14,7 @@ helpviewer_keywords:
 - saving data
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Walkthrough: Save data in a transaction in .NET Framework applications

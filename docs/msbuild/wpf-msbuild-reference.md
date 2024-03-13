@@ -12,7 +12,7 @@ helpviewer_keywords:
 - MSBuild [WPF]
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # WPF MSBuild reference

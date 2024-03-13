@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "debugging [C++]"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Debugging Preparation: C++ Project Types

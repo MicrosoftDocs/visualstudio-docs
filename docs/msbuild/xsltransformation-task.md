@@ -12,7 +12,7 @@ helpviewer_keywords:
 - XslTransformation task [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # XslTransformation task

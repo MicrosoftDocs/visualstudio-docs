@@ -9,7 +9,7 @@ helpviewer_keywords:
 - DEBUG_ADDRESS_UNION union
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

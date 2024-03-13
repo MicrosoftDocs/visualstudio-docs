@@ -24,7 +24,7 @@ helpviewer_keywords:
   - "runtime [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Visual Studio Tools for Office runtime overview

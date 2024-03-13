@@ -8,7 +8,7 @@ helpviewer_keywords:
 - partial classes, Class Designer
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 dev_langs:
 - CSharp

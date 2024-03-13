@@ -8,7 +8,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.HTML.Miscellaneous"
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ---
 # Options, Text Editor, HTML (Web Forms), Miscellaneous
 

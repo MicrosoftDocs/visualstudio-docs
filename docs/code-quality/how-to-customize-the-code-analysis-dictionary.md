@@ -9,7 +9,7 @@ helpviewer_keywords:
   - dictionary, code analysis
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: code-analysis
 monikerRange: 'vs-2019'
 ---
@@ -260,7 +260,7 @@ Terms in the Dictionary/Acronyms/CasingExceptions node are applied to the follow
 
 1. In **Solution Explorer**, use one of the following procedures:
 
-    - To add a dictionary to a single project, right-click the project name and then click **Add Existing Item**. Specify the file in the **Add Existing Item** dialog box.
+    - To add a dictionary to a single project, right-click the project name and then click **Add Existing Item**. For file types, choose **All Files**, and then specify the file in the **Add Existing Item** dialog box.
   
     - To add a dictionary that is shared among two or more projects, locate the file to share in the **Add Existing Item** dialog box, click the down arrow on the **Add** button and then click **Add As Link**.
 

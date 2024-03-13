@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "debug configurations, esproj"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: javascript-typescript
 monikerRange: '>= vs-2022'
 ---

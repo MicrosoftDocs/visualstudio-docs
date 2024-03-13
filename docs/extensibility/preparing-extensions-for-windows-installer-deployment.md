@@ -7,7 +7,7 @@ helpviewer_keywords:
 - vsix msi
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Prepare extensions for Windows Installer deployment

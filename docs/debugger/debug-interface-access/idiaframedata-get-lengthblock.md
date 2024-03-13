@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaFrameData::get_lengthBlock method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDiaFrameData::get_lengthBlock

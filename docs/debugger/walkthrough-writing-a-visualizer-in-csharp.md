@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "walkthroughs [Visual Studio], visualizers"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Walkthrough: Writing a Visualizer in C\#

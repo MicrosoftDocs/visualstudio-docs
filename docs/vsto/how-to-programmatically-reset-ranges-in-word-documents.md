@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "ranges, resetting in documents"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically reset ranges in Word documents

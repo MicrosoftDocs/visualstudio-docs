@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "localize extension"
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # VSIX language pack schema 2.0 reference

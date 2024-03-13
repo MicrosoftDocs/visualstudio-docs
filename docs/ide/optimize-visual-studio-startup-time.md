@@ -9,7 +9,7 @@ helpviewer_keywords:
 - speed up start time [Visual Studio]
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Optimize Visual Studio startup time

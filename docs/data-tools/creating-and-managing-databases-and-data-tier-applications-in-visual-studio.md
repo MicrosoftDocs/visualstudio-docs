@@ -7,7 +7,7 @@ helpviewer_keywords:
 - databases, managing change
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Database projects and data-tier applications (.NET Framework)

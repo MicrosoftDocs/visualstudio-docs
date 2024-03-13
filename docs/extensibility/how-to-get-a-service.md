@@ -7,7 +7,7 @@ helpviewer_keywords:
 - services, consuming
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Get a service

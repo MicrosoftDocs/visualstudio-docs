@@ -24,7 +24,7 @@ helpviewer_keywords:
   - "remote debugging, errors"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Error: Unable to Start Debugging on the Web Server

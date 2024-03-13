@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Visual Studio command table configuration files (VSCT), overview
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Visual Studio Command Table (.Vsct) Files

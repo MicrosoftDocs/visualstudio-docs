@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "dialog boxes, hidden mode in Word"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically use Word dialog boxes in hidden mode

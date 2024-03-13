@@ -10,7 +10,7 @@ helpviewer_keywords:
 - IDebugMessageEvent2::GetMessage method
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

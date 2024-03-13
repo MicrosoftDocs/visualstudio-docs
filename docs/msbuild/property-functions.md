@@ -7,7 +7,7 @@ helpviewer_keywords:
 - MSBuild, property functions
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # Property functions

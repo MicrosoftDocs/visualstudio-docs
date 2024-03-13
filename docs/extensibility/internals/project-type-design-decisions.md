@@ -10,7 +10,7 @@ helpviewer_keywords:
 - project types, design decisions
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Project Type Design Decisions
