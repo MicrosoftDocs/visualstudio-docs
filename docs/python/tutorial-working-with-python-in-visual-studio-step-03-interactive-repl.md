@@ -2,7 +2,7 @@
 title: Python in Visual Studio tutorial Step 3, interactive REPL
 titleSuffix: ""
 description: Step 3 of a core walkthrough of Python capabilities in Visual Studio that demonstrates how to work with the Python Interactive REPL window.
-ms.date: 03/12/2024
+ms.date: 03/13/2024
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster

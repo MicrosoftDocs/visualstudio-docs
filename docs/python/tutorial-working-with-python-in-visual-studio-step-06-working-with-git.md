@@ -2,7 +2,7 @@
 title: Python in Visual Studio tutorial Step 6, work with Git
 titleSuffix: ""
 description: Step 6 of a core walkthrough of Python in Visual Studio that demonstrates features for working with Git in Visual Studio.
-ms.date: 03/12/2024
+ms.date: 03/13/2024
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster

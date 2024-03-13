@@ -6,7 +6,7 @@ author: cwebster-99
 ms.author: cowebster
 ms.subservice: python
 ms.topic: tutorial
-ms.date: 03/12/2024
+ms.date: 03/13/2024
 manager: mijacobs
 ms.custom: vs-acquisition
 
