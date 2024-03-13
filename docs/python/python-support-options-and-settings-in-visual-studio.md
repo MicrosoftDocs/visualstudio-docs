@@ -1,7 +1,7 @@
 ---
 title: Options for Python code and projects (feature description)
 description: Explore options in Visual Studio for Python code and projects, including feature descriptions of environment preferences, debugging, diagnostics, and advanced settings.
-ms.date: 03/11/2024
+ms.date: 03/13/2024
 ms.topic: concept-article
 f1_keywords:
   - "VS.ToolsOptionsPages.Python_Tools"
@@ -25,9 +25,32 @@ Visual Studio provides support for configuring the interactive development envir
 
 ## Location of Python options
 
-Python configuration settings are available from the Visual Studio toolbar under **Tools** > **Options**. The **Options** dialog lists most settings for Python on the **Python** tab. You can configure preferences for debugging, diagnostics, and the general environment including interactive windows. Options are also available for conda and Python Language Server features.
+Python configuration settings are available from the Visual Studio toolbar under **Tools** > **Options**. The **Options** dialog lists most settings for Python on the **Python** tab:
 
-The **Options** dialog lists other Python settings under **Text Editor** > **Python** > **Advanced**, and also under **Environment** > **Fonts and Colors** for the **Text Editor** settings group.
+::: moniker range=">=vs-2022"
+
+:::image type="content" source="media/vs-2022/options-python-all-tabs-general.png" alt-text="Screenshot that shows the categories of options for Python and the specific general options in Visual Studio 2022." lightbox="media/vs-2022/options-python-all-tabs-general.png":::
+
+You can configure preferences for debugging, analysis, conda environments, and the general environment including **Interactive** windows.
+
+::: moniker-end
+::: moniker range="<=vs-2019"
+
+:::image type="content" source="media/options-general-2019.png" alt-text="Screenshot of the options categories for Python in earlier versions of Visual Studio, and specific general options." lightbox="media/options-general-2019.png":::
+
+You can configure preferences for debugging, diagnostics, and the general environment including **Interactive** windows. Options are also available for conda and Python Language Server features.
+
+::: moniker-end
+
+The **Options** dialog lists other Python settings under **Text Editor** > **Python**. There are options for scroll bars, tabs, and formatting, along with general and advanced settings.
+
+::: moniker range=">=vs-2022"
+
+:::image type="content" source="media/vs-2022/options-text-editor-python-all-tabs-general.png" alt-text="Screenshot that shows the categories of options for Python and the specific general options in Visual Studio 2022." lightbox="media/vs-2022/options-text-editor-python-all-tabs-general.png":::
+
+::: moniker-end
+
+Other settings are available under **Environment** > **Fonts and Colors** for the **Text Editor** settings group.
 
 ::: moniker range="<=vs-2019"
 
@@ -38,11 +61,15 @@ In earlier versions of Visual Studio, you might need to select **Show All Settin
 > [!NOTE]
 > The **Options** dialog might include an **Experimental** tab or group for features under development that aren't described in this article. You can find more information in posts on the [Python engineering at Microsoft blog](https://devblogs.microsoft.com/python/).
 
-## General Python options
+## Specific options for Python
 
-::: moniker range=">=vs-2022"
+Under **Tools** > **Options** > **Python**, you can set Python-specific options for the general environment including **Interactive** windows, conda environments, debugging, and more.
+
+### General Python options
 
 The following options are available under **Tools** > **Options** > **Python**> **General**:
+
+::: moniker range=">=vs-2022"
 
 | Option | Default | Description |
 | --- | --- | --- |
@@ -50,13 +77,11 @@ The following options are available under **Tools** > **Options** > **Python**> 
 | **Show the Output Window when installing or removing packages** | On | Clear to prevent the **Output** window from appearing. |
 | **Show notifications bar to create environments** | On | When set and you open a project with a *requirements.txt* or *environment.yml* file, Visual Studio displays an information bar with suggestions to create a virtual environment or conda environment, respectively, instead of using the default global environment. |
 | **Show notifications bar to install packages** | On | When set and you open a project with a *requirements.txt* file that doesn't use the default global environment), Visual Studio compares those requirements with packages installed in the current environment. If any packages are missing, Visual Studio displays a prompt to install those dependencies. |
-| **Show notifications bar to configure test framework** | On | TBD |
+| **Show notifications bar to configure test framework** | On | <!-- TBD: Add description --> |
 | **Always run package managers as administrator** | Off | Always elevates `pip install` and similar package manager operations for all environments. When you install packages, Visual Studio prompts for administrator privileges if the environment is located in a protected area of the file system such as *c:\Program Files*. In that prompt you can choose to always elevate the install command for just that one environment. For more information, see [Packages tab](python-environments-window-tab-reference.md#packages-tab). |
 
 ::: moniker-end
 ::: moniker range="<=vs-2019"
-
-In Visual Studio 2019 and earlier, the following options are available for Python:
 
 | Option | Default | Description | Availability |
 | --- | --- | --- | --- |
@@ -73,25 +98,23 @@ In Visual Studio 2019 and earlier, the following options are available for Pytho
 | **Check for survey/news** | **Once a week** | Sets the frequency at which you allow Visual Studio to open a window containing a web page with Python-related surveys and news items, if available. Options are **Never**, **Once a day**, **Once a week**, and **Once a month**. | Visual Studio 2017 and earlier |
 | **Reset all permanently hidden dialogs** | n/a | Different dialog boxes provide options such as **Don't show me this again**. Use this button to clear those options and cause the dialogs to reappear. | Visual Studio 2019 and earlier |
 
-:::image type="content" source="media/options-general-2019.png" alt-text="Screenshot of general configuration options available for Python in earlier versions of Visual Studio." lightbox="media/options-general-2019.png":::
-
 ::: moniker-end
 
-## Conda options
+### Conda environment options
 
 The following options are available under **Tools** > **Options** > **Python**> **Conda**:
+
+:::image type="content" source="media/options-conda.png" alt-text="Screenshot of the Conda options for Python in the Options dialog." lightbox="media/options-conda.png":::
 
 | Option | Default | Description |
 | --- | --- | --- |
 | **Conda executable path** | (blank) | Specifies an exact path to the *conda.exe* executable rather than relying on the default Miniconda installation included with the Python workload. If another path is given here, it takes precedence over the default installation and any other conda.exe executables specified in the registry. You might change this setting if you manually install a newer version of Anaconda or Miniconda, or want to use a 32-bit distro rather than the default 64-bit distro. |
 
-:::image type="content" source="media/options-conda.png" alt-text="Screenshot of the Conda options for Python in the Options dialog." lightbox="media/options-conda.png":::
-
-## Debugging options
-
-::: moniker range=">=vs-2022"
+### Debugging options
 
 The following options are available under **Tools** > **Options** > **Python**> **Debugging**:
+
+::: moniker range=">=vs-2022"
 
 | Option | Default | Description |
 | --- | --- | --- |
@@ -103,27 +126,12 @@ The following options are available under **Tools** > **Options** > **Python**> 
 | **Show function return value** | On | Displays function return values in the **Locals** window then stepping over a function call in the debugger (F10) |
 | **Show variables** | On | Displays four groups of variables to show and how to format the display (Group, Hide, Inline). <br> - **Class**: Default is "Group" <br> - **Protected**: Default is Inline" <br> - **Function**: Default is "Group" <br> - **Special**: Default is "Group" |  
 
-
-## Analysis options
-
-The following options are available under **Tools** > **Options** > **Python**> **Analysis**:
-
-| Option | Default | Description |
-| --- | --- | --- |
-| **Diagnostic mode** | Open files only | Choose from Workspace or Open files only. | 
-| **Log level** | Information | Specify the logging level. Choose from Information, Trace, Warning, or Error. | 
-| **Type checking** | Off | Choose from Basic, Strict, or Off. | 
-| **Import format** | Absolute | Choose from Absolute or Relative. | 
-| **Stubs path** | \<Empty> | Enter the paths to stubs. | 
-| **Search paths** | \<Empty> | Enter paths for search. | 
-| **Typeshed paths** | \<Empty> | Enter paths for Typeshed. | 
-| **Automatically add common search paths like 'src'** | On | TBD | 
-| **Index installed third party libraries and user files for language features such as auto-import, add import, workspace symbols and etc.** | Off | TBD | 
-
 ::: moniker-end
 ::: moniker range="<=vs-2019"
 
-In Visual Studio 2019 and earlier, the following debugging options are available for Python:
+<!-- Remove image after text confirmed -->
+
+:::image type="content" source="media/options-debugging-2019.png" alt-text="Screenshot of Debugging options for Python in the Options dialog." lightbox="media/options-debugging-2019.png":::
 
 | Option | Default | Description | Availability | 
 | --- | --- | --- | --- |
@@ -135,10 +143,30 @@ In Visual Studio 2019 and earlier, the following debugging options are available
 | **Show function return value** | On | Displays function return values in the **Locals** window then stepping over a function call in the debugger (F10) |  Visual Studio 2019 and earlier |
 | **Use legacy debugger** | Off | Instructs Visual Studio to use the legacy debugger by default. For more information, see [Debugging - Use the legacy debugger](debugging-python-in-visual-studio.md#use-the-legacy-debugger). | Visual Studio 2019 only |
 
-:::image type="content" source="media/options-debugging-2019.png" alt-text="Screenshot of Debugging options for Python in the Options dialog." lightbox="media/options-debugging-2019.png":::
+::: moniker-end
 
+::: moniker range=">=vs-2022"
 
-## Diagnostics options
+### Analysis options
+
+The following options are available under **Tools** > **Options** > **Python**> **Analysis**:
+
+| Option | Default | Description |
+| --- | --- | --- |
+| **Diagnostic mode** | Open files only | Choose from Workspace or Open files only. | 
+| **Log level** | Information | Specify the logging level. Choose from Information, Trace, Warning, or Error. | 
+| **Type checking** | Off | Choose from Basic, Strict, or Off. | 
+| **Import format** | Absolute | Choose from Absolute or Relative. | 
+| **Stubs path** | \<Empty> | Enter the paths to stubs. <!-- TBD: Add more detail, as needed --> | 
+| **Search paths** | \<Empty> | Enter paths for search. <!-- TBD: Add more detail, as needed --> | 
+| **Typeshed paths** | \<Empty> | Enter paths for Typeshed. <!-- TBD: Add more detail, as needed --> | 
+| **Automatically add common search paths like 'src'** | On | <!-- TBD: Add description --> | 
+| **Index installed third party libraries and user files for language features such as auto-import, add import, workspace symbols and etc.** | Off | <!-- TBD: Add description --> | 
+
+::: moniker-end
+::: moniker range="<=vs-2019"
+
+### Diagnostics options
 
 The following options are available under **Tools** > **Options** > **Python**> **Diagnostics**:
 
@@ -151,7 +179,7 @@ The following options are available under **Tools** > **Options** > **Python**> 
 :::image type="content" source="media/options-diagnostics.png" alt-text="Screenshot of Diagnostics options for Python in the Options dialog." lightbox="media/options-diagnostics.png":::
 
 
-## Language server options
+### Language server options
 
 The following options are available under **Tools** > **Options** > **Python**> **Language server**:
 
@@ -164,10 +192,13 @@ The following options are available under **Tools** > **Options** > **Python**> 
 
 ::: moniker-end
 
-
-## Interactive Windows options
+### Interactive Windows options
 
 The following options are available under **Tools** > **Options** > **Python**> **Interactive Windows**:
+
+<!-- Remove image after text confirmed -->
+
+:::image type="content" source="media/options-interactive-windows.png" alt-text="Screenshot of Interactive Windows options for Python in the Options dialog." lightbox="media/options-interactive-windows.png":::
 
 | Option | Default | Description |
 | --- | --- | --- |
@@ -176,26 +207,61 @@ The following options are available under **Tools** > **Options** > **Python**> 
 | **Completion mode** | **Only evaluate expressions without function calls** | The process of determining the available members on an expression in the **Interactive** window might require evaluating the current unfinished expression, which can result in side-effects or functions being called multiple times. The default setting, **Only evaluate expressions without function calls** excludes expressions that appear to call a function, but evaluates other expressions. For example, it evaluates the statement `a.b` but not the `a().b` statement.  **Never evaluate expressions** prevents all side-effects, using only the normal IntelliSense engine for suggestions. **Evaluate all expressions** evaluates the complete expression to obtain suggestions, regardless of side effects. |
 | **Hide static analysis suggestions** | Off | When set, displays only suggestions that are obtained by evaluating the expression. If combined with the **Completion mode** value **Never evaluate expressions**, no useful completions appear in the **Interactive** window. |
 
-:::image type="content" source="media/options-interactive-windows.png" alt-text="Screenshot of Interactive Windows options for Python in the Options dialog." lightbox="media/options-interactive-windows.png":::
+## Text editor options for Python
 
+Under **Text Editor** > **Python**, there are options for scroll bars, tabs, and formatting, along with general and advanced settings.
 
-## Advanced Python editor options
+<!-- TBD: Document all Text Editor options? Current topic only describes "Advanced" tab, but in VS 2022 that tab is very minimal. -->
 
 ::: moniker range=">=vs-2022"
 
-The following options are available under **Tools** > **Options** > **Text Editor** > **Python** > **Advanced**:
+:::image type="content" source="media/vs-2022/options-text-editor-python-all-tabs-general.png" alt-text="Screenshot that shows the categories of options for Python and the specific general options in Visual Studio 2022." lightbox="media/vs-2022/options-text-editor-python-all-tabs-general.png":::
+
+::: moniker-end
+
+<!-- TBD: Add picture for VS 2019 ? -->
+
+### General Python editor options
+
+::: moniker range=">=vs-2022"
+
+The following options are available under **Tools** > **Options** > **Text Editor** > **Python** > **General**:
 
 | Option | Default | Description |
 | --- | --- | --- |
-| **Offer auto-import completions** | On | TBD | 
-| **Automatically add brackets for functions** | Off | TBD | 
+| **Auto list members** | On | Set this option to automatically list members for completion of code statements. <!-- TBD: Add more detail, as needed --> | 
+| **Hide advanced members** | On | When the **Auto list members** option is enabled, set this option to hide advanced members from the completion suggestions. <!-- TBD:Add more detail, as needed --> | 
+| **Parameter information** | On | When set, hover over behavior for parameters shows detailed information. <!-- TBD: Add more detail, as needed --> | 
+| **Enable virtual space** | On | <!-- TBD: Add description --> | 
+| **Word wrap** | Off | When set, allow long lines of code to wrap in the editor. <!-- TBD: Add more detail, as needed --> | 
+| **Show visual glyphs for word wrap** | Off | When the **Word wrap** option is enabled, set this option to show visual glyphs. <!-- TBD: Add more detail, as needed --> | 
+| **Line numbers** | Off | When set, show line numbers in the left margin of the editor for each line of code. <!-- TBD: Add description --> | 
+| **Enable single-click URL navigation** | On | When set, you can single-click a URL to browse to the target location. <!-- TBD: Add more detail, as needed --> | 
+| **Navigation bar** | Off | Displays a navigation bar. <!-- TBD: Add more detail --> | 
+| **Automatic brace completion** | On | When set, Visual Studio automatically adds the closing brace for any open brace as you enter code. <!-- TBD: Add more detail, as needed --> | 
+| **Apply Cut or Copy to blank lines when there is no selection** | On | <!-- TBD: Add description --> | 
+
+::: moniker-end
+
+<!-- TBD: Add detailed table for VS 2019 ? -->
+
+### Advanced Python editor options
+
+The following options are available under **Tools** > **Options** > **Text Editor** > **Python** > **Advanced**:
+
+::: moniker range=">=vs-2022"
+
+| Option | Default | Description |
+| --- | --- | --- |
+| **Offer auto-import completions** | On | When set, Visual Studio prompts you when auto-import completions are available. <!-- TBD: Add more detail, as needed --> | 
+| **Automatically add brackets for functions** | Off | When set, Visual Studio automatically adds brackets for functions as you enter code in the editor. <!-- TBD: Add more detail, as needed --> | 
 
 ::: moniker-end
 ::: moniker range="<=vs-2019"
 
-In Visual Studio 2019 and earlier, the following options are available under **Tools** > **Options** > **Text Editor** > **Python** > **Advanced**.
+:::image type="content" source="media/options-editor-advanced.png" alt-text="Screenshot that shows miscellaneous options for Python under Text Editor in the Options dialog." lightbox="media/options-editor-advanced.png":::
 
-### Completion Results
+#### Completion Results
 
 The **Completion Results** group includes the following options:
 
@@ -205,7 +271,7 @@ The **Completion Results** group includes the following options:
 | **Filter list based on search string** | On | Applies filtering of completion suggestions as you enter input. |
 | **Automatically show completions for all identifiers** | On | To disable completions in both the editor and **Interactive** windows, clear this option. |
 
-### Selection in Completion List
+#### Selection in Completion List
 
 The **Selection in Completion List** group includes the following options:
 
@@ -215,7 +281,7 @@ The **Selection in Completion List** group includes the following options:
 | **Enter commits current completion** | On | When set, the **Enter** key chooses and applies the currently selected completion. See the first entry in this table for the list of recognized characters. |
 | **Add new line on enter at end of fully typed word** | Off | By default, if you type the entire word that appears in the completion popup and press **Enter**, you commit that completion. By setting this option, you effectively commit completions when you finish typing the identifier, such that **Enter** inserts a new line. |
 
-### Miscellaneous Options
+#### Miscellaneous Options
 
 The **Miscellaneous Options** group includes the following settings:
 
@@ -225,15 +291,12 @@ The **Miscellaneous Options** group includes the following settings:
 | **Paste removed REPL prompts** | On | Removes the REPL Python command prompt and continuation prompt  (**>>>** and **...**) from pasted text, which allows for easy transfer of code from the **Interactive** window to the editor. Clear this option if you need to retain those characters when pasting from other sources. |
 | **Color names based on types** | On | Enables syntax coloring in Python code. |
 
-:::image type="content" source="media/options-editor-advanced.png" alt-text="Screenshot that shows miscellaneous options for Python under Text Editor in the Options dialog." lightbox="media/options-editor-advanced.png":::
-
 ::: moniker-end
-
 
 ## Fonts and Colors options
 
-Other options are available under **Environment** > **Fonts and Colors** when the **Text Editor** group is set to **Python**.
-
-The names of the Python options are all prefixed with **Python** and are self-explanatory. The default font for all Visual Studio color themes is 10 pt Consolas regular (not bold). The default colors vary by theme. Typically, you change a font or color to make it easier to read text.
+Other Python options are available under **Environment** > **Fonts and Colors** when the **Text Editor** group is set to **Python**:
 
 :::image type="content" source="media/options-fonts-and-colors.png" alt-text="Screenshot that shows Python font and color options under Environment in the Options dialog." lightbox="media/options-fonts-and-colors.png":::
+
+The names of the Python options are all prefixed with "Python" and are self-explanatory. The default font for all Visual Studio color themes is 10 pt Consolas regular (not bold). The default colors vary by theme. Typically, you change a font or color to make it easier to read text.
