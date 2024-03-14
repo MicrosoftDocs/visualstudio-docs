@@ -54,7 +54,7 @@ The ASP.NET Core Module facilitates the direct transfer of socket connections to
 </configuration>
 ```
 
-For more details about ASP.NET `web.config` files, please reference [ASP.NET IIS web.config file](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/web-config?view=aspnetcore-8.0).
+For more details about ASP.NET `web.config` files, please reference [ASP.NET IIS web.config file](https://learn.microsoft.com/aspnet/core/host-and-deploy/iis/web-config).
 
 ### Configure the HttpPlatform handler
 
