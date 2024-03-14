@@ -1,7 +1,7 @@
 ---
 title: Read XML data into dataset in .NET Framework apps
 description: Read XML data into ADO.NET datasets with .NET Framework application development in Visual Studio and create Windows apps to load XML data into datasets.
-ms.date: 11/01/2023
+ms.date: 03/14/2024
 ms.topic: how-to
 dev_langs:
 - VB
@@ -157,7 +157,7 @@ In this step, you create a new dataset named `authors`. For more information abo
 
      **DataSet1** is added to the component tray.
 
-4. In the **Properties** window, set the **Name** and <xref:System.Data.DataSet.DataSetName%2A> properties for`AuthorsDataSet`.
+4. In the **Properties** window, set the **Name** and <xref:System.Data.DataSet.DataSetName%2A> properties for `AuthorsDataSet`.
 
 ## Create the event handler to read the XML file into the dataset
 
@@ -165,7 +165,7 @@ The **Read XML** button reads the XML file into the dataset. It then sets proper
 
 1. In **Solution Explorer**, select **Form1**, and then select the **View Designer** button on the **Solution Explorer** toolbar.
 
-2. Select the **Read XML** button.
+2. Double-click the **Read XML** button.
 
      The **Code Editor** opens at the `ReadXmlButton_Click` event handler.
 
@@ -182,11 +182,11 @@ The **Read XML** button reads the XML file into the dataset. It then sets proper
 
 ## Create the event handler to display the schema in the textbox
 
-The **Show Schema** button creates a <xref:System.IO.StringWriter> object that's filled with the schema and is displayed in the <xref:System.Windows.Forms.TextBox>control.
+The **Show Schema** button creates a <xref:System.IO.StringWriter> object that's filled with the schema and is displayed in the <xref:System.Windows.Forms.TextBox> control.
 
 1. In **Solution Explorer**, select **Form1**, and then select the **View Designer** button.
 
-2. Select the **Show Schema** button.
+2. Double-click the **Show Schema** button.
 
      The **Code Editor** opens at the `ShowSchemaButton_Click` event handler.
 
