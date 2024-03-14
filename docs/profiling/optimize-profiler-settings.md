@@ -1,6 +1,6 @@
 ---
 title: Optimizing Profiler settings
-description: Learn how the Performance Profiler and Diagnostic Tools window in Visual Studio have many different settings which affect the overall performance of the tools.
+description: Learn how the Performance Profiler and Diagnostic Tools window in Visual Studio have many different settings that affect the overall performance of the tools.
 ms.date: 02/28/2023
 ms.topic: how-to
 helpviewer_keywords: 
@@ -12,7 +12,7 @@ ms.subservice: debug-diagnostics
 ---
 # Optimizing Profiler settings
 
-The Performance Profiler and Diagnostic Tools window in Visual Studio have many different settings which affect the overall performance of the tools. Changing some settings can cause analysis to run quickly or cause additional wait times while processing results in tools. Below is a summary of certain settings and their impact on performance.
+The Performance Profiler and Diagnostic Tools window in Visual Studio have many different settings that affect the overall performance of the tools. Changing some settings can cause analysis to run quickly or cause additional wait times while processing results in tools. Below is a summary of certain settings and their impact on performance.
 
 ## Symbol Settings
 
@@ -28,21 +28,29 @@ Once downloaded, symbols are cached, which will speed up future analysis but sti
 
 ## Show External Code
 
-Many of the tools within the **Performance Profiler** and **Diagnostic Tools** window have a concept of user code versus external code. User code is any code that's built by the open solution or open workspace. External code is anything else. By keeping the **Show external code** setting disabled, or **Show just my code** enabled, you allow the tools to aggregate external code to a single first level frame, greatly reducing the amount of processing that's required to show results. This allows users to see what was called in external code that created the slow down while keeping the data to be processed to a minimum. When possible, leave **Show external code** disabled and ensure that you have the solution or workspace open for the diagsession you are analyzing.
+Many of the tools within the **Performance Profiler** and **Diagnostic Tools** window have a concept of user code versus external code. User code is any code built by the open solution or open workspace. External code is anything else. By keeping the **Show external code** setting disabled, or **Show just my code** enabled, you allow the tools to aggregate external code to a single first level frame, greatly reducing the amount of processing required to show results. This allows users to see what was called in external code that created the slow down while keeping the data to be processed to a minimum. When possible, leave **Show external code** disabled and ensure that you have the solution or workspace open for the diagsession you're analyzing.
 
 ## Trace Duration
 
-Profiling smaller durations results in less data, which is faster to analyze. Typically we recommend that you try to limit your traces to no longer than five minutes of performance data. Some tools, such as the [CPU Usage](../profiling/cpu-usage.md) tool, allow you to pause data collection while the tool is running, so that you can limit the amount of data that's collected to the scenario that you are interested in analyzing.
+Profiling smaller durations results in less data, which is faster to analyze. Typically we recommend that you try to limit your traces to no longer than five minutes of performance data. Some tools, such as the [CPU Usage](../profiling/cpu-usage.md) tool, allow you to pause data collection while the tool is running, so that you can limit the amount of collected data to the scenario that you're interested in analyzing.
 
 ## Sampling Frequency
 
-Certain tools, such as the [CPU Usage](../profiling/cpu-usage.md) tool and [NET Object Allocation](../profiling/dotnet-alloc-tool.md) tool, allow you to adjust a sampling frequency. Increasing this sampling frequency lets you measure more precisely, but increases the amount of data that's generated. Typically, it's best to leave this setting at the default rate unless a specific issue is being investigated.
+Certain tools, such as the [CPU Usage](../profiling/cpu-usage.md) tool and [NET Object Allocation](../profiling/dotnet-alloc-tool.md) tool, allow you to adjust a sampling frequency. Increasing this sampling frequency lets you measure more precisely, but increases the amount of generated data. Typically, it's best to leave this setting at the default rate unless a specific issue is being investigated.
 
 ::: moniker range=">=vs-2022"
 ![Diag Hub Properties Page](../profiling/media/vs-2022/diag-hub-properties-page.png "Diag Hub Properties Page")
 ::: moniker-end
 ::: moniker range="vs-2019"
 ![Diag Hub Properties Page](../profiling/media/diaghubpropertiespage.png "Diag Hub Properties Page")
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+## Set the collection folder
+
+The Visual Studio profiler uses a collection scratch directory to store performance traces before they're saved or discarded. By default, the profiler uses your temp directory. However, you can specify a different scratch directory by first opening the Diagnostic Tools Window (**Debug** > **Windows** > **Show Diagnostic Tools**), and then choosing **Select Tools** > **Settings** > **General** > **Scratch Directory**.
+
+![Screenshot of profiler scratch directory.](../profiling/media/vs-2022/profiler-settings-scratch-directory.png)
 ::: moniker-end
 
 ## Related content
