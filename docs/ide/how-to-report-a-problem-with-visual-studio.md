@@ -1,17 +1,14 @@
 ---
 title: Report a problem with Visual Studio
 description: Report a problem in Visual Studio by using the product installer or the built-in Feedback Tool, which allows you to easily add diagnostic information.
-ms.date: 10/07/2021
+ms.date: 3/14/2024
 ms.topic: how-to
-author: madskristensen
-ms.author: madsk
-manager: mijacobs
+author: jasonchlus
+ms.author: jasonchlus
+manager: pchapman
 ms.subservice: general-ide
 ---
 # Report a problem with the Visual Studio product or installer
-
-> [!NOTE]
-> For Visual Studio for Mac, see [How to report a problem in Visual Studio for Mac](/visualstudio/mac/report-a-problem).
 
 You can report a problem from either Visual Studio or its installer. The built-in Feedback Tool allows you to easily add diagnostic information that helps the Visual Studio teams diagnose and fix the issues. 
 
@@ -19,10 +16,13 @@ Here are the steps to report a problem.
 
 1. **In Visual Studio**, select the feedback icon in the upper-right corner and select Report a Problem. You can also access the feedback tool  from the menu **Help** > **Send Feedback** > **Report a Problem**.
 ![Screenshot showing the feedback icon selected in the upper right corner of the Visual Studio window and Report a Problem selected on the context menu.](media/feedback-button.png)
-Alternatively, report a problem in **Visual Studio Installer** if you can't install Visual Studio or are unable to access the feedback tool within Visual Studio.  In the Installer, select the feedback icon in the upper-right corner and select Report a Problem.
-![Screenshot showing the feedback icon selected in the upper right corner of the Visual Studio Installer and Report a Problem selected on the context menu.](media/installer.png)
 
-1. Clicking **Report a Problem** will open your default browser and sign you in using the same account you use to sign in to Visual Studio
+   Alternatively, if you can't install Visual Studio or are unable to access the feedback tool within Visual Studio youc can report a problem in the **Visual Studio Installer**.  In the Installer, select the feedback icon in the upper-right corner and select Report a Problem.
+   ![Screenshot showing the feedback icon selected in the upper right corner of the Visual Studio Installer and Report a Problem selected on the context menu.](https://github.com/MicrosoftDocs/visualstudio-docs-pr/assets/79461015/869b6f7b-4048-47c3-93cc-ca6ee0dda985)
+
+1. Clicking **Report a Problem** will open your default browser, bring you to [Developer Community](https://developercommunity.microsoft.com/VisualStudio) and sign you in using the same account you use to sign in to Visual Studio.
+
+   Note: If you are using an ad-blocker you may experience issues during sign-in. Disable the ad-blocker and try to sign in again.
 
    ![Sign in to report a problem](../ide/media/feedback-browser-top.png)
 
@@ -71,17 +71,21 @@ In addition, you can vote on feedback from other community members to bring more
 
 ## When further information is needed
 
-When an issue is missing important information, we assign the **Needs More Info** state. We comment on the issue with the specific information we need, and you'll receive an email notification. If we don't receive the information within seven days, then we send you a reminder. After that, we close the ticket after 14 days of inactivity.
+When an issue is missing important information, we assign the **Needs More Info** state. We comment on the issue with the specific information we need, and you'll receive an email notification. You can provide more information by adding comments, attachments, log/dump files or recording steps. If we don't receive the information within seven days, then we send you a reminder. After that, we close the ticket after 14 days of inactivity.
 
-1. Follow the link in the email to the problem report or go to the home page to see all reports in the **Needs More Info** state.
+If you need to leave a comment or add attachements navigate to the issue from the email and comment/add attachments directly.
 
-    ![Screenshot of the Home page of the Visual Studio Feedback window. One feedback item is listed, and it's marked with a "Need More Info" label in red.](../ide/media/feedback-my-feedback.png)
+If you need to add log/dump files or record steps follow these steps:
+
+1. Open Visual Studio and navigate to the feedback ticket via **Help -> Send feedback -> My feedback**
+
+   ![Screenshot of the Home page of the Visual Studio Feedback window. One feedback item is listed, and it's marked with a "Need More Info" label in red.](../ide/media/feedback-my-feedback.png)
 
 1. Selecting the Provide More Info link on the problem report navigates you to a new screen. From here, you can see what info is being requested.
 
    ![Screenshot of the Visual Studio Feedback window showing the information being requested by Microsoft for resolution of the issue.](../ide/media/feedback-need-more-info.png)
 
-1. You can provide more information by adding comments, attachments, or recording steps. This experience is similar to reporting a new problem or providing additional information when voting on a problem.
+1. Attach your dump/log files or record steps then submit.
 
     ![Screenshot of Developer Community attach system logs and recordings checkbox being checked and showing the option to attach more files.](https://user-images.githubusercontent.com/79461015/153265681-3696f046-b5c7-41c4-ad78-668951578bdd.png)
 
