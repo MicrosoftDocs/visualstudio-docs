@@ -1,7 +1,7 @@
 ---
 title: Configure Python web apps for IIS
 description: Configure Python web apps to run with Internet Information Services (IIS) from a Windows virtual machine by specifying settings in their web.config files. 
-ms.date: 02/22/2024
+ms.date: 03/14/2024
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
@@ -25,7 +25,36 @@ When you use Internet Information Services (IIS) as a web server on a Windows co
 
 ## Set web.config to point to the Python interpreter
 
-The _web.config_ file for your Python application instructs the IIS web server (version 7 or later) running on Windows about how it should handle Python requests through either HttpPlatform (recommended) or FastCGI. Visual Studio versions 2015 and earlier make these modifications automatically. For Visual Studio 2017 and later, you must modify the _web.config_ file manually.
+The _web.config_ file for your Python application instructs the IIS web server (version 7 or later) running on Windows about how it should handle Python requests through HttpPlatform, ASP.NET Core Module, or FastCGI. Visual Studio versions 2015 and earlier make these modifications automatically. For Visual Studio 2017 and later, you must modify the _web.config_ file manually.
+
+If your project does not already contain a _web.config_ file, you can add one by right-clicking the project directory, selecting **Add > New Item** and searching for _web.config_ or creating a blank web.config XML file.
+
+### Configure the ASP.Net Core Module handler
+
+The ASP.NET Core Module facilitates the direct transfer of socket connections to an independent Python process. This approach offers the flexibility to utilize any preferred web server, although it requires a startup script responsible for initiating a local web server, typically leveraging a Python web framework like Flask or Django. Within the `web.config` file, you define this script within the `<aspNetCore>` element. Here, the `processPath` attribute designates the Python interpreter associated with the site extension, while the `arguments` attribute specifies your chosen startup script, such as `runserver.py`, alongside any desired arguments.
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <system.webServer>
+    <handlers>
+      <add name="PythonHandler" path="*" verb="*" modules="AspNetCoreModule" resourceType="Unspecified"/>
+    </handlers>
+    <aspNetCore processPath="c:\python36-32\python.exe"
+                  arguments="c:\home\site\wwwroot\runserver.py"
+                  stdoutLogEnabled="true"
+                  stdoutLogFile="c:\home\LogFiles\python.log"
+                  startupTimeLimit="60"
+                  processesPerApplication="16">
+      <environmentVariables>
+        <environmentVariable name="SERVER_PORT" value=".." />
+      </environmentVariables>
+    </httpPlatform>
+  </system.webServer>
+</configuration>
+```
+
+For more details about ASP.NET `web.config` files, please reference [ASP.NET IIS web.config file](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/web-config?view=aspnetcore-8.0).
 
 ### Configure the HttpPlatform handler
 
@@ -59,7 +88,7 @@ In this example, the `HTTP_PLATFORM_PORT` environment variable contains the port
 FastCGI is an interface that works at the request level. IIS receives incoming connections and forwards each request to a WSGI app running in one or more persistent Python processes.
 
 > [!NOTE]
-> We recommend using **HttpPlatform** to configure your apps, as the [WFastCGI](https://pypi.org/project/wfastcgi/) project is no longer maintained. 
+> We recommend using **HttpPlatform** or **ASP.NET Core Module** to configure your apps, as the [WFastCGI](https://pypi.org/project/wfastcgi/) project is no longer maintained. 
 
 To use FastCGI, first install and configure the wfastcgi package as described in [pypi.org/project/wfastcgi/](https://pypi.io/project/wfastcgi).
 
