@@ -28,7 +28,12 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
 
 ## Prerequisites
 
-To complete this tutorial, you need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify. See [Modify Visual Studio](../install/modify-visual-studio.md).
+To complete this tutorial, you need Visual Studio with the following workloads installed:
+
+- **.NET desktop development**
+- **Data storage and processing**
+
+To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify. See [Modify Visual Studio](../install/modify-visual-studio.md).
 
 ## Create a new project
 
