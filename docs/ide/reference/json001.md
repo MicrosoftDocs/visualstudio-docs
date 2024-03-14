@@ -23,7 +23,7 @@ ms.subservice: general-ide
 | **Category**             | Style                                         |
 | **Subcategory**          | N/A                                           |
 | **Applicable languages** | C#, Visual Basic                              |
-| **Options**              | N/A                               |
+| **Options**              | See [Options](#options) section.              |
 
 ## Overview
 
