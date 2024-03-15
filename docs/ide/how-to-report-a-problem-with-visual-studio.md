@@ -73,7 +73,7 @@ In addition, you can vote on feedback from other community members to bring more
 
 When an issue is missing important information, we assign the **Needs More Info** state. We comment on the issue with the specific information we need, and you'll receive an email notification. You can provide more information by adding comments, attachments, log/dump files, or recording steps. If we don't receive the information within 7 days, then we send you a reminder. After that, we close the ticket after 14 days of inactivity.
 
-If you need to leave a comment or add attachements navigate to the issue from the email and comment/add attachments directly.
+If you need to leave a comment or add attachments, navigate to the issue from the email and comment/add attachments directly.
 
 If you need to add log/dump files or record steps follow these steps:
 
