@@ -77,7 +77,7 @@ If you need to leave a comment or add attachments, navigate to the issue from th
 
 To add log/dump files or record steps:
 
-1. Open Visual Studio and navigate to the feedback ticket via **Help -> Send feedback -> My feedback**
+1. Open Visual Studio and navigate to the feedback ticket via **Help > Send feedback > My feedback**
 
    ![Screenshot of the Home page of the Visual Studio Feedback window. One feedback item is listed, and it's marked with a "Need More Info" label in red.](../ide/media/feedback-my-feedback.png)
 
