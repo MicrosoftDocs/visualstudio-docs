@@ -1050,6 +1050,7 @@ namespace CalculatorLibrary
 
 And here's the code for *Program.cs*: 
 
+:::moniker range="<=vs-2019"
 ```csharp
 using System;
 using CalculatorLibrary;
@@ -1236,8 +1237,9 @@ namespace CalculatorProgram
             while (!endApp)
             {
                 // Declare variables and set to empty.
-                string numInput1 = "";
-                string numInput2 = "";
+                // Use Nullable types (with ?) to match type of System.Console.ReadLine
+                string? numInput1 = "";
+                string? numInput2 = "";
                 double result = 0;
 
                 // Ask the user to type the first number.
@@ -1270,22 +1272,29 @@ namespace CalculatorProgram
                 Console.WriteLine("\td - Divide");
                 Console.Write("Your option? ");
 
-                string op = Console.ReadLine();
+                string? op = Console.ReadLine();
 
-                try
+                // Validate input is not null, and matches the pattern
+                if (op == null || ! Regex.IsMatch(op, "[a|s|m|d]"))
                 {
-                    result = calculator.DoOperation(cleanNum1, cleanNum2, op); 
-                    if (double.IsNaN(result))
-                    {
-                        Console.WriteLine("This operation will result in a mathematical error.\n");
-                    }
-                    else Console.WriteLine("Your result: {0:0.##}\n", result);
+                   Console.WriteLine("Error: Unrecognized input.");
                 }
-                catch (Exception e)
-                {
-                    Console.WriteLine("Oh no! An exception occurred trying to do the math.\n - Details: " + e.Message);
+                else
+                { 
+                   try
+                   {
+                       result = calculator.DoOperation(cleanNum1, cleanNum2, op); 
+                       if (double.IsNaN(result))
+                       {
+                           Console.WriteLine("This operation will result in a mathematical error.\n");
+                       }
+                       else Console.WriteLine("Your result: {0:0.##}\n", result);
+                   }
+                   catch (Exception e)
+                   {
+                       Console.WriteLine("Oh no! An exception occurred trying to do the math.\n - Details: " + e.Message);
+                   }
                 }
-
                 Console.WriteLine("------------------------\n");
 
                 // Wait for the user to respond before closing.
@@ -1294,7 +1303,6 @@ namespace CalculatorProgram
 
                 Console.WriteLine("\n"); // Friendly linespacing.
             }
-            calculator.Finish();
             return;
         }
     }
