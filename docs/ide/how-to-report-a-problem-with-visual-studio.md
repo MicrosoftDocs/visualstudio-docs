@@ -85,7 +85,7 @@ To add log/dump files or record steps:
 
    ![Screenshot of the Visual Studio Feedback window showing the information being requested by Microsoft for resolution of the issue.](../ide/media/feedback-need-more-info.png)
 
-1. Attach your dump/log files or record steps then submit.
+1. Attach your dump/log files or record steps, and then submit.
 
     ![Screenshot of Developer Community attach system logs and recordings checkbox being checked and showing the option to attach more files.](https://user-images.githubusercontent.com/79461015/153265681-3696f046-b5c7-41c4-ad78-668951578bdd.png)
 
