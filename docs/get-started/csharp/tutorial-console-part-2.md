@@ -1136,9 +1136,9 @@ namespace CalculatorProgram
 }
 ```
 
-::: moniker-end
+:::moniker-end
 
-::: moniker range=">=vs-2022"
+:::moniker range=">=vs-2022"
 
 Here's the complete code for the *CalculatorLibrary.cs* file, after you complete all the steps:
 
@@ -1309,7 +1309,7 @@ namespace CalculatorProgram
 }
 ```
 
-::: moniker-end
+:::moniker-end
 
 ## Next steps
 
