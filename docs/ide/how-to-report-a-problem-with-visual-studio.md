@@ -17,7 +17,7 @@ Here are the steps to report a problem.
 1. **In Visual Studio**, select the feedback icon in the upper-right corner and select Report a Problem. You can also access the feedback tool  from the menu **Help** > **Send Feedback** > **Report a Problem**.
 ![Screenshot showing the feedback icon selected in the upper right corner of the Visual Studio window and Report a Problem selected on the context menu.](media/feedback-button.png)
 
-   Alternatively, if you can't install Visual Studio or are unable to access the feedback tool within Visual Studio youc can report a problem in the **Visual Studio Installer**.  In the Installer, select the feedback icon in the upper-right corner and select Report a Problem.
+   Alternatively, if you can't install Visual Studio or are unable to access the feedback tool within Visual Studio you can report a problem in the **Visual Studio Installer**.  If you have Visual Studio open, go to **Tools > Get Tools > Features...** to launch the installer, or launch it from the Start menu. In the installer, select the feedback icon in the upper-right corner and select **Report a Problem**.
    ![Screenshot showing the feedback icon selected in the upper right corner of the Visual Studio Installer and Report a Problem selected on the context menu.](https://github.com/MicrosoftDocs/visualstudio-docs-pr/assets/79461015/869b6f7b-4048-47c3-93cc-ca6ee0dda985)
 
 1. Clicking **Report a Problem** will open your default browser, bring you to [Developer Community](https://developercommunity.microsoft.com/VisualStudio) and sign you in using the same account you use to sign in to Visual Studio.
