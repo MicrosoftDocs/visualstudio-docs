@@ -75,7 +75,7 @@ When an issue is missing important information, we assign the **Needs More Info*
 
 If you need to leave a comment or add attachments, navigate to the issue from the email and comment/add attachments directly.
 
-If you need to add log/dump files or record steps follow these steps:
+To add log/dump files or record steps:
 
 1. Open Visual Studio and navigate to the feedback ticket via **Help -> Send feedback -> My feedback**
 
