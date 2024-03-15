@@ -83,7 +83,7 @@ Now that you have a way to check the answers, you can write the code for the Tic
    timer1.Tick += new EventHandler(timer1_Tick);
    ```
 
-   (There's no need for that line for Visual Basic, but the event handler contains a `handles Timer1.Tick` which does the same thing.)
+   (For Visual Basic, there's no need for that line, but the event handler contains a `handles Timer1.Tick` which does the same thing.)
 
 1. Add the following statements to the new event handler method.
 
