@@ -26,7 +26,7 @@ In Visual Studio 2019 and earlier, you can also use Cloud Explorer to view and m
 > Cloud Explorer has been retired in Visual Studio 2022. Instead, you can use the following alternatives:
 >
 > - To debug Azure App Services or Azure function apps, you can use the Connected Services or the Publish features available on all projects.
->   - If you rely on Visual Studio for publishing, you might access this feature under the "Additional Options" in the Hosting section.
+>   - If you rely on Visual Studio for publishing, you can access this feature under the "Additional Options" in the Hosting section.
 >   - If you don't use the publishing feature, the [Connected Services](overview-connected-services.md?view=vs-2022&preserve-view=true) node inside each Project in your Solution can help you configure access to Azure resources and invoke various operations like remote debugging, remote profiling, starting/stopping the application, view streaming logs, and more.
 > - Use [Microsoft Azure Storage Explorer](/azure/vs-azure-tools-storage-manage-with-storage-explorer) is a free, standalone app from Microsoft. You can use it to work visually with Azure Storage data on Windows, macOS, and Linux.
 > - The [Kudu console](https://github.com/projectkudu/kudu/wiki/Kudu-console) gives you direct, elevated command-line access to the App Service server and its file system. This is both a valuable debugging tool and allows for CLI operations such as installing packages.
