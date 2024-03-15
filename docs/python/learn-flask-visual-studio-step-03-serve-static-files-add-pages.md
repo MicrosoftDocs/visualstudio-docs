@@ -109,9 +109,9 @@ Flask provides a function called `serve_static_file` that you can call from code
 
 Answer: You can add other CSS, JavaScript, and HTML files in your *static* folder however you want. A typical way to organize static files is to create subfolders named *fonts*, *scripts*, and *content* (for stylesheets and any other files).
 
-### Question: How do I handle URL variables and query parameters in an API?
+### Use URL routes and query parameters from APIs
 
-Answer: See the answer in step 1-4 for [Question: How does Flask work with variable URL routes and query parameters?](learn-flask-visual-studio-step-01-project-solution.md#qa-url-variables)
+You can handle URL variables and query parameters with APIs when your work with Flask. For more information, see [Use variable URL routes and query parameters](learn-flask-visual-studio-step-01-project-solution.md#use-variable-url-routes-and-query-parameters) in Step 1 of this tutorial series.
 
 ## Step 3-3: Add a page to the app
 
