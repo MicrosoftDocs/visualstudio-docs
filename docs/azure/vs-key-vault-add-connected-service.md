@@ -9,6 +9,7 @@ ms.topic: how-to
 ms.date: 4/28/2023
 ms.author: ghogen
 ---
+
 # Add Key Vault to your web application by using Visual Studio Connected Services
 
 In this tutorial, you will learn how to easily add everything you need to start using Azure Key Vault to manage your secrets for web projects in Visual Studio, whether you are using ASP.NET Core or any type of ASP.NET project. By using the Connected Services feature in Visual Studio, you can have Visual Studio automatically add all the NuGet packages and configuration settings you need to connect to Key Vault in Azure.
@@ -30,7 +31,7 @@ Before you begin, make sure that you're signed into Visual Studio. Sign in with 
 
    ![Choose "Azure Key Vault"](./media/vs-key-vault-add-connected-service/key-vault-connected-service.png)
 
-1. Select the subscription you want to use, and then if you already have a Key Vault you want to use, select it and click **Next**.
+1. Select the subscription you want to use, and then if you already have a key vault you want to use, select it and click **Next**.
 
    ![Screenshot Select your subscription](./media/vs-key-vault-add-connected-service/key-vault-connected-service-select-vault.png)
 
@@ -44,15 +45,15 @@ Before you begin, make sure that you're signed into Visual Studio. Sign in with 
 
 1. Click **Next** to review a summary of the changes and then **Finish**.
 
-Now, connection to Key Vault is established and you can access your secrets in code. If you just created a new key vault, test it by creating a secret that you can reference in code. You can create a secret by using the [Azure portal](/azure/key-vault/secrets/quick-create-portal), [PowerShell](/azure/key-vault/secrets/quick-create-powershell), or the [Azure CLI](/azure/key-vault/secrets/quick-create-cli).
+Now, connection to Key Vault is established and you can access your secrets in code. If you just created a new Key Vault, test it by creating a secret that you can reference in code. You can create a secret by using the [Azure portal](/azure/key-vault/secrets/quick-create-portal), [PowerShell](/azure/key-vault/secrets/quick-create-powershell), or the [Azure CLI](/azure/key-vault/secrets/quick-create-cli).
 
 See code examples of working with secrets at [Azure Key Vault Secrets client library for .NET - Code examples](/azure/key-vault/secrets/quick-create-net?tabs=azure-cli#code-examples).
 
 ## Troubleshooting
 
-If your Key Vault is running on a different Microsoft account than the one you're logged in to Visual Studio (for example, the Key Vault is running on your work account, but Visual Studio is using your private account) you get an error in your Program.cs file, that Visual Studio can't get access to the Key Vault. To fix this issue:
+If your key vault is running on a different Microsoft account than the one you're logged in to Visual Studio (for example, the key vault is running on your work account, but Visual Studio is using your private account) you get an error in your Program.cs file, that Visual Studio can't get access to the key vault. To fix this issue:
 
-1. Go to the [Azure portal](https://portal.azure.com) and open your Key Vault.
+1. Go to the [Azure portal](https://portal.azure.com) and open your key vault.
 
 1. Choose **Access policies**, then **Add Access Policy**, and choose the account you are logged in with as Principal.
 
@@ -61,11 +62,11 @@ Select **Add an account** from the **All account** section. Sign in with the acc
 
 1. Choose **Tools** > **Options**, and look for **Azure Service Authentication**. Then select the account you just added to Visual Studio.
 
-Now, when you debug your application, Visual Studio connects to the account your Key Vault is located on.
+Now, when you debug your application, Visual Studio connects to the account your key vault is located on.
 
 ## How your ASP.NET Core project is modified
 
-This section identifies the exact changes made to an ASP.NET project when adding the Key Vault connected service using Visual Studio.
+This section identifies the exact changes made to an ASP.NET project when adding the key vault connected service using Visual Studio.
 
 ### Added references for ASP.NET Core
 
@@ -97,11 +98,11 @@ Affects the project file .NET references and NuGet package references.
 ### Changes on Azure for ASP.NET Core
 
 - Created a resource group (or used an existing one).
-- Created a Key Vault in the specified resource group.
+- Created a key vault in the specified resource group.
 
 ## How your ASP.NET Framework project is modified
 
-This section identifies the exact changes made to an ASP.NET project when adding the Key Vault connected service using Visual Studio.
+This section identifies the exact changes made to an ASP.NET project when adding the key vault connected service using Visual Studio.
 
 ### Added references for ASP.NET Framework
 
@@ -111,9 +112,9 @@ Affects the project file .NET references and `packages.config` (NuGet references
 | --- | --- |
 | .NET; NuGet | Azure.Identity |
 | .NET; NuGet | Azure.Security.KeyVault.Keys |
-| .NET; NuGet | Azure.Security.KeyVault.Secrets |
+| .NET; NuGet | Azure.Security.key vault.Secrets |
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > By default Azure.Identity 1.1.1 is installed, which does not support Visual Studio Credential. You can update package reference manually to 1.2+ use Visual Studio Credential.
 
 ### Added files for ASP.NET Framework
@@ -131,5 +132,4 @@ If you followed this tutorial, your Key Vault permissions are set up to run with
 
 Learn more about Key Vault development by reading the [Key Vault Developer's Guide](/azure/key-vault/general/developers-guide).
 
-If your goal is to store configuration for an ASP.NET Core app in an Azure Key Vault, see [Azure Key Vault configuration provider in ASP.NET Core](/aspnet/core/security/key-vault-configuration).
-
+If your goal is to store configuration for an ASP.NET Core app in an Azure key vault, see [Azure Key Vault configuration provider in ASP.NET Core](/aspnet/core/security/key-vault-configuration).
