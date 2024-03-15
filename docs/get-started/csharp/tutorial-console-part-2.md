@@ -316,7 +316,7 @@ You can use the .NET [Trace](xref:System.Diagnostics.Trace) class to add a log o
 
 1. Run the app again. When you're done, right-click the **Calculator** project node and choose **Open Folder in File Explorer**.
 
-1. In File Explorer, navigate to the output folder under *bin/Debug/*, and open the *calculator.log* file. The output should look something like this:
+1. In File Explorer, navigate to the output folder under *bin/Debug/net8.0* (or whatever .NET version you're using), and open the *calculator.log* file. The output should look something like this:
 
     ```output
     Starting Calculator Log
