@@ -2,9 +2,8 @@
 title: "Tutorial: Create a simple C# console app "
 description: Create a C# console application in Visual Studio and explore some features of the Visual Studio integrated development environment (IDE).
 ms.custom: vs-acquisition
-ms.date: 11/17/2023
+ms.date: 03/15/2024
 ms.subservice: general-ide
-
 ms.topic: tutorial
 ms.devlang: csharp
 author: anandmeg
@@ -425,6 +424,7 @@ If you enter an alphabetic character when the app expects a numeric character, t
 
 To prevent this exception, you can refactor the code you've previously entered.
 
+:::moniker range="<=vs-2019"
 #### Revise the code
 
 Rather than rely on the `program` class to handle all the code, you can divide your app into two classes: `Calculator` and `Program`.
@@ -553,15 +553,157 @@ Let's get started.
 
 1. Follow the prompts and divide the number **42** by the number **119**. Your results should look similar to the following screenshot:
 
-   ::: moniker range="<=vs-2019"
    ![Screenshot showing a Console window with the refactored Calculator app.](media/csharp-console-calculator-refactored.png)
-   ::: moniker-end
-
-   ::: moniker range=">=vs-2022"
-   ![Screenshot showing a Console window with the refactored Calculator app.](media/vs-2022/csharp-console-calculator-refactored.png)
-   ::: moniker-end
 
    You can now run more calculations until you choose to close the console app. There are also fewer decimal places in the results. And if you enter an incorrect character, you get an appropriate error response.
+
+:::moniker-end
+
+:::moniker range=">=vs-2022"
+#### Revise the code
+
+Rather than rely on the `program` class to handle all the code, you can divide your app into two classes: `Calculator` and `Program`.
+
+The `Calculator` class handles the bulk of the calculation work, and the `Program` class handles the user interface and error-handling work.
+
+Let's get started.
+
+1. In *Program.cs*, delete everything and add the following new `Calculator` class:
+
+    ```csharp
+    class Calculator
+    {
+        public static double DoOperation(double num1, double num2, string op)
+        {
+            double result = double.NaN; // Default value is "not-a-number" if an operation, such as division, could result in an error.
+
+            // Use a switch statement to do the math.
+            switch (op)
+            {
+                case "a":
+                    result = num1 + num2;
+                    break;
+                case "s":
+                    result = num1 - num2;
+                    break;
+                case "m":
+                    result = num1 * num2;
+                    break;
+                case "d":
+                    // Ask the user to enter a non-zero divisor.
+                    if (num2 != 0)
+                    {
+                        result = num1 / num2;
+                    }
+                    break;
+                // Return text for an incorrect option entry.
+                default:
+                    break;
+            }
+            return result;
+        }
+    }
+
+    ```
+
+1. Also add a new  `Program` class, as follows:
+
+    ```csharp
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            bool endApp = false;
+            // Display title as the C# console calculator app.
+            Console.WriteLine("Console Calculator in C#\r");
+            Console.WriteLine("------------------------\n");
+
+            while (!endApp)
+            {
+                // Declare variables and set to empty.
+                // Use Nullable types (with ?) to match type of System.Console.ReadLine
+                string? numInput1 = "";
+                string? numInput2 = "";
+                double result = 0;
+
+                // Ask the user to type the first number.
+                Console.Write("Type a number, and then press Enter: ");
+                numInput1 = Console.ReadLine();
+
+                double cleanNum1 = 0;
+                while (!double.TryParse(numInput1, out cleanNum1))
+                {
+                    Console.Write("This is not valid input. Please enter an integer value: ");
+                    numInput1 = Console.ReadLine();
+                }
+
+                // Ask the user to type the second number.
+                Console.Write("Type another number, and then press Enter: ");
+                numInput2 = Console.ReadLine();
+
+                double cleanNum2 = 0;
+                while (!double.TryParse(numInput2, out cleanNum2))
+                {
+                    Console.Write("This is not valid input. Please enter an integer value: ");
+                    numInput2 = Console.ReadLine();
+                }
+
+                // Ask the user to choose an operator.
+                Console.WriteLine("Choose an operator from the following list:");
+                Console.WriteLine("\ta - Add");
+                Console.WriteLine("\ts - Subtract");
+                Console.WriteLine("\tm - Multiply");
+                Console.WriteLine("\td - Divide");
+                Console.Write("Your option? ");
+
+                string? op = Console.ReadLine();
+
+                // Validate input is not null, and matches the pattern
+                if (op == null || ! Regex.IsMatch(op, "[a|s|m|d]"))
+                {
+                   Console.WriteLine("Error: Unrecognized input.");
+                }
+                else
+                { 
+                   try
+                   {
+                      result = calculator.DoOperation(cleanNum1, cleanNum2, op);
+                      if (double.IsNaN(result))
+                      {
+                         Console.WriteLine("This operation will result in a mathematical error.\n");
+                      }
+                      else Console.WriteLine("Your result: {0:0.##}\n", result);
+                    }
+                    catch (Exception e)
+                    {
+                       Console.WriteLine("Oh no! An exception occurred trying to do the math.\n - Details: " + e.Message);
+                    }
+                }
+                Console.WriteLine("------------------------\n");
+
+                // Wait for the user to respond before closing.
+                Console.Write("Press 'n' and Enter to close the app, or press any other key and Enter to continue: ");
+                if (Console.ReadLine() == "n") endApp = true;
+
+                Console.WriteLine("\n"); // Friendly linespacing.
+            }
+            return;
+        }
+    }
+    ```
+
+    > [!NOTE]
+    > It's best to use nullable types (with the `?` symbol) for the input strings, since `System.Console.ReadLine` returns a [nullable reference type](/dotnet/csharp/language-reference/builtin-types/nullable-reference-types).
+
+1. Select the **Calculator** button or press **F5** to run your app.
+
+1. Follow the prompts and divide the number **42** by the number **119**. Your results should look similar to the following screenshot:
+
+   ![Screenshot showing a Console window with the refactored Calculator app.](media/vs-2022/csharp-console-calculator-refactored.png)
+
+   You can now run more calculations until you choose to close the console app. There are also fewer decimal places in the results. And if you enter an incorrect character, you get an appropriate error response.
+
+:::moniker-end
 
 ## Close the app
 
@@ -580,6 +722,8 @@ Let's get started.
 In this tutorial, you made many changes to the Calculator app. The app now handles computing resources more efficiently, and handles most user input errors.
 
 Here's the complete code, all in one place:
+
+:::moniker range="<=vs-2019"
 
 ```csharp
 
@@ -691,6 +835,128 @@ class Program
 }
 
 ```
+
+:::moniker-end
+:::moniker range=">=vs-2022"
+
+    ```csharp
+
+    class Calculator
+    {
+        public static double DoOperation(double num1, double num2, string op)
+        {
+            double result = double.NaN; // Default value is "not-a-number" which we use if an operation, such as division, could result in an error.
+
+            // Use a switch statement to do the math.
+            switch (op)
+            {
+                case "a":
+                    result = num1 + num2;
+                    break;
+                case "s":
+                    result = num1 - num2;
+                    break;
+                case "m":
+                    result = num1 * num2;
+                    break;
+                case "d":
+                    // Ask the user to enter a non-zero divisor.
+                    if (num2 != 0)
+                    {
+                        result = num1 / num2;
+                    }
+                    break;
+                // Return text for an incorrect option entry.
+                default:
+                    break;
+            }
+            return result;
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            bool endApp = false;
+            // Display title as the C# console calculator app.
+            Console.WriteLine("Console Calculator in C#\r");
+            Console.WriteLine("------------------------\n");
+
+            while (!endApp)
+            {
+                // Declare variables and set to empty.
+                // Use Nullable types (with ?) to match type of System.Console.ReadLine
+                string? numInput1 = "";
+                string? numInput2 = "";
+                double result = 0;
+
+                // Ask the user to type the first number.
+                Console.Write("Type a number, and then press Enter: ");
+                numInput1 = Console.ReadLine();
+
+                double cleanNum1 = 0;
+                while (!double.TryParse(numInput1, out cleanNum1))
+                {
+                    Console.Write("This is not valid input. Please enter an integer value: ");
+                    numInput1 = Console.ReadLine();
+                }
+
+                // Ask the user to type the second number.
+                Console.Write("Type another number, and then press Enter: ");
+                numInput2 = Console.ReadLine();
+
+                double cleanNum2 = 0;
+                while (!double.TryParse(numInput2, out cleanNum2))
+                {
+                    Console.Write("This is not valid input. Please enter an integer value: ");
+                    numInput2 = Console.ReadLine();
+                }
+
+                // Ask the user to choose an operator.
+                Console.WriteLine("Choose an operator from the following list:");
+                Console.WriteLine("\ta - Add");
+                Console.WriteLine("\ts - Subtract");
+                Console.WriteLine("\tm - Multiply");
+                Console.WriteLine("\td - Divide");
+                Console.Write("Your option? ");
+
+                string? op = Console.ReadLine();
+
+                // Validate input is not null, and matches the pattern
+                if (op == null || ! Regex.IsMatch(op, "[a|s|m|d]"))
+                {
+                   Console.WriteLine("Error: Unrecognized input.");
+                }
+                else
+                { 
+                   try
+                   {
+                      result = calculator.DoOperation(cleanNum1, cleanNum2, op);
+                      if (double.IsNaN(result))
+                      {
+                         Console.WriteLine("This operation will result in a mathematical error.\n");
+                      }
+                      else Console.WriteLine("Your result: {0:0.##}\n", result);
+                    }
+                    catch (Exception e)
+                    {
+                       Console.WriteLine("Oh no! An exception occurred trying to do the math.\n - Details: " + e.Message);
+                    }
+                }
+                Console.WriteLine("------------------------\n");
+
+                // Wait for the user to respond before closing.
+                Console.Write("Press 'n' and Enter to close the app, or press any other key and Enter to continue: ");
+                if (Console.ReadLine() == "n") endApp = true;
+
+                Console.WriteLine("\n"); // Friendly linespacing.
+            }
+            return;
+        }
+    }
+    ```
+:::moniker-end
 
 ## Next steps
 

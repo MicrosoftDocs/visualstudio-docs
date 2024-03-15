@@ -2,9 +2,8 @@
 title: "Tutorial 2: Extend your C# console app"
 description: Extend a C# console application in Visual Studio, including debugging features, managing multiple projects, and referencing third-party packages.
 ms.custom: vs-acquisition
-ms.date: 10/31/2023
+ms.date: 03/15/2024
 ms.subservice: general-ide
-
 ms.topic: tutorial
 ms.devlang: csharp
 author: anandmeg
@@ -636,8 +635,9 @@ namespace CalculatorProgram
             while (!endApp)
             {
                 // Declare variables and set to empty.
-                string numInput1 = "";
-                string numInput2 = "";
+                // Use Nullable types (with ?) to match type of System.Console.ReadLine
+                string? numInput1 = "";
+                string? numInput2 = "";
                 double result = 0;
 
                 // Ask the user to type the first number.
@@ -670,22 +670,29 @@ namespace CalculatorProgram
                 Console.WriteLine("\td - Divide");
                 Console.Write("Your option? ");
 
-                string op = Console.ReadLine();
+                string? op = Console.ReadLine();
 
-                try
+                // Validate input is not null, and matches the pattern
+                if (op == null || ! Regex.IsMatch(op, "[a|s|m|d]"))
                 {
-                    result = calculator.DoOperation(cleanNum1, cleanNum2, op); 
-                    if (double.IsNaN(result))
-                    {
-                        Console.WriteLine("This operation will result in a mathematical error.\n");
-                    }
-                    else Console.WriteLine("Your result: {0:0.##}\n", result);
+                   Console.WriteLine("Error: Unrecognized input.");
                 }
-                catch (Exception e)
-                {
-                    Console.WriteLine("Oh no! An exception occurred trying to do the math.\n - Details: " + e.Message);
+                else
+                { 
+                   try
+                   {
+                       result = calculator.DoOperation(cleanNum1, cleanNum2, op); 
+                       if (double.IsNaN(result))
+                       {
+                           Console.WriteLine("This operation will result in a mathematical error.\n");
+                       }
+                       else Console.WriteLine("Your result: {0:0.##}\n", result);
+                   }
+                   catch (Exception e)
+                   {
+                       Console.WriteLine("Oh no! An exception occurred trying to do the math.\n - Details: " + e.Message);
+                   }
                 }
-
                 Console.WriteLine("------------------------\n");
 
                 // Wait for the user to respond before closing.
