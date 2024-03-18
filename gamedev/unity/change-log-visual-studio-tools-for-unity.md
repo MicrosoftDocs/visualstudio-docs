@@ -34,7 +34,7 @@ Released February 13, 2024
 
   - Fixed [`UNT0034`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0034.md) and [`UNT0035`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0035.md) with ambiguous overloads.
 
-# 17.9.2.0
+## 17.9.2.0
 Released January 3, 2024
 
 ### Bug fixes
@@ -54,7 +54,7 @@ Released December 12, 2023
 
   - Fixed stability issue with tgz file references in the manifest.
 
-# 17.9.0.0
+## 17.9.0.0
 Released November 28, 2023
 
 ### New Features
