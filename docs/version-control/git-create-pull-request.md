@@ -42,7 +42,7 @@ To create a pull request, follow these steps:
 
    :::image type="content" source="media/vs-2022/git-create-pr-markdown.png" alt-text="The New Pull Request window with the preview button text highlighted in Visual Studio 2022."::: 
 
-1. The difference preview allows you to see all the changes in the files that have been committed as a part of your pull request.  
+1. The difference preview allows you to see all the changes in the files that have been committed as a part of your pull request. See [Compare files - diff view](../ide/compare-with.md).
 
    > [!TIP]
    > The summary difference view option allows you to review only the changed sections of code. 
