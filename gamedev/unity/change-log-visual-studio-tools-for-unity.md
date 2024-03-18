@@ -1662,7 +1662,7 @@ Released January 23, 2017
 
   - Fixed function breakpoints with coroutines under the new Unity compiler/runtime.
 
-  - Added warning in case of an unbindable breakpoint (when no corresponding source-location is found).
+  - Added warning if there is an unbindable breakpoint (when no corresponding source-location is found).
 
 - **Project Generation:**
 
@@ -2021,7 +2021,7 @@ Released October 9, 2014
 
 - Improve detection of Unity players.
 
-- When using our file opener, make Unity pass the line number as well as the file name.
+- When using our file opener, make Unity pass the line number and the file name.
 
 - Default to the online Unity documentation if there's no local documentation.
 
@@ -2226,7 +2226,7 @@ Released September 24, 2013
 
 - Fixed the generation of references with assemblies in Plugins folders.
 
-- Fixed creation of sockets from the UnityVS package in case of exceptions.
+- Fixed creation of sockets from the UnityVS package if there was exceptions.
 
 - Fixed the detection of new versions of UnityVS.
 
