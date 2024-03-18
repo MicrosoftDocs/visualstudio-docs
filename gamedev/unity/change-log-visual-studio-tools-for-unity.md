@@ -452,7 +452,7 @@ Released July 13, 2021
 
 - **Integration:**
 
-  - [Backported] Improved light-build time, by only running suppressors able to handle CS compiler warnings. All other analyzers through solution analysis.
+  - [Backported] Improved light-build time, by only running suppressors able to handle CS compiler warnings. All other analyzers run through solution analysis.
 
 ## 4.11.1.0
 Released June 15, 2021
@@ -906,11 +906,11 @@ Released September 4, 2019
 
 - **Evaluation:**
 
-  - Added support for better type display, i.e. `List<object>` instead of `List'1[[System.Object, <corlib...>]]`.
+  - Added support for better type display, that is `List<object>` instead of `List'1[[System.Object, <corlib...>]]`.
 
-  - Added support for pointer member access, i.e. `p->data->member`.
+  - Added support for pointer member access, that is `p->data->member`.
 
-  - Added support for implicit conversions in array initializers, i.e. `new byte [] {1,2,3,4}`.
+  - Added support for implicit conversions in array initializers, that is `new byte [] {1,2,3,4}`.
 
 ## 4.3.0.0
 
@@ -1002,7 +1002,7 @@ Released May 21, 2019
 
   - Disabled the full build for Unity projects, in favor of using the IntelliSense errors and warnings. Indeed Unity creates a Visual Studio solution with class library projects that represent what Unity is doing internally. That being said, the result of the build in Visual Studio is never used or picked up by Unity as their compilation pipeline is closed. Building in Visual Studio is just consuming resources for nothing. If you need a full build because you have tools or a setup that depends on it, you can disable this optimization (Tools/Options/Tools for Unity/Disable the full build of projects).
 
-  - Automatically show the Unity Project Explorer (UPE) when a Unity project is loaded. The UPE will be docked next to the Solution Explorer.
+  - Automatically show the Unity Project Explorer (UPE) when a Unity project is loaded. The UPE is docked next to the Solution Explorer.
 
   - Updated project name extraction mechanism with Unity 2019.x.
 
@@ -1130,7 +1130,7 @@ Released December 10, 2018
 
 - **Integration:**
 
-  - Added support for automatically refreshing Unity's asset database on save. This is enabled by default and will trigger a recompilation on the Unity side when saving a script in Visual Studio. You can disable this feature in Tools\Options\Tools for Unity\Refresh Unity's AssetDatabase on save.
+  - Added support for automatically refreshing Unity's asset database on save. This feature is enabled by default and will trigger a recompilation on the Unity side when saving a script in Visual Studio. You can disable this feature in Tools\Options\Tools for Unity\Refresh Unity's AssetDatabase on save.
 
 ### Bug fixes
 
@@ -1172,7 +1172,7 @@ Released November 28, 2018
 
 - **Integration:**
 
-  - Fixed project reloading and intellisense issues when adding or removing scripts located in the very first project.
+  - Fixed project reloading and intellisense issues when adding or removing scripts located in the first project.
 
 ## 3.9.0.2
 
