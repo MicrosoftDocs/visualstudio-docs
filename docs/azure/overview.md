@@ -62,7 +62,6 @@ You can use Visual Studio debug your application while it's running in Azure, so
 
 If you're using a virtual machine (VM) to host an ASP.NET Core web app, see [Remote debug ASP.NET Core on IIS using an Azure VM from Visual Studio](../debugger/remote-debugging-azure.md).
 
-
 ## Use integrated Azure features
 
 When running in the Azure cloud, apps can benefit from Azure's high availability standards, [scaling up](/azure/app-service/manage-scale-up) and [scaling out](/azure/app-service/manage-automatic-scaling?tabs=azure-portal) capabilities, [monitoring](/azure/azure-monitor/app/asp-net), [load testing](/azure/load-testing/overview-what-is-azure-load-testing), and other benefits. Visual Studio comes integrated with Azure functionality like [Remote debugging](../debugger/remote-debugging.md), viewing logs, and more.

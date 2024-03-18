@@ -8,6 +8,7 @@ ms.topic: how-to
 ms.date: 03/21/2017
 ms.author: ghogen
 ---
+
 # Using the Visual Studio Publish Azure Application Wizard
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
@@ -48,7 +49,7 @@ You can access the Publish Azure Application wizard in two ways depending on the
 
 ![Common Settings](./media/vs-azure-tools-publish-azure-application-wizard/settings-common-settings.png)
 
-**Cloud service** - Using the dropdown, either select an existing cloud service, or select **&lt;Create New>**, and create a cloud service. The data center displays in parentheses for each cloud service. It is recommended that the data center location for the cloud service be the same as the data center location for the storage account (Advanced Settings).
+**Cloud service** - Using the dropdown list, either select an existing cloud service, or select **&lt;Create New>**, and create a cloud service. The datacenter displays in parentheses for each cloud service. It is recommended that the datacenter location for the cloud service be the same as the datacenter location for the storage account (Advanced Settings).
 
 **Environment** - Select either **Production** or **Staging**. Choose the staging environment if you want to deploy your application in a test environment.
 
@@ -64,11 +65,11 @@ You can access the Publish Azure Application wizard in two ways depending on the
 
 ![Advanced settings](./media/vs-azure-tools-publish-azure-application-wizard/settings-advanced-settings.png)
 
-**Deployment label** - Either accept the default name, or enter a name of your choosing. To append the date to the deployment label, leave the check box selected.
+**Deployment label** - Either accept the default name, or enter a name of your choosing. To append the date to the deployment label, leave the checkbox selected.
 
-**Storage account** - Select the storage account to use for this deployment, **&lt;Create New> to create a storage account. The data center displays in parentheses for each storage account. It is recommended that the data center location for the storage account is the same as the data center location for the cloud service (Common Settings).
+**Storage account** - Select the storage account to use for this deployment, **&lt;Create New> to create a storage account. The datacenter displays in parentheses for each storage account. It is recommended that the datacenter location for the storage account is the same as the datacenter location for the cloud service (Common Settings).
 
-The Azure storage account stores the package for the application deployment. After the application is deployed, the package is removed from the storage account.
+The Azure Storage account stores the package for the application deployment. After the application is deployed, the package is removed from the storage account.
 
 **Delete deployment on failure** - Select this option to have the deployment deleted if any errors are encountered during publishing. This should be unchecked if you want to maintain a constant virtual IP address for your cloud service.
 
@@ -94,7 +95,7 @@ Diagnostics enables you to troubleshoot an Azure cloud service (or Azure virtual
 
 ![Summary page](./media/vs-azure-tools-publish-azure-application-wizard/summary.png)
 
-**Target profile** - You can choose to create a publishing profile from the settings that you have chosen. For example, you might create one profile for a test environment and another for production. To save this profile, choose the **Save** icon. The wizard creates the profile and saves it in the Visual Studio project. To modify the profile name, open the **Target profile** list, and then choose **&lt;Manage…&gt;**.
+**Target profile** - You can choose to create a publishing profile from the settings that you have chosen. For example, you might create one profile for a test environment and another for production. To save this profile, choose the **Save** icon. The wizard creates the profile and saves it in the Visual Studio project. To modify the profile name, open the **Target profile** list, and then choose **&lt;Manage...&gt;**.
 
    > [!Note]
    > The publishing profile appears in Solution Explorer in Visual Studio, and the profile settings are written to a file with an .azurePubxml extension. Settings are saved as attributes of XML tags.
