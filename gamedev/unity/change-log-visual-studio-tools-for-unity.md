@@ -43,7 +43,7 @@ Released January 3, 2024
 
   - Fixed a stability issue preventing intellisense to work properly.
 
-# 17.9.1.0
+## 17.9.1.0
 Released December 12, 2023
 
 ### Bug fixes
