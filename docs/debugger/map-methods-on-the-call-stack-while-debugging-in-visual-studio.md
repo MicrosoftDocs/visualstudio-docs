@@ -26,7 +26,7 @@ helpviewer_keywords:
   - debugging [Visual Studio], visualizing the call stack
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Create a visual map of the call stack while debugging (C#, Visual Basic, C++, JavaScript)

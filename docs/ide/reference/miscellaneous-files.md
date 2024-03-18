@@ -15,7 +15,7 @@ helpviewer_keywords:
 - files [Visual Studio], miscellaneous
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Miscellaneous files

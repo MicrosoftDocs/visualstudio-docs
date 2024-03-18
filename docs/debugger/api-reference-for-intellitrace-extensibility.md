@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "IntelliTrace, API reference"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # API reference for IntelliTrace extensibility

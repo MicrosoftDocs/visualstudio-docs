@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: reference
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # UI Text and Help for Visual Studio

@@ -10,7 +10,8 @@ helpviewer_keywords:
 - Build options [C#], advanced
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
+monikerRange: 'vs-2019'
 ---
 # Advanced Build Settings dialog box (C#)
 

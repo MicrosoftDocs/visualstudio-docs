@@ -9,7 +9,7 @@ helpviewer_keywords:
 - registration, new project types
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Registering a Project Type

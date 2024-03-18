@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.author: maiak
 monikerRange: ">=vs-2022"
 author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 

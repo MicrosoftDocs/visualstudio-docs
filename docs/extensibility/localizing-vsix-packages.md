@@ -9,7 +9,7 @@ helpviewer_keywords:
 - localized deployment
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Localizing VSIX Packages

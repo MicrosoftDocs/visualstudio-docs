@@ -19,7 +19,7 @@ helpviewer_keywords:
 - referencing components, assemblies not listed
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Add or remove references by using the Reference Manager

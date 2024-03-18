@@ -7,6 +7,7 @@ manager: dominicn
 ms.date: 03/03/2022
 ms.topic: how-to
 ---
+
 # Customizing the IDE in Visual Studio for Mac
 
  [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
@@ -17,7 +18,7 @@ Visual Studio for Mac can be customized, allowing users to develop apps in an en
 
 ![Dark Theme View](media/customizing-the-ide-image7a.png)
 
-You can switch themes in Visual Studio for Mac by browsing to **Visual Studio > Preferences > Environment > Visual Style** and selecting your desired theme from the **User Interface Theme** drop-down, as illustrated in the following image:
+You can switch themes in Visual Studio for Mac by browsing to **Visual Studio > Preferences > Environment > Visual Style** and selecting your desired theme from the **User Interface Theme** dropdown list, as illustrated in the following image:
 
 ![Dark Theme Selection](media/customizing-the-ide-image7b.png)
 
@@ -25,22 +26,22 @@ You can switch themes in Visual Studio for Mac by browsing to **Visual Studio > 
 
 Visual Studio for Mac is localized in the following 14 languages, enabling it to be accessible to more developers:
 
-* Chinese - China
-* Chinese - Taiwan
-* Czech
-* French
-* German
-* English
-* Italian
-* Japanese
-* Korean
-* Polish
-* Portuguese - Brazil
-* Russian
-* Spanish
-* Turkish
+- Chinese - China
+- Chinese - Taiwan
+- Czech
+- French
+- German
+- English
+- Italian
+- Japanese
+- Korean
+- Polish
+- Portuguese - Brazil
+- Russian
+- Spanish
+- Turkish
 
-To change the language displayed by Visual Studio for Mac, browse to  **Visual Studio > Preferences > Environment > Visual Style** and select your desired language from the **User Interface Language** drop-down, as illustrated in the following image:
+To change the language displayed by Visual Studio for Mac, browse to **Visual Studio > Preferences > Environment > Visual Style** and select your desired language from the **User Interface Language** dropdown list, as illustrated in the following image:
 
 ![Language Selection](media/customizing-the-ide-image11a.png)
 
@@ -80,19 +81,19 @@ Visual Studio for Mac's workspace consists of a main document area (normally the
 
 When you open any new solution or file in Visual Studio for Mac, you should notice some *tool windows* in the workspace, including the Solution Window, Document Outline, and Errors:
 
-![Tool Window](media/customizing-the-ide-image2a.png)
+![Tool window](media/customizing-the-ide-image2a.png)
 
 Visual Studio for Mac provides tool windows containing additional information, tools, and navigation aids, all of which can be accessed by browsing the **View** menu item and selecting a tool window to add it:
 
 ![Select new tool window](media/customizing-the-ide-image3a.png)
 
-Tool Windows may also be opened automatically by different commands, such as the **Find in Files** (Shift + Cmd + F) command, which opens a detached window of search results.
+Tool windows might also be opened automatically by different commands, such as the **Find in Files** (Shift + Cmd + F) command, which opens a detached window of search results.
 
-Tool Windows can be moved and arranged throughout your workflow in whatever way is most useful to you. For example, they can be docked on any side of the document editor, next to another tool window, above or below another window, or as a set of tabbed windows enabling you to quickly switch between them.
+Tool windows can be moved and arranged throughout your workflow in whatever way is most useful to you. For example, they can be docked on any side of the document editor, next to another tool window, above or below another window, or as a set of tabbed windows enabling you to quickly switch between them.
 
 For frequently used tool windows, you can also completely detach them from the Visual Studio for Mac window and into their own new window.
 
-Tool Windows can be pinned and closed by the controls in the top-right corner of each window:
+Tool windows can be pinned and closed by the controls in the top-right corner of each window:
 
 :::image type="content" source="media/customizing-the-ide-image5a.png" alt-text="Using controls to pin or close tool windows":::
 
@@ -104,11 +105,11 @@ The tool windows that are displayed at any time are dependent on the current con
 
 The state of the open tool windows is represented by a *layout*. You can switch the layouts manually through the View menu, as illustrated in the following image. It's also switched automatically when you carry out an action, such as debugging, or opening a Storyboard:
 
-![Selecting new Layouts](media/customizing-the-ide-image6b.png)
+![Selecting new layouts](media/customizing-the-ide-image6b.png)
 
 It's possible to create a new layout by using the **View > Layout > Save Current Layout...** menu item. This command will add your current layout to the menu so that you can select it at any time:
 
-![Save Current Layout](media/customizing-the-ide-image6a.png)
+![Save current layout](media/customizing-the-ide-image6a.png)
 
 ### Side-by-side editing support
 

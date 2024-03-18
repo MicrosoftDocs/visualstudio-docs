@@ -9,7 +9,7 @@ helpviewer_keywords:
 - wizards, files
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Wizard (.Vsz) File

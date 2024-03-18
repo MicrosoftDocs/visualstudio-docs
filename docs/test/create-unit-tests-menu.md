@@ -7,7 +7,7 @@ helpviewer_keywords:
   - unit testing, create unit tests
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: test-tools
 ---
 # Create unit test method stubs from code

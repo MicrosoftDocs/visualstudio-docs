@@ -7,7 +7,7 @@ helpviewer_keywords:
 - verbs, setting default
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Manage side-by-side file associations

@@ -3,7 +3,7 @@ title: "Tutorial: Create C# ASP.NET Core web application"
 description: Create a web application in the Visual Studio integrated development environment (IDE) by using C# and ASP.NET Core, make changes to the app, and run the app.
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ms.topic: tutorial
 ms.date: 11/17/2023
@@ -28,7 +28,7 @@ This tutorial shows you how to:
 
 ## Prerequisites
 
-You need Visual Studio to complete this tutorial. Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs) for a free version.
+You need Visual Studio to complete this tutorial. Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-tutorial-create-csharp-aspnetcore-web-app-page-cta) for a free version.
 
 - For more information about upgrading to the latest Visual Studio release, see [Visual Studio updates](../../install/update-visual-studio.md).
 

@@ -9,7 +9,7 @@ helpviewer_keywords:
 - new package version
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Update a Visual Studio extension

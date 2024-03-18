@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Domain-Specific Language, serialization
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Customize File Storage and XML Serialization

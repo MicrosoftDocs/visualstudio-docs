@@ -12,7 +12,7 @@ f1_keywords:
 - VC.Project.ImageContentTask.GenerateMips
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: ui-designers
 ---
 # Use 3D assets in your game or app

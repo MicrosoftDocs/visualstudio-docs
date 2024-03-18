@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaSession::getEnumTables method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDiaSession::getEnumTables

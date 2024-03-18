@@ -11,7 +11,7 @@ helpviewer_keywords:
 - Data Sources Window, controls
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Create a .NET Framework Windows Forms user control that supports simple data binding

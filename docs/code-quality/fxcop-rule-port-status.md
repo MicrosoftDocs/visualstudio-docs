@@ -8,7 +8,7 @@ helpviewer_keywords:
 - .NET analyzers, ported rules
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: code-analysis
 ---
 # Fxcop rule port status

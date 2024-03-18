@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Domain-Specific Language
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # About Domain-Specific Languages

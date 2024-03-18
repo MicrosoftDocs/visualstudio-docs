@@ -2,18 +2,19 @@
 title: Add Azure Storage by using Connected Services
 description: Connect an Azure Storage service dependency to your application by using Connected Services in Visual Studio on Windows and add a connected service.
 author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 05/15/2023
 ms.author: ghogen
 ---
-# Adding Azure storage by using Visual Studio Connected Services
+
+# Adding Azure Storage by using Visual Studio Connected Services
 
 With Visual Studio, you can connect any of the following to Azure Storage by using the **Connected Services** feature:
 
 - .NET Framework console app
-- ASP.NET MVC (.NET Framework)
+- ASP.NET Model-View-Controller (MVC) (.NET Framework)
 - ASP.NET Core
 - .NET Core (including console app, WPF, Windows Forms, class library)
 - .NET Core Worker Role
@@ -26,6 +27,7 @@ The connected service functionality adds all the needed references and connectio
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Connected services in Visual Studio for Mac](/visualstudio/mac/connected-services).
+
 ## Prerequisites
 
 - Visual Studio with the Azure workload installed.
@@ -64,7 +66,7 @@ The connected service functionality adds all the needed references and connectio
 
    1. Fill out the **Azure Storage: Create new** dialog, and select **Create**.
 
-       ![Screenshot showing "New Azure storage account" screen.](./media/vs-azure-tools-connected-services-storage/vs-2019/create-storage-account.png)
+       ![Screenshot showing "New Azure Storage account" screen.](./media/vs-azure-tools-connected-services-storage/vs-2019/create-storage-account.png)
 
    1. When the **Azure Storage** dialog is displayed, the new storage account appears in the list. Select the new storage account in the list, and select **Next**.
 
@@ -107,7 +109,7 @@ The connected service functionality adds all the needed references and connectio
 
    1. Fill out the **Azure Storage: Create new** dialog, and select **Create**.
 
-       ![New Azure storage account.](./media/vs-2022/azure-storage-create-account.png)
+       ![New Azure Storage account.](./media/vs-2022/azure-storage-create-account.png)
 
    1. When the **Azure Storage** dialog is displayed, the new storage account appears in the list. Select the new storage account in the list, and select **Next**.
 
@@ -128,7 +130,7 @@ Azure Storage supports blobs and queues, as well as other features.
 
 To learn about working with blobs, you can continue with the quickstart for blob storage, but instead of starting at the beginning, you can start at [Azure blobs quickstart (.NET) - Code examples](/azure/storage/blobs/storage-quickstart-blobs-dotnet?tabs=visual-studio%2Cmanaged-identity%2Croles-azure-portal%2Csign-in-azure-cli%2Cidentity-visual-studio#code-examples).
 
-To learn about working with queues, start at [Azure queues quickstart (.NET) - Code examples](/azure/storage/queues/storage-quickstart-queues-dotnet?tabs=passwordless%2Croles-azure-portal%2Cenvironment-variable-windows%2Csign-in-azure-cli#code-examples).
+To learn about working with queues, start at [Azure Queue Storage quickstart (.NET) - Code examples](/azure/storage/queues/storage-quickstart-queues-dotnet?tabs=passwordless%2Croles-azure-portal%2Cenvironment-variable-windows%2Csign-in-azure-cli#code-examples).
 
 ## Related content
 

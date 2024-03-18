@@ -9,7 +9,7 @@ helpviewer_keywords:
 - SccGetProjPath function
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # SccGetProjPath function

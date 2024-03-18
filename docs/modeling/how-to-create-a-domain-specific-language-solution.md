@@ -11,7 +11,7 @@ helpviewer_keywords:
 - Domain-Specific Language Tools, creating solutions
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Create a Domain-Specific Language Solution

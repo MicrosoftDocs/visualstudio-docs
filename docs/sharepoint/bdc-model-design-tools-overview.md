@@ -21,7 +21,7 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], designer"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # BDC model design tools overview

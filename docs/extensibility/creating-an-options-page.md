@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Tools Options pages [Visual Studio SDK], creating
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Create an options page

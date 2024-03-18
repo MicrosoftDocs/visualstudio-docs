@@ -11,7 +11,7 @@ helpviewer_keywords:
 - SupportsMasterPage element [Visual Studio Templates]
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ---
 # SupportsMasterPage Element (Visual Studio Templates)
 

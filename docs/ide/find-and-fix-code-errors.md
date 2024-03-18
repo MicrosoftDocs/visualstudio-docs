@@ -5,7 +5,7 @@ ms.date: 04/25/2023
 ms.topic: conceptual
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Make code work in Visual Studio

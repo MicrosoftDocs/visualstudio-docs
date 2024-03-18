@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Text Editor Options dialog box, IntelliSense
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Options, Text Editor, C#, IntelliSense

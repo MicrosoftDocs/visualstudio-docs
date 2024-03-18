@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Windows Forms controls [Office development in Visual Studio], resizing"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Resize controls within worksheet cells

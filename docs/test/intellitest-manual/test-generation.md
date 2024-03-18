@@ -6,7 +6,7 @@ ms.topic: conceptual
 helpviewer_keywords:
 - IntelliTest, Test generation
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: test-tools
 author: mikejo5000
 ---

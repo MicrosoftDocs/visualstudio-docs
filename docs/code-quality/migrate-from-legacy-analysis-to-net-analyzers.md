@@ -11,7 +11,7 @@ helpviewer_keywords:
 - source code analysis, migration
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: code-analysis
 ---
 # Migrate from legacy analysis (FxCop) to source analysis (.NET analyzers)

@@ -1,13 +1,15 @@
 ---
 title: Set up named authentication credentials
-description: 'Learn how to provide credentials that Visual Studio can use to authenticate requests to Azure, so you can publish an application to Azure from Visual Studio or monitor an existing cloud service.'
+description: Learn how to provide credentials that Visual Studio can use to authenticate requests to Azure, so you can publish an application to Azure from Visual Studio or monitor an existing cloud service.
 author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: azure-development
 ms.topic: conceptual
-ms.date: 11/11/2017
+ms.date: 03/06/2024
 ms.author: ghogen
+monikerRange: <=vs-2019
 ---
+
 # Set up named authentication credentials
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
@@ -17,7 +19,7 @@ To publish an application to Azure or to monitor an existing cloud service, Visu
 - In Visual Studio select **View > Server Explorer**, right-click the **Azure** node, select **Connect to Microsoft Azure Subscription**, and sign in.
 - Create a subscription file (`.publishsettings`), which contains a public key for the certificate. The subscription file can contain credentials for more than one subscription, as described in this article.
 
-Note: these credentials are different from credentials used to authenticate requests to Azure storage services.
+Note: these credentials are different from credentials used to authenticate requests to Azure Storage services.
 
 ## Prerequisites
 

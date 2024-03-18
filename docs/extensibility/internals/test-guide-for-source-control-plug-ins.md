@@ -11,7 +11,7 @@ helpviewer_keywords:
 - source control plug-ins, test guide
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Test Guide for Source Control Plug-ins

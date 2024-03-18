@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "errors [Visual Studio], debugger"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Debugging Errors and Warning Dialog Boxes

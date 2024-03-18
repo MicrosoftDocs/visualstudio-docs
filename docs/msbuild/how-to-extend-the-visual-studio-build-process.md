@@ -1,7 +1,7 @@
 ---
 title: Extend and customize the build process
 description: Explore several ways you can modify the build process so you can control and customize how your projects build, including overriding properties.
-ms.date: 11/04/2016
+ms.date: 02/14/2024
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, overriding predefined targets
@@ -10,7 +10,7 @@ helpviewer_keywords:
 - MSBuild, DependsOn properties
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # Extend the Visual Studio build process

@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "postActionData element"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # &lt;postActionData&gt; element (Office development)

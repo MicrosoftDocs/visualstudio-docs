@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "farm solutions [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # Sandboxed solution considerations

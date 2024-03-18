@@ -7,7 +7,7 @@ helpviewer_keywords:
 - msbuild, item definitions
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # Item definitions

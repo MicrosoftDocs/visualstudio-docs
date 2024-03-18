@@ -3,7 +3,7 @@ title: Increase the chance of a performance issue being fixed
 description: Additional information and best practices for submitting performance issues in Visual Studio
 author: madskristensen
 ms.author: madsk
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ms.date: 11/19/2019
 ms.topic: conceptual

@@ -6,7 +6,7 @@ ms.subservice: compile-build
 ms.topic: reference
 author: ghogen
 ms.author: ghogen 
-manager: jmartens
+manager: mijacobs
 ---
 # Build actions
 

@@ -14,7 +14,7 @@ helpviewer_keywords:
 - dependency graphs
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Map dependencies with code maps

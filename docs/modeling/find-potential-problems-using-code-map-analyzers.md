@@ -11,7 +11,7 @@ helpviewer_keywords:
 - graph documents, analyzing
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Find potential problems using code map analyzers

@@ -7,7 +7,7 @@ f1_keywords:
 - AddCorrelationInitializers.UI
 author: jodavis
 ms.author: jodavis
-manager: jmartens
+manager: mijacobs
 ms.subservice: workflow-designer
 ---
 # Add CorrelationInitializers Dialog Box

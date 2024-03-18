@@ -2,12 +2,13 @@
 title: Publish-WebApplicationVM
 description: Learn how to deploy a web application to a virtual machine. This script creates the required resources in your Azure subscription if they don't exist.
 author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: azure-development
 ms.topic: conceptual
 ms.date: 11/11/2016
 ms.author: ghogen
 ---
+
 # Publish-WebApplicationVM (Windows PowerShell script)
 
 Deploys a web application to a virtual machine. The script creates the required resources in your Azure subscription if they don't exist.
@@ -24,6 +25,7 @@ Publish-WebApplicationVM
 ```
 
 ### Configuration
+
 The path to the JSON configuration file that describes the details of the deployment.
 
 | Aliases | none |
@@ -35,6 +37,7 @@ The path to the JSON configuration file that describes the details of the deploy
 | Accept wildcard characters? |false |
 
 ### SubscriptionName
+
 The name of the Azure subscription in which you want to create the virtual machine.
 
 | Aliases | none |
@@ -46,6 +49,7 @@ The name of the Azure subscription in which you want to create the virtual machi
 | Accept wildcard characters? |false |
 
 ### WebDeployPackage
+
 The path to the web deployment package to publish to the virtual machine. You can create this package by using the Publish Web wizard in Visual Studio. See [How to: Create a Web Deployment Package in Visual Studio](/previous-versions/aspnet/dd465323(v=vs.110)).
 
 | Aliases | none |
@@ -57,6 +61,7 @@ The path to the web deployment package to publish to the virtual machine. You ca
 | Accept wildcard characters? |false |
 
 ### AllowUntrusted
+
 If true, allow the use of certificates that aren't signed by a trusted root authority.
 
 | Aliases | none |
@@ -68,6 +73,7 @@ If true, allow the use of certificates that aren't signed by a trusted root auth
 | Accept wildcard characters? |false |
 
 ### VMPassword
+
 The credentials for the virtual machine account. Example: -VMPassword @{Name = "admin"; Password = "password"}
 
 | Aliases | none |
@@ -79,6 +85,7 @@ The credentials for the virtual machine account. Example: -VMPassword @{Name = "
 | Accept wildcard characters? |false |
 
 ### DatabaseServerPassword
+
 The credentials for the SQL database in Azure. Example: -DatabaseServerPassword @{Name = "admin"; Password = "password"}
 
 | Aliases | none |
@@ -90,6 +97,7 @@ The credentials for the SQL database in Azure. Example: -DatabaseServerPassword 
 | Accept wildcard characters? |false |
 
 ### SendHostMessagesToOutput
+
 If true, print messages from the script to the output stream.
 
 | Aliases | none |
@@ -101,6 +109,7 @@ If true, print messages from the script to the output stream.
 | Accept wildcard characters? |false |
 
 ## Remarks
+
 For a complete explanation of how to use the script to create Dev and Test environments, see [Using Windows PowerShell Scripts to Publish to Dev and Test Environments](vs-azure-tools-publishing-using-powershell-scripts.md).
 
 The JSON configuration file specifies the details of what is to be deployed. It includes the information that you specified when you created the project, such as the name, affinity group, VHD image, and size of the virtual machine. It also includes the endpoints on the virtual machine, the databases to provision, if any, and web deployment parameters. The following code shows an example JSON configuration file:

@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "build environment, MSBuild"
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ---
 # Walkthrough: Create a multiple-computer build environment
 

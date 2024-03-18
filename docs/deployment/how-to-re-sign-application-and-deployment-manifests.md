@@ -15,7 +15,7 @@ helpviewer_keywords:
   - Office development in Visual Studio, signing manifests
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Re-sign application and deployment manifests

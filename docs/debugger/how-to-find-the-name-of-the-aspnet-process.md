@@ -13,7 +13,7 @@ helpviewer_keywords:
   - ASP.NET process
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Find the name of the ASP.NET process

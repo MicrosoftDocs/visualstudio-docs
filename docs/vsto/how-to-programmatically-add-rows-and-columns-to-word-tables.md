@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "columns [Office development in Visual Studio], adding to Word tables"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically add rows and columns to Word tables

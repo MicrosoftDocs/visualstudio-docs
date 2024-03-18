@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Go To Line dialog box
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Go To Line dialog box

@@ -6,7 +6,7 @@ ms.date: 03/15/2023
 ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Tutorial: Create a math quiz WinForms app

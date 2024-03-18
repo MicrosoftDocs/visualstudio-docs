@@ -6,7 +6,7 @@ ms.date: 05/17/2023
 ms.topic: overview
 author: ghogen
 ms.author: ghogen
-ms.manager: jmartens
+ms.manager: mijacobs
 
 ms.subservice: general-ide
 ---

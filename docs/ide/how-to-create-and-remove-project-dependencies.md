@@ -1,7 +1,7 @@
 ---
 title: 'Create and remove project dependencies'
 description: Create and remove your project's dependency on code from other projects in Visual Studio, and view the build order for the solution.
-ms.date: 08/15/2023
+ms.date: 03/14/2024
 ms.topic: how-to
 f1_keywords:
 - VS.ProjectDependenciesDlg
@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.subservice: compile-build
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ---
 # Create and remove project dependencies
 
@@ -28,7 +28,7 @@ When building a solution that contains multiple projects, it can be necessary to
 
 1. In **Solution Explorer**, select a project.
 
-2. On the **Project** menu, choose **Project Dependencies**.
+2. On the **Project** menu, choose **Build Dependencies > Project Dependencies**.
 
     The **Project Dependencies** dialog box opens.
 
@@ -44,7 +44,7 @@ When building a solution that contains multiple projects, it can be necessary to
 
 1. In **Solution Explorer**, select a project.
 
-2. On the **Project** menu, choose **Project Dependencies**.
+2. On the **Project** menu, choose **Build Dependencies > Project Dependencies**.
 
      The **Project Dependencies** dialog box opens.
 
@@ -56,7 +56,7 @@ When building a solution that contains multiple projects, it can be necessary to
 
 From the **Project Dependencies** dialog, you can switch to the **Build order** tab to the view the build order for the solution.
 
-To view the build order in a solution at any time, right-click on the solution node and choose **Project build order**.
+To view the build order in a solution at any time, right-click on the solution node and choose **Build Dependencies, Project Build Order**.
 
 You can use the **Build order** tab to view the order that projects will be built, but you can't directly change the order from this tab.
 

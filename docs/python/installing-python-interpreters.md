@@ -5,7 +5,7 @@ ms.date: 02/08/2024
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 
 # CustomerIntent: As a developer, I want to review considerations about Python interpreters so that I can install and work with the appropriate Python interpreter in my version of Visual Studio.

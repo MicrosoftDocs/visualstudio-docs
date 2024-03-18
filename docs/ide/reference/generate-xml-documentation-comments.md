@@ -5,7 +5,7 @@ ms.date: 11/23/2021
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Insert XML comments for documentation generation

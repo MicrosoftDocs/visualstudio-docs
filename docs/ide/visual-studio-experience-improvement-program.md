@@ -5,7 +5,7 @@ ms.date: 10/28/2021
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Visual Studio Customer Experience Improvement Program

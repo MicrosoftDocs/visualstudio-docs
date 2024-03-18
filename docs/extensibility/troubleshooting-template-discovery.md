@@ -5,7 +5,7 @@ ms.date: 01/02/2018
 ms.topic: how-to
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Troubleshooting template installation

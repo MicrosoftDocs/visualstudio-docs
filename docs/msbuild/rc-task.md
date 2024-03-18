@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "MSBuild (C++), RC task"
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # RC task

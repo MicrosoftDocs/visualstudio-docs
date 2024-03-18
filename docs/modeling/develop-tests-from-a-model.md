@@ -7,7 +7,7 @@ helpviewer_keywords:
 - tests and requirements
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Develop tests from a model

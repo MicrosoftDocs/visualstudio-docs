@@ -5,7 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 03/03/2022
-ms.topic: reference
+ms.topic: ui-reference
 ---
 # Editor Behavior in Visual Studio for Mac
 

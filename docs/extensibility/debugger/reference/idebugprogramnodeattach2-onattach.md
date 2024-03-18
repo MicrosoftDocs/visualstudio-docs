@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugProgramNodeAttach2::OnAttach
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

@@ -5,7 +5,7 @@ ms.topic: how-to
 description: Add your public GitHub or GitHub Enterprise account to your Visual Studio keychain so you can track code changes in GitHub repositories from Visual Studio.
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 monikerRange: ">=vs-2019"
 ---

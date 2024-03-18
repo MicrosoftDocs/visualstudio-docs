@@ -9,6 +9,7 @@ ms.subservice: ide
 no-loc: [Blazor, "Blazor WebAssembly"]
 ms.topic: how-to
 ---
+
 # Create Blazor web apps in Visual Studio for Mac
 
  [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
@@ -20,14 +21,15 @@ ASP.NET Core Blazor supports two different hosting options; Blazor WebAssembly (
 
 What is Blazor? Blazor is a framework for building interactive client-side web UI with .NET, which offers the following advantages to web developers:
 
-* Write code in C# instead of JavaScript.
-* Leverage the existing .NET ecosystem of .NET libraries.
-* Share app logic across server and client.
-* Benefit from .NET’s performance, reliability, and security.
-* Stay productive with Visual Studio on PC, Linux, and macOS.
-* Build on a common set of languages, frameworks, and tools that are stable, feature-rich, and easy to use.
+- Write code in C# instead of JavaScript.
+- Use the existing .NET ecosystem of .NET libraries.
+- Share app logic across server and client.
+- Benefit from .NET's performance, reliability, and security.
+- Stay productive with Visual Studio on PC, Linux, and macOS.
+- Build on a common set of languages, frameworks, and tools that are stable, feature-rich, and easy to use.
 
 ## Create a new Blazor WebAssembly project
+
 1. On the **Start Window**, select **New** to create a new project:
 
    ![Visual Studio for Mac Start Window with New selection highlighted](media/blazor-new-project.png)
@@ -35,7 +37,7 @@ What is Blazor? Blazor is a framework for building interactive client-side web U
 1. In the **New Project** dialog box, select **.NET Core** > **App** > **Blazor WebAssembly App** and select **Next**:
    ![Screenshot of the New Project dialog with Blazor WebAssembly App highlighted in the App pane under ASP.NET Core and the Next button selected.](media/blazor-wasm-project-template.png)
 
-1. Select .NET Core 3.1 as the target framework, then select **Next**. 
+1. Select .NET Core 3.1 as the target framework, then select **Next**.
    ![Configure your new Blazor WebAssembly App dialog displayed with Target Framework selected to .NET Core 3.1](media/blazor-wasm-select-target-framework.png)
 
 1. Choose a name for your project, and add Git support if desired. Select **Create** to create the project.
@@ -57,7 +59,7 @@ What is Blazor? Blazor is a framework for building interactive client-side web U
 1. In the **New Project** dialog box, select **.NET Core** > **App** > **Blazor Server App** and select **Next**:
    ![Screenshot of the New Project dialog with Blazor Server App highlighted in the App pane under ASP.NET Core and the Next button selected.](media/blazor-project-template.png)
 
-1. Select .NET Core 3.1 as the target framework, then select **Next**. 
+1. Select .NET Core 3.1 as the target framework, then select **Next**.
    ![Configure your new Blazor Server App dialog displayed with Target Framework selected to .NET Core 3.1](media/blazor-select-target-framework.png)
 
 1. Choose a name for your project, and add Git support if desired. Select **Create** to create the project.
@@ -77,12 +79,14 @@ Visual Studio for Mac (starting with version 8.4) includes new features to help 
 In the walkthrough above, we saw how the Blazor Server App project template helps you create a new Blazor Server App or Blazor WebAssembly App project. Let's take a look at some of the additional features in Visual Studio for Mac to support Blazor project development.
 
 ### Editor support for *.razor* files
-Visual Studio for Mac includes support for editing .razor files - the majority of the files that you’ll be using when creating Blazor applications. Visual Studio for Mac provides full colorization and completion support for your .razor files including completions for Razor components declared in the project.
 
-![Visual Studio for Mac editor window showing Intellisense for Blazor](media/blazor-intellisense.png)
+Visual Studio for Mac includes support for editing .razor files - the majority of the files that you'll be using when creating Blazor applications. Visual Studio for Mac provides full colorization and completion support for your .razor files including completions for Razor components declared in the project.
+
+![Visual Studio for Mac editor window showing IntelliSense for Blazor](media/blazor-intellisense.png)
 
 ### Publishing Blazor applications to Azure App Service
-You can also publish Blazor applications directly to Azure App Service. If you don’t have an Azure account to run your Blazor app on Azure, you can always [sign up for a free one here](https://azure.microsoft.com/free) that also comes with 12 months of free popular services, $200 in free Azure credits, and over 25 always free services.
+
+You can also publish Blazor applications directly to Azure App Service. If you don't have an Azure account to run your Blazor app on Azure, you can always [sign up for a free one here](https://azure.microsoft.com/free) that also comes with 12 months of free popular services, $200 in free Azure credits, and over 25 always free services.
 
 ![Visual Studio for Mac showing Azure publishing experience](media/blazor-azure-publish.png)
 
@@ -113,6 +117,7 @@ This folder contains static files, such as HTML, JavaScript, and CSS files. For 
 This file contains the entry point for the program. For more information, see [ASP.NET Core Web Host](/aspnet/core/fundamentals/host/web-host).
 
 ### Blazor Server App specific files
+
 #### App settings
 
 The *appSettings.json* file contains configuration data such as connection strings.
@@ -124,6 +129,7 @@ For more information about configuration, see the [Configuration in ASP.NET guid
 This file contains code that configures app behavior, such as whether the app requires consent for cookies. For more information, see [App startup in ASP.NET Core](/aspnet/core/fundamentals/startup).
 
 ## Summary
+
 In this tutorial, you saw how to create a new Blazor Server App or Blazor WebAssembly App in Visual Studio for Mac, and learned about some of the features that Visual Studio for Mac offers to help you create Blazor applications.
 
 ## See also

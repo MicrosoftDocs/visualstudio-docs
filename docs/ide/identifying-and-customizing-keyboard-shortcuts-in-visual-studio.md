@@ -15,7 +15,7 @@ helpviewer_keywords:
 - exporting shortcut keys [Visual Studio]
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Identify and customize keyboard shortcuts in Visual Studio

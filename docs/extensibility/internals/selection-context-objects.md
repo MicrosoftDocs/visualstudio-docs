@@ -8,7 +8,7 @@ helpviewer_keywords:
 - selection, context objects
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Selection Context Objects

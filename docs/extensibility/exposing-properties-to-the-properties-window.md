@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Property Browser, exposing properties
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Expose properties to the Properties window

@@ -10,8 +10,9 @@ helpviewer_keywords:
 - Project Designer, Code Analysis page
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
+monikerRange: 'vs-2019'
 ---
 # Code Analysis, Project Designer
 

@@ -3,7 +3,7 @@ title: Get started in the Administrator Portal
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 03/23/2023
+ms.date: 03/06/2024
 ms.topic: overview
 description: Manage an organization's Visual Studio subscriptions with the Subscriptions Admin Portal, access subscriber information and agreement details, and get notifications.
 ---
@@ -22,15 +22,15 @@ Keep these points in mind when you use the Visual Studio Subscriptions Admin Por
 + **Visual Studio subscriptions are licensed per user.** Each subscriber can use the software on as many computers as needed for development and testing.
 + **Assign only one subscription level for each subscriber**, corresponding to the Visual Studio subscription your organization purchased. If you have subscribers with more than one subscription level assigned to them, edit their settings so that they only have one.
 + **A subscriber’s subscription level will need to be updated** when the subscription is upgraded (after the purchase of a “step-up” license) or renewed at a lower level.
-+ **Do not share subscriptions between subscribers.** Subscriptions must be assigned to named individuals.  Assignment of subscriptions to teams isn't permitted.  You must assign a subscription to anyone who uses all or part of the subscription benefits (software for development and testing, Microsoft Azure, e-learning, etc.).
++ **Do not share subscriptions between subscribers.** Subscriptions must be assigned to named individuals. Assignment of subscriptions to teams isn't permitted. You must assign a subscription to anyone who uses all or part of the subscription benefits (software for development and testing, Microsoft Azure, e-learning, etc.).
 
 > [!NOTE]
-> Visual Studio Subscriptions [subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) do not support [GCC High tenants](https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization will need to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/). 
+> Visual Studio Subscriptions [subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) do not support [GCC High tenants](https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization will need to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/). 
 
 ## The Subscribers page
 
-After you’ve assigned subscriptions, the Manage subscribers tab provides detailed information about your subscribers, including:
-+ The first and last name of each subscriber
+After you assign subscriptions, the Manage subscribers tab provides detailed information about your subscribers, including:
++ The first and family name of each subscriber
 + The email address for this user
 + The subscription level assigned to them
 + The date that their subscription was assigned
@@ -45,21 +45,21 @@ On the top left side of the page, there are several icons you can select to reve
 
 To see additional information about the number of subscription licenses purchased, assigned, and still available in your organization for each agreement, select the top icon to enable the slide-out panel.
 > [!div class="mx-imgBorder"]
-> ![Visual Studio Subscriptions Admin Portal Subscribers Page](_img/using-admin-portal/subscribers-page.png "Screenshot of the agreement overview dialog.  The overview icon is highlighted.")
+> ![Visual Studio Subscriptions Admin Portal Subscribers Page](_img/using-admin-portal/subscribers-page.png "Screenshot of the agreement overview dialog. The overview icon is highlighted.")
 
 ## The Details page
 
-For more information about the agreement you're viewing, select the second icon to see the Agreement Details tab. The slide-out panel shows the agreement status, purchase account, org details, super-admins and other pertinent information.
+For more information about the agreement you're viewing, select the second icon to see the Agreement Details tab. The slide-out panel shows the agreement status, purchase account, org details, super-admins, and other pertinent information.
 > [!div class="mx-imgBorder"]
-> ![Visual Studio Subscriptions Admin Portal Details Page](_img/using-admin-portal/details-page.png "Screenshot of the agreement details dialog.  The agreement details button is highlighted.")
+> ![Visual Studio Subscriptions Admin Portal Details Page](_img/using-admin-portal/details-page.png "Screenshot of the agreement details dialog. The agreement details button is highlighted.")
 
 ## The Notification center 
 
 To view notifications related to portal announcements, newsletters, and more, select the bell icon on the upper right-hand corner. 
 
-Hover over a notification to dismiss an individual notification or select **Dismiss all** to clear the notification center. Some critical notifications may appear at the top of the center and will not be dismissible.  
+Hover over a notification to dismiss an individual notification or select **Dismiss all** to clear the notification center. Some critical notifications might appear at the top of the center and won't be dismissible. 
 
-Navigate to the **Settings** wheel to set your preferences on the notifications you are interested in receiving. This will only reflect in the portal, and not in email notifications. 
+Navigate to the **Settings** wheel to set your preferences on the notifications you're interested in receiving. This is only reflected in the portal, and not in email notifications. 
 
 ## Resources
 

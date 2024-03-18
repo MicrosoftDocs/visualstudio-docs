@@ -6,7 +6,7 @@ ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
@@ -40,7 +40,7 @@ Make sure to install the following:
 
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot showing Create a new project":::
 
-1. Search for Vue in the search bar at the top and then select **Vue and ASP.NET Core (Preview)** with either JavaScript or TypeScript as the selected language.
+1. Search for Vue in the search bar at the top and then select **Vue and ASP.NET Core** with either JavaScript or TypeScript as the selected language.
 
    :::image type="content" source="media/vs-2022/vue-choose-template.png" alt-text="Screenshot showing choosing a template.":::
 

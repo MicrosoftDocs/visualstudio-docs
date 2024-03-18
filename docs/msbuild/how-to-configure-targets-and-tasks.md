@@ -5,7 +5,7 @@ ms.date: 01/11/2022
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # Configure targets and tasks

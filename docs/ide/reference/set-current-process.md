@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Set Current Process command
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Set Current Process

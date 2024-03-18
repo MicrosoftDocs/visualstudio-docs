@@ -9,7 +9,7 @@ helpviewer_keywords:
 - command syntax
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Visual Studio commands

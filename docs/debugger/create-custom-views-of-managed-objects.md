@@ -20,7 +20,7 @@ helpviewer_keywords:
   - "mcee_mc.dat file"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Create custom views of .NET objects (C#, Visual Basic, F#, C++/CLI)

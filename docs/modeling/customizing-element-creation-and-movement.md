@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Domain-Specific Language, element merge directives
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Customizing Element Creation and Movement

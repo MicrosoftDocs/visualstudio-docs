@@ -9,7 +9,7 @@ helpviewer_keywords:
 - packages
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Anatomy of a VSIX package

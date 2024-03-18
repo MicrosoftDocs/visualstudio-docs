@@ -6,7 +6,7 @@ ms.reviewer: "Jamie.Young"
 ms.topic: reference
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Visual language dictionary

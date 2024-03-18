@@ -8,13 +8,13 @@ The documentation for Visual Basic and Visual C# is located in the [dotnet docs 
 
 ## Submit feedback
 
-The Learn site is changing how we receive feedback on the documentation. The new way is already available by clicking on the Feedback icon at the top right of each article. The old way (GitHub Issue controls at the bottom of the pages) is still available as of February 2024, but will be retired in the coming months. See [Announcing a new way to give feedback on Microsoft Learn](https://aka.ms/contentuserfeedback).
+The Learn site is changing how we receive feedback on the documentation. The new way is already available by clicking on the Feedback icon at the top right of each article, or immediately following an article. See [Announcing a new way to give feedback on Microsoft Learn](https://aka.ms/contentuserfeedback).
 
 ## Contribute to the documentation
 
 We welcome your contributions to help us improve the Visual Studio docs. All the articles in this repository use GitHub-flavored markdown.
 
-Several feature areas of Visual Studio have their own folders in this repo, such as **debugger** for topics on debugging, **ide** for topics on the Visual Studio interactive development environment (IDE), and so forth. The **/media** subfolder in each folder contains art files for the topics.
+Several feature areas of Visual Studio have their own folders in this repo, such as **debugger** for topics on debugging, **ide** for topics on the Visual Studio integrated development environment (IDE), and so forth. The **/media** subfolder in each folder contains art files for the topics.
 
 For more information about contributing, see the [Contributing guide](CONTRIBUTING.md).
 

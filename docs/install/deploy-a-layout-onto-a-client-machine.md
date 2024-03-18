@@ -1,14 +1,14 @@
 ---
 title: Deploy a layout onto a client machine
 description: Deploy a network layout of Visual Studio onto a client machine within an enterprise programmatically as part of an installation script.
-ms.date: 6/6/2023
+ms.date: 3/11/2024
 ms.topic: conceptual
 helpviewer_keywords:
 - 'deploy layout'
 - 'install layout'
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 
 ms.subservice: installation
 ---
@@ -29,7 +29,7 @@ Administrators can deploy a Visual Studio layout onto client workstations progra
 
 ### Install from a network layout
 
-A user with administrator permissions can install Visual Studio from a network layout in an unattended mode by running the following command. The `response.json` in the layout  provide the default configuration settings for the installation. 
+A user with administrator permissions can install Visual Studio from a network layout in an unattended mode by running the following command. The [`response.json`](automated-installation-with-response-file.md) in the layout  provide the default configuration settings for the installation. 
 
 ```shell
 \\server\products\VS\vs_enterprise.exe --quiet --wait 

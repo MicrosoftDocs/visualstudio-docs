@@ -1,13 +1,13 @@
 ---
 title: Learn about Solution Explorer
 description: Use Solution Explorer in Visual Studio and review the context menu options to manage the projects and files in a solution.
-ms.date: 08/08/2023
+ms.date: 03/15/2024
 ms.topic: conceptual
 helpviewer_keywords:
 - solution explorer [Visual Studio]
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Learn about Solution Explorer
@@ -31,7 +31,7 @@ The following table is a text-equivalent of the annotated screenshot, but with a
 |UI element  |Action  |
 |----------------------|---------|
 |[**Toolbar**](#solution-explorer-toolbar) | Control how your files appear |
-|**Search** bar | Search for specific files and file types |
+|[**Search** bar](#solution-explorer-search-bar) | Search for specific files and file types |
 |**Main** window | View and manage your files, projects, & solutions |
 |[**Solution** node](#solution-node-menu-options) | Manage your solution(s) |
 |[**Project** node](#project-node-menu-options)| Manage your project(s) |
@@ -60,6 +60,14 @@ The toolbar contains the following UI elements, from left to right:
 |**Show All Files** button | View all files, including [unloaded projects](filtered-solutions.md#toggle-unloaded-project-visibility) |
 |**Properties** button | View and change settings for specific files and components |
 |**Preview Selected Items** button |  View a selected file or component in the code editor |
+
+### Solution Explorer search bar
+
+Let's take a closer look at the search bar in Solution Explorer.
+
+You can use the dropdown in the search bar and select from the **Search options**: **Search within file contents** and **Search within external items**, to scope your search.
+
+:::image type="content" source="media/vs-2022/use-solution-explorer/solution-explorer-search-bar.png" alt-text="Screenshot of the Solution Explorer search bar and search options in Visual Studio.":::
 
 ## Solution Explorer context menu
 

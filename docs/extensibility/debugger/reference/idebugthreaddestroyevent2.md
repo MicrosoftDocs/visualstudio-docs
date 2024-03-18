@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugThreadDestroyEvent2
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDebugThreadDestroyEvent2

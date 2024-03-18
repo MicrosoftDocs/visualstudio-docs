@@ -8,7 +8,7 @@ helpviewer_keywords:
 - projects [Visual Studio SDK], persistance
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Project Persistence

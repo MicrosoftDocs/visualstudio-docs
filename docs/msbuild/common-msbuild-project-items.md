@@ -11,7 +11,7 @@ helpviewer_keywords:
 - MSBuild, common project items
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # Common MSBuild project items
@@ -105,9 +105,9 @@ Represents resources to be embedded in the generated assembly.
 | Item metadata name | Description |
 |-----------------------| - |
 | DependentUpon | Optional string. Specifies the file this file depends on to compile correctly |
-| Generator | Required string. The name of any file generator that is run on this item. |
-| LastGenOutput | Required string. The name of the file that was created by any file generator that ran on this item. |
-| CustomToolNamespace | Required string. The namespace in which any file generator that runs on this item should create code. |
+| Generator | Optional string. The name of any file generator that is run on this item. |
+| LastGenOutput | Optional string. The name of the file that was created by any file generator that ran on this item. |
+| CustomToolNamespace | Optional string. The namespace in which any file generator that runs on this item should create code. |
 | Link | Optional string. The notational path is displayed if the file is physically located outside the influence of the project. |
 | Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in Visual Studio. |
 | CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1. Never<br />2. Always<br />3. PreserveNewest |
@@ -120,9 +120,9 @@ Represents files that aren't compiled into the project, but may be embedded or p
 | Item metadata name | Description |
 |-----------------------| - |
 | DependentUpon | Optional string. Specifies the file this file depends on to compile correctly. |
-| Generator | Required string. The name of any file generator that runs on this item. |
-| LastGenOutput | Required string. The name of the file that was created by any file generator that was run on this item. |
-| CustomToolNamespace | Required string. The namespace in which any file generator that runs on this item should create code. |
+| Generator | Optional string. The name of any file generator that runs on this item. |
+| LastGenOutput | Optional string. The name of the file that was created by any file generator that was run on this item. |
+| CustomToolNamespace | Optional string. The namespace in which any file generator that runs on this item should create code. |
 | Link | Optional string. The notational path to be displayed if the file is physically located outside the influence of the project. |
 | PublishState | Required string. The publish state of the content, either:<br /><br /> - Default<br />-   Included<br />-  xcluded<br />- DataFile<br />- Prerequisite |
 | IsAssembly | Optional boolean. Specifies whether the file is an assembly. |
@@ -137,9 +137,9 @@ Represents files that should have no role in the build process.
 | Item metadata name | Description |
 |-----------------------| - |
 | DependentUpon | Optional string. Specifies the file this file depends on to compile correctly. |
-| Generator | Required string. The name of any file generator that is run on this item. |
-| LastGenOutput | Required string. The name of the file that was created by any file generator that ran on this item. |
-| CustomToolNamespace | Required string. The namespace in which any file generator that runs on this item should create code. |
+| Generator | Optional string. The name of any file generator that is run on this item. |
+| LastGenOutput | Optional string. The name of the file that was created by any file generator that ran on this item. |
+| CustomToolNamespace | Optional string. The namespace in which any file generator that runs on this item should create code. |
 | Link | Optional string. The notational path to be displayed if the file is physically located outside the influence of the project. |
 | Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in Visual Studio. |
 | CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1. Never<br />2. Always<br />3. PreserveNewest |

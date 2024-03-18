@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugEnumField interface
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDebugEnumField

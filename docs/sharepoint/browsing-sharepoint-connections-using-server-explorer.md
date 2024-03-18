@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "SharePoint Connections [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: sharepoint-development
 ---
 # Browse SharePoint connections by using Server Explorer

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - source control plug-ins, adding and opening solutions
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Test Area 1: Add To/Open From Source Control

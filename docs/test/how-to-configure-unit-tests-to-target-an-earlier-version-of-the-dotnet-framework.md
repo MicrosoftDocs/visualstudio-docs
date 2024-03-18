@@ -4,7 +4,7 @@ description: Learn to create unit test projects to target specific versions of t
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: test-tools
 author: mikejo5000
 ---

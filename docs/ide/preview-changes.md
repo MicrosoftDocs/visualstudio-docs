@@ -5,7 +5,7 @@ ms.date: 12/16/2016
 ms.topic: conceptual
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 f1_keywords:
 - vs.codefix.previewchanges

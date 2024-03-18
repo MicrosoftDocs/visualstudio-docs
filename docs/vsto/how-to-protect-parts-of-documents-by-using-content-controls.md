@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "GroupContentControl"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Protect parts of documents by using content controls

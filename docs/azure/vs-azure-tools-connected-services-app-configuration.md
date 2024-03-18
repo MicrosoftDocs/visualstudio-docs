@@ -8,6 +8,7 @@ ms.date: 05/15/2023
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
+
 # Adding Azure App Configuration by using Visual Studio Connected Services
 
 In this tutorial, you will learn how to easily add everything you need to start using Azure App Configuration to manage your configuration and feature flags for web projects in Visual Studio. By using the Connected Services feature in Visual Studio, you can have Visual Studio automatically add all the code, NuGet packages, and configuration settings you need to connect to your App Configuration resource in Azure. To use this feature, you must be using Visual Studio 2019 version 16.9 or later.
@@ -55,9 +56,9 @@ You can use the App Configuration Connected Services feature in the following pr
 
 1. To create an app configuration store:
 
-   1. Select the + icon to the right of the **App Configuration stores** header. 
+   1. Select the + icon to the right of the **App Configuration stores** header.
 
-   1. Fill out the **Azure App Configuration: Create new** dialog, and select **Create**. Note that the Resource Name field needs to be unique. 
+   1. Fill out the **Azure App Configuration: Create new** dialog, and select **Create**. Note that the Resource Name field needs to be unique.
 
        ![Screenshot showing New Azure app config store.](./media/vs-azure-tools-connected-services-app-configuration/create-new-config-store.png)
 
@@ -97,9 +98,9 @@ You can use the App Configuration Connected Services feature in the following pr
 
 1. To create an app configuration store:
 
-   1. Select the + icon to the right of the **App Configuration stores** header. 
+   1. Select the + icon to the right of the **App Configuration stores** header.
 
-   1. Fill out the **Azure App Configuration: Create new** dialog, and select **Create**. Note that the Resource Name field needs to be unique. 
+   1. Fill out the **Azure App Configuration: Create new** dialog, and select **Create**. Note that the Resource Name field needs to be unique.
 
        ![Screenshot showing new Azure app config store.](./media/vs-azure-tools-connected-services-app-configuration/create-new-config-store.png)
 

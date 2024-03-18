@@ -7,7 +7,7 @@ helpviewer_keywords:
 - text templates, template code
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Text Template Control Blocks

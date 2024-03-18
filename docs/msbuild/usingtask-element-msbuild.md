@@ -14,7 +14,7 @@ helpviewer_keywords:
 - <UsingTask> element [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # UsingTask element (MSBuild)

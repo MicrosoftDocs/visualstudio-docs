@@ -5,7 +5,7 @@ ms.date: 09/17/2019
 ms.topic: reference 
 author: mikadumont
 ms.author: midumont
-manager: jmartens 
+manager: mijacobs 
 dev_langs: 
   - CSharp 
 --- 

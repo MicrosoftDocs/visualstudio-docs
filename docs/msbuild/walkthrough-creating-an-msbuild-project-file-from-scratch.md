@@ -1,25 +1,27 @@
 ---
 title: Create an MSBuild project file from scratch
 description: Create an MSBuild project file from scratch to understand how the XML is organized and how you can change it to control a build.
-ms.date: 09/12/2022
+ms.date: 02/13/2024
 ms.topic: tutorial
 helpviewer_keywords:
 - MSBuild, tutorial
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
-# Walkthrough: Create an MSBuild project file from scratch
+# Create an MSBuild project file from scratch
 
 Programming languages that target the .NET Framework use MSBuild project files to describe and control the application build process. When you use Visual Studio to create an MSBuild project file, the appropriate XML is added to the file automatically. However, you may find it helpful to understand how the XML is organized and how you can change it to control a build.
 
 > [!NOTE]
 > This article is appropriate if you want to learn the basic fundamentals of how MSBuild works independently of any SDK. Building with an SDK, such as when you use `dotnet build` or you add the `Sdk` attribute to the root project element, is not covered in this article. See [.NET Project SDKs](/dotnet/core/project-sdk/overview).
+>
+> The build logic imported by standard `.csproj` files supports many more options and a much more complex build process than this example.
 
  For information about creating a project file for a C++ project, see [MSBuild (C++)](/cpp/build/msbuild-visual-cpp).
 
- This walkthrough shows how to create a basic project file incrementally, by using only a text editor. The walkthrough follows these steps:
+ This tutorial shows how to create a basic project file incrementally, by using only a text editor. The walkthrough follows these steps:
 
 1. Extend the PATH environment variable.
 
@@ -39,13 +41,15 @@ Programming languages that target the .NET Framework use MSBuild project files t
 
 9. Build incrementally.
 
-This walkthrough shows how to build the project at the command prompt and examine the results. For more information about MSBuild and how to run MSBuild at the command prompt, see [Walkthrough: Use MSBuild](../msbuild/walkthrough-using-msbuild.md).
+This tutorial shows how to build the project at the command prompt and examine the results. For more information about MSBuild and how to run MSBuild at the command prompt, see [Use MSBuild](../msbuild/walkthrough-using-msbuild.md).
 
-To complete the walkthrough, you must have Visual Studio installed because it includes MSBuild and the C# compiler, which are required for the walkthrough.
+To complete the tutorial, you must have Visual Studio installed because it includes MSBuild and the C# compiler, which are required for the walkthrough.
 
 ## Extend the path
 
-Before you can use MSBuild, you must extend the PATH environment variable to include all the required tools. You can use the **Developer Command Prompt for Visual Studio**. Search for it on Windows 10 in the search box in the Windows task bar. To set up the environment in an ordinary command prompt or in a scripting environment, run *VSDevCmd.bat* in the *Common7/Tools* subfolder of a Visual Studio installation.
+Before you can use MSBuild, you must extend the PATH environment variable to include all the required tools. 
+
+If you're running on Windows, you can use the **Developer Command Prompt for Visual Studio**. Search for it in the Windows search box in the Windows task bar. To set up the environment in an ordinary command prompt or in a scripting environment, run *VSDevCmd.bat* in the *Common7/Tools* subfolder of a Visual Studio installation.
 
 ## Create a minimal application
 
@@ -97,7 +101,7 @@ Before you can use MSBuild, you must extend the PATH environment variable to inc
 
 ### To create a minimal MSBuild project file
 
-1. In the text editor, create a new file *HelloWorld.csproj* and enter the following code:
+1. In the text editor, create a new file *HelloWorld.fromscratchproj* and enter the following code:
 
     ```xml
     <Project>
@@ -122,7 +126,7 @@ Before you can use MSBuild, you must extend the PATH environment variable to inc
     <Csc Sources="@(Compile)"/>
     ```
 
-1. Save this project file and name it *Helloworld.csproj*.
+1. Save this project file and name it *Helloworld.fromscratchproj*.
 
 Your minimal project file should resemble the following code:
 
@@ -150,7 +154,7 @@ Tasks in the Build target are executed sequentially. In this case, the C# compil
 
  Now, to build the application, use the project file that you just created.
 
-1. At the command prompt, type **msbuild helloworld.csproj -t:Build**.
+1. At the command prompt, type **msbuild helloworld.fromscratchproj -t:Build**.
 
      This builds the Build target of the Helloworld project file by invoking the C# compiler to create the Helloworld application.
 
@@ -161,7 +165,7 @@ Tasks in the Build target are executed sequentially. In this case, the C# compil
 > [!NOTE]
 > You can see more details about the build by increasing the verbosity level. To set the verbosity level to "detailed", type this command at the command prompt:
 >
-> **msbuild helloworld.csproj -t:Build -verbosity:detailed**
+> **msbuild helloworld.fromscratchproj -t:Build -verbosity:detailed**
 
 ## Add build properties
 
@@ -237,7 +241,7 @@ Your project file should now resemble the following code:
 
  Now you can build the application by using the project file in which you used build properties to specify the output folder and application name.
 
-1. At the command prompt, type **msbuild helloworld.csproj -t:Build**.
+1. At the command prompt, type **msbuild helloworld.fromscratchproj -t:Build**.
 
      This creates the *\Bin\\* folder and then invokes the C# compiler to create the *MSBuildSample* application and puts it in the *\Bin\\* folder.
 
@@ -314,7 +318,7 @@ Your project file should now resemble the following code:
 
 ### To test the build targets
 
-1. At the command prompt, type **msbuild helloworld.csproj -p:AssemblyName=Greetings**.
+1. At the command prompt, type **msbuild helloworld.fromscratchproj -p:AssemblyName=Greetings**.
 
      Because you did not use the **-t** switch to explicitly set the target, MSBuild runs the default Build target. The **-p** switch overrides the `AssemblyName` property and gives it the new value, `Greetings`. This causes a new application, *Greetings.exe*, to be created in the *\Bin\\* folder.
 
@@ -324,11 +328,11 @@ Your project file should now resemble the following code:
 
      The **Hello, world!** message should be displayed.
 
-4. Delete the MSBuildSample application by typing **msbuild helloworld.csproj -t:clean**.
+4. Delete the MSBuildSample application by typing **msbuild helloworld.fromscratchproj -t:clean**.
 
      This runs the Clean task to remove the application that has the default `AssemblyName` property value, `MSBuildSample`.
 
-5. Delete the Greetings application by typing **msbuild helloworld.csproj -t:clean -p:AssemblyName=Greetings**.
+5. Delete the Greetings application by typing **msbuild helloworld.fromscratchproj -t:clean -p:AssemblyName=Greetings**.
 
      This runs the Clean task to remove the application that has the given **AssemblyName** property value, `Greetings`.
 
@@ -336,7 +340,7 @@ Your project file should now resemble the following code:
 
 7. Type **msbuild**.
 
-     Although a project file is not specified, MSBuild builds the *helloworld.csproj* file because there is only one project file in the current folder. This causes the *MSBuildSample* application to be created in the *\Bin\\* folder.
+     Although a project file is not specified, MSBuild builds the *helloworld.fromscratchproj* file because there is only one project file in the current folder. This causes the *MSBuildSample* application to be created in the *\Bin\\* folder.
 
      To verify that the *\Bin\\* folder contains the *MSBuildSample* application, type **dir Bin**.
 
@@ -365,7 +369,7 @@ Your project file should now resemble the following code:
 
 2. Test the Build target by typing **msbuild -v:d** at the command prompt.
 
-     Remember that *helloworld.csproj* is the default project file, and that Build is the default target.
+     Remember that *helloworld.fromscratchproj* is the default project file, and that Build is the default target.
 
      The **-v:d** switch is an abbreviation of **-verbosity:detailed** that you used previously.
 
@@ -449,7 +453,7 @@ The following example shows a project file that compiles a Visual Basic applicat
 
 ## What's next?
 
- Visual Studio can automatically do much of the work that is shown in this walkthrough. To learn how to use Visual Studio to create, edit, build, and test MSBuild project files, see [Walkthrough: Use MSBuild](../msbuild/walkthrough-using-msbuild.md).
+ Visual Studio can automatically do much of the work that is shown in this walkthrough. To learn how to use Visual Studio to create, edit, build, and test MSBuild project files, see [Use MSBuild](../msbuild/walkthrough-using-msbuild.md).
 
 ## Related content
 

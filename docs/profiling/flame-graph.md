@@ -5,7 +5,7 @@ ms.date: 09/30/2022
 ms.topic: how-to
 author: MikeJo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'
 ---

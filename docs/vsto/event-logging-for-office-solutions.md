@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Office development in Visual Studio, event viewer"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Event logging for Office solutions

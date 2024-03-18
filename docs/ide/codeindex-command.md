@@ -9,7 +9,7 @@ helpviewer_keywords:
 - CodeIndex command [Team Foundation Server]
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # CodeIndex command

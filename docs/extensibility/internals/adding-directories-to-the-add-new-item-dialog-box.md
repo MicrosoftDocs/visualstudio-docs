@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Add New Item dialog box, extending
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Add directories to the Add New Item dialog box

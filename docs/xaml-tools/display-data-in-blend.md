@@ -6,7 +6,7 @@ ms.date: 03/06/2018
 ms.topic: conceptual
 author: maddymontaquila
 ms.author: maleger
-manager: jmartens
+manager: mijacobs
 ms.subservice: xaml-tools
 ---
 # Display data in Blend for Visual Studio

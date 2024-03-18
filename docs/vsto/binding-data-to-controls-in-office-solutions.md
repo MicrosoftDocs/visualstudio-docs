@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "controls, data binding"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Bind data to controls in Office solutions

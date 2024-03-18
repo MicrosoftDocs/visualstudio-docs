@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaSession::getEnumDebugStreams method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # IDiaSession::getEnumDebugStreams

@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "Outlook folders [Office development in Visual Studio], moving items"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Programmatically move items in Outlook

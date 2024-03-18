@@ -9,7 +9,7 @@ helpviewer_keywords:
 - automation object model
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Extend the object model of the base project

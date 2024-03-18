@@ -9,7 +9,7 @@ helpviewer_keywords:
 - external tools [Visual Studio]
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Manage external tools

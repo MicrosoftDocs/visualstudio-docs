@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], object model"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Ribbon object model overview

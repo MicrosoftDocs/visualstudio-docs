@@ -7,7 +7,7 @@ helpviewer_keywords:
   - .NET analyzers
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: code-analysis
 ---
 # Enable or install first-party .NET analyzers

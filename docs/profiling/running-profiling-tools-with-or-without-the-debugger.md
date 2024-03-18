@@ -5,7 +5,7 @@ ms.date: "11/09/2023"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Run profiling tools with or without the debugger (C#, Visual Basic, C++, F#)

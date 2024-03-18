@@ -16,7 +16,7 @@ helpviewer_keywords:
   - register groups, displaying and hiding
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Display and Hide Register Groups (C#, C++, Visual Basic, F#)

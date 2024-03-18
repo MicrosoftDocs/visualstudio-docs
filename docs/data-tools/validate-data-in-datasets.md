@@ -18,7 +18,7 @@ helpviewer_keywords:
 - updating datasets, validating data
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Validate data in datasets in .NET Framework applications

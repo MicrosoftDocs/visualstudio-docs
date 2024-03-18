@@ -2,12 +2,13 @@
 title: Configure cloud service with multiple configurations
 description: Learn how to configure an Azure cloud service project by changing the ServiceDefinition.csdef, ServiceConfiguration.Local.cscfg, and ServiceConfiguration.Cloud.cscfg files.
 author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 11/11/2017
 ms.author: ghogen
 ---
+
 # Configuring your Azure project in Visual Studio to use multiple service configurations
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
@@ -17,7 +18,7 @@ An Azure cloud service project in Visual Studio includes three configuration fil
 - `ServiceDefinition.csdef` is deployed to Azure to describe the requirements of the cloud service and its roles, and to provide settings that apply to all instances. Settings can be read at run time using the Azure Service Hosting Runtime API. This file can be updated on Azure only when the cloud service is stopped.
 - `ServiceConfiguration.Local.cscfg` and `ServiceConfiguration.Cloud.cscfg` provide values for settings in the definition file and specify the number of instances to run for each role. The "Local" file contains values used in local debugging; the "Cloud" file is deployed to Azure as `ServiceConfiguration.cscfg` and provides settings for the server environment. This file can be updated while your cloud service is running in Azure.
 
-Configuration settings are managed and modified in Visual Studio using property pages for the applicable role (right-click the role and select **Properties**, or double-click the role). Changes can be scoped to whichever configuration is chosen in the **Service Configuration** drop-down. The properties for web and worker roles are similar, except where described in the following sections.
+Configuration settings are managed and modified in Visual Studio using property pages for the applicable role (right-click the role and select **Properties**, or double-click the role). Changes can be scoped to whichever configuration is chosen in the **Service Configuration** dropdown list. The properties for web and worker roles are similar, except where described in the following sections.
 
 ![VS_Solution_Explorer_Roles_Properties](./media/vs-azure-tools-multiple-services-project-configurations/IC784076.png)
 
@@ -33,7 +34,7 @@ Selects which `ServiceConfiguration.*.cscfg` file is affected by changes. By def
 
 Set the **Instance** count property to the number of instances the service should run for this role.
 
-Set the **VM size** property to **Extra Small**, **Small**, **Medium**, **Large**, or **Extra Large**.  For more information, see [Sizes for Cloud Services](/azure/cloud-services/cloud-services-sizes-specs).
+Set the **VM size** property to **Extra Small**, **Small**, **Medium**, **Large**, or **Extra Large**. For more information, see [Sizes for Cloud Services](/azure/cloud-services/cloud-services-sizes-specs).
 
 ### Startup Action (Web role only)
 
@@ -45,7 +46,7 @@ If you have already added an HTTPS endpoint, the HTTPS endpoint option is enable
 
 ### Diagnostics
 
-By default, diagnostics are enabled for the Web role. The Azure cloud service project and storage account are set to use the local storage emulator. When you are ready to deploy to Azure, you can select the builder button (**...**) to use Azure storage instead. You can transfer the diagnostics data to the storage account on demand or at automatically scheduled intervals. For more information about Azure diagnostics, see [Enabling Diagnostics in Azure Cloud Services and Virtual Machines](/azure/cloud-services/cloud-services-dotnet-diagnostics).
+By default, diagnostics are enabled for the Web role. The Azure cloud service project and storage account are set to use the local storage emulator. When you are ready to deploy to Azure, you can select the builder button (**...**) to use Azure Storage instead. You can transfer the diagnostics data to the storage account on demand or at automatically scheduled intervals. For more information about Azure Diagnostics, see [Enabling Diagnostics in Azure Cloud Services and Virtual Machines](/azure/cloud-services/cloud-services-dotnet-diagnostics).
 
 ## Settings page
 
@@ -53,12 +54,12 @@ On the **Settings** page, you can add settings to a configuration as name-value 
 
 ### Configuring a connection string for a storage account
 
-A connection string is a setting that provides connection and authentication information for the storage emulator or for an Azure storage account. Whenever code in a role accesses Azure storage (blobs, queues, or tables), it needs a connection string.
+A connection string is a setting that provides connection and authentication information for the storage emulator or for an Azure Storage account. Whenever code in a role accesses Azure Storage (blobs, queues, or tables), it needs a connection string.
 
 > [!Note]
-> A connection string for Azure storage account must use a defined format (see [Configure Azure Storage Connection Strings](/azure/storage/common/storage-configure-connection-string)).
+> A connection string for Azure Storage account must use a defined format (see [Configure Azure Storage Connection Strings](/azure/storage/common/storage-configure-connection-string)).
 
-You can set the connection string to use local storage as needed, then set to an Azure storage account when you deploy the application the cloud service. Failure to set the connection string properly may cause your role not to start, or to cycle through the initializing, busy, and stopping states.
+You can set the connection string to use local storage as needed, then set to an Azure Storage account when you deploy the application the cloud service. Failure to set the connection string properly might cause your role not to start, or to cycle through the initializing, busy, and stopping states.
 
 To create a connection string, select **Add Setting** and set **Type** to "Connection String".
 
@@ -71,7 +72,7 @@ For new or existing connection strings, select **...*** on the right of the **Va
 1. Select one of the connection options. **Specify custom endpoints** asks you to specify specific URLs for blobs, tables, and queues. Custom endpoints allow you to use [custom domains](/azure/storage/blobs/storage-custom-domain-name) and to control access more exactly. See [Configure Azure Storage Connection Strings](/azure/storage/common/storage-configure-connection-string).
 1. Select **OK**, then **File > Save** to update the configuration with the new connection string.
 
-Again, when you publish your application to Azure, choose the service configuration that contains the Azure storage account for the connection string. After your application is published, verify that the application works as expected against the Azure storage services.
+Again, when you publish your application to Azure, choose the service configuration that contains the Azure Storage account for the connection string. After your application is published, verify that the application works as expected against the Azure Storage services.
 
 For more information about how to update service configurations, see the section [Manage connection strings for storage accounts](vs-azure-tools-configure-roles-for-cloud-service.md#manage-connection-strings-for-storage-accounts).
 

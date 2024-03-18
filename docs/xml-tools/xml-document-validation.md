@@ -5,7 +5,7 @@ ms.date: 09/16/2021
 ms.topic: conceptual
 author: dzsquared
 ms.author: drskwier
-manager: jmartens
+manager: mijacobs
 ms.subservice: xml-tools
 ---
 # XML document validation

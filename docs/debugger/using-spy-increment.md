@@ -9,7 +9,7 @@ helpviewer_keywords:
   - expanding and collapsing Spy++ trees
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 

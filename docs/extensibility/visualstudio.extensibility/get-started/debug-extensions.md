@@ -6,7 +6,7 @@ ms.date: 5/30/2023
 ms.author: ghogen
 monikerRange: ">=vs-2022"
 author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 

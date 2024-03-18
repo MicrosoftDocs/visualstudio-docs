@@ -5,7 +5,7 @@ description: Connect to a database or data service with ADO.NET in Visual Studio
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Connect to a database in Visual Studio

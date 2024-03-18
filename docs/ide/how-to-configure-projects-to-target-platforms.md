@@ -17,7 +17,7 @@ helpviewer_keywords:
 - 64-bit applications [Visual Studio]
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ---
 # Configure projects to target platforms
 

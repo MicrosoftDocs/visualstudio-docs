@@ -12,7 +12,7 @@ helpviewer_keywords:
 - international applications [Visual Studio]
 author: j-martens
 ms.author: jmartens
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Develop globalized and localized apps

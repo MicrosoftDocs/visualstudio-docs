@@ -7,7 +7,7 @@ helpviewer_keywords:
 - solutions, about solutions
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Solutions overview

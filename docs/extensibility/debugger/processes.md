@@ -7,7 +7,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], processes
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Processes

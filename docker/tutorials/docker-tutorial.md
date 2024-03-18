@@ -7,7 +7,7 @@ ms.author: ghogen
 ms.service: vs-code
 ms.topic: tutorial 
 ms.date: 04/12/2023
-# Under contractual obligation with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
+# Agreed with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
 ---
 
 # Tutorial: Create a Docker app with Visual Studio Code

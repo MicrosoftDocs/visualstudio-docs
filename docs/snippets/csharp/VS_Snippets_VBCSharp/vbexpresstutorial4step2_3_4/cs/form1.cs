@@ -47,7 +47,7 @@ namespace MatchingGame
             foreach (Control control in tableLayoutPanel1.Controls)
             {
                 // <snippet16>
-                Label? iconLabel = control as Label;
+                Label iconLabel = control as Label;
                 if (iconLabel != null)
                 {
                     int randomNumber = random.Next(icons.Count);

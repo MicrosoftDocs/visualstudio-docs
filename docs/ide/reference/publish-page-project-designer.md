@@ -11,7 +11,8 @@ helpviewer_keywords:
   - "Publish page in Project Designer"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
+monikerRange: 'vs-2019'
 ---
 # Publish Page, Project Designer
 

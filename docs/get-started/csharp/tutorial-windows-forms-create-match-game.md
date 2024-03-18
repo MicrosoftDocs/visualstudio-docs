@@ -3,7 +3,7 @@ title: "Tutorial: Create a matching game"
 description: Create a game where a player matches icons, and start by creating a project in Visual Studio by using C# or VB Windows Forms and add layout.
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ms.topic: tutorial
 ms.date: 02/28/2023
@@ -140,6 +140,7 @@ In this section, you create and format labels to display during the game.
    > Webdings is a font of icons that ships with the Windows operating system.
    > In your matching game, the player matches pairs of icons.
    > This font displays the icons to match.
+   > If the Webdings icons don't display properly on the form, set the [**UseCompatibleTextRendering** property](/dotnet/api/system.windows.forms.label.usecompatibletextrendering) of labels on the form to **True**.
    >
    > Instead of **c**, try different letters in the **Text** property.
    > An exclamation point is a spider, an uppercase N is an eye, and a comma is a chili pepper.

@@ -7,7 +7,7 @@ helpviewer_keywords:
 - web projects, essentials
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Web Project Essentials

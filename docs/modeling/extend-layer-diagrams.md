@@ -8,7 +8,7 @@ helpviewer_keywords:
 - layer models
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Extend dependency diagrams

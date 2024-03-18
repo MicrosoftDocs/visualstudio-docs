@@ -10,8 +10,9 @@ helpviewer_keywords:
 - My Extensions page in Project Designer
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
+monikerRange: 'vs-2019'
 ---
 # My Extensions Page, Project Designer (Visual Basic)
 

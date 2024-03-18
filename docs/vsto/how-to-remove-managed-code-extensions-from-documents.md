@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], managed code extensions"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Remove managed code extensions from documents

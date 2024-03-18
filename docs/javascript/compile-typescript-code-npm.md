@@ -5,7 +5,7 @@ ms.date: 10/23/2023
 ms.topic: conceptual
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript

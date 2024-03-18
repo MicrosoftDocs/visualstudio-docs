@@ -8,7 +8,7 @@ helpviewer_keywords:
 - unit tests, verifying code with
 - testing code, automated tests
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: test-tools
 author: mikejo5000
 ---

@@ -10,7 +10,7 @@ dev_langs:
   - "CSharp"
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ---
 # Tutorial: Create a simple WPF application with C\#
 

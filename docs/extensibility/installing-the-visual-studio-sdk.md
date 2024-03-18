@@ -5,7 +5,7 @@ ms.date: 02/02/2024
 ms.topic: overview
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Install the Visual Studio SDK

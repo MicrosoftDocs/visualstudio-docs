@@ -5,7 +5,7 @@ description: Learn how to turn binary code analysis on and off in Visual Studio.
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: code-analysis
 monikerRange: 'vs-2019'
 ---
@@ -18,7 +18,7 @@ You can configure legacy code analysis (binary analysis) to run after each build
 
 To enable or disable legacy code analysis:
 
-1. In **Solution Explorer**, select and hold (or right-click) the project, and then select **Properties**.
+1. In **Solution Explorer**, right-click the project, and then select **Properties**.
 
 2. In the properties dialog box for the project, go to the **Code Analysis** tab.
 

@@ -5,7 +5,7 @@ ms.date: 06/29/2023
 ms.topic: ui-reference
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: ui-designers
 ms.custom: engagement-fy23
 ---

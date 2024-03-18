@@ -11,7 +11,7 @@ helpviewer_keywords:
 - data [Visual Studio], editing in datasets
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Edit data in datasets using the .NET Framework

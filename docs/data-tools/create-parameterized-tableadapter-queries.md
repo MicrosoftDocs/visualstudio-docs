@@ -15,7 +15,7 @@ helpviewer_keywords:
 - queries [Visual Studio], TableAdapters
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Create parameterized TableAdapter queries in .NET Framework applications

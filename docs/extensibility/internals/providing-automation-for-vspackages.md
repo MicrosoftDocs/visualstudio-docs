@@ -8,7 +8,7 @@ helpviewer_keywords:
 - automation [Visual Studio SDK], VSPackages
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Providing Automation for VSPackages

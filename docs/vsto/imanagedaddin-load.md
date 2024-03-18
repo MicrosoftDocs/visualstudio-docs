@@ -9,7 +9,7 @@ dev_langs:
 helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # IManagedAddin::Load

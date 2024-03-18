@@ -7,7 +7,7 @@ helpviewer_keywords:
 - solution configurations
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 # Solution Configuration

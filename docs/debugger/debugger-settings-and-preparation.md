@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "debug builds, setting up"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Debugger Settings and Preparation

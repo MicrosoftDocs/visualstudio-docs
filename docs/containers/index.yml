@@ -4,7 +4,7 @@ metadata:
   title: Docker container development tools documentation
   description: 'Learn how to build and manage container-based apps and services. Get documentation, example code, tutorials, and more.'
   author: ghogen
-  manager: jmartens
+  manager: mijacobs
   ms.subservice: container-tools
   ms.topic: landing-page
   ms.date: 11/25/2019

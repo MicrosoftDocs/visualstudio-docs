@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: data-tools
 ---
 # Data class inheritance (O/R Designer)

@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "data access, ClickOnce applications"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
+manager: mijacobs
 ms.subservice: deployment
 ---
 # Access local and remote data in ClickOnce applications

@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Code Editor, windows management
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Manage editor windows

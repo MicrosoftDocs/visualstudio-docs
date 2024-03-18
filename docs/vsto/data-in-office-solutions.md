@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "datasets [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Data in Office solutions

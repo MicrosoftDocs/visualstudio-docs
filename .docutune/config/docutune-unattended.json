@@ -22,7 +22,10 @@
       "name": "Default",
       "command": "Fix",
       "configType": "full",
-      "stopAt": 25
+      "stopAt": 25,
+      "include": [
+        "docs/"
+      ]
     },
     {
       "name": "FlagBrokenLinks",

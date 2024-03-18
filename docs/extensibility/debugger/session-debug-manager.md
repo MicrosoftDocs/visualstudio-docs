@@ -12,7 +12,7 @@ helpviewer_keywords:
 - session debug manager, delegating
 author: maiak
 ms.author: maiak
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Session debug manager

@@ -5,7 +5,7 @@ ms.date: 06/16/2023
 ms.topic: how-to
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # Extend a trial version or update a license

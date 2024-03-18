@@ -6,7 +6,7 @@ ms.date: 01/19/2024
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-ms.manager: jmartens
+ms.manager: mijacobs
 ms.subservice: general-ide
 ---
 # Make a Git commit in Visual Studio
@@ -35,7 +35,7 @@ Changes can also be unstaged by clicking the **–** (minus) button. The equival
 
 You can also choose not to stage your modified files by skipping the staging area. In this case, Visual Studio allows you to commit your changes directly without having to stage them. Just enter your commit message and then select **Commit All**. The equivalent command for this action is `git commit -a`.
 
-Visual Studio also makes it easy to commit and sync with one click by using the **Commit All and Push** and **Commit All and Sync** shortcuts. When you double-click any file in the **Changes** and the **Staged changes** sections, you can see a line-by-line comparison with the unmodified version of the file.
+Visual Studio also makes it easy to commit and sync with one click by using the **Commit All and Push** and **Commit All and Sync** shortcuts. When you double-click any file in the **Changes** and the **Staged changes** sections, you can see a line-by-line comparison with the unmodified version of the file. See [Compare files - diff view](../ide/compare-with.md).
 
 :::image type="content" source="media/vs-2022/git-file-version-compare.png" alt-text="The line-by-line comparison of file versions in Visual Studio 2022.":::
 

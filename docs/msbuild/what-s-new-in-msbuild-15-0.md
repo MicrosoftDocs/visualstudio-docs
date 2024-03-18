@@ -5,7 +5,7 @@ ms.date: 03/01/2017
 ms.topic: whats-new
 author: ghogen
 ms.author: ghogen
-manager: jmartens
+manager: mijacobs
 ms.subservice: msbuild
 ---
 # What's new in MSBuild 15

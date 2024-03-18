@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "debugging [C#], Edit and Continue"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Edit and Continue (Visual C#)

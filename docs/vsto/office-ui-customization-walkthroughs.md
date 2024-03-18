@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "walkthroughs [Office development in Visual Studio], action panes"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
+manager: mijacobs
 ms.subservice: office-development
 ---
 # Office UI customization walkthroughs

@@ -14,7 +14,7 @@ helpviewer_keywords:
 - files, saving automatically
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.subservice: general-ide
 ---
 # AutoRecover, Environment, Options dialog box

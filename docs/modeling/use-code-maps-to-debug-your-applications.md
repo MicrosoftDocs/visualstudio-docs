@@ -14,7 +14,7 @@ helpviewer_keywords:
 - mapping relationships in code
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
+manager: mijacobs
 ms.subservice: modeling
 ---
 # Use code maps to debug your applications
