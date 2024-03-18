@@ -314,7 +314,7 @@ Released March 16, 2022
 
 - **Integration:**
 
-  - Fixed UPE when working with external packages. This requires a new generation process, fully preserving the folder structure and available with the VS Editor package `2.0.15`.
+  - Fixed UPE when working with external packages. This fix requires a new generation process, fully preserving the folder structure and available with the VS Editor package `2.0.15`.
 
 ## 17.2.0.0
 Released February 15, 2022
@@ -393,7 +393,7 @@ Released October 30, 2021
 
 - **Integration:**
 
-  - Improved light-build time, by only running suppressors able to handle CS compiler warnings. All other analyzers will run through solution analysis.
+  - Improved light-build time, by only running suppressors able to handle CS compiler warnings. All other analyzers run through solution analysis.
 
 ## 17.0.1.0
 Released October 16, 2021
@@ -452,7 +452,7 @@ Released July 13, 2021
 
 - **Integration:**
 
-  - [Backported] Improved light-build time, by only running suppressors able to handle CS compiler warnings. All other analyzers will run through solution analysis.
+  - [Backported] Improved light-build time, by only running suppressors able to handle CS compiler warnings. All other analyzers through solution analysis.
 
 ## 4.11.1.0
 Released June 15, 2021
@@ -553,7 +553,7 @@ Released March 2, 2021
 
   - Added `Active Scene` to locals, showing root game objects.
 
-  - Added `this.gameObject` to locals, given it's widely used in Unity projects.
+  - Added `this.gameObject` to locals, given it's common in Unity projects.
 
   - Added `Children` and `Components` groups to all `GameObject` instances, so that you can easily display all the object hierarchy.
 
@@ -634,7 +634,7 @@ Released October 13, 2020
 
   - Improved [`USP0003`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0003.md) and [`USP0005`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0005.md) suppressors, with support for all `AssetPostprocessor` static methods.
 
-  - Added [`USP0016`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0016.md) suppressor for `CS8618`. `C# 8.0` introduces nullable reference types and non-nullable reference types. Initialization detection of types inheriting from `UnityEngine.Object` is not supported and will result in errors.
+  - Added [`USP0016`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0016.md) suppressor for `CS8618`. `C# 8.0` introduces nullable reference types and non-nullable reference types. Initialization detection of types inheriting from `UnityEngine.Object` is not supported.
 
   - Now using the same player and asmdef project generation mechanism for both Unity 2019.x and 2020.x+.
 
@@ -861,7 +861,7 @@ Released October 15, 2019
 
   - Added [`USP0005`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0005.md) suppressor for `IDE0060` (unused parameter) for all Unity messages.
   
-  - Added a quick tooltip for fields tagged with `TooltipAttribute`. (This will work for a simple get accessor using this field as well).
+  - Added a quick tooltip for fields tagged with `TooltipAttribute`. (This feature works for a simple get accessor using this field as well).
 
 ## 4.3.3.0
 
