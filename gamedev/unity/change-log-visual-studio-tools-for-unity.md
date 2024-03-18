@@ -279,7 +279,7 @@ Released May 10, 2022
 
   - Added [`USP0019`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0019.md), Don't flag private methods decorated with `PreserveAttribute` or `UsedImplicitlyAttribute` as unused.
 
-  - Added [`USP0018`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0018.md), Unity objects should not be used with throw expressions.
+  - Added [`USP0018`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0018.md), Unity objects shouldn't be used with throw expressions.
 
 ## 17.2.3.0
 Released April 26, 2022
@@ -538,7 +538,7 @@ Released April 13, 2021
 
   - Added [`UNT0023`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0023.md) diagnostic. Coalescing assignment on Unity objects.
 
-  - Added [`USP0017`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0017.md) suppressor for `IDE0074`. Unity objects should not use coalescing assignment.
+  - Added [`USP0017`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0017.md) suppressor for `IDE0074`. Unity objects shouldn't use coalescing assignment.
 
   - Added detection of unflavored C# projects targeting Unity.
 
@@ -630,7 +630,7 @@ Released October 13, 2020
 
 - **Integration:**
 
-  - Added [`UNT0018`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0018.md) diagnostic. You should not use `System.Reflection` features in performance critical messages like `Update`, `FixedUpdate`, `LateUpdate`, or `OnGUI`.
+  - Added [`UNT0018`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0018.md) diagnostic. You shouldn't use `System.Reflection` features in performance critical messages like `Update`, `FixedUpdate`, `LateUpdate`, or `OnGUI`.
 
   - Improved [`USP0003`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0003.md) and [`USP0005`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0005.md) suppressors, with support for all `AssetPostprocessor` static methods.
 
@@ -664,11 +664,11 @@ Released August 5, 2020
   
   - Updated Unity messages API to 2019.4.
 
-  - Added [`USP0013`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0013.md) suppressor for `CA1823`. Private fields with the `SerializeField` or `SerializeReference` attributes should not be marked as unused (FxCop).
+  - Added [`USP0013`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0013.md) suppressor for `CA1823`. Private fields with the `SerializeField` or `SerializeReference` attributes shouldn't be marked as unused (FxCop).
   
-  - Added [`USP0014`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0014.md) suppressor for `CA1822`. Unity messages should not be flagged as candidates for `static` modifier (FxCop).
+  - Added [`USP0014`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0014.md) suppressor for `CA1822`. Unity messages shouldn't be flagged as candidates for `static` modifier (FxCop).
 
-  - Added [`USP0015`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0015.md) suppressor for `CA1801`. Unused parameters should not be removed from Unity messages (FxCop).
+  - Added [`USP0015`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0015.md) suppressor for `CA1801`. Unused parameters shouldn't be removed from Unity messages (FxCop).
   
   - Added MenuItem support to the [`USP0009`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0009.md) suppressor.  
 
@@ -691,7 +691,7 @@ Released June 23, 2020
 
   - Added [`UNT0015`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0015.md) diagnostic. Detect incorrect method signature with `InitializeOnLoadMethod` or `RuntimeInitializeOnLoadMethod` attribute.
 
-  - Added [`UNT0016`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0016.md) diagnostic. Using `Invoke`, `InvokeRepeating`, `StartCoroutine` or `StopCoroutine` with a first argument being a string literal is not type safe.
+  - Added [`UNT0016`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0016.md) diagnostic. Using `Invoke`, `InvokeRepeating`, `StartCoroutine` or `StopCoroutine` with a first argument being a string literal isn't type safe.
 
   - Added [`UNT0017`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0017.md) diagnostic. `SetPixels` invocation is slow.
 
@@ -701,7 +701,7 @@ Released June 23, 2020
 
 - **Integration:**
 
-  - Do not reset selection when filtering messages in the Unity message wizard.
+  - Don't reset selection when filtering messages in the Unity message wizard.
   
   - Always use the default browser when opening Unity API documentation.
   
@@ -720,11 +720,11 @@ Released May 19, 2020
 
 - **Integration:**
 
-  - Warn if we are unable to create the messaging server on the Unity side.
+  - Warn if we're unable to create the messaging server on the Unity side.
   
   - Properly run analyzers during lightweight compilation.
   
-  - Fixed an issue where a MonoBehaviour class created from the UPE did not match the name of the file.
+  - Fixed an issue where a MonoBehaviour class created from the UPE didn't match the name of the file.
 
 ## 4.6.0.0
 Released April 14, 2020
@@ -759,7 +759,7 @@ Released April 14, 2020
   
   - Fixed message scope for `CreateInspectorGUI` message.
 
-  - Do not report [`UNT0001`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0001.md) on methods with polymorphic modifiers.
+  - Don't report [`UNT0001`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0001.md) on methods with polymorphic modifiers.
 
 - **Evaluation:**
 
@@ -773,7 +773,7 @@ Released March 16, 2020
 
 - **Integration:**
 
-  - Added [`USP0008`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0008.md) suppressor for `IDE0051`. Private methods used with Invoke, InvokeRepeating, StartCoroutine or StopCoroutine should not be marked as unused.
+  - Added [`USP0008`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0008.md) suppressor for `IDE0051`. Private methods used with Invoke, InvokeRepeating, StartCoroutine or StopCoroutine shouldn't be marked as unused.
 
 ### Bug fixes
 
@@ -805,15 +805,15 @@ Released January 22, 2020
 
   - Added support for HLSL files.
   
-  - Added [`USP0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0006.md) suppressor for `IDE0051`. Private fields with the `SerializeField` attribute should not be marked as unused.
+  - Added [`USP0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0006.md) suppressor for `IDE0051`. Private fields with the `SerializeField` attribute shouldn't be marked as unused.
   
-  - Added [`USP0007`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0007.md) suppressor for `CS0649`. Fields with the `SerializeField` attribute should not be marked as unassigned.  
+  - Added [`USP0007`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0007.md) suppressor for `CS0649`. Fields with the `SerializeField` attribute shouldn't be marked as unassigned.  
 
 ### Bug fixes
 
 - **Integration:**
 
-  - Fixed project generation (`GenerateTargetFrameworkMonikerAttribute` target was not always located correctly).
+  - Fixed project generation (`GenerateTargetFrameworkMonikerAttribute` target wasn't always located correctly).
 
 ## 4.4.2.0
 
@@ -882,7 +882,7 @@ Released September 16, 2019
 - **Integration:**
 
   - We've deepened the understanding that Visual Studio has for Unity projects by adding new diagnostics specific to Unity. We've also made the IDE smarter by suppressing general C# diagnostics that don't apply to Unity projects. For example, the IDE won't show a quick-fix to change an inspector variable to `readonly` which would prevent you from modifying the variable in the Unity Editor.
-    - [`UNT0001`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0001.md): Unity messages are called by the runtime even if they are empty, do not declare them to avoid unnecessary processing by the Unity runtime.
+    - [`UNT0001`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0001.md): Unity messages are called by the runtime even if they're empty, don't declare them to avoid unnecessary processing by the Unity runtime.
     - [`UNT0002`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0002.md): Tag comparison using string equality is slower than the built-in CompareTag method.
     - [`UNT0003`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0003.md): Usage of the generic form of GetComponent is preferred for type safety.
     - [`UNT0004`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0004.md): Update message is frame-rate dependent, and should use Time.deltaTime instead of Time.fixedDeltaTime.
@@ -893,10 +893,10 @@ Released September 16, 2019
     - [`UNT0009`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0009.md): When applying the InitializeOnLoad attribute to a class, you need to provide a static constructor. InitializeOnLoad attribute ensures that it will be called as the editor launches.
     - [`UNT0010`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0010.md): MonoBehaviours should only be created using AddComponent(). MonoBehaviour is a component, and needs to be attached to a GameObject.
     - [`UNT0011`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0011.md): ScriptableObject should only be created using CreateInstance(). ScriptableObject needs to be created by the Unity engine to handle Unity message methods.
-    - [`USP0001`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0001.md) for `IDE0029`: Unity objects should not use null coalescing.
-    - [`USP0002`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0002.md) for `IDE0031`: Unity objects should not use null propagation.
+    - [`USP0001`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0001.md) for `IDE0029`: Unity objects shouldn't use null coalescing.
+    - [`USP0002`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0002.md) for `IDE0031`: Unity objects shouldn't use null propagation.
     - [`USP0003`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0003.md) for `IDE0051`: Unity messages are invoked by the Unity runtime.
-    - [`USP0004`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0004.md) for `IDE0044`: Fields with a SerializeField attribute should not be made readonly.
+    - [`USP0004`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0004.md) for `IDE0044`: Fields with a SerializeField attribute shouldn't be made readonly.
 
 ## 4.3.1.0
 
@@ -964,7 +964,7 @@ Released July 24, 2019
 
 - **Integration:**
 
-  - Fixed an issue when the file extension was not handled by any well-known editor.
+  - Fixed an issue when the file extension wasn't handled by any well-known editor.
 
   - Fixed support for custom extensions in the Unity Project Explorer.
 
@@ -1136,7 +1136,7 @@ Released December 10, 2018
 
 - **Integration:**
 
-  - Fixed bridge activation when Visual Studio is not selected as the preferred external editor.
+  - Fixed bridge activation when Visual Studio isn't selected as the preferred external editor.
 
   - Fixed expression evaluation with malformed or unsupported expressions.
 
@@ -1310,7 +1310,7 @@ Released May 30, 2018
 
 - **Project Generation:**
 
-  - Do not convert portable pdb to mdb anymore when using the new Unity runtime.
+  - Don't convert portable pdb to mdb anymore when using the new Unity runtime.
 
 ## 3.7.0.1
 
@@ -1512,7 +1512,7 @@ Released December 4, 2017
 
   - Fixed usage of a specific project API compatibility level instead of the global one.
 
-  - Do not force the AllowAttachedDebuggingOfEditor Unity flag as the default is now 'true'.
+  - Don't force the AllowAttachedDebuggingOfEditor Unity flag as the default is now 'true'.
 
 ## 3.4.0.2
 
@@ -1662,7 +1662,7 @@ Released January 23, 2017
 
   - Fixed function breakpoints with coroutines under the new Unity compiler/runtime.
 
-  - Added warning if there is an unbindable breakpoint (when no corresponding source-location is found).
+  - Added warning if there's an unbindable breakpoint (when no corresponding source-location is found).
 
 - **Project Generation:**
 
@@ -1797,7 +1797,7 @@ Released February 4, 2016
 
   - Added an option to configure the visibility of MonoBehavior messages.
 
-  - Removed Visual Studio property pages that are not relevant to Unity projects.
+  - Removed Visual Studio property pages that aren't relevant to Unity projects.
 
 ### Bug fixes
 
@@ -1841,7 +1841,7 @@ Released September 8, 2015
 
 - An error message is no longer displayed when Visual Studio locks XML intellisense files.
 
-- Handle <\<When Changed>> conditional breakpoints when conditional argument is not a boolean value.
+- Handle <\<When Changed>> conditional breakpoints when conditional argument isn't a boolean value.
 
 - Fixed references to UnityEngine and UnityEditor assemblies for Windows Store apps.
 
@@ -1881,7 +1881,7 @@ Released July 20, 2015
 
   - Fixed a potential freeze when debugging.
 
-  - Fixed an issue where locals would not be displayed in certain stack frames.
+  - Fixed an issue where locals wouldn't be displayed in certain stack frames.
 
   - Fixed inspecting empty arrays.
 
@@ -2011,7 +2011,7 @@ Released November 12, 2014
 
 - Fix displaying of callstacks when no symbols are available.
 
-- Do not register the log callback if we don't have to.
+- Don't register the log callback if we don't have to.
 
 ## 1.9.2.0
 
@@ -2119,7 +2119,7 @@ Released July 29, 2014
 
 - Fix parsing versions for Unity betas.
 
-- Fix issue where variables would not appear in the local variables window when hitting a breakpoint or stepping.
+- Fix issue where variables wouldn't appear in the local variables window when hitting a breakpoint or stepping.
 
 - Fix variables tooltips in Visual Studio 2013.
 
@@ -2268,7 +2268,7 @@ Released April 9, 2013
 
 - Fixed local deployment of Unity assemblies for code completion in the event of an IO error (such as read-only files, or files locked by Visual Studio).
 
-- Fixed a regression where opening a script from Unity would not focus the file if it was already opened in Visual Studio.
+- Fixed a regression where opening a script from Unity wouldn't focus the file if it was already opened in Visual Studio.
 
 - Fixed performance issue of the new exception handling.
 
@@ -2322,7 +2322,7 @@ Released March 25, 2013
 
 - Fixed exception when writing a new UnityScript or Boo string.
 
-- Fixed exceptions in Unity menus when a solution was not loaded.
+- Fixed exceptions in Unity menus when a solution wasn't loaded.
 
 - Fixed bug UVS-48: typing double quote sometimes produce error and break all function (code completion, syntax highlight etc).
 
@@ -2330,7 +2330,7 @@ Released March 25, 2013
 
 - Fixed bug UVS-42: Unity connectivity logo in the status bar doesn't handle mouse events in VS 2012.
 
-- Fixed bug UVS-44: CTRL+SHIFT+Q is not available in VS 2012 for Quick MonoBehaviours.
+- Fixed bug UVS-44: CTRL+SHIFT+Q isn't available in VS 2012 for Quick MonoBehaviours.
 
 - Fixed bug UVS-40: Selected items in the Unity Project Explorer are unreadable when the window is inactive in VS2012 "dark" theme.
 
@@ -2375,7 +2375,7 @@ Released January 3, 2013
 
 - Fixed Visual Studio lockup that could happen when Visual Studio was deleting a breakpoint.
 
-- Fixed a bug where some breakpoints would not be hit after Unity recompiled game scripts.
+- Fixed a bug where some breakpoints wouldn't be hit after Unity recompiled game scripts.
 
 - Fixed the debugger to properly notify Visual Studio when breakpoints were unbound.
 
@@ -2383,9 +2383,9 @@ Released January 3, 2013
 
 - Fixed an exception that could happen when evaluating UnityScript and Boo expressions.
 
-- Fixed a regression where changing the .NET API level in Unity would not trigger an update of the project files.
+- Fixed a regression where changing the .NET API level in Unity wouldn't trigger an update of the project files.
 
-- Fixed an API glitch where user code could not participate in the log callback handler.
+- Fixed an API glitch where user code couldn't participate in the log callback handler.
 
 ## 1.0.11.0
 Released November 28, 2012
@@ -2457,7 +2457,7 @@ Released September 26, 2012
 
 ### Bug fixes
 
-- Fixed the way our script opener acquired the path to the project to be sure that it is able to open both Visual Studio and the scripts.
+- Fixed the way our script opener acquired the path to the project to be sure that it's able to open both Visual Studio and the scripts.
 
 - Fixed a bug with breakpoints created while the debugging session was running that could cause Visual Studio to lock up.
 
@@ -2501,7 +2501,7 @@ Released September 5, 2012
 
 - Automatic conversion of debug symbols in Unity.
 
-    If you have a .NET .dll assembly with its associated .pdb in your Asset folder, simply re-import the assembly and UnityVS will convert the .pdb into a debug symbols file that Unity's scripting engine understands, and you'll be able to step into your .NET assemblies from UnityVS.
+    If you have a .NET .dll assembly with its associated .pdb in your Asset folder, re-import the assembly and UnityVS will convert the .pdb into a debug symbols file that Unity's scripting engine understands, and you'll be able to step into your .NET assemblies from UnityVS.
 
 ### Bug fixes
 
