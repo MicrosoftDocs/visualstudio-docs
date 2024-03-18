@@ -5,13 +5,65 @@ ms.date: "6/14/2023"
 ms.subservice: unity-tools
 ms.service: visual-studio
 ms.topic: "conceptual"
-author: therealjohn
-ms.author: johmil
+author: jbevain
+ms.author: jbevain
 manager: crdun
 ---
 # Change log (Visual Studio Tools for Unity, Windows)
 
 Visual Studio Tools for Unity change log.
+
+## 17.9.3.0
+Released February 13, 2024
+
+### New Features
+
+- **Integration:**
+
+  - Improved accessibility.
+
+  - Display QuickInfo for all symbols using `TooltipAttribute` (only fields previously).
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed trivia handling with [`UNT0021`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0021.md), when using messages without modifiers.
+
+  - Fixed batch provider for all diagnostics.
+
+  - Fixed [`UNT0034`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0034.md) and [`UNT0035`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0035.md) with ambiguous overloads.
+
+# 17.9.2.0
+Released January 3, 2024
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed a stability issue preventing intellisense to work properly.
+
+# 17.9.1.0
+Released December 12, 2023
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed language service usage when navigating the UPE.
+
+  - Fixed stability issue with tgz file references in the manifest.
+
+# 17.9.0.0
+Released November 28, 2023
+
+### New Features
+
+- **Integration:**
+
+  - Improved support for `EditorInstance.json`.
+
+  - Added initial SDK-Style projects support.
 
 ## 17.8.2.0
 Released November 14, 2023
@@ -58,7 +110,7 @@ Released August 8, 2023
   
   - Added alternate local player instance detection.
 
-  - Added support for EditorInstance.json.
+  - Added support for `EditorInstance.json`.
 
 ### Bug fixes
 
