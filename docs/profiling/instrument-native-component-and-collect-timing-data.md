@@ -1,7 +1,7 @@
 ---
 title: Profiler command line - Instrument native component, get timing data
 description: Learn how to use the Visual Studio Profiling Tools command-line tools to collect detailed timing data for a native component such as a C++ .exe or .dll file.
-ms.date: 11/11/2022
+ms.date: 03/18/2024
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
@@ -12,10 +12,12 @@ ms.subservice: debug-diagnostics
 
 This topic describes how to use Visual Studio command-line profiling tools to instrument a native component such as a C++ .*exe* or .*dll* file, and to collect detailed timing data.
 
-> [!NOTE]
-> To get the path to the profiling tools, see [Specify the path to command line tools](/previous-versions/visualstudio/visual-studio-2017/profiling/specifying-the-path-to-profiling-tools-command-line-tools). On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.
-
 To collect detailed timing data from a component by using the instrumentation method, you use the [VSInstr.exe](../profiling/vsinstr.md) tool to generate an instrumented version of the component. You then start the profiler. When the instrumented component is executed, timing data is automatically collected to a data file. You can pause and resume data collection during the profiling session.
+
+The path to the profiling tools is *Microsoft Visual Studio\version\Enterprise\Team Tools\DiagnosticsHub\Collector*.
+
+> [!NOTE]
+> To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.
 
  To end a profiling session, you close the target application and then explicitly shut down the profiler.
 
