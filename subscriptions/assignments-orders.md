@@ -3,14 +3,14 @@ title: Track assignments and process orders in Visual Studio subscriptions | Vis
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 03/17/2023
+ms.date: 03/19/2024
 ms.topic: conceptual
 description:  Learn about admins' responsibility to track user assignments and process orders.
 ---
 
 # Track user assignment and process orders
 
-Visual Studio subscriptions admins can track the numberVisual Studio subscriptions they have assigned in the [Visual Studio Subscriptions Administration portal](https://manage.visualstudio.com).  The portal will also reflect any additional subscriptions purchased through their Volume Licensing agreement or Microsoft Products and Services Agreement.  The portal makes it easy to see how many licenses you've purchased and how many are assigned. 
+Visual Studio subscriptions admins can track the numberVisual Studio subscriptions they have assigned in the [Visual Studio Subscriptions Admin portal](https://manage.visualstudio.com).  The portal will also reflect any additional subscriptions purchased through their Volume Licensing agreement or Microsoft Products and Services Agreement.  The portal makes it easy to see how many licenses you've purchased and how many are assigned. 
 
 ## Maximum usage
 
@@ -25,7 +25,7 @@ Your complete purchase obligation is the peak number of subscriptions you assign
 + Visual Studio subscriptions admins may reassign subscriptions from one subscriber to another if 90 days have passed since the time of the original assignment. 
     > [!NOTE]
     > To avoid an artificially high level of maximum usage, always do this by first removing the existing subscription and then adding the new one. 
-+ To help you monitor your organization's maximum usage, there's a [Maximum Usage](maximum-usage.md) report in the Visual Studio [Subscriptions Administration Portal](https://manage.visualstudio.com). 
++ To help you monitor your organization's maximum usage, there's a [Maximum Usage](maximum-usage.md) report in the Visual Studio [Subscriptions Admin Portal](https://manage.visualstudio.com). 
 
 ## Monthly Subscriptions, Open License or Open Value
 
