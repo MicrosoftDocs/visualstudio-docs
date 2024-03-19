@@ -6,6 +6,8 @@ ms.topic: "reference"
 dev_langs:
   - "VB"
   - "CSharp"
+f1_keywords:
+  - IWefDebuggingSupport
 author: John-Hart
 ms.author: johnhart
 manager: mijacobs

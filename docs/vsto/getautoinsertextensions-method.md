@@ -3,6 +3,8 @@ description: "Gets information about the apps for Office that are to be automati
 title: "GetAutoInsertExtensions method"
 ms.date: "02/02/2017"
 ms.topic: "reference"
+f1_keywords:
+  - GetAutoInsertExtensions
 dev_langs:
   - "VB"
   - "CSharp"
