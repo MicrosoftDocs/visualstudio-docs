@@ -2,7 +2,7 @@
 title: "Project Settings for a .NET C# debug config"
 description: Understand how to change the project settings for a C# .NET 5+ or .NET Core debug configuration in Visual Studio, using the Debug tab and Build tab of the project property pages.
 ms.date: "07/15/2022"
-ms.topic: "reference"
+ms.topic: "ui-reference"
 dev_langs:
   - "CSharp"
   - "VB"
