@@ -3,18 +3,18 @@ title: Personal emails for Visual Studio subscriptions in VLSC
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 03/21/2023
+ms.date: 03/19/2024
 ms.topic: conceptual
 description:  Visual Studio Subscriptions – Why Am I Seeing Hotmail or Gmail Addresses for My Subscribers?
 ---
 
 # Visual Studio subscriptions – Why do I see personal accounts for my subscribers?
 
-After companies migrated from the Volume Licensing Service Center (VLSC) to the new Visual Studio [Subscriptions Administration Portal](https://manage.visualstudio.com), admins were surprised to find that the “Sign-in Email Address” for some subscribers shows a personal email address like Hotmail or Outlook.  
+After companies migrated from the Volume Licensing Service Center (VLSC) to the new Visual Studio [Subscriptions Admin Portal](https://manage.visualstudio.com), admins were surprised to find that the “Sign-in Email Address” for some subscribers shows a personal email address like Hotmail or Outlook.  
 
 ## Cause
 
-This scenario occurs due to sign-in processes that were associated with the legacy MSDN subscriber experience. Users were migrated from the Volume License Service Center (VLSC) to the Visual Studio Subscriptions Administration Portal without modifications. Admins might not know that users are using personal accounts to access their subscription benefits. Prior to the Visual Studio subscriber migrations, which were completed in 2016, there were two actions required to successfully use a Visual Studio Subscription:
+This scenario occurs due to sign-in processes that were associated with the legacy MSDN subscriber experience. Users were migrated from the Volume License Service Center (VLSC) to the Visual Studio Subscriptions Admin Portal without modifications. Admins might not know that users are using personal accounts to access their subscription benefits. Prior to the Visual Studio subscriber migrations, which were completed in 2016, there were two actions required to successfully use a Visual Studio Subscription:
 1. The admin “assigned” the subscription to an individual subscriber, using their work or school email address.
 2. The subscriber “activated” the subscription.
 
