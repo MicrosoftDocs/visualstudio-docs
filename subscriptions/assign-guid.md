@@ -3,14 +3,14 @@ title: Assign specific GUIDs to Visual Studio subscribers
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 03/24/2023
+ms.date: 03/19/2024
 ms.topic: conceptual
 description:  Learn how admins can  assign specific subscription GUID to subscribers
 ---
 
-# Assign specific subscriptions in the Visual Studio Subscriptions Administration Portal
+# Assign specific subscriptions in the Visual Studio Subscriptions Admin Portal
 
-Admins can now use the Visual Studio Subscriptions Administration Portal to assign specific subscriptions to individual subscribers.  These assignments can be useful in situations where the organization has temporary staff or vendors that need access to a subscription for a short period.  Admins can assign a subscription that has already been partially used, leaving their new subscriptions for longer term use.  
+Admins can now use the Visual Studio Subscriptions Admin Portal to assign specific subscriptions to individual subscribers.  These assignments can be useful in situations where the organization has temporary staff or vendors that need access to a subscription for a short period.  Admins can assign a subscription that has already been partially used, leaving their new subscriptions for longer term use.  
 
 Watch the video or read on to learn how to assign specific subscriptions GUIDs to users. 
 
@@ -26,7 +26,7 @@ Assigning specific subscriptions to individuals uses two existing admin processe
 ### Export your subscriptions information
 
 To perform the export:
-1. Sign in to the [Administration Portal](https://manage.visualstudio.com).
+1. Sign in to the [Admin Portal](https://manage.visualstudio.com).
 2. Select the **Export** tab. A file downloads to your local machine. The file includes the name of the agreement that contains your user subscriptions, and the date of the export.
 > [!div class="mx-imgBorder"]
 > ![Export subscribers](_img/exporting-subscriptions/exporting-subscriptions.png "Screenshot of the manage portal.  The Export menu is highlighted.")
