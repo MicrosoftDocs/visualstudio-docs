@@ -1,14 +1,14 @@
 ---
-title: Get started in the Administrator Portal
+title: Get started in the Admin Portal
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 03/06/2024
+ms.date: 03/19/2024
 ms.topic: overview
 description: Manage an organization's Visual Studio subscriptions with the Subscriptions Admin Portal, access subscriber information and agreement details, and get notifications.
 ---
 
-# Overview of the Visual Studio Subscriptions Administrator Portal
+# Overview of the Visual Studio Subscriptions Admin Portal
 
 The Visual Studio Subscriptions Admin Portal gives you the tools to manage your organization's subscriptions in one place. 
 
