@@ -1,9 +1,9 @@
 ---
-title: Edit Visual Studio subscriptions in the Administration Portal
+title: Edit Visual Studio subscriptions in the Admin Portal
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 11/02/2023
+ms.date: 03/19/2024
 ms.topic: how-to
 description:  Learn how admins can edit subscription assignments.
 ---
@@ -13,7 +13,7 @@ description:  Learn how admins can edit subscription assignments.
 As a subscription admin, you can make changes to the subscriptions assigned to members of your organization.  This article discusses the types of changes you can make and provides the necessary steps.
 
    > [!NOTE]
-   > If you need to change certain subscription details for a subscriber assigned through a Microsoft Entra group, you will need to remove them from the group and add them into the Administration Portal individually.  Changes to their email address, spelling of their name, etc should be made in the Microsoft Entra group.  If you need to change subscription levels or download permissions, however, they will need to be removed from the group and added directly into the admin portal. 
+   > If you need to change certain subscription details for a subscriber assigned through a Microsoft Entra group, you will need to remove them from the group and add them into the Admin Portal individually.  Changes to their email address, spelling of their name, etc should be made in the Microsoft Entra group.  If you need to change subscription levels or download permissions, however, they will need to be removed from the group and added directly into the admin portal. 
 
 ## Change subscriber information
 
@@ -44,7 +44,7 @@ Watch this video or read on to learn how to edit multiple subscribers using bulk
 
 3. Next, save the file locally so you can easily find it and make any necessary changes prior to uploading it. 
 
-4. Return to the Visual Studio Subscriptions Administration portal and in the Bulk Edit dialog box, select **Browse**. Select the Excel file you saved and select **OK**. The upload progress appears.
+4. Return to the Visual Studio Subscriptions Admin portal and in the Bulk Edit dialog box, select **Browse**. Select the Excel file you saved and select **OK**. The upload progress appears.
    > [!div class="mx-imgBorder"]
    > ![Editing a License - Bulk Edits File Upload](_img/edit-license/edit-license-bulk-file-upload1.png "Screenshot of the Edit multiple subscribers dialog.  The name of the completed template is highlighted.")
 
