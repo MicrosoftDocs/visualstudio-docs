@@ -3,7 +3,7 @@ title: Handle expired licenses in Visual Studio subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 03/21/2023
+ms.date: 03/19/2024
 ms.topic: conceptual
 description: Learn how admins can handle expired Visual Studio subscriptions
 ---
@@ -28,5 +28,5 @@ Your reseller or Microsoft seller will guide you through the process of renewing
 
 ## Next steps
 
-+ For help with using the Administration portal, contact [Visual Studio Administration and Subscriptions Support](https://aka.ms/vsadminhelp)
++ For help with using the Admin portal, contact [Visual Studio Administration and Subscriptions Support](https://aka.ms/vsadminhelp)
 + Find a [Microsoft Solution Provider](https://www.microsoft.com/solution-providers/home)
