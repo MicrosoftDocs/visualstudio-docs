@@ -3,14 +3,14 @@ title: Assign subscriptions to multiple users
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 11/02/2023
+ms.date: 03/19/2024
 ms.topic: conceptual
-description: Assign multiple subscriptions to one or more users at the same time with the bulk operation features in the Subscriptions Administration Portal.
+description: Assign multiple subscriptions to one or more users at the same time with the bulk operation features in the Subscriptions Admin Portal.
 ---
 
 # Assign subscriptions to multiple users
 
-The Subscriptions Administration Portal lets you add users one-at-a-time, or in large groups.  To add individual users, see [Add single users](assign-license.md).
+The Subscriptions Admin Portal lets you add users one-at-a-time, or in large groups.  To add individual users, see [Add single users](assign-license.md).
 
 To add large groups of users, you can use the bulk add feature, or if your organization is using Microsoft Entra ID **and your organization has a trusted agreement**, you can use Microsoft Entra groups. This article explains the process for both options.  Watch this video or read on to learn more about the bulk add feature. 
 
@@ -20,7 +20,7 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 
 ## Follow these steps to use the Bulk add feature:
 
-1. Sign into the Visual Studio Subscriptions Administration Portal at <https://manage.visualstudio.com>.
+1. Sign into the Visual Studio Subscriptions Admin Portal at <https://manage.visualstudio.com>.
 
 1. To add multiple subscribers at one time, navigate to the **Manage Subscribers** tab. Choose the **Add** tab, then choose **Bulk add** in the drop-down.  
 
@@ -44,7 +44,7 @@ To add large groups of users, you can use the bulk add feature, or if your organ
     + Make sure all required fields are completed. 
     + Check the **Error message** column.  If any errors are listed, resolve them before attempting to upload the file. 
 
-1. Return to the Visual Studio Subscriptions Administration portal. In the **Upload Multiple Subscribers** dialog box, select **Browse**.
+1. Return to the Visual Studio Subscriptions Admin portal. In the **Upload Multiple Subscribers** dialog box, select **Browse**.
    > [!div class="mx-imgBorder"]
    > ![Browse to your saved template to upload multiple subscribers](media/bulk-add-browse-saved-template.png "Screenshot of the Upload multiple subscribers dialog.  The Browse option to locate the completed template is highlighted.")
 
@@ -60,7 +60,7 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 
    If you encounter a failure, follow these steps:
    1. Open the Excel file you created, correct the problems, and save the file.
-   0. Return to the Administration Portal and dismiss the error message.
+   0. Return to the Admin Portal and dismiss the error message.
    0. Choose **Add**.
    0. Select **Bulk add**.
    0. Since you already have the Excel file saved, you don't need to download the template.  Select **Browse**, locate the file you saved, and select **Open**.
@@ -74,7 +74,7 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 
 ## Use Microsoft Entra groups to assign subscriptions 
 
-Using this feature makes it easy to stay on top of your subscription assignments. Add Microsoft Entra groups in the Subscriptions Administration Portal to ensure that everyone in the group is assigned a subscription. When members leave your organization and are removed from Microsoft Entra ID, their access to subscriptions is also removed automatically for you. 
+Using this feature makes it easy to stay on top of your subscription assignments. Add Microsoft Entra groups in the Subscriptions Admin Portal to ensure that everyone in the group is assigned a subscription. When members leave your organization and are removed from Microsoft Entra ID, their access to subscriptions is also removed automatically for you. 
 
 > [!IMPORTANT]
 >
@@ -92,7 +92,7 @@ Using this feature makes it easy to stay on top of your subscription assignments
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4rvvW]
 
-1. Sign in to the Visual Studio Subscriptions Administration Portal at [https://manage.visualstudio.com](https://manage.visualstudio.com).
+1. Sign in to the Visual Studio Subscriptions Admin Portal at [https://manage.visualstudio.com](https://manage.visualstudio.com).
 
 2. To add multiple subscribers at one time, navigate to the **Manage subscribers** tab.
 
