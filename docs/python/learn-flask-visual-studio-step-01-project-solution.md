@@ -51,9 +51,9 @@ Flask project templates are included with all earlier versions of Python Tools f
 
 Python development isn't currently supported in Visual Studio for Mac. On Mac and Linux, use the [Python extension in Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial) tutorial.
 
-## Create Visual Studio project and solution
+## Create Visual Studio solution and Flask project
 
-In Step 1 of this tutorial, you create a single Visual Studio solution that contains two separate projects. You create the project by using different Flask project templates included with Visual Studio. By keeping the projects in the same solution, you can easily switch back and forth between different files for comparison.
+In Step 1 of this tutorial, you create a single Visual Studio solution to contain two separate Flask projects. You create the projects by using different Flask project templates included with Visual Studio. By keeping the projects in the same solution, you can easily switch back and forth between different files for comparison.
 
 Follow this procedure to create the solution and a Flask web project:
 
@@ -355,7 +355,7 @@ In this section, you examine the boilerplate code in the Project file (_.py_) th
 
 1. The third section of code to examine assigns a function to a URL route, which means the function provides the resource identified by the URL.
 
-   You define routes by using Flask's `@app.route` decorator that has an argument, which is the relative URL from the site root. As you can see in the code, the function returns only a text string, which is enough for a browser to render. In subsequent Steps in this tutorial series, you update the code to render richer pages with HTML.
+   You define routes by using Flask's `@app.route` decorator with an argument that's the relative URL from the site root. As you can see in the code, the function returns only a text string, which is enough for a browser to render. In subsequent Steps in this tutorial series, you update the code to render richer pages with HTML.
 
    ```python
    @app.route('/')
