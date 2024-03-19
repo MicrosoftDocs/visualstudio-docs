@@ -4,12 +4,12 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 4e529a43-7aed-4eee-895d-862a631952df
-ms.date: 11/02/2023
+ms.date: 03/19/2024
 ms.topic: conceptual
-description: Assign license subscriptions to users (subscribers) in the Subscriptions Administration Portal, set up email notifications, and send assignment messages.
+description: Assign license subscriptions to users (subscribers) in the Subscriptions Admin Portal, set up email notifications, and send assignment messages.
 ---
 
-# Assign licenses in the Visual Studio Subscriptions Administration Portal
+# Assign licenses in the Visual Studio Subscriptions Admin Portal
 
 As a Visual Studio subscriptions admin, you can use the admin portal to assign subscriptions to individual users and groups of users.
 
