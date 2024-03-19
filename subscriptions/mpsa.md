@@ -3,24 +3,24 @@ title: Visual Studio Subscriptions in MPSA
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 11/02/2023
+ms.date: 03/19/2024
 ms.topic: conceptual
 description: Manage Visual Studio subscriptions in a Microsoft Products and Services Agreement (MPSA), and review configuration differences between managed and unmanaged tenants.
 ---
 
 # Visual Studio subscriptions in a Microsoft Products and Services Agreement (MPSA)
 
-If you purchase Visual Studio Subscriptions through the MPSA program, there are a few things to be aware of before you can become a Visual Studio subscriptions admin and assign subscriptions to your users. If you're already an admin, you can go directly to the Visual Studio subscriptions [Administration Portal](https://manage.visualstudio.com/).
+If you purchase Visual Studio Subscriptions through the MPSA program, there are a few things to be aware of before you can become a Visual Studio subscriptions admin and assign subscriptions to your users. If you're already an admin, you can go directly to the Visual Studio subscriptions [Admin Portal](https://manage.visualstudio.com/).
 
 MPSA customers manage assets purchased through MPSA in a portal called the [Business Center](https://businessaccount.microsoft.com/Customer) (Similar to how the Volume Licensing Service Center (VLSC) is used to manage volume licensing assets). In the Business Center, MPSA customers can view their License Summary, Orders, Downloads, Keys, Users, etc. However, there are some key differences between VLSC and MPSA subscriptions. The Business Center uses work accounts to sign in, instead of Microsoft Accounts (MSA). If you access services like Microsoft Entra ID or Office 365, your email is already a work account. You can register for access to Business Center with your business email and password combination, like other cloud services.  If your organization isn't using cloud services and your email isn't a work account, you can use a different email to register for access to the Business Center and create a password at the time of registration.
 
-The Visual Studio subscriptions [Administration Portal](https://manage.visualstudio.com/) is where you'll assign subscriptions after you become a Visual Studio subscriptions admin. Visual Studio subscriptions purchased through MPSA must be provisioned in the Visual Studio Subscriptions Administration Portal by an admin. To do that, your Purchasing Account must be associated with a tenant (example: `contoso.onmicrosoft.com`).
+The Visual Studio subscriptions [Admin Portal](https://manage.visualstudio.com/) is where you'll assign subscriptions after you become a Visual Studio subscriptions admin. Visual Studio subscriptions purchased through MPSA must be provisioned in the Visual Studio Subscriptions Admin Portal by an admin. To do that, your Purchasing Account must be associated with a tenant (example: `contoso.onmicrosoft.com`).
 
 There are two types of tenants - managed tenants and unmanaged tenants. A managed tenant refers to a tenant that admins within the organization managed.
 
 An unmanaged tenant doesn't have admins assigned and isn't usable for Online Services such as Office 365. Unmanaged tenants are created when registering to the Business Center with an email that isn't a work account. If you were prompted to create a password when you registered for Business Center access, the email you used wasn't a work account. This condition is how an unmanaged tenant can be created.
 
-Prerequisites to become a Visual Studio Subscriptions administrator
+Prerequisites to become a Visual Studio subscriptions admin:
 
 ## Managed tenant
 
@@ -43,12 +43,12 @@ To associate your account, you must
 
    If you're experiencing issues with the domain association or would like more guidance, Business Center support can assist.
 
-2. After the Purchasing Account is associated with your domain, you must be a User Admin (at minimum) or Global Admin within the tenant that you’re part of to administer Visual Studio subscriptions on the Visual Studio Subscriptions Administration Portal. Ensure that the “Country or Region” and “Postal code” fields within your Azure user profile are populated appropriately depending on your region (such as: US, CA, etc.). After the domain association, if you have the correct permissions listed above you'll be able to access the Visual Studio Subscriptions Administration Portal within 24 hours. If you don't have access after 24 hours, contact Business Center support.
+2. After the Purchasing Account is associated with your domain, you must be a User Admin (at minimum) or Global Admin within the tenant that you’re part of to administer Visual Studio subscriptions on the Visual Studio Subscriptions Admin Portal. Ensure that the “Country or Region” and “Postal code” fields within your Azure user profile are populated appropriately depending on your region (such as: US, CA, etc.). After the domain association, if you have the correct permissions listed above you'll be able to access the Visual Studio Subscriptions Admin Portal within 24 hours. If you don't have access after 24 hours, contact Business Center support.
 
 > [!NOTE]
-> Granting BCP users permissions to view licenses, including Visual Studio Subscription licenses, in Business Center, is completely separate from granting users permissions on the Visual Studio Subscriptions Administration portal.
+> Granting BCP users permissions to view licenses, including Visual Studio Subscription licenses, in Business Center, is completely separate from granting users permissions on the Visual Studio Subscriptions Admin Portal.
 
-Similarly, having Administrator permissions on the Visual Studio Subscriptions Administrator portal doesn't mean that the VSS Admin can view the licenses in Business Center.
+Similarly, having admin permissions on the Visual Studio Subscriptions Admin portal doesn't mean that the VSS Admin can view the licenses in Business Center.
 
 ## Unmanaged tenant
 
@@ -56,7 +56,7 @@ If you registered to the Business Center with an email that wasn't a work accoun
 
 For a more detailed explanation for this process, you can use the Quick Start guides. Download the guide named "Setup and Use Your Online Services" for steps to perform a domain take-over (pg. 7-8).
 
-After you complete the domain take-over process, you must adhere to the two criteria from section “Managed Tenant” to administer Visual Studio subscriptions on the Visual Studio Subscriptions Administration Portal. In you encounter problems, contact Business Center support.
+After you complete the domain take-over process, you must adhere to the two criteria from section “Managed Tenant” to administer Visual Studio subscriptions on the Visual Studio Subscriptions Admin Portal. In you encounter problems, contact Business Center support.
 
 ## Support resources
 
