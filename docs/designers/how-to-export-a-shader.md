@@ -12,6 +12,9 @@ ms.subservice: ui-designers
 
 This article demonstrates how to use the **Shader Designer** to export a Directed Graph Shader Language (DGSL) shader so that you can use it in your app.
 
+> [!NOTE]
+> Vertex shaders can't be exported.
+
 ## Export a shader
 
 After you create a shader by using the Shader Designer and before you can use it in your app, you have to export it in a format that your graphics API understands. You can export a shader in different ways to meet different needs.
