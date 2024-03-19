@@ -10,7 +10,7 @@ description:  Learn about admins' responsibility to track user assignments and p
 
 # Track user assignment and process orders
 
-Visual Studio subscriptions admins can track the numberVisual Studio subscriptions they have assigned in the [Visual Studio Subscriptions Admin portal](https://manage.visualstudio.com).  The portal will also reflect any additional subscriptions purchased through their Volume Licensing agreement or Microsoft Products and Services Agreement.  The portal makes it easy to see how many licenses you've purchased and how many are assigned. 
+Visual Studio subscriptions admins can track the number of Visual Studio subscriptions assigned in the [Visual Studio Subscriptions Admin Portal](https://manage.visualstudio.com). The portal shows any other subscriptions purchased through their Volume Licensing agreement or Microsoft Products and Services Agreement. The portal makes it easy to see how many licenses you purchased and how many are assigned. 
 
 ## Maximum usage
 
@@ -18,11 +18,11 @@ Visual Studio subscriptions admins can track the numberVisual Studio subscriptio
 + A license is assigned to a user **OR**
 + A user interacts with Visual Studio software.
 
-Your complete purchase obligation is the peak number of subscriptions you assign to users. This level of subscription assignment is the high point either in daily user assignments or in individuals using Visual Studio software, whichever is higher.  For some agreements, you can assign more subscriptions than you have purchased.  The excess subscriptions will be charged in a later "true-up" process. 
+Your complete purchase obligation is the peak number of subscriptions you assign to users. This level of subscription assignment is the high point either in daily user assignments or in individuals using Visual Studio software, whichever is higher. For some agreements, you can assign more subscriptions than you purchased. The excess subscriptions are charged in a later "true-up" process. 
 
-+ Assigning Visual Studio subscriptions to more users raises the maximum usage level.  
-+ Visual Studio subscriptions admins may change the assigned subscription level for an individual, which would constitute a decrease in one assignment and an increase in another. When you lower a subscriber’s assigned subscription level, the individual must immediately stop using and uninstall anything that is only in the higher-level subscription. 
-+ Visual Studio subscriptions admins may reassign subscriptions from one subscriber to another if 90 days have passed since the time of the original assignment. 
++ Assigning Visual Studio subscriptions to more users raises the maximum usage level. 
++ Visual Studio subscriptions admins can change the assigned subscription level for an individual, which would constitute a decrease in one assignment and an increase in another. When you lower a subscriber’s assigned subscription level, the individual must immediately stop using and uninstall anything that is only in the higher-level subscription. 
++ Visual Studio subscriptions admins can reassign subscriptions from one subscriber to another 90 days after the original assignment. 
     > [!NOTE]
     > To avoid an artificially high level of maximum usage, always do this by first removing the existing subscription and then adding the new one. 
 + To help you monitor your organization's maximum usage, there's a [Maximum Usage](maximum-usage.md) report in the Visual Studio [Subscriptions Admin Portal](https://manage.visualstudio.com). 
@@ -37,7 +37,7 @@ Microsoft Enterprise Agreements (EA), MPSA, and Select Plus Agreements give you 
 
 ## Resources
 
-Need help?  Contact [Subscriptions Support](https://aka.ms/vsadminhelp).
+Need help? Contact [Subscriptions Support](https://aka.ms/vsadminhelp).
 
 ## See also
 
