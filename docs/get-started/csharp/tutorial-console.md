@@ -497,7 +497,7 @@ Let's get started.
                 double cleanNum1 = 0;
                 while (!double.TryParse(numInput1, out cleanNum1))
                 {
-                    Console.Write("This is not valid input. Please enter an integer value: ");
+                    Console.Write("This is not valid input. Please enter a numeric value: ");
                     numInput1 = Console.ReadLine();
                 }
 
@@ -508,7 +508,7 @@ Let's get started.
                 double cleanNum2 = 0;
                 while (!double.TryParse(numInput2, out cleanNum2))
                 {
-                    Console.Write("This is not valid input. Please enter an integer value: ");
+                    Console.Write("This is not valid input. Please enter a numeric value: ");
                     numInput2 = Console.ReadLine();
                 }
 
@@ -633,7 +633,7 @@ Let's get started.
                 double cleanNum1 = 0;
                 while (!double.TryParse(numInput1, out cleanNum1))
                 {
-                    Console.Write("This is not valid input. Please enter an integer value: ");
+                    Console.Write("This is not valid input. Please enter a numeric value: ");
                     numInput1 = Console.ReadLine();
                 }
 
@@ -644,7 +644,7 @@ Let's get started.
                 double cleanNum2 = 0;
                 while (!double.TryParse(numInput2, out cleanNum2))
                 {
-                    Console.Write("This is not valid input. Please enter an integer value: ");
+                    Console.Write("This is not valid input. Please enter a numeric value: ");
                     numInput2 = Console.ReadLine();
                 }
 
@@ -783,7 +783,7 @@ class Program
             double cleanNum1 = 0;
             while (!double.TryParse(numInput1, out cleanNum1))
             {
-                Console.Write("This is not valid input. Please enter an integer value: ");
+                Console.Write("This is not valid input. Please enter a numeric value: ");
                 numInput1 = Console.ReadLine();
             }
 
@@ -794,7 +794,7 @@ class Program
             double cleanNum2 = 0;
             while (!double.TryParse(numInput2, out cleanNum2))
             {
-                Console.Write("This is not valid input. Please enter an integer value: ");
+                Console.Write("This is not valid input. Please enter a numeric value: ");
                 numInput2 = Console.ReadLine();
             }
 
@@ -898,7 +898,7 @@ class Program
             double cleanNum1 = 0;
             while (!double.TryParse(numInput1, out cleanNum1))
             {
-                Console.Write("This is not valid input. Please enter an integer value: ");
+                Console.Write("This is not valid input. Please enter a numeric value: ");
                 numInput1 = Console.ReadLine();
             }
 
@@ -909,7 +909,7 @@ class Program
             double cleanNum2 = 0;
             while (!double.TryParse(numInput2, out cleanNum2))
             {
-                Console.Write("This is not valid input. Please enter an integer value: ");
+                Console.Write("This is not valid input. Please enter a numeric value: ");
                 numInput2 = Console.ReadLine();
             }
 
