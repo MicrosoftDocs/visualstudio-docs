@@ -2,7 +2,7 @@
 title: "Edit and Continue error message dialog box| Microsoft Docs"
 description: Edit and Continue may report that it isn't available for your code changes. This article provides possible reasons.
 ms.date: "10/15/2018"
-ms.topic: "reference"
+ms.topic: "ui-reference"
 f1_keywords:
   - "vs.debug.ENC.SupportedButNotAvailable"
   - "vs.debug.ENC.CannotEditWhileException"

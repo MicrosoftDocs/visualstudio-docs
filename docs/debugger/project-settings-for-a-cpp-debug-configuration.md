@@ -2,7 +2,7 @@
 title: "Project settings for a C++ debug config"
 description: Configure C and C++ debugging in Property Pages. This article describes the settings and tells you their category.
 ms.date: "08/19/2022"
-ms.topic: "reference"
+ms.topic: "ui-reference"
 f1_keywords:
   - "VC.Project.VCDebugSettings.WebBrowser.DebuggerType"
   - "VC.Project.IVCGPUDebugPageObject.EnvironmentMerge"

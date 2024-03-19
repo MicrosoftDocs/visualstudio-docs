@@ -2,7 +2,7 @@
 title: "Remote Debugger Port Assignments"
 description: Understand Visual Studio remote debugger port assignments on 32-bit operating systems, 64-bit operating systems, and Azure. Learn about the discovery port.
 ms.date: "07/08/2022"
-ms.topic: "reference"
+ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: mijacobs
