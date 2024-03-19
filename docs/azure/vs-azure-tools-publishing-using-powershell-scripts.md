@@ -28,7 +28,7 @@ Additional tools and resources for working with PowerShell in Visual Studio for 
 
 ## Generating the publish scripts
 
-You can generate the publish scripts for a virtual machine that hosts your website when you create a new project by following [These instructions](/azure/virtual-machines/windows/classic/web-app-visual-studio). You can also [generate publish scripts for web apps in Azure App Service](/azure/app-service/scripts/app-service-powershell-deploy-github).
+You can generate the publish scripts for a virtual machine that hosts your website when you create a new project by following [these instructions](/azure/virtual-machines/windows/classic/web-app-visual-studio). You can also [generate publish scripts for web apps in Azure App Service](/azure/app-service/scripts/app-service-powershell-deploy-github).
 
 ## Scripts that Visual Studio generates
 
