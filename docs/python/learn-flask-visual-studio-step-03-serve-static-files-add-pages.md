@@ -9,6 +9,7 @@ ms.author: cowebster
 manager: jmartens
 ms.subservice: python
 ---
+
 # Step 3: Serve static files, add pages, and use template inheritance with Flask app
 
 **Previous step: [Create a Flask app with views and page templates](learn-flask-visual-studio-step-02-create-app.md)**
@@ -77,7 +78,9 @@ In either case, you can organize files under *static* however you like.
     </html>
     ```
 
-1. Run the project to observe the results. When you're done, stop the app and you can commit your changes to source control (as explained in [step 2](learn-flask-visual-studio-step-02-create-app.md#commit-to-source-control)).
+1. Run the project to observe the results. When you're done, stop the app.
+
+1. (Optional) You can commit your changes to source control and update your remote repository. For more information, see [Step 2: Commit changes to source control](learn-flask-visual-studio-step-02-create-app.md#commit-changes-to-source-control).
 
 ### Serve a static file from code
 
