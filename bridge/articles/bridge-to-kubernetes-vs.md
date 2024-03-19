@@ -50,7 +50,7 @@ The sample application has a frontend to interact and a backend that provides pe
 1. Clone the sample repo.
 
    ```bash
-   git clone https://github.com/Azure/Bridge-To-Kubernetes
+   git clone https://github.com/hsubramanianaks/b2k-samples
    ```
 
 1. Change directory to *samples/todo-app* and then create a namespace for the sample.
