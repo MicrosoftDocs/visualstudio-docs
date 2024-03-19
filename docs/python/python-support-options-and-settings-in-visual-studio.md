@@ -141,7 +141,7 @@ The following options are available under **Tools** > **Options** > **Python**> 
 | --- | --- | --- |
 | **Diagnostic mode** | Open files only | Specifies what code files the language server analyzes for problems, including **Workspace** and **Open files only**. | 
 | **Log level** | Information | Specifies the level of logging to perform by the language server. The possible levels of logging, in increasing level of information provided, include **Error**, **Warning**, **Information**, and **Trace**. | 
-| **Type checking** | Off | Specifies the level of type checking analysis to perform: - **Off**: Produce unresolved imports/variables diagnostics but don't conduct type checking analysis <br>  - **Basic**: Use non-type (all rules on under the **Off** level) and also basic type checking-related rules <br> - **Strict**: Use all type checking rules at the highest severity of error (including all rules on under both the **Off** and **Basic** levels | 
+| **Type checking** | Off | Specifies the level of type checking analysis to perform: <br> - **Off**: Produce unresolved imports/variables diagnostics but don't conduct type checking analysis <br>  - **Basic**: Use non-type (all rules on under the **Off** level) and also basic type checking-related rules <br> - **Strict**: Use all type checking rules at the highest severity of error, including all rules on under both the **Off** and **Basic** levels | 
 | **Import format** | Absolute | Defines the default format when auto importing modules, including **Absolute** or **Relative**. | 
 | **Stubs path** | \<Empty> |  Specifies a path to a directory that contains custom type stubs. The type stub files for each package are expected to be in their own subdirectory. | 
 | **Search paths** | \<Empty> | Specifies search paths for import resolution. Accepts paths specified as strings and separated by commas if there are multiple paths, such as `["path 1","path 2"]`.  | 
@@ -209,12 +209,12 @@ The following options are available under **Tools** > **Options** > **Text Edito
 | **Auto list members** | On | Set this option to automatically list members for completion of code statements. | 
 | **Hide advanced members** | On | When the **Auto list members** option is enabled, set this option to hide advanced members from the completion suggestions. Advanced members are members that are used less frequently than others. | 
 | **Parameter information** | On | When set, hovering over parameters shows detailed information, such as the item definition and links to documentation. | 
-| **Enable virtual space** | On | <!-- TBD: Add description --> | 
+| **Enable virtual space** | On | When set, Visual Studio allows the use of a virtual space. <!-- TBD: Add description --> | 
 | **Word wrap** | Off | When set, allow long lines of code to wrap based on the editors viewport width. | 
 | **Show visual glyphs for word wrap** | Off | When the **Word wrap** option is enabled, set this option to show visual glyphs. | 
 | **Line numbers** | Off | When set, show line numbers in the left margin of the editor for each line of code. | 
 | **Enable single-click URL navigation** | On | When set, you can single-click a URL to browse to the target location. | 
-| **Navigation bar** | Off | Displays a navigation bar. <!-- TBD: Add more detail --> | 
+| **Navigation bar** | Off | When set, Visual Studio displays a navigation bar. <!-- TBD: Add more detail --> | 
 | **Automatic brace completion** | On | When set, Visual Studio automatically adds the closing brace for any open brace as you enter code. | 
 | **Apply Cut or Copy to blank lines when there is no selection** | On | By default, Visual Studio cuts or copies the entire line of code when there's no explicit selection. Use this option to enable or disable this Cut or Copy behavior when invoked on blank lines. | 
 
