@@ -3,7 +3,7 @@ title: Migrate subscriptions to a new agreement
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 11/02/2023
+ms.date: 03/19/2024
 ms.topic: how-to
 description: Migrate assigned Visual Studio subscriptions from one agreement to another, and understand how the move affects subscription benefits and Azure credits.
 ---
@@ -29,7 +29,7 @@ The process for moving subscribers to the new agreement consists of three steps:
 
 ## Export your current subscription assignments
 
-The first step to migrate your assigned subscriptions from one agreement to another is to export your current subscription assignments as a CSV file. In the Visual Studio Subscriptions administration portal, you can export a list of your subscribers and details about their assignments. 
+The first step to migrate your assigned subscriptions from one agreement to another is to export your current subscription assignments as a CSV file. In the Visual Studio Subscriptions admin portal, you can export a list of your subscribers and details about their assignments. 
 
 This information includes: 
 + Subscriber name
