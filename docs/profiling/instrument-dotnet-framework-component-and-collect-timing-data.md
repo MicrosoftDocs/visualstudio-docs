@@ -1,7 +1,7 @@
 ---
 title: Profiler command line - Instrument client .NET component, get time data
 description: Learn how to use the Visual Studio Profiling Tools command-line tools to collect timing data for a .NET Framework component of a stand-alone application.
-ms.date: 06/28/2023
+ms.date: 03/18/2024
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
@@ -15,10 +15,12 @@ This topic describes how to use Visual Studio command-line profiling tools to in
 > [!NOTE]
 > For .NET Core and .NET 5+, see [Measure application performance from the command line](../profiling/profile-apps-from-command-line.md) for command line instrumentation scenarios. VSInstr is not supported for .NET Core and .NET 5+ binaries. Starting in Visual Studio 2022 version 17.6, we recommend using [VSDiagnostics.exe](../profiling/profile-apps-from-command-line.md) for .NET Framework scenarios as well, since it provides dynamic instrumentation.
 
-> [!NOTE]
-> To get the path to the profiling tools, see [Specify the path to command line tools](/previous-versions/visualstudio/visual-studio-2017/profiling/specifying-the-path-to-profiling-tools-command-line-tools). On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.
-
  To collect detailed timing data from a .NET Framework by using the instrumentation method, you use the [VSInstr.exe](../profiling/vsinstr.md) tool to generate an instrumented version of the component and the [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) tool to initialize profiling environment variables. You then start the profiler.
+
+ The path to the profiling tools is *Microsoft Visual Studio\version\Enterprise\Team Tools\DiagnosticsHub\Collector*.
+
+ > [!NOTE]
+ > To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.
 
  When the instrumented component is executed, timing data is automatically collected to a data file. You can pause and resume data collection during the profiling session.
 
