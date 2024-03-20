@@ -3,7 +3,7 @@ title: Signing in to Visual Studio Subscriptions portal might fail when using al
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 03/05/2024
+ms.date: 03/19/2024
 ms.topic: conceptual
 description: Sign-in might fail if aliases or friendly names are used.
 ---
@@ -37,7 +37,7 @@ A UPN mismatch can be encountered when a company has a Microsoft Entra ID set up
 
 #### How to fix a UPN mismatch
 
-1. Access the Visual Studio Administration Management portal [https://manage.visualstudio.com](https://manage.visualstudio.com).
+1. Access the Visual Studio Admin portal [https://manage.visualstudio.com](https://manage.visualstudio.com).
 
 2. Locate the subscriber having the UPN mismatch issue. (The [Filter](search-license.md) feature can make it easy to find a subscriber).
 
