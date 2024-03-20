@@ -1,7 +1,7 @@
 ---
 title: Flask in Visual Studio tutorial Step 2, views and templates
 titleSuffix: ""
-description: Step 2 of a core walkthrough of Flask capabilities in Visual Studio, including procedures to create an application with multiple views and templates
+description: Step 2 of a core walkthrough of Flask capabilities in Visual Studio, including procedures to create an application with multiple views by using inline HTML templates.
 ms.date: 03/18/2023
 ms.topic: tutorial
 author: cwebster-99
@@ -72,7 +72,7 @@ Follow these steps to adjust your Flask project to allow for further development
    > [!IMPORTANT]
    > Be sure to specify the file name as _views.py_. The name _views_ is important because of the `import HelloFlask.views` statement in the _\_\_init\_\_.py_ file. If the name _views_ isn't the same in both instances, Visual Studio shows an error at runtime.
 
-1. Add the following code to the _views.py_ file. This code renames the function and defines the return route to `/home`:
+1. Add the following code to the _views.py_ file. This code renames the function and defines the return route to the `/home` endpoint:
 
    ```python
    from flask import Flask
@@ -126,7 +126,7 @@ Now you're ready to run your project in Visual Studio:
 
 1. In Visual Studio, select **Debug** > **Start Debugging** (**F5**) or select **Web Server** on the main toolbar (the browser you see might vary):
 
-1. When the application opens in the browser, try both the `/` (root) and `/home` URL routes in the browser:
+1. When the application opens in the browser, try both the `/` (root) and `/home` URL route endpoints in the browser:
 
    :::image type="content" source="media/flask/step-02-check-url-app-routes.png" alt-text="Screenshot that shows how to check the slash home route for the refactored Flask application in the browser." border="false" lightbox="media/flask/step-02-check-url-app-routes.png":::
 
@@ -330,7 +330,7 @@ You can use distinct placeholders for each piece of data within the HTML markup.
 
 1. Save your changes and run your app again. This time you should see the properly rendered output:
 
-   :::image type="content" source="media/flask/step-02-render-page-HTML-template.png" alt-text="Screenshot that shows the running application that uses HTML template for the page information to render." border="false" lightbox="media/flask/step-02-render-page-HTML-template.png":::
+   :::image type="content" source="media/flask/step-02-render-page-html-template.png" alt-text="Screenshot that shows the running application that uses HTML template for the page information to render." border="false" lightbox="media/flask/step-02-render-page-html-template.png":::
 
 1. You can commit your changes to source control and update your remote repository. For more information, see [Commit changes to source control](#commit-changes-to-source-control).
 
