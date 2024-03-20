@@ -148,7 +148,7 @@ To sign out of all accounts:
 1. Select the icon with your profile name in the upper-right corner of your Visual Studio environment.
 1. Select **Sign out**
  
-   :::image type="content" source="media/vs-2019/signing-in-to-visual-studio/sign-out-all-accounts.png" alt-text="Screenshot of signing out of all accounts.":::
+   :::image type="content" source="media/vs-2022/signing-in-to-visual-studio/sign-out-all-accounts.png" alt-text="Screenshot of signing out of all accounts.":::
 
 You can also use the **Account Settings** dialog to sign out of all accounts.
 
