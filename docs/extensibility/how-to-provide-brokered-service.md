@@ -289,7 +289,7 @@ internal class Calculator : ICalculator
 {
     private readonly State state;
 
-    internal class Calculator(State state)
+    internal Calculator(State state)
     {
         this.state = state;
     }
