@@ -3,14 +3,14 @@ title: Contact a subscription admin in Subscriber Portal
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 03/06/2024
+ms.date: 03/19/2024
 ms.topic: how-to
-description: Contact your Visual Studio subscription administrators in the Subscriber Portal for assistance with questions or issues. 
+description: Contact your Visual Studio subscription admins in the Subscriber Portal for assistance with questions or issues. 
 ---
 
 # Get assistance from your subscriptions admin
 
-If your Visual Studio subscription is provided to you by your work or school, chances are it was assigned to you by a subscriptions administrator, or "admin." Admins can assist with:
+If your Visual Studio subscription is provided to you by your work or school, chances are it was assigned to you by a subscriptions admin, or "admin." Admins can assist with:
 + Assigning a subscription that meets your needs or removing one you no longer need
 + Changing the email address you use to sign in
 + Enabling access to software downloads
