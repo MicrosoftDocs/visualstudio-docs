@@ -26,6 +26,8 @@ You can use the method described in this article to create ASP.NET Core Single P
 > [!NOTE]
 > This article describes the project creation process using the updated template in Visual Studio 2022 version 17.8, which uses the Vite CLI.
 
+For instructions using Docker with React and ASP.NET Core, see [Use Docker with a React Single-page App in Visual Studio](../containers/container-tools-react.md).
+
 ## Prerequisites
 
 - Visual Studio 2022 version 17.8 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
