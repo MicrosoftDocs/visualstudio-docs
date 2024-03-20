@@ -2,7 +2,7 @@
 title: "Debugging web apps -  errors and troubleshooting"
 description: Find links to reference pages to help debug web applications, such as a troubleshooting page and pages that describe each error that you may encounter.
 ms.date: "07/21/2023"
-ms.topic: "reference"
+ms.topic: "error-reference"
 dev_langs:
   - "CSharp"
   - "VB"

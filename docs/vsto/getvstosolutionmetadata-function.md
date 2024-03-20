@@ -3,6 +3,8 @@ title: "GetVstoSolutionMetadata function"
 description: Learn how the GetVstoSolutionMetadata API supports the Office infrastructure and isn't intended to be used directly from your code.
 ms.date: "02/02/2017"
 ms.topic: "reference"
+f1_keywords:
+  - GetVstoSolutionMetadata
 dev_langs:
   - "VB"
   - "CSharp"

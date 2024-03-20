@@ -2,7 +2,7 @@
 title: "Debugger Project Settings"
 description: There are various project settings that affect debugging. Follow the links in this article to learn how to use the Property Pages dialog box to change settings. 
 ms.date: "11/04/2016"
-ms.topic: "reference"
+ms.topic: "ui-reference"
 dev_langs:
   - "CSharp"
   - "VB"
