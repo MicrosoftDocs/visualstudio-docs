@@ -193,6 +193,7 @@ You can also use the **Account Settings** dialog to remove an account.
 1. **All Accounts** lists all accounts signed into Visual Studio. Select **Remove** for the account you want to remove.
 1. Confirm the removal on the dialog that appears.
 
+   :::image type="content" source="media/vs-2022/signing-in-to-visual-studio/remove-an-account-account-settings.png" alt-text="Screenshot of removing an account in Account Settings.":::
 ::: moniker-end
 
 ## Troubleshooting sign in issues
