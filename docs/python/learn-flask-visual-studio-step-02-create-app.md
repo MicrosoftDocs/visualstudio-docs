@@ -164,7 +164,7 @@ After you refactor the code and test the updates, you can review and commit your
 
    :::image type="content" source="media/flask/vs-2022/step-02-commit-all-refactor-changes.png" alt-text="Screenshot that shows how to edit the commit message and commit all changes for the refactored code in the Git Changes window." border="false" lightbox="media/flask/vs-2022/step-02-commit-all-refactor-changes.png"::: 
 
-   When the commit completes, Visual Studio displays the message **Commit \<hash> created locally.
+   When the commit completes, Visual Studio displays the message **Commit \<hash> created locally**.
 
 1. (Optional) Push the committed changes to your remote repository:
 

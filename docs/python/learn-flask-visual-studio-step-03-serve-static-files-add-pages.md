@@ -16,7 +16,7 @@ ms.subservice: python
 
 This article presents Step 3 in the tutorial series _Work with the Flask web framework in Visual Studio_.
 
-The previous Steps in this tutorial series, you create a minimal Flask app with a single page of self-contained HTML. Modern web apps are typically composed of many pages, and use shared resources like CSS and JavaScript files to provide consistent styling and behavior. In Step 6, you work with Visual Studio item templates to add content to your Flask project and expand the capabilities of the application.
+The previous Steps in this tutorial series create a minimal Flask app with a single page of self-contained HTML. Modern web apps are typically composed of many pages, and use shared resources like CSS and JavaScript files to provide consistent styling and behavior. In Step 6, you work with Visual Studio item templates to add content to your Flask project and expand the capabilities of the application.
 
 In Step 3 of the tutorial, you learn how to:
 
@@ -81,7 +81,7 @@ Follow these steps to use a static file in a template:
 
 1. Replace the contents of the _site.css_ file with the following code:
 
-   ```css
+   ```cshtml
    .message {
        font-weight: 600;
        color: blue;
@@ -227,7 +227,7 @@ The following steps demonstrate template inheritance:
 
 1. In **Solution Explorer**, right-click the _HelloFlask/templates_ folder, and create a new file from the **HTML Page** template with the name _layout.html_.
 
-1. Replace the contents of the _layout_.html_ file with the following HTML markup:
+1. Replace the contents of the _layout.html_ file with the following HTML markup:
 
    ```html
    <!DOCTYPE html>
@@ -261,7 +261,7 @@ The following steps demonstrate template inheritance:
 
 1. In the _HelloFlask/static/site.css_ file, add the following styles to the end of the file:
 
-   ```css
+   ```cshtml
    .navbar {
       background-color: lightslategray;
       font-size: 1em;
@@ -334,5 +334,5 @@ In this tutorial, you learned how to:
 ## Related content
 
 - [Jinja Template Designer Documentation](http://jinja.palletsprojects.com/en/2.10.x/templates/) (jinja.pocoo.org)
-- [url_for](https://flask.palletsprojects.com/#api-reference) in the Flask Application object documentation (flask.pocoo.org)
+- [url_for](https://flask.palletsprojects.com/en/3.0.x/api/#flask.url_for) in the Flask Application object documentation (flask.pocoo.org)
 - [Tutorial source code on GitHub (Microsoft/python-sample-vs-learning-flask)](https://github.com/Microsoft/python-sample-vs-learning-flask)
