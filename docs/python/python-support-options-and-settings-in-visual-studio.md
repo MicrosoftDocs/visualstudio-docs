@@ -1,7 +1,7 @@
 ---
 title: Options for Python code and projects (feature description)
 description: Explore options in Visual Studio for Python code and projects, including feature descriptions of environment preferences, debugging, diagnostics, and advanced settings.
-ms.date: 03/19/2024
+ms.date: 03/20/2024
 ms.topic: concept-article
 f1_keywords:
   - "VS.ToolsOptionsPages.Python_Tools"
@@ -186,19 +186,9 @@ The following options are available under **Tools** > **Options** > **Python**> 
 
 ## Text editor options for Python
 
-Under **Text Editor** > **Python**, there are options for scroll bars, tabs, and formatting, along with general and advanced settings.
-
-<!-- TBD: Document all Text Editor options? Current topic only describes "Advanced" tab, but in VS 2022 that tab is very minimal. -->
-
-::: moniker range=">=vs-2022"
+Under **Text Editor** > **Python**, there are options for scroll bars, tabs, and formatting, along with general and advanced settings:
 
 :::image type="content" source="media/vs-2022/options-text-editor-python-all-tabs-general.png" alt-text="Screenshot that shows the categories of text editor options for Python and specific general options in Visual Studio 2022." lightbox="media/vs-2022/options-text-editor-python-all-tabs-general.png":::
-
-::: moniker-end
-
-<!-- TBD: Add picture for VS 2019 ? -->
-
-::: moniker range=">=vs-2022"
 
 ### General Python editor options
 
@@ -209,18 +199,16 @@ The following options are available under **Tools** > **Options** > **Text Edito
 | **Auto list members** | On | Set this option to automatically list members for completion of code statements. | 
 | **Hide advanced members** | On | When the **Auto list members** option is enabled, set this option to hide advanced members from the completion suggestions. Advanced members are members that are used less frequently than others. | 
 | **Parameter information** | On | When set, hovering over parameters shows detailed information, such as the item definition and links to documentation. | 
-| **Enable virtual space** | On | When set, Visual Studio allows the use of a virtual space. <!-- TBD: Add description --> | 
-| **Word wrap** | Off | When set, allow long lines of code to wrap based on the editors viewport width. | 
+| **Enable virtual space** | On | When set, inserts spaces at the end of each line of code. Select this option to position comments at a consistent point next to your code. The **Virtual Space** mode is enabled in **Column Selection** mode. When **Virtual Space** mode isn't enabled, the insertion point moves from the end of one line directly to the first character of the next line. <br> **Note**: This option is influenced by the **Text Editor** > **All Languages** > **General** > **Enable virtual space** global setting. If the global setting isn't enabled, this option can't be enabled at the language level. | 
+| **Word wrap** | Off | Set this option to allow long lines of code to wrap based on the editors viewport width. | 
 | **Show visual glyphs for word wrap** | Off | When the **Word wrap** option is enabled, set this option to show visual glyphs. | 
-| **Line numbers** | Off | When set, show line numbers in the left margin of the editor for each line of code. | 
+| **Line numbers** | Off | Set this option to show line numbers in the left margin of the editor for each line of code. | 
 | **Enable single-click URL navigation** | On | When set, you can single-click a URL to browse to the target location. | 
-| **Navigation bar** | Off | When set, Visual Studio displays a navigation bar. <!-- TBD: Add more detail --> | 
+| **Navigation bar** | Off | Set this option to enable the dropdown boxes at the top of the code window. These fields help you navigate to code in a codebase where you can choose a type or member to go directly to. <br> **Note**: This option is influenced by the **Text Editor** > **All Languages** > **General** > **Enable navigation bar** global setting. For more information, see [Navigate code> Navigation bar](../ide/navigating-code.md#navigate-code). | 
 | **Automatic brace completion** | On | When set, Visual Studio automatically adds the closing brace for any open brace as you enter code. | 
 | **Apply Cut or Copy to blank lines when there is no selection** | On | By default, Visual Studio cuts or copies the entire line of code when there's no explicit selection. Use this option to enable or disable this Cut or Copy behavior when invoked on blank lines. | 
 
-::: moniker-end
-
-<!-- TBD: Add detailed table for General options in VS 2019 ? -->
+For more information, see [Options dialog box: Text Editor > General](../ide/reference/options-text-editor-general.md).
 
 ### Advanced Python editor options
 
