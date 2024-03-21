@@ -2,7 +2,7 @@
 title: "Remote Debugging Errors and Troubleshooting"
 description: View links to common remote debugging errors in Visual Studio. Learn how to run the remote debugger as an administrator.
 ms.date: "11/04/2016"
-ms.topic: "reference"
+ms.topic: "error-reference"
 dev_langs:
   - "CSharp"
   - "VB"

@@ -19,15 +19,15 @@ The following requirements apply to the experimental version of remote testing:
 
 * You must be running Visual Studio 2022 Update 17.0 Preview 3 or later.
 
-* Currently, the feature supports .NET tests only.
+* Currently, the feature supports .NET and .NET Framework tests only.
 
    * If you're interested in remote testing support for other languages, you can [file a suggestion](../ide/suggest-a-feature.md) or **upvote** an existing suggestion. [Supporting C++ remote testing](https://developercommunity.visualstudio.com/t/run-c-unit-tests-on-linux-with-visual-studio/1403357).
 
-* Currently, the feature supports Windows, Ubuntu, and Debian images on the remote environment. 
+* Currently, the feature supports Windows, Ubuntu, and Debian images on the remote environment. For .NET Framework, only remote Windows environments are supported.
 
 * Currently, the bulk of the provisioning of the environment is left to the user's specification.
 
-   The user must install the necessary dependencies in the target environment. For example, if your tests target .NET 6.0, you need to make sure the container has .NET 6.0 installed via your Dockerfile. There might be a prompt to install .NET Core on the remote environment, which is needed to run and discover tests remotely. 
+   The user must install the necessary dependencies in the target environment. For example, if your tests target .NET 6.0, you need to make sure the container has .NET 6.0 installed via your Dockerfile. There might be a prompt to install .NET Core on the remote environment, which is needed to run and discover tests remotely.
 
 * Plan to monitor your connection status to the remote environment by using the **Output** > **Tests** pane.
 
@@ -161,7 +161,7 @@ The environment can be specified in the *testEnvironments.json* file in the root
 
 Review the following prerequisites for a remote Windows environment.
 
-1. Ensure [Windows Projected File System](/windows/win32/projfs/enabling-windows-projected-file-system) is enabled. You can run the following code from an admin PowerShell window to enable it:
+1. Ensure [Windows Projected File System](/windows/win32/projfs/enabling-windows-projected-file-system) is enabled on the remote machine. You can run the following code from an admin PowerShell window to enable it:
 
    ```powershell
     Enable-WindowsOptionalFeature -Online -FeatureName Client-ProjFS -NoRestart
@@ -179,7 +179,7 @@ Review the following prerequisites for a remote Windows environment.
 
 1. Prepare the environment for debugging tests:
 
-   1. Install the [Remote tools SKU](/visualstudio/debugger/remote-debugging?view=vs-2022&preserve-view=true) on the remote environment. 
+   1. Install the [Remote tools SKU](/visualstudio/debugger/remote-debugging?view=vs-2022&preserve-view=true) on the remote environment.
 
    1. Start up the remote debugger as an admin and ensure the Visual Studio user has permissions to connect.
 

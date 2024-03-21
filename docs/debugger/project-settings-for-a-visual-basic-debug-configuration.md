@@ -2,7 +2,7 @@
 title: "Project Settings for a VB debug config"
 description: Learn how to change the project settings for a Visual Basic debug configuration in the Property Pages window of Visual Studio.
 ms.date: "11/04/2016"
-ms.topic: "reference"
+ms.topic: "ui-reference"
 f1_keywords:
   - "vbProjectPropertiesDebug"
 dev_langs:

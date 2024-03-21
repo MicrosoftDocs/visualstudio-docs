@@ -3,9 +3,9 @@ title: Admin responsibilities and roles in subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 11/02/2023
+ms.date: 03/19/2024
 ms.topic: conceptual
-description: Review task responsibilities and roles for Visual Studio subscription administrators, such as ensuring subscriptions are managed in accordance with license terms.
+description: Review task responsibilities and roles for Visual Studio subscription admins, such as ensuring subscriptions are managed in accordance with license terms.
 ---
 # Overview of admin responsibilities
 
@@ -21,7 +21,7 @@ A Visual Studio subscriptions admin has four key responsibilities:
 4. **Track user assignment changes and acquire additional licenses on schedule.** Microsoft Volume Licensing (VL) Agreements and MPSA give you flexibility in how you use and assign Visual Studio subscriptions. In return, you're expected to:
 + Manage changes to software usage
 + Manage changes to user assignments
-+ Process orders for more licenses on the schedule outlined in the agreement.  To help with this responsibility, there's a [Maximum Usage report](maximum-usage.md) you can run in the Visual Studio Subscription Administration Portal. 
++ Process orders for more licenses on the schedule outlined in the agreement.  To help with this responsibility, there's a [Maximum Usage report](maximum-usage.md) you can run in the Visual Studio Subscription Admin Portal. 
 
 ### Inventory of preproduction environment
 
@@ -30,7 +30,7 @@ Visual Studio subscriptions simplify asset management by counting users rather t
 Visual Studio admins must assign Visual Studio Subscriptions to **specific, named individuals**. Names that don't identify individual subscribers such as Dev1, Dev2, or the use of team names such as "FeatureTeam" are **not allowed**.
 
 Here are some ways to simplify taking inventory of your preproduction environment:
-+ Review your user assignments. Microsoft provides a website called the [Visual Studio Administration Portal](https://manage.visualstudio.com/) to help you manage and track Visual Studio subscription assignments.
++ Review your user assignments. Microsoft provides a website called the [Visual Studio Admin Portal](https://manage.visualstudio.com/) to help you manage and track Visual Studio subscription assignments.
 + Use your on-premises or cloud-based Microsoft Entra ID to list users. If you use Microsoft Entra ID to manage user access, you might be able to identify development and test users by their directory membership.
 + Use automated tools to inventory systems. You might also need to use a software inventory tool to help manage your software assets and distinguish preproduction environments from production ones. Many customers with Microsoft System Center create naming conventions to help automate this part of the inventory process.
 + Get help with manual reconciliation. Enlist your staff to help reconcile your dev/test users with your development and test environment.

@@ -2,7 +2,7 @@
 title: "String Visualizer (Text, XML, HTML, JSON)"
 description: View strings with the built-in String Visualizer dialog box while you are debugging in Visual Studio.
 ms.date: "10/10/2021"
-ms.topic: "reference"
+ms.topic: "ui-reference"
 f1_keywords:
   - "vs.debug.stringviewer"
 dev_langs:

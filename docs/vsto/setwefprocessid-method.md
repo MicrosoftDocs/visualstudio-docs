@@ -3,6 +3,8 @@ title: "SetWefProcessId method"
 description: Learn how the SetWefProcessId method provides the process identifier that will run Web Extensions Framework (WEF) content.
 ms.date: "02/02/2017"
 ms.topic: "reference"
+f1_keywords:
+  - SetWefProcessId
 dev_langs:
   - "VB"
   - "CSharp"

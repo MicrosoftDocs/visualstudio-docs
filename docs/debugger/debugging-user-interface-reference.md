@@ -2,7 +2,7 @@
 title: "Debugging User Interface Reference"
 description: Review links to reference information about the various dialog boxes you might encounter in the debugging user interface of Visual Studio.
 ms.date: "11/04/2016"
-ms.topic: "reference"
+ms.topic: "ui-reference"
 f1_keywords:
   - "vs.debug.uiref"
 dev_langs:

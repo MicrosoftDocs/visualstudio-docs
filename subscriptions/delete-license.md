@@ -4,9 +4,9 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: e49242bc-e9f2-49e8-8caa-f574d508aba6
-ms.date: 02/29/2024
+ms.date: 03/19/2024
 ms.topic: how-to
-description:  Learn how admins can delete subscription assignments in the Visual Studio Subscriptions Administration Portal.
+description:  Learn how admins can delete subscription assignments in the Visual Studio Subscriptions Admin Portal.
 ---
 
 # Delete assignments in Visual Studio subscriptions
@@ -16,7 +16,7 @@ When a subscriber no longer requires a Visual Studio subscription, you can remov
 > [!IMPORTANT]
 > Subscriptions can only be assigned to different users if a minimum of 90 days have passed since the subscription was last assigned. For example, if a subscription was assigned to a subscriber on June 1, it can't be assigned to a new subscriber until at least August 30. 
 
-Watch this video or read on to learn how to delete assignments.  
+Watch this video or read on to learn how to delete assignments. 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yG2q]
 
@@ -26,20 +26,20 @@ Watch this video or read on to learn how to delete assignments.
 2. To delete the selected subscriber(s), select **Delete**.
 3. When the message appears asking you to confirm the deletion, select **OK**.
    > [!div class="mx-imgBorder"]
-   > ![Delete subscribers](_img/delete-license/delete-subscribers.png "Screenshot of manage subscribers page in the admin portal.  The Delete menu option is highlighted.")
+   > ![Delete subscribers](_img/delete-license/delete-subscribers.png "Screenshot of manage subscribers page in the admin portal. The Delete menu option is highlighted.")
 
    > [!NOTE]
    > If you added subscription assignments through Microsoft Entra groups, it may take up to 24 hours for the deletion to be updated in the admin portal. For more information about using Microsoft Entra groups to manage subscriptions, see [this topic](assign-license-bulk.md#use-entra-id-groups-to-assign-subscriptions) in the **Add multiple users** article. 
 
 ## Delete larger numbers of subscriptions
 
-If you need to delete a large number of subscription assignments, you can use a "bulk edit" to accomplish it.  
+If you need to delete a large number of subscription assignments, you can use a "bulk edit" to accomplish it. 
 
   > [!IMPORTANT]
   > Before making large changes to your subscriber list, we recommend creating a backup of your current list. This can be done very easily by selecting the **Export** option. This will place an Excel copy of your current list in your downloads folder. 
 
   > [!IMPORTANT]
-  > Don't use this approach to manage cloud subscriptions. While you can download and complete the bulk edit template, you won't be able to upload the template with your changes.  
+  > Don't use this approach to manage cloud subscriptions. While you can download and complete the bulk edit template, you won't be able to upload the template with your changes. 
 
 1. Sign in to <https://manage.visualstudio.com> using an email address that is an 
 admin on the agreement used to purchase the subscriptions.
@@ -47,8 +47,8 @@ admin on the agreement used to purchase the subscriptions.
    > [!div class="mx-imgBorder"]
    > ![Select Bulk edit](_img/delete-license/bulk-edit-select.png "Screenshot of manage subscribers page in the admin portal. The Bulk edit menu option is highlighted.")
 
-0. The **Edit Multiple Subscribers** dialog appears.  
-0. Select the **Export this excel** link in step 1.  
+0. The **Edit Multiple Subscribers** dialog appears. 
+0. Select the **Export this excel** link in step 1. 
    > [!div class="mx-imgBorder"]
    > ![Select Export this excel](_img/delete-license/export-this-excel-select.png "Screenshot of Edit multiple subscribers dialog. The Export this excel link in the first step is highlighted.")
    
@@ -72,9 +72,9 @@ admin on the agreement used to purchase the subscriptions.
    > [!div class="mx-imgBorder"]
    > ![Duplicates highlighted](_img/delete-license/duplicates-highlighted.png "Screenshot of bulk edit template showing the columns for all users and the users to be deleted selected. The user names to be deleted are highlighted.")
 
-0. Select a cell in the spreadsheet to deselect the two columns.  
+0. Select a cell in the spreadsheet to deselect the two columns. 
 0. On the **Data** tab, choose **Filter**.
-0. Select the filter drop-down in column "B", choose **Sort by color**, and select the color that was applied to the duplicate cells. You should now see only the users you want to delete.  
+0. Select the filter drop-down in column "B", choose **Sort by color**, and select the color that was applied to the duplicate cells. You should now see only the users you want to delete. 
 0. In the **Reference** column for each user, enter a word or phrase that you can use to filter on to find only the users you want to delete. Use the same term for all of the users. In our example, we use "DELETE USER." You can use the "fill down" feature in Excel to replicate the phrase for all of the users. Your template show now look like this:
    > [!div class="mx-imgBorder"]
    > ![Filtered User List](_img/delete-license/reference-added.png "Screenshot of template showing the columns filtered by color. The phrase Delete User has been added to the reference field for each user.")
@@ -89,7 +89,7 @@ admin on the agreement used to purchase the subscriptions.
 
 0. In the **Filter by name, email or reference** field, enter the word or phrase you used to mark the users to be deleted. The filter is applied even if the **Reference** column isn't displayed.
 0. You should now see only the users you need to delete. You can select one user, then use CTRL+A to select them all, and choose **Delete**.
-0. Clear the filter field to display your updated subscriber list.  
+0. Clear the filter field to display your updated subscriber list. 
 
 ## Resources
 

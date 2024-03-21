@@ -2,7 +2,7 @@
 title: "Property settings for Web projects"
 description: Know how to change the property settings for a web site debug configuration in the Property Pages dialog box of Visual Studio.
 ms.date: "01/14/2022"
-ms.topic: "reference"
+ms.topic: "ui-reference"
 dev_langs:
   - "CSharp"
   - "VB"

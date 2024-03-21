@@ -7,6 +7,8 @@ ms.topic: reference
 dev_langs:
   - "VB"
   - "CSharp"
+f1_keywords:
+  - urn:schemas-microsoft-com:vsta.v3#addIn
 helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <addIn> element"
   - "addin element"

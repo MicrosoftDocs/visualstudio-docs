@@ -6,6 +6,8 @@ ms.topic: "reference"
 dev_langs:
   - "VB"
   - "CSharp"
+f1_keywords:
+  - IManagedAddIn::Load
 helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart

@@ -14,6 +14,7 @@ ms.author: mikejo
 manager: mijacobs
 ms.subservice: code-analysis
 ---
+
 # Automatic feature suspension
 
 If your available system memory falls to 200 MB or less, Visual Studio displays the following message in the code editor:
@@ -38,13 +39,13 @@ For tips and tricks on how to improve Visual Studio performance when dealing wit
 
 ## Live code analysis is reduced to minimal scope
 
-By default, live code analysis executes for open documents and projects. You can customize this analysis scope to be reduced to current document or increased to entire solution. For more information, see [How to: Configure live code analysis scope for managed code](./configure-live-code-analysis-scope-managed-code.md). In a low memory condition, Visual Studio forces the live analysis scope to be reduced to current document. However, you can re-enable your preferred analysis scope by choosing the **Re-enable** button in the info bar when it appears or by restarting Visual Studio. The Options dialog box always shows the current live code analysis scope settings.
+By default, live code analysis executes for open documents and projects. You can customize this analysis scope to be reduced to current document or increased to entire solution. For more information, see [How to: Configure live code analysis scope for managed code](./configure-live-code-analysis-scope-managed-code.md). In a low memory condition, Visual Studio forces the live analysis scope to be reduced to current document. However, you can reenable your preferred analysis scope by choosing the **Re-enable** button in the info bar when it appears or by restarting Visual Studio. The Options dialog box always shows the current live code analysis scope settings.
 
 ::: moniker-end
 
 ## GC low-latency disabled
 
-To re-enable GC low-latency mode, restart Visual Studio. By default, Visual Studio enables GC  low-latency mode whenever you are typing to ensure that your typing doesn't block any GC operations. However, if a low memory condition causes Visual Studio to display the automatic suspension warning, GC low-latency mode is disabled for that session. Restarting Visual Studio re-enables the default GC behavior. For more information, see <xref:System.Runtime.GCLatencyMode>.
+To reenable GC low-latency mode, restart Visual Studio. By default, Visual Studio enables GC low-latency mode whenever you are typing to ensure that your typing doesn't block any GC operations. However, if a low memory condition causes Visual Studio to display the automatic suspension warning, GC low-latency mode is disabled for that session. Restarting Visual Studio reenables the default GC behavior. For more information, see <xref:System.Runtime.GCLatencyMode>.
 
 ## Visual Studio caches flushed
 
