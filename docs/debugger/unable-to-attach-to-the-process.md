@@ -2,7 +2,7 @@
 title: "Unable to Attach to the Process"
 description: Learn the meaning of "Unable to Attach to the Process", the two scenarios that cause it, and the solutions. 
 ms.date: "02/12/2024"
-ms.topic: "reference"
+ms.topic: "troubleshooting"
 f1_keywords:
   - "vs.debug.remote.unable2attach"
 dev_langs:

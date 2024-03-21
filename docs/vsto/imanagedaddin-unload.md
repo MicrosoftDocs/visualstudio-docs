@@ -6,6 +6,10 @@ ms.topic: "reference"
 dev_langs:
   - "VB"
   - "CSharp"
+f1_keywords:
+  - "IMANAGEDADDIN/IManagedAddIn::Unload"
+  - "IManagedAddin::Unload"
+  - "IManagedAddin.Unload"
 helpviewer_keywords:
   - "Unload method"
 author: John-Hart

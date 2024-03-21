@@ -3,9 +3,9 @@ title: What happens when your subscription is removed?
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 03/06/2024
+ms.date: 03/19/2024
 ms.topic: troubleshooting
-description: Understand what happens when an administrator removes a Visual Studio subscription, including changes to benefits and available resources.
+description: Understand what happens when an admin removes a Visual Studio subscription, including changes to benefits and available resources.
 ---
 
 # What happens when an admin removes my subscription?

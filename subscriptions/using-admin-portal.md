@@ -1,14 +1,14 @@
 ---
-title: Get started in the Administrator Portal
+title: Get started in the Admin Portal
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 03/06/2024
+ms.date: 03/19/2024
 ms.topic: overview
 description: Manage an organization's Visual Studio subscriptions with the Subscriptions Admin Portal, access subscriber information and agreement details, and get notifications.
 ---
 
-# Overview of the Visual Studio Subscriptions Administrator Portal
+# Overview of the Visual Studio Subscriptions Admin Portal
 
 The Visual Studio Subscriptions Admin Portal gives you the tools to manage your organization's subscriptions in one place. 
 
@@ -30,18 +30,18 @@ Keep these points in mind when you use the Visual Studio Subscriptions Admin Por
 ## The Subscribers page
 
 After you assign subscriptions, the Manage subscribers tab provides detailed information about your subscribers, including:
-+ The first and family name of each subscriber
-+ The email address for this user
-+ The subscription level assigned to them
-+ The date that their subscription was assigned
-+ The expiration date for their subscription
-+ A reference field for notes
++ First and family name of each subscriber
++ Email address for this user
++ Subscription level assigned to them
++ Date that their subscription was assigned
++ Expiration date for their subscription
++ Reference field for notes
 + Whether subscriber downloads are enabled or disabled
-+ The country/region in which they're located
-+ Their language preference for the assignment communication email from the admin portal
++ Country or region in which they're located
++ Preferred language for the assignment communication email from the admin portal
 + An optional field for a different email address used for communications than sign-in
 
-On the top left side of the page, there are several icons you can select to reveal a subscription assignment overview, the agreement details and the maximum usage report.
+On the top left side of the page, there are several icons you can select to reveal a subscription assignment overview, the agreement details, and the maximum usage report.
 
 To see additional information about the number of subscription licenses purchased, assigned, and still available in your organization for each agreement, select the top icon to enable the slide-out panel.
 > [!div class="mx-imgBorder"]
@@ -57,9 +57,9 @@ For more information about the agreement you're viewing, select the second icon 
 
 To view notifications related to portal announcements, newsletters, and more, select the bell icon on the upper right-hand corner. 
 
-Hover over a notification to dismiss an individual notification or select **Dismiss all** to clear the notification center. Some critical notifications might appear at the top of the center and won't be dismissible. 
+Hover over a notification to dismiss an individual notification or select **Dismiss all** to clear the notification center. Some critical notifications might appear at the top of the center and aren't dismissible. 
 
-Navigate to the **Settings** wheel to set your preferences on the notifications you're interested in receiving. This is only reflected in the portal, and not in email notifications. 
+Navigate to the **Settings** wheel to set your preferences on the notifications you're interested in receiving. This option is only reflected in the portal, and not in email notifications. 
 
 ## Resources
 

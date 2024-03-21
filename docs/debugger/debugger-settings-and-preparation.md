@@ -2,7 +2,7 @@
 title: "Debugger Settings and Preparation"
 description: This section tells you how to prepare to use Visual Studio debugger, and describes relevant properties. Follow the links to the information you need.
 ms.date: "08/01/2018"
-ms.topic: "reference"
+ms.topic: "ui-reference"
 f1_keywords:
   - "vs.debug"
 dev_langs:

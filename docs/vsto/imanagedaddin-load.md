@@ -6,6 +6,10 @@ ms.topic: "reference"
 dev_langs:
   - "VB"
   - "CSharp"
+f1_keywords:
+  - "IMANAGEDADDIN/IManagedAddIn::Load"
+  - "IManagedAddIn::Load"
+  - "IManagedAddIn.Load"
 helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart

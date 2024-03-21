@@ -3,7 +3,7 @@ title: "Unable to Connect to the Microsoft Visual Studio Remote Debugging Monito
 description: Learn the meaning of "Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor", the possible causes, and the solutions. 
 titleSuffix: ""
 ms.date: "06/02/2022"
-ms.topic: "reference"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.remote_debug"
   - "vs.debug.error.firewall.remotemachine"

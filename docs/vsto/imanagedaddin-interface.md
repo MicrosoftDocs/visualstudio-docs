@@ -6,6 +6,9 @@ ms.topic: "reference"
 dev_langs:
   - "VB"
   - "CSharp"
+f1_keywords:
+  - "IMANAGEDADDIN/IManagedAddIn"
+  - "IManagedAddIn"
 helpviewer_keywords:
   - "IManagedAddin interface"
 author: John-Hart
