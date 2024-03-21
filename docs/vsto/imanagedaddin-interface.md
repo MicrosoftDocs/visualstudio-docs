@@ -7,7 +7,8 @@ dev_langs:
   - "VB"
   - "CSharp"
 f1_keywords:
-  - IManagedAddIn
+  - "IMANAGEDADDIN/IManagedAddIn"
+  - "IManagedAddIn"
 helpviewer_keywords:
   - "IManagedAddin interface"
 author: John-Hart
