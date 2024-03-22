@@ -123,8 +123,10 @@ Follow this procedure to create the solution and a Flask web project:
 
 In the next procedure, you familiarize yourself with Visual Studio support for Git source control.
 
-> [!NOTE]
-> Starting in Visual Studio 2022 version <!-- TBD: Identify version number -->, tools and commands for Git source control are no longer on the **Team Explorer**. You can find these tools and features on the **Git** menu on the main toolbar, and the **Git changes** and **Git repository** windows.
+> [!IMPORTANT]
+> With the release of Visual Studio 2019 [**version 16.8**](/visualstudio/releases/2019/release-notes-history), the Git version control experience is on by default. If you'd like to learn more about how it compares with Team Explorer, see the [**Side-by-side comparison of Git and Team Explorer**](../version-control/git-team-explorer-feature-comparison.md) page.
+>
+> However, if you prefer to continue to use Team Explorer in Visual Studio 2019, go to **Tools** > **Options** > **Environment** > **Preview Features** and then toggle the **New Git user experience** checkbox. (This option is not available in Visual Studio 2022 and later.) For more information, see [Connect to projects in Team Explorer](/visualstudio/ide/connect-team-project).
 
 1. To commit the project to your local source control, select **Add to Source Control** at the bottom right in the Visual Studio main window and then select **Git**:
 
