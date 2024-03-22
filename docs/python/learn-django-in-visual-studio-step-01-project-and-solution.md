@@ -1,99 +1,179 @@
 ---
-title: Learn Django tutorial in Visual Studio, step 1, Django basics
+title: Django in Visual Studio tutorial step 1, Django basics
 titleSuffix: ""
-description: A walkthrough of Django basics in the context of Visual Studio projects, demonstrating the support Visual Studio provides for Django development.
-ms.date: 09/08/2023
+description: Overview and Step 1 of a core walkthrough of Django capabilities in Visual Studio, including prerequisites, Git, virtual environments, and creating a new Django web project.
+ms.date: 03/25/2024
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
 manager: mijacobs
 ms.subservice: python
+
+# CustomerIntent: As a developer, I want to create Django web applications in Visual Studio so I can support my Django development needs.
 ---
 
-# Tutorial: Get started with the Django web framework in Visual Studio
+# Tutorial: Work with the Django web framework in Visual Studio
 
-[Django](https://www.djangoproject.com/) is a high-level Python framework designed for rapid, secure, and scalable web development. This tutorial explores the Django framework in the context of the project templates. Visual Studio provides the project templates to streamline the creation of Django-based web apps.
+This article is the first Step in a five part tutorial series that demonstrates how to work with Django in Visual Studio. [Django](https://www.djangoproject.com/) is a high-level Python framework designed for rapid, secure, and scalable web development. Visual Studio provides project templates that you can use to streamline the creation of Django-based web applications. This tutorial series explores the Django framework in the context of the Visual Studio project templates. 
 
-In this tutorial, you learn how to:
+In Step 1 of the tutorial, you learn how to:
 
-- Create a basic Django project in a Git repository using the "Blank Django Web Project" template (step 1).
-- Create a Django app with one page and render that page using a template (step 2).
-- Serve static files, add pages, and use template inheritance (step 3).
-- Use the Django Web Project template to create an app with multiple pages and responsive design (step 4).
-- Authenticate users (step 5).
+> [!div class="checklist"]
+> - Create a Django web app by using the **Blank Django Web Project** template
+> - Examine the boilerplate code and run the app
+> - Create a Git repository for the Django web app
+> - Work with Git source code controls
+> - Create a virtual environment for the Django web app
 
 ## Prerequisites
 
-::: moniker range="<=vs-2019"
-
-- Visual Studio 2017 or later on Windows with the following options:
-  - The **Python development** workload (**Workload** tab in the installer). For instructions, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
-  - **Git for Windows** and **GitHub Extension for Visual Studio** on the **Individual components** tab under **Code tools**.
-    ::: moniker-end
-
 ::: moniker range="vs-2022"
 
-- Visual Studio 2022 on Windows with the following options:
-  - The **Python development** workload (**Workload** tab in the installer). For more instructions, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
-  - **Git for Windows** on the **Individual components** tab under **Code tools**.
-    ::: moniker-end
+- Visual Studio 2022 on Windows with the following options selected in the Visual Studio Installer:
 
-Django project templates also include earlier versions of Python Tools for Visual Studio. The template details might differ from what's discussed in this tutorial (especially different with earlier versions of the Django framework).
+   - On the **Workloads** tab, select the **Python development** option. For more information, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
 
-Python development isn't presently supported in Visual Studio for Mac. On Mac and Linux, use the [Python extension in Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial).
+   - On the **Individual components** tab under **Code tools**, select the **Git for Windows** option.
 
-### "Visual Studio projects" and "Django projects"
-
-In Django terminology, a "Django project" has several site-level configuration files along with one or more "apps." To create a full web application, you can deploy these apps to a web host. A Django project can contain multiple apps, and the same app can be in multiple Django projects.
-
-A Visual Studio project can contain the Django project along with multiple apps. Whenever this tutorial refers to just a "project," it's referring to the Visual Studio project. When it refers to the "Django project" portion of the web application, it's referring to a "Django project" specifically.
-
-Over the course of this tutorial, you'll create a single Visual Studio solution that contains three separate Django projects. Each project contains a single Django app. You can easily switch between different files for comparison, by keeping the projects in the same solution.
-
-## Step 1-1: Create a Visual Studio project and solution
-
-When working with Django from the command line, you usually start a project by running the `django-admin startproject <project_name>` command. In Visual Studio, the "Blank Django Web Project" template provides the same structure within a Visual Studio project and solution.
-
+::: moniker-end
 ::: moniker range="<=vs-2019"
 
-1. In Visual Studio, select **File** > **New** > **Project**, search for "Django", and select the **Blank Django Web Project** template. (You can also find the template under **Python** > **Web** in the left-hand list.)
+- Visual Studio 2017 or later on Windows with the following options selected in the Visual Studio Installer:
 
-   ![New project dialog in Visual Studio for the Blank Django Web Project](media/django/step01-new-blank-project.png)
+   - On the **Workloads** tab, select the **Python development** option. For more information, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
 
-1. In the fields at the bottom of the dialog, enter the following information (as shown in the previous graphic), then select **OK**:
-
-   - **Name**: set the name of the Visual Studio project to **BasicProject**. This name is also used for the Django project.
-   - **Location**: specify a location in which to create the Visual Studio solution and project.
-   - **Solution**: leave this control set to default **Create new solution** option.
-   - **Solution name**: set to **LearningDjango**, which is appropriate for the solution as a container for multiple projects in this tutorial.
-   - **Create directory for solution**: Leave set (the default).
-   - **Create new Git repository**: Select this option (which is clear by default) so that Visual Studio creates a local Git repository when it creates the solution. If you don't see this option, run the Visual Studio installer and add the **Git for Windows** and **GitHub Extension for Visual Studio** on the **Individual components** tab under **Code tools**.
-
-1. After a moment, Visual Studio prompts you with a dialog saying **This project requires external packages** (shown below). This dialog appears because the template includes a _requirements.txt_ file referencing the latest Django 1.x package. (Select **Show required packages** to see the exact dependencies.)
-
-   ![Prompt saying that the project requires external packages](media/django/step01-requirements-prompt-install-myself.png)
-
-1. Select the option **I will install them myself**. You create the virtual environment shortly to make sure it's excluded from source control. (You can always create the environment from _requirements.txt_.)
-   ::: moniker-end
-
-::: moniker range="vs-2022"
-
-1. In Visual Studio, select **File** > **New** > **Project**, search for "Django", and select the **Blank Django Web Project** template, then select **Next**.
-
-   :::image type="content" source="media/django/step-01-create-new-project-screen-1-vs-2022.png" alt-text="New project dialog in Visual Studio for the Blank Django Web Project.":::
-
-1. Enter the following information and then select **Create**:
-
-   - **Project Name**: Set the name of the Visual Studio project to **BasicProject**. This name is also used for the Django project.
-   - **Location**: Specify a location in which to create the Visual Studio solution and project.
-   - **Solution**: Leave this control set to default **Create new solution** option.
-   - **Solution name**: Set to **LearningDjango**, which is appropriate for the solution as a container for multiple projects in this tutorial.
+   - On the **Individual components** tab under **Code tools**, select the **Git for Windows** and **GitHub Extension for Visual Studio** options.
 
 ::: moniker-end
 
-## Step 1-2: Examine the Git controls and publish to a remote repository
+Django project templates in Visual Studio are included with all earlier versions of Python Tools for Visual Studio. The template details might differ from the descriptions in this tutorial, especially for earlier versions of the Django web framework.
+
+Python development isn't currently supported in Visual Studio for Mac. On Mac and Linux, use the [Python extension in Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial) tutorial.
+
+### Visual Studio projects and Django projects
+
+In Django terminology, a _Django project_ has several site-level configuration files along with one or more "apps." To create a full web application, you can deploy these apps to a web host. A Django project can contain multiple apps, and the same app can be in multiple Django projects.
+
+A Visual Studio project can contain the Django project along with multiple apps. In this tutorial series, the term "project" refers to the Visual Studio project. When the content refers to the "Django project" portion of the web application, it's referring to a "Django project" specifically.
+
+## Create a Visual Studio project and solution
+
+In Step 1 of this tutorial, you create a single Visual Studio solution to contain three separate Django projects. Each project contains a single Django app. You create the projects by using different Django project templates included with Visual Studio. By keeping the projects in the same solution, you can easily switch back and forth between different files for comparison.
+
+When you work with Django from the command line, you usually start a project by running the `django-admin startproject <project_name>` command. In Visual Studio, the **Blank Django Web Project** template provides the same structure within a Visual Studio project and solution.
+
+Follow this procedure to create the solution and first project:
+
+::: moniker range="vs-2022"
+
+1. In Visual Studio, select **File** > **New** > **Project** and search for "Django." Then, select the **Blank Django Web Project** template and select **Next**.
+
+   :::image type="content" source="media/django/vs-2022/step-01-new-blank-project.png" alt-text="Screenshot that shows how to select the Blank Django Web Project template in Visual Studio 2022." border="false" lightbox="media/django/vs-2022/step-01-new-blank-project.png"::: 
+
+1. Configure your new project and solution:
+
+   1. Set the **Name** of the Visual Studio project to **BasicProject**. This name is also used for the Flask project.
+   
+   1. Specify the **Location** for Visual Studio to save the solution and project.
+
+   1. Clear the **Place solution and project in the same directory** option.
+
+   1. Set the **Solution name** to **LearningDjango**. The solution serves as the container for multiple projects in this tutorial series.
+
+1. Select **Create**.
+
+1. After a moment, Visual Studio displays the prompt **Python package specification file "requirements.txt" was detected in project "BasicProject".**:
+
+   :::image type="content" source="media/flask/vs-2022/step-01-requirements-prompt.png" alt-text="Screenshot of the prompt that indicates a requirements file for the project is detected in Visual Studio." border="false" lightbox="media/flask/vs-2022/step-01-requirements-prompt.png":::
+
+   The dialog indicates that the selected template includes a _requirements.txt_ file that you can use to create a virtual environment for the project.
+
+1. Select the **X** at the right to close the prompt. Later in this tutorial, you create the virtual environment and ensure source control excludes the environment. (The environment can always be created later from the _requirements.txt_ file.)
+
+::: moniker-end
+::: moniker range="<=vs-2019"
+
+1. In Visual Studio, select **File** > **New** > **Project** and search for "Django." Then, select the **Blank Django Web Project** template. (The template is also found in the dialog under **Python** > **Web** in the list on the left.)
+
+   :::image type="content" source="media/django/step01-new-blank-project.png" alt-text="Screenshot that shows how to select the Blank Django Web Project template in Visual Studio 2019." border="false" lightbox="media/django/step01-new-blank-project.png":::
+
+1. At the bottom of the dialog, configure your new project and solution:
+
+   1. Set the **Name** of the Visual Studio project to **BasicProject**. This name is also used for the Flask project.
+   
+   1. Specify the **Location** for Visual Studio to save the solution and project.
+
+   1. Set the **Solution name** to **LearningDjango**. The solution serves as the container for multiple projects in this tutorial series.
+
+   1. Select the **Create directory for solution** option (default).
+
+   1. Select the **Create new Git repository** option. Visual Studio creates a local Git repository when it creates the solution.
+   
+      If you don't see this option, run the Visual Studio Installer. On the **Individual components** tab under **Code tools**, add the **Git for Windows** and **GitHub Extension for Visual Studio** options.
+
+1. Select **OK**.
+
+1. After a moment, Visual Studio displays the prompt **This project requires external packages**:
+
+   :::image type="content" source="media/tutorials-common/step01-requirements-prompt-install-myself.png" alt-text="Screenshot of the prompt that indicates the project requires external Django packages in Visual Studio." border="false" lightbox="media/tutorials-common/step01-requirements-prompt-install-myself.png":::
+
+   The dialog indicates that the selected template includes a _requirements.txt_ file that references the latest Django 1.x package. You can select **Show required packages** to see the exact dependencies.
+
+1. Select the option **I will install them myself** to close the dialog. Later in this tutorial, you create the virtual environment and ensure source control excludes the environment. (The environment can always be created later from the _requirements.txt_ file.)
+
+::: moniker-end
+
+## Examine Git controls
+
+::: moniker range="vs-2022"
+
+In the next procedure, you familiarize yourself with Visual Studio support for Git source control.
+
+> [!IMPORTANT]
+> With the release of Visual Studio 2019 [**version 16.8**](/visualstudio/releases/2019/release-notes-history), the Git version control experience is on by default. If you'd like to learn more about how it compares with Team Explorer, see the [**Side-by-side comparison of Git and Team Explorer**](../version-control/git-team-explorer-feature-comparison.md) page.
+>
+> However, if you prefer to continue to use Team Explorer in Visual Studio 2019, go to **Tools** > **Options** > **Environment** > **Preview Features** and then toggle the **New Git user experience** checkbox. (This option is not available in Visual Studio 2022 and later.) For more information, see [Connect to projects in Team Explorer](/visualstudio/ide/connect-team-project).
+
+1. To commit the project to your local source control, select **Add to Source Control** at the bottom right in the Visual Studio main window and then select **Git**:
+
+   :::image type="content" source="media/django/vs-2022/step-01-git-add-to-source-control.png" alt-text="Screenshot that shows how to Create a Git repository in Visual Studio 2022." border="false" lightbox="media/django/vs-2022/step-01-git-add-to-source-control.png":::
+
+   The **Create Git** repository window opens, where you can create and push a new repository.
+
+<!-- IN PROGRESS -->
+
+1. After creating a repository, a set of new Git controls appears at the bottom. From left to right, these controls show unpushed commits, uncommitted changes, the current branch, and the name of the repository.
+
+   :::image type="content" source="media/django/step01-git-controls.png" alt-text="Git controls in the Visual Studio window.":::
+
+1. Select the **Git changes** button. Visual Studio then opens the **Git Changes** page in **Team Explorer**. You don't see any pending changes as the newly created project is already committed to source control automatically.
+
+   :::image type="content" source="media/django/step-01-team-explorer-git-changes-vs-2022.png" alt-text="Team Explorer window on the Git Changes page.":::
+
+1. On the Visual Studio status bar, select the unpushed commits button (the up arrow with **2**) to open the **Synchronization** page in **Team Explorer**. The **Synchronization** page provides easy options to publish the local repository to different remote repositories.
+
+   :::image type="content" source="media/django/step01-team-explorer.png" alt-text="Team Explorer window showing available Git repository options for source control.":::
+
+   You can choose any service you want for your projects. This tutorial shows the use of GitHub, where the completed sample code for the tutorial is maintained in the [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django) repository.
+
+1. When selecting any of the **Publish** controls, **Team Explorer** prompts you for more information. For example, when publishing the sample for this tutorial, the repository itself has to be created first, in which case, the **Push to Remote Repository** option was used with the repository's URL.
+
+   :::image type="content" source="media/django/step01-push-to-github.png" alt-text="Team Explorer window for pushing to an existing remote repository.":::
+
+   If you don't have an existing repository, the **Publish to GitHub** and **Push to Azure DevOps** options let you create one directly from within Visual Studio.
+
+1. As you work through this tutorial, get into the habit of periodically using the controls in Visual Studio to commit and push changes. This tutorial reminds you at appropriate points.
+
+> [!Tip]
+> To quickly navigate within **Team Explorer**, select the header (that reads **Changes** or **Push** in the images above) to see a pop-up menu of the available pages.
+
+::: moniker-end
+
+
+
 
 ::: moniker range="<=vs-2019"
+
 Because you selected the **Create new Git repository** in the **New Project** dialog, the project is already committed to local source control as the creation process completes. In this step, you familiarize yourself with Visual Studio's Git controls and the **Team Explorer** window in which you work with source control.
 
 1. Examine the Git controls on the bottom corner of the Visual Studio main window. From left to right, these controls show unpushed commits, uncommitted changes, the name of the repository, and the current branch:
@@ -128,43 +208,7 @@ Because you selected the **Create new Git repository** in the **New Project** di
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
-In this step, you'll familiarize yourself with Visual Studio's Git controls and **Team Explorer**. With the **Team Explorer** window, you'll work with the source control.
 
-1. To commit the project to your local source control:
-
-   1. Select **Add to Source Control** command at the bottom corner of the Visual Studio main window.
-   1. Then, select the **Git** option.
-   1. Now, you're taken to the **Create Git repository** window, where you can create and push a new repository.
-
-   :::image type="content" source="media/django/step01-git-add-to-source-control.png" alt-text="Create a Git repository.":::
-
-1. After creating a repository, a set of new Git controls appears at the bottom. From left to right, these controls show unpushed commits, uncommitted changes, the current branch, and the name of the repository.
-
-   :::image type="content" source="media/django/step01-git-controls.png" alt-text="Git controls in the Visual Studio window.":::
-
-1. Select the **Git changes** button. Visual Studio then opens the **Git Changes** page in **Team Explorer**. You don't see any pending changes as the newly created project is already committed to source control automatically.
-
-   :::image type="content" source="media/django/step-01-team-explorer-git-changes-vs-2022.png" alt-text="Team Explorer window on the Git Changes page.":::
-
-1. On the Visual Studio status bar, select the unpushed commits button (the up arrow with **2**) to open the **Synchronization** page in **Team Explorer**. The **Synchronization** page provides easy options to publish the local repository to different remote repositories.
-
-   :::image type="content" source="media/django/step01-team-explorer.png" alt-text="Team Explorer window showing available Git repository options for source control.":::
-
-   You can choose any service you want for your projects. This tutorial shows the use of GitHub, where the completed sample code for the tutorial is maintained in the [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django) repository.
-
-1. When selecting any of the **Publish** controls, **Team Explorer** prompts you for more information. For example, when publishing the sample for this tutorial, the repository itself has to be created first, in which case, the **Push to Remote Repository** option was used with the repository's URL.
-
-   :::image type="content" source="media/django/step01-push-to-github.png" alt-text="Team Explorer window for pushing to an existing remote repository.":::
-
-   If you don't have an existing repository, the **Publish to GitHub** and **Push to Azure DevOps** options let you create one directly from within Visual Studio.
-
-1. As you work through this tutorial, get into the habit of periodically using the controls in Visual Studio to commit and push changes. This tutorial reminds you at appropriate points.
-
-> [!Tip]
-> To quickly navigate within **Team Explorer**, select the header (that reads **Changes** or **Push** in the images above) to see a pop-up menu of the available pages.
-
-::: moniker-end
 
 ### Question: What are some advantages of using source control from the beginning of a project?
 

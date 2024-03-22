@@ -15,7 +15,7 @@ ms.subservice: python
 
 [Django](https://www.djangoproject.com/) is a high-level Python framework designed for rapid, secure, and scalable web development. Python support in Visual Studio provides several project templates to set up the structure of a Django-based web application.
 
-The templates are available in Visual Studio under **File** > **New** > **Project** and include the **Blank Django Web Project** and **Django Web Project**. For a walkthrough of the templates, see the [Learn Django tutorial](learn-django-in-visual-studio-step-01-project-and-solution.md).
+The templates are available in Visual Studio under **File** > **New** > **Project** and include the **Blank Django Web Project** and **Django Web Project**. For a walkthrough of the templates, see the [Work with the Django web framework in Visual Studio](learn-django-in-visual-studio-step-01-project-and-solution.md) tutorial series.
 
 ## Intellisense features
 
