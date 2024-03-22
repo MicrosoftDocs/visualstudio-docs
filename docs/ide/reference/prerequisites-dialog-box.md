@@ -1,7 +1,7 @@
 ---
 title: Prerequisites Dialog Box
 description: The Prerequisites dialog box specifies which prerequisite components are installed, how they are installed, and which order the packages are installed.
-ms.date: 06/29/2018
+ms.date: 03/22/2024
 ms.subservice: deployment
 ms.topic: reference
 f1_keywords:
@@ -41,8 +41,10 @@ The prerequisite components that appear in the **Prerequisites** dialog box migh
 
 |Element|Description|
 |-------------|-----------------|
-|**.NET Framework 3.5 SP1**|This package installs the following:<br /><br /> -   .NET Framework versions 2.0, 3.0, and 3.5.<br />-   Support for all .NET Framework versions on 32-bit (x86) and 64-bit (x64) operating systems.<br />-   Language packs for each .NET Framework version that is installed with the package.<br />-   Service packs for .NET Framework 2.0 and 3.0.<br /><br /> .NET Framework 3.0 is included with Windows Vista, and .NET Framework 3.5 is included with Visual Studio. .NET Framework 3.5 is required for all Visual Basic and C# projects that are compiled for 32-bit operating systems and for which the target framework is set to **.NET Framework 3.5**, and for Visual Basic and C# projects compiled for 64-bit operating systems. (IA64 is not supported.) Note that Visual Basic and C# projects are compiled for any CPU architecture by default. For more information, see [Framework targeting overview](../../ide/visual-studio-multi-targeting-overview.md) and [Deploy prerequisites for 64-bit apps](../../deployment/deploying-prerequisites-for-64-bit-applications.md).|
+|**.NET Desktop runtime 3.x, ..., 8.x**|This package installs the .NET Desktop runtime for the specified platform architecture (x86, x64, or Arm64).|
+|**.NET runtime 5.x, ..., 8.x**|This package installs the .NET runtime for the specified platform architecture (x86, x64, or Arm64).|
 |**Microsoft .NET Framework 4.x**|This package installs the .NET Framework 4.x for both the x86 and x64 platforms.|
+|**.NET Framework 3.5 SP1**|This package installs the following:<br /><br /> -   .NET Framework versions 2.0, 3.0, and 3.5.<br />-   Support for all .NET Framework versions on 32-bit (x86) and 64-bit (x64) operating systems.<br />-   Language packs for each .NET Framework version that is installed with the package.<br />-   Service packs for .NET Framework 2.0 and 3.0.<br /><br /> .NET Framework 3.0 is included with Windows Vista, and .NET Framework 3.5 is included with Visual Studio. .NET Framework 3.5 is required for all Visual Basic and C# projects that are compiled for 32-bit operating systems and for which the target framework is set to **.NET Framework 3.5**, and for Visual Basic and C# projects compiled for 64-bit operating systems. (IA64 is not supported.) Note that Visual Basic and C# projects are compiled for any CPU architecture by default. For more information, see [Framework targeting overview](../../ide/visual-studio-multi-targeting-overview.md) and [Deploy prerequisites for 64-bit apps](../../deployment/deploying-prerequisites-for-64-bit-applications.md).|
 |**Microsoft System CLR Types for SQL Server 2014 (x64 and x86)**|This package installs Microsoft System CLR Types for SQL Server 2014 for either x64 or x86.|
 |**SQL Server 2008 R2 Express**|This package installs Microsoft SQL Server 2008 R2 Express, a free edition of Microsoft SQL Server 2008 R2, an ideal database for small web, server, or desktop applications. It can be used for free for development and production.|
 |**SQL Server 2012 Express**|This package installs Microsoft SQL Server 2012 Express.|
