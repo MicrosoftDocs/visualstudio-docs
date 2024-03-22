@@ -19,11 +19,11 @@ Analyzers are divided into the following groups:
 
 - [Code style analyzers](/dotnet/fundamentals/code-analysis/code-style-rule-options?preserve-view=true&view=vs-2019#convention-categories)
 
-   These analyzers are built into Visual Studio. The analyzer's diagnostic ID, or code format is IDExxxx, for example, IDE0001. You can configure preferences in the [text editor options page](../ide/code-styles-and-code-cleanup.md#code-styles-in-the-options-dialog-box) or in an [EditorConfig file](../ide/create-portable-custom-editor-options.md). Starting in .NET 5.0, code style analyzers are included with the .NET SDK and can be strictly enforced as build warnings or errors. For more information, see [Overview of .NET source code analysis](/dotnet/fundamentals/productivity/code-analysis.md).
+   These analyzers are built into Visual Studio. The analyzer's diagnostic ID, or code format is IDExxxx, for example, IDE0001. You can configure preferences in the [text editor options page](../ide/code-styles-and-code-cleanup.md#code-styles-in-the-options-dialog-box) or in an [EditorConfig file](../ide/create-portable-custom-editor-options.md). Starting in .NET 5.0, code style analyzers are included with the .NET SDK and can be strictly enforced as build warnings or errors. For more information, see [Overview of .NET source code analysis](/dotnet/fundamentals/productivity/code-analysis).
 
-- [Code quality analyzers](/dotnet/fundamentals/code-analysis/overview.md#code-quality-analysis)
+- [Code quality analyzers](/dotnet/fundamentals/code-analysis/overview#code-quality-analysis)
 
-   These analyzers are included with the .NET 5.0 and later SDK and enabled by default. The analyzer's diagnostic ID, or code format is CAxxxx, for example, CA1822. For more information, see [Overview of .NET code quality analysis](/dotnet/fundamentals/productivity/code-analysis.md).
+   These analyzers are included with the .NET 5.0 and later SDK and enabled by default. The analyzer's diagnostic ID, or code format is CAxxxx, for example, CA1822. For more information, see [Overview of .NET code quality analysis](/dotnet/fundamentals/productivity/code-analysis).
 
 - External analyzers
 
@@ -52,11 +52,11 @@ The following screenshot shows rule violations reported in the **Error List** wi
 
 The analyzer rule violations also appear in the code editor as squiggle lines under the offending code. For example, the following screenshot shows three violations: one error (red squiggle line), one warning (green squiggle line), and one suggestion (three grey dots):
 
-:::image type="content" source="media/diagnostics-severity-colors.png" alt-text="Screenshot that shows error, warning, and suggestion marks in the Visual Studio code editor.":::
+:::image type="content" source="media/diagnostics-severity-colors.png" alt-text="Screenshot that shows error, warning, and suggestion marks in the code editor.":::
 
 Many diagnostics have one or more associated *code fixes* that you can apply to correct the rule violation. Code fixes are shown in the light bulb icon menu along with other types of [Quick Actions](../ide/quick-actions.md). For more information about code fixes, see [Common Quick Actions](../ide/quick-actions.md).
 
-:::image type="content" source="media/built-in-analyzer-code-fix.png" alt-text="Screenshot that shows an analyzer violation and Quick Action code fix in the Visual Studio code editor.":::
+:::image type="content" source="media/built-in-analyzer-code-fix.png" alt-text="Screenshot that shows an analyzer violation and Quick Action code fix in the code editor.":::
 
 ## Configure analyzer severity levels
 

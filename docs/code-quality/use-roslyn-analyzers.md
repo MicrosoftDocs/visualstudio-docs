@@ -46,13 +46,13 @@ Many diagnostics have one or more associated *code fixes* that you can apply to 
 `Silent` severity rules that are enabled by default differ from disabled or `None` severity rules:
 
 - If a code fix is registered for a `Silent` severity rule, Visual Studio offers the code fix as a light bulb code-refactoring action even if the hidden diagnostic isn't visible to the user. If the severity rule is disabled as `None`, the code fix isn't offered.
-- Entries that [set the severity of multiple analyzer rules at once in an EditorConfig file](#set-the-severity-of-multiple-analyzer-rules-at-once-in-an-editorconfig-file) can bulk configure `Silent` severity rules. `None` severity rules can’t be configured this way. Instead, they must be configured through entries that [set the severity in an EditorConfig file for each rule ID](#set-the-severity-in-an-editorconfig-file-for-each-rule-id).
+- Entries that [set the severity of multiple analyzer rules at once in an EditorConfig file](#set-the-severity-of-multiple-analyzer-rules-at-once-in-an-editorconfig-file) can bulk configure `Silent` severity rules. `None` severity rules can’t be configured this way. Instead, they must be configured through entries that [set the severity in an EditorConfig file for each rule ID](#set-rule-severity-in-an-editorconfig-file).
 
-### Set the severity in an EditorConfig file for each rule ID
+### Set rule severity in an EditorConfig file
 
 EditorConfig files are available in Visual Studio 2019 version 16.3 and later.
 
-You can set the severity for compiler warnings or analyzer rules in an EditorConfig file with the following syntax:
+You can set the rule severity for each diagnostic rule ID in an EditorConfig file with the following syntax:
 
 `dotnet_diagnostic.<rule ID>.severity = <severity>`
 
@@ -118,7 +118,7 @@ Visual Studio provides a convenient way to configure a rule's severity from the 
 1. From the light bulb menu, hover over a severity level for a preview of the change, and then configure the severity according to the following options:
 
    - **Configure \<rule ID> severity**. Set the [severity](#configure-severity-levels) for the specific rule.
-   - **Configure severity for all \<style> analyzers**. Set the severity for all rules in the specific [rule category](../dotnet/fundamentals/code-analysis/categories.md).
+   - **Configure severity for all \<style> analyzers**. Set the severity for all rules in the specific [rule category](/dotnet/fundamentals/code-analysis/categories).
    - **Configure severity for all analyzers**. Set the severity for all categories of analyzer rules.
 
       ::: moniker range=">=vs-2022"
@@ -131,7 +131,7 @@ Visual Studio provides a convenient way to configure a rule's severity from the 
       In the following example, select **Configure or Suppress issues** > **Configure \<rule ID> severity**.
 
       ![Screenshot that shows how to configure rule severity from the light bulb menu in Visual Studio 2019.](media/configure-rule-severity.png)
-   ::: moniker-end
+      ::: moniker-end
 
 1. Choose one of the severity options.
 
