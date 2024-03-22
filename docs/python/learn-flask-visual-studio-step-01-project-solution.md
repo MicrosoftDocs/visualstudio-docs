@@ -19,10 +19,11 @@ This article is the first Step in a three part tutorial series that demonstrates
 In Step 1 of the tutorial, you learn how to:
 
 > [!div class="checklist"]
-> - Create a Flask project in a Git repository
-> - Create a Flask app with one page and render the page
-> - Serve static files, add pages, and use template inheritance
-> - Create a Flask web project with multiple pages
+> - Create a Visual Studio solution and Flask project
+> - Examine project boilerplate code and run the project
+> - Create a Git repository to maintain changes to the Flask project
+> - Work with Git source code controls
+> - Create a virtual environment for the Flask project
 
 This tutorial differs from the [Flask Quickstart](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json). You learn more about Flask and how to use Flask project templates to provide a more extensive starting point for your projects. The templates automatically install the Flask package when you create a project, whereas the Quickstart demonstrated how to install the package manually. 
 
