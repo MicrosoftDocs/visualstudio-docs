@@ -2,11 +2,11 @@
 title: Flask in Visual Studio tutorial Step 1, Flask basics
 titleSuffix: ""
 description: Overview and Step 1 of a core walkthrough of Flask capabilities in Visual Studio, including prerequisites, Git, virtual environments, and creating a new Flask project and web project.
-ms.date: 03/15/2024
+ms.date: 03/22/2024
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 
 # CustomerIntent: As a developer, I want to create Flask applications and projects in Visual Studio so I can support my Flask development needs.
@@ -39,7 +39,7 @@ This tutorial differs from the [Flask Quickstart](../ide/quickstart-python.md?to
 ::: moniker-end
 ::: moniker range="<=vs-2019"
 
-- Visual Studio 2017 or later on Windows with the following options selected in the Visual Studio Installer:
+- Visual Studio 2017 or Visual Studio 2019 on Windows with the following options selected in the Visual Studio Installer:
 
    - On the **Workloads** tab, select the **Python development** option. For more information, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
 
@@ -49,7 +49,7 @@ This tutorial differs from the [Flask Quickstart](../ide/quickstart-python.md?to
 
 Flask project templates are included with all earlier versions of Python Tools for Visual Studio. The template details might differ from the descriptions in this tutorial.
 
-Python development isn't currently supported in Visual Studio for Mac. On Mac and Linux, use the [Python extension in Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial) tutorial.
+Python development isn't currently supported in [Visual Studio for Mac](../../mac/what-happened-to-vs-for-mac.md). On Mac and Linux, use the [Python extension in Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial) tutorial.
 
 ## Create Visual Studio solution and Flask project
 

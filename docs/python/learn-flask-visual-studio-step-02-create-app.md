@@ -2,11 +2,11 @@
 title: Flask in Visual Studio tutorial Step 2, views and templates
 titleSuffix: ""
 description: Step 2 of a core walkthrough of Flask capabilities in Visual Studio, including procedures to create an application with multiple views by using inline HTML templates.
-ms.date: 03/18/2023
+ms.date: 03/22/2024
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 
 # CustomerIntent: As a developer, I want to create Flask applications in Visual Studio so I can develop apps with multiple views and render views with templates.

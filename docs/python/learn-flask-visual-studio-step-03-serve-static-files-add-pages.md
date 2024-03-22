@@ -2,11 +2,11 @@
 title: Flask in Visual Studio tutorial Step 3, static files & template inheritance
 titleSuffix: ""
 description: Step 3 of a core walkthrough of Flask capabilities in Visual Studio, including serving static files, adding pages to the Flask app, and using template inheritance.
-ms.date: 03/19/2024
+ms.date: 03/22/2024
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
-manager: jmartens
+manager: mijacobs
 ms.subservice: python
 
 # CustomerIntent: As a developer, I want to create Flask applications in Visual Studio so I can serve static files from my app and use template inheritance.
@@ -16,7 +16,7 @@ ms.subservice: python
 
 This article presents Step 3 in the tutorial series _Work with the Flask web framework in Visual Studio_.
 
-The previous Steps in this tutorial series create a minimal Flask app with a single page of self-contained HTML. Modern web apps are typically composed of many pages, and use shared resources like CSS and JavaScript files to provide consistent styling and behavior. In Step 6, you work with Visual Studio item templates to add content to your Flask project and expand the capabilities of the application.
+The previous Steps in this tutorial series create a minimal Flask app with a single page of self-contained HTML. Modern web apps are typically composed of many pages, and use shared resources like CSS and JavaScript files to provide consistent styling and behavior. In Step 3, you work with Visual Studio item templates to add content to your Flask project and expand the capabilities of the application.
 
 In Step 3 of the tutorial, you learn how to:
 
@@ -28,7 +28,7 @@ In Step 3 of the tutorial, you learn how to:
 
 ## Prerequisites
 
-- A Visual Studio solution and Flask application project created in [Step 1](learn-flask-visual-studio-step-01-project-solution.md) and updated in [Step 2: Refactor Flask project](learn-flask-visual-studio-step-02-create-app.md).
+- A Visual Studio solution and Flask application project created in [Step 1: Create Flask project](learn-flask-visual-studio-step-01-project-solution.md) and updated in [Step 2: Refactor Flask project](learn-flask-visual-studio-step-02-create-app.md).
 
 ## Explore item templates in Visual Studio
 
