@@ -14,7 +14,7 @@ Each Roslyn analyzer rule, or *diagnostic*, has a default severity and suppressi
 
 ## Configure severity levels
 
-In Visual Studio 2019 version 16.3 and later, you can configure the severity of analyzer rules in an [EditorConfig file](#set-rule-severity-in-an-editorconfig-file) from the [light bulb menu](#set-rule-severity-from-the-light-bulb-menu) and the error list.
+In Visual Studio 2019 version 16.3 and later, you can configure the severity of analyzer rules in an [EditorConfig file](#set-rule-severity-in-an-editorconfig-file), from the [light bulb menu](#set-rule-severity-from-the-light-bulb-menu), and from the **Error List** window.
 
 The following table shows the different severity options that you can configure for a diagnostic:
 
@@ -22,31 +22,33 @@ The following table shows the different severity options that you can configure 
 |-|-|-|-|
 | Error | `error` | Violations appear in the **Error** tab in the **Error List**  window and in command-line build output, and cause builds to fail.| The offending code is underlined with a red squiggle line, and marked by a small red box in the scrollbar. |
 | Warning | `warning` | Violations appear in the **Warning** tab in the **Error List** window and in command-line build output, but don't cause builds to fail. | The offending code is underlined with a green squiggle line and marked by a small green box in the scrollbar. |
-| Info | `suggestion` | Violations appear in the **Message** tab in the **Error List** window but not in command-line build output. | The affected code is underlined with a gray squiggle line and marked by a small gray box in the scrollbar. |
-| Hidden | `silent` | Invisible to the user. | Invisible to the user, but the diagnostic is reported to the IDE diagnostic engine. |
+| Suggestion | `suggestion` | Violations appear in the **Message** tab in the **Error List** window but not in command-line build output. | The affected code is underlined with a gray squiggle line and marked by a small gray box in the scrollbar. |
+| Silent | `silent` | Invisible to the user. | Invisible to the user, but the diagnostic is reported to the IDE diagnostic engine. |
 | None | `none` | Suppressed completely. | Suppressed completely. |
-| Default | `default` | Corresponds to the default severity of the rule. To determine the default value for a rule, view the [Properties window](../code-quality/use-roslyn-analyzers.md#set-rule-severity-from-solution-explorer). | Corresponds to the default severity of the rule. |
+| Default | `default` | Corresponds to the default severity of the rule. To determine the default value for a rule, view its [Properties window](#set-rule-severity-from-solution-explorer). | Corresponds to the default severity of the rule. |
 
-If an analyzer finds a rule violation, it reports it in the **Error List** window.
+If an analyzer finds any analyzer rule violations, it reports them in the **Error List** window and in the code editor.
+
+The following screenshot shows rule violations reported in the **Error List** window. The analyzer violations reported in the error list match the [severity level setting](../code-quality/use-roslyn-analyzers.md#configure-severity-levels) of the rule:
 
 :::image type="content" source="media/code-analysis-error-list.png" alt-text="Screenshot that shows analyzer violations in the Error List window.":::
 
-The analyzer violations reported in the error list match the [severity level setting](../code-quality/use-roslyn-analyzers.md#configure-severity-levels) of the rule. These same analyzer violations also appear in the code editor as squiggle lines under the offending code. For example, the following screenshot shows three violations: one error (red squiggle line), one warning (green squiggle line), and one suggestion (three grey dots):
+The analyzer rule violations also appear in the code editor as squiggle lines under the offending code. For example, the following screenshot shows three violations: one error (red squiggle line), one warning (green squiggle line), and one suggestion (three grey dots):
 
-:::image type="content" source="media/diagnostics-severity-colors.png" alt-text="Screenshot that shows error, warning, and suggestion marks in the Visual Studio Code editor.":::
+:::image type="content" source="media/diagnostics-severity-colors.png" alt-text="Screenshot that shows error, warning, and suggestion marks in the code editor.":::
 
-Many diagnostics have one or more associated *code fixes* that you can apply to correct the rule violation. Code fixes are shown in the light bulb icon menu along with other types of [Quick Actions](../ide/quick-actions.md). For information about code fixes, see [Common Quick Actions](../ide/quick-actions.md).
+Many diagnostics have one or more associated *code fixes* that you can apply to correct the rule violation. Code fixes are shown in the light bulb icon menu along with other types of [Quick Actions](../ide/quick-actions.md). For more information about code fixes, see [Common Quick Actions](../ide/quick-actions.md).
 
-:::image type="content" source="media/built-in-analyzer-code-fix.png" alt-text="Screenshot that shows an analyzer violation and Quick Action code fix in the Visual Studio Code editor.":::
+:::image type="content" source="media/built-in-analyzer-code-fix.png" alt-text="Screenshot that shows an analyzer violation and Quick Action code fix in the code editor.":::
 
-### Hidden severity versus None severity
+### Silent vs. None severity
 
-`Hidden` severity rules that are enabled by default differ from disabled or `None` severity rules:
+`Silent` severity rules that are enabled by default differ from disabled or `None` severity rules:
 
-- If a code fix is registered for a `Hidden` severity rule, Visual Studio offers the code fix as a light bulb code-refactoring action even if the hidden diagnostic isn't visible to the user. The code fix isn't offered if the severity rule is disabled as `None`.
-- `Hidden` severity rules can be bulk configured by entries that [set rule severity of multiple analyzer rules at once in an EditorConfig file](#set-rule-severity-of-multiple-analyzer-rules-at-once-in-an-editorconfig-file). `None` severity rules can’t be configured this way. Instead, they must be configured through entries that [set rule severity in an EditorConfig file for each rule ID](#set-rule-severity-in-an-editorconfig-file).
+- If a code fix is registered for a `Silent` severity rule, Visual Studio offers the code fix as a light bulb code-refactoring action even if the hidden diagnostic isn't visible to the user. If the severity rule is disabled as `None`, the code fix isn't offered.
+- Entries that [set the severity of multiple analyzer rules at once in an EditorConfig file](#set-the-severity-of-multiple-analyzer-rules-at-once-in-an-editorconfig-file) can bulk configure `Silent` severity rules. `None` severity rules can’t be configured this way. Instead, they must be configured through entries that [set the severity in an EditorConfig file for each rule ID](#set-the-severity-in-an-editorconfig-file-for-each-rule-id).
 
-### Set rule severity in an EditorConfig file
+### Set the severity in an EditorConfig file for each rule ID
 
 EditorConfig files are available in Visual Studio 2019 version 16.3 and later.
 
@@ -54,9 +56,9 @@ You can set the severity for compiler warnings or analyzer rules in an EditorCon
 
 `dotnet_diagnostic.<rule ID>.severity = <severity>`
 
-Setting a rule's severity in an EditorConfig file takes precedence over any severity set in a rule set or in Solution Explorer. You can [manually](#manually-configure-rule-severity-in-an-editorconfig-file) configure severity in an EditorConfig file or [automatically](#set-rule-severity-from-the-light-bulb-menu) through the light bulb that appears next to a violation.
+Setting a rule's severity in an EditorConfig file takes precedence over any severity set in a rule set or in Solution Explorer. You can configure severity either [manually](#manually-configure-rule-severity-in-an-editorconfig-file) in an EditorConfig file or [automatically](#set-rule-severity-from-the-light-bulb-menu) through the light bulb that appears next to a violation.
 
-### Set rule severity of multiple analyzer rules at once in an EditorConfig file
+### Set the severity of multiple analyzer rules at once in an EditorConfig file
 
 The ability to set multiple analyzer rules at once in an EditorConfig file is available in Visual Studio 2019 version 16.5 and later.
 
@@ -70,7 +72,7 @@ You can set the severity for a specific category of analyzer rules or for all an
 
    `dotnet_analyzer_diagnostic.severity = <severity>`
 
-Entries that configure multiple analyzer rules at once apply only to rules that are *enabled by default*. Analyzer rules that are marked as disabled by default in the analyzer package must be enabled through explicit `dotnet_diagnostic.<rule ID>.severity = <severity>` .
+Entries that configure multiple analyzer rules at once apply only to rules that are *enabled by default*. Analyzer rules that are marked as disabled by default in the analyzer package must be enabled through explicit `dotnet_diagnostic.<rule ID>.severity = <severity>` entries.
 
 If you have multiple entries that are applicable to a specific rule ID, the order of precedence for the applicable entry is as follows:
 
@@ -86,13 +88,13 @@ Consider the following EditorConfig example, where [CA1822](/dotnet/fundamentals
    dotnet_analyzer_diagnostic.severity = suggestion
    ```
 
-In this example, all three entries apply to the performance rule CA1822. However, using the specified precedence rules, the first rule ID-based severity entry takes precedence over the next entries. In this example, CA1822 has an effective severity of error. The remaining performance rules have a severity of warning. The analyzer rules that aren't performance rules have a severity of *suggestion*.
+In this example, all three entries apply to the performance rule CA1822. However, using the specified precedence rules, the first rule ID-based severity entry takes precedence over the next entries. In this example, CA1822 has an effective severity of `error`. The remaining performance rules have a severity of `warning`. The analyzer rules that aren't performance rules have a severity of `suggestion`.
 
 #### Manually configure rule severity in an EditorConfig file
 
 To configure rule severity, follow these steps:
 
-1. [Add a EditorConfig file for your project](../ide/create-portable-custom-editor-options.md#add-an-editorconfig-file-to-a-project), if you don't already have one.
+1. [Add a EditorConfig file to your project](../ide/create-portable-custom-editor-options.md#add-an-editorconfig-file-to-a-project), if you don't already have one.
 
 1. Add an entry for each rule you want to configure under the corresponding file extension.
 
@@ -116,19 +118,19 @@ Visual Studio provides a convenient way to configure a rule's severity from the 
 1. From the light bulb menu, hover over a severity level for a preview of the change, and then configure the severity according to the following options:
 
    - **Configure \<rule ID> severity**. Set the [severity](#configure-severity-levels) for the specific rule.
-   - **Configure severity for all \<style> analyzers**. Set the severity for all rules in the specific [rule category](/dotnet/fundamentals/code-analysis/categories).
+   - **Configure severity for all \<style> analyzers**. Set the severity for all rules in the specific [rule category](../dotnet/fundamentals/code-analysis/categories.md).
    - **Configure severity for all analyzers**. Set the severity for all categories of analyzer rules.
 
-   ::: moniker range=">=vs-2022"
-   In the following example, select **Suppress or configure issues** > **Configure \<rule ID> severity**.
+      ::: moniker range=">=vs-2022"
+      In the following example, select **Suppress or configure issues** > **Configure \<rule ID> severity**.
 
-   ![Screenshot that shows how to configure rule severity from the light bulb menu in Visual Studio 2022.](media/vs-2022/configure-rule-severity.png)
-   ::: moniker-end
+      ![Screenshot that shows how to configure rule severity from the light bulb menu in Visual Studio 2022.](media/vs-2022/configure-rule-severity.png)
+      ::: moniker-end
 
-   ::: moniker range="vs-2019"
-   In the following example, select **Configure or Suppress issues** > **Configure \<rule ID> severity**.
+      ::: moniker range="vs-2019"
+      In the following example, select **Configure or Suppress issues** > **Configure \<rule ID> severity**.
 
-   ![Screenshot that shows how to configure rule severity from the light bulb menu in Visual Studio 2019.](media/configure-rule-severity.png)
+      ![Screenshot that shows how to configure rule severity from the light bulb menu in Visual Studio 2019.](media/configure-rule-severity.png)
    ::: moniker-end
 
 1. Choose one of the severity options.
@@ -160,7 +162,7 @@ Visual Studio also provides a convenient way to configure a rule's severity from
 
 ### View analyzers and diagnostics from Solution Explorer
 
-You can do much of the customization of analyzer diagnostics from Solution Explorer. If you [install analyzers](../code-quality/install-roslyn-analyzers.md) as a NuGet package, an **Analyzers** node appears under the **References** (or **Dependencies** for .NET Core projects) node in Solution Explorer. Follow these steps to view the analyzers and diagnostics:
+You can do much of the customization of analyzer diagnostics from Solution Explorer. If you [install an analyzer](../code-quality/install-roslyn-analyzers.md) as a NuGet package, an **Analyzers** node appears under the **References** node (or **Dependencies** node for .NET Core projects) in Solution Explorer. Follow these steps to view the analyzers and diagnostics:
 
 1. In Solution Explorer, expand your project, expand **References** or **Dependencies**, and then expand **Analyzers**. Expand one of the analyzer assemblies to see the diagnostics in the assembly.
 
@@ -174,27 +176,25 @@ You can do much of the customization of analyzer diagnostics from Solution Explo
 
    ![Screenshot that shows severity icons for analyzer diagnostics in Solution Explorer.](media/diagnostics-icons-solution-explorer.png)
 
-1. To view the properties of a diagnostic, including its description and default severity, right-click the diagnostic, and then select **Properties**. Or, select the diagnostic, and then press **Alt** + **Enter**.
+1. To view the properties of a diagnostic, including its description and default severity, right-click the diagnostic, and then select **Properties**. Or, select the diagnostic, and then press **Alt**+**Enter**.
 
    The **Properties** window appears.
 
    ![Screenshot that shows diagnostic properties in the Properties window.](media/analyzer-diagnostic-properties.png)
 
-1. To view properties for code style rules (IDE prefix) in the **Properties** window, such as default severity, set the [EnforceCodeStyleInBuild](/dotnet/fundamentals/code-analysis/overview#enable-on-build) property to true.
+1. To view properties for code style rules (IDE prefix) in the **Properties** window, such as default severity, set the [EnforceCodeStyleInBuild](/dotnet/fundamentals/code-analysis/overview#enable-on-build) property to `true`.
 
 1. For online documentation for a diagnostic, right-click the diagnostic, and then select **View Help**.
 
 #### Convert an existing rule set file to an EditorConfig file
 
-In Visual Studio 2019 version 16.5 and later, rule set files are deprecated in favor of the EditorConfig file for analyzer configuration for managed code. 
-
-Most of the Visual Studio tools for analyzer rules severity configuration are updated to work with EditorConfig files instead of rule set files.
+In Visual Studio 2019 version 16.5 and later, rule set files are deprecated in favor of the EditorConfig file for analyzer configuration for managed code. Most of the Visual Studio tools for analyzer rules severity configuration are updated to work with EditorConfig files instead of rule set files.
 
 EditorConfig files let you configure both analyzer rule severities and analyzer options, including Visual Studio IDE code style options. When you convert your existing rule set file to an EditorConfig file, save it at the root of your repo or in the solution folder. Doing so ensures that the severity settings from this file automatically apply to the entire repo or solution, respectively.
 
 You can convert an existing rule set file to an EditorConfig file by using either the Rule Set Editor or the command line.
 
-To use the Rule Set Editor, follow these steps. If your project already uses a specific rule set file as its `CodeAnalysisRuleSet`, you can convert it to an equivalent EditorConfig file from the Rule Set Editor:
+To use the Rule Set Editor, follow these steps. If your project already uses a specific rule set file for its `CodeAnalysisRuleSet` property value, you can convert it to an equivalent EditorConfig file from the Rule Set Editor:
 
 1. Double-click the rule set file in Solution Explorer.
 
@@ -212,7 +212,7 @@ To use the command line, follow these steps:
 
 1. Install the NuGet package [Microsoft.CodeAnalysis.RulesetToEditorconfigConverter](https://www.nuget.org/packages/Microsoft.CodeAnalysis.RulesetToEditorconfigConverter).
 
-1. Execute `RulesetToEditorconfigConverter.exe` from the installed package, with paths to the rule set file and the EditorConfig file as command-line arguments.
+1. Execute *RulesetToEditorconfigConverter.exe* from the installed package, with paths to the rule set file and the EditorConfig file as command-line arguments.
 
    For example:
 
@@ -220,7 +220,7 @@ To use the command line, follow these steps:
    Usage: RulesetToEditorconfigConverter.exe <%ruleset_file%> [<%path_to_editorconfig%>]
    ```
 
-The following example shows a rule set file to convert:
+The following example shows a rule set file to convert to an EditorConfig file:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -234,7 +234,7 @@ The following example shows a rule set file to convert:
 </RuleSet>
 ```
 
-The following example shows a converted EditorConfig file:
+The following example shows the resulting EditorConfig file after the conversion:
 
 ```ini
 # NOTE: Requires **VS2019 16.3** or later
@@ -253,7 +253,7 @@ dotnet_diagnostic.CA2231.severity = warning
 
 ### Set rule severity from Solution Explorer
 
-To set rule severity from Solution Explorer, follow these steps:
+To set the rule severity from Solution Explorer, follow these steps:
 
 1. In Solution Explorer, expand **References** > **Analyzers** (or **Dependencies** > **Analyzers** for .NET Core projects).
 
@@ -288,7 +288,7 @@ To set rule severity from a rule set file, follow these steps:
 
 ## Configure generated code
 
-Analyzers run on source files in a project and report any violations it finds. However, these violations aren't useful on system-generated files. Examples are generated code files, such as designer-generated code files, temporary source files generated by the build system, and so on. For these files, users can't manually edit the files and aren't concerned about fixing any violations.
+Analyzers run on source files in a project and report any violations they find. However, these violations aren't useful for system-generated files. Examples are generated code files, such as designer-generated code files, temporary source files generated by the build system, and so on. For these types of files, users can't manually edit the files and aren't concerned about fixing any violations.
 
 Therefore, by default, the analyzer driver examines only files with certain names, file extensions, or autogenerated file headers as generated code files. For example, a file name ending with *.designer.cs* or *.generated.cs* is considered generated code. However, these heuristics might not be able to identify all the custom generated code files in the user's source code.
 
@@ -323,7 +323,7 @@ When you build your project at the command line, rule violations appear in the b
 
 The verbosity of the build output doesn't affect whether rule violations are shown. Even with **quiet** verbosity, rule violations appear in the build output.
 
-If you're accustomed to running legacy analysis from the command line, either with *FxCopCmd.exe* or through msbuild with the **RunCodeAnalysis** flag, you can do it with code analyzers instead.
+If you're accustomed to running legacy analysis from the command line, either with *FxCopCmd.exe* or through msbuild with the `RunCodeAnalysis` flag, you can do it with code analyzers instead.
 
 To see analyzer violations at the command line when you build your project using msbuild, run a command similar to:
 
@@ -337,7 +337,7 @@ The following screenshot shows the command-line build output from building a pro
 
 ## Dependent projects
 
-In a .NET Core project, if you add a reference to a project that has NuGet analyzers, Visual Studio automatically adds those analyzers to the dependent project. To disable this behavior (for example, if the dependent project is a unit test project), mark the NuGet package as private by setting the **PrivateAssets** attribute in the *.csproj* or *.vbproj* file of the referenced project:
+In a .NET Core project, if you add a reference to a project that has NuGet analyzers, Visual Studio automatically adds those analyzers to the dependent project. To disable this behavior (for example, if the dependent project is a unit test project), mark the NuGet package as private by setting the `PrivateAssets` attribute in the *.csproj* or *.vbproj* file of the referenced project:
 
 ```xml
 <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="5.0.0" PrivateAssets="all" />
@@ -348,5 +348,5 @@ In a .NET Core project, if you add a reference to a project that has NuGet analy
 - [Overview of code analyzers in Visual Studio](../code-quality/roslyn-analyzers-overview.md)
 - [Submit a code analyzer bug](https://github.com/dotnet/roslyn-analyzers/issues)
 - [Use rule sets](../code-quality/using-rule-sets-to-group-code-analysis-rules.md)
-- [Suppress code analysis warnings](../code-quality/in-source-suppression-overview.md)
-- [Configuration options for code analysis (.NET)](/dotnet/fundamentals/code-analysis/configuration-options)
+- [Suppress code analysis violations](../code-quality/in-source-suppression-overview.md)
+- [Configuration options for code analysis](/dotnet/fundamentals/code-analysis/configuration-options)
