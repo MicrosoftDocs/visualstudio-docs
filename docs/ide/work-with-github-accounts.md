@@ -164,6 +164,38 @@ After you sign in, you'll get a success window in the browser, and you can retur
 
 :::image type="content" source="../ide/media/github-success-signin.png" alt-text="Screenshot showing the sign-in success window in the browser.":::
 
+::: moniker range="vs-2019"
+
+**Remove an account**
+
+To remove an account, select **Remove** for the account you want to remove from the **All Accounts** submenu in the **Account Settings** dialog.
+
+1. Select **File > Account Settings...**.
+1. **All Accounts** lists all accounts signed into Visual Studio. Select **Remove** for the account you want to remove.
+1. Confirm the removal on the dialog that appears.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+**Remove an account**
+
+To remove an account:
+
+1. Select the icon with your profile name in the upper-right corner of your Visual Studio environment.
+1. Select **Remove account** for the account you want to remove.
+
+   :::image type="content" source="media/vs-2022/signing-in-to-visual-studio/remove-an-account.png" alt-text="Screenshot of removing an account.":::
+
+You can also use the **Account Settings** dialog to remove an account.
+
+1. Select **File > Account Settings...**.
+1. **All Accounts** lists all accounts signed into Visual Studio. Select **Remove** for the account you want to remove.
+1. Confirm the removal on the dialog that appears.
+
+   :::image type="content" source="media/vs-2022/signing-in-to-visual-studio/remove-an-account-account-settings.png" alt-text="Screenshot of removing an account in Account Settings.":::
+::: moniker-end
+
 ## Troubleshooting sign in issues
 
 If you're experiencing issues when adding or re-authenticating GitHub accounts, try the following steps:
