@@ -52,13 +52,32 @@ Many diagnostics have one or more associated *code fixes* that you can apply to 
 
 EditorConfig files are available in Visual Studio 2019 version 16.3 and later.
 
-You can set the rule severity for each diagnostic rule ID in an EditorConfig file with the following syntax:
-
-`dotnet_diagnostic.<rule ID>.severity = <severity>`
-
 Setting a rule's severity in an EditorConfig file takes precedence over any severity set in a rule set or in Solution Explorer. You can configure severity either [manually](#manually-configure-rule-severity-in-an-editorconfig-file) in an EditorConfig file or [automatically](#set-rule-severity-from-the-light-bulb-menu) through the light bulb that appears next to a violation.
 
-### Set the severity of multiple analyzer rules at once in an EditorConfig file
+#### Manually configure rule severity in an EditorConfig file
+
+To configure rule severity, follow these steps:
+
+1. [Add a EditorConfig file to your project](../ide/create-portable-custom-editor-options.md#add-an-editorconfig-file-to-a-project), if you don't already have one.
+
+1. Add an entry for each rule you want to configure under the corresponding file extension.
+
+   For example, the entry to set the severity for [CA1822](/dotnet/fundamentals/code-analysis/quality-rules/ca1822) to `error` for C# files is as follows:
+
+   ```ini
+   [*.cs]
+   dotnet_diagnostic.CA1822.severity = error
+   ```
+
+1. You can set the rule severity for each diagnostic rule ID in an EditorConfig file with the following syntax:
+
+   `dotnet_diagnostic.<rule ID>.severity = <severity>`
+
+1. For IDE code-style analyzers, you can also configure them in an EditorConfig file by using a different syntax.
+
+   For example, `dotnet_style_qualification_for_field = false:suggestion`. However, if you set a severity using the `dotnet_diagnostic` syntax, it takes precedence. For more information, see [Language conventions for EditorConfig](/dotnet/fundamentals/code-analysis/style-rules/language-rules).
+
+#### Set the severity of multiple analyzer rules at once in an EditorConfig file
 
 The ability to set multiple analyzer rules at once in an EditorConfig file is available in Visual Studio 2019 version 16.5 and later.
 
@@ -89,25 +108,6 @@ Consider the following EditorConfig example, where [CA1822](/dotnet/fundamentals
    ```
 
 In this example, all three entries apply to the performance rule CA1822. However, using the specified precedence rules, the first rule ID-based severity entry takes precedence over the next entries. In this example, CA1822 has an effective severity of `error`. The remaining performance rules have a severity of `warning`. The analyzer rules that aren't performance rules have a severity of `suggestion`.
-
-#### Manually configure rule severity in an EditorConfig file
-
-To configure rule severity, follow these steps:
-
-1. [Add a EditorConfig file to your project](../ide/create-portable-custom-editor-options.md#add-an-editorconfig-file-to-a-project), if you don't already have one.
-
-1. Add an entry for each rule you want to configure under the corresponding file extension.
-
-   For example, the entry to set the severity for [CA1822](/dotnet/fundamentals/code-analysis/quality-rules/ca1822) to `error` for C# files is as follows:
-
-   ```ini
-   [*.cs]
-   dotnet_diagnostic.CA1822.severity = error
-   ```
-
-1. For IDE code-style analyzers, you can also configure them in an EditorConfig file by using a different syntax.
-
-   For example, `dotnet_style_qualification_for_field = false:suggestion`. However, if you set a severity using the `dotnet_diagnostic` syntax, it takes precedence. For more information, see [Language conventions for EditorConfig](/dotnet/fundamentals/code-analysis/style-rules/language-rules).
 
 ### Set rule severity from the light bulb menu
 
@@ -234,17 +234,17 @@ When you convert your existing rule set file to an EditorConfig file, save it at
 You can convert an existing rule set file to an EditorConfig file by using either the rule set editor or the command line.
 
 > [!NOTE]
-    > .NET Core and .NET Standard projects don't support the menu commands for rule sets in Solution Explorer, for example, **Open Active Rule Set**. To specify a non-default rule set for a .NET Core or .NET Standard project, manually [add the **CodeAnalysisRuleSet** property](using-rule-sets-to-group-code-analysis-rules.md#specify-a-rule-set-for-a-project) to the project file. You can still configure the rules within the rule set in the rule set editor.
+> .NET Core and .NET Standard projects don't support the menu commands for rule sets in Solution Explorer, for example, **Open Active Rule Set**. To specify a non-default rule set for a .NET Core or .NET Standard project, manually [add the **CodeAnalysisRuleSet** property](using-rule-sets-to-group-code-analysis-rules.md#specify-a-rule-set-for-a-project) to the project file. You can still configure the rules within the rule set in the rule set editor.
 
 To use the rule set editor, follow these steps. If your project already uses a specific rule set file for its `CodeAnalysisRuleSet` property value, you can convert it to an equivalent EditorConfig file from the rule set editor:
 
 1. Double-click the rule set file in Solution Explorer.
 
-   The rule set file opens in the rule set editor with a clickable migrate **infobar** at the top.
+   The rule set file opens in the rule set editor with a clickable **infobar** at the top.
 
    ![Screenshot that shows a rule set file open in the rule set editor.](media/convert-ruleset-to-editorconfig-file-ruleset-editor.png)
 
-1. Select the migrate **infobar** link.
+1. Select the **infobar** link to migrate the rule set editor file.
 
 1. From the **Save As** dialog, select the directory where you want to generate the EditorConfig file, and then select **Save**.
 
