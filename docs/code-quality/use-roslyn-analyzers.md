@@ -31,7 +31,7 @@ If an analyzer finds any analyzer rule violations, it reports them in the **Erro
 
 The following screenshot shows rule violations reported in the **Error List** window. The analyzer violations reported in the error list match the [severity level setting](../code-quality/use-roslyn-analyzers.md#configure-severity-levels) of the rule:
 
-:::image type="content" source="media/code-analysis-error-list.png" alt-text="Screenshot that shows analyzer violations in the Error List window.":::
+:::image type="content" source="media/code-analysis-error-list.png" alt-text="Screenshot that shows analyzer violations in the Error List window." lightbox="media/code-analysis-error-list.png":::
 
 The analyzer rule violations also appear in the code editor as squiggle lines under the offending code. For example, the following screenshot shows three violations: one error (red squiggle line), one warning (green squiggle line), and one suggestion (three grey dots):
 
@@ -160,7 +160,46 @@ Visual Studio also provides a convenient way to configure a rule's severity from
 
    If you don't already have an EditorConfig file in the project, Visual Studio creates one for you.
 
-### View analyzers and diagnostics from Solution Explorer
+### Set rule severity from Solution Explorer
+
+To set rule severity from Solution Explorer, follow these steps:
+
+1. In Solution Explorer, expand **References** > **Analyzers** (or **Dependencies** > **Analyzers** for .NET Core projects).
+
+1. Expand the assembly that contains the rule you want to set the severity for.
+
+1. Right-click the rule and select **Set severity**. In the context menu, choose one of the severity options.
+
+   Visual Studio adds an entry to the EditorConfig file to configure the rule to the requested level. If your project uses a rule set file instead of an EditorConfig file, the severity entry is added to the rule set file.
+
+   If you don't already have an EditorConfig file or rule set file in the project, Visual Studio creates a new EditorConfig file for you.
+
+::: moniker range="vs-2019"
+
+### Set rule severity in a rule set file
+
+To set rule severity from a rule set file, follow these steps:
+
+1. Open the active rule set file in one of the following ways:
+
+    - In Solution Explorer, expand the file, and then expand **References**. Right-click **Analyzers**, and then select **Open Active Rule Set**.
+
+    - On the **Code Analysis** property page for the project, select **Open**.
+
+    If you're editing the rule set for the first time, Visual Studio makes a copy of the default rule set file, names it *\<projectname>.ruleset*, and then adds it to your project. This custom rule set also becomes the active rule set for your project.
+
+    > [!NOTE]
+    > .NET Core and .NET Standard projects don't support the menu commands for rule sets in Solution Explorer, for example, **Open Active Rule Set**. To specify a non-default rule set for a .NET Core or .NET Standard project, manually [add the **CodeAnalysisRuleSet** property](using-rule-sets-to-group-code-analysis-rules.md#specify-a-rule-set-for-a-project) to the project file. You can still configure the rules within the rule set in the rule set editor.
+
+1. Browse to the rule by expanding its containing assembly and select it.
+
+1. In the **Action** column of the selected rule, select the value to open a drop-down list, and then choose a severity level from the list.
+
+   ![Screenshot that shows a rule set file open in the rule set editor with severity levels listed.](media/ruleset-file-in-editor.png)
+
+::: moniker-end
+
+## View analyzers and diagnostics from Solution Explorer
 
 You can do much of the customization of analyzer diagnostics from Solution Explorer. If you [install an analyzer](../code-quality/install-roslyn-analyzers.md) as a NuGet package, an **Analyzers** node appears under the **References** node (or **Dependencies** node for .NET Core projects) in Solution Explorer. Follow these steps to view the analyzers and diagnostics:
 
@@ -186,23 +225,26 @@ You can do much of the customization of analyzer diagnostics from Solution Explo
 
 1. For online documentation for a diagnostic, right-click the diagnostic, and then select **View Help**.
 
-#### Convert an existing rule set file to an EditorConfig file
+## Convert an existing rule set file to an EditorConfig file
 
-In Visual Studio 2019 version 16.5 and later, rule set files are deprecated in favor of the EditorConfig file for analyzer configuration for managed code. Most of the Visual Studio tools for analyzer rules severity configuration are updated to work with EditorConfig files instead of rule set files.
+In Visual Studio 2019 version 16.5 and later, rule set files are deprecated in favor of EditorConfig files for analyzer configuration for managed code. EditorConfig files are more flexible and let you configure both analyzer rule severities and analyzer options, including Visual Studio IDE code style options. Because the Visual Studio tools for analyzer rules severity configuration are now optimized to work with EditorConfig files instead of rule set files, you're encouraged to convert any existing projects that still use rule set files.
 
-EditorConfig files let you configure both analyzer rule severities and analyzer options, including Visual Studio IDE code style options. When you convert your existing rule set file to an EditorConfig file, save it at the root of your repo or in the solution folder. Doing so ensures that the severity settings from this file automatically apply to the entire repo or solution, respectively.
+When you convert your existing rule set file to an EditorConfig file, save it at the root of your repo or in the solution folder. Doing so ensures that the severity settings from this file automatically apply to the entire repo or solution, respectively.
 
-You can convert an existing rule set file to an EditorConfig file by using either the Rule Set Editor or the command line.
+You can convert an existing rule set file to an EditorConfig file by using either the rule set editor or the command line.
 
-To use the Rule Set Editor, follow these steps. If your project already uses a specific rule set file for its `CodeAnalysisRuleSet` property value, you can convert it to an equivalent EditorConfig file from the Rule Set Editor:
+> [!NOTE]
+    > .NET Core and .NET Standard projects don't support the menu commands for rule sets in Solution Explorer, for example, **Open Active Rule Set**. To specify a non-default rule set for a .NET Core or .NET Standard project, manually [add the **CodeAnalysisRuleSet** property](using-rule-sets-to-group-code-analysis-rules.md#specify-a-rule-set-for-a-project) to the project file. You can still configure the rules within the rule set in the rule set editor.
+
+To use the rule set editor, follow these steps. If your project already uses a specific rule set file for its `CodeAnalysisRuleSet` property value, you can convert it to an equivalent EditorConfig file from the rule set editor:
 
 1. Double-click the rule set file in Solution Explorer.
 
-   The rule set file opens in the Rule Set Editor with a clickable **infobar** at the top.
+   The rule set file opens in the rule set editor with a clickable migrate **infobar** at the top.
 
-   ![Screenshot that shows how to convert a rule set to an EditorConfig file in the Rule Set Editor.](media/convert-ruleset-to-editorconfig-file-ruleset-editor.png)
+   ![Screenshot that shows a rule set file open in the rule set editor.](media/convert-ruleset-to-editorconfig-file-ruleset-editor.png)
 
-1. Select the **infobar** link.
+1. Select the migrate **infobar** link.
 
 1. From the **Save As** dialog, select the directory where you want to generate the EditorConfig file, and then select **Save**.
 
@@ -250,41 +292,6 @@ dotnet_diagnostic.CA1821.severity = warning
 dotnet_diagnostic.CA2213.severity = warning
 dotnet_diagnostic.CA2231.severity = warning
 ```
-
-### Set rule severity from Solution Explorer
-
-To set the rule severity from Solution Explorer, follow these steps:
-
-1. In Solution Explorer, expand **References** > **Analyzers** (or **Dependencies** > **Analyzers** for .NET Core projects).
-
-1. Expand the assembly that contains the rule you want to set the severity for.
-
-1. Right-click the rule and select **Set severity**. In the context menu, choose one of the severity options.
-
-   Visual Studio adds an entry to the EditorConfig file to configure the rule to the requested level. If your project uses a rule set file instead of an EditorConfig file, the severity entry is added to the rule set file.
-
-   If you don't already have an EditorConfig file or rule set file in the project, Visual Studio creates a new EditorConfig file for you.
-
-### Set rule severity in a rule set file
-
-To set rule severity from a rule set file, follow these steps:
-
-1. Open the active rule set file in one of the following ways:
-
-    - In Solution Explorer, expand the file, and then expand **References**. Right-click **Analyzers**, and then select **Open Active Rule Set**.
-
-    - On the **Code Analysis** property page for the project, select **Open**.
-
-    If you're editing the rule set for the first time, Visual Studio makes a copy of the default rule set file, names it *\<projectname>.ruleset*, and then adds it to your project. This custom rule set also becomes the active rule set for your project.
-
-    > [!NOTE]
-    > .NET Core and .NET Standard projects don't support the menu commands for rule sets in Solution Explorer, for example, **Open Active Rule Set**. To specify a non-default rule set for a .NET Core or .NET Standard project, manually [add the **CodeAnalysisRuleSet** property](using-rule-sets-to-group-code-analysis-rules.md#specify-a-rule-set-for-a-project) to the project file. You can still configure the rules within the rule set in the Visual Studio Rule Set editor UI.
-
-1. Browse to the rule by expanding its containing assembly.
-
-1. In the **Action** column, select the value to open a drop-down list, and choose a severity level from the list.
-
-   ![Screenshot that shows a rule set file open in the Rule Set Editor with severity levels listed.](media/ruleset-file-in-editor.png)
 
 ## Configure generated code
 
