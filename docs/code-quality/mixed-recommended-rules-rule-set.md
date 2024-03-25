@@ -123,7 +123,7 @@ Include this rule set in any custom rule set you create for your C++ projects th
 |[C6518](/cpp/code-quality/c6518)|Writable Size On Non-Writable Buffer|
 |[C6522](/cpp/code-quality/c6522)|Invalid Size String Type|
 |[C6525](/cpp/code-quality/c6525)|Invalid Size String Unreachable Location|
-|[C6527](/cpp/code-quality/c6527)|Invalid annotation: 'NeedsRelease' property might not be used on values of void type|
+|[C6527](/cpp/code-quality/c6527)|Invalid annotation: 'NeedsRelease' property may not be used on values of void type|
 |[C6530](/cpp/code-quality/c6530)|Unrecognized Format String Style|
 |[C6540](/cpp/code-quality/c6540)|The use of attribute annotations on this function will invalidate all of its existing __declspec annotations|
 |[C6551](/cpp/code-quality/c6551)|Invalid size specification: expression not parsable|
@@ -146,9 +146,9 @@ Include this rule set in any custom rule set you create for your C++ projects th
 |[C26140](/cpp/code-quality/c26140)|Concurrency SAL annotation error|
 |[C28020](/cpp/code-quality/c28020)|The expression is not true at this call|
 |[C28021](/cpp/code-quality/c28021)|The parameter being annotated must be a pointer|
-|[C28022](/cpp/code-quality/c28022)|The function classes on this function do not match the function classes on the typedef used to define it.|
-|[C28023](/cpp/code-quality/c28023)|The function being assigned or passed should have a \_Function\_class\_ annotation for at least one of the classes|
-|[C28024](/cpp/code-quality/c28024)|The function pointer being assigned to is annotated with the function class, which is not contained in the function classes list.|
+|[C28022](/cpp/code-quality/c28022)|The function class(es) on this function do not match the function classes on the typedef used to define it.|
+|[C28023](/cpp/code-quality/c28023)|The function being assigned or passed should have a \_Function\_class\_ annotation for at least one of the class(es)|
+|[C28024](/cpp/code-quality/c28024)|The function pointer being assigned to is annotated with the function class, which is not contained in the function class(es) list.|
 |[C28039](/cpp/code-quality/c28039)|The type of actual parameter should exactly match the type|
 |[C28112](/cpp/code-quality/c28112)|A variable which is accessed via an Interlocked function must always be accessed via an Interlocked function.|
 |[C28113](/cpp/code-quality/c28113)|Accessing a local variable via an Interlocked function|
@@ -169,11 +169,11 @@ Include this rule set in any custom rule set you create for your C++ projects th
 |[C28206](/cpp/code-quality/c28206)|Left operand points to a struct, use '->'|
 |[C28207](/cpp/code-quality/c28207)|Left operand is a struct, use '.'|
 |[C28209](/cpp/code-quality/c28209)|The declaration for symbol has a conflicting declaration|
-|[C28210](/cpp/code-quality/c28210)|Annotations for the *_on*failure context must not be in explicit pre context|
+|[C28210](/cpp/code-quality/c28210)|Annotations for the __on_failure context must not be in explicit pre context|
 |[C28211](/cpp/code-quality/c28211)|Static context name expected for SAL_context|
 |[C28212](/cpp/code-quality/c28212)|Pointer expression expected for annotation|
 |[C28213](/cpp/code-quality/c28213)|The \_Use\_decl\_annotations\_ annotation must be used to reference, without modification, a prior declaration.|
-|[C28214](/cpp/code-quality/c28214)|Attribute parameter names must be P1...p9|
+|[C28214](/cpp/code-quality/c28214)|Attribute parameter names must be p1...p9|
 |[C28215](/cpp/code-quality/c28215)|The typefix cannot be applied to a parameter that already has a typefix|
 |[C28216](/cpp/code-quality/c28216)|The checkReturn annotation only applies to postconditions for the specific function parameter.|
 |[C28217](/cpp/code-quality/c28217)|For function, the number of parameters to annotation does not match that found at file|
@@ -269,7 +269,7 @@ Include this rule set in any custom rule set you create for your C++ projects th
 |[CA2123](../code-quality/ca2123.md)|Override link demands should be identical to base|
 |[CA2124](../code-quality/ca2124.md)|Wrap vulnerable finally clauses in outer try|
 |[CA2126](../code-quality/ca2126.md)|Type link demands require inheritance demands|
-|[CA2131](../code-quality/ca2131.md)|Security critical types might not participate in type equivalence|
+|[CA2131](../code-quality/ca2131.md)|Security critical types may not participate in type equivalence|
 |[CA2132](../code-quality/ca2132.md)|Default constructors must be at least as critical as base type default constructors|
 |[CA2133](../code-quality/ca2133.md)|Delegates must bind to methods with consistent transparency|
 |[CA2134](../code-quality/ca2134.md)|Methods must keep consistent transparency when overriding base methods|
@@ -278,7 +278,7 @@ Include this rule set in any custom rule set you create for your C++ projects th
 |[CA2140](../code-quality/ca2140.md)|Transparent code must not reference security critical items|
 |[CA2141](../code-quality/ca2141.md)|Transparent methods must not satisfy LinkDemands|
 |[CA2146](../code-quality/ca2146.md)|Types must be at least as critical as their base types and interfaces|
-|[CA2147](../code-quality/ca2147.md)|Transparent methods might not use security asserts|
+|[CA2147](../code-quality/ca2147.md)|Transparent methods may not use security asserts|
 |[CA2149](../code-quality/ca2149.md)|Transparent methods must not call into native code|
 |[CA2200](/dotnet/fundamentals/code-analysis/quality-rules/ca2200)|Rethrow to preserve stack details|
 |[CA2202](../code-quality/ca2202.md)|Do not dispose objects multiple times|

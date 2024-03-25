@@ -66,7 +66,7 @@ Include this rule set in any custom rule set you create for native projects.
 |[C6518](/cpp/code-quality/c6518)|Writable Size On Non-Writable Buffer|
 |[C6522](/cpp/code-quality/c6522)|Invalid Size String Type|
 |[C6525](/cpp/code-quality/c6525)|Invalid Size String Unreachable Location|
-|[C6527](/cpp/code-quality/c6527)|Invalid annotation: 'NeedsRelease' property might not be used on values of void type|
+|[C6527](/cpp/code-quality/c6527)|Invalid annotation: 'NeedsRelease' property may not be used on values of void type|
 |[C6530](/cpp/code-quality/c6530)|Unrecognized Format String Style|
 |[C6540](/cpp/code-quality/c6540)|The use of attribute annotations on this function will invalidate all of its existing __declspec annotations|
 |[C6551](/cpp/code-quality/c6551)|Invalid size specification: expression not parsable|
@@ -90,7 +90,7 @@ Include this rule set in any custom rule set you create for native projects.
 |[C28205](/cpp/code-quality/c28205)|\_Success\_ or \_On\_failure\_ used in an illegal context|
 |[C28206](/cpp/code-quality/c28206)|Left operand points to a struct, use '->'|
 |[C28207](/cpp/code-quality/c28207)|Left operand is a struct, use '.'|
-|[C28210](/cpp/code-quality/c28210)|Annotations for the *_on*failure context must not be in explicit pre context|
+|[C28210](/cpp/code-quality/c28210)|Annotations for the __on_failure context must not be in explicit pre context|
 |[C28211](/cpp/code-quality/c28211)|Static context name expected for SAL_context|
 |[C28212](/cpp/code-quality/c28212)|Pointer expression expected for annotation|
 |[C28213](/cpp/code-quality/c28213)|The \_Use\_decl\_annotations\_ annotation must be used to reference, without modification, a prior declaration.|
