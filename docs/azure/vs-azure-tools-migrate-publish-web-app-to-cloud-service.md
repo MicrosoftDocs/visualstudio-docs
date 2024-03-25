@@ -15,7 +15,7 @@ ms.author: ghogen
 
 To take advantage of the hosting services and scaling ability of Azure, you might want to migrate and deploy your web application to an Azure cloud service. Only minimal changes are required. This article covers deploying to cloud services only; for App Service, see [Deploy a web app in Azure App Service](/azure/app-service/app-service-deploy-local-git).
 
-> [!Important]
+> [!IMPORTANT]
 > This migration is supported only for the specific ASP.NET, WCF, and WCF Workflow projects. It is not supported for ASP.NET Core projects. See [Supported Project Templates](#supported-project-templates).
 
 ## Prerequisites
@@ -29,7 +29,7 @@ To take advantage of the hosting services and scaling ability of Azure, you migh
 1. Right-click the roles node under the newly added Cloud Services project and select **Add Web Role Project in solution...**.
 1. In the **Associate with Role Project** dialog, select the project you would like to associate as a web role.
 
-   > [!Important]
+   > [!IMPORTANT]
    > If you have other assemblies or files that are required for this web application, you must manually set the properties for these files. For information about how to set these properties, see [Include Files in the Service Package](vs-azure-tools-publishing-a-cloud-service.md#include-files-in-the-service-package).
 
 ### Errors and warnings
@@ -76,10 +76,10 @@ The following table provides details about starting the application in Azure:
 
 | Web Application Type | Running in Azure |
 | --- | --- |
-| ASP.NET Web Application<br/>(including MVC 2, MVC 3, MVC 4) | Select the URL in the **Deployment** tab for the **Azure Activity log**. |
+| ASP.NET Web Application<br/>(including Model-View-Controller (MVC) 2, MVC 3, MVC 4) | Select the URL in the **Deployment** tab for the **Azure Activity log**. |
 | ASP.NET Empty Web Application | If you have a default `.aspx` page in your application, select the URL in the **Deployment** tab for the **Azure Activity log**. To navigate to a different page, enter a URL of the following form in a browser: `<deployment_url>/<page_name>.aspx` |
 | WCF Service Application<br/>WCF Workflow Service Application | Set the `.svc` file as the start page for your WCF Service project. Then navigate to `<deployment_url>/<service_file>.svc` |
-| ASP.NET Dynamic Entities<br/>ASP.NET Dynamic Data LINQ to SQL | Update the connection string as described in the next section. Then navigate to `<deployment_url>/<page_name>.aspx`. For LINQ to SQL, you must use an Azure SQL database. |
+| ASP.NET Dynamic Entities<br/>ASP.NET Dynamic Data language integrated query (LINQ) to SQL | Update the connection string as described in the next section. Then navigate to `<deployment_url>/<page_name>.aspx`. For LINQ to SQL, you must use an Azure SQL database. |
 
 ## Update a Connection String for ASP.NET Dynamic Entities
 
