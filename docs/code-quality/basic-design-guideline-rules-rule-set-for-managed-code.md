@@ -126,7 +126,7 @@ The following table describes all of the rules in the Microsoft Basic Design Gui
 |[CA2140](../code-quality/ca2140.md)|Transparent code must not reference security critical items|
 |[CA2141](../code-quality/ca2141.md)|Transparent methods must not satisfy LinkDemands|
 |[CA2146](../code-quality/ca2146.md)|Types must be at least as critical as their base types and interfaces|
-|[CA2147](../code-quality/ca2147.md)|Transparent methods might not use security asserts|
+|[CA2147](../code-quality/ca2147.md)|Transparent methods may not use security asserts|
 |[CA2149](../code-quality/ca2149.md)|Transparent methods must not call into native code|
 |[CA2200](/dotnet/fundamentals/code-analysis/quality-rules/ca2200)|Rethrow to preserve stack details|
 |[CA2201](/dotnet/fundamentals/code-analysis/quality-rules/ca2201)|Do not raise reserved exception types|
