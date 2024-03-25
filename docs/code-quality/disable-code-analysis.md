@@ -6,7 +6,7 @@ ms.author: midumont
 manager: mijacobs
 ms.subservice: code-analysis
 ms.topic: how-to
-ms.date: 03/22/2024
+ms.date: 03/25/2024
 ---
 # Disable source code analysis for .NET
 
@@ -24,7 +24,7 @@ ms.date: 03/22/2024
 
 ## .NET Core and .NET Standard projects
 
-Visual Studio 2022 version 17.0.4 and later provides two checkboxes in the **Code Analysis** properties page that lets you control whether analyzers run at build time and design time. To disable code analysis in your project, follow these steps:
+Visual Studio 2022 version 17.0.4 and later provides two checkboxes in the **Code Analysis** properties page to control whether analyzers run at build time and design time. To disable code analysis in your project, follow these steps:
 
 1. Right-click the project node in **Solution Explorer** and, then select **Properties**.
 
@@ -77,7 +77,7 @@ This page lets you disable code analysis in Visual Studio. There are limitations
 
 Visual Studio 2019 version 16.3 and later provides two checkboxes in the **Code Analysis** properties page that lets you control whether analyzers run at build time and design time. These options are project-specific.
 
-![Enable or disable live code analysis or on build in Visual Studio](media/run-on-build-run-live-analysis.png)
+![Screenshot that shows the Code Analysis properties page.](media/run-on-build-run-live-analysis.png)
 
 To open this page, right-click the project node in **Solution Explorer** and select **Properties**. Select the **Code Analysis** tab.
 
