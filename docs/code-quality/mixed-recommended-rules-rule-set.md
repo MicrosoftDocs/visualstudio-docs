@@ -146,7 +146,7 @@ Include this rule set in any custom rule set you create for your C++ projects th
 |[C26140](/cpp/code-quality/c26140)|Concurrency SAL annotation error|
 |[C28020](/cpp/code-quality/c28020)|The expression is not true at this call|
 |[C28021](/cpp/code-quality/c28021)|The parameter being annotated must be a pointer|
-|[C28022](/cpp/code-quality/c28022)|The function class(es) on this function do not match the function classes on the typedef used to define it.|
+|[C28022](/cpp/code-quality/c28022)|The function class(es) on this function do not match the function class(es) on the typedef used to define it.|
 |[C28023](/cpp/code-quality/c28023)|The function being assigned or passed should have a \_Function\_class\_ annotation for at least one of the class(es)|
 |[C28024](/cpp/code-quality/c28024)|The function pointer being assigned to is annotated with the function class, which is not contained in the function class(es) list.|
 |[C28039](/cpp/code-quality/c28039)|The type of actual parameter should exactly match the type|
