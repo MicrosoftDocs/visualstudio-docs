@@ -6,12 +6,12 @@
   items:
   - name: About Azure development in Visual Studio
     href: overview.md
-  - name: 'What are Connected Services?'
+  - name: What are Connected Services?
     href: overview-connected-services.md
 - name: Connect to Azure services
   expanded: true
   items:
-  - name: 'Find & provision Azure resources'
+  - name: Find and provision Azure resources
     href: overview-azure-integration.md
   - name: Microsoft Entra ID
     href: vs-active-directory-add-connected-service.md
@@ -19,7 +19,7 @@
     href: azure-app-insights-add-connected-service.md
   - name: Azure Cache for Redis
     href: azure-cache-for-redis-add-connected-service.md
-  - name: CosmosDB
+  - name: Azure Cosmos DB
     href: azure-cosmosdb-add-connected-service.md
   - name: Key Vault
     href: vs-key-vault-add-connected-service.md
@@ -47,8 +47,8 @@
     - name: Deploy an ASP.NET Core app with Entity Framework to Azure with GitHub Actions
       href: end-to-end-deployment-entity-framework-core-github-actions.md
 - name: Sign in with your Azure subscription
-  href: how-to-sign-in-with-azure-subscription.md          
-- name: 'Extended support for Azure Cloud Services'
+  href: how-to-sign-in-with-azure-subscription.md
+- name: Extended support for Azure Cloud Services
   expanded: false
   items:
   - name: Use Cloud Services (extended support)
@@ -57,7 +57,7 @@
     items:
     - name: Create an Azure cloud service project
       href: vs-azure-tools-azure-project-create.md
-    - name: Manage roles in Azure cloud services
+    - name: Manage roles in Azure Cloud Services
       href: vs-azure-tools-cloud-service-project-managing-roles.md
     - name: Prepare to publish or deploy a cloud service
       href: vs-azure-tools-cloud-service-publish-set-up-required-services-in-visual-studio.md
@@ -115,6 +115,5 @@
       href: vs-azure-tools-storage-resources-server-explorer-browse-manage.md
     - name: Manage the resources associated with your Azure accounts in Cloud Explorer
       href: vs-azure-tools-resources-managing-with-cloud-explorer.md
-    - name: Access Azure virtual machines from Server Explorer
+    - name: Access Azure Virtual Machines from Server Explorer
       href: vs-azure-tools-virtual-machines-access-from-server-explorer.md
-
