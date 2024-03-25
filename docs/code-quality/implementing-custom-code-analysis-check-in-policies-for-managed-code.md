@@ -20,7 +20,7 @@ A code analysis check-in policy specifies a set of rules that members of an Azur
 
 Check-in policies are set at the Azure DevOps project level and specified by the location of a `.ruleset` file in the version control tree. There are no restrictions on the version control location of the team policy custom rule set.
 
-Code analysis is configured for the individual code projects in the properties window for each project. A custom rule set for a code project is specified by the physical location of the .rule set file on the local computer. When a `.ruleset` file is specified that is located on the same drive as the code project, Visual Studio uses a relative path to the file in the project configuration.
+Code analysis is configured for the individual code projects in the properties window for each project. A custom rule set for a code project is specified by the physical location of the `.ruleset` file on the local computer. When a `.ruleset` file is specified that is located on the same drive as the code project, Visual Studio uses a relative path to the file in the project configuration.
 
 A suggested practice for creating an Azure DevOps project custom rule set is to store the check-in policy `.ruleset` file in a special folder that is not a part of any code project. If you store the file in a dedicated folder, you can apply permissions that restrict who can edit the rule file, and you can easily move the directory structure that contains the project to another directory or computer.
 
