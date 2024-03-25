@@ -13,6 +13,7 @@ manager: mijacobs
 ms.subservice: code-analysis
 monikerRange: 'vs-2019'
 ---
+
 # Code Analysis Policy Errors
 
 The following errors occur if the code analysis policy is not satisfied at check-in:
