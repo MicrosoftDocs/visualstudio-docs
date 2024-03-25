@@ -33,7 +33,7 @@ The following screenshot shows rule violations reported in the **Error List** wi
 
 :::image type="content" source="media/code-analysis-error-list.png" alt-text="Screenshot that shows analyzer violations in the Error List window." lightbox="media/code-analysis-error-list.png":::
 
-The analyzer rule violations also appear in the code editor as squiggle lines under the offending code. For example, the following screenshot shows three violations: one error (red squiggle line), one warning (green squiggle line), and one suggestion (three grey dots):
+The analyzer rule violations also appear in the code editor as squiggle lines under the offending code. For example, the following screenshot shows three violations: one error (red squiggle line), one warning (green squiggle line), and one suggestion (three gray dots):
 
 :::image type="content" source="media/diagnostics-severity-colors.png" alt-text="Screenshot that shows error, warning, and suggestion marks in the code editor.":::
 
