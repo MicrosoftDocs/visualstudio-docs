@@ -13,6 +13,7 @@ manager: mijacobs
 ms.subservice: code-analysis
 monikerRange: 'vs-2019'
 ---
+
 # Customize a rule set
 
 You can create a custom rule set to meet specific project needs for code analysis.
@@ -25,7 +26,7 @@ To create a custom rule set, you can open a built-in rule set in the **rule set 
 
 2. On the **Properties** pages, select the **Code Analysis** tab.
 
-3. In the **Active rules** drop-down list, do one of the following:
+3. In the **Active rules** dropdown list, do one of the following:
 
    - Choose the rule set that you want to customize.
 
@@ -84,9 +85,9 @@ You can create a new rule set file from the **New File** dialog:
    </RuleSet>
    ```
 
-- If the same rule is listed two or more times in a rule set with the *same* severity, you may see the following warning in the **Error List**:
+- If the same rule is listed two or more times in a rule set with the *same* severity, you might see the following warning in the **Error List**:
 
-   **CA0063 : Failed to load rule set file '\[your].ruleset' or one of its dependent rule set files. The file does not conform to the rule set schema.**
+   **CA0063 : Failed to load rule set file '\[your].rule set' or one of its dependent rule set files. The file does not conform to the rule set schema.**
 
 - If the rule set includes a child rule set by using an **Include** tag, and the child and parent rule sets both list the same rule but with different severities, then the severity in the parent rule set takes precedence. For example:
 
