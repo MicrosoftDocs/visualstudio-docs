@@ -20,7 +20,7 @@ landingContent:
             url: overview.md
       - linkListType: how-to-guide
         links:
-          - text: Find & provision Azure resources
+          - text: Find and provision Azure resources
             url: overview-azure-integration.md
 
   - title: Connect to Azure services
@@ -33,9 +33,9 @@ landingContent:
         links:
           - text: Active Directory
             url: /azure/active-directory/develop/vs-active-directory-add-connected-service
-          - text: Redis Cache
+          - text: Azure Cache for Redis
             url: azure-cache-for-redis-add-connected-service.md
-          - text: Cosmos DB
+          - text: Azure Cosmos DB
             url: azure-cosmosdb-add-connected-service.md
           - text: Key Vault
             url: vs-key-vault-add-connected-service.md
@@ -48,7 +48,7 @@ landingContent:
       - linkListType: reference
         links:
           - text: Azure SDK for .NET
-            url: /dotnet/azure  
+            url: /dotnet/azure
 
   - title: Deploy to Azure
     linkLists:
@@ -66,8 +66,8 @@ landingContent:
             url: /azure/logic-apps/quickstart-create-logic-apps-with-visual-studio
           - text: Azure Functions
             url: /azure/azure-functions/functions-create-your-first-function-visual-studio
-  
-  - title: 'Continuous integration/delivery (CI/CD)'
+
+  - title: Continuous integration/delivery (CI/CD)
     linkLists:
       - linkListType: how-to-guide
         links:

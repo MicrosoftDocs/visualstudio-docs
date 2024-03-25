@@ -74,7 +74,7 @@ If you enable remote debugging for a cloud service using the procedure in this s
 
 1. Follow the usual steps described at [Cloud Services (extended support)](cloud-services-extended-support.md#publish-to-cloud-services-extended-support), but select the **Enable Remote Desktop for all roles** checkbox.
 
-    You'll be asked to create a username and password for the remote desktop user, which you'll need later to sign into that virtual machine.
+    You'll be asked to create a username and password for the remote desktop user, which you'll need later to sign in to that virtual machine.
 
 1. Advance to the next screen, review your settings, and when ready, click **Publish** and wait for the deployment to finish.
 
@@ -143,7 +143,7 @@ If you enable remote debugging for a cloud service using the procedure in this s
 
 1. Follow the usual steps described at [Cloud Services (extended support)](cloud-services-extended-support.md#publish-to-cloud-services-extended-support), but select the **Enable Remote Desktop for all roles** checkbox.
 
-    You'll be asked to create a username and password for the remote desktop user, which you'll need later to sign into that virtual machine.
+    You'll be asked to create a username and password for the remote desktop user, which you'll need later to sign in to that virtual machine.
 
 1. Advance to the next screen, review your settings, and when ready, click **Publish** and wait for the deployment to finish.
 
@@ -268,7 +268,7 @@ You can debug programs that run in Azure App Services by using the Attach to Pro
     ![Screenshot of Select Azure App Service Dialog, showing a list of App Services to select.](./media/vs-azure-tools-debug-cloud-services-virtual-machines/select-app-service.png)
 
     > [!NOTE]
-    > You need to be logged into a Microsoft Account with access to the subscription that contains your Azure App Service.
+    > You need to be signed in to a Microsoft Account with access to the subscription that contains your Azure App Service.
 
 4. Filter the view by either Resource Group or Resource Type, or search by name.
 

@@ -9,6 +9,7 @@ manager: mijacobs
 ms.subservice: code-analysis
 monikerRange: 'vs-2019'
 ---
+
 # Mixed Minimum Rules rule set
 
 The Microsoft Mixed Minimum Rules focus on the most critical problems in C++ projects that support the Common Language Runtime, including potential security holes and application crashes.

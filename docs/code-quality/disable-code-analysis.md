@@ -8,6 +8,7 @@ ms.subservice: code-analysis
 ms.topic: how-to
 ms.date: 03/25/2024
 ---
+
 # Disable source code analysis for .NET
 
 ::: moniker range=">=vs-2022"

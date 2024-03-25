@@ -8,6 +8,7 @@ ms.subservice: code-analysis
 ms.topic: how-to
 ms.date: 03/25/2024
 ---
+
 # Run code analysis manually for .NET
 
 By default, .NET Compiler Platform (Roslyn) analyzers automatically analyze C# or Visual Basic code during a build and as you type (via live code analysis). Hence, you don't normally need to trigger code analysis manually. However, there are some scenarios where you might want to manually trigger code analysis:

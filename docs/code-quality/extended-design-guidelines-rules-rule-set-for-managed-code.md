@@ -9,6 +9,7 @@ manager: mijacobs
 ms.subservice: code-analysis
 monikerRange: 'vs-2019'
 ---
+
 # Extended Design Guidelines Rules rule set for managed code
 
 The Microsoft Extended Design Guideline Rules rule set expands on the basic design guideline rules to maximize the usability and maintainability issues that are reported. Extra emphasis is placed on naming guidelines. You should consider including this rule set if your project includes library code or if you want to enforce the highest standards for writing code that is easy to maintain.

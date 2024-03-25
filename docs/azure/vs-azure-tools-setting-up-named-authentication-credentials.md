@@ -31,7 +31,7 @@ In Server Explorer, right-click the **Azure** node and select **Manage and Filte
 
 - Select **Import** to open the **Import Microsoft Azure Subscriptions** dialog box. Select the **Download subscription file** link, and in the browser save the downloaded file to a temporary location. Back in the dialog box, browse to the download location and then import it for use in authentication.
 - Choose an active subscription and select **Edit**, which opens a dialog in which you edit an existing subscription for use in authentication.
-- Select **New** to open the **New Subscription** dialog box and provide the required details. To upload the certificate to your cloud service are noted in the dialog, sign into the Azure portal, navigate to your cloud service, select **Settings > Management Certificates**, select **Upload**, then specify the path to the `.cer` file.
+- Select **New** to open the **New Subscription** dialog box and provide the required details. To upload the certificate to your cloud service are noted in the dialog, sign in to the Azure portal, navigate to your cloud service, select **Settings > Management Certificates**, select **Upload**, then specify the path to the `.cer` file.
 
 If you want to create a certificate yourself, you can refer to the instructions in [Create and upload a management certificate for Azure](/azure/cloud-services/cloud-services-certs-create) and then manually upload the certificate to the [Azure portal](https://portal.azure.com/).
 

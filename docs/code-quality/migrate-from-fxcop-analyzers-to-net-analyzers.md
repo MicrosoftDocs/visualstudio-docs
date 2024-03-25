@@ -1,6 +1,6 @@
 ---
 title: Migrate from FxCop analyzers to .NET analyzers
-description: Migrate your analysis process from binary analysis  with FxCop code analysis to .NET analyzers (Roslyn analyzers) for source analysis.
+description: Migrate your analysis process from binary analysis with FxCop code analysis to .NET analyzers (Roslyn analyzers) for source analysis.
 ms.date: 03/06/2020
 ms.topic: conceptual
 f1_keywords:
@@ -14,6 +14,7 @@ ms.author: mikejo
 manager: mijacobs
 ms.subservice: code-analysis
 ---
+
 # Migrate from NuGet FxCop analyzers to .NET analyzers
 
 Source analysis by .NET Compiler Platform ("Roslyn") analyzers replaces [legacy analysis](code-analysis-for-managed-code-overview.md) for managed code. Many of the legacy analysis (FxCop) rules have already been rewritten as source analyzers.
