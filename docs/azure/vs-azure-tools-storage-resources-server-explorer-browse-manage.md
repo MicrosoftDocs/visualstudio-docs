@@ -105,7 +105,7 @@ Because folders in blob containers are virtual folders, you can't create an empt
 
 You can filter the blobs that are displayed by specifying a common prefix.
 
-For example, if you enter the prefix **hello** in the filter text box and then select the **Execute** (**!**) button, only blobs that begin with "hello" appear.
+For example, if you enter the prefix **hello** in the filter text box and then select the **Execute** (**!**) button, only blobs that begin with "Hello" appear.
 
 ![Filter text box](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC519076.png)
 
