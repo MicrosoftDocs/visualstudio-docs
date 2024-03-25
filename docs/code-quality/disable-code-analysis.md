@@ -110,5 +110,5 @@ For example:
 
 ## Related content
 
-- [Suppress violations](in-source-suppression-overview.md)
+- [Suppress code analysis violations](in-source-suppression-overview.md)
 - [Enable and disable binary code analysis for managed code](how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md)
