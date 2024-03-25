@@ -9,6 +9,7 @@ manager: mijacobs
 ms.subservice: code-analysis
 monikerRange: 'vs-2019'
 ---
+
 # Native Minimum Rules rule set
 
 The Microsoft Native Minimum Rules focus on the most critical problems in native code, including potential security holes and application crashes.
@@ -93,7 +94,7 @@ Include this rule set in any custom rule set you create for native projects.
 |[C28211](/cpp/code-quality/c28211)|Static context name expected for SAL_context|
 |[C28212](/cpp/code-quality/c28212)|Pointer expression expected for annotation|
 |[C28213](/cpp/code-quality/c28213)|The \_Use\_decl\_annotations\_ annotation must be used to reference, without modification, a prior declaration.|
-|[C28214](/cpp/code-quality/c28214)|Attribute parameter names must be p1...p9|
+|[C28214](/cpp/code-quality/c28214)|Attribute parameter names must be P1...p9|
 |[C28215](/cpp/code-quality/c28215)|The typefix cannot be applied to a parameter that already has a typefix|
 |[C28216](/cpp/code-quality/c28216)|The checkReturn annotation only applies to postconditions for the specific function parameter.|
 |[C28217](/cpp/code-quality/c28217)|For function, the number of parameters to annotation does not match that found at file|
