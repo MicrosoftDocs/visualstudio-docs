@@ -5,7 +5,7 @@ comment:  As of August 2023 this include is used to render marketing FAQ content
 ms.faqid: group1_2
 ms.topic: include
 ms.assetid: 11274272-d834-44c7-acdb-09c9ba2f852d
-ms.technology: 
+ms.subservice: 
 author: evanwindom
 ms.author: amast
 ms.date: 08/09/2023

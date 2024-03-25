@@ -103,3 +103,56 @@ There are several types of accounts you can add:
 1. Go to **File > Account Settings...** and select the **Manage Visual Studio profile** link.
 1. In the browser window, select **Edit profile** and change the settings that you want.
 1. When you're done, select **Save changes**.
+
+::: moniker range="vs-2019"
+
+## Remove an account
+
+You can remove any of the multiple accounts you've added to Visual Studio. When you remove an account, only that specific account is impacted and any resources associated with that account are no longer accessible. However, if you select **Sign out**, [all accounts are signed out](#sign-out-of-all-accounts).
+
+1. Select **File > Account Settings...**.
+1. **All Accounts** lists all accounts signed into Visual Studio. Select **Remove** for the account you want to remove.
+1. Confirm the removal on the dialog that appears.
+
+## Sign out of all accounts
+
+To sign out of all accounts:
+
+1. Select **File > Account Settings...**.
+1. Select **Sign out**.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+## Remove an account
+
+You can remove any of the multiple accounts you've added to Visual Studio. When you remove an account, only that specific account is impacted and any resources associated with that account are no longer accessible. However, if you select **Sign out**, [all accounts are signed out](#sign-out-of-all-accounts).
+
+1. Select the icon with your profile name in the upper-right corner of your Visual Studio environment.
+1. Select **Remove account** for the account you want to remove.
+
+   :::image type="content" source="media/vs-2022/signing-in-to-visual-studio/remove-an-account.png" alt-text="Screenshot of removing an account.":::
+
+You can also use the **Account Settings** dialog to remove an account.
+
+1. Select the icon with your profile name in the upper-right corner of your Visual Studio environment.
+1. **All Accounts** lists all accounts signed into Visual Studio. Select **Remove** for the account you want to remove.
+1. Confirm the removal on the dialog that appears.
+
+   :::image type="content" source="media/vs-2022/signing-in-to-visual-studio/remove-an-account-account-settings.png" alt-text="Screenshot of removing an account in Account Settings.":::
+
+## Sign out of all accounts
+
+Signing out of Visual Studio removes all accounts on the Visual Studio keychain, settings no longer roam across devices, and associated resources aren't accessible anymore.
+
+To sign out of all accounts:
+
+1. Select the icon with your profile name in the upper-right corner of your Visual Studio environment.
+1. Select **Sign out**.
+ 
+   :::image type="content" source="media/vs-2022/signing-in-to-visual-studio/sign-out-all-accounts.png" alt-text="Screenshot of signing out of all accounts.":::
+
+You can also use the **Account Settings** dialog to sign out of all accounts.
+
+::: moniker-end
