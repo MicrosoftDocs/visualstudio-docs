@@ -132,7 +132,7 @@ After you enable diagnostics data collection, you can choose exactly what data s
 
 ### Application logs
 
-Application logs have diagnostics information that's produced by a web application. If you want to capture application logs, select the **Enable transfer of Application Logs** checkbox. To increase or decrease the interval between the transfer of application logs to your storage account, change the **Transfer Period (min)** value. You also can change the amount of information captured in the log by setting the **Log level** value. For example, select **Verbose** to get more information, or select **Critical** to capture only critical errors. If you have a specific diagnostics provider that emits application logs, you can capture the logs by adding the provider's GUID in the **Provider GUID** box.
+Application logs have diagnostics information that's produced by a web application. If you want to capture application logs, select the **Enable transfer of Application Logs** checkbox. To increase or decrease the interval between the transfer of application logs to your storage account, change the **Transfer Period (min)** value. You also can change the amount of information captured in the log by setting the **Log level** value. For example, select **Verbose** to get more information, or select **Critical** to capture only critical errors. If you have a specific diagnostics provider that emits application logs, you can capture the logs by adding the provider's globally unique identifier (GUID) in the **Provider GUID** box.
 
   ![Application logs](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC758145.png)
 

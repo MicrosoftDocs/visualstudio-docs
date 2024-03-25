@@ -11,6 +11,7 @@ ms.author: midumont
 manager: mijacobs
 ms.subservice: code-analysis
 ---
+
 # Disable source code analysis for .NET
 
 ::: moniker range=">=vs-2022"

@@ -15,7 +15,7 @@ ms.author: ghogen
 
 To take advantage of the hosting services and scaling ability of Azure, you might want to migrate and deploy your web application to an Azure cloud service. Only minimal changes are required. This article covers deploying to cloud services only; for App Service, see [Deploy a web app in Azure App Service](/azure/app-service/app-service-deploy-local-git).
 
-> [!Important]
+> [!IMPORTANT]
 > This migration is supported only for the specific ASP.NET, WCF, and WCF Workflow projects. It is not supported for ASP.NET Core projects. See [Supported Project Templates](#supported-project-templates).
 
 ## Prerequisites
@@ -29,7 +29,7 @@ To take advantage of the hosting services and scaling ability of Azure, you migh
 1. Right-click the roles node under the newly added Cloud Services project and select **Add Web Role Project in solution...**.
 1. In the **Associate with Role Project** dialog, select the project you would like to associate as a web role.
 
-   > [!Important]
+   > [!IMPORTANT]
    > If you have other assemblies or files that are required for this web application, you must manually set the properties for these files. For information about how to set these properties, see [Include Files in the Service Package](vs-azure-tools-publishing-a-cloud-service.md#include-files-in-the-service-package).
 
 ### Errors and warnings

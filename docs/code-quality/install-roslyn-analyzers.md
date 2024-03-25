@@ -12,6 +12,7 @@ ms.author: midumont
 manager: mijacobs
 ms.subservice: code-analysis
 ---
+
 # Install third-party analyzers
 
 Visual Studio includes a core set of .NET Compiler Platform (*Roslyn*) analyzers. These analyzers are always on. You can install additional analyzers either as NuGet packages, or as Visual Studio extensions in *VSIX* files.
@@ -20,7 +21,7 @@ Visual Studio includes a core set of .NET Compiler Platform (*Roslyn*) analyzers
 
 1. Find the analyzer package you want to install on www.nuget.org.
 
-   For example, you may want to install [StyleCop.Analyzers](https://www.nuget.org/packages/stylecop.analyzers/) to look for style issues in your codebase.
+   For example, you might want to install [StyleCop.Analyzers](https://www.nuget.org/packages/stylecop.analyzers/) to look for style issues in your codebase.
 
 2. Install the package in Visual Studio, using either the [Package Manager Console](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console) or the [Package Manager UI](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console).
 
