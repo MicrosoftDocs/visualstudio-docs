@@ -117,7 +117,7 @@ The following table describes all of the rules in the Microsoft Basic Design Gui
 |[CA2123](../code-quality/ca2123.md)|Override link demands should be identical to base|
 |[CA2124](../code-quality/ca2124.md)|Wrap vulnerable finally clauses in outer try|
 |[CA2126](../code-quality/ca2126.md)|Type link demands require inheritance demands|
-|[CA2131](../code-quality/ca2131.md)|Security critical types might not participate in type equivalence|
+|[CA2131](../code-quality/ca2131.md)|Security critical types may not participate in type equivalence|
 |[CA2132](../code-quality/ca2132.md)|Default constructors must be at least as critical as base type default constructors|
 |[CA2133](../code-quality/ca2133.md)|Delegates must bind to methods with consistent transparency|
 |[CA2134](../code-quality/ca2134.md)|Methods must keep consistent transparency when overriding base methods|
