@@ -53,7 +53,7 @@ The following table describes all of the rules in the Microsoft Extended Correct
 |[CA2123](../code-quality/ca2123.md)|Override link demands should be identical to base|
 |[CA2124](../code-quality/ca2124.md)|Wrap vulnerable finally clauses in outer try|
 |[CA2126](../code-quality/ca2126.md)|Type link demands require inheritance demands|
-|[CA2131](../code-quality/ca2131.md)|Security critical types might not participate in type equivalence|
+|[CA2131](../code-quality/ca2131.md)|Security critical types may not participate in type equivalence|
 |[CA2132](../code-quality/ca2132.md)|Default constructors must be at least as critical as base type default constructors|
 |[CA2133](../code-quality/ca2133.md)|Delegates must bind to methods with consistent transparency|
 |[CA2134](../code-quality/ca2134.md)|Methods must keep consistent transparency when overriding base methods|
@@ -62,7 +62,7 @@ The following table describes all of the rules in the Microsoft Extended Correct
 |[CA2140](../code-quality/ca2140.md)|Transparent code must not reference security critical items|
 |[CA2141](../code-quality/ca2141.md)|Transparent methods must not satisfy LinkDemands|
 |[CA2146](../code-quality/ca2146.md)|Types must be at least as critical as their base types and interfaces|
-|[CA2147](../code-quality/ca2147.md)|Transparent methods might not use security asserts|
+|[CA2147](../code-quality/ca2147.md)|Transparent methods may not use security asserts|
 |[CA2149](../code-quality/ca2149.md)|Transparent methods must not call into native code|
 |[CA2200](/dotnet/fundamentals/code-analysis/quality-rules/ca2200)|Rethrow to preserve stack details|
 |[CA2202](../code-quality/ca2202.md)|Do not dispose objects multiple times|
@@ -124,7 +124,7 @@ The following table describes all of the rules in the Microsoft Extended Correct
 |[CA1411](../code-quality/ca1411.md)|COM registration methods should not be visible|
 |[CA1412](../code-quality/ca1412.md)|Mark ComSource Interfaces as IDispatch|
 |[CA1413](../code-quality/ca1413.md)|Avoid non-public fields in COM visible value types|
-|[CA1414](../code-quality/ca1414.md)|Mark Boolean P/Invoke arguments with MarshalAs|
+|[CA1414](../code-quality/ca1414.md)|Mark boolean P/Invoke arguments with MarshalAs|
 |[CA1600](../code-quality/ca1600.md)|Do not use idle process priority|
 |[CA1601](../code-quality/ca1601.md)|Do not use timers that prevent power state changes|
 |[CA1824](/dotnet/fundamentals/code-analysis/quality-rules/ca1824)|Mark assemblies with NeutralResourcesLanguageAttribute|
@@ -132,7 +132,7 @@ The following table describes all of the rules in the Microsoft Extended Correct
 |[CA2003](../code-quality/ca2003.md)|Do not treat fibers as threads|
 |[CA2135](../code-quality/ca2135.md)|Level 2 assemblies should not contain LinkDemands|
 |[CA2136](../code-quality/ca2136.md)|Members should not have conflicting transparency annotations|
-|[CA2139](../code-quality/ca2139.md)|Transparent methods might not use the HandleProcessCorruptingExceptions attribute|
+|[CA2139](../code-quality/ca2139.md)|Transparent methods may not use the HandleProcessCorruptingExceptions attribute|
 |[CA2142](../code-quality/ca2142.md)|Transparent code should not be protected with LinkDemands|
 |[CA2143](../code-quality/ca2143.md)|Transparent methods should not use security demands|
 |[CA2144](../code-quality/ca2144.md)|Transparent code should not load assemblies from byte arrays|

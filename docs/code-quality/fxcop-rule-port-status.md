@@ -58,9 +58,9 @@ Rule ID | Title
 [CA1051](/dotnet/fundamentals/code-analysis/quality-rules/ca1051) | Do not declare visible instance fields
 [CA1052](/dotnet/fundamentals/code-analysis/quality-rules/ca1052) | Static holder types should be static or NotInheritable
 [CA1053](/dotnet/fundamentals/code-analysis/quality-rules/ca1053) | Static holder types should not have constructors (CA1053 is part of [CA1052](/dotnet/fundamentals/code-analysis/quality-rules/ca1052) for .NET analyzers)
-[CA1054](/dotnet/fundamentals/code-analysis/quality-rules/ca1054) | URI parameters should not be strings
-[CA1055](/dotnet/fundamentals/code-analysis/quality-rules/ca1055) | URI return values should not be strings
-[CA1056](/dotnet/fundamentals/code-analysis/quality-rules/ca1056) | URI properties should not be strings
+[CA1054](/dotnet/fundamentals/code-analysis/quality-rules/ca1054) | Uri parameters should not be strings
+[CA1055](/dotnet/fundamentals/code-analysis/quality-rules/ca1055) | Uri return values should not be strings
+[CA1056](/dotnet/fundamentals/code-analysis/quality-rules/ca1056) | Uri properties should not be strings
 [CA1058](/dotnet/fundamentals/code-analysis/quality-rules/ca1058) | Types should not extend certain base types
 [CA1060](/dotnet/fundamentals/code-analysis/quality-rules/ca1060) | Move pinvokes to native methods class
 [CA1061](/dotnet/fundamentals/code-analysis/quality-rules/ca1061) | Do not hide base class methods
@@ -136,7 +136,7 @@ Rule ID | Title
 [CA2227](/dotnet/fundamentals/code-analysis/quality-rules/ca2227) | Collection properties should be read only
 [CA2229](/dotnet/fundamentals/code-analysis/quality-rules/ca2229) | Implement serialization constructors
 [CA2231](/dotnet/fundamentals/code-analysis/quality-rules/ca2231) | Overload operator equals on overriding value type Equals
-[CA2234](/dotnet/fundamentals/code-analysis/quality-rules/ca2234) | Pass system URI objects instead of strings
+[CA2234](/dotnet/fundamentals/code-analysis/quality-rules/ca2234) | Pass system uri objects instead of strings
 [CA2235](/dotnet/fundamentals/code-analysis/quality-rules/ca2235) | Mark all non-serializable fields
 [CA2237](/dotnet/fundamentals/code-analysis/quality-rules/ca2237) | Mark ISerializable types with serializable
 [CA2241](/dotnet/fundamentals/code-analysis/quality-rules/ca2241) | Provide correct arguments to formatting methods
@@ -153,7 +153,7 @@ Rule ID | Title
 [CA2321](/dotnet/fundamentals/code-analysis/quality-rules/ca2321) | Do not deserialize with JavaScriptSerializer using a SimpleTypeResolver
 [CA2322](/dotnet/fundamentals/code-analysis/quality-rules/ca2322) | Ensure JavaScriptSerializer is not initialized with SimpleTypeResolver before deserializing
 [CA3001](/dotnet/fundamentals/code-analysis/quality-rules/ca3001) | Review code for SQL injection vulnerabilities
-[CA3002](/dotnet/fundamentals/code-analysis/quality-rules/ca3002) | Review code for cross-site scripting (XSS) vulnerabilities
+[CA3002](/dotnet/fundamentals/code-analysis/quality-rules/ca3002) | Review code for XSS vulnerabilities
 [CA3003](/dotnet/fundamentals/code-analysis/quality-rules/ca3003) | Review code for file path injection vulnerabilities
 [CA3004](/dotnet/fundamentals/code-analysis/quality-rules/ca3004) | Review code for information disclosure vulnerabilities
 [CA3005](/dotnet/fundamentals/code-analysis/quality-rules/ca3005) | Review code for LDAP injection vulnerabilities
@@ -179,7 +179,7 @@ CA5362 | Do Not Refer Self In Serializable Class
 [CA5363](/dotnet/fundamentals/code-analysis/quality-rules/ca5363) | Do Not Disable Request Validation
 [CA5364](/dotnet/fundamentals/code-analysis/quality-rules/ca5364) | Do Not Use Deprecated Security Protocols
 CA5365 | Do Not Disable HTTP Header Checking
-CA5366 | Use XmlReader For DataSet Read XML
+CA5366 | Use XmlReader For DataSet Read Xml
 CA5367 | Do Not Serialize Types With Pointer Fields
 CA5368 | Set ViewStateUserKey For Classes Derived From Page
 [CA5369](/dotnet/fundamentals/code-analysis/quality-rules/ca5369) | Use XmlReader For Deserialize
