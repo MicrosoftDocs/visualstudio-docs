@@ -20,7 +20,7 @@ The code analysis tool provides information to you about possible defects in you
 
 1. If you are on Visual Studio 2019 version 16.5 or later, execute the following command on command prompt before starting Visual Studio:
 
-`setx EnableLegacyCodeAnalysis true`
+    `setx EnableLegacyCodeAnalysis true`
 
 2. In **Solution Explorer**, click the project.
 
