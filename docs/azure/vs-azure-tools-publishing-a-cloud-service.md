@@ -138,7 +138,7 @@ You might need to include specific files in your service package so that they ar
    1. Choose the reference that you want to add and then choose **OK**. The reference is added to the list under the **References** folder.
    1. Open the shortcut menu for the assembly that you added and choose **Properties**. The **Properties** window appears.
 
-      To include this assembly in the service package, in the **Copy Local list** choose **True**.
+      To include this assembly in the service package, in the **Copy Local list**, select **True**.
 1. In **Solution Explorer** open the project node for the project that is missing the referenced assembly.
 
 1. To add the assembly to the project, open the shortcut menu for the **References** folder and then choose **Add Reference**. The **Add Reference** dialog appears.

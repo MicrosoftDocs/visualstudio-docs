@@ -12,7 +12,7 @@ monikerRange: "<=vs-2019"
 
 # Accessing Azure Virtual Machines from Server Explorer
 
-> [!Important]
+> [!IMPORTANT]
 > The Azure node of Server Explorer has been retired in Visual Studio 2022. You can use the Azure Portal or continue to use the Azure node of Server Explorer in previous versions of Visual Studio.
 >
 > Also, [Microsoft Azure Storage Explorer](/azure/vs-azure-tools-storage-manage-with-storage-explorer) is a free, standalone app from Microsoft. You can use it to work visually with Azure Storage data on Windows, macOS, and Linux.
