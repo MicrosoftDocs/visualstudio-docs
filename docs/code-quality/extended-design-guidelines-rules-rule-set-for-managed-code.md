@@ -9,6 +9,7 @@ manager: mijacobs
 ms.subservice: code-analysis
 monikerRange: 'vs-2019'
 ---
+
 # Extended Design Guidelines Rules rule set for managed code
 
 The Microsoft Extended Design Guideline Rules rule set expands on the basic design guideline rules to maximize the usability and maintainability issues that are reported. Extra emphasis is placed on naming guidelines. You should consider including this rule set if your project includes library code or if you want to enforce the highest standards for writing code that is easy to maintain.
@@ -52,7 +53,7 @@ The following table describes all the rules in the Microsoft Extended Design Gui
 |[CA2123](../code-quality/ca2123.md)|Override link demands should be identical to base|
 |[CA2124](../code-quality/ca2124.md)|Wrap vulnerable finally clauses in outer try|
 |[CA2126](../code-quality/ca2126.md)|Type link demands require inheritance demands|
-|[CA2131](../code-quality/ca2131.md)|Security critical types may not participate in type equivalence|
+|[CA2131](../code-quality/ca2131.md)|Security critical types might not participate in type equivalence|
 |[CA2132](../code-quality/ca2132.md)|Default constructors must be at least as critical as base type default constructors|
 |[CA2133](../code-quality/ca2133.md)|Delegates must bind to methods with consistent transparency|
 |[CA2134](../code-quality/ca2134.md)|Methods must keep consistent transparency when overriding base methods|
@@ -61,7 +62,7 @@ The following table describes all the rules in the Microsoft Extended Design Gui
 |[CA2140](../code-quality/ca2140.md)|Transparent code must not reference security critical items|
 |[CA2141](../code-quality/ca2141.md)|Transparent methods must not satisfy LinkDemands|
 |[CA2146](../code-quality/ca2146.md)|Types must be at least as critical as their base types and interfaces|
-|[CA2147](../code-quality/ca2147.md)|Transparent methods may not use security asserts|
+|[CA2147](../code-quality/ca2147.md)|Transparent methods might not use security asserts|
 |[CA2149](../code-quality/ca2149.md)|Transparent methods must not call into native code|
 |[CA2200](/dotnet/fundamentals/code-analysis/quality-rules/ca2200)|Rethrow to preserve stack details|
 |[CA2202](../code-quality/ca2202.md)|Do not dispose objects multiple times|

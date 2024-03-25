@@ -1,5 +1,5 @@
 ---
-description: "The following FxCop legacy analysis rules are deprecated and won't be implemented as analyzers."
+description: The following FxCop legacy analysis rules are deprecated and won't be implemented as analyzers.
 title: Deprecated rules
 ms.date: 05/21/2019
 ms.topic: reference
@@ -12,6 +12,7 @@ manager: mijacobs
 ms.subservice: code-analysis
 monikerRange: 'vs-2019'
 ---
+
 # Deprecated rules
 
 The following FxCop legacy analysis rules are deprecated and won't be implemented as analyzers. For further information, you can search by rule ID (for example, **CA1009**) on the [roslyn-analyzers GitHub issues page](https://github.com/dotnet/roslyn-analyzers/issues?utf8=%E2%9C%93&q=is:issue+label:FxCop-Port).
