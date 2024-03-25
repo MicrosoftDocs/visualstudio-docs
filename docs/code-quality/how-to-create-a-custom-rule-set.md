@@ -87,7 +87,7 @@ You can create a new rule set file from the **New File** dialog:
 
 - If the same rule is listed two or more times in a rule set with the *same* severity, you might see the following warning in the **Error List**:
 
-   **CA0063 : Failed to load rule set file '\[your].rule set' or one of its dependent rule set files. The file does not conform to the rule set schema.**
+   **CA0063 : Failed to load rule set file `\[your].ruleset` or one of its dependent rule set files. The file does not conform to the rule set schema.**
 
 - If the rule set includes a child rule set by using an **Include** tag, and the child and parent rule sets both list the same rule but with different severities, then the severity in the parent rule set takes precedence. For example:
 
