@@ -104,6 +104,8 @@ First, create a C# application project. The project type comes with all the temp
 
    Visual Studio opens your new project.
 
+::: moniker-end
+
 ## Create the application
 
 ::: moniker range="<=vs-2019"
