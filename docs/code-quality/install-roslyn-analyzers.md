@@ -16,7 +16,7 @@ Visual Studio includes a built-in core set of .NET Compiler Platform (*Roslyn*) 
 
 To install a NuGet analyzer package, follow these steps:
 
-1. Find the analyzer package you want to install on [NuGet](http://www.nuget.org).
+1. Find the analyzer package you want to install on [NuGet](https://www.nuget.org).
 
    For example, you might want to install [StyleCop.Analyzers](https://www.nuget.org/packages/stylecop.analyzers/) to search for style issues in your codebase.
 
@@ -53,7 +53,7 @@ To install a Visual Studio Extension as an analyzer, follow these steps:
 
 1. After a minute or two, the installation completes. Select **Close**.
 
-1. Open Visual Studio again.
+1. Reopen Visual Studio.
 
 1. To verify whether the extension is installed, select **Extensions** > **Manage Extensions**. In the **Manage Extensions** dialog box, select **Installed** in the left pane, and then search for the extension by name.
 

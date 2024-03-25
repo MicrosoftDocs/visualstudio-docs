@@ -33,5 +33,5 @@ To manually run a code analysis, follow these steps:
 
 ## Related content
 
-- [Disable code analysis](disable-code-analysis.md)
+- [Disable source code analysis for .NET](disable-code-analysis.md)
 - [Enable and disable binary code analysis for managed code](how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md)

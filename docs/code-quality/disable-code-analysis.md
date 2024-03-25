@@ -15,9 +15,9 @@ ms.date: 03/25/2024
 
  Visual Studio allows you to control whether source code analyzers run at build time and design time. There are limitations to what you can disable, and the procedure for turning off code analysis differs depending on a few factors:
 
-- Project type (.NET Core/Standard versus .NET Framework)
+- Project type (.NET Core and .NET Standard versus .NET Framework)
 
-  .NET Core and .NET Standard projects have options on their **Code Analysis** properties page that let you turn off code analysis from analyzers installed as a NuGet package. For more information, see [.NET Core and .NET Standard projects](#net-core-and-net-standard-projects). To turn off source code analysis for .NET Framework projects, see [.NET Framework projects](#net-framework-projects).
+  .NET Core and .NET Standard projects have options on their **Code Analysis** properties page that let you turn off code analysis from analyzers installed as a NuGet package. For more information, see [.NET Core and .NET Standard projects](#net-core-and-net-standard-projects). In contrast, .NET Framework projects require that you set properties in the project file. To turn off source code analysis for .NET Framework projects, see [.NET Framework projects](#net-framework-projects).
 
 - Source analysis versus legacy analysis
 
@@ -110,5 +110,5 @@ For example:
 
 ## Related content
 
-- [Suppress violations](use-roslyn-analyzers.md#suppress-violations)
+- [Suppress violations](in-source-suppression-overview.md)
 - [Enable and disable binary code analysis for managed code](how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md)
