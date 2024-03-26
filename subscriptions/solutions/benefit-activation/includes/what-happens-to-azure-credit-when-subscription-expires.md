@@ -1,12 +1,12 @@
 ---
 title: What happens to Azure resources when a Visual Studio subscription expires or is removed?
 description: When access to a Visual Studio subscription ends, you're no longer eligible to receive Azure monthly credits and must take action to save your resources.
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: 91fc4302-f84d-4860-87f5-eb60f06bd60c
 author: larissacrawford
 ms.author: amast
-ms.date: 08/15/2023
+ms.date: 03/26/2024
 user.type: subscriber, admin
 tags: benefit, azure
 subscription.type: vl, cloud, retail, partner
@@ -15,7 +15,7 @@ sap.id: 8dedd10e-cb1c-2eb1-bcda-fe00b07ac903
 
 ## What happens to Azure resources when a Visual Studio subscription expires or is removed?
 
-If your Visual Studio subscription expires or is removed, all the subscription benefits, including the monthly Azure dev/test individual credit are no longer available. To continue using Azure with a monthly credit, you'll need to take one of these actions:
+If your Visual Studio subscription expires or is removed, all the subscription benefits, including the monthly Azure dev/test individual credit are no longer available. To continue using Azure with a monthly credit, you need to take one of these actions:
 
 + Renew the subscription
 + Purchase a new subscription
@@ -26,7 +26,7 @@ Read the [Maintain a Visual Studio subscription for Azure credit access](https:/
 To save your Azure resources, you must transfer your resources to a different Azure subscription that includes the Azure dev/test individual credit or convert to pay-as-you-go.
 
 ## Transferring Azure resources
-You must transfer your resources to another Azure subscription before your current Azure subscription is disabled and deleted, or you'll lose access to your data at the time specified in the email notification. If the subscription is disabled, you can reenable it as a pay-as-you-go subscription by following [these steps](https://learn.microsoft.com/azure/cost-management-billing/manage/switch-azure-offer).
+You must transfer your resources to another Azure subscription before your current Azure subscription is disabled and deleted. If your subscription is deleted, you lose access to your data at the time specified in the email notification. If the subscription is disabled, you can reenable it as a pay-as-you-go subscription by following [these steps](https://learn.microsoft.com/azure/cost-management-billing/manage/switch-azure-offer).
 
 ## Convert your Azure subscription to pay-as-you-go
 
