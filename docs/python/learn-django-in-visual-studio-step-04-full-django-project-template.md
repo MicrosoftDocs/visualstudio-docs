@@ -40,7 +40,7 @@ The template also provides basic authentication, which is covered in [Step 5](le
 
 1. Select **Debug** > **Start Debugging** (**F5**) or use the **Web Server** button on the toolbar to run the server.
 
-    :::image type="content" source="media/django/run-web-server-toolbar-button.png" alt-text="Run web server toolbar button in Visual Studio.":::
+    :::image type="content" source="media/tutorials-common/run-web-server-toolbar.png" alt-text="Screenshot that shows the Web Server command on the main toolbar in Visual Studio." border="false" lightbox="media/tutorials-common/run-web-server-toolbar.png":::
 
 1. The app created by the template has three pages, Home, About, and Contact. You can navigate between the pages using the navigation bar. Take a minute or two to examine different parts of the app. To authenticate with the app through the **Log in** command, use the superuser credentials created earlier.
 

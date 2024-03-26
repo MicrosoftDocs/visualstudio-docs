@@ -266,8 +266,6 @@ After you configure source control for your project, you can create the virtual 
 
 You can open the **Git Repository** window and confirm the staged commits show in the **Local History** for the current branch.
 
-1. Enter a commit message and select the **Commit All** button, then push the commits to your remote repository.
-
 ::: moniker-end
 ::: moniker range="<=vs-2019"
 
@@ -332,7 +330,7 @@ In this section, you examine the boilerplate code in the Project file (_.py_) th
 > [!NOTE]
 > The boilerplate code is the same whether you create the project in Visual Studio from the Django template, or generate the project by using the CLI command `django-admin startproject <project_name>`.
 
-1. Open **Solution Explorer** to view your solution and project files. The initial project contains only two files, _manage_.py_ and _requirements.txt_:
+1. Open **Solution Explorer** to view your solution and project files. The initial project contains only two files, _manage.py_ and _requirements.txt_:
 
    ::: moniker range="vs-2022"
 
@@ -347,7 +345,7 @@ In this section, you examine the boilerplate code in the Project file (_.py_) th
 
    The _requirements.txt_ file specifies the Django package dependencies. The presence of this file is what invites you to create a virtual environment when first creating the project.
 
-   The single _manage_.py_ file is the Django command-line administrative utility that Visual Studio automatically sets as the project startup file. You run the utility on the command line by using `python manage.py <command> [options]` command.
+   The single _manage.py_ file is the Django command-line administrative utility that Visual Studio automatically sets as the project startup file. You run the utility on the command line by using `python manage.py <command> [options]` command.
    
    For common Django tasks, Visual Studio provides convenient menu commands. Right-click the project in **Solution Explorer** and select **Python** to see the list of commands. You use several of these commands in this tutorial series.
 
@@ -368,8 +366,6 @@ In this section, you examine the boilerplate code in the Project file (_.py_) th
    - _settings.py_: The settings for the Django project, which you modify when you develop a web app.
    - _urls.py_: A table of contents for the Django project, which you modify as you develop your web app.
    - _wsgi.py_: An entry point for WSGI-compatible web servers to serve your project. You usually leave this file as-is because it provides the hooks for production web servers.
-
-   :::image type="content" source="media/django/step01-django-project-in-solution-explorer.png" alt-text="Django project files in Solution Explorer.":::
 
 ### Generate requirements after package install
 
