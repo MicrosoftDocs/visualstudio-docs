@@ -3,9 +3,9 @@ title: Create or update code analysis check-in policies
 description: Learn how to ensure that code analysis runs on all code projects in an Azure DevOps project. See how to configure a project code analysis check-in policy.
 ms.date: 11/04/2016
 ms.topic: how-to
-f1_keywords: 
+f1_keywords:
   - vs.codeanalysis.policyeditor
-helpviewer_keywords: 
+helpviewer_keywords:
   - code analysis, migrating check-in policy
 author: mikejo5000
 ms.author: mikejo
@@ -13,6 +13,7 @@ manager: mijacobs
 ms.subservice: code-analysis
 monikerRange: 'vs-2019'
 ---
+
 # Create or Update Standard Code Analysis Check-in Policies
 
 You can require that code analysis be run on all code projects in an Azure DevOps project by using the code analysis check-in policy. Requiring code analysis can improve the quality of the code that is checked into the code base.

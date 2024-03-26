@@ -46,7 +46,7 @@ You can use the App Configuration Connected Services feature in the following pr
 
     ![Screenshot showing "Add App Configuration" screen.](./media/vs-azure-tools-connected-services-app-configuration/add-azure-app-configuration.png)
 
-    If you aren't signed in already, sign into your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/dotnet).
+    If you aren't signed in already, sign in to your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/dotnet).
 
 1. In the **Configure Azure App Configuration** screen, select your subscription and an existing configuration store. Then select **Next**.
 
@@ -88,7 +88,7 @@ You can use the App Configuration Connected Services feature in the following pr
 
    ![Screenshot showing Connect to dependency for Azure App Configuration.](./media/vs-2022/connect-to-dependency-app-configuration.png)
 
-    If you aren't signed in already, sign into your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
+    If you aren't signed in already, sign in to your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
 
 1. In the **Configure Azure App Configuration** screen, select your subscription and an existing configuration store. Then select **Next**.
 

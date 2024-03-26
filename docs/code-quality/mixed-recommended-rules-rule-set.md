@@ -9,6 +9,7 @@ manager: mijacobs
 ms.subservice: code-analysis
 monikerRange: 'vs-2019'
 ---
+
 # Mixed Recommended Rules rule set
 
 The Microsoft Mixed Recommended Rules focus on the most common and critical problems in your C++ projects that support the Common Language Runtime, including potential security holes, application crashes, and other important logic and design errors. This rule set includes all of the rules in the [Mixed Minimum Rules](mixed-minimum-rules-rule-set.md) rule set.

@@ -1,6 +1,6 @@
 ---
-title: "include"
-description: "include"
+title: include
+description: include
 author: ghogen
 ms.subservice: azure-development
 ms.author: ghogen
@@ -15,6 +15,6 @@ ms.date: 03/08/2021
 
    ![Create a web project - Additional information screen](../../media/create-aspnet5-app/net-core-50-enable-docker-support-visual-studio.png)
 
-1. Choose whether you want SSL support by selecting or clearing the **Configure for HTTPS** check box.
-1. Select the **Enable Docker Support** check box.
+1. Choose whether you want SSL support by selecting or clearing the **Configure for HTTPS** checkbox.
+1. Select the **Enable Docker Support** checkbox.
 1. Select the type of container you want (Windows or Linux), and then select **Create**.

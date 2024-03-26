@@ -68,7 +68,7 @@ The connected service functionality adds all the needed references and connectio
 
    1. Fill out the **Azure SQL Database: Create new** screen, and select **Create**.
 
-       ![Screenshot showing "New Azure SQL Database" screen.](./media/azure-sql-database-add-connected-service/create-new-azure-sql-database.png)
+       ![Screenshot showing "New Azure SQL database" screen.](./media/azure-sql-database-add-connected-service/create-new-azure-sql-database.png)
 
    1. When the **Configure Azure SQL Database** screen is displayed, the new database appears in the list. Select the new database in the list, and select **Next**.
 
