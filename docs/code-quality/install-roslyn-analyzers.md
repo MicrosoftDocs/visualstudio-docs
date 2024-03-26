@@ -24,9 +24,9 @@ To install a NuGet analyzer package, follow these steps:
 
    The analyzer assemblies are installed and appear in **Solution Explorer** under **References** > **Analyzers**.
 
-## Install Visual Studio Extensions
+## Install VSIX analyzers
 
-To install a Visual Studio Extension as an analyzer, follow these steps:
+To install a Visual Studio Extension-based analyzer, follow these steps:
 
 1. In Visual Studio, select **Extensions** > **Manage Extensions**.
 
