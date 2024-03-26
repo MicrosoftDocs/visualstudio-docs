@@ -16,6 +16,8 @@ Use the Microsoft Managed Recommended Rules rule set to focus on the most critic
 
 Include this rule set in any custom rule set that you create for your projects.
 
+<!-- docutune:disable -->
+
 |Rule|Description|
 |----------|-----------------|
 |[CA1001](/dotnet/fundamentals/code-analysis/quality-rules/ca1001)|Types that own disposable fields should be disposable|
