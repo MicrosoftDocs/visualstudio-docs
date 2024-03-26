@@ -26,13 +26,13 @@ In this tutorial, you create a simple C# application that has a Windows-based us
 
 ::: moniker range="<=vs-2019"
 
-If you don't have Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-create-csharp-winform-app-page-cta) page to install it for free.
+- If you don't have Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-create-csharp-winform-app-page-cta) page to install it for free.
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-If you don't have Visual Studio, go to the [Visual Studio 2022 downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download--create-csharp-winform-app-page-cta) page to install it for free.
+- If you don't have Visual Studio, go to the [Visual Studio 2022 downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download--create-csharp-winform-app-page-cta) page to install it for free.
 
 ::: moniker-end
 
@@ -50,9 +50,9 @@ First, create a C# application project. The project type comes with all the temp
 
 1. In **Create a new project**, choose the **Windows Forms App (.NET Framework)** template for C#.
 
-   You can refine your search to quickly get to the template you want. For example, enter *Windows Forms App* in the search box. Next, choose **C#** from the language list, and then choose **Windows** from the platform list.  
+   :::image type="content" source="../get-started/csharp/media/vs-2019/csharp-create-new-winforms-project-nonfiltered.png" alt-text="Screenshot shows the  Windows Forms App (.NET Framework) for C#." lightbox="../get-started/csharp/media/vs-2019/csharp-create-new-winforms-project-nonfiltered.png":::
 
-   :::image type="content" source="../get-started/csharp/media/vs-2019/csharp-create-new-winforms-project-nonfiltered.png" alt-text="Screenshot shows the  Windows Forms App (.NET Framework) for C#.":::
+   You can refine your search to quickly get to the template you want. For example, enter *Windows Forms App* in the search box. Next, choose **C#** from the language list, and then choose **Windows** from the platform list.  
 
    > [!NOTE]
    > If you don't see the **Windows Forms App (.NET Framework)** template, you can install it. In the **Not finding what you're looking for?** message, select **Install more tools and features**.
@@ -63,11 +63,11 @@ First, create a C# application project. The project type comes with all the temp
    >
    > :::image type="content" source="../ide/media/install-dot-net-desktop-env.png" alt-text="Screenshot shows .NET Core workload in the Visual Studio Installer.":::
    >
-   > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Choose **Continue** to install the workload. Then, return to the previous step this procedure.
+   > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Choose **Continue** to install the workload. Then, return to the previous step in this procedure.
 
 1. In **Configure your new project**, for **Project name**, enter *HelloWorld* and select **Create**.
 
-   :::image type="content" source="../get-started/csharp/media/vs-2019/csharp-name-your-winform-project-helloworld.png" alt-text="in the 'Configure your new project' window, name your project 'HelloWorld'":::
+   :::image type="content" source="../get-started/csharp/media/vs-2019/csharp-name-your-winform-project-helloworld.png" alt-text="Screenshot shows the Configure your new project window, where you name your project HelloWorld.":::
 
    Visual Studio opens your new project.
 
@@ -85,18 +85,18 @@ First, create a C# application project. The project type comes with all the temp
 
    You can refine your search to quickly get to the template you want. For example, type *Windows Forms App* in the search box. Next, select **C#** from the language list, and then select **Windows** from the platform list.
 
-    :::image type="content" source="media/vs-2022/csharp-winform-create-a-new-project.png" alt-text="Screenshot shows the C# template for the Windows Forms App (.NET Framework).":::
+    :::image type="content" source="media/vs-2022/csharp-winform-create-a-new-project.png" alt-text="Screenshot shows the C# template for the Windows Forms App (.NET Framework)." lightbox="media/vs-2022/csharp-winform-create-a-new-project.png":::
 
    > [!NOTE]
    > If you don't see the **Windows Forms App (.NET Framework)** template, you can install it. In the **Not finding what you're looking for?** message, select **Install more tools and features**.
    >
    > :::image type="content" source="../get-started/media/vs-2019/not-finding-what-looking-for.png" alt-text="Screenshot shows the Install more tools and features link in the Create new project window.":::
-
+   >
    > Next, in the Visual Studio Installer, select the **.NET desktop development** workload.
    >
-   > :::image type="content" source="media/vs-2022/install-dot-net-desktop-env.png" alt-text="Screenshot that shows  .NET Core workload in the Visual Studio Installer.":::
+   > :::image type="content" source="media/vs-2022/install-dot-net-desktop-env.png" alt-text="Screenshot that shows .NET Core workload in the Visual Studio Installer.":::
    >
-   > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Choose **Continue** to install the workload. Then, return to the previous step this procedure.
+   > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Choose **Continue** to install the workload. Then, return to the previous step in this procedure.
 
 1. In the **Configure your new project** window, in **Project name**, enter *HelloWorld*, and select **Create**.
 
@@ -110,11 +110,11 @@ First, create a C# application project. The project type comes with all the temp
 
 ::: moniker range="<=vs-2019"
 
-After you select your C# project template and name your file, Visual Studio opens a form for you. A form is a Windows user interface. Create a *Hello World* application by adding controls to the form. Then run the app.
+After you select your C# project template and name your project, Visual Studio opens a form for you. A form is a Windows user interface. Create a *Hello World* application by adding controls to the form. Then run the app.
 
 ### Add a button to the form
 
-1. Choose **Toolbox** to open the Toolbox flyout window.
+1. Choose **Toolbox** to open the **Toolbox** flyout window.
 
    :::image type="content" source="../ide/media/csharp-toolbox-toolwindow.png" alt-text="Screenshot shows the Toolbox option to open the Toolbox window.":::
 
@@ -122,7 +122,7 @@ After you select your C# project template and name your file, Visual Studio open
 
 1. Choose the **Pin** icon to dock the **Toolbox** window.
 
-   :::image type="content" source="../ide/media/vb-pin-the-toolbox-window.png" alt-text="Screenshot of the Pin icon that pins the Toolbox window to the IDE.":::
+   :::image type="content" source="../ide/media/vb-pin-the-toolbox-window.png" alt-text="Screenshot shows the Pin icon that pins the Toolbox window to the IDE.":::
 
 1. Choose the **Button** control and then drag it onto the form.
 
@@ -157,7 +157,7 @@ After you add a button control to create an action, add a label control to send 
 
 1. In the **Form1.cs** window, after the **private void** line, type or enter `lblHelloWorld.Text = "Hello World!";` as shown in the following screenshot.
 
-   :::image type="content" source="../get-started/csharp/media/csharp-winforms-add-code.png" alt-text="Add code to the form":::
+   :::image type="content" source="../get-started/csharp/media/csharp-winforms-add-code.png" alt-text="Screenshot shows the code window where you add code to the form.":::
 
 ## Run the application
 
@@ -177,11 +177,11 @@ After you add a button control to create an action, add a label control to send 
 
 ::: moniker range=">=vs-2022"
 
-After you select your C# project template and name your file, Visual Studio opens a form for you. A form is a Windows user interface. Create a *Hello World* application by adding controls to the form. Then run the app.
+After you select your C# project template and name your project, Visual Studio opens a form for you. A form is a Windows user interface. Create a *Hello World* application by adding controls to the form. Then run the app.
 
 ### Add a button to the form
 
-1. Select **Toolbox** to open the Toolbox flyout window.
+1. Select **Toolbox** to open the **Toolbox** flyout window.
 
      :::image type="content" source="media/vs-2022/csharp-winform-hello-world-project-toolbox.png" alt-text="Screenshot shows how to select the Toolbox to open the Toolbox window.":::
 
@@ -199,7 +199,7 @@ After you select your C# project template and name your file, Visual Studio open
 
      :::image type="content" source="media/vs-2022/csharp-winform-button-properties-text.png" alt-text="Screenshot shows the Text field in the Properties window.":::
 
-     If you don't see the **Properties** window, you can open it from the menu bar. Select **View** > **Properties Window**. Or, press **F4**.
+     If you don't see the **Properties** window, you can open it from the menu bar. Select **View** > **Properties Window** or **F4**.
 
 1. In the **Design** section of the **Properties** window, change the name from **button1** to `btnClickThis`, and then select **Enter**.
 
