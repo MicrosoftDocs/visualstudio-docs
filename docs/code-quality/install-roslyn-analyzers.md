@@ -47,7 +47,7 @@ To install a Visual Studio Extension as an analyzer, follow these steps:
 
    The **VSIX Installer** dialog box opens.
 
-   ![VSIX installer for Microsoft Code Analysis](media/vsix-installer-code-analysis.png)
+   ![Screenshot that shows the VSIX Installer dialog box.](media/vsix-installer-code-analysis.png)
 
 1. Select **Modify** to start the installation.
 
