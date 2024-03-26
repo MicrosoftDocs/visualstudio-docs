@@ -345,7 +345,7 @@ In this section, you examine the boilerplate code in the Project file (_.py_) th
 
    The _requirements.txt_ file specifies the Django package dependencies. The presence of this file is what invites you to create a virtual environment when first creating the project.
 
-   The single _manage.py_ file is the Django command-line administrative utility that Visual Studio automatically sets as the project startup file. You run the utility on the command line by using `python manage.py <command> [options]` command.
+   The _manage.py_ file is the Django command-line administrative utility that Visual Studio automatically sets as the project startup file. You run the utility on the command line by using `python manage.py <command> [options]` command.
    
    For common Django tasks, Visual Studio provides convenient menu commands. Right-click the project in **Solution Explorer** and select **Python** to see the list of commands. You use several of these commands in this tutorial series.
 
@@ -362,7 +362,7 @@ In this section, you examine the boilerplate code in the Project file (_.py_) th
 
    ::: moniker-end
 
-   - _\_\_init.py_: An empty file that tells Python that this folder is a Python package.
+   - _\_\_init\_\_.py_: An empty file that tells Python that this folder is a Python package.
    - _settings.py_: The settings for the Django project, which you modify when you develop a web app.
    - _urls.py_: A table of contents for the Django project, which you modify as you develop your web app.
    - _wsgi.py_: An entry point for WSGI-compatible web servers to serve your project. You usually leave this file as-is because it provides the hooks for production web servers.
