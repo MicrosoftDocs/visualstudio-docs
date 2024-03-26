@@ -6,13 +6,13 @@ ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
 ms.topic: tutorial
-ms.date: 02/24/2023
+ms.date: 03/27/2024
+#customer intent: As a developer, I want to learn to use Visual Studio to create C# or VB WinForms projects, starting with adding a layout element.
 ---
 # Tutorial: Create a picture viewer Windows Forms app in Visual Studio
 
-In this series of three tutorials, you'll create a Windows Forms application that loads a picture and displays it.
+In this series of three tutorials, you create a Windows Forms application that loads a picture and displays it.
 The Visual Studio Integrated Design Environment (IDE) provides the tools you need to create the app.
-To learn more, see [Welcome to the Visual Studio IDE](../visual-studio-ide.md).
 
 In this first tutorial, you learn how to:
 
@@ -35,22 +35,22 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
 
 1. On the start window, select **Create a new project**.
 
-   ![Screenshot shows the Create a new project option in the Visual Studio start window.](../media/tutorial-windows-forms-picture-viewer-layout/create-new-project-dark-theme-2019.png)
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/create-new-project-dark-theme-2019.png" alt-text="Screenshot shows the Create a new project option in the Visual Studio start window.":::
 
 1. On the **Create a new project** window, search for *Windows Forms*. Then select **Desktop** from the **Project type** list.
 
 1. Select the **Windows Forms App (.NET Framework)** template for either C# or Visual Basic, and then select **Next**.
 
-   ![Screenshot shows the Create a new project dialog box with Windows Forms entered and options for Windows Forms App.](../media/tutorial-windows-forms-picture-viewer-layout/create-project-windows-forms.png)
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/create-project-windows-forms.png" alt-text="Screenshot shows the Create a new project dialog box with Windows Forms entered and options for Windows Forms App.":::
 
    > [!NOTE]
    > If you don't see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, select the **Install more tools and features** link.
    >
-   > ![Screenshot shows the Install more tools and features link from the Not finding what you're looking for message in the Create new project dialog box.](../media/tutorial-windows-forms-picture-viewer-layout/install-more-tools.png)
+   > :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/install-more-tools.png" alt-text="Screenshot shows the Install more tools and features link from the Not finding what you're looking for message in the Create new project dialog box.":::
    >
    > Next, in Visual Studio Installer, select **.NET desktop development**.
    >
-   > ![Screenshot shows .NET Core workload in the Visual Studio Installer.](../media/tutorial-windows-forms-picture-viewer-layout/install-dot-net-desktop-env.png)
+   > :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/install-dot-net-desktop-env.png" alt-text="Screenshot shows .NET Core workload in the Visual Studio Installer.":::
    >
    > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Next, select **Continue** to install the workload.
 
@@ -63,28 +63,28 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
 
 1. On the start window, select **Create a new project**.
 
-   ![Screenshot shows the Create a new project option in the Visual Studio start window.](../media/tutorial-windows-forms-picture-viewer-layout/create-new-project-dark-theme.png)
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/create-new-project-dark-theme.png" alt-text="Screenshot shows the Create a new project option in the Visual Studio start window.":::
 
 1. On the **Create a new project** window, search for *Windows Forms*. Then select **Desktop** from the **Project type** list.
 
 1. Select the **Windows Forms App (.NET Framework)** template for either C# or Visual Basic, and then select **Next**.
 
-   ![Screenshot shows the Create a new project dialog box with Windows Forms entered and options for Windows Forms App.](../media/tutorial-windows-forms-picture-viewer-layout/create-project-windows-forms.png)
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/create-project-windows-forms.png" alt-text="Screenshot shows the Create a new project dialog box with Windows Forms entered and options for Windows Forms App.":::
 
    > [!NOTE]
    > If you don't see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, select the **Install more tools and features** link.
    >
-   > ![Screenshot shows the Install more tools and features link from the Not finding what you're looking for message in the Create new project dialog box.](../media/tutorial-windows-forms-picture-viewer-layout/install-more-tools.png)
+   > :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/install-more-tools.png" alt-text="Screenshot shows the Install more tools and features link from the Not finding what you're looking for message in the Create new project dialog box.":::
    >
    > Next, in Visual Studio Installer, select **.NET desktop development**.
    >
-   > ![Screenshot shows .NET Core workload in the Visual Studio Installer.](../media/tutorial-windows-forms-picture-viewer-layout/install-dot-net-desktop-env.png)
+   > :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/install-dot-net-desktop-env.png" alt-text="Screenshot shows .NET Core workload in the Visual Studio Installer.":::
    >
    > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Next, select **Continue** to install the workload.
 
 1. In the **Configure your new project** window, name your project *PictureViewer*, then select **Create**.
 
-   ![Screenshot shows the Configure your new project dialog box.](../media/tutorial-windows-forms-picture-viewer-layout/configure-new-project.png)
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/configure-new-project.png" alt-text="Screenshot shows the Configure your new project dialog box.":::
 
 ::: moniker-end
 
@@ -123,10 +123,10 @@ This section shows you how to change the title of your form, resize the form, an
 1. Select the form, again. Select the form's lower-right drag handle.
    The handle is a small white square in the lower-right corner of the form.
 
-   ![Screenshot shows the Forms window with the Drag handle in the lower right.](../media/tutorial-windows-forms-picture-viewer-layout/windows-form-drag-handle.png)
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/windows-form-drag-handle.png" alt-text="Screenshot shows the Forms window with the Drag handle in the lower right.":::
 
    Drag the handle to resize the form so the form is wider and a bit taller.
-   If you look at the **Properties** window, the **Size** property has changed.
+   If you look at the **Properties** window, the **Size** property is different.
    You can also change the size of the form by changing the **Size** property.
 
 1. On the left side of the Visual Studio IDE, select the **Toolbox** tab.
@@ -134,13 +134,13 @@ This section shows you how to change the title of your form, resize the form, an
 
 1. Select the small triangle symbol next to **Containers** to open the group.
 
-   ![Screenshot shows the Containers group in the Toolbox tab.](../media/tutorial-windows-forms-picture-viewer-layout/toolbox-container-table-layout-panel.png)
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/toolbox-container-table-layout-panel.png" alt-text="Screenshot shows the Containers group in the Toolbox tab.":::
 
 1. Double-click **TableLayoutPanel** in the **Toolbox**.
    You can also drag a control from the toolbox onto the form.
    The TableLayoutPanel control appears in your form.
 
-   ![Screenshot show the form with the TableLayoutPanel control added.](../media/tutorial-windows-forms-picture-viewer-layout/table-layout-format-added.png)
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/table-layout-format-added.png" alt-text="Screenshot show the form with the TableLayoutPanel control added.":::
 
    > [!NOTE]
    > After you add your TableLayoutPanel, if a window appears inside your form with the title **TableLayoutPanel Tasks**, click anywhere inside the form to close it.
@@ -148,12 +148,12 @@ This section shows you how to change the title of your form, resize the form, an
 1. Select the **TableLayoutPanel**.
    You can verify what control is selected by looking at the **Properties** window.
 
-   ![Screenshot shows the Properties window showing the TableLayoutPanel control.](../media/tutorial-windows-forms-picture-viewer-layout/table-layout-panel-properties.png)
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/table-layout-panel-properties.png" alt-text="Screenshot shows the Properties window showing the TableLayoutPanel control.":::
 
 1. With the TableLayoutPanel selected, find the **Dock** property, which has the value **None**.
    Select the dropdown arrow and then select **Fill**, which is the large button in the middle of the dropdown menu.
 
-   ![Screenshot shows the Properties window with Fill selected.](../media/tutorial-windows-forms-picture-viewer-layout/dock-property.png)
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/dock-property.png" alt-text="Screenshot shows the Properties window with Fill selected.":::
 
    *Docking* refers to how a window is attached to another window or area.
 
@@ -165,7 +165,7 @@ This section shows you how to change the title of your form, resize the form, an
 
    Select the triangle to display the control's task list.
 
-   ![Screenshot shows TableLayoutPanel tasks.](../media/tutorial-windows-forms-picture-viewer-layout/table-layout-panel-tasks.png)
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/table-layout-panel-tasks.png" alt-text="Screenshot shows TableLayoutPanel tasks.":::
 
 1. Select **Edit Rows and Columns** to display the **Column and Row Styles** dialog box.
 
@@ -173,13 +173,13 @@ This section shows you how to change the title of your form, resize the form, an
 
 1. Select **Column2** and set it to 85 percent.
 
-   ![Screenshot shows TableLayoutPanel column and row styles.](../media/tutorial-windows-forms-picture-viewer-layout/layout-column-row-styles-size-percent.png)
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/layout-column-row-styles-size-percent.png" alt-text="Screenshot shows TableLayoutPanel column and row styles.":::
 
 1. From **Show** at the top of the **Column and Row Styles** dialog box, select **Rows**. Set **Row1** to 90 percent and **Row2** to 10 percent. Select **OK** to save your changes. 
 
    Your TableLayoutPanel now has a large top row, a small bottom row, a small left column, and a large right column.
 
-   ![Screenshot shows the form with resized TableLayoutPanel.](../media/tutorial-windows-forms-picture-viewer-layout/form-layout.png)
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/form-layout.png" alt-text="Screenshot shows the form with resized TableLayoutPanel.":::
 
 Your layout is complete.
 
@@ -204,13 +204,13 @@ To run the app, follow these steps.
 
    Visual Studio runs your app. A window with the title **Picture Viewer** appears.
 
-   ![Screenshot shows the Windows Forms app running.](../media/tutorial-windows-forms-picture-viewer-layout/run-empty-windows-forms-app.png)
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/run-empty-windows-forms-app.png" alt-text="Screenshot shows the Windows Forms app running.":::
 
    Look at the Visual Studio IDE toolbar.
    More buttons appear on the toolbar when you run an application.
    These buttons let you do things like stop and start your app, and help you track down any errors.
 
-   ![Screenshot shows the Debugging toolbar where you can stop the app.](../media/tutorial-windows-forms-picture-viewer-layout/debug-toolbar.png)
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/debug-toolbar.png" alt-text="Screenshot shows the Debugging toolbar where you can stop the app.":::
 
 1. Use one of the following methods to stop your app:
 
@@ -219,12 +219,12 @@ To run the app, follow these steps.
    - From the keyboard, enter **Shift**+**F5**.
    - Select **X** in the upper corner of the **Picture Viewer** window.
 
-   When you run your app from inside the Visual Studio IDE, it's called debugging.
+   When you run your app from inside the Visual Studio IDE, it's *debugging*.
    You run your application to find and fix bugs.
    You follow the same procedure to run and debug other programs.
    To learn more about debugging, see [First look at the debugger](../../debugger/debugger-feature-tour.md).
 
-## Next steps
+## Next step
 
 Advance to the next tutorial to learn how to add controls to your Picture Viewer program.
 > [!div class="nextstepaction"]
