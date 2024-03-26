@@ -6,13 +6,13 @@ ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
 ms.topic: tutorial
-ms.date: 02/28/2023
+ms.date: 03/27/2024
+#customer intent: As a developer, I want to learn how to use layout elements to host controls in a Visual Studio WinForms project in C# or VB.
 ---
 # Tutorial: Add UI controls to the picture viewer Windows Forms app in Visual Studio
 
-In this series of three tutorials, you'll create a Windows Forms application that loads a picture and displays it.
+In this series of three tutorials, you create a Windows Forms application that loads a picture and displays it.
 The Visual Studio Integrated Design Environment (IDE) provides the tools you need to create the app.
-To learn more, see [Welcome to the Visual Studio IDE](../../get-started/visual-studio-ide.md).
 
 This program has a picture box, a checkbox, and several buttons, which you use to control the application.
 This tutorial shows you how to add these controls.
@@ -27,13 +27,13 @@ In this second tutorial, you learn how to:
 
 ## Prerequisites
 
-This tutorial builds on the previous tutorial, [Create a picture viewer application](tutorial-windows-forms-picture-viewer-layout.md).
-If you haven't done that tutorial, go through that one first.
+- This tutorial builds on the previous tutorial, [Create a picture viewer application](tutorial-windows-forms-picture-viewer-layout.md).
+Complete that tutorial first and use the project that you created for that tutorial.
 
 ## Add controls to your application
 The Picture Viewer app uses a PictureBox control to display a picture.
 It uses a checkbox and several buttons to manage the picture and background and to close the app.
-You'll add the PictureBox and a checkbox from the Toolbox in the Visual Studio IDE.
+You add the PictureBox and a checkbox from the Toolbox in the Visual Studio IDE.
 
 1. Open Visual Studio. Your Picture Viewer project appears under **Open recent**.
 
@@ -48,7 +48,7 @@ You'll add the PictureBox and a checkbox from the Toolbox in the Visual Studio I
 
 1. Choose the new **PictureBox** control to select it, and then select the black triangle on the new PictureBox control to display its task list.
 
-   ![Screenshot shows the PictureBox Tasks dialog box with Dock in Parent Container highlighted.](../media/tutorial-windows-forms-picture-viewer-controls/picture-box-tasks-dialog.png)
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-controls/picture-box-tasks-dialog.png" alt-text="Screenshot shows the PictureBox Tasks dialog box with Dock in Parent Container highlighted.":::
 
 1. Select **Dock in Parent Container**, which sets the PictureBox **Dock** property to **Fill**.
    You can see that value in the **Properties** window.
@@ -64,7 +64,7 @@ You'll add the PictureBox and a checkbox from the Toolbox in the Visual Studio I
 
 1. Choose the **Text** property and enter **Stretch**.
 
-    ![Screenshot shows checkbox control named Stretch.](../media/tutorial-windows-forms-picture-viewer-controls/checkbox-named-stretch.png)
+    :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-controls/checkbox-named-stretch.png" alt-text="Screenshot shows checkbox control named Stretch.":::
 
 ## Add buttons in a layout panel
 
@@ -86,7 +86,7 @@ These steps show you how to add four buttons to a new layout panel in the TableL
 1. Double-click **Button** again to  add another button. The IDE calls the next one **button2**.
 
 1. Add two more buttons this way.
-   Another option is to select **button2**, and then select **Edit** > **Copy** or press **Ctrl**+**C**.
+   Another option is to select **button2**. Then select **Edit** > **Copy** or **Ctrl**+**C**.
    Next, choose **Edit** > **Paste** from the menu bar or press **Ctrl**+**V**.
    To paste a copy of your button. Now paste it again. Notice that the IDE adds **button3** and **button4** to the FlowLayoutPanel.
 
@@ -96,7 +96,7 @@ These steps show you how to add four buttons to a new layout panel in the TableL
 
 1. To size the buttons and arrange them, select the FlowLayoutPanel. Set the **FlowDirection** property to **RightToLeft**.
 
-   The buttons should align themselves to the right side of the cell, and reverse their order so that the **Show a picture** button is on the right.
+   The buttons should align themselves to the right side of the cell, and reverse their order so that the **Show a picture** button is on the right of the cell.
    You can drag the buttons around the FlowLayoutPanel to arrange them in any order.
 
 1. Choose the **Close** button to select it. Then, to choose the rest of the buttons at the same time, press and hold the **Ctrl** key and choose them, too.
@@ -104,7 +104,7 @@ These steps show you how to add four buttons to a new layout panel in the TableL
 1. In the **Properties** window, set the **AutoSize** property to **True**.
    The buttons resize to fit their text.
 
-    ![Screenshot shows the Picture Viewer form with four buttons.](../media/tutorial-windows-forms-picture-viewer-controls/buttons-autosize.png)
+    :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-controls/buttons-autosize.png" alt-text="Screenshot shows the Picture Viewer form with four buttons.":::
 
 You can run your program to see how the controls look. Select the **F5** key, select **Debug** > **Start Debugging**, or select the **Start** button.
 The buttons that you added don't do anything, yet.
@@ -121,7 +121,7 @@ Use these steps to give them more informative names.
 1. In the **Properties** window, look for **(Name)**.
    Change the name to **closeButton**.
 
-   ![Properties window with closeButton name](../media/tutorial-windows-forms-picture-viewer-controls/close-button-name-property.png)
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-controls/close-button-name-property.png" alt-text="Screenshot shows the Properties window with closeButton name.":::
 
    The IDE doesn't accept names that contain spaces.
 
@@ -151,7 +151,7 @@ In this section, you add an <xref:System.Windows.Forms.OpenFileDialog> component
 1. Double-click **ColorDialog** to add a component called **colorDialog1**.
    The components appear at the bottom of **Windows Forms Designer** as icons.
 
-   ![Dialog components](../media/tutorial-windows-forms-picture-viewer-controls/components-window-forms-designer.png)
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-controls/components-window-forms-designer.png" alt-text="Screenshot shows the Dialog components at the bottom of the designer.":::
 
 1. Choose the **openFileDialog1** icon and set two properties:
 
@@ -165,7 +165,7 @@ In this section, you add an <xref:System.Windows.Forms.OpenFileDialog> component
 
    The **Filter** property settings specify the types that the **Select a picture** dialog box displays.
 
-## Next steps
+## Next step
 
 Advance to the next tutorial to learn how to add code to your application.
 > [!div class="nextstepaction"]
