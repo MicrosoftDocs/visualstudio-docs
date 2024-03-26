@@ -1,12 +1,12 @@
 ---
 title: Unable to activate my Microsoft 365 E5 developer subscription
-description: Learn how to activate the Microsoft 365 E5 developer subscription benefit included in Visual Studio subscriptions 
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+description: Learn how to activate the Microsoft 365 E5 developer subscription benefit included in Visual Studio subscriptions. 
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: 104e6ef4-5bb1-4f26-af7c-a6925e3665c7
 author: larissacrawford
 ms.author: amast
-ms.date: 08/15/2023
+ms.date: 03/26/2024
 user.type: subscriber
 tags: benefit, M365
 subscription.type: vl, cloud, retail, partner
@@ -15,13 +15,13 @@ sap.id: 8dedd10e-cb1c-2eb1-bcda-fe00b07ac903
 
 ## I'm unable to activate my Microsoft 365 E5 developer subscription
 
-Starting in September 2019, the Office 365 E3 developer subscription has been replaced with Microsoft 365 E5 developer offer. You can now activate the new benefit by following below instructions.
+Starting in September 2019, a Microsoft 365 E5 offer replaced the Office 365 E3 developer subscription. You can now activate the new benefit by following below instructions.
 
 ## Activate Microsoft 365 E5 developer subscription  
 
 1. Sign in to [subscriptions portal](https://my.visualstudio.com/benefits). 
 1. Locate the Microsoft 365 benefit tile in the "Tools" category, and select Activate. 
-1. Follow the prompts to set up your Microsoft 365 E5 developer subscription 
+1. Follow the prompts to set up your Microsoft 365 E5 developer subscription. 
 
 Read the [full activation instructions](https://learn.microsoft.com/visualstudio/subscriptions/vs-m365).
 
@@ -38,7 +38,7 @@ To get your new Microsoft 365 E5 developer subscription, go to your dashboard�
 1. Confirm that you want to delete your subscription by typing the name of your domain in the dialog box. 
 1. The setup process for your new Microsoft 365 E5 subscription starts automatically. 
 
-After you delete your Office 365 E3 subscription and create a Microsoft 365 E5 subscription, your Office 365 E3 tenant will be available for 60 days so that you can migrate your data. 
+After you delete your Office 365 E3 subscription and create a Microsoft 365 E5 subscription, your Office 365 E3 tenant is available for 60 days.  Be sure to migrate your data before that 60-day period expires. 
 
 ## More information about the Microsoft 365 E5 developer subscription offer
 
