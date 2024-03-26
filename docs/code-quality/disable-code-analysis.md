@@ -74,7 +74,7 @@ This page lets you disable code analysis in Visual Studio. There are limitations
 
   This article applies to source code analysis and not to legacy (binary) analysis. For information about disabling legacy analysis, see [Enable and disable binary code analysis for managed code](how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md).
 
-## [.NET Core, .NET Standard, and .NET 5+ projects](#net-core-net-standard-and-net-5-projects) projects
+## .NET Core, .NET Standard, and .NET 5+ projects
 
 Visual Studio 2019 version 16.3 and later provides two checkboxes in the **Code Analysis** properties page that lets you control whether analyzers run at build time and design time. These options are project-specific.
 
