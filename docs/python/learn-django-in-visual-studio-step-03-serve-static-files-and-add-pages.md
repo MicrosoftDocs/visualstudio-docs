@@ -73,7 +73,7 @@ You can organize the files within *static* using any folder structure that you l
     }
     ```
 
-1. Replace the contents of the app's *templates/HelloDjangoApp/index.html* file with the following code. The code replaces the `<strong>` element used in step 2 with a `<span>` that references the `message` style class. Using a style class gives you more flexibility in styling the element. (If you haven't moved the *index.html* file into a subfolder in *templates* when using VS 2017 15.7 and earlier, refer to [template namespacing](learn-django-in-visual-studio-step-02-create-an-app.md#template-namespacing) in step 2-4.)
+1. Replace the contents of the app's *templates/HelloDjangoApp/index.html* file with the following code. The code replaces the `<strong>` element used in step 2 with a `<span>` that references the `message` style class. Using a style class gives you more flexibility in styling the element.
 
     ```html
     <html>
@@ -88,7 +88,7 @@ You can organize the files within *static* using any folder structure that you l
     </html>
     ```
 
-1. Run the project to observe the results. When you're done, stop the server and commit your changes to source control if you like (as explained in [step 2](learn-django-in-visual-studio-step-02-create-an-app.md#commit-to-source-control)).
+1. Run the project to observe the results. When you're done, stop the server and [commit your changes to source control](learn-django-in-visual-studio-step-02-create-an-app.md#commit-changes-to-source-control) as described in Step 2 in this tutorial series.
 
 ### Question: What is the purpose of the {% load static %} tag?
 
@@ -292,7 +292,7 @@ The following steps demonstrate inheritance:
 
     :::image type="content" source="media/django/step-03-navigation-bar.png" alt-text="Running app showing the nav bar.":::
 
-6. Because you'd made substantial changes to the app, it's again a good time to [commit your changes to source control](learn-django-in-visual-studio-step-02-create-an-app.md#commit-to-source-control).
+6. Because you'd made substantial changes to the app, it's again a good time to [commit your changes to source control](learn-django-in-visual-studio-step-02-create-an-app.md#commit-changes-to-source-control).
 
 ## Next steps
 

@@ -38,7 +38,7 @@ Python development isn't currently supported in Visual Studio for Mac. On Mac an
 
 In Django terminology, a _Django project_ has several site-level configuration files along with one or more "apps." To create a full web application, you can deploy these apps to a web host. A Django project can contain multiple apps, and the same app can be in multiple Django projects.
 
-A Visual Studio project can contain the Django project along with multiple apps. In this tutorial series, the term "project" refers to the Visual Studio project. When the content refers to the "Django project" portion of the web application, it's referring to a "Django project" specifically.
+A Visual Studio project can contain the Django project along with multiple apps. In this tutorial series, the term "project" refers to the Visual Studio project. When the content refers to the "Django project" portion of the web application, it's referring to a "Django project" specifically.[](#create-django-app-with-default-structure)
 
 ## Create Django app with default structure
 
@@ -59,7 +59,7 @@ Follow these steps to create the app from a template:
    ::: moniker-end
    ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/django/step02-new-item.png" alt-text="Screenshot that shows how to add a new item to a project in Solution Explorer in Visual Studio." border="false" lightbox="media/django/step02-new-item.png":::
+   :::image type="content" source="media/django/step02-new-item.png" alt-text="Screenshot that shows how to add a new item to a project in Solution Explorer in Visual Studio." lightbox="media/django/step02-new-item.png":::
 
    ::: moniker-end
 
@@ -76,7 +76,7 @@ Follow these steps to create the app from a template:
    ::: moniker-end
    ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/django/step02-add-new-item.png" alt-text="Screenshot that shows how to configure the Django 1.9 App template in Visual Studio." border="false" lightbox="media/django/step02-add-new-item.png":::
+   :::image type="content" source="media/django/step02-add-new-item.png" alt-text="Screenshot that shows how to configure the Django 1.9 App template in Visual Studio." lightbox="media/django/step02-add-new-item.png":::
 
    ::: moniker-end
 
@@ -93,7 +93,7 @@ Follow these steps to create the app by using the integrated Django menu command
    ::: moniker-end
    ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/django/step02-add-django-app-command.png" alt-text="Screenshot that shows how to add a new Django app from the context menu in Solution Explorer in Visual Studio." border="false" lightbox="media/django/step02-add-django-app-command.png":::
+   :::image type="content" source="media/django/step02-add-django-app-command.png" alt-text="Screenshot that shows how to add a new Django app from the context menu in Solution Explorer in Visual Studio." lightbox="media/django/step02-add-django-app-command.png":::
 
    ::: moniker-end
 
@@ -106,7 +106,7 @@ Follow these steps to create the app by using the integrated Django menu command
    ::: moniker-end
    ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/django/step-02-django-app-name.png" alt-text="Screenshot that shows how to enter a name for the new Django app in the popup dialog in Visual Studio." border="false":::
+   :::image type="content" source="media/django/step-02-django-app-name.png" alt-text="Screenshot that shows how to enter a name for the new Django app in the popup dialog in Visual Studio.":::
 
    ::: moniker-end
 
@@ -123,7 +123,7 @@ When you create the **HelloDjangoApp** app, Visual Studio creates a folder with 
 ::: moniker-end
 ::: moniker range="<=vs-2019"
 
-:::image type="content" source="media/django/step02-django-app-in-solution-explorer.png" alt-text="Screenshot that shows the Django subfolder with app files in Solution Explorer in Visual Studio." border="false" lightbox="media/django/step02-django-app-in-solution-explorer.png":::
+:::image type="content" source="media/django/step02-django-app-in-solution-explorer.png" alt-text="Screenshot that shows the Django subfolder with app files in Solution Explorer in Visual Studio." lightbox="media/django/step02-django-app-in-solution-explorer.png":::
 
 ::: moniker-end
 
@@ -250,7 +250,7 @@ After you update the Django app code and test the updates, you can review and co
 
 1. Select the uncommitted changes (pencil 11) at the bottom right in Visual Studio, which opens **Team Explorer**:
 
-   :::image type="content" source="media/django/step-02-source-control-changes-button.png" alt-text="Screenshot that shows the source control changes option on the Visual Studio status bar." border="false" lightbox="media/django/step-02-source-control-changes-button.png":::
+   :::image type="content" source="media/django/step02-source-control-changes-button.png" alt-text="Screenshot that shows the source control changes option on the Visual Studio status bar." lightbox="media/django/step02-source-control-changes-button.png":::
 
 1. In **Team Explorer**, enter a commit message like "Create Django app-specific page" and select **Commit All**.
 
@@ -262,7 +262,7 @@ After you update the Django app code and test the updates, you can review and co
    
    1. Expand the **Outgoing Commits** and select **Push**.
 
-   :::image type="content" source="media/django/step-02-source-control-push-to-remote.png" alt-text="Screenshot that shows how to sync and push commits to a remote repository in Team Explorer." border="false" lightbox="media/django/step-02-source-control-push-to-remote.png":::
+   :::image type="content" source="media/django/step-02-source-control-push-to-remote.png" alt-text="Screenshot that shows how to sync and push commits to a remote repository in Team Explorer." lightbox="media/django/step-02-source-control-push-to-remote.png":::
 
    You can also accumulate multiple local commits before you push them to the remote repository.
 
