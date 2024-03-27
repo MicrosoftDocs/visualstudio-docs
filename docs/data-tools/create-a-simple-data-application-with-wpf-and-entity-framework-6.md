@@ -10,6 +10,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Create a simple data application with WPF and Entity Framework 6
 
 ::: moniker range="vs-2022"
@@ -21,7 +22,7 @@ This walkthrough shows how to create a basic "forms over data" application in Vi
 
 This article focuses on using data tools in Visual Studio, and does not attempt to explain the underlying technologies in any depth. It assumes that you have a basic familiarity with XAML, Entity Framework, and SQL. This example also does not demonstrate Model-View-ViewModel (MVVM) architecture, which is standard for WPF applications. However, you can copy this code into your own MVVM application with few modifications.
 
-The final code for this tutorial can be found in GitHub at [VS Tutorial Samples - EF6](https://github.com/MicrosoftDocs/vs-tutorial-samples/tree/master/ef6).
+The final code for this tutorial can be found in GitHub at [Microsoft Visual Studio Tutorial Samples - EF6](https://github.com/MicrosoftDocs/vs-tutorial-samples/tree/master/ef6).
 
 ## Install and connect to Northwind
 
@@ -177,7 +178,7 @@ It is possible to write your own databinding code, but it is much easier to let 
 
      :::code language="csharp" source="../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs" id="Snippet2":::
 
-1. Press **F5**. You should see the details for the first customer that was retrieved into the CollectionViewSource. You should also see their orders in the data grid. The formatting isn't great, so let's fix that up. You can also create a way to view the other records and do basic CRUD operations.
+1. Press **F5**. You should see the details for the first customer that was retrieved into the CollectionViewSource. You should also see their orders in the data grid. The formatting isn't great, so let's fix that up. You can also create a way to view the other records and do basic create, read, update, and delete (CRUD) operations.
 
 ## Adjust the page design and add grids for new customers and orders
 

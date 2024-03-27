@@ -11,11 +11,12 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Create a simple data application by using ADO.NET
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
-When you create an application that manipulates data in a database, you perform basic tasks such as defining connection strings, inserting data, and running stored procedures. By following this topic, you can discover how to interact with a database from within a simple Windows Forms "forms over data" application by using Visual C# or Visual Basic and ADO.NET. All .NET data technologies—including datasets, LINQ to SQL, and Entity Framework—ultimately perform steps that are very similar to those shown in this article.
+When you create an application that manipulates data in a database, you perform basic tasks such as defining connection strings, inserting data, and running stored procedures. By following this topic, you can discover how to interact with a database from within a simple Windows Forms "forms over data" application by using Visual C# or Visual Basic and ADO.NET. All .NET data technologies—including datasets, language integrated query (LINQ) to SQL, and Entity Framework—ultimately perform steps that are very similar to those shown in this article.
 
 This article demonstrates a simple way to quickly get data out of a database. If your application needs to modify data in nontrivial ways and update the database, you should consider using Entity Framework and using data binding to automatically sync user interface controls to changes in the underlying data.
 
@@ -90,7 +91,7 @@ Create the sample database by following these steps:
 
 **NewCustomer form**
 
-![Add  a new customer and place an order](../data-tools/media/simpleappnewcust.png)
+![Add a new customer and place an order](../data-tools/media/simpleappnewcust.png)
 
 |Controls for the NewCustomer form|Properties|
 | - |----------------|
@@ -118,6 +119,7 @@ Create the sample database by following these steps:
 |Button|Name = btnFinishUpdates|
 
 ## Store the connection string
+
 When your application tries to open a connection to the database, your application must have access to the connection string. To avoid entering the string manually on each form, store the string in the *App.config* file in your project, and create a method that returns the string when the method is called from any form in your application.
 
 You can find the connection string by right-clicking on the **Sales** data connection in **Server Explorer** and choosing **Properties**. Locate the **ConnectionString** property, then use **Ctrl**+**A**, **Ctrl**+**C** to select and copy the string to the clipboard.
@@ -164,9 +166,11 @@ Double-click the three buttons on the Navigation form to create empty event hand
 In the code page for the Navigation form, complete the method bodies for the three button-click event handlers as shown in the following code.
 
 ### [C#](#tab/csharp)
+
 :::code language="csharp" source="../data-tools/codesnippet/CSharp/SimpleDataApp/Navigation.cs" id="Snippet1":::
 
 ### [VB](#tab/vb)
+
 :::code language="vb" source="../data-tools/codesnippet/VisualBasic/SimpleDataApp/Navigation.vb" id="Snippet1":::
 ---
 
@@ -188,14 +192,17 @@ To complete the NewCustomer form logic, follow these steps.
 1. Bring the `System.Data.SqlClient` namespace into scope so that you don't have to fully qualify the names of its members.
 
      ### [C#](#tab/csharp)
+
      ```csharp
      using System.Data.SqlClient;
      ```
 
      ### [VB](#tab/vb)
+
      ```vb
      Imports System.Data.SqlClient
      ```
+
      ---
 
 2. Add some variables and helper methods to the class as shown in the following code.
@@ -231,16 +238,19 @@ To complete the FillOrCancel form logic, follow these steps.
 1. Bring the following two namespaces into scope so that you don't have to fully qualify the names of their members.
 
      ### [C#](#tab/csharp)
+
      ```csharp
      using System.Data.SqlClient;
      using System.Text.RegularExpressions;
      ```
 
      ### [VB](#tab/vb)
+
      ```vb
      Imports System.Data.SqlClient
      Imports System.Text.RegularExpressions
      ```
+
      ---
 
 2. Add a variable and helper method to the class as shown in the following code.
