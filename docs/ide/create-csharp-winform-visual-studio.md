@@ -24,15 +24,17 @@ In this tutorial, you create a simple C# application that has a Windows-based us
 
 ## Prerequisites
 
-::: moniker range="<=vs-2019"
+::: moniker range="=vs-2019"
 
 - If you don't have Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-create-csharp-winform-app-page-cta) page to install it for free.
+- The **.NET desktop development** workload. To verify or install this workload in Visual Studio, select **Tools** > **Get Tools and Features**.
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
 - If you don't have Visual Studio, go to the [Visual Studio 2022 downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download--create-csharp-winform-app-page-cta) page to install it for free.
+- The **.NET desktop development** workload. To verify or install this workload in Visual Studio, select **Tools** > **Get Tools and Features**.
 
 ::: moniker-end
 
@@ -40,7 +42,7 @@ In this tutorial, you create a simple C# application that has a Windows-based us
 
 First, create a C# application project. The project type comes with all the template files you need to create your application.
 
-::: moniker range="<=vs-2019"
+::: moniker range="=vs-2019"
 
 1. Open Visual Studio.
 
@@ -53,17 +55,6 @@ First, create a C# application project. The project type comes with all the temp
    :::image type="content" source="../get-started/csharp/media/vs-2019/csharp-create-new-winforms-project-nonfiltered.png" alt-text="Screenshot shows the  Windows Forms App (.NET Framework) for C#." lightbox="../get-started/csharp/media/vs-2019/csharp-create-new-winforms-project-nonfiltered.png":::
 
    You can refine your search to quickly get to the template you want. For example, enter *Windows Forms App* in the search box. Next, choose **C#** from the language list, and then choose **Windows** from the platform list.  
-
-   > [!NOTE]
-   > If you don't see the **Windows Forms App (.NET Framework)** template, you can install it. In the **Not finding what you're looking for?** message, select **Install more tools and features**.
-   >
-   > :::image type="content" source="../get-started/media/vs-2019/not-finding-what-looking-for.png" alt-text="Screenshot shows the Install more tools and features link in the Create new project window.":::
-   >
-   > Next, in the Visual Studio Installer, select the **.NET desktop development** workload.
-   >
-   > :::image type="content" source="../ide/media/install-dot-net-desktop-env.png" alt-text="Screenshot shows .NET Core workload in the Visual Studio Installer.":::
-   >
-   > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Choose **Continue** to install the workload. Then, return to the previous step in this procedure.
 
 1. In **Configure your new project**, for **Project name**, enter *HelloWorld* and select **Create**.
 
@@ -87,17 +78,6 @@ First, create a C# application project. The project type comes with all the temp
 
     :::image type="content" source="media/vs-2022/csharp-winform-create-a-new-project.png" alt-text="Screenshot shows the C# template for the Windows Forms App (.NET Framework)." lightbox="media/vs-2022/csharp-winform-create-a-new-project.png":::
 
-   > [!NOTE]
-   > If you don't see the **Windows Forms App (.NET Framework)** template, you can install it. In the **Not finding what you're looking for?** message, select **Install more tools and features**.
-   >
-   > :::image type="content" source="../get-started/media/vs-2019/not-finding-what-looking-for.png" alt-text="Screenshot shows the Install more tools and features link in the Create new project window.":::
-   >
-   > Next, in the Visual Studio Installer, select the **.NET desktop development** workload.
-   >
-   > :::image type="content" source="media/vs-2022/install-dot-net-desktop-env.png" alt-text="Screenshot that shows .NET Core workload in the Visual Studio Installer.":::
-   >
-   > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Choose **Continue** to install the workload. Then, return to the previous step in this procedure.
-
 1. In the **Configure your new project** window, in **Project name**, enter *HelloWorld*, and select **Create**.
 
     :::image type="content" source="media/vs-2022/csharp-winform-configure-new-project.png" alt-text="Screenshot shows the Configure your new project window for your project named HelloWorld.":::
@@ -108,9 +88,9 @@ First, create a C# application project. The project type comes with all the temp
 
 ## Create the application
 
-::: moniker range="<=vs-2019"
+::: moniker range="=vs-2019"
 
-After you select your C# project template and name your project, Visual Studio opens a form for you. A form is a Windows user interface. Create a *Hello World* application by adding controls to the form. Then run the app.
+After you select your C# project template and name your project, Visual Studio opens a form for you. A form is a Windows user interface. Create a *Hello World* application by adding controls to the form. Then [run the app](#run-the-application).
 
 ### Add a button to the form
 
@@ -159,25 +139,11 @@ After you add a button control to create an action, add a label control to send 
 
    :::image type="content" source="../get-started/csharp/media/csharp-winforms-add-code.png" alt-text="Screenshot shows the code window where you add code to the form.":::
 
-## Run the application
-
-1. Select the **Start** button to run the application.
-
-   :::image type="content" source="../ide/media/vb-click-start-hello-world.png" alt-text="Screenshot shows the Start button to debug and run the app.":::
-
-   Several things happen. In the Visual Studio IDE, the **Diagnostics Tools** window opens, and an **Output** window opens, too. But outside of the IDE, a **Form1** dialog box appears. It includes your **Click this** button and text that says **Label1**.
-
-1. Choose the **Click this** button in the **Form1** dialog box. Notice that the **Label1** text changes to **Hello World!**.
-
-    :::image type="content" source="../ide/media/vb-form1-dialog-hello-world.png" alt-text="Screenshot shows your app, which is a Form1 dialog box that includes Label1 text.":::
-
-1. Close the **Form1** dialog box to stop running the app.
-
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-After you select your C# project template and name your project, Visual Studio opens a form for you. A form is a Windows user interface. Create a *Hello World* application by adding controls to the form. Then run the app.
+After you select your C# project template and name your project, Visual Studio opens a form for you. A form is a Windows user interface. Create a *Hello World* application by adding controls to the form. Then [run the app](#run-the-application).
 
 ### Add a button to the form
 
@@ -226,8 +192,25 @@ After you add a button control to create an action, add a label control to send 
 
    :::image type="content" source="media/vs-2022/csharp-winform-button-click-code.png" alt-text="Screenshot that shows where to add code to the form.":::
 
+::: moniker-end
+
 ## Run the application
 
+::: moniker range="=vs-2019"
+1. Select the **Start** button to run the application.
+
+   :::image type="content" source="../ide/media/vb-click-start-hello-world.png" alt-text="Screenshot shows the Start button to debug and run the app.":::
+
+   Several things happen. In the Visual Studio IDE, the **Diagnostics Tools** window opens, and an **Output** window opens, too. But outside of the IDE, a **Form1** dialog box appears. It includes your **Click this** button and text that says **Label1**.
+
+1. Choose the **Click this** button in the **Form1** dialog box. Notice that the **Label1** text changes to **Hello World!**.
+
+    :::image type="content" source="../ide/media/vb-form1-dialog-hello-world.png" alt-text="Screenshot shows your app, which is a Form1 dialog box that includes Label1 text.":::
+
+1. Close the **Form1** dialog box to stop running the app.
+::: moniker-end
+
+::: moniker range=">=vs-2022"
 1. Select the **Start** button to run the application.
 
    :::image type="content" source="media/vs-2022/csharp-winform-visual-studio-start-run-program.png" alt-text="Screenshot shows the Start button to debug and run the app.":::
@@ -242,15 +225,15 @@ After you add a button control to create an action, add a label control to send 
 
 ::: moniker-end
 
-## Try other tutorials
-
-- [C# tutorials](../get-started/csharp/index.yml)
-- [Visual Basic tutorials](../get-started/visual-basic/index.yml)
-- [C++ tutorials](/cpp/get-started/tutorial-console-cpp)
-
-## Next step
+## Related content
 
 Congratulations on completing this tutorial. To learn more, continue with the following tutorial:
 
 > [!div class="nextstepaction"]
 > [Tutorial: Create a picture viewer](tutorial-windows-forms-picture-viewer-layout.md)
+
+Or try these other tutorials:
+
+- [C# tutorials](../get-started/csharp/index.yml)
+- [Visual Basic tutorials](../get-started/visual-basic/index.yml)
+- [C++ tutorials](/cpp/get-started/tutorial-console-cpp)
