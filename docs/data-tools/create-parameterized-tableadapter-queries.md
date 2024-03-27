@@ -36,7 +36,7 @@ You create parameterized TableAdapter queries in the **Dataset Designer**.You ca
 
 - Create a new TableAdapter, adding a WHERE clause with the desired parameters to the SQL statement. For more information, see [Create and configure TableAdapters](../data-tools/create-and-configure-tableadapters.md).
 
-- or-
+    or
 
 - Add a query to an existing TableAdapter, adding a WHERE clause with the desired parameters to the SQL statement.
 
@@ -61,7 +61,7 @@ You create parameterized TableAdapter queries in the **Dataset Designer**.You ca
 
 4. Type a name in the **New query name** box if you are creating a new query.
 
-- or-
+    or
 
      Select a query in the **Existing query name** box.
 
