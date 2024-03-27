@@ -1,6 +1,6 @@
 ---
 title: Suppress code analysis violations
-description: Learn how to suppress code analysis violations in Visual Studio. Understand how to use the SuppressMessageAttribute attribute for in-source suppression.
+description: Learn how to suppress code analysis violations in Visual Studio from the code editor and Error List window. Understand how create a global suppression file and to use the SuppressMessageAttribute attribute for in-source suppression.
 author: mikadumont
 ms.author: midumont
 manager: mijacobs
@@ -61,7 +61,7 @@ To suppress violations using the **Error List** window, follow these steps:
 
 1. In the **Preview Changes** dialog, select **Apply**.
 
-### Exclude Error List build diagnostics 
+### Exclude Error List build diagnostics
 
 If you don't see the **Suppress** menu option in the **Error List** window, the violation is likely from the build and not live analysis. The **Error List** window displays diagnostics, or rule violations, from both live code analysis and builds. Because the build diagnostics can be stale, for example, if you edited the code to fix the violation but didn't rebuild it, you can't always suppress these diagnostics from the **Error List**.
 
@@ -85,7 +85,7 @@ To suppress violations using the **Error List** window, follow these steps:
 
 1. Right-click, and then select **Suppress** > **in Suppression File**.
 
-   The **Preview Changes** dialog box opens and shows a preview of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute added to the global suppressions file.
+   The **Preview Changes** dialog box opens and shows a preview of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute added to the global suppression file.
 
    ![Screenshot that shows the Preview Changes dialog box with a SuppressMessage attribute in the suppression file.](media/preview-changes-in-suppression-file.png)
 
@@ -170,7 +170,7 @@ The properties of the attribute include:
 
   - [`module`](#module-suppression-scope): This scope suppresses warnings against an assembly. It's a global suppression that applies to the entire project.
 
-  - `resource`: ([legacy FxCop](../code-quality/static-code-analysis-for-managed-code-overview.md) only) This scope suppresses warnings in diagnostic info written to resource files that are part of the module (assembly). This scope isn't read or respected in C#/VB compilers for Roslyn analyzer diagnostics, which only analyze source files.
+  - `resource`: ([Legacy FxCop](../code-quality/static-code-analysis-for-managed-code-overview.md) only) This scope suppresses warnings in diagnostic info written to resource files that are part of the module (assembly). This scope isn't read or respected in C#/VB compilers for Roslyn analyzer diagnostics, which only analyze source files.
 
   - `type`: This scope suppresses warnings against a type.
 
