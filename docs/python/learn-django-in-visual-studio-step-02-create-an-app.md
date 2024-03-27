@@ -38,7 +38,7 @@ Python development isn't currently supported in Visual Studio for Mac. On Mac an
 
 In Django terminology, a _Django project_ has several site-level configuration files along with one or more "apps." To create a full web application, you can deploy these apps to a web host. A Django project can contain multiple apps, and the same app can be in multiple Django projects.
 
-A Visual Studio project can contain the Django project along with multiple apps. In this tutorial series, the term "project" refers to the Visual Studio project. When the content refers to the "Django project" portion of the web application, it's referring to a "Django project" specifically.[](#create-django-app-with-default-structure)
+A Visual Studio project can contain the Django project along with multiple apps. In this tutorial series, the term "project" refers to the Visual Studio project. When the content refers to the "Django project" portion of the web application, it's referring to a "Django project" specifically.
 
 ## Create Django app with default structure
 
