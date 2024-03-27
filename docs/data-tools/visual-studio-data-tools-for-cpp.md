@@ -10,6 +10,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Visual Studio data tools for C++
 
 Native C++ can often provide the fastest performance when you are accessing data sources. However, data tooling for C++ applications in Visual Studio is not as rich as it is for .NET applications. For example, the **Data Sources** window cannot be used to drag and drop data sources onto a C++ design surface. If you need an object-relational layer, you will have to write your own, or use a third-party product. The same is true for data-binding functionality, although applications that use the Microsoft Foundation Class library can use some database classes, together with documents and views, to store data in memory and display it to the user. For more information, see [Data Access in Visual C++](/cpp/data/data-access-in-cpp).
@@ -34,7 +35,7 @@ To take advantage of custom functionality in SQL Server 2005 and later, use the 
 
 4. Download the ODBC Windows SDK Sample, and unzip it to a new location. This sample shows the basic ODBC commands that are used to connect to a database and issue queries and commands. You can learn more about those functions in the [Microsoft Open Database Connectivity (ODBC)](/sql/odbc/microsoft-open-database-connectivity-odbc). When you first load the solution (it's in the C++ folder), Visual Studio will offer to upgrade the solution to the current version of Visual Studio. Click **Yes**.
 
-5. To use the native client, you need its *header* file and *lib* file. These files contain functions and definitions specific to SQL Server, beyond the ODBC functions defined in sql.h. In **Project** > **Properties** > **VC++ Directories**, add the following include directory:
+5. To use the native client, you need its *header* file and *lib* file. These files contain functions and definitions specific to SQL Server, beyond the ODBC functions defined in SQL.h. In **Project** > **Properties** > **VC++ Directories**, add the following include directory:
 
    **%ProgramFiles%\Microsoft SQL Server\110\SDK\Include**
 

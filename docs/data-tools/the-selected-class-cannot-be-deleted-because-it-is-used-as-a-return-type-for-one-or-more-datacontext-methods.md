@@ -8,6 +8,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # The selected class cannot be deleted because it is used as a return type for one or more DataContext methods
 
 The return type of one or more <xref:System.Data.Linq.DataContext> methods is the selected entity class. Deleting an entity class that is used as the return type for a <xref:System.Data.Linq.DataContext> method causes the compilation of the project to fail. To delete the selected entity class, identify the <xref:System.Data.Linq.DataContext> methods that use it and set their return types to a different entity class.
@@ -22,4 +23,4 @@ To revert the return types of <xref:System.Data.Linq.DataContext> methods to the
 
 ## See also
 
-- [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
+- [language integrated query (LINQ) to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
