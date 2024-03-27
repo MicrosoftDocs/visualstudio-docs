@@ -262,7 +262,7 @@ After you update the Django app code and test the updates, you can review and co
    
    1. Expand the **Outgoing Commits** and select **Push**.
 
-   :::image type="content" source="media/django/step-02-source-control-push-to-remote.png" alt-text="Screenshot that shows how to sync and push commits to a remote repository in Team Explorer." lightbox="media/django/step-02-source-control-push-to-remote.png":::
+   :::image type="content" source="media/django/step02-source-control-push-to-remote.png" alt-text="Screenshot that shows how to sync and push commits to a remote repository in Team Explorer." lightbox="media/django/step02-source-control-push-to-remote.png":::
 
    You can also accumulate multiple local commits before you push them to the remote repository.
 

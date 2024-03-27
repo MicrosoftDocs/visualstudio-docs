@@ -1,8 +1,7 @@
 ---
-title: Django in Visual Studio tutorial Step 1, Django basics
+title: Django in Visual Studio tutorial Step 1
 titleSuffix: ""
-description: Overview and Step 1 of a core walkthrough of Django capabilities in Visual Studio, including prerequisites, Git, virtual environments, and creating 
-the initial components of a Django web app project.
+description: Overview and Step 1 of a core walkthrough of Django capabilities in Visual Studio.
 ms.date: 03/26/2024
 ms.topic: tutorial
 author: cwebster-99
@@ -340,7 +339,7 @@ In this section, you examine the boilerplate code in the Project file (_.py_) th
    ::: moniker-end
    ::: moniker range="<=vs-2019"
 
-    :::image type="content" source="media/django/step01-django-commands-menu.png" alt-text="Screenshot that shows the initial Django project files in Solution Explorer." border="false" lightbox="media/django/step01-django-commands-menu.png"::: 
+   :::image type="content" source="media/django/step01-django-commands-menu.png" alt-text="Screenshot that shows the initial Django project files in Solution Explorer." border="false" lightbox="media/django/step01-django-commands-menu.png"::: 
 
    ::: moniker-end
 

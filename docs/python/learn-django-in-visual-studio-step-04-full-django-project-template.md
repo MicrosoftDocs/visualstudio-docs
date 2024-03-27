@@ -52,7 +52,7 @@ The template also provides basic authentication, which is covered in [Step 5](le
 
 1. You can leave the app running for the sections that follow.
 
-    If you want to stop the app and [commit changes to source control](learn-django-in-visual-studio-step-02-create-an-app.md##commit-changes-to-source-control), open the **Changes** page in **Team Explorer**, right-click the folder for the virtual environment (probably **env**), and select **Ignore these local items**.
+    If you want to stop the app and [commit changes to source control](learn-django-in-visual-studio-step-02-create-an-app.md#commit-changes-to-source-control), open the **Changes** page in **Team Explorer**, right-click the folder for the virtual environment (probably **env**), and select **Ignore these local items**.
 
 ### Examine what the template creates
 
