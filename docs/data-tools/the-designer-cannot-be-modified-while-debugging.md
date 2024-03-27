@@ -17,4 +17,4 @@ To correct this error, select **Stop Debugging** on the **Debug** menu. The appl
 
 ## See also
 
-- [language integrated query (LINQ) to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
+- [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)

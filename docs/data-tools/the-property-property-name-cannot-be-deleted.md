@@ -27,4 +27,4 @@ Set the **Discriminator Property** to a different property of the data class to 
 
 ## See also
 
-- [language integrated query (LINQ) to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
+- [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
