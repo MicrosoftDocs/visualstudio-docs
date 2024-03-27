@@ -1,7 +1,8 @@
 ---
-title: Django in Visual Studio tutorial step 1, Django basics
+title: Django in Visual Studio tutorial Step 1, Django basics
 titleSuffix: ""
-description: Overview and Step 1 of a core walkthrough of Django capabilities in Visual Studio, including prerequisites, Git, virtual environments, and creating a new Django web project.
+description: Overview and Step 1 of a core walkthrough of Django capabilities in Visual Studio, including prerequisites, Git, virtual environments, and creating 
+the initial components of a Django web app project.
 ms.date: 03/25/2024
 ms.topic: tutorial
 author: cwebster-99
@@ -9,7 +10,7 @@ ms.author: cowebster
 manager: mijacobs
 ms.subservice: python
 
-# CustomerIntent: As a developer, I want to create Django web applications in Visual Studio so I can support my Django development needs.
+# CustomerIntent: As a developer, I want to create Django projects and applications in Visual Studio so I can support my Django development needs.
 ---
 
 # Tutorial: Work with the Django web framework in Visual Studio
@@ -19,7 +20,7 @@ This article is the first Step in a five part tutorial series that demonstrates 
 In Step 1 of the tutorial, you learn how to:
 
 > [!div class="checklist"]
-> - Create a Django web app by using the **Blank Django Web Project** template
+> - Create a Django web app project by using the **Blank Django Web Project** template
 > - Examine the boilerplate code and run the app
 > - Create a Git repository for the Django web app
 > - Work with Git source code controls
