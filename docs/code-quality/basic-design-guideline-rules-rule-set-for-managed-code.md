@@ -18,6 +18,8 @@ The Basic Design Guideline Rules include all the rules in the [Managed Recommend
 
 The following table describes all of the rules in the Microsoft Basic Design Guideline Rules rule set.
 
+<!-- docutune:disable -->
+
 |Rule|Description|
 |----------|-----------------|
 |[CA1000](/dotnet/fundamentals/code-analysis/quality-rules/ca1000)|Do not declare static members on generic types|

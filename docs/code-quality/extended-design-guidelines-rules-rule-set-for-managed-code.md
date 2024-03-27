@@ -18,6 +18,8 @@ The Extended Design Guideline Rules include all rules in the [Basic Design Guide
 
 The following table describes all the rules in the Microsoft Extended Design Guideline Rules rule set.
 
+<!-- docutune:disable -->
+
 |Rule|Description|
 |----------|-----------------|
 |[CA1001](/dotnet/fundamentals/code-analysis/quality-rules/ca1001)|Types that own disposable fields should be disposable|
