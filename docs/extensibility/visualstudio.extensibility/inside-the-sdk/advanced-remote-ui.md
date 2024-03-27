@@ -69,8 +69,8 @@ To start, update `MyToolWindowContent.xaml` to show a list view and a button":
                     </Grid>
                 </DataTemplate>
             </ListView.ItemTemplate>
-        </ListView>        
-        <Button Content=**Add color** Command="{Binding AddColorCommand}" Grid.Row="1" />
+        </ListView>
+        <Button Content="Add color" Command="{Binding AddColorCommand}" Grid.Row="1" />
     </Grid>
 </DataTemplate>
 ```
@@ -168,7 +168,7 @@ This solution still has imperfect synchronization since, when the user clicks th
 A better solution is to use the `RunningCommandsCount` property of *async commands*:
 
 ```xml
-<Button Content=**Add color** Command="{Binding AddColorCommand}" IsEnabled="{Binding AddColorCommand.RunningCommandsCount.IsZero}" Grid.Row="1" />
+<Button Content="Add color" Command="{Binding AddColorCommand}" IsEnabled="{Binding AddColorCommand.RunningCommandsCount.IsZero}" Grid.Row="1" />
 ```
 
 `RunningCommandsCount` is a counter of how many concurrent async executions of the command are currently underway. This counter is incremented on the UI thread as soon as the button is clicked, which allows to synchronously disable the button by binding `IsEnabled` to `RunningCommandsCount.IsZero`.
