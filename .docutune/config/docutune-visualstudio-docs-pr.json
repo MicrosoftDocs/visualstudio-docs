@@ -49,6 +49,7 @@
     "*incorrect-backtick-spacing*",
     "product-azure-app-service",
     "*-caution-*",
-    "abbreviation-linq-language-integrated-query"
+    "abbreviation-linq-language-integrated-query",
+    "product-microsoft-visual-studio"
   ]
 }
