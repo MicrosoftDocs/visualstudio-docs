@@ -1,6 +1,6 @@
 ---
 title: Property listed twice
-description: 'Cannot create an association - property listed twice. View information about this Visual Studio Object Relational Designer (O/R Designer) message.'
+description: Cannot create an association - property listed twice. View information about this Visual Studio Object Relational Designer (O/R Designer) message.
 ms.date: 11/04/2016
 ms.topic: error-reference
 ms.subservice: data-tools
@@ -8,6 +8,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ---
+
 # Cannot create an association &lt;association name&gt; - property listed twice
 
 Cannot create an association \<association name>. The same property is listed more than once: \<property name>.
@@ -28,5 +29,5 @@ The property in the message appears more than one time in either the Parent or C
 
 ## See also
 
-- [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
+- [language integrated query (LINQ) to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
 - [How to: Create an association between LINQ to SQL classes (O/R Designer)](../data-tools/how-to-create-an-association-relationship-between-linq-to-sql-classes-o-r-designer.md)
