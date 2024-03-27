@@ -28,7 +28,7 @@ In Step 3 of the tutorial, you learn how to:
 
 ## Prerequisites
 
-- A Visual Studio solution and Django application project created in [Step 1: Create the Django project](learn-django-in-visual-studio-step-01-project-and-solution.md) and updated in [Step 3: Create a Django app with views and page templates](learn-django-in-visual-studio-step-01-create-an-app.md).
+- A Visual Studio solution and Django application project created in [Step 1: Create the Django project](learn-django-in-visual-studio-step-01-project-and-solution.md) and updated in [Step 2: Create a Django app with views and page templates](learn-django-in-visual-studio-step-02-create-an-app.md).
 
 ## Explore item templates in Visual Studio
 
