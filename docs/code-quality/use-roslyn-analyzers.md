@@ -12,6 +12,7 @@ helpviewer_keywords:
 - Roslyn analyzers
 ms.date: 03/20/2024
 ---
+
 # Customize Roslyn analyzer rules
 
 Each Roslyn analyzer rule, or *diagnostic*, has a default severity and suppression state that you can customize for your project. This article covers setting analyzer severities and suppressing analyzer violations.
@@ -50,7 +51,7 @@ Many diagnostics have one or more associated *code fixes* that you can apply to 
 `Silent` severity rules that are enabled by default differ from disabled or `None` severity rules:
 
 - If a code fix is registered for a `Silent` severity rule, Visual Studio offers the code fix as a light bulb code-refactoring action even if the hidden diagnostic isn't visible to the user. If the severity rule is disabled as `None`, the code fix isn't offered.
-- Entries that [set the severity of multiple analyzer rules at once in an EditorConfig file](#set-the-severity-of-multiple-analyzer-rules-at-once-in-an-editorconfig-file) can bulk configure `Silent` severity rules. `None` severity rules can’t be configured this way. Instead, they must be configured through entries that [set the severity in an EditorConfig file for each rule ID](#set-rule-severity-in-an-editorconfig-file).
+- Entries that [set the severity of multiple analyzer rules at once in an EditorConfig file](#set-the-severity-of-multiple-analyzer-rules-at-once-in-an-editorconfig-file) can bulk configure `Silent` severity rules. `None` severity rules can't be configured this way. Instead, they must be configured through entries that [set the severity in an EditorConfig file for each rule ID](#set-rule-severity-in-an-editorconfig-file).
 
 ### Set rule severity in an EditorConfig file
 
@@ -62,7 +63,7 @@ Setting a rule's severity in an EditorConfig file takes precedence over any seve
 
 To configure rule severity, follow these steps:
 
-1. [Add a EditorConfig file to your project](../ide/create-portable-custom-editor-options.md#add-an-editorconfig-file-to-a-project), if you don't already have one.
+1. [Add an EditorConfig file to your project](../ide/create-portable-custom-editor-options.md#add-an-editorconfig-file-to-a-project), if you don't already have one.
 
 1. Add an entry for each rule you want to configure under the corresponding file extension.
 
@@ -121,9 +122,9 @@ Visual Studio provides a convenient way to configure a rule's severity from the 
 
 1. From the light bulb menu, hover over a severity level for a preview of the change, and then configure the severity according to the following options:
 
-   - **Configure \<rule ID> severity**. Set the [severity](#configure-severity-levels) for the specific rule.
-   - **Configure severity for all \<style> analyzers**. Set the severity for all rules in the specific [rule category](/dotnet/fundamentals/code-analysis/categories).
-   - **Configure severity for all analyzers**. Set the severity for all categories of analyzer rules.
+   - **Configure \<rule ID> severity.** Set the [severity](#configure-severity-levels) for the specific rule.
+   - **Configure severity for all \<style> analyzers.** Set the severity for all rules in the specific [rule category](/dotnet/fundamentals/code-analysis/categories).
+   - **Configure severity for all analyzers.** Set the severity for all categories of analyzer rules.
 
       ::: moniker range=">=vs-2022"
       In the following example, select **Suppress or configure issues** > **Configure \<rule ID> severity**.
@@ -197,7 +198,7 @@ To set rule severity from a rule set file, follow these steps:
 
 1. Browse to the rule by expanding its containing assembly and select it.
 
-1. In the **Action** column of the selected rule, select the value to open a drop-down list, and then choose a severity level from the list.
+1. In the **Action** column of the selected rule, select the value to open a dropdown list, and then choose a severity level from the list.
 
    ![Screenshot that shows a rule set file open in the rule set editor with severity levels listed.](media/ruleset-file-in-editor.png)
 
