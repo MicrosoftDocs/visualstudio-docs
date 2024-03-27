@@ -6,6 +6,9 @@ ms.author: midumont
 manager: mijacobs
 ms.subservice: code-analysis
 ms.topic: how-to
+helpviewer_keywords:
+  - code analysis, disable
+  - disable code analysis
 ms.date: 03/25/2024
 ---
 
