@@ -23,4 +23,4 @@ The **Configure Behavior** dialog box enables you to configure `Insert`, `Update
 
 ## See also
 
-- [language integrated query (LINQ) to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
+- [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)

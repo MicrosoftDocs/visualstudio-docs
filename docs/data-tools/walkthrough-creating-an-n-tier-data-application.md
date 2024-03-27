@@ -142,7 +142,7 @@ The next step is to create a typed dataset. Typed datasets are created with both
 
      If a data connection to the Northwind sample database is available in the dropdown list, select it.
 
-- or-
+      or
 
      Select **New Connection** to open the **Add Connection** dialog box.
 
