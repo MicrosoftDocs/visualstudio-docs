@@ -7,7 +7,7 @@ manager: mijacobs
 ms.subservice: general-ide
 ms.topic: tutorial
 ms.date: 03/27/2024
-#customer intent: As a developer, I want to learn to use Visual Studio to create C# or VB WinForms projects, starting with adding a layout element.
+#customer intent: As a developer, I want to learn how to use Visual Studio to create C# or VB WinForms projects, starting with adding a layout element.
 ---
 # Tutorial: Create a picture viewer Windows Forms app in Visual Studio
 
@@ -23,7 +23,7 @@ In this first tutorial, you learn how to:
 
 ## Prerequisites
 
-You need Visual Studio to complete this tutorial.
+- You need Visual Studio to complete this tutorial.
 Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/) for a free version.
 
 ## Create your Windows Forms project
@@ -35,13 +35,13 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
 
 1. On the start window, select **Create a new project**.
 
-   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/create-new-project-dark-theme-2019.png" alt-text="Screenshot shows the Create a new project option in the Visual Studio start window.":::
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/create-new-project-dark-theme-2019.png" alt-text="Screenshot shows the Create a new project option in the Visual Studio 2019 start window.":::
 
 1. On the **Create a new project** window, search for *Windows Forms*. Then select **Desktop** from the **Project type** list.
 
 1. Select the **Windows Forms App (.NET Framework)** template for either C# or Visual Basic, and then select **Next**.
 
-   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/create-project-windows-forms.png" alt-text="Screenshot shows the Create a new project dialog box with Windows Forms entered and options for Windows Forms App.":::
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/create-project-windows-forms-2019.png" alt-text="Screenshot shows the Create a new project dialog box with Windows Forms entered and options for Windows Forms App in Visual Studio 2019.":::
 
    > [!NOTE]
    > If you don't see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, select the **Install more tools and features** link.
@@ -55,6 +55,8 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
    > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Next, select **Continue** to install the workload.
 
 1. In the **Configure your new project** window, name your project *PictureViewer*, then select **Create**.
+
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/configure-new-project-2019.png" alt-text="Screenshot shows the Configure your new project dialog box in Visual Studio 2019.":::
 
 ::: moniker-end
 
@@ -143,7 +145,7 @@ This section shows you how to change the title of your form, resize the form, an
    :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/table-layout-format-added.png" alt-text="Screenshot show the form with the TableLayoutPanel control added.":::
 
    > [!NOTE]
-   > After you add your TableLayoutPanel, if a window appears inside your form with the title **TableLayoutPanel Tasks**, click anywhere inside the form to close it.
+   > After you add your TableLayoutPanel, if a window appears inside your form with the title **TableLayoutPanel Tasks**, select anywhere inside the form to close it.
 
 1. Select the **TableLayoutPanel**.
    You can verify what control is selected by looking at the **Properties** window.
@@ -169,13 +171,13 @@ This section shows you how to change the title of your form, resize the form, an
 
 1. Select **Edit Rows and Columns** to display the **Column and Row Styles** dialog box.
 
-1. Select **Column1** and set its size to 15 percent. Be sure the **Percent** button is selected.
+1. Select **Column1** and set its size to 15 percent. Be sure the **Percent** option is selected.
 
 1. Select **Column2** and set it to 85 percent.
 
    :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/layout-column-row-styles-size-percent.png" alt-text="Screenshot shows TableLayoutPanel column and row styles.":::
 
-1. From **Show** at the top of the **Column and Row Styles** dialog box, select **Rows**. Set **Row1** to 90 percent and **Row2** to 10 percent. Select **OK** to save your changes. 
+1. From **Show** at the top of the **Column and Row Styles** dialog box, select **Rows**. Set **Row1** to 90 percent and **Row2** to 10 percent. Select **OK** to save your changes.
 
    Your TableLayoutPanel now has a large top row, a small bottom row, a small left column, and a large right column.
 
@@ -219,7 +221,7 @@ To run the app, follow these steps.
    - From the keyboard, enter **Shift**+**F5**.
    - Select **X** in the upper corner of the **Picture Viewer** window.
 
-   When you run your app from inside the Visual Studio IDE, it's *debugging*.
+   When you run your app from inside the Visual Studio IDE, it's called *debugging*.
    You run your application to find and fix bugs.
    You follow the same procedure to run and debug other programs.
    To learn more about debugging, see [First look at the debugger](../../debugger/debugger-feature-tour.md).
