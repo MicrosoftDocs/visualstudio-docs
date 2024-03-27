@@ -8,13 +8,14 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Configure inheritance by using the O/R Designer
 
 The **Object Relational Designer** (**O/R Designer**) supports the concept of single-table inheritance as it is often implemented in relational systems. In single-table inheritance, there is a single database table that contains fields for both parent information and child information. With relational data, a discriminator column contains the value that determines which class any record belongs to.
 
 For example, consider a `Persons` table that contains everyone employed by a company. Some people are employees and some people are managers. The `Persons` table contains a column named `EmployeeType` that has a value of 1 for managers and a value of 2 for employees; this is the discriminator column. In this scenario, you can create a subclass of employees and populate the class with only records that have an `EmployeeType` value of 2. You can also remove columns that do not apply from each of the classes.
 
-Creating an object model that uses inheritance (and corresponds to relational data) can be somewhat confusing. The following procedure outlines the steps required for configuring inheritance with the **O/R Designer**. Following generic steps without referring to an existing table and columns might be difficult, so a walkthrough that uses data is provided. For detailed step-by-step directions for configuring inheritance by using the **O/R Designer**, see [Walkthrough: Creating LINQ to SQL classes by using single-table inheritance (O/R Designer)](../data-tools/walkthrough-creating-linq-to-sql-classes-by-using-single-table-inheritance-o-r-designer.md).
+Creating an object model that uses inheritance (and corresponds to relational data) can be somewhat confusing. The following procedure outlines the steps required for configuring inheritance with the **O/R Designer**. Following generic steps without referring to an existing table and columns might be difficult, so a walkthrough that uses data is provided. For detailed step-by-step directions for configuring inheritance by using the **O/R Designer**, see [Walkthrough: Creating language integrated query (LINQ) to SQL classes by using single-table inheritance (O/R Designer)](../data-tools/walkthrough-creating-linq-to-sql-classes-by-using-single-table-inheritance-o-r-designer.md).
 
 ## To create inherited data classes
 
@@ -29,7 +30,7 @@ Creating an object model that uses inheritance (and corresponds to relational da
     > [!NOTE]
     > Click the **Inheritance** item in the **Toolbox** and release the mouse button, click the second copy of the class you created in step 3, and then click the first class you created in step 2. The arrow on the inheritance line points to the first class.
 
-5. In each class, delete any object properties that you do not want to appear and that are not used for associations. You receive an error if you attempt to delete object properties used for associations: [The property \<property name> cannot be deleted because it is participating in the association \<association name>](../data-tools/the-property-property-name-cannot-be-deleted-because-it-is-participating-in-the-association-association-name.md).
+5. In each class, delete any object properties that you do not want to appear and that are not used for associations. You receive an error if you attempt to delete object properties used for associations: The [property \<property name> cannot be deleted because it is participating in the association \<association name>](../data-tools/the-property-property-name-cannot-be-deleted-because-it-is-participating-in-the-association-association-name.md).
 
     > [!NOTE]
     > Because a derived class inherits the properties defined in its base class, the same columns cannot be defined in each class. (Columns are implemented as properties.) You can enable the creation of columns in the derived class by setting the inheritance modifier on the property in the base class. For more information, see [Inheritance basics (Visual Basic)](/dotnet/visual-basic/programming-guide/language-features/objects-and-classes/inheritance-basics).
