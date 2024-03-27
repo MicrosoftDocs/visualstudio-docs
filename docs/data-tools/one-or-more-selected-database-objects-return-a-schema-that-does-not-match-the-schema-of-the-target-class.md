@@ -8,6 +8,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # One or more selected database objects return a schema that does not match the schema of the target class
 
 One or more selected database objects return a schema that does not match the schema of the target class. Nothing has been added to the designer.
@@ -22,4 +23,4 @@ When you drag database objects onto existing entity classes, the data returned b
 
 ## See also
 
-- [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
+- [language integrated query (LINQ) to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
