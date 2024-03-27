@@ -1,15 +1,15 @@
 ---
 title: "Tutorial: Add controls to a picture viewer app"
-description: Add a picture box, a checkbox, and buttons to a picture viewer application in the Visual Studio integrated development environment (IDE).
+description: Add a picture box, a checkbox, and buttons to a picture viewer application in the Visual Studio integrated development environment.
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
 ms.topic: tutorial
 ms.date: 03/27/2024
-#customer intent: As a developer, I want to learn how to use layout elements to host controls in a Visual Studio WinForms project in C# or VB.
+#customer intent: As a developer, I want to learn how to use controls with layout elements in a Visual Studio WinForms project in C# or VB.
 ---
-# Tutorial: Add UI controls to the picture viewer Windows Forms app in Visual Studio
+# Tutorial: Add controls to the picture viewer Windows Forms app in Visual Studio
 
 In this series of three tutorials, you create a Windows Forms application that loads a picture and displays it.
 The Visual Studio Integrated Design Environment (IDE) provides the tools you need to create the app.
@@ -28,9 +28,10 @@ In this second tutorial, you learn how to:
 ## Prerequisites
 
 - This tutorial builds on the previous tutorial, [Create a picture viewer application](tutorial-windows-forms-picture-viewer-layout.md).
-Complete that tutorial first and use the project that you created for that tutorial.
+Complete that one first and start with the project that you created for that tutorial.
 
 ## Add controls to your application
+
 The Picture Viewer app uses a PictureBox control to display a picture.
 It uses a checkbox and several buttons to manage the picture and background and to close the app.
 You add the PictureBox and a checkbox from the Toolbox in the Visual Studio IDE.
@@ -44,7 +45,7 @@ You add the PictureBox and a checkbox from the Toolbox in the Visual Studio IDE.
    If you don't see it, select **View** > **Toolbox** from the menu bar or **Ctrl**+**Alt**+**X**.
    In the toolbox, expand **Common Controls**.
 
-1. Double-click **PictureBox** to add a PictureBox control to your form. Visual Studio IDE adds the PictureBox control to the first empty cell of the TableLayoutPanel.
+1. Double-click **PictureBox** to add a PictureBox control to your form. Visual Studio adds the PictureBox control to the first empty cell of the TableLayoutPanel.
 
 1. Choose the new **PictureBox** control to select it, and then select the black triangle on the new PictureBox control to display its task list.
 
@@ -62,17 +63,17 @@ You add the PictureBox and a checkbox from the Toolbox in the Visual Studio IDE.
    Then, in the **Toolbox**, double-click the **CheckBox** item to add a new CheckBox control.
    Your PictureBox takes up the first two cells in the TableLayoutPanel, so the CheckBox control is added to the lower-left cell.
 
-1. Choose the **Text** property and enter **Stretch**.
+1. Choose the **Text** property and enter *Stretch*.
 
-    :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-controls/checkbox-named-stretch.png" alt-text="Screenshot shows checkbox control named Stretch.":::
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-controls/checkbox-named-stretch.png" alt-text="Screenshot shows checkbox control named Stretch.":::
 
 ## Add buttons in a layout panel
 
-The controls so far have been added to the TableLayoutPanel.
+So far, you added controls to the TableLayoutPanel.
 These steps show you how to add four buttons to a new layout panel in the TableLayoutPanel.
 
 1. Select the TableLayoutPanel on the form.
-   Open the **Toolbox**, select **Containers**.
+   Open the **Toolbox**, and select **Containers**.
    Double-click **FlowLayoutPanel** to add a new control to the last cell of the TableLayoutPanel.
 
 1. Set the FlowLayoutPanel's **Dock** property to **Fill**.
@@ -87,12 +88,13 @@ These steps show you how to add four buttons to a new layout panel in the TableL
 
 1. Add two more buttons this way.
    Another option is to select **button2**. Then select **Edit** > **Copy** or **Ctrl**+**C**.
-   Next, choose **Edit** > **Paste** from the menu bar or press **Ctrl**+**V**.
-   To paste a copy of your button. Now paste it again. Notice that the IDE adds **button3** and **button4** to the FlowLayoutPanel.
+   Next, choose **Edit** > **Paste** from the menu bar or press **Ctrl**+**V** to paste a copy of your button.
+   Now paste it again.
+   Notice that the IDE adds **button3** and **button4** to the FlowLayoutPanel.
 
-1. Select the first button and set its **Text** property to **Show a picture**.
+1. Select the first button and set its **Text** property to *Show a picture*.
 
-1. Set the **Text** properties of the next three buttons to **Clear the picture**, **Set the background color**, and **Close**.
+1. Set the **Text** properties of the next three buttons to *Clear the picture*, *Set the background color*, and *Close*.
 
 1. To size the buttons and arrange them, select the FlowLayoutPanel. Set the **FlowDirection** property to **RightToLeft**.
 
@@ -119,14 +121,14 @@ Use these steps to give them more informative names.
    If you still have all the buttons selected, choose **Esc** to cancel the selection.
 
 1. In the **Properties** window, look for **(Name)**.
-   Change the name to **closeButton**.
+   Change the name to *closeButton*.
 
    :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-controls/close-button-name-property.png" alt-text="Screenshot shows the Properties window with closeButton name.":::
 
    The IDE doesn't accept names that contain spaces.
 
-1. Rename the other three buttons to **backgroundButton**, **clearButton**, and **showButton**.
-   You can verify the names by choosing the control selector drop-down list in the **Properties** window.
+1. Rename the other three buttons to *backgroundButton*, *clearButton*, and *showButton*.
+   You can verify the names by choosing the control selector dropdown list in the **Properties** window.
    The new button names appear.
 
 You can change the name of any control, such as the TableLayoutPanel or checkbox.
@@ -161,7 +163,7 @@ In this section, you add an <xref:System.Windows.Forms.OpenFileDialog> component
      JPEG Files (*.jpg)|*.jpg|PNG Files (*.png)|*.png|BMP Files (*.bmp)|*.bmp|All files (*.*)|*.*
      ```
 
-   - Set the **Title** property to the following: **Select a picture file**
+   - Set the **Title** property to the following: *Select a picture file*
 
    The **Filter** property settings specify the types that the **Select a picture** dialog box displays.
 
