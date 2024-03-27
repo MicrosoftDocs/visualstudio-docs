@@ -35,7 +35,7 @@ To take advantage of custom functionality in SQL Server 2005 and later, use the 
 
 4. Download the ODBC Windows SDK Sample, and unzip it to a new location. This sample shows the basic ODBC commands that are used to connect to a database and issue queries and commands. You can learn more about those functions in the [Microsoft Open Database Connectivity (ODBC)](/sql/odbc/microsoft-open-database-connectivity-odbc). When you first load the solution (it's in the C++ folder), Visual Studio will offer to upgrade the solution to the current version of Visual Studio. Click **Yes**.
 
-5. To use the native client, you need its *header* file and *lib* file. These files contain functions and definitions specific to SQL Server, beyond the ODBC functions defined in SQL.h. In **Project** > **Properties** > **VC++ Directories**, add the following include directory:
+5. To use the native client, you need its *header* file and *lib* file. These files contain functions and definitions specific to SQL Server, beyond the ODBC functions defined in `sql.h`. In **Project** > **Properties** > **VC++ Directories**, add the following include directory:
 
    **%ProgramFiles%\Microsoft SQL Server\110\SDK\Include**
 
