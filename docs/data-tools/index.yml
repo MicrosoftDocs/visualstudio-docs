@@ -16,10 +16,13 @@ metadata:
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
 landingContent:
+
 # Cards and links should be based on top customer tasks or top subjects
+
 # Start card title with a verb
 
 # Card (optional)
+
   - title: .NET
     linkLists:
       - linkListType: overview
@@ -30,9 +33,9 @@ landingContent:
             url: dataset-tools-in-visual-studio.md
           - text: Entity Framework tools
             url: entity-data-model-tools-in-visual-studio.md
-          - text: Linq to SQL tools
+          - text: language integrated query (LINQ) to SQL tools
             url: linq-to-sql-tools-in-visual-studio2.md
-          - text: WCF and WCF Data Services (OData) tools
+          - text: WCF and WCF Data Services (Open Data Protocol (OData)) tools
             url: windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md
       - linkListType: tutorial
         links:
@@ -66,7 +69,7 @@ landingContent:
     linkLists:
       - linkListType: tutorial
         links:
-          - text: Azure SQL database
+          - text: Azure SQL Database
             url: /azure/sql-database/sql-database-connect-query-dotnet-visual-studio
           - text: Azure Cosmos DB - .NET console app
             url: /azure/cosmos-db/sql-api-get-started

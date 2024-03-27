@@ -57,7 +57,7 @@
     - name: Cyclomatic complexity
       href: code-metrics-cyclomatic-complexity.md
     - name: Depth of inheritance
-      href: code-metrics-depth-of-inheritance.md    
+      href: code-metrics-depth-of-inheritance.md
   - name: Legacy analysis
     items:
     - name: Overview
@@ -116,7 +116,7 @@
       - name: Unported rules
         href: fxcop-unported-rules.md
         items:
-        - name: Unported rules that may be ported
+        - name: Unported rules that might be ported
           href: fxcop-unported-rules-may-get-ported.md
           items:
           - name: 'CA1004: Generic methods should provide type parameter'
@@ -161,7 +161,7 @@
             href: ca1412.md
           - name: 'CA1413: Avoid non-public fields in COM visible value types'
             href: ca1413.md
-          - name: 'CA1414: Mark boolean P-Invoke arguments with MarshalAs'
+          - name: 'CA1414: Mark Boolean P-Invoke arguments with MarshalAs'
             href: ca1414.md
           - name: 'CA1415: Declare P-Invokes correctly'
             href: ca1415.md
@@ -302,7 +302,7 @@
             href: ca2126.md
           - name: 'CA2130: Security critical constants should be transparent'
             href: ca2130.md
-          - name: 'CA2131: Security critical types may not participate in type equivalence'
+          - name: 'CA2131: Security critical types might not participate in type equivalence'
             href: ca2131.md
           - name: 'CA2132: Default constructors must be at least as critical as base type default constructors'
             href: ca2132.md
@@ -318,7 +318,7 @@
             href: ca2137.md
           - name: 'CA2138: Transparent methods must not call methods with the SuppressUnmanagedCodeSecurity attribute'
             href: ca2138.md
-          - name: 'CA2139: Transparent methods may not use the HandleProcessCorruptingExceptions attribute'
+          - name: 'CA2139: Transparent methods might not use the HandleProcessCorruptingExceptions attribute'
             href: ca2139.md
           - name: 'CA2140: Transparent code must not reference security critical items'
             href: ca2140.md
@@ -334,7 +334,7 @@
             href: ca2145.md
           - name: 'CA2146: Types must be at least as critical as their base types and interfaces'
             href: ca2146.md
-          - name: 'CA2147: Transparent methods may not use security asserts'
+          - name: 'CA2147: Transparent methods might not use security asserts'
             href: ca2147.md
           - name: 'CA2149: Transparent methods must not call into native code'
             href: ca2149.md

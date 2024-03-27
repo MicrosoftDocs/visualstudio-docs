@@ -8,7 +8,7 @@
     href: create-a-simple-data-application-with-wpf-and-entity-framework-6.md
   - name: Connect to data from a C++ app
     href: visual-studio-data-tools-for-cpp.md
-  - name: Create LINQ to SQL classes using O/R Designer
+  - name: Create language integrated query (LINQ) to SQL classes using O/R Designer
     href: walkthrough-creating-linq-to-sql-classes-by-using-single-table-inheritance-o-r-designer.md
   - name: Create an n-tier data application
     href: walkthrough-creating-an-n-tier-data-application.md
@@ -195,7 +195,7 @@
       href: how-to-add-update-or-remove-a-wcf-data-service-reference.md
 - name: Reference
   items:
-  - name: O/R Designer (Linq to SQL)
+  - name: O/R Designer (LINQ to SQL)
     items:
     - name: DataContext methods
       href: datacontext-methods-o-r-designer.md
