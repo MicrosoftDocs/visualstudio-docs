@@ -6,6 +6,11 @@ ms.author: midumont
 manager: mijacobs
 ms.subservice: code-analysis
 ms.topic: conceptual
+helpviewer_keywords:
+- code analysis, managed code
+- analyzers
+- Roslyn analyzers
+- code analyzers
 ms.date: 03/12/2024
 
 #customer intent: As a developer, I want to learn about code analysis using .NET compiler platform (Roslyn) analyzers so that I can understand how then work and use them properly.

@@ -14,6 +14,8 @@ monikerRange: 'vs-2019'
 
 The Managed Minimum rules focus on the most critical problems in your code, including potential security holes, application crashes, and other important logic and design errors. Include this rule set in any custom rule set you create for your projects.
 
+<!-- docutune:disable -->
+
 |Rule|Description|
 |----------|-----------------|
 |[CA1001](/dotnet/fundamentals/code-analysis/quality-rules/ca1001)|Types that own disposable fields should be disposable|

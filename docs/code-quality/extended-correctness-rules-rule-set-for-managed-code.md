@@ -18,6 +18,8 @@ The Microsoft Extended Correctness Rules rule set includes the rules that are in
 
 The following table describes all of the rules in the Microsoft Extended Correctness Rules rule set.
 
+<!-- docutune:disable -->
+
 |Rule|Description|
 |----------|-----------------|
 |[CA1001](/dotnet/fundamentals/code-analysis/quality-rules/ca1001)|Types that own disposable fields should be disposable|

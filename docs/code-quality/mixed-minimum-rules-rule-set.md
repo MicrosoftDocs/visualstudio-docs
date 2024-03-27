@@ -16,6 +16,9 @@ The Microsoft Mixed Minimum Rules focus on the most critical problems in C++ pro
 
 Include this rule set in any custom rule set you create for your C++ projects that support the Common Language Runtime.
 
+
+<!-- docutune:disable -->
+
 |Rule|Description|
 |----------|-----------------|
 |[C6001](/cpp/code-quality/c6001)|Using Uninitialized Memory|

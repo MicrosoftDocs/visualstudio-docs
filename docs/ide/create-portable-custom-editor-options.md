@@ -6,6 +6,8 @@ ms.author: midumont
 manager: mijacobs
 ms.subservice: general-ide
 ms.topic: how-to
+helpviewer_keywords:
+- editorconfig [Visual Studio]
 ms.date: 03/08/2024
 
 #customer intent: As a developer, I want to use EditorConfig files to enforce coding style consistency for everyone that writes code in our Visual Studio codebase and projects.

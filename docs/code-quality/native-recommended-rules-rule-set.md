@@ -15,6 +15,8 @@ The Native Recommended Rules focus on the most critical and common problems in n
 
 Include this rule set in any custom rule set you create for native projects.
 
+<!-- docutune:disable -->
+
 |Rule|Description|
 |----------|-----------------|
 |[C6001](/cpp/code-quality/c6001)|Using Uninitialized Memory|

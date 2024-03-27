@@ -16,6 +16,8 @@ The Microsoft Native Minimum Rules focus on the most critical problems in native
 
 Include this rule set in any custom rule set you create for native projects.
 
+<!-- docutune:disable -->
+
 |Rule|Description|
 |----------|-----------------|
 |[C6001](/cpp/code-quality/c6001)|Using Uninitialized Memory|
