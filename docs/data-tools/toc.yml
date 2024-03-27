@@ -195,7 +195,7 @@
       href: how-to-add-update-or-remove-a-wcf-data-service-reference.md
 - name: Reference
   items:
-  - name: O/R Designer (Linq to SQL)
+  - name: O/R Designer (LINQ to SQL)
     items:
     - name: DataContext methods
       href: datacontext-methods-o-r-designer.md
