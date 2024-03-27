@@ -9,6 +9,7 @@ manager: mijacobs
 ms.subservice: code-analysis
 monikerRange: 'vs-2019'
 ---
+
 # Security Rules rule set for managed code
 
 Use the Microsoft Security Rules rule set for legacy code analysis to maximize the number of potential security issues that are reported.
