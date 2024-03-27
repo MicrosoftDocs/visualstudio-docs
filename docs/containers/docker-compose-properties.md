@@ -42,7 +42,7 @@ The following table shows the MSBuild properties available for Docker Compose pr
 |DockerDevelopmentMode| dcproj | Controls whether the user project is built in the container. The allowed values of **Fast** or **Regular** control [which stages are built](https://aka.ms/containerfastmode) in a Dockerfile. The Debug configuration is Fast mode by default and Regular mode otherwise. | Fast |
 |DockerLaunchAction| dcproj | Specifies the launch action to perform on F5 or Ctrl+F5. Allowed values are None, LaunchBrowser, and LaunchWCFTestClient. | None |
 |DockerLaunchBrowser| dcproj | Indicates whether to launch the browser. Ignored if DockerLaunchAction is specified. | False |
-|DockerServiceName| dcproj| If DockerLaunchAction or DockerLaunchBrowser are specified, then DockerServiceName specifies which service referenced in the Docker-compose file gets launched.|-|
+|DockerServiceName| dcproj| If DockerLaunchAction or DockerLaunchBrowser are specified, then DockerServiceName specifies which service referenced in the `docker-compose` file gets launched.|-|
 |DockerServiceUrl| dcproj | The URL to use when launching the browser. Valid replacement tokens are "{ServiceIPAddress}", "{ServicePort}", and "{Scheme}". For example: {Scheme}://{ServiceIPAddress}:{ServicePort}|-|
 |DockerTargetOS| dcproj | The target OS used when building the Docker image.|-|
 
