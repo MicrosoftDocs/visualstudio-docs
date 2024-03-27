@@ -50,6 +50,7 @@
     "product-azure-app-service",
     "*-caution-*",
     "abbreviation-linq-language-integrated-query",
+    "casing-prefixes",
     "product-microsoft-visual-studio"
   ]
 }
