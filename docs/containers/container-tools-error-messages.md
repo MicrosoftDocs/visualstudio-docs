@@ -95,7 +95,7 @@ This article lists the error codes used by Visual Studio Container Tools and, wh
 | CTC1007 | Downloading `vsdbg` failed but an existing copy was found on disk | This is just a warning and the debugging will not fail. This warning happens when the latest version of `vsdbg` fails to download but an existing copy was found and being used. | No action needed from user. |
 | CTC1008 | Downloading `vsdbg` failed and no existing copy was found on disk | **F5** failed to download `vsdbg.exe`. | Check your Internet connection. |
 | CTC1009 | Drive-sharing credentials are possibly invalid |   | This might be caused by the Shared Drives credentials used by Docker Desktop being out of date. Try resetting the credentials in the **Shared Drives** page of the Docker Desktop settings, and then restarting Docker. |
-| CTC1010 | The current user is not in the 'Docker-users' group |   | The current user is not in the 'Docker-users' group. Add yourself to the 'Docker-users' group and then log out and back in to Windows. |
+| CTC1010 | The current user is not in the `docker-users` group |   | The current user is not in the 'Docker-users' group. Add yourself to the `docker-users` group and then log out and back in to Windows. |
 | CTC1011 | Ports are in use | A container is trying to use a specific host port that is already in use. | Stop the previous container or other application that uses this port or update the application to use different port. |
 | CTC1012 | Not used |   |   |
 | CTC1013 | This current type is not supported or the dotnet core version is not supported   |   |   |
@@ -106,7 +106,7 @@ This article lists the error codes used by Visual Studio Container Tools and, wh
 | CTC1022 | Unused |   |   |
 | CTC1023 | Either file or directory not found. | This could be either dockerfile, Docker context or project file not found. |   |
 | CTC1024 | IOException thrown while trying to start the container  |   |   |
-| CTC1025 | An error occurred while trying to pull a Docker image. |   | See the **Output** window for a more detailed error on why the Docker pull failed. |
+| CTC1025 | An error occurred while trying to pull a Docker image. |   | See the **Output** window for a more detailed error on why the `docker pull` command failed. |
 | CTC1026 | Launch setting parsing error. | Unable to find the IISExpress settings or parsing failure while parsing the IISExpress setting in the *launchSettings.json* file.  | Make sure the IISExpress settings in *launchSettings.json* is valid. |
 | CTC1027 | Error running the `dev-certs` tool. | An error occurred while running the `dev-certs` tool to trust the ASP.NET Core development certificate. | See the **Output** window for more detailed error. |
 | CTC1028 | Invalid Launch URL | The application URL that will be launched when the debugging starts is invalid | Ensure the `launchUrl` specified in the Docker launch settings in *launchSettings.json* |
@@ -148,7 +148,7 @@ This article lists the error codes used by Visual Studio Container Tools and, wh
 | DT1014 | Invalid profile version. | For example, if the active launch profile defines an unknown command version (10.0):<br/>`"Docker Compose":`<br/>&nbsp;&nbsp;`"commandName": "DockerCompose",`<br/>&nbsp;&nbsp;`"commandVersion": "10.0",`<br/>&nbsp;&nbsp;`"serviceActions": {`<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"webapp8": "StartDebugging",`<br/>&nbsp;&nbsp;&nbsp;&nbsp;`"redis": "StartWithoutDebugging"`<br/>&nbsp;&nbsp;`}`<br/>`}`<br/>| Please see the error message for the supported `commandVersion`, or use the **Manage Docker Compose Launch Settings** dialog to update the launch settings. |
 | DT1015 | Unsupported old profile version. |   | The profile version is no longer supported by the current Visual Studio. Please upgrade the profile to the latest supported version using the **Manage Docker Compose Launch Settings** dialog to update the launch settings. |
 | DT1016 | Using profile from newer version of Microsoft Visual Studio |   | The profile version is higher than the current supported version. Please upgrade the Visual Studio to the latest version. |
-| DT1017 | Using profile from newer version of Microsoft Visual Studio, but will continue to work | This is a warning message | The profile version is higher than the current supported version, but still compatible with the current version of Visual Studio, but might be missing some features. |
+| DT1017 | Using profile from newer version of Visual Studio, but will continue to work | This is a warning message | The profile version is higher than the current supported version, but still compatible with the current version of Visual Studio, but might be missing some features. |
 | DT1018 | Using old profile version, but compatible. | This is a warning message | The profile version is lower than the latest version, but still compatible. Some of the newer features might not work. Consider upgrading to the latest version of Visual Studio. |
 | DT1019 | Unsupported compose v2 | You are using older version of Docker Compose v2 that doesn't support the compose profile. | Upgrade Docker Compose to the latest version. |
 
