@@ -13,6 +13,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Bind controls to data in .NET Framework applications using Visual Studio
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
@@ -23,7 +24,7 @@ This topic describes the data sources you can use to create data-bound controls.
 
 ## Data sources
 
-In the context of data binding, a data source represents the data in memory that can be bound to your user interface. In practical terms, a data source can be an Entity Framework class, a dataset, a service endpoint that is encapsulated in a .NET proxy object, a LINQ to SQL class, or any .NET object or collection. Some data sources enable you to create data-bound controls by dragging items from the **Data Sources** window, while other data sources do not. The following table shows which data sources are supported.
+In the context of data binding, a data source represents the data in memory that can be bound to your user interface. In practical terms, a data source can be an Entity Framework class, a dataset, a service endpoint that is encapsulated in a .NET proxy object, a language integrated query (LINQ) to SQL class, or any .NET object or collection. Some data sources enable you to create data-bound controls by dragging items from the **Data Sources** window, while other data sources do not. The following table shows which data sources are supported.
 
 | Data source | Drag-and-drop support in **the Windows Forms Designer** | Drag-and-drop support in **the WPF Designer** | Drag-and-drop support in **the Silverlight Designer** |
 | - | - | - | - |

@@ -13,6 +13,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Add new data sources in ADO.NET applications (.NET Framework)
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
@@ -33,7 +34,7 @@ In the context of .NET data tools in Visual Studio, the term *data source* refer
 - A class or collection in your solution.
 
 > [!NOTE]
-> If you're not using data-binding features, datasets, Entity Framework, LINQ to SQL, WCF, or SharePoint, the concept of a "data source" does not apply. Just connect directly to the database by using the SQLCommand objects and communicate directly with the database.
+> If you're not using data-binding features, datasets, Entity Framework, language integrated query (LINQ) to SQL, WCF, or SharePoint, the concept of a "data source" does not apply. Just connect directly to the database by using the SQLCommand objects and communicate directly with the database.
 
 You create and edit data sources by using the **Data Source Configuration Wizard** in a Windows Forms or Windows Presentation Foundation application. For Entity Framework, first create your entity classes, and then start the wizard by selecting **Project** > **Add New Data Source** (described in more detail later in this article).
 
@@ -107,14 +108,14 @@ On the **Select the Data Objects** page, expand the nodes in the tree view to lo
 If you want to bind to an object in an assembly or project that doesn't appear in the tree view, click **Add Reference** and use the **Add Reference Dialog Box** to add a reference to the assembly or project. After you add the reference, the assembly or project is added to the tree view.
 
 > [!NOTE]
-> You may need to build the project that contains your objects before the objects appear in the tree view.
+> You might need to build the project that contains your objects before the objects appear in the tree view.
 
 > [!NOTE]
 > To support drag-and-drop data binding, objects that implement the <xref:System.ComponentModel.ITypedList> or <xref:System.ComponentModel.IListSource> interface must have a default constructor. Otherwise, Visual Studio cannot instantiate the data-source object, and it displays an error when you drag the item to the design surface.
 
 ## Data source for a SharePoint list
 
-You can create a data source from a SharePoint list by running the **Data Source Configuration Wizard** and selecting the **SharePoint** data-source type. SharePoint exposes data through WCF Data Services, so creating a SharePoint data source is the same as creating a data source from a service. Selecting the **SharePoint** item in the **Data Source Configuration Wizard** opens the **Add Service Reference** dialog box, where you connect to the SharePoint data service by pointing to the SharePoint server. This action requires the SharePoint SDK.
+You can create a data source from a SharePoint list by running the **Data Source Configuration Wizard** and selecting the **SharePoint** data-source type. SharePoint exposes data through WCF Data Services, so creating a SharePoint data source is the same as creating a data source from a service. Selecting the **SharePoint** item in the **Data Source Configuration Wizard** opens the **Add Service Reference** dialog box, where you connect to the SharePoint data service by pointing to the SharePoint Server. This action requires the SharePoint SDK.
 
 ## Related content
 
