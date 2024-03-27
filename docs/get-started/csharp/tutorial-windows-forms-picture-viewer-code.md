@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: Add code to the picture viewer Windows Forms app"
-description: Learn how to add code to support the UI controls for a picture box, checkbox, and button in a picture viewer WinForms application with Visual Studio.
+description: Learn how to add C# or VB code to support the UI controls for a picture box, checkbox, and button in a picture viewer WinForms application with Visual Studio.
 dev_langs:
   - "CSharp"
   - "VB"
@@ -31,12 +31,12 @@ In this third tutorial, you learn how to:
 ## Prerequisites
 
 - This tutorial builds on the previous tutorials, [Create a picture viewer application](tutorial-windows-forms-picture-viewer-layout.md) and [Add UI controls to the picture viewer](tutorial-windows-forms-picture-viewer-controls.md).
-If you haven't done those tutorials, go through them first.
+Complete them first and start with the project that you created for those tutorials.
 
 ## Add event handlers for your controls
 
 In this section, add *event handlers* for the controls that you added in the second tutorial, [Add controls to a picture viewer application](tutorial-windows-forms-picture-viewer-code.md).
-Your application calls an event handler when an action takes place, such as selecting a button. 
+Your application calls an event handler when an action takes place, such as selecting a button.
 
 1. Open Visual Studio. Your Picture Viewer project appears under **Open recent**.
 
@@ -75,7 +75,7 @@ Your application calls an event handler when an action takes place, such as sele
    Repeat for the remaining two buttons.
    Each time, the Visual Studio IDE adds a new method to the form's code file.
 
-1. Double-click the **CheckBox** control in **Windows Forms Designer** to add a `checkBox1_CheckedChanged()` method. 
+1. Double-click the checkbox control in **Windows Forms Designer** to add a `checkBox1_CheckedChanged()` method.
    When you select or clear the check box, it calls this method.
 
    The following snippet shows the new code that you see in the code editor.
@@ -92,7 +92,7 @@ Your application calls an event handler when an action takes place, such as sele
 Methods, including event handlers, can have any name that you want.
 When you add an event handler with the IDE, it creates a name based on the control's name and the event being handled.
 
-For example, the `Click` event for a button named **showButton** is called `showButton_Click()` or `ShowButton_Click()`. 
+For example, the `Click` event for a button named **showButton** is called `showButton_Click()` or `ShowButton_Click()`.
 If you want to change a code variable name, right-click the variable in the code and then choose **Refactor** > **Rename**. This action renames all instances of that variable in the code. For more information, see [Rename refactoring](../../ide/reference/rename.md).
 
 ## Write code to open a dialog box
@@ -103,7 +103,7 @@ This procedure adds the code used to call that component.
 The Visual Studio IDE offers a powerful tool called *IntelliSense*.
 As you type, IntelliSense suggests possible code.
 
-1. In **Windows Forms Designer**, double-click the **Show a picture** button. 
+1. In **Windows Forms Designer**, double-click the **Show a picture** button.
    The IDE moves your cursor inside the `showButton_Click()` or `ShowButton_Click()` method.
 
 1. Type an *i* on the empty line between the two braces `{ }`or between `Private Sub...` and `End Sub`.
@@ -111,7 +111,7 @@ As you type, IntelliSense suggests possible code.
 
    :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-code/intellisense-window.png" alt-text="Screenshot shows IntelliSense with Visual C sharp code.":::
 
-1. The **IntelliSense** window should highlight the word `if`. Select the **Tab** key to insert `if`.
+1. The **IntelliSense** window should highlight the word `if`. Select the **Tab** key twice to insert the `if` snippet.
 
 1. Select **true** and then type `op` to overwrite it for C# or `Op` for Visual Basic.
 
@@ -119,7 +119,7 @@ As you type, IntelliSense suggests possible code.
 
    IntelliSense displays **openFileDialog1**.
 
-1. Select **Tab** to add openFileDialog1. 
+1. Select **Tab** to add openFileDialog1.
 
 1. Type a period (`.`) or *dot*, right after **openFileDialog1**.
    IntelliSense provides all of the **OpenFileDialog** component's properties and methods.
@@ -180,6 +180,7 @@ As you type, IntelliSense suggests possible code.
    Code comments make it easier to understand and maintain your code in the future.
 
 ## Write code for the other controls
+
 If you run your application now, you can select **Show a picture**.
 Picture Viewer opens the **Open File** dialog box, where you can select a picture to display.
 
