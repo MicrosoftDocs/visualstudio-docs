@@ -12,6 +12,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Work with a Conceptual Model (WCF Data Services)
 
 When you use a conceptual model to describe the data in a database, you can query data through your objects instead of having to translate back and forth between a database schema and an object model.
@@ -31,7 +32,7 @@ The following topics show how to add validation to WCF Data Services application
 |-----------|-----------------|
 |[How to: Intercept Data Service messages](/dotnet/framework/data/wcf/how-to-intercept-data-service-messages-wcf-data-services)|Shows how to add validation to a data service operation.|
 
- The following topics show how to create, update, and delete data by performing operations on entities.
+The following topics show how to create, update, and delete data by performing operations on entities.
 
 |Topic|Description|
 |-----------|-----------------|

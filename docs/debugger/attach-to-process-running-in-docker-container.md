@@ -12,7 +12,8 @@ manager: mijacobs
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2019'
 ---
-# Attach to a process running on a Docker container 
+
+# Attach to a process running on a Docker container
 
 You can debug apps running in either a Windows Docker Container or a Linux .NET Core Docker container using Visual Studio.
 
@@ -20,11 +21,11 @@ You can debug apps running in either a Windows Docker Container or a Linux .NET 
 
 If it's not already present on the Linux server, you need to install SSH server, unzip and install with either curl or wget. For example, on Ubuntu you can do that by running:
 
-``` cmd
+```cmd
 sudo apt-get install openssh-server unzip curl
 ```
 
-SFTP must be enabled as well. Most SSH distributions install and enable SFTP by default, but that is not always the case.
+Secure File Transfer Protocol (SFTP) must be enabled as well. Most SSH distributions install and enable SFTP by default, but that is not always the case.
 
 ## Attach to a process running on a Linux Docker container
 
@@ -53,7 +54,7 @@ You can attach the Visual Studio debugger to a process running in a Linux .NET C
     **B. To debug a Docker container process remotely:**
 
     > [!NOTE]
-    > There are two options for connecting remotely to a running process in a Docker container. The first option, to use SSH, is ideal if you don't have Docker tools installed on your local machine.  If you do have Docker tools installed locally and you have a Docker daemon that's configured to accept remote requests, try the second option, using a Docker daemon.
+    > There are two options for connecting remotely to a running process in a Docker container. The first option, to use SSH, is ideal if you don't have Docker tools installed on your local machine. If you do have Docker tools installed locally and you have a Docker daemon that's configured to accept remote requests, try the second option, using a Docker daemon.
 
     1. ***To connect to a remote machine via SSH:***
         1. Select **Add...** to connect to a remote system.<br/>
@@ -61,7 +62,7 @@ You can attach the Visual Studio debugger to a process running in a Linux .NET C
         1. Select a running container to attach to after connecting to the SSH or daemon successfully and hit **OK**.
 
     1. ***To set the target to a remote container running a process via a [Docker daemon](https://docs.docker.com/engine/reference/commandline/dockerd/)***
-        1. Specify the daemon address (i.e. via TCP, IP, etc.) under **Docker host (Optional)** and click the refresh link.
+        1. Specify the daemon address (that is, via TCP, IP, and so on.) under **Docker host (Optional)** and click the refresh link.
         1. Select a running container to attach to after connecting to the daemon successfully and hit **OK**.
 
 4. Choose the corresponding container process from the list of **Available processes** and select **Attach** to start debugging your C# container process in Visual Studio!
@@ -90,7 +91,7 @@ You can attach the Visual Studio debugger to a process running in a Windows Dock
    Setting the target to a remote container via SSH is currently unavailable and can only be done using a Docker daemon.
 
     ***To set the target to a remote container running a process via a [Docker daemon](https://docs.docker.com/engine/reference/commandline/dockerd/)***
-    1. Specify the daemon address (i.e. via TCP, IP, etc.) under **Docker host (Optional)** and click the refresh link.
+    1. Specify the daemon address (that is, via TCP, IP, and so on.) under **Docker host (Optional)** and click the refresh link.
 
     1. Select a running container to attach to after connecting to the daemon successfully and choose OK.
 

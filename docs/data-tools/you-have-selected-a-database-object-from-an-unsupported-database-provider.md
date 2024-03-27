@@ -8,9 +8,10 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # You have selected a database object from an unsupported database provider
 
-The **O/R Designer** supports only the .NET Framework Data Provider for SQL Server (<xref:System.Data.SqlClient>). Although you can click **OK** and continue to work with objects from unsupported database providers, you may experience unexpected behavior at run time.
+The **O/R Designer** supports only the .NET Framework Data Provider for SQL Server (<xref:System.Data.SqlClient>). Although you can click **OK** and continue to work with objects from unsupported database providers, you might experience unexpected behavior at run time.
 
 > [!NOTE]
 > Only data connections that use the .NET Framework Data Provider for SQL Server are supported.
@@ -23,4 +24,4 @@ The **O/R Designer** supports only the .NET Framework Data Provider for SQL Serv
 
 ## See also
 
-- [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
+- [language integrated query (LINQ) to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
