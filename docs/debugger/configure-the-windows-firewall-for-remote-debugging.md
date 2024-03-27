@@ -71,8 +71,8 @@ For remote debugging, the following ports must be open on the remote computer:
 
 |**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|
 |-|-|-|-|
-|4026|Incoming|TCP|For Microsoft Visual Studio 2022. For more information, see [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
-|4025|Incoming|TCP|For Microsoft Visual Studio 2022 and Microsoft Azure App Service. This port is only used to remote debug a 32-bit process from a 64-bit version of the remote debugger. For more information, see [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
+|4026|Incoming|TCP|For Visual Studio 2022. For more information, see [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
+|4025|Incoming|TCP|For Visual Studio 2022 and Microsoft Azure App Service. This port is only used to remote debug a 32-bit process from a 64-bit version of the remote debugger. For more information, see [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
 |4024|Incoming|TCP|For Microsoft Azure App Service. For more information, see [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
 |3702|Outgoing|UDP|(Optional) Required for remote debugger discovery.|
 
@@ -81,8 +81,8 @@ For remote debugging, the following ports must be open on the remote computer:
 
 |**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|
 |-|-|-|-|
-|4024|Incoming|TCP|For Microsoft Visual Studio 2019 and Microsoft Azure App Service. The port number increments by 2 for each Visual Studio version. For more information, see [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
-|4025|Incoming|TCP|For Microsoft Visual Studio 2019 and Azure App Service. This port is only used to remote debug a 32-bit process from a 64-bit version of the remote debugger. For more information, see [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
+|4024|Incoming|TCP|For Visual Studio 2019 and Microsoft Azure App Service. The port number increments by 2 for each Visual Studio version. For more information, see [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
+|4025|Incoming|TCP|For Visual Studio 2019 and Azure App Service. This port is only used to remote debug a 32-bit process from a 64-bit version of the remote debugger. For more information, see [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
 |3702|Outgoing|UDP|(Optional) Required for remote debugger discovery.|
 
 If you select **Use Managed Compatibility Mode** under **Tools** > **Options** > **Debugging**, open these additional remote debugger ports. Debugger Managed Compatibility Mode enables a legacy, Visual Studio 2010 version of the debugger.
