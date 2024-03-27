@@ -34,7 +34,7 @@ In the context of .NET data tools in Visual Studio, the term *data source* refer
 - A class or collection in your solution.
 
 > [!NOTE]
-> If you're not using data-binding features, datasets, Entity Framework, language integrated query (LINQ) to SQL, WCF, or SharePoint, the concept of a "data source" does not apply. Just connect directly to the database by using the SQLCommand objects and communicate directly with the database.
+> If you're not using data-binding features, datasets, Entity Framework, LINQ to SQL, WCF, or SharePoint, the concept of a "data source" does not apply. Just connect directly to the database by using the SQLCommand objects and communicate directly with the database.
 
 You create and edit data sources by using the **Data Source Configuration Wizard** in a Windows Forms or Windows Presentation Foundation application. For Entity Framework, first create your entity classes, and then start the wizard by selecting **Project** > **Add New Data Source** (described in more detail later in this article).
 

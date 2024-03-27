@@ -154,7 +154,7 @@ In .NET, you have three choices for modeling and manipulating data in memory aft
 [Entity Framework](../data-tools/entity-data-model-tools-in-visual-studio.md)
 The preferred Microsoft ORM technology. You can use it to program against relational data as first-class .NET objects. For new applications, it should be the default first choice when a model is required. It requires custom support from the underlying ADO.NET provider.
 
-[language integrated query (LINQ) to SQL](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
+[LINQ to SQL](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
 An earlier-generation object-relational mapper. It works well for less complex scenarios but is no longer in active development.
 
 [Datasets](../data-tools/dataset-tools-in-visual-studio.md)
