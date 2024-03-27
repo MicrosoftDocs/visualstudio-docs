@@ -1,6 +1,6 @@
 ---
 title: Property participates in association
-description: 'The property cannot be deleted because it is participating in the association. View information about this Object Relational Designer (O/R Designer) message.'
+description: The property cannot be deleted because it is participating in the association. View information about this Object Relational Designer (O/R Designer) message.
 ms.date: 11/04/2016
 ms.topic: error-reference
 author: ghogen
@@ -8,6 +8,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # The property &lt;property name&gt; cannot be deleted because it is participating in the association &lt;association name&gt;
 
 The selected property is set as the **Association Property** for the association between the classes indicated in the error message. Properties cannot be deleted if they are participating in an association between data classes.
@@ -26,4 +27,4 @@ Set the **Association Property** to a different property of the data class to en
 
 ## See also
 
-- [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
+- [language integrated query (LINQ) to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
