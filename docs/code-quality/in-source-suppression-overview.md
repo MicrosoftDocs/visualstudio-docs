@@ -29,9 +29,9 @@ In the EditorConfig file for your solution or project, add an entry for each rul
 You can suppress violations in your source code using a preprocessor directive, which suppresses violations for a specific line of code:
 
 - C#: [#pragma warning](/dotnet/csharp/language-reference/preprocessor-directives#pragma-warning)
-- Visual Basic: [Disable warning](/dotnet/visual-basic/language-reference/directives/disable-enable) directive.
+- Visual Basic: [Disable warning](/dotnet/visual-basic/language-reference/directives/disable-enable).
 
-Or, you can use the [SuppressMessage attribute](#in-source-suppression-and-the-suppressmessage-attribute) to supress a warning in your C# and Visual Basic code.
+Or, you can use the [SuppressMessageAttribute attribute](#in-source-suppression-and-the-suppressmessageattribute-attribute) to suppress a warning in your C# and Visual Basic code.
 
 ### Suppress violations using the code editor
 
@@ -39,13 +39,13 @@ To suppress violations using the code editor, follow these steps:
 
 1. Place the cursor in the line of code with the violation and press **Ctrl**+**Period (.)** or **Alt+Enter** to open the **Quick Actions** menu.
 
-1. Select **Suppress or configure issues** > **Suppress XXXXXXX**, and then choose either **in Source** or **in Source (attribute)**.
+1. Select **Suppress or configure issues** > **Suppress \<rule number>**, and then choose either **in Source** or **in Source (attribute)**.
 
    - If you choose **in Source**, you see a preview of the preprocessor directive added to your code.
 
      :::image type="content" source="media/suppress-diagnostic-from-editor.png" alt-text="Screenshot that shows an in Source selection from the Quick Actions menu.":::
 
-   - If you choose **in Source (attribute)**, you see a preview of the [SuppressMessage attribute](#in-source-suppression-and-the-suppressmessage-attribute) added to your code.
+   - If you choose **in Source (attribute)**, you see a preview of the [SuppressMessage attribute](#in-source-suppression-and-the-suppressmessageattribute-attribute) added to your code.
 
       :::image type="content" source="media/suppress-diagnostic-from-editor-attribute.png" alt-text="Screenshot that shows in Source (attribute) selection from the Quick Actions menu.":::
 
@@ -53,17 +53,19 @@ To suppress violations using the code editor, follow these steps:
 
 To suppress violations using the **Error List** window, follow these steps:
 
-1. Select the rules you want to suppress, right-click, and then select **Suppress** > **In Source**.
+1. From the **Error List** window, select the rules you want to suppress.
+
+1. Right-click, and then select **Suppress** > **In Source**.
 
    The **Preview Changes** dialog opens and shows a preview of the C# [#pragma warning directive](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-pragma-warning) or Visual Basic [#Disable warning directive](/dotnet/visual-basic/language-reference/directives/directives)  added to the source code.
 
     ![Screenshot that shows the Preview Changes dialog box for adding #pragma warnings in code file.](media/pragma-warning-preview.png)
 
-1. In the **Preview Changes** dialog, select **Apply**.
+1. Select **Apply** to save the changes to your code file.
 
 #### Exclude Error List build diagnostics
 
-If you don't see the **Suppress** menu option in the **Error List** window, the violation is likely from the build and not live analysis. The **Error List** window displays diagnostics, or rule violations, from both live code analysis and builds. Because the build diagnostics can be stale, for example, if you edited the code to fix the violation but didn't rebuild it, you can't always suppress these diagnostics from the **Error List**.
+If you don't see the **Suppress** menu option in the **Error List** window, the violation is likely from a build and not live analysis. The **Error List** window displays diagnostics, or rule violations, from both live code analysis and builds. Because build diagnostics can be stale, for example, if you edited the code to fix the violation but didn't rebuild it, you can't always suppress these diagnostics from the **Error List**.
 
 Diagnostics from live analysis, or IntelliSense, are always up-to-date with current sources and can always be suppressed from the **Error List**. To exclude build diagnostics from your selection, follow these steps:
 
@@ -75,25 +77,27 @@ Diagnostics from live analysis, or IntelliSense, are always up-to-date with curr
 
 ## Suppress violations using a global suppression file
 
-The [global suppression file](#global-level-suppressions) uses the [SuppressMessage attribute](#in-source-suppression-and-the-suppressmessage-attribute).
+The [global suppression file](#global-level-suppressions) uses the [SuppressMessageAttribute attribute](#in-source-suppression-and-the-suppressmessageattribute-attribute).
 
 ### Use a global suppression file from the code editor
 
-To suppress violations with a global suppression file using the code editor, follow these steps:
+To suppress violations with a global suppression file by using the code editor, follow these steps:
 
 1. Place the cursor in the line of code with the violation and press **Ctrl**+**Period (.)** or **Alt+Enter** to open the **Quick Actions** menu.
 
-1. Select **Suppress XXXXXXX**, and then choose **in Suppression File**.
+1. Select **Suppress \<rule number>**, and then choose **in Suppression File**.
 
-   The **Preview Changes** dialog box opens and shows a preview of the new [global suppression file](#global-level-suppressions).
+   The **Preview Changes** dialog box opens and shows a preview of the new global suppression file.
+
+1. Select **Apply** to save the global suppression file.
 
 ### Use a global suppression file from the Error List
 
-To suppress violations with a global suppression file using the **Error List** window, follow these steps:
+To suppress violations with a global suppression file by using the **Error List** window, follow these steps:
 
 1. From the **Error List** window, select the rules you want to suppress.
 
-1. Right-click, and then select **Suppress** > **in Suppression File**.
+1. Right-click, and then select **Suppress** > **In Suppression File**.
 
    The **Preview Changes** dialog box opens and shows a preview of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute added to the global suppression file.
 
@@ -103,7 +107,7 @@ To suppress violations with a global suppression file using the **Error List** w
 
 Suppressing all current violations is sometimes referred to as *baselining*. To suppress all current violations in a solution or project, follow these steps:
 
-1. From the menu bar, select **Analyze** > **Build and Suppress Active Issues**.
+1. From the Visual Studio menu bar, select **Analyze** > **Build and Suppress Active Issues**.
 
 1. Select **For solution** to suppress violations for the entire solution, or select **For \<project name>** to suppress violations for your project only.
 
@@ -125,11 +129,11 @@ From the rule set editor, clear the checkbox next to its name or set **Action** 
 
 ::: moniker-end
 
-## In-source suppression and the SuppressMessage attribute
+## In-source suppression and the SuppressMessageAttribute attribute
 
-In-source suppression (ISS) uses the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to suppress a warning. You can add the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to the source file close to the code segment that generated the warning. You can either type it, or select a warning in the **Error List** and use the shortcut menu to add it automatically.
+In-source suppression (ISS) uses the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to suppress a warning. You can add the `SuppressMessageAttribute` attribute to the source file near the code segment that generated the warning. You can either enter it manually in the code, or select a warning in the **Error List** and use the shortcut menu to add it automatically.
 
-The <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute is a conditional attribute, which is included in the metadata of your managed code assembly. This attribute is included only if the `CODE_ANALYSIS` compilation symbol is defined at compile time.
+The `SuppressMessageAttribute` attribute is a conditional attribute, which is included in the metadata of your managed code assembly. This attribute is included only if the `CODE_ANALYSIS` compilation symbol is defined at compile time.
 
 In C++ and CLI code only, use the macros `CA_SUPPRESS_MESSAGE` or `CA_GLOBAL_SUPPRESS_MESSAGE` in the header file to add the attribute.
 
@@ -138,11 +142,11 @@ If you migrate a project to the latest version of Visual Studio, you might see a
 > [!NOTE]
 > Don't use in-source suppressions on release builds, to prevent shipping the in-source suppression metadata accidentally.
 
-### SuppressMessage attribute
+### SuppressMessageAttribute attribute format
 
-If you select **Suppress** from the context or context menu of a code analysis warning in the **Error List**, Visual Studio adds a <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute either in your code or to the project's global suppression file.
+If you select **Suppress** > **In Source** from the context menu of a code analysis warning in the **Error List**, Visual Studio adds a <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute in your code. Or, if you select **Suppress** > **In Suppression File** it adds the attribute to the project's global suppression file.
 
-The <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute has the following format:
+The `SuppressMessageAttribute` attribute has the following format:
 
 ### [C#](#tab/csharp)
 
@@ -160,11 +164,11 @@ The <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute ha
 
 The properties of the attribute include:
 
-- **Category**: The category of the rule. For more information about code analysis rule categories, see [Managed code warnings](/dotnet/fundamentals/code-analysis/quality-rules/index).
+- **Category**: The category of the rule. For more information about code analysis rule categories, see [Code quality rules](/dotnet/fundamentals/code-analysis/quality-rules/index).
 
 - **CheckId**: The identifier of the rule. Support includes both a short and long name for the rule identifier. The short name is CAXXXX; the long name is CAXXXX:FriendlyTypeName.
 
-- **Justification**: The text that's used to document the reason for suppressing the message.
+- **Justification**: The text used to document the reason for suppressing the message.
 
 - **MessageId**: The unique identifier of the problem for each message.
 
@@ -186,7 +190,7 @@ The properties of the attribute include:
 
 When you see warnings in Visual Studio, you can view examples of `SuppressMessage` by [adding a suppression to the global suppression file](../code-quality/use-roslyn-analyzers.md#suppress-violations). The suppression attribute and its required properties appear in a preview window.
 
-### SuppressMessage usage
+### SuppressMessageAttribute usage
 
 Code analysis warnings are suppressed at the level to which the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute is applied. For example, the attribute can be applied at the assembly, module, type, member, or parameter level. The purpose of applying this attribute is to tightly couple the suppression information to the code where the violation occurs.
 
@@ -204,9 +208,9 @@ For maintainability reasons, omitting the rule name isn't recommended.
 
 Suppression attributes can be applied to a method, but can't be embedded within a method body. All violations of a particular rule are suppressed if you add the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to the method.
 
-In some cases, you might want to suppress a particular instance of the violation. Consider the example where future code isn't automatically exempt from the code analysis rule. Certain code analysis rules allow you to suppress a particular instance of the violation by using the `MessageId` property of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute. In general, legacy rules for violations on a particular symbol (a local variable or parameter) respect the `MessageId` property. [CA1500:VariableNamesShouldNotMatchFieldNames](../code-quality/ca1500.md) is an example of such a rule. However, legacy rules for violations on executable code (non-symbol) don't respect the `MessageId` property. Also, .NET Compiler Platform ("Roslyn") analyzers don't respect the `MessageId` property.
+In some cases, you might want to suppress a particular instance of the violation. Consider the example where future code isn't automatically exempt from the code analysis rule. Certain code analysis rules allow you to suppress a particular instance of the violation by using the `MessageId` property of the `SuppressMessageAttribute` attribute. In general, legacy rules for violations on a particular symbol (a local variable or parameter) respect the `MessageId` property. [CA1500:VariableNamesShouldNotMatchFieldNames](../code-quality/ca1500.md) is an example of such a rule. However, legacy rules for violations on executable code (non-symbol) don't respect the `MessageId` property. Also, .NET Compiler Platform ("Roslyn") analyzers don't respect the `MessageId` property.
 
-To suppress a particular symbol violation of a rule, specify the symbol name for the `MessageId` property of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute. The following example shows code with two violations of [CA1500:VariableNamesShouldNotMatchFieldNames](../code-quality/ca1500.md): one violation for the `name` variable and another violation for the `age` variable. Only the violation for the `age` symbol is suppressed.
+To suppress a particular symbol violation of a rule, specify the symbol name for the `MessageId` property of the `SuppressMessageAttribute` attribute. The following example shows code with two violations of [CA1500:VariableNamesShouldNotMatchFieldNames](../code-quality/ca1500.md): one violation for the `name` variable and another violation for the `age` variable. Only the violation for the `age` symbol is suppressed.
 
 ### [C#](#tab/csharp)
 
