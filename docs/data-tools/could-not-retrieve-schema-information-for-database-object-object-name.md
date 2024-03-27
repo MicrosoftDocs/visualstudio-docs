@@ -15,4 +15,4 @@ This message typically appears when an object in **Server Explorer** or **Databa
 
 ## See also
 
-- [language integrated query (LINQ) to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
+- [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
