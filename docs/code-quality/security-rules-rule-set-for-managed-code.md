@@ -13,6 +13,8 @@ monikerRange: 'vs-2019'
 
 Use the Microsoft Security Rules rule set for legacy code analysis to maximize the number of potential security issues that are reported.
 
+<!-- docutune:disable -->
+
 |Rule|Description|
 |----------|-----------------|
 |[CA2100](/dotnet/fundamentals/code-analysis/quality-rules/ca2100)|Review SQL queries for security vulnerabilities|
