@@ -6,6 +6,10 @@ ms.author: midumont
 manager: mijacobs
 ms.subservice: code-analysis
 ms.topic: conceptual
+helpviewer_keywords:
+- code analysis, managed code
+- analyzers
+- Roslyn analyzers
 ms.date: 03/20/2024
 ---
 # Customize Roslyn analyzer rules

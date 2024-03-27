@@ -6,6 +6,10 @@ ms.author: midumont
 manager: mijacobs
 ms.subservice: code-analysis
 ms.topic: conceptual
+helpviewer_keywords:
+- code analysis, managed code
+- analyzers
+- Roslyn analyzers
 ms.date: 03/25/2024
 ---
 # Install external analyzers
