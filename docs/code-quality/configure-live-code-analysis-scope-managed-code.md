@@ -18,14 +18,14 @@ ms.date: 03/26/2024
 
 Visual Studio analyzes code in several ways while you're editing source files in the editor. This analysis is referred to as *background analysis*. These analyses can be categorized as follows, based on functionality:
 
-- **Background computation of diagnostics**: This type of analysis computes errors, warnings, and suggestions in source files. These diagnostics appear as entries in the **Error List** window and are marked with squiggle lines in the code editor. They can be classified into the following categories:
+- **Background computation of diagnostics:** This type of analysis computes errors, warnings, and suggestions in source files. These diagnostics appear as entries in the **Error List** window and are marked with squiggle lines in the code editor. They can be classified into the following categories:
   - C# and Visual Basic compiler diagnostics
   - Roslyn analyzer diagnostics, which includes:
     - Built-in IDE analyzers for code-style suggestions
     - Built-in CA analyzers for code-quality suggestions
     - [External analyzer packages](./install-roslyn-analyzers.md) that are installed for projects in the current solution
 
-- **Other background analyses**: This type of analysis improves the responsiveness and Visual Studio interaction for IDE features. Example analyses include:
+- **Other background analyses:** This type of analysis improves the responsiveness and Visual Studio interaction for IDE features. Example analyses include:
   - Background parsing of open files
   - Background compilation of projects with open files to realize symbols for improved responsiveness of IDE features
   - Building syntax and symbol caches
@@ -80,7 +80,7 @@ You can choose one of the custom analysis scopes in **Options** by following the
 
 ::: moniker range=">=vs-2022"
 
-1. Select the background analysis scope from the **Run background code analysis for:** drop-down list to customize the analysis scope. Choose **OK** when you're done.
+1. Select the background analysis scope from the **Run background code analysis for:** dropdown list to customize the analysis scope. Choose **OK** when you're done.
 
    :::image type="content" source="media/background-analysis-scope.png" alt-text="Screenshot that shows the background code analysis scope options in Visual Studio.":::
 
