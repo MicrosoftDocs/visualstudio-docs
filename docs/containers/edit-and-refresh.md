@@ -8,12 +8,13 @@ ms.topic: how-to
 ms.date: 11/08/2023
 ms.subservice: container-tools
 ---
+
 # Debug apps in a local Docker container
 
 Visual Studio provides a consistent way to develop Docker containers and validate your application locally.
 You can run and debug your apps in Linux or Windows containers running on your local Windows desktop with Docker installed, and you don't have to restart the container each time you make a code change.
 
-This article illustrates how to use Visual Studio to start an app in a local Docker container, make changes, and then refresh the browser to see the changes. This article also shows you how to set breakpoints for debugging for containerized apps. Supported project types include web app, console app, and Azure Function targeting .NET Framework and .NET Core. The examples presented in this article, are a project of type ASP.NET Core Web App and a project of type Console App (.NET Framework).
+This article illustrates how to use Visual Studio to start an app in a local Docker container, make changes, and then refresh the browser to see the changes. This article also shows you how to set breakpoints for debugging for containerized apps. Supported project types include web app, console app, and Azure function targeting .NET Framework and .NET Core. The examples presented in this article, are a project of type ASP.NET Core Web App and a project of type Console App (.NET Framework).
 
 If you already have a project of a supported type, Visual Studio can create a Dockerfile and configure your project to run in a container. See [Container Tools in Visual Studio](overview.md).
 
@@ -23,13 +24,13 @@ To debug apps in a local Docker container, the following tools must be installed
 
 ::: moniker range="vs-2019"
 
-* [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the Web Development workload installed
+- [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the Web Development workload installed
 
 ::: moniker-end
 
 ::: moniker range="vs-2022"
 
-* [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the Web Development workload installed
+- [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the Web Development workload installed
 
 ::: moniker-end
 
@@ -48,7 +49,7 @@ If you have a project and you've added Docker support as described in the [overv
 
 ### Edit your Razor pages and refresh
 
-To quickly iterate changes in your Razor pages, you can start your application in a container. Then, continue to make changes, viewing them as you would with IIS Express. 
+To quickly iterate changes in your Razor pages, you can start your application in a container. Then, continue to make changes, viewing them as you would with IIS Express.
 
 1. Make sure that Docker is set up to use the container type (Linux or Windows) that you are using. Right-click on the Docker icon on the Taskbar, and choose **Switch to Linux containers** or **Switch to Windows containers** as appropriate.
 
@@ -129,14 +130,14 @@ Often, changes require further inspection. You can use the debugging features of
 
 ## Create a .NET Framework console app
 
-This section presents how to debug a .NET Framework console app project in a local Docker container by first showing how to add Docker support to the project. It's important to recognize that different project types have different levels of Docker support. There are even different levels of Docker support for .NET Core (including .NET 5 and later) console app projects versus .NET Framework console app projects. 
+This section presents how to debug a .NET Framework console app project in a local Docker container by first showing how to add Docker support to the project. It's important to recognize that different project types have different levels of Docker support. There are even different levels of Docker support for .NET Core (including .NET 5 and later) console app projects versus .NET Framework console app projects.
 
 When a .NET Framework console app project is created, there's no option to enable Docker support. After creating such a project, there's no way to explicitly add Docker support to the project. For a .NET Framework console app project, it's possible to add support for container orchestration. A side effect of adding orchestration support to the .NET Framework console app project is that it adds Docker support to the project.
 
 The following procedure demonstrates how to add orchestration support to a .NET Framework console app project, which subsequently adds Docker support to the project and allows the project to be debugged in a local Docker container.
 
 1. Create a new .NET Framework Console app project.
-1. In Solution Explorer, right-click the project node, and then select **Add** > **Container Orchestration Support**.  In the dialog box that appears, select **Docker Compose**. A Dockerfile is added to your project and a Docker Compose project with associated support files is added.
+1. In Solution Explorer, right-click the project node, and then select **Add** > **Container Orchestration Support**. In the dialog box that appears, select **Docker Compose**. A Dockerfile is added to your project and a Docker Compose project with associated support files is added.
 
 ### Debug with breakpoints
 
@@ -156,6 +157,7 @@ The following procedure demonstrates how to add orchestration support to a .NET 
    ::: moniker-end
 
 :::moniker range=">=vs-2022"
+
 ## Authenticating to Azure services using the token proxy
 
 When you're using Azure services from a container, you can use [DefaultAzureCredential](/dotnet/api/azure.identity.defaultazurecredential) (with the [VisualStudioCredential](/dotnet/api/azure.identity.visualstudiocredential) enabled) to authenticate with Azure services with your Microsoft Entra account without any additional configuration in the container. To enable this, see [How to configure Visual Studio Container Tools](container-tools-configure.md). Also, you need to set up Azure authentication in Visual Studio by following the instructions at [Authenticate Visual Studio with Azure](/dotnet/azure/configure-visual-studio#authenticate-visual-studio-with-azure). The support for VisualStudioCredential in a container is available in Visual Studio version 17.6 and later.
@@ -164,7 +166,7 @@ When you're using Azure services from a container, you can use [DefaultAzureCred
 
 If you're debugging an integrated Azure Functions project and using the token proxy in the container to handle authentication to Azure services, you need to copy the .NET runtime onto the container for the token proxy to run. If you're debugging an isolated Azure Functions project, it already has the .NET runtime, so there's no need for this extra step.
 
-To ensure the .NET runtime is available to the token proxy, add or modify the `debug` layer in the Dockerfile that copies the .NET runtime into the container image. For Linux containers, you can add the following code to the Dockerfile:
+To ensure the .NET runtime is available to the token proxy, add, or modify the `debug` layer in the Dockerfile that copies the .NET runtime into the container image. For Linux containers, you can add the following code to the Dockerfile:
 
 ```dockerfile
 # This layer is to support debugging, VS's Token Proxy requires the runtime to be installed in the container
@@ -207,7 +209,7 @@ Get more details by reading [How Visual Studio builds containerized apps](contai
 
 ## More about Docker with Visual Studio, Windows, and Azure
 
-* Learn more about [container development with Visual Studio](./index.yml).
-* To build and deploy a Docker container, see [Docker integration for Azure Pipelines](https://marketplace.visualstudio.com/items?itemName=ms-vscs-rm.docker).
-* For an index of Windows Server and Nano Server articles, see [Windows container information](/virtualization/windowscontainers/).
-* Learn about [Azure Kubernetes Service](https://azure.microsoft.com/services/kubernetes-service/) and review the [Azure Kubernetes Service documentation](/azure/aks).
+- Learn more about [container development with Visual Studio](./index.yml).
+- To build and deploy a Docker container, see [Docker integration for Azure Pipelines](https://marketplace.visualstudio.com/items?itemName=ms-vscs-rm.docker).
+- For an index of Windows Server and Nano Server articles, see [Windows container information](/virtualization/windowscontainers/).
+- Learn about [Azure Kubernetes Service](https://azure.microsoft.com/services/kubernetes-service/) and review the [Azure Kubernetes Service documentation](/azure/aks).
