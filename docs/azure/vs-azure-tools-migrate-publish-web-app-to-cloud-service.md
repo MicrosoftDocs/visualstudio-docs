@@ -76,10 +76,10 @@ The following table provides details about starting the application in Azure:
 
 | Web Application Type | Running in Azure |
 | --- | --- |
-| ASP.NET Web Application<br/>(including MVC 2, MVC 3, MVC 4) | Select the URL in the **Deployment** tab for the **Azure Activity log**. |
+| ASP.NET Web Application<br/>(including Model-View-Controller (MVC) 2, MVC 3, MVC 4) | Select the URL in the **Deployment** tab for the **Azure Activity log**. |
 | ASP.NET Empty Web Application | If you have a default `.aspx` page in your application, select the URL in the **Deployment** tab for the **Azure Activity log**. To navigate to a different page, enter a URL of the following form in a browser: `<deployment_url>/<page_name>.aspx` |
 | WCF Service Application<br/>WCF Workflow Service Application | Set the `.svc` file as the start page for your WCF Service project. Then navigate to `<deployment_url>/<service_file>.svc` |
-| ASP.NET Dynamic Entities<br/>ASP.NET Dynamic Data LINQ to SQL | Update the connection string as described in the next section. Then navigate to `<deployment_url>/<page_name>.aspx`. For LINQ to SQL, you must use an Azure SQL database. |
+| ASP.NET Dynamic Entities<br/>ASP.NET Dynamic Data language integrated query (LINQ) to SQL | Update the connection string as described in the next section. Then navigate to `<deployment_url>/<page_name>.aspx`. For LINQ to SQL, you must use an Azure SQL database. |
 
 ## Update a Connection String for ASP.NET Dynamic Entities
 
