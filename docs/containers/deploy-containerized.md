@@ -7,6 +7,7 @@ ms.date: 10/23/2023
 ms.subservice: container-tools
 ms.topic: how-to
 ---
+
 # Deploy an app into a container in Azure or Docker Hub
 
 You can deploy a .NET 7 or later app without Docker Desktop or a Dockerfile. Visual Studio provides a deployment option that handles this conveniently for you.
@@ -34,17 +35,19 @@ You don't need Docker Desktop.
 
    ![Screenshot of Docker credentials screen.](media/deploy-containerized/enter-publish-credentials.png)
 
-## Deploy to Azure Container Registry (ACR)
+<a name='deploy-to-azure-container-registry-acr'></a>
+
+## Deploy to Azure Container Registry
 
 1. Right-click on the project node and choose **Publish**.
 
-   ![Screenshot of Publish screen, choosing Docker Container registry.](media/deploy-containerized/publish-docker-container-registry.png)
+   ![Screenshot of Publish screen, choosing Docker Container Registry.](media/deploy-containerized/publish-docker-container-registry.png)
 
 1. Choose **Docker Container Registry**, and then **Azure Container Registry**.
 
    ![Screenshot of Publish screen, choosing Azure Container Registry.](media/deploy-containerized/publish-azure-container-registry.png)
 
-The app is deployed to ACR, and Visual Studio creates a publish profile for the selected deployment target.
+The app is deployed to Azure Container Registry, and Visual Studio creates a publish profile for the selected deployment target.
 
 ## Deploy to Azure Container Apps
 
