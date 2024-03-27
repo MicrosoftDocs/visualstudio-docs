@@ -6,6 +6,11 @@ ms.author: midumont
 manager: mijacobs
 ms.subservice: code-analysis
 ms.topic: conceptual
+helpviewer_keywords:
+  - "live code analysis"
+  - "background analysis"
+  - "analysis scope"
+  - "full solution analysis"
 ms.date: 03/26/2024
 ---
 
