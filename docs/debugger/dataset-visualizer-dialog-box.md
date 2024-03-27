@@ -28,7 +28,9 @@ You can make changes to the objects in this visualizer. Changes will be saved as
 
 ## UIElement List
 
-Table Use this dropdown listbox to select a table within the dataset that you want to visualize.
+**Table**
+
+Use this dropdown listbox to select a table within the dataset that you want to visualize.
 
 ## See also
 
