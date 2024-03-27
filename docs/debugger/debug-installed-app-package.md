@@ -83,7 +83,7 @@ The first time Visual Studio debugs an installed UWP app on a Windows 10 or newe
 When you start debugging an installed app package on a connected Xbox, HoloLens, or IoT device for the first time, Visual Studio installs the correct version of the remote debugger for your target device. Installing the remote debugger might take some time, and the message **Starting remote debugger** displays while it is happening.
 
 >[!NOTE]
-> Currently, a Xbox or HoloLens device restarts the app with the debugger attached if it was already running.
+> Currently, Xbox or HoloLens devices restart the app with the debugger attached if it was already running.
 
 For more information on remote deployment of UWP apps, see [Deploy and debug UWP apps](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps#advanced-remote-deployment-options) and [Debug UWP apps on remote machines](run-windows-store-apps-on-a-remote-machine.md).
 
