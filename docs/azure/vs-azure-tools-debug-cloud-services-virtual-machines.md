@@ -245,7 +245,7 @@ Remote debugging has the following limitations:
 - The debugger uses ports 30400 to 30424, 31400 to 31424 and 32400 to 32424. If you try to use any of these ports, you won't be able to publish your service, and one of the following error messages will appear in the activity log for Azure:
 
   - Error validating the .cscfg file against the .csdef file.
-    The reserved port range 'range' for endpoint Microsoft.WindowsAzure.plug-ins.RemoteDebugger.Connector of role 'role' overlaps with an already defined port or range.
+    The reserved port range 'range' for endpoint `Microsoft.WindowsAzure.PlugIns.RemoteDebugger.Connector` of role 'role' overlaps with an already defined port or range.
   - Allocation failed. Retry later, try reducing the VM size or number of role instances, or try deploying to a different region.
 
 ::: moniker range=">=vs-2022"

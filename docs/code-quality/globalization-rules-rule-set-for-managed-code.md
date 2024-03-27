@@ -14,6 +14,8 @@ monikerRange: 'vs-2019'
 
 Use the Microsoft Globalization Rules rule set to focus on problems that might prevent data in your application from appearing correctly in different languages, locales, and cultures. You should include this rule set if your application is localized, globalized, or both.
 
+<!-- docutune:disable -->
+
 |Rule|Description|
 |----------|-----------------|
 |[CA1303](/dotnet/fundamentals/code-analysis/quality-rules/ca1303)|Do not pass literals as localized parameters|
