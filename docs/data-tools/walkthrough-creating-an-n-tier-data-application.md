@@ -14,6 +14,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Walkthrough: Create an n-tier data application with ADO.NET and the .NET Framework
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
@@ -139,9 +140,9 @@ The next step is to create a typed dataset. Typed datasets are created with both
 
 5. On the **Choose Your Data Connection** page, perform one of the following actions:
 
-     If a data connection to the Northwind sample database is available in the drop-down list, select it.
+     If a data connection to the Northwind sample database is available in the dropdown list, select it.
 
-     -or-
+- or-
 
      Select **New Connection** to open the **Add Connection** dialog box.
 
@@ -154,11 +155,12 @@ The next step is to create a typed dataset. Typed datasets are created with both
 
 8. Expand the **Tables** node on the **Choose Your Database Objects** page.
 
-9. Select the check boxes for the **Customers** and **Orders** tables, and then choose **Finish**.
+9. Select the checkboxes for the **Customers** and **Orders** tables, and then choose **Finish**.
 
      NorthwindDataSet is added to the DataAccessTier project and appears in the **Data Sources** window.
 
 ## Separate the TableAdapters from the Dataset
+
 After you create the dataset, separate the generated dataset class from the TableAdapters. You do this by setting the **DataSet Project** property to the name of the project in which to store the separated out dataset class.
 
 ### To separate the TableAdapters from the Dataset
@@ -179,6 +181,7 @@ After you create the dataset, separate the generated dataset class from the Tabl
 > When you separate datasets and TableAdapters (by setting the **DataSet Project** property), existing partial dataset classes in the project will not be moved automatically. Existing dataset partial classes must be manually moved to the dataset project.
 
 ## Create a New Service Application
+
 This walkthrough demonstrates how to access the data access tier by using a WCF service, so let's create a new WCF service application.
 
 ### To create a new WCF Service application
@@ -192,6 +195,7 @@ This walkthrough demonstrates how to access the data access tier by using a WCF 
      The DataService project is created and added to the NTierWalkthrough solution.
 
 ## Create methods in the data access tier to return the customers and orders data
+
 The data service has to call two methods in the data access tier: `GetCustomers` and `GetOrders`. These methods return the Northwind `Customers` and `Orders` tables. Create the `GetCustomers` and `GetOrders` methods in the `DataAccessTier` project.
 
 ### To create a method in the data access tier that returns the Customers table
@@ -227,6 +231,7 @@ The data service has to call two methods in the data access tier: `GetCustomers`
 7. On the **Build** menu, click **Build Solution**.
 
 ## Add a reference to the data entity and data access tiers to the data service
+
 Because the data service requires information from the dataset and TableAdapters, add references to the **DataEntityTier** and **DataAccessTier** projects.
 
 ### To add references to the data service
@@ -240,6 +245,7 @@ Because the data service requires information from the dataset and TableAdapters
 4. Click **OK**.
 
 ## Add functions to the service to call the GetCustomers and GetOrders methods in the data access tier
+
 Now that the data access tier contains the methods to return data, create methods in the data service to call the methods in the data access tier.
 
 > [!NOTE]
@@ -252,6 +258,7 @@ Now that the data access tier contains the methods to return data, create method
 2. Add the following code under the **Add your service operations here** comment:
 
     ### [C#](#tab/csharp)
+
     ```csharp
     [OperationContract]
     DataEntityTier.NorthwindDataSet.CustomersDataTable GetCustomers();
@@ -261,6 +268,7 @@ Now that the data access tier contains the methods to return data, create method
     ```
 
     ### [VB](#tab/vb)
+
     ```vb
     <OperationContract()> _
     Function GetCustomers() As DataEntityTier.NorthwindDataSet.CustomersDataTable
@@ -268,6 +276,7 @@ Now that the data access tier contains the methods to return data, create method
     <OperationContract()> _
     Function GetOrders() As DataEntityTier.NorthwindDataSet.OrdersDataTable
     ```
+
     ---
 
    > [!NOTE]
@@ -278,6 +287,7 @@ Now that the data access tier contains the methods to return data, create method
 4. Add the following code to the **Service1** class:
 
     ### [C#](#tab/csharp)
+
     ```csharp
     public DataEntityTier.NorthwindDataSet.CustomersDataTable GetCustomers()
     {
@@ -296,6 +306,7 @@ Now that the data access tier contains the methods to return data, create method
     ```
 
     ### [VB](#tab/vb)
+
     ```vb
     Public Function GetCustomers() As DataEntityTier.NorthwindDataSet.CustomersDataTable Implements IService1.GetCustomers
         Dim CustomersTableAdapter1 As New DataAccessTier.NorthwindDataSetTableAdapters.CustomersTableAdapter
@@ -307,11 +318,13 @@ Now that the data access tier contains the methods to return data, create method
         Return OrdersTableAdapter1.GetOrders()
     End Function
     ```
+
     ---
 
 5. On the **Build** menu, click **Build Solution**.
 
 ## Create a presentation tier to display data from the data service
+
 Now that the solution contains the data service that has methods, which call into the data access tier, create another project that calls into the data service and present the data to users. For this walkthrough, create a Windows Forms application; this is the presentation tier of the n-tier application.
 
 ### To create the presentation tier project
@@ -325,6 +338,7 @@ Now that the solution contains the data service that has methods, which call int
     The PresentationTier project is created and added to the NTierWalkthrough solution.
 
 ## Set the PresentationTier project as the startup project
+
 We'll set the **PresentationTier** project to be the startup project for the solution, because it's the actual client application that presents and interacts with the data.
 
 ### To set the new presentation tier project as the startup project
@@ -332,6 +346,7 @@ We'll set the **PresentationTier** project to be the startup project for the sol
 - In **Solution Explorer**, right-click **PresentationTier** and click **Set as StartUp Project**.
 
 ## Add References to the Presentation Tier
+
 The client application, PresentationTier requires a service reference to the data service in order to access the methods in the service. In addition, a reference to the dataset is required to enable type sharing by the WCF service. Until you enable type sharing through the data service, code added to the partial dataset class is not available to the presentation tier. Because you typically add code, such as validation code to the row and column changing events of a data table, it's likely that you'll want to access this code from the client.
 
 ### To add a reference to the presentation tier
@@ -354,6 +369,7 @@ The client application, PresentationTier requires a service reference to the dat
     > If you have multiple services on the current computer, select the service that you created previously in this walkthrough (the service that contains the `GetCustomers` and `GetOrders` methods).
 
 ## Add DataGridViews to the form to display the data returned by the data service
+
 After you add the service reference to the data service, the **Data Sources** window is automatically populated with the data that is returned by the service.
 
 ### To add two data bound DataGridViews to the form
@@ -373,6 +389,7 @@ After you add the service reference to the data service, the **Data Sources** wi
 7. Add the following code to the `Form1_Load` event handler.
 
     ### [C#](#tab/csharp)
+
     ```csharp
     ServiceReference1.Service1Client DataSvc =
         new ServiceReference1.Service1Client();
@@ -381,14 +398,17 @@ After you add the service reference to the data service, the **Data Sources** wi
     ```
 
     ### [VB](#tab/vb)
+
     ```vb
     Dim DataSvc As New ServiceReference1.Service1Client
     NorthwindDataSet.Customers.Merge(DataSvc.GetCustomers)
     NorthwindDataSet.Orders.Merge(DataSvc.GetOrders)
     ```
+
     ---
 
 ## Increase the maximum message size allowed by the service
+
 The default value for `maxReceivedMessageSize` is not large enough to hold the data retrieved from the `Customers` and `Orders` tables. In the following steps, you'll increase the value to 6553600. You change the value on the client, which automatically updates the service reference.
 
 > [!NOTE]
@@ -411,10 +431,12 @@ The default value for `maxReceivedMessageSize` is not large enough to hold the d
    ```
 
 ## Test the application
+
 Run the application by pressing **F5**. The data from the `Customers` and `Orders` tables is retrieved from the data service and displayed on the form.
 
 ## Next steps
-Depending on your application requirements, there are several steps that you may want to perform after you save related data in the Windows-based application. For example, you could make the following enhancements to this application:
+
+Depending on your application requirements, there are several steps that you might want to perform after you save related data in the Windows-based application. For example, you could make the following enhancements to this application:
 
 - Add validation to the dataset.
 

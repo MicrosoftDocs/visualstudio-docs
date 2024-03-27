@@ -11,9 +11,10 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Walkthrough: Create LINQ to SQL classes by using single-table inheritance (O/R Designer)
 
-The [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md) supports single-table inheritance as it is typically implemented in relational systems. This walkthrough expands upon the generic steps provided in the [How to: Configure inheritance by using the O/R Designer](../data-tools/how-to-configure-inheritance-by-using-the-o-r-designer.md) topic and provides some real data to demonstrate the use of inheritance in the O/R Designer.
+The [language integrated query (LINQ) to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md) supports single-table inheritance as it is typically implemented in relational systems. This walkthrough expands upon the generic steps provided in the [How to: Configure inheritance by using the O/R Designer](../data-tools/how-to-configure-inheritance-by-using-the-o-r-designer.md) topic and provides some real data to demonstrate the use of inheritance in the O/R Designer.
 
 During this walkthrough, you perform the following tasks:
 
@@ -32,6 +33,7 @@ During this walkthrough, you perform the following tasks:
 - Display the data on a Windows Form.
 
 ## Create a table to inherit from
+
 To see how inheritance works, you create a small `Person` table, use it as a base class, and then create an `Employee` object that inherits from it.
 
 ### To create a base table to demonstrate inheritance
@@ -56,6 +58,7 @@ To see how inheritance works, you create a small `Person` table, use it as a bas
 4. Save the table and name it **Person**.
 
 ## Add data to the table
+
 So that you can verify that inheritance is configured correctly, the table needs some data for each class in the single-table inheritance.
 
 ### To add data to the table
@@ -80,6 +83,7 @@ So that you can verify that inheritance is configured correctly, the table needs
     |**12**|**2**|**Ken**|**Kwok**|**3**|
 
 ## Create a new project
+
 Now that you have created the table, create a new project to demonstrate configuring inheritance.
 
 ### To create the new Windows Forms application
@@ -105,6 +109,7 @@ Now that you have created the table, create a new project to demonstrate configu
      The `.dbml` file is added to the project and the **O/R Designer** opens.
 
 ## Create the inheritance by using the O/R Designer
+
 Configure the inheritance by dragging an **Inheritance** object from the **Toolbox** onto the design surface.
 
 ### To create the inheritance
@@ -134,6 +139,7 @@ Configure the inheritance by dragging an **Inheritance** object from the **Toolb
 12. Build the project.
 
 ## Query the inherited class and display the data on the form
+
 You now add some code to the form that queries for a specific class in the object model.
 
 ### To create a LINQ query and display the results on the form
@@ -145,6 +151,7 @@ You now add some code to the form that queries for a specific class in the objec
 3. Add the following code to the `Form1_Load` event handler:
 
     ### [C#](#tab/csharp)
+
     ```csharp
     NorthwindDataContext dc = new DataClasses1DataContext();
     var results = from emp in dc.Persons
@@ -158,6 +165,7 @@ You now add some code to the form that queries for a specific class in the objec
     ```
 
     ### [VB](#tab/vb)
+
     ```vb
     Dim dc As New DataClasses1DataContext
     Dim results = From emp In dc.Persons _
@@ -168,9 +176,11 @@ You now add some code to the form that queries for a specific class in the objec
         ListBox1.Items.Add(Emp.LastName)
     Next
     ```
+
     ---
 
 ## Test the application
+
 Run the application and verify that the records displayed in the list box are all employees (records that have a value of 2 in their **Type** column).
 
 ### To test the application
