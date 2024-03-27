@@ -15,7 +15,7 @@ With the Universal Windows Platform (UWP) and our one Windows core, you can run 
 
 ![Universal Windows Platform](../cross-platform/media/uwp_coreextensions.png)
 
-Run your app on a Windows 10 phone, a Windows 10 desktop, or a Xbox. It's the same app package! With the introduction of the Windows 10 single, unified core, one app package can run across all platforms. Several platforms have extension SDKs that you can add to your app to take advantage of platform-specific behaviors. For example, an extension SDK for mobile handles the back button being pressed on a Windows phone. If you reference an extension SDK in your project, then just add runtime checks to test if that SDK is available on that platform. That's how you can have the same app package for each platform!
+Run your app on a Windows 10 phone, a Windows 10 desktop, or Xbox. It's the same app package! With the introduction of the Windows 10 single, unified core, one app package can run across all platforms. Several platforms have extension SDKs that you can add to your app to take advantage of platform-specific behaviors. For example, an extension SDK for mobile handles the back button being pressed on a Windows phone. If you reference an extension SDK in your project, then just add runtime checks to test if that SDK is available on that platform. That's how you can have the same app package for each platform!
 
 **What is the Windows core?**
 
