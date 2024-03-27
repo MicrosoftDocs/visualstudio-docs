@@ -23,6 +23,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Directly access the database with a TableAdapter in .NET Framework applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
