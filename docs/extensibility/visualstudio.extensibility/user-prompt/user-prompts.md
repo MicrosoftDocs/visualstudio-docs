@@ -77,7 +77,7 @@ Several sets of predefined [`PromptOptions`](/dotnet/api/microsoft.visualstudio.
 | Choice | Default | Return Value |
 |--------|---------|--------------|
 | "OK"   | Yes | true |
-| _Dismissed_ | | false |
+| *Dismissed* | | false |
 
 ### OKCancel
 
@@ -85,7 +85,7 @@ Several sets of predefined [`PromptOptions`](/dotnet/api/microsoft.visualstudio.
 |--------|---------|--------------|
 | "OK"   | Yes | true |
 | "Cancel" | No | false |
-| _Dismissed_ | | false |
+| *Dismissed* | | false |
 
 ### RetryCancel
 
@@ -93,7 +93,7 @@ Several sets of predefined [`PromptOptions`](/dotnet/api/microsoft.visualstudio.
 |--------|---------|--------------|
 | "Retry" | Yes | true |
 | "Cancel" | No | false |
-| _Dismissed_ | | false |
+| *Dismissed* | | false |
 
 ### Example
 
