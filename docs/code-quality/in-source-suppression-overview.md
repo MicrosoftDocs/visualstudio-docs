@@ -47,7 +47,7 @@ To suppress violations using the code editor, follow these steps:
 
    - If you choose **in Source (attribute)**, you see a preview of the [SuppressMessage attribute](#in-source-suppression-and-the-suppressmessageattribute-attribute) added to your code.
 
-      :::image type="content" source="media/suppress-diagnostic-from-editor-attribute.png" alt-text="Screenshot that shows an in Source (attribute) selection from the Quick Actions Suppress menu" lightbox=suppress-diagnostic-from-editor-attribute.png":::
+      :::image type="content" source="media/suppress-diagnostic-from-editor-attribute.png" alt-text="Screenshot that shows an in Source (attribute) selection from the Quick Actions Suppress menu." lightbox="media/suppress-diagnostic-from-editor-attribute.png":::
 
 ### Suppress violations using the Error List
 
