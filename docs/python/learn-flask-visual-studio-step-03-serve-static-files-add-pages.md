@@ -1,11 +1,7 @@
 ---
 title: Django in Visual Studio tutorial Step 3, static files & template inheritance
 titleSuffix: ""
-<<<<<<< HEAD
 description: Step 3 of a core walkthrough of Flask capabilities in Visual Studio, including serving static files, adding pages to the Flask app, and using template inheritance.
-=======
-description: Step 3 of a core walkthrough of Django capabilities in Visual Studio, including serving static files, adding pages to the Django app, and using template inheritance.
->>>>>>> e397cb2de067562519de2b4d7ee88e7a07e6c4bc
 ms.date: 03/28/2024
 ms.topic: tutorial
 author: cwebster-99
