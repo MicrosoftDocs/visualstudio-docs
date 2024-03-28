@@ -48,7 +48,7 @@ Parameters that are specified on the command-line override the settings that are
 
 ## Configure the response file used when installing from a layout
 
-If you created a layout by using the `--layout` command, then a default `response.json` file will be created in the root of the layout folder. Administrators are expected to modify and customize the response file appropriately _before_ installing onto a client machine. That way, they can control the client's initial configuration settings.
+If you created a layout by using the `--layout` command, then a default `response.json` file will be created in the root of the layout folder. Administrators are expected to modify and customize the response file appropriately *before* installing onto a client machine. That way, they can control the client's initial configuration settings.
 
 The configuration settings in the `response.json` file are only referenced when executing a [bootstrapper](create-a-network-installation-of-visual-studio.md#download-the-visual-studio-bootstrapper-to-create-the-layout) (e.g. vs_enterprise.exe). Bootstrappers are typically used to perform initial installation on the client, but sometimes they're used to update a client too. The `response.json` is never used when you launch the installer locally on the client.  
 
@@ -107,7 +107,7 @@ When you create or update a layout, a response.template.json file is also create
 
 ## Example customized layout response file content
 
-The following `response.json` file example will initialize a Visual Studio 2019 Enterprise client install to select several common workloads and components, to select both the English and French UI languages, and to have the update location configured to look for sources in a network hosted layout. Note that for Visual Studio 2019, the update location (channelUri) can only be configured during initial installation and cannot be changed after the fact _unless_ you use the functionality in the latest installer. Refer to the [Configure policies for enterprise deployments of Visual Studio](configure-policies-for-enterprise-deployments.md#configuring-source-location-for-updates) and the [Configure your layout to always include and provide the latest installer](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer) for information on how to configure this.
+The following `response.json` file example will initialize a Visual Studio 2019 Enterprise client install to select several common workloads and components, to select both the English and French UI languages, and to have the update location configured to look for sources in a network hosted layout. Note that for Visual Studio 2019, the update location (channelUri) can only be configured during initial installation and cannot be changed after the fact *unless* you use the functionality in the latest installer. Refer to the [Configure policies for enterprise deployments of Visual Studio](configure-policies-for-enterprise-deployments.md#configuring-source-location-for-updates) and the [Configure your layout to always include and provide the latest installer](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer) for information on how to configure this.
 
 ```Example response.json
 {
