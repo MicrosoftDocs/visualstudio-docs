@@ -1,7 +1,7 @@
 ---
 title: A DCOM error occurred trying to contact the remote computer. Access is denied.
 titleSuffix: ""
-description: 'A DCOM error occurred trying to contact the remote computer. Access is denied.' View information about this Visual Studio remote debugging error reference.
+description: A DCOM error occurred trying to contact the remote computer. Access is denied. View information about this Visual Studio remote debugging error reference.
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:
