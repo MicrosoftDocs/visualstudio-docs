@@ -72,9 +72,9 @@ The following steps describe how to enable mixed-mode debugging in a Python proj
 
 ### Work with virtual environments
 
-When you use this method of mixed-mode debugging for virtual environments (venvs), Python for Windows uses a _python.exe_ stub file for venvs that Visual Studio finds and loads as a subprocess.
+When you use this method of mixed-mode debugging for virtual environments (venvs), Python for Windows uses a `python.exe` stub file for venvs that Visual Studio finds and loads as a subprocess.
 
-- For Python 3.8 and later, mixed-mode doesn't support multi-process debugging. When you start the debugging session, the stub subprocess is debugged rather than the application. For attach scenarios, the workaround is to attach to the correct _python.exe_ file. When you launch the application with debugging (such as through the **F5** keyboard shortcut), you can create your venv by using the command `C:\Python310-64\python.exe -m venv venv --symlinks`. In the command, insert your preferred version of Python. By default, only administrators can create symlinks on Windows.
+- For Python 3.8 and later, mixed-mode doesn't support multi-process debugging. When you start the debugging session, the stub subprocess is debugged rather than the application. For attach scenarios, the workaround is to attach to the correct `python.exe` file. When you launch the application with debugging (such as through the **F5** keyboard shortcut), you can create your venv by using the command `C:\Python310-64\python.exe -m venv venv --symlinks`. In the command, insert your preferred version of Python. By default, only administrators can create symlinks on Windows.
 
 - For Python versions earlier than 3.8, mixed mode debugging should work as expected with venvs.
 
@@ -88,7 +88,7 @@ When you start debugging in mixed mode for the first time, you might see a **Pyt
 
 You can make the source code for standard Python itself available when debugging.
 
-1. Go to [https://www.python.org/downloads/source/](https://www.python.org/downloads/source/).
+1. Go to [`https://www.python.org/downloads/source/`](https://www.python.org/downloads/source/).
 
 1. Download the Python source code archive appropriate for your version, and extract the code to a folder.
 
@@ -115,11 +115,11 @@ The following steps describe how to enable mixed-mode debugging for a C/C++ proj
 
 ### Debug the program launcher
 
-When you use this method, you can't debug the _py.exe_ program launcher because it spawns a child _python.exe_ subprocess. The debugger doesn't attach to the subprocess. For this scenario, the workaround is to launch the _python.exe_ program directly with arguments, as follows:
+When you use this method, you can't debug the `py.exe` program launcher because it spawns a child `python.exe` subprocess. The debugger doesn't attach to the subprocess. For this scenario, the workaround is to launch the `python.exe` program directly with arguments, as follows:
 
 1. On the **Property Pages** pane for the C/C++ project, go to the **Configuration Properties** > **Debugging** tab.
 
-1. For the **Command** option, specify the full path to the _python.exe_ program file.
+1. For the **Command** option, specify the full path to the `python.exe` program file.
 
 1. Specify your desired arguments in the **Command Arguments** field.
 
