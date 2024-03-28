@@ -19,4 +19,4 @@ To respond to this message, select **OK**. The connection information that is co
 
 ## See also
 
-- [language integrated query (LINQ) to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
+- [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
