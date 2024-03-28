@@ -77,7 +77,7 @@ This section discusses questions related to the fact that Microsoft is no longer
 
 ### For new customers:
 
-#### Q: I was considering the Annual Cloud subscription, and now I can’t find it.  What should I do?
+#### Q: I was considering the Annual Cloud subscription, and now I can’t find it.  What should I do?
 
 A: Microsoft is no longer offering annual cloud subscriptions. Go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) for other purchasing options.
 
