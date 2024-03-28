@@ -11,6 +11,7 @@ manager: mijacobs
 ms.subservice: code-analysis
 monikerRange: 'vs-2019'
 ---
+
 # Use the code analysis rule set editor
 
 The code analysis rule set editor lets you specify the rules that are included in a custom rule set and set the severity of rule violations.
@@ -27,14 +28,14 @@ The following table shows the severity options:
 
 The editor displays the rules in a tree structure that groups the rules by a rule set field that you specify. To add or remove rules from a rule set, perform one or more of the following steps:
 
-- Select or clear the check box of the group node to add or remove all the rules in the group. When you select a group, all rules are set to the **Warning** action.
+- Select or clear the checkbox of the group node to add or remove all the rules in the group. When you select a group, all rules are set to the **Warning** action.
 
    > [!TIP]
-   > You can change how rules are grouped in the **Group by** drop-down.
+   > You can change how rules are grouped in the **Group by** dropdown list.
 
 - Click the **Action** field of a group, specify the action to apply to all rules in the group.
 
-- Select or clear the check box for an individual rule. When you select the check box for a rule, the rule is set to the **Warning** action.
+- Select or clear the checkbox for an individual rule. When you select the checkbox for a rule, the rule is set to the **Warning** action.
 
 ## Toolbar
 
@@ -57,7 +58,7 @@ The following table describes the controls on the toolbar of the rule set editor
 
 ## Rule set fields
 
-Rule set fields display information about a rule set, and can be used to sort and group the rule list. To display or hide fields, select **Column Options** on the rule set editor toolbar, and then select or clear the check boxes of the fields to show or hide.
+Rule set fields display information about a rule set, and can be used to sort and group the rule list. To display or hide fields, select **Column Options** on the rule set editor toolbar, and then select or clear the checkboxes of the fields to show or hide.
 
 The following table describes the fields of a rule set:
 
@@ -77,7 +78,7 @@ From the column headers of the rule set grid, you can sort and filter the rules 
 
 - To sort the rule set lists, select the column header of the field by which you want to sort. If the rule sets are grouped, each group is sorted individually.
 
-- To filter the rule sets by the value of a field, select the filter button on the column header of the field by which you want to filter. Select the check boxes of the values that you want to show, and clear the check boxes of the values that you want to hide.
+- To filter the rule sets by the value of a field, select the filter button on the column header of the field by which you want to filter. Select the checkboxes of the values that you want to show, and clear the checkboxes of the values that you want to hide.
 
 ## Related content
 

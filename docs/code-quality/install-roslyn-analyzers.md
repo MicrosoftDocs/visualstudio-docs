@@ -12,6 +12,7 @@ helpviewer_keywords:
 - Roslyn analyzers
 ms.date: 03/25/2024
 ---
+
 # Install external analyzers
 
 Visual Studio includes a built-in core set of .NET Compiler Platform (*Roslyn*) analyzers, which are always on. If you need more analyzers, you can install external analyzers either as a NuGet package, or as a Visual Studio extension (*.vsix* file).

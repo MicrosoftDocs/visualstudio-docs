@@ -18,6 +18,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Handle a concurrency exception in .NET Framework database applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
@@ -103,7 +104,7 @@ In this section, you create a <xref:System.Windows.Forms.DataGridView?displayPro
 
 2. In the **Data Sources** window, expand the **NorthwindDataSet** node, and then select the **Customers** table.
 
-3. Select the down arrow on the table node, and then select **DataGridView** in the drop-down list.
+3. Select the down arrow on the table node, and then select **DataGridView** in the dropdown list.
 
 4. Drag the table onto an empty area of your form.
 
@@ -175,9 +176,11 @@ The code you just wrote calls the `CreateMessage` procedure to display error inf
 Create the message by adding the following code to the **Code Editor**. Enter this code below the `UpdateDatabase` method:
 
 ### [C#](#tab/csharp)
+
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataConcurrency/CS/Form1.cs" id="Snippet4":::
 
 ### [VB](#tab/vb)
+
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataConcurrency/VB/Form1.vb" id="Snippet4":::
 ---
 
@@ -188,9 +191,11 @@ You also need code to process the user's response to the message box. The option
 Add the following code below the code that was added in the previous section:
 
 ### [C#](#tab/csharp)
+
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataConcurrency/CS/Form1.cs" id="Snippet3":::
 
 ### [VB](#tab/vb)
+
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataConcurrency/VB/Form1.vb" id="Snippet3":::
 ---
 

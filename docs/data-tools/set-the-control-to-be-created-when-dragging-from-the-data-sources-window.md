@@ -13,6 +13,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Set the control to be created when dragging from the Data Sources window
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
@@ -34,7 +35,7 @@ In this context, the term *object* refers to a custom business object, an entity
    > [!TIP]
    > If the **Data Sources** window is not open, you can open it by selecting **View** > **Other Windows** > **Data Sources**.
 
-3. Click the drop-down menu for the item, and then click one of the following items in the menu:
+3. Click the dropdown list menu for the item, and then click one of the following items in the menu:
 
     - To display each data field in a separate control, click **Details**. When you drag the data item to the designer, this action will create a different data-bound control for each column or property of the parent data table or object, along with labels for each control.
 
@@ -56,13 +57,13 @@ Before you drag an item that represents a column or a property of an object from
 
 3. Select each column or property for which you want to set the control to be created.
 
-4. Click the drop-down menu for the column or property, and then select the control you want to create when the item is dragged to the designer.
+4. Click the dropdown list menu for the column or property, and then select the control you want to create when the item is dragged to the designer.
 
      The list of available controls depends on which designer you have open, which version of .NET your project targets, and which custom controls that support data binding you have added to the **Toolbox**. If the control you want to create is in the list of available controls, you can add the control to the list. For more information, see [Add custom controls to the Data Sources window](../data-tools/add-custom-controls-to-the-data-sources-window.md).
 
      To learn how to create a custom control that can be added to the list of controls for data columns or properties in the **Data Sources** window, see [Create a Windows Forms user control that supports simple data binding](../data-tools/create-a-windows-forms-user-control-that-supports-simple-data-binding.md).
 
-     If you don't want to create a control for the column or property, select **None** in the drop-down menu. This is useful if you want to drag the parent table or object to the designer, but you do not want to include the specific column or property.
+     If you don't want to create a control for the column or property, select **None** in the dropdown list menu. This is useful if you want to drag the parent table or object to the designer, but you do not want to include the specific column or property.
 
 ## Related content
 

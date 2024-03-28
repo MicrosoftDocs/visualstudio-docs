@@ -16,7 +16,7 @@ Every time a new Visual Studio update is released, Microsoft will publish a Visu
 
 ## Use Microsoft Endpoint Manager (Intune) to update to cloud connected devices using Visual Studio administrator updates
 
-[Microsoft Endpoint Manager](https://endpoint.microsoft.com) can be used to configure device policies across the organization such as enrolling the devices into [Windows Update for Business (WUfB)](/windows/deployment/update/waas-manage-updates-wufb) and enabling the [MUUpdateServicePolicy](/windows/client-management/mdm/policy-csp-update#update-allowmuupdateservice). Devices that have been configured in this way will automatically be eligible to receive and install the applicable Visual Studio _security_ administrator updates via the "Receive updates for other Microsoft products" channel in Windows Update. 
+[Microsoft Endpoint Manager](https://endpoint.microsoft.com) can be used to configure device policies across the organization such as enrolling the devices into [Windows Update for Business (WUfB)](/windows/deployment/update/waas-manage-updates-wufb) and enabling the [MUUpdateServicePolicy](/windows/client-management/mdm/policy-csp-update#update-allowmuupdateservice). Devices that have been configured in this way will automatically be eligible to receive and install the applicable Visual Studio *security* administrator updates via the "Receive updates for other Microsoft products" channel in Windows Update. 
 
 ## Enable Configuration Manager (SCCM) to receive and distribute Visual Studio administrator updates
 
@@ -31,7 +31,7 @@ Configuration Manager (SCCM) can be set up to synchronize and download the Visua
       - On the **Classifications** tab, make sure “Security Updates”, “Feature Packs”, and “Updates” are selected.
   4. Synchronize the software updates with the WSUS server by choosing **Software Library** (bottom-left), and then on the **Home** tab ribbon at the top, select the **Synchronize Software Updates** button. Synchronizing Software Updates will make the available Visual Studio administrator updates visible in, and able to be deployed from, the SCCM console.
 
-  Only Visual Studio _security_ Administrator updates are published to WSUS by default. If you want to deploy feature or quality administrator updates through SCCM, you'll need to [manually import them from the Microsoft Catalog](/mem/configmgr/sum/get-started/synchronize-software-updates#import-updates-from-the-microsoft-update-catalog), and then deploy them.
+  Only Visual Studio *security* Administrator updates are published to WSUS by default. If you want to deploy feature or quality administrator updates through SCCM, you'll need to [manually import them from the Microsoft Catalog](/mem/configmgr/sum/get-started/synchronize-software-updates#import-updates-from-the-microsoft-update-catalog), and then deploy them.
 
 After you perform these steps, you can use the software update management capabilities of Configuration Manager (SCCM) to deploy the Visual Studio administrator updates. The different types and characteristics of Visual Studio administrator updates are described in [Applying administrator updates](./applying-administrator-updates.md), which provides guidance on how and when they should be distributed throughout your organization. 
 
