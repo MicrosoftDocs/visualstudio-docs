@@ -75,7 +75,7 @@ Your application calls an event handler when an action takes place, such as sele
    Repeat for the remaining two buttons.
    Each time, the Visual Studio IDE adds a new method to the form's code file.
 
-1. Double-click the checkbox control in **Windows Forms Designer** to add a `checkBox1_CheckedChanged()` method.
+1. Double-click the CheckBox control in **Windows Forms Designer** to add a `checkBox1_CheckedChanged()` method.
    When you select or clear the check box, it calls this method.
 
    The following snippet shows the new code that you see in the code editor.
@@ -187,7 +187,8 @@ Picture Viewer opens the **Open File** dialog box, where you can select a pictur
 In this section, add the code for the other event handlers.
 
 1. In **Windows Forms Designer**, double-click the **Clear** the picture button.
-   Add the code in the braces.
+   For C#, add the code in braces.
+   For Visual Basic, add the code between `Private Sub` and `End Sub`.
 
    ### [C#](#tab/csharp)
    ```csharp
@@ -207,7 +208,7 @@ In this section, add the code for the other event handlers.
    ```
    ---
 
-1. Double-click the **Set the background color** button and add the code in braces.
+1. Double-click the **Set the background color** button and add the code.
 
    ### [C#](#tab/csharp)
    ```csharp
@@ -232,7 +233,7 @@ In this section, add the code for the other event handlers.
    ```
    ---
 
-1. Double-click the **Close** button and add the code in braces.
+1. Double-click the **Close** button and add the code.
 
    ### [C#](#tab/csharp)
    ```csharp
@@ -253,7 +254,7 @@ In this section, add the code for the other event handlers.
    ```
    ---
 
-1. Double-click the **Stretch** checkbox and add the code in braces.
+1. Double-click the **Stretch** checkbox and add the code.
 
    ### [C#](#tab/csharp)
    ```csharp
@@ -287,7 +288,7 @@ In this section, add the code for the other event handlers.
 
 ## Run your application
 
-You can run your application at any time, while you're writing it.
+You can run your application at any time while you're writing it.
 After you add the code in the previous section, the Picture Viewer is complete.
 As in the previous tutorials, use one of the following methods to run your application:
 
