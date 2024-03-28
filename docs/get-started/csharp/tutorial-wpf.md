@@ -56,7 +56,7 @@ When you create an application in Visual Studio, you first create a project and 
 
    :::image type="content" source="./media/vs-2019/wpf-target-framework.png" alt-text="Screenshot that shows the Additional information window in Visual Studio with .NET Core 3.1 selected as the target framework for the new project." lightbox="./media/vs-2019/wpf-target-framework.png":::
 
-Visual Studio creates the HelloWPFApp project and solution, and **Solution Explorer** shows the various files. The **WPF Designer** shows a design view and a XAML view of *MainWindow.xaml* in a split view. You can slide the splitter to show more or less of either view. You can choose to see only the visual view or only the XAML view.
+Visual Studio creates the HelloWPFApp project and solution, and **Solution Explorer** shows the various files. The **WPF Designer** shows a design view and a XAML view of `MainWindow.xaml` in a split view. You can slide the splitter to show more or less of either view. You can choose to see only the visual view or only the XAML view.
 
 ![WPF project and solution in the IDE](media/exploreide-wpfproject-cs.png "Screenshot of the HelloWPFApp project and solution in the Visual Studio IDE with the Solution Explorer open, and the XAML and designer views of 'MainWindow.xaml' open in the WPF Designer.")
 
@@ -89,7 +89,7 @@ After you create the project, you can customize it. To do so, choose **Propertie
 
    :::image type="content" source="media/vs-2022/wpf-target-framework.png" alt-text="Screenshot that shows the Additional information window in Visual Studio with .NET 8.0 selected as the target framework for the new project." lightbox="media/vs-2022/wpf-target-framework.png":::
 
-Visual Studio creates the HelloWPFApp project and solution, and **Solution Explorer** shows the various files. The **WPF Designer** shows a design view and a XAML view of *MainWindow.xaml* in a split view. You can slide the splitter to show more or less of either view. You can choose to see only the visual view or only the XAML view.
+Visual Studio creates the HelloWPFApp project and solution, and **Solution Explorer** shows the various files. The **WPF Designer** shows a design view and a XAML view of `MainWindow.xaml` in a split view. You can slide the splitter to show more or less of either view. You can choose to see only the visual view or only the XAML view.
 
 :::image type="content" source="media/vs-2022/explore-ide-wpf-project-cs.png" alt-text="Screenshot of the HelloWPFApp project and solution in Solution Explorer, and the XAML and designer views of 'MainWindow.xaml' open in the WPF Designer.":::
 
@@ -104,7 +104,7 @@ After you create the project, you can customize it. To do so, choose **Propertie
 
 ## Design the user interface (UI)
 
-If the designer isn't open, select *MainWindow.xaml* and press **Shift**+**F7** to open the designer.
+If the designer isn't open, select `MainWindow.xaml` and press **Shift**+**F7** to open the designer.
 
 We add three types of controls to this application: a <xref:System.Windows.Controls.TextBlock> control, two <xref:System.Windows.Controls.RadioButton> controls, and a <xref:System.Windows.Controls.Button> control.
 
@@ -384,11 +384,11 @@ When this application runs, a message box appears after a user chooses a radio b
 Next, you debug the application to look for errors and test that both message boxes appear correctly. The following instructions tell you how to build and launch the debugger, but later you might read [Build a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf) and [Debug WPF](../../debugger/debugging-wpf.md) for more information.
 
 ### Change the name of MainWindow.xaml
-Let's give MainWindow a more specific name. In **Solution Explorer**, right-click on *MainWindow.xaml* and choose **Rename**. Rename the file to *Greetings.xaml*.
+Let's give MainWindow a more specific name. In **Solution Explorer**, right-click on `MainWindow.xaml` and choose **Rename**. Rename the file to *Greetings.xaml*.
 
 ### Find and fix errors
 
-In this step, you find the error that we caused earlier by changing the name of the *MainWindow.xaml* file.
+In this step, you find the error that we caused earlier by changing the name of the `MainWindow.xaml` file.
 
 #### Start debugging and find the error
 
@@ -396,13 +396,13 @@ In this step, you find the error that we caused earlier by changing the name of 
 
 1. Start the debugger by pressing **F5** or selecting **Debug**, then **Start Debugging**.
 
-   A **Break Mode** window appears, and the **Output** window indicates that an IOException has occurred: _Cannot locate resource mainwindow.xaml_.
+   A **Break Mode** window appears, and the **Output** window indicates that an IOException has occurred: *Cannot locate resource mainwindow.xaml*.
 
    ![IOException message](../media/exploreide-ioexception.png "Screenshot of the Output window showing a System.IO.IOException with the message, Cannot locate resource mainwindow.xaml.")
 
 1. Stop the debugger by choosing **Debug** > **Stop Debugging**.
 
-We renamed *MainWindow.xaml* to *Greetings.xaml*, but the code still refers to *MainWindow.xaml* as the startup URI for the application, so the project can't start.
+We renamed `MainWindow.xaml` to *Greetings.xaml*, but the code still refers to `MainWindow.xaml` as the startup URI for the application, so the project can't start.
 
 ::: moniker-end
 
@@ -410,25 +410,25 @@ We renamed *MainWindow.xaml* to *Greetings.xaml*, but the code still refers to *
 
 1. Start the debugger by pressing **F5** or selecting **Debug**, then **Start Debugging**.
 
-   A **Break Mode** window appears, and the **Output** window indicates that an IOException has occurred: _Cannot locate resource mainwindow.xaml_.
+   A **Break Mode** window appears, and the **Output** window indicates that an IOException has occurred: *Cannot locate resource mainwindow.xaml*.
 
    :::image type="content" source="media/vs-2022/explore-ide-ioexception.png" alt-text="Screenshot of the Output window showing a System.IO.IOException with the message, Cannot locate resource mainwindow.xaml.":::
 
 1. Stop the debugger by choosing **Debug** > **Stop Debugging**.
 
-We renamed *MainWindow.xaml* to *Greetings.xaml* at the start of this tutorial, but the code still refers to *MainWindow.xaml* as the startup URI for the application, so the project can't start.
+We renamed `MainWindow.xaml` to `Greetings.xaml` at the start of this tutorial, but the code still refers to `MainWindow.xaml` as the startup URI for the application, so the project can't start.
 
 ::: moniker-end
 
 #### Specify Greetings.xaml as the startup URI
 
-1. In **Solution Explorer**, open the *App.xaml* file.
+1. In **Solution Explorer**, open the `App.xaml` file.
 
 1. Change `StartupUri="MainWindow.xaml"` to `StartupUri="Greetings.xaml"`, and save the changes.
 
 As an optional step, it avoids confusion to change the title of your application window to match this new name.
 
-1. In **Solution Explorer**, open the *Greetings.xaml* file that you just renamed.
+1. In **Solution Explorer**, open the `Greetings.xaml` file that you just renamed.
 
 1. Change the value of the  **Window.Title** property from `Title="MainWindow"` to `Title="Greetings"`, and save the changes.
 
@@ -545,7 +545,7 @@ Now that you've verified that everything works, you can prepare a release build 
 
 1. Build the solution by choosing **Build** > **Build Solution**.
 
-Congratulations on completing this tutorial! You can find the *.exe* you built under your solution and project directory (*...\HelloWPFApp\HelloWPFApp\bin\Release*).
+Congratulations on completing this tutorial! You can find the `.exe` you built under your solution and project directory (*...\HelloWPFApp\HelloWPFApp\bin\Release*).
 
 ## Next steps
 

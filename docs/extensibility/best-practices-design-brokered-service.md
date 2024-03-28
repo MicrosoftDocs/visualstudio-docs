@@ -160,7 +160,7 @@ If a newer client calls the method on an older service that doesn't implement th
 Best practices for adding members to existing services include:
 
 - If this is the first change within a release of your service: Bump the minor version on your service moniker when you add the member and declare the new descriptor.
-- Update your service to register and proffer the new version _in addition to_ the old version.
+- Update your service to register and proffer the new version *in addition to* the old version.
 - If you have a client of your brokered service, update your client to request the newer version, and fallback to requesting the older version if the newer one comes back as null.
 
 ## Related content
