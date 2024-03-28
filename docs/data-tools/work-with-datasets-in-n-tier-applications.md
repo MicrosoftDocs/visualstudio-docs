@@ -19,6 +19,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Work with datasets in n-tier applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]

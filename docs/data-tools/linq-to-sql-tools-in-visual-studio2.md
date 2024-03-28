@@ -8,6 +8,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # LINQ to SQL tools in Visual Studio
 
 LINQ to SQL was the first object-relational mapping technology released by Microsoft. It works well in basic scenarios and continues to be supported in Visual Studio, but it's no longer under active development. Use LINQ to SQL when maintaining a legacy application that's already using it, or in simple applications that use SQL Server and do not require multi-table mapping. In general, new applications should use the Entity Framework when an object-relational mapper layer is required.
@@ -26,7 +27,7 @@ The **O/R Designer** provides a visual design surface for creating [LINQ to SQL]
 
 ## Open the O/R designer
 
-To add a LINQ to SQL entity model to your project, choose **Project** > **Add New Item**, and then select  **LINQ to SQL Classes** from the list of project items:
+To add a LINQ to SQL entity model to your project, choose **Project** > **Add New Item**, and then select **LINQ to SQL Classes** from the list of project items:
 
 ![LINQ to SQL classes](../data-tools/media/raddata-linq-to-sql-classes.png)
 
@@ -66,7 +67,7 @@ Like other objects, LINQ to SQL classes can use inheritance and be derived from 
 
 ## LINQ to SQL queries
 
-The entity classes created by the **O/R Designer** are designed for use with [Language-Integrated query (LINQ)](/dotnet/csharp/linq/). For more information, see [How to: Query for information](/dotnet/framework/data/adonet/sql/linq/how-to-query-for-information).
+The entity classes created by the **O/R Designer** are designed for use with [language-integrated query (LINQ)](/dotnet/csharp/linq/). For more information, see [How to: Query for information](/dotnet/framework/data/adonet/sql/linq/how-to-query-for-information).
 
 ## Separate the generated DataContext and entity class code into different namespaces
 

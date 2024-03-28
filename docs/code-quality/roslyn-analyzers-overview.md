@@ -1,5 +1,5 @@
 ---
-title: Code analysis using .NET compiler platform (Roslyn) analyzers 
+title: Code analysis using .NET compiler platform (Roslyn) analyzers
 description: Become familiar with source code analysis in Visual Studio. Learn about code fixes and the different types of analyzers and severity levels.
 author: mikadumont
 ms.author: midumont
@@ -14,8 +14,8 @@ helpviewer_keywords:
 ms.date: 03/12/2024
 
 #customer intent: As a developer, I want to learn about code analysis using .NET compiler platform (Roslyn) analyzers so that I can understand how then work and use them properly.
-
 ---
+
 # Code analysis using .NET compiler platform (Roslyn) analyzers
 
 .NET compiler platform (Roslyn) analyzers inspect your C# or Visual Basic code for style, quality, maintainability, design, and other issues. This inspection or analysis happens during design time in all open files.
@@ -32,7 +32,7 @@ Analyzers are divided into the following groups:
 
 - External analyzers
 
-   Examples of external analyzers are [StyleCop](https://www.nuget.org/packages/StyleCop.Analyzers/), [Roslynator](https://www.nuget.org/packages/Roslynator.Analyzers/), [XUnit Analyzers](https://www.nuget.org/packages/xunit.analyzers/), and [Sonar Analyzer](https://www.nuget.org/packages/SonarAnalyzer.CSharp/). You can install these analyzers as either a NuGet package or a Visual Studio extension.
+   Examples of external analyzers are [StyleCop](https://www.nuget.org/packages/StyleCop.Analyzers/), [Roslynator](https://www.nuget.org/packages/Roslynator.Analyzers/), [xUnit Analyzers](https://www.nuget.org/packages/xunit.analyzers/), and [Sonar Analyzer](https://www.nuget.org/packages/SonarAnalyzer.CSharp/). You can install these analyzers as either a NuGet package or a Visual Studio extension.
 
 ## Severity levels of analyzers
 
@@ -55,7 +55,7 @@ The following screenshot shows rule violations reported in the **Error List** wi
 
 :::image type="content" source="media/code-analysis-error-list.png" alt-text="Screenshot that shows analyzer violations in the Error List window." lightbox="media/code-analysis-error-list.png":::
 
-The analyzer rule violations also appear in the code editor as squiggle lines under the offending code. For example, the following screenshot shows three violations: one error (red squiggle line), one warning (green squiggle line), and one suggestion (three grey dots):
+The analyzer rule violations also appear in the code editor as squiggle lines under the offending code. For example, the following screenshot shows three violations: one error (red squiggle line), one warning (green squiggle line), and one suggestion (three gray dots):
 
 :::image type="content" source="media/diagnostics-severity-colors.png" alt-text="Screenshot that shows error, warning, and suggestion marks in the code editor.":::
 
