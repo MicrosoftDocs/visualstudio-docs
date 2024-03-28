@@ -52,7 +52,7 @@ You will need to make a plan for how you deploy Visual Studio across your organi
 
 ### Plan for how Visual Studio should be installed and initialized 
 
-   - How does Visual Studio get originally installed on the machine? The action of _initially_ installing Visual Studio by using a bootstrapper requires administrative privileges on the machine. Do users have the ability to install the product themselves or will an IT admin need to facilitate it through an elevated process?
+   - How does Visual Studio get originally installed on the machine? The action of *initially* installing Visual Studio by using a bootstrapper requires administrative privileges on the machine. Do users have the ability to install the product themselves or will an IT admin need to facilitate it through an elevated process?
 
    - How are you licensing and [distributing entitlement subscriptions within your organization](/visualstudio/subscriptions/admin-responsibilities)? Does the installation require [product keys](/visualstudio/subscriptions/product-keys)?
 

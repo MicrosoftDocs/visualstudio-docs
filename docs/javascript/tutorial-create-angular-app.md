@@ -23,8 +23,8 @@ In this 5-10 minute introduction to the Visual Studio integrated development env
 Make sure to install the following:
 
 - Visual Studio 2022 or later. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
-- npm ([https://www.npmjs.com/](https://www.npmjs.com/package/npm)), which is included with Node.js
-- Angular CLI ([https://angular.io/cli](https://angular.io/cli))
+- npm ([`https://www.npmjs.com/`](https://www.npmjs.com/package/npm)), which is included with Node.js
+- Angular CLI ([`https://angular.io/cli`](https://angular.io/cli))
   This can be the version of your choice
 
 ## Create your app
@@ -50,7 +50,7 @@ Make sure to install the following:
 The default project settings allow you to build and debug the project. But, if you need to change settings, right-click the project in Solution Explorer, select **Properties**, and then go the **Build** or **Debugging** section.
 
 >[!NOTE]
-> *launch.json* stores the startup settings associated with the **Start** button in the Debug toolbar. Currently, *launch.json* must be located under the *.vscode* folder.
+> `launch.json` stores the startup settings associated with the **Start** button in the Debug toolbar. Currently, `launch.json` must be located under the `.vscode` folder.
 
 ## Build Your Project
 

@@ -116,7 +116,7 @@ To attach the debugger from Visual Studio and hit breakpoints in the client-side
 1. In the **Attach to Process** dialog, get a filtered list of browser instances that you can attach to.
     Choose the correct debugger for your target browser, **JavaScript (Chrome)** or **JavaScript (Microsoft Edge - Chromium)** in the **Attach to** field, type **chrome** or **edge** in the filter box to filter the search results.
 
-1. Select the browser process with the correct host port (localhost in this example), and select **Attach**.
+1. Select the browser process with the correct host port (`localhost` in this example), and select **Attach**.
 
     The port (for example, 1337) may also appear in the **Title** field to help you select the correct browser instance.
 
@@ -130,9 +130,9 @@ To attach the debugger from Visual Studio and hit breakpoints in the client-side
 
     While paused in the debugger, you can examine your app state by hovering over variables and using debugger windows. You can advance the debugger by stepping through code (**F5**, **F10**, and **F11**). For more information on basic debugging features, see [First look at the debugger](../debugger/debugger-feature-tour.md).
 
-    You may hit the breakpoint in either a transpiled *.js* file or source file, depending on your app type, which steps you followed previously, and other factors such as your browser state. Either way, you can step through code and examine variables.
+    You may hit the breakpoint in either a transpiled `.js` file or source file, depending on your app type, which steps you followed previously, and other factors such as your browser state. Either way, you can step through code and examine variables.
 
-   * If you need to break into code in a TypeScript, JSX, or *.vue* source file and are unable to do it, make sure that your environment is set up correctly, as described in the [Troubleshooting](#troubleshooting_source_maps) section.
+   * If you need to break into code in a TypeScript, JSX, or `.vue` source file and are unable to do it, make sure that your environment is set up correctly, as described in the [Troubleshooting](#troubleshooting_source_maps) section.
 
    * If you need to break into code in a transpiled JavaScript file (for example, *app-bundle.js*) and are unable to do it, remove the source map file, *filename.js.map*.
 
@@ -154,12 +154,12 @@ Visual Studio has the capability to use and generate source maps on JavaScript s
 
 - A TypeScript project in Visual Studio generates source maps for you by default. For more information, see [Configure source maps using a tsconfig.json file](#configure_source_maps).
 
-- In a JavaScript project, you can generate source maps using a bundler like webpack and a compiler like the TypeScript compiler (or Babel), which you can add to your project. For the TypeScript compiler, you must also add a *tsconfig.json* file and set the ```sourceMap``` compiler option. For an example that shows how to do this using a basic webpack configuration, see [Create a Node.js app with React](../javascript/tutorial-nodejs-with-react-and-jsx.md).
+- In a JavaScript project, you can generate source maps using a bundler like webpack and a compiler like the TypeScript compiler (or Babel), which you can add to your project. For the TypeScript compiler, you must also add a `tsconfig.json` file and set the ```sourceMap``` compiler option. For an example that shows how to do this using a basic webpack configuration, see [Create a Node.js app with React](../javascript/tutorial-nodejs-with-react-and-jsx.md).
 
 > [!NOTE]
 > If you are new to source maps, read [What are Source Maps?](https://web.dev/articles/source-maps) before continuing.
 
-To configure advanced settings for source maps, use either a *tsconfig.json* or the project settings in a TypeScript project, but not both.
+To configure advanced settings for source maps, use either a `tsconfig.json` or the project settings in a TypeScript project, but not both.
 
 To enable debugging using Visual Studio, you need to make sure that the reference(s) to your source file in the generated source map are correct (this may require testing). For example, if you're using webpack, references in the source map file include the *webpack:///* prefix, which prevents Visual Studio from finding a TypeScript or JSX source file. Specifically, when you correct this for debugging purposes, the reference to the source file (such as *app.tsx*), must be changed from something like *webpack:///./app.tsx* to something like *./app.tsx*, which enables debugging (the path is relative to your source file). The following example shows how you can configure source maps in webpack, which is one of the most common bundlers, so that they work with Visual Studio.
 
@@ -186,7 +186,7 @@ For complicated scenarios, the browser tools (**F12**) sometimes work best for d
 
 ### <a name="configure_source_maps"></a> Configure source maps using a tsconfig.json file
 
-If you add a *tsconfig.json* file to your project, Visual Studio treats the directory root as a TypeScript project. To add the file, right-click your project in Solution Explorer, and then choose **Add > New Item > TypeScript JSON Configuration File**. A *tsconfig.json* file like the following gets added to your project.
+If you add a `tsconfig.json` file to your project, Visual Studio treats the directory root as a TypeScript project. To add the file, right-click your project in Solution Explorer, and then choose **Add > New Item > TypeScript JSON Configuration File**. A `tsconfig.json` file like the following gets added to your project.
 
 ```json
 {
@@ -208,8 +208,8 @@ If you add a *tsconfig.json* file to your project, Visual Studio treats the dire
 
 - **inlineSourceMap**: Emit a single file with source maps instead of creating a separate source map for each source file.
 - **inlineSources**: Emit the source alongside the source maps within a single file; requires *inlineSourceMap* or *sourceMap* to be set.
-- **mapRoot**: Specifies the location where the debugger should find source map (*.map*) files instead of the default location. Use this flag if the run-time *.map* files need to be in a different location than the *.js* files. The location specified is embedded in the source map to direct the debugger to the location of the *.map* files.
-- **sourceMap**: Generates a corresponding *.map* file.
+- **mapRoot**: Specifies the location where the debugger should find source map (*.map*) files instead of the default location. Use this flag if the run-time `.map` files need to be in a different location than the `.js` files. The location specified is embedded in the source map to direct the debugger to the location of the `.map` files.
+- **sourceMap**: Generates a corresponding `.map` file.
 - **sourceRoot**: Specifies the location where the debugger should find TypeScript files instead of the source locations. Use this flag if the run-time sources need to be in a different location than the location at design-time. The location specified is embedded in the source map to direct the debugger to where the source files are located.
 
 For more details about the compiler options, check the page [Compiler Options](https://www.typescriptlang.org/docs/handbook/compiler-options.html) on the TypeScript Handbook.
@@ -220,8 +220,8 @@ You can also configure the source map settings using project properties by right
 
 These project settings are available.
 
-- **Generate source maps** (equivalent to **sourceMap** in *tsconfig.json*): Generates corresponding *.map* file.
-- **Specify root directory of source maps** (equivalent to **mapRoot** in *tsconfig.json*): Specifies the location where the debugger should find map files instead of the generated locations. Use this flag if the run-time *.map* files need to be located in a different location than the *.js* files. The location specified is embedded in the source map to direct the debugger to where the map files are located.
+- **Generate source maps** (equivalent to **sourceMap** in *tsconfig.json*): Generates corresponding `.map` file.
+- **Specify root directory of source maps** (equivalent to **mapRoot** in *tsconfig.json*): Specifies the location where the debugger should find map files instead of the generated locations. Use this flag if the run-time `.map` files need to be located in a different location than the `.js` files. The location specified is embedded in the source map to direct the debugger to where the map files are located.
 - **Specify root directory of TypeScript files** (equivalent to **sourceRoot** in *tsconfig.json*): Specifies the location where the debugger should find TypeScript files instead of source locations. Use this flag if the run-time source files need to be in a different location than the location at design-time. The location specified is embedded in the source map to direct the debugger to where the source files are located.
 
 ## Debug JavaScript in dynamic files using Razor (ASP.NET)

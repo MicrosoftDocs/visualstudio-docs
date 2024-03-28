@@ -37,8 +37,8 @@ Make sure to install the following:
 
 - Visual Studio 2022 **version 17.4** or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
   If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
-- npm ([https://www.npmjs.com/](https://www.npmjs.com/package/npm)), which is included with Node.js
-- npx ([https://www.npmjs.com/package/npx](https://www.npmjs.com/package/npx))
+- npm ([`https://www.npmjs.com/`](https://www.npmjs.com/package/npm)), which is included with Node.js
+- npx ([`https://www.npmjs.com/package/npx`](https://www.npmjs.com/package/npx))
 
 ## Create your app
 
@@ -57,7 +57,7 @@ Make sure to install the following:
 The default project settings allow you to build and debug the project. But, if you need to change settings, right-click the project in Solution Explorer, select **Properties**, and then go the **Build** or **Debugging** section.
 
 >[!NOTE]
-> *launch.json* stores the startup settings associated with the **Start** button in the Debug toolbar. Currently, *launch.json* must be located under the *.vscode* folder.
+> `launch.json` stores the startup settings associated with the **Start** button in the Debug toolbar. Currently, `launch.json` must be located under the `.vscode` folder.
 
 ## Build your project
 
@@ -88,7 +88,7 @@ In the dropdown next to the **Start** button, you should see the following start
 - Debug Dev Env
 - Launch Node and Browser
 
-Go ahead and select the **Launch Node and Browser** option. Now, before pressing **F5** or selecting the **Start** button again, set a breakpoint in *index.js* (in the **routes** folder) by selecting the left gutter before the following line of code: `res.render('index', { title: 'Express' });`
+Go ahead and select the **Launch Node and Browser** option. Now, before pressing **F5** or selecting the **Start** button again, set a breakpoint in `index.js` (in the **routes** folder) by selecting the left gutter before the following line of code: `res.render('index', { title: 'Express' });`
 
 > [!TIP]
 > You can also put your cursor on a line of code and hit **F9** to toggle the breakpoint for that line. 
@@ -103,9 +103,9 @@ This time, if you hit stop, you will notice that both the browser and the comman
 
 ### Understanding the *launch.json*
 
-The *launch.json* is currently located in the *.vscode* folder. If you cannot see the *.vscode* folder in **Solution Explorer**, select **Show All Files**. 
+The `launch.json` is currently located in the `.vscode` folder. If you cannot see the `.vscode` folder in **Solution Explorer**, select **Show All Files**. 
 
-If you have worked with Visual Studio Code before, the *launch.json* file will look familiar. The *launch.json* here works in much the same way as it does in Visual Studio Code to denote launch configurations used for debugging. Each entry specifies one or more targets to be debugged. 
+If you have worked with Visual Studio Code before, the `launch.json` file will look familiar. The `launch.json` here works in much the same way as it does in Visual Studio Code to denote launch configurations used for debugging. Each entry specifies one or more targets to be debugged. 
 
 The first two entries are browser entries, and they should look something like this:
 
@@ -135,7 +135,7 @@ At the start of [this section](#debug-your-app), you closed the lingering comman
 > [!NOTE]
 > Currently, `edge` and `chrome` are the only supported browser types for debugging.
 
-The third entry in the *launch.json* specifies `node` as the debug type, and it should look something like this:
+The third entry in the `launch.json` specifies `node` as the debug type, and it should look something like this:
 
 ```
     {
