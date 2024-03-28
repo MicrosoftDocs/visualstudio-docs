@@ -31,7 +31,7 @@ Each of these subscriptions offers the option to make an initial purchase or to 
 
 ## How to renew 
 
-If you have a standard retail subscription, it was purchased from the [Microsoft Store](https://www.microsoft.com/store) and should be renewed there.  
+If you have a standard retail subscription, it was purchased from the [Microsoft Store](https://www.microsoft.com/store) and should be renewed there.  
 
 1. Visit the store and find the subscription level you currently have (you can only renew the same subscription level). 
 1. Select “Download – Renewal” and add to cart. If you want to change your subscription level, select “Download – New.”  

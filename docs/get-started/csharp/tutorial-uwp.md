@@ -36,7 +36,7 @@ First, create a Universal Windows Platform project. The project type comes with 
    > [!NOTE]
    > If you don't see the **Blank App (Universal Windows)** project template, click the **Install more tools and features** link.<br><br>![Screenshot of the Create a new project window showing the 'Install more tools and features' link.](media/vs-2019/uwp-not-finding.png)<br><br>The Visual Studio Installer launches. Choose the **Universal Windows Platform development** workload, and then choose **Modify**.<br><br>![Screenshot of the Visual Studio Installer showing the Universal Windows Platform development workload.](media/uwp-dev-workload.png)
 
-1. Give the project a name, _HelloWorld_, and choose **Create**.
+1. Give the project a name, *HelloWorld*, and choose **Create**.
 
    ![Screenshot of the 'Configure your new project' dialog with 'HelloWorld' entered in the Project name field.](media/vs-2019/uwp-configure-your-project.png)
 
@@ -82,7 +82,7 @@ It's time to start developing. You'll add a button control, add an action to the
 
 ::: moniker range="vs-2019"
 
-1. In the **Solution Explorer**, double-click *MainPage.xaml* to open a split view.
+1. In the **Solution Explorer**, double-click `MainPage.xaml` to open a split view.
 
    ![Screenshot of the Solution Explorer window showing the properties, references, assets, and files in the HelloWorld project. The file MainPage.xaml is selected.](media/vs-2019/uwp-solution-explorer-mainpage-xaml.png)
 
@@ -112,7 +112,7 @@ It's time to start developing. You'll add a button control, add an action to the
 
 ::: moniker range=">=vs-2022"
 
-1. In the **Solution Explorer**, double-click *MainPage.xaml* to open a split view.
+1. In the **Solution Explorer**, double-click `MainPage.xaml` to open a split view.
 
    :::image type="content" source="media/vs-2022/uwp-solution-explorer-mainpage-xaml.png" alt-text="Screenshot of the Solution Explorer window showing the properties, references, assets, and files in the HelloWorld project. The file MainPage.xaml is selected.":::  
 

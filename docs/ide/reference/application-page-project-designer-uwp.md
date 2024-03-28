@@ -33,7 +33,7 @@ To access this property programmatically, see <xref:VSLangProj.ProjectProperties
 
 **Assembly Information**&mdash;Choosing this button displays the [Assembly Information dialog box](../../ide/reference/assembly-information-dialog-box.md).
 
-**Package Manifest**&mdash;Choosing this button opens the manifest designer. The manifest designer can also be accessed by choosing the _Package.appxmanifest_ file in **Solution Explorer**. For more information, see [Configure a package with the manifest designer](/windows/msix/package/packaging-uwp-apps#configure-your-project).
+**Package Manifest**&mdash;Choosing this button opens the manifest designer. The manifest designer can also be accessed by choosing the `Package.appxmanifest` file in **Solution Explorer**. For more information, see [Configure a package with the manifest designer](/windows/msix/package/packaging-uwp-apps#configure-your-project).
 
 ## Targeting section
 

@@ -66,7 +66,7 @@ Before you create a dependency diagram, ensure that your solution has a modeling
 
 4. Create a new Dependency Diagram for the solution using the **Architecture** menu.
 
-5. Select all the nodes on the Code Map (use _Ctrl_ + _A_, or use the rubber band selection by pressing the _Shift_ key before you click, drag, and release.
+5. Select all the nodes on the Code Map (use *Ctrl* + *A*, or use the rubber band selection by pressing the *Shift* key before you click, drag, and release).
 
 6. Drag and drop, or copy and paste, the selected elements to the new Dependency Validation diagram.
 

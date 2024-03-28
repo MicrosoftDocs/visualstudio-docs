@@ -46,6 +46,36 @@ To see GitHub Copilot in action, check out the following video tutorial. <br><br
 
 > [!VIDEO https://www.youtube.com/embed/kc_A12G4Elk]
 
+## Using GitHub Copilot for code completions and suggestions
+
+As you type code or comments in the editor, GitHub Copilot provides context-aware code completions and suggestions. GitHub Copilot provides suggestions for numerous languages, but works especially well for Python, JavaScript, TypeScript, Ruby, Go, C# and C++. The following examples are in C#, but other languages will work similarly.
+
+1. Open Visual Studio and create a new C# project.
+1. Open a C# file (`Program.cs`) in the editor.
+1. In the code editor, type a comment or a method signature to see inline code suggestions from GitHub Copilot.
+    
+   ```csharp
+       // method to add two numbers
+   ```
+
+   ```csharp
+       int subtractNumbers(
+   ```
+
+1. Hover over the suggestion to see the GitHub Copilot command palette. You can select **Tab** or press `Tab` to accept the suggestion or continue typing to reject it. If alternate suggestions are available, you can select **next suggestion** or use the `Alt + .` keyboard shortcut to cycle through them.
+  
+  :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-code-suggestions.gif" alt-text="Animated screenshot that shows using the GitHub Copilot code suggestions in Visual Studio":::
+
+1. Add following code to see whole line completions from GitHub Copilot.
+
+   ```csharp
+       int a = 5;
+       int b = 10;
+       int sum
+   ```
+  
+  :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-whole-line-completions.gif" alt-text="Animated screenshot that shows using the GitHub Copilot completions in Visual Studio":::
+
 ## Next steps
 
 To learn more about the current GitHub Copilot extension for Visual Studio, consider exploring the following resources:

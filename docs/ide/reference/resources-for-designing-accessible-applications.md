@@ -43,7 +43,7 @@ Learn more about technologies that support accessible design. We've also include
 
 ### Third-party resources
 
-- **Web Accessibility Initiative of the World Wide Web Consortium (W3C)** This website provides guidelines and techniques for accessible website development. For more information, see [https://www.w3.org/WAI/GL/](https://www.w3.org/WAI/GL/).
+- **Web Accessibility Initiative of the World Wide Web Consortium (W3C)** This website provides guidelines and techniques for accessible website development. For more information, see [`https://www.w3.org/WAI/GL/`](https://www.w3.org/WAI/GL/).
 
 ## Related content
 

@@ -21,9 +21,9 @@ In a typical Python program, the `PYTHONPATH` environment variable (or `IRONPYTH
 
 Visual Studio ignores the search path environment variable, even when the variable is set for the entire system. The reason is because use of the variable raises questions that can't be easily answered, such as:
 
-- _Do the referenced modules expect an installation of Python 2.7, Python 3.6, or other version?_
-- _Should files found in the search path environment variable override standard library modules?_
-- _Is any override behavior expected and addressed, or could the action be malicious?_
+- *Do the referenced modules expect an installation of Python 2.7, Python 3.6, or other version?*
+- *Should files found in the search path environment variable override standard library modules?*
+- *Is any override behavior expected and addressed, or could the action be malicious?*
 
 To assist developers, Visual Studio provides a way to specify search paths directly in both Python environments and projects. Code that you run or debug in Visual Studio receives search paths from the `PYTHONPATH` environment variable and equivalent variable. By adding search paths, Visual Studio inspects the libraries in the specified locations and builds IntelliSense databases for the libraries as needed. (In Visual Studio 2017 version 15.5 and earlier, constructing the database can take some time depending on the number of libraries).
 
@@ -52,11 +52,11 @@ After folders are added to the search paths, Visual Studio uses those paths for 
 
 ## Add zip and egg files to search paths
 
-You can add files with a _.zip_ or _.egg_ extension to your search paths with the **Add Zip Archive to Search Path** option. As with folders, the contents of these files are scanned and made available to IntelliSense.
+You can add files with a `.zip` or `.egg` extension to your search paths with the **Add Zip Archive to Search Path** option. As with folders, the contents of these files are scanned and made available to IntelliSense.
 
 ## Related content
 
 - [Manage Python environments in Visual Studio](managing-python-environments-in-visual-studio.md)
 - [Select an interpreter for a project](selecting-a-python-environment-for-a-project.md)
-- [Use requirements.txt for dependencies](managing-required-packages-with-requirements-txt.md)
+- [Use `requirements.txt` for dependencies](managing-required-packages-with-requirements-txt.md)
 - [Python Environments window reference](python-environments-window-tab-reference.md)

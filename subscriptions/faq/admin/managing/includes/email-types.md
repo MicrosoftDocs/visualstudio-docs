@@ -12,4 +12,4 @@ ms.date: 08/09/2023
 
 ## What is the difference between a Sign-in email address and a Notification email address?
 
-Individuals who are assigned a subscription receive periodic communications from the Visual Studio team, including an email letting them know they have been assigned a subscription. If these emails should be sent to a separate email address than that which they should sign into the  [Visual Studio Subscriptions Portal](https://my.visualstudio.com/) or VS IDE you can add a notification email address when adding a subscriber, or when editing an existing subscriber.
+Individuals who are assigned a subscription receive periodic communications from the Visual Studio team, including an email letting them know they have been assigned a subscription. If these emails should be sent to a separate email address than that which they should sign into the  [Visual Studio Subscriptions Portal](https://my.visualstudio.com/) or VS IDE you can add a notification email address when adding a subscriber, or when editing an existing subscriber.
