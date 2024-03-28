@@ -32,7 +32,7 @@ To manually run a code analysis, follow these steps:
 
 3. Alternatively, to run code analysis on the entire solution, select **Analyze** > **Run Code Analysis** > **On Solution**.
 
-   Code analysis starts executing in the background. The message **Running code analysis for '\<project>'** appears in the Visual Studio status bar towards the bottom-left corner. After code analysis completes, the status message changes to **Code analysis completed for '\<project>'**. The error list refreshes with all the code analysis diagnostics.
+   Code analysis starts executing in the background. The message **Running code analysis for '\<project>'** appears in the Visual Studio status bar toward the bottom-left corner. After code analysis completes, the status message changes to **Code analysis completed for '\<project>'**. The error list refreshes with all the code analysis diagnostics.
 
 ## Related content
 

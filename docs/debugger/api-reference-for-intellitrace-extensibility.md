@@ -1,5 +1,5 @@
 ---
-title: "API Reference for IntelliTrace Extensibility"
+title: API Reference for IntelliTrace Extensibility
 description: Learn about IntelliTrace extensibility APIs in Visual Studio, which you can use to read and decode .itrace files in your applications.
 ms.date: "11/07/2018"
 ms.topic: "conceptual"
@@ -10,6 +10,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # API reference for IntelliTrace extensibility
 
 By using the information in this section, you can use IntelliTrace extensibility APIs to read and decode .itrace files in your application.

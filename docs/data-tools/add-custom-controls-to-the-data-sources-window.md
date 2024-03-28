@@ -17,11 +17,12 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Add custom controls to the Data Sources window for .NET Framework applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
-When you drag an item from the Data Sources window to a design surface to create a data-bound control, you can select the type of control that you create. Each item in the window has a drop-down list that displays the controls that you can choose from. The set of controls associated with each item is determined by the data type of the item. If the control that you want to create does not appear in the list, you can follow the instructions in this topic to add the control to the list.
+When you drag an item from the Data Sources window to a design surface to create a data-bound control, you can select the type of control that you create. Each item in the window has a dropdown list that displays the controls that you can choose from. The set of controls associated with each item is determined by the data type of the item. If the control that you want to create does not appear in the list, you can follow the instructions in this topic to add the control to the list.
 
 For more information about selecting data-bound controls to create for items in the Data Sources window, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).
 
@@ -33,18 +34,18 @@ To add or remove controls from the list of available controls for items in the D
 
 1. Make sure that the WPF Designer or the Windows Forms Designer is open.
 
-2. In the **Data Sources** window, click an item that is part of a data source you added to the window, and then click the drop-down menu for the item.
+2. In the **Data Sources** window, click an item that is part of a data source you added to the window, and then click the dropdown list menu for the item.
 
    > [!TIP]
    > If the Data Sources window isn't open, open it by selecting **View** > **Other Windows** > **Data Sources**.
 
-3. In the drop-down menu, click **Customize**. One of the following dialog boxes opens:
+3. In the dropdown list menu, click **Customize**. One of the following dialog boxes opens:
 
     - If the **Windows Forms Designer** is open, the **Data UI Customization** page of the **Options** dialog box opens. For more information, see [Data UI Customization options dialog box](../ide/reference/options-windows-forms-designer-data-ui-customization.md).
 
     - If the **WPF Designer** is open, the **Customize Control Binding** dialog box opens.
 
-4. In the dialog box, select a data type from the **Data type** drop-down list.
+4. In the dialog box, select a data type from the **Data type** dropdown list.
 
     - To customize the list of controls for a table or object, select **[List]**.
 
@@ -59,9 +60,9 @@ To add or remove controls from the list of available controls for items in the D
 
 6. Click **OK**.
 
-7. In the **Data Sources** window, click an item of the data type that you just associated one or more controls, and then click the drop-down menu for the item.
+7. In the **Data Sources** window, click an item of the data type that you just associated one or more controls, and then click the dropdown list menu for the item.
 
-     The controls you selected in the **Associated controls** box now appear in the drop-down menu for the item.
+     The controls you selected in the **Associated controls** box now appear in the dropdown list menu for the item.
 
 ## Add associated controls
 

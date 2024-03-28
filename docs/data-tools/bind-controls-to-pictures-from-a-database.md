@@ -17,6 +17,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Bind controls to pictures from a database in .NET Framework applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
@@ -36,7 +37,7 @@ The following procedure assumes that the **Data Sources** window is already popu
    > [!TIP]
    > If the **Data Sources** window isn't open, open it by selecting **View** > **Other Windows** > **Data Sources**.
 
-3. Select the column or property that contains your image data, and select one of the following controls from its drop-down control list:
+3. Select the column or property that contains your image data, and select one of the following controls from its dropdown list control list:
 
     - If the WPF designer is open, select **Image**.
 

@@ -20,11 +20,12 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Read XML data into a dataset in .NET Framework applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
-ADO.NET provides simple methods for working with XML data. In this walkthrough, you create a Windows application that loads XML data into a dataset. The dataset is then displayed in a <xref:System.Windows.Forms.DataGridView> control. Finally, an XML schema based on the contents of the XML file is displayed in a text box.
+ADO.NET provides simple methods for working with XML data. In this walkthrough, you create a Windows application that loads XML data into a dataset. The dataset is then displayed in a <xref:System.Windows.Forms.DataGridView> control. Finally, an XML Schema based on the contents of the XML file is displayed in a text box.
 
 ## Prerequisites
 
@@ -119,7 +120,7 @@ The user interface for this application consists of the following:
 
 - A <xref:System.Windows.Forms.DataGridView> control that displays the contents of the XML file as data.
 
-- A <xref:System.Windows.Forms.TextBox> control that displays the XML schema for the XML file.
+- A <xref:System.Windows.Forms.TextBox> control that displays the XML Schema for the XML file.
 
 - Two <xref:System.Windows.Forms.Button> controls.
 
@@ -216,7 +217,7 @@ You can now test the form to make sure it behaves as expected.
 
 3. Select the **Show Schema** button.
 
-     The text box displays the XML schema for the XML file.
+     The text box displays the XML Schema for the XML file.
 
 ## Next steps
 

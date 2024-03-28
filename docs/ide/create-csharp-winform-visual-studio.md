@@ -2,7 +2,7 @@
 title: "Create a Windows Forms app with C#"
 description: Create a Windows Forms app in Visual Studio with C#, add button controls to the form, and run the code to test your application.
 ms.custom: vs-acquisition
-ms.date: 1/24/2023
+ms.date: 03/26/2024
 ms.topic: tutorial
 ms.devlang: csharp
 author: anandmeg
@@ -11,58 +11,54 @@ manager: mijacobs
 ms.subservice: general-ide
 dev_langs:
   - CSharp
+#customer intent: As a developer, I want to create a simple C# program to understand how Visual Studio handles Forms.
 ---
-# Create a Windows Forms app in Visual Studio with C\#
+# Tutorial: Create a Windows Forms app in Visual Studio with C\#
 
-In this tutorial, you'll create a simple C# application that has a Windows-based user interface (UI).
+In this tutorial, you create a simple C# application that has a Windows-based user interface (UI). The app has a button that changes the text of a label. This simple app has all the components used for more complicated Forms programs.
 
-::: moniker range="vs-2019"
+> [!div class="checklist"]
+> - Create a C# project in Visual Studio
+> - Create an application
+> - Run your application
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-create-csharp-winform-app-page-cta) page to install it for free.
+## Prerequisites
 
-> [!NOTE]
-> Some of the screenshots in this tutorial use the dark theme. If you aren't using the dark theme but would like to, see the [Change fonts, colors, and themes in Visual Studio](../ide/how-to-change-fonts-and-colors-in-visual-studio.md) page to learn how.
+::: moniker range="=vs-2019"
+
+- If you don't have Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-create-csharp-winform-app-page-cta) page to install it for free.
+- The **.NET desktop development** workload. To verify or install this workload in Visual Studio, select **Tools** > **Get Tools and Features**. For more information, see [Change workloads or individual components](../install/modify-visual-studio.md#change-workloads-or-individual-components).
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
-If you haven't already installed Visual Studio, go to the [Visual Studio 2022 downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download--create-csharp-winform-app-page-cta) page to install it for free.
+- If you don't have Visual Studio, go to the [Visual Studio 2022 downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download--create-csharp-winform-app-page-cta) page to install it for free.
+- The **.NET desktop development** workload. To verify or install this workload in Visual Studio, select **Tools** > **Get Tools and Features**. For more information, see [Change workloads or individual components](../install/modify-visual-studio.md#change-workloads-or-individual-components).
 
 ::: moniker-end
 
 ## Create a project
 
-First, you'll create a C# application project. The project type comes with all the template files you'll need, before you've even added anything.
+First, create a C# application project. The project type comes with all the template files you need to create your application.
 
-::: moniker range="vs-2019"
+::: moniker range="=vs-2019"
 
 1. Open Visual Studio.
 
 1. On the start window, choose **Create a new project**.
 
-   ![View the 'Create a new project' window](../get-started/media/vs-2019/create-new-project-dark-theme.png)
+   :::image type="content" source="../get-started/media/vs-2019/create-new-project-dark-theme.png" alt-text="Screenshot shows the Create a new project window.":::
 
-1. On the **Create a new project** window, choose the **Windows Forms App (.NET Framework)** template for C#.
+1. In **Create a new project**, choose the **Windows Forms App (.NET Framework)** template for C#.
 
-   (If you prefer, you can refine your search to quickly get to the template you want. For example, enter or type *Windows Forms App* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list.)  
+   :::image type="content" source="../get-started/csharp/media/vs-2019/csharp-create-new-winforms-project-nonfiltered.png" alt-text="Screenshot shows the  Windows Forms App (.NET Framework) for C#." lightbox="../get-started/csharp/media/vs-2019/csharp-create-new-winforms-project-nonfiltered.png":::
 
-   ![Choose the C# template for the Windows Forms App (.NET Framework)](../get-started/csharp/media/vs-2019/csharp-create-new-winforms-project-nonfiltered.png)
+   You can refine your search to quickly get to the template you want. For example, enter *Windows Forms App* in the search box. Next, choose **C#** from the language list, and then choose **Windows** from the platform list.  
 
-   > [!NOTE]
-   > If you do not see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
-   >
-   > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../get-started/media/vs-2019/not-finding-what-looking-for.png)
-   >
-   > Next, in the Visual Studio Installer, choose the **.NET desktop development** workload.
-   >
-   > ![.NET Core workload in the Visual Studio Installer](../ide/media/install-dot-net-desktop-env.png)
-   >
-   > After that, choose the **Modify** button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, choose **Continue** to install the workload. Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
+1. In **Configure your new project**, for **Project name**, enter *HelloWorld* and select **Create**.
 
-1. In the **Configure your new project** window, type or enter *HelloWorld* in the **Project name** box. Then, choose **Create**.
-
-   ![in the 'Configure your new project' window, name your project 'HelloWorld'](../get-started/csharp/media/vs-2019/csharp-name-your-winform-project-helloworld.png)
+   :::image type="content" source="../get-started/csharp/media/vs-2019/csharp-name-your-winform-project-helloworld.png" alt-text="Screenshot shows the Configure your new project window, where you name your project HelloWorld.":::
 
    Visual Studio opens your new project.
 
@@ -73,176 +69,171 @@ First, you'll create a C# application project. The project type comes with all t
 1. Open Visual Studio.
 
 1. On the start window, select **Create a new project**.
-    
-    :::image type="content" source="media/vs-2022/create-new-project-dark-theme.png" alt-text="Screenshot to show the Create a new project window.":::
 
-1. On the **Create a new project** window, select the **Windows Forms App (.NET Framework)** template for C#.
+    :::image type="content" source="media/vs-2022/create-new-project-dark-theme.png" alt-text="Screenshot shows the Create a new project option.":::
 
-   (If you prefer, you can refine your search to quickly get to the template you want. For example, enter or type *Windows Forms App* in the search box. Next, select **C#** from the **Language** list, and then select **Windows** from the **Platform** list.)  
+1. In **Create a new project**, select the **Windows Forms App (.NET Framework)** template for C#.
 
-    :::image type="content" source="media/vs-2022/csharp-winform-create-a-new-project.png" alt-text="Screenshot to select the C# template for the Windows Forms App (.NET Framework).":::
+   You can refine your search to quickly get to the template you want. For example, type *Windows Forms App* in the search box. Next, select **C#** from the language list, and then select **Windows** from the platform list.
 
-   > [!NOTE]
-   > If you do not see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, select the **Install more tools and features** link.
-   >
-   > :::image type="content" source="../get-started/media/vs-2019/not-finding-what-looking-for.png" alt-text="Screenshot to show the The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create a new project' window.":::
-   >
-   > Next, in the Visual Studio Installer, select the **.NET desktop development** workload.
-   >
-   > :::image type="content" source="media/vs-2022/install-dot-net-desktop-env.png" alt-text="Screenshot to show the .NET Core workload in the Visual Studio Installer.":::
-   >
-   > After that, select the **Modify** button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, select **Continue** to install the workload. Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
+    :::image type="content" source="media/vs-2022/csharp-winform-create-a-new-project.png" alt-text="Screenshot shows the C# template for the Windows Forms App (.NET Framework)." lightbox="media/vs-2022/csharp-winform-create-a-new-project.png":::
 
-1. In the **Configure your new project** window, type or enter *HelloWorld* in the **Project name** box. Then, select **Create**.
+1. In the **Configure your new project** window, in **Project name**, enter *HelloWorld*, and select **Create**.
 
-    :::image type="content" source="media/vs-2022/csharp-winform-configure-new-project.png" alt-text="Screenshot to show the 'Configure your new project' window and name your project 'HelloWorld'.":::
+    :::image type="content" source="media/vs-2022/csharp-winform-configure-new-project.png" alt-text="Screenshot shows the Configure your new project window for your project named HelloWorld.":::
 
    Visual Studio opens your new project.
 
-## Create the application
-
-After you select your C# project template and name your file, Visual Studio opens a form for you. A form is a Windows user interface. We'll create a "Hello World" application by adding controls to the form, and then we'll run the app.
-
-### Add a button to the form
-
-1. Select **Toolbox** to open the Toolbox fly-out window.
-    
-     :::image type="content" source="media/vs-2022/csharp-winform-hello-world-project-toolbox.png" alt-text="Screenshot to select the Toolbox to open the Toolbox window.":::
-
-     (If you don't see the **Toolbox** fly-out option, you can open it from the menu bar. To do so, **View** > **Toolbox**. Or, press **Ctrl**+**Alt**+**X**.)
-
-1. Expand **Common Controls** and select the **Pin** icon to dock the **Toolbox** window.
-
-     :::image type="content" source="media/vs-2022/csharp-winform-toolbox-flyout-pin.png" alt-text="Screenshot to select the Pin icon to pin the Toolbox window to the IDE.":::
-
-1. Select the **Button** control and then drag it onto the form.
-
-     :::image type="content" source="media/vs-2022/csharp-winform-add-button-on-form.png" alt-text="Screenshot to add a button to the form.":::
-
-1. In the **Properties** window, locate **Text**, change the name from **button1** to `Click this`, and then press **Enter**.
-
-     :::image type="content" source="media/vs-2022/csharp-winform-button-properties-text.png" alt-text="Screenshot to add text to the button on the form by using the Properties window.":::
-
-     (If you don't see the **Properties** window, you can open it from the menu bar. To do so, select **View** > **Properties Window**. Or, press **F4**.)
-
-1. In the **Design** section of the **Properties** window, change the name from **button1** to `btnClickThis`, and then press **Enter**.
-
-     :::image type="content" source="media/vs-2022/csharp-winform-button-properties-design-name.png" alt-text="Screenshot to add a function to the button on the form by using the Properties window.":::
-
-   > [!NOTE]
-   > If you've alphabetized the list in the **Properties** window, **button1** appears in the **(DataBindings)** section, instead.
-
-### Add a label to the form
-
-Now that we've added a button control to create an action, let's add a label control to send text to.
-
-1. Select the **Label** control from the **Toolbox** window, and then drag it onto the form and drop it beneath the **Click this** button.
-
-1. In either the **Design** section or the **(DataBindings)** section of the **Properties** window, change the name of **label1** to `lblHelloWorld`, and then press **Enter**.
-
-### Add code to the form
-
-1. In the **Form1.cs &#91;Design&#93;** window, double-click the **Click this** button to open the **Form1.cs** window.
-
-      (Alternatively, you can expand **Form1.cs** in **Solution Explorer**, and then choose **Form1**.)
-
-1. In the **Form1.cs** window, after the **private void** line, type or enter `lblHelloWorld.Text = "Hello World!";` as shown in the following screenshot:
-
-     :::image type="content" source="media/vs-2022/csharp-winform-button-click-code.png" alt-text="Screenshot to add code to the form":::
-
-## Run the application
-
-1. Select the **Start** button to run the application.
-
-     :::image type="content" source="media/vs-2022/csharp-winform-visual-studio-start-run-program.png" alt-text="Screenshot to select Start to debug and run the app.":::
-
-   Several things will happen. In the Visual Studio IDE, the **Diagnostics Tools** window will open, and an **Output** window will open, too. But outside of the IDE, a **Form1** dialog box appears. It will include your **Click this** button and text that says **label1**.
-
-1. Select the **Click this** button in the **Form1** dialog box. Notice that the **label1** text changes to **Hello World!**.
-
-     :::image type="content" source="media/vs-2022/csharp-winform-form.png" alt-text="Screenshot to show a Form1 dialog box that includes label1 text.":::
-
-1. Close the **Form1** dialog box to stop running the app.
-
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
 ## Create the application
 
-After you select your C# project template and name your file, Visual Studio opens a form for you. A form is a Windows user interface. We'll create a "Hello World" application by adding controls to the form, and then we'll run the app.
+::: moniker range="=vs-2019"
+
+After you select your C# project template and name your project, Visual Studio opens a form for you. A form is a Windows user interface. Create a *Hello World* application by adding controls to the form. Then [run the app](#run-the-application).
 
 ### Add a button to the form
 
-1. Choose **Toolbox** to open the Toolbox fly-out window.
+1. Choose **Toolbox** to open the **Toolbox** flyout window.
 
-     ![Choose the Toolbox to open the Toolbox window](../ide/media/csharp-toolbox-toolwindow.png)
+   :::image type="content" source="../ide/media/csharp-toolbox-toolwindow.png" alt-text="Screenshot shows the Toolbox option to open the Toolbox window.":::
 
-     (If you don't see the **Toolbox** fly-out option, you can open it from the menu bar. To do so, **View** > **Toolbox**. Or, press **Ctrl**+**Alt**+**X**.)
+   If you don't see the **Toolbox** option, you can open it from the menu bar. Select **View** > **Toolbox** or **Ctrl**+**Alt**+**X**.
 
 1. Choose the **Pin** icon to dock the **Toolbox** window.
 
-     ![Choose the Pin icon to pin the Toolbox window to the IDE](../ide/media/vb-pin-the-toolbox-window.png)
+   :::image type="content" source="../ide/media/vb-pin-the-toolbox-window.png" alt-text="Screenshot shows the Pin icon that pins the Toolbox window to the IDE.":::
 
 1. Choose the **Button** control and then drag it onto the form.
 
-     ![Add a button to the form](../ide/media/csharp-add-button-form1.png)
+   :::image type="content" source="../ide/media/csharp-add-button-form1.png" alt-text="Screenshot shows the form with a button.":::
 
-1. In the **Properties** window, locate **Text**, change the name from **Button1** to `Click this`, and then press **Enter**.
+1. In the **Properties** window, locate **Text**, change the name from **Button1** to `Click this`, and then select **Enter**.
 
-     ![Add text to the button on the form](../ide/media/vb-button-control-text.png)
+   :::image type="content" source="../ide/media/vb-button-control-text.png" alt-text="Screenshot shows where to change text for the button on the form.":::
 
-     (If you don't see the **Properties** window, you can open it from the menu bar. To do so, choose **View** > **Properties Window**. Or, press **F4**.)
+   If you don't see the **Properties** window, you can open it from the menu bar. Select **View** > **Properties Window** or **F4**.
 
-1. In the **Design** section of the **Properties** window, change the name from **Button1** to `btnClickThis`, and then press **Enter**.
+1. In the **Design** section of the **Properties** window, change the name from **Button1** to `btnClickThis`, and then select **Enter**.
 
-     ![Add a function to the button on the form](../ide/media/vb-button-control-function.png)
+   :::image type="content" source="../ide/media/vb-button-control-function.png" alt-text="Screenshot shows the new name for the button.":::
 
    > [!NOTE]
-   > If you've alphabetized the list in the **Properties** window, **Button1** appears in the **(DataBindings)** section, instead.
+   > If you alphabetized the list in the **Properties** window, **Button1** appears in the **(DataBindings)** section, instead.
 
 ### Add a label to the form
 
-Now that we've added a button control to create an action, let's add a label control to send text to.
+After you add a button control to create an action, add a label control to send text to.
 
-1. Select the **Label** control from the **Toolbox** window, and then drag it onto the form and drop it beneath the **Click this** button.
+1. Select the **Label** control from the **Toolbox**. Then drag it onto the form and drop it beneath the **Click this** button.
 
-1. In either the **Design** section or the **(DataBindings)** section of the **Properties** window, change the name of **Label1** to `lblHelloWorld`, and then press **Enter**.
+1. In either the **Design** section or the **(DataBindings)** section of the **Properties** window, change the name of **Label1** to `lblHelloWorld`. Then select **Enter**.
 
 ### Add code to the form
 
 1. In the **Form1.cs &#91;Design&#93;** window, double-click the **Click this** button to open the **Form1.cs** window.
 
-      (Alternatively, you can expand **Form1.cs** in **Solution Explorer**, and then choose **View Code**(or press **F7**) from the right-click menu on  **Form1.cs**.)
+   Alternatively, you can expand **Form1.cs** in **Solution Explorer**, and then choose **View Code** or select **F7** from the shortcut menu on **Form1.cs**.
 
-1. In the **Form1.cs** window, after the **private void** line, type or enter `lblHelloWorld.Text = "Hello World!";` as shown in the following screenshot:
+1. In the **Form1.cs** window, after the **private void** line, type or enter `lblHelloWorld.Text = "Hello World!";` as shown in the following screenshot.
 
-     ![Add code to the form](../get-started/csharp/media/csharp-winforms-add-code.png)
+   :::image type="content" source="../get-started/csharp/media/csharp-winforms-add-code.png" alt-text="Screenshot shows the code window where you add code to the form.":::
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+After you select your C# project template and name your project, Visual Studio opens a form for you. A form is a Windows user interface. Create a *Hello World* application by adding controls to the form. Then [run the app](#run-the-application).
+
+### Add a button to the form
+
+1. Select **Toolbox** to open the **Toolbox** flyout window.
+
+     :::image type="content" source="media/vs-2022/csharp-winform-hello-world-project-toolbox.png" alt-text="Screenshot shows how to select the Toolbox to open the Toolbox window.":::
+
+     If you don't see the **Toolbox** option, you can open it from the menu bar. Select **View** > **Toolbox** or **Ctrl**+**Alt**+**X**.
+
+1. Expand **Common Controls** and select the **Pin** icon to dock the **Toolbox** window.
+
+     :::image type="content" source="media/vs-2022/csharp-winform-toolbox-flyout-pin.png" alt-text="Screenshot shows the Pin icon to pin the Toolbox window to the IDE.":::
+
+1. Select the **Button** control and then drag it onto the form.
+
+     :::image type="content" source="media/vs-2022/csharp-winform-add-button-on-form.png" alt-text="Screenshot shows the form with a button just added.":::
+
+1. In the **Properties** window, locate **Text**. Change the name from **button1** to `Click this`, and then select **Enter**.
+
+     :::image type="content" source="media/vs-2022/csharp-winform-button-properties-text.png" alt-text="Screenshot shows the Text field in the Properties window.":::
+
+     If you don't see the **Properties** window, you can open it from the menu bar. Select **View** > **Properties Window** or **F4**.
+
+1. In the **Design** section of the **Properties** window, change the name from **button1** to `btnClickThis`, and then select **Enter**.
+
+     :::image type="content" source="media/vs-2022/csharp-winform-button-properties-design-name.png" alt-text="Screenshot shows the new name for the button.":::
+
+   > [!NOTE]
+   > If you alphabetized the list in the **Properties** window, **button1** appears in the **(DataBindings)** section, instead.
+
+### Add a label to the form
+
+After you add a button control to create an action, add a label control to send text to.
+
+1. Select the **Label** control from the **Toolbox**. Then drag it onto the form and drop it beneath the **Click this** button.
+
+1. In either the **Design** section or the **(DataBindings)** section of the **Properties** window, change the name of **label1** to `lblHelloWorld`. Then select **Enter**.
+
+### Add code to the form
+
+1. In the **Form1.cs &#91;Design&#93;** window, double-click the **Click this** button to open the **Form1.cs** window.
+
+   Alternatively, you can expand **Form1.cs** in **Solution Explorer**, and then choose **Form1**.
+
+1. In the **Form1.cs** window, after the **private void** line, type or enter `lblHelloWorld.Text = "Hello World!";` as shown in the following screenshot.
+
+   :::image type="content" source="media/vs-2022/csharp-winform-button-click-code.png" alt-text="Screenshot that shows where to add code to the form.":::
+
+::: moniker-end
 
 ## Run the application
 
-1. Choose the **Start** button to run the application.
+::: moniker range="=vs-2019"
+1. Select the **Start** button to run the application.
 
-     ![Choose Start to debug and run the app](../ide/media/vb-click-start-hello-world.png)
+   :::image type="content" source="../ide/media/vb-click-start-hello-world.png" alt-text="Screenshot shows the Start button to debug and run the app.":::
 
-   Several things will happen. In the Visual Studio IDE, the **Diagnostics Tools** window will open, and an **Output** window will open, too. But outside of the IDE, a **Form1** dialog box appears. It will include your **Click this** button and text that says **Label1**.
+   Several things happen. In the Visual Studio IDE, the **Diagnostics Tools** window opens, and an **Output** window opens, too. But outside of the IDE, a **Form1** dialog box appears. It includes your **Click this** button and text that says **Label1**.
 
 1. Choose the **Click this** button in the **Form1** dialog box. Notice that the **Label1** text changes to **Hello World!**.
 
-    ![A Form1 dialog box that includes Label1 text ](../ide/media/vb-form1-dialog-hello-world.png)
+    :::image type="content" source="../ide/media/vb-form1-dialog-hello-world.png" alt-text="Screenshot shows your app, which is a Form1 dialog box that includes Label1 text.":::
+
+1. Close the **Form1** dialog box to stop running the app.
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+1. Select the **Start** button to run the application.
+
+   :::image type="content" source="media/vs-2022/csharp-winform-visual-studio-start-run-program.png" alt-text="Screenshot shows the Start button to debug and run the app.":::
+
+   Several things happen. In the Visual Studio IDE, the **Diagnostics Tools** window opens, and an **Output** window opens, too. But outside of the IDE, a **Form1** dialog box appears. It includes your **Click this** button and text that says **label1**.
+
+1. Select the **Click this** button in the **Form1** dialog box. Notice that the **label1** text changes to **Hello World!**.
+
+   :::image type="content" source="media/vs-2022/csharp-winform-form.png" alt-text="Screenshot shows the Form1 dialog box that includes the button and a label.":::
 
 1. Close the **Form1** dialog box to stop running the app.
 
 ::: moniker-end
 
-## Next steps
+## Related content
 
 Congratulations on completing this tutorial. To learn more, continue with the following tutorial:
 
 > [!div class="nextstepaction"]
 > [Tutorial: Create a picture viewer](tutorial-windows-forms-picture-viewer-layout.md)
 
-## See also
+Or try these other tutorials:
 
-* [More C# tutorials](../get-started/csharp/index.yml)
-* [Visual Basic tutorials](../get-started/visual-basic/index.yml)
-* [C++ tutorials](/cpp/get-started/tutorial-console-cpp)
+- [C# tutorials](../get-started/csharp/index.yml)
+- [Visual Basic tutorials](../get-started/visual-basic/index.yml)
+- [C++ tutorials](/cpp/get-started/tutorial-console-cpp)

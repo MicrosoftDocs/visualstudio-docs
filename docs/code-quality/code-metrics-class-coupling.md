@@ -69,11 +69,11 @@ This rule issues a warning when the class coupling is excessive. For more inform
 
 ### CK94
 
-Chidamber, S. R. & Kemerer, C. F. (1994). A Metrics Suite for Object Oriented Design (IEEE Transactions on Software Engineering, Vol. 20, No. 6). Retrieved May 14, 2011, from the University of Pittsburgh web site: [http://www.pitt.edu/~ckemerer/CK%20research%20papers/MetricForOOD_ChidamberKemerer94.pdf](http://www.pitt.edu/~ckemerer/CK%20research%20papers/MetricForOOD_ChidamberKemerer94.pdf)
+Chidamber, S. R. & Kemerer, C. F. (1994). A Metrics Suite for Object Oriented Design (IEEE Transactions on Software Engineering, Vol. 20, No. 6). Retrieved May 14, 2011, from the University of Pittsburgh web site: [`http://www.pitt.edu/~ckemerer/CK%20research%20papers/MetricForOOD_ChidamberKemerer94.pdf`](http://www.pitt.edu/~ckemerer/CK%20research%20papers/MetricForOOD_ChidamberKemerer94.pdf)
 
 ### KKLS2000
 
-Kabaili, H., Keller, R., Lustman, F., and Saint-Denis, G. (2000). Class Cohesion Revisited: An Empirical Study on Industrial Systems (Proceedings of the Workshop on Quantitative Approaches in Object-Oriented Software Engineering). Retrieved May 20, 2011, from Université de Montréal web site [http://www.iro.umontreal.ca/~sahraouh/qaoose/papers/Kabaili.pdf](http://www.iro.umontreal.ca/~sahraouh/qaoose/papers/Kabaili.pdf)
+Kabaili, H., Keller, R., Lustman, F., and Saint-Denis, G. (2000). Class Cohesion Revisited: An Empirical Study on Industrial Systems (Proceedings of the Workshop on Quantitative Approaches in Object-Oriented Software Engineering). Retrieved May 20, 2011, from Université de Montréal web site [`http://www.iro.umontreal.ca/~sahraouh/qaoose/papers/Kabaili.pdf`](http://www.iro.umontreal.ca/~sahraouh/qaoose/papers/Kabaili.pdf)
 
 ### SK2003
 
