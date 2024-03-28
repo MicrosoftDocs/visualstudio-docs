@@ -14,6 +14,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Create a .NET Framework Windows Forms user control that supports simple data binding
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
@@ -131,7 +132,7 @@ This step uses the **Data Source Configuration** wizard to create a data source 
 
 4. On the **Choose your Data Connection** page, do one of the following:
 
-    - If a data connection to the Northwind sample database is available in the drop-down list, select it.
+    - If a data connection to the Northwind sample database is available in the dropdown list, select it.
 
     - Select **New Connection** to launch the **Add/Modify Connection** dialog box.
 
@@ -153,13 +154,13 @@ Within the **Data Sources** window, you can set the control to be created prior 
 
 2. Expand the **Customers** node in the **Data Sources** window.
 
-3. Click the drop-down arrow on the **Customers** node, and choose **Details** from the control list.
+3. Click the dropdown list arrow on the **Customers** node, and choose **Details** from the control list.
 
-4. Click the drop-down arrow on the **Phone** column, and choose **Customize**.
+4. Click the dropdown list arrow on the **Phone** column, and choose **Customize**.
 
 5. Select the **PhoneNumberBox** from the list of **Associated Controls** in the **Data UI Customization Options** dialog box.
 
-6. Click the drop-down arrow on the **Phone** column, and choose **PhoneNumberBox**.
+6. Click the dropdown list arrow on the **Phone** column, and choose **PhoneNumberBox**.
 
 ## Add controls to the form
 

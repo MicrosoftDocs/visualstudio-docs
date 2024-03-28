@@ -16,6 +16,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Bind objects as data sources in .NET Framework applications using Visual Studio
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
@@ -63,9 +64,11 @@ The easiest way to load your custom objects with data is to call the `TableAdapt
 The following example shows how to loop through the rows in a data table, and populate an object with data:
 
 ### [C#](#tab/csharp)
+
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataConnecting/CS/Form1.cs" id="Snippet4":::
 
 ### [VB](#tab/vb)
+
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataConnecting/VB/Form1.vb" id="Snippet4":::
 ---
 
@@ -83,9 +86,11 @@ The automatically generated collection in the <xref:System.Windows.Forms.Binding
 The following code shows how to create the class for a strongly-typed collection of `Order` objects:
 
 ### [C#](#tab/csharp)
+
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataConnecting/CS/Class1.cs" id="Snippet8":::
 
 ### [VB](#tab/vb)
+
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataConnecting/VB/Class1.vb" id="Snippet8":::
 ---
 
@@ -99,9 +104,11 @@ You add objects to a collection by calling the `Add` method of your custom colle
 The following code shows how to add objects to the typed collection in a <xref:System.Windows.Forms.BindingSource>:
 
 ### [C#](#tab/csharp)
+
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataConnecting/CS/Class1.cs" id="Snippet5":::
 
 ### [VB](#tab/vb)
+
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataConnecting/VB/Class1.vb" id="Snippet5":::
 ---
 
@@ -111,9 +118,11 @@ The following code shows how to add objects to a typed collection that inherits 
 > In this example, the `Orders` collection is a property of the `Customer` object.
 
 ### [C#](#tab/csharp)
+
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataConnecting/CS/Class1.cs" id="Snippet6":::
 
 ### [VB](#tab/vb)
+
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataConnecting/VB/Class1.vb" id="Snippet6":::
 ---
 
@@ -127,9 +136,11 @@ You remove objects from a collection by calling the `Remove` or `RemoveAt` metho
 The following code shows how to locate and remove objects from the typed collection in a <xref:System.Windows.Forms.BindingSource> with the <xref:System.Windows.Forms.BindingSource.RemoveAt%2A> method:
 
 ### [C#](#tab/csharp)
+
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataConnecting/CS/Class1.cs" id="Snippet7":::
 
 ### [VB](#tab/vb)
+
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataConnecting/VB/Class1.vb" id="Snippet7":::
 ---
 
@@ -160,9 +171,11 @@ To save data from a collection of objects, loop through the collection of object
 The following example shows how to use the `TableAdapter.Insert` DBDirect method to add a new customer directly into the database:
 
 ### [C#](#tab/csharp)
+
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form3.cs" id="Snippet23":::
 
 ### [VB](#tab/vb)
+
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form3.vb" id="Snippet23":::
 ---
 

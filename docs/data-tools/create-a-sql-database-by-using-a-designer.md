@@ -12,6 +12,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Create a database and add tables in .NET Framework applications using Visual Studio
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
@@ -61,7 +62,7 @@ To complete this walkthrough, you need the **.NET desktop development** and **Da
 
 1. On the **Choose a Database Model** page, choose **Next** to accept the default (Dataset).
 
-1. On the **Choose Your Data Connection** page, select the **SampleDatabase.mdf** file in the drop-down list, and then choose **Next**.
+1. On the **Choose Your Data Connection** page, select the **SampleDatabase.mdf** file in the dropdown list, and then choose **Next**.
 
 1. On the **Save the Connection String to the Application Configuration File** page, choose **Next**.
 

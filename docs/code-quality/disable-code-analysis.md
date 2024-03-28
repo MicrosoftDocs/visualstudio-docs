@@ -16,7 +16,7 @@ ms.date: 03/25/2024
 
 ::: moniker range=">=vs-2022"
 
- Visual Studio allows you to control whether source code analyzers run at build time and design time. There are limitations to what you can disable, and the procedure for turning off code analysis differs depending on a few factors:
+Visual Studio allows you to control whether source code analyzers run at build time and design time. There are limitations to what you can disable, and the procedure for turning off code analysis differs depending on a few factors:
 
 - Project type (.NET Core, .NET Standard, and .NET 5+ versus .NET Framework)
 

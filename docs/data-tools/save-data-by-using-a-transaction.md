@@ -1,5 +1,5 @@
 ---
-title: 'Save data by using a transaction in a .NET Framework application'
+title: Save data by using a transaction in a .NET Framework application
 description: In .NET Framework application development with Visual Studio, review how to save data by using a transaction with ADO.NET DataSet tools in Visual Studio. You save data in a transaction by using the System.Transactions namespace.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -16,6 +16,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Save data by using a transaction in .NET Framework applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]

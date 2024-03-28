@@ -27,7 +27,7 @@
         "docs/"
       ],
       "exclude": [
-        "docs/**/toc.yml"
+        "toc.yml"
       ]
     },
     {

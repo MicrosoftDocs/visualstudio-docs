@@ -15,6 +15,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Bind WPF controls to a dataset in .NET Framework applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
@@ -77,11 +78,11 @@ Before you can create data-bound controls, you must define a data model for your
 
 5. On the **Choose Your Data Connection** page, select one of the following options:
 
-   - If a data connection to the AdventureWorksLT sample database is available in the drop-down list, select it and then click **Next**.
+   - If a data connection to the AdventureWorksLT sample database is available in the dropdown list, select it and then click **Next**.
 
    - Click **New Connection**, and create a connection to the AdventureWorksLT database.
 
-6. On the **Save the Connection String to the Application Configure File** page, select the **Yes, save the connection as** check box, and then click **Next**.
+6. On the **Save the Connection String to the Application Configure File** page, select the **Yes, save the connection as** checkbox, and then click **Next**.
 
 7. On the **Choose Your Database Objects** page, expand **Tables**, and then select the **Product (SalesLT)** table.
 
@@ -137,11 +138,11 @@ Add several buttons to the window by modifying the XAML in the WPF Designer. Lat
 
 Create controls that display customer records by dragging the `Product` table from the **Data Sources** window to the WPF Designer.
 
-1. In the **Data Sources** window, click the drop-down menu for the **Product** node and select **Details**.
+1. In the **Data Sources** window, click the dropdown list menu for the **Product** node and select **Details**.
 
 2. Expand the **Product** node.
 
-3. For this example, some fields will not be displayed, so click the drop-down menu next to the following nodes and select **None**:
+3. For this example, some fields will not be displayed, so click the dropdown list menu next to the following nodes and select **None**:
 
     - ProductCategoryID
 
@@ -153,7 +154,7 @@ Create controls that display customer records by dragging the `Product` table fr
 
     - ModifiedDate
 
-4. Click the drop-down menu next to the **ThumbNailPhoto** node and select **Image**.
+4. Click the dropdown list menu next to the **ThumbNailPhoto** node and select **Image**.
 
     > [!NOTE]
     > By default, items in the **Data Sources** window that represent pictures have their default control set to **None**. This is because pictures are stored as byte arrays in databases, and byte arrays can contain anything from a simple array of bytes to the executable file of a large application.
@@ -164,7 +165,7 @@ Create controls that display customer records by dragging the `Product` table fr
 
 6. In the designer, click the text box next to the **Product ID** label.
 
-7. In the **Properties** window, select the check box next to the **IsReadOnly** property.
+7. In the **Properties** window, select the checkbox next to the **IsReadOnly** property.
 
 ## Navigate product records
 

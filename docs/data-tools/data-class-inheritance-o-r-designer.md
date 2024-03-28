@@ -8,6 +8,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Data class inheritance (O/R Designer)
 
 Like other objects, LINQ to SQL classes can use inheritance and be derived from other classes. In code, you can specify inheritance relationships between objects by declaring that one class inherits from another. In a database, inheritance relationships are created in several ways. The **Object Relational Designer** (**O/R Designer**) supports the concept of single-table inheritance as it is often implemented in relational systems.
