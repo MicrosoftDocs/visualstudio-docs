@@ -29,7 +29,7 @@ In the EditorConfig file for your solution or project, add an entry for each rul
 You can suppress violations in your source code using a preprocessor directive, which suppresses violations for a specific line of code:
 
 - C#: [#pragma warning](/dotnet/csharp/language-reference/preprocessor-directives#pragma-warning)
-- Visual Basic: [Disable warning](/dotnet/visual-basic/language-reference/directives/disable-enable).
+- Visual Basic: [Disable warning](/dotnet/visual-basic/language-reference/directives/disable-enable)
 
 Or, you can use the [SuppressMessageAttribute attribute](#in-source-suppression-and-the-suppressmessageattribute-attribute) to suppress a warning in your C# and Visual Basic code.
 
@@ -43,11 +43,11 @@ To suppress violations using the code editor, follow these steps:
 
    - If you choose **in Source**, you see a preview of the preprocessor directive added to your code.
 
-     :::image type="content" source="media/suppress-diagnostic-from-editor.png" alt-text="Screenshot that shows an in Source selection from the Quick Actions Suppress menu." lightbox="media/suppress-diagnostic-from-editor.png":::
+     :::image type="content" source="media/suppress-diagnostic-from-editor.png" alt-text="Screenshot that shows in Source selection from the Quick Actions Suppress menu." lightbox="media/suppress-diagnostic-from-editor.png":::
 
-   - If you choose **in Source (attribute)**, you see a preview of the [SuppressMessage attribute](#in-source-suppression-and-the-suppressmessageattribute-attribute) added to your code.
+   - If you choose **in Source (attribute)**, you see a preview of the [SuppressMessageAttribute attribute](#in-source-suppression-and-the-suppressmessageattribute-attribute) added to your code.
 
-      :::image type="content" source="media/suppress-diagnostic-from-editor-attribute.png" alt-text="Screenshot that shows an in Source (attribute) selection from the Quick Actions Suppress menu." lightbox="media/suppress-diagnostic-from-editor-attribute.png":::
+      :::image type="content" source="media/suppress-diagnostic-from-editor-attribute.png" alt-text="Screenshot that shows in Source (attribute) selection from the Quick Actions Suppress menu." lightbox="media/suppress-diagnostic-from-editor-attribute.png":::
 
 ### Suppress violations using the Error List
 
@@ -77,19 +77,17 @@ Diagnostics from live analysis, or IntelliSense, are always up-to-date with curr
 
 ## Suppress violations using a global suppression file
 
-The [global suppression file](#global-level-suppressions) uses the [SuppressMessageAttribute attribute](#in-source-suppression-and-the-suppressmessageattribute-attribute).
+The [global suppression file](#global-level-suppressions) uses the [SuppressMessageAttribute attribute](#in-source-suppression-and-the-suppressmessageattribute-attribute) to suppress code violations.
 
 ### Use a global suppression file from the code editor
 
 To suppress violations with a global suppression file by using the code editor, follow these steps:
 
-1. Place the cursor in the line of code with the violation and press **Ctrl**+**Period (.)** or **Alt+Enter** to open the **Quick Actions** menu.
+1. In the code editor, place the cursor on a line of code with a violation and press **Ctrl**+**Period (.)** or **Alt+Enter** to open the **Quick Actions** menu.
 
 1. Select **Suppress \<rule number>**, and then choose **in Suppression File**.
 
-   The **Preview Changes** dialog box opens and shows a preview of the new global suppression file.
-
-1. Select **Apply** to save the global suppression file.
+    Visual Studio creates a tab in the code editor containing the new global suppression file.
 
 ### Use a global suppression file from the Error List
 
@@ -102,6 +100,8 @@ To suppress violations with a global suppression file by using the **Error List*
    The **Preview Changes** dialog box opens and shows a preview of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute added to the global suppression file.
 
    ![Screenshot that shows the Preview Changes dialog box with a SuppressMessage attribute in the suppression file.](media/preview-changes-in-suppression-file.png)
+
+1. Select **Apply** to save the global suppression file.
 
 ## Suppress all current violations
 
@@ -135,7 +135,9 @@ In-source suppression (ISS) uses the <xref:System.Diagnostics.CodeAnalysis.Suppr
 
 You can either enter the attribute manually in the code editor, or add the attribute automatically as follows:
 
-1. Select a code analysis warning in the code editor, and then select **Suppress or configure issues** > **Suppress \<rule name>** from the **Quick Actions** menu.
+1. In the code editor, place the cursor on a line of code with a violation and press **Ctrl**+**Period (.)** or **Alt+Enter** to open the **Quick Actions** menu.
+
+1. Select **Suppress or configure issues** > **Suppress \<rule number>** from the **Quick Actions** menu.
 
 1. Do one of the following steps:
 
@@ -145,7 +147,9 @@ You can either enter the attribute manually in the code editor, or add the attri
 
    - Select **in Suppression File**.
 
-     Visual Studio adds a `SuppressMessageAttribute` attribute to the project's global suppression file.
+1. Select **Suppress \<rule number>**, and then choose **in Suppression File**.
+
+    Visual Studio creates a tab in the code editor containing the new global suppression file with `SuppressMessageAttribute` attributes.
 
 The `SuppressMessageAttribute` attribute is a conditional attribute, which is included in the metadata of your managed code assembly. This attribute is included only if the `CODE_ANALYSIS` compilation symbol is defined at compile time.
 
