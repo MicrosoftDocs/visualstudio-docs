@@ -6,7 +6,7 @@ ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
 ms.topic: tutorial
-ms.date: 03/27/2024
+ms.date: 03/28/2024
 #customer intent: As a developer, I want to learn how to use Visual Studio to create C# or VB WinForms projects, starting with adding a layout element.
 ---
 # Tutorial: Create a picture viewer Windows Forms app in Visual Studio
@@ -25,6 +25,7 @@ In this first tutorial, you learn how to:
 
 - You need Visual Studio to complete this tutorial.
 Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/) for a free version.
+- The **.NET desktop development** workload. To verify or install this workload in Visual Studio, select **Tools** > **Get Tools and Features**. For more information, see [Change workloads or individual components](../install/modify-visual-studio.md#change-workloads-or-individual-components).
 
 ## Create your Windows Forms project
 
@@ -42,17 +43,6 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
 1. Select the **Windows Forms App (.NET Framework)** template for either C# or Visual Basic, and then select **Next**.
 
    :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/create-project-windows-forms-2019.png" alt-text="Screenshot shows the Create a new project dialog box with Windows Forms entered and options for Windows Forms App in Visual Studio 2019.":::
-
-   > [!NOTE]
-   > If you don't see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, select the **Install more tools and features** link.
-   >
-   > :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/install-more-tools.png" alt-text="Screenshot shows the Install more tools and features link from the Not finding what you're looking for message in the Create new project dialog box.":::
-   >
-   > Next, in Visual Studio Installer, select **.NET desktop development**.
-   >
-   > :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/install-dot-net-desktop-env.png" alt-text="Screenshot shows .NET Core workload in the Visual Studio Installer.":::
-   >
-   > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Next, select **Continue** to install the workload.
 
 1. In the **Configure your new project** window, name your project *PictureViewer*, then select **Create**.
 
@@ -72,17 +62,6 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
 1. Select the **Windows Forms App (.NET Framework)** template for either C# or Visual Basic, and then select **Next**.
 
    :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/create-project-windows-forms.png" alt-text="Screenshot shows the Create a new project dialog box with Windows Forms entered and options for Windows Forms App.":::
-
-   > [!NOTE]
-   > If you don't see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, select the **Install more tools and features** link.
-   >
-   > :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/install-more-tools.png" alt-text="Screenshot shows the Install more tools and features link from the Not finding what you're looking for message in the Create new project dialog box.":::
-   >
-   > Next, in Visual Studio Installer, select **.NET desktop development**.
-   >
-   > :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/install-dot-net-desktop-env.png" alt-text="Screenshot shows .NET Core workload in the Visual Studio Installer.":::
-   >
-   > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Next, select **Continue** to install the workload.
 
 1. In the **Configure your new project** window, name your project *PictureViewer*, then select **Create**.
 
