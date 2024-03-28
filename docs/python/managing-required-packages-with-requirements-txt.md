@@ -15,7 +15,7 @@ ms.subservice: python
 
 If you share your Python project with others, or use a build system to produce your Python application, you need to specify any required external packages. When you plan to copy your project to other locations where you need to restore an environment, you also need to define the required dependent packages.
 
-The recommended approach for specifying external dependent Python packages is to use a [requirements file](https://pip.readthedocs.org/en/latest/user_guide.html#requirements-files) (readthedocs.org). This file contains a list of pip commands that install any required versions of dependent packages for your project. The most common command is `pip freeze > requirements.txt`. This command records your environment's current package list into the _requirements.txt_ file.
+The recommended approach for specifying external dependent Python packages is to use a [requirements file](https://pip.readthedocs.org/en/latest/user_guide.html#requirements-files) (readthedocs.org). This file contains a list of pip commands that install any required versions of dependent packages for your project. The most common command is `pip freeze > requirements.txt`. This command records your environment's current package list into the `requirements.txt` file.
 
 A requirements file contains precise versions of all installed packages. You can use requirements files to freeze the requirements of an environment. By using precise package versions, you can easily reproduce your environment on another computer. The requirements files include packages even if they're installed with a version range, as a dependency of another package, or with an installer other than pip.
 
@@ -29,7 +29,7 @@ Technically, any filename can be used to track requirements. However, Visual Stu
 
 ## Install dependencies listed in requirements.txt
 
-If you load a project that has a _requirements.txt_ file, you can install all the package dependencies listed in the file.
+If you load a project that has a `requirements.txt` file, you can install all the package dependencies listed in the file.
 
 1. In **Solution Explorer**, expand the project, and then expand the **Python Environments** node.
 
@@ -64,7 +64,7 @@ If you need to create a virtual environment, see [Use virtual environments](sele
 
 ## Generate the requirements.txt file
 
-If all the necessary Python packages for your project are already installed in an environment, you can generate the _requirements.txt_ file in Visual Studio.
+If all the necessary Python packages for your project are already installed in an environment, you can generate the `requirements.txt` file in Visual Studio.
 
 1. In **Solution Explorer**, expand your project, and then expand the **Python Environments** node.
 
@@ -83,29 +83,29 @@ If all the necessary Python packages for your project are already installed in a
 
 ## Refresh or add entries to an existing requirements.txt file
 
-If the _requirements.txt_ file already exists, Visual Studio displays a prompt with several options:
+If the `requirements.txt` file already exists, Visual Studio displays a prompt with several options:
 
 :::image type="content" source="media/environments/environments-requirements-txt-replace.png" alt-text="Screenshot of the prompt displayed when the requirements text file already exists, with options to update or add entries, or replace the file." border="false" lightbox="media/environments/environments-requirements-txt-replace.png":::
 
-- **Replace entire file**: Overwrite all items, comments, and options defined in the _requirements.text_ file.
-- **Refresh existing entries**: Update the version specifiers in the _requirements.text_ file to match the currently installed version.
-- **Update and add entries**: Refresh existing requirements in the _requirements.text_ file, and append all new package requirements to the end of the file.
+- **Replace entire file**: Overwrite all items, comments, and options defined in the `requirements.text` file.
+- **Refresh existing entries**: Update the version specifiers in the `requirements.text` file to match the currently installed version.
+- **Update and add entries**: Refresh existing requirements in the `requirements.text` file, and append all new package requirements to the end of the file.
 
-Visual Studio runs `pip` to detect the current package requirements for the environment, and then updates your _requirements.txt_ file based on your selection.
+Visual Studio runs `pip` to detect the current package requirements for the environment, and then updates your `requirements.txt` file based on your selection.
 
 ## Manually install package dependencies
 
-If pip doesn't install a package dependency defined in your _requirements.txt_ file, the entire installation fails.
+If pip doesn't install a package dependency defined in your `requirements.txt` file, the entire installation fails.
 
 You have two options to address this issue:
 
-- Manually edit the _requirements.txt_ file to exclude the failed package, and then rerun the installation process.
+- Manually edit the `requirements.txt` file to exclude the failed package, and then rerun the installation process.
 
 - Use [pip command options](https://pip.readthedocs.org/en/latest/reference/pip_install.html#requirements-file-format) to refer to an installable version of the package.
 
 ### Update the requirements file with pip wheel
 
-If you use the [`pip wheel`](https://pip.readthedocs.org/en/latest/reference/pip_wheel.html) command to compile a dependency, you can add the `--find-links <path>` option to your _requirements.txt_ file.
+If you use the [`pip wheel`](https://pip.readthedocs.org/en/latest/reference/pip_wheel.html) command to compile a dependency, you can add the `--find-links <path>` option to your `requirements.txt` file.
 
 1. Call the `pip wheel` command to compile the list of required dependencies:
 
@@ -126,7 +126,7 @@ If you use the [`pip wheel`](https://pip.readthedocs.org/en/latest/reference/pip
    Cleaning up...
    ```
 
-1. Append the `find-links` and `no-index` options, along with the package version requirement to your _requirements.txt_ file:
+1. Append the `find-links` and `no-index` options, along with the package version requirement to your `requirements.txt` file:
 
    ```console
    type requirements.txt

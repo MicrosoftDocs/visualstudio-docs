@@ -44,11 +44,11 @@ The following steps show how to use a linter to check your code.
 
 Both [pylint](https://pylint.readthedocs.io/en/latest/user_guide/run.html#command-line-options) and [mypy](https://mypy.readthedocs.io/en/stable/command_line.html) offer command-line options to configure linting settings for your project.
 
-This section shows an example that uses the pylint [command-line options](https://pylint.readthedocs.io/en/latest/user_guide/run.html#command-line-options) to control pyLint behavior through a _.pylintrc_ configuration file. This file can be placed in the root of a Python project in Visual Studio or another folder, depending on how widely you want to apply the settings.
+This section shows an example that uses the pylint [command-line options](https://pylint.readthedocs.io/en/latest/user_guide/run.html#command-line-options) to control pyLint behavior through a `.pylintrc` configuration file. This file can be placed in the root of a Python project in Visual Studio or another folder, depending on how widely you want to apply the settings.
 
-The following steps suppress "missing docstring" warnings (as shown in the previous image) by using a _.pylintrc_ file in the Python project.
+The following steps suppress "missing docstring" warnings (as shown in the previous image) by using a `.pylintrc` file in the Python project.
 
-1. On the command line, browse to the project root folder that has the _.pyproj_ file, and run the following command to generate a commented configuration file:
+1. On the command line, browse to the project root folder that has the `.pyproj` file, and run the following command to generate a commented configuration file:
 
    ```console
    pylint --generate-rcfile > .pylintrc
@@ -56,9 +56,9 @@ The following steps suppress "missing docstring" warnings (as shown in the previ
 
 1. In **Solution Explorer**, right-click the project and select **Add** > **Existing Item**.
 
-1. In the dialog, browse to the folder that has the new _.pylintrc_ file. Select the _.pylintrc_ file, and then select **Add**.
+1. In the dialog, browse to the folder that has the new `.pylintrc` file. Select the `.pylintrc` file, and then select **Add**.
 
-1. In **Solution Explorer**, open the _.pylintrc_ file for editing.
+1. In **Solution Explorer**, open the `.pylintrc` file for editing.
 
 1. There are several settings you can configure in the file. This example shows how to disable a warning.
 
@@ -72,7 +72,7 @@ The following steps suppress "missing docstring" warnings (as shown in the previ
 
       :::image type="content" source="media/code-pylint-messages-control-disable.png" alt-text="Screenshot that shows how to append a specific warning message to the disable setting in the pylintrc file in Visual Studio." border="false" lightbox="media/code-pylint-messages-control-disable.png":::
 
-1. Save the _.pylintrc_ file.
+1. Save the `.pylintrc` file.
 
 1. Run pylint again. Notice that the "missing docstring" warnings are now suppressed.
 
