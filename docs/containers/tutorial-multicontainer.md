@@ -13,7 +13,7 @@ ms.topic: tutorial
 In this tutorial, you learn how to manage more than one container and communicate between them when using Container Tools in Visual Studio. Managing multiple containers requires *container orchestration* and requires an orchestrator such as Docker Compose or Service Fabric. For these procedures, you use Docker Compose. Docker Compose is great for local debugging and testing in the course of the development cycle.
 
 :::moniker range=">=vs-2022"
-The completed sample that you create in this tutorial can be found on GitHub at [https://github.com/MicrosoftDocs/vs-tutorial-samples](https://github.com/MicrosoftDocs/vs-tutorial-samples) in the folder *docker/ComposeSample*.
+The completed sample that you create in this tutorial can be found on GitHub at [`https://github.com/MicrosoftDocs/vs-tutorial-samples`](https://github.com/MicrosoftDocs/vs-tutorial-samples) in the folder *docker/ComposeSample*.
 :::moniker-end
 
 ## Prerequisites
@@ -80,14 +80,14 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
       });
    ```
 
-1. Add using directives in *Program.cs* for `Microsoft.Extensions.Caching.Distributed` and `Microsoft.Extensions.Caching.StackExchangeRedis`.
+1. Add using directives in `Program.cs` for `Microsoft.Extensions.Caching.Distributed` and `Microsoft.Extensions.Caching.StackExchangeRedis`.
 
    ```csharp
    using Microsoft.Extensions.Caching.Distributed;
    using Microsoft.Extensions.Caching.StackExchangeRedis;
    ```
 
-1. In the Web API project, delete the existing *WeatherForecast.cs* and *Controllers/WeatherForecastController.cs*, and add a file under Controllers, *CounterController.cs*, with the following contents:
+1. In the Web API project, delete the existing `WeatherForecast.cs` and *Controllers/WeatherForecastController.cs*, and add a file under Controllers, *CounterController.cs*, with the following contents:
 
    ```csharp
    using Microsoft.AspNetCore.Mvc;
@@ -167,7 +167,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
    > [!NOTE]
    > In real-world code, you shouldn't dispose `HttpClient` after every request. For best practices, see [Use HttpClientFactory to implement resilient HTTP requests](/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests).
 
-1. In the *Index.cshtml* file, add a line to display `ViewData["Message"]` so that the file looks like the following code:
+1. In the `Index.cshtml` file, add a line to display `ViewData["Message"]` so that the file looks like the following code:
 
    ```cshtml
    @page
@@ -211,7 +211,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
 
    ![Screenshot of choosing the Target OS.](media/tutorial-multicontainer/docker-tutorial-docker-support-options.PNG)
 
-   Visual Studio creates a *docker-compose.yml* file and a *.dockerignore* file in the **docker-compose** node in the solution, and that project shows in boldface font, which shows that it's the startup project.
+   Visual Studio creates a *docker-compose.yml* file and a `.dockerignore` file in the **docker-compose** node in the solution, and that project shows in boldface font, which shows that it's the startup project.
 
    ![Screenshot of Solution Explorer with Docker Compose project added.](media/tutorial-multicontainer/multicontainer-solution-explorer.png)
 
@@ -230,7 +230,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
 
    The `version` specified in the first line is the [Docker Compose file version](https://docs.docker.com/compose/compose-file/#version-top-level-element). You normally shouldn't change it, since it's used by the tools to understand how to interpret the file.
 
-   The *.dockerignore* file contains file types and extensions that you don't want Docker to include in the container. These files are generally associated with the development environment and source control, not part of the app or service you're developing.
+   The `.dockerignore` file contains file types and extensions that you don't want Docker to include in the container. These files are generally associated with the development environment and source control, not part of the app or service you're developing.
 
    Look at the **Container Tools** section of the output pane for details of the commands being run. You can see the command-line tool `docker-compose` is used to configure and create the runtime containers.
 
@@ -309,7 +309,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
     > [!NOTE]
     > In real-world code, you shouldn't dispose `HttpClient` after every request. For best practices, see [Use HttpClientFactory to implement resilient HTTP requests](/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests).
 
-1. In the *Index.cshtml* file, add a line to display `ViewData["Message"]` so that the file looks like the following code:
+1. In the `Index.cshtml` file, add a line to display `ViewData["Message"]` so that the file looks like the following code:
 
       ```cshtml
       @page
@@ -337,7 +337,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
 
    ![Screenshot of choosing the Target OS.](media/tutorial-multicontainer/docker-tutorial-docker-support-options.PNG)
 
-   Visual Studio creates a *docker-compose.yml* file and a *.dockerignore* file in the **docker-compose** node in the solution, and that project shows in boldface font, which shows that it's the startup project.
+   Visual Studio creates a *docker-compose.yml* file and a `.dockerignore` file in the **docker-compose** node in the solution, and that project shows in boldface font, which shows that it's the startup project.
 
    ![Screenshot of Solution Explorer with Docker Compose project added.](media/tutorial-multicontainer/vs-2022/multicontainer-solution-explorer.png)
 
@@ -356,7 +356,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
 
    The `version` specified in the first line is the [Docker Compose file version](https://docs.docker.com/compose/compose-file/#version-top-level-element). You normally shouldn't change it, since it's used by the tools to understand how to interpret the file.
 
-   The *.dockerignore* file contains file types and extensions that you don't want Docker to include in the container. These files are generally associated with the development environment and source control, not part of the app or service you're developing.
+   The `.dockerignore` file contains file types and extensions that you don't want Docker to include in the container. These files are generally associated with the development environment and source control, not part of the app or service you're developing.
 
    Look at the **Container Tools** section of the output pane for details of the commands being run. You can see the command-line tool `docker-compose` is used to configure and create the runtime containers.
 

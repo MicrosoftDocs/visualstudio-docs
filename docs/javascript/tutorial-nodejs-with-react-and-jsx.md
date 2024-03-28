@@ -97,7 +97,7 @@ First, create a Node.js web app project.
 ::: moniker range=">=vs-2022"
 1. Open Visual Studio, and press **Esc** to close the start window.
    
-1. Press **Ctrl**+**Q**, type *node.js* in the search box, and then choose **Blank Node.js Web Application - JavaScript** from the dropdown list.
+1. Press **Ctrl**+**Q**, type `node.js` in the search box, and then choose **Blank Node.js Web Application - JavaScript** from the dropdown list.
    
    Although this tutorial uses the TypeScript compiler, the steps require that you start with the **JavaScript** template.
    
@@ -105,23 +105,23 @@ First, create a Node.js web app project.
    
 1. In the **Configure your new project** dialog box, select **Create**.
    
-   Visual Studio creates the new solution and project, and opens the project in the right pane. The *server.js* project file opens in the editor in the left pane.
+   Visual Studio creates the new solution and project, and opens the project in the right pane. The `server.js` project file opens in the editor in the left pane.
    
 1. Look at the project structure in **Solution Explorer** in the right pane.
    
    ![Screenshot showing the Node.js project structure in Solution Explorer.](media/vs-2022/tutorial-nodejs-react-project-structure.png)
    
-   - At the top level is the *solution* (**1**), which by default has the same name as your project. A solution, represented by a *.sln* file on disk, is a container for one or more related projects.
+   - At the top level is the *solution* (**1**), which by default has the same name as your project. A solution, represented by a `.sln` file on disk, is a container for one or more related projects.
    
-   - Your project (**2**), using the name you gave in the **Configure your new project** dialog box, is highlighted in bold. In the file system, the project is a *.njsproj* file in your project folder.
+   - Your project (**2**), using the name you gave in the **Configure your new project** dialog box, is highlighted in bold. In the file system, the project is a `.njsproj` file in your project folder.
      
      To see and set project properties and environment variables, press **Alt**+**Enter**, or right-click the project and select **Properties** from the context menu. You can work with other development tools, because the project file doesn't make custom changes to the Node.js project source.
    
    - The **npm** node (**3**) shows any installed npm packages.
    
-     Right-click the **npm** node to search for and install npm packages. You can install and update packages by using the settings in *package.json* and the right-click options in the **npm** node.
+     Right-click the **npm** node to search for and install npm packages. You can install and update packages by using the settings in `package.json` and the right-click options in the **npm** node.
    
-   - Npm uses the *package.json* file (**4**) to manage dependencies and versions for locally installed packages. For more information, see [Manage npm packages](npm-package-management.md).
+   - Npm uses the `package.json` file (**4**) to manage dependencies and versions for locally installed packages. For more information, see [Manage npm packages](npm-package-management.md).
    
    - Project files (**5**) appear under the project node. The project startup file, *server.js*, shows in bold.
      
@@ -142,15 +142,15 @@ First, create a Node.js web app project.
 
     ![Screenshot showing the Node.js project in Solution Explorer](media/tutorial-nodejs-react-project-structure.png)
 
-    (1) Highlighted in **bold** is your project, using the name you gave in the **New Project** dialog box. In the file system, this project is represented by a *.njsproj* file in your project folder. You can set properties and environment variables associated with the project by right-clicking the project and choosing **Properties** (or press **Alt** + **Enter**). You can do round-tripping with other development tools, because the project file does not make custom changes to the Node.js project source.
+    (1) Highlighted in **bold** is your project, using the name you gave in the **New Project** dialog box. In the file system, this project is represented by a `.njsproj` file in your project folder. You can set properties and environment variables associated with the project by right-clicking the project and choosing **Properties** (or press **Alt** + **Enter**). You can do round-tripping with other development tools, because the project file does not make custom changes to the Node.js project source.
 
-    (2) At the top level is a solution, which by default has the same name as your project. A solution, represented by a *.sln* file on disk, is a container for one or more related projects.
+    (2) At the top level is a solution, which by default has the same name as your project. A solution, represented by a `.sln` file on disk, is a container for one or more related projects.
 
-    (3) The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box or install and update packages using the settings in *package.json* and right-click options in the npm node.
+    (3) The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box or install and update packages using the settings in `package.json` and right-click options in the npm node.
 
-    (4) *package.json* is a file used by npm to manage package dependencies and package versions for locally installed packages. For more information, see [Manage npm packages](../javascript/npm-package-management.md).
+    (4) `package.json` is a file used by npm to manage package dependencies and package versions for locally installed packages. For more information, see [Manage npm packages](../javascript/npm-package-management.md).
 
-    (5) Project files such as *server.js* show up under the project node. *server.js* is the project startup file and that is why it shows up in **bold**. You can set the startup file by right-clicking a file in the project and selecting **Set as Node.js startup file**.
+    (5) Project files such as `server.js` show up under the project node. `server.js` is the project startup file and that is why it shows up in **bold**. You can set the startup file by right-clicking a file in the project and selecting **Set as Node.js startup file**.
 ::: moniker-end
 
 ## Add npm packages
@@ -185,7 +185,7 @@ To install a package:
 
     When installed, the **react** package appears under the **npm** node in **Solution Explorer**.
 
-    The project's *package.json* file updates with the new package information, including the package version.
+    The project's `package.json` file updates with the new package information, including the package version.
 
 Instead of using the UI to search for and add the rest of the packages one at a time, you can paste the required package code into *package.json*.
 
@@ -204,7 +204,7 @@ Instead of using the UI to search for and add the rest of the packages one at a 
     },
     ```
 
-    If the file already has a `dependencies` section, replace it with the preceding JSON code. For more information on using the *package.json* file, see [package.json configuration](configure-packages-with-package-json.md).
+    If the file already has a `dependencies` section, replace it with the preceding JSON code. For more information on using the `package.json` file, see [package.json configuration](configure-packages-with-package-json.md).
 
 1. Press **Ctrl**+**S** or select **File** > **Save package.json** to save the changes.
 
@@ -361,7 +361,7 @@ Next, you add Webpack configuration code to *webpack-config.js*. You add a simpl
     }
     ```
 
-    The code specifies *app.tsx* as the source file.
+    The code specifies `app.tsx` as the source file.
 
 1. Press **Ctrl**+**Shift**+**S** or select **File** > **Save All** to save all changes.
 
@@ -385,7 +385,7 @@ Next, you add Webpack configuration code to *webpack-config.js*. You add a simpl
 
     - Install the most recent versions of the npm packages by right-clicking the npm node in Solution Explorer and choosing **Install npm packages**.
 
-    If one or more package versions are deprecated and result in an error, you might need to install a more recent version to fix errors. For information on using *package.json* to control npm package versions, see [package.json configuration](../javascript/configure-packages-with-package-json.md).
+    If one or more package versions are deprecated and result in an error, you might need to install a more recent version to fix errors. For information on using `package.json` to control npm package versions, see [package.json configuration](../javascript/configure-packages-with-package-json.md).
 
 1. In **Solution Explorer**, right-click the project node and select **Add** > **Existing Folder**.
 
@@ -405,7 +405,7 @@ Anytime you make changes to *app.tsx*, you must rerun the Webpack command. To au
 
 Visual Studio versions starting with Visual Studio 2019 require a build script. Instead of transpiling JSX at the command line, as shown in the preceding section, you can transpile JSX when building from Visual Studio.
 
-1. Open *package.json* and add the following section after the `dependencies` section:
+1. Open `package.json` and add the following section after the `dependencies` section:
 
    ```json
    "scripts": {
@@ -497,7 +497,7 @@ The browser starts with debugging enabled. The app isn't running yet, so the bro
 
 ### Attach the debugger to client-side script
 
-1. In the Visual Studio editor, set a breakpoint in either the *app-bundle.js* or *app.tsx* source code.
+1. In the Visual Studio editor, set a breakpoint in either the *app-bundle.js* or `app.tsx` source code.
 
     - For *app-bundle.js*, set the breakpoint in the `render()` function. To find the `render()` function in the *app-bundle.js* file, press **Ctrl**+**F** or select **Edit** > **Find and Replace** > **Quick Find**, and enter *render* in the search field.
 
@@ -553,7 +553,7 @@ The browser starts with debugging enabled. The app isn't running yet, so the bro
 
     Make sure the correct debugger for your target browser, **JavaScript (Chrome)** or **JavaScript (Microsoft Edge - Chromium)**, appears in the **Attach to** field. Type *chrome* or *edge* in the filter box to filter the results.
 
-1. Select the browser process with the correct host port, **localhost** in this example. The port number **1337** or **localhost** might also appear in the **Title** field to help you select the correct process.
+1. Select the browser process with the correct host port, `localhost` in this example. The port number **1337** or `localhost` might also appear in the **Title** field to help you select the correct process.
 
 1. Select **Attach**.
 

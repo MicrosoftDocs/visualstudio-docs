@@ -143,7 +143,7 @@ It is not uncommon for an application to contain components that have different 
 
 4. Publish *PublishLocales* by using the Visual Studio IDE.
 
-     In **Solution Explorer**, select *PublishLocales*. On the **Project** menu, select **Properties**. In the Project Designer, on the **Publish** page, specify a publishing location of **http://localhost/PublishLocales**, and then click **Publish Now**.
+     In **Solution Explorer**, select *PublishLocales*. On the **Project** menu, select **Properties**. In the Project Designer, on the **Publish** page, specify a publishing location of `http://localhost/PublishLocales`, and then click **Publish Now**.
 
      When the publish Web page appears, close it. (For this step, you only have to publish the project; you do not have to install it.)
 
@@ -153,7 +153,7 @@ It is not uncommon for an application to contain components that have different 
 
 6. When the publish process succeeds, it will generate a message that says "Publish succeeded for *PublishLocales\PublishLocales.vbproj*. Publish language was 'en'." Click **OK** in the message box. When the publish Web page appears, click **Install**.
 
-7. Look in *C:\Inetpub\wwwroot\PublishLocales\en*. You should see the installed files such as the manifests, *setup.exe*, and the publish Web page file, in addition to the localized resource DLL. (By default ClickOnce appends a *.deploy* extension on EXEs and DLLs; you can remove this extension after deployment.)
+7. Look in *C:\Inetpub\wwwroot\PublishLocales\en*. You should see the installed files such as the manifests, *setup.exe*, and the publish Web page file, in addition to the localized resource DLL. (By default ClickOnce appends a `.deploy` extension on EXEs and DLLs; you can remove this extension after deployment.)
 
 ## Related content
 - [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)

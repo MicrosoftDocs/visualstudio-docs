@@ -36,7 +36,7 @@ The following table describes **General** settings:
 | Name | Default Setting | Applies To | Description |
 | -----|:---------------:|:----------:| ----------- |
 | Install Docker Desktop if needed | Prompt Me | Single Project, Docker Compose | Choose whether you want to be prompted if Docker Desktop is not installed. |
-| Trust ASP.NET Core SSL certificate | Prompt Me | ASP.NET Core 2.x projects | When set to **Prompt Me**, if the localhost SSL certificate is not trusted, Visual Studio will prompt every time you run an ASP.NET Core 2.x project. |
+| Trust ASP.NET Core SSL certificate | Prompt Me | ASP.NET Core 2.x projects | When set to **Prompt Me**, if the `localhost` SSL certificate is not trusted, Visual Studio will prompt every time you run an ASP.NET Core 2.x project. |
 
 The following table describes **Single Project** and **Docker Compose** settings:
 
@@ -74,7 +74,7 @@ The following table describes the **Containers** window settings:
 | Confirm before running large number of images | Always | Controls whether you are prompted before starting containers from more than 10 images at a time. |
 
 > [!WARNING]
-> If the localhost SSL certificate is not trusted, and you select the box to suppress prompting, then HTTPS web requests might fail at run time in your app or service. In that case, clear the **Do not prompt** checkbox, run your project, and indicate trust at the prompt.
+> If the `localhost` SSL certificate is not trusted, and you check the box to suppress prompting, then HTTPS web requests might fail at run time in your app or service. In that case, uncheck the **Do not prompt** checkbox, run your project, and indicate trust at the prompt.
 
 :::moniker range=">=vs-2022"
 

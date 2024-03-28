@@ -101,7 +101,7 @@ A text value is required. This text specifies the code, along with the literals 
 
 There are three attributes available for the Code element:
 
-- **Language** - _Required_ attribute that specifies the language of the code snippet. The value can be one of the following:
+- **Language** - *Required* attribute that specifies the language of the code snippet. The value can be one of the following:
 
    |Value|Description|
    |-----|-----------|
@@ -115,7 +115,7 @@ There are three attributes available for the Code element:
    |`SQL`|Identifies a SQL code snippet.|
    |`HTML`|Identifies an HTML code snippet.|
 
-- **Kind** - _Optional_ attribute that specifies the kind of code that the snippet contains. The value can be one of the following:
+- **Kind** - *Optional* attribute that specifies the kind of code that the snippet contains. The value can be one of the following:
 
    |Value|Description|
    |-----|-----------|
@@ -125,7 +125,7 @@ There are three attributes available for the Code element:
    |`file`|Specifies that the snippet is a full code file. These code snippets can be inserted alone into a code file, or inside a namespace.|
    |`any`|Specifies that the snippet can be inserted anywhere. This tag is used for code snippets that are context-independent, such as comments.|
 
-- **Delimiter** - _Optional_ attribute that specifies the delimiter used to describe literals and objects in the code. By default, the delimiter is `$`.
+- **Delimiter** - *Optional* attribute that specifies the delimiter used to describe literals and objects in the code. By default, the delimiter is `$`.
 
 ### Parent element
 
@@ -497,10 +497,10 @@ Groups individual `Reference` elements.
 
 ## Shortcut element
 
-Specifies the shortcut text used to insert the snippet. The text value of a `Shortcut` element can only contain alphanumeric characters, and underscores ( _ ).
+Specifies the shortcut text used to insert the snippet. The text value of a `Shortcut` element can only contain alphanumeric characters, and underscores ( `_` ).
 
 > [!CAUTION]
-> Underscore (_) is not supported characters in C++ snippet shortcuts.
+> Underscore ( `_` ) is not supported characters in C++ snippet shortcuts.
 
 ```xml
 <Shortcut>

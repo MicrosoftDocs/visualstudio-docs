@@ -17,13 +17,14 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Insert new records into a database in .NET Framework applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 To insert new records into a database with [ADO.NET](/dotnet/framework/data/adonet/) in a .NET Framework project, you can use the `TableAdapter.Update` method, or one of the TableAdapter's DBDirect methods (specifically the `TableAdapter.Insert` method). For more information, see [TableAdapter](../data-tools/create-and-configure-tableadapters.md).
 
-If your application doesn't use TableAdapters, you can use command objects (for example,  <xref:System.Data.SqlClient.SqlCommand>) to  insert new records in your database.
+If your application doesn't use TableAdapters, you can use command objects (for example,  <xref:System.Data.SqlClient.SqlCommand>) to insert new records in your database.
 
 If your application uses datasets to store data, use the `TableAdapter.Update` method. The `Update` method sends all changes (updates, inserts, and deletes) to the database.
 
@@ -57,7 +58,7 @@ If your application uses datasets to store data, you can add new records to the 
 
 ### To insert new records into a database by using the TableAdapter.Insert method
 
-If your application uses objects to store  data, you can use the `TableAdapter.Insert` method to create new rows directly in the database. The `Insert` method accepts the individual values for each column as parameters. Calling the method inserts a new record into the database with the parameter values passed in.
+If your application uses objects to store data, you can use the `TableAdapter.Insert` method to create new rows directly in the database. The `Insert` method accepts the individual values for each column as parameters. Calling the method inserts a new record into the database with the parameter values passed in.
 
 - Call the TableAdapter's `Insert` method, passing in the values for each column as parameters.
 
@@ -67,9 +68,11 @@ The following procedure demonstrates using the `TableAdapter.Insert` method to i
 > If you do not have an instance available, instantiate the TableAdapter you want to use.
 
 ### [C#](#tab/csharp)
+
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs" id="Snippet15":::
 
 ### [VB](#tab/vb)
+
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb" id="Snippet15":::
 ---
 
@@ -84,9 +87,11 @@ You can insert new records directly into a database using command objects.
 The following example demonstrates inserting records into a database using command object. It inserts data into the `Region` table in the Northwind database.
 
 ### [C#](#tab/csharp)
+
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs" id="Snippet16":::
 
 ### [VB](#tab/vb)
+
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb" id="Snippet16":::
 ---
 

@@ -59,17 +59,17 @@ This rule issues a warning when the depth of inheritance reaches 6 or greater, s
 
 ## Putting It All Together
 
-High values for DIT mean the potential for errors is also high, low values reduce the potential for errors. High values for DIT indicate a greater potential for code reuse through inheritance, low values suggest less code reuse though inheritance to use. Due to lack of sufficient data, there is no currently accepted standard for DIT values. Even studies done recently did not find sufficient data to determine a viable number that could be used as a standard number for this metric [Shatnawi](#shatnawi). Although there is no empirical evidence to support it, several resources suggest that a DIT around 5 or 6 should be an upper limit. For example, see [https://www.devx.com/architecture-zone/45611/](https://www.devx.com/architecture-zone/45611/).
+High values for DIT mean the potential for errors is also high, low values reduce the potential for errors. High values for DIT indicate a greater potential for code reuse through inheritance, low values suggest less code reuse though inheritance to use. Due to lack of sufficient data, there is no currently accepted standard for DIT values. Even studies done recently did not find sufficient data to determine a viable number that could be used as a standard number for this metric [Shatnawi](#shatnawi). Although there is no empirical evidence to support it, several resources suggest that a DIT around 5 or 6 should be an upper limit. For example, see [`https://www.devx.com/architecture-zone/45611/`](https://www.devx.com/architecture-zone/45611/).
 
 ## Citations
 
 ### CK
 
-Chidamber, S. R. & Kemerer, C. F. (1994). A Metrics Suite for Object Oriented Design (IEEE Transactions on Software Engineering, Vol. 20, No. 6). Retrieved May 14, 2011, from the University of Pittsburgh web site: [http://www.pitt.edu/~ckemerer/CK%20research%20papers/MetricForOOD_ChidamberKemerer94.pdf](http://www.pitt.edu/~ckemerer/CK%20research%20papers/MetricForOOD_ChidamberKemerer94.pdf)
+Chidamber, S. R. & Kemerer, C. F. (1994). A Metrics Suite for Object Oriented Design (IEEE Transactions on Software Engineering, Vol. 20, No. 6). Retrieved May 14, 2011, from the University of Pittsburgh web site: [`http://www.pitt.edu/~ckemerer/CK%20research%20papers/MetricForOOD_ChidamberKemerer94.pdf`](http://www.pitt.edu/~ckemerer/CK%20research%20papers/MetricForOOD_ChidamberKemerer94.pdf)
 
 ### Krishnan
 
-Subramanyam, R. & Krishnan, M. S. (2003). Empirical Analysis of CK Metrics for Object-Oriented Design Complexity: Implications for Software Defects (IEEE Transactions on Software Engineering, Vol. 29, No. 4). Retrieved May 14, 2011, originally obtained from University of Massachusetts Dartmouth web site [https://ieeexplore.ieee.org/abstract/document/1191795](https://ieeexplore.ieee.org/abstract/document/1191795)
+Subramanyam, R. & Krishnan, M. S. (2003). Empirical Analysis of CK Metrics for Object-Oriented Design Complexity: Implications for Software Defects (IEEE Transactions on Software Engineering, Vol. 29, No. 4). Retrieved May 14, 2011, originally obtained from University of Massachusetts Dartmouth web site [`https://ieeexplore.ieee.org/abstract/document/1191795`](https://ieeexplore.ieee.org/abstract/document/1191795)
 
 ### Shatnawi
 

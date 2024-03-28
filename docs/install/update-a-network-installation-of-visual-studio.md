@@ -45,7 +45,7 @@ When Visual Studio is initially installed on the client machine, it records the 
 
 ::: moniker range="vs-2019"
 
-With default Visual Studio 2019 functionality, once the client has installed the product, the client's update location configuration is locked and unchangable. The only way to _reliably_ change the source location for updates is to uninstall and reinstall the product using the correct configuration.
+With default Visual Studio 2019 functionality, once the client has installed the product, the client's update location configuration is locked and unchangable. The only way to *reliably* change the source location for updates is to uninstall and reinstall the product using the correct configuration.
  
 However, if the Visual Studio client uses the latest Visual Studio 2022 Installer, then the client's source location for updates can be changed. This is useful if you want to install from one layout but have updates come from another layout. There are several ways to get the Visual Studio 2022 Installer onto a client machine. The easiest way is to use any version of Visual Studio that was shipped after June 2023, because these versions automatically contain the latest installer. Another way is to install and use the Visual Studio 2022 product. Lastly, you can [distribute the Visual Studio 2022 Installer via your Visual Studio 2019 layouts](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer).
 
@@ -70,7 +70,7 @@ Administrators can programmatically update the client installations of Visual St
 
 You can initiate an update to Visual Studio by programmatically invoking the client's installer and issuing the update command. This command will update Visual Studio based on the product bits that are available in the [source location for updates](update-visual-studio.md#configure-source-location-of-updates-1). If you want to change the update source location on the client while performing the update, you can do that programatically by passing in the `--channelUri` parameter alongside the update command. For example:  
 
-You can change the channel to a network layout _and_ execute an update command on the client like this:
+You can change the channel to a network layout *and* execute an update command on the client like this:
 
 ```shell
 "C:\program files (x86)\microsoft\visual studio\installer\>setup.exe" update --installPath "C:\Program Files\Microsoft Visual Studio\2019\Enterprise" --channelUri "\\\\server\\share\\newlayoutdir\\channelmanifest.json"
@@ -98,13 +98,13 @@ The following example updates the client using the existing bootstrapper in the 
 
 ::: moniker range="vs-2019"
 
-You can also initiate an update to your Visual Studio 2019 client by programmatically calling a bootstrapper from a _different_ network layout location that contains the version of the product that you want to update the client to. To do this, you need to get the Visual Studio 2022 Installer on the client. The easiest way to enable this is to [ensure your new Visual Studio 2019 layout is using the latest installer](create-a-network-installation-of-visual-studio.md#ensure-your-layout-is-using-the-latest-installer). If you run the bootstrapper from a new network hosted layout, then the update channel on the client will be set to the [update location specified in the layout](automated-installation-with-response-file.md). For example, you can run this command on the client machine using a new bootstrapper in a new network hosted layout:
+You can also initiate an update to your Visual Studio 2019 client by programmatically calling a bootstrapper from a *different* network layout location that contains the version of the product that you want to update the client to. To do this, you need to get the Visual Studio 2022 Installer on the client. The easiest way to enable this is to [ensure your new Visual Studio 2019 layout is using the latest installer](create-a-network-installation-of-visual-studio.md#ensure-your-layout-is-using-the-latest-installer). If you run the bootstrapper from a new network hosted layout, then the update channel on the client will be set to the [update location specified in the layout](automated-installation-with-response-file.md). For example, you can run this command on the client machine using a new bootstrapper in a new network hosted layout:
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-You can also initiate an update to your Visual Studio client by programatically calling a bootstrapper from a _different_ network layout location that contains the version of the product that you want to update the client to. If you run bootstrapper from a new network hosted layout, then the update channel on the client will be set to the [update location specified in the layout](automated-installation-with-response-file.md). For example, you can run this command on the client machine using a new bootstrapper in a new network hosted layout:
+You can also initiate an update to your Visual Studio client by programatically calling a bootstrapper from a *different* network layout location that contains the version of the product that you want to update the client to. If you run bootstrapper from a new network hosted layout, then the update channel on the client will be set to the [update location specified in the layout](automated-installation-with-response-file.md). For example, you can run this command on the client machine using a new bootstrapper in a new network hosted layout:
 
 ::: moniker-end
 
@@ -118,9 +118,9 @@ Whatever the value of the channelUri in the new layout's `response.json` file wi
 
 ### Programatically update a client that doesn't have internet access
 
-If your client machine doesn't have internet access, then it _must_ acquire the updates from a layout. Remember that there are two parts that need to get updated whenever Visual Studio is updated. The first is the installer and the second is the Visual Studio product itself. For network hosted layouts, you can invoke either the bootstrapper or the installer to update the client. For intranet webserver hosted layouts, you can update by invoking the installer on the client. The following example illustrates both situations, and both assume that the administrator has already updated the layout itself to the most secure bits.
+If your client machine doesn't have internet access, then it *must* acquire the updates from a layout. Remember that there are two parts that need to get updated whenever Visual Studio is updated. The first is the installer and the second is the Visual Studio product itself. For network hosted layouts, you can invoke either the bootstrapper or the installer to update the client. For intranet webserver hosted layouts, you can update by invoking the installer on the client. The following example illustrates both situations, and both assume that the administrator has already updated the layout itself to the most secure bits.
 
-This example instructs Visual Studio to _explicitly_ look for _both_ of these components from a network layout. The first command forces the installer to update from the layout, and the second command prevents any packages from being downloaded from Microsoft hosted servers on the internet.
+This example instructs Visual Studio to *explicitly* look for *both* of these components from a network layout. The first command forces the installer to update from the layout, and the second command prevents any packages from being downloaded from Microsoft hosted servers on the internet.
 
  ```shell
     \\server\share\VSlayoutdirectory\vs_enterprise.exe --quiet --update --wait --offline
