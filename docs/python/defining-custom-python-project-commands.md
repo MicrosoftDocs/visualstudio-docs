@@ -17,9 +17,9 @@ By default, that menu contains only the **Run PyLint** and **Run Mypy** commands
 
 ![Default appearance of the Python submenu on a project's context menu](media/custom-commands-default-menu.png)
 
-Custom commands appear in this same context menu. Custom commands are added to a project file directly, where they apply to that individual project. You can also define custom commands in a _.targets_ file that can easily be imported into multiple project files.
+Custom commands appear in this same context menu. Custom commands are added to a project file directly, where they apply to that individual project. You can also define custom commands in a `.targets` file that can easily be imported into multiple project files.
 
-Certain Python project templates in Visual Studio already add custom commands of their own using their _.targets_ file. For example, the Bottle Web Project and Flask Web Project templates both add two commands, **Start server** and **Start debug server**. The Django Web Project template adds these same commands plus quite a few more:
+Certain Python project templates in Visual Studio already add custom commands of their own using their `.targets` file. For example, the Bottle Web Project and Flask Web Project templates both add two commands, **Start server** and **Start debug server**. The Django Web Project template adds these same commands plus quite a few more:
 
 ![Appearance of the Python submenu on a Django project's context menu](media/custom-commands-django-menu.png)
 
@@ -30,11 +30,11 @@ Each custom command can refer to a Python file, a Python module, inline Python c
 >
 > As you might know, Visual Studio provides a means to edit the project file directly. You first right-click the project file and select **Unload project**, then right-click again and select **Edit project file** to open the project in the Visual Studio editor. You then make and save edits, right-click the project once more, and select **Reload project**, which also prompts you to confirm closing the project file in the editor.
 >
-> When developing a custom command, however, all these clicks can become tedious. For a more efficient workflow, load the project in Visual Studio and also open the _.pyproj_ file in a separate editor altogether (such as another instance of Visual Studio, Visual Studio Code, Notepad, etc.). When you save changes in the editor and switch to Visual Studio, Visual Studio detects changes and asks whether to reload the project (**The project \<name> has been modified outside the environment.**). Select **Reload** and your changes are immediately applied in just one step.
+> When developing a custom command, however, all these clicks can become tedious. For a more efficient workflow, load the project in Visual Studio and also open the `.pyproj` file in a separate editor altogether (such as another instance of Visual Studio, Visual Studio Code, Notepad, etc.). When you save changes in the editor and switch to Visual Studio, Visual Studio detects changes and asks whether to reload the project (**The project \<name> has been modified outside the environment.**). Select **Reload** and your changes are immediately applied in just one step.
 
 ## Walkthrough: Add a command to a project file
 
-To familiarize yourself with custom commands, this section walks through a simple example that runs a project's startup file directly using _python.exe_. (Such a command is effectively the same as using **Debug** > **Start without Debugging**.)
+To familiarize yourself with custom commands, this section walks through a simple example that runs a project's startup file directly using *python.exe*. (Such a command is effectively the same as using **Debug** > **Start without Debugging**.)
 
 1. Create a new project named "Python-CustomCommands" using the **Python Application** template. (See [Quickstart: Create a Python project from a template](quickstart-02-python-in-visual-studio-project-from-template.md) for instructions if you're not already familiar with the process.)
 
@@ -42,7 +42,7 @@ To familiarize yourself with custom commands, this section walks through a simpl
 
 1. Right-click the project in **Solution Explorer**, select **Python**, and notice that the only commands that appear on the submenu are **Run PyLint** and **Run Mypy**. Your custom commands appear on this same submenu.
 
-1. As suggested in the introduction, open _Python-CustomCommands.pyproj_ in a separate text editor. Then add the following lines at the end of the file just inside the closing `</Project>` and save the file.
+1. As suggested in the introduction, open *Python-CustomCommands.pyproj* in a separate text editor. Then add the following lines at the end of the file just inside the closing `</Project>` and save the file.
 
    ```xml
    <PropertyGroup>
@@ -54,7 +54,7 @@ To familiarize yourself with custom commands, this section walks through a simpl
 
 1. Switch back to Visual Studio and select **Reload** when it prompts you about the file change. Then check the **Python** menu again to see that **Run PyLint** is still the only item shown there because the lines you added only replicate the default `<PythonCommands>` property group containing the PyLint command.
 
-1. Switch to the editor with the project file and add the following `<Target>` definition after the `<PropertyGroup>`. As explained later in this article, this `Target` element defines a custom command to run the startup file (identified by the "StartupFile" property) using _python.exe_ in a console window. The attribute `ExecuteIn="consolepause"` uses a console that waits for you to press a key before closing.
+1. Switch to the editor with the project file and add the following `<Target>` definition after the `<PropertyGroup>`. As explained later in this article, this `Target` element defines a custom command to run the startup file (identified by the "StartupFile" property) using `python.exe` in a console window. The attribute `ExecuteIn="consolepause"` uses a console that waits for you to press a key before closing.
 
    ```xml
    <Target Name="Example_RunStartupFile" Label="Run startup file" Returns="@(Commands)">
@@ -138,13 +138,13 @@ All attribute values are case-insensitive.
 
 | Attribute                  | Required | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | -------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| TargetType                 | Yes      | Specifies what the Target attribute contains and how it's used along with the Arguments attribute:<ul><li>**executable**: Run the executable named in Target, appending the value in Arguments, as if entered directly on the command line. The value must contain only a program name without arguments.</li><li>**script**: Run _python.exe_ with the filename in Target, followed with the value in Arguments.</li><li>**module**: Run `python -m` followed by the module name in Target, followed with the value in Arguments.</li><li>**code**: Run the inline code contained in Target. The Arguments value is ignored.</li><li>**pip**: Run `pip` with the command in Target, followed by Arguments; is ExecuteIn is set to "output", however, pip assumes the `install` command and uses Target as the package name.</li></ul> |
+| TargetType                 | Yes      | Specifies what the Target attribute contains and how it's used along with the Arguments attribute:<ul><li>**executable**: Run the executable named in Target, appending the value in Arguments, as if entered directly on the command line. The value must contain only a program name without arguments.</li><li>**script**: Run `python.exe` with the filename in Target, followed with the value in Arguments.</li><li>**module**: Run `python -m` followed by the module name in Target, followed with the value in Arguments.</li><li>**code**: Run the inline code contained in Target. The Arguments value is ignored.</li><li>**pip**: Run `pip` with the command in Target, followed by Arguments; is ExecuteIn is set to "output", however, pip assumes the `install` command and uses Target as the package name.</li></ul> |
 | Target                     | Yes      | The filename, module name, code, or pip command to use, depending on the TargetType.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Arguments                  | Optional | Specifies a string of arguments (if any) to give to the target. Note that when TargetType is `script`, the arguments are given to the Python program, not _python.exe_. Ignored for the `code` TargetType.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Arguments                  | Optional | Specifies a string of arguments (if any) to give to the target. Note that when TargetType is `script`, the arguments are given to the Python program, not *python.exe*. Ignored for the `code` TargetType.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | ExecuteIn                  | Yes      | Specifies the environment in which to run the command:<ul><li>**console**: (Default) Runs Target and the arguments as if they're entered directly on the command line. A command window appears while the Target is running, then is closed automatically.</li><li>**consolepause**: Same as console, but waits for a keypress before closing the window.</li><li>**output**: Runs Target and displays its results in the **Output** window in Visual Studio. If TargetType is "pip", Visual Studio uses Target as the package name and appends Arguments.</li><li>**repl**: Runs Target in the [Python Interactive](python-interactive-repl-in-visual-studio.md) window; the optional display name is used for the title of the window.</li><li>**none**: behaves the same as console.</li></ul>                                      |
 | WorkingDirectory           | Optional | The folder in which to run the command.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | ErrorRegex<br>WarningRegEx | Optional | Used only when ExecuteIn is `output`. Both values specify a regular expression with which Visual Studio parses command output to show errors and warnings in its **Error List** window. If not specified, the command doesn't affect the **Error List** window. For more information on what Visual Studio expects, see [Named capture groups](#named-capture-groups-for-regular-expressions).                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| RequiredPackages           | Optional | A list of package requirements for the command using the same format as [_requirements.txt_](https://pip.pypa.io/en/stable/user_guide/#requirements-files) (pip.readthedocs.io). The **Run PyLint** command, for example specifies `pylint>=1.0.0`. Before running the command, Visual Studio checks that all packages in the list are installed. Visual Studio uses pip to install any missing packages.                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| RequiredPackages           | Optional | A list of package requirements for the command using the same format as [*requirements.txt*](https://pip.pypa.io/en/stable/user_guide/#requirements-files) (pip.readthedocs.io). The **Run PyLint** command, for example specifies `pylint>=1.0.0`. Before running the command, Visual Studio checks that all packages in the list are installed. Visual Studio uses pip to install any missing packages.                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Environment                | Optional | A string of environment variables to define before running the command. Each variable uses the form \<NAME>=\<VALUE> with multiple variables separated by semicolons. A variable with multiple values must be contained in single or double quotes, as in 'NAME=VALUE1;VALUE2'.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 
 #### Named capture groups for regular expressions
@@ -174,9 +174,9 @@ To allow Visual Studio to extract the right information from such warnings and s
 
 ## Create a .targets file with custom commands
 
-Defining custom commands in a project file makes them available to only that project file. To use commands in multiple project files, you instead define the `<PythonCommands>` property group and all your `<Target>` elements in a _.targets_ file. You then import that file into individual project files.
+Defining custom commands in a project file makes them available to only that project file. To use commands in multiple project files, you instead define the `<PythonCommands>` property group and all your `<Target>` elements in a `.targets` file. You then import that file into individual project files.
 
-The _.targets_ file is formatted as follows:
+The `.targets` file is formatted as follows:
 
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
@@ -195,20 +195,20 @@ The _.targets_ file is formatted as follows:
 </Project>
 ```
 
-To load a _.targets_ file into a project, place a `<Import Project="(path)">` element anywhere within the `<Project>` element. For example, if you have a file named _CustomCommands.targets_ in a _targets_ subfolder in your project, use the following code:
+To load a `.targets` file into a project, place a `<Import Project="(path)">` element anywhere within the `<Project>` element. For example, if you have a file named `CustomCommands.targets` in a *targets* subfolder in your project, use the following code:
 
 ```xml
 <Import Project="targets/CustomCommands.targets"/>
 ```
 
 > [!Note]
-> Whenever you change the _.targets_ file, you need to reload the _solution_ that contains a project, not just the project itself.
+> Whenever you change the `.targets` file, you need to reload the *solution* that contains a project, not just the project itself.
 
 ## Example commands
 
 ### Run PyLint (module target)
 
-The following code appears in the _Microsoft.PythonTools.targets_ file:
+The following code appears in the *Microsoft.PythonTools.targets* file:
 
 ```xml
 <PropertyGroup>
@@ -301,7 +301,7 @@ To explore how the **Start server** and **Start debug server** commands for web 
   </Target>
 ```
 
-_From [fxthomas/Example.pyproj.xml](https://gist.github.com/fxthomas/5c601e3e0c1a091bcf56aed0f2960cfa) (GitHub), used with permission._
+*From [fxthomas/Example.pyproj.xml](https://gist.github.com/fxthomas/5c601e3e0c1a091bcf56aed0f2960cfa) (GitHub), used with permission.*
 
 ### Generate Windows installer
 
@@ -320,7 +320,7 @@ _From [fxthomas/Example.pyproj.xml](https://gist.github.com/fxthomas/5c601e3e0c1
   </Target>
 ```
 
-_From [fxthomas/Example.pyproj.xml](https://gist.github.com/fxthomas/5c601e3e0c1a091bcf56aed0f2960cfa) (GitHub), used with permission._
+*From [fxthomas/Example.pyproj.xml](https://gist.github.com/fxthomas/5c601e3e0c1a091bcf56aed0f2960cfa) (GitHub), used with permission.*
 
 ### Generate wheel package
 
@@ -340,7 +340,7 @@ _From [fxthomas/Example.pyproj.xml](https://gist.github.com/fxthomas/5c601e3e0c1
 </Target>
 ```
 
-_From [fxthomas/Example.pyproj.xml](https://gist.github.com/fxthomas/5c601e3e0c1a091bcf56aed0f2960cfa) (GitHub), used with permission._
+*From [fxthomas/Example.pyproj.xml](https://gist.github.com/fxthomas/5c601e3e0c1a091bcf56aed0f2960cfa) (GitHub), used with permission.*
 
 ## Troubleshooting
 
@@ -377,7 +377,7 @@ Indicates that the contents of the `<Target>` or `<CreatePythonCommandItem>` ele
 - `ErrorRegex` or `WarningRegex` is specified without setting `ExecuteIn="output"`.
 - Unrecognized attributes exist in the element. For example, you might have used `Argumnets` (misspelled) instead of `Arguments`.
 
-Attribute values can be empty if you refer to a property that's not defined. For example, if you use the token `$(StartupFile)` but no startup file has been defined in the project, then the token resolves to an empty string. In such cases, you might want to define a default value. For example, the **Run server** and **Run debug server** commands defined in the Bottle, Flask, and Django project templates default to _manage.py_ if you haven't otherwise specified a server startup file in the project properties.
+Attribute values can be empty if you refer to a property that's not defined. For example, if you use the token `$(StartupFile)` but no startup file has been defined in the project, then the token resolves to an empty string. In such cases, you might want to define a default value. For example, the **Run server** and **Run debug server** commands defined in the Bottle, Flask, and Django project templates default to `manage.py` if you haven't otherwise specified a server startup file in the project properties.
 
 ### Visual Studio stops responding and crashes when running the command
 
@@ -385,4 +385,4 @@ You're likely attempting to run a console command with `ExecuteIn="output"`, in 
 
 ### Executable command "is not recognized as an internal or external command, operable program or batch file"
 
-When using `TargetType="executable"`, the value in `Target` must be _only_ the program name without any arguments, such as _python_ or _python.exe_ only. Move any arguments to the `Arguments` attribute.
+When using `TargetType="executable"`, the value in `Target` must be *only* the program name without any arguments, such as *python* or `python.exe` only. Move any arguments to the `Arguments` attribute.

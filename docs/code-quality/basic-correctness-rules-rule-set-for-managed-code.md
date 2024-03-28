@@ -16,6 +16,8 @@ The Basic Correctness Rules rule set focuses on logic errors and common mistakes
 
 The following table describes all the rules in the Microsoft Basic Correctness Rules rule set.
 
+<!-- docutune:disable -->
+
 |Rule|Description|
 |----------|-----------------|
 |[CA1001](/dotnet/fundamentals/code-analysis/quality-rules/ca1001)|Types that own disposable fields should be disposable|

@@ -99,7 +99,7 @@ If your pre-build or post-build event doesn't complete successfully, you can ter
 If your pre-build event fails, you might see an error like this in the **Error List** window:
 
 ```output
-MSB3073	The command "call c:\source\repos\prebuild.bat" exited with code 1.
+MSB3073    The command "call c:\source\repos\prebuild.bat" exited with code 1.
 ```
 
 If there's not enough information in the **Error List** window, you can try using the **Output Window** to view the full build output, including any output from batch files.

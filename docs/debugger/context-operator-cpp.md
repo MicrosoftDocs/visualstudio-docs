@@ -1,6 +1,6 @@
 ---
-title: "Context operator in the debugger (C++)"
-description: You may need to provide context for a C++ name that is in an outer scope and is hidden by a local name. Learn how to use the context operator to do this. 
+title: Context operator in the debugger (C++)
+description: You might need to provide context for a C++ name that is in an outer scope and is hidden by a local name. Learn how to use the context operator to do this.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -22,12 +22,14 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # Context Operator in the Visual Studio Debugger (C++)
 
 You can use the context operator in C++ to qualify a breakpoint location, variable name, or expression. The context operator is useful for specifying a name from an outer scope that is otherwise hidden by a local name.
 
 ## <a name="BKMK_Using_context_operators_to_specify_a_symbol"></a> Syntax
- There are two ways of specifying context:
+
+There are two ways of specifying context:
 
 1. {,,[*module*] } *expression*
 
@@ -35,13 +37,13 @@ You can use the context operator in C++ to qualify a breakpoint location, variab
 
      For example, to set a breakpoint at the `SomeFunction` function of EXAMPLE.dll:
 
-    ```C++
+    ```c++
     {,,EXAMPLE.dll}SomeFunction
     ```
 
 2. *module*!*expression*
 
-    ```C++
+    ```c++
     EXAMPLE.dll!SomeFunction
     ```
 
@@ -49,7 +51,7 @@ You can use the context operator in C++ to qualify a breakpoint location, variab
 
    If the *module* path includes a comma, an embedded space, or a brace, you must use quotation marks around the path so that the context parser can properly recognize the string. Single quotation marks are considered part of a Windows file name, so you must use double quotation marks. For example,
 
-  ```C++
+  ```c++
   {,,"a long, long, library name.dll"} g_Var
   ```
 

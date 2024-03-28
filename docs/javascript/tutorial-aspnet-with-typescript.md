@@ -87,9 +87,9 @@ Visual Studio opens your new project.
 
    If you don't see all the item templates, select **Show All Templates**, and then choose the item template.
 
-   Visual Studio adds the *tsconfig.json* file to the project root. You can use this file to [configure options](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for the TypeScript compiler.
+   Visual Studio adds the `tsconfig.json` file to the project root. You can use this file to [configure options](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for the TypeScript compiler.
 
-1. Open *tsconfig.json* and replace the default code with the following code:
+1. Open `tsconfig.json` and replace the default code with the following code:
 
    ```json
    {
@@ -114,13 +114,13 @@ Visual Studio opens your new project.
 
 1. In Solution Explorer, right-click the project node and select **Add > New Folder**. Use the name *scripts* for the new folder.
 
-1. Right-click the *scripts* folder and select **Add > New Item**. Choose the **TypeScript File**, type the name *app.ts* for the filename, and then select **Add**.
+1. Right-click the *scripts* folder and select **Add > New Item**. Choose the **TypeScript File**, type the name `app.ts` for the filename, and then select **Add**.
 
    If you don't see all the item templates, select **Show All Templates**, and then choose the item template.
 
-   Visual Studio adds *app.ts* to the *scripts* folder.
+   Visual Studio adds `app.ts` to the *scripts* folder.
 
-1. Open *app.ts* and add the following TypeScript code.
+1. Open `app.ts` and add the following TypeScript code.
 
    ```ts
    function TSButton() {
@@ -184,7 +184,7 @@ Visual Studio opens your new project.
 
    Although the app builds automatically when you run it, we want to take a look at something that happens during the build process.
 
-1. Open the *wwwroot/js* folder to see two new files: *app.js* and the source map file, *app.js.map*. The TypeScript compiler generates these files.
+1. Open the *wwwroot/js* folder to see two new files: `app.js` and the source map file, *app.js.map*. The TypeScript compiler generates these files.
 
    Source map files are required for debugging.
 
@@ -224,7 +224,7 @@ Visual Studio opens your new project.
    >[!NOTE]
    > For ASP.NET Core projects, you can also use [Library Manager](/aspnet/core/client-side/libman/) or yarn instead of npm to install client-side JavaScript and CSS files.
 
-1. In this example, add a TypeScript definition file for jQuery to your project. Include the following code in your *package.json* file.
+1. In this example, add a TypeScript definition file for jQuery to your project. Include the following code in your `package.json` file.
 
    ```json
    "devDependencies": {
@@ -237,7 +237,7 @@ Visual Studio opens your new project.
 1. If the package in Solution Explorer isn't installed, right-click the npm node and choose **Restore Packages**.
 
    >[!NOTE]
-   > In some scenarios, Solution Explorer might indicate that an npm package is out of sync with *package.json* due to a known issue described [here](https://github.com/aspnet/Tooling/issues/479). For example, the package might appear as not installed when it is installed. In most cases, you can update Solution Explorer by deleting *package.json*, restarting Visual Studio, and re-adding the *package.json* file as described earlier in this article.
+   > In some scenarios, Solution Explorer might indicate that an npm package is out of sync with `package.json` due to a known issue described [here](https://github.com/aspnet/Tooling/issues/479). For example, the package might appear as not installed when it is installed. In most cases, you can update Solution Explorer by deleting *package.json*, restarting Visual Studio, and re-adding the `package.json` file as described earlier in this article.
 
 1. In Solution Explorer, right-click the scripts folder and choose **Add** > **New Item**.
 
@@ -273,7 +273,7 @@ Visual Studio opens your new project.
    <script src="~/js/library.js"></script>
    ```
 
-1. In _Index.cshtml_, add the following HTML to the end of the file.
+1. In *Index.cshtml*, add the following HTML to the end of the file.
 
    ```html
    <div>

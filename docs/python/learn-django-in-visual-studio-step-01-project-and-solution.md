@@ -2,7 +2,7 @@
 title: Django in Visual Studio tutorial Step 1, Django basics
 titleSuffix: ""
 description: Overview and Step 1 of a core walkthrough of Django capabilities in Visual Studio, including prerequisites, Git, virtual environments, and creating a Django project.
-ms.date: 03/26/2024
+ms.date: 03/28/2024
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster

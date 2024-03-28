@@ -28,6 +28,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # C/C++ Assertions
 
 An assertion statement specifies a condition that you expect to be true at a point in your program. If that condition is not true, the assertion fails, execution of your program is interrupted, and the [Assertion Failed dialog box](../debugger/assertion-failed-dialog-box.md) appears.
@@ -70,7 +71,7 @@ Visual Studio supports C++ assertion statements that are based on the following 
 
 ## <a name="BKMK_How_assertions_work"></a> How assertions work
 
-When the debugger halts because of an MFC or C run-time library assertion, then if the source is available, the debugger navigates to the point in the source file where the assertion occurred. The assertion message appears in both the [Output window](../ide/reference/output-window.md) and the **Assertion Failed** dialog box. You can copy the assertion message from the **Output** window to a text window if you want to save it for future reference. The **Output** window may contain other error messages as well. Examine these messages carefully, because they provide clues to the cause of the assertion failure.
+When the debugger halts because of an MFC or C run-time library assertion, then if the source is available, the debugger navigates to the point in the source file where the assertion occurred. The assertion message appears in both the [Output window](../ide/reference/output-window.md) and the **Assertion Failed** dialog box. You can copy the assertion message from the **Output** window to a text window if you want to save it for future reference. The **Output** window might contain other error messages as well. Examine these messages carefully, because they provide clues to the cause of the assertion failure.
 
 Use assertions to detect errors during development. As a rule, use one assertion for each assumption. For example, if you assume that an argument is not NULL, use an assertion to test that assumption.
 
@@ -110,7 +111,7 @@ The CRTDBG.H header file defines the [_ASSERT and _ASSERTE macros](/cpp/c-runtim
 | `_ASSERT` | If the specified expression evaluates to FALSE, the file name and line number of the `_ASSERT`. |
 | `_ASSERTE` | Same as `_ASSERT`, plus a string representation of the expression that was asserted. |
 
-`_ASSERTE` is more powerful because it reports the asserted expression that turned out to be FALSE. This may be enough to identify the problem without referring to the source code. However, the Debug version of your application will contain a string constant for each expression asserted using `_ASSERTE`. If you use many `_ASSERTE` macros, these string expressions take up a significant amount of memory. If that proves to be a problem, use `_ASSERT` to save memory.
+`_ASSERTE` is more powerful because it reports the asserted expression that turned out to be FALSE. This might be enough to identify the problem without referring to the source code. However, the Debug version of your application will contain a string constant for each expression asserted using `_ASSERTE`. If you use many `_ASSERTE` macros, these string expressions take up a significant amount of memory. If that proves to be a problem, use `_ASSERT` to save memory.
 
 When `_DEBUG` is defined, the `_ASSERTE` macro is defined as follows:
 
@@ -265,6 +266,7 @@ With some more work, you could add validity tests for the `CPerson` objects stor
 This is a powerful mechanism when you build for debugging. When you subsequently build for release, the mechanism is turned off automatically.
 
 ### <a name="BKMK_Limitations_of_AssertValid"></a> Limitations of AssertValid
+
 A triggered assertion indicates that the object is definitely bad and execution will stop. However, a lack of assertion indicates only that no problem was found, but the object is not guaranteed to be good.
 
 [In this topic](#BKMK_In_this_topic)

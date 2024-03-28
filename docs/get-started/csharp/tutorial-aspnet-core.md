@@ -197,7 +197,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
 1. Return to Visual Studio, and then press **Shift+F5** to stop debugging. This action closes the project in the browser window.
 
-1. In Visual Studio, open **Privacy.cshtml** for editing. Next, delete the sentence, _Use this page to detail your site's privacy policy_ and replace it with _This page is under construction as of @ViewData["TimeStamp"]_.
+1. In Visual Studio, open **Privacy.cshtml** for editing. Next, delete the sentence, *Use this page to detail your site's privacy policy* and replace it with *This page is under construction as of @ViewData["TimeStamp"]*.
 
     ![Screenshot shows the Privacy dot c s h t m l file open in the Visual Studio code editor with the updated text.](media/vs-2019/csharp-aspnet-privacy-cshtml-code-changed.png)
 
@@ -257,7 +257,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
    ![Screenshot shows the Index dot c s h t m l file for the Home page in the Visual Studio code editor.](media/vs-2019/csharp-aspnet-index-cshtml-page.png)
 
-1. Replace the _Welcome_ text with _Hello World!_
+1. Replace the *Welcome* text with *Hello World!*
 
    ![Screenshot shows the Index dot c s h t m l file in the Visual Studio code editor with the Welcome text changed to Hello World!.](media/vs-2019/csharp-aspnet-index-cshtml-page-hello-world.png)
     
@@ -326,7 +326,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
 1. Return to Visual Studio, and then press **Shift+F5** to stop debugging. This action closes the project in the browser window.
 
-1. In Visual Studio, open **Privacy.cshtml** for editing. Next, delete the sentence, _Use this page to detail your site's privacy policy_ and replace it with _This page is under construction as of @ViewData["TimeStamp"]_.
+1. In Visual Studio, open **Privacy.cshtml** for editing. Next, delete the sentence, *Use this page to detail your site's privacy policy* and replace it with *This page is under construction as of @ViewData["TimeStamp"]*.
 
    :::image type="content" source="media/vs-2022/csharp-aspnet-privacy-cshtml-code-changed.png" alt-text="Screenshot shows the Privacy.cshtml file open in the Visual Studio Code editor with the updated text.":::
 
@@ -387,7 +387,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
    :::image type="content" source="media/vs-2022/csharp-aspnet-index-cshtml-hello.png" alt-text="Screenshot shows the Index.cshtml file for the Home page in the Visual Studio Code editor.":::
 
-1. Replace the _Welcome_ text with _Hello World!_
+1. Replace the *Welcome* text with *Hello World!*
 
    :::image type="content" source="media/vs-2022/csharp-aspnet-index-cshtml-page-hello-world.png" alt-text="Screenshot shows the Index.cshtml file in the Visual Studio Code editor with the 'Welcome' text changed to 'Hello World!'.":::
     

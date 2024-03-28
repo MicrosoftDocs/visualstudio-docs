@@ -17,6 +17,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Pass data between forms
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
@@ -86,7 +87,7 @@ This tutorial uses SQL Server Express LocalDB and the Northwind sample database.
 
 5. On the **Choose your Data Connection** page, do one of the following:
 
-    - If a data connection to the Northwind sample database is available in the drop-down list, select it.
+    - If a data connection to the Northwind sample database is available in the dropdown list, select it.
 
     - Select **New Connection** to launch the **Add/Modify Connection** dialog box.
 
@@ -164,9 +165,11 @@ Add a TableAdapter query to Form2 to load orders for the selected customer on Fo
 2. Add the following code to **Form2** after the `Form2_Load` method:
 
 ### [C#](#tab/csharp)
+
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDisplaying/CS/Form2.cs" id="Snippet1":::
 
 ### [VB](#tab/vb)
+
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDisplaying/VB/Form2.vb" id="Snippet1":::
 ---
 
@@ -183,9 +186,11 @@ Add a TableAdapter query to Form2 to load orders for the selected customer on Fo
 4. Update the method definition to match the following sample:
 
 ### [C#](#tab/csharp)
+
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDisplaying/CS/Form1.cs" id="Snippet2":::
 
 ### [VB](#tab/vb)
+
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDisplaying/VB/Form1.vb" id="Snippet2":::
 ---
 

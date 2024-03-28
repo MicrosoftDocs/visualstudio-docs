@@ -12,6 +12,7 @@ manager: mijacobs
 ms.subservice: code-analysis
 monikerRange: 'vs-2019'
 ---
+
 # Walkthrough: Use static code analysis to find code defects
 
 In this walkthrough, you'll analyze a managed project for code defects by using legacy code analysis.
@@ -56,7 +57,7 @@ This article steps you through the process of using legacy analysis to analyze y
 
 4. Make sure that **Run on build** is selected in the **Binary analyzers** section.
 
-5. From the **Active rules** drop-down list, select **Microsoft All Rules**.
+5. From the **Active rules** dropdown list, select **Microsoft All Rules**.
 
 6. On the **File** menu, click **Save Selected Items**, and then close the properties pages.
 
@@ -104,7 +105,7 @@ This article steps you through the process of using legacy analysis to analyze y
 
    1. Choose the **Signing** tab.
 
-   1. Select the **Sign the assembly** check box.
+   1. Select the **Sign the assembly** checkbox.
 
    1. In the **Choose a string name key file** list, select **\<New>**.
 

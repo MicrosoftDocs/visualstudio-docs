@@ -3,7 +3,7 @@ title: Use a code analysis check-in policy
 ms.date: 11/04/2016
 description: Learn how to use a code analysis check-in policy to verify that code complies with inheritance, class coupling, maintainability, and complexity standards.
 ms.topic: how-to
-helpviewer_keywords: 
+helpviewer_keywords:
   - code analysis, check-in policies
 author: mikejo5000
 ms.author: mikejo
@@ -11,6 +11,7 @@ manager: mijacobs
 ms.subservice: code-analysis
 monikerRange: 'vs-2019'
 ---
+
 # Enforce maintainable code with a code analysis check-in policy
 
 Developers can use the Code Metrics tool to measure the complexity and maintainability of their code, but you cannot invoke Code Metrics as part of a check-in policy. However, you can enable Code Analysis rules that verify the compliance of your code with code metrics standards, and enforce the rules through check-in policies. For more information about code metrics, see [Code metrics values](../code-quality/code-metrics-values.md).
@@ -29,7 +30,7 @@ Administrators of version control for Team Foundation can add the Code Analysis 
 
      The **Add Check-in Policy** dialog box appears.
 
-3. In the **Check-in Policy** list, select the **Code Analysis** check box, and then click **OK**.
+3. In the **Check-in Policy** list, select the **Code Analysis** checkbox, and then click **OK**.
 
      The **Code Analysis Policy Editor** dialog box appears.
 
@@ -37,7 +38,7 @@ Administrators of version control for Team Foundation can add the Code Analysis 
 
 1. In the **Code Analysis Policy Editor** dialog box, under **Rule Settings**, expand the **Maintainability Rules** node.
 
-2. Select the check boxes for the following rules:
+2. Select the checkboxes for the following rules:
 
    - Depth of Inheritance: **CA1501 AvoidExcessiveInheritance** - Threshold: Warning at more than 5 levels deep
 
@@ -47,7 +48,7 @@ Administrators of version control for Team Foundation can add the Code Analysis 
 
    - Class Coupling: **CA1506 AvoidExcessiveClassCoupling** - Threshold: Warning at more than 80 for a class and more than 30 for a method
 
-     In addition, if you want a rule violation to prevent a successful build, select the **Treat Warning As An Error** check box next to the rule description.
+     In addition, if you want a rule violation to prevent a successful build, select the **Treat Warning As An Error** checkbox next to the rule description.
 
 3. Click **OK**. The new check-in policy now applies to future check-ins.
 

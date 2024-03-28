@@ -13,6 +13,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Customize how Visual Studio creates captions for data-bound controls in .NET Framework applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
@@ -43,7 +44,7 @@ The following table lists the internal default settings for these registry value
 |**SmartCaptionSuffix**|**:**|Represents a character appended to the returned string. For example, if the caption is `Company Name`, the suffix makes it `Company Name:`|
 
 > [!CAUTION]
-> Be very careful when doing anything in the Registry Editor. Back up the registry before editing it. If you use the Registry Editor incorrectly, you can cause serious problems that may require you to reinstall your operating system. Microsoft does not guarantee that problems that you cause by using the Registry Editor incorrectly can be resolved. Use the Registry Editor at your own risk.
+> Be very careful when doing anything in the Registry Editor. Back up the registry before editing it. If you use the Registry Editor incorrectly, you can cause serious problems that might require you to reinstall your operating system. Microsoft does not guarantee that problems that you cause by using the Registry Editor incorrectly can be resolved. Use the Registry Editor at your own risk.
 >
 > For information about backing up, editing, and restoring the registry, see [Windows registry information for advanced users](https://support.microsoft.com/help/256986/windows-registry-information-for-advanced-users).
 
