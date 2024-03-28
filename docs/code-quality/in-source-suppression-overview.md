@@ -43,11 +43,11 @@ To suppress violations using the code editor, follow these steps:
 
    - If you choose **in Source**, you see a preview of the preprocessor directive added to your code.
 
-     :::image type="content" source="media/suppress-diagnostic-from-editor.png" alt-text="Screenshot that shows an in Source selection from the Quick Actions menu.":::
+     :::image type="content" source="media/suppress-diagnostic-from-editor.png" alt-text="Screenshot that shows an in Source selection from the Quick Actions Suppress menu." lightbox="media/suppress-diagnostic-from-editor.png":::
 
    - If you choose **in Source (attribute)**, you see a preview of the [SuppressMessage attribute](#in-source-suppression-and-the-suppressmessageattribute-attribute) added to your code.
 
-      :::image type="content" source="media/suppress-diagnostic-from-editor-attribute.png" alt-text="Screenshot that shows in Source (attribute) selection from the Quick Actions menu.":::
+      :::image type="content" source="media/suppress-diagnostic-from-editor-attribute.png" alt-text="Screenshot that shows an in Source (attribute) selection from the Quick Actions Suppress menu" lightbox=suppress-diagnostic-from-editor-attribute.png":::
 
 ### Suppress violations using the Error List
 
@@ -131,7 +131,21 @@ From the rule set editor, clear the checkbox next to its name or set **Action** 
 
 ## In-source suppression and the SuppressMessageAttribute attribute
 
-In-source suppression (ISS) uses the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to suppress a warning. You can add the `SuppressMessageAttribute` attribute to the source file near the code segment that generated the warning. You can either enter it manually in the code, or select a warning in the **Error List** and use the shortcut menu to add it automatically.
+In-source suppression (ISS) uses the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to suppress a warning. You can add the `SuppressMessageAttribute` attribute to the source file near the code segment that generated the warning.
+
+You can either enter the attribute manually in the code editor, or add the attribute automatically as follows:
+
+1. Select a code analysis warning in the code editor, and then select **Suppress or configure issues** > **Suppress \<rule name>** from the **Quick Actions** menu.
+
+1. Do one of the following steps:
+
+   - Select **in Source (attribute)**.
+
+     Visual Studio adds a `SuppressMessageAttribute` attribute to your code.
+
+   - Select **in Suppression File**.
+
+     Visual Studio adds a `SuppressMessageAttribute` attribute to the project's global suppression file.
 
 The `SuppressMessageAttribute` attribute is a conditional attribute, which is included in the metadata of your managed code assembly. This attribute is included only if the `CODE_ANALYSIS` compilation symbol is defined at compile time.
 
@@ -143,8 +157,6 @@ If you migrate a project to the latest version of Visual Studio, you might see a
 > Don't use in-source suppressions on release builds, to prevent shipping the in-source suppression metadata accidentally.
 
 ### SuppressMessageAttribute attribute format
-
-If you select **Suppress** > **In Source** from the context menu of a code analysis warning in the **Error List**, Visual Studio adds a <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute in your code. Or, if you select **Suppress** > **In Suppression File** it adds the attribute to the project's global suppression file.
 
 The `SuppressMessageAttribute` attribute has the following format:
 
