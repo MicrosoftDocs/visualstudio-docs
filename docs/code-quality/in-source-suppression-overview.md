@@ -147,9 +147,7 @@ You can either enter the attribute manually in the code editor, or add the attri
 
    - Select **in Suppression File**.
 
-1. Select **Suppress \<rule number>**, and then choose **in Suppression File**.
-
-    Visual Studio creates a tab in the code editor containing the new global suppression file with `SuppressMessageAttribute` attributes.
+     Visual Studio creates a tab in the code editor containing a new global suppression file with `SuppressMessageAttribute` attributes.
 
 The `SuppressMessageAttribute` attribute is a conditional attribute, which is included in the metadata of your managed code assembly. This attribute is included only if the `CODE_ANALYSIS` compilation symbol is defined at compile time.
 
