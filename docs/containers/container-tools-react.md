@@ -104,11 +104,11 @@ If you're targeting .NET 8 or later, the default Dockerfile that Visual Studio c
 
 1. In the Dockerfile, delete the line `USER app`.
 1. Change the ports that are exposed in the first section of the Dockerfile to port 80 is for HTTP requests and (if you chose to support HTTPS when you created the project) 443 for HTTPS requests.
-1. Edit *launchSettings.json* to change the port references there to 80 and 443; replace 8080 with 80 for HTTP, and 8081 with 443 for HTTPS.
+1. Edit `launchSettings.json` to change the port references there to 80 and 443; replace 8080 with 80 for HTTP, and 8081 with 443 for HTTPS.
 
 For all .NET versions, use the following steps to update the Dockerfile to install Node.js:
 
-1. Add the following lines to install curl, Node.js 14.x, and certain required Node libraries in the container. Be sure to add these lines both in the first section, to add the installation of the Node package manager *npm.exe* to the base image, as well as in the `build` section.
+1. Add the following lines to install curl, Node.js 14.x, and certain required Node libraries in the container. Be sure to add these lines both in the first section, to add the installation of the Node package manager `npm.exe` to the base image, as well as in the `build` section.
 
 ```Dockerfile
 RUN apt-get update
@@ -379,7 +379,7 @@ The project uses the SPA Proxy during debugging. See [Improved single-page app (
    ```
 
    > [!Note]
-   > Note the local URL. You need to provide this in a debug launch profile, which is stored in your *launchSettings.json* file.
+   > Note the local URL. You need to provide this in a debug launch profile, which is stored in your `launchSettings.json` file.
 
 1. Open the dropdown that contains debug profiles (next to the green triangle icon or **Start** button), and choose **{ProjectName} Debug Properties**, and choose the **Docker** profile.
 1. Check the **Environment variables** section and add the following environment variables if not already present:
@@ -392,7 +392,7 @@ The project uses the SPA Proxy during debugging. See [Improved single-page app (
 
    ![Screenshot of Debug Launch Profile settings for client debugging.](./media/container-tools-react/vs-2022/launch-profiles-debugging.png)
 
-   This action changes the Docker entry in the *launchSettings.json* file and launches the correct URL for the local proxy running on the host. Find the *launchSettings.json* file in **Solution Explorer** under **Properties**.
+   This action changes the Docker entry in the `launchSettings.json` file and launches the correct URL for the local proxy running on the host. Find the `launchSettings.json` file in **Solution Explorer** under **Properties**.
 
 1. You should see something like the following code:
 
@@ -414,7 +414,7 @@ The project uses the SPA Proxy during debugging. See [Improved single-page app (
    > [!IMPORTANT]
    > Do not set the launch settings option `publishAllPorts` to `true` if you're using a proxy. That option publishes all exposed ports to a random port, which won't work when you set a specific port in the SPA proxy.
 
-1. Open the file *ClientApp/src/setupProxy.js* and change the line that sets the target to use the localhost address and port on the container. You can find the port on the **Ports** tab of the **Containers** window.
+1. Open the file *ClientApp/src/setupProxy.js* and change the line that sets the target to use the `localhost` address and port on the container. You can find the port on the **Ports** tab of the **Containers** window.
 
    ```JavaScript
    const target =  'https://localhost:{container-port}';
@@ -432,11 +432,11 @@ The project uses the SPA Proxy during debugging. See [Improved single-page app (
 
    ![Screenshot showing ebugging client-side JavaScript.](./media/container-tools-react/vs-2022/debugging-client-javascript.png)
 
-1. Next, try hitting a breakpoint in the server-side ASP.NET Core code. Set a breakpoint in *WeatherController.cs* in the `Get` method and try appending `/weatherforecast` to the base localhost and port URL to activate that code.
+1. Next, try hitting a breakpoint in the server-side ASP.NET Core code. Set a breakpoint in `WeatherController.cs` in the `Get` method and try appending `/weatherforecast` to the base `localhost` and port URL to activate that code.
 
    ![Screenshot showing debugging server-side ASP.NET Core code.](./media/container-tools-react/vs-2022/debugging-aspnet-core.png)
 
-1. If the container port changes, which can happen if you make a significant change, such as updating *launchSettings.json* or updating the debug launch profile in the IDE, you need to update the port in *setupProxy.js* and also restart the proxy. Terminate the current proxy (**Ctrl**+**C** in the command window where it's running), and then restart it using the same command `npm run start`.
+1. If the container port changes, which can happen if you make a significant change, such as updating `launchSettings.json` or updating the debug launch profile in the IDE, you need to update the port in `setupProxy.js` and also restart the proxy. Terminate the current proxy (**Ctrl**+**C** in the command window where it's running), and then restart it using the same command `npm run start`.
 
 :::moniker-end
 

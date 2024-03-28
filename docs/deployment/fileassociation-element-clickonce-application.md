@@ -42,7 +42,7 @@ Identifies a file extension to be associated with the application.
 |`defaultIcon`|Required. Specifies the icon to use for files with this extension. The icon file must be specified by using the [\<file> Element](../deployment/file-element-clickonce-application.md) within the [\<assembly> Element](../deployment/assembly-element-clickonce-application.md) that contains this element.|
 
 ## Remarks
- This element must include an XML namespace reference to "urn:schemas-microsoft-com:clickonce.v1". If the `<fileAssociation>` element is used, it must come after the `<application>` element in its parent [\<assembly> Element](../deployment/assembly-element-clickonce-application.md).
+ This element must include an XML namespace reference to `urn:schemas-microsoft-com:clickonce.v1`. If the `<fileAssociation>` element is used, it must come after the `<application>` element in its parent [\<assembly> Element](../deployment/assembly-element-clickonce-application.md).
 
  ClickOnce will not overwrite existing file associations. However, a ClickOnce application can override the file extension for the current user only. After that ClickOnce application is uninstalled, ClickOnce deletes the file association for the user, and the per-machine association is active again.
 

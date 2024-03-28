@@ -216,7 +216,7 @@ Use the service proxy object to load sales data from the service. Then assign th
 
 1. In the designer, to create the `Window_Loaded` event handler, double-click the text that reads: **MainWindow**.
 
-2. Replace the event handler with the following code. Make sure that you replace the *localhost* address in this code with the local host address on your development computer.
+2. Replace the event handler with the following code. Make sure that you replace the `localhost` address in this code with the local host address on your development computer.
 
      ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_ProTools/data_wpfwcf/cs/adventureworkssaleseditor/mainwindow.xaml.cs" id="Snippet2":::
