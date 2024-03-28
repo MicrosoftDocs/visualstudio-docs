@@ -18,7 +18,7 @@ sap.id: 8dedd10e-cb1c-2eb1-bcda-fe00b07ac903
 As a Visual Studio subscriber, you can use a range of features in Azure DevOps. You can use these same features in each Azure DevOps organization in which you're a member, whether you created the organization or someone else added you. 
 
 ## Sign in
-1. Sign in to the [subscriptions portal](https://my.visualstudio.com/benefits) and select the Get started link at the bottom of the Azure DevOps benefit tile.
+1. Sign in to the [subscriptions portal](https://my.visualstudio.com/benefits) and select the Get started link at the bottom of the Azure DevOps benefit tile.
 1. You're taken to Azure DevOps where you must agree to the terms of service. 
 1. Sign into Azure DevOps using the email that you use to sign into your Visual Studio subscription. If you prefer to use a different email to sign in, you can [add an alternate account](https://learn.microsoft.com/visualstudio/subscriptions/vs-alternate-identity) to link your subscription, allowing you to access Azure DevOps using both emails. 
 
