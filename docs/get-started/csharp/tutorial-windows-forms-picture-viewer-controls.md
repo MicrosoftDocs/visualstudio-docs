@@ -65,7 +65,7 @@ You add the PictureBox and a checkbox from the Toolbox in the Visual Studio IDE.
 
 1. Choose the **Text** property and enter *Stretch*.
 
-   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-controls/checkbox-named-stretch.png" alt-text="Screenshot shows checkbox control named Stretch.":::
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-controls/checkbox-named-stretch.png" alt-text="Screenshot shows CheckBox control named Stretch.":::
 
 ## Add buttons in a layout panel
 
@@ -90,7 +90,7 @@ These steps show you how to add four buttons to a new layout panel in the TableL
    Another option is to select **button2**. Then select **Edit** > **Copy** or **Ctrl**+**C**.
    Next, choose **Edit** > **Paste** from the menu bar or press **Ctrl**+**V** to paste a copy of your button.
    Now paste it again.
-   Notice that the IDE adds **button3** and **button4** to the FlowLayoutPanel.
+   The IDE adds **button3** and **button4** to the FlowLayoutPanel.
 
 1. Select the first button and set its **Text** property to *Show a picture*.
 
@@ -101,7 +101,7 @@ These steps show you how to add four buttons to a new layout panel in the TableL
    The buttons should align themselves to the right side of the cell, and reverse their order so that the **Show a picture** button is on the right of the cell.
    You can drag the buttons around the FlowLayoutPanel to arrange them in any order.
 
-1. Choose the **Close** button to select it. Then, to choose the rest of the buttons at the same time, press and hold the **Ctrl** key and choose them, too.
+1. Choose the **Close** button to select it. Then, to select the rest of the buttons at the same time, press and hold the **Ctrl** key and choose them, too.
 
 1. In the **Properties** window, set the **AutoSize** property to **True**.
    The buttons resize to fit their text.
@@ -131,7 +131,7 @@ Use these steps to give them more informative names.
    You can verify the names by choosing the control selector dropdown list in the **Properties** window.
    The new button names appear.
 
-You can change the name of any control, such as the TableLayoutPanel or checkbox.
+You can change the name of any control, such as the TableLayoutPanel or CheckBox.
 
 ## Add dialog components
 
@@ -157,13 +157,13 @@ In this section, you add an <xref:System.Windows.Forms.OpenFileDialog> component
 
 1. Choose the **openFileDialog1** icon and set two properties:
 
-   - Set the **Filter** property to the following:
+   - Set the **Filter** property to the following value:
 
      ```console
      JPEG Files (*.jpg)|*.jpg|PNG Files (*.png)|*.png|BMP Files (*.bmp)|*.bmp|All files (*.*)|*.*
      ```
 
-   - Set the **Title** property to the following: *Select a picture file*
+   - Set the **Title** property to the following value: *Select a picture file*.
 
    The **Filter** property settings specify the types that the **Select a picture** dialog box displays.
 
