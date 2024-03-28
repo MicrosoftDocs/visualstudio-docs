@@ -91,9 +91,10 @@ As you type code or comments in the editor, GitHub Copilot provides context-awar
        int subtractNumbers(
    ```
 
+1. Hover over the suggestion to see the GitHub Copilot command palette. You can select **Tab** or press `Tab` to accept the suggestion or continue typing to reject it. If alternate suggestions are available, you can select **next suggestion** or use the `Alt + .` keyboard shortcut to cycle through them.
+  
   :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-code-suggestions.gif" alt-text="Animated screenshot that shows using the GitHub Copilot Completions in Visual Studio" lightbox="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-code-suggestions.gif":::
 
-1. Hover over the suggestion to see the GitHub Copilot command palette. You can select **Tab** or press `Tab` to accept the suggestion or continue typing to reject it. If alternate suggestions are available, you can select **next suggestion** or use the `Alt + .` keyboard shortcut to cycle through them.
 1. Add following code to see whole line completions from GitHub Copilot.
 
    ```csharp
