@@ -16,6 +16,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Save data to a database (multiple tables) in .NET Framework applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
@@ -74,9 +75,9 @@ This step creates a data source from the Northwind database using the **Data Sou
 
 4. On the **Choose your Data Connection** screen, do one of the following:
 
-    - If a data connection to the Northwind sample database is available in the drop-down list, select it.
+    - If a data connection to the Northwind sample database is available in the dropdown list, select it.
 
-         -or-
+        -or-
 
     - Select **New Connection** to open the **Add/Modify Connection** dialog box.
 
