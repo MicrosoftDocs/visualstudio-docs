@@ -66,7 +66,7 @@ To enable this workflow, go to Visual Studio's Options dialog **(Tools > Options
 
 :::image type="content" source="media/vs-2022/select-system-web-browser.png" alt-text="Select system web browser from the menu.":::
 
-### Sign into additional accounts with MFA policies 
+### Sign into additional accounts with MFA policies 
 
 ::: moniker range="=vs-2022"
 
