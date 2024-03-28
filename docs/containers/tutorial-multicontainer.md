@@ -138,7 +138,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
    }
    ```
 
-   The service increments a counter every time the page is accessed and stores the counter in the Azure Cache for Redis.
+   The service increments a counter every time the page is accessed and stores the counter in the cache.
 :::moniker-end
 
 ## Add code to call the Web API
@@ -213,7 +213,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
 
    Visual Studio creates a *docker-compose.yml* file and a *.dockerignore* file in the **docker-compose** node in the solution, and that project shows in boldface font, which shows that it's the startup project.
 
-   ![Screenshot of Solution Explorer with Docker-compose project added.](media/tutorial-multicontainer/multicontainer-solution-explorer.png)
+   ![Screenshot of Solution Explorer with Docker Compose project added.](media/tutorial-multicontainer/multicontainer-solution-explorer.png)
 
    The *docker-compose.yml* appears as follows:
 
@@ -232,7 +232,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
 
    The *.dockerignore* file contains file types and extensions that you don't want Docker to include in the container. These files are generally associated with the development environment and source control, not part of the app or service you're developing.
 
-   Look at the **Container Tools** section of the output pane for details of the commands being run. You can see the command-line tool Docker-compose is used to configure and create the runtime containers.
+   Look at the **Container Tools** section of the output pane for details of the commands being run. You can see the command-line tool `docker-compose` is used to configure and create the runtime containers.
 
 1. In the Web API project, again right-click on the project node, and choose **Add** > **Container Orchestrator Support**. Choose **Docker Compose**, and then select the same target OS.
 
@@ -258,9 +258,9 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
           dockerfile: MyWebAPI/Dockerfile
     ```
 
-1. The first project that you add container orchestration to is set up to be launched when you run or debug. You can configure the launch action in the **Project Properties** for the Docker-compose project. On the Docker-compose project node, right-click to open the context menu, and then choose **Properties**, or use Alt+Enter. The following screenshot shows the properties you would want for the solution used here. For example, you can change the page that is loaded by customizing the **Service URL** property.
+1. The first project that you add container orchestration to is set up to be launched when you run or debug. You can configure the launch action in the **Project Properties** for the Docker Compose project. On the Docker Compose project node, right-click to open the context menu, and then choose **Properties**, or use Alt+Enter. The following screenshot shows the properties you would want for the solution used here. For example, you can change the page that is loaded by customizing the **Service URL** property.
 
-   ![Screenshot of Docker-compose project properties.](media/tutorial-multicontainer/launch-action.png)
+   ![Screenshot of Docker Compose project properties.](media/tutorial-multicontainer/launch-action.png)
 
    Here's what you see when launched (the .NET Core 2.x version):
 
@@ -339,7 +339,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
 
    Visual Studio creates a *docker-compose.yml* file and a *.dockerignore* file in the **docker-compose** node in the solution, and that project shows in boldface font, which shows that it's the startup project.
 
-   ![Screenshot of Solution Explorer with Docker-compose project added.](media/tutorial-multicontainer/vs-2022/multicontainer-solution-explorer.png)
+   ![Screenshot of Solution Explorer with Docker Compose project added.](media/tutorial-multicontainer/vs-2022/multicontainer-solution-explorer.png)
 
    The *docker-compose.yml* appears as follows:
 
@@ -358,14 +358,14 @@ Congratulations, you're running a Docker Compose application with a custom Docke
 
    The *.dockerignore* file contains file types and extensions that you don't want Docker to include in the container. These files are generally associated with the development environment and source control, not part of the app or service you're developing.
 
-   Look at the **Container Tools** section of the output pane for details of the commands being run. You can see the command-line tool Docker-compose is used to configure and create the runtime containers.
+   Look at the **Container Tools** section of the output pane for details of the commands being run. You can see the command-line tool `docker-compose` is used to configure and create the runtime containers.
 
 1. In the Web API project, again right-click on the project node, and choose **Add** > **Container Orchestrator Support**. Choose **Docker Compose**, and then select the same target OS.
 
     > [!NOTE]
     > In this step, Visual Studio will offer to create a Dockerfile. If you do this on a project that already has Docker support, you are prompted whether you want to overwrite the existing Dockerfile. If you've made changes in your Dockerfile that you want to keep, choose no.
 
-    Visual Studio makes some changes to your Docker Compose YML file. Now both services are included.
+    Visual Studio makes some changes to your `docker-compose` YML file. Now both services are included.
 
     ```yaml
     version: '3.4'
@@ -384,7 +384,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
           dockerfile: MyWebAPI/Dockerfile
     ```
 
-1. Add the Azure Cache for Redis to the `docker.compose.yml` file:
+1. Add the cache to the `docker-compose.yml` file:
 
    ```yml
    redis:
@@ -393,9 +393,9 @@ Congratulations, you're running a Docker Compose application with a custom Docke
 
    Make sure the indentation is at the same level as the other two services.
 
-1. The first project that you add container orchestration to is set up to be launched when you run or debug. You can configure the launch action in the **Project Properties** for the Docker-compose project. On the Docker-compose project node, right-click to open the context menu, and then choose **Properties**, or use **Alt**+**Enter**. For example, you can change the page that is loaded by customizing the **Service URL** property.
+1. The first project that you add container orchestration to is set up to be launched when you run or debug. You can configure the launch action in the **Project Properties** for the Docker Compose project. On the Docker Compose project node, right-click to open the context menu, and then choose **Properties**, or use **Alt**+**Enter**. For example, you can change the page that is loaded by customizing the **Service URL** property.
 
-   ![Screenshot of Docker-compose project properties.](media/tutorial-multicontainer/launch-action.png)
+   ![Screenshot of Docker Compose project properties.](media/tutorial-multicontainer/launch-action.png)
 
 1. Press **F5**. Here's what you see when launched:
 
@@ -411,7 +411,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
 
 ## Set up launch profiles
 
-1. This solution has an Azure Cache for Redis, but it's not efficient to rebuild the Azure Cache for Redis container every time you start a debugging session. To avoid that situation, you can set up a couple of launch profiles. Create one profile to start the Azure Cache for Redis. Create a second profile to start the other services. The second profile can use the Azure Cache for Redis container that's already running. From the menu bar, you can use the dropdown list next to the start button to open a menu with debugging options. Select **Manage Docker Compose Launch Settings**.
+1. This solution has an Azure Cache for Redis, but it's not efficient to rebuild the cache container every time you start a debugging session. To avoid that situation, you can set up a couple of launch profiles. Create one profile to start the Azure Cache for Redis. Create a second profile to start the other services. The second profile can use the cache container that's already running. From the menu bar, you can use the dropdown list next to the start button to open a menu with debugging options. Select **Manage Docker Compose Launch Settings**.
 
    ![Screenshot of Debug Manage Compose Settings menu item.](media/tutorial-multicontainer/vs-2022/debug-dropdown-manage-compose.png)
 
@@ -429,7 +429,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
 
    (Optional) Create a third profile `Start All` to start everything. You can choose **Start without debugging** for Redis.
 
-1. Choose **Start Redis** from the dropdown list on the main Visual Studio toolbar. The Redis container builds and starts without debugging. You can use the **Containers** window to see that it's running. Next, choose **Start My Services** from the dropdown list and press **F5** to launch them. Now you can keep the Azure Cache for Redis container running throughout many subsequent debug sessions. Every time you use **Start My Services**, those services use the same Azure Cache for Redis container.
+1. Choose **Start Redis** from the dropdown list on the main Visual Studio toolbar. The Redis container builds and starts without debugging. You can use the **Containers** window to see that it's running. Next, choose **Start My Services** from the dropdown list and press **F5** to launch them. Now you can keep the cache container running throughout many subsequent debug sessions. Every time you use **Start My Services**, those services use the same cache container.
 
 Congratulations, you're running a Docker Compose application with a custom Docker Compose profile.
 
