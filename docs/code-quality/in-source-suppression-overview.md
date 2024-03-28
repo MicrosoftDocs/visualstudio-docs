@@ -13,7 +13,7 @@ dev_langs:
 - CSharp
 - VB
 - CPP
-ms.date: 03/27/2024
+ms.date: 03/28/2024
 ---
 
 # Suppress code analysis violations
@@ -99,7 +99,7 @@ To suppress violations with a global suppression file by using the **Error List*
 
    The **Preview Changes** dialog box opens and shows a preview of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute added to the global suppression file.
 
-   ![Screenshot that shows the Preview Changes dialog box with a SuppressMessage attribute in the suppression file.](media/preview-changes-in-suppression-file.png)
+   ![Screenshot that shows the Preview Changes dialog box with a SuppressMessageAttribute attribute in the suppression file.](media/preview-changes-in-suppression-file.png)
 
 1. Select **Apply** to save the global suppression file.
 
@@ -202,7 +202,7 @@ The properties of the attribute include:
 
 - **Target**: An identifier that specifies the target on which the warning is being suppressed. It must contain a fully qualified component name.
 
-When you see warnings in Visual Studio, you can view examples of `SuppressMessage` by [adding a suppression to the global suppression file](../code-quality/use-roslyn-analyzers.md#suppress-violations). The suppression attribute and its required properties appear in a preview window.
+When you see warnings in Visual Studio, you can view examples of `SuppressMessageAttribute` by [adding a suppression to the global suppression file](../code-quality/use-roslyn-analyzers.md#suppress-violations). The suppression attribute and its required properties appear in a preview window.
 
 ### SuppressMessageAttribute usage
 
@@ -267,7 +267,7 @@ End Class
 
 ### Global-level suppressions
 
-The managed code analysis tool examines the `SuppressMessage` attributes that are applied at the assembly, module, type, member, or parameter level. It also submits violations against resources and namespaces. These violations must be applied at the global level and are scoped and targeted. For example, the following message suppresses a namespace violation:
+The managed code analysis tool examines the `SuppressMessageAttribute` attributes that are applied at the assembly, module, type, member, or parameter level. It also submits violations against resources and namespaces. These violations must be applied at the global level and are scoped and targeted. For example, the following message suppresses a namespace violation:
 
 `[module: SuppressMessage("Microsoft.Design", "CA1020:AvoidNamespacesWithFewTypes", Scope = "namespace", Target = "MyNamespace")]`
 
