@@ -14,6 +14,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Walkthrough: Create a dataset for .NET Framework applications using the Dataset Designer
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]

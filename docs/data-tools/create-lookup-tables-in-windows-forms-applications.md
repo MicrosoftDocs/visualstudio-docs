@@ -11,6 +11,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Create lookup tables in .NET Framework Windows Forms applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]

@@ -35,17 +35,18 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Windows Communication Foundation Services and WCF Data Services in Visual Studio
 
 Visual Studio provides tools for working with Windows Communication Foundation (WCF) and WCF Data Services, Microsoft technologies for creating distributed applications. This topic provides an introduction to services from a Visual Studio perspective. For the full documentation, see [WCF Data Services 4.5](/dotnet/framework/data/wcf/index).
 
 ## What Is WCF?
 
-Windows Communication Foundation (WCF) is a unified framework for creating secure, reliable, transacted, and interoperable distributed applications. It replaces older interprocess communication technologies such as ASMX web services, .NET Remoting, Enterprise Services (DCOM), and MSMQ. WCF brings together the functionality of all those technologies under a unified programming model. This simplifies the experience of developing distributed applications.
+Windows Communication Foundation (WCF) is a unified framework for creating secure, reliable, transacted, and interoperable distributed applications. It replaces older interprocess communication technologies such as ASMX web services, .NET Remoting, Enterprise Services (Distributed Component Object Model (DCOM)), and Microsoft Message Queue (MSMQ). WCF brings together the functionality of all those technologies under a unified programming model. This simplifies the experience of developing distributed applications.
 
 ### What are WCF Data Services
 
-WCF Data Services is an implementation of the Open Data (OData) Protocol standard.  WCF Data Services lets you expose tabular data as a set of REST APIs, allowing you to return data using standard HTTP verbs such as GET, POST, PUT, or DELETE. On the server side, WCF Data Services are being superseded by [ASP.NET Web API](https://dotnet.microsoft.com/apps/aspnet/apis) for creating new OData services. The WCF Data Services client library continues to be a good choice for consuming OData services in a .NET application from Visual Studio (**Project** > **Add Service Reference**). For more information, see [WCF Data Services 4.5](/dotnet/framework/data/wcf).
+WCF Data Services is an implementation of the Open Data (Open Data Protocol (OData)) Protocol standard. WCF Data Services lets you expose tabular data as a set of REST APIs, allowing you to return data using standard HTTP verbs such as GET, POST, PUT, or DELETE. On the server side, WCF Data Services are being superseded by [ASP.NET Web API](https://dotnet.microsoft.com/apps/aspnet/apis) for creating new OData services. The WCF Data Services client library continues to be a good choice for consuming OData services in a .NET application from Visual Studio (**Project** > **Add Service Reference**). For more information, see [WCF Data Services 4.5](/dotnet/framework/data/wcf).
 
 ### WCF programming model
 
@@ -56,18 +57,22 @@ The WCF programming model is based on communication between two entities: a WCF 
 A WCF service is based on an interface that defines a contract between the service and the client. It is marked with a <xref:System.ServiceModel.ServiceContractAttribute> attribute, as shown in the following code:
 
 ### [C#](#tab/csharp)
+
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/wcfwalkthrough/cs/iservice1.cs" id="Snippet6":::
 
 ### [VB](#tab/vb)
+
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/iservice1.vb" id="Snippet6":::
 ---
 
 You define functions or methods that are exposed by a WCF service by marking them with a <xref:System.ServiceModel.OperationContractAttribute> attribute.
 
 ### [C#](#tab/csharp)
+
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/wcfwalkthrough/cs/iservice1.cs" id="Snippet1":::
 
 ### [VB](#tab/vb)
+
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/iservice1.vb" id="Snippet1":::
 ---
 
@@ -77,7 +82,7 @@ After an interface and its methods are defined, they are encapsulated in a class
 
 A WCF service is exposed for consumption through what is known as an *endpoint*. The endpoint provides the only way to communicate with the service; you cannot access the service through a direct reference as you would with other classes.
 
-An endpoint consists of an address, a binding, and a contract. The address defines where the service is located; this could be a URL, an FTP address, or a network or local path. A binding defines the way that you communicate with the service. WCF bindings provide a versatile model for specifying a protocol such as HTTP or FTP, a security mechanism such as Windows Authentication or user names and passwords, and much more. A contract includes the operations that are exposed by the WCF service class.
+An endpoint consists of an address, a binding, and a contract. The address defines where the service is located; this could be a URL, a File Transfer Protocol (FTP) address, or a network or local path. A binding defines the way that you communicate with the service. WCF bindings provide a versatile model for specifying a protocol such as HTTP or FTP, a security mechanism such as Windows Authentication or user names and passwords, and much more. A contract includes the operations that are exposed by the WCF service class.
 
 Multiple endpoints can be exposed for a single WCF service. This enables different clients to communicate with the same service in different ways. For example, a banking service might provide one endpoint for employees and another for external customers, each using a different address, binding, and/or contract.
 
@@ -88,9 +93,11 @@ A WCF client consists of a *proxy* that enables an application to communicate wi
 After a WCF client has been created, you reference the service in your code just as you would any other object. For example, to call the `GetData` method shown earlier, you would write code that resembles the following:
 
 ### [C#](#tab/csharp)
+
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/wcfwalkthrough/cs/form1.cs" id="Snippet3":::
 
 ### [VB](#tab/vb)
+
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/form1.vb" id="Snippet3":::
 ---
 
@@ -136,7 +143,7 @@ The **Configure Service References** dialog box enables you to customize the con
 
 ## Select a service endpoint
 
-Some Windows Communication Foundation (WCF) services expose multiple endpoints through which a client may communicate with the service. For example, a service might expose one endpoint that uses an HTTP binding and user name and password security and a second endpoint that uses FTP and Windows Authentication. The first endpoint might be used by applications that access the service from outside a firewall, whereas the second might be used on an intranet.
+Some Windows Communication Foundation (WCF) services expose multiple endpoints through which a client might communicate with the service. For example, a service might expose one endpoint that uses an HTTP binding and user name and password security and a second endpoint that uses FTP and Windows Authentication. The first endpoint might be used by applications that access the service from outside a firewall, whereas the second might be used on an intranet.
 
 In such a case, you can specify the `endpointConfigurationName` as a parameter to the constructor for a service reference.
 
@@ -149,14 +156,17 @@ In such a case, you can specify the `endpointConfigurationName` as a parameter t
 2. In the Code Editor, add a constructor for the service reference:
 
     ### [C#](#tab/csharp)
+
     ```csharp
     ServiceReference.Service1Client proxy = new ServiceReference.Service1Client(
     ```
 
     ### [VB](#tab/vb)
+
     ```vb
     Dim proxy As New ServiceReference.Service1Client(
     ```
+
     ---
 
     > [!NOTE]
@@ -183,7 +193,7 @@ In such a case, you can specify the `endpointConfigurationName` as a parameter t
 
 ## Call a service method asynchronously
 
-Most methods in Windows Communication Foundation (WCF) services may be called either synchronously or asynchronously. Calling a method asynchronously enables your application to continue to work while the method is being called when it operates over a slow connection.
+Most methods in Windows Communication Foundation (WCF) services might be called either synchronously or asynchronously. Calling a method asynchronously enables your application to continue to work while the method is being called when it operates over a slow connection.
 
 By default, when a service reference is added to a project, it is configured to call methods synchronously. You can change the behavior to call methods asynchronously by changing a setting in the **Configure Service Reference** dialog box.
 
@@ -198,7 +208,7 @@ By default, when a service reference is added to a project, it is configured to 
 
 2. On the **Project** menu, click **Configure Service Reference**.
 
-3. In the **Configure Service Reference** dialog box, select the **Generate asynchronous operations** check box.
+3. In the **Configure Service Reference** dialog box, select the **Generate asynchronous operations** checkbox.
 
 ## Bind data returned by a service
 
@@ -214,7 +224,7 @@ You can bind data returned by a Windows Communication Foundation (WCF) service t
 
 3. Expand a node for a type. The data fields for that type appear.
 
-4. Select a field and click the drop-down arrow to display a list of controls that are available for the data type.
+4. Select a field and click the dropdown list arrow to display a list of controls that are available for the data type.
 
 5. Click the type of control to which you want to bind.
 
@@ -228,7 +238,7 @@ You can bind data returned by a Windows Communication Foundation (WCF) service t
 
 2. In the **Data Sources** window, expand the node for your service reference. Any composite types returned by the service display.
 
-3. Select a node for a type and click the drop-down arrow to display a list of available options.
+3. Select a node for a type and click the dropdown list arrow to display a list of available options.
 
 4. Click either **DataGridView** to display the data in a grid or **Details** to display the data in individual controls.
 
@@ -248,7 +258,7 @@ To avoid this problem, types in referenced assemblies are shared by default. If 
 
 3. In the **Configure Service References** dialog box, select **Reuse types in specified referenced assemblies**.
 
-4. Select the check box for each assembly in which you want to enable type sharing. To disable type sharing for an assembly, leave the check box cleared.
+4. Select the checkbox for each assembly in which you want to enable type sharing. To disable type sharing for an assembly, leave the checkbox cleared.
 
 ### To disable type sharing in all assemblies
 
@@ -256,7 +266,7 @@ To avoid this problem, types in referenced assemblies are shared by default. If 
 
 2. On the **Project** menu, click **Configure Service Reference**.
 
-3. In the **Configure Service References** dialog box, clear the **Reuse types in referenced assemblies** check box.
+3. In the **Configure Service References** dialog box, clear the **Reuse types in referenced assemblies** checkbox.
 
 ## Related topics
 

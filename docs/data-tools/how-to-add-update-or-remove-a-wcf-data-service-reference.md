@@ -14,6 +14,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Add, update, or remove a WCF data service reference
 
 For .NET Framework projects, *service reference* enables a project to access one or more WCF Data Services. Use the **Add Service Reference** dialog box to search for WCF Data Services in the current solution, locally, on a local area network, or on the Internet.
@@ -34,10 +35,10 @@ The WCF tools are not installed with the .NET workload; use the Visual Studio In
 
    The **Add Service Reference** dialog box appears.
 
-1. In the **Address** box, enter the URL for the service, and then click **Go** to search for the service. If the service implements user name and password security, you may be prompted for a user name and password. You can also choose a service in your own solution. Choose the **Discover** button, and then choose **Services in Solution**.
+1. In the **Address** box, enter the URL for the service, and then click **Go** to search for the service. If the service implements user name and password security, you might be prompted for a user name and password. You can also choose a service in your own solution. Choose the **Discover** button, and then choose **Services in Solution**.
 
     > [!NOTE]
-    > You should only reference services from a trusted source. Adding references from an untrusted source may compromise security.
+    > You should only reference services from a trusted source. Adding references from an untrusted source might compromise security.
 
      You can also select the URL from the **Address** list, which stores the previous 15 URLs at which valid service metadata was found.
 
@@ -63,10 +64,10 @@ The WCF tools are not installed with the .NET workload; use the Visual Studio In
 
    ![Screenshot of WCF Web Service Provider dialog box](media/vs-2019/configure-wcf-web-service-reference-dialog.png)
 
-1. In the **URI** box, enter the URL for the service, and then click **Go** to search for the service. If the service implements user name and password security, you may be prompted for a user name and password.
+1. In the **URI** box, enter the URL for the service, and then click **Go** to search for the service. If the service implements user name and password security, you might be prompted for a user name and password.
 
     > [!NOTE]
-    > You should only reference services from a trusted source. Adding references from an untrusted source may compromise security.
+    > You should only reference services from a trusted source. Adding references from an untrusted source might compromise security.
 
      You can also select the URL from the **URI** list, which stores the previous 15 URLs at which valid service metadata was found.
 
@@ -100,7 +101,7 @@ The WCF tools are not installed with the .NET workload; use the Visual Studio In
 
 ### To add a reference to a service in the current solution (.NET Core projects)
 
-1. In **Solution Explorer**, double-click or tap the **Connected Services** node. 
+1. In **Solution Explorer**, double-click or tap the **Connected Services** node.
 
    The **Configure Services** tab opens.
 

@@ -9,6 +9,7 @@ ms.subservice: container-tools
 ms.date: 10/27/2021
 ms.author: ghogen
 ---
+
 # Deploy an ASP.NET container to a container registry using Visual Studio
 
 Docker is a lightweight container engine, similar in some ways to a virtual machine, which you can use to host applications and services.
@@ -21,12 +22,12 @@ If you don't have an Azure subscription, create a [free account](https://azure.m
 To complete this tutorial:
 
 ::: moniker range="vs-2019"
-* Install the latest version of [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the "ASP.NET and web development" workload
-* Install [Docker Desktop for Windows](https://docs.docker.com/desktop/windows/install/)
+- Install the latest version of [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the "ASP.NET and web development" workload
+- Install [Docker Desktop for Windows](https://docs.docker.com/desktop/windows/install/)
 ::: moniker-end
 ::: moniker range=">=vs-2022"
-* Install the latest version of [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the "ASP.NET and web development" workload
-* Install [Docker Desktop for Windows](https://docs.docker.com/desktop/windows/install/)
+- Install the latest version of [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the "ASP.NET and web development" workload
+- Install [Docker Desktop for Windows](https://docs.docker.com/desktop/windows/install/)
 :::moniker-end
 
 ## Create an ASP.NET Core web app
@@ -41,15 +42,17 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 ::: moniker-end
 
 ::: moniker range="vs-2019"
+
 ## Publish your container to Azure Container Registry
+
 1. Right-click your project in **Solution Explorer** and choose **Publish**.
 2. On the **Publish** dialog, select **Docker Container Registry**.
 
    ![Screenshot of Publish dialog - choose Docker Container Registry.](media/container-tools/vs-2019/docker-container-registry.png)
 
 3. Choose **Create New Azure Container Registry**.
- 
-   ![Screenshot of Publish dialog - choose Create New Azure Container Registry.](media/container-tools/vs-2019/select-existing-or-create-new-azure-container-registry.png)
+
+   ![Screenshot of Publish dialog - choose Create New Azure container registry.](media/container-tools/vs-2019/select-existing-or-create-new-azure-container-registry.png)
 
 4. Fill in your desired values in the **Azure Container Registry** screen.
 
@@ -69,15 +72,17 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
+
 ## Publish your container to Azure Container Registry
+
 1. Right-click your project in **Solution Explorer** and choose **Publish**.
 2. On the **Publish** dialog, select **Docker Container Registry**.
 
    ![Screenshot of Publish dialog - choose Docker Container Registry.](media/container-tools/vs-2022/docker-container-registry.png)
 
 3. Choose **Create New Azure Container Registry**.
- 
-   ![Screenshot of Publish dialog - choose Create New Azure Container Registry.](media/container-tools/vs-2022/select-existing-or-create-new-azure-container-registry.png)
+
+   ![Screenshot of Publish dialog - choose Create New Azure container registry.](media/container-tools/vs-2022/select-existing-or-create-new-azure-container-registry.png)
 
 4. Fill in your desired values in the **Azure Container Registry** screen.
 
