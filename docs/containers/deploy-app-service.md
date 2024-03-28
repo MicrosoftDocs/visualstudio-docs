@@ -9,6 +9,7 @@ ms.topic: how-to
 ms.date: 10/18/2023
 ms.author: ghogen
 ---
+
 # Deploy an ASP.NET Core container to Azure App Service using Visual Studio
 
 This tutorial walks you through using Visual Studio to publish your containerized ASP.NET Core web application to an [Azure App Service](/azure/app-service). Azure App Service is an appropriate service for a single-container web app hosted in Azure.
@@ -37,7 +38,7 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 1. Give your new application a name (or take the default) and choose **Next**.
 1. Choose the .NET version you want to target. If you're not sure, choose the .NET 8.0 version.
 1. Choose whether or not you want SSL support by using the **Configure for HTTPS** checkbox.
-1. Check the **Enable Docker Support** checkbox.
+1. Select the **Enable Docker Support** checkbox.
 1. Select the container type, and click **Create**.
 
 ## Deploy the container to Azure
@@ -63,7 +64,7 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 
    ![Screenshot showing creating an App Service.](media/deploy-app-service/publish-app-service-windows3.png)
 
-1. You can accept the default hosting plan or change the hosting plan now, or later in the Azure portal. The default is `S1` (small) in one of the supported regions. To create a hosting plan, choose **New** next to the **Hosting Plan** dropdown. The **Hosting Plan** window appears.
+1. You can accept the default hosting plan or change the hosting plan now, or later in the Azure portal. The default is `S1` (small) in one of the supported regions. To create a hosting plan, choose **New** next to the **Hosting Plan** dropdown list. The **Hosting Plan** window appears.
 
    ![Screenshot showing hosting plan options.](media/deploy-app-service/hosting-plan.png)
 
@@ -90,7 +91,7 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 
    ![Screenshot of Publish wizard.](media/deploy-app-service/vs-2022/publish-choices.png)
 
-1. On the **Specific target** tab, choose the appropriate deployment target, such as **Azure App Service Container**. **App Service (Linux)**, or **App Service (Windows)**, depending on your container type. Choose **Azure App Service Container** if you want to deploy your image to Azure Container Registry (ACR).
+1. On the **Specific target** tab, choose the appropriate deployment target, such as **Azure App Service Container**. **App Service (Linux)**, or **App Service (Windows)**, depending on your container type. Choose **Azure App Service Container** if you want to deploy your image to Azure Container Registry.
 
    ![Screenshot of Specific target tab of Publish wizard.](media/deploy-app-service/vs-2022/publish-app-service-container.png)
 
@@ -104,7 +105,7 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 
    ![Screenshot showing creating an App Service.](media/deploy-app-service/vs-2022/publish-app-service-linux-3.png)
 
-1. You can accept the default hosting plan or change the hosting plan now, or later in the Azure portal. The default is `S1` (small) in one of the supported regions. To create a hosting plan, choose **New** next to the **Hosting Plan** dropdown. The **Hosting Plan** window appears.
+1. You can accept the default hosting plan or change the hosting plan now, or later in the Azure portal. The default is `S1` (small) in one of the supported regions. To create a hosting plan, choose **New** next to the **Hosting Plan** dropdown list. The **Hosting Plan** window appears.
 
    ![Screenshot showing hosting plan options.](media/deploy-app-service/vs-2022/hosting-plan.png)
 
@@ -118,7 +119,7 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 
    :::image type="content" source="media/deploy-app-service/vs-2022/publish-succeeded-app-service-container.png" alt-text="Screenshot of publish tab." lightbox="media/deploy-app-service/vs-2022/publish-succeeded-app-service-container.png":::
 
-1. The publishing profile is saved with all the details you selected, such as the resource group and app service. If you chose **Azure App Service Container**, you might be asked to enable the Admin user on the container registry instance.
+1. The publishing profile is saved with all the details you selected, such as the resource group and app service. If you chose **Azure App Service Container**, you might be asked to enable the Admin user on the Container Registry instance.
 
 1. Click on the site link to verify your app works as expected in Azure.
 

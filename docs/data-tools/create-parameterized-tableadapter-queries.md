@@ -18,13 +18,14 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Create parameterized TableAdapter queries in .NET Framework applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 A parameterized query returns data that meets the conditions of a WHERE clause within the query. For example, you can parameterize a customer list to display only customers in a certain city by adding `WHERE City = @City` to the end of the SQL statement that returns a list of customers.
 
-You create parameterized TableAdapter queries in the **Dataset Designer**.You can also create them in a Windows application with the **Parameterize Data Source** command on the **Data** menu. The **Parameterize Data Source** command  creates controls on your form where you can input the parameter values and run the query.
+You create parameterized TableAdapter queries in the **Dataset Designer**.You can also create them in a Windows application with the **Parameterize Data Source** command on the **Data** menu. The **Parameterize Data Source** command creates controls on your form where you can input the parameter values and run the query.
 
 > [!NOTE]
 > When constructing a parameterized query, use the parameter notation that's specific to the database you're coding against. For example, Access and OleDb data sources use the question mark '?' to denote parameters, so the WHERE clause would look like this: `WHERE City = ?`.
@@ -35,7 +36,7 @@ You create parameterized TableAdapter queries in the **Dataset Designer**.You ca
 
 - Create a new TableAdapter, adding a WHERE clause with the desired parameters to the SQL statement. For more information, see [Create and configure TableAdapters](../data-tools/create-and-configure-tableadapters.md).
 
-     -or-
+    or
 
 - Add a query to an existing TableAdapter, adding a WHERE clause with the desired parameters to the SQL statement.
 
@@ -60,7 +61,7 @@ You create parameterized TableAdapter queries in the **Dataset Designer**.You ca
 
 4. Type a name in the **New query name** box if you are creating a new query.
 
-     -or-
+    or
 
      Select a query in the **Existing query name** box.
 
@@ -83,9 +84,11 @@ WHERE (ShippedDate = @ShippedDate) OR (ShippedDate IS NULL)
 If this were a query on a TableAdapter, you could query for all orders that have not been shipped with the following code:
 
 ### [C#](#tab/csharp)
+
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataTableAdapters/CS/Form2.cs" id="Snippet8":::
 
 ### [VB](#tab/vb)
+
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataTableAdapters/VB/Form2.vb" id="Snippet8":::
 ---
 

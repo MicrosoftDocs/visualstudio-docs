@@ -32,8 +32,8 @@ For instructions using Docker with React and ASP.NET Core, see [Use Docker with 
 
 - Visual Studio 2022 version 17.8 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
   If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
-- npm ([https://www.npmjs.com/](https://www.npmjs.com/package/npm)), which is included with Node.js
-- npx ([https://www.npmjs.com/package/npx](https://www.npmjs.com/package/npx))
+- npm ([`https://www.npmjs.com/`](https://www.npmjs.com/package/npm)), which is included with Node.js
+- npx ([`https://www.npmjs.com/package/npx`](https://www.npmjs.com/package/npx))
 
 ## Create the frontend app
 
@@ -74,7 +74,7 @@ For instructions using Docker with React and ASP.NET Core, see [Use Docker with 
    This value prevents opening the web page with the source weather data.
 
    >[!NOTE]
-   > In Visual Studio, *launch.json* stores the startup settings associated with the **Start** button in the Debug toolbar. Currently, *launch.json* must be located under the *.vscode* folder.
+   > In Visual Studio, `launch.json` stores the startup settings associated with the **Start** button in the Debug toolbar. Currently, `launch.json` must be located under the `.vscode` folder.
 
 1. Right-click the solution in Solution Explorer and select **Properties**. Verify that the Startup project settings are set to **Multiple projects**, and that the Action for both projects is set to **Start**.
 
@@ -100,9 +100,9 @@ The React app appears and is populated via the API. If you don't see the app, se
 
 1. Right-click the ASP.NET Core project again and select **Edit Project File**.
 
-   This opens the *.csproj* file for the project.
+   This opens the `.csproj` file for the project.
 
-1. In the *.csproj* file, make sure the project reference includes a `<ReferenceOutputAssembly>` element with the value set to `false`.
+1. In the `.csproj` file, make sure the project reference includes a `<ReferenceOutputAssembly>` element with the value set to `false`.
 
    This reference should look like the following.
 
@@ -148,11 +148,11 @@ If you see this issue, most likely the frontend started before the backend. Once
 
 If the weather data doesn't load correctly, you may also need to verify that your ports are correct.
 
-1. Make sure that the port numbers match. Go to the *launchSettings.json* file in the ASP.NET Core **ReactWithASP.Server** project (in the *Properties* folder). Get the port number from the `applicationUrl` property.
+1. Make sure that the port numbers match. Go to the `launchSettings.json` file in the ASP.NET Core **ReactWithASP.Server** project (in the *Properties* folder). Get the port number from the `applicationUrl` property.
 
    If there are multiple `applicationUrl` properties, look for one using an `https` endpoint. It looks similar to `https://localhost:7183`.
 
-1. Open the *vite.config.js* file for the React project. Update the `target` property to match the `applicationUrl` property in *launchSettings.json*. The updated value looks similar to the following:
+1. Open the `vite.config.js` file for the React project. Update the `target` property to match the `applicationUrl` property in *launchSettings.json*. The updated value looks similar to the following:
 
    ```js
    target: 'https://localhost:7183/',

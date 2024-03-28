@@ -15,6 +15,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Create a .NET Framework Windows Forms user control that supports complex data binding with ADO.NET
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
@@ -114,7 +115,7 @@ Use the **Data Source Configuration** wizard to create a data source based on th
 
 4. On the **Choose your Data Connection** page do one of the following:
 
-   - If a data connection to the Northwind sample database is available in the drop-down list, select it.
+   - If a data connection to the Northwind sample database is available in the dropdown list, select it.
 
    - Select **New Connection** to launch the **Add/Modify Connection** dialog box.
 
@@ -136,11 +137,11 @@ Within the **Data Sources** window, you can set the control to be created prior 
 
 1. Expand the **Customers** node in the **Data Sources** window.
 
-1. Click the drop-down arrow on the **Customers** node, and choose **Customize**.
+1. Click the dropdown list arrow on the **Customers** node, and choose **Customize**.
 
 1. Select the **ComplexDataGridView** from the list of **Associated Controls** in the **Data UI Customization Options** dialog box.
 
-1. Click the drop-down arrow on the `Customers` table, and choose **ComplexDataGridView** from the control list.
+1. Click the dropdown list arrow on the `Customers` table, and choose **ComplexDataGridView** from the control list.
 
 ## Add controls to the form
 

@@ -35,7 +35,7 @@ A user with administrator permissions can install Visual Studio from a network l
 \\server\products\VS\vs_enterprise.exe --quiet --wait 
 ```
 
-If the user ever selects items that _aren't_ available in the layout, then the installer will _try_ to source these additional files from Microsoft hosted servers on the internet. To make sure your installer doesn't try to access the internet when it's installing the product, use the `--noweb` switch.  For example, use this command to run the installation and prevent the client machine from accessing the internet:
+If the user ever selects items that *aren't* available in the layout, then the installer will *try* to source these additional files from Microsoft hosted servers on the internet. To make sure your installer doesn't try to access the internet when it's installing the product, use the `--noweb` switch.  For example, use this command to run the installation and prevent the client machine from accessing the internet:
 
 ```shell
 \\server\products\VS\vs_enterprise.exe --noWeb --wait --passive --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --includeOptional
@@ -108,7 +108,7 @@ Make sure that either the user or system account that's running the installation
 
 You need to make sure that any [offline client machines have the right certificates installed](install-certificates-for-visual-studio-offline.md).
 
-When you install from a layout, the installer on the client always looks for the Visual Studio packages in the layout's location. However, if the installer tries to install components that are _not_ included in the layout, then it will attempt to acquire the Visual Studio packages from the [update source](update-visual-studio.md#configure-source-location-of-updates-1), which administrators often configure to [point back to itself](automated-installation-with-response-file.md#configure-the-response-file-used-when-installing-from-a-layout). 
+When you install from a layout, the installer on the client always looks for the Visual Studio packages in the layout's location. However, if the installer tries to install components that are *not* included in the layout, then it will attempt to acquire the Visual Studio packages from the [update source](update-visual-studio.md#configure-source-location-of-updates-1), which administrators often configure to [point back to itself](automated-installation-with-response-file.md#configure-the-response-file-used-when-installing-from-a-layout). 
 
 If you want to explicitly prevent the Visual Studio Installer from attempting to download any missing content from Microsoft hosted servers on the web, you can use the [`--noWeb` parameter](use-command-line-parameters-to-install-visual-studio.md#layout-command-and-command-line-parameters). If `--noWeb` is used and the layout is missing a component that is selected to be installed, then the setup will fail.  Also, if `--noWeb` is used and the layout is hosted on your intranet web servers as opposed to a file network share, then the setup will fail. 
 

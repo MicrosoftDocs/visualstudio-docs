@@ -22,7 +22,7 @@ Learn about how the Visual Studio editor supports reading and navigating through
 
 ## Syntax colorization, statement completion, and Navigate To support
 
-Features in the Visual Studio editor such as syntax colorization, statement completion (also known as IntelliSense), and _Navigate To_ can help you more easily write, read, and edit your code. The following screenshot shows an example of editing a Perl script in Visual Studio. The syntax is automatically colorized. For example, remarks in the code are colored green, code is black, paths are red, and statements are blue. The Visual Studio editor automatically applies syntax colorization to any language it supports. In addition, when you begin to enter a known language keyword or object, statement completion displays a list of possible statements and objects. Statement completion can help you write code more quickly and easily.
+Features in the Visual Studio editor such as syntax colorization, statement completion (also known as IntelliSense), and *Navigate To* can help you more easily write, read, and edit your code. The following screenshot shows an example of editing a Perl script in Visual Studio. The syntax is automatically colorized. For example, remarks in the code are colored green, code is black, paths are red, and statements are blue. The Visual Studio editor automatically applies syntax colorization to any language it supports. In addition, when you begin to enter a known language keyword or object, statement completion displays a list of possible statements and objects. Statement completion can help you write code more quickly and easily.
 
 ![Syntax colorization in Perl script](../ide/media/vside_perledit.png)
 
@@ -98,7 +98,7 @@ Under this base path, add the following folders if they apply to your situation:
 |Folder Name|Description|
 |-----------------|-----------------|
 |\\*\<language name>*|The language folder. Replace *\<language name>* with the name of the language. For example, *\Matlab*.|
-|*\Syntaxes*|The grammar folder. Contains the grammar *.json* files for the language, such as *Matlab.json*.|
+|*\Syntaxes*|The grammar folder. Contains the grammar `.json` files for the language, such as *Matlab.json*.|
 |*\Snippets*|The snippets folder. Contains snippets for the language.|
 
 In Windows, *%userprofile%* resolves to the path: *c:\Users\\\<user name>*. If the *Extensions* folder does not exist on your system, you will need to create it. If the folder already exists, it will be hidden.

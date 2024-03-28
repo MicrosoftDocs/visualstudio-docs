@@ -25,6 +25,9 @@
       "stopAt": 200,
       "include": [
         "docs/"
+      ],
+      "exclude": [
+        "toc.yml"
       ]
     },
     {
