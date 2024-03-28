@@ -46,7 +46,7 @@ In Step 1 of the tutorial, you learn how to:
 
 ::: moniker-end
 
-Django project templates in Visual Studio are included with all earlier versions of Python Tools for Visual Studio. The template details might differ from the descriptions in this tutorial, especially for earlier versions of the Django web framework.
+Django project templates in Visual Studio are included with all earlier versions of Python Tools for Visual Studio. The template details might differ from the descriptions in this tutorial series, especially for earlier versions of the Django web framework.
 
 Python development isn't currently supported in Visual Studio for Mac. On Mac and Linux, use the [Python extension in Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial) tutorial.
 
@@ -56,13 +56,13 @@ In Django terminology, a _Django project_ has several site-level configuration f
 
 A Visual Studio project can contain the Django project along with multiple apps. In this tutorial series, the term "project" refers to the Visual Studio project. When the content refers to the "Django project" portion of the web application, it's referring to a "Django project" specifically.
 
-## Create a Visual Studio project and solution
+## Create Visual Studio project and solution
 
-In Step 1 of this tutorial, you create a single Visual Studio solution to contain three separate Django projects. Each project contains a single Django app. You create the projects by using different Django project templates included with Visual Studio. By keeping the projects in the same solution, you can easily switch back and forth between different files for comparison.
+In Step 1 of this tutorial series, you create a single Visual Studio solution to contain multiple Django projects. Each project contains a single Django app. You create the projects by using different Django project templates included with Visual Studio. By keeping the projects in the same solution, you can easily switch back and forth between different files for comparison.
 
 When you work with Django from the command line, you usually start a project by running the `django-admin startproject <project_name>` command. In Visual Studio, the **Blank Django Web Project** template provides the same structure within a Visual Studio project and solution.
 
-Follow this procedure to create the solution and first project:
+Follow this procedure to create the solution and project:
 
 ::: moniker range="vs-2022"
 
@@ -199,9 +199,9 @@ Because you selected the **Create new Git repository** option in the **New Proje
 
 ::: moniker-end
 
-As you work through this tutorial, get into the habit of periodically using the Git controls in Visual Studio to commit and push changes. This tutorial reminds you at the appropriate points.
+As you work through this tutorial series, get into the habit of periodically using the Git controls in Visual Studio to commit and push changes. The tutorial Steps remind you at the appropriate points.
 
-### Use source control from the start
+### Use source control from beginning
 
 There are several advantages to using source control from the beginning of a project. When you use source control from the start of a project, especially if you also use a remote repository, you gain regular offsite backup of your project. Unlike maintaining a project just on a local file system, source control also provides a complete change history and the easy ability to revert a single file or the whole project to a previous state. The change history helps determine the cause of regressions (test failures). 
 
@@ -323,7 +323,7 @@ You can remove a virtual environment after it's under source control. Follow the
 
 1. Commit your changes with the `git commit -m 'Remove venv'` command, or commit them from the **Changes** page of **Team Explorer**.
 
-## Examine the boilerplate code
+## Examine boilerplate code
 
 In this section, you examine the boilerplate code in the Project file (_.py_) that Visual Studio creates based on your template selection.
 

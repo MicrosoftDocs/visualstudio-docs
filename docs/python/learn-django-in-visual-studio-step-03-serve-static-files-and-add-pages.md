@@ -16,7 +16,7 @@ ms.subservice: python
 
 This article presents Step 3 in the tutorial series _Work with the Django web framework in Visual Studio_.
 
-The previous Steps in this tutorial series create a minimal Django app with a single page of self-contained HTML. Modern web apps are typically composed of many pages, and use shared resources like CSS and JavaScript files to provide consistent styling and behavior. In Step 3, you work with Visual Studio item templates to add content to your Django project and expand the capabilities of the application.
+The previous Step in this tutorial series creates a minimal Django app with a single page of self-contained HTML. Modern web apps are typically composed of many pages, and use shared resources like CSS and JavaScript files to provide consistent styling and behavior. In Step 3, you work with Visual Studio item templates to add content to your Django project and expand the capabilities of the application.
 
 In Step 3 of the tutorial, you learn how to:
 
@@ -28,7 +28,9 @@ In Step 3 of the tutorial, you learn how to:
 
 ## Prerequisites
 
-- A Visual Studio solution and Django application project created in [Step 1: Create the Django project](learn-django-in-visual-studio-step-01-project-and-solution.md) and updated in [Step 2: Create a Django app with views and page templates](learn-django-in-visual-studio-step-02-create-an-app.md).
+- A Visual Studio solution and Django application projects created in [Step 1: Create the Django project](learn-django-in-visual-studio-step-01-project-and-solution.md) and updated in [Step 2: Create a Django app with views and page templates](learn-django-in-visual-studio-step-02-create-an-app.md) of this tutorial series.
+
+Django project templates in Visual Studio are included with all earlier versions of Python Tools for Visual Studio. The template details might differ from the descriptions in this tutorial series, especially for earlier versions of the Django web framework.
 
 ## Explore item templates in Visual Studio
 
@@ -74,7 +76,7 @@ STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))
 
 You can organize the files within the app's _static_ folder by using any folder structure you like, and use relative paths within the _static_ folder to refer to the files. 
 
-### Use static CSS file in a template
+### Use static CSS file in HTML template
 
 Follow these steps to add a CSS file to the app, then use the CSS stylesheet in the _index.html_ template:
 
@@ -120,11 +122,11 @@ Follow these steps to add a CSS file to the app, then use the CSS stylesheet in 
 
 1. (Optional) You can commit your changes to source control and update your remote repository. For more information, see [Commit changes to source control](learn-django-in-visual-studio-step-02-create-an-app.md#commit-changes-to-source-control) in Step 2 of this tutorial series.
 
-### Use the {% load static %} tag
+### Use {% load static %} tag
 
 The `{% load static %}` statement must be present in the _index.html_ file before site relative references to static files in HTML elements like `<head>` and `<body>`. In the example shown in this section, "static files" refers to a custom Django template tag set. The tag set allows you to use the `{% static %}` syntax to refer to static files. Without the `{% load static %}` tag, you see an exception when the app runs.
 
-### Work without the {% load static %} tag
+### Add references without {% load static %} tag
 
 You can also set up site relative references to static files in the HTML markup without using the `{% load static %}` tag. In this case, you specify the location of the _static_ folder within the Django project folder hierarchy:
 
@@ -144,7 +146,7 @@ You can also set up site relative references to static files in the HTML markup 
 
 You can add other CSS, JavaScript, and HTML files in your _static_ folder according to your project needs. A typical way to organize static files is to create subfolders named _fonts_, _scripts_, and _content_ (for stylesheets and any other files). In each case, remember to include the folders in the relative file path in the `{% static %}` references.
 
-## Add page to the Django application
+## Add page to Django application
 
 Adding another page to the Django application involves the following tasks:
 
@@ -216,7 +218,7 @@ Follow these steps to add an About (`/about`) page to the _HelloDjangoApp_ proje
 
 1. When you're done, stop the app.
 
-### Route to the "index" page
+### Route to "index" page
 
 If you try to browse to the `/index` page for your running app, you see a **Page not found (404)** error.
 

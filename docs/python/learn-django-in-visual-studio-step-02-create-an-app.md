@@ -16,7 +16,7 @@ ms.subservice: python
 
 This article presents Step 2 in the tutorial series _Work with the Django web framework in Visual Studio_.
 
-Visual Studio allows you to create Django applications from project templates that provide a more extensive starting point for your projects. [Step 1 in the tutorial](learn-django-in-visual-studio-step-01-project-and-solution.md) describes how to create the site-level configuration files for a Django web project to support one or more Django web apps. In Step 2, you add content to your Django web project to create your first Django web app with a single page with multiple rendered views.
+Visual Studio allows you to create Django applications from project templates that provide a more extensive starting point for your projects. [Step 1 in the tutorial series](learn-django-in-visual-studio-step-01-project-and-solution.md) describes how to create the site-level configuration files for a Django web project to support one or more Django web apps. In Step 2, you add content to your Django web project to create your first Django web app with a single page with multiple rendered views.
 
 In Step 2 of the tutorial, you learn how to:
 
@@ -30,7 +30,7 @@ In Step 2 of the tutorial, you learn how to:
 
 - A Visual Studio solution and Django project created in [Step 1: Create Visual Studio solution and Django project](learn-django-in-visual-studio-step-01-project-and-solution.md).
 
-Django project templates in Visual Studio are included with all earlier versions of Python Tools for Visual Studio. The template details might differ from the descriptions in this tutorial, especially for earlier versions of the Django web framework.
+Django project templates in Visual Studio are included with all earlier versions of Python Tools for Visual Studio. The template details might differ from the descriptions in this tutorial series, especially for earlier versions of the Django web framework.
 
 Python development isn't currently supported in Visual Studio for Mac. On Mac and Linux, use the [Python extension in Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial) tutorial.
 
@@ -46,7 +46,7 @@ A Django app is a separate Python package that contains a set of related files f
 
 Development of a Django app usually begins with a standard set of files. Visual Studio provides templates to initialize a Django app with these files within a Django project. There's also an integrated menu command that serves the same purpose.
 
-### Use a template to create the app
+### Use template to create app
 
 Follow these steps to create the app from a template:
 
@@ -80,7 +80,7 @@ Follow these steps to create the app from a template:
 
    ::: moniker-end
 
-### Use the integrated menu command to create the app
+### Use integrated menu command to create app
 
 Follow these steps to create the app by using the integrated Django menu command:
 
