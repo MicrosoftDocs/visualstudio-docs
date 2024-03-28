@@ -28,12 +28,12 @@ In this tutorial, you learn how to:
 ## Prerequisites
 
 ::: moniker range="vs-2019"
-You need Visual Studio to complete this tutorial.
-Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/) for a free version.
+- You need Visual Studio to complete this tutorial. Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/) for a free version.
+- The **.NET desktop development** workload. To verify or install this workload in Visual Studio, select **Tools** > **Get Tools and Features**. For more information, see [Change workloads or individual components](../install/modify-visual-studio.md#change-workloads-or-individual-components).
 ::: moniker-end
 ::: moniker range=">=vs-2022"
-You need Visual Studio to complete this tutorial.
-Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) for a free version.
+- You need Visual Studio to complete this tutorial. Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) for a free version.
+- The **.NET desktop development** workload. To verify or install this workload in Visual Studio, select **Tools** > **Get Tools and Features**. For more information, see [Change workloads or individual components](../install/modify-visual-studio.md#change-workloads-or-individual-components).
 ::: moniker-end
 
 ## Create a project
@@ -44,7 +44,7 @@ The project type comes with all the template files that you need.
 ::: moniker range="vs-2019"
 1. Open Visual Studio.
 
-1. On the start window, choose **Create a new project**.
+1. On the start window, select **Create a new project**.
 
    :::image type="content" source="../get-started/media/vs-2019/create-new-project-dark-theme.png" alt-text="Screenshot shows the Visual Studio 2019 start window with Create a new project selected.":::
 
@@ -52,21 +52,9 @@ The project type comes with all the template files that you need.
 
    You can refine your search to quickly get to the template you want.
    For example, enter *Windows Forms App* in the search box.
-   Next, select **Visual Basic** from the **Language** list, and then **Windows** from the **Platform** list.  
+   Next, select **Visual Basic** from the languages list, and then **Windows** from the platform list.  
 
-   :::image type="content" source="../get-started/visual-basic/media/vs-2019/vb-create-new-project-search-winforms-filtered.png" alt-text="Screenshot shows the Create a new project window with Windows Forms App (.NET Framework) selected.":::
-
-   > [!NOTE]
-   > If you don't see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window.
-   > In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
-   >
-   > :::image type="content" source="../get-started/media/vs-2019/not-finding-what-looking-for.png" alt-text="Screenshot shows the 'Install more tools and features' link from the 'Not finding what you're looking for' message.":::
-   >
-   > Next, in the Visual Studio Installer, choose the **.NET desktop development** workload.
-   >
-   > :::image type="content" source="../ide/media/install-dot-net-desktop-env.png" alt-text="Screenshot shows the .NET Core workload selected in the Visual Studio Installer.":::
-   >
-   > After that, select **Modify** in the Visual Studio Installer. You might be prompted to save your work.
+   :::image type="content" source="../get-started/visual-basic/media/vs-2019/vb-create-new-project-search-winforms-filtered.png" alt-text="Screenshot shows the Create a new project window with Windows Forms App (.NET Framework) selected." lightbox="../get-started/visual-basic/media/vs-2019/vb-create-new-project-search-winforms-filtered.png":::
 
 1. In the **Configure your new project** window, enter *HelloWorld* as the **Project name**. Then, select **Create**.
 
@@ -87,21 +75,9 @@ The project type comes with all the template files that you need.
 
    You can refine your search to quickly get to the template you want.
    For example, enter *Windows Forms App* in the search box.
-   Next, select **Visual Basic** from the **Language** list, and then **Windows** from the **Platform** list.  
+   Next, select **Visual Basic** from the language list, and then **Windows** from the platform list.  
 
-   :::image type="content" source="../get-started/visual-basic/media/vs-2022/vb-create-new-project-search-winforms-filtered.png" alt-text="Screenshot shows the Create a new project window with Windows Forms App (.NET Framework) selected.":::
-
-   > [!NOTE]
-   > If you don't see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window.
-   > In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
-   >
-   > :::image type="content" source="../get-started/media/vs-2019/not-finding-what-looking-for.png" alt-text="Screenshot shows the 'Install more tools and features' link from the 'Not finding what you're looking for' message.":::
-   >
-   > Next, in the Visual Studio Installer, choose the **.NET desktop development** workload.
-   >
-   > :::image type="content" source="../ide/media/install-dot-net-desktop-env.png" alt-text="Screenshot shows the .NET Core workload selected in the Visual Studio Installer.":::
-   >
-   > After that, select **Modify** in the Visual Studio Installer. You might be prompted to save your work.
+   :::image type="content" source="../get-started/visual-basic/media/vs-2022/vb-create-new-project-search-winforms-filtered.png" alt-text="Screenshot shows the Create a new project window with Windows Forms App (.NET Framework) selected." lightbox="../get-started/visual-basic/media/vs-2022/vb-create-new-project-search-winforms-filtered.png":::
 
 1. In the **Configure your new project** window, enter *HelloWorld* as the **Project name**. Then, select **Create**.
 
@@ -115,7 +91,7 @@ The project type comes with all the template files that you need.
 
 After you select your Visual Basic project template and name your file, Visual Studio opens a form for you.
 A form is a Windows user interface.
-You create a "Hello World" application by adding controls to the form.
+You create a *Hello World* application by adding controls to the form.
 
 1. On the left side of the Visual Studio IDE, select the **Toolbox** tab.
    If you don't see it, select **View** > **Toolbox** from the menu bar or **Ctrl**+**Alt**+**X**.
@@ -128,13 +104,13 @@ You create a "Hello World" application by adding controls to the form.
 
    :::image type="content" source="media/create-a-visual-basic-winform-in-visual-studio/toolbox-button-form.png" alt-text="Screenshot shows the Button control added to the form.":::
 
-1. In the **Appearance** section of the **Properties** window, for **Text**, type *Click this*, and then press **Enter**.
+1. In the **Appearance** section of the **Properties** window, for **Text**, type *Click this*, and then select **Enter**.
 
    :::image type="content" source="media/create-a-visual-basic-winform-in-visual-studio/button-text-property.png" alt-text="Screenshot shows the Text property with the value Click this.":::
 
-   If you don't see the **Properties** window, you can open it from the menu bar. Select **View** > **Properties Window** or press **F4**.
+   If you don't see the **Properties** window, you can open it from the menu bar. Select **View** > **Properties Window** or **F4**.
 
-1. In the **Design** section of the **Properties** window, change the name from **Button1** to *btnClickThis*, and then press **Enter**.
+1. In the **Design** section of the **Properties** window, change the name from **Button1** to *btnClickThis*, and then select **Enter**.
 
    :::image type="content" source="media/create-a-visual-basic-winform-in-visual-studio/button-name-property.png" alt-text="Screenshot shows the Name property with a value of btnClickThis.":::
 
@@ -154,7 +130,7 @@ After you add a button control to create an action, add a label control to send 
 
    Another option is to expand **Form1.vb** in **Solution Explorer**. Then select **Form1**.
 
-1. In the **Form1.vb** window, between the **Private Sub** and **End Sub** lines, enter *lblHelloWorld.Text = "Hello World!"* as shown in the following screenshot:
+1. In the **Form1.vb** window, between the `Private Sub` and `End Sub` lines, enter *lblHelloWorld.Text = "Hello World!"* as shown in the following screenshot:
 
      :::image type="content" source="media/create-a-visual-basic-winform-in-visual-studio/click-handle-code-visual-basic.png" alt-text="Screenshot shows a class in the Form1.vs tab where you can add Visual Basic code.":::
 
@@ -179,14 +155,14 @@ Your application is ready to build and run.
 
 1. Close the **Form1** dialog box to stop running the app.
 
-## Next step
+## Related content
 
 To learn more about Windows Forms, continue with the following tutorial:
 
 > [!div class="nextstepaction"]
 > [Tutorial: Create a picture viewer](tutorial-windows-forms-picture-viewer-layout.md)
 
-## See also
+Or try these other tutorials:
 
 - [Visual Basic tutorials](../get-started/visual-basic/index.yml)
 - [C# tutorials](../get-started/csharp/index.yml)
