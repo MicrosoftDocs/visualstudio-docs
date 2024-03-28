@@ -2,7 +2,7 @@
 title: Container Tools in Visual Studio
 metadata:
   title: Docker container development tools documentation
-  description: 'Learn how to build and manage container-based apps and services. Get documentation, example code, tutorials, and more.'
+  description: Learn how to build and manage container-based apps and services. Get documentation, example code, tutorials, and more.
   author: ghogen
   manager: mijacobs
   ms.subservice: container-tools
@@ -13,8 +13,11 @@ metadata:
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
 landingContent:
+
 # Cards and links should be based on top customer tasks or top subjects
+
 # Start card title with a verb
+
   # Card (optional)
   - title: Container Tools
     linkLists:
@@ -60,13 +63,13 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: 'Use the Containers window'
+          - text: Use the Containers window
             url: view-and-diagnose-containers.md
-          - text: 'Launch a subset of your Compose services'
+          - text: Launch a subset of your Compose services
             url: launch-profiles.md
-          - text: 'Configure the build and debug environment'
+          - text: Configure the build and debug environment
             url: container-build.md
-          - text: 'Troubleshoot container development tools'
+          - text: Troubleshoot container development tools
             url: troubleshooting-docker-errors.md
 
   - title: Container tools settings

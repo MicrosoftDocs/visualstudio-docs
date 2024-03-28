@@ -8,6 +8,7 @@ ms.date: 10/27/2021
 ms.subservice: container-tools
 monikerRange: ">=vs-2019"
 ---
+
 # Use the Containers window
 
 You can view what's going on inside the containers that host your app by using the **Containers** window. If you're used to using the command prompt to run Docker commands to view and diagnose what's going on with your containers, this window provides a more convenient way to monitor your containers without leaving the Visual Studio IDE.
@@ -30,7 +31,7 @@ You can also view information about container images using the **Containers** wi
 
 ## View information about your containers
 
-The **Containers** window opens automatically when you start a containerized .NET project. To view your containers in Visual Studio at any time, use **Ctrl**+**Q** to activate the Visual Studio Search box, and type `Containers` and choose the first item. You can also open the **Containers** window from the main menu. Use the menu path  **View** > **Other Windows** > **Containers**.  
+The **Containers** window opens automatically when you start a containerized .NET project. To view your containers in Visual Studio at any time, use **Ctrl**+**Q** to activate the Visual Studio Search box, and type `Containers` and choose the first item. You can also open the **Containers** window from the main menu. Use the menu path **View** > **Other Windows** > **Containers**.
 
 :::moniker range="vs-2019"
 ![Screenshot of the Containers window in Visual Studio with a container selected in the left pane, and the Environment tab selected in the right pane.](media/view-and-diagnose-containers/container-window.png)
@@ -100,7 +101,7 @@ The **Volumes** tab shows the volumes (mounted filesystem nodes) on the containe
 
 ## View logs
 
-The **Logs** tab shows the results of the `docker logs` command. By default, the tab shows stdout and stderr streams on a container, but you can configure the output. For details, see [Docker logging](https://docs.docker.com/config/containers/logging/).  By default, the **Logs** tab streams the logs, but you can pause that by choosing the **Stream** button on the tab. If you select **Stream** again, the streaming resumes from where it left off.
+The **Logs** tab shows the results of the `docker logs` command. By default, the tab shows stdout and stderr streams on a container, but you can configure the output. For details, see [Docker logging](https://docs.docker.com/config/containers/logging/). By default, the **Logs** tab streams the logs, but you can pause that by choosing the **Stream** button on the tab. If you select **Stream** again, the streaming resumes from where it left off.
 
 :::moniker range="vs-2019"
 ![Screenshot of Logs tab in Containers window.](media/view-and-diagnose-containers/containers-logs.png)
@@ -109,7 +110,7 @@ The **Logs** tab shows the results of the `docker logs` command. By default, the
 ![Screenshot of Logs tab in Containers window.](media/view-and-diagnose-containers/vs-2022/containers-logs.png)
 :::moniker-end
 
-To clear the logs, use the **Clear** button on the **Logs** tab.  To get all the logs, use the **Refresh** button.
+To clear the logs, use the **Clear** button on the **Logs** tab. To get all the logs, use the **Refresh** button.
 
 > [!NOTE]
 > Visual Studio automatically redirects stdout and stderr to the **Output** window when you run without debugging with Windows containers, so Windows containers started from Visual Studio using **Ctrl**+**F5** will not display logs in this tab; use the **Output** window instead.
@@ -148,7 +149,7 @@ In Visual Studio 2022 version 17.7 or later, when targeting .NET 8 or later, the
 
 ## Start, stop, and remove containers
 
-By default, the **Containers** window shows all containers on the machine that Docker manages. You can use the toolbar buttons to start, stop, or remove (delete) a container you no longer want.  This list is dynamically updated as containers are created or removed.
+By default, the **Containers** window shows all containers on the machine that Docker manages. You can use the toolbar buttons to start, stop, or remove (delete) a container you no longer want. This list is dynamically updated as containers are created or removed.
 
 To select multiple containers, for example, to remove more than one at a time, use **Ctrl+Click**. If you try to start more than 10 containers, you are prompted to confirm this. You can disable the confirmation prompt if desired.
 
@@ -163,13 +164,13 @@ You can open a terminal window (command prompt or interactive shell) in the cont
 ![Screenshot of Open Terminal Window in the Containers window.](media/view-and-diagnose-containers/vs-2022/containers-open-terminal-window.png)
 :::moniker-end
 
-For Windows containers, the Windows command prompt opens. For Linux containers, it opens a window using the bash shell.
+For Windows containers, the Windows command prompt opens. For Linux containers, it opens a window using the Bash shell.
 
 :::moniker range="vs-2019"
-![Screenshot of bash window.](media/view-and-diagnose-containers/container-bash-window.png)
+![Screenshot of Bash window.](media/view-and-diagnose-containers/container-bash-window.png)
 :::moniker-end
 :::moniker range=">=vs-2022"
-![Screenshot of bash window.](media/view-and-diagnose-containers/vs-2022/container-bash-window.png)
+![Screenshot of Bash window.](media/view-and-diagnose-containers/vs-2022/container-bash-window.png)
 :::moniker-end
 
 :::moniker range=">=vs-2022"
@@ -180,7 +181,7 @@ Normally, the terminal window opens outside Visual Studio as a separate window. 
 
 ## Attach the debugger to a process
 
-You can attach the debugger to a process that is running in the container by using the **Attach to Process** button on the Containers window toolbar. When you use this button, the **Attach to Process** dialog appears and shows the available processes that are running in the container.  
+You can attach the debugger to a process that is running in the container by using the **Attach to Process** button on the Containers window toolbar. When you use this button, the **Attach to Process** dialog appears and shows the available processes that are running in the container.
 
 :::moniker range="vs-2019"
 ![Screenshot of Attach to Process dialog box.](media/view-and-diagnose-containers/containers-attach-to-process.jpg)
@@ -230,7 +231,7 @@ When the **Images** tab is selected, the **Prune** button will ask if you want t
 
 ## Configuration options
 
-The confirmation dialogs for various tasks, such as removing containers and images, or launching more than 10 containers at a time, may be configured. You can disable each prompt by using the checkbox on the dialog. You can also enable or disable these options by using the settings at **Tools** > **Options** > **Container Tools** > **Containers Tool Window**. See [Configure Container Tools](container-tools-configure.md).
+The confirmation dialogs for various tasks, such as removing containers and images, or launching more than 10 containers at a time, might be configured. You can disable each prompt by using the checkbox on the dialog. You can also enable or disable these options by using the settings at **Tools** > **Options** > **Container Tools** > **Containers Tool Window**. See [Configure Container Tools](container-tools-configure.md).
 
 ## Related content
 

@@ -19,6 +19,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Filter and sort data in a .NET Framework Windows Forms application
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
