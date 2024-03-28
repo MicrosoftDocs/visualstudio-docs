@@ -67,7 +67,7 @@ Like other objects, LINQ to SQL classes can use inheritance and be derived from 
 
 ## LINQ to SQL queries
 
-The entity classes created by the **O/R Designer** are designed for use with [Language-integrated query (LINQ)](/dotnet/csharp/linq/). For more information, see [How to: Query for information](/dotnet/framework/data/adonet/sql/linq/how-to-query-for-information).
+The entity classes created by the **O/R Designer** are designed for use with [language-integrated query (LINQ)](/dotnet/csharp/linq/). For more information, see [How to: Query for information](/dotnet/framework/data/adonet/sql/linq/how-to-query-for-information).
 
 ## Separate the generated DataContext and entity class code into different namespaces
 
