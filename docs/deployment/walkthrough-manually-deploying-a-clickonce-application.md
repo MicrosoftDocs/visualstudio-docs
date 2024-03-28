@@ -47,7 +47,7 @@ If you cannot use Visual Studio to deploy your ClickOnce application, or you nee
 
 - Obtain an Authenticode certificate.
 
-   You should sign your deployment with an Authenticode certificate. You can generate a test certificate by using Visual Studio, *MageUI.exe*, or `MakeCert.exe` and *Pvk2Pfx.exe* tools, or you can obtain a certificate from a Certificate Authority (CA). If you choose to use Trusted Application Deployment, you must also perform a one-time installation of the certificate onto all client computers. For more information, see [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md).
+   You should sign your deployment with an Authenticode certificate. You can generate a test certificate by using Visual Studio, `MageUI.exe`, or `MakeCert.exe` and `Pvk2Pfx.exe` tools, or you can obtain a certificate from a Certificate Authority (CA). If you choose to use Trusted Application Deployment, you must also perform a one-time installation of the certificate onto all client computers. For more information, see [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md).
 
   > [!NOTE]
   > You can also sign your deployment with a CNG certificate that you can obtain from a Certificate Authority.
