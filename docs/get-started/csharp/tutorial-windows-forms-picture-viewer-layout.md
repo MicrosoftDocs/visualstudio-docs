@@ -25,7 +25,7 @@ In this first tutorial, you learn how to:
 
 - You need Visual Studio to complete this tutorial.
 Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/) for a free version.
-- The **.NET desktop development** workload. To verify or install this workload in Visual Studio, select **Tools** > **Get Tools and Features**. For more information, see [Change workloads or individual components](../install/modify-visual-studio.md#change-workloads-or-individual-components).
+- The **.NET desktop development** workload. To verify or install this workload in Visual Studio, select **Tools** > **Get Tools and Features**. For more information, see [Change workloads or individual components](../../install/modify-visual-studio.md#change-workloads-or-individual-components).
 
 ## Create your Windows Forms project
 
@@ -42,7 +42,7 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
 
 1. Select the **Windows Forms App (.NET Framework)** template for either C# or Visual Basic, and then select **Next**.
 
-   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/create-project-windows-forms-2019.png" alt-text="Screenshot shows the Create a new project dialog box with Windows Forms entered and options for Windows Forms App in Visual Studio 2019.":::
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/create-project-windows-forms-2019.png" alt-text="Screenshot shows the Create a new project dialog box with Windows Forms entered and options for Windows Forms App in Visual Studio 2019." lightbox="../media/tutorial-windows-forms-picture-viewer-layout/create-project-windows-forms-2019.png":::
 
 1. In the **Configure your new project** window, name your project *PictureViewer*, then select **Create**.
 
@@ -61,7 +61,7 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
 
 1. Select the **Windows Forms App (.NET Framework)** template for either C# or Visual Basic, and then select **Next**.
 
-   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/create-project-windows-forms.png" alt-text="Screenshot shows the Create a new project dialog box with Windows Forms entered and options for Windows Forms App.":::
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/create-project-windows-forms.png" alt-text="Screenshot shows the Create a new project dialog box with Windows Forms entered and options for Windows Forms App." lightbox="../media/tutorial-windows-forms-picture-viewer-layout/create-project-windows-forms.png":::
 
 1. In the **Configure your new project** window, name your project *PictureViewer*, then select **Create**.
 
@@ -76,7 +76,7 @@ At this point, Visual Studio displays an empty form in the **Windows Form Design
 
 ## Add a layout element
 
-Your picture viewing app contains a picture box, a checkbox, and four buttons, which you'll add in [the next tutorial](tutorial-windows-forms-picture-viewer-controls.md).
+Your picture viewing app contains a picture box, a checkbox, and four buttons, which you add in [the next tutorial](tutorial-windows-forms-picture-viewer-controls.md).
 The layout element controls their location on the form.
 This section shows you how to change the title of your form, resize the form, and add a layout element.
 
