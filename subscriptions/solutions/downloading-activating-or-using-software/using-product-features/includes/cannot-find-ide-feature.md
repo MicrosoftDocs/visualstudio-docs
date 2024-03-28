@@ -34,6 +34,6 @@ If you purchased your subscription, or don't have an admin, you need to purchase
 Given the size and complexity of many organizations, you may not be aware of who your admin is, but there's a feature in the subscriptions portal to assist you with contacting your admin. 
 
 1. Sign in to the [subscriptions portal](https://my.visualstudio.com/benefits).  
-1. Select the Contact my Admin button at the top right. 
+1. Select the Contact my Admin button at the top right. 
 1. Enter the message for your admin. 
-1. If you'd like to receive a copy of the message sent to your admin, select the Send me a copy checkbox. Finally, select **Send**.
+1. If you'd like to receive a copy of the message sent to your admin, select the Send me a copy checkbox. Finally, select **Send**.

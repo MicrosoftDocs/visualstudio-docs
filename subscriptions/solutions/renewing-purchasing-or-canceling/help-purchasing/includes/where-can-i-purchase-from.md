@@ -15,9 +15,9 @@ sap.id: c374762c-640b-8b2c-d049-bda9545e903c
 
 ## Where to purchase subscriptions 
 
-Visual Studio subscriptions are available for purchase through various channels, including [Volume Licensing](https://www.microsoft.com/licensing/default), the [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions), and [Microsoft Store](https://www.microsoft.com/store/collections/visualstudio).  
+Visual Studio subscriptions are available for purchase through various channels, including [Volume Licensing](https://www.microsoft.com/licensing/default), the [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions), and [Microsoft Store](https://www.microsoft.com/store/collections/visualstudio).  
 
-[Compare subscription benefits and pricing](https://visualstudio.microsoft.com/vs/pricing/) to understand the benefits of each Visual Studio subscription. 
+[Compare subscription benefits and pricing](https://visualstudio.microsoft.com/vs/pricing/) to understand the benefits of each Visual Studio subscription. 
 
 Check out the subscription benefits page for more help deciding which subscription is right for you.   
 

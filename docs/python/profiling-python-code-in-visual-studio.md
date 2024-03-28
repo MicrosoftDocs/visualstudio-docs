@@ -34,6 +34,6 @@ When you select **OK**, the profiler runs and opens a performance report through
 
 Because IronPython isn't a CPython-based interpreter, the profiling feature doesn't work.
 
-Instead, use the Visual Studio .NET profiler by launching _ipy.exe_ directly as the target application, using the appropriate arguments to launch your startup script. Include `-X:Debug` on the command line to ensure that all of your Python code can be debugged and profiled. This argument generates a performance report including time spent in the IronPython runtime and your code. Your code is identified using mangled names.
+Instead, use the Visual Studio .NET profiler by launching `ipy.exe` directly as the target application, using the appropriate arguments to launch your startup script. Include `-X:Debug` on the command line to ensure that all of your Python code can be debugged and profiled. This argument generates a performance report including time spent in the IronPython runtime and your code. Your code is identified using mangled names.
 
 Alternately, IronPython has some of its own built-in profiling, but there's currently no good visualizer for it. See [An IronPython Profiler](/archive/blogs/curth/an-ironpython-profiler) (MSDN blogs) for what's available.

@@ -57,9 +57,9 @@ sections:
         answer: |
           The build errors get reported to the Output window when the Live Unit Testing drop-down is selected. There are a few common issues caused by incorrect configuration  in the [setup wizard](../test/live-unit-testing.md#configure) that can cause build issues in Live Unit Testing.
           
-          -	If the [Workspace Root](../test/live-unit-testing.md#workspace-root) property is too long, it’s possible that the build will fail due to exceptions indicating that the path is too long.
+          - If the [Workspace Root](../test/live-unit-testing.md#workspace-root) property is too long, it’s possible that the build will fail due to exceptions indicating that the path is too long.
           
-          -	If the [Repository Root](../test/live-unit-testing.md#repository-root) property doesn't point towards the repository root, the workspace will be populated with the wrong set of files.
+          - If the [Repository Root](../test/live-unit-testing.md#repository-root) property doesn't point towards the repository root, the workspace will be populated with the wrong set of files.
           
           - For git repositories, the [Exclude files](../test/live-unit-testing.md#specify-the-excluded-files) property usually avoids copying the files specified in the *gitignore* file. However, it’s possible to check in files to the git repository that are ignored, or it’s possible to run tools that auto generate files, but these are not generated during the build. In these cases, the "&lt;Custom&gt;" option should be chosen and a custom set of rules that only list the artifacts folders should be listed.
           
