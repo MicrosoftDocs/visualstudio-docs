@@ -2,7 +2,7 @@
 title: Flask in Visual Studio tutorial Step 3, static files & template inheritance
 titleSuffix: ""
 description: Step 3 of a core walkthrough of Flask capabilities in Visual Studio, including serving static files, adding pages to the Flask app, and using template inheritance.
-ms.date: 03/22/2024
+ms.date: 03/28/2024
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
@@ -79,9 +79,9 @@ Follow these steps to use a static file in a template:
 
    :::image type="content" source="media/flask/step-03-static-file-structure.png" alt-text="Screenshot that shows the static file structure in Solution Explorer." lightbox="media/flask/step-03-static-file-structure.png" border="false":::
 
-1. Replace the contents of the _site.css_ file with the following code:
+1. Replace the contents of the _site.css_ file with the following styles:
 
-   ```cshtml
+   ```css
    .message {
        font-weight: 600;
        color: blue;
@@ -261,7 +261,7 @@ The following steps demonstrate template inheritance:
 
 1. In the _HelloFlask/static/site.css_ file, add the following styles to the end of the file:
 
-   ```cshtml
+   ```css
    .navbar {
       background-color: lightslategray;
       font-size: 1em;
@@ -293,7 +293,7 @@ The following steps demonstrate template inheritance:
 
    These style definitions generate an interesting result for this exercise. This walkthrough doesn't demonstrate responsive design. 
 
-1. Replace the contents of the _HelloFlask/templates/index.html_ file with the following code:
+1. Replace the contents of the _HelloFlask/templates/index.html_ file with the following markup:
 
    ```html
    {% extends "layout.html" %}
