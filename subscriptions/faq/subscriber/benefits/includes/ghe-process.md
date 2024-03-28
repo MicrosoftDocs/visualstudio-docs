@@ -12,9 +12,9 @@ ms.faqid: q3_3
 
 ## What is the Visual Studio subscriptions with GitHub Enterprise setup process? 
 
-Visual Studio subscriptions with GitHub Enterprise are managed in two parts:  
-- The Visual Studio subscription (Enterprise or Professional)  
-- GitHub Enterprise  
+Visual Studio subscriptions with GitHub Enterprise are managed in two parts:  
+- The Visual Studio subscription (Enterprise or Professional)  
+- GitHub Enterprise  
 
 When you're assigned a Visual Studio subscription with GitHub, you receive an email letting you know that your Visual Studio Subscriptions administrator has assigned a subscription to you. At that point, you're able to view available subscription benefits at <https://my.visualstudio.com/benefits>. GitHub Enterprise is included. 
 
