@@ -14,6 +14,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Configure Service Reference dialog box
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
@@ -28,19 +29,19 @@ To access the **Configure Service Reference** dialog box, right-click a service 
 
 - To change the access level for classes in a WCF client, select an access-level keyword in the **Access level for generated classes** list.
 
-- To call the methods of a WCF service asynchronously, select the **Generate asynchronous operations** check box.
+- To call the methods of a WCF service asynchronously, select the **Generate asynchronous operations** checkbox.
 
-- To generate message contract types in a WCF client, select the **Always generate message contracts** check box.
+- To generate message contract types in a WCF client, select the **Always generate message contracts** checkbox.
 
 - To specify list or dictionary collection types for a WCF client, select the types from the **Collection type** and **Dictionary collection type** lists.
 
-- To disable type sharing, clear the **Reuse types in referenced assemblies** check box. To enable type sharing for a subset of referenced assemblies, select the **Reuse types in referenced assemblies** check box, select **Reuse types in specified referenced assemblies**, and select the desired references in the **Referenced assemblies list**.
+- To disable type sharing, clear the **Reuse types in referenced assemblies** checkbox. To enable type sharing for a subset of referenced assemblies, select the **Reuse types in referenced assemblies** checkbox, select **Reuse types in specified referenced assemblies**, and select the desired references in the **Referenced assemblies list**.
 
 ## UIElement list
 
 **Address**
 
-Updates the web address where a service reference looks for a service. For example, during development, the service may be hosted on a development server and then later moved to a production server, necessitating an address change.
+Updates the web address where a service reference looks for a service. For example, during development, the service might be hosted on a development server and then later moved to a production server, necessitating an address change.
 
 > [!NOTE]
 > The Address element is not available when the **Configure Service Reference** dialog box is displayed from the **Add Service Reference Dialog Box**.

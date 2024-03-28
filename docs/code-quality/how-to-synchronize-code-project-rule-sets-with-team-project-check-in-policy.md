@@ -3,7 +3,7 @@ title: Sync project rule sets with check-in policy
 ms.date: 11/04/2016
 description: Learn how to synchronize a Visual Studio code project rule set with an Azure DevOps project check-in policy.
 ms.topic: how-to
-f1_keywords: 
+f1_keywords:
   - vs.codeanalysis.selecttfsruleset
 author: mikejo5000
 ms.author: mikejo
@@ -11,6 +11,7 @@ manager: mijacobs
 ms.subservice: code-analysis
 monikerRange: 'vs-2019'
 ---
+
 # Synchronize Code Project Rule Sets with an Azure DevOps Project Check-in Policy
 
 You synchronize the code analysis settings for code projects to the check-in policy for the Azure DevOps project by specifying a rule set that contains at least the rules that are specified in the rule set for the check-in policy. Your developer lead can inform you of the name and location of the rule set for the check-in policy. You can use one of the following options to ensure that code analysis for the project uses the correct set of rules:

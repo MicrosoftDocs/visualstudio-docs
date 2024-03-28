@@ -1,6 +1,6 @@
 ---
 title: Objects use different connection
-description: 'The objects you are adding to the designer use a different data connection than the designer. View information about this Visual Studio O/R Designer message.'
+description: The objects you are adding to the designer use a different data connection than the designer. View information about this Visual Studio O/R Designer message.
 ms.date: 11/04/2016
 ms.topic: error-reference
 author: ghogen
@@ -8,6 +8,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # The objects you are adding to the designer use a different data connection than the designer
 
 The objects you are adding to the designer use a different data connection than the designer is currently using. Do you want to replace the connection used by the designer?

@@ -15,6 +15,7 @@ dev_langs:
 - VB
 - CPP
 ---
+
 # Suppress code analysis violations
 
 It is often useful to indicate that a warning is not applicable. Suppressing code analysis violations indicates team members the code was reviewed, and the warning can be suppressed. The following sections describe the different ways to suppress code analysis violations using the Visual Studio IDE.
@@ -72,7 +73,7 @@ From **Solution Explorer**, open the properties for the project (right-click the
 
 ## Suppress violations using a rule set
 
-From the **rule set editor**, clear the check box next to its name or set **Action** to **None**.
+From the **rule set editor**, clear the checkbox next to its name or set **Action** to **None**.
 
 ## In-source suppression and the SuppressMessage attribute
 
@@ -95,14 +96,17 @@ When you select **Suppress** from the context or right-click menu of a code anal
 The <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute has the following format:
 
 ### [C#](#tab/csharp)
+
 ```csharp
 [Scope:SuppressMessage("Rule Category", "Rule Id", Justification = "Justification", MessageId = "MessageId", Scope = "Scope", Target = "Target")]
 ```
 
 ### [VB](#tab/vb)
+
 ```vb
 <Scope:SuppressMessage("Rule Category", "Rule Id", Justification = "Justification", MessageId = "MessageId", Scope = "Scope", Target = "Target")>
 ```
+
 ---
 
 The properties of the attribute include:
@@ -156,6 +160,7 @@ In some cases, you might want to suppress a particular instance of the violation
 To suppress a particular symbol violation of a rule, specify the symbol name for the `MessageId` property of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute. The following example shows code with two violations of [CA1500:VariableNamesShouldNotMatchFieldNames](../code-quality/ca1500.md)&mdash;one for the `name` variable and one for the `age` variable. Only the violation for the `age` symbol is suppressed.
 
 ### [C#](#tab/csharp)
+
 ```csharp
 public class Animal
 {
@@ -174,6 +179,7 @@ public class Animal
 ```
 
 ### [VB](#tab/vb)
+
 ```vb
 Public Class Animal
     Dim age As Integer
@@ -189,6 +195,7 @@ Public Class Animal
 
 End Class
 ```
+
 ---
 
 ### Global-level suppressions
@@ -217,7 +224,7 @@ The global suppression file maintains suppressions that are either global-level 
 
 You can suppress code quality violations for the entire assembly by using the **module** scope.
 
-For example, the following attribute in your _GlobalSuppressions_ project file will suppress the ConfigureAwait violation for an ASP.NET Core project:
+For example, the following attribute in your *GlobalSuppressions* project file will suppress the ConfigureAwait violation for an ASP.NET Core project:
 
 `[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Reliability", "CA2007:Consider calling ConfigureAwait on the awaited task", Justification = "ASP.NET Core doesn't use thread context to store request context.", Scope = "module")]`
 

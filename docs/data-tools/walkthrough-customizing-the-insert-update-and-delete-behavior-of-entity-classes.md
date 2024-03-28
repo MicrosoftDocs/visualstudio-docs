@@ -1,6 +1,6 @@
 ---
 title: Customize insert/update/delete behavior
-description: In this walkthrough, customize the insert, update, and delete behavior of entity classes using the LINQ (Language-Integrated Query) to SQL tools in Visual Studio.
+description: In this walkthrough, customize the insert, update, and delete behavior of entity classes using the LINQ to SQL tools in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -11,11 +11,12 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Walkthrough: Customize the insert, update, and delete behavior of entity classes
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
-The [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md) provides a visual design surface for creating and editing LINQ to SQL classes (entity classes) that are based on objects in a database. By using [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index), you can use LINQ technology to access SQL databases. For more information, see [LINQ (Language-Integrated query)](/dotnet/csharp/linq/).
+The [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md) provides a visual design surface for creating and editing LINQ to SQL classes (entity classes) that are based on objects in a database. By using [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index), you can use LINQ technology to access SQL databases. For more information, see [LINQ (language integrated query)](/dotnet/csharp/linq/).
 
 By default, the logic to perform updates is provided by the LINQ to SQL runtime. The runtime creates default `Insert`, `Update`, and `Delete` statements based on the schema of the table (the column definitions and primary key information). When you do not want to use the default behavior, you can configure the update behavior and designate specific stored procedures for performing the necessary inserts, updates, and deletes required to work with the data in the database. You can also do this when the default behavior is not generated, for example, when your entity classes map to views. Additionally, you can override the default update behavior when the database requires table access through stored procedures. For more information, see [Customizing operations by using stored procedures](/dotnet/framework/data/adonet/sql/linq/customizing-operations-by-using-stored-procedures).
 
@@ -131,29 +132,35 @@ Create controls that are bound to entity classes by dragging LINQ to SQL data so
 4. Add the following code to the form, global to the form, outside any specific method, but inside the `Form1` class:
 
     ### [C#](#tab/csharp)
+
     ```csharp
     private NorthwindDataContext northwindDataContext1
         = new NorthwindDataContext();
     ```
 
     ### [VB](#tab/vb)
+
     ```vb
     Private NorthwindDataContext1 As New NorthwindDataContext
     ```
+
     ---
 
 5. Create an event handler for the `Form_Load` event and add the following code to the handler:
 
     ### [C#](#tab/csharp)
+
     ```csharp
     customerBindingSource.DataSource
         = northwindDataContext1.Customers;
     ```
 
     ### [VB](#tab/vb)
+
     ```vb
     CustomerBindingSource.DataSource = NorthwindDataContext1.Customers
     ```
+
     ---
 
 ## Implement save functionality
@@ -173,14 +180,17 @@ By default, the save button is not enabled and save functionality is not impleme
 5. Add the following code into the save button event handler:
 
     ### [C#](#tab/csharp)
+
     ```csharp
     northwindDataContext1.SubmitChanges();
     ```
 
     ### [VB](#tab/vb)
+
     ```vb
     NorthwindDataContext1.SubmitChanges()
     ```
+
     ---
 
 ## Override the default behavior for performing updates (inserts, updates, and deletes)
@@ -236,7 +246,7 @@ By default, the save button is not enabled and save functionality is not impleme
 19. Click **OK**.
 
 > [!NOTE]
-> Although it is not an issue for this particular walkthrough, it is worth noting that LINQ to SQL handles database-generated values automatically for identity (auto-increment), rowguidcol (database-generated GUID), and timestamp columns during inserts and updates. Database-generated values in other column types will unexpectedly result in a null value. To return the database-generated values, you should manually set <xref:System.Data.Linq.Mapping.ColumnAttribute.IsDbGenerated%2A> to `true` and <xref:System.Data.Linq.Mapping.ColumnAttribute.AutoSync%2A> to one of the following: [AutoSync.Always](<xref:System.Data.Linq.Mapping.AutoSync.Always>), [AutoSync.OnInsert](<xref:System.Data.Linq.Mapping.AutoSync.OnInsert>), or [AutoSync.OnUpdate](<xref:System.Data.Linq.Mapping.AutoSync.OnUpdate>).
+> Although it is not an issue for this particular walkthrough, it is worth noting that LINQ to SQL handles database-generated values automatically for identity (auto-increment), rowguidcol (database-generated globally unique identifier (GUID)), and timestamp columns during inserts and updates. Database-generated values in other column types will unexpectedly result in a null value. To return the database-generated values, you should manually set <xref:System.Data.Linq.Mapping.ColumnAttribute.IsDbGenerated%2A> to `true` and <xref:System.Data.Linq.Mapping.ColumnAttribute.AutoSync%2A> to one of the following: [AutoSync.Always](<xref:System.Data.Linq.Mapping.AutoSync.Always>), [AutoSync.OnInsert](<xref:System.Data.Linq.Mapping.AutoSync.OnInsert>), or [AutoSync.OnUpdate](<xref:System.Data.Linq.Mapping.AutoSync.OnUpdate>).
 
 ## Test the application
 
@@ -263,11 +273,11 @@ Run the application again to verify that the **UpdateCustomers** stored procedur
 10. Press **F5** and verify that the deleted record was removed from the database.
 
     > [!NOTE]
-    > If your application uses SQL Server Express Edition, depending on the value of the **Copy to Output Directory** property of the database file, the changes may not appear when you press **F5** in step 10.
+    > If your application uses SQL Server Express Edition, depending on the value of the **Copy to Output Directory** property of the database file, the changes might not appear when you press **F5** in step 10.
 
 ## Next steps
 
-Depending on your application requirements, there are several steps that you may want to perform after you create LINQ to SQL entity classes. Some enhancements you could make to this application include the following:
+Depending on your application requirements, there are several steps that you might want to perform after you create LINQ to SQL entity classes. Some enhancements you could make to this application include the following:
 
 - Implement concurrency checking during updates. For information, see [Optimistic Concurrency: overview](/dotnet/framework/data/adonet/sql/linq/optimistic-concurrency-overview).
 

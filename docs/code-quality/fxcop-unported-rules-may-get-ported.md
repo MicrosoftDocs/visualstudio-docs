@@ -1,6 +1,6 @@
 ---
-description: "The following FxCop legacy analysis rules haven't yet been implemented as analyzers, but still may be."
-title: Unported rules that may be ported
+description: The following FxCop legacy analysis rules haven't yet been implemented as analyzers, but still might be.
+title: Unported rules that might be ported
 ms.date: 05/21/2019
 ms.topic: reference
 helpviewer_keywords:
@@ -11,9 +11,10 @@ ms.author: mikejo
 manager: mijacobs
 ms.subservice: code-analysis
 ---
-# Unported rules that may be ported
 
-The following FxCop legacy analysis rules haven't yet been implemented as analyzers, but still may be. This could be because of a blocking technical reason or simply that the rule is lower priority. For more information about the porting status of each rule, click the link in the **Tracking issue** column.
+# Unported rules that might be ported
+
+The following FxCop legacy analysis rules haven't yet been implemented as analyzers, but still might be. This could be because of a blocking technical reason or simply that the rule is lower priority. For more information about the porting status of each rule, click the link in the **Tracking issue** column.
 
 Rule ID | Tracking issue
 --- | ---

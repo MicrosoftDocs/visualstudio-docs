@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with React"
 description: Create an ASP.NET Core project to serve as an API backend and a React project to provide the user interface in Visual Studio.
-ms.date: 11/14/2023
+ms.date: 03/20/2024
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -25,6 +25,8 @@ You can use the method described in this article to create ASP.NET Core Single P
 
 > [!NOTE]
 > This article describes the project creation process using the updated template in Visual Studio 2022 version 17.8, which uses the Vite CLI.
+
+For instructions using Docker with React and ASP.NET Core, see [Use Docker with a React Single-page App in Visual Studio](../containers/container-tools-react.md).
 
 ## Prerequisites
 
@@ -65,7 +67,7 @@ You can use the method described in this article to create ASP.NET Core Single P
 
    :::image type="content" source="media/vs-2022/asp-net-core-project-properties-react.png" alt-text="Screenshot showing Open project properties."::: 
 
-1. In the Properties page, open the **Debug** tab and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option for the profile named after the ASP.NET Core project (or https, if present).
+1. In the Properties page, open the **Debug** tab and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option for the **https** profile or the profile named after the ASP.NET Core project, if present.
 
    :::image type="content" source="media/vs-2022/asp-net-core-deselect-launch-browser-react.png" alt-text="Screenshot showing Debug launch profiles UI."::: 
 
@@ -73,6 +75,8 @@ You can use the method described in this article to create ASP.NET Core Single P
 
    >[!NOTE]
    > In Visual Studio, *launch.json* stores the startup settings associated with the **Start** button in the Debug toolbar. Currently, *launch.json* must be located under the *.vscode* folder.
+
+1. Right-click the solution in Solution Explorer and select **Properties**. Verify that the Startup project settings are set to **Multiple projects**, and that the Action for both projects is set to **Start**.
 
 ## Start the project
 

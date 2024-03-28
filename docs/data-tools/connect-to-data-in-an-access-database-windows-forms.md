@@ -12,6 +12,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Connect to an Access database in .NET Framework applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
@@ -19,19 +20,20 @@ ms.subservice: data-tools
 You can connect to an Access database (either an `.mdb` file or an `.accdb` file) by using Visual Studio. After you define the connection, the data appears in the **Data Sources** window. From there, you can drag tables or views onto your design surface.
 
 > [!NOTE]
->If you're using Visual Studio to connect to Access databases, you will need to be aware that versions of Visual Studio prior to Visual Studio 2022 are all 32-bit processes. This means some of the data tools in Visual Studio 2019 and earlier will only be able to connect to Access databases using 32-bit data providers.
+> If you're using Visual Studio to connect to Access databases, you will need to be aware that versions of Visual Studio prior to Visual Studio 2022 are all 32-bit processes. This means some of the data tools in Visual Studio 2019 and earlier will only be able to connect to Access databases using 32-bit data providers.
 >
->If you're using Visual Studio 2022 to connect to Access databases, you will need to be aware that Visual Studio 2022 is now a 64-bit process. This means some of the data tools in Visual Studio will not be able to connect to Access databases using 32-bit data providers.
+> If you're using Visual Studio 2022 to connect to Access databases, you will need to be aware that Visual Studio 2022 is now a 64-bit process. This means some of the data tools in Visual Studio will not be able to connect to Access databases using 32-bit data providers.
 >
->If you need to maintain 32-bit applications that connect to Access databases, you will still be able to build and run the application with Visual Studio 2022. However, if you need to use any of the Visual Studio Data Tools such as Server Explorer, Data Source Wizard, or the DataSet Designer, you will need to use an earlier version of Visual Studio that is still a 32-bit process. The last version of Visual Studio that was a 32-bit process was Visual Studio 2019.
+> If you need to maintain 32-bit applications that connect to Access databases, you will still be able to build and run the application with Visual Studio 2022. However, if you need to use any of the Visual Studio Data Tools such as Server Explorer, Data Source Wizard, or the DataSet Designer, you will need to use an earlier version of Visual Studio that is still a 32-bit process. The last version of Visual Studio that was a 32-bit process was Visual Studio 2019.
 >
->If you plan on converting the project to be a 64-bit process, it’s recommended that you use the 64-bit Microsoft Access Database Engine, also called Access Connectivity Engine (ACE). Please see [OLE DB Provider for Jet and ODBC driver are 32-bit versions only](/office/troubleshoot/access/jet-odbc-driver-available-32-bit-version) for more information.
+> If you plan on converting the project to be a 64-bit process, it's recommended that you use the 64-bit Microsoft Access database Engine, also called Access Connectivity Engine (ACE). Please see [OLE DB Provider for Jet and ODBC driver are 32-bit versions only](/office/troubleshoot/access/jet-odbc-driver-available-32-bit-version) for more information.
 
 ## Prerequisites
 
 To use these procedures, you need a Windows Forms or WPF project and either an Access database (`.accdb` file) or an Access 2000-2003 database (`.mdb` file). Follow the procedure that corresponds to your file type.
 
 :::moniker range=">=vs-2022"
+
 ## Create a dataset for an .accdb file
 
 Connect to databases created with Microsoft 365, Access 2016, Access 2013, Access 2010, or Access 2007 by using the following procedure.
@@ -77,7 +79,7 @@ Connect to databases created with Microsoft 365, Access 2016, Access 2013, Acces
 
 10. Select **Next** on the **Choose your Data Connection** page.
 
-    You may get a dialog box telling you the data file is not in your current project. Select **Yes** or **No**.
+    You might get a dialog box telling you the data file is not in your current project. Select **Yes** or **No**.
 
 11. Select **Next** on the **Save connection string to the Application Configuration file** page.
 
@@ -139,7 +141,7 @@ Connect to databases created with Microsoft 365, Access 2016, Access 2013, Acces
 
 10. Select **Next** on the **Choose your Data Connection** page.
 
-    You may get a dialog box telling you the data file is not in your current project. Select **Yes** or **No**.
+    You might get a dialog box telling you the data file is not in your current project. Select **Yes** or **No**.
 
 11. Select **Next** on the **Save connection string to the Application Configuration file** page.
 
@@ -175,7 +177,7 @@ Connect to databases created with Access 2000-2003 by using the following proced
 
 8. In the **Database file name**, specify the path and name of the `.mdb` file you want to connect to, and then select **OK**.
 
-   ![Add Connection Access Database File](../data-tools/media/add-connection-access-db.png)
+   ![Add Connection Access database File](../data-tools/media/add-connection-access-db.png)
 
 9. Select **Next** on the **Choose your Data Connection** page.
 

@@ -1,12 +1,12 @@
 ---
 title: Unable to activate my Azure DevOps benefit
 description: I'm unable to activate my Azure DevOps benefit included with my Visual Studio subscription.
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: 3ec2a8c1-07e0-45cd-808c-c354b9e26fb4
 author: evanwindom
 ms.author: amast
-ms.date: 08/15/2023
+ms.date: 03/26/2024
 user.type: subscriber
 tags: benefit, azure-devops
 subscription.type: vl, cloud, retail, partner
@@ -15,7 +15,7 @@ sap.id: 8dedd10e-cb1c-2eb1-bcda-fe00b07ac903
 
 ## I'm unable to activate my Azure DevOps benefit.
 
-As a Visual Studio subscriber, you can use a range of features in Azure DevOps. You can use these same features in each Azure DevOps organization in which you're a member, whether you created the organization or someone else added you.  
+As a Visual Studio subscriber, you can use a range of features in Azure DevOps. You can use these same features in each Azure DevOps organization in which you're a member, whether you created the organization or someone else added you. 
 
 ## Sign in
 1. Sign in to the [subscriptions portal](https://my.visualstudio.com/benefits) and select the Get started link at the bottom of the Azure DevOps benefit tile.
