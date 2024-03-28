@@ -200,7 +200,7 @@ Starting in June 2023, you're able to make your layouts available on an internal
 
 If you're using a version of Visual Studio shipped before June 2023, we recommend that you always use the latest Visual Studio Installer in your layout and distribute it to your clients. For example, if you distribute the Visual Studio 2022 installer in your Visual Studio 2019 layout, then your Visual Studio 2019 clients based off of that layout have the ability to change the source location for updates or to easily remove out-of-support components. Further details are [described in the following section](#configure-the-layout-to-always-include-and-provide-the-latest-installer).
 
-The capability to ensure programmatically that you're using the latest installer is only available to Visual Studio 2019 bootstrappers that were built after Visual Studio 2022 originally shipped. So, the vs_enterprise.exe in the following example must be a version that shipped _after_ November 10, 2021. 
+The capability to ensure programmatically that you're using the latest installer is only available to Visual Studio 2019 bootstrappers that were built after Visual Studio 2022 originally shipped. So, the vs_enterprise.exe in the following example must be a version that shipped *after* November 10, 2021. 
 
 To create a layout of the entire product that uses the latest and greatest installer available, run
 
@@ -240,13 +240,13 @@ vs_enterprise.exe --layout c:\VSLayout --passive
 
 ### Update the layout to a specific version of the product
 
-Sometimes you may want to update your layout to a _particular version of the product_.  For example, you may want to make your layout match the latest secure version of the servicing baseline that you have standardized your organization on. Here's how to do this:
+Sometimes you may want to update your layout to a *particular version of the product*.  For example, you may want to make your layout match the latest secure version of the servicing baseline that you have standardized your organization on. Here's how to do this:
 
 ::: moniker range="vs-2019"
 
 You can go to the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history#installing-an-earlier-release) page and download a particular fixed version bootstrapper, copy it into your layout, and use it to update the layout to that exact version specified in the bootstrapper. You would use the exact same syntax as above.
 
-You can use an **[administrator update](applying-administrator-updates.md)** to update your layout to a specific version of the product. To get the **administrator update**, go to the [Microsoft Update Catalog](https://catalog.update.microsoft.com) and search for the update version that you want to update your layout to.  Download the _update.exe_ to the computer that's hosting the layout, open up an elevated command prompt, and run a command like this:
+You can use an **[administrator update](applying-administrator-updates.md)** to update your layout to a specific version of the product. To get the **administrator update**, go to the [Microsoft Update Catalog](https://catalog.update.microsoft.com) and search for the update version that you want to update your layout to.  Download the `update.exe` to the computer that's hosting the layout, open up an elevated command prompt, and run a command like this:
 
 ```shell
 visualstudioupdate-16.0.0to16.11.23.exe layout --layoutPath c:\VSLayout
@@ -259,7 +259,7 @@ Note that an administrator update doesn't initiate the creation of a new layout;
 
 You can go to the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page and download a particular fixed version bootstrapper, copy it into your layout, and use it to update the layout to that exact version specified in the bootstrapper. You would use the exact same syntax as above.
 
-You can use an **[administrator update](applying-administrator-updates.md)** to update your layout to a specific version of the product. To get the **administrator update**, go to the [Microsoft Update Catalog](https://catalog.update.microsoft.com), and search for the update you want to update your layout to.  Download the _update.exe_ to the computer that's hosting the layout, open up an elevated command prompt on that computer and run a command like this:
+You can use an **[administrator update](applying-administrator-updates.md)** to update your layout to a specific version of the product. To get the **administrator update**, go to the [Microsoft Update Catalog](https://catalog.update.microsoft.com), and search for the update you want to update your layout to.  Download the `update.exe` to the computer that's hosting the layout, open up an elevated command prompt on that computer and run a command like this:
 
 ```shell
 visualstudioupdate-17.0.0to17.4.4.exe layout --layoutPath c:\VSLayout
@@ -353,12 +353,12 @@ When you execute this command, Setup analyzes your network layout folder to find
 > [!NOTE]
 > As of June 2023, the latest installer is shipping by default with every update to supported versions of Visual Studio 2017, Visual Studio 2019, and Visual Studio 2022. So you won't need to do anything explicitly to get the latest version of the installer with the latest functionality and bug fixes into your layout and onto your clients. 
 
-However, if you're using a layout that was created before June 2023, then you can also explicitly configure your layout to _always_ include and provide the latest installer to your clients, even if the installer is considered a part of a more recent version of Visual Studio. Thus, when your client updates from this layout, the client will acquire the latest installer that's included and provided by this layout. The benefit is that once the latest installer is on your client, your client installations will be able to take advantage of the bug fixes and new functionality that we continue to add to the installer. 
+However, if you're using a layout that was created before June 2023, then you can also explicitly configure your layout to *always* include and provide the latest installer to your clients, even if the installer is considered a part of a more recent version of Visual Studio. Thus, when your client updates from this layout, the client will acquire the latest installer that's included and provided by this layout. The benefit is that once the latest installer is on your client, your client installations will be able to take advantage of the bug fixes and new functionality that we continue to add to the installer. 
 
 ::: moniker range="vs-2019"
 
 >[!TIP]
->If you want to [change the location where your client's Visual Studio 2019 installation looks for updates](update-visual-studio.md#configure-source-location-of-updates) or if you want to remove all out-of-support components, then you *must* get the latest Visual Studio 2022 installer on your client machine. One way to do this is to include the Visual Studio 2022 installer within your Visual Studio 2019 layouts using the parameters described below. The capability to use the latest installer is only available to Visual Studio 2019 bootstrappers that were built after Visual Studio 2022 originally shipped. So, the vs_enterprise.exe in the example below must be a version that shipped _after_ November 10, 2021. 
+>If you want to [change the location where your client's Visual Studio 2019 installation looks for updates](update-visual-studio.md#configure-source-location-of-updates) or if you want to remove all out-of-support components, then you *must* get the latest Visual Studio 2022 installer on your client machine. One way to do this is to include the Visual Studio 2022 installer within your Visual Studio 2019 layouts using the parameters described below. The capability to use the latest installer is only available to Visual Studio 2019 bootstrappers that were built after Visual Studio 2022 originally shipped. So, the vs_enterprise.exe in the example below must be a version that shipped *after* November 10, 2021. 
 
 ::: moniker-end
 
@@ -388,9 +388,9 @@ There are several ways to enable your layout to include and provide the latest i
    }
    ```
 
-There is no way to programmatically remove this setting in the `layout.json` file, so if you want your layout to _stop_ using the latest installer that Microsoft makes available, and instead use the version of the installer that corresponds to the bootstrapper (which is mostly likely older than the most recent installer), edit the `layout.json` file and remove the `"UseLatestInstaller": true` setting. 
+There is no way to programmatically remove this setting in the `layout.json` file, so if you want your layout to *stop* using the latest installer that Microsoft makes available, and instead use the version of the installer that corresponds to the bootstrapper (which is mostly likely older than the most recent installer), edit the `layout.json` file and remove the `"UseLatestInstaller": true` setting. 
 
-Note that you may find this `"UseLatestInstaller": true` setting in the layout's `response.json` file too, but it is ignored there for the purposes of ensuring the layout always has the latest installer. The [response.json file is used to set default configuration options on the _client_ when the client installs or updates from a layout](automated-installation-with-response-file.md). This particular `"useLatestInstaller": true` setting in the `layout.json` file is used to ensure that the contents of the _layout_ contain the latest installer, so that the client machines can then acquire the latest installer from the layout.
+Note that you may find this `"UseLatestInstaller": true` setting in the layout's `response.json` file too, but it is ignored there for the purposes of ensuring the layout always has the latest installer. The [response.json file is used to set default configuration options on the *client* when the client installs or updates from a layout](automated-installation-with-response-file.md). This particular `"useLatestInstaller": true` setting in the `layout.json` file is used to ensure that the contents of the *layout* contain the latest installer, so that the client machines can then acquire the latest installer from the layout.
 
 ### Error codes
 

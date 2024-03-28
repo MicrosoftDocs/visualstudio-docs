@@ -16,6 +16,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Bind WPF controls to data in .NET Framework applications
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]

@@ -102,10 +102,10 @@ Select **Docker** from the debug dropdown list in the toolbar, and start debuggi
 
 The **Container Tools** option in the **Output** window shows what actions are taking place. The first time, it might take a while to download the base image, but it's faster on subsequent runs.
 
-After the build completes, the browser opens and displays your app's home page. In the browser address bar, you can see the localhost URL and port number for debugging.
+After the build completes, the browser opens and displays your app's home page. In the browser address bar, you can see the `localhost` URL and port number for debugging.
 
 >[!NOTE]
-> If you need to change ports for debugging, you can do that in the *launchSettings.json* file. See [Container Launch Settings](container-launch-settings.md).
+> If you need to change ports for debugging, you can do that in the `launchSettings.json` file. See [Container Launch Settings](container-launch-settings.md).
 
 ## Containers window
 

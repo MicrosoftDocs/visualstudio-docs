@@ -83,14 +83,14 @@ The `Unable to start debugging on the Web server` message is generic. Usually, a
 Check your [IIS log file](https://support.microsoft.com/help/943891/the-http-status-code-in-iis-7-0--iis-7-5--and-iis-8-0) for error subcodes and additional information, and this IIS 7 [blog post](https://blogs.iis.net/tomkmvp/troubleshoot-a-403).
 
 In addition, here are some of the common error codes and a few suggestions.
-- (403) Forbidden. There are many possible causes for this error, so check your log file and the IIS security settings for the web site. Make sure the server's web.config includes `debug=true` in the compilation element. Make sure that your Web Application folder has the right permissions and that your Application Pool configuration is correct (a password may have changed). See [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck). If these settings are already correct and you are debugging locally, also verify that you are connecting to the correct server type and URL (in **Properties > Web > Servers** or **Properties > Debug**, depending on your project type).
+- (403) Forbidden. There are many possible causes for this error, so check your log file and the IIS security settings for the web site. Make sure the server's `web.config` file includes `debug=true` in the compilation element. Make sure that your Web Application folder has the right permissions and that your Application Pool configuration is correct (a password may have changed). See [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck). If these settings are already correct and you are debugging locally, also verify that you are connecting to the correct server type and URL (in **Properties > Web > Servers** or **Properties > Debug**, depending on your project type).
 - (503) Server Unavailable. The Application Pool may have stopped due to an error or configuration change. Restart the Application Pool.
 - (404) Not Found. Make sure that the Application Pool is configured for the correct version of ASP.NET.
 
 ## <a name="aspnet"></a> Could not start ASP.NET debugging
 
 - Restart the Application Pool and reset IIS. For more information, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
-- If you are doing URL rewrites, test a basic web.config with no URL rewrites. See the **Note** about the URL Rewrite Module in [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
+- If you are doing URL rewrites, test a basic `web.config` file with no URL rewrites. See the **Note** about the URL Rewrite Module in [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
 
 ## <a name="cannot_connect"></a> The debugger cannot connect to the remote computer
 
@@ -108,7 +108,7 @@ Also, if you are using a HOSTS file, make sure it is configured correctly. For e
 
 ## <a name="operation_not_supported"></a> Operation not supported. Unknown error: *errornumber*
 
-If you are doing URL rewrites, test a basic web.config with no URL rewrites. See the **Note** about the URL Rewrite Module in [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
+If you are doing URL rewrites, test a basic `web.config` file with no URL rewrites. See the **Note** about the URL Rewrite Module in [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
 
 ## <a name="vxtbshttpservererrorsthingstocheck"></a> Check your IIS configuration
 
@@ -155,15 +155,15 @@ If the IIS configuration is not causing the issue, try these steps:
 
 ## More troubleshooting steps
 
-* Bring up the localhost page in the browser on the server.
+* Bring up the `localhost` page in the browser on the server.
 
      If IIS is not installed correctly, you should get errors when you type `http://localhost` in a browser.
 
      For more information on deploying to IIS, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) and, for ASP.NET Core, [Host on Windows with IIS](https://docs.asp.net/en/latest/publishing/iis.html).
 
-* Create a basic ASP.NET application on the server (or use a basic web.config file).
+* Create a basic ASP.NET application on the server (or use a basic `web.config` file).
 
-    If you can't get your app to work with the debugger, try creating a basic ASP.NET application locally on the server, and try to debug the basic app. (You might want to use the default ASP.NET MVC template.) If you can debug a basic app, that may help you identify what's different between the two configurations. Look for differences in settings in the web.config file, such as URL rewrite rules.
+    If you can't get your app to work with the debugger, try creating a basic ASP.NET application locally on the server, and try to debug the basic app. (You might want to use the default ASP.NET MVC template.) If you can debug a basic app, that may help you identify what's different between the two configurations. Look for differences in settings in the `web.config` file, such as URL rewrite rules.
 
 ## See also
 - [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)

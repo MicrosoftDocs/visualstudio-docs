@@ -15,6 +15,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Bind WPF controls to a WCF data service
 
 In this walkthrough, you will create a WPF application that contains data-bound controls. The controls are bound to customer records that are encapsulated in a WCF Data Service. You will also add buttons that customers can use to view and update records.
@@ -73,7 +74,7 @@ To expose data to an application by using a WCF Data Service, you must define a 
 
 5. On the **Choose Your Data Connection** page, select one of the following options:
 
-    - If a data connection to the AdventureWorksLT sample database is available in the drop-down list, select it.
+    - If a data connection to the AdventureWorksLT sample database is available in the dropdown list, select it.
 
     - Click **New Connection**, and create a connection to the AdventureWorksLT database.
 
@@ -176,11 +177,11 @@ Add several buttons to the window by modifying the XAML in the WPF designer. Lat
 
 Create controls that display customer records by dragging the `SalesOrderHeaders` node from the **Data Sources** window to the designer.
 
-1. In the **Data Sources** window, click the drop-down menu for the **SalesOrderHeaders** node, and select **Details**.
+1. In the **Data Sources** window, click the dropdown list menu for the **SalesOrderHeaders** node, and select **Details**.
 
 2. Expand the **SalesOrderHeaders** node.
 
-3. For this example, some fields will not be displayed, so click the drop-down menu next to the following nodes and select **None**:
+3. For this example, some fields will not be displayed, so click the dropdown list menu next to the following nodes and select **None**:
 
     - **CreditCardApprovalCode**
 
@@ -200,7 +201,7 @@ Create controls that display customer records by dragging the `SalesOrderHeaders
 
 5. In the designer, click the text box next to the **Customer ID** label.
 
-6. In the **Properties** window, select the check box next to the **IsReadOnly** property.
+6. In the **Properties** window, select the checkbox next to the **IsReadOnly** property.
 
 7. Set the **IsReadOnly** property for each of the following text boxes:
 
@@ -216,7 +217,7 @@ Use the service proxy object to load sales data from the service. Then assign th
 
 1. In the designer, to create the `Window_Loaded` event handler, double-click the text that reads: **MainWindow**.
 
-2. Replace the event handler with the following code. Make sure that you replace the *localhost* address in this code with the local host address on your development computer.
+2. Replace the event handler with the following code. Make sure that you replace the `localhost` address in this code with the local host address on your development computer.
 
      ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_ProTools/data_wpfwcf/cs/adventureworkssaleseditor/mainwindow.xaml.cs" id="Snippet2":::
