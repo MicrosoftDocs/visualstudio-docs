@@ -8,12 +8,13 @@ ms.subservice: general-ide
 ms.topic: tutorial
 dev_langs:
   - VB
-ms.date: 02/24/2023
+ms.date: 03/28/2024
 ms.custom: vs-acquisition
+#customer intent: As a developer, I want to create a simple Visual Basic program to understand how Visual Studio handles Forms.
 ---
 # Tutorial: Create a WinForms app with Visual Basic
 
-In this tutorial, you'll create a Visual Basic application that has a Windows Forms user interface.
+In this tutorial, you create a Visual Basic application that has a Windows Forms user interface.
 The Visual Studio integrated development environment (IDE) includes all the tools you need to create a Windows Forms app.
 
 In this tutorial, you learn how to:
@@ -38,14 +39,14 @@ Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/down
 ## Create a project
 
 Create a Visual Basic application project.
-The project type comes with all the template files you'll need, before you've even added anything.
+The project type comes with all the template files that you need.
 
 ::: moniker range="vs-2019"
 1. Open Visual Studio.
 
 1. On the start window, choose **Create a new project**.
 
-   ![Screenshot shows the Visual Studio 2019 start window with Create a new project selected.](../get-started/media/vs-2019/create-new-project-dark-theme.png)
+   :::image type="content" source="../get-started/media/vs-2019/create-new-project-dark-theme.png" alt-text="Screenshot shows the Visual Studio 2019 start window with Create a new project selected.":::
 
 1. On the **Create a new project** window, select the **Windows Forms App (.NET Framework)** template for Visual Basic.
 
@@ -53,23 +54,23 @@ The project type comes with all the template files you'll need, before you've ev
    For example, enter *Windows Forms App* in the search box.
    Next, select **Visual Basic** from the **Language** list, and then **Windows** from the **Platform** list.  
 
-   ![Screenshot shows the Create a new project window with Windows Forms App (.NET Framework) selected.](../get-started/visual-basic/media/vs-2019/vb-create-new-project-search-winforms-filtered.png)
+   :::image type="content" source="../get-started/visual-basic/media/vs-2019/vb-create-new-project-search-winforms-filtered.png" alt-text="Screenshot shows the Create a new project window with Windows Forms App (.NET Framework) selected.":::
 
    > [!NOTE]
    > If you don't see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window.
    > In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
    >
-   > ![Screenshot shows the 'Install more tools and features' link from the 'Not finding what you're looking for' message.](../get-started/media/vs-2019/not-finding-what-looking-for.png)
+   > :::image type="content" source="../get-started/media/vs-2019/not-finding-what-looking-for.png" alt-text="Screenshot shows the 'Install more tools and features' link from the 'Not finding what you're looking for' message.":::
    >
    > Next, in the Visual Studio Installer, choose the **.NET desktop development** workload.
    >
-   > ![Screenshot shows the .NET Core workload selected in the Visual Studio Installer.](../ide/media/install-dot-net-desktop-env.png)
+   > :::image type="content" source="../ide/media/install-dot-net-desktop-env.png" alt-text="Screenshot shows the .NET Core workload selected in the Visual Studio Installer.":::
    >
    > After that, select **Modify** in the Visual Studio Installer. You might be prompted to save your work.
 
 1. In the **Configure your new project** window, enter *HelloWorld* as the **Project name**. Then, select **Create**.
 
-   ![Screenshot shows the Configure your new project window with the name HelloWorld entered.](../get-started/visual-basic/media/vs-2019/vb-name-your-winform-project-helloworld.png)
+   :::image type="content" source="../get-started/visual-basic/media/vs-2019/vb-name-your-winform-project-helloworld.png" alt-text="Screenshot shows the Configure your new project window with the name HelloWorld entered.":::
 
    Visual Studio opens your new project.
 
@@ -80,7 +81,7 @@ The project type comes with all the template files you'll need, before you've ev
 
 1. On the start window, choose **Create a new project**.
 
-   ![Screenshot shows the Visual Studio 2022 start window with Create a new project selected.](../get-started/media/vs-2022/create-new-project.png)
+   :::image type="content" source="../get-started/media/vs-2022/create-new-project.png" alt-text="Screenshot shows the Visual Studio 2022 start window with Create a new project selected.":::
 
 1. On the **Create a new project** window, select the **Windows Forms App (.NET Framework)** template for Visual Basic.
 
@@ -88,23 +89,23 @@ The project type comes with all the template files you'll need, before you've ev
    For example, enter *Windows Forms App* in the search box.
    Next, select **Visual Basic** from the **Language** list, and then **Windows** from the **Platform** list.  
 
-   ![Screenshot shows the Create a new project window with Windows Forms App (.NET Framework) selected.](../get-started/visual-basic/media/vs-2022/vb-create-new-project-search-winforms-filtered.png)
+   :::image type="content" source="../get-started/visual-basic/media/vs-2022/vb-create-new-project-search-winforms-filtered.png" alt-text="Screenshot shows the Create a new project window with Windows Forms App (.NET Framework) selected.":::
 
    > [!NOTE]
    > If you don't see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window.
    > In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
    >
-   > ![Screenshot shows the 'Install more tools and features' link from the 'Not finding what you're looking for' message.](../get-started/media/vs-2019/not-finding-what-looking-for.png)
+   > :::image type="content" source="../get-started/media/vs-2019/not-finding-what-looking-for.png" alt-text="Screenshot shows the 'Install more tools and features' link from the 'Not finding what you're looking for' message.":::
    >
    > Next, in the Visual Studio Installer, choose the **.NET desktop development** workload.
    >
-   > ![Screenshot shows the .NET Core workload selected in the Visual Studio Installer.](../ide/media/install-dot-net-desktop-env.png)
+   > :::image type="content" source="../ide/media/install-dot-net-desktop-env.png" alt-text="Screenshot shows the .NET Core workload selected in the Visual Studio Installer.":::
    >
    > After that, select **Modify** in the Visual Studio Installer. You might be prompted to save your work.
 
 1. In the **Configure your new project** window, enter *HelloWorld* as the **Project name**. Then, select **Create**.
 
-   ![Screenshot shows the Configure your new project window with the name HelloWorld entered.](../get-started/visual-basic/media/vs-2022/vb-name-your-winform-project-helloworld.png)
+   :::image type="content" source="../get-started/visual-basic/media/vs-2022/vb-name-your-winform-project-helloworld.png" alt-text="Screenshot shows the Configure your new project window with the name HelloWorld entered.":::
 
    Visual Studio opens your new project.
 
@@ -114,35 +115,35 @@ The project type comes with all the template files you'll need, before you've ev
 
 After you select your Visual Basic project template and name your file, Visual Studio opens a form for you.
 A form is a Windows user interface.
-You'll create a "Hello World" application by adding controls to the form.
+You create a "Hello World" application by adding controls to the form.
 
 1. On the left side of the Visual Studio IDE, select the **Toolbox** tab.
    If you don't see it, select **View** > **Toolbox** from the menu bar or **Ctrl**+**Alt**+**X**.
 
-   ![Screenshot shows the Toolbox tab that opens Toolbox window.](media/create-a-visual-basic-winform-in-visual-studio/toolbox-tab.png)
+   :::image type="content" source="media/create-a-visual-basic-winform-in-visual-studio/toolbox-tab.png" alt-text="Screenshot shows the Toolbox tab that opens Toolbox window.":::
 
    If you want, select the **Pin** icon to dock the **Toolbox** window.
 
 1. Select the **Button** control and then drag it onto the form.
 
-   ![Screenshot shows the Button control added to the form.](media/create-a-visual-basic-winform-in-visual-studio/toolbox-button-form.png)
+   :::image type="content" source="media/create-a-visual-basic-winform-in-visual-studio/toolbox-button-form.png" alt-text="Screenshot shows the Button control added to the form.":::
 
 1. In the **Appearance** section of the **Properties** window, for **Text**, type *Click this*, and then press **Enter**.
 
-   ![Screenshot shows the Text property with the value Click this.](media/create-a-visual-basic-winform-in-visual-studio/button-text-property.png)
+   :::image type="content" source="media/create-a-visual-basic-winform-in-visual-studio/button-text-property.png" alt-text="Screenshot shows the Text property with the value Click this.":::
 
    If you don't see the **Properties** window, you can open it from the menu bar. Select **View** > **Properties Window** or press **F4**.
 
 1. In the **Design** section of the **Properties** window, change the name from **Button1** to *btnClickThis*, and then press **Enter**.
 
-   ![Screenshot shows the Name property with a value of b t n click this.](media/create-a-visual-basic-winform-in-visual-studio/button-name-property.png)
+   :::image type="content" source="media/create-a-visual-basic-winform-in-visual-studio/button-name-property.png" alt-text="Screenshot shows the Name property with a value of btnClickThis.":::
 
    > [!NOTE]
    > If you've alphabetized the list in the **Properties** window, **Button1** appears in the **(DataBindings)** section, instead.
 
 ## Add a label and code
 
-Now that you've added a button control to create an action, add a label control to send text to.
+After you add a button control to create an action, add a label control to send text to.
 
 1. Select the **Label** control in the **Toolbox** window, and then drag it onto the form.
    Place it beneath the **Click this** button.
@@ -151,11 +152,11 @@ Now that you've added a button control to create an action, add a label control 
 
 1. In the **Form1.vb &#91;Design&#93;** window, double-click the **Click this** button to open the **Form1.vb** window.
 
-   Another option is to expand **Form1.vb** in **Solution Explorer**, and then select **Form1**.
+   Another option is to expand **Form1.vb** in **Solution Explorer**. Then select **Form1**.
 
 1. In the **Form1.vb** window, between the **Private Sub** and **End Sub** lines, enter *lblHelloWorld.Text = "Hello World!"* as shown in the following screenshot:
 
-     ![Screenshot shows the a class in the Form1.vs tab where you can add Visual Basic code.](media/create-a-visual-basic-winform-in-visual-studio/click-handle-code-visual-basic.png)
+     :::image type="content" source="media/create-a-visual-basic-winform-in-visual-studio/click-handle-code-visual-basic.png" alt-text="Screenshot shows a class in the Form1.vs tab where you can add Visual Basic code.":::
 
 ## Run the application
 
@@ -163,7 +164,7 @@ Your application is ready to build and run.
 
 1. Select **Start** to run the application.
 
-   ![Screenshot shows the Start button that runs your app.](media/create-a-visual-basic-winform-in-visual-studio/visual-studio-start-debug.png)
+   :::image type="content" source="media/create-a-visual-basic-winform-in-visual-studio/visual-studio-start-debug.png" alt-text="Screenshot shows the Start button that runs your app.":::
 
    Several things happen.
    In the Visual Studio IDE, the **Diagnostics Tools** window opens, and an **Output** window opens.
@@ -172,13 +173,13 @@ Your application is ready to build and run.
 
 1. Select the **Click this** button in the **Form1** dialog box.
 
-   ![Screenshot shows dialog box titled Form 1 that displays the text Hello World!](media/create-a-visual-basic-winform-in-visual-studio/visual-studio-dialog-hello-world.png)
+   :::image type="content" source="media/create-a-visual-basic-winform-in-visual-studio/visual-studio-dialog-hello-world.png" alt-text="Screenshot shows dialog box titled Form 1 that displays the text Hello World!":::
 
    The **Label1** text changes to **Hello World!**.
 
 1. Close the **Form1** dialog box to stop running the app.
 
-## Next steps
+## Next step
 
 To learn more about Windows Forms, continue with the following tutorial:
 
@@ -187,6 +188,6 @@ To learn more about Windows Forms, continue with the following tutorial:
 
 ## See also
 
-* [More Visual Basic tutorials](../get-started/visual-basic/index.yml)
-* [C# tutorials](../get-started/csharp/index.yml)
-* [C++ tutorials](/cpp/get-started/tutorial-console-cpp)
+- [Visual Basic tutorials](../get-started/visual-basic/index.yml)
+- [C# tutorials](../get-started/csharp/index.yml)
+- [C++ tutorials](/cpp/get-started/tutorial-console-cpp)
