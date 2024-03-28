@@ -9,9 +9,12 @@ manager: mijacobs
 ms.subservice: code-analysis
 monikerRange: 'vs-2019'
 ---
+
 # Managed Minimum Rules rule set for managed code
 
 The Managed Minimum rules focus on the most critical problems in your code, including potential security holes, application crashes, and other important logic and design errors. Include this rule set in any custom rule set you create for your projects.
+
+<!-- docutune:disable -->
 
 |Rule|Description|
 |----------|-----------------|

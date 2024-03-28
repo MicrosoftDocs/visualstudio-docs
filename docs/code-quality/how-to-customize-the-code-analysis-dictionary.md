@@ -1,9 +1,9 @@
 ---
-title: 'Customize the Code Analysis Dictionary'
+title: Customize the Code Analysis Dictionary
 ms.date: 11/04/2016
 description: Learn about the code analysis dictionary that identifies spelling and naming convention errors. See how to create a custom dictionary and apply it to a project.
 ms.topic: how-to
-helpviewer_keywords: 
+helpviewer_keywords:
   - code analysis dictionary
   - custom dictionary, code analysis
   - dictionary, code analysis
@@ -13,9 +13,10 @@ manager: mijacobs
 ms.subservice: code-analysis
 monikerRange: 'vs-2019'
 ---
+
 # Customize the Code Analysis Dictionary
 
-Code Analysis uses a built-in dictionary to check identifiers in your code for errors in spelling, grammatical case, and other naming conventions of the .NET design guidelines. You can create a custom dictionary Xml file to add, remove, or modify terms, abbreviations, and acronyms to the built-in dictionary.
+Code Analysis uses a built-in dictionary to check identifiers in your code for errors in spelling, grammatical case, and other naming conventions of the .NET design guidelines. You can create a custom dictionary XML file to add, remove, or modify terms, abbreviations, and acronyms to the built-in dictionary.
 
 For example, suppose your code contained a class named **DoorKnokker**. Code Analysis would identify the name as a compound of two words: **door** and **knokker**. It would then raise a warning that **knokker** was not spelled correctly. To force code analysis to recognize the spelling, you can add the term **knokker** to the custom dictionary.
 
@@ -261,7 +262,7 @@ Terms in the Dictionary/Acronyms/CasingExceptions node are applied to the follow
 1. In **Solution Explorer**, use one of the following procedures:
 
     - To add a dictionary to a single project, right-click the project name and then click **Add Existing Item**. For file types, choose **All Files**, and then specify the file in the **Add Existing Item** dialog box.
-  
+
     - To add a dictionary that is shared among two or more projects, locate the file to share in the **Add Existing Item** dialog box, click the down arrow on the **Add** button and then click **Add As Link**.
 
 2. In **Solution Explorer**, right-click the **CustomDictionary.xml** file name and click **Properties**.

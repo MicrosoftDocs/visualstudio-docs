@@ -9,9 +9,12 @@ manager: mijacobs
 ms.subservice: code-analysis
 monikerRange: 'vs-2019'
 ---
+
 # Globalization Rules rule set for managed code
 
 Use the Microsoft Globalization Rules rule set to focus on problems that might prevent data in your application from appearing correctly in different languages, locales, and cultures. You should include this rule set if your application is localized, globalized, or both.
+
+<!-- docutune:disable -->
 
 |Rule|Description|
 |----------|-----------------|

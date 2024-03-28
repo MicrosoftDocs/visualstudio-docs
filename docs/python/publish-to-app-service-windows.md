@@ -44,7 +44,7 @@ If you don't have an existing project to publish, you can create a test project 
 
 1. In Visual Studio, select **File > New > Project** from the toolbar menu to open the **Create a new project** dialog.
 
-1. In the dialog, enter _bottle_ in the **Search** box, select the **Bottle Web Project** template, and then select **Next**.
+1. In the dialog, enter *bottle* in the **Search** box, select the **Bottle Web Project** template, and then select **Next**.
 
    The Bottle Web Project template is included with the Python development workload. For more information, see [Python web application project templates](python-web-application-project-templates.md).
 
@@ -95,9 +95,9 @@ If desired, you can also install the `bottle` package. However, this package is 
 
 Publishing to Azure App Service from Visual Studio 2017 and later copies only the files in your project to the server. You need to create the necessary files to configure the server environment.
 
-1. In Visual Studio **Solution Explorer**, right-click the project and select **Add > New Item**. In the dialog, select the **Azure web.config (Fast CGI)** template, and select **Add**. This step creates a _web.config_ file in your project root.
+1. In Visual Studio **Solution Explorer**, right-click the project and select **Add > New Item**. In the dialog, select the **Azure web.config (Fast CGI)** template, and select **Add**. This step creates a `web.config` file in your project root.
 
-1. Modify the `PythonHandler` entry in the _web.config_ file so the path matches the Python installation on the server, as described in [IIS Configuration Reference](https://www.iis.net/configreference) (iis.net). For example, for Python 3.6.1 x64 the entry should appear as follows:
+1. Modify the `PythonHandler` entry in the `web.config` file so the path matches the Python installation on the server, as described in [IIS Configuration Reference](https://www.iis.net/configreference) (iis.net). For example, for Python 3.6.1 x64 the entry should appear as follows:
 
    ```xml
    <system.webServer>
@@ -109,25 +109,25 @@ Publishing to Azure App Service from Visual Studio 2017 and later copies only th
    </system.webServer>
    ```
 
-1. Set the `WSGI_HANDLER` entry in the _web.config_ file as appropriate for the framework you're using:
+1. Set the `WSGI_HANDLER` entry in the `web.config` file as appropriate for the framework you're using:
 
-   - **Bottle**: Add parentheses after the `app.wsgi_app` value as shown in this example. The parentheses are necessary because the object is a function rather than a variable. You can see the syntax in the _app.py_ file.
+   - **Bottle**: Add parentheses after the `app.wsgi_app` value as shown in this example. The parentheses are necessary because the object is a function rather than a variable. You can see the syntax in the `app.py` file.
 
      ```xml
      <!-- Bottle apps only -->
      <add key="WSGI_HANDLER" value="app.wsgi_app()"/>
      ```
 
-   - **Flask**: Change the `WSGI_HANDLER` value to `<project_name>.app` where `<project_name>` matches the name of your project. You can find the exact identifier by looking at the `from <project_name> import app` statement in the _runserver.py_ file. For example, if the project is named "FlaskAzurePublishExample," the entry appears as follows:
+   - **Flask**: Change the `WSGI_HANDLER` value to `<project_name>.app` where `<project_name>` matches the name of your project. You can find the exact identifier by looking at the `from <project_name> import app` statement in the `runserver.py` file. For example, if the project is named "FlaskAzurePublishExample," the entry appears as follows:
 
       ```xml
       <!-- Flask apps only: Change the project name to match your app -->
       <add key="WSGI_HANDLER" value="FlaskAzurePublishExample.app"/>
       ```
 
-   - **Django**: Two changes are needed to the _web.config_ file for Django projects.
+   - **Django**: Two changes are needed to the `web.config` file for Django projects.
    
-      - Change the `WSGI_HANDLER` value to `django.core.wsgi.get_wsgi_application()`. The object is in the _wsgi.py_ file.
+      - Change the `WSGI_HANDLER` value to `django.core.wsgi.get_wsgi_application()`. The object is in the `wsgi.py` file.
 
          ```xml
          <!-- Django apps only -->
@@ -140,7 +140,7 @@ Publishing to Azure App Service from Visual Studio 2017 and later copies only th
          <add key="DJANGO_SETTINGS_MODULE" value="django_iis_example.settings" />
          ```
 
-1. **Django apps only**: In the Django project's _settings.py_ file, add your site URL domain or IP address to the `ALLOWED_HOSTS` entry. Replace 'vspython-test-02.azurewebsites.net' with your URL:
+1. **Django apps only**: In the Django project's `settings.py` file, add your site URL domain or IP address to the `ALLOWED_HOSTS` entry. Replace 'vspython-test-02.azurewebsites.net' with your URL:
 
    ```python
    # Change the URL to your specific site
@@ -153,15 +153,15 @@ Publishing to Azure App Service from Visual Studio 2017 and later copies only th
    DisallowedHost at / Invalid HTTP_HOST header: '\<site URL\>'. You might need to add '\<site URL\>' to ALLOWED_HOSTS.
    ```
 
-   When the array is empty, Django automatically allows `'localhost'` as a host. If you add your production URL, `'localhost'` isn't automatically allowed as a host. For this reason, you might want to maintain separate development and production copies of the _settings.py_ file, or use environment variables to control the runtime values.
+   When the array is empty, Django automatically allows `'localhost'` as a host. If you add your production URL, `'localhost'` isn't automatically allowed as a host. For this reason, you might want to maintain separate development and production copies of the `settings.py` file, or use environment variables to control the runtime values.
 
 1. Select the template.
 
    1. In **Solution Explorer**, expand your project folder.
-   1. Right-click the _static_ folder, and select **Add > New Item**.
+   1. Right-click the *static* folder, and select **Add > New Item**.
    1. Select the **Azure Static files web.config** template, and select **Add**.
    
-   This action creates another _web.config_ file in the _static_ folder that disables Python processing for that folder. This configuration sends requests for static files to the default web server rather than using the Python application.
+   This action creates another `web.config` file in the *static* folder that disables Python processing for that folder. This configuration sends requests for static files to the default web server rather than using the Python application.
 
 1. In **Solution Explorer**, save your project, and then right-click your project and select **Publish**.
 
@@ -198,9 +198,9 @@ Publishing to Azure App Service from Visual Studio 2017 and later copies only th
    1. Make sure you have an appropriate Python site extension installed. For more information, see 
    [Quickstart: Deploy a Python (Django or Flask) web app to Azure App Service](/azure/app-service/quickstart-python).
 
-   1. Double-check the path to the Python interpreter in your _web.config_ file. The path must exactly match the install location of your chosen site extension.
+   1. Double-check the path to the Python interpreter in your `web.config` file. The path must exactly match the install location of your chosen site extension.
 
-   1. Use the Kudu console to upgrade any packages listed in your app's _requirements.txt_ file. Browse to the same Python folder used in the _web.config_ file, such as `/home/python361x64`. Run the following command, as described in the [Kudu console](managing-python-on-azure-app-service.md#azure-app-service-kudu-console) section:
+   1. Use the Kudu console to upgrade any packages listed in your app's `requirements.txt` file. Browse to the same Python folder used in the `web.config` file, such as `/home/python361x64`. Run the following command, as described in the [Kudu console](managing-python-on-azure-app-service.md#azure-app-service-kudu-console) section:
 
       ```console
       python -m pip install --upgrade -r /home/site/wwwroot/requirements.txt
@@ -208,16 +208,16 @@ Publishing to Azure App Service from Visual Studio 2017 and later copies only th
 
       If you see permission errors when you run this command, confirm you're running the command in your site extension folder. Don't run the command in a folder that has one of App Service's default Python installations. Because you can't modify those default environments, attempting to install packages certainly fails.
 
-   1. For detailed error output, add the following line to the _web.config_ file within the `<system.webServer>` node, which provides more detailed error output:
+   1. For detailed error output, add the following line to the `web.config` file within the `<system.webServer>` node, which provides more detailed error output:
 
       ```xml
       <httpErrors errorMode="Detailed"></httpErrors>
       ```
 
-   1. Try restarting the App Service after installing new packages. A restart isn't necessary when changing the _web.config_ file, as App Service does an automatic restart whenever the _web.config_ file changes.
+   1. Try restarting the App Service after installing new packages. A restart isn't necessary when changing the `web.config` file, as App Service does an automatic restart whenever the `web.config` file changes.
 
       > [!TIP]
-      > If you make any changes to your app's _requirements.txt_ file, be sure to again use the Kudu console to install any packages that are now listed in that file.
+      > If you make any changes to your app's `requirements.txt` file, be sure to again use the Kudu console to install any packages that are now listed in that file.
 
 1. After you fully configure the server environment, refresh the page in the browser to see the web app:
 
@@ -245,14 +245,14 @@ Follow these steps to publish your Python web app to Azure App Service in Visual
 
 As part of this process, Visual Studio also completes the following steps:
 
-- Creates a _web.config_ file on the server that contains appropriate pointers to the app's `wsgi_app` function and to App Service's default Python 3.4 interpreter.
-- Turns off processing for files in the project's _static_ folder. (The rules for this action are in the _web.config_ file.)
+- Creates a `web.config` file on the server that contains appropriate pointers to the app's `wsgi_app` function and to App Service's default Python 3.4 interpreter.
+- Turns off processing for files in the project's *static* folder. (The rules for this action are in the `web.config` file.)
 - Publishes the virtual environment to the server.
-- Adds a _web.debug.config_ file and the debugging tools to enable remote debugging. For Visual Studio 2019 version 16.4 and earlier, the debugging tools are ptvsd. For Visual Studio 2019 version 16.5 and later, the debugging tools are debugpy.
+- Adds a `web.debug.config` file and the debugging tools to enable remote debugging. For Visual Studio 2019 version 16.4 and earlier, the debugging tools are ptvsd. For Visual Studio 2019 version 16.5 and later, the debugging tools are debugpy.
 
-As mentioned earlier, these automatic steps simplify the publishing process, but they can make it more difficult to control the Python environment. For example, the _web.config_ file is created only on the server but not added to your project. The publishing process also takes longer because it's copying the whole virtual environment from your development computer rather than relying on the server configuration.
+As mentioned earlier, these automatic steps simplify the publishing process, but they can make it more difficult to control the Python environment. For example, the `web.config` file is created only on the server but not added to your project. The publishing process also takes longer because it's copying the whole virtual environment from your development computer rather than relying on the server configuration.
 
-Eventually, you might want to maintain your own _web.config_ file and use the _requirements.txt_ file to maintain packages on the server directly. When you use the _requirements.txt_ file, in particular, you can help guarantee that your development and server environments always match.
+Eventually, you might want to maintain your own `web.config` file and use the `requirements.txt` file to maintain packages on the server directly. When you use the `requirements.txt` file, in particular, you can help guarantee that your development and server environments always match.
 
 ## Related content
 

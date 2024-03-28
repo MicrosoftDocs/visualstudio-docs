@@ -40,43 +40,42 @@ VSIXUtil createVsixFeed -source [sourceValue] -output [outputValue]– filename 
 
 * Search VSIX files from the location *C:\extensions* and create the feed at location *C:\extensions*. 
 
-	```csharp
-	VsixUtil createVsixFeed -source C:\extensions -output C:\extensions 
-	``` 
+    ```csharp
+    VsixUtil createVsixFeed -source C:\extensions -output C:\extensions 
+    ``` 
 
 * Search VSIX files from the location *C:\extensions*, create the feed at location *C:\extensions* and skip the invalid VSIX files (if any). 
 
-	```csharp
-	VsixUtil createVsixFeed -source C:\extensions -output C:\extensions -ignoreErrors 
-	``` 
-    This command will not include the invalid VSIX files in the feed. 
- 
+    ```csharp
+    VsixUtil createVsixFeed -source C:\extensions -output C:\extensions -ignoreErrors 
+    ```
+
+    This command will not include the invalid VSIX files in the feed.
 
 * Search VSIX files from the location *C:\extensions* and all its subdirectories, then create the feed at the location *C:\extensions*. 
 
-	```csharp
-	VsixUtil createVsixFeed -source C:\extensions -output C:\extensions  -recursive 
-	``` 
+    ```csharp
+    VsixUtil createVsixFeed -source C:\extensions -output C:\extensions  -recursive 
+    ```
 
 * Search VSIX files from the location *C:\extensions* and create the feed name `PreProdFeed` at the location *C:\extensions*.  
 
-	```csharp
-	VsixUtil createVsixFeed -source C:\extensions -output C:\extensions -ignoreErrors  -recursive -fileName "PreProdFeed"
-	```
+    ```csharp
+    VsixUtil createVsixFeed -source C:\extensions -output C:\extensions -ignoreErrors  -recursive -fileName "PreProdFeed"
+    ```
 
 * You can run the tool under the directory where VSIX files are located, and then run the below command to generate the feed at the same location. 
 
-	```csharp
-	VsixUtil createVsixFeed 
-	```
+    ```csharp
+    VsixUtil createVsixFeed 
+    ```
 
 * Create a feed from the local repository, for example, *c:\localExtensionProjectRepo* 
  
-	```csharp
-	VsixUtil createVsixFeed –source c:\localExtensionProjectRepo -recursive 
-	```
+    ```csharp
+    VsixUtil createVsixFeed –source c:\localExtensionProjectRepo -recursive 
+    ```
 
-   
 The install location for the VsixUtil tool is *{VS Install Path}\VSSDK\VisualStudioIntegration\Tools\Bin\VsixUtil.exe*. You can also download the latest version of [Microsoft.VSSDK.BuildTools](https://www.nuget.org/packages/Microsoft.VSSDK.BuildTools/) that ships the VSIX Utility.
     
 

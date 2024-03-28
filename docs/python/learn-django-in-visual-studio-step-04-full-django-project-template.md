@@ -262,7 +262,7 @@ The _app/templates/app_ folder contains two more HTML page templates. The _login
 
 ### Indent {% block %} and {% endblock %} tags in templates
 
-The HTML samples show markup provided in the page templates in Visual Studio. Notice that the `block` tags aren't indented in the markup. To clearly show the location of the `block` tags, Visual Studio page templates don't indent these tags.
+The HTML samples show markup provided in the page template in Visual Studio. Notice that the `block` tags aren't indented in the markup. To clearly show the location of the `block` tags, Visual Studio page templates don't indent these tags.
 
 However, Django page templates work fine if you indent the `block` tags. Some developers prefer to align the tags within their appropriate parent HTML elements. 
 

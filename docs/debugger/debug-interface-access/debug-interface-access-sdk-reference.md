@@ -1,6 +1,6 @@
 ---
-description: "A complete reference to all of the interfaces and supporting enumerations and structures in the DIA SDK."
-title: "Debug Interface Access SDK Reference"
+description: A complete reference to all of the interfaces and supporting enumerations and structures in the DIA SDK.
+title: Debug Interface Access SDK Reference
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -14,6 +14,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # Debug Interface Access SDK Reference
 
 A complete reference to all of the interfaces and supporting enumerations and structures in the DIA SDK.

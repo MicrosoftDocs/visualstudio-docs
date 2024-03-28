@@ -404,7 +404,7 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
 
 2. The command to open the tool window.
 
-   In the *.vsct* file for the package, edit the tool window's command button:
+   In the `.vsct` file for the package, edit the tool window's command button:
 
    ```xml
    <Button guid="guidPackageCmdSet" id="CommandId" priority="0x0100" type="Button">
@@ -447,7 +447,7 @@ These are the key places to use monikers in a tool window. Follow the instructio
    - See step #2 of the "How do I use image monikers in a new tool window?" section above.
 
 ## How do I use image monikers in a .vsct file?
- Update your *.vsct* file as indicated by the commented lines below:
+ Update your `.vsct` file as indicated by the commented lines below:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -489,7 +489,7 @@ These are the key places to use monikers in a tool window. Follow the instructio
 
  **What if my .vsct file also needs to be read by older versions of Visual Studio?**
 
- Older versions of Visual Studio do not recognize the **IconIsMoniker** command flag. You can use images from the image service on versions of Visual Studio that support it, but continue to use old-style images on older versions of Visual Studio. To do this, you'd leave the *.vsct* file unchanged (and therefore compatible with older versions of Visual Studio), and create a CSV (comma-separated values) file that maps from GUID/ID pairs defined in a *.vsct* file's \<Bitmaps> element to image moniker GUID/ID pairs.
+ Older versions of Visual Studio do not recognize the **IconIsMoniker** command flag. You can use images from the image service on versions of Visual Studio that support it, but continue to use old-style images on older versions of Visual Studio. To do this, you'd leave the `.vsct` file unchanged (and therefore compatible with older versions of Visual Studio), and create a CSV (comma-separated values) file that maps from GUID/ID pairs defined in a `.vsct` file's \<Bitmaps> element to image moniker GUID/ID pairs.
 
  The format of the mapping CSV file is:
 
@@ -653,7 +653,7 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 ### Samples
  Several of the Visual Studio samples on GitHub have been updated to show how to use the image service as part of various Visual Studio extensibility points.
 
- Check [http://github.com/Microsoft/VSSDK-Extensibility-Samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples) for the latest samples.
+ Check [`http://github.com/Microsoft/VSSDK-Extensibility-Samples`](https://github.com/Microsoft/VSSDK-Extensibility-Samples) for the latest samples.
 
 ### Tooling
  A set of support tools for the Image Service was created to aid in creating/updating UI that works with the Image Service. For more information about each tool, check the documentation that comes with the tools. The tools are included as part of the [Visual Studio 2015 SDK](visual-studio-sdk.md).
@@ -664,7 +664,7 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 
  **ManifestToCode**
 
- The Manifest to Code tool takes an image manifest file and generates a wrapper file for referencing the manifest values in code (C++, C#, or VB) or *.vsct* files.
+ The Manifest to Code tool takes an image manifest file and generates a wrapper file for referencing the manifest values in code (C++, C#, or VB) or `.vsct` files.
 
  **ImageLibraryViewer**
 
@@ -678,7 +678,7 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 
 - How do I deploy an image manifest with my extension?
 
-  - Add the *.imagemanifest* file to your project.
+  - Add the `.imagemanifest` file to your project.
 
   - Set "Include in VSIX" to True.
 

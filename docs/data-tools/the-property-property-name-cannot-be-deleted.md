@@ -1,6 +1,6 @@
 ---
 title: The property cannot be deleted
-description: 'The property cannot be deleted. View information about this Visual Studio Object Relational Designer (O/R Designer) message.'
+description: The property cannot be deleted. View information about this Visual Studio Object Relational Designer (O/R Designer) message.
 ms.date: 11/04/2016
 ms.topic: error-reference
 author: ghogen
@@ -8,6 +8,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # The property \<property name> cannot be deleted
 
 The property \<property name> cannot be deleted because it is set as the **Discriminator Property** for the inheritance between \<class name> and \<class name>

@@ -13,6 +13,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # N-tier .NET Framework data applications overview
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
@@ -30,6 +31,7 @@ Visual Studio contains several features to help developers create n-tier applica
 - [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index) provides the <xref:System.Data.Linq.Table%601.Attach%2A> method that enables you to bring together the DataContext from different tiers in an application. For more information, see [N-Tier and remote applications with LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/n-tier-and-remote-applications-with-linq-to-sql).
 
 ## Presentation tier
+
 The *presentation tier* is the tier in which users interact with an application. It often contains additional application logic also. Typical presentation tier components include the following:
 
 - Data binding components, such as the <xref:System.Windows.Forms.BindingSource> and <xref:System.Windows.Forms.BindingNavigator>.
@@ -39,6 +41,7 @@ The *presentation tier* is the tier in which users interact with an application.
 The presentation tier typically accesses the middle tier by using a service reference (for example, a [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md) application). The presentation tier does not directly access the data tier. The presentation tier communicates with the data tier by way of the data access component in the middle tier.
 
 ## Middle tier
+
 The *middle tier* is the layer that the presentation tier and the data tier use to communicate with each other. Typical middle tier components include the following:
 
 - Business logic, such as business rules and data validation.
@@ -59,6 +62,7 @@ Middle tier
 The middle tier typically connects to the data tier by using a data connection. This data connection is typically stored in the data access component.
 
 ## Data tier
+
 The *data tier* is basically the server that stores an application's data (for example, a server running SQL Server).
 
 The following illustration shows features and technologies that are available in Visual Studio and where they might fit in to the data tier of an n-tier application.
@@ -69,6 +73,7 @@ Data tier
 The data tier cannot be accessed directly from the client in the presentation tier. Instead, the data access component in the middle tier is used for communication between the presentation and data tiers.
 
 ## Help for n-tier development
+
 The following topics provide information about working with n-tier applications:
 
 [Separate datasets and TableAdapters into different projects](../data-tools/separate-datasets-and-tableadapters-into-different-projects.md)

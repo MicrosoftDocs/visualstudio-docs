@@ -116,9 +116,9 @@ You can take and compare snapshots of the heap, optimize memory usage, and find 
 
 A *dump file* is a snapshot that shows the process that was executing and modules that were loaded for an app at a point in time. A dump with heap information also includes a snapshot of the app's memory at that point. Dumps are mostly used to debug issues from machines that developers don't have access to.
 
-If you need to save a dump file, select select **Debug > Save Dump As**.
+If you need to save a dump file, select select **Debug > Save Dump As**.
 
-To analyze a dump file, choose **File > Open** in Visual Studio. To start debugging using the dump file, select **Debug with Managed Only**, **Debug with Native Only**, **Debug with Mixed**, or **Debug with Managed Memory**.
+To analyze a dump file, choose **File > Open** in Visual Studio. To start debugging using the dump file, select **Debug with Managed Only**, **Debug with Native Only**, **Debug with Mixed**, or **Debug with Managed Memory**.
 
 For more information, see [Dump files](using-dump-files.md).
 

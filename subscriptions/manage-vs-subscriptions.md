@@ -72,7 +72,7 @@ You can easily change the contact information and preferences in your profile.
 
 ### Setting communications preferences
 
-To receive periodic updates and newsletters about your subscription and benefits, [update your preferences](https://app.vsaex.visualstudio.com/me?workflowID=devprogram&tab=edit) and check the box for Visual Studio Subscriptions in your Visual Studio profile. You can change these preferences and unsubscribe at any time. 
+To receive periodic updates and newsletters about your subscription and benefits, [update your preferences](https://app.vsaex.visualstudio.com/me?workflowID=devprogram&tab=edit) and check the box for Visual Studio Subscriptions in your Visual Studio profile. You can change these preferences and unsubscribe at any time. 
 
    > [!div class="mx-imgBorder"]
    > ![Setting Preferences](_img/manage-vs-subscriptions/change-prefs.png "Screenshot of profile editing dialog. The option to receive Visual Studio subscriptions emails is highlighted. ")

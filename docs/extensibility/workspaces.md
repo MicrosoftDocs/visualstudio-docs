@@ -19,7 +19,7 @@ Both concepts use a [factory pattern](https://en.wikipedia.org/wiki/Factory_meth
 
 One difference between providers and services is their relation to the workspace. A workspace can have many providers of a particular type, but only one service of a particular type is created per workspace. For example, a workspace has many file scanner providers but the workspace has only one indexing service per workspace.
 
-Another key difference is consumption of data from providers and services. The workspace is the entry point to get data from providers for a couple reasons. First, providers typically have some narrow set of data they create. The data might be symbols for a C# source file or build file contexts for a _CMakeLists.txt_ file. The workspace will match a consumer's request to the providers whose metadata align with the request. Second, some scenarios allow for many providers to contribute to a request while others scenarios use the provider with highest priority.
+Another key difference is consumption of data from providers and services. The workspace is the entry point to get data from providers for a couple reasons. First, providers typically have some narrow set of data they create. The data might be symbols for a C# source file or build file contexts for a `CMakeLists.txt` file. The workspace will match a consumer's request to the providers whose metadata align with the request. Second, some scenarios allow for many providers to contribute to a request while others scenarios use the provider with highest priority.
 
 In contrast, extensions can get instances of and interact directly with workspace services. Extension methods on `IWorkspace` are available for the services provided by Visual Studio, such as <xref:Microsoft.VisualStudio.Workspace.WorkspaceServiceHelper.GetFileWatcherService%2A>. Your extension may offer a workspace service for components within your extension or for other extensions to consume. Consumers should use <xref:Microsoft.VisualStudio.Workspace.WorkspaceServiceHelper.GetServiceAsync%2A> or an extension method you provide on the `IWorkspace` type.
 
@@ -42,7 +42,7 @@ On closure of a workspace, extenders might need to dispose but call asynchronous
 
 Workspaces have an <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettingsManager> service with simple but powerful control over a workspace. For a basic overview of settings, see [Customize build and debug tasks](../ide/customize-build-and-debug-tasks-in-visual-studio.md).
 
-Settings for most `SettingsType` types are _.json_ files, such as _VSWorkspaceSettings.json_ and _tasks.vs.json_.
+Settings for most `SettingsType` types are `.json` files, such as `VSWorkspaceSettings.json` and *tasks.vs.json*.
 
 The power of workspace settings centers around "scopes", which are simply paths within the workspace. When a consumer calls <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettingsManager.GetAggregatedSettings%2A>, all the scopes that include the requested path and type of setting are aggregated. Scope aggregation priority is as follows:
 
@@ -52,7 +52,7 @@ The power of workspace settings centers around "scopes", which are simply paths 
 1. All further parent directories up to and including the workspace root.
 1. "Global settings", which is in a user directory.
 
-The result is an instance of <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettings>. This object holds the settings for a particular type, and can be queried for setting key names stored as `string`. The <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettings.GetProperty%2A> methods and <xref:Microsoft.VisualStudio.Workspace.Settings.WorkspaceSettingsExtensions> extension methods expect the caller to know the type of the setting value being requested. As most settings files are persisted as _.json_ files, many invocations will use `string`, `bool`, `int`, and arrays of those types. Object types are also supported. In those cases, you can use `IWorkspaceSettings` itself as the type argument. For example:
+The result is an instance of <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettings>. This object holds the settings for a particular type, and can be queried for setting key names stored as `string`. The <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettings.GetProperty%2A> methods and <xref:Microsoft.VisualStudio.Workspace.Settings.WorkspaceSettingsExtensions> extension methods expect the caller to know the type of the setting value being requested. As most settings files are persisted as `.json` files, many invocations will use `string`, `bool`, `int`, and arrays of those types. Object types are also supported. In those cases, you can use `IWorkspaceSettings` itself as the type argument. For example:
 
 ```json
 {
@@ -69,7 +69,7 @@ The result is an instance of <xref:Microsoft.VisualStudio.Workspace.Settings.IWo
 }
 ```
 
-Assuming these settings were in a user's _VSWorkspaceSettings.json_, the data can be accessed as:
+Assuming these settings were in a user's *VSWorkspaceSettings.json*, the data can be accessed as:
 
 ```csharp
 using System.Collections.Generic;
