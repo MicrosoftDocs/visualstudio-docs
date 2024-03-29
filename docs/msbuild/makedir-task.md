@@ -36,20 +36,26 @@ In addition to the parameters listed above, this task inherits parameters from t
 
 ## Example
 
-The following code example uses the `MakeDir` task to create the directory specified by the `OutputDirectory` property.
+The following code example uses the `MakeDir` task to create the `Output` directory at the root of the drive, specified by the `OutputDirectory` property, andalso shows how to create multiple directories, delimited by semicolons, and also how to create the directories using an item `@(Folders)`:
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-
+<Project>
     <PropertyGroup>
         <OutputDirectory>\Output\</OutputDirectory>
     </PropertyGroup>
 
+    <ItemGroup>
+        <Folders Include="FolderA;FolderB;FolderC"></Folders>
+    </ItemGroup>
+
     <Target Name="CreateDirectories">
         <MakeDir
             Directories="$(OutputDirectory)"/>
+        <MakeDir 
+           Directories="Folder1;Folder2"/>
+        <MakeDir
+           Directories="@(Folders)"></MakeDir>
     </Target>
-
 </Project>
 ```
 
