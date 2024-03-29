@@ -42,7 +42,7 @@ Visual Studio provides tools for working with Windows Communication Foundation (
 
 ## What Is WCF?
 
-Windows Communication Foundation (WCF) is a unified framework for creating secure, reliable, transacted, and interoperable distributed applications. It replaces older interprocess communication technologies such as ASMX web services, .NET Remoting, Enterprise Services (Distributed Component Object Model (DCOM)), and Microsoft Message Queue (MSMQ). WCF brings together the functionality of all those technologies under a unified programming model. This simplifies the experience of developing distributed applications.
+Windows Communication Foundation (WCF) is a unified framework for creating secure, reliable, transacted, and interoperable distributed applications. It replaces older interprocess communication technologies such as ASMX web services, .NET Remoting, Enterprise Services (Distributed Component Object Model (DCOM)), and Microsoft Message Queuing (MSMQ). WCF brings together the functionality of all those technologies under a unified programming model. This simplifies the experience of developing distributed applications.
 
 ### What are WCF Data Services
 

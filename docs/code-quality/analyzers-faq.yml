@@ -41,7 +41,7 @@ sections:
           > - EditorConfig files can only be used to enable rules and set their severity in Visual Studio 2019 version 16.3 and later.
           > - EditorConfig files cannot be used to configure legacy analysis, whereas rule sets can.
 
-  - name: Code analysis in CI builds
+  - name: Code analysis in continuous integration (CI) builds
     questions:
       - question: |
           Does .NET Compiler Platform-based code analysis work in continuous integration (CI) builds?
