@@ -1,20 +1,20 @@
 ---
 title: About GitHub Copilot Completions in Visual Studio
 description: Use GitHub Copilot completions in Visual Studio to use AI assistance to generate information about your code, including suggested edits and new code snippets.
-ms.date: 2/28/2024
+ms.date: 4/09/2024
 ms.topic: overview 
 author: anandmeg
 ms.author: meghaanand
 ms.manager: mijacobs
 ms.subservice: ai-tools
-monikerRange: vs-2022
+monikerRange: '>= vs-2022'
 content_well_notification: 
   - AI-contribution
 ai-usage: ai-assisted
 ---
 # What is the GitHub Copilot extension for Visual Studio?
 
-[**GitHub Copilot**](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs) and [GitHub Copilot Chat](https://aka.ms/VSXGHCopilot) extensions in Visual Studio enable enhanced [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md), helping you be more productive and efficient when writing code.
+[**GitHub Copilot**](visual-studio-github-copilot-install-and-states.md) and [GitHub Copilot Chat](visual-studio-github-copilot-chat.md) extensions in Visual Studio enable enhanced [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md), helping you be more productive and efficient when writing code.
 
 In this article, you learn about Copilot, an AI-powered pair programmer for Visual Studio that provides you with context-aware code completions, suggestions, and even entire code snippets. This powerful tool aids [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md) and helps developers write code more efficiently, reduce the time spent on repetitive tasks, and minimize errors.
 
@@ -39,6 +39,11 @@ To get started, you need:
   > GitHub Copilot is free for verified students and for maintainers of popular open source projects on GitHub. If you are not a student or maintainer of a popular open source project, you can [try GitHub Copilot for free with a one-time 30-day trial](https://github.com/settings/copilot). After the free trial, you will need a [paid subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) for continued use.
 
 GitHub Copilot supports several programming languages and frameworks, including but not limited to: C#, C++, and Python.
+
+## Get GitHub Copilot for Visual Studio
+
+- If you're using Visual Studio version 17.10 Preview 3 or later, you [already have the new unified GitHub Copilot extension installed](visual-studio-github-copilot-install-and-states.md#get-github-copilot-for-visual-studio-2022-version-1710-preview-3-or-later) that combines GitHub Copilot and GitHub Copilot Chat into a single extension.
+- If you're using Visual Studio versions 17.9 or earlier, [install the GitHub Copilot extension](visual-studio-github-copilot-install-and-states.md#install-github-copilot-chat).
 
 ## Exploring GitHub Copilot
 

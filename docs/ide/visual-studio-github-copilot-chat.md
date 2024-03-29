@@ -1,13 +1,13 @@
 ---
 title: About GitHub Copilot Chat in Visual Studio
 description: Learn about the fully integrated AI-powered GitHub Copilot Chat extension in Visual Studio, and how you can use the chat interface to ask and receive answers to coding-related questions from right within the IDE.
-ms.date: 1/17/2024
+ms.date: 4/09/2024
 ms.topic: overview 
 author: anandmeg
 ms.author: meghaanand
 ms.manager: mijacobs
 ms.subservice: ai-tools
-monikerRange: vs-2022
+monikerRange: '>= vs-2022'
 ---
 # What is the GitHub Copilot Chat extension for Visual Studio?
 
@@ -33,18 +33,13 @@ Copilot Chat provides AI assistance to help you make informed decisions and writ
 To get started, you need:
 + Visual Studio 2022 [version 17.8](/visualstudio/releases/2022/release-history) or later
 + Active [subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) to [GitHub Copilot for Individuals](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-individuals) or [GitHub Copilot for Business](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-business)
-+ [**GitHub Copilot** extension](visual-studio-github-copilot-extension.md#installation-instructions) in Visual Studio
++ [**GitHub Copilot**](visual-studio-github-copilot-install-and-states.md) in Visual Studio
 + Sign in to Visual Studio with the GitHub account that has an active GitHub Copilot subscription
 
-## Install the Visual Studio extension
+## Get GitHub Copilot Chat for Visual Studio
 
-To install the GitHub Copilot Chat extension in Visual Studio:
-
-1. Open Visual Studio.
-1. On the menu bar, select **Extensions** > **Manage Extensions**.
-1. In the Search box, enter "GitHub Copilot Chat".
-1. Select the **GitHub Copilot Chat** extension, and then select the **Download** button.
-1. Restart Visual Studio to complete the installation process.
+- If you're using Visual Studio version 17.10 Preview 3 or later, you [already have the new unified GitHub Copilot extension installed](visual-studio-github-copilot-install-and-states.md#get-github-copilot-for-visual-studio-2022-version-1710-preview-3-or-later) that combines GitHub Copilot and GitHub Copilot Chat into a single extension.
+- If you're using Visual Studio versions 17.9 or earlier, [install the GitHub Copilot Chat extension](visual-studio-github-copilot-install-and-states.md#install-github-copilot-chat).
 
    > [!NOTE]
    > If you experience authentication issues after installing the extension, see [Troubleshooting authentication issues with GitHub Copilot Chat](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-authentication-issues-with-github-copilot-chat).

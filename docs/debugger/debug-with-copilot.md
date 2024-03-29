@@ -1,7 +1,7 @@
 ---
 title: Debug with GitHub Copilot
 description: Use Copilot to help debug your apps and provide performance insights.
-ms.date: 03/04/2024
+ms.date: 04/09/2024
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -37,8 +37,8 @@ To get started, you need:
 
 + Visual Studio 2022 [version 17.8](/visualstudio/releases/2022/release-history) or later
 + Active [subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) to [GitHub Copilot for Individuals](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-individuals) or [GitHub Copilot for Business](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-business)
-+ [**GitHub Copilot** extension](../ide/visual-studio-github-copilot-extension.md#installation-instructions) in Visual Studio
-+ [**GitHub Copilot Chat** extension](../ide/visual-studio-github-copilot-chat.md#install-the-visual-studio-extension)
++ [**GitHub Copilot**](../ide/visual-studio-github-copilot-install-and-states.md) in Visual Studio
++ [**GitHub Copilot Chat**](../ide/visual-studio-github-copilot-chat.md#get-github-copilot-chat-for-visual-studio)
 
    > [!NOTE]
    > If you experience authentication issues after installing the extension, see [Troubleshooting authentication issues with GitHub Copilot Chat](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-authentication-issues-with-github-copilot-chat).
