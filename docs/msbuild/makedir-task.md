@@ -1,7 +1,7 @@
 ---
 title: MakeDir Task
 description: Learn how MSBuild uses the MakeDir task to create directories and, if necessary, any parent directories.
-ms.date: 11/04/2016
+ms.date: 03/29/2024
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/msbuild/2003#MakeDir
@@ -36,20 +36,26 @@ In addition to the parameters listed above, this task inherits parameters from t
 
 ## Example
 
-The following code example uses the `MakeDir` task to create the directory specified by the `OutputDirectory` property.
+The following code example uses the `MakeDir` task to create the `Output` directory at the root of the drive, specified by the `OutputDirectory` property, andalso shows how to create multiple directories, delimited by semicolons, and also how to create the directories using an item `@(Folders)`:
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-
+<Project>
     <PropertyGroup>
         <OutputDirectory>\Output\</OutputDirectory>
     </PropertyGroup>
 
+    <ItemGroup>
+        <Folders Include="FolderA;FolderB;FolderC"></Folders>
+    </ItemGroup>
+
     <Target Name="CreateDirectories">
         <MakeDir
             Directories="$(OutputDirectory)"/>
+        <MakeDir 
+           Directories="Folder1;Folder2"/>
+        <MakeDir
+           Directories="@(Folders)"></MakeDir>
     </Target>
-
 </Project>
 ```
 
