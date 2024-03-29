@@ -250,12 +250,14 @@ Remote debugging has the following limitations:
 
 ::: moniker range=">=vs-2022"
 
-## Debugging Azure App Services
+<a name='debugging-azure-app-services'></a>
 
-You can debug programs that run in Azure App Services by using the Attach to Process dialog in Visual Studio.
+## Debugging Azure App Service
+
+You can debug programs that run in Azure App Service by using the Attach to Process dialog in Visual Studio.
 
 > [!NOTE]
-> This is only available for Windows Azure App Services starting in Visual Studio 2022 17.1.
+> This is only available for Azure App Service starting in Visual Studio 2022 17.1.
 
 ### To debug a Windows Azure App Service
 
@@ -265,7 +267,7 @@ You can debug programs that run in Azure App Services by using the Attach to Pro
 
 3. In the dialog box that opens, select the **Subscription name**.
 
-    ![Screenshot of Select Azure App Service Dialog, showing a list of App Services to select.](./media/vs-azure-tools-debug-cloud-services-virtual-machines/select-app-service.png)
+    ![Screenshot of Select Azure App Service Dialog, showing a list of app services to select.](./media/vs-azure-tools-debug-cloud-services-virtual-machines/select-app-service.png)
 
     > [!NOTE]
     > You need to be signed in to a Microsoft Account with access to the subscription that contains your Azure App Service.
