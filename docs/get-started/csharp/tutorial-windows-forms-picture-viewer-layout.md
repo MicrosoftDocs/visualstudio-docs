@@ -6,7 +6,7 @@ ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
 ms.topic: tutorial
-ms.date: 03/28/2024
+ms.date: 03/29/2024
 #customer intent: As a developer, I want to learn how to use Visual Studio to create C# or VB WinForms projects, starting with adding a layout element.
 ---
 # Tutorial: Create a picture viewer Windows Forms app in Visual Studio
