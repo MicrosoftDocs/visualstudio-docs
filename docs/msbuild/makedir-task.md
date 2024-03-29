@@ -28,7 +28,7 @@ The following table describes the parameters of the `MakeDir` task.
 |Parameter|Description|
 |---------------|-----------------|
 |`Directories`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> The set of directories to create.|
-|`DirectoriesCreated`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> The directories that are created by this task. If some directories could not be created, this may not contain all of the items that were passed into the `Directories` parameter.|
+|`DirectoriesCreated`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> The directories that are created by this task. If some directories couldn't be created, this may not contain all of the items that were passed into the `Directories` parameter.|
 
 ## Remarks
 
@@ -36,7 +36,7 @@ In addition to the parameters listed above, this task inherits parameters from t
 
 ## Example
 
-The following code example uses the `MakeDir` task to create the `Output` directory at the root of the drive, specified by the `OutputDirectory` property, andalso shows how to create multiple directories, delimited by semicolons, and also how to create the directories using an item `@(Folders)`:
+The following code example uses the `MakeDir` task to create the `Output` directory at the root of the drive, specified by the `OutputDirectory` property, and also shows how to create multiple directories, delimited by semicolons, and also how to create the directories using an item `@(Folders)`:
 
 ```xml
 <Project>
