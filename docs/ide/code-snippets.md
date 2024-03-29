@@ -1,7 +1,7 @@
 ---
 title: Create and reuse code block snippets
 description: Explore code snippets, which are small blocks of reusable code that you can insert into a code file, such as `try-finally` or `if-else` blocks, classes, or methods.
-ms.date: 12/14/2022
+ms.date: 03/29/2024
 ms.topic: conceptual
 f1_keywords:
 - vs.ExpansionManagerImport
