@@ -62,7 +62,7 @@ In all cases, Visual Studio tries to set the GitHub secret for you with the corr
 
 ![GitHub secret missing](./media/azure-deployment-using-github-actions/summary-one-github-secret-missing.png)
 
-If it fails to set the secret again, Visual Studio gives you the opportunity to get access to the secret manually, so you can complete the process through your repo's page on github.com.
+If it fails to set the secret again, Visual Studio gives you the opportunity to get access to the secret manually, so you can complete the process through your repo's page on GitHub.com.
 
 ![set missing GitHub secret](./media/azure-deployment-using-github-actions/summary-set-github-secret.png)
 

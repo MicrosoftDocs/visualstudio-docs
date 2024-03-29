@@ -13,7 +13,7 @@ ms.topic: include
 Now that you have an application, you might want to add it to a Git repository. Visual Studio makes that process easy with Git tools you can use directly from the IDE.
 
 > [!TIP]
-> Git is the most widely used modern version control system. Whether you're a professional developer or you're learning how to code, Git can be very useful. If you're new to Git, the [https://git-scm.com/](https://git-scm.com/) website is a good place to start. You can find cheat sheets, a popular online book, and Git Basics videos.
+> Git is the most widely used modern version control system. Whether you're a professional developer or you're learning how to code, Git can be very useful. If you're new to Git, the [`https://git-scm.com/`](https://git-scm.com/) website is a good place to start. You can find cheat sheets, a popular online book, and Git Basics videos.
 
 To associate your code with Git, start by creating a new Git repository where your code is located:
 

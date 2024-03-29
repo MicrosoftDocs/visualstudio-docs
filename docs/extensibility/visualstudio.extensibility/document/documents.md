@@ -12,7 +12,7 @@ ms.date: 02/10/2023
 # Extend Visual Studio documents
 
 A document is the in-memory representation of a file that is opened in Visual Studio.  It is referred to by
-_moniker_, which is an absolute `Uri` using the `file://` scheme.  A document is represented by the `DocumentSnapshot`
+*moniker*, which is an absolute `Uri` using the `file://` scheme.  A document is represented by the `DocumentSnapshot`
 class, which has the following properties:
 
 - `Moniker`

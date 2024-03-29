@@ -179,13 +179,14 @@ You can also check or uncheck the boxes of the parent groups in the hierarchy. T
 If you would like to make a playlist for traits, use the following format for MSTest.
 ```xml
 <Playlist Version="2.0">
-	<Rule Name="Includes" Match="Any">
-		<Property Name="Trait" Value="SchemaUpdateBasic" />
-	</Rule>
+  <Rule Name="Includes" Match="Any">
+    <Property Name="Trait" Value="SchemaUpdateBasic" />
+  </Rule>
 </Playlist>
 ```
 
 Use the following format for xUnit. Make sure there is a space between your `TestCategory` name and the `[Value]`.
+
 ```xml
 <Playlist Version="2.0">
   <Rule Name="Includes" Match="Any">
@@ -193,8 +194,8 @@ Use the following format for xUnit. Make sure there is a space between your `Tes
       <Property Name="Solution" />
         <Rule Match="Any">
             <Property Name="Trait" Value="TestCategory [Value]" />
-	    </Rule>
-	</Rule>
+        </Rule>
+    </Rule>
   </Rule>
 </Playlist>
 ```
@@ -227,15 +228,17 @@ You can also check or uncheck the boxes of the parent groups in the hierarchy. T
 ![Playlist xml file](../test/media/vs-2022/test-explorer-playlist-xml-file.png)
 
 If you would like to make a playlist for traits, use the following format for MSTest.
+
 ```xml
 <Playlist Version="2.0">
-	<Rule Name="Includes" Match="Any">
-		<Property Name="Trait" Value="SchemaUpdateBasic" />
-	</Rule>
+  <Rule Name="Includes" Match="Any">
+    <Property Name="Trait" Value="SchemaUpdateBasic" />
+  </Rule>
 </Playlist>
 ```
 
 Use the following format for xUnit. Make sure there is a space between your `TestCategory` name and the `[Value]`.
+
 ```xml
 <Playlist Version="2.0">
   <Rule Name="Includes" Match="Any">
@@ -243,8 +246,8 @@ Use the following format for xUnit. Make sure there is a space between your `Tes
       <Property Name="Solution" />
         <Rule Match="Any">
             <Property Name="Trait" Value="TestCategory [Value]" />
-	    </Rule>
-	</Rule>
+        </Rule>
+    </Rule>
   </Rule>
 </Playlist>
 ```

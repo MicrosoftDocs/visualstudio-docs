@@ -45,7 +45,7 @@ The client machines must be configured properly if they're going to recognize an
 
 The client computers must be enabled to receive Visual Studio administrator updates. This step is necessary to make sure that the updates aren't unintentionally or accidentally pushed out to unsuspecting client computers.
 
-The **AdministratorUpdatesEnabled** policy, implemented via a registry key, is designed for the administrator to encode administrator intent. For details on how to set this policy, refer to [Configure policies for enterprise deployments](configure-policies-for-enterprise-deployments.md#controlling-administrator-updates). Admin access on the client computer is required to create and set the value of this policy.
+The **AdministratorUpdatesEnabled** policy, implemented via a registry key, is designed for the administrator to encode administrator intent. For details on how to set this policy, refer to [Configure policies for enterprise deployments](configure-policies-for-enterprise-deployments.md#controlling-administrator-updates). Admin access on the client computer is required to create and set the value of this policy.
 
 ### Ensuring the account has the right privileges and permissions
 

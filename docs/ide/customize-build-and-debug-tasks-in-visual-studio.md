@@ -53,17 +53,17 @@ Consider a codebase that consists of a single C# file called *hello.cs*. The *ma
 build: directory hello.exe
 
 hello.exe: hello.cs
-	csc -debug hello.cs /out:bin\hello.exe
+    csc -debug hello.cs /out:bin\hello.exe
 
 clean:
-	del bin\hello.exe bin\hello.pdb
+    del bin\hello.exe bin\hello.pdb
 
 rebuild: clean build
 
 directory: bin
 
 bin:
-	md bin
+    md bin
 ```
 <!-- markdownlint-enable MD010 -->
 

@@ -37,7 +37,7 @@ The administrator update package doesn’t contain enough information to perform
 >[!NOTE] 
 > By default, the client machine's SYSTEM account will download and install the Visual Studio administrator updates, which means that the SYSTEM account must have administrative privileges to the machine, and it [must also have access to the internet or the network layout location in order to download the updated product bits](#methods-for-configuring-an-administrator-update).  
 
-Visual Studio administrator updates only apply to Visual Studio servicing versions that are still under support. For more information about which Visual Studio servicing baselines are still in support during a particular time frame, see [Visual Studio Product Lifecycle and Servicing](/visualstudio/productinfo/vs-servicing-vs). All supported Visual Studio servicing baselines will be kept secure.  
+Visual Studio administrator updates only apply to Visual Studio servicing versions that are still under support. For more information about which Visual Studio servicing baselines are still in support during a particular time frame, see [Visual Studio Product Lifecycle and Servicing](/visualstudio/productinfo/vs-servicing-vs). All supported Visual Studio servicing baselines will be kept secure.  
 
 ## Types and characteristics of administrator updates
 
@@ -51,7 +51,7 @@ There are three types of administrator updates to Visual Studio:
 
 ### Decoding the titles of administrator updates
 
-The title of each administrator update the resultant version of the update. For example,
+The title of each administrator update the resultant version of the update. For example,
 
 ::: moniker range="vs-2019"
 
@@ -129,35 +129,35 @@ The command-line parameters of an individual administrator update package can be
 
 You can use one of the following methods to verify that the administrator update was installed correctly:
 
-* On the client computer, start Visual Studio, select **Help** > **About**, and verify that the version number matches the last number in the title of the intended update.
-* Use the **vswhere** tool on the client machine to identify the various versions of Visual Studio on the computer. For more information, see [Tools for detecting and managing Visual Studio instances](../install/tools-for-managing-visual-studio-instances.md).
-* Each administrative update attempt generates several log files in the client machine’s `%temp%` directory that captures the progress of the update operation. Sort the folder by date and look for files that begin `dd_updatedriver`, `dd_bootstrapper`, `dd_client`, and `dd_setup` for the administrative updates, the bootstrapper, the Visual Studio Installer, and the setup engine, respectively. Verify that these log files contain a 0, indicating that the update was successfully applied. These log files can also be used to verify that the configuration file is being used. Refer to the [Visual Studio Log Collection Tool](https://www.microsoft.com/download/details.aspx?id=12493) for further details.
+* On the client computer, start Visual Studio, select **Help** > **About**, and verify that the version number matches the last number in the title of the intended update.
+* Use the **vswhere** tool on the client machine to identify the various versions of Visual Studio on the computer. For more information, see [Tools for detecting and managing Visual Studio instances](../install/tools-for-managing-visual-studio-instances.md).
+* Each administrative update attempt generates several log files in the client machine’s `%temp%` directory that captures the progress of the update operation. Sort the folder by date and look for files that begin `dd_updatedriver`, `dd_bootstrapper`, `dd_client`, and `dd_setup` for the administrative updates, the bootstrapper, the Visual Studio Installer, and the setup engine, respectively. Verify that these log files contain a 0, indicating that the update was successfully applied. These log files can also be used to verify that the configuration file is being used. Refer to the [Visual Studio Log Collection Tool](https://www.microsoft.com/download/details.aspx?id=12493) for further details.
 
 ### Error codes and conditions
 
 >[!IMPORTANT]
 > Remember that Visual Studio must be closed before you install the update. If Visual Studio is open or being used, the update installation will be canceled.
 
-Administrator updates may return the following return codes:  
+Administrator updates may return the following return codes:  
 
 | Error code | Definition                                                                                                    |
 |------------|---------------------------------------------------------------------------------------------------------------|
 | 0          | The administrative update was successfully installed.                                                         |
-| 1001       | Visual Studio Installer or a related setup process is running. The update is not applied.                     |
+| 1001       | Visual Studio Installer or a related setup process is running. The update is not applied.                     |
 | 1002       | Visual Studio Installer is paused. The update is not applied.                                                 |
-| 1003       | Visual Studio is in use, so the update was canceled. This condition can be overruled using the `--force` flag. |
-| 1004       | No internet detected. The update was unable to contact the internet location holding the updated files. The update is not applied. |
-| 1005       | The **AdministratorUpdatesEnabled** registry value is set to **0** or not set at all. The update is not applied. |
-| 1006       | The **AdministratorUpdatesOptOut** registry value is set to **1**. The update is not applied. The key is intended for client computers that should not be updated by the administrator. |
-| 1007       | The Visual Studio Installer is not installed.                                                                 |
+| 1003       | Visual Studio is in use, so the update was canceled. This condition can be overruled using the `--force` flag. |
+| 1004       | No internet detected. The update was unable to contact the internet location holding the updated files. The update is not applied. |
+| 1005       | The **AdministratorUpdatesEnabled** registry value is set to **0** or not set at all. The update is not applied. |
+| 1006       | The **AdministratorUpdatesOptOut** registry value is set to **1**. The update is not applied. The key is intended for client computers that should not be updated by the administrator. |
+| 1007       | The Visual Studio Installer is not installed.                                                                 |
 | 1009       | The Visual Studio instance is configured to use a layout, but the layout is missing packages to perform the update. |
-| 3010       | The system requires a reboot. The update may or may not have been applied. Reboot the computer and attempt the update again. |
+| 3010       | The system requires a reboot. The update may or may not have been applied. Reboot the computer and attempt the update again. |
 | 8006       | Update was canceled because VS related process is running                                                    |
 | 862968     | The update was successful, and a restart is recommended but not required.                                     |
 | 8007070    | Update was canceled because there's not enough room on disk.                                     |
-| Other      | Error occurred attempting to apply the update. The update is not applied.                                     |
+| Other      | Error occurred attempting to apply the update. The update is not applied.                                     |
 
-For an exhaustive list of client error codes, see [Use command-line parameters to install Visual Studio](./use-command-line-parameters-to-install-visual-studio.md#error-codes).
+For an exhaustive list of client error codes, see [Use command-line parameters to install Visual Studio](./use-command-line-parameters-to-install-visual-studio.md#error-codes).
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

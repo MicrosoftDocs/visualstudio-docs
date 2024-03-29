@@ -27,8 +27,8 @@ Here's an animated example of Sticky Scroll in a C++ file:
 
 ## Turn Sticky Scroll on or off
 
-1. From the Visual Studio menu bar, select **Tools** > **Options** > **Text Editor** > **General**. 
-1. In the **Sticky scroll** section, and toggle the **Group the current scopes within a scrollable region of the editor window** checkbox. 
+1. From the Visual Studio menu bar, select **Tools** > **Options** > **Text Editor** > **General**. 
+1. In the **Sticky scroll** section, and toggle the **Group the current scopes within a scrollable region of the editor window** checkbox. 
 
 If you want to turn Sticky Scroll off, you can do so from the editor by right-clicking in the Sticky Scroll header area and then selecting **Sticky Scroll**.
 

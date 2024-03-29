@@ -21,4 +21,4 @@ For more details, [view the Microsoft Visual Studio licensing whitepaper](https:
 
 Subscribers can view subscriptions available to them by checking the drop-down on [the benefits page in the subscriptions portal](https://my.visualstudio.com/benefits). 
 
-[Read more about the benefits](https://visualstudio.microsoft.com/vs/benefits/) or [compare pricing and features](https://visualstudio.microsoft.com/vs/pricing/) included in Visual Studio subscriptions.
+[Read more about the benefits](https://visualstudio.microsoft.com/vs/benefits/) or [compare pricing and features](https://visualstudio.microsoft.com/vs/pricing/) included in Visual Studio subscriptions.

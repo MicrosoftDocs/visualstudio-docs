@@ -96,7 +96,7 @@ sections:
 
           - **If my line of code has calls to different methods, can I step into a specific method?**
             
-            Right-click on the line of code to bring up a context menu that allows you to select ‘Step Into Specific’. This will show a list of all the methods that you could step into. 
+            Right-click on the line of code to bring up a context menu that allows you to select ‘Step Into Specific’. This will show a list of all the methods that you could step into. 
             You can now select the method of interest.  
 
       - question: |
@@ -113,7 +113,7 @@ sections:
           - **How can I view strings that are too long for the debugger window?**
           
             String Visualizer shows strings that are too long for a data tip or debugger window. It can also help you identify malformed strings.  
-            Built-in [string visualizer](view-strings-visualizer.md)  in Visual Studio include Text, XML, HTML, and JSON options.
+            Built-in [string visualizer](view-strings-visualizer.md)  in Visual Studio include Text, XML, HTML, and JSON options.
                                 
           - **How can I view large collection objects?**
           
@@ -172,8 +172,8 @@ sections:
         answer: |
           - **Can I see only user code while debugging?**
   
-            Just My Code is a Visual Studio debugging feature that automatically steps over calls to system, framework, and other non-user code. 
-            In the Call Stack window, Just My Code collapses these calls into [External Code] frames. 
+            Just My Code is a Visual Studio debugging feature that automatically steps over calls to system, framework, and other non-user code. 
+            In the Call Stack window, Just My Code collapses these calls into [External Code] frames. 
             See [Debug only user code with Just My Code](just-my-code.md)
 
           - **How can I view or debug the raw assembly instructions that my program is executing?** 
@@ -212,12 +212,12 @@ sections:
         answer: |
           - **Do I need to save a dump?**
 
-             While stopped at an error or breakpoint during debugging, select **Debug > Save Dump As**.
+             While stopped at an error or breakpoint during debugging, select **Debug > Save Dump As**.
              See [Dump files](using-dump-files.md)
 
           - **How do I analyze a dump file?**
 
-            Open the dump by choosing **File > Open** in Visual Studio. To start debugging, select **Debug with Managed Only**, **Debug with Native Only**, **Debug with Mixed**, or **Debug with Managed Memory**.
+            Open the dump by choosing **File > Open** in Visual Studio. To start debugging, select **Debug with Managed Only**, **Debug with Native Only**, **Debug with Mixed**, or **Debug with Managed Memory**.
             See [Dump files](using-dump-files.md)
 
           - **Can I edit code during a debugging session?**
