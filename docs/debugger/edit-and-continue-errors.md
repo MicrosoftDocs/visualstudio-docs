@@ -1,6 +1,6 @@
 ---
 title: Edit and Continue error messages
-description: Learn about the error messages that can occur when you use the edit and continue debugger functionality.
+description: Learn about the error messages that can occur when you use Hot Reload or Edit and Continue features.
 ms.date: 03/29/2024
 ms.topic: error-reference
 f1_keywords:
@@ -99,15 +99,16 @@ f1_keywords:
  - ENC1007
 helpviewer_keywords:
   - "Edit and Continue error messages"
+  - "Hot Reload error messages"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 
-# Edit and Continue error messages
+# Hot Reload and Edit and Continue error messages
 
-You might encounter one or more of these error messages during a debug session.
+You might encounter one or more of these error messages during a Hot Reload or a debug session.
 
 | Error code | Error text |
 | - | - |
