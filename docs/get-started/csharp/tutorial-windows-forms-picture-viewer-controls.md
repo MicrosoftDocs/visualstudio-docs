@@ -6,7 +6,7 @@ ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
 ms.topic: tutorial
-ms.date: 03/27/2024
+ms.date: 03/29/2024
 #customer intent: As a developer, I want to learn how to use controls with layout elements in a Visual Studio WinForms project in C# or VB.
 ---
 # Tutorial: Add controls to the picture viewer Windows Forms app in Visual Studio
