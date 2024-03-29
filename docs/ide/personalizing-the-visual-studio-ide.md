@@ -53,7 +53,7 @@ Many personalization options are exposed through the [Environment Options](../id
 
 To change the color theme between Dark, Light, Blue, and Blue (Extra Contrast), enter *theme* in the search box, and then choose **Environment** > **General**. In the **Options** dialog box, change the **Color theme** option.
 
-To change colorization options in the editor, enter *environment* in the search box, and then choose **Environment** > **Fonts and Colors**. See [How to: Change fonts and colors](../ide/how-to-change-fonts-and-colors-in-visual-studio.md).
+To change colorization options in the editor, enter *environment* in the search box, and then choose **Environment** > **Fonts and Colors**. See [Change fonts, colors, and themes](../ide/how-to-change-fonts-and-colors-in-visual-studio.md).
 
 ## Customize menus and toolbars
 
