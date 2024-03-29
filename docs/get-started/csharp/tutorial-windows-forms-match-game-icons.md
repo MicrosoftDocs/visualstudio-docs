@@ -110,7 +110,7 @@ This code uses the keyword `foreach` in C# or `For Each` in Visual Basic.
      The line is commented out here so you can verify the rest of the code before proceeding.
    - The last line in the `if` statement removes the icon that has been added to the form from the list.
 
-1. Add a call to the `AssignIconsToSquares()` method to the **Form1** _constructor_.
+1. Add a call to the `AssignIconsToSquares()` method to the **Form1** *constructor*.
    This method fills the game board with icons.
    Constructors are called when you create an object.
 

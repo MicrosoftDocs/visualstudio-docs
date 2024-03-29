@@ -35,7 +35,7 @@ However, you don't need a project or solution file in Visual Studio to debug you
 
 ## Explore basic debugging
 
-The basic debugging workflow involves settings breakpoints, stepping through code, inspecting values, and handling exceptions. You can start a debugging session by selecting **Debug** > **Start Debugging** or use the **F5** keyboard shortcut. For a project, these actions launch the _startup file_ with the project's active environment and any command-line arguments or search paths specified for **Project Properties**. To configure the properties, see [Set project debugging options](#configure-project-debugging-options).
+The basic debugging workflow involves settings breakpoints, stepping through code, inspecting values, and handling exceptions. You can start a debugging session by selecting **Debug** > **Start Debugging** or use the **F5** keyboard shortcut. For a project, these actions launch the *startup file* with the project's active environment and any command-line arguments or search paths specified for **Project Properties**. To configure the properties, see [Set project debugging options](#configure-project-debugging-options).
 
 ### Set the project startup file
 
@@ -79,7 +79,7 @@ You can customize the conditions under which a breakpoint is triggered, such as 
 
    :::image type="content" source="media/debugging-breakpoints-tracepoint.png" alt-text="Screenshot that shows how to create tracepoint actions for a breakpoint in Visual Studio." lightbox="media/debugging-breakpoints-tracepoint.png" border="false"::: 
 
-   Logging a message creates a _tracepoint_ that doesn't add logging code to your application directly.
+   Logging a message creates a *tracepoint* that doesn't add logging code to your application directly.
    
 Depending on how you configure conditions and actions for a breakpoint, the red icon in the left margin changes to indicate your settings. You might see the dot shape, a clock timer, or a diamond.
 
@@ -145,7 +145,7 @@ When an error occurs, you can inspect the current program state, including the c
 
    :::image type="content" source="media/debugging-exception-settings.png" alt-text="Screenshot that shows the Exceptions Settings window in the Visual Studio debugger." lightbox="media/debugging-exception-settings.png" border="false":::
 
-   In the **Exceptions Settings** window, the checkbox next an exception controls whether the debugger _always_ breaks when that exception is raised.
+   In the **Exceptions Settings** window, the checkbox next an exception controls whether the debugger *always* breaks when that exception is raised.
    
 - To break more often for a particular exception, select the checkbox next to the exception in the **Exception Settings** window.
 
@@ -169,7 +169,7 @@ The following table lists possible values for the **Launch mode** property. Use 
 
 | Value | Description |
 | --- | --- |
-| **Standard Python launcher**   | Use debugging code written in portable Python compatible with CPython, IronPython, and variants like Stackless Python. This option provides the best experience for debugging pure Python code. When you attach to a running _python.exe_ process, the launcher specified in this property is used. This launcher also provides [mixed-mode debugging](debugging-mixed-mode-c-cpp-python-in-visual-studio.md) for CPython, which allows you to step seamlessly between C/C++ code and Python code. |
+| **Standard Python launcher**   | Use debugging code written in portable Python compatible with CPython, IronPython, and variants like Stackless Python. This option provides the best experience for debugging pure Python code. When you attach to a running `python.exe` process, the launcher specified in this property is used. This launcher also provides [mixed-mode debugging](debugging-mixed-mode-c-cpp-python-in-visual-studio.md) for CPython, which allows you to step seamlessly between C/C++ code and Python code. |
 | **Web launcher**               | Start your default browser on launch and enable debugging of templates. For more information, see the [Web template debugging](python-web-application-project-templates.md#debugging-options) section. |
 | **Django Web launcher**        | Implement identical behavior to the **Web launcher** property but for a Django environment. Use this option only for the purposes of backwards compatibility. |
 | **IronPython (.NET) launcher** | Use the .NET debugger, which works only with IronPython but allows for stepping between any .NET language project, including C# and Visual Basic. This launcher is used if you attach to a running .NET process that hosts IronPython. |
@@ -211,16 +211,16 @@ The **Debug Interactive** window supports special meta-commands in addition to t
 | `$continue`, `$cont`, `$c`    | Start running the program from the current statement. |
 | `$down`, `$d`                 | Move the current frame one level down in the stack trace. |
 | `$frame`                      | Display the current frame ID. |
-| `$frame`                      | Switch the current frame to the specified frame ID. <br> - Requires a _\<frame ID>_ argument. |
+| `$frame`                      | Switch the current frame to the specified frame ID. <br> - Requires a *\<frame ID>* argument. |
 | `$load`                       | Load commands from file and executes until complete. |
 | `$proc`                       | Display the current process ID.  |
-| `$proc`                       | Switch the current process to the specified process ID. <br> - Requires a _\<process ID>_ argument. |
+| `$proc`                       | Switch the current process to the specified process ID. <br> - Requires a *\<process ID>* argument. |
 | `$procs`                      | List the processes currently being debugged. |
 | `$stepin`, `$step`, `$s`      | Step into the next function call, if possible. |
 | `$stepout`, `$return`, `$r`   | Step out of the current function. |
 | `$stepover`, `$until`, `$unt` | Step over the next function call. |
 | `$thread`                     | Display the current thread ID. | 
-| `$thread`                     | Switch the current thread to the specified thread ID. <br> - Requires a _\<thread ID>_ argument. |
+| `$thread`                     | Switch the current thread to the specified thread ID. <br> - Requires a *\<thread ID>* argument. |
 | `$threads`                    | List the threads currently being debugged. |
 | `$up`, `$u`                   | Move up the current frame one level in the stack trace. |
 | `$where`, `$w`, `$bt`         | List the frames for the current thread. |
@@ -273,7 +273,7 @@ Follow these steps to manage your ptvsd installation:
 
 1. In the **Python Environments** window, go to the **Packages** tab.
 
-1. Enter _ptvsd_ in the search box and examine the installed version of ptvsd:
+1. Enter *ptvsd* in the search box and examine the installed version of ptvsd:
 
    :::image type="content" source="media/debugging-experimental-check-ptvsd.png" alt-text="Screenshot that shows how to check the ptvsd version in the Python Environments window." lightbox="media/debugging-experimental-check-ptvsd.png" border="false":::
 
@@ -291,7 +291,7 @@ If you have issues with the debugger in Visual Studio 2019 version 16.4 and earl
 
 1. In the **Python Environments** window, go to the **Packages** tab.
 
-1. Enter _ptvsd --upgrade_ in the search box, then select **Run command: pip install ptvsd --upgrade**. (You can also use the same command from PowerShell.)
+1. Enter *ptvsd --upgrade* in the search box, then select **Run command: pip install ptvsd --upgrade**. (You can also use the same command from PowerShell.)
 
    :::image type="content" source="media/debugging-experimental-upgrade-ptvsd.png" alt-text="Screenshot that shows how to select the ptvsd upgrade command in the Python Environments window." lightbox="media/debugging-experimental-upgrade-ptvsd.png" border="false":::
 

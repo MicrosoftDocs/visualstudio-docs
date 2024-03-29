@@ -36,10 +36,10 @@ Once you have downloaded the game sample, update `LyraStarterGame.uproject` to u
 1. Add the following to the end of the `Plugins` section:
 
     ```json
-	,{
-		"Name": "VisualStudioTools",
-		"Enabled": true
-	}
+    ,{
+        "Name": "VisualStudioTools",
+        "Enabled": true
+    }
     ```
 
 1. Open the Lyra project in Unreal Engine.

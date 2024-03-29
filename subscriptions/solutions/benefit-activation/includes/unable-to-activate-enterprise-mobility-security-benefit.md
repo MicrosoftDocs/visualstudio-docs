@@ -20,7 +20,7 @@ Starting in September 2019, a Microsoft 365 E5 offer replaced the Office 365 E3 
 ## Activate Microsoft 365 E5 developer subscription  
 
 1. Sign in to [subscriptions portal](https://my.visualstudio.com/benefits). 
-1. Locate the Microsoft 365 benefit tile in the "Tools" category, and select Activate. 
+1. Locate the Microsoft 365 benefit tile in the "Tools" category, and select Activate. 
 1. Follow the prompts to set up your Microsoft 365 E5 developer subscription. 
 
 Read the [full activation instructions](https://learn.microsoft.com/visualstudio/subscriptions/vs-m365).
@@ -33,7 +33,7 @@ If you activate the offer through another source, refer to the [Microsoft 365 De
 
 If you have an old Office 365 E3 developer sandbox subscription activated through a Visual Studio subscription, you can migrate to Microsoft 365 E5. If you would like to migrate to a new Microsoft 365 E5 developer subscription, you need to delete your current subscription and replace it.
 
-To get your new Microsoft 365 E5 developer subscription, go to your dashboard and take the following steps: 
+To get your new Microsoft 365 E5 developer subscription, go to your dashboard and take the following steps: 
 1. On your subscription tile, select Delete subscription. 
 1. Confirm that you want to delete your subscription by typing the name of your domain in the dialog box. 
 1. The setup process for your new Microsoft 365 E5 subscription starts automatically. 

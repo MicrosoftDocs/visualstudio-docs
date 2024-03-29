@@ -204,7 +204,7 @@ Install [Python support in Visual Studio](../python/overview-of-python-tools-for
 
 [Data in Office Solutions](../vsto/data-in-office-solutions.md)&mdash;Contains links to topics that explain how data works in Office solutions. This includes information about schema-oriented programming, data caching, and server-side data access.
 
-[LINQ (language integrated query)](/dotnet/csharp/linq/)&mdash;Describes the query capabilities built into C# and Visual Basic, and the common model for querying relational databases, XML documents, datasets, and in-memory collections.
+[LINQ (Language Integrated Query)](/dotnet/csharp/linq/)&mdash;Describes the query capabilities built into C# and Visual Basic, and the common model for querying relational databases, XML documents, datasets, and in-memory collections.
 
 [XML Tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)&mdash;Discusses working with XML data, debugging XSLT, .NET XML features, and the architecture of XML Query.
 

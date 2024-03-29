@@ -168,7 +168,7 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
 
 28. In **Solution Explorer**, open the shortcut menu for the **SimpleMathVSIX** project, and then choose **Open Folder in File Explorer**.
 
-29. In **File Explorer**, navigate to *\bin\Release* folder, and then run *SimpleMathVSIX.vsix* to install it.
+29. In **File Explorer**, navigate to *\bin\Release* folder, and then run `SimpleMathVSIX.vsix` to install it.
 
 30. Choose the **Install** button, wait for the installation to finish, and then restart Visual Studio.
 
@@ -186,7 +186,7 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
 
 6. In the details pane, choose the **WinRT Math Library** extension.
 
-    Additional information about your SDK appears. You can choose the **More Information** link to open https://msdn.microsoft.com/, as you specified in the SDKManifest.xml file earlier in this walkthrough.
+    Additional information about your SDK appears. You can choose the **More Information** link to open `https://msdn.microsoft.com/`, as you specified in the SDKManifest.xml file earlier in this walkthrough.
 
 7. In the **Reference Manager** dialog box, select the **WinRT Math Library** check box, and then choose the **OK** button.
 

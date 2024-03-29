@@ -56,12 +56,12 @@ The [ShowDialogAsync](/dotnet/api/microsoft.visualstudio.extensibility.shell.she
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
 {
-	// Ownership of the RemoteUserControl is transferred to Visual Studio, so it shouldn't be disposed by the extension
-	#pragma warning disable CA2000 // Dispose objects before losing scope
-	var control = new MyDialogControl(null);
-	#pragma warning restore CA2000 // Dispose objects before losing scope
+    // Ownership of the RemoteUserControl is transferred to Visual Studio, so it shouldn't be disposed by the extension
+    #pragma warning disable CA2000 // Dispose objects before losing scope
+    var control = new MyDialogControl(null);
+    #pragma warning restore CA2000 // Dispose objects before losing scope
 
-	await this.Extensibility.Shell().ShowDialogAsync(control, cancellationToken);
+    await this.Extensibility.Shell().ShowDialogAsync(control, cancellationToken);
 }
 ```
 
@@ -76,12 +76,12 @@ When your extension shows a dialog, you can provide a custom title string which 
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
 {
-	// Ownership of the RemoteUserControl is transferred to Visual Studio, so it shouldn't be disposed by the extension
-	#pragma warning disable CA2000 // Dispose objects before losing scope
-	var control = new MyDialogControl(null);
-	#pragma warning restore CA2000 // Dispose objects before losing scope
+    // Ownership of the RemoteUserControl is transferred to Visual Studio, so it shouldn't be disposed by the extension
+    #pragma warning disable CA2000 // Dispose objects before losing scope
+    var control = new MyDialogControl(null);
+    #pragma warning restore CA2000 // Dispose objects before losing scope
 
-	await this.Extensibility.Shell().ShowDialogAsync(control, "My Dialog Title", cancellationToken);
+    await this.Extensibility.Shell().ShowDialogAsync(control, "My Dialog Title", cancellationToken);
 }
 ```
 
@@ -96,35 +96,35 @@ Additionally, you can create your own combination of buttons and default actions
 - `Microsoft.VisualStudio.RpcContracts.Notifications.DialogButton`
 
     ```csharp
-	public enum DialogButton
-	{
-		// Hides all of the dialog buttons.
-		None,
-		// Shows a single close button.
-		Close,
-		// Shows a single OK button.
-		OK,
-		// Shows an OK and Cancel button.
-		OKCancel
-	}
-	```
+    public enum DialogButton
+    {
+        // Hides all of the dialog buttons.
+        None,
+        // Shows a single close button.
+        Close,
+        // Shows a single OK button.
+        OK,
+        // Shows an OK and Cancel button.
+        OKCancel
+    }
+    ```
 
 - `Microsoft.VisualStudio.RpcContracts.Notifications.DialogResult`
 
-	```csharp
+    ```csharp
     public enum DialogResult
-	{
-		// The dialog was closed via the System.Threading.CancellationToken or using an
-		// action provided by the Microsoft.Visual Studio.RpcContracts.RemoteUI.IRemoteUserControl
-		// content.
-		None,
-		// The user clicked the Close button.
-		Close,
-		// The user clicked the OK button.
-		OK,
-		// The user clicked the Cancel button, or clicked the nonclient close button, or
-		// pressed the Esc key.
-		Cancel
+    {
+        // The dialog was closed via the System.Threading.CancellationToken or using an
+        // action provided by the Microsoft.Visual Studio.RpcContracts.RemoteUI.IRemoteUserControl
+        // content.
+        None,
+        // The user clicked the Close button.
+        Close,
+        // The user clicked the OK button.
+        OK,
+        // The user clicked the Cancel button, or clicked the nonclient close button, or
+        // pressed the Esc key.
+        Cancel
     }
    ```
 
@@ -135,12 +135,12 @@ Adding a cancel button:
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
 {
-	// Ownership of the RemoteUserControl is transferred to Visual Studio, so it shouldn't be disposed by the extension
-	#pragma warning disable CA2000 // Dispose objects before losing scope
-	var control = new MyDialogControl(null);
-	#pragma warning restore CA2000 // Dispose objects before losing scope
+    // Ownership of the RemoteUserControl is transferred to Visual Studio, so it shouldn't be disposed by the extension
+    #pragma warning disable CA2000 // Dispose objects before losing scope
+    var control = new MyDialogControl(null);
+    #pragma warning restore CA2000 // Dispose objects before losing scope
 
-	await this.Extensibility.Shell().ShowDialogAsync(control, DialogOption.OKCancel, cancellationToken);
+    await this.Extensibility.Shell().ShowDialogAsync(control, DialogOption.OKCancel, cancellationToken);
 }
 ```
 
@@ -149,12 +149,12 @@ Having no dialog buttons:
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
 {
-	// Ownership of the RemoteUserControl is transferred to Visual Studio, so it shouldn't be disposed by the extension
-	#pragma warning disable CA2000 // Dispose objects before losing scope
-	var control = new MyDialogControl(null);
-	#pragma warning restore CA2000 // Dispose objects before losing scope
+    // Ownership of the RemoteUserControl is transferred to Visual Studio, so it shouldn't be disposed by the extension
+    #pragma warning disable CA2000 // Dispose objects before losing scope
+    var control = new MyDialogControl(null);
+    #pragma warning restore CA2000 // Dispose objects before losing scope
 
-	await this.Extensibility.Shell().ShowDialogAsync(control, new DialogOption(DialogButton.None, DialogResult.None), cancellationToken);
+    await this.Extensibility.Shell().ShowDialogAsync(control, new DialogOption(DialogButton.None, DialogResult.None), cancellationToken);
 }
 ```
 
@@ -165,17 +165,17 @@ If you need to know whether a user affirmatively closed a dialog or dismissed it
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
 {
-	// Ownership of the RemoteUserControl is transferred to Visual Studio, so it shouldn't be disposed by the extension
-	#pragma warning disable CA2000 // Dispose objects before losing scope
-	var control = new MyDialogControl(null);
-	#pragma warning restore CA2000 // Dispose objects before losing scope
+    // Ownership of the RemoteUserControl is transferred to Visual Studio, so it shouldn't be disposed by the extension
+    #pragma warning disable CA2000 // Dispose objects before losing scope
+    var control = new MyDialogControl(null);
+    #pragma warning restore CA2000 // Dispose objects before losing scope
 
-	DialogResult result = await this.Extensibility.Shell().ShowDialogAsync(control, "My Dialog Title", DialogOption.OKCancel, cancellationToken);
+    DialogResult result = await this.Extensibility.Shell().ShowDialogAsync(control, "My Dialog Title", DialogOption.OKCancel, cancellationToken);
 
-	if (result == DialogResult.OK)
-	{
-		// User clicked the OK button
-	}
+    if (result == DialogResult.OK)
+    {
+        // User clicked the OK button
+    }
 }
 ```
 
