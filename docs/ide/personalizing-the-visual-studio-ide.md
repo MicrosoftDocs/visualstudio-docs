@@ -42,7 +42,7 @@ You can also use the wizard to reset the environment to one of the default colle
 
 Many personalization options are exposed through the [Environment Options](../ide/reference/general-environment-options-dialog-box.md) dialog box. There are two ways to access this dialog box:
 
-- On the menu bar, choose **Tools** > **Options**, and if it's not already expanded, expand the **Environment** node.
+- On the menu bar, choose **Tools** > **Options**, and if necessary, expand the **Environment** node.
 
 - Press **Ctrl**+**Q**, enter *environment* in the search box, and then select **Environment** > **General** from the results.
 
