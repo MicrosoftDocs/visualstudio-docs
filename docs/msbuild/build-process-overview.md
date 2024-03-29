@@ -55,6 +55,8 @@ The passes in the evaluation phase are as follows:
 - Evaluate [UsingTask](usingtask-element-msbuild.md) elements
 - Evaluate targets
 
+During the second pass, imports and properties are evaluated in sequence, as they appear.
+
 The order of these passes has significant implications and is important to know when customizing the project file. See [Property and item evaluation order](comparing-properties-and-items.md#property-and-item-evaluation-order).
 
 ### Evaluate environment variables
