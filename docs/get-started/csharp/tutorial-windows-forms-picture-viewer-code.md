@@ -69,8 +69,6 @@ Your application calls an event handler when an action takes place, such as sele
    ```
    ---
 
-   [!INCLUDE [devlang-control-csharp-vb](../includes/devlang-control-csharp-vb.md)]
-
 1. Choose the **Windows Forms Designer** tab again, and then double-click the **Clear the picture** button to open its code.
    Repeat for the remaining two buttons.
    Each time, the Visual Studio IDE adds a new method to the form's code file.
