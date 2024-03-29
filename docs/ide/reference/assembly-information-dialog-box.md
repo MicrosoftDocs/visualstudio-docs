@@ -19,6 +19,9 @@ The Assembly Information dialog box is used to specify the values of the .NET Fr
 
 To access this dialog box, select a project node in **Solution Explorer**, and then, on the **Project** menu, select **Properties**. On the **Application** page, select the **Assembly Information** button.
 
+> [!NOTE]
+> The information in this topic only applies to .NET Framework projects, not .NET Core or .NET 5 and later projects. Instead, edit the AssemblyInfo file directly.
+
 ## UIElement list
 
 **Title**\
