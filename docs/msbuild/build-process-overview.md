@@ -55,7 +55,7 @@ The passes in the evaluation phase are as follows:
 - Evaluate [UsingTask](usingtask-element-msbuild.md) elements
 - Evaluate targets
 
-Imports and properties are evaluated in the same pass in sequence of appearance as if imports are expanded. Thus, property settings in previously imported files are available within later imported files.
+Imports and properties are evaluated in the same pass in sequence of appearance, as if imports are expanded. Thus, property settings in previously imported files are available within later imported files.
 
 The order of these passes has significant implications and is important to know when customizing the project file. See [Property and item evaluation order](comparing-properties-and-items.md#property-and-item-evaluation-order).
 
