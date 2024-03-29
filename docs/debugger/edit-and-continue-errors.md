@@ -1,6 +1,6 @@
 ---
 title: Edit and Continue error messages
-description: Learn about the error messages that can arise when you use the edit and continue debugger functionality.
+description: Learn about the error messages that can occur when you use the edit and continue debugger functionality.
 ms.date: 03/29/2024
 ms.topic: error-reference
 f1_keywords:
@@ -110,6 +110,7 @@ ms.subservice: debug-diagnostics
 You might encounter one or more of these error messages during a debug session.
 
 | Error code | Error text |
+| - | - |
 | ENC0001 | Updating an active statement requires restarting the application. |
 | ENC0002 | Removing 'text' that contains an active statement requires restarting the application. |
 | ENC0003 | Updating 'text' requires restarting the application. |
