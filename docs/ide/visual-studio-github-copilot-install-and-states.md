@@ -108,6 +108,8 @@ If you chose to opt out of the default recommended install by unchecking the **G
 Select **Install Copilot** from the dropdown to install Copilot.
 If you choose to not install Copilot, you can select **Hide Copilot** from the dropdown to hide the Copilot status icon from the IDE.
 
+:::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-not-installed.png" alt-text="Screenshot of Copilot badge when Copilot is not installed.":::
+
 ## Next steps
 
 To learn more, consider exploring the following resources:
