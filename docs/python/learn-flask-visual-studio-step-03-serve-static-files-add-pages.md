@@ -88,7 +88,7 @@ Follow these steps to use a static file in a template:
    }
    ```
 
-1. Replace the contents of the _HelloFlask/templates/index.html_ file with the following code:
+1. Replace the contents of the _HelloFlask/templates/index.html_ file with the following markup:
 
    ```html
    <html>
@@ -304,7 +304,7 @@ The following steps demonstrate template inheritance:
 
    The `index` template now refers to the base template and overrides the `content` block. You can see that by using inheritance, this template is simplified.
 
-1. Replace the contents of the _HelloFlask/templates/about.html_ file with the following code, so the `about` template also refers to the base template and overrides the `content` block:
+1. Replace the contents of the _HelloFlask/templates/about.html_ file with the following markup, so the `about` template also refers to the base template and overrides the `content` block:
 
    ```html
    {% extends "layout.html" %}
