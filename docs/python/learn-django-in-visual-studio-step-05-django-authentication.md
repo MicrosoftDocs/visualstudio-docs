@@ -28,7 +28,7 @@ In Step 5 of the tutorial, you learn how to:
 
 ## Prerequisites
 
-- A Visual Studio solution and a Django web app based on the **Django Web Project** template (_DjangoWeb_). [Step 4: Use the full Django Web Project template](learn-django-in-visual-studio-step-04-full-django-project-template.md#create-django-super-user) describes how to create this app.
+- A Visual Studio solution and a Django web app based on the **Django Web Project** template (_DjangoWeb_). [Step 4: Use the full Django Web Project template](learn-django-in-visual-studio-step-04-full-django-project-template.md) describes how to create this app.
 
 - The Django web app must have a super user (administrator) account. [Step 4 (Create Django super user)](learn-django-in-visual-studio-step-04-full-django-project-template.md#create-django-super-user) describes how to create the super user credentials.
 
@@ -54,11 +54,7 @@ This section explains the default authentication flow provided by the **Django W
 
    :::image type="content" source="media/django/step-05-super-user-interface.png" alt-text="Screenshot that shows one of the page views available to the Django super user and the updated navigation bar with the Log out option." lightbox="media/django/step-05-super-user-interface.png":::
 
-1. The super user can use the **Log off** option to sign out of the Django web app:
-
-   :::image type="content" source="media/django/step-05-logoff-control.png" alt-text="Screenshot that shows the Log off option on the navigation bar in the Django web app." lightbox="media/django/step-05-logoff-control.png":::
-
-   The user can return to the "Home" page of the Django web app as an unauthenticated user.
+1. The super user can use the **Log off** option to sign out of the Django web app and return to the "Home" page of the Django web app as an unauthenticated user.
 
 In the following sections, you modify the authentication configuration to support Django administrative site access for the super user.
 
@@ -199,7 +195,7 @@ Now that you understand the general authentication features of a Django web app,
 
 To check whether the authenticated user is authorized to access specific resources, you need to retrieve user-specific permissions from your database.
 
-The super user or administrator, in particular, is authorized to access the built-in Django administrator interfaces by using the site relative URLs `/admin/` and `/admin/doc/`. For more information, see [Using the Django authentication system](https://docs.djangoproject.com/en/2.0/topics/auth/default/#permissions-and-authorization) (Django docs).
+The super user or administrator, in particular, is authorized to access the built-in Django administrator interfaces by using the site relative URLs `/admin/` and `/admin/doc/`. For more information, see [Using the Django authentication system](https://docs.djangoproject.com/en/5.0/topics/auth/default/#permissions-and-authorization) (Django docs).
 
 To enable access to the Django administrator interfaces, follow these steps:
 
@@ -292,20 +288,6 @@ You can rework the log off behavior so it's more informative for the user:
 
    To display a more informative log off confirmation, you can create a "Log off" page for the app.
 
-1. In the Django project's URL file, _DjangoWeb/DjangoWeb/urls.py_, change the URL pattern for the `'logout/'` path as follows:
-
-    ```python
-    path('logout/',
-        django.contrib.auth.views.logout,
-        {
-            'template_name': 'app/loggedoff.html',
-            # 'next_page': '/',
-        },
-        name='logout'),
-    ```
-
-   The updated code adds a `template_name` property and removes (comments out) the `next_page` property.
-
 1. In the _app/templates/app_ folder, create a new HTML template file named _loggedoff.html_.
 
 1. Add the following content to the new template file:
@@ -316,6 +298,14 @@ You can rework the log off behavior so it's more informative for the user:
    <h3>You have been logged off</h3>
    {% endblock %}
    ```
+
+1. In the Django project's URL file, _DjangoWeb/DjangoWeb/urls.py_, change the URL pattern for the `'logout/'` path as follows:
+
+    ```python
+    path('logout/', LogoutView.as_view(template_name='app/loggedoff.html'), name='logout'),
+    ```
+
+   The updated code adds a `template_name` property to work with the new HTML template for the "Logged off" page.
 
 1. Stop and restart the Django web app. Sign in again, and then select **Log off**. This time, the app shows a more informative message to the user to confirm they're logged off:
 
