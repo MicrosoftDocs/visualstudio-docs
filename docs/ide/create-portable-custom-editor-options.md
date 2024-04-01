@@ -126,7 +126,7 @@ EditorConfig files are read from top to bottom. If there are multiple properties
 ## Edit EditorConfig files
 
 
-::: moniker range>="vs-2022"
+::: moniker range=">= vs-2022"
 Visual Studio 2022 provides a visual editor for EditorConfig files.
 
 After you edit your EditorConfig file, you must reload your code files for the new settings to take effect.
@@ -152,7 +152,7 @@ The following example shows the indent state of a C# code snippet before and aft
 
 1. As expected, when you press the **Tab** key on the next line, it indents the line by adding four white-space characters.
 
-   ::: moniker range>="vs-2022"
+   ::: moniker range=">= vs-2022"
    :::image type="content" source="../ide/media/vs-2022/vside-editorconfig-before-new.png" alt-text="Screenshot that shows the Tab key adding spaces in code.":::
    ::: moniker-end
    ::: moniker range="vs-2019"
@@ -161,7 +161,7 @@ The following example shows the indent state of a C# code snippet before and aft
 
 1. Use EditorConfig to switch the tabs setting to use tabs.
 
-   ::: moniker range>="vs-2022"
+   ::: moniker range=">= vs-2022"
    Select **Use Tabs** in the EditorConfig file.
 
    :::image type="content" source="../ide/media/vs-2022/vside-editorconfig-use-tabs.png" alt-text="Screenshot that shows configuring use of tabs for Tab key.":::
@@ -182,7 +182,7 @@ The following example shows the indent state of a C# code snippet before and aft
 
 1. When you press the **Tab** key, tab characters now appear instead of spaces.
 
-   ::: moniker range>="vs-2022"
+   ::: moniker range=">= vs-2022"
    :::image type="content" source="../ide/media/vs-2022/vside-editorconfig-tab.png" alt-text="Screenshot that shows the Tab key adding tab characters in code.":::
    ::: moniker-end
 
