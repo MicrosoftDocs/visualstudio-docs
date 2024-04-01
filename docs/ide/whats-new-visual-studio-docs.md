@@ -87,7 +87,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [What is the GitHub Copilot extension for Visual Studio?](../ide/visual-studio-github-copilot-extension.md) - Add an example on using github copilot completions
+- [What is the GitHub Copilot extension for Visual Studio?](../ide/visual-studio-github-copilot-extension.md) - Add an example on using GitHub Copilot completions
 - [C# IntelliSense](../ide/visual-csharp-intellisense.md) - Refresh article
 - [Tutorial: Create a Windows Forms app in Visual Studio with C\#](../ide/create-csharp-winform-visual-studio.md) - Review and update
 - [Prerequisites dialog box](../ide/reference/prerequisites-dialog-box.md) - Update information for ClickOnce Prerequisites
@@ -120,9 +120,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 **Updated articles**
 
 - [MakeDir task](../msbuild/makedir-task.md) - Improve code example for MakeDir
-- [Common MSBuild project properties](../msbuild/common-msbuild-project-properties.md) - Test F1 for common properties
 - [Create an MSBuild project file from scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md)
-  - Confirm merge from repo_sync_working_branch to main to sync with https://github.com/MicrosoftDocs/visualstudio-docs (branch main)
   - Disambiguate from-scratch project from csproj
 - [MSBuild command-line reference](../msbuild/msbuild-command-line-reference.md) - Add command-line option for terminal logger
 - [Property functions](../msbuild/property-functions.md) - Document changes to `MSBuild StableStringHash`
@@ -152,22 +150,15 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Install debugging symbols for Python interpreters in Visual Studio](../python/debugging-symbols-for-mixed-mode-c-cpp-python.md) - Review and update
 - [Create a C++ extension for Python in Visual Studio](../python/working-with-c-cpp-python-in-visual-studio.md) - Review and update
 
-## Community contributors
+### Community contributors
 
 The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
 
 - [awschristou](https://github.com/awschristou) - Christopher Christou ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-Merged%20Pull%20Requests-1-green)
-- [JoyceLiang](https://github.com/JoyceLiang) - Joyce ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [malxau-msft](https://github.com/malxau-msft) -  ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [MarcoRossignoli](https://github.com/MarcoRossignoli) - Marco Rossignoli ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 - [martin-pettersson](https://github.com/martin-pettersson) - Martin Pettersson ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 - [meokullu](https://github.com/meokullu) - Enes Okullu ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 - [natakazakova](https://github.com/natakazakova) - Natalia Kazakova ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 - [rfrancioso-gpsw](https://github.com/rfrancioso-gpsw) -  ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [sailro](https://github.com/sailro) - Sebastien Lebreton ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [v-savila](https://github.com/v-savila) - Sarah Vilaysom ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [WardenGnaw](https://github.com/WardenGnaw) - Andrew Wang ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 
 ## February 2024
 
