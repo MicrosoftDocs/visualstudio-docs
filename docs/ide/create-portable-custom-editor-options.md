@@ -88,7 +88,7 @@ To add an EditorConfig file to your project or solution, follow these steps:
 
    A new *.editorconfig* file appears in Solution Explorer, which opens in the editor as a new tab.
 
-   ::: moniker range>="vs-2022"
+   ::: moniker range=">= vs-2022"
    :::image type="content" source="media/vs-2022/editorconfig-dotnet-new.png" alt-text="Screenshot that shows the .editorconfig file in Solution Explorer and editor.":::
    ::: moniker-end
 
