@@ -108,7 +108,7 @@ An "event handler" sounds complicated, but it's just another name for code that 
 
    Here's the code to copy and paste:
 
-   ```C#
+   ```csharp
    private async void myButton_Click(object sender, RoutedEventArgs e)
    {
        var welcomeDialog = new ContentDialog()

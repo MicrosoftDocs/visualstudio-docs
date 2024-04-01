@@ -152,7 +152,7 @@ The first step is to create a multithreaded application project.
     ```
 
     ### [C++](#tab/cpp)
-    ```C++
+    ```cpp
     // #include "pch.h" // Use with pre-compiled header
     #include <thread>
     #include <iostream>
@@ -211,7 +211,7 @@ The first step is to create a multithreaded application project.
     ```
 
     ### [C++](#tab/cpp)
-    ```C++
+    ```cpp
     std::this_thread::sleep_for(std::chrono::seconds(3));
     std::cout << "The function called by the worker thread has ended." << std::endl;
     ```
