@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: Discover recent changes in the Visual Studio documentation, including updated articles about getting started, the IDE, and deployment.
-ms.date: 03/01/2024
+ms.date: 04/01/2024
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -15,6 +15,159 @@ ms.topic: conceptual
 # What's new in Visual Studio docs
 
 Welcome to what's new in Visual Studio docs. The following sections provide details on the previous three months of new and updated content.
+
+## March 2024
+
+### Azure
+
+**Updated articles**
+
+- [Testing the performance of a cloud service](../azure/vs-azure-tools-performance-profiling-cloud-services.md)
+  - Update out-of-date Azure Cloud Services references
+- [Set up diagnostics for Azure Cloud Services and virtual machines](../azure/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md)
+  - Update out-of-date Azure Cloud Services references
+
+### Code quality
+
+**Updated articles**
+
+- [Suppress code analysis violations](../code-quality/in-source-suppression-overview.md) - Refresh article
+- [Configure live code analysis for .NET](../code-quality/configure-live-code-analysis-scope-managed-code.md)
+  - Refresh article
+- [Disable source code analysis for .NET](../code-quality/disable-code-analysis.md) - Refresh article
+- [Run code analysis manually for .NET](../code-quality/how-to-run-code-analysis-manually-for-managed-code.md) - Refresh article
+- [Install external analyzers](../code-quality/install-roslyn-analyzers.md) - Refresh article
+- [Code analysis using .NET compiler platform (Roslyn) analyzers](../code-quality/roslyn-analyzers-overview.md) - Refresh articles
+- [Customize Roslyn analyzer rules](../code-quality/use-roslyn-analyzers.md) - Refresh articles
+
+### Data tools
+
+**Updated articles**
+
+- [Read XML data into a dataset in .NET Framework applications](../data-tools/read-xml-data-into-a-dataset.md) - Review and update date
+
+### Debugger
+
+**New articles**
+
+- [Hot Reload and Edit and Continue error messages](../debugger/edit-and-continue-errors.md)
+
+**Updated articles**
+
+- [Generate source code from .NET assemblies while debugging](../debugger/decompilation.md) - Add content for autodecompilation of .NET sources
+- [Debug only user code with Just My Code](../debugger/just-my-code.md) - Add content for autodecompilation of .NET sources
+- [Debug your app with GitHub Copilot in Visual Studio](../debugger/debug-with-copilot.md) - Updates to Debug with Copilot article
+
+### Deployment
+
+**Updated articles**
+
+- [Security, versioning, and manifest issues in ClickOnce deployments](../deployment/security-versioning-and-manifest-issues-in-clickonce-deployments.md) - Update information for ClickOnce Prerequisites
+
+### Get started
+
+**Updated articles**
+
+- [Tutorial: Add code to the picture viewer Windows Forms app in Visual Studio](../get-started/csharp/tutorial-windows-forms-picture-viewer-code.md) - Review and update
+- [Tutorial: Add controls to the picture viewer Windows Forms app in Visual Studio](../get-started/csharp/tutorial-windows-forms-picture-viewer-controls.md) - Review and update
+- [Tutorial: Create a picture viewer Windows Forms app in Visual Studio](../get-started/csharp/tutorial-windows-forms-picture-viewer-layout.md) - Review and update
+- [Tutorial: Add a timer to a math quiz WinForms app](../get-started/csharp/tutorial-windows-forms-math-quiz-add-timer.md) - Add clarification about the event handler hookup
+- [Tutorial: Extend C# console app and debug in Visual Studio (part 2 of 2)](../get-started/csharp/tutorial-console-part-2.md) - Use nullable types for the input strings
+- [Tutorial: Create a simple C# console app in Visual Studio (part 1 of 2)](../get-started/csharp/tutorial-console.md) - Use nullable types for the input strings
+
+### IDE
+
+**New articles**
+
+- [Compare files in Visual Studio](../ide/compare-with.md)
+- [Invalid JSON pattern (JSON001)](../ide/reference/json001.md)
+- [Probable JSON string detected (JSON002)](../ide/reference/json002.md)
+- [Invalid regex pattern (RE0001)](../ide/reference/re0001.md)
+- [.NET Project Designer (C#)](../ide/reference/project-designer-dotnet-csharp.md)
+
+**Updated articles**
+
+- [What is the GitHub Copilot extension for Visual Studio?](../ide/visual-studio-github-copilot-extension.md) - Add an example on using github copilot completions
+- [C# IntelliSense](../ide/visual-csharp-intellisense.md) - Refresh article
+- [Tutorial: Create a Windows Forms app in Visual Studio with C\#](../ide/create-csharp-winform-visual-studio.md) - Review and update
+- [Prerequisites dialog box](../ide/reference/prerequisites-dialog-box.md) - Update information for ClickOnce Prerequisites
+- [Sign in or switch Visual Studio user accounts](../ide/signing-in-to-visual-studio.md) - Add remove account and sign out of accounts
+- [Add your GitHub accounts to your Visual Studio keychain](../ide/work-with-github-accounts.md) - Add remove account and sign out of accounts
+- [Get better answers by setting the context for GitHub Copilot Chat in Visual Studio](../ide/copilot-chat-context.md) - Add Copilot Chat solution context reference
+- [Learn about Solution Explorer](../ide/use-solution-explorer.md) - Add Search options available in the Solution Explorer search bar
+- [Report a problem with the Visual Studio product or installer](../ide/how-to-report-a-problem-with-visual-studio.md) - Review and update
+- [Define consistent coding styles with EditorConfig](../ide/create-portable-custom-editor-options.md) - Refresh article
+- [What is the .NET Project Designer?](../ide/reference/project-properties-reference.md) - Add article for .NET project designer for C#
+
+### Install
+
+**Updated articles**
+
+- [Configure installation default settings using a response file](../install/automated-installation-with-response-file.md) - Documentation for config support of extensions and layouts
+- [Command-line parameter examples for Visual Studio installation](../install/command-line-parameter-examples.md) - Documentation for config support of extensions and layouts
+- [Configure policies for enterprise deployments of Visual Studio](../install/configure-policies-for-enterprise-deployments.md) - Documentation for config support of extensions and layouts
+- [Create and maintain a network installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md)
+  - Documentation for config support of extensions and layouts
+  - Extensions in vsconfig files support documentation
+- [Import or export installation configurations](../install/import-export-installation-configurations.md)
+  - Documentation for config support of extensions and layouts
+  - Extensions in vsconfig files support documentation
+- [Use command-line parameters to install, update, and manage Visual Studio](../install/use-command-line-parameters-to-install-visual-studio.md) - Documentation for config support of extensions and layouts
+- [Visual Studio administrator guide](../install/visual-studio-administrator-guide.md) - Documentation for config support of extensions and layouts
+
+### MSBuild
+
+**Updated articles**
+
+- [MakeDir task](../msbuild/makedir-task.md) - Improve code example for MakeDir
+- [Common MSBuild project properties](../msbuild/common-msbuild-project-properties.md) - Test F1 for common properties
+- [Create an MSBuild project file from scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md)
+  - Confirm merge from repo_sync_working_branch to main to sync with https://github.com/MicrosoftDocs/visualstudio-docs (branch main)
+  - Disambiguate from-scratch project from csproj
+- [MSBuild command-line reference](../msbuild/msbuild-command-line-reference.md) - Add command-line option for terminal logger
+- [Property functions](../msbuild/property-functions.md) - Document changes to `MSBuild StableStringHash`
+
+### Profiling
+
+**Updated articles**
+
+- [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md) - Add info for changing profiling tools scratch directory
+
+### Python
+
+**Updated articles**
+
+- [Tutorial: Work with the Flask web framework in Visual Studio](../python/learn-flask-visual-studio-step-01-project-solution.md)
+  - Review and update
+- [Tutorial: Create a Flask app with views and page templates in Visual Studio](../python/learn-flask-visual-studio-step-02-create-app.md)
+  - Review and update
+- [Tutorial: Serve static files and use template inheritance with Flask in Visual Studio](../python/learn-flask-visual-studio-step-03-serve-static-files-add-pages.md)
+  - Review and update
+- [Configure Python web apps for IIS](../python/configure-web-apps-for-iis-windows.md)
+  - Python IIS Update
+- [Data science and analytical applications workload in Visual Studio](../python/data-science-and-analytical-applications-workload.md) - Review and update
+- [Options for Python in Visual Studio](../python/python-support-options-and-settings-in-visual-studio.md) - Review and update
+- [Debug Python and C++ together in Visual Studio](../python/debugging-mixed-mode-c-cpp-python-in-visual-studio.md) - Review and update
+- [Debug your Python code in Visual Studio](../python/debugging-python-in-visual-studio.md) - Review and update
+- [Install debugging symbols for Python interpreters in Visual Studio](../python/debugging-symbols-for-mixed-mode-c-cpp-python.md) - Review and update
+- [Create a C++ extension for Python in Visual Studio](../python/working-with-c-cpp-python-in-visual-studio.md) - Review and update
+
+## Community contributors
+
+The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
+
+- [awschristou](https://github.com/awschristou) - Christopher Christou ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+Merged%20Pull%20Requests-1-green)
+- [JoyceLiang](https://github.com/JoyceLiang) - Joyce ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [malxau-msft](https://github.com/malxau-msft) -  ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [MarcoRossignoli](https://github.com/MarcoRossignoli) - Marco Rossignoli ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [martin-pettersson](https://github.com/martin-pettersson) - Martin Pettersson ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [meokullu](https://github.com/meokullu) - Enes Okullu ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [natakazakova](https://github.com/natakazakova) - Natalia Kazakova ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [rfrancioso-gpsw](https://github.com/rfrancioso-gpsw) -  ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [sailro](https://github.com/sailro) - Sebastien Lebreton ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [v-savila](https://github.com/v-savila) - Sarah Vilaysom ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [WardenGnaw](https://github.com/WardenGnaw) - Andrew Wang ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 
 ## February 2024
 
@@ -263,94 +416,3 @@ The following people contributed to the Visual Studio docs during this period. T
 - [tim-weis](https://github.com/tim-weis) - Tim Weis ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 - [tonyhallett](https://github.com/tonyhallett) - Tony Hallett ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 
-## December 2023
-
-### Debugger
-
-**Updated articles**
-
-- [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md) - Update Hot Reload vs. Edit and Continue terminology for Visual Studio 2022
-- [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md) - Update Hot Reload vs. Edit and Continue terminology for Visual Studio 2022
-- [Configure Edit and Continue (C#, VB, C++)](../debugger/how-to-enable-and-disable-edit-and-continue.md) - Update Hot Reload vs. Edit and Continue terminology for Visual Studio 2022
-- [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md) - Update Hot Reload vs. Edit and Continue terminology for Visual Studio 2022
-- [Remote Debugging a C# or Visual Basic project in Visual Studio](../debugger/remote-debugging-csharp.md) - Add steps to remote debug MAUI apps
-- [Use breakpoints in the Visual Studio debugger](../debugger/using-breakpoints.md) - Add hardware limits for data breakpoints
-
-### Extensibility
-
-**Updated articles**
-
-- [Menus and Toolbars overview](../extensibility/visualstudio.extensibility/command/menus-and-toolbars.md) - VisualStudio.Extensibility Preview updates
-- [Create Visual Studio debugger visualizers](../extensibility/visualstudio.extensibility/debugger-visualizer/debugger-visualizers.md) - VisualStudio.Extensibility Preview updates
-- [Using VisualStudio.Extensibility SDK and VSSDK together](../extensibility/visualstudio.extensibility/get-started/in-proc-extensions.md) - VisualStudio.Extensibility Preview updates
-- [Introduction to VisualStudio.Extensibility for VSSDK users](../extensibility/visualstudio.extensibility/get-started/oop-extensibility-model-overview.md) - VisualStudio.Extensibility Preview
-- [Create a simple extension](../extensibility/visualstudio.extensibility/get-started/tutorial-create-simple-extension.md) - VisualStudio.Extensibility Preview updates
-- [Rule-based activation constraints](../extensibility/visualstudio.extensibility/inside-the-sdk/activation-constraints.md) - VisualStudio.Extensibility Preview updates
-- [Contributions and Configurations](../extensibility/visualstudio.extensibility/inside-the-sdk/contributions-and-configurations.md) - VisualStudio.Extensibility Preview updates
-- [Components of a VisualStudio.Extensibility extension](../extensibility/visualstudio.extensibility/inside-the-sdk/extension-anatomy.md) - VisualStudio.Extensibility Preview updates
-- [Project query API concepts](../extensibility/visualstudio.extensibility/project/project-concepts.md) - VisualStudio.Extensibility Preview updates
-
-### Get started
-
-**Updated articles**
-
-- [Learn to use the code editor](../get-started/tutorial-editor.md) - Incorporate Copilot in Editor docs
-- [Tutorial: Create a WPF application with Visual Basic](../get-started/visual-basic/tutorial-wpf.md) - Review and update as appropriate
-
-### IDE
-
-**New articles**
-
-- [Notifications tool window](../ide/reference/user-notifications-window.md)
-
-**Updated articles**
-
-- [Tour the Visual Studio IDE](../ide/quickstart-ide-orientation.md) - Incorporate Copilot in Editor docs
-- [What is the GitHub Copilot extension for Visual Studio?](../ide/visual-studio-github-copilot-extension.md) - Add steps on using the installer to install Copilot
-- [AI-assisted development in Visual Studio](../ide/ai-assisted-development-visual-studio.md) - Updates
-- [Framework targeting overview](../ide/visual-studio-multi-targeting-overview.md) - Add screenshots and fix order
-- [What's New in Visual Studio](../ide/whats-new-visual-studio-docs.md) - Update with November changes
-
-### Install
-
-**Updated articles**
-
-- [Visual Studio on Arm-powered devices](../install/visual-studio-on-arm-devices.md) - Review and update
-
-### MSBuild
-
-**New articles**
-
-- [Evaluate items and properties and display results of targets](../msbuild/evaluate-items-and-properties.md)
-
-**Updated articles**
-
-- [UsingTask element (MSBuild)](../msbuild/usingtask-element-msbuild.md)
-  - MSBuild: updates to `UsingTask` around `TaskHostFactory`
-- [Property functions](../msbuild/property-functions.md) - Add StableStringHash property function
-
-### Profiling
-
-**New articles**
-
-- [Hot paths to root in the Memory Usage tool](../profiling/hot-path-to-root.md)
-
-### Test
-
-**Updated articles**
-
-- [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md) - Update code coverage to include code coloring options such as margin glyphs
-- [Install unit test frameworks](../test/install-third-party-unit-test-frameworks.md) - Update unit testing articles
-- [Overview of Microsoft IntelliTest](../test/intellitest-manual/index.md) - Update unit testing articles
-- [Upgrade from MSTestV1 to MSTestV2](../test/mstest-update-to-mstestv2.md) - Update unit testing articles
-- [Walkthrough: Test-driven development using Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md) - Update unit testing articles
-
-### Community contributors
-
-The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
-
-- [sam951013](https://github.com/sam951013) - Yuhsi Chen ![2 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-2-green)
-- [Blake-Madden](https://github.com/Blake-Madden) -  ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [elauser](https://github.com/elauser) - Matthias Oberleitner ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [jrdodds](https://github.com/jrdodds) - Jonathan Dodds ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [Styxxy](https://github.com/Styxxy) - Hans De Mulder ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
