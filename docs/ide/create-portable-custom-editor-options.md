@@ -127,7 +127,7 @@ EditorConfig files are read from top to bottom. If there are multiple properties
 
 
 ::: moniker range>="vs-2022"
-Visual Studio provides a visual editor for EditorConfig files.
+Visual Studio 2022 provides a visual editor for EditorConfig files.
 
 After you edit your EditorConfig file, you must reload your code files for the new settings to take effect.
 ::: moniker-end
@@ -183,7 +183,7 @@ The following example shows the indent state of a C# code snippet before and aft
 1. When you press the **Tab** key, tab characters now appear instead of spaces.
 
    ::: moniker range>="vs-2022"
-   :::image type="content" source="../ide/media/vside-editorconfig-tab.png" alt-text="Screenshot that shows the Tab key adding tab characters in code.":::
+   :::image type="content" source="../ide/media/vs-2022/vside-editorconfig-tab.png" alt-text="Screenshot that shows the Tab key adding tab characters in code.":::
    ::: moniker-end
 
    ::: moniker range="vs-2019"
