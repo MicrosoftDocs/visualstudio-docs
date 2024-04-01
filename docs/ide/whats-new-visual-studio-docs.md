@@ -31,14 +31,14 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Suppress code analysis violations](../code-quality/in-source-suppression-overview.md) - Refresh article
+- [Suppress code analysis violations](../code-quality/in-source-suppression-overview.md) - Review and update
 - [Configure live code analysis for .NET](../code-quality/configure-live-code-analysis-scope-managed-code.md)
-  - Refresh article
-- [Disable source code analysis for .NET](../code-quality/disable-code-analysis.md) - Refresh article
-- [Run code analysis manually for .NET](../code-quality/how-to-run-code-analysis-manually-for-managed-code.md) - Refresh article
-- [Install external analyzers](../code-quality/install-roslyn-analyzers.md) - Refresh article
-- [Code analysis using .NET compiler platform (Roslyn) analyzers](../code-quality/roslyn-analyzers-overview.md) - Refresh articles
-- [Customize Roslyn analyzer rules](../code-quality/use-roslyn-analyzers.md) - Refresh articles
+  - Review and update
+- [Disable source code analysis for .NET](../code-quality/disable-code-analysis.md) - Review and update
+- [Run code analysis manually for .NET](../code-quality/how-to-run-code-analysis-manually-for-managed-code.md) - Review and update
+- [Install external analyzers](../code-quality/install-roslyn-analyzers.md) - Review and update
+- [Code analysis using .NET compiler platform (Roslyn) analyzers](../code-quality/roslyn-analyzers-overview.md) - Review and updates
+- [Customize Roslyn analyzer rules](../code-quality/use-roslyn-analyzers.md) - Review and updates
 
 ### Data tools
 
@@ -88,7 +88,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 **Updated articles**
 
 - [What is the GitHub Copilot extension for Visual Studio?](../ide/visual-studio-github-copilot-extension.md) - Add an example on using GitHub Copilot completions
-- [C# IntelliSense](../ide/visual-csharp-intellisense.md) - Refresh article
+- [C# IntelliSense](../ide/visual-csharp-intellisense.md) - Review and update
 - [Tutorial: Create a Windows Forms app in Visual Studio with C\#](../ide/create-csharp-winform-visual-studio.md) - Review and update
 - [Prerequisites dialog box](../ide/reference/prerequisites-dialog-box.md) - Update information for ClickOnce Prerequisites
 - [Sign in or switch Visual Studio user accounts](../ide/signing-in-to-visual-studio.md) - Add remove account and sign out of accounts
@@ -96,7 +96,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Get better answers by setting the context for GitHub Copilot Chat in Visual Studio](../ide/copilot-chat-context.md) - Add Copilot Chat solution context reference
 - [Learn about Solution Explorer](../ide/use-solution-explorer.md) - Add Search options available in the Solution Explorer search bar
 - [Report a problem with the Visual Studio product or installer](../ide/how-to-report-a-problem-with-visual-studio.md) - Review and update
-- [Define consistent coding styles with EditorConfig](../ide/create-portable-custom-editor-options.md) - Refresh article
+- [Define consistent coding styles with EditorConfig](../ide/create-portable-custom-editor-options.md) - Review and update
 - [What is the .NET Project Designer?](../ide/reference/project-properties-reference.md) - Add article for .NET project designer for C#
 
 ### Install
