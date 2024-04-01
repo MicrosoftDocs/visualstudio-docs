@@ -56,7 +56,7 @@ On the **Settings** page, you can add settings to a configuration as name-value 
 
 A connection string is a setting that provides connection and authentication information for the storage emulator or for an Azure Storage account. Whenever code in a role accesses Azure Storage (blobs, queues, or tables), it needs a connection string.
 
-> [!Note]
+> [!NOTE]
 > A connection string for Azure Storage account must use a defined format (see [Configure Azure Storage Connection Strings](/azure/storage/common/storage-configure-connection-string)).
 
 You can set the connection string to use local storage as needed, then set to an Azure Storage account when you deploy the application the cloud service. Failure to set the connection string properly might cause your role not to start, or to cycle through the initializing, busy, and stopping states.

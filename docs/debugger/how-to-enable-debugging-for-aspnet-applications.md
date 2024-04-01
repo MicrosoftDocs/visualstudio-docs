@@ -54,7 +54,7 @@ A default profile based for https or one based on the project name may be presen
 
 1. Select the **Debug** tab and click the link to open the **Open debug launch profiles UI**.
 
-   The UI presented corresponds to the settings in the project's *launchSettings.json* file. For more information on this file, see the Development and launchSettings.json section in [Use multiple environments in ASP.NET Core](/aspnet/core/fundamentals/environments).
+   The UI presented corresponds to the settings in the project's `launchSettings.json` file. For more information on this file, see the Development and `launchSettings.json` section in [Use multiple environments in ASP.NET Core](/aspnet/core/fundamentals/environments).
 
 1. Select the profile to configure for debugging.
 
@@ -66,9 +66,9 @@ A default profile based for https or one based on the project name may be presen
 
 1. Make sure that **Url**, **App URL**, and **App SSL URL** are correct.
 
-   **Url** specifies the location of host URL for .NET or .NET Core. For a profile named after the project (that is, the commandName property in *launchSettings.json* is *Project*), the Kestrel server listens to the port specified. For an IIS profile, this is typically the same value as the **App URL**. For more information, see the IIS launch profile section under [Configure the project](/aspnet/core/host-and-deploy/iis/development-time-iis-support#configure-the-project).
+   **Url** specifies the location of host URL for .NET or .NET Core. For a profile named after the project (that is, the commandName property in `launchSettings.json` is *Project*), the Kestrel server listens to the port specified. For an IIS profile, this is typically the same value as the **App URL**. For more information, see the IIS launch profile section under [Configure the project](/aspnet/core/host-and-deploy/iis/development-time-iis-support#configure-the-project).
 
-   **App URL** and **App SSL URL** specify the application URL(s). For a profile named after the project, this property specifies the Kestrel server URLs, typically https://localhost:5001 and http://localhost:5000. For IIS Express, the **App SSL URL** is typically http://localhost:44334.
+   **App URL** and **App SSL URL** specify the application URL(s). For a profile named after the project, this property specifies the Kestrel server URLs, typically `https://localhost:5001` and `http://localhost:5000`. For IIS Express, the **App SSL URL** is typically `http://localhost:44334`.
 
 1. Under **Environment variables**, make sure that **ASPNETCORE_ENVIRONMENT** is present with a value of **Development**. If not, add the variable.
 
@@ -148,28 +148,28 @@ If you can connect and hit the breakpoint by using **Attach to Process**, but no
 
 ## Configure debugging in the web.config file
 
-ASP.NET projects have *web.config* files by default, which contain both app configuration and launch information, including debug settings. The *web.config* files must be configured correctly for debugging. The **Properties** settings in previous sections update the *web.config* files, but you can also configure them manually.
+ASP.NET projects have `web.config` files by default, which contain both app configuration and launch information, including debug settings. The `web.config` files must be configured correctly for debugging. The **Properties** settings in previous sections update the `web.config` files, but you can also configure them manually.
 
 > [!NOTE]
-> ASP.NET Core projects do not initially have *web.config* files, but use *appsettings.json* and *launchSettings.json* files for app configuration and launch information. Deploying the app creates a *web.config* file or files in the project, but they do not typically contain debug information.
+> ASP.NET Core projects do not initially have `web.config` files, but use `appsettings.json` and `launchSettings.json` files for app configuration and launch information. Deploying the app creates a `web.config` file or files in the project, but they do not typically contain debug information.
 
 > [!TIP]
-> Your deployment process may update the *web.config* settings, so before trying to debug, make sure the *web.config* is configured for debugging.
+> Your deployment process may update the `web.config` settings, so before trying to debug, make sure the `web.config` is configured for debugging.
 
-**To manually configure a *web.config* file for debugging:**
+**To manually configure a `web.config` file for debugging:**
 
-1. In Visual Studio, open the ASP.NET project's *web.config* file.
+1. In Visual Studio, open the ASP.NET project's `web.config` file.
 
-2. *Web.config* is an XML file, so contains nested sections marked by tags. Locate the `configuration/system.web/compilation` section. (If the `compilation` element doesn't exist, create it.)
+2. `Web.config` is an XML file, so contains nested sections marked by tags. Locate the `configuration/system.web/compilation` section. (If the `compilation` element doesn't exist, create it.)
 
 3. Make sure that the `debug` attribute in the `compilation` element is set to `true`. (If the `compilation` element doesn't contain a `debug` attribute, add it and set it to `true`.)
 
    If you are using local IIS instead of the default IIS Express server, make sure that the `targetFramework` attribute value in the `compilation` element matches the framework on the IIS server.
 
-   The `compilation` element of the *web.config* file should look like the following example:
+   The `compilation` element of the `web.config` file should look like the following example:
 
    > [!NOTE]
-   > This example is a partial *web.config* file. There are usually additional XML sections in the `configuration` and `system.web` elements, and the `compilation` element might also contain other attributes and elements.
+   > This example is a partial `web.config` file. There are usually additional XML sections in the `configuration` and `system.web` elements, and the `compilation` element might also contain other attributes and elements.
 
    ```xml
    <configuration>
@@ -182,14 +182,14 @@ ASP.NET projects have *web.config* files by default, which contain both app conf
    </configuration>
    ```
 
-ASP.NET automatically detects any changes to *web.config* files and applies the new configuration settings. You don't have to restart the computer or the IIS server for changes to take effect.
+ASP.NET automatically detects any changes to `web.config` files and applies the new configuration settings. You don't have to restart the computer or the IIS server for changes to take effect.
 
-A website can contain several virtual directories and subdirectories, with *web.config* files in each one. ASP.NET apps inherit configuration settings from *web.config* files at higher levels in the URL path. The hierarchical *web.config* file settings apply to all ASP.NET apps below them in the hierarchy. Setting a different configuration in a *web.config* file lower in the hierarchy overrides the settings in the higher file.
+A website can contain several virtual directories and subdirectories, with `web.config` files in each one. ASP.NET apps inherit configuration settings from `web.config` files at higher levels in the URL path. The hierarchical `web.config` file settings apply to all ASP.NET apps below them in the hierarchy. Setting a different configuration in a `web.config` file lower in the hierarchy overrides the settings in the higher file.
 
-For example, if you specify `debug="true"` in <em>www.microsoft.com/aaa/web.config</em>, any app in the *aaa* folder or in any subfolder of *aaa* inherits that setting, except if one of those apps overrides the setting with its own *web.config* file.
+For example, if you specify `debug="true"` in <em>www.microsoft.com/aaa/web.config</em>, any app in the `aaa` folder or in any subfolder of `aaa` inherits that setting, except if one of those apps overrides the setting with its own `web.config` file.
 
 > [!IMPORTANT]
-> Debug mode greatly reduces the performance of your app. When you deploy a production app or conduct performance measurements, set `debug="false"` in the *web.config* and specify a Release build.
+> Debug mode greatly reduces the performance of your app. When you deploy a production app or conduct performance measurements, set `debug="false"` in the `web.config` and specify a Release build.
 
 ## Related content
 - [ASP.NET debugging: system requirements](aspnet-debugging-system-requirements.md)

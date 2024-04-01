@@ -14,6 +14,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Create a .NET Framework Windows Form to search data with ADO.NET
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
@@ -79,7 +80,7 @@ This step creates a data source from a database using the **Data Source Configur
 
 1. On the **Choose your Data Connection** page do one of the following:
 
-    - If a data connection to the Northwind sample database is available in the drop-down list, select it.
+    - If a data connection to the Northwind sample database is available in the dropdown list, select it.
 
     - Select **New Connection** to launch the **Add/Modify Connection** dialog box.
 
@@ -107,7 +108,7 @@ You can create the data-bound controls by dragging items from the **Data Sources
 
 You can add a WHERE clause to the original query using the **Search Criteria Builder** dialog box:
 
-1. Just below the design surface for your form, select the **customersTableAdapter** button, and then  in the **Properties** window, choose **Add Query...**.
+1. Just below the design surface for your form, select the **customersTableAdapter** button, and then in the **Properties** window, choose **Add Query...**.
 
 2. Type **FillByCity** in the **New query name** area on the **Search Criteria Builder** dialog box.
 
@@ -141,7 +142,7 @@ Running the application opens your form and makes it ready to take the parameter
 
 ## Next steps
 
-Depending on your application requirements, there are several steps you may want to perform after creating a parameterized form. Some enhancements you could make to this walkthrough include:
+Depending on your application requirements, there are several steps you might want to perform after creating a parameterized form. Some enhancements you could make to this walkthrough include:
 
 - Adding controls that display related data. For more information, see [Relationships in Datasets](relationships-in-datasets.md).
 

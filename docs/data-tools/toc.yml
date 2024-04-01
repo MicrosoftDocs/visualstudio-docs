@@ -30,7 +30,7 @@
       href: fill-datasets-by-using-tableadapters.md
     - name: Work with DataSets in n-tier applications
       href: work-with-datasets-in-n-tier-applications.md
-  - name: Database projects and data-tier applications (DAC)
+  - name: Database projects and data-tier applications (DACs)
     href: creating-and-managing-databases-and-data-tier-applications-in-visual-studio.md
   - name: N-tier data applications overview
     href: n-tier-data-applications-overview.md
@@ -195,7 +195,7 @@
       href: how-to-add-update-or-remove-a-wcf-data-service-reference.md
 - name: Reference
   items:
-  - name: O/R Designer (Linq to SQL)
+  - name: O/R Designer (LINQ to SQL)
     items:
     - name: DataContext methods
       href: datacontext-methods-o-r-designer.md

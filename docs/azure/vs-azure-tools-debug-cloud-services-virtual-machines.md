@@ -74,7 +74,7 @@ If you enable remote debugging for a cloud service using the procedure in this s
 
 1. Follow the usual steps described at [Cloud Services (extended support)](cloud-services-extended-support.md#publish-to-cloud-services-extended-support), but select the **Enable Remote Desktop for all roles** checkbox.
 
-    You'll be asked to create a username and password for the remote desktop user, which you'll need later to sign into that virtual machine.
+    You'll be asked to create a username and password for the remote desktop user, which you'll need later to sign in to that virtual machine.
 
 1. Advance to the next screen, review your settings, and when ready, click **Publish** and wait for the deployment to finish.
 
@@ -143,7 +143,7 @@ If you enable remote debugging for a cloud service using the procedure in this s
 
 1. Follow the usual steps described at [Cloud Services (extended support)](cloud-services-extended-support.md#publish-to-cloud-services-extended-support), but select the **Enable Remote Desktop for all roles** checkbox.
 
-    You'll be asked to create a username and password for the remote desktop user, which you'll need later to sign into that virtual machine.
+    You'll be asked to create a username and password for the remote desktop user, which you'll need later to sign in to that virtual machine.
 
 1. Advance to the next screen, review your settings, and when ready, click **Publish** and wait for the deployment to finish.
 
@@ -245,17 +245,19 @@ Remote debugging has the following limitations:
 - The debugger uses ports 30400 to 30424, 31400 to 31424 and 32400 to 32424. If you try to use any of these ports, you won't be able to publish your service, and one of the following error messages will appear in the activity log for Azure:
 
   - Error validating the .cscfg file against the .csdef file.
-    The reserved port range 'range' for endpoint Microsoft.WindowsAzure.plug-ins.RemoteDebugger.Connector of role 'role' overlaps with an already defined port or range.
+    The reserved port range 'range' for endpoint `Microsoft.WindowsAzure.PlugIns.RemoteDebugger.Connector` of role 'role' overlaps with an already defined port or range.
   - Allocation failed. Retry later, try reducing the VM size or number of role instances, or try deploying to a different region.
 
 ::: moniker range=">=vs-2022"
 
-## Debugging Azure App Services
+<a name='debugging-azure-app-services'></a>
 
-You can debug programs that run in Azure App Services by using the Attach to Process dialog in Visual Studio.
+## Debugging Azure App Service
+
+You can debug programs that run in Azure App Service by using the Attach to Process dialog in Visual Studio.
 
 > [!NOTE]
-> This is only available for Windows Azure App Services starting in Visual Studio 2022 17.1.
+> This is only available for Azure App Service starting in Visual Studio 2022 17.1.
 
 ### To debug a Windows Azure App Service
 
@@ -265,10 +267,10 @@ You can debug programs that run in Azure App Services by using the Attach to Pro
 
 3. In the dialog box that opens, select the **Subscription name**.
 
-    ![Screenshot of Select Azure App Service Dialog, showing a list of App Services to select.](./media/vs-azure-tools-debug-cloud-services-virtual-machines/select-app-service.png)
+    ![Screenshot of Select Azure App Service Dialog, showing a list of app services to select.](./media/vs-azure-tools-debug-cloud-services-virtual-machines/select-app-service.png)
 
     > [!NOTE]
-    > You need to be logged into a Microsoft Account with access to the subscription that contains your Azure App Service.
+    > You need to be signed in to a Microsoft Account with access to the subscription that contains your Azure App Service.
 
 4. Filter the view by either Resource Group or Resource Type, or search by name.
 

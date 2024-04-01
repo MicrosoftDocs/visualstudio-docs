@@ -10,6 +10,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Database projects and data-tier applications (.NET Framework)
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
@@ -22,7 +23,7 @@ For a list of the database features that are supported by data-tier applications
 
 | High-Level Task | Supporting Content |
 | - | - |
-| **Start development of a data-tier application:** The concept of a data-tier application (DAC) was introduced with SQL Server 2008. A DAC contains the definition for a SQL Server database and the supporting instance objects that are used by a client-server or 3-tier application. A DAC includes database objects, such as tables and views, together with instance entities such as logins. You can use Visual Studio to create a DAC project, build a DAC package file, and send the DAC package file to a database administrator for deployment onto an instance of the SQL Server database engine. | - [Data-tier applications](/sql/relational-databases/data-tier-applications/data-tier-applications)<br />- [SQL Server Management Studio](/sql/ssms/sql-server-management-studio-ssms) |
+| **Start development of a data-tier application:** The concept of a data-tier application (DAC) was introduced with SQL Server 2008. A DAC contains the definition for a SQL Server database and the supporting instance objects that are used by a client-server or 3-tier application. A DAC includes database objects, such as tables and views, together with instance entities such as logins. You can use Visual Studio to create a DAC project, build a DAC package file, and send the DAC package file to a database administrator for deployment onto an instance of the SQL Server Database Engine. | - [Data-tier applications](/sql/relational-databases/data-tier-applications/data-tier-applications)<br />- [SQL Server Management Studio](/sql/ssms/sql-server-management-studio-ssms) |
 | **Performing iterative database development:** Developers can check out parts of the project and update them in an isolated development environment. By using this type of environment, you can test your changes without affecting other members of the team. After the changes are complete, you check the files back into version control, where other team members can obtain your changes and build and deploy them to a test server. | - [Project-oriented offline database development (SQL Server Data Tools)](/sql/ssdt/project-oriented-offline-database-development)<br />- [Transact-SQL debugger (SQL Server Management Studio)](/sql/ssms/scripting/transact-sql-debugger) |
 | **Prototyping, verifying test results, and modifying database scripts and objects:** You can use the Transact-SQL editor to perform any one of these common tasks. | - [Query and text editors (SQL Server Management Studio)](/sql/ssms/scripting/query-and-text-editors-sql-server-management-studio) |
 

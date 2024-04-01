@@ -28,7 +28,7 @@ Additional tools and resources for working with PowerShell in Visual Studio for 
 
 ## Generating the publish scripts
 
-You can generate the publish scripts for a virtual machine that hosts your website when you create a new project by following [these instructions](/azure/virtual-machines/windows/classic/web-app-visual-studio). You can also [generate publish scripts for web apps in Azure App Service](/azure/app-service/scripts/app-service-powershell-deploy-github).
+You can generate the publish scripts for a virtual machine that hosts your website when you create a new project by following these [instructions](/azure/virtual-machines/windows/classic/web-app-visual-studio). You can also [generate publish scripts for web apps in Azure App Service](/azure/app-service/scripts/app-service-powershell-deploy-github).
 
 ## Scripts that Visual Studio generates
 
@@ -305,7 +305,7 @@ To get help for functions you can use at the Windows PowerShell command prompt, 
 
 | Function name | Description |
 | --- | --- |
-| Add-AzureSQLDatabase |Creates a new Azure SQL Database. |
+| Add-AzureSQLDatabase |Creates a new Azure SQL database. |
 | Add-AzureSQLDatabases |Creates Azure SQL databases from the values in the JSON configuration file that Visual Studio generates. |
 | Add-AzureVM |Creates an Azure virtual machine and returns the URL of the deployed VM. The function sets up the prerequisites and then calls the **New-AzureVM** function (Azure module) to create a new virtual machine. |
 | Add-AzureVMEndpoints |Adds new input endpoints to a virtual machine and returns the virtual machine with the new endpoint. |

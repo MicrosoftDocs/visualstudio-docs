@@ -62,7 +62,7 @@ For those subscribers that renewed from regular Visual Studio subscriptions to V
 
 You can review the impacted subscribers and specify whether you would like to notify them to receive an email notification after the move is complete. This email informs subscribers that their benefits remain unchanged and encourages them to begin setting up a presence in GitHub. 
 
-Selecting the **Move subscribers** button allows you to move all recommended subscribers or choose individuals from a list. After you confirm your selections, it takes a few seconds for the subscription moves to complete. If applicable, perform these steps for Professional and Enterprise separately. 
+Selecting the **Move subscribers** button allows you to move all recommended subscribers or choose individuals from a list. After you confirm your selections, it takes a few seconds for the subscription moves to complete. If applicable, perform these steps for Professional and Enterprise separately. 
 
 ## Invite subscribers to your organization
 

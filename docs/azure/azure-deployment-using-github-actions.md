@@ -62,7 +62,7 @@ In all cases, Visual Studio tries to set the GitHub secret for you with the corr
 
 ![GitHub secret missing](./media/azure-deployment-using-github-actions/summary-one-github-secret-missing.png)
 
-If it fails to set the secret again, Visual Studio gives you the opportunity to get access to the secret manually, so you can complete the process through your repo's page on github.com.
+If it fails to set the secret again, Visual Studio gives you the opportunity to get access to the secret manually, so you can complete the process through your repo's page on GitHub.com.
 
 ![set missing GitHub secret](./media/azure-deployment-using-github-actions/summary-set-github-secret.png)
 
@@ -98,11 +98,11 @@ These steps are appropriate if you have more than one project that uses Docker c
 
    If you choose to create a new one, you see this screen. Provide the resource group, SKU, and choose the same region, if possible, as before. For information about the SKUs for Azure Container Registry, see [Azure Container Registry service tiers](/azure/container-registry/container-registry-skus).
 
-   ![Screenshot showing a new Azure Container Registry that was just created.](./media/azure-deployment-using-github-actions/github-actions-create-azure-container-registry.png)
+   ![Screenshot showing a new Azure container registry that was just created.](./media/azure-deployment-using-github-actions/github-actions-create-azure-container-registry.png)
 
    Once created, the new registry shows on the screen.
 
-   ![Screenshot showing creating a new Azure Container Registry.](./media/azure-deployment-using-github-actions/github-actions-created-azure-container-registry.png)
+   ![Screenshot showing creating a new Azure container registry.](./media/azure-deployment-using-github-actions/github-actions-created-azure-container-registry.png)
 
 1. The deployable projects in your solution are displayed; choose the projects you want to deploy together in the same Azure Container Apps instance.
 

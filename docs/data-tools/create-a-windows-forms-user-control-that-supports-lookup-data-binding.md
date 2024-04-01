@@ -15,6 +15,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Create a .NET Framework Windows Forms user control that supports lookup data binding
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
@@ -126,7 +127,7 @@ This step creates a data source using the **Data Source Configuration** wizard, 
 
 4. On the **Choose your Data Connection** page do one of the following:
 
-    - If a data connection to the Northwind sample database is available in the drop-down list, select it.
+    - If a data connection to the Northwind sample database is available in the dropdown list, select it.
 
     - Select **New Connection** to launch the **Add/Modify Connection** dialog box.
 
@@ -150,15 +151,15 @@ Within the **Data Sources** window, you can set the control to be created prior 
 
 3. Expand the **Orders** node (the one in the **Customers** node below the **Fax** column).
 
-4. Click the drop-down arrow on the **Orders** node, and choose **Details** from the control list.
+4. Click the dropdown list arrow on the **Orders** node, and choose **Details** from the control list.
 
-5. Click the drop-down arrow on the **CustomerID** column (in the **Orders** node), and choose **Customize**.
+5. Click the dropdown list arrow on the **CustomerID** column (in the **Orders** node), and choose **Customize**.
 
 6. Select the **LookupBox** from the list of **Associated Controls** in the **Data UI Customization Options** dialog box.
 
 7. Click **OK**.
 
-8. Click the drop-down arrow on the **CustomerID** column, and choose **LookupBox**.
+8. Click the dropdown list arrow on the **CustomerID** column, and choose **LookupBox**.
 
 ## Add controls to the form
 

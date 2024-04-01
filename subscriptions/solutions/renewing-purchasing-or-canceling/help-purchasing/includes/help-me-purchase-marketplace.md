@@ -15,7 +15,7 @@ sap.id: c374762c-640b-8b2c-d049-bda9545e903c
 
 ## Purchase monthly subscriptions through Visual Studio Marketplace 
 
-With monthly subscriptions, you can rent Visual Studio and Azure DevOps without a long-term contract. These subscriptions can be purchased through the [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions).  
+With monthly subscriptions, you can rent Visual Studio and Azure DevOps without a long-term contract. These subscriptions can be purchased through the [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions).  
 
 Read more details on [how to purchase monthly subscriptions](https://learn.microsoft.com/visualstudio/subscriptions/vscloud-overview)
 
@@ -30,6 +30,6 @@ Read more about [monthly Visual Studio Subscriptions Azure billing](https://lear
 
 ## More information about subscription benefits
 
-[Compare subscription benefits and pricing](https://visualstudio.microsoft.com/vs/pricing/) to understand the benefits of each Visual Studio subscription. 
+[Compare subscription benefits and pricing](https://visualstudio.microsoft.com/vs/pricing/) to understand the benefits of each Visual Studio subscription. 
 
 Check out the [subscription benefits comparison page](https://visualstudio.microsoft.com/vs/benefits/) for more help deciding which subscription is right for you.

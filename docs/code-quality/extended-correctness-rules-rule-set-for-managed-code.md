@@ -9,6 +9,7 @@ manager: mijacobs
 ms.subservice: code-analysis
 monikerRange: 'vs-2019'
 ---
+
 # Extended Correctness Rules rule set for managed code
 
 The Microsoft Extended Correctness Rules rule set maximizes the logic and framework usage errors that are reported by code analysis. Extra emphasis is placed on specific scenarios such as COM interoperability and mobile applications. You should consider including this rule set if one of these scenarios applies to your project or to find additional problems in your project.
@@ -16,6 +17,8 @@ The Microsoft Extended Correctness Rules rule set maximizes the logic and framew
 The Microsoft Extended Correctness Rules rule set includes the rules that are in the [Basic Correctness Rules](../code-quality/basic-correctness-rules-rule-set-for-managed-code.md) rule set, which contains the rules that are in the [Managed Recommended Rules](../code-quality/managed-recommended-rules-rule-set-for-managed-code.md) rule set.
 
 The following table describes all of the rules in the Microsoft Extended Correctness Rules rule set.
+
+<!-- docutune:disable -->
 
 |Rule|Description|
 |----------|-----------------|

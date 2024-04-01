@@ -24,7 +24,7 @@ Thread naming is possible in any edition of Visual Studio. Thread naming is usef
 
 There are two ways to set a thread name. The first is via the [SetThreadDescription](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreaddescription) function. The second is by throwing a particular exception while the Visual Studio debugger is attached to the process. Each approach has benefits and caveats. The use of `SetThreadDescription` is supported starting in Windows 10, version 1607 or Windows Server 2016.
 
-It is worth noting that _both_ approaches can be used together, if desired, since the mechanisms by which they work are independent of each other.
+It is worth noting that *both* approaches can be used together, if desired, since the mechanisms by which they work are independent of each other.
 
 ### Set a thread name by using `SetThreadDescription`
 

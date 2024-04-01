@@ -18,6 +18,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ---
+
 # Commit in-process edits on data-bound controls before saving data
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
@@ -31,7 +32,7 @@ You can configure your application to automatically commit changes, even if a us
 > [!NOTE]
 > The designer adds the `BindingSource.EndEdit` code only for the first item dropped onto a form. Therefore, you have to add a line of code to call the <xref:System.Windows.Forms.BindingSource.EndEdit%2A> method for each <xref:System.Windows.Forms.BindingSource> on the form. You can manually add a line of code to call the <xref:System.Windows.Forms.BindingSource.EndEdit%2A> method for each <xref:System.Windows.Forms.BindingSource>. Alternatively, you can add the `EndEditOnAllBindingSources` method to the form and call it before you perform a save.
 
-The following code uses a [LINQ (Language-Integrated Query)](/dotnet/csharp/linq/) query to iterate all <xref:System.Windows.Forms.BindingSource> components and call the <xref:System.Windows.Forms.BindingSource.EndEdit%2A> method for each <xref:System.Windows.Forms.BindingSource> on a form.
+The following code uses a [LINQ (Language Integrated Query)](/dotnet/csharp/linq/) query to iterate all <xref:System.Windows.Forms.BindingSource> components and call the <xref:System.Windows.Forms.BindingSource.EndEdit%2A> method for each <xref:System.Windows.Forms.BindingSource> on a form.
 
 ## To call EndEdit for all BindingSource components on a form
 

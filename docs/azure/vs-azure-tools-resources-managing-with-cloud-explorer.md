@@ -14,9 +14,9 @@ monikerRange: "<=vs-2019"
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
-> [!Important]
+> [!IMPORTANT]
 > Cloud Explorer has been retired in Visual Studio 2022. Instead, you can use the following alternatives:
-> - To debug Azure App Services or Azure function apps, you can use the Connected Services or the Publish features available on all projects.
+> - To debug Azure App Service or Azure Functions, you can use the Connected Services or the Publish features available on all projects.
 >   - If you rely on Visual Studio for publishing, you can access this feature under the "Additional Options" in the Hosting section.
 >   - If you don't use the publishing feature, the [Connected Services](overview-connected-services.md?view=vs-2022&preserve-view=true) node inside each Project in your Solution can help you configure access to Azure resources and invoke various operations like remote debugging, remote profiling, starting/stopping the application, view streaming logs, and more.
 > - Use [Microsoft Azure Storage Explorer](/azure/vs-azure-tools-storage-manage-with-storage-explorer) is a free, standalone app from Microsoft. You can use it to work visually with Azure Storage data on Windows, macOS, and Linux.
@@ -50,9 +50,9 @@ To view the resources associated with an Azure account, you must first add the a
 
    ![Cloud Explorer add-account link](./media/vs-azure-tools-resources-managing-with-cloud-explorer/manage-accounts-link.png)
 
-1. Log in to the Azure account whose resources you want to browse.
+1. Sign in to the Azure account whose resources you want to browse.
 
-1. Once logged in to an Azure account, the subscriptions associated with that account display. Select the checkboxes for the account subscriptions you want to browse and then select **Apply**.
+1. Once signed in to an Azure account, the subscriptions associated with that account display. Select the checkboxes for the account subscriptions you want to browse and then select **Apply**.
 
    ![Cloud Explorer: select Azure subscriptions to display](./media/vs-azure-tools-resources-managing-with-cloud-explorer/select-subscriptions.png)
 

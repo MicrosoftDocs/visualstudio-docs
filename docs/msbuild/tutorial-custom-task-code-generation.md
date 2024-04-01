@@ -54,54 +54,54 @@ When compiling a custom task, you should reference the version of the MSBuild AP
 
 The first step is to create the MSBuild custom task. Information about how to [write an MSBuild custom task](task-writing.md) might help you understand the following steps. An MSBuild custom task is a class that implements the <xref:Microsoft.Build.Framework.ITask> interface.
 
-1. Add a reference to the _Microsoft.Build.Utilities.Core_ NuGet package, and then create a class named AppSettingStronglyTyped derived from Microsoft.Build.Utilities.Task.
+1. Add a reference to the *Microsoft.Build.Utilities.Core* NuGet package, and then create a class named AppSettingStronglyTyped derived from Microsoft.Build.Utilities.Task.
 
 1. Add three properties. These properties define the parameters of the task that users set when they use the task in a client project:
 
-	```csharp
-	//The name of the class which is going to be generated
-	[Required]
-	public string SettingClassName { get; set; }
+    ```csharp
+    //The name of the class which is going to be generated
+    [Required]
+    public string SettingClassName { get; set; }
 
-	//The name of the namespace where the class is going to be generated
-	[Required]
-	public string SettingNamespaceName { get; set; }
+    //The name of the namespace where the class is going to be generated
+    [Required]
+    public string SettingNamespaceName { get; set; }
 
-	//List of files which we need to read with the defined format: 'propertyName:type:defaultValue' per line
-	[Required]
-	public ITaskItem[] SettingFiles { get; set; }
-	```
+    //List of files which we need to read with the defined format: 'propertyName:type:defaultValue' per line
+    [Required]
+    public ITaskItem[] SettingFiles { get; set; }
+    ```
 
-	The task processes the _SettingFiles_ and generates a class `SettingNamespaceName.SettingClassName`. The generated class will have a set of constants based on the text file's content.
+	The task processes the *SettingFiles* and generates a class `SettingNamespaceName.SettingClassName`. The generated class will have a set of constants based on the text file's content.
 
-	The task output should be a string that gives the filename of the generated code:
+    The task output should be a string that gives the filename of the generated code:
 
-	```csharp
-	// The filename where the class was generated
-	[Output]
-	public string ClassNameFile { get; set; }
-	```
+    ```csharp
+    // The filename where the class was generated
+    [Output]
+    public string ClassNameFile { get; set; }
+    ```
 
 1. When you create a custom task, you inherit from <xref:Microsoft.Build.Utilities.Task?displayProperty=fullName>. To implement the task, you override the <xref:Microsoft.Build.Utilities.Task.Execute> method. The `Execute` method returns `true` if the task succeeds, and `false` otherwise. `Task` implements <xref:Microsoft.Build.Framework.ITask?displayProperty=nameWithType> and provides default implementations of some `ITask` members and additionally, provides some logging functionality. It's important to output status to the log to diagnose and troubleshoot the task, especially if a problem occurs and the task must return an error result (`false`). On error, the class signals the error by calling <xref:Microsoft.Build.Utilities.TaskLoggingHelper.LogError%2A?displayProperty=nameWithType>.
 
-	```csharp
-	public override bool Execute()
-	{
-		//Read the input files and return a IDictionary<string, object> with the properties to be created. 
-		//Any format error it will return false and log an error
-		var (success, settings) = ReadProjectSettingFiles();
-		if (!success)
-		{
-				return !Log.HasLoggedErrors;
-		}
-		//Create the class based on the Dictionary
-		success = CreateSettingClass(settings);
+    ```csharp
+    public override bool Execute()
+    {
+        //Read the input files and return a IDictionary<string, object> with the properties to be created. 
+        //Any format error it will return false and log an error
+        var (success, settings) = ReadProjectSettingFiles();
+        if (!success)
+        {
+                return !Log.HasLoggedErrors;
+        }
+        //Create the class based on the Dictionary
+        success = CreateSettingClass(settings);
 
-		return !Log.HasLoggedErrors;
-	}
-	```
+        return !Log.HasLoggedErrors;
+    }
+    ```
 
-	The Task API allows returning false, indicating failure, without indicating to the user what went wrong. It's best to return `!Log.HasLoggedErrors` instead of a boolean code, and log an error when something goes wrong.
+    The Task API allows returning false, indicating failure, without indicating to the user what went wrong. It's best to return `!Log.HasLoggedErrors` instead of a boolean code, and log an error when something goes wrong.
 
 ### Log errors
 
@@ -110,40 +110,40 @@ The best practice when logging errors is to provide details such as the line num
 ```csharp
 private (bool, IDictionary<string, object>) ReadProjectSettingFiles()
 {
-	var values = new Dictionary<string, object>();
-	foreach (var item in SettingFiles)
-	{
-		int lineNumber = 0;
+    var values = new Dictionary<string, object>();
+    foreach (var item in SettingFiles)
+    {
+        int lineNumber = 0;
 
-		var settingFile = item.GetMetadata("FullPath");
-		foreach (string line in File.ReadLines(settingFile))
-		{
-			lineNumber++;
+        var settingFile = item.GetMetadata("FullPath");
+        foreach (string line in File.ReadLines(settingFile))
+        {
+            lineNumber++;
 
-			var lineParse = line.Split(':');
-			if (lineParse.Length != 3)
-			{
-				Log.LogError(subcategory: null,
-							 errorCode: "APPS0001",
-							 helpKeyword: null,
-							 file: settingFile,
-							 lineNumber: lineNumber,
-							 columnNumber: 0,
-							 endLineNumber: 0,
-							 endColumnNumber: 0,
-							 message: "Incorrect line format. Valid format prop:type:defaultvalue");
-							 return (false, null);
-			}
-			var value = GetValue(lineParse[1], lineParse[2]);
-			if (!value.Item1)
-			{
-				return (value.Item1, null);
-			}
+            var lineParse = line.Split(':');
+            if (lineParse.Length != 3)
+            {
+                Log.LogError(subcategory: null,
+                             errorCode: "APPS0001",
+                             helpKeyword: null,
+                             file: settingFile,
+                             lineNumber: lineNumber,
+                             columnNumber: 0,
+                             endLineNumber: 0,
+                             endColumnNumber: 0,
+                             message: "Incorrect line format. Valid format prop:type:defaultvalue");
+                             return (false, null);
+            }
+            var value = GetValue(lineParse[1], lineParse[2]);
+            if (!value.Item1)
+            {
+                return (value.Item1, null);
+            }
 
-			values[lineParse[0]] = value.Item2;
-		}
-	}
-	return (true, values);
+            values[lineParse[0]] = value.Item2;
+        }
+    }
+    return (true, values);
 }
 ```
 
@@ -164,8 +164,8 @@ Build FAILED.
 (generateSettingClass target) ->
   S:\work\msbuild-examples\custom-task-code-generation\AppSettingStronglyTyped\AppSettingStronglyTyped.Test\bin\Debug\net6.0\Resources\error-prop.setting(1): error APPS0001: Incorrect line format. Valid format prop:type:defaultvalue [S:\work\msbuild-examples\custom-task-code-generation\AppSettingStronglyTyped\AppSettingStronglyTyped.Test\bin\Debug\net6.0\Resources\testscript-fail.msbuild]
 
-	 0 Warning(s)
-	 1 Error(s)
+     0 Warning(s)
+     1 Error(s)
 ```
 
 When you catch exceptions in your task, use the <xref:Microsoft.Build.Utilities.TaskLoggingHelper.LogErrorFromException%2A?displayProperty=nameWithType> method. This will improve the error output, for example by obtaining the call stack where the exception was thrown.
@@ -173,10 +173,10 @@ When you catch exceptions in your task, use the <xref:Microsoft.Build.Utilities.
 ```csharp
 catch (Exception ex)
 {
-	// This logging helper method is designed to capture and display information
-	// from arbitrary exceptions in a standard way.
-	Log.LogErrorFromException(ex, showStackTrace: true);
-	return false;
+    // This logging helper method is designed to capture and display information
+    // from arbitrary exceptions in a standard way.
+    Log.LogErrorFromException(ex, showStackTrace: true);
+    return false;
 }
 ```
 
@@ -193,84 +193,84 @@ In this section, you'll create a standard .NET Core Console App that uses the ta
 
 1. Create the .NET Console project MSBuildConsoleExample in a new Visual Studio Solution.
 
-	The normal way to distribute a task is through a NuGet package, but during development and debugging, you can include all the information on `.props` and `.targets` directly in your application's project file and then move to the NuGet format when you distribute the task to others.
+    The normal way to distribute a task is through a NuGet package, but during development and debugging, you can include all the information on `.props` and `.targets` directly in your application's project file and then move to the NuGet format when you distribute the task to others.
 
 1. Modify the project file to consume the code generation task. The code listing in this section shows the modified project file after referencing the task, setting the input parameters for the task, and writing the targets for handling clean and rebuild operations so that the generated code file is removed as you would expect.
 
-	Tasks are registered using the [UsingTask element (MSBuild)](usingtask-element-msbuild.md).  The `UsingTask` element registers the task; it tells MSBuild the name of the task and how to locate and run the assembly that contains the task class. The assembly path is relative to the project file.  
+    Tasks are registered using the [UsingTask element (MSBuild)](usingtask-element-msbuild.md).  The `UsingTask` element registers the task; it tells MSBuild the name of the task and how to locate and run the assembly that contains the task class. The assembly path is relative to the project file.  
 
-	The `PropertyGroup` contains the property definitions that correspond to the properties defined in the task. These properties are set using attributes, and the task name is used as the element name.
+    The `PropertyGroup` contains the property definitions that correspond to the properties defined in the task. These properties are set using attributes, and the task name is used as the element name.
 
-	`TaskName` is the name of the task to reference from the assembly. This attribute should always use fully specified namespaces. `AssemblyFile` is the file path of the assembly.
+    `TaskName` is the name of the task to reference from the assembly. This attribute should always use fully specified namespaces. `AssemblyFile` is the file path of the assembly.
 
-	To invoke the task, add the task to the appropriate target, in this case `GenerateSetting`.
+    To invoke the task, add the task to the appropriate target, in this case `GenerateSetting`.
 
-	The target `ForceGenerateOnRebuild` handles the clean and rebuild operations by deleting the generated file. It's set to run after the `CoreClean` target by setting the `AfterTargets` attribute to `CoreClean`.
+    The target `ForceGenerateOnRebuild` handles the clean and rebuild operations by deleting the generated file. It's set to run after the `CoreClean` target by setting the `AfterTargets` attribute to `CoreClean`.
 
-	```xml
-	<Project Sdk="Microsoft.NET.Sdk">
-		<UsingTask TaskName="AppSettingStronglyTyped.AppSettingStronglyTyped" AssemblyFile="..\..\AppSettingStronglyTyped\AppSettingStronglyTyped\bin\Debug\netstandard2.0\AppSettingStronglyTyped.dll"/>
+    ```xml
+    <Project Sdk="Microsoft.NET.Sdk">
+        <UsingTask TaskName="AppSettingStronglyTyped.AppSettingStronglyTyped" AssemblyFile="..\..\AppSettingStronglyTyped\AppSettingStronglyTyped\bin\Debug\netstandard2.0\AppSettingStronglyTyped.dll"/>
 
-		<PropertyGroup>
-			<OutputType>Exe</OutputType>
-			<TargetFramework>net6.0</TargetFramework>
-			<RootFolder>$(MSBuildProjectDirectory)</RootFolder>
-			<SettingClass>MySetting</SettingClass>
-			<SettingNamespace>MSBuildConsoleExample</SettingNamespace>
-			<SettingExtensionFile>mysettings</SettingExtensionFile>
-		</PropertyGroup>
+        <PropertyGroup>
+            <OutputType>Exe</OutputType>
+            <TargetFramework>net6.0</TargetFramework>
+            <RootFolder>$(MSBuildProjectDirectory)</RootFolder>
+            <SettingClass>MySetting</SettingClass>
+            <SettingNamespace>MSBuildConsoleExample</SettingNamespace>
+            <SettingExtensionFile>mysettings</SettingExtensionFile>
+        </PropertyGroup>
 
-		<ItemGroup>
-			<SettingFiles Include="$(RootFolder)\*.mysettings" />
-		</ItemGroup>
+        <ItemGroup>
+            <SettingFiles Include="$(RootFolder)\*.mysettings" />
+        </ItemGroup>
 
-		<Target Name="GenerateSetting" BeforeTargets="CoreCompile" Inputs="@(SettingFiles)" Outputs="$(RootFolder)\$(SettingClass).generated.cs">
-			<AppSettingStronglyTyped SettingClassName="$(SettingClass)" SettingNamespaceName="$(SettingNamespace)" SettingFiles="@(SettingFiles)">
-			<Output TaskParameter="ClassNameFile" PropertyName="SettingClassFileName" />
-			</AppSettingStronglyTyped>
-			<ItemGroup>
-				<Compile Remove="$(SettingClassFileName)" />
-				<Compile Include="$(SettingClassFileName)" />
-			</ItemGroup>
-		</Target>
+        <Target Name="GenerateSetting" BeforeTargets="CoreCompile" Inputs="@(SettingFiles)" Outputs="$(RootFolder)\$(SettingClass).generated.cs">
+            <AppSettingStronglyTyped SettingClassName="$(SettingClass)" SettingNamespaceName="$(SettingNamespace)" SettingFiles="@(SettingFiles)">
+            <Output TaskParameter="ClassNameFile" PropertyName="SettingClassFileName" />
+            </AppSettingStronglyTyped>
+            <ItemGroup>
+                <Compile Remove="$(SettingClassFileName)" />
+                <Compile Include="$(SettingClassFileName)" />
+            </ItemGroup>
+        </Target>
 
-		<Target Name="ForceReGenerateOnRebuild" AfterTargets="CoreClean">
-			<Delete Files="$(RootFolder)\$(SettingClass).generated.cs" />
-		</Target>
-	</Project>
-	```
+        <Target Name="ForceReGenerateOnRebuild" AfterTargets="CoreClean">
+            <Delete Files="$(RootFolder)\$(SettingClass).generated.cs" />
+        </Target>
+    </Project>
+    ```
 
-	> [!NOTE]
-	> Instead of overriding a target such as `CoreClean`, this code uses another way to order the targets [(BeforeTarget and AfterTarget)](target-build-order.md#beforetargets-and-aftertargets). SDK-style projects have an implicit import of targets after the last line of the project file; this means that you can't override default targets unless you specify your imports manually. See [Override predefined targets](how-to-extend-the-visual-studio-build-process.md#override-predefined-targets).
+    > [!NOTE]
+    > Instead of overriding a target such as `CoreClean`, this code uses another way to order the targets [(BeforeTarget and AfterTarget)](target-build-order.md#beforetargets-and-aftertargets). SDK-style projects have an implicit import of targets after the last line of the project file; this means that you can't override default targets unless you specify your imports manually. See [Override predefined targets](how-to-extend-the-visual-studio-build-process.md#override-predefined-targets).
 
-	The `Inputs` and `Outputs` attributes help MSBuild be more efficient by providing information for incremental builds. The dates of the inputs are compared against the outputs to see if the target needs to be run, or if the output of the previous build can be reused.
+    The `Inputs` and `Outputs` attributes help MSBuild be more efficient by providing information for incremental builds. The dates of the inputs are compared against the outputs to see if the target needs to be run, or if the output of the previous build can be reused.
 
 1. Create the input text file with the extension defined to be discovered. Using the default extension, create `MyValues.mysettings` on the root, with the following content:
 
-	```
-	Greeting:string:Hello World!
-	```
+    ```
+    Greeting:string:Hello World!
+    ```
 
 1. Build again, and the generated file should be created and built. Check the project folder for the *MySetting.generated.cs* file.
 
 1. The class *MySetting* is in the wrong namespace, so now make a change to use our app namespace. Open the project file and add the following code:
 
-	```xml
-	<PropertyGroup>
-		<SettingNamespace>MSBuildConsoleExample</SettingNamespace>
-	</PropertyGroup>
-	```
+    ```xml
+    <PropertyGroup>
+        <SettingNamespace>MSBuildConsoleExample</SettingNamespace>
+    </PropertyGroup>
+    ```
 
 1. Rebuild again, and observe that the class is in the `MSBuildConsoleExample` namespace. In this way, you can redefine the generated class name (`SettingClass`), the text extension files (`SettingExtensionFile`) to be use as input, and the location (`RootFolder`) of them if you like.
 
-1. Open *Program.cs* and change the hardcoded 'Hello World!!' to the user-defined constant:
+1. Open `Program.cs` and change the hardcoded 'Hello World!!' to the user-defined constant:
 
-	```csharp
-	static void Main(string[] args)
-	{
-		Console.WriteLine(MySetting.Greeting);
-	}
-	```
+    ```csharp
+    static void Main(string[] args)
+    {
+        Console.WriteLine(MySetting.Greeting);
+    }
+    ```
 
 Execute the program; it will print the greeting from the generated class.
 
@@ -298,7 +298,7 @@ MSBuild Task packages have a few key differences from library NuGet packages:
 
 - They have to bundle their own assembly dependencies, instead of exposing those dependencies to the consuming project
 - They do not package any required assemblies to a `lib/<target framework>` folder, because that would cause NuGet to include the assemblies in any package that consumes the task
-- They only need to _compile_ against the Microsoft.Build assemblies - at runtime these will be provided by the actual MSBuild engine and so do not need to be included in the package
+- They only need to *compile* against the Microsoft.Build assemblies - at runtime these will be provided by the actual MSBuild engine and so do not need to be included in the package
 - They generate a special `.deps.json` file that helps MSBuild to load the Task's dependencies (especially native dependencies) in a consistent fashion
 
 To accomplish all of these goals, you have to make a few changes to the standard project file above and beyond the ones you may be familiar with.
@@ -314,13 +314,13 @@ To prepare to generate a NuGet package, make some changes to the project file to
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
 
-	<PropertyGroup>
-		<TargetFramework>netstandard2.0</TargetFramework>
-	</PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
 
-	<ItemGroup>
-		<PackageReference Include="Microsoft.Build.Utilities.Core" Version="17.0.0" />
-	</ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Build.Utilities.Core" Version="17.0.0" />
+    </ItemGroup>
 
 </Project>
 ```
@@ -350,12 +350,12 @@ The dependencies of your MSBuild task must be packaged inside the package; they 
 
 ```xml
 <ItemGroup>
-	<PackageReference 
-		Include="Microsoft.Build.Utilities.Core"
-		Version="17.0.0" />
-	<PackageReference
-		Include="Microsoft.Extensions.DependencyInjection"
-		Version="6.0.0" />
+    <PackageReference 
+        Include="Microsoft.Build.Utilities.Core"
+        Version="17.0.0" />
+    <PackageReference
+        Include="Microsoft.Extensions.DependencyInjection"
+        Version="6.0.0" />
 </ItemGroup>
 ```
 
@@ -363,16 +363,16 @@ Now, mark every dependency of this Task project, both `PackageReference` and `Pr
 
 ```xml
 <ItemGroup>
-	<PackageReference 
-		Include="Microsoft.Build.Utilities.Core"
-		Version="17.0.0"
-		PrivateAssets="all"
-	/>
-	<PackageReference
-		Include="Microsoft.Extensions.DependencyInjection"
-		Version="6.0.0"
-		PrivateAssets="all"
-	/>
+    <PackageReference 
+        Include="Microsoft.Build.Utilities.Core"
+        Version="17.0.0"
+        PrivateAssets="all"
+    />
+    <PackageReference
+        Include="Microsoft.Extensions.DependencyInjection"
+        Version="6.0.0"
+        PrivateAssets="all"
+    />
 </ItemGroup>
 ```
 
@@ -382,31 +382,31 @@ You must also embed the runtime assets of our dependencies into the Task package
 
 ```xml
 <PropertyGroup>
-	...
-	<!-- This target will run when MSBuild is collecting the files to be packaged, and we'll implement it below. This property controls the dependency list for this packaging process, so by adding our custom property we hook ourselves into the process in a supported way. -->
-	<TargetsForTfmSpecificBuildOutput>
-		$(TargetsForTfmSpecificBuildOutput);CopyProjectReferencesToPackage
-	</TargetsForTfmSpecificBuildOutput>
-	<!-- This property tells MSBuild where the root folder of the package's build assets should be. Because we are not a library package, we should not pack to 'lib'. Instead, we choose 'tasks' by convention. -->
-	<BuildOutputTargetFolder>tasks</BuildOutputTargetFolder>
-	<!-- NuGet does validation that libraries in a package are exposed as dependencies, but we _explicitly_ do not want that behavior for MSBuild tasks. They are isolated by design. Therefore we ignore this specific warning. -->
-	<NoWarn>NU5100</NoWarn>
+    ...
+    <!-- This target will run when MSBuild is collecting the files to be packaged, and we'll implement it below. This property controls the dependency list for this packaging process, so by adding our custom property we hook ourselves into the process in a supported way. -->
+    <TargetsForTfmSpecificBuildOutput>
+        $(TargetsForTfmSpecificBuildOutput);CopyProjectReferencesToPackage
+    </TargetsForTfmSpecificBuildOutput>
+    <!-- This property tells MSBuild where the root folder of the package's build assets should be. Because we are not a library package, we should not pack to 'lib'. Instead, we choose 'tasks' by convention. -->
+    <BuildOutputTargetFolder>tasks</BuildOutputTargetFolder>
+    <!-- NuGet does validation that libraries in a package are exposed as dependencies, but we _explicitly_ do not want that behavior for MSBuild tasks. They are isolated by design. Therefore we ignore this specific warning. -->
+    <NoWarn>NU5100</NoWarn>
     <!-- Suppress NuGet warning NU5128. -->
     <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
-	...
+    ...
 </PropertyGroup>
 
 ...
 <!-- This is the target we defined above. It's purpose is to add all of our PackageReference and ProjectReference's runtime assets to our package output.  -->
 <Target
-	Name="CopyProjectReferencesToPackage"
-	DependsOnTargets="ResolveReferences">
-	<ItemGroup>
-		<!-- The TargetPath is the path inside the package that the source file will be placed. This is already precomputed in the ReferenceCopyLocalPaths items' DestinationSubPath, so reuse it here. -->
-		<BuildOutputInPackage
-			Include="@(ReferenceCopyLocalPaths)"
-			TargetPath="%(ReferenceCopyLocalPaths.DestinationSubPath)" />
-	</ItemGroup>
+    Name="CopyProjectReferencesToPackage"
+    DependsOnTargets="ResolveReferences">
+    <ItemGroup>
+        <!-- The TargetPath is the path inside the package that the source file will be placed. This is already precomputed in the ReferenceCopyLocalPaths items' DestinationSubPath, so reuse it here. -->
+        <BuildOutputInPackage
+            Include="@(ReferenceCopyLocalPaths)"
+            TargetPath="%(ReferenceCopyLocalPaths.DestinationSubPath)" />
+    </ItemGroup>
 </Target>
 ```
 
@@ -417,39 +417,39 @@ As discussed above, this dependency will be provided by MSBuild itself at runtim
 ```xml
 ...
 <PackageReference 
-	Include="Microsoft.Build.Utilities.Core"
-	Version="17.0.0"
-	PrivateAssets="all"
-	ExcludeAssets="Runtime"
+    Include="Microsoft.Build.Utilities.Core"
+    Version="17.0.0"
+    PrivateAssets="all"
+    ExcludeAssets="Runtime"
 />
 ...
 ```
 
 #### Generate and embed a deps.json file
 
-The deps.json file can be used by MSBuild to ensure the correct versions of your dependencies are loaded. You'll need to add some MSBuild properties to cause the file to be generated, since it is not generated by default for libraries. Then, add a target to include it in our package output, similarly to how you did for our package dependencies.
+The `deps.json` file can be used by MSBuild to ensure the correct versions of your dependencies are loaded. You'll need to add some MSBuild properties to cause the file to be generated, since it is not generated by default for libraries. Then, add a target to include it in our package output, similarly to how you did for our package dependencies.
 
 ```xml
 <PropertyGroup>
-	...
-	<!-- Tell the SDK to generate a deps.json file -->
-	<GenerateDependencyFile>true</GenerateDependencyFile>
-	...
+    ...
+    <!-- Tell the SDK to generate a deps.json file -->
+    <GenerateDependencyFile>true</GenerateDependencyFile>
+    ...
 </PropertyGroup>
 
 ...
 <!-- This target adds the generated deps.json file to our package output -->
 <Target
-		Name="AddBuildDependencyFileToBuiltProjectOutputGroupOutput"
-		BeforeTargets="BuiltProjectOutputGroup"
-		Condition=" '$(GenerateDependencyFile)' == 'true'">
+        Name="AddBuildDependencyFileToBuiltProjectOutputGroupOutput"
+        BeforeTargets="BuiltProjectOutputGroup"
+        Condition=" '$(GenerateDependencyFile)' == 'true'">
 
-	 <ItemGroup>
-		<BuiltProjectOutputGroupOutput
-			Include="$(ProjectDepsFilePath)"
-			TargetPath="$(ProjectDepsFileName)"
-			FinalOutputPath="$(ProjectDepsFilePath)" />
-	</ItemGroup>
+     <ItemGroup>
+        <BuiltProjectOutputGroupOutput
+            Include="$(ProjectDepsFilePath)"
+            TargetPath="$(ProjectDepsFileName)"
+            FinalOutputPath="$(ProjectDepsFilePath)" />
+    </ItemGroup>
 </Target>
 ```
 
@@ -465,88 +465,88 @@ In this section, you'll wire up the task implementation in `.props` and `.target
 
 1. In the task's project file, *AppSettingStronglyTyped.csproj*, add the following code:
 
-	```xml
-	<ItemGroup>
-		<!-- these lines pack the build props/targets files to the `build` folder in the generated package.
-			by convention, the .NET SDK will look for build\<Package Id>.props and build\<Package Id>.targets
-			for automatic inclusion in the build. -->
-		<Content Include="build\AppSettingStronglyTyped.props" PackagePath="build\" />
-		<Content Include="build\AppSettingStronglyTyped.targets" PackagePath="build\" />
-	</ItemGroup>
-	```
+    ```xml
+    <ItemGroup>
+        <!-- these lines pack the build props/targets files to the `build` folder in the generated package.
+            by convention, the .NET SDK will look for build\<Package Id>.props and build\<Package Id>.targets
+            for automatic inclusion in the build. -->
+        <Content Include="build\AppSettingStronglyTyped.props" PackagePath="build\" />
+        <Content Include="build\AppSettingStronglyTyped.targets" PackagePath="build\" />
+    </ItemGroup>
+    ```
 
-1. Create a *build* folder and in that folder, add two text files: *AppSettingStronglyTyped.props* and *AppSettingStronglyTyped.targets*. *AppSettingStronglyTyped.props* is imported  early in *Microsoft.Common.props*, and properties defined later are unavailable to it. So, avoid referring to properties that are not yet defined; they would evaluate to empty.
+1. Create a *build* folder and in that folder, add two text files: `AppSettingStronglyTyped.props` and *AppSettingStronglyTyped.targets*. `AppSettingStronglyTyped.props` is imported  early in *Microsoft.Common.props*, and properties defined later are unavailable to it. So, avoid referring to properties that are not yet defined; they would evaluate to empty.
 
-	*Directory.Build.targets* is imported from *Microsoft.Common.targets* after importing `.targets` files from NuGet packages. So, it can override properties and targets defined in most of the build logic, or set properties for all your projects regardless of what the individual projects set. See [import order](customize-your-build.md#choose-between-adding-properties-to-a-props-or-targets-file).
+    *Directory.Build.targets* is imported from *Microsoft.Common.targets* after importing `.targets` files from NuGet packages. So, it can override properties and targets defined in most of the build logic, or set properties for all your projects regardless of what the individual projects set. See [import order](customize-your-build.md#choose-between-adding-properties-to-a-props-or-targets-file).
 
-	*AppSettingStronglyTyped.props* includes the task and defines some properties with default values:
+    *AppSettingStronglyTyped.props* includes the task and defines some properties with default values:
 
-	```xml
-	<?xml version="1.0" encoding="utf-8" ?>
-	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<!--defining properties interesting for my task-->
-	<PropertyGroup>
-		<!--The folder where the custom task will be present. It points to inside the nuget package. -->
-		<_AppSettingsStronglyTyped_TaskFolder>$(MSBuildThisFileDirectory)..\tasks\netstandard2.0</_AppSettingsStronglyTyped_TaskFolder>
-		<!--Reference to the assembly which contains the MSBuild Task-->
-		<CustomTasksAssembly>$(_AppSettingsStronglyTyped_TaskFolder)\$(MSBuildThisFileName).dll</CustomTasksAssembly>
-	</PropertyGroup>
+    ```xml
+    <?xml version="1.0" encoding="utf-8" ?>
+    <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <!--defining properties interesting for my task-->
+    <PropertyGroup>
+        <!--The folder where the custom task will be present. It points to inside the nuget package. -->
+        <_AppSettingsStronglyTyped_TaskFolder>$(MSBuildThisFileDirectory)..\tasks\netstandard2.0</_AppSettingsStronglyTyped_TaskFolder>
+        <!--Reference to the assembly which contains the MSBuild Task-->
+        <CustomTasksAssembly>$(_AppSettingsStronglyTyped_TaskFolder)\$(MSBuildThisFileName).dll</CustomTasksAssembly>
+    </PropertyGroup>
 
-	<!--Register our custom task-->
-	<UsingTask TaskName="$(MSBuildThisFileName).AppSettingStronglyTyped" AssemblyFile="$(CustomTasksAssembly)"/>
+    <!--Register our custom task-->
+    <UsingTask TaskName="$(MSBuildThisFileName).AppSettingStronglyTyped" AssemblyFile="$(CustomTasksAssembly)"/>
 
-	<!--Task parameters default values, this can be overridden-->
-	<PropertyGroup>
-		<RootFolder Condition="'$(RootFolder)' == ''">$(MSBuildProjectDirectory)</RootFolder>
-		<SettingClass Condition="'$(SettingClass)' == ''">MySetting</SettingClass>
-		<SettingNamespace Condition="'$(SettingNamespace)' == ''">example</SettingNamespace>
-		<SettingExtensionFile Condition="'$(SettingExtensionFile)' == ''">mysettings</SettingExtensionFile>
-	</PropertyGroup>
-	</Project>
-	```
+    <!--Task parameters default values, this can be overridden-->
+    <PropertyGroup>
+        <RootFolder Condition="'$(RootFolder)' == ''">$(MSBuildProjectDirectory)</RootFolder>
+        <SettingClass Condition="'$(SettingClass)' == ''">MySetting</SettingClass>
+        <SettingNamespace Condition="'$(SettingNamespace)' == ''">example</SettingNamespace>
+        <SettingExtensionFile Condition="'$(SettingExtensionFile)' == ''">mysettings</SettingExtensionFile>
+    </PropertyGroup>
+    </Project>
+    ```
 
-1. The *AppSettingStronglyTyped.props* file is automatically included when the package is installed. Then, the client has the task available and some default values. However, it's never used. In order to put this code in action, define some targets in the *AppSettingStronglyTyped.targets* file, which also will be also automatically included when the package is installed:
+1. The `AppSettingStronglyTyped.props` file is automatically included when the package is installed. Then, the client has the task available and some default values. However, it's never used. In order to put this code in action, define some targets in the `AppSettingStronglyTyped.targets` file, which also will be also automatically included when the package is installed:
 
-	```xml
-	<?xml version="1.0" encoding="utf-8" ?>
-	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    ```xml
+    <?xml version="1.0" encoding="utf-8" ?>
+    <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
-	<!--Defining all the text files input parameters-->
-	<ItemGroup>
-		<SettingFiles Include="$(RootFolder)\*.$(SettingExtensionFile)" />
-	</ItemGroup>
+    <!--Defining all the text files input parameters-->
+    <ItemGroup>
+        <SettingFiles Include="$(RootFolder)\*.$(SettingExtensionFile)" />
+    </ItemGroup>
 
-	<!--A target that generates code, which is executed before the compilation-->
-	<Target Name="BeforeCompile" Inputs="@(SettingFiles)" Outputs="$(RootFolder)\$(SettingClass).generated.cs">
-		<!--Calling our custom task-->
-		<AppSettingStronglyTyped SettingClassName="$(SettingClass)" SettingNamespaceName="$(SettingNamespace)" SettingFiles="@(SettingFiles)">
-			<Output TaskParameter="ClassNameFile" PropertyName="SettingClassFileName" />
-		</AppSettingStronglyTyped>
-		<!--Our generated file is included to be compiled-->
-		<ItemGroup>
-			<Compile Remove="$(SettingClassFileName)" />
-			<Compile Include="$(SettingClassFileName)" />
-		</ItemGroup>
-	</Target>
+    <!--A target that generates code, which is executed before the compilation-->
+    <Target Name="BeforeCompile" Inputs="@(SettingFiles)" Outputs="$(RootFolder)\$(SettingClass).generated.cs">
+        <!--Calling our custom task-->
+        <AppSettingStronglyTyped SettingClassName="$(SettingClass)" SettingNamespaceName="$(SettingNamespace)" SettingFiles="@(SettingFiles)">
+            <Output TaskParameter="ClassNameFile" PropertyName="SettingClassFileName" />
+        </AppSettingStronglyTyped>
+        <!--Our generated file is included to be compiled-->
+        <ItemGroup>
+            <Compile Remove="$(SettingClassFileName)" />
+            <Compile Include="$(SettingClassFileName)" />
+        </ItemGroup>
+    </Target>
 
-	<!--The generated file is deleted after a general clean. It will force the regeneration on rebuild-->
-	<Target Name="AfterClean">
-		<Delete Files="$(RootFolder)\$(SettingClass).generated.cs" />
-	</Target>
-	</Project>
-	```
+    <!--The generated file is deleted after a general clean. It will force the regeneration on rebuild-->
+    <Target Name="AfterClean">
+        <Delete Files="$(RootFolder)\$(SettingClass).generated.cs" />
+    </Target>
+    </Project>
+    ```
 
-	The first step is the creation of an [ItemGroup](msbuild-items.md), which represents the text files (it could be more than one) to read and it will be some of our task parameter. There are default values for the location and the extension where we look for, but you can override the values that define the properties in the client MSBuild project file.
+    The first step is the creation of an [ItemGroup](msbuild-items.md), which represents the text files (it could be more than one) to read and it will be some of our task parameter. There are default values for the location and the extension where we look for, but you can override the values that define the properties in the client MSBuild project file.
 
-	Then define two [MSBuild targets](msbuild-targets.md). We [extend the MSBuild process](how-to-extend-the-visual-studio-build-process.md), overriding predefined targets:
+    Then define two [MSBuild targets](msbuild-targets.md). We [extend the MSBuild process](how-to-extend-the-visual-studio-build-process.md), overriding predefined targets:
 
-	- `BeforeCompile`: The goal is to call the custom task to generate the class and include the class to be compiled. Tasks in this target are inserted before core compilation is done. Input and Output fields are related to [incremental build](incremental-builds.md). If all output items are up-to-date, MSBuild skips the target. This incremental build of the target can significantly improve the performance of your builds. An item is considered up-to-date if its output file is the same age or newer than its input file or files.
+    - `BeforeCompile`: The goal is to call the custom task to generate the class and include the class to be compiled. Tasks in this target are inserted before core compilation is done. Input and Output fields are related to [incremental build](incremental-builds.md). If all output items are up-to-date, MSBuild skips the target. This incremental build of the target can significantly improve the performance of your builds. An item is considered up-to-date if its output file is the same age or newer than its input file or files.
 
-	- `AfterClean`: The goal is to delete the generated class file after a general clean happens. Tasks in this target are inserted after the core clean functionality is invoked. It forces the code generation step to be repeated when the Rebuild target executes.
+    - `AfterClean`: The goal is to delete the generated class file after a general clean happens. Tasks in this target are inserted after the core clean functionality is invoked. It forces the code generation step to be repeated when the Rebuild target executes.
 
 ### Generate the NuGet package
 
-To generate the NuGet package, you can use Visual Studio (right-click on the project node in **Solution Explorer**, and select **Pack**). You can also do it by using the command line. Navigate to the folder where the task project file *AppSettingStronglyTyped.csproj* is present, and execute the following command:
+To generate the NuGet package, you can use Visual Studio (right-click on the project node in **Solution Explorer**, and select **Pack**). You can also do it by using the command line. Navigate to the folder where the task project file `AppSettingStronglyTyped.csproj` is present, and execute the following command:
 
 ```dotnetcli
 // -o is to define the output; the following command chooses the current folder.

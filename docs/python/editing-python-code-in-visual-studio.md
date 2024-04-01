@@ -103,7 +103,7 @@ Using the **Run Mypy** command on this code generates the following error:
 :::image type="content" source="media/code-editing-type-hints-validation-error.png" alt-text="Screenshot that shows the example result of Mypy validating type hints." border="false" lightbox="media/code-editing-type-hints-validation-error.png":::
 
 > [!NOTE]
-> For versions of Python before 3.5, Visual Studio also displays type hints that you supply through Typeshed _stub files_ (_.pyi_). You can use stub files when you don't want to include type hints directly in your code or to create type hints for a library that doesn't use them directly. For more information, see [Create stubs for Python modules](https://github.com/python/mypy/wiki/Creating-Stubs-For-Python-Modules) in the Mypy project wiki.
+> For versions of Python before 3.5, Visual Studio also displays type hints that you supply through Typeshed *stub files* (*.pyi*). You can use stub files when you don't want to include type hints directly in your code or to create type hints for a library that doesn't use them directly. For more information, see [Create stubs for Python modules](https://github.com/python/mypy/wiki/Creating-Stubs-For-Python-Modules) in the Mypy project wiki.
 >
 > Visual Studio doesn't currently support type hints in comments.
 

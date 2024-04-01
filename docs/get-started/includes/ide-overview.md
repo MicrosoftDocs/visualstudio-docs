@@ -114,7 +114,7 @@ Some popular features in Visual Studio that improve your productivity when devel
 
 - [Live Share](/visualstudio/liveshare/)
 
-   Collaboratively edit and debug with others in real time, regardless of your app type or programming language. You can instantly and securely share your project. You can also share debugging sessions, terminal instances, localhost web apps, voice calls, and more.
+   Collaboratively edit and debug with others in real time, regardless of your app type or programming language. You can instantly and securely share your project. You can also share debugging sessions, terminal instances, `localhost` web apps, voice calls, and more.
 
 - [Call Hierarchy](../../ide/reference/call-hierarchy.md)
 

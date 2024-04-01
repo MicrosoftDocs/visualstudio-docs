@@ -94,7 +94,7 @@ For more information:
 
 ## Project system, and project and item templates
 
-Visual Studio helps you manage the complexity of a project as it grows over time. A Visual Studio _project_ is more than a folder structure. A project aids in the understanding of how different files are used and how they relate to each other. Visual Studio helps you distinguish app code, test code, web pages, JavaScript, build scripts, and so on, which then enable file-appropriate features. A Visual Studio _solution_ helps you manage multiple related projects, such as a Python project and a C++ extension project.
+Visual Studio helps you manage the complexity of a project as it grows over time. A Visual Studio *project* is more than a folder structure. A project aids in the understanding of how different files are used and how they relate to each other. Visual Studio helps you distinguish app code, test code, web pages, JavaScript, build scripts, and so on, which then enable file-appropriate features. A Visual Studio *solution* helps you manage multiple related projects, such as a Python project and a C++ extension project.
 
 > [!NOTE]
 > In Visual Studio 2019 and later, you can open a folder containing Python code and run that code without creating a Visual Studio project or solution file. For more information, see [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md). Keep in mind that there are benefits to using a project file, as explained in this section.

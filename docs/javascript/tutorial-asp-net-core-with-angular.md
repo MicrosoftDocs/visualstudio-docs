@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Angular"
 description: Create an ASP.NET Core project to serve as an API backend and an Angular project to provide the user interface in Visual Studio.
-ms.date: 02/23/2024
+ms.date: 03/20/2024
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -32,8 +32,8 @@ Make sure to install the following:
 
 - Visual Studio 2022 version 17.8 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-create-aspnetcore-app-with-angular-page-cta) page to install it for free.
   If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
-- npm ([https://www.npmjs.com/](https://www.npmjs.com/package/npm)), which is included with Node.js
-- Angular CLI ([https://angular.io/cli](https://angular.io/cli))
+- npm ([`https://www.npmjs.com/`](https://www.npmjs.com/package/npm)), which is included with Node.js
+- Angular CLI ([`https://angular.io/cli`](https://angular.io/cli))
   This can be the version of your choice
 
 ## Create the frontend app
@@ -69,14 +69,16 @@ Make sure to install the following:
 
    :::image type="content" source="media/vs-2022/asp-net-core-project-properties-angular.png" alt-text="Screenshot showing Open project properties."::: 
 
-1. In the Properties page, open the **Debug** tab and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option for the profile named after the ASP.NET Core project (or https, if present).
+1. In the Properties page, open the **Debug** tab and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option for the **https** profile or the profile named after the ASP.NET Core project, if present.
 
    :::image type="content" source="media/vs-2022/asp-net-core-deselect-launch-browser-angular.png" alt-text="Screenshot showing Debug launch profiles UI."::: 
 
    This value prevents opening the web page with the source weather data.
 
    >[!NOTE]
-   > In Visual Studio, *launch.json* stores the startup settings associated with the **Start** button in the Debug toolbar. *launch.json* must be located under the *.vscode* folder.
+   > In Visual Studio, `launch.json` stores the startup settings associated with the **Start** button in the Debug toolbar. `launch.json` must be located under the `.vscode` folder.
+
+1. Right-click the solution in Solution Explorer and select **Properties**. Verify that the Startup project settings are set to **Multiple projects**, and that the Action for both projects is set to **Start**.
 
 ## Start the project
 
@@ -105,9 +107,9 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
 
 1. Right-click the ASP.NET Core project again and select **Edit Project File**.
 
-   This opens the *.csproj* file for the project.
+   This opens the `.csproj` file for the project.
 
-1. In the *.csproj* file, make sure the project reference includes a `<ReferenceOutputAssembly>` element with the value set to `false`.
+1. In the `.csproj` file, make sure the project reference includes a `<ReferenceOutputAssembly>` element with the value set to `false`.
 
    This reference should look like the following.
 
@@ -153,11 +155,11 @@ If you see this issue, most likely the frontend started before the backend. Once
 
 If the weather data doesn't load correctly, you may also need to verify that your ports are correct.
 
-1. Go to the *launchSettings.json* file in your ASP.NET Core project (in the *Properties* folder). Get the port number from the `applicationUrl` property.
+1. Go to the `launchSettings.json` file in your ASP.NET Core project (in the *Properties* folder). Get the port number from the `applicationUrl` property.
 
    If there are multiple `applicationUrl` properties, look for one using an `https` endpoint. It should look similar to `https://localhost:7049`.
 
-1. Then, go to the *proxy.conf.js* file for your Angular project (look in the *src* folder). Update the target property to match the `applicationUrl` property in  *launchSettings.json*. When you update it, that value should look similar to this:
+1. Then, go to the `proxy.conf.js` file for your Angular project (look in the *src* folder). Update the target property to match the `applicationUrl` property in  *launchSettings.json*. When you update it, that value should look similar to this:
 
    ```js
    target: 'https://localhost:7049',

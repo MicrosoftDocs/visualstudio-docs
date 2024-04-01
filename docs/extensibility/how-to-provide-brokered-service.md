@@ -130,7 +130,7 @@ You might add an `internal` field to your mock service for each method on it tha
 #### Events
 
 Any events declared on your interface should be tested for RPC readiness too.
-Events raised from a brokered service will _not_ cause a test failure if they fail during RPC serialization because events are "fire and forget".
+Events raised from a brokered service will *not* cause a test failure if they fail during RPC serialization because events are "fire and forget".
 
 If you were using the test base class mentioned above this behavior is already built into some helper methods and  might look like this (with unchanged parts omitted for brevity):
 

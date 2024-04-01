@@ -7,6 +7,7 @@ ms.date: 06/06/2019
 ms.subservice: container-tools
 ms.topic: reference
 ---
+
 # Container Tools build properties
 
 You can customize how Visual Studio builds your container projects by setting the properties that MSBuild uses to build your project. For example, you can change the name of the Dockerfile, specify tags and labels for your images, provide additional arguments passed to Docker commands, and control whether Visual Studio does certain performance optimizations such as building outside of the container environment. You can also set debugging properties such as the name of the executable to launch, and the command line arguments to provide.
@@ -22,6 +23,7 @@ To set the value of a property, edit the project file. For example, suppose your
 You can add the property setting to an existing `PropertyGroup` element, or if there isn't one, create a new `PropertyGroup` element.
 
 ::: moniker range=">=vs-2022"
+
 ## Properties for .NET SDK projects
 
 This section describes the MSBuild properties that apply when you choose the .NET SDK container build type.
@@ -43,7 +45,7 @@ The following table shows the MSBuild properties available for Dockerfile projec
 
 | Property name | Description | Default value  | NuGet package version|
 |---------------|-------------|----------------|----------------------|
-| ContainerDevelopmentMode | Controls whether "build-on-host" optimization ("Fast Mode" debugging) is enabled.  Allowed values are **Fast** and **Regular**. | Fast |1.0.1872750 or newer|
+| ContainerDevelopmentMode | Controls whether "build-on-host" optimization ("Fast Mode" debugging) is enabled. Allowed values are **Fast** and **Regular**. | Fast |1.0.1872750 or newer|
 | ContainerVsDbgPath | The path for VSDBG debugger. | `%USERPROFILE%\vsdbg\vs2017u5` |1.0.1985401 or newer|
 | DockerDebuggeeArguments | When debugging, the debugger is instructed to pass these arguments to the launched executable. | Not applicable to ASP.NET .NET Framework projects |1.7.8 or newer|
 | DockerDebuggeeProgram | When debugging, the debugger is instructed to launch this executable. | For .NET Core and .NET 5 and later projects: dotnet, ASP.NET .NET Framework projects: Not applicable (IIS is always used) |1.7.8 or newer|
