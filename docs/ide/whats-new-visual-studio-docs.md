@@ -111,7 +111,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
   - Extensions in vsconfig files support documentation
 - [Import or export installation configurations](../install/import-export-installation-configurations.md)
   - Documentation for config support of extensions and layouts
-  - Extensions in vsconfig files support documentation
+  - Extensions in `.vsconfig` files support documentation
 - [Use command-line parameters to install, update, and manage Visual Studio](../install/use-command-line-parameters-to-install-visual-studio.md) - Documentation for config support of extensions and layouts
 - [Visual Studio administrator guide](../install/visual-studio-administrator-guide.md) - Documentation for config support of extensions and layouts
 
@@ -119,7 +119,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [MakeDir task](../msbuild/makedir-task.md) - Improve code example for MakeDir
+- [MakeDir task](../msbuild/makedir-task.md) - Improve code example for `MakeDir`
 - [Create an MSBuild project file from scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md)
   - Disambiguate from-scratch project from csproj
 - [MSBuild command-line reference](../msbuild/msbuild-command-line-reference.md) - Add command-line option for terminal logger
