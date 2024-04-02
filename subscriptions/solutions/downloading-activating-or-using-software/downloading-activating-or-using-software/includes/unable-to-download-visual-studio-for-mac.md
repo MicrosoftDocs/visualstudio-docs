@@ -23,4 +23,10 @@ As a Visual Studio subscriber, you have access to the Visual Studio IDE. Visual 
 0. Using the email your subscription is assigned to, you’ll be able to immediately sign in to the IDE after installation, no product key is required.
 
 ## No download available 
+<<<<<<< HEAD
 The list of software downloads available to you depends on the subscription you're using. If you don’t see the download you’re looking for, it might not be available to you. To check what subscriptions are available to you, log into the [subscriptions page](https://my.visualstudio.com/subscriptions) of the portal. You can [download an extensive list](https://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Visual_Studio_by_Subscription_Level.xlsx) of available software titles for all subscription types.
+=======
+
+The list of software downloads available to you depends on the subscription you're using. If you don’t see the download you’re looking for, it might not be available to you. To check what subscriptions are available to you, log into the [subscriptions page](https://my.visualstudio.com/subscriptions) of the portal. You can [download an extensive list](https://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Visual_Studio_by_Subscription_Level.xlsx) of available software titles for all subscription types.
+
+>>>>>>> d736f9c3c35ba8d5a58ce1f5e9f9076aa68b85a5
