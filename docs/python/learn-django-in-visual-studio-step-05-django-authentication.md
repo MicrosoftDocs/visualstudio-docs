@@ -1,38 +1,74 @@
 ---
-title: Learn Django tutorial in Visual Studio, step 5, authentication
+title: Django in Visual Studio tutorial Step 5, authentication
 titleSuffix: ""
-description: A walkthrough of Django basics in the context of Visual Studio projects, specifically authentication features as provided by the Django Web Project templates.
-ms.date: 12/12/2022
+description: Step 5 of a core walkthrough of Django capabilities in Visual Studio, specifically the authentication features provided in the Django Web Project template.
+ms.date: 04/01/2024
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
 manager: mijacobs
 ms.subservice: python
+
+# CustomerIntent: As a developer, I want to create Django web applications in Visual Studio so I can use the authentication features included with the Django Web Project template.
 ---
-# Step 5: Authenticate users in Django
 
-**Previous step: [Use the full Django Web Project template](learn-django-in-visual-studio-step-04-full-django-project-template.md)**
+# Tutorial: Authenticate users with Django in Visual Studio
 
-The "Django Web Project" template includes a basic authentication flow, as authentication is a common need for web apps. When you use any of the Django project templates, Visual Studio includes all the necessary modules for authentication in the Django project's *settings.py* file.
+This article presents Step 5 in the tutorial series _Work with the Django web framework in Visual Studio_.
 
-In this step, you learn:
+Authentication is a common requirement for web apps. The **Django Web Project** template in Visual Studio provides all the necessary modules for authentication in the Django project's _settings.py_ file. Step 4 in this tutorial series creates a Django web app by using this template. In Step 5, you explore the authentication capabilities of the template and work with the features in the running app. 
+
+In Step 5 of the tutorial, you learn how to:
 
 > [!div class="checklist"]
-> - How to use the authentication flow provided in the Visual Studio templates (step 5-1)
+> - Explore authentication flow in the Django Web Project template in Visual Studio
+> - Examine code that supports the authentication process
+> - Modify code to enable access to Django administrator interfaces
+> - Run the Django web app and use authentication features 
 
-## Step 5-1: Use the authentication flow
+## Prerequisites
 
-The following steps exercise the authentication flow and describe the parts of the project:
+- A Visual Studio solution and a Django web app based on the **Django Web Project** template (_DjangoWeb_). [Step 4: Use the full Django Web Project template](learn-django-in-visual-studio-step-04-full-django-project-template.md) describes how to create this app.
 
-1. If you've not already followed the instructions in the *readme.html* file in the project root to create a super user (administrator) account, do so now.
+- The Django web app must have a super user (administrator) account. [Step 4 (Create Django super user)](learn-django-in-visual-studio-step-04-full-django-project-template.md#create-django-super-user) describes how to create the super user credentials.
 
-1. Run the app from Visual Studio using **Debug** > **Start Debugging** (**F5**). When the app appears in the browser, observe that **Log in** appears on the upper right of the nav bar.
+- Review the [Prerequisites](learn-django-in-visual-studio-step-01-project-and-solution.md#prerequisites) section in Step 1 of this tutorial series for details about Django template versions, Visual Studio projects versus Django projects, and Python development on Mac.
 
-    :::image type="content" source="media/django/step05-login-control.png" alt-text="Login control on the Django Web Project app page.":::
+## Explore authentication flow
 
-1. Open *templates/app/layout.html* and observe that the `<div class="navbar ...>` element contains the `{% include app/loginpartial.html %}` tag. The `{% include %}` tag instructs Django's template system to pull in the contents of the included file at this point in the containing template.
+This section explains the default authentication flow provided by the **Django Web Project** template for a Django web app.
 
-1. Open *templates/app/loginpartial.html* and observe how it uses the conditional tag `{% if user.is_authenticated %}` along with an `{% else %}` tag to render different UI elements depending on whether the user is authenticated:
+1. In Visual Studio, select **Debug** > **Start Debugging** (**F5**) to start the Django web app (_DjangoWeb_).
+
+1. When the app opens in the browser, notice the **Log in** option at the right in the navigation bar:
+
+   :::image type="content" source="media/django/step-05-login-control.png" alt-text="Screenshot that shows the Log in option on the navigation bar in the running Django web app." lightbox="media/django/step-05-login-control.png":::
+
+   The running Django app has a navigation bar with three page options, **Home**, **About**, and **Contact**, and a **Log in** option. The authentication configuration allows any user to see the content on the "Home," "About," and "Contact" pages. 
+   
+1. For authenticated access to the Django web app, a designated super user can use the **Log in** option, which opens the "Log in" page:
+
+   :::image type="content" source="media/django/step-05-login-page.png" alt-text="Screenshot that shows the Log in authentication page for the super user in the running Django web app." lightbox="media/django/step-05-login-page.png":::
+
+1. After the super user signs in, they can access restricted page views for the site and complete administration tasks:
+
+   :::image type="content" source="media/django/step-05-super-user-interface.png" alt-text="Screenshot that shows one of the page views available to the Django super user and the updated navigation bar with the Log out option." lightbox="media/django/step-05-super-user-interface.png":::
+
+1. The super user can use the **Log off** option to sign out of the Django web app and return to the "Home" page of the Django web app as an unauthenticated user.
+
+In the following sections, you modify the authentication configuration to support Django administrative site access for the super user.
+
+## Examine authentication code
+
+Now that you understand the general authentication features of a Django web app, you're ready to examine the underlying code provided by the **Django Web Project** template:
+
+1. In **Solution Explorer**, expand the project's _app/templates/app_ folder. The following steps review several files in this folder.
+
+1. Open the base template file, _layout.html_. Scroll to the `<div class="navbar ...>` element and locate the `{% include app/loginpartial.html %}` tag.
+
+   The `{% include %}` tag instructs Django's template system to pull in the contents of the included file at this point in the containing template.
+
+1. Open the _loginpartial.html_ file. Observe how this template uses the conditional tag `{% if user.is_authenticated %}` along with an `{% else %}` tag to render different UI elements depending on whether the user is authenticated:
 
     ```html
     {% if user.is_authenticated %}
@@ -53,7 +89,7 @@ The following steps exercise the authentication flow and describe the parts of t
     {% endif %}
     ```
 
-1. As no user is authenticated when you first start the app, the template code renders only the "Log in" link to the relative "login" path. As specified in *urls.py* (as shown in the previous section), that route is mapped to the `django.contrib.auth.views.login` view and the view receives the following data:
+1. When you start the app, no super user is authenticated and the template code renders only the **Log in** link. The link targets the site relative "login" path specified in the Django project's URL file (_DjangoWeb/DjangoWeb/urls.py_), as described in [Step 4 (Examine URL route patterns)](learn-django-in-visual-studio-step-04-full-django-project-template.md#examine-url-route-patterns). The "login" route is mapped to the `django.contrib.auth.views.login` view and the view receives the following data:
 
     ```python
     {
@@ -67,28 +103,34 @@ The following steps exercise the authentication flow and describe the parts of t
     }
     ```
 
-    Here, `template_name` identifies the template for the login page, in this case *templates/app/login.html*. The `extra_context` property is added to the default context data given to the template. Finally, `authentication_form` specifies a form class to use with the login; in the template it appears as the `form` object. The default value is `AuthenticationForm` (from `django.contrib.auth.views`); the Visual Studio project template instead uses the form defined in the app's *forms.py* file:
+    This code defines three properties:
+    
+    - `template_name` identifies the template for the "Log in" page defined in the _app/login.html_ file. Remember, this link is site relative. The full folder path is _app/templates/app/login.html_.
+    
+    - `extra_context` adds information to the default context data given to the template. In this case, the information includes a "Log in" title, along with the date, time, and year.
+    
+    - `authentication_form` specifies a form class to use with the login procedure. In the template, this property value appears as the `form` object. The default value is `AuthenticationForm` (from `django.contrib.auth.views`), but the Visual Studio project template instead uses the form defined in the project's _app/forms.py_ file:
 
-    ```python
-    from django import forms
-    from django.contrib.auth.forms import AuthenticationForm
-    from django.utils.translation import ugettext_lazy as _
+        ```python
+        from django import forms
+        from django.contrib.auth.forms import AuthenticationForm
+        from django.utils.translation import ugettext_lazy as _
 
-    class BootstrapAuthenticationForm(AuthenticationForm):
-        """Authentication form which uses boostrap CSS."""
-        username = forms.CharField(max_length=254,
-                                   widget=forms.TextInput({
-                                       'class': 'form-control',
-                                       'placeholder': 'User name'}))
-        password = forms.CharField(label=_("Password"),
-                                   widget=forms.PasswordInput({
-                                       'class': 'form-control',
-                                       'placeholder':'Password'}))
-    ```
+        class BootstrapAuthenticationForm(AuthenticationForm):
+            """Authentication form which uses boostrap CSS."""
+            username = forms.CharField(max_length=254,
+                                    widget=forms.TextInput({
+                                        'class': 'form-control',
+                                        'placeholder': 'User name'}))
+            password = forms.CharField(label=_("Password"),
+                                    widget=forms.PasswordInput({
+                                        'class': 'form-control',
+                                        'placeholder':'Password'}))
+        ```
 
-    As you can see, the form class derives from `AuthenticationForm` and specifically overrides the username and password fields to add placeholder text. The Visual Studio template includes this explicit code on the assumption that you likely want to customize the form, such as adding password strength validation.
+       The form class derives from `AuthenticationForm` and specifically overrides the username and password fields to add placeholder text. The Visual Studio template includes this explicit code on the assumption that you likely want to customize the form, such as adding password strength validation.
 
-1. When you navigate to the login page, then, the app renders the *login.html* template. The variables `{{ form.username }}` and `{{ form.password }}` render the `CharField` forms from `BootstrapAuthenticationForm`. There's also a built-in section to show validation errors, and a ready-made element for social logins if you choose to add those services.
+1. When user interaction with the app opens the "Log in" page, the app renders the _login.html_ template. The variables `{{ form.username }}` and `{{ form.password }}` render the `CharField` forms from the `BootstrapAuthenticationForm` class. There's also a built-in section to show validation errors, and a ready-made element for social logins if you choose to add those services:
 
     ```html
     {% extends "app/layout.html" %}
@@ -135,85 +177,165 @@ The following steps exercise the authentication flow and describe the parts of t
     {% endblock %}
     ```
 
-1. When you submit the form, Django attempts to authenticate your credentials (such as the super user's credentials). If authentication fails, you remain on the current page however, `form.errors` is set to true. If authentication is successful, Django navigates to the relative URL in the "next" field, `<input type="hidden" name="next" value="/" />`, which in this case is the home page (`/`).
+1. When the user selects **Log in** on the page form, Django attempts to authenticate the credentials, such as the super user's credentials:
 
-1. Now, when the home page is rendered again, the `user.is_authenticated` property is true when the *loginpartial.html* template is rendered. As a result, you see a **Hello (username)** message and **Log off**. You can use `user.is_authenticated` in other parts of the app to check authentication.
+   - If authentication fails, the user remains on the "Log in" page and the `form.errors` tag is set to true:
 
-    :::image type="content" source="media/django/step05-logoff-control.png" alt-text="Hello message and logoff control on the Django Web Project app page.":::
+      :::image type="content" source="media/django/step-05-incorrect-credentials.png" alt-text="Screenshot that shows the message when the user enters incorrect credentials in the Django sign in process.":::
 
-1. You need to retrieve user-specific permissions from your database to check whether the authenticated user is authorized to access specific resources. For more information, see [Using the Django authentication system](https://docs.djangoproject.com/en/2.0/topics/auth/default/#permissions-and-authorization) (Django docs).
+   - If authentication succeeds, Django opens the relative URL in the `next` field, `<input type="hidden" name="next" value="/" />`, which in this case is the "Home" page (`/`).
 
-1. The super user or administrator, in particular, is authorized to access the built-in Django administrator interfaces using the relative URLs "/admin/" and "/admin/doc/." To enable these interfaces, follow the steps below:
+1. When the app renders the "Home" page after the user is authenticated, the `user.is_authenticated` property is true when the _loginpartial.html_ template is rendered. In this case, the navigation bar shows a **Hello (username)** message and the **Log off** option replaces the **Log in** option: 
 
-    1. Install the docutils Python package into your environment. A great way to install is to add "docutils" to your *requirements.txt* file. Then, go to **Solution Explorer**, expand the project, expand the **Python Environments** node, and then right-click the environment you're using and select **Install from requirements.txt**.
+   :::image type="content" source="media/django/step-05-logoff-control.png" alt-text="Screenshot that shows the updated navigation bar for the authenticated user with the Hello message and Log off option.":::
 
-    1. Open the Django project's *urls.py* file and add the following:
+   You can use the `user.is_authenticated` property in other parts of the app code to check authentication.
 
-        ```python
-        from django.conf.urls import include
-        from django.contrib import admin
-        admin.autodiscover()
+## Access Django administrator interfaces
 
-        urlpatterns = [
-            path('admin/doc/', include('django.contrib.admindocs.urls'))
-        ]
-        ```
+To check whether the authenticated user is authorized to access specific resources, you need to retrieve user-specific permissions from your database.
 
-    1. In the Django project's *settings.py* file, go to the `INSTALLED_APPS` collection and add `'django.contrib.admindocs'`.
+The super user or administrator, in particular, is authorized to access the built-in Django administrator interfaces by using the site relative URLs `/admin/` and `/admin/doc/`. For more information, see [Using the Django authentication system](https://docs.djangoproject.com/en/5.0/topics/auth/default/#permissions-and-authorization) (Django docs).
 
-    1. When you restart the app, you can navigate to "/admin/" and "/admin/doc/" and perform tasks like creating more user accounts.
+To enable access to the Django administrator interfaces, follow these steps:
 
-       :::image type="content" source="media/django/step05-administrator-interface.png" alt-text="Django administrator interface.":::
+1. Install the `docutils` Python package into your environment. For instructions, see [Install packages for the Python environment](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md#install-packages-for-the-python-environment).
 
-1. The final part to the authentication flow is logging off. As you can see in *loginpartial.html*, the **Log off** link simply does a POST to the relative URL "/login", which is handled by the built-in view `django.contrib.auth.views.logout`. This view doesn't display any UI and just navigates to the home page (as shown in *urls.py* for the "^logout$" pattern). If you want to display a logoff page, first change the URL pattern as follows to add a "template_name" property and remove the "next_page" property:
+1. In **Solution Explorer**, expand the Django project folder, _DjangoWeb/DjangoWeb/_. The following steps update several files in this folder.
+
+1. Open the Django project's _urls.py_ file and modify the contents as follows:
+
+   1. At the top of the file, add the following package import for URLs to the end of the current list:
+
+      ```python
+      from django.conf.urls import include
+      ```
+
+   1. After the import list, add the following statement:
+
+      ```python
+      admin.autodiscover()
+      ```
+
+   1. Locate the `urlpatterns` definition, and add the following path entry _before_ the `'admin/'` entry:
+
+      ```python
+      path('admin/doc/', include('django.contrib.admindocs.urls')),
+      ```
+
+1. Open the Django project's _settings.py_ file and locate the `INSTALLED_APPS` collection. Add the following entry immediately _after_ the `app` entry:
 
     ```python
-    path('logout/',
-        django.contrib.auth.views.logout,
-        {
-            'template_name': 'app/loggedoff.html',
-            # 'next_page': '/',
-        },
-        name='logout')
+    'django.contrib.admindocs',
     ```
 
-    Then create *templates/app/loggedoff.html* with the following (minimal) contents:
+1. Stop and restart the Django web app.
 
-    ```html
-    {% extends "app/layout.html" %}
-    {% block content %}
-    <h3>You have been logged off</h3>
-    {% endblock %}
+1. In the URL address field of the browser, change the page view of the app to the `/admin/` or `/admin/doc/` route. These pages provide the super user with access to Django administrative tasks like creating user or group accounts, changing the password, and viewing Django documentation:
+
+   :::image type="content" source="media/django/step-05-super-user-documentation.png" alt-text="Screenshot that shows an example page view for Django documentation for the authenticated super user in the Django web app." lightbox="media/django/step-05-super-user-documentation.png":::
+
+## Explore log off behavior
+
+There are two ways the super user can log off and end the authenticated session. The Django web app includes the **Log off** option on the navigation bar and the Django administrative site provides the **Log Out** option.
+
+### Log out from Django administrative site
+
+If the super user is viewing pages on the Django administrative site, they can select **Log out** on the site navigation bar. The browser refreshes to show the "Logged off" page for the site:
+
+:::image type="content" source="media/django/step-05-site-logged-out.png" alt-text="Screenshot that shows the Logged out page after the super user logs out of the Django administrative site." lightbox="media/django/step-05-site-logged-out.png":::
+
+On this page, the user has two options, **Home** and **Log in again**. Both options return the user to the "Home" page for the Django administrative site (/admin), where the user is prompted to reenter their credentials. 
+   
+:::image type="content" source="media/django/step-05-site-login-dialog.png" alt-text="Screenshot that shows the Log in dialog for the Django administrative site." lightbox="media/django/step-05-site-login-dialog.png":::
+
+### Log off from Django web app
+
+If the super user is viewing pages in the Django web app, such as "About" or "Contact," they can select **Log off** on the Django web app navigation bar. The log off behavior is minimal. It simply ends the authenticated session and browses the user back to the app "Home" page.
+
+You can rework the log off behavior so it's more informative for the user:
+
+1. In **Solution Explorer**, expand the project's _app/templates/app_ folder, and open the _loginpartial.html_ file.
+
+1. In the template file, notice that the **Log off** link simply does an HTTP POST (`action="/logout" method="post"`) operation to the site relative URL path "/login" (`href="{% url 'login' %}"`).
+
+   ```html
+   {% if user.is_authenticated %}
+   <form id="logoutForm" action="/logout" method="post" class="navbar-right">
+      {% csrf_token %}
+      <ul class="nav navbar-nav navbar-right">
+         <li><span class="navbar-brand">Hello {{ user.username }}!</span></li>
+         <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+      </ul>
+   </form>
+
+   {% else %}
+
+   <ul class="nav navbar-nav navbar-right">
+      <li><a href="{% url 'login' %}">Log in</a></li>
+   </ul>
+
+   {% endif %}
+   ```
+    
+   The built-in view `django.contrib.auth.views.logout` function handles this log out process.
+
+   The current behavior doesn't display any UI that lets the user know they're logged off. The process simply browses the user back to the Django web app "Home" page according to the `'logout/'` path pattern defined in the Django project's URL file (_DjangoWeb/DjangoWeb/urls.py_):
+
+   ```python
+    path('logout/', LogoutView.as_view(next_page='/'), name='logout'),
+   ```
+
+   To display a more informative log off confirmation, you can create a "Log off" page for the app.
+
+1. In the _app/templates/app_ folder, create a new HTML template file named _loggedoff.html_.
+
+1. Add the following content to the new template file:
+
+   ```html
+   {% extends "app/layout.html" %}
+   {% block content %}
+   <h3>You have been logged off</h3>
+   {% endblock %}
+   ```
+
+1. In the Django project's URL file, _DjangoWeb/DjangoWeb/urls.py_, change the URL pattern for the `'logout/'` path as follows:
+
+    ```python
+    path('logout/', LogoutView.as_view(template_name='app/loggedoff.html'), name='logout'),
     ```
 
-    The result appears as below:
+   The updated code adds a `template_name` property to work with the new HTML template for the "Logged off" page.
 
-     :::image type="content" source="media/django/step05-logged-off-page.png" alt-text="Added logged off page.":::
+1. Stop and restart the Django web app. Sign in again, and then select **Log off**. This time, the app shows a more informative message to the user to confirm they're logged off:
 
-1. When you're all done, stop the server and once again commit your changes to source control.
+   :::image type="content" source="media/django/step-05-logged-off-page.png" alt-text="Screenshot that shows the updated log off behavior for the Django web app  with a message on the Log off page." lightbox="media/django/step-05-logged-off-page.png" :::
 
-### Question: What is the purpose of the {% csrf_token %} tag that appears in the \<form\> elements?
+1. Stop the server and close the application browser windows.
 
-Answer: The `{% csrf_token %}` tag includes Django's built-in [cross-site request forgery (csrf) protection](https://docs.djangoproject.com/en/2.0/ref/csrf/) (Django docs). You usually add this tag to any element that involves POST, PUT, or DELETE request methods, such as a form. The template rendering function (`render`) then inserts the necessary protection.
+## Save project to source control
 
-## Next steps
+If you've been committing your Visual Studio solution to source control throughout the course of this tutorial series, now is a good time to do another commit. Follow the instructions in [Step 2 (commit changes to source control)](learn-django-in-visual-studio-step-02-create-an-app.md#commit-changes-to-source-control) in this tutorial series.
 
-> [!Note]
-> If you've been committing your Visual Studio solution to source control throughout the course of this tutorial, now is a good time to do another commit. Your solution should match the tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django).
+Your solution should match the tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django).
 
-You've now explored the entirety of the "Blank Django Web Project" and "Django Web Project" templates in Visual Studio. You've learned all the basics of Django such as using views and templates. You've also explored routing, authentication, and used database models. You should now be able to create a web app of your own with any views and models that you need.
+### Use {% csrf_token %} tag in form elements
 
-Running a web app on your development computer is just one step in making the app available to your customers. Next steps might include the following tasks:
+The `{% csrf_token %}` tag includes Django's built-in [cross-site request forgery (csrf) protection](https://docs.djangoproject.com/en/5.0/ref/csrf/) (Django docs). You usually add this tag to any element that involves POST, PUT, or DELETE request methods, such as a form. The template rendering function (`render`) then inserts the necessary protection.
 
-- Customize the 404 page by creating a template named *templates/404.html*. When present, Django uses this template instead of its default one. For more information, see [Error views](https://docs.djangoproject.com/en/2.0/ref/views/#error-views) in the Django documentation.
+## Tutorial review
 
-- Write unit tests in *tests.py*; the Visual Studio project templates provide starting points for these, and more information can be found on [Writing your first Django app, part 5 - testing](https://docs.djangoproject.com/en/2.0/intro/tutorial05/) and [Testing in Django](https://docs.djangoproject.com/en/2.0/topics/testing/) in the Django documentation.
+Congratulations on completing this tutorial on Django in Visual Studio.
 
-- Change the app from SQLite to a production-level data store such as PostgreSQL, MySQL, and SQL Server (all of which can be hosted on Azure). As described on [When to use SQLite](https://www.sqlite.org/whentouse.html) (sqlite.org), SQLite works fine for low to medium traffic sites with fewer than 100 K hits/day. However, SQLite isn't recommended for higher volumes. SQLite is also limited to a single computer, so it can't be used in any multi-server scenario such as load-balancing and geo-replication. For information on Django's support for other databases, see [Database setup](https://docs.djangoproject.com/en/2.0/intro/tutorial02/#database-setup). You can also use the [Azure SDK for Python](/azure/python/) to work with Azure storage services like tables and blobs.
+In this tutorial, you learned how to:
 
-- Set up a continuous integration/continuous deployment pipeline on a service like Azure DevOps. In addition to working with source control (via Azure Repos or GitHub, or elsewhere), you can configure an Azure DevOps Project to automatically run your unit tests as a pre-requisite for release. You can also configure the pipeline to deploy to a staging server for more tests before deploying to production. Azure DevOps, furthermore, integrates with monitoring solutions like App Insights and closes the whole cycle with agile planning tools. For more information, see [Create a CI/CD pipeline for Python with the Azure DevOps project](/azure/devops-project/azure-devops-project-python?view=vsts&preserve-view=true) and also the general [Azure DevOps documentation](/azure/devops/?view=vsts&preserve-view=true).
+- Build different types of Django projects by using various templates in Visual Studio
+- Create a Django web app with multiple pages
+- Use templates to create different routes and page views 
+- Serve static files, add pages, and use template inheritance
+- Provide authenticated access to restricted app pages and features and Django administrative interfaces
 
-## Go deeper
+## Related content
 
-- [User authentication in Django](https://docs.djangoproject.com/en/2.0/topics/auth/) (docs.djangoproject.com)
-- Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django)
+- [User authentication in Django](https://docs.djangoproject.com/en/5.0/topics/auth/) (docs.djangoproject.com)
+- [Tutorial source code on GitHub (Microsoft/python-sample-vs-learning-django)](https://github.com/Microsoft/python-sample-vs-learning-django)
