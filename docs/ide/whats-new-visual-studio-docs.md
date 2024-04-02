@@ -166,7 +166,7 @@ The following people contributed to the Visual Studio docs during this period. T
 
 **Updated articles**
 
-- [Add Azure Cosmos DB to your app by using Visual Studio Connected Services](../azure/azure-cosmosdb-add-connected-service.md) - Add troubleshooting information for Azure CosmosDB emulator
+- [Add Azure Cosmos DB to your app by using Visual Studio Connected Services](../azure/azure-cosmosdb-add-connected-service.md) - Add troubleshooting information for Azure Cosmos DB emulator
 
 ### Data tools
 
