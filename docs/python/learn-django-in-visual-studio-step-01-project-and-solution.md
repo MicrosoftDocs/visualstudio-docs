@@ -2,7 +2,7 @@
 title: Django in Visual Studio tutorial Step 1, Django basics
 titleSuffix: ""
 description: Overview and Step 1 of a core walkthrough of Django capabilities in Visual Studio, including prerequisites, Git, virtual environments, and creating a Django project.
-ms.date: 03/28/2024
+ms.date: 04/01/2024
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
@@ -48,7 +48,7 @@ In Step 1 of the tutorial, you learn how to:
 
 Django project templates in Visual Studio are included with all earlier versions of Python Tools for Visual Studio. The template details might differ from the descriptions in this tutorial series, especially for earlier versions of the Django web framework.
 
-Python development isn't currently supported in Visual Studio for Mac. On Mac and Linux, use the [Python extension in Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial) tutorial.
+Visual Studio for Mac isn't currently supported. For more information, see [What's happening to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
 
 ### Visual Studio projects and Django projects
 
@@ -130,9 +130,9 @@ Follow this procedure to create the solution and project:
 In the next procedure, you familiarize yourself with Visual Studio support for Git source control.
 
 > [!IMPORTANT]
-> With the release of Visual Studio 2019 [**version 16.8**](/visualstudio/releases/2019/release-notes-history), the Git version control experience is on by default. If you'd like to learn more about how it compares with Team Explorer, see the [**Side-by-side comparison of Git and Team Explorer**](../version-control/git-team-explorer-feature-comparison.md) page.
+> In Visual Studio 2019 and later, the Git version control experience is on by default. If you'd like to learn more about how it compares with **Team Explorer**, see the [**Side-by-side comparison of Git and Team Explorer**](../version-control/git-team-explorer-feature-comparison.md) page.
 >
-> However, if you prefer to continue to use Team Explorer in Visual Studio 2019, go to **Tools** > **Options** > **Environment** > **Preview Features** and then toggle the **New Git user experience** checkbox. (This option is not available in Visual Studio 2022 and later.) For more information, see [Connect to projects in Team Explorer](/visualstudio/ide/connect-team-project).
+> If you prefer to continue to use **Team Explorer** in earlier versions of Visual Studio, go to **Tools** > **Options** > **Environment** > **Preview Features** and toggle the **New Git user experience** checkbox.
 
 1. To commit the project to your local source control, select **Add to Source Control** at the bottom right in the Visual Studio main window and then select **Git**:
 

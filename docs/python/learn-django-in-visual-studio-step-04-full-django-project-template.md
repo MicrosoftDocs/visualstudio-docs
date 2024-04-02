@@ -2,7 +2,7 @@
 title: Django in Visual Studio tutorial Step 4, web project template
 titleSuffix: ""
 description: Step 4 of a core walkthrough of Django capabilities in Visual Studio, including the Django Web Project template that helps you create an app with three pages that use static JavaScript libraries.
-ms.date: 03/28/2024
+ms.date: 04/01/2024
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
@@ -32,11 +32,11 @@ In Step 4 of the tutorial, you learn how to:
 
 - A Visual Studio solution created in [Step 1: Create Visual Studio project and solution](learn-django-in-visual-studio-step-01-project-and-solution.md), which uses the Blank Django Web Project template.
 
-Although not required to proceed with this Step, review the instructions in the previous Steps for an end-to-end Django workflow in Visual Studio:
-- [Step 2: Create app with views and page templates](learn-django-in-visual-studio-step-02-create-an-app.md)
-- [Step 3: Serve static files and use HTML templates](learn-django-in-visual-studio-step-03-serve-static-files-and-add-pages.md)
+- Review the [Prerequisites](learn-django-in-visual-studio-step-01-project-and-solution.md#prerequisites) section in Step 1 of this tutorial series for details about Django template versions, Visual Studio projects versus Django projects, and Python development on Mac.
 
-Django project templates in Visual Studio are included with all earlier versions of Python Tools for Visual Studio. The template details might differ from the descriptions in this tutorial series, especially for earlier versions of the Django web framework.
+- (Optional) Review the instructions in the previous Steps for an end-to-end Django workflow in Visual Studio:
+   - [Step 2: Create app with views and page templates](learn-django-in-visual-studio-step-02-create-an-app.md)
+   - [Step 3: Serve static files and use HTML templates](learn-django-in-visual-studio-step-03-serve-static-files-and-add-pages.md)
 
 ## Create project from template
 

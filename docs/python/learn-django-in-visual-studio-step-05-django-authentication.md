@@ -2,7 +2,7 @@
 title: Django in Visual Studio tutorial Step 5, authentication
 titleSuffix: ""
 description: Step 5 of a core walkthrough of Django capabilities in Visual Studio, specifically the authentication features provided in the Django Web Project template.
-ms.date: 03/31/2024
+ms.date: 04/01/2024
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
@@ -32,7 +32,7 @@ In Step 5 of the tutorial, you learn how to:
 
 - The Django web app must have a super user (administrator) account. [Step 4 (Create Django super user)](learn-django-in-visual-studio-step-04-full-django-project-template.md#create-django-super-user) describes how to create the super user credentials.
 
-Django project templates in Visual Studio are included with all earlier versions of Python Tools for Visual Studio. The template details might differ from the descriptions in this tutorial series, especially for earlier versions of the Django web framework.
+- Review the [Prerequisites](learn-django-in-visual-studio-step-01-project-and-solution.md#prerequisites) section in Step 1 of this tutorial series for details about Django template versions, Visual Studio projects versus Django projects, and Python development on Mac.
 
 ## Explore authentication flow
 

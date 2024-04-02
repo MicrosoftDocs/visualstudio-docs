@@ -2,7 +2,7 @@
 title: Django in Visual Studio tutorial Step 2, view & page template
 titleSuffix: ""
 description: Step 2 of a core walkthrough of Django capabilities in Visual Studio, including procedures to create a Django application with multiple views by using inline HTML templates.
-ms.date: 03/28/2024
+ms.date: 04/01/2024
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
@@ -30,15 +30,7 @@ In Step 2 of the tutorial, you learn how to:
 
 - A Visual Studio solution and Django project created in [Step 1: Create Visual Studio solution and Django project](learn-django-in-visual-studio-step-01-project-and-solution.md).
 
-Django project templates in Visual Studio are included with all earlier versions of Python Tools for Visual Studio. The template details might differ from the descriptions in this tutorial series, especially for earlier versions of the Django web framework.
-
-Python development isn't currently supported in Visual Studio for Mac. On Mac and Linux, use the [Python extension in Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial) tutorial.
-
-### Visual Studio projects and Django projects
-
-In Django terminology, a _Django project_ has several site-level configuration files along with one or more "apps." To create a full web application, you can deploy these apps to a web host. A Django project can contain multiple apps, and the same app can be in multiple Django projects.
-
-A Visual Studio project can contain the Django project along with multiple apps. In this tutorial series, the term "project" refers to the Visual Studio project. When the content refers to the "Django project" portion of the web application, it's referring to a "Django project" specifically.
+- Review the [Prerequisites](learn-django-in-visual-studio-step-01-project-and-solution.md#prerequisites) section in Step 1 of this tutorial series for details about Django template versions, Visual Studio projects versus Django projects, and Python development on Mac.
 
 ## Create Django app with default structure
 

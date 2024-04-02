@@ -2,7 +2,7 @@
 title: Django in Visual Studio tutorial Step 3, static files & template inheritance
 titleSuffix: ""
 description: Step 3 of a core walkthrough of Django capabilities in Visual Studio, including serving static files, adding pages to the Django app, and using template inheritance.
-ms.date: 03/27/2024
+ms.date: 04/01/2024
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
@@ -30,7 +30,7 @@ In Step 3 of the tutorial, you learn how to:
 
 - A Visual Studio solution and Django application projects created in [Step 1: Create the Django project](learn-django-in-visual-studio-step-01-project-and-solution.md) and updated in [Step 2: Create a Django app with views and page templates](learn-django-in-visual-studio-step-02-create-an-app.md) of this tutorial series.
 
-Django project templates in Visual Studio are included with all earlier versions of Python Tools for Visual Studio. The template details might differ from the descriptions in this tutorial series, especially for earlier versions of the Django web framework.
+- Review the [Prerequisites](learn-django-in-visual-studio-step-01-project-and-solution.md#prerequisites) section in Step 1 of this tutorial series for details about Django template versions, Visual Studio projects versus Django projects, and Python development on Mac.
 
 ## Explore item templates in Visual Studio
 
