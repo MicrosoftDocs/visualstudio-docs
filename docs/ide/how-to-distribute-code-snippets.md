@@ -1,7 +1,7 @@
 ---
 title: Distribute code snippets as an extension
 description: Learn how to use the Code Snippets Manager to distribute code snippets to other developers.
-ms.date: 11/11/2022
+ms.date: 04/03/2024
 ms.topic: how-to
 helpviewer_keywords:
 - code snippets, distributing
@@ -29,7 +29,7 @@ In this procedure, you'll use the same Hello World code snippet that's created i
 
 1. Create a new project from the **Empty VSIX Project** template and name the project `TestSnippet`.
 
-2. In the **TestSnippet** project, add a new XML file and call it `VBCodeSnippet.snippet`. Replace the content with the following XML:
+2. In the **TestSnippet** project, add a new XML file and call it `VBCodeSnippet.snippet` (*.snippet* is the new file extension). Replace the content with the following XML:
 
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
@@ -63,7 +63,19 @@ In this procedure, you'll use the same Hello World code snippet that's created i
 
 ## Add the .pkgdef file
 
-1. Add a text file to the *HelloWorldVB* folder and name it *HelloWorldVB.pkgdef*. This file is used to add certain keys to the registry. In this case, it adds a new subkey to the **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\16.0\Languages\CodeExpansions\Basic** key.
+1. Add a text file to the *HelloWorldVB* folder and name it *HelloWorldVB.pkgdef*. This file is used to add certain keys to the registry.
+
+  After you complete the steps in this section, you can view the registry key in the [private registry hive](https://github.com/microsoft/VSProjectSystem/blob/master/doc/overview/examine_registry.md) under the following subkey:
+
+  ::: moniker range=">= vs-2022"
+  Visual Studio 2022:
+  **HKEY_USERS\IsolatedHiveName\Software\Microsoft\VisualStudio\17.0_configID\Languages\CodeExpansions\Basic**
+  ::: moniker-end
+
+  Visual Studio 2019:
+  **HKEY_USERS\IsolatedHiveName\Software\Microsoft\VisualStudio\16.0_configID\Languages\CodeExpansions\Basic**
+
+  To view the registry key in this location, load the private registry hive to **HKEY_USERS**. If you check the registry key, make sure you unload the private registry hive before starting Visual Studio.
 
 2. Add the following lines to the file.
 
@@ -95,15 +107,15 @@ In this procedure, you'll use the same Hello World code snippet that's created i
 
 ## Test the snippet
 
-1. Now you can make sure that the code snippet works in the experimental instance of Visual Studio. The experimental instance is a second copy of Visual Studio that is separate from the one you use to write code. It allows you to work on an extension without affecting your development environment.
+Now you can make sure that the code snippet works in the experimental instance of Visual Studio. The experimental instance is a second copy of Visual Studio that is separate from the one you use to write code. It allows you to work on an extension without affecting your development environment.
 
-2. Build the project and start debugging.
+1. Build the project and start debugging.
 
    A second instance of Visual Studio appears.
 
-3. Test the snippet. In the experimental instance, open a Visual Basic project and open one of the code files. Place your cursor somewhere in the code, right-click, and on the context menu select **Snippet**, then **Insert Snippet**.
+1. Test the snippet. In the experimental instance, open a Visual Basic project and open one of the code files. Place your cursor somewhere in the code, right-click, and on the context menu select **Snippet**, then **Insert Snippet**.
 
-4. Double-click the *HelloWorldVB* folder. You should see a pop-up **Insert Snippet: HelloWorldVB >** that has a dropdown **HelloWorldVB**. Double-click the **HelloWorldVB** dropdown.
+1. Double-click the *HelloWorldVB* folder. You should see a pop-up **Insert Snippet: HelloWorldVB >** that has a dropdown **HelloWorldVB**. Double-click the **HelloWorldVB** dropdown.
 
    The following line is added to the code file:
 
