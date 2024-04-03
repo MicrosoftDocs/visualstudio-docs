@@ -13,7 +13,7 @@ monikerRange: vs-2022
 # Troubleshooting GitHub Copilot in Visual Studio 2022 (Version 17.10 or Higher)
 If you encounter the message **“Copilot is temporarily unreachable”** indicating that GitHub Copilot is offline, it could be due to one of the following reasons:
 
-## 1. **Network Issues**
+## Network issues
 This usually means that your network might be down.
  >Action: Ensure you have a stable internet connection. For more information, refer to the - Troubleshooting network errors for [GitHub Copilot - GitHub Docs](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-network-errors-for-github-copilot)
 
