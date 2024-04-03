@@ -26,5 +26,5 @@ Due to the expected timeout you will need to occasionally refresh your credentia
 >Action: you can do this by clicking the Copilot badge on the top right corner of your Visual Studio and selecting refresh your credentials -> click “refresh your credentials” 
 
 ## 4. **Copilot is disabled contact your admin**
- Copilot for individual or as well as any screw of copilot can be disabled by your administrator on 17.10. 
+ Copilot for individual or any other skew of copilot can be disabled by your administrator on 17.10. 
 **Action:** contact your IT department to learn more if you see this state for your copilot badge on the top right of your Visual Studio. 
