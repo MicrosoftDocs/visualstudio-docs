@@ -136,7 +136,7 @@ Different code languages display different variables in the **Autos** window.
 
 - In C++, the **Autos** window displays the variables used in at least three lines before the current line where execution is paused. For example, in C++ code, declare six variables:
 
-   ```c++
+   ```cpp
        void main() {
            int a, b, c, d, e, f;
            a = 1;

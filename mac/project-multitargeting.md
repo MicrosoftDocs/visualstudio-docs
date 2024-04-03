@@ -51,7 +51,7 @@ When you're editing a C# file in a project with multiple target frameworks, you 
 
 Sometimes you need to call different APIs depending on the platform your application is targeting. To do this, you can write conditional code to compile code for a specific platform:
 
-```C#
+```csharp
 public class MyClass
 {
     static void Main()

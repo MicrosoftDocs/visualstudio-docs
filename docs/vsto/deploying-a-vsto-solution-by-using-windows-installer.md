@@ -550,7 +550,7 @@ The last step is to configure the custom action for the **Install** and **Uninst
 11. In the **CustomActionData** **Properties** window, enter the location of the customization DLL, the deployment manifest, and the location of the Microsoft Office document. The SolutionID is also needed.
 12. If you wish to log any setup errors to a file, include a LogFile parameter.
 s
-    ``` text
+    ```text
     /assemblyLocation="[INSTALLDIR]ExcelWorkbookProject.dll" /deploymentManifestLocation="[INSTALLDIR]ExcelWorkbookProject.vsto" /documentLocation="[INSTALLDIR]ExcelWorkbookProject.xlsx" /solutionID="Your Solution ID" /LogFile="[TARGETDIR]Setup.log"
     ```
 
@@ -560,7 +560,7 @@ s
 
 13. The Custom Action for Uninstall needs the name of the document, you can provide that by using the same documentLocation parameter in the **CustomActionData**
 
-    ``` text
+    ```text
     /documentLocation="[INSTALLDIR]ExcelWorkbookProject.xlsx"
     ```
 
