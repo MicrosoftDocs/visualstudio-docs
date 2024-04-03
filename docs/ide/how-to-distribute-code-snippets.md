@@ -12,7 +12,7 @@ ms.subservice: general-ide
 dev_langs:
 - VB
 ---
-# Distribute code snippets as an Visual Studio extension
+# Distribute code snippets as a Visual Studio extension
 
 You can give your code snippets to your friends and have them install the snippets on their own computers by using **Code Snippets Manager**. However, if you have several snippets to distribute or would like to distribute them more widely, you can include your snippet files in a Visual Studio extension. Visual Studio users can then install the extension to obtain the snippets.
 
@@ -130,7 +130,7 @@ To view the registry keys in this location, first close Visual Studio, open the 
 
 For example, the registry keys may appear as shown here.
 
-![Registry keys for code snippets](media/vs-2022/code-snippets-registry-key.png)
+![Screenshot of registry keys for code snippets.](media/vs-2022/code-snippets-registry-key.png)
 
 ## Related content
 
