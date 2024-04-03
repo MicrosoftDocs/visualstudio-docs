@@ -113,7 +113,7 @@ Now you can make sure that the code snippet works in the experimental instance o
 
 ## View the registry for the snippet (Optional)
 
-The *.pkgdef* file is used to add certain keys to the registry. After you register the snippet, you can view the registry key in the [private registry hive](https://github.com/microsoft/VSProjectSystem/blob/master/doc/overview/examine_registry.md) under the following subkey:
+The *.pkgdef* file is used to add certain keys to the registry. After you register the snippet, if you need to view the registry keys in the [private registry hive](https://github.com/microsoft/VSProjectSystem/blob/master/doc/overview/examine_registry.md), you can find them under the following subkey:
 
 ::: moniker range=">= vs-2022"
 Visual Studio 2022:
@@ -123,10 +123,10 @@ Visual Studio 2022:
 Visual Studio 2019:
 **HKEY_USERS\IsolatedHiveName\Software\Microsoft\VisualStudio\16.0_configID\Languages\CodeExpansions\Basic\Paths**
 
-To view the registry key in this location, load the private registry hive into **HKEY_USERS**.
+To view the registry keys in this location, first close Visual Studio, open the registry editor, and then load the private registry hive into **HKEY_USERS**.
 
 > [!IMPORTANT]
-> If you check the registry key, make sure you unload the private registry hive before starting Visual Studio.
+> If you check the registry, make sure you unload the private registry hive before starting Visual Studio.
 
 For example, the registry keys may appear as shown here.
 
