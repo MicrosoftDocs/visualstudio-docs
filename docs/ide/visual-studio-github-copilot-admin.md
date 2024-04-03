@@ -13,7 +13,7 @@ monikerRange: vs-2022
 # Admin controls for GitHub Copilot in Visual Studio 2022 version 17.10 or later
 GitHub Copilot in Visual Studio 2022 17.10 and higher introduces new features for administrators to manage Copilot effectively.
 
-## Content Exclusion
+## Content exclusion
 Content exclusion is a feature that prevents specific files from being accessible to GitHub Copilot. Administrators can configure GitHub Copilot to ignore certain files by specifying paths to the content to be excluded. This can be done in the “Content Exclusion” page in the settings for your organization [described here](https://docs.github.com/en/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot#configuring-content-exclusions-for-your-organization), or the settings for a repository [described here](https://docs.github.com/en/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot#configuring-content-exclusions-for-your-repository).
 > This feature is only available in Copilot for Enterprise or Business.
 
