@@ -23,7 +23,7 @@ Sometimes, the Copilot service itself might be down.
 
 ## Refresh your credentials
 Due to the expected timeout you will need to occasionally refresh your credentials. 
->Action: you can do this by clicking the Copilot badge on the top right corner of your Visual Studio and selecting refresh your credentials -> click “refresh your credentials” 
+**Action:** You can do this by clicking the Copilot badge on the top right corner of your Visual Studio and selecting **Refresh your credentials**
 
 ## Copilot is disabled
  Copilot for individual or any other skew of copilot can be disabled by your administrator on 17.10. 
