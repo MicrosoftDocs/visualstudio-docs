@@ -37,13 +37,13 @@ There are two ways of specifying context:
 
      For example, to set a breakpoint at the `SomeFunction` function of EXAMPLE.dll:
 
-    ```c++
+    ```cpp
     {,,EXAMPLE.dll}SomeFunction
     ```
 
 2. *module*!*expression*
 
-    ```c++
+    ```cpp
     EXAMPLE.dll!SomeFunction
     ```
 
@@ -51,7 +51,7 @@ There are two ways of specifying context:
 
    If the *module* path includes a comma, an embedded space, or a brace, you must use quotation marks around the path so that the context parser can properly recognize the string. Single quotation marks are considered part of a Windows file name, so you must use double quotation marks. For example,
 
-  ```c++
+  ```cpp
   {,,"a long, long, library name.dll"} g_Var
   ```
 

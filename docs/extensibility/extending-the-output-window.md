@@ -29,7 +29,7 @@ The **Output** window is a set of read/write text panes. Visual Studio has these
 
 3. In *TestOutput.cs*, add the following using statement:
 
-    ```f#
+    ```fsharp
     using EnvDTE;
     using EnvDTE80;
     ```
