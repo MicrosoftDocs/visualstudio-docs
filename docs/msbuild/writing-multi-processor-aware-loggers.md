@@ -18,7 +18,7 @@ The ability of MSBuild to take advantage of multiple processors can decrease pro
 
 Generating a binary log (`-binlog` or `-bl` switch) and viewing it with the [structured log viewer](https://msbuildlog.com/) largely solves this issue. With MSBuild version 17.8 or later, you can also try the terminal logger (`-tl` switch) for more user-friendly logging output in real time at the console.
 
-For a more general solution, MSBuild provides a multi-processor-aware logger and a new logging model, and lets you create custom "forwarding loggers."
+For a more general solution, MSBuild provides a multi-processor-aware logger and a logging model that you can use to create custom "forwarding loggers."
 
 ## Multi-processor logging challenges
 
