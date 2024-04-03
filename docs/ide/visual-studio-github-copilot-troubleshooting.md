@@ -21,7 +21,7 @@ This usually means that your network might be down.
 Sometimes, the Copilot service itself might be down.
 >Action: In this case, please wait. The service will be back shortly. You can check the status of the service on the [GitHub Status](https://www.githubstatus.com/).
 
-## 3. **Refresh your credentials**
+## Refresh your credentials
 Due to the expected timeout you will need to occasionally refresh your credentials. 
 >Action: you can do this by clicking the Copilot badge on the top right corner of your Visual Studio and selecting refresh your credentials -> click “refresh your credentials” 
 
