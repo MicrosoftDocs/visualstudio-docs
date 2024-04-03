@@ -22,7 +22,7 @@ Sometimes, the Copilot service itself might be down.
 >Action: In this case, please wait. The service will be back shortly. You can check the status of the service on the [GitHub Status](https://www.githubstatus.com/).
 
 ## Refresh your credentials
-Due to the expected timeout you will need to occasionally refresh your credentials. 
+Due to the expected timeout you'll need to occasionally refresh your credentials. 
 **Action:** You can do this by clicking the Copilot badge on the top right corner of your Visual Studio and selecting **Refresh your credentials**
 
 ## Copilot is disabled
