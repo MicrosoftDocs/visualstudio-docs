@@ -153,7 +153,7 @@ The following example shows the indent state of a C# code snippet before and aft
 1. As expected, when you press the **Tab** key on the next line, it indents the line by adding four white-space characters.
 
    ::: moniker range=">= vs-2022"
-   :::image type="content" source="../ide/media/vs-2022/vside-editorconfig-before-new.png" alt-text="Screenshot that shows the Tab key adding spaces in code.":::
+   :::image type="content" source="../ide/media/vs-2022/ide-editorconfig-before-new.png" alt-text="Screenshot that shows the Tab key adding spaces in code.":::
    ::: moniker-end
    ::: moniker range="vs-2019"
    :::image type="content" source="../ide/media/vs-2022/vside_editorconfig_before-new.png" alt-text="Screenshot that shows the Tab key adding spaces in code.":::
@@ -164,7 +164,7 @@ The following example shows the indent state of a C# code snippet before and aft
    ::: moniker range=">= vs-2022"
    Select **Use Tabs** in the EditorConfig file.
 
-   :::image type="content" source="../ide/media/vs-2022/vside-editorconfig-use-tabs.png" alt-text="Screenshot that shows configuring use of tabs for Tab key.":::
+   :::image type="content" source="../ide/media/vs-2022/ide-editorconfig-use-tabs.png" alt-text="Screenshot that shows configuring use of tabs for Tab key.":::
    ::: moniker-end
 
    ::: moniker range="vs-2019"
@@ -183,7 +183,7 @@ The following example shows the indent state of a C# code snippet before and aft
 1. When you press the **Tab** key, tab characters now appear instead of spaces.
 
    ::: moniker range=">= vs-2022"
-   :::image type="content" source="../ide/media/vs-2022/vside-editorconfig-tab.png" alt-text="Screenshot that shows the Tab key adding tab characters in code.":::
+   :::image type="content" source="../ide/media/vs-2022/ide-editorconfig-tab.png" alt-text="Screenshot that shows the Tab key adding tab characters in code.":::
    ::: moniker-end
 
    ::: moniker range="vs-2019"
