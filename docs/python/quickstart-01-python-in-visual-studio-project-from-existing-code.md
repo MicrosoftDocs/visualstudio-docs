@@ -1,5 +1,5 @@
 ---
-title: "Quickstart: Create Python project from code in Visual Studio"
+title: "Quickstart: Create Python project from code"
 description: Follow guided steps to create a Visual Studio project for Python from existing code for a quick start to developing your Python application.
 ms.date: 04/01/2024
 ms.topic: quickstart
@@ -19,6 +19,8 @@ In this quickstart, you follow guided steps to quickly create a new Python proje
 
 - Visual Studio installed with support for Python workloads. For more information, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
 
+Visual Studio for Mac isn't currently supported. For more information, see [What's happening to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
+
 ## Use wizard to create project from existing files
 
 [!INCLUDE[project-from-existing](includes/project-from-existing.md)]
@@ -27,6 +29,6 @@ Now you can run your program by selecting **Debug** > **Start without Debugging*
 
 ## Related content
 
-- [Work with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)
+- [Tutorial: Work with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)
 - [Manually identify an existing Python interpreter](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment)
-- [Open and run Python code in a folder in Visual Studio](./quickstart-05-python-visual-studio-open-folder.md)
+- [Quickstart: Open and run Python code in a folder in Visual Studio](./quickstart-05-python-visual-studio-open-folder.md)
