@@ -17,7 +17,7 @@ GitHub Copilot in Visual Studio 2022 17.10 and higher introduces new features fo
 Content exclusion is a feature that prevents specific files from being accessible to GitHub Copilot. Administrators can configure GitHub Copilot to ignore certain files by specifying paths to the content to be excluded. This can be done in the “Content Exclusion” page in the settings for your organization [described here](https://docs.github.com/en/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot#configuring-content-exclusions-for-your-organization), or the settings for a repository [described here](https://docs.github.com/en/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot#configuring-content-exclusions-for-your-repository).
 > This feature is only available in Copilot for Enterprise or Business.
 
-When files are excluded, completions will not work, and users will not be able to use Copilot in Chat and Inline by referencing an excluded file.
+When files are excluded, completions will not work, and users will not be able to use Copilot Chat (chat window or inline chat) by referencing an excluded file.
 For more information on how to configure content exclusions, refer to the Configuring content exclusions for GitHub Copilot - GitHub Docs.
 
 > Please note, when customers attempt to use Content Exclusion, it will present as a file that Copilot cannot read in the different interactions on Copilot.
