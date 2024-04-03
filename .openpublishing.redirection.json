@@ -5,7 +5,6 @@
       "redirect_url": "/visualstudio/msbuild/writing-multi-processor-aware-loggers",
       "redirect_document_id": "false"
     },
-    }
     {
       "source_path": "docs/azure/vs-azure-tools-optimizing-azure-code-in-visual-studio.md",
       "redirect_url": "/visualstudio/azure/overview",
