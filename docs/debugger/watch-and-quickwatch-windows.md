@@ -32,7 +32,7 @@ You can open more than one **Watch** window, and observe more than one variable 
 
 For example, to set a watch on the values of `a`, `b`, and `c` in the following code:
 
-```C++
+```cpp
 int main()
 {
     int a, b, c;

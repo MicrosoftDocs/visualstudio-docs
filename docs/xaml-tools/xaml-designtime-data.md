@@ -185,8 +185,8 @@ After you have taken all these steps, you can use your `myDesignTimeControls` pr
 
 To create a custom xmlns namespace in WPF .NET Core, you need to map your custom XML namespace to the CLR namespace your controls are in. You can do that by adding the `XmlnsDefinition` assembly-level attribute in your `AssemblyInfo.cs` file. The file is found in the root hierarchy of your project.
 
-   ```C#
-[assembly: XmlnsDefinition("http://MyCustomControls", "MyViews.MyButtons")]
+   ```csharp
+   [assembly: XmlnsDefinition("http://MyCustomControls", "MyViews.MyButtons")]
    ```
 
 ## Troubleshooting

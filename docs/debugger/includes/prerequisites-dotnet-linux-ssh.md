@@ -12,7 +12,7 @@
 
 - On the Linux server, you need to install SSH server, unzip and install with either curl or wget. For example, on Ubuntu you can do that by running:
 
-  ``` cmd
+  ```cmd
   sudo apt-get install openssh-server unzip curl
   ```
 

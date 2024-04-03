@@ -35,7 +35,7 @@ You can also use format specifiers in the **Immediate** window, the **Command** 
 
 We'll use the following example code:
 
-```C++
+```cpp
 int main() {
     int my_var1 = 0x0065;
     int my_var2 = 0x0066;
