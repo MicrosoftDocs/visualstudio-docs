@@ -22,7 +22,7 @@ In this quickstart, you follow guided steps to quickly create a Flask applicatio
    - In the Visual Studio Installer, select the **Python development** workload.
    - For access to project templates for web development, select the optional **Python web support** workload.
 
-   :::image type="content" source="media/vs-2022/python-web.png" alt-text="Screenshot of the Visual Studio Installer with the Python development workload and Python web support selected." lightbox="media/vs-2022/python-web.png" border="false":::
+   :::image type="content" source="media/quickstart-python-install-web-support.png" alt-text="Screenshot that shows how to select Python web support in the Visual Studio Installer for the Python development workload." lightbox="media/quickstart-python-install-web-support.png" border="false":::
 
 For more information, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
 
@@ -42,7 +42,7 @@ Follow this procedure to create a Visual Studio solution and a new Flask web pro
 
 1. After a moment, Visual Studio displays a prompt:
 
-   The dialog **This project requires external packages.** indicates that the selected template includes a `requirements.txt` file that specifies dependencies on the Flask package. Visual Studio can install the packages automatically, which gives you the option to install the packages into a _virtual environment_. Using a virtual environment is recommended over installing into a global environment.
+   The dialog **This project requires external packages.** indicates that the selected template includes a _requirements.txt_ file that specifies dependencies on the Flask package. Visual Studio can install the packages automatically, which gives you the option to install the packages into a _virtual environment_. Using a virtual environment is recommended over installing into a global environment.
    
    If you receive this dialog, select the **Install into a virtual environment** option:
 
@@ -71,7 +71,7 @@ Follow this procedure to create a Visual Studio solution and a new Flask web pro
 
 1. After a moment, Visual Studio displays a prompt:
 
-   The dialog **This project requires external packages.** indicates that the selected template includes a `requirements.txt` file that specifies dependencies on the Flask package. Visual Studio can install the packages automatically, which gives you the option to install the packages into a _virtual environment_. Using a virtual environment is recommended over installing into a global environment.
+   The dialog **This project requires external packages.** indicates that the selected template includes a _requirements.txt_ file that specifies dependencies on the Flask package. Visual Studio can install the packages automatically, which gives you the option to install the packages into a _virtual environment_. Using a virtual environment is recommended over installing into a global environment.
    
    If you receive this dialog, select the **Install into a virtual environment** option:
 
