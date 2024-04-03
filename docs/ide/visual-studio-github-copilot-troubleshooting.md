@@ -17,7 +17,7 @@ If you encounter the message **“Copilot is temporarily unreachable”** indica
 This usually means that your network might be down.
  >Action: Ensure you have a stable internet connection. For more information, refer to the - Troubleshooting network errors for [GitHub Copilot - GitHub Docs](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-network-errors-for-github-copilot)
 
-## 2. **Copilot Service is Unavailable**
+## Copilot service is unavailable
 Sometimes, the Copilot service itself might be down.
 >Action: In this case, please wait. The service will be back shortly. You can check the status of the service on the [GitHub Status](https://www.githubstatus.com/).
 
