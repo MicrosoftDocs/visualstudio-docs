@@ -1,6 +1,6 @@
 ---
 title: Admin controls for GitHub Copilot in Visual Studio
-description: GitHub Copilot in Visual Studio 2022 17.10 and higher introduces new features for administrators to manage Copilot effectively. 
+description: GitHub Copilot in Visual Studio 2022 version 17.10 and later introduces new features for administrators to manage Copilot effectively. 
 ms.date: 3/28/2024
 ms.topic: overview 
 author: anandmeg
