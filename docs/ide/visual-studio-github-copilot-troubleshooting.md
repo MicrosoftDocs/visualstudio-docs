@@ -19,7 +19,7 @@ This usually means that your network might be down.
 
 ## Copilot service is unavailable
 Sometimes, the Copilot service itself might be down.
->Action: In this case, please wait. The service will be back shortly. You can check the status of the service on the [GitHub Status](https://www.githubstatus.com/).
+**Action:** In this case, please wait. The service will be back shortly. You can check the status of the service on [GitHub Status](https://www.githubstatus.com/).
 
 ## Refresh your credentials
 Due to the expected timeout you'll need to occasionally refresh your credentials. 
