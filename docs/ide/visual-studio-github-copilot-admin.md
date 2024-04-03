@@ -10,7 +10,7 @@ ms.subservice: ai-tools
 monikerRange: vs-2022
 ---
 
-# Admin controls for GitHub Copilot in Visual Studio 2022 (Version 17.10 or Higher)
+# Admin controls for GitHub Copilot in Visual Studio 2022 version 17.10 or later
 GitHub Copilot in Visual Studio 2022 17.10 and higher introduces new features for administrators to manage Copilot effectively.
 
 ## Content Exclusion
