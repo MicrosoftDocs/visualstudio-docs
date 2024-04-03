@@ -24,7 +24,7 @@ For more information on how to configure content exclusions, refer to the Config
 > [!NOTE]
 > When customers attempt to use excluded content, it will present as a file that Copilot cannot read in the different interactions with Copilot.
 
-## Disabling Copilot for Individual Enterprise Visual Studio Accounts
+## Disabling Copilot for individual Enterprise Visual Studio accounts
 In version 17.10, we have introduced two new features to disable Copilot, ensuring that your repository remains protected:
 1.  Project administrators can disable Copilot for individual accounts via the Windows Local Group Policy Editor.
 2.  Copilot can be disabled altogether via the Windows Local Group Policy Editor.
