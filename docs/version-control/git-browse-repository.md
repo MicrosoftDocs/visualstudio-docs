@@ -30,7 +30,7 @@ The **Git Repository** window contains three main sections, as numbered in the p
    - **Outgoing** shows your local commits that you still haven't pushed.
    - **Local History** shows the rest of commits tracked by your local repository. 
 
-1. **Commit**: Selecting any commit in the **Graph** section opens its details. You can check the changes that a commit has introduced by selecting them, which shows a difference. For example, the previous screenshot shows the changes that one commit introduced to the *Resize.cs* file.
+1. **Commit**: To open this section, select any commit in the **Graph** section. You can check the changes that a commit has introduced by selecting them, which shows a difference. For example, the previous screenshot shows the changes that one commit introduced to the *Resize.cs* file.
 
 The **Alt**+**Up arrow** or **Alt**+**Down arrow** keyboard shortcuts allow you to jump between these sections.
 
