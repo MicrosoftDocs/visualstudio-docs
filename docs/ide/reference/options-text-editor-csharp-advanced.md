@@ -176,7 +176,7 @@ Select these check boxes to display dotted vertical lines between the curly brac
 
    If the "Don't put ref or out on custom struct" option is **unchecked**, then the "Extract method" feature generates the following:
 
-   ```C#
+   ```csharp
    public class CustomClass
    {
       public void DoIt()
@@ -194,7 +194,7 @@ Select these check boxes to display dotted vertical lines between the curly brac
 
    If the "Don't put ref or out on custom struct" option is **checked**, then the "Extract method" feature generates the following:
 
-   ```C#
+   ```csharp
    public class CustomClass
    {
       public void DoIt()

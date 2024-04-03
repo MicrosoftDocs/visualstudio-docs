@@ -36,19 +36,19 @@ For information about using context operators with expressions in C++, see [Cont
 #### Constructors, destructors, and conversions
 You can't call a constructor or destructor for an object, either explicitly or implicitly. For example, the following expression explicitly calls a constructor and results in an error message:
 
-```C++
+```cpp
 my_date( 2, 3, 1985 )
 ```
 
 You can't call a conversion function if the destination of the conversion is a class. Such a conversion involves the construction of an object. For example, if `myFraction` is an instance of `CFraction`, which defines the conversion function operator `FixedPoint`, the following expression results in an error:
 
-```C++
+```cpp
 (FixedPoint)myFraction
 ```
 
 You can't call the new or delete operators. For example, the following expression isn't supported:
 
-```C++
+```cpp
 new Date(2,3,1985)
 ```
 
@@ -61,7 +61,7 @@ You can't use `using namespace` declarations.  In order to access a type name or
 ### Anonymous namespaces
 Anonymous namespaces aren't supported. If you have the following code, you can't add `test` to the watch window:
 
-```C++
+```cpp
 namespace mars
 {
     namespace

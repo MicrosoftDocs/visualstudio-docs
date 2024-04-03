@@ -26,7 +26,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 1. In MyDbgApp.cpp, replace the following code
 
-    ```c++
+    ```cpp
     int main()
     {
         return 0;
@@ -35,7 +35,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
     with this code (do not remove `#include "stdafx.h"`):
 
-    ```c++
+    ```cpp
     #include <list>
     #include <iostream>
 
