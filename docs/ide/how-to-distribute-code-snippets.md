@@ -63,19 +63,7 @@ In this procedure, you'll use the same Hello World code snippet that's created i
 
 ## Add the .pkgdef file
 
-1. Add a text file to the *HelloWorldVB* folder and name it *HelloWorldVB.pkgdef*. This file is used to add certain keys to the registry.
-
-  After you complete the steps in this section, you can view the registry key in the [private registry hive](https://github.com/microsoft/VSProjectSystem/blob/master/doc/overview/examine_registry.md) under the following subkey:
-
-  ::: moniker range=">= vs-2022"
-  Visual Studio 2022:
-  **HKEY_USERS\IsolatedHiveName\Software\Microsoft\VisualStudio\17.0_configID\Languages\CodeExpansions\Basic**
-  ::: moniker-end
-
-  Visual Studio 2019:
-  **HKEY_USERS\IsolatedHiveName\Software\Microsoft\VisualStudio\16.0_configID\Languages\CodeExpansions\Basic**
-
-  To view the registry key in this location, load the private registry hive to **HKEY_USERS**. If you check the registry key, make sure you unload the private registry hive before starting Visual Studio.
+1. Add a text file to the *HelloWorldVB* folder and name it *HelloWorldVB.pkgdef*. This file is used to add certain keys to the registry. For more information, see [View the registry for the snippet (Optional)](#view-the-registry-for-the-snippet-optional).
 
 2. Add the following lines to the file.
 
@@ -122,6 +110,27 @@ Now you can make sure that the code snippet works in the experimental instance o
     ```vb
     Console.WriteLine("Hello, World!")
     ```
+
+## View the registry for the snippet (Optional)
+
+The *.pkgdef* file is used to add certain keys to the registry. After you register the snippet, you can view the registry key in the [private registry hive](https://github.com/microsoft/VSProjectSystem/blob/master/doc/overview/examine_registry.md) under the following subkey:
+
+::: moniker range=">= vs-2022"
+Visual Studio 2022:
+**HKEY_USERS\IsolatedHiveName\Software\Microsoft\VisualStudio\17.0_configID\Languages\CodeExpansions\Basic\Paths**
+::: moniker-end
+
+Visual Studio 2019:
+**HKEY_USERS\IsolatedHiveName\Software\Microsoft\VisualStudio\16.0_configID\Languages\CodeExpansions\Basic\Paths**
+
+To view the registry key in this location, load the private registry hive into **HKEY_USERS**.
+
+> [!IMPORTANT]
+> If you check the registry key, make sure you unload the private registry hive before starting Visual Studio.
+
+For example, the registry keys may appear as shown here.
+
+![Registry keys for code snippets](media/vs-2022/code-snippets-registry-key.png)
 
 ## Related content
 
