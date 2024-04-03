@@ -1,7 +1,7 @@
 ---
 title: Customize & save your personal Visual Studio IDE settings
 description: Customize the Visual Studio integrated development environment (IDE) in ways that best support your own development style and requirements.
-ms.date: 03/29/2024
+ms.date: 04/03/2024
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
@@ -75,4 +75,3 @@ You can customize the **Tools** menu to launch external tools. For more informat
 
 - [Visual Studio IDE overview](../get-started/visual-studio-ide.md)
 - [Tour the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
-- [Customizing the IDE in Visual Studio for Mac](/visualstudio/mac/customizing-the-ide)
