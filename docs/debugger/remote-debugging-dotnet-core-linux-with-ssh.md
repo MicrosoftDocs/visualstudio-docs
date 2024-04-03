@@ -39,7 +39,7 @@ To prepare your application for debugging:
 
 You can use several methods to deploy the app prior to debugging. For example, you can:
 
-- Copy sources to the target computer and build with ```dotnet build``` on the Linux machine.
+- Copy sources to the target computer and build with `dotnet build` on the Linux machine.
 
 - Build the app on Windows, and then transfer the build artifacts to the Linux machine. (The build artifacts consist of the application itself, the portable PDBs, any runtime libraries it might depend on, and the *.deps.json* file.)
 
