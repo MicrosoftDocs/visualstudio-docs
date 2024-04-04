@@ -311,7 +311,7 @@ You can remove a virtual environment after it's under source control. Follow the
    
    1. After that section, add a new line for the virtual environment folder, such as _/BasicProject/env_.
 
-1. Open a command window and go to the folder (such as *BasicProject*) that has the virtual environment folder, such as *env*.
+1. Open a command window and go to the folder (such as _BasicProject_) that has the virtual environment folder, such as *env*.
 
 1. Run the `git rm -r env` command to remove the virtual environment that's currently under source control.
 
@@ -331,7 +331,7 @@ In this section, you examine the boilerplate code in the Project file (_.py_) th
    
 1. Open the _app.py_ file in the editor and examine the first section, an `import` statement for Flask.
 
-   This statement creates an instance of the `Flask` class, which is assigned to the variable _app_. This section also assigns a `wsgi_app` variable (which is useful when you deploy to a web host, but not used for now):
+   This statement creates an instance of the `Flask` class, which is assigned to the variable `app`. This section also assigns a `wsgi_app` variable (which is useful when you deploy to a web host, but not used for now):
 
    ```python
    from flask import Flask

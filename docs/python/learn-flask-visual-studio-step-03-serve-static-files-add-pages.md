@@ -112,7 +112,7 @@ Follow these steps to use a static file in a template:
 
 ### Serve static file from code
 
-Flask provides a function named `serve_static_file` that you can call from code to refer to any file within the project's _static_ folder. The following process creates a simple API endpoint that returns a static data file:
+Flask provides a function named _serve_static_file_ that you can call from code to refer to any file within the project's _static_ folder. The following process creates a simple API endpoint that returns a static data file:
 
 1. In the _static_ folder, create a static JSON data file named _data.json_. You can use the **Text** file template as a basis for the file.
 
@@ -219,7 +219,7 @@ Flask's templating system (Jinja by default) provides two ways to reuse specific
 
 - **Inheritance** uses the `{% extends <template_path> %}` syntax at the beginning of a page template to specify a shared base template that the referring template builds upon. Inheritance is commonly used to define a shared layout, navigation bar, and other structures for an app's pages. This approach requires referring templates to add or modify only specific areas of the base template called *blocks*.
 
-For both approaches, the `<template_path>` value is relative to the app's _templates_ folder (`../` or `./` are also allowed).
+For both approaches, the `<template_path>` value is relative to the app's _templates_ folder (_../_ or _./_ are also allowed).
 
 A base template delineates blocks by using the `{% block <block_name> %}` and `{% endblock %}` tags. If a referring template uses tags with the same block name, then the block content in the referring template overrides the matching block in the base template.
 
