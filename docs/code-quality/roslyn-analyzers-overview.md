@@ -11,7 +11,7 @@ helpviewer_keywords:
 - analyzers
 - Roslyn analyzers
 - code analyzers
-ms.date: 03/12/2024
+ms.date: 04/04/2024
 
 #customer intent: As a developer, I want to learn about code analysis using .NET compiler platform (Roslyn) analyzers so that I can understand how then work and use them properly.
 ---

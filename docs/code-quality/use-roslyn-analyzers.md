@@ -10,7 +10,7 @@ helpviewer_keywords:
 - code analysis, managed code
 - analyzers
 - Roslyn analyzers
-ms.date: 03/20/2024
+ms.date: 04/04/2024
 ---
 
 # Customize Roslyn analyzer rules
@@ -50,11 +50,18 @@ Many diagnostics have one or more associated *code fixes* that you can apply to 
 
 You can set the rule severity using any of the following methods:
 
+::: moniker range=">=vs-2022"
 - [EditorConfig](#set-rule-severity-in-an-editorconfig-file)
 - [Light bulb menu](#set-rule-severity-from-the-light-bulb-menu)
 - [Error List window](#set-rule-severity-from-the-error-list-window)
 - [Solution Explorer](#set-rule-severity-from-solution-explorer)
+::: moniker-end
+
 ::: moniker range="vs-2019"
+- [EditorConfig](#set-rule-severity-in-an-editorconfig-file)
+- [Light bulb menu](#set-rule-severity-from-the-light-bulb-menu)
+- [Error List window](#set-rule-severity-from-the-error-list-window)
+- [Solution Explorer](#set-rule-severity-from-solution-explorer)
 - [Rule set file](#set-rule-severity-in-a-rule-set-file)
 ::: moniker-end
 
