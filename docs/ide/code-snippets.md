@@ -29,13 +29,12 @@ Snippets can also contain replacement parameters, which act as placeholders. Sni
 
 A code snippet has a title that you use to select the snippet, and can have a shortcut name you can type to insert the snippet. You can add two kinds of code snippets to your code:
 
-- *Expansion* snippets are added at a specified insertion point.
-
-- *Surround-with* snippets are added around selected code, and are available for C# and C++ only.
+- An *expansion* snippet is added at a specified insertion point.
+- A *surround-with* snippet is added around selected code, and is available only for C# and C++.
 
 ## Find available snippets
 
-To view the available snippets for a language, select **Tools** > **Code Snippets Manager** from the menu bar, or press **Ctrl**+**K**,**B**, and then select the language you want from the dropdown menu.
+To view the available snippets for a language, select **Tools** > **Code Snippets Manager** from the menu bar, or press **Ctrl**+**K**, **B**, and then select the language you want from the dropdown menu.
 
 ![Screenshot of the Code Snippets Manager dialog box.](media/code-snippets-manager.png)
 
@@ -49,11 +48,11 @@ To add a snippet to a code file:
 
 1. Take one of the following actions:
 
-   - On the menu bar, choose **Edit** > **IntelliSense** > **Insert Snippet** or **Surround With**.
-   - Right-click, and from the context menu choose **Snippet** > **Insert Snippet** or **Surround With**.
-   - From the keyboard, press **Ctrl**+**K**,**X** for an expansion snippet, or **Ctrl**+**K**,**S** for a surround-with snippet.
+   - On the Visual Studio menu bar, choose **Edit** > **IntelliSense** > **Insert Snippet** or **Edit** > **IntelliSense** > **Surround With**.
+   - Right-click, and choose **Snippet** > **Insert Snippet** or **Snippet** > **Surround With** from the context menu.
+   - From the keyboard, press **Ctrl**+**K**, **X** for an expansion snippet, or **Ctrl**+**K**, **S** for a surround-with snippet.
 
-1. Type the snippet shortcut and press **Tab**, or double-click the snippet you want in the dropdown list.
+1. Double-click the snippet you want in the dropdown list, or type the snippet shortcut and press **Tab**.
 
 ### Add an expansion snippet
 
@@ -74,7 +73,7 @@ To add this expansion snippet:
 
 1. In the code editor, position your cursor where you want to add the snippet.
 1. Right-click and select **Insert Snippet** from the right-click context menu, or use the menu bar or keyboard commands.
-1. Double-click **Visual C#**, and then double-click **tryf** in the dropdown list. Alternatively, you can type **V**, **Tab**, **tryf**, **Tab**.
+1. Double-click **Visual C#**, and then double-click **tryf** in the dropdown list. Alternatively, you can type **V**, **Tab**, *tryf*, **Tab**.
 
 ### Add a surround-with snippet
 
@@ -120,7 +119,7 @@ The code in a code snippet shows only the most basic way to do something. For mo
 
 ### Handle exceptions
 
-Typically, code snippet `Try...Catch` blocks catch and rethrow all exceptions, but that might not be the right choice for your project. For each exception, there are several ways to respond. For examples, see [How to: Handle an exception using try/catch (C#)](/dotnet/csharp/programming-guide/exceptions/how-to-handle-an-exception-using-try-catch) and [Try...Catch...Finally statement (Visual Basic)](/dotnet/visual-basic/language-reference/statements/try-catch-finally-statement).
+Typically, code snippet `Try...Catch` blocks catch and rethrow all exceptions, but that might not be the right choice for your project. For each exception, there are several ways to respond. For examples, see [How to handle an exception using try/catch (C#)](/dotnet/csharp/programming-guide/exceptions/how-to-handle-an-exception-using-try-catch) and [Try...Catch...Finally statement (Visual Basic)](/dotnet/visual-basic/language-reference/statements/try-catch-finally-statement).
 
 ### File locations
 
@@ -128,13 +127,13 @@ When you adapt file locations to your application, think about the following con
 
 - Find an accessible location. Users might not have access to the computer's *Program Files* folder, so storing user files with the application files might not work.
 
-- Find a secure location. Storing files in the root folder like *C:\\*) isn't secure. For application data, it's best to use the *Application Data* folder. For individual user data, the application can create a file in each user's *Documents* folder.
+- Find a secure location. Storing files in the root folder like *C:\\* isn't secure. For application data, it's best to use the *Application Data* folder. For individual user data, the application can create a file in each user's *Documents* folder.
 
-- Use a valid file name. You can use the <xref:System.Windows.Forms.OpenFileDialog> and <xref:System.Windows.Forms.SaveFileDialog> controls to reduce the likelihood of invalid file names. Be aware that between the time the user selects a file and the time your code manipulates the file, the file could be deleted. In addition, the user might not have permission to write to the file.
+- Use a valid file name. You can use the <xref:System.Windows.Forms.OpenFileDialog> and <xref:System.Windows.Forms.SaveFileDialog> controls to reduce the likelihood of invalid file names. Know that between the time the user selects a file and the time your code manipulates the file, the file could be deleted. In addition, the user might not have permission to write to the file.
 
 ### Security
 
-The security of a snippet depends on where it's used in the source code and how it's modified once it's in the code. The following list contains a few areas to consider:
+The security of a snippet depends on where you use it in the source code and how you modify it once it's in the code. The following list contains a few areas to consider:
 
 - File and database access
 - Code access security
@@ -143,7 +142,7 @@ The security of a snippet depends on where it's used in the source code and how 
 - Verifying inputs
 - Passing data to scripting technologies
 
-For more information, see [Securing applications](securing-applications.md).
+For more information, see [Secure applications](securing-applications.md).
 
 ### Downloaded code snippets
 
@@ -155,13 +154,13 @@ Open all downloaded snippet files in Notepad or the XML editor of Visual Studio 
 
   - `HelpURL` blocks in snippet files containing URLs that execute malicious script files or display offensive websites.
 
-  - Snippets containing references that are added silently to your project and can be loaded from anywhere on your system. These references might have been downloaded to your computer from the same location you downloaded the snippet from. The snippet might then make a call to a method in the reference that executes malicious code. To protect yourself against such an attack, review the `Imports` and `References` blocks of the snippet file.
+  - Snippets containing references that are added silently to your project and can be loaded from anywhere on your system. You might have downloaded these references to your computer from the same location you downloaded the snippet from. The snippet might then make a call to a method in the reference that executes malicious code. To protect yourself against such an attack, review the `Imports` and `References` blocks of the snippet file.
 
 ## Related content
 
-- [Create a code snippet](walkthrough-creating-a-code-snippet.md)
-- [Distribute code snippets](how-to-distribute-code-snippets.md)
+- [Walkthrough: Create a code snippet in Visual Studio](walkthrough-creating-a-code-snippet.md)
+- [Distribute code snippets as a Visual Studio extension](how-to-distribute-code-snippets.md)
 - [C# code snippets](visual-csharp-code-snippets.md)
-- [C++ code snippets](visual-cpp-code-snippets.md)
+- [Visual C++ code snippets](visual-cpp-code-snippets.md)
 - [Code snippets schema reference](code-snippets-schema-reference.md)
 
