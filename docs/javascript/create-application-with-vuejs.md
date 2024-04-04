@@ -154,7 +154,7 @@ An unknown issue with the vue-cli 3.0 might prevent automating the build process
 
 Alternatively, you can build the vue-cli 3.0 project as a pre-build event using the ASP.NET project properties. Right-click the project, choose **Properties**, and include the following commands in the **Build** tab, in the **Pre-build event command line** text box.
 
-``` cmd
+```cmd
 cd ./client-app
 npm run build
 cd ../

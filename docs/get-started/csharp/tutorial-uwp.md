@@ -186,7 +186,7 @@ An "event handler" sounds complicated, but it's just another name for code that 
 
    Here's the code to copy and paste:
 
-   ```C#
+   ```csharp
    private async void Button_Click(object sender, RoutedEventArgs e)
    {
       MediaElement mediaElement = new MediaElement();
@@ -215,7 +215,7 @@ An "event handler" sounds complicated, but it's just another name for code that 
 
    Here's the code to copy and paste:
 
-   ```C#
+   ```csharp
    private async void Button_Click(object sender, RoutedEventArgs e)
    {
       MediaElement mediaElement = new MediaElement();
