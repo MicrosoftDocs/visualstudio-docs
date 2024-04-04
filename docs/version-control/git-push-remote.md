@@ -2,7 +2,7 @@
 title: Push to a remote branch in Visual Studio
 titleSuffix: ""
 description: Push your local project directory to a remote in Visual Studio by using GitHub or Azure DevOps for a safe place to store your code in the cloud.
-ms.date: 12/01/2022
+ms.date: 04/04/2024
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
@@ -30,7 +30,7 @@ Here's how to push to a remote in Visual Studio.
 
    The "outgoing" text represents the number of commits that haven't yet been pushed to the remote, while the "incoming" text represents the commits that have been fetched but not yet pulled from the remote.
 
-1. To push to your remote, select **Push** button, or select **Push** from the **Git** menu.
+1. To push to your remote, select **Push** button (the up arrow), or select **Push** from the **Git** menu.
 
 ## Related content
 
