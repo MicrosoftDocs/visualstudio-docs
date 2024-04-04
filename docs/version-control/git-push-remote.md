@@ -7,7 +7,6 @@ ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 ms.manager: mijacobs
-
 ms.subservice: general-ide
 ---
 # Push from Visual Studio to a remote branch
