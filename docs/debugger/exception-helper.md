@@ -66,6 +66,11 @@ Starting in Visual Studio 2022 version 17.3, you can view exception stack frames
 
 ![Exception helper with call stack](media/vs-2022/debugger-exception-helper-call-stack.png)
 ::: moniker-end
+::: moniker range=">= vs-2022"
+## Get AI asistance
+
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're debugging exceptions. Just look for the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In these scenarios, Copilot already knows the context for your questions, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
+::: moniker-end
 
 ## Share a debug session with Live Share
 

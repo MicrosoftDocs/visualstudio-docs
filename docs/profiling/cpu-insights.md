@@ -11,7 +11,7 @@ monikerRange: '>= vs-2022'
 ---
 # Diagnose high latency with CPU Insights
 
-**CPU Insights** is a sub-feature of the CPU Usage tool that shows common potential latency issues like concatenating strings inefficiently.
+CPU insights is a sub-feature of the CPU Usage tool that shows common potential latency issues like concatenating strings inefficiently.
 
 ## View top insights
 
@@ -28,6 +28,12 @@ On the summary page under **Top Functions**, you can find the top functions call
 **Hot Path** shows where most of the CPU time was being spent in your application and helps focus investigation on the area that would have the most impact. Analyzing this code path by using other tools in the Performance Profiler can help identify ways to improve the code as well. For example, it may help identify how to minimize allocations on the hot path to reduce GC frequency and time spent in GC.
 
 ![Screenshot showing Hot Path selected.](./media/vs-2022/hot-path.png "Hot Path selected")
+
+::: moniker range=">= vs-2022"
+## Get AI asistance
+
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're looking at CPU insights. Just look for the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In these scenarios, Copilot already knows the context for your questions, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
+::: moniker-end
 
 ## Related content
 
