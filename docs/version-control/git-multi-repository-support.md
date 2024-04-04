@@ -70,6 +70,8 @@ Here's how to create a solution with multiple repositories:
 
    After the project's added, Visual Studio detects and activates the second repo. Then, you can adjust the Project References as necessary.
 
+If you create a new project in an existing solution with other projects that already have local or remote repos,  initialize the new project with Git [`git init`](https://git-scm.com/docs/git-init) before it shows as an additional repo in the solution.
+
 ### Use a folder
 
 If the repositories you want to use are independent of each other and don't need to be part of the same solution, you might want to use a folder to open them.
