@@ -81,7 +81,7 @@ public interface IForwardingLogger: INodeLogger
 }
 ```
 
-To forward events in a forwarding logger, call the <xref:Microsoft.Build.Framework.IEventRedirector.ForwardEvent%2A> method of the <xref:Microsoft.Build.Framework.IEventRedirector> interface. Pass the appropriate <xref:Microsoft.Build.Framework.BuildEventArgs>, or a derivative, as the parameter.
+To forward an event that your logger cares about, call the <xref:Microsoft.Build.Framework.IEventRedirector.ForwardEvent%2A> method of the <xref:Microsoft.Build.Framework.IEventRedirector> interface in your forwarding logger. Pass the appropriate <xref:Microsoft.Build.Framework.BuildEventArgs>, or a derivative, as the parameter. The events will then be forwarded to the central logger and can be acted on there.
 
 For more information, see [Creating forwarding loggers](../msbuild/creating-forwarding-loggers.md).
 
