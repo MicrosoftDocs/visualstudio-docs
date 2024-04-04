@@ -38,7 +38,7 @@ Analyzers are divided into the following groups:
 
 Each Roslyn analyzer rule, or *diagnostic*, has a default severity and suppression state that you can customize for your project.
 
-Severity levels include: Error, Warning, Suggestion, Silent, None, and Default. For detailed information, see [Configure severity levels](../code-quality/use-roslyn-analyzers.md#configure-severity-levels).
+Severity levels include: Error, Warning, Suggestion, Silent, None, and Default. For detailed information and behavior, see [Configure severity levels](../code-quality/use-roslyn-analyzers.md#configure-severity-levels).
 
 ## Rule violations
 

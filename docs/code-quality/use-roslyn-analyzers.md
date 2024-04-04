@@ -32,7 +32,7 @@ The following table shows the different severity options that you can configure 
 | None | `none` | Suppressed completely. | Suppressed completely. |
 | Default | `default` | Corresponds to the default severity of the rule. To determine the default value for a rule, view its [Properties window](#set-rule-severity-from-solution-explorer). | Corresponds to the default severity of the rule. |
 
-## Reporting rule violations
+## View rule violations
 
 If an analyzer finds any analyzer rule violations, it reports them in the **Error List** window and in the code editor.
 
@@ -45,6 +45,18 @@ The analyzer rule violations also appear in the code editor as squiggle lines un
 :::image type="content" source="media/diagnostics-severity-colors.png" alt-text="Screenshot that shows error, warning, and suggestion marks in the code editor.":::
 
 Many diagnostics have one or more associated *code fixes* that you can apply to correct the rule violation. Code fixes are shown in the light bulb icon menu along with other types of [Quick Actions](../ide/quick-actions.md). For more information about code fixes, see [Common Quick Actions](../ide/quick-actions.md).
+
+## Configure severity levels
+
+You can set the rule severity using any of the following methods:
+
+- [EditorConfig](#set-rule-severity-in-an-editorconfig-file)
+- [Light bulb menu](#set-rule-severity-from-the-light-bulb-menu)
+- [Error List window](#set-rule-severity-from-the-error-list-window)
+- [Solution Explorer](#set-rule-severity-from-solution-explorer)
+::: moniker range="vs-2019"
+- [Rule set file](#set-rule-severity-in-a-rule-set-file)
+::: moniker-end
 
 ### Silent vs. None severity
 
