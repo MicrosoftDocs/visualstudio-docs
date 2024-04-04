@@ -30,11 +30,11 @@ In Step 2 of the tutorial, you learn how to:
 
 ## Refactor Flask project for further development
 
-The **Blank Flask Web Project** template lets you create a project with a single `app.py` file that contains startup code alongside a single view. To allow further development of an app with multiple views and templates, you need to separate these functions.
+The **Blank Flask Web Project** template lets you create a project with a single _app.py_ file that contains startup code alongside a single view. To allow further development of an app with multiple views and templates, you need to separate these functions.
 
 Follow these steps to adjust your Flask project to allow for further development:
 
-1. In **Solution Explorer**, right-click your Flask project folder (*BasicProject*), and select **Add** > **New Folder**. 
+1. In **Solution Explorer**, right-click your Flask project folder (_BasicProject_), and select **Add** > **New Folder**. 
 
    ::: moniker range="vs-2022"
 
@@ -67,12 +67,12 @@ Follow these steps to adjust your Flask project to allow for further development
    import HelloFlask.views
    ```
 
-1. In the *HelloFlask* folder, create another new Python file named *views.py*.
+1. In the *HelloFlask* folder, create another new Python file named _views.py_.
 
    > [!IMPORTANT]
-   > Be sure to specify the file name as *views.py*. The name *views* is important because of the `import HelloFlask.views` statement in the _\_\_init\_\_.py_ file. If the name *views* isn't the same in both instances, Visual Studio shows an error at runtime.
+   > Be sure to specify the file name as _views.py_. The name _views_ is important because of the `import HelloFlask.views` statement in the _\_\_init\_\_.py_ file. If the name _views_ isn't the same in both instances, Visual Studio shows an error at runtime.
 
-1. Add the following code to the `views.py` file. This code renames the function and defines the return route to the `/home` endpoint:
+1. Add the following code to the _views.py_ file. This code renames the function and defines the return route to the `/home` endpoint:
 
    ```python
    from flask import Flask
@@ -84,11 +84,11 @@ Follow these steps to adjust your Flask project to allow for further development
        return "Hello Flask!"
    ```
 
-   This code also contains the page rendering code from the `app.py` file and imports the `app` object declared in the _\_\_init\_\_.py_ file.
+   This code also contains the page rendering code from the _app.py_ file and imports the `app` object declared in the _\_\_init\_\_.py_ file.
 
 1. In the *HelloFlask* folder, create a subfolder named *templates*. The folder is empty for now.
 
-1. In the Flask project folder (*BasicProject*), replace the contents of the `app.py` file with the following code:
+1. In the Flask project folder (_BasicProject_), replace the contents of the _app.py_ file with the following code:
 
    ```python
    import os
@@ -105,7 +105,7 @@ Follow these steps to adjust your Flask project to allow for further development
        app.run(HOST, PORT)
    ```
 
-1. After you update the code, rename the `app.py` file to *runserver.py*.
+1. After you update the code, rename the _app.py_ file to _runserver.py_.
 
 1. Confirm your refactored Flask project structure looks like the following example:
 
@@ -136,9 +136,9 @@ You can also set breakpoints at various parts of the code and follow the app sta
 
 1. Set several breakpoints, such as the following points:
       
-   - The first line of the `runserver.py` file
+   - The first line of the _runserver.py_ file
    - The first line of the _\_\_init\_\_.py_ file
-   - The `return "Hello Flask!"` line in the `views.py` file
+   - The `return "Hello Flask!"` line in the _views.py_ file
 
 1. Start the app in the **Debugger** by selecting **Debug** > **Start Debugging** or **F5**.
 
@@ -215,7 +215,7 @@ How often you commit and how often you push commits to a remote repository are t
 
 ## Use templates to render pages and views
 
-The `home` function in the `views.py` file generates a plain-text HTTP response for the page. Most real-world web pages respond with rich HTML pages that often incorporate live data. The primary reason developers define views by using a function is to generate content dynamically.
+The `home` function in the _views.py_ file generates a plain-text HTTP response for the page. Most real-world web pages respond with rich HTML pages that often incorporate live data. The primary reason developers define views by using a function is to generate content dynamically.
 
 The return value for the view is just a string. You can build up any HTML within a string by using dynamic content. Because it's best to separate markup from data, it's better to place the markup in a template and keep the data in code.
 
@@ -223,7 +223,7 @@ The return value for the view is just a string. You can build up any HTML within
 
 The first step is to convert the view processing to use inline HTML for the page with some dynamic content:
 
-1. Replace the contents of the `views.py` file with the following code:
+1. Replace the contents of the _views.py_ file with the following code:
 
    ```python
    from datetime import datetime
@@ -253,7 +253,7 @@ Next, convert the page rendering process to use an HTML template:
 
 1. Right-click the *templates* folder, and select **Add** > **New Item** to create a new file.
 
-1. In the **Add New Item** dialog, select the **HTML Page** file template. Name the file `index.html` and select **Add**.
+1. In the **Add New Item** dialog, select the **HTML Page** file template. Name the file _index.html_ and select **Add**.
 
 1. Replace the supplied contents of the HTML file with the following markup:
 
@@ -275,7 +275,7 @@ Next, convert the page rendering process to use an HTML template:
 
 You need to modify the `home` function to use the `render_template` method. This method loads the HTML template and supplies a value for `{{ content }}` by using a named argument that matches the name of the placeholder.
 
-1. In the `views.py` file, replace the `home` function definition with the following code:
+1. In the _views.py_ file, replace the `home` function definition with the following code:
 
    ```python
    def home():
@@ -301,7 +301,7 @@ You need to modify the `home` function to use the `render_template` method. This
 
 You can use distinct placeholders for each piece of data within the HTML markup. Then, adjust your `home` function again to supply the specific placeholder values:
 
-1. Replace the contents of the `index.html` file with the following markup: 
+1. Replace the contents of the _index.html_ file with the following markup: 
 
    ```html
    <html>
@@ -314,7 +314,7 @@ You can use distinct placeholders for each piece of data within the HTML markup.
    </html>
    ```
 
-1. In the `views.py` file, replace the `home` function definition with the following code to provide values for all the placeholders:
+1. In the _views.py_ file, replace the `home` function definition with the following code to provide values for all the placeholders:
 
    ```python
    def home():
@@ -340,7 +340,7 @@ Templates are usually maintained in separate HTML files, but you can also use an
 
 ### Use .html extension for templates
 
-The `.html` extension for page template files is entirely optional. You can always identify the exact relative path to the file in the first argument to the `render_template` function. However, Visual Studio (and other editors) typically provide features like code completion and syntax coloration with `.html` files, which outweighs the fact that page templates aren't HTML.
+The _.html_ extension for page template files is entirely optional. You can always identify the exact relative path to the file in the first argument to the `render_template` function. However, Visual Studio (and other editors) typically provide features like code completion and syntax coloration with _.html_ files, which outweighs the fact that page templates aren't HTML.
 
 When you work with a Flask project, Visual Studio automatically detects if the HTML file you're editing is actually a Flask template, and provides certain auto-complete features. If you start to enter a Flask page template comment (`{#`), Visual Studio automatically supplies the closing `#}` characters. The **Comment Selection** and **Uncomment Selection** commands (on the **Edit** > **Advanced** menu) also use template comments instead of HTML comments.
 
