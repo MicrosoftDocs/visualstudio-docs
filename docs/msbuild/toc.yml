@@ -190,8 +190,6 @@ items:
       href: obtaining-build-logs-with-msbuild.md
     - name: Build loggers
       href: build-loggers.md
-    - name: Logging in a multi-processor environment
-      href: logging-in-a-multi-processor-environment.md
     - name: Writing multi-processor-aware loggers
       href: writing-multi-processor-aware-loggers.md
     - name: Creating forwarding loggers
