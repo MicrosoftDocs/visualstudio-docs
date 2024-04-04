@@ -80,9 +80,9 @@ Follow this procedure to create the solution and a Flask web project:
 
    :::image type="content" source="media/flask/vs-2022/step-01-requirements-prompt.png" alt-text="Screenshot of the prompt that indicates a requirements file for the project is detected in Visual Studio." border="false" lightbox="media/flask/vs-2022/step-01-requirements-prompt.png":::
 
-   The dialog indicates that the selected template includes a `requirements.txt` file that you can use to create a virtual environment for the project.
+   The dialog indicates that the selected template includes a _requirements.txt_ file that you can use to create a virtual environment for the project.
 
-1. Select the **X** at the right to close the prompt. Later in this tutorial, you create the virtual environment and ensure source control excludes the environment. (The environment can always be created later from the `requirements.txt` file.)
+1. Select the **X** at the right to close the prompt. Later in this tutorial, you create the virtual environment and ensure source control excludes the environment. (The environment can always be created later from the _requirements.txt_ file.)
 
 ::: moniker-end
 ::: moniker range="<=vs-2019"
@@ -111,9 +111,9 @@ Follow this procedure to create the solution and a Flask web project:
 
    :::image type="content" source="media/tutorials-common/step01-requirements-prompt-install-myself.png" alt-text="Screenshot of the prompt that indicates the project requires external Flask packages in Visual Studio." border="false" lightbox="media/tutorials-common/step01-requirements-prompt-install-myself.png":::
 
-   The dialog indicates that the selected template includes a `requirements.txt` file that references the latest Flask 1.x package. You can select **Show required packages** to see the exact dependencies.
+   The dialog indicates that the selected template includes a _requirements.txt_ file that references the latest Flask 1.x package. You can select **Show required packages** to see the exact dependencies.
 
-1. Select the option **I will install them myself** to close the dialog. Later in this tutorial, you create the virtual environment and ensure source control excludes the environment. (The environment can always be created later from the `requirements.txt` file.)
+1. Select the option **I will install them myself** to close the dialog. Later in this tutorial, you create the virtual environment and ensure source control excludes the environment. (The environment can always be created later from the _requirements.txt_ file.)
 
 ::: moniker-end
 
@@ -232,7 +232,7 @@ After you configure source control for your project, you can create the virtual 
 
    :::image type="content" source="media/flask/vs-2022/step-01-add-environment.png" alt-text="Screenshot that shows how to select the Add Environment command in Solution Explorer." border="false" lightbox="media/flask/vs-2022/step-01-add-environment.png":::
 
-1. In the **Add environment** dialog, select **Create** to accept the default values. (You can change the name of the virtual environment if you want, which changes the name of its subfolder, but `env` is a standard convention.)
+1. In the **Add environment** dialog, select **Create** to accept the default values. (You can change the name of the virtual environment if you want, which changes the name of its subfolder, but _env_ is a standard convention.)
 
    :::image type="content" source="media/flask/vs-2022/step-01-add-new-environment.png" alt-text="Screenshot that shows the Add environment dialog with default values for a new environment for the Learning Flask project." border="false" lightbox="media/flask/vs-2022/step-01-add-new-environment.png"::: 
 
@@ -242,15 +242,15 @@ After you configure source control for your project, you can create the virtual 
 
    :::image type="content" source="media/flask/vs-2022/step-01-env-uncommitted-changes.png" alt-text="Screenshot that shows how to view the uncommitted changes for the virtual environment creation in the Git Changes window." border="false" lightbox="media/flask/vs-2022/step-01-env-uncommitted-changes.png"::: 
 
-   Creation of the virtual environment brings in thousands of changes, but you don't need to include them in source control. You or anyone else who clones the project can always recreate the environment by using the `requirements.txt` file.
+   Creation of the virtual environment brings in thousands of changes, but you don't need to include them in source control. You or anyone else who clones the project can always recreate the environment by using the _requirements.txt_ file.
 
 1. To exclude the virtual environment from source control, in the **Git Changes** window, right-click the **env** folder and select **Ignore these local items**:
 
    :::image type="content" source="media/flask/vs-2022/step-01-ignore-local-items.png" alt-text="Screenshot that shows how to ignore a virtual environment in source control changes." border="false" lightbox="media/flask/vs-2022//step-01-ignore-local-items.png"::: 
 
-   After you exclude the virtual environment, the only remaining changes are to the project file (*.py*) and the `.gitignore` file, which contains an added entry for the virtual environment folder.
+   After you exclude the virtual environment, the only remaining changes are to the project file (_.py_) and the _.gitignore_ file, which contains an added entry for the virtual environment folder.
    
-   To see the differences view for the `.gitignore` file, in the **Git Changes** window, double-click the file.
+   To see the differences view for the _.gitignore_ file, in the **Git Changes** window, double-click the file.
 
 1. In the **Git Changes** window, enter a commit message, such as "Initial project changes":
 
@@ -273,21 +273,21 @@ After you configure source control for your project, you can create the virtual 
 
    :::image type="content" source="media/tutorials-common/step01-add-virtual-environment-found-requirements.png" alt-text="Screenshot of the Add Virtual Environment dialog with the discovered requirements text file message in Visual Studio." border="false" lightbox="media/tutorials-common/step01-add-virtual-environment-found-requirements.png"::: 
 
-1. Select **Create** to accept the defaults. (You can change the name of the virtual environment if you want, which changes the name of its subfolder, but `env` is a standard convention.)
+1. Select **Create** to accept the defaults. (You can change the name of the virtual environment if you want, which changes the name of its subfolder, but _env_ is a standard convention.)
 
 1. If Visual Studio prompts for administrator privileges, provide your consent. Wait several minutes while Visual Studio downloads and installs packages. For Flask and its dependencies, the process can require expanding close to 1,000 files in over 100 subfolders. You can view the progress in the Visual Studio **Output** window.
 
 1. On the Git controls bar, select the uncommitted changes (which now shows **99+**) to open the Git **Changes** page in **Team Explorer**:
 
-   Creation of the virtual environment brings in thousands of changes, but you don't need to include them in source control. You or anyone else who clones the project can always recreate the environment by using the `requirements.txt` file.
+   Creation of the virtual environment brings in thousands of changes, but you don't need to include them in source control. You or anyone else who clones the project can always recreate the environment by using the _requirements.txt_ file.
 
 1. To exclude the virtual environment from source control, in the **Changes** page, right-click the **env** folder and select **Ignore these local items**:
 
    :::image type="content" source="media/flask/step01-ignore-local-items.png" alt-text="Screenshot that shows how to ignore a virtual environment in source control changes in Visual Studio." border="false" lightbox="media/flask/step01-ignore-local-items.png"::: 
 
-   After you exclude the virtual environment, the only remaining changes are to the project file (*.py*) and the `.gitignore` file, which contains an added entry for the virtual environment folder.
+   After you exclude the virtual environment, the only remaining changes are to the project file (_.py_) and the _.gitignore_ file, which contains an added entry for the virtual environment folder.
 
-   To see the differences view for the `.gitignore` file, double-click the file.
+   To see the differences view for the _.gitignore_ file, double-click the file.
 
 1. Enter a commit message, select **Commit All**, then push the commits to your remote repository if you like.
 
@@ -295,13 +295,13 @@ After you configure source control for your project, you can create the virtual 
 
 ### Understand purpose of virtual environments
 
-A virtual environment is a great way to isolate your application's exact dependencies. This method of isolation avoids conflicts within a global Python environment, and aids both testing and collaboration. Over time, as you develop an app, you invariably bring in many helpful Python packages. By keeping packages in a project-specific virtual environment, you can easily update the project's `requirements.txt` file that describes that environment, which is included in source control. When you copy the project to other computers, including build servers, deployment servers, and other development computers, it's easy to recreate the environment. You can recreate the environment by using only the `requirements.txt` file, which is why the environment doesn't need to be in source control. For more information, see [Use virtual environments](selecting-a-python-environment-for-a-project.md#use-virtual-environments).
+A virtual environment is a great way to isolate your application's exact dependencies. This method of isolation avoids conflicts within a global Python environment, and aids both testing and collaboration. Over time, as you develop an app, you invariably bring in many helpful Python packages. By keeping packages in a project-specific virtual environment, you can easily update the project's _requirements.txt_ file that describes that environment, which is included in source control. When you copy the project to other computers, including build servers, deployment servers, and other development computers, it's easy to recreate the environment. You can recreate the environment by using only the _requirements.txt_ file, which is why the environment doesn't need to be in source control. For more information, see [Use virtual environments](selecting-a-python-environment-for-a-project.md#use-virtual-environments).
 
 ### Remove virtual environment under source control
 
 You can remove a virtual environment after it's under source control. Follow these steps:
 
-1. Edit your `.gitignore` file to exclude the folder:
+1. Edit your _.gitignore_ file to exclude the folder:
 
    1. Open the file by selecting **File** > **Open** > **File**.
    
@@ -309,9 +309,9 @@ You can remove a virtual environment after it's under source control. Follow the
 
    1. Locate the section at the end that has the comment `# Python Tools for Visual Studio (PTVS)`.
    
-   1. After that section, add a new line for the virtual environment folder, such as `/BasicProject/env`.
+   1. After that section, add a new line for the virtual environment folder, such as _/BasicProject/env_.
 
-1. Open a command window and go to the folder (such as *BasicProject*) that has the virtual environment folder, such as *env*.
+1. Open a command window and go to the folder (such as _BasicProject_) that has the virtual environment folder, such as *env*.
 
 1. Run the `git rm -r env` command to remove the virtual environment that's currently under source control.
 
@@ -319,17 +319,17 @@ You can remove a virtual environment after it's under source control. Follow the
 
 ## Examine the boilerplate code
 
-In this section, you examine the boilerplate code in the Project file (*.py*) that Visual Studio creates based on your template selection.
+In this section, you examine the boilerplate code in the Project file (_.py_) that Visual Studio creates based on your template selection.
 
-1. Open **Solution Explorer** to view your solution and project files. The initial project contains only two files, `app.py` and *requirements.txt*:
+1. Open **Solution Explorer** to view your solution and project files. The initial project contains only two files, _app.py_ and *requirements.txt*:
 
     :::image type="content" source="media/flask/vs-2022/step-01-flask-project-solution-explorer.png" alt-text="Screenshot that shows the initial Flask project files in Solution Explorer." border="false" lightbox="media/flask/vs-2022/step-01-flask-project-solution-explorer.png"::: 
 
-   The `requirements.txt` file specifies the Flask package dependencies. The presence of this file is what invites you to create a virtual environment when first creating the project.
+   The _requirements.txt_ file specifies the Flask package dependencies. The presence of this file is what invites you to create a virtual environment when first creating the project.
 
-   The single `app.py` file contains boilerplate code for a blank Flask web project.
+   The single _app.py_ file contains boilerplate code for a blank Flask web project.
    
-1. Open the `app.py` file in the editor and examine the first section, an `import` statement for Flask.
+1. Open the _app.py_ file in the editor and examine the first section, an `import` statement for Flask.
 
    This statement creates an instance of the `Flask` class, which is assigned to the variable `app`. This section also assigns a `wsgi_app` variable (which is useful when you deploy to a web host, but not used for now):
 
@@ -401,11 +401,11 @@ To change the type, prefix the variable with `int`, `float`, `path` (which accep
 
 ### Generate requirements after package install
 
-Visual Studio can generate a `requirements.txt` file from a virtual environment after you install other packages.
+Visual Studio can generate a _requirements.txt_ file from a virtual environment after you install other packages.
 
 - In **Solution Explorer**, expand the **Python Environments** node, right-click your virtual environment, and select **Generate requirements.txt**.
 
-It's a good practice to use this command periodically as you modify the environment. Commit changes to your `requirements.txt` file to source control along with any other code changes that depend on that environment. If you set up continuous integration on a build server, you should generate the file and commit changes whenever you modify the environment.
+It's a good practice to use this command periodically as you modify the environment. Commit changes to your _requirements.txt_ file to source control along with any other code changes that depend on that environment. If you set up continuous integration on a build server, you should generate the file and commit changes whenever you modify the environment.
 
 ## Run the project
 
@@ -415,11 +415,11 @@ Now you're ready to run your project in Visual Studio by following this procedur
 
    :::image type="content" source="media/tutorials-common/run-web-server-toolbar.png" alt-text="Screenshot that shows the Web Server command on the main toolbar in Visual Studio." border="false" lightbox="media/tutorials-common/run-web-server-toolbar.png":::
 
-1. Either command assigns a random port number to the PORT environment variable, and runs the `python app.py` file.
+1. Either command assigns a random port number to the PORT environment variable, and runs the Python _app.py_ file.
 
    The code starts the application by using that port within the Flask development server.
    
-   If Visual Studio posts the message **Failed to start debugger** and indicates no startup file is found, right-click the `app.py` file in **Solution Explorer** and select **Set as Startup File**.
+   If Visual Studio posts the message **Failed to start debugger** and indicates no startup file is found, right-click the _app.py_ file in **Solution Explorer** and select **Set as Startup File**.
 
 1. When the server starts, a console window opens to display the server log. Visual Studio automatically opens a browser to `http://localhost:<port>`, where you should see the message rendered by the `hello` function:
 
