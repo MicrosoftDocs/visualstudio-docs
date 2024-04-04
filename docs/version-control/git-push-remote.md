@@ -14,7 +14,7 @@ ms.subservice: general-ide
 
 After you've authenticated to GitHub, Visual Studio can improve your GitHub workflow. One of those improvements is the ability to push (also known as publish) a local project directly to GitHub with a single click. The final stage in a simple Git workflow is to push changes to your remote.
 
-A remote is a safe place to store your code in the cloud. It's typically referred to as **origin/main** (or origin/master), where "origin" is the default name for a remote. For more information about this terminology, see the [Git Branching - Remote Branches](https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches) page on the Git website.
+A remote is a reference to a Git repository hosted somewhere other than the local computer, called something like **origin/main** (or origin/master), where "origin" is the default name for a remote. For more information about this terminology, see the [Git Branching - Remote Branches](https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches) page on the Git website.
 
 While this article references GitHub repositories, you can work remotely with the Git provider of your choice, such as GitHub, GitLab, or Azure DevOps.
 
