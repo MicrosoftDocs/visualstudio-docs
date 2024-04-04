@@ -2,7 +2,7 @@
 title: Work with multiple repositories
 titleSuffix: ""
 description: View, manage, and debug your code across 10 active repos at the same time by using the Git tooling within Visual Studio.
-ms.date: 11/22/2022
+ms.date: 04/04/2024
 ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
