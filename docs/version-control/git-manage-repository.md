@@ -2,19 +2,22 @@
 title: Manage Git repos in Visual Studio
 titleSuffix: ""
 description: Manage any Git repository in Visual Studio by using the Git Repository window and change your last commit, merge commits (squash), cherry-pick commits, and more.
-ms.date: 11/18/2022
+ms.date: 04/04/2024
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 ms.manager: mijacobs
-
 ms.subservice: general-ide
 ---
 # Manage Git repositories in Visual Studio
 
-The **Git Repository** window provides a full-screen Git experience that helps you manage your Git repository and stay up to date with your team's projects. For example, you might need to reset, revert, or cherry-pick commits, or just clean your commit history. The **Git Repository** window is also a great place to visualize and manage your branches.
+The **Git Repository** window provides a full-screen Git experience that helps you manage your Git repository and stay up to date with your team's projects. For example, you might need to reset, revert, or cherry-pick commits, or just clean your commit history. The **Git Repository** window is also a great place to visualize and manage your branches. 
 
 Version control with Visual Studio is easy with Git.  And, you can work remotely with the Git provider of your choice, such as GitHub or Azure DevOps. Or, you can work locally with no provider at all.
+
+## Open the Git Repository window
+
+To open the **Git Repository** window, choose **View** > **Git repository** (or press **Ctrl**+**0**, **Ctrl**+**R**), or press **Ctrl**+**Q** and under **Features**, search for **Git repo**.
 
 ## Change the last commit (amend)
 
