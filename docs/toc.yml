@@ -151,6 +151,10 @@
       href: debugger/debug-with-copilot.md
     - name: Deploy GitHub Copilot to your enterprise
       href: ide/deploy-copilot-to-enterprise.md
+    - Name: Troubleshooting with Copilot
+      href: ide/visual-studio-github-copilot-troubleshooting.md
+      Name: Admin controls for Copilot
+      href: ide/visual-studio-github-copilot-admin.md
   - name: IntelliCode
     items:
     - name: 'What is IntelliCode?'

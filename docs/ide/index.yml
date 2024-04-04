@@ -93,10 +93,6 @@ landingContent:
         links:
           - text: Use GitHub Copilot
             url: ../ide/visual-studio-github-copilot-extension.md
-          - text: Troubleshooting with Copilot
-            url: ../ide/visual-studio-github-copilot-troubleshooting.md
-           - text: Admin controls for Copilot
-            url: ../ide/visual-studio-github-copilot-admin.md
           - text: Use GitHub Copilot Chat 
             url: ../ide/visual-studio-github-copilot-chat.md
           - text: Debug with Copilot

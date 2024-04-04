@@ -13,6 +13,8 @@ monikerRange: vs-2022
 # Troubleshooting GitHub Copilot in Visual Studio 2022 (Version 17.10 or Higher)
 If you encounter the message **“Copilot is temporarily unreachable”** indicating that GitHub Copilot is offline, it could be due to one of the following reasons:
 
+        :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-window-insert-in-new-file.png" alt-text="Screenshot of code suggestions in new file in the editor." lightbox="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-window-insert-in-new-file.png":::
+
 ## 1. **Network Issues**
 This usually means that your network might be down.
  >Action: Ensure you have a stable internet connection. For more information, refer to the - Troubleshooting network errors for [GitHub Copilot - GitHub Docs](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-network-errors-for-github-copilot)
@@ -20,6 +22,10 @@ This usually means that your network might be down.
 ## 2. **Copilot Service is Unavailable**
 Sometimes, the Copilot service itself might be down.
 >Action: In this case, please wait. The service will be back shortly. You can check the status of the service on the [GitHub Status](https://www.githubstatus.com/).
+
+If you encounter the message **“Copilot is inactive”** badge indicating that GitHub Copilot is offline, it could be due to one of the following reasons:
+
+        :::image type="content" source="media/vs-2022/copilot-inbox\copilot-inactive-badge.png" alt-text="Screenshot of code suggestions in new file in the editor." lightbox="media/vs-2022/copilot-inbox\copilot-inactive-badge.png":::
 
 ## 3. **Refresh your credentials**
 Due to the expected timeout you will need to occasionally refresh your credentials. 
