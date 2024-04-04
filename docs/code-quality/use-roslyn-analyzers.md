@@ -10,14 +10,14 @@ helpviewer_keywords:
 - code analysis, managed code
 - analyzers
 - Roslyn analyzers
-ms.date: 03/20/2024
+ms.date: 04/04/2024
 ---
 
 # Customize Roslyn analyzer rules
 
 Each Roslyn analyzer rule, or *diagnostic*, has a default severity and suppression state that you can customize for your project. This article covers setting analyzer severities and suppressing analyzer violations.
 
-## Configure severity levels
+## Severity levels
 
 In Visual Studio 2019 version 16.3 and later, you can configure the severity of analyzer rules in an [EditorConfig file](#set-rule-severity-in-an-editorconfig-file), from the [light bulb menu](#set-rule-severity-from-the-light-bulb-menu), and from the **Error List** window.
 
@@ -32,6 +32,8 @@ The following table shows the different severity options that you can configure 
 | None | `none` | Suppressed completely. | Suppressed completely. |
 | Default | `default` | Corresponds to the default severity of the rule. To determine the default value for a rule, view its [Properties window](#set-rule-severity-from-solution-explorer). | Corresponds to the default severity of the rule. |
 
+## View rule violations
+
 If an analyzer finds any analyzer rule violations, it reports them in the **Error List** window and in the code editor.
 
 The following screenshot shows rule violations reported in the **Error List** window. The analyzer violations reported in the error list match the [severity level setting](../code-quality/use-roslyn-analyzers.md#configure-severity-levels) of the rule:
@@ -44,7 +46,24 @@ The analyzer rule violations also appear in the code editor as squiggle lines un
 
 Many diagnostics have one or more associated *code fixes* that you can apply to correct the rule violation. Code fixes are shown in the light bulb icon menu along with other types of [Quick Actions](../ide/quick-actions.md). For more information about code fixes, see [Common Quick Actions](../ide/quick-actions.md).
 
-:::image type="content" source="media/built-in-analyzer-code-fix.png" alt-text="Screenshot that shows an analyzer violation and Quick Action code fix in the code editor.":::
+## Configure severity levels
+
+You can set the rule severity using any of the following methods:
+
+::: moniker range=">=vs-2022"
+- [EditorConfig](#set-rule-severity-in-an-editorconfig-file)
+- [Light bulb menu](#set-rule-severity-from-the-light-bulb-menu)
+- [Error List window](#set-rule-severity-from-the-error-list-window)
+- [Solution Explorer](#set-rule-severity-from-solution-explorer)
+::: moniker-end
+
+::: moniker range="vs-2019"
+- [EditorConfig](#set-rule-severity-in-an-editorconfig-file)
+- [Light bulb menu](#set-rule-severity-from-the-light-bulb-menu)
+- [Error List window](#set-rule-severity-from-the-error-list-window)
+- [Solution Explorer](#set-rule-severity-from-solution-explorer)
+- [Rule set file](#set-rule-severity-in-a-rule-set-file)
+::: moniker-end
 
 ### Silent vs. None severity
 
