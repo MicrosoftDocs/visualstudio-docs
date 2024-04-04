@@ -10,7 +10,7 @@
     href: install-roslyn-analyzers.md
   - name: Configure Roslyn analyzers
     items:
-    - name: Overview
+    - name: Customize rules
       href: use-roslyn-analyzers.md
     - name: .NET analyzers
       items:

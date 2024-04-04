@@ -19,7 +19,7 @@ Your subscription level identifies which level of the Visual Studio IDE you have
 
 ## How to download and activate 
 
-1. Ensure you're signed in to the [subscriptions portal](https://my.visualstudio.com/benefits).  
+1. Ensure you're signed in to the [subscriptions portal](https://my.visualstudio.com/benefits). 
 1. For the latest release, locate the Visual Studio IDE tile in the Tools section and select the Download link at the bottom of the benefit tile. 
 1. You're redirected to the Download Results page for Visual Studio, where you have the opportunity to download the IDE.
 1. Follow the download and set up instructions.
