@@ -29,7 +29,7 @@ You can amend a commit on the command line by using the following command:
 git commit --amend
 ```
 
-The **Git Repository** window makes it easy to update your commit message. Open the commit details of the last commit by double-clicking it, and then select the **Edit** option next to the commit message.
+The **Git Repository** window makes it easy to update your most recent commit message. Open the commit details of the last commit by double-clicking it, and then select the **Edit** option next to the commit message.
 
 :::image type="content" source="media/vs-2022/git-repository-edit-commit.png" alt-text="Screenshot of editing a commit message." lightbox="media/vs-2022/git-repository-edit-commit.png":::
 
@@ -41,7 +41,7 @@ If you need to include code changes to your last commit, you can do that in the 
 
 :::image type="content" source="media/vs-2022/git-changes-amend-commit.png" alt-text="Screenshot of amending code changes by using the Git Changes window." lightbox="media/vs-2022/git-changes-amend-commit.png":::
 
-To learn more about amending, see [Git Tools - Rewriting History](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) on the Git website.
+To learn more about amending, including how to change commit messages other than the most recent one, see [Git Tools - Rewriting History](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) on the Git website.
 
 ## Merge commits (squash)
 
