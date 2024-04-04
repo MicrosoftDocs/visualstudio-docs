@@ -112,7 +112,7 @@ Follow these steps to use a static file in a template:
 
 ### Serve static file from code
 
-Flask provides a function named _serve_static_file_ that you can call from code to refer to any file within the project's _static_ folder. The following process creates a simple API endpoint that returns a static data file:
+Flask provides a function named `send_static_file` that you can call from code to refer to any file within the project's _static_ folder. The following process creates a simple API endpoint that returns a static data file:
 
 1. In the _static_ folder, create a static JSON data file named _data.json_. You can use the **Text** file template as a basis for the file.
 
