@@ -43,11 +43,11 @@ Git is good at automatically merging file changes in most circumstances, as long
 
     1. Go over your conflicts line by line, and choose between keeping the right or the left side by selecting the checkboxes.
 
-       - or -
+       \- or -
 
     1. Select the **Take Incoming** button (or press **F10**) to accept all the incoming changes, or **Take Current** button (or press F11) to keep your current version of all conflicting changes. You can do the same thing by selecting one of the checkboxes at the top of either side-by-side frame.
 
-       - or -
+       \- or -
 
     1. Manually edit your code in the **Result** window.
 
