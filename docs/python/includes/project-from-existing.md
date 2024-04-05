@@ -11,13 +11,15 @@ Follow these steps to create a project from existing files.
 
 1. Launch Visual Studio and select **File** > **New** > **Project**.
 
-1. In the **Create a new project** dialog, search for _python_, and select the **From Existing Python code** template. Enter a project name and location, choose the solution to contain the project, and select **Create**.
+1. In the **Create a new project** dialog, search for _python_, and select the **From Existing Python code** template, and select **Next**.
 
-1. In the **Create New Project from Existing Python Code** wizard, set the folder path to your existing code, set a filter for file types, and specify any search paths that your project requires, then select **Next**. If you don't know the search paths, leave the field blank.
+1. In the **Configure your new project** dialog, enter a project **Name** and **Location**, choose the solution to contain the project, and select **Create**.
+
+1. In the **Create New Project from Existing Python Code** wizard, set the **Folder path** to your existing code, set a **Filter** for file types, and specify any **Search paths** that your project requires, then select **Next**. If you don't know the search paths, leave the field blank.
 
    :::image type="content" source="../media/projects-from-existing-1.png" alt-text="Screenshot of a New Project creation from Existing Code, including choosing the folder path, file type filters, and search paths." lightbox="../media/projects-from-existing-1.png":::
 
-1. On the next page, select the startup file for your project. Visual Studio selects the default global Python interpreter and version. You can change the environment by using the dropdown menu. When you're ready, select **Next**.
+1. On the next page, select the **Startup file** for your project. Visual Studio selects the default global Python interpreter and version. You can change the environment by using the dropdown menu. When you're ready, select **Next**.
 
    > [!NOTE]
    > The dialog shows only files in the root folder. If the file you want is in a subfolder, leave the startup file blank. You can set the startup file in **Solution Explorer**, as described in a later step.
