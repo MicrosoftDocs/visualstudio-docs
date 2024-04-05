@@ -13,7 +13,7 @@ If you get an access violation on a line of code that dereferences  multiple poi
 
 For example, given the following code, you should get an access violation:
 
-```C++
+```cpp
 #include <iostream>
 using namespace std;
 

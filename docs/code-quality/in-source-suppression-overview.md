@@ -57,7 +57,7 @@ To suppress violations using the **Error List** window, follow these steps:
 
 1. Right-click, and then select **Suppress** > **In Source**.
 
-   The **Preview Changes** dialog opens and shows a preview of the C# [#pragma warning directive](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-pragma-warning) or Visual Basic [#Disable warning directive](/dotnet/visual-basic/language-reference/directives/directives)  added to the source code.
+   The **Preview Changes** dialog opens and shows a preview of the C# [#pragma warning directive](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-pragma-warning) or Visual Basic [#Disable warning directive](/dotnet/visual-basic/language-reference/directives/directives) added to the source code.
 
     ![Screenshot that shows the Preview Changes dialog box for adding #pragma warnings in code file.](media/pragma-warning-preview.png)
 
@@ -69,7 +69,7 @@ If you don't see the **Suppress** menu option in the **Error List** window, the 
 
 Diagnostics from live analysis, or IntelliSense, are always up-to-date with current sources and can always be suppressed from the **Error List**. To exclude build diagnostics from your selection, follow these steps:
 
-1. From the **Error List** source filter drop-down list, change the selection  from **Build + IntelliSense** to **IntelliSense Only**.
+1. From the **Error List** source filter dropdown list, change the selection from **Build + IntelliSense** to **IntelliSense Only**.
 
    ![Screenshot that shows the Error List source filter.](media/error-list-filter.png)
 
@@ -178,15 +178,15 @@ The `SuppressMessageAttribute` attribute has the following format:
 
 The properties of the attribute include:
 
-- **Category**: The category of the rule. For more information about code analysis rule categories, see [Code quality rules](/dotnet/fundamentals/code-analysis/quality-rules/index).
+- `Category`: The category of the rule. For more information about code analysis rule categories, see [Code quality rules](/dotnet/fundamentals/code-analysis/quality-rules/index).
 
-- **CheckId**: The identifier of the rule. Support includes both a short and long name for the rule identifier. The short name is CAXXXX; the long name is CAXXXX:FriendlyTypeName.
+- `CheckId:` The identifier of the rule. Support includes both a short and long name for the rule identifier. The short name is CAXXXX; the long name is CAXXXX:FriendlyTypeName.
 
-- **Justification**: The text used to document the reason for suppressing the message.
+- `Justification`: The text used to document the reason for suppressing the message.
 
-- **MessageId**: The unique identifier of the problem for each message.
+- `MessageId`: The unique identifier of the problem for each message.
 
-- **Scope**: The target on which the warning is being suppressed. If the target isn't specified, the system sets it to the target of the attribute. Supported [scopes](xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Scope) include:
+- `Scope`: The target on which the warning is being suppressed. If the target isn't specified, the system sets it to the target of the attribute. Supported [scopes](xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Scope) include:
 
   - [`module`](#module-suppression-scope): This scope suppresses warnings against an assembly. It's a global suppression that applies to the entire project.
 
@@ -200,7 +200,7 @@ The properties of the attribute include:
 
   - `namespaceanddescendants`: (Requires compiler version 3.x or higher and Visual Studio 2019 or later) This scope suppresses warnings in a namespace and all its descendant symbols. Legacy analysis ignores the `namespaceanddescendants` value.
 
-- **Target**: An identifier that specifies the target on which the warning is being suppressed. It must contain a fully qualified component name.
+- `Target`: An identifier that specifies the target on which the warning is being suppressed. It must contain a fully qualified component name.
 
 When you see warnings in Visual Studio, you can view examples of `SuppressMessageAttribute` by [adding a suppression to the global suppression file](../code-quality/use-roslyn-analyzers.md#suppress-violations). The suppression attribute and its required properties appear in a preview window.
 

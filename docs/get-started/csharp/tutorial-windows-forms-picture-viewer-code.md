@@ -1,6 +1,6 @@
 ---
-title: "Tutorial: Add UI controls to a Windows Forms app"
-description: Add UI controls for a picture box, checkbox, and button items to a picture viewer WinForms application with Visual Studio.
+title: "Tutorial: Add code to the picture viewer Windows Forms app"
+description: Learn how to add C# or VB code to support the UI controls for a picture box, checkbox, and button in a picture viewer WinForms application with Visual Studio.
 dev_langs:
   - "CSharp"
   - "VB"
@@ -9,14 +9,14 @@ ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
 ms.topic: tutorial
-ms.date: 03/15/2023
+ms.date: 03/29/2024
 ms.custom: vs-acquisition
+#customer intent: As a developer, I want to learn how to add C# or VB code to my WinForms project to take actions when a user selects a control.
 ---
 # Tutorial: Add code to the picture viewer Windows Forms app in Visual Studio
 
-In this series of three tutorials, you'll create a Windows Forms application that loads a picture and displays it.
+In this series of three tutorials, you create a Windows Forms application that loads a picture and displays it.
 The Visual Studio Integrated Design Environment (IDE) provides the tools you need to create the app.
-To learn more, see [Welcome to the Visual Studio IDE](../visual-studio-ide.md).
 
 Controls use C# or Visual Basic code to take the actions associated with them.
 
@@ -30,13 +30,13 @@ In this third tutorial, you learn how to:
 
 ## Prerequisites
 
-This tutorial builds on the previous tutorials, [Create a picture viewer application](tutorial-windows-forms-picture-viewer-layout.md) and [Add UI controls to the picture viewer](tutorial-windows-forms-picture-viewer-controls.md).
-If you haven't done those tutorials, go through them first.
+- This tutorial builds on the previous tutorials, [Create a picture viewer application](tutorial-windows-forms-picture-viewer-layout.md) and [Add UI controls to the picture viewer](tutorial-windows-forms-picture-viewer-controls.md).
+Complete them first and start with the project that you created for those tutorials.
 
 ## Add event handlers for your controls
 
 In this section, add *event handlers* for the controls that you added in the second tutorial, [Add controls to a picture viewer application](tutorial-windows-forms-picture-viewer-code.md).
-Your application calls an event handler when an action takes place, such as selecting a button. 
+Your application calls an event handler when an action takes place, such as selecting a button.
 
 1. Open Visual Studio. Your Picture Viewer project appears under **Open recent**.
 
@@ -47,7 +47,7 @@ Your application calls an event handler when an action takes place, such as sele
 
    This tab displays the code file behind the form.
 
-   ![Screenshot shows the Form1.cs tab with Visual C sharp code.](../media/tutorial-windows-forms-picture-viewer-code/show-picture-button-code.png)
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-code/show-picture-button-code.png" alt-text="Screenshot shows the Form1.cs tab with Visual C sharp code.":::
 
    > [!NOTE]
    > Your Form1.vb tab might display **showButton** as **ShowButton**.
@@ -69,29 +69,29 @@ Your application calls an event handler when an action takes place, such as sele
    ```
    ---
 
-   [!INCLUDE [devlang-control-csharp-vb](../includes/devlang-control-csharp-vb.md)]
-
 1. Choose the **Windows Forms Designer** tab again, and then double-click the **Clear the picture** button to open its code.
    Repeat for the remaining two buttons.
    Each time, the Visual Studio IDE adds a new method to the form's code file.
 
-1. Double-click the **CheckBox** control in **Windows Forms Designer** to add a `checkBox1_CheckedChanged()` method. 
+1. Double-click the CheckBox control in **Windows Forms Designer** to add a `checkBox1_CheckedChanged()` method.
    When you select or clear the check box, it calls this method.
 
    The following snippet shows the new code that you see in the code editor.
 
    ### [C#](#tab/csharp)
+
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial1step6/cs/form1.cs" id="Snippet2":::
 
    ### [VB](#tab/vb)
+
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial1step6/vb/form1.vb" id="Snippet2":::
    ---
 
 Methods, including event handlers, can have any name that you want.
 When you add an event handler with the IDE, it creates a name based on the control's name and the event being handled.
 
-For example, the *Click* event for a button named **showButton** is called `showButton_Click()` or `ShowButton_Click()`. 
-If you want to change a code variable name, right-click the variable in the code and then choose **Refactor** > **Rename**. All instances of that variable in the code are renamed. For more information, see [Rename refactoring](../../ide/reference/rename.md).
+For example, the `Click` event for a button named **showButton** is called `showButton_Click()` or `ShowButton_Click()`.
+If you want to change a code variable name, right-click the variable in the code and then choose **Refactor** > **Rename**. This action renames all instances of that variable in the code. For more information, see [Rename refactoring](../../ide/reference/rename.md).
 
 ## Write code to open a dialog box
 
@@ -101,28 +101,28 @@ This procedure adds the code used to call that component.
 The Visual Studio IDE offers a powerful tool called *IntelliSense*.
 As you type, IntelliSense suggests possible code.
 
-1. In **Windows Forms Designer**, double-click the **Show a picture** button. 
+1. In **Windows Forms Designer**, double-click the **Show a picture** button.
    The IDE moves your cursor inside the `showButton_Click()` or `ShowButton_Click()` method.
 
 1. Type an *i* on the empty line between the two braces `{ }`or between `Private Sub...` and `End Sub`.
    An **IntelliSense** window opens.
 
-   ![Screenshot shows IntelliSense with Visual C sharp code.](../media/tutorial-windows-forms-picture-viewer-code/intellisense-window.png)
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-code/intellisense-window.png" alt-text="Screenshot shows IntelliSense with Visual C sharp code.":::
 
-1. The **IntelliSense** window should highlight the word `if`. Select the **Tab** key to insert `if`.
+1. The **IntelliSense** window should highlight the word `if`. Select the **Tab** key twice to insert the `if` snippet.
 
 1. Select **true** and then type `op` to overwrite it for C# or `Op` for Visual Basic.
 
-   ![Screenshot shows the event handler for the show button with the value true selected.](../media/tutorial-windows-forms-picture-viewer-code/show-button-handler-true-selected.png)
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-code/show-button-handler-true-selected.png" alt-text="Screenshot shows the event handler for the show button with the value true selected.":::
 
    IntelliSense displays **openFileDialog1**.
 
-1. Select **Tab** to add openFileDialog1. 
+1. Select **Tab** to add openFileDialog1.
 
 1. Type a period (`.`) or *dot*, right after **openFileDialog1**.
    IntelliSense provides all of the **OpenFileDialog** component's properties and methods.
    Start to type `ShowDialog` and select **Tab**.
-   The `ShowDialog()` method will show the **Open File** dialog box.
+   The `ShowDialog()` method shows the **Open File** dialog box.
 
 1. Add parentheses `()` immediately after the "g" in `ShowDialog`.
    Your code should be `openFileDialog1.ShowDialog()`.
@@ -178,13 +178,15 @@ As you type, IntelliSense suggests possible code.
    Code comments make it easier to understand and maintain your code in the future.
 
 ## Write code for the other controls
+
 If you run your application now, you can select **Show a picture**.
 Picture Viewer opens the **Open File** dialog box, where you can select a picture to display.
 
 In this section, add the code for the other event handlers.
 
 1. In **Windows Forms Designer**, double-click the **Clear** the picture button.
-   Add the code in the braces.
+   For C#, add the code in braces.
+   For Visual Basic, add the code between `Private Sub` and `End Sub`.
 
    ### [C#](#tab/csharp)
    ```csharp
@@ -204,7 +206,7 @@ In this section, add the code for the other event handlers.
    ```
    ---
 
-1. Double-click the **Set the background color** button and add the code in braces.
+1. Double-click the **Set the background color** button and add the code.
 
    ### [C#](#tab/csharp)
    ```csharp
@@ -229,7 +231,7 @@ In this section, add the code for the other event handlers.
    ```
    ---
 
-1. Double-click the **Close** button and add the code in braces.
+1. Double-click the **Close** button and add the code.
 
    ### [C#](#tab/csharp)
    ```csharp
@@ -250,7 +252,7 @@ In this section, add the code for the other event handlers.
    ```
    ---
 
-1. Double-click the **Stretch** checkbox and add the code in braces.
+1. Double-click the **Stretch** checkbox and add the code.
 
    ### [C#](#tab/csharp)
    ```csharp
@@ -284,7 +286,7 @@ In this section, add the code for the other event handlers.
 
 ## Run your application
 
-You can run your application at any time, while you're writing it.
+You can run your application at any time while you're writing it.
 After you add the code in the previous section, the Picture Viewer is complete.
 As in the previous tutorials, use one of the following methods to run your application:
 
@@ -297,13 +299,13 @@ Test all the controls.
 
 1. Select the **Set the background color** button. The **Color** dialog box opens.
 
-   ![Screenshot shows the Color dialog box.](../media/tutorial-windows-forms-picture-viewer-code/color-dialog-box.png)
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-code/color-dialog-box.png" alt-text="Screenshot shows your app with the Color dialog box.":::
 
 1. Choose a color to set the background color.
 
 1. Select **Show a picture** to display a picture.
 
-   ![Screenshot shows the Picture Viewer app with a picture displayed.](../media/tutorial-windows-forms-picture-viewer-code/run-picture-viewer.png)
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-code/run-picture-viewer.png" alt-text="Screenshot shows the Picture Viewer app with a picture displayed.":::
 
 1. Select and unselect **Stretch**.
 
@@ -311,11 +313,9 @@ Test all the controls.
 
 1. Select **Close** to exit the app.
 
-## Next steps
-
 Congratulations!
-You've completed this series of tutorials.
-You've done these programming and design tasks in the Visual Studio IDE:
+You completed this series of tutorials.
+You accomplished these programming and design tasks in the Visual Studio IDE:
 
 - Created a Visual Studio project that uses Windows Forms
 - Added layout for the picture viewing application
@@ -323,6 +323,8 @@ You've done these programming and design tasks in the Visual Studio IDE:
 - Added dialog boxes
 - Added event handlers for your controls
 - Written C# or Visual Basic code to handle the events
+
+## Next step
 
 Continue learning with another tutorial series on how to create a timed math quiz.
 > [!div class="nextstepaction"]

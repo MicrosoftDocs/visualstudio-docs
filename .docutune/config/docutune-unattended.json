@@ -6,7 +6,7 @@
   },
   "pullRequest": {
     "title": "[BULK] [DocuTune-Remediation] - Scheduled execution to fix known issues in Visual Studio documentation",
-    "batchSize": 9,
+    "batchSize": 5,
     "maxBatches": 100,
     "body": "",
     "newBranchNamePrefix": "",
@@ -22,7 +22,7 @@
       "name": "Default",
       "command": "Fix",
       "configType": "full",
-      "stopAt": 200,
+      "stopAt": 5,
       "include": [
         "docs/"
       ],
@@ -34,7 +34,7 @@
       "name": "FlagBrokenLinks",
       "base": "Default",
       "configType": "links-only",
-      "stopAt": 100
+      "stopAt": 5
     }
   ]
 }

@@ -46,7 +46,7 @@ You might see an error: "A 64-bit debugging operation is taking longer than expe
 
 There are two main causes for this error:
 
-- You have networking security software installed on your computer that has caused the networking stack to be unreliable, and it has dropped packets going over `localhost`. Try disabling all network security software and see if this resolves it. If so, report to your network security software vendor that the software is interfering with `localhost` traffic. This should not occur with Visual Studio 2019 and later, because those versions don't use sockets for this communication.
+- You have networking security software installed on your computer that has caused the networking stack to be unreliable, and it has dropped packets going over `localhost`. Try disabling all network security software and see whether this resolves it. If so, report to your network security software vendor that the software is interfering with `localhost` traffic. This should not occur with Visual Studio 2019 and later, because those versions don't use sockets for this communication.
 
 - You are running into an issue where Visual Studio becomes unresponsive, or other performance problem. If the problem happens regularly, you can collect dumps of Visual Studio (devenv.exe) and the worker process (msvsmon.exe) and send them to Microsoft. For information about reporting a problem, see [How to Report a Problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio.md).
 

@@ -130,5 +130,5 @@ With Visual Studio Tools for Unity (VSTU), you can use Visual Studio to write ga
 ## Related content
 
 - [Add Microsoft 365 APIs to a Visual Studio project](/office/developer-program/office-365-developer-program)
-- [Azure App Services - Mobile Apps](https://azure.microsoft.com/services/app-service/mobile/)
+- [Azure App Service - Mobile Apps](https://azure.microsoft.com/services/app-service/mobile/)
 - [Visual Studio App Center](/appcenter)

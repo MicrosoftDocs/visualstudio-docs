@@ -689,7 +689,7 @@ int fibonacci(int n)
 | ------- | -------------------- | ---------------- |
 | IDE0041 | C# 7.0+ | Visual Studio 2017 version 15.5 and later |
 
-This Quick Action suggests the use of [pattern matching](/dotnet/csharp/pattern-matching) rather than the ```ReferenceEquals``` coding-pattern, where possible.
+This Quick Action suggests the use of [pattern matching](/dotnet/csharp/pattern-matching) rather than the `ReferenceEquals` coding-pattern, where possible.
 
 ```csharp
 // Before

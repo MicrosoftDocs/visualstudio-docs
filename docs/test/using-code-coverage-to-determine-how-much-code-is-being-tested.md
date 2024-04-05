@@ -305,11 +305,11 @@ When you check in your code, your tests run on the build server along with tests
 
 ## Analyze code coverage from the command line
 
-To run tests from the command line, use *vstest.console.exe* utility. Code coverage is an option of the *vstest.console.exe* utility invoked by ```/EnableCodeCoverage``` option.
+To run tests from the command line, use *vstest.console.exe* utility. Code coverage is an option of the *vstest.console.exe* utility invoked by `/EnableCodeCoverage` option.
 
 1. Launch the Developer Command Prompt for Visual Studio:
 
-   In the Windows **Start** menu, search ```Developer Command Prompt for VS``` and select the App result that's associated with your search text.
+   In the Windows **Start** menu, search `Developer Command Prompt for VS` and select the App result that's associated with your search text.
 
 1. At the command prompt, run the following command:
 

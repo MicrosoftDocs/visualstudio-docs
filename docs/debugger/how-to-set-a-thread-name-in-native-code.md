@@ -39,7 +39,7 @@ Caveats:
 
 *Example:*
 
-```C++
+```cpp
 #include <windows.h>
 #include <processthreadsapi.h>
 
@@ -70,7 +70,7 @@ Caveats:
 
 The `SetThreadName` function shown below demonstrates this exception-based approach. Note that the thread name will be automatically copied to the thread, so that the memory for the `threadName` parameter can be released after the `SetThreadName` call is completed.
 
-```C++
+```cpp
 //
 // Usage: SetThreadName ((DWORD)-1, "MainThread");
 //

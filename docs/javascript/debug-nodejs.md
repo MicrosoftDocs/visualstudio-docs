@@ -51,7 +51,7 @@ Visual Studio provides client-side debugging support only for Chrome and Microso
 
 ### Prepare your app for debugging
 
-If your source is minified or created by a transpiler like a TypeScript or Babel, use [source maps](#generate_source_maps) for the best debugging experience. You can even attach the debugger to a running client-side script without the source maps. However, you may only be able to set and hit breakpoints in the minified or transpiled file, not in the source file. For example, in a Vue.js app, the minified script gets passed as a string to an ```eval``` statement, and there's no way to step through this code effectively using the Visual Studio debugger unless you use source maps. For complex debugging scenarios, you may want to use Chrome Developer Tools or F12 Tools for Microsoft Edge instead.
+If your source is minified or created by a transpiler like a TypeScript or Babel, use [source maps](#generate_source_maps) for the best debugging experience. You can even attach the debugger to a running client-side script without the source maps. However, you may only be able to set and hit breakpoints in the minified or transpiled file, not in the source file. For example, in a Vue.js app, the minified script gets passed as a string to an `eval` statement, and there's no way to step through this code effectively using the Visual Studio debugger unless you use source maps. For complex debugging scenarios, you may want to use Chrome Developer Tools or F12 Tools for Microsoft Edge instead.
 
 For help with generating source maps, see [Generate source maps for debugging](#generate_source_maps).
 
@@ -67,7 +67,7 @@ For this scenario, use either Microsoft Edge (Chromium) or Chrome.
 
 1. Start your browser with debugging enabled.
 
-    Starting in Visual Studio 2019, you can set the ```--remote-debugging-port=9222``` flag at browser launch by selecting **Browse With...** > from the **Debug** toolbar.
+    Starting in Visual Studio 2019, you can set the `--remote-debugging-port=9222` flag at browser launch by selecting **Browse With...** > from the **Debug** toolbar.
 
     ::: moniker range=">=vs-2022"
     :::image type="content" source="media/vs-2022/debug-select-browse-with.png" alt-text="Screenshot of selecting the Browse With option.":::
@@ -154,7 +154,7 @@ Visual Studio has the capability to use and generate source maps on JavaScript s
 
 - A TypeScript project in Visual Studio generates source maps for you by default. For more information, see [Configure source maps using a tsconfig.json file](#configure_source_maps).
 
-- In a JavaScript project, you can generate source maps using a bundler like webpack and a compiler like the TypeScript compiler (or Babel), which you can add to your project. For the TypeScript compiler, you must also add a `tsconfig.json` file and set the ```sourceMap``` compiler option. For an example that shows how to do this using a basic webpack configuration, see [Create a Node.js app with React](../javascript/tutorial-nodejs-with-react-and-jsx.md).
+- In a JavaScript project, you can generate source maps using a bundler like webpack and a compiler like the TypeScript compiler (or Babel), which you can add to your project. For the TypeScript compiler, you must also add a `tsconfig.json` file and set the `sourceMap` compiler option. For an example that shows how to do this using a basic webpack configuration, see [Create a Node.js app with React](../javascript/tutorial-nodejs-with-react-and-jsx.md).
 
 > [!NOTE]
 > If you are new to source maps, read [What are Source Maps?](https://web.dev/articles/source-maps) before continuing.

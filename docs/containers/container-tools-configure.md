@@ -74,7 +74,7 @@ The following table describes the **Containers** window settings:
 | Confirm before running large number of images | Always | Controls whether you are prompted before starting containers from more than 10 images at a time. |
 
 > [!WARNING]
-> If the `localhost` SSL certificate is not trusted, and you check the box to suppress prompting, then HTTPS web requests might fail at run time in your app or service. In that case, uncheck the **Do not prompt** checkbox, run your project, and indicate trust at the prompt.
+> If the `localhost` SSL certificate is not trusted, and you select the box to suppress prompting, then HTTPS web requests might fail at run time in your app or service. In that case, clear the **Do not prompt** checkbox, run your project, and indicate trust at the prompt.
 
 :::moniker range=">=vs-2022"
 

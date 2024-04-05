@@ -142,7 +142,7 @@ Before you can use the memory diagnostics facilities, you must enable diagnostic
 
   These values can be used in combination by performing a logical-OR operation, as shown here:
 
-  ```C++
+  ```cpp
   afxMemDF = allocMemDF | delayFreeMemDF | checkAlwaysMemDF;
   ```
 
