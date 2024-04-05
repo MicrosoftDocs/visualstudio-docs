@@ -153,7 +153,7 @@
       href: ide/deploy-copilot-to-enterprise.md
     - Name: Troubleshooting with Copilot
       href: ide/visual-studio-github-copilot-troubleshooting.md
-      Name: Admin controls for Copilot
+      name: Admin controls for GitHub Copilot
       href: ide/visual-studio-github-copilot-admin.md
   - name: IntelliCode
     items:
