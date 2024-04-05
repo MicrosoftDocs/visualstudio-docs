@@ -17,6 +17,7 @@ GitHub Copilot in Visual Studio 2022 17.10 or later introduces new features for 
 In version 17.10, we have introduced two new features to disable Copilot, ensuring that your repository remains protected:
 1.  Project administrators can disable Copilot for individual accounts via the [Visual Studio Administrative Templates (ADMX/ADML)](https://www.microsoft.com/en-us/download/details.aspx?id=104405).
 1.  Copilot can be disabled altogether via [Visual Studio Administrative Templates (ADMX/ADML)](https://www.microsoft.com/en-us/download/details.aspx?id=104405).
+
 These features provide administrators with greater control over the use of Copilot within their organization.
 
 ### Steps:
