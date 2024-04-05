@@ -151,7 +151,7 @@
       href: debugger/debug-with-copilot.md
     - name: Deploy GitHub Copilot to your enterprise
       href: ide/deploy-copilot-to-enterprise.md
-    - Name: Troubleshooting with Copilot
+    - name: Troubleshoot GitHub Copilot state
       href: ide/visual-studio-github-copilot-troubleshooting.md
       name: Admin controls for GitHub Copilot
       href: ide/visual-studio-github-copilot-admin.md
