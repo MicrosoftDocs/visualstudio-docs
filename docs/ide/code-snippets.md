@@ -1,7 +1,7 @@
 ---
 title: Understand and use code snippets
 description: Explore code snippets, which are small blocks of reusable code you can insert into a code file, and learn how to find and use them.
-ms.date: 04/04/2024
+ms.date: 04/05/2024
 ms.topic: conceptual
 f1_keywords:
 - vs.ExpansionManagerImport
@@ -73,7 +73,10 @@ To add this expansion snippet:
 
 1. In the code editor, position your cursor where you want to add the snippet.
 1. Right-click and select **Insert Snippet** from the right-click context menu, or use the menu bar or keyboard commands.
-1. Double-click **Visual C#**, and then double-click **tryf** in the dropdown list. Alternatively, you can type *v*, **Tab**, *tryf*, **Tab**.
+1. Open the **Visual C#** folder, and then double-click **tryf** in the dropdown list, or select **tryf** and press **Tab**.
+
+>[!NOTE]
+>You can also place your cursor at the insertion point, type *tryf*, and then press **Tab** twice.
 
 ### Add a surround-with snippet
 
@@ -117,7 +120,7 @@ If you change `newPropertyValue` to `m_property`, every instance of `newProperty
 
 The code in a code snippet shows only the most basic way to do something. For most applications, the code must be modified to suit the application.
 
-### Handle exceptions
+### Exception handling
 
 Typically, code snippet `Try...Catch` blocks catch and rethrow all exceptions, but that might not be the right choice for your project. For each exception, there are several ways to respond. For examples, see [How to handle an exception using try/catch (C#)](/dotnet/csharp/programming-guide/exceptions/how-to-handle-an-exception-using-try-catch) and [Try...Catch...Finally statement (Visual Basic)](/dotnet/visual-basic/language-reference/statements/try-catch-finally-statement).
 
