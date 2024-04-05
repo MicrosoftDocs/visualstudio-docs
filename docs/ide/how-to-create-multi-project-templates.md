@@ -185,6 +185,64 @@ This example uses the **SolutionFolder** element to divide the projects into two
 </VSTemplate>
 ```
 
+## Example with project references
+
+This example shows how to add project references to a multi-project template and is essentialy an extension of the [multi-project template](#create-multi-project-templates) example.
+
+In this example the solution contains two projects, **MultiProject.Client** and **MultiProject.Shared**. The project **MultiProject.Client** references **MultiProject.Shared**.
+
+The folder structure is as follows:
+
+- *MultiProjectTemplate.vstemplate*
+- *\MultiProject.Client\MultiProject.Client.csproj*
+- *\MultiProject.Client\MyTemplate.vstemplate*
+- *\MultiProject.Shared\MultiProject.Shared.csproj*
+- *\MultiProject.Shared\MyTemplate.vstemplate*
+
+When the template is used the *MultiProject* part is being replaced with the project name the user enters.
+
+The *MultiProjectTemplate.vstemplate* looks like the following. Please note that the *ProjectTemplateLink*s have the attribute **CopyParameters** set to *true* and that the **ProjectName** attributes use the template variable [\$safeprojectname\$](https://learn.microsoft.com/en-us/visualstudio/ide/template-parameters?view=vs-2022#reserved-template-parameters).
+
+```xml
+<VSTemplate Version="2.0.0" Type="ProjectGroup"
+    xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+    ...
+    <ProjectCollection>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.Client" CopyParameters="true">
+            MultiProject.Client\MyTemplate.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.Shared" CopyParameters="true">
+            MultiProject.Shared\MyTemplate.vstemplate
+        </ProjectTemplateLink>
+    </ProjectCollection>
+</TemplateContent>
+</VSTemplate>
+```
+
+The *MultiProject.Client\MultiProject.Client.csproj* might look something like the following. Please note that the *Project* tag has the attribute **ReplaceParameters** set to *true*.
+
+```xml
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+	...
+	<TemplateContent>
+		<Project TargetFileName="MultiProject.Client.csproj" File="MultiProject.Client.csproj" ReplaceParameters="true">
+            ...
+		</Project>
+	</TemplateContent>
+</VSTemplate>
+```
+
+The *MultiProject.Client\MultiProject.Client.csproj* might look something like the follwoing. Please note that the attribute **Include** of the *ProjectReference* uses the template variable [\$ext_safeprojectname\$](https://learn.microsoft.com/en-us/visualstudio/ide/template-parameters?view=vs-2022#reserved-template-parameters).
+
+```xml
+<Project>
+    ...
+	<ItemGroup>
+	  <ProjectReference Include="..\$ext_safeprojectname$.Shared\$ext_safeprojectname$.Shared.csproj" />
+	</ItemGroup>
+</Project>
+```
+
 ## Related content
 
 - [Creating project and item templates](../ide/creating-project-and-item-templates.md)
