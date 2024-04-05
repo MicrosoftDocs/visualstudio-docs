@@ -31,20 +31,20 @@ Your network is down.
 
 The Copilot service is down.
 
-**Action:** In this case, wait. The service will be back shortly. You can check the status of the service on [GitHub Status](https://www.githubstatus.com/).
+**Action:** In this case, wait. The service should be back shortly. You can check the status of the service on [GitHub Status](https://www.githubstatus.com/).
 
 ## Refresh your credentials
 
-Due to the expected timeout, you will need to occasionally refresh your credentials.
+Due to the expected timeout, you need to occasionally refresh your credentials.
 
-**Action:** Select **"Refresh your credentials"** from the Copilot badge in the upper-right corner of your Visual Studio environment
+**Action:** Select **"Refresh your credentials"** from the Copilot badge in the upper-right corner of your Visual Studio environment.
 
-:::image type="content" source="media/vs-2022/copilot-inbox/copilot-refresh-creds.png "alt-text="Screenshot of ." lightbox="media/vs-2022/copilot-inbox/copilot-refresh-creds.png":::
+:::image type="content" source="media/vs-2022/copilot-inbox/copilot-refresh-creds.png "alt-text="Screenshot of Refresh your credentials option." lightbox="media/vs-2022/copilot-inbox/copilot-refresh-creds.png":::
 
 ## Copilot is disabled
 
-Copilot for individual or any Copilot license is disabled by your administrator. With Visual Studio version 17.10, your [admin can disable Copilot](visual-studio-github-copilot-admin.md#disabling-copilot-for-individual-enterprise-visual-studio-accounts).
+Your administrator disables Copilot for individual or any Copilot license. With Visual Studio version 17.10, your [admin can disable Copilot](visual-studio-github-copilot-admin.md#disabling-copilot-for-individual-enterprise-visual-studio-accounts).
 
-**Action:** Contact your IT department to if your admin has disabled Copilot.
+**Action:** Contact your IT department to learn if your admin disabled Copilot.
 
 :::image type="content" source="media/vs-2022/copilot-inbox/copilot-disable-badge.png "alt-text="Screenshot of code suggestions in new file in the editor." lightbox="media/vs-2022/copilot-inbox/copilot-disable-badge.png":::
