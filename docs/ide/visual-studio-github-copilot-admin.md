@@ -20,7 +20,7 @@ In version 17.10, we have introduced two new features to disable Copilot, ensuri
 
 These features provide administrators with greater control over the use of Copilot within their organization.
 
-### Steps:
+### Configure Copilot group policy
 1. Go to your Windows Local Group Policy Editor, find "Copilot Settings", and select a group policy
 
         :::image type="content" source="media\vs-2022\copilot-inbox\Intune-Group-Poilcy.png" alt-text="Screenshot of Group poilcy to block copilot for indivduals." lightbox="media\vs-2022\copilot-inbox\Intune-Group-Poilcy.png":::
