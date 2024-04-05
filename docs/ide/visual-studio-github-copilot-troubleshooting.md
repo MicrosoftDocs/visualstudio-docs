@@ -10,7 +10,7 @@ ms.subservice: ai-tools
 monikerRange: vs-2022
 ---
 
-# Troubleshooting GitHub Copilot in Visual Studio 2022 (Version 17.10 or Higher)
+# Troubleshooting GitHub Copilot in Visual Studio 2022 (Version 17.10 Preview 3 or Higher)
 If you encounter the message **“Copilot is temporarily unreachable”** from your GitHub Copilot badge on the top right of your IDE. 
 
         :::image type="content" source="media/vs-2022/copilot-inbox/copilot-error.png
