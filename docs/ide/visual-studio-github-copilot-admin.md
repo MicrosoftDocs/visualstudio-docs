@@ -19,16 +19,6 @@ In version 17.10, we have introduced two new features to disable Copilot, ensuri
 1.  Copilot can be disabled altogether via [Visual Studio Administrative Templates (ADMX/ADML)](https://www.microsoft.com/en-us/download/details.aspx?id=104405).
 These features provide administrators with greater control over the use of Copilot within their organization.
 
-/**
- * This code represents the steps to perform a specific task using Visual Studio and GitHub Copilot.
- * 
- * Steps:
- * 1. Step 1 description.
- * 2. Step 2 description.
- * 3. Step 3 description.
- * ...
- */
-
 ### Steps:
 1. Go to your Windows Local Group Policy Editor, find "Copilot Settings", and select a group policy
 
@@ -37,7 +27,7 @@ These features provide administrators with greater control over the use of Copil
 
 2. Once you have selected your group policy, you can configure the policy to be enabled or disabled. 
 
-        :::image type="content" source="media/vs-2022/copilot-inbox/CFI-group-poilcy" alt-text="Screenshot of Group poilcy to block copilot for indivduals." lightbox="media/vs-2022/copilot-inbox/CFI-group-poilcy":::
+        :::image type="content" source="media/vs-2022/copilot-inbox/CFI-group-poilcy.png" alt-text="Screenshot of Group poilcy to block copilot for indivduals." lightbox="media/vs-2022/copilot-inbox/CFI-group-poilcy.png:::
 
 
 3. Save your configuration and the policy will be live.
