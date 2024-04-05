@@ -20,13 +20,13 @@ In this article, you learn how to install GitHub Copilot. If you're using [Visua
 With [Visual Studio 2022 version 17.10 Preview 3](/visualstudio/releases/2022/release-notes-preview), GitHub Copilot and GitHub Copilot Chat are available to install as a single extension that combines both Copilot and Copilot Chat into one package. The unified GitHub Copilot extension is included as a built-in, recommended component by default in all workloads and is available through the Visual Studio Installer.
 
 To get the new unified GitHub Copilot extension:
-- Install [Visual Studio 2022 version 17.10 Preview 3 or later](/visualstudio/releases/2022/release-notes-preview). Make sure to leave the pre-selected **GitHub Copilot** selected.
+- Install [Visual Studio 2022 version 17.10 Preview 3 or later](/visualstudio/releases/2022/release-notes-preview). Make sure to leave the preselected **GitHub Copilot** selected.
 
-It is installed by default with all workloads. If you choose to exclude it during installation, you can install it later by using the Visual Studio Installer to **modify** your installation, and selecting the **GitHub Copilot** component.
+It's installed by default with all workloads. If you choose to exclude it during installation, you can install it later by using the Visual Studio Installer to **modify** your installation, and selecting the **GitHub Copilot** component.
 
 ## Get GitHub Copilot for Visual Studio 2022 versions 17.6 to 17.9 
 
-In Visual Studio 2022 versions 17.6 to 17.9, GitHub Copilot and GitHub Copilot Chat are available to install as two separate extensions. Installing Github Copilot extension is a prerequisite to installing GitHub Copilot Chat.
+In Visual Studio 2022 versions 17.6 to 17.9, GitHub Copilot and GitHub Copilot Chat are available to install as two separate extensions. Installing GitHub Copilot extension is a prerequisite to installing GitHub Copilot Chat.
 
 ### Install GitHub Copilot
 
@@ -92,7 +92,7 @@ Using the dropdown menu, you can easily open the Chat window, access Copilot set
 If Copilot is installed but in an inactive state:
 -  you're not yet signed into Visual Studio with a GitHub account
 OR
--  your signed in GitHub account does not have an active [Copilot subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot). 
+-  your signed in GitHub account doesn't have an active [Copilot subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot). 
 
 Select **Add GitHub Account with a Copilot Subscription** in the dropdown from the status icon to open **Account Settings** and sign in with a GitHub account that has an active subscription to use Copilot. When you're signed in, the Copilot status icon updates to active.
 
@@ -100,20 +100,20 @@ Select **Add GitHub Account with a Copilot Subscription** in the dropdown from t
 
 ### Copilot is unavailable
 
-If Copilot is installed but unavailable for use, it may be due to network connectivity issues, server-side technical problems, or an expired service plan. In this state, Copilot does not provide its usual services until the external issues are resolved.
+If Copilot is installed but unavailable for use, it may be due to network connectivity issues, server-side technical problems, or an expired service plan. In this state, Copilot doesn't provide its usual services until the external issues are resolved.
 
 Select **Copilot is unreachable** in the dropdown menu to open the **Troubleshooting** page on diagnosing and resolving common network errors with GitHub Copilot. When the issue is resolved and you're signed in with an active subscription, the Copilot status icon updates to [active](#copilot-is-active).
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-unavailable.png" alt-text="Screenshot of Copilot badge when Copilot is unavailable.":::
 
-## Copilot is not installed
+## Copilot not installed
 
 If you chose to opt out of the default recommended install by unchecking the **GitHub Copilot** component in the installer, the status icon is still available in the IDE. 
 
 Select **Install Copilot** from the dropdown to install Copilot.
 If you choose to not install Copilot, you can select **Hide Copilot** from the dropdown to hide the Copilot status icon from the IDE.
 
-:::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-not-installed.png" alt-text="Screenshot of Copilot badge when Copilot is not installed.":::
+:::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-not-installed.png" alt-text="Screenshot of Copilot badge when Copilot isn't installed.":::
 
 ## Next steps
 
