@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting GitHub Copilot in Visual Studio 2022
+title: Troubleshoot GitHub Copilot in Visual Studio 2022
 description: Learn about the copilot status and how to fix issues.
 ms.date: 3/28/2024
 ms.topic: overview 
