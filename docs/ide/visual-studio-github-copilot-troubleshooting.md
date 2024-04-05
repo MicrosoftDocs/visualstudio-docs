@@ -47,5 +47,5 @@ Due to the expected timeout, you will need to occasionally refresh your credenti
         " alt-text="Screenshot of code suggestions in new file in the editor." lightbox="media/vs-2022/copilot-inbox/copilot-disable-badge":::
 
 ## Copilot is disabled
-Copilot for individual or any Copilot license can be disabled from your administrator on 17.10.
+Copilot for individual or any Copilot license can be disabled by your administrator on 17.10.
 **Action:** Contact your IT department to learn more if you see this state for your copilot badge on the top right of your Visual Studio.
