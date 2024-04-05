@@ -48,4 +48,5 @@ Due to the expected timeout, you will need to occasionally refresh your credenti
 
 ## Copilot is disabled
 Copilot for individual or any Copilot license can be disabled by your administrator on 17.10.
-**Action:** Contact your IT department to learn more if you see this state for your copilot badge on the top right of your Visual Studio.
+
+**Action:** Contact your IT department to learn more if the Copilot badge in the upper-right corner of the IDE is showing a disabled state.
