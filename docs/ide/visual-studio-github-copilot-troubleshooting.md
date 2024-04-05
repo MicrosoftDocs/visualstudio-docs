@@ -39,7 +39,8 @@ Sometimes the Copilot service itself might be down.
 
 ## Refresh your credentials
 Due to the expected timeout, you will need to occasionally refresh your credentials.
-**Action:** You can do that by clicking the Copilot badge on the top right corner of your Visual Studio and selecting **"Refresh your credentials"**. 
+
+**Action:** Select **"Refresh your credentials"** from the Copilot badge in the upper-right corner of your Visual Studio environment
 
 
         :::image type="content" source="media/vs-2022/copilot-inbox/copilot-disable-badge.png
