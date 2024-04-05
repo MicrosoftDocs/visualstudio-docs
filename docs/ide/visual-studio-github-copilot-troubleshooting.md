@@ -20,7 +20,7 @@ GitHub Copilot badge in the upper-right corner of the Visual Studio environment 
         :::image type="content" source="media/vs-2022/copilot-inbox/copilot-error.png
         " alt-text="Screenshot of code suggestions in new file in the editor." lightbox="media/vs-2022/copilot-inbox/copilot-error.png":::
 
-That indicates that GitHub Copilot is offline, it could be due to one of the following reasons:
+GitHub Copilot could be offline due to one of the following reasons:
 
 ## Network issues
 Your network might be down.
