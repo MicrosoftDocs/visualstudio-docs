@@ -11,6 +11,9 @@ monikerRange: vs-2022
 ---
 
 # Admin controls for GitHub Copilot in Visual Studio 2022 version 17.10 or later
+
+_Applies to:_&nbsp;Visual Studio
+
 GitHub Copilot in Visual Studio 2022 version 17.10 or later introduces new features for administrators to manage Copilot effectively.
 
 ## Disabling Copilot for individual Enterprise Visual Studio accounts
