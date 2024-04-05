@@ -24,6 +24,7 @@ GitHub Copilot could be offline due to one of the following reasons:
 
 ## Network issues
 Your network might be down.
+
 **Action:** Ensure you have a stable internet connection. For more information, see [Troubleshooting network errors for GitHub Copilot](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-network-errors-for-github-copilot).
 
 
