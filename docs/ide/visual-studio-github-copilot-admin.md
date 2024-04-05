@@ -28,7 +28,7 @@ These features provide administrators with greater control over the use of Copil
 
 1. Once you have selected your group policy, you can configure the policy to be enabled or disabled.
    
-   :::image type="content" source="media/vs-2022/copilot-inbox/CFI-group-poilcy.png" alt-text="Screenshot of Group poilcy to block copilot for indivduals." lightbox="media/vs-2022/copilot-inbox/CFI-group-poilcy.png:::
+   :::image type="content" source="media/vs-2022/copilot-inbox/CFI-group-poilcy.png" alt-text="Screenshot of Group poilcy to block copilot for individuals." lightbox="media/vs-2022/copilot-inbox/CFI-group-poilcy.png":::
 
 
 5. Save your configuration and the policy will be live.
