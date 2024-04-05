@@ -20,7 +20,9 @@ In this article, you'll learn how to install GitHub Copilot and use the Copilot 
 With [Visual Studio 2022 version 17.10 Preview 3](/visualstudio/releases/2022/release-notes-preview), GitHub Copilot and GitHub Copilot Chat are available to install as a single extension that combines both Copilot and Copilot Chat into one package. The unified GitHub Copilot extension is included as a built-in, recommended component by default in all workloads and is available through the Visual Studio Installer.
 
 To get the new unified GitHub Copilot extension:
-- Install [Visual Studio 2022 version 17.10 Preview 3 or later](). Make sure to leave the pre-selected **GitHub Copilot** selected.
+- Install [Visual Studio 2022 version 17.10 Preview 3 or later](/visualstudio/releases/2022/release-notes-preview). Make sure to leave the pre-selected **GitHub Copilot** selected.
+
+It is installed by default with all workloads. If you choose to exclude it during installation, you can install it later by using the Visual Studio Installer to **modify** your installation, and selecting the **GitHub Copilot** component.
 
 ## Get GitHub Copilot for Visual Studio 2022 versions 17.6 to 17.9 
 
@@ -79,7 +81,7 @@ With Visual Studio 2022 version 17.10 Preview 3, you'll see a Copilot status ico
 
 ### Copilot is active
 
-Copilot is in an active state and fully functional if the user is signed into Visual Studio with a GitHub account that has an active [subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) to [GitHub Copilot for Individuals](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-individuals) or [GitHub Copilot for Business](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-business).
+Copilot is in an active state and fully functional if you're signed into Visual Studio with a GitHub account that has an active [subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) to [GitHub Copilot for Individuals](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-individuals) or [GitHub Copilot for Business](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-business).
 
 Using the dropdown menu, you can easily open the Chat window, access Copilot settings, and manage Copilot subscription.
 

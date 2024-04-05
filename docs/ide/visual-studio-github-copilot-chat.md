@@ -38,7 +38,7 @@ To get started, you need:
 
 ## Get GitHub Copilot Chat for Visual Studio
 
-- If you're using Visual Studio version 17.10 Preview 3 or later, you [already have the new unified GitHub Copilot extension installed](visual-studio-github-copilot-install-and-states.md#get-github-copilot-for-visual-studio-2022-version-1710-preview-3-or-later) that combines GitHub Copilot and GitHub Copilot Chat into a single extension.
+- If you're using Visual Studio version 17.10 Preview 3 or later, GitHub Copilot Chat is included in the [new unified GitHub Copilot extension](visual-studio-github-copilot-install-and-states.md#get-github-copilot-for-visual-studio-2022-version-1710-preview-3-or-later) available as a recommended component in the Visual Studio Installer. It is installed by default with all workloads, unless you choose to exclude it during installation.
 - If you're using Visual Studio versions 17.9 or earlier, [install the GitHub Copilot Chat extension](visual-studio-github-copilot-install-and-states.md#install-github-copilot-chat).
 
    > [!NOTE]
