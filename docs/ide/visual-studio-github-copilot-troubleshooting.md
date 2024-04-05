@@ -28,7 +28,7 @@ Your network might be down.
 **Action:** Ensure you have a stable internet connection. For more information, see [Troubleshooting network errors for GitHub Copilot](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-network-errors-for-github-copilot).
 
 
-## Copilot service is unavailable
+### Copilot service is unavailable
 Sometimes the Copilot service itself might be down.
 
 **Action:** In this case, wait. The service will be back shortly. You can check the status of the service on [GitHub Status](https://www.githubstatus.com/).
