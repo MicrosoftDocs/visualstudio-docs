@@ -15,8 +15,8 @@ GitHub Copilot in Visual Studio 2022 17.10 or later introduces new features for 
 
 ## Disabling Copilot for individual Enterprise Visual Studio accounts
 In version 17.10, we have introduced two new features to disable Copilot, ensuring that your repository remains protected:
-1.  Project administrators can disable Copilot for individual accounts via the Windows Local Group Policy Editor.
-1.  Copilot can be disabled altogether via the Windows Local Group Policy Editor.
+1.  Project administrators can disable Copilot for individual accounts via the [Visual Studio Administrative Templates (ADMX/ADML)](https://www.microsoft.com/en-us/download/details.aspx?id=104405).
+1.  Copilot can be disabled altogether via [Visual Studio Administrative Templates (ADMX/ADML)](https://www.microsoft.com/en-us/download/details.aspx?id=104405).
 These features provide administrators with greater control over the use of Copilot within their organization.
 
 /**
@@ -28,6 +28,7 @@ These features provide administrators with greater control over the use of Copil
  * 3. Step 3 description.
  * ...
  */
+
 ### Steps:
 1. Go to your Windows Local Group Policy Editor, find "Copilot Settings", and select a group policy
 
@@ -39,4 +40,4 @@ These features provide administrators with greater control over the use of Copil
         :::image type="content" source="media/vs-2022/copilot-inbox/CFI-group-poilcy" alt-text="Screenshot of Group poilcy to block copilot for indivduals." lightbox="media/vs-2022/copilot-inbox/CFI-group-poilcy":::
 
 
-3. Save your configuration and the policy will be live 
+3. Save your configuration and the policy will be live.
