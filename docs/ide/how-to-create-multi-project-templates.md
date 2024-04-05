@@ -201,7 +201,7 @@ The folder structure is as follows:
 
 When the template is used the *MultiProject* part is being replaced with the project name the user enters.
 
-The *MultiProjectTemplate.vstemplate* looks like the following. Please note that the *ProjectTemplateLink*s have the attribute **CopyParameters** set to *true* and that the **ProjectName** attributes use the template variable [\$safeprojectname\$](https://learn.microsoft.com/visualstudio/ide/template-parameters#reserved-template-parameters).
+The *MultiProjectTemplate.vstemplate* looks like the following. Please note that the *ProjectTemplateLink*s have the attribute **CopyParameters** set to *true* and that the **ProjectName** attributes use the template variable [\$safeprojectname\$](./template-parameters.md#reserved-template-parameters).
 
 ```xml
 <VSTemplate Version="2.0.0" Type="ProjectGroup"
@@ -232,7 +232,7 @@ The *MultiProject.Client\MultiProject.Client.csproj* might look something like t
 </VSTemplate>
 ```
 
-The *MultiProject.Client\MultiProject.Client.csproj* might look something like the follwoing. Please note that the attribute **Include** of the *ProjectReference* uses the template variable [\$ext_safeprojectname\$](https://learn.microsoft.com/visualstudio/ide/template-parameters#reserved-template-parameters).
+The *MultiProject.Client\MultiProject.Client.csproj* might look something like the follwoing. Please note that the attribute **Include** of the *ProjectReference* uses the template variable [\$ext_safeprojectname\$](./template-parameters.md#reserved-template-parameters)
 
 ```xml
 <Project>
