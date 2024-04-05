@@ -23,11 +23,11 @@ dev_langs:
 
 Code snippets are small blocks of reusable code that you can add to a code file. Snippets usually contain often-used code blocks such as `Try...Finally` or `If...Else` blocks. You can also use code snippets to add entire classes or methods.
 
-Snippets can also contain replacement parameters, which act as placeholders. Snippets are available for many languages, including C#, C++, and Visual Basic.
+A code snippet has a title that you use to select the snippet, and can have a shortcut name you can type to insert the snippet. Snippets can also contain replacement parameters, which act as placeholders. Snippets are available for many languages, including C#, C++, and Visual Basic.
 
 ## Expansion snippets and surround-with snippets
 
-A code snippet has a title that you use to select the snippet, and can have a shortcut name you can type to insert the snippet. You can add two kinds of code snippets to your code:
+You can add two kinds of code snippets to your code:
 
 - An *expansion* snippet is added at a specified insertion point.
 - A *surround-with* snippet is added around selected code, and is available only for C# and C++.
