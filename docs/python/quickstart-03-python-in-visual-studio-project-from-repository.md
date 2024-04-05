@@ -140,7 +140,7 @@ Follow these steps to configure your project properties:
 
    ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="media/quickstart-python-full-path-property.png" alt-text="Screenshot that shows how to set the Working Directory for the project with the Full Path property value for a cloned file." border="false" lightbox="media/quickstart-python-full-path-property.png":::
+   :::image type="content" source="media/vs-2022/quickstart-python-full-path-property.png" alt-text="Screenshot that shows how to set the Working Directory for the project with the Full Path property value for a cloned file." border="false" lightbox="media/vs-2022/quickstart-python-full-path-property.png":::
 
    ::: moniker-end
    ::: moniker range="<=vs-2019"
