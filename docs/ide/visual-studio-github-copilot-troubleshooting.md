@@ -29,7 +29,8 @@ Your network might be down.
 
 
 ## Copilot service is unavailable
-Sometimes, the Copilot service itself might be down.
+Sometimes the Copilot service itself might be down.
+
 **Action:** In this case, wait. The service will be back shortly. You can check the status of the service on [GitHub Status](https://www.githubstatus.com/).
 
 
