@@ -19,6 +19,15 @@ In version 17.10, we have introduced two new features to disable Copilot, ensuri
 1.  Copilot can be disabled altogether via the Windows Local Group Policy Editor.
 These features provide administrators with greater control over the use of Copilot within their organization.
 
+/**
+ * This code represents the steps to perform a specific task using Visual Studio and GitHub Copilot.
+ * 
+ * Steps:
+ * 1. Step 1 description.
+ * 2. Step 2 description.
+ * 3. Step 3 description.
+ * ...
+ */
 ### Steps:
 1. Go to your Windows Local Group Policy Editor, find "Copilot Settings", and select a group policy
 
