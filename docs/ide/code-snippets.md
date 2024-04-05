@@ -73,7 +73,7 @@ To add this expansion snippet:
 
 1. In the code editor, position your cursor where you want to add the snippet.
 1. Right-click and select **Insert Snippet** from the right-click context menu, or use the menu bar or keyboard commands.
-1. Double-click **Visual C#**, and then double-click **tryf** in the dropdown list. Alternatively, you can type **V**, **Tab**, *tryf*, **Tab**.
+1. Double-click **Visual C#**, and then double-click **tryf** in the dropdown list. Alternatively, you can type *v*, **Tab**, *tryf*, **Tab**.
 
 ### Add a surround-with snippet
 
@@ -123,13 +123,15 @@ Typically, code snippet `Try...Catch` blocks catch and rethrow all exceptions, b
 
 ### File locations
 
-When you adapt file locations to your application, think about the following considerations:
+When you adapt file locations to your application, be sure to consider the following factors.
 
 - Find an accessible location. Users might not have access to the computer's *Program Files* folder, so storing user files with the application files might not work.
 
 - Find a secure location. Storing files in the root folder like *C:\\* isn't secure. For application data, it's best to use the *Application Data* folder. For individual user data, the application can create a file in each user's *Documents* folder.
 
-- Use a valid file name. You can use the <xref:System.Windows.Forms.OpenFileDialog> and <xref:System.Windows.Forms.SaveFileDialog> controls to reduce the likelihood of invalid file names. Know that between the time the user selects a file and the time your code manipulates the file, the file could be deleted. In addition, the user might not have permission to write to the file.
+- Use a valid file name. You can use the <xref:System.Windows.Forms.OpenFileDialog> and <xref:System.Windows.Forms.SaveFileDialog> controls to reduce the likelihood of invalid file names.
+
+- Be aware that a user-selected file could be deleted before your code can manipulate the file. Also, a user might not have permission to write to the file.
 
 ### Security
 
@@ -154,7 +156,7 @@ Open all downloaded snippet files in Notepad or the XML editor of Visual Studio 
 
   - `HelpURL` blocks in snippet files containing URLs that execute malicious script files or display offensive websites.
 
-  - Snippets containing references that are added silently to your project and can be loaded from anywhere on your system. You might have downloaded these references to your computer from the same location you downloaded the snippet from. The snippet might then make a call to a method in the reference that executes malicious code. To protect yourself against such an attack, review the `Imports` and `References` blocks of the snippet file.
+  - Snippets containing references that are added silently to your project and can be loaded from anywhere on your system. You might download these references from the same location you download a snippet from. The snippet could then call a method in the reference that executes malicious code. To detect such references, review the `Imports` and `References` blocks of the snippet file.
 
 ## Related content
 
