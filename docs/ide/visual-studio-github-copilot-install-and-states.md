@@ -1,8 +1,8 @@
 ---
-title: Install and get started with GitHub Copilot in Visual Studio
-description: Install GitHub Copilot in Visual Studio and use the Copilot badge in the IDE to troubleshoot your copilot state.
+title: Install and manage GitHub Copilot in Visual Studio
+description: Install GitHub Copilot in Visual Studio and manage copilot state by using the Copilot badge in the IDE.
 ms.date: 4/09/2024
-ms.topic: conceptual 
+ms.topic: install-set-up-deploy
 author: anandmeg
 ms.author: meghaanand
 ms.manager: mijacobs
@@ -13,7 +13,7 @@ monikerRange: '>= vs-2022'
 
 **GitHub Copilot** and **GitHub Copilot Chat** in Visual Studio enable enhanced [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md), helping you be more productive and efficient when writing code.
 
-In this article, you'll learn how to install GitHub Copilot and use the Copilot badge (available in [Visual Studio 2022 version 17.10 Preview 3](/visualstudio/releases/2022/release-notes-preview) and later) in the IDE to manage your Copilot state.
+In this article, you learn how to install GitHub Copilot. If you're using [Visual Studio 2022 version 17.10 Preview 3 or later](/visualstudio/releases/2022/release-notes-preview), you learn to use the Copilot badge in the IDE to manage your Copilot state.
  
 ## Get GitHub Copilot for Visual Studio 2022 version 17.10 Preview 3 or later
 
@@ -74,14 +74,14 @@ Download and install the extensions directly from [Visual Studio Marketplace](ht
 
 ## Manage your Copilot state 
 
-With Visual Studio 2022 version 17.10 Preview 3, you'll see a Copilot status icon in the upper-right corner of the Visual Studio environment that indicates if Copilot is active, inactive, unavailable, or not installed. Using the dropdown menu from the status icon, you can easily access options that help manage or troubleshoot your Copilot state. Some options are available or greyed out depending on your Copilot state.
+With Visual Studio 2022 version 17.10 Preview 3, you see a Copilot status icon in the upper-right corner of the Visual Studio environment that indicates if Copilot is active, inactive, unavailable, or not installed. Using the dropdown menu from the status icon, you can easily access options that help manage or troubleshoot your Copilot state. Some options are available or greyed out depending on your Copilot state.
 
 > [!NOTE]
 > Note that the status icon is moving from the bottom panel of the Visual Studio editor. 
 
 ### Copilot is active
 
-Copilot is in an active state and fully functional if you're signed into Visual Studio with a GitHub account that has an active [subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) to [GitHub Copilot for Individuals](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-individuals) or [GitHub Copilot for Business](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-business).
+Copilot is in an active state and fully functional if you signed into Visual Studio with a GitHub account that has an active [subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) to [GitHub Copilot for Individuals](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-individuals) or [GitHub Copilot for Business](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-business).
 
 Using the dropdown menu, you can easily open the Chat window, access Copilot settings, and manage Copilot subscription.
 
@@ -89,17 +89,20 @@ Using the dropdown menu, you can easily open the Chat window, access Copilot set
 
 ### Copilot is inactive
 
-If Copilot is installed but in an inactive state, you have not yet signed into Visual Studio with a GitHub account or your signed in GitHub account does not have an active [Copilot subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot). 
+If Copilot is installed but in an inactive state:
+-  you're not yet signed into Visual Studio with a GitHub account
+OR
+-  your signed in GitHub account does not have an active [Copilot subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot). 
 
-Select **Add GitHub Account with a Copilot Subscription** in the dropdown from the status icon to open **Account Settings** and sign in with a GitHub account that has an active subscription to use Copilot. When you're signed in, the Copilot status icon will update to active.
+Select **Add GitHub Account with a Copilot Subscription** in the dropdown from the status icon to open **Account Settings** and sign in with a GitHub account that has an active subscription to use Copilot. When you're signed in, the Copilot status icon updates to active.
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-inactive.png" alt-text="Screenshot of Copilot badge when Copilot is in an inactive state.":::
 
 ### Copilot is unavailable
 
-If Copilot is installed but unavailable for use, it may be due to network connectivity issues, server-side technical problems, or an expired service plan. In this state, Copilot will not provide its usual services until the external issues are resolved.
+If Copilot is installed but unavailable for use, it may be due to network connectivity issues, server-side technical problems, or an expired service plan. In this state, Copilot does not provide its usual services until the external issues are resolved.
 
-Select **Copilot is unreachable** in the dropdown menu to open the **Troubleshooting** page on diagnosing and resolving common network errors with GitHub Copilot. When the issue is resolved and you're signed in with an active subscription, the Copilot status icon will update to [active](#copilot-is-active).
+Select **Copilot is unreachable** in the dropdown menu to open the **Troubleshooting** page on diagnosing and resolving common network errors with GitHub Copilot. When the issue is resolved and you're signed in with an active subscription, the Copilot status icon updates to [active](#copilot-is-active).
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-unavailable.png" alt-text="Screenshot of Copilot badge when Copilot is unavailable.":::
 
