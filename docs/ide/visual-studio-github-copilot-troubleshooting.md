@@ -15,9 +15,9 @@ monikerRange: vs-2022
 _Applies to:_&nbsp;Visual Studio
 
 This troubleshooting guide includes instructions to resolve issues with GitHub Copilot.
-GitHub Copilot badge in the upper-right corner of the Visual Studio environment showing the message **“Copilot is temporarily unreachable”** indicates GitHub Copilot is offline.
+GitHub Copilot badge in the upper-right corner of the Visual Studio environment showing the message **Copilot is temporarily unreachable** indicates GitHub Copilot is offline.
 
-:::image type="content" source="media/vs-2022/copilot-inbox/copilot-error.png " alt-text="Screenshot of code suggestions in new file in the editor." lightbox="media/vs-2022/copilot-inbox/copilot-error.png":::
+:::image type="content" source="media/vs-2022/copilot-inbox/copilot-error.png " alt-text="Screenshot of copilot unreachable error." lightbox="media/vs-2022/copilot-inbox/copilot-error.png":::
 
 GitHub Copilot could be offline due to one of the following reasons:
 
@@ -27,13 +27,11 @@ Your network is down.
 
 **Action:** Ensure you have a stable internet connection. For more information, see [Troubleshooting network errors for GitHub Copilot](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-network-errors-for-github-copilot).
 
-### Copilot service is unavailable
+## Copilot service is unavailable
 
 The Copilot service is down.
 
 **Action:** In this case, wait. The service will be back shortly. You can check the status of the service on [GitHub Status](https://www.githubstatus.com/).
-
-:::image type="content" source="media/vs-2022/copilot-inbox/copilot-refresh-creds.png "alt-text="Screenshot of code suggestions in new file in the editor." lightbox="media/vs-2022/copilot-inbox/copilot-refresh-creds":::
 
 ## Refresh your credentials
 
@@ -41,10 +39,12 @@ Due to the expected timeout, you will need to occasionally refresh your credenti
 
 **Action:** Select **"Refresh your credentials"** from the Copilot badge in the upper-right corner of your Visual Studio environment
 
-:::image type="content" source="media/vs-2022/copilot-inbox/copilot-disable-badge.png "alt-text="Screenshot of code suggestions in new file in the editor." lightbox="media/vs-2022/copilot-inbox/copilot-disable-badge":::
+:::image type="content" source="media/vs-2022/copilot-inbox/copilot-refresh-creds.png "alt-text="Screenshot of ." lightbox="media/vs-2022/copilot-inbox/copilot-refresh-creds.png":::
 
 ## Copilot is disabled
 
 Copilot for individual or any Copilot license is disabled by your administrator. With Visual Studio version 17.10, your [admin can disable Copilot](visual-studio-github-copilot-admin.md#disabling-copilot-for-individual-enterprise-visual-studio-accounts).
 
 **Action:** Contact your IT department to if your admin has disabled Copilot.
+
+:::image type="content" source="media/vs-2022/copilot-inbox/copilot-disable-badge.png "alt-text="Screenshot of code suggestions in new file in the editor." lightbox="media/vs-2022/copilot-inbox/copilot-disable-badge.png":::
