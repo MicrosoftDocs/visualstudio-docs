@@ -2,19 +2,22 @@
 title: Manage Git repos in Visual Studio
 titleSuffix: ""
 description: Manage any Git repository in Visual Studio by using the Git Repository window and change your last commit, merge commits (squash), cherry-pick commits, and more.
-ms.date: 11/18/2022
+ms.date: 04/04/2024
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 ms.manager: mijacobs
-
 ms.subservice: general-ide
 ---
 # Manage Git repositories in Visual Studio
 
-The **Git Repository** window provides a full-screen Git experience that helps you manage your Git repository and stay up to date with your team's projects. For example, you might need to reset, revert, or cherry-pick commits, or just clean your commit history. The **Git Repository** window is also a great place to visualize and manage your branches.
+The **Git Repository** window provides a full-screen Git experience that helps you manage your Git repository and stay up to date with your team's projects. For example, you might need to reset, revert, or cherry-pick commits, or just clean your commit history. The **Git Repository** window is also a great place to visualize and manage your branches. 
 
 Version control with Visual Studio is easy with Git.  And, you can work remotely with the Git provider of your choice, such as GitHub or Azure DevOps. Or, you can work locally with no provider at all.
+
+## Open the Git Repository window
+
+To open the **Git Repository** window, choose **View** > **Git repository** (or press **Ctrl**+**0**, **Ctrl**+**R**), or press **Ctrl**+**Q** and under **Features**, search for **Git repo**.
 
 ## Change the last commit (amend)
 
@@ -26,7 +29,7 @@ You can amend a commit on the command line by using the following command:
 git commit --amend
 ```
 
-The **Git Repository** window makes it easy to update your commit message. Open the commit details of the last commit by double-clicking it, and then select the **Edit** option next to the commit message.
+The **Git Repository** window makes it easy to update your most recent commit message. Open the commit details of the last commit by double-clicking it, and then select the **Edit** option next to the commit message.
 
 :::image type="content" source="media/vs-2022/git-repository-edit-commit.png" alt-text="Screenshot of editing a commit message." lightbox="media/vs-2022/git-repository-edit-commit.png":::
 
@@ -38,7 +41,7 @@ If you need to include code changes to your last commit, you can do that in the 
 
 :::image type="content" source="media/vs-2022/git-changes-amend-commit.png" alt-text="Screenshot of amending code changes by using the Git Changes window." lightbox="media/vs-2022/git-changes-amend-commit.png":::
 
-To learn more about amending, see [Git Tools - Rewriting History](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) on the Git website.
+To learn more about amending, including how to change commit messages other than the most recent one, see [Git Tools - Rewriting History](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) on the Git website.
 
 ## Merge commits (squash)
 
