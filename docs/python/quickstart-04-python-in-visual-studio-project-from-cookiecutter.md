@@ -25,8 +25,6 @@ In this quickstart, you follow guided steps to create a new project from a Cooki
    
    - If you install a Python interpreter while Visual Studio is running, select the **Home** option on the **Cookiecutter Explorer** toolbar to detect the newly installed interpreter. For more information, see [Create and manage Python environments in Visual Studio](managing-python-environments-in-visual-studio.md).
 
-Visual Studio for Mac isn't currently supported. For more information, see [What's happening to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
-
 ## Create a project by using Cookiecutter 
 
 1. In Visual Studio, select **File** > **New** > **From Cookiecutter**. This command opens the **Cookiecutter** window in Visual Studio where you can browse templates.
@@ -38,7 +36,7 @@ Visual Studio for Mac isn't currently supported. For more information, see [What
    ::: moniker-end
    ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/quickstart-python-project-from-cookiecutter.png" alt-text="Screenshot that shows how to create a new project from a Cookiecutter template." border="false" lightbox="media/quickstart-python-project-from-cookiecutter.png":::
+   :::image type="content" source="media/quickstart-python-project-from-cookiecutter.png" alt-text="Screenshot that shows how to create a new project from a Cookiecutter template." lightbox="media/quickstart-python-project-from-cookiecutter.png":::
 
    ::: moniker-end
 
@@ -57,11 +55,11 @@ Visual Studio for Mac isn't currently supported. For more information, see [What
    ::: moniker-end
    ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/quickstart-python-cookiecutter-project-options.png" alt-text="Screenshot that shows how to set options for the new project." border="false" lightbox="media/quickstart-python-cookiecutter-project-options.png":::
+   :::image type="content" source="media/quickstart-python-cookiecutter-project-options.png" alt-text="Screenshot that shows how to set options for the new project." lightbox="media/quickstart-python-cookiecutter-project-options.png":::
 
    ::: moniker-end
 
-   1. Set the **Create To** field to the location where you want Visual Studio to store the new project files, such as `C:\Users\source\repos\python-sklearn-classifier-cookiecutter\`.
+   1. Set the **Create To** field to the location where you want Visual Studio to store the new project files, such as `C:\repos\python-sklearn-classifier-cookiecutter\`.
 
    1. Select **Create and Open Project**. (If you're adding the new project to an existing solution, you see the **Add to Solution** option instead.)
 
