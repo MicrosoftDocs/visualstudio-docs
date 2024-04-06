@@ -56,7 +56,7 @@ landingContent:
           - text: Tool windows
             url: ./tool-window/tool-window.md
           - text: User prompts
-            url: ./document/documents.md
+            url: ./user-prompt/user-prompts.md
 
   # Card
   - title: Resources
