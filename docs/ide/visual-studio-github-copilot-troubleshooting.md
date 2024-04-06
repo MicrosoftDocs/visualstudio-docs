@@ -1,8 +1,8 @@
 ---
-title: Troubleshooting GitHub Copilot in Visual Studio 2022
+title: Troubleshoot GitHub Copilot in Visual Studio 2022
 description: Learn about the copilot status and how to fix issues.
-ms.date: 3/28/2024
-ms.topic: overview 
+ms.date: 4/09/2024
+ms.topic: troubleshooting-problem-resolution
 author: anandmeg
 ms.author: meghaanand
 ms.manager: mijacobs
@@ -13,32 +13,39 @@ monikerRange: vs-2022
 # Troubleshooting GitHub Copilot in Visual Studio 2022 (Version 17.10 Preview 3 or Higher)
 If you encounter the message **“Copilot is temporarily unreachable”** from your GitHub Copilot badge on the top right of your IDE. 
 
-        :::image type="content" source="media/vs-2022/copilot-inbox/copilot-error.png
-        " alt-text="Screenshot of code suggestions in new file in the editor." lightbox="media/vs-2022/copilot-inbox/copilot-error.png":::
+_Applies to:_&nbsp;Visual Studio
 
-That indicates that GitHub Copilot is offline, it could be due to one of the following reasons:
+This troubleshooting guide includes instructions to resolve issues with GitHub Copilot.
+GitHub Copilot badge in the upper-right corner of the Visual Studio environment showing the message **Copilot is temporarily unreachable** indicates GitHub Copilot is offline.
+
+:::image type="content" source="media/vs-2022/copilot-inbox/copilot-error.png " alt-text="Screenshot of copilot unreachable error." lightbox="media/vs-2022/copilot-inbox/copilot-error.png":::
+
+GitHub Copilot could be offline due to one of the following reasons:
 
 ## Network issues
-Your network might be down.
+
+Your network is down.
+
 **Action:** Ensure you have a stable internet connection. For more information, see [Troubleshooting network errors for GitHub Copilot](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-network-errors-for-github-copilot).
 
-
 ## Copilot service is unavailable
-Sometimes, the Copilot service itself might be down.
-**Action:** In this case, wait. The service will be back shortly. You can check the status of the service on [GitHub Status](https://www.githubstatus.com/).
 
+The Copilot service is down.
 
-        :::image type="content" source="media/vs-2022/copilot-inbox/copilot-refresh-creds.png
-        " alt-text="Screenshot of code suggestions in new file in the editor." lightbox="media/vs-2022/copilot-inbox/copilot-refresh-creds":::
+**Action:** In this case, wait. The service should be back shortly. You can check the status of the service on [GitHub Status](https://www.githubstatus.com/).
 
 ## Refresh your credentials
-Due to the expected timeout, you will need to occasionally refresh your credentials.
-**Action:** You can do that by clicking the Copilot badge on the top right corner of your Visual Studio and selecting **"Refresh your credentials"**. 
 
+Due to the expected timeout, you need to occasionally refresh your credentials.
 
-        :::image type="content" source="media/vs-2022/copilot-inbox/copilot-disable-badge.png
-        " alt-text="Screenshot of code suggestions in new file in the editor." lightbox="media/vs-2022/copilot-inbox/copilot-disable-badge":::
+**Action:** Select **"Refresh your credentials"** from the Copilot badge in the upper-right corner of your Visual Studio environment.
+
+:::image type="content" source="media/vs-2022/copilot-inbox/copilot-refresh-creds.png "alt-text="Screenshot of Refresh your credentials option." lightbox="media/vs-2022/copilot-inbox/copilot-refresh-creds.png":::
 
 ## Copilot is disabled
-Copilot for individual or any Copilot license can be disabled from your administrator on 17.10.
-**Action:** Contact your IT department to learn more if you see this state for your copilot badge on the top right of your Visual Studio.
+
+Your administrator disables Copilot for individual or any Copilot license. With Visual Studio version 17.10, your [admin can disable Copilot](visual-studio-github-copilot-admin.md#disabling-copilot-for-individual-enterprise-visual-studio-accounts).
+
+**Action:** Contact your IT department to learn if your admin disabled Copilot.
+
+:::image type="content" source="media/vs-2022/copilot-inbox/copilot-disable-badge.png "alt-text="Screenshot of code suggestions in new file in the editor." lightbox="media/vs-2022/copilot-inbox/copilot-disable-badge.png":::
