@@ -31,7 +31,6 @@ In this tutorial, you learn how to:
 - The [kubectl](https://kubernetes.io/docs/reference/kubectl/kubectl/) executable installed on your system.
 - [Visual Studio 2019](https://www.visualstudio.com/vs/) version 16.7 or later running on Windows 10 or later or [Visual Studio 2022](https://www.visualstudio.com/vs/).
 - The [Bridge to Kubernetes extension for Visual Studio 2019](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.mindaro) or [Bridge to Kubernetes extension for Visual Studio 2022](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.mindaro2022).
-- An application to troubleshoot, such as this [TODO App sample application](https://github.com/Azure/Bridge-To-Kubernetes/tree/main/samples/todo-app).
 
 ## Set up a service
 
