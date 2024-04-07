@@ -49,7 +49,7 @@ HRESULT LoadSymbols(
 [in] Identifier of the application domain.
 
 `guidModule`\
-[in] Unique identifier of the mondule.
+[in] Unique identifier of the module.
 
 `baseAddress`\
 [in] Base memory address.

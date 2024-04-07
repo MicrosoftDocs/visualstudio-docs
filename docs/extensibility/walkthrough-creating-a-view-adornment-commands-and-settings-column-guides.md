@@ -90,7 +90,7 @@ namespace ColumnGuides
             if (! IsValidColumn(column))
                 throw new ArgumentOutOfRangeException(
                     "column",
-                    "The paramenter must be between 1 and " + _maxGuides.ToString());
+                    "The parameter must be between 1 and " + _maxGuides.ToString());
             var offsets = GuidesSettingsManager.GetColumnOffsets();
             if (offsets.Count() >= _maxGuides)
                 return false;
