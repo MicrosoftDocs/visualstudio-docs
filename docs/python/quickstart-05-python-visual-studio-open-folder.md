@@ -43,6 +43,8 @@ Follow these steps to open a local folder with existing Python code in Visual St
 
    :::image type="content" source="media/quickstart-open-folder/open-local-folder.png" alt-text="Screenshot that shows how to select the Open a local folder option when Visual Studio starts." border="false" lightbox="media/quickstart-open-folder/open-local-folder.png":::
 
+   If you're using the `python_koans` repository example code, make sure to select the _python3_ folder within the clone folder.
+
    ::: moniker-end
 
    If Visual Studio is already running, you can select **File** > **Open** > **Folder** instead.
@@ -60,7 +62,7 @@ Follow these steps to open a local folder with existing Python code in Visual St
 
    ::: moniker-end
 
-1. Visual Studio displays the folder in **Solution Explorer** in the **Folder View**. You can expand and collapse a folder by using the arrow to the left of the folder name:
+1. Visual Studio displays the files in **Solution Explorer** in the **Folder View**. You can expand and collapse a folder by using the arrow to the left of the folder name:
 
    ::: moniker range=">=vs-2022"
 
@@ -117,7 +119,7 @@ After you open the existing Python code in Visual Studio, you can run the progra
    ::: moniker-end
    ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/quickstart-open-folder/start-debug-from-toolbar.png" alt-text="Screenshot that shows how to start the program with debugging by using the solid play arrow on the Visual Studio." border="false" lightbox="media/quickstart-open-folder/start-debug-from-toolbar.png":::
+   :::image type="content" source="media/quickstart-open-folder/start-debug-from-toolbar.png" alt-text="Screenshot that shows how to start the program with debugging by using the solid play arrow on the Visual Studio." lightbox="media/quickstart-open-folder/start-debug-from-toolbar.png":::
 
    ::: moniker-end
 
@@ -159,7 +161,7 @@ In such cases, you must also add a line to the launch configuration JSON file to
 
 1. In **Solution Explorer**, right-click the Python (_.py_) Startup File and select **Add Debug Configuration**:
 
-   :::image type="content" source="media/quickstart-open-folder/vs-2022/debug-launch-settings.png" alt-text="Screenshot that shows how to select the Add Debug Configuration option for a selected file in Solution Explorer in Visual Studio 2022.":::
+   :::image type="content" source="media/quickstart-open-folder/vs-2022/add-debug-configuration.png" alt-text="Screenshot that shows how to select the Add Debug Configuration option for a selected file in Solution Explorer in Visual Studio 2022." border="false" source="media/quickstart-open-folder/vs-2022/add-debug-configuration.png":::
 
 1. In the **Select Debugger** dialog, select the **Default** option in the list, and then choose **Select**:
 
