@@ -28,11 +28,10 @@ struct DiaAddressMapEntry {
 
 ## Elements
 
-`rva`
-A relative virtual address (RVA) in image A.
-
-`rvaTo`
-The relative virtual address `rva` is mapped to in image B.
+| Element | Description                                                 |
+| ------- | ----------------------------------------------------------- |
+| `rva`   | A relative virtual address (RVA) in image A.                |
+| `rvaTo` | The relative virtual address `rva` is mapped to in image B. |
 
 ## Remarks
 
