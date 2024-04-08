@@ -65,7 +65,7 @@ typedef enum CV_CFL_LANG {
 | CV_CFL_ILASM    | Application language is intermediate language assembly</br> (this is, Common Language Runtime (CLR) assembly).    |
 | CV_CFL_JAVA     | Application language is Java.                                                               |
 | CV_CFL_JSCRIPT  | Application language is Jscript.                                                            |
-| CV_CFL_MSIL     | Application language is an unknown Microsoft Intermediate Language (MSIL),</br> possibly a result of using the [/LTCG (Link-time Code Generation)](/cpp/build/reference/ltcg-link-time-code-generation) switch. |
+| CV_CFL_MSIL     | Application language is an unknown Microsoft Intermediate Language (MSIL), possibly a result of using the [/LTCG (Link-time Code Generation)](/cpp/build/reference/ltcg-link-time-code-generation) switch. |
 | CV_CFL_HLSL     | Application language is High Level Shader Language.                                         |
 | CV_CFL_OBJC     | Application language is Objective-C.                                                        |
 | CV_CFL_OBJCXX   | Application language is Objective-C++.                                                      |
