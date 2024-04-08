@@ -75,7 +75,7 @@ Follow these steps to open a local folder with existing Python code in Visual St
 
    ::: moniker-end
 
-1. When you open a Python folder, Visual Studio creates several hidden folders to manage settings related to the program. To see these folders (and any other hidden files and folders, such as the `.git` folder), select the **Show All Files** toolbar option:
+1. When you open a Python folder, Visual Studio creates several hidden folders to manage settings related to the program. To see these folders (and any other hidden files and folders, such as the _.git_ folder), select the **Show All Files** toolbar option:
 
    ::: moniker range=">=vs-2022"
 
@@ -110,14 +110,16 @@ After you open the existing Python code in Visual Studio, you can run the progra
 
 1. Run the code by selecting **Debug** > **Start without Debugging** or use the keyboard shortcut **Ctrl**+**F5**. You can also select the solid play arrow next to the Startup Item name on the Visual Studio toolbar. This option runs the code in the Visual Studio **Debugger**.
 
-   For all of these start methods, Visual Studio detects that your Startup Item is a Python file and automatically runs the code in the default Python environment. The current environment is shown to the right of the Startup Item name on the toolbar:
-
    ::: moniker range=">=vs-2022"
+
+   For all of these start methods, Visual Studio detects that your Startup Item is a Python file and automatically runs the code in the default Python environment. The current environment is shown to the right of the Startup Item name on the toolbar. In the following example, the current environment is **Python 3.11 (64-bit)**:
 
    :::image type="content" source="media/quickstart-open-folder/vs-2022/start-debug-from-toolbar.png" alt-text="Screenshot that shows how to start the program with debugging by using the solid play arrow on the Visual Studio 2022 toolbar." border="false" lightbox="media/quickstart-open-folder/vs-2022/start-debug-from-toolbar.png":::
 
    ::: moniker-end
    ::: moniker range="<=vs-2019"
+
+   For all of these start methods, Visual Studio detects that your Startup Item is a Python file and automatically runs the code in the default Python environment. The current environment is shown to the right of the Startup Item name on the toolbar. In the following example, the current environment is **Python 3.6 (32-bit)**:
 
    :::image type="content" source="media/quickstart-open-folder/start-debug-from-toolbar.png" alt-text="Screenshot that shows how to start the program with debugging by using the solid play arrow on the Visual Studio." lightbox="media/quickstart-open-folder/start-debug-from-toolbar.png":::
 
@@ -170,7 +172,7 @@ In such cases, you must also add a line to the launch configuration JSON file to
    > [!NOTE]
    > If you don't see **Default** as an option, be sure to choose a Python _.py_ file when you select the **Add Debug Configuration** command. Visual Studio uses the file type to determine which debugger options to display.
 
-1. Visual Studio opens a file named _launch.vs.json_, which is located in the hidden `.vs` folder. This file describes the debugging context for the project. To specify a working directory, add a value for the `"workingDirectory"` property. For the `python-koans` example, you can add the property and value, `"workingDirectory": "python3"`:
+1. Visual Studio opens a file named _launch.vs.json_, which is located in the hidden _.vs_ folder. This file describes the debugging context for the project. To specify a working directory, add a value for the `"workingDirectory"` property. For the `python-koans` example, you can add the property and value, `"workingDirectory": "python3"`:
 
    ```json
    {
