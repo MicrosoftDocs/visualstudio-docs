@@ -35,7 +35,7 @@ In Visual Studio 2022 versions 17.8 to 17.9, GitHub Copilot and GitHub Copilot C
 
 You can get the **GitHub Copilot extension** in one of the following ways:
 
-- Install the GitHub Copilot extension using the [Visual Studio Installer](#install-using-the-visual-studio-installer)(**recommended**)
+- Install the GitHub Copilot extension using the [Visual Studio Installer](#install-using-the-visual-studio-installer) (**recommended**)
 - Install using the [Extension Manager](#install-using-the-manage-extensions-dialog-box)
 - Install directly from [Visual Studio Marketplace](#install-from-visual-studio-marketplace): [**GitHub Copilot on Marketplace**](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs)
 
@@ -92,10 +92,9 @@ Using the dropdown menu, you can easily open the Chat window, access Copilot set
 
 ### Copilot is inactive
 
-If Copilot is installed but in an inactive state:
+If Copilot is installed but in an inactive state, it may be because:
 -  you're not yet signed into Visual Studio with a GitHub account
-OR
--  your signed in GitHub account doesn't have an active [Copilot subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot). 
+-  your signed in GitHub account doesn't have an active [Copilot subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot)
 
 Select **Add GitHub Account with a Copilot Subscription** in the dropdown from the status icon to open **Account Settings** and sign in with a GitHub account that has an active subscription to use Copilot. When you're signed in, the Copilot status icon updates to active.
 
