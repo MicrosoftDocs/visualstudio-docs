@@ -11,7 +11,7 @@ dev_langs:
 ---
 # Visual C++ code snippets
 
-In Visual Studio, you can use code snippets to add commonly-used code to your C++ code files. 
+In Visual Studio, you can use code snippets to add commonly used code to your C++ code files. Code snippets can make writing program code quicker, easier, and more reliable.
 
 ## Complete list of C++ code snippets
 
@@ -73,7 +73,7 @@ The names of most C++ code snippets are self-explanatory, but some names might b
 
 ### Class, classi
 
-The **class** snippet provides the definition of a class named `MyClass`. The definitions of the appropriate default constructor and destructor are located outside the class.
+The `class` snippet provides the definition of a class named `MyClass`. The definitions of the appropriate default constructor and destructor are located outside the class.
 
 ```cpp
 class MyClass
@@ -95,7 +95,7 @@ MyClass::~MyClass()
 }
 ```
 
-The **classi** code snippet also provides the definition of a class named `MyClass`, but the default constructor and destructor are defined inside the class definition.
+The `classi` code snippet also provides the definition of a class named `MyClass`, but the default constructor and destructor are defined inside the class definition.
 
 ```cpp
 class MyClass
@@ -116,9 +116,9 @@ private:
 
 ### For, forr, rfor
 
-The three different **for** snippets provide different kinds of `for` loops.
+The three different `for` snippets provide different kinds of `for` loops.
 
-- The **rfor** snippet provides a [range-based for loop](/cpp/cpp/range-based-for-statement-cpp). This construct is preferred over index-based `for` loops.
+- The `rfor` snippet provides a [range-based for loop](/cpp/cpp/range-based-for-statement-cpp). This construct is preferred over index-based `for` loops.
 
   ```cpp
   for (auto& i : v)
@@ -127,7 +127,7 @@ The three different **for** snippets provide different kinds of `for` loops.
   }
   ```
 
-- The **for** snippet provides a `for` loop in which the condition is based on the length of an object in `size_t`.
+- The `for` snippet provides a `for` loop in which the condition is based on the length of an object in `size_t`.
 
   ```cpp
   for (size_t i = 0; i < length; i++)
@@ -136,7 +136,7 @@ The three different **for** snippets provide different kinds of `for` loops.
   }
   ```
 
-- The **forr** snippet provides a reverse `for` loop in which the condition is based on the length of an object in integers.
+- The `forr` snippet provides a reverse `for` loop in which the condition is based on the length of an object in integers.
 
   ```cpp
   for (int i = length - 1; i >= 0; i--)
@@ -147,7 +147,7 @@ The three different **for** snippets provide different kinds of `for` loops.
 
 ### The destructor snippet (~)
 
-The destructor snippet **~** shows different behavior in different contexts. If you insert this snippet inside a class, it provides a destructor for that class.
+The destructor snippet `~` shows different behavior in different contexts. If you insert this snippet inside a class, it provides a destructor for that class.
 
 For example, if you insert the destructor snippet inside a class named `SomeClass`, it provides a destructor for `SomeClass`.
 

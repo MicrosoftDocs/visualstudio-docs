@@ -19,7 +19,8 @@ Code snippets are preauthored pieces of code that are ready to insert into your 
 
 This article provides a reference to the Visual Studio IntelliSense Code Snippet XML schema. You can use the schema to create your own code snippets and add them to the code snippets that Visual Studio already includes.
 
-For more information on creating code snippets, see [Walkthrough: Create a code snippet in Visual Studio](walkthrough-creating-a-code-snippet.md). For information about the code snippets that Visual Studio includes by default, see [C# code snippets](visual-csharp-code-snippets.md) or [Visual C++ code snippets](visual-cpp-code-snippets.md).
+- For more information on creating code snippets, see [Walkthrough: Create a code snippet in Visual Studio](walkthrough-creating-a-code-snippet.md).
+- For information about the code snippets that Visual Studio includes by default, see [C# code snippets](visual-csharp-code-snippets.md) or [Visual C++ code snippets](visual-cpp-code-snippets.md).
 
 ## Assembly element
 
@@ -150,12 +151,12 @@ Allows you to specify a heading and multiple code snippets, which you can insert
 
 |Attribute|Description|
 |---------------|-----------------|
-|`Format`|*Required* attribute. Specifies the schema version of the code snippet. The `Format` attribute must be a string in the syntax of `x.x.x`, where each `x` represents a numerical value of the version number. Visual Studio ignores code snippets with `Format` attributes that it doesn't understand.|
+|**Format**|*Required* attribute. Specifies the schema version of the code snippet. The **Format** attribute must be a string in the syntax of `x.x.x`, where each `x` represents a numerical value of the version number. Visual Studio ignores code snippets with **Format** attributes that it doesn't understand.|
 
 |Child element|Description|
 |-------------------|-----------------|
 |[Header element](#header-element)|*Required* element. Contains general information about the code snippet. There must be exactly one `Header` element in a code snippet.|
-|[Snippet element](#snippet-element)|*Required* element. Contains the code that will be inserted by Visual Studio. There must be exactly one `Snippet` element in a code snippet.|
+|[Snippet element](#snippet-element)|*Required* element. Contains the code to be inserted by Visual Studio. There must be exactly one `Snippet` element in a code snippet.|
 
 |Parent element|Description|
 | - |-----------------|
@@ -266,12 +267,12 @@ Specifies general information about the code snippet.
 
 |Child element|Description|
 |-------------------|-----------------|
-|[Author element](#author-element)|Optional element. The name of the person or company that authored the code snippet. There may be zero or one `Author` elements in a `Header` element.|
-|[Description element](#description-element)|Optional element. A description of the code snippet. There may be zero or one `Description` elements in a `Header` element.|
-|[HelpUrl element](#helpurl-element)|Optional element. A URL that contains more information about the code snippet. There may be zero or one `HelpURL` elements in a `Header` element.|
-|[Keywords element](#keywords-element)|Optional element. Groups `Keyword` elements. There may be zero or one `Keywords` elements in a `Header` element.|
-|[Shortcut element](#shortcut-element)|Optional element. Specifies the shortcut text that can be used to insert the snippet. There may be zero or one `Shortcut` elements in a `Header` element.|
-|[SnippetTypes element](#snippettypes-element)|Optional element. Groups `SnippetType` elements. There may be zero or one `SnippetTypes` elements in a `Header` element. If there are no `SnippetTypes` elements, the code snippet is always valid.|
+|[Author element](#author-element)|Optional element. The name of the person or company that authored the code snippet. There may be zero or one `Author` element in a `Header` element.|
+|[Description element](#description-element)|Optional element. A description of the code snippet. There may be zero or one `Description` element in a `Header` element.|
+|[HelpUrl element](#helpurl-element)|Optional element. A URL that contains more information about the code snippet. There may be zero or one `HelpURL` element in a `Header` element.|
+|[Keywords element](#keywords-element)|Optional element. Groups `Keyword` elements. There may be zero or one `Keywords` element in a `Header` element.|
+|[Shortcut element](#shortcut-element)|Optional element. Specifies the shortcut text that can be used to insert the snippet. There may be zero or one `Shortcut` element in a `Header` element.|
+|[SnippetTypes element](#snippettypes-element)|Optional element. Groups `SnippetType` elements. There may be zero or one `SnippetTypes` element in a `Header` element. If there are no `SnippetTypes` elements, the code snippet is always valid.|
 |[Title element](#title-element)|*Required* element. The friendly name of the code snippet. There must be exactly one `Title` element in a `Header` element.|
 
 |Parent element|Description|
@@ -368,7 +369,7 @@ A text value is required. The keyword for the code snippet.
 
 ## Keywords element
 
-Groups individual `Keyword` elements. The code snippet keywords are used by Visual Studio and represent a standard way for online content providers to add custom keywords for searching or categorization
+Groups individual `Keyword` elements. The code snippet keywords are used by Visual Studio and represent a standard way for online content providers to add custom keywords for searching or categorization.
 
 ```xml
 <Keywords>
@@ -387,7 +388,7 @@ Groups individual `Keyword` elements. The code snippet keywords are used by Visu
 
 ## Literal element
 
-Defines the literals of the code snippet that you can edit. The `Literal` element identifies a replacement for a piece of code that's entirely contained within the snippet, but can be customized after the snippet is inserted. For example, literal strings, numeric values, and some variable names should be declared as literals.
+Defines the literals of the code snippet that you can edit. The `Literal` element identifies a replacement for a piece of code entirely contained within the snippet that can be customized after the snippet is inserted. For example, literal strings, numeric values, and some variable names should be declared as literals.
 
 Literals and objects can't contain an `ID` element with a value of `selected` or `end`. The value `$selected$` represents selected document text to be inserted into the snippet when the snippet is invoked. `$end$` marks the location to place the cursor after the code snippet is inserted.
 
@@ -402,14 +403,14 @@ Literals and objects can't contain an `ID` element with a value of `selected` or
 
 |Attribute|Description|
 |---------------|-----------------|
-|`Editable`|Optional `Boolean` attribute. Specifies whether or not you can edit the literal after the code snippet is inserted. The default value of this attribute is `true`.|
+|**Editable**|Optional `Boolean` attribute. Specifies whether or not you can edit the literal after the code snippet is inserted. The default value of this attribute is `true`.|
 
 |Child element|Description|
 |-------------------|-----------------|
 |[Default element](#default-element)|*Required* element. Specifies the literal's default value when you insert the code snippet. There must be exactly one `Default` element in a `Literal` element.|
-|[Function element](#function-element)|Optional element. Specifies a function to execute when the literal receives focus in Visual Studio. There may be zero or one `Function` elements in a `Literal` element.|
+|[Function element](#function-element)|Optional element. Specifies a function to execute when the literal receives focus in Visual Studio. There may be zero or one `Function` element in a `Literal` element.|
 |[ID element](#id-element)|*Required* element. Specifies a unique identifier for the literal. There must be exactly one `ID` element in a `Literal` element.|
-|[ToolTip element](#tooltip-element)|Optional element. Describes the expected value and usage of the literal. There may be zero or one `ToolTip` elements in a `Literal` element.|
+|[ToolTip element](#tooltip-element)|Optional element. Describes the expected value and usage of the literal. There may be zero or one `ToolTip` element in a `Literal` element.|
 
 |Parent element|Description|
 | - |-----------------|
@@ -433,7 +434,7 @@ A text value is required. This text specifies a namespace that the code snippet 
 
 ## Object element
 
-Defines the objects of the code snippet that you can edit. The `Object` element identifies an item that's required by the code snippet but is defined outside of the snippet itself. For example, Windows Forms controls, ASP.NET controls, object instances, and type instances should be declared as objects. Object declarations require a type to be specified, which is done with the `Type` element.
+Defines the objects of the code snippet that you can edit. The `Object` element identifies an item required by the code snippet that's defined outside of the snippet itself. For example, Windows Forms controls, ASP.NET controls, object instances, and type instances should be declared as objects. Object declarations require a type to be specified, which is done with the `Type` element.
 
 ```xml
 <Object Editable="true/false">
@@ -447,14 +448,14 @@ Defines the objects of the code snippet that you can edit. The `Object` element 
 
 |Attribute|Description|
 |---------------|-----------------|
-|`Editable`|Optional `Boolean` attribute. Specifies whether or not you can edit the literal after the code snippet is inserted. The default value of this attribute is `true`.|
+|**Editable**|Optional `Boolean` attribute. Specifies whether or not you can edit the literal after the code snippet is inserted. The default value of this attribute is `true`.|
 
 |Child element|Description|
 |-------------------|-----------------|
 |[Default element](#default-element)|*Required* element. Specifies the literal's default value when you insert the code snippet. There must be exactly one `Default` element in a `Literal` element.|
-|[Function element](#function-element)|Optional element. Specifies a function to execute when the literal receives focus in Visual Studio. There may be zero or one `Function` elements in a `Literal` element.|
+|[Function element](#function-element)|Optional element. Specifies a function to execute when the literal receives focus in Visual Studio. There may be zero or one `Function` element in a `Literal` element.|
 |[ID element](#id-element)|*Required* element. Specifies a unique identifier for the literal. There must be exactly one `ID` element in a `Literal` element.|
-|[ToolTip element](#tooltip-element)|Optional element. Describes the expected value and usage of the literal. There may be zero or one `ToolTip` elements in a `Literal` element.|
+|[ToolTip element](#tooltip-element)|Optional element. Describes the expected value and usage of the literal. There may be zero or one `ToolTip` element in a `Literal` element.|
 |[Type element](#type-element)|*Required* element. Specifies the type of the object. There must be exactly one `Type` element in an `Object` element.|
 
 |Parent element|Description|
@@ -475,7 +476,7 @@ Specifies information about the assembly references required by the code snippet
 |Child element|Description|
 |-------------------|-----------------|
 |[Assembly element](#assembly-element)|*Required* element. Contains the name of the assembly referenced by the code snippet. There must be exactly one `Assembly` element in a `Reference` element.|
-|[Url element](#url-element)|Optional element. Contains a URL that provides more information about the referenced assembly. There may be zero or one `Url` elements in a `Reference` element.|
+|[Url element](#url-element)|Optional element. Contains a URL that provides more information about the referenced assembly. There may be zero or one `Url` element in a `Reference` element.|
 
 |Parent element|Description|
 | - |-----------------|
@@ -534,9 +535,9 @@ Specifies the references, imports, declarations, and code for the code snippet.
 |Child element|Description|
 |-------------------|-----------------|
 |[Code element](#code-element)|*Required* element. Specifies the code that you want to insert into a documentation file. There must be exactly one `Code` element in a `Snippet` element.|
-|[Declarations element](#declarations-element)|Optional element. Specifies the literals and objects that make up the parts of a code snippet that you can edit. There may be zero or one `Declarations` elements in a `Snippet` element.|
-|[Imports element](#imports-element)|Optional element. Groups individual `Import` elements. There may be zero or one `Imports` elements in a `Snippet` element.|
-|[References element](#references-element)|Optional element. Groups individual `Reference` elements. There may be zero or one `References` elements in a `Snippet` element.|
+|[Declarations element](#declarations-element)|Optional element. Specifies the literals and objects that make up the parts of a code snippet that you can edit. There may be zero or one `Declarations` element in a `Snippet` element.|
+|[Imports element](#imports-element)|Optional element. Groups individual `Import` elements. There may be zero or one `Imports` element in a `Snippet` element.|
+|[References element](#references-element)|Optional element. Groups individual `Reference` elements. There may be zero or one `References` element in a `Snippet` element.|
 
 |Parent element|Description|
 | - |-----------------|
@@ -601,7 +602,7 @@ A text value is required. This text specifies the title of the code snippet.
 
 ## ToolTip element
 
-Describes the expected value and usage of a literal or object in a code snippet, which Visual Studio displays in a ToolTip when it inserts the code snippet into a project. The ToolTip text is displayed when the mouse hovers over the literal or object after the code snippet has been inserted.
+Describes the expected value and usage of a literal or object in a code snippet. Visual Studio displays this information in a ToolTip when it inserts the code snippet into a project. The ToolTip also displays when the mouse hovers over the literal or object after the code snippet is inserted.
 
 ```xml
 <ToolTip>
@@ -618,7 +619,7 @@ A text value is required. This text specifies the ToolTip description to be asso
 
 ## Type element
 
-Specifies the type of the object. The `Object` element is used to identify an item that's required by the code snippet but is probably defined outside of the snippet itself. For example, Windows Forms controls, ASP.NET controls, object instances, and type instances should be declared as objects. Object declarations require a type to be specified, which is done with the `Type` element.
+Specifies the type of the object. The `Object` element identifies an item that the code snippet requires but is probably defined outside of the snippet itself. For example, Windows Forms controls, ASP.NET controls, object instances, and type instances should be declared as objects. Object declarations require a type to be specified, which is done with the `Type` element.
 
 ```xml
 <Type>

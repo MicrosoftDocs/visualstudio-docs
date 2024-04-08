@@ -1,6 +1,6 @@
 ---
 title: C# code snippets
-description: Learn how to use code snippets to add commonly-used code to your C# code files.
+description: Learn how to use code snippets to add commonly used code to your C# code files.
 ms.date: 04/05/2024
 ms.topic: reference
 helpviewer_keywords:
@@ -15,7 +15,7 @@ ms.subservice: general-ide
 ---
 # C# code snippets
 
-In Visual Studio, you can use code snippets to add commonly-used code to your C# code files. Code snippets can make writing program code quicker, easier, and more reliable.
+In Visual Studio, you can use code snippets to add commonly used code to your C# code files. Code snippets can make writing program code quicker, easier, and more reliable.
 
 *Expansion* code snippets are added at specified insertion points. *Surround-with* code snippets are added around selected code, and are available for C# and C++ only. For instructions on how to insert or surround code with code snippets, see [Code snippets](code-snippets.md).
 
@@ -39,7 +39,7 @@ Code snippets work much the same way in C# and C++, but the set of default code 
 |equals|Creates a method declaration that overrides the <xref:System.Object.Equals%2A> method defined in the <xref:System.Object> class.|Inside a class or a struct.|
 |exception|Creates a declaration for a class that derives from an exception (<xref:System.Exception> by default).|Inside a namespace (including the global namespace), a class, or a struct.|
 |for|Creates a [for](/dotnet/csharp/language-reference/statements/iteration-statements#the-for-statement) loop.|Inside a method, an indexer, a property accessor, or an event accessor.|
-|foreach|Creates a [foreach](/csharp/language-reference/statements/iteration-statements#the-foreach-statement) loop.|Inside a method, an indexer, a property accessor, or an event accessor.|
+|foreach|Creates a [foreach](/dotnet/csharp/language-reference/statements/iteration-statements#the-foreach-statement) loop.|Inside a method, an indexer, a property accessor, or an event accessor.|
 |forr|Creates a [for](/dotnet/csharp/language-reference/statements/iteration-statements#the-for-statement) loop that decrements the loop variable after each iteration.|Inside a method, an indexer, a property accessor, or an event accessor.|
 |if|Creates an [if](/dotnet/csharp/language-reference/statements/selection-statements#the-if-statement) block.|Inside a method, an indexer, a property accessor, or an event accessor.|
 |indexer|Creates an indexer declaration.|Inside a class or a struct.|
@@ -50,14 +50,14 @@ Code snippets work much the same way in C# and C++, but the set of default code 
 |lock|Creates a [lock](/dotnet/csharp/language-reference/statements/lock) block.|Inside a method, an indexer, a property accessor, or an event accessor.|
 |mbox|Creates a call to <xref:System.Windows.Forms.MessageBox.Show%2A?displayProperty=fullName>. You might have to add a reference to *System.Windows.Forms.dll*.|Inside a method, an indexer, a property accessor, or an event accessor.|
 |namespace|Creates a [namespace](/dotnet/csharp/language-reference/keywords/namespace) declaration.|Inside a namespace, including the global namespace.|
-|prop|Creates an [auto-implemented property](/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties) declaration.|Inside a class or a struct.|
+|prop|Creates an [autoimplemented property](/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties) declaration.|Inside a class or a struct.|
 |propfull|Creates a property declaration with `get` and `set` accessors.|Inside a class or a struct.|
-|propg|Creates a read-only [auto-implemented property](/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties) with a private `set` accessor.|Inside a class or a struct.|
+|propg|Creates a read-only [autoimplemented property](/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties) with a private `set` accessor.|Inside a class or a struct.|
 |sim|Creates a [static](/dotnet/csharp/language-reference/keywords/static) [int](/dotnet/csharp/language-reference/builtin-types/integral-numeric-types) Main method declaration.|Inside a class or a struct.|
 |struct|Creates a [struct](/dotnet/csharp/language-reference/builtin-types/struct) declaration.|Inside a namespace (including the global namespace), a class, or a struct.|
 |svm|Creates a [static](/dotnet/csharp/language-reference/keywords/static) [void](/dotnet/csharp/language-reference/builtin-types/void) Main method declaration.|Inside a class or a struct.|
 |switch|Creates a [switch](/dotnet/csharp/language-reference/statements/selection-statements#the-switch-statement) block.|Inside a method, an indexer, a property accessor, or an event accessor.|
-|try|Creates a [try-catch](/csharp/language-reference/statements/exception-handling-statements#the-try-catch-statement) block.|Inside a method, an indexer, a property accessor, or an event accessor.|
+|try|Creates a [try-catch](/dotnet/csharp/language-reference/statements/exception-handling-statements#the-try-catch-statement) block.|Inside a method, an indexer, a property accessor, or an event accessor.|
 |tryf|Creates a [try-finally](/dotnet/csharp/language-reference/statements/exception-handling-statements#the-try-finally-statement) block.|Inside a method, an indexer, a property accessor, or an event accessor.|
 |unchecked|Creates an [unchecked](/dotnet/csharp/language-reference/statements/checked-and-unchecked) block.|Inside a method, an indexer, a property accessor, or an event accessor.|
 |unsafe|Creates an [unsafe](/dotnet/csharp/language-reference/keywords/unsafe) block.|Inside a method, an indexer, a property accessor, or an event accessor.|
