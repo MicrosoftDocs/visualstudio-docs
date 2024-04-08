@@ -19,17 +19,17 @@ In version 17.10, we're introducing two new features to disable Copilot, ensurin
 Project administrators can disable Copilot for individual accounts or disabled Copilot altogether via the [Visual Studio Administrative Templates (ADMX/ADML)](https://www.microsoft.com/en-us/download/details.aspx?id=104405). These features provide administrators with greater control over the use of Copilot within their organization.
 
 
-To configure and deploy these policies, you can use [Microsoft Intune](https://learn.microsoft.com/en-us/visualstudio/install/administrative-templates?view=vs-2022#deploying-the-policies&preserve-view=true) or the Local Group Policy Editor directly on the client machine.
+To configure and deploy these policies, you can use [Microsoft Intune](../install/administrative-templates.md#deploying-the-policies) or the Local Group Policy Editor directly on the client machine.
 
 
 ### Configure Copilot group policy
 
-1. Head over to the Microsoft Download Center and grab the Visual Studio [Group Policy Administrative Template files (ADMX/ADML)](https://www.microsoft.com/en-us/download/details.aspx?id=104405). It’ll ask you where you want the files to be downloaded, please ensure the location is ‘C:\Windows\PolicyDefinitions'.
+1. Head over to the Microsoft Download Center and grab the Visual Studio [Group Policy Administrative Template files (ADMX/ADML)](https://www.microsoft.com/en-us/download/details.aspx?id=104405). It asks you where you want the files to be downloaded, ensure the location is `C:\Windows\PolicyDefinitions`.
 
 
 2. Open the **Windows Local Group Policy Editor**, Navigate to Computer Configuration > Administrative Templates > Visual Studio > **Copilot Settings** and select a group policy.
 
-   :::image type="content" source="media/vs-2022/copilot-inbox/Intune-Group-Poilcy.png" alt-text="Screenshot of Group Policy to block copilot for indivduals." lightbox="media/vs-2022/copilot-inbox/Intune-Group-Poilcy.png":::
+   :::image type="content" source="media/vs-2022/copilot-inbox/Intune-Group-Poilcy.png" alt-text="Screenshot of Group Policy to block copilot for individuals." lightbox="media/vs-2022/copilot-inbox/Intune-Group-Poilcy.png":::
 
 3. Once you select your group policy, configure the policy to enable or disable.
    

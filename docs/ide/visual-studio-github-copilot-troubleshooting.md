@@ -13,8 +13,6 @@ monikerRange: vs-2022
 # Troubleshooting GitHub Copilot in Visual Studio 2022 (Version 17.10 Preview 3 or Higher)
 If you encounter the message **“Copilot is temporarily unreachable”** from your GitHub Copilot badge on the top right of your IDE. 
 
-_Applies to:_&nbsp;Visual Studio
-
 This troubleshooting guide includes instructions to resolve issues with GitHub Copilot.
 GitHub Copilot badge in the upper-right corner of the Visual Studio environment showing the message **Copilot is temporarily unreachable** indicates GitHub Copilot is offline.
 
