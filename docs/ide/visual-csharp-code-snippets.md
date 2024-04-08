@@ -29,7 +29,7 @@ Code snippets work much the same way in C# and C++, but the set of default code 
 |#region|Creates a [#region](/dotnet/csharp/language-reference/preprocessor-directives#defining-regions) directive and a [#endregion](/dotnet/csharp/language-reference/preprocessor-directives#defining-regions) directive.|Anywhere.|
 |~|Creates a [finalizer](/dotnet/csharp/programming-guide/classes-and-structs/finalizers) (destructor) for the containing class.|Inside a class.|
 |attribute|Creates a declaration for a class that derives from <xref:System.Attribute>.|Inside a namespace (including the global namespace), a class, or a struct.|
-|checked|Creates a [checked](/csharp/language-reference/statements/checked-and-unchecked) block.|Inside a method, an indexer, a property accessor, or an event accessor.|
+|checked|Creates a [checked](/dotnet/csharp/language-reference/statements/checked-and-unchecked) block.|Inside a method, an indexer, a property accessor, or an event accessor.|
 |class|Creates a class declaration.|Inside a namespace (including the global namespace), a class, or a struct.|
 |ctor|Creates a constructor for the containing class.|Inside a class.|
 |cw|Creates a call to <xref:System.Console.WriteLine%2A>.|Inside a method, an indexer, a property accessor, or an event accessor.|
