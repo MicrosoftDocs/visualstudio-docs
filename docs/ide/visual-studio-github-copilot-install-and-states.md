@@ -13,7 +13,7 @@ monikerRange: '>= vs-2022'
 
 **GitHub Copilot Completions** and **GitHub Copilot Chat** in Visual Studio enable enhanced [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md), helping you be more productive and efficient when writing code.
 
-In this article, you learn how to install GitHub Copilot. If you're using [Visual Studio 2022 version 17.10 Preview 3 or later](/visualstudio/releases/2022/release-notes-preview), you learn to use the Copilot badge in the IDE to manage your Copilot state.
+In this article, you learn how to install GitHub Copilot in Visual Studio. If you're using [Visual Studio 2022 version 17.10 Preview 3 or later](/visualstudio/releases/2022/release-notes-preview), you learn to use the Copilot badge in the IDE to manage your Copilot state.
  
 ## Get GitHub Copilot for Visual Studio 2022 version 17.10 Preview 3 or later
 
