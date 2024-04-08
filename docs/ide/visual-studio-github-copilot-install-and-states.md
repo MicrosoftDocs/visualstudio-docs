@@ -26,7 +26,7 @@ It's installed by default with all workloads. If you choose to exclude it during
 
 ## Get GitHub Copilot for Visual Studio 2022 versions 17.6 to 17.9 
 
-In Visual Studio 2022 versions 17.6 to 17.9, GitHub Copilot and GitHub Copilot Chat are available to install as two separate extensions. Installing GitHub Copilot extension is a prerequisite to installing GitHub Copilot Chat.
+In Visual Studio 2022 versions 17.8 to 17.9, GitHub Copilot and GitHub Copilot Chat are available to install as two separate extensions. Installing GitHub Copilot extension is a prerequisite to installing GitHub Copilot Chat.
 
 ### Install GitHub Copilot
 
@@ -119,5 +119,5 @@ If you choose to not install Copilot, you can select **Hide Copilot** from the d
 
 To learn more, consider exploring the following resources:
 
-[Get started with GitHub Copilot in Visual Studio](visual-studio-github-copilot-extension.md)
+[Get started with GitHub Copilot Completions in Visual Studio](visual-studio-github-copilot-extension.md)
 [Get started with GitHub Copilot Chat in Visual Studio](visual-studio-github-copilot-chat.md)
