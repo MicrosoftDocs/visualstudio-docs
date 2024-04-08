@@ -65,16 +65,16 @@ enum SymTagEnum {
 | Element    | Description                                                                                            |
 -------------------------- | ---------------------------------------------------------------------------------------- |
 | `SymTagNull`             | Indicates that the symbol has no type.                                                   |                            
-| `SymTagExe`              | Indicates that the symbol is an .exe file. There is only one `SymTagExe` symbol per symbol store. It serves as the global scope and does not have a lexical parent.                  |
-| `SymTagCompiland`        | Indicates the compiland symbol for each compiland component of the symbol store. For native applications, `SymTagCompiland` symbols correspond to the object files linked into the image. For some kinds of Microsoft Intermediate Language (MSIL) images there is one compiland per class. |
-| `SymTagCompilandDetails` | Indicates that the symbol contains extended attributes of the compiland. Retrieving these properties may require loading compiland symbols.                                |
+| `SymTagExe`              | Indicates that the symbol is an .exe file.</br>There is only one `SymTagExe` symbol per symbol store.</br>It serves as the global scope and does not have a lexical parent.                  |
+| `SymTagCompiland`        | Indicates the compiland symbol for each compiland component of the symbol store.</br>For native applications, `SymTagCompiland` symbols correspond to the object files linked into the image. For some kinds of Microsoft Intermediate Language (MSIL) images, there is one compiland per class. |
+| `SymTagCompilandDetails` | Indicates that the symbol contains extended attributes of the compiland.</br>Retrieving these properties may require loading compiland symbols.                                |
 | `SymTagCompilandEnv`     | Indicates that the symbol is an environment string defined for the compiland.             |
 | `SymTagFunction`         | Indicates that the symbol is a function.                                                  |
 | `SymTagBlock`            | Indicates that the symbol is a nested block.                                              |
 | `SymTagData`             | Indicates that the symbol is data.                                                        |
-| `SymTagAnnotation`       | Indicates that the symbol is for a code annotation. Children of this symbol are constant data strings (`SymTagData` `LocIsConstant` `DataIsConstant`). Most clients ignore this symbol.                                                                    |
+| `SymTagAnnotation`       | Indicates that the symbol is for a code annotation.</br>Children of this symbol are constant data strings (`SymTagData`, `LocIsConstant`, and `DataIsConstant`).</br>Most clients ignore this symbol.                                                                    |
 | `SymTagLabel`            | Indicates that the symbol is a label.                                                     |
-| `SymTagPublicSymbol`     | Indicates that the symbol is a public symbol. For native applications this symbol is the COFF external symbol encountered while linking the image.                                                                                                                 |
+| `SymTagPublicSymbol`     | Indicates that the symbol is a public symbol. For native applications,</br>this symbol is the COFF external symbol encountered while linking the image.                                                                                                                 |
 | `SymTagUDT`              | Indicates that the symbol is a user-defined type (structure, class, or union).            |
 | `SymTagEnum`             | Indicates that the symbol is an enumeration.                                              |
 | `SymTagFunctionType`     | Indicates that the symbol is a function signature type.                                   |
@@ -97,10 +97,10 @@ enum SymTagEnum {
 | `SymTagDimension`        | Indicates that the symbol is a FORTRAN multi-dimensional array.                           |
 | `SymTagCallSite`         | Indicates that the symbol represents the call site.                                       |
 | `SymTagInlineSite`       | Indicates that the symbol represents the inline site.                                     |
-| `SymTagBaseInterface`    | Indicates that the symbol is a base interface.                                                                                                                                                                                                                                             |                              |                            |
-| `SymTagVectorType`       | Indicates that the symbol is a vector type.                                                                                                                                                                                                                                                |                              |                            |
-| `SymTagMatrixType`       | Indicates that the symbol is a matrix type.                                                                                                                                                                                                                                                |                              |                            |
-| `SymTagHLSLType`         | Indicates that the symbol is a High Level Shader Language type.                                                                                                                                                                                                                            |                              |                            |
+| `SymTagBaseInterface`    | Indicates that the symbol is a base interface.                                            |
+| `SymTagVectorType`       | Indicates that the symbol is a vector type.                                               |
+| `SymTagMatrixType`       | Indicates that the symbol is a matrix type.                                               |
+| `SymTagHLSLType`         | Indicates that the symbol is a High Level Shader Language type.                           |
 
 ## Remarks
 All symbols within a debug file have an identifying tag that specifies the symbol's type.
