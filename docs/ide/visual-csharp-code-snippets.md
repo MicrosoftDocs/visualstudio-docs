@@ -15,11 +15,11 @@ ms.subservice: general-ide
 ---
 # C# code snippets
 
-In Visual Studio, you can use code snippets to add commonly-used code to your C# code files. An *expansion* snippet is added at a specified insertion point. A *surround-with* snippet is added around selected code, and is available only for C# and C++. For instructions on how to insert or surround code with code snippets, see [Code snippets](code-snippets.md).
+In Visual Studio, you can use code snippets to add commonly-used code to your C# code files. *Expansion* snippets are added at specified insertion points. *Surround-with* snippets are added around selected code, and are available for C# and C++ only. For instructions on how to insert or surround code with code snippets, see [Code snippets](code-snippets.md).
 
 ## Code snippet reference
 
-Code snippets work much the same way in C# and C++, but the set of default code snippets is different. The following code snippets are included in Visual Studio for C# by default:
+Code snippets work much the same way in C# and C++, but the set of default code snippets is different. The following C# code snippets are included in Visual Studio by default:
 
 |Name or shortcut|Description|Valid insertion locations|
 | - |-----------------| - |
@@ -62,11 +62,9 @@ Code snippets work much the same way in C# and C++, but the set of default code 
 |using|Creates a [using](/dotnet/csharp/language-reference/keywords/using-directive) directive.|Inside a namespace, including the global namespace.|
 |while|Creates a [while](/dotnet/csharp/language-reference/statements/iteration-statements#the-while-statement) loop.|Inside a method, an indexer, a property accessor, or an event accessor.|
 
-## Code snippet functions
+## C# code snippet functions
 
-Functions are specified in the [Function](code-snippets-schema-reference.md#function-element) element of the code snippet. For more information on creating code snippets, see [Walkthrough: Create a code snippet in Visual Studio](walkthrough-creating-a-code-snippet.md).
-
-The following table describes the three functions available to use with the `Function` element in C# code snippets.
+Functions are specified in the [Function](code-snippets-schema-reference.md#function-element) element of the code snippet. The following table describes the three functions available to use with the `Function` element in C# code snippets.
 
 |Function|Description|
 |--------------|-----------------|
@@ -201,3 +199,5 @@ This example shows how to use the `SimpleTypeName` function. When you insert thi
 - [Code snippets](code-snippets.md)
 - [Code snippets schema reference](code-snippets-schema-reference.md)
 - [Template parameters](template-parameters.md)
+- [Walkthrough: Create a code snippet in Visual Studio](walkthrough-creating-a-code-snippet.md)
+

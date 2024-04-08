@@ -13,12 +13,15 @@ dev_langs:
 
 In Visual Studio, you can use code snippets to add commonly-used code to your C++ code files. 
 
+## Complete list of C++ code snippets
 
-In Visual Studio, you can use code snippets to add commonly-used code to your C++ code files. 
+Code snippets work much the same way in C++ and C#, but the set of default code snippets is different. To see the list of available C++ code snippets, select **Tools** > **Code Snippets Manager** from the Visual Studio menu bar, or press **Ctrl**+**K**, **B**, and then select **Visual C++** from the **Language** dropdown menu.
+
+Expand the **Visual C++** folder to see the names of all the C++ code snippets in alphabetical order. Select a snippet to see information about the snippet. For more information about code snippets, see [Code snippets](code-snippets.md).
 
 ## Expansion snippets and surround-with snippets
 
-You can either insert an *expansion* code snippet at a particular location in your code, or surround selected code with a *surround-with* code snippet. For more information about using code snippets, see [Code snippets](code-snippets.md).
+You can insert *expansion* code snippets at particular locations in your code, or surround selected code with *surround-with* code snippets. 
 
 ### Insert a code snippet
 
@@ -64,11 +67,7 @@ To surround selected code with a code snippet:
 
 1. Replace the `0` with the correct condition.
 
-## Complete list of C++ code snippets
-
-Code snippets work much the same way in C++ and C#, but the set of default code snippets is different. To see the list of available C++ code snippets, select **Tools** > **Code Snippets Manager** from the menu bar, or press **Ctrl**+**K**, **B**, and then select **Visual C++** from the **Language** dropdown menu. The names of all the C++ code snippets appear in alphabetical order.
-
-## C++ code snippet names
+## C++ code snippet usage
 
 The names of most C++ code snippets are self-explanatory, but some names might be confusing.
 
