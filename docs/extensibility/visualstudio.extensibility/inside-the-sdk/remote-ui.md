@@ -378,7 +378,7 @@ Update `MyToolWindowContent.xaml` to use the new properties in the data context.
 
 ![Diagram of tool window with two-way binding and a command.](./media/remote-ui-commands.gif)
 
-## Understanding Asynchronicity in Remote UI
+## Understanding asynchronicity in Remote UI
 
 The whole Remote UI communication for this tool window follows these steps:
 
