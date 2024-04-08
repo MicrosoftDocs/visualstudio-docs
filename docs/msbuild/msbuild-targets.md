@@ -237,7 +237,7 @@ Get the paths for the .NET Framework installation directory
 These paths are not used directly by this .targets file but are available for pre and
 post build steps.
 
-This is a generally overridden target, for example it is overriden in the Microsoft.NETFramework.targets file
+This is a generally overridden target. For example, it's overridden in the Microsoft.NETFramework.targets file.
 ===================================================
 <Target Name="GetFrameworkPaths"/>
 
