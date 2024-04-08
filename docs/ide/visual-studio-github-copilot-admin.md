@@ -33,7 +33,7 @@ To configure and deploy these policies, you can use [Microsoft Intune](../instal
 
 3. Once you select your group policy, configure the policy to enable or disable.
    
-   :::image type="content" source="media/vs-2022/copilot-inbox/CFI-group-poilcy.png" alt-text="Screenshot of Group Policy to block copilot for individuals." lightbox="media/vs-2022/copilot-inbox/CFI-group-poilcy.png":::
+   :::image type="content" source="media/vs-2022/copilot-inbox/CFI-group-poilcy.png" alt-text="Screenshot of configuring the Group Policy." lightbox="media/vs-2022/copilot-inbox/CFI-group-poilcy.png":::
 
 
 4. Restart your Visual Studio instance to pick up the new policy changes
