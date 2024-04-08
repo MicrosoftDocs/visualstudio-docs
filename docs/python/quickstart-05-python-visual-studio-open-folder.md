@@ -214,7 +214,7 @@ In such cases, you must also add a line to the launch configuration JSON file to
    > [!NOTE]
    > If you don't see **Default** as an option, be sure to choose a Python _.py_ file when you select the **Debug and Launch Settings** command. Visual Studio uses the file type to determine which debugger options to display.
 
-1. Visual Studio opens a file named _launch.vs.json_, which is located in the hidden `.vs` folder. This file describes the debugging context for the project. To specify a working directory, add a value for the `"workingDirectory"` property. For the `python-koans` example, you can add the property and value, `"workingDirectory": "python3"`:
+1. Visual Studio opens a file named _launch.vs.json_, which is located in the hidden _.vs_ folder. This file describes the debugging context for the project. To specify a working directory, add a value for the `"workingDirectory"` property. For the `python-koans` example, you can add the property and value, `"workingDirectory": "python3"`:
 
    ```json
    {
