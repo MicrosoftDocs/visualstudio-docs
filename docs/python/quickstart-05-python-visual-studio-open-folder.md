@@ -32,8 +32,6 @@ Visual Studio for Mac isn't currently supported. For more information, see [What
 
 Follow these steps to open a local folder with existing Python code in Visual Studio:
 
-::: moniker range=">=vs-2022"
-
 1. Launch Visual Studio. In the start window, select **Open a local folder** in the **Get started** column:
 
    ::: moniker range=">=vs-2022"
@@ -203,7 +201,7 @@ In such cases, you must also add a line to the launch configuration JSON file to
 
 1. In **Solution Explorer**, right-click the Python (_.py_) Startup File and select **Debug and Launch Settings**:
 
-   :::image type="content" source="media/quickstart-open-folder/debug-launch-settings.png" alt-text="Screenshot that shows how to select the Debug and Launch Settings option for a selected file in Solution Explorer in Visual Studio." border="false" source="media/quickstart-open-folder/debug-launch-settings.png" :::
+   :::image type="content" source="media/quickstart-open-folder/debug-launch-settings.png" alt-text="Screenshot that shows how to select the Debug and Launch Settings option for a selected file in Solution Explorer in Visual Studio." border="false" lightbox="media/quickstart-open-folder/debug-launch-settings.png" :::
 
 1. In the **Select Debugger** dialog, select the **Default** option in the list, and then choose **Select**:
 

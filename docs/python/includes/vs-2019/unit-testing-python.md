@@ -28,7 +28,7 @@ Visual Studio allows you to run and test existing Python code without a project,
 
 1. Open your existing Python code using the **Open a Local Folder** option.
 
-   ![The Visual Studio startup screen](../../media/quickstart-open-folder/01-open-local-folder.png)
+   ![The Visual Studio startup screen](../../media/quickstart-open-folder/open-local-folder.png)
 
 1. Within the Solution Explorer window, click the **Show All Files** icon to show all files in the current folder.
 
