@@ -20,9 +20,9 @@ In this article, you learn how to install GitHub Copilot. If you're using [Visua
 With [Visual Studio 2022 version 17.10 Preview 3](/visualstudio/releases/2022/release-notes-preview), GitHub Copilot and GitHub Copilot Chat are available to install as a single extension that combines both Copilot and Copilot Chat into one package. The unified GitHub Copilot extension is included as a built-in, recommended component by default in all workloads and is available through the Visual Studio Installer.
 
 To get the new unified GitHub Copilot extension:
-- Install [Visual Studio 2022 version 17.10 Preview 3 or later](/visualstudio/releases/2022/release-notes-preview). Make sure to leave the preselected **GitHub Copilot** selected.
+- Install [Visual Studio 2022 version 17.10 Preview 3 or later](/visualstudio/releases/2022/release-notes-preview). 
 
-It's installed by default with all workloads. If you choose to exclude it during installation, you can install it later by using the Visual Studio Installer to **modify** your installation, and selecting the **GitHub Copilot** component.
+It's installed by default with all workloads. If you choose to exclude it during installation, you can install it later by using the Visual Studio Installer to **modify** your installation, and selecting the **GitHub Copilot** component. If no workload is installed, you can install **GitHub Copilot** by selecting it from **Individual components** in the installer.
 
 ## Get GitHub Copilot for Visual Studio 2022 versions 17.6 to 17.9 
 
