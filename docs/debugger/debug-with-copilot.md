@@ -29,7 +29,7 @@ In addition, Copilot provides more precise help for a few targeted scenarios inc
 
 To get AI assistance while you're debugging in these scenarios, look for the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In these scenarios, Copilot already knows the context for your questions. For example, it knows the current call stack, the code line you are asking about, and the name of the exception (if one occurred), so you don't need to provide context yourself in chat.
 
-For more information on the GitHub Copilot extension in Visual Studio, see [About the GitHub Copilot extension for Visual Studio](../ide/visual-studio-github-copilot-extension.md).
+For more information on GitHub Copilot Completions in Visual Studio, see [About GitHub Copilot Completions in Visual Studio](../ide/visual-studio-github-copilot-extension.md).
 
 ## Prerequisites
 

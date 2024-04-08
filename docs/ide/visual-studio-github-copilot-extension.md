@@ -12,7 +12,7 @@ content_well_notification:
   - AI-contribution
 ai-usage: ai-assisted
 ---
-# What is the GitHub Copilot extension for Visual Studio?
+# What is GitHub Copilot Completions for Visual Studio?
 
 [**GitHub Copilot**](visual-studio-github-copilot-install-and-states.md) in Visual Studio enables enhanced [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md), helping you be more productive and efficient when writing code.
 
