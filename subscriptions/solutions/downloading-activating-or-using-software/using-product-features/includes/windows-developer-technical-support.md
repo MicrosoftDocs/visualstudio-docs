@@ -1,12 +1,12 @@
 ---
 title: Windows developer technical support
-description: Get technical support for Windows developer benefit
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+description: Get technical support for Windows developer benefit.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: 92d406c7-96e1-45a9-8259-d07d2a04a23e 
 author: evanwindom
 ms.author: amast
-ms.date: 08/16/2023
+ms.date: 04/08/2024
 user.type: subscriber
 tags: redirect
 subscription.type: vl, cloud, retail, partner
@@ -22,7 +22,7 @@ If you have a Windows technical or developer account issue, your question needs 
 Review tutorials, troubleshooting guides, helpful resources, and a range of other articles within [Windows technical documentation](https://learn.microsoft.com/windows/).
 
 ## Windows developer account
-Your Visual Studio subscription may include a Windows developer account. Activate your account by visiting the [subscriptions portal benefits page](https://my.visualstudio.com/Benefits) and clicking on the benefit tile. 
+Your Visual Studio subscription might include a Windows developer account. Activate your account by visiting the [subscriptions portal benefits page](https://my.visualstudio.com/Benefits) and clicking on the benefit tile. 
 
 Read more about the [Windows developer account benefit](https://learn.microsoft.com/visualstudio/subscriptions/vs-windows-dev). 
 

@@ -24,7 +24,6 @@ You can [download an extensive list](https://download.microsoft.com/download/1/5
 ## Find software downloads 
 1. Sign into the [subscriptions portal](https://my.visualstudio.com/benefits). 
 1. Go to the [featured downloads page](https://my.visualstudio.com/downloads/featured). 
-
 1. Here you see a list of popular downloads or search a specific product. Note: If you have more than one subscription associated with the same sign-in address, you  see the downloads included with the highest-level subscription, regardless of which subscription you're viewing.
 1. Select the “Get key” link to see all keys that are available for the product you want to download. Then select “Claim key” to claim a product key if the download requires a key to get started. 
 
