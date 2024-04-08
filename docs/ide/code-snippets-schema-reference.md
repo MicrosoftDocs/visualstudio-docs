@@ -61,7 +61,7 @@ Provides a container for short code blocks.
 
 ### Keywords
 
-Two reserved words are available for use in the text of the `Code` element: `$end$` and `$selected$`. `$end$` marks the location to place the cursor after the code snippet is inserted. `$selected$` represents selected text in the document to insert into the snippet when the snippet is invoked. For example, given a snippet that includes:
+Two reserved words are available for use in the text of the `Code` element: `$end$` and `$selected$`. `$end$` marks the location to place the cursor after the code snippet is inserted. `$selected$` represents selected document text to insert into the snippet when the snippet is invoked. For example, given a snippet that includes:
 
 ```text
 $selected$ is a great color.
@@ -618,7 +618,7 @@ A text value is required. This text specifies the ToolTip description to be asso
 
 ## Type element
 
-Specifies the type of the object. The `Object` element is used to identify an item that's required by the code snippet but can be defined outside of the snippet itself. For example, Windows Forms controls, ASP.NET controls, object instances, and type instances should be declared as objects. Object declarations require a type to be specified, which is done with the `Type` element.
+Specifies the type of the object. The `Object` element is used to identify an item that's required by the code snippet but is probably defined outside of the snippet itself. For example, Windows Forms controls, ASP.NET controls, object instances, and type instances should be declared as objects. Object declarations require a type to be specified, which is done with the `Type` element.
 
 ```xml
 <Type>

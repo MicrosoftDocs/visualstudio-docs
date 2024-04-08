@@ -15,7 +15,9 @@ ms.subservice: general-ide
 ---
 # C# code snippets
 
-In Visual Studio, you can use code snippets to add commonly-used code to your C# code files. *Expansion* snippets are added at specified insertion points. *Surround-with* snippets are added around selected code, and are available for C# and C++ only. For instructions on how to insert or surround code with code snippets, see [Code snippets](code-snippets.md).
+In Visual Studio, you can use code snippets to add commonly-used code to your C# code files. Code snippets can make writing program code quicker, easier, and more reliable.
+
+*Expansion* code snippets are added at specified insertion points. *Surround-with* code snippets are added around selected code, and are available for C# and C++ only. For instructions on how to insert or surround code with code snippets, see [Code snippets](code-snippets.md).
 
 ## Code snippet reference
 
