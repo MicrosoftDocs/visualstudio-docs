@@ -14,9 +14,9 @@ ai-usage: ai-assisted
 ---
 # What is the GitHub Copilot extension for Visual Studio?
 
-[**GitHub Copilot**](visual-studio-github-copilot-install-and-states.md) and [GitHub Copilot Chat](visual-studio-github-copilot-chat.md) extensions in Visual Studio enable enhanced [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md), helping you be more productive and efficient when writing code.
+[**GitHub Copilot**](visual-studio-github-copilot-install-and-states.md) in Visual Studio enables enhanced [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md), helping you be more productive and efficient when writing code.
 
-In this article, you learn about Copilot, an AI-powered pair programmer for Visual Studio that provides you with context-aware code completions, suggestions, and even entire code snippets. This powerful tool aids [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md) and helps developers write code more efficiently, reduce the time spent on repetitive tasks, and minimize errors.
+In this article, you learn about Copilot Completions, an AI-powered pair programmer for Visual Studio that provides you with context-aware code completions, suggestions, and even entire code snippets. This powerful tool aids [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md) and helps developers write code more efficiently, reduce the time spent on repetitive tasks, and minimize errors.
 
 For more information on GitHub Copilot Chat in Visual Studio, see [About GitHub Copilot Chat in Visual Studio](visual-studio-github-copilot-chat.md).
 

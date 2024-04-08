@@ -11,7 +11,7 @@ monikerRange: '>= vs-2022'
 ---
 # Install GitHub Copilot in Visual Studio
 
-**GitHub Copilot** and **GitHub Copilot Chat** in Visual Studio enable enhanced [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md), helping you be more productive and efficient when writing code.
+**GitHub Copilot Completions** and **GitHub Copilot Chat** in Visual Studio enable enhanced [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md), helping you be more productive and efficient when writing code.
 
 In this article, you learn how to install GitHub Copilot. If you're using [Visual Studio 2022 version 17.10 Preview 3 or later](/visualstudio/releases/2022/release-notes-preview), you learn to use the Copilot badge in the IDE to manage your Copilot state.
  
@@ -21,8 +21,11 @@ With [Visual Studio 2022 version 17.10 Preview 3](/visualstudio/releases/2022/re
 
 To get the new unified GitHub Copilot extension:
 - Install [Visual Studio 2022 version 17.10 Preview 3 or later](/visualstudio/releases/2022/release-notes-preview). 
+- Select at least one workload in the installer. Make sure to leave the preselected component **GitHub Copilot** selected.
+  OR
+  If no workload is selected, install **GitHub Copilot** by selecting it from **Individual components** in the installer.
 
-It's installed by default with all workloads. If you choose to exclude it during installation, you can install it later by using the Visual Studio Installer to **modify** your installation, and selecting the **GitHub Copilot** component. If no workload is installed, you can install **GitHub Copilot** by selecting it from **Individual components** in the installer.
+GitHub Copilot is installed by default with all workloads. If you choose to exclude it, you can install it later by using the Visual Studio Installer to **modify** your installation, and selecting the **GitHub Copilot** component. 
 
 ## Get GitHub Copilot for Visual Studio 2022 versions 17.6 to 17.9 
 
