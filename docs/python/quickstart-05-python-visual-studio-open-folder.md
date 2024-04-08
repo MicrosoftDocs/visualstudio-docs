@@ -161,7 +161,7 @@ In such cases, you must also add a line to the launch configuration JSON file to
 
 1. In **Solution Explorer**, right-click the Python (_.py_) Startup File and select **Add Debug Configuration**:
 
-   :::image type="content" source="media/quickstart-open-folder/vs-2022/add-debug-configuration.png" alt-text="Screenshot that shows how to select the Add Debug Configuration option for a selected file in Solution Explorer in Visual Studio 2022." border="false" source="media/quickstart-open-folder/vs-2022/add-debug-configuration.png":::
+   :::image type="content" source="media/quickstart-open-folder/vs-2022/add-debug-configuration.png" alt-text="Screenshot that shows how to select the Add Debug Configuration option for a selected file in Solution Explorer in Visual Studio 2022." border="false" lightbox="media/quickstart-open-folder/vs-2022/add-debug-configuration.png":::
 
 1. In the **Select Debugger** dialog, select the **Default** option in the list, and then choose **Select**:
 
