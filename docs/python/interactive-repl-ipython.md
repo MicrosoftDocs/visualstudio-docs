@@ -38,7 +38,7 @@ The following steps show you how to use IPython commands in the Interactive Wind
 
 1. Confirm that the `ipython` and `matplotlib` libraries are installed for the environment.
 
-   If both libraries aren't installed, follow the instructions in [Tutorial: Install packages in your Python environment in Visual Studio](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md). For more information, see [Python Environments window - Packages tabs reference](python-environments-window-tab-reference#packages-tab).
+   If both libraries aren't installed, follow the instructions in [Tutorial: Install packages in your Python environment in Visual Studio](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md). For more information, see [Python Environments window - Packages tabs reference](./python-environments-window-tab-reference.md#packages-tab).
 
 1. Switch to the **Overview** view for the environment and select the **Use IPython interactive mode** option.
 
