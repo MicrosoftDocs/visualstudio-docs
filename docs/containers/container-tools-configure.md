@@ -6,6 +6,11 @@ ms.author: ghogen
 ms.topic: how-to
 ms.date: 07/13/2023
 ms.subservice: container-tools
+f1_keywords:
+ - VS.ToolsOptionsPages.Container_Tools.General
+ - VS.ToolsOptionsPages.Container_Tools.Docker
+ - VS.ToolsOptionsPages.Container_Tools.Containers_Tool_Window
+ - VS.ToolsOptionsPages.Container_Tools.Settings
 ---
 
 # Configure Visual Studio Container Tools
