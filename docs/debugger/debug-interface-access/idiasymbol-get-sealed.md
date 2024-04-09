@@ -36,7 +36,7 @@ HRESULT get_sealed( 
 > A return value of `S_FALSE` means the property is not available for the symbol.
 
 ## Remarks
- A sealed class cannot be used as a base class. A sealed method cannot be overidden.
+ A sealed class cannot be used as a base class. A sealed method cannot be overridden.
 
 ## Requirements
  Header: Dia2.h
