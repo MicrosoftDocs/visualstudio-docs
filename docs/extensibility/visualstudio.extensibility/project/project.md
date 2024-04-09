@@ -62,7 +62,7 @@ WorkspacesExtensibility workSpace = this.Extensibility.Workspaces();
 
 If you're creating an [in-process extension](../get-started/in-proc-extensions.md), you instead access the project query space as shown in the following code example. Unless you have specifically created an in-process extension, use the snippet in the previous section to get an instance of the project query space object.
 
-In the following code excerpt, `package` represents an instance of [AsyncPackage](https://learn.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.shell.asyncpackage?view=visualstudiosdk-2022), a class utilized in the development of Visual Studio extensions. The method `GetServiceAsync` is employed to asynchronously procure the query service from the Visual Studio's service container.
+In the following code excerpt, `package` represents an instance of [AsyncPackage](https://learn.microsoft.com/dotnet/api/microsoft.visualstudio.shell.asyncpackage?view=visualstudiosdk-2022), a class utilized in the development of Visual Studio extensions. The method `GetServiceAsync` is employed to asynchronously procure the query service from the Visual Studio's service container.
 
 ```csharp
 IProjectSystemQueryService queryService = await package.GetServiceAsync<IProjectSystemQueryService, IProjectSystemQueryService>();
