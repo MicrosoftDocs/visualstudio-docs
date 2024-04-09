@@ -36,41 +36,21 @@ enum LocationType {
 ```
 
 ## Elements
-`LocIsNull`
-Location information is unavailable.
 
-`LocIsStatic`
-Location is static.
-
-`LocIsTLS`
-Location is in thread local storage.
-
-`LocIsRegRel`
-Location is register-relative.
-
-`LocIsThisRel`
-Location is `this`-relative.
-
-`LocIsEnregistered`
-Location is in a register.
-
-`LocIsBitField`
-Location is in a bit field.
-
-`LocIsSlot`
-Location is a Microsoft Intermediate Language (MSIL) slot.
-
-`LocIsIlRel`
-Location is MSIL-relative.
-
-`LocInMetaData`
-Location is in metadata.
-
-`LocIsConstant`
-Location is in a constant value.
-
-`LocTypeMax`
-The number of location types in this enumeration.
+| Element             | Description                                                |
+| ------------------- | ---------------------------------------------------------- |
+| `LocIsNull`         | Location information is unavailable.                       |
+| `LocIsStatic`       | Location is static.                                        |
+| `LocIsTLS`          | Location is in thread local storage.                       |
+| `LocIsRegRel`       | Location is register-relative.                             |
+| `LocIsThisRel`      | Location is `this`-relative.                               |
+| `LocIsEnregistered` | Location is in a register.                                 |
+| `LocIsBitField`     | Location is in a bit field.                                |
+| `LocIsSlot`         | Location is a Microsoft Intermediate Language (MSIL) slot. |
+| `LocIsIlRel`        | Location is MSIL-relative.                                 |
+| `LocInMetaData`     | Location is in metadata.                                   |
+| `LocIsConstant`     | Location is in a constant value.                           |
+| `LocTypeMax`        | The number of location types in this enumeration.          |
 
 ## Remarks
 The properties available to the [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) interface depend on the symbol's location within the image file. For more information, see [Symbol Locations](../../debugger/debug-interface-access/symbol-locations.md).
