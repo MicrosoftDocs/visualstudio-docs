@@ -6,6 +6,7 @@ ms.topic: "reference"
 dev_langs:
   - "VB"
   - "CSharp"
+  - C++
 f1_keywords:
   - "IMANAGEDADDIN/IManagedAddIn"
   - "IManagedAddIn"

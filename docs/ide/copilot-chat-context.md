@@ -10,7 +10,7 @@ ms.subservice: ai-tools
 helpviewer_keywords: 
   - copilot chat context
   - context, copilot chat
-monikerRange: vs-2022
+monikerRange: '>= vs-2022'
 ---
 # Get better answers by setting the context for GitHub Copilot Chat in Visual Studio
 
@@ -29,8 +29,8 @@ Learn more about [AI-assisted development in Visual Studio](../ide/ai-assisted-d
 To get started using GitHub Copilot Chat in Visual Studio, you need:
 + An active [subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) to either [GitHub Copilot for Individuals](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-individuals) or [GitHub Copilot for Business](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-business)
 + Visual Studio 2022 [version 17.6](/visualstudio/releases/2022/release-history) or later installed
-+ [GitHub Copilot extension installed](visual-studio-github-copilot-extension.md#installation-instructions) in Visual Studio
-+ [GitHub Copilot Chat extension installed](visual-studio-github-copilot-chat.md#install-the-visual-studio-extension) in Visual Studio
++ [GitHub Copilot installed](visual-studio-github-copilot-install-and-states.md) in Visual Studio
++ [GitHub Copilot Chat extension installed](visual-studio-github-copilot-chat.md#get-github-copilot-chat-for-visual-studio) in Visual Studio
 
 ## <a name="slash-commands"></a>Use slash commands in Copilot Chat for common tasks
 
