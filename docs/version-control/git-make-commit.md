@@ -2,7 +2,7 @@
 title: Make a Git commit in Visual Studio
 titleSuffix: ""
 description: Make a Git commit in Visual Studio by using Git providers such as GitHub or Azure DevOps, or locally with no provider at all.
-ms.date: 01/19/2024
+ms.date: 04/09/2024
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
@@ -53,7 +53,9 @@ When you double-click a **Commit**, Visual Studio opens its details in a separat
 With Visual Studio 2022 version 17.9 and later and the GitHub Copilot extensions, you can use AI to generate detailed commit messages that describe your changes.
 
 > [!NOTE]
->To enable AI-generated commit messages, you need the [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs) extension and the [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.VSGitHubCopilot) extension. To install the GitHub Copilot extension, use the Visual Studio Installer, choose **Modify**, go to **Individual Components**, and choose the GitHub Copilot component. Install the GitHub CoPilot Chat extension by going to **Extensions** > **Manage Extensions** from the main menu in Visual Studio. You might have to restart Visual Studio, and you'll need to have a subscription to GitHub Copilot. For information about these extensions, and how to get a GitHub Copilot subscription, see [What is the GitHub Copilot extension for Visual Studio](../ide/visual-studio-github-copilot-extension.md) and [What is the GitHub Copilot Chat extension](../ide/visual-studio-github-copilot-chat.md).
+>To enable AI-generated commit messages, you need GitHub Copilot and GitHub Copilot Chat. If you're using Visual Studio version 17.10 Preview 3 or later, see [Get GitHub Copilot for Visual Studio 2022 version 17.10 Preview 3 or later](../ide/visual-studio-github-copilot-install-and-states.md#get-github-copilot-for-visual-studio-2022-version-1710-preview-3-or-later).
+>
+>If you're using Visual Studio versions 17.9 or earlier, see [Get GitHub Copilot for Visual Studio 2022 versions 17.6 to 17.9](../ide/visual-studio-github-copilot-install-and-states.md#get-github-copilot-for-visual-studio-2022-versions-176-to-179).
 
 ![Screenshot showing AI-generated commit message.](./media/vs-2022/git-commit-message-ai.png)
 
