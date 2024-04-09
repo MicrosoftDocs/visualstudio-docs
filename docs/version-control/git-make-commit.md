@@ -53,9 +53,9 @@ When you double-click a **Commit**, Visual Studio opens its details in a separat
 With Visual Studio 2022 version 17.9 and later and the GitHub Copilot extensions, you can use AI to generate detailed commit messages that describe your changes.
 
 > [!NOTE]
->To enable AI-generated commit messages, you need GitHub Copilot and GitHub Copilot Chat. If you're using Visual Studio version 17.10 Preview 3 or later, see [Get GitHub Copilot for Visual Studio 2022 version 17.10 Preview 3 or later](https://learn.microsoft.com/en-us/visualstudio/ide/visual-studio-github-copilot-install-and-states?view=vs-2022#get-github-copilot-for-visual-studio-2022-version-1710-preview-3-or-later).
+>To enable AI-generated commit messages, you need GitHub Copilot and GitHub Copilot Chat. If you're using Visual Studio version 17.10 Preview 3 or later, see [Get GitHub Copilot for Visual Studio 2022 version 17.10 Preview 3 or later](../ide/visual-studio-github-copilot-install-and-states.md#get-github-copilot-for-visual-studio-2022-version-1710-preview-3-or-later).
 >
->If you're using Visual Studio versions 17.9 or earlier, see [Get GitHub Copilot for Visual Studio 2022 versions 17.6 to 17.9](https://learn.microsoft.com/en-us/visualstudio/ide/visual-studio-github-copilot-install-and-states?view=vs-2022#get-github-copilot-for-visual-studio-2022-versions-176-to-179).
+>If you're using Visual Studio versions 17.9 or earlier, see [Get GitHub Copilot for Visual Studio 2022 versions 17.6 to 17.9](../ide/visual-studio-github-copilot-install-and-states.md#get-github-copilot-for-visual-studio-2022-versions-176-to-179).
 
 ![Screenshot showing AI-generated commit message.](./media/vs-2022/git-commit-message-ai.png)
 
