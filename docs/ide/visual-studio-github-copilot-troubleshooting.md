@@ -30,7 +30,7 @@ Your network is down.
 
 The Copilot service is down.
 
-**Action:** In this case, wait. The service should be back shortly. You can check the status of the service on [GitHub Status](https://www.githubstatus.com/).
+**Action:** In this case, wait for the service to be back. You can check the status of the service on [GitHub Status](https://www.githubstatus.com/).
 
 ## Refresh your credentials
 
