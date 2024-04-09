@@ -1,12 +1,12 @@
 ---
 title: Update subscriber sign-in email address
 description: Super admin or admin wants to update the subscribers domain in bulk.
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: c1220a33-26b0-4bf9-be97-ab2b3055e351
 author: evanwindom
 ms.author: amast
-ms.date: 10/17/2023
+ms.date: 04/09/2024
 user.type: admin
 tags: email
 subscription.type: vl, cloud, retail, partner
@@ -36,7 +36,7 @@ If you assign subscriptions by using Microsoft Entra groups, any email address o
 1. Sign into the [Azure portal](https://portal.azure.com).
 2. Make the necessary updates.
 
-## Impact of sign-in email updates
+## Effects of sign-in email updates
 Changing the sign-in email can have negative effects for your subscribers, including:
 + Sign-in issues with the Visual Studio IDE.
 + Sign-in issues with Azure DevOps.

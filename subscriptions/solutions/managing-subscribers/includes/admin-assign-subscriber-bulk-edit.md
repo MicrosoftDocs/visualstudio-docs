@@ -1,12 +1,12 @@
 ---
 title: How do I assign subscribers in bulk?
 description: Super admin or admin would like more details on how to use the bulk feature.
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: 3b450a79-47d2-4434-899d-bea29a0271e1
 author: evanwindom
 ms.author: amast
-ms.date: 10/17/2023
+ms.date: 04/09/2024
 user.type: admin
 tags: bulk
 subscription.type: vl, cloud, retail, partner
