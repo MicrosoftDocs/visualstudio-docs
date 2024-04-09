@@ -6,7 +6,7 @@ ms.author: hwelliver
 monikerRange: ">=vs-2022"
 ms.subservice: extensibility-integration
 ms.topic: overview
-ms.date: 02/13/2023
+ms.date: 04/08/2024
 ---
 
 # Query the project API
