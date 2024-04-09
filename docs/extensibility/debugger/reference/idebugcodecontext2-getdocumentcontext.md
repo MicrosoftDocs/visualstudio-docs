@@ -37,7 +37,7 @@ HRESULT GetDocumentContext( 
 
 ## Parameters
 `ppSrcCxt`\
-[out] Returns the [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) object that corresponds to the code context. If `S_OK` is returned, ths should be non-`null`.
+[out] Returns the [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) object that corresponds to the code context. If `S_OK` is returned, this should be non-`null`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. A debug engine should return a failure code such as `E_FAIL` when the `out` parameter is `null` such as when the code context has no associated source position.

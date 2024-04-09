@@ -61,7 +61,7 @@ Specifies the files or directories to add to the project.
 ## Remarks
  `Project` is an optional child element of `TemplateContent`.
 
- The `Project` element is used to specifiy a project, and therefore, is only valid in project templates.
+ The `Project` element is used to specify a project, and therefore, is only valid in project templates.
 
  `Project` elements can have [Folder](../extensibility/folder-element-visual-studio-project-templates.md) children elements or [ProjectItem](../extensibility/projectitem-element-visual-studio-project-templates.md) children elements, but not a mixture of both `Folder` and `ProjectItem` children elements.
 
