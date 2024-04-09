@@ -30,7 +30,7 @@ Your network is down.
 
 The Copilot service is down.
 
-**Action:** In this case, wait. The service should be back shortly. You can check the status of the service on [GitHub Status](https://www.githubstatus.com/).
+**Action:** In this case, wait. The service will be back shortly. You can check the status of the service on [GitHub Status](https://www.githubstatus.com/).
 
 ## Refresh your credentials
 
@@ -38,7 +38,7 @@ Due to the expected timeout, you need to occasionally refresh your credentials.
 
 **Action:** Select **"Refresh your credentials"** from the Copilot badge in the upper-right corner of your Visual Studio environment.
 
-:::image type="content" source="media/vs-2022/copilot-inbox/copilot-refresh-creds.png "alt-text="Screenshot of Refresh your credentials option." lightbox="media/vs-2022/copilot-inbox/copilot-refresh-creds.png":::
+:::image type="content" source="media/vs-2022/copilot-inbox/copilot-refresh-credentials.png "alt-text="Screenshot of Refresh your credentials option." lightbox="media/vs-2022/copilot-inbox/copilot-refresh-credentials.png":::
 
 ## Copilot is disabled
 
