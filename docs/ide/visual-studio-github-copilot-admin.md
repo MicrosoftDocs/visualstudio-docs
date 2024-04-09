@@ -26,7 +26,7 @@ To configure and deploy these policies, you can use [Microsoft Intune](../instal
 
 2. Open the **Windows Local Group Policy Editor**, Navigate to Computer Configuration > Administrative Templates > Visual Studio > **Copilot Settings** and select a group policy.
 
-   :::image type="content" source="media/vs-2022/copilot-inbox/intune-Group-Poilcy.png" alt-text="Screenshot of Group Policy to block copilot for individuals." lightbox="media/vs-2022/copilot-inbox/intune-Group-Poilcy.png":::
+   :::image type="content" source="media/vs-2022/copilot-inbox/intune-group-policy.png" alt-text="Screenshot of Group Policy to block copilot for individuals." lightbox="media/vs-2022/copilot-inbox/intune-group-policy.png":::
 
 3. Once you select your group policy, configure the policy to enable or disable.
    
