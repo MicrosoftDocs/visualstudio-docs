@@ -219,7 +219,7 @@ The *MultiProjectTemplate.vstemplate* looks like the following. Please note that
 </VSTemplate>
 ```
 
-The *MultiProject.Client\MultiProject.Client.csproj* might look something like the following. Please note that the *Project* tag has the attribute **ReplaceParameters** set to *true*.
+The *MultiProject.Client\MyTemplate.vstemplate* might look something like the following. Please note that the *Project* tag has the attribute **ReplaceParameters** set to *true*.
 
 ```xml
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
