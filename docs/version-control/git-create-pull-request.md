@@ -39,6 +39,8 @@ To create a pull request, follow these steps:
 
    > [!TIP]
    > With Visual Studio 2022 version 17.10 preview 2 and later and the GitHub Copilot extensions, you can use AI to generate detailed pull request descriptions that describe your changes. Press the sparkle pen icon to request that GitHub Copilot generate a PR description. To install GitHub Copilot, see [Install and manage GitHub Copilot in Visual Studio](../ide/visual-studio-github-copilot-install-and-states.md).
+   >
+   > ![Screenshot of the sparkly pen icon to request that GitHub Copilot generate a PR description.](./media/vs-2022/pull-request-copilot.png)
 
    :::image type="content" source="media/vs-2022/git-create-pr-markdown.png" alt-text="The New Pull Request window with the preview button text highlighted in Visual Studio 2022."::: 
 
