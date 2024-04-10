@@ -106,4 +106,5 @@ IPython has many other useful features, such as escaping to the system shell, va
 
 ## Related content
 
-- Explore the [Azure Data Science Virtual Machine](/azure/machine-learning/data-science-virtual-machine/overview), which is preconfigured to run Jupyter notebooks along with a wide range of other data science tools.
+- [Work with the Python Interactive Window in Visual Studio](./python-interactive-repl-in-visual-studio.md)
+- [Tutorial: Use the Interactive REPL window in Visual Studio](./tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md)
