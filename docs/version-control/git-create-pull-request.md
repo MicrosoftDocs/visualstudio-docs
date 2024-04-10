@@ -38,7 +38,7 @@ To create a pull request, follow these steps:
 1. Select the branch that you want to merge into and give your pull request a descriptive title and description. You can use [markdown syntax](https://www.markdownguide.org/) to format your pull request description from Visual Studio. Try it out by typing the markdown symbols in the **Description** box and preview your markdown by selecting the **Preview** button.
 
    > [!TIP]
-   > With Visual Studio 2022 version 17.10 preview 2 and later and the GitHub Copilot extensions, you can use AI to generate detailed pull request descriptions that describe your changes. Press the sparkle pen icon to request that GitHub Copilot to generate a PR description. To install GitHub Copilot, see [Install and manage GitHub Copilot in Visual Studio](../ide/visual-studio-github-copilot-install-and-states).
+   > With Visual Studio 2022 version 17.10 preview 2 and later and the GitHub Copilot extensions, you can use AI to generate detailed pull request descriptions that describe your changes. Press the sparkle pen icon to request that GitHub Copilot to generate a PR description. To install GitHub Copilot, see [Install and manage GitHub Copilot in Visual Studio](../ide/visual-studio-github-copilot-install-and-states.md).
 
    :::image type="content" source="media/vs-2022/git-create-pr-markdown.png" alt-text="The New Pull Request window with the preview button text highlighted in Visual Studio 2022."::: 
 
