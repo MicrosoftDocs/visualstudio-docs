@@ -22,7 +22,7 @@ Visual Studio provides an interactive read-evaluate-print loop (REPL) window for
 ::: moniker-end
 ::: moniker range="<=vs-2019"
 
-:::image type="content" source="media/interactive-window.png" alt-text="Screenshot of the Python Interactive read-evaluate-print loop (REPL) Window in Visual Studio." border="false" lightbox="media/interactive-window.png":::
+:::image type="content" source="media/interactive-window.png" alt-text="Screenshot of the Python Interactive read-evaluate-print loop (REPL) Window in Visual Studio." lightbox="media/interactive-window.png":::
 
 ::: moniker-end
 
@@ -68,9 +68,7 @@ There are several ways to open the **Interactive Window** for a Python environme
 
    ::: moniker-end
 
-- From the **View** menu on the Visual Studio toolbar:
-
-   1. Select **View** > **Other Windows** > **Python Interactive Window**:
+- From the **View** menu on the Visual Studio tool, select **Other Windows** > **Python Interactive Window**:
 
    ::: moniker range=">=vs-2022"
 
@@ -83,11 +81,7 @@ There are several ways to open the **Interactive Window** for a Python environme
 
    ::: moniker-end
 
-- From the **Debug** menu on the Visual Studio toolbar:
-
-   You can open an **Interactive Window** for the **Startup File** in your project, or for any stand-alone file.
-
-   - Select **Debug** > **Execute \<Project | File> in Python Interactive** or use the keyboard shortcut **Shift**+**Alt**+**F5**.
+- From the **Debug** menu on the Visual Studio toolbar, select **Execute \<Project | File> in Python Interactive** or use the keyboard shortcut **Shift**+**Alt**+**F5**. You can open an **Interactive Window** for the **Startup File** in your project, or for any stand-alone file:
 
    ::: moniker range=">=vs-2022"
 
@@ -104,9 +98,7 @@ Another option is to send the code you're writing in the Visual Studio editor to
 
 ## Explore Interactive Window options
 
-You can control various aspects of the **Interactive Window**, such as the location of startup script files and how the arrow keys work within the window environment.
-
-- To access the options, select **Tools** > **Options** > **Python** > **Interactive Windows**.
+You can control various aspects of the **Interactive Window**, such as the location of startup script files and how the arrow keys work within the window environment. To access the options, select **Tools** > **Options** > **Python** > **Interactive Windows**:
 
 :::image type="content" source="media/options-interactive-windows.png" alt-text="Screenshot of the Python Interactive Windows options in Visual Studio." border="false" lightbox="media/options-interactive-windows.png":::
 
@@ -151,7 +143,7 @@ By default, the **Interactive Window** for a project is scoped to the project's 
 ::: moniker-end
 ::: moniker range="<=vs-2019"
 
-:::image type="content" source="media/interactive-scopes.png" alt-text="Screenshot that shows how to use the Module Scope dropdown menu to change the scope in the Interactive Window." border="false" lightbox="media/interactive-scopes.png":::
+:::image type="content" source="media/interactive-scopes.png" alt-text="Screenshot that shows how to use the Module Scope dropdown menu to change the scope in the Interactive Window." lightbox="media/interactive-scopes.png":::
 
 ::: moniker-end
 
@@ -166,7 +158,7 @@ If you enter the `dir()` command in a scope, Visual Studio displays valid identi
 ::: moniker-end
 ::: moniker range="<=vs-2019"
 
-:::image type="content" source="media/interactive-importlib-scope.png" alt-text="Screenshot that shows the output in the Interactive Window for the importlib scope." border="false" lightbox="media/interactive-importlib-scope.png":::
+:::image type="content" source="media/interactive-importlib-scope.png" alt-text="Screenshot that shows the output in the Interactive Window for the importlib scope." lightbox="media/interactive-importlib-scope.png":::
 
 ::: moniker-end
 
@@ -178,16 +170,16 @@ In addition to working within the **Interactive Window** directly, you can send 
 
 1. Right-click the selected code and select **Send to Interactive** (or use the keyboard shortcut **Ctrl**+**E**, **E**).
 
-::: moniker range=">=vs-2022"
+   ::: moniker range=">=vs-2022"
 
-:::image type="content" source="media/vs-2022/send-python-interactive-window.png" alt-text="Screenshot that shows how to use the Send to Interactive menu option in Visual Studio 2022." border="false" lightbox="media/vs-2022/send-python-interactive-window.png":::
+   :::image type="content" source="media/vs-2022/send-python-interactive-window.png" alt-text="Screenshot that shows how to use the Send to Interactive menu option in Visual Studio 2022." border="false" lightbox="media/vs-2022/send-python-interactive-window.png":::
 
-::: moniker-end
-::: moniker range="<=vs-2019"
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
 
-:::image type="content" source="media/interactive-send-to.png" alt-text="Screenshot that shows how to use the Send to Interactive menu option in Visual Studio.":::
+   :::image type="content" source="media/interactive-send-to.png" alt-text="Screenshot that shows how to use the Send to Interactive menu option in Visual Studio.":::
 
-::: moniker-end
+   ::: moniker-end
 
 ### Modify and run code
 
