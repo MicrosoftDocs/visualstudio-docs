@@ -39,7 +39,7 @@ Transforms an XML input by using an XSLT or compiled XSLT and outputs to an outp
 > [!IMPORTANT]
 >  XSLT style sheets can include references to other files and embedded script blocks. A malicious user can exploit this by supplying you with data or style sheets that when executed can cause your system to process until the computer runs low on resources. Do not enable scripting or the `document()` function via `UseTrustedSettings` unless the style sheet comes from a trusted source. If you cannot verify the source of the style sheet, or if the style sheet does not come from a trusted source, use the default XSLT settings.
 >  
->  Also note that loading external resources, such as schemas, will allow any server hosting a schema to discover a build occurence and its network location.
+>  Also note that loading external resources, such as schemas, will allow any server hosting a schema to discover a build occurrence and its network location.
 
  In addition to having the parameters that are listed in the table, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 

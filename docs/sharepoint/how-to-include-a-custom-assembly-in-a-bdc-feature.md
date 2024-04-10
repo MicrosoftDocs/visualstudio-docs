@@ -47,4 +47,4 @@ ms.subservice: sharepoint-development
 - [How to: Add an existing BDC model file to a SharePoint project](../sharepoint/how-to-add-an-existing-bdc-model-file-to-a-sharepoint-project.md)
 - [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md)
 - [How to: Create a BDC model](../sharepoint/how-to-create-a-bdc-model.md)
-- [Integragte business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)
+- [Integrate business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)

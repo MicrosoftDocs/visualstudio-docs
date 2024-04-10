@@ -68,7 +68,7 @@ You may want to persist a property you add to a project item, such as the author
     try
     {
         // Get the current project hierarchy, project item, and selection container for the current selection
-        // If the selection spans multiple hierachies, hierarchyPtr is Zero
+        // If the selection spans multiple hierarchies, hierarchyPtr is Zero
         IVsMultiItemSelect multiItemSelect = null;
         ErrorHandler.ThrowOnFailure(
             monitorSelection.GetCurrentSelection(

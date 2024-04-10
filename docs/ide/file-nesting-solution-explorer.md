@@ -17,7 +17,7 @@ ms.subservice: general-ide
 
 > [!NOTE]
 > In Visual Studio 2022 version 17.2 and earlier, this feature was only supported for ASP.NET Core projects.
-> In version 17.3 and later the projects targetting .NET support file nesting. 
+> In version 17.3 and later the projects targeting .NET support file nesting. 
 
 ## File nesting options
 

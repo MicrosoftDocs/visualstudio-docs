@@ -45,7 +45,7 @@ The following steps guide you through removing a web or worker role from an Azur
 
    ![Menu options to add a role to an Azure cloud service](./media/vs-azure-tools-cloud-service-project-managing-roles/remove-role.png)
 
-## Readding a role to an Azure cloud service project
+## Reading a role to an Azure cloud service project
 
 If you remove a role from your cloud service project but later decide to add the role back to the project, only the role declaration and basic attributes, such as endpoints and diagnostics information, are added. No additional resources or references are added to the `ServiceDefinition.csdef` file or to the `ServiceConfiguration.cscfg` file. If you want to add this information, you need to manually add it back into these files.
 

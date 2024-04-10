@@ -83,7 +83,7 @@ ms.subservice: office-development
 
    To modify the project, this code example uses the following objects:
 
-- The `Application` field of the `ThisAddIn` class. The `Application` field returns an `Microsoft.Office.Interop.MSProject.Application` object, which represents the current instance of Project.
+- The `Application` field of the `ThisAddIn` class. The `Application` field returns a `Microsoft.Office.Interop.MSProject.Application` object, which represents the current instance of Project.
 
 - The `pj` parameter of the event handler for the NewProject event. The `pj` parameter is a `Microsoft.Office.Interop.MSProject.Project` object, which represents the project. For more information, see [Project solutions](../vsto/project-solutions.md).
 

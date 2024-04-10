@@ -119,7 +119,7 @@ If you're using an AKS cluster that uses managed identity, a security feature pr
 
 Logging output is written to the **Bridge to Kubernetes** window after your development computer is connected to your Kubernetes cluster.
 
-Click on the **Kubernetes** Status bar and choose **Show connection diagnostics information**. This command prints the current environment variables and DNS entires in the logging output.
+Click on the **Kubernetes** Status bar and choose **Show connection diagnostics information**. This command prints the current environment variables and DNS entries in the logging output.
 
 Additionally, you can find the diagnostic logs in the `Bridge to Kubernetes` directory in your development computer's TEMP directory. On Windows 10, that's in `%TEMP%\Bridge to Kubernetes`. On a Mac, the TEMP directory can be found by running `echo $TMPDIR` from a terminal window. On Linux, it is `/tmp/Bridge to Kubernetes`.
 

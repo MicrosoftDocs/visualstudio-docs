@@ -165,7 +165,7 @@ conditions, it should not explore all possible cases.
 This example shows the implementation of the
 **PexAssume.Arrays.ElementsAreNotNull** method.
 In the method, you ignore the constraints on the
-lengh of the array value to avoid IntelliTest trying
+length of the array value to avoid IntelliTest trying
 to generate different sizes of array. The constraints
 are ignored only here. If the tested code behaves
 differently for different array lengths, IntelliTest
