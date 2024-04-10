@@ -206,6 +206,8 @@ The *MultiProjectTemplate.vstemplate* looks like the following. Please note that
 ```xml
 <VSTemplate Version="2.0.0" Type="ProjectGroup"
     xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+...
+<TemplateContent>
     <ProjectCollection>
         <ProjectTemplateLink ProjectName="$safeprojectname$.Client" CopyParameters="true">
             MultiProject.Client\MyTemplate.vstemplate
