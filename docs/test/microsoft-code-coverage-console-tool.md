@@ -1,7 +1,7 @@
 ---
 title: Microsoft.CodeCoverage.Console tool
 description: Use the Microsoft.CodeCoverage.Console tool to collect code coverage for C++ and C# code in nontest scenarios, and merge and convert code coverage reports.
-ms.date: 12/05/2023
+ms.date: 04/10/2024
 ms.topic: conceptual
 ms.author: mikejo
 manager: mijacobs
