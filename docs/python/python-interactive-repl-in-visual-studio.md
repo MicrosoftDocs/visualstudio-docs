@@ -37,7 +37,7 @@ Visual Studio has many Python REPL modes to choose from:
 
 This article describes the **Standard** and **Debug** REPL modes. For details on IPython modes, see [Use the IPython REPL](interactive-repl-ipython.md).
 
-For a detailed walkthrough with examples, including the interactions with the editor such as **Ctrl**+**Enter**, see [Tutorial Step 3: Use the Interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md).
+For a detailed walkthrough with examples, including the interactions with the editor such as **Ctrl**+**Enter**, see [Use the Interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md).
 
 ## Prerequisites 
 
@@ -214,7 +214,7 @@ You can change the behavior with the **Paste removes REPL prompts** option for t
 
 ::: moniker-end
 
-When you clear the option, the prompt characters are retained in code pasted from the window. For more information, see [Options - Miscellaneous options](python-support-options-and-settings-in-visual-studio.md#miscellaneous-options).
+When you clear the option, the prompt characters are retained in code pasted from the window. For more information, see [Options - Miscellaneous options](python-support-options-and-settings-in-visual-studio.md?view=vs-2019&preserve-view=true#miscellaneous-options)
 
 ## Review IntelliSense behavior
 
