@@ -14,6 +14,9 @@ Microsoft.CodeCoverage.Console is a command-line tool. You can use it to collect
 
 Microsoft.CodeCoverage.Console is available in Visual Studio 2022 17.3 under folder `Common7\IDE\Extensions\Microsoft\CodeCoverage.Console`. You can use it in a Developer Command Prompt and a Developer PowerShell:
 
+>[!NOTE]
+> The tool is available only with Visual Studio Enterprise. For .NET code coverage, you can alternatively use the command-line tool, [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage).
+
 ```console
 C:\Program Files\Microsoft Visual Studio\2022\Enterprise> Microsoft.CodeCoverage.Console --help
 Description:

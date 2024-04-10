@@ -26,6 +26,9 @@ Code coverage option is available under the Test menu when you run test methods 
 
 The code coverage feature is available only in Visual Studio Enterprise edition.
 
+>[!NOTE]
+> For .NET code coverage, you can alternatively use the command-line tool, [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage).
+
 ## Analyze code coverage
 
 1. On the **Test** menu, select **Analyze Code Coverage for All Tests**.
