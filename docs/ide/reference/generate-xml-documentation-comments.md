@@ -19,9 +19,9 @@ You can distribute the compiler-generated XML file along with your .NET assembly
 
 ## Enable documentation generation
 
-To enable documentation generation, select **Generate a file containing API documentation** on the **Build** > **Output** tab of your project's properties.
+To enable documentation generation, select the **Generate a file containing API documentation** checkbox on the **Build** > **Output** tab of your project's properties.
 
-By default, a documentation file named the same as your assembly with an *.xml* file extension is generated in the same directory as the assembly. If you want to configure a non-default name or location for the  file, enter or browse to an alternate location under **XML documentation file path**.
+By default, the documentation file is named the same as your assembly with an *.xml* file extension and placed in the same directory as the assembly. If you want to configure a nondefault name or location for the  file, enter or browse to an alternate location under **XML documentation file path**.
 
 Alternatively, you can add the [GenerateDocumentationFile](/dotnet/core/project-sdk/msbuild-props#generatedocumentationfile) or [DocumentationFile](/dotnet/core/project-sdk/msbuild-props#documentationfile) properties to your *.csproj*, *.vbproj*, or *.fsproj* file. Set `GenerateDocumentationFile` to `true` to generate a documentation file with the default name and location. Add the `DocumentationFile` property to specify a different name or location.
 
@@ -47,8 +47,8 @@ You can set the [Comments](options-text-editor-csharp-advanced.md#comments) opti
 
    The XML comment structure is immediately generated above the code element. For example, when commenting a method, the template generates the `<summary>` element, a `<param>` element for each parameter, and a `<returns>` element to document the return value.
 
-   ```csharp
-   /// <summary>
+    ```csharp
+    /// <summary>
     /// 
     /// </summary>
     /// <param name="id"></param>
@@ -57,7 +57,7 @@ You can set the [Comments](options-text-editor-csharp-advanced.md#comments) opti
     {
         return "username";
     }
-```
+    ```
 
     ```vb
     ''' <summary>
@@ -83,7 +83,7 @@ You can set the [Comments](options-text-editor-csharp-advanced.md#comments) opti
         return "username";
     }
    ```
-You can use styles in XML comments that render in Quick Info when you hover over the element. These styles include italics, bold, bulleted or numbered lists, and clickable `cref` or `href` links.
+You can use XML elements and styles in comments that render in Quick Info when you hover over the element. These elements include italics, bold, bulleted or numbered lists, and clickable `cref` or `href` links.
 
 For example, enter the following code in Visual Studio:
 

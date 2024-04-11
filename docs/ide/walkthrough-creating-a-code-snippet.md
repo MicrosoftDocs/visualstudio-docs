@@ -56,7 +56,7 @@ You can create your own code snippets and add them to the code snippets that Vis
 
 1. Enter the title *Square Root* into the snippet `Title` element.
 
-1. In the **Language** attribute of the `Code` element, fill in **CSharp** for a #C snippet ot **VB** for Visual Basic.
+1. In the **Language** attribute of the `Code` element, fill in **CSharp** for a #C snippet or **VB** for Visual Basic.
 
    > [!TIP]
    > To see all the available language values, see [Attributes](code-snippets-schema-reference.md#attributes) in the [Code snippets schema reference](code-snippets-schema-reference.md).
@@ -127,7 +127,7 @@ The description field provides more information about your code snippet when vie
    <Header>
        <Title>Square Root</Title>
        <Author>Myself</Author>
-       <Description>Calculates the square root of a number.</Description>
+       <Description>Calculates the square root of 16.</Description>
        <Shortcut>sqrt</Shortcut>
    </Header>
    ```
@@ -144,9 +144,9 @@ You might want the user to replace parts of a code snippet. For example, you mig
 
 You can provide two types of replacements: literals and objects.
 
-- Use the [Literal element](code-snippets-schema-reference.md#literal-element) to identify a replacement for a piece of code that's entirely contained within the snippet but can be customized after it's inserted into the code. For example a string or numeric value.
+- Use the [Literal](code-snippets-schema-reference.md#literal-element) element to identify a replacement for a piece of code entirely contained within the snippet that be customized after being inserted into the code. For example, a string or numeric value.
 
-- Use the [Object element](code-snippets-schema-reference.md#object-element) to identify an item that's required by the code snippet but is probably defined outside of the snippet itself. For example, an object instance or a control.
+- Use the [Object](code-snippets-schema-reference.md#object-element) element to identify an item that the code snippet requires but is probably defined outside of the snippet itself. For example, an object instance or a control.
 
 You can use a `Literal` element in the *SquareRoot.snippet* file to help users easily change the number to calculate the square root of.
 
@@ -167,7 +167,7 @@ You can use a `Literal` element in the *SquareRoot.snippet* file to help users e
    </Snippet>
    ```
 
-   Notice that the literal replacement gets an ID, `Number`. You reference that ID from within the code snippet by surrounding it with `$` characters, as follows:
+   Notice that the literal replacement gets an ID, `Number`. You reference that ID in the code snippet by surrounding it with `$` characters, as follows:
 
    ```xml
    <![CDATA[double root = Math.Sqrt($Number$);]]>
@@ -186,9 +186,9 @@ You can use a `Literal` element in the *SquareRoot.snippet* file to help users e
 
 ## Import a namespace
 
-You can use a code snippet to add a `using` directive (C#) or `Imports` statement (Visual Basic) by including the [Imports element](code-snippets-schema-reference.md#imports-element). For .NET Framework projects, you can also add a reference to the project by using the [References element](code-snippets-schema-reference.md#references-element).
+You can use a code snippet to add a `using` directive (C#) or `Imports` statement (Visual Basic) by including the [Imports](code-snippets-schema-reference.md#imports-element) element. For .NET Framework projects, you can also add a reference to the project by using the [References](code-snippets-schema-reference.md#references-element) element.
 
-The following XML shows a code snippet that uses the method `File.Exists` in the System.IO namespace and, therefore, defines the **Imports** element to import the System.IO namespace.
+The following XML shows a code snippet that uses the method `File.Exists` in the `System.IO` namespace, and therefore defines the **Imports** element to import the `System.IO` namespace.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -215,4 +215,4 @@ The following XML shows a code snippet that uses the method `File.Exists` in the
 ## Related content
 
 - For a reference to the Visual Studio IntelliSense Code Snippet XML schema, see [Code snippets schema reference](code-snippets-schema-reference.md).
-- To create snippets in Visual Studio Code, see [Create your own snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_create-your-own-snippets)
+- To create snippets in Visual Studio Code, see [Create your own snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_create-your-own-snippets).
