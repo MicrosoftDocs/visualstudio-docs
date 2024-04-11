@@ -1,14 +1,14 @@
 ---
 title: "Quickstart: Create Python project from template"
 description: Follow guided steps to create a Visual Studio project for Python by using the built-in template for a basic Flask application.
-ms.date: 04/02/2024
+ms.date: 04/11/2024
 ms.topic: quickstart
 author: cwebster-99
 ms.author: cowebster
 manager: mijacobs
 ms.subservice: python
 
-# CustomerIntent: As a developer, I want to develop Python applications in Visual Studio so I can quickly create new projects by using built-in templates.
+# CustomerIntent: As a developer, I want to create new projects by using built-in templates so I can quickly develop Python applications in Visual Studio.
 ---
 
 # Quickstart: Create Python project from a template in Visual Studio
@@ -17,16 +17,13 @@ In this quickstart, you follow guided steps to quickly create a Flask applicatio
 
 ## Prerequisites
 
-- Visual Studio installed with support for Python workloads:
+- Visual Studio installed with support for Python workloads.
 
-   - In the Visual Studio Installer, select the **Python development** workload.
-   - For access to project templates for web development, select the optional **Python web support** workload.
+   In the Visual Studio Installer, select the **Python development** workload and the **Python web support** option for access to web project templates. For more information, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
 
    :::image type="content" source="media/quickstart-python-install-web-support.png" alt-text="Screenshot that shows how to select Python web support in the Visual Studio Installer for the Python development workload." lightbox="media/quickstart-python-install-web-support.png" border="false":::
 
-For more information, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
-
-Visual Studio for Mac isn't currently supported. For more information, see [What's happening to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
+Visual Studio for Mac isn't supported. For more information, see [What's happening to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
 
 ## Create the project
 

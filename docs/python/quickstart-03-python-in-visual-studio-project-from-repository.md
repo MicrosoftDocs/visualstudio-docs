@@ -1,14 +1,14 @@
 ---
 title: "Quickstart: Clone a repository of Python code"
 description: Follow guided steps to create a Python project in Visual Studio by cloning the Python koans repository with Git or Team Explorer.
-ms.date: 04/05/2024
+ms.date: 04/11/2024
 ms.topic: quickstart
 author: cwebster-99
 ms.author: cowebster
 manager: mijacobs
 ms.subservice: python
 
-# CustomerIntent: As a developer, I want to create Python projects in Visual Studio so I can clone and work with code from existing Python repositories by using Git commands.
+# CustomerIntent: As a developer, I want to clone and work with code from existing Python repositories by using Git commands to create Python projects in Visual Studio.
 ---
 
 # Quickstart: Clone a repository of Python code in Visual Studio
@@ -30,7 +30,7 @@ In this quickstart, you follow guided steps to clone a GitHub repository of Pyth
 
 ::: moniker-end
 
-Visual Studio for Mac isn't currently supported. For more information, see [What's happening to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
+Visual Studio for Mac isn't supported. For more information, see [What's happening to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
 
 ## Clone existing repository files
 

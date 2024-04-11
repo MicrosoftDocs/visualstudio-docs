@@ -1,7 +1,7 @@
 ---
 title: "Quickstart: Open and run Python code in a folder"
 description: Follow guided steps to open and run Python code from a folder in Visual Studio without using a project in Visual Studio 2019 and later.
-ms.date: 04/07/2024
+ms.date: 04/11/2024
 ms.topic: quickstart
 author: cwebster-99
 ms.author: cowebster
@@ -9,7 +9,7 @@ manager: mijacobs
 ms.subservice: python
 monikerRange: ">= vs-2019"
 
-# CustomerIntent: As a developer, I want to write Python code in Visual Studio so I can open and run Python code from a folder without having to use a project for the code.
+# CustomerIntent: As a developer, I want to open and run Python code from a folder in Visual Studio without having to use a project for the code.
 ---
 
 # Quickstart: Open and run Python code in a folder in Visual Studio
@@ -26,7 +26,7 @@ In this quickstart, you follow guided steps to run Python code in Visual Studio 
    git clone https://github.com/gregmalcolm/python_koans
    ```
 
-Visual Studio for Mac isn't currently supported. For more information, see [What's happening to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
+Visual Studio for Mac isn't supported. For more information, see [What's happening to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
 
 ## Open the local code folder
 
