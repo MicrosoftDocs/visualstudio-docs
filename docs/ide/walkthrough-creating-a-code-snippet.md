@@ -214,5 +214,5 @@ The following XML shows a code snippet that uses the method `File.Exists` in the
 
 ## Related content
 
-- For a reference to the Visual Studio IntelliSense Code Snippet XML schema, see [Code snippets schema reference](code-snippets-schema-reference.md).
+- For the Visual Studio IntelliSense Code Snippet XML schema reference, see [Code snippets schema reference](code-snippets-schema-reference.md).
 - To create snippets in Visual Studio Code, see [Create your own snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_create-your-own-snippets).

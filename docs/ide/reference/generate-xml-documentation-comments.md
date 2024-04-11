@@ -15,7 +15,7 @@ This article describes how Visual Studio can help you document code elements suc
 You can distribute the compiler-generated XML file along with your .NET assembly so that Visual Studio and other IDEs can use IntelliSense to show quick information about types and members. You can also run the XML file through tools like [DocFX](https://dotnet.github.io/docfx/) and [Sandcastle](https://www.microsoft.com/download/details.aspx?id=10526) to generate API reference websites.
 
 > [!NOTE]
-> The **Insert Comment** command to automatically insert XML documentation comment structure is available in [C#](/dotnet/csharp/programming-guide/xmldoc/) and [Visual Basic](/dotnet/visual-basic/programming-guide/program-structure/how-to-create-xml-documentation). For C++, you can [manually insert XML documentation comments](/cpp/build/reference/xml-documentation-visual-cpp) and generate XML documentation files at compile time.
+> The **Insert Comment** command to automatically insert XML documentation comment structure is available in [C#](/dotnet/csharp/programming-guide/xmldoc/) and [Visual Basic](/dotnet/visual-basic/programming-guide/program-structure/how-to-create-xml-documentation). For C++, you can [manually insert XML documentation comments](/cpp/build/reference/xml-documentation-visual-cpp) and still generate XML documentation files at compile time.
 
 ## Enable documentation generation
 
@@ -85,7 +85,7 @@ You can set the [Comments](options-text-editor-csharp-advanced.md#comments) opti
    ```
 You can use XML elements and styles in comments that render in Quick Info when you hover over the code. These elements include italic or bold styles, bulleted or numbered lists, and clickable `cref` or `href` links.
 
-For example, enter the following code:
+For example, enter the following code into a C# program file:
 
 ```csharp
 /// <summary>
