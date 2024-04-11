@@ -17,7 +17,7 @@ You can use the **Find All References** command to find where particular code el
 
 The results appear in a tool window named **\<element> references**, where *element* is the name of the item you're searching for. A toolbar in the **references** window enables you to do the following:
 
-- Change the scope of the search in a drop-down list box. You can choose to look only in open or changed documents,all the way up to the entire solution.
+- Change the scope of the search in a drop-down list box. You can choose to look only in open or changed documents, all the way up to the entire solution.
 - Copy the selected referenced item(s) by choosing the **Copy** button. All the values in all the columns for all selected rows are copied to the clipboard, preceded by the column headings. This makes it easy to paste into a spreadsheet.
 - Choose buttons to go to the next or previous location in the list, or press the up and down arrow keys to do so.
 - Remove any filters on the returned results by choosing the **Clear All Filters** button.
