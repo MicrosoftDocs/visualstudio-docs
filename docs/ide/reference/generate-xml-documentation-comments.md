@@ -1,7 +1,7 @@
 ---
 title: Insert XML documentation comments
 description: Learn how to insert XML documentation comments in your code and create a compiler-generated XML comments file to distribute with your .NET assembly.
-ms.date: 04/10/2024
+ms.date: 04/11/2024
 ms.topic: how-to
 author: mikadumont
 ms.author: midumont

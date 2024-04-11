@@ -1,7 +1,7 @@
 ---
 title: Create a code snippet in Visual Studio
-description: "Learn how to create a code snippet, use replacement parameters and project references, and import the snippet to Visual Studio."
-ms.date: 04/08/2024
+description: Learn how to create a code snippet, use replacement parameters and project references, and import a snippet to Visual Studio.
+ms.date: 04/11/2024
 ms.topic: how-to
 helpviewer_keywords:
 - code snippets, creating
