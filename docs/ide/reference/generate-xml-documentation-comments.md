@@ -21,7 +21,7 @@ You can distribute the compiler-generated XML file along with your .NET assembly
 
 To enable documentation generation, select the **Generate a file containing API documentation** checkbox on the **Build** > **Output** tab of your project's properties.
 
-By default, the documentation file is named the same as your assembly with an *.xml* file extension and placed in the same directory as the assembly. If you want to configure a nondefault name or location for the  file, enter or browse to an alternate location under **XML documentation file path**.
+By default, a documentation file named the same as your assembly with an *.xml* file extension generates in the same directory as the assembly. If you want to configure a nondefault name or location for the  file, enter or browse to an alternate location under **XML documentation file path**.
 
 Alternatively, you can add the [GenerateDocumentationFile](/dotnet/core/project-sdk/msbuild-props#generatedocumentationfile) or [DocumentationFile](/dotnet/core/project-sdk/msbuild-props#documentationfile) properties to your *.csproj*, *.vbproj*, or *.fsproj* file. Set `GenerateDocumentationFile` to `true` to generate a documentation file with the default name and location. Add the `DocumentationFile` property to specify a different name or location.
 
@@ -35,7 +35,7 @@ You can set the [Comments](options-text-editor-csharp-advanced.md#comments) opti
 1. In the **Options** dialog box, navigate to **Text Editor** > **C#** (or **Visual Basic**) > **Advanced**.
 1. Under the **Comments** section, select or deselect **Generate XML documentation comments for \\\\\\** (or **'''**).
 
-## Automatically insert an XML comment structure
+## Automatically insert an XML comment
 
 1. In Visual Studio, place your cursor above the element you want to document, for example a method.
 
@@ -45,7 +45,7 @@ You can set the [Comments](options-text-editor-csharp-advanced.md#comments) opti
    - From the **Edit** menu, choose **IntelliSense** > **Insert Comment**.
    - From the right-click or context menu, choose **Snippet** > **Insert Comment**.
 
-   The XML comment structure is immediately generated above the code element. For example, when commenting a method, the template generates the `<summary>` element, a `<param>` element for each parameter, and a `<returns>` element to document the return value.
+   The XML comment structure is immediately generated above the code element. For example, when commenting the following `GetUserName` method, the template generates the `<summary>` element, a `<param>` element for the parameter, and a `<returns>` element to document the return value.
 
     ```csharp
     /// <summary>
@@ -68,9 +68,9 @@ You can set the [Comments](options-text-editor-csharp-advanced.md#comments) opti
     Public Function GetUserName(id As Integer) As String
         Return "username"
     End Function
-```
+    ```
 
-1. Enter descriptions for each XML element to fully document the code element. For example:
+1. Enter descriptions for each XML element to fully document the code. For example:
 
    ```csharp
     /// <summary>
@@ -83,9 +83,9 @@ You can set the [Comments](options-text-editor-csharp-advanced.md#comments) opti
         return "username";
     }
    ```
-You can use XML elements and styles in comments that render in Quick Info when you hover over the element. These elements include italics, bold, bulleted or numbered lists, and clickable `cref` or `href` links.
+You can use XML elements and styles in comments that render in Quick Info when you hover over the code. These elements include italic or bold styles, bulleted or numbered lists, and clickable `cref` or `href` links.
 
-For example, enter the following code in Visual Studio:
+For example, enter the following code:
 
 ```csharp
 /// <summary>
@@ -102,14 +102,14 @@ public static string GetUserName(int id)
 }
 ```
 
-When you hover over **GetUserName**, the following formatting appears in the Quick Info pane:
+When you hover over **GetUserName**, the Quick Info pane appears as follows:
 
-![Screenshot showing the completed comment with style tags for a clickable link, a numbered list with italics, and bold formatting.](media/doc-style-cs.png)
+![Screenshot showing the completed comment with style tags for a clickable link, a numbered list, and italic and bold formatting.](media/doc-style-cs.png)
 
 ## Related content
 
 - [Documentation comments](/dotnet/csharp/language-reference/xmldoc/)
-- [How to: Create XML documentation in Visual Basic](/dotnet/visual-basic/programming-guide/program-structure/how-to-create-xml-documentation)
+- [XML documentation in Visual Basic](/dotnet/visual-basic/programming-guide/program-structure/how-to-create-xml-documentation)
 - [Comments (C++)](/cpp/cpp/comments-cpp)
 - [XML Documentation (Visual C++)](/cpp/build/reference/xml-documentation-visual-cpp)
-- [Generate, fix, or refactor code](writing-code-in-the-code-and-text-editor.md#generate-fix-or-refactor-code)
+- [Code generation](../writing-code-in-the-code-and-text-editor.md#generate-fix-or-refactor-code)
