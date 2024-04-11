@@ -19,11 +19,19 @@ You can distribute the compiler-generated XML file along with your .NET assembly
 
 ## Enable documentation generation
 
+   ::: moniker range=">= vs-2022"
 To enable documentation generation, select the **Generate a file containing API documentation** checkbox on the **Build** > **Output** tab of your project's properties.
 
 By default, a documentation file named the same as your assembly with an *.xml* file extension generates in the same directory as the assembly. If you want to configure a nondefault name or location for the  file, enter or browse to an alternate location under **XML documentation file path**.
+   ::: moniker-end
 
-Alternatively, you can add the [GenerateDocumentationFile](/dotnet/core/project-sdk/msbuild-props#generatedocumentationfile) or [DocumentationFile](/dotnet/core/project-sdk/msbuild-props#documentationfile) properties to your *.csproj*, *.vbproj*, or *.fsproj* file. Set `GenerateDocumentationFile` to `true` to generate a documentation file with the default name and location. Add the `DocumentationFile` property to specify a different name or location.
+   ::: moniker range="<= vs-2019"
+To enable documentation generation, select the **XML documentation file** checkbox in the **Build** > **Output** section of your project's properties.
+
+By default, a documentation file named the same as your assembly with an *.xml* file extension generates in the same directory as the assembly. If you want to configure a nondefault name or location for the  file, enter or browse to an alternate location.
+   ::: moniker-end
+
+Alternatively, you can add the [GenerateDocumentationFile](/dotnet/core/project-sdk/msbuild-props#generatedocumentationfile) or [DocumentationFile](/dotnet/core/project-sdk/msbuild-props#documentationfile) properties to your *.csproj*, *.vbproj*, or *.fsproj* file. Set `GenerateDocumentationFile` to `true` to generate a documentation file with the default name and location. Use the `DocumentationFile` property to specify a different name or location.
 
 If you use `DocumentationFile` by itself or with the `GenerateDocumentationFile` property set to `true`, a documentation file with the specified name and location is generated. However, if you set `GenerateDocumentationFile` to `false`, no documentation file is generated even if you set the `DocumentationFile` property.
 

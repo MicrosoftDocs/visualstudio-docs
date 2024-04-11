@@ -90,12 +90,17 @@ You can create your own code snippets and add them to the code snippets that Vis
 
 1. In the **Import Code Snippet** dialog box, select the **My Code Snippets** folder in the right pane. Select **Finish**, and then select **OK**.
 
-1. The snippet is copied to one of the following locations, depending on the code language and version of Visual Studio that you're using:
+   The snippet is copied to one of the following locations, depending on the code language:
 
-   - *%USERPROFILE%\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets*
-   - *%USERPROFILE%\Documents\Visual Studio 2022\Code Snippets\Visual Basic\My Code Snippets*
-   - *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets*
-   - *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual Basic\My Code Snippets*
+   ::: moniker range=">= vs-2022"
+   *%USERPROFILE%\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets*
+   *%USERPROFILE%\Documents\Visual Studio 2022\Code Snippets\Visual Basic\My Code Snippets*
+   ::: moniker-end
+
+   ::: moniker range="<= vs-2019"
+   *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets*
+   *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual Basic\My Code Snippets*
+   ::: moniker-end
 
 1. Test your snippet by opening a C# or Visual Basic project. With a code file open in the editor, take one of the following actions:
 
@@ -109,12 +114,17 @@ You can create your own code snippets and add them to the code snippets that Vis
 
 The description field provides more information about your code snippet when viewed in the **Code Snippets Manager**. The shortcut is a tag you can type to insert your snippet.
 
-1. To edit your snippet, open the snippet file from the following location, depending on the code language and version of Visual Studio that you're using:
+1. To edit your snippet, open the snippet file from one of the following locations, depending on the code language:
 
+   ::: moniker range=">= vs-2022"
    - *%USERPROFILE%\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets/SquareRoot.snippet*
    - *%USERPROFILE%\Documents\Visual Studio 2022\Code Snippets\Visual Basic\My Code Snippets/SquareRoot.snippet*
+   ::: moniker-end
+
+   ::: moniker range="<= vs-2019"
    - *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets/SquareRoot.snippet*
    - *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual Basic\My Code Snippets/SquareRoot.snippet*
+   ::: moniker-end
 
    > [!TIP]
    > Because you're editing the file in the directory where Visual Studio placed it, you don't need to reimport it to Visual Studio.
