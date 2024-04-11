@@ -3,7 +3,7 @@ title: C# Dev Kit for Visual Studio Code
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 10/12/2023
+ms.date: 04/11/2024
 ms.topic: how-to
 description: Explore the C# Dev Kit for Visual Studio Code that provides a rich C# editing experience, AI-powered development, solution management, and integrated testing.
 ---
@@ -25,11 +25,13 @@ C# Dev Kit borrows some familiar concepts from Visual Studio to bring a more pro
    > [!div class="mx-imgBorder"]
    > ![Screenshot showing the C# Dev Kit extension relationship.](_img/vs-c-sharp-dev-kit/extension-relationship.png "Screenshot showing the C# Dev Kit extension relationship")
 
-## Learn more about the C# Dev Kit
-If you'd like to learn more about the C# Dev Kit, check out these resources:
+## Install the C# Dev Kit
+
+To learn more about the C# Dev Kit and to install it, check out these resources:
++ The [C# Dev Kit page](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) on the Visual Studio Marketplace has information about the features, Q&A, ratings and reviews, and to install it. 
 + For information about the features and capabilities of the C# Dev Kit, see the blog post [Announcing C# Dev Kit for Visual Studio Code](https://devblogs.microsoft.com/visualstudio/announcing-csharp-dev-kit-for-visual-studio-code/).
 + The [C# Dev Kit FAQ](https://code.visualstudio.com/docs/csharp/cs-dev-kit-faq#_who-can-use-c-dev-kit) provides answers to common questions about the kit.  
-+ The [C# Dev Kit page](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) on the Visual Studio Marketplace has information about the features, Q&A, ratings and reviews, and instructions on how to get started. 
+
 
 ## Eligibility
 
