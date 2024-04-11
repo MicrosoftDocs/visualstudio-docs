@@ -54,9 +54,23 @@ Follow these steps to start working with the profiling features in Visual Studio
 
 1. In the **Profiling Settings** dialog, choose the code file or project code that you want to profile:
 
-   - To profile all project code, select **Open project**, and then choose the project from the dropdown list. The list shows all projects in the current Visual Studio solution.
+   - To profile all project code:
+   
+      1. Select **Open project**.
+      
+      1. Select the project from the dropdown list. The list shows all projects in the current Visual Studio solution.
 
-   - To profile a specific file, select **Standalone script**, and then choose the **Python Interpreter** from the dropdown list. To specify an unlisted interpreter, choose **Other** in the dropdown list and then specify the **Interpreter Path**.
+   - To profile a specific file:
+   
+      1. Select **Standalone script**.
+      
+      1. Select the **Python Interpreter** from the dropdown list or browse to the location. To specify an unlisted interpreter, choose **Other** in the dropdown list and then specify the **Interpreter Path**.
+
+      1. Identify the **Script** file or browse to the location.
+      
+      1. Specify the **Working Directory** or browse to the location.
+      
+      1. Specify any **Command Line Arguments** for the script.
 
 1. Select **Start**.
 
