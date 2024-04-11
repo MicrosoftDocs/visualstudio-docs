@@ -19,7 +19,7 @@ You can and should periodically update all Visual Studio installations so that t
 If Visual Studio is installed on a machine in an organization and was originally installed from a layout, then most likely the client machine is part of a "managed environment", meaning that it is governed by a central administrative team and must adhere to organizational policies. To update client machines in managed environments, consider the questions below because the answers will inform how you should approach the update process. 
 
 -  Where are the updates coming from: a layout or Microsoft hosted servers? If the update is coming from a layout, has the layout been updated? Is the layout hosted on a network share or on an internal intranet webserver?
--  Is the update going to be initiated [manually by the user](#manually-initiate-the-update-on-the-client-machine), or is it an administrator initiated event, like via an [administrator update](#use-administrator-updates-to-update-the-client-machines) or via a [programmatic command](#programatically-update-the-client-machines)? Remember that whoever performs the update must have administrator permissions on the client machine.
+-  Is the update going to be initiated [manually by the user](#manually-initiate-the-update-on-the-client-machine), or is it an administrator initiated event, like via an [administrator update](#use-administrator-updates-to-update-the-client-machines) or via a [programmatic command](#programmatically-update-the-client-machines)? Remember that whoever performs the update must have administrator permissions on the client machine.
 
 ## Prepare the update source
 
