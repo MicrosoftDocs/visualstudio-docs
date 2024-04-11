@@ -28,7 +28,7 @@ C# Dev Kit borrows some familiar concepts from Visual Studio to bring a more pro
 ## Install the C# Dev Kit
 
 To learn more about the C# Dev Kit and to install it, check out these resources:
-+ The [C# Dev Kit page](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) on the Visual Studio Marketplace has information about the features, Q&A, ratings and reviews, and to install it. 
++ Visit the [C# Dev Kit page](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) on the Visual Studio Marketplace for information about the features, Q&A, ratings and reviews, and to install it. 
 + For information about the features and capabilities of the C# Dev Kit, see the blog post [Announcing C# Dev Kit for Visual Studio Code](https://devblogs.microsoft.com/visualstudio/announcing-csharp-dev-kit-for-visual-studio-code/).
 + The [C# Dev Kit FAQ](https://code.visualstudio.com/docs/csharp/cs-dev-kit-faq#_who-can-use-c-dev-kit) provides answers to common questions about the kit.
 
