@@ -109,7 +109,7 @@ The following resources will help you keep your Visual Studio updated, current, 
 
 - **[Use command-line parameters to update Visual Studio](use-command-line-parameters-to-install-visual-studio.md)**. Use a variety of parameters to programmatically update Visual Studio. For more information, see [command line parameter examples](command-line-parameter-examples.md).
 
-- **[Update client machines that are based on a network layout](update-a-network-installation-of-visual-studio.md)**. After you've updated your layout, you can then update your client installations of Visual Studio from the updated network layout. This scenario is also designed to work with Administrator Updates, and for [clients that are not connected to the internet](update-a-network-installation-of-visual-studio.md#programatically-update-a-client-that-doesnt-have-internet-access). 
+- **[Update client machines that are based on a network layout](update-a-network-installation-of-visual-studio.md)**. After you've updated your layout, you can then update your client installations of Visual Studio from the updated network layout. This scenario is also designed to work with Administrator Updates, and for [clients that are not connected to the internet](update-a-network-installation-of-visual-studio.md#programmatically-update-a-client-that-doesnt-have-internet-access). 
  
 - **For computers that are not connected to the internet or not attached to a layout**, you can [update Visual Studio using a minimal offline layout](update-minimal-layout.md). 
 
