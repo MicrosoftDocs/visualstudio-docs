@@ -1,8 +1,8 @@
 ---
 title: Insert XML documentation comments
-description: Learn how to insert XML documentation comments in your code that you can use to create a compiler-generated XML file to distribute alongside your .NET assembly.
-ms.date: 11/23/2021
-ms.topic: reference
+description: Learn how to insert XML documentation comments in your code and create a compiler-generated XML comments file to distribute with your .NET assembly.
+ms.date: 04/10/2024
+ms.topic: how-to
 author: mikadumont
 ms.author: midumont
 manager: mijacobs
@@ -10,49 +10,106 @@ ms.subservice: general-ide
 ---
 # Insert XML comments for documentation generation
 
-Visual Studio can help you document code elements such as classes and methods, by automatically generating the standard XML documentation comment structure. At compile time, you can generate an XML file that contains the documentation comments. To enable that option, select **Generate a file containing API documentation** on the **Build** > **Output** tab of your project's properties.
+This article describes how Visual Studio can help you document code elements such as classes and methods by automatically generating the standard XML documentation comment structure. At compile time, you can generate an XML file that contains the documentation comments.
 
-> [!TIP]
-> If you want to configure a non-default name and location for the documentation file, add the [DocumentationFile](/dotnet/core/project-sdk/msbuild-props#documentationfile) property to your *.csproj*, *.vbproj*, or *.fsproj* file.
-
-The compiler-generated XML file can be distributed alongside your .NET assembly so that Visual Studio and other IDEs can use IntelliSense to show quick information about types and members. Additionally, the XML file can be run through tools like [DocFX](https://dotnet.github.io/docfx/) and [Sandcastle](https://www.microsoft.com/download/details.aspx?id=10526) to generate API reference websites.
+You can distribute the compiler-generated XML file along with your .NET assembly so that Visual Studio and other IDEs can use IntelliSense to show quick information about types and members. You can also run the XML file through tools like [DocFX](https://dotnet.github.io/docfx/) and [Sandcastle](https://www.microsoft.com/download/details.aspx?id=10526) to generate API reference websites.
 
 > [!NOTE]
-> The **Insert Comment** command that automatically inserts XML documentation comments is available in [C#](/dotnet/csharp/programming-guide/xmldoc/) and [Visual Basic](/dotnet/visual-basic/programming-guide/program-structure/how-to-create-xml-documentation). However, you can manually insert [XML documentation comments in C++](/cpp/build/reference/xml-documentation-visual-cpp) files and still generate XML documentation files at compile time.
+> The **Insert Comment** command to automatically insert XML documentation comment structure is available in [C#](/dotnet/csharp/programming-guide/xmldoc/) and [Visual Basic](/dotnet/visual-basic/programming-guide/program-structure/how-to-create-xml-documentation). For C++, you can [manually insert XML documentation comments](/cpp/build/reference/xml-documentation-visual-cpp) and generate XML documentation files at compile time.
 
-## To insert XML comments for a code element
+## Enable documentation generation
 
-1. Place your text cursor above the element you want to document, for example, a method.
+To enable documentation generation, select **Generate a file containing API documentation** on the **Build** > **Output** tab of your project's properties.
 
-2. Do one of the following:
+By default, a documentation file named the same as your assembly with an *.xml* file extension is generated in the same directory as the assembly. If you want to configure a non-default name or location for the  file, enter or browse to an alternate location under **XML documentation file path**.
 
-   - Type `///` in C#, or `'''` in Visual Basic
+Alternatively, you can add the [GenerateDocumentationFile](/dotnet/core/project-sdk/msbuild-props#generatedocumentationfile) or [DocumentationFile](/dotnet/core/project-sdk/msbuild-props#documentationfile) properties to your *.csproj*, *.vbproj*, or *.fsproj* file. Set `GenerateDocumentationFile` to `true` to generate a documentation file with the default name and location. Add the `DocumentationFile` property to specify a different name or location.
 
-   - From the **Edit** menu, choose **IntelliSense** > **Insert Comment**
+If you use `DocumentationFile` by itself or with the `GenerateDocumentationFile` property set to `true`, a documentation file with the specified name and location is generated. However, if you set `GenerateDocumentationFile` to `false`, no documentation file is generated even if you set the `DocumentationFile` property.
 
-   - From the right-click or context menu on or just above the code element, choose **Snippet** > **Insert Comment**
+## Enable comment insertion keyboard shortcut
 
-   The XML template is immediately generated above the code element. For example, when commenting a method, it generates the **\<summary\>** element, a **\<param\>** element for each parameter, and a **\<returns\>** element to document the return value.
+You can set the [Comments](options-text-editor-csharp-advanced.md#comments) option to automatically insert XML comment structures after you type `///` in C# or `'''` in Visual Basic.
 
-   ![XML comment template - C#](media/doc-preview-cs.png)
+1. From the Visual Studio menu bar, choose **Tools** > **Options**.
+1. In the **Options** dialog box, navigate to **Text Editor** > **C#** (or **Visual Basic**) > **Advanced**.
+1. Under the **Comments** section, select or deselect **Generate XML documentation comments for \\\\\\** (or **'''**).
 
-   ![XML comment template - Visual Basic](media/doc-preview-vb.png)
+## Automatically insert an XML comment structure
 
-3. Enter descriptions for each XML element to fully document the code element.
+1. In Visual Studio, place your cursor above the element you want to document, for example a method.
 
-   ![Screenshot showing the completed comment.](media/doc-result-cs.png)
+1. Take one of the following actions:
 
-You can use styles in XML comments that will render in Quick Info when hovering over the element. These styles include: italics, bold, bullets, and a clickable link.
+   - If the automatic comment insertion shortcut is enabled, type `///` in C#, or `'''` in Visual Basic.
+   - From the **Edit** menu, choose **IntelliSense** > **Insert Comment**.
+   - From the right-click or context menu, choose **Snippet** > **Insert Comment**.
 
-   ![Screenshot showing the completed comment with style tags for italics, bold, bullets, and a clickable link.](media/doc-style-cs.png)
+   The XML comment structure is immediately generated above the code element. For example, when commenting a method, the template generates the `<summary>` element, a `<param>` element for each parameter, and a `<returns>` element to document the return value.
 
-> [!NOTE]
-> There is an [option](../../ide/reference/options-text-editor-csharp-advanced.md) to toggle XML documentation comments after typing `///` in C# or `'''` Visual Basic. From the menu bar, choose **Tools** > **Options** to open the **Options** dialog box. Then, navigate to **Text Editor** > **C#** (or **Visual Basic**) > **Advanced**. In the **Editor Help** section, look for the **Generate XML documentation comments** option.
+   ```csharp
+   /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="id"></param>
+    /// <returns></returns>
+    public string GetUserName(int id)
+    {
+        return "username";
+    }
+```
 
-## See also
+    ```vb
+    ''' <summary>
+    ''' 
+    ''' </summary>
+    ''' <param name="id"></param>
+    ''' <returns></returns>
+    Public Function GetUserName(id As Integer) As String
+        Return "username"
+    End Function
+```
 
-- [Documenting your code with XML comments (C# Guide)](/dotnet/csharp/language-reference/xmldoc/)
-- [How to: Create XML documentation (Visual Basic)](/dotnet/visual-basic/programming-guide/program-structure/how-to-create-xml-documentation)
-- [C++ Comments](/cpp/cpp/comments-cpp)
-- [XML Documentation (C++)](/cpp/build/reference/xml-documentation-visual-cpp)
-- [Code generation](../code-generation-in-visual-studio.md)
+1. Enter descriptions for each XML element to fully document the code element. For example:
+
+   ```csharp
+    /// <summary>
+    /// Gets the username associated with the specified ID.
+    /// </summary>
+    /// <param name="id">The unique user ID.</param>
+    /// <returns>A string containing the username for the specified ID.</returns>
+    public string GetUserName(int id)
+    {
+        return "username";
+    }
+   ```
+You can use styles in XML comments that render in Quick Info when you hover over the element. These styles include italics, bold, bulleted or numbered lists, and clickable `cref` or `href` links.
+
+For example, enter the following code in Visual Studio:
+
+```csharp
+/// <summary>
+/// There are two <see href="https://bing.com">params</see>.
+/// <list type="number">
+/// <item><param name="id">The user <em>id</em></param></item>
+/// <item><param name="username">The user <em>name</em></param></item>
+/// </list>
+/// </summary>
+/// <returns>The <strong>username</strong>.</returns>
+public static string GetUserName(int id)
+{
+    return "username";
+}
+```
+
+When you hover over **GetUserName**, the following formatting appears in the Quick Info pane:
+
+![Screenshot showing the completed comment with style tags for a clickable link, a numbered list with italics, and bold formatting.](media/doc-style-cs.png)
+
+## Related content
+
+- [Documentation comments](/dotnet/csharp/language-reference/xmldoc/)
+- [How to: Create XML documentation in Visual Basic](/dotnet/visual-basic/programming-guide/program-structure/how-to-create-xml-documentation)
+- [Comments (C++)](/cpp/cpp/comments-cpp)
+- [XML Documentation (Visual C++)](/cpp/build/reference/xml-documentation-visual-cpp)
+- [Generate, fix, or refactor code](writing-code-in-the-code-and-text-editor.md#generate-fix-or-refactor-code)
