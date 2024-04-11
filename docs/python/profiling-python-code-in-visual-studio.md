@@ -13,7 +13,9 @@ ms.subservice: python
 
 # Profile Python code in Visual Studio
 
-Visual Studio provides profiling features for Python applications when you debug your code. The Visual Studio **Debugger** lets you step through your code to check variables, analyze program state, resolve potential issues, and so on. Visual Studio profiling features provide information about execution times for your program. You can use this information to identify performance issues in your code. Profiling is available for Python 3.11 and earlier when you use a CPython-based interpreter.
+Visual Studio provides profiling features for Python applications when you debug your code. The Visual Studio **Debugger** lets you step through your code to check variables, analyze program state, resolve potential issues, and so on. Visual Studio profiling features provide information about execution times for your program. You can use this information to help identify performance issues in your code.
+
+Profiling is available for Python 3.9 and earlier when you use a CPython-based interpreter.
 
 <!-- Reviewer: Need to identify exact start & end Python version for VS profiling support
 
@@ -44,21 +46,21 @@ Follow these steps to start working with the profiling features in Visual Studio
 
 1. In Visual Studio, open your Python code file. 
 
-1. Confirm the current environment for your Python code is a CPython-based interpreter. For more information, see [Create and manage Python environments in Visual Studio - the Python Environments window](managing-python-environments-in-visual-studio.md#the-python-environments-window)
+1. Confirm the current environment for your Python code is a CPython-based interpreter. You can check the selected interpreter in the [Python Environments window](managing-python-environments-in-visual-studio.md#the-python-environments-window).
 
 1. On the main toolbar, select **Debug** > **Launch Python Profiling**. Visual Studio opens the **Profiling Settings** dialog:
 
-   :::image type="content" source="media/profiling-python-code-in-visual-studio/profiling-config.png" alt-text="Screenshot of the Profiling Settings configuration dialog in Visual Studio." border="false" lightbox="media/profiling-python-code-in-visual-studio/profiling-config.png":::
+   :::image type="content" source="media/profiling-python-code-in-visual-studio/profiling-config.png" alt-text="Screenshot of the Profiling Settings configuration dialog in Visual Studio." lightbox="media/profiling-python-code-in-visual-studio/profiling-config.png":::
 
 1. In the **Profiling Settings** dialog, choose the code file or project code that you want to profile:
 
-   - To profile all project code, select **Open project**, and select the project from the dropdown list. The list shows all projects in the current Visual Studio solution.
+   - To profile all project code, select **Open project**, and then choose the project from the dropdown list. The list shows all projects in the current Visual Studio solution.
 
-   - To profile a specific file, select **Standalone script**, and select the **Python Interpreter** from the dropdown list. To specify an unlisted interpreter, select **Other** in the dropdown list and specify the **Interpreter Path**.
+   - To profile a specific file, select **Standalone script**, and then choose the **Python Interpreter** from the dropdown list. To specify an unlisted interpreter, choose **Other** in the dropdown list and then specify the **Interpreter Path**.
 
 1. Select **Start**.
 
-The profiler runs and opens a performance report through which you can explore how time is spent in the application:
+The profiler runs and opens a performance report in Visual Studio. You can review the report to explore how time is spent in your application:
 
 ::: moniker range=">=vs-2022"
 
@@ -77,7 +79,7 @@ IronPython is a .NET implementation of Python that's available in 32-bit and 64-
 
 For IronPython projects, you can use the Visual Studio .NET profiler. Run the `ipy.exe` command directly as the target application with the appropriate arguments to launch your startup script. On the command line, include the `-X:Debug` argument to ensure all your Python code can be debugged and profiled. This argument generates a performance report that includes time spent in the IronPython runtime and your code. Your code is identified by using _mangled names_.
 
-IronPython offers some built-in profiling, but there's currently no workable visualizer. For more information, see [An IronPython Profiler](/archive/blogs/curth/an-ironpython-profiler) (MSDN blogs) and [Debugging and Profiling](https://ironpython-test.readthedocs.io/en/latest/library/debug.html) in the IronPython documentation.
+IronPython offers some built-in profiling, but there's currently no workable visualizer. For more information, see [An IronPython Profiler](/archive/blogs/curth/an-ironpython-profiler) (blog) and [Debugging and Profiling](https://ironpython-test.readthedocs.io/en/latest/library/debug.html) in the IronPython documentation.
 
 ## Related content
 
