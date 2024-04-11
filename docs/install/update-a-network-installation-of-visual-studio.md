@@ -19,7 +19,7 @@ You can and should periodically update all Visual Studio installations so that t
 If Visual Studio is installed on a machine in an organization and was originally installed from a layout, then most likely the client machine is part of a "managed environment", meaning that it is governed by a central administrative team and must adhere to organizational policies. To update client machines in managed environments, consider the questions below because the answers will inform how you should approach the update process. 
 
 -  Where are the updates coming from: a layout or Microsoft hosted servers? If the update is coming from a layout, has the layout been updated? Is the layout hosted on a network share or on an internal intranet webserver?
--  Is the update going to be initiated [manually by the user](#manually-initiate-the-update-on-the-client-machine), or is it an administrator initiated event, like via an [administrator update](#use-administrator-updates-to-update-the-client-machines) or via a [programmatic command](#programatically-update-the-client-machines)? Remember that whoever performs the update must have administrator permissions on the client machine.
+-  Is the update going to be initiated [manually by the user](#manually-initiate-the-update-on-the-client-machine), or is it an administrator initiated event, like via an [administrator update](#use-administrator-updates-to-update-the-client-machines) or via a [programmatic command](#programmatically-update-the-client-machines)? Remember that whoever performs the update must have administrator permissions on the client machine.
 
 ## Prepare the update source
 
@@ -66,7 +66,7 @@ If you're in an organization, the recommended best practice is to enroll your cl
 ## Programmatically update the client machines
 Administrators can programmatically update the client installations of Visual Studio by either issuing the commands to the client-side installer or by invoking a bootstrapper in the network layout.
 
-### programmatically update Visual Studio by using the Visual Studio Installer
+### Programmatically update Visual Studio by using the Visual Studio Installer
 
 You can initiate an update to Visual Studio by programmatically invoking the client's installer and issuing the update command. This command will update Visual Studio based on the product bits that are available in the [source location for updates](update-visual-studio.md#configure-source-location-of-updates-1). If you want to change the update source location on the client while performing the update, you can do that programmatically by passing in the `--channelUri` parameter alongside the update command. For example:  
 
