@@ -65,7 +65,7 @@ If a subscriber didn't activate their Visual Studio subscription, it might be be
 
 ## View Visual Studio pricing for CSP partners
 
-To view Visual Studio pricing for CSP partners, log into the [Partner Center](https://partnercenter.microsoft.com). Choose **Pricing and offers** from the left nav. Choose the current month pricing file under **usage-based services** in the upper right. After the Excel spreadsheet downloads, go to the **Azure Price List** sheet, and filter the **Meter Category** column to **Visual Studio**.
+To view Visual Studio pricing for CSP partners, log into [Partner Center](https://partnercenter.microsoft.com). Choose the **Pricing** workspace button from the Home page. Choose the current month pricing file under **Azure Plan pricing**. After the Excel spreadsheet downloads, go to the **Azure Price List** sheet, and filter the **Meter Category** column to **Visual Studio**.
 
 Here's how to interpret what you see on this spreadsheet:
 
