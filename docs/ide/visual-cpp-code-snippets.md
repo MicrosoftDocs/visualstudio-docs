@@ -1,7 +1,7 @@
 ---
 title: Visual C++ code snippets
 description: Learn how to use code snippets to add commonly used code to your C++ code files.
-ms.date: 11/04/2016
+ms.date: 04/05/2024
 ms.topic: reference
 author: tylermsft
 ms.author: twhitney
@@ -11,59 +11,69 @@ dev_langs:
 ---
 # Visual C++ code snippets
 
-In Visual Studio, you can use code snippets to add commonly-used code to your C++ code files. In general, you can use code snippets in much the same way as in C#, but the set of default code snippets is different.
+In Visual Studio, you can use code snippets to add commonly used code to your C++ code files. Code snippets can make writing program code quicker, easier, and more reliable.
 
-You can either add a code snippet at a particular location in your code (insertion) or surround some selected code with a code snippet.
+## Complete list of C++ code snippets
 
-## Insert a code snippet
+Code snippets work much the same way in C++ and C#, but the set of default code snippets is different. To see the list of available C++ code snippets, select **Tools** > **Code Snippets Manager** from the Visual Studio menu bar, or press **Ctrl**+**K**, **B**, and then select **Visual C++** from the **Language** dropdown menu.
 
-To insert a code snippet, open a C++ code file (*.cpp* or *.h*), click somewhere inside the file, and do one of the following:
+Expand the **Visual C++** folder to see the names of all the C++ code snippets in alphabetical order. Select a snippet to see information about the snippet. For more information about code snippets, see [Code snippets](code-snippets.md).
 
-- Right-click to get the context menu and select **Insert Snippet**
+## Expansion snippets and surround-with snippets
 
-- In the **Edit / IntelliSense** menu, select **Insert Snippet**
+You can insert *expansion* code snippets at particular locations in your code, or surround selected code with *surround-with* code snippets. 
 
-- Use the hotkeys: **Ctrl**+**K**+**X**
+### Insert a code snippet
 
-You should see a list of choices beginning with **#if**. When you select **#if**, you should see the following code added to the file:
+To insert a C++ code snippet:
 
-```cpp
-#if 0
+1. Open a C++ *.cpp* or *.h* file and put your insertion point somewhere in the file.
 
-#endif // 0
-```
+1. Take one of the following actions:
 
-You can then replace the **0** with the correct condition.
+   - Right-click and select **Insert Snippet** from the context menu.
+   - On the Visual Studio menu bar, select **Edit** > **IntelliSense** > **Insert Snippet**.
+   - Press **Ctrl**+**K**, **X**.
 
-## Use a code snippet to surround selected code
+1. Double-click **#if** in the dropdown list, or type *#if* and press **Enter** or **Tab**. The following code is added at the insertion point:
 
-To use a code snippet to surround selected code, select a line (or multiple lines) and do one of the following:
+   ```cpp
+   #if 0
+   
+   #endif // 0
+   ```
 
-- Right-click to get the context menu, and select **Surround With**
+1. Replace the `0` with the correct condition.
 
-- From the **Edit** > **IntelliSense** menu, select **Surround With**
+### Surround selected code with a code snippet
 
-- Using a keyboard, press: **Ctrl**+**K**+**S**
+To surround selected code with a code snippet:
 
-Select **#if**. You should see something like this:
+1. Open a C++ *.cpp* or *.h* file and select some code. In the following example, the line `#include "pch.h"` is selected.
 
-```cpp
-#if 0
-#include "pch.h"  // or whatever line you had selected
-#endif // 0
-```
+1. Take one of the following actions:
 
-You can then replace the 0 with the correct condition.
+   - Right-click and select **Surround With** from the context menu.
+   - On the Visual Studio menu bar, select **Edit** > **IntelliSense** > **Surround With**.
+   - Press **Ctrl**+**K**, **S**.
 
-## Where can I find a complete list of the C++ code snippets?
+1. Double-click **#if** in the dropdown list, or type *#if* and press **Enter** or **Tab**. The code surrounds the selected line.
 
-You can find the complete list of C++ code snippets by going to the **Code Snippets Manager** (on the **Tools** menu) and setting the **Language** to **Visual C++**. In the window below, expand **Visual C++**. You should see the names of all the C++ code snippets in alphabetical order.
+   ```cpp
+   #if 0
+   #include "pch.h"  // or whatever line you had selected
+   #endif // 0
+   ```
 
-The names of most code snippets are self-explanatory, but some names might be confusing.
+1. Replace the `0` with the correct condition.
 
-## Class vs. classi
+## C++ code snippet usage
 
-The **class** snippet provides the definition of a class named `MyClass`, with the appropriate default constructor and destructor, where the definitions of the constructor and destructor are located outside the class:
+The names of most C++ code snippets are self-explanatory, but some names might be confusing.
+
+### Class, classi
+
+The `class` snippet provides the definition of a class named `MyClass`. The definitions of the appropriate default constructor and destructor are located outside the class.
 
 ```cpp
 class MyClass
@@ -85,7 +95,7 @@ MyClass::~MyClass()
 }
 ```
 
-The **classi** code snippet also provides the definition of a class named `MyClass`, but the default constructor and destructor are defined inside the class definition:
+The `classi` code snippet also provides the definition of a class named `MyClass`, but the default constructor and destructor are defined inside the class definition.
 
 ```cpp
 class MyClass
@@ -104,48 +114,42 @@ private:
 };
 ```
 
-## for vs. forr vs. rfor
+### For, forr, rfor
 
-There are three different **for** snippets that provide different kinds of `for` loops.
+The three different `for` snippets provide different kinds of `for` loops.
 
-The **rfor** snippet provides a [range-based](/cpp/cpp/range-based-for-statement-cpp) for loop (link). This construct is preferred over index-based `for` loops.
+- The `rfor` snippet provides a [range-based for loop](/cpp/cpp/range-based-for-statement-cpp). This construct is preferred over index-based `for` loops.
 
-```cpp
-for (auto& i : v)
-{
+  ```cpp
+  for (auto& i : v)
+  {
+  
+  }
+  ```
 
-}
-```
+- The `for` snippet provides a `for` loop in which the condition is based on the length of an object in `size_t`.
 
-The **for** snippet provides a `for` loop in which the condition is based on the length (in `size_t`) of an object.
+  ```cpp
+  for (size_t i = 0; i < length; i++)
+  {
+  
+  }
+  ```
 
-```cpp
-for (size_t i = 0; i < length; i++)
-{
+- The `forr` snippet provides a reverse `for` loop in which the condition is based on the length of an object in integers.
 
-}
-```
+  ```cpp
+  for (int i = length - 1; i >= 0; i--)
+  {
+  
+  }
+  ```
 
-The **forr** snippet provides a reverse `for` loop in which the condition is based on the length (in integers) of an object.
+### The destructor snippet (~)
 
-```cpp
-for (int i = length - 1; i >= 0; i--)
-{
+The destructor snippet `~` shows different behavior in different contexts. If you insert this snippet inside a class, it provides a destructor for that class.
 
-}
-```
-
-## The destructor snippet (~)
-
-The destructor snippet (**~**) shows different behavior in different contexts. If you insert this snippet inside a class, it provides a destructor for that class. For example, given the following code:
-
-```cpp
-class SomeClass {
-
-};
-```
-
-If you insert the destructor snippet, it provides a destructor for `SomeClass`:
+For example, if you insert the destructor snippet inside a class named `SomeClass`, it provides a destructor for `SomeClass`.
 
 ```cpp
 class SomeClass {
@@ -156,13 +160,16 @@ class SomeClass {
 };
 ```
 
-If you try to insert the destructor snippet outside a class, it provides a destructor with a placeholder name:
+If you insert the destructor snippet outside a class, it provides a destructor with a placeholder name.
 
-```cpp
+  ```cpp
 ~TypeNamePlaceholder()
 {
-```
 
-## See also
+}
+  ```
 
-- [Code snippets](../ide/code-snippets.md)
+## Related content
+
+- [Code snippets](code-snippets.md)
+- [Code snippets schema reference](code-snippets-schema-reference.md)

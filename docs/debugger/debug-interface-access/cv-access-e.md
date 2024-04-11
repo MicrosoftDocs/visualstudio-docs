@@ -27,14 +27,12 @@ typedef enum CV_access_e {
 ```
 
 ## Elements
-CV_private
-Member has private access.
 
-CV_protected
-Member has protected access.
-
-CV_public
-Member has public access.
+| Element      | Description                  |
+| ------------ | ---------------------------- |
+| CV_private   | Member has private access.   |
+| CV_protected | Member has protected access. |
+| CV_public    | Member has public access.    |
 
 ## Remarks
 The `friend` access specifier is not included here because it is typically used by non-member functions that have access to both private and protected elements of the class. Use the [IDiaSymbol::get_symTag](../../debugger/debug-interface-access/idiasymbol-get-symtag.md) method to find symbols with `SymTagFriend` access.

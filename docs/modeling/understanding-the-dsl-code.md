@@ -145,7 +145,7 @@ Press **F5** and experiment if you are not familiar with this solution template.
 
  `MultiplicityValidation.cs`
 
- In relationship roles where you specify a multiplicity of 1..1 or 1..*, the user should be warned that at least one instance of the relationship is required. This file provides validation constraints that implement those warnings. The 1..1 link to a embedding parent is not verified.
+ In relationship roles where you specify a multiplicity of 1..1 or 1..*, the user should be warned that at least one instance of the relationship is required. This file provides validation constraints that implement those warnings. The 1..1 link to an embedding parent is not verified.
 
  For these constraints to be executed, you must have set one of the **Uses...** options in the **Editor\Validation** node in DSL Explorer. For more information, see [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md).
 

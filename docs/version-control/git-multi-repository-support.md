@@ -2,7 +2,7 @@
 title: Work with multiple repositories
 titleSuffix: ""
 description: View, manage, and debug your code across 10 active repos at the same time by using the Git tooling within Visual Studio.
-ms.date: 11/22/2022
+ms.date: 04/04/2024
 ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
@@ -69,6 +69,8 @@ Here's how to create a solution with multiple repositories:
 1. Select the .csproj file for another project that has a repository initialized.
 
    After the project's added, Visual Studio detects and activates the second repo. Then, you can adjust the Project References as necessary.
+
+If you create a new project in an existing solution with other projects that already have local or remote repos, you must initialize the new project with Git [`git init`](https://git-scm.com/docs/git-init) before it shows as an additional repo in the solution.
 
 ### Use a folder
 

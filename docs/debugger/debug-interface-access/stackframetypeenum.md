@@ -30,23 +30,15 @@ enum StackFrameTypeEnum {
 ```
 
 ## Elements
-`FrameTypeFPO`
-Frame pointer omitted; FPO info available.
 
-`FrameTypeTrap`
-Kernel Trap frame.
-
-`FrameTypeTSS`
-Kernel Trap frame.
-
-`FrameTypeStandard`
-Standard EBP stack frame.
-
-`FrameTypeFrameData`
-Frame pointer omitted; Frame data info available.
-
-`FrameTypeUnknown`
-Frame that does not have any debug info.
+| Element              | Description                                       |
+| -------------------- | ------------------------------------------------- |
+| `FrameTypeFPO`       | Frame pointer omitted; FPO info available.        |
+| `FrameTypeTrap`      | Kernel Trap frame.                                |
+| `FrameTypeTSS`       | Kernel Trap frame.                                |
+| `FrameTypeStandard`  | Standard EBP stack frame.                         |
+| `FrameTypeFrameData` | Frame pointer omitted; Frame data info available. |
+| `FrameTypeUnknown`   | Frame that does not have any debug info.          |
 
 ## Remarks
 The values in this enumeration are returned by a call to the [IDiaStackFrame::get_type](../../debugger/debug-interface-access/idiastackframe-get-type.md) method.
