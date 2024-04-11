@@ -104,7 +104,7 @@ To fill the dataset with data, use the `Fill` method of the `ProductTableAdapter
 
      The **TableAdapter Configuration** wizard opens.
 
-3. In the **Enter a SQL Statement** page, add the following WHERE clause after the `SELECT` statement in the text box.
+3. In the **Enter a SQL Statement** page, add the following `WHERE` clause after the `SELECT` statement in the text box.
 
     ```sql
     WHERE ThumbnailPhotoFileName <> 'no_image_available_small.gif'

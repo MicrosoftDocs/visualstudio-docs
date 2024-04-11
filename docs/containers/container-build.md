@@ -122,7 +122,7 @@ The process of running the debugger depends on the type of project and container
 | **.NET Core apps (Windows containers)**| Visual Studio uses `onecoremsvsmon` and maps it to the container, runs it as the entry point and then Visual Studio connects to it and attaches to the program. This is similar to how you would normally set up remote debugging on another computer or virtual machine.|
 | **.NET Framework apps** | Visual Studio uses `msvsmon` and maps it to the container, runs it as part of the entry point where Visual Studio can connect to it, and attaches to the program.|
 
-For information on `vsdbg.exe`, see [Offroad debugging of .NET Core on Linux and OSX from Visual Studio](https://github.com/Microsoft/MIEngine/wiki/Offroad-Debugging-of-.NET-Core-on-Linux---OSX-from-Visual-Studio).
+For information on `vsdbg.exe`, see [Offroad debugging of .NET Core on Linux and OS X from Visual Studio](https://github.com/Microsoft/MIEngine/wiki/Offroad-Debugging-of-.NET-Core-on-Linux---OSX-from-Visual-Studio).
 
 ### Modify container image for debugging and production
 
@@ -289,11 +289,11 @@ The container entry point can only be modified in Docker Compose projects, not i
 Container tools in Visual Studio support debugging an SSL-enabled ASP.NET core app with a dev certificate, the same way you'd expect it to work without containers. To make that happen, Visual Studio adds a couple of more steps to export the certificate and make it available to the container. Here is the flow that Visual Studio handles for you when debugging in the container:
 
 1. Ensures the local development certificate is present and trusted on the host machine through the `dev-certs` tool.
-2. Exports the certificate to %APPDATA%\ASP.NET\Https with a secure password that is stored in the user secrets store for this particular app.
+2. Exports the certificate to `%APPDATA%\ASP.NET\Https` with a secure password that is stored in the user secrets store for this particular app.
 3. Volume-mounts the following directories:
 
-   - *%APPDATA%\Microsoft\UserSecrets*
-   - *%APPDATA%\ASP.NET\Https*
+   - `*%APPDATA%\Microsoft\UserSecrets`
+   - `*%APPDATA%\ASP.NET\Https`
 
 ASP.NET Core looks for a certificate that matches the assembly name under the *Https* folder, which is why it's mapped to the container in that path. The certificate path and password can alternatively be defined using environment variables (that is, `ASPNETCORE_Kestrel__Certificates__Default__Path` and `ASPNETCORE_Kestrel__Certificates__Default__Password`) or in the user secrets json file, for example:
 

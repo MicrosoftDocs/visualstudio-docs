@@ -139,7 +139,7 @@ Add a TableAdapter query to Form2 to load orders for the selected customer on Fo
 
 4. Leave the default option of **SELECT which returns rows**, and then click **Next**.
 
-5. Add a WHERE clause to the query, to return `Orders` based on the `CustomerID`. The query should be similar to the following:
+5. Add a `WHERE` clause to the query, to return `Orders` based on the `CustomerID`. The query should be similar to the following:
 
     ```sql
     SELECT OrderID, CustomerID, EmployeeID, OrderDate, RequiredDate, ShippedDate, ShipVia, Freight, ShipName, ShipAddress, ShipCity, ShipRegion, ShipPostalCode, ShipCountry
@@ -148,7 +148,7 @@ Add a TableAdapter query to Form2 to load orders for the selected customer on Fo
     ```
 
     > [!NOTE]
-    > Verify the correct parameter syntax for your database. For example, in Microsoft Access, the WHERE clause would look like: `WHERE CustomerID = ?`.
+    > Verify the correct parameter syntax for your database. For example, in Microsoft Access, the `WHERE` clause would look like: `WHERE CustomerID = ?`.
 
 6. Click **Next**.
 

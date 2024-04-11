@@ -180,7 +180,7 @@ The properties of the attribute include:
 
 - `Category`: The category of the rule. For more information about code analysis rule categories, see [Code quality rules](/dotnet/fundamentals/code-analysis/quality-rules/index).
 
-- `CheckId:` The identifier of the rule. Support includes both a short and long name for the rule identifier. The short name is CAXXXX; the long name is CAXXXX:FriendlyTypeName.
+- `CheckId:` The identifier of the rule. Support includes both a short and long name for the rule identifier. The short name is `CAXXXX`; the long name is `CAXXXX:FriendlyTypeName`.
 
 - `Justification`: The text used to document the reason for suppressing the message.
 
