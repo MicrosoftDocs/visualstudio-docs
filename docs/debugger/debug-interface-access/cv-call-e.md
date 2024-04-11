@@ -33,23 +33,15 @@ typedef enum CV_call_e {
 ```
 
 ## Elements
-CV_CALL_NEAR_C
-Specifies a function-calling convention using a near right-to-left push. The calling function clears the stack.
 
-CV_CALL_NEAR_FAST
-Specifies a function-calling convention using a near left-to-right push with registers. The called function uses the sum of parameter bytes to clear the stack.
-
-CV_CALL_NEAR_STD
-Specifies a function-calling convention using a near standard call (right-to-left push).
-
-CV_CALL_NEAR_SYS
-Specifies a function-calling convention using a near system call.
-
-CV_CALL_THISCALL
-Specifies a function-calling convention using `this` call (`this` pointer passed in register).
-
-CV_CALL_CLRCALL
-Specifies a function-calling convention used by the Common Language Runtime (CLR) (also known as a managed code calling convention).
+| Element    | Description                                                                                     |
+| ----------------- | ---------------------------------------------------------------------------------------- |
+| CV_CALL_NEAR_C    | Specifies a function-calling convention using a near right-to-left push.</br>The calling function clears the stack.                                                 |
+| CV_CALL_NEAR_FAST | Specifies a function-calling convention using a near left-to-right push with registers.</br>The called function uses the sum of parameter bytes to clear the stack. |
+| CV_CALL_NEAR_STD  | Specifies a function-calling convention using a near standard call</br>(right-to-left push).                                                                        |
+| CV_CALL_NEAR_SYS  | Specifies a function-calling convention using a near system call.                                                                                               |
+| CV_CALL_THISCALL  | Specifies a function-calling convention using `this` call</br>(`this` pointer passed in register).                                                                  |
+| CV_CALL_CLRCALL   | Specifies a function-calling convention used by the Common Language Runtime (CLR)</br> (also known as a managed code calling convention).                            |
 
 ## Remarks
 The values in this enumeration are returned by a call to the [IDiaSymbol::get_callingConvention](../../debugger/debug-interface-access/idiasymbol-get-callingconvention.md) method.

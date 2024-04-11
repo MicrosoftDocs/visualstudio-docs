@@ -19,11 +19,11 @@ The software downloads available to you depends on the subscription you're using
 
 ## Excel list of available software 
 
-You can [download an extensive list](https://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Visual_Studio_by_Subscription_Level.xlsx) of available software titles for all subscription types. To check what types are assigned to you, view your subscriptions in the [subscriptions portal](https://my.visualstudio.com/benefits). 
+You can [download an extensive list](https://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Visual_Studio_by_Subscription_Level.xlsx) of available software titles for all subscription types. To check what types are assigned to you, view your subscriptions in the [subscriptions portal](https://my.visualstudio.com/benefits). 
 
 ## Find software downloads 
 1. Sign into the [subscriptions portal](https://my.visualstudio.com/benefits). 
-1. Go to the [featured downloads page](https://my.visualstudio.com/downloads/featured).  
+1. Go to the [featured downloads page](https://my.visualstudio.com/downloads/featured). 
 1. Here you see a list of popular downloads or search a specific product. Note: If you have more than one subscription associated with the same sign-in address, you  see the downloads included with the highest-level subscription, regardless of which subscription you're viewing.
 1. Select the “Get key” link to see all keys that are available for the product you want to download. Then select “Claim key” to claim a product key if the download requires a key to get started. 
 

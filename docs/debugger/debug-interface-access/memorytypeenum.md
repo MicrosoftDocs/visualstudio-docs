@@ -27,18 +27,14 @@ enum MemoryTypeEnum {
 };
 ```
 
-#### Parameters
-`MemTypeCode`
-Accesses only code memory.
+## Elements
 
-`MemTypeData`
-Accesses data or stack memory.
-
-`MemTypeStack`
-Accesses only stack memory.
-
-`MemTypeAny`
-Accesses any kind of memory.
+| Element        | Description                    |
+| -------------- | ------------------------------ |
+| `MemTypeCode`  | Accesses only code memory.     |
+| `MemTypeData`  | Accesses data or stack memory. |
+| `MemTypeStack` | Accesses only stack memory.    |
+| `MemTypeAny`   | Accesses any kind of memory.   |
 
 ## Remarks
 The values in this enumeration are passed to the [IDiaStackWalkHelper::readMemory](../../debugger/debug-interface-access/idiastackwalkhelper-readmemory.md) method to limit access to different types of memory.

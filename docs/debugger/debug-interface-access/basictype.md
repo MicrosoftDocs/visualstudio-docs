@@ -45,59 +45,27 @@ enum BasicType {
 ```
 
 ## Elements
-btNoType
-No basic type is specified.
 
-btVoid
-Basic type is a `void`.
-
-btChar
-Basic type is a `char` (C/C++ type).
-
-btWChar
-Basic type is a wide (Unicode) character (`WCHAR`).
-
-btInt
-Basic type is `signed int` (C/C++ type).
-
-btUInt
-Basic type is `unsigned int` (C/C++ type).
-
-btFloat
-Basic type is a floating-point number (`FLOAT`).
-
-btBCD
-Basic type is a binary-coded decimal (`BCD`).
-
-btBool
-Basic type is a Boolean (`BOOL`).
-
-btLong
-Basic type is a `long int` (C/C++ type).
-
-btULong
-Basic type is an `unsigned long int` (C/C++ type).
-
-btCurrency
-Basic type is currency.
-
-btDate
-Basic type is date/time (`DATE`).
-
-btVariant
-Basic type is a variable type structure (`VARIANT`).
-
-btComplex
-Basic type is a complex number.
-
-btBit
-Basic type is a bit.
-
-btBSTR
-Basic type is a basic or binary string (`BSTR`).
-
-btHresult
-Basic type is an `HRESULT`.
+| Element    | Description                                          |
+| ---------- | ---------------------------------------------------- |
+| btNoType   | No basic type is specified.                          |
+| btVoid     | Basic type is a `void`.                              |
+| btChar     | Basic type is a `char` (C/C++ type).                 |
+| btWChar    | Basic type is a wide (Unicode) character (`WCHAR`).  |
+| btInt      | Basic type is `signed int` (C/C++ type).             |
+| btUInt     | Basic type is `unsigned int` (C/C++ type).           |
+| btFloat    | Basic type is a floating-point number (`FLOAT`).     |
+| btBCD      | Basic type is a binary-coded decimal (`BCD`).        |
+| btBool     | Basic type is a Boolean (`BOOL`).                    |
+| btLong     | Basic type is a `long int` (C/C++ type).             |
+| btULong    | Basic type is an `unsigned long int` (C/C++ type).   |
+| btCurrency | Basic type is currency.                              |
+| btDate     | Basic type is date/time (`DATE`).                    |
+| btVariant  | Basic type is a variable type structure (`VARIANT`). |
+| btComplex  | Basic type is a complex number.                      |
+| btBit      | Basic type is a bit.                                 |
+| btBSTR     | Basic type is a basic or binary string (`BSTR`).     |
+| btHresult  | Basic type is an `HRESULT`.                          |
 
 ## Remarks
 The values in this enumeration are returned by the [IDiaSymbol::get_baseType](../../debugger/debug-interface-access/idiasymbol-get-basetype.md) method.

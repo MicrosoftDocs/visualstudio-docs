@@ -301,6 +301,11 @@ Here are a couple of important tips for exception handling:
 
 For the sample app, fix the `SerializationException` in the `GetJsonData` method by changing `4o` to `40`.
 
+::: moniker range=">= vs-2022"
+> [!TIP]
+> If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're debugging exceptions. Just look for the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
+::: moniker-end
+
 ## Clarify your code intent by using assert
 
 Select the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**). This restarts the app in fewer steps. You see the following output in the console window.

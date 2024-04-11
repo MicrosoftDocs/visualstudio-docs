@@ -11,7 +11,7 @@ helpviewer_keywords:
 - analyzers
 - Roslyn analyzers
 - code analyzers
-ms.date: 03/12/2024
+ms.date: 04/04/2024
 
 #customer intent: As a developer, I want to learn about code analysis using .NET compiler platform (Roslyn) analyzers so that I can understand how then work and use them properly.
 ---
@@ -38,16 +38,9 @@ Analyzers are divided into the following groups:
 
 Each Roslyn analyzer rule, or *diagnostic*, has a default severity and suppression state that you can customize for your project.
 
-The following table shows the different severity options that you can configure for a diagnostic:
+Severity levels include: Error, Warning, Suggestion, Silent, None, and Default. For detailed information and behavior, see [Configure severity levels](../code-quality/use-roslyn-analyzers.md#configure-severity-levels).
 
-| Severity (Solution Explorer) | Severity (EditorConfig file) | Build-time behavior | Editor behavior |
-|-|-|-|-|
-| Error | `error` | Violations appear in the **Error** tab in the **Error List**  window and in command-line build output, and cause builds to fail.| The offending code is underlined with a red squiggle line, and marked by a small red box in the scrollbar. |
-| Warning | `warning` | Violations appear in the **Warning** tab in the **Error List** window and in command-line build output, but don't cause builds to fail. | The offending code is underlined with a green squiggle line and marked by a small green box in the scrollbar. |
-| Suggestion | `suggestion` | Violations appear in the **Message** tab in the **Error List** window but not in command-line build output. | The affected code is underlined with a gray squiggle line and marked by a small gray box in the scrollbar. |
-| Silent | `silent` | Invisible to the user. | Invisible to the user, but the diagnostic is reported to the IDE diagnostic engine. |
-| None | `none` | Suppressed completely. | Suppressed completely. |
-| Default | `default` | Corresponds to the default severity of the rule. To determine the default value for a rule, view its [Properties window](../code-quality/use-roslyn-analyzers.md#set-rule-severity-from-solution-explorer). | Corresponds to the default severity of the rule. |
+## Rule violations
 
 If an analyzer finds any analyzer rule violations, it reports them in the **Error List** window and in the code editor.
 
@@ -58,6 +51,8 @@ The following screenshot shows rule violations reported in the **Error List** wi
 The analyzer rule violations also appear in the code editor as squiggle lines under the offending code. For example, the following screenshot shows three violations: one error (red squiggle line), one warning (green squiggle line), and one suggestion (three gray dots):
 
 :::image type="content" source="media/diagnostics-severity-colors.png" alt-text="Screenshot that shows error, warning, and suggestion marks in the code editor.":::
+
+## Code fixes
 
 Many diagnostics have one or more associated *code fixes* that you can apply to correct the rule violation. Code fixes are shown in the light bulb icon menu along with other types of [Quick Actions](../ide/quick-actions.md). For more information about code fixes, see [Common Quick Actions](../ide/quick-actions.md).
 

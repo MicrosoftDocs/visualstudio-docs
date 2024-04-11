@@ -28,17 +28,13 @@ enum UdtKind {
 ```
 
 ## Elements
-UdtStruct
-UDT is a structure.
 
-UdtClass
-UDT is a class.
-
-UdtUnion
-UDT is a union.
-
-UdtInterface
-UDT is an interface.
+| Element      | Description          |
+| ------------ | -------------------- |
+| UdtStruct    | UDT is a structure.  |
+| UdtClass     | UDT is a class.      |
+| UdtUnion     | UDT is a union.      |
+| UdtInterface | UDT is an interface. |
 
 ## Remarks
 The values in this enumeration are returned by the [IDiaSymbol::get_udtKind](../../debugger/debug-interface-access/idiasymbol-get-udtkind.md) method.

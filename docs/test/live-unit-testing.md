@@ -236,7 +236,7 @@ To select the individual projects in unit tests, follow these steps after Live U
 1. Right-click the solution in **Solution Explorer** and select **Live Unit Testing** > **Exclude** to exclude the entire solution.
 1. Right-click each test project that you want to include in the tests and select **Live Unit Testing** > **Include**.
 
-### Programatically in test code
+### Programmatically in test code
 
 You can apply the <xref:System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute> attribute to programmatically exclude methods, classes, or structures from reporting their coverage in Live Unit Testing.
 
