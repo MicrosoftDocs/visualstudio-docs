@@ -39,7 +39,7 @@ Follow this procedure to create a Visual Studio solution and a new Flask web pro
 
    :::image type="content" source="media/vs-2022/quickstart-python-configure-blank-flask-project.png" alt-text="Screenshot that shows how to configure a new Blank Flask Web Project in Visual Studio 2022." border="false" lightbox="media/vs-2022/quickstart-python-configure-blank-flask-project.png":::
 
-1. After a moment, Visual Studio displays a prompt:
+1. After a moment, Visual Studio displays a prompt about how to handle package dependencies. The prompt is different based on whether you already have package dependencies installed.
 
    The dialog **This project requires external packages.** indicates that the selected template includes a _requirements.txt_ file that specifies dependencies on the Flask package. Visual Studio can install the packages automatically, which gives you the option to install the packages into a _virtual environment_. Using a virtual environment is recommended over installing into a global environment.
    
