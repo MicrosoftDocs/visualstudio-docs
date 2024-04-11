@@ -35,6 +35,8 @@ devenv /DebugExe ExecutableFile
 
 Any strings following the *ExecutableFile* parameter are passed to that file as arguments.
 
+Visual Studio will parse any strings following the *ExecutableFile* parameter for matches in [Devenv command-line switches](../../ide/reference/devenv-command-line-switches.md). You can prevent Visual Studio from parsing a command-line switch by surrounding the switch with double quotes.
+
 ## Example
 
 The following example opens the file `MyApplication.exe` for debugging.
