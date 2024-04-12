@@ -59,7 +59,7 @@ if (Environment.GetEnvironmentVariable("ClickOnce_IsNetworkDeployed")?.ToLower()
 
 Indirect usage of these properties requires the implementation of a new `ApplicationDeployment` class at the application level. This class abstracts the reading of environment variables and provides a similar experience to the old .NET Framework class.
 
-For a sample implementation of this class, see [ApplicationDeployment.cs](https://github.com/dotnet/deployment-tools/blob/main/Documentation/dotnet-mage/ApplicationDeployment.cs).
+For a sample implementation of this class, see [ApplicationDeployment.cs](https://github.com/dotnet/deployment-tools/blob/main/docs/dotnet-mage/ApplicationDeployment.cs).
 
 The following code snippet shows how to use this class:
 
