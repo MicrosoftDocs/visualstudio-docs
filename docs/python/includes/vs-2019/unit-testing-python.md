@@ -44,12 +44,12 @@ Visual Studio allows you to run and test existing Python code without a project,
 
    ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="../media/quickstart-open-folder/vs-2022/open-local-folder.png" alt-text="Screenshot that shows how to select the Open a local folder option when Visual Studio 2022 starts." border="false" lightbox="../media/quickstart-open-folder/vs-2022/open-local-folder.png":::
+   :::image type="content" source="../../media/quickstart-open-folder/vs-2022/open-local-folder.png" alt-text="Screenshot that shows how to select the Open a local folder option when Visual Studio 2022 starts." border="false" lightbox="../../media/quickstart-open-folder/vs-2022/open-local-folder.png":::
 
    ::: moniker-end
    ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="../media/quickstart-open-folder/open-local-folder.png" alt-text="Screenshot that shows how to select the Open a local folder option when Visual Studio starts." border="false" lightbox="../media/quickstart-open-folder/open-local-folder.png":::
+   :::image type="content" source="../../media/quickstart-open-folder/open-local-folder.png" alt-text="Screenshot that shows how to select the Open a local folder option when Visual Studio starts." border="false" lightbox="../../media/quickstart-open-folder/open-local-folder.png":::
 
    ::: moniker-end
 
@@ -57,12 +57,12 @@ Visual Studio allows you to run and test existing Python code without a project,
 
    ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="../media/vs-2022/view-hidden-folders-solution-explorer.png" alt-text="Screenshot that shows how to view hidden folders and files in Solution Explorer in Visual Studio 2022." border="false" lightbox="../media/vs-2022/view-hidden-folders-solution-explorer.png":::
+   :::image type="content" source="../../media/vs-2022/view-hidden-folders-solution-explorer.png" alt-text="Screenshot that shows how to view hidden folders and files in Solution Explorer in Visual Studio 2022." border="false" lightbox="../../media/vs-2022/view-hidden-folders-solution-explorer.png":::
 
    ::: moniker-end
    ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="../media/view-hidden-folders-solution-explorer.png" alt-text="Screenshot that shows how to view hidden folders and files in Solution Explorer in Visual Studio." border="false" lightbox="../media/view-hidden-folders-solution-explorer.png" :::
+   :::image type="content" source="../../media/view-hidden-folders-solution-explorer.png" alt-text="Screenshot that shows how to view hidden folders and files in Solution Explorer in Visual Studio." border="false" lightbox="../../media/view-hidden-folders-solution-explorer.png" :::
 
    ::: moniker-end
 
