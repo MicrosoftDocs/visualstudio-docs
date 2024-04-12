@@ -101,7 +101,7 @@ However, you can specify the following editors and types:
 
 3. A .NET editor such as the file path editor, or you can create your own custom property editor.
 
-   A conversion between an external type and an type such as String, which has a default editor.
+   A conversion between an external type and a type such as String, which has a default editor.
 
    In a DSL, an *external type* is any type that is not one of the simple types (such as Boolean or Int32) or String.
 

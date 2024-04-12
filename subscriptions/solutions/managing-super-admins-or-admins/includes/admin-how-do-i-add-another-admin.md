@@ -1,12 +1,12 @@
 ---
 title: How can I add another super admin or admin?
 description: An admin wants to add another admin to the agreement.
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: bd89a871-2f8b-405f-9a49-b0338063f8f1
 author: evanwindom
 ms.author: amast
-ms.date: 08/17/2023
+ms.date: 04/09/2024
 user.type: admin
 tags: super, admin
 subscription.type: vl, cloud, retail, partner
@@ -32,4 +32,4 @@ To check if you're a super admin, select the agreement details icon on left nav 
 
 The super admin role isn't available for [MPSA agreements](https://learn.microsoft.com/visualstudio/subscriptions/mpsa). Administrator permissions for those agreements are managed in the Microsoft [Business Center](https://businessaccount.microsoft.com/Customer). 
 
-To [manage admins](https://learn.microsoft.com/visualstudio/subscriptions/cloud-admin) for subscriptions purchased through the [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions), visit the [Azure portal](https://portal.azure.com/).   
+To [manage admins](https://learn.microsoft.com/visualstudio/subscriptions/cloud-admin) for subscriptions purchased through the [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions), visit the [Azure portal](https://portal.azure.com/). 

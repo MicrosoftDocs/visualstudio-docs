@@ -52,7 +52,7 @@ To add a snippet to a code file:
    - Right-click, and choose **Snippet** > **Insert Snippet** or **Snippet** > **Surround With** from the context menu.
    - From the keyboard, press **Ctrl**+**K**, **X** for an expansion snippet, or **Ctrl**+**K**, **S** for a surround-with snippet.
 
-1. Double-click the snippet you want in the dropdown list, or type the snippet shortcut and press **Tab**.
+1. Double-click the snippet you want in the dropdown list, or type the snippet shortcut and press **Tab** or **Enter**.
 
 ### Add an expansion snippet
 
@@ -73,9 +73,9 @@ To add this expansion snippet:
 
 1. In the code editor, position your cursor where you want to add the snippet.
 1. Right-click and select **Insert Snippet** from the right-click context menu, or use the menu bar or keyboard commands.
-1. Open the **Visual C#** folder, and then double-click **tryf** in the dropdown list, or select **tryf** and press **Tab**.
+1. Open the **Visual C#** folder, and then double-click **tryf** in the dropdown list, or select **tryf** and press **Tab** or **Enter**.
 
->[!NOTE]
+>[!TIP]
 >You can also place your cursor at the insertion point, type *tryf*, and then press **Tab** twice.
 
 ### Add a surround-with snippet
@@ -91,7 +91,7 @@ if (true)
 
 ## Snippet replacement parameters
 
-Snippets can contain replacement parameters, which are placeholders you must replace to fit the code you're writing. In the previous example, `true` is a replacement parameter, which you replace with the appropriate condition. The replacement is repeated for every instance of that replacement parameter in the snippet.
+Snippets can contain replacement parameters, which are placeholders you must replace to fit the code you're writing. In the previous example, `true` is a replacement parameter, which you replace with the appropriate condition. The replacement repeats for every instance of that replacement parameter in the snippet.
 
 For example, Visual Basic has a code snippet that defines a property. To insert the snippet:
 

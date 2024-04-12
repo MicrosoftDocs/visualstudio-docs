@@ -19,7 +19,7 @@ Visual Studio Enterprise and Visual Studio Professional cloud subscriptions for 
 
 ## Prerequisites
 
-You must first set up your customer tenant in the Partner Center and create an Azure subscription for this tenant.
+You must first set up your customer tenant in Partner Center and create an Azure subscription for this tenant.
 
 [Learn more](/azure/devops/organizations/billing/csp/set-up-csp-customer)
 
@@ -29,7 +29,7 @@ Anyone with [owner or contributor access](https://na01.safelinks.protection.outl
 
 ## How to buy
 
-1. Log into the [Microsoft Partner Center](https://partnercenter.microsoft.com).
+1. Sign in to [Partner Center](https://partner.microsoft.com/dashboard/home).
 0. Choose **Customers** and select a customer to buy for.
 0. Choose **Service Management**.
 0. Choose **Visual Studio Marketplace**.
@@ -50,7 +50,7 @@ also access the Subscription Admin portal from the Partner Center by choosing **
 
 ## How to manage Visual Studio cloud subscriptions for your customer
 
-1. Sign in to the [Microsoft Partner Center](https://partnercenter.microsoft.com).
+1. sign in to [Partner Center](https://partner.microsoft.com/dashboard/home).
 0. Choose **Customers** and the customer's name.
 0. Choose **Service Management**.
 0. Choose **Manage Visual Studio Subscriptions**.
@@ -65,7 +65,7 @@ If a subscriber didn't activate their Visual Studio subscription, it might be be
 
 ## View Visual Studio pricing for CSP partners
 
-To view Visual Studio pricing for CSP partners, log into the [Partner Center](https://partnercenter.microsoft.com). Choose **Pricing and offers** from the left nav. Choose the current month pricing file under **usage-based services** in the upper right. After the Excel spreadsheet downloads, go to the **Azure Price List** sheet, and filter the **Meter Category** column to **Visual Studio**.
+To view Visual Studio pricing for CSP partners, sign in to [Partner Center](https://partner.microsoft.com/dashboard/home). Choose the **Pricing** workspace button from the Home page. Choose the current month pricing file under **Azure Plan pricing**. After the Excel spreadsheet downloads, go to the **Azure Price List** sheet, and filter the **Meter Category** column to **Visual Studio**.
 
 Here's how to interpret what you see on this spreadsheet:
 
@@ -102,7 +102,7 @@ So, for example, if you buy six Visual Studio Professional monthly subscriptions
 
 Also, the discount only applies to charges in a given monthly billing period. So if you buy five Visual Studio Professional annual subscriptions in one month, and then you buy 5 more the next month, you'll pay the regular price on all 10 subscriptions.
 
-These discounts are reflected in the pricing data within the [Partner Center](https://partnercenter.microsoft.com).
+These discounts are reflected in the pricing data within [Partner Center](https://partner.microsoft.com/dashboard/home).
 
 ### Q: Are there renewal discounts?
 
@@ -122,6 +122,7 @@ For assistance with sales, subscriptions, accounts, and billing for Visual Studi
 + [Azure DevOps Services documentation](/azure/devops/)
 + [Azure documentation](/azure/)
 + [Microsoft 365 documentation](/microsoft-365/)
++ [Partner Center documentation](/partner-center/)
 
 ## Next steps
 

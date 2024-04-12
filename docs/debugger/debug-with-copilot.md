@@ -1,7 +1,7 @@
 ---
 title: Debug with GitHub Copilot
 description: Use Copilot to help debug your apps and provide performance insights.
-ms.date: 04/01/2024
+ms.date: 04/09/2024
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -29,7 +29,7 @@ In addition, Copilot provides more precise help for a few targeted scenarios inc
 
 To get AI assistance while you're debugging in these scenarios, look for the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In these scenarios, Copilot already knows the context for your questions. For example, it knows the current call stack, the code line you are asking about, and the name of the exception (if one occurred), so you don't need to provide context yourself in chat.
 
-For more information on the GitHub Copilot extension in Visual Studio, see [About the GitHub Copilot extension for Visual Studio](../ide/visual-studio-github-copilot-extension.md).
+For more information on GitHub Copilot Completions in Visual Studio, see [About GitHub Copilot Completions in Visual Studio](../ide/visual-studio-github-copilot-extension.md).
 
 ## Prerequisites
 
@@ -37,8 +37,8 @@ To get started, you need:
 
 + Visual Studio 2022 [version 17.8](/visualstudio/releases/2022/release-history) or later
 + Active [subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) to [GitHub Copilot for Individuals](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-individuals) or [GitHub Copilot for Business](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-business)
-+ [**GitHub Copilot** extension](../ide/visual-studio-github-copilot-extension.md#installation-instructions) in Visual Studio
-+ [**GitHub Copilot Chat** extension](../ide/visual-studio-github-copilot-chat.md#install-the-visual-studio-extension)
++ [**GitHub Copilot**](../ide/visual-studio-github-copilot-install-and-states.md) in Visual Studio
++ [**GitHub Copilot Chat**](../ide/visual-studio-github-copilot-chat.md#get-github-copilot-chat-for-visual-studio)
 
    > [!NOTE]
    > If you experience authentication issues after installing the extension, see [Troubleshooting authentication issues with GitHub Copilot Chat](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-authentication-issues-with-github-copilot-chat).

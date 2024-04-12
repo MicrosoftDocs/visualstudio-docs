@@ -37,23 +37,15 @@ enum NameSearchOptions {
 ```
 
 ## Elements
-`nsNone`
-No options are specified.
 
-`nsfCaseSensitive`
-Applies a case-sensitive name match.
-
-`nsfCaseInsensitive`
-Applies a case-insensitive name match.
-
-`nsfFNameExt`
-Treats names as paths and applies a filename.ext name match.
-
-`nsfRegularExpression`
-Applies a case-sensitive name match using asterisks (*) and question marks (?) as wildcards. (Other common regular expression characters are not supported.)
-
-`nsfUndecoratedName`
-Applies only to symbols that have both undecorated and decorated names.
+| Element                | Description                                                             |
+| ---------------------- | ----------------------------------------------------------------------- |
+| `nsNone`               | No options are specified.                                               |
+| `nsfCaseSensitive`     | Applies a case-sensitive name match.                                    |
+| `nsfCaseInsensitive`   | Applies a case-insensitive name match.                                  |
+| `nsfFNameExt`          | Treats names as paths and applies a filename.ext name match.            |
+| `nsfRegularExpression` | Applies a case-sensitive name match using asterisks (*) and question marks (?) as wildcards.</br>(Other common regular expression characters are not supported.) |
+| `nsfUndecoratedName`   | Applies only to symbols that have both undecorated and decorated names. |
 
 ## Remarks
 The values from this enumeration are passed to the following methods:

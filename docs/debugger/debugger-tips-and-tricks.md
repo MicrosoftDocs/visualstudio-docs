@@ -136,7 +136,7 @@ With the debugger paused on a line of code, use the mouse to grab the yellow arr
 
 ![Move the Execution Pointer](../debugger/media/dbg-tour-move-the-execution-pointer.gif "Move the Execution Pointer")
 
-By changing the execution flow, you can do things like test different code execution paths or rerun code without restarting the debugger. For more information, see [Move the exeuction pointer](../debugger/move-the-execution-pointer-with-the-debugger.md).
+By changing the execution flow, you can do things like test different code execution paths or rerun code without restarting the debugger. For more information, see [Move the execution pointer](../debugger/move-the-execution-pointer-with-the-debugger.md).
 
 > [!WARNING]
 > Often you need to be careful with this feature, and you see a warning in the tooltip. You may see other warnings, too. Moving the pointer cannot revert your app to an earlier application state.

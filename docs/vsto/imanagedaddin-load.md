@@ -4,6 +4,8 @@ description: "Called when a managed VSTO Add-in is loaded."
 ms.date: "02/02/2017"
 ms.topic: "reference"
 ms.devlang: cpp
+dev_langs:
+  - C++
 f1_keywords:
   - "IMANAGEDADDIN/IManagedAddIn::Load"
   - "IManagedAddIn::Load"
