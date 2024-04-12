@@ -56,7 +56,7 @@ You can create your own code snippets and add them to the code snippets that Vis
 
 1. Enter the title *Square Root* into the snippet `Title` element.
 
-1. In the **Language** attribute of the `Code` element, fill in **CSharp** for a #C snippet or **VB** for Visual Basic.
+1. In the **Language** attribute of the `Code` element, fill in **CSharp** for a C# snippet or **VB** for Visual Basic.
 
    > [!TIP]
    > To see all the available language values, see [Attributes](code-snippets-schema-reference.md#attributes) in the [Code snippets schema reference](code-snippets-schema-reference.md).
