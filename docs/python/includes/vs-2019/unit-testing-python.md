@@ -15,22 +15,22 @@ ms.workload:
 
 ## Select the test framework for a Python project
 
-Visual Studio supports two testing frameworks for Python, [unittest](https://docs.python.org/3/library/unittest.html) and [pytest](https://pytest.org/en/latest/) (available in Visual Studio 2019 starting with version 16.3). By default, no framework is selected when you create a Python project. To specify a framework, right-click on the project name in Solution Explorer and select the **Properties** option. This opens the project designer, which allows you to configure tests through the **Test** tab. From this tab, you can select the test framework that you want to use for your project.
+Visual Studio supports two testing frameworks for Python, [unittest](https://docs.python.org/3/library/unittest.html) and [pytest](https://pytest.org/en/latest/) (available in Visual Studio 2019 starting with version 16.3). By default, no framework is selected when you create a Python project. To specify a framework, right-click on the project name in Solution Explorer and select the **Properties** option. This action opens the project designer, which allows you to configure tests through the **Test** tab. From this tab, you can select the test framework that you want to use for your project.
 
-- For the **unittest** framework, the project's root directory is used for test discovery. This location, as well as the text pattern for identifying tests, can be modified on the **Test** tab to user specified values.
-- For the **pytest** framework, testing options such as test location and filename patterns are specified using the standard pytest .ini configuration file. See the [pytest reference documentation](https://docs.pytest.org/en/latest/reference.html#ini-options-ref) for more details.
+- For the **unittest** framework, the project's root directory is used for test discovery. This location along with the text pattern for identifying tests can be modified on the **Test** tab to user specified values.
+- For the **pytest** framework, testing options such as test location and filename patterns are specified using the standard pytest .ini configuration file. For more information, see the [pytest reference documentation](https://docs.pytest.org/en/latest/reference.html#ini-options-ref).
 
-Once you've saved your framework selection and settings, test discovery is initiated in the Test Explorer. If the Test Explorer window is not already open, navigate to the toolbar and select **Test** > **Test Explorer**.
+After you save your framework selection and settings, test discovery is initiated in the Test Explorer. If the Test Explorer window isn't already open, navigate to the toolbar and select **Test** > **Test Explorer**.
 
 ## Configure testing for Python without a project
 
-Visual Studio allows you to run and test existing Python code without a project, by [opening a folder](../../quickstart-05-python-visual-studio-open-folder.md) with Python code. Under these circumstances, you'll need to use a **PythonSettings.json** file to configure testing.
+Visual Studio allows you to run and test existing Python code without a project, by [opening a folder](../../quickstart-05-python-visual-studio-open-folder.md) with Python code. Under these circumstances, you need to use a **PythonSettings.json** file to configure testing.
 
 1. Open your existing Python code using the **Open a Local Folder** option.
 
-   ![The Visual Studio startup screen](../../media/quickstart-open-folder/01-open-local-folder.png)
+   ![The Visual Studio startup screen](../../media/quickstart-open-folder/open-local-folder.png)
 
-1. Within the Solution Explorer window, click the **Show All Files** icon to show all files in the current folder.
+1. Within the Solution Explorer window, select the **Show All Files** icon to show all files in the current folder.
 
    ![Show all files button](../../media/unit-test-show-files.png)
 
@@ -59,20 +59,21 @@ Visual Studio allows you to run and test existing Python code without a project,
    }
    ```
 
-1. Save your changes to the PythonSettings.json file to initiate test discovery for the specified framework.
+1. Save your changes to the PythonSettings.json file, which initiates test discovery for the specified framework.
+
    > [!Note]
    > If the Test Explorer window is already open **CTRL** + **R,A** also triggers discovery.
 
 ## Discover and view tests
 
-By default, Visual Studio identifies **unittest** and **pytest** tests as methods whose names start with `test`. To see test discovery, do the following:
+By default, Visual Studio identifies **unittest** and **pytest** tests as methods whose names start with `test`. To see test discovery, follow these steps:
 
 1. Open a [Python project](../../managing-python-projects-in-visual-studio.md).
 
 1. Once the project is loaded in Visual Studio, right-click your project in Solution Explorer and select the **unittest** or **pytest** framework from the Properties **Test** tab.
 
    > [!Note]
-   > If you use the pytest framework, you can specify test location and filename patterns using the standard pytest .ini configuration file. By default, the workspace/project folder is used, with a pattern of `test_*py` and `*_test.py`. See the [pytest reference documentation](https://docs.pytest.org/en/latest/reference.html#ini-options-ref) for more details.
+   > If you use the pytest framework, you can specify test location and filename patterns using the standard pytest .ini configuration file. By default, the workspace/project folder is used, with a pattern of `test_*py` and `*_test.py`. For more information, see the [pytest reference documentation](https://docs.pytest.org/en/latest/reference.html#ini-options-ref).
 
 1. After the framework is selected, right-click the project again and select **Add** > **New Item**, then select **Python Unit Test** followed by **Add**.
 
@@ -91,7 +92,7 @@ By default, Visual Studio identifies **unittest** and **pytest** tests as method
 
 1. Save the file if necessary, then open **Test Explorer** with the **Test** > **Test Explorer** menu command.
 
-1. **Test Explorer** searches your project for tests and displays them as shown below. Double-clicking a test opens its source file.
+1. **Test Explorer** searches your project for tests and displays them as shown in the following image. Double-clicking a test opens its source file.
 
    ![Test Explorer showing default test_A](../../media/unit-test-a-2.png)
 
@@ -105,13 +106,13 @@ For more information on the `unittest` module and writing tests, see the [Python
 
 ## Run tests
 
-In **Test Explorer** you can run tests in a variety of ways:
+In **Test Explorer** you can run tests in various ways:
 
 - **Run All** clearly runs all shown tests (subject to filters).
 - The **Run** menu gives you commands to run failed, passed, or not run tests as a group.
 - You can select one or more tests, right-click, and select **Run Selected Tests**.
 
-Tests run in the background and **Test Explorer** updates each test's status as it completes:
+Tests run in the background. **Test Explorer** updates each test's status as it completes:
 
 - Passing tests show a green tick and the time taken to run the test:
 
@@ -125,7 +126,7 @@ Tests run in the background and **Test Explorer** updates each test's status as 
 
 ## Debug tests
 
-Because unit tests are pieces of code, they are subject to bugs just like any other code and occasionally need to be run in a debugger. In the debugger you can set breakpoints, examine variables, and step through code. Visual Studio also provides diagnostic tools for unit tests.
+Because unit tests are pieces of code, they're subject to bugs just like any other code and occasionally need to be run in a debugger. In the debugger you can set breakpoints, examine variables, and step through code. Visual Studio also provides diagnostic tools for unit tests.
 
 > [!Note]
 > By default, test debugging uses the ptvsd 4 debugger for Visual Studio 2017 (versions 15.8 and later) and debugpy for Visual Studio 2019 (versions 16.5 and later). If you would like to instead use ptvsd 3, you can select the **Use Legacy Debugger** option on **Tools** > **Options** > **Python** > **Debugging**.
