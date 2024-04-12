@@ -11,7 +11,7 @@ ms.subservice: python
 
 - Visual Studio on Windows installed with support for Python workloads. For more information, see [Install Python support in Visual Studio](../../installing-python-support-in-visual-studio.md).
 
-- A [Python project](quickstart-02-python-in-visual-studio-project-from-template.md) with code or a [folder with Python code](../../quickstart-05-python-visual-studio-open-folder.md).
+- A [Python project](../../quickstart-02-python-in-visual-studio-project-from-template.md) with code or a [folder with Python code](../../quickstart-05-python-visual-studio-open-folder.md).
 
 Visual Studio for Mac isn't supported. For more information, see [What's happening to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
 
@@ -34,7 +34,7 @@ Follow these steps to select the test framework for your Python project:
 
 1. To save your framework selection and settings, you can use the **Ctrl**+**S** keyboard shortcut.
 
-After you configure the framework, Visual Studio initiates test discovery and opens [Test Explorer](#work-with-test-explorer).
+After you configure the framework, Visual Studio initiates test discovery and opens [Test Explorer](#view-tests-with-test-explorer).
 
 ## Configure testing for Python without a project
 
@@ -80,7 +80,7 @@ Visual Studio allows you to run and test existing Python code without a project,
 
 1. Save your changes to the _PythonSettings.json_ file.
 
-After you configure the framework, Visual Studio initiates test discovery for the specified framework. You can access the test in [Test Explorer](#work-with-test-explorer).
+After you configure the framework, Visual Studio initiates test discovery for the specified framework. You can access the test in [Test Explorer](#view-tests-with-test-explorer).
 
 ## Add and discover tests
 
@@ -90,7 +90,7 @@ To see how Visual Studio initiates test discovery, follow these steps:
 
 1. Open a [Python project](../../managing-python-projects-in-visual-studio.md) in Visual Studio.
 
-1. Set the test framework **Properties** for the project, as described in [Select test framework for Python project](#select-test-framework-for-python-project).
+1. Set the test framework **Properties** for the project, as described in [Select test framework for Python project](#select-test-framework-for-a-python-project).
 
 1. In **Solution Explorer**, right-click the project and select **Add** > **New Item**.
 
@@ -115,7 +115,7 @@ To see how Visual Studio initiates test discovery, follow these steps:
 
    This code imports the standard `unittest` module and derives a test class from the `unittest.TestCase` method. When you run the script directly, this code also invokes the `unittest.main()` function.
 
-When you add new test files, Visual Studio makes them available in [Test Explorer](#work-with-test-explorer).
+When you add new test files, Visual Studio makes them available in [Test Explorer](#view-tests-with-test-explorer).
 
 ## View tests with Test Explorer
 
