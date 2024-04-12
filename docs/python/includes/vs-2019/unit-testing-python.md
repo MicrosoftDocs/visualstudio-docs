@@ -42,15 +42,36 @@ Visual Studio allows you to run and test existing Python code without a project,
 
 1. Open your existing Python code by using the **Open a Local Folder** option:
 
-   :::image type="content" source="../../media/quickstart-open-folder/open-local-folder.png" alt-text="Screenshot that shows how to select the Open a local folder option in the Visual Studio startup screen." border="false" lightbox="../../media/quickstart-open-folder/open-local-folder.png":::
+   ::: moniker range=">=vs-2022"
 
-1. When you open a Python folder, Visual Studio creates several hidden folders to manage settings related to the program. To see these folders in **Solution Explorer**, select the **Show All Files** option:
+   :::image type="content" source="media/quickstart-open-folder/vs-2022/open-local-folder.png" alt-text="Screenshot that shows how to select the Open a local folder option when Visual Studio 2022 starts." border="false" lightbox="media/quickstart-open-folder/vs-2022/open-local-folder.png":::
 
-   :::image type="content" source="../../media/unit-test-show-files.png" alt-text="Screenshot that shows how to select the Show all files option in Solution Explorer." border="false" lightbox="../../media/unit-test-show-files.png":::
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
 
-1. In **Solution Explorer**, expand the _Local Settings_ folder, and double-click the _PythonSettings.json_ file to open the file in the editor.
+   :::image type="content" source="media/quickstart-open-folder/open-local-folder.png" alt-text="Screenshot that shows how to select the Open a local folder option when Visual Studio starts." border="false" lightbox="media/quickstart-open-folder/open-local-folder.png":::
 
-   If you don't see this settings file in the _Local Settings_ folder, you can create it manually:
+   ::: moniker-end
+
+1. When you open a Python folder, Visual Studio creates several hidden folders to manage settings related to the program. To see these folders (and any other hidden files and folders, such as the _.git_ folder) in **Solution Explorer**, select the **Show All Files** option:
+
+   ::: moniker range=">=vs-2022"
+
+   :::image type="content" source="media/vs-2022/view-hidden-folders-solution-explorer.png" alt-text="Screenshot that shows how to view hidden folders and files in Solution Explorer in Visual Studio 2022." border="false" lightbox="media/vs-2022/view-hidden-folders-solution-explorer.png":::
+
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
+
+   :::image type="content" source="media/view-hidden-folders-solution-explorer.png" alt-text="Screenshot that shows how to view hidden folders and files in Solution Explorer in Visual Studio." border="false" lightbox="media/view-hidden-folders-solution-explorer.png" :::
+
+   ::: moniker-end
+
+1. In **Solution Explorer**, expand the _Local Settings_ folder, and double-click the _PythonSettings.json_ file to open the file in the editor. 
+
+   > [!NOTE]
+   > Most configurations show two settings files: _PythonSettings.json_ and _ProjectSettings.json_. For this exercise, you need to modify the _PythonSettings.json_ file.
+
+   If you don't see the _PythonSettings.json_ file in the _Local Settings_ folder, you can create it manually:
 
    1. Right-click the _Local Settings_ folder and select **Add** > **New File**.
 
