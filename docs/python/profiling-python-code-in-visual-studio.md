@@ -17,14 +17,10 @@ Visual Studio provides profiling features for Python applications when you debug
 
 Profiling is available for Python 3.9 and earlier when you use a CPython-based interpreter.
 
-<!-- Reviewer: Need to identify exact start & end Python version for VS profiling support
+<!-- Reviewer: Identify exact start & end Python versions for VS profiling support
 
 - Current article says profiler support is for Python 3.9 and earlier
-- Python.org says version 3.9 is in security release; no download for full release of Python 3.9
-- My configuration is VS 2022 with Python 3.11
-- Python 3.11 interpreter with VS profiler fails:
-
-  NotImplementedError: Profiling is currently not supported for 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+- Python 3.11 interpreter fails
 
 -->
 
