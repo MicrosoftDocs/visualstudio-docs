@@ -26,7 +26,7 @@ This article provides a brief outline of unit testing capabilities in Visual Stu
 
 - Visual Studio on Windows installed with support for Python workloads. For more information, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
 
-- A [Python project](../../quickstart-02-python-in-visual-studio-project-from-template.md) with code or a [folder with Python code](quickstart-05-python-visual-studio-open-folder.md).
+- A [Python project](quickstart-02-python-in-visual-studio-project-from-template.md) with code or a [folder with Python code](quickstart-05-python-visual-studio-open-folder.md).
 
 Visual Studio for Mac isn't supported. For more information, see [What's happening to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
 
@@ -172,7 +172,7 @@ Here are some of the ways you can work with **Test Explorer**:
    ::: moniker-end
    ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/unit-test-a-2.png" alt-text="Screenshot that shows the default view for a test in Test Explorer." border="false" lightbox="media/unit-test-a-2.png":::
+   :::image type="content" source="media/unit-test-a-2.png" alt-text="Screenshot that shows the default view for a test in Test Explorer." lightbox="media/unit-test-a-2.png":::
 
    ::: moniker-end
 
@@ -185,13 +185,22 @@ Here are some of the ways you can work with **Test Explorer**:
    ::: moniker-end
    ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/unit-test-group-menu-2.png" alt-text="Screenshot that shows how to organize the view of tests in Test Explorer with the Group By option." border="false" lightbox="media/unit-test-group-menu-2.png":::
+   :::image type="content" source="media/unit-test-group-menu-2.png" alt-text="Screenshot that shows how to organize the view of tests in Test Explorer with the Group By option." lightbox="media/unit-test-group-menu-2.png":::
 
    ::: moniker-end
 
 - Filter tests by name by entering text in the **Search** field:
 
+   ::: moniker range=">=vs-2022"
+
    :::image type="content" source="media/vs-2022/test-explorer-filter-view.png" alt-text="Screenshot that shows how to filter the view of tests in Test Explorer by  using the Search field." border="false" lightbox="media/vs-2022/test-explorer-filter-view.png":::
+
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
+
+   :::image type="content" source="media/unit-test-filter.png" alt-text="Screenshot that shows how to filter the view of tests in Test Explorer by using the Search field." lightbox="media/unit-test-filter.png":::
+
+   ::: moniker-end
 
 - [Run tests](#run-tests-with-test-explorer) and view the status for the test run, as described in the next section.
 
