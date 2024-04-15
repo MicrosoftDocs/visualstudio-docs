@@ -72,24 +72,6 @@ In the case of ASP.NET Web App using Azure SQL Database and Entity Framework, wh
 
 ASP.NET web apps can benefit from running worker services. There's no additional cost to run a worker service on an existing App Service instance and it can be a direct replacement for the Windows Services that you might be running on-premises or in a virtual machine. See [Worker services in .NET](/dotnet/core/extensions/workers?pivots=dotnet-7-0).
 
-## Recommended Azure services
-
-This section can help you learn what Azure services might be useful. Start by going through these quickstarts that show you how to get started with each service using Visual Studio as a development tool. These links take you into the documentation for each Azure service, starting at a page that is geared toward Visual Studio users (where available).
-
-If you are unsure of what Azure service might best fit your needs, try [Azure App Service](/azure/app-service/quickstart-dotnetcore?tabs=net70&pivots=development-environment-vs#publish-your-web-app).
-
-[Triggers](/azure/azure-functions/functions-triggers-bindings?tabs=isolated-process%2Cpython-v2&pivots=programming-language-csharp) are events that you set up to run code when certain conditions occur. They can be scheduled according to a timer, or they can be set up to respond to messages in a queue, events within other Azure services, or web hooks. If you need triggers, try [Azure Functions](/azure/azure-functions/functions-create-your-first-function-visual-studio).
-
-If you need easy containers, try [Azure Container Apps](/azure/container-apps/deploy-visual-studio).
-
-If you need advanced containers, try [Azure Kubernetes Service](/azure/aks).
-
-If you want added control on top of your APIs, try [Azure API Management](/azure/api-management/api-management-key-concepts).
-
-If you want to support multiple long client connections, try [Azure SignalR Service](/azure/azure-signalr/signalr-overview).
-
-If you're developing complex distributed apps and need orchestration between many services, try [.NET Aspire](/dotnet/aspire/get-started/aspire-overview).
-
 ## Next steps
 
 Learn more about Azure services that you might be interested in at [Azure services](https://azure.microsoft.com/products/).
@@ -98,4 +80,4 @@ Learn more about Azure services that you might be interested in at [Azure servic
 
 Get architectural advice for Azure development at [Azure Architecture Center](/azure/architecture/).
 
-For work on legacy Azure Cloud Services, see [Azure Cloud Services - Extended Support](./cloud-services-extended-support.md).
+Browse the [ASP.NET documentation](/aspnet/).
