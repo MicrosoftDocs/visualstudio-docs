@@ -56,7 +56,7 @@ HRESULT GetSymbolSearchInfo(
  If successful, returns `S_OK`; otherwise returns an error code.
 
 ## Remarks
- When a handler receives the [IDebugSymbolSearchEvent2](../../../extensibility/debugger/reference/idebugsymbolsearchevent2.md) event after an attempt is made to load debugging symbols for a module, the handler can call thismethod to determine the results of that load.
+ When a handler receives the [IDebugSymbolSearchEvent2](../../../extensibility/debugger/reference/idebugsymbolsearchevent2.md) event after an attempt is made to load debugging symbols for a module, the handler can call this method to determine the results of that load.
 
 ## See also
 - [IDebugModule3](../../../extensibility/debugger/reference/idebugmodule3.md)

@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the unique identifier for a expression evaluator metric given its name."
+description: "Retrieves the unique identifier for an expression evaluator metric given its name."
 title: IDebugSettingsCallback2::GetEEMetricGuid
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,7 +15,7 @@ dev_langs:
 ---
 # IDebugSettingsCallback2::GetEEMetricGuid
 
-Retrieves the unique identifier for a expression evaluator metric given its name.
+Retrieves the unique identifier for an expression evaluator metric given its name.
 
 ## Syntax
 

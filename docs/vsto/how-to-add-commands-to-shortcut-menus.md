@@ -73,7 +73,7 @@ ms.subservice: office-development
 
 9. Add a callback method to the `Ribbon1` class for each control that you want to handle.
 
-     The following callback method handles the **My Button** button. This code adds a string to the active document at the current location of the curser.
+     The following callback method handles the **My Button** button. This code adds a string to the active document at the current location of the cursor.
 
      ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_wordaddin_menus.cs/ribbon1.cs" id="Snippet2":::

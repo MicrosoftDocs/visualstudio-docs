@@ -23,7 +23,7 @@ You must define toolbox items for the elements that you want to let users add to
 
 ```
 Editor
-     Toobox Tabs
+     Toolbox Tabs
         MyDsl          //a tab
            Tools
                ExampleElement      // an element tool

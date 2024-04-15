@@ -119,7 +119,7 @@ A project subtype frequently needs to display additional property pages in the P
     class DeployPropertyPage : Form, Microsoft.VisualStudio.OLE.Interop.IPropertyPage
     {
         . . . .
-        //Summary: Return a stucture describing your property page.
+        //Summary: Return a structure describing your property page.
         public void GetPageInfo(Microsoft.VisualStudio.OLE.Interop.PROPPAGEINFO[] pPageInfo)
         {
             PROPPAGEINFO info = new PROPPAGEINFO();
@@ -141,7 +141,7 @@ A project subtype frequently needs to display additional property pages in the P
     Class DeployPropertyPage
             Inherits Form
             Implements Microsoft.VisualStudio.OLE.Interop.IPropertyPage
-        'Summary: Return a stucture describing your property page.
+        'Summary: Return a structure describing your property page.
         ....
         Public Sub GetPageInfo(ByVal pPageInfo As Microsoft.VisualStudio.OLE.Interop.PROPPAGEINFO())
             Dim info As PROPPAGEINFO = New PROPPAGEINFO()

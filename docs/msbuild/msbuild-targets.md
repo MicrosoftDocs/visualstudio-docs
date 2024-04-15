@@ -438,7 +438,7 @@ creates a list of invalid references to be unresolved. It issues a warning for e
 
 ===================================================
 ExpandSDKReferences
-After we have resolved the sdk refrence we need to make sure that we automatically include the references which are part of the SDK (both winmd and dll)
+After we have resolved the sdk reference we need to make sure that we automatically include the references which are part of the SDK (both winmd and dll)
 as part of the assemblies passed to the compiler.
 
 Project systems or project which do not want to reference all dlls or winmd files should override this target to do nothing.

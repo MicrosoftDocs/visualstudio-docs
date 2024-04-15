@@ -19,7 +19,7 @@ You can and should periodically update all Visual Studio installations so that t
 If Visual Studio is installed on a machine in an organization and was originally installed from a layout, then most likely the client machine is part of a "managed environment", meaning that it is governed by a central administrative team and must adhere to organizational policies. To update client machines in managed environments, consider the questions below because the answers will inform how you should approach the update process. 
 
 -  Where are the updates coming from: a layout or Microsoft hosted servers? If the update is coming from a layout, has the layout been updated? Is the layout hosted on a network share or on an internal intranet webserver?
--  Is the update going to be initiated [manually by the user](#manually-initiate-the-update-on-the-client-machine), or is it an administrator initiated event, like via an [administrator update](#use-administrator-updates-to-update-the-client-machines) or via a [programmatic command](#programatically-update-the-client-machines)? Remember that whoever performs the update must have administrator permissions on the client machine.
+-  Is the update going to be initiated [manually by the user](#manually-initiate-the-update-on-the-client-machine), or is it an administrator initiated event, like via an [administrator update](#use-administrator-updates-to-update-the-client-machines) or via a [programmatic command](#programmatically-update-the-client-machines)? Remember that whoever performs the update must have administrator permissions on the client machine.
 
 ## Prepare the update source
 
@@ -63,12 +63,12 @@ For details on how to control when update notifications are presented to users, 
 
 If you're in an organization, the recommended best practice is to enroll your client machines into [Visual Studio administrator updates](enabling-administrator-updates.md). Visual Studio security releases typically become available on "patch Tuesdays", which is the second Tuesday of the month. The IT Administrator should develop a habit of maintaining and updating their layouts on a monthly basis, like on the morning of the second Wednesday of the month, and they [use Microsoft Endpoint Manager to deploy the Visual Studio security updates to the client machines across their organization](applying-administrator-updates.md). Administrator updates will trigger clients to go look at their [update source location](update-visual-studio.md#configure-source-location-of-updates-1) for any new updates, and if the layout has been updated, then the update will be automatically applied to the client machine (presuming that Visual Studio isn't in use). 
 
-## Programatically update the client machines
+## Programmatically update the client machines
 Administrators can programmatically update the client installations of Visual Studio by either issuing the commands to the client-side installer or by invoking a bootstrapper in the network layout.
 
-### Programatically update Visual Studio by using the Visual Studio Installer
+### Programmatically update Visual Studio by using the Visual Studio Installer
 
-You can initiate an update to Visual Studio by programmatically invoking the client's installer and issuing the update command. This command will update Visual Studio based on the product bits that are available in the [source location for updates](update-visual-studio.md#configure-source-location-of-updates-1). If you want to change the update source location on the client while performing the update, you can do that programatically by passing in the `--channelUri` parameter alongside the update command. For example:  
+You can initiate an update to Visual Studio by programmatically invoking the client's installer and issuing the update command. This command will update Visual Studio based on the product bits that are available in the [source location for updates](update-visual-studio.md#configure-source-location-of-updates-1). If you want to change the update source location on the client while performing the update, you can do that programmatically by passing in the `--channelUri` parameter alongside the update command. For example:  
 
 You can change the channel to a network layout *and* execute an update command on the client like this:
 
@@ -84,9 +84,9 @@ or like this, which sets the source of updates to a Microsoft hosted location:
 
 Note that in the previous two examples, you can't initiate execution of the installer programmatically from the same directory that the installer resides in.
 
-### Programatically update Visual Studio by using a bootstrapper
+### Programmatically update Visual Studio by using a bootstrapper
 
-You can update Visual Studio by programatically calling a bootstrapper from the same location that you originally installed from. If you downloaded a bootstrapper from Microsoft, then if your client has access to the internet, you can download and use any updated bootstrapper to update your Visual Studio client. Pay attention to the bootstrapper's channel, because it may cause the client's update channel to change. 
+You can update Visual Studio by programmatically calling a bootstrapper from the same location that you originally installed from. If you downloaded a bootstrapper from Microsoft, then if your client has access to the internet, you can download and use any updated bootstrapper to update your Visual Studio client. Pay attention to the bootstrapper's channel, because it may cause the client's update channel to change. 
 
 If your bootstrapper is located on a network layout share, then the administrator should first [update the network layout](create-a-network-installation-of-visual-studio.md#maintaining-your-layout) to contain the Visual Studio product updates before the client can use that bootstrapper to update.
 
@@ -104,7 +104,7 @@ You can also initiate an update to your Visual Studio 2019 client by programmati
 
 ::: moniker range=">=vs-2022"
 
-You can also initiate an update to your Visual Studio client by programatically calling a bootstrapper from a *different* network layout location that contains the version of the product that you want to update the client to. If you run bootstrapper from a new network hosted layout, then the update channel on the client will be set to the [update location specified in the layout](automated-installation-with-response-file.md). For example, you can run this command on the client machine using a new bootstrapper in a new network hosted layout:
+You can also initiate an update to your Visual Studio client by programmatically calling a bootstrapper from a *different* network layout location that contains the version of the product that you want to update the client to. If you run bootstrapper from a new network hosted layout, then the update channel on the client will be set to the [update location specified in the layout](automated-installation-with-response-file.md). For example, you can run this command on the client machine using a new bootstrapper in a new network hosted layout:
 
 ::: moniker-end
 
@@ -116,7 +116,7 @@ Whatever the value of the channelUri in the new layout's `response.json` file wi
 > [!NOTE]
 > Use the [vswhere.exe command](tools-for-managing-visual-studio-instances.md) to identify the install path of an existing instance of Visual Studio on a client machine.
 
-### Programatically update a client that doesn't have internet access
+### Programmatically update a client that doesn't have internet access
 
 If your client machine doesn't have internet access, then it *must* acquire the updates from a layout. Remember that there are two parts that need to get updated whenever Visual Studio is updated. The first is the installer and the second is the Visual Studio product itself. For network hosted layouts, you can invoke either the bootstrapper or the installer to update the client. For intranet webserver hosted layouts, you can update by invoking the installer on the client. The following example illustrates both situations, and both assume that the administrator has already updated the layout itself to the most secure bits.
 

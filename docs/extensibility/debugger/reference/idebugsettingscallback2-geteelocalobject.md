@@ -15,7 +15,7 @@ dev_langs:
 ---
 # IDebugSettingsCallback2::GetEELocalObject
 
-Retrieves a expression evaluator local object given the metric name.
+Retrieves an expression evaluator local object given the metric name.
 
 ## Syntax
 

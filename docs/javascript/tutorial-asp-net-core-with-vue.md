@@ -62,7 +62,7 @@ Make sure to install the following:
 
    :::image type="content" source="media/vs-2022/asp-net-core-project-properties-vue.png" alt-text="Screenshot showing Open project properties.":::
 
-1. In the Properties page, open the **Debug** tab and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option for the the **https** profile or the profile named after the ASP.NET Core project, if present.
+1. In the Properties page, open the **Debug** tab and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option for the **https** profile or the profile named after the ASP.NET Core project, if present.
 
    :::image type="content" source="media/vs-2022/asp-net-core-deselect-launch-browser-vue.png" alt-text="Screenshot showing Debug launch profiles UI.":::
 

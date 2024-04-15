@@ -234,7 +234,7 @@ For multiple arguments, use an array. For switches, split the switch and its val
 ]
 ```
 
-Arguments can refer to other Cookiecutter variables. In the previous example, the internal `_output_folder_path` variable is used to form an absolute path to generated files.
+Arguments can refer to other Cookiecutter variables. In the previous example, the internal `_output_folder_path` variable is used to form an absolute path to generate files.
 
 The `Python.InstallProjectRequirements` command works only when adding files to an existing project. This limitation exists because the command is processed by the Python project in **Solution Explorer**, and there's no project to receive the message while in **Solution Explorer** - **Folder View**.
 

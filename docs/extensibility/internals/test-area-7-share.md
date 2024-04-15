@@ -15,7 +15,7 @@ ms.subservice: extensibility-integration
 
 This test area covers sharing items between locations via the **Share** command.
 
- A hhare operation is the apparent duplication of files and folder items between two or more locations within a source control file hierarchy. Duplication does not really occur on the server, but the user does see the same file in two or more specified locations. Whenever changes are made to any of the shared items, those changes appear in all other shared locations.
+ A share operation is the apparent duplication of files and folder items between two or more locations within a source control file hierarchy. Duplication does not really occur on the server, but the user does see the same file in two or more specified locations. Whenever changes are made to any of the shared items, those changes appear in all other shared locations.
 
  Sharing into folders works if you select a folder with at least one file under source control in it. The share command is disabled under the following conditions:
 

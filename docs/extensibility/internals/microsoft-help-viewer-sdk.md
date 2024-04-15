@@ -545,7 +545,7 @@ The branding.js file contains JavaScript used by the Visual Studio Help Viewer b
 
 **HTM FILES**
 
-The branding package contains a set of HTM files that support scenarios for communicating key information to Help content users, for example a homepage that contains a section describing which content sets are installed and pages telling the user when topics cannot be found in the local set of topics. These HTM files can be modified per product.  ISO Shell vendors are able to take the default branding package and change the behavior and content of these pages to suite their need.  These files refer to their respective branding package in order for the branding tags to get the corresponding content from the branding.xml file.
+The branding package contains a set of HTM files that support scenarios for communicating key information to Help content users, for example a homepage that contains a section describing which content sets are installed and pages telling the user when topics cannot be found in the local set of topics. These HTM files can be modified per product.  ISO Shell vendors are able to take the default branding package and change the behavior and content of these pages to suit their need.  These files refer to their respective branding package in order for the branding tags to get the corresponding content from the branding.xml file.
 
 |**File**|**Use**|**Displayed Content Source**|
 |-|-|-|

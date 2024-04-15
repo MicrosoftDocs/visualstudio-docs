@@ -468,7 +468,7 @@ public void ValidateModelBusReferences(ValidationContext context)
     });
 }
 private const string INVALID_REF_FORMAT =
-    "The '{0}' domain property of ths ReferenceState instance "
+    "The '{0}' domain property of this ReferenceState instance "
   + "named '{1}' contains reference value '{2}' which is invalid";
 ```
 
