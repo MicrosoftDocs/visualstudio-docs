@@ -6,7 +6,7 @@ author: ghogen
 manager: mijacobs
 ms.custom: devx-track-csharp
 ms.topic: how-to
-ms.date: 4/28/2023
+ms.date: 04/10/2024
 ms.author: ghogen
 ---
 
@@ -39,7 +39,7 @@ Before you begin, make sure that you're signed in to Visual Studio. Sign in with
 
    ![Screenshot of "Create Azure Key Vault" screen](./media/vs-key-vault-add-connected-service/create-new-key-vault.png)
 
-1. In the **Configure Key Vault** screen, you can change the name of the environment variable.
+1. In the **Configure Key Vault** screen, you can change the name of the environment variable that references the key vault URI. The connection string is not stored here; it's stored in the key vault.
 
    ![Screenshot of Connect to Azure Key Vault screen.](./media/vs-key-vault-add-connected-service/connect-to-azure-key-vault.png)
 
@@ -49,20 +49,12 @@ Now, connection to Key Vault is established and you can access your secrets in c
 
 See code examples of working with secrets at [Azure Key Vault Secrets client library for .NET - Code examples](/azure/key-vault/secrets/quick-create-net?tabs=azure-cli#code-examples).
 
-## Troubleshooting
+## Configure access to the key vault
 
-If your key vault is running on a different Microsoft account than the one you're signed in to Visual Studio (for example, the key vault is running on your work account, but Visual Studio is using your private account) you get an error in your Program.cs file, that Visual Studio can't get access to the key vault. To fix this issue:
+If your key vault is running on a different Microsoft account than the one you're signed in to Visual Studio (for example, the key vault is running on your work account, but Visual Studio is using your private account) you get an error in your Program.cs file, that Visual Studio can't get access to the key vault. To fix this issue, go to the [Azure portal](https://portal.azure.com), open your key vault, and choose **Access control (IAM)** to set permissions. See [Provide access to Key Vault keys, certificates, and secrets with an Azure role-based access control](/azure/key-vault/general/rbac-guide?tabs=azure-cli).
 
-1. Go to the [Azure portal](https://portal.azure.com) and open your key vault.
-
-1. Choose **Access policies**, then **Add Access Policy**, and choose the account you are logged in with as Principal.
-
-1. In Visual Studio, choose **File** > **Account Settings**.
-Select **Add an account** from the **All account** section. Sign in with the account you have chosen as Principal of your access policy.
-
-1. Choose **Tools** > **Options**, and look for **Azure Service Authentication**. Then select the account you just added to Visual Studio.
-
-Now, when you debug your application, Visual Studio connects to the account your key vault is located on.
+> [!NOTE]
+> Older key vaults might use a legacy access policy model. It is recommended to migrate older key vaults to use Azure RBAC. See [Azure role-based access control (RBAC) vs. access policies](/azure/key-vault/general/rbac-access-policy).
 
 ## How your ASP.NET Core project is modified
 
