@@ -145,7 +145,7 @@ The following `response.json` file example will initialize a Visual Studio 2019 
 In the following example, the `response.json` file initializes a Visual Studio 2022 Enterprise client install that:
 - [Uses a configuration *.vsconfig file that defines what workloads, components, and extensions to install](import-export-installation-configurations.md#use-a-configuration-file-to-initialize-the-contents-of-a-layout)
 - Selects both the English and French UI languages
-- Configures the [update location to look for sources in a http hosted layout](create-a-network-installation-of-visual-studio.md#making-your-layout-accessible-via-an-intranet-site)
+- Configures the [update location to look for sources in an http hosted layout](create-a-network-installation-of-visual-studio.md#making-your-layout-accessible-via-an-intranet-site)
 - Allows [programmatic loading of unsigned extensions](import-export-installation-configurations.md#extensions)
 - [Removes components that have transitioned to an out-of-support state at the time of updating the client](update-visual-studio.md#remove-out-of-support-components). See the list of out-of-support components [here](out-of-support-components.md).
 

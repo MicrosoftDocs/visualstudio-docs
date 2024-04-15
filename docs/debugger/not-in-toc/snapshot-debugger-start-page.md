@@ -17,7 +17,7 @@ To use the Snapshot Debugger, set some snappoints in your code, click the button
 
 ## Collect and view snapshots
 
-The Snapshot Debugger collects snapshots from your application. Snapshots are like pictures of your appication at a point in time. You tell Visual Studio when and where to collect a snapshot by setting a snappoint in code. In the snappoint, you set any conditions you need to make sure you get a snapshot of the problem you're investigating.
+The Snapshot Debugger collects snapshots from your application. Snapshots are like pictures of your application at a point in time. You tell Visual Studio when and where to collect a snapshot by setting a snappoint in code. In the snappoint, you set any conditions you need to make sure you get a snapshot of the problem you're investigating.
 
 ### Set a Snappoint
 

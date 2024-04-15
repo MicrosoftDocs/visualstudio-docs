@@ -140,7 +140,7 @@ HRESULT CDebugSymbolProvider::GetAttributedClassesForLanguage(
                     &pUnused,
                     &cbUnused ) == S_OK)
             {
-                // Only return classes implemeted in the correct language
+                // Only return classes implemented in the correct language
 
                 if (pModule->ClassImplementedInLanguage( rgTypeDefs[iTypeDef],
                         guidLanguage) )

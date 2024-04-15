@@ -17,7 +17,7 @@ This walkthrough shows how to add a toolbar to a tool window.
 
  A toolbar is a horizontal or vertical strip that contains buttons bound to commands. The length of a toolbar in a tool window is always the same as the width or height of the tool window, depending on where the toolbar is docked.
 
- Unlike toolbars in the IDE, a toolbar in a tool window must be docked and cannot be moved or customized. If the VSPackage is written in umanaged code, the toolbar can be docked on any edge.
+ Unlike toolbars in the IDE, a toolbar in a tool window must be docked and cannot be moved or customized. If the VSPackage is written in unmanaged code, the toolbar can be docked on any edge.
 
  For more information about how to add a toolbar, see [Adding a toolbar](../extensibility/adding-a-toolbar.md).
 

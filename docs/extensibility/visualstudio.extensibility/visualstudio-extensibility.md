@@ -111,7 +111,7 @@ There are a few of our APIs that don't yet meet this bar for stability, for one 
 * The API is new and we want to incorporate user feedback into the deisgn before marking it stable.
 * We've received feedback that a particular API is difficult to use, so we're planning on updating it in future versions.
 
-For these APIs, we've explicitly labeled them using the `[Experimental]` attribute to help extension authors create their extensions with confidence in the the SDK.
+For these APIs, we've explicitly labeled them using the `[Experimental]` attribute to help extension authors create their extensions with confidence in the SDK.
 
 For more information, including how to use experimental APIs, please see our [Experimental APIs](https://github.com/microsoft/VSExtensibility/blob/main/docs/experimental_apis.md) page.
 
