@@ -39,7 +39,7 @@ Before you begin, make sure that you're signed in to Visual Studio. Sign in with
 
    ![Screenshot of "Create Azure Key Vault" screen](./media/vs-key-vault-add-connected-service/create-new-key-vault.png)
 
-1. In the **Configure Key Vault** screen, you can change the name of the environment variable that references the key vault URI. The connection string is not stored here, it's stored in the key vault.
+1. In the **Configure Key Vault** screen, you can change the name of the environment variable that references the key vault URI. The connection string is not stored here; it's stored in the key vault.
 
    ![Screenshot of Connect to Azure Key Vault screen.](./media/vs-key-vault-add-connected-service/connect-to-azure-key-vault.png)
 
