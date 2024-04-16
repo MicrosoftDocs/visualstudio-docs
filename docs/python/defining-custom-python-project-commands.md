@@ -467,9 +467,9 @@ The following script generates a Windows installer:
 
 *From [fxthomas/Example.pyproj.xml](https://gist.github.com/fxthomas/5c601e3e0c1a091bcf56aed0f2960cfa) (GitHub), used with permission.*
 
-### Generate wheel package
+### Generate Python wheel package
 
-The following script generates the Wheel package:
+The following script generates a [Python wheel](https://pythonwheels.com/) package:
 
 ```xml
 <PropertyGroup>
@@ -487,7 +487,7 @@ The following script generates the Wheel package:
 </Target>
 ```
 
-*From [fxthomas/Example.pyproj.xml](https://gist.github.com/fxthomas/5c601e3e0c1a091bcf56aed0f2960cfa) (GitHub), used with permission.*
+*From [fxthomas/Example.pyproj.xml](https://gist.github.com/fxthomas/5c601e3e0c1a091bcf56aed0f2960cfa) (GitHub), used with permission.* 
 
 ## Troubleshoot custom commands
 
