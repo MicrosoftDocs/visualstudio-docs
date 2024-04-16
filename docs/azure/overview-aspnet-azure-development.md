@@ -16,6 +16,8 @@ monikerRange: ">=vs-2019"
 
 ASP.NET Core provides a comprehensive solution for simple web sites and complex web applications. Azure services can help address many of the needs and solve many of the challenges that arise in web site and web application development. ASP.NET Core web applications frequently use client-side JavaScript.
 
+[!INCLUDE [subscription-azure-benefits](includes/subscription-azure-benefits.md)]
+
 ## Prerequisites
 
 If you haven't already, read the [Azure development in Visual Studio](overview.md) overview, which covers the basics of Connected Services in Visual Studio, deploying to Azure, debugging Azure applications, using Docker containers, and much more.
