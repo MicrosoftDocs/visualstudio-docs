@@ -90,7 +90,13 @@ When you perform the previous steps, Visual Studio modifies your project file by
 </Target>
 ```
 
-The `Exec` element refers to the MSBuild `Exec` task. See [Exec task](../msbuild/exec-task.md).
+The `Exec` element refers to the MSBuild `Exec` task. You can refer to the [Exec task](../msbuild/exec-task.md) to see what other parameters you can use to customize the behavior. For example, you can set `WorkingDirectory` to set the folder from which the executable is run. The default working directory is the directory that contains the project file.
+
+```xml
+<Exec Command="call prebuild.bat" WorkingDirectory="$(OutDir)">
+```
+
+You can use MSBuild properties (macros), such as `OutDir` in the previous example, as discussed later in this article at [Macros](#macros).
 
 ## Errors and other output
 
