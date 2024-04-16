@@ -44,7 +44,7 @@ Some of the more common build actions for C# and Visual Basic project files are:
 The build action is set by Visual Studio based on the item template, if you used one to create the file, or the file extension. For example, `.cs` is recognized as a source file and so the build action is set to **Compile**. For unrecognized file types, the default build action is **None**.
 
 > [!NOTE]
-> Additional build actions may be defined by for specific project types, so the list of build actions depends on the project type and values might appear that are not in this list.
+> Additional build actions can be defined by for specific project types, so the list of build actions depends on the project type and values might appear that are not in this list.
 
 ## See also
 
