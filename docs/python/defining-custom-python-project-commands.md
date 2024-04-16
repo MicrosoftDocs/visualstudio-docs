@@ -97,7 +97,7 @@ The following procedure shows how to create a custom command by adding the defin
 
 1. In Visual Studio, create a new Python project named _Python-CustomCommands_ by using the **Python Application** template. For instructions, see [Quickstart: Create a Python project from a template](quickstart-02-python-in-visual-studio-project-from-template.md).
 
-   Visual Studio creates the Python project and loads it into your session. You can configure the project through the project file (_.pyproj_). This file is only visible in Visual Studio when the project isn't loaded. The project also has a Python file (_.py_) for the application code.
+   Visual Studio creates the Python project and loads it into your session. You can configure the project through the project file (_.pyproj_). This file is only visible in Visual Studio when the project is open, but _unloaded_. The project also has a Python file (_.py_) for the application code.
 
 1. Open the _Python\_CustomCommands.py_ application file in the editor and add the following code:
 
