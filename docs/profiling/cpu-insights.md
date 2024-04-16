@@ -30,7 +30,7 @@ On the summary page under **Top Functions**, you can find the top functions call
 ![Screenshot showing Hot Path selected.](./media/vs-2022/hot-path.png "Hot Path selected")
 
 ::: moniker range=">= vs-2022"
-## Get AI asistance
+## Get AI assistance
 
 If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're looking at CPU insights. Just look for the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In these scenarios, Copilot already knows the context for your questions, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
 ::: moniker-end

@@ -45,7 +45,7 @@ If successful, returns `S_OK`; otherwise, returns an error code.
 This optional method is used when you do a hosting-process attach. It gives the EE a chance to 'warm up' as part of the attach.
 
 ## Example
-The following example shows how to implement this method for a **ExpressionEvaluatorPackage** object that exposes the [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md) interface.
+The following example shows how to implement this method for an **ExpressionEvaluatorPackage** object that exposes the [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md) interface.
 
 ```cpp
 STDMETHODIMP ExpressionEvaluatorPackage::PreloadModules

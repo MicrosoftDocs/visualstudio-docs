@@ -309,7 +309,7 @@ Specifies whether to run live source code analysis when you build the project. F
 
 **Enforce code style on build**
 
-Specfies whether .NET code style violations are reported when building the project. For more information, see [Enforce code styles on build](../../ide/code-styles-and-code-cleanup.md#enforce-code-styles-on-build).
+Specifies whether .NET code style violations are reported when building the project. For more information, see [Enforce code styles on build](../../ide/code-styles-and-code-cleanup.md#enforce-code-styles-on-build).
 
 **Enable .NET analyzers**
 

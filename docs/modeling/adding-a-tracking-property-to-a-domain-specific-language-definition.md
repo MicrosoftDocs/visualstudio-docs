@@ -425,7 +425,7 @@ Also, add storage for, and methods to get and set, the Namespace custom storage 
 
     namespace CompanyName.ProductName.TrackingPropertyDSL
     {
-        // To the domain class that has the tracking property, add the caluclation
+        // To the domain class that has the tracking property, add the calculation
         // for when the property is tracking.
         public partial class ExampleElement
         {

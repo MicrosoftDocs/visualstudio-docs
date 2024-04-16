@@ -125,7 +125,7 @@ inherits="Microsoft.VisualStudio.TextTemplating.Modeling.ModelBusEnabledTextTran
     // (Let's assume they're all in the same model file):
     foreach (SourceElement sourceElement in source.Elements)
     {
-      // In the source DSL Definition, each SourceElement has a MBR property:
+      // In the source DSL Definition, each SourceElement has an MBR property:
       ModelBusReference elementReference = sourceElement.ReferenceToTarget;
       // Resolve the target model element:
       TargetElement element = adapter.ResolveElementReference<TargetElement>(elementReference);

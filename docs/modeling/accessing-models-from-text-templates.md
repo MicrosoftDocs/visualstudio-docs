@@ -150,7 +150,7 @@ For Each element As ExampleElement In Me.WorkModel.Elements
  **LoopTemplate.t4** generates the long single file. Notice that its file extension is ".t4", because it should not be processed directly when you click **Transform All Templates**. This template takes a parameter, which specifies the delimiter string that separates the segments:
 
 ```
-<#@ template ninherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" #>
+<#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" #>
 <#@ parameter name="delimiter" type="System.String" #>
 <#@ output extension=".txt" #>
 <#@ MyDSL processor="MyDSLDirectiveProcessor" requires="fileName='SampleModel.mydsl1';validation='open|load|save|menu'" #>

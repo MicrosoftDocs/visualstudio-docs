@@ -189,7 +189,7 @@ using System.Linq;
 
 ### To create a reference to a model
 
-To create a model reference, you access the AdapterManager for the exposed DSL, and use it to create a reference to the model. You can specify either a file path, or a `EnvDTE.ProjectItem`.
+To create a model reference, you access the AdapterManager for the exposed DSL, and use it to create a reference to the model. You can specify either a file path, or an `EnvDTE.ProjectItem`.
 
 From the AdapterManager, you can obtain an Adapter, which provides access to individual elements in the model.
 
@@ -315,7 +315,7 @@ Typically, you access a target DSL using a Model Bus Reference (MBR) stored in a
    <#@ import namespace="Company.CompartmentDragDrop.ModelBusAdapters" #>
    <# // Get source root from directive processor:
      ExampleModel source = this.ExampleModel;
-     // This DSL has a MBR in its root:
+     // This DSL has an MBR in its root:
    using (ModelBusAdapter adapter = this.ModelBus.CreateAdapter(source.ModelReference) as ModelBusAdapter)
      {
      ModelBusAdapterManager manager = this.ModelBus.FindAdapterManagers(this.Host.ResolvePath("Sample.compDD1")).FirstOrDefault();

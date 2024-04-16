@@ -339,7 +339,7 @@ In this walkthrough, you create a custom host in an executable application that 
                return AppDomain.CreateDomain("Generation App Domain");
                //This could be changed to return the current appdomain, but new
                //assemblies are loaded into this AppDomain on a regular basis.
-               //If the AppDomain lasts too long, it will grow indefintely,
+               //If the AppDomain lasts too long, it will grow indefinitely,
                //which might be regarded as a leak.
                //This could be customized to cache the application domain for
                //a certain number of text template generations (for example, 10).
@@ -657,7 +657,7 @@ In this walkthrough, you create a custom host in an executable application that 
                Return AppDomain.CreateDomain("Generation App Domain")
                'This could be changed to return the current appdomain, but new
                'assemblies are loaded into this AppDomain on a regular basis.
-               'If the AppDomain lasts too long, it will grow indefintely,
+               'If the AppDomain lasts too long, it will grow indefinitely,
                'which might be regarded as a leak.
                'This could be customized to cache the application domain for
                'a certain number of text template generations (for example, 10).
