@@ -90,6 +90,8 @@ When you perform the previous steps, Visual Studio modifies your project file by
 </Target>
 ```
 
+The `Exec` element refers to the MSBuild `Exec` task. See [Exec task](../msbuild/exec-task.md).
+
 ## Errors and other output
 
 The output of your build events is written to the **Build** section of the **Output Window**. To open it, choose **View** > **Other Windows**, **Output Window**, or press **Ctrl**+**Alt**+**O**. In the dropdown next to **Show output from**, choose **Build**.
