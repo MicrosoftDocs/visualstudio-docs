@@ -1,7 +1,7 @@
 ---
 title: Run profiler to measure Python code performance
 description: Run the Visual Studio profiler to debug Python programs and check the performance of Python code when using CPython-based interpreters.
-ms.date: 04/10/2024
+ms.date: 04/16/2024
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
@@ -16,13 +16,6 @@ ms.subservice: python
 Visual Studio provides profiling features for Python applications when you debug your code. The Visual Studio **Debugger** lets you step through your code to check variables, analyze program state, resolve potential issues, and so on. Visual Studio profiling features provide information about execution times for your program. You can use this information to help identify performance issues in your code.
 
 Profiling is available for Python 3.9 and earlier when you use a CPython-based interpreter.
-
-<!-- Reviewer: Identify exact start & end Python versions for VS profiling support
-
-- Current article says profiler support is for Python 3.9 and earlier
-- Python 3.11 interpreter fails
-
--->
 
 ## Prerequisites 
 
