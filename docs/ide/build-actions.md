@@ -12,9 +12,6 @@ manager: mijacobs
 
 All files in a Visual Studio project have a build action. The build action controls what happens to the file when the project is compiled.
 
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Build actions in Visual Studio for Mac](/visualstudio/mac/build-actions).
-
 ## Set a build action
 
 To set the build action for a file, open the file's properties in the **Properties** window by selecting the file in **Solution Explorer** and pressing **Alt**+**Enter**. Or, right-click on the file in **Solution Explorer** and choose **Properties**. In the **Properties** window, under the **Advanced** section, use the drop-down list next to **Build Action** to set a build action for the file.
@@ -43,6 +40,8 @@ Some of the more common build actions for C# and Visual Basic project files are:
 | **Shadow** | .NET | Used for an .accessor file that contains a list of built assembly filenames, one per line. For each assembly on the list, generate public classes with the names `ClassName_Accessor` that are just like the originals, but with public methods instead of private methods. Used for unit testing. |
 | **Splash Screen** | WPF | Specifies an image file to be displayed at run time when the app is starting up. |
 | **XamlAppDef** | Windows Workflow Foundation | Instructs the build to build a workflow XAML file into an assembly with an embedded workflow. |
+
+The build action is set by Visual Studio based on the item template, if you used one to create the file, or the file extension. For example, `.cs` is recognized as a source file and so the build action is set to **Compile**. For unrecognized file types, the default build action is **None**.
 
 > [!NOTE]
 > Additional build actions may be defined by for specific project types, so the list of build actions depends on the project type and values might appear that are not in this list.
