@@ -38,7 +38,7 @@ The `$(MSBuildToolsPath)` value specifies the path of these common `.targets` fi
 | *Microsoft.CSharp.targets* | Defines the steps in the standard build process for Visual C# projects.<br /><br /> Imported by Visual C# project files (`.csproj`). |
 | *Microsoft.VisualBasic.targets* | Defines the steps in the standard build process for Visual Basic projects.<br /><br /> Imported by Visual Basic project files (`.vbproj`). |
 
-If you open and view files, you'll see they are rather thin wrappers around other `.targets` files, usually `Microsoft.{language}.CurrentVersion.targets`, or for cross-targeting scenarios, `Microsoft.{language}.CrossTargeting.targets`.
+If you open and view files, you see they're rather thin wrappers around other `.targets` files, usually `Microsoft.{language}.CurrentVersion.targets`, or for cross-targeting scenarios, `Microsoft.{language}.CrossTargeting.targets`.
 
 ## Directory.Build.targets
 
