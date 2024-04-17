@@ -15,7 +15,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: msbuild
 ---
-# MSBuild .targets files
+# MSBuild `.targets` files
 
 MSBuild includes several `.targets` files that contain items, properties, targets, and tasks for common scenarios. These files are automatically imported into most Visual Studio project files to simplify maintenance and readability.
 
@@ -30,7 +30,7 @@ The `$(MSBuildToolsPath)` value specifies the path of these common `.targets` fi
 > [!NOTE]
 > For information about how to create your own targets, see [Targets](../msbuild/msbuild-targets.md). For information about how to use the `Import` element to insert a project file into another project file, see [Import element (MSBuild)](../msbuild/import-element-msbuild.md) and [How to: Use the same target in multiple project files](../msbuild/how-to-use-the-same-target-in-multiple-project-files.md).
 
-## Common .targets files
+## Common `.targets` files
 
 | *.targets* file | Description |
 |---------------------------------| - |
