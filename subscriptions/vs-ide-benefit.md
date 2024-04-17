@@ -76,6 +76,9 @@ Here's how to download and install the IDE for your version of Visual Studio. We
 
 Not sure which subscription you're using? Go to the [Your Subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) page to see all the subscriptions that are assigned to your email address. If you don't see all your subscriptions, one or more might be assigned to a different email address. You need to sign in with that other email address to view those subscriptions.
 
+> [!NOTE]
+> Visual Studio for Mac is scheduled for retirement by August 31, 2024 in accordance with [Microsoft’s Modern Lifecycle Policy](https://learn.microsoft.com/lifecycle/policies/modern). Visual Studio for Mac 17.6 will continue to be supported until August 31, 2024, with servicing updates for security issues and updated platforms from Apple. We recommend that you [switch to a stable build](https://learn.microsoft.com/visualstudio/mac/what-happened-to-vs-for-mac) for the latest security and reliability updates.
+
 ## Support resources
 
 If you have questions about Visual Studio or need technical assistance, check the resources in the following sections.
