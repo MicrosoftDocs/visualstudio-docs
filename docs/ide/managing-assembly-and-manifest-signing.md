@@ -50,13 +50,15 @@ In general, you should not sign executables. A strongly named component cannot r
 
 ## How to sign an assembly in Visual Studio
 
-For .NET Core (and .NET 5 and later) C# projects:
+The procedure to sign an assembly depends on which version of the Project Designer your project uses.
+
+For .NET Core (and .NET 5 and later) C# projects in Visual Studio 2022:
 
     1. Open the project properties window (right-click the project node in **Solution Explorer** and select **Properties**).
     1. Under **Build**, look for **Strong naming**, and select the **Sign the assembly** checkbox. Additional options for the key file and delay signing appear when you check the box.
     1. Specify a key file. If you choose to create a new key file, new key files are always created in the *.pfx* format. You need a name and password for the new file.
 
-For .NET Framework and Visual Basic projects:
+For .NET Framework and Visual Basic projects in Visual Studio 2022, or in Visual Studio 2019:
 
     1. Open the **Signing** tab of the project properties window (right-click the project node in **Solution Explorer** and select **Properties**). Select the **Signing** tab.
     1. Select the **Sign the assembly**  check box.
