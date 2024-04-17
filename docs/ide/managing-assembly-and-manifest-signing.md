@@ -1,7 +1,7 @@
 ---
 title: Manage assembly and manifest signing
 description: Explore how to manage an assembly and the advantages of strong-name signing, which gives a software component a globally unique identity. 
-ms.date: 02/17/2017
+ms.date: 04/17/2024
 ms.subservice: deployment
 ms.topic: conceptual
 helpviewer_keywords:
@@ -50,9 +50,17 @@ In general, you should not sign executables. A strongly named component cannot r
 
 ## How to sign an assembly in Visual Studio
 
-You sign an application or component by using the **Signing** tab of the project properties window (right-click the project node in **Solution Explorer** and select **Properties**). Select the **Signing** tab, then select the **Sign the assembly**  check box.
+For .NET Core (and .NET 5 and later) C# projects:
 
-Specify a key file. If you choose to create a new key file, new key files are always created in the *.pfx* format. You need a name and password for the new file.
+    1. Open the project properties window (right-click the project node in **Solution Explorer** and select **Properties**).
+    1. Under **Build**, look for **Strong naming**, and select the **Sign the assembly** checkbox. Additional options for the key file and delay signing appear when you check the box.
+    1. Specify a key file. If you choose to create a new key file, new key files are always created in the *.pfx* format. You need a name and password for the new file.
+
+For .NET Framework and Visual Basic projects:
+
+    1. Open the **Signing** tab of the project properties window (right-click the project node in **Solution Explorer** and select **Properties**). Select the **Signing** tab.
+    1. Select the **Sign the assembly**  check box.
+    1. Specify a key file. If you choose to create a new key file, new key files are always created in the *.pfx* format. You need a name and password for the new file.
 
 > [!WARNING]
 > You should always protect your key file with a password to prevent someone else from using it. You can also secure your keys by using providers or certificate stores.
