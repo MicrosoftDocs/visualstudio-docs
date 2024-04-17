@@ -90,6 +90,14 @@ When you perform the previous steps, Visual Studio modifies your project file by
 </Target>
 ```
 
+The `Exec` element refers to the MSBuild `Exec` task. See [Exec task](../msbuild/exec-task.md) for information on what other parameters you can use to customize the execution. For example, you can use `WorkingDirectory` to set the folder from which the executable is run. The default is the directory that contains the project file.
+
+```xml
+<Exec Command="call prebuild.bat" WorkingDirectory="$(OutDir)">
+```
+
+You can use MSBuild properties (macros), such as `OutDir` in the previous example, as discussed later in this article at [Macros](#macros).
+
 ## Errors and other output
 
 The output of your build events is written to the **Build** section of the **Output Window**. To open it, choose **View** > **Other Windows**, **Output Window**, or press **Ctrl**+**Alt**+**O**. In the dropdown next to **Show output from**, choose **Build**.
