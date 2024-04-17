@@ -27,7 +27,7 @@ To get the new unified GitHub Copilot extension:
 
 GitHub Copilot is installed by default with all workloads. If you choose to exclude it, you can install it later by using the Visual Studio Installer to **modify** your installation, and selecting the **GitHub Copilot** component. 
 
-## Get GitHub Copilot for Visual Studio 2022 versions 17.6 to 17.9 
+## Get GitHub Copilot for Visual Studio 2022 versions 17.8 to 17.9 
 
 In Visual Studio 2022 versions 17.8 to 17.9, GitHub Copilot and GitHub Copilot Chat are available to install as two separate extensions. Installing GitHub Copilot extension is a prerequisite to installing GitHub Copilot Chat.
 
@@ -99,6 +99,10 @@ If Copilot is installed but in an inactive state, it may be because:
 Select **Add GitHub Account with a Copilot Subscription** in the dropdown from the status icon to open **Account Settings** and sign in with a GitHub account that has an active subscription to use Copilot. When you're signed in, the Copilot status icon updates to active.
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-inactive.png" alt-text="Screenshot of Copilot badge when Copilot is in an inactive state.":::
+
+If Copilot is inactive as the signed in GitHub account credentials need to be refreshed, select [**Refresh your GitHub credentials**](visual-studio-github-copilot-troubleshoot.md#refresh-your-credentials) from the dropdown to refresh your GitHub account and sign in again.
+
+If [Copilot is disabled by your administrator](visual-studio-github-copilot-troubleshoot.md#copilot-is-disabled), contact your IT administrator to learn more.
 
 ### Copilot is unavailable
 
