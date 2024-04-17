@@ -23,7 +23,7 @@ This article covers customizations applicable to the following scenarios:
 * Override default settings, default build folders, and other behaviors set by an SDK such as `Microsoft.Net.Sdk`
 * Add or customize build targets that apply to any number of projects or solutions
 
-If you're working with C++ projects, the methods described here won't work. Instead, you can use the methods described at [Customize C++ builds](customize-cpp-builds.md).
+If you're working with C++ projects, you can also use the methods described at [Customize C++ builds](customize-cpp-builds.md).
 
 ## Directory.Build.props and Directory.Build.targets
 
