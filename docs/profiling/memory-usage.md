@@ -224,7 +224,7 @@ The **Instances** view displays the instances of the selected object in the snap
 In this tutorial, you've learned how to collect and analyze memory usage data. If you already completed the [tour of the profiler](../profiling/profiling-feature-tour.md), you may want to read about a general approach to optimizing code using the profiling tools.
 
 > [!div class="nextstepaction"]
-> [Reduce compute costs by using profiling tools](../profiling/optimize-code-using-profiling-tools.md)
+> [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md)
 
 In this tutorial, you've learned how to collect and analyze memory usage data while debugging. You may want to find out more about analyzing memory usage in release builds using the Performance Profiler.
 

@@ -1,7 +1,7 @@
 ---
-title: "Reduce compute costs using profiling tools"
-description: "Learn how to optimize code using Visual Studio profiling tools such as the CPU Usage tool, Database tool, and the .NET Object Allocation tool."
-ms.date: 08/07/2023
+title: "Beginner's guide to optimizing code"
+description: "Learn how to optimize code and reduce compute costs using Visual Studio profiling tools such as the CPU Usage tool, the .NET Object Allocation tool, and the Database tool."
+ms.date: 04/17/2024
 ms.topic: conceptual
 dev_langs:
   - "CSharp"
@@ -14,24 +14,25 @@ manager: mijacobs
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'
 ---
-# Reduce compute costs by using profiling tools to optimize code (C#, Visual Basic, C++, F#)
+# Beginner's guide to optimizing code and reducing compute costs (C#, Visual Basic, C++, F#)
 
-Reducing your compute time means reducing costs, so optimizing your code can save money. In this article, we show how you can use various profiling tools, including CPU Usage, NET Object Allocation, and the Database tool, to help you accomplish this task. Rather than providing step-by-step instructions, the intent here is to show you how to use the profiling tools effectively and how to interpret the data. The CPU Usage tool can help you capture and visualize where compute resources are used in your application. The CPU Usage views such as the call tree and flame chart provide a nice graphical visualization of where time is spent in your app. In addition, auto insights may show precise optimizations that can have a large impact. Other tools can help you isolate issues.
+Reducing your compute time means reducing costs, so optimizing your code can save money. In this article, we show how you can use various profiling tools to help you accomplish this task.
+
+Rather than providing step-by-step instructions, the intent here is to show you how to use the profiling tools effectively and how to interpret the data. The CPU Usage tool can help you capture and visualize where compute resources are used in your application. The CPU Usage views such as the call tree and flame graph provide a nice graphical visualization of where time is spent in your app. In addition, auto insights may show precise optimizations that can have a large impact. Other profiling tools can also help you isolate issues. To compare tools, see [Which tool should I choose?](../profiling/choose-performance-tool.md)
 
 ## Start an investigation
 
-- To reduce compute costs, start your investigation by taking a CPU usage trace. The CPU Usage tool is often helpful to begin performance investigations and to optimize code to reduce cost.
+- Start your investigation by taking a CPU usage trace. The CPU Usage tool is often helpful to begin performance investigations and to optimize code to reduce cost.
 - Next, if you would like additional insights to help isolate issues or improve the performance, considering collecting a trace using one of the other profiling tools. For example:
   - Take a look at the memory usage. For .NET, try the .NET Object Allocation tool first. For either .NET or C++, you can look at the Memory Usage tool.
   - If your app is using File I/O, use the File I/O tool.
   - If you're using ADO.NET or Entity Framework, you can try the Database tool to examine SQL queries, precise query time, et al.
-  - For comparing tools, see [Which tool should I choose?](../profiling/choose-performance-tool.md)
 
-## Example
+## Data collection example
 
-The example screenshots shown in this article are based on a .NET app that runs queries against a database of blogs and associated blog posts. You will first examine a CPU usage trace to look for opportunities to optimize and reduce compute cost. After getting a general idea of what's going on, you will also look at traces from other profiling tools to help isolate issues.
+The example screenshots shown in this article are based on a .NET app that runs queries against a database of blogs and associated blog posts. You will first examine a CPU usage trace to look for opportunities to optimize code and reduce compute cost. After getting a general idea of what's going on, you will also look at traces from other profiling tools to help isolate issues.
 
-To collect the data shown in this article:
+Data collection requires the following steps (not shown here):
 
 - Set your app to a Release build
 - Select the CPU Usage tool from the Performance Profiler (**Alt+F2**). (Later steps involve a few of the other tools.)

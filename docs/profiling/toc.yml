@@ -14,7 +14,7 @@
     href: beginners-guide-to-performance-profiling.md
   - name: Measure memory usage in Visual Studio
     href: memory-usage.md
-  - name: Reduce compute costs using profiling tools
+  - name: Beginner's guide to optimizing code
     href: optimize-code-using-profiling-tools.md
 - name: Concepts
   items:
@@ -26,16 +26,6 @@
     href: use-multiple-profiler-tools-simultaneously.md
 - name: How-to guides
   items:
-  - name: PerfTips
-    href: perftips.md
-  - name: .NET Async
-    href: analyze-async.md
-  - name: .NET Counters
-    href: dotnet-counters-tool.md
-  - name: Database
-    href: analyze-database.md
-  - name: Events Viewer
-    href: events-viewer.md
   - name: CPU Usage
     items:
     - name: CPU Usage
@@ -74,8 +64,6 @@
           href: performance-insights-string-startswith.md
         - name: String concatenation
           href: perf-insights-string-concatenation.md
-  - name: File IO
-    href: use-file-io.md
   - name: Memory usage
     items:
     - name: Choose a memory analysis tool
@@ -120,6 +108,18 @@
         href: vsinstr.md
       - name: VSPerfCmd
         href: vsperfcmd.md
+  - name: File IO
+    href: use-file-io.md
+  - name: PerfTips
+    href: perftips.md
+  - name: .NET Async
+    href: analyze-async.md
+  - name: .NET Counters
+    href: dotnet-counters-tool.md
+  - name: Database
+    href: analyze-database.md
+  - name: Events Viewer
+    href: events-viewer.md
   - name: Analyze GPU usage
     href: gpu-usage.md
   - name: Analyze Resource Consumption
