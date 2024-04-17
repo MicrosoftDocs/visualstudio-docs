@@ -21,7 +21,25 @@ MSBuild includes several `.targets` files that contain items, properties, target
 
 For SDK-style projects, you don't see the imported `.targets` file in the project file, because those imports are managed by the SDK that you reference. However, SDK-style projects are equivalent to non-SDK-style project with standard imports before and after the main body of the file, so it's still accurate to say that the standard `.targets` files are imported in those projects.
 
-Projects explicitly (or implicitly for SDK projects) import one or more `.targets` files to define their build process. For example, a C# project created by Visual Studio imports *Microsoft.CSharp.targets* which imports *Microsoft.Common.targets*. The C# project itself will define the items and properties specific to that project, but the standard build rules for a C# project are defined in the imported `.targets` files.
+In the following example, 
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
+```
+
+.NET SDK targets are installed with the .NET SDK, for example, at `C:\Program Files\dotnet\sdk\{version}\Sdks\Microsoft.NET.Sdk\targets\` for `Microsoft.NET.Sdk` on Windows. For a complete list of SDKs and what `.targets` file they import, see [.NET project SDKs](/dotnet/core/project-sdk/overview).
+
+Earlier projects (or any project that doesn't specify an SDK) explicitly import one or more `.targets` files to define their build process. For example, a C# project created by earlier versions of Visual Studio imports *Microsoft.CSharp.targets* which imports *Microsoft.Common.targets*. The C# project itself defines the items and properties specific to that project, but the standard build rules for a C# project are defined in the imported `.targets` files.
 
 The `$(MSBuildToolsPath)` value specifies the path of these common `.targets` files. For .NET projects, the path is typically `{Visual Studio installation folder}\MSBuild\Current\Bin\{architecture}`.
 
