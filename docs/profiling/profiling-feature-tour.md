@@ -103,7 +103,7 @@ Tools available in the Diagnostic Tools window or during a debugging session inc
 > Use relaunch to skip the launch page and automatically run with your previous settings by pressing **Alt+F2** or by clicking **Debug > Performance Profiler**.
 
 > [!NOTE]
-> Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window). You can use the [post-mortem](#post_mortem) tools with Windows 7 and later. 
+> Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window).
 
 ## Analyze CPU usage
 
