@@ -35,7 +35,7 @@ There are two ways of specifying context:
 
      The braces must contain two commas and the module (executable or DLL) name or full path.
 
-     For example, to set a breakpoint at the `SomeFunction` function of EXAMPLE.dll:
+     For example, to set a breakpoint at the `SomeFunction` function of `EXAMPLE.dll`:
 
     ```cpp
     {,,EXAMPLE.dll}SomeFunction

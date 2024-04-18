@@ -50,15 +50,15 @@ If you drag a new TableAdapter from the Toolbox when the **Dataset Designer** is
 Map parameters from the selected stored procedure to the corresponding columns in the data table. For example, if your stored procedure accepts a parameter named `@CompanyName` that it passes to the `CompanyName` column in the table, set the **Source Column** of the `@CompanyName` parameter to `CompanyName`.
 
 > [!NOTE]
-> The stored procedure that's assigned to the SELECT command is run by calling the method of the TableAdapter that you name in the next step of the wizard. The default method is `Fill`, so the code that's typically used to run the SELECT procedure is `TableAdapter.Fill(tableName)`. If you change the default name from `Fill`, substitute `Fill` with the name you assign, and replace "TableAdapter" with the actual name of the TableAdapter (for example, `CustomersTableAdapter`).
+> The stored procedure that's assigned to the `SELECT` command is run by calling the method of the TableAdapter that you name in the next step of the wizard. The default method is `Fill`, so the code that's typically used to run the `SELECT` procedure is `TableAdapter.Fill(tableName)`. If you change the default name from `Fill`, substitute `Fill` with the name you assign, and replace "TableAdapter" with the actual name of the TableAdapter (for example, `CustomersTableAdapter`).
 
 - Selecting the **Create methods to send updates directly to the database** option is equivalent to setting the `GenerateDBDirectMethods` property to true. The option is unavailable when the original SQL statement doesn't provide enough information or the query isn't an updatable query. This situation can occur, for example, in **JOIN** queries and queries that return a single (scalar) value.
 
 The **Advanced Options** in the wizard enable you to:
 
-- Generate INSERT, UPDATE, and DELETE statements based on the SELECT statement that's defined on the **Generate SQL statements** page
+- Generate `INSERT`, `UPDATE`, and `DELETE` statements based on the `SELECT` statement that's defined on the **Generate SQL statements** page
 - Use optimistic concurrency
-- Specify whether to refresh the data table after INSERT and UPDATE statements are run
+- Specify whether to refresh the data table after `INSERT` and `UPDATE` statements are run
 
 ## Configure a TableAdapter's Fill method
 
@@ -78,7 +78,7 @@ The following example shows you how to call an additional query named `FillByCit
 
 1. Open your dataset in the **Dataset Designer**.
 
-2. If you're creating a new query, drag a **Query** object from the **DataSet** tab of the **Toolbox** onto a <xref:System.Data.DataTable>, or select **Add Query** from the TableAdapter's shortcut menu. You can also drag a **Query** object onto an empty area of the **Dataset Designer**, which creates a TableAdapter without an associated <xref:System.Data.DataTable>. These queries can only return single (scalar) values, or run UPDATE, INSERT, or DELETE commands against the database.
+2. If you're creating a new query, drag a **Query** object from the **DataSet** tab of the **Toolbox** onto a <xref:System.Data.DataTable>, or select **Add Query** from the TableAdapter's shortcut menu. You can also drag a **Query** object onto an empty area of the **Dataset Designer**, which creates a TableAdapter without an associated <xref:System.Data.DataTable>. These queries can only return single (scalar) values, or run `UPDATE`, `INSERT`, or `DELETE` commands against the database.
 
 3. On the **Choose Your Data Connection** screen, select, or create the connection that the query will use.
 
@@ -89,7 +89,7 @@ The following example shows you how to call an additional query named `FillByCit
 
     - **Use SQL statements** enables you to type a SQL statement to select the data from your database.
 
-    - **Create new stored procedure** enables you to have the wizard create a new stored procedure (in the database) based on the specified SELECT statement.
+    - **Create new stored procedure** enables you to have the wizard create a new stored procedure (in the database) based on the specified `SELECT` statement.
 
     - **Use existing stored procedures** enables you to run an existing stored procedure when running the query.
 

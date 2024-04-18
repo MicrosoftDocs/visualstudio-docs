@@ -47,7 +47,7 @@ If you are only interested in debugging the code you are building locally, it is
 There are two situations where turning on this option will **NOT** work:
 
 1. In situations where you are attaching the debugger to an already running process, this option will have no effect on modules that were already loaded at the time the debugger was attached.
-2. This option has no effect on DLLs that have been pre-compiled (a.k.a ngen'ed) to native code. However, you can disable usage of pre-compiled code by starting the process with the environment variable **'COMPlus_ReadyToRun'** set to **'0'**. This will tell the .NET Core runtime to disable the use of pre-compiled images, forcing the runtime to JIT compile framework code. 
+2. This option has no effect on DLLs that have been pre-compiled (or *ngen'ed*) to native code. However, you can disable usage of pre-compiled code by starting the process with the environment variable **'COMPlus_ReadyToRun'** set to **'0'**. This will tell the .NET Core runtime to disable the use of pre-compiled images, forcing the runtime to JIT compile framework code. 
 
    If you are targeting the .NET Framework, add the environment variable **'COMPlus_ZapDisable'** and set it to **'1'**. 
    

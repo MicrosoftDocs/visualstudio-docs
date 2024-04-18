@@ -1,0 +1,9 @@
+{
+    "ignored-casing-repo-custom": {
+        "ignoredScope": "Casing",
+        "terms": [
+            "(?<=-)or(?=-)",
+            "vsdbg"
+        ]
+    }
+}
