@@ -18,17 +18,38 @@ ms.subservice: debug-diagnostics
 
 Application performance measuring tools are essential for developers who want to optimize their code and improve application performance. Visual Studio offers a range of profiling and diagnostics tools that can help you diagnose memory and CPU usage and other application-level issues. With these tools, you can accumulate performance data while you run your application. A profiler can help you make informed decisions quickly by providing a visual depiction of execution times and CPU usage for your application. In this article, we give a quick look at the most common profiling tools.
 
-For help choosing the correct tool, or to see profiling tool support for different app types, see [Which tool should I use?](../profiling/choose-performance-tool.md)
+For help choosing the correct tool, or to see profiling tool support for different app types, see [Which tool should I use?](../profiling/choose-performance-tool.md). For a tutorial that shows a general approach to optimizing code using the profiling tools, see [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
 
-## Use a profiler to improve performance
+## <a name="post_mortem"></a> Measure performance in release builds
 
-If you’re a developer who’s been on-call for your team’s codebase or you’ve written a web app, then you may have asked yourself why your app is receiving slow response times? Often, the issues are in production, and it is challenging to investigate at that moment, but profiling tools can help you capture enough information and evidence of the issue.
+Tools in the Performance Profiler are intended to provide analysis for **Release** builds. In the Performance Profiler, you can collect diagnostic info while the app is running, and then examine the collected information after the app is stopped (a post-mortem analysis).
 
-There are several ways to diagnose performance issues when you’re working with APIs, but using a profiler can help you quickly identify and rule out possible causes so that you have a clear path in resolving your issue.
+Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**).
 
-In software engineering, a profiler is a tool used to help you analyze the performance of your applications to improve poorly performing code. Profiling and diagnostics tools help you diagnose memory and CPU usage and other application-level issues. With these tools, you can collect performance data while you run your application.
+::: moniker range=">=vs-2022"
+![Screenshot of Performance Profiler.](../profiling/media/vs-2022/prof-tour-performance-profiler.png "Performance Profiler")
+::: moniker-end
+::: moniker range="<=vs-2019"
+![Screenshot of Performance Profiler.](../profiling/media/prof-tour-performance-profiler.png "Performance Profiler")
+::: moniker-end
 
-A profiler can help you make informed decisions quickly by providing a visual depiction of execution times and CPU usage for your application. It’s much easier and quicker to understand issues and fix them when you can see a graph of the execution times or the CPU usage. For a general approach to optimizing code using the profiling tools, see [Reduce compute costs by using profiling tools](../profiling/optimize-code-using-profiling-tools.md).
+For more information on using the CPU Usage or Memory usage tool in the Performance Profiler vs. the debugger-integrated tools, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). 
+
+Tools available in the Performance Profiler include:
+
+- [CPU usage](../profiling/cpu-usage.md)
+- [.NET object allocation](../profiling/dotnet-alloc-tool.md)
+- [Memory usage](../profiling/memory-usage-without-debugging2.md)
+- [Instrumentation](../profiling/instrumentation-overview.md)
+- [.NET async tool](../profiling/analyze-async.md)
+- [File I/O](../profiling/use-file-io.md)
+- [.NET Counters](../profiling/dotnet-counters-tool.md)
+- [Database tool](../profiling/analyze-database.md)
+- [GPU usage](../profiling/gpu-usage.md)
+
+To see profiling tool support for different app types, see [Which tool should I use?](../profiling/choose-performance-tool.md).
+
+In some scenarios, the window allows you to select [multiple profiling tools](../profiling/use-multiple-profiler-tools-simultaneously.md). Tools such as CPU Usage may provide complementary data that you can use to help in your analysis. You can also use the [command-line profiler](../profiling/profile-apps-from-command-line.md) to enable scenarios involving multiple profiling tools.
 
 ## Measure performance while debugging
 
@@ -72,63 +93,7 @@ Tools available in the Diagnostic Tools window or during a debugging session inc
 > Use relaunch to skip the launch page and automatically run with your previous settings by pressing **Alt+F2** or by clicking **Debug > Performance Profiler**.
 
 > [!NOTE]
-> Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window). You can use the [post-mortem](#post_mortem) tools with Windows 7 and later. 
-
-## <a name="post_mortem"></a> Measure performance in release builds
-
-Tools in the Performance Profiler are intended to provide analysis for **Release** builds. In the Performance Profiler, you can collect diagnostic info while the app is running, and then examine the collected information after the app is stopped (a post-mortem analysis).
-
-Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**).
-
-::: moniker range=">=vs-2022"
-![Performance Profiler](../profiling/media/vs-2022/prof-tour-performance-profiler.png "Performance Profiler")
-::: moniker-end
-::: moniker range="<=vs-2019"
-![Performance Profiler](../profiling/media/prof-tour-performance-profiler.png "Performance Profiler")
-::: moniker-end
-
-For more information on using the CPU Usage or Memory usage tool in the Performance Profiler vs. the debugger-integrated tools, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). 
-
-Tools available in the Performance Profiler include:
-
-- [CPU usage](../profiling/cpu-usage.md)
-- [.NET object allocation](../profiling/dotnet-alloc-tool.md)
-- [Memory usage](../profiling/memory-usage-without-debugging2.md)
-- [.NET async tool](../profiling/analyze-async.md)
-- [Instrumentation](../profiling/instrumentation-overview.md)
-- [File I/O](../profiling/use-file-io.md)
-- [.NET Counters](../profiling/dotnet-counters-tool.md)
-- [Database tool](../profiling/analyze-database.md)
-- [GPU usage](../profiling/gpu-usage.md)
-
-To see profiling tool support for different app types, see [Which tool should I use?](../profiling/choose-performance-tool.md).
-
-In some scenarios, the window allows you to select [multiple profiling tools](../profiling/use-multiple-profiler-tools-simultaneously.md). Tools such as CPU Usage may provide complementary data that you can use to help in your analysis. You can also use the [command-line profiler](../profiling/profile-apps-from-command-line.md) to enable scenarios involving multiple profiling tools.
-
-## Examine performance using PerfTips
-
-Often, the easiest way to view performance information is to use [PerfTips](../profiling/perftips.md). Using PerfTips, you can view performance information while interacting with your code. You can check information such as the duration of the event (measured from when the debugger was last paused, or when the app started). For example, if you step through code (F10, F11), PerfTips show you the app runtime duration from the previous step operation to the current step.
-
-::: moniker range=">=vs-2022"
-![Profiling Tour PerfTips](../profiling/media/vs-2022/prof-tour-perf-tips.png "Profiling Tour PerfTips")
-::: moniker-end
-::: moniker range="<=vs-2019"
-![Profiling Tour PerfTips](../profiling/media/prof-tour-perf-tips.png "Profiling Tour PerfTips")
-::: moniker-end
-
-You can use PerfTips to examine how long it takes for a code block to execute, or how long it takes for a single function to complete.
-
-PerfTips show the same events that also show up in the **Events** view of the Diagnostic Tools. In the **Events** view, you can view different events that occur while you are debugging, such as the setting of a breakpoint or a code stepping operation.
-
-::: moniker range=">=vs-2022"
-![Diagnostic Tools Events view](../profiling/media/vs-2022/prof-tour-events.png "Diagnostic Tools View Events")
-::: moniker-end
-::: moniker range="<=vs-2019"
-![Diagnostic Tools Events view](../profiling/media/prof-tour-events.png "Diagnostic Tools View Events")
-::: moniker-end
-
- > [!NOTE]
- > If you have Visual Studio Enterprise, you can also see [IntelliTrace events](../debugger/intellitrace.md) in this tab.
+> Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window).
 
 ## Analyze CPU usage
 
@@ -200,6 +165,52 @@ When you select one of the arrow links, you are given a differential view of the
 
 If you click the link on the left instead in the **Memory Usage** view, the heap view is organized by object count; the objects of a particular type that increased the most in number are shown at the top (sorted by **Count Diff** column).
 
+## Instrumentation
+
+The Instrumentation tool is similar to the CPU Usage tool, except that it provides exact call counts and wall clock time instead of CPU utilization. The instrumentation method requires more overhead than the CPU Usage tool. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**). For more information, see [Instrumentation](../profiling/instrumentation-overview.md).
+
+::: moniker range=">= vs-2022"
+
+![Screenshot showing .NET Instrumentation data.](./media/vs-2022/instrumentation-data.png "Instrumentation data")
+::: moniker-end
+
+::: moniker range=">= vs-2022"
+
+## Examine File I/O
+
+The [File I/O tool](../profiling/use-file-io.md) helps you understand how you can optimize your File I/O operations to improve performance in your apps. If you’re trying to investigate and diagnose slow loading times, the new File IO tool can help you understand how the I/O operations impact your spent time. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing Debug > Performance Profiler (or Alt + F2).
+
+The tool shows file read and file write operations in a tabbed list view.
+
+![Screenshot showing File IO tool stopped.](./media/vs-2022/file-io-after.png "File IO tool stopped")
+
+::: moniker-end
+
+## Examine performance using PerfTips
+
+Often, the easiest way to view performance information is to use [PerfTips](../profiling/perftips.md). Using PerfTips, you can view performance information while interacting with your code. You can check information such as the duration of the event (measured from when the debugger was last paused, or when the app started). For example, if you step through code (F10, F11), PerfTips show you the app runtime duration from the previous step operation to the current step.
+
+::: moniker range=">=vs-2022"
+![Screenshot of PerfTips.](../profiling/media/vs-2022/prof-tour-perf-tips.png "Profiling Tour PerfTips")
+::: moniker-end
+::: moniker range="<=vs-2019"
+![Screenshot of PerfTips.](../profiling/media/prof-tour-perf-tips.png "Profiling Tour PerfTips")
+::: moniker-end
+
+You can use PerfTips to examine how long it takes for a code block to execute, or how long it takes for a single function to complete.
+
+PerfTips show the same events that also show up in the **Events** view of the Diagnostic Tools. In the **Events** view, you can view different events that occur while you are debugging, such as the setting of a breakpoint or a code stepping operation.
+
+::: moniker range=">=vs-2022"
+![Screenshot of Diagnostic Tools Events view.](../profiling/media/vs-2022/prof-tour-events.png "Diagnostic Tools View Events")
+::: moniker-end
+::: moniker range="<=vs-2019"
+![Screenshot of Diagnostic Tools Events view.](../profiling/media/prof-tour-events.png "Diagnostic Tools View Events")
+::: moniker-end
+
+ > [!NOTE]
+ > If you have Visual Studio Enterprise, you can also see [IntelliTrace events](../debugger/intellitrace.md) in this tab.
+
 ::: moniker range=">=vs-2022"
 ## Analyze asynchronous code (.NET)
 
@@ -226,27 +237,6 @@ The generic [events viewer](../profiling/events-viewer.md) allows you to view th
 The tool shows each event in a list view. Columns provide information about each event, such as the event name, timestamp, and process ID.
 
 ![Event Viewer Trace](../profiling/media/prof-tour-events-viewer.png "Event Viewer Trace")
-
-## Instrumentation
-
-The Instrumentation tool is similar to the CPU Usage tool, except that it provides exact call counts and wall clock time instead of CPU utilization. The instrumentation method requires more overhead than the CPU Usage tool. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**). For more information, see [Instrumentation](../profiling/instrumentation-overview.md).
-
-::: moniker range=">= vs-2022"
-
-![Screenshot showing .NET Instrumentation data.](./media/vs-2022/instrumentation-data.png "Instrumentation data")
-::: moniker-end
-
-::: moniker range=">= vs-2022"
-
-## Examine File I/O
-
-The [File I/O tool](../profiling/use-file-io.md) helps you understand how you can optimize your File I/O operations to improve performance in your apps. If you’re trying to investigate and diagnose slow loading times, the new File IO tool can help you understand how the I/O operations impact your spent time. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing Debug > Performance Profiler (or Alt + F2).
-
-The tool shows file read and file write operations in a tabbed list view.
-
-![Screenshot showing File IO tool stopped.](./media/vs-2022/file-io-after.png "File IO tool stopped")
-
-::: moniker-end
 
 ## Analyze database performance (.NET Core)
 
