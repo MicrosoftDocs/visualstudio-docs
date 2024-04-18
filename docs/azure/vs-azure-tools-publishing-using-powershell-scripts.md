@@ -324,7 +324,7 @@ To get help for functions you can use at the Windows PowerShell command prompt, 
 | Restore-Subscription |Resets the current subscription to the original subscription. |
 | Test-AzureModule |Returns `$true` if the installed Azure module version is 0.7.4 or later. Returns `$false` if the module isn't installed or is an earlier version. This function has no parameters. |
 | Test-AzureModuleVersion |Returns `$true` if the version of the Azure module is 0.7.4 or later. Returns `$false` if the module isn't installed or is an earlier version. This function has no parameters. |
-| Test-HttpsUrl |Converts the input URL to a System.Uri object. Returns `$True` if the URL is absolute and its scheme is HTTPS. Returns `$false` if the URL is relative, its scheme isn't HTTPS, or the input string can't be converted to a URL. |
+| Test-HttpsUrl |Converts the input URL to a `System.Uri` object. Returns `$True` if the URL is absolute and its scheme is HTTPS. Returns `$false` if the URL is relative, its scheme isn't HTTPS, or the input string can't be converted to a URL. |
 | Test-Member |Returns `$true` if a property or method is a member of the object. Otherwise, returns `$false`. |
 | Write-ErrorWithTime |Writes an error message prefixed with the current time. This function calls the **Format-DevTestMessageWithTime** function to prepend the time before writing the message to the Error stream. |
 | Write-HostWithTime |Writes a message to the host program (**Write-Host**) prefixed with the current time. The effect of writing to the host program varies. Most programs that host Windows PowerShell write these messages to standard output. |

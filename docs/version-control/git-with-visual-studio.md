@@ -37,6 +37,8 @@ If you're new to Git, the [https://git-scm.com/](https://git-scm.com/) website i
 
 :::image type="content" source="media/vs-2022/git-source-control-create-repository.png" alt-text="Screenshot of the Create a Git Repository dialog box in Visual Studio." lightbox="media/vs-2022/git-source-control-create-repository.png":::
 
+If you want to use git commands at the command line, you should also install [Git for Windows](https://book.git-scm.com/download/win) (not a Microsoft product).
+
 ## View files in Solution Explorer
 
 When you clone a repository or open a local repository, Visual Studio switches to the Git context. Solution Explorer loads the folder at the root of the Git repository, and scans the directory tree for any viewable files like `CMakeLists.txt` or those with the `.sln` file extension.  For more information, see [View files in Solution Explorer](../get-started/tutorial-open-project-from-repo.md#view-files-in-solution-explorer).

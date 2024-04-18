@@ -106,7 +106,7 @@ You can create the data-bound controls by dragging items from the **Data Sources
 
 ## Add parameterization (search functionality) to the query
 
-You can add a WHERE clause to the original query using the **Search Criteria Builder** dialog box:
+You can add a `WHERE` clause to the original query using the **Search Criteria Builder** dialog box:
 
 1. Just below the design surface for your form, select the **customersTableAdapter** button, and then in the **Properties** window, choose **Add Query...**.
 
@@ -124,7 +124,7 @@ You can add a WHERE clause to the original query using the **Search Criteria Bui
      ```
 
     > [!NOTE]
-    > Access and OLE DB data sources use the question mark ('?') to denote parameters, so the WHERE clause would look like this: `WHERE City = ?`.
+    > Access and OLE DB data sources use the question mark ('?') to denote parameters, so the `WHERE` clause would look like this: `WHERE City = ?`.
 
 4. Click **OK** to close the **Search Criteria Builder** dialog box.
 

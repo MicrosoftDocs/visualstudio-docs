@@ -16,7 +16,9 @@ ms.subservice: debug-diagnostics
 ---
 # Which performance tool should I use? (C#, Visual Basic, C++, F#)
 
-Visual Studio provides a variety of profiling tools to help you diagnose different kinds of app performance issues depending on your app type. In this article, we provide information to help you find the right tool for your scenario and application type. For a general approach to optimizing code using the profiling tools, see [Reduce compute costs by using profiling tools](../profiling/optimize-code-using-profiling-tools.md).
+Visual Studio provides a variety of profiling tools to help you diagnose different kinds of app performance issues depending on your app type. In this article, we provide information to help you find the right tool for your scenario and application type.
+
+For a general approach to optimizing code using the profiling tools, see [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
 
 ## Which tool should I use?
 
@@ -27,14 +29,14 @@ The following table lists the different tools Visual Studio offers and provides 
 |[CPU Usage](../profiling/beginners-guide-to-performance-profiling.md)|Shows where the CPU is spending time.|&#x2022; Begin an investigation for general performance issues.</br>&#x2022; Investigate high server CPU usage.</br>&#x2022; Investigate DevOps scenarios, such as when orders are not getting through to the retail website.</br>&#x2022; Optimize CPU usage.</br>&#x2022; Investigate latency in API calls.|
 |[Flame graph](../profiling/flame-graph.md)|View within the CPU Usage tool that provides an alternate visualization of the call tree.|Investigate latency in API calls|
 |[Hot path](../profiling/cpu-insights.md)|View within the CPU Usage tool that shows where most of the CPU time was spent in your application.|Investigate latency in API calls|
-|[PerfTips](../profiling/perftips.md)|Shows a quick measurement of performance information while interacting with your code.|While debugging, you want to see the elapsed time between the previous step operation (or breakpoint) to the current step or breakpoint.|
 |[Memory Usage](../profiling/memory-usage.md)|Shows your app’s memory to find issues such as memory leaks.|&#x2022; Optimize memory usage</br>&#x2022; Investigate UI freeze</br>&#x2022; Investigate suspected memory leak (native code)|
 |[.NET Object Allocation](../profiling/dotnet-alloc-tool.md)|Shows where .NET Objects are allocated and information about garbage collection.|&#x2022; Optimize .NET memory usage</br>&#x2022; Analyze garbage collection|
+|[Instrumentation](../profiling/instrumentation-overview.md)|Shows exact call counts and call times.|You need a tool like CPU Usage, but you want exact call counts and results based on wall clock time. This tool requires extra overhead.|
+|[File I/O](../profiling/use-file-io.md)|Shows your File I/O operations and how long they take and how much data they process.|Investigate UI freeze|
+|[PerfTips](../profiling/perftips.md)|Shows a quick measurement of performance information while interacting with your code.|While debugging, you want to see the elapsed time between the previous step operation (or breakpoint) to the current step or breakpoint.|
 |[Events viewer](../profiling/events-viewer.md)|Shows HTTP requests, log messages, and exceptions.|&#x2022; Investigate latency in API calls</br>&#x2022; Investigate slow application running on a remote web server|
 |[.NET Async](../profiling/analyze-async.md)|Shows async/await usage in .NET apps.|Investigate suspected performance issue with asynchronous code.|
 |[.NET Counters](../profiling/dotnet-counters-tool.md)|Visualization for .NET counters.|You want a visualization for .NET counter-based metrics such as exceptions per second, garbage collection, and CPU utilization.|
-|[Instrumentation](../profiling/instrumentation-overview.md)|Shows exact call counts and call times.|You need a tool like CPU Usage, but you want exact call counts and results based on wall clock time. This tool requires extra overhead.|
-|[File I/O](../profiling/use-file-io.md)|Shows your File I/O operations and how long they take and how much data they process.|Investigate UI freeze|
 |[Database](../profiling/analyze-database.md)|Shows performance of your database queries.|Investigate performance for database queries that use either ADO.NET or Entity Framework Core.|
 |[GPU Usage](./gpu-usage.md)|Shows high-level hardware usage of your Direct3D app.|Check whether the performance of your app is CPU-bound or GPU-bound.|
 |[Application Timeline](../profiling/application-timeline.md)|Shows UI performance for XAML apps.|Investigate UI performance in XAML apps, such as time spent rendering frames.|
@@ -47,14 +49,14 @@ The following table lists the different tools Visual Studio offers and the diffe
 |Performance Tool|.NET|C/C++|UWP|ASP.NET/ASP.NET Core|
 |----------------------|-----------|--------------|-------------|-------------|
 |[CPU Usage](../profiling/beginners-guide-to-performance-profiling.md)|yes|yes|yes|yes|
-|[PerfTips](../profiling/perftips.md)|yes|yes|yes|yes|
 |[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes|yes|
 |[.NET Object Allocation](../profiling/dotnet-alloc-tool.md)|yes|no|yes|yes|
+|[Instrumentation](../profiling/instrumentation-overview.md)|yes|yes|yes|yes|
+|[File I/O](../profiling/use-file-io.md)|yes|yes|yes|yes|
+|[PerfTips](../profiling/perftips.md)|yes|yes|yes|yes|
 |[Events viewer](../profiling/events-viewer.md)|yes|yes|yes|yes|
 |[.NET Async](../profiling/analyze-async.md)|yes|no|yes|yes|
 |[.NET Counters](../profiling/dotnet-counters-tool.md)|yes (.NET Core/5+ only)|no|no|yes (ASP.NET Core only)|
-|[Instrumentation](../profiling/instrumentation-overview.md)|yes|yes|yes|yes|
-|[File I/O](../profiling/use-file-io.md)|yes|yes|yes|yes|
 |[Database](../profiling/analyze-database.md)|yes (.NET Core/5+ only)|no|no|yes (ASP.NET Core only)|
 |[GPU Usage](./gpu-usage.md)|yes|yes|yes|no|
 |[Application Timeline](../profiling/application-timeline.md)|yes (XAML)|no|yes|no|
@@ -69,6 +71,14 @@ The following tools are supported with Linux as the target platform as well as W
 - .NET Counters
 - Events Viewer
 - Database
+
+## Learn to use the profilers
+
+The following articles and blog posts provide more information to help you learn to use the Visual Studio performance tools effectively.
+
+- [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md)
+- [Improving Visual Studio performance with the new Instrumentation Tool](https://devblogs.microsoft.com/visualstudio/improving-visual-studio-performance-with-the-new-instrumentation-tool/)
+- [Case Study: Double performance in under 30 minutes](https://devblogs.microsoft.com/visualstudio/case-study-double-performance-in-under-30-minutes/)
 
 ## Related content
 
