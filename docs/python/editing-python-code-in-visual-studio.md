@@ -1,7 +1,7 @@
 ---
 title: Edit Python code and use Intellisense
 description: Develop Python applications in Visual Studio and access rich IntelliSense, code snippets, and navigation features. Apply formatting, linting, and refactoring to clean and maintain your code.
-ms.date: 02/20/2024
+ms.date: 04/18/2024
 ms.topic: conceptual
 author: cwebster-99
 ms.author: cowebster
@@ -15,7 +15,7 @@ ms.subservice: python
 
 Because you spend much of your development time in the code editor, [Python support in Visual Studio](installing-python-support-in-visual-studio.md) provides functionality to help you be more productive. Features include IntelliSense syntax highlighting, autocompletion, signature help, method overrides, search, and navigation.
 
-The code editor is integrated with the **Interactive** window in Visual Studio. As you work, it's easy to exchange code between the two windows. For more information, see [Tutorial Step 3: Use the Interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md) and [Use the Interactive window - Send to Interactive command](python-interactive-repl-in-visual-studio.md#send-to-interactive-command).
+The code editor is integrated with the **Interactive** window in Visual Studio. As you work, it's easy to exchange code between the two windows. For more information, see [Tutorial Step 3: Use the Interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md) and [Use the Interactive window - Send to Interactive command](python-interactive-repl-in-visual-studio.md#send-code-to-interactive-window).
 
 [Outlining](../ide/outlining.md) helps you stay focused on particular sections of your code. For general documentation on editing code in Visual Studio, see [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md). 
 
