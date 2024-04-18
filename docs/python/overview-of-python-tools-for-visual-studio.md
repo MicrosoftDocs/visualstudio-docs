@@ -2,7 +2,7 @@
 title: Python support in Visual Studio on Windows
 titleSuffix: ""
 description: Explore Python Tools for Visual Studio (PTVS) and other Python features in Visual Studio to edit, debug, test, and publish your Python applications.
-ms.date: 02/04/2024
+ms.date: 04/18/2024
 ms.topic: overview
 author: cwebster-99
 ms.author: cowebster
