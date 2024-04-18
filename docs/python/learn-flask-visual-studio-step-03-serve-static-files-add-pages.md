@@ -2,7 +2,7 @@
 title: Flask in Visual Studio tutorial Step 3, static files & template inheritance
 titleSuffix: ""
 description: Step 3 of a core walkthrough of Flask capabilities in Visual Studio, including serving static files, adding pages to the Flask app, and using template inheritance.
-ms.date: 03/28/2024
+ms.date: 04/18/2024
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster

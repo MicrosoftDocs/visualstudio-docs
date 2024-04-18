@@ -2,7 +2,7 @@
 title: Django in Visual Studio tutorial Step 4, web project template
 titleSuffix: ""
 description: Step 4 of a core walkthrough of Django capabilities in Visual Studio, including the Django Web Project template that helps you create an app with three pages that use static JavaScript libraries.
-ms.date: 04/01/2024
+ms.date: 04/18/2024
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
