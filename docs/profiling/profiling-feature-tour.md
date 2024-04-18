@@ -27,10 +27,10 @@ Tools in the Performance Profiler are intended to provide analysis for **Release
 Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**).
 
 ::: moniker range=">=vs-2022"
-![Performance Profiler](../profiling/media/vs-2022/prof-tour-performance-profiler.png "Performance Profiler")
+![Screenshot of Performance Profiler](../profiling/media/vs-2022/prof-tour-performance-profiler.png "Performance Profiler")
 ::: moniker-end
 ::: moniker range="<=vs-2019"
-![Performance Profiler](../profiling/media/prof-tour-performance-profiler.png "Performance Profiler")
+![Screenshot of Performance Profiler](../profiling/media/prof-tour-performance-profiler.png "Performance Profiler")
 ::: moniker-end
 
 For more information on using the CPU Usage or Memory usage tool in the Performance Profiler vs. the debugger-integrated tools, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). 
@@ -191,10 +191,10 @@ The tool shows file read and file write operations in a tabbed list view.
 Often, the easiest way to view performance information is to use [PerfTips](../profiling/perftips.md). Using PerfTips, you can view performance information while interacting with your code. You can check information such as the duration of the event (measured from when the debugger was last paused, or when the app started). For example, if you step through code (F10, F11), PerfTips show you the app runtime duration from the previous step operation to the current step.
 
 ::: moniker range=">=vs-2022"
-![Profiling Tour PerfTips](../profiling/media/vs-2022/prof-tour-perf-tips.png "Profiling Tour PerfTips")
+![Screenshot of PerfTips](../profiling/media/vs-2022/prof-tour-perf-tips.png "Profiling Tour PerfTips")
 ::: moniker-end
 ::: moniker range="<=vs-2019"
-![Profiling Tour PerfTips](../profiling/media/prof-tour-perf-tips.png "Profiling Tour PerfTips")
+![Screenshot of PerfTips](../profiling/media/prof-tour-perf-tips.png "Profiling Tour PerfTips")
 ::: moniker-end
 
 You can use PerfTips to examine how long it takes for a code block to execute, or how long it takes for a single function to complete.
@@ -202,10 +202,10 @@ You can use PerfTips to examine how long it takes for a code block to execute, o
 PerfTips show the same events that also show up in the **Events** view of the Diagnostic Tools. In the **Events** view, you can view different events that occur while you are debugging, such as the setting of a breakpoint or a code stepping operation.
 
 ::: moniker range=">=vs-2022"
-![Diagnostic Tools Events view](../profiling/media/vs-2022/prof-tour-events.png "Diagnostic Tools View Events")
+![Screenshot of Diagnostic Tools Events view](../profiling/media/vs-2022/prof-tour-events.png "Diagnostic Tools View Events")
 ::: moniker-end
 ::: moniker range="<=vs-2019"
-![Diagnostic Tools Events view](../profiling/media/prof-tour-events.png "Diagnostic Tools View Events")
+![Screenshot of Diagnostic Tools Events view](../profiling/media/prof-tour-events.png "Diagnostic Tools View Events")
 ::: moniker-end
 
  > [!NOTE]

@@ -44,7 +44,7 @@ To collect performance data without debugging, you can run the Performance Profi
    ![Screenshot of diagnostic tools.](../profiling/media/vs-2022/performance-profiler-summary-page.png "DIAG_SelectTool")
    ::: moniker-end
    ::: moniker range="<=vs-2019"
-   ![Screenshot of diagnostic tools](../profiling/media/diaghubsummarypage.png "DIAG_SelectTool")
+   ![Screenshot of diagnostic tools.](../profiling/media/diaghubsummarypage.png "DIAG_SelectTool")
    ::: moniker-end
 
 1. To start the diagnostic session, select **Start**.
@@ -55,7 +55,7 @@ To collect performance data without debugging, you can run the Performance Profi
    ![Screenshot of data collection on the Performance Profiler.](../profiling/media/vs-2022/performance-profiler-collect-data.png "Diag collect data")
    ::: moniker-end
    ::: moniker range="<=vs-2019"
-   ![Screenshot of data collection on the Performance Profiler](../profiling/media/diaghubcollectdata.png "Hub collect data")
+   ![Screenshot of data collection on the Performance Profiler.](../profiling/media/diaghubcollectdata.png "Hub collect data")
    ::: moniker-end
 
 1. To end the diagnostic session, select **Stop Collection**.
@@ -68,7 +68,7 @@ You can save the reports, and open them from the **Recently Opened Sessions** li
 ![Screenshot of Diagnostic Tools Recently Opened Sessions list.](../profiling/media/vs-2022/performance-profiler-open-existing-diagnostics-session.png "PDHUB_OpenExistingDiagSession")
 ::: moniker-end
 ::: moniker range="<=vs-2019"
-![Screenshot of Diagnostic Tools Recently Opened Sessions list](../profiling/media/diaghubopenexistingdiagsession.png "PDHUB_OpenExistingDiagSession")
+![Screenshot of Diagnostic Tools Recently Opened Sessions list.](../profiling/media/diaghubopenexistingdiagsession.png "PDHUB_OpenExistingDiagSession")
 ::: moniker-end
 
 For more information, see:
