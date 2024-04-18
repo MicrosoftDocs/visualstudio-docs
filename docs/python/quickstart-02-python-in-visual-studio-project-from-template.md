@@ -1,7 +1,7 @@
 ---
 title: "Quickstart: Create Python project from template"
 description: Follow guided steps to create a Visual Studio project for Python by using the built-in template for a basic Flask application.
-ms.date: 04/11/2024
+ms.date: 04/18/2024
 ms.topic: quickstart
 author: cwebster-99
 ms.author: cowebster

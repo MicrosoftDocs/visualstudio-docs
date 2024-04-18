@@ -2,7 +2,7 @@
 title: Django in Visual Studio tutorial Step 2, view & page template
 titleSuffix: ""
 description: Step 2 of a core walkthrough of Django capabilities in Visual Studio, including procedures to create a Django application with multiple views by using inline HTML templates.
-ms.date: 04/01/2024
+ms.date: 04/18/2024
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
