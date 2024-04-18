@@ -1,6 +1,6 @@
 ---
-title: Analyze CPU usage in the Performance Profiler
-description: Learn about the CPU Usage performance tool, which shows the CPU time and percentage spent executing code in C++, C#, Visual Basic, and JavaScript apps.
+title: CPU profiling in the Performance Profiler
+description: Learn about the CPU profiler performance tool, which shows the CPU time and percentage spent executing code in C++, C#, Visual Basic, and JavaScript apps.
 ms.date: 08/15/2023
 ms.topic: how-to
 author: mikejo5000
@@ -9,9 +9,9 @@ manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 
-# Analyze CPU usage without debugging in the Performance Profiler (C#, Visual Basic, C++, F#)
+# Analyze performance using CPU profiling in the Performance Profiler (C#, Visual Basic, C++, F#)
 
-A good way to start investigating performance issues in your app is to understand its CPU usage. The **CPU Usage** performance tool shows the CPU time and percentage spent executing code in C++, C#/Visual Basic.
+A good way to start investigating performance issues in your app is to understand its CPU utilization using a CPU profiler. The **CPU Usage** performance tool shows the CPU time and percentage spent executing code in C++, C#/Visual Basic.
 
 The CPU Usage tool can help you:
 
@@ -29,10 +29,7 @@ The following instructions show how to use the CPU Usage tool without the debugg
 
 Usually, the local machine best replicates installed app execution. To collect data from a remote device, run the app directly on the device, not over a Remote Desktop Connection.
 
->[!NOTE]
->Windows 7 or later is required to use the [Performance Profiler](../profiling/profiling-feature-tour.md).
-
-## Collect CPU usage data
+## Collect CPU utilization data
 
 1. In the Visual Studio project, set the solution configuration to **Release** and select **Local Windows Debugger** (or **Local Machine**) as the deployment target.
 
@@ -59,7 +56,7 @@ Usually, the local machine best replicates installed app execution. To collect d
     > [!NOTE]
     > For more information on how to make the tool more efficient, see [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md).
 
-1. After the app starts, the diagnostic session begins and displays CPU usage data. When you're finished collecting data, select **Stop Collection**.
+1. After the app starts, the diagnostic session begins and displays CPU utilization data. When you're finished collecting data, select **Stop Collection**.
 
     ::: moniker range=">=vs-2022"
     ![Screenshot that shows Stop CPU Usage data collection.](../profiling/media/vs-2022/cpu-use-wt-stop-collection.png "Stop CPU Usage data collection")
@@ -79,7 +76,7 @@ Usually, the local machine best replicates installed app execution. To collect d
 
     Use the **Filter** dropdown to select or deselect threads to display, and use the **Search** box to search for a specific thread or node. 
 
-## <a name="BKMK_Call_tree_data_columns"></a> CPU Usage data columns
+## <a name="BKMK_Call_tree_data_columns"></a> CPU utilization data columns
 
 |Name|Description|
 |-|-|
@@ -93,10 +90,10 @@ Usually, the local machine best replicates installed app execution. To collect d
 To analyze top insights, top functions, and the hot path, see [CPU insights](../profiling/cpu-insights.md).
 ::: moniker-end
 
-## Analyze the CPU Usage report
+## Analyze CPU utilization
 
 ::: moniker range=">=vs-2022"
-To analyze the report, click **Open details**, or click one of the top functions to open the **Functions** view.
+To analyze the CPU Usage report, click **Open details**, or click one of the top functions to open the **Functions** view.
 
 The report provides different views of the diagnostic data:
 

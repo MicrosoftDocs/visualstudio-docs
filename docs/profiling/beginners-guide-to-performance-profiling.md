@@ -1,5 +1,5 @@
 ---
-title: "Measure CPU usage in your apps"
+title: "Measure CPU utilization in your apps"
 description: Measure and analyze CPU performance issues in your C#, Visual Basic, C++, or F# application by using the debugger-integrated diagnostics tools in Visual Studio.
 ms.date: 12/02/2022
 ms.topic: tutorial
@@ -13,7 +13,8 @@ ms.author: mikejo
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
-# Measure application performance by analyzing CPU usage (C#, Visual Basic, C++, F#)
+
+# Measure application performance by analyzing CPU utilization (C#, Visual Basic, C++, F#)
 
 Find performance issues while you're debugging with the debugger-integrated **CPU Usage** diagnostic tool.  You can also analyze CPU usage without a debugger attached or by targeting a running app. For more information, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
 
@@ -25,12 +26,10 @@ When the debugger pauses, the **CPU Usage** tool in the Diagnostic Tools window 
 In this tutorial, you will:
 
 > [!div class="checklist"]
-> * Collect CPU usage data
-> * Analyze CPU usage data
+> * Collect CPU utilization data
+> * Analyze CPU utilization data
 
-If **CPU Usage** does not give you the data that you need, other profiling tools in the [Performance Profiler](../profiling/profiling-feature-tour.md#post_mortem) provide different kinds of information that might be helpful to you. In many cases, the performance bottleneck of your application may be caused by something other than your CPU, such as memory, rendering UI, or network request time.
-
-## Step 1: Collect CPU usage data
+## Step 1: Collect CPU utilization data
 
 1. Open the project you want to debug in Visual Studio and set a breakpoint in your app at the point where you want to examine CPU usage.
 
@@ -112,7 +111,7 @@ If **CPU Usage** does not give you the data that you need, other profiling tools
      > [!TIP]
      >  When trying to identify performance issues, take multiple measurements. Performance naturally varies from run-to-run, and code paths typically execute slower the first time they run due to one-time initialization work such as loading DLLs, JIT compiling methods, and initializing caches. By taking multiple measurements, you get a better idea of the range and median of the metric being shown, whichs allow you to compare the first time versus the steady state performance of an area of code.
 
-## Step 2: Analyze CPU usage data
+## Step 2: Analyze CPU utilization data
 
 We recommend that you begin analyzing your data by examining the list of functions under CPU Usage, identifying the functions that are doing the most work, and then taking a closer look at each one.
 
