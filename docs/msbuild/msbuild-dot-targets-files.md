@@ -19,7 +19,7 @@ ms.subservice: msbuild
 
 MSBuild includes several `.targets` files that contain items, properties, targets, and tasks for common scenarios. These files are automatically imported into most Visual Studio project files to simplify maintenance and readability.
 
-SDK-style projects (projects with something like `<Project Sdk="Microsoft.NET.Sdk">`) import `.targets` files differently compared to projects that don't reference an SDK. For SDK-style projects, you don't see the imported `.targets` file in the project file, because those imports are managed by the SDK that you reference. However, SDK-style projects are equivalent to non-SDK-style project with standard imports before and after the main body of the file, so it's still accurate to say that the standard `.targets` files are imported in those projects. 
+SDK-style projects (projects with something like `<Project Sdk="Microsoft.NET.Sdk">`) import `.targets` files differently compared to projects that don't reference an SDK. For SDK-style projects, you don't see the imported `.targets` file in the project file, because those imports are managed by the SDK that you reference. However, SDK-style projects are equivalent to non-SDK-style projects with standard imports before and after the main body of the file, so it's still accurate to say that the standard `.targets` files are imported in those projects. 
 
 .NET SDK targets are installed with the .NET SDK, for example, at `C:\Program Files\dotnet\sdk\{version}\Sdks\Microsoft.NET.Sdk\targets\` for `Microsoft.NET.Sdk` on Windows. For a complete list of SDKs and what `.targets` file they import, see [.NET project SDKs](/dotnet/core/project-sdk/overview).
 

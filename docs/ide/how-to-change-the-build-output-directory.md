@@ -68,7 +68,7 @@ In Visual Studio 2022, there are different Project Designer user interfaces, dep
 
 1. Find the **Base output path** for C#, and type in the path to generate output to (absolute or relative to the root project directory), or choose **Browse** to browse to that folder instead. Note that the configuration name is appended to the base output path to generate the actual output path.
 
-   ![Output path property for a .NET Core C# project](media/vs-2022/output-path.png)
+   ![Screenshot that shows the Output path property for a .NET Core C# project.](media/vs-2022/output-path.png)
 
    > [!NOTE]
    > Some projects will by default include framework and runtime in the build path. To change this, right-click the project node in **Solution Explorer**, select **Edit Project File**, and add the following:
@@ -83,7 +83,7 @@ In Visual Studio 2022, there are different Project Designer user interfaces, dep
 > [!TIP]
 > If the output is not being generated to the location that you specified, make sure you're building the corresponding configuration (for example, **Debug** or **Release**) by selecting it on the menu bar of Visual Studio.
 >
-> ![Build configuration picker in Visual Studio 2022.](media/vs-2022/build-configuration-chooser.png)
+> ![Screenshot of the Build configuration picker in Visual Studio 2022.](media/vs-2022/build-configuration-chooser.png)
 
 
 ### To change the build output directory using the legacy .NET Project Designer or C++ property pages
@@ -106,7 +106,7 @@ In Visual Studio 2022, there are different Project Designer user interfaces, dep
 
    Type in the path to generate output to (absolute or relative to the root project directory), or choose **Browse** to browse to that folder instead.
 
-   ![Output path property for a C# .NET Framework project](media/output-path.png)
+   ![Screenshot that shows the Output path property for a C# .NET Framework project.](media/output-path.png)
 
    > [!NOTE]
    > Some projects will by default include framework and runtime in the build path. To change this, right-click the project node in **Solution Explorer**, select **Edit Project File**, and add the following:
