@@ -77,7 +77,7 @@ You can install a local copy of the documentation, also called offline documenta
 
 First, you need to [install the Help Viewer](~/help-viewer/install-manage-local-content.md), which is available in the Visual Studio Installer. Choose **Modify** > **Individual Components** and search for **Help Viewer**.
 
-Not all documentation on the Learn platform is available locally. Available documentation includes Visual Studio, .NET, Windows APIs, SQL Server, and more. To see the full list of what you can install, choose the **View > Manage Help Content** menu item.
+Not all documentation on the Learn platform is available locally. Available documentation includes Visual Studio, .NET, Windows APIs, SQL Server, and more. To see the full list of what you can install, choose the **Help > Add and Remove Help Content** menu item from the main Visual Studio menu, or in the Help Viewer, use the toolbar button  with the tooltip **Manage Help Content** (it looks like books on a shelf), or press **Ctrl**+**Shift**+**M**.
 
 ## More help & feedback
 
