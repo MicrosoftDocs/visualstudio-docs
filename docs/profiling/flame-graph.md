@@ -18,7 +18,7 @@ The **Flame Graph** helps you identify hot paths in your code by visualizing a c
 
 ![Screenshot showing Flame Graph with tooltips displayed.](./media/vs-2022/flame-graph-tooltips.png "Flame Graph with tooltips displayed")
 
-For a tutorial that shows using the flame graph, see [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
+For a tutorial that shows how to improve performance using the flame graph, see [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
 
 ## Investigate hot paths
 

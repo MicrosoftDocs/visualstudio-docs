@@ -25,7 +25,7 @@ The **CPU Usage** tool is helpful for both local trace sessions and production. 
 
 The CPU Usage tool can run on an open Visual Studio project, on an installed Microsoft Store app, or attached to a running app or process. You can run the CPU Usage tool with or without debugging. For more information, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
 
-The following instructions show how to use the CPU Usage tool without the debugger, using the Visual Studio Performance Profiler. The examples use a Release build on a local machine. Release builds provide the best view of actual app performance. For a tutorial that shows using the CPU Usage tool, see [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
+The following instructions show how to use the CPU Usage tool without the debugger, using the Visual Studio Performance Profiler. The examples use a Release build on a local machine. Release builds provide the best view of actual app performance. For a tutorial that shows how to improve performance using the CPU Usage tool, see [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
 
 Usually, the local machine best replicates installed app execution. To collect data from a remote device, run the app directly on the device, not over a Remote Desktop Connection.
 
