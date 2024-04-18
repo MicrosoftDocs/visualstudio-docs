@@ -1,7 +1,7 @@
 ---
 title: Define custom commands for Python projects
 description: Add custom commands to the Python project menu in Visual Studio and invoke executable programs, scripts, modules, inline code snippets, and pip.
-ms.date: 04/16/2024
+ms.date: 04/18/2024
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
