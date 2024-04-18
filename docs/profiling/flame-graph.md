@@ -10,11 +10,9 @@ ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'
 ---
 
-# Identify hot paths with a flame graph
+# Identify hot paths with a flame graph (C#, Visual Basic, C++, F#)
 
-Flame graphs are a visualization of categorized data, created to visualize stack traces of profiled software so that the most frequent code paths can be identified quickly and accurately.
-
-The **Flame Graph** helps you identify hot paths in your code by visualizing a call tree. The graph gives a visual overview of where time is being spent in your application and you can click on specific nodes to dig into them further.
+The **Flame Graph** in the CPU Usage tool helps you identify hot paths in your code by visualizing a call tree. Flame graphs are a visualization of categorized data, created to visualize stack traces of profiled software so that the most frequent code paths can be identified quickly and accurately. The graph gives a visual overview of where time is being spent in your application and you can click on specific nodes to dig into them further.
 
 ![Screenshot showing Flame Graph with tooltips displayed.](./media/vs-2022/flame-graph-tooltips.png "Flame Graph with tooltips displayed")
 

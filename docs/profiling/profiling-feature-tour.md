@@ -20,16 +20,6 @@ Application performance measuring tools are essential for developers who want to
 
 For help choosing the correct tool, or to see profiling tool support for different app types, see [Which tool should I use?](../profiling/choose-performance-tool.md). For a tutorial that shows a general approach to optimizing code using the profiling tools, see [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
 
-## What is a profiler?
-
-In software engineering, a *profiler* is a tool used to help you analyze the performance of your applications to improve poorly performing code. Profiling and diagnostics tools help you diagnose memory and CPU usage and other application-level issues. With these tools, you can collect performance data while you run your application.
-
-If you’re a developer who’s been on-call for your team’s codebase or you’ve written a web app, then you may have asked yourself why your app is receiving slow response times? Often, the issues are in production, and it is challenging to investigate at that moment, but profiling tools can help you capture enough information and evidence of the issue.
-
-There are several ways to diagnose performance issues when you’re working with APIs, but using a profiler can help you quickly identify and rule out possible causes so that you have a clear path in resolving your issue.
-
-A profiler can help you make informed decisions quickly by providing a visual depiction of execution times and CPU usage for your application. It’s much easier and quicker to understand issues and fix them when you can see a graph of the execution times or the CPU usage. 
-
 ## <a name="post_mortem"></a> Measure performance in release builds
 
 Tools in the Performance Profiler are intended to provide analysis for **Release** builds. In the Performance Profiler, you can collect diagnostic info while the app is running, and then examine the collected information after the app is stopped (a post-mortem analysis).
@@ -50,8 +40,8 @@ Tools available in the Performance Profiler include:
 - [CPU usage](../profiling/cpu-usage.md)
 - [.NET object allocation](../profiling/dotnet-alloc-tool.md)
 - [Memory usage](../profiling/memory-usage-without-debugging2.md)
-- [.NET async tool](../profiling/analyze-async.md)
 - [Instrumentation](../profiling/instrumentation-overview.md)
+- [.NET async tool](../profiling/analyze-async.md)
 - [File I/O](../profiling/use-file-io.md)
 - [.NET Counters](../profiling/dotnet-counters-tool.md)
 - [Database tool](../profiling/analyze-database.md)
