@@ -23,7 +23,7 @@ There are several ways to diagnose performance issues when you’re working with
 
 A profiler can help you make informed decisions quickly by providing a visual depiction of execution times and CPU usage for your application. It’s much easier and quicker to understand issues and fix them when you can see a graph of the execution times or the CPU usage. 
 
-## Learn to use profilers in Visual studio
+## Learn to use the profilers
 
 The following articles and blog posts provide more information to help you learn to use the Visual Studio performance tools effectively.
 
@@ -31,7 +31,7 @@ The following articles and blog posts provide more information to help you learn
 - [Improving Visual Studio performance with the new Instrumentation Tool](https://devblogs.microsoft.com/visualstudio/improving-visual-studio-performance-with-the-new-instrumentation-tool/)
 - [Case Study: Double performance in under 30 minutes](https://devblogs.microsoft.com/visualstudio/case-study-double-performance-in-under-30-minutes/)
 
-## Related articles
+## Related content
 
 - [First look at profiling](../profiling/choose-performance-tool.md)
 - [Which tool should I use?](../profiling/choose-performance-tool.md)
