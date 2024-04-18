@@ -1,14 +1,14 @@
 ---
 title: Use the Python Interactive Window (REPL)
 description: Use the Interactive Window (REPL) for rapid Python code development in Visual Studio and review how to work with the Standard or Debug REPL mode.
-ms.date: 04/09/2024
+ms.date: 04/18/2024
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
 manager: mijacobs
 ms.subservice: python
 
-# CustomerIntent: As a developer, I want to create Python applications in Visual Studio so I can write and debug code in the Python Interactive Window (REPL).
+# CustomerIntent: As a developer, I want to write and debug code in the Python Interactive Window (REPL) when creating Python applications in Visual Studio.
 ---
 
 # Work with the Python Interactive Window in Visual Studio
