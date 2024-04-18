@@ -200,7 +200,7 @@ Use the search box to find a node that you are looking for, then use the horizon
 
 ## Next steps
 
-In this tutorial, you've learned how to collect and analyze CPU usage data. If you already completed the [tour of the profiler](../profiling/profiling-feature-tour.md), you may want to read about a general approach to optimizing code using the profiling tools.
+In this tutorial, you've learned how to collect and analyze CPU usage data. If you already completed the [tour of the profiler](../profiling/profiling-feature-tour.md), you may want to go through a tutorial that shows how to use the tools more effectively.
 
 > [!div class="nextstepaction"]
 > [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md)

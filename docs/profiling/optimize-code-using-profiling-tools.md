@@ -142,3 +142,8 @@ The following blog posts provide more information to help you learn to use the V
 
 - [Improving Visual Studio performance with the new Instrumentation Tool](https://devblogs.microsoft.com/visualstudio/improving-visual-studio-performance-with-the-new-instrumentation-tool/)
 - [Case Study: Double performance in under 30 minutes](https://devblogs.microsoft.com/visualstudio/case-study-double-performance-in-under-30-minutes/)
+
+## Related content
+
+- [First look at profiling](../profiling/choose-performance-tool.md)
+- [Which tool should I use?](../profiling/choose-performance-tool.md)
