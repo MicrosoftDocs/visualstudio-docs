@@ -78,6 +78,10 @@ Git is good at automatically merging file changes in most circumstances, as long
 > [!TIP]
 > To learn more about the accessibility options available to you, see the [Git keyboard shortcuts](../ide/reference/accessibility-tips-and-tricks.md#git-keyboard-shortcuts) section of the [Accessibility tips and tricks for Visual Studio](../ide/reference/accessibility-tips-and-tricks.md) page.
 
+## Configure your diff tool
+
+If you set your [`.gitconfig` file](https://git-scm.com/docs/git-config) to use a third-party diff tool such as BeyondCompare or KDiff3, Visual Studio respects it. Whenever Visual Studio would normally display a diff, a separate window is opened in the tool of your choice. For an example, see this [StackOverflow](https://stackoverflow.com/questions/4466238/how-to-configure-visual-studio-to-use-beyond-compare) question.
+
 ## Related content
 
 - [Git webpage for the merge command](https://git-scm.com/docs/git-merge)

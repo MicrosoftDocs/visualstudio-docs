@@ -30,6 +30,14 @@ Here's what to do about it:
 - When Visual Studio runs as DPI-unaware, the designer layout issues are resolved. However, fonts might appear blurry and issues can appear in other designers such as the XAML Designer. 
 - If you've previously set Visual Studio to 100% scaling and want to re-enable DPI awareness, select the **Restart Visual Studio with automatic scaling** link in the information bar to restart Visual Studio as DPI-aware. 
 
+## Disable the notification
+
+You can stop the notification from appearing by changing a setting.
+
+1. From the main menu, select **Tools** > **Options**.
+
+1. In the **Options** dialog, choose **Windows Forms Designer** > **General**, and set **DPI Scaling Notifications** to **False**.
+
 ## Next steps
 
 For more information about HDPI scaling issues and detailed, step-by-step instructions on how to fix them, see [HDPI/scaling issues with Windows Forms Designer in Visual Studio](disable-dpi-awareness.md).

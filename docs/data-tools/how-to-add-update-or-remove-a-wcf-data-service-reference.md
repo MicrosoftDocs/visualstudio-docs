@@ -1,7 +1,7 @@
 ---
 title: Add, update, or remove WCF data service reference
 description: Explore how to add, update, or remove a Windows Communication Foundation (WCF) data service reference for .NET Framework applications in Visual Studio.
-ms.date: 10/17/2023
+ms.date: 04/17/2024
 ms.topic: how-to
 helpviewer_keywords:
 - service references [Visual Studio]
@@ -133,6 +133,11 @@ The Entity Data Model for a WCF Data Services sometimes changes. When this happe
      A progress dialog box displays while the reference is updated from its original location, and the service client is regenerated to reflect any changes in the metadata.
 :::moniker-end
 :::moniker range=">=vs-2022"
+
+For .NET Core projects, use the `dotnet-svcutil` tool. See [dotnet-svcutil](/dotnet/core/additional-tools/dotnet-svcutil-guide?tabs=dotnetsvcutil2x) for installation and instructions.
+
+For .NET Framework projects:
+
 - In **Solution Explorer**, expand the **Connected Services** node, right-click the service reference, and then click **Update Service Reference**.
 
      A progress dialog box displays while the reference is updated from its original location, and the service client is regenerated to reflect any changes in the metadata.
