@@ -676,10 +676,10 @@
       href: introducing-spy-increment.md
     - name: Spy++ guide
       items:
-      - name: Using Spy++
-        href: using-spy-increment.md
       - name: Start Spy++
         href: how-to-start-spy-increment.md
+      - name: Using Spy++
+        href: using-spy-increment.md
       - name: Spy++ toolbar
         href: spy-increment-toolbar.md
     - name: Views in Spy++
