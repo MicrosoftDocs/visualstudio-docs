@@ -31,6 +31,8 @@ Spy++ (SPYXX.EXE) is a Win32-based utility that gives you a graphical view of th
 
   In various Spy++ windows, you can right-click to display a shortcut menu of frequently used commands. Which commands are displayed depends on where the pointer is. For example, if you right-click an entry in the Window view and the selected window is visible, then clicking **Highlight** on the shortcut menu causes the border of the selected window to flash so that it can be located more easily.
 
+To install required components for Spy++, see [Start Spy++](../debugger/how-to-start-spy-increment.md).
+
 > [!NOTE]
 > There are two other utilities that resemble Spy++: PView, which shows details about processes and threads, and DDESPY.EXE, which lets you monitor Dynamic Data Exchange (DDE) messages.
 
@@ -49,6 +51,6 @@ You can run either version of Spy++ directly from the command line.
 
 ## Related content
 
-- [Using Spy++](using-spy-increment.md)
 - [Start Spy++](how-to-start-spy-increment.md)
+- [Using Spy++](using-spy-increment.md)
 - [Spy++ reference](spy-increment-reference.md)
