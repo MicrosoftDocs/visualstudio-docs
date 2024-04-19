@@ -36,7 +36,7 @@ To reduce clutter, the **Registers** window organizes registers into groups, whi
 
 For info on the flags you see in the **Registers** window, see [About the Registers window](../debugger/debugging-basics-registers-window.md)
 
-You can edit register values. For more information, see [How to: Edit a register value](../debugger/how-to-edit-a-register-value.md).
+In C++ code, you can also edit register values. For more information, see [How to: Edit a register value](../debugger/how-to-edit-a-register-value.md).
 
 **To open the Registers window**
 
