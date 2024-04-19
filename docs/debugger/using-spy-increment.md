@@ -17,6 +17,8 @@ ms.subservice: debug-diagnostics
 
 You can use Spy++ to perform the following tasks.
 
+To install required components for Spy++, see [Start Spy++](../debugger/how-to-start-spy-increment.md).
+
 ## Display Spy++ views
 
 When Spy++ starts, it opens in [Windows view](windows-view.md), a tree view of all windows and controls available on your machine. This root window is captioned **Windows 1**. There are also three other Spy++ views available: [Messages view](messages-view.md), [Processes view](processes-view.md), and [Threads view](threads-view.md). You can display the desired view from the **Spy** menu.
