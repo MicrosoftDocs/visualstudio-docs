@@ -238,7 +238,7 @@ A *.natstepfilter* file is an XML file with this syntax:
 
 ### Additional information on *.natstepfilter* and *.natjmc* files
 
-- Starting in Visual Studio 2022 version 17.6, you can add *.natjms* and *.natstepfilter* files directly to the solution or project.
+- Starting in Visual Studio 2022 version 17.6, you can add *.natjmc* and *.natstepfilter* files directly to the solution or project.
 
 - Syntax errors in *.natstepfilter* and *.natjmc* files aren't reported in the debugger's Output window.
 
