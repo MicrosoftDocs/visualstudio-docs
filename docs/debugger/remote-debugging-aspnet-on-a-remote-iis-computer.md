@@ -180,6 +180,10 @@ For information on running the remote debugger as a service, see [Run the remote
 
 ## <a name="BKMK_attach"></a> Attach to the ASP.NET application from the Visual Studio computer
 
+::: moniker range=">=vs-2022"
+
+Starting in Visual Studio 2022 version 17.10 Preview 2, the Attach to Process dialog box has changed. For instructions that match the older dialog box, switch to the Visual Studio 2019 view (upper left version selector in the article).
+
 1. On the Visual Studio computer, open the solution that you're trying to debug (**MyASPApp** if you're following all the steps in this article).
 
 1. In Visual Studio, select **Debug > Attach to Process** (Ctrl + Alt + P).
@@ -195,6 +199,53 @@ For information on running the remote debugger as a service, see [Run the remote
    On Visual Studio 2022, you should see **\<remote computer name>:4026**
    ::: moniker-end
 
+   The port is required. If you don't see the port number, add it manually.
+
+1. Select **Refresh**.
+
+   You should see some processes appear in the **Available Processes** window.
+
+   If you don't see any processes, try using the IP address instead of the remote computer name (the port is required). You can use `ipconfig` in a command line to get the IPv4 address.
+
+   If you want to use the **Find** button, you might need to [open outbound UDP port 3702](#bkmk_openports) on the server.
+
+1. Check  **Show processes from all users**.
+
+1. Type the first letter of your process name to quickly find your app.
+
+   * If you're using the [in-process hosting model](/aspnet/core/host-and-deploy/aspnet-core-module?view=aspnetcore-3.1&preserve-view=true#hosting-models) on IIS, select the correct **w3wp.exe** process. Starting in .NET Core 3, this process is the default.
+
+   * Otherwise, select the **dotnet.exe** process. (This is the out-of-process hosting model.)
+
+   If you have multiple processes showing *w3wp.exe* or *dotnet.exe*, check the **User Name** column. In some scenarios, the **User Name** column shows your app pool name, such as **IIS APPPOOL\DefaultAppPool**. If you see the App Pool, but it's not unique, create a new named App Pool for the app instance you want to debug, and then you can find it easily in the **User Name** column.
+
+   ![RemoteDBG_AttachToProcess](../debugger/media/vs-2022/remote-debug-attach-to-process-aspnet-core.png "RemoteDBG_AttachToProcess")
+
+1. Select **Attach**.
+
+1. Open the remote computer's website. In a browser, go to **http://\<remote computer name>**.
+
+   You should see the ASP.NET web page.
+
+1. In the running ASP.NET application, select the link to the **Privacy** page.
+
+   The breakpoint should be hit in Visual Studio.
+
+   If you're unable to attach or hit the breakpoint, see [Troubleshoot remote debugging](../debugger/troubleshooting-remote-debugging.md).
+::: moniker-end
+
+::: moniker range="vs-2019"
+1. On the Visual Studio computer, open the solution that you're trying to debug (**MyASPApp** if you're following all the steps in this article).
+
+1. In Visual Studio, select **Debug > Attach to Process** (Ctrl + Alt + P).
+
+   > [!TIP]
+   > In Visual Studio 2017 and later versions, you can reattach to the same process you previously attached to by using **Debug > Reattach to Process...** (Shift + Alt + P).
+
+1. Set the Qualifier field to **\<remote computer name>** and press **Enter**.
+
+   Verify that Visual Studio adds the required port to the computer name, which appears in the format: **\<remote computer name>:port**
+
    ::: moniker range="vs-2019"
    On Visual Studio 2019, you should see **\<remote computer name>:4024**
    ::: moniker-end
@@ -207,7 +258,7 @@ For information on running the remote debugger as a service, see [Run the remote
 
    If you don't see any processes, try using the IP address instead of the remote computer name (the port is required). You can use `ipconfig` in a command line to get the IPv4 address.
 
-   If you want to use the **Find** button, you might need to [open UDP port 3702](#bkmk_openports) on the server.
+   If you want to use the **Find** button, you might need to [open outbound UDP port 3702](#bkmk_openports) on the server.
 
 1. Check  **Show processes from all users**.
 
@@ -232,6 +283,7 @@ For information on running the remote debugger as a service, see [Run the remote
    The breakpoint should be hit in Visual Studio.
 
    If you're unable to attach or hit the breakpoint, see [Troubleshoot remote debugging](../debugger/troubleshooting-remote-debugging.md).
+::: moniker-end
 
 ## Troubleshooting IIS deployment
 
