@@ -78,6 +78,9 @@ When you download the software, you might get requests to grant permission to lo
 
    For the current .NET Core hosting bundle, install the [ASP.NET Core Hosting Bundle](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer).
 
+   > [!NOTE]
+   > If you previously installed IIS, the ASP.NET Core IIS Module gets installed with ASP.NET Core. Otherwise, you can use the link to install the IIS Module manually.
+
    For .NET Core 2, install the [.NET Core Windows Server Hosting](https://aka.ms/dotnetcore-2-windowshosting).
 
    > [!NOTE]
@@ -245,7 +248,10 @@ Download the version of the remote tools that matches your version of Visual Stu
 
 In most setups, required ports are opened by the installation of ASP.NET and the remote debugger. However, if you're troubleshooting deployment issues and the app is hosted behind a firewall, you might need to verify that the correct ports are open.
 
-On an Azure VM, you must open ports through the [Network security group](/azure/virtual-machines/windows/nsg-quickstart-portal).
+On an Azure VM, you must open ports through:
+
+- The [Network security group](/azure/virtual-machines/windows/nsg-quickstart-portal).
+- The [firewall on Windows Server](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md#open-a-port)
 
 Required ports:
 
@@ -257,7 +263,7 @@ Required ports:
 * 4024 - Required for remote debugging from Visual Studio 2019 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
 ::: moniker-end
 
-* UDP 3702 - (Optional) Discovery port enables you to the **Find** button when attaching to the remote debugger in Visual Studio.
+* UDP 3702 - (Optional) The Discovery port enables you to the **Find** button when attaching to the remote debugger in Visual Studio. This must be an outbound port (outbound rule).
 
-In addition, these ports should already be opened by the ASP.NET installation:
+In addition, these ports should already be opened by the ASP.NET Core installation:
 - 8172 - (Optional) Required for Web Deploy to deploy the app from Visual Studio
