@@ -1,7 +1,7 @@
 ---
 title: "Remote Debug ASP.NET Core on IIS and an Azure VM"
 description: Learn how to set up and configure a Visual Studio ASP.NET Core app, deploy it to IIS using an Azure VM, and attach the remote debugger from Visual Studio. 
-ms.date: 11/21/2023
+ms.date: 04/23/2024
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -55,7 +55,7 @@ This article includes steps on setting up a basic configuration of IIS on Window
 
    In Visual Studio, choose **File** > **Start window** to open the Start window, and then choose **Create a new project**. In the search box, type **web app**, then choose **C#** as the language, then choose **ASP.NET Core Web Application (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project **MyASPApp**, and then choose **Next**.
 
-   Choose either the recommended target framework or .NET 8, and then choose **Create**.
+   Choose either the recommended target framework or .NET 8, and then choose **Create**. The version must match the version installed on the server.
 
 1. Open the *HomeController.cs* file in the Controllers folder and set a breakpoint in the `return View;` statement in the `Privacy` method.
 
@@ -79,7 +79,7 @@ When you download the software, you might get requests to grant permission to lo
    For the current .NET Core hosting bundle, install the [ASP.NET Core Hosting Bundle](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer).
 
    > [!NOTE]
-   > If you previously installed IIS, the ASP.NET Core IIS Module gets installed with ASP.NET Core. Otherwise, you can use the link to install the IIS Module manually.
+   > If you previously installed IIS, the ASP.NET Core IIS Module gets installed with ASP.NET Core. Otherwise, install the ASP.NET Core IIS Module manually.
 
    For .NET Core 2, install the [.NET Core Windows Server Hosting](https://aka.ms/dotnetcore-2-windowshosting).
 
@@ -126,7 +126,7 @@ You can use this option create a publish settings file and import it into Visual
 
 After the app deploys successfully, it should start automatically.
 
-- If the app doesn't start from Visual Studio, start the app in IIS to verify that it runs correctly. 
+- If the app doesn't start after deployment, start the app in IIS to verify that it runs correctly. 
 - For ASP.NET Core, make sure the Application pool field for the **DefaultAppPool** is set to **No Managed Code**.
 
 When you're ready, switch to a debug configuration.
@@ -269,7 +269,7 @@ Starting in Visual Studio 2022 version 17.10 Preview 2, the Attach to Process di
 - For ASP.NET Core, you need to make sure that the Application pool field for the **DefaultAppPool** is set to **No Managed Code**.
 - Verify that the version of ASP.NET used in your app is the same as the version you installed on the server. For your app, you can view and set the version in the **Properties** page. To set the app to a different version, that version must be installed.
 - If the app tried to open, but you see a certificate warning, choose to trust the site. If you already closed the warning, you can edit the publishing profile, a *.pubxml file, in your project and add the following element (for test only): `<AllowUntrustedCertificate>true</AllowUntrustedCertificate>`
-- If the app doesn't start from Visual Studio, start the app in IIS to test that it deployed correctly.
+- After it's deployed, start the app in IIS to test that it deployed correctly.
 - Check the Output window in Visual Studio for status information, and check your error messages.
 
 ### <a name="bkmk_openports"></a> Open required ports on Windows Server

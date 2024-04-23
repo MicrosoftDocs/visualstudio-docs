@@ -1,7 +1,7 @@
 ---
 title: "Remote debug ASP.NET on an IIS computer"
 description: Learn how to set up and configure a Visual Studio ASP.NET MVC 4.8 application, deploy it to IIS, and attach the remote debugger from Visual Studio. 
-ms.date: 11/21/2023
+ms.date: 04/23/2024
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -117,7 +117,7 @@ You can use this option to create a publish settings file and import it into Vis
 
 [!INCLUDE [install-web-deploy-with-hosting-server](../deployment/includes/import-publish-settings-vs.md)]
 
-After the app deploys successfully, it should start automatically. If the app doesn't start from Visual Studio, start the app in IIS to verify that it runs correctly. 
+After the app deploys successfully, it should start automatically. If the app doesn't start after deployment, start the app in IIS to verify that it runs correctly. 
 
 When you're ready, switch to a debug configuration.
 
@@ -278,7 +278,7 @@ Starting in Visual Studio 2022 version 17.10 Preview 2, the Attach to Process di
 - Make sure the required ports are open on the remote server.
 - Verify that the version of ASP.NET used in your app is the same as the version you installed on the server. For your app, you can view and set the version in the **Properties** page. To set the app to a different version, that version must be installed.
 - If the app tried to open, but you see a certificate warning, choose to trust the site. If you already closed the warning, you can edit the publishing profile, a *.pubxml file, in your project and add the following element (for test only): `<AllowUntrustedCertificate>true</AllowUntrustedCertificate>`
-- If the app doesn't start from Visual Studio, start the app in IIS to test that it deployed correctly.
+- After it's deployed, start the app in IIS to test that it deployed correctly.
 - Check the Output window in Visual Studio for status information, and check your error messages.
 
 ## <a name="bkmk_openports"></a> Open required ports on Windows Server
