@@ -199,49 +199,78 @@ For information on running the remote debugger as a service, see [Run the remote
 
 ## <a name="BKMK_attach"></a> Attach to the ASP.NET application from the Visual Studio computer
 
-1. On the Visual Studio computer, open the solution that you're trying to debug (**MyASPApp** if you're following the steps in this article).
+::: moniker range=">=vs-2022"
+
+Starting in Visual Studio 2022 version 17.10 Preview 2, the Attach to Process dialog box has changed. If you need instructions that match the older dialog box, switch to the Visual Studio 2019 view (upper left version selector in the article).
+
+1. On the Visual Studio computer, open the solution that you're trying to debug (**MyASPApp** if you're following all the steps in this article).
+
 2. In Visual Studio, select **Debug > Attach to Process** (Ctrl + Alt + P).
 
-    > [!TIP]
-    > In Visual Studio 2017 and later versions, you can reattach to the same process you previously attached to by using **Debug > Reattach to Process...** (Shift+Alt+P).
+   > [!TIP]
+   > In Visual Studio 2017 and later versions, you can reattach to the same process you previously attached to by using **Debug > Reattach to Process...** (Shift + Alt + P).
+
+3. Set the **Connection Type** to **Remote (Windows)**.
+
+   The **Connection Target** option appears.
+
+   Set the **Connection Target** to **\<remote computer name>** and press **Enter**.
+
+   Verify that Visual Studio adds the required port to the computer name, which appears in the format: **\<remote computer name>:port**
+
+   On Visual Studio 2022, you should see **\<remote computer name>:4026**
+
+   The port is required. If you don't see the port number, add it manually.
+::: moniker-end
+
+::: moniker range="vs-2019"
+1. On the Visual Studio computer, open the solution that you're trying to debug (**MyASPApp** if you're following all the steps in this article).
+
+2. In Visual Studio, select **Debug > Attach to Process** (Ctrl + Alt + P).
+
+   > [!TIP]
+   > In Visual Studio 2017 and later versions, you can reattach to the same process you previously attached to by using **Debug > Reattach to Process...** (Shift + Alt + P).
 
 3. Set the Qualifier field to **\<remote computer name>** and press **Enter**.
 
-    Verify that Visual Studio adds the required port to the computer name, which appears in the format: **\<remote computer name>:port**
+   Verify that Visual Studio adds the required port to the computer name, which appears in the format: **\<remote computer name>:port**
 
-    ::: moniker range=">=vs-2022"
-    On Visual Studio 2022, you should see **\<remote computer name>:4026**
-    ::: moniker-end
-    ::: moniker range="vs-2019"
-    On Visual Studio 2019, you should see **\<remote computer name>:4024**
-    ::: moniker-end
+   On Visual Studio 2019, you should see **\<remote computer name>:4024**
 
-    The port is required. If you don't see the port number, add it manually.
-
+   The port is required. If you don't see the port number, add it manually.
+::: moniker-end
 4. Select **Refresh**.
-    You should see some processes appear in the **Available Processes** window.
 
-    If you don't see any processes, try using the IP address instead of the remote computer name (the port is required). You can use `ipconfig` in a command line to get the IPv4 address.
+   You should see some processes appear in the **Available Processes** window.
+
+   If you don't see any processes, try using the IP address instead of the remote computer name (the port is required). You can use `ipconfig` in a command line to get the IPv4 address.
+
+   If you want to use the **Find** button, you might need to [open outbound UDP port 3702](#bkmk_openports) on the server.
 
 5. Check  **Show processes from all users**.
 
-6. Type the first letter of a process name to quickly find **w3wp.exe** for ASP.NET 4.5.
+6. Type the first letter of a process name to quickly find *w3wp.exe* for ASP.NET 4.5.
 
-    If you have multiple processes showing **w3wp.exe**, check the **User Name** column. In some scenarios, the **User Name** column shows your app pool name, such as **IIS APPPOOL\DefaultAppPool**. If you see the App Pool, an easy way to identify the correct process is to create a new named App Pool for the app instance you want to debug, and then you can find it easily in the **User Name** column.
+   If you have multiple processes showing w3wp.exe, check the User Name column. In some scenarios, the User Name column shows your app pool name, such as IIS APPPOOL\DefaultAppPool. If you see the App Pool, an easy way to identify the correct process is to create a new named App Pool for the app instance you want to debug, and then you can find it easily in the User Name column.
 
-    ![RemoteDBG_AttachToProcess](../debugger/media/vs-2019/remotedbg-attachtoprocess.png "RemoteDBG_AttachToProcess")
+   ::: moniker range=">=vs-2022"
+   ![RemoteDBG_AttachToProcess](../debugger/media/vs-2022/remote-debug-attach-to-process-aspnet-core.png "RemoteDBG_AttachToProcess")
+   ::: moniker-end
+   ::: moniker range="vs-2019"
+   ![RemoteDBG_AttachToProcess](../debugger/media/vs-2019/remotedbg-attachtoprocess-aspnetcore.png "RemoteDBG_AttachToProcess")
+   ::: moniker-end
 
-7. Select **Attach**
+7. Select **Attach**.
 
 8. Open the remote computer's website. In a browser, go to **http://\<remote computer name>**.
 
-    You should see the ASP.NET web page.
+   You should see the ASP.NET web page.
 
 9. In the running ASP.NET application, select the link to the **Privacy** page.
 
-    The breakpoint should be hit in Visual Studio.
+   The breakpoint should be hit in Visual Studio.
 
-    If you're unable to attach or hit the breakpoint, see [Troubleshoot remote debugging](../debugger/troubleshooting-remote-debugging.md).
+   If you're unable to attach or hit the breakpoint, see [Troubleshoot remote debugging](../debugger/troubleshooting-remote-debugging.md).
 
 ## Troubleshooting IIS deployment
 
@@ -277,7 +306,9 @@ In addition, these ports should already be opened by the ASP.NET installation:
 
 ### Open a port
 
-1. To open a port on Windows Server, open the **Start** menu, search for **Windows Firewall with Advanced Security**.
+1. To open a port on Windows Server, open the **Start** menu, search for **Windows Defender Firewall** or **Windows Firewall with Advanced Security**.
+
+   For **Windows Defender Firewall**, choose **Advanced settings**.
 
 1. Then choose **Inbound Rules > New Rule > Port**. Choose **Next** and under **Specific local ports**, enter the port number, select **Next**, then **Allow the Connection**, select Next, and add the name (**IIS**, **Web Deploy**, or **msvsmon**) for the Inbound Rule.
 
