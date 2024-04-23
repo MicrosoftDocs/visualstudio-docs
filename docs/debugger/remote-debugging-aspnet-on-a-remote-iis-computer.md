@@ -189,16 +189,16 @@ Starting in Visual Studio 2022 version 17.10 Preview 2, the Attach to Process di
 
 1. On the Visual Studio computer, open the solution that you're trying to debug (**MyASPApp** if you're following all the steps in this article).
 
-1. In Visual Studio, select **Debug > Attach to Process** (Ctrl + Alt + P).
+2. In Visual Studio, select **Debug > Attach to Process** (Ctrl + Alt + P).
 
    > [!TIP]
    > In Visual Studio 2017 and later versions, you can reattach to the same process you previously attached to by using **Debug > Reattach to Process...** (Shift + Alt + P).
 
-1. Set the **Connection Type** to **Remote (Windows)**.
+3. Set the **Connection Type** to **Remote (Windows)**.
 
    The **Connection Target** option appears.
 
-1. Set the **Connection Target** to **\<remote computer name>** and press **Enter**.
+   Set the **Connection Target** to **\<remote computer name>** and press **Enter**.
 
    Verify that Visual Studio adds the required port to the computer name, which appears in the format: **\<remote computer name>:port**
 
@@ -210,12 +210,12 @@ Starting in Visual Studio 2022 version 17.10 Preview 2, the Attach to Process di
 ::: moniker range="vs-2019"
 1. On the Visual Studio computer, open the solution that you're trying to debug (**MyASPApp** if you're following all the steps in this article).
 
-1. In Visual Studio, select **Debug > Attach to Process** (Ctrl + Alt + P).
+2. In Visual Studio, select **Debug > Attach to Process** (Ctrl + Alt + P).
 
    > [!TIP]
    > In Visual Studio 2017 and later versions, you can reattach to the same process you previously attached to by using **Debug > Reattach to Process...** (Shift + Alt + P).
 
-1. Set the Qualifier field to **\<remote computer name>** and press **Enter**.
+3. Set the Qualifier field to **\<remote computer name>** and press **Enter**.
 
    Verify that Visual Studio adds the required port to the computer name, which appears in the format: **\<remote computer name>:port**
 
@@ -223,7 +223,7 @@ Starting in Visual Studio 2022 version 17.10 Preview 2, the Attach to Process di
 
    The port is required. If you don't see the port number, add it manually.
 ::: moniker-end
-1. Select **Refresh**.
+4. Select **Refresh**.
 
    You should see some processes appear in the **Available Processes** window.
 
@@ -231,9 +231,9 @@ Starting in Visual Studio 2022 version 17.10 Preview 2, the Attach to Process di
 
    If you want to use the **Find** button, you might need to [open outbound UDP port 3702](#bkmk_openports) on the server.
 
-1. Check  **Show processes from all users**.
+5. Check  **Show processes from all users**.
 
-1. Type the first letter of your process name to quickly find your app.
+6. Type the first letter of your process name to quickly find your app.
 
    * If you're using the [in-process hosting model](/aspnet/core/host-and-deploy/aspnet-core-module?view=aspnetcore-3.1&preserve-view=true#hosting-models) on IIS, select the correct **w3wp.exe** process. Starting in .NET Core 3, this process is the default.
 
@@ -248,13 +248,13 @@ Starting in Visual Studio 2022 version 17.10 Preview 2, the Attach to Process di
    ![RemoteDBG_AttachToProcess](../debugger/media/vs-2019/remotedbg-attachtoprocess-aspnetcore.png "RemoteDBG_AttachToProcess")
    ::: moniker-end
 
-1. Select **Attach**.
+7. Select **Attach**.
 
-1. Open the remote computer's website. In a browser, go to **http://\<remote computer name>**.
+8. Open the remote computer's website. In a browser, go to **http://\<remote computer name>**.
 
    You should see the ASP.NET web page.
 
-1. In the running ASP.NET application, select the link to the **Privacy** page.
+9. In the running ASP.NET application, select the link to the **Privacy** page.
 
    The breakpoint should be hit in Visual Studio.
 
