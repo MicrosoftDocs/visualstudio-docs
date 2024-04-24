@@ -1,7 +1,7 @@
 ---
 title: Configure Windows Firewall for remote debugging
 description: Configure Windows Firewall for remote debugging. Configure ports for remote debugging. Troubleshoot the remote debugging connection.
-ms.date: 02/22/2022
+ms.date: 04/24/2024
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
@@ -87,12 +87,12 @@ For remote debugging, the following ports must be open on the remote computer:
 
 If you select **Use Managed Compatibility Mode** under **Tools** > **Options** > **Debugging**, open these additional remote debugger ports. Debugger Managed Compatibility Mode enables a legacy, Visual Studio 2010 version of the debugger.
 
-::: moniker-end
-
 |**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|
 |-|-|-|-|
 |135, 139, 445|Outgoing|TCP|Required.|
 |137, 138|Outgoing|UDP|Required.|
+
+::: moniker-end
 
 If your domain policy requires network communication to be performed through Internet Protocol Security (IPSec), you must open additional ports on both the Visual Studio and remote computers. To debug on a remote IIS web server, open port 80 on the remote computer.
 
@@ -103,9 +103,9 @@ If your domain policy requires network communication to be performed through Int
 
 To allow specific apps through the Windows firewall, see [Configure remote debugging through Windows Firewall](#configure-remote-debugging-through-windows-firewall).
 
-## Configure remote debugging through Windows firewall
+## Allow the remote debugger through Windows firewall
 
-You can install the remote debugging tools on the remote computer, or run them from a shared folder. In either case, the remote computer firewall must be configured correctly.
+You can install the remote debugging tools on the remote computer, or run them from a shared folder. In either case, the remote computer firewall must be configured correctly. In most scenarios, you don't need to manually open ports if you allow the remote debugger app through the firewall (the ports should open when you allow the app).
 
 On a remote computer, the remote debugging tools are in:
 

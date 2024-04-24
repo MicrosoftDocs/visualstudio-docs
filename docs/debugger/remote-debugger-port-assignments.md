@@ -60,6 +60,8 @@ Remote debugger ports are configurable. Currently, Azure App Service does not us
 
 UDP 3702 is used for finding running instances of the remote debugger on the network (for example, the **Find** dialog in the **Attach to Process** dialog). It is used only for discovering a machine running the remote debugger, so it is  optional if you have some other way of knowing the machine name or IP address of the target computer. This is a standard port for discovery, so the port number cannot be configured.
 
+The discovery port must be opened as an outbound port (outbound rule).
+
 If you do not want to enable discovery, you can start msvsmon from the command line with discovery disabled:  **Msvsmon /nodiscovery**.
 
 ## See also
