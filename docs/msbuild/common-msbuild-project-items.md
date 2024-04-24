@@ -81,7 +81,7 @@ Represents a reference to another project. `ProjectReference` items are transfor
 |SetPlatform|Optional string. Sets the global property `Platform` for the referenced project, for example `Platform=AnyCPU`.|
 |SetTargetFramework|Optional string. Sets the global property `TargetFramework` for the referenced project, for example `TargetFramework=netstandard2.0`.|
 |SkipGetTargetFrameworkProperties|Optional boolean. If `true`, builds the referenced project without negotiating the most compatible `TargetFramework` value. Defaults to `false`.|
-|Targets|Optional `string[]`. Semicolon separated list of targets in the referenced projects that should be built. Default is the value of `$(ProjectReferenceBuildTargets)`, which defaults to empty, indicating the default targets.|
+|Targets|Optional `string[]`. Semicolon separated list of targets in the referenced projects that should be built. Default is the value of `$(ProjectReferenceBuildTargets)`, which defaults to empty, indicating the default targets. When building in Visual Studio (as opposed to `MSBuild.exe` or `dotnet build`), specifying this does not prevent Visual Studio from building the default targets of the referenced project.|
 
 > [!NOTE]
 > There is a difference between how project references work between .NET Framework and .NET Core (including .NET 5 and later). In .NET Framework projects, project references aren't transitive. That is, if Project1 references Project2, and Project2 references Project3, you can't code against Project3 from Project1. However, in .NET Core (including .NET 5 and later), project references *are* transitive. You can code against Project3 in Project1.
