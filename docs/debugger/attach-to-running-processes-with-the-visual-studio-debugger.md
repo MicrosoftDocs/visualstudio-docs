@@ -1,7 +1,7 @@
 ---
 title: Attach to running processes with the debugger
 description: Attach the Visual Studio debugger to a running process on a local or remote computer to debug running apps, apps not created in Visual Studio, and other scenarios.
-ms.date: "05/15/2023"
+ms.date: "04/24/2024"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.processes.attach"
@@ -40,8 +40,42 @@ You can use **Attach to Process** to debug running apps on local or remote compu
 
 To quickly reattach to a process you attached to previously, see [Reattach to a process](#BKMK_reattach).
 
-**To attach to a process on your local computer:**
+::: moniker range=">= vs-2022"
+Starting in Visual Studio 2022 version 17.10 Preview 2, the Attach to Process dialog box has changed. If you need instructions that match the older dialog box, switch to the Visual Studio 2019 view (upper left version selector in the article).
+::: moniker-end
 
+To attach to a process on your local computer:
+
+::: moniker range=">= vs-2022"
+1. In Visual Studio, select **Debug** > **Attach to Process** (or press **Ctrl**+**Alt**+**P**) to open the **Attach to Process** dialog box.
+
+1. Set the **Connection type** to **Local**.
+
+   In most scenarios, you can use **Local**. Some scenarios might require a different connection type. For more info, see other sections in this article or [Common debugging scenarios](#BKMK_Scenarios).
+
+   ![Screenshot of the Attach to Process dialog box, with the connection target set to the local machine name.](../debugger/media/vs-2022/debug-basics-attach-to-process.png)
+
+1. In the **Available processes** list, find, and select the process or processes you want to attach to.
+
+   - To quickly select a process, type its name or first letter in the **Filter processes** box.
+
+   - If you don't know the process name, browse through the list, or see [Common debugging scenarios](#BKMK_Scenarios) for some common process names.
+
+   >[!TIP]
+   > Processes can start and stop in the background while the **Attach to Process** dialog box is open, so the list of running processes might not always be current. You can select **Refresh** at any time to see the current list.
+
+1. In the **Code type** field, make sure the type of code you plan to debug is listed.
+
+   The default **Automatic** setting works for most app types, but you can select a specific code type to manually specify the debugger type.
+
+1. Select **Attach**.
+
+> [!TIP]
+> In the scenario where you have multiple identical processes, use the Command Line column or the w3wp process details from the Title column to identify the right process.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
 1. In Visual Studio, select **Debug** > **Attach to Process** (or press **Ctrl**+**Alt**+**P**) to open the **Attach to Process** dialog box.
 
 1. Check the **Connection type**.
@@ -50,12 +84,7 @@ To quickly reattach to a process you attached to previously, see [Reattach to a 
 
 1. Set the **Connection target** to your local machine name.
 
-   ::: moniker range=">= vs-2022"
-   ![Screenshot of the Attach to Process dialog box, with the connection target set to the local machine name.](../debugger/media/vs-2022/dbg-basics-attach-to-process.png)
-   ::: moniker-end
-   ::: moniker range="<= vs-2019"
    ![Screenshot of the Attach to Process dialog box, with the connection target set to the local machine name.](../debugger/media/DBG_Basics_Attach_To_Process.png)
-   ::: moniker-end
 
 1. In the **Available processes** list, find, and select the process or processes you want to attach to.
 
@@ -79,9 +108,6 @@ To quickly reattach to a process you attached to previously, see [Reattach to a 
 
 1. Select **Attach**.
 
-::: moniker range=">= vs-2022"
-> [!TIP]
-> In the scenario where you have multiple identical processes, use the Command Line column or the w3wp process details from the Title column to identify the right process.
 ::: moniker-end
 
 >[!NOTE]
@@ -93,7 +119,7 @@ You can also select a remote computer in the **Attach to Process** dialog box, v
 
 For more complete instructions for debugging ASP.NET applications that have been deployed to IIS, see [Remote debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md).
 
-**To attach to a running process on a remote computer:**
+To attach to a running process on a remote computer:
 
 1. In Visual Studio, select **Debug** > **Attach to Process** (or press **Ctrl**+**Alt**+**P**) to open the **Attach to Process** dialog box.
 
