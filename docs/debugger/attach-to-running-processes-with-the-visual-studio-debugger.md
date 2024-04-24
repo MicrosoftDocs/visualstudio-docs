@@ -51,7 +51,7 @@ To attach to a process on your local computer:
 
 1. Set the **Connection type** to **Local**.
 
-   In most scenarios, you can use **Local**. Some scenarios might require a different connection type. For more info, see other sections in this article or [Common debugging scenarios](#BKMK_Scenarios).
+   In most local debugging scenarios, you can use **Local**. Some scenarios might require a different connection type. For more info, see other sections in this article or [Common debugging scenarios](#BKMK_Scenarios).
 
    ![Screenshot of the Attach to Process dialog box, with the connection target set to the local machine name.](../debugger/media/vs-2022/debug-basics-attach-to-process.png)
 
@@ -243,7 +243,7 @@ To quickly select a running process to attach to, in Visual Studio, type **Ctrl*
 |Scenario|Debug method|Process name|Notes and links|
 |-|-|-|-|
 |ASP.NET Core - Remote debug on IIS server|Use remote tools and **Attach to Process**|*w3wp.exe* or *dotnet.exe*|Starting in .NET Core 3, the *w3wp.exe* process is used for the default [in-app hosting model](/aspnet/core/host-and-deploy/aspnet-core-module?view=aspnetcore-3.1&preserve-view=true#hosting-models). For app deployment, see [Publish to IIS](/aspnet/core/host-and-deploy/iis/). For more detailed information, see [Remote debugging ASP.NET Core on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md#BKMK_attach)|
-|ASP.NET Core - Debug on the local machine after you start the app without the debugger|Use **Attach to Process**|*msedge.exe*|This might be helpful to make your app load faster, such as (for example) when profiling. |
+|ASP.NET Core - Debug on the local machine after you start the app without the debugger|Use **Attach to Process**|*appname.exe* or *iisexpress.exe*|This might be helpful to make your app load faster, such as (for example) when profiling. The default local server (kestrel) process for ASP.NET Core is *appname.exe*.|
 |ASP.NET 4 or 4.5 - Remote debug on an IIS server|Use remote tools and **Attach to Process**|*w3wp.exe*|See [Remote debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)|
 |Client-side script - Debug on a local IIS server, for supported app types |Use **Attach to Process**|*chrome.exe* or *msedge.exe*|Script debugging must be enabled. For Chrome, you must also run Chrome in debug mode (type `chrome.exe --remote-debugging-port=9222` from a command line) and select **JavaScript or TypeScript** in the **Attach to** field.|
 |C#, Visual Basic, or C++ app - Debug on the local machine|Use either standard debugging (**F5**) or **Attach to Process**|*\<appname>.exe*|In most scenarios, use standard debugging and not **Attach to Process**.|
