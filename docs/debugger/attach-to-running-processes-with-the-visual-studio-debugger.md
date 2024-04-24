@@ -126,7 +126,7 @@ To attach to a running process on a remote computer:
 ::: moniker range=">= vs-2022"
 1. In Visual Studio, select **Debug** > **Attach to Process** (or press **Ctrl**+**Alt**+**P**) to open the **Attach to Process** dialog box.
 
-1. Set the **Connection type** to **Remote (Windows)**
+1. Set the **Connection type** to a remote connection type such as **Remote (Windows)**.
 
    In most scenarios for remote debugging on Windows, you can use **Remote (Windows)**. Some scenarios, such as debugging Linux or a containerized app, require a different connection type. For more info, see other sections in this article or [Common debugging scenarios](#BKMK_Scenarios).
 
@@ -136,7 +136,7 @@ To attach to a running process on a remote computer:
 
    - Select the dropdown list arrow next to **Connection target**, and select the computer name from the dropdown list.
    - Type the computer name in the **Connection target** box and press **Enter**.
-   - Select the **Find** button next to the **Connection target** box to open the **Remote Connections** dialog box. The **Remote Connections** dialog box lists all the devices that are on your local subnet or directly attached to your computer. You might need to [open outbound UDP port 3702](../debugger/remote-debugger-port-assignments.md) on the server to discover remote devices. Select the computer or device you want, and then click **Select**.
+   - Select the **Find** button next to the **Connection target** box to open the **Remote Connections** dialog box. The **Remote Connections** dialog box lists all the devices that are on your local subnet or directly attached to your computer. You might need to [open outbound UDP port 3702](../debugger/remote-debugger-port-assignments.md) on the server to discover remote devices. Select the computer or device you want, and then close the dialog box.
 
    Verify that Visual Studio adds the required port to the computer name, which appears in the format: **\<remote computer name>:port**
 
