@@ -101,7 +101,7 @@ If your domain policy requires network communication to be performed through Int
 |500, 4500|Outgoing|UDP|Required if your domain policy requires network communication to be performed through IPSec.|
 |80|Outgoing|TCP|Required for web server debugging.|
 
-To allow specific apps through the Windows firewall, see [Configure remote debugging through Windows Firewall](#configure-remote-debugging-through-windows-firewall).
+To allow specific apps through the Windows firewall, see [Configure remote debugging through Windows Firewall](#allow-the-remote-debugger-through-windows-firewall).
 
 ## Allow the remote debugger through Windows firewall
 
@@ -125,7 +125,7 @@ To allow the remote debugger through Windows Firewall:
 
 If you can't attach to your app with the remote debugger, make sure the remote debugging firewall ports, protocols, network types, and app settings are all correct.
 
-- In the Windows **Start** menu, search for and open **Windows Firewall**, and select **Allow an app through Windows Firewall**. Make sure **Remote Debugger** or **Visual Studio Remote Debugger** appears in the **Allowed apps and features** list with a selected checkbox, and the correct network types are selected. If not, [add the correct apps and settings](#configure-remote-debugging-through-windows-firewall).
+- In the Windows **Start** menu, search for and open **Windows Firewall**, and select **Allow an app through Windows Firewall**. Make sure **Remote Debugger** or **Visual Studio Remote Debugger** appears in the **Allowed apps and features** list with a selected checkbox, and the correct network types are selected. If not, [add the correct apps and settings](#allow-the-remote-debugger-through-windows-firewall).
 
 - In the Windows **Start** menu, search for and open **Windows Firewall with Advanced Security**. Make sure **Remote Debugger** or **Visual Studio Remote Debugger** appears under **Inbound Rules** (and optionally, **Outbound Rules**) with a green check mark icon, and that all settings are correct.
 
