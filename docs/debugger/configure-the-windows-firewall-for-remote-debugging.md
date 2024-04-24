@@ -22,7 +22,7 @@ This topic describes how to configure the Windows firewall to enable remote debu
 
 Visual Studio and the remote debugger try to open the correct ports during installation or startup. However, in some scenarios, such as a third-party firewall, you might need to open ports manually.
 
-**To open a port:**
+To open a port:
 
 1. In Windows **Start** menu, search for and open **Windows Firewall with Advanced Security**. Starting in Windows 10, this is **Windows Defender Firewall with Advanced Security**.
 
@@ -42,7 +42,7 @@ Visual Studio and the remote debugger try to open the correct ports during insta
 
    The new rule should appear and be selected in the **Inbound Rules** or **Outbound Rules** list.
 
-**To open a port using PowerShell:**
+To open a port using PowerShell:
 
 For Windows Firewall, you can use PowerShell commands such as [New-NetFirewallRule](/powershell/module/netsecurity/new-netfirewallrule).
 
@@ -105,13 +105,9 @@ To allow specific apps through the Windows firewall, see [Configure remote debug
 
 ## Allow the remote debugger through Windows firewall
 
-You can install the remote debugging tools on the remote computer, or run them from a shared folder. In either case, the remote computer firewall must be configured correctly. In most scenarios, you don't need to manually open ports if you allow the remote debugger app through the firewall (the ports should open when you allow the app).
+When you [configure the remote debugger](../debugger/remote-debugging.md#bkmk_setup), the configuration software should open the correct ports. However, in some scenarios you might need to manually allow the remote debugger through the firewall.
 
-On a remote computer, the remote debugging tools are in:
-
-*\<Visual Studio installation directory\>\\Common7\\IDE\\Remote Debugger\\\<x86*, *x64*, or *Appx*\>
-
-### Allow and configure the remote debugger through Windows Firewall
+To allow the remote debugger through Windows Firewall:
 
 1. In Windows **Start** menu, search for and open **Windows Firewall**, or **Windows Defender Firewall**.
 
